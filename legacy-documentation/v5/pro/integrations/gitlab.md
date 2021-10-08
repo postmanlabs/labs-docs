@@ -15,7 +15,7 @@ Setting up a GitLab integration requires you to get a GitLab Personal Access Tok
 
 Log in to [GitLab](https://about.gitlab.com/). 
 
-If you don’t already have a Personal Access Token from GitLab, [generate a new one](https://gitlab.com/profile/personal_access_tokens).  
+If you don’t already have a Personal Access Token from GitLab, [generate a new one](https://gitlab.com/profile/personal_access_tokens).  
 
 Save the generated token to use later.
 

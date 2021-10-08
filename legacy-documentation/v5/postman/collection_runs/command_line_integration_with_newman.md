@@ -11,13 +11,13 @@ Newman is a command line collection runner for Postman. It allows you to run and
 
 Newman maintains feature parity with Postman and allows you to run collections just the way they are executed inside the collection runner in the Postman app.
 
-Newman resides in the [NPM registry](https://www.npmjs.com/package/newman) and on [GitHub](https://github.com/postmanlabs/newman).
+Newman resides in the [NPM registry](https://www.npmjs.com/package/newman) and on [GitHub](https://github.com/postmanlabs/newman).
 
 [![newman gif](https://assets.postman.com/postman-docs/newman.gif)](https://assets.postman.com/postman-docs/newman.gif)
 
 ### Getting Started on Linux, Windows, or Mac
 
-Newman is built on Node.js. To run Newman, make sure you have Node.js installed. Node.js can be [downloaded and installed](https://nodejs.org/en/download/current/) on Linux, Windows, and Mac OSX.
+Newman is built on Node.js. To run Newman, make sure you have Node.js installed. Node.js can be [downloaded and installed](https://nodejs.org/en/download/current/) on Linux, Windows, and Mac OSX.
 
 Once Node.js is installed, Newman is just a command away. Install Newman from npm globally on your system allowing you to run it from anywhere.
 
@@ -25,13 +25,13 @@ Once Node.js is installed, Newman is just a command away. Install Newman from np
 $ npm install -g newman
 ```
 
-The easiest way to run Newman is to run it with a collection. You can run any collection file from your file system. Refer to the [collection documentation](https://learning.postman.com/docs/postman/collections/sharing-collections/) to learn how to export collections to share as a file.
+The easiest way to run Newman is to run it with a collection. You can run any collection file from your file system. Refer to the [collection documentation](https://learning.postman.com/docs/postman/collections/sharing-collections/) to learn how to export collections to share as a file.
 
 ```bash
 $ newman run mycollection.json
 ```
 
-You can also pass a collection as a URL. Refer to the [collection documentation](https://learning.postman.com/docs/postman/collections/sharing-collections/) to learn how to share a file as a URL. Your collection probably uses environment variables. To provide an accompanying set of environment variables, [export the template](https://learning.postman.com/docs/postman/environments_and_globals/manage_environments/) from Postman and run them with the `-e` flag.
+You can also pass a collection as a URL. Refer to the [collection documentation](https://learning.postman.com/docs/postman/collections/sharing-collections/) to learn how to share a file as a URL. Your collection probably uses environment variables. To provide an accompanying set of environment variables, [export the template](https://learning.postman.com/docs/postman/environments_and_globals/manage_environments/) from Postman and run them with the `-e` flag.
 
 ```bash
 $ newman run https://www.postman.com/collections/cb208e7e64056f5294e5 -e dev_environment.json
@@ -39,7 +39,7 @@ $ newman run https://www.postman.com/collections/cb208e7e64056f5294e5 -e dev_env
 
 ### Options
 
-Newman provides a rich set of options to customize a run. A list of options can be retrieved by running it with the ``-h`` flag.
+Newman provides a rich set of options to customize a run. A list of options can be retrieved by running it with the ``-h`` flag.
 
 ```bash
 $ newman run -h
@@ -71,13 +71,13 @@ Misc.:
 -x, --suppress-exit-code        Continue running tests even after a failure, but exit with code=0
 --ignore-redirects              Disable automatic following of 3XX responses
 ```
-Use the ``-n`` option to set the number of iterations to run the collection.
+Use the ``-n`` option to set the number of iterations to run the collection.
 
 ```bash
 $ newman run mycollection.json -n 10  # runs the collection 10 times
 ```
 
-To provide a different set of data, i.e. variables for each iteration, you can use the ``-d`` to specify a JSON or CSV file. For example, a data file such as the one shown below will run _2_ iterations, with each iteration using a set of variables.
+To provide a different set of data, i.e. variables for each iteration, you can use the ``-d`` to specify a JSON or CSV file. For example, a data file such as the one shown below will run _2_ iterations, with each iteration using a set of variables.
 
 ```json
 [{
@@ -153,7 +153,7 @@ The results of all tests and requests can be exported into a file and later impo
 $ newman run mycollection.json --reporters cli,json --reporter-json-export outputfile.json
 ```
 
-**Note:** Newman allows you to use all [libraries and objects](https://learning.postman.com/docs/postman/scripts/postman_sandbox/) that Postman supports to run tests and pre-request scripts.
+**Note:** Newman allows you to use all [libraries and objects](https://learning.postman.com/docs/postman/scripts/postman_sandbox/) that Postman supports to run tests and pre-request scripts.
 
 ### File uploads
 
@@ -209,7 +209,7 @@ Newman also supports file uploads. For this to work correctly, the file to be up
 }
 ```
 
-The file ``sample-file.txt`` must be present in the same directory as the collection. The collection can the be run as usual.
+The file ``sample-file.txt`` must be present in the same directory as the collection. The collection can the be run as usual.
 
 ```bash
 $ newman run file-upload.postman_collection.json
@@ -298,7 +298,7 @@ newman.run({
 
 In both cases above, the reporter options are optional.
 
-For the complete list of details, see the [Newman README](https://github.com/postmanlabs/newman).
+For the complete list of details, see the [Newman README](https://github.com/postmanlabs/newman).
 
 [0]: https://www.npmjs.com/package/newman
 [1]: https://github.com/postmanlabs/newman

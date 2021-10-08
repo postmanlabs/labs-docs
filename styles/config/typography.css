@@ -1,18 +1,47 @@
 /*  Currently only Semibold is imported for Headers */
 @font-face {
-  font-family: 'Degular Display Demo';
-  src: url('../DegularDisplayDemo-Semibold.ttf');
-}
-
-@font-face {
-  font-family: 'Degular Display Demo';
-  src: url('../degulardisplay-semibold-webfont.woff2') format('woff2'),
-       url('../degulardisplay-semibold-webfont.woff') format('woff');
-       
+  font-family: 'Degular-Display-Semibold';
+  src: url('Degular_Display-Semibold.woff2') format('woff2'),
+       url('Degular_Display-Semibold.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
-
-body {
-  font-feature-settings: "ss01", "onum", "zero";
+/* inter-regular - latin */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  src: url('inter-v3-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('inter-v3-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('inter-v3-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('inter-v3-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('inter-v3-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('inter-v3-latin-regular.svg#Inter') format('svg'); /* Legacy iOS */
+}
+/* inter-600 - latin */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  src: url('inter-v3-latin-600.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('inter-v3-latin-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('inter-v3-latin-600.woff2') format('woff2'), /* Super Modern Browsers */
+       url('inter-v3-latin-600.woff') format('woff'), /* Modern Browsers */
+       url('inter-v3-latin-600.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('inter-v3-latin-600.svg#Inter') format('svg'); /* Legacy iOS */
+}
+/* ibm-plex-mono-regular - latin */
+@font-face {
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: url('ibm-plex-mono-v7-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('ibm-plex-mono-v7-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('ibm-plex-mono-v7-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('ibm-plex-mono-v7-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('ibm-plex-mono-v7-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('ibm-plex-mono-v7-latin-regular.svg#IBMPlexMono') format('svg'); /* Legacy iOS */
 }

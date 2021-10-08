@@ -1,110 +1,116 @@
 @import '../Shared/_variables.scss';
 
-.leftNav {
+
+.left-nav-re {
+  padding: 32px 0px 8px 0px;
   background-color: $grey_05;
-  height: 100%;
   font-size: 14px;
-  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica, Arial, sans-serif;
-  padding: 32px 8px 8px 20px;
-  .active.root > .parent.currentUrl {
+  font-family: $inter;
+
+  & ul {
+    margin-left: 0;
+    & ul {
+      margin-left: 32px;
+      margin-top: 8px;
+      & ul {
+        margin-left: 32px;
+        margin-top: 12px;
+      }
+    }
+  }
+
+  //  parent ------------------------------
+  .parent {
+    font-weight: 400;
+    list-style-type: none;
+    margin-bottom: 4px;
+  }
+
+  .currentUrl {
     background-color: inherit;
     color: inherit;
-    padding-left: 70px;
-    & button {
-      &:hover{
+
+    button:hover{
         color: $grey_60;
       }
+  }
+  .currentUrl button:hover {
+    color: $grey_90 !important;
+    background-color: $grey_05;
+  }
+
+  button {
+    background: none;
+    color: inherit;
+    display: block;
+    border: none;
+    padding: 0;
+    width: 100%;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+    text-align: left;
+
+    @media screen and (max-width: 768px) {
+      text-align: left !important; 
+    }
+    @media screen and (min-width: 768px) {
+      text-align: left !important; 
+    }
+    &:hover{
+      color: $grey_60;
     }
   }
-  .root > .parent{
-    button {
-      font-weight: 400;
+  // sub Parent ----------------------
+  .sub-parent {
+    // margin-left: 32px;
+    margin-top: 8px;
+  }
+
+  // Caret ---------------------------
+  .caret-wrapper {
+    width: 24px;
+    &:hover {
+      cursor: default;
     }
   }
-  .parent {
-    list-style-type: none;
-    margin-left: -10px;
-    .caret {
-      position: relative;
-      left: -8px;
+  .caret {
+    transition: transform .2s ease;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    
+    &.active-caret {
       transition: transform .2s ease;
-      -webkit-transform: rotate(-90deg);
-      -moz-transform: rotate(-90deg);
-      -o-transform: rotate(-90deg);
-      -ms-transform: rotate(-90deg);
-      transform: rotate(-90deg);
-      @media screen and (min-width: 768px) {
-        width: 10%;
-        height: 24px;
-      }
-      
-      &.active-caret {
-        transition: transform .2s ease;
-        -webkit-transform: rotate(0deg);
-        -moz-transform: rotate(0deg);
-        -o-transform: rotate(0deg);
-        -ms-transform: rotate(0deg);
-        transform: rotate(0deg);
-      }
-    }
-
-    & button {
-      background: none;
-      color: inherit;
-      display: inline-block;
-      border: none;
-      padding: 0;
-      font: inherit;
-      cursor: pointer;
-      outline: inherit;
-      text-transform: capitalize;
-
-      @media screen and (min-width: 768px) {
-        width: 90%;
-      text-align: left;
-      }
-      &:hover{
-        color: $grey_60;
-      }
-    }
-
-    &.currentUrl {
-      // background-color: $grey_60;
-      // color: $white;
-      margin: 0 -8px 0 -80px;
-      padding: 0 0 8px 70px;
-      & button {
-        &:hover {
-          color: $white;
-        }
-      }
+      -webkit-transform: rotate(0deg);
+      -moz-transform: rotate(0deg);
+      -o-transform: rotate(0deg);
+      -ms-transform: rotate(0deg);
+      transform: rotate(0deg);
     }
   }
 
+  .caret-sibling {
+    padding-left: 0;
+  }
+
+  // Child ---------------
   .child {
-    margin-left: 28px;
-    margin-bottom: 24px;
+    margin-left: 16px;
+    margin-right:16px;
+    margin-bottom: 0px;
+    list-style-type: none;
+    color: $grey_50;
 
     &.currentUrl{
-      font-weight: 700;
-      margin-left: 23px;
+      font-weight: 600;
 
       > * {
         vertical-align: middle;
       }
-
-      // .activeIndicator {
-      //   min-width: 5px;
-      //   height: 1.5em;
-      //   display: inline-block;
-      //   background-color: $grey_60;
-      //   position: relative;
-      //   left: -10px;
-      //   top: 5px;
-      // }
-
       a:link, a:visited {
-        margin-left: 5px;
         background-color: rgb(242, 242, 242);
         color: $grey_90;
         border-radius: 3px;
@@ -122,18 +128,5 @@
         border-radius: 3px;
       }
     }
-  }
-
-  ul.active > .child, ul.active > .parent, ul.active > ul.inactive, ul.inactive.root {
-    display: block;
-  }
-
-  ul.active > .child {
-    color: $grey_50;
-    margin-bottom: 0;
-  }
-
-  ul.inactive > .child, ul.inactive > ul {
-    display: none;
   }
 }

@@ -43,7 +43,7 @@ hr {
 }
 
 .event-date {
-    font-family: 'Degular Display Demo' !important;
+    font-family: $degular !important;
     font-size: 28px;
     // text-align: center;
     // font-weight: 500;
@@ -71,12 +71,6 @@ hr {
     @media (min-width: 992px) {
         padding-left: 48px !important;
     }
-}
-
-.event-title {
-    font-size: 24px;
-    margin-bottom: 4px;
-    font-weight: bold;
 }
 
 .event-month {

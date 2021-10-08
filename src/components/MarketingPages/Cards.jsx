@@ -13,7 +13,7 @@ export const LandingCard = ({
       </div>
     </div>
     <div className="landing-card__content text-left">
-      <h3 className="landing-card__content-title">{title}</h3>
+      <h3 className="landing-card__content-title h4">{title}</h3>
       <p className="landing-card__content-description">{description}</p>
       <a href={link} className="link-style">
         {cta}
@@ -35,7 +35,7 @@ export const LandingCardWithOutboundLink = ({
       </div>
     </div>
     <div className="landing-card__content">
-      <h3 className="landing-card__content-title">{title}</h3>
+      <h3 className="landing-card__content-title h4">{title}</h3>
       <p className="landing-card__content-description">{description}</p>
       <OutboundLink href={link} className="btn btn__primary">{cta}</OutboundLink>
     </div>

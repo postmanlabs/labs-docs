@@ -10,20 +10,22 @@ We follow [Git Flow](https://guides.github.com/introduction/flow/) for changes t
 
 _GitHub Desktop is much easier if you're unfamiliar with using git / GitHub on the command line._
 
-* Fork this repo to create a copy hosted on your GitHub account. The Fork button is in the top right of the page.
+**NOTE:** this site was built with node v12.13.0. We recommend installing and using [nvm](https://github.com/nvm-sh/nvm) and setting your node version to v12.13.0.
+
+1. Fork this repo to create a copy hosted on your GitHub account. The Fork button is in the top right of the page.
     * If you're a collaborator on the repo you can instead just create a branch.
-* Clone down your copy of this repo onto your local machine: `git clone <YOUR GITHUB REPO URL>`
-* Navigate to the new directory git created. `cd postman-docs`
-* Check out the `develop` branch. `git checkout develop`
-* Run `npm install` to add all dependencies
-* Create a new branch for your work based on develop `git checkout -b <YOUR BRANCH NAME>` Your branch name should be something descriptive of the changes you wish to make, and can include the issue number this change is associated with. Example: `feature/1234-update-mock-api-docs`
-* Make your changes. The Learning Center's documentation is built from the `.md` files in the `/src/pages/docs` folder of the repo.
-* Check your files against our markdown guidelines by running `npm run test:mdlint` and resolve any errors
-* When you're ready to apply your changes, push your changed files to your forked repo:
+1. Clone down your copy of this repo onto your local machine: `git clone <YOUR GITHUB REPO URL>`
+1. Navigate to the new directory git created: `cd postman-docs`
+1. Check out the `develop` branch: `git checkout develop`
+1. Run `npm install` to add all dependencies.
+1. Create a new branch for your work based on develop: `git checkout -b <YOUR BRANCH NAME>` Your branch name should be something descriptive of the changes you wish to make, and can include the issue number this change is associated with. Example: `feature/1234-update-mock-api-docs`
+1. Make your changes. The Learning Center's documentation is built from the `.md` files in the `/src/pages/docs` folder of the repo.
+1. Check your files against our markdown guidelines by running `npm run test:mdlint` and resolve any errors.
+1. When you're ready to apply your changes, push your changed files to your forked repo:
     * `git add <FILENAMES OF CHANGED FILES>`
     * `git commit -m "<YOUR COMMIT MESSAGE>"` Your commit message should be descriptive of the changes you made.
     * `git push -u origin HEAD` This will push your changes to the branch you created on your forked repo.
-* Open a Pull Request to the `postman-docs` repo
+1. Open a Pull Request to the `postman-docs` repo:
     * Navigate to the [postman-docs](https://github.com/postmanlabs/postman-docs) repo
     * Click `New pull request`
     * Click `Compare across forks`

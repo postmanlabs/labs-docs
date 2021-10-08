@@ -73,7 +73,7 @@ Postman Monitoring helps you to stay up to date on the health and performance of
 
 Monitoring is a way to stay up to date on the health and performance of your APIs. Postman's built-in monitoring service helps you consolidate an additional step in your API development lifecycle.
 
-Postman monitors are based on [collections](/docs/sending-requests/intro-to-collections/). Monitors will run through each request in your collection, similar to the [collection runner](/docs/running-collections/intro-to-collection-runs/). You can also attach a corresponding [environment](/docs/sending-requests/managing-environments/) with variables you'd like to utilize during each collection run.
+Postman monitors are based on [collections](/docs/sending-requests/intro-to-collections/). Monitors will run through each request in your collection, similar to the [collection runner](/docs/running-collections/intro-to-collection-runs/). You can also attach a corresponding [environment](/docs/sending-requests/managing-environments/) with variables you'd like to utilize during each collection run.
 
 The value of monitors lies in your [test scripts](/docs/writing-scripts/test-scripts/). When running your collection, a monitor will use your tests to validate the responses it's receiving. When one of these tests fail, you can automatically receive an email [notification](/docs/designing-and-developing-your-api/monitoring-your-api/setting-up-monitor/) or configure the available [integrations](/docs/integrations/intro-integrations/) to receive alerts in tools like Slack, PagerDuty, or HipChat.
 
@@ -105,7 +105,7 @@ With a free Postman account, once you've reached your usage limit for monitoring
 
 With a paid Postman account, you have the option to cap your monthly monitoring usage by navigating to your [billing dashboard](https://go.postman.co/billing) > **Overages** and deselecting **Allow monitoring overages**. Overages are allowed by default and are charged at a pay-as-you-go rate. You can also opt to [purchase monitoring blocks](https://go.postman.co/billing/overview).
 
-> Unused monitoring requests or blocks do not roll over and must be consumed during the month purchased.
+> Unused monitoring requests or blocks do not roll over to the next month.
 
 See more on [how Postman calculates usage](#how-postman-calculates-monitor-usage).
 

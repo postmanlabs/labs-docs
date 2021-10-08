@@ -137,7 +137,7 @@ Select features to enable them, or de-select to disable. Click **Save** to save 
 
 <img alt="Enabled features in Okta's Postman app" src="https://assets.postman.com/postman-docs/postman-okta-app-enabled-features.jpg"/>
 
-Any provisioning features you've enabled will be immediately available for use in your Postman Okta app.
+Any provisioning features you've enabled will be immediately available for use in your Postman Okta app. If a user is already provisioned from the Postman app, you may encounter an error in Okta. If this occurs, remove the pending invite from the Postman manage team settings, and Okta will then provision them.
 
 ## Enabling SCIM with the SCIM API
 

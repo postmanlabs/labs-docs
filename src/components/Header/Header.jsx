@@ -14,7 +14,6 @@ import {
 import { CustomHits } from '../Search/searchPreview';
 
 import postmanLogo from '../../images/postman-logo-icon.svg';
-import postmanHomeLogo from '../../images/logo-flip-home.svg';
 
 // window.$ = $;
 
@@ -59,8 +58,6 @@ const LoginCheck = (props) => {
         <a
           href={`https://go.postman${beta}.co/build`}
           className="button__sign-in pingdom-transactional-check__sign-in-button"
-          target="_blank"
-          rel="noreferrer"
           onClick={() => {
             trackCustomEvent({
               // string - required - The object that was interacted with (e.g.video)
@@ -77,8 +74,6 @@ const LoginCheck = (props) => {
         <a
           href={`https://identity.getpostman${beta}.com/signup?continue=https%3A%2F%2Fgo.postman.co%2Fbuild`}
           className="button__sign-up"
-          target="_blank"
-          rel="noreferrer"
           onClick={() => {
             trackCustomEvent({
               // string - required - The object that was interacted with (e.g.video)
@@ -96,12 +91,7 @@ const LoginCheck = (props) => {
     );
   }
   return (
-    <a
-      href="https://go.postman.co/home"
-      className="button__sign-up ml-3"
-      target="_blank"
-      rel="noreferrer"
-    >
+    <a href="https://go.postman.co/home" className="button__sign-up ml-3">
       Launch Postman
     </a>
   );
@@ -258,26 +248,9 @@ class Header extends React.Component {
     return (
       <>
         <nav className="navbar-v6 navbar navbar-expand-lg navbar-light bg-light nav-primary">
-          <a
-            className="navbar-brand"
-            href="https://www.postman.com"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
+          <a className="navbar-brand" href="https://www.postman.com">
             <div className="navbar-logo-container">
-              <div className="flip-icons">
-                <div className="flip-front">
-                  <img src={postmanLogo} alt="Postman" width="32" height="32" />
-                </div>
-                <div className="flip-back">
-                  <img
-                    src={postmanHomeLogo}
-                    alt="Postman"
-                    width="32"
-                    height="32"
-                  />
-                </div>
-              </div>
+              <img src={postmanLogo} alt="Postman" width="32" height="32" />
             </div>
           </a>
           <button
@@ -343,40 +316,30 @@ class Header extends React.Component {
                 >
                   <a
                     className="dropdown-item"
-                    target="_blank"
-                    rel="noreferrer"
                     href="https://www.postman.com/product/what-is-postman/"
                   >
                     What is Postman?
                   </a>
                   <a
                     className="dropdown-item"
-                    target="_blank"
-                    rel="noreferrer"
                     href="https://www.postman.com/product/api-repository/"
                   >
                     API repository
                   </a>
                   <a
                     className="dropdown-item"
-                    target="_blank"
-                    rel="noreferrer"
                     href="https://www.postman.com/product/tools/"
                   >
                     Tools
                   </a>
                   <a
                     className="dropdown-item"
-                    target="_blank"
-                    rel="noreferrer"
                     href="https://www.postman.com/product/intelligence/"
                   >
                     Intelligence
                   </a>
                   <a
                     className="dropdown-item"
-                    target="_blank"
-                    rel="noreferrer"
                     href="https://www.postman.com/product/workspaces/"
                   >
                     Workspaces
@@ -389,8 +352,6 @@ class Header extends React.Component {
                   </a>
                   <a
                     className="dropdown-item app-cta"
-                    target="_blank"
-                    rel="noreferrer"
                     href="https://www.postman.com/downloads/"
                   >
                     Get started free →
@@ -398,12 +359,7 @@ class Header extends React.Component {
                 </div>
               </li>
               <li className="nav-item">
-                <a
-                  className="nav-link"
-                  target="_blank"
-                  rel="noreferrer"
-                  href="https://www.postman.com/pricing/"
-                >
+                <a className="nav-link" href="https://www.postman.com/pricing/">
                   Pricing
                 </a>
               </li>
@@ -435,16 +391,12 @@ class Header extends React.Component {
                 >
                   <a
                     className="dropdown-item"
-                    target="_blank"
-                    rel="noreferrer"
                     href="https://www.postman.com/postman-enterprise/"
                   >
                     Postman Enterprise
                   </a>
                   <a
                     className="dropdown-item"
-                    target="_blank"
-                    rel="noreferrer"
                     href="https://www.postman.com/case-studies/"
                   >
                     Enterprise case studies
@@ -488,24 +440,18 @@ class Header extends React.Component {
                       </a>
                       <a
                         className="dropdown-item"
-                        target="_blank"
-                        rel="noreferrer"
                         href="https://www.postman.com/webinars/"
                       >
                         Webinars
                       </a>
                       <a
                         className="dropdown-item"
-                        target="_blank"
-                        rel="noreferrer"
                         href="https://www.postman.com/events/breaking-changes/"
                       >
                         Breaking Changes show
                       </a>
                       <a
                         className="dropdown-item"
-                        target="_blank"
-                        rel="noreferrer"
                         href="https://www.postman.com/events/postman-space-camp/"
                       >
                         Postman Space Camp
@@ -522,23 +468,17 @@ class Header extends React.Component {
                       <a
                         className="dropdown-item"
                         href="https://blog.postman.com/"
-                        target="_blank"
-                        rel="noreferrer"
                       >
                         Blog
                       </a>
                       <a
                         className="dropdown-item"
-                        target="_blank"
-                        rel="noreferrer"
                         href="https://www.postman.com/community/"
                       >
                         Community
                       </a>
                       <a
                         className="dropdown-item"
-                        target="_blank"
-                        rel="noreferrer"
                         href="https://www.postman.com/company/student-program/"
                       >
                         Student program
@@ -551,16 +491,12 @@ class Header extends React.Component {
                       </a>
                       <a
                         className="dropdown-item"
-                        target="_blank"
-                        rel="noreferrer"
                         href="https://www.postman.com/postman-galaxy/"
                       >
                         Postman Galaxy
                       </a>
                       <a
                         className="dropdown-item"
-                        target="_blank"
-                        rel="noreferrer"
                         href="https://www.postman.com/company/nonprofit/"
                       >
                         Postman for Nonprofits
@@ -578,16 +514,12 @@ class Header extends React.Component {
                       <h6 className="dropdown-header">Support</h6>
                       <a
                         className="dropdown-item"
-                        target="_blank"
-                        rel="noreferrer"
                         href="https://www.postman.com/support/"
                       >
                         Support Center
                       </a>
                       <a
                         className="dropdown-item"
-                        target="_blank"
-                        rel="noreferrer"
                         href="https://www.postman.com/support/resellers-support/"
                       >
                         Reseller support
@@ -602,16 +534,12 @@ class Header extends React.Component {
                       </a>
                       <a
                         className="dropdown-item"
-                        target="_blank"
-                        rel="noreferrer"
                         href="https://www.postman.com/downloads/release-notes/"
                       >
                         Release notes
                       </a>
                       <a
                         className="dropdown-item"
-                        target="_blank"
-                        rel="noreferrer"
                         href="https://www.postman.com/company/contact-us/"
                       >
                         Contact us
@@ -621,12 +549,7 @@ class Header extends React.Component {
                 </div>
               </li>
               <li className="nav-item">
-                <a
-                  className="nav-link"
-                  href="https://www.postman.com/explore"
-                  target="_blank"
-                  rel="noreferrer"
-                >
+                <a className="nav-link" href="https://www.postman.com/explore">
                   Explore
                 </a>
               </li>
@@ -756,7 +679,18 @@ class Header extends React.Component {
                       </div>
                       <div className="row">
                         <div className="col-12">
-                          <Pagination />
+                          <Pagination
+                            translations={{
+                              previous: '← Previous',
+                              next: 'Next →',
+                              first: '«',
+                              last: '»',
+                              ariaPrevious: 'Previous page',
+                              ariaNext: 'Next page',
+                              ariaFirst: 'First page',
+                              ariaLast: 'Last page',
+                            }}
+                          />
                         </div>
                       </div>
                     </div>

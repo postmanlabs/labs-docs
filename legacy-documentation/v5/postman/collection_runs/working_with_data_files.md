@@ -12,7 +12,7 @@ We can think of data files are parameters for each iteration of a collection run
 ##### Download the collection and data files used in this example:
 
    *   [Collection.json](https://assets.postman.com/postman-docs/58533790.json)
-   *   [JSON](https://assets.postman.com/postman-docs/58702589.json), [CSV](https://assets.postman.com/postman-docs/58702574.csv)
+   *   [JSON](https://assets.postman.com/postman-docs/58702589.json), [CSV](https://assets.postman.com/postman-docs/58702574.csv)
 
 [![post request](https://assets.postman.com/postman-docs/WS-working-with-data-1.png)](https://assets.postman.com/postman-docs/WS-working-with-data-1.png)
 
@@ -56,7 +56,7 @@ In typical CSV fashion, the first row represents all variable names, and subsequ
 
 Do note that you can only use one data file for one run.
 
-Now that you understand how to construct data files, let's supply this data file to a Collection Run. Click `Select File` in the Runner, and select one of these files. You can also preview what values each variable has in each iteration by clicking on `Preview` next to the file name.
+Now that you understand how to construct data files, let's supply this data file to a Collection Run. Click `Select File` in the Runner, and select one of these files. You can also preview what values each variable has in each iteration by clicking on `Preview` next to the file name.
 
 [![collection runner view](https://assets.postman.com/postman-docs/58702694.png)](https://assets.postman.com/postman-docs/58702694.png)
 

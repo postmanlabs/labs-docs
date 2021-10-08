@@ -85,7 +85,7 @@ Save the URL to use later and click the <b>Save</b> button.</li>
 
 ### Viewing updates on HipChat
 
-Monitor run results on HipChat are color-coded based on the result of the monitor run. It shows the basic metrics of the run and also provides a link to go directly to the monitor.
+Monitor run results on HipChat are color-coded based on the result of the monitor run. It shows the basic metrics of the run and also provides a link to go directly to the monitor.
 
 [![hipchat view](https://assets.postman.com/postman-docs/58857265.png)](https://assets.postman.com/postman-docs/58857265.png)
 
