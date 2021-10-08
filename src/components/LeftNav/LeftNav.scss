@@ -49,8 +49,12 @@
     font: inherit;
     cursor: pointer;
     outline: inherit;
+    text-align: left;
 
     @media screen and (max-width: 768px) {
+      text-align: left !important; 
+    }
+    @media screen and (min-width: 768px) {
       text-align: left !important; 
     }
     &:hover{
