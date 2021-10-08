@@ -128,10 +128,11 @@
 }
 
 // make left nav full width in mobile view
-.left-nav {
+.left-nav-re {
   // z-index: -1;
   padding-left: 0px !important;
   padding-right: 0px !important;
+  
   @media screen and (min-width: 768px) {
     max-width: 350px;
   }
@@ -192,8 +193,10 @@ blockquote {
   position: -webkit-sticky;
   position: sticky !important;
   top: 160px;
-  // top: 0;
+}
 
+.posmanaut-dab {
+  max-width: 250px;
 }
 
 tr:hover {

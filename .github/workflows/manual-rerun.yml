@@ -10,6 +10,8 @@ jobs:
     - uses: actions/checkout@v1
     - uses: actions/setup-node@master
     - name: lint all markdownfiles
+      env:
+        NPM_KEY: ${{ secrets.NPM_KEY }}
       run: |
         npm config set //registry.npmjs.org/:_authToken=${{secrets.NPM_TOKEN}}
         npm install
@@ -22,6 +24,8 @@ jobs:
         else echo "no s3 references found";
         fi
     - name: running unit tests
+      env:
+        NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
       run: |
         npm config set //registry.npmjs.org/:_authToken=${{secrets.NPM_TOKEN}}
         npm install
