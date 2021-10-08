@@ -20,7 +20,7 @@ contextual_links:
     name: "Related Blog Posts"
   - type: link
     name: "6 Steps to Enhance Your Audio with a Dolby API and Postman Monitors"
-    url:  "https://blog.postman.com/6-steps-enhance-audio-dolby-api/"   
+    url:  "https://blog.postman.com/6-steps-enhance-audio-dolby-api/"
   - type: section
     name: "Next Steps"
   - type: link
@@ -32,6 +32,8 @@ warning: false
 
 
 Some teams use Postman monitors to ensure their APIs and websites remain operational. Monitors can be run as frequently as five minutes.
+
+> **Want to see Postman Monitors in action?** Visit the [Postman API Monitoring Examples public workspace](https://www.postman.com/postman/workspace/postman-api-monitoring-examples/overview) to find example collections for some common monitoring use cases. You can build on the collections in the workspace to create monitors for your APIs or even submit your own monitor examples.
 
 ## Monitoring APIs
 

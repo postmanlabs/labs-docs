@@ -79,6 +79,8 @@ The value of monitors lies in your [test scripts](/docs/writing-scripts/test-scr
 
 You can configure your monitors to run as frequently as you would like. For paid plans, monitors can be scheduled to run as often as every five minutes. For free plans, monitors can be scheduled to run as often as every hour.
 
+> **Want to see Postman Monitors in action?** Visit the [Postman API Monitoring Examples public workspace](https://www.postman.com/postman/workspace/postman-api-monitoring-examples/overview) to find example collections for some common monitoring use cases. You can build on the collections in the workspace to create monitors for your APIs or even submit your own monitor examples.
+
 ## Pricing
 
 You can use Postman monitoring with any paid or free plan type.
