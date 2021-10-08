@@ -28,13 +28,25 @@ In Postman you can create a WebSocket request with a server, and use it to send 
 
 In addition to raw WebSocket connections, Postman also supports Socket.IO connections. Socket.IO is one of the most popular libraries to enable event-drive, bidirectional, real-time communication between clients and servers. It uses WebSocket as its transport layer. Many developers use Socket.IO in combination with HTTP APIs; now you can enjoy the benefits of Postman while switching between these two paradigms at will.
 
+## Contents
+
+* [Creating WebSocket requests](#creating-websocket-requests)
+* [Sending messages](#sending-messages)
+* [Viewing messages](#viewing-messages)
+* [Using variables in requests and messages](#using-variables-in-requests-and-messages)
+* [Adding request details](#adding-request-details)
+* [Saving requests](#saving-requests)
+* [Documenting collections](#documenting-collections)
+* [Other Socket.IO Notes](#other-socketio-notes)
+* [Troubleshooting WebSocket Requests](#troubleshooting-websocket-requests)
+
 ## Creating WebSocket requests
 
 You can create a WebSocket request from the left sidebar in Postman.
 
 1. Click  __New__ &gt; __WebSocket Request__ to open a new tab. (You can also select ⌘+N or Ctrl+N.)
   [![New Screen](https://assets.postman.com/postman-docs/new-request-websocket.jpg)](https://assets.postman.com/postman-docs/new-request-websocket.jpg)
-1. In the upper left of the tab, select either **Raw** for a raw WebSocket request, or **Socket.IO** for a Socket.IO request.
+1. In the upper left of the request tab, select either **Raw** for a raw WebSocket request, or **Socket.IO** for a Socket.IO request.
 1. Enter the WebSocket server URL. A WebSocket URL begins with `ws://` or `wss://`.<br/>
 [![WebSocket server URL](https://assets.postman.com/postman-docs/websocket-server-url-v11.jpg)](https://assets.postman.com/postman-docs/websocket-server-url-v11.jpg)
 1. Click **Connect**.
@@ -128,7 +140,7 @@ You can add details to your request, for example to send additional parameters a
 
 On the **Params** tab, add any parameters you would like to append to the WebSocket URL. This works similarly to [sending parameters](/docs/sending-requests/requests/#sending-parameters) in a REST request.
 
-## Configuring headers
+### Configuring headers
 
 On the **Headers** tab, enter any headers you would like to send with your message. This works similarly to [configuring request headers](/docs/sending-requests/requests/#configuring-request-headers) in a REST request.
 
@@ -145,7 +157,36 @@ The following settings can be configured for your WebSocket request:
 | Reconnection intervals | The period in milliseconds between subsequent reconnection attempts. |
 | Maximum message size | The maximum allowed message size, in megabytes. To receive messages of any size, set this to 0. (Raw WebSocket only)|
 
-### Other Socket.IO Notes
+## Saving requests
+
+You can save your WebSocket requests into a collection. This enables you to reuse requests, share them with other team members, and add documentation to the collection of requests.
+
+To save a request:
+
+1. In the upper right of the request tab, select **Save**.
+1. In **Save request**, under **Save to**, select a collection, or select **Create collection**. (Note that there are limitations to WebSocket requests in collections; see below.)
+1. If you are creating a new collection, enter a name and select **Create**.
+1. Select **Save**.
+
+You can see your collection and saved request under the **Collections** tab of the left sidebar on the left:
+
+<img alt="Collection sidebar" src="https://assets.postman.com/postman-docs/creating-first-collection-v8.jpg" width="400px"/><!--TODO: replace -->
+
+Because WebSocket requests have different features than HTTP requests, when they are added to a collection, it causes the collection to be in a “beta” state with certain limitations.
+
+When in this state, a collection can only contain WebSocket requests. It can't contain folders or HTTP requests, and you can't move requests into or out of such a collection.
+<!--TODO: can you move from one beta collection to another? -->
+
+Collections containing WebSocket requests can be shared, and support the use of documentation and variables. Other features related to collections are not currently supported, such as collaboration, version control, or scripting.
+
+## Documenting collections
+
+You can add documentation to your collection to give it a summary, and add any notes or details you want to share with others.
+<!--TODO:
+On the **Overview tab**
+-->
+
+## Other Socket.IO Notes
 
 Socket.IO normally uses WebSockets as its transport layer, but sometimes uses HTTP "long-polling" as a fallback when WebSockets can't be used. Postman does not support long-polling mode in Socket.IO.
 
