@@ -50,9 +50,8 @@
     cursor: pointer;
     outline: inherit;
 
-
-    @media screen and (min-width: 768px) {
-    text-align: left;
+    @media screen and (max-width: 768px) {
+      text-align: left !important; 
     }
     &:hover{
       color: $grey_60;
