@@ -30,7 +30,7 @@ export default ({ data }) => {
           </nav>
           <div className="col">
             <div className="row row-eq-height">
-              <main className="col-sm-12 col-md-12 col-lg-9 offset-lg-0 col-xl-7 offset-xl-1 doc-page">
+              <main className="col-sm-12 col-md-12 col-lg-9 offset-lg-0 col-xl-7 doc-page ml-xl-5">
                 <h1>{post.frontmatter.title}</h1>
                 <span dangerouslySetInnerHTML={{ __html: post.html }} />
               </main>
@@ -40,7 +40,7 @@ export default ({ data }) => {
                   <EditDoc className="btn btn__small btn__secondary-light edit-button-styles" />
                 </div>
                 {contextualLinks}
-                <figure className="sticky w-75">
+                <figure className="sticky posmanaut-dab">
                   <img src={pose} alt="pose" className="img-fluid"/>
                 </figure>
               </aside>

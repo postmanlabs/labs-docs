@@ -193,8 +193,10 @@ blockquote {
   position: -webkit-sticky;
   position: sticky !important;
   top: 160px;
-  // top: 0;
+}
 
+.posmanaut-dab {
+  max-width: 250px;
 }
 
 tr:hover {
