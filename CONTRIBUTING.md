@@ -15,12 +15,12 @@ _GitHub Desktop is much easier if you're unfamiliar with using git / GitHub on t
 1. Fork this repo to create a copy hosted on your GitHub account. The Fork button is in the top right of the page.
     * If you're a collaborator on the repo you can instead just create a branch.
 1. Clone down your copy of this repo onto your local machine: `git clone <YOUR GITHUB REPO URL>`
-1. Navigate to the new directory git created. `cd postman-docs`
-1. Check out the `develop` branch. `git checkout develop`
-1. Run `npm install` to add all dependencies
-1. Create a new branch for your work based on develop `git checkout -b <YOUR BRANCH NAME>` Your branch name should be something descriptive of the changes you wish to make, and can include the issue number this change is associated with. Example: `feature/1234-update-mock-api-docs`
+1. Navigate to the new directory git created: `cd postman-docs`
+1. Check out the `develop` branch: `git checkout develop`
+1. Run `npm install` to add all dependencies.
+1. Create a new branch for your work based on develop: `git checkout -b <YOUR BRANCH NAME>` Your branch name should be something descriptive of the changes you wish to make, and can include the issue number this change is associated with. Example: `feature/1234-update-mock-api-docs`
 1. Make your changes. The Learning Center's documentation is built from the `.md` files in the `/src/pages/docs` folder of the repo.
-1. Check your files against our markdown guidelines by running `npm run test:mdlint` and resolve any errors
+1. Check your files against our markdown guidelines by running `npm run test:mdlint` and resolve any errors.
 1. When you're ready to apply your changes, push your changed files to your forked repo:
     * `git add <FILENAMES OF CHANGED FILES>`
     * `git commit -m "<YOUR COMMIT MESSAGE>"` Your commit message should be descriptive of the changes you made.
