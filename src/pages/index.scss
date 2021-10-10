@@ -27,7 +27,7 @@ hr {
 
 .events__alert {
     border: 4px dashed #CCE5FF;
-    border-radius: 4px 4px 4px 4px;
+    border-radius: $borderRadiusMedium;
     padding: .75rem 1.25rem;
     color: #0C5460;
 }
