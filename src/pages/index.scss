@@ -20,7 +20,7 @@ hr {
     outline: 1px solid #e6e6e6 // grey_20
 }
 .img-frame {
-    border-radius: 8px;
+    border-radius: $borderRadiusMedium;
     border: 8px solid #e6e6e6; // $grey_20
     box-shadow: 8px 8px 0 rgba(0, 0, 0, 0.32);
 }

@@ -113,7 +113,7 @@
       a:link, a:visited {
         background-color: rgb(242, 242, 242);
         color: $grey_90;
-        border-radius: 3px;
+        border-radius: $borderRadiusSmall;
       }
     }
     
@@ -125,7 +125,7 @@
       &:hover {
         color: $grey_90;
         background-color: rgb(242, 242, 242);
-        border-radius: 3px;
+        border-radius: $borderRadiusSmall;
       }
     }
   }
