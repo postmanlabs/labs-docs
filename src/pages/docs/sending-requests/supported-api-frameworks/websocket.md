@@ -130,7 +130,7 @@ In an expanded message:
 
 ### Event listening in Socket.IO
 
-In Socket.IO, you have the ability to listen to specific events. The **Messages** pane will only display the events for which you've added listeners. Events will be color-coded by event, to make them easier to find.
+In Socket.IO, you have the ability to listen to specific events. The **Messages** pane will only display the received events for which you've added listeners. Events will be color-coded by event, to make them easier to find.
 
 To the left of the **Messages** pane in a Socket.IO request is a **Listeners** panel of listener events. To listen to a new event, enter the name of an event and select **+** to add it. Select the toggle next to an event to disable and re-enable listening to that event. If you hover over the toggle, you can delete the event listener.
 
@@ -198,7 +198,7 @@ Collections containing WebSocket requests support the use of documentation and v
 
 ## Documenting collections and requests
 
-You can add documentation to your collection or requests to give it a summary, and add any notes or details you want to share with others.
+You can add documentation to your collection or requests to give it a summary, and add any notes or details you want to share with others. Documentation will also be automatically included for the request's URL, parameters, settings, and all saved messages.
 
 To document a WebSocket request:
 
