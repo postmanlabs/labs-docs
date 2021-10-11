@@ -47,10 +47,10 @@ In addition to raw WebSocket connections, Postman also supports Socket.IO connec
 You can create a WebSocket request from the left sidebar in Postman.
 
 1. Select  __New__ &gt; __WebSocket Request__ to open a new tab. (You can also select ⌘+N or Ctrl+N.)
-  [![New Screen](https://assets.postman.com/postman-docs/new-request-websocket.jpg)](https://assets.postman.com/postman-docs/new-request-websocket.jpg)
+   [![New Screen](https://assets.postman.com/postman-docs/new-request-websocket-v91.jpg)](https://assets.postman.com/postman-docs/new-request-websocket-v91.jpg)
 1. In the upper left of the request tab, select either **Raw** for a raw WebSocket request, or **Socket.IO** for a Socket.IO request.
 1. Enter the WebSocket server URL. A WebSocket URL begins with `ws://` or `wss://`.<br/>
-[![WebSocket server URL](https://assets.postman.com/postman-docs/websocket-server-url-v11.jpg)](https://assets.postman.com/postman-docs/websocket-server-url-v11.jpg)
+   [![WebSocket server URL](https://assets.postman.com/postman-docs/websocket-server-url-v11.jpg)](https://assets.postman.com/postman-docs/websocket-server-url-v11.jpg)
 1. Select **Connect**.
 1. To disconnect your WebSocket request's connection, select **Disconnect**.
 
@@ -64,7 +64,7 @@ After making a WebSocket connection, you can use the editor pane to compose and 
 
 In the bottom left corner of the editor, you can select the format of your message: **Text**, **JSON**, **XML**, **HTML**, or **Binary**. If you select **Binary**, you can then select **Base64** or **Hexadecimal**. The editor has syntax highlighting according to the selected format. You can also select **{}** to beautify JSON, XML, or HTML messages.
 
-When you have finished composing your message, Select **Send**. The sent message will remain in the window, in case you want to change it and re-send.
+When you have finished composing your message, select **Send**. The sent message will remain in the window, in case you want to change it and re-send, or save it.
 
 ### Saving messages
 
