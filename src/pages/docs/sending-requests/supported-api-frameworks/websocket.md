@@ -24,6 +24,8 @@ The WebSocket protocol provides a way to exchange data between a client and serv
 
 In Postman you can create a WebSocket request with a server, and use it to send and receive messages across the WebSocket connection.
 
+> The Postman Echo API now supports WebSocket requests. If you're looking for an example server to get started, check it out [here](https://postman.postman.co/workspace/Exploring-WebSockets~e2ed14b4-e0d0-40fd-8058-a9e7b27ecae0/documentation/14057978-712d684f-c252-4bd9-a7a6-6a893e41adea).
+
 ### About Socket.IO
 
 In addition to raw WebSocket connections, Postman also supports Socket.IO connections. Socket.IO is one of the most popular libraries to enable event-drive, bidirectional, real-time communication between clients and servers. It uses WebSocket as its transport layer. Many developers use Socket.IO in combination with HTTP APIs; now you can enjoy the benefits of Postman while switching between these two paradigms at will.
@@ -69,11 +71,13 @@ When you have finished composing your message, Select **Send**. The sent message
 You can also save composed messages, then re-send them later. To the right of the editor pane is a collapsible pane for Saved Messages.
 
 To save a message:
+
 1. Compose a message, as described above.
 1. Select **Save Message**.
 1. The message title ("New Message" by default) is now editable. Enter a new title and press Return.
 
 To load a saved message:
+
 1. Open the **Saved Messages** pane to the right of the editor pane.
 1. Select a saved message. It will be loaded into the editor pane.
 1. You can then send the message, or edit it and select **Save Message** to save the changes. Select **Discard Changes** to remove them.
