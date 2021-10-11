@@ -24,11 +24,11 @@ The WebSocket protocol provides a way to exchange data between a client and serv
 
 In Postman you can create a WebSocket request with a server, and use it to send and receive messages across the WebSocket connection.
 
-> The Postman Echo API now supports WebSocket requests. If you're looking for an example server to get started, check it out [here](https://postman.postman.co/workspace/Exploring-WebSockets~e2ed14b4-e0d0-40fd-8058-a9e7b27ecae0/documentation/14057978-712d684f-c252-4bd9-a7a6-6a893e41adea).
+> The Postman Echo API now supports WebSocket requests. If you're looking for an example server to get started, check out the [Explore Postman WebSockets](https://postman.postman.co/workspace/Exploring-WebSockets~e2ed14b4-e0d0-40fd-8058-a9e7b27ecae0/documentation/14057978-712d684f-c252-4bd9-a7a6-6a893e41adea) collection.
 
 ### About Socket.IO
 
-In addition to raw WebSocket connections, Postman also supports Socket.IO connections. Socket.IO is one of the most popular libraries to enable event-drive, bidirectional, real-time communication between clients and servers. It uses WebSocket as its transport layer. Many developers use Socket.IO in combination with HTTP APIs; now you can enjoy the benefits of Postman while switching between these two paradigms at will.
+In addition to raw WebSocket connections, Postman also supports Socket.IO connections. Socket.IO is one of the most popular libraries to enable event-driven, bidirectional, real-time communication between clients and servers. It uses WebSocket as its transport layer. Many developers use Socket.IO in combination with HTTP APIs; now you can enjoy the benefits of Postman while switching between these two paradigms at will.
 
 ## Contents
 
@@ -68,7 +68,7 @@ When you have finished composing your message, select **Send**. The sent message
 
 ### Saving messages
 
-You can also save composed messages, then re-send them later. To the right of the editor pane is a collapsible pane for Saved Messages.
+You can also save composed messages, then re-send them later. To the right of the editor pane is a collapsible pane for **Saved Messages**.
 
 To save a message:
 
@@ -104,7 +104,7 @@ You can also add arguments to a Socket.IO connection. In the bottom left of the 
 
 The **Messages** pane displays a list of messages for the WebSocket connection, including incoming, outgoing, and network messages.
 
-At the top of the message pane is a connection details badge. It shows if the connection is connecting, connected, disconnecting, or disconnected. Hover over the badge to show details on the connection. select **^** next to the badge to hide messages. If the messages are hidden, select **v** to show them.
+At the top of the message pane is a connection details badge. It shows if the connection is connecting, connected, disconnecting, or disconnected. Hover over the badge to show details on the connection. Select the arrow next to the badge to show or hide messages.
 
 [![WebSocket messages](https://assets.postman.com/postman-docs/websocket-messages.jpg)](https://assets.postman.com/postman-docs/websocket-messages.jpg)
 
@@ -118,23 +118,23 @@ The following are displayed for each message:
 
 * If you hover over a message, a check box is displayed. Select the check boxes for two messages, and the time difference between the messages will be displayed. Select **Deselect** to remove the time display.
   [![WebSocket time difference](https://assets.postman.com/postman-docs/websocket-time-difference.gif)](https://assets.postman.com/postman-docs/websocket-time-difference.gif)
-* Select **>** to expand a message, or **v** to collapse it.
-* The time is displayed, as your local time.
+* Select the arrow next to a message to expand or collapse it.
+* The time is displayed as your local time.
 * If you hover over the time of a raw Socket.IO message, an information icon is displayed. Hover over it to see the time, MIME type, and size of the message.
 * If you hover over the time, a copy icon is also shown. Select this to copy the message to your clipboard.
 
 In an expanded message:
 
 * Select **Text**, **HTML**, **JSON**, or **XML** to change the formatting of the message.
-* Select Wrap Line to add or remove line wraps.
+* Select **Wrap Line** to add or remove line wraps.
 * Select **Show Hexdump** or **Show Message** to toggle if the message is shown in hex or text.
 * Use the search control to search the body of the message.
-* When you hover over line numbers, caret controls (**v**) are displayed. Select them to expand or collapse blocks of the message.
+* Hover over a line number and select the arrow to expand or collapse message blocks.
 [![WebSocket message body](https://assets.postman.com/postman-docs/websocket-message-body.jpg)](https://assets.postman.com/postman-docs/websocket-message-body.jpg)
 
 ### Event listening in Socket.IO
 
-In Socket.IO, you have the ability to listen to specific events. The **Messages** pane will only display the received events for which you've added listeners. Events will be color-coded by event, to make them easier to find.
+In Socket.IO, you have the ability to listen to specific events. The **Messages** pane will only display the received events for which you've added listeners. Events will be color-coded by event to make them easier to find.
 
 To the left of the **Messages** pane in a Socket.IO request is a **Listeners** panel of listener events. To listen to a new event, enter the name of an event and select **+** to add it. Select the toggle next to an event to disable and re-enable listening to that event. If you hover over the toggle, you can delete the event listener.
 
