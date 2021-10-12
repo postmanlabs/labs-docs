@@ -46,19 +46,17 @@ You will need an [API key](#generating-a-postman-api-key) to access the Postman 
 
 ## Generating a Postman API key
 
-You need a valid API Key to send requests to the Postman API.
+You need a valid API Key to send requests to the Postman API. To generate an API key:
 
-You can generate an API key by navigating to your [Postman API Keys page](https://go.postman.co/settings/me/api-keys). Select your avatar in the upper-right corner > **Account Settings**. Then select **Postman API keys**.
+1. Navigate to your [Postman API Keys page](https://go.postman.co/settings/me/api-keys). Select your avatar in the upper-right corner > **Account Settings**. Then select **Postman API keys**.
 
-If you do not have any keys yet you will be prompted to create one. Select __Generate API Key__.
+1. If you do not have any keys yet you will be prompted to create one. Select __Generate API Key__.
 
-<img alt="Generate API Key" src="https://assets.postman.com/postman-docs/no-api-keys-generate-v9.0.jpg" width="400px"/>
+   <img alt="Generate API Key" src="https://assets.postman.com/postman-docs/no-api-keys-generate-v9.0.jpg" width="400px"/>
 
-Enter a name for your key and select __Generate API Key__.
+1. Enter a name for your key and select __Generate API Key__.
 
-<img src="https://assets.postman.com/postman-docs/generate-api-key-v9.jpg" alt="Name your API key" width="600px"/>
-
-Copy your key, then __Close__.
+1. Copy your key, then __Close__.
 
 <img src="https://assets.postman.com/postman-docs/copy-your-api-key-v9.jpg" alt="Copy your API key" width="600px"/>
 
@@ -74,9 +72,11 @@ Use __API Key Settings__ to specify expiration periods for your keys.
 
 You will need to authenticate your requests to the Postman API by sending your API Key in the `X-Api-Key` header of every request you make.
 
+You can also send the key as an `apikey` URL query parameter. An API key sent as part of the header has a higher priority in case you send the key using both request header and query parameter.
+
 Your API Key provides access to any Postman data you have permissions for.
 
-You can store your API key in an [environment variable](/docs/sending-requests/managing-environments/)—if you name it `postman-api-key` the Postman API collection will use it automatically
+You can store your API key in a [variable](/docs/sending-requests/variables/). If you name it `postman_api_key`, the Postman API collection will use it automatically
 
 ## Rate Limits
 
