@@ -15,16 +15,16 @@ You can contact Postman Product Support if you need assistance resolving any iss
 
 Use the instructions below to locate the Postman logs on your macOS, Windows, or Linux system. Attach the log files to your support request to help the support team provide you with a resolution to your issue.
 
-### Retrieving logs in macOS
+### Locating logs in macOS
 
 To locate the logs in macOS, open the Postman app and go to **View > Developer > View Logs in Finder**.
 
 [![view logs2](https://assets.postman.com/postman-docs/troubleshooting-logs-macos.jpg)](https://assets.postman.com/postman-docs/troubleshooting-logs-macos.jpg)
 
-### Retrieving logs in Windows
+### Locating logs in Windows
 
 To locate the logs in Windows, open the Postman app and go to **View > Developer > View Logs in Explorer**.
 
-### Retrieving logs in Linux
+### Locating logs in Linux
 
 To locate the logs in Linux, open the Postman app and go to **View > Developer > View Logs in File Manager**.
