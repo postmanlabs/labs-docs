@@ -112,6 +112,6 @@
   "main": ".eslintrc.js",
   "author": "",
   "optionalDependencies": {
-    "@postman/pm-tech": "1.1.9"
+    "@postman/pm-tech": "1.1.11"
   }
 }
