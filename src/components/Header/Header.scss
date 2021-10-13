@@ -206,7 +206,7 @@
       height: 2px;
       width: 24px;
       background: #6b6b6b;
-      border-radius: 4px;
+      border-radius: $borderRadiusSmall;
       opacity: 1;
       left: 0;
       -webkit-transform: rotate(0deg);
@@ -339,7 +339,7 @@
       right: 0;
       left: 0;
       width: 100%;
-      top: 54px;
+      top: 52px;
       background-color: white;
       padding: 0 16px 16px 16px;
       -webkit-transition: all 0.2s ease;
@@ -360,7 +360,7 @@
     @media screen and (min-width: 992px) {
       box-shadow: 0 16px 24px -8px rgba(0, 0, 0 , 0.24);
       background-color: $white !important;
-      border-radius: 8px;
+      border-radius: $borderRadiusMedium;
       border: 1px solid $grey_20;
       padding: 16px;
     }
@@ -399,12 +399,13 @@
   & input[type="search"] {
     background-color: transparent;
     border-color: rgba(0, 0, 0, 0.24);
+    border-width: 1px;
     font-size: 13px;
     padding: 4px 24px 4px 28px;
     height: 32px;
     margin: 0;
-    width: 280px;
-    border-radius: 3px;
+    width: 256px;
+    border-radius: $borderRadiusSmall;
     &:focus {
       border: 1px solid #74aef6;
       box-shadow: 0 0 0 2px #74aef6;
@@ -454,7 +455,7 @@
 a.button__sign-up {
   align-items: center;
   appearance: none;
-  border-radius: 4px;
+  border-radius: $borderRadiusSmall;
   cursor: pointer;
   display: inline-flex;
   font-size: 14px;
@@ -467,7 +468,7 @@ a.button__sign-up {
   background-image: none;
   border: none;
   box-shadow: none;
-  border-radius: 3px;
+  border-radius: $borderRadiusSmall;
   transition: 0.2s ease-in-out;
   white-space: nowrap;
   outline: 0;
@@ -494,7 +495,7 @@ a.button__sign-up {
 a.button__sign-in {
   align-items: center;
   appearance: none;
-  border-radius: 4px;
+  border-radius: $borderRadiusSmall;
   cursor: pointer;
   display: inline-flex;
   font-size: 14px !important;
@@ -536,7 +537,7 @@ a.button__sign-in {
     // background-color:#f5f5f5;
     // border: 0;
     // padding: 13px 24px;
-    // border-radius: 3px;
+    // border-radius: $borderRadiusSmall;
     // width: 100%;
   // }
   ::placeholder {

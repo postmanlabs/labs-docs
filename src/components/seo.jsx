@@ -96,8 +96,7 @@ function SEO({
       <link rel="dns-prefetch" href="https://polyfill.io" />
       <link crossOrigin rel="preconnect" href="https://polyfill.io" />
       <script src="https://polyfill.io/v3/polyfill.min.js?features=default%2CArray.prototype.find%2CArray.prototype.includes%2CPromise%2CObject.assign%2CObject.entries" />
-      {/* Algolia API v4 IE11 support  */}
-      <script src="https://polyfill.io/v3/polyfill.min.js?features=Promise%2CObject.entries%2CObject.assign" />
+
 
     </Helmet>
   );

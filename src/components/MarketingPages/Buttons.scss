@@ -4,7 +4,7 @@
 .btn {
   appearance: none; // Corrects inability to style clickable `input` types in iOS.
   border: 1px solid transparent;
-  border-radius: 3px;
+  border-radius: $borderRadiusSmall;
   cursor: pointer;
   display: inline-block;
   vertical-align: middle;
@@ -68,46 +68,13 @@
     }
   }
 
-  // Secondary Button (Dark)
-  &.btn__secondary-dark {
-    color: #fff;
-    background-color: #1C272B;
-    background-image: none;
-    border: 1px solid #1C272B;
-    border-radius: 3px;
-    outline: 0;
-    padding: 13px 24px;
-    text-align: center;
-
-    &:hover,
-    &:active,
-    &.selected {
-      border-color: #6D7F91;
-      color: #fff;
-      background-color: #6D7F91;
-    }
-
-    &:focus {
-      border-color: #1C272B;
-      box-shadow: 0 0 0 0.2em rgba(#1C272B, 0.3);
-    }
-
-    &:disabled,
-    &.isDisabled {
-      background-color: #F4F4F4;
-      border-color: #F4F4F4;
-      color: #666666;
-      cursor: not-allowed;
-    }
-  }
-
   // Secondary Button (Light)
   &.btn__secondary-light {
     color: #1C272B;
     background-color: #fff;
     background-image: none;
     border: 1px solid #fff;
-    border-radius: 3px;
+    border-radius: $borderRadiusSmall;
     outline: 0;
     padding: 13px 24px;
     text-align: center;
@@ -132,22 +99,6 @@
       color: #666666;
       cursor: not-allowed;
     }
-  }
-
-  //  Tertiary Button
-  &.btn__tertiary {
-    color: #FF6C37 !important;
-    padding: 13px 24px;
-    box-shadow: none;
-    text-align: center;
-
-    &:hover>.btn__link-hover {
-      color: #F99B78;
-      padding-bottom: 2px;
-      border-bottom: 1px solid #F99B78;
-    }
-
-    // Inline Link disabled not available
   }
 
   &.btn__small {
@@ -177,10 +128,6 @@
     background-image: none;
   }
 
-  &.btn_exception-padding-removed {
-    padding: 0;
-  }
-
   // ICONS
   // class starting with `pm-icon-` get styled by _pm-icons.scss file.
   // class .glyphicon gets styled by bootstrap.css file.
@@ -188,42 +135,6 @@
     margin-right: 8px;
     // gets rid of weird background bug with our icons. We need to redo these.
     background: 0 0;
-  }
-}
-
-.btn_group {
-  .btn__left {
-    margin-right: 16px;
-
-    // @include for-phone-only {
-    //   margin-right: 0;
-    // }
-  }
-}
-
-.btn__inline {
-  box-shadow: none;
-  color: #FF6C37 !important;
-  font-weight: 700;
-  text-transform: uppercase;
-
-  &:hover,
-  &:active,
-  &.selected {
-    color: #F99B78 !important;
-  }
-
-  &:focus {
-    border-color: #1C272B;
-    box-shadow: 0 0 0 0.2em rgba(#1C272B, 0.3);
-  }
-
-  &.btn__no-shadow {
-
-    &:focus {
-      box-shadow: 0 0 0 0;
-      border: 0;
-    }
   }
 }
 
@@ -237,18 +148,6 @@ a {
     &:hover {
       text-decoration: none;
       border-bottom: 1px solid #0265D2
-    }
-
-    &.alternative {
-      color: #fff;
-    }
-
-    &.alternative:hover {
-      color: #fff;
-      background-position: top 22px right -4px;
-      padding-right: 4px;
-      padding-bottom: 2px;
-      text-decoration: none;
     }
   }
 }
