@@ -27,12 +27,6 @@ code {
   font-family: $ibm;
 }
 
-.layout-wrapper {
-  padding: 0px;
-  // do not use overflow hidden - it will mess up the docs Postmanaut icon with sticky property
-  // overflow-x: hidden;
-}
-
 h1,
 .h1,
 h2,
@@ -151,20 +145,11 @@ strong, .bold {
 .row {
   margin-right: -12px;
   margin-left: -12px;
-
-  &.no-gutters {
-    margin-right: 0;
-    margin-left: 0;
-  }
 }
 
 .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
   padding-right: 12px;
   padding-left: 12px;
-}
-
-div.col-sm-7.doc-page {
-  padding: 64px 72px;
 }
 
 // Cookie Consent
