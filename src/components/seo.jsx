@@ -53,7 +53,7 @@ function SEO({
         },
         {
           property: 'og:image',
-          content: 'https://www.postman.com/img/v2/logo-glyph.png',
+          content: 'https://learning.postman.com/postman-api-platform-social-preview.jpeg',
         },
         {
           property: 'og:type',
@@ -76,8 +76,8 @@ function SEO({
           content: 'https://learning.postman.com',
         },
         {
-          property: 'og:image',
-          content: 'https://www.postman.com/img/v2/logo-glyph.png',
+          property: 'twitter:image',
+          content: 'https://learning.postman.com/postman-api-platform-social-preview.jpeg',
         },
         {
           property: 'twitter:site',
