@@ -77,21 +77,21 @@ The reports summary page provides a summary view of your APIs.
 The summary page contains the following sections:
 
 * **A summary view of your APIs**, which includes:
-  - **Overview** - a bar chart of the number of APIs with monitors, with tests, with documentation, on the Private API Network, on the Public API Network, and total.
-  - **Response Time** - the average response time across all APIs in milliseconds, over time.
-  - **Test Results** - the number of successful and failed test runs over time.
-  - **Uptime** - the number of successful (returning 1xx or 2xx) versus failed (returning 3xx, 4xx, or 5xx) responses over time.
+    * **Overview** - a bar chart of the number of APIs with monitors, with tests, with documentation, on the Private API Network, on the Public API Network, and total.
+    * **Response Time** - the average response time across all APIs in milliseconds, over time.
+    * **Test Results** - the number of successful and failed test runs over time.
+    * **Uptime** - the number of successful (returning 1xx or 2xx) versus failed (returning 3xx, 4xx, or 5xx) responses over time.
     <img src="https://assets.postman.com/postman-docs/reporting-summary-view-apis.jpg" alt="reports data point" width="500px" />
 * **How is your team using Postman?** which includes:
-  - **Team Activity** - the total number of user actions (creating, editing, and deleting entities such as requests, collections, APIs, environments, and so on) in a workspace over time.
-  - **Resource Usage** - the number of used and unused integrations, mock calls, monitor requests, and Postman API calls across your team.
+    * **Team Activity** - the total number of user actions (creating, editing, and deleting entities such as requests, collections, APIs, environments, and so on) in a workspace over time.
+    * **Resource Usage** - the number of used and unused integrations, mock calls, monitor requests, and Postman API calls across your team.
     <img src="https://assets.postman.com/postman-docs/reporting-summary-team-use.jpg" alt="reports data point" width="500px" />
 * **How people are interacting with your publicly shared work**, which includes:
-  - **Public profile views** - the total number of times people have viewed any public profile on your team.
-  - **Public workspace views** - a graph of the number of views of your team's public workspace over time.
-  - **Published documentation views** - a graph of the number of views of your team's published documentation over time.
-  - **Forks and Pull requests over time** - a graph of the number of times a collection in your public workspaces has been forked or pulled.
-  - **Watch over time** - a graph of the number of times a person has watched a collection in your public workspaces.
+    * **Public profile views** - the total number of times people have viewed any public profile on your team.
+    * **Public workspace views** - a graph of the number of views of your team's public workspace over time.
+    * **Published documentation views** - a graph of the number of views of your team's published documentation over time.
+    * **Forks and Pull requests over time** - a graph of the number of times a collection in your public workspaces has been forked or pulled.
+    * **Watch over time** - a graph of the number of times a person has watched a collection in your public workspaces.
     <img src="https://assets.postman.com/postman-docs/reporting-summary-interaction.jpg" alt="report interaction" width="500px" />
 
 ## Team reports
@@ -131,9 +131,9 @@ The team activity report provides more detail on your team member's activity, in
 The resource usage report provides more information on how your team is using Postman resources, including:
 
 * **Team slots** - the billed slot usage across your team.
-  * **Used slots** - the used billed slots versus unused billed slots for your team.
-  * **Unbilled slots** - the number of unbilled slots.
-  * **Used slots over time** - a graph over time of your billed slots, unbilled slots, and total available slots.
+    * **Used slots** - the used billed slots versus unused billed slots for your team.
+    * **Unbilled slots** - the number of unbilled slots.
+    * **Used slots over time** - a graph over time of your billed slots, unbilled slots, and total available slots.
 * **Mock server calls** - includes graphs of mock server calls made, overage calls, and mock calls over time.
 * **Monitoring server calls** - includes graphs of monitoring calls made, overage calls, and monitoring calls over time.
 * **Postman API calls** - the number of API calls made to the Postman API
