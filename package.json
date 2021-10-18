@@ -97,7 +97,7 @@
     "test:lint": "node_modules/eslint/bin/eslint.js -c .eslintrc.js --ext .jsx --ext .js src/",
     "test:lint-fix": "node_modules/eslint/bin/eslint.js -c .eslintrc.js --ext .jsx --ext .js src/ --fix",
     "test:url": "if grep -lri 's3.amazonaws.com/postman-static-getpostman-com' ./v6 ; then echo invalid s3 references found. Please use format; exit 1; else echo no s3 references found; fi",
-    "test:mdlint": "markdownlint ./ --ignore node_modules --ignore legacy-documentation"
+    "test:mdlint": "markdownlint ./ --ignore node_modules"
   },
   "repository": {
     "type": "git",
