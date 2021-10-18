@@ -43,6 +43,7 @@ Signing up for an account is optional—you can use the desktop Postman app with
 * [Security policies and standards](#security-policies-and-standards)
 * [Updating your username](#updating-your-username)
 * [Changing your email address](#changing-your-email-address)
+* [Updating your account settings](#updating-your-account-settings)
 * [Updating your profile](#updating-your-profile)
 * [Making your profile public](#making-your-profile-public)
 * [Updating your notification preferences](#updating-your-notification-preferences)
@@ -161,6 +162,20 @@ You can update your username at any time by navigating to your [account settings
 ## Changing your email address
 
 You can change the email address associated with your Postman account by navigating to your [account settings](https://go.postman.co/settings/me/account). Select your avatar in the upper-right corner > **Account Settings** > **Account**. Edit your email address and select **Update Email** to save changes.
+
+> If you are on an Enterprise plan, you must contact your team admins to update the email address associated with your Postman account.
+
+## Updating your account settings
+
+You can manage account settings including your email address, password, and workspace data by navigating to your [account settings](https://go.postman.co/settings/me/account) page.
+
+If you are on a Business, Team, or Free plan, you can [update your email address](#changing-your-email-address), [edit your password](#resetting-your-password), export your workspace data, or opt to permanently delete your account.
+
+<img alt="Update account settings on a non-Enterprise plan" src="https://assets.postman.com/postman-docs/account-settings-basic-v9.1.jpg">
+
+If you are on an Enterprise plan, you can export your workspace data. To make additional edits to your account or have it be deleted, you must contact your team admins.
+
+<img alt="Update account settings on an Enterprise plan" src="https://assets.postman.com/postman-docs/account-settings-enterprise-v9.1.jpg">
 
 ## Updating your profile
 
