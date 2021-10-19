@@ -326,7 +326,7 @@ Reports have the following limitations:
 
 If you don't see any data in your reports, or your data is incomplete (for example, you have empty response times or sizes) this may be due to one of the following reasons:
 
-* It's too early to check. The data refreshes every 24 hours.
+* It's too early to check. The data refreshes every four hours.
 * You may not have linked a collection to your API.
 * You may not have sent a request—or you may have executed requests from monitoring, collection runs, or Newman, but not from the request builder in Postman.
 * You may not have enabled __Save Responses__ in the __History__ tab in Postman.
