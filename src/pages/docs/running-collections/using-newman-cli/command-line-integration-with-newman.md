@@ -95,7 +95,7 @@ $ newman run -h
 | Option | Details |
 |:--|:--|
 | `--folder [folderName]` | Specify a single folder to run from a collection. |
-| `-e`, `--environment [file|URL]` | Specify a Postman environment as a JSON [file] |
+| `-e`, `--environment [file\|URL]` | Specify a Postman environment as a JSON [file] |
 | `-d`, `--iteration-data [file]` | Specify a data file to use either json or csv |
 | `-g`, `--globals [file]` | Specify a Postman globals file as JSON [file] |
 | `-n`, `--iteration-count [number]` | Define the number of iterations to run |
