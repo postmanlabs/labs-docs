@@ -155,7 +155,7 @@ To change your plan immediately, navigate to your [billing dashboard](https://go
 
 <img alt="Edit plan page" src="https://assets.postman.com/postman-docs/billing-edit-plan-add-members-v9.1.jpg"/>
 
-You can opt to apply changes immediately or on plan renewal. You can adjust your team size, billing frequency, and plan type. Select **Next** to adjust your team's add-ons, including monitoring blocks, mock server blocks, and custom domains. Select **Next** to then **Confirm Changes**.
+You can opt to apply changes immediately or on renewal. You can adjust your team size, billing frequency, and plan type. Select **Next** to adjust your team's add-ons, including monitoring blocks, mock server blocks, and custom domains. Select **Next** to then **Confirm Changes**.
 
 The cost of your new plan and/or additional seats will be prorated based on the time left in your team's billing cycle.
 
@@ -171,7 +171,7 @@ To set instructions to determine what will happen at the end of your current bil
 
 <img alt="Set instructions in billing dashboard" src="https://assets.postman.com/postman-docs/billing-dashboard-set-instructions-v9.1.jpg"/>
 
-You can view your current plan and opt to **Edit Standing Instructions**. Select your preferred option from the drop-down, then select **Proceed** to move forward with your plan changes.
+You can view your current plan and opt to **Edit Standing Instructions**. Select your preferred option from the drop-down menu, then select **Proceed** to move forward with your plan changes.
 
 <img alt="Set instructions for next cycle" src="https://assets.postman.com/postman-docs/billing-set-instructions-for-next-billing-cycle-v9.1.jpg" width="400px"/>
 
