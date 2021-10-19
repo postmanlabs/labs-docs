@@ -33,59 +33,77 @@ warning: false
 
 ---
 
-Postman Monitoring helps you to stay up to date on the health and performance of your APIs. Within a matter of seconds, you can set up Postman's monitoring service and integrate it into your API development pipeline.
+Postman Monitors give you continuous visibility into the health and performance of your APIs. Setting up a new monitor is fast and flexible—keep watch on a single endpoint, run API tests using your existing test scripts, or chain together a sequence of requests to validate critical API flows.
+
+Once the monitor is running you’ll get alerted to any failures. Make sure to run the monitor in your production environment so you can quickly identify and address issues before your API’s consumers are affected.
 
 ## Contents
 
-* [What is monitoring?](#what-is-monitoring)
-
-* [Pricing](#pricing)
-
-    * [Usage limits](#usage-limits)
-
-    * [Overages](#overages)
-
+* [Collection-based monitors](#collection-based-monitors)
 * [Viewing monitor usage](#viewing-monitor-usage)
-
     * [How Postman calculates monitor usage](#how-postman-calculates-monitor-usage)
-
+    * [Monitor overages](#monitor-overages)
+    * [Monitor usage limits](#monitor-usage-limits)
 * [Running collections in a monitor](#running-collections-in-a-monitor)
-
     * [Variables](#variables)
-
     * [Console output](#console-output)
-
     * [Time limits](#time-limits)
-
     * [File uploads](#file-uploads)
-
     * [Data files](#data-files)
-
     * [Multiple iterations](#multiple-iterations)
-
     * [Multi-region monitoring](#multi-region-monitoring)
-
     * [Accessible APIs](#accessible-apis)
-
 * [Next steps](#next-steps)
 
-## What is monitoring?
+## Collection-based monitors
 
-Monitoring is a way to stay up to date on the health and performance of your APIs. Postman's built-in monitoring service helps you consolidate an additional step in your API development lifecycle.
+A collection-based monitor runs a series of requests from the Postman cloud on a schedule you set. When creating a monitor, you choose a [collection](/docs/sending-requests/intro-to-collections/) with the requests you want to run. These can be basic requests that simply indicate an endpoint is up and reachable. More complex collections can make use of [chained requests](https://www.youtube.com/watch?v=shYn3Ys3ygE), [test scripts](https://learning.postman.com/docs/writing-scripts/test-scripts/), and [environment variables](/docs/sending-requests/managing-environments/) to validate API responses and functionality.
 
-Postman monitors are based on [collections](/docs/sending-requests/intro-to-collections/). Monitors will run through each request in your collection, similar to the [collection runner](/docs/running-collections/intro-to-collection-runs/). You can also attach a corresponding [environment](/docs/sending-requests/managing-environments/) with variables you'd like to utilize during each collection run.
+Postman runs the collection on the schedule you define, as often as every five minutes depending on your [Postman plan](https://www.postman.com/pricing/). You can even specify which region of the world you’d like to run the collection from. Get alerted by email if a test fails or errors occur, or [set up integrations](/docs/integrations/intro-integrations/) to be notified over Slack and other channels. All results are recorded on the monitor’s dashboard, so you can view past results or see trends over time.
 
-The value of monitors lies in your [test scripts](/docs/writing-scripts/test-scripts/). When running your collection, a monitor will use your tests to validate the responses it's receiving. When one of these tests fail, you can automatically receive an email [notification](/docs/designing-and-developing-your-api/monitoring-your-api/setting-up-monitor/) or configure the available [integrations](/docs/integrations/intro-integrations/) to receive alerts in tools like Slack, PagerDuty, or HipChat.
+Here are some things you can do with collection-based monitors:
 
-You can configure your monitors to run as frequently as you would like. For paid plans, monitors can be scheduled to run as often as every five minutes. For free plans, monitors can be scheduled to run as often as every hour.
+* **Check API health and performance.** Ensure the API is up and running in production and other environments.
+* **Validate API response structure and data.** Ensure the API is functioning according to specifications.
+* **Test complex, multi-step workflows.** Ensure that critical API flows as well as edge cases are working as expected.
+* **Continuously conduct user acceptance, smoke, and regression tests.** Proactively identify issues so you can address them before they affect API consumers.
+* **Run tests in multiple environments and regions.** Ensure your APIs are working everywhere.
+* **Monitor the security of your endpoints.** Continuously test APIs for known security vulnerabilities.
+* **Visualize results on the monitor dashboard.** Get better visibility into API performance over time and identify trends.
 
 > **Want to see Postman Monitors in action?** Visit the [Postman API Monitoring Examples public workspace](https://www.postman.com/postman/workspace/postman-api-monitoring-examples/overview) to find example collections for some common monitoring use cases. You can collaborate on the collections in the workspace by [creating a fork](/docs/collaborating-in-postman/version-control-for-collections/#forking-a-collection), or modify the collections for your team's use by [exporting and importing them into your team workspace](/docs/getting-started/importing-and-exporting-data/#exporting-collections).
 
-## Pricing
+## Viewing monitor usage
 
-You can use Postman monitoring with any paid or free plan type.
+The maximum number of monitoring API calls you can make each month depends on your [Postman plan](https://www.postman.com/pricing/). To check your team's current monitoring usage, select **Team > Resource Usage** to open the [Resource Usage dashboard](https://go.postman.co/usage). For a more detailed usage breakdown, select **View detailed monitoring usage** (under **Monitoring Usage**) to go to the [Monitoring Usage Details dashboard](https://go.postman.co/usage/monitors).
 
-### Usage limits
+The Monitoring Usage Details dashboard shows your team's current billing period, how many monitoring API calls have been made, and which monitors have run. The dashboard also identifies monitors by name, creator, collection, and environment.
+
+[![monitoring usage details](https://assets.postman.com/postman-docs/monitoring-usage-details2.jpg)](https://assets.postman.com/postman-docs/monitoring-usage-details2.jpg)
+
+> **Concerned about overages?** Use the [Monitoring Usage Details dashboard](https://go.postman.co/usage/monitors) to see all of your team's active monitors in one place. You'll also find information to help you and your team make informed decisions on things like monitoring frequency. Learn more about [monitor overages](#monitor-overages).
+
+### How Postman calculates monitor usage
+
+Monitoring usage is calculated based on the number of monitoring API calls:
+
+* Running one request (that is, calling an API endpoint) in a single region counts as one monitoring API call.
+* If the collection used by the monitor has multiple requests, each request in the collection counts as one API call.
+* If the monitor is scheduled to run in multiple regions, each request made in a different region counts as an API call.
+
+> If you use `postman.setNextRequest()` to [skip a request or run a request multiple times](/docs/running-collections/building-workflows/), Postman adjusts monitor usage accordingly. Postman also counts any requests required for [authorization](/docs/sending-requests/authorization/).
+
+### Monitor overages
+
+With a free Postman account, once you've reached your usage limit for monitoring you'll be automatically capped for the remainder of your monthly cycle. To continue to use monitoring for the remainder of your cycle, you can [upgrade your Postman plan](https://go.postman.co/purchase).
+
+With a paid Postman account, you have the option to cap your monthly monitoring usage by navigating to your [billing dashboard](https://go.postman.co/billing) > **Overages** and deselecting **Allow monitoring overages**. Overages are allowed by default and are charged at a pay-as-you-go rate. You can also opt to [purchase monitoring blocks](https://go.postman.co/billing/overview).
+
+> Unused monitoring requests or blocks do not roll over to the next month.
+
+See more on [how Postman calculates usage](#how-postman-calculates-monitor-usage).
+
+### Monitor usage limits
 
 You can find your account type's monthly usage limits by referring to your [usage overview](https://go.pstmn.io/postman-account-limits).
 
@@ -100,32 +118,6 @@ You can find your account type's monthly usage limits by referring to your [usag
 > Postman will notify team admins via email if your team encounters these limits, as well as notify team members in the app.
 >
 > For assistance regarding these limits and to request changes, contact the [Postman support team](https://support.postman.com/hc/en-us).
-
-### Overages
-
-With a free Postman account, once you've reached your usage limit for monitoring you'll be automatically capped for the remainder of your monthly cycle. To continue to use monitoring for the remainder of your cycle, you can [upgrade your Postman plan](https://go.postman.co/purchase).
-
-With a paid Postman account, you have the option to cap your monthly monitoring usage by navigating to your [billing dashboard](https://go.postman.co/billing) > **Overages** and deselecting **Allow monitoring overages**. Overages are allowed by default and are charged at a pay-as-you-go rate. You can also opt to [purchase monitoring blocks](https://go.postman.co/billing/overview).
-
-> Unused monitoring requests or blocks do not roll over to the next month.
-
-See more on [how Postman calculates usage](#how-postman-calculates-monitor-usage).
-
-## Viewing monitor usage
-
-To view a high-level overview of your team's monitoring usage, you can access your [monitor usage dashboard](https://go.postman.co/usage/monitors) by navigating to your [team usage dashboard](https://go.postman.co/usage) and selecting **View detailed monitoring usage** under **Monitoring Usage**.
-
-This page allows you to view your team's current billing period, how many requests have been made, and which monitors have run. It also identifies monitors by name, collection, environment, and creator.
-
-[![monitoring usage details](https://assets.postman.com/postman-docs/monitoring-usage-details2.jpg)](https://assets.postman.com/postman-docs/monitoring-usage-details2.jpg)
-
-> If you are concerned about or are surprised by overages, this is the place to go to find all of your team's active monitors in one place, plus information to help you and your team make informed decisions on items like monitoring frequency.
-
-### How Postman calculates monitor usage
-
-Postman calculates monitoring usage based on the actual number of requests made during a run, which may or may not be equal to the number of requests in your collection.
-
-If you use `postman.setNextRequest()` to skip a request or run a request multiple times, Postman will take that into account when calculating usage. Postman will also count any requests required for [authorization](/docs/sending-requests/authorization/).
 
 ## Running collections in a monitor
 
