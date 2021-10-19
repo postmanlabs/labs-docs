@@ -133,9 +133,9 @@ If a conflict arises from a sync issue within your workspace, [Postman will pres
 
 ## Upgrading your account
 
-If you have a free account, you can upgrade it by navigating to [Postman](https://go.postman.co/) and clicking **Upgrade** in the top-right corner.
+If you have a free account, you can upgrade it by navigating to [Postman](https://go.postman.co/) and selecting **Upgrade** in the top-right corner.
 
-If you have a paid account, you can upgrade your Postman plan by navigating to your [billing dashboard](https://go.postman.co/billing/overview) and clicking **Edit Plan** on the right.
+If you have a paid account, you can upgrade your Postman plan by navigating to your [billing dashboard](https://go.postman.co/billing/overview) and selecting **Edit Plan** on the right.
 
 [![Edit plan option in billing dashboard](https://assets.postman.com/postman-docs/billing-dashboard-edit-plan-v9.1.jpg)](https://assets.postman.com/postman-docs/billing-dashboard-edit-plan-v9.1.jpg)
 
