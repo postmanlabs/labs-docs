@@ -163,7 +163,7 @@ The cost of your new plan and/or additional seats will be prorated based on the 
 
 <!-- -->
 
-> Certain changes can only be applied to your team upon renewal. If you make adjustments to your plan that cannot be applied immediately, a notification will appear at the top of the page.
+> Certain changes can only be applied to your team upon renewal. If you make adjustments to your plan that cannot be applied immediately, and have **Immediately** selected, you will be prompted to switch your selection to **On renewal**.
 
 ### Setting instructions for next billing cycle
 
@@ -173,7 +173,7 @@ To set instructions to determine what will happen at the end of your current bil
 
 You can view your current plan and opt to **Edit Standing Instructions**. Select your preferred option from the drop-down menu, then select **Proceed** to move forward with your plan changes.
 
-<img alt="Set instructions for next cycle" src="https://assets.postman.com/postman-docs/billing-set-instructions-for-next-billing-cycle-v9.1.0jpg" width="400px"/>
+<img alt="Set instructions for next cycle" src="https://assets.postman.com/postman-docs/billing-set-instructions-for-next-billing-cycle-v9.1.0.jpg" width="400px"/>
 
 > You can change your standing instructions at any time before the end of your current billing cycle.
 
