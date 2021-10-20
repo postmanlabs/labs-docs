@@ -60,7 +60,7 @@ You can share the APIs that your team uses internally to the Private API Network
 
 To add an API to your team's Private API Network from [Postman](https://go.postman.co), sign in and select **Private API Network** in the left navigation bar.
 
-<img alt="Private API Network Left Navbar" src="https://assets.postman.com/postman-docs/private-api-network-left-navbar-v9.jpg" height="350px"/>
+<img alt="Home Left Navbar" src="https://assets.postman.com/postman-docs/homepage-left-sidebar-v9.1.0.jpg" width="350px"/>
 
 The default view is your team's [Private API Network](https://go.postman.co/network/private). To add an API to your team's Private API Network, in the left navigation bar, select **Add APIs**.
 
@@ -68,7 +68,7 @@ The default view is your team's [Private API Network](https://go.postman.co/netw
 
 Select one or more APIs you want to add to the network at one time. Create a folder to add the APIs to, if required. Select **Add API**.
 
-<img alt="Add API Modal" src="https://assets.postman.com/postman-docs/add-to-private-api-network-v9.jpg" height="450px"/>
+<img alt="Add API Modal" src="https://assets.postman.com/postman-docs/add-to-private-api-network-v9.jpg" width="400px"/>
 
 > The APIs that you add to the Private API Network reflect the latest state of the API in your team workspace. In other words, changes made to the API in the workspace will be reflected in the network in real time.
 
@@ -98,7 +98,7 @@ The following lists the key features of the Private API Network that help make d
 
 You can create new folders from the Private API Network view. Select __Create Folder__ from the left navigation bar to create a new folder. Give it a name and summary (supports Markdown). Your new folder will now be created in the Private API Network.
 
-<img alt="New folder in Private Network" src="https://assets.postman.com/postman-docs/add-new-folder-api-network-left-navigation-v9.jpg" height="500px"/>
+<img alt="New folder in Private Network" src="https://assets.postman.com/postman-docs/add-new-folder-api-network-left-navigation-v9.jpg" width="350px"/>
 
 From the overview page, select **Create Folder** on the right to create a new folder. You can also create sub folders when you are inside a folder with the **Create folder** button.
 
@@ -106,13 +106,13 @@ From the overview page, select **Create Folder** on the right to create a new fo
 
 Once you've created the folder, you can add APIs to get started. Make your API selection from the dropdown under **Select APIs** to add them to your Team's Private API Network. You can select as many APIs you want to add to the Private API Network at one time. Select __Add API__.
 
-<img alt="Add API Modal" src="https://assets.postman.com/postman-docs/add-to-private-api-network-v9.jpg" height="450px"/>
+<img alt="Add API Modal" src="https://assets.postman.com/postman-docs/add-to-private-api-network-v9.jpg" width="400px"/>
 
 > All versions that are visible to consumers will be available on the Private API Network. Read more about [API versioning](/docs/designing-and-developing-your-api/versioning-an-api/).
 
 Select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to the API you would like to edit from the network and select __Edit API listing__. You can update the API summary, and modify the folder to which the API should be added. Select **Update** when the changes are done.
 
-<img alt="Edit Summary 2" src="https://assets.postman.com/postman-docs/edit-api-summary-v9.jpg" height="450px"/>
+<img alt="Edit API summary" src="https://assets.postman.com/postman-docs/edit-api-summary-v9.jpg" width="400px"/>
 
 You can also remove the added APIs from your Private API Network. Select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to the API you would like to remove from network. Once you select __Remove__, your team members will also lose access to the API via the network.
 
@@ -138,9 +138,9 @@ From the API builder, you can create a new version of the existing API. Select <
 
 <img alt="Visibility API versions" src="https://assets.postman.com/postman-docs/new-version-visibility-api-v9.jpg"/>
 
-You can always decide the visibility of API versions visible to the consumers. From the overview tab, to edit your API versions, select **...** and select **Edit**. You can select the checkbox to make the particular version available to the consumers. Select **Save Changes** when done.
+You can always decide the visibility of API versions visible to the consumers. To edit an API version, select the version in the **Overview** tab, then select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> > **Edit** in the upper right. You can select the checkbox to make that particular version available to the consumers. Select **Save Changes** when done.
 
-<img alt="Visibility API versions" src="https://assets.postman.com/postman-docs/visibility-api-versions-v9.jpg" width="350px"/>
+<img alt="Edit API version" src="https://assets.postman.com/postman-docs/edit-version-api-v9.1.jpg" width="350px"/>
 
 When you publish the versions of your APIs to your Private API Network, only the versions visible to the consumers will get published, and you can resume your work-in-progress API versions anytime.
 
@@ -162,7 +162,7 @@ The report feature makes it easier to govern your internal API landscape through
 
 Navigate to your API and select **Reports** to the right of the API.
 
-<img alt="API landscape governance" src="https://assets.postman.com/postman-docs/api-governance-reports-v9.jpg"/>
+<img alt="API landscape governance" src="https://assets.postman.com/postman-docs/api-reports-selected-v9.1.jpg" width="400px"/>
 
 The API report provides the following information:
 
@@ -195,13 +195,13 @@ Under your team name, you can browse a directory of APIs shared within your team
 
 <img alt="Private API List" src="https://assets.postman.com/postman-docs/private-api-network-list-v9.jpg"/>
 
-To review version-level details, select **>** on the right of the API version. You can review information about the API and the description. You can edit the schema or make changes to the API directly. You can see team editors and the workspace associated with this API.
+To review version-level details, select **>** on the right of the API version. You can review information about the API and the description. You can edit the schema or make changes to the API directly. You can view editors who have worked on the API and the workspace it currently exists in.
 
-<img alt="Published to network" src="https://assets.postman.com/postman-docs/api-overview-v9.jpg"/>
+<img alt="API page in private network" src="https://assets.postman.com/postman-docs/private-network-api-view-v9.1.jpg"/>
 
-**Add API to Private API Network** will display if you haven't added the API to the private network.
+**Add API to Private API Network** will display on the right if you haven't added the API to the private network.
 
-<img alt="Add to Private API Network" src="https://assets.postman.com/postman-docs/add-to-private-api-network-button-v9.jpg">
+<img alt="Add to Private API Network" src="https://assets.postman.com/postman-docs/add-api-to-private-network-v9.1.jpg" width="400px">
 
 > Select **Watch** to start watching the API. To learn more about watch notifications, see [Watching an API](/docs/designing-and-developing-your-api/managing-apis/#watching-apis).
 

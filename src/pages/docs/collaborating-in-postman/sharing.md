@@ -28,74 +28,67 @@ warning: false
 
 ---
 
-You can share Postman entities you are working on with collaborators, including collections, APIs, and environments.
+You can collaborate on Postman entities including collections, APIs, and environments, by sharing them via link or by moving them to a shared private, team, or public workspace.
 
 > To share a collection run, see [Using the Collection Runner](/docs/running-collections/intro-to-collection-runs/).
 >
 > To share a collection via embed, use the [Run in Postman](/docs/publishing-your-api/run-in-postman/introduction-run-button/) button.
 >
-> To share by file, see [Importing and exporting data](/docs/getting-started/importing-and-exporting-data/)
+> To share a collection as a file, see [Importing and exporting data](/docs/getting-started/importing-and-exporting-data/)
 
 ## Contents
 
-* [Sharing to workspaces](#sharing-to-workspaces)
-* [Sharing by link](#sharing-by-link)
+* [Sharing Postman entities](#sharing-postman-entities)
+* [Moving Postman entities to collaborative workspaces](#moving-postman-entities-to-collaborative-workspaces)
 * [Next steps](#next-steps)
 
 > To share your work via workspaces you will need to be signed in to your [Postman account](/docs/getting-started/postman-account/).
 
-## Sharing to workspaces
+## Sharing Postman entities
 
-When you work in a Postman workspace, any entities you save to the workspace will be visible to other team members who share the workspace—with [varying access levels](/docs/collaborating-in-postman/roles-and-permissions/) depending on your team's configuration.
+You can share your collections, APIs, and environments with collaborators by navigating to the entity you'd like to share in the left sidebar. Select it, then select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> > **Share**.
 
-You can share various Postman entities to workspaces, or move them from one workspace to another, including collections, environments, and APIs.
+Sharing options depend on the type of entity:
 
-To share an entity from Postman, find the entity based on what type it is:
+* Collections can be shared via a link to the collection, a [Run in Postman](/docs/publishing-your-api/run-in-postman/creating-run-button/) button, or a JSON link.
+<img alt="Share collection via workspace" src="https://assets.postman.com/postman-docs/share-collection-via-wksp-v9.1.0.jpg"/>
 
-* To share a collection, open __Collections__ on the left of Postman and click __Share collection__ in the __...__ menu.
+  > A JSON link is a shareable public link to a static snapshot of your collection. You can manage a complete list of your active collection links from your [Postman profile](https://go.postman.co/me/collections?view=links).
 
-<img alt="Share collection" src="https://assets.postman.com/postman-docs/share-collection-from-sidebar-v8.jpg" width="600px"/>
+* APIs can be shared via link to teammates with access to the API.
+<img alt="Share collection via workspace" src="https://assets.postman.com/postman-docs/share-api-via-link-v9.1.jpg"/>
 
-* To share an API, open __APIs__ on the left of Postman and click __Share API__ in the __...__ menu.
+* Environments can be shared via link to teammates with access to the environment.
+<img alt="Share collection via workspace" src="https://assets.postman.com/postman-docs/share-environment-via-link-v9.1.jpg"/>
 
-<img alt="Share API" src="https://assets.postman.com/postman-docs/share-api-from-sidebar-v8.jpg" width="600px"/>
+## Moving Postman entities to collaborative workspaces
 
-* To share an environment, open __Environments__ on the left of Postman and click __Share environment__ in the __...__ menu.
+You can move collections, APIs, and environments to shared workspaces to collaborate with your team.
 
-<img alt="Share environment" src="https://assets.postman.com/postman-docs/share-environment-from-sidebar-v8.jpg" width="600px"/>
+> You must be an editor on a collection, API, or environment, or the workspace admin, to move an entity to another workspace.
 
-You can share collections, APIs, and environments to specific workspaces. _You can additionally share collections via embed and [link](#sharing-by-link) options._
+Navigate to the entity you'd like to share in the left sidebar, select it, then select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> > **Move**.
 
-In the share modal, select the workspace you want to share the entity to. Team members in the target workspace will be able to access the entity when you share it there.
+Use the search bar to find the workspace you'd like to move the entity to, or filter by workspace visibility by selecting the icon to the right of the search bar.
 
-[![Share workspace selection](https://assets.postman.com/postman-docs/share-modal-workspace-selection-team-v8.jpg)](https://assets.postman.com/postman-docs/share-modal-workspace-selection-team-v8.jpg)
+You can share entities to personal, private, team, and public workspaces that you have access to. Shared private, team, and public workspaces allow you to collaborate with others.
 
-Toggle the radio button if you also want to remove the entity from its current workspace. If you want to share the collection but keep it in the current workspace as well, click **Share collection**. If you want the collection to be removed from the current workspace after you share it, click **Share collection and remove from current workspace**.
+> You cannot move entities from team, private, or public workspaces to a personal workspace.
 
-> When you remove a collection from a workspace, all mocks, monitors, and integrations associated with it will also be removed.
+<!-- -->
 
-Click __Share and Continue__.
+> Refer to [Roles and permissions](/docs/collaborating-in-postman/roles-and-permissions/) for information on workspace access control within your team.
 
-[![Share role selection](https://assets.postman.com/postman-docs/share-role-selection-v8.jpg)](https://assets.postman.com/postman-docs/share-role-selection-v8.jpg)
+Select the workspace, then **Move** (**Collection**, **API**, or **Environment**).
 
-Select view or edit access levels for each collaborator or the workspace as a whole. Click __Save Roles__.
+<img alt="Move API" src="https://assets.postman.com/postman-docs/move-api-v9.1.jpg" width="400px"/>
 
-> Refer to [Roles and permissions](/docs/collaborating-in-postman/roles-and-permissions/) for more information on role-based user permissions.
+Note that items related to what's being moved will not move with the entity automatically:
 
-If you want to restore a collection to a workspace it's been removed from, share the collection again. If the collection is deleted and you need to restore access to it, you will need to [recover it](/docs/sending-requests/intro-to-collections/#managing-collections) first.
+* Collections: Monitors will pause and stay in the current workspace.
 
-## Sharing by link
+* APIs: Collections, documentation, monitors, mock servers, and environments of the API will stay in the current workspace.
 
-You can share a collection using a link. In the collection share modal, select __Get public link__.
+* Environments: Monitors, mock servers, and integrations using the environment may no longer work.
 
-![Share by link](https://assets.postman.com/postman-docs/collection-get-public-link.jpg)
-
-The link is a snapshot of your collection, so click __Update Link__ and copy it for the most up to date version. You can then share it by pasting the copied link. You can also delete the link using the trash button.
-
-> You can manage a complete list of your active collection links from your [Postman profile](https://go.postman.co/me/collections?view=links).
-
-## Next steps
-
-Team members can [request access](/docs/collaborating-in-postman/requesting-access-to-collections/) to collections, environments, and APIs.
-
-For more detail on working with environments as a team, see [Managing environments](/docs/sending-requests/managing-environments/). For more on working with APIs, see [Managing and sharing APIs](/docs/designing-and-developing-your-api/managing-apis/).
+These items must be moved separately or re-configured in the new workspace.

@@ -88,26 +88,30 @@ Team roles provide high-level access control:
 
 ### Workspace roles
 
-You can [assign](/docs/administration/managing-your-team/managing-your-team/) two role types in Postman workspaces: **Admin** and **Collaborator**.
+You can [assign](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#managing-workspace-roles) three role types in Postman workspaces: **Admin**, **Editor** and **Viewer**.
 
-* **Admin**: manage workspace details and members
-* **Collaborator**: work on team resources in a workspace
+* **Admin:** Can manage workspace resources and settings
+* **Editor:** Can create and edit workspace resources
+* **Viewer:** Can view, fork, and export workspace resources
 
 The following roles control access at a workspace level:
 
-| Action | Admin | Collaborator |
-| --- | --- | --- |
-| Create workspaces | &#x2714; | &#x2714; |
-| Delete workspaces | &#x2714; | |
-| Edit workspace details | &#x2714; | |
-| Join and leave workspaces | &#x2714; | &#x2714; |
-| Add members | &#x2714; | &#x2714; |
-| Remove members | &#x2714; | |
-| Manage workspace roles | &#x2714; | |
-| Manage workspace visibility | &#x2714; | |
-| Add and remove APIs, collections, and environments | &#x2714; | &#x2714; |
-| Manage integrations | &#x2714; | &#x2714; |
-| Add monitors and mock servers | &#x2714; | &#x2714; |
+| Action | Admin | Editor | Viewer |
+| --- | --- | --- | --- |
+| Create workspaces | &#x2714; | | |
+| Delete workspaces | &#x2714; | | |
+| Edit workspace details | &#x2714; | | |
+| Join and leave workspaces | &#x2714; | &#x2714; | &#x2714; |
+| Add members | &#x2714; | | |
+| Remove members | &#x2714; | | |
+| Manage workspace roles | &#x2714; | | |
+| Manage workspace visibility | &#x2714;&ast; | | |
+| Add and remove APIs, collections, and environments | &#x2714; | &#x2714; | |
+| Manage integrations | &#x2714; | &#x2714; | |
+| Add monitors and mock servers | &#x2714; | &#x2714; | |
+| Send requests | &#x2714; | &#x2714; | &#x2714; |
+
+&ast; On Business and Enterprise plans, workspace admins must request to change a workspace's visibility to public. This request will go to the [Community Manager](/docs/collaborating-in-postman/roles-and-permissions/#team-roles). On Team and Free plans, or if a team has no Community Manager assigned, workspace admins can control visibility.
 
 ### API roles
 
@@ -162,19 +166,19 @@ To manage team roles, see [Managing roles](/docs/administration/managing-your-te
 
 ## Roles FAQ
 
-* **Our only team member with billing/admin permissions left - what can I do?**  
+* **Our only team member with billing/admin permissions left - what can I do?**
 Contact us via our [Support Center](https://support.postman.com/hc/en-us) for assistance.
 
-* **I'm an admin, why can't I assign the billing role?**  
+* **I'm an admin, why can't I assign the billing role?**
 Billing roles can only be granted by a fellow team member with a billing role. If this is not possible, contact us via our [Support Center](https://support.postman.com/hc/en-us) for assistance.
 
-* **Is there a "Super Admin" role?**  
+* **Is there a "Super Admin" role?**
 A "Super Admin" role is being considered for development. You can track progress and upvote [this issue on GitHub](https://github.com/postmanlabs/postman-app-support/issues/6102) to show your support.
 
-* **Our colleague left the organization, how can we access their collections?**  
+* **Our colleague left the organization, how can we access their collections?**
 You can remove a former colleague from your Postman team via your [dashboard](https://go.postman.co/team). When a collection owner is removed from your team, ownership of their shared collections is transferred to fellow team members and these collections will continue to exist in your Postman team.
 
-* **What are "support" roles?**  
+* **What are "support" roles?**
 A support-only account is one that holds an admin and/or billing role, but is not a developer.
 Teams can have up to two support-only accounts.
 
