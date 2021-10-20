@@ -213,7 +213,7 @@ You can export your Postman data, including collections, environments, data dump
 
 You can export your collections from Postman by selecting the **...** next to the collection, then **Export**.
 
-![Export collection menu](https://assets.postman.com/postman-docs/export-collection-menu2.jpg)
+<img alt="Export collection" src="https://assets.postman.com/postman-docs/export-collection-v9.1.jpg" width="350px" />
 
 You can then select the format you'd like your collection to export as. Select **Export** to download your newly generated JSON file.
 

@@ -26,279 +26,311 @@ contextual_links:
     url: "/docs/designing-and-developing-your-api/validating-elements-against-schema/"
 ---
 
-> [__API reporting is available on all Postman Enterprise and select Postman Business&#42; plans.__](https://www.postman.com/pricing)
+> [__API reporting is available on all Postman Enterprise and select Postman Business plans.__](https://www.postman.com/pricing)
 
-You can access reports on your APIs in your [Postman dashboard](https://go.postman.co/reports/team). API reports visualize data on API activities including creation, collection execution, test runs, and more, providing insights on performance, troubleshooting, and SLA adherence, as well as team and organization metrics.
+Postman generates reports that enable you to visualize data for team metrics and usage, and for API activities such as creation, collection execution, and test runs. Use reports to get insights on performance, troubleshooting, and SLA adherence. You can access API reports in your [Postman dashboard](https://go.postman.co/reports/summary).
 
-To generate reports in Postman, first ensure you have carried out the following steps:
+[![reports summary](https://assets.postman.com/postman-docs/reports-overview.jpg)](https://assets.postman.com/postman-docs/reports-overview.jpg)
 
-* [Share your API](/docs/designing-and-developing-your-api/managing-apis/)
-* [Add a collection to the API](/docs/designing-and-developing-your-api/defining-an-api/#generating-a-collection)
-* Turn on __Save Responses__ in __History__ on the left of Postman
-* Send a request from the collection
+* [Getting started with reports](#getting-started-with-reports)
+* [Reports Summary](#reports-summary)
+* [Team reports](#team-reports)
+* [All Workspaces reports](#all-workspaces-reports)
+* [All APIs reports](#all-apis-reports)
+* [Security Audit](#security-audit-reports)
+* [Business reports](#business-reports)
+* [Troubleshooting](#troubleshooting)
+* [Next Steps](#next-steps)
 
-To view reports, in __APIs__ on the left of Postman, select the API and click __Reports__.
+## Getting started with reports
 
-The __Reports__ section of the web dashboard will open in your browser. Postman generates reports on [teams](#team-reports) and [APIs](#api-reports).
+To see API reports in Postman, make sure to do all of the following:
 
-[Postman Enterprise](#enterprise-reports) teams have access to detailed API reports. Older [Postman Business](#business-reports)&#42; teams have access to a limited version of API reports.
+* [Share your API](/docs/designing-and-developing-your-api/managing-apis/).
+* [Add a collection to the API](/docs/designing-and-developing-your-api/defining-an-api/#generating-a-collection).
+* Select __History__ in the left sidebar and enable the [__Save Responses__ option](/docs/getting-started/navigating-postman/#history).
+* [Send a request](/docs/sending-requests/requests/) from the collection.
 
-> &#42; Postman Business teams created in January 2020 and thereafter do not benefit from API reporting. To gain access to API reporting, [upgrade to Postman Enterprise](https://www.postman.com/pricing/get-started-postman-plans/). [Contact Postman support](https://www.postman.com/support/) for information and assistance regarding your team's plan and feature set.
+To view reports:
 
-## Enterprise reports
+* Select **Reports** in the Postman header to see all reports.
+* To see a report for a specific API, [go to the overview page for the API](/docs/designing-and-developing-your-api/the-api-workflow/#navigating-the-api-builder) and select **Reports**.
 
-[![reports dashboard](https://assets.postman.com/postman-docs/reports-dashboard-overview-v8.jpg)](https://assets.postman.com/postman-docs/reports-dashboard-overview-v8.jpg)
+Reports are generated periodically but not in real time. You may experience a delay of a few minutes or up to 24 hours before report data is available. The last update time is shown at the bottom of the left sidebar.
 
-You can access the following reports from the left navigation bar of your dashboard:
+> You can only see report data that is visible to you based on your role.
 
-* [Team Activity](#team-activity-reports)
-* [All API reports](#all-api-reports)
-* [Private Network API reports](#private-network-api-reports)
-* [Security Audit reports](#security-audit-reports)
-* [Individual API view reports](#individual-api-view-reports)
+To navigate within a report:
 
-## Team activity reports
+* Select items in the left sidebar to see each report.
+* Some report items have a link which opens another related report. For example, on the **Uptime** chart in the **Summary** report, there is a link to open the **Team APIs** report.
+* Hover over a data point to show the data point's value.
 
-The __Reports__ &gt; __Team Activity__ report provides team level metrics, including team overview, team size, billing details, team activity and workspaces. Click to view the details on a particular metric. This dashboard view can be split into three sections:
+    <img src="https://assets.postman.com/postman-docs/reports-datapoint-hover.jpg" alt="reports data point" width="100px" />
 
-* [Team overview](#team-overview)
-* [Billing](#billing)
-* [Team activity](#team-activity)
+* Select a data point to drill down and view more details. Sort the table by selecting a column heading. Hover over a table row and select the arrow to navigate to a related report or entity.
 
-### Team overview
+    <img src="https://assets.postman.com/postman-docs/reports-drilldown.jpg" alt="reports data point" width="100%" />
 
-Team overview reporting provides the following information:
+> [Postman Enterprise](https://www.postman.com/pricing/get-started-postman-plans/) teams have access to detailed team and API reports. Postman Business teams created after 2020 have access to a limited set of reports. For more information, see [business reports](#business-reports).
 
-* __Team created on__ is the date when the team was created
-* __Team size over time__ is the size of the team over a period of time
-* __Team size__ is the number of user accounts in the team
-* __SSO identity provider__ is any [SSO](https://learning.postman.com/docs/administration/sso/intro-sso/) login you have configured for your team to access their Postman accounts
-* __Active users over time__ displays the users who have signed into Postman at least once over the past 30 days
+## Reports Summary
 
-<img alt="active users" src="https://assets.postman.com/postman-docs/active-users-v8.jpg"/>
+The [**Reports Summary**](https://go.postman.co/reports/summary) dashboard show an overview of your APIs, as well as snapshots for how your team is using Postman and how people are interacting with your publicly shared work.
 
-> In this example, the active users for the month of Nov 2020 is 240.
+### A summary view of your APIs
 
-* __Total slots__  is the number of slots in the team
-* __Invitations sent__ is the total number of invitations sent to join the team
-* __Open vs used slots__ indicates unused slots vs invitations that are either pending or approved by a team admin
+* **Overview** - The total number of APIs, plus a breakdown of the number of APIs with mocks, monitors, tests, and documentation, and the number of APIs on the Private and Public API Networks.
+* **Response Time** - The average response time in milliseconds across all APIs over time.
+* **Test Results** - The number of successful and failed test runs over time.
+* **Uptime** - The number of successful responses (returning 1xx or 2xx) compared to failed responses (returning 3xx, 4xx, or 5xx) over time.
 
-<img alt="open vs used slots" src="https://assets.postman.com/postman-docs/open-vs-used-slots-v8.jpg"/>
+    <img src="https://assets.postman.com/postman-docs/reporting-summary-view-apis.jpg" alt="reports data point" width="100%" />
 
-> In this example, the open slots for the month of Nov 2020 is 44 whereas the used slots is 306.
+### How is your team using Postman?
 
-### Billing
+* **Team Activity** - The total number of user actions (creating, editing, and deleting entities such as requests, collections, APIs, and environments) in a workspace over time.
+* **Resource Usage** - The number of used and unused integrations, mock calls, monitor requests, and Postman API calls across your team.
 
-Billing reporting provides the following information:
+    <img src="https://assets.postman.com/postman-docs/reporting-summary-team-use.jpg" alt="reports data point" width="500px" />
 
-* __Plan__ is the current active plan you have subscribed
-* __Billing cycle__ is either monthly or annually
-* __Renewal date__ is the date of renewal of the existing plan
+### How people are interacting with your publicly shared work
 
-### Team activity
+* **Public profile views** - The total number of times people have viewed any public profile on your team.
+* **Public workspace views** - The number of views of your team's public workspace over time.
+* **Published documentation views** - The number of views of your team's published documentation over time.
+* **Forks and Pull requests over time** - The number of times a collection in your public workspaces has been forked or pulled over time.
+* **Watch over time** - The number of times someone has watched a collection in your public workspaces over time.
 
-Team activity reporting provides the following information:
-
-* __Total Workspaces__ is the total number of workspaces including team, personal and private workspaces
-* __Empty workspaces__ are workspaces with no collections in them
-* __Active workspaces__ have had at least one revision during the last 24 hours, not including personal workspaces
-
-[![active empty workspaces](https://assets.postman.com/postman-docs/active-empty-workspaces-v8.jpg)](https://assets.postman.com/postman-docs/active-empty-workspaces-v8.jpg)
-
-> In this example, the number of active workspaces is 58 whereas the number of empty workspaces is 103.
-
-* __Total APIs__ is the total number of APIs in the team and personal workspaces, including private workspaces
-* __Requests sent in Postman__ is the requests sent manually in Postman but not any requests sent via Newman, monitoring runs, or the collection runner
-
-<img alt="request sent in postman" src="https://assets.postman.com/postman-docs/requests-sent-in-postman-v8.jpg"/>
-
-> In this example, the total API requests sent in Postman for Nov 2020 is 38,243.
-
-* __Total collections__ are the total number of collections in team and personal workspaces, including private workspaces
-* __Collections created__ is the total number of collections created in team workspaces, including private workspaces
-
-* __Collection runs__ is the number of collection runs made in team workspaces, including private workspaces
-
-<img alt="Collections created and runs" src="https://assets.postman.com/postman-docs/collection-created-and-runs-v8.jpg"/>
-
-* __Active monitors__ is the total number of active monitors in team workspaces including private workspaces (any monitor currently scheduled to run is *active*)
-* __Monitoring requests__ is the number of requests made from monitors in team workspaces, including private workspaces.
-
-<img alt="Monitoring requests" src="https://assets.postman.com/postman-docs/monitoring-requests-v8.jpg"/>
-
-> In this example, the monitoring requests for the month of May 2020 is 5618K.
-
-* __Publicly documented collections__ indicates any collections for which your team has published the documentation
-
-* __Views of public documentation__ is the number of times people have viewed your team's public documentation
-* __Views of private documentation__ is the number of times people have viewed your team's private documentation
-
-[![public private documentation](https://assets.postman.com/postman-docs/views-documentation-v8.jpg)](https://assets.postman.com/postman-docs/views-documentation-v8.jpg)
-
-> In this example, the number of public documentation views for Feb 2021 is 15,767 whereas the number of private documentation views is 1,603.
-
-## All API reports
-
-The __Reports__ &gt; __All APIs__ report provides metrics including an overview of your total APIs, a visualization of API creation over time, and a separate view of your APIs with and without mocks, monitors, tests, and documentation. This dashboard view can be split into two sections:
-
-* [API overview](#api-overview)
-* [API development](#api-development)
-
-## API overview
-
-[![api overview](https://assets.postman.com/postman-docs/all-api-overview-v8.jpg)](https://assets.postman.com/postman-docs/all-api-overview-v8.jpg)
-
-The API overview reporting provides the following information:
-
-* __Total APIs__ is the total number of APIs created in Postman in all the team workspaces
-* __Private Network APIs__ is the number of APIs published on the teams' network
-* __Shared APIs__ is the number of APIs shared with team workspaces
-* __APIs created over time__ is the total number of APIs created during the month
-* __APIs created in last 24 hours__ is the APIs created in the past 24 hours
-* __APIs updated in last 24 hours__ APIs are considered active if there is some kind of activity in the last one day
-
-For APIs created over a period of time, you can access the total count of APIs on a monthly basis.
-
-[![APIs created over time](https://assets.postman.com/postman-docs/apis-created-over-time-v8.jpg)](https://assets.postman.com/postman-docs/apis-created-over-time-v8.jpg)
-
-> In this example, the total number of APIs created for the month of July is 76.
-
-## API development
-
-[![api development](https://assets.postman.com/postman-docs/api-development-v8.jpg)](https://assets.postman.com/postman-docs/api-development-v8.jpg)
-
-The API development reporting provides the following information:
-
-* __API Versions by Schema Type__ indicates APIs by the type of schema used to define them (OpenAPI, GraphQL, Swagger, etc) visualized as a horizontal bar chart
-
-[![apis by schema type](https://assets.postman.com/postman-docs/apis-by-schema-type-v8.jpg)](https://assets.postman.com/postman-docs/apis-by-schema-type-v8.jpg)
-
-> In this example, the count of APIs for OpenAPI(3.0) is 249.
-
-* __API Versions with Mocks__ is the number of APIs your team has added mocks to
-* __API Versions with Monitors__ is the number of APIs your team has added monitors to
-* __API Versions with Tests__ is the number of APIs your team has added test suites, integration tests and contract tests to
-* __API Versions with Documentation__ is the number of APIs your team has added documentation to
-
-[![API mocks monitors tests](https://assets.postman.com/postman-docs/api-mocks-monitors-tests-v8.jpg)](https://assets.postman.com/postman-docs/api-mocks-monitors-tests-v8.jpg)
-
-> In this example, the APIs with/without mocks, monitors, tests and documentation are visualized in percentages. Hover over the chart to view the API data in figures. From the chart, you can see that 28% of the APIs have documentation.
-
-## Private Network API reports
-
-The __Reports__ &gt; __Private Network APIs__ report provides metrics including an overview of your total published APIs, a visualization of API categorised by schema type, and a separate view of your APIs with and without mocks, monitors, tests, and documentation.
-
-[![private-network-api](https://assets.postman.com/postman-docs/private-network-apis-v8.jpg)](https://assets.postman.com/postman-docs/private-network-apis-v8.jpg)
-
-The Private network API reporting provides the following information:
-
-* __Total published APIs__ are the number of APIs that are published to the Private API network
-* __API Versions by Schema Type__ indicates APIs by the type of schema used to define them (OpenAPI, GraphQL, Swagger, etc) visualized as a horizontal bar chart
-* __API Versions with Mocks__ is the number of APIs your team has added mocks to
-* __API Versions with Monitors__ is the number of APIs your team has added monitors to
-* __API Versions with Tests__ is the number of APIs your team has added test suites, integration tests and contract tests to
-* __API Versions with Documentation__ is the number of APIs your team has added documentation to
-
-[![private-network-api](https://assets.postman.com/postman-docs/private-network-api-mocks-monitors-tests-v8.jpg)](https://assets.postman.com/postman-docs/private-network-api-mocks-monitors-tests-v8.jpg)
-
-> In this example, the APIs with/without mocks, monitors, tests and documentation are visualized in percentages. Hover over the chart to view the API data in figures. From the chart,  you can see that 75% of the APIs have documentation.
-
-## Security Audit reports
-
-The __Reports__ &gt; __Security Audit__ report provides metrics including an overview of your total collections scanned, collections with exposed tokens, total exposed token and separate visualizations of exposed tokens by type and over time. This report consolidates the findings of the Postman token scanner from public documentation. For more on the Postman token scanner, see [Postman security scans](https://blog.postman.com/postman-security-scans/).
-
-[![security audit](https://assets.postman.com/postman-docs/security-audit-v8.jpg)](https://assets.postman.com/postman-docs/security-audit-v8.jpg)
-
-The Security Audit reporting provides the following information:
-
-* __Total collections scanned__ are the number of collections that are published or updated
-* __Collections with exposed tokens__ indicates total collection scans that has an exposed token
-* __Total exposed tokens__ are the total tokens that are exposed across all published collections
-* __Exposed tokens by type__ indicates the exposed tokens by type visualized as a donut chart
-* __Exposed tokens over time__ indicates the exposed tokens over a period of time visualized as a column chart
-
-## Individual API view reports
-
-The __View reports by API__ provide the individual API view where you can enter the API name in the search box and generate a report on the API.
-
-[![private-network-api](https://assets.postman.com/postman-docs/view-api-report.jpg)](https://assets.postman.com/postman-docs/view-api-report.jpg)
-
-> Click __View reports by API__ > Enter __Reporting__ in the search box to view the above report.
-
-## Business reports
-
-![Reports Dashboard](https://assets.postman.com/postman-docs/reports-dash.jpg)
-
-The __Team__ &gt; __Overview__ report provides organization level metrics, including new and active APIs, team size, and workspaces. Click to view more data on a particular metric.
+    <img src="https://assets.postman.com/postman-docs/reporting-summary-interaction.jpg" alt="report interaction" width="500px" />
 
 ## Team reports
 
+**Team reports**  provides team-level metrics, including team overview, team size, billing details, team activity, and workspaces. This section contains three reports:
+
+* [Team details](#team-details)
+* [Team activity](#team-activity)
+* [Resource usage](#resource-usage)
+
+### Team details
+
+The **Team details** report provides an overview of your team and members, including:
+
+* **Team name** - The name of your team.
+* **Team created on** - The date when the team was created.
+* **Plan type** - The [Postman plan](https://www.postman.com/pricing/) your team currently subscribes to.
+* **Total team members** - The current number of user accounts in the team.
+* **Team members over time** - The size of the team over time.
+* **Team roles** - The number of team members with Admin, Billing, Community Manager, or Developer roles.
+* **SSO identity provider** - Any [single sign-on provider](https://learning.postman.com/docs/administration/sso/intro-sso/) you have configured for team members to access their Postman accounts.
+* **Billing Cycle** - Your account's billing cycle (annual or monthly).
+* **Renewal Date** - The date your current Postman plan will renew.
+
+### Team activity
+
+The **Team activity** report provides more detail on your team members' activity, including:
+
+* **Total team members** - The current number of user accounts in the team.
+* **Active members over time** - The number of team members who used Postman at least once on that day.
+* **Team Activity** - The total number of user actions (creating, editing, and deleting entities such as requests, collections, APIs, and environments) in a workspace over time.
+* **Entities created over time** - The number of entities created over time, including APIs, collections, environments, mocks, and monitors.
+* **Updates on entities over time** - Changes made to entities over time.
+
+### Resource usage
+
+The **Resource usage** report provides more information on how your team is using Postman resources, including:
+
+* **Team slots** - Billed slot usage across your team.
+    * **Used slots** - The used billed slots compared to unused billed slots for your team.
+    * **Unbilled slots** - The number of unbilled slots.
+    * **Used slots over time** - Billed slots, unbilled slots, and total available slots over time.
+* **Mock server calls** - Mock server calls made, overage calls, and mock calls over time.
+* **Monitoring server calls** - Monitoring calls made, overage calls, and monitoring calls over time.
+* **Postman API calls** - The number of API calls made to the Postman API.
+* **Integrations** - Integrations created, integrations on entities, and integrations by type.
+
+## All Workspaces reports
+
+**All workspaces** reports provide metrics on public and private workspaces. This section contains three reports:
+
+* [All Workspaces](#all-workspaces)
+* [Team Workspaces](#team-workspaces)
+* [Public Workspaces](#public-workspaces)
+
+### All Workspaces
+
+The **All workspaces** summary report contains the following:
+
+* **Total workspaces** - The total number of workspaces including team, personal, and private workspaces.
+* **Workspaces created over time** - The total number of workspaces created by your team over time.
+* **Workspaces by type** - The total number of personal, private, public, and team workspaces, as well as the number of empty workspaces of each type.
+* **Active workspaces over time** - The number of workspaces with at least one revision on that day.
+
+### Team Workspaces
+
+The **Team Workspaces** report contains the following information for your team workspaces:
+
+* **Total team workspaces** - The total number of team workspaces for your team.
+* **Most active team workspace** - A link to the most active team workspace in the past 30 days.
+* **Entities in team workspaces** - The number of environments, monitors, mocks, collections, and APIs in all team workspaces.
+* **Forks and Pull requests over time** - The number of times a collection in your team workspaces has been forked or pulled over time.
+* **Watch over time** - The number of times someone has watched a collection in your team workspaces over time.
+* **Comments over time** - The number of times a person has commented on a collection in your team workspaces over time.
+
+### Public Workspaces
+
+The **Public Workspaces** report contains the following information for your public workspaces:
+
+* **Total public workspaces** - The total number of public workspaces for your team.
+* **Most active public workspace** - A link to the most active public workspace in the past 30 days.
+* **Most viewed public workspace** - A link to the most viewed public workspace in the past three months.
+* **Workspace and Collection views** - The number of workspace and collection views within your public workspaces over time.
+* **Entities in public workspaces** - The number of environments, monitors, mocks, collections, and APIs in your team's public workspaces.
+* **Forks and Pull requests over time** - The number of times a collection in your public workspaces has been forked or pulled over time.
+* **Watch over time** - The number of times someone has watched a collection in your public workspaces over time.
+* **Comments over time** - The number of times a person has commented on a collection in your public workspaces over time.
+
+## All APIs reports
+
+The __All APIs__ report provides an overview of all your APIs as well as separate reports for team, private network, and public APIs. It also enables you to view a detailed report for each API.
+
+* [All APIs overview](#all-apis-overview)
+* [Team APIs](#team-apis)
+* [Private Network APIs](#private-network-apis)
+* [Public APIs](#public-apis)
+* [View Report by API](#view-report-by-api)
+
+### All APIs overview
+
+The **All APIs** overview report provides the following information:
+
+* **Total APIs** - The total number of APIs created by your team in all workspaces.
+* **Distribution of APIs** - The number of APIs created in personal, private, team, or public workspaces, or in the Private API Network.
+* **APIs created over time** - The total number of APIs created each month.
+
+### Team APIs
+
+The **Team APIs** report provides information on APIs created by your team, including:
+
+* **Total APIs in team Workspaces** - The number of APIs in team workspaces.
+* **Schemas by type** - The number of APIs by schema type (OpenAPI, GraphQL, Swagger, and so on).
+* **APIs updated over time** - The number of APIs that have been updated over time.
+* **Response time** - The average response time of all APIs over time.
+* **Test Results** - The number of successful and failed test runs over time.
+* **Uptime** - The number of successful responses (returning 1xx or 2xx) compared to failed responses (returning 3xx, 4xx, or 5xx) over time.
+* **APIs with Mocks** - The number of APIs your team has added mocks to.
+* **APIs with Monitors** - The number of APIs your team has added monitors to.
+* **APIs with Tests** - The number of APIs your team has added tests to.
+* **APIs with Documentation** - The number of APIs your team has added documentation to.
+* **Watches API** - The number of watches over time.
+* **Comments over time** - The number of comments over time.
+
+### Private Network APIs
+
+The __Private Network APIs__ report provides metrics including an overview of your total published APIs, a visualization of API categorized by schema type, and a separate view of your APIs with and without mocks, monitors, tests, and documentation.
+
+The __Private Network APIs__ report provides the following information:
+
+* __Total APIs on Private API Network__ - The number of APIs that are published to the Private API network.
+* __Schemas by type__ - The number of APIs by schema type (OpenAPI, GraphQL, Swagger, and so on).
+* __APIs with mocks__ - The number of APIs your team has added mocks to.
+* __APIs with monitors__ - The number of APIs your team has added monitors to.
+* __APIs with tests__ - The number of APIs your team has added tests to.
+* __APIs with documentation__ - The number of APIs your team has added documentation to.
+* **Watches over time** - The number of watches over time.
+* **Comments over time** - The number of comments over time.
+
+### Public APIs
+
+The __Public APIs__ report provides metrics including an overview of your total published APIs, API updates and views, and a separate view of your APIs with and without mocks, monitors, tests, and documentation.
+
+The __Public API__ report provides the same information as the **Private API** report, excluding __Schemas by type__. It also includes the following:
+
+* **APIs updated over time** - The number of APIs updated over time.
+* **Most viewed public API** - A link to your team's most-viewed public API over the last three months.
+* **Public API views** - A graph of the number of views of your team's public APIs over time.
+
+### View Report by API
+
+__View reports by API__ provides a report for each individual API. Scroll through the list of APIs, or use the search box to find an API, and then select the API to view the report. Each API report includes the following information:
+
+* **API name** - The name of the API
+* **API created by** - The user who created the API
+* **API created on** - The date the API was created
+* **Number of API requests** - The number of requests made to the API over time.
+* **Failed test runs** - The total number of failed test runs over time.
+* **Average response size** - The average response size in bytes over time.
+* **Average response time** - The average response time in milliseconds, over time.
+* **API Response Codes** - The HTTP response codes for each API response.
+
+## Security Audit reports
+
+The __Security Audit__ report provides metrics including an overview of your total collections scanned, collections with exposed tokens, total exposed tokens, and separate visualizations of exposed tokens by type and over time. This report consolidates the findings of the Postman token scanner from public documentation. Learn more about the Postman [Token scanner](/docs/api-security/token-scanner/).
+
+The **Security Audit** report provides the following information:
+
+* __Total collections scanned__ - The number of collections that are published or updated.
+* __Collections with exposed tokens__ - The total number of collection scans that have an exposed token.
+* __Total exposed tokens__ - The total number of tokens that are exposed across all published collections.
+* __Exposed tokens by type__ - The number of exposed tokens by type.
+* __Exposed tokens over time__ - The number of exposed tokens over time.
+
+## Business reports
+
+Postman Business teams created after January 2020 do not benefit from API reporting. To gain access to API reporting, [upgrade to Postman Enterprise](https://www.postman.com/pricing/get-started-postman-plans/). [Contact Postman support](https://www.postman.com/support/) for information and assistance regarding your team's plan and feature set.
+
+The __Team__ &gt; __Overview__ report provides organization level metrics, including new and active APIs, team size, and workspaces. Select a particular metric to view more data.
+
+### Team reports
+
 Team reports provide the following information:
 
-* __Total number of APIs__ present in the team, including in private and public workspaces
-* __New APIs__ created within the team, not including new versions
-* __Active APIs__ having at least one request being sent through a linked collection in the Postman request builder
-* __Team size__ as the number of user accounts in the team
-* __Empty workspaces__ with no collections in them
-* __Active workspaces__ with at least one revision during the last 24 hours, not including personal workspaces
+* __Total number of APIs__ present in the team, including in private and public workspaces.
+* __New APIs__ created within the team, not including new versions.
+* __Active APIs__ having at least one request being sent through a linked collection in the Postman request builder.
+* __Team size__ as the number of user accounts in the team.
+* __Empty workspaces__ with no collections in them.
+* __Active workspaces__ with at least one revision during the last 24 hours, not including personal workspaces.
 
 Team API requests are the count of requests sent over a period of time. The summary average is calculated by taking into account all days (even if no request is sent during a day).
 
-[![team api req](https://assets.postman.com/postman-docs/Reports-TeamAPI.png)](https://assets.postman.com/postman-docs/Reports-TeamAPI.png)
-
-> In this example, 15 requests were sent on Jun 12. Over the next six days, no requests were sent. The 7-day average is 2.14 (15/7).
-
-## API reports
+### API reports
 
 API reports provide a graphical representation of data and enable you to filter the data by collection and duration (last 7 or 30 days). You can view reports for any individual collections you have linked to an API.
 
-> Reports only track data from APIs you have shared to team workspaces. If your API is only shared to a personal workspace you will not see reports for it.
+> Reports only track data from APIs you have shared to team workspaces. If your API is only shared to a personal workspace, you will not see reports for it.
 
 API reports provide the following information:
 
-* __Average response size__ of requests in bytes or kilobytes
-* __Average response time__ for your API to serve a request
-* __Number of error responses__ indicating error codes returned by your API
-* __Traffic in Postman__ indicating usage and API traffic for performance measurement
-* __Failed test runs__ indicating the number of failed tests in collection runs and monitors, for debugging and troubleshooting errors in your requests
+* __Average response size__ of requests in bytes or kilobytes.
+* __Average response time__ for your API to serve a request.
+* __Number of error responses__ indicating error codes returned by your API.
+* __Traffic in Postman__ indicating usage and API traffic for performance measurement.
+* __Failed test runs__ indicating the number of failed tests in collection runs and monitors, for debugging and troubleshooting errors in your requests.
 
 The average response size is calculated based on the size of the response and the number of requests sent on a particular day.
 
-[![team api req](https://assets.postman.com/postman-docs/Reports-AvgResp.png)](https://assets.postman.com/postman-docs/Reports-AvgResp.png)
-
-> In this example, the response size is shown for Jun 12. No request is sent on other dates in the graph.
-
 The average response time is calculated based on the time taken to return the response of the request and the number of requests sent on a particular day.
 
-[![team api req](https://assets.postman.com/postman-docs/Reports-AvgRespTime.png)](https://assets.postman.com/postman-docs/Reports-AvgRespTime.png)
-
-> In this example, the response time is shown for Jun 12. No response is received on other dates because no request is sent.
->
 > Summary average response size may not match the average of the graph, because raw data is accounted for when calculating averages. In order to determine an accurate average, Postman does not calculate averages using data from already derived averages.
 
 Failed test runs are the number of failed tests for collection runs during a period of time. The summary average is calculated by taking into account all of the days in that time period (even if no requests are sent on certain days).
 
-## Report detail
+## Troubleshooting
 
-Reports are not generated in realtime. You may experience a lag of a few minutes to 24 hours in report data being available. You can view the last updated time for reports.
+Reports have the following limitations:
 
-<img alt="Reports Update" src="https://assets.postman.com/postman-docs/reports-last-update.jpg" width="400px"/>
+* You cannot download or export your reports.
+* Postman reports track data sent only through the request builder, and not through Newman, collection runs, or monitors. However, failed test runs generate reports using collection runs.
+* You cannot view the details of entities you do not have access to.
 
-> You cannot currently download or export your reports.
+If you don't see any data in your reports, or your data is incomplete (for example, you have empty response times or sizes) this may be due to one of the following reasons:
 
-Postman reports track data sent only through the request builder, and not through Newman, collection runs, or monitors. However, failed test runs generate reports using collection runs.
-
-> You cannot view the details of entities you do not have access to.
-
-If you don't see any data in your reports, or your data is incomplete (for example you have empty response times or sizes) this may be due to one of the following reasons:
-
-* It's too early to check. The data refreshes every 24 hours.
+* It's too early to check. The data refreshes every four hours.
 * You may not have linked a collection to your API.
 * You may not have sent a request—or you may have executed requests from monitoring, collection runs, or Newman, but not from the request builder in Postman.
 * You may not have enabled __Save Responses__ in the __History__ tab in Postman.
-* Sync is not successfully communicating with the Postman servers.
-
-> If none of the above reasons apply and you can't see your data, please file a [GitHub issue](https://github.com/postmanlabs/).
+* Sync is not successfully communicating with the Postman servers. Check your network connection, and visit the [Postman Status Page](https://status.postman.com) to see if there is a current outage.
 
 ## Next steps
 

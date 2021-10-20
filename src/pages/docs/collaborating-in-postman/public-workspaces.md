@@ -39,37 +39,35 @@ contextual_links:
 * [Creating a public workspace](#creating-a-public-workspace)
 * [Accessing a public workspace](#accessing-a-public-workspace)
 * [Sharing a public workspace](#sharing-a-public-workspace)
-* [Joining a public workspace](#joining-a-public-workspace)
-* [Leaving a public workspace](#leaving-a-public-workspace)
 * [Adding elements to a public workspace](#adding-elements-to-a-public-workspace)
 * [Removing elements from a public workspace](#removing-elements-from-a-public-workspace)
 * [Deleting a public workspace](#deleting-a-public-workspace)
 * [Managing public workspace members](#managing-public-workspace-members)
+* [Collaborating in a public workspace](#collaborating-in-a-public-workspace)
+* [Adding categories and summaries](#adding-categories-and-summaries)
 * [Next steps](#next-steps)
 
 ## Creating a public workspace
 
-There are four types of workspaces - personal, team, private, and public workspaces. When you open a workspace, Postman will provide an overview of its contents, activity, and members in a new tab.
+> You must be a [__workspace admin__](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles) to change the visibility of a workspace to public.
 
-Open the workspace menu, then click **+ New Workspace**.
+There are four types of workspaces: personal, team, private, and public workspaces. When you open a workspace, Postman will provide an overview of its contents, activity, and members in a new tab.
 
-<img alt="New workspace" src="https://assets.postman.com/postman-docs/create-new-workspace-v8.jpg" width="400px"/>
+Open the workspace menu, then click **Create Workspace**.
 
-Specify a workspace name and summary.
+<img alt="Workspace menu" src="https://assets.postman.com/postman-docs/workspace-switcher-v9.1.jpg" width="400px"/>
 
-If you are on a Postman **Team** or **Free** plan, you can create a public workspace by changing the workspace's visibility to **Public**. Add collaborators by entering their email addresses, then define their [workspace roles](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles).
+Specify a workspace name and summary. Under **Visibility**, select **Public**.
 
-> You need to be a [__workspace admin__](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles) to change the visibility of a workspace to public.
+<img alt="Create public workspace" src="https://assets.postman.com/postman-docs/create-public-wkspc-v9.1.jpg" width="400px"/>
 
-<img alt="Public workspace" src="https://assets.postman.com/postman-docs/create-public-workspace-v8.jpg" height="500px"/>
+You can also convert an existing workspace to a public workspace. Open the workspace in Postman. In the **Overview** tab, select **Workspace Settings** in the upper right. Under **Visibility**, select **Public** from the dropdown list, then **Request to Change Visibility**.
 
-You can also create a public workspace by selecting the team workspace, changing the team's visibility dropdown to __Public__, then clicking __Request to Change Visibility__.
+<img alt="Visibility" src="https://assets.postman.com/postman-docs/workspace-settings-request-visibility-change-v9.1.0.jpg" width="400px"/>
 
-<img alt="Visibility" src="https://assets.postman.com/postman-docs/visibility-options-v8.jpg" width="400px"/>
+If you are on a Postman Business or Enterprise plan, you need a community manager's approval to change a workspace's visibility to __Public__.
 
-If you are on a Postman **Business** or **Enterprise** plan, you need a community manager's approval to change the workspace visibility to __Public__.
-
-Once you make a workspace public, a notification is sent to workspace members. Click the notification bell in the top right corner to view notifications.
+When you make a workspace public, a notification is sent to all workspace members. Select the notification bell in the top right corner to view notifications.
 
 <img alt="In app notification" src="https://assets.postman.com/postman-docs/visibility-app-notification.jpg" width="500px"/>
 
@@ -77,7 +75,7 @@ In addition to this, all users will receive an email with the workspace informat
 
 <img alt="Email notification" src="https://assets.postman.com/postman-docs/email-notification-public-workspace-v2.jpg" width="500px"/>
 
-Once you make a workspace public, all entities within that workspace become publicly accessible through the workspace. You can convert a private workspace directly to public.
+Once you make a workspace public, all entities within that workspace become publicly accessible through the workspace.
 
 > Within a team, you cannot have two public workspaces with the same name.
 
@@ -87,9 +85,9 @@ You can access public workspaces via the [**Workspaces** category in the API Net
 
 [![Access Public Workspaces](https://assets.postman.com/postman-docs/accessing-public-workspaces.gif)](https://assets.postman.com/postman-docs/accessing-public-workspaces.gif)
 
-To view and edit your public workspace details (e.g. name, description), navigate to the workspace selector and hover over a workspace. Then, click **...** and select **View**.
+To view and edit your public workspace's name and summary, navigate to the workspace in Postman. In the **Overview** tab, hover over the workspace name or summary and select to edit. Changes will be saved automatically.
 
-<img alt="Create public workspace dropdown" src="https://assets.postman.com/postman-docs/create-public-workspace-dropdown.jpg" height="350px"/>
+<img alt="Create public workspace dropdown" src="https://assets.postman.com/postman-docs/workspace-edit-name-details-overview-tab-v9.1.jpg"/>
 
 ## Sharing a public workspace
 
@@ -100,24 +98,6 @@ You can share a public workspace by sharing its **public profile URL** directly.
 Copy the **Public profile URL** and paste it in your browser to access your workspace.
 
 <img alt="Enable public profile url" src="https://assets.postman.com/postman-docs/enable-public-profile-url.jpg"/>
-
-## Joining a public workspace
-
-If you are part of a team in Postman, you can find public workspaces to join. Open the workspaces drop-down from the control at the top of Postman in the left. Search for a public workspace and select the workspace you want to join.
-
-<img alt="Joining a public workspace overview" src="https://assets.postman.com/postman-docs/join-public-workspace-from-selector.jpg" height="350px"/>
-
-Select the public workspace, then click **Join Workspace** at the top right.
-
-<img alt="Join public workspace" src="https://assets.postman.com/postman-docs/join-public-workspace-from-overview-v8.jpg"/>
-
-Once you join the workspace, you can start creating collections, sending requests, visualizing your responses, and more.
-
-## Leaving a public workspace
-
-To leave a public workspace, select the **...** on the right corner of the workspace overview > **Leave workspace**. Click **Leave** to finalize leaving the workspace.
-
-<img alt="Leave public workspace" src="https://assets.postman.com/postman-docs/leaving-public-workspace.jpg"/>
 
 ## Adding elements to a public workspace
 
@@ -179,6 +159,27 @@ Click **X** next to the team member you want to remove from the public workspace
 
 <img alt="Remove members for a public workspace from overview" src="https://assets.postman.com/postman-docs/remove-team-member-workspace-overview.jpg" width="400px"/>
 
+## Collaborating in a public workspace
+
+To collaborate on entities within a public workspace, open the workspace menu and select the workspace.
+
+For collections and environments, [create a fork](/docs/collaborating-in-postman/version-control-for-collections/#forking-a-collection) and request to merge changes via a [pull request](/docs/collaborating-in-postman/version-control-for-collections/#creating-pull-requests).
+
+For APIs, navigate to the API and version. Select **Definition** > **Request Access** to request an editor role.
+
+## Adding categories and summaries
+
+Add categories and summaries to improve the visibility of your collections, APIs, and workspaces on the Public API Network.
+
+1. Select **Team > Team Settings**, and then open your team's Public profile URL.
+1. Select the **Collections**, **APIs**, or **Workspaces** tab.
+1. Hover over an item and select **Edit listing**.
+1. Enter a brief **Summary** that describes your collection, API, or workspace.
+1. Select up to three categories.
+1. Select **Save**.
+
+![Adding categories and summaries](https://assets.postman.com/postman-docs/workspace-add-categories-v9.jpg)
+
 ## Next steps
 
-To add an API to the network, see [Adding your API](/docs/collaborating-in-postman/adding-private-network/#adding-your-apis). For more details on how to add categories to a public workspace, visit [Adding categories and summaries](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#adding-categories-and-summaries).
+To add an API to the network, see [Adding your API](/docs/collaborating-in-postman/adding-private-network/#adding-your-apis).
