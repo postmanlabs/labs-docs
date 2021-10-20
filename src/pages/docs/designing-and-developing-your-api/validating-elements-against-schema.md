@@ -28,15 +28,15 @@ contextual_links:
 
 You can validate your API schema in Postman, and validate your elements (documentation, tests, mock servers, monitors) against your schema. This helps keep your API well-defined and ensure that your elements are in sync with your schema. If there is a validation error on the schema or elements do not match it, Postman will present a list of issues that have been found, as well as fixes for these issues. You can then apply fixes to the API elements and revalidate them.
 
-> Validation is available for OpenAPI 2.0 and 3.0 and WSDL 1.1 and 2.0 schemas.
-
-* [Validating schema](#validating-schema)
+* [Validating schemas](#validating-schemas)
 * [Validating elements](#validating-elements)
     * [Validating requests](#validating-requests)
 * [Accessing issues](#accessing-issues)
 * [Updating API elements](#updating-api-elements)
 
-## Validating schema
+## Validating schemas
+
+> Schema validation is available for OpenAPI 2.0 and 3.0 and WSDL 1.1 and 2.0 schemas.
 
 Postman will indicate validation errors on your API schema as you edit it in the **Definition** tab on the API version page.
 
@@ -53,6 +53,8 @@ If there is an issue with your schema JSON or YAML syntax, you will see a warnin
 If there are no errors, Postman will indicate in the lower pane that your schema is valid.
 
 ## Validating elements
+
+> Element validation is available for OpenAPI 3.0 and WSDL 1.1 and 2.0 schemas.
 
 After you make changes to your API schema, you can validate associated elements to determine if they will also need changes to stay in sync. For example, if you add a new method to your API schema, validation will indicate you also need to add the method to your tests.
 
