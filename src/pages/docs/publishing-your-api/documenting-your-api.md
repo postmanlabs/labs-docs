@@ -172,7 +172,7 @@ To document a new release of an API version:
 
 1. Before creating the release, [edit the API documentation](#editing-api-documentation) as needed.
 2. [Create a new release](/docs/designing-and-developing-your-api/versioning-an-api/#creating-a-release) of the API version.
-3. If the documentation is public, [edit the publishing settings](/docs/publishing-your-api/publishing-your-docs/#customizing-your-docs) to include the new release.
+3. If the documentation is public, [edit the publishing settings](/docs/publishing-your-api/publishing-your-docs/#changing-publication-settings) to include the new release.
 
 [![Viewing a release](https://assets.postman.com/postman-docs/documentation-view-release-v9.jpg)](https://assets.postman.com/postman-docs/documentation-view-release-v9.jpg)
 
