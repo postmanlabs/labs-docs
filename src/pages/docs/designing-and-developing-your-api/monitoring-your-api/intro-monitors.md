@@ -60,7 +60,7 @@ Once the monitor is running you’ll get alerted to any failures. Make sure to r
 
 A collection-based monitor runs a series of requests from the Postman cloud on a schedule you set. When creating a monitor, you choose a [collection](/docs/sending-requests/intro-to-collections/) with the requests you want to run. These can be basic requests that simply indicate an endpoint is up and reachable. More complex collections can make use of [chained requests](https://www.youtube.com/watch?v=shYn3Ys3ygE), [test scripts](https://learning.postman.com/docs/writing-scripts/test-scripts/), and [environment variables](/docs/sending-requests/managing-environments/) to validate API responses and functionality.
 
-Postman runs the collection on the schedule you define, as often as every five minutes depending on your [Postman plan](https://www.postman.com/pricing/). You can even specify which region of the world you’d like to run the collection from. Get alerted by email if a test fails or errors occur, or [set up integrations](/docs/integrations/intro-integrations/) to be notified over Slack and other channels. All results are recorded on the monitor’s dashboard, so you can view past results or see trends over time.
+Postman runs the collection on the schedule you define, as often as every five minutes depending on your [Postman plan](https://www.postman.com/pricing/). You can even specify which region of the world you’d like to run the collection from (paid plans only). Get alerted by email if a test fails or errors occur, or [set up integrations](/docs/integrations/intro-integrations/) to be notified over Slack and other channels. All results are recorded on the monitor’s dashboard, so you can view past results or see trends over time.
 
 Here are some things you can do with collection-based monitors:
 
@@ -132,47 +132,45 @@ Postman maintains the following monitoring limits per team:
 
 ## Running collections in a monitor
 
-There are a few differences between running collections in a Postman monitor and running them via the in-app collection runner, so take note of the following.
+There are some differences between running collections in a Postman monitor and running them using the [Collection Runner](/docs/running-collections/intro-to-collection-runs/). See below for details.
 
 ### Variables
 
-* You cannot import existing global variables to a monitor, but you can create new ones during a run.
+* You cannot import existing global variables into a monitor, but you can create new global variables during a run.
 * Global and environment variables can be updated and subsequently used during a monitoring run, however they will immediately revert to their original values.
-    * If you require persistent variables, you can add a call to update your environment using the [Postman API](/docs/developer/intro-api/).
+* If you require persistent variables, you can add a call to update your environment using the [Postman API](/docs/developer/intro-api/).
 
 ### Console output
 
 * For your security and privacy, Postman does not log request or response bodies in the console.
-* Postman will also not log headers, as they may include items like cookies and authorization keys.
+* Postman also does not log headers, as they may include items like cookies and authorization keys.
 
 ### Time limits
 
-* Runs are limited to five minutes, including all HTTP requests, responses, pre-request, and test scripts.
+* Monitor are limited to a maximum of five minutes, including all HTTP requests, responses, pre-request scripts, and test scripts.
 
 ### File uploads
 
-* You cannot attach files to requests, unlike in the request builder, however you can upload data as a raw request body.
+* You cannot attach files to requests, unlike in the request builder, but you can upload data as a raw request body.
 
 ### Data files
 
-* You cannot attach data files, unlike in the collection runner, but you can access them via APIs, including Google Docs, Google Sheets, and Dropbox.
+* You cannot attach data files, unlike in the collection runner, but you can access files using APIs, including Google Docs, Google Sheets, and Dropbox.
 
 ### Multiple iterations
 
-* Monitors only run one iteration by default, but you can use setNextRequest() to run multiple iterations.
+* Monitors only run one iteration by default, but you can use `setNextRequest()` to run multiple iterations.
 
 ### Multi-region monitoring
 
-* When setting up or editing a monitor, you can select multiple geographic regions you'd like your monitor to run from if you are on a paid plan, or opt for Postman to auto-select a region for you. If you are on a Free plan, you can [upgrade your Postman plan](https://www.postman.com/pricing) to manually select specific monitoring regions.
+* If you are on a paid plan, you can select one or more geographic regions you'd like your monitor to run from, or have Postman automatically select a region for you. If you are on a free plan, Postman always selects a region from you. If you want to manually select specific regions, [upgrade your Postman plan](https://www.postman.com/pricing)
 
-<img alt="Upgrade for multi-region monitoring" src="https://assets.postman.com/postman-docs/multi-region-monitoring-not-available-free-plan.jpg" width="500px" />
-
-> If you’re interested in a region that’s not listed in the Postman interface, contact the [Postman support team](https://www.postman.com/support/).
+> If you’re interested in a region that’s not currently available when creating a monitor, contact the [Postman support team](https://www.postman.com/support/).
 
 ### Accessible APIs
 
-* Monitors require all URLs to be publicly available on the internet as they run in the Postman cloud. A monitor cannot directly access your localhost or run requests behind a firewall. However, to overcome this issue, static IPs are available on [Postman Business and Enterprise plans](https://www.postman.com/pricing).
+* Because monitors run in the Postman cloud, all URLs must be publicly available on the Internet. A monitor cannot directly access your `localhost` or run requests behind a firewall. You can [run monitors using static IPs](/docs/designing-and-developing-your-api/monitoring-your-api/using-static-IPs-to-monitor/) to overcome this issue. Static IPs are available on [Postman Business and Enterprise plans](https://www.postman.com/pricing).
 
 ## Next steps
 
-Learn how to [set up a monitor](/docs/designing-and-developing-your-api/monitoring-your-api/setting-up-monitor/) and check out [monitoring APIs and websites](/docs/designing-and-developing-your-api/monitoring-your-api/monitoring-apis-websites/) to get started.
+Learn how to [set up a new monitor](/docs/designing-and-developing-your-api/monitoring-your-api/setting-up-monitor/).
