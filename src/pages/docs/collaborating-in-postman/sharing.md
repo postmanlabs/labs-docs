@@ -40,7 +40,6 @@ You can collaborate on Postman entities including collections, APIs, and environ
 
 * [Sharing Postman entities](#sharing-postman-entities)
 * [Moving Postman entities to collaborative workspaces](#moving-postman-entities-to-collaborative-workspaces)
-* [Next steps](#next-steps)
 
 > To share your work via workspaces you will need to be signed in to your [Postman account](/docs/getting-started/postman-account/).
 
