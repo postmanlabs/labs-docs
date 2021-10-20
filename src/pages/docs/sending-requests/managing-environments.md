@@ -76,7 +76,7 @@ You can use the current value of your environment variables to ensure that sensi
 
 You will see the selected environment status at the top-right of Postman, with any _active_ environment selected in the drop-down. In __Environments__ on the left you can access all environments, and click the check-mark button to make an environment active. Select an environment to open it for editing in a tab.
 
-[![Environments](https://assets.postman.com/postman-docs/environments-v8.jpg)](https://assets.postman.com/postman-docs/environments-v8.jpg)
+[![Environments](https://assets.postman.com/postman-docs/environment-view-tab-v9.1.jpg)](https://assets.postman.com/postman-docs/environment-view-tab-v9.1.jpg)
 
 To the right next to the drop-down you will also see the __Environment quick look__ (eye) button. The quick look lists variables for the active environment, and any global variables you have declared (or that are shared via your workspace).
 
@@ -119,7 +119,7 @@ You can access your environment variables from the Postman UI and from your requ
 
 To see all of your environments, click __Environments__ on the left of Postman.
 
-[![Environments](https://assets.postman.com/postman-docs/environments-v8.jpg)](https://assets.postman.com/postman-docs/environments-v8.jpg)
+[![Environments](https://assets.postman.com/postman-docs/environment-view-options-v9.1.jpg)](https://assets.postman.com/postman-docs/environment-view-options-v9.1.jpg)
 
 Here you can add, share, duplicate, download, manage access, delete, and remove a shared environment from a workspace. You can also access your global variables by clicking __Globals__.
 
@@ -170,9 +170,9 @@ You can edit variables either by opening an environment from __Environments__ on
 
 Edit the environment name, or the names and values of your variables, bearing in mind that __Initial Values__ will be synced with your Postman account and shared with any collaborators who have access to the environment. Click __Save__ when your edits are complete.
 
-[![Viewer role on environment](https://assets.postman.com/postman-docs/restricted-access-v8.jpg)](https://assets.postman.com/postman-docs/restricted-access-v8.jpg)
+[![Viewer role on environment](https://assets.postman.com/postman-docs/environment-request-access-v9.1.jpg)](https://assets.postman.com/postman-docs/environment-request-access-v9.1.jpg)
 
-If you have viewer access to an environment, you will see a padlock icon next to the name to indicate that it is readonly, and you will only be able to edit the current value, which is visible only to you and not synced with your Postman account or workspace. To edit initial values you will need editor role on the environment.
+If you have viewer access to an environment, you will see a padlock icon next to the name to indicate that it is readonly, and you will only be able to edit the current value, which is visible only to you and not synced with your Postman account or workspace. To edit initial values you will need to **Request Access**.
 
 > You can edit current values for variables in an active (currently selected) environment directly via the environment quick look. Click the pencil icon to edit your chosen value.
 
@@ -196,33 +196,41 @@ You can only create new variables from a script in an environment that you have 
 
 ## Working with environments as a team
 
-You can use environments to collaborate on your API development and testing processes with team members who share your workspace, environment, or collection. Environments allow you to access shared resources and to configure visibility of restricted data such as specific server locations, and sensitive information like API keys.
+You can use environments to collaborate on your API development and testing processes with team members. Environments allow you to access shared resources and to configure visibility of restricted data such as specific server locations, and sensitive information like API keys.
 
-When you collaborate with your team in a shared workspace, any global variables you create and update will be available to others in the workspace. You can use the __Current Value__ of global variables to restrict certain values from collaborators, but by default the __Initial Value__ of a global variable is generally accessible throughout the workspace.
+> In a shared workspace, any global variables you create and update will be available to others in the workspace. You can use the __Current Value__ of global variables to restrict certain values from collaborators, but by default the __Initial Value__ of a global variable is generally accessible throughout the workspace.
 
-By specifying role-based access to your environments, you can achieve a finer grained control level over your variable values. You can choose to share an environment within your workspace to make it available to team members—and specify access levels for each individual.
+You can move environments to shared workspaces to collaborate with your team.
 
-To share an environment to your workspace, open it from __Environments__ on the left of Postman and click __Share__.
+> You must be an editor on an environment, or the workspace admin, to move an environment to another workspace.
 
-![Share environment](https://assets.postman.com/postman-docs/env-access-v8.jpg)
+Navigate to the environment you'd like to share in the left sidebar, select it, then select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> > **Move**.
 
-Select the workspace you want to share the environment to and choose whether to remove the environment from the current workspace when sharing. Click __Share and Continue__.
+Use the search bar to find the workspace you'd like to move the environment to, or filter by workspace visibility by selecting the icon to the right of the search bar.
 
-![Share environment detail](https://assets.postman.com/postman-docs/share-to-workspace-v8.jpg)
+You can share environments to personal, private, team, and public workspaces that you have access to. Shared private, team, and public workspaces allow you to collaborate with others.
 
-You can assign the same role to everyone in the workspace, or can configure access levels on an individual basis.
+> You cannot move environments from team, private, or public workspaces to a personal workspace.
 
-![Shared environment roles](https://assets.postman.com/postman-docs/env-roles-v8.jpg)
+<!-- -->
 
-> You can access the role control at any time from an environment by choosing __Manage roles__ from the __...__ overflow menu.
+> Refer to [Roles and permissions](/docs/collaborating-in-postman/roles-and-permissions/) for information on workspace access control within your team.
 
-Select roles, check the __remove__ option if you wish to remove the environment from any workspace it is already shared in, and click __Save Roles__.
+Select the workspace, then **Move**  **Environment**.
 
-You can also remove a shared environment from a workspace by clicking __...__ next to the environment name and choosing __Remove from workspace__.
+<img alt="Move environment" src="https://assets.postman.com/postman-docs/move-environment-v9.1.jpg" width="400px"/>
 
-To export an Environment, click __...__ next to the __Share__ button in the Environment overview. Select __Export__ and confirm that you would like to export the environment from the current workspace.
+Note that monitors, mock servers, and integrations in the original workspace that are using the environment may no longer work and will need to be re-configured in the new workspace. Collections and APIs that use the environment must be [moved separately](/docs/collaborating-in-postman/sharing/#moving-postman-entities-to-collaborative-workspaces).
 
-<img alt="Export environment" src="https://assets.postman.com/postman-docs/export-environment-overview.jpg"/>
+You can manage roles on an environment by navigating to it in the left sidebar, selecting it, then selecting <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> > **Manage Roles**.
+
+<img alt="Manage roles environment" src="https://assets.postman.com/postman-docs/environment-manage-roles-v9.1.jpg" width="250px"/>
+
+You can also remove a shared environment from a workspace by clicking __...__ next to the environment name and choosing __Move__ to move it to a different workspace or **Delete** to delete it entirely.
+
+To export an environment, select it and click <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> in the upper right > **Export**.
+
+<img alt="Export environment" src="https://assets.postman.com/postman-docs/environment-export-v9.1.jpg" width="250px" />
 
 ### Managing environment roles
 
@@ -230,9 +238,9 @@ If you use personal credentials in your requests and the requests are pulling th
 
 In order to effectively leverage environments to preserve security and minimize the risk of accidental changes to variables, group your variables into environments you want to share as a coherent set, and then configure each user role so that access is only granted where it's required, and that you can source any accidental changes.
 
-When you open an environment without edit access you will see an option to request access, and will only be able to edit __Current Values__.
+When you open an environment without edit access you will see an option to **Request Access**, and will only be able to edit __Current Values__.
 
-[![Viewer role on environment](https://assets.postman.com/postman-docs/restricted-access-v8.jpg)](https://assets.postman.com/postman-docs/restricted-access-v8.jpg)
+[![Viewer role on environment](https://assets.postman.com/postman-docs/environment-request-access-v9.1.jpg)](https://assets.postman.com/postman-docs/environment-request-access-v9.1.jpg)
 
 Default access allows collaborators to use variable values in their requests, but they can only edit the initial value of a variable if they have edit access to the environment as a whole.
 
@@ -246,7 +254,7 @@ If you are using sensitive data like API credentials, it's safer to use the curr
 
 If you need to update the initial value of a variable in an environment you have readonly access to, you can request edit access. Open the environment from __Environments__ on the left of Postman and click __Request Access__.
 
-[![Viewer role on environment](https://assets.postman.com/postman-docs/restricted-access-v8.jpg)](https://assets.postman.com/postman-docs/restricted-access-v8.jpg)
+[![Viewer role on environment](https://assets.postman.com/postman-docs/environment-request-access-v9.1.jpg)](https://assets.postman.com/postman-docs/environment-request-access-v9.1.jpg)
 
 Select the team member you want to submit the request to, and choose __Editor__ from the drop-down list. Click __Request Access__. You will receive an email when your request is approved.
 

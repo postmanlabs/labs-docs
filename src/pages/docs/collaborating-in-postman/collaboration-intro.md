@@ -39,7 +39,7 @@ Postman will alert you with notifications when activities occur within your team
 
 * [Working with team workspaces](#working-with-team-workspaces)
 
-    * [Inviting a team member to a personal workspace](#inviting-a-team-member-to-a-personal-workspace)
+    * [Inviting a team member to a workspace](#inviting-a-team-member-to-a-workspace)
 
     * [Creating a new workspace](#creating-a-new-workspace-from-the-menu)
 
@@ -65,17 +65,15 @@ Create a Team Workspace by inviting a team member to join a personal workspace o
 
 > Postman creates a default Team Workspace. You cannot delete this workspace but you can rename it.
 
-### Inviting a team member to a personal workspace
+### Inviting a team member to a workspace
 
 In Postman, select **Invite**.
 
-[![Invite button](https://assets.postman.com/postman-docs/invite-button-v8.jpg)](https://assets.postman.com/postman-docs/invite-button-v8.jpg)
+[![Invite button](https://assets.postman.com/postman-docs/invite-button-wksp-v9.1.jpg)](https://assets.postman.com/postman-docs/invite-button-wksp-v9.1.jpg)
 
-Enter the email address of the individual you would like to invite to your team workspace or the [group](/docs/administration/managing-your-team/user-groups/) name, then click **Add** > **Send Invitations**.
+Enter the name, email, or [group](/docs/administration/managing-your-team/user-groups/) of individuals you'd like to invite to your workspace, then **Send Invites**.
 
-<img alt="Invite users" src="https://assets.postman.com/postman-docs/invite-user-and-group-to-workspace.jpg"/>
-
-The individual or group will be added to the team once they accept their invitation.
+<img alt="Invite users to workspace" src="https://assets.postman.com/postman-docs/invite-to-workspace-gif-v9.1.gif"/>
 
 You can also use the **Copy Invite Link** and send it to people you would like to join your workspace.
 
@@ -87,13 +85,13 @@ All members of your workspace will have avatars displayed at the top of Postman.
 
 ### Creating a new workspace from the menu
 
-Select your current workspace in Postman to open the workspace menu, then click **+ New Workspace**.
+Select **Workspaces** in the upper left, then **Create Workspace**.
 
-[![New workspace](https://assets.postman.com/postman-docs/create-new-workspace-v8.jpg)](https://assets.postman.com/postman-docs/create-new-workspace-v8.jpg)
+<img alt="Create workspace from Workspaces menu" src="https://assets.postman.com/postman-docs/workspace-switcher-with-new-wkspc-v9.1.jpg" width="350px"/>
 
-Specify a workspace name and summary. For a team workspace, add collaborators by entering their email addresses, then define their [workspace roles](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles).
+Specify a workspace name and summary, then define the workspace **Visibility**. Select **Create Workspace** to complete the process.
 
-[![Team workspace](https://assets.postman.com/postman-docs/create-team-workspace.jpg)](https://assets.postman.com/postman-docs/create-team-workspace.jpg)
+<img alt="Create workspace form" src="https://assets.postman.com/postman-docs/create-workspace-v9.1.jpg" width="400px"/>
 
 ## Team discovery
 

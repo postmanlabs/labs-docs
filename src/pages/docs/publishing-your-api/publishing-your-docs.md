@@ -29,114 +29,96 @@ contextual_links:
 warning: false
 ---
 
-You can publish your API documentation to make it available for public viewing by anyone who has the link. Published documentation allows anyone who wants to learn how to use your API to view detail on endpoints, including parameters, request and response bodies, and example code.
+Publishing your documentation makes it publicly available to anyone with the link to the documentation and a web browser. Publish your documentation to help people around the world learn how to use your collection or interact with your Public API.
 
-[![postman API docs](https://assets.postman.com/postman-docs/postman-api-docs.jpg)](https://assets.postman.com/postman-docs/postman-api-docs.jpg)
+Public documentation automatically includes details for each request or endpoint in the published collection, along with sample code in various client languages. As you modify your collection, the published documentation automatically stays in sync with  your latest changes. There's no need to publish the documentation again after making changes.
 
-Your public documentation will always display up-to-date content representing the current state of your collection. You don’t need to repeat the publication flow each time you want to update your documentation.
-
-Your documentation will include the **Run in Postman** button so users can interact with your API directly in Postman. For example, check out the [Postman API documentation](https://documenter.postman.com/view/631643/JsLs/)—generated from a Postman Collection. You can publish your documentation to the API Network or as a template to make your collections publicly available in Postman, aiding developer onboarding and adoption.
-
-> You can publish documentation for collections that you created or have permission to edit.
+> Your public documentation includes the **Run in Postman** button so users can interact with your collection or API directly in Postman. For an example, check out the [Postman API documentation](https://documenter.postman.com/view/631643/JsLs/) which was published from a Postman collection.
 
 ## Contents
 
 * [Making your documentation public](#making-your-documentation-public)
-    * [Configuring your public docs](#configuring-your-public-docs)
-    * [Customizing your docs](#customizing-your-docs)
+* [Adding a custom logo](#adding-a-custom-logo)
 * [Sharing your public docs](#sharing-your-public-docs)
-* [Publishing and unpublishing](#publishing-and-unpublishing)
+* [Changing publication settings](#changing-publication-settings)
+* [Unpublishing your docs](#unpublishing-your-docs)
 * [Next steps](#next-steps)
 
 ## Making your documentation public
 
-You can publish docs from an existing private documentation page or from the collection.
+To publish [documentation](/docs/publishing-your-api/documenting-your-api/), it must be part of a collection. You can publish documentation for any collections that you created or have permission to edit.
 
-To publish from your collection's [private documentation](/docs/publishing-your-api/documenting-your-api/) page, view the complete collection documentation, and then click __Publish__.
+To publish the documentation for a collection:
 
-![Publish Docs](https://assets.postman.com/postman-docs/publish-docs-r.jpg)
+1. Select **Collections** in the left sidebar.
+1. Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to a collection, and then select **View Documentation**.
+1. Select **Publish** at the upper right.
 
-To publish from the collection, select the collection in __Collections__, open the actions menu (__...__), and choose __View Documentation__. From here, select __Publish__ to publish your collection.
+    <img alt="Publish documentation" src="https://assets.postman.com/postman-docs/documentation-publish-button-v9.jpg" width="753px">
 
-![Publish Docs](https://assets.postman.com/postman-docs/view-docs-b.jpg)
+1. Change any publication settings as needed:
 
-> Any confidential information in your environment, such as __passwords and access tokens__ may become publicly visible when you publish your docs. Remove all sensitive information from the environment before you publish.
+    * **Release tag:** Select one or more [release tags](/docs/publishing-your-api/documenting-your-api/#documenting-releases) to publish. Users can view documentation for each selected release.
+    * **Environment:** Select an [environment](/docs/publishing-your-api/documenting-your-api/#associating-environments-with-documentation) to publish environment variables with your documentation. *The initial values of all variables are published with your documentation, so make sure they don't contain sensitive information such as passwords or tokens.*
+    * **Custom domain:** Select a [custom domain](/docs/publishing-your-api/custom-doc-domains/) where you want to publish your documentation.
+    * **Default layout:** Select a layout style for your documentation. **Double column** displays sample code in a column to the right of the documentation. **Single column** displays sample code inline beneath each request.
+    * **Header background color:** Specify a color (hex format) for the header at the top of the documentation window.
+    * **Code background color:** Specify a color (hex format) for sample code blocks.
+    * **Highlight color:** Specify a color (hex format) for hyperlinks.
+    * **Move to public workspace:** (Optional) Select an available [public workspace](/docs/collaborating-in-postman/public-workspaces/) to move the collection to. This will make the collection discoverable on the [Public API Network](https://www.postman.com/explore), along with its documentation.
 
-### Configuring your public docs
+1. To see what your documentation will look like using the current settings, select **Preview Documentation**. The preview automatically updates as you change settings.
 
-In the __Publish Collection__ page, you can configure how you want your public docs to appear.
+    > If Postman detects a possibly sensitive token or other secret, a warning appears at the top of the preview window. Postman also highlights the token so you can remove it from the documentation before publishing.
 
-* Select one or more [release tags](/docs/publishing-your-api/documenting-your-api/#documenting-releases) to publish.
-* Select an [environment](/docs/publishing-your-api/documenting-your-api/#associating-environments-with-documentation) to populate variables in your published documentation.
+1. When you are finished changing settings, select **Publish Collection**. You can view your public documentation at the provided URL.
 
-![Publish Config](https://assets.postman.com/postman-docs/documentation-publish-settings-v9.jpg)
+[![Published documentation example](https://assets.postman.com/postman-docs/documentation-published-docs-v9.jpg)](https://assets.postman.com/postman-docs/documentation-published-docs-v9.jpg)
 
-You can preview your documentation before publishing it. This opens a live preview of the documentation in another window which reloads on any change.
+## Adding a custom logo
 
-In this live preview, Postman scans the documentation for anything that appears to be a sensitive token. If Postman identifies a potential secret, you will see a banner at the top of this window. Postman will also highlight identified secrets throughout the page. This gives you the chance to update the documentation before publishing it.
-
-![Preview secrets](https://assets.postman.com/postman-docs/client-scanner-b.jpg)
-
-### Customizing your docs
-
-> With Postman Team, Business, or Enterprise, you can opt to use a [custom domain](/docs/publishing-your-api/custom-doc-domains/) for your public documentation site.
-
-You can configure the style of your public docs by selecting colors for the header background, code background, and highlights. You can also choose single or double column view as the default layout for your docs. Try making changes and preview to see how your docs will appear when published.
-
-![Style Docs](https://assets.postman.com/postman-docs/Customizing+public+docs+layout.jpg)
-
-Team admins can customize the style of your public docs by [editing your team profile](/docs/administration/team-settings/#editing-your-team-profile), including your team name and logo, in your [team settings](https://go.postman.co/settings/team/general). Your team logo will replace the Postman logo in your team's published docs—updated logo images may take a few minutes to appear.
-
-> You can make changes to styling after publishing your docs by heading to the [Postman Dashboard](https://go.postman.co/workspaces) and navigating to your published collection. Select **Published** in the upper-right corner > **Edit Published Documentation** > **Edit settings**. Make your changes and click **Save and republish collection** to update.
-
-![Edit Published Documentation](https://assets.postman.com/postman-docs/edit-pub-doc.jpg)
+If you are a team admin, you can customize your published documentation with a team logo. To add a logo, [edit your team profile](/docs/administration/team-settings/#editing-your-team-profile) in your [team settings](https://go.postman.co/settings/team/general). Your team logo will replace the Postman logo in your team's published documentation. (It may take a few minutes for the new logo to appear.)
 
 ## Sharing your public docs
 
-To share your API documentation with your users and the wider Postman community, enable __Collection discovery__ by toggling the switch. This will make your docs and the associated collections available via the Postman [API Network and templates](https://www.postman.com/explore).
+To share your public documentation, simply share the published URL with your team members, other users, or the community. If you have forgotten the URL for your published documentation, you get it at any time:
 
-![Collection Discovery](https://assets.postman.com/postman-docs/discovery-switch-template.jpg)
+1. Select **Collections** in the left sidebar.
+1. Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to a collection with published docs, and then select **View Documentation**.
+1. Select **Published** at the upper right, and then select **Copy published link**.
 
-> When you publish public documentation, anyone with the URL can access it. By sharing your documentation with the API Network or as a template, you increase the visibility of your API to a wider range of consumers by leveraging the Postman community. Users can then access both the API Network and community templates via the __New__ button within the Postman app or [on the web](https://www.postman.com/explore).
+<img alt="Copy published link" src="https://assets.postman.com/postman-docs/documentation-published-link-v9.jpg" width="753px">
 
-* Choose __Add to API Network__ to [feature your team docs in the Postman publisher network](/docs/publishing-your-api/publishing-your-docs/).
+If your collection is in a public workspace, others can search for and find your collection on the [Public API Network](https://www.postman.com/explore), along with its documentation. If you haven't already moved your collection to a public workspace, you can do so at any time by [changing the publication settings](#changing-publication-settings).
 
-You can only add to API Network when publishing from a team. You can configure your team profile by clicking __Public Profile Settings__, enabling your profile, and filling out your team details for display.
+> By sharing your documentation with the Public API Network, you increase the visibility of your API to a wider range of consumers in the Postman community. Learn more about [public workspaces](/docs/collaborating-in-postman/public-workspaces/).
 
-<img alt="Publish as Team" src="https://assets.postman.com/postman-docs/publish-team.jpg" width="500px"/>
+## Changing publication settings
 
-![Enable Profile](https://assets.postman.com/postman-docs/enable-profile.jpg)
+Change the publication settings for your documentation to add a release, update your documentation's look, or make your collection public. You can change the publication settings at any time after publishing your documentation:
 
-Your team profile can include a name, description, custom URL, and logo.
+1. Select **Collections** in the left sidebar.
+1. Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to a collection with published docs, and then select **View Documentation**.
+1. Select **Published** at the upper right, and then select **Edit published documentation**.
 
-![Profile Detail](https://assets.postman.com/postman-docs/profile-detail.jpg)
+    <img alt="Edit published documentation" src="https://assets.postman.com/postman-docs/documentation-edit-published-docs-v9.jpg" width="753px">
 
-Add listing details for your public documentation, including name, summary, description, and relevant tags.
+1. Select **Edit settings**, and then change the [publication settings](#making-your-documentation-public) as needed.
+1. Select **Save and republish**.
 
-![Listing Detail](https://assets.postman.com/postman-docs/listing-detail.jpg)
+## Unpublishing your docs
 
-> If you edit your published docs, the changes will not automatically be reflected in your API network or template listing, so you will need to update the details displayed at [explore.postman.com](https://www.postman.com/explore) manually.
+If you no long want your documentation to be publicly available, you can unpublish it:
 
-If you do not want to make your docs discoverable at this time, you can go ahead and publish then add them to the API Network or Postman Templates later.
+1. Select **Collections** in the left sidebar.
+1. Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to a collection with published docs, and then select **View Documentation**.
+1. Select **Published** at the upper right, and then select **Edit published documentation**.
+1. Select **Unpublish**.
 
-<iframe loading="lazy" class="mb-4" width="560" height="315" src="https://www.youtube-nocookie.com/embed/w-EgqQ8Anvw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+If you change your mind, you can [publish your documentation](#making-your-documentation-public) again at any time.
 
-## Publishing and unpublishing
-
-Once you have your publish settings complete, click __Publish Collection__ to make your docs public.
-
-![Publish Docs](https://assets.postman.com/postman-docs/publish-button.jpg)
-
-You will see a confirmation that your docs are public together with a link you can share.
-
-![Docs Published](https://assets.postman.com/postman-docs/docs-published.jpg)
-
-You can unpublish your docs at any time by clicking __Unpublish__.
-
-![Unpublish Docs](https://assets.postman.com/postman-docs/unpublish-docs.jpg)
+<img alt="Unpublish documentation" src="https://assets.postman.com/postman-docs/documentation-unpublish-v9.jpg" width="737px">
 
 ## Next steps
 
-[![Imgur API docs](https://i.imgur.com/oXgXznt.png)](https://i.imgur.com/oXgXznt.png)
-
-Find out more about [sharing your docs](/docs/publishing-your-api/publishing-your-docs/).
+Learn more about [viewing documentation](/docs/publishing-your-api/viewing-documentation/).

@@ -77,7 +77,7 @@ Postman is able to forward a wide array of metrics for the specified monitors. W
 This adheres to the standard naming convention that is followed across many Application Performance Monitoring (APM) tools. The current name and previous name are shown in the first column below.
 
 | **Metrics Name (previous name)**          |       **Type**         | **Description**         | **Level**         |
-| ------------- | ------------- | ------------- | ------------- | ------------- |
+| ------------- | ------------- | ------------- | ------------- |
 | postman.monitor.run.errors (PostmanMonitors\_errors) |GAUGE   | The total number of errors across all requests in a monitoring run | Run
 | postman.monitor.run.failed\_tests (PostmanMonitors\_failedTests)  | GAUGE  | The total number of failed tests across all requests in a monitoring run | Run
 | postman.monitor.run.passed\_tests (PostmanMonitors\_passedTests) | GAUGE  | Total number of passed tests across all requests in a monitoring run | Run

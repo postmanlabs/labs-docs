@@ -67,7 +67,7 @@ The easiest way to run Newman is to run it with a collection. You can run any co
 $ newman run mycollection.json
 ```
 
-You can also pass a collection as a URL by [sharing](/docs/collaborating-in-postman/sharing/#sharing-by-link) it.
+You can also pass a collection as a URL by [sharing](/docs/collaborating-in-postman/sharing/#sharing-postman-entities) it.
 
 Your collection probably uses environment variables. To provide an accompanying set of [environment variables](/docs/sending-requests/managing-environments/), export the template from Postman and run them with the `-e` flag.
 
@@ -95,7 +95,7 @@ $ newman run -h
 | Option | Details |
 |:--|:--|
 | `--folder [folderName]` | Specify a single folder to run from a collection. |
-| `-e`, `--environment [file|URL]` | Specify a Postman environment as a JSON [file] |
+| `-e`, `--environment [file\|URL]` | Specify a Postman environment as a JSON [file] |
 | `-d`, `--iteration-data [file]` | Specify a data file to use either json or csv |
 | `-g`, `--globals [file]` | Specify a Postman globals file as JSON [file] |
 | `-n`, `--iteration-count [number]` | Define the number of iterations to run |

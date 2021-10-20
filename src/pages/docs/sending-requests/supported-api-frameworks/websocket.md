@@ -24,8 +24,6 @@ The WebSocket protocol provides a way to exchange data between a client and serv
 
 In Postman you can create a WebSocket request with a server, and use it to send and receive messages across the WebSocket connection.
 
-> The Postman Echo API now supports WebSocket requests. If you're looking for an example server to get started, check out the [Explore Postman WebSockets](https://postman.postman.co/workspace/Exploring-WebSockets~e2ed14b4-e0d0-40fd-8058-a9e7b27ecae0/documentation/14057978-712d684f-c252-4bd9-a7a6-6a893e41adea) collection.
-
 ### About Socket.IO
 
 In addition to raw WebSocket connections, Postman also supports Socket.IO connections. Socket.IO is one of the most popular libraries to enable event-driven, bidirectional, real-time communication between clients and servers. It uses WebSocket as its transport layer. Many developers use Socket.IO in combination with HTTP APIs; now you can enjoy the benefits of Postman while switching between these two paradigms at will.
