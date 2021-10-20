@@ -24,6 +24,7 @@
     "gatsby-plugin-manifest": "^2.4.17",
     "gatsby-plugin-meta-redirect": "^1.1.1",
     "gatsby-plugin-newrelic": "^1.0.5",
+    "gatsby-plugin-purgecss": "^6.0.2",
     "gatsby-plugin-react-helmet": "^3.1.8",
     "gatsby-plugin-robots-txt": "^1.5.1",
     "gatsby-plugin-sass": "^2.1.15",
@@ -96,7 +97,7 @@
     "test:lint": "node_modules/eslint/bin/eslint.js -c .eslintrc.js --ext .jsx --ext .js src/",
     "test:lint-fix": "node_modules/eslint/bin/eslint.js -c .eslintrc.js --ext .jsx --ext .js src/ --fix",
     "test:url": "if grep -lri 's3.amazonaws.com/postman-static-getpostman-com' ./v6 ; then echo invalid s3 references found. Please use format; exit 1; else echo no s3 references found; fi",
-    "test:mdlint": "markdownlint ./ --ignore node_modules --ignore legacy-documentation"
+    "test:mdlint": "markdownlint ./ --ignore node_modules"
   },
   "repository": {
     "type": "git",
@@ -112,6 +113,6 @@
   "main": ".eslintrc.js",
   "author": "",
   "optionalDependencies": {
-    "@postman/pm-tech": "1.1.9"
+    "@postman/pm-tech": "1.1.11"
   }
 }

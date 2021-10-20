@@ -289,7 +289,7 @@ export const leftNavItems = [
       },
       {
         name: 'Sharing your work',
-        url: '/docs/running-colldocs/collaborating-in-postman/sharing/sections/working-with-data-files/',
+        url: '/docs/collaborating-in-postman/sharing/',
       },
       {
         name: 'Your Private API Network',
@@ -532,10 +532,11 @@ export const leftNavItems = [
   {
     name: 'Administration',
     parentSlug: 'administration',
-    url: '/docs/administration/managing-your-team/managing-your-team/',
+    url: '/docs/administration/buying/',
     subMenuItems1: [
       {
         name: 'Managing Your Team',
+        subParentSlug: 'managing-your-team',
         slug: '/docs/administration/managing-your-team/managing-your-team/',
         subMenuItems2: [
           {

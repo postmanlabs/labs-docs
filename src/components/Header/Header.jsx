@@ -401,6 +401,12 @@ class Header extends React.Component {
                   >
                     Enterprise case studies
                   </a>
+                  <a
+                    className="dropdown-item"
+                    href="https://www.postman.com/company/contact-sales/"
+                  >
+                    Contact sales
+                  </a>
                 </div>
               </li>
               <li className="nav-item dropdown">

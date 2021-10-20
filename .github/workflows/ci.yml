@@ -19,7 +19,7 @@ jobs:
       run: |
         npm config set //registry.npmjs.org/:_authToken=${{secrets.NPM_TOKEN}}
         npm install
-        node_modules/.bin/markdownlint ./ --ignore node_modules --ignore legacy-documentation
+        node_modules/.bin/markdownlint ./ --ignore node_modules
     - name: check for image url
       run: |
         if grep -lri 's3.amazonaws.com/postman-static-getpostman-com' ./src/pages/docs ;
