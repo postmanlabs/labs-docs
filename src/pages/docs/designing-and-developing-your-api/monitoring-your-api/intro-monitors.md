@@ -75,7 +75,10 @@ Here are some things you can do with collection-based monitors:
 
 ## Viewing monitor usage
 
-The maximum number of monitoring API calls you can make each month depends on your [Postman plan](https://www.postman.com/pricing/). To check your team's current monitoring usage, select **Team > Resource Usage** to open the [Resource Usage dashboard](https://go.postman.co/usage). For a more detailed usage breakdown, select **View detailed monitoring usage** (under **Monitoring Usage**) to go to the [Monitoring Usage Details dashboard](https://go.postman.co/usage/monitors).
+The maximum number of monitoring API calls you can make each month depends on your [Postman plan](https://www.postman.com/pricing/).
+
+* To check your team's current monitoring usage, select **Team > Resource Usage** to open the [Resource Usage dashboard](https://go.postman.co/usage).
+* For a more detailed breakdown, select **View detailed usage** (under **Monitoring Usage**) to go to the [Monitoring Usage Details dashboard](https://go.postman.co/usage/monitors).
 
 The Monitoring Usage Details dashboard shows your team's current billing period, how many monitoring API calls have been made, and which monitors have run. The dashboard also identifies monitors by name, creator, collection, and environment.
 
