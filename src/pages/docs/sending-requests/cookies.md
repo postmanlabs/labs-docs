@@ -2,6 +2,7 @@
 title: "Using cookies"
 order: 28
 page_id: "cookies"
+updated: 2021-10-20
 search_keyword: "pm.cookies.jar, cookies.jar"
 contextual_links:
   - type: section
