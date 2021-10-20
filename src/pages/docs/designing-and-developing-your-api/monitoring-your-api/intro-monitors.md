@@ -44,7 +44,7 @@ Once the monitor is running you’ll get alerted to any failures. Make sure to r
     * [How Postman calculates monitor usage](#how-postman-calculates-monitor-usage)
     * [Allowing monitor overages](#allowing-monitor-overages)
     * [Purchasing monitoring blocks](#purchasing-monitoring-blocks)
-    * [Monitor usage limits](#monitor-usage-limits)
+    * [Monitor activity limits](#monitor-activity-limits)
 * [Running collections in a monitor](#running-collections-in-a-monitor)
     * [Variables](#variables)
     * [Console output](#console-output)
@@ -118,21 +118,17 @@ To purchase additional monitoring call blocks:
 
 > Unused monitoring calls or blocks expire at the end of the billing period and do not roll over to the next month.
 
-### Monitor usage limits
+### Monitor activity limits
 
-You can find your account type's monthly usage limits by referring to your [usage overview](https://go.pstmn.io/postman-account-limits).
+Postman maintains default limits on various team and user actions to ensure the overall performance and availability of monitoring. Postman will notify team admins by email if your team encounters these limits. In addition, team members will see an alert within the Postman app.
 
-> Postman maintains default limits on various team and user actions to ensure the overall performance and availability of monitoring.
->
-> These include the following limits:
->
-> * Maximum number of active and paused monitors per team = 300
-> * Maximum parallel runs of multiple monitors = 500
-> * Maximum parallel runs of a single monitor = 200
->
-> Postman will notify team admins via email if your team encounters these limits, as well as notify team members in the app.
->
-> For assistance regarding these limits and to request changes, contact the [Postman support team](https://support.postman.com/hc/en-us).
+Postman maintains the following monitoring limits per team:
+
+* Maximum number of active and paused monitors: 300
+* Maximum parallel runs of all monitors: 500
+* Maximum parallel runs of a single monitor: 200
+
+> For assistance regarding these limits, contact the [Postman support team](https://support.postman.com/hc/en-us).
 
 ## Running collections in a monitor
 
