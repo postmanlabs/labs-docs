@@ -42,7 +42,8 @@ Once the monitor is running you’ll get alerted to any failures. Make sure to r
 * [Collection-based monitors](#collection-based-monitors)
 * [Viewing monitor usage](#viewing-monitor-usage)
     * [How Postman calculates monitor usage](#how-postman-calculates-monitor-usage)
-    * [Monitor overages](#monitor-overages)
+    * [Allowing monitor overages](#allowing-monitor-overages)
+    * [Purchasing monitoring blocks](#purchasing-monitoring-blocks)
     * [Monitor usage limits](#monitor-usage-limits)
 * [Running collections in a monitor](#running-collections-in-a-monitor)
     * [Variables](#variables)
@@ -88,23 +89,34 @@ The Monitoring Usage Details dashboard shows your team's current billing period,
 
 ### How Postman calculates monitor usage
 
-Monitoring usage is calculated based on the number of monitoring API calls:
+Monitor usage is calculated based on the number of monitoring API calls:
 
-* Running one request (that is, calling an API endpoint) in a single region counts as one monitoring API call.
+* Running one request (that is, calling an API endpoint) counts as one monitoring API call.
 * If the collection used by the monitor has multiple requests, each request in the collection counts as one API call.
 * If the monitor is scheduled to run in multiple regions, each request made in a different region counts as an API call.
 
 > If you use `postman.setNextRequest()` to [skip a request or run a request multiple times](/docs/running-collections/building-workflows/), Postman adjusts monitor usage accordingly. Postman also counts any requests required for [authorization](/docs/sending-requests/authorization/).
 
-### Monitor overages
+### Allowing monitor overages
 
-With a free Postman account, once you've reached your usage limit for monitoring you'll be automatically capped for the remainder of your monthly cycle. To continue to use monitoring for the remainder of your cycle, you can [upgrade your Postman plan](https://go.postman.co/purchase).
+With a free Postman account, once you've reached your monthly usage limit, your monitors are automatically paused for the rest of the billing period. To continue to use monitoring for the remainder of the billing period, [upgrade your Postman plan](https://go.postman.co/purchase).
 
-With a paid Postman account, you have the option to cap your monthly monitoring usage by navigating to your [billing dashboard](https://go.postman.co/billing) > **Overages** and deselecting **Allow monitoring overages**. Overages are allowed by default and are charged at a pay-as-you-go rate. You can also opt to [purchase monitoring blocks](https://go.postman.co/billing/overview).
+With a paid Postman account, you have the option to allow monitoring overages. Once you're reached your monthly usage limit, your monitors continue to run, and you are charged at a pay-as-you-go rate for each monitoring API call.
 
-> Unused monitoring requests or blocks do not roll over to the next month.
+> Overages are allowed by default for paid Postman accounts. To disable overages, select **Team > Resource Usage** to open the [Resource Usage dashboard](https://go.postman.co/usage), and then turn off **Allow monitoring overages**.
 
-See more on [how Postman calculates usage](#how-postman-calculates-monitor-usage).
+### Purchasing monitoring blocks
+
+Instead of paying for overages after reaching your monthly usage limit, you have the option to purchase additional blocks of monitoring calls. Purchasing blocks may offer savings compared the pay-as-you-go rate, depending on the number of monitoring calls your team makes.
+
+To purchase additional monitoring call blocks:
+
+1. Select **Team > Resource Usage** to open the [Resource Usage dashboard](https://go.postman.co/usage).
+1. Select **Purchase Add-ons**.
+1. Select **Monitoring** and enter the number of blocks to purchase.
+1. Select **Review Changes** to complete your purchase.
+
+> Unused monitoring calls or blocks expire at the end of the billing period and do not roll over to the next month.
 
 ### Monitor usage limits
 
