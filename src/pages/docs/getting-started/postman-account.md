@@ -60,15 +60,15 @@ You will see a prompt to log in or sign up.
 
 ![App Sign In](https://assets.postman.com/postman-docs/sign-in.jpg)
 
-Click __Create Account__.
+Select __Create Account__.
 
 ![App Sign Up](https://assets.postman.com/postman-docs/create-postman-account.jpg)
 
 You can sign up by entering an email, username, and password, or using your Google account.
 
-To sign up by email, enter your details, check the box to agree to the __Terms of Use__ (which you can view by clicking the link), and click __Create free account__. Postman will send you an email to confirm your account—follow the instructions to complete your account setup.
+To sign up by email, enter your details, check the box to agree to the __Terms of Use__ (which you can view by selecting the link), and select __Create free account__. Postman will send you an email to confirm your account—follow the instructions to complete your account setup.
 
-To use your Google account to sign in to Postman, click __Sign up with Google__, and follow the instructions.
+To use your Google account to sign in to Postman, select __Sign up with Google__, and follow the instructions.
 
 > You can [update your username](#updating-your-username) or [change your email address](#changing-your-email-address) at any time.
 
@@ -76,7 +76,7 @@ To use your Google account to sign in to Postman, click __Sign up with Google__,
 
 When you first sign up for a Postman account, you will be prompted to provide some information about yourself.
 
-Enter your details and click __Continue__.
+Enter your details and select __Continue__.
 
 ![Configure account](https://assets.postman.com/postman-docs/onboarding.jpg)
 
@@ -84,27 +84,27 @@ You can optionally create or join a team. If you are signing up with your organi
 
 [![Join a team](https://assets.postman.com/postman-docs/collaborate-with-teams.jpg)](https://assets.postman.com/postman-docs/collaborate-with-teams.jpg)
 
-To create a team and optionally invite collaborators, click __Create new team__. Enter your team name and URL—click __Continue__.
+To create a team and optionally invite collaborators, select __Create new team__. Enter your team name and URL—select __Continue__.
 
 [![Create Team](https://assets.postman.com/postman-docs/create-team.jpg)](https://assets.postman.com/postman-docs/create-team.jpg)
 
-You can update your settings at any time by clicking your avatar in the top left of Postman, then **View Profile**.
+You can update your settings at any time by selecting your avatar in the top left of Postman, then **View Profile**.
 
 Your profile will be visible to collaborators and anyone viewing resources you share or publish.
 
 ## Signing into Postman
 
-You can sign into Postman by clicking **Sign In** in the upper-right corner, selecting **Home** in the upper-left then **Sign in**, or by navigating to [Postman's website](https://www.postman.com/) and clicking **Sign In** in the upper-right corner.
+You can sign into Postman by selecting **Sign In** in the upper-right corner, selecting **Home** in the upper-left then **Sign in**, or by navigating to [Postman's website](https://www.postman.com/) and selecting **Sign In** in the upper-right corner.
 
  <img src="https://assets.postman.com/postman-docs/create-account-or-sign-in.jpg" alt="Create account or sign in"/>
 
  When you opt to sign into the desktop version of Postman, you will see the following screen and your default browser will automatically open a webpage asking you to sign into Postman.
 
- > Your browser should open within a few seconds. If it does not, you can click **open your browser** in Postman.
+ > Your browser should open within a few seconds. If it does not, you can select **open your browser** in Postman.
 
   <img src="https://assets.postman.com/postman-docs/sign-in-with-web-browser.jpg" alt="Sign in with web browser"/>
 
-> You can opt out of the login process at any time by navigating back to Postman and clicking **Skip and take me to Postman Desktop App**.
+> You can opt out of the login process at any time by navigating back to Postman and selecting **Skip and take me to Postman Desktop App**.
 > You must complete the process of signing in within five minutes once you initiate login from Postman. If you go beyond this time, you must return to Postman and restart the sign in process.
 
 Log into Postman in your browser by entering your account credentials or signing in with Google. If you are on a Postman Business or Enterprise plan, opt to **Sign in with Single Sign-On (SSO)**.
@@ -133,17 +133,17 @@ If a conflict arises from a sync issue within your workspace, [Postman will pres
 
 ## Upgrading your account
 
-If you have a free account, you can upgrade it by navigating to [Postman](https://go.postman.co/) and clicking **Upgrade** in the top-right corner.
+If you have a free account, you can upgrade it by navigating to [Postman](https://go.postman.co/) and selecting **Upgrade** in the top-right corner.
 
-If you have a paid account, you can upgrade your Postman plan by navigating to your [billing dashboard](https://go.postman.co/billing/overview) and clicking **...** > **Change Plan**.
+If you have a paid account, you can upgrade your Postman plan by navigating to your [billing dashboard](https://go.postman.co/billing/overview) and selecting **Edit Plan** on the right.
 
-[![change plan menu](https://assets.postman.com/postman-docs/change-plan-menu.jpg)](https://assets.postman.com/postman-docs/change-plan-menu.jpg)
+[![Edit plan option in billing dashboard](https://assets.postman.com/postman-docs/billing-dashboard-edit-plan-v9.1.0.jpg)](https://assets.postman.com/postman-docs/billing-dashboard-edit-plan-v9.1.0.jpg)
 
 > The cost of your upgraded plan and/or additional seats will be prorated based on the time left in your team's current billing cycle. For more information, [contact Postman's sales team](mailto:sales@postman.com).
 
 ## Switching between accounts
 
-You can sign in to multiple accounts at the same time in Postman. Click your user avatar in the top right to toggle between accounts or click __Add a new account__ to sign in with another one.
+You can sign in to multiple accounts at the same time in Postman. Select your user avatar in the top right to toggle between accounts or select __Add a new account__ to sign in with another one.
 
 <img src="https://assets.postman.com/postman-docs/multiple-accounts.jpg" width="400px" alt="Multiple Accounts"/>
 
@@ -194,11 +194,11 @@ You can manage your [active Postman sessions](https://go.postman.co/settings/me/
 
 You can reset your password if you are already signed in by navigating to your [settings](https://go.postman.co/settings/me) > **Account Settings** > **Change Password**.
 
-If you are not signed in to your Postman account, you can recover your username or reset your password from the [**Sign In**](https://identity.getpostman.com/login) page. Click __Trouble signing in?__
+If you are not signed in to your Postman account, you can recover your username or reset your password from the [**Sign In**](https://identity.getpostman.com/login) page. Select __Trouble signing in?__
 
 ![App Sign In](https://assets.postman.com/postman-docs/sign-in.jpg)
 
-Enter your account email, check the __I'm not a robot__ box, and click __Submit__.
+Enter your account email, check the __I'm not a robot__ box, and select __Submit__.
 
 ![Trouble Signing In](https://assets.postman.com/postman-docs/trouble-signing-in2.jpg)
 
