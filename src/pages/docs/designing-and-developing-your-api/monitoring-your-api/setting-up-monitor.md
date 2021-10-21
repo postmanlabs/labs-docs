@@ -109,7 +109,7 @@ You will need to give your new monitor a name and designate the collection you w
 
 ![Create monitor page](https://assets.postman.com/postman-docs/create-a-monitor-tab-1-v9.jpg)
 
-> Postman maintains ceiling limits on various team and user actions, including monitor creation. For more information, see [Usage limits](/docs/designing-and-developing-your-api/monitoring-your-api/intro-monitors/#usage-limits).
+> Postman maintains ceiling limits on various team and user actions, including monitor creation. For more information, see [Usage limits](/docs/designing-and-developing-your-api/monitoring-your-api/intro-monitors/#monitor-activity-limits).
 
 From here, you can determine how you'd like to configure your monitor.
 
@@ -125,7 +125,7 @@ You can configure your monitor to run as often as you would like, automatically.
 
 <!-- -->
 
-> Frequency affects how quickly your monitoring usage compounds. To learn more about usage limits and overages, see [Pricing](/docs/designing-and-developing-your-api/monitoring-your-api/intro-monitors/#pricing).
+> Frequency affects how quickly your monitoring usage compounds. Learn more about [usage limits and overages](/docs/designing-and-developing-your-api/monitoring-your-api/intro-monitors/#viewing-monitor-usage).
 
 ### Adding regions
 

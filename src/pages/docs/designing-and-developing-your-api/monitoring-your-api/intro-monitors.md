@@ -85,7 +85,7 @@ The Monitoring Usage Details dashboard shows your team's current billing period,
 
 [![monitoring usage details](https://assets.postman.com/postman-docs/monitoring-usage-details2.jpg)](https://assets.postman.com/postman-docs/monitoring-usage-details2.jpg)
 
-> **Concerned about overages?** Use the [Monitoring Usage Details dashboard](https://go.postman.co/usage/monitors) to see all of your team's active monitors in one place. You'll also find information to help you and your team make informed decisions on things like monitoring frequency. Learn more about [monitor overages](#monitor-overages).
+> **Concerned about overages?** Use the [Monitoring Usage Details dashboard](https://go.postman.co/usage/monitors) to see all of your team's active monitors in one place. You'll also find information to help you and your team make informed decisions on things like monitoring frequency. Learn more about [monitor overages](#allowing-monitor-overages).
 
 ### How Postman calculates monitor usage
 
@@ -111,8 +111,9 @@ Instead of paying for overages after reaching your monthly usage limit, you have
 
 To purchase additional monitoring call blocks:
 
-1. Select **Team > Resource Usage** to open the [Resource Usage dashboard](https://go.postman.co/usage).
-1. Select **Purchase Add-ons**.
+1. Select **Team > Resource Usage**.
+1. Under **Monitoring Usage**, select **View detailed usage** to open the [Monitoring Usage Details dashboard](https://go.postman.co/usage/monitors).
+1. Select **Set monitoring block count**.
 1. Select **Monitoring** and enter the number of blocks to purchase.
 1. Select **Review Changes** to complete your purchase.
 
