@@ -119,7 +119,7 @@ export const leftNavItems = [
         url: '/docs/sending-requests/managing-environments/',
       },
       {
-        name: 'Visalizing responses',
+        name: 'Visualizing responses',
         url: '/docs/sending-requests/visualizer/',
       },
       {
