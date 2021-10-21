@@ -54,7 +54,7 @@ To add or edit the description for an existing collection, folder, or request:
 
 1. Select **Collections** in the sidebar, and then select a collection, folder, or request.
 1. Select **Documentation** <img alt="Documentation icon" src="https://assets.postman.com/postman-docs/documentation-icon-v8-10.jpg" width="16px" style="vertical-align:middle;margin-bottom:5px"> in the context bar.
-1. Select the edit button <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to the description.
+1. Select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to the description.
 1. Author your description using the [new editor](#authoring-descriptions-in-the-new-editor) or [Markdown](#authoring-descriptions-in-markdown). Both are compatible, so feel free to switch between the two editors as you work.
 1. When you're finished, select **Save** to save your documentation. If you ever need to make changes, just edit the description again.
 
@@ -124,7 +124,7 @@ Examples are paired requests and responses that demonstrate your endpoints in ac
 
 Use links to direct users to your repository, web site, or other online resources.
 
-* To add a link using the new editor, select the **Link** tool. Paste or type the URL and the link text, and then select **Add**. (If you need to change the link later, select it and click the edit button <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px">.)
+* To add a link using the new editor, select the **Link** tool. Paste or type the URL and the link text, and then select **Add**. (If you need to change the link later, select it and then select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px">.)
 
     <img alt="Adding a link" src="https://assets.postman.com/postman-docs/documentation-add-link-v9.jpg" width="570px">
 
@@ -138,7 +138,7 @@ Use links to direct users to your repository, web site, or other online resource
 
 Images liven up your documentation and help your ideas come across more clearly. Your image must be hosted online before you can add it to your documentation.
 
-* To add an image using the new editor, select the **Image** tool. Paste or type the image URL, and then select **Add**. (If you need to change the image later, select it and click the edit button <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px">.)
+* To add an image using the new editor, select the **Image** tool. Paste or type the image URL, and then select **Add**. (If you need to change the image later, select it and then select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px">.)
 
     <img alt="Adding an image" src="https://assets.postman.com/postman-docs/documentation-add-image-v9.jpg" width="570px">
 
