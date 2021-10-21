@@ -81,9 +81,9 @@ Editing a monitor requires you to have edit access for that specific monitor.
 
 ### Requesting editor role on a monitor
 
-To get edit access for a monitor, you will first need to be a member of the team that owns the monitor, and then a member of the workspace that contains the monitor.
+To get edit access for a monitor, you will first need to be a member of the team that owns the monitor.
 
-Once you have joined the team and [joined the workspace](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#joining-workspaces), navigate to the monitor in question in Postman. In the upper right, hover over the monitor and select **...** > **Edit**.
+Once you have joined the team, navigate to the monitor in question in Postman. In the upper right, hover over the monitor and select **...** > **Edit**.
 
 <img src="https://assets.postman.com/postman-docs/manage-roles-request-access-monitor.jpg" alt="Manage roles request access"/>
 

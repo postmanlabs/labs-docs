@@ -15,19 +15,15 @@ hr {
     height: 1px;
     background: #e6e6e6;
 }
-
-.cards-outline {
-    outline: 1px solid #e6e6e6 // grey_20
-}
 .img-frame {
-    border-radius: 8px;
+    border-radius: $borderRadiusMedium;
     border: 8px solid #e6e6e6; // $grey_20
     box-shadow: 8px 8px 0 rgba(0, 0, 0, 0.32);
 }
 
 .events__alert {
     border: 4px dashed #CCE5FF;
-    border-radius: 4px 4px 4px 4px;
+    border-radius: $borderRadiusMedium;
     padding: .75rem 1.25rem;
     color: #0C5460;
 }

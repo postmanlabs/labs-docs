@@ -73,7 +73,7 @@ The Postman [billing dashboard](http://go.postman.co/billing) allows you to mana
 
 When navigating to your [billing dashboard](http://go.postman.co/billing), you will first see your billing overview. You can view the details of your Postman plan, including your subscription cycle and a calculation of your expected cost upon renewal.
 
-<img alt="Billing overview" src="https://assets.postman.com/postman-docs/billing-overview-view.jpg" />
+<img alt="Billing overview" src="https://assets.postman.com/postman-docs/billing-dashboard-overview-v9.1.0.jpg" />
 
 ### Managing add-ons
 
@@ -81,7 +81,7 @@ In your [billing dashboard](http://go.postman.co/billing), select **Resource usa
 
 <img alt="Add-ons usage and purchase" src="https://assets.postman.com/postman-docs/resource-usage-page-v87.jpg" />
 
-> Click **View detailed usage** next to **Monitoring Usage** to view your team's active monitors and their impact on your team's overall usage during the current billing period.
+> Select **View detailed usage** next to **Monitoring Usage** to view your team's active monitors and their impact on your team's overall usage during the current billing period.
 
 You can opt to allow or disable overages for mock server and monitor usage by selecting the icon to the right of each item. If enabled, you will be charged on a pay-as-you-go basis.
 
@@ -113,9 +113,9 @@ Postman offers various payment options dependent on your plan type.
 
 In your [billing dashboard](http://go.postman.co/billing), select **Plan and payments** on the left, then **Payment methods**.
 
-To add, click **Add Payment Method**.
+To add, select **Add Payment Method**.
 
-To remove, hover over the card in question and click **Delete Payment Method**.
+To remove, hover over the card in question and select **Delete Payment Method**.
 
 To set a card as your primary, hover over the card and **Set as Primary**.
 
@@ -129,7 +129,7 @@ You can pay invoices online, via ACH, or via wire-transfer. Invoices will be sen
 
 ### Adding custom information to invoices
 
-In your [billing dashboard](http://go.postman.co/billing), select **Plan and payments** on the left, then **Invoices**. Click **Edit Billing Information**.
+In your [billing dashboard](http://go.postman.co/billing), select **Plan and payments** on the left, then **Invoices**. Select **Edit Billing Information**.
 
 Add or update your billing email, company name, address, and (if applicable) VAT ID, then **Save**. All future [invoices](https://go.postman.co/billing/invoices) will have the updated copy. To modify an existing invoice, [submit a request](https://support.postman.com/hc/en-us).
 
@@ -151,43 +151,49 @@ You can change your team's plan and billing cycle in your [billing dashboard](ht
 
 ### Changing your plan
 
-To change your plan immediately, navigate to your [billing dashboard](https://go.postman.co/billing/overview), select **Plan and payments** on the left, then **Edit plan**.
+To change your plan immediately, navigate to your [billing dashboard](https://go.postman.co/billing/overview) and select **Edit Plan** on the right.
 
-Choose **Monthly** or **Yearly** for your billing cycle, then select your preferred plan type. You can adjust your team size and **Proceed** to confirm changes.
+<img alt="Edit plan page" src="https://assets.postman.com/postman-docs/billing-edit-plan-add-members-v9.1.0.jpg"/>
 
-<img alt="Change plan page" src="https://assets.postman.com/postman-docs/change-plan-option.jpg"/>
+You can opt to apply changes immediately or on renewal. You can adjust your team size, billing frequency, and plan type. Select **Next** to adjust your team's add-ons, including monitoring blocks, mock server blocks, and custom domains. Select **Next** to then **Confirm Changes**.
 
 The cost of your new plan and/or additional seats will be prorated based on the time left in your team's billing cycle.
 
 > To upgrade to Postman Enterprise, [contact Postman's sales team](mailto:sales@postman.com).
 
+<!-- -->
+
+> Certain changes can only be applied to your team upon renewal. If you make adjustments to your plan that cannot be applied immediately, and have **Immediately** selected, you will be prompted to switch your selection to **On renewal**.
+
 ### Setting instructions for next billing cycle
 
-You can set instructions to determine what will happen at the end of your current billing cycle. To do so, navigate to your [billing dashboard](https://go.postman.co/billing/overview), select **Plan and payments** on the left, then **Set instructions**.
+To set instructions to determine what will happen at the end of your current billing cycle, navigate to your [billing dashboard](https://go.postman.co/billing/overview) and select **Set instructions** on the right under your subtotal.
 
-You can view your current plan and opt to **Edit Standing Instructions**. Select your preferred option from the drop-down, then click **Proceed** and confirm your changes.
+<img alt="Set instructions in billing dashboard" src="https://assets.postman.com/postman-docs/billing-dashboard-set-instructions-v9.1.0.jpg"/>
 
-<img alt="Set instructions for next cycle" src="https://assets.postman.com/postman-docs/billing-set-instructions-for-next-billing-cycle.jpg" width="400px"/>
+You can view your current plan and opt to **Edit Standing Instructions**. Select your preferred option from the drop-down menu, then select **Proceed** to move forward with your plan changes.
+
+<img alt="Set instructions for next cycle" src="https://assets.postman.com/postman-docs/billing-set-instructions-for-next-billing-cycle-v9.1.0.jpg" width="400px"/>
 
 > You can change your standing instructions at any time before the end of your current billing cycle.
 
 ### Changing billing cycle
 
-Monthly teams can switch to an annual plan at any time by navigating to your [billing dashboard](https://go.postman.co/billing/overview) select **Plan and payments** on the left, then **Edit plan**.
+Monthly teams can switch to an annual plan at any time by navigating to the [billing dashboard](https://go.postman.co/billing/overview) and selecting **Edit Plan** on the right.
 
-<img alt="Change plan page" src="https://assets.postman.com/postman-docs/change-plan-option.jpg"/>
+Select to pay **Monthly** or **Annual** and confirm your changes. Note that annual teams can only switch to a monthly plan at the end of their current billing cycle. You can find the end date of your current billing cycle under **Overview**.
 
-> Annual teams can switch to a monthly plan at the end of the current billing cycle. You can find the end date of your current billing cycle under **Overview**.
+<img alt="Edit plan billing frequency" src="https://assets.postman.com/postman-docs/billing-dashboard-edit-plan-billing-frequency-v9.1.jpg" width="400px"/>
 
 ### Purchasing add-ons
 
-The base number of monitoring requests, custom domains, and mock server calls included in your plan depends on your [plan type](https://www.postman.com/pricing). You can enable or disable overages for monitoring and mock server calls by [managing your team's add-ons](#managing-add-ons). If enabled, you will be charged on a pay-as-you-go basis.
+The base number of monitoring requests, mock server calls, and custom domains included in your plan depends on your [plan type](https://www.postman.com/pricing). You can enable or disable overages for monitoring and mock server calls by [managing your team's add-ons](#managing-add-ons). If enabled, you will be charged on a pay-as-you-go basis.
 
-You can purchase additional blocks of monitoring requests, custom domains, and mock server calls by navigating to your [billing dashboard](http://go.postman.co/billing), selecting **Resource usage** on the left, then **Purchase Add-ons**.
+You can purchase additional blocks of monitoring requests, mock server calls, and custom domains by navigating to your [billing dashboard](http://go.postman.co/billing), selecting **Resource usage** on the left, then **Purchase Add-ons** on the right.
 
-<img alt="Add-ons purchase form" src="https://assets.postman.com/postman-docs/modify-add-ons-buy.jpg"/>
+<img alt="Add-ons purchase form" src="https://assets.postman.com/postman-docs/billing-dashboard-edit-plan-add-ons-v9.1.0.jpg"/>
 
-Select the add-ons you would like to purchase and set the number of blocks, then **Review Changes** to complete your purchase.
+Update the number of monitoring blocks, mock server blocks, and custom domains you would like to have included in your team plan, then select **Next** to confirm your changes.
 
 ### Utilizing auto-flex
 
@@ -205,7 +211,7 @@ Select **Get Early Access**.
 
 <img alt="Auto-flex opt in confirmation" src="https://assets.postman.com/postman-docs/opt-in-to-auto-flex-modal.jpg" width="400px"/>
 
-Click to **Agree to Auto-Flex's terms and conditions**, then select **Get Early Access**.
+Select to **Agree to Auto-Flex's terms and conditions**, then select **Get Early Access**.
 
 > View [Postman's auto-flex team policy](https://learning.postman.com/auto-flex-policy/).
 
@@ -235,7 +241,7 @@ You will not be billed if the number of users has remained unchanged during your
 
 You can view your current number of additional team members, how much you will be billed at the end of your cycle (unless you add or remove team members in the interim), and additional information about your auto-flex and regular billing cycles at any time in your [billing dashboard](http://go.postman.co/billing).
 
-<img alt="Auto-flex billing overview" src="https://assets.postman.com/postman-docs/billing-overview-with-autoflex2.jpg" />
+<img alt="Billing overview" src="https://assets.postman.com/postman-docs/billing-dashboard-overview-v9.1.0.jpg" />
 
 > [Contact Postman support](https://www.postman.com/support/) with any questions regarding auto-flex.
 

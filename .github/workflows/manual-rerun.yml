@@ -1,4 +1,4 @@
-  
+
 name: manually re-running actions
 
 on: repository_dispatch
@@ -10,18 +10,24 @@ jobs:
     - uses: actions/checkout@v1
     - uses: actions/setup-node@master
     - name: lint all markdownfiles
+      env:
+        NPM_KEY: ${{ secrets.NPM_KEY }}
       run: |
+        npm config set //registry.npmjs.org/:_authToken=${{secrets.NPM_TOKEN}}
         npm install
-        node_modules/.bin/markdownlint ./ --ignore node_modules --ignore legacy-documentation
+        node_modules/.bin/markdownlint ./ --ignore node_modules
     - name: check for image url
       run: |
-        if grep -lri 's3.amazonaws.com/postman-static-getpostman-com' ./src/pages/docs ; 
-        then echo "Invalid s3 references found. Please use format 'https://assets.postman.com/postman-docs/[filename-in-s3]'"; 
-          exit 1; 
-        else echo "no s3 references found"; 
+        if grep -lri 's3.amazonaws.com/postman-static-getpostman-com' ./src/pages/docs ;
+        then echo "Invalid s3 references found. Please use format 'https://assets.postman.com/postman-docs/[filename-in-s3]'";
+          exit 1;
+        else echo "no s3 references found";
         fi
     - name: running unit tests
+      env:
+        NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
       run: |
+        npm config set //registry.npmjs.org/:_authToken=${{secrets.NPM_TOKEN}}
         npm install
         npm run clean
         npm run test:update

@@ -17,6 +17,7 @@
   img {
     max-width: 100%;
     height: auto;
+    image-rendering: -webkit-optimize-contrast;
   }
 
   // WIP - need to get ul li markers to move away from text
@@ -106,18 +107,6 @@
     &.anchor:hover {
         border: none !important;
         display: block;
-    }  
-
-    &.alternative {
-      color: #fff;
-    }
-
-    &.alternative:hover {
-      color: #fff;
-      background-position: top 22px right -4px;
-      padding-right: 4px;
-      padding-bottom: 2px;
-      text-decoration: none;
     }
   }
 
@@ -128,10 +117,11 @@
 }
 
 // make left nav full width in mobile view
-.left-nav {
+.left-nav-re {
   // z-index: -1;
   padding-left: 0px !important;
   padding-right: 0px !important;
+  
   @media screen and (min-width: 768px) {
     max-width: 350px;
   }
@@ -148,9 +138,13 @@ blockquote {
   box-sizing: border-box;
   width: 100%;
   border: solid $grey_20 1px;
-  border-radius: 8px;
+  border-radius: $borderRadiusMedium;
   padding: 16px 24px;
   background-color: $grey_05;
+  margin-left: 0;
+}
+blockquote code.language-text {
+  background-color: #ffffff !important;
 }
 
 .edit-button {
@@ -168,7 +162,7 @@ blockquote {
 
 .edit-button-styles {
   border: 1px solid $grey_40 !important;
-  border-radius: 4px !important;
+  border-radius: $borderRadiusMedium !important;
   padding: 8px 16px !important;
   &:hover {
     border: 1px solid $grey_70 !important;
@@ -192,8 +186,10 @@ blockquote {
   position: -webkit-sticky;
   position: sticky !important;
   top: 160px;
-  // top: 0;
+}
 
+.posmanaut-dab {
+  max-width: 250px;
 }
 
 tr:hover {
@@ -220,7 +216,7 @@ thead:first-child:hover tr{
   padding: 1px 4px 2px !important;
   font-size: 15px !important;
   box-shadow: inset 0 0 0 1px $grey_30;
-  border-radius: 3px !important;
+  border-radius: $borderRadiusMedium !important;
 }
 
 code[class*="language-"] {
@@ -232,11 +228,10 @@ code[class*="language-"] {
 
 .gatsby-highlight {
   background-color: #2d2d2d;
-  border-radius: 0.3em;
+  border-radius: $borderRadiusSmall;
   margin: 0.5em 0;
   padding: 1em;
   overflow: auto;
-  border-left: 0.5em solid $postman-orange;
   white-space: pre-wrap;
   word-break: break-word;
   // max-width: 600px;
