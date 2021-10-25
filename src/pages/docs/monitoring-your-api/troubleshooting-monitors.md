@@ -8,7 +8,7 @@ contextual_links:
     name: "Prerequisites"
   - type: link
     name: "Intro to Monitoring"
-    url: "/docs/designing-and-developing-your-api/monitoring-your-api/intro-monitors/"
+    url: "/docs/monitoring-your-api/intro-monitors/"
   - type: section
     name: "Next Steps"
   - type: link
@@ -22,7 +22,7 @@ When you save changes to your collections in Postman, they are automatically and
 
 ## Viewing failed monitors
 
-You can utilize the [Postman console log](/docs/designing-and-developing-your-api/monitoring-your-api/viewing-monitor-results/#console-log) to debug issues that arise in your monitors.
+You can utilize the [Postman console log](/docs/monitoring-your-api/viewing-monitor-results/#console-log) to debug issues that arise in your monitors.
 
 To view, navigate to your workspace and select **Monitors** in the left sidebar. Select your monitor in question, then click on your failed run in the performance graph. Select **Console Log** below the graph to view monitor run details along with any console.log statements that you have included in your pre-request and test scripts.
 
