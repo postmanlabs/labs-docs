@@ -462,7 +462,7 @@ export const leftNavItems = [
   },
   {
     name: 'Monitoring Your API',
-    ParentSlug: 'monitoring-your-api',
+    parentSlug: 'monitoring-your-api',
     url: '/docs/monitoring-your-api/intro-monitors/',
     subMenuItems1: [
       {
