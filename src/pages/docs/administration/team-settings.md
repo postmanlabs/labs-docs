@@ -92,8 +92,8 @@ View [Defining roles](/docs/collaborating-in-postman/roles-and-permissions/) for
 
 ## Managing invite links
 
-You can select [**Manage Invite Links**](https://go.postman.co/settings/team/manage-invite-links) from the left-hand menu to view a list of invitation links your team has generated. Here, you can review which users generated links, when they were generated, their expiry date, and their URL.
+You can select [**Invite links**](https://go.postman.co/settings/team/manage-invite-links) from the left-hand menu to view a list of invitation links your team has generated. Here, you can review which users generated links, when they were generated, their expiry date, and their URL.
 
-<img alt="Managing invite links" src="https://assets.postman.com/postman-docs/team-manage-invite-links-v9.1.0.jpg"/>
+<img alt="Managing invite links" src="https://assets.postman.com/postman-docs/manage-team-invite-links-v9.1.jpg"/>
 
-You can hover over a row and select the **Copy Link** icon on the right-hand side to copy the corresponding invite URL. To delete a link, hover over the row and select the **Delete Link** trash can icon on the right-hand side.
+You can hover over a row and select the **Copy link** icon on the right-hand side to copy the corresponding invite URL. To delete a link, hover over the row and select the **Delete link** trash can icon on the right-hand side.
