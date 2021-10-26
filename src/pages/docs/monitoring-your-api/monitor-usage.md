@@ -2,6 +2,7 @@
 title: "Managing monitor usage"
 order: 88
 page_id: "monitor_usage"
+updated: 2021-10-28
 contextual_links:
   - type: section
     name: "Prerequisites"

@@ -55,7 +55,7 @@ Postman Monitoring offers a number of configuration options when creating a moni
 
     * [Adding regions](#adding-regions)
 
-    * [Using static IP](#using-static-ip)
+    * [Using static IPs](#using-static-ips)
 
     * [Updating email preferences](#updating-email-preferences)
 
@@ -133,7 +133,7 @@ You can allow Postman to auto-select a region for your monitor or you can opt to
 
 > Servers in each selected region will run your monitor according to your schedule, counting towards your [monitoring usage](/docs/monitoring-your-api/monitor-usage/#viewing-monitor-usage).
 
-### Using static IP
+### Using static IPs
 
 Static IPs are available on Postman Business and Enterprise plans. This option allows you to securely monitor private APIs using a direct channel to Postman. Learn how you can [monitor using static IPs](/docs/monitoring-your-api/using-static-IPs-to-monitor/).
 

@@ -2,6 +2,7 @@
 title: "Monitoring your APIs"
 order: 88
 page_id: "intro_monitors"
+updated: 2021-10-28
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -33,7 +34,7 @@ warning: false
 
 ---
 
-Postman Monitors give you continuous visibility into the health and performance of your APIs. Setting up a new monitor is fast and flexible—keep watch on a single endpoint, run API tests using your existing test scripts, or chain together a sequence of requests to validate critical API flows.
+Postman Monitors give you continuous visibility into the health and performance of your APIs. Setting up a new monitor is fast and flexible. Keep watch on a single endpoint, run API tests using your existing test scripts, or chain together a sequence of requests to validate critical API flows.
 
 Once the monitor is running you’ll get alerted to any failures, so you can quickly identify and address issues before your API’s consumers are affected.
 
@@ -56,7 +57,9 @@ Once the monitor is running you’ll get alerted to any failures, so you can qui
 
 A collection-based monitor runs a series of requests from the Postman cloud on a schedule you set. When creating a monitor, you choose a [collection](/docs/sending-requests/intro-to-collections/) with the requests you want to run. These can be basic requests that simply indicate an endpoint is up and reachable. More complex collections can make use of [chained requests](https://www.youtube.com/watch?v=shYn3Ys3ygE), [test scripts](https://learning.postman.com/docs/writing-scripts/test-scripts/), and [environment variables](/docs/sending-requests/managing-environments/) to validate API responses and functionality.
 
-Postman runs the collection on the schedule you define, as often as every five minutes depending on your [Postman plan](https://www.postman.com/pricing/). You can even specify which region of the world you’d like to run the collection from (paid plans only). Get alerted by email if a test fails or errors occur, or [set up integrations](/docs/integrations/intro-integrations/) to be notified over Slack and other channels. All results are recorded on the monitor’s dashboard, so you can view past results or see trends over time.
+You can configure your monitors to run as frequently as you would like, depending on your [Postman plan](https://www.postman.com/pricing/). For paid plans, monitors can be scheduled to run as often as every five minutes. For free plans, monitors can be scheduled to run as often as every hour. You can even specify which region of the world you’d like to run the collection from (paid plans only).
+
+Get alerted by email if a test fails or errors occur, or [set up integrations](/docs/integrations/intro-integrations/) to be notified over Slack and other channels. All results are recorded on the monitor’s dashboard, so you can view past results or see trends over time.
 
 ### Using collection-based monitors
 
@@ -66,7 +69,7 @@ Because they run Postman requests and scripts, collection-based monitors can be 
 * **Validate API response structure and data.** Ensure the API is functioning according to specifications.
 * **Test complex, multi-step workflows.** Ensure that critical API flows as well as edge cases are working as expected.
 * **Continuously conduct user acceptance, smoke, and regression tests.** Proactively identify issues so you can address them before they affect API consumers.
-* **Run tests in multiple environments and regions.** Ensure your APIs are working everywhere.
+* **Run tests in multiple environments and regions.** Ensure your APIs are working everywhere. (Running monitors in multiple regions requires a paid Postman plan.)
 * **Monitor the security of your endpoints.** Continuously test APIs for known security vulnerabilities.
 * **Visualize results on the monitor dashboard.** Get better visibility into API performance over time and identify trends.
 
@@ -78,40 +81,39 @@ There are some differences between running collections in a Postman monitor and 
 
 ### Variables
 
-* You cannot import existing global variables into a monitor, but you can create new global variables during a run.
-* Global and environment variables can be updated and subsequently used during a monitoring run, however they will immediately revert to their original values.
-* If you require persistent variables, you can add a call to update your environment using the [Postman API](/docs/developer/intro-api/).
+You cannot import existing global variables into a monitor, but you can create new global variables during a run. Global and environment variables can be updated and subsequently used during a monitoring run, however they will immediately revert to their original values.
+
+> If you require persistent variables, you can add a call to update your environment using the [Postman API](/docs/developer/intro-api/).
 
 ### Console output
 
-* For your security and privacy, Postman does not log request or response bodies in the console.
-* Postman also does not log headers, as they may include items like cookies and authorization keys.
+For your security and privacy, Postman does not log request or response bodies in the console. Postman also does not log headers, as they may include items like cookies and authorization keys.
 
 ### Time limits
 
-* Monitor are limited to a maximum of five minutes, including all HTTP requests, responses, pre-request scripts, and test scripts.
+Monitors are limited to a maximum of five minutes, including all HTTP requests, responses, pre-request scripts, and test scripts.
 
 ### File uploads
 
-* You cannot attach files to requests, unlike in the request builder, but you can upload data as a raw request body.
+You cannot attach files to requests, unlike in the request builder, but you can upload data as a raw request body.
 
 ### Data files
 
-* You cannot attach data files, unlike in the collection runner, but you can access files using APIs, including Google Docs, Google Sheets, and Dropbox.
+You cannot attach data files, unlike in the collection runner, but you can access files using APIs such as Google Docs, Google Sheets, and Dropbox.
 
 ### Multiple iterations
 
-* Monitors only run one iteration by default, but you can use `setNextRequest()` to run multiple iterations.
+Monitors only run one iteration by default, but you can use `setNextRequest()` to run multiple iterations.
 
 ### Multi-region monitoring
 
-* If you are on a paid plan, you can select one or more geographic regions you'd like your monitor to run from, or have Postman automatically select a region for you. If you are on a free plan, Postman always selects a region from you. If you want to manually select specific regions, [upgrade your Postman plan](https://www.postman.com/pricing)
+If you are on a paid plan, you can select one or more geographic regions you'd like your monitor to run from, or have Postman automatically select a region for you. If you are on a free plan, Postman always selects a region from you. If you want to manually select specific regions, [upgrade your Postman plan](https://www.postman.com/pricing)
 
 > If you’re interested in a region that’s not currently available when creating a monitor, contact the [Postman support team](https://www.postman.com/support/).
 
 ### Accessible APIs
 
-* Because monitors run in the Postman cloud, all URLs must be publicly available on the Internet. A monitor cannot directly access your `localhost` or run requests behind a firewall. You can [run monitors using static IPs](/docs/monitoring-your-api/using-static-IPs-to-monitor/) to overcome this issue. Static IPs are available on [Postman Business and Enterprise plans](https://www.postman.com/pricing).
+Because monitors run in the Postman cloud, all URLs must be publicly available on the Internet. A monitor cannot directly access your `localhost` or run requests behind a firewall. You can [run monitors using static IPs](/docs/monitoring-your-api/using-static-IPs-to-monitor/) to overcome this issue. Static IPs are available on [Postman Business and Enterprise plans](https://www.postman.com/pricing).
 
 ## Next steps
 
