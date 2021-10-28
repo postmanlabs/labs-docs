@@ -14,8 +14,8 @@ contextual_links:
   - type: subtitle
     name: "Videos"
   - type: link
-    name: "Sending a request"
-    url: "https://www.youtube.com/watch?v=7E60ZttwIpY"
+    name: "How to Send API Requests"
+    url: "https://youtu.be/8mBmLDbpIH8"
   - type: link
     name: "How to use an API"
     url:  "https://www.youtube.com/watch?v=jCadnlO9xSQ&list=PLM-7VG-sgbtBBnWb2Jc5kufgtWYEmiMAw"

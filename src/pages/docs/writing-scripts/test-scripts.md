@@ -25,17 +25,17 @@ contextual_links:
   - type: subtitle
     name: "Videos"
   - type: link
-    name: "Testing with Snippets | Postman Level Up"
-    url: "https://youtu.be/QGNJ0wh5Ry0"
-  - type: link
     name: "Intro to Postman: Writing API tests"
     url: "https://www.youtube.com/watch?v=vuVhF257uGw"
   - type: link
     name: "Intro to Postman: Advanced API tests"
     url: "https://www.youtube.com/watch?v=dDlsQrZmEmo"
   - type: link
-    name: "New to Postman: Writing a test"
-    url:  "https://www.youtube.com/watch?v=6Cp4Ez5dwbM"
+    name: "Testing with Snippets | Postman Level Up"
+    url: "https://youtu.be/QGNJ0wh5Ry0"
+  - type: link
+    name: "Continuous Quality with Postman"
+    url:  "https://youtu.be/zrmQAgixMpU"    
   - type: subtitle
     name: "Related Blog Posts"
   - type: link

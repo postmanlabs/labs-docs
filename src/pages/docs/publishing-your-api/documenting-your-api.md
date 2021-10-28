@@ -23,6 +23,12 @@ contextual_links:
   - type: link
     name: "API documentation with Postman"
     url: "https://www.youtube.com/watch?v=Ayo_KdLLcTA"
+  - type: link
+    name: "API Publishers Series, Part 1: Introduction to Documentation"
+    url: "https://youtu.be/z4egejVO20M"
+  - type: link
+    name: "API Publishers Series, Part 2: Increase Adoption of your Public API"
+    url: "https://youtu.be/52pXP3X4a_8"
   - type: subtitle
     name: "Related Blog Posts"
   - type: link

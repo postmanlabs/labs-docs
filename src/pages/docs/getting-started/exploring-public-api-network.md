@@ -9,6 +9,13 @@ contextual_links:
     name: "Sending your first request"
     url: "/docs/getting-started/sending-the-first-request/"
   - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Public API Network | The Exploratory"
+    url: "https://youtu.be/2LDR93X0WIc"
+  - type: section
     name: "Next Steps"
   - type: link
     name: "Creating your first collection"
