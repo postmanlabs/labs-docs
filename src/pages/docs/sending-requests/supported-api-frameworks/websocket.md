@@ -9,12 +9,16 @@ contextual_links:
   - type: link
     name: "Installing and updating"
     url: "/docs/getting-started/installation-and-updates/"
+  - type: section
+    name: "Additional Resources"
   - type: subtitle
     name: "Related Blog Posts"
   - type: link
+    name: "Save and Document WebSocket Requests in Collections"
+    url: "https://blog.postman.com/save-and-document-websocket-requests-in-collections/"
+  - type: link
     name: "Postman Supports Socket.IO"
     url: "https://blog.postman.com/postman-now-supports-socket-io/"
-
 
 warning: false
 
