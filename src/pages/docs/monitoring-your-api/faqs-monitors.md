@@ -14,7 +14,7 @@ You can use Postman Monitors for simple uptime monitoring to ensure your servers
 
 ### What restrictions apply?
 
-To learn what restrictions apply, see [Intro to Monitoring](/docs/designing-and-developing-your-api/monitoring-your-api/intro-monitors/).
+To learn what restrictions apply, see [Intro to Monitoring](/docs/monitoring-your-api/intro-monitors/).
 
 ### How many monitors can I create?
 
@@ -42,11 +42,11 @@ There is nearly no limit to the amount of data that can be sent or received per 
 
 ### Are static IP addresses dedicated to individual customers or shared?
 
-The provided static IP addresses are fixed to their specified region and shared by all customers who enable this feature, which is available to Postman Business and Enterprise teams. For more information, see [Running Postman monitors using static IPs](/docs/designing-and-developing-your-api/monitoring-your-api/using-static-IPs-to-monitor/).
+The provided static IP addresses are fixed to their specified region and shared by all customers who enable this feature, which is available to Postman Business and Enterprise teams. For more information, see [Running Postman monitors using static IPs](/docs/monitoring-your-api/using-static-IPs-to-monitor/).
 
 ### How do I troubleshoot problems?
 
-You can view the full console output for every monitor run, including any errors. You can also use methods, such as `console.log()`, `console.warn()`, and so on to output your own debugging information. To learn more about troubleshooting monitors, see [Troubleshooting monitors](/docs/designing-and-developing-your-api/monitoring-your-api/troubleshooting-monitors/).
+You can view the full console output for every monitor run, including any errors. You can also use methods, such as `console.log()`, `console.warn()`, and so on to output your own debugging information. To learn more about troubleshooting monitors, see [Troubleshooting monitors](/docs/monitoring-your-api/troubleshooting-monitors/).
 
 ## Security
 

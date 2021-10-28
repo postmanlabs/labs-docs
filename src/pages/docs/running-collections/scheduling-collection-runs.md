@@ -15,7 +15,7 @@ contextual_links:
 warning: false
 ---
 
-You can automate [collection runs](/docs/running-collections/intro-to-collection-runs/) using [monitors](/docs/designing-and-developing-your-api/monitoring-your-api/intro-monitors/) to schedule runs and receive reports on your request test results.
+You can automate [collection runs](/docs/running-collections/intro-to-collection-runs/) using [monitors](/docs/monitoring-your-api/intro-monitors/) to schedule runs and receive reports on your request test results.
 
 To add or access monitors for a particular collection, select the __Monitors__ tab in the left sidebar of Postman.
 
@@ -27,10 +27,10 @@ Give your monitor a name, select a collection to use, choose a version tag, and 
 
 [![Add new monitor to collection](https://assets.postman.com/postman-docs/create-new-monitor-overview-v8.jpg)](https://assets.postman.com/postman-docs/create-new-monitor-overview-v8.jpg)
 
-Your new monitor will appear in the monitor overview. You can open the monitor overview tab to [view your monitor results](/docs/designing-and-developing-your-api/monitoring-your-api/viewing-monitor-results/) at any time.
+Your new monitor will appear in the monitor overview. You can open the monitor overview tab to [view your monitor results](/docs/monitoring-your-api/viewing-monitor-results/) at any time.
 
 <img alt ="New monitor created" src="https://assets.postman.com/postman-docs/new-monitor-created-v8.jpg" height ="400px"/>
 
 ## Next steps
 
-Check out the [monitoring](/docs/designing-and-developing-your-api/monitoring-your-api/intro-monitors/) section for more on how you can leverage monitors in your API development pipeline.
+Check out the [monitoring](/docs/monitoring-your-api/intro-monitors/) section for more on how you can leverage monitors in your API development pipeline.

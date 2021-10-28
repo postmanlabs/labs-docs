@@ -12,12 +12,12 @@ contextual_links:
     url: "/docs/sending-requests/intro-to-collections/"
   - type: link
     name: "Intro to Monitoring"
-    url: "/docs/designing-and-developing-your-api/monitoring-your-api/intro-monitors/"
+    url: "/docs/monitoring-your-api/intro-monitors/"
 ---
 
 Splunk On-Call (formerly VictorOps) is a real-time incident management platform that combines the power of people and data to handle incidents as they occur and prepare for the next one.
 
-This integration allows you to configure [Postman Monitors](/docs/designing-and-developing-your-api/monitoring-your-api/intro-monitors/) to trigger incidents on Splunk On-Call whenever it fails.
+This integration allows you to configure [Postman Monitors](/docs/monitoring-your-api/intro-monitors/) to trigger incidents on Splunk On-Call whenever it fails.
 
 ## Get the Splunk On-Call API Key
 

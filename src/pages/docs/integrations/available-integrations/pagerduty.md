@@ -11,7 +11,7 @@ contextual_links:
     url: "/docs/sending-requests/intro-to-collections/"
   - type: link
     name: "Intro to Monitoring"
-    url: "/docs/designing-and-developing-your-api/monitoring-your-api/intro-monitors/"
+    url: "/docs/monitoring-your-api/intro-monitors/"
 ---
 
 PagerDuty is a popular incident management solution that integrates with monitoring stacks for alerting, on-call scheduling, and automatic escalation of critical incidents.
@@ -22,7 +22,7 @@ You can use this integration to trigger incidents in PagerDuty based on your Pos
 
 ## Retrieving your PagerDuty Integration Key
 
-Create an account or use a preexisting one to log in to [PagerDuty](https://app.pagerduty.com/).  
+Create an account or use a preexisting one to log in to [PagerDuty](https://app.pagerduty.com/).
 In the header toolbar, select **Services**. If you are creating a new service for this integration, select **Services** and then **+ New Service**.
 
 ![pagerduty menu](https://assets.postman.com/postman-docs/pagerduty-new-service.jpg)
