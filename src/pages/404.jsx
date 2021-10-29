@@ -4,7 +4,7 @@ import SEO from '../components/seo';
 import errordog from '../images/error-dog.svg';
 import './404.scss';
 
-const clickHandler = () => { window.pm && window.pm.scalp('pm-analytics', 'client', 'click', 'pm-tech'); };
+const clickHandler = () => { window.pm && window.pm.scalp('pm-analytics', 'click', 'pm-tech'); };
 
 class NotFoundPage extends React.Component {
   componentDidMount() {
@@ -39,7 +39,6 @@ class NotFoundPage extends React.Component {
         window.pm.scalp(
           'pm-analytics',
           'load',
-          'path',
           document.location.pathname,
         );
       });
