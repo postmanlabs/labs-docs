@@ -64,7 +64,7 @@ You can save a request to an existing collection, or save it to a new collection
 
 [![save request modal](https://assets.postman.com/postman-docs/WS-anuhyaMock3.png)](https://assets.postman.com/postman-docs/WS-anuhyaMock3.png)
 
-Collection `C1` will now be accessible in the **Collections** tab in the application. You can do all sorts of things within the collection details view: [viewing API documentation](/docs/publishing-your-api/viewing-documentation/), [mocking a collection](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/), [monitoring a collection](/docs/designing-and-developing-your-api/monitoring-your-api/setting-up-monitor/), or [running the collection](/docs/running-collections/intro-to-collection-runs/).
+Collection `C1` will now be accessible in the **Collections** tab in the application. You can do all sorts of things within the collection details view: [viewing API documentation](/docs/publishing-your-api/viewing-documentation/), [mocking a collection](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/), [monitoring a collection](/docs/monitoring-your-api/setting-up-monitor/), or [running the collection](/docs/running-collections/intro-to-collection-runs/).
 
 [![collection tab](https://assets.postman.com/postman-docs/WS-anuhyaMock4.png)](https://assets.postman.com/postman-docs/WS-anuhyaMock4.png)
 
