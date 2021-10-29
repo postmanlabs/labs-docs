@@ -53,7 +53,7 @@
 	},
 	{
 		"from": "/docs/designing-and-developing-your-api/monitoring-your-api/",
-		"to": "/docs/designing-and-developing-your-api/monitoring-your-api/intro-monitors/"
+		"to": "/docs/monitoring-your-api/intro-monitors/"
 	},
 	{
 		"from": "/docs/designing_and_developing_your_api/",
@@ -65,7 +65,7 @@
 	},
 	{
 		"from": "/docs/designing_and_developing_your_api/monitoring_your_api/",
-		"to": "/docs/designing-and-developing-your-api/monitoring-your-api/intro-monitors/"
+		"to": "/docs/monitoring-your-api/intro-monitors/"
 	},
 	{
 		"from": "/docs/developer/",
@@ -217,7 +217,7 @@
 	},
 	{
 		"from": "/docs/postman-enterprise/using-static-IPs-to-monitor/",
-		"to": "/docs/designing-and-developing-your-api/monitoring-your-api/using-static-IPs-to-monitor/"
+		"to": "/docs/monitoring-your-api/using-static-IPs-to-monitor/"
 	},
 	{
 		"from": "/docs/postman-for-publishers/api-network/add-api-network/",
@@ -1017,75 +1017,75 @@
 	},
 	{
 		"from": "/docs/postman/monitors/faqs-monitors/",
-		"to": "/docs/designing-and-developing-your-api/monitoring-your-api/faqs-monitors/"
+		"to": "/docs/monitoring-your-api/faqs-monitors/"
 	},
 	{
 		"from": "/docs/postman/monitors/faqs_monitors/",
-		"to": "/docs/designing-and-developing-your-api/monitoring-your-api/faqs-monitors/"
+		"to": "/docs/monitoring-your-api/faqs-monitors/"
 	},
 	{
 		"from": "/docs/postman/monitors/integrations-for-alerts/",
-		"to": "/docs/designing-and-developing-your-api/monitoring-your-api/integrations-for-alerts/"
+		"to": "/docs/monitoring-your-api/integrations-for-alerts/"
 	},
 	{
 		"from": "/docs/postman/monitors/integrations_for_alerts/",
-		"to": "/docs/designing-and-developing-your-api/monitoring-your-api/integrations-for-alerts/"
+		"to": "/docs/monitoring-your-api/integrations-for-alerts/"
 	},
 	{
 		"from": "/docs/postman/monitors/intro-monitors/",
-		"to": "/docs/designing-and-developing-your-api/monitoring-your-api/intro-monitors/"
+		"to": "/docs/monitoring-your-api/intro-monitors/"
 	},
 	{
 		"from": "/docs/postman/monitors/intro_monitors/",
-		"to": "/docs/designing-and-developing-your-api/monitoring-your-api/intro-monitors/"
+		"to": "/docs/monitoring-your-api/intro-monitors/"
 	},
 	{
 		"from": "/docs/postman/monitors/monitoring-apis-websites/",
-		"to": "/docs/designing-and-developing-your-api/monitoring-your-api/monitoring-apis-websites"
+		"to": "/docs/monitoring-your-api/monitoring-apis-websites/"
 	},
 	{
 		"from": "/docs/postman/monitors/monitoring_apis_websites/",
-		"to": "/docs/designing-and-developing-your-api/monitoring-your-api/monitoring-apis-websites"
+		"to": "/docs/monitoring-your-api/monitoring-apis-websites/"
 	},
 	{
 		"from": "/docs/postman/monitors/pricing-monitors/",
-		"to": "/docs/designing-and-developing-your-api/monitoring-your-api/intro-monitors/"
+		"to": "/docs/monitoring-your-api/monitor-usage/"
 	},
 	{
 		"from": "/docs/postman/monitors/pricing_monitors/",
-		"to": "/docs/designing-and-developing-your-api/monitoring-your-api/intro-monitors/"
+		"to": "/docs/monitoring-your-api/monitor-usage/"
 	},
 	{
 		"from": "/docs/postman/monitors/setting-up-monitor/",
-		"to": "/docs/designing-and-developing-your-api/monitoring-your-api/setting-up-monitor/"
+		"to": "/docs/monitoring-your-api/setting-up-monitor/"
 	},
 	{
 		"from": "/docs/postman/monitors/setting_up_monitor/",
-		"to": "/docs/designing-and-developing-your-api/monitoring-your-api/setting-up-monitor/"
+		"to": "/docs/monitoring-your-api/setting-up-monitor/"
 	},
 	{
 		"from": "/docs/postman/monitors/troubleshooting-monitors/",
-		"to": "/docs/designing-and-developing-your-api/monitoring-your-api/troubleshooting-monitors/"
+		"to": "/docs/monitoring-your-api/troubleshooting-monitors/"
 	},
 	{
 		"from": "/docs/postman/monitors/troubleshooting_monitors/",
-		"to": "/docs/designing-and-developing-your-api/monitoring-your-api/troubleshooting-monitors/"
+		"to": "/docs/monitoring-your-api/troubleshooting-monitors/"
 	},
 	{
 		"from": "/docs/postman/monitors/using-static-IPs-to-monitor/",
-		"to": "/docs/designing-and-developing-your-api/monitoring-your-api/using-static-IPs-to-monitor/"
+		"to": "/docs/monitoring-your-api/using-static-IPs-to-monitor/"
 	},
 	{
 		"from": "/docs/postman/monitors/using_static_IPs_to_monitor/",
-		"to": "/docs/designing-and-developing-your-api/monitoring-your-api/using-static-IPs-to-monitor/"
+		"to": "/docs/monitoring-your-api/using-static-IPs-to-monitor/"
 	},
 	{
 		"from": "/docs/postman/monitors/viewing-monitor-results/",
-		"to": "/docs/designing-and-developing-your-api/monitoring-your-api/viewing-monitor-results/"
+		"to": "/docs/monitoring-your-api/viewing-monitor-results/"
 	},
 	{
 		"from": "/docs/postman/monitors/viewing_monitor_results/",
-		"to": "/docs/designing-and-developing-your-api/monitoring-your-api/viewing-monitor-results/"
+		"to": "/docs/monitoring-your-api/viewing-monitor-results/"
 	},
 	{
 		"from": "/docs/postman/notifications/",
@@ -1493,7 +1493,7 @@
 	},
 	{
 		"from": "/docs/postman_enterprise/using_static_IPs_to_monitor/",
-		"to": "/docs/designing-and-developing-your-api/monitoring-your-api/using-static-IPs-to-monitor/"
+		"to": "/docs/monitoring-your-api/using-static-IPs-to-monitor/"
 	},
 	{
 		"from": "/docs/postman_for_publishers/api_network/add_api_network/",
@@ -1842,5 +1842,37 @@
 	{
 		"from": "/docs/getting-started/importing-templates/",
 		"to": "/docs/getting-started/exploring-public-api-network/"
+	},
+	{
+		"from": "/docs/designing-and-developing-your-api/monitoring-your-api/faqs-monitors/",
+		"to": "/docs/monitoring-your-api/faqs-monitors/"
+	},
+	{
+		"from": "/docs/designing-and-developing-your-api/monitoring-your-api/integrations-for-alerts/",
+		"to": "/docs/monitoring-your-api/integrations-for-alerts/"
+	},
+	{
+		"from": "/docs/designing-and-developing-your-api/monitoring-your-api/intro-monitors/",
+		"to": "/docs/monitoring-your-api/intro-monitors/"
+	},
+	{
+		"from": "/docs/designing-and-developing-your-api/monitoring-your-api/monitoring-apis-websites/",
+		"to": "/docs/monitoring-your-api/monitoring-apis-websites/"
+	},
+	{
+		"from": "/docs/designing-and-developing-your-api/monitoring-your-api/setting-up-monitor/",
+		"to": "/docs/monitoring-your-api/setting-up-monitor/"
+	},
+	{
+		"from": "/docs/designing-and-developing-your-api/monitoring-your-api/troubleshooting-monitors/",
+		"to": "/docs/monitoring-your-api/troubleshooting-monitors/"
+	},
+	{
+		"from": "/docs/designing-and-developing-your-api/monitoring-your-api/using-static-IPs-to-monitor/",
+		"to": "/docs/monitoring-your-api/using-static-IPs-to-monitor/"
+	},
+	{
+		"from": "/docs/designing-and-developing-your-api/monitoring-your-api/viewing-monitor-results/",
+		"to": "/docs/monitoring-your-api/viewing-monitor-results/"
 	}
 ]

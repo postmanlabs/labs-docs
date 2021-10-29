@@ -55,7 +55,7 @@ Postman Monitoring offers a number of configuration options when creating a moni
 
     * [Adding regions](#adding-regions)
 
-    * [Using static IP](#using-static-ip)
+    * [Using static IPs](#using-static-ips)
 
     * [Updating email preferences](#updating-email-preferences)
 
@@ -109,7 +109,7 @@ You will need to give your new monitor a name and designate the collection you w
 
 ![Create monitor page](https://assets.postman.com/postman-docs/create-a-monitor-tab-1-v9.jpg)
 
-> Postman maintains ceiling limits on various team and user actions, including monitor creation. For more information, see [Usage limits](/docs/designing-and-developing-your-api/monitoring-your-api/intro-monitors/#usage-limits).
+> Postman maintains ceiling limits on various team and user actions, including monitor creation. For more information, see [Usage limits](/docs/monitoring-your-api/monitor-usage/#monitor-activity-limits).
 
 From here, you can determine how you'd like to configure your monitor.
 
@@ -125,17 +125,17 @@ You can configure your monitor to run as often as you would like, automatically.
 
 <!-- -->
 
-> Frequency affects how quickly your monitoring usage compounds. To learn more about usage limits and overages, see [Pricing](/docs/designing-and-developing-your-api/monitoring-your-api/intro-monitors/#pricing).
+> Frequency affects how quickly your monitoring usage compounds. Learn more about [usage limits and overages](/docs/monitoring-your-api/monitor-usage/#viewing-monitor-usage).
 
 ### Adding regions
 
 You can allow Postman to auto-select a region for your monitor or you can opt to select your regions manually. Postman offers multiple regions to choose from, enabling you to accurately track uptime and reliability on a global scale, without the need to procure your own regional servers.
 
-> Servers in each selected region will run your monitor according to your schedule, counting towards your [monitoring usage](/docs/designing-and-developing-your-api/monitoring-your-api/intro-monitors/#viewing-monitor-usage).
+> Servers in each selected region will run your monitor according to your schedule, counting towards your [monitoring usage](/docs/monitoring-your-api/monitor-usage/#viewing-monitor-usage).
 
-### Using static IP
+### Using static IPs
 
-Static IPs are available on Postman Business and Enterprise plans. This option allows you to securely monitor private APIs using a direct channel to Postman. Learn how you can [monitor using static IPs](/docs/designing-and-developing-your-api/monitoring-your-api/using-static-IPs-to-monitor/).
+Static IPs are available on Postman Business and Enterprise plans. This option allows you to securely monitor private APIs using a direct channel to Postman. Learn how you can [monitor using static IPs](/docs/monitoring-your-api/using-static-IPs-to-monitor/).
 
 ### Updating email preferences
 
@@ -181,4 +181,4 @@ You can **Disable SSL validation** if you are using self-signed certificates to 
 
 ## Next steps
 
-Learn how to set up [integrations](/docs/integrations/intro-integrations/) for your monitoring results, and [how to monitor your APIs and websites](/docs/designing-and-developing-your-api/monitoring-your-api/monitoring-apis-websites/).
+Learn how to set up [integrations](/docs/integrations/intro-integrations/) for your monitoring results, and [how to monitor your APIs and websites](/docs/monitoring-your-api/monitoring-apis-websites/).

@@ -25,17 +25,17 @@ contextual_links:
   - type: subtitle
     name: "Videos"
   - type: link
-    name: "Testing with Snippets | Postman Level Up"
-    url: "https://youtu.be/QGNJ0wh5Ry0"
-  - type: link
     name: "Intro to Postman: Writing API tests"
     url: "https://www.youtube.com/watch?v=vuVhF257uGw"
   - type: link
     name: "Intro to Postman: Advanced API tests"
     url: "https://www.youtube.com/watch?v=dDlsQrZmEmo"
   - type: link
-    name: "New to Postman: Writing a test"
-    url:  "https://www.youtube.com/watch?v=6Cp4Ez5dwbM"
+    name: "Testing with Snippets | Postman Level Up"
+    url: "https://youtu.be/QGNJ0wh5Ry0"
+  - type: link
+    name: "Continuous Quality with Postman"
+    url:  "https://youtu.be/zrmQAgixMpU"    
   - type: subtitle
     name: "Related Blog Posts"
   - type: link
@@ -168,4 +168,4 @@ You can write scripts to control the order in which your requests run using [bra
 
 Check out some test script [examples](/docs/writing-scripts/script-references/test-examples/) and the [Postman Sandbox API reference](/docs/writing-scripts/script-references/postman-sandbox-api-reference/) for what you can do using the `pm` object.
 
-Using tests in conjunction with other Postman utilities such as [monitoring](/docs/designing-and-developing-your-api/monitoring-your-api/intro-monitors/) lets you verify that your API meets performance requirements. You can also automate your testing by integrating collection runs within your [CI/CD config](/docs/running-collections/using-newman-cli/integration-with-travis/).
+Using tests in conjunction with other Postman utilities such as [monitoring](/docs/monitoring-your-api/intro-monitors/) lets you verify that your API meets performance requirements. You can also automate your testing by integrating collection runs within your [CI/CD config](/docs/running-collections/using-newman-cli/integration-with-travis/).

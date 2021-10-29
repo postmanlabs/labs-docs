@@ -69,7 +69,7 @@ The upper section charts your monitor's average response time for each run, whil
 
 ![Monitor summary](https://assets.postman.com/postman-docs/monitor-summary-with-hover.jpg)
 
-> A red bar indicates that either tests failed or errors occurred during the run. For more information, view your [Console Log](/docs/designing-and-developing-your-api/monitoring-your-api/viewing-monitor-results/#console-log).
+> A red bar indicates that either tests failed or errors occurred during the run. For more information, view your [Console Log](/docs/monitoring-your-api/viewing-monitor-results/#console-log).
 
 ### Individual requests
 
@@ -108,9 +108,9 @@ You can filter by run result to compare how your runs with the same result have 
 
 #### Filtering by region
 
-You can filter by [region](/docs/designing-and-developing-your-api/monitoring-your-api/setting-up-monitor/#adding-regions) to compare how runs within different regions have varied. Click to open the drop-down menu **All Regions**, then select a region to view.
+You can filter by [region](/docs/monitoring-your-api/setting-up-monitor/#adding-regions) to compare how runs within different regions have varied. Click to open the drop-down menu **All Regions**, then select a region to view.
 
-> This feature is only available if you selected multiple regions when you created or last edited your monitor. To learn more about regions, see [Adding regions](/docs/designing-and-developing-your-api/monitoring-your-api/setting-up-monitor/#adding-regions).
+> This feature is only available if you selected multiple regions when you created or last edited your monitor. To learn more about regions, see [Adding regions](/docs/monitoring-your-api/setting-up-monitor/#adding-regions).
 
 #### Filtering by formula
 
@@ -143,7 +143,7 @@ You can view **Test Results** below the monitor summary to find more detailed in
 
 You can view the **Console Log** below the monitor summary.
 
-This section logs monitor run details along with the [`console.log`](/docs/sending-requests/troubleshooting-api-requests/) statements that run as part of your pre-request and test scripts. Run details specify the various stages of a monitor run such as preparing run, running, rerunning ([if applicable](/docs/designing-and-developing-your-api/monitoring-your-api/setting-up-monitor/#using-retry-on-failure)), and the run result, along with error and test failure information. Selecting a request in the Console Log will open it in a tab, allowing you to review and/or edit the request as needed.
+This section logs monitor run details along with the [`console.log`](/docs/sending-requests/troubleshooting-api-requests/) statements that run as part of your pre-request and test scripts. Run details specify the various stages of a monitor run such as preparing run, running, rerunning ([if applicable](/docs/monitoring-your-api/setting-up-monitor/#using-retry-on-failure)), and the run result, along with error and test failure information. Selecting a request in the Console Log will open it in a tab, allowing you to review and/or edit the request as needed.
 
 [![console log](https://assets.postman.com/postman-docs/monitor-view-console-log0.jpg)](https://assets.postman.com/postman-docs/monitor-view-console-log0.jpg)
 
@@ -167,4 +167,4 @@ You can view details about a monitor by selecting the info (i) icon in the upper
 
 ## Next steps
 
-Learn how to [troubleshoot your monitors](/docs/designing-and-developing-your-api/monitoring-your-api/troubleshooting-monitors/) and check out [Postman monitoring FAQs](/docs/designing-and-developing-your-api/monitoring-your-api/faqs-monitors/).
+Learn how to [troubleshoot your monitors](/docs/monitoring-your-api/troubleshooting-monitors/) and check out [Postman monitoring FAQs](/docs/monitoring-your-api/faqs-monitors/).
