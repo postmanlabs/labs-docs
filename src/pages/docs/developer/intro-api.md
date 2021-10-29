@@ -82,7 +82,7 @@ You can store your API key in a [variable](/docs/sending-requests/variables/). I
 
 API access rate limits are applied at a per-key basis in unit time.
 
-Access to the API using a key is limited to **60 requests per minute**. Every API response includes the following set of headers to identify the status of your consumption.
+Access to the API using a key is limited to **300 requests per minute**. Every API response includes the following set of headers to identify the status of your consumption.
 
 | Header                | Description   |
 | ---                   | ---           |
