@@ -2,6 +2,7 @@
 title: 'Defining an API Specification'
 order: 81.3
 page_id: 'defining_api_specification'
+updated: 2021-09-15
 warning: false
 contextual_links:
   - type: section

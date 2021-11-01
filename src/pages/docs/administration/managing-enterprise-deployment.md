@@ -2,6 +2,7 @@
 title: "Managing Enterprise deployment"
 order: 140.5
 page_id: "managing_enterprise_deployment"
+updated: 2021-09-15
 warning: false
 contextual_links:
   - type: section
@@ -112,7 +113,7 @@ INSTALLDIR=C:\custom and MSIINSTALLPERUSER=1
 The `msiexec` command-line tool can be used to remove an existing application using the `/x` option:
 
 ```
-msiexec /x path\to\package.msi  
+msiexec /x path\to\package.msi
 ```
 
 The application can also be removed from the Add/Remove Programs section in system settings or from the system Control Panel application.
