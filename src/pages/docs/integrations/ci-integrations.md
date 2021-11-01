@@ -2,7 +2,6 @@
 title: "CI Integrations"
 order: 164.2
 page_id: "ci-integrations"
-updated: 2021-09-15
 warning: false
 contextual_links:
   - type: section

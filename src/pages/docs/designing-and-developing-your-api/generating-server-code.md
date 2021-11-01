@@ -2,7 +2,6 @@
 title: 'Generating server code'
 order: 81.55
 page_id: 'server_codegen'
-updated: 2021-09-15
 warning: false
 contextual_links:
   - type: section

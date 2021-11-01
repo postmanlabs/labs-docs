@@ -2,7 +2,6 @@
 title: 'Testing an API'
 order: 81.6
 page_id: 'testing_an_api'
-updated: 2021-09-15
 warning: false
 contextual_links:
   - type: section

@@ -2,7 +2,6 @@
 title: 'Creating an API'
 order: 81.1
 page_id: 'creating_an_api'
-updated: 2021-09-15
 warning: false
 contextual_links:
   - type: section

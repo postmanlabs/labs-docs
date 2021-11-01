@@ -2,7 +2,6 @@
 title: "Your Private API Network"
 order: 73.2
 page_id: "adding_private_network"
-updated: 2021-09-15
 warning: false
 contextual_links:
   - type: section

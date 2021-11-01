@@ -2,7 +2,6 @@
 title: 'Managing and sharing APIs'
 order: 82
 page_id: 'managing_apis'
-updated: 2021-09-15
 warning: false
 contextual_links:
   - type: section

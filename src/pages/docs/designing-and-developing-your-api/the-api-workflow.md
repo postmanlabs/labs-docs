@@ -2,7 +2,6 @@
 title: 'API Development Overview'
 order: 81
 page_id: 'the_api_workflow'
-updated: 2021-09-15
 warning: false
 contextual_links:
   - type: section
@@ -17,7 +16,7 @@ contextual_links:
     url: "https://blog.postman.com/the-new-postman-api-platform/"
   - type: link
     name: "Announcing 6 Key Platform Improvements"
-    url: "https://blog.postman.com/announcing-new-postman-api-platform/"
+    url: "https://blog.postman.com/announcing-new-postman-api-platform/"  
   - type: link
     name: "Create APIs directly within the Postman app"
     url: "https://blog.postman.com/postman-7-1-create-apis-directly-within-the-postman-app/"
