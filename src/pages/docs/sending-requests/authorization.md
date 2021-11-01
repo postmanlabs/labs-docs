@@ -2,6 +2,7 @@
 title: "Authorizing requests"
 order: 22
 page_id: "authorization"
+updated: 2021-11-01
 search_keyword: "WWW-Authenticate, x-www-form-urlencoded"
 contextual_links:
   - type: section
@@ -225,30 +226,30 @@ The OAuth 1.0 auth parameter values are as follows:
 
 ### OAuth 2.0
 
-OAuth 1.0 allows client applications to access data provided by a third-party API. For example, as a user of a service you can grant another application access to your data with that service without exposing your login details. With OAuth 2.0, you first retrieve an access token for the API, then use that token to authenticate future requests. Accessing data via the OAuth 2.0 flow varies greatly between API service providers, but typically involves a few requests back and forth between client application, user, and API.
+With OAuth 2.0, you first retrieve an access token for the API, then use that token to authenticate future requests. Accessing data with OAuth 2.0 varies greatly between API service providers, but typically involves a few requests back and forth between client application, user, and API.
 
 An example OAuth 2.0 flow could run as follows:
 
 * A client application makes a request for the user to authorize access to their data.
 * If the user grants access, the application then requests an access token from the service provider, passing the access grant from the user and authentication details to identify the client.
 * The service provider validates these details and returns an access token.
-* The client uses the access token to request the user data via the service provider.
+* The client uses the access token to request the user data with the service provider.
 
-In the __Authorization__ tab for a request, select __OAuth 2.0__ from the __Type__ dropdown list. Specify whether you want pass the auth details in the request URL or headers.
+To use OAuth 2.0:
 
-> By default Postman will append the access token to `Bearer` in the Authorization header for your request, but if your server implementation requires a different prefix, you can specify it in the __Header Prefix__ field.
+1. In the __Authorization__ tab for a request, select __OAuth 2.0__ from the __Type__ dropdown list. Specify if you want pass the auth details in the request URL or headers.
 
-To request an access token, fill out the fields in the __Configure New Token__ section, and select __Get New Access Token__. You can save both the token and the details to generate a token with your request or collection.
+   > By default Postman will append the access token to `Bearer` in the Authorization header for your request, but if your server implementation requires a different prefix, you can specify it in the __Header Prefix__ field.
 
-[![OAuth 2.0](https://assets.postman.com/postman-docs/oauth2.v8-2.jpg)](https://assets.postman.com/postman-docs/oauth2.v8-2.jpg)
+1. To request an access token, fill out the fields in the __Configure New Token__ section, and select __Get New Access Token__. You can save both the token and the details to generate a token with your request or collection.
 
-> Once you have a token value generated and added, it will appear in the request __Headers__.
+   > Once you have a token value generated and added, it will appear in the request __Headers__.
 
-Enter the details for your client application, and any auth details from the service provider. This allows you to replicate your application auth flow inside Postman in order to test authenticated requests.
+1. Enter the details for your client application, and any auth details from the service provider. This allows you to replicate your application auth flow inside Postman in order to test authenticated requests.
 
-> You can share token credentials with your team by selecting the sync button next to an available token. By default Postman will not sync your token in case you do not want to share it.
+   > You can share token credentials with your team by selecting the sync button next to an available token. By default Postman will not sync your token in case you do not want to share it.
 
-Postman will prompt you to supply specific details depending on the OAuth 2.0 __grant__ type, which can be [Authorization code](#authorization-code), [Implicit](#implicit), [Password credentials](#password-credentials), or [Client credentials](#client-credentials).
+1. Postman will prompt you to supply specific details depending on the OAuth 2.0 __grant__ type, which can be [Authorization code](#authorization-code), [Implicit](#implicit), [Password credentials](#password-credentials), or [Client credentials](#client-credentials).
 
 #### Authorization code
 
@@ -300,7 +301,7 @@ The full list of parameters to request a new access token is as follows, dependi
 * __Client Secret:__ The client secret given to you by the API provider.
 * __Scope:__ The scope of access you are requesting, which may include multiple space-separated values.
 * __State:__ An opaque value to prevent cross-site request forgery.
-* __Client Authentication:__ A dropdown—send a Basic Auth request in the header, or client credentials in the request body. _After upgrading to a new version, change the value in this dropdown menu to avoid problems with client authentication._
+* __Client Authentication:__ A dropdown list: send a Basic Auth request in the header, or client credentials in the request body. After upgrading to a new version, change the value in this dropdown menu to avoid problems with client authentication.
 
 ##### Advanced Options tab
 
@@ -311,7 +312,7 @@ When your config is complete, select __Get New Access Token__.
 
 > When you use __Authorization code__ or __Implicit__ grant type, you will be prompted to supply your credentials to retrieve an access token to use in subsequent requests. By default Postman will display a pop-up browser when you select __Request Token__. You can alternatively choose to authenticate using your system's default web browser. Select __Authorize using browser__ and the __Callback URL__ will autofill to return to Postman when you have completed auth in the browser, so that your requests can use the token returned on successful authentication.
 
-If you successfully receive a token from the API, you will see its details, together with the expiry, and optionally a refresh token you can use to retrieve a new access token when your current one expires. Select __Use Token__ to select the returned value.
+When you receive a token from the API, you will see its details, together with the expiry, and optionally a refresh token you can use to retrieve a new access token when your current one expires. Select __Use Token__ to select the returned value.
 
 Any successfully retrieved tokens will be listed in the request __Available Tokens__ dropdown list. Select one to send with your request. Select __Manage Tokens__ in the dropdown list to view more details or delete your tokens.
 
@@ -323,11 +324,9 @@ If authentication fails or times out, Postman will display an error message. You
 
 Hawk authentication enables you to authorize requests using partial cryptographic verification.
 
-In the __Authorization__ tab for a request, select __Hawk Authentication__ from the __Type__ dropdown list.
+1. In the __Authorization__ tab for a request, select __Hawk Authentication__ from the __Type__ dropdown list.
 
-[![Hawk Auth](https://assets.postman.com/postman-docs/hawk-v8.jpg)](https://assets.postman.com/postman-docs/hawk-v8.jpg)
-
-Enter your details in the __Hawk Auth ID__, __Hawk Auth Key__, and __Algorithm__ fields. You can optionally set advanced details, but Postman will attempt to generate values for them if necessary.
+1. Enter your details in the __Hawk Auth ID__, __Hawk Auth Key__, and __Algorithm__ fields. You can optionally set advanced details, but Postman will attempt to generate values for them if necessary.
 
 > When the required details are complete in the __Authorization__ tab for your request, Postman will add them to the __Headers__.
 
@@ -353,18 +352,16 @@ The official AWS Signature documentation provides more detail:
 * [Signing and Authenticating REST Requests](https://docs.aws.amazon.com/AmazonS3/latest/userguide/RESTAuthentication.html)
 * [Use Postman to Call an API](https://docs.aws.amazon.com/apigateway/latest/developerguide/how-to-call-api.html)
 
-In the __Authorization__ tab for a request, select __AWS Signature__ from the __Type__ dropdown list.
+1. In the __Authorization__ tab for a request, select __AWS Signature__ from the __Type__ dropdown list.
 
-[![AWS Signature Auth](https://assets.postman.com/postman-docs/aws-sig-v8.jpg)](https://assets.postman.com/postman-docs/aws-sig-v8.jpg)
+1. Select where Postman should append your AWS auth details using the __Add authorization data to__ drop-down—choosing the request headers or URL.
 
-Select where Postman should append your AWS auth details using the __Add authorization data to__ drop-down—choosing the request headers or URL.
+    * If you select __Request Headers__, Postman will add `Authorization` and `X-Amz-` prefixed fields in the __Headers__ tab.
+    * If you select __Request URL__, Postman will add the auth details in __Params__ with keys prefixed `X-Amz-`.
 
-* If you select __Request Headers__, Postman will add `Authorization` and `X-Amz-` prefixed fields in the __Headers__ tab.
-* If you select __Request URL__, Postman will add the auth details in __Params__ with keys prefixed `X-Amz-`.
+1. Enter your access key and secret values either directly in the fields or via variables for additional security.
 
-Enter your access key and secret values either directly in the fields or via variables for additional security.
-
-You can optionally set advanced fields, but Postman will attempt to auto-generate these if necessary.
+1. You can optionally set advanced fields, but Postman will auto-generate these if necessary.
 
 The AWS Signature parameters are as follows:
 
@@ -376,11 +373,9 @@ The AWS Signature parameters are as follows:
 
 Windows Challenge/Response (NTLM) is the authorization flow for the Windows operating system and for standalone systems.
 
-In the __Authorization__ tab for a request, select __NTLM Authentication__ from the __Type__ dropdown list.
+1. In the __Authorization__ tab for a request, select __NTLM Authentication__ from the __Type__ dropdown list.
 
-[![NTLM Authentication](https://assets.postman.com/postman-docs/ntlm-v8.jpg)](https://assets.postman.com/postman-docs/ntlm-v8.jpg)
-
-Enter your __Username__ and __Password__ for NTLM access (use variables to avoid entering the values directly). You can optionally specify advanced parameters, but Postman will attempt to autocomplete these if necessary. By default your request will run a second time after extracting data received from the first—you can disable this by checking the checkbox.
+1. Enter your __Username__ and __Password__ for NTLM access (use variables to avoid entering the values directly). You can optionally specify advanced parameters, but Postman will attempt to autocomplete these if necessary. By default your request will run a second time after extracting data received from the first—you can disable this by checking the checkbox.
 
 Advanced parameters for NTLM auth are as follows:
 
@@ -391,19 +386,17 @@ Advanced parameters for NTLM auth are as follows:
 
  Akamai Edgegrid is an authorization helper developed and used by Akamai.
 
-In the __Authorization__ tab for a request, select __Akamai EdgeGrid__ from the __Type__ dropdown list.
+1. In the __Authorization__ tab for a request, select __Akamai EdgeGrid__ from the __Type__ dropdown list.
 
-[![Akamai EdgeGrid Auth](https://assets.postman.com/postman-docs/akamai-v8.jpg)](https://assets.postman.com/postman-docs/akamai-v8.jpg)
-
-Enter your __Access Token__, __Client Token__, and __Client Secret__, using variables for additional security—you will receive these details when you register a client application with Akamai.
+1. Enter your __Access Token__, __Client Token__, and __Client Secret__, using variables for additional security—you will receive these details when you register a client application with Akamai.
 
 > When the required details are complete in the __Authorization__ tab for your request, Postman will add them to the __Headers__.
 
- For information on obtaining your credentials, see [Akamai Developer - Authorize your Client](https://developer.akamai.com/legacy/introduction/Prov_Creds.html).
+For information on obtaining your credentials, see [Akamai Developer - Authorize your Client](https://developer.akamai.com/legacy/introduction/Prov_Creds.html).
 
 ## Syncing cookies
 
-If you have session cookies in your browser, you can sync them to Postman using the Interceptor—see [Interceptor extension](/docs/sending-requests/capturing-request-data/interceptor/) and [Cookies](/docs/sending-requests/cookies/) for more detail.
+If you have session cookies in your browser, you can sync them to Postman using the Interceptor. See [Interceptor extension](/docs/sending-requests/capturing-request-data/interceptor/) and [Cookies](/docs/sending-requests/cookies/) for more detail.
 
 ## Next steps
 
