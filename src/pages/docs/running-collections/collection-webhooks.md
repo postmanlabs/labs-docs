@@ -13,19 +13,17 @@ contextual_links:
 warning: false
 ---
 
-A webhook provides a way to automatically send data from one application to another. Using a webhook, you can trigger a collection run in Postman at a specific time or when an event occurs. In addition, you can send a custom payload to the webhook, and this payload can be accessed and used when the collection runs. In this way, the collection can run independently of any environment, instead relying only on the data sent to the webhook.
+A webhook provides a way to automatically send data from one application to another. Using a webhook, you can trigger a collection run in Postman at a specific time or when an event occurs. You can also send a custom payload to the webhook, which can be accessed when the collection runs. This enables the collection to be run independently of any environment, instead relying only on the data sent to the webhook.
 
 ## Creating a webhook
 
-A webhook will POST data to a URL when certain events are triggered. That data will be accessible inside your collection in the [globals object](/docs/sending-requests/variables/). You can then parse that data and use it in any way possible.
+With a collection webhook, data is sent to the webhook URL using a POST request when certain events are triggered. (It's up to you to configure the application that sends the data and what the trigger events are.) The data sent to the webhook is accessible inside the collection in the [globals object](/docs/sending-requests/variables/). Using [scripts](/docs/writing-scripts/intro-to-scripts/), you can parse that data and use it during the collection run in any way possible.
 
-Currently, webhooks for a particular collection can only be created using the Postman API. To create a webhook, refer to the [Postman API](https://documenter.getpostman.com/view/12959542/UV5XjJV8#8bec7537-cc5d-4ed7-a995-c7753e55ed28).
+Webhooks for a collection can only be created using the [Postman API](https://learning.postman.com/docs/developer/intro-api/). To create a webhook, refer to the [documentation for **api.getpostman.com/webhooks**](https://documenter.getpostman.com/view/12959542/UV5XjJV8#8bec7537-cc5d-4ed7-a995-c7753e55ed28).
 
 ### Accessing the request body in scripts
 
-The request body of the webhook is available inside the `globals.previousRequest` object. In order to use it, first parse the `globals.previousRequest` object. The data sent to the webhook is available in the `data` parameter inside the parsed object.
-
-The following snippet shows the same:
+The request body of the webhook is available inside the `globals.previousRequest` object. In order to use it, first parse the `globals.previousRequest` object. The data sent to the webhook is available in the `data` parameter inside the parsed object, as shown in the code snippet below.
 
 ```js
 var previousRequest = JSON.parse(globals.previousRequest),
@@ -35,8 +33,8 @@ var previousRequest = JSON.parse(globals.previousRequest),
 console.log(JSON.stringify(webhookRequestData));
 ```
 
-Note: only JSON data is currently supported as the request body in the webhook.
+> The request body sent to the webhook must use JSON format only.
 
 ### Sending output to another API
 
-The data that is sent to the webhook can be used to trigger another API and define a logic based on the incoming data. For example, you could set up a webhook on your GitHub repository, so that based on the updates happening in your repository, you can trigger custom build pipelines and perform CI tests.
+The data that is sent to the collection webhook can be used to define logic and trigger another API. For example, you might set up a webhook for your GitHub repository. Based on the updates happening in your repository, you can use the webhook to run custom build pipelines or perform CI tests.
