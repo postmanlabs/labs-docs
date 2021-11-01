@@ -1874,5 +1874,9 @@
 	{
 		"from": "/docs/designing-and-developing-your-api/monitoring-your-api/viewing-monitor-results/",
 		"to": "/docs/monitoring-your-api/viewing-monitor-results/"
+	},
+	{
+		"from": "/docs/sending-requests/authorization.md/#inheriting-auth",
+		"to": "/docs/sending-requests/authorization.md/#inheriting-authorization"
 	}
 ]
