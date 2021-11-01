@@ -60,7 +60,7 @@ You can pass auth details along with any request you send in Postman. Auth data 
 
 * [Specifying authorization details](#specifying-authorization-details)
 * [Inheriting auth](#inheriting-authorization)
-* [Authorization types](#authorization_types)
+* [Authorization types](#authorization-types)
     * [No auth](#no-auth)
     * [API key](#api-key)
     * [Bearer token](#bearer-token)
