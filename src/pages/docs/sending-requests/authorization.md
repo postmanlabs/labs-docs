@@ -69,13 +69,11 @@ You can pass auth details along with any request you send in Postman. Auth data 
     * [OAuth 1.0](#oauth-10)
     * [OAuth 2.0](#oauth-20)
         * [Authorization code](#authorization-code)
-        * [Authorization code (With PKCE)](#authorization-code)
+        * [Authorization code (with PKCE)](#authorization-code-with-pkce)
         * [Implicit](#implicit)
         * [Password credentials](#password-credentials)
         * [Client credentials](#client-credentials)
         * [Requesting an OAuth 2.0 token](#requesting-an-oauth-20-token)
-            * [Configuration Options tab](#configuration-options-tab)
-            * [Advanced Options tab](#advanced-options-tab)
     * [Hawk authentication](#hawk-authentication)
     * [AWS Signature](#aws-signature)
     * [NTLM authentication](#ntlm-authentication)
@@ -259,7 +257,7 @@ To use authorization code grant type, enter a __Callback URL__ for your client a
 
 > You can enter your auth details in the web browser, instead of in Postman, if you prefer, by selecting __Authorize using browser__.
 
-#### Authorization code (With PKCE)
+#### Authorization code (with PKCE)
 
 You can use PKCE (Proof Key for Code Exchange) with OAuth 2.0. When you select __Authorization Code (With PKCE)__ two additional fields will become available for __Code Challenge Method__ and __Code Verifier__. You can opt to use `SHA-256` or `Plain` algorithms to generate the code challenge. The verifier is an optional 43-128 character string to connect the authorization request to the token request.
 
@@ -289,7 +287,7 @@ Enter the provider's __Access Token URL__, together with the __Client ID__ and _
 
 The full list of parameters to request a new access token is as follows, depending on your grant type.
 
-##### Configuration Options tab
+On the **Configuration Options** tab:
 
 * __Token Name:__ The name you want to use for the token.
 * __Grant Type:__ A dropdown list of options. This will depend on the API service provider requirements.
@@ -303,7 +301,7 @@ The full list of parameters to request a new access token is as follows, dependi
 * __State:__ An opaque value to prevent cross-site request forgery.
 * __Client Authentication:__ A dropdown list: send a Basic Auth request in the header, or client credentials in the request body. After upgrading to a new version, change the value in this dropdown menu to avoid problems with client authentication.
 
-##### Advanced Options tab
+On the **Advanced Options** tab:
 
 * __Resource:__ A URI that indicates the resource or target service where the token is intended to be used.
 * __Audience:__ A URI that indicates the target audience or service where the token is intended to be used.
