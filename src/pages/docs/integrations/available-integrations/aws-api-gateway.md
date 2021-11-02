@@ -10,6 +10,13 @@ contextual_links:
     name: "Intro to collections"
     url: "/docs/sending-requests/intro-to-collections/"
   - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Sync API Schemas to AWS Gateway"
+    url: "https://youtu.be/jEkXoum2hAw"
+  - type: section
     name: "Next Steps"
   - type: link
     name: "Custom Webhooks"

@@ -2,6 +2,7 @@
 title: "Your Private API Network"
 order: 73.2
 page_id: "adding_private_network"
+updated: 2021-09-15
 warning: false
 contextual_links:
   - type: section
@@ -18,6 +19,9 @@ contextual_links:
     url: "https://blog.postman.com/new-private-api-network-for-easier-discovery/"
   - type: subtitle
     name: "Videos"
+  - type: link
+    name: "Private API Network | The Exploratory"
+    url: "https://youtu.be/1SINcytmKsc"
   - type: link
     name: "Team collaboration with Postman"
     url: "https://www.youtube.com/watch?v=8tLvvQ-3Nx0"

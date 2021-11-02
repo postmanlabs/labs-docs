@@ -8,7 +8,7 @@ contextual_links:
     name: "Prerequisites"
   - type: link
     name: "Intro to Monitoring"
-    url: "/docs/designing-and-developing-your-api/monitoring-your-api/intro-monitors/"
+    url: "/docs/monitoring-your-api/intro-monitors/"
   - type: section
     name: "Additional Resources"
   - type: subtitle

@@ -8,7 +8,7 @@ contextual_links:
     name: "Prerequisites"
   - type: link
     name: "Intro to monitoring"
-    url: "/docs/designing-and-developing-your-api/monitoring-your-api/intro-monitors/"
+    url: "/docs/monitoring-your-api/intro-monitors/"
   - type: section
     name: "Next steps"
   - type: link
@@ -41,7 +41,7 @@ Static IP addresses are available for US east and US west regions. Contact your 
 
 ## Creating a new monitor to run from a static IP address
 
-When [creating a new monitor](/docs/designing-and-developing-your-api/monitoring-your-api/setting-up-monitor/#creating-a-monitor), opt to **Manually Select Region**. Select your desired static IP regions, then click **Create**.
+When [creating a new monitor](/docs/monitoring-your-api/setting-up-monitor/#creating-a-monitor), opt to **Manually Select Region**. Select your desired static IP regions, then click **Create**.
 
 <img src="https://assets.postman.com/postman-docs/monitor-manually-select-region.jpg" height="500px" alt="Manually select regions"/>
 

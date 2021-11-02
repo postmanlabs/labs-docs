@@ -111,7 +111,7 @@ To access the DevTools console logs, open the __View__ menu and select __Show De
 
 ### Using the monitor console log
 
-To view logs from a monitor run, go to the monitor and select the **Console Log** tab. This will display monitor run details, along with the `console.log` from pre-request and test scripts. See [Viewing monitor results - console log](/docs/designing-and-developing-your-api/monitoring-your-api/viewing-monitor-results/#console-log) for more information.
+To view logs from a monitor run, go to the monitor and select the **Console Log** tab. This will display monitor run details, along with the `console.log` from pre-request and test scripts. See [Viewing monitor results - console log](/docs/monitoring-your-api/viewing-monitor-results/#console-log) for more information.
 
 ## Getting help
 

@@ -509,7 +509,7 @@ class Header extends React.Component {
                       </a>
                       <a
                         className="dropdown-item"
-                        href="https://store.getpostman.com/?_ga=2.81312663.1499710862.1631566802-1987217384.1631320816"
+                        href="https://store.postman.com/"
                         target="_blank"
                         rel="noreferrer"
                       >
