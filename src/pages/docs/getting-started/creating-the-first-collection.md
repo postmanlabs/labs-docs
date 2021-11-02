@@ -29,33 +29,30 @@ contextual_links:
 warning: false
 ---
 
-Postman Collections are a group of saved requests you can organize into folders.
-
-Every request you send in Postman appears under the **History** tab of the sidebar. On a small scale, reusing requests through the history section is convenient. However, as your Postman usage scales, it can be time consuming to find a particular request in your history. Instead of combing through your history section, you can save all your requests as a group for easier access.
+Postman Collections are a group of saved requests. Every request you send in Postman appears under the **History** tab of the sidebar. On a small scale, reusing requests through the history section is convenient. However, as your Postman usage grows, it can be time-consuming to find a particular request in your history. Instead of scrolling through your history section, you can save all your requests as a group for easier access.
 
 Let's review how to [send a basic request](/docs/getting-started/sending-the-first-request/) and create a new collection.
 
 ## Creating your first collection
 
-You can create a new request from the left sidebar in Postman. Click __New__ &gt; __Request__.
+You can create a new request from the left sidebar in Postman. Click __New__ &gt; __HTTP Request__.
 
-<img alt="Create new request sidebar" src="https://assets.postman.com/postman-docs/create-new-request-sidebar-v8.jpg"/>
-
-To create a new request from the Overview tab, use the Get started section at the right of Postman and click Create a request.
-
-<img alt="Create new request overview" src="https://assets.postman.com/postman-docs/create-new-request-v8.jpg" width="300px"/>
+<img alt="Create new request sidebar" src="https://assets.postman.com/postman-docs/create-new-request-sidebar-v9.jpg"/>
 
 Enter a request in the request builder and click **Save** to open the **SAVE REQUEST** modal.
 
-<img alt="Save request modal" src="https://assets.postman.com/postman-docs/save-request-modal-v8.jpg"/>
+1. Create a new collection by selecting **New Collection**. Enter a collection name, and then select the **Create** button.
 
-* As an optional step, enter a new request name. Otherwise, the default name will be the request URL.
-* As an optional step, enter a request description in plain text or using [Markdown](https://documenter.postman.com/view/33232/markdown-in-api-documentation/JsGc?version=latest).
+    <img alt="Save request to collection" src="https://assets.postman.com/postman-docs/save-request-to-collection-v9.jpg" width="400px"/>
 
-Save this request to an existing collection, or create a new collection by entering a collection name, and then click the **Save** button.
+1. Select **Save** to save the request in the new collection.
 
-<img alt="Save request to collection" src="https://assets.postman.com/postman-docs/save-request-to-collection-v8.jpg" width="400px"/>
+Congratulations! You can see all of your collections under the **Collections** tab of the sidebar on the left, as illustrated below:
 
-Congratulations! You can see all of your collections under the **Collections** tab of the sidebar on the left, as illustrated in the screen below:
+<img alt="Collection sidebar" src="https://assets.postman.com/postman-docs/creating-first-collection-v9.jpg" width="400px"/>
 
 <img alt="Collection sidebar" src="https://assets.postman.com/postman-docs/creating-first-collection-v8.jpg" width="400px"/>
+
+**Note:** You can also create a new collection from your workspace's **Overview** tab. Under **In this workspace** on the right of Postman, hover over **Collections** and select the **+** icon.
+
+<img alt="Create new request overview" src="https://assets.postman.com/postman-docs/create-new-collection-v9.jpg" width="300px"/>

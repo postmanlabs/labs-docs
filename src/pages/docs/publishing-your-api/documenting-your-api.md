@@ -23,6 +23,12 @@ contextual_links:
   - type: link
     name: "API documentation with Postman"
     url: "https://www.youtube.com/watch?v=Ayo_KdLLcTA"
+  - type: link
+    name: "API Publishers Series, Part 1: Introduction to Documentation"
+    url: "https://youtu.be/z4egejVO20M"
+  - type: link
+    name: "API Publishers Series, Part 2: Increase Adoption of your Public API"
+    url: "https://youtu.be/52pXP3X4a_8"
   - type: subtitle
     name: "Related Blog Posts"
   - type: link
@@ -172,7 +178,7 @@ To document a new release of an API version:
 
 1. Before creating the release, [edit the API documentation](#editing-api-documentation) as needed.
 2. [Create a new release](/docs/designing-and-developing-your-api/versioning-an-api/#creating-a-release) of the API version.
-3. If the documentation is public, [edit the publishing settings](/docs/publishing-your-api/publishing-your-docs/#customizing-your-docs) to include the new release.
+3. If the documentation is public, [edit the publishing settings](/docs/publishing-your-api/publishing-your-docs/#changing-publication-settings) to include the new release.
 
 [![Viewing a release](https://assets.postman.com/postman-docs/documentation-view-release-v9.jpg)](https://assets.postman.com/postman-docs/documentation-view-release-v9.jpg)
 

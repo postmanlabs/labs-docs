@@ -13,8 +13,8 @@ contextual_links:
   - type: subtitle
     name: "Videos"
   - type: link
-    name: "Capturing requests in Postman"
-    url: "https://www.youtube.com/watch?v=1Efpi_UIxGE"
+    name: "Capture API Calls With a Proxy"
+    url: "https://youtu.be/bjrCHUITZ3k"
   - type: link
     name: "Reverse engineering an API"
     url: "https://youtu.be/2VKVPB5USgU"

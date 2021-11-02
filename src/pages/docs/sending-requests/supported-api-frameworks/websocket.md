@@ -9,12 +9,16 @@ contextual_links:
   - type: link
     name: "Installing and updating"
     url: "/docs/getting-started/installation-and-updates/"
+  - type: section
+    name: "Additional Resources"
   - type: subtitle
     name: "Related Blog Posts"
   - type: link
+    name: "Save and Document WebSocket Requests in Collections"
+    url: "https://blog.postman.com/save-and-document-websocket-requests-in-collections/"
+  - type: link
     name: "Postman Supports Socket.IO"
     url: "https://blog.postman.com/postman-now-supports-socket-io/"
-
 
 warning: false
 
@@ -23,8 +27,6 @@ warning: false
 The WebSocket protocol provides a way to exchange data between a client and server over a persistent connection. The data can be passed in both directions with low latency and overhead, and without breaking the connection. WebSockets provide a bidirectional, full-duplex communications channel that operates over HTTP through a single TCP socket connection. This means the server can independently send data to the client without the client having to request it, and vice versa.
 
 In Postman you can create a WebSocket request with a server, and use it to send and receive messages across the WebSocket connection.
-
-> The Postman Echo API now supports WebSocket requests. If you're looking for an example server to get started, check out the [Explore Postman WebSockets](https://postman.postman.co/workspace/Exploring-WebSockets~e2ed14b4-e0d0-40fd-8058-a9e7b27ecae0/documentation/14057978-712d684f-c252-4bd9-a7a6-6a893e41adea) collection.
 
 ### About Socket.IO
 

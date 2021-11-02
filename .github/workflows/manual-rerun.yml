@@ -11,11 +11,11 @@ jobs:
     - uses: actions/setup-node@master
     - name: lint all markdownfiles
       env:
-        NPM_KEY: ${{ secrets.NPM_KEY }}
+        PM_TECH: ${{secrets.PM_TECH}}
       run: |
         npm config set //registry.npmjs.org/:_authToken=${{secrets.NPM_TOKEN}}
         npm install
-        node_modules/.bin/markdownlint ./ --ignore node_modules --ignore legacy-documentation
+        node_modules/.bin/markdownlint ./ --ignore node_modules
     - name: check for image url
       run: |
         if grep -lri 's3.amazonaws.com/postman-static-getpostman-com' ./src/pages/docs ;
@@ -25,7 +25,7 @@ jobs:
         fi
     - name: running unit tests
       env:
-        NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+        PM_TECH: ${{secrets.PM_TECH}}
       run: |
         npm config set //registry.npmjs.org/:_authToken=${{secrets.NPM_TOKEN}}
         npm install

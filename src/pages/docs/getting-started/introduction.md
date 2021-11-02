@@ -38,7 +38,7 @@ contextual_links:
 
 Welcome to the Postman docs! This is the place to find official information on how to use Postman in your API projects.
 
-<img alt="Postman Introduction" src="https://assets.postman.com/postman-docs/postman-app-default-v8.jpg"/>
+<img alt="Postman full view" src="https://assets.postman.com/postman-docs/intro-postman-request-selected-v9.1.jpg"/>
 
 If you're just starting to learn about APIs and Postman, you can use a variety of channels both in and outside Postman:
 
@@ -84,7 +84,7 @@ If you're testing an API, you can use Postman to automate various parts of the p
 If you're developing a back-end, working API-first, or need to monitor API performance, Postman utilities can streamline your workflows:
 
 * [Defining an API from a schema](/docs/designing-and-developing-your-api/the-api-workflow/)
-* [Monitoring test runs](/docs/designing-and-developing-your-api/monitoring-your-api/intro-monitors/)
+* [Monitoring test runs](/docs/monitoring-your-api/intro-monitors/)
 * [Analyzing API performance](/docs/designing-and-developing-your-api/view-and-analyze-api-reports/)
 * [Mocking responses](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/)
 

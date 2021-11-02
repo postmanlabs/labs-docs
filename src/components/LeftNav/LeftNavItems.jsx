@@ -119,7 +119,7 @@ export const leftNavItems = [
         url: '/docs/sending-requests/managing-environments/',
       },
       {
-        name: 'Visalizing responses',
+        name: 'Visualizing responses',
         url: '/docs/sending-requests/visualizer/',
       },
       {
@@ -409,45 +409,6 @@ export const leftNavItems = [
         ],
       },
       {
-        name: 'Monitoring Your API',
-        subParentSlug: 'monitoring-your-api',
-        slug: '/docs/designing-and-developing-your-api/monitoring-your-api/intro-monitors/',
-        subMenuItems2: [
-          {
-            name: 'Monitoring your APIs',
-            url: '/docs/designing-and-developing-your-api/monitoring-your-api/intro-monitors/',
-          },
-          {
-            name: 'Setting up a monitor',
-            url: '/docs/designing-and-developing-your-api/monitoring-your-api/setting-up-monitor/',
-          },
-          {
-            name: 'Viewing monitor results',
-            url: '/docs/designing-and-developing-your-api/monitoring-your-api/viewing-monitor-results/',
-          },
-          {
-            name: 'Monitoring APIs and websites',
-            url: '/docs/designing-and-developing-your-api/monitoring-your-api/monitoring-apis-websites/',
-          },
-          {
-            name: 'Set up integrations to receive alerts',
-            url: '/docs/designing-and-developing-your-api/monitoring-your-api/integrations-for-alerts/',
-          },
-          {
-            name: 'Running Postman monitors using static IPs',
-            url: '/docs/designing-and-developing-your-api/monitoring-your-api/using-static-IPs-to-monitor/',
-          },
-          {
-            name: 'Troubleshooting monitors',
-            url: '/docs/designing-and-developing-your-api/monitoring-your-api/troubleshooting-monitors/',
-          },
-          {
-            name: 'Monitoring FAQs',
-            url: '/docs/designing-and-developing-your-api/monitoring-your-api/faqs-monitors/',
-          },
-        ],
-      },
-      {
         name: 'Analyzing with reports',
         url: '/docs/designing-and-developing-your-api/view-and-analyze-api-reports/',
       },
@@ -496,6 +457,49 @@ export const leftNavItems = [
             url: '/docs/publishing-your-api/run-in-postman/run-button-API/',
           },
         ],
+      },
+    ],
+  },
+  {
+    name: 'Monitoring Your API',
+    parentSlug: 'monitoring-your-api',
+    url: '/docs/monitoring-your-api/intro-monitors/',
+    subMenuItems1: [
+      {
+        name: 'Monitoring your APIs',
+        url: '/docs/monitoring-your-api/intro-monitors/',
+      },
+      {
+        name: 'Setting up a monitor',
+        url: '/docs/monitoring-your-api/setting-up-monitor/',
+      },
+      {
+        name: 'Viewing monitor results',
+        url: '/docs/monitoring-your-api/viewing-monitor-results/',
+      },
+      {
+        name: 'Managing monitor usage',
+        url: '/docs/monitoring-your-api/monitor-usage/',
+      },
+      {
+        name: 'Monitoring APIs and websites',
+        url: '/docs/monitoring-your-api/monitoring-apis-websites/',
+      },
+      {
+        name: 'Set up integrations to receive alerts',
+        url: '/docs/monitoring-your-api/integrations-for-alerts/',
+      },
+      {
+        name: 'Running Postman monitors using static IPs',
+        url: '/docs/monitoring-your-api/using-static-IPs-to-monitor/',
+      },
+      {
+        name: 'Troubleshooting monitors',
+        url: '/docs/monitoring-your-api/troubleshooting-monitors/',
+      },
+      {
+        name: 'Monitoring FAQs',
+        url: '/docs/monitoring-your-api/faqs-monitors/',
       },
     ],
   },

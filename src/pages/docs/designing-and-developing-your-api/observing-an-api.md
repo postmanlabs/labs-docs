@@ -51,7 +51,7 @@ You can choose between generating a collection from your API schema, using an ex
     1. Add the requests you plan to monitor, specifying the method and URL, as well as the status code and response time you want to check.
     1. Click **Create Collection and Continue**.
 
-Next, configure the new monitor. For details, see [Setting up a monitor](/docs/designing-and-developing-your-api/monitoring-your-api/setting-up-monitor/).
+Next, configure the new monitor. For details, see [Setting up a monitor](/docs/monitoring-your-api/setting-up-monitor/).
 
 ### Adding an existing monitor
 
@@ -61,7 +61,7 @@ You can add an existing monitor to your API:
 
 1. Select a monitor from the list and click **Add Monitor**. You will only see available monitors in your workspace in the list.
 
-For more about creating a monitor, see [Setting up a monitor](/docs/designing-and-developing-your-api/monitoring-your-api/setting-up-monitor/).
+For more about creating a monitor, see [Setting up a monitor](/docs/monitoring-your-api/setting-up-monitor/).
 
 ## Viewing New Relic APM metrics
 
