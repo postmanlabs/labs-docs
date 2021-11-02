@@ -36,9 +36,9 @@ You can access team settings by navigating to the **Team** dropdown menu in the 
 
 ## Editing your team profile
 
-When you select **Team Settings**, you will be automatically directed to **Edit Profile**. Here, you can edit your team's logo, cover photo, URL, name, and favicon.
+When you select **Team Settings**, you will be automatically directed to **Team Profile**. Here, you can edit your team's logo, cover photo, domain, favicon, and profile visibility.
 
-<img alt="Edit team profile" src="https://assets.postman.com/postman-docs/edit-team-profile-settings.jpg"/>
+<img alt="Edit team profile" src="https://assets.postman.com/postman-docs/edit-team-profile-full-v9.1.jpg"/>
 
 **Customize your team's look.** Keep in mind the following when uploading a logo, cover photo, or favicon:
 
