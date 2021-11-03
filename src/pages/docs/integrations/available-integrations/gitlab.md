@@ -71,7 +71,7 @@ Every change that is saved to your Postman collection automatically commits chan
 
 1. If your network is behind a firewall that requires allowlisting IP addresses, you will need to use a static IP address to enable collection backups to GitLab on custom domains.
 
-    Contact your IT team to allowlist the following static IP in your firewall to enable collection backups GitLab:
+    Contact your IT team to allowlist the following static IP in your firewall to enable collection backups to GitLab:
 
    * US East: 3.212.102.200
 
@@ -83,7 +83,7 @@ Every change that is saved to your Postman collection automatically commits chan
 
 1. In the **Backup your Postman Collections** page, choose an existing Postman Collection and your GitLab Project, then enter a filename for your backup.
 
-1. In **Advanced Options** you can enter a custom directory name or leave `Postman Collections` as the default. You can specify a branch for commit or the default branch of the repository will be used. Make sure you have write access to the branch you are trying to push your changes.
+1. In **Advanced Options** you can enter a custom directory name or leave `Postman Collections` as the default. You can specify a branch for commit or the default branch of the repository will be used. Make sure you have write access to the branch where you are trying to push your changes.
 
    > Note that the branch you want to back up your collection to must already exist.
 
