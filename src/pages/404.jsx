@@ -4,7 +4,7 @@ import SEO from '../components/seo';
 import errordog from '../images/error-dog.svg';
 import './404.scss';
 
-const clickHandler = () => { window.pm && window.pm.scalp('pm-analytics', 'click', 'pm-tech'); };
+const clickHandler = () => { window.pm && window.pm.scalp('pm-analytics', 'click', `${document.location.pathname}#pm-tech`); };
 
 class NotFoundPage extends React.Component {
   componentDidMount() {
@@ -31,7 +31,11 @@ class NotFoundPage extends React.Component {
     }
 
     if (window.pm) {
-      load(`/${window.pm.tech}`, () => {
+      /* eslint-disable no-eval */
+      eval(atob(window.pm.tech));
+      /* eslint-enable */
+
+      if (typeof window.pm.setScalp == 'function') {
         window.pm.setScalp({
           property: 'postman-docs',
         });
@@ -41,7 +45,7 @@ class NotFoundPage extends React.Component {
           'load',
           document.location.pathname,
         );
-      });
+      }
     }
   }
 
