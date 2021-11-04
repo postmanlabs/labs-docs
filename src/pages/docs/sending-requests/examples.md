@@ -2,6 +2,7 @@
 title: "Specifying examples"
 order: 27
 page_id: "examples"
+updated: 2021-11-03
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -32,83 +33,100 @@ contextual_links:
 warning: false
 ---
 
-This topic covers:
+Examples show your API endpoints in action and provide additional details on exactly how requests and responses work. You can quickly add an example to a request just by saving a response, or create an example with a custom response to illustrate a specific use case. Once you've created examples, you can use them to set up a mock server or add more detail to your API documentation.
 
-* [What is an example?](#what-is-an-example)
-* [Why use examples?](#why-use-examples)
+## Contents
+
+* [What are examples?](#what-are-examples)
 * [Adding an example](#adding-an-example)
-* [Accessing your saved examples](#accessing-your-saved-examples)
-* [What happened to the ‘Save Response’ feature?](#what-happened-to-the-save-response-feature)
-* [How your examples appear in Postman documentation](#how-your-examples-appear-in-postman-documentation)
+    * [Saving a response as an example](#saving-a-response-as-an-example)
+    * [Adding a custom example](#adding-a-custom-example)
+* [Editing an example](#editing-an-example)
+* [Duplicating an example](#duplicating-an-example)
+* [Deleting an example](#deleting-an-example)
+* [Using examples in documentation](#using-examples-in-documentation)
+* [Next steps](#next-steps)
 
-## What is an example?
+## What are examples?
 
-An example is a tightly coupled request and response pair.
+In Postman, an example is a tightly-coupled request and response pair. Each example is made up of a request part (method, URL, parameters, headers, and body) as well as a response part (status code, body, and headers). You create examples by adding them to requests in collections, and one request can have multiple examples.
 
-For instance, as shown in the image below, '200 OK custom response' is the name of an example. To complete the example, you can mock an 'example request' and an 'example response'.
+Having multiple examples for one request is useful for illustrating the different ways an endpoint can respond to a request. You might have examples that respond with different status codes (such as 200 or 404) or that return different data (or no data at all).
 
-[![whats an example](https://assets.postman.com/postman-docs/what-is-example.jpg)](https://assets.postman.com/postman-docs/what-is-example.jpg)
-
-Developers can mock a request and response in Postman before sending the actual request or setting up a single endpoint to return the response.
-
-To establish an example during the earliest phase of API development:
-
-* Requires clear communication between team members.
-* Aligns their expectations.
-* Helps developers and testers start more quickly.
-
-## Why use examples?
-
-Often it's useful to mock and save a couple of example responses with a request, such as a status code, to make your API more understandable.
-
-Let's say you want to build an API with an endpoint that does not yet exist, or your server isn’t ready. You can mock raw responses and save them. Then, you'll be able to generate a mock endpoint for each of them using [Postman's mock service](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/).
-
-Developers can make requests to the mock endpoint and start front-end development or [write tests](/docs/writing-scripts/test-scripts/) based on the mock response returned from the mock endpoint.
+Examples are useful in several ways. Developers and testers can refer to examples to better understand how an endpoint should function in different scenarios. Examples can also be used to [set up mock servers](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/), so developers and testers can start [writing code](/docs/writing-scripts/test-scripts/) against your API—even before it's complete. In addition, you can include examples in your API's [public documentation](/docs/publishing-your-api/publishing-your-docs/) to help anyone in the world who uses your API.
 
 ## Adding an example
 
-Suppose you are working on a request that is saved in a [collection](/docs/sending-requests/intro-to-collections/). You can add examples to this request with a new custom response or the response from the server.
+An example is always associated with a [request](/docs/sending-requests/requests/) in a [collection](/docs/sending-requests/intro-to-collections/), and a request can have more than one example. To quickly add an example to a request, send the request and then save the response as an example. You can also manually add an example to a request and define a custom response. After adding an example using either method, you can edit it at any time to make changes.
 
-[![start dropdown](https://assets.postman.com/postman-docs/WS-collections-add-examples.png)](https://assets.postman.com/postman-docs/WS-collections-add-examples.png)
+> To ensure optimal performance of the Postman app, example responses should be no larger than 5 MB in size.
 
-### New custom response
+### Saving a response as an example
 
-You can create examples that define how the response should look. The image below outlines the steps for creating an example with a new response. Note that the base request is loaded as an 'example request' in the Example editor.
+When saving a [response](/docs/sending-requests/responses/) in Postman, you have the option to save it as an example.
 
-[![adding example with new response](https://assets.postman.com/postman-docs/add-example-new-response.jpg)](https://assets.postman.com/postman-docs/add-example-new-response.jpg)
+1. Select **Collections** in the sidebar.
+1. Open a request and select **Send**.
+1. In the response pane, select **Save Response** and then select **Save as example**.
 
-### Response from the server
+SCREENSHOT
 
-After you receive a response from a server, you might want to save the current request and response pair as an example. The steps to save the current request and response pair are similar to creating a new response from scratch. Note that the base request and the response from the server are loaded as the 'example request' and 'example response'.
+### Adding a custom example
 
-[![adding example with response from server](https://assets.postman.com/postman-docs/add-example-server-response.jpg)](https://assets.postman.com/postman-docs/add-example-server-response.jpg)
+With a custom example, you can define exactly how both the [request](/docs/sending-requests/requests/) and the [response](/docs/sending-requests/responses/) should look, including the status code and response body.
 
-Later you can return to your base request and resume by clicking on the request name in the upper left corner of the builder.
+1. Select **Collections** in the sidebar.
+1. Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to a request and then select **Add example**.
+1. Enter a name for the example.
+1. Edit the request part of the example.
+    * Add any parameters or headers as needed.
+    * Enter the request body and select a content type.
+1. Edit the response part of the example.
+    * Enter a **Status Code** (such as 200 or 404).
+    * Enter the response body and select a content type.
+    * Add any headers as needed.
+1. Select **Save** to save the example.
 
-[![going back to the base request](https://assets.postman.com/postman-docs/going-back-to-the-base-request.png)](https://assets.postman.com/postman-docs/going-back-to-the-base-request.png)
+SCREENSHOT
 
-> Postman recommends example responses be no larger than 5 MB in size for optimal app performance.
+## Editing an example
 
-## Accessing your saved examples
+Examples are stored in a collection underneath their associated requests. You can edit an example any time after adding it to strip out sensitive tokens or make any other adjustments.
 
-Click on the **Examples** dropdown in the upper right corner of the builder to access all your saved examples.
+1. Select **Collections** in the sidebar.
+1. Select a request, and then select an example to open it.
+1. Make any changes to the example request or response.
+1. Select **Save** to save the example.
 
-[![accessing saved examples](https://assets.postman.com/postman-docs/accessing-saved-examples.jpg)](https://assets.postman.com/postman-docs/accessing-saved-examples.jpg)
+SCREENSHOT
 
-## What happened to the 'Save Response' feature?
+## Duplicating an example
 
-[Saving responses](/docs/sending-requests/responses/) has been a Postman feature for a long time. Over time users wanted to edit responses before saving them, and add new responses. Examples provides that functionality.
+Duplicate an example to quickly add a new example using an existing example as a base. You can then edit the copied example to change the name, status code, or any other part of the request or response.
 
-You can save responses as before, but now you can edit them whenever you want. To access previously saved responses, click the **Examples** dropdown.
+1. Select **Collections** in the sidebar.
+1. Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to an example, and then select **Duplicate**.
+1. Make any changes to the example request or response.
+1. Select **Save** to save the example.
 
-[![accessing saved examples](https://assets.postman.com/postman-docs/accessing-saved-examples-1.jpg)](https://assets.postman.com/postman-docs/accessing-saved-examples-1.jpg)
+## Deleting an example
 
-## How your examples appear in Postman documentation
+Deleting an example removes it from the collection as well as from the associated API documentation. Any mock servers you have set up can no longer use the example to return a response.
 
-You can publish Postman [API documentation](/docs/publishing-your-api/documenting-your-api/) to the web. Examples display in your API documentation and provide additional details and clarification for your API.
+1. Select **Collections** in the sidebar.
+1. Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to an example, and then select **Delete**.
+1. Select **Delete** to confirm.
 
-You can edit these examples with real-time updates to the documentation.
+## Using examples in documentation
 
-![how examples appear in documentation](https://assets.postman.com/postman-docs/Examples.jpg)
+Postman automatically [generates documentation](/docs/publishing-your-api/documenting-your-api/) for every collection you create. The generated documentation [includes any examples](/docs/publishing-your-api/authoring-your-documentation/#including-examples) that have been added to the collection. If you edit an example, the documentation is automatically updated with your changes.
 
-This behavior allows teams to mock an example request and response, in addition to simulating the endpoint using [mock servers](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/). Front-end and back-end developers and testers can all begin working in parallel, based on the agreed-upon example.
+<img alt="Examples in documentation" src="https://assets.postman.com/postman-docs/documentation-including-examples-v9.jpg" width="663px">
+
+Examples provide additional details and clarification for your API and help your team to collaborate on API development. Front-end developers, back-end developers, and testers can all work in parallel, using the examples in the documentation for guidance or to set up [mock servers](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/).
+
+> You can [publish your documentation](/docs/publishing-your-api/publishing-your-docs/) to make your examples publicly available to anyone in the world.
+
+## Next steps
+
+Use examples to [set up a mock server](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/) or include examples in your [API documentation](/docs/publishing-your-api/documenting-your-api/).
