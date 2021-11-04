@@ -69,7 +69,7 @@ When saving a [response](/docs/sending-requests/responses/) in Postman, you have
 1. Open a request and select **Send**.
 1. In the response pane, select **Save Response** and then select **Save as example**.
 
-SCREENSHOT
+<img alt="Save a response as an example" src="https://assets.postman.com/postman-docs/examples-save-response-v9-1.jpg" width="809px">
 
 ### Adding a custom example
 
@@ -87,18 +87,18 @@ With a custom example, you can define exactly how both the [request](/docs/sendi
     * Add any headers as needed.
 1. Select **Save** to save the example.
 
-SCREENSHOT
+<img alt="Add a custom example" src="https://assets.postman.com/postman-docs/examples-add-custom-v9-1.jpg" width="365px">
 
 ## Editing an example
 
-Examples are stored in a collection underneath their associated requests. You can edit an example any time after adding it to strip out sensitive tokens or make any other adjustments.
+Examples are stored in a collection below their associated requests. You can edit an example any time after adding it to remove sensitive tokens, change the status code, or make any other adjustments.
 
 1. Select **Collections** in the sidebar.
 1. Select a request, and then select an example to open it.
 1. Make any changes to the example request or response.
 1. Select **Save** to save the example.
 
-SCREENSHOT
+<img alt="Edit an example" src="https://assets.postman.com/postman-docs/examples-edit-response-v9-1.jpg" width="809px">
 
 ## Duplicating an example
 
