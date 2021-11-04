@@ -1879,7 +1879,7 @@
 		"from": "/docs/sending-requests/authorization/#inheriting-auth",
 		"to": "/docs/sending-requests/authorization/#inheriting-authorization"
 	},
-	{		"from": "/docs/monitoring-your-api/integrations-for-alerts/",
+	{	"from": "/docs/monitoring-your-api/integrations-for-alerts/",
 		"to": "/docs/running-collections/collection-webhooks/"
 	}
 ]
