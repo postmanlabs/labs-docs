@@ -46,7 +46,7 @@ Only a team member with the billing role can grant the **Billing** role to or re
 
 Click a role next to the corresponding member to assign and unassign roles, then **Save**.
 
-<img alt="Manage team roles" src="https://assets.postman.com/postman-docs/manage-team-users-v9.1.jpg"/>
+<img alt="Manage team roles" src="https://assets.postman.com/postman-docs/manage-team-abdcm.jpg"/>
 
 Each team member must have a minimum of one role assigned to them. Note that only team members with a billing role will be able to give other users that designation.
 
@@ -66,7 +66,7 @@ Navigate to [Manage Team](https://go.postman.co/team) and select **Invite Users*
 
 Alternatively, you can invite users to your team via links. To do so, select **Get Link**.
 
-<img alt="Invite users to team" src="https://assets.postman.com/postman-docs/invite-members-to-team-v9.1.jpg" width="350px"/>
+<img alt="Invite users to team" src="https://assets.postman.com/postman-docs/invite-users-to-team.jpg" width="350px"/>
 
 ### Inviting to team workspaces
 
