@@ -298,9 +298,7 @@ pm.environment.get("variable_key");
 
 ## Sharing and persisting data
 
-When you edit global, collection, and environment variables in Postman, you will see __Current Value__, __Persist__, and __Reset__ options for individual variables and for all variables (hover over a variable and use __...__ to persist individual values). These allow you to control what happens within your local instance of Postman, independently of how the data is synced with anyone sharing your workspace, requests, collections, and environments.
-
-[![Persist Variables](https://assets.postman.com/postman-docs/persist-v8.jpg)](https://assets.postman.com/postman-docs/persist-v8.jpg)
+When you edit global, collection, and environment variables in Postman, you will see __Current Value__, __Persist__, and __Reset__ options for individual variables and for all variables (hover over a variable and use __...__ to persist individual values). These enable you to control what happens within your local instance of Postman, independently of how the data is synced with anyone sharing your workspace, requests, collections, and environments.
 
 Your local session in Postman can use values that are transient and only visible to you. This lets you develop and test using private credentials or experimental values, without risk of exposing these details or affecting others on your team.
 
@@ -313,8 +311,6 @@ When you create or edit a variable, you can enter both an initial and a current 
 Using __Persist__ will make your current value sync with Postman's servers and be reflected for anyone sharing your collection or environment. To reset your current local values to reflect the initial (shared) values, use __Reset__.
 
 You can edit a current value inline from the environment quick look:
-
-<img alt="Edit Current Value" src="https://assets.postman.com/postman-docs/var-inline-v8.jpg" width="500px"/>
 
 See [Managing environments](/docs/sending-requests/managing-environments/#creating-environments) for more on working with variables as a team.
 
@@ -348,9 +344,7 @@ Examples of dynamic variables are as follows:
 
 See the [Dynamic Variables](/docs/writing-scripts/script-references/variables-list/) section for a full list.
 
-> To use dynamic variables in pre-request or test scripts, you need to use `pm.variables.replaceIn()`, e.g. `pm.variables.replaceIn('{{$randomFirstName}}')`.
-
-![Dynamic Variable](https://assets.postman.com/postman-docs/dynamic-var.jpg)
+> To use dynamic variables in pre-request or test scripts, use `pm.variables.replaceIn()`, e.g. `pm.variables.replaceIn('{{$randomFirstName}}')`.
 
 ## Next steps
 
