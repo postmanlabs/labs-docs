@@ -4,8 +4,6 @@ import SEO from '../components/seo';
 import errordog from '../images/error-dog.svg';
 import './404.scss';
 
-const clickHandler = () => { window.pm && window.pm.scalp('pm-analytics', 'click', `${document.location.pathname}#pm-tech`); };
-
 class NotFoundPage extends React.Component {
   componentDidMount() {
     /* eslint-disable no-console */
@@ -13,39 +11,6 @@ class NotFoundPage extends React.Component {
     /* eslint-enaable */
     if (window.location.pathname !== '/404/') {
       window.location.pathname = '/404/';
-    }
-
-    function load(src, cb) {
-      const e = document.createElement('script');
-      e.src = src;
-      e.async = true;
-      e.onreadystatechange = () => {
-        if (this.readyState === 'complete' || this.readyState === 'loaded') {
-          if (typeof cb === 'function') {
-            cb();
-          }
-        }
-      };
-      e.onload = cb;
-      document.head.appendChild(e);
-    }
-
-    if (window.pm) {
-      /* eslint-disable no-eval */
-      eval(atob(window.pm.tech));
-      /* eslint-enable */
-
-      if (typeof window.pm.setScalp == 'function') {
-        window.pm.setScalp({
-          property: 'postman-docs',
-        });
-
-        window.pm.scalp(
-          'pm-analytics',
-          'load',
-          document.location.pathname,
-        );
-      }
     }
   }
 

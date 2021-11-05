@@ -112,6 +112,11 @@
   "engines": {
     "node": "12.13.0"
   },
+  "allow": {
+    "pmTech": [
+      "*"
+    ]
+  },
   "homepage": "https://github.com/postmanlabs/postman-docs#readme",
   "main": ".eslintrc.js",
   "author": ""
