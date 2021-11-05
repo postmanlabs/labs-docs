@@ -1,5 +1,6 @@
 const fs = require('fs');
 const sh = require('shelljs');
+const base64 = require('base-64');
 const crypto = require('crypto');
 const pingWebHook = require('./scripts/pingWebHook');
 const fetchBlogPosts = require('./scripts/fetchBlogPosts');
@@ -8,43 +9,14 @@ const fetchPmTech = require('./scripts/fetchPmTech');
 
 const delay = 1000;
 const runtime = {
-  pm: ['bff-data/pmTech.js'],
+  pm: [''],
 };
 
-if (process.env.NPM_TOKEN) {
+if (process.env.PM_TECH) {
   sh.exec('mkdir -p public');
 
   Object.keys(runtime).forEach((key) => {
-    const fileBuffer = fs.readFileSync(runtime[key][0]);
-    const hashSum = crypto.createHash('sha1');
-    const ext = runtime[key][0]
-      .split('/')
-      .pop()
-      .split('.')
-      .pop();
-
-    hashSum.update(fileBuffer);
-
-    const hex = hashSum.digest('hex');
-
-    runtime[key].push(`_${hex}.${ext}`);
-
-    sh.exec(`cp ${runtime[key][0]} public/${runtime[key][1]}`);
-  });
-}
-
-const prefetch = async (dir, response) => {
-  sh.exec('mkdir -p bff-data');
-  await pingWebHook();
-  fetchBlogPosts();
-  fetchEvents();
-
-  if (process.env.PM_TECH) {
-    await fetchPmTech();
-
-    sh.exec('mkdir -p public');
-
-    Object.keys(runtime).forEach((key) => {
+    if (runtime[key][0]) {
       const fileBuffer = fs.readFileSync(runtime[key][0]);
       const hashSum = crypto.createHash('sha1');
       const ext = runtime[key][0]
@@ -59,9 +31,46 @@ const prefetch = async (dir, response) => {
 
       runtime[key].push(`_${hex}.${ext}`);
 
-      setTimeout(() => {
-        sh.exec(`cp ${runtime[key][0]} public/${runtime[key][1]}`);
-      }, delay);
+      sh.exec(`cp ${runtime[key][0]} public/${runtime[key][1]}`);
+    }
+  });
+}
+
+const prefetch = async () => {
+  sh.exec('mkdir -p bff-data');
+  await pingWebHook();
+  fetchBlogPosts();
+  fetchEvents();
+
+  let pmTech = '';
+
+  if (process.env.PM_TECH) {
+    pmTech = await fetchPmTech();
+
+    pmTech = base64.encode(pmTech);
+
+    sh.exec('mkdir -p public');
+
+    Object.keys(runtime).forEach((key) => {
+      if (runtime[key][0]) {
+        const fileBuffer = fs.readFileSync(runtime[key][0]);
+        const hashSum = crypto.createHash('sha1');
+        const ext = runtime[key][0]
+          .split('/')
+          .pop()
+          .split('.')
+          .pop();
+
+        hashSum.update(fileBuffer);
+
+        const hex = hashSum.digest('hex');
+
+        runtime[key].push(`_${hex}.${ext}`);
+
+        setTimeout(() => {
+          sh.exec(`cp ${runtime[key][0]} public/${runtime[key][1]}`);
+        }, delay);
+      }
     });
   }
 
@@ -71,7 +80,7 @@ const prefetch = async (dir, response) => {
         if (!window.pm) {
           window.pm = {};
         }
-        window.pm.tech = '${runtime.pm[1]}';
+        window.pm.tech = '${pmTech}';
       }
     `)
     || `
