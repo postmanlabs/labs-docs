@@ -62,7 +62,7 @@ Select **Custom Domains** from the left-hand menu to add, update, or remove cust
 
 Visit [Using custom domains](/docs/publishing-your-api/custom-doc-domains/) for information on adding, verifying, troubleshooting, and publishing to custom domains.
 
-<img alt="Adding custom domains" src="https://assets.postman.com/postman-docs/ts-custom-domains.jpg"/>
+<img alt="Custom domains dashboard" src="https://assets.postman.com/postman-docs/dashboard-view-custom-domains-v9.1.jpg"/>
 
 ## Updating billing details
 

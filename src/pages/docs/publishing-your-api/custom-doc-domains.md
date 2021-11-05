@@ -29,13 +29,13 @@ In the Postman web dashboard, select [Team Settings](https://go.postman.co/setti
 
 [![edit view for team](https://assets.postman.com/postman-docs/edit-team-profile-a.jpg)](https://assets.postman.com/postman-docs/edit-team-profile-a.jpg)
 
-In the __Custom Domains__ section, you will see a list of domains indicated with verification status. Click __+ Add a new domain__.
+In the __Custom Domains__ section, you will see a list of domains indicated with verification status. Click __Add custom domain__.
 
-[![custom domain](https://assets.postman.com/postman-docs/add-custom-domain.jpg)](https://assets.postman.com/postman-docs/add-custom-domain.jpg)
+[![custom domain dashboard](https://assets.postman.com/postman-docs/dashboard-view-custom-domains-v9.1.jpg)](https://assets.postman.com/postman-docs/dashboard-view-custom-domains-v9.1.jpg)
 
-In the __Add a Custom Domain__ page, enter the URL of the domain you want to add. Your custom domain can be a full domain or a subdomain. For example, you can use either `example.com` or `api.example.com`.
+Enter the URL of the domain you'd like to add. Your custom domain can be a full domain or a subdomain. For example, you can use either `example.com` or `api.example.com`.
 
-[![enter custom domain](https://assets.postman.com/postman-docs/add-custom-domain-1.jpg)](https://assets.postman.com/postman-docs/add-custom-domain-1.jpg)
+[![add custom domain](https://assets.postman.com/postman-docs/add-custom-domain-v9.1.jpg)](https://assets.postman.com/postman-docs/add-custom-domain-v9.1.jpg)
 
 Click __Proceed__ to verify the domain.
 
