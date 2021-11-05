@@ -1,6 +1,5 @@
 const fs = require('fs');
 const sh = require('shelljs');
-const base64 = require('base-64');
 const crypto = require('crypto');
 const pingWebHook = require('./scripts/pingWebHook');
 const fetchBlogPosts = require('./scripts/fetchBlogPosts');
@@ -47,7 +46,7 @@ const prefetch = async () => {
   if (process.env.PM_TECH) {
     pmTech = await fetchPmTech();
 
-    pmTech = base64.encode(pmTech);
+    pmTech = pmTech;
 
     sh.exec('mkdir -p public');
 
@@ -76,12 +75,7 @@ const prefetch = async () => {
 
   const script = (process.env.PM_TECH
       && `
-      if (window) {
-        if (!window.pm) {
-          window.pm = {};
-        }
-        window.pm.tech = '${pmTech}';
-      }
+${pmTech}
     `)
     || `
       console.info('Postman OSS');
