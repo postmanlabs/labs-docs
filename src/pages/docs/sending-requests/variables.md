@@ -77,7 +77,7 @@ Read on for more detail on how you can use variables in Postman.
 
 ## Understanding variables
 
-A variable is a symbolic representation of data that enables you to access a value without having to enter it manually wherever you need it. This can be useful especially if you are using the same values in multiple places. Variables make your requests more flexible and readable, by abstracting some of the detail away.
+A variable is a symbolic representation of data that enables you to access a value without having to enter it manually wherever you need it. This can be useful especially if you are using the same values in multiple places. Variables make your requests more flexible and readable, by abstracting the detail away.
 
 For example, if you have the same URL in multiple requests, but the URL might change later, you can store the URL in a variable. If the URL changes, you only need to change the variable value and it will be reflected throughout your collection, wherever you've used the variable name. The same principle applies to any part of your request where data is repeated.
 
@@ -115,13 +115,13 @@ Variable scopes are suited to different tasks in Postman:
 
 * __Global variables__ enable you to access data between collections, requests, test scripts, and environments. Global variables are available throughout a [workspace](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/).
 
-   > Since global variables can create confusion, you should only use them sparingly. For example, use a global variable to quickly test something or when your project is at a very early prototyping stage.
-* __Collection variables__ are available throughout the requests in a collection and are independent of environments, so do not change based on the selected environment.
+   > Since global variables can create confusion, you should only use them sparingly. For example, use a global variable to test something or when your project is at an early prototyping stage.
+* __Collection variables__ are available throughout the requests in a collection and are independent of environments, and don't change based on the selected environment.
     > Collection variables are suitable if you are only using a single environment, for example for auth or URL details.
 * __Environment variables__ enable you to tailor your processing to different environments, for example local development versus testing or production. Only one environment can be active at a time.
     > If you have only one environment, using collection variables can be more efficient. However environments enable you to specify [role-based access levels](/docs/sending-requests/managing-environments/#working-with-environments-as-a-team).
 * __Local variables__ are temporary, and only accessible in your request scripts. Local variable values are scoped to a single request or collection run, and are no longer available when the run is complete.
-    > Local variables are suitable if you need a value to override all other variable scopes but do not want the value to persist once execution has ended.
+    > Local variables are suitable if you need a value to override all other variable scopes but don't want the value to persist once execution has ended.
 * __Data variables__ come from external CSV and JSON files to define data sets you can use when running collections with Newman or the Collection Runner.
 
 ![Variable Scopes](https://assets.postman.com/postman-docs/Variables-Chart.png)
@@ -176,7 +176,7 @@ You can add collection variables when you create the collection or at any time a
 
 [![Edit Collection](https://assets.postman.com/postman-docs/collection-variables-v9.jpg)](https://assets.postman.com/postman-docs/collection-variables-v9.jpg)
 
-> If you do not have edit access to a collection, you will see a __Request Access__ button. You will not be able to add new collection variables, update initial values, or persist values.
+> If you don't have edit access to a collection, you will see a __Request Access__ button. You won't be able to add new collection variables, update initial values, or persist values.
 > You can edit the current value for local use, override the collection variable by using an environment variable with the same name, or [request access](/docs/collaborating-in-postman/requesting-access-to-collections/) to the collection for __Editor__ role.
 
 You can also [define collection variables in scripts](#defining-variables-in-scripts).
@@ -215,7 +215,7 @@ Use `pm.environment` to define an environment variable (in the currently selecte
 pm.environment.set("variable_key", "variable_value");
 ```
 
-> If you have view but not edit access to an environment, your script code will only affect the current value, and will not be synced or shared with your team.
+> If you have view access but not edit access to an environment, your script code will only affect the current value, and won't be synced or shared with your team.
 
 You can use `unset` to remove a variable:
 
@@ -233,7 +233,7 @@ Local variables are temporary values you set in your request scripts using the f
 pm.variables.set("variable_key", "variable_value");
 ```
 
-Local variables do not persist between sessions, but allow you to override all other scopes temporarily, during the execution of a request or collection / monitor run. For example, if you need to process a temporary test value for a single request or collection run locally, and don't want the value to sync with your team or remain available when the request / collection has finished running, you can use a local variable.
+Local variables don't persist between sessions, but allow you to override all other scopes temporarily, during the execution of a request or collection / monitor run. For example, if you need to process a temporary test value for a single request or collection run locally, and don't want the value to sync with your team or remain available when the request / collection has finished running, you can use a local variable.
 
 ## Accessing variables
 
@@ -298,15 +298,15 @@ pm.environment.get("variable_key");
 
 ## Sharing and persisting data
 
-When you edit global, collection, and environment variables in Postman, you will see __Current Value__, __Persist__, and __Reset__ options for individual variables and for all variables (hover over a variable and use __...__ to persist individual values). These enable you to control what happens within your local instance of Postman, independently of how the data is synced with anyone sharing your workspace, requests, collections, and environments.
+When you edit global, collection, and environment variables in Postman, you will see __Current Value__, __Persist__, and __Reset__ options for individual variables and for all variables (hover over a variable and select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> to persist individual values). These enable you to control what happens within your local instance of Postman, independently of how the data is synced with anyone sharing your workspace, requests, collections, and environments.
 
 Your local session in Postman can use values that are transient and only visible to you. This lets you develop and test using private credentials or experimental values, without risk of exposing these details or affecting others on your team.
 
-> For example, your team could have a shared API key and individual API keys—you could do more experimental development work locally using your personal key, but use the shared key for team collaboration. Similarly, you could have a variable that represents exploratory work you're doing locally but are not ready to share with the team—you can later choose to persist the local data so that others on your team can also access it.
+> For example, your team could have a shared API key and individual API keys. You could do experimental development work locally using your personal key, but use the shared key for team collaboration. Similarly, you could have a variable that represents exploratory work you're doing locally but aren't ready to share with the team. You can later choose to persist the local data so that others on your team can also access it.
 
-When you create or edit a variable, you can enter both an initial and a current value. When you create a new variable in the UI, if you leave the current value empty, it will auto-fill with the initial value. If you specify a current value, it will be local only to your instance—the __Persist__ option lets you push your current value to the shared data, updating the initial value to match the current value.
+When you create or edit a variable, you can enter both an initial and a current value. When you create a new variable in the UI, if you leave the current value empty, it will autofill with the initial value. If you specify a current value, it will be local only to your instance—the __Persist__ option lets you push your current value to the shared data, updating the initial value to match the current value.
 
-> You can only edit the initial value of an environment variable if you have edit access to the environment itself. Without edit access to the environment, you can only edit the current value and your edit will not be visible to anyone sharing your [workspace](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/).
+> You can only edit the initial value of an environment variable if you have edit access to the environment itself. Without edit access to the environment, you can only edit the current value and your edit won't be visible to anyone sharing your [workspace](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/).
 
 Using __Persist__ will make your current value sync with Postman's servers and be reflected for anyone sharing your collection or environment. To reset your current local values to reflect the initial (shared) values, use __Reset__.
 
@@ -314,7 +314,7 @@ You can edit a current value inline from the environment quick look:
 
 See [Managing environments](/docs/sending-requests/managing-environments/#creating-environments) for more on working with variables as a team.
 
-> Local and data variables only have current values, which do not persist beyond request or collection runs.
+> Local and data variables only have current values, which don't persist beyond request or collection runs.
 
 ## Logging variables
 
@@ -328,7 +328,7 @@ console.log(pm.variables.get("variable_key"));
 
 ## Using data variables
 
-The Collection Runner lets you import a CSV or a JSON file, and use the values from the data file inside requests and scripts. You cannot set a data variable inside Postman because it is pulled from the data file, but you can access data variables inside scripts, for example using `pm.iterationData.get("variable_name")`.
+The Collection Runner lets you import a CSV or a JSON file, and use the values from the data file inside requests and scripts. You can't set a data variable inside Postman because it's pulled from the data file, but you can access data variables inside scripts, for example using `pm.iterationData.get("variable_name")`.
 
 See [working with data files](/docs/running-collections/working-with-data-files/) and the [Sandbox API reference](/docs/writing-scripts/script-references/postman-sandbox-api-reference/) for more.
 
@@ -344,7 +344,7 @@ Examples of dynamic variables are as follows:
 
 See the [Dynamic Variables](/docs/writing-scripts/script-references/variables-list/) section for a full list.
 
-> To use dynamic variables in pre-request or test scripts, use `pm.variables.replaceIn()`, e.g. `pm.variables.replaceIn('{{$randomFirstName}}')`.
+> To use dynamic variables in pre-request or test scripts, use `pm.variables.replaceIn()`, for example `pm.variables.replaceIn('{{$randomFirstName}}')`.
 
 ## Next steps
 
