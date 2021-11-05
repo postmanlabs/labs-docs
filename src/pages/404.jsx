@@ -18,7 +18,7 @@ class NotFoundPage extends React.Component {
     return (
       <Layout>
         <SEO title="404: Not found" slug="/404/" />
-        <div className="container" role="link" onKeyDown={clickHandler} onClick={clickHandler} tabIndex={0}>
+        <div className="container" role="link" tabIndex={0}>
           <div className="row error-row">
             <div className="col">
               <img className="error-img" src={errordog} alt="a cute dog letting you know that you're on the 404 page" />
