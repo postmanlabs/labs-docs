@@ -24,6 +24,8 @@ The Postman Token Scanner scans your public workspaces, collections, environment
 * [Supported tokens](#supported-tokens)
     * [Default alerts](#default-alerts)
     * [Custom alerts](#custom-alerts)
+* [Token scanner dashboard](#)
+
 
 ## Use cases
 
@@ -67,12 +69,18 @@ By default, tokens issued by the following service providers are scanned:
 
 Custom alerts can be used to scan your team's proprietary and third-party app tokens that are not scanned by default.
 
-> **[Custom alerts are available only on Postman Enterprise plan](https://www.postman.com/pricing/)**.
+> **[Custom alerts are available only on the Postman Enterprise plan](https://www.postman.com/pricing/)**.
 
 Your team can add a total of five alerts. You must be a **Community Manager** or member with both **Developer** and **Admin** roles to add custom alerts.
 
 To add custom alerts:
 
-1. Go to **Team Settings** > **Token Scanner**.
+1. Go to **Team** > **Team Settings** > **Token scanner**.
 2. In the **Custom alerts** section, click **Add Alert**.
-3. In the **Add Alert** page, define the custom token.
+3. On the **Add Alert** page, define the custom token.
+
+## Token scanner dashboard
+
+You can view all of your team's configured [default](#default-alerts) and [custom](#custom-alerts) alerts in your [token scanner dashboard](https://go.postman.co/settings/team/token-scanner). Select **Team** in the upper-right > **Team Settings**. Then, select **Token scanner** on the left.
+
+<img alt="Token scanner dashboard" src="https://assets.postman.com/postman-docs/dashboard-token-scanner-v9.1.jpg"/>
