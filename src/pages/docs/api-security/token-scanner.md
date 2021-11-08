@@ -46,18 +46,28 @@ The Token Scanner will scan a variety of tokens by default. You can also add you
 By default, tokens issued by the following service providers are scanned:
 
 * Airtable API Key
+* Amazon MWS Token
 * Basic Auth
 * Bearer Token
+* Clojars Deploy Token
+* Databricks Authentication Token
 * DSA Private Key
 * EC2 SSH Private Key
 * GitHub Personal Access Token
 * Google API Key
 * Google OAuth Token
+* Microsoft Outlook Team Webhook
 * OpenSSH Private Key
 * PGP Private Key
 * Postman API Key
 * RSA Private Key
+* SendGrid API Key
+* Sendinblue Key
+* Shopify Key
 * Slack Webhook URL
+* Square Access Key
+* Square Access Token
+* Square OAuth Secret
 * Stripe Restricted Key
 * Stripe Secret Key
 * Telegram Bot Access Token
