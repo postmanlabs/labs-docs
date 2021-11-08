@@ -112,7 +112,7 @@ The parameter and header descriptions are visible to people who have access to y
 
 Your documentation automatically includes the type of authorization required to access your endpoints. The authorization details appear below the collection description and also below each request in your documentation.
 
-If you [specify authorization details](/docs/sending-requests/authorization/#specifying-authorization-details) for the collection, those authorization requirements are inherited by every request in the collection. If one of your endpoints requires a different authorization type, open the request and [change the authorization details](/docs/sending-requests/authorization/#inheriting-auth). The changes are reflected in your documentation.
+If you [specify authorization details](/docs/sending-requests/authorization/#specifying-authorization-details) for the collection, those authorization requirements are inherited by every request in the collection. If one of your endpoints requires a different authorization type, open the request and [change the authorization details](/docs/sending-requests/authorization/#inheriting-authorization). The changes are reflected in your documentation.
 
 <img alt="Authorization type in documentation" src="https://assets.postman.com/postman-docs/documentation-authorization-v8-10.jpg" width="569px">
 

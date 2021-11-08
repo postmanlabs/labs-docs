@@ -468,6 +468,13 @@ class Header extends React.Component {
                       >
                         Case studies
                       </a>
+                      
+                      <a
+                        className="dropdown-item"
+                        href="https://www.postman.com/state-of-api/"
+                      >
+                        State of the API
+                      </a>
                     </div>
                     <div className="col-sm-6 col-md-4 dropdown-col">
                       <h6 className="dropdown-header">Community and events</h6>
