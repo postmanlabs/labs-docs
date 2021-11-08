@@ -57,7 +57,7 @@ By default, tokens issued by the following service providers are scanned:
 * GitHub Personal Access Token
 * Google API Key
 * Google OAuth Token
-* Microsoft Outlook Team Webhook
+* Microsoft Outlook Team Webhook URL
 * OpenSSH Private Key
 * PGP Private Key
 * Postman API Key
