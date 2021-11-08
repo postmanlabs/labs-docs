@@ -4,8 +4,6 @@ import SEO from '../components/seo';
 import errordog from '../images/error-dog.svg';
 import './404.scss';
 
-const clickHandler = () => { window.pm && window.pm.scalp('pm-analytics', 'click', `${document.location.pathname}#pm-tech`); };
-
 class NotFoundPage extends React.Component {
   componentDidMount() {
     /* eslint-disable no-console */
@@ -14,46 +12,13 @@ class NotFoundPage extends React.Component {
     if (window.location.pathname !== '/404/') {
       window.location.pathname = '/404/';
     }
-
-    function load(src, cb) {
-      const e = document.createElement('script');
-      e.src = src;
-      e.async = true;
-      e.onreadystatechange = () => {
-        if (this.readyState === 'complete' || this.readyState === 'loaded') {
-          if (typeof cb === 'function') {
-            cb();
-          }
-        }
-      };
-      e.onload = cb;
-      document.head.appendChild(e);
-    }
-
-    if (window.pm) {
-      /* eslint-disable no-eval */
-      eval(atob(window.pm.tech));
-      /* eslint-enable */
-
-      if (typeof window.pm.setScalp == 'function') {
-        window.pm.setScalp({
-          property: 'postman-docs',
-        });
-
-        window.pm.scalp(
-          'pm-analytics',
-          'load',
-          document.location.pathname,
-        );
-      }
-    }
   }
 
   render() {
     return (
       <Layout>
         <SEO title="404: Not found" slug="/404/" />
-        <div className="container" role="link" onKeyDown={clickHandler} onClick={clickHandler} tabIndex={0}>
+        <div className="container" role="link" tabIndex={0}>
           <div className="row error-row">
             <div className="col">
               <img className="error-img" src={errordog} alt="a cute dog letting you know that you're on the 404 page" />
