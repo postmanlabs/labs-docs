@@ -54,9 +54,9 @@ warning: false
 
 You can send requests in Postman to connect to APIs you are working with. Your requests can retrieve, add, delete, and update data. Whether you are building or testing your own API, or integrating with a third-party API, you can try out your requests in Postman. Your requests can send parameters, authorization details, and any body data you require.
 
-> For example, if you're building a client application (e.g. a mobile or web app) for a store, you might send one request to retrieve the list of available products, another request to create a new order (including the selected product details), and a different request to log a customer in to their account.
+For example, if you're building a client application (such as a mobile or web app) for a store, you might send one request to retrieve the list of available products, another request to create a new order (including the selected product details), and a different request to log a customer in to their account.
 
-When you send a request, Postman will display the response received from the API server in a way that lets you examine, visualize, and if necessary troubleshoot it.
+When you send a request, Postman displays the response received from the API server in a way that lets you examine, visualize, and if necessary troubleshoot it.
 
 [![Request Sent](https://assets.postman.com/postman-docs/sent-request-v8.jpg)](https://assets.postman.com/postman-docs/sent-request-v8.jpg)
 
@@ -83,11 +83,11 @@ If you have never sent a request before, check out [sending your first request](
 
 Your requests can include multiple details determining the data Postman will send to the API you are working with. At the very least you will need to enter a URL and choose a method, but you can optionally specify a variety of other details.
 
-You can create a new request from the Postman launch screen, using __New__ &gt; __Request__, or by clicking the __+__ button to open a new tab.
+You can create a new request from the Postman launch screen, using __New__ &gt; __Request__, or by selecting the __+__ button to open a new tab.
 
 [![New Screen](https://assets.postman.com/postman-docs/new-request-v8-2.jpg)](https://assets.postman.com/postman-docs/new-request-v8-2.jpg)
 
-> When using the launch screen or __New__ button, you can first give your request a name and description, and choose / create a collection to save it in. __Save__ to create your request. It will open in a new tab.
+> When using the launch screen or __New__ button, you can first give your request a name and description, and choose or create a collection to save it in. Select __Save__ to create your request. It will open in a new tab.
 
 <img alt="Save Request" src="https://assets.postman.com/postman-docs/request-detail-v8.jpg" width="400px"/>
 
