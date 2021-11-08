@@ -2,6 +2,7 @@
 title: "Building requests"
 order: 21
 page_id: "requests"
+updated: 2021-11-08
 search_keyword: "Content-Type, multipart, form-data, x-www-form-urlencoded"
 contextual_links:
   - type: section
@@ -83,13 +84,11 @@ If you have never sent a request before, check out [sending your first request](
 
 Your requests can include multiple details determining the data Postman will send to the API you are working with. At the very least you will need to enter a URL and choose a method, but you can optionally specify a variety of other details.
 
-You can create a new request from the Postman launch screen, using __New__ &gt; __Request__, or by selecting the __+__ button to open a new tab.
+You can create a new request from the Postman home screen, by using __New__ &gt; __HTTP Request__, or by selecting the __+__ button to open a new tab.
 
 [![New Screen](https://assets.postman.com/postman-docs/new-request-v8-2.jpg)](https://assets.postman.com/postman-docs/new-request-v8-2.jpg)
 
-> When using the launch screen or __New__ button, you can first give your request a name and description, and choose or create a collection to save it in. Select __Save__ to create your request. It will open in a new tab.
-
-<img alt="Save Request" src="https://assets.postman.com/postman-docs/request-detail-v8.jpg" width="400px"/>
+> Select __Save__ to create your request. You can give your request a name and description, and choose or create a collection to save it in.
 
 Once your new tab is open, you can specify the details you need for your request.
 
@@ -99,22 +98,18 @@ Once your new tab is open, you can specify the details you need for your request
 
 If you have a request you want to run, you will need to know the URL, method, and other optional values such as auth and parameters.
 
-If you are just trying out sending requests in Postman, you can set the URL to the Postman Echo sample API endpoint `https://postman-echo.com/get` and the method to `GET`, then click __Send__ to see what happens.
+If you are trying out sending requests in Postman, you can set the URL to the Postman Echo sample API endpoint `https://postman-echo.com/get` and the method to `GET`, then click __Send__ to see what happens.
 
-> Open the __Bootcamp__ in Postman and follow __Designing and mocking APIs__ to import some requests you can use for exploring Postman. You will find lots more sample request collections using __New__ &gt; __Templates__.
+> Open the __Bootcamp__ in Postman and follow __Designing and mocking APIs__ to import some requests you can use for exploring Postman.
 
 ### Setting request URLs
 
 Each request you send in Postman requires a URL representing the API endpoint you are working with. Each operation you can perform using an API is typically associated with an endpoint. Each endpoint in an API is available at a particular URL—this is what you enter into Postman to access the API.
 
-* If you're building an API, the URL will typically be the base location plus path. For example, in the request `https://api-test-fun.glitch.me/info`, `https://api-test-fun.glitch.me` is the base URL, and `/info` is the endpoint path.
+* If you're building an API, the URL will typically be the base location plus path. For example, in the request `https://postman-echo.com/get`, `https://postman-echo.com` is the base URL, and `/get` is the endpoint path.
 * If you're using a third-party API, your API provider will supply the URLs you need, for example within their developer documentation.
 
-When you start typing in the URL input field, Postman will present a drop-down of previously used locations you can use to autocomplete.
-
-> Enter `https://postman-echo.com/get` if you'd just like to try a request out.
-
-[![Request URL](https://assets.postman.com/postman-docs/request-url-v8.jpg)](https://assets.postman.com/postman-docs/request-url-v8.jpg)
+When you start typing in the URL input field, Postman will present a drop-down list of previously used locations you can use to autocomplete.
 
 > Postman will automatically add `http://` to the start of your URL if you do not specify a protocol.
 
@@ -124,7 +119,7 @@ You can optionally type _query_ parameters into the URL field, or can [enter the
 
 ### Selecting request methods
 
-By default Postman will select the `GET` method for new request. `GET` methods are usually for retrieving data from an API. You can use a variety of other methods to send data to your APIs, including the following most common options:
+By default Postman will select the `GET` method for new request. `GET` methods are typically for retrieving data from an API. You can use a variety of other methods to send data to your APIs, including the following most common options:
 
 * `POST`—add new data
 * `PUT`—replace existing data
@@ -133,17 +128,15 @@ By default Postman will select the `GET` method for new request. `GET` methods a
 
 <img alt="Request Methods" src="https://assets.postman.com/postman-docs/request-methods.jpg" width="400px"/>
 
-> For example, if you're working with an API for a To Do list application, you might use a `GET` method to retrieve the current list of tasks, a `POST` method to create a new task, and a `PUT` or `PATCH` method to edit an existing task.
+For example, if you're working with an API for a To Do list application, you might use a `GET` method to retrieve the current list of tasks, a `POST` method to create a new task, and a `PUT` or `PATCH` method to edit an existing task.
 
-Postman supports a number of additional request methods by default, and you can use custom methods. Click the method drop-down, edit the method name text, and save your new method. To delete a method, hover over it in the list and select the trash icon.
-
-<img alt="Custom method" src="https://assets.postman.com/postman-docs/create-custom-method.jpg" width="200px"/>
+Postman supports a number of additional request methods by default, and you can use custom methods. Click the method drop-down list, edit the method name text, and save your new method. To delete a method, hover over it in the list and select the trash icon.
 
 > To try out the `https://postman-echo.com/get` endpoint, leave the `GET` method selected and click __Send__.
 
-The same location (sometimes called "route") can provide more than one endpoint, by accepting different methods—for example, an API might have a `POST` `/customer` endpoint for adding a new customer, and a `GET` `/customer` endpoint for retrieving an existing customer.
+The same location (sometimes called "route") can provide more than one endpoint, by accepting different methods. For example, an API might have a `POST` `/customer` endpoint for adding a new customer, and a `GET` `/customer` endpoint for retrieving an existing customer.
 
-* If your request does not require parameters or authentication, you can go ahead and click __Send__ to fetch a response.
+* If your request does not require parameters or authentication, you can click __Send__ to fetch a response.
 * Otherwise, specify your [parameters](#sending-parameters) and any [body data](#sending-body-data) you need to send to the API.
 * If you don't need to send data with your request, set up any required [authentication](#authenticating-requests) and [headers](#configuring-request-headers).
 
@@ -156,11 +149,7 @@ You can send path and query parameters with your requests using the URL field an
 
 To send a query parameter, add it directly to the URL or open __Params__ and enter the name and value. _You can enter your query parameters in either the URL or UI fields and it will update elsewhere._
 
-[![Query Parameters](https://assets.postman.com/postman-docs/request-params-v8.jpg)](https://assets.postman.com/postman-docs/request-params-v8.jpg)
-
 > Parameters will not automatically be URL-encoded. Right-click selected text, and choose __EncodeURIComponent__ to manually encode a parameter value.
->
-> <img alt="Encode Parameter" src="https://assets.postman.com/postman-docs/encode-param.jpg" width="400px"/>
 
 To send a path parameter, enter the parameter name into the URL field, after a colon, for example `:id`. When you enter a path parameter, Postman will populate it in the __Params__ tab, where you can also edit it.
 
