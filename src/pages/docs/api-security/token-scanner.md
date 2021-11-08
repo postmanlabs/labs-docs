@@ -53,6 +53,7 @@ By default, tokens issued by the following service providers are scanned:
 * Databricks Authentication Token
 * DSA Private Key
 * EC2 SSH Private Key
+* Firebase Cloud Messaging API Key
 * GitHub Personal Access Token
 * Google API Key
 * Google OAuth Token
