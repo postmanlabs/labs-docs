@@ -154,13 +154,13 @@ You can choose an environment in the drop-down list at the top right:
 
 <img src="https://assets.postman.com/postman-docs/select-environment.jpg" alt="Environment Quick Look" width="250px"/>
 
-You can also activate an environment in the left sidebar, by select the check-mark button to make the environment _active_.
+You can also activate an environment in the left sidebar, by selecting the check-mark button to make the environment _active_.
 
 <img src="https://assets.postman.com/postman-docs/set-environment-active-left.jpg" alt="Environment Quick Look" width="350px"/>
 
 The environment quick look shows the selected environment along with global variables in your workspace. You can edit the current value for an existing variable inline, by selecting the value. To add a variable, select __Edit__ next to the environment or global section.
 
-> You can also access the quick look using the keyboard shortcut **Command+E** or **/Ctrl+Alt+E**.
+> You can also access the quick look using the keyboard shortcut **Command+E** or **Ctrl+Alt+E**.
 
 You can only add and edit variables in environments if you have edit access to the environment as a whole. If you have view access, you can update the current value of existing variables only. Any variables you edit will only be accessible to you, and not available to collaborators in your [workspace](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/).
 
@@ -172,7 +172,7 @@ You can also [define global and environment variables in scripts](#defining-vari
 
 ### Defining collection variables
 
-You can add collection variables when you create the collection or at any time after that. To create or edit a variable for an existing collection, select the collection in __Collections__ sidebar on the left of Postman and choose **Variables**.
+You can add collection variables when you create the collection or at any time after that. To create or edit a variable for an existing collection, select **Collections** in the left sidebar. Select a collection, and then select the **Variables** tab.
 
 [![Edit Collection](https://assets.postman.com/postman-docs/collection-variables-v9.jpg)](https://assets.postman.com/postman-docs/collection-variables-v9.jpg)
 
@@ -251,7 +251,7 @@ For example, you could have a request URL referencing a variable as follows:
 http://pricey-trilby.glitch.me/customer?id={{cust_id}}
 ```
 
-Postman will send whatever value you currently have stored for the `cust_id` variable when the request runs. If `cust_id` is currently `3`, the request will be sent to the following URL including query parameter:
+Postman will send whatever value you currently have stored for the `cust_id` variable when the request runs. If `cust_id` is currently `3`, the request will be sent to the following URL including the query parameter:
 
 ```js
 http://pricey-trilby.glitch.me/customer?id=3
@@ -310,7 +310,7 @@ When you create or edit a variable, you can enter both an initial and a current 
 
 Using __Persist__ will make your current value sync with Postman's servers and be reflected for anyone sharing your collection or environment. To reset your current local values to reflect the initial (shared) values, use __Reset__.
 
-You can edit a current value inline from the environment quick look:
+You can edit a current value inline from the environment quick look.
 
 See [Managing environments](/docs/sending-requests/managing-environments/#creating-environments) for more on working with variables as a team.
 
