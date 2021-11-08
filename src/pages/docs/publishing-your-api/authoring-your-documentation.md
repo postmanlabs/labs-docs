@@ -30,14 +30,14 @@ warning: false
 
 Postman [automatically generates documentation](/docs/publishing-your-api/documenting-your-api/) for every collection you create. The documentation includes all of the requests in your collection, along with examples, authorization details, and sample code.
 
-To help your teammates ([or the world](/docs/publishing-your-api/publishing-your-docs/)) better understand what you're building, add detailed descriptions to your collection and the items in it. Use the WYSIWYG (what you see is what you get) editor to see exactly how your content will look as you author it. Or use the classic Markdown editor to structure and format your descriptions using [Markdown syntax](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). All of your descriptions are included in the documentation for your collection.
+To help your teammates ([or the world](/docs/publishing-your-api/publishing-your-docs/)) better understand what you're building, add detailed descriptions to your collection and the items in it. Use the Postman editor to see exactly how your content will look as you author it. Or use the classic Markdown editor to structure and format your descriptions using [Markdown syntax](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). All of your descriptions are included in the documentation for your collection.
 
 > You can also add a description when [creating a new request](/docs/sending-requests/requests/#creating-requests).
 
 ## Contents
 
 * [Adding descriptions to your documentation](#adding-descriptions-to-your-documentation)
-    * [Authoring descriptions in the WYSIWYG editor](#authoring-descriptions-in-the-wysiwyg-editor)
+    * [Authoring descriptions in the Postman editor](#authoring-descriptions-in-the-postman-editor)
     * [Authoring descriptions in Markdown](#authoring-descriptions-in-markdown)
     * [Adding descriptions to parameters and headers](#adding-descriptions-to-parameters-and-headers)
 * [Including authorization details](#including-authorization-details)
@@ -56,33 +56,33 @@ To add or edit the description for an existing collection, folder, or request:
 1. Select **Collections** in the sidebar, and then select a collection, folder, or request.
 1. Select **Documentation** <img alt="Documentation icon" src="https://assets.postman.com/postman-docs/documentation-icon-v8-10.jpg" width="16px" style="vertical-align:middle;margin-bottom:5px"> in the context bar.
 1. Select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to the description.
-1. Author your description using the visual [WYSIWYG editor](#authoring-descriptions-in-the-wysiwyg-editor) or the classic [Markdown editor](#authoring-descriptions-in-markdown). Both are compatible, so feel free to switch between the two editors as you work.
+1. Author your description using the visual [Postman editor](#authoring-descriptions-in-the-postman-editor) or the classic [Markdown editor](#authoring-descriptions-in-markdown). Both are compatible, so feel free to switch between the two editors as you work.
 
-    <img alt="Switching editors" src="https://assets.postman.com/postman-docs/documentation-switch-editors-v9-1.jpg" width="542px">
+    <img alt="Switching editors" src="https://assets.postman.com/postman-docs/documentation-editor-switcher-v9-1.jpg" width="560px">
 
 1. When you're finished, select **Save** to save your documentation. If you ever need to make changes, just edit the description again.
 
 > To give users even more details about requests in your collection, add descriptions to the request [parameters and headers](#adding-descriptions-to-parameters-and-headers).
 
-### Authoring descriptions in the WYSIWYG editor
+### Authoring descriptions in the Postman editor
 
-To author a description using rich text editing tools, select the **WYSIWYG Editor** option. The WYSIWYG editor makes it easy to author a description without having to write any Markdown code. Use the tools on the toolbar to work with text and other content, just like in a typical word processor. Or use common keyboard shortcuts to format text, like **Command+B** or **Ctrl+B** to make text bold. There's no need to preview your content to see the final appearance—what you see is what you get!
+To author a description using rich text editing tools, select the **Postman Editor** option. The Postman editor makes it easy to author a description without having to write any Markdown code. Use the tools on the toolbar to work with text and other content, just like in a typical word processor. Or use common keyboard shortcuts to format text, like **Command+B** or **Ctrl+B** to make text bold. There's no need to preview your content to see the final appearance—what you see is what you get!
 
-<img alt="WYSIWYG editor" src="https://assets.postman.com/postman-docs/documentation-wysiwyg-editor-v9-1.jpg" width="560px">
+<img alt="Postman editor" src="https://assets.postman.com/postman-docs/documentation-postman-editor-v9-1.jpg" width="560px">
 
 **View the tooltips to get help as you work.** Hold your cursor over an item on the toolbar to see a description of the tool and the associated keyboard shortcut. If all of the tools are not visible on the toolbar, select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px">.
 
-<img alt="WYSIWYG editor toolbar" src="https://assets.postman.com/postman-docs/documentation-wysiwyg-toolbar-v9-1.jpg" width="560px">
+<img alt="Postman editor toolbar" src="https://assets.postman.com/postman-docs/documentation-wysiwyg-toolbar-v9-1.jpg" width="560px">
 
 **Working with tables is fast and easy.** No need to fuss with Markdown code to get your tables to work. To add a table, select the **Table** tool. To add or remove columns or rows, or to delete the table, select a cell and then select the shortcut menu.
 
-<img alt="WYSIWYG editor table shortcuts" src="https://assets.postman.com/postman-docs/documentation-wysiwyg-table-tool-v9-1.jpg" width="560px">
+<img alt="Postman editor table shortcuts" src="https://assets.postman.com/postman-docs/documentation-wysiwyg-table-tool-v9-1.jpg" width="560px">
 
-**The WYSIWYG editor understands Markdown syntax.** If you're comfortable using Markdown, type any standard [Markdown code](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) to quickly format text. For example, type `#` followed by a space to start a new heading, or type `---` to add a horizontal line. To reuse documentation that's already written in Markdown, just copy the existing Markdown code and paste it into the editor to instantly format it.
+**The Postman editor understands Markdown syntax.** If you're comfortable using Markdown, type any standard [Markdown code](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) to quickly format text. For example, type `#` followed by a space to start a new heading, or type `---` to add a horizontal line. To reuse documentation that's already written in Markdown, just copy the existing Markdown code and paste it into the editor to instantly format it.
 
-> If you copy content from the WYSIWYG editor, the content will retain its formatting when you paste it into another application like a word processor or an email.
+> If you copy content from the Postman editor, the content will retain its formatting when you paste it into another application like a word processor or an email.
 
-<img alt="Using Markdown shortcuts" src="https://assets.postman.com/postman-docs/documentation-markdown-triggers-v9-1.gif" width="558px" style="border: 1px solid #4a4a4a">
+<img alt="Using Markdown shortcuts" src="https://assets.postman.com/postman-docs/documentation-markdown-shortcuts-v9-1.gif" width="558px" style="border: 1px solid #4a4a4a">
 
 ### Authoring descriptions in Markdown
 
@@ -128,9 +128,9 @@ Examples are paired requests and responses that demonstrate your endpoints in ac
 
 Use links to direct users to your repository, web site, or other online resources.
 
-* To add a link using the WYSIWYG editor, select the **Link** tool. Paste or type the URL and the link text, and then select **Add**. (If you need to change the link later, select it and then select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px">.)
+* To add a link using the Postman editor, select the **Link** tool. Paste or type the URL and the link text, and then select **Add**. (If you need to change the link later, select it and then select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px">.)
 
-    <img alt="Adding a link" src="https://assets.postman.com/postman-docs/documentation-add-link-v9-1.jpg" width="560px">
+    <img alt="Adding a link" src="https://assets.postman.com/postman-docs/documentation-insert-link-v9-1.jpg" width="560px">
 
 * To add a link using Markdown, use the the following syntax:
 
@@ -142,9 +142,9 @@ Use links to direct users to your repository, web site, or other online resource
 
 Images liven up your documentation and help your ideas come across more clearly. Your image must be hosted online before you can add it to your documentation.
 
-* To add an image using the WYSIWYG editor, select the **Image** tool. Paste or type the image URL, and then select **Add**. (If you need to change the image later, select it and then select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px">.)
+* To add an image using the Postman editor, select the **Image** tool. Paste or type the image URL, and then select **Add**. (If you need to change the image later, select it and then select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px">.)
 
-    <img alt="Adding an image" src="https://assets.postman.com/postman-docs/documentation-add-image-v9-1.jpg" width="560px">
+    <img alt="Adding an image" src="https://assets.postman.com/postman-docs/documentation-insert-image-v9-1.jpg" width="560px">
 
 * To add an image using Markdown, use the following syntax:
 
