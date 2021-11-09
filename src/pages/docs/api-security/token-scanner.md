@@ -2,6 +2,7 @@
 title: "Token Scanner"
 order: 115
 page_id: "token-scanner"
+updated: 2021-11-09
 search_keyword: "password security, secret scanning, secret, API key security"
 warning: false
 contextual_links:
