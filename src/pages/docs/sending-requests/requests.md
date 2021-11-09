@@ -2,7 +2,7 @@
 title: "Building requests"
 order: 21
 page_id: "requests"
-updated: 2021-11-08
+updated: 2021-11-09
 search_keyword: "Content-Type, multipart, form-data, x-www-form-urlencoded"
 contextual_links:
   - type: section
@@ -109,7 +109,7 @@ Each request you send in Postman requires a URL representing the API endpoint yo
 * If you're building an API, the URL will typically be the base location plus path. For example, in the request `https://postman-echo.com/get`, `https://postman-echo.com` is the base URL, and `/get` is the endpoint path.
 * If you're using a third-party API, your API provider will supply the URLs you need, for example within their developer documentation.
 
-When you start typing in the URL input field, Postman will present a drop-down list of previously used locations you can use to autocomplete.
+When you start typing in the URL input field, Postman will present a dropdown list of previously used locations you can use to autocomplete.
 
 > Postman will automatically add `http://` to the start of your URL if you don't specify a protocol.
 
@@ -130,11 +130,11 @@ By default Postman will select the `GET` method for new request. `GET` methods a
 
 For example, if you're working with an API for a To Do list application, you might use a `GET` method to retrieve the current list of tasks, a `POST` method to create a new task, and a `PUT` or `PATCH` method to edit an existing task.
 
-Postman supports a number of additional request methods by default, and you can use custom methods. Select the method drop-down list, edit the method name text, and save your new method. To delete a method, hover over it in the list and select the trash icon.
+Postman supports a number of additional request methods by default, and you can use custom methods. Select the method dropdown list, edit the method name text, and save your new method. To delete a method, hover over it in the list and select the trash icon.
 
 > To try out the `https://postman-echo.com/get` endpoint, leave the `GET` method selected and select __Send__.
 
-The same location (sometimes called "route") can provide more than one endpoint, by accepting different methods. For example, an API might have a `POST` `/customer` endpoint for adding a new customer, and a `GET` `/customer` endpoint for retrieving an existing customer.
+The same location (sometimes called "route") can provide more than one endpoint by accepting different methods. For example, an API might have a `POST` `/customer` endpoint for adding a new customer, and a `GET` `/customer` endpoint for retrieving an existing customer.
 
 * If your request doesn't require parameters or authentication, you can select __Send__ to fetch a response.
 * Otherwise, specify your [parameters](#sending-parameters) and any [body data](#sending-body-data) you need to send to the API.
@@ -149,7 +149,7 @@ You can send path and query parameters with your requests using the URL field an
 
 To send a query parameter, add it directly to the URL or open __Params__ and enter the name and value. _You can enter your query parameters in either the URL or UI fields and it will update elsewhere._
 
-> Parameters aren't automatically be URL-encoded. Right-click selected text, and choose __EncodeURIComponent__ to manually encode a parameter value.
+> Parameters aren't automatically URL-encoded. Right-click selected text, and choose __EncodeURIComponent__ to manually encode a parameter value.
 
 To send a path parameter, enter the parameter name into the URL field, after a colon, for example `:id`. When you enter a path parameter, Postman will populate it in the __Params__ tab, where you can also edit it.
 
@@ -194,7 +194,7 @@ URL-encoded data uses the same encoding as URL parameters. If your API requires 
 
 #### Raw data
 
-You can use raw body data to send anything you can enter as text. Use the __raw__ tab, and the type drop-down list to indicate the format of your data (__Text__, __JavaScript__, __JSON__, __HTML__, or __XML__) and Postman will enable syntax-highlighting as well as appending the relevant headers to your request.
+You can use raw body data to send anything you can enter as text. Use the __raw__ tab, and the type dropdown list to indicate the format of your data (__Text__, __JavaScript__, __JSON__, __HTML__, or __XML__) and Postman will enable syntax-highlighting as well as appending the relevant headers to your request.
 
 <img alt="Body JSON" src="https://assets.postman.com/postman-docs/body-raw-data.jpg" width="500px"/>
 
@@ -232,7 +232,7 @@ Some APIs require you to send particular headers along with requests, typically 
 
 ![Header Types](https://assets.postman.com/postman-docs/presets-v9.jpg)
 
-> You can save commonly used headers together in a header preset. In the __Headers__ tab, select __Presets__, and choose __Manage Presets__. Add each preset by providing a name, and entering the key plus value. Select __Add__ and your preset will be available in the __Presets__ drop-down list. Selecting the preset will autopopulate the fields in your request headers.
+> You can save commonly used headers together in a header preset. In the __Headers__ tab, select __Presets__, and choose __Manage Presets__. Add each preset by providing a name, and entering the key plus value. Select __Add__ and your preset will be available in the __Presets__ dropdown list. Selecting the preset will autopopulate the fields in your request headers.
 
 #### Autogenerated headers
 
