@@ -24,7 +24,7 @@ With the Collection SDK, you can create and manipulate collections, exporting th
 
 ## Accessing the Collection SDK
 
-The Collection SDK is an open source project—[visit the repo](https://github.com/postmanlabs/postman-collection) for more detail on using the module in your own projects. The [SDK documentation](http://www.postmanlabs.com/postman-collection/) provides an overview of the available objects and methods within the SDK, as well as an intro to the related [concepts](http://www.postmanlabs.com/postman-collection/tutorial-concepts.html).
+The Collection SDK is an open-source project. [Visit the repo](https://github.com/postmanlabs/postman-collection) for more detail on using the module in your own projects. The [SDK documentation](http://www.postmanlabs.com/postman-collection/) provides an overview of the available objects and methods within the SDK, as well as an intro to the related [concepts](http://www.postmanlabs.com/postman-collection/tutorial-concepts.html).
 
 You can install the SDK from [NPM](https://www.npmjs.com/package/postman-collection) or direct from the repo. The following excerpt demonstrates using the SDK to read a file and parse it into a collection object in JavaScript:
 
