@@ -2,6 +2,7 @@
 title: "OpenAPI 2.0 warnings"
 order: 118
 page_id: "security_warnings_openapi2.0"
+updated: 2021-11-11
 warning: false
 contextual_links:
   - type: section
@@ -56,16 +57,16 @@ For all APIs defined in OpenAPI 2.0, the following list describes possible warni
     * [Token URL uses HTTP protocol](#token-url-uses-http-protocol)
     * [OAuth authentication uses the deprecated implicit flow](#oauth-authentication-uses-the-deprecated-implicit-flow)
     * [OAuth authentication uses the deprecated password flow](#oauth-authentication-uses-the-deprecated-password-flow)
-* Consumes field should properly enforce MIME types
-    * Consumes field is not defined
-    * Consumes field does not contain any item
-    * Consumes field for the operation does not contain any item
-    * Operation does not contain consumes field
-* Produces field should properly enforce MIME types
-    * Produces field is not defined
-    * Produces field does not contain any item
-    * Produces field for the operation does not contain any item
-    * Operation does not contain produces field
+* [Consumes field should properly enforce MIME types](#consumes-field-should-properly-enforce-mime-types)
+    * [Consumes field is not defined](#consumes-field-is-not-defined)
+    * [Consumes field does not contain any item](#consumes-field-does-not-contain-any-item)
+    * [Consumes field for the operation does not contain any item](#consumes-field-for-the-operation-does-not-contain-any-item)
+    * [Operation does not contain consumes field](#consumes-field-for-the-operation-does-not-contain-any-item)
+* [Produces field should properly enforce MIME types](#produces-field-should-properly-enforce-mime-types)
+    * [Produces field is not defined](#produces-field-is-not-defined)
+    * [Produces field does not contain any item](#produces-field-does-not-contain-any-item)
+    * [Produces field for the operation does not contain any item](#produces-field-for-the-operation-does-not-contain-any-item)
+    * [Operation does not contain produces field](#operation-does-not-contain-produces-field)
 
 ## Global security field should properly enforce security
 
@@ -625,6 +626,8 @@ securityDefinitions:
 
 ```
 
+&nbsp;
+
 ## Consumes field should properly enforce MIME types
 
 ### Consumes field is not defined
@@ -642,6 +645,8 @@ consumes:
   - application/json
 ```
 
+&nbsp;
+
 ### Consumes field does not contain any item
 
 | Severity | Issue description | Possible fix |
@@ -657,6 +662,8 @@ consumes:
   - application/json
 ...
 ```
+
+&nbsp;
 
 ### Consumes field for the operation does not contain any item
 
@@ -674,6 +681,8 @@ paths:
       consumes:
         - application/json
 ```
+
+&nbsp;
 
 ### Operation does not contain consumes field
 
@@ -694,6 +703,8 @@ paths:
 ...
 ```
 
+&nbsp;
+
 ## Produces field should properly enforce MIME types
 
 ### Produces field is not defined
@@ -713,6 +724,8 @@ produces:
   - application/json
 ```
 
+&nbsp;
+
 ### Produces field does not contain any item
 
 | Severity | Issue description | Possible fix |
@@ -728,6 +741,8 @@ produces:
   - application/json
 ...
 ```
+
+&nbsp;
 
 ### Produces field for the operation does not contain any item
 
@@ -745,6 +760,8 @@ paths:
       produces:
         - application/json
 ```
+
+&nbsp;
 
 ### Operation does not contain produces field
 
@@ -764,3 +781,5 @@ paths:
   ...
 ...
 ```
+
+&nbsp;
