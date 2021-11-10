@@ -651,7 +651,7 @@ consumes:
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| High   | If the `consumes` field contains an empty array, the API can accept any type of input by default. | The global consumes field should contain at least one item with valid MIME type in the array.  |
+| High   | If the `consumes` field contains an empty array, the API can accept any type of input by default. | The global `consumes` field should contain at least one item with valid MIME type in the array.  |
 
 **Resolution:**
 
@@ -688,7 +688,7 @@ paths:
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| Medium | If both the global `consumes` field and operation’s `consumes` field (for `PUT`/`PATCH`/`POST`) are not defined, anyone can exploit your API. | Define a consumes field in the operation if not defined at the global level. |
+| Medium | If both the global `consumes` field and operation’s `consumes` field (for `PUT`/`PATCH`/`POST`) are not defined, anyone can exploit your API. | Define a `consumes` field in the operation if not defined at the global level. |
 
 **Resolution:**
 
