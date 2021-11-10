@@ -56,6 +56,16 @@ For all APIs defined in OpenAPI 2.0, the following list describes possible warni
     * [Token URL uses HTTP protocol](#token-url-uses-http-protocol)
     * [OAuth authentication uses the deprecated implicit flow](#oauth-authentication-uses-the-deprecated-implicit-flow)
     * [OAuth authentication uses the deprecated password flow](#oauth-authentication-uses-the-deprecated-password-flow)
+* Consumes field should properly enforce MIME types
+    * Consumes field is not defined
+    * Consumes field does not contain any item
+    * Consumes field for the operation does not contain any item
+    * Operation does not contain consumes field
+* Produces field should properly enforce MIME types
+    * Produces field is not defined
+    * Produces field does not contain any item
+    * Produces field for the operation does not contain any item
+    * Operation does not contain produces field
 
 ## Global security field should properly enforce security
 
@@ -615,4 +625,142 @@ securityDefinitions:
 
 ```
 
-&nbsp;
+## Consumes field should properly enforce MIME types
+
+### Consumes field is not defined
+
+| Severity | Issue description | Possible fix |
+| ----------- | ----------- | ----------- |
+| High | If the global `consumes` field is not defined, the API could potentially accept any form of data as input. This could open your API to any number of potential attacks, like buffer overflow, decoding errors, or SQL injection attacks. | The `consumes` field should be defined in the schema. |
+
+**Resolution:**
+
+```json
+swagger: '2.0'
+paths: {}
+consumes:
+  - application/json
+```
+
+### Consumes field does not contain any item
+
+| Severity | Issue description | Possible fix |
+| ----------- | ----------- | ----------- |
+| High   | If the `consumes` field contains an empty array, the API can accept any type of input by default. | The global consumes field should contain at least one item with valid MIME type in the array.  |
+
+**Resolution:**
+
+```json
+swagger: '2.0'
+paths: {}
+consumes:
+  - application/json
+...
+```
+
+### Consumes field for the operation does not contain any item
+
+| Severity | Issue description | Possible fix |
+| ----------- | ----------- | ----------- |
+| High | No `consumes` field in the operation means that API can accept any type of input by default. | The `consumes` field in `PUT`/`PATCH`/`POST` operations should contain at least one item in the array. |
+
+**Resolution:**
+
+```json
+swagger: '2.0'
+paths:
+  /user/{userId}:
+    put:
+      consumes:
+        - application/json
+```
+
+### Operation does not contain consumes field
+
+| Severity | Issue description | Possible fix |
+| ----------- | ----------- | ----------- |
+| Medium | If both the global `consumes` field and operation’s `consumes` field (for `PUT`/`PATCH`/`POST`) are not defined, anyone can exploit your API. | Define a consumes field in the operation if not defined at the global level. |
+
+**Resolution:**
+
+```json
+swagger: '2.0'
+paths:
+  /user/{userId}:
+    put:
+      consumes:
+        - application/json
+  ...
+...
+```
+
+## Produces field should properly enforce MIME types
+
+### Produces field is not defined
+
+| Severity | Issue description | Possible fix |
+| ----------- | ----------- | ----------- |
+| High | If the global `produces` field is not defined, the API could potentially return any form of data.  | The `produces` field should be defined in the schema.|
+
+**Resolution:**
+
+```json
+swagger: '2.0'
+paths: {}
+consumes:
+  - application/json
+produces:
+  - application/json
+```
+
+### Produces field does not contain any item
+
+| Severity | Issue description | Possible fix |
+| ----------- | ----------- | ----------- |
+| High | If the `produces` field contains an empty array, the API can return any type of data by default. | The global `produces` field should contain at least one item with a valid MIME type in the array. |
+
+**Resolution:**
+
+```json
+swagger: '2.0'
+paths: {}
+produces:
+  - application/json
+...
+```
+
+### Produces field for the operation does not contain any item
+
+| Severity | Issue description | Possible fix |
+| ----------- | ----------- | ----------- |
+| High | No `produces` field in the operation means that API can return any type of data by default.| The `produces` field in any operation should contain at least one item in the array.|
+
+**Resolution:**
+
+```json
+swagger: '2.0'
+paths:
+  /user/{userId}:
+    get:
+      produces:
+        - application/json
+```
+
+### Operation does not contain produces field
+
+| Severity | Issue description | Possible fix |
+| ----------- | ----------- | ----------- |
+| Medium | If both the global `produces` field and operation’s `produces` field for any operation are not defined, anyone can exploit your API. | Define a `produces` field in the operation if not defined at the global level.|
+
+**Resolution:**
+
+```json
+swagger: '2.0'
+paths:
+  /user/{userId}:
+    get:
+      produces:
+        - application/json
+  ...
+...
+```
