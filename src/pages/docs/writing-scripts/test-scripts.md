@@ -2,6 +2,7 @@
 title: "Writing tests"
 order: 43
 page_id: "test_scripts"
+updated: 2021-11-12
 search_keyword: "pm.response, pm.test, pm.expect"
 contextual_links:
   - type: section
@@ -35,7 +36,7 @@ contextual_links:
     url: "https://youtu.be/QGNJ0wh5Ry0"
   - type: link
     name: "Continuous Quality with Postman"
-    url:  "https://youtu.be/zrmQAgixMpU"    
+    url:  "https://youtu.be/zrmQAgixMpU"
   - type: subtitle
     name: "Related Blog Posts"
   - type: link
@@ -66,13 +67,13 @@ warning: false
 
 ---
 
-You can write test scripts for your Postman API requests in JavaScript. Tests allow you to ensure that your API is working as expected, to establish that integrations between services are functioning reliably, and to verify that new developments haven't broken any existing functionality. You can also use test code to aid the debugging process when something goes wrong with your API project.
+You can write test scripts for your Postman API requests in JavaScript. Tests enable you to ensure that your API is working as expected, to establish that integrations between services are functioning reliably, and to verify that new developments haven't broken any existing functionality. You can also use test code to aid the debugging process when something goes wrong with your API project.
 
-> For example, you might write a test to validate your API's error handling by sending a request with incomplete data.
+For example, you might write a test to validate your API's error handling by sending a request with incomplete data.
 
-You can add tests to individual [requests](/docs/sending-requests/requests/), folders, and [collections](/docs/sending-requests/intro-to-collections/). Postman includes code snippets you can click to add, then amend to suit your logic if necessary.
+You can add tests to individual [requests](/docs/sending-requests/requests/), folders, or [collections](/docs/sending-requests/intro-to-collections/). Postman includes code snippets you can select to add, then amend to suit your logic if necessary.
 
-To add tests to a request, open the request and enter your code in the Tests tab. Tests will execute after the request runs. You will be able to see the output in the __Test Results__ tab alongside the response data.
+To add tests to a request, open the request and enter your code in the **Tests** tab. Tests will execute after the request runs. You will be able to see the output in the __Test Results__ tab alongside the response data.
 
 ![Request Test Tab](https://assets.postman.com/postman-docs/request-test-tab-v8.jpg)
 
@@ -80,13 +81,13 @@ To add tests to a request, open the request and enter your code in the Tests tab
 
 Your test scripts can use dynamic variables, carry out test assertions on response data, and pass data between requests. In the __Tests__ tab for a request, you can enter your JavaScript manually or use the __Snippets__ you'll see to the right of the code editor.
 
-Tests will execute after the response is received, so when you click __Send__, Postman will run your test script when the response data returns from the API.
+Tests will execute after the response is received. When you click __Send__, Postman will run your test script when the response data returns from the API.
 
 > If you need to execute code before a request runs, use [Pre-request Scripts](/docs/writing-scripts/pre-request-scripts/) instead. See [Intro to scripts](/docs/writing-scripts/intro-to-scripts/) for more on the how your scripts execute when your requests run.
 
-To carry out tests in order to validate the data returned by a request, you can use the `pm.response` object. You can define tests using the `pm.test` function, providing a name and function that returns a boolean (`true` or `false`) value indicating whether the test passed or failed. You can use [ChaiJS BDD](https://www.chaijs.com/api/bdd/) syntax and `pm.expect` in your assertions to test the response detail.
+To validate the data returned by a request, you can use the `pm.response` object in a test. You can define tests using the `pm.test` function, providing a name and function that returns a boolean (`true` or `false`) value indicating if the test passed or failed. You can use [ChaiJS BDD](https://www.chaijs.com/api/bdd/) syntax and `pm.expect` in your assertions to test the response detail.
 
-The first parameter for the `.test` function is a text string that will appear in the test result output, so you can use it to identify your tests, and communicate the purpose of a test to anyone viewing the results.
+The first parameter for the `.test` function is a text string that will appear in the test result output. You can use this to identify your tests, and communicate the purpose of a test to anyone viewing the results.
 
 For example, enter the following in the __Tests__ tab for any request to test whether the response status code is `200`.
 
@@ -102,7 +103,7 @@ Click __Send__ to run your request and open __Test Results__ in the response sec
 
 <img src="https://assets.postman.com/postman-docs/test-result-status-v8.jpg" alt="Test Results" width="500px"/>
 
-If the request returned a `200` status code, the test will pass—otherwise it will fail. Try changing the expected status code in your test script and running the request again.
+If the request returned a `200` status code, the test will pass. Otherwise, it will fail. Try changing the expected status code in your test script and running the request again.
 
 <img src="https://assets.postman.com/postman-docs/failed-test-status-v8.jpg" alt="Failed Test Results" width="500px"/>
 
@@ -144,13 +145,13 @@ Your scripts can include however many tests you need and will save along with th
 
 ### Using snippets
 
-You will see a selection of commonly used test code excerpts in __Snippets__ to the right of the tests editor. Click to add one and it will appear in your editor. Snippets can speed up the process of getting started with your scripts—you can edit snippets after adding them to meet your own testing requirements.
+You will see a selection of commonly used test code excerpts in __Snippets__ to the right of the tests editor. Select one and it will appear in your editor. Snippets can speed up the process of getting started with your scripts. You can edit snippets after adding them to meet your own testing requirements.
 
 <img src="https://assets.postman.com/postman-docs/added-test-snippet-v8.jpg" alt="Added Code Snippet" width="600px"/>
 
 ## Testing collections and folders
 
-You can add test scripts to a collection, a folder, or a single request within a collection. A test script associated with a collection will run after every request in the collection. A test script associated with a folder will run after every request in the folder. This allows you to reuse commonly executed tests after every request.
+You can add test scripts to a collection, a folder, or a single request within a collection. A test script associated with a collection will run after every request in the collection. A test script associated with a folder will run after every request in the folder. This enables you to reuse commonly executed tests after every request.
 
 > Adding scripts to collections and folders allows you to test the workflows in your API project. This helps to ensure that your requests cover typical scenarios, providing a reliable experience for application users.
 
