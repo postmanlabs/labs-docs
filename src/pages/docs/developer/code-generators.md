@@ -2,6 +2,7 @@
 title: "Code generator library"
 order: 149.1
 page_id: "code-generators"
+updated: 2021-11-10
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -18,17 +19,17 @@ warning: false
 
 ---
 
-You can generate client code for your API collections in Postman. The node.js code generator module converts a request into client code for your target language in conjunction with the [Collection SDK](/docs/developer/collection-sdk/).
+You can generate client code for your API collections in Postman. Postman's Node.js code generator module converts a request into client code for your target language in conjunction with the [Collection SDK](/docs/developer/collection-sdk/).
 
-The code generator takes a Collection SDK [Request object](http://www.postmanlabs.com/postman-collection/Request.html) and turns it into code to make the same request in a client app using a specified language / framework.
+The code generator takes a Collection SDK [Request object](http://www.postmanlabs.com/postman-collection/Request.html) and turns it into code to make the same request in a client app using the specified language and framework.
 
-You can install the code generator library from [NPM](https://www.npmjs.com/package/postman-code-generators) or by [cloning it from the repo](https://github.com/postmanlabs/postman-code-generators).
+You can install the code generator library from [npm](https://www.npmjs.com/package/postman-code-generators) or by [cloning it from its repo](https://github.com/postmanlabs/postman-code-generators).
 
-> If you just need to generate client code for a request or collection [you can do so in the Postman app](/docs/sending-requests/generate-code-snippets/).
+> You can also generate client code for a request or collection [in the Postman app](/docs/sending-requests/generate-code-snippets/).
 
 ## Using code generation programmatically
 
-The code generator library allows you to generate client requests in your application code. The following simplified code excerpt demonstrates using `convert` to build a client code snippet from a Request object via the Collection SDK, targeting node.js:
+The following simplified code excerpt demonstrates using `convert` to build a client code snippet from a Request object with the Collection SDK, targeting Node.js:
 
 ```js
 var codegen = require('postman-code-generators'),
@@ -76,7 +77,7 @@ var codegen = require('postman-code-generators'),
 
 ## Supported languages
 
-Since the code generator module is an open source project, if there is a language or framework you would like to be able to generate client code for, but that isn't currently provided, you can add it yourself by [contributing to the project](https://github.com/postmanlabs/postman-code-generators/blob/master/CONTRIBUTING.md). This allows people to access your contribution not only by using the code utility, but also in the Postman app itself.
+Since the code generator module is an open-source project, if there is a language or framework you would like to be able to generate client code for, but that isn't currently provided, you can add it yourself by [contributing to the project](https://github.com/postmanlabs/postman-code-generators/blob/master/CONTRIBUTING.md). This enables people to access your contribution not only by using the code utility, but also in the Postman app itself.
 
 ## Next steps
 
