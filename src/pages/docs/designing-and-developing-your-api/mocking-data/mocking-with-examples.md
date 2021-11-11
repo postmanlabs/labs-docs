@@ -175,7 +175,7 @@ When you call the mock server endpoint, you'll see the response data change to s
 
 ## Using query parameters
 
-Postman's mock service uses a [matching algorithm](/docs/designing-and-developing-your-api/mocking-data/matching-algorithm/) to select the most appropriate saved example to return in response to a request. As part of this algorithm, the mock server looks at the query parameters when matching requests to saved examples. This means that, if you have examples that differ only in their query parameters, you can mock different responses for different query parameters on the same request path. In this case, the mock server will return the exact response matching that request path and the corresponding query parameters.
+Postman's mock service uses a [matching algorithm](/docs/designing-and-developing-your-api/mocking-data/matching-algorithm/) to select the most appropriate saved example to return in response to a request. As part of this algorithm, the mock server looks at the query parameters when matching requests to saved examples. If you have examples that differ only in their query parameters, you can mock different responses for different query parameters on the same request path. In this case, the mock server will return the exact response matching that request path and the corresponding query parameters.
 
 Here's a scenario that illustrates how matching query parameters works:
 
