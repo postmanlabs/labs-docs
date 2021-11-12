@@ -61,7 +61,7 @@ For all APIs defined in OpenAPI 2.0, the following list describes possible warni
     * [Consumes field is not defined](#consumes-field-is-not-defined)
     * [Consumes field does not contain any item](#consumes-field-does-not-contain-any-item)
     * [Consumes field for the operation does not contain any item](#consumes-field-for-the-operation-does-not-contain-any-item)
-    * [Operation does not contain consumes field](#consumes-field-for-the-operation-does-not-contain-any-item)
+    * [Operation does not contain consumes field](#operation-does-not-contain-consumes-field)
 * [Produces field should properly enforce MIME types](#produces-field-should-properly-enforce-mime-types)
     * [Produces field is not defined](#produces-field-is-not-defined)
     * [Produces field does not contain any item](#produces-field-does-not-contain-any-item)
