@@ -518,7 +518,7 @@ class Header extends React.Component {
                         className="dropdown-item"
                         href="https://store.postman.com/"
                         target="_blank"
-                        rel="noreferrer"
+                        rel="noopener"
                       >
                         Postman swag
                       </a>
@@ -541,7 +541,7 @@ class Header extends React.Component {
                         className="dropdown-item"
                         href="https://status.postman.com/"
                         target="_blank"
-                        rel="noreferrer"
+                        rel="noopener"
                       >
                         Postman status
                       </a>
@@ -577,7 +577,7 @@ class Header extends React.Component {
           </div>
         </nav>
         <nav className="navbar-v6 navbar navbar-expand-lg navbar-light bg-light nav-secondary blurred-container">
-          <a className="navbar-brand" href="/">
+          <a className="navbar-brand" href="/docs/getting-started/introduction/">
             <span id="learning-center-home-link" className="nav-link uber-nav">
               Learning Center
               <span className="sr-only">(current)</span>
