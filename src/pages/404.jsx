@@ -1,7 +1,7 @@
 import React from 'react';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
-import errordog from '../images/postman-404-illustration-v6.svg';
+import ReflowImgWrapper from '../components/MarketingPages/ReflowImgWrapper';
 
 class NotFoundPage extends React.Component {
   componentDidMount() {
@@ -20,7 +20,7 @@ class NotFoundPage extends React.Component {
         <div className="container" role="link" tabIndex={0}>
           <div style={{ paddingTop: '80' + 'px', paddingBottom: '80' + 'px' }} className="row">
             <div className="col-md-8 align-self-center pr-md-5">
-              <img src={errordog} alt="A bartnder in space letting you know that you're on the 404 page" />
+              <ReflowImgWrapper/>
             </div>
             <div className="col-md-4 align-self-center">
               <h1>404</h1>
