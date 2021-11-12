@@ -31,7 +31,7 @@ const ContextualLinks = ({ links }) => (
                 <p>
                   You are currently in develop mode.
                   Dynamic blog posts will not be displayed locally.
-                  <a style={{ fontSize: 'inherit' }} href="https://github.com/postmanlabs/postman-docs/blob/develop/CONTRIBUTING.md#to-use-the-dynamic-blog-posts-feature" target="_blank" rel="noopener noreferrer">See Contributing doc for details</a>
+                  <a style={{ fontSize: 'inherit' }} href="https://github.com/postmanlabs/postman-docs/blob/develop/CONTRIBUTING.md#to-use-the-dynamic-blog-posts-feature" target="_blank" rel="noopener">See Contributing doc for details</a>
                   .
                 </p>
               </div>
