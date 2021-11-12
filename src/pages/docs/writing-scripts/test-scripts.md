@@ -75,13 +75,13 @@ You can add tests to individual [requests](/docs/sending-requests/requests/), fo
 
 To add tests to a request, open the request and enter your code in the **Tests** tab. Tests will execute after the request runs. You will be able to see the output in the __Test Results__ tab alongside the response data.
 
-![Request Test Tab](https://assets.postman.com/postman-docs/request-test-tab-v8.jpg)
+![Request Test Tab](https://assets.postman.com/postman-docs/request-test-tab-v9.jpg)
 
 ## Writing test scripts
 
 Your test scripts can use dynamic variables, carry out test assertions on response data, and pass data between requests. In the __Tests__ tab for a request, you can enter your JavaScript manually or use the __Snippets__ you'll see to the right of the code editor.
 
-Tests will execute after the response is received. When you click __Send__, Postman will run your test script when the response data returns from the API.
+Tests will execute after the response is received. When you select __Send__, Postman will run your test script when the response data returns from the API.
 
 > If you need to execute code before a request runs, use [Pre-request Scripts](/docs/writing-scripts/pre-request-scripts/) instead. See [Intro to scripts](/docs/writing-scripts/intro-to-scripts/) for more on the how your scripts execute when your requests run.
 
@@ -97,19 +97,11 @@ pm.test("Status test", function () {
 });
 ```
 
-![Example Test Status](https://assets.postman.com/postman-docs/example-test-status-v8.jpg)
-
-Click __Send__ to run your request and open __Test Results__ in the response section. The tab header displays how many tests passed and how many ran in total. You can also toggle between passed, skipped, and failed test results.
-
-<img src="https://assets.postman.com/postman-docs/test-result-status-v8.jpg" alt="Test Results" width="500px"/>
+Select __Send__ to run your request and open __Test Results__ in the response section. The tab header displays how many tests passed and how many ran in total. You can also toggle between passed, skipped, and failed test results.
 
 If the request returned a `200` status code, the test will pass. Otherwise, it will fail. Try changing the expected status code in your test script and running the request again.
 
-<img src="https://assets.postman.com/postman-docs/failed-test-status-v8.jpg" alt="Failed Test Results" width="500px"/>
-
 Using the `pm.expect` syntax gives your test result messages a different format—experiment with the alternatives to achieve the output you find most useful.
-
-<img src="https://assets.postman.com/postman-docs/expect-test-syntax-v8.jpg" alt="Failed Test Results" width="500px"/>
 
 > Use the __Run in Postman__ button in the [Intro to writing tests collection](https://documenter.postman.com/view/1559645/RzZFCGFR?version=latest) to import templates containing some example test scripts into Postman and experiment with the code.
 
@@ -141,13 +133,11 @@ pm.test("response must be valid and have a body", function () {
 });
 ```
 
-Your scripts can include however many tests you need and will save along with the rest of your request detail when you click __Save__. If you share a collection, or publish documentation / the Run in Postman button, your test code will be included for anyone who views or imports your templates.
+Your scripts can include however many tests you need and will save along with the rest of your request detail when you select __Save__. If you share a collection, publish documentation, or use the Run in Postman button, your test code will be included for anyone who views or imports your templates.
 
 ### Using snippets
 
-You will see a selection of commonly used test code excerpts in __Snippets__ to the right of the tests editor. Select one and it will appear in your editor. Snippets can speed up the process of getting started with your scripts. You can edit snippets after adding them to meet your own testing requirements.
-
-<img src="https://assets.postman.com/postman-docs/added-test-snippet-v8.jpg" alt="Added Code Snippet" width="600px"/>
+There's a selection of commonly used test code excerpts in __Snippets__ to the right of the tests editor. Select one and it will insert it in your editor. Snippets can speed up the process of getting started with your scripts. You can edit snippets after adding them to meet your own testing requirements.
 
 ## Testing collections and folders
 
@@ -155,13 +145,11 @@ You can add test scripts to a collection, a folder, or a single request within a
 
 > Adding scripts to collections and folders allows you to test the workflows in your API project. This helps to ensure that your requests cover typical scenarios, providing a reliable experience for application users.
 
-You can update collection and folder scripts by clicking __View more actions__ (...) next to the collection or folder name, and selecting __Edit__. Choose the __Tests__ tab to add or update your script. You can also add collection scripts when you first create a collection.
-
-<img src="https://assets.postman.com/postman-docs/collection-test-script-v8.jpg" alt="Collection Tests" width="500px"/>
+You can update collection and folder scripts by selecting the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to the collection or folder name, and selecting __Edit__. Choose the __Tests__ tab to add or update your script. You can also add collection scripts when you first create a collection.
 
 When you [run a collection](/docs/running-collections/intro-to-collection-runs/) you will see the test results output by the collection runner.
 
-![Collection Tests](https://assets.postman.com/postman-docs/collection-tests-run-v8.jpg)
+![Collection Tests](https://assets.postman.com/postman-docs/collection-tests-run-v9.jpg)
 
 You can write scripts to control the order in which your requests run using [branching and looping](/docs/running-collections/building-workflows/).
 
