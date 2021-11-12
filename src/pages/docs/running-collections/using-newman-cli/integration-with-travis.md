@@ -61,7 +61,7 @@ Let's learn more about integration with Travis:
 [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/a19ae42317a16e4b8c8b#?env%5Btests%5D=W3sia2V5IjoibGFzdERheSIsInZhbHVlIjoiIiwiZW5hYmxlZCI6dHJ1ZX1d)
 
 1. **Select a Postman collection with tests**: For now, let’s assume you already have a Postman collection with tests. Download the sample collection and environment by clicking the Run in Postman button if you want to follow this example.
-1. **Set up a GitHub repository**: Travis CI is free for open source projects on GitHub. This example keeps Postman tests in a public GitHub repo.
+1. **Set up a GitHub repository**: Travis CI is free for open-source projects on GitHub. This example keeps Postman tests in a public GitHub repo.
 1. **Set up Travis CI**: Follow the [Travis CI getting started guide](https://docs.travis-ci.com/user/getting-started) for the complete walk through.
 
    [Sign in to Travis CI](https://travis-ci.org/auth) with your GitHub account.
