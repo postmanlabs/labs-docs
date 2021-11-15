@@ -35,7 +35,7 @@ warning: false
 
 ---
 
-You can use the **Tests** tab in your requests, folders, and collections to write tests that will execute when Postman receives a response from the API you sent the request to. You can add however many tests you need for each request. When you add tests to a folder or Collection, they will execute after each request inside it.
+Use the **Tests** tab in your requests, folders, and collections to write tests that will execute when Postman receives a response from the API you sent the request to. Add however many tests you need for each request. When you add tests to a folder or Collection, they will execute after each request inside it.
 
 ## Contents
 
@@ -84,7 +84,7 @@ This test checks the response code returned by the API. If the response code is 
 
 Try changing the status code in the assertion code and sending the request again to see how test results appear differently when they pass or fail.
 
-You can structure your test assertions in a variety of ways to suit your logic and preference in terms of how you want the results to output. The following code is an alternative way of achieving the same test as the one above using the `expect` syntax:
+Structure your test assertions in a variety of ways to suit your logic and preference in terms of how you want the results to output. The following code is an alternative way of achieving the same test as the one above using the `expect` syntax:
 
 ```js
 pm.test("Status code is 200", () => {
@@ -96,7 +96,7 @@ pm.test("Status code is 200", () => {
 
 ## Using multiple assertions
 
-Your tests can include multiple assertions as part of a single test. You can use this to group together related assertions.
+Your tests can include multiple assertions as part of a single test. Use this to group together related assertions:
 
 ```js
 pm.test("The response has all properties", () => {
@@ -135,7 +135,7 @@ const parse = require('csv-parse/lib/sync');
 const responseJson = parse(pm.response.text());
 ```
 
-To parse HTML, you can use [cheerio](https://cheerio.js.org/):
+To parse HTML, use [cheerio](https://cheerio.js.org/):
 
 ```js
 const $ = cheerio.load(pm.response.text());
@@ -147,7 +147,7 @@ console.log($.html());
 
 If you can't parse the response body to JavaScript because it's not formatted as JSON, XML, HTML, CSV, or any other parsable data format, you can still make assertions on the data.
 
-You can test if the response body contains a string:
+Test if the response body contains a string:
 
 ```js
 pm.test("Body contains string",() => {
@@ -155,7 +155,7 @@ pm.test("Body contains string",() => {
 });
 ```
 
-This doesn't tell you where the string was encountered because it carries out the test on the whole response body. You can also test if a response matches a string (which will typically only be effective with short responses):
+This doesn't tell you where the string was encountered because it carries out the test on the whole response body. Test if a response matches a string (which will typically only be effective with short responses):
 
 ```js
 pm.test("Body is string", function () {
@@ -169,7 +169,7 @@ Your tests can check various aspects of a request response, including the [body]
 
 ### Testing response body
 
-You can check for particular values in the response body:
+Check for particular values in the response body:
 
 ```js
 pm.test("Person is Jane", () => {
@@ -181,7 +181,7 @@ pm.test("Person is Jane", () => {
 
 ### Testing status codes
 
-You can test for the response status code:
+Test for the response status code:
 
 ```js
 pm.test("Status code is 201", () => {
@@ -189,7 +189,7 @@ pm.test("Status code is 201", () => {
 });
 ```
 
-If you want to test for the status code being one of a set, you can include them all in an array and use `oneOf`:
+If you want to test for the status code being one of a set, include them all in an array and use `oneOf`:
 
 ```js
 pm.test("Successful POST request", () => {
@@ -197,7 +197,7 @@ pm.test("Successful POST request", () => {
 });
 ```
 
-You can also check the status code text:
+Check the status code text:
 
 ```js
 pm.test("Status code name has string", () => {
@@ -207,7 +207,7 @@ pm.test("Status code name has string", () => {
 
 ### Testing headers
 
-You can check that a response header is present:
+Check that a response header is present:
 
 ```js
 pm.test("Content-Type header is present", () => {
@@ -215,7 +215,7 @@ pm.test("Content-Type header is present", () => {
 });
 ```
 
-You can also test for a response header having a particular value:
+Test for a response header having a particular value:
 
 ```js
 pm.test("Content-Type header is application/json", () => {
@@ -225,7 +225,7 @@ pm.test("Content-Type header is application/json", () => {
 
 ### Testing cookies
 
-You can test if a cookie is present in the response:
+Test if a cookie is present in the response:
 
 ```js
 pm.test("Cookie JSESSIONID is present", () => {
@@ -233,7 +233,7 @@ pm.test("Cookie JSESSIONID is present", () => {
 });
 ```
 
-You can also test for a particular cookie value:
+Test for a particular cookie value:
 
 ```js
 pm.test("Cookie isLoggedIn has value 1", () => {
@@ -243,7 +243,7 @@ pm.test("Cookie isLoggedIn has value 1", () => {
 
 ### Testing response times
 
-You can test for the response time to be within a specified range:
+Test for the response time to be within a specified range:
 
 ```js
 pm.test("Response time is less than 200ms", () => {
@@ -259,7 +259,7 @@ Read on for some examples of common assertions you might find useful in your scr
 
 ### Asserting a response value against a variable
 
-You can check if a response property has the same value as a variable (in this case an environment variable):
+Check if a response property has the same value as a variable (in this case an environment variable):
 
 ```js
 pm.test("Response property matches environment variable", function () {
@@ -271,7 +271,7 @@ pm.test("Response property matches environment variable", function () {
 
 ### Asserting a value type
 
-You can test the type of any part of the response:
+Test the type of any part of the response:
 
 ```js
 /* response has this structure:
@@ -298,7 +298,7 @@ pm.test("Test data type of the response", () => {
 
 ### Asserting array properties
 
-You can check if an array is empty, and if it contains particular items:
+Check if an array is empty, and if it contains particular items:
 
 ```js
 /*
@@ -342,7 +342,7 @@ pm.test("Test array properties", () => {
 
 ### Asserting object properties
 
-You can assert that an object contains keys or properties:
+Assert that an object contains keys or properties:
 
 ```js
 pm.expect({a: 1, b: 2}).to.have.all.keys('a', 'b');
@@ -357,7 +357,7 @@ pm.expect({a: 1, b: 2}).to.be.an('object')
 
 ### Asserting that a value is in a set
 
-You can check a response value against a list of valid options:
+Check a response value against a list of valid options:
 
 ```js
 pm.test("Value is in valid list", () => {
@@ -368,7 +368,7 @@ pm.test("Value is in valid list", () => {
 
 ### Asserting that an object is contained
 
-You can check that an object is part of a parent object:
+Check that an object is part of a parent object:
 
 ```js
 /*
@@ -393,7 +393,7 @@ Using `.deep` causes all `.equal`, `.include`, `.members`, `.keys`, and `.proper
 
 ### Asserting the current environment
 
-You can check the active (currently selected) environment in Postman:
+Check the active (currently selected) environment in Postman:
 
 ```js
 pm.test("Check the active environment", () => {
@@ -407,20 +407,20 @@ When you encounter errors or unexpected behavior in your test scripts, the Postm
 
 [![Console info](https://assets.postman.com/postman-docs/console-logs-in-pane-v8.jpg)](https://assets.postman.com/postman-docs/console-logs-in-pane-v8.jpg)
 
-You can log the value of a variable or response property:
+Log the value of a variable or response property:
 
 ```js
 console.log(pm.collectionVariables.get("name"));
 console.log(pm.response.json().name);
 ```
 
-You can log the type of a variable or response property:
+Log the type of a variable or response property:
 
 ```js
 console.log(typeof pm.response.json().id);
 ```
 
-You can use console logs to mark code execution, sometimes known as "trace statements":
+Use console logs to mark code execution, sometimes known as "trace statements":
 
 ```js
 if (pm.response.json().id) {
@@ -484,7 +484,7 @@ Make sure your test code is syntactically correct and try sending your request a
 
 ## Validating response structure
 
-You can carry out JSON schema validation with Tiny Validator V4 (tv4):
+Carry out JSON schema validation with Tiny Validator V4 (tv4):
 
 ```js
 const schema = {
@@ -501,7 +501,7 @@ pm.test('Schema is valid', function() {
 });
 ```
 
-You can also validate JSON schema with the the Ajv JSON schema validator:
+Validate JSON schema with the the Ajv JSON schema validator:
 
 ```js
 const schema = {
@@ -518,7 +518,7 @@ pm.test('Schema is valid', function() {
 
 ## Sending an asynchronous request
 
-You can send a request from your test code and log the response.
+Send a request from your test code and log the response.
 
 ```js
 pm.sendRequest("https://postman-echo.com/get", function (err, response) {
@@ -530,13 +530,13 @@ pm.sendRequest("https://postman-echo.com/get", function (err, response) {
 
 > **This section refers to deprecated script syntax used in older versions of Postman. If you are writing scripts now, please use the current syntax described above.**
 
-The older style of writing Postman tests relies on setting values for the `tests` object. You can set a descriptive key for an element in the object and then assert if it's true or false. For example, the following will check if the response body contains the `user_id` string:
+The older style of writing Postman tests relies on setting values for the `tests` object. Set a descriptive key for an element in the object and then assert if it's true or false. For example, the following will check if the response body contains the `user_id` string:
 
 ```js
 tests["Body contains user_id"] = responsebody.has("user_id");
 ```
 
-You can add as many keys as needed, depending on how many things you want to test for. You can view your test results in the response viewer under the **Tests** tab. The tab header shows how many tests passed, and the keys that you set in the tests variable are listed there. If the value evaluates to true, the test passed.
+Add as many keys as needed, depending on how many things you want to test for. View your test results in the response viewer under the **Tests** tab. The tab header shows how many tests passed, and the keys that you set in the tests variable are listed there. If the value evaluates to true, the test passed.
 
 ```js
 //set an environment variable
@@ -605,4 +605,4 @@ tests["Successful POST request"] = responseCode.code === 201 || responseCode.cod
 
 ## Next steps
 
-You can automate your test runs using the [collection runner](/docs/running-collections/intro-to-collection-runs/).
+Automate your test runs using the [collection runner](/docs/running-collections/intro-to-collection-runs/).
