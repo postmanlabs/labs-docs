@@ -30,8 +30,6 @@ class AutoFlexPolicyPage extends React.Component {
                 {' '}
                 <a
                   href="https://blog.postman.com/introducing-auto-flex-for-teams/"
-                  target="_blank"
-                  rel="noreferrer"
                 >
                   Auto-Flex Team Policy
                 </a>
