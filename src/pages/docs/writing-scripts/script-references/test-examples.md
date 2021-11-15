@@ -407,8 +407,6 @@ When you encounter errors or unexpected behavior in your test scripts, the Postm
 
 [![Console info](https://assets.postman.com/postman-docs/console-logs-in-pane-v8.jpg)](https://assets.postman.com/postman-docs/console-logs-in-pane-v8.jpg)
 
-
-
 You can log the value of a variable or response property:
 
 ```js
