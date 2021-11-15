@@ -67,7 +67,7 @@ warning: false
 
 ---
 
-Tests enable you to ensure that your API is working as expected, to establish that integrations between services are functioning reliably, and to verify that new developments haven't broken any existing functionality. You can write test scripts for your Postman API requests in JavaScript. You can also use test code to aid the debugging process when something goes wrong with your API project. For example, you might write a test to validate your API's error handling by sending a request with incomplete data or incorrect parameters.
+Tests verify that your API is working as expected, that integrations between services are functioning reliably, and that new developments haven't broken any existing functionality. You can write test scripts for your Postman API requests in JavaScript. You can also use test code to aid the debugging process when something goes wrong with your API project. For example, you might write a test to validate your API's error handling by sending a request with incomplete data or incorrect parameters.
 
 You can add tests to individual [requests](/docs/sending-requests/requests/), [collections](/docs/sending-requests/intro-to-collections/), and folders in a collection. Postman includes code snippets you can select to add, then amend to suit your logic if necessary.
 
@@ -77,13 +77,15 @@ To add tests to a request, open the request and enter your code in the **Tests**
 
 ## Writing test scripts
 
-Your test scripts can use dynamic variables, carry out test assertions on response data, and pass data between requests. In the __Tests__ tab for a request, you can enter your JavaScript manually or use the __Snippets__ you'll see to the right of the code editor.
+Test scripts can use dynamic variables, carry out test assertions on response data, and pass data between requests. In the __Tests__ tab for a request, enter your JavaScript manually or use the __Snippets__ you'll see to the right of the code editor.
 
 Tests will execute after the response is received. When you select __Send__, Postman will run your test script when the response data returns from the API.
 
 > If you need to execute code before a request runs, use [Pre-request Scripts](/docs/writing-scripts/pre-request-scripts/) instead. See [Intro to scripts](/docs/writing-scripts/intro-to-scripts/) for more on the how your scripts execute when your requests run.
 
-To validate the data returned by a request, you can use the `pm.response` object in a test. You can define tests using the `pm.test` function, providing a name and function that returns a boolean (`true` or `false`) value indicating if the test passed or failed. You can use [ChaiJS BDD](https://www.chaijs.com/api/bdd/) syntax and `pm.expect` in your assertions to test the response detail.
+### Validating responses
+
+To validate the data returned by a request, you can use the `pm.response` object in a test. Define tests using the `pm.test` function, providing a name and function that returns a boolean (`true` or `false`) value indicating if the test passed or failed. Use [ChaiJS BDD](https://www.chaijs.com/api/bdd/) syntax and `pm.expect` in your assertions to test the response detail.
 
 The first parameter for the `.test` function is a text string that will appear in the test result output. You can use this to identify your tests, and communicate the purpose of a test to anyone viewing the results.
 
@@ -97,7 +99,9 @@ pm.test("Status test", function () {
 
 Select __Send__ to run your request and open __Test Results__ in the response section. The tab header displays how many tests passed and how many ran in total. You can also toggle between passed, skipped, and failed test results.
 
-If the request returned a `200` status code, the test will pass. Otherwise, it will fail. Try changing the expected status code in your test script and running the request again.
+If the request returned a `200` status code, the test passes. Try changing the expected status code in your test script and running the request again.
+
+### Formatting test result messages with pm.expect
 
 Using the `pm.expect` syntax gives your test result messages a different format. Experiment with the alternatives to achieve the output you find most useful.
 
@@ -131,7 +135,7 @@ pm.test("response must be valid and have a body", function () {
 });
 ```
 
-Your scripts can include however many tests you need and will save along with the rest of your request detail when you select __Save__. If you share a collection, publish documentation, or use the Run in Postman button, your test code will be included for anyone who views or imports your templates.
+Your scripts can include however many tests you need and will save along with the rest of your request detail when you select __Save__. If you share a collection, publish documentation, or use the **Run in Postman** button, your test code will be included for anyone who views or imports your templates.
 
 ### Using snippets
 
