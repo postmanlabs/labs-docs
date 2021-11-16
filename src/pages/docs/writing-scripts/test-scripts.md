@@ -69,7 +69,7 @@ warning: false
 
 Tests verify that your API is working as expected, that integrations between services are functioning reliably, and that new developments haven't broken any existing functionality. You can write test scripts for your Postman API requests in JavaScript. You can also use test code to aid the debugging process when something goes wrong with your API project. For example, you might write a test to validate your API's error handling by sending a request with incomplete data or incorrect parameters.
 
-You can add tests to individual [requests](/docs/sending-requests/requests/), [collections](/docs/sending-requests/intro-to-collections/), and folders in a collection. Postman includes code snippets you can select to add, then amend to suit your logic if necessary.
+You can add tests to individual [requests](/docs/sending-requests/requests/), [collections](/docs/sending-requests/intro-to-collections/), and folders in a collection. Postman includes code snippets you add and then modify to suit your test logic.
 
 To add tests to a request, open the request and enter your code in the **Tests** tab. Tests will execute after the request runs. You will be able to see the output in the __Test Results__ tab alongside the response data.
 
@@ -79,7 +79,7 @@ To add tests to a request, open the request and enter your code in the **Tests**
 
 Test scripts can use dynamic variables, carry out test assertions on response data, and pass data between requests. In the __Tests__ tab for a request, enter your JavaScript manually or use the __Snippets__ you'll see to the right of the code editor.
 
-Tests will execute after the response is received. When you select __Send__, Postman will run your test script when the response data returns from the API.
+Tests execute after the response is received. When you select __Send__, Postman runs your test script after the response data returns from the API.
 
 > If you need to execute code before a request runs, use [Pre-request Scripts](/docs/writing-scripts/pre-request-scripts/) instead. See [Intro to scripts](/docs/writing-scripts/intro-to-scripts/) for more on the how your scripts execute when your requests run.
 
@@ -87,7 +87,7 @@ Tests will execute after the response is received. When you select __Send__, Pos
 
 To validate the data returned by a request, you can use the `pm.response` object in a test. Define tests using the `pm.test` function, providing a name and function that returns a boolean (`true` or `false`) value indicating if the test passed or failed. Use [ChaiJS BDD](https://www.chaijs.com/api/bdd/) syntax and `pm.expect` in your assertions to test the response detail.
 
-The first parameter for the `.test` function is a text string that will appear in the test result output. You can use this to identify your tests, and communicate the purpose of a test to anyone viewing the results.
+The first parameter for the `.test` function is a text string that will appear in the test result output. Use this to identify your tests, and communicate the purpose of a test to anyone viewing the results.
 
 For example, enter the following in the __Tests__ tab of a request to test if the response status code is `200`:
 
