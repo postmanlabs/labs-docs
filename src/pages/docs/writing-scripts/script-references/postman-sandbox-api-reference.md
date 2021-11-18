@@ -95,8 +95,8 @@ pm.variables.toObject():function → Object
 Variable scope determines the precedence Postman gives to variables when you reference them, in order of increasing precedence:
 
 * Global
-* Environment
 * Collection
+* Environment
 * Data
 * Local
 

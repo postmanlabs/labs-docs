@@ -44,14 +44,12 @@ exports[`Cookie Notification displays on initial load 1`] = `
         <strong>
           <a
             href="https://www.postman.com/legal/cookies/"
-            rel="noreferrer noopener"
             style={
               Object {
                 "color": "black",
                 "textDecoration": "underline",
               }
             }
-            target="_blank"
           >
             Learn more
           </a>
