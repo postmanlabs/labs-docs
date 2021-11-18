@@ -2,7 +2,7 @@
 title: "Monitoring your APIs"
 order: 88
 page_id: "intro_monitors"
-updated: 2021-10-28
+updated: 2021-11-15
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -34,12 +34,13 @@ warning: false
 
 ---
 
-Postman Monitors give you continuous visibility into the health and performance of your APIs. Setting up a new monitor is fast and flexible. Keep watch on a single endpoint, run API tests using your existing test scripts, or chain together a sequence of requests to validate critical API flows.
+Postman Monitors give you continuous visibility into the health and performance of your APIs. Setting up a new monitor is easy and flexible. Quickly create an uptime monitor (open beta) to keep watch on a single API endpoint. Or create a collection-based monitor to run API test scripts, chain together multiple requests, and validate critical API flows.
 
-Once the monitor is running you’ll get alerted to any failures, so you can quickly identify and address issues before your API’s consumers are affected.
+Once the monitor is running you’ll get alerted to any system outages or test failures, so you can quickly identify and address issues before your API’s consumers are affected.
 
 ## Contents
 
+* [Uptime monitors](#uptime-monitors)
 * [Collection-based monitors](#collection-based-monitors)
     * [Using collection-based monitors](#using-collection-based-monitors)
 * [Running collections in a monitor](#running-collections-in-a-monitor)
@@ -49,9 +50,21 @@ Once the monitor is running you’ll get alerted to any failures, so you can qui
     * [File uploads](#file-uploads)
     * [Data files](#data-files)
     * [Multiple iterations](#multiple-iterations)
-    * [Multi-region monitoring](#multi-region-monitoring)
-    * [Accessible APIs](#accessible-apis)
+* [Multi-region monitoring](#multi-region-monitoring)
+* [Accessible APIs](#accessible-apis)
 * [Next steps](#next-steps)
+
+## Uptime monitors
+
+Uptime monitors (open beta) make it easier than ever to track the availability of an API or website. There’s no need to set up collections, test scripts, or environments. Simply enter the URL you want to monitor and choose which team members to be notified of outages.
+
+The uptime monitor continuously checks the availability of the URL as often as once a minute, and you define how quickly you want to be notified of any downtime. You can also set maintenance windows, so Postman knows not to check the endpoint during routine outages. As soon as any downtime is detected, the selected team members will get alerted by email. You can also [set up integrations](/docs/integrations/intro-integrations/) to be notified over Slack and other channels.
+
+Uptime monitors ensure the availability of your API or service around the clock and help you detect system outage issues more quickly. In addition, uptime statistics are recorded on the monitor’s dashboard in real time, so you can always see the status of your API at a glance, view past trends, or pause the monitor as needed.
+
+Learn how to [create an uptime monitor](/docs/monitoring-your-api/uptime-monitors/).
+
+> Uptime monitors can only monitor URLs, API endpoints, and websites that are publicly available over the internet.
 
 ## Collection-based monitors
 
@@ -60,6 +73,8 @@ A collection-based monitor runs a series of requests from the Postman cloud on a
 You can configure your monitors to run as frequently as you would like, depending on your [Postman plan](https://www.postman.com/pricing/). For paid plans, monitors can be scheduled to run as often as every five minutes. For free plans, monitors can be scheduled to run as often as every hour. You can even specify which region of the world you’d like to run the collection from (paid plans only).
 
 Get alerted by email if a test fails or errors occur, or [set up integrations](/docs/integrations/intro-integrations/) to be notified over Slack and other channels. All results are recorded on the monitor’s dashboard, so you can view past results or see trends over time.
+
+Learn how to [set up a collection-based monitor](/docs/monitoring-your-api/setting-up-monitor/).
 
 ### Using collection-based monitors
 
@@ -105,13 +120,13 @@ You cannot attach data files, unlike in the collection runner, but you can acces
 
 Monitors only run one iteration by default, but you can use `setNextRequest()` to run multiple iterations.
 
-### Multi-region monitoring
+## Multi-region monitoring
 
 If you are on a paid plan, you can select one or more geographic regions you'd like your monitor to run from, or have Postman automatically select a region for you. If you are on a free plan, Postman always selects a region from you. If you want to manually select specific regions, [upgrade your Postman plan](https://www.postman.com/pricing)
 
 > If you’re interested in a region that’s not currently available when creating a monitor, contact the [Postman support team](https://www.postman.com/support/).
 
-### Accessible APIs
+## Accessible APIs
 
 Because monitors run in the Postman cloud, all URLs must be publicly available on the Internet. A monitor cannot directly access your `localhost` or run requests behind a firewall. You can [run monitors using static IPs](/docs/monitoring-your-api/using-static-IPs-to-monitor/) to overcome this issue. Static IPs are available on [Postman Business and Enterprise plans](https://www.postman.com/pricing).
 

@@ -486,6 +486,10 @@ export const leftNavItems = [
         url: '/docs/monitoring-your-api/monitor-usage/',
       },
       {
+        name: 'Using uptime monitors',
+        url: '/docs/monitoring-your-api/uptime-monitors/',
+      },
+      {
         name: 'Monitoring APIs and websites',
         url: '/docs/monitoring-your-api/monitoring-apis-websites/',
       },
