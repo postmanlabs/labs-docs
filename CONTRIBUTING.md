@@ -10,7 +10,7 @@ We follow [Git Flow](https://guides.github.com/introduction/flow/) for changes t
 
 _GitHub Desktop is much easier if you're unfamiliar with using git / GitHub on the command line._
 
-**NOTE:** this site was built with node v12.13.0. We recommend installing and using [nvm](https://github.com/nvm-sh/nvm) and setting your node version to v12.13.0.
+**NOTE:** this site was built with node v12.13.0. We recommend installing and using [nvm](https://github.com/nvm-sh/nvm) and setting your node version to v12.13.0. If you are using an Apple MacBook with an M1 chip, you may need to create a Rosetta version of Terminal in order to correctly download both NVM and the dependencies needed by this GitHub repo. For more information, see this guide on [creating a Rosetta terminal](https://www.courier.com/blog/tips-and-tricks-to-setup-your-apple-m1-for-development). After you create a Rosetta terminal, use it to install [nvm](https://github.com/nvm-sh/nvm), then proceed with the rest of the workflow outlined here.   
 
 1. Fork this repo to create a copy hosted on your GitHub account. The Fork button is in the top right of the page.
     * If you're a collaborator on the repo you can instead just create a branch.
