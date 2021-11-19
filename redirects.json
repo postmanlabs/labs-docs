@@ -1025,11 +1025,11 @@
 	},
 	{
 		"from": "/docs/postman/monitors/integrations-for-alerts/",
-		"to": "/docs/monitoring-your-api/integrations-for-alerts/"
+		"to": "/docs/running-collections/collection-webhooks/"
 	},
 	{
 		"from": "/docs/postman/monitors/integrations_for_alerts/",
-		"to": "/docs/monitoring-your-api/integrations-for-alerts/"
+		"to": "/docs/running-collections/collection-webhooks/"
 	},
 	{
 		"from": "/docs/postman/monitors/intro-monitors/",
@@ -1849,7 +1849,7 @@
 	},
 	{
 		"from": "/docs/designing-and-developing-your-api/monitoring-your-api/integrations-for-alerts/",
-		"to": "/docs/monitoring-your-api/integrations-for-alerts/"
+		"to": "/docs/running-collections/collection-webhooks/"
 	},
 	{
 		"from": "/docs/designing-and-developing-your-api/monitoring-your-api/intro-monitors/",
@@ -1878,5 +1878,8 @@
 	{
 		"from": "/docs/sending-requests/authorization/#inheriting-auth",
 		"to": "/docs/sending-requests/authorization/#inheriting-authorization"
+	},
+	{	"from": "/docs/monitoring-your-api/integrations-for-alerts/",
+		"to": "/docs/running-collections/collection-webhooks/"
 	}
 ]

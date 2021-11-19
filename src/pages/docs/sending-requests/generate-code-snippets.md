@@ -99,7 +99,7 @@ Postman currently supports the following options:
 | Shell | [wget](https://www.gnu.org/software/wget/) |
 | Swift | [URLSession](https://developer.apple.com/documentation/foundation/urlsession) |
 
-> If your language isn't currently offered, or if there is a setting that you'd find useful, click **Contribute on GitHub** to contribute to [Postman's open source project](https://github.com/postmanlabs/postman-code-generators).
+> If your language isn't currently offered, or if there is a setting that you'd find useful, click **Contribute on GitHub** to contribute to [Postman's open-source project](https://github.com/postmanlabs/postman-code-generators).
 
 ## Next steps
 

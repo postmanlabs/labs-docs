@@ -3,6 +3,7 @@ import './Header.scss';
 import { trackCustomEvent } from 'gatsby-plugin-google-analytics';
 import $ from 'jquery';
 
+/* Algolia Imports */
 import algoliasearch from 'algoliasearch/lite';
 import {
   InstantSearch,
@@ -12,7 +13,6 @@ import {
   Pagination,
 } from 'react-instantsearch-dom';
 import { CustomHits } from '../Search/searchPreview';
-
 import postmanLogo from '../../images/postman-logo-icon.svg';
 
 // window.$ = $;
@@ -50,14 +50,18 @@ const getCookie = (a) => {
 
 // changes button in navbar based on cookie presence
 const LoginCheck = (props) => {
-  const { cookie, beta } = props;
+  const { cookie, beta, hidden } = props;
 
-  if (cookie !== 'yes') {
+  if (!hidden) {
     return (
       <>
         <a
           href={`https://go.postman${beta}.co/build`}
-          className="button__sign-in pingdom-transactional-check__sign-in-button"
+          className={
+            cookie !== 'yes'
+              ? 'button__sign-in pingdom-transactional-check__sign-in-button'
+              : 'd-none'
+          }
           onClick={() => {
             trackCustomEvent({
               // string - required - The object that was interacted with (e.g.video)
@@ -73,28 +77,27 @@ const LoginCheck = (props) => {
         </a>
         <a
           href={`https://identity.getpostman${beta}.com/signup?continue=https%3A%2F%2Fgo.postman.co%2Fbuild`}
-          className="button__sign-up"
+          className={cookie !== 'yes' ? 'button__sign-up' : 'd-none'}
           onClick={() => {
             trackCustomEvent({
-              // string - required - The object that was interacted with (e.g.video)
               category: 'lc-top-nav',
-              // string - required - Type of interaction (e.g. 'play')
               action: 'Click',
-              // string - optional - Useful for categorizing events (e.g. 'Spring Campaign')
               label: 'sign-in-button-clicked',
             });
           }}
         >
           Sign Up for Free
         </a>
+        <a
+          href="https://go.postman.co/home"
+          className={cookie ? 'button__sign-up ml-3' : 'd-none'}
+        >
+          Launch Postman
+        </a>
       </>
     );
   }
-  return (
-    <a href="https://go.postman.co/home" className="button__sign-up ml-3">
-      Launch Postman
-    </a>
-  );
+  return <></>;
 };
 class Header extends React.Component {
   constructor(props) {
@@ -103,6 +106,7 @@ class Header extends React.Component {
     this.state = {
       beta: '',
       cookie: '',
+      hidden: true,
       hasInput: false,
       refresh: false,
     };
@@ -116,7 +120,14 @@ class Header extends React.Component {
       cookie,
       beta,
     });
-    /* eslint-disable func-names */
+
+    /* eslint-disable react/prop-types */
+    const { waitBeforeShow } = this.props;
+    /* eslint-enable react/prop-types */
+    setTimeout(() => {
+      this.setState({ hidden: false });
+    }, waitBeforeShow);
+
     /* Applies styling for sticky nav */
     $('#secondaryNav').on('click', () => {
       $('body').toggleClass('menu-open');
@@ -243,7 +254,7 @@ class Header extends React.Component {
 
   render() {
     const {
-      refresh, hasInput, beta, visibleHelloBar, cookie,
+      refresh, hasInput, beta, visibleHelloBar, cookie, hidden,
     } = this.state;
     return (
       <>
@@ -468,6 +479,12 @@ class Header extends React.Component {
                       >
                         Case studies
                       </a>
+                      <a
+                        className="dropdown-item"
+                        href="https://www.postman.com/state-of-api/"
+                      >
+                        State of the API
+                      </a>
                     </div>
                     <div className="col-sm-6 col-md-4 dropdown-col">
                       <h6 className="dropdown-header">Community and events</h6>
@@ -562,6 +579,8 @@ class Header extends React.Component {
             </ul>
             <div className="form-inline my-2 my-lg-0">
               <LoginCheck
+                hidden={hidden}
+                waitBeforeShow={100}
                 cookie={cookie}
                 beta={beta}
                 className="pingdom-transactional-check__sign-in-button"
@@ -570,7 +589,10 @@ class Header extends React.Component {
           </div>
         </nav>
         <nav className="navbar-v6 navbar navbar-expand-lg navbar-light bg-light nav-secondary blurred-container">
-          <a className="navbar-brand" href="/">
+          <a
+            className="navbar-brand"
+            href="/docs/getting-started/introduction/"
+          >
             <span id="learning-center-home-link" className="nav-link uber-nav">
               Learning Center
               <span className="sr-only">(current)</span>
@@ -636,7 +658,6 @@ class Header extends React.Component {
             </ul>
             {/* Aloglia Widgets */}
             <div className="form-inline header__search">
-              <label htmlFor="search-lc" />
               <svg
                 className="nav-search__icon"
                 width="16"
@@ -675,7 +696,6 @@ class Header extends React.Component {
                       });
                     }}
                   />
-
                   <div className={!hasInput ? 'input-empty' : 'input-value'}>
                     <div className="container">
                       <div className="row">

@@ -12,7 +12,7 @@ contextual_links:
     url: "/docs/sending-requests/intro-to-collections/"
 ---
 
-Back up your Postman collections to GitLab, an open source Git repository manager, with the Postman to GitLab integration.
+Back up your Postman Collections to GitLab, an open-source Git repository manager, with the Postman to GitLab integration.
 
 Setting up a GitLab integration requires you to get a GitLab Personal Access Token and configure how you would like to back up your collections.
 
