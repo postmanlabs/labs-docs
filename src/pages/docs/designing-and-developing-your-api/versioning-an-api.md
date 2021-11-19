@@ -26,6 +26,9 @@ contextual_links:
   - type: link
     name: "Streamline the API Development Lifecycle with Postman Version Control"
     url: "https://blog.postman.com/streamline-api-development-lifecycle-with-postman-version-control/"
+  - type: link
+    name: "Better Practices for Git Version Control in Postman"
+    url: "https://blog.postman.com/better-practices-for-git-version-control-in-postman/"
   - type: subtitle
     name: "Videos"
   - type: link
