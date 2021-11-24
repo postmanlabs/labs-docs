@@ -76,7 +76,7 @@ To help others better understand what you're building, add detailed descriptions
 
 1. Select **Collections** in the sidebar, and then select a collection, folder, or request.
 1. Select **Documentation** <img alt="Documentation icon" src="https://assets.postman.com/postman-docs/documentation-icon-v8-10.jpg" width="16px" style="vertical-align:middle;margin-bottom:5px"> in the context bar.
-1. Select the edit button <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to the description.
+1. Select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to the description.
 1. Compose your new content, and then click **Save**. To learn more about using Postman's built-in editing tools, see [Authoring your docs](/docs/publishing-your-api/authoring-your-documentation/).
 
 <img alt="Documentation pane" src="https://assets.postman.com/postman-docs/documentation-pane-v9.jpg" width="566px">
@@ -120,7 +120,7 @@ To use an existing collection for API documentation:
 
 ### Editing API documentation
 
-You can add to your API documentation right from the **Documentation** tab. Just select the edit button <img alt="Remove icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to any description and use [the built-in editing tools](/docs/publishing-your-api/authoring-your-documentation/) to author content.
+You can add to your API documentation right from the **Documentation** tab. Just select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to any description and use [the built-in editing tools](/docs/publishing-your-api/authoring-your-documentation/) to author content.
 
 Another way to work on your API documentation is to open the linked collection. On the **Documentation** tab, select **View Collection**, and then [edit the documentation](#documenting-a-collection) in the linked collection.
 
@@ -134,7 +134,7 @@ To remove documentation from an API:
 
 1. Open your API by selecting **APIs** in the left sidebar, and then selecting an API and a version.
 1. Select the **Documentation** tab.
-1. In the **Collection** dropdown list, select the remove button <img alt="Edit icon" src="https://assets.postman.com/postman-docs/icon-remove-api-element-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to the collection you want to remove from this API version.
+1. In the **Collection** dropdown list, select the remove button <img alt="Remove button" src="https://assets.postman.com/postman-docs/icon-remove-api-element-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to the collection you want to remove from this API version.
 1. Select **Remove Documentation**.
 
 > Removing documentation only removes the link between the collection and the API version. The collection itself is not deleted.
@@ -143,7 +143,7 @@ To remove documentation from an API:
 
 An [environment](/docs/sending-requests/managing-environments/) is a set of related [variables](/docs/sending-requests/variables/) you can use in Postman requests. You can also refer to variables when [authoring descriptions](/docs/publishing-your-api/authoring-your-documentation/) in a collection. In each case, the initial value of the variable is automatically populated in the documentation.
 
-Anyone using your collection will only be able to view the variables in the documentation if the associated environment is shared with them. For published documentation, you can select an environment to share during the [publication process](/docs/publishing-your-api/publishing-your-docs/). Sharing an environment makes it available to anyone [viewing the published documentation](/docs/publishing-your-api/viewing-documentation/).
+Anyone using your collection will only be able to view the variables in the documentation if the associated environment is also shared with them. For public documentation, you can select an environment during the [publishing process](/docs/publishing-your-api/publishing-your-docs/). Publishing an environment makes it available to anyone [viewing public documentation](/docs/publishing-your-api/viewing-documentation/).
 
 To use an environment variable in your documentation:
 
