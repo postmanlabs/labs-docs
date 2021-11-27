@@ -26,8 +26,8 @@ contextual_links:
   - type: subtitle
     name: "Videos"
   - type: link
-    name: "Team collaboration with Postman"
-    url: "https://www.youtube.com/watch?v=8tLvvQ-3Nx0"
+    name: "Creating a Workspace | Postman Level Up"
+    url: "https://youtu.be/I10RCvMbPi0"
   - type: section
     name: "Next Steps"
   - type: link

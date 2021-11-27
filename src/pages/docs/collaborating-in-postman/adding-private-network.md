@@ -22,9 +22,6 @@ contextual_links:
   - type: link
     name: "Private API Network | The Exploratory"
     url: "https://youtu.be/1SINcytmKsc"
-  - type: link
-    name: "Team collaboration with Postman"
-    url: "https://www.youtube.com/watch?v=8tLvvQ-3Nx0"
   - type: section
     name: "Next Steps"
   - type: link
