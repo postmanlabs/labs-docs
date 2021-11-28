@@ -36,7 +36,7 @@ Team migration can occur in different ways depending on your needs and preferred
 
 ## Who can perform team migration
 
-* All plan types (Free, Team, Business, and Enterprise)
+* All plan types (Free, Basic, Business, and Enterprise)
 * [Team admins and team developers](/docs/collaborating-in-postman/roles-and-permissions/#team-roles)
 * Information Technology / System Administrator for [Single Sign-On provisioning](/docs/administration/sso/intro-sso/) (available to [Business and Enterprise plans](https://www.postman.com/pricing/))
 

@@ -21,7 +21,7 @@ contextual_links:
     url: "https://blog.postman.com/postman-team-workspaces-and-permissions/"
 ---
 
-> Certain team options are only available on **[Postman Team, Business, and Enterprise plans](https://www.postman.com/pricing)**. To see which roles are available on your plan, go to your **[web dashboard](https://go.postman.co/settings/team/roles)**.
+> Certain team options are only available on **[Postman Basic, Business, and Enterprise plans](https://www.postman.com/pricing)**. To see which roles are available on your plan, go to your **[web dashboard](https://go.postman.co/settings/team/roles)**.
 
 In Postman you can assign roles and permissions to provide access control.
 
@@ -82,7 +82,7 @@ Team roles provide high-level access control:
 | Approve requests to change workspace visibility&ast;&ast; | | | | &#x2714;
 | Enable public team profile | &#x2714; | | | &#x2714;
 
-&ast; On Postman Team and Free plans, any developer can change visibility of workspaces
+&ast; On Postman Basic and Free plans, any developer can change visibility of workspaces
 
 &ast;&ast; Enterprise and Business plans only
 
@@ -111,7 +111,7 @@ The following roles control access at a workspace level:
 | Add monitors and mock servers | &#x2714; | &#x2714; | |
 | Send requests | &#x2714; | &#x2714; | &#x2714; |
 
-&ast; On Business and Enterprise plans, workspace admins must request to change a workspace's visibility to public. This request will go to the [Community Manager](/docs/collaborating-in-postman/roles-and-permissions/#team-roles). On Team and Free plans, or if a team has no Community Manager assigned, workspace admins can control visibility.
+&ast; On Business and Enterprise plans, workspace admins must request to change a workspace's visibility to public. This request will go to the [Community Manager](/docs/collaborating-in-postman/roles-and-permissions/#team-roles). On Basic and Free plans, or if a team has no Community Manager assigned, workspace admins can control visibility.
 
 ### API roles
 

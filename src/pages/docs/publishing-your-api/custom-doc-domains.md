@@ -19,7 +19,7 @@ contextual_links:
 warning: false
 ---
 
-> __[Custom documentation domains are available on Postman Team, Business, and Enterprise plans.](https://www.postman.com/pricing)__
+> __[Custom documentation domains are available on Postman Basic, Business, and Enterprise plans.](https://www.postman.com/pricing)__
 
 You can use a custom domain for your API documentation.
 

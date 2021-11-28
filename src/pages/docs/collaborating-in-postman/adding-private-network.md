@@ -108,7 +108,7 @@ From the overview page, select **Create Folder** on the right to create a new fo
 
 ![New folder in Private Network](https://assets.postman.com/postman-docs/add-new-folder-api-network-overview-v9.jpg)
 
-Once you've created the folder, you can add APIs to get started. Make your API selection from the dropdown under **Select APIs** to add them to your Team's Private API Network. You can select as many APIs you want to add to the Private API Network at one time. Select __Add API__.
+Once you've created the folder, you can add APIs to get started. Make your API selection from the dropdown under **Select APIs** to add them to your team's Private API Network. You can select as many APIs you want to add to the Private API Network at one time. Select __Add API__.
 
 <img alt="Add API Modal" src="https://assets.postman.com/postman-docs/add-to-private-api-network-v9.jpg" width="400px"/>
 
