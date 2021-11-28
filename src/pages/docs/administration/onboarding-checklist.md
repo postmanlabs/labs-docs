@@ -87,6 +87,6 @@ If you have any questions or run into any issues setting up Postman for your tea
 
 Check out [Security and Compliance: A Shared Responsibility Model](https://www.postman.com/shared-responsibility/) for important security considerations.
 
-Make sure to [configure SSO](/docs/administration/sso/admin-sso/) if you are subscribed to the Business or Enterprise plan.
+Make sure to [configure SSO](/docs/administration/sso/admin-sso/) if you are subscribed to the Professional or Enterprise plan.
 
 Finally, head over to [Managing Your Team](/docs/administration/managing-your-team/managing-your-team/) to learn about managing roles, inviting to workspaces, and how to adjust your team size.

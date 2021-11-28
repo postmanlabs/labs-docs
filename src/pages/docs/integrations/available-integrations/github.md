@@ -49,7 +49,7 @@ In order to set up an integration, you will need a GitHub Personal Access Token.
 
  You can back up and sync your Postman collections with a GitHub repo. Once the integration is complete, any new changes to your collection in Postman will also appear in the repository.
 
- > Backing up collections on GitHub is available for Basic, Business and Enterprise plans only.
+ > Backing up collections on GitHub is available for Basic, Professional, and Enterprise plans only.
 
 1. From the **[Home](https://go.postman.co/home)** page select **[Integrations](https://go.postman.co/integrations)**.
 

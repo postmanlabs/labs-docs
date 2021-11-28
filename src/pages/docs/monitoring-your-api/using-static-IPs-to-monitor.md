@@ -16,9 +16,9 @@ contextual_links:
     url: "/docs/integrations/intro-integrations/"
 ---
 
-> __[Static IP address monitoring is available on Postman Business and Enterprise plans.](https://www.postman.com/pricing)__
+> __[Static IP address monitoring is available on Postman Professional and Enterprise plans.](https://www.postman.com/pricing)__
 
-Postman's static IP feature allows you to monitor your APIs that are behind a restricted firewall. This feature is available to all Postman Business and Enterprise customers, provided your IT team [whitelists](#whitelisting-static-ip-addresses) the associated static IP addresses.
+Postman's static IP feature allows you to monitor your APIs that are behind a restricted firewall. This feature is available to all Postman Professional and Enterprise customers, provided your IT team [whitelists](#whitelisting-static-ip-addresses) the associated static IP addresses.
 
 The provided static IP addresses are fixed to their specified region and shared by all customers who utilize this feature.
 

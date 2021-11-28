@@ -13,7 +13,7 @@ contextual_links:
     url: "https://blog.postman.com/announcing-updated-postman-plans-and-pricing/"
 ---
 
-> __[SSO is available on Postman Business and Enterprise plans.](https://www.postman.com/pricing)__
+> __[SSO is available on Postman Professional and Enterprise plans.](https://www.postman.com/pricing)__
 
 ## What is SSO?
 

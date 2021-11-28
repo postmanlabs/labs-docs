@@ -17,7 +17,7 @@ contextual_links:
 
 ---
 
-> __[Certain team options are only available on Postman Basic, Business, and Enterprise plans.](https://www.postman.com/pricing)__
+> __[Certain team options are only available on Postman Basic, Professional, and Enterprise plans.](https://www.postman.com/pricing)__
 
 Postman provides a number of ways to manage your team.
 
@@ -40,7 +40,7 @@ Everyone in your team is a member. Each member has certain roles, which allow th
 
 An admin can modify the roles of other team members individually by navigating to [Team](https://go.postman.co/team) > **Manage Roles**.
 
-An admin can manage which team members have **Admin** and **Developer** roles. If you are on a Postman Business or Enterprise plan, an admin will also have the option of assigning a **Community Manager**.
+An admin can manage which team members have **Admin** and **Developer** roles. If you are on a Postman Professional or Enterprise plan, an admin will also have the option of assigning a **Community Manager**.
 
 Only a team member with the billing role can grant the **Billing** role to or remove it from other team members.
 

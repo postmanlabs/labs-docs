@@ -14,7 +14,7 @@ contextual_links:
     url: "/docs/administration/managing-your-team/managing-your-team/"
 ---
 
-> __[Audit logs are available on Postman Business and Enterprise plans.](https://www.postman.com/pricing)__
+> __[Audit logs are available on Postman Professional and Enterprise plans.](https://www.postman.com/pricing)__
 
 Audit logs list important team events. An admin can review audit logs to determine:
 
