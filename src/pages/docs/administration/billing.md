@@ -73,7 +73,7 @@ The Postman [billing dashboard](http://go.postman.co/billing) allows you to mana
 
 When navigating to your [billing dashboard](http://go.postman.co/billing), you will first see your billing overview. You can view the details of your Postman plan, including your subscription cycle and a calculation of your expected cost upon renewal.
 
-<img alt="Billing overview" src="https://assets.postman.com/postman-docs/billing-dashboard-overview-v9.1.0.jpg" />
+<img alt="Billing overview" src="https://assets.postman.com/postman-docs/billing-plan-and-payments-dash-v9.1.jpg" />
 
 ### Managing add-ons
 
@@ -93,7 +93,7 @@ You can also [Purchase Add-ons](#purchasing-add-ons).
 
 In your [billing dashboard](http://go.postman.co/billing), select **Plan and payments** on the left, then **History**.
 
-<img alt="Account history view" src="https://assets.postman.com/postman-docs/plan-and-payments-history.jpg" />
+<img alt="Account history view" src="https://assets.postman.com/postman-docs/billing-history-v9.1.jpg" />
 
 Items such as updates to your Postman subscription, card changes, payments, and charges are all listed in chronological order.
 
@@ -101,7 +101,7 @@ Items such as updates to your Postman subscription, card changes, payments, and 
 
 In your [billing dashboard](http://go.postman.co/billing), select **Plan and payments** on the left, then **Invoices**. You can get a copy of your past invoices by selecting the download icon to the right of the invoice you would like to retrieve.
 
-<img alt="Invoices view" src="https://assets.postman.com/postman-docs/plan-and-payments-invoices.jpg" />
+<img alt="Invoices view" src="https://assets.postman.com/postman-docs/billing-invoices-v9.1.jpg" />
 
 To add or edit the information on an invoice, see [adding custom information to invoices](#adding-custom-information-to-invoices).
 
@@ -153,7 +153,7 @@ You can change your team's plan and billing cycle in your [billing dashboard](ht
 
 To change your plan immediately, navigate to your [billing dashboard](https://go.postman.co/billing/overview) and select **Edit Plan** on the right.
 
-<img alt="Edit plan page" src="https://assets.postman.com/postman-docs/billing-edit-plan-add-members-v9.1.0.jpg"/>
+<img alt="Edit plan page" src="https://assets.postman.com/postman-docs/billing-edit-plan-v9.1.jpg"/>
 
 You can opt to apply changes immediately or on renewal. You can adjust your team size, billing frequency, and plan type. Select **Next** to adjust your team's add-ons, including monitoring blocks, mock server blocks, and custom domains. Select **Next** to then **Confirm Changes**.
 
@@ -169,11 +169,11 @@ The cost of your new plan and/or additional seats will be prorated based on the 
 
 To set instructions to determine what will happen at the end of your current billing cycle, navigate to your [billing dashboard](https://go.postman.co/billing/overview) and select **Set instructions** on the right under your subtotal.
 
-<img alt="Set instructions in billing dashboard" src="https://assets.postman.com/postman-docs/billing-dashboard-set-instructions-v9.1.0.jpg"/>
+<img alt="Set instructions in billing dashboard" src="https://assets.postman.com/postman-docs/billing-overview-set-instructions-v9.1.jpg"/>
 
 You can view your current plan and opt to **Edit Standing Instructions**. Select your preferred option from the drop-down menu, then select **Proceed** to move forward with your plan changes.
 
-<img alt="Set instructions for next cycle" src="https://assets.postman.com/postman-docs/billing-set-instructions-for-next-billing-cycle-v9.1.0.jpg" width="400px"/>
+<img alt="Set instructions for next cycle" src="https://assets.postman.com/postman-docs/billing-set-instructions-v9.1.jpg" width="400px"/>
 
 > You can change your standing instructions at any time before the end of your current billing cycle.
 
@@ -191,7 +191,7 @@ The base number of monitoring requests, mock server calls, and custom domains in
 
 You can purchase additional blocks of monitoring requests, mock server calls, and custom domains by navigating to your [billing dashboard](http://go.postman.co/billing), selecting **Resource usage** on the left, then **Purchase Add-ons** on the right.
 
-<img alt="Add-ons purchase form" src="https://assets.postman.com/postman-docs/billing-dashboard-edit-plan-add-ons-v9.1.0.jpg"/>
+<img alt="Add-ons purchase form" src="https://assets.postman.com/postman-docs/billing-edit-plan-add-ons-v9.1.jpg"/>
 
 Update the number of monitoring blocks, mock server blocks, and custom domains you would like to have included in your team plan, then select **Next** to confirm your changes.
 
@@ -205,7 +205,7 @@ Update the number of monitoring blocks, mock server blocks, and custom domains y
 
 You can enable auto-flex for your team by navigating to your [billing dashboard](http://go.postman.co/billing).
 
-<img alt="Auto-flex opt in early notification" src="https://assets.postman.com/postman-docs/auto-flex-opt-in-early-notification.jpg" />
+<img alt="Auto-flex opt in early notification" src="https://assets.postman.com/postman-docs/auto-flex-opt-in-notification-v9.1.jpg" />
 
 Select **Get Early Access**.
 
@@ -241,7 +241,7 @@ You will not be billed if the number of users has remained unchanged during your
 
 You can view your current number of additional team members, how much you will be billed at the end of your cycle (unless you add or remove team members in the interim), and additional information about your auto-flex and regular billing cycles at any time in your [billing dashboard](http://go.postman.co/billing).
 
-<img alt="Billing overview" src="https://assets.postman.com/postman-docs/billing-dashboard-overview-v9.1.0.jpg" />
+<img alt="Billing overview" src="https://assets.postman.com/postman-docs/billing-plan-and-payments-dash-v9.1.jpg" />
 
 > [Contact Postman support](https://www.postman.com/support/) with any questions regarding auto-flex.
 

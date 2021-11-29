@@ -137,7 +137,7 @@ If you have a free account, you can upgrade it by navigating to [Postman](https:
 
 If you have a paid account, you can upgrade your Postman plan by navigating to your [billing dashboard](https://go.postman.co/billing/overview) and selecting **Edit Plan** on the right.
 
-[![Edit plan option in billing dashboard](https://assets.postman.com/postman-docs/billing-dashboard-edit-plan-v9.1.0.jpg)](https://assets.postman.com/postman-docs/billing-dashboard-edit-plan-v9.1.0.jpg)
+[![Edit plan option in billing dashboard](https://assets.postman.com/postman-docs/billing-edit-plan-selected-v9.1.jpg)](https://assets.postman.com/postman-docs/billing-edit-plan-selected-v9.1.jpg)
 
 > The cost of your upgraded plan and/or additional seats will be prorated based on the time left in your team's current billing cycle. For more information, [contact Postman's sales team](mailto:sales@postman.com).
 
