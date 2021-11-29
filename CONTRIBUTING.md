@@ -6,11 +6,15 @@ Please note we have a [code of conduct](https://www.postman.com/code-of-conduct)
 
 ## Development Process
 
-We follow [Git Flow](https://guides.github.com/introduction/flow/) for changes to this repository.
+### Prerequisites
 
-_GitHub Desktop is much easier if you're unfamiliar with using git / GitHub on the command line._
+This site was built with node v12.13.0. We recommend installing and using [nvm](https://github.com/nvm-sh/nvm), a version manager for node. After you install nvm, use it to set your node version to v12.13.0.
 
-**NOTE:** this site was built with node v12.13.0. We recommend installing and using [nvm](https://github.com/nvm-sh/nvm) and setting your node version to v12.13.0.
+**Note for Mac users**: If you are using a MacBook with an Apple M1 chip, you may need to create a Rosetta version of Terminal in order to correctly download both nvm and the dependencies needed by this GitHub repo. For more information, see this guide on [creating a Rosetta terminal](https://www.courier.com/blog/tips-and-tricks-to-setup-your-apple-m1-for-development). After you create a Rosetta terminal, use it to install nvm, then proceed with the rest of the workflow outlined here.
+
+### Workflow
+
+We follow [Git Flow](https://guides.github.com/introduction/flow/) for changes to this repository. If you're not familiar with using git and GitHub on the command line, [GitHub Desktop](https://desktop.github.com) is an easier alternative.  
 
 1. Fork this repo to create a copy hosted on your GitHub account. The Fork button is in the top right of the page.
     * If you're a collaborator on the repo you can instead just create a branch.
