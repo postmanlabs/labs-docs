@@ -44,10 +44,10 @@ Postman 9.0 introduced the ability to connect a git repository to an API. Instea
 
 The above screen provides you the following two options:
 
-    * [Backup your Postman Collections to GitLab](#back-up-your-postman-collections-to-gitlab)
-    * [Backup your Postman Collections to GitLab on a custom domain](#back-up-your-postman-collections-to-gitlab-on-a-custom-domain)
+* [Back up your Postman Collections to GitLab](#back-up-your-postman-collections-to-gitlab)
+* [Back up your Postman Collections to GitLab on a custom domain](#back-up-your-postman-collections-to-gitlab-on-a-custom-domain)
 
-## Backup a collection
+## Back up your Postman Collections to GitLab
 
 1. Select **Add Integration** to enter your GitLab token to start the integration.
 
@@ -67,7 +67,7 @@ Your collection is pushed to your GitLab project under the filename that you spe
 
 Every change that is saved to your Postman collection automatically commits changes to your GitLab project in real time. Your collections and code can exist in the same repository.
 
-## Backup a collection (custom domain)
+## Back up your Postman Collections to GitLab on a custom domain
 
 1. If your network is behind a firewall that requires allowlisting IP addresses, you will need to use a static IP address to enable collection backups to GitLab on custom domains.
 
