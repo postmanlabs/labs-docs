@@ -35,7 +35,7 @@ contextual_links:
 
 ---
 
-Postman is available on the web at **[go.postman.co/home](https://go.postman.co/home)** and as a native desktop app for Mac, Windows (32-bit / 64-bit), and Linux (64-bit) operating systems.
+Postman is available on the web at **[go.postman.co/home](https://go.postman.co/home)** and as a native desktop app for Mac (Intel and M1), Windows (32-bit / 64-bit), and Linux (64-bit) operating systems.
 
 To get the latest version of the Postman desktop app, visit the [download page](https://www.postman.com/downloads/) and select **Download** for your platform.
 
@@ -56,19 +56,19 @@ To get the latest version of the Postman desktop app, visit the [download page](
 * [Troubleshooting your Postman installation](#troubleshooting-your-postman-installation)
 * [Next steps](#next-steps)
 
-> Note that the Postman team only tests, fixes bugs, and provides support for the app on Mac, Windows, Linux, and the web.
-
 ## Installing Postman on Mac
 
-[Download](https://www.postman.com/downloads/) and unzip the app _using the built-in Archive Utility app_. Double-click __Postman__. When prompted, move the file to your __Applications__ folder—this will ensure that future updates can be installed correctly.
+1. [Download](https://www.postman.com/downloads/) the app.
+   > Make sure to download the **Mac Apple Chip** version if you have a Mac with the M1 processor.
+1. In the **Downloads** folder, double-click the `Postman` file to install it.
+1. When prompted, move the file to your __Applications__ folder. This will ensure that future updates can be installed correctly.
 
 > The minimum OS version supported is macOS 10.11 (El Capitan).
->
-> You may encounter a "Library not loaded" error if you attempt to unzip and install Postman using a third-party app—using the default Archive Utility for Mac should resolve this.
 
 ## Installing Postman on Windows
 
-[Download](https://www.postman.com/downloads/) the app. Double-click the `exe` file to install it.
+1. [Download](https://www.postman.com/downloads/) the app.
+1. Double-click the `exe` file to install it.
 
 > Postman supports Windows 7 and above. Both `ia32 (x86)` and `x64 (amd64)` installers are available for Windows. Windows for ARM devices is possible by using the ia32 binary.
 
@@ -84,7 +84,7 @@ To start the app from a launcher icon, create a desktop file, naming it `Postman
 ~/.local/share/applications/Postman.desktop
 ```
 
-Enter the following content in the file—replacing `opt` if you extracted the file somewhere else—and save it:
+Enter the following content in the file, replacing `opt` if you extracted the file somewhere else, and save it:
 
 ```shell
 [Desktop Entry]
