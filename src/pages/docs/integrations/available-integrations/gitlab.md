@@ -44,8 +44,8 @@ Postman 9.0 introduced the ability to connect a git repository to an API. Instea
 
 The above screen provides you the following two options:
 
-* [Backup a collection](#backup-your-postman-collections-to-gitlab)
-* [Backup a collection (custom domain)](#backup-a-collection-custom-domain)
+    * [Backup your Postman Collections to GitLab](#back-up-your-postman-collections-to-gitlab)
+    * [Backup your Postman Collections to GitLab on a custom domain](#back-up-your-postman-collections-to-gitlab-on-a-custom-domain)
 
 ## Backup a collection
 
