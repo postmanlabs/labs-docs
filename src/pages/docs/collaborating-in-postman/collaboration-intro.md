@@ -9,11 +9,8 @@ contextual_links:
   - type: subtitle
     name: "Videos"
   - type: link
-    name: "Team collaboration with Postman"
-    url: "https://www.youtube.com/watch?v=8tLvvQ-3Nx0"
-  - type: link
-    name: "Scaling Team Collaboration at Atlassian"
-    url : https://www.youtube.com/watch?v=wYBZrdukack
+    name: "Working With Your Team in Postman | The Exploratory"
+    url: "https://youtu.be/5lscUV-Exac"
   - type: subtitle
     name: "Related Blog Posts"
   - type: link
