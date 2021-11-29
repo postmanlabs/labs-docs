@@ -5,7 +5,9 @@ const pingWebHook = require('./scripts/pingWebHook');
 const fetchBlogPosts = require('./scripts/fetchBlogPosts');
 const fetchEvents = require('./scripts/fetchEvents');
 const fetchPmTech = require('./scripts/fetchPmTech');
+const { allow } = require('./package.json');
 
+const { pmTech: allowedPmTech } = allow;
 const delay = 1000;
 const runtime = {
   pm: [''],
@@ -73,13 +75,38 @@ const prefetch = async () => {
     });
   }
 
+  /* eslint-disable */
   const script = (process.env.PM_TECH
       && `
 ${pmTech}
+if (typeof window.pm.scalp !== 'function') {
+  window.pm.setScalp({
+    property: 'postman-docs'
+  });
+}
+window.pm.driveCampaignId();
+function isPmTechAllowed(documentLocationPathname) {
+  return ${allowedPmTech[0] === '*' ||
+    allowedPmTech.indexOf(documentLocationPathname) !== -1};
+}
+var d = 1000, int;
+var int = setInterval(function(){
+  if (document.body) {
+    window.pm.scalp(
+      'pm-analytics',
+      'load',
+      document.location.pathname
+    );
+    window.pm.trackClicks();
+
+    clearInterval(int);
+  }
+}, d);
     `)
     || `
       console.info('Postman OSS');
     `;
+  /* eslint-enable */
 
   fs.writeFile('bff.json', JSON.stringify({ script }), (err) => {
     if (err) {
