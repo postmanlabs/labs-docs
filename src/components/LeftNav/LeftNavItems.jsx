@@ -200,6 +200,10 @@ export const leftNavItems = [
         url: '/docs/writing-scripts/test-scripts/',
       },
       {
+        name: 'Running tests with monitors',
+        url: '/docs/writing-scripts/monitoring-apis-websites/',
+      },
+      {
         name: 'Script references',
         subParentSlug: 'script-references',
         slug: '/docs/writing-scripts/script-references/test-examples/',
@@ -474,27 +478,23 @@ export const leftNavItems = [
         url: '/docs/monitoring-your-api/intro-monitors/',
       },
       {
-        name: 'Setting up a monitor',
+        name: 'Setting up a collection-based monitor',
         url: '/docs/monitoring-your-api/setting-up-monitor/',
       },
       {
-        name: 'Viewing monitor results',
+        name: 'Viewing collection-based monitor results',
         url: '/docs/monitoring-your-api/viewing-monitor-results/',
+      },
+      {
+        name: 'Monitoring API uptime',
+        url: '/docs/monitoring-your-api/uptime-monitors/',
       },
       {
         name: 'Managing monitor usage',
         url: '/docs/monitoring-your-api/monitor-usage/',
       },
       {
-        name: 'Using uptime monitors',
-        url: '/docs/monitoring-your-api/uptime-monitors/',
-      },
-      {
-        name: 'Monitoring APIs and websites',
-        url: '/docs/monitoring-your-api/monitoring-apis-websites/',
-      },
-      {
-        name: 'Running Postman monitors using static IPs',
+        name: 'Running monitors using static IPs',
         url: '/docs/monitoring-your-api/using-static-IPs-to-monitor/',
       },
       {

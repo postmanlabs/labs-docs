@@ -1,8 +1,8 @@
 ---
-title: "Using uptime monitors"
+title: "Monitoring API uptime"
 order: 88
 page_id: "uptime_monitors"
-updated: 2021-11-15
+updated: 2021-12-15
 contextual_links:
 
 warning: false

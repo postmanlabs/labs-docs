@@ -1,5 +1,5 @@
 ---
-title: "Viewing monitor results"
+title: "Viewing collection-based monitor results"
 order: 90
 page_id: "viewing_monitor_results"
 contextual_links:

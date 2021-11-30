@@ -1,5 +1,5 @@
 ---
-title: "Setting up a monitor"
+title: "Setting up a collection-based monitor"
 order: 89
 page_id: "setting_up_monitor"
 contextual_links:
@@ -181,4 +181,4 @@ You can **Disable SSL validation** if you are using self-signed certificates to 
 
 ## Next steps
 
-Learn how to set up [integrations](/docs/integrations/intro-integrations/) for your monitoring results, and [how to monitor your APIs and websites](/docs/monitoring-your-api/monitoring-apis-websites/).
+Learn how to set up [integrations](/docs/integrations/intro-integrations/) for your monitoring results.

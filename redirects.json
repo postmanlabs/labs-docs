@@ -1881,5 +1881,8 @@
 	},
 	{	"from": "/docs/monitoring-your-api/integrations-for-alerts/",
 		"to": "/docs/running-collections/collection-webhooks/"
+	},
+	{	"from": "/docs/monitoring-your-api/monitoring-apis-websites/",
+		"to": "/docs/writing-scripts/monitoring-apis-websites/"
 	}
 ]
