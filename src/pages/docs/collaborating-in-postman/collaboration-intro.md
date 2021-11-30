@@ -26,7 +26,8 @@ contextual_links:
     url: "/docs/collaborating-in-postman/adding-private-network/"
 
 ---
-> Free collaboration is available in version 6.2 and above.
+
+> Postman Free allows teams of up to three to collaborate at no cost. To collaborate with additional team members, features, and increased usage limits, see [Plans and Pricing](https://www.postman.com/pricing/).
 
 Postman allows all users to collaborate with their teams through Team Workspaces. Using this feature, you can easily collaborate and share your collections, environments, integrations, history, mocks, monitors, and more.
 
