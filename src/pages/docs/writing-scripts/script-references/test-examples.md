@@ -18,8 +18,8 @@ contextual_links:
   - type: subtitle
     name: "Videos"
   - type: link
-    name: "Intro to Postman: Writing tests"
-    url: "https://www.youtube.com/watch?v=vuVhF257uGw"
+    name: "Intro to Postman | Write API Tests"
+    url: "https://youtu.be/EVg6gxeiUd0"
   - type: subtitle
     name: "Related Blog Posts"
   - type: link
