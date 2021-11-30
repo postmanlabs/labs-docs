@@ -9,9 +9,9 @@ warning: false
 
 ---
 
-Uptime monitors (open beta) continuously check the available of a single API endpoint, website, or other URL and let you know whenever downtime occurs (typically within 1 to 2 minutes).
+Uptime monitors (open beta) continuously check the availability of a single API endpoint, website, or other URL and let you know whenever downtime occurs (typically within 1 to 2 minutes).
 
-To create a new uptime monitor, simply enter the URL and select which team members should be notified of a system outage. You can customize how often the monitor checks the availability of the URL and how quickly your team should be notified of any downtime. You can also configure the monitor to run in multiple regions. Creating uptime monitors requires a [paid Postman plan](#uptime-monitor-pricing).
+To create a new uptime monitor, simply enter the URL and select which team members should be notified of a system outage. You can customize how often the monitor checks the availability of the URL and how quickly your team should be notified of any downtime. You can also configure the monitor to run in multiple regions (paid plans only).
 
 Use the uptime monitor dashboard to quickly check if the API endpoint is currently up or down and the average response time. You can also view previous downtime incidents and get insights into the availability of the endpoint over time.
 
@@ -36,14 +36,13 @@ Create a new uptime monitor to track the availability of a single API endpoint, 
 1. Select **Monitors** in the left sidebar, and then select the plus **+** button.
 1. Select **Create an Uptime Monitor** in the right pane.
 1. For **Monitor name**, enter a descriptive name that will help you identify the monitor later.
-1. Enter the **URL** you want to monitor. *Uptime monitors can only monitor URLs, API endpoints, and websites that are publicly available over the internet.*
+1. Enter the **URL** you want to monitor. *Uptime monitors can only monitor URLs, API endpoints, and websites that are publicly available over the internet. Only HTTP and HTTPS URLs are supported.*
 1. Configure any optional details for the monitor:
 
     * **Recipients:** Add up to five members of your team to be notified when downtime occurs.
     * **Downtime:** Enter the number of minutes to wait after downtime starts (and continues) before a notification is sent.
-    * **Run frequency:** Select how often the monitor checks the availability of the URL.
-    * **Regions:** Select one or more regions to run the monitor from. If downtime occurs in any selected region, a notification is sent.
-    * **Maintenance window:** Specify any one-time or recurring maintenance window when the URL will not be available. No downtime notifications will be sent during this time.
+    * **Run frequency:** Select how often the monitor checks the availability of the URL, up to every minute (paid plans) or every five minutes (free plans).
+    * **Regions:** Select one or more regions to run the monitor from (paid plans only). If downtime occurs in any selected region, a notification is sent. (For free plans, the region is automatically selected.)
     * **Retry failed runs:** Select this option to try calling the URL again if an availability check fails. Specify the number of retries (1, 2, or 3).
     * **Follow redirects:** Select this option to allow the monitor to follow redirects when calling the URL.
 
@@ -51,9 +50,9 @@ Create a new uptime monitor to track the availability of a single API endpoint, 
 
 ### Getting notified on other channels
 
-Uptime monitors send email notifications to your team whenever downtime is detected. You can also [set up integrations](/docs/integrations/intro-integrations/) to receive downtime notifications on other messaging channels, such as [Slack](/docs/integrations/available-integrations/slack/), [Microsoft Teams](/docs/integrations/available-integrations/microsoft-teams/), or [PagerDuty](/docs/integrations/available-integrations/pagerduty/).
+Uptime monitors send email notifications to your team whenever downtime is detected. You can also [set up an integration](/docs/integrations/intro-integrations/) to receive downtime notifications in [Slack](/docs/integrations/available-integrations/slack/).
 
-> **Don't see the integration you need?** Create a [custom webhook](/docs/integrations/webhooks/) to send downtime data to another application or system that you specify.
+> **Want to integrate with a different application?** Create a [custom webhook](/docs/integrations/webhooks/) to send downtime data to another application or system that you specify.
 
 ### Editing an uptime monitor
 
@@ -99,6 +98,6 @@ To get more details, hover over an incident and select **View incident**. The li
 
 **Teams on paid Postman plans can try uptime monitors for free.** During the open beta period, you can have up to 3 (Basic plan), 5 (Professional plan), or 9 (Enterprise plan) uptime monitors, including paused monitors. These free uptime monitors will not count against your [team's monthly usage limit](https://www.postman.com/pricing/) for monitoring API calls.
 
-**Teams on Postman Free plans can try uptime monitors too.** Feel free to create one or more uptime monitors. Just keep in mind that calls made by these monitors will count against your team's monthly allowance of 1,000 monitoring API calls. If you need to make more calls, you can [upgrade your Postman plan](https://go.postman.co/purchase) or purchase [additional monitoring blocks](/docs/monitoring-your-api/monitor-usage/#purchasing-monitoring-blocks).
+**Users on Postman Free plans can try uptime monitors too.** Feel free to create one or more uptime monitors. Just keep in mind that calls made by these monitors will count against your team's monthly allowance of 1,000 monitoring API calls. If you need to make more calls, you can [upgrade your Postman plan](https://go.postman.co/purchase) or purchase [additional monitoring blocks](/docs/monitoring-your-api/monitor-usage/#purchasing-monitoring-blocks).
 
 > Uptime monitors can be run more frequently than collection-based monitors, which may affect your monthly usage. For more details on how to check your monthly monitor usage, see [Viewing monitor usage](/docs/monitoring-your-api/monitor-usage/).

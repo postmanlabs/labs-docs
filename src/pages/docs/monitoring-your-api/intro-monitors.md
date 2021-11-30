@@ -36,7 +36,7 @@ warning: false
 
 Postman Monitors give you continuous visibility into the health and performance of your APIs. Setting up a new monitor is easy and flexible. Quickly create an uptime monitor (open beta) to keep watch on a single API endpoint. Or create a collection-based monitor to run API test scripts, chain together multiple requests, and validate critical API flows.
 
-Once the monitor is running you’ll get alerted to any system outages or test failures, so you can quickly identify and address issues before your API’s consumers are affected.
+Once the monitor is running you’ll get alerted to any system outages or test failures, so you can identify and address issues before your API’s consumers are affected.
 
 ## Contents
 
@@ -56,15 +56,15 @@ Once the monitor is running you’ll get alerted to any system outages or test f
 
 ## Uptime monitors
 
-Uptime monitors (open beta) make it easier than ever to track the availability of an API or website. There’s no need to set up collections, test scripts, or environments. Simply enter the URL you want to monitor and choose which team members to be notified of outages.
+Uptime monitors (open beta) make it easier than ever to track the availability of an API or website. There’s no need to set up collections, test scripts, or environments. Simply enter the URL you want to monitor (HTTP or HTTPS only) and select the team members to be notified of outages.
 
-The uptime monitor continuously checks the availability of the URL as often as once a minute, and you define how quickly you want to be notified of any downtime. You can also set maintenance windows, so Postman knows not to check the endpoint during routine outages. As soon as any downtime is detected, the selected team members will get alerted by email. You can also [set up integrations](/docs/integrations/intro-integrations/) to be notified over Slack and other channels.
+The uptime monitor continuously checks the availability of the URL, as often as every minute (paid plans) or every five minutes (free plans). You define how quickly you want to be notified of any downtime. As soon as downtime is detected, the selected team members will get alerted by email. You can also [set up integrations](/docs/integrations/intro-integrations/) to be notified over Slack and other channels.
 
-Uptime monitors ensure the availability of your API or service around the clock and help you detect system outage issues more quickly. In addition, uptime statistics are recorded on the monitor’s dashboard in real time, so you can always see the status of your API at a glance, view past trends, or pause the monitor as needed.
+Uptime monitors ensure the availability of your API or service around the clock and help you detect system outage issues more quickly. Uptime statistics are recorded on the monitor’s dashboard in real time, so you can always see the status of your API at a glance, view past trends, or pause the monitor as needed.
 
 Learn how to [create an uptime monitor](/docs/monitoring-your-api/uptime-monitors/).
 
-> Uptime monitors can only monitor URLs, API endpoints, and websites that are publicly available over the internet.
+> Uptime monitors can only monitor URLs, API endpoints, and websites that are publicly available over the internet. Only HTTP and HTTPS URLs are supported.
 
 ## Collection-based monitors
 
