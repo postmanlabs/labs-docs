@@ -13,11 +13,8 @@ contextual_links:
   - type: subtitle
     name: "Videos"
   - type: link
-    name: "Sharing Postman Collections"
-    url: "https://www.youtube.com/watch?v=KMLaibEaf7Y"
-  - type: link
-    name: "How to Share Postman Collections"
-    url: "https://www.youtube.com/watch?v=mVTsK6ZdY6c"
+    name: "Working With Your Team in Postman | The Exploratory"
+    url: "https://youtu.be/5lscUV-Exac"
   - type: section
     name: "Next Steps"
   - type: link

@@ -135,7 +135,7 @@ You can allow Postman to auto-select a region for your monitor or you can opt to
 
 ### Using static IPs
 
-Static IPs are available on Postman Business and Enterprise plans. This option allows you to securely monitor private APIs using a direct channel to Postman. Learn how you can [monitor using static IPs](/docs/monitoring-your-api/using-static-IPs-to-monitor/).
+Static IPs are available on Postman Professional and Enterprise plans. This option allows you to securely monitor private APIs using a direct channel to Postman. Learn how you can [monitor using static IPs](/docs/monitoring-your-api/using-static-IPs-to-monitor/).
 
 ### Updating email preferences
 

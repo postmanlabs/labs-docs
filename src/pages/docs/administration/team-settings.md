@@ -74,7 +74,7 @@ View [Adding custom information to invoices](/docs/administration/billing/#addin
 
 ## Editing authentication methods
 
-> SSO is available on Postman Business and Enterprise plans.
+> SSO is available on Postman Professional and Enterprise plans.
 
 Select **Authentication** from the left-hand menu to configure or reconfigure your team's authentication methods.
 

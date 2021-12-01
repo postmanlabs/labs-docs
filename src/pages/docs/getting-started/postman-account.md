@@ -107,7 +107,7 @@ You can sign into Postman by selecting **Sign In** in the upper-right corner, se
 > You can opt out of the login process at any time by navigating back to Postman and selecting **Skip and take me to Postman Desktop App**.
 > You must complete the process of signing in within five minutes once you initiate login from Postman. If you go beyond this time, you must return to Postman and restart the sign in process.
 
-Log into Postman in your browser by entering your account credentials or signing in with Google. If you are on a Postman Business or Enterprise plan, opt to **Sign in with Single Sign-On (SSO)**.
+Log into Postman in your browser by entering your account credentials or signing in with Google. If you are on a Postman Professional or Enterprise plan, opt to **Sign in with Single Sign-On (SSO)**.
 
 > Check **Keep me signed in** if you would like to remain signed in after your current session for 30 days before re-authenticating. If you do not want to remain signed in on the computer you are working on, uncheck this option. Note that you will be prompted to sign in again after 30 minutes.
 
@@ -137,7 +137,7 @@ If you have a free account, you can upgrade it by navigating to [Postman](https:
 
 If you have a paid account, you can upgrade your Postman plan by navigating to your [billing dashboard](https://go.postman.co/billing/overview) and selecting **Edit Plan** on the right.
 
-[![Edit plan option in billing dashboard](https://assets.postman.com/postman-docs/billing-dashboard-edit-plan-v9.1.0.jpg)](https://assets.postman.com/postman-docs/billing-dashboard-edit-plan-v9.1.0.jpg)
+[![Edit plan option in billing dashboard](https://assets.postman.com/postman-docs/billing-edit-plan-selected-v9.1.jpg)](https://assets.postman.com/postman-docs/billing-edit-plan-selected-v9.1.jpg)
 
 > The cost of your upgraded plan and/or additional seats will be prorated based on the time left in your team's current billing cycle. For more information, [contact Postman's sales team](mailto:sales@postman.com).
 

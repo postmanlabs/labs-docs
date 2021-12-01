@@ -11,7 +11,7 @@ contextual_links:
     url: "/docs/administration/sso/intro-sso/"
 ---
 
-> __[SSO is available on Postman Business and Enterprise plans.](https://www.postman.com/pricing)__
+> __[SSO is available on Postman Professional and Enterprise plans.](https://www.postman.com/pricing)__
 
 ## Configuring single sign-on
 
@@ -92,7 +92,7 @@ The **Automatically add new users** checkbox in your SSO configuration determine
 
 ### Managing team logins
 
-By default, Postman only supports Service Provider initiated logins for Postman Business or Enterprise teams utilizing SSO. Your team will be required to head to the [Enterprise login page](https://identity.getpostman.com/enterprise/login) in order to log in to Postman. If you require users be able to log in from your SSO portal, you can generate and copy the RelayState from your [Postman team settings](http://go.postman.co/settings/team/auth) and save it in your IDP configuration. This ensures an additional level of security when logins are initiated through a source unknown to Postman.
+By default, Postman only supports Service Provider initiated logins for Postman Professional or Enterprise teams utilizing SSO. Your team will be required to head to the [Enterprise login page](https://identity.getpostman.com/enterprise/login) in order to log in to Postman. If you require users be able to log in from your SSO portal, you can generate and copy the RelayState from your [Postman team settings](http://go.postman.co/settings/team/auth) and save it in your IDP configuration. This ensures an additional level of security when logins are initiated through a source unknown to Postman.
 
 ### Removing team access
 

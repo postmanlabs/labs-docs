@@ -19,7 +19,7 @@ contextual_links:
 warning: false
 ---
 
-> **[Changelog is available on Postman Team, Business, and Enterprise plans.](https://www.postman.com/pricing/)**
+> **[Changelog is available on Postman Basic, Professional, and Enterprise plans.](https://www.postman.com/pricing/)**
 
 Your Postman collections display a changelog for reviewing create, update, and delete events. You can use the changelog to keep track of any updates you and your collaborators make to your private and team collections. The changelog also lets you rollback a collection and restore it to any previous point in time. Postman also tracks activity within teams and accounts.
 
@@ -38,7 +38,7 @@ The changelog indicates the date of each update, the user who carried it out, wh
 
 ![Collection changelog](https://assets.postman.com/postman-docs/collection-changelog-v8.jpg)
 
-With a Postman Team, Business, or Enterprise account, you can see generated diffs detailing changes to a collection.
+With a Postman Basic, Professional, or Enterprise account, you can see generated diffs detailing changes to a collection.
 
 <img alt="Changelog diffs" src ="https://assets.postman.com/postman-docs/changelog-diff-v8.jpg" width=400px/>
 
@@ -82,7 +82,7 @@ To filter by entity, click **Entity** at the top of the activity feed and select
 
 ## Viewing team activity
 
-You can review the activity for a team with a Postman Team, Business, or Enterprise account. In [Postman](https://go.postman.co/), use the __Workspaces__ dropdown to select your team, then navigate to the __Activity__ feed to view the events.
+You can review the activity for a team with a Postman Basic, Professional, or Enterprise account. In [Postman](https://go.postman.co/), use the __Workspaces__ dropdown to select your team, then navigate to the __Activity__ feed to view the events.
 
 ## Viewing user activity
 
@@ -90,7 +90,7 @@ You can review the activity for your own account in [Postman](https://go.postman
 
 ## Restoring collections and folders
 
-With a Postman Team, Business, or Enterprise account, you can use the changelog to restore a collection to a previous point in time. Click __Restore__ under a change to revert the collection to the point immediately _after_ the change was applied. The changelog will update and Postman will display a confirmation message indicating the time the collection has been restored to.
+With a Postman Basic, Professional, or Enterprise account, you can use the changelog to restore a collection to a previous point in time. Click __Restore__ under a change to revert the collection to the point immediately _after_ the change was applied. The changelog will update and Postman will display a confirmation message indicating the time the collection has been restored to.
 
 <img alt="Restore from changelog" src="https://assets.postman.com/postman-docs/restore-changelog-v8.jpg" width="400px"/>
 
@@ -106,7 +106,7 @@ Postman will prompt you to resolve any conflicts that may cause you to lose unsa
 
 ## Exporting team activity to other platforms
 
-With a Postman Team, Business, or Enterprise account, you can pipe team activity feeds to external communication channels:
+With a Postman Basic, Professional, or Enterprise account, you can pipe team activity feeds to external communication channels:
 
 * [Slack integration](/docs/integrations/available-integrations/slack/)
 * [Microsoft Teams integration](/docs/integrations/available-integrations/microsoft-teams/)  
