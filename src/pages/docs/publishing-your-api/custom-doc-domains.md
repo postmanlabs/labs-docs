@@ -29,7 +29,7 @@ In the Postman web dashboard, select [Team Settings](https://go.postman.co/setti
 
 [![edit view for team](https://assets.postman.com/postman-docs/edit-team-profile-a.jpg)](https://assets.postman.com/postman-docs/edit-team-profile-a.jpg)
 
-In the __Custom Domains__ section, you will see a list of domains indicated with verification status. Click __Add custom domain__.
+In the __Custom Domains__ section, you will see a list of domains indicated with verification status. Select __Add custom domain__.
 
 [![custom domain dashboard](https://assets.postman.com/postman-docs/dashboard-view-custom-domains-v9.1.jpg)](https://assets.postman.com/postman-docs/dashboard-view-custom-domains-v9.1.jpg)
 
@@ -37,7 +37,7 @@ Enter the URL of the domain you'd like to add. Your custom domain can be a full 
 
 [![add custom domain](https://assets.postman.com/postman-docs/add-custom-domain-v9.1.jpg)](https://assets.postman.com/postman-docs/add-custom-domain-v9.1.jpg)
 
-Click __Proceed__ to verify the domain.
+Select __Proceed__ to verify the domain.
 
 ## Verifying your domain
 
@@ -52,15 +52,15 @@ For DNS records, verify the ownership with a DNS web service provider. In a sepa
 1. A TXT record for `postman-echo.com` verifies the ownership of the domain. The value should be the same as the token shown in the modal. Add the TXT record to the __root domain__. For example if you're adding `example.com` or `api.example.com`, add the TXT record to `example.com`.
 2. A CNAME record for `docs.postman-echo.com`, as shown in the modal—this should be `phs.getpostman.com`. Add the CNAME record to the URL that's associated with your public documentation.
 
-To verify the domain, check the __I've added the TXT and CNAME records__ checkbox, then click __Verify Domain__. A confirmation message should indicate that the domain has been verified.
+To verify the domain, check the __I've added the TXT and CNAME records__ checkbox, then select __Verify Domain__. A confirmation message should indicate that the domain has been verified.
 
 [![verify_domain](https://assets.postman.com/postman-docs/docs-verify-domain-1.jpg)](https://assets.postman.com/postman-docs/docs-verify-domain-1.jpg)
 
 > Postman uses LetsEncrypt as an SSL certificate provider to enable hosting public documentation on your domain. LetsEncrypt generates a certificate implicitly if your domain has no CAA records. If your domain has CAA records set, then LetsEncrypt needs an explicit CAA record to issue a certificate for that domain. To enable LetsEncrypt issue this certificate, refer to the [LetsEncrypt Documentation](https://letsencrypt.org/docs/caa/).
 
-If you don't want to verify the domain now, click __Verify Later__.
+If you don't want to verify the domain now, select __Verify Later__.
 
-You can remove the custom domain by clicking __Delete Custom Domain__.
+You can remove the custom domain by selecting __Delete Custom Domain__.
 
 > Your DNS settings may take up to 24 hours to take effect, and you may receive an error message in the interim. To check the status, you can visit [this website](https://www.whatsmydns.net/).
 
