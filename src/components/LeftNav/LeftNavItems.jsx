@@ -234,6 +234,10 @@ export const leftNavItems = [
         url: '/docs/running-collections/scheduling-collection-runs/',
       },
       {
+        name: 'Triggering runs with webhooks',
+        url: '/docs/running-collections/collection-webhooks/',
+      },
+      {
         name: 'Building request workflows',
         url: '/docs/running-collections/building-workflows/',
       },
@@ -484,10 +488,6 @@ export const leftNavItems = [
       {
         name: 'Monitoring APIs and websites',
         url: '/docs/monitoring-your-api/monitoring-apis-websites/',
-      },
-      {
-        name: 'Set up integrations to receive alerts',
-        url: '/docs/monitoring-your-api/integrations-for-alerts/',
       },
       {
         name: 'Running Postman monitors using static IPs',

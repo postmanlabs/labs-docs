@@ -2,6 +2,7 @@
 title: 'Deploying an API'
 order: 81.65
 page_id: 'deploying_an_api'
+updated: 2021-09-15
 search_keyword: "deploy, aws, api gateway"
 warning: false
 contextual_links:

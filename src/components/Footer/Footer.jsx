@@ -21,7 +21,7 @@ function relStringGenerator(target) {
     return null;
   }
   if (target === 'blank') {
-    return 'noopener noreferrer';
+    return 'noopener';
   }
   return null;
 }

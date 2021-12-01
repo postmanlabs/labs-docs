@@ -122,8 +122,8 @@ You can recover deleted collections in Postman using __Trash__. Click `...` next
 Recovery options depend on your Postman plan:
 
 * With a free account you can recover collections up to one day old.
-* Team accounts can recover collections up to 30 days.
-* With Postman Business and Enterprise you can recover collections up to 90 days.
+* With Postman Basic you can recover collections up to 30 days.
+* With Postman Professional and Enterprise you can recover collections up to 90 days.
 
 > You cannot recover a deleted collection that is larger than 30 MB.
 

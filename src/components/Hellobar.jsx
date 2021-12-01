@@ -54,7 +54,7 @@ class HelloBar extends React.Component {
     //     <div className="hellobar__container">
     //       <div className="align-middle hellobar__text">
     //         {bardata.title}
-    //         <a href={bardata.cta.url} className="hellobar__postman-link" target="_blank" rel="noopener noreferrer">{bardata.cta.text}</a>
+    //         <a href={bardata.cta.url} className="hellobar__postman-link" target="_blank" rel="noopener">{bardata.cta.text}</a>
     //       </div>
     //       <div aria-label="HelloBar" type="button" className="hellobar__close-button" onClick={this.closeBar}>X</div>
     //     </div>

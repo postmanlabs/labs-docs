@@ -20,8 +20,8 @@ contextual_links:
     name: "Log Response Data in Collection Runs | Postman Level Up"
     url: "https://youtu.be/UreV_7fHKiU"
   - type: link
-    name: "Running a collection"
-    url: "https://www.youtube.com/watch?v=la0LqQwwKAA"
+    name: "Intro to Postman | Run a Collection"
+    url: "https://youtu.be/8UR1NzuT7jg"
   - type: dynamic_blog
     name: "Related Blog Posts"
     blog_tag: "collections"
@@ -111,7 +111,7 @@ In addition to using the Collection Runner in Postman, you can use collection ru
 
 * The Postman command-line interface [Newman](/docs/running-collections/using-newman-cli/command-line-integration-with-newman/) enables you to run collections and build them into your development pipeline, responding to test outcomes to maintain your API performance.
 * Adding a [monitor](/docs/monitoring-your-api/intro-monitors/) to your collection lets you schedule collection runs and stay informed of any issues.
-* You can also set up a [monitoring webhook](/docs/monitoring-your-api/integrations-for-alerts/) to trigger a collection at a specific time with your own custom payload.
+* You can also set up a [collection webhook](/docs/running-collections/collection-webhooks/) to trigger a collection run at a specific time with your own custom payload.
 
 ## Next steps
 

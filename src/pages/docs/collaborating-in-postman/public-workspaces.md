@@ -65,7 +65,7 @@ You can also convert an existing workspace to a public workspace. Open the works
 
 <img alt="Visibility" src="https://assets.postman.com/postman-docs/workspace-settings-request-visibility-change-v9.1.0.jpg" width="400px"/>
 
-If you are on a Postman Business or Enterprise plan, you need a community manager's approval to change a workspace's visibility to __Public__.
+If you are on a Postman Professional or Enterprise plan, you need a community manager's approval to change a workspace's visibility to __Public__.
 
 When you make a workspace public, a notification is sent to all workspace members. Select the notification bell in the top right corner to view notifications.
 

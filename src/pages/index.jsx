@@ -167,7 +167,7 @@ class IndexPage extends React.Component {
                 <iframe
                   loading="lazy"
                   className="embed-responsive-item "
-                  src="https://www.youtube-nocookie.com/embed/7E60ZttwIpY?rel=0"
+                  src="https://www.youtube-nocookie.com/embed/2oOSnxZ28fA?rel=0"
                   title="Intro to Postman"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
@@ -184,7 +184,11 @@ class IndexPage extends React.Component {
               <div className="sticky-top" style={{ top: '75px', zIndex: '0' }}>
                 <h2 id="upcoming-events">Upcoming Postman Events</h2>
                 <p>
-                  <a className="link-style" href="https://www.twitch.tv/getpostman" target="_blank" rel="noopener noreferrer">
+                  <a 
+                    className="link-style" 
+                    href="https://www.twitch.tv/getpostman" 
+                    target="_blank" 
+                    rel="noopener">
                     Follow us
                   </a>
                   {' '}
@@ -194,7 +198,7 @@ class IndexPage extends React.Component {
                     className="link-style"
                     href="https://www.youtube.com/channel/UCocudCGVb3MmhWQ1aoIgUQw"
                     target="_blank"
-                    rel="noopener noreferrer"
+                    rel="noopener"
                   >
                     subscribe
                   </a>
@@ -237,7 +241,7 @@ class IndexPage extends React.Component {
                               className="event-link-wrapper link-style"
                               href={event.link}
                               target="_blank"
-                              rel="noopener noreferrer"
+                              rel="noopener"
                             >
                               <span>See details →</span>
                             </OutboundLink>
@@ -260,7 +264,7 @@ class IndexPage extends React.Component {
                             style={{ fontSize: 'inherit' }}
                             href="https://github.com/postmanlabs/postman-docs/blob/develop/CONTRIBUTING.md"
                             target="_blank"
-                            rel="noopener noreferrer"
+                            rel="noopener"
                           >
                             See Contributing doc for details
                           </a>

@@ -11,11 +11,6 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
-    name: "Videos"
-  - type: link
-    name: "Intro to Postman Cloud"
-    url: "https://www.youtube.com/watch?v=ccdxr0oJR-I"
-  - type: subtitle
     name: "Related Blog Posts"
   - type: link
     name: "Backup and Sync your Postman Collections on GitHub"
