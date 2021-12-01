@@ -87,7 +87,7 @@ Your team can add a total of five alerts. You must be a **Community Manager** or
 To add custom alerts:
 
 1. Go to **Team** > **Team Settings** > **Token scanner**.
-2. In the **Custom alerts** section, click **Add Alert**.
+2. In the **Custom alerts** section, select **Add Alert**.
 3. On the **Add Alert** page, define the custom token.
 
 ## Token scanner dashboard

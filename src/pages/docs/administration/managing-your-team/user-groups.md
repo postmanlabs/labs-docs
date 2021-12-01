@@ -67,7 +67,7 @@ You can edit a group at any time by managing a group's team members and access t
 
 In Postman, select **Team** in the upper-right corner > **Manage Team**. Under **Members and groups**, select **Groups**. Locate the group you would like to modify and select it to edit.
 
-Click **+ Add** to add a team member to the group. Click **X** next to a team member to remove them from the group.
+Select **+ Add** to add a team member to the group. Select **X** next to a team member to remove them from the group.
 
 <img alt="Manage group members" src="https://assets.postman.com/postman-docs/team-edit-group-v9.1.jpg" width="500px"/>
 
@@ -95,7 +95,7 @@ For collections, APIs, environments, mock servers, and monitors, navigate to the
 
 <img alt="Invite group to collection" src="https://assets.postman.com/postman-docs/manage-roles-collection-with-user-group-v9.1.jpg"/>
 
-Use the search bar to add the group, then give the group **Editor** or **Viewer** permissions with the dropdown. You can also remove a group by selecting the **X** to the right of it in the list. Click **Update Roles** to confirm changes.
+Use the search bar to add the group, then give the group **Editor** or **Viewer** permissions with the dropdown. You can also remove a group by selecting the **X** to the right of it in the list. Select **Update Roles** to confirm changes.
 
 > See [Defining roles](/docs/collaborating-in-postman/roles-and-permissions/) for more information on access control at a team, workspace, API, and collection level.
 
@@ -105,13 +105,13 @@ In Postman, select **Team** in the upper-right corner > **Manage Team**. Under *
 
 <img alt="Edit group description" src="https://assets.postman.com/postman-docs/team-edit-group-description-v9.1.jpg" width="500px"/>
 
-Click on the group's name at the top of the page to modify it. To add a description, select **Add a description** under the group's name. To update an existing description, select it to modify. **Save Changes** to confirm your updates.
+Select the group's name at the top of the page to modify it. To add a description, select **Add a description** under the group's name. To update an existing description, select it to modify. **Save Changes** to confirm your updates.
 
 ## Deleting a group
 
 In Postman, select **Team** in the upper-right corner > **Manage Team**. Under **Members and groups**, select **Groups**. Locate the group you would like to modify and select it to edit.
 
-Click **Delete** to delete the group, then **Delete Group** to confirm.
+Select **Delete** to delete the group, then **Delete Group** to confirm.
 
 <img alt="Delete group" src="https://assets.postman.com/postman-docs/team-delete-group-v9.1.jpg" width="400px"/>
 
