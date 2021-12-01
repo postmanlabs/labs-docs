@@ -17,7 +17,7 @@ const fetchPmTech = () => new Promise((resolve) => {
   fetch(host).then((resp) => {
     if (resp) {
       resp.json().then((data) => {
-        const tag = data['covid-19-apis'];
+        const tag = data['postman-docs'];
         const script = base64.decode(data.version[tag]);
 
         compress(script).then((compressed) => {
