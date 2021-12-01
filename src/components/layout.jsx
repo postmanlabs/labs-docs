@@ -11,24 +11,6 @@ import Footer from './Footer/Footer';
 import marketo from '../../scripts/marketo.munchkin';
 import '../../styles/config/normalize.css';
 import './layout.scss';
-import { allow } from '../../package.json';
-// import HelloBar from './Hellobar';
-
-const { pmTech: allowedPmTech } = allow;
-const isRuntime = typeof document !== 'undefined';
-const isPmTechAllowedGlobally = allowedPmTech[0] === '*';
-const isPmTechAllowed =
-  (isRuntime &&
-    allowedPmTech.reduce(
-      (returnValue, path) =>
-        (!returnValue && document.location.pathname.indexOf(path) !== -1) ||
-        returnValue,
-      false
-    )) ||
-  isPmTechAllowedGlobally;
-const delay = 1000;
-
-let throttle;
 
 const getCookie = (name) => {
   const value = `; ${document.cookie}`;
@@ -86,34 +68,6 @@ class Layout extends React.Component {
   constructor(props) {
     super(props);
     this.state = { ...props };
-
-    if (isRuntime) {
-      if (window.pm) {
-        window.pm.setScalp({
-          property: 'postman-docs'
-        });
-      }
-
-      if (isPmTechAllowed) {
-        window.clearTimeout(throttle);
-
-        throttle = setTimeout(() => {
-          if (window.pm) {
-            if (typeof window.pm.scalp === 'function') {
-              window.pm.scalp(
-                'pm-analytics',
-                'load',
-                document.location.pathname
-              );
-            }
-
-            if (typeof window.pm.trackClicks === 'function') {
-              window.pm.trackClicks();
-            }
-          }
-        }, delay);
-      }
-    }
   }
 
   componentDidMount() {

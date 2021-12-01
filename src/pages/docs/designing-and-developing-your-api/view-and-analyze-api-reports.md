@@ -26,7 +26,7 @@ contextual_links:
     url: "/docs/designing-and-developing-your-api/validating-elements-against-schema/"
 ---
 
-> [__API reporting is available on all Postman Enterprise and select Postman Business plans.__](https://www.postman.com/pricing)
+> [__API reporting is available on all Postman Enterprise and select Postman Professional plans.__](https://www.postman.com/pricing)
 
 Postman generates reports that enable you to visualize data for team metrics and usage, and for API activities such as creation, collection execution, and test runs. Use reports to get insights on performance, troubleshooting, and SLA adherence. You can access API reports in your [Postman dashboard](https://go.postman.co/reports/summary).
 
@@ -38,7 +38,7 @@ Postman generates reports that enable you to visualize data for team metrics and
 * [All Workspaces reports](#all-workspaces-reports)
 * [All APIs reports](#all-apis-reports)
 * [Security Audit](#security-audit-reports)
-* [Business reports](#business-reports)
+* [Postman Professional reports](#postman-professional-reports)
 * [Troubleshooting](#troubleshooting)
 * [Next Steps](#next-steps)
 
@@ -72,7 +72,7 @@ To navigate within a report:
 
     <img src="https://assets.postman.com/postman-docs/reports-drilldown.jpg" alt="reports data point" width="100%" />
 
-> [Postman Enterprise](https://www.postman.com/pricing/get-started-postman-plans/) teams have access to detailed team and API reports. Postman Business teams created after 2020 have access to a limited set of reports. For more information, see [business reports](#business-reports).
+> [Postman Enterprise](https://www.postman.com/pricing/get-started-postman-plans/) teams have access to detailed team and API reports. Postman Professional teams created after 2020 have access to a limited set of reports. For more information, see [Postman Professional reports](#postman-professional-reports).
 
 ## Reports Summary
 
@@ -275,9 +275,9 @@ The **Security Audit** report provides the following information:
 * __Exposed tokens by type__ - The number of exposed tokens by type.
 * __Exposed tokens over time__ - The number of exposed tokens over time.
 
-## Business reports
+## Postman Professional reports
 
-Postman Business teams created after January 2020 do not benefit from API reporting. To gain access to API reporting, [upgrade to Postman Enterprise](https://www.postman.com/pricing/get-started-postman-plans/). [Contact Postman support](https://www.postman.com/support/) for information and assistance regarding your team's plan and feature set.
+Postman Professional teams created after January 2020 do not benefit from API reporting. To gain access to API reporting, [upgrade to Postman Enterprise](https://www.postman.com/pricing/get-started-postman-plans/). [Contact Postman support](https://www.postman.com/support/) for information and assistance regarding your team's plan and feature set.
 
 The __Team__ &gt; __Overview__ report provides organization level metrics, including new and active APIs, team size, and workspaces. Select a particular metric to view more data.
 
