@@ -26,7 +26,6 @@ Your [Team Settings](https://go.postman.co/settings/team/general) allow you to m
 * [Updating billing details](#updating-billing-details)
 * [Editing authentication methods](#editing-authentication-methods)
 * [Understanding roles and permissions](#understanding-roles-and-permissions)
-* [Managing invite links](#managing-invite-links)
 
 ## Accessing team settings
 
@@ -89,11 +88,3 @@ Select **Roles and Permissions** from the left-hand menu to view a complete list
 View [Defining roles](/docs/collaborating-in-postman/roles-and-permissions/) for more information on roles you can assign to members of your team and [Managing your team](/docs/administration/managing-your-team/managing-your-team/) for an overview of managing roles and users within your Postman team.
 
 <img alt="Roles and permissions descriptions" src="https://assets.postman.com/postman-docs/dashboard-view-roles-and-permissions-v9.1.jpg"/>
-
-## Managing invite links
-
-You can select [**Invite links**](https://go.postman.co/settings/team/manage-invite-links) from the left-hand menu to view a list of invitation links your team has generated. Here, you can review which users generated links, when they were generated, their expiry date, and their URL.
-
-<img alt="Managing invite links" src="https://assets.postman.com/postman-docs/manage-team-invite-links-v9.1.jpg"/>
-
-You can hover over a row and select the **Copy link** icon on the right-hand side to copy the corresponding invite URL. To delete a link, hover over the row and select the **Delete link** trash can icon on the right-hand side.
