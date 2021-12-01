@@ -25,8 +25,7 @@ The Postman Token Scanner scans your public workspaces, collections, environment
 * [Supported tokens](#supported-tokens)
     * [Default alerts](#default-alerts)
     * [Custom alerts](#custom-alerts)
-* [Token scanner dashboard](#)
-
+* [Token scanner dashboard](#token-scanner-dashboard)
 
 ## Use cases
 
