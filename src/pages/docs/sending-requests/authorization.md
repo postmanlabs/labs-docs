@@ -23,8 +23,8 @@ contextual_links:
   - type: subtitle
     name: "Videos"
   - type: link
-    name: "Intro to Postman: Authorizing a request"
-    url: "https://www.youtube.com/watch?v=Q23wkkfezfM"
+    name: "Intro to Postman | Authorize a Request"
+    url: "https://youtu.be/7t9AB9Opprs"
   - type: link
     name: "Inheriting Auth Details | Postman Level Up"
     url: "https://www.youtube.com/watch?v=WFiYsfSkyXE&list=PLM-7VG-sgbtC5tNXxd28cmePSa9BYwqeU&index=2"

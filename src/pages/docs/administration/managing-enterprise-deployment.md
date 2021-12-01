@@ -18,25 +18,39 @@ contextual_links:
 
 ---
 
-> __[The Postman Enterprise Application is only available to Postman Enterprise teams and is currently in beta.](https://www.postman.com/pricing)__
+> __[Postman app versioning and the Postman Enterprise Application (currently in beta) are only available to Postman Enterprise teams.](https://www.postman.com/pricing)__
 
-Postman's Enterprise Application is a variant of Postman’s Desktop Application that offers greater control to administrators looking to deploy Postman at an enterprise level. It is available as an MSI package for Windows and supports silent installation, system-wide installation, and additional configurations to control how Postman is installed on users' devices.
-
-To get started, reach out to your Postman Account Manager or [contact Postman support](https://www.postman.com/support/).
+Postman Enterprise offers greater control to administrators looking to deploy and manage Postman at scale. Team admins can choose to [manage Postman app versioning](#managing-postman-app-versioning) via Postman support, or [deploy the Postman Enterprise app](#deploying-the-postman-enterprise-app) to their organization.
 
 ## Contents
 
-* [Downloading the Postman Enterprise app](#downloading-the-postman-enterprise-app)
+* [Managing Postman app versioning](#managing-postman-app-versioning)
 
-* [Installing the Postman Enterprise app](#installing-the-postman-enterprise-app)
+* [Deploying the Postman Enterprise app](#deploying-the-postman-enterprise-app)
 
-    * [Enabling verbose logging for installation](#enabling-verbose-logging-for-installation)
+    * [Downloading the Postman Enterprise app](#downloading-the-postman-enterprise-app)
 
-* [Updating the Postman Enterprise app](#updating-the-postman-enterprise-app)
+    * [Installing the Postman Enterprise app](#installing-the-postman-enterprise-app)
 
-* [Uninstalling the Postman Enterprise app](#uninstalling-the-postman-enterprise-app)
+        * [Enabling verbose logging for installation](#enabling-verbose-logging-for-installation)
 
-## Downloading the Postman Enterprise app
+    * [Updating the Postman Enterprise app](#updating-the-postman-enterprise-app)
+
+    * [Uninstalling the Postman Enterprise app](#uninstalling-the-postman-enterprise-app)
+
+## Managing Postman app versioning
+
+Postman app versioning allows you to set a team-wide version of Postman. You can choose to set Postman v8 or Postman v9 as your team's version. App versioning is a back-end operation and must be requested by a [Postman team admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles).
+
+To request this change, reach out to your Postman Account Manager or [contact Postman support](https://www.postman.com/support/).
+
+> Check out [Postman's release notes](https://www.postman.com/downloads/release-notes/) to compare app versions, or reach out to your Postman Account Manager for assistance in selecting your team's version.
+
+## Deploying the Postman Enterprise app
+
+Postman's Enterprise Application is a variant of Postman’s Desktop Application that offers greater control to administrators looking to deploy Postman at an enterprise level. It is available as an MSI package for Windows and supports silent installation, system-wide installation, and additional configurations to control how Postman is installed on users' devices.
+
+### Downloading the Postman Enterprise app
 
 You must be a [Postman team admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) to access the Postman Enterprise app package.
 
@@ -44,11 +58,13 @@ To download, navigate to Postman and select **Team** in the upper right, then **
 
 <img alt="Postman Enterprise app download" src="https://assets.postman.com/postman-docs/postman-enterprise-app-download-v9.jpg" />
 
-## Installing the Postman Enterprise app
+> Reach out to your Postman Account Manager or [contact Postman support](https://www.postman.com/support/) for assistance with the Postman Enterprise app.
+
+### Installing the Postman Enterprise app
 
 Once you've downloaded the Postman Enterprise MSI package, you can move forward with installing the app.
 
-### INSTALLDIR
+#### INSTALLDIR
 
 The `INSTALLDIR` public property is used to select a custom installation directory. If this public property is not manually overwritten, it defaults to `%PROGRAMFILES%\Postman\"Postman Enterprise"` for system-wide installations and `%USERPROFILE%\AppData\Local\Programs\Postman\"Postman Enterprise"` for per-user installations.
 
@@ -58,7 +74,7 @@ For example, you can run the following command to perform a system-wide installa
 msiexec /i path/to/package.msi INSTALLDIR=C:\custom
 ```
 
-### MSIINSTALLPERUSER
+#### MSIINSTALLPERUSER
 
 The standard `MSIINSTALLPERUSER` option is used to install the application per-user instead of system-wide. By default, the MSI performs a system-wide installation. Set `MSIINSTALLPERUSER` to `1` to perform a per-user installation.
 
@@ -74,7 +90,7 @@ This public property can be used in conjunction with `INSTALLDIR` to perform a p
 msiexec /i path/to/package.msi MSIINSTALLPERUSER=1 INSTALLDIR=%USERPROFILE%\custom
 ```
 
-### Silent installation
+#### Silent installation
 
 A silent installation or uninstallation is performed by passing the `/qn` option to `msiexec`:
 
@@ -86,7 +102,7 @@ Note that running in silent installation mode will omit error messages. If the i
 
 It is always recommended to [run silent installations with logging enabled](#enabling-verbose-logging-for-installation).
 
-### Enabling verbose logging for installation
+#### Enabling verbose logging for installation
 
 The `msiexec` tool can be configured to output debug log information about the installation process with the `/l*v` option. For example, you can output debug information to `C:\log.txt`:
 
@@ -94,7 +110,7 @@ The `msiexec` tool can be configured to output debug log information about the i
 msiexec /i path\to\package.msi /l*v C:\log.txt
 ```
 
-## Updating the Postman Enterprise app
+### Updating the Postman Enterprise app
 
 To upgrade the Postman Enterprise app, you can install the new version of the MSI package. Windows Installer will recognize this updated installation as an upgrade.
 
@@ -108,7 +124,7 @@ INSTALLDIR=C:\custom and MSIINSTALLPERUSER=1
 
 > Downgrading the Postman Enterprise app is not supported and attempts to do so will result in an error message. You can force a downgrade by manually removing the current version and then installing an older version of Postman Enterprise.
 
-## Uninstalling the Postman Enterprise app
+### Uninstalling the Postman Enterprise app
 
 The `msiexec` command-line tool can be used to remove an existing application using the `/x` option:
 

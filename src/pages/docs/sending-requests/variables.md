@@ -15,11 +15,11 @@ contextual_links:
   - type: subtitle
     name: "Videos"
   - type: link
-    name: "How to use global variables in Postman"
-    url: "https://www.youtube.com/watch?v=TU1i1CgjVR8"
+    name: "How to Use Variables in Postman"
+    url: "https://youtu.be/BKLC-_C9fxE"
   - type: link
-    name: "New to Postman: Chaining requests"
-    url: "https://www.youtube.com/watch?v=shYn3Ys3ygE"
+    name: "Intro to Postman | Chain Requests"
+    url: "https://youtu.be/4fULCou_7Wc"
   - type: subtitle
     name: "Related Blog Posts"
   - type: link

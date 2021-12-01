@@ -26,11 +26,11 @@ contextual_links:
   - type: subtitle
     name: "Videos"
   - type: link
-    name: "Intro to Postman: Writing API tests"
-    url: "https://www.youtube.com/watch?v=vuVhF257uGw"
+    name: "Intro to Postman | Write API Tests"
+    url: "https://youtu.be/EVg6gxeiUd0"
   - type: link
-    name: "Intro to Postman: Advanced API tests"
-    url: "https://www.youtube.com/watch?v=dDlsQrZmEmo"
+    name: "Intro to Postman | Advanced API Tests"
+    url: "https://youtu.be/vVDZxeS865g"
   - type: link
     name: "Testing with Snippets | Postman Level Up"
     url: "https://youtu.be/QGNJ0wh5Ry0"

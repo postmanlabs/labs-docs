@@ -22,9 +22,6 @@ contextual_links:
   - type: link
     name: "Private API Network | The Exploratory"
     url: "https://youtu.be/1SINcytmKsc"
-  - type: link
-    name: "Team collaboration with Postman"
-    url: "https://www.youtube.com/watch?v=8tLvvQ-3Nx0"
   - type: section
     name: "Next Steps"
   - type: link
@@ -108,7 +105,7 @@ From the overview page, select **Create Folder** on the right to create a new fo
 
 ![New folder in Private Network](https://assets.postman.com/postman-docs/add-new-folder-api-network-overview-v9.jpg)
 
-Once you've created the folder, you can add APIs to get started. Make your API selection from the dropdown under **Select APIs** to add them to your Team's Private API Network. You can select as many APIs you want to add to the Private API Network at one time. Select __Add API__.
+Once you've created the folder, you can add APIs to get started. Make your API selection from the dropdown under **Select APIs** to add them to your team's Private API Network. You can select as many APIs you want to add to the Private API Network at one time. Select __Add API__.
 
 <img alt="Add API Modal" src="https://assets.postman.com/postman-docs/add-to-private-api-network-v9.jpg" width="400px"/>
 
