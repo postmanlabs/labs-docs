@@ -27,7 +27,7 @@ contextual_links:
 warning: false
 ---
 
-Postman Monitoring offers a number of configuration options when creating a monitor, allowing you to seamlessly integrate it into your team's API development workflow.
+Postman Monitoring offers a number of configuration options when creating a collection-based monitor, allowing you to seamlessly integrate it into your team's API development workflow.
 
 ## Contents
 
@@ -73,7 +73,7 @@ Postman Monitoring offers a number of configuration options when creating a moni
 
 ## Creating a monitor
 
-You can create a Postman monitor using a number of flows both in and outside of Postman:
+You can create a collection-based monitor using a number of flows both in and outside of Postman:
 
 ### Creating a monitor from Overview
 
