@@ -58,13 +58,13 @@ Once the monitor is running you’ll get alerted to any system outages or test f
 
 Uptime monitors (open beta) make it easier than ever to track the availability of an API or website. There’s no need to set up collections, test scripts, or environments. Simply enter the URL you want to monitor (HTTP or HTTPS only) and select the team members to be notified of outages.
 
-The uptime monitor continuously checks the availability of the URL, as often as every minute (paid plans) or every five minutes (free plans). You define how quickly you want to be notified of any downtime. As soon as downtime is detected, the selected team members will get alerted by email. You can also [set up integrations](/docs/integrations/intro-integrations/) to be notified over Slack and other channels.
+The uptime monitor continuously checks the availability of the URL, as often as every minute (paid plans) or every five minutes (free plans). You define how quickly you want to be notified of any downtime. As soon as downtime is detected, the selected team members will get alerted by email. You can also set up an integration to be [notified over Slack](/docs/integrations/available-integrations/slack/), or create a [custom webhook](/docs/integrations/webhooks/) to send downtime data to another application.
 
 Uptime monitors ensure the availability of your API or service around the clock and help you detect system outage issues more quickly. Uptime statistics are recorded on the monitor’s dashboard in real time, so you can always see the status of your API at a glance, view past trends, or pause the monitor as needed.
 
 Learn how to [create an uptime monitor](/docs/monitoring-your-api/uptime-monitors/).
 
-> Uptime monitors can only monitor URLs, API endpoints, and websites that are publicly available over the internet. Only HTTP and HTTPS URLs are supported.
+> Uptime monitors can only monitor URLs, API endpoints, and websites that are publicly available over the internet. Only HTTP and HTTPS are supported.
 
 ## Collection-based monitors
 
@@ -128,8 +128,8 @@ If you are on a paid plan, you can select one or more geographic regions you'd l
 
 ## Accessible APIs
 
-Because monitors run in the Postman cloud, all URLs must be publicly available on the Internet. A monitor cannot directly access your `localhost` or run requests behind a firewall. You can [run monitors using static IPs](/docs/monitoring-your-api/using-static-IPs-to-monitor/) to overcome this issue. Static IPs are available on [Postman Professional and Enterprise plans](https://www.postman.com/pricing).
+Because monitors run in the Postman cloud, all URLs must be publicly available on the internet. A monitor cannot directly access your `localhost` or run requests behind a firewall. You can [run monitors using static IPs](/docs/monitoring-your-api/using-static-IPs-to-monitor/) to overcome this issue. Static IPs are available on [Postman Professional and Enterprise plans](https://www.postman.com/pricing).
 
 ## Next steps
 
-Learn how to [set up a new monitor](/docs/monitoring-your-api/setting-up-monitor/).
+Learn how to [set up a new collection-based monitor](/docs/monitoring-your-api/setting-up-monitor/) or [start monitoring uptime for an API endpoint](/docs/monitoring-your-api/uptime-monitors/).

@@ -20,7 +20,7 @@ Use the uptime monitor dashboard to quickly check if the API endpoint is current
 ## Contents
 
 * [Creating an uptime monitor](#creating-an-uptime-monitor)
-    * [Getting notified on other channels](#getting-notified-on-other-channels)
+    * [Getting notified about downtime](#getting-notified-about-downtime)
     * [Editing an uptime monitor](#editing-an-uptime-monitor)
     * [Pausing an uptime monitor](#pausing-an-uptime-monitor)
     * [Deleting an uptime monitor](#deleting-an-uptime-monitor)
@@ -36,7 +36,7 @@ Create a new uptime monitor to track the availability of a single API endpoint, 
 1. Select **Monitors** in the left sidebar, and then select the plus **+** button.
 1. Select **Create an Uptime Monitor** in the right pane.
 1. For **Monitor name**, enter a descriptive name that will help you identify the monitor later.
-1. Enter the **URL** you want to monitor. *Uptime monitors can only monitor URLs, API endpoints, and websites that are publicly available over the internet. Only HTTP and HTTPS URLs are supported.*
+1. Enter the **URL** you want to monitor. *Uptime monitors can only monitor URLs, API endpoints, and websites that are publicly available over the internet. Only HTTP and HTTPS are supported.*
 1. Configure any optional details for the monitor:
 
     * **Recipients:** Add up to five members of your team to be notified when downtime occurs.
@@ -48,11 +48,11 @@ Create a new uptime monitor to track the availability of a single API endpoint, 
 
 1. Select **Create Uptime Monitor**.
 
-### Getting notified on other channels
+### Getting notified about downtime
 
-Uptime monitors send email notifications to your team whenever downtime is detected. You can also [set up an integration](/docs/integrations/intro-integrations/) to receive downtime notifications in [Slack](/docs/integrations/available-integrations/slack/).
+Uptime monitors send email notifications to your team whenever downtime is detected. To customize email notifications, select the bell <img alt="Bell icon" src="https://assets.postman.com/postman-docs/icon-notification-bell-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> in the Postman header and select **Manage Preferences**.
 
-> **Want to integrate with a different application?** Create a [custom webhook](/docs/integrations/webhooks/) to send downtime data to another application or system that you specify.
+You can also [set up an integration](/docs/integrations/intro-integrations/) to receive downtime notifications in [Slack](/docs/integrations/available-integrations/slack/). Or create a [custom webhook](/docs/integrations/webhooks/) to send downtime data to another application or system that you specify.
 
 ### Editing an uptime monitor
 
