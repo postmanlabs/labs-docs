@@ -139,7 +139,7 @@ Add or update your billing email, company name, address, and (if applicable) VAT
 
 If you have a card on file, Postman will automatically attempt 3 times to charge it. If this is unsuccessful, team members with billing privileges will be notified via email.
 
-<img alt="Failed payment email" src="https://assets.postman.com/postman-docs/failed-payment-email.jpg" width="500px"/>
+<img alt="Failed payment email" src="https://assets.postman.com/postman-docs/billing-email-payment-declined-v9.1.jpg" width="400px"/>
 
 If payment is unsuccessful, Postman offers a grace period of 21 days to avoid service disruption. For invoice-based teams, this means 21 days following the due date listed on the invoice.
 
