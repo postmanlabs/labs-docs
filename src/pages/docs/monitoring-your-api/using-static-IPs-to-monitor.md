@@ -16,15 +16,15 @@ contextual_links:
     url: "/docs/integrations/intro-integrations/"
 ---
 
-> __[Static IP address monitoring is available on Postman Business and Enterprise plans.](https://www.postman.com/pricing)__
+> __[Static IP address monitoring is available on Postman Professional and Enterprise plans.](https://www.postman.com/pricing)__
 
-Postman's static IP feature allows you to monitor your APIs that are behind a restricted firewall. This feature is available to all Postman Business and Enterprise customers, provided your IT team [whitelists](#whitelisting-static-ip-addresses) the associated static IP addresses.
+Postman's static IP feature allows you to monitor your APIs that are behind a restricted firewall. This feature is available to all Postman Professional and Enterprise customers, provided your IT team [allowlists](#allowlisting-static-ip-addresses) the associated static IP addresses.
 
 The provided static IP addresses are fixed to their specified region and shared by all customers who utilize this feature.
 
 ## Contents
 
-* [Whitelisting static IP addresses](#whitelisting-static-ip-addresses)
+* [Allowlisting static IP addresses](#allowlisting-static-ip-addresses)
 
 * [Creating a new monitor to run from a static IP address](#creating-a-new-monitor-to-run-from-a-static-ip-address)
 
@@ -32,9 +32,9 @@ The provided static IP addresses are fixed to their specified region and shared 
 
 * [Next steps](#next-steps)
 
-## Whitelisting static IP addresses
+## Allowlisting static IP addresses
 
-Static IP addresses are available for US east and US west regions. Contact your IT team to whitelist the following IP addresses:
+Static IP addresses are available for US east and US west regions. Contact your IT team to allowlist the following IP addresses:
 
 * US East: `34.201.186.27`
 * US West: `52.89.173.88`

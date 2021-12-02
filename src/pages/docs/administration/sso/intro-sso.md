@@ -13,7 +13,7 @@ contextual_links:
     url: "https://blog.postman.com/announcing-updated-postman-plans-and-pricing/"
 ---
 
-> __[SSO is available on Postman Business and Enterprise plans.](https://www.postman.com/pricing)__
+> __[SSO is available on Postman Professional and Enterprise plans.](https://www.postman.com/pricing)__
 
 ## What is SSO?
 
@@ -46,7 +46,7 @@ An example of SSO is Google's implementation of login for their products, such a
 
 ### SSO setup for SAML 2.0 compliant IdPs
 
-Most SAML 2.0 compliant identity providers require the same information about the service provider for setup (Postman is the service provider). These values are specific to a Postman Team and are available after configuring SSO in the Edit Team Page.
+Most SAML 2.0 compliant identity providers require the same information about the service provider for setup (Postman is the service provider). These values are specific to a Postman team and are available after configuring SSO in the Edit Team Page.
 
 Learn more about [setting up SSO](/docs/administration/sso/admin-sso/).
 

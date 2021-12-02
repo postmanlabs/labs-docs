@@ -42,7 +42,7 @@ There is nearly no limit to the amount of data that can be sent or received per 
 
 ### Are static IP addresses dedicated to individual customers or shared?
 
-The provided static IP addresses are fixed to their specified region and shared by all customers who enable this feature, which is available to Postman Business and Enterprise teams. For more information, see [Running Postman monitors using static IPs](/docs/monitoring-your-api/using-static-IPs-to-monitor/).
+The provided static IP addresses are fixed to their specified region and shared by all customers who enable this feature, which is available to Postman Professional and Enterprise teams. For more information, see [Running Postman monitors using static IPs](/docs/monitoring-your-api/using-static-IPs-to-monitor/).
 
 ### How do I troubleshoot problems?
 

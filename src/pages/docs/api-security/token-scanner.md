@@ -79,7 +79,7 @@ By default, tokens issued by the following service providers are scanned:
 
 Custom alerts can be used to scan your team's proprietary and third-party app tokens that are not scanned by default.
 
-> **[Custom alerts are available only on Postman Enterprise plan](https://www.postman.com/pricing/)**.
+> **[Custom alerts are available on Postman Enterprise plans only](https://www.postman.com/pricing/)**.
 
 Your team can add a total of five alerts. You must be a **Community Manager** or member with both **Developer** and **Admin** roles to add custom alerts.
 

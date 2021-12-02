@@ -20,8 +20,8 @@ contextual_links:
     name: "Log Response Data in Collection Runs | Postman Level Up"
     url: "https://youtu.be/UreV_7fHKiU"
   - type: link
-    name: "Running a collection"
-    url: "https://www.youtube.com/watch?v=la0LqQwwKAA"
+    name: "Intro to Postman | Run a Collection"
+    url: "https://youtu.be/8UR1NzuT7jg"
   - type: dynamic_blog
     name: "Related Blog Posts"
     blog_tag: "collections"

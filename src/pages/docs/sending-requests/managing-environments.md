@@ -14,11 +14,11 @@ contextual_links:
   - type: subtitle
     name: "Videos"
   - type: link
-    name: "How to use environments in Postman"
-    url:  "https://www.youtube.com/watch?v=wArvaHYdw2I"
+    name: "Postman | How to Use Environments"
+    url:  "https://youtu.be/oCEDjp3XMco"
   - type: link
-    name: "New to Postman: Chaining requests"
-    url: "https://www.youtube.com/watch?v=shYn3Ys3ygE"
+    name: "Intro to Postman | Chain Requests"
+    url: "https://youtu.be/4fULCou_7Wc"
   - type: subtitle
     name: "Related Blog Posts"
   - type: link
