@@ -86,13 +86,13 @@ Select **Send Invites**, or select **Copy Invite Link** to generate a link you c
 
 ### Managing invitations
 
-You can select [**Invite links**](https://go.postman.co/settings/team/manage-invite-links) from the left-hand menu to view a list of invitation links your team has generated. Here, you can review which users generated links, when they were generated, their expiry date, and their URL.
+Select [**Invite links**](https://go.postman.co/settings/team/manage-invite-links) from the left-hand menu to view a list of invitation links your team has generated. Here, you can review which users generated links, when they were generated, their expiry date, and their URL.
 
 <img alt="Invite links dashboard" src="https://assets.postman.com/postman-docs/team-manage-invite-links-v9.2.jpg"/>
 
-You can hover over a row and select the **Copy link** icon on the right-hand side to copy the corresponding invite URL.
+To copy the invite URL, hover over a row and select the copy icon <img alt="Copy link icon" src="https://assets.postman.com/postman-docs/icon-copy-v9.jpg" width="15px" style="vertical-align:middle;margin-bottom:5px"> to the right.
 
-To revoke an invitation, hover over the individual in question, then select the corresponding trash can **Delete link** icon on the right-hand side to cancel the invite.
+To revoke an invitation, hover over the invitation and select the trash can icon <img alt="Delete link icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg" width="12px" style="vertical-align:middle;margin-bottom:5px"> to the right.
 
 ## Changing team size
 
