@@ -2,7 +2,7 @@
 title: 'Versioning APIs'
 order: 81.2
 page_id: 'versioning_an_api'
-updated: 2021-09-15
+updated: 2021-12-01
 warning: false
 contextual_links:
   - type: section
@@ -77,7 +77,7 @@ A typical workflow for API-first development:
 
 ## Using an external Git repository
 
-You can connect a GitHub, Bitbucket, or GitLab repo to your API, and sync your API specifications and associated collections with the repo. You can continuously make changes synced between Postman and a develop branch in Git.
+You can connect a GitHub, Bitbucket, GitLab, or GitLab Self-Managed repo to your API, and sync your API specifications and associated collections with the repo. You can continuously make changes synced between Postman and a develop branch in Git.
 
 When it's time to release, you can merge the develop branch to the main branch in Git, which holds the released version of the API. You can then create a Git release, and map this release tag to your release in Postman.
 
@@ -103,7 +103,7 @@ You can only connect one Postman API to one remote repo. Multiple APIs require m
 
 To connect a repository:
 
-1. On an API Version page, select **Connect Repository** and choose a repo type: **GitHub**, **GitHub Enterprise**, **Bitbucket**, or **GitLab**.
+1. On an API Version page, select **Connect Repository** and choose a repo type: **GitHub**, **GitHub Enterprise**, **Bitbucket**, **GitLab**, or **GitLab Self-Managed**.
 1. An authentication pop-up window appears. Enter the information to log in to your repo and select **Grant access**.
    > This pop-up window may be hidden by your browser. Make sure to enable pop-ups from this site.
 1. On the **Connect your repository page**, enter the information for your repo.
