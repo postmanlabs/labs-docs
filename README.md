@@ -28,7 +28,7 @@ We would love for you to contribute to the Learning Center! To contribute to thi
 
 ```
 
-**NOTE:** this site was built with node v12.13.0. We recommend installing and using [nvm](https://github.com/nvm-sh/nvm) and setting your node version to v12.13.0.
+**NOTE:** this site was built with node v14.15.0. We recommend installing and using [nvm](https://github.com/nvm-sh/nvm) and setting your node version to v14.15.0.
 
 ### Build using Docker
 
@@ -42,7 +42,7 @@ You can build the Learning Center and run it in a Docker container by creating a
 
     ```shell
 
-    FROM node:12
+    FROM node:14
 
     EXPOSE 8000
 
