@@ -44,7 +44,7 @@ An admin can manage which team members have **Admin** and **Developer** roles. I
 
 Only a team member with the billing role can grant the **Billing** role to or remove it from other team members.
 
-Under **Members**, select the role(s) next to the user you would like to update. Select the roles you would like to assign or unassign, then **Update Roles** to confirm your changes.
+Under **Members**, select the roles next to the user you would like to update. Select the roles you would like to assign or unassign, then **Update Roles** to confirm your changes.
 
 <img alt="Edit team roles" src="https://assets.postman.com/postman-docs/team-members-edit-roles-v9.1.0.jpg"/>
 
