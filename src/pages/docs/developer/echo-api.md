@@ -33,7 +33,7 @@ To try the Echo API, open a new request in Postman and enter the following path 
 postman-echo.com/get
 ```
 
-Make sure `GET` is selected in the method drop-down, then select __Send__. The Echo API will return a JSON object that contains details from the request.
+Select the `GET` method, then select __Send__. The Echo API will return a JSON object that contains details from the request.
 
 [![Postman Echo response](https://assets.postman.com/postman-docs/postman-echo-api-response-v9.jpg)](https://assets.postman.com/postman-docs/postman-echo-api-response-v9.jpg)
 
