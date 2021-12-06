@@ -44,9 +44,11 @@ The Postman to Slack integration enables you to send the results of a Postman mo
 1. A browser window to log in to Slack opens. If you are not signed in to a Slack workplace, enter your workspace URL and sign in with your email and password or SSO.
     > Note: this window may be blocked by your pop-up blocker.
 
-1. On the **Permission request** page, Postman will request permission from Slack to view content and information about you. Select the level of security from the list.
+1. On the **Permission request** page:
 
-1. Select the Slack channel where the integration will post its messages. Note that you can't change this later; if you need to change channels, delete the integration and create a new one.
+    * Postman will request permission from Slack to view content and information about you. Select the level of security from the list.
+    * The **Receive Postman Notification** integration will configure a Slack bot. Verify that the actions it asks permission for are acceptable in your Slack workplace.
+    * For other integrations, select the Slack channel where the integration will post its messages. Note that you can't change this later; if you need to change channels, delete the integration and create a new one.
 
 1. Select **Allow**.
 
@@ -79,7 +81,9 @@ For the **Receive Postman Notification** integration, after completing the above
 
 After adding the integration, you can specify which notifications are sent to Slack. Update your [notification preferences](https://go.postman.co/settings/me/notifications) by selecting your avatar in the upper-right corner, then selecting **Notification Preferences**.
 
-There will be a Slack column where you can opt in to or out of notifications about security, usage, monitors, and comments. Select or de-select the boxes next to each item. Select **Update Preferences** to save changes.
+<img alt="Update notification preferences" src="https://assets.postman.com/postman-docs/notification-preferences-v9-4.jpg">
+
+In the Slack column, you can opt in to or out of notifications such as security, usage, monitors, and comments. Select or de-select the boxes next to each item. Select **Update Preferences** to save changes.
 
 ## Add an Activity Feed to Slack
 
