@@ -26,7 +26,6 @@ Your [Team Settings](https://go.postman.co/settings/team/general) allow you to m
 * [Updating billing details](#updating-billing-details)
 * [Editing authentication methods](#editing-authentication-methods)
 * [Understanding roles and permissions](#understanding-roles-and-permissions)
-* [Managing invite links](#managing-invite-links)
 
 ## Accessing team settings
 
@@ -36,9 +35,9 @@ You can access team settings by navigating to the **Team** dropdown menu in the 
 
 ## Editing your team profile
 
-When you select **Team Settings**, you will be automatically directed to **Edit Profile**. Here, you can edit your team's logo, cover photo, URL, name, and favicon.
+When you select **Team Settings**, you will be automatically directed to **Team Profile**. Here, you can edit your team's logo, cover photo, domain, favicon, and profile visibility.
 
-<img alt="Edit team profile" src="https://assets.postman.com/postman-docs/edit-team-profile-settings.jpg"/>
+<img alt="Edit team profile" src="https://assets.postman.com/postman-docs/edit-team-profile-full-v9.1.jpg"/>
 
 **Customize your team's look.** Keep in mind the following when uploading a logo, cover photo, or favicon:
 
@@ -62,7 +61,7 @@ Select **Custom Domains** from the left-hand menu to add, update, or remove cust
 
 Visit [Using custom domains](/docs/publishing-your-api/custom-doc-domains/) for information on adding, verifying, troubleshooting, and publishing to custom domains.
 
-<img alt="Adding custom domains" src="https://assets.postman.com/postman-docs/ts-custom-domains.jpg"/>
+<img alt="Custom domains dashboard" src="https://assets.postman.com/postman-docs/dashboard-view-custom-domains-v9.1.jpg"/>
 
 ## Updating billing details
 
@@ -88,12 +87,4 @@ Select **Roles and Permissions** from the left-hand menu to view a complete list
 
 View [Defining roles](/docs/collaborating-in-postman/roles-and-permissions/) for more information on roles you can assign to members of your team and [Managing your team](/docs/administration/managing-your-team/managing-your-team/) for an overview of managing roles and users within your Postman team.
 
-<img alt="Roles and permissions descriptions" src="https://assets.postman.com/postman-docs/ts-roles-and-permissions.jpg"/>
-
-## Managing invite links
-
-You can select [**Manage Invite Links**](https://go.postman.co/settings/team/manage-invite-links) from the left-hand menu to view a list of invitation links your team has generated. Here, you can review which users generated links, when they were generated, their expiry date, and their URL.
-
-<img alt="Managing invite links" src="https://assets.postman.com/postman-docs/team-manage-invite-links-v9.1.0.jpg"/>
-
-You can hover over a row and select the **Copy Link** icon on the right-hand side to copy the corresponding invite URL. To delete a link, hover over the row and select the **Delete Link** trash can icon on the right-hand side.
+<img alt="Roles and permissions descriptions" src="https://assets.postman.com/postman-docs/dashboard-view-roles-and-permissions-v9.1.jpg"/>

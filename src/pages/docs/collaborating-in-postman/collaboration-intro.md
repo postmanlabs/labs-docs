@@ -125,13 +125,15 @@ The team administrator will receive a notification that you’ve asked to join t
 
 ## Leaving a team
 
-You can leave a Postman team by navigating to your [Postman Dashboard](https://go.postman.co/workspaces), selecting your avatar in the top-right corner, and clicking **Your Team**. Click **Leave Team**.
+You can leave a Postman team by navigating to your [Postman Dashboard](https://go.postman.co/home), selecting your avatar in the top-right corner, then **Account Settings**. Select **Team** on the left. You can then opt to **Leave Team**.
 
-<img src="https://assets.postman.com/postman-docs/your-team.jpg" alt="Leave team" width="600px"/>
+<img src="https://assets.postman.com/postman-docs/leave-team-v9.1.jpg" alt="Leave team"/>
+
+> If your team has [SCIM configured](/docs/administration/managing-your-team/configuring-scim/), you must contact your Postman team admins to leave the team.
 
 If you are the last member to leave your team, you will have the option to transfer collections to a personal workspace.
 
-<img src="https://assets.postman.com/postman-docs/leave-and-delete-team.jpg" alt="Leave and delete team" width="500px"/>
+<img src="https://assets.postman.com/postman-docs/leave-and-delete-team.jpg" alt="Leave and delete team" width="400px"/>
 
 > If you are invited to a new team and you are the last in your current team, all team data will be transferred to your personal default workspace.
 
