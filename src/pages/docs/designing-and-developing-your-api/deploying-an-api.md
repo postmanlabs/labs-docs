@@ -112,7 +112,7 @@ For each deployment you can view the ID, description, deployment date, status, a
 
 ## Deploying your API from Postman
 
-Deploying an API schema makes it available on the connected API AWS Gateway, so users can start calling the API. Deploy your schema immediately after connecting an API version to AWS API Gateway, or deploy the schema later from the **Deployments** tab in the API Builder.
+Deploying an API schema makes it available on the connected AWS API Gateway, so users can start calling the API. Deploy your schema immediately after connecting an API version to AWS API Gateway, or deploy the schema later from the **Deployments** tab in the API Builder.
 
 1. Open your API by selecting **APIs** in the left sidebar, and then selecting an API and a version.
 1. Select the **Deployments** tab, and then select **Deploy Schema**.
