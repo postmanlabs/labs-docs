@@ -3,6 +3,7 @@ title: "Managing user groups"
 order: 141
 page_id: "managing_user_groups"
 warning: false
+updated: 2021-12-06
 contextual_links:
   - type: section
     name: "Additional Resources"
@@ -42,22 +43,22 @@ You must be a [Postman team admin](/docs/collaborating-in-postman/roles-and-perm
 
 ## Creating a group
 
-As a team admin, you can create a group by navigating to Postman, selecting **Home** in the upper-left corner, then **Manage Team** on the left side. Alternatively, select **Team** in the upper-right corner > **Manage Team**.
+As a team admin, you can create a group by selecting **Team** in the upper-right corner > **Manage Team**.
 
-Above your list of team members, select **Groups** > **Create Group**.
+Under **Members and groups**, select **Groups** > **Create Group**.
 
-<img alt="Create group button" src="https://assets.postman.com/postman-docs/overall-group-view-2.jpg"/>
+<img alt="Create group button" src="https://assets.postman.com/postman-docs/team-groups-list-v9.1.jpg"/>
 
 Give your group a name and description, add your team members, and select the team roles you would like to assign to the group, then **Create Group**.
 
->Note that you must have the billing role yourself to assign the billing role to others.
+> You must have the billing role yourself to assign the billing role to others.
 
-<img alt="Create group form" src="https://assets.postman.com/postman-docs/create-group-action.jpg" width="500px"/>
+<img alt="Create a group form" src="https://assets.postman.com/postman-docs/team-create-group-v9.1.jpg" width="500px"/>
 
-> Team members will receive an email and in-app notification when added to a group.
+Team members will receive an email and in-app notification when added to a group.
 
 <!-- -->
-> If a team member with a support-only account (admin and/or billing) is given the **Developer** role via a group they are in, they will automatically take up an available paid spot on your Postman team. If no spots are available, you will not be able to grant access to the group with that team member.
+> If a team member with a support-only account (admin or billing) is given the **Developer** role via a group they are in, they will automatically take up an available paid spot on your Postman team. If no spots are available, you will not be able to grant access to the group with that team member.
 
 ## Editing a group
 
@@ -65,13 +66,11 @@ You can edit a group at any time by managing a group's team members and access t
 
 ### Managing members of a group
 
-In Postman, select **Home** in the upper-left corner, then **Manage Team** on the left side. Above your list of team members, select **Groups**. Locate the group you would like to modify and select it to edit.
+In Postman, select **Team** in the upper-right corner > **Manage Team**. Under **Members and groups**, select **Groups**. Locate the group you would like to modify and select it to edit.
 
-Click **+ Add** to add a team member to the group. Click **X** next to a team member to remove them from the group.
+Select **+ Add** to add a team member to the group. Select **X** next to a team member to remove them from the group.
 
-<img alt="Manage team members" src="https://assets.postman.com/postman-docs/remove-group-member-action.jpg" width="500px"/>
-
-Once you have made the changes to the members of the group, click **Save Changes**.
+<img alt="Manage group members" src="https://assets.postman.com/postman-docs/team-edit-group-v9.1.jpg" width="500px"/>
 
 > Group members will receive an email and in-app notification when added to or removed from a group.
 
@@ -83,9 +82,9 @@ You can control a group's access at the team level, workspace level, and on indi
 
 #### Editing team roles for a group
 
-In Postman, select **Home** in the upper-left corner, then **Manage Team** on the left side. Above your list of team members, select **Groups**. Locate the group you would like to modify and select it to edit.
+In Postman, select **Team** in the upper-right corner > **Manage Team**. Under **Members and groups**, select **Groups**. Locate the group you would like to modify and select it to edit.
 
-<img alt="Edit group team roles" src="https://assets.postman.com/postman-docs/edit-group-action.jpg" width="500px"/>
+<img alt="Edit group team roles" src="https://assets.postman.com/postman-docs/team-edit-user-group-v9.1.jpg" width="500px"/>
 
 Select the team roles you would like to assign to the group, or deselect team roles you would like to remove from the group, then **Save Changes**.
 
@@ -97,25 +96,25 @@ For collections, APIs, environments, mock servers, and monitors, navigate to the
 
 <img alt="Invite group to collection" src="https://assets.postman.com/postman-docs/manage-roles-collection-with-user-group-v9.1.jpg"/>
 
-Use the search bar to add the group, then give the group **Editor** or **Viewer** permissions with the dropdown. You can also remove a group by selecting the **X** to the right of it in the list. Click **Update Roles** to confirm changes.
+Use the search bar to add the group, then give the group **Editor** or **Viewer** permissions with the dropdown. You can also remove a group by selecting the **X** to the right of it in the list. Select **Update Roles** to confirm changes.
 
 > See [Defining roles](/docs/collaborating-in-postman/roles-and-permissions/) for more information on access control at a team, workspace, API, and collection level.
 
 ### Editing details for a group
 
-In Postman, select **Home** in the upper-left corner, then **Manage Team** on the left side. Above your list of team members, select **Groups**. Locate the group you would like to modify and select it to edit.
+In Postman, select **Team** in the upper-right corner > **Manage Team**. Under **Members and groups**, select **Groups**. Locate the group you would like to modify and select it to edit.
 
-<img alt="Edit group description" src="https://assets.postman.com/postman-docs/edit-group-description-action.jpg" width="500px"/>
+<img alt="Edit group description" src="https://assets.postman.com/postman-docs/team-edit-group-description-v9.1.jpg" width="500px"/>
 
-Click on the group's name at the top of the page to modify it. To add a description, select **Add a description** under the group's name. To update an existing description, select it to modify. **Save Changes** to confirm your updates.
+Select the group's name at the top of the page to modify it. To add a description, select **Add a description** under the group's name. To update an existing description, select it to modify. **Save Changes** to confirm your updates.
 
 ## Deleting a group
 
-In Postman, select **Home** in the upper-left corner, then **Manage Team** on the left side. Above your list of team members, select **Groups**. Locate the group you would like to delete and select it.
+In Postman, select **Team** in the upper-right corner > **Manage Team**. Under **Members and groups**, select **Groups**. Locate the group you would like to modify and select it to edit.
 
-Click **Delete** to delete the group, then **Delete Group** to confirm.
+Select **Delete** to delete the group, then **Delete Group** to confirm.
 
-<img alt="Delete group" src="https://assets.postman.com/postman-docs/user-groups-delete-group.jpg" width="400px"/>
+<img alt="Delete group" src="https://assets.postman.com/postman-docs/team-delete-group-v9.1.jpg" width="400px"/>
 
 ## Next steps
 
