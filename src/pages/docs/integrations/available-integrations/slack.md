@@ -63,7 +63,7 @@ The Postman to Slack integration enables you to send many Postman notifications 
 1. After completing the above steps, enter the following in the **Add integration** screen:
 
     * **Nickname** -   A nickname for your integration.
-    * **Workspace** -   The workspace containing your monitor.
+    * **Workspace** -  The workspace that contains your monitor.
     * **Monitor** -   The monitor which will send its results to Slack.
     * **Slack Webhook URL** - The webhook URL which was pre-filled from the authorization process.
     * **Slack Channel** - The channel where the integration will post, which is pre-filled from the authorization process.
