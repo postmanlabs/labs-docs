@@ -36,7 +36,7 @@ warning: false
 
 Postman automatically chooses default values for some settings so you can get right to work. Make changes to settings at any time based on your use case or to customize your Postman experience.
 
-To change settings in Postman, select the **Settings** button <img alt="Settings icon" src="https://assets.postman.com/postman-docs/settings-icon-v8.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> in the header and then select **Settings**. In the Postman app, you can also select **Command+Comma (,)** or **Ctrl+Comma (,)**.
+To change settings in Postman, select the **Settings** button <img alt="Settings icon" src="https://assets.postman.com/postman-docs/settings-icon-v8.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> in the header and then select **Settings**. In the Postman app, you can also select **⌘+Comma (,)** or **Ctrl+Comma (,)**.
 
 ## General
 
@@ -104,7 +104,7 @@ Pick your pleasure: select a light or dark theme for Postman.
 
 The **Shortcuts** tab displays all of the keyboard shortcuts available in Postman. To disable keyboard shortcuts, turn off the **Shortcuts** toggle.
 
-Some shortcuts are not available in Postman for Web. Also, shortcut modifier keys may differ depending on your operating system. For example, to open a new tab on macOS, select **Command+T**. To open a new tab on Windows or Linux, select **Ctrl+T**.
+Some shortcuts are not available in Postman for Web. Also, shortcut modifier keys may differ depending on your operating system. For example, to open a new tab in the Postman app on macOS, select **⌘+T**. To open a new tab in the Postman app on Windows or Linux, select **Ctrl+T**.
 
 ## Data
 
