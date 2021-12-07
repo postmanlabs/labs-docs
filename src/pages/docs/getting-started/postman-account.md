@@ -197,9 +197,9 @@ You can update your [notification preferences](https://go.postman.co/settings/me
 
 You can opt in to or out of email or in-app notifications about security, usage, monitors, and comments by selecting or de-selecting the boxes next to each item. Select **Update Preferences** to save changes.
 
-<img alt="Update notification preferences" src="https://assets.postman.com/postman-docs/notification-preferences-v9-4.jpg">
+In addition to email and in-app notifications, you can also send many notifications to Slack using the [Slack integration](/docs/integrations/available-integrations/slack/). After you add the Slack integration, you will see an additional column of notification items you can select. These notifications will be sent to Slack by the integration.
 
-In addition to email and in-app notifications, you can also send many notifications to Slack using the [Slack integration](/docs/integrations/available-integrations/slack/). After adding the Slack integration, you will see an additional column of notification items you can select, and they will be sent to the Slack channel specified in the integration.
+<img alt="Update notification preferences" src="https://assets.postman.com/postman-docs/notification-preferences-v9-4.jpg">
 
 ## Managing your active sessions
 

@@ -24,7 +24,7 @@ contextual_links:
     url: "https://blog.postman.com/librarian-building-a-serverless-slack-app-using-postman-and-airtable/"
 ---
 
-The Postman to Slack integration enables you to send the results of a Postman monitor run, notifications received in the Postman notification center, or activity in your Team Activity Feed to Slack.
+The Postman to Slack integration enables you to send many Postman notifications to a Slack channel, including the results of a Postman monitor run, notifications received in the Postman notification center, or activity in your Team Activity Feed.
 
 ## Configuring Postman with Slack
 
@@ -56,7 +56,7 @@ The Postman to Slack integration enables you to send the results of a Postman mo
 
 1. Return to Postman, and complete the steps in the relevant section below for your integration type.
 
-## Send your Monitor Run Results to Slack
+## Send your monitor run results to Slack
 
 > Before beginning, you must create a monitor. For more information, see [setting up a monitor](/docs/monitoring-your-api/setting-up-monitor/).
 
@@ -75,7 +75,7 @@ The following is an example of a set of monitor results when sent to Slack:
 
 ![configured_slack_example](https://assets.postman.com/postman-docs/slack-post-monitoring-results-example-v9.jpg)
 
-## Receive Postman Notifications in Slack
+## Receive Postman notifications in Slack
 
 For the **Receive Postman Notification** integration, after completing the above steps, your integration will be configured.
 
@@ -85,7 +85,7 @@ After adding the integration, you can specify which notifications are sent to Sl
 
 In the Slack column, you can opt in to or out of notifications such as security, usage, monitors, and comments. Select or de-select the boxes next to each item. Select **Update Preferences** to save changes.
 
-## Add an Activity Feed to Slack
+## Add an activity feed to Slack
 
 For the **Post team activity** integration, after completing the above steps, your integration will be configured. Your team's [activity feed](/docs/collaborating-in-postman/using-workspaces/changelog-and-restoring-collections/#accessing-the-activity-feed-from-postman) will send updates to the specified channel, as shown below.
 
