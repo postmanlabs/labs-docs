@@ -103,7 +103,7 @@ module.exports = {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
         host: 'https://learning.postman.com',
-        sitemap: 'https://learning.postman.com/sitemap.xml',
+        sitemap: 'https://learning.postman.com/sitemap/sitemap-index.xml',
         resolveEnv: () => process.env.GATSBY_ACTIVE_ENV,
         env: {
           development: {
