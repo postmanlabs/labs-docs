@@ -53,15 +53,7 @@ To use Postman on the desktop, [download](https://www.postman.com/downloads/) th
 
 Alternatively, navigate to Postman on the web at [go.postman.co/home](https://go.postman.co/home).
 
-You will see a prompt to log in or sign up.
-
-![App Sign In](https://assets.postman.com/postman-docs/sign-in.jpg)
-
-Select __Create Account__.
-
-![App Sign Up](https://assets.postman.com/postman-docs/create-postman-account.jpg)
-
-You can sign up by entering an email, username, and password, or using your Google account.
+You will see a prompt to log in or sign up. Select __Create Account__. You can sign up by entering an email, username, and password, or using your Google account.
 
 To sign up by email, enter your details, check the box to agree to the __Terms of Use__ (which you can view by selecting the link), and select __Create free account__. Postman will send you an email to confirm your account—follow the instructions to complete your account setup.
 
