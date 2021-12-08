@@ -94,16 +94,6 @@ After you sign in, you will see a confirmation in your browser and you will be r
 
 You can sign in to multiple accounts at the same time in Postman. Select your user avatar in the top right to toggle between accounts or select __Add a new account__ to sign in with another one.
 
-## Syncing your work in Postman
-
-When you are logged into Postman, the sync indicator in the header bar is green. This means you are connected to the servers and your work is being continuously backed up. Postman will inform you if the sync is interrupted and will automatically try to re-establish the connection.
-
-If Postman can't connect, you can switch to the Scratch Pad and work locally. For more information, see [Using the Scratch Pad](/docs/getting-started/using-scratch-pad/).
-
-If a conflict arises from a sync issue within your workspace, Postman will present options for [resolving the conflict](/docs/collaborating-in-postman/using-workspaces/conflicts/).
-
-> Postman uses a WebSocket connection for real-time [syncing](/docs/getting-started/syncing/). If you are experiencing issues with syncing, you can file an issue with the Postman [support center](https://support.postman.com/hc/en-us).
-
 ## Updating your account and profile settings
 
 You can manage your account and profile settings on your [account settings](https://postman.postman.co/settings/me) page. Account settings include your email address and password, while profile settings include your username and profile photo.
@@ -180,10 +170,8 @@ If you have a free account, you can upgrade it by navigating to [Postman](https:
 
 If you have a paid account, you can upgrade your Postman plan by navigating to your [billing dashboard](https://go.postman.co/billing/overview) and selecting **Edit Plan** on the right.
 
-[![Edit plan option in billing dashboard](https://assets.postman.com/postman-docs/billing-edit-plan-selected-v9.1.jpg)](https://assets.postman.com/postman-docs/billing-edit-plan-selected-v9.1.jpg)
-
 > The cost of your upgraded plan and/or additional seats will be prorated based on the time left in your team's current billing cycle. For more information, [contact Postman's sales team](mailto:sales@postman.com).
 
 ## Next steps
 
-Learn more about how Postman [syncs](/docs/getting-started/syncing/) your data.
+Now that you have created a Postman account, you're ready to start working! When you are logged into Postman, you are connected to the Postman servers and your work is continuously backed up. Learn more about how Postman syncs your data in the [Syncing your work](/docs/getting-started/syncing/) section.
