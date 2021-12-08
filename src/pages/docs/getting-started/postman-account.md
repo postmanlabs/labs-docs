@@ -41,14 +41,10 @@ Signing up for an account is optional—you can use the desktop Postman app with
 * [Upgrading your account](#upgrading-your-account)
 * [Switching between accounts](#switching-between-accounts)
 * [Security policies and standards](#security-policies-and-standards)
-* [Updating your username](#updating-your-username)
-* [Changing your email address](#changing-your-email-address)
 * [Updating your account settings](#updating-your-account-settings)
 * [Updating your profile](#updating-your-profile)
-* [Making your profile public](#making-your-profile-public)
 * [Updating your notification preferences](#updating-your-notification-preferences)
 * [Managing your active sessions](#managing-your-active-sessions)
-* [Resetting your password](#resetting-your-password)
 * [Contacting Postman support](#contacting-postman-support)
 
 ## Signing up for a Postman account
@@ -155,16 +151,6 @@ Postman uses several technologies to ensure that your data is safe and secure. F
 * Communication with Postman servers only happens through HTTPS and Secure WebSockets.
 * Environment and global variables are encrypted so that only you can view them.
 
-## Updating your username
-
-You can update your username at any time by navigating to your [account settings](https://go.postman.co/settings/me). Select your avatar in the upper-right corner > **Account Settings**. Edit your username and select **Update Profile** to save changes.
-
-## Changing your email address
-
-You can change the email address associated with your Postman account by navigating to your [account settings](https://go.postman.co/settings/me/account). Select your avatar in the upper-right corner > **Account Settings** > **Account**. Edit your email address and select **Update Email** to save changes.
-
-> If you are on an Enterprise plan, you must contact your team admins to update the email address associated with your Postman account.
-
 ## Updating your account settings
 
 You can manage account settings including your email address, password, and workspace data by navigating to your [account settings](https://go.postman.co/settings/me/account) page.
@@ -185,11 +171,37 @@ You can update your Postman profile by navigating to your [profile settings](htt
 
 > Your Postman profile is visible to your Postman team, and you can opt to [make your profile public](#making-your-profile-public) to the Postman community.
 
-## Making your profile public
+### Updating your username
+
+You can update your username at any time by navigating to your [account settings](https://go.postman.co/settings/me). Select your avatar in the upper-right corner > **Account Settings**. Edit your username and select **Update Profile** to save changes.
+
+### Changing your email address
+
+You can change the email address associated with your Postman account by navigating to your [account settings](https://go.postman.co/settings/me/account). Select your avatar in the upper-right corner > **Account Settings** > **Account**. Edit your email address and select **Update Email** to save changes.
+
+> If you are on an Enterprise plan, you must contact your team admins to update the email address associated with your Postman account.
+
+### Making your profile public
 
 You can enable or disable your public profile at any time in your [profile settings](https://go.postman.co/settings/me). Select your avatar in the upper-right corner > **Account Settings**. Select the toggle next to **Make profile public**, then **Update Profile**.
 
 <img alt="Make profile public" src="https://assets.postman.com/postman-docs/make-profile-public-v9.jpg">
+
+### Resetting your password
+
+You can reset your password if you are already signed in by navigating to your [settings](https://go.postman.co/settings/me) > **Account Settings** > **Change Password**.
+
+If you are not signed in to your Postman account, you can recover your username or reset your password from the [**Sign In**](https://identity.getpostman.com/login) page. Select __Trouble signing in?__
+
+![App Sign In](https://assets.postman.com/postman-docs/sign-in.jpg)
+
+Enter your account email, check the __I'm not a robot__ box, and select __Submit__.
+
+![Trouble Signing In](https://assets.postman.com/postman-docs/trouble-signing-in2.jpg)
+
+Postman will send you an email with instructions for recovering access to your account.
+
+> If you still have trouble logging into your Postman account please [contact support](https://support.postman.com/hc/en-us).
 
 ## Updating your notification preferences
 
@@ -205,21 +217,6 @@ You can manage your [active Postman sessions](https://go.postman.co/settings/me/
 
 <img alt="Active sessions" src="https://assets.postman.com/postman-docs/active-sessions-v9.jpg">
 
-## Resetting your password
-
-You can reset your password if you are already signed in by navigating to your [settings](https://go.postman.co/settings/me) > **Account Settings** > **Change Password**.
-
-If you are not signed in to your Postman account, you can recover your username or reset your password from the [**Sign In**](https://identity.getpostman.com/login) page. Select __Trouble signing in?__
-
-![App Sign In](https://assets.postman.com/postman-docs/sign-in.jpg)
-
-Enter your account email, check the __I'm not a robot__ box, and select __Submit__.
-
-![Trouble Signing In](https://assets.postman.com/postman-docs/trouble-signing-in2.jpg)
-
-Postman will send you an email with instructions for recovering access to your account.
-
-> If you still have trouble logging into your Postman account please [contact support](https://support.postman.com/hc/en-us).
 
 ## Contacting Postman support
 
