@@ -32,6 +32,8 @@ A free Postman account allows you to [sync](/docs/getting-started/syncing/) and 
 
 Signing up for an account is optional—you can use the desktop Postman app without an account if you prefer. Check out the [EULA](https://www.postman.com/legal/eula/), [security overview](https://www.postman.com/security), and [privacy policy](https://www.postman.com/licenses/privacy).
 
+> If you need assistance with your Postman account, you can contact our [support team](www.postman.com/support/) or check out our Help Center's [account FAQs](https://support.postman.com/hc/en-us/categories/115000609185-My-Account).
+
 ## Contents
 
 * [Signing up for a Postman account](#signing-up-for-a-postman-account)
@@ -42,7 +44,6 @@ Signing up for an account is optional—you can use the desktop Postman app with
 * [Updating your profile](#updating-your-profile)
 * [Updating your notification preferences](#updating-your-notification-preferences)
 * [Managing your active sessions](#managing-your-active-sessions)
-* [Contacting Postman support](#contacting-postman-support)
 
 ## Signing up for a Postman account
 
@@ -121,19 +122,11 @@ If a conflict arises from a sync issue within your workspace, Postman will prese
 
 > Postman uses a WebSocket connection for real-time [syncing](/docs/getting-started/syncing/). If you are experiencing issues with syncing, you can file an issue with the Postman [support center](https://support.postman.com/hc/en-us).
 
-## Upgrading your account
+## Updating your account and profile settings
 
-If you have a free account, you can upgrade it by navigating to [Postman](https://go.postman.co/) and selecting **Upgrade** in the top-right corner.
+You can manage your account and profile settings on your [account settings](https://postman.postman.co/settings/me) page. Account settings include your email address and password, while profile settings include your username and profile photo.
 
-If you have a paid account, you can upgrade your Postman plan by navigating to your [billing dashboard](https://go.postman.co/billing/overview) and selecting **Edit Plan** on the right.
-
-[![Edit plan option in billing dashboard](https://assets.postman.com/postman-docs/billing-edit-plan-selected-v9.1.jpg)](https://assets.postman.com/postman-docs/billing-edit-plan-selected-v9.1.jpg)
-
-> The cost of your upgraded plan and/or additional seats will be prorated based on the time left in your team's current billing cycle. For more information, [contact Postman's sales team](mailto:sales@postman.com).
-
-## Updating your account settings
-
-<!-- TODO: need to establish difference between profile and account -->
+### Updating your account settings
 
 You can manage account settings including your email address, password, and workspace data by navigating to your [account settings](https://go.postman.co/settings/me/account) page.
 
@@ -145,13 +138,13 @@ If you are on an Enterprise plan, you can export your workspace data. To make ad
 
 <img alt="Update account settings on an Enterprise plan" src="https://assets.postman.com/postman-docs/account-settings-enterprise-v9.1.jpg">
 
-### Changing your email address
+#### Changing your email address
 
 You can change the email address associated with your Postman account by navigating to your [account settings](https://go.postman.co/settings/me/account). Select your avatar in the upper-right corner > **Account Settings** > **Account**. Edit your email address and select **Update Email** to save changes.
 
 > If you are on an Enterprise plan, you must contact your team admins to update the email address associated with your Postman account.
 
-### Resetting your password
+#### Resetting your password
 
 You can reset your password if you are already signed in by navigating to your [settings](https://go.postman.co/settings/me) > **Account Settings** > **Change Password**.
 
@@ -167,7 +160,7 @@ Postman will send you an email with instructions for recovering access to your a
 
 > If you still have trouble logging into your Postman account please [contact support](https://support.postman.com/hc/en-us).
 
-## Updating your profile
+### Updating your profile
 
 You can update your Postman profile by navigating to your [profile settings](https://go.postman.co/settings/me). Select your avatar in the upper-right corner > **Account Settings**. You can update your name and username, add details about you, and add links to your website and social media pages. Select **Update Profile** to save changes.
 
@@ -175,11 +168,11 @@ You can update your Postman profile by navigating to your [profile settings](htt
 
 > Your Postman profile is visible to your Postman team, and you can opt to [make your profile public](#making-your-profile-public) to the Postman community.
 
-### Updating your username
+#### Updating your username
 
 You can update your username at any time by navigating to your [account settings](https://go.postman.co/settings/me). Select your avatar in the upper-right corner > **Account Settings**. Edit your username and select **Update Profile** to save changes.
 
-### Making your profile public
+#### Making your profile public
 
 You can enable or disable your public profile at any time in your [profile settings](https://go.postman.co/settings/me). Select your avatar in the upper-right corner > **Account Settings**. Select the toggle next to **Make profile public**, then **Update Profile**.
 
@@ -199,13 +192,15 @@ You can manage your [active Postman sessions](https://go.postman.co/settings/me/
 
 <img alt="Active sessions" src="https://assets.postman.com/postman-docs/active-sessions-v9.jpg">
 
-## Contacting Postman support
+## Upgrading your account
 
-You can contact Postman's support team for assistance if you encounter any issues with your Postman account. Navigate to Postman's [Support Center](https://www.postman.com/support/) and select **Submit a Request**.
+If you have a free account, you can upgrade it by navigating to [Postman](https://go.postman.co/) and selecting **Upgrade** in the top-right corner.
 
-<img alt="Submit request in support center" src="https://assets.postman.com/postman-docs/support-center-submit-request.jpg">
+If you have a paid account, you can upgrade your Postman plan by navigating to your [billing dashboard](https://go.postman.co/billing/overview) and selecting **Edit Plan** on the right.
 
-> Check out [Postman's Help Center](https://support.postman.com/hc/en-us) for [account FAQs](https://support.postman.com/hc/en-us/categories/115000609185-My-Account).
+[![Edit plan option in billing dashboard](https://assets.postman.com/postman-docs/billing-edit-plan-selected-v9.1.jpg)](https://assets.postman.com/postman-docs/billing-edit-plan-selected-v9.1.jpg)
+
+> The cost of your upgraded plan and/or additional seats will be prorated based on the time left in your team's current billing cycle. For more information, [contact Postman's sales team](mailto:sales@postman.com).
 
 ## Next steps
 
