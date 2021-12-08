@@ -63,23 +63,18 @@ To use your Google account to sign in to Postman, select __Sign up with Google__
 
 ## Configuring your account
 
-When you first sign up for a Postman account, you will be prompted to provide some information about yourself.
-
-Enter your details and select __Continue__.
-
-![Configure account](https://assets.postman.com/postman-docs/onboarding.jpg)
-
-You can optionally create or join a team. If you are signing up with your organization email and your company has a Postman account with team discovery enabled, you will see [teams you can join](/docs/collaborating-in-postman/collaboration-intro/#finding-teams-within-your-organization).
-
-[![Join a team](https://assets.postman.com/postman-docs/collaborate-with-teams.jpg)](https://assets.postman.com/postman-docs/collaborate-with-teams.jpg)
-
-To create a team and optionally invite collaborators, select __Create new team__. Enter your team name and URL—select __Continue__.
-
-[![Create Team](https://assets.postman.com/postman-docs/create-team.jpg)](https://assets.postman.com/postman-docs/create-team.jpg)
+When you first sign up for a Postman account, you will be prompted to provide some information about yourself including your name and your role. Enter your details and select __Continue__.
 
 You can update your settings at any time by selecting your avatar in the top left of Postman, then **View Profile**.
 
 Your profile will be visible to collaborators and anyone viewing resources you share or publish.
+
+## Creating or joining a team in Postman
+
+During the sign up process, you have the option to create or join a [team](/docs/collaborating-in-postman/collaboration-intro/):
+
+- **Joining a team.** If you are signing up with your company email and your company has a Postman account with team discovery enabled, you will see [teams you can join](/docs/collaborating-in-postman/collaboration-intro/#finding-teams-within-your-organization).
+- **Creating a team.** To create a team and optionally invite collaborators, select __Create new team__. Enter your team name and URL, then select __Continue__.
 
 ## Signing into Postman
 
