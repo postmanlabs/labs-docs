@@ -38,7 +38,6 @@ Signing up for an account is optional—you can use the desktop Postman app with
 * [Configuring your account](#configuring-your-account)
 * [Signing into Postman](#signing-into-postman)
 * [Upgrading your account](#upgrading-your-account)
-* [Switching between accounts](#switching-between-accounts)
 * [Updating your account settings](#updating-your-account-settings)
 * [Updating your profile](#updating-your-profile)
 * [Updating your notification preferences](#updating-your-notification-preferences)
@@ -108,6 +107,10 @@ Upon signing in, you will see a confirmation in your browser and you will be red
 
 <img src="https://assets.postman.com/postman-docs/youre-signed-in-confirmation.jpg" width="350px" alt="Signed in confirmation"/>
 
+### Switching between accounts
+
+You can sign in to multiple accounts at the same time in Postman. Select your user avatar in the top right to toggle between accounts or select __Add a new account__ to sign in with another one.
+
 ### Syncing your work in Postman
 
 When you are logged into Postman, the sync indicator in the header bar is green. This means you are connected to the servers and your work is being continuously backed up. Postman will inform you if the sync is interrupted and will automatically try to re-establish the connection.
@@ -127,12 +130,6 @@ If you have a paid account, you can upgrade your Postman plan by navigating to y
 [![Edit plan option in billing dashboard](https://assets.postman.com/postman-docs/billing-edit-plan-selected-v9.1.jpg)](https://assets.postman.com/postman-docs/billing-edit-plan-selected-v9.1.jpg)
 
 > The cost of your upgraded plan and/or additional seats will be prorated based on the time left in your team's current billing cycle. For more information, [contact Postman's sales team](mailto:sales@postman.com).
-
-## Switching between accounts
-
-You can sign in to multiple accounts at the same time in Postman. Select your user avatar in the top right to toggle between accounts or select __Add a new account__ to sign in with another one.
-
-<img src="https://assets.postman.com/postman-docs/multiple-accounts.jpg" width="400px" alt="Multiple Accounts"/>
 
 ## Updating your account settings
 
