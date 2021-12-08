@@ -39,11 +39,10 @@ Signing up for a Postman account is optional, and you can use the Postman deskto
 * [Signing up for a Postman account](#signing-up-for-a-postman-account)
 * [Creating or joining a team in Postman](#creating-or-joining-a-team-in-Postman)
 * [Signing into Postman](#signing-into-postman)
-* [Upgrading your account](#upgrading-your-account)
-* [Updating your account settings](#updating-your-account-settings)
-* [Updating your profile](#updating-your-profile)
+* [Updating your account and profile settings](#updating-your-account-and-profile-settings)
 * [Updating your notification preferences](#updating-your-notification-preferences)
 * [Managing your active sessions](#managing-your-active-sessions)
+* [Upgrading your account](#upgrading-your-account)
 
 ## Signing up for a Postman account
 
@@ -102,35 +101,33 @@ You can manage your account and profile settings on your [account settings](http
 
 You can manage account settings including your email address, password, and workspace data by navigating to your [account settings](https://go.postman.co/settings/me/account) page.
 
-If you are on a Business, Team, or Free plan, you can [update your email address](#changing-your-email-address), [edit your password](#resetting-your-password), export your workspace data, or opt to permanently delete your account.
-
-<img alt="Update account settings on a non-Enterprise plan" src="https://assets.postman.com/postman-docs/account-settings-basic-v9.1.jpg">
+If you are on a Business, Team, or Free plan, you can [update your email address](#changing-your-email-address), [edit your password](#resetting-your-password), export your workspace data, or permanently delete your account.
 
 If you are on an Enterprise plan, you can export your workspace data. To make additional edits to your account or have it be deleted, you must contact your team admins.
 
-<img alt="Update account settings on an Enterprise plan" src="https://assets.postman.com/postman-docs/account-settings-enterprise-v9.1.jpg">
-
 #### Changing your email address
 
-You can change the email address associated with your Postman account by navigating to your [account settings](https://go.postman.co/settings/me/account). Select your avatar in the upper-right corner > **Account Settings** > **Account**. Edit your email address and select **Update Email** to save changes.
+If you are on a Business, Team, or Free plan, you can change the email address associated with your Postman account. Navigate to your [account settings](https://go.postman.co/settings/me/account) page. Select your avatar in the upper-right corner > **Account Settings** > **Account**. Edit your email address and select **Update Email** to save changes.
 
-> If you are on an Enterprise plan, you must contact your team admins to update the email address associated with your Postman account.
+If you are on an Enterprise plan, you must contact your team admins to update the email address associated with your Postman account.
 
 #### Resetting your password
 
-You can reset your password if you are already signed in by navigating to your [settings](https://go.postman.co/settings/me) > **Account Settings** > **Change Password**.
+If you are on a Business, Team, or Free plan, you can reset your password if you are already signed in by navigating to your [settings](https://go.postman.co/settings/me) > **Account Settings** > **Edit Password**.
 
-If you are not signed in to your Postman account, you can recover your username or reset your password from the [**Sign In**](https://identity.getpostman.com/login) page. Select __Trouble signing in?__
+If you are not signed in to your Postman account, you can recover your username or reset your password from the [**Sign In**](https://identity.getpostman.com/login) page. Select __Trouble signing in?__ Enter your account email, select the __I'm not a robot__ box, and select __Submit__. Postman will send you an email with instructions for recovering access to your account.
 
-![App Sign In](https://assets.postman.com/postman-docs/sign-in.jpg)
+> If you still have trouble logging into your Postman account, contact [Postman support](https://support.postman.com/hc/en-us).
 
-Enter your account email, check the __I'm not a robot__ box, and select __Submit__.
+If you are on an Enterprise plan, you must contact your team admins to update the password associated with your Postman account.
 
-![Trouble Signing In](https://assets.postman.com/postman-docs/trouble-signing-in2.jpg)
+#### Deleting your account
 
-Postman will send you an email with instructions for recovering access to your account.
+Deleting your account is an irreversible operation. Any data synced to your account will be deleted and no longer be accessible.
 
-> If you still have trouble logging into your Postman account please [contact support](https://support.postman.com/hc/en-us).
+If you are on a Business, Team, or Free plan, you can permanently delete your Postman account. Navigate to your [settings](https://go.postman.co/settings/me) > **Account Settings** > **Delete Account**. Before the account is deleted, you will be asked to sign in again to verify that you own the account.
+
+If you are on an Enterprise plan, you must contact your team admins to delete your Postman account.
 
 ### Updating your profile
 
