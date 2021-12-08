@@ -1,5 +1,5 @@
 ---
-title: "Capturing HTTP requests"
+title: "Capturing HTTPS traffic"
 order: 32
 page_id: "capturing_http_requests"
 contextual_links:
@@ -30,6 +30,8 @@ contextual_links:
 warning: false
 
 ---
+
+<!--TODO: new topic with only the second half about certificate setup in it -->
 
 If you are using APIs to build client-side applications—mobile apps, websites, or desktop applications—you may want to see the actual HTTP and HTTPS request traffic that's being sent and received in the application. Sometimes you might discover APIs that aren't even documented. You can capture this HTTP network traffic using the proxy that's built into the Postman app.
 
@@ -107,8 +109,6 @@ Open the wireless settings of your mobile device (an iPhone in this example) and
 You are all set! Head back to the Postman app, and you will start seeing the network calls listed under the **History** tab of the sidebar or in the collection you specified. Open your device's web browser or your application and you will start seeing HTTP traffic passing through the app or the browser.
 
 <img src="https://assets.postman.com/postman-docs/postman-proxy-responses-collection.jpg" alt="requests under collection" width="350px"/>
-
-<!--TODO: cut everything probably after this header or the next one, and link to new page -->
 
 ### Setting up a proxy on other devices
 

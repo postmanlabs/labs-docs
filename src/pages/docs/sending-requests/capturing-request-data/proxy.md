@@ -1,5 +1,5 @@
 ---
-title: "Using a proxy"
+title: "Using a custom proxy"
 order: 33
 page_id: "proxy"
 search_keyword: "HTTP_PROXY, NO_PROXY"
@@ -18,7 +18,7 @@ contextual_links:
     url: "https://blog.postman.com/client-proxy-settings-in-postman/"
   - type: link
     name: "Capture Responses Using the Postman Proxy"
-    url: "https://blog.postman.com/capture-responses-using-the-postman-proxy/"   
+    url: "https://blog.postman.com/capture-responses-using-the-postman-proxy/"
 
 warning: false
 
