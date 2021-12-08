@@ -37,6 +37,7 @@ Signing up for a Postman account is optional, and you can use the Postman deskto
 ## Contents
 
 * [Signing up for a Postman account](#signing-up-for-a-postman-account)
+* [Creating or joining a team in Postman](#creating-or-joining-a-team-in-Postman)
 * [Signing into Postman](#signing-into-postman)
 * [Upgrading your account](#upgrading-your-account)
 * [Updating your account settings](#updating-your-account-settings)
@@ -77,32 +78,23 @@ During the sign up process, you have the option to create or join a [team](/docs
 
 You can sign into Postman by selecting **Sign In** in the upper-right corner, selecting **Home** in the upper-left then **Sign in**, or by navigating to [Postman's website](https://www.postman.com/) and selecting **Sign In** in the upper-right corner.
 
- <img src="https://assets.postman.com/postman-docs/create-account-or-sign-in.jpg" alt="Create account or sign in"/>
+When you choose to sign into the desktop version of Postman, the app will open a new screen that directs you to _Sign in via web browser_. Your default browser will automatically open a webpage asking you to sign into Postman. If your browser does not open within a few seconds, select the **open your browser** link in Postman.
 
- When you opt to sign into the desktop version of Postman, you will see the following screen and your default browser will automatically open a webpage asking you to sign into Postman.
-
- > Your browser should open within a few seconds. If it does not, you can select **open your browser** in Postman.
-
-  <img src="https://assets.postman.com/postman-docs/sign-in-with-web-browser.jpg" alt="Sign in with web browser"/>
-
-> You can opt out of the login process at any time by navigating back to Postman and selecting **Skip and take me to Postman Desktop App**.
-> You must complete the process of signing in within five minutes once you initiate login from Postman. If you go beyond this time, you must return to Postman and restart the sign in process.
+> You can opt out of the sign in process at any time by navigating back to the Postman app and selecting **Skip and take me to Postman Desktop App**.
 
 Log into Postman in your browser by entering your account credentials or signing in with Google. If you are on a Postman Professional or Enterprise plan, opt to **Sign in with Single Sign-On (SSO)**.
 
-> Check **Keep me signed in** if you would like to remain signed in after your current session for 30 days before re-authenticating. If you do not want to remain signed in on the computer you are working on, uncheck this option. Note that you will be prompted to sign in again after 30 minutes.
+Check **Keep me signed in** if you would like to remain signed in after your current session for 30 days before re-authenticating. If you do not want to remain signed in on the computer you are working on, uncheck this option. Note that you will be prompted to sign in again after 30 minutes.
 
-<img src="https://assets.postman.com/postman-docs/sign-in-full-page-20.jpg" alt="Sign in"/>
+After you sign in, you will see a confirmation in your browser and you will be redirected back to Postman.
 
-Upon signing in, you will see a confirmation in your browser and you will be redirected back to Postman.
-
-<img src="https://assets.postman.com/postman-docs/youre-signed-in-confirmation.jpg" width="350px" alt="Signed in confirmation"/>
+> You must complete the process of signing in within five minutes once you begin the process in the Postman desktop app. If you go beyond this time, you must return to Postman and restart the sign in process.
 
 ### Switching between accounts
 
 You can sign in to multiple accounts at the same time in Postman. Select your user avatar in the top right to toggle between accounts or select __Add a new account__ to sign in with another one.
 
-### Syncing your work in Postman
+## Syncing your work in Postman
 
 When you are logged into Postman, the sync indicator in the header bar is green. This means you are connected to the servers and your work is being continuously backed up. Postman will inform you if the sync is interrupted and will automatically try to re-establish the connection.
 
