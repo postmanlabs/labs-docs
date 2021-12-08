@@ -12,6 +12,15 @@ This site was built with node v14.15.0. We recommend installing and using [nvm](
 
 **Note for Mac users**: If you are using a MacBook with an Apple M1 chip, you may need to create a Rosetta version of Terminal in order to correctly download both nvm and the dependencies needed by this GitHub repo. For more information, see this guide on [creating a Rosetta terminal](https://www.courier.com/blog/tips-and-tricks-to-setup-your-apple-m1-for-development). After you create a Rosetta terminal, use it to install nvm, then proceed with the rest of the workflow outlined here.
 
+### Troubleshooting Local Development
+If you ever run into any issue when running LC locally, try this first:
+
+1. check Node (`node -v`) to ensure you are now using `v14.15.0`. If not `nvm use v14.15.0`.
+1. then, `run rm -rf node_modules; npm i` to blow away all the old packages, and do fresh install.
+1. then, one other thing you can do is `gatsby clean` to clear cache.
+
+We have found this to clear the bulk of local development issues.
+
 ### Workflow
 
 We follow [Git Flow](https://guides.github.com/introduction/flow/) for changes to this repository. If you're not familiar with using git and GitHub on the command line, [GitHub Desktop](https://desktop.github.com) is an easier alternative.  
