@@ -37,7 +37,6 @@ Signing up for a Postman account is optional, and you can use the Postman deskto
 ## Contents
 
 * [Signing up for a Postman account](#signing-up-for-a-postman-account)
-* [Configuring your account](#configuring-your-account)
 * [Signing into Postman](#signing-into-postman)
 * [Upgrading your account](#upgrading-your-account)
 * [Updating your account settings](#updating-your-account-settings)
@@ -54,7 +53,9 @@ You will see a prompt to log in or sign up. Select __Create Account__. You can s
 - **Email:** Enter your email and create a username and password. Check the box to agree to the __Terms of Use__, which you can view by selecting the link, and select __Create free account__. Postman will send you an email to confirm your account. Follow the instructions in the email to complete your account setup.
 - **Google account:** Select __Sign up with Google__ and follow the instructions.
 
-> You can [update your username](#updating-your-username) or [change your email address](#changing-your-email-address) at any time.
+When you first sign up for a Postman account, you will be prompted to provide some information about yourself including your name and your role. Enter your details and select __Continue__. Your profile will be visible to collaborators and anyone viewing resources you share or publish.
+
+> You can [update your account and profile settings](#updating-your-account-and-profile-settings) at any time.
 
 ### Security policies and standards
 
@@ -64,14 +65,6 @@ Postman uses several technologies to ensure that your personal data is safe and 
 * Environment and global variables are encrypted so that only you can view them.
 
 For more details, visit our [security page](https://www.postman.com/security).
-
-## Configuring your account
-
-When you first sign up for a Postman account, you will be prompted to provide some information about yourself including your name and your role. Enter your details and select __Continue__.
-
-You can update your settings at any time by selecting your avatar in the top left of Postman, then **View Profile**.
-
-Your profile will be visible to collaborators and anyone viewing resources you share or publish.
 
 ## Creating or joining a team in Postman
 
