@@ -89,7 +89,7 @@ The Postman console logs the following information:
 
 Using log statements at appropriate locations in your test scripts will help you identify the source of any issues.
 
-You can open the console from the status bar on the bottom left of Postman or selecting __View__ &gt; __Show Postman Console__. In the Postman app, you can also select **Command+Option+C** or **Ctrl+Alt+C**.
+You can open the console by selecting **Console** in the status bar at the bottom left of Postman. In the Postman app, you can also select **⌘+Option+C** or **Ctrl+Alt+C**.
 
 <img alt="Open the console" src="https://assets.postman.com/postman-docs/console-pane-button.jpg" width="350px"/>
 

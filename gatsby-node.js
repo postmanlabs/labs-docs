@@ -71,7 +71,6 @@ exports.createPages = async ({ graphql, actions }) => {
   });
 };
 
-
 /* Create Header and Footer
 /************************************************************************ */
 exports.sourceNodes = async ({
@@ -139,4 +138,3 @@ exports.sourceNodes = async ({
   // createNode(prepareNode(HeaderJson, 'headerLinks'));
   createNode(prepareNode(FooterJson, 'FooterLinks'));
 };
-

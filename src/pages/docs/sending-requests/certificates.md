@@ -52,7 +52,7 @@ Once your certificate is added, it should appear in the client certificates list
 
 You do not have to perform any extra steps to use a client certificate if it has been added. If you make a request to a configured domain, the certificate will automatically be sent with the request, provided you make the request over HTTPS.
 
-You can verify this. To do so, open up your Postman console (**CMD/CTRL + ALT + C**). You can read more about the [Postman Console](/docs/sending-requests/troubleshooting-api-requests/). A new window will open up.
+To verify the certificate was sent, open the Postman console by selecting **Console** in the status bar at the bottom left of Postman. Learn more about the [Postman Console](/docs/sending-requests/troubleshooting-api-requests/).
 
 Now, send a request to `https://postman-echo.com/get`. Keep the Postman Console open if Postman version is lower than `v7.10`. Notice we’re using `https` to make sure the certificate is sent. Once the response arrives, switch over to the Postman console to see your request. If you expand your request, you will be able to see which certificate was sent along with the request.
 
