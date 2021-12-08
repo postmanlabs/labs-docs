@@ -28,9 +28,9 @@ warning: false
 
 ---
 
-A free Postman account allows you to [sync](/docs/getting-started/syncing/) and back up your work so that you can access it from different machines. You can also [collaborate](/docs/collaborating-in-postman/collaboration-intro/) with others on your API projects.
+A free Postman account allows you to [sync](/docs/getting-started/syncing/) and back up your work so that you can access it from different machines. With a Postman account, you can also [collaborate](/docs/collaborating-in-postman/collaboration-intro/) with others on your API projects.
 
-Signing up for an account is optional—you can use the desktop Postman app without an account if you prefer. Check out the [EULA](https://www.postman.com/legal/eula/), [security overview](https://www.postman.com/security), and [privacy policy](https://www.postman.com/licenses/privacy).
+Signing up for a Postman account is optional, and you can use the Postman desktop app without an account if you prefer. Check out the [EULA](https://www.postman.com/legal/eula/), [security overview](https://www.postman.com/security), and [privacy policy](https://www.postman.com/licenses/privacy).
 
 > If you need assistance with your Postman account, you can contact our [support team](www.postman.com/support/) or check out our Help Center's [account FAQs](https://support.postman.com/hc/en-us/categories/115000609185-My-Account).
 
@@ -47,15 +47,12 @@ Signing up for an account is optional—you can use the desktop Postman app with
 
 ## Signing up for a Postman account
 
-To use Postman on the desktop, [download](https://www.postman.com/downloads/) the app and launch it.
+Before you sign up for a Postman account, either download and launch the [desktop app](https://www.postman.com/downloads/) or navigate to the [web app](https://go.postman.co/home).
 
-Alternatively, navigate to Postman on the web at [go.postman.co/home](https://go.postman.co/home).
+You will see a prompt to log in or sign up. Select __Create Account__. You can sign up using an email address or using your Google account:
 
-You will see a prompt to log in or sign up. Select __Create Account__. You can sign up by entering an email, username, and password, or using your Google account.
-
-To sign up by email, enter your details, check the box to agree to the __Terms of Use__ (which you can view by selecting the link), and select __Create free account__. Postman will send you an email to confirm your account—follow the instructions to complete your account setup.
-
-To use your Google account to sign in to Postman, select __Sign up with Google__, and follow the instructions.
+- **Email:** Enter your email and create a username and password. Check the box to agree to the __Terms of Use__, which you can view by selecting the link, and select __Create free account__. Postman will send you an email to confirm your account. Follow the instructions in the email to complete your account setup.
+- **Google account:** Select __Sign up with Google__ and follow the instructions.
 
 > You can [update your username](#updating-your-username) or [change your email address](#changing-your-email-address) at any time.
 
