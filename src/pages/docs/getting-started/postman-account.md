@@ -40,7 +40,6 @@ Signing up for an account is optional—you can use the desktop Postman app with
 * [Syncing your work](#syncing-your-work)
 * [Upgrading your account](#upgrading-your-account)
 * [Switching between accounts](#switching-between-accounts)
-* [Security policies and standards](#security-policies-and-standards)
 * [Updating your account settings](#updating-your-account-settings)
 * [Updating your profile](#updating-your-profile)
 * [Updating your notification preferences](#updating-your-notification-preferences)
@@ -60,6 +59,15 @@ To sign up by email, enter your details, check the box to agree to the __Terms o
 To use your Google account to sign in to Postman, select __Sign up with Google__, and follow the instructions.
 
 > You can [update your username](#updating-your-username) or [change your email address](#changing-your-email-address) at any time.
+
+### Security policies and standards
+
+Postman uses several technologies to ensure that your personal data is safe and secure:
+
+* Communication with Postman servers only happens through HTTPS and Secure WebSockets.
+* Environment and global variables are encrypted so that only you can view them.
+
+For more details, visit our [security page](https://www.postman.com/security).
 
 ## Configuring your account
 
@@ -130,13 +138,6 @@ If you have a paid account, you can upgrade your Postman plan by navigating to y
 You can sign in to multiple accounts at the same time in Postman. Select your user avatar in the top right to toggle between accounts or select __Add a new account__ to sign in with another one.
 
 <img src="https://assets.postman.com/postman-docs/multiple-accounts.jpg" width="400px" alt="Multiple Accounts"/>
-
-## Security policies and standards
-
-Postman uses several technologies to ensure that your data is safe and secure. For more details, visit our [security page](https://www.postman.com/security).
-
-* Communication with Postman servers only happens through HTTPS and Secure WebSockets.
-* Environment and global variables are encrypted so that only you can view them.
 
 ## Updating your account settings
 
