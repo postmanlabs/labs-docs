@@ -69,7 +69,7 @@ During the sign up process, you have the option to create or join a [team](/docs
 
 ## Signing into Postman
 
-From the Postman app, you can sign in by selecting **Sign In** in the upper-right corner of the app or selecting **Home** in the upper-left corner of the app then **Sign in**. You can also navigate to [Postman's website](https://www.postman.com/) and selecting **Sign In** in the upper-right corner of the page.
+From the Postman app, you can sign in by selecting **Sign In** in the upper-right corner of the app or selecting **Home** in the upper-left corner of the app then **Sign In**. You can also navigate to [Postman's website](https://www.postman.com/) and selecting **Sign In** in the upper-right corner of the page.
 
 When you sign in using the Postman desktop app, the app will open a new screen that directs you to _Sign in via web browser_. Your default browser will automatically open a webpage asking you to sign into Postman. If your browser does not open within a few seconds, select the **open your browser** link in Postman.
 
