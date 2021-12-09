@@ -12,11 +12,6 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
-    name: "Videos"
-  - type: link
-    name: "Updated: Using Variables in Postman Requests & Collections"
-    url: "https://www.youtube.com/watch?v=X_CEYzhjCnI&t=24s"
-  - type: subtitle
     name: "Related Blog Posts"
   - type: link
     name: "Librarian: building a serverless slack app using Postman and Airtable"
