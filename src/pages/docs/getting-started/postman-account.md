@@ -33,7 +33,7 @@ Having a free Postman account allows you to [sync](/docs/getting-started/syncing
 
 Signing up for a Postman account is optional, and you can use the Postman desktop app without an account if you prefer. If you do want to create a Postman account, continue to the [Signing up for a Postman account](#signing-up-for-a-postman-account) section.
 
-> If you need assistance with your Postman account, you can contact our [support team](www.postman.com/support/) or check out our Help Center's [account FAQs](https://support.postman.com/hc/en-us/categories/115000609185-My-Account).
+> If you need assistance with your Postman account, you can contact our [support team](https://www.postman.com/support/) or check out our Help Center's [account FAQs](https://support.postman.com/hc/en-us/categories/115000609185-My-Account).
 
 ## Contents
 
