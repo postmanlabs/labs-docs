@@ -51,8 +51,8 @@ Before you sign up for a Postman account, either download and launch the [deskto
 
 You will see a prompt to log in or sign up. Select __Create Account__. You can sign up using an email address or using your Google account:
 
-- **Email:** Enter your email and create a username and password. Check the box to agree to the __Terms of Use__, which you can view by selecting the link, and select __Create free account__. Postman will send you an email to confirm your account. Follow the instructions in the email to complete your account setup.
-- **Google account:** Select __Sign up with Google__ and follow the instructions.
+* **Email:** Enter your email and create a username and password. Check the box to agree to the __Terms of Use__, which you can view by selecting the link, and select __Create free account__. Postman will send you an email to confirm your account. Follow the instructions in the email to complete your account setup.
+* **Google account:** Select __Sign up with Google__ and follow the instructions.
 
 When you first sign up for a Postman account, you will be prompted to provide some information about yourself, including your name and your role, to help customize the app experience to your needs. Enter your details and select __Continue__.
 
@@ -64,8 +64,8 @@ Your new Postman profile will be visible to collaborators and anyone viewing res
 
 During the sign up process, you have the option to create or join a [team](/docs/collaborating-in-postman/collaboration-intro/):
 
-- **Joining a team.** If you are signing up with your company email and your company has a Postman account with team discovery enabled, you will see [teams you can join](/docs/collaborating-in-postman/collaboration-intro/#finding-teams-within-your-organization).
-- **Creating a team.** To create a team and optionally invite collaborators, select __Create new team__. Enter your team name and URL, then select __Continue__.
+* **Joining a team.** If you are signing up with your company email and your company has a Postman account with team discovery enabled, you will see [teams you can join](/docs/collaborating-in-postman/collaboration-intro/#finding-teams-within-your-organization).
+* **Creating a team.** To create a team and optionally invite collaborators, select __Create new team__. Enter your team name and URL, then select __Continue__.
 
 ## Signing into Postman
 
