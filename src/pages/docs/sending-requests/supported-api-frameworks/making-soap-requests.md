@@ -48,10 +48,11 @@ This SOAP endpoint changes numeric values into their text equivalents, for examp
 ## Adding body data
 
 1. In the __Body__ tab, select __raw__ and choose __XML__ from the dropdown menu list.
+1. Enter your XML in the text entry area.
 
 ![SOAP body type](https://assets.postman.com/postman-docs/soap-body-type-v9.jpg)
 
-2. Enter your XML in the text entry area. If you want to test the number conversion SOAP API used in the last section, enter the following XML:
+If you want to test the number conversion SOAP API used in the last section, enter the following XML in the text entry area:
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
