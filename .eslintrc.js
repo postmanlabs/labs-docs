@@ -4,17 +4,18 @@ module.exports = {
     es6: true,
     jest: true,
   },
-  extends: [
-    'airbnb',
-  ],
   globals: {
     Atomics: 'readonly',
     SharedArrayBuffer: 'readonly',
   },
-  parser: "babel-eslint",
+  parser: '@babel/eslint-parser',
   parserOptions: {
+    requireConfigFile: false,
     ecmaFeatures: {
       jsx: true,
+    },
+    babelOptions: {
+      presets: ["@babel/preset-react"]
     },
     ecmaVersion: 2018,
     sourceType: 'module',
@@ -23,11 +24,9 @@ module.exports = {
     'react',
   ],
   rules: {
-    "react/prop-types": "off",
-    "jsx-a11y/media-has-caption": "off",
-    "no-underscore-dangle": "off",
-    "no-multiple-empty-lines": "off",
-    "max-len": "off",
+    'react/prop-types': 'off',
+    'jsx-a11y/media-has-caption': 'off',
+    'no-underscore-dangle': 'off',
+    'max-len': 'off',
   },
-
- };
+};

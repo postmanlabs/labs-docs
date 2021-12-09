@@ -25,7 +25,7 @@ contextual_links:
     name: "Related Blog Posts"
   - type: link
     name: "Postman Now Recommends Related Collections in Requests"
-    url: "https://blog.postman.com/postman-now-recommends-collections-in-requests/"    
+    url: "https://blog.postman.com/postman-now-recommends-collections-in-requests/"
   - type: link
     name: "How Postman Designers Built the New Universal Search Feature"
     url: "https://blog.postman.com/how-postman-designers-built-the-new-universal-search-feature/"
@@ -138,7 +138,7 @@ For Public API network, you can change the entity type to narrow down your searc
 
 ## Find and replace
 
-You can search your Postman workspace by clicking __Find and Replace__ at the bottom-left of the Postman application, or using the keyboard shortcuts `Command+Shift+F` / `Control+Shift+F`.
+In the Postman app, you can search the current workspace by selecting __Find and Replace__ in the status bar at the bottom left of Postman, or by selecting **⌘+Shift+F** or **Ctrl+Shift+F**.
 
 Enter your search string and optionally choose which entities to return, entering replacement text if necessary.
 

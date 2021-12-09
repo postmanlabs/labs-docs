@@ -48,11 +48,15 @@ In addition to raw WebSocket connections, Postman also supports Socket.IO connec
 
 You can create a WebSocket request from the left sidebar in Postman.
 
-1. Select  __New__ &gt; __WebSocket Request__ to open a new tab. (You can also select ⌘+N or Ctrl+N.)
-   [![New Screen](https://assets.postman.com/postman-docs/new-request-websocket-v91.jpg)](https://assets.postman.com/postman-docs/new-request-websocket-v91.jpg)
+1. Select  __New__ &gt; __WebSocket Request__ to open a new tab. (In the Postman app, you can also select **⌘+N** or **Ctrl+N**.)
+
+    [![New Screen](https://assets.postman.com/postman-docs/new-request-websocket-v91.jpg)](https://assets.postman.com/postman-docs/new-request-websocket-v91.jpg)
+
 1. In the upper left of the request tab, select either **Raw** for a raw WebSocket request, or **Socket.IO** for a Socket.IO request.
-1. Enter the WebSocket server URL. A WebSocket URL begins with `ws://` or `wss://`.<br/>
-   [![WebSocket server URL](https://assets.postman.com/postman-docs/websocket-server-url-v11.jpg)](https://assets.postman.com/postman-docs/websocket-server-url-v11.jpg)
+1. Enter the WebSocket server URL. A WebSocket URL begins with `ws://` or `wss://`.
+
+    [![WebSocket server URL](https://assets.postman.com/postman-docs/websocket-server-url-v11.jpg)](https://assets.postman.com/postman-docs/websocket-server-url-v11.jpg)
+
 1. Select **Connect**.
 1. To disconnect your WebSocket request's connection, select **Disconnect**.
 
