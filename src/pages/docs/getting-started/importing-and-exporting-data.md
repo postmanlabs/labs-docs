@@ -2,7 +2,7 @@
 title: 'Importing and exporting data'
 order: 8.2
 page_id: 'importing_and_exporting_data'
-updated: 2021-12-31
+updated: 2021-12-09
 contextual_links:
   - type: section
     name: "Additional Resources"
@@ -147,7 +147,7 @@ To import your API specifications into Postman:
 
 1. Select **Import** in the left navigation menu.
 1. Select a file or folder, input a link to the API, or paste your raw text. Confirm the name, format, and what you would like your data to import as.
-2.Select **Import** to bring your data into Postman.
+1. Select **Import** to bring your data into Postman.
 
 > You can configure your **Import Settings**, which will differ depending on your API specification.
 
