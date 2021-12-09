@@ -16,6 +16,9 @@ contextual_links:
     - type: link
       name: "Generate a Run in Postman Button | Postman Level Up"
       url: "https://youtu.be/r2DGy4jSuUE"
+    - type: link
+      name: "WTD: Postman for API development and docs"
+      url: "https://podcast.writethedocs.org/2018/01/22/postman-for-api-docs-write-the-docs/"
     - type: section
       name: "Next steps"
     - type: link
