@@ -28,7 +28,7 @@ Postman can make HTTP calls to SOAP, a platform-agnostic messaging protocol spec
 
 The following steps show how to make a SOAP request in Postman.
 
-## Enter your SOAP endpoint
+## Entering your SOAP endpoint
 
 1. Open a new request tab in Postman and enter your SOAP endpoint URL in the address field.
 1. Select __POST__ from the request method dropdown list.
@@ -45,7 +45,7 @@ This SOAP endpoint changes numeric values into their text equivalents, for examp
 
 > If you want to see other SOAP request examples, take a look at the [Public SOAP APIs](https://www.postman.com/cs-demo/workspace/public-soap-apis/overview) collection.
 
-## Add body data
+## Adding body data
 
 1. In the __Body__ tab, select __raw__ and choose __XML__ from the dropdown menu list.
 
@@ -66,7 +66,7 @@ This SOAP endpoint changes numeric values into their text equivalents, for examp
 
 Your request body must include the SOAP `Envelope`, `Header`, and `Body` tags as required by the endpoint, as well as any namespaces. The data should include the name of the operation, together with any values you need to post to the service.
 
-## Set your request headers
+## Setting your request headers
 
 When you select an XML body type, Postman automatically adds a content type header of `application/xml`. But depending on your service provider, you may need `text/xml` for some SOAP requests. Check with your SOAP service to determine which header is appropriate. If you need the `text/xml` header, you will need to override the default setting added by Postman.
 
@@ -79,7 +79,7 @@ If you are following along with the number conversion SOAP API example, you need
 
 ![SOAP Content Type](https://assets.postman.com/postman-docs/soap-content-type-v9.jpg)
 
-## Send your request
+## Sending your request
 
 1. Select __Send__ to make your call to the SOAP service. If your call is successful, you will see the response in the lower tab in Postman.
 
