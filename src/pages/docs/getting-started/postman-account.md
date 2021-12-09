@@ -2,6 +2,7 @@
 title: "Managing your account"
 order: 4.1
 page_id: "postman_account"
+updated: 2021-12-9
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -21,8 +22,8 @@ contextual_links:
   - type: section
     name: "Next Steps"
   - type: link
-    name: "Sending your first request"
-    url: "/docs/getting-started/sending-the-first-request/"
+    name: "Syncing your work"
+    url: "/docs/getting-started/syncing/"
 
 warning: false
 
