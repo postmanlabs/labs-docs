@@ -73,7 +73,7 @@ From the Postman app, you can sign in by selecting **Sign In** in the upper-righ
 
 When you sign in using the Postman desktop app, the app will open a new screen that directs you to _Sign in via web browser_. Your default browser will automatically open a webpage asking you to sign into Postman. If your browser does not open within a few seconds, select the **open your browser** link in Postman.
 
-You can opt out of the sign in process at any time by navigating back to the Postman app and selecting **Skip and take me to Postman Desktop App**.
+> You can opt out of the sign in process at any time by navigating back to the Postman app and selecting **Skip and take me to Postman Desktop App**.
 
 Sign into Postman in your browser by entering your account credentials or signing in with Google. If you are on a Postman Professional or Enterprise plan, opt to **Sign in with Single Sign-On (SSO)**.
 
@@ -151,7 +151,7 @@ You can manage your [active Postman sessions](https://go.postman.co/settings/me/
 
 If you have a free account, you can upgrade it by navigating to [Postman](https://go.postman.co/) and selecting **Upgrade** in the top-right corner.
 
-If you have a paid account, you can upgrade your Postman plan by navigating to your [billing dashboard](https://go.postman.co/billing/overview/) and selecting **Edit Plan** on the right.
+If you have a paid account, you can upgrade your Postman plan by navigating to your [billing dashboard](https://go.postman.co/billing/overview/) and selecting **Edit Plan** on the right. To learn more about upgrading and managing your Postman plan, see our [Billing](https://learning.postman.com/docs/administration/billing/#changing-your-plan) guide.
 
 > The cost of your upgraded plan or additional seats will be prorated based on the time left in your team's current billing cycle. For more information, [contact Postman's sales team](mailto:sales@postman.com).
 
