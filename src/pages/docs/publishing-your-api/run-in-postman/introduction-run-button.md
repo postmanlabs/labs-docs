@@ -14,8 +14,8 @@ contextual_links:
     - type: subtitle
       name: "Videos"
     - type: link
-      name: "How to share Postman collections"
-      url: "https://www.youtube.com/watch?v=mVTsK6ZdY6c"
+      name: "Generate a Run in Postman Button | Postman Level Up"
+      url: "https://youtu.be/r2DGy4jSuUE"
     - type: link
       name: "WTD: Postman for API development and docs"
       url: "https://podcast.writethedocs.org/2018/01/22/postman-for-api-docs-write-the-docs/"

@@ -160,8 +160,6 @@ You can also activate an environment in the left sidebar, by selecting the check
 
 The environment quick look shows the selected environment along with global variables in your workspace. You can edit the current value for an existing variable inline, by selecting the value. To add a variable, select __Edit__ next to the environment or global section.
 
-> You can also access the quick look using the keyboard shortcut **Command+E** or **Ctrl+Alt+E**.
-
 You can only add and edit variables in environments if you have edit access to the environment as a whole. If you have view access, you can update the current value of existing variables only. Any variables you edit will only be accessible to you, and not available to collaborators in your [workspace](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/).
 
 See [Managing environments](/docs/sending-requests/managing-environments/) for more on working with environments in your team.
@@ -189,7 +187,7 @@ Initial values are shared when you share a collection or environment. Current va
 
 > You can download global variables as JSON from __Manage Environments__.
 
-You can set response body values to variables by selecting text, right-clicking/Ctrl-clicking, and choosing the relevant variable by name.
+You can set response body values to variables by selecting text, right-clicking or Control-clicking, and choosing the relevant variable by name.
 
 <img alt="Set Variable from Text" src="https://assets.postman.com/postman-docs/set-var-text.jpg" width="400px"/>
 

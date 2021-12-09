@@ -47,11 +47,11 @@ You can use version control with your Postman Collections by forking and merging
 
 ## Forking a collection
 
-To fork a collection in Postman, select the collection in the __Collections__ sidebar, click __View more actions__ (__...__), and select __Create a fork__. To provide a uniform forking experience, you can create a fork in a public workspace in three steps — login to Postman, fill up fork details and enable your public profile.
+To fork a collection in Postman, select the collection in the __Collections__ sidebar, select __View more actions__ (__...__), and select __Create a fork__. To provide a uniform forking experience, you can create a fork in a public workspace in three steps — log in to Postman, fill up fork details, and enable your public profile.
 
 <img src="https://assets.postman.com/postman-docs/collection-create-a-fork-v9.1.jpg" alt="Create fork selected in menu" width="300px"/>
 
-Enter a label for your fork, and select a workspace to save it to. Click __Fork Collection__.
+Enter a label for your fork, and select a workspace to save it to. Select __Fork Collection__.
 
 <img src="https://assets.postman.com/postman-docs/fork-collection-v9.1.jpg" alt="Create fork tab" width="400px"/>
 
@@ -61,19 +61,19 @@ Your fork will be created in the selected workspace.
 
 ### Forking information
 
-To fork a collection within a public workspace, you must enable your public profile. Navigate to [__Edit Profile__](https://go.postman.co/settings/me) and enable __Make Profile Public__. Your username should consist of only only alphanumeric characters and hyphens. If you do not have a public profile, the screen shows a dialog box — once you have entered a valid username, click __Enable public profile__.
+To fork a collection within a public workspace, you must enable your public profile. Navigate to your [profile settings](https://go.postman.co/settings/me). Select your avatar in the upper-right corner > **Account Settings**. Select the toggle next to **Make profile public**, then **Update Profile**.
 
-<img src="https://assets.postman.com/postman-docs/enable-public-profile.jpg" alt="Enable public profile" width="350px"/>
+<img alt="Make profile public" src="https://assets.postman.com/postman-docs/make-profile-public-v9.jpg">
 
-Fork information provides details about forks and the users who have created them. You will be able to identify the users who are actively consuming and contributing to your APIs. Click the fork count to reveal the list of users who have active forks.
+Fork information provides details about forks and the users who have created them. You will be able to identify the users who are actively consuming and contributing to your APIs. Select the fork count to reveal the list of users who have active forks.
 
 [![Fork Information](https://assets.postman.com/postman-docs/fork-information-count.jpg)](https://assets.postman.com/postman-docs/fork-information-count.jpg)
 
-> You can click on a user under __Forked by__ to view their public profile.
+> You can select a user under __Forked by__ to view their public profile.
 
 ### Forking to send requests
 
-If you are a visitor who does not belong to any public workspace, to send requests from a collection in a public workspace, login to Postman with your credentials. Click __Sign in__.
+If you are a visitor who does not belong to any public workspace, to send requests from a collection in a public workspace, log in to Postman with your credentials. Select __Sign in__.
 
 [![Visitor accessing public workspace](https://assets.postman.com/postman-docs/visitor-public-workspace.jpg)](https://assets.postman.com/postman-docs/visitor-public-workspace.jpg)
 
@@ -91,11 +91,11 @@ Being a signed-in non-member, to send requests in a public workspace, fork the c
 
 The watch option allows you to receive an email/in-app notification when one of your team member belonging to the same workspace modifies the collection. If you watch a collection, you will be notified of actions such as adding a new request, modifying the existing requests, adding or updating variables, editing pre-request scripts or tests, adding or deleting a folder and so on.
 
-Once you've created the collection, click __Watch__ to start watching the collection.
+Once you've created the collection, select __Watch__ to start watching the collection.
 
 ![Collection watching](https://assets.postman.com/postman-docs/collection-watching-overview-v9.jpg)
 
-Click the bell icon in the top right corner of Postman to view the notification. The popup will indicate further information about the change that was made to the collection.
+Select the bell icon <img alt="Changelog icon" src="https://assets.postman.com/postman-docs/icon-notification-bell-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> in the top right corner of Postman to view the notification. The popup will indicate further information about the change that was made to the collection.
 
 <img alt="Notification Collection Watching" src="https://assets.postman.com/postman-docs/collection-watch-notification-v8.jpg" width="500px"/>
 
@@ -103,17 +103,17 @@ In addition to a notification, you will receive an email with the information re
 
 ![Watch Collection Email Notification](https://assets.postman.com/postman-docs/collection-watch-email-v8.jpg)
 
-Click __View changelog__ to access the full changelog in Postman.
+Select __View changelog__ to access the full changelog in Postman.
 
 > If you created the collection and modified it from the same account, you will not receive email or in-app notifications for changes made.
 
 ## Forking an environment
 
-To fork an environment in Postman, select the environment in the __Environments__ sidebar, click __View more actions__ (__...__), and select __Create a fork__. You can also fork an environment by clicking __Fork__ in environment overview tab.
+To fork an environment in Postman, select the environment in the __Environments__ sidebar, select __View more actions__ (__...__), and select __Create a fork__. You can also fork an environment by selecting __Fork__ on the environment overview tab.
 
 <img src="https://assets.postman.com/postman-docs/environment-create-a-fork-v9.1.jpg" alt="Create an Environment Fork" width="300px"/>
 
-Enter a label for your fork, and select a workspace to save it to. Click __Fork Environment__.
+Enter a label for your fork, and select a workspace to save it to. Select __Fork Environment__.
 
 <img src="https://assets.postman.com/postman-docs/fork-environment-v9.1.jpg" alt="Fork environment tab" width="400px"/>
 
@@ -125,7 +125,7 @@ The forks icon <img alt="Fork icon on context bar for v8" src="https://assets.po
 
 <img alt="Fork icon overview for v8" src="https://assets.postman.com/postman-docs/fork-panel-overview-v8.jpg" height="300px"/>
 
-Click **View all forks** to reveal the detailed list of forks along with information about users who created them.
+Select **View all forks** to reveal the detailed list of forks along with information about users who created them.
 
 <img alt="Fork overview details v8" src="https://assets.postman.com/postman-docs/fork-overview-details-v8.jpg"/>
 
@@ -145,7 +145,7 @@ If there are any conflicts, they will be highlighted so that you can [resolve th
 
 ![Resolve Conflicts](https://assets.postman.com/postman-docs/resolve-conflicts-v2.jpg)
 
-If your pull request has no conflicts, you can go ahead and open it for review. Enter a title and description, and select up to three reviewers from the dropdown list. Reviewers will need edit access to the collection in order to merge your changes. Click __Create Pull Request__.
+If your pull request has no conflicts, you can go ahead and open it for review. Enter a title and description, and select up to three reviewers from the dropdown list. Reviewers will need edit access to the collection in order to merge your changes. Select __Create Pull Request__.
 
 <img alt="Create Pull Request" src="https://assets.postman.com/postman-docs/pull-request-overview-v2.jpg"/>
 
@@ -157,7 +157,7 @@ Pull request settings are available on [Postman Professional and Enterprise plan
 
 <img alt="Collection Manage Roles" src="https://assets.postman.com/postman-docs/collection-manage-roles-v9.1.jpg" width="300px"/>
 
-In Postman, select the collection in the __Collections__ sidebar and click __View more actions (...)__. Select __Manage roles__, then select __Editor__ for the users you want to provide editor access to and **Update Roles**.
+In Postman, select the collection in the __Collections__ sidebar and select __View more actions (...)__. Select __Manage roles__, then select __Editor__ for the users you want to provide editor access to and **Update Roles**.
 
 [![manage roles](https://assets.postman.com/postman-docs/manage-roles-collection-v9.1.jpg)](https://assets.postman.com/postman-docs/manage-roles-collection-v9.1.jpg)
 
@@ -178,7 +178,7 @@ If you do not have editor access to the collection, the option to __Merge__ will
 
 <img alt="Merge Disabled" src="https://assets.postman.com/postman-docs/view-merge-conditions.jpg" width="400px"/>
 
-Click __View Merge Conditions__ to see the merge conditions to be met for the pull request.
+Select __View Merge Conditions__ to see the merge conditions to be met for the pull request.
 
 <img alt="Merge Condition" src="https://assets.postman.com/postman-docs/merge-conditions.jpg" width="400px"/>
 
@@ -194,7 +194,7 @@ The pull request author and users with viewer or editor access on the destinatio
 * Merge a pull request
 * View or add pull request comments
 
-You can create a pull request on a fork (the _source_) into the parent (the _destination_). The parent collection resides in a public workspace where as the forked collection is present in a team workspace. While creating a pull request, share the source collection to a public workspace so that the reviewers can access it while reviewing the pull request. Select the workspace and click __Create Pull Request__.
+You can create a pull request on a fork (the _source_) into the parent (the _destination_). The parent collection resides in a public workspace whereas the forked collection is present in a team workspace. While creating a pull request, share the source collection to a public workspace so that the reviewers can access it while reviewing the pull request. Select the workspace and select __Create Pull Request__.
 
 <img src="https://assets.postman.com/postman-docs/make-source-collection-public-v2.jpg" alt="Source Collection Public" width="400px"/>
 
@@ -206,7 +206,7 @@ Once you create the pull request, you will get a notification that it has been _
 
 The watch option allows you to receive an in-app notification when one of your team member belonging to the same workspace modifies the pull request. If you watch a pull request, you will be notified of actions such as adding a new comment, approving or unapproving, merging, editing or declining a pull request, and so on.
 
-Once you've created the pull request, click __Watch__ to start watching the pull request.
+Once you've created the pull request, select __Watch__ to start watching the pull request.
 
 ![Pull request watching](https://assets.postman.com/postman-docs/watching-a-pull-request-v9.jpg)
 
@@ -214,7 +214,7 @@ Once you have enabled watch, you will be able to view and modify the conditions 
 
 <img alt="Conditions for watch notifications" src="https://assets.postman.com/postman-docs/watching-conditions-notifications-v9.jpg" height="424px"/>
 
-Click the bell icon in the top right corner of Postman to view the notification. The popup will indicate further information about the change that was made to the pull request.
+Select the bell icon <img alt="Changelog icon" src="https://assets.postman.com/postman-docs/icon-notification-bell-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> in the top right corner of Postman to view the notification. The popup will indicate further information about the change that was made to the pull request.
 
 <img alt="Notification Pull Request Watching" src="https://assets.postman.com/postman-docs/pull-request-watch-notification-v8.jpg" width="500px"/>
 
@@ -222,7 +222,7 @@ Click the bell icon in the top right corner of Postman to view the notification.
 
 ## Approving changes
 
-You can approve changes on a fork (the _source_) into the parent (the _destination_). Once the pull request is created, navigate to the collection in Postman and click on the **Pull Requests** icon on the right panel.
+You can approve changes on a fork (the _source_) into the parent (the _destination_). Once the pull request is created, navigate to the collection in Postman and select the **Pull Requests** icon on the right panel.
 
 <img src="https://assets.postman.com/postman-docs/status-pull-request-v2.jpg" alt="Status Pull Request"/>
 
@@ -242,11 +242,11 @@ Postman will display an overview of the changes you are attempting to merge.
 
 > If the parent collection has any changes since you last updated your fork, you can [pull those changes](#pulling-updates) before merging.
 
-If there are no [conflicts](#resolving-conflicts) you can review the changes and click __Merge all changes__ when you are ready.
+If there are no [conflicts](#resolving-conflicts) you can review the changes and select __Merge all changes__ when you are ready.
 
 <img src="https://assets.postman.com/postman-docs/merge-fork-options.jpg" alt="Merge Fork Options" width="300px"/>
 
-You can merge all changes from the fork into the parent, merge into the parent and update the fork, or merge in the parent and delete the fork. Make a selection and click __Merge__.
+You can merge all changes from the fork into the parent, merge into the parent and update the fork, or merge in the parent and delete the fork. Make a selection and select __Merge__.
 
 ## Pulling updates
 
@@ -256,7 +256,7 @@ To compare your fork to its parent, choose __Merge changes__ in the forked colle
 
 <img src="https://assets.postman.com/postman-docs/collection-fork-merge-changes-v9.1.jpg" alt="Merge Fork" width="300px"/>
 
-Postman will warn you before you attempt to merge a fork whose parent has changed since you last updated it. Click __Pull Changes__ to update your fork with the changes in the parent collection.
+Postman will warn you before you attempt to merge a fork whose parent has changed since you last updated it. Select __Pull Changes__ to update your fork with the changes in the parent collection.
 
 ![Update Fork](https://assets.postman.com/postman-docs/merge-changes-screen-v2.jpg)
 
@@ -274,7 +274,7 @@ You can choose to __Edit__ or __Decline__ the pull request.
 
 ![Pull Request Options](https://assets.postman.com/postman-docs/edit-decline-pull-request-v2.jpg)
 
-To view the differences between the fork (the _source_) and the parent fork (the _destination_), click __Changes__ tab.
+To view the differences between the fork (the _source_) and the parent fork (the _destination_), select __Changes__ tab.
 
 ![Diff Navigation](https://assets.postman.com/postman-docs/diff-navigation-v2.jpg)
 
@@ -296,7 +296,7 @@ If you encounter conflicts when you attempt to merge a forked collection, you wi
 
 <img src="https://assets.postman.com/postman-docs/conflicts-pull-changes-v2.jpg" alt="Pull Changes" width="450px"/>
 
-The __Source__ will indicate the changes on your fork, with the __Destination__ representing the changes on the parent branch. Click __Use this__ next to the version you want to include when you merge. When conflicts are resolved, the __Pull changes__ button will be enabled and you can [pull updates](#pulling-updates).
+The __Source__ will indicate the changes on your fork, with the __Destination__ representing the changes on the parent branch. Select __Use this__ next to the version you want to include when you merge. When conflicts are resolved, the __Pull changes__ button will be enabled and you can [pull updates](#pulling-updates).
 
 ## Next steps
 
