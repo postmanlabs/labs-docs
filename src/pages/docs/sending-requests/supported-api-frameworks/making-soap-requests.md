@@ -2,6 +2,7 @@
 title: "Making SOAP requests"
 order: 39
 page_id: "making_soap_requests"
+updated: 2021-12-10
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -25,14 +26,14 @@ warning: false
 
 Postman can make HTTP calls to SOAP, a platform-agnostic messaging protocol specification, in addition to REST, [GraphQL](/docs/sending-requests/supported-api-frameworks/graphql/), and [WebSocket](/docs/sending-requests/supported-api-frameworks/websocket/) requests.
 
-The following steps outline how to make a SOAP request in Postman.
+The following steps show how to make a SOAP request in Postman.
 
 ## Enter your SOAP endpoint
 
 1. Open a new request tab in Postman and enter your SOAP endpoint URL in the address field.
 1. Select __POST__ from the request method dropdown list.
 
-<img src="https://assets.postman.com/postman-docs/soap-method.jpg" alt="SOAP method" width="500px"/>
+<img src="https://assets.postman.com/postman-docs/soap-method-v9.jpg" alt="SOAP method" width="500px"/>
 
 As an example, try the following endpoint URL:
 
@@ -48,7 +49,7 @@ This SOAP endpoint changes numeric values into their text equivalents, for examp
 
 1. In the __Body__ tab, select __raw__ and choose __XML__ from the dropdown menu list.
 
-![SOAP body type](https://assets.postman.com/postman-docs/soap-body-type.jpg)
+![SOAP body type](https://assets.postman.com/postman-docs/soap-body-type-v9.jpg)
 
 2. Enter your XML in the text entry area. If you want to test the number conversion SOAP API used in the last section, enter the following XML:
 
@@ -65,8 +66,6 @@ This SOAP endpoint changes numeric values into their text equivalents, for examp
 
 Your request body must include the SOAP `Envelope`, `Header`, and `Body` tags as required by the endpoint, as well as any namespaces. The data should include the name of the operation, together with any values you need to post to the service.
 
-![SOAP body XML](https://assets.postman.com/postman-docs/soap-body-xml.jpg)
-
 ## Set your request headers
 
 When you select an XML body type, Postman automatically adds a content type header of `application/xml`. But depending on your service provider, you may need `text/xml` for some SOAP requests. Check with your SOAP service to determine which header is appropriate. If you need the `text/xml` header, you will need to override the default setting added by Postman.
@@ -78,13 +77,13 @@ If you are following along with the number conversion SOAP API example, you need
 1. Add a new row with `Content-Type` in the __Key__ field and `text/xml` in the __Value__ field.
 1. Add a new row for a header with  `SOAPAction` in the __Key__ field and `"#MethodName"` in the __Value__ field. (The quotes are required.) Without this header, the service will return 500.
 
-![SOAP Content Type](https://assets.postman.com/postman-docs/soap-content-type.jpg)
+![SOAP Content Type](https://assets.postman.com/postman-docs/soap-content-type-v9.jpg)
 
 ## Send your request
 
 1. Select __Send__ to make your call to the SOAP service. If your call is successful, you will see the response in the lower tab in Postman.
 
-![SOAP response data](https://assets.postman.com/postman-docs/soap-response-data.jpg)
+![SOAP response data](https://assets.postman.com/postman-docs/soap-response-data-v9.jpg)
 
 ## Next steps
 
