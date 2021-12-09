@@ -33,7 +33,7 @@ Stay on top of your API deployments in Postman by connecting to [AWS API Gateway
 
 To connect to AWS API Gateway in Postman, select **APIs** in the left sidebar, and then select the API and version you want to connect. Select the **Deployments** tab, and then select **AWS API Gateway**.
 
-<img alt="Connecting to AWS API Gateway" src="https://assets.postman.com/postman-docs/deployments-aws-api-gateway-v9-4.jpg" width="915px"/>
+<img alt="Connecting to AWS API Gateway" src="https://assets.postman.com/postman-docs/deployments-aws-api-gateway-v9-5.jpg" width="915px"/>
 
 When setting up the connection to AWS API Gateway, you can choose to authenticate by [creating an AWS IAM role](#authenticating-with-an-aws-iam-role) or by [using an AWS access key](#authenticating-with-an-aws-access-key). Follow the steps for your chosen method below.
 
@@ -41,7 +41,7 @@ When setting up the connection to AWS API Gateway, you can choose to authenticat
 
 To set up a connection to AWS API Gateway using an AWS IAM role, select **IAM** under **AWS Authentication Mechanism**.
 
-<img alt="Connecting with AWS IAM role" src="https://assets.postman.com/postman-docs/connect-to-api-gateway-with-iam-role-v9-4.jpg" width="502px"/>
+<img alt="Connecting with AWS IAM role" src="https://assets.postman.com/postman-docs/connect-to-api-gateway-with-iam-role-v9-5.jpg" width="502px"/>
 
 Enter a **Nickname** for this integration and select the **AWS API Type** (HTTP or REST).
 
@@ -85,7 +85,7 @@ Copy the **Role ARN** from AWS and paste it in Postman under **Step 2: Enter rol
 
 To set up a connection to AWS API Gateway using an AWS access key, select **Access Key** under **AWS Authentication Mechanism**.
 
-<img alt="Connecting with AWS access key" src="https://assets.postman.com/postman-docs/connect-to-api-gateway-with-access-key-v9-4.jpg" width="502px"/>
+<img alt="Connecting with AWS access key" src="https://assets.postman.com/postman-docs/connect-to-api-gateway-with-access-key-v9-5.jpg" width="502px"/>
 
 Next, enter information about the connection:
 
@@ -100,15 +100,15 @@ When you're ready, select **Connect** to connect to AWS API Gateway
 
 After connecting to AWS API Gateway, you can view API deployment status and history in Postman. Select **APIs** in the left sidebar, select an API and version, and then select the **Deployments** tab.
 
-<img alt="Viewing API deployments" src="https://assets.postman.com/postman-docs/api-gateway-deployments-configured-v9-4.jpg" width="915px"/>
+<img alt="Viewing API deployments" src="https://assets.postman.com/postman-docs/api-gateway-deployments-configured-v9-5.jpg" width="915px"/>
 
 For each deployment you can view the ID, description, creation date, and status. For each stage you can view the most recent deployment, the creation date, and the date last updated. Select a stage to view additional details, including the invoke URL and stage description (from AWS).
 
 * To view your API gateway in AWS, select the **AWS Gateway ID**.
 * To deploy your schema, select **Deploy API**. Learn more about [deploying your API](#deploying-your-api-from-postman).
 * To view metrics for your API gateway in AWS, select **View Dashboard**.
-* To see the last time your schema was deployed, hover over the information icon.
-* To see the latest deployment status, select the refresh icon.
+* To see the last time your schema was deployed, hover over the information icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg" width="16px" style="vertical-align:middle;margin-bottom:5px">.
+* To see the latest deployment status, select the refresh icon <img alt="Refresh icon" src="https://assets.postman.com/postman-docs/icon-refresh-v9-5.jpg" width="14px" style="vertical-align:middle;margin-bottom:5px">.
 * To edit or delete the connection to AWS API Gateway, select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px">.
 
 ## Deploying your API from Postman
@@ -124,6 +124,6 @@ Deploying an API schema makes it available on the connected AWS API Gateway, so 
 
 1. Select **Deploy**.
 
-<img alt="Deploying an API" src="https://assets.postman.com/postman-docs/deploy-api-schema-on-aws-v9-4.jpg" width="512px"/>
+<img alt="Deploying an API" src="https://assets.postman.com/postman-docs/deploy-api-schema-on-aws-v9-5.jpg" width="512px"/>
 
 > [API Gateway extensions to Open API](https://docs.aws.amazon.com/apigateway/latest/developerguide/api-gateway-swagger-extensions.html) (vendor extensions) are preserved when pushing and deploying a schema from Postman. Postman merges any extensions present on the gateway into the schema before pushing the merged schema to AWS API Gateway.
