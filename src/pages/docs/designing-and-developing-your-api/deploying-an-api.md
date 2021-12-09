@@ -37,8 +37,6 @@ To connect to AWS API Gateway in Postman, select **APIs** in the left sidebar, a
 
 When setting up the connection to AWS API Gateway, you can choose to authenticate by [creating an AWS IAM role](#authenticating-with-an-aws-iam-role) or by [using an AWS access key](#authenticating-with-an-aws-access-key). Follow the steps for your chosen method below.
 
-> After connecting to AWS API Gateway, you have the option to deploy your API schema from Postman to the gateway. You can also deploy your API at a later time. Learn more about [deploying your API from Postman](#deploying-your-api-from-postman).
-
 ### Authenticating with an AWS IAM role
 
 To set up a connection to AWS API Gateway using an AWS IAM role, select **IAM** under **AWS Authentication Mechanism**.
@@ -52,7 +50,7 @@ Next, create an IAM role for Postman in AWS:
 1. Navigate to the [AWS IAM console](https://console.aws.amazon.com/iam/home#/roles) and select **Create role**.
 2. Under **Select type of trusted entity**, select **Another AWS account**.
 3. Enter Postman's **AWS Account ID**: `258201882842`
-4. Under options, select the check box to **Require external ID** and enter the **External ID** from Postman. (The external ID is displayed on the **Connect to AWS API Gateway** dialog box under **Step 1: Create an IAM role**.)
+4. Under options, select the check box to **Require external ID** and enter the **External ID** from Postman. You can find the external ID under **Step 1: Create an IAM role**.
 
     > For more information, refer to the [AWS IAM guide on using external IDs](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_create_for-user_externalid.html).
 
@@ -104,25 +102,28 @@ After connecting to AWS API Gateway, you can view API deployment status and hist
 
 <img alt="Viewing API deployments" src="https://assets.postman.com/postman-docs/api-gateway-deployments-configured-v9-4.jpg" width="915px"/>
 
-For each deployment you can view the ID, description, deployment date, status, and release. For each stage you can view the most recent deployment, the creation date, and the date last updated. Select a stage to view additional details, including the invoke URL, access logs, and execution logs.
+For each deployment you can view the ID, description, creation date, and status. For each stage you can view the most recent deployment, the creation date, and the date last updated. Select a stage to view additional details, including the invoke URL and stage description (from AWS).
 
-* To open your AWS dashboard, select **View Dashboard**.
-* To see the latest deployment status, select **Refresh**.
+* To view your API gateway in AWS, select the **AWS Gateway ID**.
+* To deploy your schema, select **Deploy API**. Learn more about [deploying your API](#deploying-your-api-from-postman).
+* To view metrics for your API gateway in AWS, select **View Dashboard**.
+* To see the last time your schema was deployed, hover over the information icon.
+* To see the latest deployment status, select the refresh icon.
 * To edit or delete the connection to AWS API Gateway, select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px">.
 
 ## Deploying your API from Postman
 
-Deploying an API schema makes it available on the connected AWS API Gateway, so users can start calling the API. Deploy your schema immediately after connecting an API version to AWS API Gateway, or deploy the schema later from the **Deployments** tab in the API Builder.
+Deploying an API schema makes it available on the connected AWS API Gateway, so users can start calling the API. You can also choose to export the schema to the API gateway without deploying it, and deploy the schema later using the AWS console.
 
 1. Open your API by selecting **APIs** in the left sidebar, and then selecting an API and a version.
-1. Select the **Deployments** tab, and then select **Deploy Schema**.
+1. Select the **Deployments** tab, and then select **Deploy API**.
 1. Select the branch or release to deploy. Learn more about [versioning an API](/docs/designing-and-developing-your-api/versioning-an-api/).
-1. Select the AWS stage to deploy the schema to, such as dev, prod, or beta
+1. Select the AWS stage to deploy the schema to, such as dev, prod, or beta.
 
-    If you do not want to deploy the schema to a stage, select the **Only Export Schema to HEAD** check box. The schema will be pushed to AWS API Gateway but will not be deployed to a stage. You can deploy the schema later from the AWS console.
+    If you do not want to deploy the schema to a stage, select **Only Export Schema to HEAD**. The schema will be pushed to AWS API Gateway but will not be deployed to a stage. You can deploy the schema later from the AWS console.
 
 1. Select **Deploy**.
 
 <img alt="Deploying an API" src="https://assets.postman.com/postman-docs/deploy-api-schema-on-aws-v9-4.jpg" width="512px"/>
 
-> [API Gateway extensions to Open API](https://docs.aws.amazon.com/apigateway/latest/developerguide/api-gateway-swagger-extensions.html) (vendor extensions) are preserved when pushing and deploying the schema from Postman. Postman merges any extensions present on the gateway into the schema before pushing the merged schema to AWS API Gateway.
+> [API Gateway extensions to Open API](https://docs.aws.amazon.com/apigateway/latest/developerguide/api-gateway-swagger-extensions.html) (vendor extensions) are preserved when pushing and deploying a schema from Postman. Postman merges any extensions present on the gateway into the schema before pushing the merged schema to AWS API Gateway.
