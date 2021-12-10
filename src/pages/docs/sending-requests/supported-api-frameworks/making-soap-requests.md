@@ -24,7 +24,7 @@ warning: false
 
 ---
 
-Postman can make HTTP calls to SOAP, a platform-agnostic messaging protocol specification, in addition to REST, [GraphQL](/docs/sending-requests/supported-api-frameworks/graphql/), and [WebSocket](/docs/sending-requests/supported-api-frameworks/websocket/) requests.
+Postman can make HTTP calls using SOAP, a platform-agnostic messaging protocol specification, in addition to REST, [GraphQL](/docs/sending-requests/supported-api-frameworks/graphql/), and [WebSocket](/docs/sending-requests/supported-api-frameworks/websocket/) requests.
 
 The following steps show how to make a SOAP request in Postman.
 
@@ -47,7 +47,7 @@ This SOAP endpoint changes numeric values into their text equivalents, for examp
 
 ## Adding body data
 
-1. In the __Body__ tab, select __raw__ and choose __XML__ from the dropdown menu list.
+1. In the __Body__ tab, select __raw__ and choose __XML__ from the dropdown list.
 1. Enter your XML in the text entry area.
 
 ![SOAP body type](https://assets.postman.com/postman-docs/soap-body-type-v9.jpg)
