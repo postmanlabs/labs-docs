@@ -106,8 +106,8 @@ For each deployment you can view the ID, description, creation date, and status.
 
 * To view your API gateway in AWS, select the **AWS Gateway ID**.
 * To deploy your schema, select **Deploy API**. Learn more about [deploying your API](#deploying-your-api-from-postman).
-* To view metrics for your API gateway in AWS, select **View Dashboard**.
 * To see the last time your schema was deployed, hover over the information icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg" width="16px" style="vertical-align:middle;margin-bottom:5px">.
+* To view metrics for your API gateway in AWS, select **View Dashboard**.
 * To see the latest deployment status, select the refresh icon <img alt="Refresh icon" src="https://assets.postman.com/postman-docs/icon-refresh-v9-5.jpg" width="14px" style="vertical-align:middle;margin-bottom:5px">.
 * To edit or delete the connection to AWS API Gateway, select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px">.
 
