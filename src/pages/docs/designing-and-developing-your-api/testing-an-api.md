@@ -13,10 +13,15 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Intro to Postman | Advanced API Tests"
+    url: "https://youtu.be/vVDZxeS865g"
+  - type: subtitle
     name: "Related Blog Posts"
   - type: link
-    name: "Create APIs directly within the Postman app"
-    url: "https://blog.postman.com/postman-7-1-create-apis-directly-within-the-postman-app/"
+    name: "The Reimagined API-First Workflow, Part 2: for Testers"
+    url: "https://blog.postman.com/the-reimagined-api-first-workflow-for-testers/"
   - type: link
     name: "Negative Testing for More Resilient APIs"
     url: "https://blog.postman.com/negative-testing-for-more-resilient-apis/"
