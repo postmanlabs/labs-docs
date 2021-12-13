@@ -2,7 +2,7 @@
 title: "Managing Enterprise deployment"
 order: 140.5
 page_id: "managing_enterprise_deployment"
-updated: 2021-09-15
+updated: 2021-12-15
 warning: false
 contextual_links:
   - type: section
@@ -30,13 +30,20 @@ Postman Enterprise offers greater control to administrators looking to deploy an
 
     * [Downloading the Postman Enterprise app](#downloading-the-postman-enterprise-app)
 
-    * [Installing the Postman Enterprise app](#installing-the-postman-enterprise-app)
+    * [Installing the Postman Enterprise Windows app](#installing-the-postman-enterprise-windows-app)
 
         * [Enabling verbose logging for installation](#enabling-verbose-logging-for-installation)
 
-    * [Updating the Postman Enterprise app](#updating-the-postman-enterprise-app)
+        * [Updating the Postman Enterprise Windows app](#updating-the-postman-enterprise-windows-app)
 
-    * [Uninstalling the Postman Enterprise app](#uninstalling-the-postman-enterprise-app)
+        * [Uninstalling the Postman Enterprise Windows app](#uninstalling-the-postman-enterprise-windows-app)
+
+    * [Installing the Postman Enterprise macOS app](#installing-the-postman-enterprise-macos-app)
+
+        * [Installing a PKG installer package](#installing-a-pkg-installer-package)
+        * [PKG installation options](#pkg-installation-options)
+        * [Uninstalling PKG installers](#uninstalling-pkg-installers)
+        * [PKG installer logging](#pkg-installer-logging)
 
 ## Managing Postman app versioning
 
@@ -48,7 +55,7 @@ To request this change, reach out to your Postman Account Manager or [contact Po
 
 ## Deploying the Postman Enterprise app
 
-Postman's Enterprise Application is a variant of Postman’s Desktop Application that offers greater control to administrators looking to deploy Postman at an enterprise level. It is available as an MSI package for Windows and supports silent installation, system-wide installation, and additional configurations to control how Postman is installed on users' devices.
+Postman's Enterprise Application is a variant of Postman’s Desktop Application that offers greater control to administrators looking to deploy Postman at an enterprise level. It is available as an MSI package for Windows and PKG package for macOS, and supports silent installation, system-wide installation, and additional configurations to control how Postman is installed on users' devices.
 
 ### Downloading the Postman Enterprise app
 
@@ -60,7 +67,7 @@ To download, navigate to Postman and select **Team** in the upper right, then **
 
 > Reach out to your Postman Account Manager or [contact Postman support](https://www.postman.com/support/) for assistance with the Postman Enterprise app.
 
-### Installing the Postman Enterprise app
+### Installing the Postman Enterprise Windows app
 
 Once you've downloaded the Postman Enterprise MSI package, you can move forward with installing the app.
 
@@ -74,19 +81,19 @@ For example, you can run the following command to perform a system-wide installa
 msiexec /i path/to/package.msi INSTALLDIR=C:\custom
 ```
 
-#### MSIINSTALLPERUSER
+#### The MSIINSTALLPERUSER option
 
 The standard `MSIINSTALLPERUSER` option is used to install the application per-user instead of system-wide. By default, the MSI performs a system-wide installation. Set `MSIINSTALLPERUSER` to `1` to perform a per-user installation.
 
 For example, you can run the following command to perform a per-user installation to the default installation directory:
 
-```
+``` shell
 msiexec /i path/to/package.msi MSIINSTALLPERUSER=1
 ```
 
 This public property can be used in conjunction with `INSTALLDIR` to perform a per-user installation to a custom directory:
 
-```
+``` shell
 msiexec /i path/to/package.msi MSIINSTALLPERUSER=1 INSTALLDIR=%USERPROFILE%\custom
 ```
 
@@ -94,7 +101,7 @@ msiexec /i path/to/package.msi MSIINSTALLPERUSER=1 INSTALLDIR=%USERPROFILE%\cust
 
 A silent installation or uninstallation is performed by passing the `/qn` option to `msiexec`:
 
-```
+``` shell
 msiexec /i path\to\package.msi /qn MSIINSTALLPERUSER=1
 ```
 
@@ -106,11 +113,11 @@ It is always recommended to [run silent installations with logging enabled](#ena
 
 The `msiexec` tool can be configured to output debug log information about the installation process with the `/l*v` option. For example, you can output debug information to `C:\log.txt`:
 
-```
+``` shell
 msiexec /i path\to\package.msi /l*v C:\log.txt
 ```
 
-### Updating the Postman Enterprise app
+#### Updating the Postman Enterprise Windows app
 
 To upgrade the Postman Enterprise app, you can install the new version of the MSI package. Windows Installer will recognize this updated installation as an upgrade.
 
@@ -118,18 +125,108 @@ You must pass the exact same public properties that were used when you originall
 
 For example, if you first installed Postman Enterprise with the following you must install the new MSI package in the same way:
 
-```
+``` shell
 INSTALLDIR=C:\custom and MSIINSTALLPERUSER=1
 ```
 
 > Downgrading the Postman Enterprise app is not supported and attempts to do so will result in an error message. You can force a downgrade by manually removing the current version and then installing an older version of Postman Enterprise.
 
-### Uninstalling the Postman Enterprise app
+#### Uninstalling the Postman Enterprise Windows app
 
 The `msiexec` command-line tool can be used to remove an existing application using the `/x` option:
 
-```
+``` shell
 msiexec /x path\to\package.msi
 ```
 
 The application can also be removed from the Add/Remove Programs section in system settings or from the system Control Panel application.
+
+### Installing the Postman Enterprise macOS app
+
+macOS supports a flexible installer technology called PKG that can be easily installed without user intervention in scripting or enterprise deployment scenarios.
+
+PKG installer packages have the following capabilities:
+
+* You can select between system-wide, per-user installation, or custom installation disks
+* They do not require reboots after installation
+* They are fully configurable for silent installation
+* Apple Silicon is supported
+
+#### Installing a PKG installer package
+
+A PKG installer can be installed by double-clicking on the file and following the interactive configurable wizard. PKGs can also be installed from a command-line interface using the macOS `installer(8)` tool.
+
+The `LocalSystem` target instructs the PKG to install application bundles to `/Applications` and store installation settings at `/var/root/Library/Preferences`:
+
+``` shell
+sudo installer -dumplog -verbose -pkg path/to/app.pkg -target LocalSystem
+```
+
+You can also perform a per-user installation by specifying the `CurrentUserHomeDirectory` target. Given this target, the PKG installs application bundles to `$HOME/Applications` and store installation settings at `$HOME/Library/Preferences`:
+
+``` shell
+installer -dumplog -verbose -pkg path/to/app.pkg -target CurrentUserHomeDirectory
+```
+
+#### PKG installation options
+
+You can define custom properties with the `installationOptions` profile setting. These settings can be changed at installation time using the macOS `defaults(1)` tool either before or after installing the PKG.
+
+For example, if your application defines a `MY_OPTION` integer installation option, you can set a custom value:
+
+``` shell
+# For system-wide PKGs
+sudo defaults write /Library/Preferences/<the bundle id> MY_OPTION -integer 10
+# For per-user PKGs
+defaults write <the bundle id> MY_OPTION -integer 10
+```
+
+Installing a PKG and updating some of its installation options looks like this:
+
+``` shell
+sudo installer -dumplog -verbose -pkg path/to/app.pkg -target LocalSystem
+sudo defaults write /Library/Preferences/<the bundle id> MY_STRING_OPTION -string "hello"
+sudo defaults write /Library/Preferences/<the bundle id> MY_BOOLEAN_OPTION -boolean YES
+sudo defaults write /Library/Preferences/<the bundle id> MY_INTEGER_OPTION -integer 7
+```
+
+#### Uninstalling PKG installers
+
+A disadvantage of PKG installers is that macOS does not provide a standard mechanism to uninstall PKGs. However, the macOS `pkgutil(1)` tool can be used to get information about the current PKGs installed on a system and the files that each installation created using the application bundle identifier.
+
+If you do not know the bundle identifier of the application you want to uninstall, you can print the list of all the PKG bundle identifiers installed either system-wide or per-user:
+
+``` shell
+# For system-wide PKGs
+pkgutil --volume / --packages
+# For per-user PKGs
+pkgutil --volume "$HOME" --packages
+```
+
+Given the application bundle identifier, you can list the files written by the PKG, relative to its installation root:
+
+``` shell
+# For system-wide PKGs
+pkgutil --volume / --files <the bundle id>
+# For per-user PKGs
+pkgutil --volume "$HOME" --files <the bundle id>
+```
+
+You can proceed to remove the PKG by deleting the files printed out by the above commands relative to `$HOME` depending on if the PKG was installed system-wide or per-user.
+
+Finally, you must notify macOS that the PKG was removed:
+
+``` shell
+# For system-wide PKGs
+pkgutil --volume / --forget <the bundle id>
+# For per-user PKGs
+pkgutil --volume "$HOME" --forget <the bundle id>
+```
+
+#### PKG installer logging
+
+It is recommended to use the `-dumplog` and `-verbose` flags supported by `installer(8)` to get detailed information about an installation. For example:
+
+``` shell
+sudo installer -dumplog -verbose -pkg path/to/app.pkg -target LocalSystem
+```
