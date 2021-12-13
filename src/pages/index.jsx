@@ -17,6 +17,7 @@ import VideoImage from '../assets/icons/movie.svg';
 import SupportImage from '../assets/icons/support.svg';
 import BugImage from '../assets/icons/bug.svg';
 import CommunityImage from '../assets/icons/community.svg';
+import SolutionImage from '../assets/icons/solution.svg';
 
 import { LandingCard } from '../components/MarketingPages/Cards';
 import '../../styles/config/normalize.css';
@@ -312,6 +313,15 @@ class IndexPage extends React.Component {
                 cta="Visit forum"
                 icon={CommunityImage}
                 link="https://community.postman.com/"
+              />
+            </div>
+            <div className="col-md-6 col-lg-4 mb-3 mb-md-4 pr-md-5">
+              <LandingCard
+                title="Postman Answers"
+                description="Code samples for most commonly asked questions."
+                cta="Visit Postman Answers"
+                icon={SolutionImage}
+                link="https://www.postman.com/postman/workspace/postman-answers/"
               />
             </div>
           </section>
