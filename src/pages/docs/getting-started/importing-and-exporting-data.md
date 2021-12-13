@@ -6,6 +6,14 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Postman | How to Connect to Your Git Repository"
+    url: "https://youtu.be/8jJHXLVYOh0"
+  - type: link
+    name: "Generate a Collection From a Specification | Postman Level Up"
+    url: "https://youtu.be/gljWt9tDKOY"
+  - type: subtitle
     name: "Related Blog Posts"
   - type: link
     name: "Sync your specs"

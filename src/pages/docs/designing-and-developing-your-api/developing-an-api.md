@@ -13,6 +13,11 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Postman Space Camp | Advanced API Debugging"
+    url: "https://youtu.be/9xGp6d7VFgU"
+  - type: subtitle
     name: "Related Blog Posts"
   - type: link
     name: "Create APIs directly within the Postman app"
