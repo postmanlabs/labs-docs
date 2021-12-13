@@ -39,13 +39,15 @@ Confirm your team has only SSO auth method enabled. Then, select the **Domains**
 
 Select **Add Domain**. Enter the domain or subdomain you'd like to add, then select **Generate Verification Records**. <img alt="Copy icon" src="https://assets.postman.com/postman-docs/icon-copy-v9.jpg" width="15px" style="vertical-align:middle;margin-bottom:5px"> **Copy** the **TXT record** and add it to your domain's DNS configuration.
 
-[domain details page w/"verification pending", txt record screenshot]
+<img alt="Add domain - domain details" src="https://assets.postman.com/postman-docs/authentication-domain-add-details-9.4.jpg" width="350"/>
 
 In Postman, you can select **← Back** to navigate back to your domain dashboard.
 
-<img alt="Domain capture verification in progress" src="https://assets.postman.com/postman-docs/authentication-domain-verification-in-progress-9.4.1.jpg"/>
+<img alt="Domain capture dashboard" src="https://assets.postman.com/postman-docs/authentication-domain-manage-accounts-2-9.4.jpg"/>
 
-Postman's team will verify your requested domain and update its status in your dashboard, as well as notify your team admins via email.
+> Verification status will change from "Created" to "In Progress" after the TXT record has been added to the domain's DNS configuration.
+
+Postman's team will verify your requested domain and update its status to "Verified" in your dashboard, as well as notify your team admins via email.
 
 > You can reach out to [Postman support](https://www.postman.com/support/) to check on the status of your domain verification.
 
@@ -59,7 +61,7 @@ Select **Confirm** to enable domain capture.
 
 Team admins can manage the domains and subdomains that have been added to a team by navigating to the [domain capture dashboard](https://go.postman.co/settings/team/domain-capture).
 
-<img alt="Domain capture dashboard" src="https://assets.postman.com/postman-docs/authentication-domain-dashboard-9.4.jpg"/>
+<img alt="Domain capture dashboard" src="https://assets.postman.com/postman-docs/authentication-domain-manage-accounts-2-9.4.jpg"/>
 
 In the dashboard, you can view your domains, their verification status, the number of unclaimed accounts associated with the domain, and if domain capture is currently enabled or disabled for the particular domain.
 
