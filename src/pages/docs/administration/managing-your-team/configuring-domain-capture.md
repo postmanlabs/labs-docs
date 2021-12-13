@@ -1,5 +1,5 @@
 ---
-title: "Configuring Domain Capture"
+title: "Configuring domain capture"
 order: 143
 page_id: "configuring_domain_capture"
 warning: false
