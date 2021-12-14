@@ -29,11 +29,6 @@ contextual_links:
   - type: link
     name: "Better Practices for Git Version Control in Postman"
     url: "https://blog.postman.com/better-practices-for-git-version-control-in-postman/"
-  - type: subtitle
-    name: "Videos"
-  - type: link
-    name: "Versioning APIs with Tags | Postman Level Up"
-    url: "https://youtu.be/Kq8Ra0ugqoY"
   - type: section
     name: "Next Steps"
   - type: link

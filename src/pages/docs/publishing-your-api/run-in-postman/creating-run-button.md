@@ -21,9 +21,6 @@ contextual_links:
   - type: link
     name: "Generate a Run in Postman Button | Postman Level Up"
     url: "https://www.youtube.com/watch?v=r2DGy4jSuUE&list=PLM-7VG-sgbtC5tNXxd28cmePSa9BYwqeU&index=8"
-  - type: link
-    name: "API documentation with Postman"
-    url: "https://www.youtube.com/watch?v=Ayo_KdLLcTA"
   - type: subtitle
     name: "Related Blog Posts"
   - type: link

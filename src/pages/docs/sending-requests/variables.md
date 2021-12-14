@@ -20,6 +20,9 @@ contextual_links:
   - type: link
     name: "Intro to Postman | Chain Requests"
     url: "https://youtu.be/4fULCou_7Wc"
+  - type: link
+    name: "Manage CLI Environment Variables | Postman Level Up"
+    url: "https://youtu.be/n8O2KP-Zx8I"
   - type: subtitle
     name: "Related Blog Posts"
   - type: link
