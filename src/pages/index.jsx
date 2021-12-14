@@ -288,7 +288,7 @@ class IndexPage extends React.Component {
             <hr/>
           </div>
           <section className="row section">
-            <div className="col-md-6 col-lg-4 mb-3 mb-md-4 pr-md-5">
+            <div className="col-sm-6 col-lg-3 mb-3 mb-md-4 pr-md-5">
               <LandingCard
                 title="Postman support"
                 description="Reach out to our support team."
@@ -297,7 +297,7 @@ class IndexPage extends React.Component {
                 link="https://support.postman.com/hc/en-us/requests/new/"
               />
             </div>
-            <div className="col-md-6 col-lg-4 mb-3 mb-md-4 pr-md-5">
+            <div className="col-sm-6 col-lg-3 mb-3 mb-md-4 pr-md-5">
               <LandingCard
                 title="Bugs and feature requests"
                 description="Check out the app support repo."
@@ -306,7 +306,7 @@ class IndexPage extends React.Component {
                 link="https://github.com/postmanlabs/postman-app-support/"
               />
             </div>
-            <div className="col-md-6 col-lg-4 mb-3 mb-md-4 pr-md-5">
+            <div className="col-sm-6 col-lg-3 mb-3 mb-md-4 pr-md-5">
               <LandingCard
                 title="Community"
                 description="Join the Postman community."
@@ -315,7 +315,7 @@ class IndexPage extends React.Component {
                 link="https://community.postman.com/"
               />
             </div>
-            <div className="col-md-6 col-lg-4 mb-3 mb-md-4 pr-md-5">
+            <div className="col-sm-6 col-lg-3 mb-3 mb-md-4 pr-md-5">
               <LandingCard
                 title="Postman Answers"
                 description="Code samples for most commonly asked questions."
