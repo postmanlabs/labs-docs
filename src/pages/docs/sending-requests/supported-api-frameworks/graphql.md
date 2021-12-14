@@ -16,7 +16,7 @@ contextual_links:
     name: "Postman v7.2 Supports GraphQL"
     url: "https://blog.postman.com/postman-v7-2-supports-graphql/"
   - type: link
-    name: "Working with GraphQL template"
+    name: "Working with GraphQL collection"
     url: "https://www.postman.com/postman/workspace/postman-team-collections/collection/1559645-c0dd3eb3-5258-4ddd-a6e4-2780c5212e33?ctx=documentation"
   - type: subtitle
     name: "Video"
@@ -33,7 +33,7 @@ warning: false
 
 ---
 
-Many people think of Postman as an advanced REST client. Beyond REST, Postman is a tool that handles any calls sent over HTTP. This means that you can use Postman to interact with protocol-agnostic APIs - such as [SOAP](/docs/sending-requests/supported-api-frameworks/making-soap-requests/) and GraphQL, which can both utilize HTTP, just like REST.
+Postman can handle any calls sent over HTTP. This means that Postman can make HTTP calls using GraphQL, an open-source data query and manipulation language for APIs, in addition to REST, [SOAP](/docs/sending-requests/supported-api-frameworks/making-soap-requests/), and [WebSocket](/docs/sending-requests/supported-api-frameworks/websocket/) requests.
 
 Learn how Postman supports working with GraphQL.
 
@@ -42,15 +42,11 @@ Learn how Postman supports working with GraphQL.
 * Creating APIs in Postman with GraphQL schema type
 * Query autocompletion integrated with user defined GraphQL schemas
 
-Try it out in Postman with this [example template](https://www.postman.com/postman/workspace/postman-team-collections/collection/1559645-c0dd3eb3-5258-4ddd-a6e4-2780c5212e33?ctx=documentation).
+Try it out in Postman with this [collection](https://www.postman.com/postman/workspace/postman-team-collections/collection/1559645-c0dd3eb3-5258-4ddd-a6e4-2780c5212e33?ctx=documentation).
 
 [![graphql template](https://i.imgur.com/Ic70c1G.png)](https://i.imgur.com/Ic70c1G.png)
 
 ## Sending a GraphQL query
-
-<iframe loading="lazy" width="560" height="315" src="https://www.youtube-nocookie.com/embed/7pUbezVADQs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<br/>
 
 There's a few ways for you to author and send a GraphQL query in Postman. The following screen illustrates one way to send a GraphQL query using Postman's inbuilt support.
 
