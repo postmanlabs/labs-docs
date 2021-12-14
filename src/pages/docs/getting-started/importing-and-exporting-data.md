@@ -2,7 +2,7 @@
 title: 'Importing and exporting data'
 order: 8.2
 page_id: 'importing_and_exporting_data'
-updated: 2021-12-09
+updated: 2021-12-15
 contextual_links:
   - type: section
     name: "Additional Resources"
@@ -51,7 +51,7 @@ Postman can import and export Postman data, including collections, environments,
 
     * [Importing Postman data](#importing-postman-data)
 
-        * [Converting Postman collections from v1 to v2](#converting-postman-collections-from-v1-to-v2)
+    * [Converting Postman collections from v1 to v2](#converting-postman-collections-from-v1-to-v2)
 
     * [Importing API specifications](#importing-api-specifications)
 
@@ -71,7 +71,7 @@ Postman can import and export Postman data, including collections, environments,
 
 You can import collections or your API specifications directly into Postman.
 
-To import your data into Postman, select **Import** in the left navigation menu.
+To import your data into Postman, select **Import** in upper left:
 
 ![Import modal](https://assets.postman.com/postman-docs/import-export-import-ui-next.jpg)
 
@@ -85,16 +85,16 @@ You can import Postman data you previously exported, including collections, envi
 1. Select your file or folder, input your link, paste your raw text, or [import from GitHub](#importing-via-github-repositories).
    Postman will automatically recognize Postman data, confirming the name, format, and what the file will import as.
    ![Import collection and environment](https://assets.postman.com/postman-docs/import-export-github-files-confirm.jpg)
-1. Select the files you wish to import.
+1. Select the files you want to import.
 1. Select **Import** to bring your data into Postman.
 
-#### Converting Postman collections from v1 to v2
+### Converting Postman collections from v1 to v2
 
 Postman no longer supports the collection v1 format and will return an error if you attempt to import a collection in this format.
 
 You can convert your collection's format from v1 to v2 to import it into Postman:
 
-1. In the terminal of your choice, enter the following command to install the Postman collection transformer.
+1. In the terminal of your choice, enter the following command to install the Postman Collection Transformer.
 
    ```bash
    sudo npm install -g postman-collection-transformer
@@ -106,24 +106,13 @@ You can convert your collection's format from v1 to v2 to import it into Postman
    postman-collection-transformer convert -i <path to input Postman collection file> -o <path where the output Postman file will be downloaded> -j 1.0.0 -p 2.0.0 -P
    ```
 
-The resulting collection will be in v2 format and downloaded to your target file path.
+The resulting collection will be downloaded to your target file path in v2 format.
 
 You can retrieve a list of convert options by running the command with the ``-h`` flag:
 
    ```bash
    postman-collection-transformer convert -h
    ```
-
- Option | Details |
-|:--|:--|
-| `-h`, `--help` | Outputs usage information |
-| `-i`, `--input <path>` | Returns a path to the input postman collection file |
-| `-j`, `--input-version [version]` | Returns the version of the input collection format standard (v1 or v2) |
-| `-o`, `--output <path>` | Returns a path to the output postman collection file |
-| `-p`, `--output-version [version]` | Returns the version of the output collection format standard (v1 or v2) |
-| `-P`, `--pretty` | Prints the output in pretty format |
-| `--retain-ids` | Retains the request and folder IDs during conversion (collection ID is always retained) |
-| `-w`, `--overwrite` | Overwrites the output file if it exists |
 
 See the [Postman Collection Transformer](https://github.com/postmanlabs/postman-collection-transformer) for more information on the collection conversion.
 
@@ -205,7 +194,7 @@ You can export your Postman data, including collections, environments, data dump
 
 ### Exporting collections
 
-1. Select the **...** next to the collection, then **Export**.
+1. Select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to the collection, then select **Export**.
 
    <img alt="Export collection" src="https://assets.postman.com/postman-docs/export-collection-v9.1.jpg" width="350px" />
 
@@ -221,7 +210,7 @@ You can also export your environments from Postman.
 
 1. Select the **Environments** tab from the left navigation menu.
 1. Select an environment to export.
-1. In the top right corner, select the **...**.
+1. In the top right corner, select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px">.
 1. Select **Export** to download your newly generated JSON file.
 
 ### Exporting data dumps
