@@ -2,6 +2,7 @@
 title: "Building request workflows"
 order: 57
 page_id: "building_workflows"
+updated: 2021-12-15
 search_keyword: "postman.setNextRequest, setNextRequest"
 contextual_links:
   - type: section
@@ -26,31 +27,43 @@ warning: false
 
 ---
 
-When you start a collection run, all requests are run in the order you see them in Postman. So all requests are executed first, by order of the folder, and then any requests in the root of the collection.
+Typically when you start a [collection run](/docs/running-collections/intro-to-collection-runs/), Postman runs all requests in the same order they appear in your collection. Requests in folders are executed first, followed by any requests in the root of the collection.
 
-However, you can override this behavior using a built-in function called `postman.setNextRequest()`. This function, as the name suggests, allows you to specify which request runs next.
+In the Collection Runner, you have the option to change the order of the requests before starting a run. However, instead of manually changing the request order each time you run the collection, you can automate this behavior using the `postman.setNextRequest()` function.
+
+As the name suggests, `postman.setNextRequest()` enables you to specify which request Postman runs next, following the current request. Using this function, you can build custom workflows that chain requests, running them one after the other in a specific order.
 
 [![set next request method](https://assets.postman.com/postman-docs/Test_script10.png)](https://assets.postman.com/postman-docs/Test_script10.png)
 
-## Set the request to be executed next
+## Setting the next request
+
+To specify the request to run next, add the following code to the **Tests** tab of a request. For `request_name`, use the name of the request you want to run next.
 
 ```js
 postman.setNextRequest("request_name");
 ```
 
-## Loop over the current request
+Postman runs the specified request after completing the current request.
 
-Providing the name of current run to `setNextRequest` leads to Postman running the current request continuously.
+## Looping over a request
+
+If you pass the name of the current request to the `setNextRequest` function, Postman will run the current request repeatedly on a continuous loop.
 
 [![looping current request](https://assets.postman.com/postman-docs/branching_and_looping/branching_and_looping.png)](https://assets.postman.com/postman-docs/branching_and_looping/branching_and_looping.png)
 
-**Note:** While looping over one request continuously, one should wrap `setNextRequest` in some logic so as to ensure that the request does not run indefinitely otherwise the collection runner would need to be force closed.
+> **IMPORTANT:** Make sure to wrap `setNextRequest` in some additional logic so the request doesn't loop indefinitely. For example, you might exit the loop after a certain number of iterations or when another condition is met. Otherwise you will need to force close the Collection Runner to end the loop.
 
-## Stop workflow execution
+## Stopping a workflow
+
+To stop a workflow, add the following code to the **Tests** tab of a request.
 
 ```js
 postman.setNextRequest(null);
 ```
+
+The collection run will stop after Postman completes the current request.
+
+## Tips for building request workflows
 
 Some salient points about `postman.setNextRequest()`:
 
@@ -65,3 +78,5 @@ Remember these two facts as you use this workflow:
 
 * `postman.setNextRequest()` is always executed at the end of the current request. This means that if you put this function before other code blocks anywhere in pre-request or test script, these blocks will still execute.
 * `postman.setNextRequest()` has a scope, which is the source of your collection run. If you run a collection, you can jump to any request in the collection (even requests inside folders, using the same syntax). However, if you run a folder, the scope of `postman.setNextRequest()` is limited to that folder. So you can jump to any request in this folder, but not ones that are outside of the folder. It includes requests inside other folders, and also root-level requests in the collection. To read more about [running collections or folders](/docs/running-collections/intro-to-collection-runs/).
+
+To learn more, see [Scripting in Postman](/docs/writing-scripts/intro-to-scripts/)
