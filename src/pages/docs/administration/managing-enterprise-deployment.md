@@ -147,52 +147,30 @@ macOS supports a flexible installer technology called PKG that can be easily ins
 
 PKG installer packages have the following capabilities:
 
-* You can select between system-wide, per-user installation, or custom installation disks
-* They do not require reboots after installation
-* They are fully configurable for silent installation
-* Apple Silicon is supported
+* You can select between system-wide, per-user installation, or custom installation disks.
+* They do not require reboots after installation.
+* They are fully configurable for silent installation.
+* Apple Silicon is supported.
 
 ### Installing a PKG installer package
 
-A PKG installer can be installed by double-clicking on the file and following the interactive configurable wizard. PKGs can also be installed from a command-line interface using the macOS `installer` tool.
+A PKG installer can be installed by double-clicking on the file and following the interactive configurable wizard. PKGs can also be installed from a command-line interface using the `installer` tool included in macOS.
 
-The `LocalSystem` target instructs the PKG to install app bundles to `/Applications` and store installation settings at `/var/root/Library/Preferences`:
+The `LocalSystem` target instructs the PKG to install app bundles to `/Applications` and store installation settings at `/Library/Preferences`:
 
 ``` shell
 sudo installer -dumplog -verbose -pkg path/to/app.pkg -target LocalSystem
 ```
 
-You can also perform a per-user installation by specifying the `CurrentUserHomeDirectory` target. Given this target, the PKG installs app bundles to `$HOME/Applications` and store installation settings at `$HOME/Library/Preferences`:
+You can also perform a per-user installation by specifying the `CurrentUserHomeDirectory` target. Given this target, the PKG installs app bundles to `$HOME/Applications` and stores installation settings at `$HOME/Library/Preferences`:
 
 ``` shell
 installer -dumplog -verbose -pkg path/to/app.pkg -target CurrentUserHomeDirectory
 ```
 
-### PKG installation options
-
-You can define custom properties with the `installationOptions` profile setting. These settings can be changed at installation time using the macOS `defaults` tool either before or after installing the PKG.
-
-For example, if your app defines a `MY_OPTION` integer installation option, you can set a custom value:
-
-``` shell
-# For system-wide PKGs
-sudo defaults write /Library/Preferences/<the bundle id> MY_OPTION -integer 10
-# For per-user PKGs
-defaults write <the bundle id> MY_OPTION -integer 10
-```
-
-Installing a PKG and updating some of its installation options looks like this:
-
-``` shell
-sudo installer -dumplog -verbose -pkg path/to/app.pkg -target LocalSystem
-sudo defaults write /Library/Preferences/<the bundle id> MY_STRING_OPTION -string "hello"
-sudo defaults write /Library/Preferences/<the bundle id> MY_BOOLEAN_OPTION -boolean YES
-sudo defaults write /Library/Preferences/<the bundle id> MY_INTEGER_OPTION -integer 7
-```
-
 ### Uninstalling PKG installers
 
-A disadvantage of PKG installers is that macOS does not provide a standard mechanism to uninstall PKGs. However, the macOS `pkgutil` tool can be used to get information about the current PKGs installed on a system and the files that each installation created using the app bundle identifier.
+A disadvantage of PKG installers is that macOS does not provide a standard mechanism to uninstall PKGs. However, the `pkgutil` tool included with macOS can be used to get information about the current PKGs installed on a system and the files that each installation created using the app bundle identifier.
 
 If you do not know the bundle identifier of the app you want to uninstall, you can print the list of all the PKG bundle identifiers installed either system-wide or per-user:
 
@@ -218,7 +196,7 @@ Finally, you must notify macOS that the PKG was removed:
 
 ``` shell
 # For system-wide PKGs
-pkgutil --volume / --forget <the bundle id>
+sudo pkgutil --volume / --forget <the bundle id>
 # For per-user PKGs
 pkgutil --volume "$HOME" --forget <the bundle id>
 ```
