@@ -201,6 +201,28 @@ sudo pkgutil --volume / --forget <the bundle id>
 pkgutil --volume "$HOME" --forget <the bundle id>
 ```
 
+### PKG installation options
+
+Settings can be changed at installation time using the macOS `defaults` tool either before or after installing the PKG.
+
+For example, if your app defines a `MY_OPTION` integer installation option, you can set a custom value:
+
+``` shell
+# For system-wide PKGs
+sudo defaults write /Library/Preferences/<the bundle id> MY_OPTION -integer 10
+# For per-user PKGs
+defaults write <the bundle id> MY_OPTION -integer 10
+```
+
+Installing a PKG and updating some of its installation options looks like this:
+
+``` shell
+sudo installer -dumplog -verbose -pkg path/to/app.pkg -target LocalSystem
+sudo defaults write /Library/Preferences/<the bundle id> MY_STRING_OPTION -string "hello"
+sudo defaults write /Library/Preferences/<the bundle id> MY_BOOLEAN_OPTION -boolean YES
+sudo defaults write /Library/Preferences/<the bundle id> MY_INTEGER_OPTION -integer 7
+```
+
 ### PKG installer logging
 
 It is recommended to use the `-dumplog` and `-verbose` flags supported by `installer` to get detailed information about an installation. For example:
