@@ -40,7 +40,7 @@ If you are using APIs to build client-side applications—mobile apps, websites,
 
 ## How the built-in proxy works
 
-The Postman app has a built-in proxy that can capture HTTP traffic. Here's how it works:
+The Postman app has a built-in proxy that can capture HTTP and HTTPS traffic. Here's how it works:
 
 1. The Postman app listens for any calls made by the client app or device.
 1. The Postman proxy captures the request and forwards it to the server.
@@ -49,9 +49,9 @@ The Postman app has a built-in proxy that can capture HTTP traffic. Here's how i
 
 [![postman capture proxy](https://assets.postman.com/postman-docs/proxymobile-aa.jpeg)](https://assets.postman.com/postman-docs/proxymobile-aa.jpeg)
 
-Similar to the [Interceptor Chrome extension](/docs/sending-requests/capturing-request-data/interceptor/), the Postman app proxy also intercepts and captures your requests. Additionally, it can capture responses and cookies. You can log all network requests and responses under the **History** tab in the sidebar or in a collection.
+Similar to the [Interceptor Chrome extension](/docs/sending-requests/capturing-request-data/interceptor/), the Postman app proxy also intercepts and captures your requests. Additionally, it can capture responses and cookies.
 
-<!--TODO: the concept of a time-bound proxy debug session. The difference between starting/stopping a session and starting/stopping the proxy -->
+After you start the Postman proxy, you can start a debug session, which is a time-bound session of traffic capture. You can start, pause, and stop a proxy debug session, then later start another one. Each debug session is logged in the **History** tab, and displays the total session time, and all traffic captured. You can also send requests and responses to a collection, and save cookies to the Postman cookie jar.
 
 ## Using the Postman proxy
 
@@ -73,20 +73,26 @@ In the steps below, you will use the Postman app's proxy feature to inspect HTTP
 <!--TODO: this opens a new session window -->
 1. On the **Capture Requests** window, select the **Via Proxy** tab.
 1. Select **Enable Proxy**.
-1. Enter a port number. By default, it's set for port `5555`.
+1. Enter a port number. By default, it's set to port `5555`.
 1. Select **Enable Proxy**. This enables the proxy, but capture has not started yet.
 
 ### Step 2: Start the proxy session
 
-<!--TODO: change to the following UX:
-* Save Responses for Requests
-* Capture Cookies
-* Save requests to a collection
-* Configure Incoming Requests
+<!--TODO:
+On the **Capture Requests** window:
+
+1. Select **Save Responses for Requests** to also save each request's responses. They will be saved alongside the requests in the history and the selected collection.
+
+    > In responses with a `content-type` containing images, audio, or video, content is intercepted but not captured. The only information captured is response headers, time taken, and the status code.
+* **Capture Cookies**
+* **Save requests to a collection**
+* **Configure Incoming Requests**
   - URL must contain
   - URL cannot contain
   - Resources (JS, CSS, Image)
-* Start Capture button
+1. Select **Start Capture**.
+
+Proxy debug session starts, but it won't be capturing anything until a device is pointed at the proxy. Go to step 3 to configure your phone to use the proxy.
 
 -->
 
