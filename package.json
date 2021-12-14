@@ -57,6 +57,7 @@
     "react-dom": "16.14.0",
     "react-helmet": "5.2.1",
     "react-instantsearch-dom": "5.7.0",
+    "react-markdown": "^7.1.1",
     "react-onclickout": "2.0.8",
     "react-tabs": "3.2.3",
     "react-test-renderer": "16.14.0",
