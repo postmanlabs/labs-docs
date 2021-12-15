@@ -21,8 +21,8 @@ contextual_links:
   - type: subtitle
     name: "Videos"
   - type: link
-    name: "API documentation with Postman"
-    url: "https://www.youtube.com/watch?v=Ayo_KdLLcTA"
+    name: "API Documentation | The Exploratory"
+    url: "https://youtu.be/XNVo9WkCoak"
   - type: subtitle
     name: "Related Blog Posts"
   - type: link
