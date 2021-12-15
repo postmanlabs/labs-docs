@@ -44,14 +44,18 @@ There are a few ways for you to author and send a GraphQL query using Postman:
 
 ## Built-in support for GraphQL
 
-If you're using Postman v7.2 or later, the app has built-in support for sending GraphQL queries in the request body, using GraphQL variables, and GraphQL query autocompletion.
+If you're using v7.2 or later, the Postman app has built-in support for sending GraphQL queries in the request body, using GraphQL variables, importing GraphQL schemas, and enabling GraphQL query autocompletion.
+
+### Sending GraphQL queries in the request body
 
 1. Open a new request tab in Postman and enter your GraphQL endpoint URL in the address field.
-1. Select POST from the request method dropdown list.
+1. Select `POST` from the request method dropdown list.
 1. Under the **Body** tab, select the **GraphQL** body type.
 1. Enter your GraphQL query in the **Query** editor. This editor enables you to author and edit both queries and variables separately.
 
   <!-- TODO: screenshot -->
+
+### Using GraphQL variables
 
 1. Enter your GraphQL varibles in the **GraphQL variables** editor.
 
@@ -73,7 +77,7 @@ To enable autocompletion, you need to add a GraphQL schema under the APIs tab, a
 
 <!-- TODO: screenshot -->
 
-### Autocomplete for GraphQL
+### Enabling GraphQL query autocompletion
 
 Once you create or import a GraphQL schema as described above, you can enable autocompletion within the **GraphQL** query editor.
 
@@ -87,7 +91,7 @@ Once you create or import a GraphQL schema as described above, you can enable au
 ## Using JSON in the request body
 
 1. Open a new request tab in Postman and enter your GraphQL endpoint URL in the address field.
-1. Select POST from the request method dropdown list.
+1. Select `POST` from the request method dropdown list.
 1. Under the **Body** tab, select the **raw** body type with JSON format. <!-- TODO: reword -->
 1. Construct your query in the request body using proper JSON formatting.
 1. In the **Headers** tab, add the `Content-type` of `application/json`.
@@ -97,7 +101,7 @@ Once you create or import a GraphQL schema as described above, you can enable au
 ## Using a GraphQL query
 
 1. Open a new request tab in Postman and enter your GraphQL endpoint URL in the address field.
-1. Select POST from the request method dropdown list.
+1. Select `POST` from the request method dropdown list.
 1. In the **Headers** tab, add the `Content-type` of `application/graphql`.
 1. Under the **Body** tab, select the **raw** body type with text format. <!-- TODO: reword -->
 1. Construct your query in the request body using standard GraphQL formatting.
@@ -106,11 +110,10 @@ Once you create or import a GraphQL schema as described above, you can enable au
 
 ## Importing the query as a cURL request
 
-POST
-
 1. Select **Import** in the upper left.
 1. Select **Raw text**.
-1. Paste your cURL command in the text field, then **Continue**.
-1. Select **Import**. The request will open in a new tab with the GraphQL endpoint URL and the request method you specified.
+1. Paste your cURL command in the text field, then **Continue**. Your cURL command must contain a GraphQL endpoint URL and must specify the `POST` request method.
+1. Select **Import**.
+1. The request will open in a new tab with the GraphQL endpoint URL you specified and the `POST` request method.
 
 <!-- TODO: screenshot -->
