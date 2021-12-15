@@ -1,6 +1,5 @@
 ---
 title: "Capturing request data overview"
-order: 32
 page_id: "capturing_overview"
 contextual_links:
   - type: section
@@ -31,6 +30,7 @@ warning: false
 
 ---
 
+<!--TODO: this lede is the same as capturing-http-requests and has to be rewritten to cover all three cases -->
 If you are using APIs to build client-side applications, such as mobile apps, websites, or desktop applications, you may want to see the actual HTTP and HTTPS request traffic that's being sent and received in the application. Sometimes you might discover APIs that aren't even documented. You can capture this network traffic using the proxy that's built into the Postman app.
 
 A proxy refers to being a middle layer between the client and the server. When Postman acts as a proxy, traffic from a client first goes to Postman, which than forwards it to the server.
@@ -41,7 +41,12 @@ Capturing traffic is when Postman actually starts to save traffic into Postman. 
 
 <!-- TODO
 both proxy and interceptor use the concept of capture sessions
-cookies can also be captured
+Difference between proxying/intercepting vs traffic capturing
+	"With this release, we want to separate these two into different actions. I.e ‘Starting or stopping proxy/ interceptor' is different from 'starting/ stopping the traffic capturing."
+
+there needs to be a solid explanation of the difference between proxy and interceptor and why you would use each. we might need to punt on this for 12/20 and work on it later, or maybe marketing site has something to grab?
+
+cookies can also be captured in either one now.
 -->
 
 ## About the Postman proxy
@@ -57,6 +62,6 @@ cookies can also be captured
 
 Postman's native apps for Mac, Windows, and Linux support configuring proxies. You can either specify to use a **custom proxy** or to use the **system proxy** defined in the operating system.
 
-Use the **custom proxy** if all of your applications need to use the same proxy. Turn **custom proxy** _on_ if you want to direct the requests from Postman go through a custom proxy server. Turning it off will direct the requests to not use the proxy server.
+Use the **custom proxy** if all of your applications need to use the same proxy. Turn **custom proxy** on if you want to direct the requests from Postman go through a custom proxy server. Turning it off will direct the requests to not use the proxy server.
 
 [Using a custom proxy](/docs/sending-requests/capturing-request-data/proxy/)

@@ -172,10 +172,8 @@ OpenSSL is already installed for macOS and is typically installed for Linux. For
 1. Go to **Settings > Profile Downloaded**, and then select **Install**. Enter your passcode to proceed.
 1. A security warning displays. Select **Install**.
 1. After the certificate is installed, select **Done**.
-1. Go to **Settings App > General > About > Certificate Trust Settings**.
+1. Go to **Settings > General > About > Certificate Trust Settings**.
 1. Enable full trust for Postman’s root certificate, and select **Continue** to complete the installation.
-
-    <img src="https://assets.postman.com/postman-docs/ios-enable-full-trust-aa.jpeg" alt="iOS crt full trust settings" width="350">
 
 ### Android
 

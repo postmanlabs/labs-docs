@@ -37,109 +37,91 @@ If you are using APIs to build client-side applications—mobile apps, websites,
 
 * [How the built-in proxy works](#how-the-built-in-proxy-works)
 * [Using the Postman proxy](#using-the-postman-proxy)
+    * [Step 1: Start the proxy](#step-1-start-the-proxy)
+    * [Step 2: Start the proxy debug session](#step-2-start-the-proxy-debug-session)
+    * [Step 3: Configure the proxy on a client device](#step-3-configure-the-proxy-on-a-client-device)
+    * [Step 4: Run the proxy debug session](#step-4-run-the-proxy-debug-session)
+    * [Step 5: Stop the debug session and proxy](#step-5-stop-the-debug-session-and-proxy)
+    * [Step 6: View the proxy debug session results](#step-6-view-the-proxy-debug-session-results)
 
 ## How the built-in proxy works
 
 The Postman app has a built-in proxy that can capture HTTP and HTTPS traffic. Here's how it works:
 
-1. The Postman app listens for any calls made by the client app or device.
+1. The Postman app listens for any calls made by a client app or device using the proxy.
 1. The Postman proxy captures the request and forwards it to the server.
 1. The server returns a response to the Postman proxy, where it can also be saved.
 1. The response is returned back to the client.
 
 [![postman capture proxy](https://assets.postman.com/postman-docs/proxymobile-aa.jpeg)](https://assets.postman.com/postman-docs/proxymobile-aa.jpeg)
 
-Similar to the [Interceptor Chrome extension](/docs/sending-requests/capturing-request-data/interceptor/), the Postman app proxy also intercepts and captures your requests. Additionally, it can capture responses and cookies.
+Similar to the [Interceptor Chrome extension](/docs/sending-requests/capturing-request-data/interceptor/), the Postman app proxy intercepts and captures your requests. Additionally, it can capture responses and cookies.
 
-After you start the Postman proxy, you can start a debug session, which is a time-bound session of traffic capture. You can start, pause, and stop a proxy debug session, then later start another one. Each debug session is logged in the **History** tab, and displays the total session time, and all traffic captured. You can also send requests and responses to a collection, and save cookies to the Postman cookie jar.
+After you start the Postman proxy, you can start a proxy debug session, which is a time-bound session of traffic capture. You can start, pause, and stop a proxy debug session, then later start another one. Each debug session is logged in the **History** tab, and displays the total session time, a traffic overview, and all traffic captured. You can also send requests and responses to a collection, and save cookies to the Postman cookie jar.
 
 ## Using the Postman proxy
 
 In the steps below, you will use the Postman app's proxy feature to inspect HTTP communication going to and from a phone. To get started, make sure your computer and phone are connected to the same local wireless network.
 
-<!--TODO:
-1 start the proxy
-2 start the capture
-3 connect your device, do stuff
-5 stop the capture. repeat, or stop the proxy
-6 examine the results
--->
-
 ### Step 1: Start the proxy
+
+<!--TODO: lede - explain the step -->
 
 1. Select the **Capture Requests** icon in the Postman footer.
 
-    <img src="https://assets.postman.com/postman-docs/postman-proxy-settings-button.jpg" alt="Capture requests and cookies icon" width="300px"/><!--TODO: replace-->
-<!--TODO: this opens a new session window -->
+    <img src="https://assets.postman.com/postman-docs/proxy-capture-requests-button.jpg" alt="Capture requests button" width="300px"/>
 1. On the **Capture Requests** window, select the **Via Proxy** tab.
+1. In the upper right, select **Enable Proxy**.
+1. Enter a port number. By default, it's set to port `5555`. Make a note of the port number you've used; you will use it later when configuring clients.
 1. Select **Enable Proxy**.
-1. Enter a port number. By default, it's set to port `5555`.
-1. Select **Enable Proxy**. This enables the proxy, but capture has not started yet.
 
-### Step 2: Start the proxy session
+The proxy is now running, but isn't capturing traffic yet, until you start a proxy debug session.
 
-<!--TODO:
-On the **Capture Requests** window:
+### Step 2: Start the proxy debug session
 
-1. Select **Save Responses for Requests** to also save each request's responses. They will be saved alongside the requests in the history and the selected collection.
+After the proxy is running, you can then start a proxy debug session, which is a time-bound session where captured traffic is saved in an entry in the **History** tab, and optionally into a collection. Before you start the session, you can select what traffic you want to go into it.
+
+> You can only have a single proxy or interceptor debug session running at the same time.
+
+1. Go to the **Via Proxy** tab of the **Capture Requests** window.
+
+1. Select **Save Responses for Requests** to save each request's responses. They will be saved alongside the captured requests.
 
     > In responses with a `content-type` containing images, audio, or video, content is intercepted but not captured. The only information captured is response headers, time taken, and the status code.
-* **Capture Cookies**
-* **Save requests to a collection**
-* **Configure Incoming Requests**
-  - URL must contain
-  - URL cannot contain
-  - Resources (JS, CSS, Image)
+1. Select **Capture Cookies** if you want to capture cookies in addition to requests during the debug session.
+1. Requests will be saved in a debug session in the **History** tab in the sidebar. Select **Save requests to a collection** and select a collection from the list to also save the requests there.
+1. If you save requests and responses to a collection, they are added chronologically by default. You can alternately group them in folders organized by domain name or endpoints. Under **Organize requests by**, select **Domain name**, **Endpoints**, or both. Your requests and responses are then organized in folders in the selected collection.
+
+1. Under **Configure Incoming Requests**, there are additional options you can use to limit the requests and responses captured:
+    - **URL must contain**: Only capture URLs containing the specified string or regular expression.
+    - **URL cannot contain**: Don't capture URLs containing the specified string or regular expression.
+    - **Methods**: Only capture the selected methods.
+    - **Resources**: exclude requests with image, JS, or CSS responses.
 1. Select **Start Capture**.
 
-Proxy debug session starts, but it won't be capturing anything until a device is pointed at the proxy. Go to step 3 to configure your phone to use the proxy.
+The proxy debug session is now started, but it won't be capturing anything yet until a device is configured with the proxy.
 
--->
+### Step 3: Configure the proxy on a client device
 
-1. For **Save requests to**, select **History** to store requests in the **History** sidebar panel. You can also select a collection from the list and save the requests there.
+1. Find the local IP address of the machine running the proxy:
 
-    <img alt="proxy settings modal" src="https://assets.postman.com/postman-docs/postman-capture-request-modal.jpg" width="350px"/>
+    * On macOS, the computer's IP address can be found in **System Preferences > Network**. Select a network interface, and the IP address of your system will be shown on the right:
 
-1. Select **Save responses** to also save each request's responses. They will be saved alongside the requests in the history or the selected collection.
+      <img alt="system preferences" src="https://assets.postman.com/postman-docs/osx-network-settings-v9-5.jpg" width="400px" />
 
-    > In responses with a `content-type` containing images, audio, or video, content is intercepted but not captured. The only information captured is response headers, time taken, and the status code.
+    * On Windows, select **Start > Settings > Network & internet > Wi-Fi** or **Ethernet**. Your IP address is listed under **Properties**.
 
-1. Select **Show additional filters** to see additional options you can use to limit the requests and responses captured:
+1. Open the wireless settings of your client device and update the configuration of the network connection to use a HTTP Proxy. For example, in iOS:
 
-    * Exclude requests with image, JS, or CSS responses.
-    * Only capture URLs containing a string or a regular expression.
-    * Not capture URLs containing a string or a regular expression.
-    * Only capture the methods specified in a comma-separated list.
+    1. Select **Settings > Wi-Fi**.
+    1. Select <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg" width="16px" style="vertical-align:middle;margin-bottom:5px"> next to a Wi-Fi connection.
+    1. Select **HTTP Proxy > Configure Proxy > Manual**.
+    1. Set **Server** and **Port** to the local IP address and proxy port.
+    1. Select **Save**.
 
-#### Grouping requests and responses
+1. Go to the Postman app, and open the **Proxy debug session** window. Open the device's web browser or application and you will start seeing HTTP traffic passing through the app or the browser.
 
-By default, requests and responses are saved chronologically. If you save them to a collection, you can also group them by domain name, endpoints, or both.
-
-1. For **Save requests to**, select a collection to store requests and responses.
-1. Under **Organize requests by**, select **Domain name**, **Endpoints**, or both. Your requests and responses are organized in folders in the selected collection.
-
-### Step 3: Configure the proxy on your mobile device
-
-1. Find your local IP address:
-
-* On macOS, the computer's IP address can be found in **System Preferences > Network**. The IP address of your system will be something like the example here: `192.168.0.101`.
-
-[![system preferences](https://assets.postman.com/postman-docs/osx-network-settings-aa.jpeg)](https://assets.postman.com/postman-docs/osx-network-settings-aa.jpeg)<!-- TODO: replace -->
-
-<!-- TODO: other OSes -->
-
-1. Open the wireless settings of your mobile device (an iPhone in this example) and update the configuration of the wireless connection to use HTTP Proxy.
-
-* Set the IP address to the IP you retrieved from your computer.
-* Set the port to the port you noted in Postman in *Step 1* above.
-
-<img src="https://assets.postman.com/postman-docs/ios-http-proxy-settings-aa.jpeg" alt="wireless settings on mobile device" width="350">
-
-Head back to the Postman app, and you will start seeing the network calls listed under the **History** tab of the sidebar or in the collection you specified. Open your device's web browser or your application and you will start seeing HTTP traffic passing through the app or the browser. <!-- TODO: this changes, it goes to the proxy debug session now -->
-
-<img src="https://assets.postman.com/postman-docs/postman-proxy-responses-collection.jpg" alt="requests under collection" width="350px"/><!--TODO: change -->
-
-#### Setting up a proxy on other devices
+#### Configuring a proxy on other devices
 
 The broader development community has published some useful tutorials for setting up a proxy server on various operating systems:
 
@@ -148,28 +130,50 @@ The broader development community has published some useful tutorials for settin
 * [macOS](https://support.apple.com/en-gb/guide/mac-help/mchlp2591/mac)
 * [Android](https://www.howtogeek.com/295048/how-to-configure-a-proxy-server-on-android/)
 
-### Step 4: Running the capture session
+### Step 4: Run the proxy debug session
+
+While your capture session is running, the **Proxy Debug Session** window will show captured traffic as you use the browser or apps on the client device.
+
+There are several controls you can use to limit, organize, and investigate traffic as it is captured:
+
+* The **Configure incoming requests** controls at the top of the window enable you to limit captured traffic. Select items from **Methods**, **Status Codes**, **Resources**, and **URL** to limit the traffic. These controls are similar to the ones you set initially in Step 2 above, but they limit what is being captured, instead of what is going through the proxy.
+* You can select or unselect **Save Responses for Requests** and **Capture Cookies** to toggle if responses or cookies are collected.
+* Select the **Requests** tab to view incoming requests and responses, or **Cookies** to see captured cookies.
+* Use the search box to look for specific requests.
+* Select **>** next to a request to expand it and see more details.
+* Select the URL in the **URL** column to open the request as a new API request in Postman.
+* Below the request list, there are controls to change the collection where the traffic is being sent, and if it should be grouped by domain name or endpoints.
+
+When you select one or more requests from the list, you can use the following controls:
+
+* **+ Add to collection** - adds the request to a specified collection.
+
+* <img alt="External link icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg" width="12px" style="vertical-align:middle;margin-bottom:5px"> - delete the collection.
+
+If you want to temporarily stop the capture session, click the
+  * pause/resume and stop buttons
+
+
+### Step 5: Stop the debug session and proxy
+
+After completing your debug session, select **Stop**. This will finish the debug session, and results will be saved in the **History**
 <!--TODO:
-* the limiting controls prevents the items from being captured, but they are going through the proxy still
-* clear requests
-* pause/resume/stop buttons
+
+you can stop the debug session, but then the proxy is still running
+you can then start another debug session if you want
+or you can close the proxy
 -->
 
-
-### Step 5: Stop the capture and proxy
-
-<!--TODO:
--->
-
-### Step 6: View the capture results
+### Step 6: View the proxy debug session results
 
 <!--TODO:
 * overview
-* rename/delete sessions
+* Items per page / Jump to
+* rename/delete sessions in left bar
 -->
 
-<!--
-Next steps
+## Next steps
 
+<!-- TODO
 [Capturing HTTPS traffic](#capturing-https-traffic)
 -->
