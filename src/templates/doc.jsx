@@ -12,6 +12,7 @@ import 'prismjs/themes/prism-tomorrow.css';
 import pose from '../assets/pose-learning-center.svg';
 
 const { v4: uuidv4 } = require('uuid');
+
 class GenerateDoc extends React.Component {
   constructor(props) {
     super(props);
@@ -25,28 +26,28 @@ class GenerateDoc extends React.Component {
     let { data } = this.state;
     const { html } = data.markdownRemark;
     let parser = new DOMParser();
-    let doc = parser.parseFromString(html, 'text/html');
-    console.log(doc)
-    let links = doc.querySelectorAll('img');
+    let htmlDocument = parser.parseFromString(html, 'text/html');
+    let links = htmlDocument.querySelectorAll('img');
     for (let i = 0; i < links.length; i++) {
       if( links[i].src === links[i].parentNode.href){
-        links[i].setAttribute('data-component', 'modal');
+        links[i].setAttribute('data-component', 'Modal');
         links[i].parentNode.href = "javascript:void(0)";
       }
     }
-    doc = doc.body.innerHTML
+    htmlDocument = htmlDocument.body.innerHTML
     this.setState({
-      doc
+      htmlDocument
     });
   }
 
   render() {
-    const { doc } = this.state;
+    const { htmlDocument } = this.state;
     return (
-      <span dangerouslySetInnerHTML={{ __html: doc }} />
+      <span dangerouslySetInnerHTML={{ __html: htmlDocument }} />
     );
   }
 }
+
 
 
 
