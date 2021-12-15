@@ -1,58 +1,54 @@
 /* Modal for Images */
 
-.modal-image {
+/* Link Wrapper to activate modal */
+.modal-link {
   cursor: pointer;
 }
+
+/* Modal Wrapper */
 .modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 999999999999; /* Sit on top */
-  justify-content: center;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  cursor: pointer;
-  
+  z-index: 214748; /* Sit on top */
+
   .modal-row {
     justify-content: center;
   }
+  
   .modal-dialog {
-    position: relative;
-    text-align: center;
-    top: 15%;
-    display: block;
-    
+    &.show {
+      opacity: 0.75;
+    }
     img {
       cursor: default;
     }
+    /* Modal - X button */
     & .modal-close-button {
-     display: flex;
-     justify-content: end;
-     display: -webkit-box;
-     display: -ms-flexbox;
-     -webkit-box-pack: flex-end;
-     -ms-flex-pack: flex-end;
-     justify-content: flex-end;
+      display: flex;
+      justify-content: end;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      -webkit-box-pack: flex-end;
+      -ms-flex-pack: flex-end;
+      justify-content: flex-end;
     }
+
     & .close {
-      line-height: 1.4;
+      line-height: 1.9;
       opacity: 1;
       color: #ffffff;
       font-weight: 400;
       text-shadow: none;
-      background-color: transparent;
-      border: none;
       margin-bottom:12px;
-
-      &:focus {
-        outline: none;
-    }
+      pointer-events: all;
+      &:hover {
+        color: #ff6b37;
+      }
+      & .close-icon {
+        font-size: 24px;
+      }
 
       & .close-label {
-        font-size: 0.55rem !important;
+        font-size: 0.75rem !important;
+        margin-right: 0.25rem;
         vertical-align: middle;
       }
     }

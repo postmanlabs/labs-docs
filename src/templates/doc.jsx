@@ -1,18 +1,18 @@
 /* eslint-disable react/no-danger */
 import React from 'react';
 import { graphql } from 'gatsby';
+import './doc.scss';
+import 'prismjs/themes/prism-tomorrow.css';
+import pose from '../assets/pose-learning-center.svg';
+
 import Layout from '../components/layout';
 import ContextualLinks from '../components/ContextualLinks/ContextualLinks';
 import EditDoc from '../components/Shared/EditDoc';
 import { leftNavItems } from '../components/LeftNav/LeftNavItems';
 import LeftNav from '../components/LeftNav/LeftNav';
 import SEO from '../components/seo';
-import './doc.scss';
-import 'prismjs/themes/prism-tomorrow.css';
-import pose from '../assets/pose-learning-center.svg';
-import { useModal } from '../components/Docs/Modal/useModal.js';
-// import { useTextBlocks } from '../components/Docs/TextBlocks/useTextBlocks';
 
+import { useModal } from '../components/Docs/Modal/useModal.js';
 const { v4: uuidv4 } = require('uuid');
 
 class CreateDoc extends React.Component {
@@ -25,27 +25,26 @@ class CreateDoc extends React.Component {
   }
 
   componentDidMount() {
-    let { data } = this.state;
-    const { html } = data.markdownRemark;
-    let parser = new DOMParser();
-    let htmlDocument = parser.parseFromString(html, 'text/html');
-    
-    console.log(htmlDocument)
-    /* Import JS scripts to render components on the doc page which returns htmlDocument /*
-    /* Enables functionality for images to display as modal on click */
-    useModal(htmlDocument);
-    /* Enables reusable pieces of text */
-    // useTextBlocks(htmlDocument);
+    const { data } = this.state;
+    const { html } = data;
+    // parses a string containing either HTML or XML, returning an HTMLDocument
+    const parser = new DOMParser();
+    const parsedHtml = parser.parseFromString(html, 'text/html');
+
+    /* import JS scripts from /components/docs to render custom components /*
+
+    /* enables functionality for images to display as modal on click */
+    useModal(parsedHtml);
 
     this.setState({
-      htmlDocument: htmlDocument.body.innerHTML
+      post: parsedHtml.body.innerHTML
     });
   }
 
   render() {
-    const { htmlDocument } = this.state;
+    const { post } = this.state;
     return (
-      <span dangerouslySetInnerHTML={{ __html: htmlDocument }} />
+      <span dangerouslySetInnerHTML={{ __html: post }} />
     );
   }
 }
@@ -70,7 +69,7 @@ const DocPage = ({ data }) => {
             <div className="row row-eq-height">
               <main className="col-sm-12 col-md-12 col-lg-9 offset-lg-0 col-xl-7 doc-page ml-xl-5">
                 <h1>{post.frontmatter.title}</h1>
-                <CreateDoc data={data}/>
+                <CreateDoc data={post}/>
               </main>
               <aside className="col-sm-12 col-md-12 col-lg-3 offset-lg-0 col-xl-3 offset-xl-1 right-column">
                 <hr className="d-block d-lg-none" />
@@ -110,4 +109,3 @@ export const query = graphql`
   }
 `;
 export default DocPage;
-/* eslint-enable */
