@@ -12,6 +12,43 @@ import 'prismjs/themes/prism-tomorrow.css';
 import pose from '../assets/pose-learning-center.svg';
 
 const { v4: uuidv4 } = require('uuid');
+class GenerateDoc extends React.Component {
+  constructor(props) {
+    super(props);
+    const { data } = this.props;
+    this.state = {
+      data
+    };
+  }
+
+  componentDidMount() {
+    let { data } = this.state;
+    const { html } = data.markdownRemark;
+    let parser = new DOMParser();
+    let doc = parser.parseFromString(html, 'text/html');
+    console.log(doc)
+    let links = doc.querySelectorAll('img');
+    for (let i = 0; i < links.length; i++) {
+      if( links[i].src === links[i].parentNode.href){
+        links[i].setAttribute('data-component', 'modal');
+        links[i].parentNode.href = "javascript:void(0)";
+      }
+    }
+    doc = doc.body.innerHTML
+    this.setState({
+      doc
+    });
+  }
+
+  render() {
+    const { doc } = this.state;
+    return (
+      <span dangerouslySetInnerHTML={{ __html: doc }} />
+    );
+  }
+}
+
+
 
 const DocPage = ({ data }) => {
   const post = data.markdownRemark;
@@ -32,7 +69,7 @@ const DocPage = ({ data }) => {
             <div className="row row-eq-height">
               <main className="col-sm-12 col-md-12 col-lg-9 offset-lg-0 col-xl-7 doc-page ml-xl-5">
                 <h1>{post.frontmatter.title}</h1>
-                <span dangerouslySetInnerHTML={{ __html: post.html }} />
+                <GenerateDoc data={data}/>
               </main>
               <aside className="col-sm-12 col-md-12 col-lg-3 offset-lg-0 col-xl-3 offset-xl-1 right-column">
                 <hr className="d-block d-lg-none" />
