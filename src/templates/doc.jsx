@@ -23,21 +23,72 @@ class GenerateDoc extends React.Component {
   }
 
   componentDidMount() {
+
     let { data } = this.state;
     const { html } = data.markdownRemark;
     let parser = new DOMParser();
     let htmlDocument = parser.parseFromString(html, 'text/html');
     let links = htmlDocument.querySelectorAll('img');
+    const create_id = `img-${Math.random().toString(36).slice(2)}`
     for (let i = 0; i < links.length; i++) {
       if( links[i].src === links[i].parentNode.href){
-        links[i].setAttribute('data-component', 'Modal');
         links[i].parentNode.href = "javascript:void(0)";
-      }
+        links[i].outerHTML = (
+          `<>
+          <a data-target=#${create_id} class="modal-image" data-toggle="modal">
+            <img src=${links[i].src}  />
+          </a>
+          <span id=${create_id} class="modal fade modal-backdrop" tabIndex="-1" role="dialog" aria-labelledby={#${create_id}} aria-hidden="true">
+            <span class="container modal-dialog modal-dialog-centered" role="document">
+              <span class="modal-row row">
+                <span class="col-8">
+                  <span class="modal-close-button">
+                    <button
+                      type="button"
+                      class="close"
+                      data-dismiss="modal"
+                      aria-label="Close"
+                    >
+                      <span
+                        class='close-icon'
+                        aria-hidden="true"
+                      >
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          viewBox="0 0 16 16"
+                        >
+                          <title>e-remove</title>
+                          <g
+                            strokeWidth="1"
+                            fill="#212121"
+                            stroke="#212121"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                          >
+                            <line x1="13.5" y1="2.5" x2="2.5" y2="13.5" />
+                            <line x1="2.5" y1="2.5" x2="13.5" y2="13.5" />
+                          </g>
+                        </svg>
+                      </span>
+                    </button>
+                  </span>
+                  <img src=${links[i].src}  />
+                </span>
+              </span>
+            </span>
+          </span>
+        </>`
+        )
+      } 
     }
-    htmlDocument = htmlDocument.body.innerHTML
+    
+
     this.setState({
-      htmlDocument
+      htmlDocument: htmlDocument.body.innerHTML
     });
+
   }
 
   render() {
