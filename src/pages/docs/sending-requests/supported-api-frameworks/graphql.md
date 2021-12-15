@@ -100,7 +100,3 @@ Setting the `Content-type` to `application/graphql`
 ## Importing the query as a cURL request
 
 POST
-
-## Next steps
-
-Try sending GraphQL queries in Postman with this [collection](https://www.postman.com/postman/workspace/postman-team-collections/collection/1559645-c0dd3eb3-5258-4ddd-a6e4-2780c5212e33?ctx=documentation).
