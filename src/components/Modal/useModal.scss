@@ -1,0 +1,60 @@
+/* Modal for Images */
+
+.modal-image {
+  cursor: pointer;
+}
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 999999999999; /* Sit on top */
+  justify-content: center;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  cursor: pointer;
+  
+  .modal-row {
+    justify-content: center;
+  }
+  .modal-dialog {
+    position: relative;
+    text-align: center;
+    top: 15%;
+    display: block;
+    
+    img {
+      cursor: default;
+    }
+    & .modal-close-button {
+     display: flex;
+     justify-content: end;
+     display: -webkit-box;
+     display: -ms-flexbox;
+     -webkit-box-pack: flex-end;
+     -ms-flex-pack: flex-end;
+     justify-content: flex-end;
+    }
+    & .close {
+      line-height: 1.4;
+      opacity: 1;
+      color: #ffffff;
+      font-weight: 400;
+      text-shadow: none;
+      background-color: transparent;
+      border: none;
+      margin-bottom:12px;
+
+      &:focus {
+        outline: none;
+    }
+
+      & .close-label {
+        font-size: 0.55rem !important;
+        vertical-align: middle;
+      }
+    }
+  }
+}
