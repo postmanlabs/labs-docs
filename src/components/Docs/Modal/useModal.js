@@ -2,8 +2,8 @@ import './useModal.scss'
 
 /* Used on doc.jsx */
 
-export function useModal(htmlDocument) {
-  let links = htmlDocument.querySelectorAll('img');
+export function useModal(parsedHtml) {
+  let links = parsedHtml.querySelectorAll('img');
   for (let i = 0; i < links.length; i++) {
     /* Assign a unique ID for each modal */
     const create_id = `docs-${Math.random().toString(36).slice(8)}`
