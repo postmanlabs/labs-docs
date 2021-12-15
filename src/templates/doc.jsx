@@ -10,7 +10,9 @@ import SEO from '../components/seo';
 import './doc.scss';
 import 'prismjs/themes/prism-tomorrow.css';
 import pose from '../assets/pose-learning-center.svg';
-import { useModal } from '../components/Modal/useModal.js';
+import { useModal } from '../components/Docs/Modal/useModal.js';
+// import { useTextBlocks } from '../components/Docs/TextBlocks/useTextBlocks';
+
 const { v4: uuidv4 } = require('uuid');
 
 class CreateDoc extends React.Component {
@@ -27,9 +29,13 @@ class CreateDoc extends React.Component {
     const { html } = data.markdownRemark;
     let parser = new DOMParser();
     let htmlDocument = parser.parseFromString(html, 'text/html');
-    /* Import JS scripts to render components on the doc page which return htmlDocument /*
+    
+    console.log(htmlDocument)
+    /* Import JS scripts to render components on the doc page which returns htmlDocument /*
     /* Enables functionality for images to display as modal on click */
     useModal(htmlDocument);
+    /* Enables reusable pieces of text */
+    // useTextBlocks(htmlDocument);
 
     this.setState({
       htmlDocument: htmlDocument.body.innerHTML
@@ -104,4 +110,4 @@ export const query = graphql`
   }
 `;
 export default DocPage;
-/* eslint-enaable */
+/* eslint-enable */
