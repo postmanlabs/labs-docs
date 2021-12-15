@@ -37,7 +37,7 @@ As the name suggests, `postman.setNextRequest()` enables you to specify which re
 
 ## Setting the next request
 
-To specify the request to run next, add the following code to the **Tests** tab of a request. For `request_name`, use the name of the request you want to run next.
+To specify the request to run next, add the following code on the **Tests** tab. For `request_name`, use the name of the request you want to run next.
 
 ```js
 postman.setNextRequest("request_name");
@@ -55,7 +55,7 @@ If you pass the name of the current request to the `setNextRequest` function, Po
 
 ## Stopping a workflow
 
-To stop a workflow, add the following code to the **Tests** tab of a request.
+To stop a workflow, add the following code on the **Tests** tab.
 
 ```js
 postman.setNextRequest(null);
@@ -65,18 +65,34 @@ The collection run will stop after Postman completes the current request.
 
 ## Tips for building request workflows
 
-Some salient points about `postman.setNextRequest()`:
+Keep the following tips in mind when using the `postman.setNextRequest()` function.
 
-* Specify the name or ID of the subsequent request and the collection runner will take care of the rest.
-* It can be used in the pre-request or the test script. If there's more than one assignment, the last set value takes precedence.
-* If `postman.setNextRequest()` is absent in a request, the collection runner defaults to linear execution and moves to the next request.
-* Note that the ID shown in the **Request details** pane of the Postman UI is the user ID, then the request ID. Omit the first eight digits and dash to use this for the request ID in `postman.setNextRequest()`.
+### setNextRequest() only works in Collection Runner
 
-  <img src="https://assets.postman.com/postman-docs/setnextrequest-request-id.jpg" alt="request ID" width="350px">
+The `postman.setNextRequest()` function has no effect when you run a request using the **Send** button and is only used when you run a collection.
 
-Remember these two facts as you use this workflow:
+### Use setNextRequest() in pre-request or test scripts
 
-* `postman.setNextRequest()` is always executed at the end of the current request. This means that if you put this function before other code blocks anywhere in pre-request or test script, these blocks will still execute.
-* `postman.setNextRequest()` has a scope, which is the source of your collection run. If you run a collection, you can jump to any request in the collection (even requests inside folders, using the same syntax). However, if you run a folder, the scope of `postman.setNextRequest()` is limited to that folder. So you can jump to any request in this folder, but not ones that are outside of the folder. It includes requests inside other folders, and also root-level requests in the collection. To read more about [running collections or folders](/docs/running-collections/intro-to-collection-runs/).
+You can use `postman.setNextRequest()` in the pre-request script or the test script. If more than one valued is assigned, the last value that is set takes precedence.
+
+### Specify the next request using the request ID
+
+Instead of specifying the name of the request to run next, you can provide the request ID. To find the ID, open a request and select **Info** <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg" width="16px" style="vertical-align:middle;margin-bottom:5px"> in the context bar at right.
+
+Note that the ID shown is the user ID followed by the request ID. Omit the first eight digits and dash to get the request ID. You can also get the request ID using the `pm.info.requestId` function (see [Scripting Workflows](/docs/writing-scripts/script-references/postman-sandbox-api-reference/#scripting-workflows)).
+
+<img src="https://assets.postman.com/postman-docs/setnextrequest-request-id.jpg" alt="request ID" width="350px">
+
+### setNextRequest() always executes last
+
+`postman.setNextRequest()` is always executed at the end of the current request. This means that if you put this function before other code blocks anywhere in pre-request or test script, these blocks will still execute.
+
+### setNextRequest() scope is limited to the collection
+
+`postman.setNextRequest()` has a scope, which is the source of your collection run. If you run a collection, you can jump to any request in the collection (even requests inside folders, using the same syntax).
+
+However, if you run a folder, the scope of `postman.setNextRequest()` is limited to that folder. So you can jump to any request in this folder, but not ones that are outside of the folder. It includes requests inside other folders, and also root-level requests in the collection. To read more about [running collections or folders](/docs/running-collections/intro-to-collection-runs/).
+
+## Next Steps
 
 To learn more, see [Scripting in Postman](/docs/writing-scripts/intro-to-scripts/)
