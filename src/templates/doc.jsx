@@ -27,8 +27,8 @@ class CreateDoc extends React.Component {
     const { html } = data.markdownRemark;
     let parser = new DOMParser();
     let htmlDocument = parser.parseFromString(html, 'text/html');
-    /* Import JS scripts to render a component on the doc page /*
-    /* Enables Images to Use Modal (returns htmlDocument) */
+    /* Import JS scripts to render components on the doc page which return htmlDocument /*
+    /* Enables functionality for images to display as modal on click */
     useModal(htmlDocument);
 
     this.setState({
