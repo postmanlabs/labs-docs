@@ -8,7 +8,7 @@ export function useModal(parsedHtml) {
     const create_id = `docs-${Math.random().toString(36).slice(8)}`
     if (images[i].src === images[i].parentNode.href || !images[i].attributes.width) {
       images[i].parentNode.href = "javascript:void(0)";
-      images[i].outerHTML = Modal(create_id, images, i );
+      images[i].outerHTML = Modal(create_id, images, i);
     }
   }
 }
@@ -19,7 +19,7 @@ const Modal = (create_id, images, i) => {
     <a data-target=#${create_id} class="modal-link" data-toggle="modal">
       <img src=${images[i].src || null} alt=${images[i].alt || null}></img>
     </a>
-    <div id=${create_id} class="modal fade modal-link" tab-index="-1" role="dialog" aria-labelledby=${images[i].alt || null } aria-hidden="true">
+    <div id=${create_id} class="modal fade modal-link" tab-index="-1" role="dialog" aria-labelledby=${images[i].alt || null} aria-hidden="true">
       <div class="container modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content row">
           <div class="col-12">
