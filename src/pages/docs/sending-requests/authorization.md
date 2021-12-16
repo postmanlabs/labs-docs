@@ -92,7 +92,7 @@ When you select a type from the **Type** dropdown list, Postman will indicate wh
 
 Your auth data will appear in the relevant parts of the request, for example in the __Headers__ tab. To show headers added automatically, select the __hidden__ button.
 
-<img alt="Hidden Headers" data-component="modal" src="https://assets.postman.com/postman-docs/hidden-headers-v9.jpg" width="400px"/>
+<img alt="Hidden Headers" src="https://assets.postman.com/postman-docs/hidden-headers-v9.jpg" width="400px"/>
 
 Hover over a header to see where it was added. To change an auth header, navigate back to the __Authorization__ tab and update your configuration.
 

@@ -1,9 +1,6 @@
 /* eslint-disable react/no-danger */
 import React from 'react';
 import { graphql } from 'gatsby';
-import './doc.scss';
-import 'prismjs/themes/prism-tomorrow.css';
-import pose from '../assets/pose-learning-center.svg';
 
 import Layout from '../components/layout';
 import ContextualLinks from '../components/ContextualLinks/ContextualLinks';
@@ -14,6 +11,10 @@ import SEO from '../components/seo';
 
 import { useModal } from '../components/Docs/Modal/useModal.js';
 const { v4: uuidv4 } = require('uuid');
+
+import './doc.scss';
+import 'prismjs/themes/prism-tomorrow.css';
+import pose from '../assets/pose-learning-center.svg';
 
 class CreateDoc extends React.Component {
   constructor(props) {
