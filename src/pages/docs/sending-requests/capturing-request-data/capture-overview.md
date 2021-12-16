@@ -30,16 +30,8 @@ warning: false
 
 ---
 
-<!--TODO: this lede is the same as capturing-http-requests and has to be rewritten to cover all three cases -->
-If you are using APIs to build client-side applications, such as mobile apps, websites, or desktop applications, you may want to see the actual HTTP and HTTPS request traffic that's being sent and received in the application. Sometimes you might discover APIs that aren't even documented. You can capture this network traffic using the proxy that's built into the Postman app.
+<!--TODO: this lede is the same as capturing-http-requests and has to be rewritten to cover all three cases
 
-A proxy refers to being a middle layer between the client and the server. When Postman acts as a proxy, traffic from a client first goes to Postman, which than forwards it to the server.
-
-An intercept is a similar concept where Postman intercepts the traffic between the client and the server, using a Chrome browser plugin.
-
-Capturing traffic is when Postman actually starts to save traffic into Postman. You can then use filters to define what to capture, view requests in the history, and save traffic to collections.
-
-<!-- TODO
 both proxy and interceptor use the concept of capture sessions
 Difference between proxying/intercepting vs traffic capturing
 	"With this release, we want to separate these two into different actions. I.e ‘Starting or stopping proxy/ interceptor' is different from 'starting/ stopping the traffic capturing."
@@ -49,19 +41,30 @@ there needs to be a solid explanation of the difference between proxy and interc
 cookies can also be captured in either one now.
 -->
 
-## About the Postman proxy
+Capturing HTTP traffic is an important tool for API development and testing. When request capturing is enabled in Postman, you can see the requests passing between client applications and your API and save them to a collection. You can then use the saved request information to understand how your API is behaving and to assist with debugging. (You might even discover undocumented APIs!)
 
-[Capturing HTTP requests](/docs/sending-requests/capturing-request-data/capturing-http-requests/)
-[Capturing HTTPS traffic](/docs/sending-requests/capturing-request-data/capturing-https-traffic/)
+Postman Proxy and Postman Interceptor provide two ways to capture HTTP and HTTPS traffic, as well as cookies. To capture traffic, first start the proxy or interceptor, and then begin a capture session. A session represents a specific time frame during which you want to capture traffic (for example, while a client application is sending a series of requests that you want to observe or debug).
 
-## About Postman Interceptor
+After you begin a capture session, you can freely pause or resume capturing, and clear any captured traffic, without stopping the proxy or interceptor. This helps in debugging, as you can save just the relevant data to your collection. In addition, you can use Postman's search and filtering capabilities to narrow down the requests you see based on the criteria you choose.
 
-[Postman Interceptor](/docs/sending-requests/capturing-request-data/interceptor/)
+## Using Postman Proxy
 
-## About custom proxies
+A proxy is an intermediary server that sits between a client application (like a mobile app or a web browser) and the destination server that the client is ultimately communicating with (like an API). When Postman Proxy is enabled and a client has been configured to use the proxy, a request from the client first goes to Postman, which then forwards the request on to the destination server.
 
-Postman's native apps for Mac, Windows, and Linux support configuring proxies. You can either specify to use a **custom proxy** or to use the **system proxy** defined in the operating system.
+If you start a capture session while the proxy is enabled, Postman can capture any HTTP or HTTPS traffic passing through the proxy. You can then search or filter the requests, or save them to a collection. You can also capture and save cookies, which can be used when making future requests.
 
-Use the **custom proxy** if all of your applications need to use the same proxy. Turn **custom proxy** on if you want to direct the requests from Postman go through a custom proxy server. Turning it off will direct the requests to not use the proxy server.
+Learn more about [capturing HTTP requests](/docs/sending-requests/capturing-request-data/capturing-http-requests/) and [capturing HTTPS traffic](/docs/sending-requests/capturing-request-data/capturing-https-traffic/).
 
-[Using a custom proxy](/docs/sending-requests/capturing-request-data/proxy/)
+## Using Postman Interceptor
+
+Postman Interceptor is similar to Postman Proxy in that it can capture requests sent between a client and a server. However, Postman Interceptor uses a Chrome plug-in rather than Postman's built-in proxy. With Postman Interceptor, you can capture HTTP and HTTP requests sent from a Google Chrome browser. You can also capture cookies from a server for use in your requests.
+
+Learn more about [using Postman Interceptor](/docs/sending-requests/capturing-request-data/interceptor/).
+
+## Using a custom proxy
+
+Postman's native apps for Mac, Windows, and Linux support configuring proxies. You can either use a **custom proxy** or the **system proxy** defined in the operating system.
+
+Use the **custom proxy** if all of your applications need to use the same proxy. Turn **custom proxy** on if you want to direct the requests from Postman through the custom proxy server. Turning it off will direct the requests to not use the proxy server.
+
+Learn more about [using a custom proxy](/docs/sending-requests/capturing-request-data/proxy/).
