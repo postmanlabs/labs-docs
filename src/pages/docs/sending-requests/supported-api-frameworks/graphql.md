@@ -2,6 +2,7 @@
 title: "Querying with GraphQL"
 order: 37
 page_id: "graphql"
+updated: 2021-12-16
 contextual_links:
   - type: section
     name: "Prerequisites"
