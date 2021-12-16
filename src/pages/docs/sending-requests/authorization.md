@@ -82,6 +82,7 @@ You can pass auth details along with any request you send in Postman. Auth data 
 * [Next steps](#next-steps)
 
 ## Specifying authorization details
+
 With a request open in Postman, use the __Authorization__ tab to select an auth type, then complete the relevant details for your selected type. The correct data values will be determined by your API at the server side. If you're using a third party API, refer to the provider's documentation for any required auth details.
 
 ![Authorization tab](https://assets.postman.com/postman-docs/authorization-tab-v9.jpg)
