@@ -2,12 +2,11 @@ import './useModal.scss'
 
 /* Used on doc.jsx */
 export function useModal(parsedHtml) {
-  let images = parsedHtml.querySelectorAll("img");
+  let images = parsedHtml.querySelectorAll('img');
   for (let i = 0; i < images.length; i++) {
     /* Assign a unique ID for each modal */
     const create_id = `docs-${Math.random().toString(36).slice(8)}`
-    if (images[i].src === images[i].parentNode.href && !images[i].attributes.width) {
-      /* Disable <a> href functionality from markdown */
+    if (images[i].src === images[i].parentNode.href || !images[i].attributes.width) {
       images[i].parentNode.href = "javascript:void(0)";
       images[i].outerHTML = Modal(create_id, images, i );
     }
