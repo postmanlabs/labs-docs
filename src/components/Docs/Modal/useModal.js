@@ -19,7 +19,7 @@ const Modal = (create_id, images, i) => {
     <a data-target=#${create_id} class="modal-link" data-toggle="modal">
       <img src=${images[i].src || null} alt=${images[i].alt || null}></img>
     </a>
-    <div id=${create_id} class="modal fade" tabIndex="-1" role="dialog" aria-labelledby=${images[i].alt || null } aria-hidden="true">
+    <div id=${create_id} class="modal fade modal-link" tab-index="-1" role="dialog" aria-labelledby=${images[i].alt || null } aria-hidden="true">
       <div class="container modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content row">
           <div class="col-12">
@@ -42,11 +42,11 @@ const Modal = (create_id, images, i) => {
                   >
                     <title class="close-label">e-remove</title>
                     <g
-                      strokeWidth="1"
+                      stroke-width="1"
                       fill="#212121"
                       stroke="#212121"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
                     >
                       <line x1="13.5" y1="2.5" x2="2.5" y2="13.5"></line>
                       <line x1="2.5" y1="2.5" x2="13.5" y2="13.5"></line>

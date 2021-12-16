@@ -1,11 +1,6 @@
-/* Modal for Images */
-
-/* Link Wrapper to activate modal */
 .modal-link {
   cursor: pointer;
 }
-
-/* Modal Wrapper */
 .modal {
   z-index: 214748;
   background-color: rgba(0, 0, 0, 0.5) !important;
@@ -19,41 +14,45 @@
   bottom: 0;
   width: 100%; /* Full width */
   height: 100%; /* Full height */
-  
+
+  &.show {
+    cursor: default;
+  }
+
   .modal-dialog {
     cursor: pointer;
 
     .modal-content {
       justify-content: center;
 
-    img {
-      cursor: pointer;
-    }
-
-    & .modal-close-button {
-      display: flex;
-      justify-content: end;
-      display: -webkit-box;
-      display: -ms-flexbox;
-      -webkit-box-pack: flex-end;
-      -ms-flex-pack: flex-end;
-      justify-content: flex-end;
-    }
-
-    & .close {
-      line-height: 1.9;
-      opacity: 1;
-      color: #ffffff;
-      font-weight: 400;
-      text-shadow: none;
-      margin-bottom:12px;
-      pointer-events: all;
-      &:hover {
-        color: #ff6b37;
+      img {
+        cursor: pointer;
       }
-      & .close-icon {
-        font-size: 24px;
+
+      & .modal-close-button {
+        display: flex;
+        justify-content: end;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        -webkit-box-pack: flex-end;
+        -ms-flex-pack: flex-end;
+        justify-content: flex-end;
       }
+
+      & .close {
+        line-height: 1.9;
+        opacity: 1;
+        color: #ffffff;
+        font-weight: 400;
+        text-shadow: none;
+        margin-bottom: 12px;
+        pointer-events: all;
+        &:hover {
+          color: #ff6b37;
+        }
+        & .close-icon {
+          font-size: 24px;
+        }
 
         & .close-label {
           font-size: 0.75rem !important;
