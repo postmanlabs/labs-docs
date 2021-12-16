@@ -21,9 +21,9 @@ const Modal = (create_id, images, i) => {
     <a data-target=#${create_id} class="modal-link" data-toggle="modal">
       <img src=${images[i].src || null} alt=${images[i].alt || null} />
     </a>
-    <div id=${create_id} class="modal" tabIndex="-1" role="dialog" aria-labelledby=${images[i].alt || null } aria-hidden="true">
+    <div id=${create_id} class="modal fade" tabIndex="-1" role="dialog" aria-labelledby=${images[i].alt || null } aria-hidden="true">
       <div class="container modal-dialog modal-dialog-centered" role="document">
-        <div class="modal-row row">
+        <div class="modal-content row">
           <div class="col-12">
             <span class="modal-close-button">
               <button
@@ -57,7 +57,7 @@ const Modal = (create_id, images, i) => {
                 </span>
               </button>
             </span>
-            <img className="modal-image img-fluid" src=${images[i].src || null}  alt=${images[i].alt || null}/>
+            <img src=${images[i].src || null}  alt=${images[i].alt || null}/>
           </div>
         </div>
       </div>

@@ -8,19 +8,21 @@
 /* Modal Wrapper */
 .modal {
   z-index: 214748; /* Sit on top */
-
-  .modal-row {
-    justify-content: center;
-  }
+  background-color: rgba(0, 0, 0, 0.5) !important;
   
   .modal-dialog {
+
+    .modal-content {
+      justify-content: center;
+    }
+
     &.show {
       opacity: 0.75;
     }
     img {
       cursor: default;
     }
-    /* Modal - X button */
+
     & .modal-close-button {
       display: flex;
       justify-content: end;
