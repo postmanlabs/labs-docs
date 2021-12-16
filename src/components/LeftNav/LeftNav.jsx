@@ -84,7 +84,7 @@ class LeftNav extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      links: props,
+      props,
       runtime: true
     }
   }
@@ -95,9 +95,10 @@ class LeftNav extends React.Component {
     })
   }
   render() {
-    const { links, runtime } = this.state
+    const { props, runtime } = this.state;
+    const { leftNavItems = [] } = props;
     return (
-      links.LeftNavItems.map((item) => renderTwoLevelList(item, runtime))
+      leftNavItems.map((item) => renderTwoLevelList(item, runtime))
     )
   }
 }
