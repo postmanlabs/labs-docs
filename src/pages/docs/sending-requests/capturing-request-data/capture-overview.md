@@ -1,6 +1,7 @@
 ---
 title: "Capturing request data overview"
 page_id: "capturing_overview"
+updated: 2022-01-05
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -29,17 +30,6 @@ contextual_links:
 warning: false
 
 ---
-
-<!--TODO: this lede is the same as capturing-http-requests and has to be rewritten to cover all three cases
-
-both proxy and interceptor use the concept of capture sessions
-Difference between proxying/intercepting vs traffic capturing
-	"With this release, we want to separate these two into different actions. I.e ‘Starting or stopping proxy/ interceptor' is different from 'starting/ stopping the traffic capturing."
-
-there needs to be a solid explanation of the difference between proxy and interceptor and why you would use each. we might need to punt on this for 12/20 and work on it later, or maybe marketing site has something to grab?
-
-cookies can also be captured in either one now.
--->
 
 Capturing HTTP traffic is an important tool for API development and testing. When request capturing is enabled in Postman, you can see the requests passing between client applications and your API and save them to a collection. You can then use the saved request information to understand how your API is behaving and to assist with debugging. (You might even discover undocumented APIs!)
 
