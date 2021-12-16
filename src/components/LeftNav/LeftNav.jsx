@@ -8,7 +8,7 @@ const sectionHandler = (e) => {
   document.location.href = e.target.getAttribute('data-section');
 };
 
-const renderTwoLevelList = (item, runtime, ) => {
+const renderTwoLevelList = (item, runtime,) => {
   const active = runtime ? document.location.pathname.match(item.parentSlug) : '';
   return (
     <ul key={uuidv4()}>
@@ -97,9 +97,8 @@ class LeftNav extends React.Component {
   render() {
     const { links, runtime } = this.state
     console.log(links)
-    const hello = links.LeftNavItems.map((item) => renderTwoLevelList(item, runtime))
     return (
-      (hello)
+      links.LeftNavItems.map((item) => renderTwoLevelList(item, runtime))
     )
   }
 }
