@@ -21,6 +21,7 @@ const renderTwoLevelList = (item, runtime,) => {
             <div className="col caret-sibling first-parent">
               <button
                 type="button"
+                data-click={item.name}
                 data-section={item.url}
                 onClick={sectionHandler}
               >
@@ -34,7 +35,7 @@ const renderTwoLevelList = (item, runtime,) => {
             {item.subMenuItems1.map(
               (sItem) => (sItem.url && (
                 <li key={uuidv4()} className={`child ${window.location.pathname === sItem.url ? 'currentUrl' : ''}`}>
-                  <Link to={sItem.url}>{sItem.name}</Link>
+                  <Link data-click={sItem.name} to={sItem.url}>{sItem.name}</Link>
                 </li>
               )) || (
                   <li
@@ -48,7 +49,8 @@ const renderTwoLevelList = (item, runtime,) => {
                         </div>
                         <div className="col caret-sibling second-parent">
                           <button
-                            type="button"
+                          type="button"
+                            data-click= {sItem.name}
                             data-section={sItem.slug}
                             onClick={sectionHandler}
                           >
@@ -64,7 +66,7 @@ const renderTwoLevelList = (item, runtime,) => {
                           {sItem.subMenuItems2.map(
                             (ssItem) => ssItem.url && (
                               <li key={uuidv4()} className={`child ${document.location.pathname === ssItem.url ? 'currentUrl' : ''}`}>
-                                <Link to={ssItem.url} className="ssItem second-child">{ssItem.name}</Link>
+                                <Link to={ssItem.url} data-click={sItem.name} className="ssItem second-child">{ssItem.name}</Link>
                               </li>
                             ),
                           )}
