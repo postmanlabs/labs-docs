@@ -96,7 +96,6 @@ class LeftNav extends React.Component {
   }
   render() {
     const { links, runtime } = this.state
-    console.log(links)
     return (
       links.LeftNavItems.map((item) => renderTwoLevelList(item, runtime))
     )

@@ -8,7 +8,6 @@ import $ from 'jquery';
 import 'jquery.scrollto';
 
 export const onClientEntry = () => {
-  console.log(!window.location.hash)
   if (!window.location.hash) {
     window.scrollTo(0, 0);
   } else {
