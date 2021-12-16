@@ -34,7 +34,7 @@ warning: false
 
 ---
 
-Postman can handle any calls sent over HTTP. This means that Postman can make HTTP calls using GraphQL, an open-source data query and manipulation language for APIs, in addition to REST, [SOAP](/docs/sending-requests/supported-api-frameworks/making-soap-requests/), and [WebSocket](/docs/sending-requests/supported-api-frameworks/websocket/) requests.
+Postman can make HTTP calls using GraphQL, an open-source data query and manipulation language for APIs, in addition to REST.
 
 There are a few ways for you to author and send a GraphQL query using Postman:
 
@@ -42,8 +42,6 @@ There are a few ways for you to author and send a GraphQL query using Postman:
 * [Using JSON in the request body](#using-json-in-the-request-body)
 * [Using a GraphQL content type header](#using-a-graphql-content-type-header)
 * [Importing the query as a cURL request](#importing-the-query-as-a-curl-request)
-
-Postman's built-in support for GraphQL is sufficient for most use-cases.
 
 ## Built-in support for GraphQL
 
@@ -69,14 +67,14 @@ Postman has built-in support for [sending GraphQL queries in the request body](#
 
 ### Importing GraphQL schemas
 
-To enable autocompletion, you need to add a GraphQL schema under the **APIs** tab, and then select the schema while typing your query. To [create or import a GraphQL schema](/docs/designing-and-developing-your-api/the-api-workflow/) into Postman, complete the following steps.
+To enable autocompletion, add a GraphQL schema under the **APIs** tab, and then select the schema while typing your query. To [create or import a GraphQL schema](/docs/designing-and-developing-your-api/the-api-workflow/) into Postman:
 
-1. Under the **APIs** tab, click **+ New API**.
+1. Under the **APIs** tab, select **+ New API**.
 1. Enter a name and version for your API.
 1. Choose **GraphQL** from the **Schema type** dropdown list.
 1. Choose either **JSON** or **GraphQL SDL** from the **Schema Format** dropdown list.
     > You can optionally select the **Import** tab to import an API specification directly from either a local file or a GitHub or Bitbucket repo. If you don't import a schema, Postman will populate your API with a sample specification you can edit at any time.
-1. Click **Create API**.
+1. Select **Create API**.
     <img src="https://assets.postman.com/postman-docs/graphql-create-schema.jpg" alt="Create a new API" width="500px"/>
 1. Open the new API's version page and navigate to the **Definition** tab. Type or paste your GraphQL schema in the editor.
 
@@ -86,7 +84,7 @@ To enable autocompletion, you need to add a GraphQL schema under the **APIs** ta
 
 Once you create or import a GraphQL schema as described above, you can enable autocompletion within the **GraphQL** query editor.
 
-1. Return to your **GraphQL** body. Select your schema from the dropdown list. You may need to refresh by clicking on the <img alt="Refresh icon" src="https://assets.postman.com/postman-docs/icon-refresh-v9-5.jpg" width="14px" style="vertical-align:middle;margin-bottom:5px"> refresh icon.
+1. Return to your **GraphQL** body. Select your schema from the dropdown list. You may need to refresh by selecting the <img alt="Refresh icon" src="https://assets.postman.com/postman-docs/icon-refresh-v9-5.jpg" width="14px" style="vertical-align:middle;margin-bottom:5px"> refresh icon.
 1. Begin editing your query. Postman will now suggest autocomplete options from the data within your new GraphQL schema.
 
 ![GraphQL autocomplete](https://assets.postman.com/postman-docs/graphql-autocomplete.jpg)
