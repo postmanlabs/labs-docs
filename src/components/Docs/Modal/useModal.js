@@ -2,11 +2,10 @@ import './useModal.scss'
 
 /* Used on doc.jsx */
 export function useModal(parsedHtml) {
-  let images = parsedHtml.querySelectorAll('img');
+  let images = parsedHtml.querySelectorAll("img");
   for (let i = 0; i < images.length; i++) {
     /* Assign a unique ID for each modal */
     const create_id = `docs-${Math.random().toString(36).slice(8)}`
-    console.log(!images[i].attributes.width)
     if (images[i].src === images[i].parentNode.href && !images[i].attributes.width) {
       /* Disable <a> href functionality from markdown */
       images[i].parentNode.href = "javascript:void(0)";
@@ -19,7 +18,7 @@ const Modal = (create_id, images, i) => {
   return (
     `
     <a data-target=#${create_id} class="modal-link" data-toggle="modal">
-      <img src=${images[i].src || null} alt=${images[i].alt || null} />
+      <img src=${images[i].src || null} alt=${images[i].alt || null}></img>
     </a>
     <div id=${create_id} class="modal fade" tabIndex="-1" role="dialog" aria-labelledby=${images[i].alt || null } aria-hidden="true">
       <div class="container modal-dialog modal-dialog-centered" role="document">
@@ -30,10 +29,10 @@ const Modal = (create_id, images, i) => {
                 type="button"
                 class="close"
                 data-dismiss="modal"
-                aria-label="Close"
+                aria-label="close"
               >
                 <span
-                  class='close-icon'
+                  class="close-icon"
                   aria-hidden="true"
                 >
                   <svg
@@ -42,7 +41,7 @@ const Modal = (create_id, images, i) => {
                     height="16"
                     viewBox="0 0 16 16"
                   >
-                    <title class="close-lavel">e-remove</title>
+                    <title class="close-label">e-remove</title>
                     <g
                       strokeWidth="1"
                       fill="#212121"
@@ -50,14 +49,14 @@ const Modal = (create_id, images, i) => {
                       strokeLinecap="round"
                       strokeLinejoin="round"
                     >
-                      <line x1="13.5" y1="2.5" x2="2.5" y2="13.5" />
-                      <line x1="2.5" y1="2.5" x2="13.5" y2="13.5" />
+                      <line x1="13.5" y1="2.5" x2="2.5" y2="13.5"></line>
+                      <line x1="2.5" y1="2.5" x2="13.5" y2="13.5"></line>
                     </g>
                   </svg>
                 </span>
               </button>
             </span>
-            <img src=${images[i].src || null}  alt=${images[i].alt || null}/>
+            <img src=${images[i].src || null}  alt=${images[i].alt || null}></img>
           </div>
         </div>
       </div>

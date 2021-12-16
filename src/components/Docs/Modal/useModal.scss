@@ -7,20 +7,31 @@
 
 /* Modal Wrapper */
 .modal {
-  z-index: 214748; /* Sit on top */
+  z-index: 214748;
   background-color: rgba(0, 0, 0, 0.5) !important;
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 999999999999; /* Sit on top */
+  justify-content: center;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
   
   .modal-dialog {
+    // position: relative;
+    // text-align: center;
+    // top: 15%;
+    // display: block;
+    cursor: pointer;
 
     .modal-content {
       justify-content: center;
-    }
 
-    &.show {
-      opacity: 0.75;
-    }
     img {
-      cursor: default;
+      cursor: pointer;
     }
 
     & .modal-close-button {
@@ -48,10 +59,11 @@
         font-size: 24px;
       }
 
-      & .close-label {
-        font-size: 0.75rem !important;
-        margin-right: 0.25rem;
-        vertical-align: middle;
+        & .close-label {
+          font-size: 0.75rem !important;
+          margin-right: 0.25rem;
+          vertical-align: middle;
+        }
       }
     }
   }
