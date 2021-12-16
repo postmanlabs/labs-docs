@@ -9,7 +9,7 @@ import { leftNavItems } from '../components/LeftNav/LeftNavItems';
 import LeftNav from '../components/LeftNav/LeftNav';
 import SEO from '../components/seo';
 
-import { useModal } from '../components/Docs/Modal/useModal.js';
+import { useModal } from '../components/Docs/Modal/useModal';
 const { v4: uuidv4 } = require('uuid');
 
 import './doc.scss';
