@@ -20,11 +20,13 @@
   }
 
   .modal-dialog {
-    position: relative;
-    top: 15%;
 
     .modal-content {
       justify-content: center;
+      background: none;
+      border: none;
+      width: max-content;
+
       .modal-positioning {
         display: flex;
         flex-direction: column !important;
@@ -46,7 +48,7 @@
       }
 
       & .close {
-        line-height: 1.8;
+        line-height: 1.4;
         opacity: 1;
         color: #ffffff;
         font-weight: 400;
@@ -55,6 +57,7 @@
         pointer-events: all;
         border: 0;
         background: rgba(0, 0, 0, 0);
+        padding: 8px;
         &:focus {
           outline: none;
         }
@@ -72,6 +75,9 @@
           margin-right: 0.25rem;
           vertical-align: middle;
         }
+      }
+      .img-background {
+        background-color: #ffffff;
       }
     }
   }

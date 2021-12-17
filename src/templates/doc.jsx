@@ -9,7 +9,7 @@ import { leftNavItems } from '../components/LeftNav/LeftNavItems';
 import LeftNav from '../components/LeftNav/LeftNav';
 import SEO from '../components/seo';
 
-import { useModal } from '../components/Docs/Modal/useModal';
+import { useModal } from '../components/Docs/Modules/Modal';
 const { v4: uuidv4 } = require('uuid');
 
 import './doc.scss';
@@ -44,6 +44,7 @@ class CreateDoc extends React.Component {
 
   render() {
     const { post } = this.state;
+    console.log(post)
     return (
       <span dangerouslySetInnerHTML={{ __html: post }} />
     );

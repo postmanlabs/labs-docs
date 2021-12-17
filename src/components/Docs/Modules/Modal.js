@@ -1,4 +1,4 @@
-import './useModal.scss'
+import './_Modal.scss';
 
 /* Used on doc.jsx */
 export function useModal(parsedHtml) {
@@ -6,23 +6,24 @@ export function useModal(parsedHtml) {
   for (let i = 0; i < images.length; i++) {
     /* Assign a unique ID for each modal */
     const create_id = `docs-${Math.random().toString(36).slice(8)}`
-    if (images[i].src === images[i].parentNode.href || !images[i].attributes.width) {
+    const imgSrc = images[i].src === images[i].parentNode.href
+    const imgSrc2 = images[i].parentNode.href === undefined;
+    if (imgSrc || imgSrc2) {
       images[i].parentNode.href = "javascript:void(0)";
       images[i].outerHTML = Modal(create_id, images, i);
     }
   }
 }
-
 const Modal = (create_id, images, i) => {
   return (
     `
     <a data-target=#${create_id} class="modal-link" data-toggle="modal">
       <img src=${images[i].src || null} alt=${images[i].alt || null}></img>
     </a>
-    <div id=${create_id} class="modal fade modal-link" tab-index="-1" role="dialog" aria-labelledby=${images[i].alt || null} aria-hidden="true">
-      <div class="container modal-dialog modal-dialog-centered" role="document">
+    <div id=${create_id} class="modal modal-link fade" tab-index="-1" role="dialog" aria-labelledby=${images[i].alt || null} aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered container" role="document">
         <div class="modal-content row">
-          <div class="col-8">
+          <div class="col-12">
           <div class="modal-positioning">
             <span class="modal-close-button">
               <button
@@ -56,7 +57,9 @@ const Modal = (create_id, images, i) => {
                 </span>
               </button>
             </span>
-            <img src=${images[i].src || null}  alt=${images[i].alt || null}></img>
+            <div class="img-background">
+              <img src=${images[i].src || null}  alt=${images[i].alt || null}></img>
+            </div>
             </div>
           </div>
         </div>
