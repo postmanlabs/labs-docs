@@ -2,6 +2,7 @@
 title: "Sharing your work"
 order: 73.1
 page_id: "sharing"
+updated: 2021-12-11
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -44,18 +45,27 @@ You can collaborate on Postman entities including collections, APIs, and environ
 
 You can share your collections, APIs, and environments with collaborators by navigating to the entity you'd like to share in the left sidebar. Select it, then select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> > **Share**.
 
-Sharing options depend on the type of entity:
+Collections, APIs, and environments can be shared directly with collaborators, including team members, [groups](/docs/administration/managing-your-team/user-groups/), and external users.
 
-* Collections can be shared via a link to the collection, a [Run in Postman](/docs/publishing-your-api/run-in-postman/creating-run-button/) button, or a JSON link.
-<img alt="Share collection via workspace" src="https://assets.postman.com/postman-docs/share-collection-via-wksp-v9.1.0.jpg"/>
+<img alt="Share api" src="https://assets.postman.com/postman-docs/share-api-9.4.jpg"/>
 
-  > A JSON link is a shareable public link to a static snapshot of your collection. You can manage a complete list of your active collection links from your [Postman profile](https://go.postman.co/me/collections?view=links).
+If the entity resides in a private workspace and you are not a workspace admin, you will only be able to share it with team members who already have access to the workspace. If the entity resides in a personal workspace, you'll be prompted to either change the workspace visibility to team or create a new team workspace for the entity to reside in.
 
-* APIs can be shared via link to teammates with access to the API.
-<img alt="Share collection via workspace" src="https://assets.postman.com/postman-docs/share-api-via-link-v9.1.jpg"/>
+If you are an [editor](/docs/collaborating-in-postman/roles-and-permissions/) on the entity you are sharing, you'll have the option to give your new collaborators a **Viewer** or **Editor** [role](/docs/collaborating-in-postman/roles-and-permissions/) on the entity. If you are a [viewer](/docs/collaborating-in-postman/roles-and-permissions/) on the entity, you can share it, but you won't be able to assign roles.
 
-* Environments can be shared via link to teammates with access to the environment.
-<img alt="Share collection via workspace" src="https://assets.postman.com/postman-docs/share-environment-via-link-v9.1.jpg"/>
+Individual team members and groups you invite will be notified immediately of your request to collaborate. External users who are not on your Postman team will receive an invitation to join immediately if you are a [team admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles). If you are not a team admin, your request to add external users to your Postman team will be shared with your team admins for approval.
+
+> If your team has [SSO enabled](/docs/administration/sso/intro-sso/), external users will be required to sign in via your team's SSO.
+
+<!-- -->
+
+> Your team must have [available slots](/docs/administration/billing/#changing-your-plan) or [auto-flex enabled](/docs/administration/billing/#utilizing-auto-flex) to invite additional team members.
+
+You can also share collections via a [Run in Postman](/docs/publishing-your-api/run-in-postman/creating-run-button/) button or via a JSON link.
+
+<img alt="Share collection via Run in Postman button" src="https://assets.postman.com/postman-docs/share-collection-ripbutton-9.4.jpg"/>
+
+> A JSON link is a shareable public link to a static snapshot of your collection. You can manage a complete list of your active collection links from your [Postman profile](https://go.postman.co/me/collections?view=links).
 
 ## Moving Postman entities to collaborative workspaces
 
