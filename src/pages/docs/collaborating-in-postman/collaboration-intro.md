@@ -65,21 +65,11 @@ Create a Team Workspace by inviting a team member to join a personal workspace o
 
 ### Inviting a team member to a workspace
 
-In Postman, select **Invite**.
+You can invite team members, [groups](/docs/administration/managing-your-team/user-groups/), and external users to collaborate in a workspace by navigating to the workspace and selecting **Invite** in the upper-right corner.
 
-[![Invite button](https://assets.postman.com/postman-docs/invite-button-wksp-v9.1.jpg)](https://assets.postman.com/postman-docs/invite-button-wksp-v9.1.jpg)
+<img alt="Share team workspace" src="https://assets.postman.com/postman-docs/share-workspace-9.4.jpg" width="400px"/>
 
-Enter the name, email, or [group](/docs/administration/managing-your-team/user-groups/) of individuals you'd like to invite to your workspace, then **Send Invites**.
-
-<img alt="Invite users to workspace" src="https://assets.postman.com/postman-docs/invite-to-workspace-gif-v9.1.gif"/>
-
-You can also use the **Copy Invite Link** and send it to people you would like to join your workspace.
-
-> "My Workspace" is a default workspace created by Postman. This workspace is different from other personal workspaces as it cannot be shared with anyone. It cannot be deleted, however it can be renamed. When you invite a teammate to join another personal workspace, Postman converts it into a team workspace.
-
-All members of your workspace will have avatars displayed at the top of Postman. If the avatar is brightly colored, that person is active in the workspace at that time. Hover over an avatar to see the names of the people in your workspace.
-
-![Active member](https://assets.postman.com/postman-docs/Beesly+active+member.jpg)
+For more details, see [Sharing workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#sharing-workspaces).
 
 ### Creating a new workspace from the menu
 

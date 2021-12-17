@@ -15,6 +15,11 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
+    name: "Related Blog Posts"
+  - type: link
+    name: "Introducing Postman’s WYSIWYG Editing Experience"
+    url: "https://blog.postman.com/introducing-postmans-wysiwyg-editing-experience/"
+  - type: subtitle
     name: "Case Studies"
   - type: link
     name: "Imgur"

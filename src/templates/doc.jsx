@@ -26,7 +26,7 @@ const DocPage = ({ data }) => {
       <div className="container-fluid">
         <div className="row row-eq-height">
           <nav className="col-sm-12 col-md-4 col-lg-3 left-nav-re">
-            <LeftNav LeftNavItems={leftNavItems} />
+            <LeftNav leftNavItems={leftNavItems} />
           </nav>
           <div className="col">
             <div className="row row-eq-height">

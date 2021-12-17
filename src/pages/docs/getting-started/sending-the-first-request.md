@@ -2,6 +2,7 @@
 title: "Sending your first request"
 order: 4
 page_id: "sending_the_first_request"
+updated: 2021-12-13
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -13,8 +14,8 @@ contextual_links:
   - type: subtitle
     name: "Videos"
   - type: link
-    name: "Sending a request"
-    url: "https://www.youtube.com/watch?v=7E60ZttwIpY"
+    name: "Intro to Postman | Send a Request"
+    url: "https://youtu.be/2oOSnxZ28fA"
   - type: link
     name: "How to use an API"
     url:  "https://www.youtube.com/watch?v=jCadnlO9xSQ&list=PLM-7VG-sgbtBBnWb2Jc5kufgtWYEmiMAw"
@@ -30,31 +31,45 @@ contextual_links:
 warning: false
 ---
 
-You can make requests to APIs in Postman. An API request allows you to retrieve data from a data source, or to send data. APIs run on web servers, and expose endpoints to support the operations client applications use to provide their functionality.
+Postman makes it easy to create and send API requests. Send a request to test a endpoint, retrieve data from a data source, or try out an API's functionality. You don't need to enter commands in a terminal or write any code. Simply create a new request and select **Send**, and the API response appears right inside Postman.
 
-Each API request uses an HTTP method. The most common methods are `GET`, `POST`, `PATCH`, `PUT`, and `DELETE`.
+## What is an API request?
 
-* `GET` methods retrieve data from an API.
+APIs provide a structured way for one application to access the capabilities of another application. Typically, this communication happens over the internet by way of an API server. A client application (like a mobile app) sends a request to the server, and after the request is processed the server returns a response to the client.
+
+A request includes the URL of the API endpoint as well as an HTTP request method. The method indicates the type of action you are asking the API to perform. Here are some of the most common methods:
+
+* `GET` retrieves data from an API.
 * `POST` sends new data to an API.
-* `PATCH` and `PUT` methods update existing data.
+* `PATCH` and `PUT` update existing data.
 * `DELETE` removes existing data.
-
-In Postman you can make API requests and examine the responses without using a terminal or writing any code. When you create a request and click **Send**, the API response appears inside the Postman user interface.
-
-[![Request and response illustration](https://assets.postman.com/postman-docs/anatomy-of-a-request-v8.jpg)](https://assets.postman.com/postman-docs/anatomy-of-a-request-v8.jpg)
 
 ## Sending a request
 
-To send your first API request, open Postman. Click the __+__ plus button to open a new tab.
+Ready to send your first request? Open Postman and try the following:
 
-Enter `postman-echo.com/get` in the URL field.
+1. Select the **+** button (near the top of Postman) to open a new tab.
+1. Enter `postman-echo.com/get` for the request URL.
+1. Select **Send**.
 
-Click **Send**. You will see the JSON data response from the server in the lower pane.
+You will see the response data sent from the server in the lower pane.
 
-[![Request response](https://assets.postman.com/postman-docs/first-request-sent-v8.jpg)](https://assets.postman.com/postman-docs/first-request-sent-v8.jpg)
+<img alt="Sending a request" src="https://assets.postman.com/postman-docs/first-request-sent-v9-4.jpg" width="716px">
+
+### What just happened?
+
+In this example, Postman is acting as the client application and is communicating with an API server. Here's what happened when you selected **Send**:
+
+1. Postman sent a `GET` request to the [Postman Echo API](https://www.postman.com/postman/workspace/published-postman-templates/documentation/631643-f695cab7-6878-eb55-7943-ad88e1ccfd65?ctx=documentation) server located at `postman-echo.com`.
+1. The API server received the request, processed it, and returned a response to Postman.
+1. Postman received the response and displayed it in the **Response** pane.
+
+You just used Postman to send an API request and got a response from the API server. It's okay to take a moment to sit back and reflect on how cool that is!
+
+[![Request and response illustration](https://assets.postman.com/postman-docs/anatomy-of-a-request-v8.jpg)](https://assets.postman.com/postman-docs/anatomy-of-a-request-v8.jpg)
 
 ## Next steps
 
-You can use the [Postman Echo API](https://www.postman.com/postman/workspace/published-postman-templates/documentation/631643-f695cab7-6878-eb55-7943-ad88e1ccfd65?ctx=documentation) to try out test requests.
+Send some more requests to the [Postman Echo API](/docs/developer/echo-api/), a handy tool you can use to try out API requests in Postman.
 
-Next learn more about [sending requests in Postman](/docs/sending-requests/requests/).
+When you're ready, learn more about [building and sending requests in Postman](/docs/sending-requests/requests/).
