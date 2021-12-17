@@ -18,8 +18,8 @@ contextual_links:
   - type: subtitle
     name: "Videos"
   - type: link
-    name: "Fake APIs for Real Developers"
-    url: "https://www.youtube.com/watch?v=fgtDZPOPzLU"
+    name: "Mock Servers | The Exploratory"
+    url: "https://youtu.be/n_7UUghLpco"
   - type: subtitle
     name: "Related Blog Posts"
   - type: link

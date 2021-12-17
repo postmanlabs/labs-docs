@@ -2,9 +2,18 @@
 title: 'Importing and exporting data'
 order: 8.2
 page_id: 'importing_and_exporting_data'
+updated: 2021-12-15
 contextual_links:
   - type: section
     name: "Additional Resources"
+  - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Postman | How to Connect to Your Git Repository"
+    url: "https://youtu.be/8jJHXLVYOh0"
+  - type: link
+    name: "Generate a Collection From a Specification | Postman Level Up"
+    url: "https://youtu.be/gljWt9tDKOY"
   - type: subtitle
     name: "Related Blog Posts"
   - type: link
@@ -42,7 +51,7 @@ Postman can import and export Postman data, including collections, environments,
 
     * [Importing Postman data](#importing-postman-data)
 
-        * [Converting Postman collections from v1 to v2](#converting-postman-collections-from-v1-to-v2)
+    * [Converting Postman collections from v1 to v2](#converting-postman-collections-from-v1-to-v2)
 
     * [Importing API specifications](#importing-api-specifications)
 
@@ -62,7 +71,7 @@ Postman can import and export Postman data, including collections, environments,
 
 You can import collections or your API specifications directly into Postman.
 
-To import your data into Postman, select **Import** in the left navigation menu.
+To import your data into Postman, select **Import** in upper left:
 
 ![Import modal](https://assets.postman.com/postman-docs/import-export-import-ui-next.jpg)
 
@@ -72,48 +81,40 @@ You can import your data from files, folders, links, raw text, or GitHub reposit
 
 You can import Postman data you previously exported, including collections, environments, data dumps, and globals.
 
-To import Postman data, select **Import**. Select your file or folder, input your link, paste your raw text, or [import from GitHub](#importing-via-github-repositories). Postman will automatically recognize Postman data, confirming the name, format, and what the file will import as. Select **Import** to bring your data into Postman.
+1. Select **Import** in the left navigation menu.
+1. Select your file or folder, input your link, paste your raw text, or [import from GitHub](#importing-via-github-repositories).
+   Postman will automatically recognize Postman data, confirming the name, format, and what the file will import as.
+   ![Import collection and environment](https://assets.postman.com/postman-docs/import-export-github-files-confirm.jpg)
+1. Select the files you want to import.
+1. Select **Import** to bring your data into Postman.
 
-![Import collection and environment](https://assets.postman.com/postman-docs/import-export-github-files-confirm.jpg)
+### Converting Postman collections from v1 to v2
 
-#### Converting Postman collections from v1 to v2
+Postman no longer supports the collection v1 format and will return an error if you attempt to import a collection in this format.
 
-Postman no longer supports the collection v1 format and will return an error if you attempt to import a collection in this format. You can convert your collection's format from v1 to v2 to import it into Postman.
+You can convert your collection's format from v1 to v2 to import it into Postman:
 
-![Collection v1 format](https://assets.postman.com/postman-docs/collection-v1-import.jpg)
+1. In the terminal of your choice, enter the following command to install the Postman Collection Transformer.
 
-You can take the following steps to convert the Postman collection format from v1 to v2.
+   ```bash
+   sudo npm install -g postman-collection-transformer
+   ```
 
-In the terminal of your choice, enter the following command to install the Postman collection transformer.
+1. Convert an individual Postman collection from v1 to v2 by entering the command below.
 
-```bash
-sudo npm install -g postman-collection-transformer
-```
+   ```bash
+   postman-collection-transformer convert -i <path to input Postman collection file> -o <path where the output Postman file will be downloaded> -j 1.0.0 -p 2.0.0 -P
+   ```
 
-You can retrieve a list of convert options by running the command with the ``-h`` flag.
+The resulting collection will be downloaded to your target file path in v2 format.
 
-```bash
-postman-collection-transformer convert -h
-```
+You can retrieve a list of convert options by running the command with the ``-h`` flag:
 
- Option | Details |
-|:--|:--|
-| `-h`, `--help` | Outputs usage information |
-| `-i`, `--input <path>` | Returns a path to the input postman collection file |
-| `-j`, `--input-version [version]` | Returns the version of the input collection format standard (v1 or v2) |
-| `-o`, `--output <path>` | Returns a path to the output postman collection file |
-| `-p`, `--output-version [version]` | Returns the version of the output collection format standard (v1 or v2) |
-| `-P`, `--pretty` | Prints the output in pretty format |
-| `--retain-ids` | Retains the request and folder IDs during conversion (collection ID is always retained) |
-| `-w`, `--overwrite` | Overwrites the output file if it exists |
+   ```bash
+   postman-collection-transformer convert -h
+   ```
 
-You can convert an individual Postman collection from v1 to v2 by entering the command below.
-
-```bash
-postman-collection-transformer convert -i <path to input Postman collection file> -o <path where the output Postman file will be downloaded> -j 1.0.0 -p 2.0.0 -P
-```
-
-The resulting collection will be in v2 format and downloaded to your target file path. See the [Postman Collection Transformer](https://github.com/postmanlabs/postman-collection-transformer) for more information on the collection conversion.
+See the [Postman Collection Transformer](https://github.com/postmanlabs/postman-collection-transformer) for more information on the collection conversion.
 
 ### Importing API specifications
 
@@ -139,9 +140,11 @@ There are also tools on GitHub to convert the following into a Postman collectio
 
 * [DHC](https://github.com/postmanlabs/dhc-to-postman)
 
-To import your API specifications into Postman, select **Import**. Select your file or folder, input your link, or paste your raw text. Confirm the name, format, and what you would like your data to import as, then select **Import** to bring your data into Postman.
+To import your API specifications into Postman:
 
-![Import file](https://assets.postman.com/postman-docs/import-export-github-files-confirm.jpg)
+1. Select **Import** in the left navigation menu.
+1. Select a file or folder, input a link to the API, or paste your raw text. Confirm the name, format, and what you would like your data to import as.
+1. Select **Import** to bring your data into Postman.
 
 > You can configure your **Import Settings**, which will differ depending on your API specification.
 
@@ -155,55 +158,35 @@ When importing into a team workspace, you can also choose to add the APIs to the
 
 > You must be signed in to a [Postman account](/docs/getting-started/postman-account/#signing-up-for-a-postman-account) to use this feature.
 
-You can import data in bulk from a GitHub repository by selecting **Import** > **Code repository** > **GitHub**.
+You can import data in bulk from a GitHub repository.
 
-![Import from github](https://assets.postman.com/postman-docs/import-export-import-github.jpg)
+1. Select **Import** > **Code repository** > **GitHub**.
 
-Confirm your GitHub account and **Authorize postmanlabs** to access your repositories.
+1. Confirm your GitHub account and **Authorize postmanlabs** to access your repositories.
 
-![Import from github auth](https://assets.postman.com/postman-docs/import-export-github-auth.jpg)
+1. In Postman, select your GitHub organization, repository, and branch, then select **Continue**.
 
-In Postman, select your GitHub organization, repository, and branch, then **Continue**.
+1. Confirm the files you would like to import into Postman. You can also select **Generate collection from imported APIs** and select what you would like to link this collection as. Select **Show advanced settings** to control how Postman should generate collections based on your file types, then select **Import**.
 
-![Import from github auth](https://assets.postman.com/postman-docs/import-export-github-import-directory.jpg)
+   ![Confirm import from github](https://assets.postman.com/postman-docs/import-export-github-files-confirm.jpg)
 
-Confirm the files you would like to import into Postman. You can also opt to **Generate collection from imported APIs** and select what you would like to link this collection as. Click **Show advanced settings** to control how Postman should generate collections based on your file types, then select **Import**.
-
-![Confirm import from github](https://assets.postman.com/postman-docs/import-export-github-files-confirm.jpg)
-
-You will receive a confirmation once the import has completed.
-
-![Confirm complete import from github](https://assets.postman.com/postman-docs/import-export-github-complete.jpg)
-
-You can now view your newly imported files and generated collections in Postman.
+You will receive a confirmation once the import has completed. You can now view your newly imported files and generated collections in Postman.
 
 ### Importing via Bitbucket repositories
 
 > You must be signed in to a [Postman account](/docs/getting-started/postman-account/#signing-up-for-a-postman-account) to use this feature.
 
-You can import data in bulk from a Bitbucket repository by selecting **Import** > **Code repository** > **Bitbucket**.
+You can import data in bulk from a Bitbucket repository.
 
-![Import from bitbucket](https://assets.postman.com/postman-docs/import-export-import-github.jpg)
+1. Select **Import** > **Code repository** > **Bitbucket**.
 
-Confirm your Bitbucket account and **Authorize Postman** to access your repositories.
+1. Confirm your Bitbucket account and **Authorize Postman** to access your repositories.
 
-![Import from bitbucket auth](https://assets.postman.com/postman-docs/import-export-bitbucket-confirm-access.jpg)
+1. In Postman, select your Bitbucket workspace, repository, and branch, then select **Continue**.
 
-In Postman, select your Bitbucket workspace, repository, and branch, then **Continue**.
+1. A preview of the files that will be imported to your workspace is displayed. Select **Import** to confirm and complete the import.
 
-![Import from bitbucket auth](https://assets.postman.com/postman-docs/import-export-bitbucket-select-repo.jpg)
-
-You will see a preview of the files that will be imported to your workspace. Select **Import** to confirm and complete the import.
-
-![Confirm import from bitbucket](https://assets.postman.com/postman-docs/import-export-bitbucket-import-confirm-files.jpg)
-
-You will receive a confirmation once the import has completed.
-
-![Confirm complete import from bitbucket](https://assets.postman.com/postman-docs/import-export-bitbucket-import-complete.jpg)
-
-You can now view your newly imported files and generated collections in Postman.
-
-![Confirm complete import from bitbucket](https://assets.postman.com/postman-docs/require-option-to-select-multiple-for-delete-edit-2.jpg)
+You will receive a confirmation once the import has completed. You can now view your newly imported files and generated collections in Postman.
 
 ## Exporting Postman data
 
@@ -211,51 +194,42 @@ You can export your Postman data, including collections, environments, data dump
 
 ### Exporting collections
 
-You can export your collections from Postman by selecting the **...** next to the collection, then **Export**.
+1. Select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to the collection, then select **Export**.
 
-<img alt="Export collection" src="https://assets.postman.com/postman-docs/export-collection-v9.1.jpg" width="350px" />
+   <img alt="Export collection" src="https://assets.postman.com/postman-docs/export-collection-v9.1.jpg" width="350px" />
 
-You can then select the format you'd like your collection to export as. Select **Export** to download your newly generated JSON file.
+1. Select the format you'd like your collection to export as.
 
-> The export to Collection v1 format is no longer supported in Postman.
+   > Learn more about Postman's [collection formats](https://blog.postman.com/travelogue-of-postman-collection-format-v2/).
 
-![Export collection format](https://assets.postman.com/postman-docs/export-collection-format-v8.jpg)
-
-> Learn more about Postman's [collection formats](https://blog.postman.com/travelogue-of-postman-collection-format-v2/).
+1. Select **Export** to download your newly generated JSON file.
 
 ### Exporting environments
 
-You can export your environments from Postman by selecting the **Environments** tab from the left navigation menu. Select the environment you need to export.
+You can also export your environments from Postman.
 
-![Export environment](https://assets.postman.com/postman-docs/import-export-env.jpg)
-
-In the top right corner, select the **...**. Select **Export** to download your newly generated JSON file.
-
-![Export environment menu](https://assets.postman.com/postman-docs/import-export-env-create-json.jpg)
+1. Select the **Environments** tab from the left navigation menu.
+1. Select an environment to export.
+1. In the top right corner, select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px">.
+1. Select **Export** to download your newly generated JSON file.
 
 ### Exporting data dumps
 
 You can export a data dump of all of your collections, environments, globals, and header presets in Postman.
 
-Select the gear icon in the upper-right corner to open **Settings**.
+1. Select the gear icon in the upper-right corner to open **Settings**.
 
-![Export data dump](https://assets.postman.com/postman-docs/import-export-data-dump-menu.jpg)
+   ![Export data dump](https://assets.postman.com/postman-docs/import-export-data-dump-menu.jpg)
 
-Select the **Data** tab, then **Export Data** to start your request for the dat dump.
+1. Select the **Data** tab, then **Export Data** to start your request for the data dump.
 
-![Export data dump](https://assets.postman.com/postman-docs/import-export-data-dump.jpg)
+1. Select **Export Data** to confirm the data types you need to export.
 
-Select **Export Data** to confirm the data types you need to export.
+1. Select **Request Data Export** to submit the request.
 
-![Export data dump](https://assets.postman.com/postman-docs/import-export-data-dump-request.jpg)
-
-Select **Request Data Export** to submit the request.
-
-![Export data dump](https://assets.postman.com/postman-docs/import-export-data-dump-request-confirm.jpg)
+   ![Export data dump](https://assets.postman.com/postman-docs/import-export-data-dump-request-confirm.jpg)
 
 When the export is ready, you will receive an email with link to download a zipped file with the data dump.
-
-![Export data dump](https://assets.postman.com/postman-docs/import-export-data-dump-request-scheduled.jpg)
 
 ## Next steps
 

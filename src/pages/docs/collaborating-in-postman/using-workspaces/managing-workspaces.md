@@ -91,30 +91,17 @@ To change workspace visibility:
 
 ## Sharing workspaces
 
-Invite others to a workspace so you can collaborate. You must be a [workspace Admin](#managing-workspace-roles) to invite others to a workspace.
+You can invite team members, [groups](/docs/administration/managing-your-team/user-groups/), and external users to collaborate in a workspace by navigating to the workspace and selecting **Invite** in the upper-right corner.
 
-> You can also give people access to a team workspace by [inviting them to your team](/docs/collaborating-in-postman/collaboration-intro/#working-with-team-workspaces).
+<img alt="Share team workspace" src="https://assets.postman.com/postman-docs/share-workspace-9.4.jpg" width="400px"/>
 
-To invite team members to a workspace:
+If you are a workspace editor or admin, you can invite anyone to personal, private, team, and public workspaces and assign them a [workspace role](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles). If you are a workspace viewer, you can invite external users to team and public workspaces, however you won't have the option to assign them a workspace role.
 
-1. Select **Workspaces** in the Postman header, and then select a workspace.
-1. On the workspace's **Overview** tab, select **Workspace Settings**.
-1. Select **Invite**.
+> When you invite a collaborator to a personal workspace, it is automatically converted into a team workspace.
 
-    > If this is a personal workspace, you must [change the visibility](#changing-workspace-visibility) to private, team, or public before you can invite others.
+Individual team members and groups you invite will be notified immediately of your request to collaborate. External users who are not on your Postman team will receive an invitation to join immediately if you are a team admin. If you are not a team admin, your request to add external users to your Postman team will be shared with your team admins for approval.
 
-1. Enter a user name or email, or enter a [group name](/docs/administration/managing-your-team/user-groups/). You can add multiple users or groups.
-1. Select a workspace **Role** for the person or group:
-
-    * **Admin:** Can manage workspace resources and settings.
-    * **Editor:** Can create and edit workspace resources.
-    * **Viewer:** Can view, fork, and export workspace resources.
-
-1. Select **Send Invites** to send an invitation link to the people and groups you entered. Or select **Copy Invite Link** to generate a link you can directly share with others.
-
-<img alt="Invite users" src="https://assets.postman.com/postman-docs/invite-user-and-group-to-workspace-v9.gif"/>
-
-> You can also get a link to the workspace on the **Overview** tab. Hover over the workspace name, and then select **Copy link to workspace** <img alt="Workspace link icon" src="https://assets.postman.com/postman-docs/icon-workspace-link-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> to the right of the name.
+You can also invite collaborators by selecting <img alt="Changelog icon" src="https://assets.postman.com/postman-docs/icon-workspace-link-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> **Copy Invite Link** and sharing the link with them outside of Postman. When individuals select the link, they'll be prompted to log in or sign up. If you are a team admin inviting an external user, they'll be automatically added to your team. If you are not a team admin, a request to add them to your Postman team will be shared with your team admins for approval.
 
 ## Managing workspace roles
 
