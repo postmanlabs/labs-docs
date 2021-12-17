@@ -13,8 +13,8 @@ contextual_links:
   - type: subtitle
     name: "Videos"
   - type: link
-    name: "API monitoring with Postman"
-    url: "https://www.youtube.com/watch?v=3nOP_TYTuA8"
+    name: "API Monitoring | The Exploratory"
+    url: "https://youtu.be/tDQzY1Hn2LY"
 
 warning: false
 ---

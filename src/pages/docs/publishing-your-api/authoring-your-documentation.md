@@ -15,6 +15,11 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
+    name: "Related Blog Posts"
+  - type: link
+    name: "Introducing Postman’s WYSIWYG Editing Experience"
+    url: "https://blog.postman.com/introducing-postmans-wysiwyg-editing-experience/"
+  - type: subtitle
     name: "Case Studies"
   - type: link
     name: "Imgur"
@@ -66,7 +71,7 @@ To add or edit the description for an existing collection, folder, or request:
 
 ### Authoring descriptions in the Postman editor
 
-To author a description using rich text editing tools, select the **Postman editor** option. The Postman editor makes it easy to author a description without having to write any Markdown code. Use the tools on the toolbar to work with text and other content, just like in a typical word processor. Or use common keyboard shortcuts to format text, like **Command+B** or **Ctrl+B** to make text bold. There's no need to preview your content to see the final appearance—what you see is what you get!
+To author a description using rich text editing tools, select the **Postman editor** option. The Postman editor makes it easy to author a description without having to write any Markdown code. Use the tools on the toolbar to work with text and other content, just like in a typical word processor. Or use common keyboard shortcuts to format text, like **⌘+B** or **Ctrl+B** to make text bold. There's no need to preview your content to see the final appearance—what you see is what you get!
 
 <img alt="Postman editor" src="https://assets.postman.com/postman-docs/documentation-use-postman-editor-v9-1.jpg" width="560px">
 

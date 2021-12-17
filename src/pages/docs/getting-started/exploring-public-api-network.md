@@ -2,6 +2,7 @@
 title: "Exploring the Public API Network"
 order: 6
 page_id: "exploring_public_api_network"
+updated: 2021-10-05
 contextual_links:
   - type: section
     name: "Prerequisites"

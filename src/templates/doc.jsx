@@ -13,7 +13,7 @@ import pose from '../assets/pose-learning-center.svg';
 
 const { v4: uuidv4 } = require('uuid');
 
-export default ({ data }) => {
+const DocPage = ({ data }) => {
   const post = data.markdownRemark;
   let contextualLinks;
   if (post.frontmatter.contextual_links) {
@@ -26,7 +26,7 @@ export default ({ data }) => {
       <div className="container-fluid">
         <div className="row row-eq-height">
           <nav className="col-sm-12 col-md-4 col-lg-3 left-nav-re">
-            <LeftNav LeftNavItems={leftNavItems} />
+            <LeftNav leftNavItems={leftNavItems} />
           </nav>
           <div className="col">
             <div className="row row-eq-height">
@@ -35,13 +35,13 @@ export default ({ data }) => {
                 <span dangerouslySetInnerHTML={{ __html: post.html }} />
               </main>
               <aside className="col-sm-12 col-md-12 col-lg-3 offset-lg-0 col-xl-3 offset-xl-1 right-column">
-                <hr className="d-block d-lg-none"/>
+                <hr className="d-block d-lg-none" />
                 <div className="edit-button">
                   <EditDoc className="btn btn__small btn__secondary-light edit-button-styles" />
                 </div>
                 {contextualLinks}
                 <figure className="sticky posmanaut-dab">
-                  <img src={pose} alt="pose" className="img-fluid"/>
+                  <img src={pose} alt="pose" className="img-fluid" />
                 </figure>
               </aside>
             </div>
@@ -71,4 +71,5 @@ export const query = graphql`
     }
   }
 `;
+export default DocPage;
 /* eslint-enaable */

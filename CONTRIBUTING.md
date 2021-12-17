@@ -1,6 +1,6 @@
 # Contributing
 
-When contributing to this repository, please first discuss the change you wish to make via [Issues](https://github.com/postmanlabs/postman-docs/issues).
+When contributing to this repository, please first discuss the change you wish to make at [Issues](https://github.com/postmanlabs/postman-docs/issues).
 
 Please note we have a [code of conduct](https://www.postman.com/code-of-conduct), please follow it in all your interactions with the project.
 
@@ -8,13 +8,23 @@ Please note we have a [code of conduct](https://www.postman.com/code-of-conduct)
 
 ### Prerequisites
 
-This site was built with node v12.13.0. We recommend installing and using [nvm](https://github.com/nvm-sh/nvm), a version manager for node. After you install nvm, use it to set your node version to v12.13.0.
+This site was built with Node.js v14.15.0. We recommend installing and using [nvm](https://github.com/nvm-sh/nvm), a version manager for Node.js. After you install nvm, use it to set your node version to v14.15.0.
 
 **Note for Mac users**: If you are using a MacBook with an Apple M1 chip, you may need to create a Rosetta version of Terminal in order to correctly download both nvm and the dependencies needed by this GitHub repo. For more information, see this guide on [creating a Rosetta terminal](https://www.courier.com/blog/tips-and-tricks-to-setup-your-apple-m1-for-development). After you create a Rosetta terminal, use it to install nvm, then proceed with the rest of the workflow outlined here.
 
+### Troubleshooting Local Development
+
+If you run into issues when running the Learning Center locally, try the following:
+
+1. Check the Node.js version (`node -v`) to ensure you are now using `v14.15.0`. If not, enter `nvm use v14.15.0`.
+1. Enter `run rm -rf node_modules; npm i` to remove all old packages and perform a fresh install.
+1. Enter `gatsby clean` to clear the cache.
+
+We have found this to clear the bulk of local development issues. If you still have issues running the Learning Center locally, feel free to [open an issue](https://github.com/postmanlabs/postman-docs/issues).
+
 ### Workflow
 
-We follow [Git Flow](https://guides.github.com/introduction/flow/) for changes to this repository. If you're not familiar with using git and GitHub on the command line, [GitHub Desktop](https://desktop.github.com) is an easier alternative.  
+We follow [Git Flow](https://guides.github.com/introduction/flow/) for changes to this repository. If you're not familiar with using git and GitHub on the command line, [GitHub Desktop](https://desktop.github.com) is an easier alternative.
 
 1. Fork this repo to create a copy hosted on your GitHub account. The Fork button is in the top right of the page.
     * If you're a collaborator on the repo you can instead just create a branch.

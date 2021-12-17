@@ -2,6 +2,7 @@
 title: "Making SOAP requests"
 order: 39
 page_id: "making_soap_requests"
+updated: 2021-12-10
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -23,31 +24,35 @@ warning: false
 
 ---
 
-Postman can make various types of HTTP call in addition to REST, including to protocol-agnostic services such as SOAP and [GraphQL](/docs/sending-requests/supported-api-frameworks/graphql/).
+Postman can make HTTP calls using SOAP, a platform-agnostic messaging protocol specification, in addition to REST, [GraphQL](/docs/sending-requests/supported-api-frameworks/graphql/), and [WebSocket](/docs/sending-requests/supported-api-frameworks/websocket/) requests.
 
-The following steps outline how to make a SOAP request in Postman.
+The following steps show how to make a SOAP request in Postman.
 
-## Enter your SOAP endpoint
+## Entering your SOAP endpoint
 
-Open a new request tab in Postman and enter your SOAP endpoint URL in the address field. Try out the following example if you do not have a specific service you want to call:
+1. Open a new request tab in Postman and enter your SOAP endpoint URL in the address field.
+1. Select __POST__ from the request method dropdown list.
+
+<img src="https://assets.postman.com/postman-docs/soap-method-v9.jpg" alt="SOAP method" width="500px"/>
+
+As an example, try the following endpoint URL:
 
 ```xml
 https://www.dataaccess.com/webservicesserver/NumberConversion.wso
 ```
 
-> Check out the [Public SOAP APIs](https://www.postman.com/cs-demo/workspace/public-soap-apis/overview) collection for more SOAP requests you can try.
+This SOAP endpoint changes numeric values into their text equivalents, for example changing the value "500" into "five hundred".
 
-Select __POST__ from the request method drop-down.
+> If you want to see other SOAP request examples, take a look at the [Public SOAP APIs](https://www.postman.com/cs-demo/workspace/public-soap-apis/overview) collection.
 
-<img src="https://assets.postman.com/postman-docs/soap-method.jpg" alt="SOAP method" width="500px"/>
+## Adding body data
 
-## Add body data
+1. In the __Body__ tab, select __raw__ and choose __XML__ from the dropdown list.
+1. Enter your XML in the text entry area.
 
-In the __Body__ tab, select __raw__ and choose __XML__ from the drop-down list.
+![SOAP body type](https://assets.postman.com/postman-docs/soap-body-type-v9.jpg)
 
-![SOAP body type](https://assets.postman.com/postman-docs/soap-body-type.jpg)
-
-Enter your XML in the text entry area, as in the following example:
+If you want to test the number conversion SOAP API used in the last section, enter the following XML in the text entry area:
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -60,24 +65,27 @@ Enter your XML in the text entry area, as in the following example:
 </soap:Envelope>
 ```
 
-Your request body should include the SOAP `Envelope`, `Header`, and `Body` tags as required by the endpoint, as well as any namespaces. The data should include the name of the operation, together with any values you need to post to the service.
+Your request body must include the SOAP `Envelope`, `Header`, and `Body` tags as required by the endpoint, as well as any namespaces. The data should include the name of the operation, together with any values you need to post to the service.
 
-![SOAP body XML](https://assets.postman.com/postman-docs/soap-body-xml.jpg)
+## Setting your request headers
 
-## Set your request headers
+When you select an XML body type, Postman automatically adds a content type header of `application/xml`. But depending on your service provider, you may need `text/xml` for some SOAP requests. Check with your SOAP service to determine which header is appropriate. If you need the `text/xml` header, you will need to override the default setting added by Postman.
 
-When you select an XML body type, Postman will automatically add a content type header of `application/xml`, but depending on your service provider, for SOAP requests you may need `text/xml`. Open the request __Headers__ and click to show the hidden headers.
+If you are following along with the number conversion SOAP API example, you need to change the content type header to `text/xml`.
 
-Check with your SOAP service whether you need the `application/xml` or `text/xml` header. If you need the `text/xml` header, you will need to override the default setting added by Postman. Deselect the `Content-Type` header Postman added automatically and add a new row with `Content-Type` __Key__ and `text/xml` __Value__.  Additionally, you will need to set a `SOAPAction` header with a value of (and the quotes are required) `"#MethodName"`.  Without this, the service will return 500.
+1. Open the request __Headers__. If the auto-generated headers are hidden, select the notice to display them.
+1. Deselect the `Content-Type` header Postman added automatically.
+1. Add a new row with `Content-Type` in the __Key__ field and `text/xml` in the __Value__ field.
+1. Add a new row for a header with  `SOAPAction` in the __Key__ field and `"#MethodName"` in the __Value__ field. (The quotes are required.) Without this header, the service will return 500.
 
-![SOAP Content Type](https://assets.postman.com/postman-docs/soap-content-type.jpg)
+![SOAP Content Type](https://assets.postman.com/postman-docs/soap-content-type-v9.jpg)
 
-## Send your request
+## Sending your request
 
-Click __Send__ to make your call to the SOAP service. If your call is successful you will see the response in the lower tab in Postman.
+1. Select __Send__ to make your call to the SOAP service. If your call is successful, you will see the response in the lower tab in Postman.
 
-![SOAP response data](https://assets.postman.com/postman-docs/soap-response-data.jpg)
+![SOAP response data](https://assets.postman.com/postman-docs/soap-response-data-v9.jpg)
 
 ## Next steps
 
-Check out the [SOAP template](https://www.postman.com/cs-demo/workspace/public-soap-apis/overview) for lots of sample requests you can try out in Postman.
+Check out the [Public SOAP APIs](https://www.postman.com/cs-demo/workspace/public-soap-apis/overview) collection for sample requests you can try in Postman.

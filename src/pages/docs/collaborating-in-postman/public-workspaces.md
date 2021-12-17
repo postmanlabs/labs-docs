@@ -32,7 +32,7 @@ contextual_links:
 
 [Public workspaces](https://blog.postman.com/public-workspaces-why-we-created-them-what-you-can-do/) enable you to collaborate on entities with anyone across the world. Before you create a public workspace, navigate to your [team profile settings](https://go.postman.co/settings/team/general) and enable your public team profile. This will ensure your team's profile will show up on the [Public API Network](https://www.postman.com/explore).
 
-<img alt="Enable team profile" src="https://assets.postman.com/postman-docs/enable-public-profile-url.jpg"/>
+<img alt="Enable team profile" src="https://assets.postman.com/postman-docs/edit-team-profile-v9.1.0.jpg"/>
 
 ## Contents
 
@@ -139,7 +139,7 @@ To change the visibility of a public workspace, change the visibility dropdown t
 
 ## Managing public workspace members
 
-If you're a team administrator you can add or remove any member from your public workspace via the **Members** tab. To add members to a public workspace, see [Inviting to team workspaces](/docs/administration/managing-your-team/managing-your-team/#inviting-to-team-workspaces).
+If you're a team administrator you can add or remove any member from your public workspace via the **Members** tab. To add members to a public workspace, see [Sharing workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#sharing-workspaces).
 
 Another way to add workspace members is to click **Manage Team** and select **Invite Users**.
 

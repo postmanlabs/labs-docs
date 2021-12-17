@@ -202,7 +202,7 @@ You can use raw body data to send anything you can enter as text. Use the __raw_
 
 You can use [variables](/docs/sending-requests/variables/) in your body data and Postman will populate their current values when sending your request.
 
-> Select text in the editor and press __CMD/CTRL + B__ to beautify your XML/JSON.
+> To beautify your XML or JSON, select the text in the editor and then select **⌘+Option+B** or **Ctrl+Alt+B**.
 
 #### Binary data
 
