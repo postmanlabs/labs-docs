@@ -13,20 +13,26 @@
   right: 0;
   bottom: 0;
   width: 100%; /* Full width */
-  height: 100%; /* Full height */
+  height: 100%; /* Full height*/
 
   &.show {
-    cursor: default;
+    cursor: pointer;
   }
 
   .modal-dialog {
-    cursor: pointer;
+    position: relative;
+    top: 15%;
 
     .modal-content {
       justify-content: center;
+      .modal-positioning {
+        display: flex;
+        flex-direction: column !important;
+        justify-content: center;
+      }
 
       img {
-        cursor: pointer;
+        cursor: default;
       }
 
       & .modal-close-button {
@@ -40,15 +46,22 @@
       }
 
       & .close {
-        line-height: 1.9;
+        line-height: 1.8;
         opacity: 1;
         color: #ffffff;
         font-weight: 400;
         text-shadow: none;
         margin-bottom: 12px;
         pointer-events: all;
+        border: 0;
+        background: rgba(0, 0, 0, 0);
+        &:focus {
+          outline: none;
+        }
         &:hover {
-          color: #ff6b37;
+          background: rgba(0, 0, 0, 0.1);
+          opacity: 1;
+          transition: all 0.2s ease-in-out 0s;
         }
         & .close-icon {
           font-size: 24px;

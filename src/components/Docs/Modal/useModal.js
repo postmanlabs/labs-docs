@@ -1,5 +1,18 @@
 import './useModal.scss'
 
+/* Used on doc.jsx */
+export function useModal(parsedHtml) {
+  let images = parsedHtml.querySelectorAll('img');
+  for (let i = 0; i < images.length; i++) {
+    /* Assign a unique ID for each modal */
+    const create_id = `docs-${Math.random().toString(36).slice(8)}`
+    if (images[i].src === images[i].parentNode.href || !images[i].attributes.width) {
+      images[i].parentNode.href = "javascript:void(0)";
+      images[i].outerHTML = Modal(create_id, images, i);
+    }
+  }
+}
+
 const Modal = (create_id, images, i) => {
   return (
     `
@@ -9,7 +22,8 @@ const Modal = (create_id, images, i) => {
     <div id=${create_id} class="modal fade modal-link" tab-index="-1" role="dialog" aria-labelledby=${images[i].alt || null} aria-hidden="true">
       <div class="container modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content row">
-          <div class="col-12">
+          <div class="col-8">
+          <div class="modal-positioning">
             <span class="modal-close-button">
               <button
                 type="button"
@@ -43,23 +57,11 @@ const Modal = (create_id, images, i) => {
               </button>
             </span>
             <img src=${images[i].src || null}  alt=${images[i].alt || null}></img>
+            </div>
           </div>
         </div>
       </div>
     </div>
     `
   )
-}
-
-/* Used on doc.jsx */
-export function useModal(parsedHtml) {
-  let images = parsedHtml.querySelectorAll('img');
-  for (let i = 0; i < images.length; i++) {
-    /* Assign a unique ID for each modal */
-    const create_id = `docs-${Math.random().toString(36).slice(8)}`
-    if (images[i].src === images[i].parentNode.href || !images[i].attributes.width) {
-      images[i].parentNode.href = "javascript:void(0)";
-      images[i].outerHTML = Modal(create_id, images, i);
-    }
-  }
 }
