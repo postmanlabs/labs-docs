@@ -20,13 +20,15 @@
   }
 
   .modal-dialog {
+    // position: relative;
+    // top: 15%;
 
     .modal-content {
       justify-content: center;
       background: none;
       border: none;
       width: max-content;
-
+      
       .modal-positioning {
         display: flex;
         flex-direction: column !important;
@@ -77,7 +79,7 @@
         }
       }
       .img-background {
-        background-color: #ffffff;
+        background-color: #FFFFFF;
       }
     }
   }
