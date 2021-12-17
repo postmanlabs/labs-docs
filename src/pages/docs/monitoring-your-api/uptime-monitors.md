@@ -11,11 +11,11 @@ warning: false
 
 Uptime monitors (open beta) continuously check the availability of a single API endpoint, website, or other URL and let you know whenever downtime occurs (typically within 1 to 2 minutes).
 
-To create a new uptime monitor, simply enter the URL and select which team members should be notified of a system outage. You can customize how often the monitor checks the availability of the URL and how quickly your team should be notified of any downtime. You can also configure the monitor to run in multiple regions (paid plans only).
+To create a new uptime monitor, simply enter the URL and select which team members should be notified of a system outage. There's no need to create a collection. You can customize how often the monitor checks the availability of the URL and how quickly your team should be notified of any downtime. You can also configure the monitor to run in multiple regions (paid plans only).
 
 Use the uptime monitor dashboard to quickly check if the API endpoint is currently up or down and the average response time. You can also view previous downtime incidents and get insights into the availability of the endpoint over time.
 
-> **The Postman uptime monitors feature is currently in open beta.** If you have feedback on uptime monitors, please visit our GitHub board **LINK** and tell us about your experience.
+> **The Postman uptime monitors feature is currently in open beta.** If you have feedback on uptime monitors, visit our [GitHub discussion board](https://github.com/postmanlabs/uptime-monitors/discussions) and tell us about your experience.
 
 ## Contents
 
@@ -40,10 +40,11 @@ Create a new uptime monitor to track the availability of a single API endpoint, 
 1. Configure any optional details for the monitor:
 
     * **Recipients:** Add up to five members of your team to be notified when downtime occurs.
-    * **Downtime:** Enter the number of minutes to wait after downtime starts (and continues) before a notification is sent.
+    * **Downtime:** Select how many minutes to wait after downtime starts (and continues) before a notification is sent.
+    * **Stop notifying after:** Select the number of consecutive failures after which Postman will stop sending notifications about the downtime.
     * **Run frequency:** Select how often the monitor checks the availability of the URL, up to every minute (paid plans) or every five minutes (free plans).
     * **Regions:** Select one or more regions to run the monitor from (paid plans only). If downtime occurs in any selected region, a notification is sent. (For free plans, the region is automatically selected.)
-    * **Retry failed runs:** Select this option to try calling the URL again if an availability check fails. Specify the number of retries (1, 2, or 3).
+    * **Retry failed runs:** Select this option to try calling the URL again if an availability check fails.
     * **Follow redirects:** Select this option to allow the monitor to follow redirects when calling the URL.
 
 1. Select **Create Uptime Monitor**.
@@ -52,7 +53,7 @@ Create a new uptime monitor to track the availability of a single API endpoint, 
 
 Uptime monitors send email notifications to your team whenever downtime is detected. To customize email notifications, select the bell <img alt="Bell icon" src="https://assets.postman.com/postman-docs/icon-notification-bell-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> in the Postman header and select **Manage Preferences**.
 
-You can also [set up an integration](/docs/integrations/intro-integrations/) to receive downtime notifications in [Slack](/docs/integrations/available-integrations/slack/). Or create a [custom webhook](/docs/integrations/webhooks/) to send downtime data to another application or system that you specify.
+You can also set up an integration to receive [downtime notifications in Slack](/docs/integrations/available-integrations/slack/). Or create a [custom webhook](/docs/integrations/webhooks/) to send downtime data to another application or system that you specify.
 
 ### Editing an uptime monitor
 
