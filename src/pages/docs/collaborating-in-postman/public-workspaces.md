@@ -39,6 +39,7 @@ contextual_links:
 * [Creating a public workspace](#creating-a-public-workspace)
 * [Accessing a public workspace](#accessing-a-public-workspace)
 * [Sharing a public workspace](#sharing-a-public-workspace)
+* [Editing a public workspace](#editing-a-public-workspace)
 * [Adding elements to a public workspace](#adding-elements-to-a-public-workspace)
 * [Removing elements from a public workspace](#removing-elements-from-a-public-workspace)
 * [Deleting a public workspace](#deleting-a-public-workspace)
@@ -59,35 +60,31 @@ Open the workspace menu, then click **Create Workspace**.
 
 Specify a workspace name and summary. Under **Visibility**, select **Public**.
 
-<img alt="Create public workspace" src="https://assets.postman.com/postman-docs/create-public-wkspc-v9.1.jpg" width="400px"/>
+<img alt="Create public workspace" src="https://assets.postman.com/postman-docs/create-public-wkspc-v9.5.jpg" width="400px"/>
 
-You can also convert an existing workspace to a public workspace. Open the workspace in Postman. In the **Overview** tab, select **Workspace Settings** in the upper right. Under **Visibility**, select **Public** from the dropdown list, then **Request to Change Visibility**.
+> Within a team, you cannot have two public workspaces with the same name.
+
+You can also convert an existing workspace to a public workspace. Open the workspace in Postman. In the **Overview** tab, select **Workspace Settings** in the upper right. Under **Visibility**, select **Public** from the dropdown list, then **Update**.
+
+If you are on a Postman Professional or Enterprise plan, you need a community manager's approval to change a workspace's visibility to __Public__. In the **Overview** tab, select **Workspace Settings**. Under **Visibility**, select **Public** from the dropdown list, then **Request to Change Visibility**.
 
 <img alt="Visibility" src="https://assets.postman.com/postman-docs/workspace-settings-request-visibility-change-v9.1.0.jpg" width="400px"/>
 
-If you are on a Postman Professional or Enterprise plan, you need a community manager's approval to change a workspace's visibility to __Public__.
+Once you make a workspace public, all entities within that workspace become publicly accessible through the workspace.
+
+### Notifying workspace members
 
 When you make a workspace public, a notification is sent to all workspace members. Select the notification bell in the top right corner to view notifications.
 
 <img alt="In app notification" src="https://assets.postman.com/postman-docs/visibility-app-notification.jpg" width="500px"/>
 
-In addition to this, all users will receive an email with the workspace information regarding who has made the change and which workspace was affected. The email will also provide a direct link to the workspace.
-
-<img alt="Email notification" src="https://assets.postman.com/postman-docs/email-notification-public-workspace-v2.jpg" width="500px"/>
-
-Once you make a workspace public, all entities within that workspace become publicly accessible through the workspace.
-
-> Within a team, you cannot have two public workspaces with the same name.
+In addition to this notification, all users will receive an email with the workspace information regarding who has made the change and which workspace was affected. The email will also provide a direct link to the workspace.
 
 ## Accessing a public workspace
 
-You can access public workspaces via the [**Workspaces** category in the API Network](https://www.postman.com/explore/workspaces). You can also access personal, team, and private workspaces using the workspace selector at the top of Postman.
+You can access public workspaces using the Postman Explore page's [**Workspaces** category](https://www.postman.com/explore/workspaces). You can also access the public workspaces that you own or are a member of using the **Workspaces** selector at the top of Postman.
 
-[![Access Public Workspaces](https://assets.postman.com/postman-docs/accessing-public-workspaces.gif)](https://assets.postman.com/postman-docs/accessing-public-workspaces.gif)
-
-To view and edit your public workspace's name and summary, navigate to the workspace in Postman. In the **Overview** tab, hover over the workspace name or summary and select to edit. Changes will be saved automatically.
-
-<img alt="Create public workspace dropdown" src="https://assets.postman.com/postman-docs/workspace-edit-name-details-overview-tab-v9.1.jpg"/>
+![Access public workspaces](https://assets.postman.com/postman-docs/accessing-public-workspaces.jpg)
 
 ## Sharing a public workspace
 
@@ -98,6 +95,12 @@ You can share a public workspace by sharing its **public profile URL** directly.
 Copy the **Public profile URL** and paste it in your browser to access your workspace.
 
 <img alt="Enable public profile url" src="https://assets.postman.com/postman-docs/enable-public-profile-url.jpg"/>
+
+## Editing a public workspace
+
+To view and edit your public workspace's name and summary, navigate to the workspace in Postman. In the **Overview** tab, hover over the workspace name or summary and select to edit. Changes will be saved automatically.
+
+<img alt="Create public workspace dropdown" src="https://assets.postman.com/postman-docs/workspace-edit-name-details-overview-tab-v9.1.jpg"/>
 
 ## Adding elements to a public workspace
 
