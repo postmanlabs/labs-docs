@@ -40,9 +40,9 @@ Select **Add Domain**. Enter the domain or subdomain you'd like to add, then sel
 
 In Postman, you can select **← Back** to navigate back to your domain dashboard.
 
-<img alt="Domain dashboard" src="https://assets.postman.com/postman-docs/authentication-domain-manage-accounts-2-9.4.jpg"/>
+<img alt="Domain dashboard" src="https://assets.postman.com/postman-docs/authentication-domain-dashboard-9.5.jpg"/>
 
-Verification status will change from "Created" to "Pending" after the TXT record has been added to the domain's DNS configuration.
+Verification status will change from "Created" to "In Progress" after the TXT record has been added to the domain's DNS configuration.
 
 Postman's team will verify your requested domain and update its status to "Verified" in your domain dashboard, as well as notify your team admins via email.
 
@@ -58,11 +58,11 @@ Select **Confirm** to enable domain capture.
 
 Team admins can manage the domains and subdomains that have been added to a team by navigating to the [domain dashboard](https://go.postman.co/settings/team/domain-capture). Here, admins can add, enable, disable, or delete domains for their team at any time.
 
-<img alt="Domain dashboard" src="https://assets.postman.com/postman-docs/authentication-domain-manage-accounts-2-9.4.jpg"/>
+<img alt="Domain dashboard" src="https://assets.postman.com/postman-docs/authentication-domain-dashboard-9.5.jpg"/>
 
 In the domain dashboard, you can view your domains, their verification status, the number of unclaimed accounts associated with the domain, and if domain capture is currently enabled or disabled for the particular domain.
 
-**Unclaimed Accounts** is the number of accounts associated with a verified domain that are not a part of your Postman team. When you opt to enable **Domain authentication** for a domain, you'll be provided with a list of the unclaimed Postman accounts that will be automatically added to your team. Once enabled, the number of unclaimed accounts will go down to 0.
+**Unclaimed Accounts** is the number of accounts associated with a verified domain that are not a part of your Postman team. When you opt to enable **Domain authentication** for a domain, you'll be provided with a list of the unclaimed Postman accounts that will be automatically added to your team. Once enabled, the number of unclaimed accounts will reduce as these users log in and join your team.
 
 With domain capture enabled, any new users that sign up for Postman with your domain are automatically added to your team and can be managed in your [team dashboard](https://go.postman.co/settings/team/members).
 
