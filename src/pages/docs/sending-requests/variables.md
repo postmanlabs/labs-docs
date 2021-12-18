@@ -134,14 +134,16 @@ Variable scopes are suited to different tasks in Postman:
 
 Beyond scope, global and environment variables can be defined by type. The base type that is automatically assigned to variables in these scopes is *default* type. Users with [editor](/docs/collaborating-in-postman/roles-and-permissions/) access on a workspace (for global variables) or environment (for environment variables) can opt to change these variables from default to *secret* type.
 
-The two variable types are displayed differently in Postman:
+The two variable types that you can configure for environment and global variables are:
 
-* **Default type** is shown as plain text and has no special properties.
+* **Default type** is shown as plain text and has no additional properties.
 * **Secret type** masks the [initial and current values](#specifying-variable-detail) for all workspace members and can be used to prevent unintentional disclosure of sensitive data, including API secrets, passwords, tokens, and keys.
+
+> Postman will store environment and global variables as strings regardless of type.
 
 To set the variable type, select the Environment quick look <img alt="Environment quick look icon" src="https://assets.postman.com/postman-docs/eye.jpg" width="24px" style="vertical-align:middle;margin-bottom:5px"> in the top right of Postman. Select **Edit** to the right of environment or global variables to open the editor.
 
-<img alt="Environment editor default auth key" src="https://assets.postman.com/postman-docs/environment-editor-with-default-auth-key-1-9.5.jpg"/>
+<img alt="Environment editor with default auth key" src="https://assets.postman.com/postman-docs/environment-editor-with-default-auth-key-95-9.5.0.jpg"/>
 
 > You can also edit an environment by navigating to the workspace it resides in and selecting **Environments** from the left sidebar, then selecting your environment.
 
@@ -151,15 +153,15 @@ To set the variable type, select the Environment quick look <img alt="Environmen
 
 Select **default** next to the variable you'd like to change to open the dropdown menu, then select **secret** to update the variable type and save your changes to confirm.
 
-<img alt="Environment quick look with secret token" src="https://assets.postman.com/postman-docs/environment-editor-with-secret-auth-key-4-9.5.1.jpg"/>
+<img alt="Environment quick look with secret auth key" src="https://assets.postman.com/postman-docs/environment-editor-with-secret-auth-key-951-9.5.1.jpg"/>
 
 All workspace members can view a secret variable's initial and current values by selecting the <img alt="Eye crossed out icon" src="https://assets.postman.com/postman-docs/eye-crossed-out.jpg" width="24px" style="vertical-align:middle;margin-bottom:5px"> eye symbol to the right of the variable.
 
 Editors can change a variable's initial values, which are shared with collaborators, by selecting the <img alt="Eye crossed out icon" src="https://assets.postman.com/postman-docs/eye-crossed-out.jpg" width="24px" style="vertical-align:middle;margin-bottom:5px"> eye symbol to the right of the variable, then selecting the initial value. All collaborators can change a variable's current values by selecting the <img alt="Eye crossed out icon" src="https://assets.postman.com/postman-docs/eye-crossed-out.jpg" width="24px" style="vertical-align:middle;margin-bottom:5px"> eye symbol to the right of the variable, then selecting the current value.
 
-Editors can change the variable type from secret to default at any time, and vice versa. When you change a variable's type from secret back to default, you must confirm by selecting **Unmark as sensitive**.
+Editors can change the variable type from secret to default at any time, and vice versa. When you change a variable's type from secret back to default, you must confirm by selecting **Change type**.
 
-<img alt="Confirm unmark variable as sensitive" src="https://assets.postman.com/postman-docs/environment-unmask-var-confirmation-9.5.jpg" width="400px"/>
+<img alt="Confirm unmark variable as sensitive" src="https://assets.postman.com/postman-docs/environment-unmask-var-confirmation-9.5.0.jpg" width="400px"/>
 
 ## Defining variables
 
