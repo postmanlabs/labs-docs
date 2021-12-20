@@ -73,7 +73,7 @@ The `postman.setNextRequest()` function has no effect when you run a request usi
 
 ### Use setNextRequest() in pre-request or test scripts
 
-You can use `postman.setNextRequest()` in the pre-request script or the test script of a request. If more than one valued is assigned, the last value that is set takes precedence.
+You can use `postman.setNextRequest()` in the pre-request script or the test script of a request. If more than one value is assigned, the last value that is set takes precedence.
 
 ### Specify the next request using the request ID
 
