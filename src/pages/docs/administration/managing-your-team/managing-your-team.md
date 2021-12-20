@@ -32,7 +32,6 @@ Postman provides a number of ways to manage your team.
     * [Managing roles](#managing-roles)
 * [Invites](#invites)
     * [Inviting to a team](#inviting-to-a-team)
-    * [Inviting to team workspaces](#inviting-to-team-workspaces)
     * [Managing invitations](#managing-invitations)
 * [Changing team size](#changing-team-size)
 * [Next steps](#next-steps)
@@ -72,22 +71,6 @@ Navigate to [Manage Team](https://go.postman.co/settings/team/members) and selec
 <img alt="Invite users to team" src="https://assets.postman.com/postman-docs/team-invite-people-v9.1.0.jpg" width="350px"/>
 
 Alternatively, you can invite users to your team via links. To do so, select **Get Link**.
-
-### Inviting to team workspaces
-
-You must be a [workspace Admin](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#managing-workspace-roles) to invite others to a workspace.
-
-On the workspace's **Overview** tab, select **Workspace Settings**, and then select **Invite**. Enter the name of the people or groups you'd like to add to the workspace and select their workspace **Role**:
-
-* **Admin:** Can manage workspace resources and settings.
-* **Editor:** Can create and edit workspace resources.
-* **Viewer:** Can view, fork, and export workspace resources.
-
-Select **Send Invites**, or select **Copy Invite Link** to generate a link you can directly share with others.
-
-<img alt="Invite users" src="https://assets.postman.com/postman-docs/invite-to-workspace-gif-v9.1.gif"/>
-
-> Inviting users to a workspace will add them to your Postman team if they are not already members.
 
 ### Managing invitations
 
