@@ -38,7 +38,7 @@ There are a variety of ways to find APIs, workspaces, teams, and collections:
 * **Trending workspaces, collections, and APIs** shows entities that are the most popular in the Public API Network, based on the number of people viewing or creating forks of them.
 * The **Search Postman** box at the top of the page searches all of Postman by default, but you can also use the search controls to limit a search to only the Public API Network.
 * There are links to the left to view **Teams**, **Workspaces**, **APIs**, and **Collections**. You can sort results using the **Featured**, **Most Viewed**, and **Latest** tabs just below the header.
-   * You can also sort Collections and Workspaces by category using the filters below the header.
+    * You can also sort Collections and Workspaces by category using the filters below the header.
 
 To import a collection from a public workspace to your workspace, create a fork of it. See [forking a collection](https://learning.postman.com/docs/collaborating-in-postman/version-control-for-collections/#forking-a-collection).
 
