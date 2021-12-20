@@ -25,9 +25,6 @@ contextual_links:
   - type: link
     name: "Public Workspaces | The Exploratory"
     url: "https://youtu.be/DjGbMdqnY64"
-  - type: link
-    name: "Add Summaries and Categories on the Public API Network | Postman Level Up"
-    url: "https://youtu.be/4ulU2FZMPjQ"
 ---
 
 [Public workspaces](https://blog.postman.com/public-workspaces-why-we-created-them-what-you-can-do/) enable you to collaborate on entities with anyone across the world. Before you create a public workspace, navigate to your [team profile settings](https://go.postman.co/settings/team/general) and enable your public team profile. This will ensure your team's profile will show up on the [Public API Network](https://www.postman.com/explore).
@@ -45,7 +42,7 @@ contextual_links:
 * [Deleting a public workspace](#deleting-a-public-workspace)
 * [Managing public workspace members](#managing-public-workspace-members)
 * [Collaborating in a public workspace](#collaborating-in-a-public-workspace)
-* [Adding categories and summaries](#adding-categories-and-summaries)
+* [Adding summaries](#adding-summaries)
 * [Next steps](#next-steps)
 
 ## Creating a public workspace
@@ -170,18 +167,17 @@ For collections and environments, [create a fork](/docs/collaborating-in-postman
 
 For APIs, navigate to the API and version. Select **Definition** > **Request Access** to request an editor role.
 
-## Adding categories and summaries
+## Adding summaries
 
-Add categories and summaries to improve the visibility of your collections, APIs, and workspaces on the Public API Network.
+Add summaries to improve the visibility of your collections, APIs, and workspaces on the Public API Network.
 
-1. Select **Team > Team Settings**, and then open your team's Public profile URL.
+1. Select your **Team**, then select **View team profile**.
 1. Select the **Collections**, **APIs**, or **Workspaces** tab.
 1. Hover over an item and select **Edit listing**.
 1. Enter a brief **Summary** that describes your collection, API, or workspace.
-1. Select up to three categories.
 1. Select **Save**.
 
-![Adding categories and summaries](https://assets.postman.com/postman-docs/workspace-add-categories-v9.jpg)
+![Adding a summary](https://assets.postman.com/postman-docs/workspace-add-summary-v9.5.jpg)
 
 ## Next steps
 
