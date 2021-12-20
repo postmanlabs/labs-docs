@@ -41,18 +41,12 @@ warning: false
 
 Postman provides a variety of views and controls for managing your API projects. The Postman UI is made up of the following components:
 
-[![Postman app](https://assets.postman.com/postman-docs/app-overview-v8.jpg)](https://assets.postman.com/postman-docs/app-overview-v8.jpg)
-
 * The left sidebar provides access to your [collections](/docs/getting-started/creating-the-first-collection/), [APIs](/docs/designing-and-developing-your-api/creating-an-api/), [environments](/docs/sending-requests/managing-environments/#creating-environments), [mock servers](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/), [monitors](/docs/running-collections/scheduling-collection-runs/) and request [history](#history).
 * The header allows you to create workspaces, access reports, explore the public API network, [search](#universal-search) within Postman, view sync status and notifications, move and invite collaborators to workspaces, capture requests and cookies, access your settings, account, and [Postman plan](/docs/administration/buying/).
 * The center area is where you build and work with requests.
 * The status bar along the bottom allows you to show/hide the sidebar, [find and replace](#find-and-replace), and open the [console](/docs/sending-requests/troubleshooting-api-requests/) on the left. On the right you can launch the __Bootcamp__, collection runner, trash, two pane view, and access help resources.
 
-[![Resizing panes](https://assets.postman.com/postman-docs/resizing-panes-v8.gif)](https://assets.postman.com/postman-docs/resizing-panes-v8.gif)
-
-You can also drag to resize the panes in the Postman UI.
-
-[![Resizing panes](https://assets.postman.com/postman-docs/panes-resized-v8.gif)](https://assets.postman.com/postman-docs/panes-resized-v8.gif)
+[![Postman app](https://assets.postman.com/postman-docs/app-overview-v8.jpg)](https://assets.postman.com/postman-docs/app-overview-v8.jpg)
 
 On the right panel, you will see icons to view the documentation, comments, code and request info.
 
@@ -78,6 +72,12 @@ To open the code snippets tab, select the request under your collection and sele
 
 <img alt="Code snippets Pane" src="https://assets.postman.com/postman-docs/code-snippet-pane-v8.jpg" height="350px"/>
 
+## Resizing and collapsing panes
+
+You can also drag to resize the panes in the Postman UI.
+
+[![Resizing panes](https://assets.postman.com/postman-docs/panes-resized-v8.gif)](https://assets.postman.com/postman-docs/panes-resized-v8.gif)
+
 You can declutter your workspace by collapsing panes. Use the buttons at the bottom-left to hide the sidebar and at the bottom-right to toggle between single and two pane view.
 
 [![general layout](https://assets.postman.com/postman-docs/split-pane-view-v8.jpg)](https://assets.postman.com/postman-docs/split-pane-view-v8.jpg)
@@ -98,13 +98,13 @@ You can access universal search by selecting __Search Postman__ at the top of Po
 
 Enter your search string and change the scope of search to narrow down your search results to all of Postman, your personal or team space, or the Public API Network. You can also change the scope of your search to **Workspaces**, **Collections**, **APIs** or **Teams**.
 
-<img alt="Changing scope for universal search" src="https://assets.postman.com/postman-docs/change-scope-for-universal-search-v8.gif"/>
+![Changing scope for universal search](https://assets.postman.com/postman-docs/change-scope-for-universal-search-v9.5.jpg)
 
 > For signed in users, the default search scope on workspaces is Team and on [explore](https://www.postman.com/explore) is Public API Network. For signed out users, all results will contain only public resources since they will not have any private data.
 
 If you do not find what you are looking for in the list of results, select __Search all workspaces, collections, APIs and teams__ and you will find all the results in one page.
 
-<img alt="Search all" src ="https://assets.postman.com/postman-docs/search-all-workspaces-collections-and-teams.jpg"/>
+<img alt="Search all" src ="https://assets.postman.com/postman-docs/search-all-workspaces-collections-and-teams-v9.5.jpg"/>
 
 The left navigation on the search results page lists the scope and entity type. You can change these options to further filter your results.
 
