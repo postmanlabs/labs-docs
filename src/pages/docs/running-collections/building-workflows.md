@@ -37,7 +37,7 @@ As the name suggests, `postman.setNextRequest()` enables you to specify which re
 
 ## Setting the next request
 
-To specify the request to run next, add the following code on the **Tests** tab of a request. For `request_name`, use the name of the request you want to run next.
+To specify the request to run next, add the following code on the **Tests** tab of a request. Replace `request_name` with the name of the request you want to run next.
 
 ```js
 postman.setNextRequest("request_name");
