@@ -121,10 +121,6 @@ Depending on the entity type, the search results will contain different informat
 * For APIs, the search result contains the name and summary of the API, the API's owner (either an individual user or a team), and the type of workspace.
 * For teams, the search result contains the name and summary of the team. Select the team name and you will be redirected to the team profile.
 
-In the Public API Network, you can change the entity type to narrow down your search results. Within each of these entities, you can further filter the results based on categories.
-
-<img alt="Public API Network Categories filter" src="https://assets.postman.com/postman-docs/public-api-network-filter-categories.jpg"/>
-
 ## Find and replace
 
 In the Postman app, you can search the current workspace by selecting __Find and Replace__ in the status bar at the bottom left of Postman, or by selecting **⌘+Shift+F** or **Ctrl+Shift+F**.
