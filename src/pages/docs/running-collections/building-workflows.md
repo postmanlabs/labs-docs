@@ -47,7 +47,7 @@ Postman runs the specified request after completing the current request.
 
 ## Looping over a request
 
-If you pass the name of the current request to the `setNextRequest` function, Postman will run the current request repeatedly on a continuous loop.
+If you pass the name of the current request to the `setNextRequest` function, Postman will run the current request repeatedly.
 
 <img alt="Looping over a request" src="https://assets.postman.com/postman-docs/set-next-request-loop-v9-4.jpg" width="841px">
 
