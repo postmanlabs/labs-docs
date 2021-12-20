@@ -53,7 +53,7 @@ With these roles, you and your teammates can manage access for each individual, 
 
 ### Team roles
 
-You can [assign](/docs/administration/managing-your-team/managing-your-team/) one or more role types to team members: **Admin**, **Billing**, and **Developer**. If you are on a [Postman Professional or Enterprise plan](https://www.postman.com/pricing), you will also have the option of assigning the **Community Manager** role. If you are on a Postman Enterprise plan, an admin will additionally have the option to assign the **Super Admin** role.
+You can [assign](/docs/administration/managing-your-team/managing-your-team/) one or more role types to team members: **Admin**, **Billing**, and **Developer**. If you are on a [Postman Professional or Enterprise plan](https://www.postman.com/pricing), you will also have the option of assigning the **Community Manager** role. If you are on a Postman Enterprise plan, you will additionally have the option to assign the **Super Admin** role.
 
 Roles can be assigned based on the functions a team member requires:
 
