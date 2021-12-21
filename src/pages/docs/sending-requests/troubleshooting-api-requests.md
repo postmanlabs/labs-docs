@@ -57,7 +57,7 @@ Issue | Resolving the issue
 
 ## Debugging in the console
 
-You can use the Postman console to help debug your requests when an API isn't behaving as you expect. Keeping the console open while you work will increase the visibility of your network calls and log messages while debugging. 
+Every request sent by Postman is logged in the console, so you can view the detail of what happened when you sent a request. This means you can use the Postman console to help debug your requests when an API isn't behaving as you expect. Keeping the console open while you work will increase the visibility of your network calls and log messages while debugging.
 
 The Postman console logs the following information:
 
@@ -69,7 +69,17 @@ The Postman console logs the following information:
 
 > Monitor results are logged to a separate console. For more information on how to view logs from a monitor run, see [Viewing monitor results](/docs/monitoring-your-api/viewing-monitor-results/#console-log).
 
-Every request sent by Postman is logged in the console, so you can view the detail of what happened when you sent a request. The message will include an overview of the issue and a link to the Console, where you can access detailed info about the request.
+### Opening the console
+
+Open the console by selecting **Console** in the status bar at the bottom left of Postman. In the Postman app, you can also select **⌘+Option+C** or **Ctrl+Alt+C**.
+
+<img alt="Open the console" src="https://assets.postman.com/postman-docs/console-pane-button.jpg" width="350px"/>
+
+The console pane will open.
+
+### Viewing request errors
+
+If a request fails, Postman will display an error message in the Response pane. The message will include an overview of the issue and a link to the Console, where you can access detailed info about the request.
 
 ![Request not sent](https://assets.postman.com/postman-docs/response-error-console-link-v8.jpg)
 
@@ -77,11 +87,11 @@ Select __View in Console__ to see the request detail in the Console and find out
 
 ![Error in Console](https://assets.postman.com/postman-docs/console-pane-opened-from-response-v8.jpg)
 
-You can also open the console by selecting **Console** in the status bar at the bottom left of Postman. In the Postman app, you can also select **⌘+Option+C** or **Ctrl+Alt+C**.
 
-<img alt="Open the console" src="https://assets.postman.com/postman-docs/console-pane-button.jpg" width="350px"/>
 
-The console pane will open. You will see network information, request and response headers and body for each request, together with any console output messages coming from your scripts.
+### Navigating the console
+
+In the console, you will see network information, request and response headers and body for each request, together with any console output messages coming from your scripts.
 
 You can filter by log message type under **All Logs**, or toggle  timestamps and network information on or off.
 
