@@ -29,7 +29,9 @@ contextual_links:
 warning: false
 ---
 
-There are many possible reasons for your API requests not behaving as expected.  <!-- TODO: link to other troubleshooting guides -->
+If your API request is not behaving as expected, there can be many possible reasons. To find out what the problem is, you can use the Postman console to troubleshoot your request. This guide also lists common issues and their causes.
+
+This guide specifically discusses troubleshooting API requests. To troubleshoot issues with the Postman app, see [Troubleshooting app issues](/docs/getting-started/troubleshooting-inapp/). To troubleshoot issues with Postman monitors, see [Troubleshooting monitors](/docs/monitoring-your-api/troubleshooting-monitors/).
 
 ## Contents
 
