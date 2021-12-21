@@ -554,6 +554,10 @@ export const leftNavItems = [
             name: 'Configuring SCIM provisioning',
             url: '/docs/administration/managing-your-team/configuring-scim/',
           },
+          {
+            name: 'Configuring domain capture',
+            url: '/docs/administration/managing-your-team/configuring-domain-capture/',
+          },
         ],
       },
       {
