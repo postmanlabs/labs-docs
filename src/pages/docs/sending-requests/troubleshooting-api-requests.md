@@ -29,14 +29,12 @@ contextual_links:
 warning: false
 ---
 
-There are many possible reasons for your API requests not behaving as expected. You will see a message if Postman isn't able to send your request, or if it doesn't receive a response from the API you sent the request to.
+There are many possible reasons for your API requests not behaving as expected. You will see a message if Postman isn't able to send your request, or if it doesn't receive a response from the API you sent the request to. <!-- TODO: link to other troubleshooting guides -->
 
 ## Contents
 
 * [Common issues](#common-issues)
-* [Debugging and logs](#debugging-and-logs)
-    * [Using the console](#using-the-console)
-    * [Using the monitor console log](#using-the-monitor-console-log)
+* [Debugging in the console](#debugging-in-the-console)
 * [Getting help](#getting-help)
 
 ## Common issues
@@ -57,11 +55,19 @@ Issue | Resolving the issue
 **TLS version** | Postman supports TLS version 1.2 and higher, which [may not be supported if you are using an older browser or operating system](https://support.postman.com/hc/en-us/articles/360041392573-Deprecating-TLS-1-0-and-TLS-1-1).
 **Postman errors** | It is possible that Postman might be making invalid requests to your API server. You can confirm this by checking your server logs, if available. If you believe this is happening, get in touch with the Postman team on the [GitHub issue tracker](https://github.com/postmanlabs/postman-app-support/issues).
 
-## Debugging and logs
+## Debugging in the console
 
-You can use the [Postman console](#using-the-console) to help debug your requests when an API isn't behaving as you expect.
+You can use the Postman console to help debug your requests when an API isn't behaving as you expect. Keeping the console open while you work will increase the visibility of your network calls and log messages while debugging. 
 
-### Using the console
+The Postman console logs the following information:
+
+* The primary request that was sent, including all underlying request headers, variable values, and redirects
+* The proxy configuration and certificates used for the request
+* Network information such as IP addresses, ciphers, and protocols used
+* Log statements and asynchronous requests from test or pre-request scripts
+* The raw response sent by the server before it is processed by Postman
+
+> Monitor results are logged to a separate console. For more information on how to view logs from a monitor run, see [Viewing monitor results](/docs/monitoring-your-api/viewing-monitor-results/#console-log).
 
 Every request sent by Postman is logged in the console, so you can view the detail of what happened when you sent a request. The message will include an overview of the issue and a link to the Console, where you can access detailed info about the request.
 
@@ -71,33 +77,28 @@ Select __View in Console__ to see the request detail in the Console and find out
 
 ![Error in Console](https://assets.postman.com/postman-docs/console-pane-opened-from-response-v8.jpg)
 
-The Postman console logs the following information:
-
-* The primary request that was sent, including all underlying request headers, variable values, redirects, etc.
-* The raw response sent by the server before it's processed by Postman
-* The proxy configuration and certificates used for the request
-* The network information such as IP addresses, ciphers, and protocols used
-* Logs from `console.log()`, `console.info()`, `console.warn()` and `console.error()` and asynchronous requests from test or pre-request scripts
-
-Using log statements at appropriate locations in your test scripts will help you identify the source of any issues.
-
-You can open the console by selecting **Console** in the status bar at the bottom left of Postman. In the Postman app, you can also select **⌘+Option+C** or **Ctrl+Alt+C**.
+You can also open the console by selecting **Console** in the status bar at the bottom left of Postman. In the Postman app, you can also select **⌘+Option+C** or **Ctrl+Alt+C**.
 
 <img alt="Open the console" src="https://assets.postman.com/postman-docs/console-pane-button.jpg" width="350px"/>
 
 The console pane will open. You will see network information, request and response headers and body for each request, together with any console output messages coming from your scripts.
 
-[![Console info](https://assets.postman.com/postman-docs/console-logs-in-pane-v8.jpg)](https://assets.postman.com/postman-docs/console-logs-in-pane-v8.jpg)
-
-You can filter by log message type under **All Logs**, or toggle timestamps / network info.
+You can filter by log message type under **All Logs**, or toggle  timestamps and network information on or off.
 
 <img alt="Console options" src="https://assets.postman.com/postman-docs/console-pane-log-options-v8.jpg" width="350px"/>
 
-Keeping the console open will increase the visibility of your network calls and log messages while debugging. The console will log the last 5000 messages and 24 hours by default. Select __Clear__ to empty the list.
+The console will log the last 5000 messages and 24 hours by default. Select __Clear__ to empty the list.
 
-### Using the monitor console log
+### Using log statements
 
-To view logs from a monitor run, go to the monitor and select the **Console Log** tab. This will display monitor run details, along with the `console.log` from pre-request and test scripts. See [Viewing monitor results - console log](/docs/monitoring-your-api/viewing-monitor-results/#console-log) for more information.
+Using log statements at appropriate locations in your test scripts can help you debug your requests. Postman accepts the following log statements:
+
+* `console.log()`
+* `console.info()`
+* `console.warn()`
+* `console.error()`
+
+[![Console info](https://assets.postman.com/postman-docs/console-logs-in-pane-v8.jpg)](https://assets.postman.com/postman-docs/console-logs-in-pane-v8.jpg)
 
 ## Getting help
 
