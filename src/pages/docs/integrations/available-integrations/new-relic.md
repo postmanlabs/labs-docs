@@ -13,11 +13,11 @@ contextual_links:
   - type: section
 ---
 
-New Relic is an application performance management solution to monitor real-time and trending data for your processes or web apps. Using Postman's New Relic integration, you can send Postman monitor results to New Relic.
+New Relic is an application performance management solution to monitor real-time and trending data for your processes or web apps. Using Postman's New Relic integration, you can send [Postman monitor](/docs/monitoring-your-api/intro-monitors/) results to New Relic.
 
 Setting up a New Relic monitor integration requires you to get an API key (Ingest License key) from New Relic and configure your Postman monitors. After you set up the integration, you can view real-time alerts based on the results of your monitors.
 
-> **You can also view New Relic application performance management (APM) metrics in the Postman API Builder.** Note that viewing APM metrics is a separate integration from sending monitor results to New Relic and uses a different New Relic API key. For more information, see [Viewing New Relic metrics](/docs/designing-and-developing-your-api/observing-an-api/#viewing-new-relic-apm-metrics).
+> **You can also view New Relic application performance management (APM) metrics in the Postman API Builder.** Note that viewing APM metrics is a separate integration from sending monitor results to New Relic and uses a different New Relic API key. Learn more about [viewing New Relic APM metrics](/docs/designing-and-developing-your-api/observing-an-api/#viewing-new-relic-apm-metrics).
 
 ## Retrieving your New Relic API Key
 
@@ -29,7 +29,7 @@ If you don't already have a [New Relic account](https://newrelic.com/), you'll n
 
 <img alt="Get a New Relic Ingest key" src="https://assets.postman.com/postman-docs/new-relic-get-ingest-key-v9-6.jpg" width="1109px">
 
-> There are multiple types of API keys in New Relic. Make sure to use the Ingest License key for Postman monitor integration. For more information on API Keys in New Relic, see the [New Relic documentation](https://docs.newrelic.com/docs/apis/intro-apis/new-relic-api-keys/).
+> There are multiple types of API keys in New Relic. Make sure to use an **Ingest License** key for Postman monitor integration. For more information on API Keys in New Relic, see the [New Relic documentation](https://docs.newrelic.com/docs/apis/intro-apis/new-relic-api-keys/).
 
 ## Configuring New Relic Integration
 

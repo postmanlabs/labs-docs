@@ -2,7 +2,7 @@
 title: 'Observing an API'
 order: 81.7
 page_id: 'observing_an_api'
-updated: 2021-09-15
+updated: 2021-12-21
 warning: false
 contextual_links:
   - type: section
@@ -70,6 +70,8 @@ New Relic is an application performance management (APM) solution to monitor rea
 
 With this integration, each version of your API in Postman can be linked to multiple services from New Relic. Each service can correspond to a running instance of the API, such as beta, prod1, and prod2. You can also optionally link multiple dashboards from New Relic to your API.
 
+> **You can also send Postman monitor results to New Relic.** Note that sending monitor results to New Relic is a separate integration from viewing APM metrics and uses a different New Relic API key. Learn more about [configuring Postman monitor integration with New Relic](/docs/integrations/available-integrations/new-relic/).
+
 ### Connecting to New Relic
 
 Before beginning, you must set up APM services for each deployment of your API. See [the New Relic documentation](https://docs.newrelic.com/docs/apm/) for more details.
@@ -79,14 +81,17 @@ To connect an API to New Relic:
 1. Open an API version and select the **Monitoring** tab.
 1. Under **Connect to APM**, select **New Relic**.
 1. On the **Authenticate** tab:
-    1. Enter a nickname.
-    1. Enter a New Relic User API Key. For more information, see the [New Relic documentation](https://docs.newrelic.com/docs/apis/intro-apis/new-relic-api-keys/).
-    1. Select your New Relic region.
-    1. Select **Authenticate**.
+    * Enter a nickname.
+    * Enter a New Relic User API Key.
+
+        > There are multiple types of API keys in New Relic. Make sure to use a **User** key for connecting an API to New Relic. For more information on API Keys in New Relic, see the [New Relic documentation](https://docs.newrelic.com/docs/apis/intro-apis/new-relic-api-keys/).
+
+    * Select your New Relic region.
+    * Select **Authenticate**.
 1. On the **Select Services** tab:
-    1. Select one or more of your New Relic APM services.
-    1. Optionally, select one or more of your New Relic Dashboards.
-    1. Select **Connect**.
+    * Select one or more of your New Relic APM services.
+    * Optionally, select one or more of your New Relic Dashboards.
+    * Select **Connect**.
 
 ### Using the APM dashboard
 
