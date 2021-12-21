@@ -74,7 +74,7 @@ With this integration, each version of your API in Postman can be linked to mult
 
 ### Connecting to New Relic
 
-Before beginning, you must set up APM services for each deployment of your API. See [the New Relic documentation](https://docs.newrelic.com/docs/apm/) for more details.
+Before beginning, you must set up APM services for each deployment of your API. See [the New Relic APM documentation](https://docs.newrelic.com/docs/apm/) for more details.
 
 To connect an API to New Relic:
 
@@ -84,7 +84,7 @@ To connect an API to New Relic:
     * Enter a nickname.
     * Enter a New Relic User API Key.
 
-        > There are multiple types of API keys in New Relic. Make sure to use a **User** key for connecting an API to New Relic. For more information on API Keys in New Relic, see the [New Relic documentation](https://docs.newrelic.com/docs/apis/intro-apis/new-relic-api-keys/).
+        > There are multiple types of API keys in New Relic. Make sure to use a **User** key for connecting an API to New Relic. For more information on API Keys in New Relic, see the [New Relic API keys documentation](https://docs.newrelic.com/docs/apis/intro-apis/new-relic-api-keys/).
 
     * Select your New Relic region.
     * Select **Authenticate**.
@@ -96,6 +96,15 @@ To connect an API to New Relic:
 ### Using the APM dashboard
 
 Once your New Relic connection is established, the **Monitoring** tab will show a table of your services, along with their latency, error rate, apdex (ratio of successful to total requests), and health status.
+
+Health status is based on violations of alert conditions in New Relic, as shown in the table below. For more information, see the New Relic documentation for [viewing alert violations](https://docs.newrelic.com/docs/alerts-applied-intelligence/new-relic-alerts/alert-violations/view-alert-violations-our-products/).
+
+| Status | Description |
+| ----------- | ----------- |
+| Healthy | No entity has violations and there are no alerts |
+| Warning | An entity has a warning violation in progress |
+| Critical | An entity has a critical violation in progress |
+| Not configured | No entity is configured for alerting |
 
 You can also select **Dashboard Quicklinks** to choose a link to any of your configured New Relic dashboards. The links will open the dashboard page in New Relic in a new browser window.
 
