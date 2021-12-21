@@ -2,6 +2,7 @@
 title: "Troubleshooting requests"
 order: 29.2
 page_id: "troubleshooting_api_requests"
+updated: 2021-12-22
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -112,7 +113,7 @@ Issue | Resolving the issue
 
 ## Getting help
 
-If you are still having problems with your request, there are a few options for you to get help with it:
+If you are still having problems with your request, there are a few options for you to get help:
 
 * Ask for community help in the [Postman forum](https://community.postman.com/).
 * If you think the problem is with the Postman app, search the [issue tracker](https://github.com/postmanlabs/postman-app-support/issues) on GitHub to check if someone has already reported the issue and whether there is a known solution.
