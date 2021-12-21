@@ -31,7 +31,7 @@ warning: false
 
 If your API request is not behaving as expected, there can be many possible reasons. To find out what the problem is, you can use the Postman console to troubleshoot your request. This guide also lists common issues and their causes.
 
-This guide specifically discusses troubleshooting API requests. To troubleshoot issues with the Postman app, see [Troubleshooting app issues](/docs/getting-started/troubleshooting-inapp/). To troubleshoot issues with Postman monitors, see [Troubleshooting monitors](/docs/monitoring-your-api/troubleshooting-monitors/).
+> This guide specifically discusses troubleshooting API requests. To troubleshoot issues with the Postman app, see [Troubleshooting app issues](/docs/getting-started/troubleshooting-inapp/). To troubleshoot issues with Postman monitors, see [Troubleshooting monitors](/docs/monitoring-your-api/troubleshooting-monitors/).
 
 ## Contents
 
@@ -75,7 +75,7 @@ Select __View in Console__ to see the request detail in the console and find out
 
 In the console, you will see network information, request and response headers and body for each request, together with any console output messages coming from your scripts.
 
-You can filter by log message type under **All Logs**, or toggle  timestamps and network information on or off.
+Filter by log message type under **All Logs**. Select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> to toggle timestamps and network information on or off.
 
 <img alt="Console options" src="https://assets.postman.com/postman-docs/console-pane-log-options-v8.jpg" width="350px"/>
 
@@ -101,14 +101,14 @@ Issue | Resolving the issue
 **Connectivity** | If Postman fails to send your request, you may be experiencing connectivity issues. Check your connection by attempting to open a page in your web browser.
 **Firewalls** | Some firewalls may be configured to block non-browser connections. If this happens you will need to contact your network administrators for Postman to work.
 **Proxy configuration** | If you are using a proxy server to make requests, check your configuration. By default, Postman uses the proxy settings configured in your operating system's network settings. The [Postman console](#debugging-in-the-console) will provide debugging information regarding proxy servers.
-**SSL certificates** | You may experience issues using HTTPS connections. You can turn off SSL certificate verification in [**Settings**](/docs/getting-started/settings/) > **General**. If that does't help, your server might be using a client-side SSL connection, which you can configure in **Settings > Certificates**. Use the [Postman console](#debugging-in-the-console) to ensure that the correct SSL certificate is being sent to the server.
-**Client certificates** | Client certificates may be required for your API server. You can [add a client certificate](/docs/sending-requests/certificates/) in [Settings](/docs/getting-started/settings/) > **Certificates**.
+**SSL certificates** | You may experience issues using HTTPS connections. You can turn off SSL certificate verification in [Settings](/docs/getting-started/settings/) by selecting <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-gear-outline-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> > **Settings** > **General**. If that does't help, your server might be using a client-side SSL connection, which you can configure in <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-gear-outline-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> > **Settings > Certificates**. Use the [Postman console](#debugging-in-the-console) to ensure that the correct SSL certificate is being sent to the server.
+**Client certificates** | Client certificates may be required for your API server. You can [add a client certificate](/docs/sending-requests/certificates/) in [Settings](/docs/getting-started/settings/) by selecting <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-gear-outline-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> > **Settings** > **Certificates**.
 **Incorrect request URLs** | If you are using variables or path parameters with your request, make sure the final address is structure correctly by opening the [console](#debugging-in-the-console), which will display the URL your request was sent to when it executed. Unresolved request variables can result in invalid server addresses.
 **Incorrect protocol** | Check if you're using `https://` instead of `http://` in your URL (or the opposite).
-**Short timeouts** | If you configure a short timeout in Postman, the request could be timing out before completion, resulting in an error. Try increasing the timeout to avoid this issue in [**Settings**](/docs/getting-started/settings/) > **General**.
+**Short timeouts** | If you configure a short timeout in Postman, the request could be timing out before completion, resulting in an error. Try increasing the timeout to avoid this issue in [Settings](/docs/getting-started/settings/) by selecting <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-gear-outline-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> > **Settings** > **General**.
 **Invalid responses** | If your server sends incorrect response encoding errors, or invalid headers, Postman may fail to interpret the response.
 **TLS version** | Postman supports TLS version 1.2 and higher, which [may not be supported if you are using an older browser or operating system](https://support.postman.com/hc/en-us/articles/360041392573-Deprecating-TLS-1-0-and-TLS-1-1).
-**Postman errors** | It is possible that Postman might be making invalid requests to your API server. You can confirm this by checking your server logs, if available. If you believe this is happening, get in touch with the Postman team on the [GitHub issue tracker](https://github.com/postmanlabs/postman-app-support/issues).
+**Postman errors** | It is possible that Postman might be making invalid requests to your API server. You can confirm this by checking your server logs, if available. If you believe this is happening, contact the Postman team using the [GitHub issue tracker](https://github.com/postmanlabs/postman-app-support/issues).
 
 ## Getting help
 
