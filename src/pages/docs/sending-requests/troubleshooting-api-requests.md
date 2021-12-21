@@ -112,4 +112,8 @@ Issue | Resolving the issue
 
 ## Getting help
 
-If you still can't get your requests to work, you can ask for help in the [Postman forum](https://community.postman.com/). If you've tried troubleshooting and think the problem is with Postman, search the [issue tracker](https://github.com/postmanlabs/postman-app-support/issues) on GitHub to check if someone has already reported the issue (and whether there is a known solution that you can use). If you're reporting a new issue, check out the [guidelines](https://github.com/postmanlabs/postman-app-support/#guidelines-for-reporting-issues). If you need to include confidential data, you can file a ticket with Postman [support](https://support.postman.com/hc/en-us), including your console logs to help troubleshoot.
+If you are still having problems with your request, there are a few options for you to get help with it:
+
+* Ask for community help in the [Postman forum](https://community.postman.com/).
+* If you think the problem is with the Postman app, search the [issue tracker](https://github.com/postmanlabs/postman-app-support/issues) on GitHub to check if someone has already reported the issue and whether there is a known solution.
+* If you need to include confidential data, file a ticket with [Postman support](https://support.postman.com/hc/en-us), including your console logs.
