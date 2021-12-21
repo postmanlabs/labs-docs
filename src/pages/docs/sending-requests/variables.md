@@ -132,12 +132,12 @@ Variable scopes are suited to different tasks in Postman:
 
 ## Variable types
 
-Beyond scope, global and environment variables can be defined by type. The base type that is automatically assigned to variables in these scopes is *default* type. Users with [editor](/docs/collaborating-in-postman/roles-and-permissions/) access on a workspace (for global variables) or environment (for environment variables) can opt to change these variables from default to *secret* type.
+Beyond scope, global and environment variables can be defined by type. The two variable types that you can configure for environment and global variables are:
 
-The two variable types that you can configure for environment and global variables are:
-
-* **Default type** is shown as plain text and has no additional properties.
+* **Default type** is the base type that is automatically assigned to variables. This type is shown as plain text and has no additional properties.
 * **Secret type** masks the [initial and current values](#specifying-variable-detail) for all workspace members and can be used to prevent unintentional disclosure of sensitive data, including API secrets, passwords, tokens, and keys.
+
+Users with [editor](/docs/collaborating-in-postman/roles-and-permissions/) access on a workspace (for global variables) or environment (for environment variables) can opt to change these variables from default to *secret* type.
 
 > Postman will store environment and global variables as strings regardless of type.
 
