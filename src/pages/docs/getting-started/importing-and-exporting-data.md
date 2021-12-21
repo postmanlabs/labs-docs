@@ -2,7 +2,7 @@
 title: 'Importing and exporting data'
 order: 8.2
 page_id: 'importing_and_exporting_data'
-updated: 2021-12-15
+updated: 2021-12-20
 contextual_links:
   - type: section
     name: "Additional Resources"
@@ -73,9 +73,9 @@ You can import collections or your API specifications directly into Postman.
 
 To import your data into Postman, select **Import** in upper left:
 
-![Import modal](https://assets.postman.com/postman-docs/import-export-import-ui-next.jpg)
+![Import UI](https://assets.postman.com/postman-docs/import-export-import-ui-v9-6.jpg)
 
-You can import your data from files, folders, links, raw text, or GitHub repositories.
+You can import your data from files, folders, links, raw text, or code repositories.
 
 ### Importing Postman data
 
@@ -121,18 +121,13 @@ See the [Postman Collection Transformer](https://github.com/postmanlabs/postman-
 Postman directly supports importing the following formats:
 
 * [OpenAPI 3.0](https://github.com/postmanlabs/openapi-to-postman)
-
 * Swagger [1.2](https://github.com/postmanlabs/swagger1-to-postman) and [2.0](https://github.com/postmanlabs/swagger2-postman2-lambda)
-
-* RAML [0.8](https://github.com/postmanlabs/raml-to-postman) and [1.0](https://github.com/postmanlabs/raml1-to-postman)
-
-* [WSDL 1.1 and 2.0](https://github.com/postmanlabs/wsdl-to-postman)
-
 * [GraphQL](https://github.com/postmanlabs/graphql-to-postman)
-
-* WADL
-
 * [cURL](https://github.com/postmanlabs/curl-to-postman)
+* RAML [0.8](https://github.com/postmanlabs/raml-to-postman) and [1.0](https://github.com/postmanlabs/raml1-to-postman)
+* [WSDL 1.1 and 2.0](https://github.com/postmanlabs/wsdl-to-postman)
+* [HTTP Archive (HAR)](https://github.com/postmanlabs/har-to-postman)
+* Web Application Description Language (WADL)
 
 There are also tools on GitHub to convert the following into a Postman collection for import:
 

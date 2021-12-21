@@ -139,7 +139,7 @@ To change the visibility of a public workspace, change the visibility dropdown t
 
 ## Managing public workspace members
 
-If you're a team administrator you can add or remove any member from your public workspace via the **Members** tab. To add members to a public workspace, see [Inviting to team workspaces](/docs/administration/managing-your-team/managing-your-team/#inviting-to-team-workspaces).
+If you're a team administrator you can add or remove any member from your public workspace via the **Members** tab. To add members to a public workspace, see [Sharing workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#sharing-workspaces).
 
 Another way to add workspace members is to click **Manage Team** and select **Invite Users**.
 

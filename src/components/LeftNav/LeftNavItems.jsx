@@ -715,6 +715,10 @@ export const leftNavItems = [
             url: '/docs/integrations/available-integrations/aws-api-gateway/',
           },
           {
+            name: 'Azure DevOps',
+            url: '/docs/integrations/available-integrations/azure-devops/',
+          },
+          {
             name: 'BigPanda',
             url: '/docs/integrations/available-integrations/bigpanda/',
           },
