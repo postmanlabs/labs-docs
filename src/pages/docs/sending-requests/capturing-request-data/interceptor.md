@@ -86,7 +86,17 @@ You can use Interceptor to capture and sync cookies and requests to Postman.
 
 > You can only have a single proxy or interceptor debug session running at the same time.
 
-<!--TODO: cookies and requests are not on different tabs anymore. You configure everything in one place and then start the session. Could these two heads be removed, and a single procedure be used for the session setup? -->
+<!--TODO: cookies and requests are not on different tabs anymore. You configure everything in one place and then start the session. Could these two heads be removed, and a single procedure be used for the session setup?
+
+New items:
+
+* **Capture Cookies**
+* **Save requests to**
+* **URL must contain**
+* **Methods**
+
+these won't show up unless your connection to Interceptor is on.
+-->
 
 ### Syncing cookies
 
