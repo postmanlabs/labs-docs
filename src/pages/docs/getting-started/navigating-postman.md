@@ -2,6 +2,7 @@
 title: "Navigating Postman"
 order: 3
 page_id: "navigating_postman"
+updated: 2021-12-22
 contextual_links:
   - type: section
     name: "Prerequisites"
