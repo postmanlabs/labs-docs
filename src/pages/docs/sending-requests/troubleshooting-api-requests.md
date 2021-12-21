@@ -29,31 +29,13 @@ contextual_links:
 warning: false
 ---
 
-There are many possible reasons for your API requests not behaving as expected. You will see a message if Postman isn't able to send your request, or if it doesn't receive a response from the API you sent the request to. <!-- TODO: link to other troubleshooting guides -->
+There are many possible reasons for your API requests not behaving as expected.  <!-- TODO: link to other troubleshooting guides -->
 
 ## Contents
 
-* [Common issues](#common-issues)
 * [Debugging in the console](#debugging-in-the-console)
+* [Common issues](#common-issues)
 * [Getting help](#getting-help)
-
-## Common issues
-
-If your issue with sending a request is not listed here, see [Getting help](#getting-help) for information how to to contact Postman support.
-
-Issue | Resolving the issue
---- | ---
-**Connectivity** | If Postman fails to send your request, you may be experiencing connectivity issues. Check your connection by attempting to open a page in your web browser.
-**Firewalls** | Some firewalls may be configured to block non-browser connections. If this happens you will need to contact your network administrators for Postman to work.
-**Proxy configuration** | If you are using a proxy server to make requests, check your configuration. By default, Postman uses the proxy settings configured in your operating system's network settings. The [Postman Console](#using-the-console) will provide debugging information regarding proxy servers.
-**SSL certificates** | You may experience issues using HTTPS connections. You can turn off SSL certificate verification in [**Settings**](/docs/getting-started/settings/) > **General**. If that does't help, your server might be using a client-side SSL connection, which you can configure in **Settings > Certificates**. Use the [Postman Console](#using-the-console) to ensure that the correct SSL certificate is being sent to the server.
-**Client certificates** | Client certificates may be required for your API server. You can [add a client certificate](/docs/sending-requests/certificates/) in [Settings](/docs/getting-started/settings/) > **Certificates**.
-**Incorrect request URLs** | If you are using variables or path parameters with your request, make sure the final address is structure correctly by opening the [Console](#using-the-console), which will display the URL your request was sent to when it executed. Unresolved request variables can result in invalid server addresses.
-**Incorrect protocol** | Check if you're using `https://` instead of `http://` in your URL (or the opposite).
-**Short timeouts** | If you configure a short timeout in Postman, the request could be timing out before completion, resulting in an error. Try increasing the timeout to avoid this issue in [**Settings**](/docs/getting-started/settings/) > **General**.
-**Invalid responses** | If your server sends incorrect response encoding errors, or invalid headers, Postman may fail to interpret the response.
-**TLS version** | Postman supports TLS version 1.2 and higher, which [may not be supported if you are using an older browser or operating system](https://support.postman.com/hc/en-us/articles/360041392573-Deprecating-TLS-1-0-and-TLS-1-1).
-**Postman errors** | It is possible that Postman might be making invalid requests to your API server. You can confirm this by checking your server logs, if available. If you believe this is happening, get in touch with the Postman team on the [GitHub issue tracker](https://github.com/postmanlabs/postman-app-support/issues).
 
 ## Debugging in the console
 
@@ -79,15 +61,13 @@ The console pane will open.
 
 ### Viewing request errors
 
-If a request fails, Postman will display an error message in the Response pane. The message will include an overview of the issue and a link to the Console, where you can access detailed info about the request.
+You will see an error message if Postman isn't able to send your request, or if it doesn't receive a response from the API you sent the request to. This message will include an overview of the issue and a link to the Console, where you can access detailed info about the request.
 
 ![Request not sent](https://assets.postman.com/postman-docs/response-error-console-link-v8.jpg)
 
 Select __View in Console__ to see the request detail in the Console and find out more about what went wrong.
 
 ![Error in Console](https://assets.postman.com/postman-docs/console-pane-opened-from-response-v8.jpg)
-
-
 
 ### Navigating the console
 
@@ -109,6 +89,24 @@ Using log statements at appropriate locations in your test scripts can help you 
 * `console.error()`
 
 [![Console info](https://assets.postman.com/postman-docs/console-logs-in-pane-v8.jpg)](https://assets.postman.com/postman-docs/console-logs-in-pane-v8.jpg)
+
+## Common issues
+
+If your issue with sending a request is not listed here, see [Getting help](#getting-help) for information how to to contact Postman support.
+
+Issue | Resolving the issue
+--- | ---
+**Connectivity** | If Postman fails to send your request, you may be experiencing connectivity issues. Check your connection by attempting to open a page in your web browser.
+**Firewalls** | Some firewalls may be configured to block non-browser connections. If this happens you will need to contact your network administrators for Postman to work.
+**Proxy configuration** | If you are using a proxy server to make requests, check your configuration. By default, Postman uses the proxy settings configured in your operating system's network settings. The [Postman Console](#using-the-console) will provide debugging information regarding proxy servers.
+**SSL certificates** | You may experience issues using HTTPS connections. You can turn off SSL certificate verification in [**Settings**](/docs/getting-started/settings/) > **General**. If that does't help, your server might be using a client-side SSL connection, which you can configure in **Settings > Certificates**. Use the [Postman Console](#using-the-console) to ensure that the correct SSL certificate is being sent to the server.
+**Client certificates** | Client certificates may be required for your API server. You can [add a client certificate](/docs/sending-requests/certificates/) in [Settings](/docs/getting-started/settings/) > **Certificates**.
+**Incorrect request URLs** | If you are using variables or path parameters with your request, make sure the final address is structure correctly by opening the [Console](#using-the-console), which will display the URL your request was sent to when it executed. Unresolved request variables can result in invalid server addresses.
+**Incorrect protocol** | Check if you're using `https://` instead of `http://` in your URL (or the opposite).
+**Short timeouts** | If you configure a short timeout in Postman, the request could be timing out before completion, resulting in an error. Try increasing the timeout to avoid this issue in [**Settings**](/docs/getting-started/settings/) > **General**.
+**Invalid responses** | If your server sends incorrect response encoding errors, or invalid headers, Postman may fail to interpret the response.
+**TLS version** | Postman supports TLS version 1.2 and higher, which [may not be supported if you are using an older browser or operating system](https://support.postman.com/hc/en-us/articles/360041392573-Deprecating-TLS-1-0-and-TLS-1-1).
+**Postman errors** | It is possible that Postman might be making invalid requests to your API server. You can confirm this by checking your server logs, if available. If you believe this is happening, get in touch with the Postman team on the [GitHub issue tracker](https://github.com/postmanlabs/postman-app-support/issues).
 
 ## Getting help
 
