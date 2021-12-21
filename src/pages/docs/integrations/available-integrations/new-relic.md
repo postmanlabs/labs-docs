@@ -2,6 +2,7 @@
 title: "New Relic"
 order: 174
 page_id: "new_relic"
+updated: 2021-12-21
 warning: false
 contextual_links:
   - type: section
@@ -12,51 +13,56 @@ contextual_links:
   - type: section
 ---
 
-New Relic is an application performance management solution to monitor real-time and trending data for your processes or web apps.
-You can use Postman's New Relic integration and configure your Postman monitors to send metrics to New Relic.
+New Relic is an application performance management solution to monitor real-time and trending data for your processes or web apps. Using Postman's New Relic integration, you can send Postman monitor results to New Relic.
 
-Setting up a New Relic integration requires you to get an API key from New Relic and configure your Postman Monitors. After you set up the integration, you can view real-time alerts based on the results of your monitors.
+Setting up a New Relic monitor integration requires you to get an API key (Ingest License key) from New Relic and configure your Postman monitors. After you set up the integration, you can view real-time alerts based on the results of your monitors.
 
-If you don't already have a [New Relic account](https://newrelic.com/), you'll need to create one.
+> **You can also view New Relic application performance management (APM) metrics in the Postman API Builder.** Note that viewing APM metrics is a separate integration from sending monitor results to New Relic and uses a different New Relic API key. For more information, see [Viewing New Relic metrics](/docs/designing-and-developing-your-api/observing-an-api/#viewing-new-relic-apm-metrics).
 
 ## Retrieving your New Relic API Key
 
+If you don't already have a [New Relic account](https://newrelic.com/), you'll need to create one. Then follow the steps below to retrieve your Ingest License key from New Relic:
+
 1. Log in to [New Relic](https://login.newrelic.com).
-1. Select your avatar icon in the upper right of the page.
-1. On the user menu, select **API keys**.
-1. On the **API keys** page, go to the **Not seeing your keys?** heading and click **Insights Insert Keys**.
-  ![New Relic API keys](https://assets.postman.com/postman-docs/new-relic-key-1.jpg)
-1. Select **Show** to the right of an existing key and copy it, or select **+** to create a new key.
-  ![New Relic API keys](https://assets.postman.com/postman-docs/new-relic-key-2.jpg)
+1. Select your user avatar in the upper right corner, and the select **API keys**.
+1. Select the three dots next to the **INGEST - LICENSE** key and then select **Copy**.
 
-> There are multiple API key types in New Relic. The account level API Keys cannot be used for inserting  data into New Relic. Insights Insert Keys must be used.
+<img alt="Get a New Relic Ingest key" src="https://assets.postman.com/postman-docs/new-relic-get-ingest-key-v9-6.jpg" width="1109px">
 
-For more information on API Keys in New Relic, see [the New Relic documentation](https://docs.newrelic.com/docs/apis/intro-apis/new-relic-api-keys/).
+> There are multiple types of API keys in New Relic. Make sure to use the Ingest License key for Postman monitor integration. For more information on API Keys in New Relic, see the [New Relic documentation](https://docs.newrelic.com/docs/apis/intro-apis/new-relic-api-keys/).
 
 ## Configuring New Relic Integration
 
 1. From the **[Home](https://go.postman.co/home)** page select **[Integrations](https://go.postman.co/integrations)**.
-1. Search and select **New Relic**.
-1. Select **Add Integration** to create your New Relic integration.
-  ![new relic add integration](https://assets.postman.com/postman-docs/new-relic-add-integration.jpg)
-1. Enter a nickname for the integration.
-1. Select a workspace from the list which contains the monitor you want to use.
-1. Select the monitor you wish to use from the list.
-1. In **New Relic API key**, enter the API key you copied above.
+1. Select **Browse All Integrations**, and then search for **New Relic**.
+1. There are two New Relic integrations available in Postman. Select the option labeled **Bring Postman monitor results into New Relic**.
+
+    <img alt="Select New Relic monitor integration" src="https://assets.postman.com/postman-docs/new-relic-search-integration-v9-6.jpg" width="1124px">
+
+1. Select **Add Integration**.
+
+    <img alt="Add New Relic monitor integration" src="https://assets.postman.com/postman-docs/new-relic-add-integration-v9-6.jpg" width="1124px">
+
+1. Enter a **Nickname** for this integration.
+1. Type or select the name of the workspace that contains the monitor you want to use.
+1. Select the monitor you want to use.
+1. For **New Relic API key**, enter the Ingest License key you copied from New Relic.
 1. Select a New Relic region. New Relic offers US and EU region instances. See the [New Relic documentation](https://docs.newrelic.com/docs/using-new-relic/welcome-new-relic/get-started/our-eu-us-region-data-centers) for more information.
-1. Select the **Add Integration** button.
+1. Select **Add Integration**.
 
 ## Viewing data in New Relic
 
-As soon as your monitor runs, Postman will start sending metrics data to New Relic. Once the data is present in New Relic, you can query it and display metrics. In New Relic, click **Query your data** and click **Metrics**. You can then search for metrics that begin with `postman` and form simple queries for the graph displayed. There is also a Query builder for more sophisticated searches.
+As soon as your monitor runs, Postman starts sending metrics data to New Relic. Once the data is present in New Relic, you can query and display metrics.
 
-![New Relic metrics](https://assets.postman.com/postman-docs/new-relic-metrics.jpg)
+In New Relic, select **Browse data** and then select **Metrics**. To view Postman monitor results, search for metrics that begin with `postman`. You can create simple queries to customize the graph displayed, and there is also a query builder for advanced searches.
 
-You can also add one or more charts to a dashboard, tracking key metrics over time. For more information see [the dashboard documentation](https://docs.newrelic.com/docs/query-your-data/explore-query-data/dashboards/introduction-dashboards/) in New Relic.
+<img alt="View data in New Relic" src="https://assets.postman.com/postman-docs/new-relic-metrics.jpg" width="351px">
+
+> You can add one or more charts to a dashboard, tracking key metrics over time. For more information, see the [New Relic dashboard documentation](https://docs.newrelic.com/docs/query-your-data/explore-query-data/dashboards/introduction-dashboards/).
 
 ## Metrics pushed to New Relic
 
-The following metrics and their values are pushed from Postman to New Relic. Run-level metrics comprise metrics valid for the entire run - the number of errors, for example. Request-level metrics send data for each request within the collection. You can filter to each specific request using the dimensions passed along with the metric.
+The following metrics and their values are pushed from Postman to New Relic. Run-level metrics are valid for the entire run (for example, the number of errors). Request-level metrics send data for each request in the collection used by the monitor. You can filter for each specific request using the dimensions passed along with the metric.
 
 | Metric | Description |
 |--------|--------|
@@ -75,7 +81,7 @@ The following metrics and their values are pushed from Postman to New Relic. Run
 
 ## Dimension attributes
 
-There are several attributes can be used as dimensions when viewing metrics in New Relic. For example, you could add `monitor.name` or `user.name` to show separate lines for the monitor or user shown in the graph. The following example pivots latency data with regions:
+Several attributes can be used as dimensions when viewing metrics in New Relic. For example, add `monitor.name` or `user.name` to show separate lines for the monitor or user in the graph. The following example pivots latency data with regions:
 
 [![New Relic filters](https://assets.postman.com/postman-docs/new-relic-query.jpg)](https://assets.postman.com/postman-docs/new-relic-query.jpg)
 
@@ -93,7 +99,3 @@ The following attributes can be used as dimensions:
 - `request.name`
 - `user.id`
 - `user.name`
-
-## Viewing New Relic APM metrics in the Postman API builder
-
-Postman also has another integration that enables you to continuously import New Relic application performance management (APM) metrics into the Postman API Builder. For more information, see [Viewing New Relic metrics](/docs/designing-and-developing-your-api/observing-an-api/#viewing-new-relic-apm-metrics).
