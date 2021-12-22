@@ -10,7 +10,6 @@ import SEO from '../components/seo';
 import './doc.scss';
 import 'prismjs/themes/prism-tomorrow.css';
 import pose from '../assets/pose-learning-center.svg';
-import $ from 'jquery';
 
 const { v4: uuidv4 } = require('uuid');
 
