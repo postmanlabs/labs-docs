@@ -6,13 +6,17 @@ import './styles/config/print.css'
 import $ from 'jquery';
 import 'jquery.scrollto';
 
-  // Enables sections to display right beneath the navbar when deep linking
-  if (window.location.hash) {
-    setTimeout(() => {
-      $.scrollTo($(window.location.hash), {
-        offset: {top: -80}
-      });
-    }, 100);
-  } else {
-    window.scrollTo(0, 0);
+
+  export const onClientEntry = () => {
+    if (!window.location.hash) {
+      window.scrollTo(0, 0);
+    } else {
+      // Race condition with default browser behavior for deep links.
+      setTimeout(() => {
+        $.scrollTo($(window.location.hash), {
+          offset: {top: -80}
+        });
+      }, 1000)
+    }
   }
+  
