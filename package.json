@@ -84,7 +84,7 @@
     "bff": "NODE_ENV=development node bff.js",
     "build": "npm run bff && GATSBY_NEWRELIC_ENV=production GATSBY_ACTIVE_ENV=development gatsby build",
     "build:dev": "npm run build",
-    "build:nvmrc": "echo $(node -p -e 'require(\"./package\").engines.node.split(\">=\").join(\"\")') > .nvmrc",
+    "nvmrc": "echo $(node -p -e 'require(\"./package\").engines.node.split(\">=\").join(\"\")') > .nvmrc",
     "build:prod": "NODE_ENV=production node bff.js && GATSBY_NEWRELIC_ENV=production GATSBY_ACTIVE_ENV=production gatsby build",
     "clean": "gatsby clean",
     "dev": "npm run bff && gatsby develop",

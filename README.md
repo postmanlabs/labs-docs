@@ -22,6 +22,8 @@ We would love for you to contribute to the Learning Center! To contribute to thi
 
    $ git clone https://github.com/postmanlabs/postman-docs.git
    $ cd postman-docs
+   $ npm run nvmrc
+   $ nvm use
    $ npm install
    $ npm install -g gatsby-cli
    $ npm run dev
