@@ -84,7 +84,7 @@ To connect an API to New Relic:
     * Enter a nickname.
     * Enter a New Relic User API Key.
 
-        > There are multiple types of API keys in New Relic. Make sure to use a **User** key for connecting an API to New Relic. For more information on API Keys in New Relic, see the [New Relic API keys documentation](https://docs.newrelic.com/docs/apis/intro-apis/new-relic-api-keys/).
+        > There are multiple types of API keys in New Relic. Make sure to use a **User** key for connecting an API to New Relic. For more information on API keys in New Relic, see the [New Relic API keys documentation](https://docs.newrelic.com/docs/apis/intro-apis/new-relic-api-keys/).
 
     * Select your New Relic region.
     * Select **Authenticate**.
