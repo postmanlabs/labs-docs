@@ -88,7 +88,7 @@ You can access public workspaces using the Postman Explore page's [**Workspaces*
 
 You can share a public workspace by sharing its **public profile URL** directly. To access the public profile URL, navigate to your **Team**, then select **Team Settings**.
 
-<img alt="View team settings" src="https://assets.postman.com/postman-docs/view-team-settings-for-public-profile.jpg" height="400px"/>
+![View team settings](https://assets.postman.com/postman-docs/view-team-settings-for-public-profile.jpg)
 
 Copy the **Public profile URL** and paste it in your browser to access your workspace.
 
@@ -117,7 +117,7 @@ When you remove an element from a public workspace, it is no longer visible in t
 
 From Postman, you can remove a collection from the sidebar. Select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> to open the collection menu. Select **Remove from workspace** and confirm that you would like to remove the collection from the current workspace. The collection will no longer be visible in the workspace.
 
-<img alt="Removing a collection to public workspace" src="https://assets.postman.com/postman-docs/remove-collection-public-workspace.jpg" height="500px"/>
+![Removing a collection to public workspace](https://assets.postman.com/postman-docs/remove-collection-public-workspace.jpg)
 
 To remove an environment from the sidebar, select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to the environment menu or select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to the Share button in the Environment tab. Select **Remove from workspace** and confirm that you would like to remove the environment from the current workspace. The environment will no longer be visible in the workspace.
 
