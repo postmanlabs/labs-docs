@@ -11,7 +11,6 @@ import './doc.scss';
 import 'prismjs/themes/prism-tomorrow.css';
 import pose from '../assets/pose-learning-center.svg';
 import $ from 'jquery';
-import 'jquery.scrollto';
 
 const { v4: uuidv4 } = require('uuid');
 
@@ -20,18 +19,6 @@ const DocPage = ({ data }) => {
   let contextualLinks;
   if (post.frontmatter.contextual_links) {
     contextualLinks = <ContextualLinks key={uuidv4()} links={post.frontmatter.contextual_links} />;
-  }
-  // Enables sections to display right beneath the navbar when deep linking
-  if (typeof window !== 'undefined') {
-    if (window.location.hash && window.location.hash !== undefined) {
-      setTimeout(() => {
-        $.scrollTo($(window.location.hash), {
-          offset: { top: -80 }
-        });
-      }, 100);
-    } else {
-      window.scrollTo(0, 0);
-    }
   }
   return (
     <Layout>
