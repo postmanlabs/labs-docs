@@ -7,16 +7,15 @@ import $ from 'jquery';
 import 'jquery.scrollto';
 
 
-  export const onClientEntry = () => {
-    if (!window.location.hash) {
-      window.scrollTo(0, 0);
-    } else {
-      // Race condition with default browser behavior for deep links.
-      setTimeout(() => {
-        $.scrollTo($(window.location.hash), {
-          offset: {top: -80}
-        });
-      }, 1000)
-    }
+export const onClientEntry = () => {
+  if (!window.location.hash) {
+    window.scrollTo(0, 0);
+  } else {
+    // Race condition with default browser behavior for deep links.
+    setTimeout(() => {
+      $.scrollTo($(window.location.hash), {
+        offset: { top: -80 }
+      });
+    }, 1000)
   }
-  
+}
