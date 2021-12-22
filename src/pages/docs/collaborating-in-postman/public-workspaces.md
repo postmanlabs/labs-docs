@@ -96,7 +96,9 @@ Copy the **Public profile URL** and paste it in your browser to access your work
 
 ## Editing a public workspace
 
-To view and edit your public workspace's name and summary, navigate to the workspace in Postman. In the **Overview** tab, hover over the workspace name or summary and select to edit. Changes will be saved automatically.
+To view and edit your public workspace's name and summary, navigate to the workspace in Postman. In the **Overview** tab, hover over the workspace name or summary and select to edit. Changes to the workspace name and summary will be saved automatically.
+
+To update the workspace's visibility or to delete the workspace, select **Workspace Settings**.
 
 <img alt="Create public workspace dropdown" src="https://assets.postman.com/postman-docs/workspace-edit-name-details-overview-tab-v9.1.jpg"/>
 
@@ -172,9 +174,9 @@ For APIs, navigate to the API and version. Select **Definition** > **Request Acc
 
 Add summaries to improve the visibility of your collections, APIs, and workspaces on the Public API Network.
 
-1. Select your **Team**, then select **View team profile**.
+1. Navigate to your team page by selecting your team name from **Home**, then selecting **View team profile**.
 1. Select the **Collections**, **APIs**, or **Workspaces** tab.
-1. Hover over an item and select **Edit listing**.
+1. Hover over an item and select <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> **Edit listing**.
 1. Enter a brief **Summary** that describes your collection, API, or workspace.
 1. Select **Save**.
 

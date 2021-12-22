@@ -40,18 +40,20 @@ warning: false
 
 ---
 
-Postman provides a variety of views and controls for managing your API projects. The Postman UI is made up of the following components:
+Postman provides a variety of views and controls for managing your API projects.
+
+[![Postman app](https://assets.postman.com/postman-docs/app-overview-v9.5.jpg)](https://assets.postman.com/postman-docs/app-overview-v9.5.jpg)
+
+The Postman UI is made up of the following components:
 
 * The left sidebar provides access to your [collections](/docs/getting-started/creating-the-first-collection/), [APIs](/docs/designing-and-developing-your-api/creating-an-api/), [environments](/docs/sending-requests/managing-environments/#creating-environments), [mock servers](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/), [monitors](/docs/running-collections/scheduling-collection-runs/) and request [history](#history).
 * The header allows you to create workspaces, access reports, explore the public API network, [search](#universal-search) within Postman, view sync status and notifications, move and invite collaborators to workspaces, capture requests and cookies, access your settings, account, and [Postman plan](/docs/administration/buying/).
 * The center area is where you build and work with requests.
 * The status bar along the bottom allows you to show/hide the sidebar, [find and replace](#find-and-replace), and open the [console](/docs/sending-requests/troubleshooting-api-requests/) on the left. On the right you can launch the __Bootcamp__, collection runner, trash, two pane view, and access help resources.
 
-[![Postman app](https://assets.postman.com/postman-docs/app-overview-v8.jpg)](https://assets.postman.com/postman-docs/app-overview-v8.jpg)
-
 On the right panel, you will see icons to view the documentation, comments, code and request info.
 
-<img alt="Right panel icons" src="https://assets.postman.com/postman-docs/right-panel-view-v8.jpg" height="300px"/>
+<img alt="Right panel icons" src="https://assets.postman.com/postman-docs/right-panel-view-v8.jpg" width="300px"/>
 
 To open the documentation tab, select the request under your collection and select the Documentation icon <img alt="Mini docs icon" src="https://assets.postman.com/postman-docs/mini-docs-icon-v8.jpg" width="25px"/> on the right panel.
 
@@ -59,7 +61,7 @@ To open the documentation tab, select the request under your collection and sele
 
 Select __View complete collection documentation__ to open the documentation in a new tab.
 
-<img alt="Overview Documentation" src="https://assets.postman.com/postman-docs/documentation-pane-v8.jpg" height="400px"/>
+<img alt="Overview Documentation" src="https://assets.postman.com/postman-docs/documentation-pane-v8.jpg" width="400px"/>
 
 To publish a documentation for a collection, see [Publishing your documentation](/docs/publishing-your-api/publishing-your-docs/).
 
@@ -71,7 +73,7 @@ To learn more about comments, see [Commenting on collections](/docs/collaboratin
 
 To open the code snippets tab, select the request under your collection and select the Code icon on the right panel. See more on [Generating code snippets](/docs/sending-requests/generate-code-snippets/).
 
-<img alt="Code snippets Pane" src="https://assets.postman.com/postman-docs/code-snippet-pane-v8.jpg" height="350px"/>
+<img alt="Code snippets Pane" src="https://assets.postman.com/postman-docs/code-snippet-pane-v8.jpg" width="350px"/>
 
 ## Resizing and collapsing panes
 
@@ -138,7 +140,7 @@ Postman will search tabs, collections, and variables. You can select an item dir
 
 You can access a history of the requests you've made in Postman in the __History__ tab on the left of Postman. If you're signed into a Postman account, your history will sync across devices.
 
-<img alt="History Request" src="https://assets.postman.com/postman-docs/history-request-v8.jpg" height="400px"/>
+<img alt="History Request" src="https://assets.postman.com/postman-docs/history-request-v8.jpg" width="400px"/>
 
 Select a request to open it again. Select __+__ to save the request to a collection. Toggle __Save Responses__ to save request responses so that you can view what was returned by a request when you open it from your history.
 
