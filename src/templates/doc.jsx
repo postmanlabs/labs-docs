@@ -23,7 +23,7 @@ const DocPage = ({ data }) => {
   }
   // Enables sections to display right beneath the navbar when deep linking
   if (typeof window !== 'undefined') {
-    if (window.location.hash) {
+    if (window.location.hash && window.location.hash !== undefined) {
       setTimeout(() => {
         $.scrollTo($(window.location.hash), {
           offset: { top: -80 }
