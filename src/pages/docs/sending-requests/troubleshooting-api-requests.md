@@ -60,8 +60,6 @@ Open the console by selecting **Console** in the status bar at the bottom left o
 
 <img alt="Open the console" src="https://assets.postman.com/postman-docs/console-pane-button.jpg" width="350px"/>
 
-The console pane will open.
-
 ### Viewing request errors from the console
 
 You will see an error message if Postman isn't able to send your request, or if it doesn't receive a response from the API you sent the request to. This message will include an overview of the issue and a link to the console, where you can access detailed information about the request.
