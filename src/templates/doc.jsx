@@ -25,7 +25,7 @@ const DocPage = ({ data }) => {
   if (window.location.hash) {
     setTimeout(() => {
       $.scrollTo($(window.location.hash), {
-        offset: {top: -90}
+        offset: {top: -80}
       });
     }, 100);
   } else {
