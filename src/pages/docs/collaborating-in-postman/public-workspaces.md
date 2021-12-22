@@ -130,7 +130,7 @@ To change the visibility of a public workspace, change the visibility dropdown t
 
 ## Managing public workspace members
 
-If you're a team administrator you can add or remove any member from your public workspace via the **Members** tab. To add members to a public workspace, see [Sharing workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#sharing-workspaces).
+If you're a team administrator you can add or remove any member from your public workspace using the **Members** tab. To add members to a public workspace, see [Sharing workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#sharing-workspaces).
 
 Another way to add workspace members is to select **Manage Team** and select **Invite Users**.
 
@@ -154,7 +154,7 @@ Select **X** next to the team member you want to remove from the public workspac
 
 To collaborate on entities within a public workspace, open the workspace menu and select the workspace.
 
-For collections and environments, [create a fork](/docs/collaborating-in-postman/version-control-for-collections/#forking-a-collection) and request to merge changes via a [pull request](/docs/collaborating-in-postman/version-control-for-collections/#creating-pull-requests).
+For collections and environments, [create a fork](/docs/collaborating-in-postman/version-control-for-collections/#forking-a-collection) and request to merge changes using a [pull request](/docs/collaborating-in-postman/version-control-for-collections/#creating-pull-requests).
 
 For APIs, navigate to the API and version. Select **Definition** > **Request Access** to request an editor role.
 
