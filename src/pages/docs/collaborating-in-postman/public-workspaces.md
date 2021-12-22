@@ -106,17 +106,10 @@ To update the workspace's visibility or to delete the workspace, select **Worksp
 
 You can add existing collections and environments to another public workspace by sharing them.
 
-To share a collection to a public workspace, open it via Collections on the left-hand side, select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> > **Share collection**.
-
-<img alt="Adding an collection to public workspace" src="https://assets.postman.com/postman-docs/share-collection-public-workspace.jpg" height="500px"/>
-
-To share an environment, open it via Environments on the left-hand side, select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> > **Share environment**.
-
-<img alt="Adding an environment to public workspace" src="https://assets.postman.com/postman-docs/share-environment-public-workspace.jpg" height="400px"/>
+* To share a _collection_ to a public workspace, open it using Collections on the left side, then select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> > **Share collection**.
+* To share an _environment_ to a public workspace, open it using Environments on the left side, then select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> > **Share environment**.
 
 Select the public workspace you want to share to, and choose whether you also want to remove the element from its current workspace. Select **Share and Continue**.
-
-<img alt="Share element to public workspace" src="https://assets.postman.com/postman-docs/share-element-to-public-workspace.jpg" height="400px"/>
 
 ## Removing elements from a public workspace
 
