@@ -22,16 +22,17 @@ const DocPage = ({ data }) => {
     contextualLinks = <ContextualLinks key={uuidv4()} links={post.frontmatter.contextual_links} />;
   }
   // Enables sections to display right beneath the navbar when deep linking
-  if (window.location.hash) {
-    setTimeout(() => {
-      $.scrollTo($(window.location.hash), {
-        offset: {top: -80}
-      });
-    }, 100);
-  } else {
-    window.scrollTo(0, 0);
+  if (typeof window !== 'undefined') {
+    if (window.location.hash) {
+      setTimeout(() => {
+        $.scrollTo($(window.location.hash), {
+          offset: { top: -80 }
+        });
+      }, 100);
+    } else {
+      window.scrollTo(0, 0);
+    }
   }
-
   return (
     <Layout>
       <SEO title={post.frontmatter.title} slug={post.fields.slug} />
