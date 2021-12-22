@@ -16,12 +16,6 @@ body {
   text-rendering: geometricPrecision;
   letter-spacing: -0.16px;
 }
-/** * Firefox specific rule */
-@-moz-document url-prefix() {
-  body {
-    font-weight: lighter !important;
-  }
-}
 
 code {
   font-family: $ibm;
@@ -36,17 +30,6 @@ h3,
   font-family: $degular;
   font-weight: 600;
   font-feature-settings: 'kern' 1, 'ss01' 1, 'salt' 1;
-}
-/** * Firefox specific rule */
-@-moz-document url-prefix() {
-  h1,
-  .h1,
-  h2,
-  .h2,
-  h3,
-  .h3 {
-    font-weight: lighter !important;
-  }
 }
 
 h4,
