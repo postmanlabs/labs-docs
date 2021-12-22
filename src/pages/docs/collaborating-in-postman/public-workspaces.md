@@ -134,17 +134,17 @@ If you're a team administrator you can add or remove any member from your public
 
 Another way to add workspace members is to select **Manage Team** and select **Invite Users**.
 
-<img alt="add workspace members public workspace (2)" src="https://assets.postman.com/postman-docs/manage-team-v8.jpg"/>
+![Add workspace members to a public workspace](https://assets.postman.com/postman-docs/manage-team-v8.jpg)
 
 Enter an email address, select **Add** to the team, select the roles you would like to assign to them, then select **Send Invitations**. You can also generate a link and invite people to your team by sharing the link with them.
 
-<img alt="Edit members for a public workspace" src="https://assets.postman.com/postman-docs/edit-member-public-workspace.jpg"/>
+![Edit members for a public workspace](https://assets.postman.com/postman-docs/edit-member-public-workspace.jpg)
 
 > Team members will receive an email and in-app notification when added to a public workspace.
 
 To remove any team member, select <img alt="External link icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg" width="12px" style="vertical-align:middle;margin-bottom:5px"> (the delete icon) next to the individual you want to remove from the workspace, and select **Remove User From Team**.
 
-<img alt="Remove team members for a public workspace" src="https://assets.postman.com/postman-docs/remove-member-public-workspace.jpg"/>
+![Remove team members for a public workspace](https://assets.postman.com/postman-docs/remove-member-public-workspace.jpg)
 
 Select **X** next to the team member you want to remove from the public workspace, and select **Save**.
 
