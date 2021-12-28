@@ -31,7 +31,7 @@ contextual_links:
 
 Postman allows all users to collaborate with their teams through Team Workspaces. Using this feature, you can easily collaborate and share your collections, environments, integrations, history, mocks, monitors, and more.
 
-Postman will alert you with notifications when activities occur within your team and workspace. You can view and opt in or out notifications by selecting your avatar in the upper-right corner of Postman and clicking **Notification Preferences**.
+Postman will alert you with notifications when activities occur within your team and workspace. You can view and opt in or out notifications by selecting your avatar in the upper-right corner of Postman and selecting **Notification Preferences**.
 
 ## Contents
 
@@ -93,7 +93,7 @@ You can enable team discovery in the dashboard by selecting **Team** > **Team Se
 
 > Team admins will receive an email notification when team discovery is enabled.
 
-You can optionally add a question for pending team members to answer when they request to join your team. Enter your question and click __Update Question__—anyone requesting to join the team will be prompted with the question.
+You can optionally add a question for pending team members to answer when they request to join your team. Enter your question and select **Update Question**. Anyone who requests to join the team will be prompted with the question.
 
 > If you do not specify a question, team members can still add a note when they ask to join.
 
@@ -107,7 +107,7 @@ When you log in to the Postman web dashboard using a verified email address for 
 
 [![Choose Team](https://assets.postman.com/postman-docs/join-team-from-list.jpg)](https://assets.postman.com/postman-docs/join-team-from-list.jpg)
 
-You will see a list of available teams within your org. Select a team, answer the question set by the team admin if there is one (otherwise you can add an optional note), and click **Request to join**.
+You will see a list of available teams within your org. Select a team, answer the question set by the team admin if there is one (otherwise you can add an optional note), and select **Request to join**.
 
 <img alt="Team Join Question" src="https://assets.postman.com/postman-docs/team-join-question-entry.jpg" width="400px"/>
 
@@ -121,17 +121,19 @@ You can leave a Postman team by navigating to your [Postman Dashboard](https://g
 
 > If your team has [SCIM configured](/docs/administration/managing-your-team/configuring-scim/), you must contact your Postman team admins to leave the team.
 
+When you leave a team, you no longer have access to the team's workspaces or any of the elements in them. You will still have access to your personal workspaces.
+
 If you are the last member to leave your team, you will have the option to transfer collections to a personal workspace.
 
 <img src="https://assets.postman.com/postman-docs/leave-and-delete-team.jpg" alt="Leave and delete team" width="400px"/>
 
-> If you are invited to a new team and you are the last in your current team, all team data will be transferred to your personal default workspace.
+> If you are invited to a new team and you are the last member in your current team, all team data will be transferred to your personal default workspace.
 
 ## Usage limit
 
 You can check your usage limits within Postman. Free users can select the drop-down menu to the right of **Upgrade** in the app. Paid users can access the menu by selecting a team name.
 
-The usage menu allows you to review limits for APIs, shared requests and history, mocks, monitors, and public documentation. Click **Resource Usage** to view your usage period.
+The usage menu allows you to review limits for APIs, shared requests and history, mocks, monitors, and public documentation. Select **Resource Usage** to view your usage period.
 
 [![usage info](https://assets.postman.com/postman-docs/Screen%20Shot%202019-11-11%20at%205.38.16%20PM.png)](https://assets.postman.com/postman-docs/Screen%20Shot%202019-11-11%20at%205.38.16%20PM.png)
 
@@ -151,7 +153,7 @@ Postman indicates the number of archived collections at the bottom of the left s
 
 To recover archived collections, select **Archived Collections**.
 
-You will then be directed to your dashboard, where you can click **Download your data** > **Request data export** > **Request an archive**.
+You will then be directed to your dashboard. Select **Download your data** > **Request data export** > **Request an archive**.
 [![export data1](https://assets.postman.com/postman-docs/Recovering_ArchivedCol1.png)](https://assets.postman.com/postman-docs/Recovering_ArchivedCol1.png)
 
 You will then be able to select **Download** to retrieve your archived data.
