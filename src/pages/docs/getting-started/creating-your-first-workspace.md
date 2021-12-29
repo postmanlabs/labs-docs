@@ -19,29 +19,28 @@ Postman workspaces allow you to organize and collaborate on API projects with yo
 
 When you first open Postman, you will be in your default personal workspace, but you can create more workspaces for your personal use and to collaborate with teammates. To create additional workspaces, you need to be signed into a [Postman account](/docs/getting-started/postman-account/).
 
-## Accessing existing workspaces
-
-To access your workspaces, select **Workspaces** in the upper left. You can search for existing workspaces using the search bar or select one from the dropdown list.
-
-<img alt="Change workspace or create new" src="https://assets.postman.com/postman-docs/workspace-switcher-v9.1.jpg" width="300px"/>
-
 ## Creating a new workspace
 
-Select **Create Workspace** to add a new workspace.
+1. Select **Workspaces** in the upper left. Select **Create Workspace** to add a new workspace.
 
-<img alt="Create team workspace" src="https://assets.postman.com/postman-docs/create-workspace-v9.1.jpg" width="500px"/>
+    <img alt="Change workspace or create new" src="https://assets.postman.com/postman-docs/workspace-switcher-v9.1.jpg" width="300px"/>
 
-Enter a **Name** and optional **Summary** for your workspace, then determine its visibility.
+    > You can also search for existing workspaces using the search bar or select one from the dropdown list.
 
-You can choose a **Team** workspace if you plan to invite collaborators, a **Personal** workspace, or a **Private** workspace which is only visible to the user who created it and team members who have been invited to join it.
+1. Enter a **Name** and optional **Summary** for your workspace.
+1. Choose the workspace's visibility:
+    * A **Team** workspace allows you to invite collaborators.
+    * A **Personal** workspace is only visible and accessible to you.
+    * A **Private** workspace is only visible to you and to any team members you invite to join it.
+1. Select **Create Workspace**.
 
-Select **Create Workspace**.
+    <img alt="Create team workspace" src="https://assets.postman.com/postman-docs/create-workspace-v9.1.jpg" width="500px"/>
 
-Postman will switch to your new workspace when you create it. Move between workspaces at any time by selecting from the dropdown **Workspaces** list in the upper left.
+Postman will switch to your new workspace when you create it. You can move between workspaces at any time by selecting from the dropdown **Workspaces** list in the upper left.
 
 ## Next steps
 
-After you create a new workspace, you can select **Invite** to [invite](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#sharing-workspaces) people to join your new workspace. 
+After you create a new workspace, you can select **Invite** to [invite](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#sharing-workspaces) people to join your new workspace.
 
 <img alt="Change workspace with newly created in view" src="https://assets.postman.com/postman-docs/workspace-switcher-with-new-wkspc-v9.1.jpg" width="300px"/>
 
