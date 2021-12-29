@@ -25,17 +25,17 @@ To access your workspaces, select **Workspaces** in the upper left. You can sear
 
 <img alt="Change workspace or create new" src="https://assets.postman.com/postman-docs/workspace-switcher-v9.1.jpg" width="300px"/>
 
-Click __Create Workspace__ to add a new workspace.
+Select **Create Workspace** to add a new workspace.
 
 <img alt="Create team workspace" src="https://assets.postman.com/postman-docs/create-workspace-v9.1.jpg" width="500px"/>
 
-Enter a __Name__ and optional __Summary__ for your workspace, then determine its visibility.
+Enter a **Name** and optional **Summary** for your workspace, then determine its visibility.
 
-You can choose a __Team__ workspace if you plan to invite collaborators, a __Personal__ workspace, or a __Private__ workspace which is only visible to the user who created it and team members who have been invited to join it.
+You can choose a **Team** workspace if you plan to invite collaborators, a **Personal** workspace, or a **Private** workspace which is only visible to the user who created it and team members who have been invited to join it.
 
-Select __Create Workspace__.
+Select **Create Workspace**.
 
-Postman will switch to your new workspace when you create it. You can then start working or [__Invite__](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#sharing-workspaces) people to join your new workspace. Move between workspaces at any time by selecting from the dropdown **Workspaces** list in the upper left.
+Postman will switch to your new workspace when you create it. You can then start working or [**Invite**](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#sharing-workspaces) people to join your new workspace. Move between workspaces at any time by selecting from the dropdown **Workspaces** list in the upper left.
 
 <img alt="Change workspace with newly created in view" src="https://assets.postman.com/postman-docs/workspace-switcher-with-new-wkspc-v9.1.jpg" width="300px"/>
 
