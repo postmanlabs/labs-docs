@@ -2,6 +2,7 @@
 title: "Troubleshooting requests"
 order: 29.2
 page_id: "troubleshooting_api_requests"
+updated: 2021-12-22
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -29,90 +30,89 @@ contextual_links:
 warning: false
 ---
 
-There are many possible reasons for your API requests not behaving as expected. You will see a message if Postman isn't able to send your request, or if it doesn't receive a response from the API you sent the request to. The message will include an overview of the issue and a link to the Console, where you can access detailed info about the request.
+If your API request is not behaving as expected, there can be many possible reasons. To find out what the problem is, you can use the Postman console to troubleshoot your request. This guide also lists common issues and their causes.
 
-![Request not sent](https://assets.postman.com/postman-docs/response-error-console-link-v8.jpg)
-
-Select __View in Console__ to see the request detail in the Console and find out more about what went wrong.
-
-![Error in Console](https://assets.postman.com/postman-docs/console-pane-opened-from-response-v8.jpg)
+> This guide specifically discusses troubleshooting API requests. To troubleshoot issues with the Postman app, see [Troubleshooting app issues](/docs/getting-started/troubleshooting-inapp/). To troubleshoot issues with Postman monitors, see [Troubleshooting monitors](/docs/monitoring-your-api/troubleshooting-monitors/).
 
 ## Contents
 
+* [Debugging in the console](#debugging-in-the-console)
 * [Common issues](#common-issues)
-* [Debugging and logs](#debugging-and-logs)
-    * [Using the console](#using-the-console)
-    * [Accessing console logs](#accessing-console-logs)
-    * [Using the monitor console log](#using-the-monitor-console-log)
 * [Getting help](#getting-help)
 
-## Common issues
+## Debugging in the console
 
-* __Connectivity__
-    * If Postman fails to send your request, you may be experiencing connectivity issues. Check your connection by attempting to open a page in your web browser.
-* __Firewalls__
-    * Some firewalls may be configured to block non-browser connections. If this happens you will need to contact your network administrators for Postman to work.
-* __Proxy configuration__
-    * If you are using a proxy server to make requests, check your configuration. By default, Postman uses the proxy settings configured in your operating system's network settings. The Postman Console will provide debugging information regarding proxy servers.
-* __SSL certificates__
-    * You may experience issues using HTTPS connections. You can turn off SSL verification in the Postman Settings. If that does't help, your server might be using a client-side SSL connection, which you can configure in [Postman Settings](/docs/getting-started/settings/). Use the Postman Console to ensure that the correct SSL certificate is being sent to the server.
-* __Client certificates__
-    * Client certificates may be required for your API server. You can [add a client certificate](/docs/sending-requests/certificates/) in the [Postman Settings](/docs/getting-started/settings/).
-* __Incorrect request URLs__
-    * If you are using variables or path parameters with your request, make sure the final address is structure correctly by opening the Console, which will display the URL your request was sent to when it executed. Unresolved request variables can result in invalid server addresses.
-* __Incorrect protocol__
-    * Check if you're using `https://` instead of `http://` in your URL (or vice versa).
-* __Postman errors__
-    * It is possible that Postman might be making invalid requests to your API server. You can confirm this by checking your server logs (if available). If you believe this is happening, get in touch with the Postman team on the [GitHub issue tracker](https://github.com/postmanlabs/postman-app-support/issues).
-* __Short timeouts__
-    * If you configure a short timeout in Postman, the request could be timing out before completion, resulting in an error. Try increasing the timeout to avoid this issue.
-* __Invalid responses__
-    * If your server sends incorrect response encoding errors, or invalid headers, Postman may fail to interpret the response.
-
-> Postman supports TLS version 1.2 or higher, which [may not be supported if you are using an older browser or operating system](https://support.postman.com/hc/en-us/articles/360041392573-Deprecating-TLS-1-0-and-TLS-1-1).
-
-## Debugging and logs
-
-The Postman console helps debug your requests when an API isn't behaving as you expect. If you think the issue may be with Postman itself, the DevTools console provides internal debugging information you can also check out.
-
-### Using the console
-
-Every request sent by Postman is logged in the console, so you can view the detail of what happened when you sent a request.
+Every request sent by Postman is logged in the console, so you can view the detail of what happened when you sent a request. This means you can use the Postman console to help debug your requests when an API isn't behaving as you expect. Keeping the console open while you work will increase the visibility of your network calls and log messages while debugging.
 
 The Postman console logs the following information:
 
-* The primary request that was sent, including all underlying request headers, variable values, redirects, etc.
-* The raw response sent by the server before it's processed by Postman
+* The primary request that was sent, including all underlying request headers, variable values, and redirects
 * The proxy configuration and certificates used for the request
-* The network information such as IP addresses, ciphers, and protocols used
-* Logs from `console.log()`, `console.info()`, `console.warn()` and `console.error()` and asynchronous requests from test or pre-request scripts
+* Network information such as IP addresses, ciphers, and protocols used
+* Log statements and asynchronous requests from test or pre-request scripts
+* The raw response sent by the server before it is processed by Postman
 
-Using log statements at appropriate locations in your test scripts will help you identify the source of any issues.
+> Monitor results are logged to a separate console. For more information on how to view logs from a monitor run, see [Viewing monitor results](/docs/monitoring-your-api/viewing-monitor-results/#console-log).
 
-You can open the console by selecting **Console** in the status bar at the bottom left of Postman. In the Postman app, you can also select **⌘+Option+C** or **Ctrl+Alt+C**.
+### Opening the console
+
+Open the console by selecting **Console** in the status bar at the bottom left of Postman. In the Postman app, you can also select **⌘+Option+C** or **Ctrl+Alt+C**.
 
 <img alt="Open the console" src="https://assets.postman.com/postman-docs/console-pane-button.jpg" width="350px"/>
 
-The console pane will open. You will see network information, request and response headers and body for each request, together with any console output messages coming from your scripts.
+### Viewing request errors from the console
 
-[![Console info](https://assets.postman.com/postman-docs/console-logs-in-pane-v8.jpg)](https://assets.postman.com/postman-docs/console-logs-in-pane-v8.jpg)
+You will see an error message if Postman isn't able to send your request, or if it doesn't receive a response from the API you sent the request to. This message will include an overview of the issue and a link to the console, where you can access detailed information about the request.
 
-You can filter by log message type under **All Logs**, or toggle timestamps / network info.
+![Request not sent](https://assets.postman.com/postman-docs/response-error-console-link-v8.jpg)
+
+Select __View in Console__ to see the request detail in the console and find out more about what went wrong.
+
+![Error in Console](https://assets.postman.com/postman-docs/console-pane-opened-from-response-v8.jpg)
+
+### Navigating the console
+
+In the console, you will see network information, request and response headers and body for each request, together with any console output messages coming from your scripts.
+
+Filter by log message type under **All Logs**. Select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> to toggle timestamps and network information on or off.
 
 <img alt="Console options" src="https://assets.postman.com/postman-docs/console-pane-log-options-v8.jpg" width="350px"/>
 
-Keeping the console open will increase the visibility of your network calls and log messages while debugging. The console will log the last 5000 messages and 24 hours by default. Select __Clear__ to empty the list.
+The console will log the last 5000 messages and 24 hours by default. Select __Clear__ to empty the list.
 
-### Accessing console logs
+### Using log statements
 
-The DevTools console provides additional internal debugging entries for the Postman app.
+Using log statements at appropriate locations in your test scripts can help you debug your requests. Postman accepts the following log statements:
 
-To access the DevTools console logs, open the __View__ menu and select __Show DevTools__. In the DevTools window, click __Console__ to see the app debug logs.
+* `console.log()`
+* `console.info()`
+* `console.warn()`
+* `console.error()`
 
-### Using the monitor console log
+[![Console info](https://assets.postman.com/postman-docs/console-logs-in-pane-v8.jpg)](https://assets.postman.com/postman-docs/console-logs-in-pane-v8.jpg)
 
-To view logs from a monitor run, go to the monitor and select the **Console Log** tab. This will display monitor run details, along with the `console.log` from pre-request and test scripts. See [Viewing monitor results - console log](/docs/monitoring-your-api/viewing-monitor-results/#console-log) for more information.
+## Common issues
+
+If your issue with sending a request is not listed here, see [Getting help](#getting-help) for information how to to contact Postman support.
+
+Issue | Resolving the issue
+--- | ---
+**Connectivity** | If Postman fails to send your request, you may be experiencing connectivity issues. Check your connection by attempting to open a page in your web browser.
+**Firewalls** | Some firewalls may be configured to block non-browser connections. If this happens you will need to contact your network administrators for Postman to work.
+**Proxy configuration** | If you are using a proxy server to make requests, check your configuration. By default, Postman uses the proxy settings configured in your operating system's network settings. The [Postman console](#debugging-in-the-console) will provide debugging information regarding proxy servers.
+**SSL certificates** | You may experience issues using HTTPS connections. You can turn off SSL certificate verification in [Settings](/docs/getting-started/settings/) by selecting <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-gear-outline-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> > **Settings** > **General**. If that does't help, your server might be using a client-side SSL connection, which you can configure in <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-gear-outline-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> > **Settings > Certificates**. Use the [Postman console](#debugging-in-the-console) to ensure that the correct SSL certificate is being sent to the server.
+**Client certificates** | Client certificates may be required for your API server. You can [add a client certificate](/docs/sending-requests/certificates/) in [Settings](/docs/getting-started/settings/) by selecting <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-gear-outline-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> > **Settings** > **Certificates**.
+**Incorrect request URLs** | If you are using variables or path parameters with your request, make sure the final address is structure correctly by opening the [console](#debugging-in-the-console), which will display the URL your request was sent to when it executed. Unresolved request variables can result in invalid server addresses.
+**Incorrect protocol** | Check if you're using `https://` instead of `http://` in your URL (or the opposite).
+**Short timeouts** | If you configure a short timeout in Postman, the request could be timing out before completion, resulting in an error. Try increasing the timeout to avoid this issue in [Settings](/docs/getting-started/settings/) by selecting <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-gear-outline-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> > **Settings** > **General**.
+**Invalid responses** | If your server sends incorrect response encoding errors, or invalid headers, Postman may fail to interpret the response.
+**TLS version** | Postman supports TLS version 1.2 and higher, which [may not be supported if you are using an older browser or operating system](https://support.postman.com/hc/en-us/articles/360041392573-Deprecating-TLS-1-0-and-TLS-1-1).
+**Postman errors** | It is possible that Postman might be making invalid requests to your API server. You can confirm this by checking your server logs, if available. If you believe this is happening, contact the Postman team using the [GitHub issue tracker](https://github.com/postmanlabs/postman-app-support/issues).
 
 ## Getting help
 
-If you still can't get your requests to work, you can ask for help in the [Postman forum](https://community.postman.com/). If you've tried troubleshooting and think the problem is with Postman, search the [issue tracker](https://github.com/postmanlabs/postman-app-support/issues) on GitHub to check if someone has already reported the issue (and whether there is a known solution that you can use). If you're reporting a new issue, check out the [guidelines](https://github.com/postmanlabs/postman-app-support/#guidelines-for-reporting-issues). If you need to include confidential data, you can file a ticket with Postman [support](https://support.postman.com/hc/en-us), including your console logs to help troubleshoot.
+If you are still having problems with your request, there are a few options for you to get help:
+
+* Ask for community help in the [Postman forum](https://community.postman.com/).
+* If you think the problem is with the Postman app, search the [issue tracker](https://github.com/postmanlabs/postman-app-support/issues) on GitHub to check if someone has already reported the issue and whether there is a known solution.
+* If you need to include confidential data, file a ticket with [Postman support](https://support.postman.com/hc/en-us), including your console logs.
