@@ -139,7 +139,7 @@ Beyond scope, global and environment variables can be defined by type. The two v
 
 Users with [editor](/docs/collaborating-in-postman/roles-and-permissions/) access on a workspace (for global variables) or environment (for environment variables) can opt to change these variables from default to secret type.
 
-> Postman will store environment and global variables as strings regardless of type.
+> Postman will store environment and global variables as default regardless of type.
 
 To set the variable type, select the Environment quick look <img alt="Environment quick look icon" src="https://assets.postman.com/postman-docs/eye.jpg" width="24px" style="vertical-align:middle;margin-bottom:5px"> in the top right of Postman. Select **Edit** to the right of environment or global variables to open the editor.
 
