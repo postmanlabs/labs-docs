@@ -32,37 +32,25 @@ Postman Interceptor is a Chrome extension that acts as a browser companion to Po
 
 Once Interceptor is running in Chrome, you can start a debug session, which is a time-bound session of traffic capture. You can start, pause, and stop an interceptor debug session, then later start another one. Each debug session is logged in the **History** tab, and displays the total session time, and all traffic captured. You can also send requests and responses to a collection, and save cookies to the Postman cookie jar.
 
-If you are using the Postman Chrome app, refer to [Using the Interceptor with Postman's Chrome app](#using-the-interceptor-with-postmans-chrome-app).
-
 ## Contents
 
 * [Installing Interceptor](#installing-interceptor)
-
 * [Using Interceptor](#using-interceptor)
-
     * [Syncing cookies](#syncing-cookies)
-
     * [Capturing requests](#capturing-requests)
-
 * [How it works](#how-it-works)
-
     * [Troubleshooting tips](#troubleshooting-tips)
-
 * [Security](#security)
-
     * [Adding a custom encryption key in the UI](#adding-a-custom-encryption-key-in-the-ui)
-
     * [Adding a custom encryption key with the pm API](#adding-a-custom-encryption-key-with-the-pm-api)
-
 * [Updating Interceptor](#updating-interceptor)
-
 * [Using Interceptor with Postman's Chrome app](#using-the-interceptor-with-postmans-chrome-app)
 
 ## Installing Interceptor
 
 To get started, you'll need to first install Postman Interceptor:
 
-1. [Download](https://go.pstmn.io/interceptor-download) Interceptor in the Chrome Web Store. If you already have the extension, ensure it is version v0.2.26 or later.<!--TODO: what version? It's currently 1.1.2-->
+1. [Download](https://go.pstmn.io/interceptor-download) Interceptor in the Chrome Web Store. If you already have the extension, ensure it is version v0.2.26 or later.
 
 1. In the Postman app, select the **Capture Requests** icon in the Postman footer.
 
@@ -70,41 +58,79 @@ To get started, you'll need to first install Postman Interceptor:
 
 1. On the **Capture Requests** window, select the **Via Interceptor** tab.
 
-3. Select **Install Interceptor Bridge** to download the Bridge, an independent executable that facilitates communication with the Interceptor. <!-- TODO: still true? -->
+    <img src="https://assets.postman.com/postman-docs/capture-via-interceptor-tab.jpg" alt="Capture via Interceptor tab" width="300px"/>
 
-    If you're on Windows or Linux, Postman will take care of everything for you. If you're on MacOS, you'll be prompted to install NodeJS if it's not already installed on your computer.
+1. Select **Install Interceptor Bridge** to download the Bridge, an independent executable that facilitates communication with the Interceptor.
 
-4. Confirm Interceptor is ready to use by checking that the **Connected** status in the upper right is green. You can now capture requests from your browser and cookies from any domain to use in Postman.
+    > If you're on Windows or Linux, Postman will take care of everything for you. If you're on MacOS, you'll be prompted to install NodeJS if it's not already installed on your computer.
+
+1. Confirm Interceptor is ready to use by checking that the **Connected** status in the upper right is green. You can now capture requests from your browser and cookies from any domain to use in Postman.
 
 ## Using Interceptor
 
-You can use Interceptor to capture and sync cookies and requests to Postman.
-
-<!--TODO: concept of a debug session you can start/stop/pause
-
--->
+After Interceptor is connected, you can then start an Interceptor debug session, which is a time-bound session where captured traffic is saved in an entry in the **History** tab, and optionally into a collection. Once a proxy debug session is started, you can then pause, restart, or stop it. Before you start the session, you can select what traffic you want to go into it.
 
 > You can only have a single proxy or interceptor debug session running at the same time.
 
-<!--TODO: cookies and requests are not on different tabs anymore. You configure everything in one place and then start the session. Could these two heads be removed, and a single procedure be used for the session setup?
+1. Go to the **Via Incerceptor** tab of the **Capture Requests** window.
 
-New items:
+1. Select **Capture Cookies** if you want to capture cookies in addition to requests during the debug session.
 
-* **Capture Cookies**
-* **Save requests to**
-* **URL must contain**
-* **Methods**
+1. Requests will be saved in a debug session in the **History** tab in the sidebar. Select **Save requests to a collection** and select a collection from the list to also save the requests there.
 
-these won't show up unless your connection to Interceptor is on.
--->
+1. Under **URL must contain** specify a string or regular expression, and only matching URLs will be captured.
+
+1. Under **Methods**, select one or more methods to capture only those methods.
+
+1. Select **Start Capture**.
+
+### Running the Interceptor debug session
+
+While your Interceptor session is running, the **Interceptor Debug Session** window will show captured traffic as you use the Chrome browser.
+
+There are several controls you can use to limit, organize, and investigate traffic as it is captured:
+
+* Select the name **Interceptor debug session** and enter another name to change the window name.
+* The **Configure incoming requests** controls at the top of the window enable you to limit captured traffic. Select items from **Methods**, and **URL** to limit the traffic. These controls are similar to the ones you set initially, but they limit what is being captured, instead of what is going through Interceptor.
+* You can select or unselect **Capture Cookies** to toggle if cookies are collected.
+* Select the **Requests** tab to view incoming requests and responses, or **Cookies** to see captured cookies.
+* Use the search box to look for specific requests.
+* Select **>** next to a request to expand it and see more details.
+* Select the URL in the **URL** column to open the request as a new API request in Postman.
+
+When you select one or more requests from the list on the **Requests** tab, you can use the following controls:
+
+* <img alt="External link icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg" width="12px" style="vertical-align:middle;margin-bottom:5px"> - delete the request.
+
+When you select one or more cookies from the list on the **Cookies** tab, you can use the following controls:
+
+* **+ Add to Cookie Jar** - add the request to the Postman cookie jar.
+
+* <img alt="External link icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg" width="12px" style="vertical-align:middle;margin-bottom:5px"> - delete the cookie.
+
+The bottom right corner shows the total time of the capture session, along with the total size of captured traffic. If you want to temporarily stop the capture session, select the **Pause** button, and select **Resume** to restart it.
+
+When you're done with your debug session, select **Stop** in the lower right corner. This will finish the debug session, and results of the debug session will be saved in the **History** tab.
+
+After stopping the session, the Interceptor is still connected. Select the **Capture Requests** icon in the Postman footer, and you can start another debug session.
+
+### Viewing the Interceptor debug session results
+
+After completing a debug session, a transaction of it is located in the **History** tab, named **Interceptor debug session**.
+
+When you open a saved debug session, the top header displays the session start time, total size, duration, and source.
+
+The **Overview** - displays summary graphs of the traffic captured in the session. You can select graphs summarizing traffic by method, domain, data mode, or return status code.
+
+The **Requests** and **Cookies** tabs display requests, responses, and cookies, similar to the same tabs available during a capture session. The same options for searching, expanding, saving, and deleting items described in Step 4 are available. You can also use the controls at the bottom of the table to limit the number of items per page, and navigate through the pages of results.
+
+You can rename an Interceptor debug session by selecting the name at the top of the window and entering a new name. Select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to the debug session name to rename or delete the session.
 
 ### Syncing cookies
 
-You can retrieve cookies from any domain and use them in your Postman requests by enabling **Capture cookies**. You can then add your domain, or multiple, with **Add Domain**.
+You can retrieve cookies from any domain and use them in your Postman requests by enabling **Capture cookies**. You can then add one or more domains in the Interceptor extension to capture cookies from that domain.
 
-[![interceptor on](https://assets.postman.com/postman-docs/Interceptor-ex1.gif)](https://assets.postman.com/postman-docs/Interceptor-ex1.gif) <!--TODO: replace or remove -->
-
-Interceptor will sync all cookies for that domain from the browser. It will also sync cookies for all subdomains.
+Interceptor will sync all cookies for that domain from the browser. It will also sync cookies for all subdomains of a specified domain.
 
 > For example, adding the domain `example.com` will also sync cookies from `m.example.com`.
 
@@ -115,17 +141,6 @@ Interceptor keeps cookies for a fixed set of domains in sync, updating Postman f
 You can remove a domain at any time by clicking **X** next to the domain. This will prevent future cookie updates from being synced, but it won’t delete cookies that have already been synced.
 
 You can learn more about managing cookies in Postman in [Cookies](/docs/sending-requests/cookies/).
-
-### Capturing requests
-
-<!--TODO: procedure changes - see above todo -->
-You can capture requests by navigating to **Requests**, setting **Source** to **Interceptor**, and selecting **Capture Requests**.
-
-By default, requests will be saved in the **History** tab. You can also save requests to a collection by selecting a collection from the **Save Requests to** drop-down list. <!-- TODO: now in **Interceptor debug session** -->
-
-Once the **Connected** status is green, you can add URL or HTTP method filters by selecting **Show additional filters**.
-
-<img src="https://assets.postman.com/postman-docs/interceptor-ex2-v89.jpg" alt="capturing requests" width="350px" /><!--TODO: replace or remove -->
 
 ## How it works
 
@@ -230,22 +245,20 @@ If you are unable to resolve an ``INTERNET_CONNECTIVITY`` error, you can manuall
 The communication between Interceptor and Postman is automatically encrypted. You can make that communication even more secure by adding a custom encryption key.
 
 ### Adding a custom encryption key in the UI
-<!--TODO: update steps -->
-Open Postman and select the Interceptor satellite icon, then click the lock icon.
 
-<img src="https://assets.postman.com/postman-docs/set-encryption-in-app.jpg" width="350px" alt="Set encryption in app"/> <!--TODO: change or remove -->
+1. In the Postman app, select the **Capture Requests** icon in the Postman footer. Then in the **Capture Requests** window, select the **Via Interceptor** tab.
+1. To the right of the green **Connected** status, click the lock icon.
 
-Enter an alphanumeric key of 10 or more characters and **Save key**. Then, open your browser and select the Interceptor extension. Click the lock icon, enter the same key, then **Save key**. Both the app and browser will confirm the **Connection is secure**.
+    <img src="https://assets.postman.com/postman-docs/interceptor-session-key.jpg" width="350px" alt="Set encryption in app"/>
 
-<img src="https://assets.postman.com/postman-docs/set-encryption-in-browser.jpg" width="350px" alt="Set encryption in browser"/><!--TODO: change or remove -->
-
-> If the keys do not match, an alert will appear in the UI to resolve the discrepancy.
+1. Enter an alphanumeric key of 10 or more characters and select **Save key**.
+1. Open your browser and select the Interceptor extension. Select the lock icon, enter the same key, then select **Save key**. Both the app and browser will confirm the **Connection is secure**.
 
 ### Adding a custom encryption key with the pm API
 
 You can also update the default encryption key by utilizing the [pm API](/docs/writing-scripts/script-references/postman-sandbox-api-reference/#the-pm-object). To do so, open Postman and select **View** > **Developer** > **Show DevTools (Current View)** > **Console**, then enter `pm.interceptorBridge.setKey("<your key here>")`.
 
-For the Interceptor extension, first enable **Developer mode** in [Chrome extensions](chrome://extensions/). You can then right click on the Interceptor icon in your browser, select **Inspect Popup** > **Console**. Enter the command `pm.interceptorBridge.setKey("<your key here>")` again here. All communication through this channel will now be encrypted using your own key.
+For the Interceptor extension, first enable **Developer mode** in [Chrome extensions](chrome://extensions/). You can then right-click on the Interceptor icon in your browser, select **Inspect Popup** > **Console**. Enter the command `pm.interceptorBridge.setKey("<your key here>")` again here. All communication through this channel will now be encrypted using your own key.
 
 ## Updating Interceptor
 
