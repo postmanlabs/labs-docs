@@ -22,7 +22,7 @@ const ClickOutHandler = require('react-onclickout');
 
 const algoliaClient = algoliasearch(
   '4A5N71XYH0',
-  'bf5cf4783437b12c2dca33724c9c04b0',
+  '69f2c5376f1a90912c6c3b6b772c25bc',
 );
 
 // removes empty query searches from analytics

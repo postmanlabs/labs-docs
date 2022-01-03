@@ -19,7 +19,6 @@ const DocPage = ({ data }) => {
   if (post.frontmatter.contextual_links) {
     contextualLinks = <ContextualLinks key={uuidv4()} links={post.frontmatter.contextual_links} />;
   }
-
   return (
     <Layout>
       <SEO title={post.frontmatter.title} slug={post.fields.slug} />

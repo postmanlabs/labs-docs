@@ -113,6 +113,8 @@ Enter a name for your variable, and specify __Initial__ and __Current__ values f
 
 To update the synced variable with your local value, set the initial value to the current value by clicking __...__ to the right of the variable row and choosing __Persist__. To reset your local (current) value with the synced value shared with your workspace / collaborators, click __Reset__. You can persist or reset all values in the environment using __Persist All__ and __Reset All__.
 
+> You can also mask environment variables by changing their type to [secret](/docs/sending-requests/variables/#variable-types).
+
 ## Accessing environments
 
 You can access your environment variables from the Postman UI and from your request elements, including the URL, parameters, body data, and test scripts.
