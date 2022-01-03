@@ -14,8 +14,9 @@ import pose from '../assets/pose-learning-center.svg';
 const { v4: uuidv4 } = require('uuid');
 
 const DocPage = ({ data }) => {
-  console.log(data)
+  /* Returns single post */
   const post = data.markdownRemark;
+  /* Returns last modified date */
   const { lastModifiedDate } = data.markdownRemark.fields;
   let contextualLinks;
   if (post.frontmatter.contextual_links) {
