@@ -21,7 +21,7 @@ contextual_links:
 
 ---
 
-Stay on top of your API deployments in Postman by connecting to [Amazon API Gateway](https://aws.amazon.com/api-gateway/). With this integration, you can view your API deployment status and history from within Postman. You can also export any version of your API from Postman to API Gateway. Use the AWS console to deploy your exported schema, or deploy your schema directly from Postman to a stage in API Gateway.
+Stay on top of your API deployments in Postman by connecting to [Amazon API Gateway](https://aws.amazon.com/api-gateway/). With this integration, you can view your API deployment status and history from within Postman. You can also export your API schema from Postman to API Gateway. Use the AWS console to deploy your exported schema, or deploy your schema directly from Postman to a stage in API Gateway.
 
 * [Connecting to Amazon API Gateway](#connecting-to-amazon-api-gateway)
     * [Authenticating with an AWS IAM role](#authenticating-with-an-aws-iam-role)
@@ -98,19 +98,18 @@ When you're ready, select **Connect**.
 
 ## Viewing API deployments in Postman
 
-After connecting to Amazon API Gateway, you can view API schema export and deployment history in Postman. Select **APIs** in the left sidebar, select an API and version, and then select the **Deployments** tab.
+After connecting to Amazon API Gateway, you can view the export and deployment history for your API schemas in Postman. Select **APIs** in the left sidebar, select an API and version, and then select the **Deployments** tab.
 
 * For each stage you can view the active deployment, the creation date, and the date last updated. Select a stage to view additional details, including the invoke URL and stage description (from AWS).
 * For each export from Postman, you can view the source of the export and the time stamp.
-* For each deployment you can view the ID, status, description, and creation date. If you deployed the schema from Postman, you can also view the deployment source.
+* For each deployment you can view the ID, description, and creation date.
 
-<img alt="Viewing API deployments" src="https://assets.postman.com/postman-docs/api-gateway-deployments-configured-v9-5.jpg" width="915px"/>
+<img alt="Viewing API deployments" src="https://assets.postman.com/postman-docs/api-gateway-deployments-configured-v9-6.jpg" width="875px"/>
 
 From the **Deployments** tab, you can take the following actions:
 
 * To view your API Gateway in AWS, select the **AWS Gateway ID**.
 * To export or deploy your schema, select **Deploy API**. Learn more about [deploying your API](#exporting-and-deploying-your-api).
-* To see the last time your schema was deployed, hover over the information icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg" width="16px" style="vertical-align:middle;margin-bottom:5px">.
 * To view metrics for your API Gateway in AWS, select **View Dashboard**.
 * To see the latest deployment status, select the refresh icon <img alt="Refresh icon" src="https://assets.postman.com/postman-docs/icon-refresh-v9-5.jpg" width="14px" style="vertical-align:middle;margin-bottom:5px">.
 * To edit or delete the connection to Amazon API Gateway, select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px">.
@@ -123,7 +122,7 @@ Exporting an API schema makes it available in the connected Amazon API Gateway. 
 
 1. Open your API by selecting **APIs** in the left sidebar, and then selecting an API and a version.
 1. Select the **Deployments** tab, and then select **Deploy API**.
-1. Select the branch or release to deploy. Learn more about [versioning an API](/docs/designing-and-developing-your-api/versioning-an-api/).
+1. Select the branch or release to deploy. Learn more about [versioning an API](/docs/designing-and-developing-your-api/versioning-an-api/) and [creating a release](/docs/designing-and-developing-your-api/versioning-an-api/#creating-a-release).
 1. (Optional) If you would like to immediately deploy the schema to a stage after exporting, select **Deploy it on Stage**. Select the AWS stage to deploy the schema to, and enter a brief description.
 1. Select **Deploy**.
 
