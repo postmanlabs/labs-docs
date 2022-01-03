@@ -164,7 +164,7 @@ Your installation may include the following options:
 
 ### Troubleshooting tips
 
-You can find the current status of your Interceptor integration by selecting the Interceptor satellite icon in the upper-right corner of the app, then navigating to **Cookies**:<!--TODO: change -->
+You can find the current status of your Interceptor integration by looking at the upper right of the **Capture Requests** window:
 
 * **Connected**: You can proceed with using Interceptor.
 * **Not connected**: Ensure Interceptor is installed correctly—refer to [Installing interceptor](#installing-interceptor).

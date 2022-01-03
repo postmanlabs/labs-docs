@@ -32,9 +32,7 @@ warning: false
 
 ---
 
-<!--TODO: new topic with only the second half about certificate setup in it -->
-
-<!--TODO: lede -->
+In addition to capturing HTTP traffic, you can use the Postman's built-in proxy to inspect HTTPS communication from your Android, iOS, Linux, macOS, and Windows devices.
 
 ## Contents
 
@@ -42,8 +40,6 @@ warning: false
 * [Troubleshooting certificate issues](#troubleshooting-certificate-issues)
 
 ## Capturing HTTPS traffic
-
-In addition to capturing HTTP traffic, you can use the Postman's built-in proxy to inspect HTTPS communication from your Android, iOS, Linux, macOS, and Windows devices.
 
 You must install the `postman-proxy-ca.crt` certificate on your device to be able to capture secure HTTP traffic. First, [set up the proxy in Postman](/docs/sending-requests/capturing-request-data/capturing-http- requests/). Then follow the instructions below to install the required security certificate on the target devices.
 
