@@ -2,7 +2,7 @@
 title: "Using variables"
 order: 24
 page_id: "variables"
-updated: 2021-11-05
+updated: 2021-12-20
 search_keyword: "collectionVariables, iterationData, collectionVariables.set, collectionVariables.get, JSON.stringify, JSON.parse, base_url, pm.globals.set, globals.set, pm.collectionVariables.set, collectionVariables.set, pm.environment.set, environment.set, pm.variables.get, variables.get, pm.globals.get, globals.get, pm.collectionVariables.get, collectionVariables.get, pm.environment.get, environment.get, pm.iterationData.get, iterationData.get"
 contextual_links:
   - type: section
@@ -57,6 +57,7 @@ Variables enable you to store and reuse values in your requests and scripts. By 
 * [Variables quick start](#variables-quick-start)
 * [Understanding variables](#understanding-variables)
 * [Variable scopes](#variable-scopes)
+* [Variable types](#variable-types)
 * [Defining variables](#defining-variables)
 * [Accessing variables](#accessing-variables)
 * [Sharing and persisting data](#sharing-and-persisting-data)
@@ -128,6 +129,39 @@ Variable scopes are suited to different tasks in Postman:
 * __Data variables__ come from external CSV and JSON files to define data sets you can use when running collections with Newman or the Collection Runner.
 
 ![Variable Scopes](https://assets.postman.com/postman-docs/Variables-Chart.png)
+
+## Variable types
+
+Beyond scope, global and environment variables can be defined by type. The two variable types that you can configure for environment and global variables are:
+
+* **Default type** is the default type that is automatically assigned to variables. This type is shown as plain text and has no additional properties.
+* **Secret type** masks the [initial and current values](#specifying-variable-detail) for all workspace members and can be used to prevent unintentional disclosure of sensitive data, including API secrets, passwords, tokens, and keys.
+
+Users with [editor](/docs/collaborating-in-postman/roles-and-permissions/) access on a workspace (for global variables) or environment (for environment variables) can opt to change these variables from default to secret type.
+
+> Postman will store environment and global variables as default regardless of type.
+
+To set the variable type, select the Environment quick look <img alt="Environment quick look icon" src="https://assets.postman.com/postman-docs/eye.jpg" width="24px" style="vertical-align:middle;margin-bottom:5px"> in the top right of Postman. Select **Edit** to the right of environment or global variables to open the editor.
+
+<img alt="Environment editor with string auth key" src="https://assets.postman.com/postman-docs/env-default-auth-key-9.5.jpg"/>
+
+> You can also edit an environment by navigating to the workspace it resides in and selecting **Environments** from the left sidebar, then selecting your environment.
+
+<!-- -->
+
+> You must have [editor](/docs/collaborating-in-postman/roles-and-permissions/) access on a workspace (for global variables) or environment (for environment variables) to control variable type.
+
+Select **default** next to the variable you'd like to change to open the dropdown menu, then select **secret** to update the variable type and save your changes to confirm.
+
+<img alt="Environment editor with secret auth key" src="https://assets.postman.com/postman-docs/env-secret-auth-key-9.5-b.jpg"/>
+
+All workspace members can view a secret variable's initial and current values by selecting the <img alt="Eye crossed out icon" src="https://assets.postman.com/postman-docs/eye-crossed-out.jpg" width="24px" style="vertical-align:middle;margin-bottom:5px"> eye symbol to the right of the variable.
+
+Editors can change a variable's initial values, which are shared with collaborators, by selecting the <img alt="Eye crossed out icon" src="https://assets.postman.com/postman-docs/eye-crossed-out.jpg" width="24px" style="vertical-align:middle;margin-bottom:5px"> eye symbol to the right of the variable, then selecting the initial value. All collaborators can change a variable's current values by selecting the <img alt="Eye crossed out icon" src="https://assets.postman.com/postman-docs/eye-crossed-out.jpg" width="24px" style="vertical-align:middle;margin-bottom:5px"> eye symbol to the right of the variable, then selecting the current value.
+
+Editors can change the variable type from secret to default at any time, and vice versa. When you change a variable's type from secret back to default, you must confirm by selecting **Change type**.
+
+<img alt="Confirm unmark variable as secret" src="https://assets.postman.com/postman-docs/change-var-type-confirmation-9.5-b.jpg" width="400px"/>
 
 ## Defining variables
 

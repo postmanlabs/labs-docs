@@ -5,9 +5,6 @@ import ReflowImgWrapper from '../components/MarketingPages/ReflowImgWrapper';
 
 class NotFoundPage extends React.Component {
   componentDidMount() {
-    /* eslint-disable no-console */
-    console.log('pathname is', window.location.pathname);
-    /* eslint-enaable */
     if (window.location.pathname !== '/404/') {
       window.location.pathname = '/404/';
     }
