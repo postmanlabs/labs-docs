@@ -92,7 +92,7 @@ OpenSSL is already installed for macOS and is typically installed for Linux. For
 
     [![Select crt file](https://assets.postman.com/postman-docs/windows-install-crt-aa.jpeg)](https://assets.postman.com/postman-docs/windows-install-crt-aa.jpeg)
 
-1. Select **Local Machine** and select **Next**. This action requires Administrator permissions—select **Yes** to proceed.
+1. Select **Local Machine** and select **Next**. This action requires Administrator permissions. Select **Yes** to proceed.
 1. Select **Place all certificates in the following store**.
 1. Select **Browse** and then select **Trusted Root Certification Authorities**.
 
