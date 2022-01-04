@@ -177,7 +177,7 @@ You can find the current status of your Interceptor integration by looking at th
     * **Linux**:  `~/.config/google-chrome/NativeMessagingHosts`
     * **Windows** : `HKEY_CURRENT_USER\SOFTWARE\Google\Chrome\NativeMessagingHosts`
 
-  If you are using a different flavor of Chrome, such as Chromium, Brave or Edge:
+  If you are using a different flavor of Chrome, such as Chromium, Brave, or Edge:
     1. Create the `NativeMessagingHosts` directory in the location above.
     1. Install the Interceptor Bridge (refer to [Installing interceptor](#installing-interceptor)).
     1. Copy `InterceptorBridge` into the above `NativeMessagingHosts` directory.
