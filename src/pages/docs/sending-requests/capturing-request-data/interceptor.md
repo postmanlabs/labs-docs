@@ -78,7 +78,7 @@ After Interceptor is connected, you can then start an Interceptor debug session,
 
 1. Requests will be saved in a debug session in the **History** tab in the sidebar. Select **Save requests to a collection** and select a collection from the list to also save the requests there.
 
-1. Under **URL must contain** specify a string or regular expression, and only matching URLs will be captured.
+1. Under **URL must contain**, specify a string or regular expression, and only matching URLs will be captured.
 
 1. Under **Methods**, select one or more methods to capture only those methods.
 
