@@ -194,7 +194,7 @@ OpenSSL is already installed for macOS and is typically installed for Linux. For
 1. A security warning displays. Select **Install anyway** to proceed.
 1. Browse for and select the `postman-proxy-ca.crt` certificate file. You will see a message that the certificate is installed. You can now capture traffic through a web browser on Android.
 
-**Need to capture requests from an Android app?** To capture requests from an Android app, you need to add a network security configuration file to your app to trust the `postman-proxy-ca.crt` certificate. For more information, see [Trust additional CAs](https://developer.android.com/training/articles/security-config#TrustingAdditionalCas) on the Android Developers portal.
+> **Need to capture requests from an Android app?** To capture requests from an Android app, you need to add a network security configuration file to your app to trust the `postman-proxy-ca.crt` certificate. For more information, see [Trust additional CAs](https://developer.android.com/training/articles/security-config#TrustingAdditionalCas) on the Android Developers portal.
 
 <img src="https://assets.postman.com/postman-docs/proxy-android-certificate-v9-1.jpg" alt="Android certificate installed" width="350">
 
