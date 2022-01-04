@@ -21,7 +21,9 @@ contextual_links:
 
 ---
 
-Stay on top of your API deployments in Postman by connecting to [Amazon API Gateway](https://aws.amazon.com/api-gateway/). With this integration, you can view your API deployment status and history from within Postman. You can also export your API schema from Postman to API Gateway. Use the AWS console to deploy your exported schema, or deploy your schema directly from Postman to a stage in API Gateway. OpenAPI schemas are supported, including HTTP and REST APIs.
+Stay on top of your API deployments in Postman by connecting to [Amazon API Gateway](https://aws.amazon.com/api-gateway/). Once connected to API Gateway, you can view your API deployment status and history from within Postman. This integration supports OpenAPI schemas for both HTTP and REST APIs.
+
+For HTTP APIs, you can also choose to export your schema from Postman to Amazon API Gateway. You can then use the AWS console to deploy your exported schema to a stage. Alternatively, you can deploy your HTTP API schema directly from Postman to a stage in API Gateway.
 
 * [Connecting to Amazon API Gateway](#connecting-to-amazon-api-gateway)
     * [Authenticating with an AWS IAM role](#authenticating-with-an-aws-iam-role)
@@ -109,16 +111,16 @@ After connecting to Amazon API Gateway, you can view the export and deployment h
 From the **Deployments** tab, you can take the following actions:
 
 * To view your API Gateway in AWS, select the **AWS Gateway ID**.
-* To export or deploy your schema, select **Deploy API**. Learn more about [deploying your API](#exporting-and-deploying-your-api).
+* To export or deploy your schema, select **Deploy API** (for HTTP API schemas only). Learn more about [deploying your API](#exporting-and-deploying-your-api).
 * To view metrics for your API Gateway in AWS, select **View Dashboard**.
 * To see the latest deployment status, select the refresh icon <img alt="Refresh icon" src="https://assets.postman.com/postman-docs/icon-refresh-v9-5.jpg" width="14px" style="vertical-align:middle;margin-bottom:5px">.
 * To edit or delete the connection to Amazon API Gateway, select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px">.
 
 ## Exporting and deploying your API
 
-Exporting an API schema makes it available in the connected Amazon API Gateway. After you export a schema from Postman, use the AWS console to configure and deploy the schema to a stage in API Gateway. Once the schema is deployed, users can start calling the API.
+Exporting an HTTP API schema makes it available in the connected Amazon API Gateway. After you export a schema from Postman, use the AWS console to configure and deploy the schema to a stage in API Gateway. Alternatively, when exporting, you can choose to deploy the schema directly from Postman to a stage in the connected API Gateway. Once the schema is deployed, users can start calling the API.
 
-> When exporting, you can also choose to deploy the schema directly from Postman to a stage in the connected API Gateway.
+> Only HTTP API schemas can be exported and deployed from Postman. To deploy a REST API schema, use the AWS console.
 
 1. Open your API by selecting **APIs** in the left sidebar, and then selecting an API and a version.
 1. Select the **Deployments** tab, and then select **Deploy API**.
