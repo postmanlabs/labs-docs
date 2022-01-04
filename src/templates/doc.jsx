@@ -17,7 +17,7 @@ const DocPage = ({ data }) => {
   /* Returns single post */
   const post = data.markdownRemark;
   /* Returns last modified date */
-  const { lastModifiedDate } = data.markdownRemark.fields;
+  const date = data.markdownRemark.fields.lastModifiedDate;
   let contextualLinks;
   if (post.frontmatter.contextual_links) {
     contextualLinks = <ContextualLinks key={uuidv4()} links={post.frontmatter.contextual_links} />;
@@ -34,7 +34,7 @@ const DocPage = ({ data }) => {
             <div className="row row-eq-height">
               <main className="col-sm-12 col-md-12 col-lg-9 offset-lg-0 col-xl-7 doc-page ml-xl-5">
                 <h1>{post.frontmatter.title}</h1>
-                <p className="small">Last Updated: {lastModifiedDate}</p>
+                <p>Last Modified: {date}</p>
                 <span dangerouslySetInnerHTML={{ __html: post.html }} />
               </main>
               <aside className="col-sm-12 col-md-12 col-lg-3 offset-lg-0 col-xl-3 offset-xl-1 right-column">
