@@ -91,7 +91,7 @@ While your Interceptor session is running, the **Interceptor Debug Session** win
 There are several controls you can use to limit, organize, and investigate traffic as it is captured:
 
 * Select the name **Interceptor debug session** and enter another name to change the window name.
-* The **Configure incoming requests** controls at the top of the window enable you to limit captured traffic. Select items from **Methods**, and **URL** to limit the traffic. These controls are similar to the ones you set initially, but they limit what is being captured, instead of what is going through Interceptor.
+* The **Configure incoming requests** controls at the top of the window enable you to limit captured traffic. Select items from **Methods** and **URL** to limit the traffic. These controls are similar to the ones you set initially, but they limit what is being captured instead of what is going through Interceptor.
 * You can select or unselect **Capture Cookies** to toggle if cookies are collected.
 * Select the **Requests** tab to view incoming requests and responses, or **Cookies** to see captured cookies.
 * Use the search box to look for specific requests.
