@@ -138,7 +138,7 @@ To sync cookies for the domain only, you can add **https://** in front of the do
 
 Interceptor keeps cookies for a fixed set of domains in sync, updating Postman from the browser when cookies update, including deletions. Due to this, you can use browser sessions to make API calls in Postman. You will not be able to save these to Postman’s history.
 
-You can remove a domain at any time by clicking **X** next to the domain. This will prevent future cookie updates from being synced, but it won’t delete cookies that have already been synced.
+You can remove a domain at any time by selecting **X** next to the domain. This will prevent future cookie updates from being synced, but it won’t delete cookies that have already been synced.
 
 You can learn more about managing cookies in Postman in [Cookies](/docs/sending-requests/cookies/).
 
