@@ -77,7 +77,7 @@ To begin, start the proxy inside Postman:
 1. Enter a port number. By default, it's set to port `5555`. Make a note of the port number you've used; you will use it later when configuring clients.
 1. Select **Enable Proxy**.
 
-The proxy is now running, but isn't capturing traffic yet, until you start a proxy debug session.
+The proxy is now running, but it will not capture traffic until you start a proxy debug session.
 
 ### Step 2: Start the proxy debug session
 
