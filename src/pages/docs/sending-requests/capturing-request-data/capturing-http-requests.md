@@ -181,4 +181,4 @@ You can rename a proxy debug session by selecting the name at the top of the win
 
 ## Next steps
 
-To also capture HTTPS data from your client devices, you'll need to add a certificate to the client. See [Capturing HTTPS traffic](#capturing-https-traffic) for more details.
+To also capture HTTPS data from your client devices, you'll need to add a certificate to the client. See [Capturing HTTPS traffic](/docs/sending-requests/capturing-request-data/capturing-https-traffic/) for more details.
