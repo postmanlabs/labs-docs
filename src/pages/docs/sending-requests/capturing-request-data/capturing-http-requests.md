@@ -107,7 +107,7 @@ The proxy debug session is now started, but it won't capture anything until a de
 
 1. Find the local IP address of the machine running the proxy:
 
-    * On macOS, the computer's IP address can be found in **System Preferences > Network**. Select a network interface, and the IP address of your system will be shown on the right:
+    * On macOS, you can find the computer's IP address in **System Preferences > Network**. Select a network interface, and the IP address of your system will be shown on the right:
 
       <img alt="system preferences" src="https://assets.postman.com/postman-docs/osx-network-settings-v9-5.jpg" width="400px" />
 
