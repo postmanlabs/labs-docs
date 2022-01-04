@@ -113,7 +113,7 @@ The proxy debug session is now started, but it won't be capturing anything yet u
 
     * On Windows, select **Start > Settings > Network & internet > Wi-Fi** or **Ethernet**. Your IP address is listed under **Properties**.
 
-1. Open the wireless settings of your client device and update the configuration of the network connection to use a HTTP Proxy. For example, in iOS:
+1. Open the wireless settings of your client device and update the configuration of the network connection to use an HTTP Proxy. For example, in iOS:
 
     1. Select **Settings > Wi-Fi**.
     1. Select <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg" width="16px" style="vertical-align:middle;margin-bottom:5px"> next to a Wi-Fi connection.
