@@ -19,7 +19,7 @@ contextual_links:
     url: "/docs/integrations/available-integrations/slack/"
 ---
 
-> You can export your API schema to Amazon API Gateway right from the Postman API Builder. Use the **Deployments** tab to connect to API Gateway, view the latest deployments, and export your schema to API Gateway. You can even deploy your schema directly from Postman to a stage in API Gateway.<br/><br/>OpenAPI schemas are supported, including HTTP and REST APIs. To learn more about exporting and deploying your API schema from Postman, see [Deploying an API](/docs/designing-and-developing-your-api/deploying-an-api/).
+> You can export your API schema to Amazon API Gateway right from the Postman API Builder. Use the **Deployments** tab to connect to API Gateway, view the latest deployments, and export your schema to API Gateway. You can even deploy your schema directly from Postman to a stage in API Gateway.<br/><br/>This integration supports OpenAPI 3.0 schemas for HTTP APIs only. To learn more, see [Deploying an API](/docs/designing-and-developing-your-api/deploying-an-api/).
 
 You can upload your API schemas directly to AWS API Gateway from Postman with this integration. This integration uses version 2 of the AWS API and only supports HTTP APIs with OpenAPI 3.0 schemas.
 
