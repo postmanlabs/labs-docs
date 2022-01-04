@@ -169,7 +169,7 @@ After stopping the session, the proxy is still running. Select the **Capture Req
 
 ### Step 6: View the proxy debug session results
 
-After completing a debug session, a transaction of it is located in the **History** tab, named **Proxy debug session**.
+After completing a debug session, details from the session are located in the **History** tab, named **Proxy debug session**.
 
 When you open a saved debug session, the top header displays the session start time, total size, duration, and source.
 
