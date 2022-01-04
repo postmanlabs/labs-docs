@@ -122,7 +122,7 @@ The **Team details** report provides an overview of your team and members, inclu
 * **Total team members** - The current number of user accounts in the team.
 * **Team members over time** - The size of the team over time.
 * **Team roles** - The number of team members with Admin, Billing, Community Manager, or Developer roles.
-* **SSO identity provider** - Any [single sign-on provider](https://learning.postman.com/docs/administration/sso/intro-sso/) you have configured for team members to access their Postman accounts.
+* **SSO identity provider** - Any [single sign-on provider](/docs/administration/sso/intro-sso/) you have configured for team members to access their Postman accounts.
 * **Billing Cycle** - Your account's billing cycle (annual or monthly).
 * **Renewal Date** - The date your current Postman plan will renew.
 

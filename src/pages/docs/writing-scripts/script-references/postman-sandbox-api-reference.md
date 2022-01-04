@@ -508,7 +508,7 @@ pm.cookies.toObject():Function → Object
 
 You can also use `pm.cookies.jar` to specify a domain for access to request cookies.
 
-To enable programmatic access via the `pm.cookies.jar` methods, first [whitelist](https://learning.postman.com/docs/sending-requests/cookies/) the cookie URL.
+To enable programmatic access via the `pm.cookies.jar` methods, first [whitelist](/docs/sending-requests/cookies/) the cookie URL.
 
 * Access the cookie jar object:
 

@@ -151,7 +151,7 @@ When creating or editing a monitor, you can choose to receive email notification
 
 You can find detailed information on your monitor results by navigating to your workspace, selecting **Monitors** in the left sidebar, then selecting your monitor.
 
-> You can also utilize [Postman integrations](https://learning.postman.com/docs/integrations/intro-integrations/) to send monitor data and configure notifications using your desired platform, such as [Slack](/docs/integrations/available-integrations/slack/) or [Datadog](/docs/integrations/available-integrations/datadog/).
+> You can also utilize [Postman integrations](/docs/integrations/intro-integrations/) to send monitor data and configure notifications using your desired platform, such as [Slack](/docs/integrations/available-integrations/slack/) or [Datadog](/docs/integrations/available-integrations/datadog/).
 
 ### Using retry on failure
 
