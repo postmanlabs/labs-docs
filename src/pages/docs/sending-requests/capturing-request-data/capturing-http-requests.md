@@ -98,7 +98,7 @@ After the proxy is running, you can start a proxy debug session. This is a time-
     * **URL must contain**: Only capture URLs containing the specified string or regular expression.
     * **URL cannot contain**: Don't capture URLs containing the specified string or regular expression.
     * **Methods**: Only capture the selected methods.
-    * **Resources**: exclude requests with image, JS, or CSS responses.
+    * **Resources**: Exclude requests with image, JS, or CSS responses.
 1. Select **Start Capture**.
 
 The proxy debug session is now started, but it won't be capturing anything yet until a device is configured with the proxy.
