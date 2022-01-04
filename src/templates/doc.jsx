@@ -14,10 +14,10 @@ import pose from '../assets/pose-learning-center.svg';
 const { v4: uuidv4 } = require('uuid');
 
 const DocPage = ({ data }) => {
-  /* Returns single post */
-  const post = data.markdownRemark;
   /* Returns last modified date */
   const date = data.markdownRemark.fields.lastModifiedDate;
+  /* Returns single post */
+  const post = data.markdownRemark;
   let contextualLinks;
   if (post.frontmatter.contextual_links) {
     contextualLinks = <ContextualLinks key={uuidv4()} links={post.frontmatter.contextual_links} />;

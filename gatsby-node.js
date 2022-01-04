@@ -24,9 +24,9 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
     });
     /* Returns the latest commit log for a specific doc file (View Doc.jsx for query) */
     const lastModifiedDate = execSync(
-      `git log -1 --pretty=format:%as ${node.fileAbsolutePath}`
+      `git log -1 --pretty='%ad' --date=format:'%Y/%m/%d' ${node.fileAbsolutePath}`
     ).toString()
-    createNodeField({
+    actions.createNodeField({
       node,
       name: "lastModifiedDate",
       value: lastModifiedDate,
