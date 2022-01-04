@@ -101,7 +101,7 @@ After the proxy is running, you can start a proxy debug session. This is a time-
     * **Resources**: Exclude requests with image, JS, or CSS responses.
 1. Select **Start Capture**.
 
-The proxy debug session is now started, but it won't be capturing anything yet until a device is configured with the proxy.
+The proxy debug session is now started, but it won't capture anything until a device is configured with the proxy.
 
 ### Step 3: Configure the proxy on a client device
 
