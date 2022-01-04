@@ -36,8 +36,9 @@ Once Interceptor is running in Chrome, you can start a debug session, which is a
 
 * [Installing Interceptor](#installing-interceptor)
 * [Using Interceptor](#using-interceptor)
+    * [Running the Interceptor debug session](#running-the-interceptor-debug-session)
+    * [Viewing the Interceptor debug session results](#viewing-the-interceptor-debug-session-results)
     * [Syncing cookies](#syncing-cookies)
-    * [Capturing requests](#capturing-requests)
 * [How it works](#how-it-works)
     * [Troubleshooting tips](#troubleshooting-tips)
 * [Security](#security)
