@@ -87,7 +87,7 @@ After the proxy is running, you can then start a proxy debug session, which is a
 
 1. Go to the **Via Proxy** tab of the **Capture Requests** window.
 
-1. Select **Save Responses for Requests** to save each request's responses. They will be saved alongside the captured requests.
+1. Select **Save Responses for Requests** to save each request's responses. They will be saved along with the captured requests.
 
     > In responses with a `content-type` containing images, audio, or video, content is intercepted but not captured. The only information captured is response headers, time taken, and the status code.
 1. Select **Capture Cookies** if you want to capture cookies in addition to requests during the debug session.
