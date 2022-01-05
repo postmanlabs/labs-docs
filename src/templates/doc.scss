@@ -1,5 +1,9 @@
 @import '../components/Shared/variables';
 
+/* Used for Deeplinking */ 
+h2, h3, h4 {
+  scroll-margin-top: 2em;
+}
 .doc-page {
   padding-left: 40px !important;
   padding-top: 40px;
@@ -190,10 +194,6 @@ blockquote code.language-text {
 
 .posmanaut-dab {
   max-width: 250px;
-}
-
-tr:hover {
-  background-color: #FAE1D4;
 }
 
 th:first-child,

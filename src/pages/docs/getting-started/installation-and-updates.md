@@ -58,22 +58,26 @@ To get the latest version of the Postman desktop app, visit the [download page](
 
 ## Installing Postman on Mac
 
-1. [Download](https://www.postman.com/downloads/) the app.
-   > Make sure to download the **Mac Apple Chip** version if you have a Mac with the M1 processor.
+Postman is available for macOS 10.11 (El Capitan) and later.
+
+1. [Download](https://www.postman.com/downloads/) the latest Postman app.
+
+    > Make sure to download the **Mac Apple Chip** version if you have a Mac with the M1 processor.
+
 1. If your browser downloads the file as a ZIP file, double-click the file in the **Downloads** folder to unzip it.
 1. In the **Downloads** folder, double-click the `Postman` file to install it.
 1. When prompted, move the file to your __Applications__ folder. This will ensure that future updates can be installed correctly.
 
-> The minimum OS version supported is macOS 10.11 (El Capitan).
->
 > You may encounter a "Library not loaded" error if you unzip and install Postman using a third-party archiving app. Use the default Archive Utility for Mac to unzip the file.
 
 ## Installing Postman on Windows
 
-1. [Download](https://www.postman.com/downloads/) the app.
-1. Double-click the `exe` file to install it.
+Postman is available for Windows 7 and later.
 
-> Postman supports Windows 7 and above. Both `ia32 (x86)` and `x64 (amd64)` installers are available for Windows. Windows for ARM devices is possible by using the ia32 binary.
+1. [Download](https://www.postman.com/downloads/) the latest Postman app.
+1. Double-click the `.exe` file to install it.
+
+> Postman v9.4 is the last version of the Postman app that supports both 32-bit and 64-bit Windows. All versions of the Postman app following v9.4 will only work on 64-bit Windows. You can continue to use Postman v9.4 and earlier on 32-bit Windows.
 
 ## Installing Postman on Linux
 

@@ -13,6 +13,8 @@ Postman automatically captures log messages in the event something goes wrong in
 
 You can contact Postman Product Support if you need assistance resolving any issues you encounter in Postman. Go to the [Postman Support Center](https://www.postman.com/support/) and select **Submit a Request**.
 
+## Locating Postman logs
+
 Use the instructions below to locate the Postman logs on your macOS, Windows, or Linux system. Attach the log files to your support request to help the support team provide you with a resolution to your issue.
 
 ### Locating logs in macOS
@@ -28,3 +30,9 @@ To locate the logs in Windows, open the Postman app and go to **View > Developer
 ### Locating logs in Linux
 
 To locate the logs in Linux, open the Postman app and go to **View > Developer > View Logs in File Manager**.
+
+## Accessing the DevTools console
+
+The DevTools console provides additional internal debugging entries for Postman that may be useful in troubleshooting problems with the app.
+
+To access the DevTools console logs, go to **View > Developer > Show DevTools (current view)**. In the DevTools window, select __Console__ to see the app debug logs.

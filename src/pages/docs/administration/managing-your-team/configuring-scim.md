@@ -44,7 +44,7 @@ You can enable SCIM with the [SCIM API](#enabling-scim-with-the-scim-api) or uti
 
 Postman supports the following provisioning features:
 
-* Create user: Creates a new user account in Postman, adds the account to your organization's Postman team, and activates authentication for the user. If an account with the same email ID exists, an [email invite](https://learning.postman.com/docs/administration/managing-your-team/managing-your-team/#invites) to join your Postman team is sent to the user. Once the user accepts the invite, they will be added to your team.
+* Create user: Creates a new user account in Postman, adds the account to your organization's Postman team, and activates authentication for the user. If an account with the same email ID exists, an [email invite](/docs/administration/managing-your-team/managing-your-team/#invites) to join your Postman team is sent to the user. Once the user accepts the invite, they will be added to your team.
 
 > The newly added user will have the developer role in Postman by default. You can later [update account roles in Postman](/docs/administration/managing-your-team/managing-your-team/#managing-roles).
 
@@ -105,7 +105,7 @@ Name your key and click **Generate**. Copy your new API key for later use and cl
 
 Postman is available as an app in the Okta Integration Network, allowing you to enable user provisioning directly through Okta.
 
-Prior to enabling SCIM in Okta, you must [add the Postman app in Okta](https://www.okta.com/integrations/postman/) and [configure Okta's SSO for your Postman team](https://learning.postman.com/docs/administration/sso/saml-okta/).
+Prior to enabling SCIM in Okta, you must [add the Postman app in Okta](https://www.okta.com/integrations/postman/) and [configure Okta's SSO for your Postman team](/docs/administration/sso/saml-okta/).
 
 To set up provisioning with the Postman Okta app, take the following steps:
 

@@ -558,6 +558,10 @@ export const leftNavItems = [
             name: 'Configuring SCIM provisioning',
             url: '/docs/administration/managing-your-team/configuring-scim/',
           },
+          {
+            name: 'Configuring domain capture',
+            url: '/docs/administration/managing-your-team/configuring-domain-capture/',
+          },
         ],
       },
       {
@@ -709,6 +713,10 @@ export const leftNavItems = [
           {
             name: 'AWS API Gateway',
             url: '/docs/integrations/available-integrations/aws-api-gateway/',
+          },
+          {
+            name: 'Azure DevOps',
+            url: '/docs/integrations/available-integrations/azure-devops/',
           },
           {
             name: 'BigPanda',

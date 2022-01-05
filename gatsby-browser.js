@@ -14,7 +14,7 @@ export const onClientEntry = () => {
     // Race condition with default browser behavior for deep links.
     setTimeout(() => {
       $.scrollTo($(window.location.hash), {
-        offset: {top: -56}
+        offset: { top: -80 }
       });
     }, 1000)
   }
