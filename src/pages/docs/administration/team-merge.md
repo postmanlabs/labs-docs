@@ -77,9 +77,9 @@ See [performing centralized migration](#performing-centralized-migration) to cho
 
 You can carry out distributed migration with any type of Postman account.
 
-You can export your personal workspace and shared workspaces for any team you have joined and can choose to only export collections from a specific workspace. See [exporting data](https://learning.postman.com/docs/getting-started/importing-and-exporting-data/#exporting-postman-data) for detail.
+You can export your personal workspace and shared workspaces for any team you have joined and can choose to only export collections from a specific workspace. See [exporting data](/docs/getting-started/importing-and-exporting-data/#exporting-postman-data) for detail.
 
-If you have an individual account and are not part of a team, but want to maintain your current account while migrating company data to an authorized team, you can [export specific data](https://learning.postman.com/docs/getting-started/importing-and-exporting-data/#exporting-postman-data) or [export a dump of all data](https://learning.postman.com/docs/getting-started/importing-and-exporting-data/#exporting-data-dumps).
+If you have an individual account and are not part of a team, but want to maintain your current account while migrating company data to an authorized team, you can [export specific data](/docs/getting-started/importing-and-exporting-data/#exporting-postman-data) or [export a dump of all data](/docs/getting-started/importing-and-exporting-data/#exporting-data-dumps).
 
 If you have a personal account and want to disable it and join an authorized team, you can accept the team invite and all personal Postman data will be transferred to to your new team automatically.
 
