@@ -53,34 +53,37 @@ With these roles, you and your teammates can manage access for each individual, 
 
 ### Team roles
 
-You can [assign](/docs/administration/managing-your-team/managing-your-team/) one or more role types to team members: **Admin**, **Billing**, and **Developer**. If you are on a [Postman Professional or Enterprise plan](https://www.postman.com/pricing), you will also have the option of assigning a **Community Manager**.
+You can [assign](/docs/administration/managing-your-team/managing-your-team/) one or more role types to team members: **Admin**, **Billing**, and **Developer**. If you are on a [Postman Professional or Enterprise plan](https://www.postman.com/pricing), you will also have the option of assigning the **Community Manager** role. If you are on a Postman Enterprise plan, you will additionally have the option to assign the **Super Admin** role.
 
-* **Admin**: manage team members and team settings
-* **Billing**: manage team plan and payments
-* **Developer**: access team resources and workspaces
-* **Community Manager**: manage public visibility of workspaces and team profile (Professional and Enterprise plans only)
+Roles can be assigned based on the functions a team member requires:
+
+* **Super Admin**: Manages everything within a team, including team settings, members, roles, and resources in [public, team, or private workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#changing-workspace-visibility). Team members with this role can perform all actions that Admin, Billing, Community Manager, and Developer roles can perform (Enterprise plans only).
+* **Admin**: Manages team members and team settings.
+* **Billing**: Manages team plan and payments.
+* **Developer**: Has access to all team resources and workspaces.
+* **Community Manager**: Manages public visibility of workspaces and team profile (Professional and Enterprise plans only).
 
 Each user must have at least one role attached to them, and can hold multiple roles simultaneously.
 
 Team roles provide high-level access control:
 
-| Permission | Admin | Billing | Developer | Community Manager |
-| --- |:---:| --- | --- | --- |
-| Add users | &#x2714; | | |
-| Remove users | &#x2714; | | |
-| Manage team Admins and Developers | &#x2714; | | |
-| Manage SSO | &#x2714; || |
-| Manage custom domains  | &#x2714; | | |
-| View audit logs  | &#x2714; | | | &#x2714;
-| View usage data | &#x2714; | &#x2714; | &#x2714; | &#x2714;
-| Manage Billing members | | &#x2714; | |
-| Manage payment | | &#x2714; | | |
-| Change plan  | | &#x2714; | |
-| View shared APIs, collections, environments, mock servers and monitors | | | &#x2714; | &#x2714;
-| View and create team workspaces | | | &#x2714; | &#x2714;
-| Change visibility of workspaces to team or public | | | &#x2714;&ast; | &#x2714;
-| Approve requests to change workspace visibility&ast;&ast; | | | | &#x2714;
-| Enable public team profile | &#x2714; | | | &#x2714;
+| Permission | Super Admin | Admin | Billing | Developer | Community Manager |
+| --- |:---:| --- | --- | --- | --- |
+| Add users | &#x2714; | &#x2714; | | |
+| Remove users | &#x2714; | &#x2714; | | |
+| Manage team Admins and Developers | &#x2714; | &#x2714; | | |
+| Manage SSO | &#x2714; | &#x2714; || |
+| Manage custom domains  | &#x2714; | &#x2714; | | |
+| View audit logs  | &#x2714; | &#x2714; | | | &#x2714;
+| View usage data | &#x2714; | &#x2714; | &#x2714; | &#x2714; | &#x2714;
+| Manage Billing members | &#x2714; | | &#x2714; | |
+| Manage payment | &#x2714; | | &#x2714; | | |
+| Change plan  | &#x2714; | | &#x2714; | |
+| View shared APIs, collections, environments, mock servers and monitors | &#x2714; | | | &#x2714; | &#x2714;
+| View and create team workspaces | &#x2714; | | | &#x2714; | &#x2714;
+| Change visibility of workspaces to team or public | &#x2714; | | | &#x2714;&ast; | &#x2714;
+| Approve requests to change workspace visibility&ast;&ast; | &#x2714; | | | | &#x2714;
+| Enable public team profile | &#x2714; | &#x2714; | | | &#x2714;
 
 &ast; On Postman Basic and Free plans, any developer can change visibility of workspaces
 

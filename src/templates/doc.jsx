@@ -14,6 +14,9 @@ import pose from '../assets/pose-learning-center.svg';
 const { v4: uuidv4 } = require('uuid');
 
 const DocPage = ({ data }) => {
+  /* Returns last modified date */
+  const date = data.markdownRemark.fields.lastModifiedDate;
+  /* Returns single post */
   const post = data.markdownRemark;
   let contextualLinks;
   if (post.frontmatter.contextual_links) {
@@ -32,6 +35,7 @@ const DocPage = ({ data }) => {
               <main className="col-sm-12 col-md-12 col-lg-9 offset-lg-0 col-xl-7 doc-page ml-xl-5">
                 <h1>{post.frontmatter.title}</h1>
                 <span dangerouslySetInnerHTML={{ __html: post.html }} />
+                <p class="font-italic">Last Modified: {date}</p>
               </main>
               <aside className="col-sm-12 col-md-12 col-lg-3 offset-lg-0 col-xl-3 offset-xl-1 right-column">
                 <hr className="d-block d-lg-none" />
@@ -66,6 +70,7 @@ export const query = graphql`
       }
       fields {
         slug
+        lastModifiedDate
       }
     }
   }
