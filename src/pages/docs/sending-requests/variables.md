@@ -87,7 +87,7 @@ For example, if you have the same URL in multiple requests, but the URL might ch
 
 ![URL Variable](https://assets.postman.com/postman-docs/url-var-v9.jpg)
 
-<img alt="Reference Variable" src="https://assets.postman.com/postman-docs/reference-var-v9.jpg" width="300px"/>
+<a href="https://assets.postman.com/postman-docs/reference-var-v9.jpg"><img alt="Reference Variable" src="https://assets.postman.com/postman-docs/reference-var-v9.jpg" width="300px"/></a>
 
 Postman supports variables at different scopes, allowing you to tailor your processing to a variety of development, testing, and collaboration tasks. Scopes in Postman relate to the different contexts that your requests run in: within Postman, in collections, in environments, in Newman, and in the Collection Runner. You can use variables to pass data between requests and tests, for example if you are chaining requests using a collection.
 
@@ -143,7 +143,7 @@ Users with [editor](/docs/collaborating-in-postman/roles-and-permissions/) acces
 
 To set the variable type, select the Environment quick look <img alt="Environment quick look icon" src="https://assets.postman.com/postman-docs/eye.jpg" width="24px" style="vertical-align:middle;margin-bottom:5px"> in the top right of Postman. Select **Edit** to the right of environment or global variables to open the editor.
 
-<img alt="Environment editor with string auth key" src="https://assets.postman.com/postman-docs/env-default-auth-key-9.5.jpg"/>
+<a href="https://assets.postman.com/postman-docs/env-default-auth-key-9.5.jpg"><img alt="Environment editor with string auth key" src="https://assets.postman.com/postman-docs/env-default-auth-key-9.5.jpg"/></a>
 
 > You can also edit an environment by navigating to the workspace it resides in and selecting **Environments** from the left sidebar, then selecting your environment.
 
@@ -153,7 +153,7 @@ To set the variable type, select the Environment quick look <img alt="Environmen
 
 Select **default** next to the variable you'd like to change to open the dropdown menu, then select **secret** to update the variable type and save your changes to confirm.
 
-<img alt="Environment editor with secret auth key" src="https://assets.postman.com/postman-docs/env-secret-auth-key-9.5-b.jpg"/>
+<a href="https://assets.postman.com/postman-docs/env-secret-auth-key-9.5-b.jpg"><img alt="Environment editor with secret auth key" src="https://assets.postman.com/postman-docs/env-secret-auth-key-9.5-b.jpg"/></a>
 
 All workspace members can view a secret variable's initial and current values by selecting the <img alt="Eye crossed out icon" src="https://assets.postman.com/postman-docs/eye-crossed-out.jpg" width="24px" style="vertical-align:middle;margin-bottom:5px"> eye symbol to the right of the variable.
 
@@ -161,7 +161,7 @@ Editors can change a variable's initial values, which are shared with collaborat
 
 Editors can change the variable type from secret to default at any time, and vice versa. When you change a variable's type from secret back to default, you must confirm by selecting **Change type**.
 
-<img alt="Confirm unmark variable as secret" src="https://assets.postman.com/postman-docs/change-var-type-confirmation-9.5-b.jpg" width="400px"/>
+<a href="https://assets.postman.com/postman-docs/change-var-type-confirmation-9.5-b.jpg"><img alt="Confirm unmark variable as secret" src="https://assets.postman.com/postman-docs/change-var-type-confirmation-9.5-b.jpg" width="400px"/></a>
 
 ## Defining variables
 
