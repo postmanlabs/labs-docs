@@ -3,6 +3,7 @@ title: "Installing and updating"
 order: 2
 page_id: "installation_and_updates"
 warning: false
+updated: 2022-01-05
 contextual_links:
   - type: section
     name: "Prerequisites"
