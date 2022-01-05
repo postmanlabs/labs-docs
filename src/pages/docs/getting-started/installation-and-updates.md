@@ -126,7 +126,7 @@ You can use Postman in your web browser to carry out your API development and te
 
 ### Browser requirements
 
-Postman’s web application is optimized for the following browsers:
+Postman’s web client is optimized for the following browsers:
 
 * Chrome (78 and higher)
 * Firefox (76 and higher)
@@ -135,21 +135,24 @@ Postman’s web application is optimized for the following browsers:
 
 ### Installing the Postman desktop agent
 
-If you are using the Postman web client, you will need to also download the Postman desktop agent. You will be prompted to download and install the agent so that you can make requests from the web. You can also download the agent directly from [the Downloads page](https://www.postman.com/downloads/).
+If you are using the Postman web client, you also need to download the Postman desktop agent, a micro-application that runs locally on your desktop. The desktop agent overcomes the Cross Object Resource Sharing (CORS) limitations of browsers and acts as your agent for making API calls from the web client.
 
-<img alt="Postman Agent" src="https://assets.postman.com/postman-docs/download-agent-v86.jpg" width="500px"/>
+You will be prompted to download and install the desktop agent so that you can make requests from the Postman web client. You can also download the agent directly from [the Downloads page](https://www.postman.com/downloads/). Once you have the desktop agent installed you will be able to use it with web requests.
 
-The Postman agent overcomes the Cross Object Resource Sharing (CORS) limitations of browsers, and facilitates API request sending from your browser version of Postman. Once you have the agent installed you will be able to use it with web requests.
+To learn more about the desktop agent, read the [Introducing the Postman Agent](https://blog.postman.com/introducing-the-postman-agent-send-api-requests-from-your-browser-without-limits/) blog post.
 
-You can either enable **Auto-select** option or manually select the agent (**Cloud**, **Desktop**, or **Browser**) you would like to use for your requests.
+### Selecting the agent for requests
+
+From the Postman web client, you can select the agent you would like to use for your requests:
+
+* **Auto-select**: Postman automatically selects the best agent to use for your request.
+* **Cloud**: Manually select this option to send HTTP requests using Postman's cloud servers.
+* **Desktop**: Manually select this option to send requests using the Postman desktop agent.
+* **Browser**: Manually select this option to send requests using your browser, with some [limitations](#web-limitations).
 
 <img alt="Select agent" src="https://assets.postman.com/postman-docs/select-agent-for-requests.gif">
 
-Once you enable the option for **Auto-select**, Postman will automatically select the best agent for your requests.
-
-You can select the **Cloud Agent** if you want to send HTTP requests via Postman's secure cloud servers. While using the locally running Postman, it is recommended you use the **Desktop Agent**. Using the **Browser Agent** for your web requests has some [limitations](/docs/getting-started/installation-and-updates/#web-limitations).
-
-> If you try to send a request and it isn't successful because the agent is not selected, you will see a link in the response area which you can select to switch to the agent and try your request again. Read [more about the agent](https://blog.postman.com/introducing-the-postman-agent-send-api-requests-from-your-browser-without-limits/).
+> If you try to send a request and it isn't successful because the agent is not selected, you will see a link in the response area that you can select to switch to the agent and try your request again.
 
 ### Web limitations
 
