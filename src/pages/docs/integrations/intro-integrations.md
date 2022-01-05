@@ -56,9 +56,9 @@ Once you whitelist this IP address, calls for the integrations and webhooks will
 
 Postman supports implementing static IP addresses for the following integrations and webhooks:
 
-* [Custom Webhooks](https://learning.postman.com/docs/integrations/webhooks/)
-* [GitHub Custom Domain Backup](https://learning.postman.com/docs/integrations/available-integrations/github/#backup-collections-to-github-on-custom-domain)
-* [GitLab Custom Domain Backup](https://learning.postman.com/docs/integrations/available-integrations/gitlab/#backup-your-postman-collections-to-gitlab-on-a-custom-domain)
+* [Custom Webhooks](/docs/integrations/webhooks/)
+* [GitHub Custom Domain Backup](/docs/integrations/available-integrations/github/#backup-collections-to-github-on-custom-domain)
+* [GitLab Custom Domain Backup](/docs/integrations/available-integrations/gitlab/#backup-your-postman-collections-to-gitlab-on-a-custom-domain)
 
 ## CI integrations
 

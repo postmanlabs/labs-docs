@@ -72,7 +72,7 @@ Postman currently supports the following options:
 | **Language**  | **Framework** |
 | --- | --- |
 | C | [LibCurl](https://curl.se/libcurl/c/) |
-| C# | [RestSharp](http://restsharp.org/) |
+| C# | [RestSharp](http://restsharp.dev/) |
 | cURL |[cURL](https://curl.se/) |
 | Dart | [Dart](https://dart.dev/) |
 | Go   | [http package](https://pkg.go.dev/net/http) |
