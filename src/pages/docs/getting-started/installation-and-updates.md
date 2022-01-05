@@ -157,7 +157,7 @@ Postman on the web is under active development. There are a few features you can
 
 * **Live preview**: You will not see all of your request headers update live as you enter your request configurations as you do in the desktop Postman app. You will only see Authorization headers update as you edit.
 * **Find and replace**: The Postman desktop app supports [finding and replacing values in a workspace](/docs/getting-started/navigating-postman/#find-and-replace), but this function is not available on the web yet.
-* **Certificates and Proxy**: These will take the browser defined value and cannot be overridden by Postman.
+* **Certificates and proxy**: The Postman desktop app allows you to customize [certificates](/docs/sending-requests/certificates/) and [proxy configurations](/docs/sending-requests/capturing-request-data/proxy/#configuring-proxy-settings). On the web, these take the browser defined value and cannot be overridden by Postman.
 * **Postman Interceptor**:
 
 ## Updating Postman
