@@ -157,7 +157,7 @@ Postman on the web is under active development. There are a few features you can
 
 * **Find and replace**: The Postman desktop app supports [finding and replacing values in a workspace](/docs/getting-started/navigating-postman/#find-and-replace), but this function is not available on the web yet.
 * **Certificates and proxy**: The Postman desktop app allows you to customize [certificates](/docs/sending-requests/certificates/) and [proxy configurations](/docs/sending-requests/capturing-request-data/proxy/#configuring-proxy-settings). On the web, these take the browser defined value and cannot be overridden by Postman.
-* **Postman Interceptor**:
+* **Postman Interceptor**: [Interceptor](/docs/sending-requests/capturing-request-data/interceptor/) syncs cookies from your browser to the Postman desktop app and captures network requests directly from the browser. It is not possible to use Interceptor with the Postman web client.
 
 ## Updating Postman
 
