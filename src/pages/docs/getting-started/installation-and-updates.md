@@ -64,8 +64,8 @@ Postman is available for macOS 10.11 (El Capitan) and later.
 
     > Make sure to download the **Mac Apple Chip** version if you have a Mac with the M1 processor.
 
-1. If your browser downloads the file as a ZIP file, double-click the file in the **Downloads** folder to unzip it.
-1. In the **Downloads** folder, double-click the `Postman` file to install it.
+1. If your browser downloads the file as a ZIP file, find the file in the **Downloads** folder and unzip it.
+1. In the **Downloads** folder, install the unzipped `Postman` file.
 1. When prompted, move the file to your __Applications__ folder. This will ensure that future updates can be installed correctly.
 
 > You may encounter a "Library not loaded" error if you unzip and install Postman using a third-party archiving app. Use the default Archive Utility for Mac to unzip the file.
@@ -75,7 +75,7 @@ Postman is available for macOS 10.11 (El Capitan) and later.
 Postman is available for Windows 7 and later.
 
 1. [Download](https://www.postman.com/downloads/) the latest Postman app.
-1. Double-click the `.exe` file to install it.
+1. Select and run the `.exe` file to install Postman.
 
 > Postman v9.4 is the last version of the Postman app that supports both 32-bit and 64-bit Windows. All versions of the Postman app following v9.4 will only work on 64-bit Windows. You can continue to use Postman v9.4 and earlier on 32-bit Windows.
 
@@ -153,12 +153,13 @@ You can select the **Cloud Agent** if you want to send HTTP requests via Postman
 
 ### Web limitations
 
-Postman on the web is under active development, but there are a few features you can currently only access in the desktop app and not in your web browser:
+Postman on the web is under active development. There are a few features you can currently only access in the desktop app, not in your web browser:
 
-* **Live preview**: You will not see all of your request headers update live as you enter your request configurations as you do in the desktop Postman app—you will only see Authorization headers update as you edit.
-* **Saving responses to file**
+* **Live preview**: You will not see all of your request headers update live as you enter your request configurations as you do in the desktop Postman app. You will only see Authorization headers update as you edit.
+* **Saving responses to file**:
+* **Find and replace**:
 * **Certificates and Proxy**: These will take the browser defined value and cannot be overridden by Postman.
-* **Postman Interceptor**
+* **Postman Interceptor**: 
 
 ## Updating Postman
 
