@@ -156,10 +156,9 @@ You can select the **Cloud Agent** if you want to send HTTP requests via Postman
 Postman on the web is under active development. There are a few features you can currently only access in the desktop app, not in your web browser:
 
 * **Live preview**: You will not see all of your request headers update live as you enter your request configurations as you do in the desktop Postman app. You will only see Authorization headers update as you edit.
-* **Saving responses to file**:
 * **Find and replace**:
 * **Certificates and Proxy**: These will take the browser defined value and cannot be overridden by Postman.
-* **Postman Interceptor**: 
+* **Postman Interceptor**:
 
 ## Updating Postman
 
