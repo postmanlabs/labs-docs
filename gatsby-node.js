@@ -8,7 +8,7 @@ const frontmatter = require('@github-docs/frontmatter');
 const redirects = require('./redirects.json');
 // const HeaderJson = require('./src/components/Header/Header.data.json');
 const FooterJson = require('./src/components/Footer/Footer.data.json');
-
+const { execSync } = require("child_process")
 const ignorePaths = [];
 
 // const { google } = require('googleapis');
@@ -22,6 +22,15 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
       name: 'slug',
       value: slug,
     });
+    /* Returns the latest commit log for a specific doc file (View Doc.jsx for query) */
+    const lastModifiedDate = execSync(
+      `git log -1 --pretty='%ad' --date=format:'%Y/%m/%d' ${node.fileAbsolutePath}`
+    ).toString()
+    actions.createNodeField({
+      node,
+      name: "lastModifiedDate",
+      value: lastModifiedDate,
+    })
   }
 };
 
