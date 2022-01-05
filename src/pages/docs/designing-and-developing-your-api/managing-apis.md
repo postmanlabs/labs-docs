@@ -39,8 +39,9 @@ When you [define your APIs](/docs/designing-and-developing-your-api/the-api-work
 
 You can share your APIs with collaborators by navigating to the API you'd like to share in the left sidebar. Select it, then select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> > **Share**.
 
-APIs can be shared via link to teammates with access to the API.
-<img alt="Share collection via workspace" src="https://assets.postman.com/postman-docs/share-api-via-link-v9.1.jpg"/>
+<img alt="Share api" src="https://assets.postman.com/postman-docs/share-api-9.4.jpg"/>
+
+For more details, see [Sharing Postman entities](/docs/collaborating-in-postman/sharing/#sharing-postman-entities).
 
 ## Collaborating on APIs
 

@@ -32,7 +32,6 @@ Postman provides a number of ways to manage your team.
     * [Managing roles](#managing-roles)
 * [Invites](#invites)
     * [Inviting to a team](#inviting-to-a-team)
-    * [Inviting to team workspaces](#inviting-to-team-workspaces)
     * [Managing invitations](#managing-invitations)
 * [Changing team size](#changing-team-size)
 * [Next steps](#next-steps)
@@ -45,13 +44,13 @@ Everyone in your team is a member. Each member has certain roles, which allow th
 
 An admin can modify the roles of other team members individually by selecting **Team** in the upper right > [**Manage Team**](https://go.postman.co/settings/team/members).
 
-An admin can manage which team members have **Admin** and **Developer** roles. If you are on a Postman Professional or Enterprise plan, an admin will also have the option of assigning a **Community Manager**.
+An admin can manage which team members have **Admin** and **Developer** roles. If you are on a [Postman Professional or Enterprise](https://www.postman.com/pricing) plan, an admin will also have the option of assigning a **Community Manager**. If you are on a Postman Enterprise plan, an admin will additionally have the option to assign the **Super Admin** role.
 
 Only a team member with the billing role can grant the **Billing** role to or remove it from other team members.
 
 Under **Members**, select the roles next to the user you would like to update. Select the roles you would like to assign or unassign, then **Update Roles** to confirm your changes.
 
-<img alt="Edit team roles" src="https://assets.postman.com/postman-docs/team-members-edit-roles-v9.1.0.jpg"/>
+<img alt="Edit team roles" src="https://assets.postman.com/postman-docs/members-and-groups-update-roles-9.5.jpg"/>
 
 Each team member must have a minimum of one role assigned to them.
 
@@ -72,22 +71,6 @@ Navigate to [Manage Team](https://go.postman.co/settings/team/members) and selec
 <img alt="Invite users to team" src="https://assets.postman.com/postman-docs/team-invite-people-v9.1.0.jpg" width="350px"/>
 
 Alternatively, you can invite users to your team via links. To do so, select **Get Link**.
-
-### Inviting to team workspaces
-
-You must be a [workspace Admin](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#managing-workspace-roles) to invite others to a workspace.
-
-On the workspace's **Overview** tab, select **Workspace Settings**, and then select **Invite**. Enter the name of the people or groups you'd like to add to the workspace and select their workspace **Role**:
-
-* **Admin:** Can manage workspace resources and settings.
-* **Editor:** Can create and edit workspace resources.
-* **Viewer:** Can view, fork, and export workspace resources.
-
-Select **Send Invites**, or select **Copy Invite Link** to generate a link you can directly share with others.
-
-<img alt="Invite users" src="https://assets.postman.com/postman-docs/invite-to-workspace-gif-v9.1.gif"/>
-
-> Inviting users to a workspace will add them to your Postman team if they are not already members.
 
 ### Managing invitations
 
