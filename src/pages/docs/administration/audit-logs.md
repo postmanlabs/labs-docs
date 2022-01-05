@@ -64,9 +64,6 @@ The table below lists currently logged events.
 | Updated domain verification  | A domain’s verification status was updated.|
 | Updated User Roles | Roles were updated for some users in your team.  |
 | Team URL changed  | Team’s URL updated. (The custom URL you use to access your team’s dashboard.)  |
-| Custom token created | A new custom token was created for your team. |
-| Custom token updated | A custom token's name was updated. |
-| Custom token pattern updated | A custom token's regex pattern was changed. |
-| Custom token enabled  | A disabled custom token was enabled.  |
-| Custom token disabled  | A custom token was disabled.  |
-| Custom token deleted  | A custom token was deleted. |
+| Added Custom Alert | A new [custom token alert](/docs/api-security/token-scanner/#custom-alerts) was created for your team. |
+| Edited Custom Alert | A custom token alert's name or regex pattern was changed, or the alert was enabled or disabled. |
+| Deleted Custom Alert  | A custom token alert was deleted. |
