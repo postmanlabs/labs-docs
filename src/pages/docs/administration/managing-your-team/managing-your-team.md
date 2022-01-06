@@ -34,6 +34,7 @@ Postman provides a number of ways to manage your team.
     * [Inviting to a team](#inviting-to-a-team)
     * [Managing invitations](#managing-invitations)
 * [Changing team size](#changing-team-size)
+* [Removing team members](#removing-team-members)
 * [Next steps](#next-steps)
 
 ## Member roles
@@ -85,6 +86,18 @@ To revoke an invitation, hover over the invitation and select the trash can icon
 ## Changing team size
 
 To change your team size, see [Changing your plan](/docs/administration/billing/#changing-your-plan).
+
+## Removing team members
+
+To remove a member from your team, navigate to your team's page > **Members and groups**. Select the <img alt="External link icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg" width="12px" style="vertical-align:middle;margin-bottom:5px"> icon next the team member's name.
+
+![Removing a team member](https://assets.postman.com/postman-docs/remove-member.jpg)
+
+To confirm, select **Remove User From Team**.
+
+![Confirmation for removing a team member](https://assets.postman.com/postman-docs/remove-user-from-team-confirmation.jpg)
+
+> When you remove a user from your team, you will still retain access to any data they have shared with the team. However, any data in the user’s personal workspaces is owned by that user and their ownership for that data will not be transferred when they are removed from your team.
 
 ## Next steps
 
