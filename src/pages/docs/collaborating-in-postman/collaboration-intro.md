@@ -36,14 +36,9 @@ Postman will alert you with notifications when activities occur within your team
 ## Contents
 
 * [Working with team workspaces](#working-with-team-workspaces)
-* [Team discovery](#team-discovery)
-
-    * [Making your team discoverable](#making-your-team-discoverable)
-
-    * [Finding teams within your organization](#finding-teams-within-your-organization)
-
+* [Enabling team discovery](#enabling-team-discovery)
+* [Finding teams within your organization](#finding-teams-within-your-organization)
 * [Leaving a team](#leaving-a-team)
-
 * [Usage limit](#usage-limit)
 
     * [How archiving works](#how-archiving-works)
@@ -54,19 +49,13 @@ Postman will alert you with notifications when activities occur within your team
 
 ## Working with team workspaces
 
-A team workspace allows you to ... <!-- TODO: fill this in -->
+Postman creates a default team workspace for every team. You can rename this workspace, but it cannot be deleted.
 
-Postman creates a default Team Workspace. You cannot delete this workspace but you can rename it.
+You can invite team members to join a [new](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/) or existing workspace. For more details about how to invite a team member to a workspace, see [Sharing workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#sharing-workspaces).
 
-You can invite team members to join a [new](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/ ) or existing workspace. For more details about how to invite a team member to a workspace, see [Sharing workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#sharing-workspaces).
-
-You can create a new team workspace and invite members.
-
-## Team discovery
+## Enabling team discovery
 
 Enabling team discovery encourages collaboration and eases the onboarding process by allowing users accessing Postman with their company email address to request to join pre-existing teams within their organization.
-
-### Making your team discoverable
 
 You can enable team discovery in the dashboard by selecting **Team** > **Team Settings** > [**Team Discovery**](https://go.postman.co/settings/team/discovery).
 
@@ -82,7 +71,7 @@ You will receive a notification when anyone makes a request to join your team, i
 
 [![Team Request Approval](https://assets.postman.com/postman-docs/admin-team-join-requests.jpg)](https://assets.postman.com/postman-docs/admin-team-join-requests.jpg)
 
-### Finding teams within your organization
+## Finding teams within your organization
 
 When you log in to the Postman web dashboard using a verified email address for your company or organization, you can see available teams to join by selecting your avatar > **Your Team**. You will also be prompted with available teams when you first sign into your Postman account with a verified address.
 
