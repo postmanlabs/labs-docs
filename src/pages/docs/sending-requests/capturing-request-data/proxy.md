@@ -1,5 +1,5 @@
 ---
-title: "Using a proxy"
+title: "Using a custom proxy"
 order: 33
 page_id: "proxy"
 search_keyword: "HTTP_PROXY, NO_PROXY"
@@ -18,7 +18,7 @@ contextual_links:
     url: "https://blog.postman.com/client-proxy-settings-in-postman/"
   - type: link
     name: "Capture Responses Using the Postman Proxy"
-    url: "https://blog.postman.com/capture-responses-using-the-postman-proxy/"   
+    url: "https://blog.postman.com/capture-responses-using-the-postman-proxy/"
 
 warning: false
 
@@ -62,8 +62,7 @@ This article describes how to configure the proxy settings in Postman to direct 
 
 Postman's native apps for Mac, Windows, and Linux support configuring proxies. You can either specify to use a **custom proxy** or to use the **system proxy** defined in the operating system.
 
-Use the **custom proxy** if all of your applications need to use the same proxy. Turn **custom proxy** _on_ if you want to direct the requests from Postman go through a custom proxy server. Turning it off will direct the
-requests to not use the proxy server.
+Use the **custom proxy** if all of your applications need to use the same proxy. Turn **custom proxy** _on_ if you want to direct the requests from Postman go through a custom proxy server. Turning it off will direct the requests to not use the proxy server.
 
 To configure the proxy settings, click the gear icon on the right side of the header toolbar, choose **Settings**, and select the **Proxy** tab.
 
