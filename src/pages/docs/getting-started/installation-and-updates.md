@@ -66,7 +66,7 @@ Postman is available for macOS 10.11 (El Capitan) and later.
     > Make sure to download the **Mac Apple Chip** version if you have a Mac with the M1 processor.
 
 1. If your browser downloads the file as a ZIP file, find the file in the **Downloads** folder and unzip it.
-1. In the **Downloads** folder, install the unzipped `Postman` file.
+1. In the **Downloads** folder, double-click the `Postman` file to install it.
 1. When prompted, move the file to your __Applications__ folder. This will ensure that future updates can be installed correctly.
 
 > You may encounter a "Library not loaded" error if you unzip and install Postman using a third-party archiving app. Use the default Archive Utility for Mac to unzip the file.
