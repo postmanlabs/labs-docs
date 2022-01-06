@@ -11,7 +11,7 @@ warning: false
 
 Uptime monitors (open beta) continuously check the availability of a single API endpoint, website, or other URL and let you know whenever downtime occurs (typically within 1 to 2 minutes).
 
-To create a new uptime monitor, simply enter the URL and select which team members should be notified of a system outage. There's no need to create a collection. You can customize how often the monitor checks the availability of the URL and how quickly your team should be notified of any downtime. You can also configure the monitor to run in multiple regions (paid plans only).
+To create a new uptime monitor, simply enter the URL and select which team members should be notified of a system outage. There's no need to create a collection. You can customize how often the monitor checks the availability of the URL. You can also configure the monitor to run in multiple regions (paid plans only).
 
 Use the uptime monitor dashboard to quickly check if the API endpoint is currently up or down and the average response time. You can also view previous downtime incidents and get insights into the availability of the endpoint over time.
 
@@ -77,6 +77,8 @@ Edit an existing uptime monitor to update the name, URL, or any other configurat
 1. Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> at the upper right, and then select **Edit**.
 1. Change any configuration options, and then select **Update Monitor**.
 
+> You can quickly rename a monitor without editing it. Select **Monitors** in the left sidebar, select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to a monitor, and then select **Rename**.
+
 ### Deleting an uptime monitor
 
 Delete an uptime monitor if it's no longer needed.
@@ -90,13 +92,17 @@ To view results for an uptime monitor, select **Monitors** in the left sidebar, 
 
 You can also view key statistics for the selected time period, such as the percentage of time the endpoint has been available, the number of downtime incidents, and the average response time. To change the time period displayed, select a different time period in the menu at the upper right.
 
-> To share an uptime monitor with others, hover over the monitor name at the top of the dashboard and select the link icon to copy a link to the monitor.
+> **Want to share an uptime monitor with others?** Hover over the monitor name at the top of the dashboard and select the link icon to copy a link to the monitor. To view or edit the monitor, the person you share the link with must have the appropriate access to the workspace where the monitor is located. Learn more about [defining roles](/docs/collaborating-in-postman/roles-and-permissions/).
 
 ### Viewing the timeline
 
-The **Timeline** shows that status of the monitored endpoint for the selected time period. Uptime appears in green and downtime appears in red. Time when the status is not known (for example, when the monitor was paused) appears in gray. Select the globe icon to view data for each region separately, or select the binoculars icon to view a summary for all regions.
+The **Timeline** shows that status of the monitored endpoint URL during the selected time period:
 
-<!--TO DO: Define up, down, unknown-->
+* **Uptime:** (Green) The URL is serving traffic and returning 2xx status codes within the expected response times.
+* **Downtime:** (Red) The URL is not serving traffic, is returning non-2xx status codes, or is exceeding the expected response times (timing out).
+* **Unknown:** (Gray) Postman cannot determine the status of the URL because the monitor is paused or for some other unexpected reason.
+
+Select the globe icon to view data for each region separately, or select the binoculars icon to view a summary for all regions.
 
 ### Viewing downtime incidents
 
