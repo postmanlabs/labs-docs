@@ -55,6 +55,24 @@ Team profiles -->
 
 * [Next steps](#next-steps)
 
+## Enabling team discovery
+
+Enabling team discovery encourages collaboration and eases the onboarding process by allowing users accessing Postman with their company email address to request to join pre-existing teams within their organization.
+
+You can enable team discovery for your team in the dashboard by selecting **Team** > **Team Settings** > [**Team Discovery**](https://go.postman.co/settings/team/discovery).
+
+[![Enable team discovery](https://assets.postman.com/postman-docs/team-discovery-enable-v9.1.0.jpg)](https://assets.postman.com/postman-docs/team-discovery-enable-v9.1.0.jpg)
+
+> Team admins will receive an email notification when team discovery is enabled.
+
+You can optionally add a question for pending team members to answer when they request to join your team. Enter your question and select **Update Question**. Anyone who requests to join the team will be prompted with the question.
+
+> If you do not specify a question, team members can still add a note when they ask to join.
+
+You will receive a notification when anyone makes a request to join your team, including their answer to any question you set, or an optional note.
+
+[![Team Request Approval](https://assets.postman.com/postman-docs/admin-team-join-requests.jpg)](https://assets.postman.com/postman-docs/admin-team-join-requests.jpg)
+
 ## Collaborating in team workspaces
 
 Team workspaces allow you to collaboratively work on collections with your team.
@@ -94,24 +112,6 @@ If you are the last member to leave your team, you will have the option to trans
 <img src="https://assets.postman.com/postman-docs/leave-and-delete-team.jpg" alt="Leave and delete team" width="400px"/>
 
 > If you are invited to a new team and you are the last member in your current team, all team data will be transferred to your personal default workspace.
-
-## Enabling team discovery
-
-Enabling team discovery encourages collaboration and eases the onboarding process by allowing users accessing Postman with their company email address to request to join pre-existing teams within their organization.
-
-You can enable team discovery for your team in the dashboard by selecting **Team** > **Team Settings** > [**Team Discovery**](https://go.postman.co/settings/team/discovery).
-
-[![Enable team discovery](https://assets.postman.com/postman-docs/team-discovery-enable-v9.1.0.jpg)](https://assets.postman.com/postman-docs/team-discovery-enable-v9.1.0.jpg)
-
-> Team admins will receive an email notification when team discovery is enabled.
-
-You can optionally add a question for pending team members to answer when they request to join your team. Enter your question and select **Update Question**. Anyone who requests to join the team will be prompted with the question.
-
-> If you do not specify a question, team members can still add a note when they ask to join.
-
-You will receive a notification when anyone makes a request to join your team, including their answer to any question you set, or an optional note.
-
-[![Team Request Approval](https://assets.postman.com/postman-docs/admin-team-join-requests.jpg)](https://assets.postman.com/postman-docs/admin-team-join-requests.jpg)
 
 ## Team usage limits
 
