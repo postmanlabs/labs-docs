@@ -31,13 +31,6 @@ contextual_links:
 
 Postman provides you with many tools to help you work with your team, allowing you to collaborate and share your work.
 
-<!-- Can be brief and link elsewhere:
-
-workspaces
-Roles and permissions
-Version control
-Team profiles -->
-
 ## Contents
 
 * [Enabling team discovery](#enabling-team-discovery)
@@ -62,15 +55,15 @@ When you enable team discovery, users who have a verified email address for your
 
 On your Team Settings page, select **Team discovery**, then select the toggle to turn team discovery on.
 
-[![Enable team discovery](https://assets.postman.com/postman-docs/team-discovery-enable-v9.1.0.jpg)](https://assets.postman.com/postman-docs/team-discovery-enable-v9.1.0.jpg)
+[![Enable team discovery](https://assets.postman.com/postman-docs/team-discovery-enable-v9.7.jpg)](https://assets.postman.com/postman-docs/team-discovery-enable-v9.7.jpg)
 
 > Team admins will receive an email notification when team discovery is enabled.
 
 You can optionally add a question for pending team members to answer when they request to join your team. Enter your question and select **Update Question**. Anyone who requests to join the team will be prompted with the question. If you do not specify a question, team members can still add a note when they ask to join.
 
-You will receive a notification when anyone makes a request to join your team, including their answer to any question you set, or an optional note.
+You will be notified when someone makes a request to join your team, including their answer to any question you set, or an optional note.
 
-[![Team Request Approval](https://assets.postman.com/postman-docs/admin-team-join-requests.jpg)](https://assets.postman.com/postman-docs/admin-team-join-requests.jpg)
+[![Team Request Approval](https://assets.postman.com/postman-docs/admin-team-join-requests-v9.7.jpg)](https://assets.postman.com/postman-docs/admin-team-join-requests-v9.7.jpg)
 
 ## Collaborating in team workspaces
 
@@ -90,15 +83,15 @@ When you log in to the Postman web dashboard using a verified email address for 
 
 [![Choose Team](https://assets.postman.com/postman-docs/join-team-from-list.jpg)](https://assets.postman.com/postman-docs/join-team-from-list.jpg)
 
-You will see a list of the available teams within your organization. Select a team. Answer the question set by the team admin, if there is one. You can also add an optional note. Select **Request to join**. <!-- TODO: should these be groups -->
+You will see a list of the available teams within your organization. Select a team. Answer the question set by the team admin, if there is one. You can also add an optional note. Select **Request to join**.
 
-<img alt="Team Join Question" src="https://assets.postman.com/postman-docs/team-join-question-entry.jpg" width="400px"/>
+<img alt="Team Join Question" src="https://assets.postman.com/postman-docs/team-join-question-v9.7.jpg" width="400px"/>
 
 The team admin will receive a notification that you asked to join the team. Once they approve your request, you will be able to access the team and collaborate on API projects within it.
 
 ### Leaving a team
 
-You can leave a Postman team by navigating to your [Postman Dashboard](https://go.postman.co/home), selecting your avatar in the top-right corner, then **Account Settings**. Select **Team** on the left. You can then opt to **Leave Team**.
+You can leave a Postman team by navigating to your [Postman Dashboard](https://go.postman.co/home), selecting your avatar in the top right, then **Account Settings**. Select **Team** on the left. You can then opt to **Leave Team**.
 
 <img src="https://assets.postman.com/postman-docs/leave-team-v9.1.jpg" alt="Leave team"/>
 
@@ -121,7 +114,7 @@ The Postman usage menu allows you to review your team's limits for APIs, shared 
 
 For more details and to view your usage period, select **Resource Usage**.
 
-[![usage info](https://assets.postman.com/postman-docs/Screen%20Shot%202019-11-11%20at%205.38.16%20PM.png)](https://assets.postman.com/postman-docs/Screen%20Shot%202019-11-11%20at%205.38.16%20PM.png)
+![Usage limit information](https://assets.postman.com/postman-docs/team-resource-limits-v9.7.jpg)
 
 ### Recovering your archived collections
 
