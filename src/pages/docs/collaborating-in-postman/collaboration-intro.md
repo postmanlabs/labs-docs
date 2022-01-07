@@ -29,10 +29,10 @@ contextual_links:
 
 > Postman Free allows teams of up to three to collaborate at no cost. To collaborate with additional team members, features, and increased usage limits, see [Plans and Pricing](https://www.postman.com/pricing/).
 
-Postman allows you to collaborate and share your collections, environments, integrations, history, mocks, monitors, and more with your team.
+Postman provides you with many tools to help you work with your team, allowing you to collaborate and share your work.
 
 <!-- Can be brief and link elsewhere:
-Collections
+
 workspaces
 Roles and permissions
 Version control
@@ -41,9 +41,14 @@ Team profiles -->
 ## Contents
 
 * [Collaborating in team workspaces](#collaborating-in-team-workspaces)
+
+    * [Inviting a team member to a workspace](#inviting-a-team-member-to-a-workspace)
+
+    * [Finding teams within your organization](#finding-teams-within-your-organization)
+
+    * [Leaving a team](#leaving-a-team)
+
 * [Enabling team discovery](#enabling-team-discovery)
-* [Finding teams within your organization](#finding-teams-within-your-organization)
-* [Leaving a team](#leaving-a-team)
 * [Team usage limits](#team-usage-limits)
 
     * [Recovering archived collections](#recovering-your-archived-collections)
@@ -52,13 +57,43 @@ Team profiles -->
 
 ## Collaborating in team workspaces
 
-Postman allows you to collaborate with your team through team workspaces.
+Team workspaces allow you to collaboratively work on collections with your team.
 
-Postman creates a default team workspace for every team. You can rename this workspace, but it cannot be deleted.
+> Postman creates a default team workspace for every team. You can rename this workspace, but it cannot be deleted.
+
+### Inviting a team member to a workspace
 
 You can invite team members to join a [new](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/) or existing workspace. For more details about how to invite a team member to a workspace, see [Sharing workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#sharing-workspaces).
 
 > Postman will alert you with notifications when activities occur within your team and workspace. You can view and opt in or out notifications by selecting your avatar in the upper right and selecting **Notification Preferences**.
+
+### Finding teams within your organization
+
+When you log in to the Postman web dashboard using a verified email address for your company or organization, you can see available teams to join by selecting your avatar > **Your Team**. You will also be prompted with available teams when you first sign into your Postman account with a verified address.
+
+[![Choose Team](https://assets.postman.com/postman-docs/join-team-from-list.jpg)](https://assets.postman.com/postman-docs/join-team-from-list.jpg)
+
+You will see a list of the available teams within your organization. Select a team. Answer the question set by the team admin, if there is one. You can also add an optional note. Select **Request to join**. <!-- TODO: should these be groups -->
+
+<img alt="Team Join Question" src="https://assets.postman.com/postman-docs/team-join-question-entry.jpg" width="400px"/>
+
+The team admin will receive a notification that you asked to join the team. Once they approve your request, you will be able to access the team and collaborate on API projects within it.
+
+### Leaving a team
+
+You can leave a Postman team by navigating to your [Postman Dashboard](https://go.postman.co/home), selecting your avatar in the top-right corner, then **Account Settings**. Select **Team** on the left. You can then opt to **Leave Team**.
+
+<img src="https://assets.postman.com/postman-docs/leave-team-v9.1.jpg" alt="Leave team"/>
+
+> If your team has [SCIM configured](/docs/administration/managing-your-team/configuring-scim/), you must contact your Postman team admins to leave the team.
+
+When you leave a team, you no longer have access to the team's workspaces or any of the elements in them. You will still have access to your personal workspaces.
+
+If you are the last member to leave your team, you will have the option to transfer collections to a personal workspace.
+
+<img src="https://assets.postman.com/postman-docs/leave-and-delete-team.jpg" alt="Leave and delete team" width="400px"/>
+
+> If you are invited to a new team and you are the last member in your current team, all team data will be transferred to your personal default workspace.
 
 ## Enabling team discovery
 
@@ -77,34 +112,6 @@ You can optionally add a question for pending team members to answer when they r
 You will receive a notification when anyone makes a request to join your team, including their answer to any question you set, or an optional note.
 
 [![Team Request Approval](https://assets.postman.com/postman-docs/admin-team-join-requests.jpg)](https://assets.postman.com/postman-docs/admin-team-join-requests.jpg)
-
-## Finding teams within your organization
-
-When you log in to the Postman web dashboard using a verified email address for your company or organization, you can see available teams to join by selecting your avatar > **Your Team**. You will also be prompted with available teams when you first sign into your Postman account with a verified address.
-
-[![Choose Team](https://assets.postman.com/postman-docs/join-team-from-list.jpg)](https://assets.postman.com/postman-docs/join-team-from-list.jpg)
-
-You will see a list of the available teams within your organization. Select a team. Answer the question set by the team admin, if there is one. You can also add an optional note. Select **Request to join**. <!-- TODO: should these be groups -->
-
-<img alt="Team Join Question" src="https://assets.postman.com/postman-docs/team-join-question-entry.jpg" width="400px"/>
-
-The team admin will receive a notification that you asked to join the team. Once they approve your request, you will be able to access the team and collaborate on API projects within it.
-
-## Leaving a team
-
-You can leave a Postman team by navigating to your [Postman Dashboard](https://go.postman.co/home), selecting your avatar in the top-right corner, then **Account Settings**. Select **Team** on the left. You can then opt to **Leave Team**.
-
-<img src="https://assets.postman.com/postman-docs/leave-team-v9.1.jpg" alt="Leave team"/>
-
-> If your team has [SCIM configured](/docs/administration/managing-your-team/configuring-scim/), you must contact your Postman team admins to leave the team.
-
-When you leave a team, you no longer have access to the team's workspaces or any of the elements in them. You will still have access to your personal workspaces.
-
-If you are the last member to leave your team, you will have the option to transfer collections to a personal workspace.
-
-<img src="https://assets.postman.com/postman-docs/leave-and-delete-team.jpg" alt="Leave and delete team" width="400px"/>
-
-> If you are invited to a new team and you are the last member in your current team, all team data will be transferred to your personal default workspace.
 
 ## Team usage limits
 
@@ -139,6 +146,8 @@ Alternatively, you can download your archived data directly within Postman. To l
 
 ## Next steps
 
-For a more in-depth introduction to workspaces and how they can help organize your API development, check out [Creating Workspaces](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/).
+Postman has many features that help you collaborate with your team:
 
-To see how you can share the APIs that your teams use internally, check out [Your private API Network](/docs/collaborating-in-postman/adding-private-network/).
+* You can you can assign _roles and permissions_ to define Postman access at the team level. Learn more in the [Defining roles](/docs/collaborating-in-postman/roles-and-permissions/) guide.
+* _Version control_ allows you to collaborate with teammates by working on different forks of the same Postman collection. Learn more in the [Using version control](/docs/collaborating-in-postman/version-control-for-collections/) guide.
+* A _Private API Network_ allows you to easily and securely share the APIs that your team uses internally. Learn more in the [Your Private API Network](/docs/collaborating-in-postman/adding-private-network/) guide.
