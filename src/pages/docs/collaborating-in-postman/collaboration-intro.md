@@ -40,6 +40,7 @@ Team profiles -->
 
 ## Contents
 
+* [Enabling team discovery](#enabling-team-discovery)
 * [Collaborating in team workspaces](#collaborating-in-team-workspaces)
 
     * [Inviting a team member to a workspace](#inviting-a-team-member-to-a-workspace)
@@ -47,27 +48,25 @@ Team profiles -->
     * [Finding teams within your organization](#finding-teams-within-your-organization)
 
     * [Leaving a team](#leaving-a-team)
-
-* [Enabling team discovery](#enabling-team-discovery)
 * [Team usage limits](#team-usage-limits)
 
     * [Recovering archived collections](#recovering-your-archived-collections)
-
 * [Next steps](#next-steps)
 
 ## Enabling team discovery
 
-Enabling team discovery encourages collaboration and eases the onboarding process by allowing users accessing Postman with their company email address to request to join pre-existing teams within their organization.
+When you enable team discovery, users who have a verified email address for your company or organization can join pre-existing teams within your organization. This encourages collaboration and eases the onboarding process for your team members.
 
-You can enable team discovery for your team in the dashboard by selecting **Team** > **Team Settings** > [**Team Discovery**](https://go.postman.co/settings/team/discovery).
+* Free users: Next to your avatar, select the menu to the right of **Upgrade**, then select **Manage Team**.
+* Paid users: Next to your avatar, select **Team**, then select **Manage Team**.
+
+On your Team Settings page, select **Team discovery**, then select the toggle to turn team discovery on.
 
 [![Enable team discovery](https://assets.postman.com/postman-docs/team-discovery-enable-v9.1.0.jpg)](https://assets.postman.com/postman-docs/team-discovery-enable-v9.1.0.jpg)
 
 > Team admins will receive an email notification when team discovery is enabled.
 
-You can optionally add a question for pending team members to answer when they request to join your team. Enter your question and select **Update Question**. Anyone who requests to join the team will be prompted with the question.
-
-> If you do not specify a question, team members can still add a note when they ask to join.
+You can optionally add a question for pending team members to answer when they request to join your team. Enter your question and select **Update Question**. Anyone who requests to join the team will be prompted with the question. If you do not specify a question, team members can still add a note when they ask to join.
 
 You will receive a notification when anyone makes a request to join your team, including their answer to any question you set, or an optional note.
 
