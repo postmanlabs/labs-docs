@@ -9,6 +9,11 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
+    name: "Public Workspace"
+  - type: link
+    name: "Postman Answers"
+    url:  "https://www.postman.com/postman/workspace/postman-answers/overview"  
+  - type: subtitle
     name: "Related Blog Posts"
   - type: link
     name: "Manage Large Teams in Postman with Workspaces, Permissions, and Version Control"

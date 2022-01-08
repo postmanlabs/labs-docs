@@ -19,6 +19,11 @@ contextual_links:
   - type: link
     name: "How to use an API"
     url:  "https://www.youtube.com/watch?v=jCadnlO9xSQ&list=PLM-7VG-sgbtBBnWb2Jc5kufgtWYEmiMAw"
+  - type: subtitle
+    name: "Public Workspace"
+  - type: link
+    name: "30 days of Postman for developers"
+    url:  "https://www.postman.com/postman/workspace/30-days-of-postman-for-developers/overview"
   - type: section
     name: "Next Steps"
   - type: link

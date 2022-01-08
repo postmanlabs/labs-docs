@@ -9,9 +9,14 @@ contextual_links:
     name: "Prerequisites"
   - type: link
     name: "Grouping requests in collections"
-    url: "/docs/sending-requests/intro-to-collections/"
+    url: "/docs/sending-requests/intro-to-collections/" 
   - type: section
     name: "Additional Resources"
+  - type: subtitle
+    name: "Public Workspace"
+  - type: link
+    name: "Postman Loves Slack"
+    url:  "https://www.postman.com/postman/workspace/4be86d9c-6576-4369-b74f-43991df7a4bd"
   - type: subtitle
     name: "Related Blog Posts"
   - type: link

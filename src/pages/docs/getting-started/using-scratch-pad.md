@@ -2,6 +2,12 @@
 title: "Using the Scratch Pad"
 order: 7.1
 page_id: "using-the-scratch-pad"
+contextual_links:
+  - type: section
+    name: "Public Workspace"
+  - type: link
+    name: "30 days of Postman for developers"
+    url:  "https://www.postman.com/postman/workspace/30-days-of-postman-for-developers/overview"
 warning: false
 ---
 

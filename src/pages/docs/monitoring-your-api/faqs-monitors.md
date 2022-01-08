@@ -3,6 +3,13 @@ title: "Monitoring FAQs"
 order: 95
 page_id: "faqs_monitors"
 search_keyword: "console.log, console.warn"
+contextual_links:
+  - type: section
+    name: "Public Workspace"
+  - type: link
+    name: "Postman Answers"
+    url:  "https://www.postman.com/postman/workspace/postman-answers/overview"  
+
 warning: false
 ---
 

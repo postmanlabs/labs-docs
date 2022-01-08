@@ -20,6 +20,12 @@ contextual_links:
     name: "User Info from the Postman API | Postman Level Up"
     url: "https://www.youtube.com/watch?v=k2bvdqxDcsU"
   - type: subtitle
+    name: "Public Workspace"
+  - type: link
+    name: "Postman API"
+    url:  "https://www.postman.com/postman/workspace/postman-public-workspace/collection/12959542-c8142d51-e97c-46b6-bd77-52bb66712c9a?ctx=documentation"  
+
+  - type: subtitle
     name: "Related Blog Posts"
   - type: link
     name: "Filtering and Sorting APIs Using the Postman API"

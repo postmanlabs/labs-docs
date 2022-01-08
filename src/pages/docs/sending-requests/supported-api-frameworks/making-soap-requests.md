@@ -12,6 +12,11 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
+    name: "Public Workspace"
+  - type: link
+    name: "Public SOAP APIs"
+    url:  "https://www.postman.com/cs-demo/workspace/public-soap-apis/overview"    
+  - type: subtitle
     name: "Related Blog Posts"
   - type: link
     name: "Making HTTP SOAP Requests with Postman"

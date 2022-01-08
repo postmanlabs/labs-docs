@@ -9,6 +9,11 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
+    name: "Public Workspace"
+  - type: link
+    name: "Postman Security Workspace"
+    url:  "https://www.postman.com/postman/workspace/62d58d93-7e0c-45bf-9daa-cc8e531fc344"  
+  - type: subtitle
     name: "Related Blog Posts"
   - type: link
     name: "2 Big Improvements to the Postman Token Scanner"

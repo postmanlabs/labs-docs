@@ -24,6 +24,14 @@ contextual_links:
   - type: link
     name: "GraphQL in Postman Demo"
     url: "https://youtu.be/7pUbezVADQs"
+  - type: subtitle
+    name: "Public Workspace"
+  - type: link
+    name: "Public GraphQL APIs"
+    url: "https://www.postman.com/cs-demo/workspace/9e8c8a19-bb76-46af-9e8d-5747bf8fcce5"  
+  - type: link
+    name: "GraphQL Examples"
+    url:  "https://www.postman.com/devrel/workspace/f12c0652-9c9d-4813-968b-c8ed0b3f0022"    
   - type: section
     name: "Next Steps"
   - type: link

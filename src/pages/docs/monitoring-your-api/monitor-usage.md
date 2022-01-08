@@ -9,6 +9,13 @@ contextual_links:
   - type: link
     name: "Setting up a monitor"
     url: "/docs/monitoring-your-api/setting-up-monitor/"
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Public Workspace"
+  - type: link
+    name: "Postman API Monitoring Examples"
+    url:  "https://www.postman.com/postman/workspace/e348c5a0-2965-44cc-87ed-7b316516f38d"
 
 warning: false
 

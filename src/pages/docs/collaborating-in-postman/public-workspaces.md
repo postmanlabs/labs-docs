@@ -8,6 +8,11 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
+    name: "Public Workspace"
+  - type: link
+    name: "Postman Public Workspace"
+    url:  "https://www.postman.com/postman/workspace/70c7199b-6aee-49a6-a90f-025ad614f294"  
+  - type: subtitle
     name: "Related Blog Posts"
   - type: link
     name: "Creating workspaces"
