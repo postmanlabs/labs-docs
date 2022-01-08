@@ -16,6 +16,11 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "How to Version APIs | Postman"
+    url: "https://youtu.be/LzJEKsccQ70"
+  - type: subtitle
     name: "Related Blog Posts"
   - type: link
     name: "Redefining API Management for the API-First World"
