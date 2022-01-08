@@ -45,7 +45,7 @@ In Postman you can assign roles and permissions to provide access control.
 
 ## Roles in Postman
 
-As a team admin, you have the power to define Postman access at the team level. You can utilize Postman's role-based access control system to limit visibility of team resources, define your development workflow, and provide access to administrative personnel. Team members with the billing role can modify who else has billing roles at the team level.
+As a team admin, you have the power to define Postman access at the team level. You can utilize Postman's role-based access control system to limit visibility of team resources, define your development workflow, and provide access to administrative and billing personnel.
 
 Workspace admins can modify the admin and collaborator roles for the workspace. Editors of particular elements (APIs, collections, environments, monitors, and mock servers) can modify the editor and viewer role on the element.
 
@@ -173,10 +173,7 @@ To manage team roles, see [Managing roles](/docs/administration/managing-your-te
 Contact us via our [Support Center](https://support.postman.com/hc/en-us) for assistance.
 
 * **I'm an admin, why can't I assign the billing role?**
-Billing roles can only be granted by a fellow team member with a billing role. If this is not possible, contact us via our [Support Center](https://support.postman.com/hc/en-us) for assistance.
-
-* **Is there a "Super Admin" role?**
-A "Super Admin" role is being considered for development. You can track progress and upvote [this issue on GitHub](https://github.com/postmanlabs/postman-app-support/issues/6102) to show your support.
+Billing roles can be granted by a [Super Admin](#team-roles) or by a fellow team member with a billing role. If this is not possible, contact us via our [Support Center](https://support.postman.com/hc/en-us) for assistance.
 
 * **Our colleague left the organization, how can we access their collections?**
 You can remove a former colleague from your Postman team via your [dashboard](https://go.postman.co/team). When a collection owner is removed from your team, ownership of their shared collections is transferred to fellow team members and these collections will continue to exist in your Postman team.
