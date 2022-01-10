@@ -3,6 +3,7 @@ title: "Installing and updating"
 order: 2
 page_id: "installation_and_updates"
 warning: false
+updated: 2022-01-05
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -64,7 +65,7 @@ Postman is available for macOS 10.11 (El Capitan) and later.
 
     > Make sure to download the **Mac Apple Chip** version if you have a Mac with the M1 processor.
 
-1. If your browser downloads the file as a ZIP file, double-click the file in the **Downloads** folder to unzip it.
+1. If your browser downloads the file as a ZIP file, find the file in the **Downloads** folder and unzip it.
 1. In the **Downloads** folder, double-click the `Postman` file to install it.
 1. When prompted, move the file to your __Applications__ folder. This will ensure that future updates can be installed correctly.
 
@@ -75,7 +76,7 @@ Postman is available for macOS 10.11 (El Capitan) and later.
 Postman is available for Windows 7 and later.
 
 1. [Download](https://www.postman.com/downloads/) the latest Postman app.
-1. Double-click the `.exe` file to install it.
+1. Select and run the `.exe` file to install Postman.
 
 > Postman v9.4 is the last version of the Postman app that supports both 32-bit and 64-bit Windows. All versions of the Postman app following v9.4 will only work on 64-bit Windows. You can continue to use Postman v9.4 and earlier on 32-bit Windows.
 
@@ -122,11 +123,11 @@ Categories=Development;
 
 ## Using Postman on the web
 
-You can use Postman in your web browser to carry out your API development and testing tasks in conjunction with the Postman Agent. To access Postman on the web, visit [go.postman.co/home](https://go.postman.co/home).
+You can use Postman in your web browser to carry out your API development and testing tasks in conjunction with the Postman Agent. To access Postman for Web, visit [go.postman.co/home](https://go.postman.co/home).
 
 ### Browser requirements
 
-Postman’s web application is optimized for the following browsers:
+Postman for Web is optimized for the following browsers:
 
 * Chrome (78 and higher)
 * Firefox (76 and higher)
@@ -135,30 +136,32 @@ Postman’s web application is optimized for the following browsers:
 
 ### Installing the Postman desktop agent
 
-If you are using the Postman web client, you will need to also download the Postman desktop agent. You will be prompted to download and install the agent so that you can make requests from the web. You can also download the agent directly from [the Downloads page](https://www.postman.com/downloads/).
+If you are using the Postman for Web, you also need to download the Postman desktop agent, a micro-application that runs locally on your desktop. The desktop agent overcomes the Cross Object Resource Sharing (CORS) limitations of browsers and acts as your agent for making API calls from Postman for Web.
 
-<img alt="Postman Agent" src="https://assets.postman.com/postman-docs/download-agent-v86.jpg" width="500px"/>
+You will be prompted to download and install the desktop agent so that you can make requests from Postman for Web. You can also download the agent directly from [the Downloads page](https://www.postman.com/downloads/). Once you have the desktop agent installed you will be able to use it with web requests.
 
-The Postman agent overcomes the Cross Object Resource Sharing (CORS) limitations of browsers, and facilitates API request sending from your browser version of Postman. Once you have the agent installed you will be able to use it with web requests.
+To learn more about the desktop agent, read the [Introducing the Postman Agent](https://blog.postman.com/introducing-the-postman-agent-send-api-requests-from-your-browser-without-limits/) blog post.
 
-You can either enable **Auto-select** option or manually select the agent (**Cloud**, **Desktop**, or **Browser**) you would like to use for your requests.
+### Selecting the agent for requests
+
+From Postman for Web, you can select the agent you would like to use for your requests:
+
+* **Auto-select**: Postman automatically selects the best agent to use for your request.
+* **Cloud**: Manually select this option to send HTTP requests using Postman's cloud servers.
+* **Desktop**: Manually select this option to send requests using the Postman desktop agent.
+* **Browser**: Manually select this option to send requests using your browser, with some [limitations](#web-limitations).
 
 <img alt="Select agent" src="https://assets.postman.com/postman-docs/select-agent-for-requests.gif">
 
-Once you enable the option for **Auto-select**, Postman will automatically select the best agent for your requests.
-
-You can select the **Cloud Agent** if you want to send HTTP requests via Postman's secure cloud servers. While using the locally running Postman, it is recommended you use the **Desktop Agent**. Using the **Browser Agent** for your web requests has some [limitations](/docs/getting-started/installation-and-updates/#web-limitations).
-
-> If you try to send a request and it isn't successful because the agent is not selected, you will see a link in the response area which you can select to switch to the agent and try your request again. Read [more about the agent](https://blog.postman.com/introducing-the-postman-agent-send-api-requests-from-your-browser-without-limits/).
+> If you try to send a request and it isn't successful because the agent is not selected, you will see a link in the response area that you can select to switch to the agent and try your request again.
 
 ### Web limitations
 
-Postman on the web is under active development, but there are a few features you can currently only access in the desktop app and not in your web browser:
+Postman for Web is under active development. There are a few features you can currently only access in the desktop app, not in your browser:
 
-* **Live preview**: You will not see all of your request headers update live as you enter your request configurations as you do in the desktop Postman app—you will only see Authorization headers update as you edit.
-* **Saving responses to file**
-* **Certificates and Proxy**: These will take the browser defined value and cannot be overridden by Postman.
-* **Postman Interceptor**
+* **Find and replace**: The Postman desktop app supports [finding and replacing values in a workspace](/docs/getting-started/navigating-postman/#find-and-replace), but this function is not available on Postman for Web yet.
+* **Certificates and proxy**: The Postman desktop app allows you to customize [certificates](/docs/sending-requests/certificates/) and [proxy configurations](/docs/sending-requests/capturing-request-data/proxy/#configuring-proxy-settings). On Postman for Web, these take the browser defined value and cannot be overridden by Postman.
+* **Postman Interceptor**: [Interceptor](/docs/sending-requests/capturing-request-data/interceptor/) syncs cookies from your browser to the Postman desktop app and captures network requests directly from the browser. It is not possible to use Interceptor with Postman for Web.
 
 ## Updating Postman
 
