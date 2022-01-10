@@ -39,7 +39,7 @@ contextual_links:
     url: "/docs/designing-and-developing-your-api/validating-elements-against-schema/"
 ---
 
-> __[ GitHub Enterprise Server and GitLab Self-Managed integrations are only available on Postman Enterprise plans.](https://www.postman.com/pricing)__
+> __[GitHub Enterprise Server and GitLab Self-Managed integrations are only available on Postman Enterprise plans.](https://www.postman.com/pricing)__
 
 You can manage multiple versions of any APIs you create in Postman. You can then associate mocks, monitors, and documentation to specific versions of APIs.
 
