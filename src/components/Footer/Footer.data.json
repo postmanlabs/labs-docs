@@ -2,7 +2,7 @@
   "type": "footer",
   "src": "/assets/postman-footer-v6-2.svg",
   "alt": "api-platform",
-  "copyright": "© 2021 Postman, Inc.",
+  "copyright": "© 2022 Postman, Inc.",
   "items": [
     {
       "title": "Product",
@@ -304,8 +304,8 @@
           "target":"" 
         }
       ],
-      "title": "© 2021 Postman, Inc. All rights reserved."
+      "title": "© 2022 Postman, Inc. All rights reserved."
     }
   ],
-  "copy": "© 2021 Postman, Inc. All rights reserved."
+  "copy": "© 2022 Postman, Inc. All rights reserved."
 }
