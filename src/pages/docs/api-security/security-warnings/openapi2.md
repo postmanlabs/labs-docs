@@ -130,34 +130,6 @@ security:
 
 &nbsp;
 
-### Scope for OAuth scheme used in security field is not defined in the securityDefinition declaration
-
-| Severity | Issue description | Possible fix |
-| ----------- | ----------- | ----------- |
-| Low | The OAuth2 scopes used in the global security field should be defined in the security schemes field. Otherwise, an attacker can introduce their scopes to fill the gap and exploit the system. | Make sure that all the OAuth2 scopes used are defined in the OAuth2 security scheme. |
-
-**Resolution:**
-
-```json
-swagger: '2.0'
-#...
-security:
-  - OAuth2:
-    - read
-    - write
-securityDefinitions:
-  OAuth2:
-    type: oauth2
-    flow: accessCode
-    scopes:
-      read: read object
-      write: writes object
-    authorizationUrl: https://example.com/authorize
-    tokenUrl: https://example.com/token
-```
-
-&nbsp;
-
 ## Reusable security definitions are not defined properly within components
 
 ### Security definition object not defined
@@ -289,39 +261,6 @@ paths:
 securityDefinitions:
   basicAuth:
     type: basic
-```
-
-&nbsp;
-
-### Scope for OAuth scheme used is not defined in the securityDefinition declaration
-
-| Severity | Issue description | Possible fix |
-| ----------- | ----------- | ----------- |
-| Low | The OAuth2 scopes used in the  security field of the operation should be defined in the security schemes field. Otherwise, an attacker can introduce their scopes to fill the gap and exploit the system. | Make sure that all the OAuth2 scopes used are defined in the OAuth2 security scheme. |
-
-**Resolution:**
-
-```json
-swagger: '2.0'
-#...
-paths:
-  "/user":
-    get:
-      summary: 'Sample endpoint: Returns details about a particular user'
-      operationId: listUser
-      security:
-        - OAuth2:
-          - read
-          - write
-securityDefinitions:
-  OAuth2:
-    type: oauth2
-    flow: accessCode
-    scopes:
-      read: read object
-      write: writes object
-    authorizationUrl: https://example.com/authorize
-    tokenUrl: https://example.com/token
 ```
 
 &nbsp;
@@ -780,6 +719,70 @@ paths:
         - application/json
   ...
 ...
+```
+
+&nbsp;
+
+## Broken object level authorization
+
+### Scope for OAuth scheme used in security field is not defined in the securityDefinition declaration
+
+| Severity | Issue description | Possible fix |
+| ----------- | ----------- | ----------- |
+| Low | The OAuth2 scopes used in the global security field should be defined in the security schemes field. Otherwise, an attacker can introduce their scopes to fill the gap and exploit the system. | Make sure that all the OAuth2 scopes used are defined in the OAuth2 security scheme. |
+
+**Resolution:**
+
+```json
+swagger: '2.0'
+#...
+security:
+  - OAuth2:
+    - read
+    - write
+securityDefinitions:
+  OAuth2:
+    type: oauth2
+    flow: accessCode
+    scopes:
+      read: read object
+      write: writes object
+    authorizationUrl: https://example.com/authorize
+    tokenUrl: https://example.com/token
+```
+
+&nbsp;
+
+
+### Scope for OAuth scheme used is not defined in the securityDefinition declaration
+
+| Severity | Issue description | Possible fix |
+| ----------- | ----------- | ----------- |
+| Low | The OAuth2 scopes used in the  security field of the operation should be defined in the security schemes field. Otherwise, an attacker can introduce their scopes to fill the gap and exploit the system. | Make sure that all the OAuth2 scopes used are defined in the OAuth2 security scheme. |
+
+**Resolution:**
+
+```json
+swagger: '2.0'
+#...
+paths:
+  "/user":
+    get:
+      summary: 'Sample endpoint: Returns details about a particular user'
+      operationId: listUser
+      security:
+        - OAuth2:
+          - read
+          - write
+securityDefinitions:
+  OAuth2:
+    type: oauth2
+    flow: accessCode
+    scopes:
+      read: read object
+      write: writes object
+    authorizationUrl: https://example.com/authorize
+    tokenUrl: https://example.com/token
 ```
 
 &nbsp;
