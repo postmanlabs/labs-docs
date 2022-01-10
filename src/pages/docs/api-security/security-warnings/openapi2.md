@@ -80,55 +80,6 @@ For all APIs defined in OpenAPI 2.0, the following list describes possible warni
 
 ## Security scheme configuration allows loopholes for credential leaks
 
-### OAuth authentication uses the deprecated implicit flow
-
-| Severity | Issue description | Possible fix |
-| ----------- | ----------- | ----------- |
-| Medium | In OAuth implicit flow, authorization server issues access tokens in the authorization request’s response. Attackers can easily intercept API calls and retrieve the access tokens to make other API calls. | It is recommended to use accessCode flow. Make sure that the OAuth authentication scheme is not using the implicit flow. |
-
-**Resolution:**
-
-```json
-swagger: '2.0'
-#...
-securityDefinitions:
-  OAuth2:
-    type: oauth2
-    flow: accessCode
-    authorizationUrl: https://my.auth.example.com/
-    tokenUrl: https://my.token.example.com/
-    scopes:
-      write: modify data
-      read: read data
-```
-
-&nbsp;
-
-### OAuth authentication uses the deprecated password flow
-
-| Severity | Issue description | Possible fix |
-| ----------- | ----------- | ----------- |
-| Medium | Oauth password grant flow uses the user’s credentials to retrieve the access token. Attackers can easily intercept API calls and retrieve the access tokens to make other API calls. | It is recommended to use accessCode flow. Make sure that the OAuth authentication scheme is not using the password flow. |
-
-**Resolution:**
-
-```json
-swagger: '2.0'
-#...
-securityDefinitions:
-  OAuth2:
-    type: oauth2
-    flow: accessCode
-    authorizationUrl: https://my.auth.example.com/
-    tokenUrl: https://my.token.example.com/
-    scopes:
-      write: modify data
-      read: read data
-
-```
-
-&nbsp;
-
 ## Consumes field should properly enforce MIME types
 
 ### Consumes field is not defined
@@ -788,6 +739,57 @@ securityDefinitions:
     flow: accessCode
     #...
     tokenUrl: https://example.com/token
+```
+
+&nbsp;
+
+## Improper assets management
+
+### OAuth authentication uses the deprecated implicit flow
+
+| Severity | Issue description | Possible fix |
+| ----------- | ----------- | ----------- |
+| Medium | In OAuth implicit flow, authorization server issues access tokens in the authorization request’s response. Attackers can easily intercept API calls and retrieve the access tokens to make other API calls. | It is recommended to use accessCode flow. Make sure that the OAuth authentication scheme is not using the implicit flow. |
+
+**Resolution:**
+
+```json
+swagger: '2.0'
+#...
+securityDefinitions:
+  OAuth2:
+    type: oauth2
+    flow: accessCode
+    authorizationUrl: https://my.auth.example.com/
+    tokenUrl: https://my.token.example.com/
+    scopes:
+      write: modify data
+      read: read data
+```
+
+&nbsp;
+
+### OAuth authentication uses the deprecated password flow
+
+| Severity | Issue description | Possible fix |
+| ----------- | ----------- | ----------- |
+| Medium | Oauth password grant flow uses the user’s credentials to retrieve the access token. Attackers can easily intercept API calls and retrieve the access tokens to make other API calls. | It is recommended to use accessCode flow. Make sure that the OAuth authentication scheme is not using the password flow. |
+
+**Resolution:**
+
+```json
+swagger: '2.0'
+#...
+securityDefinitions:
+  OAuth2:
+    type: oauth2
+    flow: accessCode
+    authorizationUrl: https://my.auth.example.com/
+    tokenUrl: https://my.token.example.com/
+    scopes:
+      write: modify data
+      read: read data
+
 ```
 
 &nbsp;
