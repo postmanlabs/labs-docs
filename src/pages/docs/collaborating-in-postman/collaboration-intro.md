@@ -35,15 +35,12 @@ Postman provides you with many tools to help you work with your team, allowing y
 
 * [Enabling team discovery](#enabling-team-discovery)
 * [Collaborating in team workspaces](#collaborating-in-team-workspaces)
-
     * [Inviting a team member to a workspace](#inviting-a-team-member-to-a-workspace)
 
     * [Finding teams within your organization](#finding-teams-within-your-organization)
 
     * [Leaving a team](#leaving-a-team)
 * [Team usage limits](#team-usage-limits)
-
-    * [Recovering archived collections](#recovering-your-archived-collections)
 * [Next steps](#next-steps)
 
 ## Enabling team discovery
@@ -59,7 +56,7 @@ On your Team Settings page, select **Team discovery**, then select the toggle to
 
 > Team admins will receive an email notification when team discovery is enabled.
 
-You can optionally add a question for pending team members to answer when they request to join your team. Enter your question and select **Update Question**. Anyone who requests to join the team will be prompted with the question. If you do not specify a question, team members can still add a note when they ask to join.
+You can optionally add a question for pending team members to answer when they request to join your team. Enter your question and select **Update Question**. Anyone who requests to join the team will be prompted with the question. If you do not specify a question, team members can still add a note when they request to join the team.
 
 You will be notified when someone makes a request to join your team, including their answer to any question you set, or an optional note.
 
@@ -109,32 +106,12 @@ If you are the last member to leave your team, you will have the option to trans
 
 The Postman usage menu allows you to review your team's limits for APIs, shared requests and history, mocks, monitors, and public documentation.
 
-* Free users: Next to your avatar, select the menu to the right of **Upgrade**.
-* Paid users: Next to your avatar, select **Team**.
+* **Free users**: Next to your avatar, select the menu to the right of **Upgrade**.
+* **Paid users**: Next to your avatar, select **Team**.
 
 For more details and to view your usage period, select **Resource Usage**.
 
 ![Usage limit information](https://assets.postman.com/postman-docs/team-resource-limits-v9.7.jpg)
-
-### Recovering your archived collections
-
-If your free team's collaboration exceeds usage limits, Postman will archive collections to bring your team within usage limits. Collections that have gone the longest without being revised will be archived first, based on the last edit date. Postman indicates the number of archived collections at the bottom of the left sidebar.
-
-[![archived message](https://assets.postman.com/postman-docs/ArchiveMsg2.png)](https://assets.postman.com/postman-docs/ArchiveMsg2.png)
-
-To recover archived collections, select **Archived Collections**.
-
-You will then be directed to your dashboard. Select **Download your data** > **Request data export** > **Request an archive**.
-
-[![export data1](https://assets.postman.com/postman-docs/Recovering_ArchivedCol1.png)](https://assets.postman.com/postman-docs/Recovering_ArchivedCol1.png)
-
-Select **Download** to retrieve your archived data.
-
-[![Download Data](https://assets.postman.com/postman-docs/Download_Data1.png)](https://assets.postman.com/postman-docs/Download_Data1.png)
-
-> The `archive.json` inside the downloaded ZIP archive is not a Postman collection that can be imported. Instead, it is an index of files present in the archive. A collections folder contains all the files that can be imported.
-
-Alternatively, you can download your archived data directly within Postman. To learn how, refer to [Settings](/docs/getting-started/settings/).
 
 ## Next steps
 
