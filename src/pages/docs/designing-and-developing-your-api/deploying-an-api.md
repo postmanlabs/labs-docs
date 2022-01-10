@@ -103,10 +103,10 @@ When you're ready, select **Connect**.
 After connecting to Amazon API Gateway, you can view the export and deployment history for your API schemas in Postman. Select **APIs** in the left sidebar, select an API and version, and then select the **Deployments** tab.
 
 * For each stage you can view the active deployment, the creation date, and the date last updated. Select a stage to view additional details, including the invoke URL and stage description (from AWS).
-* For each export from Postman, you can view the source of the export and the time stamp.
+* For each export from Postman, you can view the source of the export and the time when exported.
 * For each deployment you can view the ID, description, and creation date.
 
-<img alt="Viewing API deployments" src="https://assets.postman.com/postman-docs/api-gateway-deployments-configured-v9-6.jpg" width="875px"/>
+<img alt="Viewing API deployments" src="https://assets.postman.com/postman-docs/api-gateway-view-deployments-v9-8.jpg" width="946px"/>
 
 From the **Deployments** tab, you can take the following actions:
 
@@ -128,9 +128,12 @@ Exporting an HTTP API schema makes it available in the connected Amazon API Gate
     You can also export and deploy your API from the Changelog. Open the Changelog <img alt="Changelog icon" src="https://assets.postman.com/postman-docs/icon-changelog-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> in the right context bar, select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to a release, and then select **Deploy Schema**.
 
 1. Select the version, branch, or release to deploy. Learn more about [versioning an API](/docs/designing-and-developing-your-api/versioning-an-api/) and [creating a release](/docs/designing-and-developing-your-api/versioning-an-api/#creating-a-release).
-1. (Optional) If you would like to immediately deploy the schema to a stage after exporting, select **Deploy it on Stage**. Select the AWS stage to deploy the schema to, and enter a brief description.
+1. (Optional) If you would like to immediately deploy the schema to a stage after exporting, select **Deploy on a stage**. Select the AWS stage to deploy the schema to, and enter a brief description.
+
+    > To deploy your schema, your gateway must have at least one route with a configured integration.
+
 1. Select **Deploy**.
 
-<img alt="Deploying an API" src="https://assets.postman.com/postman-docs/deploy-api-schema-on-aws-v9-6.jpg" width="502px"/>
+<img alt="Deploying an API" src="https://assets.postman.com/postman-docs/deploy-api-schema-on-aws-v9-8.jpg" width="502px"/>
 
 > [API Gateway extensions to Open API](https://docs.aws.amazon.com/apigateway/latest/developerguide/api-gateway-swagger-extensions.html) (vendor extensions) are preserved when pushing and deploying a schema from Postman. Postman merges any extensions present in the API Gateway into the schema before pushing the merged schema to the API Gateway.
