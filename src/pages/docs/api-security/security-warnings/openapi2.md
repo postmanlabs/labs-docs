@@ -76,256 +76,9 @@ For all APIs defined in OpenAPI 2.0, the following list describes possible warni
 
 ## Global schemes configuration allows insecure enforcement of security schemes
 
-### API accepts credentials from OAuth authentication in plain text
-
-| Severity | Issue description | Possible fix |
-| ----------- | ----------- | ----------- |
-| High | The access tokens are sent as plain text over an unencrypted network. Attackers can intercept the access tokens simply by listening to the network traffic in a public Wi-Fi network. | Make sure that the scheme used in the schemes array is HTTPS. |
-
-**Resolution:**
-
-```json
-swagger: '2.0'
-#...
-host: 'example.com'
-schemes:
-  - https
-securityDefinitions:
-  OAuth2:
-    type: oauth2
-    flow: accessCode
-    authorizationUrl: https://my.auth.example.com/
-    tokenUrl: https://my.token.example.com/
-security:
- - OAuth2: []
-```
-
-&nbsp;
-
-### API accepts API key in plain text
-
-| Severity | Issue description | Possible fix |
-| ----------- | ----------- | ----------- |
-| High | API keys are sent as plain text over an unencrypted channel. Attackers can easily intercept API key by listening to the network traffic in a public Wi-Fi network. | Make sure that the scheme used in the scheme array is HTTPS. |
-
-**Resolution**:
-
-```json
-swagger: '2.0'
-#...
-host: 'example.com'
-schemes:
-  - https
-securityDefinitions:
-  apiKeyAuth:
-    type: apiKey
-    name: api_key
-    in: header
-security:
-  - apiKeyAuth: []
-```
-
-&nbsp;
-
-### API accepts basic authentication credentials in plain text
-
-| Severity | Issue description | Possible fix |
-| ----------- | ----------- | ----------- |
-| High | The credentials are sent as plain text over an unencrypted network. Attackers can intercept the credentials simply by listening to the network traffic in a public Wi-Fi network. | Make sure that the scheme used in the scheme array is HTTPS. |
-
-**Resolution:**
-
-```json
-swagger: '2.0'
-#...
-host: 'example.com'
-schemes:
-  - https
-securityDefinitions:
-  basicAuth:
-    type: basic
-security:
- - basicAuth: []
-```
-
-&nbsp;
-
-### Global schemes have HTTP scheme defined
-
-| Severity | Issue description | Possible fix |
-| ----------- | ----------- | ----------- |
-| Medium | The server supports unencrypted HTTP connections, all requests and responses will be transmitted in the open. Anyone listening to the network traffic while the calls are being made can intercept them. | Make sure that the scheme used in the scheme array is HTTPS. |
-
-**Resolution:**
-
-```json
-swagger: '2.0'
-#...
-host: 'example.com'
-schemes:
-  - https
-#...
-```
-
-&nbsp;
-
 ## Operation server configuration allows insecure enforcement of security schemes
 
-### Operation accepts credentials from OAuth authentication in plain text
-
-| Severity | Issue description | Possible fix |
-| ----------- | ----------- | ----------- |
-| Medium | The API operation accepts the access tokens from a flow that are transported in plain text over an unencrypted channel. Attackers can easily intercept API calls and retrieve the unencrypted tokens. They can then use the tokens to make other API calls. | Make sure that the scheme used in the scheme array of the operation is HTTPS.|
-
-**Resolution:**
-
-```json
-swagger: '2.0'
-#...
-host: 'example.com'
-paths:
-  "/user":
-    get:
-      summary: 'Sample endpoint: Returns details about a particular user'
-      schemes:
-          - https
-      security:
-          - OAuth2: []
-      #...
-securityDefinitions:
-  OAuth2:
-    type: oauth2
-    flow: accessCode
-    authorizationUrl: https://my.auth.example.com/
-    tokenUrl: https://my.token.example.com/
-```
-
-&nbsp;
-
-### Operation accepts API key in plain text
-
-| Severity | Issue description | Possible fix |
-| ----------- | ----------- | ----------- |
-| High | The API operation accepts API keys that are transported in plain text over an unencrypted channel. Attackers can easily intercept API calls and retrieve the API key to make other API calls. | Make sure that the scheme used in the scheme array of the operation is HTTPS. |
-
-**Resolution**:
-
-```json
-swagger: '2.0'
-#...
-host: 'example.com'
-paths:
-  "/user":
-    get:
-      summary: 'Sample endpoint: Returns details about a particular user'
-      schemes:
-          - https
-      security:
-          - apiKeyAuth: []
-      #...
-securityDefinitions:
-  apiKeyAuth:
-    type: apiKey
-    name: api_key
-    in: header
-```
-
-&nbsp;
-
-### Operation accepts basic authentication credentials in plain text
-
-| Severity | Issue description | Possible fix |
-| ----------- | ----------- | ----------- |
-| Medium | The API operation accepts the credentials that are transported in plain text over an unencrypted channel. Attackers can easily intercept API calls and retrieve the unencrypted tokens. They can then use the tokens to make other API calls. | Make sure that the scheme used in the scheme array of the operation is HTTPS. |
-
-**Resolution:**
-
-```json
-swagger: '2.0'
-#...
-host: 'example.com'
-paths:
-  "/user":
-    get:
-      summary: 'Sample endpoint: Returns details about a particular user'
-      schemes:
-          - https
-      security:
-          - BasicAuth: []
-      #...
-securityDefinitions:
-  BasicAuth:
-    type: basic
-```
-
-&nbsp;
-
-### Schemes of the operation have HTTP scheme defined
-
-| Severity | Issue description | Possible fix |
-| ----------- | ----------- | ----------- |
-| Medium | The API operation supports unencrypted HTTP connections, all requests and responses will be transmitted in the open. Anyone listening to the network traffic while the calls are being made can intercept them. | Make sure that the scheme used in the scheme array of the operation is HTTPS. |
-
-**Resolution:**
-
-```json
-swagger: '2.0'
-#...
-host: 'example.com'
-paths:
-  "/user":
-    get:
-      summary: 'Sample endpoint: Returns details about a particular user'
-      schemes:
-          - https
-      #...
-```
-
-&nbsp;
-
 ## Security scheme configuration allows loopholes for credential leaks
-
-### Authorization URL uses HTTP protocol. Credentials will be transferred as plain text
-
-| Severity | Issue description | Possible fix |
-| ----------- | ----------- | ----------- |
-| Medium | OAuth authorization credentials are transported over an unencrypted channel. Anyone listening to the network traffic while the calls are being made can intercept them. | Make sure that the authorization URL is a valid URL and follows HTTPS protocol. |
-
-**Resolution:**
-
-```json
-swagger: '2.0'
-#...
-securityDefinitions:
-  OAuth2:
-    type: oauth2
-    flow: accessCode
-    #...
-    authorizationUrl: https://example.com/authorize
-```
-
-&nbsp;
-
-### Token URL uses HTTP protocol
-
-| Severity | Issue description | Possible fix |
-| ----------- | ----------- | ----------- |
-| Medium | OAuth authentication tokens are transported over an unencrypted channel. Anyone listening to the network traffic while the token is being sent can intercept it. | Make sure that the token URL is a valid URL and follows HTTPS protocol. |
-
-**Resolution:**
-
-```json
-swagger: '2.0'
-#...
-securityDefinitions:
-  OAuth2:
-    type: oauth2
-    flow: accessCode
-    #...
-    tokenUrl: https://example.com/token
-```
-
-&nbsp;
 
 ### OAuth authentication uses the deprecated implicit flow
 
@@ -785,6 +538,256 @@ paths:
 securityDefinitions:
   basicAuth:
     type: basic
+```
+
+&nbsp;
+
+## Excessive data exposure
+
+
+### API accepts credentials from OAuth authentication in plain text
+
+| Severity | Issue description | Possible fix |
+| ----------- | ----------- | ----------- |
+| High | The access tokens are sent as plain text over an unencrypted network. Attackers can intercept the access tokens simply by listening to the network traffic in a public Wi-Fi network. | Make sure that the scheme used in the schemes array is HTTPS. |
+
+**Resolution:**
+
+```json
+swagger: '2.0'
+#...
+host: 'example.com'
+schemes:
+  - https
+securityDefinitions:
+  OAuth2:
+    type: oauth2
+    flow: accessCode
+    authorizationUrl: https://my.auth.example.com/
+    tokenUrl: https://my.token.example.com/
+security:
+ - OAuth2: []
+```
+
+&nbsp;
+
+### API accepts API key in plain text
+
+| Severity | Issue description | Possible fix |
+| ----------- | ----------- | ----------- |
+| High | API keys are sent as plain text over an unencrypted channel. Attackers can easily intercept API key by listening to the network traffic in a public Wi-Fi network. | Make sure that the scheme used in the scheme array is HTTPS. |
+
+**Resolution**:
+
+```json
+swagger: '2.0'
+#...
+host: 'example.com'
+schemes:
+  - https
+securityDefinitions:
+  apiKeyAuth:
+    type: apiKey
+    name: api_key
+    in: header
+security:
+  - apiKeyAuth: []
+```
+
+&nbsp;
+
+### API accepts basic authentication credentials in plain text
+
+| Severity | Issue description | Possible fix |
+| ----------- | ----------- | ----------- |
+| High | The credentials are sent as plain text over an unencrypted network. Attackers can intercept the credentials simply by listening to the network traffic in a public Wi-Fi network. | Make sure that the scheme used in the scheme array is HTTPS. |
+
+**Resolution:**
+
+```json
+swagger: '2.0'
+#...
+host: 'example.com'
+schemes:
+  - https
+securityDefinitions:
+  basicAuth:
+    type: basic
+security:
+ - basicAuth: []
+```
+
+&nbsp;
+
+### Global schemes have HTTP scheme defined
+
+| Severity | Issue description | Possible fix |
+| ----------- | ----------- | ----------- |
+| Medium | The server supports unencrypted HTTP connections, all requests and responses will be transmitted in the open. Anyone listening to the network traffic while the calls are being made can intercept them. | Make sure that the scheme used in the scheme array is HTTPS. |
+
+**Resolution:**
+
+```json
+swagger: '2.0'
+#...
+host: 'example.com'
+schemes:
+  - https
+#...
+```
+
+&nbsp;
+
+### Operation accepts credentials from OAuth authentication in plain text
+
+| Severity | Issue description | Possible fix |
+| ----------- | ----------- | ----------- |
+| Medium | The API operation accepts the access tokens from a flow that are transported in plain text over an unencrypted channel. Attackers can easily intercept API calls and retrieve the unencrypted tokens. They can then use the tokens to make other API calls. | Make sure that the scheme used in the scheme array of the operation is HTTPS.|
+
+**Resolution:**
+
+```json
+swagger: '2.0'
+#...
+host: 'example.com'
+paths:
+  "/user":
+    get:
+      summary: 'Sample endpoint: Returns details about a particular user'
+      schemes:
+          - https
+      security:
+          - OAuth2: []
+      #...
+securityDefinitions:
+  OAuth2:
+    type: oauth2
+    flow: accessCode
+    authorizationUrl: https://my.auth.example.com/
+    tokenUrl: https://my.token.example.com/
+```
+
+&nbsp;
+
+### Operation accepts API key in plain text
+
+| Severity | Issue description | Possible fix |
+| ----------- | ----------- | ----------- |
+| High | The API operation accepts API keys that are transported in plain text over an unencrypted channel. Attackers can easily intercept API calls and retrieve the API key to make other API calls. | Make sure that the scheme used in the scheme array of the operation is HTTPS. |
+
+**Resolution**:
+
+```json
+swagger: '2.0'
+#...
+host: 'example.com'
+paths:
+  "/user":
+    get:
+      summary: 'Sample endpoint: Returns details about a particular user'
+      schemes:
+          - https
+      security:
+          - apiKeyAuth: []
+      #...
+securityDefinitions:
+  apiKeyAuth:
+    type: apiKey
+    name: api_key
+    in: header
+```
+
+&nbsp;
+
+### Operation accepts basic authentication credentials in plain text
+
+| Severity | Issue description | Possible fix |
+| ----------- | ----------- | ----------- |
+| Medium | The API operation accepts the credentials that are transported in plain text over an unencrypted channel. Attackers can easily intercept API calls and retrieve the unencrypted tokens. They can then use the tokens to make other API calls. | Make sure that the scheme used in the scheme array of the operation is HTTPS. |
+
+**Resolution:**
+
+```json
+swagger: '2.0'
+#...
+host: 'example.com'
+paths:
+  "/user":
+    get:
+      summary: 'Sample endpoint: Returns details about a particular user'
+      schemes:
+          - https
+      security:
+          - BasicAuth: []
+      #...
+securityDefinitions:
+  BasicAuth:
+    type: basic
+```
+
+&nbsp;
+
+### Schemes of the operation have HTTP scheme defined
+
+| Severity | Issue description | Possible fix |
+| ----------- | ----------- | ----------- |
+| Medium | The API operation supports unencrypted HTTP connections, all requests and responses will be transmitted in the open. Anyone listening to the network traffic while the calls are being made can intercept them. | Make sure that the scheme used in the scheme array of the operation is HTTPS. |
+
+**Resolution:**
+
+```json
+swagger: '2.0'
+#...
+host: 'example.com'
+paths:
+  "/user":
+    get:
+      summary: 'Sample endpoint: Returns details about a particular user'
+      schemes:
+          - https
+      #...
+```
+
+&nbsp;
+
+### Authorization URL uses HTTP protocol. Credentials will be transferred as plain text
+
+| Severity | Issue description | Possible fix |
+| ----------- | ----------- | ----------- |
+| Medium | OAuth authorization credentials are transported over an unencrypted channel. Anyone listening to the network traffic while the calls are being made can intercept them. | Make sure that the authorization URL is a valid URL and follows HTTPS protocol. |
+
+**Resolution:**
+
+```json
+swagger: '2.0'
+#...
+securityDefinitions:
+  OAuth2:
+    type: oauth2
+    flow: accessCode
+    #...
+    authorizationUrl: https://example.com/authorize
+```
+
+&nbsp;
+
+### Token URL uses HTTP protocol
+
+| Severity | Issue description | Possible fix |
+| ----------- | ----------- | ----------- |
+| Medium | OAuth authentication tokens are transported over an unencrypted channel. Anyone listening to the network traffic while the token is being sent can intercept it. | Make sure that the token URL is a valid URL and follows HTTPS protocol. |
+
+**Resolution:**
+
+```json
+swagger: '2.0'
+#...
+securityDefinitions:
+  OAuth2:
+    type: oauth2
+    flow: accessCode
+    #...
+    tokenUrl: https://example.com/token
 ```
 
 &nbsp;
