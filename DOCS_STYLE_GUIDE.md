@@ -312,9 +312,9 @@ Use meaningful text for links, avoiding phrases such as "click here" when possib
 
 ---
 
-:thumbsdown::no_entry_sign: Click [here](/docs/postman/scripts/intro_to_scripts/) for more details on scripts.
+:thumbsdown::no_entry_sign: `Click [here](/docs/postman/scripts/intro_to_scripts/) for more details on scripts.`
 
-:thumbsup::white_check_mark: For more on scripting in Postman, see [Intro to Scripts](/docs/postman/scripts/intro_to_scripts/).
+:thumbsup::white_check_mark: `For more on scripting in Postman, see [Intro to Scripts](/docs/postman/scripts/intro_to_scripts/).`
 
 ---
 
