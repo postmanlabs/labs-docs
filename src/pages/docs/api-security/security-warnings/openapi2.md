@@ -70,200 +70,9 @@ For all APIs defined in OpenAPI 2.0, the following list describes possible warni
 
 ## Global security field should properly enforce security
 
-### Security field is not defined
-
-| Severity | Issue description | Possible fix |
-| -------- | ----------------- | ------------ |
-| High | If the global security field is not defined, the API does not require any authentication by default. Anyone can access the API operations that do not have a security field defined. | The security field should be defined in the schema. |
-
-**Resolution:**
-
-```json
-swagger: '2.0'
-#...
-securityDefinitions:
-  basicAuth:
-    type: basic
-security:
-    - basicAuth: []
-```
-
-&nbsp;
-
-### Security field does not contain any item
-
-| Severity | Issue description | Possible fix |
-| -------- | ----------------- | ------------ |
-| High | If the security field contains an empty array, no security scheme is applied to the operations by default. | The security field should contain at least one item in the array. |
-
-**Resolution:**
-
-```json
-swagger: '2.0'
-#...
-securityDefinitions:
-  basicAuth:
-    type: basic
-security:
-    - basicAuth: []
-```
-
-&nbsp;
-
-### Security field does not contain any scheme
-
-| Severity | Issue description | Possible fix |
-| -------- | ----------------- | ------------ |
-| High | An empty object in the security field disables the authentication completely. Without security fields defined for each operation, anyone can access the API operations without any authentication. | Security field array items should not contain an empty object. |
-
-**Resolution:**
-
-```json
-swagger: '2.0'
-#...
-securityDefinitions:
-  basicAuth:
-    type: basic
-security:
-    - basicAuth: []
-```
-
-&nbsp;
-
 ## Reusable security definitions are not defined properly within components
 
-### Security definition object not defined
-
-| Severity | Issue description | Possible fix |
-| ----------- | ----------- | ----------- |
-| High | The components object of the API does not declare any security definitions which can be used in the security field of the API or individual operations. | Security definitions should be defined in the schema of the component. |
-
-**Resolution:**
-
-```json
-swagger: '2.0'
-#...
-securityDefinitions:
-  basicAuth:
-    type: basic
-```
-
-&nbsp;
-
-### Security definition object does not contain any scheme
-
-| Severity | Issue description | Possible fix |
-| ----------- | ----------- | ----------- |
-| High | An empty object in the reusable security definition means that no authentication scheme is defined for each operation, anyone can access the API operations without any authentication. | Security definitions should contain at least one item in the object. |
-
-**Resolution:**
-
-```json
-swagger: '2.0'
-#...
-securityDefinitions:
-  basicAuth:
-    type: basic
-```
-
-&nbsp;
-
-### Scheme used in security field is not defined in the security definition object
-
-| Severity | Issue description | Possible fix |
-| ----------- | ----------- | ----------- |
-| Medium | The authentication scheme used in global or operation security field is not defined in the security definition object. | Scheme used in the security field should be defined in the security definition object. |
-
-**Resolution:**
-
-```json
-swagger: '2.0'
-#...
-securityDefinitions:
-  basicAuth:
-    type: basic
-security:
-    - basicAuth: []
-```
-
-&nbsp;
-
 ## Security field for an individual operation should properly enforce security
-
-### Security field for the operation does not contain any item
-
-| Severity | Issue description | Possible fix |
-| ----------- | ----------- | ----------- |
-| Medium | No security scheme is applied to the API operation by default. | The security field in any operation should contain at least one item in the array. |
-
-**Resolution:**
-
-```json
-swagger: '2.0'
-#...
-paths:
-  /user:
-    get:
-      description: 'Returns details about a particular user'
-      security:
-          - basicAuth: []
-      #...
-securityDefinitions:
-  basicAuth:
-    type: basic
-```
-
-&nbsp;
-
-### Security field for the operation does not contain any scheme
-
-| Severity | Issue description | Possible fix |
-| ----------- | ----------- | ----------- |
-| Medium | An empty object in the security field disables the authentication completely for the operation. Anyone can access the API operation without any authentication. | Specify at least one security requirement in the operation. |
-
-**Resolution:**
-
-```json
-swagger: '2.0'
-#...
-paths:
-  /user:
-    get:
-      description: 'Returns details about a particular user'
-      security:
-          - basicAuth: []
-      #...
-securityDefinitions:
-  basicAuth:
-    type: basic
-```
-
-&nbsp;
-
-### Operation does not enforce any security scheme
-
-| Severity | Issue description | Possible fix |
-| ----------- | ----------- | ----------- |
-| Medium |  If both the global security field and operation’s security field are not defined, anyone can access the API without any authentication. | Define a security field in the operation. |
-
-**Resolution:**
-
-```json
-swagger: '2.0'
-#...
-paths:
-  /user:
-    get:
-      description: 'Sample endpoint: Returns details about a particular user'
-      security:
-          - basicAuth: []
-      #...
-securityDefinitions:
-  basicAuth:
-    type: basic
-```
-
-&nbsp;
 
 ## Global schemes configuration allows insecure enforcement of security schemes
 
@@ -783,6 +592,199 @@ securityDefinitions:
       write: writes object
     authorizationUrl: https://example.com/authorize
     tokenUrl: https://example.com/token
+```
+
+&nbsp;
+
+## Broken user authentication
+
+### Security field is not defined
+
+| Severity | Issue description | Possible fix |
+| -------- | ----------------- | ------------ |
+| High | If the global security field is not defined, the API does not require any authentication by default. Anyone can access the API operations that do not have a security field defined. | The security field should be defined in the schema. |
+
+**Resolution:**
+
+```json
+swagger: '2.0'
+#...
+securityDefinitions:
+  basicAuth:
+    type: basic
+security:
+    - basicAuth: []
+```
+
+&nbsp;
+
+### Security field does not contain any item
+
+| Severity | Issue description | Possible fix |
+| -------- | ----------------- | ------------ |
+| High | If the security field contains an empty array, no security scheme is applied to the operations by default. | The security field should contain at least one item in the array. |
+
+**Resolution:**
+
+```json
+swagger: '2.0'
+#...
+securityDefinitions:
+  basicAuth:
+    type: basic
+security:
+    - basicAuth: []
+```
+
+&nbsp;
+
+### Security field does not contain any scheme
+
+| Severity | Issue description | Possible fix |
+| -------- | ----------------- | ------------ |
+| High | An empty object in the security field disables the authentication completely. Without security fields defined for each operation, anyone can access the API operations without any authentication. | Security field array items should not contain an empty object. |
+
+**Resolution:**
+
+```json
+swagger: '2.0'
+#...
+securityDefinitions:
+  basicAuth:
+    type: basic
+security:
+    - basicAuth: []
+```
+
+&nbsp;
+
+### Security definition object not defined
+
+| Severity | Issue description | Possible fix |
+| ----------- | ----------- | ----------- |
+| High | The components object of the API does not declare any security definitions which can be used in the security field of the API or individual operations. | Security definitions should be defined in the schema of the component. |
+
+**Resolution:**
+
+```json
+swagger: '2.0'
+#...
+securityDefinitions:
+  basicAuth:
+    type: basic
+```
+
+&nbsp;
+
+### Security definition object does not contain any scheme
+
+| Severity | Issue description | Possible fix |
+| ----------- | ----------- | ----------- |
+| High | An empty object in the reusable security definition means that no authentication scheme is defined for each operation, anyone can access the API operations without any authentication. | Security definitions should contain at least one item in the object. |
+
+**Resolution:**
+
+```json
+swagger: '2.0'
+#...
+securityDefinitions:
+  basicAuth:
+    type: basic
+```
+
+&nbsp;
+
+### Scheme used in security field is not defined in the security definition object
+
+| Severity | Issue description | Possible fix |
+| ----------- | ----------- | ----------- |
+| Medium | The authentication scheme used in global or operation security field is not defined in the security definition object. | Scheme used in the security field should be defined in the security definition object. |
+
+**Resolution:**
+
+```json
+swagger: '2.0'
+#...
+securityDefinitions:
+  basicAuth:
+    type: basic
+security:
+    - basicAuth: []
+```
+
+&nbsp;
+
+### Security field for the operation does not contain any item
+
+| Severity | Issue description | Possible fix |
+| ----------- | ----------- | ----------- |
+| Medium | No security scheme is applied to the API operation by default. | The security field in any operation should contain at least one item in the array. |
+
+**Resolution:**
+
+```json
+swagger: '2.0'
+#...
+paths:
+  /user:
+    get:
+      description: 'Returns details about a particular user'
+      security:
+          - basicAuth: []
+      #...
+securityDefinitions:
+  basicAuth:
+    type: basic
+```
+
+&nbsp;
+
+### Security field for the operation does not contain any scheme
+
+| Severity | Issue description | Possible fix |
+| ----------- | ----------- | ----------- |
+| Medium | An empty object in the security field disables the authentication completely for the operation. Anyone can access the API operation without any authentication. | Specify at least one security requirement in the operation. |
+
+**Resolution:**
+
+```json
+swagger: '2.0'
+#...
+paths:
+  /user:
+    get:
+      description: 'Returns details about a particular user'
+      security:
+          - basicAuth: []
+      #...
+securityDefinitions:
+  basicAuth:
+    type: basic
+```
+
+&nbsp;
+
+### Operation does not enforce any security scheme
+
+| Severity | Issue description | Possible fix |
+| ----------- | ----------- | ----------- |
+| Medium |  If both the global security field and operation’s security field are not defined, anyone can access the API without any authentication. | Define a security field in the operation. |
+
+**Resolution:**
+
+```json
+swagger: '2.0'
+#...
+paths:
+  /user:
+    get:
+      description: 'Sample endpoint: Returns details about a particular user'
+      security:
+          - basicAuth: []
+      #...
+securityDefinitions:
+  basicAuth:
+    type: basic
 ```
 
 &nbsp;
