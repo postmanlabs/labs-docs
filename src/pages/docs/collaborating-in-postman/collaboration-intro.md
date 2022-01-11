@@ -45,12 +45,12 @@ Postman provides you with many tools to help you work with your team, allowing y
 
 ## Enabling team discovery
 
-When you enable team discovery, users who have a verified email address for your company or organization can join pre-existing teams within your organization. This encourages collaboration and eases the onboarding process for your team members.
+When you enable team discovery, users who have a verified email address with your company's domain can request to join pre-existing teams within your organization. This encourages collaboration and eases the onboarding process for your team members.
 
 * Free users: Next to your avatar, select the menu to the right of **Upgrade**, then select **Manage Team**.
 * Paid users: Next to your avatar, select **Team**, then select **Manage Team**.
 
-On your Team Settings page, select **Team discovery**, then select the toggle to turn team discovery on.
+On your Team Settings page, select **Team discovery** on the left, then select the toggle to turn team discovery on.
 
 [![Enable team discovery](https://assets.postman.com/postman-docs/team-discovery-enable-v9.7.jpg)](https://assets.postman.com/postman-docs/team-discovery-enable-v9.7.jpg)
 
@@ -58,7 +58,7 @@ On your Team Settings page, select **Team discovery**, then select the toggle to
 
 You can optionally add a question for pending team members to answer when they request to join your team. Enter your question and select **Update Question**. Anyone who requests to join the team will be prompted with the question. If you do not specify a question, team members can still add a note when they request to join the team.
 
-You will be notified when someone makes a request to join your team, including their answer to any question you set, or an optional note.
+All admins will be notified when someone makes a request to join your team, including their answer to any question you set, or an optional note.
 
 [![Team Request Approval](https://assets.postman.com/postman-docs/admin-team-join-requests-v9.7.jpg)](https://assets.postman.com/postman-docs/admin-team-join-requests-v9.7.jpg)
 
@@ -72,7 +72,7 @@ Team workspaces allow you to collaboratively work on collections with your team.
 
 You can invite team members to join a [new](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/) or existing workspace. For more details about how to invite a team member to a workspace, see [Sharing workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#sharing-workspaces).
 
-> Postman will alert you with notifications when activities occur within your team and workspace. You can view and opt in or out notifications by selecting your avatar in the upper right and selecting **Notification Preferences**.
+> Postman will alert you with notifications when activities occur within your team and workspace. You can view and opt in to or out of notifications by selecting your avatar in the upper right and selecting **Notification Preferences**.
 
 ### Finding teams within your organization
 
@@ -84,7 +84,7 @@ You will see a list of the available teams within your organization. Select a te
 
 <img alt="Team Join Question" src="https://assets.postman.com/postman-docs/team-join-question-v9.7.jpg" width="400px"/>
 
-The team admin will receive a notification that you asked to join the team. Once they approve your request, you will be able to access the team and collaborate on API projects within it.
+Team admins will receive a notification when you ask to join the team. Once they approve your request, you'll be able to access the team and collaborate on API projects within it.
 
 ### Leaving a team
 
@@ -115,7 +115,7 @@ For more details and to view your usage period, select **Resource Usage**.
 
 ## Next steps
 
-Postman has many features that help you collaborate with your team:
+Postman has many features to help you collaborate with your team:
 
 * You can you can assign _roles and permissions_ to define Postman access at the team level. Learn more in the [Defining roles](/docs/collaborating-in-postman/roles-and-permissions/) guide.
 * _Version control_ allows you to collaborate with teammates by working on different forks of the same Postman collection. Learn more in the [Using version control](/docs/collaborating-in-postman/version-control-for-collections/) guide.
