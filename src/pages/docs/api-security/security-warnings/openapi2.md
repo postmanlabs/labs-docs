@@ -28,33 +28,31 @@ You can use Postman to identify any potential security misses when your API is d
 
 For all APIs defined in OpenAPI 2.0, the following list describes possible warning messages and potential ways to resolve them.
 
-* [Global security field should properly enforce security](#global-security-field-should-properly-enforce-security)
+* [Broken object level authorization](#broken-object-level-authorization)
+    * [Scope for OAuth scheme used in security field is not defined in the securityDefinition declaration](#scope-for-oauth-scheme-used-in-security-field-is-not-defined-in-the-securitydefinition-declaration)
+    * [Scope for OAuth scheme used is not defined in the securityDefinition declaration](#scope-for-oauth-scheme-used-is-not-defined-in-the-securitydefinition-declaration)
+* Broken user authentication
     * [Security field is not defined](#security-field-is-not-defined)
     * [Security field does not contain any item](#security-field-does-not-contain-any-item)
     * [Security field does not contain any scheme](#security-field-does-not-contain-any-scheme)
-    * [Scope for OAuth scheme used in security field is not defined in the securityDefinition declaration](#scope-for-oauth-scheme-used-in-security-field-is-not-defined-in-the-securitydefinition-declaration)
-* [Reusable security definitions are not defined properly within components](#reusable-security-definitions-are-not-defined-properly-within-components)
     * [Security definition object not defined](#security-definition-object-not-defined)
     * [Security definition object does not contain any scheme](#security-definition-object-does-not-contain-any-scheme)
     * [Scheme used in security field is not defined in the security definition object](#scheme-used-in-security-field-is-not-defined-in-the-security-definition-object)
-* [Security field for an individual operation should properly enforce security](#security-field-for-an-individual-operation-should-properly-enforce-security)
     * [Security field for the operation does not contain any item](#security-field-for-the-operation-does-not-contain-any-item)
     * [Security field for the operation does not contain any scheme](#security-field-for-the-operation-does-not-contain-any-scheme)
     * [Operation does not enforce any security scheme](#operation-does-not-enforce-any-security-scheme)
-    * [Scope for OAuth scheme used is not defined in the securityDefinition declaration](#scope-for-oauth-scheme-used-is-not-defined-in-the-securitydefinition-declaration)
-* [Global schemes configuration allows insecure enforcement of security schemes](#global-schemes-configuration-allows-insecure-enforcement-of-security-schemes)
+* Excessive data exposure
     * [API accepts credentials from OAuth authentication in plain text](#api-accepts-credentials-from-oauth-authentication-in-plain-text)
     * [API accepts API key in plain text](#api-accepts-api-key-in-plain-text)
     * [API accepts basic authentication credentials in plain text](#api-accepts-basic-authentication-credentials-in-plain-text)
     * [Global schemes have http scheme defined](#global-schemes-have-http-scheme-defined)
-* [Operation server configuration allows insecure enforcement of security schemes](#operation-server-configuration-allows-insecure-enforcement-of-security-schemes)
     * [Operation accepts credentials from OAuth authentication in plain text](#operation-accepts-credentials-from-oauth-authentication-in-plain-text)
     * [Operation accepts API key in plain text](#operation-accepts-api-key-in-plain-text)
     * [Operation accepts basic authentication credentials in plain text](#operation-accepts-basic-authentication-credentials-in-plain-text)
     * [Schemes of the operation have HTTP scheme defined](#schemes-of-the-operation-have-http-scheme-defined)
-* [Security scheme configuration allows loopholes for credential leaks](#security-scheme-configuration-allows-loopholes-for-credential-leaks)
     * [Authorization URL uses HTTP protocol. Credentials will be transferred as plain text](#authorization-url-uses-http-protocol-credentials-will-be-transferred-as-plain-text)
     * [Token URL uses HTTP protocol](#token-url-uses-http-protocol)
+* Improper assets management
     * [OAuth authentication uses the deprecated implicit flow](#oauth-authentication-uses-the-deprecated-implicit-flow)
     * [OAuth authentication uses the deprecated password flow](#oauth-authentication-uses-the-deprecated-password-flow)
 * [Consumes field should properly enforce MIME types](#consumes-field-should-properly-enforce-mime-types)
@@ -67,174 +65,6 @@ For all APIs defined in OpenAPI 2.0, the following list describes possible warni
     * [Produces field does not contain any item](#produces-field-does-not-contain-any-item)
     * [Produces field for the operation does not contain any item](#produces-field-for-the-operation-does-not-contain-any-item)
     * [Operation does not contain produces field](#operation-does-not-contain-produces-field)
-
-## Global security field should properly enforce security
-
-## Reusable security definitions are not defined properly within components
-
-## Security field for an individual operation should properly enforce security
-
-## Global schemes configuration allows insecure enforcement of security schemes
-
-## Operation server configuration allows insecure enforcement of security schemes
-
-## Security scheme configuration allows loopholes for credential leaks
-
-## Consumes field should properly enforce MIME types
-
-### Consumes field is not defined
-
-| Severity | Issue description | Possible fix |
-| ----------- | ----------- | ----------- |
-| High | If the global `consumes` field is not defined, the API could potentially accept any form of data as input. This could open your API to any number of potential attacks, like buffer overflow, decoding errors, or SQL injection attacks. | The `consumes` field should be defined in the schema. |
-
-**Resolution:**
-
-```json
-swagger: '2.0'
-paths: {}
-consumes:
-  - application/json
-```
-
-&nbsp;
-
-### Consumes field does not contain any item
-
-| Severity | Issue description | Possible fix |
-| ----------- | ----------- | ----------- |
-| High   | If the `consumes` field contains an empty array, the API can accept any type of input by default. | The global `consumes` field should contain at least one item with valid MIME type in the array.  |
-
-**Resolution:**
-
-```json
-swagger: '2.0'
-paths: {}
-consumes:
-  - application/json
-...
-```
-
-&nbsp;
-
-### Consumes field for the operation does not contain any item
-
-| Severity | Issue description | Possible fix |
-| ----------- | ----------- | ----------- |
-| High | No `consumes` field in the operation means that API can accept any type of input by default. | The `consumes` field in `PUT`/`PATCH`/`POST` operations should contain at least one item in the array. |
-
-**Resolution:**
-
-```json
-swagger: '2.0'
-paths:
-  /user/{userId}:
-    put:
-      consumes:
-        - application/json
-```
-
-&nbsp;
-
-### Operation does not contain consumes field
-
-| Severity | Issue description | Possible fix |
-| ----------- | ----------- | ----------- |
-| Medium | If both the global `consumes` field and operation’s `consumes` field (for `PUT`/`PATCH`/`POST`) are not defined, anyone can exploit your API. | Define a `consumes` field in the operation if not defined at the global level. |
-
-**Resolution:**
-
-```json
-swagger: '2.0'
-paths:
-  /user/{userId}:
-    put:
-      consumes:
-        - application/json
-  ...
-...
-```
-
-&nbsp;
-
-## Produces field should properly enforce MIME types
-
-### Produces field is not defined
-
-| Severity | Issue description | Possible fix |
-| ----------- | ----------- | ----------- |
-| High | If the global `produces` field is not defined, the API could potentially return any form of data.  | The `produces` field should be defined in the schema.|
-
-**Resolution:**
-
-```json
-swagger: '2.0'
-paths: {}
-consumes:
-  - application/json
-produces:
-  - application/json
-```
-
-&nbsp;
-
-### Produces field does not contain any item
-
-| Severity | Issue description | Possible fix |
-| ----------- | ----------- | ----------- |
-| High | If the `produces` field contains an empty array, the API can return any type of data by default. | The global `produces` field should contain at least one item with a valid MIME type in the array. |
-
-**Resolution:**
-
-```json
-swagger: '2.0'
-paths: {}
-produces:
-  - application/json
-...
-```
-
-&nbsp;
-
-### Produces field for the operation does not contain any item
-
-| Severity | Issue description | Possible fix |
-| ----------- | ----------- | ----------- |
-| High | No `produces` field in the operation means that API can return any type of data by default.| The `produces` field in any operation should contain at least one item in the array.|
-
-**Resolution:**
-
-```json
-swagger: '2.0'
-paths:
-  /user/{userId}:
-    get:
-      produces:
-        - application/json
-```
-
-&nbsp;
-
-### Operation does not contain produces field
-
-| Severity | Issue description | Possible fix |
-| ----------- | ----------- | ----------- |
-| Medium | If both the global `produces` field and operation’s `produces` field for any operation are not defined, anyone can exploit your API. | Define a `produces` field in the operation if not defined at the global level.|
-
-**Resolution:**
-
-```json
-swagger: '2.0'
-paths:
-  /user/{userId}:
-    get:
-      produces:
-        - application/json
-  ...
-...
-```
-
-&nbsp;
 
 ## Broken object level authorization
 
@@ -265,7 +95,6 @@ securityDefinitions:
 ```
 
 &nbsp;
-
 
 ### Scope for OAuth scheme used is not defined in the securityDefinition declaration
 
@@ -494,7 +323,6 @@ securityDefinitions:
 &nbsp;
 
 ## Excessive data exposure
-
 
 ### API accepts credentials from OAuth authentication in plain text
 
@@ -790,6 +618,162 @@ securityDefinitions:
       write: modify data
       read: read data
 
+```
+
+&nbsp;
+
+## Consumes field should properly enforce MIME types
+
+### Consumes field is not defined
+
+| Severity | Issue description | Possible fix |
+| ----------- | ----------- | ----------- |
+| High | If the global `consumes` field is not defined, the API could potentially accept any form of data as input. This could open your API to any number of potential attacks, like buffer overflow, decoding errors, or SQL injection attacks. | The `consumes` field should be defined in the schema. |
+
+**Resolution:**
+
+```json
+swagger: '2.0'
+paths: {}
+consumes:
+  - application/json
+```
+
+&nbsp;
+
+### Consumes field does not contain any item
+
+| Severity | Issue description | Possible fix |
+| ----------- | ----------- | ----------- |
+| High   | If the `consumes` field contains an empty array, the API can accept any type of input by default. | The global `consumes` field should contain at least one item with valid MIME type in the array.  |
+
+**Resolution:**
+
+```json
+swagger: '2.0'
+paths: {}
+consumes:
+  - application/json
+...
+```
+
+&nbsp;
+
+### Consumes field for the operation does not contain any item
+
+| Severity | Issue description | Possible fix |
+| ----------- | ----------- | ----------- |
+| High | No `consumes` field in the operation means that API can accept any type of input by default. | The `consumes` field in `PUT`/`PATCH`/`POST` operations should contain at least one item in the array. |
+
+**Resolution:**
+
+```json
+swagger: '2.0'
+paths:
+  /user/{userId}:
+    put:
+      consumes:
+        - application/json
+```
+
+&nbsp;
+
+### Operation does not contain consumes field
+
+| Severity | Issue description | Possible fix |
+| ----------- | ----------- | ----------- |
+| Medium | If both the global `consumes` field and operation’s `consumes` field (for `PUT`/`PATCH`/`POST`) are not defined, anyone can exploit your API. | Define a `consumes` field in the operation if not defined at the global level. |
+
+**Resolution:**
+
+```json
+swagger: '2.0'
+paths:
+  /user/{userId}:
+    put:
+      consumes:
+        - application/json
+  ...
+...
+```
+
+&nbsp;
+
+## Produces field should properly enforce MIME types
+
+### Produces field is not defined
+
+| Severity | Issue description | Possible fix |
+| ----------- | ----------- | ----------- |
+| High | If the global `produces` field is not defined, the API could potentially return any form of data.  | The `produces` field should be defined in the schema.|
+
+**Resolution:**
+
+```json
+swagger: '2.0'
+paths: {}
+consumes:
+  - application/json
+produces:
+  - application/json
+```
+
+&nbsp;
+
+### Produces field does not contain any item
+
+| Severity | Issue description | Possible fix |
+| ----------- | ----------- | ----------- |
+| High | If the `produces` field contains an empty array, the API can return any type of data by default. | The global `produces` field should contain at least one item with a valid MIME type in the array. |
+
+**Resolution:**
+
+```json
+swagger: '2.0'
+paths: {}
+produces:
+  - application/json
+...
+```
+
+&nbsp;
+
+### Produces field for the operation does not contain any item
+
+| Severity | Issue description | Possible fix |
+| ----------- | ----------- | ----------- |
+| High | No `produces` field in the operation means that API can return any type of data by default.| The `produces` field in any operation should contain at least one item in the array.|
+
+**Resolution:**
+
+```json
+swagger: '2.0'
+paths:
+  /user/{userId}:
+    get:
+      produces:
+        - application/json
+```
+
+&nbsp;
+
+### Operation does not contain produces field
+
+| Severity | Issue description | Possible fix |
+| ----------- | ----------- | ----------- |
+| Medium | If both the global `produces` field and operation’s `produces` field for any operation are not defined, anyone can exploit your API. | Define a `produces` field in the operation if not defined at the global level.|
+
+**Resolution:**
+
+```json
+swagger: '2.0'
+paths:
+  /user/{userId}:
+    get:
+      produces:
+        - application/json
+  ...
+...
 ```
 
 &nbsp;
