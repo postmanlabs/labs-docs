@@ -8,6 +8,11 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "The Reimagined API-First Workflow | The Exploratory"
+    url: "https://youtu.be/rTTAVlUxfDc"
+  - type: subtitle
     name: "Related Blog Posts"
   - type: link
     name: "The Reimagined API-First Workflow, Part 1: for Developers"
