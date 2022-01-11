@@ -31,7 +31,7 @@ For all APIs defined in OpenAPI 2.0, the following list describes possible warni
 * [Broken object level authorization](#broken-object-level-authorization)
     * [Scope for OAuth scheme used in security field is not defined in the securityDefinition declaration](#scope-for-oauth-scheme-used-in-security-field-is-not-defined-in-the-securitydefinition-declaration)
     * [Scope for OAuth scheme used is not defined in the securityDefinition declaration](#scope-for-oauth-scheme-used-is-not-defined-in-the-securitydefinition-declaration)
-* Broken user authentication
+* [Broken user authentication](#broken-user-authentication)
     * [Security field is not defined](#security-field-is-not-defined)
     * [Security field does not contain any item](#security-field-does-not-contain-any-item)
     * [Security field does not contain any scheme](#security-field-does-not-contain-any-scheme)
@@ -41,7 +41,7 @@ For all APIs defined in OpenAPI 2.0, the following list describes possible warni
     * [Security field for the operation does not contain any item](#security-field-for-the-operation-does-not-contain-any-item)
     * [Security field for the operation does not contain any scheme](#security-field-for-the-operation-does-not-contain-any-scheme)
     * [Operation does not enforce any security scheme](#operation-does-not-enforce-any-security-scheme)
-* Excessive data exposure
+* [Excessive data exposure](#excessive-data-exposure)
     * [API accepts credentials from OAuth authentication in plain text](#api-accepts-credentials-from-oauth-authentication-in-plain-text)
     * [API accepts API key in plain text](#api-accepts-api-key-in-plain-text)
     * [API accepts basic authentication credentials in plain text](#api-accepts-basic-authentication-credentials-in-plain-text)
@@ -52,7 +52,7 @@ For all APIs defined in OpenAPI 2.0, the following list describes possible warni
     * [Schemes of the operation have HTTP scheme defined](#schemes-of-the-operation-have-http-scheme-defined)
     * [Authorization URL uses HTTP protocol. Credentials will be transferred as plain text](#authorization-url-uses-http-protocol-credentials-will-be-transferred-as-plain-text)
     * [Token URL uses HTTP protocol](#token-url-uses-http-protocol)
-* Improper assets management
+* [Improper assets management](#improper-assets-management)
     * [OAuth authentication uses the deprecated implicit flow](#oauth-authentication-uses-the-deprecated-implicit-flow)
     * [OAuth authentication uses the deprecated password flow](#oauth-authentication-uses-the-deprecated-password-flow)
 * [Consumes field should properly enforce MIME types](#consumes-field-should-properly-enforce-mime-types)

@@ -27,10 +27,10 @@ You can use Postman to identify any potential security misses when your API is d
 
 For all APIs defined in OpenAPI 3.0, the following list describes possible warning messages and potential ways to resolve them.
 
-* Broken object level authorization
+* [Broken object level authorization](#broken-object-level-authorization)
     * [Scope for OAuth scheme used in security field is not defined in the securityScheme declaration](#scope-for-oauth-scheme-used-in-security-field-is-not-defined-in-the-securityscheme-declaration)
     * [Scope for OAuth scheme used is not defined in the securityScheme declaration](#scope-for-oauth-scheme-used-is-not-defined-in-the-securityscheme-declaration)
-* Broken user authentication
+* [Broken user authentication](#broken-user-authentication)
     * [Security field is not defined](#security-field-is-not-defined)
     * [Security field does not contain any item](#security-field-does-not-contain-any-item)
     * [Security field does not contain any scheme](#security-field-does-not-contain-any-scheme)
@@ -41,7 +41,7 @@ For all APIs defined in OpenAPI 3.0, the following list describes possible warni
     * [Security field for the operation does not contain any item](#security-field-for-the-operation-does-not-contain-any-item)
     * [Security field for the operation does not contain any scheme](#security-field-for-the-operation-does-not-contain-any-scheme)
     * [Operation does not enforce any security scheme](#operation-does-not-enforce-any-security-scheme)
-* Excessive data exposure
+* [Excessive data exposure](#excessive-data-exposure)
     * [API accepts credentials from OAuth authentication in plain text](#api-accepts-credentials-from-oauth-authentication-in-plain-text)
     * [API accepts credentials from OpenID Connect authentication in plain text](#api-accepts-credentials-from-openid-connect-authentication-in-plain-text)
     * [API accepts credentials from OAuth 1.0 authentication in plain text](#api-accepts-credentials-from-oauth-10-authentication-in-plain-text)
@@ -58,7 +58,7 @@ For all APIs defined in OpenAPI 3.0, the following list describes possible warni
     * [Token URL uses HTTP protocol](#token-url-uses-http-protocol)
     * [Refresh URL uses HTTP protocol](#refresh-url-uses-http-protocol)
     * [OpenID Connect URL uses HTTP protocol](#openid-connect-url-uses-http-protocol)
-* Improper assets management
+* [Improper assets management](#improper-assets-management)
     * [Deprecated OAuth 1.0 scheme is used](#deprecated-oauth-10-scheme-is-used)
     * [OAuth authentication uses the deprecated implicit flow](#oauth-authentication-uses-the-deprecated-implicit-flow)
     * [OAuth authentication uses the deprecated password flow](#oauth-authentication-uses-the-deprecated-password-flow)
