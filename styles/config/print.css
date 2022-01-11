@@ -114,7 +114,7 @@
         
     /* Adding custom messages before and after the content */
     .entry:after {
-        content: "\ All Rights Reserved. © 2021 Postman, Inc.";
+        content: "\ All Rights Reserved. © 2022 Postman, Inc.";
         color: #999 !important;
         font-size: 1em;
         padding-top: 30px;
