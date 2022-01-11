@@ -29,7 +29,7 @@ contextual_links:
 
 > Postman Free allows teams of up to three to collaborate at no cost. To collaborate with additional team members, features, and increased usage limits, see [Plans and Pricing](https://www.postman.com/pricing/).
 
-Postman provides you with many tools to help you work with your team, allowing you to collaborate and share your work.
+Postman enables collaboration through [shared workspaces](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/). Workspaces allow you to share your work with your teammates, including APIs, collections, environments, integrations, mocks, and monitors.
 
 ## Contents
 
