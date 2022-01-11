@@ -52,7 +52,7 @@ When you enable team discovery, users who have a verified email address with you
 
 On your Team Settings page, select **Team discovery** on the left, then select the toggle to turn team discovery on.
 
-[![Enable team discovery](https://assets.postman.com/postman-docs/team-discovery-enable-v9.7.jpg)](https://assets.postman.com/postman-docs/team-discovery-enable-v9.7.jpg)
+[![Enable team discovery](https://assets.postman.com/postman-docs/team-discovery-enable-v9.7.0.jpg)](https://assets.postman.com/postman-docs/team-discovery-enable-v9.7.0.jpg)
 
 > Team admins will receive an email notification when team discovery is enabled.
 
@@ -60,7 +60,7 @@ You can optionally add a question for pending team members to answer when they r
 
 All admins will be notified when someone makes a request to join your team, including their answer to any question you set, or an optional note.
 
-[![Team Request Approval](https://assets.postman.com/postman-docs/admin-team-join-requests-v9.7.jpg)](https://assets.postman.com/postman-docs/admin-team-join-requests-v9.7.jpg)
+[![Team Request Approval](https://assets.postman.com/postman-docs/admin-team-join-requests-v9.7.0.jpg)](https://assets.postman.com/postman-docs/admin-team-join-requests-v9.7.0.jpg)
 
 ## Collaborating in team workspaces
 
@@ -82,7 +82,7 @@ When you log in to the Postman web dashboard using a verified email address for 
 
 You will see a list of the available teams within your organization. Select a team. Answer the question set by the team admin, if there is one. You can also add an optional note. Select **Request to join**.
 
-<img alt="Team Join Question" src="https://assets.postman.com/postman-docs/team-join-question-v9.7.jpg" width="400px"/>
+<img alt="Team Join Question" src="https://assets.postman.com/postman-docs/team-join-question-v9.7.0.jpg" width="400px"/>
 
 Team admins will receive a notification when you ask to join the team. Once they approve your request, you'll be able to access the team and collaborate on API projects within it.
 
@@ -111,7 +111,7 @@ The Postman usage menu allows you to review your team's limits for APIs, shared 
 
 For more details and to view your usage period, select **Resource Usage**.
 
-<img src="https://assets.postman.com/postman-docs/team-resource-limits-v9.7.jpg" alt="Usage limit information" width="400px"/>
+<img src="https://assets.postman.com/postman-docs/team-resource-limits-v9.7.0.jpg" alt="Usage limit information" width="400px"/>
 
 ## Next steps
 
