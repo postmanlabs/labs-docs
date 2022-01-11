@@ -27,7 +27,41 @@ You can use Postman to identify any potential security misses when your API is d
 
 For all APIs defined in OpenAPI 3.0, the following list describes possible warning messages and potential ways to resolve them.
 
-
+* Broken object level authorization
+    * [Scope for OAuth scheme used in security field is not defined in the securityScheme declaration](#scope-for-oauth-scheme-used-in-security-field-is-not-defined-in-the-securityscheme-declaration)
+    * [Scope for OAuth scheme used is not defined in the securityScheme declaration](#scope-for-oauth-scheme-used-is-not-defined-in-the-securityscheme-declaration)
+* Broken user authentication
+    * [Security field is not defined](#security-field-is-not-defined)
+    * [Security field does not contain any item](#security-field-does-not-contain-any-item)
+    * [Security field does not contain any scheme](#security-field-does-not-contain-any-scheme)
+    * [Security scheme object not defined](#security-scheme-object-not-defined)
+    * [Security scheme object does not contain any scheme](#security-scheme-object-does-not-contain-any-scheme)
+    * [Scheme used in security field is not defined in the security scheme object](#scheme-used-in-security-field-is-not-defined-in-the-security-scheme-object)
+    * [HTTP authentication scheme is using an unknown scheme](#http-authentication-scheme-is-using-an-unknown-scheme)
+    * [Security field for the operation does not contain any item](#security-field-for-the-operation-does-not-contain-any-item)
+    * [Security field for the operation does not contain any scheme](#security-field-for-the-operation-does-not-contain-any-scheme)
+    * [Operation does not enforce any security scheme](#operation-does-not-enforce-any-security-scheme)
+* Excessive data exposure
+    * [API accepts credentials from OAuth authentication in plain text](#api-accepts-credentials-from-oauth-authentication-in-plain-text)
+    * [API accepts credentials from OpenID Connect authentication in plain text](#api-accepts-credentials-from-openid-connect-authentication-in-plain-text)
+    * [API accepts credentials from OAuth 1.0 authentication in plain text](#api-accepts-credentials-from-oauth-10-authentication-in-plain-text)
+    * [API accepts API key in plain text](#api-accepts-api-key-in-plain-text)
+    * [API accepts auth credentials in plain text](#api-accepts-auth-credentials-in-plain-text)
+    * [Global server URL uses HTTP protocol](#global-server-url-uses-http-protocol)
+    * [Operation accepts credentials from OAuth authentication in plain text](#operation-accepts-credentials-from-oauth-authentication-in-plain-text)
+    * [Operation accepts credentials from OpenID Connect authentication as plain text](#operation-accepts-credentials-from-openid-connect-authentication-as-plain-text)
+    * [Operation accepts credentials from OAuth 1.0 authentication in plain text](#operation-accepts-credentials-from-oauth-10-authentication-in-plain-text)
+    * [Operation accepts API key in plain text](#operation-accepts-api-key-in-plain-text)
+    * [Operation accepts authentication credentials in plain text](#operation-accepts-authentication-credentials-in-plain-text)
+    * [Server URL of the operation is using HTTP protocol](#server-url-of-the-operation-is-using-http-protocol)
+    * [Authorization URL uses HTTP protocol. Credentials will be transferred as plain text](#authorization-url-uses-http-protocol-credentials-will-be-transferred-as-plain-text)
+    * [Token URL uses HTTP protocol](#token-url-uses-http-protocol)
+    * [Refresh URL uses HTTP protocol](#refresh-url-uses-http-protocol)
+    * [OpenID Connect URL uses HTTP protocol](#openid-connect-url-uses-http-protocol)
+* Improper assets management
+    * [Deprecated OAuth 1.0 scheme is used](#deprecated-oauth-10-scheme-is-used)
+    * [OAuth authentication uses the deprecated implicit flow](#oauth-authentication-uses-the-deprecated-implicit-flow)
+    * [OAuth authentication uses the deprecated password flow](#oauth-authentication-uses-the-deprecated-password-flow)
 
 ## Broken object level authorization
 
