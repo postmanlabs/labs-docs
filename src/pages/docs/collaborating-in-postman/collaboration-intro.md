@@ -64,9 +64,9 @@ All admins will be notified when someone makes a request to join your team, incl
 
 ## Collaborating in team workspaces
 
-Team workspaces allow you to collaboratively work on collections with your team.
+Team workspaces allow you to collaborate on APIs, collections, environments, integrations, mocks, and monitors with your team.
 
-> Postman creates a default team workspace for every team. You can rename this workspace, but it cannot be deleted.
+> Postman creates a default "Team Workspace" for every team. You can rename this workspace, but it cannot be deleted.
 
 ### Inviting a team member to a workspace
 
