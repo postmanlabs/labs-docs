@@ -117,6 +117,6 @@ For more details and to view your usage period, select **Resource Usage**.
 
 Postman has many features to help you collaborate with your team:
 
-* You can you can assign _roles and permissions_ to define Postman access at the team level. Learn more in the [Defining roles](/docs/collaborating-in-postman/roles-and-permissions/) guide.
-* _Version control_ allows you to collaborate with teammates by working on different forks of the same Postman collection. Learn more in the [Using version control](/docs/collaborating-in-postman/version-control-for-collections/) guide.
-* A _Private API Network_ allows you to easily and securely share the APIs that your team uses internally. Learn more in the [Your Private API Network](/docs/collaborating-in-postman/adding-private-network/) guide.
+* Assign [roles and permissions](/docs/collaborating-in-postman/roles-and-permissions/) to define Postman access at the team, workspace, and entity level.
+* Use [version control](/docs/collaborating-in-postman/version-control-for-collections/) to collaborate with teammates on different forks of a shared collection or [versioning](/docs/designing-and-developing-your-api/versioning-an-api/) to collaborate on different versions of a shared API.
+* Use your [Private API Network](/docs/collaborating-in-postman/adding-private-network/) to securely share the APIs that your team uses internally.
