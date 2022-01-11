@@ -160,7 +160,6 @@ security:
 
 &nbsp;
 
-
 ### Security field does not contain any scheme
 
 | Severity | Issue description | Possible fix |
