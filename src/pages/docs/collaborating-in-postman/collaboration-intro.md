@@ -111,7 +111,7 @@ The Postman usage menu allows you to review your team's limits for APIs, shared 
 
 For more details and to view your usage period, select **Resource Usage**.
 
-![Usage limit information](https://assets.postman.com/postman-docs/team-resource-limits-v9.7.jpg)
+<img src="https://assets.postman.com/postman-docs/team-resource-limits-v9.7.jpg" alt="Usage limit information" width="400px"/>
 
 ## Next steps
 
