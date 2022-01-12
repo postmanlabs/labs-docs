@@ -47,7 +47,7 @@ You can use version control with your Postman Collections by forking and merging
 
 ## Forking a collection
 
-To fork a collection in Postman, select the collection in the __Collections__ sidebar, select __View more actions__ (__...__), and select __Create a fork__. To provide a uniform forking experience, you can create a fork in a public workspace in three steps — log in to Postman, fill up fork details, and enable your public profile.
+To fork a collection in Postman, select the collection in the __Collections__ sidebar, <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> __> Create a fork__. To provide a uniform forking experience, you can create a fork in a public workspace in three steps — log in to Postman, fill up fork details, and enable your public profile.
 
 <img src="https://assets.postman.com/postman-docs/collection-create-a-fork-v9.1.jpg" alt="Create fork selected in menu" width="300px"/>
 
@@ -109,7 +109,7 @@ Select __View changelog__ to access the full changelog in Postman.
 
 ## Forking an environment
 
-To fork an environment in Postman, select the environment in the __Environments__ sidebar, select __View more actions__ (__...__), and select __Create a fork__. You can also fork an environment by selecting __Fork__ on the environment overview tab.
+To fork an environment in Postman, select the environment in the __Environments__ sidebar, select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> __> Create a fork__. You can also fork an environment by selecting __Fork__ on the environment overview tab.
 
 <img src="https://assets.postman.com/postman-docs/environment-create-a-fork-v9.1.jpg" alt="Create an Environment Fork" width="300px"/>
 
@@ -157,7 +157,7 @@ Pull request settings are available on [Postman Professional and Enterprise plan
 
 <img alt="Collection Manage Roles" src="https://assets.postman.com/postman-docs/collection-manage-roles-v9.1.jpg" width="300px"/>
 
-In Postman, select the collection in the __Collections__ sidebar and select __View more actions (...)__. Select __Manage roles__, then select __Editor__ for the users you want to provide editor access to and **Update Roles**.
+In Postman, select the collection in the __Collections__ sidebar and select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px">. Select __Manage roles__, then select __Editor__ for the users you want to provide editor access to and **Update Roles**.
 
 [![manage roles](https://assets.postman.com/postman-docs/manage-roles-collection-v9.1.jpg)](https://assets.postman.com/postman-docs/manage-roles-collection-v9.1.jpg)
 

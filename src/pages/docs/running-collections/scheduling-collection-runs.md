@@ -21,7 +21,7 @@ To add or access monitors for a particular collection, select the __Monitors__ t
 
 <img alt="Monitors v8" src="https://assets.postman.com/postman-docs/create-a-monitor-v8.jpg" height="400px"/>
 
-Any monitors already attached to your collection will appear. Click __Create a monitor__ to add one (or __+ Create a new Monitor__ if you already have one on the collection). You can also add a monitor via a collection. To add a monitor via collection, go to the collection, click __...__ and select __Monitor Collection__.
+Any monitors already attached to your collection will appear. Click __Create a monitor__ to add one (or __+ Create a new Monitor__ if you already have one on the collection). You can also add a monitor via a collection. To add a monitor via collection, go to the collection, select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> __> Monitor Collection__.
 
 Give your monitor a name, select a collection to use, choose a version tag, and an optional environment your scheduled collection runs should reference. Enter the frequency you want your monitor to run on, and select a region. Click __Create__ and your monitor will run on the schedule you entered.
 
