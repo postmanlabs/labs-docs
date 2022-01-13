@@ -83,11 +83,11 @@ Editing a monitor requires you to have edit access for that specific monitor.
 
 To get edit access for a monitor, you will first need to be a member of the team that owns the monitor.
 
-Once you have joined the team, navigate to the monitor in question in Postman. In the upper right, hover over the monitor and select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> > **Edit**.
+Once you have joined the team, navigate to the monitor in question in Postman. In the upper right, select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> to view more actions, then select **Edit**.
 
 <img src="https://assets.postman.com/postman-docs/manage-roles-request-access-monitor.jpg" alt="Manage roles request access"/>
 
-Click **Request Access**.
+Select **Request Access**.
 
 <img src="https://assets.postman.com/postman-docs/manage-roles-request-access-monitor-21.jpg" alt="You need additional access modal"/>
 

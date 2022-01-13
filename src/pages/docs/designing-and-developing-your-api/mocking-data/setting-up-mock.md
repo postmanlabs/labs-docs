@@ -54,7 +54,7 @@ When you send a request to a mock server, Postman will match the request configu
 To try out a mock server, carry out the following steps:
 
 * Make a request to any API in Postman–making sure your request is saved to a collection.
-* Click <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> at the top right and choose __Add example__. Postman will automatically populate the example with the response you received when you sent the request.
+* Select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> at the top right  to view more actions, then select __Add example__. Postman will automatically populate the example with the response you received when you sent the request.
 * In **Collections** on the left, select the collection and open the __Info__ using the button on the right. Click **Create mock server**.
 * Give your mock a name, leaving the default tag selected, and the delay option unchecked. Click **Create Mock Server**.
 * Copy the mock URL and go back into your request. Replace the base part of the URL with the mock server URL (everything before the path e.g. up to `/customers`).

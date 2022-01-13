@@ -59,7 +59,7 @@ When you click __Send__, the code will execute before Postman sends the request 
 
 You can add pre-request scripts to entire collections as well as to folders within collections. In both cases, your pre-request script will run before every request in the collection or folder. This allows you to define commonly used pre-processing or debugging steps you need to execute for multiple requests.
 
-To add pre-processing to a group of requests, locate the collection or folder in __Collections__ on the left of Postman. Click <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> to __View more actions__ and select __Edit__.
+To add pre-processing to a group of requests, locate the collection or folder in __Collections__ on the left of Postman. Select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> to view more actions, then select __Edit__.
 
 <img src="https://assets.postman.com/postman-docs/edit-collection-action-v8.jpg" alt="Collection Actions" width="300px"/>
 

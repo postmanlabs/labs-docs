@@ -97,7 +97,7 @@ In Postman, click **New** in the upper-left corner, then **Monitor**.
 
 ### Creating a monitor from history
 
-In Postman, select **History**, hover over your request, click <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> **> Monitor Request**.
+In Postman, select **History** and hover over your request. Select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px">  to view more actions, then select **Monitor Request**.
 
 ### Creating a monitor with the Postman API
 
