@@ -156,7 +156,7 @@ You can send requests in Postman by opening a new tab. Select __+__ in the cente
 
 > If you open a request and do not edit or send it, then open another, the first tab will be replaced by the second. While the tab is in _Preview_ mode it will display in italics.
 
-You can have multiple tabs open at the same time as you work, and can drag tabs to rearrange them. Use the __...__ button to manage tabs and access recent tabs.
+You can have multiple tabs open at the same time as you work, and can drag tabs to rearrange them. Select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> to manage tabs and access recent tabs.
 
 > Duplicating a tab does not mean creating a second request to the same endpoint—when you duplicate a tab any edits you make will affect the original request.
 

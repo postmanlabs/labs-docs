@@ -75,7 +75,7 @@ You can add existing requests to collections and can create new requests inside 
 
 <img alt="Save request" src="https://assets.postman.com/postman-docs/save-request-v8.jpg" width="350px"/>
 
-To add a new request to a collection, open a new tab and save it from there, or in __Collections__ on the left of Postman, click __...__ on the collection and choose __Add Request__.
+To add a new request to a collection, open a new tab and save it from there. You can also add a new request using __Collections__ on the left of Postman by selecting <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> __> Add Request__.
 
 <img alt="Add request to folder" src="https://assets.postman.com/postman-docs/collection-menu-v8.jpg" width="350px"/>
 
@@ -87,7 +87,7 @@ Give your request a name and optional description, then __Save__ it to the selec
 
 > You can also create and save requests from the workspace overview tab when you have no open requests or collections, or from an empty collection or folder by clicking __Add a request__.
 
-To save a request from your history, select its __...__ menu in __History__ on the left of Postman, and choose __Save Request__. Choose a collection and __Save__.
+To save a request from your history, select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> in __History__ on the left of Postman, and choose __Save Request__. Choose a collection and __Save__.
 
 <img alt="Save request from history" src="https://assets.postman.com/postman-docs/save-history-v8.jpg" width="350px"/>
 
@@ -95,7 +95,9 @@ To save a request from your history, select its __...__ menu in __History__ on t
 
 ## Managing collections
 
-To add a folder to your collection, open its __...__ menu in __Collections__ on the left of Postman, and choose __Add Folder__. You can then add requests and examples to the folder either by dragging them over it from inside the collection, or choosing __Add a request__ when empty / __Add Request__ from the __...__ menu.
+To add a folder to your collection, select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> __> Add folder__.
+
+To add requests and examples to the folder, you can drag and drop them into the folder from inside the collection. You can also select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> **> Add Request**, or select the **Add a request** link if the folder is empty.
 
 <img alt="Add request to folder" src="https://assets.postman.com/postman-docs/folders-v8.jpg" width="350px"/>
 
@@ -103,7 +105,7 @@ You can reorder the requests, folders, and examples inside a collection by click
 
 <img alt="Reorder collections" src="https://assets.postman.com/postman-docs/reordering-examples.gif"/>
 
-To delete a collection, in __Collections__ click __...__ and select __Delete__.
+To delete a collection, in __Collections__ select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> __> Delete__.
 
 > If a collection is larger than 30 MB, it can't be recovered if you delete it. To avoid this, you can split the collection into smaller pieces before deleting it, or back up the collection first.
 
@@ -115,7 +117,7 @@ You can [share](/docs/collaborating-in-postman/sharing/) your collections to a w
 
 ### Recovering deleted collections
 
-You can recover deleted collections in Postman using __Trash__. Click `...` next to the collection search bar and select __Open Trash__. You can restore the deleted collections or permanently delete them. You can alternatively open the trash from the status bar in the bottom right corner in Postman.
+You can recover deleted collections in Postman using __Trash__. Select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to the collection search bar and select __Open Trash__. You can restore the deleted collections or permanently delete them. You can alternatively open the trash from the status bar in the bottom right corner in Postman.
 
 <img alt="Trash" src="https://assets.postman.com/postman-docs/trash-v8.jpg"/>
 
