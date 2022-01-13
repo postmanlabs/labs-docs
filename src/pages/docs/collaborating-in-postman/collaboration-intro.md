@@ -68,11 +68,11 @@ Team workspaces allow you to collaborate on APIs, collections, environments, int
 
 > Postman creates a default "Team Workspace" for every team. You can rename this workspace, but it cannot be deleted.
 
+Postman notifies you when activities occur within your team workspace. You can opt in to or out of these notifications by selecting your avatar in the upper right and selecting **Notification Preferences**.
+
 ### Inviting a team member to a workspace
 
 You can invite team members to join a [new](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/) or existing workspace. For more details about how to invite a team member to a workspace, see [Sharing workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#sharing-workspaces).
-
-> Postman will alert you with notifications when activities occur within your team and workspace. You can view and opt in to or out of notifications by selecting your avatar in the upper right and selecting **Notification Preferences**.
 
 ### Finding teams within your organization
 
