@@ -10,7 +10,7 @@ import SEO from '../components/seo';
 import './doc.scss';
 import 'prismjs/themes/prism-tomorrow.css';
 import pose from '../assets/pose-learning-center.svg';
-
+import PreviousAndNextLinks  from '../components/modules/PreviousAndNextLinks';
 const { v4: uuidv4 } = require('uuid');
 
 const DocPage = ({ data }) => {
@@ -22,6 +22,7 @@ const DocPage = ({ data }) => {
   if (post.frontmatter.contextual_links) {
     contextualLinks = <ContextualLinks key={uuidv4()} links={post.frontmatter.contextual_links} />;
   }
+  const { previous, next } = data;
   return (
     <Layout>
       <SEO title={post.frontmatter.title} slug={post.fields.slug} />
@@ -38,6 +39,7 @@ const DocPage = ({ data }) => {
                 <p>
                   <small className="font-italic">Last modified: {date}</small>
                 </p>
+                <PreviousAndNextLinks data={{ previous, next }}/>
               </main>
               <aside className="col-sm-12 col-md-12 col-lg-3 offset-lg-0 col-xl-3 offset-xl-1 right-column">
                 <hr className="d-block d-lg-none" />
