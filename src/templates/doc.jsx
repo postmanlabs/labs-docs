@@ -22,6 +22,34 @@ const DocPage = ({ data }) => {
   if (post.frontmatter.contextual_links) {
     contextualLinks = <ContextualLinks key={uuidv4()} links={post.frontmatter.contextual_links} />;
   }
+  /* Using LeftNavItems.jsx, we filter through the nested arrays and return the active nav section the user is on */
+  let location;
+  if (window.location !== undefined) {
+    location = window.location.pathname;
+  }
+  const activeDocLinks = [];
+  /* Parent array */
+  leftNavItems.forEach((leftNavItem) => {
+    /* Loop over first submenu (subMenuItems1) */
+    leftNavItem.subMenuItems1.map((subMenuItem1, index) => {
+      /* Filter first submenu array */
+      leftNavItem.subMenuItems1[index].url === location && activeDocLinks.push(leftNavItem.subMenuItems1)
+      /* Filter second submenu array */
+      subMenuItem1.subMenuItems2 && subMenuItem1.subMenuItems2.filter(subMenuItem2 => subMenuItem2.url === location && activeDocLinks.push(subMenuItem1.subMenuItems2))
+    })
+  })
+  /* If the current location url equals the matching element index url, add the element to previous and next variables */
+  let previous;
+  let next;
+  activeDocLinks.map(link => {
+    for (let i = 0; i < link.length; i++) {
+      if (link[i].url === location) {
+        previous = link[i + -1]
+        next = link[i+1] && link[i + 1].slug  ? undefined : link[i + 1]
+      }
+    }
+  })
+
   return (
     <Layout>
       <SEO title={post.frontmatter.title} slug={post.fields.slug} />
@@ -38,6 +66,20 @@ const DocPage = ({ data }) => {
                 <p>
                   <small className="font-italic">Last modified: {date}</small>
                 </p>
+                <div className="d-flex">
+                {previous && (
+                  <div>
+                  <p className="font-weight-bold mb-0">Previous</p>
+                  <a href={previous.url}>{previous.name}</a>
+                    </div>
+                )}
+                  {next && (
+                    <div className={previous ? 'ml-auto' : ''}>
+                  <p className="font-weight-bold mb-0">Next</p>
+                  <a href={next.url}>{next.name || next.slug}</a>
+                  </div>
+                  )}                                    
+                </div>
               </main>
               <aside className="col-sm-12 col-md-12 col-lg-3 offset-lg-0 col-xl-3 offset-xl-1 right-column">
                 <hr className="d-block d-lg-none" />

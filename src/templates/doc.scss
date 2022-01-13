@@ -296,3 +296,8 @@ code[class*="language-"] {
     // }
   }
 }
+
+.previous-next-links {
+  display: flex;
+  justify-content: space-between;
+}
