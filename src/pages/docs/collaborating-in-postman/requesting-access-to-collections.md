@@ -38,7 +38,7 @@ There might be collections that you can view but not edit. These collections hav
 
 You can request the Editor role on this collection:
 
-1. Click the ellipsis icon (<img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px">) next to the collection name in the sidebar to open the following menu and choose **Manage Roles**.
+1. Select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to the collection name in the sidebar to open the following menu and choose **Manage Roles**.
 <img alt="Collection Context Menu" src="https://assets.postman.com/postman-docs/collection-context-menu-v8.jpg" width="300px">
 
 2. Click **Request Access** in the modal.
@@ -63,7 +63,7 @@ There might be APIs that you can view in your team workspace but can't edit. The
 
 You can request the Editor role on this API:
 
-1. Click the ellipsis icon (<img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px">) next to the API name in the sidebar to open the following menu and choose **Manage Roles**.
+1. Select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to the API name in the sidebar to open the following menu and choose **Manage Roles**.
 <img alt="Manage roles for API" src="https://assets.postman.com/postman-docs/request-editor-api-manage-roles-v8.jpg" />
 
 2. Click **Request Access** in the modal.
