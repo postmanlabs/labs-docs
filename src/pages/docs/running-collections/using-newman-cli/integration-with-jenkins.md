@@ -27,12 +27,12 @@ contextual_links:
 warning: false
 tags:
   - "newman"
-
+updated: 2022-01-14
 ---
 
-Postman contains a full-featured [testing sandbox](/docs/writing-scripts/script-references/postman-sandbox-api-reference/) that lets you write and execute JavaScript based tests for your API. You can then hook up Postman with your build system using [Newman](/docs/running-collections/using-newman-cli/command-line-integration-with-newman/), the command-line collection runner for Postman.
+Postman contains a full-featured [testing sandbox](/docs/writing-scripts/script-references/postman-sandbox-api-reference/) that enables you to write and execute JavaScript based tests for your API. You can then integrate Postman with your CI/CD build system using [Newman](/docs/running-collections/using-newman-cli/command-line-integration-with-newman/), the command-line collection runner for Postman.
 
-Newman allows you to run and test a Postman Collection. Newman and Jenkins are a perfect match. Let's review these topics to set up this operation.
+## Contents
 
 * [Installation](#installation)
 * [Run a collection in Postman](#run-a-collection-in-postman)
@@ -41,19 +41,25 @@ Newman allows you to run and test a Postman Collection. Newman and Jenkins are a
 * [Troubleshooting](#troubleshooting)
 * [Configure frequency of runs](#configure-frequency-of-runs)
 
-**Note:** This walkthrough uses Ubuntu as a target OS, as in most cases your CI server will be running on a remote Linux machine.
-
 ## Installation
 
 1. Install and start Jenkins. For more information, see the Jenkins documentation at [https://www.jenkins.io](https://www.jenkins.io).
 
-1. Install NodeJS and npm. Newman is written in NodeJS and the official copy is available through npm. Install [nodejs and npm for Linux](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).
+1. Install NodeJS and npm on your machine. Newman is written in NodeJS and the official copy is available through npm. For more information, see [Downloading and installing Node.js and npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).
 
-1. Install Newman globally, to set up Newman as a command-line tool in Ubuntu.
+1. Install Newman globally on your machine:
 
     ```bash
     $ npm install -g newman
     ```
+
+1. Install NodeJS and Newman in Jenkins:
+    1. Go to `http://localhost:8080` and log in.
+    1. Go to **Manage Jenkins > Manage Plugins** and install the NodeJS plugin.
+    1. Go to **Manage Jenkins > Global Tool Configuration** and under **NodeJS**, select **Add NodeJS**.
+    1. Enter a name for the NodeJS installation.
+    1. In **Global npm packages to install**, enter `newman`.
+    1. Select **Save**.
 
 ## Run a collection in Postman
 
@@ -65,39 +71,29 @@ Some of the tests are failing intentionally in the screenshot to demonstrate the
 
 ## Run a collection using Newman
 
-Run this collection inside Newman, using the command below. If everything is set up nicely, you should see the output below.
+Run this collection inside Newman, using the command below. If everything is set up , you should see the output below.
 
 [![terminal output from collection run](https://assets.postman.com/postman-docs/integrating_with_jenkins_2.png)](https://assets.postman.com/postman-docs/integrating_with_jenkins_2.png)
 
 ## Set up Jenkins
 
-After you have started Jenkins, it exposes an interface at `http://localhost:8080`. Click the **New Item** link on the left sidebar to create a new job.
+1. With Jenkins running, go to `http://localhost:8080` and log in.
+1. On the **Dashboard** page, select **New Item** on the left sidebar to create a new job.
+1. Select a **Freestyle project** from the options. Name your project, and select **OK**.
 
-[![jenkins interface](https://assets.postman.com/postman-docs/integrating_with_jenkins_3.jpg)](https://assets.postman.com/postman-docs/integrating_with_jenkins_3.jpg)
+    [![new Jenkins job](https://assets.postman.com/postman-docs/integrating_with_jenkins_4.jpg)](https://assets.postman.com/postman-docs/integrating_with_jenkins_4.jpg)
 
-Select a “Freestyle Project” from the options. Name your project, and click **OK**.
+1. In **General > Build**, add a build step in the project, and choose **Execute Shell**. The build step executes a shell command. Enter a shell command to run, such as `newman run /path/to/jenkins_demo_postman_collection.json`<br/><br/>
 
-[![new Jenkins job](https://assets.postman.com/postman-docs/integrating_with_jenkins_4.jpg)](https://assets.postman.com/postman-docs/integrating_with_jenkins_4.jpg)
+1. In **Build Environment > Build Environment**, select **Provide Node & npm bin/ folder to PATH** and choose the NodeJS install you configured with Newman.
 
-Add a build step in the project. The build step executes a shell command.
+1. Select **Save** to finish creating the project.
 
-[![execute shell command](https://assets.postman.com/postman-docs/integrating_with_jenkins_5.png)](https://assets.postman.com/postman-docs/integrating_with_jenkins_5.png)
-
-Here is an example command:
-
-```bash
-$ newman run /path/to/jenkins_demo.postman_collection.json --suppress-exit-code 1
-```
-
-Note here that the Newman command parameter `suppress-exit-code` uses the value `1`. This denotes that Newman is going to exit with this code that will tell Jenkins that everything did not go well.
-
-Click **Save** to finish creating the project.
-
-[![Jenkins build shell command](https://assets.postman.com/postman-docs/integrating_with_jenkins_6.jpg)](https://assets.postman.com/postman-docs/integrating_with_jenkins_6.jpg)
+    [![Jenkins build shell command](https://assets.postman.com/postman-docs/integrating_with_jenkins_6.jpg)](https://assets.postman.com/postman-docs/integrating_with_jenkins_6.jpg)
 
 ## Troubleshooting
 
-Run this build test manually by clicking on the **Build Now** link in the sidebar.
+Run this build test manually by selecting **Build Now** in the sidebar.
 
 ![run build](https://assets.postman.com/postman-docs/integrating_with_jenkins_build_now-2.jpg
 )
@@ -106,7 +102,7 @@ Jenkins indicates that the build has failed with a red dot in the title. You can
 
 [![build failed message](https://assets.postman.com/postman-docs/integrating_with_jenkins_8.png)](https://assets.postman.com/postman-docs/integrating_with_jenkins_8.png)
 
-Click the “Console Output” link in the sidebar to see what Newman returned.
+Select **Console Output** in the sidebar to see what Newman returned.
 
 [![console output](https://assets.postman.com/postman-docs/integrating_with_jenkins_9.png)](https://assets.postman.com/postman-docs/integrating_with_jenkins_9.png)
 
@@ -122,7 +118,7 @@ Jenkins indicates that the build succeeded with a blue ball.
 
 ## Configure frequency of runs
 
-To set up the frequency with which Jenkins runs Newman, click on “Configure project” in the main project window and then scroll down.=. The syntax for setting the frequency is `H/(30) * * * *`.
+To set the frequency with which Jenkins runs Newman, select **Configure project** in the main project window and then scroll down. The syntax for setting the frequency is `H/(30) * * * *`.
 
 [![build triggers](https://assets.postman.com/postman-docs/integrating_with_jenkins_12.png)](https://assets.postman.com/postman-docs/integrating_with_jenkins_12.png)
 
