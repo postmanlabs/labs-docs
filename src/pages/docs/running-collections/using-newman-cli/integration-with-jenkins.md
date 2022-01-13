@@ -32,48 +32,33 @@ updated: 2022-01-14
 
 Postman contains a full-featured [testing sandbox](/docs/writing-scripts/script-references/postman-sandbox-api-reference/) that enables you to write and execute JavaScript based tests for your API. You can then integrate Postman with your CI/CD build system using [Newman](/docs/running-collections/using-newman-cli/command-line-integration-with-newman/), the command-line collection runner for Postman.
 
+The following example shows how to set up a Jenkins build that uses Newman to run a collection. If the collection passes all tests, the Jenkins build will be marked as successful. This uses a Jenkins install running locally, but you'll typically be running it on a build server for production use.
+
 ## Contents
 
 * [Installation](#installation)
-* [Run a collection in Postman](#run-a-collection-in-postman)
-* [Run a collection using Newman](#run-a-collection-using-newman)
+* [Create a Postman collection](#create-a-postman-collection)
 * [Set up Jenkins](#set-up-jenkins)
 * [Troubleshooting](#troubleshooting)
 * [Configure frequency of runs](#configure-frequency-of-runs)
 
 ## Installation
 
-1. Install and start Jenkins. For more information, see the Jenkins documentation at [https://www.jenkins.io](https://www.jenkins.io).
+1. Install Jenkins locally and start it. For more information, see the Jenkins documentation at [https://www.jenkins.io](https://www.jenkins.io).
 
-1. Install NodeJS and npm on your machine. Newman is written in NodeJS and the official copy is available through npm. For more information, see [Downloading and installing Node.js and npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).
-
-1. Install Newman globally on your machine:
-
-    ```bash
-    $ npm install -g newman
-    ```
-
-1. Install NodeJS and Newman in Jenkins:
+1. Install Node.js and Newman in Jenkins:
     1. Go to `http://localhost:8080` and log in.
     1. Go to **Manage Jenkins > Manage Plugins** and install the NodeJS plugin.
     1. Go to **Manage Jenkins > Global Tool Configuration** and under **NodeJS**, select **Add NodeJS**.
-    1. Enter a name for the NodeJS installation.
+    1. Enter a name for the Node.js installation.
     1. In **Global npm packages to install**, enter `newman`.
     1. Select **Save**.
 
-## Run a collection in Postman
+## Create a Postman collection
 
 These instructions assume you already have a Postman Collection with some tests. Run the collection in Postman. Here's an example of the output in Postman’s collection runner.
 
-[![collection runner](https://assets.postman.com/postman-docs/integrating_with_jenkins_1.png)](https://assets.postman.com/postman-docs/integrating_with_jenkins_1.png)
-
 Some of the tests are failing intentionally in the screenshot to demonstrate the troubleshooting process.
-
-## Run a collection using Newman
-
-Run this collection inside Newman, using the command below. If everything is set up , you should see the output below.
-
-[![terminal output from collection run](https://assets.postman.com/postman-docs/integrating_with_jenkins_2.png)](https://assets.postman.com/postman-docs/integrating_with_jenkins_2.png)
 
 ## Set up Jenkins
 
