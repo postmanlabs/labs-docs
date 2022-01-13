@@ -45,21 +45,24 @@ class PreviousAndNextLinks extends React.Component {
   render() {
     const { nextLink, prevLink } = this.state;
     return (
-      <div className="d-flex">
+      <>
+      <hr/>
+      <div className="d-flex flex-row mt-3">
         {prevLink && (
-          <div>
-            <p className="font-weight-bold mb-0">Previous</p>
+          <div className="mr-auto">
+            <span className="font-weight-bold mr-3">&#171;</span>
             <a href={prevLink.url}>{prevLink.name}</a>
           </div>
         )}
         {nextLink && (
-          <div className={prevLink ? 'ml-auto' : ''}>
-            <p className="font-weight-bold mb-0">Next</p>
-            <a href={nextLink.url}>{nextLink.name}</a>
+          <div className="ml-auto">
+              <a href={nextLink.url}>{nextLink.name}</a>
+              <span className="font-weight-bold ml-3">&#187;</span>
           </div>
         )}
-      </div>
-    )
+        </div>
+        </>
+  )
   }
 }
 
