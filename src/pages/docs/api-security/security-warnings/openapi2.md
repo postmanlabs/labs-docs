@@ -45,26 +45,26 @@ For all APIs defined in OpenAPI 2.0, the following list describes possible warni
     * [API accepts credentials from OAuth authentication in plain text](#api-accepts-credentials-from-oauth-authentication-in-plain-text)
     * [API accepts API key in plain text](#api-accepts-api-key-in-plain-text)
     * [API accepts basic authentication credentials in plain text](#api-accepts-basic-authentication-credentials-in-plain-text)
-    * [Global schemes have http scheme defined](#global-schemes-have-http-scheme-defined)
+    * [Global schemes have HTTP scheme defined](#global-schemes-have-http-scheme-defined)
     * [Operation accepts credentials from OAuth authentication in plain text](#operation-accepts-credentials-from-oauth-authentication-in-plain-text)
     * [Operation accepts API key in plain text](#operation-accepts-api-key-in-plain-text)
     * [Operation accepts basic authentication credentials in plain text](#operation-accepts-basic-authentication-credentials-in-plain-text)
     * [Schemes of the operation have HTTP scheme defined](#schemes-of-the-operation-have-http-scheme-defined)
     * [Authorization URL uses HTTP protocol. Credentials will be transferred as plain text](#authorization-url-uses-http-protocol-credentials-will-be-transferred-as-plain-text)
     * [Token URL uses HTTP protocol](#token-url-uses-http-protocol)
-* [Improper assets management](#improper-assets-management)
-    * [OAuth authentication uses the deprecated implicit flow](#oauth-authentication-uses-the-deprecated-implicit-flow)
-    * [OAuth authentication uses the deprecated password flow](#oauth-authentication-uses-the-deprecated-password-flow)
-* [Consumes field should properly enforce MIME types](#consumes-field-should-properly-enforce-mime-types)
-    * [Consumes field is not defined](#consumes-field-is-not-defined)
-    * [Consumes field does not contain any item](#consumes-field-does-not-contain-any-item)
-    * [Consumes field for the operation does not contain any item](#consumes-field-for-the-operation-does-not-contain-any-item)
-    * [Operation does not contain consumes field](#operation-does-not-contain-consumes-field)
-* [Produces field should properly enforce MIME types](#produces-field-should-properly-enforce-mime-types)
     * [Produces field is not defined](#produces-field-is-not-defined)
     * [Produces field does not contain any item](#produces-field-does-not-contain-any-item)
     * [Produces field for the operation does not contain any item](#produces-field-for-the-operation-does-not-contain-any-item)
     * [Operation does not contain produces field](#operation-does-not-contain-produces-field)
+* [Injection](#injection)
+    * [Consumes field is not defined](#consumes-field-is-not-defined)
+    * [Consumes field does not contain any item](#consumes-field-does-not-contain-any-item)
+    * [Consumes field for the operation does not contain any item](#consumes-field-for-the-operation-does-not-contain-any-item)
+    * [Operation does not contain consumes field](#operation-does-not-contain-consumes-field)
+* [Improper assets management](#improper-assets-management)
+    * [OAuth authentication uses the deprecated implicit flow](#oauth-authentication-uses-the-deprecated-implicit-flow)
+    * [OAuth authentication uses the deprecated password flow](#oauth-authentication-uses-the-deprecated-password-flow)
+
 
 ## Broken object level authorization
 
@@ -571,58 +571,84 @@ securityDefinitions:
 
 &nbsp;
 
-## Improper assets management
-
-### OAuth authentication uses the deprecated implicit flow
+### Produces field is not defined
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| Medium | In OAuth implicit flow, authorization server issues access tokens in the authorization request’s response. Attackers can easily intercept API calls and retrieve the access tokens to make other API calls. | It is recommended to use accessCode flow. Make sure that the OAuth authentication scheme is not using the implicit flow. |
+| High | If the global `produces` field is not defined, the API could potentially return any form of data.  | The `produces` field should be defined in the schema.|
 
 **Resolution:**
 
 ```json
 swagger: '2.0'
-#...
-securityDefinitions:
-  OAuth2:
-    type: oauth2
-    flow: accessCode
-    authorizationUrl: https://my.auth.example.com/
-    tokenUrl: https://my.token.example.com/
-    scopes:
-      write: modify data
-      read: read data
+paths: {}
+consumes:
+  - application/json
+produces:
+  - application/json
 ```
 
 &nbsp;
 
-### OAuth authentication uses the deprecated password flow
+### Produces field does not contain any item
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| Medium | Oauth password grant flow uses the user’s credentials to retrieve the access token. Attackers can easily intercept API calls and retrieve the access tokens to make other API calls. | It is recommended to use accessCode flow. Make sure that the OAuth authentication scheme is not using the password flow. |
+| High | If the `produces` field contains an empty array, the API can return any type of data by default. | The global `produces` field should contain at least one item with a valid MIME type in the array. |
 
 **Resolution:**
 
 ```json
 swagger: '2.0'
-#...
-securityDefinitions:
-  OAuth2:
-    type: oauth2
-    flow: accessCode
-    authorizationUrl: https://my.auth.example.com/
-    tokenUrl: https://my.token.example.com/
-    scopes:
-      write: modify data
-      read: read data
-
+paths: {}
+produces:
+  - application/json
+...
 ```
 
 &nbsp;
 
-## Consumes field should properly enforce MIME types
+### Produces field for the operation does not contain any item
+
+| Severity | Issue description | Possible fix |
+| ----------- | ----------- | ----------- |
+| High | No `produces` field in the operation means that API can return any type of data by default.| The `produces` field in any operation should contain at least one item in the array.|
+
+**Resolution:**
+
+```json
+swagger: '2.0'
+paths:
+  /user/{userId}:
+    get:
+      produces:
+        - application/json
+```
+
+&nbsp;
+
+### Operation does not contain produces field
+
+| Severity | Issue description | Possible fix |
+| ----------- | ----------- | ----------- |
+| Medium | If both the global `produces` field and operation’s `produces` field for any operation are not defined, anyone can exploit your API. | Define a `produces` field in the operation if not defined at the global level.|
+
+**Resolution:**
+
+```json
+swagger: '2.0'
+paths:
+  /user/{userId}:
+    get:
+      produces:
+        - application/json
+  ...
+...
+```
+
+&nbsp;
+
+## Injection
 
 ### Consumes field is not defined
 
@@ -699,81 +725,53 @@ paths:
 
 &nbsp;
 
-## Produces field should properly enforce MIME types
+## Improper assets management
 
-### Produces field is not defined
+### OAuth authentication uses the deprecated implicit flow
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| High | If the global `produces` field is not defined, the API could potentially return any form of data.  | The `produces` field should be defined in the schema.|
+| Medium | In OAuth implicit flow, authorization server issues access tokens in the authorization request’s response. Attackers can easily intercept API calls and retrieve the access tokens to make other API calls. | It is recommended to use accessCode flow. Make sure that the OAuth authentication scheme is not using the implicit flow. |
 
 **Resolution:**
 
 ```json
 swagger: '2.0'
-paths: {}
-consumes:
-  - application/json
-produces:
-  - application/json
+#...
+securityDefinitions:
+  OAuth2:
+    type: oauth2
+    flow: accessCode
+    authorizationUrl: https://my.auth.example.com/
+    tokenUrl: https://my.token.example.com/
+    scopes:
+      write: modify data
+      read: read data
 ```
 
 &nbsp;
 
-### Produces field does not contain any item
+### OAuth authentication uses the deprecated password flow
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| High | If the `produces` field contains an empty array, the API can return any type of data by default. | The global `produces` field should contain at least one item with a valid MIME type in the array. |
+| Medium | Oauth password grant flow uses the user’s credentials to retrieve the access token. Attackers can easily intercept API calls and retrieve the access tokens to make other API calls. | It is recommended to use accessCode flow. Make sure that the OAuth authentication scheme is not using the password flow. |
 
 **Resolution:**
 
 ```json
 swagger: '2.0'
-paths: {}
-produces:
-  - application/json
-...
-```
+#...
+securityDefinitions:
+  OAuth2:
+    type: oauth2
+    flow: accessCode
+    authorizationUrl: https://my.auth.example.com/
+    tokenUrl: https://my.token.example.com/
+    scopes:
+      write: modify data
+      read: read data
 
-&nbsp;
-
-### Produces field for the operation does not contain any item
-
-| Severity | Issue description | Possible fix |
-| ----------- | ----------- | ----------- |
-| High | No `produces` field in the operation means that API can return any type of data by default.| The `produces` field in any operation should contain at least one item in the array.|
-
-**Resolution:**
-
-```json
-swagger: '2.0'
-paths:
-  /user/{userId}:
-    get:
-      produces:
-        - application/json
-```
-
-&nbsp;
-
-### Operation does not contain produces field
-
-| Severity | Issue description | Possible fix |
-| ----------- | ----------- | ----------- |
-| Medium | If both the global `produces` field and operation’s `produces` field for any operation are not defined, anyone can exploit your API. | Define a `produces` field in the operation if not defined at the global level.|
-
-**Resolution:**
-
-```json
-swagger: '2.0'
-paths:
-  /user/{userId}:
-    get:
-      produces:
-        - application/json
-  ...
-...
 ```
 
 &nbsp;
