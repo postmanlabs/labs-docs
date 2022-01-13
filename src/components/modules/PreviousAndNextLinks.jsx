@@ -32,7 +32,7 @@ class PreviousAndNextLinks extends React.Component {
     activeDocLinks.map(link => {
       for (let i = 0; i < link.length; i++) {
         if (link[i].url === location) {
-          previous = link[i + -1]
+          previous = link[i + -1] && link[i + -1].slug ? undefined : link[i + -1]
           next = link[i + 1] && link[i + 1].slug ? undefined : link[i + 1]
         }
       }
