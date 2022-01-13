@@ -65,7 +65,6 @@ For all APIs defined in OpenAPI 2.0, the following list describes possible warni
     * [OAuth authentication uses the deprecated implicit flow](#oauth-authentication-uses-the-deprecated-implicit-flow)
     * [OAuth authentication uses the deprecated password flow](#oauth-authentication-uses-the-deprecated-password-flow)
 
-
 ## Broken object level authorization
 
 ### Scope for OAuth scheme used in security field is not defined in the securityDefinition declaration
