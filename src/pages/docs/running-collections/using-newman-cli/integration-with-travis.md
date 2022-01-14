@@ -42,7 +42,7 @@ With CI, every code commit triggers an automated process that builds the code an
 
 ## Running Postman tests with Travis CI
 
-In general, integrating your [Postman tests](/docs/writing-scripts/test-scripts/) with your Travis CI is the same process as [running on Jenkins](/docs/running-collections/using-newman-cli/integration-with-jenkins/), AppVeyor, or any other build system.You will set up your CI configuration to run a shell command when starting your build. The command is a [Newman script](/docs/running-collections/using-newman-cli/command-line-integration-with-newman/) that runs the collection containing the tests and returns a pass or fail exit code that’s logged in your CI system.
+In general, integrating your [Postman tests](/docs/writing-scripts/test-scripts/) with Travis CI is the same process as [running on Jenkins](/docs/running-collections/using-newman-cli/integration-with-jenkins/), AppVeyor, or any other build system.You will set up your CI configuration to run a shell command when starting your build. The command is a [Newman script](/docs/running-collections/using-newman-cli/command-line-integration-with-newman/) that runs the collection containing the tests and returns a pass or fail exit code that’s logged in your CI system.
 
 This example shows you how to integrate Postman with [Travis CI](https://travis-ci.com/), a continuous integration platform that development teams use to automatically build and test code changes. When you're finished, Travis CI will run your tests every time you make a commit to your GitHub repo.
 
@@ -60,23 +60,32 @@ This example shows you how to integrate Postman with [Travis CI](https://travis-
 
 ## Connecting Postman to Travis CI
 
-1. [Export the "Hello World" collection](/docs/getting-started/importing-and-exporting-data/) as a JSON file. Rename the exported file `hello_world.postman_collection.json`.
+1. [Export the "Hello World" collection](/docs/getting-started/importing-and-exporting-data/) as a JSON file and rename the exported file `hello_world.postman_collection.json`.
 
 1. Create a folder named `tests` at the root of your local project, and move the exported JSON file into the new `tests` folder.
 
-    > If your collection uses an environment, you should also [export the environment](/docs/sending-requests/managing-environments/) as a JSON file and move it to the `tests` folder as well.
+    ```bash
+    .
+    └── tests
+        └── hello_world.postman_collection.json
+    ```
 
-    [![tree view tests folder](https://assets.postman.com/postman-docs/travis_tree.png)](https://assets.postman.com/postman-docs/travis_tree.png)
+    > If your collection uses an environment, you should also [export the environment](/docs/sending-requests/managing-environments/) as a JSON file and move it to the `tests` folder as well.
 
 1. Create a new file named `.travis.yml` at the root of your project repository. You'll use this file to tell Travis CI the programming language for your project and how to  build it.
 
-    Any step of the build process [can be customized](https://docs.travis-ci.com/user/customizing-the-build). The scripts in the `.travis.yml`file will execute the next time you commit and push a change to your repo.
+    ```bash
+    .
+    ├── .travis.yml
+    └── tests
+        └── hello_world.postman_collection.json
+    ```
 
-    [![tree view yml](https://assets.postman.com/postman-docs/travis_tree_yml.png)](https://assets.postman.com/postman-docs/travis_tree_yml.png)
+    > Any step of the build process [can be customized](https://docs.travis-ci.com/user/customizing-the-build). The scripts in the `.travis.yml`file will execute the next time you commit and push a change to your repo.
 
 1. In the `.travis.yml` file, add a command to `install` Newman in the CI environment, and then add a `script` telling Newman to run the Postman tests (which you placed in the `tests` folder).
 
-    Because Travis CI doesn’t know where Newman is located, you need to update the `PATH`. In this example, the `newman` tool is located in the `.bin` folder which is the `node_modules` folder.
+    Because Travis CI doesn’t know where Newman is located, you need to update the `PATH`. In this example, the `newman` tool is located in the `.bin` folder which is in the `node_modules` folder.
 
     For this example, your `.travis.yml` file should look like the following:
 
@@ -106,33 +115,31 @@ This example shows you how to integrate Postman with [Travis CI](https://travis-
 
 1. Commit all the changes to your local project and push them to your public GitHub repo.
 
-    Travis CI is now set up and will automatically trigger a build and run  your tests every time you push a commit to your repo. Head over to the [Travis CI dashboard](https://app.travis-ci.com/dashboard) to see the status of your build. If all went well, your build passed successfully.
+    Travis CI will automatically trigger a build and run  your tests every time you push a commit to your repo. Head over to the [Travis CI dashboard](https://app.travis-ci.com/dashboard) to see the status of your build. If all went well, your build passed successfully.
+
+    [![Travis CI build successful](https://assets.postman.com/postman-docs/travis-ci-build-success.jpg)](https://assets.postman.com/postman-docs/travis-ci-build-success.jpg)
 
 ## Fixing test failures
 
-To see what things look like when a test fails, make a change in your imported "Hello Word" repository so that one of the test breaks.
+To see what things look like when a test fails, make a change in your imported "Hello Word" collection in Postman so that one of the test breaks.
 
 1. Open the collection, select the "Hello World" request, and then select the **Tests** tab.
 
-1. Change the final text so that it looks for the text "Hello, Everyone!" instead of "Hello, World!"
+1. Change the final test so that it looks for the text "Hello, Everyone!" instead of "Hello, World!"
 
-    ```bash
-    pm.test("Ensure valid message", function () {
-    pm.expect(jsonData.data.message).to.eql('Hello, Everyone!');
-    })
-    ```
+    [![Tests tab error](https://assets.postman.com/postman-docs/travis-ci-test-error-example-v9-9.jpg)](https://assets.postman.com/postman-docs/travis-ci-test-error-example-v9-9.jpg)
 
 1. Save the change and then export the collection again. As before, rename the exported file `hello_world.postman_collection.json` and move it into the `tests` directory in your local project.
 
-1. Commit and push the change to your public GitHub repo. This will trigger a new build in Travis CI, and this time you should see that the build fails.
+1. Commit and push the change to your public GitHub repo. This will trigger a new build in Travis CI, and this time the build should fail.
 
-    [![travis fail](https://assets.postman.com/postman-docs/travis_fail.png)](https://assets.postman.com/postman-docs/travis_fail.png)
+    [![Travis CI build failed](https://assets.postman.com/postman-docs/travis-ci-build-failed.jpg)](https://assets.postman.com/postman-docs/travis-ci-build-failed.jpg)
 
-1. Select the failed build link to view the build logs in Travis CI. Looking at the longs, you can see that the assertion failed. If this was your own collection, you could use the error message to help understand why the test failed and debug the problem.
+1. Select the failed build link to view the build logs in Travis CI. Looking at the logs, you can see that the assertion failed. If this was your own collection, you could use the error message to help understand why the test failed and debug the problem.
 
-    SCREENSHOT
+    [![Travis CI error log](https://assets.postman.com/postman-docs/travis-ci-error-log.jpg)](https://assets.postman.com/postman-docs/travis-ci-error-log.jpg)
 
-1. For this example, if you want, you can correct the error in the test and export the collection again. As before, rename the JSON file, add it to the `tests` folder in your local project, then commit and push. This time your build in Travis CI should be successful.
+1. For this example, if you want, you can correct the error in the test in Postman and export the collection again. As before, rename the JSON file, add it to the `tests` folder in your local project, then commit and push. This time your build in Travis CI should be successful.
 
 ## Next Steps
 
