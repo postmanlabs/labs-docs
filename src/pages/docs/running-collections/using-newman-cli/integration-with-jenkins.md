@@ -47,7 +47,7 @@ The following example shows how to set up a Jenkins build that uses Newman to ru
 1. Install Jenkins locally and start it. For more information, see the Jenkins documentation at [https://www.jenkins.io](https://www.jenkins.io).
 
 1. Install Node.js and Newman in Jenkins:
-    1. Go to `http://localhost:8080` and log in.
+    1. Go to your Jenkins server (it's at `http://localhost:8080` by default if you are running it locally) and log in.
     1. Go to **Manage Jenkins > Manage Plugins** and install the NodeJS plugin.
     1. Go to **Manage Jenkins > Global Tool Configuration** and under **NodeJS**, select **Add NodeJS**.
     1. Enter a name for the Node.js installation.
@@ -56,9 +56,9 @@ The following example shows how to set up a Jenkins build that uses Newman to ru
 
 ## Create a Postman collection
 
-These instructions assume you already have a Postman Collection with some tests. Run the collection in Postman. Here's an example of the output in Postman’s collection runner.
+For this example, you'll need a Postman collection that contains a few requests with tests. The collection used here has several intentionally failing tests to demonstrate the troubleshooting process.
 
-Some of the tests are failing intentionally in the screenshot to demonstrate the troubleshooting process.
+After you've created the collection, [export it as a JSON file](/docs/getting-started/importing-and-exporting-data/).
 
 ## Set up Jenkins
 
@@ -68,7 +68,7 @@ Some of the tests are failing intentionally in the screenshot to demonstrate the
 
     [![new Jenkins job](https://assets.postman.com/postman-docs/integrating_with_jenkins_4.jpg)](https://assets.postman.com/postman-docs/integrating_with_jenkins_4.jpg)
 
-1. In **General > Build**, add a build step in the project, and choose **Execute Shell**. The build step executes a shell command. Enter a shell command to run, such as `newman run /path/to/jenkins_demo_postman_collection.json`<br/><br/>
+1. In **General > Build**, add a build step in the project, and choose **Execute Shell**. The build step executes a shell command. Enter a shell command to run, such as `newman run ~/Desktop/jenkins_demo_postman_collection.json`<br/><br/>
 
 1. In **Build Environment > Build Environment**, select **Provide Node & npm bin/ folder to PATH** and choose the NodeJS install you configured with Newman.
 
@@ -78,38 +78,44 @@ Some of the tests are failing intentionally in the screenshot to demonstrate the
 
 ## Troubleshooting
 
-Run this build test manually by selecting **Build Now** in the sidebar.
+1. Run this build test manually by selecting **Build Now** in the sidebar.
 
-![run build](https://assets.postman.com/postman-docs/integrating_with_jenkins_build_now-2.jpg
+    ![run build](https://assets.postman.com/postman-docs/integrating_with_jenkins_build_now-2.jpg
 )
 
-Jenkins indicates that the build has failed with a red dot in the title. You can check why with the console output from Newman.
+   Jenkins indicates that the build has failed with a red dot in the title. This is because of the intentionally failed tests in the collection.
 
-[![build failed message](https://assets.postman.com/postman-docs/integrating_with_jenkins_8.png)](https://assets.postman.com/postman-docs/integrating_with_jenkins_8.png)
+    [![build failed message](https://assets.postman.com/postman-docs/integrating_with_jenkins_8.png)](https://assets.postman.com/postman-docs/integrating_with_jenkins_8.png)
 
-Select **Console Output** in the sidebar to see what Newman returned.
+1. Select **Console Output** in the sidebar to see what Newman returned.
 
-[![console output](https://assets.postman.com/postman-docs/integrating_with_jenkins_9.png)](https://assets.postman.com/postman-docs/integrating_with_jenkins_9.png)
+    [![console output](https://assets.postman.com/postman-docs/integrating_with_jenkins_9.png)](https://assets.postman.com/postman-docs/integrating_with_jenkins_9.png)
 
-Fix these tests inside Postman and then try again.
+1. Fix these tests inside your collection. Export it and then try again.
 
-[![collection runner view](https://assets.postman.com/postman-docs/integrating_with_jenkins_10.png)](https://assets.postman.com/postman-docs/integrating_with_jenkins_10.png)
+    [![collection runner view](https://assets.postman.com/postman-docs/integrating_with_jenkins_10.png)](https://assets.postman.com/postman-docs/integrating_with_jenkins_10.png)
 
 You can move on once you see green pass icons for all your tests like the screenshot above.
 
 [![console output for all tests pass](https://assets.postman.com/postman-docs/integrating_with_jenkins_11.png)](https://assets.postman.com/postman-docs/integrating_with_jenkins_11.png)
 
-Jenkins indicates that the build succeeded with a blue ball.
+Jenkins indicates that the build succeeded with a green checkmark.
 
 ## Configure frequency of runs
 
-To set the frequency with which Jenkins runs Newman, select **Configure project** in the main project window and then scroll down. The syntax for setting the frequency is `H/(30) * * * *`.
+To set the frequency with which Jenkins runs Newman:
 
-[![build triggers](https://assets.postman.com/postman-docs/integrating_with_jenkins_12.png)](https://assets.postman.com/postman-docs/integrating_with_jenkins_12.png)
+1. Open the build window.
+1. Select **Configure**.
+1. Navigate to **Build Triggers** and select **Build periodically**.
+1. Enter a schedule. The syntax for setting the frequency to every 30 minutes is `H/(30) * * * *`.
 
-**Note:** 30 can be replaced with another number.
+    [![build triggers](https://assets.postman.com/postman-docs/integrating_with_jenkins_12.png)](https://assets.postman.com/postman-docs/integrating_with_jenkins_12.png) <!--TODO: image -->
 
-Jenkins will now run Newman at your desired frequency and will tell you whether the build failed or succeeded. In a bigger setup, Newman will be part of your build process and probably not the entire process. You can set up notifications and customize Jenkins as per your needs.
+    > Select the help icon next to **Schedule** to see information on how to specify the build frequency.
+1. Select **Save**.
+
+Jenkins will now run Newman at your desired frequency and will tell you if the build failed or succeeded. In a bigger setup, Newman will be part of your build process and probably not the entire process. You can set up notifications and customize Jenkins as per your needs.
 
 You can use a wide variety of other configurations to make your collection more dynamic.
 
