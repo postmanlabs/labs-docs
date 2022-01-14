@@ -1,4 +1,5 @@
 import React from 'react';
+import './BreadCrumbsLinks.scss';
 import { leftNavItems } from '../LeftNav/LeftNavItems';
 
 // Example: Home > Getting Started >
@@ -41,22 +42,23 @@ class BreadCrumbsLinks extends React.Component {
   render() {
     const { parentLink, subParentLink } = this.state;
     return (
-      <div className="mb-5">
-        <a href="/">Home</a>
-        <span> &#62; </span>
-        {JSON.stringify(subParentLink) !== '{}' ? (
-          <>
-          <a href={parentLink.url}>{parentLink.name}</a>
-          <span> &#62; </span>
-            <a href={subParentLink.slug}>{subParentLink.name}</a>
-          </>
-        ) : (
+      <nav className="breadcrumb-wrapper" aria-label="You are here:">
+        <div  className="mb-3">
+          <a href="/" className="small breadcrumb-home-link">Home</a>
+          <span className="small"> / </span>
+          {JSON.stringify(subParentLink) !== '{}' ? (
             <>
-          <a href={parentLink.url}>{parentLink.name}</a>
-          <span> &#62; </span>
-        </>
-        )}
-      </div>
+            <a href={parentLink.url} className="small breadcrumb-parent-link">{parentLink.name}</a>
+            <span className="small"> / </span>
+              <a href={subParentLink.slug} className="small breadcrumb-subparent-link">{subParentLink.name}</a>
+            </>
+          ) : (
+              <>
+            <a href={parentLink.url} className="small breadcrumb-parent-link">{parentLink.name}</a>
+          </>
+          )}
+        </div>
+      </nav>
     )
   }
 }
