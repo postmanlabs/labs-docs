@@ -1,14 +1,14 @@
 ---
 title: "Running tests with monitors"
 order: 91
-page_id: "monitoring_apis_websites"
+page_id: "test_with_monitors"
 updated: 2021-12-15
 search_keyword: "setEnvironmentVariable, postman.setEnvironmentVariable"
 contextual_links:
   - type: section
     name: "Prerequisites"
   - type: link
-    name: "Intro to Monitoring"
+    name: "Monitoring your APIs"
     url: "/docs/monitoring-your-api/intro-monitors/"
   - type: section
     name: "Additional Resources"

@@ -208,7 +208,7 @@ export const leftNavItems = [
       },
       {
         name: 'Running tests with monitors',
-        url: '/docs/writing-scripts/monitoring-apis-websites/',
+        url: '/docs/writing-scripts/test-with-monitors/',
       },
       {
         name: 'Script references',

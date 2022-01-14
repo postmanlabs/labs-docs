@@ -2,6 +2,7 @@
 title: "Troubleshooting monitors"
 order: 94
 page_id: "troubleshooting_monitors"
+updated: 2022-1-12
 search_keyword: "console.log"
 contextual_links:
   - type: section
@@ -18,17 +19,19 @@ contextual_links:
 warning: false
 ---
 
-When you save changes to your collections in Postman, they are automatically and instantaneously synced to your Postman monitors. You can use this to debug in Postman locally, while your monitors seamlessly update to Postman's servers.
+If you encounter a problem with a collection-based monitor, try the following steps to identify and resolve the issue.
 
 ## Viewing failed monitors
 
-You can utilize the [Postman console log](/docs/monitoring-your-api/viewing-monitor-results/#console-log) to debug issues that arise in your monitors.
+The [Postman console log](/docs/monitoring-your-api/viewing-monitor-results/#console-log) can help you debug issues you might encounter with your monitors. To view the log:
 
-To view, navigate to your workspace and select **Monitors** in the left sidebar. Select your monitor in question, then click on your failed run in the performance graph. Select **Console Log** below the graph to view monitor run details along with any console.log statements that you have included in your pre-request and test scripts.
+1. Navigate to your workspace and select **Monitors** in the left sidebar.
+1. Select a monitor, and then select a failed monitor run in the performance graph.
+1. Select **Console Log** below the graph to view monitor run details along with any `console.log()` statements you've included in your pre-request and test scripts.
 
 [![Failed monitor run console log](https://assets.postman.com/postman-docs/monitor-console-log-failed-run.jpg)](https://assets.postman.com/postman-docs/monitor-console-log-failed-run.jpg)
 
-Check out [Troubleshooting API requests](/docs/sending-requests/troubleshooting-api-requests/) for more information on debugging with console logs.
+For more information on debugging with console logs, see [Troubleshooting API requests](/docs/sending-requests/troubleshooting-api-requests/).
 
 ## Debugging local run attempts
 
@@ -39,13 +42,12 @@ Check out [Troubleshooting API requests](/docs/sending-requests/troubleshooting-
 
 ## Debugging variable issues
 
-* Ensure that the same environment is used across local runs and monitor runs. To confirm, add ``console.log(environment);`` to your request scripts and compare the results across monitoring and local runs.
-
-* If your collection run depends on a saved global variable, change it to an environment variable. Saved global variables are not supported in monitors at this time.
+* Ensure that the same environment is used across local runs and monitor runs. To confirm, add `console.log(environment);` to your request scripts and compare the results across monitoring and local runs.
+* If your collection run depends on a saved global variable, change it to an environment variable. Saved global variables are not supported in monitors.
 
 ## Logging relevant information
 
-* Often, issues come from unexpected response bodies or header values. You can log these with the following:
+* Unexpected response bodies or header values can be a source of monitor issues. You can log these with the following code:
 
     ```js
     console.log(JSON.stringify(responseBody, null, 2));
@@ -54,4 +56,4 @@ Check out [Troubleshooting API requests](/docs/sending-requests/troubleshooting-
 
 ## Uncaught errors
 
-* Wrapping suspicious code in a ``try - catch`` block will also let the test and pre-request scripts in your collection run to completion, allowing you to see the entire picture.
+* Wrapping suspicious code in a `try - catch` block will enable the test and pre-request scripts in your collection run to completion.
