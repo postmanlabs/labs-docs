@@ -13,15 +13,16 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
-    name: "Public Workspace"
-  - type: link
-    name: "Postman Security Workspace"
-    url:  "https://www.postman.com/postman/workspace/62d58d93-7e0c-45bf-9daa-cc8e531fc344"
-  - type: subtitle
     name: "Related Blog Posts"
   - type: link
     name: "Introducing Security Warnings During API Validation"
     url: "https://blog.postman.com/security-warnings-during-api-validation/"
+  - type: subtitle
+    name: "Public Workspaces"
+  - type: link
+    name: "Postman Security"
+    url:  "https://www.postman.com/postman/workspace/62d58d93-7e0c-45bf-9daa-cc8e531fc344"
+
 search_keyword: "api security, api schema, security warnings, schema validation, security validation, api security audit, api security scan, api schema vulnerabilities, security audit, openapi 2.0"
 ---
 
