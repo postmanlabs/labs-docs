@@ -2,8 +2,8 @@ import React from 'react';
 import './BreadCrumbsLinks.scss';
 import { leftNavItems } from '../LeftNav/LeftNavItems';
 
-// Example: Home > Getting Started >
-// a list of links separated by > to aid in navigation
+// Example: Home / Getting Started /
+// a list of links separated by / to aid in navigation
 class BreadCrumbsLinks extends React.Component {
   constructor(props) {
     super(props);
