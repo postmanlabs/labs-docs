@@ -1760,10 +1760,6 @@
 		"to": "/docs/sending-requests/supported-api-frameworks/graphql/"
 	},
 	{
-		"from": "/docs/v6/postman/sending_api_requests/authorization",
-		"to": "/docs/sending-requests/authorization/"
-	},
-	{
 		"from": "/docs/writing-scripts/",
 		"to": "/docs/writing-scripts/intro-to-scripts/"
 	},
