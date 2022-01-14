@@ -77,7 +77,7 @@ You can create a collection-based monitor using a number of flows both in and ou
 
 ### Creating a monitor from Overview
 
-When you open a workspace in Postman, an **Overview** tab is automatically generated that includes details about the workspace and its latest activity. To create a monitor from the Overview tab, select **... View More** under **Get Started**, then **Create a monitor**.
+When you open a workspace in Postman, an **Overview** tab is automatically generated that includes details about the workspace and its latest activity. To create a monitor from the Overview tab, select **Monitors** under **In this workspace**, then **Create a monitor**.
 
 ### Creating a monitor from the sidebar
 
@@ -85,7 +85,7 @@ In Postman, select **Monitors** in the left sidebar. Click the **+** icon in the
 
 ### Creating a monitor via a collection
 
-In Postman, hover over your collection and select **...** > **Monitor Collection**.
+In Postman, hover over your collection and select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> **> Monitor Collection**.
 
 ### Creating a monitor from an API
 
@@ -97,7 +97,7 @@ In Postman, click **New** in the upper-left corner, then **Monitor**.
 
 ### Creating a monitor from history
 
-In Postman, select **History**, hover over your request, click **...** > **Monitor Request**.
+In Postman, select **History** and hover over your request. Select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px">  to view more actions, then select **Monitor Request**.
 
 ### Creating a monitor with the Postman API
 

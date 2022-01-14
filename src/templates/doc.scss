@@ -179,7 +179,7 @@ blockquote code.language-text {
   padding-left: 40px !important;
 
   @media (min-width:992px) {
-    margin-top: 136px;
+    margin-top: 119px;
     padding-right: 24px;
     padding-left: 0px !important;
   }
@@ -295,4 +295,9 @@ code[class*="language-"] {
     //   }
     // }
   }
+}
+
+.previous-next-links {
+  display: flex;
+  justify-content: space-between;
 }

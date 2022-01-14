@@ -10,18 +10,23 @@ import SEO from '../components/seo';
 import './doc.scss';
 import 'prismjs/themes/prism-tomorrow.css';
 import pose from '../assets/pose-learning-center.svg';
-
+import PreviousAndNextLinks from '../components/modules/PreviousAndNextLinks';
+import BreadCrumbsLinks  from '../components/modules/BreadCrumbsLinks';
 const { v4: uuidv4 } = require('uuid');
 
 const DocPage = ({ data }) => {
-  /* Returns last modified date */
+  /* Last modified date */
   const date = data.markdownRemark.fields.lastModifiedDate;
-  /* Returns single post */
+  /* Single post data */
   const post = data.markdownRemark;
   let contextualLinks;
   if (post.frontmatter.contextual_links) {
     contextualLinks = <ContextualLinks key={uuidv4()} links={post.frontmatter.contextual_links} />;
   }
+  /* Breadcrumbs (Top of page) */
+  const { parentLink, subParentLink } = data;
+  /* Previous and Next Links (Bottom of page) */
+  const { previous, next } = data;
   return (
     <Layout>
       <SEO title={post.frontmatter.title} slug={post.fields.slug} />
@@ -33,9 +38,13 @@ const DocPage = ({ data }) => {
           <div className="col">
             <div className="row row-eq-height">
               <main className="col-sm-12 col-md-12 col-lg-9 offset-lg-0 col-xl-7 doc-page ml-xl-5">
+                <BreadCrumbsLinks data={{parentLink, subParentLink}} />
                 <h1>{post.frontmatter.title}</h1>
                 <span dangerouslySetInnerHTML={{ __html: post.html }} />
-                <small className="font-italic">Last modified: {date}</small>
+                <p>
+                  <small className="font-italic">Last modified: {date}</small>
+                </p>
+                <PreviousAndNextLinks data={{ previous, next }}/>
               </main>
               <aside className="col-sm-12 col-md-12 col-lg-3 offset-lg-0 col-xl-3 offset-xl-1 right-column">
                 <hr className="d-block d-lg-none" />
