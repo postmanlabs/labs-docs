@@ -53,7 +53,7 @@ Make sure you're signed in to your Postman account, and that you have a collecti
 > Note: If the collection is present in a public workspace, you can directly embed the copied code where you would like the button to be displayed. If the collection is present in a team or a personal workspace, [share the collection to a public workspace](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#changing-workspace-visibility) to create the **Run in Postman** button.
 
 * In Postman, open the collection you want to share.
-* Next to the collection name, click **...** to expand the collection details and select **Share collection** to open a modal.
+* Next to the collection name, select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> to expand the collection details and select **Share collection** to open a modal.
 
 * Tab over to **Via Run in Postman**.
 * Choose a dynamic or static button:
