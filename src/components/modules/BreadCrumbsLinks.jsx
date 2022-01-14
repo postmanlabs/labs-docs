@@ -1,8 +1,8 @@
 import React from 'react';
 import { leftNavItems } from '../LeftNav/LeftNavItems';
 
-// Example: Home > Getting Started >
-// a list of links separated by > to aid in navigation
+// Example: Home / Getting Started /
+// a list of links separated by / to aid in navigation
 class BreadCrumbsLinks extends React.Component {
   constructor(props) {
     super(props);
@@ -42,18 +42,18 @@ class BreadCrumbsLinks extends React.Component {
     const { parentLink, subParentLink } = this.state;
     return (
       <div className="mb-5">
-        <a href="/">Home</a>
+        <a href="/">/</a>
         <span> &#62; </span>
         {JSON.stringify(subParentLink) !== '{}' ? (
           <>
           <a href={parentLink.url}>{parentLink.name}</a>
-          <span> &#62; </span>
+          <span> / </span>
             <a href={subParentLink.slug}>{subParentLink.name}</a>
           </>
         ) : (
             <>
           <a href={parentLink.url}>{parentLink.name}</a>
-          <span> &#62; </span>
+          <span> / </span>
         </>
         )}
       </div>
