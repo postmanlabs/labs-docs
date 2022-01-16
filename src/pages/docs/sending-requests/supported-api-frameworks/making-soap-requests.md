@@ -12,11 +12,6 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
-    name: "Public Workspace"
-  - type: link
-    name: "Public SOAP APIs"
-    url:  "https://www.postman.com/cs-demo/workspace/public-soap-apis/overview"    
-  - type: subtitle
     name: "Related Blog Posts"
   - type: link
     name: "Making HTTP SOAP Requests with Postman"
@@ -24,6 +19,11 @@ contextual_links:
   - type: link
     name: "SOAP: fahrenheit to celsius conversion"
     url: "https://www.postman.com/postman/workspace/postman-team-collections/collection/1559645-468bc02d-1eb5-40d6-bf98-b4e5c6574e41?ctx=documentation"
+  - type: subtitle
+    name: "Public Workspaces"
+  - type: link
+    name: "Public SOAP APIs"
+    url:  "https://www.postman.com/cs-demo/workspace/public-soap-apis/overview"
 
 warning: false
 
