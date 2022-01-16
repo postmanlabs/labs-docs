@@ -7,11 +7,6 @@ search_keyword: "workspace, create workspace, creating workspaces"
 updated: 2022-01-04
 contextual_links:
   - type: section
-    name: "Public Workspace"
-  - type: link
-    name: "30 days of Postman for developers"
-    url:  "https://www.postman.com/postman/workspace/30-days-of-postman-for-developers/overview"
-  - type: section
     name: "Next Steps"
   - type: link
     name: "Working with your team"

@@ -23,11 +23,6 @@ contextual_links:
     name: "Universal Search | Postman Level Up"
     url: "https://www.youtube.com/watch?v=1K6Pl6o_tj8"
   - type: subtitle
-    name: "Public Workspace"
-  - type: link
-    name: "30 days of Postman for developers"
-    url:  "https://www.postman.com/postman/workspace/30-days-of-postman-for-developers/overview"
-  - type: subtitle
     name: "Related Blog Posts"
   - type: link
     name: "Postman Now Recommends Related Collections in Requests"

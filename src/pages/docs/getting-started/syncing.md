@@ -15,11 +15,6 @@ contextual_links:
   - type: link
     name: "Backup and Sync your Postman Collections on GitHub"
     url: "https://blog.postman.com/backup-and-sync-your-postman-collections-on-github/"
-  - type: subtitle
-    name: "Public Workspace"
-  - type: link
-    name: "30 days of Postman for developers"
-    url:  "https://www.postman.com/postman/workspace/30-days-of-postman-for-developers/overview"
   - type: section
     name: "Next Steps"
   - type: link

@@ -16,11 +16,6 @@ contextual_links:
   - type: link
     name: "Public API Network | The Exploratory"
     url: "https://youtu.be/2LDR93X0WIc"
-  - type: subtitle
-    name: "Public Workspace"
-  - type: link
-    name: "30 days of Postman for developers"
-    url:  "https://www.postman.com/postman/workspace/30-days-of-postman-for-developers/overview"
   - type: section
     name: "Next Steps"
   - type: link

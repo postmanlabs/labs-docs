@@ -21,11 +21,6 @@ contextual_links:
     name: "Agent for the Postman Web Client | Postman Level Up"
     url:  "https://www.youtube.com/watch?v=6xlJUx2ZMy4&list=PLM-7VG-sgbtC5tNXxd28cmePSa9BYwqeU&index=3"
   - type: subtitle
-    name: "Public Workspace"
-  - type: link
-    name: "30 days of Postman for developers"
-    url:  "https://www.postman.com/postman/workspace/30-days-of-postman-for-developers/overview"
-  - type: subtitle
     name: "Related Blog Posts"
   - type: link
     name: "First 5 things to try if you're new to Postman"

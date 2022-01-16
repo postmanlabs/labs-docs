@@ -2,12 +2,6 @@
 title: "Troubleshooting app issues"
 order: 9
 page_id: "troubleshooting_in_app"
-contextual_links:
-  - type: section
-    name: "Public Workspace"
-  - type: link
-    name: "30 days of Postman for developers"
-    url:  "https://www.postman.com/postman/workspace/30-days-of-postman-for-developers/overview"
 warning: false
 ---
 

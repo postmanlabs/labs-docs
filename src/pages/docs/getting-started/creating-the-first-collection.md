@@ -16,10 +16,10 @@ contextual_links:
     name: "Intro to Postman Cloud"
     url: "https://www.youtube.com/watch?v=ccdxr0oJR-I"
   - type: subtitle
-    name: "Public Workspace"
+    name: "Public Workspaces"
   - type: link
     name: "30 days of Postman for developers"
-    url:  "https://www.postman.com/postman/workspace/30-days-of-postman-for-developers/overview"  
+    url:  "https://www.postman.com/postman/workspace/30-days-of-postman-for-developers/overview"
   - type: subtitle
     name: "Related Blog Posts"
   - type: link

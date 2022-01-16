@@ -27,7 +27,7 @@ contextual_links:
     name: "Postman Community Forum | Postman Level Up"
     url:  "https://youtu.be/Ks_4H58eCQc"
   - type: subtitle
-    name: "Public Workspace"
+    name: "Public Workspaces"
   - type: link
     name: "30 days of Postman for developers"
     url:  "https://www.postman.com/postman/workspace/30-days-of-postman-for-developers/overview"

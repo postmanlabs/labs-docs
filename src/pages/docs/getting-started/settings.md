@@ -24,11 +24,6 @@ contextual_links:
   - type: link
     name: "Dark Mode | Postman Level Up"
     url: "https://youtu.be/rZySZm9XaLM"
-  - type: subtitle
-    name: "Public Workspace"
-  - type: link
-    name: "30 days of Postman for developers"
-    url:  "https://www.postman.com/postman/workspace/30-days-of-postman-for-developers/overview"
   - type: section
     name: "Next Steps"
   - type: link
