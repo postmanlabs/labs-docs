@@ -17,7 +17,7 @@ contextual_links:
     name: "Monetary"
     url: "https://www.postman.com/case-studies/monetary/"
   - type: subtitle
-    name: "Public Workspace"
+    name: "Public Workspaces"
   - type: link
     name: "Postman API Monitoring Examples"
     url:  "https://www.postman.com/postman/workspace/e348c5a0-2965-44cc-87ed-7b316516f38d"

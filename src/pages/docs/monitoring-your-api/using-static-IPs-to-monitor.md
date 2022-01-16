@@ -10,11 +10,6 @@ contextual_links:
     name: "Intro to monitoring"
     url: "/docs/monitoring-your-api/intro-monitors/"
   - type: section
-    name: "Public Workspace"
-  - type: link
-    name: "Postman API Monitoring Examples"
-    url:  "https://www.postman.com/postman/workspace/e348c5a0-2965-44cc-87ed-7b316516f38d"  
-  - type: section
     name: "Next steps"
   - type: link
     name: "Integrations for monitoring"
