@@ -12,6 +12,11 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "GraphQL in Postman Demo"
+    url: "https://youtu.be/7pUbezVADQs"
+  - type: subtitle
     name: "Related Blog Posts"
   - type: link
     name: "Postman v7.2 Supports GraphQL"
@@ -20,12 +25,7 @@ contextual_links:
     name: "Working with GraphQL collection"
     url: "https://www.postman.com/postman/workspace/postman-team-collections/collection/1559645-c0dd3eb3-5258-4ddd-a6e4-2780c5212e33?ctx=documentation"
   - type: subtitle
-    name: "Video"
-  - type: link
-    name: "GraphQL in Postman Demo"
-    url: "https://youtu.be/7pUbezVADQs"
-  - type: subtitle
-    name: "Public Workspace"
+    name: "Public Workspaces"
   - type: link
     name: "Public GraphQL APIs"
     url: "https://www.postman.com/cs-demo/workspace/9e8c8a19-bb76-46af-9e8d-5747bf8fcce5"  
