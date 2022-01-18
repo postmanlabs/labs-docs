@@ -70,7 +70,7 @@ This example shows you how to integrate Postman with [Travis CI](https://travis-
         └── hello_world.postman_collection.json
     ```
 
-    > If your collection uses an environment, you should also [export the environment](/docs/sending-requests/managing-environments/) as a JSON file and move it to the `tests` folder as well.
+    > If your collection uses an environment, you should also [export the environment](/docs/sending-requests/managing-environments/) as a JSON file and move it to the `tests` folder.
 
 1. Create a new file named `.travis.yml` at the root of your project repository. You'll use this file to tell Travis CI the programming language for your project and how to  build it.
 
