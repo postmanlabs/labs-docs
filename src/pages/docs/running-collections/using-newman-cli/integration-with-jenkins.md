@@ -82,8 +82,7 @@ After you've created the collection, [export it as a JSON file](/docs/getting-st
 
 1. Run this build test manually by selecting **Build Now** in the sidebar.
 
-    ![run build](https://assets.postman.com/postman-docs/integrating_with_jenkins_build_now-2.jpg
-)
+    ![run build](https://assets.postman.com/postman-docs/integrating_with_jenkins_build_now-2.jpg)
 
    Jenkins indicates that the build has failed with a red cross next to the build in the build history. This is because of the intentionally failed tests in the collection.
 
