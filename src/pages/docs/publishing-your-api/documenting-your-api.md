@@ -52,9 +52,7 @@ warning: false
 
 Documentation is an important part of any collection or API. Good documentation helps the people who use your collection to understand what it does and how each request works. And comprehensive API documentation lets your consumers know what endpoints are available and how to successfully interact with them.
 
-Postman automatically generates basic documentation for any collection you create. Simply [view the documentation](/docs/publishing-your-api/viewing-documentation/) to see details for all of the requests in your collection. To make your documentation even more valuable to users, [add descriptions](/docs/publishing-your-api/authoring-your-documentation/) to the items in your collection.
-
-If you're designing an API in Postman, you can create a new collection to hold and organize your API documentation. Or you can link an existing collection to your API. By default your documentation is private, so only people you share the collection with will be able to see it. If you're creating a public API, you can [publish your documentation](/docs/publishing-your-api/publishing-your-docs/) to make it publicly available to anyone with a web browser.
+Once you're generated documentation for your collection or API, users can [view the documentation](/docs/publishing-your-api/viewing-documentation/) in Postman. By default your documentation is private, so only people you share a collection or API with will be able to see it. If you're creating a public API, you can [publish your documentation](/docs/publishing-your-api/publishing-your-docs/) to make it publicly available to anyone with a web browser.
 
 ## Contents
 
@@ -70,9 +68,9 @@ If you're designing an API in Postman, you can create a new collection to hold a
 
 ## Documenting a collection
 
-Documentation in Postman is always part of a collection. The documentation automatically includes details for each request in the collection, along with sample code in various client languages. Request details include the method, authorization type, URL, headers, request and response structures, and examples. In addition, the documentation displays all key-value pairs for request parameters, headers, and bodies.
+Postman automatically generates basic documentation for any collection you create. [View the documentation](/docs/publishing-your-api/viewing-documentation/) to see details for all of the requests in your collection, along with sample code in various client languages. Request details include the method, authorization type, URL, headers, request and response structures, and examples. In addition, the documentation displays all key-value pairs for request parameters, headers, and bodies.
 
-To help others better understand what you're building, add detailed descriptions to your collection. The descriptions are included in the documentation for your collection.
+To make your documentation even more valuable to users, [add descriptions](/docs/publishing-your-api/authoring-your-documentation/) to the items in your collection. Any descriptions you add are automatically included in the documentation for your collection.
 
 1. Select **Collections** in the sidebar, and then select a collection, folder, or request.
 1. Select **Documentation** <img alt="Documentation icon" src="https://assets.postman.com/postman-docs/documentation-icon-v8-10.jpg" width="16px" style="vertical-align:middle;margin-bottom:5px"> in the context bar.
@@ -85,9 +83,13 @@ To help others better understand what you're building, add detailed descriptions
 
 ## Generating API documentation
 
-Like all documentation in Postman, documentation for an API must be part of a collection. To document your API, generate a new collection based on your API schema, or link an existing collection to your API.
+The **Documentation** tab in the API builder provides one place to view, create, and manage all of your API's documentation. Postman automatically generates API documentation for OpenAPI 3.0 compliant schemas. For all APIs, you can add detailed descriptions to your documentation by generating a collection from your API or by linking an existing collection.
 
 > A collection can be linked to only one version of an API. If you [create a new version](/docs/designing-and-developing-your-api/versioning-an-api/) of your API, you'll also need to generate a new collection to hold that version's documentation. To learn more, see [Versioning your docs](#versioning-your-docs).
+
+### Generating documentation from an OpenAPI 3.0 schema
+
+tk
 
 ### Creating new documentation for an API
 
