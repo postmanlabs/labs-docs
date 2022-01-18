@@ -68,12 +68,12 @@ In the steps below, you will use the Postman app's proxy feature to inspect HTTP
 
 To begin, start the proxy inside Postman:
 
-1. Select the **Capture Requests** icon in the Postman footer.
+1. Select the **Capture requests and cookies** icon in the Postman footer.
 
-    <img src="https://assets.postman.com/postman-docs/proxy-capture-requests-button.jpg" alt="Capture requests button" width="300px"/>
-1. On the **Capture Requests** window, select the **Via Proxy** tab.
+    <img src="https://assets.postman.com/postman-docs/proxy-capture-requests-button-v9.8.jpg" alt="Capture requests button" width="450px"/>
+1. In the **Capture requests and cookies** window, select the **Via Proxy** tab.
     <img src="https://assets.postman.com/postman-docs/capture-via-proxy-tab.jpg" alt="Capture via proxy tab" width="300px"/>
-1. In the upper right, select **Enable Proxy**.
+1. In the upper right, select **Enable proxy**.
 1. Enter a port number. By default, it's set to port `5555`. Make a note of the port number you've used; you will use it later when configuring clients.
 1. Select **Enable Proxy**.
 
@@ -85,7 +85,7 @@ After the proxy is running, you can start a proxy debug session. This is a time-
 
 > You can only have a single proxy or interceptor debug session running at the same time.
 
-1. Go to the **Via Proxy** tab of the **Capture Requests** window.
+1. Go to the **Via Proxy** tab of the **Capture requests and cookies** window.
 
 1. Select **Save Responses for Requests** to save each request's responses. They will be saved along with the captured requests.
 
@@ -165,7 +165,7 @@ The bottom right corner shows the total time of the capture session, along with 
 
 When you're done with your debug session, select **Stop** in the lower right corner. This will finish the debug session, and results of the debug session will be saved in the **History** tab.
 
-After stopping the session, the proxy is still running. Select the **Capture Requests** icon in the Postman footer, and you can either start another debug session, or select **Disable proxy** to turn off the proxy.
+After stopping the session, the proxy is still running. Select the **Capture requests and cookies** icon in the Postman footer, and you can either start another debug session, or select **Disable proxy** to turn off the proxy.
 
 ### Step 6: View the proxy debug session results
 
