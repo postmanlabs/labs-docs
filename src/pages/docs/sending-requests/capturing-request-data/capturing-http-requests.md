@@ -72,7 +72,7 @@ To begin, start the proxy inside Postman:
 
     <img src="https://assets.postman.com/postman-docs/proxy-capture-requests-button-v9.8.jpg" alt="Capture requests button" width="450px"/>
 1. In the **Capture requests and cookies** window, select the **Via Proxy** tab.
-    <img src="https://assets.postman.com/postman-docs/capture-via-proxy-tab.jpg" alt="Capture via proxy tab" width="300px"/>
+    <img src="https://assets.postman.com/postman-docs/capture-via-proxy-tab-v9.8.jpg" alt="Capture via proxy tab" width="300px"/>
 1. In the upper right, select **Enable proxy**.
 1. Enter a port number. By default, it's set to port `5555`. Make a note of the port number you've used; you will use it later when configuring clients.
 1. Select **Enable Proxy**.
@@ -83,7 +83,7 @@ The proxy is now running, but it will not capture traffic until you start a prox
 
 After the proxy is running, you can start a proxy debug session. This is a time-bound session where captured traffic is saved in an entry in the **History** tab, and optionally into a collection. Once a proxy debug session is started, you can then pause, restart, or stop it. Before you start the session, you can select what traffic you want to go into it.
 
-> You can only have a single proxy or interceptor debug session running at the same time.
+> You can only have a single proxy or Interceptor debug session running at the same time.
 
 1. Go to the **Via Proxy** tab of the **Capture requests and cookies** window.
 
