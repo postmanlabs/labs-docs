@@ -50,14 +50,38 @@ class PreviousAndNextLinks extends React.Component {
       <div className="d-flex flex-row mt-3">
         {prevLink && (
           <div className="mr-auto">
-            <span className="font-weight-bold mr-3">&#171;</span>
-            <a href={prevLink.url}>{prevLink.name}</a>
+            <span
+            className="font-weight-bold mr-3"
+            aria-hidden="true"
+            >
+              &#171;
+            </span>
+            <a
+            className="prevDoc"
+            href={prevLink.url}
+            title={`Go to the previous page: ${prevLink.name}`}
+            aria-label={`Go to the previous page: ${prevLink.name}`}
+            >
+              {prevLink.name}
+            </a>
           </div>
         )}
         {nextLink && (
           <div className="ml-auto">
-              <a href={nextLink.url}>{nextLink.name}</a>
-              <span className="font-weight-bold ml-3">&#187;</span>
+            <a
+            className="nextDoc"
+            href={nextLink.url}
+            title={`Go to the next page: ${nextLink.name}`}
+            aria-label={`Go to the next page: ${nextLink.name}`}
+            >
+              {nextLink.name}
+            </a>
+            <span
+            className="font-weight-bold ml-3"
+            aria-hidden="true"
+            >
+              &#187;
+            </span>
           </div>
         )}
         </div>
