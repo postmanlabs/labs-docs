@@ -13,7 +13,7 @@ contextual_links:
   - type: subtitle
     name: "Public Workspaces"
   - type: link
-    name: "Fakerjs example"
+    name: "Faker.js example"
     url: "https://www.postman.com/devrel/workspace/fakerjs-example/overview"
 warning: false
 
