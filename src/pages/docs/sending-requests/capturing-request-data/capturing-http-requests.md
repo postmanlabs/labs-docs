@@ -71,8 +71,11 @@ To begin, start the proxy inside Postman:
 1. Select the **Capture requests and cookies** icon in the Postman footer.
 
     <img src="https://assets.postman.com/postman-docs/proxy-capture-requests-button-v9.8.3.jpg" alt="Capture requests button" width="300px"/>
+
 1. In the **Capture requests and cookies** window, select the **Via Proxy** tab.
+
     <img src="https://assets.postman.com/postman-docs/capture-via-proxy-tab-v9.8.jpg" alt="Capture via proxy tab" width="300px"/>
+    
 1. In the upper right, select **Enable proxy**.
 1. Enter a port number. By default, it's set to port `5555`. Make a note of the port number you've used; you will use it later when configuring clients.
 1. Select **Enable Proxy**.
