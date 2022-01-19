@@ -32,7 +32,7 @@ warning: false
 
 ---
 
-If you are using APIs to build client-side applications like mobile apps, websites, or desktop applications, you may want to see the actual HTTP and HTTPS request traffic that's being sent and received in the application. Sometimes you might discover APIs that aren't even documented. You can capture network traffic, request responses, and cookies using the proxy that's built into the Postman app.
+If you are using APIs to build client-side applications like mobile apps, websites, or desktop applications, you may want to see the actual HTTP and HTTPS request traffic that's being sent and received in the application. Sometimes you might discover APIs that aren't even documented. You can capture network traffic, including requests, responses, and cookies, using the proxy that's built into the Postman app.
 
 ## Contents
 
