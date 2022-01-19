@@ -58,6 +58,7 @@ Once you're generated documentation for your collection or API, users can [view 
 
 * [Documenting a collection](#documenting-a-collection)
 * [Generating API documentation](#generating-api-documentation)
+    * [Viewing schema documentation](#viewing-schema-documentation)
     * [Creating new documentation for an API](#creating-new-documentation-for-an-api)
     * [Adding existing documentation to an API](#adding-existing-documentation-to-an-api)
     * [Editing API documentation](#editing-api-documentation)
@@ -87,38 +88,50 @@ The **Documentation** tab in the API builder provides one place to view, create,
 
 > A collection can be linked to only one version of an API. If you [create a new version](/docs/designing-and-developing-your-api/versioning-an-api/) of your API, you'll also need to generate a new collection to hold that version's documentation. To learn more, see [Versioning your docs](#versioning-your-docs).
 
-### Generating documentation from an OpenAPI 3.0 schema
+### Viewing schema documentation
 
-tk
+If you are [designing an API](/docs/designing-and-developing-your-api/defining-an-api/) based on the OpenAPI 3.0 specification, Postman automatically creates documentation for your API based on your schema definition. The documentation includes paths, path variables and query parameters, response bodies and headers, and examples.
+
+To view the documentation for an OpenAPI 3.0 schema:
+
+1. Open your API by selecting **APIs** in the left sidebar, and then selecting an API and a version.
+1. Select the **Documentation** tab.
+1. Select a node under **Schema Documentation** (in the pane at left) to view a specific path or request.
+
+SCREENSHOT - SCHEMA DOCS
+
+> Postman alerts you if your API schema contains unsaved changes that are not reflected in the documentation. To synchronize the API documentation with the latest schema changes, select the **Definition** tab and save your schema.
+
+SCREENSHOT - UNSAVED WARNING
 
 ### Creating new documentation for an API
 
 To generate a new collection for API documentation:
 
 1. Open your API by selecting **APIs** in the left sidebar, and then selecting an API and a version.
-1. Select the **Documentation** tab.
-1. Select **Create new documentation**.
+1. Select the **Overview** tab.
+1. Select the **+** next to **Documentation**, and then select **Create new documentation**.
 1. Enter a name for the new collection. (Make it something you'll easily associate with this version of your API.)
 1. (Optional) Select **Show advanced settings** and change any settings as needed. See the description for each setting to learn more.
 1. Select **Create Documentation**. The new API documentation is displayed on the **Documentation** tab.
 
 <img alt="Generating new API documentation" src="https://assets.postman.com/postman-docs/documentation-generate-api-docs-v9.jpg" width="702px">
 
-> You can generate additional documentation collections from the **Documentation** tab. Select the **Collection** dropdown list, and then select **Create new documentation**.
+> You can generate additional documentation collections from the **Documentation** tab. Select the **+** next to **Collections** (in the pane at left), and then select **Create Documentation**.
 
 ### Adding existing documentation to an API
 
 To use an existing collection for API documentation:
 
 1. Open your API by selecting **APIs** in the left sidebar, and then selecting an API and a version.
-1. Select the **Documentation** tab.
-1. Select **Add existing documentation**.
+1. Select the **Overview** tab.
+1. Select the **+** next to **Documentation**, and then select **Add existing documentation**.
 1. Select the collection you want to use for API documentation.
 1. Select **Add Documentation**. The API documentation is displayed on the **Documentation** tab.
 
 <img alt="Adding existing API documentation" src="https://assets.postman.com/postman-docs/documentation-add-api-docs-v9.jpg" width="402px">
 
-> You can add additional documentation collections from the **Documentation** tab. Select the **Collection** dropdown list, and then select **Add existing documentation**.
+> You can add additional documentation collections from the **Documentation** tab. Select the **+** next to **Collections** (in the pane at left), and then select **Add Existing Documentation**.
 
 ### Editing API documentation
 
