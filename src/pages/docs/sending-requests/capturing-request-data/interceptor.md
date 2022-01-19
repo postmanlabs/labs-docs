@@ -45,7 +45,7 @@ Once Interceptor is running in Chrome, you can start a debug session, which is a
     * [Adding a custom encryption key in the UI](#adding-a-custom-encryption-key-in-the-ui)
     * [Adding a custom encryption key with the pm API](#adding-a-custom-encryption-key-with-the-pm-api)
 * [Updating Interceptor](#updating-interceptor)
-* [Using Interceptor with Postman's Chrome app (deprecated)](#using-the-interceptor-with-postmans-chrome-app-deprecated)
+* [Using Interceptor with Postman's Chrome app](#using-the-interceptor-with-postmans-chrome-app)
 
 ## Installing Interceptor
 
@@ -271,7 +271,7 @@ To update Interceptor:
 
 3. Select **Update** on the top left to update your extensions.
 
-## Using the Interceptor with Postman's Chrome app (deprecated)
+## Using the Interceptor with Postman's Chrome app
 
 > Postman's Chrome app is deprecated and no longer offers feature parity with Postman native. It is highly recommended that you switch to [Postman native](https://www.postman.com/downloads/).
 
