@@ -73,7 +73,7 @@ After Interceptor is connected, you can then start an Interceptor debug session,
 
 > You can only have a single proxy or interceptor debug session running at the same time.
 
-1. Go to the **Via Incerceptor** tab of the **Capture requests and cookies** window.
+1. Go to the **Via Interceptor** tab of the **Capture requests and cookies** window.
 
 1. Select **Capture Cookies** if you want to capture cookies in addition to requests during the debug session.
 
