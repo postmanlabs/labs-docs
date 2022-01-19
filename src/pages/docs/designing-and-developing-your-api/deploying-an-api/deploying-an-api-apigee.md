@@ -1,6 +1,6 @@
 ---
-title: 'Deploying an API'
-page_id: 'deploying_an_api'
+title: 'Deploying to an Apigee API gateway'
+page_id: 'deploying_an_api_apigee'
 updated: 2022-01-31
 search_keyword: "deploy, aws, api gateway"
 warning: false

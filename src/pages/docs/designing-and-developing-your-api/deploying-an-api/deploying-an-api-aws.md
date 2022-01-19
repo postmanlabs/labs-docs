@@ -1,6 +1,6 @@
 ---
-title: 'Deploying an API'
-page_id: 'deploying_an_api'
+title: 'Deploying to an Amazon API Gateway'
+page_id: 'deploying_an_api_aws'
 updated: 2022-01-31
 search_keyword: "deploy, aws, api gateway"
 warning: false
