@@ -55,7 +55,7 @@ To get started, install Postman Interceptor:
 
 1. In the Postman app, select the **Capture requests and cookies** icon in the Postman footer.
 
-    <img src="https://assets.postman.com/postman-docs/proxy-capture-requests-button-v9.8.jpg" alt="Capture requests button" width="450px"/>
+    <img src="https://assets.postman.com/postman-docs/proxy-capture-requests-button-v9.8.3.jpg" alt="Capture requests button" width="300px"/>
 
 1. On the **Capture requests and cookies** window, select the **Via Interceptor** tab.
 
