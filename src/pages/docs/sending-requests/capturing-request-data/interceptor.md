@@ -59,7 +59,7 @@ To get started, install Postman Interceptor:
 
 1. On the **Capture requests and cookies** window, select the **Via Interceptor** tab.
 
-    <img src="https://assets.postman.com/postman-docs/capture-via-interceptor-tab-v9.8.jpg" alt="Capture via Interceptor tab" width="300px"/>
+    <img src="https://assets.postman.com/postman-docs/capture-via-interceptor-tab-v9.8.3.jpg" alt="Capture via Interceptor tab" width="300px"/>
 
 1. Select **Install Interceptor Bridge** to download the Bridge, an independent executable that facilitates communication with the Interceptor.
 
