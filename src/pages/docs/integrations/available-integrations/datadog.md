@@ -3,6 +3,7 @@ title: "Datadog"
 order: 166
 page_id: "datadog"
 warning: false
+updated: 2022-01-20
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -25,13 +26,11 @@ Setting up a Datadog integration requires you to get an API key from Datadog and
 
 ## Retrieving your Datadog API Key
 
-1. Log in to [Datadog](https://app.datadoghq.com/) and select **Integrations** in the header toolbar.
+1. Log in to [Datadog](https://app.datadoghq.com/). Navigate to your Organization Settings page and select [API Keys](https://app.datadoghq.com/organization-settings/api-keys).
 
-1. An `API Key` is created for you automatically under the **APIs** tab. If you want, you can also create a key by specifying a name for it.
+1. Select **+ New Key**. Create a name for the new API key, then select **New Key**.
 
-1. Save the API Key to use later.
-
-    ![get datadog integrations API key](https://assets.postman.com/postman-docs/datadog-get-api-key-bb.jpg)
+1. Copy the new API key so you can use it later. 
 
 ## Configuring Postman Monitors
 
