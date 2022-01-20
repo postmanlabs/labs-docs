@@ -40,9 +40,11 @@ Create a new uptime monitor to track the availability of a single API endpoint, 
     * **Notification recipients:** Add up to five members of your team to be notified when downtime occurs.
     * **Run frequency:** Select how often the monitor checks the availability of the URL, up to every minute (paid plans) or every five minutes (free plans).
     * **Regions:** Select one or more regions to run the monitor from (paid plans only). If downtime occurs in any selected region, a notification is sent. (For free plans, the region is automatically selected.)
-    * **Follow redirects:** Select this option to allow the monitor to follow redirects when calling the URL.
+    * **Follow redirects:** Select this option to exclude redirects from being classified as service downtime.
 
 1. Select **Create Uptime Monitor**.
+
+<img alt="Creating an uptime monitor" src="https://assets.postman.com/postman-docs/monitors-uptime-create-v9-9.jpg" width="491px"/>
 
 ### Managing downtime notifications
 
@@ -54,9 +56,13 @@ You can also set up an integration to receive [downtime notifications in Slack](
 
 To view results for an uptime monitor, select **Monitors** in the left sidebar, and then select a monitor to view its dashboard. Use the dashboard to quickly check if an API endpoint is currently up or down, for how long, and the number of regions where it's failing.
 
-You can also view key statistics for the selected time period, such as the percentage of time the endpoint has been available, the number of downtime incidents, and the average  in milliseconds. To change the time period displayed, select a different time period in the menu at the upper right.
+You can also view key statistics for the selected time period, such as the percentage of time the endpoint has been available, the number of downtime incidents, and the average  in milliseconds.
 
-> **Want to share an uptime monitor with others?** Hover over the monitor name at the top of the dashboard and select the link icon to copy a link to the monitor. To view or edit the monitor, the person you share the link with must have the appropriate access to the workspace where the monitor is located. Learn more about [defining roles](/docs/collaborating-in-postman/roles-and-permissions/).
+To change the time period displayed, select a different time period in the menu at the upper right.
+
+<img alt="Uptime monitor graph" src="https://assets.postman.com/postman-docs/monitors-uptime-graph-v9-9.jpg" width="953px"/>
+
+> **Want to share an uptime monitor with others?** Hover over the monitor name at the top of the dashboard and select the link icon <img alt="Changelog icon" src="https://assets.postman.com/postman-docs/icon-workspace-link-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> to copy a link to the monitor. To view or edit the monitor, the person you share the link with must have the appropriate access to the workspace where the monitor is located. Learn more about [defining roles](/docs/collaborating-in-postman/roles-and-permissions/).
 
 ### Viewing the uptime graph
 
@@ -69,19 +75,17 @@ The **Uptime** graph shows that status of the monitored endpoint URL during the 
 
 * **Unknown:** (Gray) Postman cannot determine the status of the URL because the monitor is paused or for some other unexpected reason.
 
-Select the globe icon to view data for each region separately, or select the binoculars icon to view a summary for all regions.
+Select the binoculars icon <img alt="Binoculars icon" src="https://assets.postman.com/postman-docs/icon-uptime-binoculars.jpg" width="16px" style="vertical-align:middle;margin-bottom:5px"> to view a summary for all regions, or select the globe icon <img alt="Globe icon" src="https://assets.postman.com/postman-docs/icon-uptime-globe.jpg" width="16px" style="vertical-align:middle;margin-bottom:5px"> to view data for each region separately.
 
 ### Viewing downtime incidents
 
-All detected outages are listed under **Downtime incidents**. For each incident, the list displays the start time, duration, error code, affected regions, and average response time in milliseconds.
+All detected outages are listed under **Downtime incidents**. For each incident, the list displays the start time, duration, error code, and affected regions.
 
 ### Working with uptime monitors
 
 From the monitor dashboard, you can take the following actions:
 
 * **Pause an uptime monitor.** While paused, the monitor no longer makes calls to the specified URL. To pause a monitor, select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> at the upper right and select **Pause**. To resume the monitor, select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> again and select **Resume**.
-
-* **Run an uptime monitor.** An uptime monitor runs automatically at set intervals, determined by the run frequency you select when configuring the monitor. To run an uptime monitor manually at any time, select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> at the upper right and select **Run**.
 
 * **Edit an uptime monitor.** Edit an existing uptime monitor to update the name, URL, or any other configuration options. Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> at the upper right and select **Edit**. Change any configuration options, and then select **Update Monitor**.
 
