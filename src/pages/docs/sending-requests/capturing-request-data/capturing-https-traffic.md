@@ -41,8 +41,8 @@ You must install the `postman-proxy-ca.crt` certificate on your device to be abl
 ## Contents
 
 * [Windows](#windows)
-    * [Installing OpenSSL on Windows](#Installing OpenSSL on Windows)
-    * [Installing the security certificate on Windows](#Installing the security certificate on Windows)
+    * [Installing OpenSSL on Windows](#installing-openssl-on-windows)
+    * [Installing the security certificate on Windows](#installing-the-security-certificate-on-windows)
 * [macOS](#macos)
 * [CentOS and Red Hat Enterprise Linux](#centos-and-red-hat-enterprise-linux)
 * [Ubuntu](#Ubuntu)
