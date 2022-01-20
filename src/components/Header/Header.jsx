@@ -294,9 +294,8 @@ class Header extends React.Component {
           </button>
           <div
             id="navbarSupportedContent"
-            className={`collapse navbar-collapse${
-              !visibleHelloBar ? ' noBar' : ''
-            }`}
+            className={`collapse navbar-collapse${!visibleHelloBar ? ' noBar' : ''
+              }`}
           >
             <ul className="navbar-nav mr-auto">
               <li className="nav-item dropdown">
@@ -618,7 +617,9 @@ class Header extends React.Component {
                 id="icon-wrap-two"
                 aria-expanded="false"
               >
-                <i id="navbar-chevron-icons" className="pm-icon-chevron-down" aria-expanded="false"/>
+                <svg id="navbar-chevron-icons" width="20" height="11" viewBox="0 0 20 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M1 1L10 10L19 1" stroke="#6B6B6B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
               </div>
             </span>
           </button>

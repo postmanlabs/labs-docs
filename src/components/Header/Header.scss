@@ -594,22 +594,18 @@ a.button__sign-in {
 }
 #navbar-chevron-icons{
   color: #6B6B6B;
-  &:before {
     -webkit-transform: rotate(0deg);
     -ms-transform: rotate(0deg);
     transform: rotate(0deg);
     -webkit-transition: 0.3s ease-in;
     -o-transition: 0.3s ease-in;
     transition: 0.3s ease-in;
-  }
     &.open {
-      &:before {
-        -webkit-transform: rotate(180deg);
-        -ms-transform: rotate(180deg);
-        transform: rotate(180deg);
-        -webkit-transition: 0.3s ease-in;
-        -o-transition: 0.3s ease-in;
-        transition: 0.3s ease-in;
-    }
+      -webkit-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+      transform: rotate(180deg);
+      -webkit-transition: 0.3s ease-in;
+      -o-transition: 0.3s ease-in;
+      transition: 0.3s ease-in;
   }
 }
