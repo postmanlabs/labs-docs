@@ -236,7 +236,6 @@ class Header extends React.Component {
       .getElementById('secondaryNav')
       .getAttribute('aria-expanded');
     const toggleChevron = document.getElementById('navbar-chevron-icons');
-    console.log(toggleChevron)
     if (togglerSecondary === 'true') {
       toggleChevron.classList.add('open');
     }
