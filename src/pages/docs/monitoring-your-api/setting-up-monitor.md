@@ -33,8 +33,8 @@ Create a new collection-based monitor to continuously check your API's health, r
 
 ## Contents
 
-* [Creating a monitor](#creating-a-monitor)
-* [Configuring a monitor](#configuring-a-monitor)
+* [Creating a collection-based monitor](#creating-a-collection-based-monitor)
+* [Configuring a collection-based monitor](#configuring-a-collection-based-monitor)
     * [Scheduling monitors](#scheduling-monitors)
     * [Adding regions](#adding-regions)
     * [Using static IPs](#using-static-ips)
@@ -65,7 +65,7 @@ See the following sections for additional configuration options you can select f
 
 ![Create monitor page](https://assets.postman.com/postman-docs/create-a-monitor-tab-1-v9.jpg)
 
-> Postman maintains limits on various team and user actions, including monitor creation. For more information, see [Usage limits](/docs/monitoring-your-api/monitor-usage/#monitor-activity-limits).
+> Postman maintains limits on various team and user actions, including monitor creation. For more information, see [Monitor activity limits](/docs/monitoring-your-api/monitor-usage/#monitor-activity-limits).
 
 ### Scheduling monitors
 
@@ -117,7 +117,7 @@ Select **Follow redirects** to allow URL redirection for requests run by the mon
 
 ### Disabling SSL validation
 
-The **Enable SSL validation** option is selected by default. You can disable SSL validation if you are using self-signed certificates and want to stop validations of SSL certificates. For more information, see [Certificates](/docs/sending-requests/certificates/) and [Troubleshooting Self-signed SSL Certificate Issues](https://blog.postman.com/self-signed-ssl-certificate-troubleshooting/).
+The **Enable SSL validation** option is selected by default. You can disable SSL validation if you are using self-signed certificates and want to stop validations of SSL certificates. For more information, see [Working with certificates](/docs/sending-requests/certificates/) and [How to Troubleshoot SSL Certificate & Server Connection Issues](https://blog.postman.com/self-signed-ssl-certificate-troubleshooting/).
 
 ## Working with collection-based monitors
 
@@ -137,6 +137,6 @@ To work with a monitor, select **Monitors** in the left sidebar and then select 
 
 ## Next steps
 
-[View the results of your monitors](/docs/monitoring-your-api/viewing-monitor-results/) to see detailed information about monitor runs.
+[View the results of your collection-based monitors](/docs/monitoring-your-api/viewing-monitor-results/) to see detailed information about monitor runs.
 
 Learn how to set up [integrations](/docs/integrations/intro-integrations/) to send monitor data and notifications to other platforms, such as [Slack](/docs/integrations/available-integrations/slack/) or [Datadog](/docs/integrations/available-integrations/datadog/).

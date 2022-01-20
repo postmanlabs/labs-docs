@@ -36,7 +36,7 @@ contextual_links:
 warning: false
 ---
 
-Postman Monitors provide a way to automatically run test scripts and perform other tests at regular intervals. When you [set up a collection-based monitor](/docs/monitoring-your-api/setting-up-monitor/), you choose a collection with the requests and tests scripts you want to run, and you specify how frequently Postman should run the collection. You'll be notified if a test fails, and all results are recorded on the [monitor's dashboard](/docs/monitoring-your-api/viewing-monitor-results/).
+Postman Monitors provide a way to automatically run test scripts and perform other tests at regular intervals. When you [set up a collection-based monitor](/docs/monitoring-your-api/setting-up-monitor/), you choose a collection with the requests and test scripts you want to run, and you specify how frequently Postman should run the collection. You'll be notified if a test fails, and all results are recorded on the [monitor's dashboard](/docs/monitoring-your-api/viewing-monitor-results/).
 
 Below are some ways you can use collection-based monitors to test your APIs and ensure they're functioning correctly.
 
@@ -44,7 +44,7 @@ Below are some ways you can use collection-based monitors to test your APIs and 
 
 ## Monitoring an API endpoint
 
-To monitor a specific endpoint, create a collection with different variants of the same endpoint in different requests. The idea here is to test responses for each variant, so as to cover the endpoint completely. Review a complete [reference of testing various aspects of a request](/docs/writing-scripts/test-scripts/).
+To monitor a specific endpoint, create a collection with different variants of the same endpoint in different requests. The idea here is to test responses for each variant, so as to cover the endpoint completely. To learn more about testing requests, see [Writing tests](/docs/writing-scripts/test-scripts/).
 
 ## Monitoring an entire API
 

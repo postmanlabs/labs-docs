@@ -58,7 +58,7 @@ Once the monitor is running you’ll get alerted to any system outages or test f
 
 Uptime monitors (open beta) make it easier than ever to track the availability of an API or website. There’s no need to set up collections, test scripts, or environments. Simply enter the URL you want to monitor (HTTP or HTTPS only) and select the team members to be notified of outages.
 
-The uptime monitor continuously checks the availability of the URL, as often as every minute (paid plans) or every five minutes (free plans). You define how quickly you want to be notified of any downtime. As soon as downtime is detected, the selected team members will get alerted by email. You can also set up an integration to be [notified over Slack](/docs/integrations/available-integrations/slack/), or create a [custom webhook](/docs/integrations/webhooks/) to send downtime data to another application.
+The uptime monitor continuously checks the availability of the URL, as often as every minute (paid plans) or every five minutes (free plans). As soon as downtime is detected, the selected team members will get alerted by email. You can also set up an integration to be [notified over Slack](/docs/integrations/available-integrations/slack/), or create a [custom webhook](/docs/integrations/webhooks/) to send downtime data to another application.
 
 Uptime monitors ensure the availability of your API or service around the clock and help you detect system outage issues more quickly. Uptime statistics are recorded on the monitor’s dashboard in real time, so you can always see the status of your API at a glance, view past trends, or pause the monitor as needed.
 

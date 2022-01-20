@@ -19,7 +19,7 @@ contextual_links:
 warning: false
 ---
 
-Postman allows you to track the health and performance of your APIs. With Postman, you can stay up to date on what's happening across all collection-based monitors in your workspace and dive into individual monitors to examine test results and performance over time.
+[Collection-based monitors](/docs/monitoring-your-api/setting-up-monitor/) continuously track the health and performance of your APIs. With Postman, you can stay up to date on what's happening across all collection-based monitors in your workspace, or dive into individual monitors to examine test results and performance over time.
 
 ## Contents
 

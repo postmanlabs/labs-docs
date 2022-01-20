@@ -47,7 +47,7 @@ The provided static IP addresses are fixed to their specified region and shared 
 
 ### How do I troubleshoot problems?
 
-You can view the full console output for every monitor run, including any errors. You can also use methods, such as `console.log()`, `console.warn()`, and so on to output your own debugging information. To learn more, see [Troubleshooting monitors](/docs/monitoring-your-api/troubleshooting-monitors/).
+You can view the full console output for every monitor run, including any errors. You can also use methods such as `console.log()` and `console.warn()` to output your own debugging information. To learn more, see [Troubleshooting monitors](/docs/monitoring-your-api/troubleshooting-monitors/).
 
 ## Security
 

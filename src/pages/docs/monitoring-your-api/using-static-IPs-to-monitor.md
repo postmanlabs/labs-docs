@@ -42,13 +42,13 @@ Static IP addresses are available for US East and US West regions. Contact your 
 
 ## Creating a new monitor to run from a static IP address
 
-When [creating a new monitor](/docs/monitoring-your-api/setting-up-monitor/#creating-a-monitor), choose the **Manually select region** option. Select your desired static IP regions, and then select **Create**.
+When [creating a new collection-based monitor](/docs/monitoring-your-api/setting-up-monitor/#creating-a-monitor), choose the **Manually select region** option. Select your desired static IP regions, and then select **Create**.
 
 <img src="https://assets.postman.com/postman-docs/monitor-manually-select-region.jpg" width="272px" alt="Manually select regions"/>
 
 ## Changing an existing monitor to run from a static IP address
 
-Select **Monitors** from the left sidebar, and then select a monitor. Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> at the upper right, and then select **Edit**.
+Select **Monitors** from the left sidebar, and then select a collection-based monitor. Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> at the upper right, and then select **Edit**.
 
 <img src="https://assets.postman.com/postman-docs/select-edit-monitor.jpg" width="293px" alt="Edit monitor"/>
 
