@@ -221,7 +221,7 @@ class Header extends React.Component {
       // Flip down dropdown icon
       icon1.classList.remove('open');
     }
-    const icon2 = document.getElementById('icon-wrap-two');
+    const icon2 = document.getElementById('navbar-chevron-icons');
     const togglerSecondary = document
       .getElementById('secondaryNav')
       .getAttribute('aria-expanded');
@@ -235,22 +235,23 @@ class Header extends React.Component {
     const togglerSecondary = document
       .getElementById('secondaryNav')
       .getAttribute('aria-expanded');
-    const icon2 = document.getElementById('icon-wrap-two');
+    const toggleChevron = document.getElementById('navbar-chevron-icons');
+    console.log(toggleChevron)
     if (togglerSecondary === 'true') {
-      icon2.classList.add('open');
+      toggleChevron.classList.add('open');
     }
   }
 
   hideTargetElementLC = () => {
-    const icon2 = document.getElementById('icon-wrap-two');
+    const toggleChevron = document.getElementById('navbar-chevron-icons');
     const togglerSecondary = document
       .getElementById('secondaryNav')
       .getAttribute('aria-expanded');
     if (togglerSecondary === 'false') {
-      icon2.classList.remove('open');
+      toggleChevron.classList.remove('open');
     }
   }
-  /* eslint-enabe class-methods-use-this */
+  /* eslint-enable class-methods-use-this */
 
   render() {
     const {
@@ -616,13 +617,9 @@ class Header extends React.Component {
             <span className="navbar-toggler-icon">
               <div
                 id="icon-wrap-two"
-                className="icon-bar"
                 aria-expanded="false"
               >
-                <span />
-                <span />
-                <span />
-                <span />
+                <i id="navbar-chevron-icons" className="pm-icon-chevron-down" aria-expanded="false"/>
               </div>
             </span>
           </button>
