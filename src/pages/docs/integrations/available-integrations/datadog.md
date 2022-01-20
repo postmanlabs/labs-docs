@@ -72,7 +72,7 @@ Once the data is present in Datadog, you can filter it based on the monitor name
 
 ## Forwarding metrics
 
-Postman can forward a wide array of metrics for the specified monitors to Datadog.
+Postman can forward a wide array of metrics for the specified monitors to Datadog. This table contains the name, type, and level of the metrics, as well as a description of the metric. For more information on Datadog metric collection, see the [Datadog documentation](https://docs.datadoghq.com/metrics/).
 
 | **Metrics Name**          |       **Type**         | **Description**         | **Level**         |
 | ------------- | ------------- | ------------- | ------------- |
