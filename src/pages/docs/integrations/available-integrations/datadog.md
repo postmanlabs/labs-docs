@@ -43,7 +43,7 @@ Setting up a Datadog integration requires you to get an API key from Datadog and
 1. Select **Add Integration** to start the configuration process.
 
     [![datadog integrations page](https://assets.postman.com/postman-docs/datadog-details.jpg)](https://assets.postman.com/postman-docs/datadog-details.jpg)
-    
+
 1. To send your monitor metrics and events to Datadog:
 
    * Name your new integration.
