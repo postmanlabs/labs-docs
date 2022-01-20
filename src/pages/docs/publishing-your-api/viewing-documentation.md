@@ -40,7 +40,7 @@ warning: false
 
 Documentation helps you get more out of the collections and APIs that you work with in Postman. View documentation to learn more about the requests in a collection or how to interact with an API's endpoints.
 
-By default, [documentation for a collection](/docs/publishing-your-api/documenting-your-api/) is private. You can view the documentation for any collections that have been shared with you directly or through a team workspace.
+By default, [documentation for a collection or API](/docs/publishing-your-api/documenting-your-api/) is private. You can view the documentation for any collections or APIs that have been shared with you directly or through a team workspace.
 
 Documentation authors can also choose to [publish their documentation](/docs/publishing-your-api/publishing-your-docs/) to make it publicly available. Anyone in the world can view the public documentation using a web browser. If the associated collection is in a public workspace, people can also view the collection in Postman.
 
@@ -54,13 +54,13 @@ Documentation authors can also choose to [publish their documentation](/docs/pub
 
 ## Viewing documentation for a collection
 
-In Postman, documentation is always associated with a collection. You can view the documentation for any collection that you created or for collections that have been [shared with you](/docs/collaborating-in-postman/sharing/).
+You can view the documentation for any collection that you created or for collections that have been [shared with you](/docs/collaborating-in-postman/sharing/).
 
 > Postman teammates with the Viewer role can view documentation, while teammates with the Editor role can also create and update documentation. Learn more about [roles and permissions](/docs/collaborating-in-postman/roles-and-permissions/).
 
 To view documentation for a collection:
 
-1. Select **Collections** in the sidebar, and then select a collection, folder, or request.
+1. Select **Collections** in the left sidebar, and then select a collection, folder, or request.
 
     > You can also search for collections on the [Public API Network](https://www.postman.com/explore/collections).
 
@@ -83,19 +83,21 @@ Use the following options to customize the appearance of the documentation:
 
 ## Viewing API documentation
 
-API developers can [generate API documentation](/docs/publishing-your-api/documenting-your-api/#generating-api-documentation) to help consumers understand and interact with their API's endpoints. To make documentation available on the API's **Documentation** tab, you must either [create a new collection](/docs/publishing-your-api/documenting-your-api/#creating-new-documentation-for-an-api) for the API documentation or [add an existing collection](/docs/publishing-your-api/documenting-your-api/#adding-existing-documentation-to-an-api).
+Postman automatically generates API docs for any OpenAPI 3.0 compliant schema [defined in the API Builder](/docs/designing-and-developing-your-api/defining-an-api/). API developers can also [create detailed documentation](/docs/publishing-your-api/documenting-your-api/#generating-api-documentation) for any API to help consumers understand and interact with their API's endpoints.
 
 To view documentation for an API:
 
-1. Select **APIs** in the sidebar, and then select an API and a version.
+1. Select **APIs** in the left sidebar, and then select an API and a version.
 
     > You can also search for APIs on the [Private API Network](https://go.postman.co/network/private) or the [Public API Network](https://www.postman.com/explore/apis).
 
 1. Select the **Documentation** tab.
+1. Select a documentation source in the pane at left:
 
-Use the navigation menu on the right to jump to a particular endpoint. To see sample code in a different language, select it in the **Language** menu.
+    * **Schema Documentation:** Select an API, and then select an item to view a specific path or request. (Schema documentation is only available for OpenAPI 3.0 schemas.)
+    * **Collections:** Select a linked collection, and then select an item to view a specific path or request. To see sample code in a different language, select it in the **Language** menu.
 
-[![Viewing a release](https://assets.postman.com/postman-docs/documentation-view-api-docs-v9.jpg)](https://assets.postman.com/postman-docs/documentation-view-api-docs-v9.jpg)
+<img alt="Viewing API documentation" src="https://assets.postman.com/postman-docs/documentation-view-schema-docs-v9-9.jpg" width="952px">
 
 ## Viewing public documentation
 
