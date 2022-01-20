@@ -2,7 +2,7 @@
 title: "Using Postman Interceptor"
 order: 34
 page_id: "interceptor"
-updated: 2022-01-05
+updated: 2022-01-20
 search_keyword: "pm.interceptorInstaller.reset, interceptorInstaller.reset, pm.interceptorBridge.setKey, interceptorBridge.setKey"
 contextual_links:
   - type: section

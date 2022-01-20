@@ -2,7 +2,7 @@
 title: "Capturing HTTP requests"
 order: 32
 page_id: "capturing_http_requests"
-updated: 2022-01-05
+updated: 2022-01-20
 contextual_links:
   - type: section
     name: "Prerequisites"
