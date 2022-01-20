@@ -39,17 +39,11 @@ Setting up a Datadog integration requires you to get an API key from Datadog and
     ![home page and integrations](https://assets.postman.com/postman-docs/home-integrations.jpg)
 
 1. Search and select **Datadog**.
-
-    [![datadog integrations page](https://assets.postman.com/postman-docs/datadog-all-search.jpg)](https://assets.postman.com/postman-docs/datadog-all-search.jpg)
-
 1. You can select **View All** to see all integrations already created by your team.
-
-   [![datadog integrations page](https://assets.postman.com/postman-docs/datadog-details.jpg)](https://assets.postman.com/postman-docs/datadog-details.jpg)
-
 1. Select **Add Integration** to start the configuration process.
 
-   <img alt="Add integration datadog" src="https://assets.postman.com/postman-docs/datadog-save-add-integration.jpg" width="300px"/>
-
+    [![datadog integrations page](https://assets.postman.com/postman-docs/datadog-details.jpg)](https://assets.postman.com/postman-docs/datadog-details.jpg)
+    
 1. To send your monitor metrics and events to Datadog:
 
    * Name your new integration.
@@ -113,14 +107,14 @@ If you have previously created any integrations, you must update them to take th
 
 1. Go to the [Post monitoring results](https://go.postman.co/integrations/service/datadog/monitor_run_datadog) page.
 
-1. Click the integration you want to upgrade.
+1. Select the integration you want to upgrade.
 
-1. Click **Update Now**, then click **Update Integration** on the confirmation box to upgrade the Integration.
+1. Select **Update Now**, then select **Update Integration** on the confirmation box to upgrade the Integration.
   [![Datadog upgrade integration](https://assets.postman.com/postman-docs/datadog-integration-upgrade.jpg)](https://assets.postman.com/postman-docs/datadog-integration-upgrade.jpg)
-1. Click **Confirm**.
+1. Select **Confirm**.
 
-The updated Integration has the following benefits:
+The updated integration has the following benefits:
 
-* The Postman metrics for the new Integration are no longer treated as [Custom Metrics](https://docs.datadoghq.com/metrics/) in Datadog and hence are free. (Custom metrics on Datadog are [charged](https://docs.datadoghq.com/account_management/billing/custom_metrics/?tab=countrategauge).)
-* A default Dashboard is provided on Datadog that can be used to observe the Monitor. Change the `monitor_name` variable to the Monitor for which you want to observe the Dashboard.
+* The Postman metrics for the new integration are no longer treated as [Custom Metrics](https://docs.datadoghq.com/metrics/) in Datadog, which means they are free. (Custom metrics on Datadog are [charged](https://docs.datadoghq.com/account_management/billing/custom_metrics/?tab=countrategauge).)
+* Datadog provides a default dashboard that you can use to observe the monitor. Change the `monitor_name` variable to the monitor for which you want to observe the dashboard.
   [![Datadog dashboard](https://assets.postman.com/postman-docs/datadog-dashboard.jpg)](https://assets.postman.com/postman-docs/datadog-dashboard.jpg)
