@@ -30,7 +30,7 @@ Setting up a Datadog integration requires you to get an API key from Datadog and
 
 1. Select **+ New Key**. Create a name for the new API key, then select **New Key**.
 
-1. Copy the new API key so you can use it later. 
+1. Copy the new API key so you can use it later.
 
 ## Configuring Postman Monitors
 
@@ -70,25 +70,24 @@ Once the data is present in Datadog, you can filter it based on the monitor name
 
 [![datadog filters](https://assets.postman.com/postman-docs/58831776.png)](https://assets.postman.com/postman-docs/58831776.png)
 
-## Metrics renaming
+## Forwarding metrics
 
-Postman is able to forward a wide array of metrics for the specified monitors. With the latest release, Postman has adopted a new nomenclature for the metrics that are sent to Datadog.
-This adheres to the standard naming convention that is followed across many Application Performance Monitoring (APM) tools. The current name and previous name are shown in the first column below.
+Postman can forward a wide array of metrics for the specified monitors to Datadog.
 
-| **Metrics Name (previous name)**          |       **Type**         | **Description**         | **Level**         |
+| **Metrics Name**          |       **Type**         | **Description**         | **Level**         |
 | ------------- | ------------- | ------------- | ------------- |
-| postman.monitor.run.errors (PostmanMonitors\_errors) |GAUGE   | The total number of errors across all requests in a monitoring run | Run
-| postman.monitor.run.failed\_tests (PostmanMonitors\_failedTests)  | GAUGE  | The total number of failed tests across all requests in a monitoring run | Run
-| postman.monitor.run.passed\_tests (PostmanMonitors\_passedTests) | GAUGE  | Total number of passed tests across all requests in a monitoring run | Run
-| postman.monitor.run.request\_count (PostmanMonitors\_requestCount) | GAUGE  | Total number of requests in a monitoring run | Run
-| postman.monitor.run.total\_latency (PostmanMonitors\_totalLatencys)  | GAUGE  | The total latency time for all requests in a monitoring run | Run
-| postman.monitor.run.http\_status\_2xx (PostmanMonitor\_run\_httpStatus2XX) | GAUGE  | Total number of requests in a monitoring run that return an HTTP status code in the 200 range  | Run  |
-| postman.monitor.run.http\_status\_4xx (PostmanMonitor\_run\_httpStatus4XX)  | GAUGE  | Total number of requests in a monitoring run that return an HTTP status code in the 400 range  | Run  |
-| postman.monitor.run.http\_status\_5xx (PostmanMonitor\_run\_httpStatus5XX)  | GAUGE  | Total number of requests in a monitoring run that return an HTTP status code in the 500 range  | Run  |
-| postman.monitor.request.latency (PostmanMonitor\_request\_latency)  | GAUGE  | The latency for each request in a monitoring run  | Request  |
-| postman.monitor.request.failed\_tests (PostmanMonitor\_request\_failedTests) | GAUGE  | Number of failed tests for each request in a monitoring run  | Request  |
-| postman.monitor.request.passed\_tests (PostmanMonitor\_request\_passedTests) | GAUGE  | Number of passed tests for each request in a monitoring run  | Request  |
-| postman.monitor.request.bytes (PostmanMonitor\_request\_bytes) | GAUGE  | Total bytes sent and received for each request in a monitoring run  | Request |
+| postman.monitor.run.errors | GAUGE | The total number of errors across all requests in a monitoring run | Run
+| postman.monitor.run.failed\_tests | GAUGE | The total number of failed tests across all requests in a monitoring run | Run
+| postman.monitor.run.passed\_tests | GAUGE | Total number of passed tests across all requests in a monitoring run | Run
+| postman.monitor.run.request\_count | GAUGE | Total number of requests in a monitoring run | Run
+| postman.monitor.run.total\_latency | GAUGE | The total latency time for all requests in a monitoring run | Run
+| postman.monitor.run.http\_status\_2xx | GAUGE | Total number of requests in a monitoring run that return an HTTP status code in the 200 range  | Run  |
+| postman.monitor.run.http\_status\_4xx | GAUGE | Total number of requests in a monitoring run that return an HTTP status code in the 400 range  | Run  |
+| postman.monitor.run.http\_status\_5xx | GAUGE | Total number of requests in a monitoring run that return an HTTP status code in the 500 range  | Run  |
+| postman.monitor.request.latency | GAUGE | The latency for each request in a monitoring run  | Request  |
+| postman.monitor.request.failed\_tests | GAUGE | Number of failed tests for each request in a monitoring run  | Request  |
+| postman.monitor.request.passed\_tests | GAUGE | Number of passed tests for each request in a monitoring run  | Request  |
+| postman.monitor.request.bytes | GAUGE | Total bytes sent and received for each request in a monitoring run  | Request |
 
 <br />
 
