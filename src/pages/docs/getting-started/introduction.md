@@ -27,6 +27,11 @@ contextual_links:
     name: "Postman Community Forum | Postman Level Up"
     url:  "https://youtu.be/Ks_4H58eCQc"
   - type: subtitle
+    name: "Public Workspaces"
+  - type: link
+    name: "30 days of Postman for developers"
+    url:  "https://www.postman.com/postman/workspace/30-days-of-postman-for-developers/overview"
+  - type: subtitle
     name: "Related Blog Posts"
   - type: link
     name: "First 5 things to try if you're new to Postman"
@@ -39,7 +44,7 @@ contextual_links:
 
 Welcome to the Postman docs! This is the place to find official information on how to use Postman in your API projects.
 
-<img alt="Postman full view" src="https://assets.postman.com/postman-docs/intro-postman-request-selected-v9.1.jpg"/>
+[![Postman full view](https://assets.postman.com/postman-docs/intro-postman-request-selected-v9.8.3.jpg)](https://assets.postman.com/postman-docs/intro-postman-request-selected-v9.8.3.jpg)
 
 If you're just starting to learn about APIs and Postman, you can use a variety of channels both in and outside Postman:
 

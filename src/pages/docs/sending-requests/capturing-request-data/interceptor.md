@@ -2,7 +2,7 @@
 title: "Using Postman Interceptor"
 order: 34
 page_id: "interceptor"
-updated: 2022-01-05
+updated: 2022-01-20
 search_keyword: "pm.interceptorInstaller.reset, interceptorInstaller.reset, pm.interceptorBridge.setKey, interceptorBridge.setKey"
 contextual_links:
   - type: section
@@ -32,6 +32,8 @@ Postman Interceptor is a Chrome extension that acts as a browser companion to Po
 
 Once Interceptor is running in Chrome, you can start a debug session, which is a time-bound session of traffic capture. You can start, pause, and stop an interceptor debug session, then later start another one. Each debug session is logged in the **History** tab, and displays the total session time and all traffic captured. You can also send requests and responses to a collection, and save cookies to the Postman cookie jar.
 
+> Interceptor is only available on the [Postman desktop app](/docs/getting-started/installation-and-updates/#web-limitations).
+
 ## Contents
 
 * [Installing Interceptor](#installing-interceptor)
@@ -53,13 +55,13 @@ To get started, install Postman Interceptor:
 
 1. [Download](https://go.pstmn.io/interceptor-download) Interceptor in the Chrome Web Store. If you already have the extension, ensure it is version v0.2.26 or later.
 
-1. In the Postman app, select the **Capture Requests** icon in the Postman footer.
+1. In the Postman app, select the **Capture requests and cookies** icon in the Postman footer.
 
-    <img src="https://assets.postman.com/postman-docs/proxy-capture-requests-button.jpg" alt="Capture requests button" width="300px"/>
+    <img src="https://assets.postman.com/postman-docs/proxy-capture-requests-button-v9.8.3.jpg" alt="Capture requests button" width="300px"/>
 
-1. On the **Capture Requests** window, select the **Via Interceptor** tab.
+1. On the **Capture requests and cookies** window, select the **Via Interceptor** tab.
 
-    <img src="https://assets.postman.com/postman-docs/capture-via-interceptor-tab.jpg" alt="Capture via Interceptor tab" width="300px"/>
+    <img src="https://assets.postman.com/postman-docs/capture-via-interceptor-tab-v9.8.3.jpg" alt="Capture via Interceptor tab" width="300px"/>
 
 1. Select **Install Interceptor Bridge** to download the Bridge, an independent executable that facilitates communication with the Interceptor.
 
@@ -73,7 +75,7 @@ After Interceptor is connected, you can then start an Interceptor debug session,
 
 > You can only have a single proxy or interceptor debug session running at the same time.
 
-1. Go to the **Via Incerceptor** tab of the **Capture Requests** window.
+1. Go to the **Via Interceptor** tab of the **Capture requests and cookies** window.
 
 1. Select **Capture Cookies** if you want to capture cookies in addition to requests during the debug session.
 
@@ -113,7 +115,7 @@ The bottom right corner shows the total time of the capture session, along with 
 
 When you're done with your debug session, select **Stop** in the lower right corner. This will finish the debug session, and results of the debug session will be saved in the **History** tab.
 
-After stopping the session, the Interceptor is still connected. Select the **Capture Requests** icon in the Postman footer, and you can start another debug session.
+After stopping the session, the Interceptor is still connected. Select the **Capture requests and cookies** icon in the Postman footer, and you can start another debug session.
 
 ### Viewing the Interceptor debug session results
 
@@ -165,10 +167,10 @@ Your installation may include the following options:
 
 ### Troubleshooting tips
 
-You can find the current status of your Interceptor integration by looking at the upper right of the **Capture Requests** window:
+You can find the current status of your Interceptor integration by looking at the upper right of the **Capture requests and cookies** window:
 
 * **Connected**: You can proceed with using Interceptor.
-* **Not connected**: Ensure Interceptor is installed correctly—refer to [Installing interceptor](#installing-interceptor).
+* **Not connected**: Ensure Interceptor is [installed correctly](#installing-interceptor).
 * **Dependencies not installed**: Postman will walk you through how to install the required dependencies.
 
  If you encounter errors during installation or download, check out the following steps to resolve them:
@@ -247,7 +249,7 @@ The communication between Interceptor and Postman is automatically encrypted. Yo
 
 ### Adding a custom encryption key in the UI
 
-1. In the Postman app, select the **Capture Requests** icon in the Postman footer. Then in the **Capture Requests** window, select the **Via Interceptor** tab.
+1. In the Postman app, select the **Capture requests and cookies** icon in the Postman footer. Then in the **Capture requests and cookies** window, select the **Via Interceptor** tab.
 1. To the right of the green **Connected** status, click the lock icon.
 
     <img src="https://assets.postman.com/postman-docs/interceptor-session-key.jpg" width="350px" alt="Set encryption in app"/>
