@@ -18,6 +18,9 @@ contextual_links:
   - type: subtitle
     name: "Related Blog Posts"
   - type: link
+    name: "Enhanced HTTP Traffic Capture and Analysis in Postman"
+    url: "https://blog.postman.com/http-traffic-capture-and-analysis-in-postman/"
+  - type: link
     name: "Reverse engineering an API"
     url: "https://medium.com/better-practices/reverse-engineering-an-api-403fae885303"
   - type: link

@@ -13,6 +13,11 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Postman | Generate Server-Side Code"
+    url: "https://youtu.be/n77FNEcTNEQ"
+  - type: subtitle
     name: "Related Blog Posts"
   - type: link
     name: "Create APIs directly within the Postman app"
