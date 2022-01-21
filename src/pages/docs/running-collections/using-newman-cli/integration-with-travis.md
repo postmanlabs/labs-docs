@@ -2,11 +2,12 @@
 title: "Integrating with Travis CI"
 order: 63
 page_id: "integration_with_travis"
+updated: 2022-1-14
 contextual_links:
   - type: section
     name: "Prerequisites"
   - type: link
-    name: "Command-line integration with Newman"
+    name: "Running collections on the command line with Newman"
     url: "/docs/running-collections/using-newman-cli/command-line-integration-with-newman/"
   - type: section
     name: "Additional Resources"
@@ -33,69 +34,65 @@ tags:
 
 ---
 
-Continuous Integration (CI) is a practice that requires developers to integrate code in a shared repository several times a day.
+Continuous Integration (CI) is a development practice that encourages developers to regularly commit their code changes to a shared repository, usually several times a day. Committing early and often helps the team avoid technical debt and detect problems quickly, when conflicts are still relatively easy to fix.
 
-By committing early and often, the team avoids a ton of technical debt by allowing teams to detect problems early while conflicts are relatively easy to fix.
-
-Every check-in triggers an automated build process that typically includes testing. And if your commit hasn’t broken anything, might include deployment too.
-
-In general, integrating your [Postman tests](/docs/writing-scripts/test-scripts/) with your favorite continuous integration service is the same process as if you’re [running on Jenkins](/docs/running-collections/using-newman-cli/integration-with-jenkins/), Travis CI, AppVeyor, or any other build system.
-
-You will set up your CI configuration to run a shell command upon starting your build. The command is a [Newman script that runs your collection](/docs/running-collections/using-newman-cli/command-line-integration-with-newman/) with the tests, returning a pass or fail exit code that’s logged in your CI system.
-
-In this example, we’ll walk through how to integrate Postman with [Travis CI](https://travis-ci.org/), a continuous integration service that builds and tests projects on GitHub.
-
-Travis CI runs your tests every time you commit to your GitHub repo. Then it submits a pull request, or some other specified configuration.
+With CI, every code commit triggers an automated process that builds the code and runs tests. The process can even deploy the updated code if all checks pass, a practice referred to as Continuous Delivery (CD).
 
 > **Developing an API?** Postman offers built-in tools to integrate your API with some of the most widely-used Continuous Integration (CI) tools, including Travis CI. After you set up CI integration for your API, you can view the status of builds or kick off a new build, all from within Postman. You can also use Newman to run API tests as part of your CI pipeline. To learn more, see [CI integrations](/docs/integrations/ci-integrations/).
 
+## Running Postman tests with Travis CI
+
+In general, integrating your [Postman tests](/docs/writing-scripts/test-scripts/) with Travis CI is the same process as [running on Jenkins](/docs/running-collections/using-newman-cli/integration-with-jenkins/), AppVeyor, or any other build system. You will set up your CI configuration to run a shell command when starting your build. The command is a [Newman script](/docs/running-collections/using-newman-cli/command-line-integration-with-newman/) that runs the collection containing the tests and returns a pass or fail exit code that’s logged in your CI system.
+
+This example shows you how to integrate Postman with [Travis CI](https://travis-ci.com/), a continuous integration platform that development teams use to automatically build and test code changes. When you're finished, Travis CI will run your tests every time you make a commit to your GitHub repo.
+
 [![travis workflow](https://assets.postman.com/postman-docs/travis_workflow.png)](https://assets.postman.com/postman-docs/travis_workflow.png)
-
-Let's learn more about integration with Travis:
-
-* [Getting started](#getting-started)
-* [Hooking up Postman to Travis CI](#hooking-up-postman-to-travis-ci)
 
 ## Getting started
 
-[![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/a19ae42317a16e4b8c8b#?env%5Btests%5D=W3sia2V5IjoibGFzdERheSIsInZhbHVlIjoiIiwiZW5hYmxlZCI6dHJ1ZX1d)
+1. **Choose the Postman collection with your tests.** In most cases, you'll already have a Postman collection with your tests. For this example, you can import a sample "Hello World" collection into your workspace by selecting the **Run in Postman** button below.
 
-1. **Select a Postman collection with tests**: For now, let’s assume you already have a Postman collection with tests. Download the sample collection and environment by clicking the Run in Postman button if you want to follow this example.
-1. **Set up a GitHub repository**: Travis CI is free for open-source projects on GitHub. This example keeps Postman tests in a public GitHub repo.
-1. **Set up Travis CI**: Follow the [Travis CI getting started guide](https://docs.travis-ci.com/user/getting-started) for the complete walk through.
+    [![Run in Postman](https://run.pstmn.io/button.svg)](https://god.gw.postman.com/run-collection/92cc7527bbab2bedffbd?action=collection%2Fimport)
 
-   [Sign in to Travis CI](https://travis-ci.org/auth) with your GitHub account.
+1. **Set up a GitHub repository.** Travis CI is free for open source projects on GitHub. For this example, you'll store the collection with your Postman tests in a public GitHub repository. Create a new public repo on GitHub and clone the project to your local system.
 
-   Go to your [profile page](https://travis-ci.org/profile) and enable Travis CI for the public GitHub repo set up in the previous step.
+1. **Set up Travis CI**: Follow the [Travis CI getting started guide](https://docs.travis-ci.com/user/getting-started) for a complete walk through. You will need to [sign in to Travis CI](https://app.travis-ci.com/signin) and [activate Travis CI integration](https://app.travis-ci.com/account/repositories) for your new public GitHub repo.
 
-## Hooking up Postman to Travis CI
+## Connecting Postman to Travis CI
 
-1. [Export the Postman Collection as a JSON file](/docs/getting-started/importing-and-exporting-data/) and move the file to your project directory. If you’re using an environment such as this example, [download the Postman environment as a JSON file](/docs/sending-requests/managing-environments/) and move the file to your project directory as well.
+1. [Export the "Hello World" collection](/docs/getting-started/importing-and-exporting-data/) as a JSON file and rename the exported file `hello_world.postman_collection.json`.
 
-    In this example, we've moved both files into a directory called `tests` placed in the root of the project repository.
+1. Create a folder named `tests` at the root of your local project, and move the exported JSON file into the new `tests` folder.
 
-    Remember to add and commit these two files to your repo.
+    ```bash
+    .
+    └── tests
+        └── hello_world.postman_collection.json
+    ```
 
-    [![tree view tests directory](https://assets.postman.com/postman-docs/travis_tree.png)](https://assets.postman.com/postman-docs/travis_tree.png)
+    > If your collection uses an environment, you should also [export the environment](/docs/sending-requests/managing-environments/) as a JSON file and move it to the `tests` folder.
 
-1. Create a new file called `.travis.yml` and move it to the root of your project repository.
+1. Create a new file named `.travis.yml` at the root of your project repository. You'll use this file to tell Travis CI the programming language for your project and how to  build it.
 
-    Remember to add and commit it to your repo. This file tells Travis CI the programming language for your project and how to  build it.
+    ```bash
+    .
+    ├── .travis.yml
+    └── tests
+        └── hello_world.postman_collection.json
+    ```
 
-    Any step of the build [can be customized](https://docs.travis-ci.com/user/customizing-the-build). These scripts will execute the next time you commit and push a change to your repo.
+    > Any step of the build process [can be customized](https://docs.travis-ci.com/user/customizing-the-build). The scripts in the `.travis.yml`file will execute the next time you commit and push a change to your repo.
 
-    [![tree view yml](https://assets.postman.com/postman-docs/travis_tree_yml.png)](https://assets.postman.com/postman-docs/travis_tree_yml.png)
+1. In the `.travis.yml` file, add a command to `install` Newman in the CI environment, and then add a `script` telling Newman to run the Postman tests (which you placed in the `tests` folder).
 
-1. In the `.travis.yml` file, add a command to `install` Newman in the CI environment, and then add a `script` telling Newman to run the Postman tests (which we've placed in the `tests` directory).
+    Because Travis CI doesn’t know where Newman is located, you need to update the `PATH`. In this example, the `newman` tool is located in the `.bin` folder which is in the `node_modules` folder.
 
-    Since Travis CI doesn’t know where Newman is located, let's update the `PATH`. In this node.js example, the `newman` tool is located in my `.bin` directory which is located in my `node_modules` directory.
-
-    Now, the `.travis.yml` file looks like this for this `node.js` example:
+    For this example, your `.travis.yml` file should look like the following:
 
     ```bash
     language: node_js
     node_js:
-    - "8.2.1"
+    - "16.13.2"
 
     install:
     - npm install newman
@@ -106,36 +103,50 @@ Let's learn more about integration with Travis:
     - node_modules/.bin/newman --version
 
     script:
-    - node_modules/.bin/newman run tests/bitcoinz.postman_collection.json -e tests/tests.postman_environment.json
+    - node_modules/.bin/newman run tests/hello_world.postman_collection.json
     ```
 
-Travis CI is now set up to run your Postman tests every time you trigger a build, for example, by pushing a commit to your repo.
+    Note that if you exported an environment, you need to add it to the script as well:
 
-Let’s try it out. The Travis CI [build status page](https://travis-ci.org/) will show if the build passes or fails:
+    ```bash
+    script:
+    - node_modules/.bin/newman run tests/hello_world.postman_collection.json -e tests/tests.postman_environment.json
+    ```
 
-[![travis fail](https://assets.postman.com/postman-docs/travis_fail.png)](https://assets.postman.com/postman-docs/travis_fail.png)
+1. Commit all the changes to your local project and push them to your public GitHub repo.
 
-   Travis CI is running the Newman command, but you see a failed exit code (1). Boo.
+    Travis CI will automatically trigger a build and run  your tests every time you push a commit to your repo. Navigate to the [Travis CI dashboard](https://app.travis-ci.com/dashboard) to see the status of your build. If all went well, your build passed successfully.
 
-   Stay calm. Let’s review the logs in Travis CI. Newman ran the tests, you see the first and second tests passed, but the last test `Updated in the last day` failed.
+    [![Travis CI build successful](https://assets.postman.com/postman-docs/travis-ci-build-success.jpg)](https://assets.postman.com/postman-docs/travis-ci-build-success.jpg)
 
-[![travis log fail](https://assets.postman.com/postman-docs/travis_log_fail.png)](https://assets.postman.com/postman-docs/travis_log_fail.png)
+## Fixing test failures
 
-   Let’s go back to the Postman collection and fix the `Updated in the last day` test.
+To see what things look like when a test fails, make a change in your imported "Hello Word" collection in Postman so that one of the test breaks.
 
-[![PM test script](https://assets.postman.com/postman-docs/WS-get-information95.png)](https://assets.postman.com/postman-docs/WS-get-information95.png)
+1. Open the collection, select the "Hello World" request, and then select the **Tests** tab.
 
-   Once you fix the mistake in the test, let’s save the changes, update the repo with the latest collection file, and then trigger a Travis CI build once again by committing and pushing the change.
+1. Change the final test so that it looks for the text "Hello, Everyone!" instead of "Hello, World!"
 
-[![travis log success](https://assets.postman.com/postman-docs/travis_log_success.png)](https://assets.postman.com/postman-docs/travis_log_success.png)
+    [![Tests tab error](https://assets.postman.com/postman-docs/travis-ci-test-error-example-v9-9.jpg)](https://assets.postman.com/postman-docs/travis-ci-test-error-example-v9-9.jpg)
 
- And it's working! All the tests passed and the command exited with a successful exit code (0).
+1. Save the change and then export the collection again. As before, rename the exported file `hello_world.postman_collection.json` and move it into the `tests` directory in your local project.
 
----
-For more information about collection runs, see:
+1. Commit and push the change to your public GitHub repo. This will trigger a new build in Travis CI, and this time the build should fail.
+
+    [![Travis CI build failed](https://assets.postman.com/postman-docs/travis-ci-build-failed.jpg)](https://assets.postman.com/postman-docs/travis-ci-build-failed.jpg)
+
+1. Select the failed build link to view the build logs in Travis CI. Looking at the logs, you can see that the assertion failed. If this was your own collection, you could use the error message to help understand why the test failed and debug the problem.
+
+    [![Travis CI error log](https://assets.postman.com/postman-docs/travis-ci-error-log.jpg)](https://assets.postman.com/postman-docs/travis-ci-error-log.jpg)
+
+1. For this example, if you want, you can correct the error in the test in Postman and export the collection again. As before, rename the JSON file, add it to the `tests` folder in your local project, then commit and push. This time your build in Travis CI should be successful.
+
+## Next Steps
+
+For more information about collection runs, see the following topics.
 
 * [Using the Collection Runner](/docs/running-collections/intro-to-collection-runs/)
-* [Working with data files](/docs/running-collections/working-with-data-files/)
-* [Building workflows](/docs/running-collections/building-workflows/)
-* [Integration with Jenkins](/docs/running-collections/using-newman-cli/integration-with-jenkins/)
+* [Importing data files](/docs/running-collections/working-with-data-files/)
+* [Building request workflows](/docs/running-collections/building-workflows/)
+* [Integrating with Jenkins](/docs/running-collections/using-newman-cli/integration-with-jenkins/)
 * [Newman with Docker](/docs/running-collections/using-newman-cli/newman-with-docker/)

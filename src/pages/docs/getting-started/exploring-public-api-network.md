@@ -16,6 +16,11 @@ contextual_links:
   - type: link
     name: "Public API Network | The Exploratory"
     url: "https://youtu.be/2LDR93X0WIc"
+  - type: subtitle
+    name: "Related Blog Posts"
+  - type: link
+    name: "Discover APIs Easily with New Categories in the Postman API Network"
+    url: "https://blog.postman.com/discover-apis-categories-postman-api-network/"
   - type: section
     name: "Next Steps"
   - type: link
@@ -46,7 +51,7 @@ Check out some useful collections for getting started learning about APIs, reque
 
 * [Learn by API](https://www.postman.com/apilearningresources/workspace/api-learning-resources/collection/1841124-59f1a202-b933-4276-b99a-88acdefba9f0?ctx=documentation)
 * [API Learner](https://www.postman.com/apilearningresources/workspace/api-learning-resources/collection/1841124-369362dc-c11e-44f1-a7a9-ffe591cc2156?ctx=documentation)
-* [Public REST APIs](https://www.postman.com/cs-demo/workspace/public-rest-apis/collection/8854915-454a2dc7-dcbe-41cf-9bfa-da544fcd93a2?ctx=documentation)
+* [Public REST APIs](https://www.postman.com/cs-demo/workspace/public-rest-apis/overview)
 * [Intro to writing tests](https://www.postman.com/postman/workspace/postman-team-collections/collection/1559645-13bd44c4-94ec-420a-8390-8ff44b60f14d?ctx=documentation)
 * [How to use the Postman console](https://www.postman.com/postman/workspace/postman-team-collections/collection/1559645-9349429e-3744-467b-a127-e3881f0dffc8?ctx=documentation)
 * [Postman Echo](https://www.postman.com/postman/workspace/published-postman-templates/documentation/631643-f695cab7-6878-eb55-7943-ad88e1ccfd65?ctx=documentation)

@@ -10,6 +10,14 @@ contextual_links:
   - type: link
     name: "Configuring SSO for a team"
     url: "/docs/administration/sso/admin-sso/"
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Related Blog Posts"
+  - type: link
+    name: "Introducing Domain Capture: Group Your Organization’s Postman Users into a Single Team"
+    url: "https://blog.postman.com/introducing-domain-capture/"
+
 ---
 
 > __[Domain capture is only available to Postman Enterprise teams.](https://www.postman.com/pricing)__
