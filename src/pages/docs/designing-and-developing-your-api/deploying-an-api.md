@@ -16,8 +16,8 @@ contextual_links:
   - type: subtitle
     name: "Related Blog Posts"
   - type: link
-    name: "Introducing Powerful Integrations"
-    url: "https://blog.postman.com/the-new-postman-api-platform/"
+    name: "Stay on Top of Your API Deployments: AWS API Gateway Integration"
+    url: "https://blog.postman.com/deployments-aws-api-gateway-integration/"
 
 ---
 

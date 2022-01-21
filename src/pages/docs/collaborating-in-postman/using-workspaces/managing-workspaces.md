@@ -11,6 +11,11 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Postman Level Up | Moving Elements in Postman"
+    url: "https://youtu.be/OOkKkH5bXHg"
+  - type: subtitle
     name: "Case Studies"
   - type: link
     name: "Giant Machines"
