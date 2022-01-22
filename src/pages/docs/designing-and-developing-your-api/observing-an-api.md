@@ -71,8 +71,6 @@ Postman integrations enable you to send the results of monitor runs to a variety
 
 The **Monitoring** tab in the API Builder provides one place to manage all of your API's monitor integrations. You can set up a new integration, track results, and view all of your configured monitor integrations.
 
-SCREENSHOT
-
 ### Adding a monitor integration
 
 Connect an API version to one or more monitoring integrations to send monitor results to other applications that are part of your API development workflow.
@@ -81,17 +79,21 @@ Connect an API version to one or more monitoring integrations to send monitor re
 1. Open an API version and select the **Monitoring** tab.
 1. Under **Connect Postman to your monitoring workflows**, select a monitor integration.
 1. Enter a **Nickname** for the integration and choose a monitor. Postman will send the results of this monitor to the application you're integrating with.
-1. Finish entering the requested information. This information varies depending on the application you're integrating with. For more help, see [Integrating with Postman](/docs/integrations/intro-integrations/).
+1. Finish entering the requested information. This information varies depending on the application you're integrating with, and typically includes an API key. For more help, see [Integrating with Postman](/docs/integrations/intro-integrations/).
 1. Select **Add integration**.
 
 > You can configure multiple integrations for a monitor, or even have multiple instances of the same integration. For example, you can configure two Slack integrations for a monitor that send the monitor's results to two different Slack channels.
 
-### Viewing monitor results
-
-
 ### Working with monitor integrations
 
+Once you're added a monitor integration to an API version, you can take the following actions on the **Monitoring** tab:
 
+* Select a monitor's name to open the monitor's dashboard in a new tab.
+* Select **Validate** next to a monitor to validate it against the API schema (OpenAPI 3.0 schemas only).
+* Hover over a bar in the graph to view metrics for a monitor run.
+* Hover over an integration icon to view details. Select the **Edit** icon to edit the integration, or select the **Delete** icon to remove the integration.
+* Hover over the monitor and select **Run** to immediately run the monitor.
+* Hover over the icon and select the **Remove** icon to remove the integration.
 
 ## Viewing New Relic APM metrics
 
