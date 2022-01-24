@@ -221,7 +221,7 @@ class Header extends React.Component {
       // Flip down dropdown icon
       icon1.classList.remove('open');
     }
-    const icon2 = document.getElementById('icon-wrap-two');
+    const icon2 = document.getElementById('navbar-chevron-icons');
     const togglerSecondary = document
       .getElementById('secondaryNav')
       .getAttribute('aria-expanded');
@@ -235,22 +235,22 @@ class Header extends React.Component {
     const togglerSecondary = document
       .getElementById('secondaryNav')
       .getAttribute('aria-expanded');
-    const icon2 = document.getElementById('icon-wrap-two');
+    const toggleChevron = document.getElementById('navbar-chevron-icons');
     if (togglerSecondary === 'true') {
-      icon2.classList.add('open');
+      toggleChevron.classList.add('open');
     }
   }
 
   hideTargetElementLC = () => {
-    const icon2 = document.getElementById('icon-wrap-two');
+    const toggleChevron = document.getElementById('navbar-chevron-icons');
     const togglerSecondary = document
       .getElementById('secondaryNav')
       .getAttribute('aria-expanded');
     if (togglerSecondary === 'false') {
-      icon2.classList.remove('open');
+      toggleChevron.classList.remove('open');
     }
   }
-  /* eslint-enabe class-methods-use-this */
+  /* eslint-enable class-methods-use-this */
 
   render() {
     const {
@@ -294,9 +294,8 @@ class Header extends React.Component {
           </button>
           <div
             id="navbarSupportedContent"
-            className={`collapse navbar-collapse${
-              !visibleHelloBar ? ' noBar' : ''
-            }`}
+            className={`collapse navbar-collapse${!visibleHelloBar ? ' noBar' : ''
+              }`}
           >
             <ul className="navbar-nav mr-auto">
               <li className="nav-item dropdown">
@@ -616,13 +615,11 @@ class Header extends React.Component {
             <span className="navbar-toggler-icon">
               <div
                 id="icon-wrap-two"
-                className="icon-bar"
                 aria-expanded="false"
               >
-                <span />
-                <span />
-                <span />
-                <span />
+                <svg id="navbar-chevron-icons" width="20" height="11" viewBox="0 0 20 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M1 1L10 10L19 1" stroke="#6B6B6B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
               </div>
             </span>
           </button>
