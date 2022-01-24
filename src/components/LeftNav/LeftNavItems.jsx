@@ -391,11 +391,11 @@ export const leftNavItems = [
           },
           {
             name: 'Deploying an AWS API',
-            url: '/docs/designing-and-developing-your-api/deploying-an-api/deploying-an-api-overview/',
+            url: '/docs/designing-and-developing-your-api/deploying-an-api/deploying-an-api-aws/',
           },
           {
             name: 'Deploying an Apigee API',
-            url: '/docs/designing-and-developing-your-api/deploying-an-api/deploying-an-api-overview/',
+            url: '/docs/designing-and-developing-your-api/deploying-an-api/deploying-an-api-apigee/',
           },
         ],
       },
