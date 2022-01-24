@@ -66,7 +66,7 @@ To change the time period displayed, select a different time period in the menu 
 
 ### Viewing the uptime graph
 
-The **Uptime** graph shows that status of the monitored endpoint URL during the selected time period:
+The **Uptime** graph shows the status of the monitored endpoint URL during the selected time period:
 
 * **Up:** (Green) The URL is serving traffic and returning 2xx status codes within the expected response time (60 seconds or less).
 * **Down:** (Red) The URL is not serving traffic, is returning non-2xx status codes, or is exceeding the expected response time (more than 60 seconds).
