@@ -49,7 +49,7 @@ In Postman you can assign roles and permissions to provide access control.
 
 ## Roles in Postman
 
-As a team admin, you have the power to define Postman access at the team level. You can utilize Postman's role-based access control system to limit visibility of team resources, define your development workflow, and provide access to administrative and billing personnel.
+As a team admin, you have the power to define Postman access at the team level. You can use Postman's role-based access control system to limit visibility of team resources, define your development workflow, and provide access to administrative and billing personnel.
 
 Workspace admins can modify the admin and collaborator roles for the workspace. Editors of particular elements (APIs, collections, environments, monitors, and mock servers) can modify the editor and viewer role on the element.
 
@@ -124,8 +124,8 @@ The following roles control access at a workspace level:
 
 You can [assign](/docs/administration/managing-your-team/managing-your-team/) two role types in Postman APIs: **Editor** and **Viewer**.
 
-* **Editor**: edit APIs directly
-* **Viewer**: view and export APIs
+* **Editor**: Can edit APIs directly
+* **Viewer**: Can view and export APIs
 
 The following roles control access at an API level:
 
@@ -149,8 +149,8 @@ The following roles control access at an API level:
 
 You can [assign](/docs/administration/managing-your-team/managing-your-team/) two role types in Postman collections: **Editor** and **Viewer**.
 
-* **Editor**: edit collections directly
-* **Viewer**: view, fork, and export collections
+* **Editor**: Can edit collections directly
+* **Viewer**: Can view, fork, and export collections
 
 The following roles control access at a collection level:
 
@@ -169,22 +169,21 @@ The following roles control access at a collection level:
 
 ## Managing roles and permissions
 
-To manage team roles, see [Managing roles](/docs/administration/managing-your-team/managing-your-team/).
+To learn how to manage team roles, see [Managing roles](/docs/administration/managing-your-team/managing-your-team/).
 
 ## Roles FAQ
 
-* **Our only team member with billing/admin permissions left - what can I do?**
-Contact us via our [Support Center](https://support.postman.com/hc/en-us) for assistance.
+* **Our only team member with billing/admin permissions left. What can I do?**
+    Contact us via our [Support Center](https://support.postman.com/hc/en-us) for assistance.
 
-* **I'm an admin, why can't I assign the billing role?**
-Billing roles can be granted by a [Super Admin](#team-roles) or by a fellow team member with a billing role. If this is not possible, contact us via our [Support Center](https://support.postman.com/hc/en-us) for assistance.
+* **I'm an admin. Why can't I assign the billing role?**
+    Billing roles can be granted by a [Super Admin](#team-roles) or by a fellow team member with a billing role. If this is not possible, contact us via our [Support Center](https://support.postman.com/hc/en-us) for assistance.
 
-* **Our colleague left the organization, how can we access their collections?**
-You can remove a former colleague from your Postman team via your [dashboard](https://go.postman.co/team). When a collection owner is removed from your team, ownership of their shared collections is transferred to fellow team members and these collections will continue to exist in your Postman team.
+* **Our colleague left the organization. How can we access their collections?**
+    You can remove a former colleague from your Postman team via your [dashboard](https://go.postman.co/team). When a collection owner is removed from your team, ownership of their shared collections is transferred to fellow team members and these collections will continue to exist in your Postman team.
 
 * **What are "support" roles?**
-A support-only account is one that holds an admin and/or billing role, but is not a developer.
-Teams can have up to two support-only accounts.
+    A support-only account is one that holds an admin and/or billing role, but is not a developer. Teams can have up to two support-only accounts.
 
 ## Next steps
 
