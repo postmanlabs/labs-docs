@@ -101,12 +101,12 @@ Once you've added a monitor integration to an API version, you can take the foll
 
   <img alt="API monitor results" src="https://assets.postman.com/postman-docs/observe-api-integrations-results-v9-10.jpg" width="332px">
 
-* Hover over the application icon for an integration to view details. Select the **Edit** icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> to edit the integration, or select the **Delete** icon <img alt="External link icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg" width="12px" style="vertical-align:middle;margin-bottom:5px"> to remove the integration.
+* Hover over the application icon for an integration to view details. Select the **Edit** icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> to edit the integration, or select the **Delete** icon <img alt="External link icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg" width="12px" style="vertical-align:middle;margin-bottom:5px"> to delete the integration.
 
-  <img alt="Edit an API monitor" src="https://assets.postman.com/postman-docs/observe-api-integrations-edit-v9-10.jpg" width="332px">
+  <img alt="Edit an API monitor" src="https://assets.postman.com/postman-docs/observe-api-integrations-modify-v9-10.jpg" width="332px">
 
 * Hover over a monitor and select **Run** to immediately run the monitor.
-* Hover over a monitor and select the **Remove** icon <img alt="Remove icon" src="https://assets.postman.com/postman-docs/icon-remove-api-element-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> to remove the monitor and all of its associated integrations.
+* Hover over a monitor and select the **Remove** icon <img alt="Remove icon" src="https://assets.postman.com/postman-docs/icon-remove-api-element-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> to remove the monitor from the API version. (The monitor and its associated integrations are not deleted.)
 
 ## Viewing New Relic APM metrics
 
