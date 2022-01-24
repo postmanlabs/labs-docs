@@ -95,7 +95,7 @@ Connect an API version to one or more monitoring integrations to send monitor re
 
 Once you've added a monitor integration to an API version, you can take the following actions on the **Monitoring** tab:
 
-* Select a monitor's name to open the monitor's dashboard in a new tab.
+* Select a monitor's name to open its dashboard in a new tab.
 * Select **Validate** next to a monitor to validate it against the API schema (OpenAPI 3.0 schemas only). If validation is not successful, select **Issues found** and then select **Review issues**. Learn more about [validating APIs](/docs/designing-and-developing-your-api/validating-elements-against-schema/).
 * Hover over a bar in the graph to view metrics for a monitor run.
 
