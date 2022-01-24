@@ -55,17 +55,15 @@ With these roles, you and your teammates can manage access for each individual, 
 
 ### Team roles
 
-You can [assign](/docs/administration/managing-your-team/managing-your-team/) one or more role types to team members: **Admin**, **Billing**, and **Developer**. If you are on a [Postman Professional or Enterprise plan](https://www.postman.com/pricing), you will also have the option of assigning the **Community Manager** role. If you are on a Postman Enterprise plan, you will additionally have the option to assign the **Super Admin** role.
+You can [assign](/docs/administration/managing-your-team/managing-your-team/) one or more role types to your team members, based on the functions those team members require:
 
-Roles can be assigned based on the functions a team member requires:
-
-* **Super Admin**: Manages everything within a team, including team settings, members, roles, and resources in [public, team, or private workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#changing-workspace-visibility). Team members with this role can perform all actions that Admin, Billing, Community Manager, and Developer roles can perform (Enterprise plans only).
 * **Admin**: Manages team members and team settings.
-* **Billing**: Manages team plan and payments.
+* **Super Admin**: Manages everything within a team, including team settings, members, roles, and resources in [public, team, or private workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#changing-workspace-visibility). Team members with this role can perform all actions that Admin, Billing, Community Manager, and Developer roles can perform ([Enterprise plans only](https://www.postman.com/pricing)).
+* **Billing**: Manages team plan and payments. Billing roles can be granted by a Super Admin or by a fellow team member with a billing role. If this is not possible, contact our [Support Center](https://support.postman.com/hc/en-us).
 * **Developer**: Has access to all team resources and workspaces.
-* **Community Manager**: Manages public visibility of workspaces and team profile (Professional and Enterprise plans only).
+* **Community Manager**: Manages the public visibility of workspaces and team profile ([Professional and Enterprise plans only](https://www.postman.com/pricing)).
 
-Each user must have at least one role attached to them, and can hold multiple roles simultaneously.
+Each user must have at least one role attached to them, and can hold multiple roles simultaneously. Members with a Developer role consume a paid slot on the team, while those who have only Admin or Billing roles become Support Users and don’t consume paid slots. Your team can have two Support Users.
 
 Team roles provide high-level access control:
 
@@ -90,15 +88,6 @@ Team roles provide high-level access control:
 &ast; On Postman Basic and Free plans, any developer can change visibility of workspaces
 
 &ast;&ast; Enterprise and Professional plans only
-
-* **Our only team member with billing/admin permissions left. What can I do?**
-    Contact us via our [Support Center](https://support.postman.com/hc/en-us) for assistance.
-
-* **I'm an admin. Why can't I assign the billing role?**
-    Billing roles can be granted by a [Super Admin](#team-roles) or by a fellow team member with a billing role. If this is not possible, contact us via our [Support Center](https://support.postman.com/hc/en-us) for assistance.
-
-* **What are "support" roles?**
-    A support-only account is one that holds an admin and/or billing role, but is not a developer. Teams can have up to two support-only accounts.
 
 ### Workspace roles
 
