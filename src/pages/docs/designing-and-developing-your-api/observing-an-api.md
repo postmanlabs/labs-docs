@@ -71,6 +71,8 @@ Postman integrations enable you to send the results of monitor runs to a variety
 
 The **Monitoring** tab in the API Builder provides one place to manage all of your API's monitor integrations. You can set up a new integration, track results, and view all of your configured monitor integrations.
 
+<img alt="API monitor integrations" src="https://assets.postman.com/postman-docs/observe-api-integrations-v9-10.jpg" width="946px">
+
 ### Adding a monitor integration
 
 Connect an API version to one or more monitoring integrations to send monitor results to other applications that are part of your API development workflow.
@@ -79,7 +81,7 @@ Connect an API version to one or more monitoring integrations to send monitor re
 1. Open an API version and select the **Monitoring** tab.
 1. Under **Connect Postman to your monitoring workflows**, select a monitor integration.
 1. Enter a **Nickname** for the integration and choose a monitor. Postman will send the results of this monitor to the application you're integrating with.
-1. Finish entering the requested information. This information varies depending on the application you're integrating with, and typically includes an API key. For more help, see [Integrating with Postman](/docs/integrations/intro-integrations/).
+1. Finish entering the requested information. This information varies depending on the application you're integrating with, and typically includes an API key. For more help with a specific application, see [Integrating with Postman](/docs/integrations/intro-integrations/) and select [Available integrations](/docs/integrations/available-integrations/apimatic/) in the left navigation pane.
 1. Select **Add integration**.
 
 > You can configure multiple integrations for a monitor, or even have multiple instances of the same integration. For example, you can configure two Slack integrations for a monitor that send the monitor's results to two different Slack channels.
@@ -89,11 +91,17 @@ Connect an API version to one or more monitoring integrations to send monitor re
 Once you're added a monitor integration to an API version, you can take the following actions on the **Monitoring** tab:
 
 * Select a monitor's name to open the monitor's dashboard in a new tab.
-* Select **Validate** next to a monitor to validate it against the API schema (OpenAPI 3.0 schemas only).
+* Select **Validate** next to a monitor to validate it against the API schema (OpenAPI 3.0 schemas only). If validation is not successful, select **Issues found** and then select **Review issues**. Learn more about [validating APIs](/docs/designing-and-developing-your-api/validating-elements-against-schema/).
 * Hover over a bar in the graph to view metrics for a monitor run.
-* Hover over an integration icon to view details. Select the **Edit** icon to edit the integration, or select the **Delete** icon to remove the integration.
-* Hover over the monitor and select **Run** to immediately run the monitor.
-* Hover over the icon and select the **Remove** icon to remove the integration.
+
+  <img alt="API monitor results" src="https://assets.postman.com/postman-docs/observe-api-integrations-results-v9-10.jpg" width="332px">
+
+* Hover over the application icon for an integration to view details. Select the **Edit** icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> to edit the integration, or select the **Delete** icon <img alt="External link icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg" width="12px" style="vertical-align:middle;margin-bottom:5px"> to remove the integration.
+
+  <img alt="Edit an API monitor" src="https://assets.postman.com/postman-docs/observe-api-integrations-edit-v9-10.jpg" width="332px">
+
+* Hover over a monitor and select **Run** to immediately run the monitor.
+* Hover over a monitor and select the **Remove** icon <img alt="Remove icon" src="https://assets.postman.com/postman-docs/icon-remove-api-element-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> to remove the monitor and all of its associated integrations.
 
 ## Viewing New Relic APM metrics
 
