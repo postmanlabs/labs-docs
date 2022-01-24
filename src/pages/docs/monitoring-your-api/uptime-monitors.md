@@ -93,7 +93,7 @@ From the monitor dashboard, you can take the following actions:
 
 * **Delete an uptime monitor.** Delete an uptime monitor if it's no longer needed. Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> at the upper right and select **Delete**.
 
-## Uptime Monitor pricing
+## Uptime monitor pricing
 
 **Teams on paid Postman plans can try uptime monitors for free.** During the open beta period, you can have up to 3 (Basic plan), 5 (Professional plan), or 9 (Enterprise plan) uptime monitors, including paused monitors. These free uptime monitors will not count against your [team's monthly usage limit](https://www.postman.com/pricing/) for monitoring API calls.
 
