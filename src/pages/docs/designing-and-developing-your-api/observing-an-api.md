@@ -2,7 +2,7 @@
 title: 'Observing an API'
 order: 81.7
 page_id: 'observing_an_api'
-updated: 2021-12-21
+updated: 2022-1-24
 warning: false
 contextual_links:
   - type: section
