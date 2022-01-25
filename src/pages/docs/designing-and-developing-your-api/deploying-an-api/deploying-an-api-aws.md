@@ -20,7 +20,7 @@ contextual_links:
 
 ---
 
-Stay on top of your API deployments in Postman by connecting to [Amazon API Gateway](https://aws.amazon.com/api-gateway/). Once connected to API Gateway, you can view your API deployment status and history from within Postman. This integration supports OpenAPI 3.0 schemas for both HTTP and REST APIs.
+[Amazon API Gateway](https://aws.amazon.com/api-gateway/) enables developers to publish and manage APIs that access AWS as well as other web services and data sources. Once connected to API Gateway, you can view your API deployment status and history from within Postman. This integration supports OpenAPI 3.0 schemas for both HTTP and REST APIs.
 
 For HTTP APIs, you can also choose to export your schema from Postman to Amazon API Gateway. You can then use the AWS console to deploy your exported schema to a stage. Alternatively, you can deploy your HTTP API schema directly from Postman to a stage in API Gateway.
 
