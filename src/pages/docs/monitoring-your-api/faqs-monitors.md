@@ -51,7 +51,7 @@ There is no specific limit to the amount of data that can be sent or received pe
 
 ### Can I upload files or attach data files?
 
-You cannot attach files to requests, as in the request builder, but you can upload data as a raw request body. Also, you cannot attach data files, as in the collection runner, but you can access files using APIs such as Google Docs, Google Sheets, and Dropbox.
+You cannot attach files to requests, like you can in the request builder, but you can upload data as a raw request body. Also, you cannot attach data files, like you can in the collection runner, but you can access files using APIs such as Google Docs, Google Sheets, and Dropbox.
 
 ### Are static IP addresses dedicated to individual customers or shared?
 

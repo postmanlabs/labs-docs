@@ -53,7 +53,7 @@ Postman offers several ways to create a new collection-based monitor:
 
 * **Create a monitor from scratch.** Select **Monitors** in the left sidebar, and then select the plus **+** button. You will select a collection to run when configuring the new monitor.
 * **Create a monitor from a collection.** Select **Collections** in the left sidebar, select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to a collection, and then select **Monitor collection**. The new monitor is automatically configured to run the selected collection.
-* **Create a monitor from an API.** Open an API version  from **APIs** in the left sidebar and select the **Monitoring** tab. Select **+ Add Monitor**, and then select **Create new monitor**. You can choose to use an existing collection, create a new collection, or generate a collection from your schema.
+* **Create a monitor from an API.** Open an API version from **APIs** in the left sidebar and select the **Monitoring** tab. Select **+ Add Monitor**, and then select **Create new monitor**. You can choose to use an existing collection, create a new collection, or generate a collection from your schema.
 
 > You can also create a monitor using the Postman API. To learn how, see the [Postman API documentation](https://documenter.getpostman.com/view/12959542/UV5XjJV8#419dd5ae-5fb8-476b-b070-c05accc3aaba).
 

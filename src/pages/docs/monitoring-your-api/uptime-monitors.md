@@ -11,7 +11,7 @@ warning: false
 
 Uptime monitors (open beta) continuously check the availability of a single API endpoint, website, or other URL and let you know whenever downtime occurs (typically within 1 to 2 minutes).
 
-To create a new uptime monitor, simply enter the URL and select which team members should be notified of a system outage. There's no need to create a collection. You can customize how often the monitor checks the availability of the URL. You can also configure the monitor to run in multiple regions (paid plans only).
+To create a new uptime monitor, simply enter the URL and select which team members should be notified of a system outage. You can customize how often the monitor checks the availability of the URL. You can also configure the monitor to run in multiple regions (paid plans only).
 
 Use the uptime monitor dashboard to quickly check if the API endpoint is currently up or down and the average response time. You can also view previous downtime incidents and get insights into the availability of the endpoint over time.
 
@@ -20,7 +20,6 @@ Use the uptime monitor dashboard to quickly check if the API endpoint is current
 ## Contents
 
 * [Creating an uptime monitor](#creating-an-uptime-monitor)
-    * [Managing downtime notifications](#managing-downtime-notifications)
 * [Viewing uptime results](#viewing-uptime-monitor-results)
     * [Viewing the uptime graph](#viewing-the-uptime-graph)
     * [Viewing downtime incidents](#viewing-downtime-incidents)
@@ -29,7 +28,7 @@ Use the uptime monitor dashboard to quickly check if the API endpoint is current
 
 ## Creating an uptime monitor
 
-Create a new uptime monitor to track the availability of a single API endpoint, website, or other URL.
+Create a new uptime monitor to track the availability of a single API endpoint, website, or other URL. The uptime monitor sends an email notification to your team whenever downtime is detected, or when the service is once again up and available.
 
 1. Select **Monitors** in the left sidebar, and then select the plus **+** button.
 1. Select **Create an Uptime Monitor** in the right pane.
@@ -37,7 +36,7 @@ Create a new uptime monitor to track the availability of a single API endpoint, 
 1. For **Monitor name**, enter a descriptive name that will help you identify the monitor later.
 1. Configure any optional details for the monitor:
 
-    * **Notification recipients:** Add up to five members of your team to be notified when downtime occurs.
+    * **Notification recipients:** Add up to five members of your Postman team to be notified when downtime occurs.
     * **Run frequency:** Select how often the monitor checks the availability of the URL, up to every minute (paid plans) or every five minutes (free plans).
     * **Regions:** Select one or more regions to run the monitor from (paid plans only). If downtime occurs in any selected region, a notification is sent. (For free plans, the region is automatically selected.)
     * **Follow redirects:** Select this option to exclude redirects from being classified as service downtime.
@@ -45,12 +44,6 @@ Create a new uptime monitor to track the availability of a single API endpoint, 
 1. Select **Create Uptime Monitor**.
 
 <img alt="Creating an uptime monitor" src="https://assets.postman.com/postman-docs/monitors-uptime-create-v9-9.jpg" width="491px"/>
-
-### Managing downtime notifications
-
-Uptime monitors send email notifications to your team whenever downtime is detected. To customize email notifications, select the bell <img alt="Bell icon" src="https://assets.postman.com/postman-docs/icon-notification-bell-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> in the Postman header and select **Manage Preferences**.
-
-You can also set up an integration to receive [downtime notifications in Slack](/docs/integrations/available-integrations/slack/). Or create a [custom webhook](/docs/integrations/webhooks/) to send downtime data to another application or system that you specify.
 
 ## Viewing uptime monitor results
 
@@ -73,7 +66,7 @@ The **Uptime** graph shows the status of the monitored endpoint URL during the s
 
     > If you selected the **Follow redirects** option when configuring the monitor, 3xx status codes are not considered as downtime.
 
-* **Unknown:** (Gray) Postman cannot determine the status of the URL because the monitor is paused or for some other unexpected reason.
+* **Unknown:** (Gray) Postman cannot determine the status of the URL because the monitor is paused, because the monitor did not exist during the displayed time period, or for some other unexpected reason.
 
 Select the binoculars icon <img alt="Binoculars icon" src="https://assets.postman.com/postman-docs/icon-uptime-binoculars.jpg" width="16px" style="vertical-align:middle;margin-bottom:5px"> to view a summary for all regions, or select the globe icon <img alt="Globe icon" src="https://assets.postman.com/postman-docs/icon-uptime-globe.jpg" width="16px" style="vertical-align:middle;margin-bottom:5px"> to view data for each region separately.
 
