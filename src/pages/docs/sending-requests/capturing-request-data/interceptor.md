@@ -77,9 +77,9 @@ After Interceptor is connected, you can then start an Interceptor debug session,
 
 1. Go to the **Via Interceptor** tab of the **Capture requests and cookies** window.
 
-1. Optionally, Interceptor can sync cookies from specific domains between your browser and Postman. Enter the domain then select **Add domain**. Once you have added the domain or domains, select **Sync cookies**. For more details, see the [Syncing  cookies](#syncing-cookies) section.
+1. Optionally, Interceptor can sync cookies from specific domains between your browser and Postman. Enter the domain then select **Add domain**. Once you have added the domain or domains, select **Sync cookies**. For more details, see [Syncing cookies](#syncing-cookies).
 
-1. Select **Capture Cookies** if you want to capture cookies in addition to requests during the debug session. You can use these cookies in your Postman requests. For more details, see the [Capturing cookies](#capturing-cookies) section.
+1. Select **Capture Cookies** if you want to capture cookies in addition to requests during the debug session. You can use these cookies in your Postman requests. For more details, see [Capturing cookies](#capturing-cookies).
 
 1. By default, requests will be saved in a debug session in the **History** tab in the sidebar. To also save requests to a collection, select a collection from the list under **Save requests to a collection**.
 
@@ -169,7 +169,7 @@ During an Interceptor session, you can retrieve cookies from any domain and then
 
 1. When you start a new interceptor session, the captured cookies will be saved along with other network traffic. To view the captured cookies in your Interceptor debug session, select the **Cookies** tab.
 
-1. To add a captured cookie to your Postman Cookie Jar from an Interceptor debug session, select the cookie then select **+ Add to Cookie Jar**.
+1. To add a captured cookie to your Postman Cookie Jar from an Interceptor debug session, select the cookie and then select **+ Add to Cookie Jar**.
 
 ![Add a cookie to the Cookie Jar from a debug session](https://assets.postman.com/postman-docs/interceptor-add-cookie-to-jar.jpg)
 
