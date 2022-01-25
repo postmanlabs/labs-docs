@@ -2,7 +2,7 @@
 title: "Monitoring API uptime"
 order: 88
 page_id: "uptime_monitors"
-updated: 2021-12-15
+updated: 2022-1-24
 contextual_links:
 
 warning: false
@@ -56,7 +56,7 @@ You can also set up an integration to receive [downtime notifications in Slack](
 
 To view results for an uptime monitor, select **Monitors** in the left sidebar, and then select a monitor to view its dashboard. Use the dashboard to quickly check if an API endpoint is currently up or down, for how long, and the number of regions where it's failing.
 
-You can also view key statistics for the selected time period, such as the percentage of time the endpoint has been available, the number of downtime incidents, and the average  in milliseconds.
+You can also view key statistics for the selected time period, such as the percentage of time the endpoint has been available, the number of downtime incidents, and the average response time in milliseconds.
 
 To change the time period displayed, select a different time period in the menu at the upper right.
 

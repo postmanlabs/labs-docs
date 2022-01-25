@@ -2,7 +2,7 @@
 title: "Setting up a collection-based monitor"
 order: 89
 page_id: "setting_up_monitor"
-updated: 2022-1-12
+updated: 2022-1-24
 contextual_links:
   - type: section
     name: "Prerequisites"
