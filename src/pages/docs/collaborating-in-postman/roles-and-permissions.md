@@ -105,18 +105,16 @@ The following roles control access at a workspace level:
 
 | Action | Admin | Editor | Viewer |
 | --- | --- | --- | --- |
-| Create workspaces | &#x2714; | | |
-| Delete workspaces | &#x2714; | | |
-| Edit workspace details | &#x2714; | | |
 | Join and leave workspaces | &#x2714; | &#x2714; | &#x2714; |
-| Add members | &#x2714; | | |
-| Remove members | &#x2714; | | |
-| Manage workspace roles | &#x2714; | | |
-| Manage workspace visibility | &#x2714;&ast; | | |
+| Send requests | &#x2714; | &#x2714; | &#x2714; |
 | Add and remove APIs, collections, and environments | &#x2714; | &#x2714; | |
 | Manage integrations | &#x2714; | &#x2714; | |
 | Add monitors and mock servers | &#x2714; | &#x2714; | |
-| Send requests | &#x2714; | &#x2714; | &#x2714; |
+| Create and delete workspaces | &#x2714; | | |
+| Edit workspace details | &#x2714; | | |
+| Add and remove members | &#x2714; | | |
+| Manage workspace roles | &#x2714; | | |
+| Manage workspace visibility | &#x2714;&ast; | | |
 
 &ast; On Professional and Enterprise plans, workspace admins must request to change a workspace's visibility to public. This request will go to the [Community Manager](/docs/collaborating-in-postman/roles-and-permissions/#team-roles). On Basic and Free plans, or if a team has no Community Manager assigned, workspace admins can control visibility.
 
