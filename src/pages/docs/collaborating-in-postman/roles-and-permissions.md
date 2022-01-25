@@ -31,41 +31,38 @@ In Postman you can assign roles and permissions to provide access control.
 
 ## Contents
 
-* [Roles in Postman](#roles-in-postman)
+* [Team roles](#team-roles)
 
-    * [Team roles](#team-roles)
+    * [Managing team roles and permissions](#managing-roles-and-permissions)
 
-    * [Workspace roles](#workspace-roles)
+* [Workspace roles](#workspace-roles)
 
-    * [API roles](#api-roles)
+* [Element-based roles](#element-based-roles)
 
     * [Collection roles](#collection-roles)
+
+    * [API roles](#api-roles)
 
     * [Mock server roles](#mock-server-roles)
 
     * [Monitor roles](#monitor-roles)
 
-* [Managing roles and permissions](#managing-roles-and-permissions)
 
 * [Next steps](#next-steps)
 
-## Roles in Postman
+## Team roles
 
 As a team admin, you have the power to define Postman access at the team level. You can use Postman's role-based access control system to limit visibility of team resources, define your development workflow, and provide access to administrative and billing personnel.
 
-Workspace admins can modify the admin and collaborator roles for the workspace. Editors of particular elements (APIs, collections, environments, monitors, and mock servers) can modify the editor and viewer role on the element.
-
 With these roles, you and your teammates can manage access for each individual, or, if you are on a [Postman Enterprise plan](https://www.postman.com/pricing), for [groups](/docs/administration/managing-your-team/user-groups/).
-
-### Team roles
 
 You can [assign](/docs/administration/managing-your-team/managing-your-team/) one or more role types to your team members, based on the functions those team members require:
 
-* **Admin**: Manages team members and team settings.
 * **Super Admin**: Manages everything within a team, including team settings, members, roles, and resources in [public, team, or private workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#changing-workspace-visibility). Team members with this role can perform all actions that Admin, Billing, Community Manager, and Developer roles can perform ([Enterprise plans only](https://www.postman.com/pricing)).
+* **Admin**: Manages team members and team settings.
 * **Billing**: Manages team plan and payments. Billing roles can be granted by a Super Admin or by a fellow team member with a billing role. If this is not possible, contact our [Support Center](https://support.postman.com/hc/en-us).
-* **Developer**: Has access to all team resources and workspaces.
 * **Community Manager**: Manages the public visibility of workspaces and team profile ([Professional and Enterprise plans only](https://www.postman.com/pricing)).
+* **Developer**: Has access to all team resources and workspaces.
 
 Each user must have at least one role attached to them, and can hold multiple roles simultaneously. Members with a Developer role consume a paid slot on the team, while those who have only Admin or Billing roles become Support Users and don’t consume paid slots. Your team can have two Support Users.
 
@@ -93,7 +90,13 @@ Team roles provide high-level access control:
 
 &ast;&ast; Enterprise and Professional plans only
 
-### Workspace roles
+### Managing team roles and permissions
+
+To learn how to manage team roles and permissions, see the [Managing your team](/docs/administration/managing-your-team/managing-your-team/) guide.
+
+## Workspace roles
+
+Workspace admins can modify the admin and collaborator roles for the workspace.
 
 You can [assign](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#managing-workspace-roles) three role types in Postman workspaces: **Admin**, **Editor** and **Viewer**.
 
@@ -117,6 +120,32 @@ The following roles control access at a workspace level:
 | Manage workspace visibility | &#x2714;&ast; | | |
 
 &ast; On Professional and Enterprise plans, workspace admins must request to change a workspace's visibility to public. This request will go to the [Community Manager](/docs/collaborating-in-postman/roles-and-permissions/#team-roles). On Basic and Free plans, or if a team has no Community Manager assigned, workspace admins can control visibility.
+
+## Element-based roles
+
+Editors of Postman collections, APIs, mock servers, and monitors can modify the editor and viewer roles on the element.
+
+### Collection roles
+
+You can [assign](/docs/administration/managing-your-team/managing-your-team/) two role types in Postman collections: **Editor** and **Viewer**.
+
+* **Editor**: Can edit collections directly
+* **Viewer**: Can view, fork, and export collections
+
+The following roles control access at a collection level:
+
+| Collections |  Editor  | Viewer |
+| ---   |   ---     | ---   |
+| Edit and delete collections |    &#x2714;   |     |
+| Manage roles on collections  |  &#x2714;   |   |
+| Export collections  |   &#x2714;   | &#x2714;   |
+| Fork collections |   &#x2714;   | &#x2714;   |
+| Merge forks on collections  |    &#x2714;     |    |
+| Publish collection documentation and add to API Network  |   &#x2714;  |   |
+| Share collections to a different workspace  |  &#x2714;  | &#x2714;   |
+| Tag and restore collection versions   |  &#x2714;   |   |
+| Add, edit, and delete mock servers  |    &#x2714;      |   |
+| Add, edit, and delete monitors |    &#x2714;   |     |
 
 ### API roles
 
@@ -142,28 +171,6 @@ The following roles control access at an API level:
 | Add and remove API test suites, integration tests, and contract tests |   &#x2714;  | &#x2714;   |
 | Add and remove API monitors |   &#x2714;  | &#x2714;   |
 | Add and remove API mock servers |   &#x2714;  | &#x2714;   |
-
-### Collection roles
-
-You can [assign](/docs/administration/managing-your-team/managing-your-team/) two role types in Postman collections: **Editor** and **Viewer**.
-
-* **Editor**: Can edit collections directly
-* **Viewer**: Can view, fork, and export collections
-
-The following roles control access at a collection level:
-
-| Collections |  Editor  | Viewer |
-| ---   |   ---     | ---   |
-| Edit and delete collections |    &#x2714;   |     |
-| Manage roles on collections  |  &#x2714;   |   |
-| Export collections  |   &#x2714;   | &#x2714;   |
-| Fork collections |   &#x2714;   | &#x2714;   |
-| Merge forks on collections  |    &#x2714;     |    |
-| Publish collection documentation and add to API Network  |   &#x2714;  |   |
-| Share collections to a different workspace  |  &#x2714;  | &#x2714;   |
-| Tag and restore collection versions   |  &#x2714;   |   |
-| Add, edit, and delete mock servers  |    &#x2714;      |   |
-| Add, edit, and delete monitors |    &#x2714;   |     |
 
 ## Mock server roles
 
@@ -200,10 +207,6 @@ Edit and delete monitor | &#x2714; |
 Run, pause, and resume monitor | &#x2714; |
 Move monitor | &#x2714; |
 Update monitor roles | &#x2714; |
-
-## Managing roles and permissions
-
-To learn how to manage team roles, see the [Managing your team](/docs/administration/managing-your-team/managing-your-team/) guide.
 
 ## Next steps
 
