@@ -185,6 +185,24 @@ Edit and delete mock servers | &#x2714; |
 Manage mock server roles | &#x2714; |
 Move mock server | &#x2714; |
 
+## Monitor roles
+
+You can [assign](/docs/administration/managing-your-team/managing-your-team/) two role types for Postman monitors: **Editor** and **Viewer**.
+
+* **Editor**: Can view monitor metadata, metrics, jobs, and runs. Can run, update, delete, pause, and resume the monitor.
+* **Viewer**: Can view monitor metadata, metrics, jobs, and runs.
+
+Monitor server | Editor | Viewer
+--- | --- | ---
+View monitor | &#x2714; | &#x2714;
+View monitor metadata, results, activity, and summary metrics | &#x2714; | &#x2714;
+Create monitor read integrations | &#x2714; | &#x2714;
+View monitor based integrations | &#x2714; | &#x2714;
+Edit and delete monitor | &#x2714; |
+Run, pause, and resume monitor | &#x2714; |
+Move monitor | &#x2714; |
+Update monitor roles | &#x2714; |
+
 ## Managing roles and permissions
 
 To learn how to manage team roles, see the [Managing your team](/docs/administration/managing-your-team/managing-your-team/) guide.
