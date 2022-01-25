@@ -85,7 +85,7 @@ To make your documentation even more valuable to users, [add descriptions](/docs
 
 ## Generating API documentation
 
-The **Documentation** tab in the API builder provides one place to view, create, and manage all of your API's documentation. Postman automatically generates API docs for any OpenAPI 3.0 compliant schema defined in the API Builder. You can also add detailed documentation to any API by generating a collection from the API or by linking to an existing collection.
+The **Documentation** tab in the API Builder provides one place to view, create, and manage all of your API's documentation. Postman automatically generates API docs for any OpenAPI 3.0-compliant schema defined in the API Builder. You can also add detailed documentation to any API by generating a collection from the API or by linking to an existing collection.
 
 > A collection can be linked to only one version of an API. If you [create a new version](/docs/designing-and-developing-your-api/versioning-an-api/) of your API, you'll also need to generate a new collection to hold that version's documentation. To learn more, see [Versioning your docs](#versioning-your-docs).
 
