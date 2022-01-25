@@ -5,6 +5,13 @@ page_id: "team_settings"
 warning: false
 contextual_links:
   - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Checklist for a Great Team Profile | Postman Level Up"
+    url: "https://youtu.be/Ud_rq-VwO4s"
+  - type: section
     name: "Next Steps"
   - type: link
     name: "Working with your team"

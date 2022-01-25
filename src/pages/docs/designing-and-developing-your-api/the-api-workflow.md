@@ -27,8 +27,8 @@ contextual_links:
     name: "Announcing 6 Key Platform Improvements"
     url: "https://blog.postman.com/announcing-new-postman-api-platform/"
   - type: link
-    name: "Problem: Spreadsheets. Solution: Specifications"
-    url: "https://blog.postman.com/problem-spreadsheets-solution-specifications/"
+    name: "The 8-Point API Lifecycle Blueprint"
+    url: "https://blog.postman.com/api-lifecycle-blueprint/"
   - type: section
     name: "Next Steps"
   - type: link
