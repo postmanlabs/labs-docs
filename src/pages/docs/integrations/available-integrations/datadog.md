@@ -109,7 +109,7 @@ If you have previously created any integrations, you must update them to take th
 
 1. Select **Update Now**, then select **Update Integration** on the confirmation box to upgrade the Integration.
 
-    [![Datadog upgrade integration](https://assets.postman.com/postman-docs/datadog-integration-upgrade.jpg)](https://assets.postman.com/postman-docs/datadog-integration-upgrade.jpg)
+    [![Datadog upgrade integration](https://assets.postman.com/postman-docs/datadog-integration-update-now.jpg)](https://assets.postman.com/postman-docs/datadog-integration-update-now.jpg)
 
 1. Select **Confirm**.
 
