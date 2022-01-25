@@ -41,6 +41,10 @@ In Postman you can assign roles and permissions to provide access control.
 
     * [Collection roles](#collection-roles)
 
+    * [Mock server roles](#mock-server-roles)
+
+    * [Monitor roles](#monitor-roles)
+
 * [Managing roles and permissions](#managing-roles-and-permissions)
 
 * [Next steps](#next-steps)
@@ -162,6 +166,24 @@ The following roles control access at a collection level:
 | Tag and restore collection versions   |  &#x2714;   |   |
 | Add, edit, and delete mock servers  |    &#x2714;      |   |
 | Add, edit, and delete monitors |    &#x2714;   |     |
+
+## Mock server roles
+
+You can [assign](/docs/administration/managing-your-team/managing-your-team/) two role types for Postman mock servers: **Editor** and **Viewer**.
+
+* **Editor**: Can edit mock servers directly
+* **Viewer**: Can view mock servers and associated metadata
+
+The following roles control access at the mock server level:
+
+Mock server | Editor | Viewer
+--- | --- | ---
+View mock server | &#x2714; | &#x2714;
+View mock server call logs and call log details | &#x2714; | &#x2714;
+View mock server metadata | &#x2714; | &#x2714;
+Edit and delete mock servers | &#x2714; |
+Manage mock server roles | &#x2714; |
+Move mock server | &#x2714; |
 
 ## Managing roles and permissions
 
