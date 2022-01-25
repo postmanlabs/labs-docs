@@ -2,6 +2,7 @@
 title: "Viewing documentation"
 order: 104
 page_id: "viewing_documentation"
+updated: 2022-1-24
 contextual_links:
   - type: section
     name: "Prerequisites"
