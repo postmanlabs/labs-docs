@@ -53,9 +53,9 @@ For navigating large responses, select the down arrows on the left of a line to 
 
 ### Raw
 
-[![raw view](https://assets.postman.com/postman-docs/58538811.png)](https://assets.postman.com/postman-docs/58538811.png)
+The Raw view is a large text area with the response body. It can indicate whether your response is minified.
 
-The raw view is a large text area with the response body. It can indicate whether your response is minified.
+<img alt="Response Raw view" src="https://assets.postman.com/postman-docs/response-raw-view.jpg" width="300px"/>
 
 ### Preview
 
