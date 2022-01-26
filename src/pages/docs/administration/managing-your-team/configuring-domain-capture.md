@@ -3,7 +3,7 @@ title: "Configuring domain capture"
 order: 143
 page_id: "configuring_domain_capture"
 warning: false
-updated: 2021-12-12
+updated: 2022-01-26
 contextual_links:
   - type: section
     name: "Additional Resources"
