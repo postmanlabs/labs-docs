@@ -6,11 +6,6 @@ warning: false
 updated: 2021-12-12
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Configuring SSO for a team"
-    url: "/docs/administration/sso/admin-sso/"
-  - type: section
     name: "Additional Resources"
   - type: subtitle
     name: "Related Blog Posts"
@@ -24,15 +19,28 @@ contextual_links:
 
 Domain capture allows you to identify and manage all user accounts in Postman that have been created with your organization’s domains and subdomains. With this feature, you can consolidate all of your organization's Postman users into a single Postman team and ensure that any new users who sign up for Postman with your domain are automatically added.
 
-You must be a [Postman team admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) to enable domain capture for your team. Your team must also have [SSO](/docs/administration/sso/admin-sso/) configured and alternative authentication methods (Postman or Google login) disabled prior to setting up domain capture.
-
 ## Contents
+
+* [Prerequisites for domain capture](#prerequisites-for-domain-capture)
 
 * [Enabling domain capture](#enabling-domain-capture)
 
 * [Admin experience](#admin-experience)
 
 * [User experience](#user-experience)
+
+## Prerequisites for domain capture
+
+You must be a [Postman team admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) to enable domain capture for your team.
+
+In addition, domain capture requires the following:
+
+* Your team must be on the [Postman Enterprise](https://www.postman.com/pricing) plan.
+* Your team must be on [Postman version V9](/docs/administration/upgrading/).
+* [SSO](/docs/administration/sso/admin-sso/) must be configured and enabled.
+    * Alternative authentication methods (Postman or Google login) must be disabled.
+
+It is recommended that you enable [SSO provisioning](/docs/administration/managing-your-team/configuring-scim/) to ease the process of onboarding new users and [auto-flex](/docs/administration/billing/#utilizing-auto-flex) to ensure that your team can automatically accommodate all users that may be added to your Postman team when domain capture is enabled.
 
 ## Enabling domain capture
 
