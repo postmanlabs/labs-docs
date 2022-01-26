@@ -20,9 +20,9 @@ contextual_links:
 
 ---
 
-[Apigee X](https://cloud.google.com/apigee) enables developers to manage access to their APIs by abstracting services behind a secure proxy layer. Once connected to Apigee X, you can view your API deployment status and history from within Postman. This integration supports OpenAPI 3.0 schemas.
+[Apigee X](https://cloud.google.com/apigee) enables developers to manage access to their APIs by abstracting services behind a secure proxy layer. Once connected to Apigee X, you can view your API deployment status and history from within Postman.
 
-> Connecting to Apigee Edge from Postman is not supported.
+> You can only connect Postman to organizations and proxies hosted in Apigee X. Connecting to Apigee Edge from Postman is not supported.
 
 ## Contents
 
@@ -33,7 +33,7 @@ contextual_links:
 
 To connect to Apigee X in Postman, select **APIs** in the left sidebar, and then select the API and version you want to connect. Select the **Deployments** tab, and then select **Apigee X**.
 
-<img alt="Connecting to AWS API Gateway" src="https://assets.postman.com/postman-docs/deployments-aws-api-gateway-v9-5.jpg" width="915px"/>
+<img alt="Connecting to AWS API Gateway" src="https://assets.postman.com/postman-docs/deployments-api-gateway-v9-11.jpg" width="916px"/>
 
 You will be asked to authenticate Apigee using your Google account. Next, enter information about the connection to Apigee X:
 
