@@ -79,7 +79,7 @@ Cookies sent by the server are visible in a dedicated tab. To [manage cookies](/
 
 [![headers tab](https://assets.postman.com/postman-docs/58539000.png)](https://assets.postman.com/postman-docs/58539000.png)
 
-Headers are displayed as key-value pairs under the **Headers** tab. Hovering over the header name can give you a description of the header according to the HTTP spec. If you are sending a HEAD request, Postman will show the headers tab by default.
+Headers are displayed as key-value pairs under the **Headers** tab. Hovering over the header name can give you a description of the header according to the HTTP specification. If you are sending a HEAD request, Postman will show the headers tab by default.
 
 ## Test results
 
