@@ -51,7 +51,7 @@ The Pretty mode formats JSON or XML responses so they are easier to view. Links 
 
 #### Forcing JSON formatting
 
-For Postman to automatically format the body, make sure the appropriate Content-Type header is returned. If not, you can force formatting through JSON. You can force JSON formatting under the **General** tab in the **SETTINGS** modal. To do so, select **JSON** from the **Language detection** dropdown list.
+For Postman to automatically format the body, make sure the appropriate Content-Type header is returned. If not, you can force formatting through JSON. You can force JSON formatting under the **General** tab in the **Settings** modal. To do so, select **JSON** from the **Language detection** dropdown list.
 
 <img alt="Language detection" src="https://assets.postman.com/postman-docs/language-detection-json.jpg"/>
 
@@ -75,7 +75,7 @@ If your API endpoint returns an image, Postman will detect and render it automat
 
 ## Cookies
 
-Cookies sent by the server are visible in a dedicated tab. To [manage cookies](/docs/sending-requests/cookies/) in Postman the native apps, use the **MANAGE COOKIES** modal. If you're working in the Postman Chrome app, you can use the [Interceptor extension](/docs/sending-requests/capturing-request-data/interceptor/) to help manage cookies.
+Cookies sent by the server are visible in a dedicated tab. To [manage cookies](/docs/sending-requests/cookies/) in Postman the native apps, use the **Manage Cookies** modal. If you're working in the Postman Chrome app, you can use the [Interceptor extension](/docs/sending-requests/capturing-request-data/interceptor/) to help manage cookies.
 
 ## Headers
 
