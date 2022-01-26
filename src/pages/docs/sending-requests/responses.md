@@ -37,14 +37,6 @@ The Postman response viewer helps to ensure the correctness of API responses. An
 
 The response also contains the HTTP specification default description. However, API authors can also add custom messages.
 
-## Saving responses
-
-[![save response button](https://assets.postman.com/postman-docs/58538745.png)](https://assets.postman.com/postman-docs/58538745.png)
-
-If a request has been saved in a collection, you can save responses for that request. Once the response has been returned, click the **Save Response** button. Enter a name to call your saved response. All responses saved for a request will be available as an [example](/docs/sending-requests/examples/) whenever you load the request. Click the **Examples** dropdown in the top right to view and select the saved examples.
-
-[![access saved responses](https://assets.postman.com/postman-docs/examplesDropdown.png)](https://assets.postman.com/postman-docs/examplesDropdown.png)
-
 ## Viewing responses
 
 The Postman **Body** tab gives you several tools to help you understand the response quickly. You can view the body in one of three views - pretty, raw, and preview.
@@ -124,3 +116,12 @@ Cookies sent by the server are visible in a dedicated tab. To [manage cookies](/
 ## Tests
 
 You can also see the results of the tests that were run against the request. Learn more about [testing](/docs/writing-scripts/test-scripts/) in Postman.
+
+## Saving responses
+
+If a request has been saved in a collection, you can save responses for that request. Once the response has been returned, select **Save Response**.
+
+* Select **Save as example** to save the response as an [example](/docs/sending-requests/examples/) that you can access later.
+* Select **Save to a file** to save the response as a JSON file.
+
+    <img alt="Save an API response as an example or file" src="https://assets.postman.com/postman-docs/save-response.jpg" width="300px"/>
