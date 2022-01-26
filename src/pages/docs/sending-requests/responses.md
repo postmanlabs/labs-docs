@@ -43,15 +43,13 @@ The Postman **Body** tab gives you several tools to help you understand the resp
 
 ### Pretty
 
-[![pretty view](https://assets.postman.com/postman-docs/58538803.png)](https://assets.postman.com/postman-docs/58538803.png)
+The Pretty mode formats JSON or XML responses so they are easier to view. Links inside Pretty mode are highlighted, and selecting them can load a GET request in Postman with the link URL.
 
-The Pretty mode formats JSON or XML responses so they are easier to view. Links inside Pretty mode are highlighted, and selecting them can load a GET request in Postman with the link URL. For navigating large responses, select the down-pointing triangles on the left of a line to collapse large sections of the response.
+For navigating large responses, select the down arrows on the left of a line to collapse large sections of the response.
 
-#### Forcing JSON formatting
+<img alt="Response Pretty view" src="https://assets.postman.com/postman-docs/response-pretty-view.jpg" width="400px"/>
 
-For Postman to automatically format the body, make sure the appropriate Content-Type header is returned. If not, you can force formatting through JSON. You can force JSON formatting under the **General** tab in the **Settings** modal. To do so, select **JSON** from the **Language detection** dropdown list.
-
-<img alt="Language detection" src="https://assets.postman.com/postman-docs/language-detection-json.jpg"/>
+> **Forcing JSON formatting**. For Postman to automatically format the body, the response must have the appropriate Content-Type header. If you receive a response with a different Content-Type header, you can force formatting through JSON. In the Postman header, select the gear icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-gear-outline-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px">, then select **Settings**. In the **General** tab, select **JSON** from the **Language detection** dropdown.
 
 ### Raw
 
@@ -73,7 +71,7 @@ If your API endpoint returns an image, Postman will detect and render it automat
 
 ## Cookies
 
-Cookies sent by the server are visible in a dedicated tab. To [manage cookies](/docs/sending-requests/cookies/) in Postman the native apps, use the **Manage Cookies** modal. If you're working in the Postman Chrome app, you can use the [Interceptor extension](/docs/sending-requests/capturing-request-data/interceptor/) to help manage cookies.
+Cookies sent by the server are visible in a dedicated tab. To [manage cookies](/docs/sending-requests/cookies/) in Postman, use the **Manage Cookies** modal. If you're working in the Postman Chrome app, you can use the [Interceptor extension](/docs/sending-requests/capturing-request-data/interceptor/) to help manage cookies.
 
 ## Headers
 
