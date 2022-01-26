@@ -33,9 +33,7 @@ warning: false
 
 ---
 
-The Postman response viewer helps to ensure the correctness of API responses. An API response consists of the body, headers, and the status code. Postman organizes body and headers in different tabs. The status code and the completion time of the API call is visible next to the tabs.
-
-The response also contains the HTTP specification default description. However, API authors can also add custom messages.
+The Postman response viewer helps you to visualize and verify the correctness of API responses. An API response consists of the response body, headers, and the HTTP status code.
 
 ## Viewing responses
 
@@ -118,6 +116,8 @@ For requests that return data successfully but with a certificate verification f
 Postman displays the response code returned by the API. Hover over the response code to see a short description of the code and what it means.
 
 <img alt="Hover over the response code to see a description" src="https://assets.postman.com/postman-docs/response-code.jpg" width="300px"/>
+
+Some API responses also contain custom messages that can help you understand response codes. For example, if you receive a `401 Unauthorized` response, the message might advise you to check the token you used in the request. If custom messages are returned, they are displayed in the **Body** of the response.
 
 ## Response time
 
