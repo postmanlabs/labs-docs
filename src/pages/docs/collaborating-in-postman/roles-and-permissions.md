@@ -33,7 +33,7 @@ In Postman you can assign roles and permissions to provide access control.
 
 * [Team roles](#team-roles)
 
-    * [Managing team roles and permissions](#managing-roles-and-permissions)
+    * [Managing team roles](#managing-team-roles)
 
 * [Workspace roles](#workspace-roles)
 
@@ -47,24 +47,21 @@ In Postman you can assign roles and permissions to provide access control.
 
     * [Monitor roles](#monitor-roles)
 
-
 * [Next steps](#next-steps)
 
 ## Team roles
 
-As a team admin, you have the power to define Postman access at the team level. You can use Postman's role-based access control system to limit visibility of team resources, define your development workflow, and provide access to administrative and billing personnel.
-
-With these roles, you and your teammates can manage access for each individual, or, if you are on a [Postman Enterprise plan](https://www.postman.com/pricing), for [groups](/docs/administration/managing-your-team/user-groups/).
+As a team admin, you have the power to define Postman access at the team level. You can use Postman's role-based access control system to limit visibility of team resources, define your development workflow, and provide access to administrative and billing personnel. Each user on a team must have at least one role attached to them, and can hold multiple roles simultaneously.
 
 You can [assign](/docs/administration/managing-your-team/managing-your-team/) one or more role types to your team members, based on the functions those team members require:
 
 * **Super Admin**: Manages everything within a team, including team settings, members, roles, and resources in [public, team, or private workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#changing-workspace-visibility). Team members with this role can perform all actions that Admin, Billing, Community Manager, and Developer roles can perform ([Enterprise plans only](https://www.postman.com/pricing)).
 * **Admin**: Manages team members and team settings.
-* **Billing**: Manages team plan and payments. Billing roles can be granted by a Super Admin or by a fellow team member with a billing role. If this is not possible, contact our [Support Center](https://support.postman.com/hc/en-us).
-* **Community Manager**: Manages the public visibility of workspaces and team profile ([Professional and Enterprise plans only](https://www.postman.com/pricing)).
+* **Billing**: Manages team plan and payments. Billing roles can be granted by a Super Admin or by a fellow team member with a Billing role. If this is not possible, contact our [Support Center](https://support.postman.com/hc/en-us).
 * **Developer**: Has access to all team resources and workspaces.
+* **Community Manager**: Manages the public visibility of workspaces and team profile ([Professional and Enterprise plans only](https://www.postman.com/pricing)).
 
-Each user must have at least one role attached to them, and can hold multiple roles simultaneously. Members with a Developer role consume a paid slot on the team, while those who have only Admin or Billing roles become Support Users and don’t consume paid slots. Your team can have two Support Users.
+> If you are on a [Postman Enterprise plan](https://www.postman.com/pricing), you can also assign roles at the [group level](/docs/administration/managing-your-team/user-groups/) as well as for individual team members.
 
 Team roles provide high-level access control:
 
@@ -90,15 +87,15 @@ Team roles provide high-level access control:
 
 &ast;&ast; Enterprise and Professional plans only
 
-### Managing team roles and permissions
+> **Postman Support Users**. Members with a Developer role consume a paid slot on the team. Team members who have only Admin or Billing roles become Support Users and don’t consume paid slots. Your team can have two Support Users.
 
-To learn how to manage team roles and permissions, see the [Managing your team](/docs/administration/managing-your-team/managing-your-team/) guide.
+### Managing team roles
+
+To learn how to manage team roles in Postman, see [Managing your team](/docs/administration/managing-your-team/managing-your-team/).
 
 ## Workspace roles
 
-Workspace admins can modify the admin and collaborator roles for the workspace.
-
-You can [assign](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#managing-workspace-roles) three role types in Postman workspaces: **Admin**, **Editor** and **Viewer**.
+You can [assign](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#managing-workspace-roles) three role types in Postman workspaces: **Admin**, **Editor**, and **Viewer**.
 
 * **Admin:** Can manage workspace resources and settings
 * **Editor:** Can create and edit workspace resources
@@ -119,11 +116,11 @@ The following roles control access at a workspace level:
 | Manage workspace roles | &#x2714; | | |
 | Manage workspace visibility | &#x2714;&ast; | | |
 
-&ast; On Professional and Enterprise plans, workspace admins must request to change a workspace's visibility to public. This request will go to the [Community Manager](/docs/collaborating-in-postman/roles-and-permissions/#team-roles). On Basic and Free plans, or if a team has no Community Manager assigned, workspace admins can control visibility.
+&ast; On Professional and Enterprise plans, workspace admins must request to change a workspace's visibility to public. This request will go to the [Community Manager](#team-roles). On Basic and Free plans, or if a team has no Community Manager assigned, workspace admins can control visibility.
 
 ## Element-based roles
 
-Editors of Postman collections, APIs, mock servers, and monitors can modify the editor and viewer roles on the element.
+At the element level, you can assign roles to team members that determine their level of access to Postman [collections](#collection-roles), [APIs](#api-roles), [mock servers](#mock-server-roles), and [monitors](#monitor-roles).
 
 ### Collection roles
 
@@ -210,4 +207,4 @@ Update monitor roles | &#x2714; |
 
 ## Next steps
 
-Learn more about [Working with your team](/docs/collaborating-in-postman/collaboration-intro/).
+Learn more about [Managing your team](/docs/administration/managing-your-team/managing-your-team/), including managing roles and inviting people to join your team.
