@@ -1877,5 +1877,8 @@
 	},
 	{	"from": "/docs/monitoring-your-api/integrations-for-alerts/",
 		"to": "/docs/running-collections/collection-webhooks/"
+	},
+	{	"from": "/docs/designing-and-developing-your-api/deploying-an-api/",
+		"to": "/docs/designing-and-developing-your-api/deploying-an-api/deploying-an-api-overview/"
 	}
 ]
