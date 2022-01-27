@@ -93,15 +93,13 @@ To learn more about running tests against API requests in Postman, see [Writing 
 
 ## Network information
 
-Postman will display network data when your API returns a response.
+Postman displays network information when your API returns a response. Hover over the globe icon <img alt="Refresh icon" src="https://assets.postman.com/postman-docs/icon-uptime-globe.jpg" width="14px" style="vertical-align:middle;margin-bottom:5px"> to see the local and remote IP addresses for the request you sent.
 
-Hover over the globe icon to see the local and remote IP addresses for the request you sent.
+When you make an `https` request, the globe icon includes a padlock. When you hover over the icon, the network information will show additional information including [certificate verification](/docs/sending-requests/certificates/) details.
 
-[![Network info](https://assets.postman.com/postman-docs/network-info-non-https.jpg)](https://assets.postman.com/postman-docs/network-info-non-https.jpg)
+<img alt="Hover over the globe icon to see network information" src="https://assets.postman.com/postman-docs/https-network-info-response.jpg" width="300px"/>
 
-When you make `https` requests, the __Network__ information will display a padlock and will include detail of any [certificate verification](/docs/sending-requests/certificates/).
-
-[![Network info](https://assets.postman.com/postman-docs/network-info-response.jpg)](https://assets.postman.com/postman-docs/network-info-response.jpg)
+### SSL verification errors
 
 If you have __SSL verification__ enabled in the global settings and verification fails, Postman will indicate the error in the response area. Select the link to disable verification globally and immediately run the request again. _If SSL is disabled globally but enabled for your request, you will see the error and a link to open the console._
 
