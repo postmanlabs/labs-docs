@@ -75,11 +75,11 @@ The Visualize view renders the data in the API response according to visualizati
 
 ## Cookies
 
-Cookies sent by the server are visible in a dedicated tab. To [manage cookies](/docs/sending-requests/cookies/) in Postman, use the **Manage Cookies** modal. If you're working in the Postman Chrome app, you can use the [Interceptor extension](/docs/sending-requests/capturing-request-data/interceptor/) to help manage cookies.
+You can see cookies sent by the server in the **Cookies** tab. A cookie's entry includes its name, value, the associated domain and path, and other information about the cookie.
+
+To learn more about working with cookies in Postman, see  [Using cookies](/docs/sending-requests/cookies/).
 
 ## Headers
-
-[![headers tab](https://assets.postman.com/postman-docs/58539000.png)](https://assets.postman.com/postman-docs/58539000.png)
 
 Headers are displayed as key-value pairs under the **Headers** tab. Hovering over the header name can give you a description of the header according to the HTTP specification. If you are sending a HEAD request, Postman will show the headers tab by default.
 
