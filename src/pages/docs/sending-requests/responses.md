@@ -41,6 +41,8 @@ The Postman **Body** tab gives you several tools to help you understand the resp
 
 > **Finding items in responses:** To open the search bar, select the magnifying glass icon on the results pane. You can also place your cursor in the response and select **⌘+F** or **Ctrl+F**. This option is not available in a response's Preview or Visualize views.
 
+Note that if the response's Content-Type header indicates that the response is an image, Postman will detect and render the image automatically.
+
 ### Pretty
 
 The Pretty mode formats JSON or XML responses so they are easier to view. Links inside Pretty mode are highlighted, and selecting them can load a GET request in Postman with the link URL.
@@ -59,13 +61,11 @@ The Raw view is a large text area with the response body. It can indicate whethe
 
 ### Preview
 
-[![view as preview](https://assets.postman.com/postman-docs/58538940.png)](https://assets.postman.com/postman-docs/58538940.png)
+The Preview view renders the response in a sandboxed iframe. Some web frameworks by default return HTML errors, and Preview can be especially helpful for debugging in those cases.
 
-The preview tab renders the response in a sandboxed iframe. Some web frameworks by default return HTML errors and the preview mode is especially helpful. Due to iframe sandbox restrictions, JavaScript and images are disabled in the iframe.
+Due to iframe sandbox restrictions, JavaScript and images are disabled in the iframe. For binary response types, you should select “Send and download” which will let you save the response to your hard disk. You can then view it using the appropriate viewer. This gives you the flexibility to test audio files, PDFs, zip files, or any other file types the API returns.
 
-You can maximize the body to occupy the whole Postman window. Use this view if you plan to work with the response for an extended period of time.
-
-If your API endpoint returns an image, Postman will detect and render it automatically. For binary response types, you should select “Send and download” which will let you save the response to your hard disk. You can then view it using the appropriate viewer. This gives you the flexibility to test audio files, PDFs, zip files, or anything that the API throws at you.
+<img alt="Response Preview view" src="https://assets.postman.com/postman-docs/response-preview-view.jpg" width="300px"/>
 
 ### Visualize
 
