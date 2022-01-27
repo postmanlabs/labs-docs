@@ -35,23 +35,36 @@ warning: false
 
 The Postman response viewer helps you to visualize and verify the correctness of API responses. An API response consists of the response body, headers, and the HTTP status code.
 
-## Viewing the response body
+## Contents
+
+* [Response body](#response-body)
+* [Cookies](#cookies)
+* [Headers](#headers)
+* [Test results](#test-results)
+* [Network information](#network-information)
+    * [SSL verification errors](#ssl-verification-errors)
+* [Response code](#response-code)
+* [Response time](#response-time)
+* [Response size](#response-size)
+* [Saving responses](#saving-responses)
+
+## Response body
 
 The Postman **Body** tab gives you several tools to help you understand the response quickly. You can view the body in one of four views: _Pretty_, _Raw_, _Preview_, and _Visualize_.
 
 > **Finding items in responses:** To open the search bar, select the magnifying glass icon on the results pane. You can also place your cursor in the response and select **⌘+F** or **Ctrl+F**. This option is not available in a response's Preview or Visualize views.
 
-Note that if the response's Content-Type header indicates that the response is an image, Postman will detect and render the image automatically.
+Note that if the response's `Content-Type` header indicates that the response is an image, Postman will detect and render the image automatically.
 
 ### Pretty
 
-The Pretty mode formats JSON or XML responses so they are easier to view. Links inside Pretty mode are highlighted, and selecting them can load a GET request in Postman with the link URL.
+The Pretty view formats JSON or XML responses so they are easier to view. Links inside Pretty view are highlighted, and selecting them can load a GET request in Postman with the link URL.
 
 For navigating large responses, select the down arrows on the left of a line to collapse large sections of the response.
 
 <img alt="Response Pretty view" src="https://assets.postman.com/postman-docs/response-pretty-view.jpg" width="400px"/>
 
-> **Forcing JSON formatting**. For Postman to automatically format the body, the response must have the appropriate Content-Type header. If you receive a response with a different Content-Type header, you can force formatting through JSON. In the Postman header, select the gear icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-gear-outline-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px">, then select **Settings**. In the **General** tab, select **JSON** from the **Language detection** dropdown.
+> **Forcing JSON formatting**. For Postman to automatically format the body, the response must have the appropriate `Content-Type` header. If you receive a response with a different `Content-Type` header, you can force formatting through JSON. In the Postman header, select the gear icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-gear-outline-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px">, then select **Settings**. In the **General** tab, select **JSON** from the **Language detection** dropdown.
 
 ### Raw
 
@@ -133,7 +146,7 @@ Postman automatically calculates the time in milliseconds it took for the respon
 
 ## Response size
 
-Hover over the response size to see the response size, broken down by body and headers. Note that these size calculations are approximate.
+Postman displays the approximate size of the reponse. Hover over the response size to see a breakdown by body and header sizes.
 
 ## Saving responses
 
