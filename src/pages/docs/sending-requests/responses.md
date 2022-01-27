@@ -87,7 +87,9 @@ Headers are displayed as key-value pairs under the **Headers** tab. Hover over t
 
 ## Test results
 
-You can also see the results of the tests that were run against the request. Learn more about [testing](/docs/writing-scripts/test-scripts/) in Postman.
+If the API request you are viewing had any test scripts, the results are displayed in the **Test Results** tab.
+
+To learn more about running tests against API requests in Postman, see [Writing tests](/docs/writing-scripts/test-scripts/).
 
 ## Network information
 
