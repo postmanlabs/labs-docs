@@ -20,7 +20,7 @@ contextual_links:
 
 ---
 
-Stay on top of your API deployments in Postman by connecting to an API gateway. Postman integrates with popular API gateways, including [Amazon API Gateway](https://aws.amazon.com/api-gateway/) and [Apigee X](https://cloud.google.com/apigee). Once connected to an API gateway, you can view your API deployment status and history from within Postman. For some APIs, you can even deploy a new release of your API directly from Postman to your API gateway.
+Stay on top of your API deployments in Postman by connecting to an API gateway. Postman integrates with popular API gateways, including [Amazon API Gateway](https://aws.amazon.com/api-gateway/) and [Apigee X](https://cloud.google.com/apigee). Once connected to an API gateway, you can view your API deployment status and history from within Postman.
 
 ## Contents
 

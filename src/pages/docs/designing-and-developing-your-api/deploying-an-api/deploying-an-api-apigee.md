@@ -35,7 +35,9 @@ To connect to Apigee X in Postman, select **APIs** in the left sidebar, and then
 
 <img alt="Connecting to AWS API Gateway" src="https://assets.postman.com/postman-docs/deployments-api-gateway-v9-11.jpg" width="916px"/>
 
-You will be asked to authenticate Apigee using your Google account. Next, enter information about the connection to Apigee X:
+You will be asked to authenticate with Apigee using your Google account. Make sure to use the Google account associated with your Apigee organization.
+
+Next, enter information about the connection to Apigee X:
 
 1. Select the **Organization** that contains the proxy you want to connect to Postman.
 1. Enter a **Nickname** for this integration.
@@ -43,7 +45,7 @@ You will be asked to authenticate Apigee using your Google account. Next, enter 
 1. Select one or more environments where you deploy your API in Apigee X.
 1. Select **Connect**.
 
-<img alt="Connecting with AWS access key" src="https://assets.postman.com/postman-docs/connect-to-api-gateway-with-access-key-v9-5.jpg" width="502px"/>
+<img alt="Connecting with AWS access key" src="https://assets.postman.com/postman-docs/apigee-connect-gateway-v9-11.jpg" width="470px"/>
 
 ## Viewing Apigee X deployments
 
@@ -53,12 +55,11 @@ After connecting to Apigee X, you can view the deployment status and history for
 * For each proxy endpoint, you can view the name and base paths.
 * For each Apigee environment, you can view the description, date last updated, status, deployed revision, and deployment date.
 
-<img alt="Viewing API deployments" src="https://assets.postman.com/postman-docs/api-gateway-view-deployments-v9-8.jpg" width="946px"/>
+<img alt="Viewing API deployments" src="https://assets.postman.com/postman-docs/apigee-view-deployments-v9-11.jpg" width="853px"/>
 
 From the **Deployments** tab, you can take the following actions:
 
 * To view your API proxy in Apigee X, select the **Latest revision**.
-* To view metrics for your API proxy in Apigee X, select **API Metrics**.
+* To view performance metrics for the latest revision of your API proxy in Apigee X, select **API Metrics**.
 * To see the latest deployment status, select the refresh icon <img alt="Refresh icon" src="https://assets.postman.com/postman-docs/icon-refresh-v9-5.jpg" width="14px" style="vertical-align:middle;margin-bottom:5px">.
 * To edit or delete the connection to Apigee X, select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px">.
-
