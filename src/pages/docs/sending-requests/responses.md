@@ -122,6 +122,8 @@ If SSL is disabled globally but enabled for your request, you will see the error
 
 > If you select **Disable SSL Verification** in the error message, you will need to turn it back on if you want to verify certificates for future requests. To enable it globally, select the gear icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-gear-outline-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> in the Postman header and then select **Settings**. In the **General** tab, select the **SSL certificate verification** toggle.
 
+<!--  -->
+
 > To enable SSL verification for only the current request, select the **Settings** tab in the request, and then select the **Enable SSL certificate verification** toggle.
 
 If you have **SSL verification** turned off and your request returns a certificate verification error, you will see the details in the network information pop-up.
