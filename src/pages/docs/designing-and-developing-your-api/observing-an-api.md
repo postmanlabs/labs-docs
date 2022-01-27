@@ -31,11 +31,11 @@ contextual_links:
 
 Postman Monitors can be used to track functionality and end-to-end performance of your APIs and response time. You can also view New Relic metrics for your API, and see relevant New Relic dashboards and deployments within Postman.
 
-* [Using monitors](#using-monitors)
+* [Linking monitors](#linking-monitors)
 * [Connecting to monitor integrations](#connecting-to-monitor-integrations)
 * [Viewing New Relic APM metrics](#viewing-new-relic-apm-metrics)
 
-## Using monitors
+## Linking monitors
 
 You can link monitors in your current workspace to an API version. This enables you to check an API's performance and response times at scheduled intervals. From an API version's **Monitoring** tab, you can [create a new monitor](#creating-a-new-monitor) or [add an existing monitor](#adding-an-existing-monitor).
 
@@ -80,7 +80,7 @@ The **Monitoring** tab in the API Builder provides one place to manage all of yo
 
 ### Adding a monitor integration
 
-Connect an API version to one or more monitoring integrations to send monitor results to other applications that are part of your API development workflow.
+Connect an API version to one or more monitoring integrations to send monitor results to other applications that are part of your API development workflow. When you add a monitor integration, the monitor is automatically [linked to the API version](#linking-monitors).
 
 1. If you haven't done so already, [create the monitor](/docs/monitoring-your-api/intro-monitors/) you want to connect to your API.
 1. Open an API version and select the **Monitoring** tab.
