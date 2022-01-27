@@ -36,7 +36,7 @@ Domain capture allows you to identify and manage all user accounts in Postman th
 You must be a [Postman team admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) to enable domain capture for your team. In addition, domain capture requires the following:
 
 * Your team must be on the [Postman Enterprise](https://www.postman.com/pricing) plan.
-* Your team must be on [Postman version V9](/docs/administration/upgrading/).
+* Your team must be on [Postman version 9](/docs/administration/upgrading/).
 * [SSO](/docs/administration/sso/admin-sso/) must be configured and enabled.
     * Alternative authentication methods (Postman or Google login) must be disabled.
 
