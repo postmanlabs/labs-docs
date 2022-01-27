@@ -15,11 +15,6 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
-    name: "Case Studies"
-  - type: link
-    name: "Giant Machines"
-    url: "https://www.postman.com/case-studies/giant-machines/"
-  - type: subtitle
     name: "Related Blog Posts"
   - type: link
     name: "Keep it DRY with collection and folder elements"
@@ -27,6 +22,16 @@ contextual_links:
   - type: link
     name: "Not your Grandma's Postman"
     url: "https://blog.postman.com/not-your-grandmas-postman/"
+  - type: subtitle
+    name: "Case Studies"
+  - type: link
+    name: "Giant Machines"
+    url: "https://www.postman.com/case-studies/giant-machines/"
+  - type: subtitle
+    name: "Public Workspaces"
+  - type: link
+    name: "Postman Answers"
+    url:  "https://www.postman.com/postman/workspace/aa5fb3b8-0090-4b5e-b3b4-fa5c1f2d080d"
   - type: section
     name: "Next Steps"
   - type: link

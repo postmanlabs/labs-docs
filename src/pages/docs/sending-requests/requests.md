@@ -34,6 +34,11 @@ contextual_links:
   - type: link
     name: "Announcing Increased Visibility of Invalid Whitespaces and Newlines In Your API Requests"
     url:  "https://blog.postman.com/how-postman-increases-the-visibility-of-invalid-whitespaces-and-newlines-in-your-api-requests/"
+  - type: subtitle
+    name: "Public Workspaces"
+  - type: link
+    name: "Postman Answers"
+    url:  "https://www.postman.com/postman/workspace/aa5fb3b8-0090-4b5e-b3b4-fa5c1f2d080d"
   - type: section
     name: "Next Steps"
   - type: link

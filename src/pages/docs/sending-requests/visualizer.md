@@ -23,6 +23,14 @@ contextual_links:
     name: "Visualizer demo"
     url: "https://www.youtube.com/watch?v=i1jU-kivApg"
   - type: subtitle
+    name: "Public Workspaces"
+  - type: link
+    name: "Sample Visualizations"
+    url: "https://www.postman.com/postman/workspace/sample-visualizations/overview"
+  - type: link
+    name: "More Visualizer Examples"
+    url: "https://www.postman.com/postman/workspace/more-visualizer-examples/overview"
+  - type: subtitle
     name: "Templates"
   - type: link
     name: "Visualizer D3 heatmap demo"

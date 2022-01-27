@@ -16,14 +16,6 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
-    name: "Case Studies"
-  - type: link
-    name: "Ping Identity"
-    url: "https://www.postman.com/case-studies/pingidentity/"
-  - type: link
-    name: "iQmetrix"
-    url: "https://www.postman.com/case-studies/iqmetrix/"
-  - type: subtitle
     name: "Videos"
   - type: link
     name: "Intro to Postman | Write API Tests"
@@ -51,6 +43,19 @@ contextual_links:
   - type: link
     name: "Extracting data from responses and chaining requests"
     url:  "https://blog.postman.com/extracting-data-from-responses-and-chaining-requests/"
+  - type: subtitle
+    name: "Case Studies"
+  - type: link
+    name: "Ping Identity"
+    url: "https://www.postman.com/case-studies/pingidentity/"
+  - type: link
+    name: "iQmetrix"
+    url: "https://www.postman.com/case-studies/iqmetrix/"
+  - type: subtitle
+    name: "Public Workspaces"
+  - type: link
+    name: "Test examples in Postman"
+    url: "https://www.postman.com/postman/workspace/test-examples-in-postman/overview"
   - type: section
     name: "Next Steps"
   - type: link

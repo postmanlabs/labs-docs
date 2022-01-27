@@ -19,12 +19,17 @@ contextual_links:
     name: "Videos"
   - type: link
     name: "Intro to Postman | Write API Tests"
-    url: "https://youtu.be/EVg6gxeiUd0"
+    url: "https://youtu.be/EVg6gxeiUd0"  
   - type: subtitle
     name: "Related Blog Posts"
   - type: link
     name: "Continuous API testing with Postman"
     url: "https://blog.postman.com/continuous-api-testing-with-postman/"
+  - type: subtitle
+    name: "Public Workspaces"
+  - type: link
+    name: "Test examples in Postman"
+    url: "https://www.postman.com/postman/workspace/test-examples-in-postman/overview"
   - type: section
     name: "Next Steps"
   - type: link

@@ -17,6 +17,11 @@ contextual_links:
     name: "API Monitoring | The Exploratory"
     url: "https://youtu.be/tDQzY1Hn2LY"
   - type: subtitle
+    name: "Public Workspaces"
+  - type: link
+    name: "Postman API Monitoring Examples"
+    url:  "https://www.postman.com/postman/workspace/e348c5a0-2965-44cc-87ed-7b316516f38d"  
+  - type: subtitle
     name: "Related Blog Posts"
   - type: link
     name: "6 Steps to Enhance Your Audio with a Dolby API and Postman Monitors"

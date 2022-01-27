@@ -13,10 +13,23 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "How to Integrate with Slack Notifications | Postman"
+    url: "https://youtu.be/v6eDhXWDJKE"
+  - type: subtitle
     name: "Related Blog Posts"
+  - type: link
+    name: "Introducing Postman Notifications in Slack"
+    url: "https://blog.postman.com/postman-notifications-slack/"
   - type: link
     name: "Librarian: building a serverless slack app using Postman and Airtable"
     url: "https://blog.postman.com/librarian-building-a-serverless-slack-app-using-postman-and-airtable/"
+  - type: subtitle
+    name: "Public Workspaces"
+  - type: link
+    name: "Postman Loves Slack"
+    url:  "https://www.postman.com/postman/workspace/4be86d9c-6576-4369-b74f-43991df7a4bd"
 ---
 
 The Postman to Slack integration enables you to send many Postman notifications to a Slack channel, including the results of a Postman monitor run, notifications received in the Postman notification center, or activity in your Team Activity Feed.
