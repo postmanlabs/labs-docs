@@ -69,6 +69,10 @@ If your API endpoint returns an image, Postman will detect and render it automat
 
 ### Visualize
 
+The Visualize view renders the data in the API response according to visualization code that you add to the requests **Tests**. For details on how to add, use, and debug visualization code, see [Visualizing responses](/docs/sending-requests/visualizer/).
+
+[![Response Visualize view](https://assets.postman.com/postman-docs/response-visualize-view.jpg)](https://assets.postman.com/postman-docs/response-visualize-view.jpg)
+
 ## Cookies
 
 Cookies sent by the server are visible in a dedicated tab. To [manage cookies](/docs/sending-requests/cookies/) in Postman, use the **Manage Cookies** modal. If you're working in the Postman Chrome app, you can use the [Interceptor extension](/docs/sending-requests/capturing-request-data/interceptor/) to help manage cookies.
