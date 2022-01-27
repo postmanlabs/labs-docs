@@ -98,7 +98,7 @@ Existing users who were previously on another Postman team will have their perso
 
 ## Domain capture FAQs
 
-* **What happens to captured users and their data (collections, environments, etc.) when domain capture is enabled?**
+### What happens to captured users and their data (collections, environments, etc.) when domain capture is enabled?
 
 The experience for captured users depends on their prior team status:
 
@@ -124,10 +124,10 @@ The experience for captured users depends on their prior team status:
     * They will need to contact [Postman support](https://www.postman.com/support/) to assign the admin role to another team member and remove them from the team. The data that solely belongs to them and has not been shared will be moved with them.
     * Once they have been removed from their previous team, they can authenticate via SSO and join your organization's team. Their existing data will be available in their personal workspace.
 
-* **Can a team admin view the list of user accounts that will be captured before enabling domain capture?**
+### Can a team admin view the list of user accounts that will be captured before enabling domain capture?
 
 Yes, a team admin can view the list of the unclaimed Postman accounts that will be captured prior to confirming they'd like to enable domain capture.
 
-* **Does adding a domain automatically add all the users with the organization’s domain to the organization’s team?**
+### Does adding a domain automatically add all the users with the organization’s domain to the organization’s team?
 
 No, after a domain is added, it must be verified by [Postman support](https://www.postman.com/support/). Postman support will contact team admins to evaluate and explain the effects of enabling domain capture, then confirm verification of the domain. Any team admin will then be able to enable domain capture for your Postman team.
