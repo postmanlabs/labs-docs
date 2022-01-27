@@ -82,7 +82,7 @@ In the domain dashboard, you can view your domains, their verification status, t
 
 **Unclaimed Accounts** is the number of accounts associated with a verified domain that are not a part of your Postman team. When you opt to enable **Domain authentication** for a domain, you'll be provided with a list of the unclaimed Postman accounts that will be automatically added to your team. Once enabled, the number of unclaimed accounts will reduce as these users log in and join your team.
 
-> You will not be able to cherry-pick users you'd like to add to your team. When domain capture is enabled, any user associated with the domain, who can authenticate via the SSO auth method you've enabled, can join your Postman team.
+> You will not be able to selectively pick users you'd like to add to your team. When domain capture is enabled, any user associated with the domain, who can authenticate via the SSO auth method you've enabled, can join your Postman team.
 
 With domain capture enabled, any new users that sign up for Postman with your domain are automatically added to your team and can be managed in your [team dashboard](https://go.postman.co/settings/team/members).
 
