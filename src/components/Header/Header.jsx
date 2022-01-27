@@ -618,7 +618,7 @@ class Header extends React.Component {
                 aria-expanded="false"
               >
                 <svg id="navbar-chevron-icons" width="20" height="11" viewBox="0 0 20 11" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M1 1L10 10L19 1" stroke="#6B6B6B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                  <path d="M1 1L10 10L19 1" stroke="#6B6B6B" strokwidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                 </svg>
               </div>
             </span>
