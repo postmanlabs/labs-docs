@@ -138,7 +138,7 @@ Postman for Web is optimized for the following browsers:
 
 If you are using the Postman for Web, you also need to download the Postman desktop agent, a micro-application that runs locally on your desktop. The desktop agent overcomes the Cross Object Resource Sharing (CORS) limitations of browsers and acts as your agent for making API calls from Postman for Web.
 
-You will be prompted to download and install the desktop agent so that you can make requests from Postman for Web. You can also download the agent directly from [the Downloads page](https://www.postman.com/downloads/). Once you have the desktop agent installed you will be able to use it with web requests.
+You will be prompted to download and install the desktop agent so that you can make requests from Postman for Web. You can also download the agent directly from [the Postman Agent page](https://www.postman.com/downloads/postman-agent/). Once you have the desktop agent installed you will be able to use it with web requests.
 
 To learn more about the desktop agent, read the [Introducing the Postman Agent](https://blog.postman.com/introducing-the-postman-agent-send-api-requests-from-your-browser-without-limits/) blog post.
 
