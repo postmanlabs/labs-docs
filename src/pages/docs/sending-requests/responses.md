@@ -101,19 +101,21 @@ When you make an `https` request, the globe icon includes a padlock. When you ho
 
 ### SSL verification errors
 
-If you have __SSL verification__ enabled in the global settings and verification fails, Postman will indicate the error in the response area. Select the link to disable verification globally and immediately run the request again. _If SSL is disabled globally but enabled for your request, you will see the error and a link to open the console._
+If you have SSL verification enabled in Postman's global settings and verification fails, the response area will display an error message. Select the link in the error message to disable verification globally and immediately run the request again.
+
+If SSL is disabled globally but enabled for your request, you will see the error and a link to open the console.
 
 <img alt="Verification error" src="https://assets.postman.com/postman-docs/response-error-disable-ssl.jpg" width="300px"/>
 
-> Note that if you select __Disable SSL Verification__ you will need to turn it back on if you want to verify certificates for future requests. To enable it globally, open __Settings__ (select the gear icon at the top right of Postman) and use the switch in the __General__ section. To enable it just for the current request, use the request __Settings__ tab.
+> If you select **Disable SSL Verification** in the error message, you will need to turn it back on if you want to verify certificates for future requests. To enable it globally, select the gear icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-gear-outline-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> in the Postman header and then select **Settings**. In the **General** tab, select the **SSL certificate verification** toggle.
 
-If you have __SSL verification__ turned off and your request returns a certificate verification error, you will see the detail in the __Network__ information pop-up.
+> To enable SSL verification for only the current request, select the **Settings** tab in the request, and then select the **Enable SSL certificate verification** toggle.
+
+If you have **SSL verification** turned off and your request returns a certificate verification error, you will see the details in the network information pop-up.
 
 <img alt="Certificate error" src="https://assets.postman.com/postman-docs/certificate-error-in-network-info.jpg" width="400px"/>
 
 For requests that return data successfully but with a certificate verification failure, the [console](/docs/sending-requests/troubleshooting-api-requests/) will display a warning.
-
-[![Certification warning](https://assets.postman.com/postman-docs/self-signed-warning-console-pane.jpg)](https://assets.postman.com/postman-docs/self-signed-warning-console-pane.jpg)
 
 ## Response code
 
