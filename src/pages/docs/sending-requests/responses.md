@@ -35,7 +35,7 @@ warning: false
 
 The Postman response viewer helps you to visualize and verify the correctness of API responses. An API response consists of the response body, headers, and the HTTP status code.
 
-## Viewing responses
+## Viewing the response body
 
 The Postman **Body** tab gives you several tools to help you understand the response quickly. You can view the body in one of four views: _Pretty_, _Raw_, _Preview_, and _Visualize_.
 
@@ -81,7 +81,9 @@ To learn more about working with cookies in Postman, see  [Using cookies](/docs/
 
 ## Headers
 
-Headers are displayed as key-value pairs under the **Headers** tab. Hovering over the header name can give you a description of the header according to the HTTP specification. If you are sending a HEAD request, Postman will show the headers tab by default.
+Headers are displayed as key-value pairs under the **Headers** tab. Hover over the information icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg" width="16px" style="vertical-align:middle;margin-bottom:5px"> next to the header name to see a description of the header according to the HTTP specification.
+
+> If you send a HEAD request, Postman will show the **Headers** tab by default instead of the **Body** tab.
 
 ## Test results
 
