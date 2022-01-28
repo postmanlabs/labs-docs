@@ -18,7 +18,6 @@
     "gatsby": "4.3.0",
     "gatsby-cli": "4.3.0",
     "gatsby-plugin-algolia": "0.24.0",
-    "gatsby-plugin-catch-links": "^4.6.0",
     "gatsby-plugin-env-variables": "2.2.0",
     "gatsby-plugin-gdpr-cookies": "2.0.8",
     "gatsby-plugin-google-analytics": "4.3.0",
