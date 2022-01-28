@@ -1,43 +1,9 @@
 import React from 'react';
 import './Header.scss';
 import { trackCustomEvent } from 'gatsby-plugin-google-analytics';
+import Dropdown from './Dropdown';
 import $ from 'jquery';
-
-/* Algolia Imports */
-import algoliasearch from 'algoliasearch/lite';
-import {
-  InstantSearch,
-  SearchBox,
-  Hits,
-  Configure,
-  Pagination,
-} from 'react-instantsearch-dom';
-import { CustomHits } from '../Search/searchPreview';
 import postmanLogo from '../../images/postman-logo-icon.svg';
-
-// window.$ = $;
-
-/* Algolia Search Bar */
-const ClickOutHandler = require('react-onclickout');
-
-const algoliaClient = algoliasearch(
-  '4A5N71XYH0',
-  '69f2c5376f1a90912c6c3b6b772c25bc',
-);
-
-// removes empty query searches from analytics
-const searchClient = {
-  search(requests) {
-    const newRequests = requests.map((request) => {
-      // test for empty string and change request parameter: analytics
-      if (!request.params.query || request.params.query.length === 0) {
-        request.params.analytics = false;
-      }
-      return request;
-    });
-    return algoliaClient.search(newRequests);
-  },
-};
 
 // Get Cookie for Sign In toggler
 const getCookie = (a) => {
@@ -107,8 +73,6 @@ class Header extends React.Component {
       beta: '',
       cookie: '',
       hidden: true,
-      hasInput: false,
-      refresh: false,
     };
   }
 
@@ -158,18 +122,6 @@ class Header extends React.Component {
     }
     $('.dropdown').on('hide.bs.dropdown', hideBsDropdown);
   }
-
-  // Algolia - clicking out exits searchbox
-  onClickOut = () => {
-    const searchInput = document.getElementsByClassName(
-      'ais-SearchBox-input',
-    )[0].value;
-    if (searchInput !== '') {
-      this.setState(() => ({
-        hasInput: false,
-      }));
-    }
-  } // end onClickOut
 
   showTargetElement = () => {
     // Show Sign In Button if user is not logged in (mobile)
@@ -254,7 +206,7 @@ class Header extends React.Component {
 
   render() {
     const {
-      refresh, hasInput, beta, visibleHelloBar, cookie, hidden,
+      beta, visibleHelloBar, cookie, hidden,
     } = this.state;
     return (
       <>
@@ -669,57 +621,8 @@ class Header extends React.Component {
                   d="M9.87147 9.16437C10.5768 8.30243 11 7.20063 11 6C11 3.23858 8.76142 1 6 1C3.23858 1 1 3.23858 1 6C1 8.76142 3.23858 11 6 11C7.20063 11 8.30243 10.5768 9.16437 9.87147L9.89648 10.6036L9.64648 10.8536L13.5758 14.7829C13.8101 15.0172 14.19 15.0172 14.4243 14.7829L14.7829 14.4243C15.0172 14.19 15.0172 13.8101 14.7829 13.5758L10.8536 9.64648L10.6036 9.89648L9.87147 9.16437ZM6 10C8.20914 10 10 8.20914 10 6C10 3.79086 8.20914 2 6 2C3.79086 2 2 3.79086 2 6C2 8.20914 3.79086 10 6 10Z"
                 />
               </svg>
-              <ClickOutHandler onClickOut={this.onClickOut}>
-                <InstantSearch
-                  searchClient={searchClient}
-                  indexName="docs"
-                  refresh={refresh}
-                >
-                  <Configure hitsPerPage={5} />
-
-                  {/* forcefeed className because component does not accept natively as prop */}
-                  <SearchBox
-                    id="search-lc"
-                    className="searchbox"
-                    class="ais-SearchBox-input"
-                    submit={<></>}
-                    reset={<></>}
-                    translations={{
-                      placeholder: 'Search Postman Docs',
-                    }}
-                    onKeyUp={(event) => {
-                      this.setState({
-                        hasInput: event.currentTarget.value.length > 2,
-                      });
-                    }}
-                  />
-                  <div className={!hasInput ? 'input-empty' : 'input-value'}>
-                    <div className="container">
-                      <div className="row">
-                        <div className="col-12">
-                          <CustomHits hitComponent={Hits} />
-                        </div>
-                      </div>
-                      <div className="row">
-                        <div className="col-12">
-                          <Pagination
-                            translations={{
-                              previous: '← Previous',
-                              next: 'Next →',
-                              first: '«',
-                              last: '»',
-                              ariaPrevious: 'Previous page',
-                              ariaNext: 'Next page',
-                              ariaFirst: 'First page',
-                              ariaLast: 'Last page',
-                            }}
-                          />
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </InstantSearch>
-              </ClickOutHandler>
+            
+              <Dropdown />
             </div>
           </div>
         </nav>
