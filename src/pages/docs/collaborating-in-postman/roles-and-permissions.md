@@ -61,7 +61,7 @@ You can [assign](/docs/administration/managing-your-team/managing-your-team/) on
 * **Developer**: Has access to all team resources and workspaces.
 * **Community Manager**: Manages the public visibility of workspaces and team profile ([Professional and Enterprise plans only](https://www.postman.com/pricing)).
 
-> If you are on a [Postman Enterprise plan](https://www.postman.com/pricing), you can also assign roles at the [group level](/docs/administration/managing-your-team/user-groups/) as well as for individual team members.
+> If you are on a [Postman Enterprise plan](https://www.postman.com/pricing), you can also assign roles at the [group level](/docs/administration/managing-your-team/user-groups/).
 
 Team roles provide high-level access control:
 
@@ -87,7 +87,7 @@ Team roles provide high-level access control:
 
 &ast;&ast; Enterprise and Professional plans only
 
-> **Postman Support Users**. Members with a Developer role consume a paid slot on the team. Team members who have only Admin or Billing roles become Support Users and don’t consume paid slots. Your team can have two Support Users.
+> **Postman Support Users**. Members with a Developer or Super Admin role consume a paid slot on your team. Team members who have only Admin or Billing roles become Support Users and don’t consume paid slots. Your team can have two Support Users.
 
 ### Managing team roles
 
@@ -173,7 +173,7 @@ The following roles control access at an API level:
 
 You can [assign](/docs/administration/managing-your-team/managing-your-team/) two role types for Postman mock servers: **Editor** and **Viewer**.
 
-* **Editor**: Can edit mock servers directly
+* **Editor**: Can edit and manage mock servers
 * **Viewer**: Can view mock servers and associated metadata
 
 The following roles control access at the mock server level:
@@ -207,4 +207,4 @@ Update monitor roles | &#x2714; |
 
 ## Next steps
 
-Learn more about [Managing your team](/docs/administration/managing-your-team/managing-your-team/), including managing roles and inviting people to join your team.
+Learn more about [Managing your team](/docs/administration/managing-your-team/managing-your-team/), including managing team roles and inviting collaborators to join your team.
