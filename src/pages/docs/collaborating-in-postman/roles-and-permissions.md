@@ -87,7 +87,7 @@ Team roles provide high-level access control:
 
 &ast;&ast; Enterprise and Professional plans only
 
-> **Postman Support Users**. Members with a Developer or Super Admin role consume a paid slot on your team. Team members who have only Admin or Billing roles become Support Users and don’t consume paid slots. Your team can have two Support Users.
+> **Postman support users**. Members with a Developer or Super Admin role consume a paid slot on your team. Team members who have only Admin or Billing roles become support users and don’t consume paid slots. Your team can have two support users.
 
 ### Managing team roles
 
