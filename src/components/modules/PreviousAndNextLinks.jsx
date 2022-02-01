@@ -1,6 +1,6 @@
 import React from 'react';
 import { leftNavItems } from '../LeftNav/LeftNavItems';
-
+import { handleKeyboard, handleSwipe } from './handlePagination'
 class PreviousAndNextLinks extends React.Component {
   constructor(props) {
     super(props);
@@ -9,20 +9,20 @@ class PreviousAndNextLinks extends React.Component {
       nextLink: {}
     }
   }
-    componentDidMount(){
-      let location;
-      if (typeof window !== 'undefined') {
-        location = window.location.pathname;
-      }
-      /* Using LeftNavItems.jsx, we filter through the nested arrays and return the active nav section the user is on */
+  componentDidMount() {
+    let location;
+    if (typeof window !== 'undefined') {
+      location = window.location.pathname;
+    }
+    /* Using LeftNavItems.jsx, we filter through the nested arrays and return the active nav section the user is on */
     const activeDocLinks = [];
     /* Parent array */
     leftNavItems.forEach((leftNavItem) => {
-      /* Loop over first submenu (subMenuItems1) */
+      /* loop over first submenu (subMenuItems1) */
       leftNavItem.subMenuItems1.map((subMenuItem1, index) => {
-        /* Filter first submenu array */
+        /* filter first submenu array */
         leftNavItem.subMenuItems1[index].url === location && activeDocLinks.push(leftNavItem.subMenuItems1)
-        /* Filter second submenu array */
+        /* filter second submenu array */
         subMenuItem1.subMenuItems2 && subMenuItem1.subMenuItems2.filter(subMenuItem2 => subMenuItem2.url === location && activeDocLinks.push(subMenuItem1.subMenuItems2))
       })
     })
@@ -37,56 +37,62 @@ class PreviousAndNextLinks extends React.Component {
         }
       }
     })
-      this.setState({
-        prevLink: previous,
-        nextLink: next
-      })
-    }
+    this.setState({
+      prevLink: previous,
+      nextLink: next
+    })
+    /* Pagination: arrow keys and swipe functionality */
+    handleKeyboard();
+    handleSwipe();
+  }
+
   render() {
     const { nextLink, prevLink } = this.state;
     return (
       <>
-      <hr/>
-      <div className="d-flex flex-row mt-3">
-        {prevLink && (
-          <div className="mr-auto">
-            <span
-            className="font-weight-bold mr-3"
-            aria-hidden="true"
-            >
-              &#171;
-            </span>
-            <a
-            className="prevDoc"
-            href={prevLink.url}
-            title={`Go to the previous page: ${prevLink.name}`}
-            aria-label={`Go to the previous page: ${prevLink.name}`}
-            >
-              {prevLink.name}
-            </a>
-          </div>
-        )}
-        {nextLink && (
-          <div className="ml-auto">
-            <a
-            className="nextDoc"
-            href={nextLink.url}
-            title={`Go to the next page: ${nextLink.name}`}
-            aria-label={`Go to the next page: ${nextLink.name}`}
-            >
-              {nextLink.name}
-            </a>
-            <span
-            className="font-weight-bold ml-3"
-            aria-hidden="true"
-            >
-              &#187;
-            </span>
-          </div>
-        )}
+        <hr />
+        <div id="previousNextLinks" className="d-flex flex-row mt-3 pagination" role="navigation">
+          {prevLink && (
+            <div className="mr-auto">
+              <span
+                className="font-weight-bold mr-3"
+                aria-hidden="true"
+              >
+                &#171;
+              </span>
+              <a
+                className="prevDoc"
+                rel="prev"
+                href={prevLink.url}
+                title={`Go to the previous page: ${prevLink.name}`}
+                aria-label={`Go to the previous page: ${prevLink.name}`}
+              >
+                {prevLink.name}
+              </a>
+            </div>
+          )}
+          {nextLink && (
+            <div className="ml-auto">
+              <a
+                className="nextDoc"
+                rel="next"
+                href={nextLink.url}
+                title={`Go to the next page: ${nextLink.name}`}
+                aria-label={`Go to the next page: ${nextLink.name}`}
+              >
+                {nextLink.name}
+              </a>
+              <span
+                className="font-weight-bold ml-3"
+                aria-hidden="true"
+              >
+                &#187;
+              </span>
+            </div>
+          )}
         </div>
-        </>
-  )
+      </>
+    )
   }
 }
 
