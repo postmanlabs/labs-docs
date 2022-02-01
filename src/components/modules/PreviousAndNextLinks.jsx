@@ -1,6 +1,6 @@
 import React from 'react';
 import { leftNavItems } from '../LeftNav/LeftNavItems';
-
+import { handleKeyboard, handleSwipe } from './handlePagination'
 class PreviousAndNextLinks extends React.Component {
   constructor(props) {
     super(props);
@@ -9,12 +9,12 @@ class PreviousAndNextLinks extends React.Component {
       nextLink: {}
     }
   }
-    componentDidMount(){
-      let location;
-      if (typeof window !== 'undefined') {
-        location = window.location.pathname;
-      }
-      /* Using LeftNavItems.jsx, we filter through the nested arrays and return the active nav section the user is on */
+  componentDidMount(){
+    let location;
+    if (typeof window !== 'undefined') {
+      location = window.location.pathname;
+    }
+    /* Using LeftNavItems.jsx, we filter through the nested arrays and return the active nav section the user is on */
     const activeDocLinks = [];
     /* Parent array */
     leftNavItems.forEach((leftNavItem) => {
@@ -37,17 +37,21 @@ class PreviousAndNextLinks extends React.Component {
         }
       }
     })
-      this.setState({
-        prevLink: previous,
-        nextLink: next
-      })
-    }
+    this.setState({
+      prevLink: previous,
+      nextLink: next
+    })
+    /* Pagination: Arrow keys and Swipe functionality */
+    handleKeyboard();
+    handleSwipe();
+  }
+
   render() {
     const { nextLink, prevLink } = this.state;
     return (
       <>
       <hr/>
-      <div className="d-flex flex-row mt-3">
+      <div id="previousNextLinks" className="d-flex flex-row mt-3 pagination" role="navigation">
         {prevLink && (
           <div className="mr-auto">
             <span
@@ -55,9 +59,10 @@ class PreviousAndNextLinks extends React.Component {
             aria-hidden="true"
             >
               &#171;
-            </span>
+              </span>
             <a
             className="prevDoc"
+            rel="prev"
             href={prevLink.url}
             title={`Go to the previous page: ${prevLink.name}`}
             aria-label={`Go to the previous page: ${prevLink.name}`}
@@ -70,6 +75,7 @@ class PreviousAndNextLinks extends React.Component {
           <div className="ml-auto">
             <a
             className="nextDoc"
+            rel="next"
             href={nextLink.url}
             title={`Go to the next page: ${nextLink.name}`}
             aria-label={`Go to the next page: ${nextLink.name}`}

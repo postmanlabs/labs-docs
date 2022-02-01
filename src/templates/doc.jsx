@@ -1,5 +1,5 @@
 /* eslint-disable react/no-danger */
-import React from 'react';
+import React, { useState } from 'react';
 import { graphql } from 'gatsby';
 import Layout from '../components/layout';
 import ContextualLinks from '../components/ContextualLinks/ContextualLinks';
@@ -11,22 +11,25 @@ import './doc.scss';
 import 'prismjs/themes/prism-tomorrow.css';
 import pose from '../assets/pose-learning-center.svg';
 import PreviousAndNextLinks from '../components/modules/PreviousAndNextLinks';
-import BreadCrumbsLinks  from '../components/modules/BreadCrumbsLinks';
+import BreadCrumbsLinks from '../components/modules/BreadCrumbsLinks';
+
 const { v4: uuidv4 } = require('uuid');
 
-const DocPage = ({ data }) => {
-  /* Last modified date */
-  const date = data.markdownRemark.fields.lastModifiedDate;
+/* Right Side Links */
+const DisplayContextualLinks = (props) => {
+  const { data } = props;
   /* Single post data */
+  const doc = data.markdownRemark;
+  return (
+    doc.frontmatter.contextual_links && <ContextualLinks key={uuidv4()} links={doc.frontmatter.contextual_links} />
+  )
+}
+const DocPage = ({ data }) => {
   const post = data.markdownRemark;
-  let contextualLinks;
-  if (post.frontmatter.contextual_links) {
-    contextualLinks = <ContextualLinks key={uuidv4()} links={post.frontmatter.contextual_links} />;
-  }
-  /* Breadcrumbs (Top of page) */
-  const { parentLink, subParentLink } = data;
-  /* Previous and Next Links (Bottom of page) */
-  const { previous, next } = data;
+  /* Last modified date (Bottom of Page) */
+  const date = data.markdownRemark.fields.lastModifiedDate;
+  /* Breadcrumbs (Top of page) && Previous and Next Links (Bottom of page) */
+  const { parentLink, subParentLink, previous, next } = data;
   return (
     <Layout>
       <SEO title={post.frontmatter.title} slug={post.fields.slug} />
@@ -38,20 +41,20 @@ const DocPage = ({ data }) => {
           <div className="col">
             <div className="row row-eq-height">
               <main className="col-sm-12 col-md-12 col-lg-9 offset-lg-0 col-xl-7 doc-page ml-xl-5">
-                <BreadCrumbsLinks data={{parentLink, subParentLink}} />
+                <BreadCrumbsLinks data={{ parentLink, subParentLink }} />
                 <h1>{post.frontmatter.title}</h1>
                 <span dangerouslySetInnerHTML={{ __html: post.html }} />
                 <p>
                   <small className="font-italic">Last modified: {date}</small>
                 </p>
-                <PreviousAndNextLinks data={{ previous, next }}/>
+                <PreviousAndNextLinks data={{ previous, next }} />
               </main>
               <aside className="col-sm-12 col-md-12 col-lg-3 offset-lg-0 col-xl-3 offset-xl-1 right-column">
                 <hr className="d-block d-lg-none" />
                 <div className="edit-button">
                   <EditDoc className="btn btn__small btn__secondary-light edit-button-styles" />
                 </div>
-                {contextualLinks}
+                <DisplayContextualLinks data={data} />
                 <figure className="sticky posmanaut-dab">
                   <img src={pose} alt="pose" className="img-fluid" />
                 </figure>
@@ -61,8 +64,8 @@ const DocPage = ({ data }) => {
         </div>
       </div>
     </Layout>
-  );
-};
+  )
+}
 
 export const query = graphql`
   query($slug: String!) {
@@ -85,4 +88,4 @@ export const query = graphql`
   }
 `;
 export default DocPage;
-/* eslint-enaable */
+/* eslint-enable */
