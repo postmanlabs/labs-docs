@@ -2,7 +2,7 @@
 export const handleKeyboard = () => {
   const togglePrevLink = document.querySelector('.prevDoc');
   const toggleNextLink = document.querySelector('.nextDoc');
-  document.addEventListener("keydown", (e) => {
+  document.addEventListener('keydown', (e) => {
     if (e.key === 'ArrowLeft') {
       togglePrevLink.click();
     }
@@ -30,7 +30,6 @@ export const handleSwipe = () => {
 
   function handleGesture() {
     const setRange = touchstartX - touchendX;
-    console.log(setRange)
     if (touchendX > touchstartX && setRange < -200) {
       togglePrevLink.click();
     } else if (touchendX < touchstartX && setRange > 200) {

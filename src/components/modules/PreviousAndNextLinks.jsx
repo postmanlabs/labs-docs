@@ -18,11 +18,11 @@ class PreviousAndNextLinks extends React.Component {
     const activeDocLinks = [];
     /* Parent array */
     leftNavItems.forEach((leftNavItem) => {
-      /* Loop over first submenu (subMenuItems1) */
+      /* loop over first submenu (subMenuItems1) */
       leftNavItem.subMenuItems1.map((subMenuItem1, index) => {
-        /* Filter first submenu array */
+        /* filter first submenu array */
         leftNavItem.subMenuItems1[index].url === location && activeDocLinks.push(leftNavItem.subMenuItems1)
-        /* Filter second submenu array */
+        /* filter second submenu array */
         subMenuItem1.subMenuItems2 && subMenuItem1.subMenuItems2.filter(subMenuItem2 => subMenuItem2.url === location && activeDocLinks.push(subMenuItem1.subMenuItems2))
       })
     })
@@ -41,7 +41,7 @@ class PreviousAndNextLinks extends React.Component {
       prevLink: previous,
       nextLink: next
     })
-    /* Pagination: Arrow keys and Swipe functionality */
+    /* Pagination: arrow keys and swipe functionality */
     handleKeyboard();
     handleSwipe();
   }

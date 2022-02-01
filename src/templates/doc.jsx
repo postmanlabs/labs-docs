@@ -15,7 +15,7 @@ import BreadCrumbsLinks from '../components/modules/BreadCrumbsLinks';
 
 const { v4: uuidv4 } = require('uuid');
 
-/* Right Side Links */
+/* Right side links */
 const DisplayContextualLinks = (props) => {
   const { data } = props;
   /* Single post data */
@@ -26,9 +26,9 @@ const DisplayContextualLinks = (props) => {
 }
 const DocPage = ({ data }) => {
   const post = data.markdownRemark;
-  /* Last modified date (Bottom of Page) */
+  /* Last modified date (bottom of page) */
   const date = data.markdownRemark.fields.lastModifiedDate;
-  /* Breadcrumbs (Top of page) && Previous and Next Links (Bottom of page) */
+  /* Breadcrumbs (top of page) & Previous and Next Links (bottom of page) */
   const { parentLink, subParentLink, previous, next } = data;
   return (
     <Layout>
