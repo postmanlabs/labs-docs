@@ -9,7 +9,7 @@ class PreviousAndNextLinks extends React.Component {
       nextLink: {}
     }
   }
-  componentDidMount(){
+  componentDidMount() {
     let location;
     if (typeof window !== 'undefined') {
       location = window.location.pathname;
@@ -50,49 +50,49 @@ class PreviousAndNextLinks extends React.Component {
     const { nextLink, prevLink } = this.state;
     return (
       <>
-      <hr/>
-      <div id="previousNextLinks" className="d-flex flex-row mt-3 pagination" role="navigation">
-        {prevLink && (
-          <div className="mr-auto">
-            <span
-            className="font-weight-bold mr-3"
-            aria-hidden="true"
-            >
-              &#171;
+        <hr />
+        <div id="previousNextLinks" className="d-flex flex-row mt-3 pagination" role="navigation">
+          {prevLink && (
+            <div className="mr-auto">
+              <span
+                className="font-weight-bold mr-3"
+                aria-hidden="true"
+              >
+                &#171;
               </span>
-            <a
-            className="prevDoc"
-            rel="prev"
-            href={prevLink.url}
-            title={`Go to the previous page: ${prevLink.name}`}
-            aria-label={`Go to the previous page: ${prevLink.name}`}
-            >
-              {prevLink.name}
-            </a>
-          </div>
-        )}
-        {nextLink && (
-          <div className="ml-auto">
-            <a
-            className="nextDoc"
-            rel="next"
-            href={nextLink.url}
-            title={`Go to the next page: ${nextLink.name}`}
-            aria-label={`Go to the next page: ${nextLink.name}`}
-            >
-              {nextLink.name}
-            </a>
-            <span
-            className="font-weight-bold ml-3"
-            aria-hidden="true"
-            >
-              &#187;
-            </span>
-          </div>
-        )}
+              <a
+                className="prevDoc"
+                rel="prev"
+                href={prevLink.url}
+                title={`Go to the previous page: ${prevLink.name}`}
+                aria-label={`Go to the previous page: ${prevLink.name}`}
+              >
+                {prevLink.name}
+              </a>
+            </div>
+          )}
+          {nextLink && (
+            <div className="ml-auto">
+              <a
+                className="nextDoc"
+                rel="next"
+                href={nextLink.url}
+                title={`Go to the next page: ${nextLink.name}`}
+                aria-label={`Go to the next page: ${nextLink.name}`}
+              >
+                {nextLink.name}
+              </a>
+              <span
+                className="font-weight-bold ml-3"
+                aria-hidden="true"
+              >
+                &#187;
+              </span>
+            </div>
+          )}
         </div>
-        </>
-  )
+      </>
+    )
   }
 }
 
