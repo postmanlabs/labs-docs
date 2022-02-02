@@ -8,10 +8,9 @@ const sectionHandler = (e) => {
   document.location.href = e.target.getAttribute('data-section');
 };
 
-const renderTwoLevelList = (item, runtime,) => {
+const renderTwoLevelList = (item, runtime) => {
   if (typeof document !== 'undefined') {
     const active = runtime ? document.location.pathname.match(item.parentSlug) : '';
-  
     return (
       <ul key={uuidv4()}>
         <li className="parent">
@@ -86,16 +85,15 @@ const renderTwoLevelList = (item, runtime,) => {
 }
 
 function LeftNav(props) {
-  const [useProp, setProps] = useState({ props })
+  const [{ leftNavItems = [] }, setProps] = useState({ ...props })
   const [runtime, setRuntime] = useState(true)
   const isRuntime = typeof document === 'object';
-  const { leftNavItems = [] } = props;
   useEffect(() => {
-    setProps(leftNavItems);
+    setProps(props);
     setRuntime(isRuntime)
   }, []);
   return (
-    leftNavItems.map((item) => renderTwoLevelList(item, runtime, useProp))
+    leftNavItems.map((item) => renderTwoLevelList(item, runtime))
   )
 }
 
