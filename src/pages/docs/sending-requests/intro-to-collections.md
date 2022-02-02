@@ -41,7 +41,7 @@ Select __Collections__ in the left sidebar of Postman to see the list of collect
 ## Contents
 
 * [Creating collections](#creating-collections)
-* [Adding requests](#adding-requests)
+* [Adding requests to a collection](#adding-requests-to-a-collection)
 * [Managing collections](#managing-collections)
 * [Using collections](#using-collections)
 
@@ -65,25 +65,57 @@ You can optionally specify a description for your collection (which will appear 
 
 To see an overview of a collection and to edit collection details, select the collection from the sidebar to open it in a tab. You can edit your collection description inline by hovering over the text and selecting the pencil icon.
 
-## Adding requests
+## Adding requests to a collection
 
-You can add existing requests to collections and can create new requests inside collections. If you have a request open in Postman, select __Save__ or __Save As__. Choose (or create) a collection and select __Save__.
+### Moving an existing request to a different collection
 
-<img alt="Save request" src="https://assets.postman.com/postman-docs/save-request-v8.jpg" width="350px"/>
+To move an existing request to a different collection:
 
-To add a new request to a collection, open a new tab and save it from there. You can also add a new request using __Collections__ on the left of Postman by selecting <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> __> Add Request__.
+1. Select the request you want to move.
+1. Drag and drop the request into into the desired collection.
+1. Alternatively, open the request and select **Save As**, then choose the collection you want to move it to.
 
-<img alt="Add request to folder" src="https://assets.postman.com/postman-docs/collection-menu-v8.jpg" width="350px"/>
+    <img alt="Save request" src="https://assets.postman.com/postman-docs/save-request-v9.jpg" width="300px"/>
 
-You can also create a request by selecting __New__ &gt; __Request__. Give your request a name and optional description, then __Save__ it to the selected collection.
+### Adding a new request to a collection
 
-> You can also create and save requests from the workspace overview tab when you have no open requests or collections, or from an empty collection or folder by selecting __Add a request__.
+To add a new request to a collection:
 
-To save a request from your history, select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> in __History__ on the left of Postman, and choose __Save Request__. Choose a collection and __Save__.
+1. From a new request, select __Save__.
+1. Choose the collection you want to move it to, and then select __Save__.
+1. To create a new collection to save the request to, select **New Collection**.
 
-<img alt="Save request from history" src="https://assets.postman.com/postman-docs/save-history-v8.jpg" width="350px"/>
+### Creating a new request inside a collection
 
-> You can select multiple requests to save from your history by selecting the __+__ button next to the date.
+To create a new request inside a collection:
+
+1. Select the collection, and then select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px">.
+1. Select **Add Request** from the actions menu.
+
+    <img alt="Add request to folder" src="https://assets.postman.com/postman-docs/collection-menu-v9.jpg" width="350px"/>
+
+1. Alternatively, select **New** &gt; **Request**.
+
+### Adding a request to an empty collection
+
+To add a request to an empty collection:
+
+1. Select **Add a request**.
+
+    <img alt="Add a request to an empty collection" src="https://assets.postman.com/postman-docs/empty-collection-add-request.jpg" width="290px"/>
+
+### Adding a request from your history to a collection
+
+To save a request from your history:
+
+1. Navigate to **History** from the Postman left menu.
+1. Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to the request you want to save.
+1. Select **Save Request**.
+
+    <img alt="Save request from history" src="https://assets.postman.com/postman-docs/save-history-v9.jpg" width="350px"/>
+
+1. Choose the collection to add the request to, then select __Save__.
+1. Alternatively, select the __+__ button next to the request.
 
 ## Managing collections
 
@@ -91,7 +123,7 @@ Select a collection to open its overview in a tab. You can open and close collec
 
 To add a folder to your collection, select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> __> Add folder__.
 
-To add requests and examples to the folder, you can drag and drop them into the folder from inside the collection. You can also select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> **> Add Request**, or select the **Add a request** link if the folder is empty.
+You can also select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> **> Add Request**, or select the **Add a request** link if the folder is empty.
 
 <img alt="Add request to folder" src="https://assets.postman.com/postman-docs/folders-v8.jpg" width="350px"/>
 
