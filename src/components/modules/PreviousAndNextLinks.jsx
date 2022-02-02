@@ -22,20 +22,20 @@ class PreviousAndNextLinks extends React.Component {
       // parent menu - if url matches window.location, push the item into array
       leftNavItem.subMenuItems1.map((subMenuItem1, index) => {
         leftNavItem.subMenuItems1[index].url === location && parentLinks.push(leftNavItem.subMenuItems1)
-        // subparent menu - same logic applies above, but at a deeper level in the object
+        // subparent menu - same logic applies but another level deeper in the object
         subMenuItem1.subMenuItems2 && subMenuItem1.subMenuItems2.filter(subMenuItem2 =>
           subMenuItem2.url === location && parentLinks
-            // pushes three items [last item in previous section, current items in active section, first item in next section]
+            // pushes three items into parentLinks array [last item in previous section, current items, first item in next section]
             .push([leftNavItem.subMenuItems1[index - 1]], subMenuItem1.subMenuItems2, [leftNavItem.subMenuItems1[index + 1]]))
       })
     })
-    // 2. initiate function depending if user is on parent or subparent menu
+    // 2. initiate handleSubMenu or handleParentMenu functions based on active link
     let previous;
     let next;
     let subParentLinks;
-    // if user is currently in submenu of parent, length will be more than 1
+    // length will be more than one if there is a parent or subparent node above/below the folder
     if (parentLinks.length > 1) {
-      // combine three arrays
+      // merge three arrays into one [last item in previous section, current items, first item in next section]
       subParentLinks = parentLinks[0].concat(parentLinks[1], parentLinks[2]);
       // remove first element if undefined
       subParentLinks[0] === undefined ? subParentLinks.shift() : subParentLinks;
@@ -61,7 +61,7 @@ class PreviousAndNextLinks extends React.Component {
           if (link[i].url === location) {
             let prevIndex = link[i + -1];
             let nextIndex = link[i + 1]
-            // edge case: if previous parent section is a submenu, traverse to that arrays last index
+            // edge case: if previous section is a submenu, traverse to the last index to grab data
             // Ex: /docs/designing-and-developing-your-api/view-and-analyze-api-reports/
             previous = prevIndex && prevIndex.subMenuItems2 ? prevIndex.subMenuItems2[prevIndex.subMenuItems2.length + -1] : prevIndex;
             next = nextIndex && nextIndex.slug ? nextIndex : nextIndex;
