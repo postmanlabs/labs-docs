@@ -14,34 +14,68 @@ class PreviousAndNextLinks extends React.Component {
     if (typeof window !== 'undefined') {
       location = window.location.pathname;
     }
-    /* Using LeftNavItems.jsx, we filter through the nested arrays and return the active nav section the user is on */
-    const activeDocLinks = [];
-    /* Parent array */
+    // 1. filter data 
+    // Reference file: LeftNavItems.jsx
+    const parentLinks = [];
+      // for every nav item, map over
     leftNavItems.forEach((leftNavItem) => {
-      /* loop over first submenu (subMenuItems1) */
+      // parent menu - if url matches window.location, push the item into array
       leftNavItem.subMenuItems1.map((subMenuItem1, index) => {
-        /* filter first submenu array */
-        leftNavItem.subMenuItems1[index].url === location && activeDocLinks.push(leftNavItem.subMenuItems1)
-        /* filter second submenu array */
-        subMenuItem1.subMenuItems2 && subMenuItem1.subMenuItems2.filter(subMenuItem2 => subMenuItem2.url === location && activeDocLinks.push(subMenuItem1.subMenuItems2))
+        leftNavItem.subMenuItems1[index].url === location && parentLinks.push(leftNavItem.subMenuItems1)
+        // subparent menu - same logic applies above, but at a deeper level in the object
+        subMenuItem1.subMenuItems2 && subMenuItem1.subMenuItems2.filter(subMenuItem2 =>
+          subMenuItem2.url === location && parentLinks
+            // pushes three items [last item in previous section, current items in active section, first item in next section]
+            .push([leftNavItem.subMenuItems1[index - 1]], subMenuItem1.subMenuItems2, [leftNavItem.subMenuItems1[index + 1]]))
       })
     })
-    /* If the current location url equals the matching element index url, add the element to previous and next variables */
+    // 2. initiate function depending if user is on parent or subparent menu
     let previous;
     let next;
-    activeDocLinks.map(link => {
-      for (let i = 0; i < link.length; i++) {
-        if (link[i].url === location) {
-          previous = link[i + -1] && link[i + -1].slug ? undefined : link[i + -1]
-          next = link[i + 1] && link[i + 1].slug ? undefined : link[i + 1]
+    let subParentLinks;
+    // if user is currently in submenu of parent, length will be more than 1
+    if (parentLinks.length > 1) {
+      // combine three arrays
+      subParentLinks = parentLinks[0].concat(parentLinks[1], parentLinks[2]);
+      // remove first element if undefined
+      subParentLinks[0] === undefined ? subParentLinks.shift() : subParentLinks;
+      // remove last element if undefined
+      subParentLinks[subParentLinks.length + -1] === undefined ? subParentLinks.pop() : subParentLinks;
+      handleSubMenu(subParentLinks);
+    } else {
+      handleParentMenu(parentLinks);
+    }
+    function handleSubMenu(links) {
+      for (let i = 0; i < links.length; i++) {
+        if (links[i].url === location) {
+          let prevIndex = links[i + -1];
+          let nextIndex = links[i + 1];
+          previous = prevIndex && prevIndex.slug ? prevIndex : prevIndex;
+          next = nextIndex && nextIndex.slug ? nextIndex : nextIndex;
         }
       }
-    })
+    }
+    function handleParentMenu(links) {
+      links.map(link => {
+        for (let i = 0; i < link.length; i++) {
+          if (link[i].url === location) {
+            let prevIndex = link[i + -1];
+            let nextIndex = link[i + 1]
+            // edge case: if previous parent section is a submenu, traverse to that arrays last index
+            // Ex: /docs/designing-and-developing-your-api/view-and-analyze-api-reports/
+            previous = prevIndex && prevIndex.subMenuItems2 ? prevIndex.subMenuItems2[prevIndex.subMenuItems2.length + -1] : prevIndex;
+            next = nextIndex && nextIndex.slug ? nextIndex : nextIndex;
+          }
+        }
+      })
+    }
+    // 3. set previous and next links
     this.setState({
       prevLink: previous,
       nextLink: next
     })
-    /* Pagination: arrow keys and swipe functionality */
+
+    /* arrow key and swipe functionality */
     handleKeyboard();
     handleSwipe();
   }
@@ -63,7 +97,7 @@ class PreviousAndNextLinks extends React.Component {
               <a
                 className="prevDoc"
                 rel="prev"
-                href={prevLink.url}
+                href={prevLink.slug || prevLink.url}
                 title={`Go to the previous page: ${prevLink.name}`}
                 aria-label={`Go to the previous page: ${prevLink.name}`}
               >
@@ -76,7 +110,7 @@ class PreviousAndNextLinks extends React.Component {
               <a
                 className="nextDoc"
                 rel="next"
-                href={nextLink.url}
+                href={nextLink.url || nextLink.slug}
                 title={`Go to the next page: ${nextLink.name}`}
                 aria-label={`Go to the next page: ${nextLink.name}`}
               >
