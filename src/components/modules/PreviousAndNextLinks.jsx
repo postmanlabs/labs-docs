@@ -3,8 +3,8 @@ import { leftNavItems } from '../LeftNav/LeftNavItems';
 import { handleKeyboard, handleSwipe } from './handlePagination'
 
 function PreviousAndNextLinks() {
-  const [prevLink, setPrevious] = useState({ previous } || {})
-  const [nextLink, setNext] = useState({ next } || {})
+  const [prevLink, setPrevious] = useState({})
+  const [nextLink, setNext] = useState({})
 
   let location;
   if (typeof window !== 'undefined') {
@@ -68,7 +68,7 @@ function PreviousAndNextLinks() {
       }
     })
   }
-  
+
   useEffect(() => {
     setPrevious(previous);
     setNext(next);

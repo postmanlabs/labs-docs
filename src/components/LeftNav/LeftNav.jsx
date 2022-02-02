@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect }  from 'react';
 import { Link } from 'gatsby';
 import './LeftNav.scss';
 
@@ -85,27 +85,18 @@ const renderTwoLevelList = (item, runtime,) => {
   }
 }
 
-class LeftNav extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      props,
-      runtime: true
-    }
-  }
-  componentDidMount() {
-    const isRuntime = typeof document === 'object';
-    this.setState({
-      runtime: isRuntime,
-    })
-  }
-  render() {
-    const { props, runtime } = this.state;
-    const { leftNavItems = [] } = props;
-    return (
-      leftNavItems.map((item) => renderTwoLevelList(item, runtime))
-    )
-  }
+function LeftNav(props) {
+  const [useProp, setProps] = useState({ props })
+  const [runtime, setRuntime] = useState(true)
+  const isRuntime = typeof document === 'object';
+  const { leftNavItems = [] } = props;
+  useEffect(() => {
+    setProps(leftNavItems);
+    setRuntime(isRuntime)
+  }, []);
+  return (
+    leftNavItems.map((item) => renderTwoLevelList(item, runtime, useProp))
+  )
 }
 
 export default LeftNav;
