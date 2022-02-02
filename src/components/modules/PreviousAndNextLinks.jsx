@@ -41,16 +41,19 @@ class PreviousAndNextLinks extends React.Component {
       subParentLinks[0] === undefined ? subParentLinks.shift() : subParentLinks;
       // remove last element if undefined
       subParentLinks[subParentLinks.length + -1] === undefined ? subParentLinks.pop() : subParentLinks;
+      console.log('foo')
       handleSubMenu(subParentLinks);
     } else {
+      console.log('bar')
       handleParentMenu(parentLinks);
     }
     function handleSubMenu(links) {
       for (let i = 0; i < links.length; i++) {
         if (links[i].url === location) {
           let prevIndex = links[i + -1];
+          console.log(prevIndex)
           let nextIndex = links[i + 1];
-          previous = prevIndex && prevIndex.slug ? prevIndex : prevIndex;
+          previous = prevIndex && prevIndex.slug && prevIndex.subMenuItems2 ? prevIndex.subMenuItems2[prevIndex.subMenuItems2.length + -1] : prevIndex;
           next = nextIndex && nextIndex.slug ? nextIndex : nextIndex;
         }
       }
