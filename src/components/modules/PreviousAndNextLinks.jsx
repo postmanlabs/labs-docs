@@ -14,26 +14,25 @@ class PreviousAndNextLinks extends React.Component {
     if (typeof window !== 'undefined') {
       location = window.location.pathname;
     }
-    // 1. filter data 
-    // Reference file: LeftNavItems.jsx
+    // 1. filter data  / reference file: LeftNavItems.jsx
     const parentLinks = [];
-      // for every nav item, map over
     leftNavItems.forEach((leftNavItem) => {
-      // parent menu - if url matches window.location, push the item into array
+      // parent menu - if url matches window.location, push the item (subMenuItem1) into array
       leftNavItem.subMenuItems1.map((subMenuItem1, index) => {
         leftNavItem.subMenuItems1[index].url === location && parentLinks.push(leftNavItem.subMenuItems1)
-        // subparent menu - same logic applies but another level deeper in the object
+        // subparent menu - same logic applies but a level deeper in the obj (subMenuItem2)
         subMenuItem1.subMenuItems2 && subMenuItem1.subMenuItems2.filter(subMenuItem2 =>
           subMenuItem2.url === location && parentLinks
-            // pushes three items into parentLinks array [last item in previous section, current items, first item in next section]
+            // push three items into parentLinks array [last item in previous section, current items, first item in next section]
             .push([leftNavItem.subMenuItems1[index - 1]], subMenuItem1.subMenuItems2, [leftNavItem.subMenuItems1[index + 1]]))
       })
+      return parentLinks;
     })
     // 2. initiate handleSubMenu or handleParentMenu functions based on active link
     let previous;
     let next;
     let subParentLinks;
-    // length will be more than one if there is a parent or subparent node above/below the folder
+    // length will be more than one if parent or subparent menus between sections exist
     if (parentLinks.length > 1) {
       // merge three arrays into one [last item in previous section, current items, first item in next section]
       subParentLinks = parentLinks[0].concat(parentLinks[1], parentLinks[2]);
@@ -41,17 +40,14 @@ class PreviousAndNextLinks extends React.Component {
       subParentLinks[0] === undefined ? subParentLinks.shift() : subParentLinks;
       // remove last element if undefined
       subParentLinks[subParentLinks.length + -1] === undefined ? subParentLinks.pop() : subParentLinks;
-      console.log('foo')
       handleSubMenu(subParentLinks);
     } else {
-      console.log('bar')
       handleParentMenu(parentLinks);
     }
     function handleSubMenu(links) {
       for (let i = 0; i < links.length; i++) {
         if (links[i].url === location) {
           let prevIndex = links[i + -1];
-          console.log(prevIndex)
           let nextIndex = links[i + 1];
           previous = prevIndex && prevIndex.slug && prevIndex.subMenuItems2 ? prevIndex.subMenuItems2[prevIndex.subMenuItems2.length + -1] : prevIndex;
           next = nextIndex && nextIndex.slug ? nextIndex : nextIndex;
