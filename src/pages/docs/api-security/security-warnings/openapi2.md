@@ -31,12 +31,12 @@ For all APIs defined in OpenAPI 2.0, the following list describes possible warni
 * [Excessive data exposure](#excessive-data-exposure)
     * [API accepts credentials from OAuth authentication in plain text](#api-accepts-credentials-from-oauth-authentication-in-plain-text)
     * [API accepts API key in plain text](#api-accepts-api-key-in-plain-text)
-    * [API accepts auth credentials in plain text](#api-accepts-auth-credentials-in-plain-text)
-    * [Global server URL uses HTTP protocol](#global-server-url-uses-http-protocol)
+    * [API accepts basic authentication credentials in plain text](#api-accepts-basic-authentication-credentials-in-plain-text)
+    * [Global schemes have HTTP scheme defined](#global-schemes-have-http-scheme-defined)
     * [Operation accepts credentials from OAuth authentication in plain text](#operation-accepts-credentials-from-oauth-authentication-in-plain-text)
     * [Operation accepts API key in plain text](#operation-accepts-api-key-in-plain-text)
-    * [Operation accepts authentication credentials in plain text](#operation-accepts-authentication-credentials-in-plain-text)
-    * [Server URL of the operation is using HTTP protocol](#server-url-of-the-operation-is-using-http-protocol)
+    * [Operation accepts basic authentication credentials in plain text](#operation-accepts-basic-authentication-credentials-in-plain-text)
+    * [Schemes of the operation have HTTP scheme defined](#schemes-of-the-operation-have-http-scheme-defined)
     * [Authorization URL uses HTTP protocol. Credentials will be transferred as plain text](#authorization-url-uses-http-protocol-credentials-will-be-transferred-as-plain-text)
     * [Token URL uses HTTP protocol](#token-url-uses-http-protocol)
     * [Produces field is not defined](#produces-field-is-not-defined)
@@ -47,9 +47,9 @@ For all APIs defined in OpenAPI 2.0, the following list describes possible warni
     * [Security field is not defined](#security-field-is-not-defined)
     * [Security field does not contain any item](#security-field-does-not-contain-any-item)
     * [Security field does not contain any scheme](#security-field-does-not-contain-any-scheme)
-    * [Security scheme object not defined](#security-scheme-object-not-defined)
-    * [Security scheme object does not contain any scheme](#security-scheme-object-does-not-contain-any-scheme)
-    * [[Scheme used in security field is not defined in the security scheme object](#scheme-used-in-security-field-is-not-defined-in-the-security-scheme-object)
+    * [Security definition object not defined](#security-definition-object-not-defined)
+    * [Security definition object does not contain any scheme](#security-definition-object-does-not-contain-any-scheme)
+    * [Scheme used in security field is not defined in the security definition object](#scheme-used-in-security-field-is-not-defined-in-the-security-definition-object)
     * [Security field for the operation does not contain any item](#security-field-for-the-operation-does-not-contain-any-item)
     * [Security field for the operation does not contain any scheme](#security-field-for-the-operation-does-not-contain-any-scheme)
     * [Operation does not enforce any security scheme](#operation-does-not-enforce-any-security-scheme)
@@ -59,8 +59,8 @@ For all APIs defined in OpenAPI 2.0, the following list describes possible warni
     * [Consumes field for the operation does not contain any item](#consumes-field-for-the-operation-does-not-contain-any-item)
     * [Operation does not contain consumes field](#operation-does-not-contain-consumes-field)
 * [Broken object level authorization](#broken-object-level-authorization)
-    * [Scope for OAuth scheme used in security field is not defined in the securityScheme declaration](#scope-for-oauth-scheme-used-in-security-field-is-not-defined-in-the-securityscheme-declaration)
-    * [Scope for OAuth scheme used is not defined in the securityScheme declaration](#scope-for-oauth-scheme-used-is-not-defined-in-the-securityscheme-declaration)
+    * [Scope for OAuth scheme used in security field is not defined in the securityDefinition declaration](#scope-for-oauth-scheme-used-in-security-field-is-not-defined-in-the-securitydefinition-declaration)
+    * [Scope for OAuth scheme used is not defined in the securityDefinition declaration](#scope-for-oauth-scheme-used-is-not-defined-in-the-securitydefinition-declaration)
 * [Improper assets management](#improper-assets-management)
     * [OAuth authentication uses the deprecated implicit flow](#oauth-authentication-uses-the-deprecated-implicit-flow)
     * [OAuth authentication uses the deprecated password flow](#oauth-authentication-uses-the-deprecated-password-flow)
@@ -118,7 +118,7 @@ security:
 
 &nbsp;
 
-### API accepts auth credentials in plain text
+### API accepts basic authentication credentials in plain text
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
@@ -141,7 +141,7 @@ security:
 
 &nbsp;
 
-### Global server URL uses HTTP protocol
+### Global schemes have HTTP scheme defined
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
@@ -221,7 +221,7 @@ securityDefinitions:
 
 &nbsp;
 
-### Operation accepts authentication credentials in plain text
+### Operation accepts basic authentication credentials in plain text
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
@@ -249,7 +249,7 @@ securityDefinitions:
 
 &nbsp;
 
-### Server URL of the operation is using HTTP protocol
+### Schemes of the operation have HTTP scheme defined
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
@@ -453,7 +453,7 @@ security:
 
 &nbsp;
 
-### Security scheme object not defined
+### Security definition object not defined
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
@@ -471,7 +471,7 @@ securityDefinitions:
 
 &nbsp;
 
-### Security scheme object does not contain any scheme
+### Security definition object does not contain any scheme
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
@@ -489,7 +489,7 @@ securityDefinitions:
 
 &nbsp;
 
-### Scheme used in security field is not defined in the security scheme object
+### Scheme used in security field is not defined in the security definition object
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
@@ -663,7 +663,7 @@ paths:
 
 ## Broken object level authorization
 
-### Scope for OAuth scheme used in security field is not defined in the securityScheme declaration
+### Scope for OAuth scheme used in security field is not defined in the securityDefinition declaration
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
@@ -691,7 +691,7 @@ securityDefinitions:
 
 &nbsp;
 
-### Scope for OAuth scheme used is not defined in the securityScheme declaration
+### Scope for OAuth scheme used is not defined in the securityDefinition declaration
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
