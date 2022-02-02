@@ -119,41 +119,79 @@ To save a request from your history:
 
 ## Managing collections
 
-Select a collection to open its overview in a tab. You can open and close collection content by selecting the arrow to the left, and favorite (&#9733;) to move a collection to the top of the list. You can add sub-folders to create an extra level of nesting with your requests and examples. Use the search text-field to filter through your collections.
+### Basic actions
 
-To add a folder to your collection, select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> __> Add folder__.
+From the list of collections in your workspace, you can:
 
-You can also select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> **> Add Request**, or select the **Add a request** link if the folder is empty.
+* Select a collection to open its overview in a tab.
+* Open and close collection content by selecting the arrow to the left.
+* Hover over a collection name and select the star icon &#9733; to move that collection to the top of the list.
+* Use the search text-field to filter through your collections.
+* Reorder the requests, folders, and examples inside a collection by dragging and dropping them.
 
-<img alt="Add request to folder" src="https://assets.postman.com/postman-docs/folders-v8.jpg" width="350px"/>
+### Adding folders to a collection
 
-You can reorder the requests, folders, and examples inside a collection by drag and dropping them.
+To add a folder to your collection:
 
-To delete a collection, in __Collections__ select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> __> Delete__.
+1. Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> to the right of the collection name.
+1. Select **Add folder**.
 
-> If a collection is larger than 30 MB, it can't be recovered if you delete it. To avoid this, you can split the collection into smaller pieces before deleting it, or back up the collection first.
+You can also add sub-folders to create extra levels of nesting for the collection's requests and examples.
 
-To revert your collection to a previous state, open the changelog from the right of the collection overview.
+### Deleting a collection
 
-[![Changelog](https://assets.postman.com/postman-docs/changelog-v8.jpg)](https://assets.postman.com/postman-docs/changelog-v8.jpg)
+To delete a collection:
 
-You can [share](/docs/collaborating-in-postman/sharing/) your collections to a workspace, by publishing a [Run in Postman](/docs/publishing-your-api/run-in-postman/creating-run-button/) button on a web page, or by sharing a public link.
+1. Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> to the right of the collection name.
+1. Select **Delete**.
 
-> You can duplicate a collection—however you can alternatively [fork it](/docs/collaborating-in-postman/version-control-for-collections/) to develop collection versions.
+> If a deleted collection is larger than 30 MB, you will not be able to [recover it](#recovering-deleted-collections). To avoid this, you can split the collection into smaller pieces before deleting it, or back up the collection first.
 
 ### Recovering deleted collections
 
-You can recover deleted collections in Postman using __Trash__. Select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to the collection search bar and select __Open Trash__. You can restore the deleted collections or permanently delete them. You can alternatively open the trash from the status bar in the bottom right corner in Postman.
+To recover deleted collections:
+
+* Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to the collection search bar
+* Select __Open Trash__.
+* Alternatively, select the trash can icon <img alt="External link icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg" width="12px" style="vertical-align:middle;margin-bottom:5px"> from the status bar in the bottom right corner in Postman.
+* In the Trash page, select the restore icon <img alt="External link icon" src="https://assets.postman.com/postman-docs/icon-restore-v9.jpg" width="12px" style="vertical-align:middle;margin-bottom:5px"> next to the collection you want to recover.
 
 Recovery options depend on your Postman plan:
 
-* With a free account you can recover collections up to one day old.
-* With Postman Basic you can recover collections up to 30 days.
-* With Postman Professional and Enterprise you can recover collections up to 90 days.
+* Free account: Recover collections up to one day old.
+* Postman Basic: Recover collections up to 30 days.
+* Postman Professional and Enterprise: Recover collections up to 90 days.
 
 > You cannot recover a deleted collection that is larger than 30 MB.
 
 If you aren't able to recover a deleted collection, it may have been removed from a workspace rather than deleted. If the collection appears in another workspace, you can move it by selecting __Share__.
+
+### Reverting collection changes
+
+To revert your collection to a previous state:
+
+1. Select the changelog icon <img alt="Changelog icon" src="https://assets.postman.com/postman-docs/icon-changelog-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> from the right of the collection overview.
+1. Select **Restore** for the state to which you want to revert the collection.
+
+    <img alt="Revert collection to a previous state with the changelog" src="https://assets.postman.com/postman-docs/collection-changelog.jpg" width="300px"/>
+
+### Sharing a collection
+
+To share your collections with other users, you can:
+
+* Publish a [Run in Postman](/docs/publishing-your-api/run-in-postman/creating-run-button/) button.
+* Invite others to collaborate by selecting the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to the collection name, then selecting **Share**. Learn more about [sharing elements in Postman](/docs/collaborating-in-postman/sharing/#sharing-postman-entities).
+* Moving the collection to a shared workspace by selecting the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to the collection name, then selecting **Move**. Learn more about [moving Postman elements](/docs/collaborating-in-postman/sharing/#moving-postman-entities-to-collaborative-workspaces).
+
+### Forking a collection
+
+You can fork collections in your own workspace to [develop collection versions](/docs/collaborating-in-postman/version-control-for-collections/). To fork a collection:
+
+1. Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> to the right of the collection name.
+1. Select **Fork**.
+1. Alternatively, select the fork icon <img alt="Fork icon" src="https://assets.postman.com/postman-docs/icon-fork.jpg" width="14px" style="vertical-align:middle;margin-bottom:5px"> from the collection overview.
+
+    <img alt="Fork from the collection overview page" src="https://assets.postman.com/postman-docs/collection-overview-fork.jpg" width="350px"/>
 
 ## Using collections
 
