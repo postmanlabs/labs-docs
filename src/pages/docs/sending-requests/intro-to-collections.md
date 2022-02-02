@@ -43,7 +43,7 @@ Select __Collections__ in the left sidebar of Postman to see the list of collect
 * [Creating collections](#creating-collections)
 * [Adding requests to a collection](#adding-requests-to-a-collection)
 * [Managing collections](#managing-collections)
-* [Using collections](#using-collections)
+* [Using collections in development workflows](#using-collections-in-development-workflows)
 
 ## Creating collections
 
@@ -193,17 +193,18 @@ You can fork collections in your own workspace to [develop collection versions](
 
     <img alt="Fork from the collection overview page" src="https://assets.postman.com/postman-docs/collection-overview-fork.jpg" width="350px"/>
 
-## Using collections
+## Using collections in development workflows
 
-You can use collections to power various parts of your API development, testing, and publishing workflows. Use the buttons to the right of the collection to see documentation, comments, the changelog, pull requests, and an overview of the collection including linked elements such as mocks and monitors.
+Collections can power various parts of your API development, testing, and publishing workflows. Use the buttons to the right of the collection to see documentation, comments, the changelog, pull requests, and an overview of the collection including linked elements such as mocks and monitors.
 
 [![Collection options](https://assets.postman.com/postman-docs/collection-info-v8.jpg)](https://assets.postman.com/postman-docs/collection-info-v8.jpg)
 
-* The [Collection Runner](/docs/running-collections/intro-to-collection-runs/) allows you to run all requests in a collection and build testing workflows into your runs.
-* You can define [scripts](/docs/writing-scripts/intro-to-scripts/) in your collection, and they will run for each request inside it.
-* [Collection variables](/docs/sending-requests/variables/) allow you to define values to use throughout the requests in the collection.
-* You can generate [API documentation](/docs/publishing-your-api/documenting-your-api/) from a collection and share it publicly as well as adding it to the [Postman API Network](https://www.postman.com/explore).
-* Attaching a [monitor](/docs/monitoring-your-api/intro-monitors/) to a collection lets you schedule collection runs.
-* If you add [examples](/docs/sending-requests/examples/) to your requests, you can use [mock servers](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/) to return sample data during testing and development.
+* Select **Run** to access the [Collection Runner](/docs/running-collections/intro-to-collection-runs/), which allows you to run all requests in a collection and build testing workflows into your runs.
+* Select **Pre-request Script** to define a [pre-request script](/docs/writing-scripts/pre-request-scripts/) for your collection, which will run before requests are sent to the server.
+* Select **Tests** to define a [test script](/docs/writing-scripts/test-scripts/) for your collection, which will run after a response is received.
+* Select **Variables** to define values for [collection variables](/docs/sending-requests/variables/) to use throughout the requests in the collection.
+* Select the documentation icon <img alt="Documentation icon" src="https://assets.postman.com/postman-docs/documentation-icon-v8-10.jpg" width="16px" style="vertical-align:middle;margin-bottom:5px"> to generate [API documentation](/docs/publishing-your-api/documenting-your-api/) from a collection.
+* Attaching a [monitor](/docs/monitoring-your-api/intro-monitors/) to a collection lets you schedule collection runs. Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to the collection name, and then select **Monistor collection**.
+* You can use [mock servers](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/) to return sample data during testing and development. Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to the collection name, and then select **Mock collection**.
 
 You can generate collections from API specifications using the [Postman API Builder](/docs/designing-and-developing-your-api/the-api-workflow/).
