@@ -59,7 +59,7 @@ class PreviousAndNextLinks extends React.Component {
         for (let i = 0; i < link.length; i++) {
           if (link[i].url === location) {
             let prevIndex = link[i + -1];
-            let nextIndex = link[i + 1]
+            let nextIndex = link[i + 1];
             // edge case: if previous section is a submenu, traverse to the last index to grab data
             // Ex: /docs/designing-and-developing-your-api/view-and-analyze-api-reports/
             previous = prevIndex && prevIndex.subMenuItems2 ? prevIndex.subMenuItems2[prevIndex.subMenuItems2.length + -1] : prevIndex;
