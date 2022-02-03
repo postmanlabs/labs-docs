@@ -12,6 +12,14 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Postman 101 for Admins | Webinar"
+    url: "https://youtu.be/rEKvQO8EYR8"
+  - type: link
+    name: "Working With Your Team in Postman | The Exploratory"
+    url: "https://youtu.be/5lscUV-Exac"
+  - type: subtitle
     name: "Related Blog Posts"
   - type: link
     name: "Streamline access control with extended roles & permissions"

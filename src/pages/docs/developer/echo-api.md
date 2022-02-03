@@ -10,6 +10,13 @@ contextual_links:
     name: "Sending your first request"
     url: "/docs/getting-started/sending-the-first-request/"
   - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Related Blog Posts"
+  - type: link
+    name: "10 Postman Features Everyone Should Know"
+    url: "https://blog.postman.com/10-postman-features-everyone-should-know/"
+  - type: section
     name: "Next Steps"
   - type: link
     name: "Exploring the Public API Network"
