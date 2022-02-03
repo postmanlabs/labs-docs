@@ -54,7 +54,7 @@ Select __Collections__ in the left sidebar of Postman to see the list of collect
     * [Recovering a deleted collection](#recovering-a-deleted-collection)
     * [Sharing a collection](#sharing-a-collection)
     * [Forking a collection](#forking-a-collection)
-    * [Adding comments to a collection](adding-comments-to-a-collection)
+    * [Adding comments to a collection](#adding-comments-to-a-collection)
     * [Reverting collection changes](#reverting-collection-changes)
     * [Viewing pull requests, forks, and collection details](#viewing-pull-requests-forks-and-collection-details)
 * [Using collections in development workflows](#using-collections-in-development-workflows)
@@ -63,14 +63,14 @@ Select __Collections__ in the left sidebar of Postman to see the list of collect
 
 There are several ways to create a new collection:
 
-* Select __+__ in the left sidebar.
+* Select **Collections** in the left sidebar, then select **+**.
 * Select the __New__ button, then select __Collection__.
 * Select **Create New**, then select **Collection** from the Postman home screen.
 
     <img alt="Create new collection" src="https://assets.postman.com/postman-docs/new-collection.jpg" width="300px"/>
 
 1. Select the pencil icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> to give your new collection a name.
-1. You can optionally specify a description for your collection. Select the documentation icon <img alt="Documentation icon" src="https://assets.postman.com/postman-docs/documentation-icon-v8-10.jpg" width="16px" style="vertical-align:middle;margin-bottom:5px">, then select the pencil icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> to write your description. This description will appear in its documentation and in the workspace when anyone opens it.
+1. You can optionally specify a [description](/docs/publishing-your-api/authoring-your-documentation/) for your collection. Select the documentation icon <img alt="Documentation icon" src="https://assets.postman.com/postman-docs/documentation-icon-v8-10.jpg" width="16px" style="vertical-align:middle;margin-bottom:5px">, then select the pencil icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> to write your description. This description will appear in its documentation and in the workspace when anyone opens it.
 1. Select **Authorization** to configure authorization details for the collection.
 1. Select **Pre-request Script** to define a [pre-request script](/docs/writing-scripts/pre-request-scripts/) for your collection, which will run before requests are sent to the server.
 1. Select **Tests** to define a [test script](/docs/writing-scripts/test-scripts/) for your collection, which will run after a response is received.
@@ -123,7 +123,7 @@ To add a request to an empty collection:
 
 To save a request from your history:
 
-1. Navigate to **History** from the Postman left menu.
+1. Select **History** in the left sidebar.
 1. Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to the request you want to save.
 1. Select **Save Request**.
 
@@ -160,7 +160,7 @@ To delete a collection:
 1. Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> to the right of the collection name.
 1. Select **Delete**.
 
-> If a deleted collection is larger than 30 MB, you will not be able to [recover it](#recovering-deleted-collections). To avoid this, you can split the collection into smaller pieces before deleting it, or back up the collection first.
+> If a deleted collection is larger than 30 MB, you will not be able to [recover it](#recovering-a-deleted-collection). To avoid this, you can split the collection into smaller pieces before deleting it, or back up the collection first.
 
 ### Recovering a deleted collection
 
@@ -217,7 +217,7 @@ To revert your collection to a previous state:
 
 ### Viewing pull requests, forks, and collection details
 
-From the icon bar to the right of the collection overview:
+From the context bar to the right of the collection overview:
 
 * To view pull requests for a collection, select the pull request icon <img alt="Pull request icon" src="https://assets.postman.com/postman-docs/icon-pull-request.jpg" width="16px" style="vertical-align:middle;margin-bottom:5px">
 * To view forks created from a collection, select the fork icon <img alt="Fork icon" src="https://assets.postman.com/postman-docs/icon-fork.jpg" width="16px" style="vertical-align:middle;margin-bottom:5px">
