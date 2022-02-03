@@ -26,7 +26,6 @@ import './index.scss';
 
 
 const heroBackground = {
-  // grey_10
   backgroundColor: '#f9f9f9',
   padding: '48px 80px',
 };
