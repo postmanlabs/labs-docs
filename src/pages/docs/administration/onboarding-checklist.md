@@ -8,7 +8,7 @@ contextual_links:
     name: "Additional Resources"
   - type: link
     name: "Security and Compliance: A Shared Responsibility Model"
-    url: "https://www.postman.com/security/shared-responsibility/"
+    url: "https://www.postman.com/trust/shared-responsibility/"
   - type: link
     name: "Managing your team"
     url: "/docs/administration/managing-your-team/managing-your-team/"
