@@ -55,29 +55,17 @@ If there are no errors, Postman will indicate in the lower pane that your schema
 
 ## Validating elements
 
-<!--TODO: this doesn't explain the flow well, and doesn't show all of the possible places you can trigger this. Also, do we repeat this in the other sections, like mock/monitor/doc/tests? -->
-
 > Element validation is available for OpenAPI 3.0 and WSDL 1.1 and 2.0 schemas.
 
-After you make changes to your API schema, you can validate associated elements to determine if they will also need changes to stay in sync with the schema. For example, if you add a new method to your API schema, validation will indicate you also need to add the method to your tests. Validation will also indicate issues in a new element. For example, if you add existing documentation to an API and it contains requests not in the API schema, this will be indicated in the validation.
+You can compare your API schemas against documentation, mock servers, tests, and monitors associated with it to determine if the elements need changes to stay in sync. For example, if you add a new method to your API schema, validation will indicate you need to add the method to your associated documentation. Or when you add a new element to an API, you can run a validation to check the element against the current API schema for issues.
 
-For validations to execute, you need the following elements in place:
+Each element has a **Validate** column next to where it's located in the API page. (Documentation and Mock servers are on the API **Overview** tab; tests are on the **Test** tab; monitors are on the **Monitor** tab.)
 
-* An API schema - see [Defining an API](/docs/designing-and-developing-your-api/defining-an-api/)
-* API elements - this can be a [mock server](/docs/designing-and-developing-your-api/developing-an-api/#adding-a-mock-server), [documentation](/docs/designing-and-developing-your-api/developing-an-api/#adding-documentation), [tests](/docs/designing-and-developing-your-api/testing-an-api/), or a [monitor](/docs/designing-and-developing-your-api/observing-an-api/)
+To validate a new element, select **Validate** in the validate column next to the element. To re-validate an element, select the status, then select **Validate Again**.
 
-When you add a new element to an API, you need to trigger a validation to check it against the current API schema. The results of the validation will appear next to the element.
+Once the validation is complete, a status will appear next to the element indicating a checkmark if no issues have been found, or a warning message stating that issues are found. If there are issues, select the status, then select **Review Issues** to review them.
 
 ![Test validation](https://assets.postman.com/postman-docs/api-builder-test-validation.jpg)
-
-You can also trigger a new validation of your element manually in the following cases:
-
-* Re-validating after editing your schema or linked element
-* Adding a new schema to an API that already has elements linked to it
-
-You can do so by navigating to your element (such as **Test**), selecting the validation status, then **Validate Again**.
-
-Once the validation is complete, a status will appear next to the element indicating a checkmark if no issues have been found, or a warning message stating `Issues found`. If there are issues, select **Review Issues** to review them.
 
 ### Validating requests
 
@@ -93,7 +81,7 @@ Postman will validate a request when it's sent. If issues are found, you will se
 
 You can review the issues found during validation to fix issues in your collections or schemas.
 
-If an issue arises when you run a request, select the warning message next to the name of the request (for example, **1 issue**). This will open a side-panel on the right indicating detailed information about which component of the request is affected and what the issue itself is:
+If an issue arises when you run a request, select the warning message next to the name of the request (for example, **1 issue**). This will open a panel on the right indicating detailed information about which component of the request is affected and what the issue itself is:
 
 * A direct link to the API against which the request is validated. Select the link to open the API within Postman.
 * More details on where the issue lies within the request.
@@ -102,11 +90,11 @@ If an issue arises when you run a request, select the warning message next to th
 
 If your issue relates to another element, navigate to your API by selecting **APIs** in the app sidebar, then select an API version from the list. Open the tab containing the element you want to see issues for (either **Overview**, **Test** or **Monitoring**).
 
-You will see a status indicating whether issues have been found during validation next to the element. If there are issues, view them by selecting **Issues found** > **View issues**. This will take you to a page on the web dashboard summarizing validation issues.
+You will see a status indicating if issues have been found during validation next to the element. If there are issues, view them by selecting **Issues found** > **View issues**. This will take you to a page summarizing validation issues.
 
 ## Updating API elements
 
-The summary will indicate the [details of each issue](#understanding-the-issue-summary) and provide fixes that you can [automatically apply](#applying-changes-to-api-elements) to the corresponding API element.
+The issue summary indicates the [details of each issue](#understanding-the-issue-summary) and provides fixes you can [automatically apply](#applying-changes-to-api-elements) to the corresponding API element.
 
 ### Understanding the issue summary
 
@@ -124,7 +112,7 @@ You can individually select the changes to be applied to the API element as you 
 
 When you're done selecting the changes to apply, select **Confirm Changes to Collection**.
 
-Alternatively, you can choose to apply all changes by selecting **Select all changes**, then **Confirm Changes to Collection**.
+Alternatively, you can apply all changes by selecting **Select all changes**, then **Confirm Changes to Collection**.
 
 You can access the updated API element by selecting **View Updated Collection** from the confirmation screen. If you didn't apply all changes, you can also review the remaining issues by selecting **View Remaining Issues**.
 
