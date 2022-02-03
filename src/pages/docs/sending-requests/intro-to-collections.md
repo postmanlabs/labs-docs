@@ -2,6 +2,7 @@
 title: "Grouping requests in collections"
 order: 23.1
 page_id: "intro_to_collections"
+updated: 2022-02-03
 contextual_links:
   - type: section
     name: "Prerequisites"
