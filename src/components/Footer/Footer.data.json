@@ -132,17 +132,17 @@
     },
     {
       "title": "Security and Legal",
-      "arialabelledby": "security-and-terms",
+      "arialabelledby": "security-and-legal",
       "category": "global-footer",
-      "label": "security-and-terms",
-      "id": "security-and-terms",
+      "label": "security-and-legal",
+      "id": "security-and-legal",
       "items": [
         {
-          "title": "Security",
-          "url": "https://www.postman.com/security/",
+          "title": "Trust and Security",
+          "url": "https://www.postman.com/trust/",
           "category": "global-footer",
-          "label": "security",
-          "id": "security",
+          "label": "trust-and-security",
+          "id": "trust-and-security",
           "target":"" 
         },
         {
