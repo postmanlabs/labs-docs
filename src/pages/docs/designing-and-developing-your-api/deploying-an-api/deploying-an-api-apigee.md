@@ -1,7 +1,7 @@
 ---
 title: 'Deploying to an Apigee API gateway'
 page_id: 'deploying_an_api_apigee'
-updated: 2022-01-31
+updated: 2022-02-07
 search_keyword: "deploy, apigee, api gateway"
 warning: false
 contextual_links:
