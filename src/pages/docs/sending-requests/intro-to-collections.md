@@ -34,7 +34,7 @@ warning: false
 
 You can group your Postman requests and examples into collections to keep your workspace organized, to collaborate with teammates, to generate API documentation and test suites, and to automate request runs.
 
-Select __Collections__ in the left sidebar of Postman to see the list of collections in a workspace.
+Select **Collections** in the left sidebar of Postman to see the list of collections in a workspace.
 
 <img alt="" src="https://assets.postman.com/postman-docs/collections-overview.jpg" width="300px"/>
 
@@ -64,10 +64,13 @@ Select __Collections__ in the left sidebar of Postman to see the list of collect
 There are several ways to create a new collection:
 
 * Select **Collections** in the left sidebar, then select **+**.
-* Select the __New__ button, then select __Collection__.
-* Select **Create New**, then select **Collection** from the Postman home screen.
 
     <img alt="Create new collection" src="https://assets.postman.com/postman-docs/new-collection.jpg" width="300px"/>
+
+* Select the **New** button, then select **Collection**.
+* Select **Home** in the Postman header. Select **Create New**, then select **Collection**.
+
+Once you have created a new collection, you can customize and configure it:
 
 1. Select the pencil icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> to give your new collection a name.
 1. You can optionally specify a [description](/docs/publishing-your-api/authoring-your-documentation/) for your collection. Select the documentation icon <img alt="Documentation icon" src="https://assets.postman.com/postman-docs/documentation-icon-v8-10.jpg" width="16px" style="vertical-align:middle;margin-bottom:5px">, then select the pencil icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> to write your description. This description will appear in its documentation and in the workspace when anyone opens it.
@@ -88,16 +91,15 @@ To move an existing request to a different collection:
 
 1. Select the request you want to move.
 1. Drag and drop the request into into the desired collection.
-1. Alternatively, open the request and select **Save As**, then choose the collection you want to move it to.
 
-    <img alt="Save request" src="https://assets.postman.com/postman-docs/save-request-v9.jpg" width="300px"/>
+> Alternatively, open the request and select **Save As**, then choose the collection you want to move it to.
 
 ### Adding a new request to a collection
 
 To add a new request to a collection:
 
-1. From a new request, select __Save__.
-1. Choose the collection you want to move it to, and then select __Save__.
+1. From a new request, select **Save**.
+1. Choose the collection you want to move it to, and then select **Save**.
 1. To create a new collection to save the request to, select **New Collection**.
 
 ### Creating a new request inside a collection
@@ -109,7 +111,7 @@ To create a new request inside a collection:
 
     <img alt="Add request to folder" src="https://assets.postman.com/postman-docs/collection-menu-v9.jpg" width="350px"/>
 
-1. Alternatively, select **New**, and then select **Request**.
+> Alternatively, select **New**, and then select **Request**.
 
 ### Adding a request to an empty collection
 
@@ -129,8 +131,9 @@ To save a request from your history:
 
     <img alt="Save request from history" src="https://assets.postman.com/postman-docs/save-history-v9.jpg" width="350px"/>
 
-1. Choose the collection to add the request to, then select __Save__.
-1. Alternatively, select the __+__ button next to the request.
+1. Choose the collection to add the request to, then select **Save**.
+
+> Alternatively, select the **+** button next to the request.
 
 ## Managing collections
 
@@ -166,10 +169,12 @@ To delete a collection:
 
 To recover a deleted collection:
 
-* Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to the collection search bar.
-* Select __Open Trash__.
-* Alternatively, select the trash can icon <img alt="External link icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg" width="12px" style="vertical-align:middle;margin-bottom:5px"> from the status bar in the bottom right corner in Postman.
-* In the Trash page, select the restore icon <img alt="External link icon" src="https://assets.postman.com/postman-docs/icon-restore-v9.jpg" width="12px" style="vertical-align:middle;margin-bottom:5px"> next to the collection you want to recover.
+1. Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to the collection search bar.
+1. Select **Open Trash**.
+
+    > Alternatively, select the trash can icon <img alt="External link icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg" width="12px" style="vertical-align:middle;margin-bottom:5px"> from the status bar in the bottom right corner in Postman.
+
+1. In the Trash page, select the restore icon <img alt="External link icon" src="https://assets.postman.com/postman-docs/icon-restore-v9.jpg" width="12px" style="vertical-align:middle;margin-bottom:5px"> next to the collection you want to recover.
 
 > Deleted collections that are larger than 30 MB cannot be recovered.
 
@@ -179,7 +184,7 @@ Recovery options depend on your Postman plan:
 * Postman Basic: Recover collections for up to 30 days.
 * Postman Professional and Enterprise: Recover collections for up to 90 days.
 
-> If you do not see a collection that you expected to see in the Trash page, it may have been removed from a workspace rather than deleted. If the collection appears in another workspace, you can move it by selecting __Share__.
+> If you do not see a collection that you expected to see in the Trash page, it may have been removed from a workspace rather than deleted. If the collection appears in another workspace, you can move it by selecting **Share**.
 
 ### Sharing a collection
 
@@ -193,11 +198,10 @@ To share your collections with other users, you can:
 
 You can fork collections in your own workspace to [develop collection versions](/docs/collaborating-in-postman/version-control-for-collections/). To fork a collection:
 
-1. Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> to the right of the collection name.
+1. Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> to the right of the collection name
 1. Select **Fork**.
-1. Alternatively, select the fork icon <img alt="Fork icon" src="https://assets.postman.com/postman-docs/icon-fork.jpg" width="14px" style="vertical-align:middle;margin-bottom:5px"> from the collection overview.
 
-    <img alt="Fork from the collection overview page" src="https://assets.postman.com/postman-docs/collection-overview-fork.jpg" width="350px"/>
+> Alternatively, select the fork icon <img alt="Fork icon" src="https://assets.postman.com/postman-docs/icon-fork.jpg" width="14px" style="vertical-align:middle;margin-bottom:5px"> from the collection overview.
 
 ### Adding comments to a collection
 
