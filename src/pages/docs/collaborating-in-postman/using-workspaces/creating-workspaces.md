@@ -11,23 +11,20 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Creating a Workspace | Postman Level Up"
+    url: "https://youtu.be/I10RCvMbPi0"
+  - type: subtitle
     name: "Related Blog Posts"
   - type: link
-    name: "Workspaces! What are they good for?"
-    url: "https://blog.postman.com/workspaces-the-biggest-thing-to-hit-postman-this-month/"
-  - type: link
-    name: "Setting up your first public workspace"
+    name: "How to Set Up Your First Public Workspace in 5 Easy Steps"
     url: "https://blog.postman.com/how-to-set-up-public-workspaces/"
   - type: subtitle
     name: "Case Studies"
   - type: link
     name: "Movember Foundation"
     url: "https://www.postman.com/case-studies/movember-foundation/"
-  - type: subtitle
-    name: "Videos"
-  - type: link
-    name: "Creating a Workspace | Postman Level Up"
-    url: "https://youtu.be/I10RCvMbPi0"
   - type: section
     name: "Next Steps"
   - type: link

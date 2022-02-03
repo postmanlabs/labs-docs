@@ -10,6 +10,18 @@ contextual_links:
     name: "Intro to Postman API"
     url: "/docs/developer/intro-api/"
   - type: section
+    name: "Additional resources"
+  - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Dynamically create custom environments with code"
+    url: "https://youtu.be/6h2JiMfNU0A"
+  - type: subtitle
+    name: "Related Blog Posts"
+  - type: link
+    name: "How to Dynamically Create Custom Environments with Code"
+    url: "https://blog.postman.com/how-to-dynamically-create-custom-environments-with-code/"
+  - type: section
     name: "Next Steps"
   - type: link
     name: "Intro to scripts"
