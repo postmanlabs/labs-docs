@@ -42,7 +42,21 @@ Select __Collections__ in the left sidebar of Postman to see the list of collect
 
 * [Creating collections](#creating-collections)
 * [Adding requests to a collection](#adding-requests-to-a-collection)
+    * [Moving an existing request to a different collection](#moving-an-existing-request-to-a-different-collection)
+    * [Adding a new request to a collection](#adding-a-new-request-to-a-collection)
+    * [Creating a new request inside a collection](#creating-a-new-request-inside-a-collection)
+    * [Adding a request to an empty collection](#adding-a-request-to-an-empty-collection)
+    * [Adding a request from your history to a collection](#adding-a-request-from-your-history-to-a-collection)
 * [Managing collections](#managing-collections)
+    * [Basic actions](#basic-actions)
+    * [Adding folders to a collection](#adding-folders-to-a-collection)
+    * [Deleting a collection](#deleting-a-collection)
+    * [Recovering a deleted collection](#recovering-a-deleted-collection)
+    * [Sharing a collection](#sharing-a-collection)
+    * [Forking a collection](#forking-a-collection)
+    * [Adding comments to a collection](adding-comments-to-a-collection)
+    * [Reverting collection changes](#reverting-collection-changes)
+    * [Viewing pull requests, forks, and collection details](#viewing-pull-requests-forks-and-collection-details)
 * [Using collections in development workflows](#using-collections-in-development-workflows)
 
 ## Creating collections
@@ -205,8 +219,8 @@ To revert your collection to a previous state:
 
 From the icon bar to the right of the collection overview:
 
-* To view pull requests for a collection, select the pull request icon <img alt="Documentation icon" src="https://assets.postman.com/postman-docs/icon-pull-request.jpg" width="16px" style="vertical-align:middle;margin-bottom:5px">
-* To view forks created from a collection, select the pull request icon <img alt="Documentation icon" src="https://assets.postman.com/postman-docs/icon-fork.jpg" width="16px" style="vertical-align:middle;margin-bottom:5px">
+* To view pull requests for a collection, select the pull request icon <img alt="Pull request icon" src="https://assets.postman.com/postman-docs/icon-pull-request.jpg" width="16px" style="vertical-align:middle;margin-bottom:5px">
+* To view forks created from a collection, select the fork icon <img alt="Fork icon" src="https://assets.postman.com/postman-docs/icon-fork.jpg" width="16px" style="vertical-align:middle;margin-bottom:5px">
 * To view additional information about the collection, including mock servers, monitors, and integrations, select the info icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg" width="16px" style="vertical-align:middle;margin-bottom:5px">
 
 ## Using collections in development workflows
