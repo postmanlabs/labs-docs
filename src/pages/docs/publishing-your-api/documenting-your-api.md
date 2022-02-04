@@ -134,7 +134,7 @@ To use an existing collection for API documentation:
 
 ### Editing API documentation
 
-You can add to your API documentation collections right from the **Documentation** tab. First select a linked collection in the pane at left. Then select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to any description and use [the built-in editing tools](/docs/publishing-your-api/authoring-your-documentation/) to author content.
+You can add to your API documentation collections right from the **Documentation** tab. First, select a linked collection in the pane at left. Then select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to any description and use [the built-in editing tools](/docs/publishing-your-api/authoring-your-documentation/) to author content.
 
 Another way to work on your API documentation is to open the linked collection. On the **Documentation** tab, select **View Collection** at the upper right, and then [edit the documentation](#documenting-a-collection) in the linked collection.
 
