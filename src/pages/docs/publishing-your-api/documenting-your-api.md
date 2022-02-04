@@ -184,7 +184,7 @@ There are several ways to create a documentation collection for a new version of
 
 * **Add an existing to collection to the new API version.** Open the new API version and select the **Overview** tab. Select the **+** next to **Documentation**, and then select **Add existing documentation**.
 
-> Postman automatically generates schema documentation for each version of your API, based on that version's API definition. Once you've versioned your API, you'll see a new version of the schema documentation on the **Documentation** tab.
+> Postman automatically generates schema documentation for each version of your API, based on that version's API definition. Once you've versioned your API, you'll see a new version of the schema documentation in the **Documentation** tab.
 
 ### Documenting releases
 
