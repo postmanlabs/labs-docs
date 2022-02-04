@@ -99,7 +99,7 @@ To view the documentation for an OpenAPI 3.0 schema:
 1. Select the **Documentation** tab.
 1. In the left pane, select an item under **Schema Documentation** to view a specific path or request.
 
-<img alt="Viewing schema documentation" src="https://assets.postman.com/postman-docs/documentation-view-schema-docs-v9-9.jpg" width="952px">
+<img alt="Viewing schema documentation" src="https://assets.postman.com/postman-docs/documentation-view-schema-docs-v9-12.jpg" width="1106px">
 
 > Postman alerts you if your API schema contains unsaved changes that are not reflected in the documentation. To update the API documentation with the latest schema changes, select the **Definition** tab and save your schema.
 
@@ -140,7 +140,7 @@ Another way to work on your API documentation is to open the linked collection. 
 
 > Schema documentation cannot be edited in the **Documentation** tab. Instead, edit your schema in the **Definition** tab and then select **Save**. Postman automatically updates the API docs to reflect the latest schema changes.
 
-<img alt="Editing API documentation" src="https://assets.postman.com/postman-docs/documentation-editing-api-docs-v9-9.jpg" width="952px">
+<img alt="Editing API documentation" src="https://assets.postman.com/postman-docs/documentation-editing-api-docs-v9-12.jpg" width="1106px">
 
 ### Removing API documentation
 
