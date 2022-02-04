@@ -63,7 +63,7 @@ Each element has a **Validate** column next to where it's located in the API pag
 
 To validate a new element, select **Validate** in the validate column next to the element. To re-validate an element, select the status, then select **Validate Again**.
 
-Once the validation is complete, a status will appear next to the element indicating a checkmark if no issues have been found, or a warning message stating that issues are found. If there are issues, select the status, then select **Review Issues** to review them.
+Once the validation is complete, a checkmark will appear next to the element if no issues have been found, or a warning message stating that issues are found. If there are issues, select the status, then select **Review Issues** to review them.
 
 ![Test validation](https://assets.postman.com/postman-docs/api-builder-test-validation.jpg)
 
