@@ -96,7 +96,7 @@ To view documentation for an API:
 1. Select a documentation source in the pane at left:
 
     * **Schema Documentation:** Select an API, and then select an item to view a specific path or request. (Schema documentation is only available for OpenAPI 3.0 schemas.)
-    * **Collections:** Select a linked collection, and then select an item to view a specific path or request. To see sample code in a different language, select it in the **Language** menu.
+    * **Collection Documentation:** Select a linked collection, and then select an item to view a specific path or request. To see sample code in a different language, select it in the **Language** menu.
 
 <img alt="Viewing API documentation" src="https://assets.postman.com/postman-docs/documentation-view-schema-docs-v9-9.jpg" width="952px">
 

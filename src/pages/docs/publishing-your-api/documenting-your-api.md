@@ -116,7 +116,7 @@ To generate a new collection for API documentation:
 
 <img alt="Generating new API documentation" src="https://assets.postman.com/postman-docs/documentation-generate-api-docs-v9.jpg" width="702px">
 
-> You can generate additional documentation collections from the **Documentation** tab. Select the **+** next to **Collections** (in the pane at left), and then select **Create Documentation**.
+> You can generate additional documentation collections from the **Documentation** tab. Select the **+** next to **Collection Documentation** (in the pane at left), and then select **Create Documentation**.
 
 ### Adding existing documentation to an API
 
@@ -130,7 +130,7 @@ To use an existing collection for API documentation:
 
 <img alt="Adding existing API documentation" src="https://assets.postman.com/postman-docs/documentation-add-api-docs-v9.jpg" width="402px">
 
-> You can add additional documentation collections from the **Documentation** tab. Select the **+** next to **Collections** (in the pane at left), and then select **Add Existing Documentation**.
+> You can add additional documentation collections from the **Documentation** tab. Select the **+** next to **Collection Documentation** (in the pane at left), and then select **Add Existing Documentation**.
 
 ### Editing API documentation
 
