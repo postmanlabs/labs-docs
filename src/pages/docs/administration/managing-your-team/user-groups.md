@@ -10,8 +10,8 @@ contextual_links:
   - type: subtitle
     name: "Related Blog Posts"
   - type: link
-    name: "Manage Large Teams in Postman with Workspaces, Permissions, and Version Control"
-    url: "https://blog.postman.com/postman-team-workspaces-and-permissions/"
+    name: "Introducing Postman Groups: Manage Users with Easier Access Control"
+    url: "https://blog.postman.com/introducing-postman-groups/"
 
 ---
 

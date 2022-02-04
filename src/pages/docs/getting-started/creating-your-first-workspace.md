@@ -7,6 +7,13 @@ search_keyword: "workspace, create workspace, creating workspaces"
 updated: 2022-01-04
 contextual_links:
   - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Creating a Workspace | Postman Level Up"
+    url: "https://youtu.be/I10RCvMbPi0"
+  - type: section
     name: "Next Steps"
   - type: link
     name: "Working with your team"
