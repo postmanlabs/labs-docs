@@ -83,7 +83,7 @@ You can delete a monitor at any time. Once deleted, all run history for the moni
 
 ### Where do monitors run?
 
-Monitors run on Postman's cloud infrastructure, which is hosted by Amazon Web Services (AWS). More information about the cloud infrastructure is available on the [Security overview](https://www.postman.com/security).
+Monitors run on Postman's cloud infrastructure, which is hosted by Amazon Web Services (AWS). More information about the cloud infrastructure is available on the [Security overview](https://www.postman.com/trust/security/).
 
 ### Can monitors access private networks?
 

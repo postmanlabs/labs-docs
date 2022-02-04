@@ -71,6 +71,13 @@ class Layout extends React.Component {
   }
 
   componentDidMount() {
+    if (typeof window !== 'undefined') {
+      if (!window.location.hash) {
+        window.scrollTo(0, 0);
+      } else {
+        window.location = window.location.hash;
+      }
+    }
     setReferrerCookie();
     setGclidCookie();
   }
