@@ -1,7 +1,7 @@
 ---
 title: 'Validating APIs'
 order: 83
-updated: 2022-02-03
+updated: 2022-02-04
 page_id: 'validating-elements-against-schema'
 warning: false
 contextual_links:
@@ -81,10 +81,7 @@ Postman will validate a request when it's sent. If issues are found, you will se
 
 You can review the issues found during validation to fix issues in your collections or schemas.
 
-If an issue arises when you run a request, select the warning message next to the name of the request (for example, **1 issue**). This will open a panel on the right indicating detailed information about which component of the request is affected and what the issue itself is:
-
-* A direct link to the API against which the request is validated. Select the link to open the API within Postman.
-* More details on where the issue lies within the request.
+If an issue arises when you run a request, select the warning message next to the name of the request (for example, **1 issue**). This will open a panel on the right indicating detailed information about which component of the request is affected and what the issue itself is, and a direct link to the API against which the request is validated. Select the link to open the API within Postman.
 
 > You can select a specific issue to access the relevant request component.
 
