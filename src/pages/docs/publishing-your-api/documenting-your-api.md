@@ -91,7 +91,7 @@ The **Documentation** tab in the API Builder provides one place to view, create,
 
 ### Viewing schema documentation
 
-If you are [designing an API](/docs/designing-and-developing-your-api/defining-an-api/) based on the OpenAPI 3.0 specification, Postman automatically creates documentation for your API based on your schema definition. The API docs include paths, variables, query parameters, response bodies and headers, and examples. The docs also indicate which variables and parameters are required, along with default, minimum, and maximum values.
+If you are [designing an API](/docs/designing-and-developing-your-api/defining-an-api/) based on the OpenAPI 3.0 specification, Postman automatically creates documentation for your API based on your schema definition. The API documentation includes paths, variables, query parameters, response bodies and headers, and examples. The documentation also indicates which variables and parameters are required, along with default, minimum, and maximum values.
 
 To view the documentation for an OpenAPI 3.0 schema:
 
