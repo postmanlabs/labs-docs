@@ -88,7 +88,7 @@ Postman automatically generates API docs for any OpenAPI 3.0 compliant schema [d
 
 To view documentation for an API:
 
-1. Select **APIs** in the left sidebar, and then select an API and a version.
+1. Select **APIs** in the left sidebar, then select an API and a version.
 
     > You can also search for APIs on the [Private API Network](https://go.postman.co/network/private) or the [Public API Network](https://www.postman.com/explore/apis).
 
