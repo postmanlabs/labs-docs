@@ -13,6 +13,11 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Postman Interceptor Demo"
+    url: "https://youtu.be/Swjims0aOl4"
+  - type: subtitle
     name: "Related Blog Posts"
   - type: link
     name: "Introducing Interceptor integration for native Postman apps"
@@ -40,7 +45,7 @@ Once Interceptor is running in Chrome, you can start a debug session, which is a
 * [Using Interceptor](#using-interceptor)
     * [Running the Interceptor debug session](#running-the-interceptor-debug-session)
     * [Viewing the Interceptor debug session results](#viewing-the-interceptor-debug-session-results)
-    * [Syncing cookies](#syncing-cookies)
+    * [Working with cookies](#working-with-cookies)
 * [How it works](#how-it-works)
     * [Troubleshooting tips](#troubleshooting-tips)
 * [Security](#security)
@@ -77,15 +82,19 @@ After Interceptor is connected, you can then start an Interceptor debug session,
 
 1. Go to the **Via Interceptor** tab of the **Capture requests and cookies** window.
 
-1. Select **Capture Cookies** if you want to capture cookies in addition to requests during the debug session.
+1. Optionally, Interceptor can sync cookies from specific domains between your browser and Postman. Enter the domain then select **Add domain**. Once you have added the domain or domains, select **Sync cookies**. For more details, see [Syncing cookies](#syncing-cookies).
 
-1. Requests will be saved in a debug session in the **History** tab in the sidebar. Select **Save requests to a collection** and select a collection from the list to also save the requests there.
+1. Select **Capture Cookies** if you want to capture cookies in addition to requests during the debug session. You can use these cookies in your Postman requests. For more details, see [Capturing cookies](#capturing-cookies).
+
+1. By default, requests will be saved in a debug session in the **History** tab in the sidebar. To also save requests to a collection, select a collection from the list under **Save requests to a collection**.
 
 1. Under **URL must contain**, specify a string or regular expression, and only matching URLs will be captured.
 
 1. Under **Methods**, select one or more methods to capture only those methods.
 
 1. Select **Start Capture**.
+
+<img src="https://assets.postman.com/postman-docs/interceptor-capture-cookies.jpg" alt="Capture cookies" width="300px"/>
 
 ### Running the Interceptor debug session
 
@@ -129,21 +138,45 @@ The **Requests** and **Cookies** tabs display requests, responses, and cookies, 
 
 You can rename an Interceptor debug session by selecting the name at the top of the window and entering a new name. Select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to the debug session name to rename or delete the session.
 
-### Syncing cookies
+### Working with cookies
 
-You can retrieve cookies from any domain and use them in your Postman requests by enabling **Capture cookies**. You can then add one or more domains in the Interceptor extension to capture cookies from that domain.
+Interceptor enables you to sync [cookies](/docs/sending-requests/cookies/) between your browser and the Postman desktop app and to capture them to use in later Postman requests.
 
-Interceptor will sync all cookies for that domain from the browser. It will also sync cookies for all subdomains of a specified domain.
+#### Syncing cookies
 
-> For example, adding the domain `example.com` will also sync cookies from `m.example.com`.
+Interceptor can sync cookies from specific domains between your browser and Postman. Postman will be updated from the browser when cookies update, including deletions. This allows you to use browser sessions to make API calls in Postman. This is an optional step and you do not need to enable it to run an Interceptor debug session.
 
-To sync cookies for the domain only, you can add **https://** in front of the domain, such as `https://example.com`.
+> Postman does not save these synced cookies to Postman’s history.
 
-Interceptor keeps cookies for a fixed set of domains in sync, updating Postman from the browser when cookies update, including deletions. Due to this, you can use browser sessions to make API calls in Postman. You will not be able to save these to Postman’s history.
+You can also choose to sync cookies without running an Interceptor debug session, which can be useful if you want access to cookies without capturing other network traffic.
 
-You can remove a domain at any time by selecting **X** next to the domain. This will prevent future cookie updates from being synced, but it won’t delete cookies that have already been synced.
+To sync cookies for specified domains between the Interceptor extension and Postman:
 
-You can learn more about managing cookies in Postman in [Cookies](/docs/sending-requests/cookies/).
+1. In the **Via Interceptor** tab, enter the domain then select **Add domain**. Repeat this process for all domains from which you want to capture cookies.
+
+    > Interceptor will sync all cookies for that domain from the browser. It will also sync cookies for all subdomains of a specified domain. For example, adding the domain `example.com` will also sync cookies from `m.example.com`. To sync cookies for the domain only, you can add **https://** in front of the domain, such as `https://example.com`.
+
+1. After you have added the domain or domains, select **Sync cookies**.
+
+1. You can remove a domain at any time by selecting **X** next to the domain. This will prevent future cookie updates from being synced, but it won’t delete cookies that have already been synced.
+
+    <img src="https://assets.postman.com/postman-docs/interceptor-sync-cookies.jpg" alt="Sync cookies button" width="300px"/>
+
+Once the cookies begin syncing between the browser and Postman, you can access them from the [Manage Cookies dialog](/docs/sending-requests/cookies/#getting-to-the-cookie-manager).
+
+#### Capturing cookies
+
+During an Interceptor session, you can retrieve cookies from any domain and then use them in your Postman requests.
+
+1. In the **Via Interceptor** tab, select **Capture cookies**.
+
+    <img src="https://assets.postman.com/postman-docs/interceptor-capture-cookies-checkmark.jpg" alt="Capture cookies" width="300px"/>
+
+1. When you start a new interceptor session, the captured cookies will be saved along with other network traffic. To view the captured cookies in your Interceptor debug session, select the **Cookies** tab.
+
+1. To add a captured cookie to your Postman Cookie Jar from an Interceptor debug session, select the cookie and then select **+ Add to Cookie Jar**.
+
+![Add a cookie to the Cookie Jar from a debug session](https://assets.postman.com/postman-docs/interceptor-add-cookie-to-jar.jpg)
 
 ## How it works
 

@@ -224,7 +224,16 @@ You can export a data dump of all of your collections, environments, globals, an
 
    ![Export data dump](https://assets.postman.com/postman-docs/import-export-data-dump-request-confirm.jpg)
 
-When the export is ready, you will receive an email with link to download a zipped file with the data dump.
+The [Export page](http://go.postman.co/me/export) shows information about your export request, including the file size, the expiration date, and the statuses of your requested data exports. Possible statuses are:
+
+* **Scheduled**: The export request has been placed.
+* **Transferring**: The data transfer process has started.
+* **Transferred**: The data transfer process has completed.
+* **Zipping**: The process of zipping the file has started.
+* **Zipped**: The file has been zipped.
+* **Download**: The zipped file is ready to be downloaded.
+
+When the export is ready, you will receive an email with link to download a zipped file with the data dump. You can also download the file using the **Download** button on the Export page.
 
 ## Next steps
 
