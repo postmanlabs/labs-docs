@@ -138,7 +138,7 @@ You can add to your API documentation collections right from the **Documentation
 
 Another way to work on your API documentation is to open the linked collection. On the **Documentation** tab, select **View Collection** at the upper right, and then [edit the documentation](#documenting-a-collection) in the linked collection.
 
-> Schema documentation cannot be edited on the **Documentation** tab. Instead, edit your schema on the **Definition** tab and then select **Save**. Postman automatically updates the API docs to reflect the latest schema changes.
+> Schema documentation cannot be edited in the **Documentation** tab. Instead, edit your schema on the **Definition** tab and then select **Save**. Postman automatically updates the API docs to reflect the latest schema changes.
 
 <img alt="Editing API documentation" src="https://assets.postman.com/postman-docs/documentation-editing-api-docs-v9-9.jpg" width="952px">
 
