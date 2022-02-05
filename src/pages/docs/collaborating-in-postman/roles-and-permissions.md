@@ -51,6 +51,8 @@ Roles determine user permissions within a Postman team and a user's level of acc
 
     * [API roles](#api-roles)
 
+    * [Environment roles](#environment-roles)
+
     * [Mock server roles](#mock-server-roles)
 
     * [Monitor roles](#monitor-roles)
@@ -176,6 +178,23 @@ The following roles control access at an API level:
 | Add and remove API test suites, integration tests, and contract tests |   &#x2714;  | &#x2714;   |
 | Add and remove API monitors |   &#x2714;  | &#x2714;   |
 | Add and remove API mock servers |   &#x2714;  | &#x2714;   |
+
+## Environment roles
+
+You can [assign](/docs/administration/managing-your-team/managing-your-team/) two role types for Postman environments: **Editor** and **Viewer**.
+
+* **Editor**: Can edit and manage environments
+* **Viewer**: Can view and use environments
+
+The following roles control access at the mock server level:
+
+Environment | Editor | Viewer
+--- | --- | ---
+View environment | &#x2714; | &#x2714;
+Use environment | &#x2714; | &#x2714;
+Edit and delete environments | &#x2714; |
+Manage environment roles | &#x2714; |
+Move environment | &#x2714; |
 
 ## Mock server roles
 
