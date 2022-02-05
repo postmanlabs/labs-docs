@@ -223,7 +223,7 @@ To export an environment, select it and click <img alt="Three dots icon" src="ht
 
 ### Managing environment roles
 
-You can manage roles on an environment by selecting <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> in the upper right > **Manage Roles**. 
+You can manage roles on an environment by selecting <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> in the upper right > **Manage Roles**.
 
 You can assign collaborators the **Editor** or **Viewer** role. Users with the viewer role can only edit the current values of variables, but they can use the environment when sending requests. If a user requires edit access, they can request it when viewing the environment in the editor.
 

@@ -163,7 +163,7 @@ Editors can change a variable's initial values, which are shared with collaborat
 Editors can change the variable type from secret to default at any time, and vice versa. When you change a variable's type from secret back to default, you must confirm by selecting **Change type**.
 
 <img alt="Confirm unmark variable as secret" src="https://assets.postman.com/postman-docs/environment-change-type-confirmation-v9.13.jpg" width="400px">
-	
+
 ## Defining variables
 
 You can define variables in a variety of ways, depending on if you need [global, environment](#defining-global-and-environment-variables), or [collection](#defining-collection-variables) scope.
