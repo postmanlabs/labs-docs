@@ -192,6 +192,7 @@ Environment | Editor | Viewer
 --- | --- | ---
 View environment | &#x2714; | &#x2714;
 Use environment | &#x2714; | &#x2714;
+Edit the current value of variables | &#x2714; | &#x2714;
 Edit and delete environments | &#x2714; |
 Manage environment roles | &#x2714; |
 Move environment | &#x2714; |
