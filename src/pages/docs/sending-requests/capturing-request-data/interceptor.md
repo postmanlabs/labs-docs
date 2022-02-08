@@ -13,6 +13,11 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Postman Interceptor Demo"
+    url: "https://youtu.be/Swjims0aOl4"
+  - type: subtitle
     name: "Related Blog Posts"
   - type: link
     name: "Introducing Interceptor integration for native Postman apps"

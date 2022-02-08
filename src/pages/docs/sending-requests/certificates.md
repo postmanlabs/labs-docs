@@ -13,8 +13,8 @@ contextual_links:
   - type: subtitle
     name: "Related Blog Posts"
   - type: link
-    name: "Set and view SSL certificates with Postman"
-    url: "https://blog.postman.com/set-and-view-ssl-certificates-with-postman/"
+    name: "Encryption, SSL/TLS, and Managing Your Certificates in Postman"
+    url: "https://blog.postman.com/encryption-ssl-tls-and-managing-your-certificates-in-postman/"
 
 warning: false
 
