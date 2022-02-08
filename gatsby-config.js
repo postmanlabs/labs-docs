@@ -8,12 +8,14 @@ require('dotenv').config({
   path: `.env.${process.env.NODE_ENV}`,
 });
 
+const siteUrl = process.env.SITE_URL ? process.env.SITE_URL : 'https://learning.postman.com'
+
 module.exports = {
   siteMetadata: {
     title: 'Postman Learning Center',
     description: '',
     author: 'Postman',
-    siteUrl: 'https://learning.postman.com',
+    siteUrl: siteUrl,
   },
   plugins: [
     {
@@ -102,8 +104,8 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
-        host: 'https://learning.postman-beta.com',
-        sitemap: 'https://learning.postman-beta.com/sitemap/sitemap-index.xml',
+        host: siteUrl,
+        sitemap:`${siteUrl}/sitemap/sitemap-index.xml`,
         resolveEnv: () => process.env.GATSBY_ACTIVE_ENV,
         env: {
           development: {
