@@ -134,7 +134,7 @@ If you have a local change that conflicts with the remote copy, you will be show
 
 To resolve the conflict, next to each file, select either **Keep remote file** or **Keep local file**, then click **Pull Changes**.
 
-The first time you pull changes from the remote repo, if the remore schema directory already contains schema files, you will be prompted to select which schema to use in Postman.
+The first time you pull changes from the remote repo, if the remote schema directory already contains schema files, you will be prompted to select which schema to use in Postman.
 
 #### Committing and pushing changes
 
