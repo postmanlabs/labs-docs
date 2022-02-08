@@ -33,7 +33,7 @@ contextual_links:
 warning: false
 ---
 
-You can group your Postman requests and examples into collections to keep your workspace organized, to collaborate with teammates, to generate API documentation and test suites, and to automate request runs.
+You can group your Postman requests and examples into collections to keep your workspace organized, to collaborate with teammates, to generate API documentation and API tests, and to automate request runs.
 
 Select **Collections** in the left sidebar of Postman to see the list of collections in a workspace.
 
