@@ -1,6 +1,7 @@
 ---
 title: "Dynamic variables"
 page_id: "variables_list"
+updated: 2020-09-04
 order: 46
 contextual_links:
   - type: section
