@@ -2,7 +2,7 @@
 title: 'Versioning APIs'
 order: 81.2
 page_id: 'versioning_an_api'
-updated: 2021-12-01
+updated: 2022-02-08
 warning: false
 contextual_links:
   - type: section
@@ -113,7 +113,7 @@ To connect a repository:
    > Note that you can only connect one Postman API per repo. Multiple APIs require multiple repos.
 1. Enter the **Main branch** for the API. This is used to fetch  release tags; code is not pushed to this branch.
 1. Enter the **Development branch** for the API. This is where code updates are pushed.
-1. Enter an **API schema directory** and **Collection directory** where schemas and collections will be stored in the repo. If you leave a value blank, a `postman/schemas` or `postman/collections` directory will be created in the root of the repo.
+1. Select an **API schema directory** and **Collection directory** where schemas and collections will be stored in the repo. If you leave a value blank, a `postman/schemas` or `postman/collections` directory will be created in the root of the repo. If you select a directory already containing schemas, you will be asked which schema to use in Postman the first time you pull changes.
 1. Select **Connect Repository**.
 
 > If you previously used the GitHub integration for two-way sync of an API schema, you must delete the old integration to connect a repo to your API. An existing integration will continue to function, but you can't add new integrations for two-way sync to an API schema.
@@ -133,6 +133,8 @@ If you have a local change that conflicts with the remote copy, you will be show
 ![](https://assets.postman.com/postman-docs/api-builder-pull-changes-conflict.jpg)
 
 To resolve the conflict, next to each file, select either **Keep remote file** or **Keep local file**, then click **Pull Changes**.
+
+The first time you pull changes from the remote repo, if the remore schema directory already contains schema files, you will be prompted to select which schema to use in Postman.
 
 #### Committing and pushing changes
 
