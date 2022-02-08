@@ -143,8 +143,7 @@ Users with [editor](/docs/collaborating-in-postman/roles-and-permissions/) acces
 
 To set the variable type, select the Environment quick look <img alt="Environment quick look icon" src="https://assets.postman.com/postman-docs/eye.jpg" width="24px" style="vertical-align:middle;margin-bottom:5px"> in the top right of Postman. Select **Edit** to the right of environment or global variables to open the editor.
 
-<img alt="Environment editor" src="https://assets.postman.com/postman-docs/environment-editor-default-v9.13.jpg
-">
+<img alt="Environment editor" src="https://assets.postman.com/postman-docs/environment-editor-default-v9.13.jpg">
 
 > You can also edit an environment by navigating to the workspace it resides in and selecting **Environments** from the left sidebar, then selecting your environment.
 
