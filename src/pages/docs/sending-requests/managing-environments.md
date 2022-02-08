@@ -159,7 +159,7 @@ You can edit variables either by opening an environment from __Environments__ on
 
 Edit the environment name, or the names, [types](/docs/sending-requests/variables/#variable-types), and values of your variables, bearing in mind that __Initial Values__ will be synced with your Postman account and shared with any collaborators who have access to the environment. Click __Save__ when your edits are complete.
 
-[![Viewer role on environment](https://assets.postman.com/postman-docs/environment-request-access-v9.1.jpg)](https://assets.postman.com/postman-docs/environment-request-access-v9.1.jpg)
+[![Viewer role on environment](https://assets.postman.com/postman-docs/request-access-env-v9.13.jpg)](https://assets.postman.com/postman-docs/request-access-env-v9.13.jpg)
 
 If you have viewer access to an environment, you will see a padlock icon next to the name to indicate that it is read-only, and you will only be able to edit the current value, which is visible only to you and not synced with your Postman account or workspace. To edit initial values you will need to **Request Access**.
 
@@ -239,7 +239,7 @@ If you are using sensitive data like API credentials, it's safer to use the curr
 
 If you need to update the initial value of a variable in an environment you have read-only access to, you can request edit access. Open the environment from __Environments__ on the left of Postman and click __Request Access__.
 
-[![Viewer role on environment](https://assets.postman.com/postman-docs/environment-request-access-v9.1.jpg)](https://assets.postman.com/postman-docs/environment-request-access-v9.1.jpg)
+[![Viewer role on environment](https://assets.postman.com/postman-docs/request-access-env-v9.13.jpg)](https://assets.postman.com/postman-docs/request-access-env-v9.13.jpg)
 
 Select the team member you want to submit the request to, and choose __Editor__ from the drop-down list. Click __Request Access__. You will receive an email when your request is approved.
 
