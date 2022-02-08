@@ -11,7 +11,7 @@ warning: false
 
 ### What can I test with monitors?
 
-You can use uptime monitors to ensure your servers are online and are responding promptly. You also can write detailed [test suites](/docs/writing-scripts/test-scripts/) for collection-based monitors to check for proper behavior, business logic, error handling, and so on.
+You can use uptime monitors to ensure your servers are online and are responding promptly. You also can [write tests](/docs/writing-scripts/test-scripts/) for collection-based monitors to check for proper behavior, business logic, error handling, and so on.
 
 ### How many monitors can I create?
 
