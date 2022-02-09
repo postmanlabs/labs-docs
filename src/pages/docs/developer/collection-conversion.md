@@ -1,6 +1,7 @@
 ---
 title: "Postman Collection conversion"
 order: 149.2
+updated: 2020-07-06
 page_id: "collection-conversion"
 search_keyword: "postman-api-key, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset"
 contextual_links:

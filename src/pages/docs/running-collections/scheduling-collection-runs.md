@@ -8,6 +8,13 @@ contextual_links:
   - type: link
     name: "Using the Collection Runner"
     url: "/docs/running-collections/intro-to-collection-runs/"
+  - type: section
+    name: "Additional resources"
+  - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "API Monitoring | The Exploratory"
+    url: "https://youtu.be/tDQzY1Hn2LY"
   - type: dynamic_blog
     name: "Related Blog Posts"
     blog_tag: "monitors"

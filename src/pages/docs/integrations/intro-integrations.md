@@ -2,6 +2,7 @@
 title: "Integrating with Postman"
 order: 161
 page_id: "intro_integrations"
+updated: 2022-02-08
 warning: false
 contextual_links:
   - type: section

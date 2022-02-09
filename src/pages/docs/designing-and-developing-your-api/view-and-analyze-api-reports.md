@@ -1,6 +1,7 @@
 ---
 title: "Analyzing with reports"
 page_id: "viewing_and_analyzing_apis"
+updated: 2021-10-19
 order: 99
 warning: false
 contextual_links:

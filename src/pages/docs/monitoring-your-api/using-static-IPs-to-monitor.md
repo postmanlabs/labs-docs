@@ -10,6 +10,13 @@ contextual_links:
     name: "Intro to monitoring"
     url: "/docs/monitoring-your-api/intro-monitors/"
   - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "API Monitoring | The Exploratory"
+    url: "https://youtu.be/tDQzY1Hn2LY"
+  - type: section
     name: "Next steps"
   - type: link
     name: "Integrations for monitoring"

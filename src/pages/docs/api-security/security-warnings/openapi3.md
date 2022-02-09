@@ -2,6 +2,7 @@
 title: "OpenAPI 3.0 warnings"
 order: 117
 page_id: "security_warnings_openapi3.0"
+updated: 2022-02-09
 warning: false
 contextual_links:
   - type: section
@@ -32,45 +33,102 @@ You can use Postman to identify any potential security misses when your API is d
 
 For all APIs defined in OpenAPI 3.0, the following list describes possible warning messages and potential ways to resolve them.
 
-* [Global security field should properly enforce security](#global-security-field-should-properly-enforce-security)
+* [Broken object level authorization](#broken-object-level-authorization)
+    * [Scope for OAuth scheme used in security field is not defined in the securityScheme declaration](#scope-for-oauth-scheme-used-in-security-field-is-not-defined-in-the-securityscheme-declaration)
+    * [Scope for OAuth scheme used is not defined in the securityScheme declaration](#scope-for-oauth-scheme-used-is-not-defined-in-the-securityscheme-declaration)
+* [Broken user authentication](#broken-user-authentication)
     * [Security field is not defined](#security-field-is-not-defined)
     * [Security field does not contain any item](#security-field-does-not-contain-any-item)
     * [Security field does not contain any scheme](#security-field-does-not-contain-any-scheme)
-    * [Scope for OAuth scheme used in security field is not defined in the securityScheme declaration](#scope-for-oauth-scheme-used-in-security-field-is-not-defined-in-the-securityscheme-declaration)
-* [Reusable security schemes are not defined within components](#reusable-security-schemes-are-not-defined-within-components)
     * [Security scheme object not defined](#security-scheme-object-not-defined)
     * [Security scheme object does not contain any scheme](#security-scheme-object-does-not-contain-any-scheme)
     * [Scheme used in security field is not defined in the security scheme object](#scheme-used-in-security-field-is-not-defined-in-the-security-scheme-object)
     * [HTTP authentication scheme is using an unknown scheme](#http-authentication-scheme-is-using-an-unknown-scheme)
-    * [Deprecated OAuth 1.0 scheme is used](#deprecated-oauth-10-scheme-is-used)
-* [Security field for an individual operation should properly enforce security](#security-field-for-an-individual-operation-should-properly-enforce-security)
     * [Security field for the operation does not contain any item](#security-field-for-the-operation-does-not-contain-any-item)
     * [Security field for the operation does not contain any scheme](#security-field-for-the-operation-does-not-contain-any-scheme)
     * [Operation does not enforce any security scheme](#operation-does-not-enforce-any-security-scheme)
-    * [Scope for OAuth scheme used is not defined in the securityScheme declaration](#scope-for-oauth-scheme-used-is-not-defined-in-the-securityscheme-declaration)
-* [Global server configuration allows insecure enforcement of security schemes](#global-server-configuration-allows-insecure-enforcement-of-security-schemes)
+* [Excessive data exposure](#excessive-data-exposure)
     * [API accepts credentials from OAuth authentication in plain text](#api-accepts-credentials-from-oauth-authentication-in-plain-text)
     * [API accepts credentials from OpenID Connect authentication in plain text](#api-accepts-credentials-from-openid-connect-authentication-in-plain-text)
     * [API accepts credentials from OAuth 1.0 authentication in plain text](#api-accepts-credentials-from-oauth-10-authentication-in-plain-text)
     * [API accepts API key in plain text](#api-accepts-api-key-in-plain-text)
     * [API accepts auth credentials in plain text](#api-accepts-auth-credentials-in-plain-text)
     * [Global server URL uses HTTP protocol](#global-server-url-uses-http-protocol)
-* [Operation server configuration allows insecure enforcement of security schemes](#operation-server-configuration-allows-insecure-enforcement-of-security-schemes)
     * [Operation accepts credentials from OAuth authentication in plain text](#operation-accepts-credentials-from-oauth-authentication-in-plain-text)
     * [Operation accepts credentials from OpenID Connect authentication as plain text](#operation-accepts-credentials-from-openid-connect-authentication-as-plain-text)
     * [Operation accepts credentials from OAuth 1.0 authentication in plain text](#operation-accepts-credentials-from-oauth-10-authentication-in-plain-text)
     * [Operation accepts API key in plain text](#operation-accepts-api-key-in-plain-text)
     * [Operation accepts authentication credentials in plain text](#operation-accepts-authentication-credentials-in-plain-text)
     * [Server URL of the operation is using HTTP protocol](#server-url-of-the-operation-is-using-http-protocol)
-* [Security scheme configuration allows loopholes for credential leaks](#security-scheme-configuration-allows-loopholes-for-credential-leaks)
     * [Authorization URL uses HTTP protocol. Credentials will be transferred as plain text](#authorization-url-uses-http-protocol-credentials-will-be-transferred-as-plain-text)
     * [Token URL uses HTTP protocol](#token-url-uses-http-protocol)
-    * [OAuth authentication uses the deprecated implicit flow](#oauth-authentication-uses-the-deprecated-implicit-flow)
-    * [OAuth authentication uses the deprecated password flow](#oauth-authentication-uses-the-deprecated-password-flow)
     * [Refresh URL uses HTTP protocol](#refresh-url-uses-http-protocol)
     * [OpenID Connect URL uses HTTP protocol](#openid-connect-url-uses-http-protocol)
+* [Improper assets management](#improper-assets-management)
+    * [Deprecated OAuth 1.0 scheme is used](#deprecated-oauth-10-scheme-is-used)
+    * [OAuth authentication uses the deprecated implicit flow](#oauth-authentication-uses-the-deprecated-implicit-flow)
+    * [OAuth authentication uses the deprecated password flow](#oauth-authentication-uses-the-deprecated-password-flow)
 
-## Global security field should properly enforce security
+## Broken object level authorization
+
+### Scope for OAuth scheme used in security field is not defined in the securityScheme declaration
+
+| Severity | Issue description | Possible fix |
+| ----------- | ----------- | ----------- |
+| Low | The OAuth2 scopes used in the global security field should be defined in the security schemes field. Otherwise, an attacker can introduce their scopes to fill the gap and exploit the system. | Make sure that all the OAuth2 scopes used are defined in the OAuth2 security scheme. |
+
+**Resolution:**
+
+```json
+security:
+  - OAuth2:
+    - read
+    - write
+components:
+  securitySchemes:
+    OAuth2:
+      type: oauth2
+      flows:
+        authorizationCode:
+          scopes:
+            read: read objects in your account
+            write: write objects to your account
+```
+
+&nbsp;
+
+### Scope for OAuth scheme used is not defined in the securityScheme declaration
+
+| Severity | Issue description | Possible fix |
+| ----------- | ----------- | ----------- |
+| Low | The OAuth2 scopes used in the  security field of the operation should be defined in the security schemes field. Otherwise, an attacker can introduce their scopes to fill the gap and exploit the system. | Make sure that all the OAuth2 scopes used are defined in the OAuth2 security scheme. |
+
+**Resolution:**
+
+```json
+paths:
+  "/user":
+    get:
+      summary: 'Sample endpoint: Returns details about a particular user'
+      operationId: listUser
+      security:
+      - OAuth2:
+        - read
+        - write
+components:
+  securitySchemes:
+    OAuth2:
+      type: oauth2
+      flows:
+        authorizationCode:
+          scopes:
+            read: read objects in your account
+            write: write objects to your account
+```
+
+&nbsp;
+
+## Broken user authentication
 
 ### Security field is not defined
 
@@ -125,34 +183,6 @@ security:
 ```
 
 &nbsp;
-
-### Scope for OAuth scheme used in security field is not defined in the securityScheme declaration
-
-| Severity | Issue description | Possible fix |
-| ----------- | ----------- | ----------- |
-| Low | The OAuth2 scopes used in the global security field should be defined in the security schemes field. Otherwise, an attacker can introduce their scopes to fill the gap and exploit the system. | Make sure that all the OAuth2 scopes used are defined in the OAuth2 security scheme. |
-
-**Resolution:**
-
-```json
-security:
-  - OAuth2:
-    - read
-    - write
-components:
-  securitySchemes:
-    OAuth2:
-      type: oauth2
-      flows:
-        authorizationCode:
-          scopes:
-            read: read objects in your account
-            write: write objects to your account
-```
-
-&nbsp;
-
-## Reusable security schemes are not defined within components
 
 ### Security scheme object not defined
 
@@ -235,32 +265,6 @@ security:
 ```
 
 &nbsp;
-
-### Deprecated OAuth 1.0 scheme is used
-
-| Severity | Issue description | Possible fix |
-| ----------- | ----------- | ----------- |
-| Low | Security scheme uses OAuth 1.0 authentication which has been deprecated and replaced by OAuth 2.0. | Make sure that the security scheme is not using the deprecated OAuth 1.0 authentication. |
-
-**Resolution:**
-
-```json
-components:
-  securitySchemes:
-    OauthFlow:
-      type: oauth2
-      flows:
-        authorizationCode:
-          authorizationUrl: https://my.auth.example.com/
-          tokenUrl: https://my.token.example.com/
-          scopes:
-            write: modify data
-            read: read data
-```
-
-&nbsp;
-
-## Security field for an individual operation should properly enforce security
 
 ### Security field for the operation does not contain any item
 
@@ -352,38 +356,7 @@ components:
 
 &nbsp;
 
-### Scope for OAuth scheme used is not defined in the securityScheme declaration
-
-| Severity | Issue description | Possible fix |
-| ----------- | ----------- | ----------- |
-| Low | The OAuth2 scopes used in the  security field of the operation should be defined in the security schemes field. Otherwise, an attacker can introduce their scopes to fill the gap and exploit the system. | Make sure that all the OAuth2 scopes used are defined in the OAuth2 security scheme. |
-
-**Resolution:**
-
-```json
-paths:
-  "/user":
-    get:
-      summary: 'Sample endpoint: Returns details about a particular user'
-      operationId: listUser
-      security:
-      - OAuth2:
-        - read
-        - write
-components:
-  securitySchemes:
-    OAuth2:
-      type: oauth2
-      flows:
-        authorizationCode:
-          scopes:
-            read: read objects in your account
-            write: write objects to your account
-```
-
-&nbsp;
-
-## Global server configuration allows insecure enforcement of security schemes
+## Excessive data exposure
 
 ### API accepts credentials from OAuth authentication in plain text
 
@@ -538,8 +511,6 @@ security:
 
 &nbsp;
 
-## Operation server configuration allows insecure enforcement of security schemes
-
 ### Operation accepts credentials from OAuth authentication in plain text
 
 | Severity | Issue description | Possible fix |
@@ -690,8 +661,6 @@ get:
 
 &nbsp;
 
-## Security scheme configuration allows loopholes for credential leaks
-
 ### Authorization URL uses HTTP protocol. Credentials will be transferred as plain text
 
 | Severity | Issue description | Possible fix |
@@ -728,6 +697,78 @@ components:
         flows:
           authorizationCode:
             tokenUrl: https://my.token.example.com/
+```
+
+&nbsp;
+
+### Refresh URL uses HTTP protocol
+
+| Severity | Issue description | Possible fix |
+| ----------- | ----------- | ----------- |
+| Medium | OAuth authentication refresh tokens are transported over an unencrypted channel. Anyone listening to the network traffic while the token is being sent can intercept it. | Make sure that the refresh URL is a valid URL and follows HTTPS protocol. |
+
+**Resolution:**
+
+```json
+components:
+  securitySchemes:
+    OauthFlow:
+      type: oauth2
+      flows:
+        authorizationCode
+          authorizationUrl: https://my.auth.example.com/
+          tokenUrl: https://my.token.example.com/
+          refreshUrl: https://my.refresh.example.com/
+          scopes:
+            write: modify data
+            read: read data
+```
+
+&nbsp;
+
+### OpenID Connect URL uses HTTP protocol
+
+| Severity | Issue description | Possible fix |
+| ----------- | ----------- | ----------- |
+| Medium | OpenID Connect access tokens & open Ids are transported over an unencrypted channel. Anyone listening to the network traffic while the calls are being made can intercept them. | Make sure that the openID connect URL is a valid URL and follows HTTPS protocol. |
+
+**Resolution:**
+
+```json
+components:
+  securitySchemes:
+    OpenIdScheme:
+      type: openIdConnect
+      openIdConnectUrl: https://example.com/connect
+#...
+security:
+- OpenIdScheme: []
+```
+
+&nbsp;
+
+## Improper assets management
+
+### Deprecated OAuth 1.0 scheme is used
+
+| Severity | Issue description | Possible fix |
+| ----------- | ----------- | ----------- |
+| Low | Security scheme uses OAuth 1.0 authentication which has been deprecated and replaced by OAuth 2.0. | Make sure that the security scheme is not using the deprecated OAuth 1.0 authentication. |
+
+**Resolution:**
+
+```json
+components:
+  securitySchemes:
+    OauthFlow:
+      type: oauth2
+      flows:
+        authorizationCode:
+          authorizationUrl: https://my.auth.example.com/
+          tokenUrl: https://my.token.example.com/
+          scopes:
+            write: modify data
+            read: read data
 ```
 
 &nbsp;
@@ -780,47 +821,3 @@ components:
 ```
 
 &nbsp;
-
-### Refresh URL uses HTTP protocol
-
-| Severity | Issue description | Possible fix |
-| ----------- | ----------- | ----------- |
-| Medium | OAuth authentication refresh tokens are transported over an unencrypted channel. Anyone listening to the network traffic while the token is being sent can intercept it. | Make sure that the refresh URL is a valid URL and follows HTTPS protocol. |
-
-**Resolution:**
-
-```json
-components:
-  securitySchemes:
-    OauthFlow:
-      type: oauth2
-      flows:
-        authorizationCode
-          authorizationUrl: https://my.auth.example.com/
-          tokenUrl: https://my.token.example.com/
-          refreshUrl: https://my.refresh.example.com/
-          scopes:
-            write: modify data
-            read: read data
-```
-
-&nbsp;
-
-### OpenID Connect URL uses HTTP protocol
-
-| Severity | Issue description | Possible fix |
-| ----------- | ----------- | ----------- |
-| Medium | OpenID Connect access tokens & open Ids are transported over an unencrypted channel. Anyone listening to the network traffic while the calls are being made can intercept them. | Make sure that the openID connect URL is a valid URL and follows HTTPS protocol. |
-
-**Resolution:**
-
-```json
-components:
-  securitySchemes:
-    OpenIdScheme:
-      type: openIdConnect
-      openIdConnectUrl: https://example.com/connect
-#...
-security:
-- OpenIdScheme: []
-```
