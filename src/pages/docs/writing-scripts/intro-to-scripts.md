@@ -1,6 +1,7 @@
 ---
 title: "Scripting in Postman"
 order: 41
+updated: 2021-01-27
 page_id: "intro_to_scripts"
 search_keyword: "pm.test, pm.expect, pm.environment, pm.environment.get, environment.get, pm.response"
 contextual_links:

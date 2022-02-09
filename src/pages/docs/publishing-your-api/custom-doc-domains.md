@@ -1,6 +1,7 @@
 ---
 title: "Using custom domains"
 order: 105
+updated: 2021-12-01
 page_id: "custom_doc_domains"
 contextual_links:
   - type: section

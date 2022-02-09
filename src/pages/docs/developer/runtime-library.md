@@ -1,6 +1,7 @@
 ---
 title: "Postman Runtime library"
 order: 149
+updated: 2020-07-06
 page_id: "runtime_library"
 contextual_links:
   - type: section
