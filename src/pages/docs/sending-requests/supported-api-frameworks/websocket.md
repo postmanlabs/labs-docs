@@ -12,6 +12,11 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "WebSocket Requests | Postman Level Up"
+    url: "https://youtu.be/H-7EZVj9D-k"
+  - type: subtitle
     name: "Related Blog Posts"
   - type: link
     name: "Save and Document WebSocket Requests in Collections"

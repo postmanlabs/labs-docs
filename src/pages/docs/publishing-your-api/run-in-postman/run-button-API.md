@@ -1,6 +1,7 @@
 ---
 title: "Coding with Run in Postman"
 order: 110
+updated: 2021-02-05
 page_id: "run_button_API"
 warning: false
 contextual_links:
@@ -9,6 +10,18 @@ contextual_links:
   - type: link
     name: "Intro to Postman API"
     url: "/docs/developer/intro-api/"
+  - type: section
+    name: "Additional resources"
+  - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Dynamically create custom environments with code"
+    url: "https://youtu.be/6h2JiMfNU0A"
+  - type: subtitle
+    name: "Related Blog Posts"
+  - type: link
+    name: "How to Dynamically Create Custom Environments with Code"
+    url: "https://blog.postman.com/how-to-dynamically-create-custom-environments-with-code/"
   - type: section
     name: "Next Steps"
   - type: link
@@ -49,7 +62,7 @@ Use the `env.create` method to create a new environment:
 _pm('env.create', 'environment_name', {key: value}, runButtonIndex);
 ```
 
-> `env.create` cannot be used to create duplicate environments. Calls made with existing environment names will fail.  
+> `env.create` cannot be used to create duplicate environments. Calls made with existing environment names will fail.
 
 Create a new environment using API keys entered by your user:
 

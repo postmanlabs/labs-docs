@@ -1,6 +1,7 @@
 ---
 title: "Scripting in Postman"
 order: 41
+updated: 2021-01-27
 page_id: "intro_to_scripts"
 search_keyword: "pm.test, pm.expect, pm.environment, pm.environment.get, environment.get, pm.response"
 contextual_links:
@@ -84,7 +85,7 @@ If you created log statements in the pre-request and test script sections for th
 
 ### How does this work?
 
-Is this magic? No, it's the [Postman Sandbox](/docs/writing-scripts/script-references/postman-sandbox-api-reference/). The Postman Sandbox is a JavaScript execution environment that is available to you while writing pre-request and test scripts for requests (both in Postman and Newman). Whatever code you write in these sections is executed in this sandbox.  
+Is this magic? No, it's the [Postman Sandbox](/docs/writing-scripts/script-references/postman-sandbox-api-reference/). The Postman Sandbox is a JavaScript execution environment that is available to you while writing pre-request and test scripts for requests (both in Postman and Newman). Whatever code you write in these sections is executed in this sandbox.
 
 ## Debugging scripts
 

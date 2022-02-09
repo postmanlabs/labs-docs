@@ -8,6 +8,11 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Postman Space Camp | Design and Prototype an API in Postman"
+    url: "https://youtu.be/r4kb3jOSsmk"
+  - type: subtitle
     name: "Related Blog Posts"
   - type: link
     name: "Create APIs directly within the Postman app"

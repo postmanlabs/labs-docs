@@ -1,6 +1,7 @@
 ---
 title: "Viewing documentation"
 order: 104
+updated: 2021-10-01
 page_id: "viewing_documentation"
 updated: 2022-1-24
 contextual_links:

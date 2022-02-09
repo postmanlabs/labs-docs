@@ -10,6 +10,13 @@ contextual_links:
   - type: link
     name: "Grouping requests in collections"
     url: "/docs/sending-requests/intro-to-collections/"
+  - type: section
+    name: "Additional resources"
+  - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Postman Webhooks | Postman Level Up"
+    url: "https://youtu.be/wdLvXKkXhLk"
 warning: false
 ---
 

@@ -543,7 +543,7 @@ export const leftNavItems = [
   {
     name: 'Administration',
     parentSlug: 'administration',
-    url: '/docs/administration/buying/',
+    url: '/docs/administration/managing-your-team/managing-your-team/',
     subMenuItems1: [
       {
         name: 'Managing Your Team',

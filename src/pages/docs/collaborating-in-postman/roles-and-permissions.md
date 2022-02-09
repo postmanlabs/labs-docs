@@ -12,6 +12,14 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Postman 101 for Admins | Webinar"
+    url: "https://youtu.be/rEKvQO8EYR8"
+  - type: link
+    name: "Working With Your Team in Postman | The Exploratory"
+    url: "https://youtu.be/5lscUV-Exac"
+  - type: subtitle
     name: "Related Blog Posts"
   - type: link
     name: "Streamline access control with extended roles & permissions"
@@ -57,7 +65,7 @@ You can [assign](/docs/administration/managing-your-team/managing-your-team/) on
 
 * **Super Admin**: Manages everything within a team, including team settings, members, roles, and resources in [public, team, or private workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#changing-workspace-visibility). Team members with this role can perform all actions that Admin, Billing, Community Manager, and Developer roles can perform ([Enterprise plans only](https://www.postman.com/pricing)).
 * **Admin**: Manages team members and team settings.
-* **Billing**: Manages team plan and payments. Billing roles can be granted by a Super Admin or by a fellow team member with a Billing role. If this is not possible, contact our [Support Center](https://support.postman.com/hc/en-us).
+* **Billing**: Manages team plan and payments. Billing roles can be granted by a Super Admin, by a fellow team member with a Billing role, or by an Admin when inviting a new team member. If this is not possible, contact our [Support Center](https://support.postman.com/hc/en-us).
 * **Developer**: Has access to all team resources and workspaces.
 * **Community Manager**: Manages the public visibility of workspaces and team profile ([Professional and Enterprise plans only](https://www.postman.com/pricing)).
 
