@@ -28,6 +28,20 @@ You can use Postman to identify any potential security misses when your API is d
 
 For all APIs defined in OpenAPI 3.0, the following list describes possible warning messages and potential ways to resolve them.
 
+* [Broken object level authorization](#broken-object-level-authorization)
+    * [Scope for OAuth scheme used in security field is not defined in the securityScheme declaration](#scope-for-oauth-scheme-used-in-security-field-is-not-defined-in-the-securityscheme-declaration)
+    * [Scope for OAuth scheme used is not defined in the securityScheme declaration](#scope-for-oauth-scheme-used-is-not-defined-in-the-securityscheme-declaration)
+* [Broken user authentication](#broken-user-authentication)
+    * [Security field is not defined](#security-field-is-not-defined)
+    * [Security field does not contain any item](#security-field-does-not-contain-any-item)
+    * [Security field does not contain any scheme](#security-field-does-not-contain-any-scheme)
+    * [Security scheme object not defined](#security-scheme-object-not-defined)
+    * [Security scheme object does not contain any scheme](#security-scheme-object-does-not-contain-any-scheme)
+    * [Scheme used in security field is not defined in the security scheme object](#scheme-used-in-security-field-is-not-defined-in-the-security-scheme-object)
+    * [HTTP authentication scheme is using an unknown scheme](#http-authentication-scheme-is-using-an-unknown-scheme)
+    * [Security field for the operation does not contain any item](#security-field-for-the-operation-does-not-contain-any-item)
+    * [Security field for the operation does not contain any scheme](#security-field-for-the-operation-does-not-contain-any-scheme)
+    * [Operation does not enforce any security scheme](#operation-does-not-enforce-any-security-scheme)
 * [Excessive data exposure](#excessive-data-exposure)
     * [API accepts credentials from OAuth authentication in plain text](#api-accepts-credentials-from-oauth-authentication-in-plain-text)
     * [API accepts credentials from OpenID Connect authentication in plain text](#api-accepts-credentials-from-openid-connect-authentication-in-plain-text)
@@ -45,24 +59,297 @@ For all APIs defined in OpenAPI 3.0, the following list describes possible warni
     * [Token URL uses HTTP protocol](#token-url-uses-http-protocol)
     * [Refresh URL uses HTTP protocol](#refresh-url-uses-http-protocol)
     * [OpenID Connect URL uses HTTP protocol](#openid-connect-url-uses-http-protocol)
-* [Broken user authentication](#broken-user-authentication)
-    * [Security field is not defined](#security-field-is-not-defined)
-    * [Security field does not contain any item](#security-field-does-not-contain-any-item)
-    * [Security field does not contain any scheme](#security-field-does-not-contain-any-scheme)
-    * [Security scheme object not defined](#security-scheme-object-not-defined)
-    * [Security scheme object does not contain any scheme](#security-scheme-object-does-not-contain-any-scheme)
-    * [Scheme used in security field is not defined in the security scheme object](#scheme-used-in-security-field-is-not-defined-in-the-security-scheme-object)
-    * [HTTP authentication scheme is using an unknown scheme](#http-authentication-scheme-is-using-an-unknown-scheme)
-    * [Security field for the operation does not contain any item](#security-field-for-the-operation-does-not-contain-any-item)
-    * [Security field for the operation does not contain any scheme](#security-field-for-the-operation-does-not-contain-any-scheme)
-    * [Operation does not enforce any security scheme](#operation-does-not-enforce-any-security-scheme)
-* [Broken object level authorization](#broken-object-level-authorization)
-    * [Scope for OAuth scheme used in security field is not defined in the securityScheme declaration](#scope-for-oauth-scheme-used-in-security-field-is-not-defined-in-the-securityscheme-declaration)
-    * [Scope for OAuth scheme used is not defined in the securityScheme declaration](#scope-for-oauth-scheme-used-is-not-defined-in-the-securityscheme-declaration)
 * [Improper assets management](#improper-assets-management)
     * [Deprecated OAuth 1.0 scheme is used](#deprecated-oauth-10-scheme-is-used)
     * [OAuth authentication uses the deprecated implicit flow](#oauth-authentication-uses-the-deprecated-implicit-flow)
     * [OAuth authentication uses the deprecated password flow](#oauth-authentication-uses-the-deprecated-password-flow)
+
+## Broken object level authorization
+
+### Scope for OAuth scheme used in security field is not defined in the securityScheme declaration
+
+| Severity | Issue description | Possible fix |
+| ----------- | ----------- | ----------- |
+| Low | The OAuth2 scopes used in the global security field should be defined in the security schemes field. Otherwise, an attacker can introduce their scopes to fill the gap and exploit the system. | Make sure that all the OAuth2 scopes used are defined in the OAuth2 security scheme. |
+
+**Resolution:**
+
+```json
+security:
+  - OAuth2:
+    - read
+    - write
+components:
+  securitySchemes:
+    OAuth2:
+      type: oauth2
+      flows:
+        authorizationCode:
+          scopes:
+            read: read objects in your account
+            write: write objects to your account
+```
+
+&nbsp;
+
+### Scope for OAuth scheme used is not defined in the securityScheme declaration
+
+| Severity | Issue description | Possible fix |
+| ----------- | ----------- | ----------- |
+| Low | The OAuth2 scopes used in the  security field of the operation should be defined in the security schemes field. Otherwise, an attacker can introduce their scopes to fill the gap and exploit the system. | Make sure that all the OAuth2 scopes used are defined in the OAuth2 security scheme. |
+
+**Resolution:**
+
+```json
+paths:
+  "/user":
+    get:
+      summary: 'Sample endpoint: Returns details about a particular user'
+      operationId: listUser
+      security:
+      - OAuth2:
+        - read
+        - write
+components:
+  securitySchemes:
+    OAuth2:
+      type: oauth2
+      flows:
+        authorizationCode:
+          scopes:
+            read: read objects in your account
+            write: write objects to your account
+```
+
+&nbsp;
+
+## Broken user authentication
+
+### Security field is not defined
+
+| Severity | Issue description | Possible fix |
+| -------- | ----------------- | ------------ |
+| High | If the global security field is not defined, the API does not require any authentication by default. Anyone can access the API operations that do not have a security field defined. | The security field should be defined in the schema. |
+
+**Resolution:**
+
+```json
+openapi: 3.0.0
+info:
+paths:
+security:
+    - testAuth : []
+```
+
+&nbsp;
+
+### Security field does not contain any item
+
+| Severity | Issue description | Possible fix |
+| -------- | ----------------- | ------------ |
+| High | If the security field contains an empty array, no security scheme is applied to the operations by default. | The security field should contain at least one item in the array. |
+
+**Resolution:**
+
+```json
+openapi: 3.0.0
+info:
+paths:
+security:
+    - testAuth : []
+```
+
+&nbsp;
+
+### Security field does not contain any scheme
+
+| Severity | Issue description | Possible fix |
+| -------- | ----------------- | ------------ |
+| High | An empty object in the security field disables the authentication completely. Without security fields defined for each operation, anyone can access the API operations without any authentication. | Security field array items should not contain an empty object. |
+
+**Resolution:**
+
+```json
+openapi: 3.0.0
+info:
+paths:
+security:
+    - testAuth : []
+```
+
+&nbsp;
+
+### Security scheme object not defined
+
+| Severity | Issue description | Possible fix |
+| ----------- | ----------- | ----------- |
+| High | The components object of the API does not declare any security schemes which can be used in the security field of the API or individual operations. | Security schemes should be defined in the schema of the component. |
+
+**Resolution:**
+
+```json
+components:
+  securitySchemes:
+    testAuth:
+      type: http
+      scheme: basic
+```
+
+&nbsp;
+
+### Security scheme object does not contain any scheme
+
+| Severity | Issue description | Possible fix |
+| ----------- | ----------- | ----------- |
+| High | An empty object in the reusable security schemes means that no authentication scheme is defined for each operation, anyone can access the API operations without any authentication. | Security schemes should contain at least one item in the object. |
+
+**Resolution:**
+
+```json
+components:
+  securitySchemes:
+    BasicAuth:
+      type: http
+      scheme: basic
+```
+
+&nbsp;
+
+### Scheme used in security field is not defined in the security scheme object
+
+| Severity | Issue description | Possible fix |
+| ----------- | ----------- | ----------- |
+| Medium | The authentication scheme used in global or operation security field is not defined in the security scheme object. | Scheme used in the security field should be defined in the security scheme object. |
+
+**Resolution:**
+
+```json
+components:
+  securitySchemes:
+    BasicAuth:
+      type: http
+      scheme: basic
+#...
+security:
+- BasicAuth: []
+```
+
+&nbsp;
+
+### HTTP authentication scheme is using an unknown scheme
+
+| Severity | Issue description | Possible fix |
+| ----------- | ----------- | ----------- |
+| Medium | The name of the HTTP authentication scheme should be registered in the [IANA Authentication Scheme registry](https://www.iana.org/assignments/http-authschemes/http-authschemes.xhtml). | Make sure that the HTTP authentication scheme registered in the IANA Authentication Scheme registry is used. |
+
+**Resolution:**
+
+```json
+servers:
+  - url: https://my.server.example.com/
+    description: API server
+#...
+components:
+  securitySchemes:
+    myAuth:
+      type: http
+      scheme: basic
+#...
+security:
+  - myAuth: []
+```
+
+&nbsp;
+
+### Security field for the operation does not contain any item
+
+| Severity | Issue description | Possible fix |
+| ----------- | ----------- | ----------- |
+| Medium | No security scheme is applied to the API operation by default. | The security field in any operation should contain at least one item in the array. |
+
+**Resolution:**
+
+```json
+openapi: 3.0.0
+info:
+  title: Example API
+  version: '1.0'
+paths:
+ /user:
+  get:
+   security:
+   - BasicAuth : []
+   responses:
+    default:
+     description: Example
+components:
+ securitySchemes:
+  BasicAuth:
+   type: http
+   scheme: basic
+```
+
+&nbsp;
+
+### Security field for the operation does not contain any scheme
+
+| Severity | Issue description | Possible fix |
+| ----------- | ----------- | ----------- |
+| Medium | An empty object in the security field disables the authentication completely for the operation. Anyone can access the API operation without any authentication. | Specify at least one security requirement in the operation. |
+
+**Resolution:**
+
+```json
+openapi: 3.0.0
+info:
+  title: Example API
+  version: '1.0'
+paths:
+ /user:
+  get:
+   security:
+   - BasicAuth : []
+   responses:
+    default:
+     description: Example
+components:
+ securitySchemes:
+  BasicAuth:
+   type: http
+   scheme: basic
+```
+
+&nbsp;
+
+### Operation does not enforce any security scheme
+
+| Severity | Issue description | Possible fix |
+| ----------- | ----------- | ----------- |
+| Medium |  If both the global security field and operation’s security field are not defined, anyone can access the API without any authentication. | Define a security field in the operation. |
+
+**Resolution:**
+
+```json
+ openapi: 3.0.0
+info:
+  title: Example API
+  version: '1.0'
+paths:
+ /user:
+  get:
+   security:
+   - BasicAuth : []
+   responses:
+    default:
+     description: Example
+components:
+ securitySchemes:
+  BasicAuth:
+   type: http
+   scheme: basic
+```
+
+&nbsp;
 
 ## Excessive data exposure
 
@@ -451,293 +738,6 @@ components:
 #...
 security:
 - OpenIdScheme: []
-```
-
-&nbsp;
-
-## Broken user authentication
-
-### Security field is not defined
-
-| Severity | Issue description | Possible fix |
-| -------- | ----------------- | ------------ |
-| High | If the global security field is not defined, the API does not require any authentication by default. Anyone can access the API operations that do not have a security field defined. | The security field should be defined in the schema. |
-
-**Resolution:**
-
-```json
-openapi: 3.0.0
-info:
-paths:
-security:
-    - testAuth : []
-```
-
-&nbsp;
-
-### Security field does not contain any item
-
-| Severity | Issue description | Possible fix |
-| -------- | ----------------- | ------------ |
-| High | If the security field contains an empty array, no security scheme is applied to the operations by default. | The security field should contain at least one item in the array. |
-
-**Resolution:**
-
-```json
-openapi: 3.0.0
-info:
-paths:
-security:
-    - testAuth : []
-```
-
-&nbsp;
-
-### Security field does not contain any scheme
-
-| Severity | Issue description | Possible fix |
-| -------- | ----------------- | ------------ |
-| High | An empty object in the security field disables the authentication completely. Without security fields defined for each operation, anyone can access the API operations without any authentication. | Security field array items should not contain an empty object. |
-
-**Resolution:**
-
-```json
-openapi: 3.0.0
-info:
-paths:
-security:
-    - testAuth : []
-```
-
-&nbsp;
-
-### Security scheme object not defined
-
-| Severity | Issue description | Possible fix |
-| ----------- | ----------- | ----------- |
-| High | The components object of the API does not declare any security schemes which can be used in the security field of the API or individual operations. | Security schemes should be defined in the schema of the component. |
-
-**Resolution:**
-
-```json
-components:
-  securitySchemes:
-    testAuth:
-      type: http
-      scheme: basic
-```
-
-&nbsp;
-
-### Security scheme object does not contain any scheme
-
-| Severity | Issue description | Possible fix |
-| ----------- | ----------- | ----------- |
-| High | An empty object in the reusable security schemes means that no authentication scheme is defined for each operation, anyone can access the API operations without any authentication. | Security schemes should contain at least one item in the object. |
-
-**Resolution:**
-
-```json
-components:
-  securitySchemes:
-    BasicAuth:
-      type: http
-      scheme: basic
-```
-
-&nbsp;
-
-### Scheme used in security field is not defined in the security scheme object
-
-| Severity | Issue description | Possible fix |
-| ----------- | ----------- | ----------- |
-| Medium | The authentication scheme used in global or operation security field is not defined in the security scheme object. | Scheme used in the security field should be defined in the security scheme object. |
-
-**Resolution:**
-
-```json
-components:
-  securitySchemes:
-    BasicAuth:
-      type: http
-      scheme: basic
-#...
-security:
-- BasicAuth: []
-```
-
-&nbsp;
-
-### HTTP authentication scheme is using an unknown scheme
-
-| Severity | Issue description | Possible fix |
-| ----------- | ----------- | ----------- |
-| Medium | The name of the HTTP authentication scheme should be registered in the [IANA Authentication Scheme registry](https://www.iana.org/assignments/http-authschemes/http-authschemes.xhtml). | Make sure that the HTTP authentication scheme registered in the IANA Authentication Scheme registry is used. |
-
-**Resolution:**
-
-```json
-servers:
-  - url: https://my.server.example.com/
-    description: API server
-#...
-components:
-  securitySchemes:
-    myAuth:
-      type: http
-      scheme: basic
-#...
-security:
-  - myAuth: []
-```
-
-&nbsp;
-
-### Security field for the operation does not contain any item
-
-| Severity | Issue description | Possible fix |
-| ----------- | ----------- | ----------- |
-| Medium | No security scheme is applied to the API operation by default. | The security field in any operation should contain at least one item in the array. |
-
-**Resolution:**
-
-```json
-openapi: 3.0.0
-info:
-  title: Example API
-  version: '1.0'
-paths:
- /user:
-  get:
-   security:
-   - BasicAuth : []
-   responses:
-    default:
-     description: Example
-components:
- securitySchemes:
-  BasicAuth:
-   type: http
-   scheme: basic
-```
-
-&nbsp;
-
-### Security field for the operation does not contain any scheme
-
-| Severity | Issue description | Possible fix |
-| ----------- | ----------- | ----------- |
-| Medium | An empty object in the security field disables the authentication completely for the operation. Anyone can access the API operation without any authentication. | Specify at least one security requirement in the operation. |
-
-**Resolution:**
-
-```json
-openapi: 3.0.0
-info:
-  title: Example API
-  version: '1.0'
-paths:
- /user:
-  get:
-   security:
-   - BasicAuth : []
-   responses:
-    default:
-     description: Example
-components:
- securitySchemes:
-  BasicAuth:
-   type: http
-   scheme: basic
-```
-
-&nbsp;
-
-### Operation does not enforce any security scheme
-
-| Severity | Issue description | Possible fix |
-| ----------- | ----------- | ----------- |
-| Medium |  If both the global security field and operation’s security field are not defined, anyone can access the API without any authentication. | Define a security field in the operation. |
-
-**Resolution:**
-
-```json
- openapi: 3.0.0
-info:
-  title: Example API
-  version: '1.0'
-paths:
- /user:
-  get:
-   security:
-   - BasicAuth : []
-   responses:
-    default:
-     description: Example
-components:
- securitySchemes:
-  BasicAuth:
-   type: http
-   scheme: basic
-```
-
-&nbsp;
-
-## Broken object level authorization
-
-### Scope for OAuth scheme used in security field is not defined in the securityScheme declaration
-
-| Severity | Issue description | Possible fix |
-| ----------- | ----------- | ----------- |
-| Low | The OAuth2 scopes used in the global security field should be defined in the security schemes field. Otherwise, an attacker can introduce their scopes to fill the gap and exploit the system. | Make sure that all the OAuth2 scopes used are defined in the OAuth2 security scheme. |
-
-**Resolution:**
-
-```json
-security:
-  - OAuth2:
-    - read
-    - write
-components:
-  securitySchemes:
-    OAuth2:
-      type: oauth2
-      flows:
-        authorizationCode:
-          scopes:
-            read: read objects in your account
-            write: write objects to your account
-```
-
-&nbsp;
-
-### Scope for OAuth scheme used is not defined in the securityScheme declaration
-
-| Severity | Issue description | Possible fix |
-| ----------- | ----------- | ----------- |
-| Low | The OAuth2 scopes used in the  security field of the operation should be defined in the security schemes field. Otherwise, an attacker can introduce their scopes to fill the gap and exploit the system. | Make sure that all the OAuth2 scopes used are defined in the OAuth2 security scheme. |
-
-**Resolution:**
-
-```json
-paths:
-  "/user":
-    get:
-      summary: 'Sample endpoint: Returns details about a particular user'
-      operationId: listUser
-      security:
-      - OAuth2:
-        - read
-        - write
-components:
-  securitySchemes:
-    OAuth2:
-      type: oauth2
-      flows:
-        authorizationCode:
-          scopes:
-            read: read objects in your account
-            write: write objects to your account
 ```
 
 &nbsp;
