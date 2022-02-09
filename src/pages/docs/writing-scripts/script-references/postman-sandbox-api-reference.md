@@ -1,6 +1,7 @@
 ---
 title: "Postman JavaScript reference"
 order: 47
+updated: 2020-09-04
 page_id: "postman_sandbox_api_reference"
 search_keyword: "pm.info, eventName, iteration, iterationCount, requestName, requestId, pm.sendRequest, sendRequest, pm.expect, pm.test, pm.variables.has, variables.has, pm.variables.get, variables.get, pm.variables.toObject, variables.toObject, pm.variables.set, variables.set, pm.environment.name, environment.name, pm.environment.has, environment.has, pm.environment.get, environment.get, pm.environment.set, environment.set, pm.environment.unset, environment.unset, pm.environment.clear, environment.clear, pm.environment.toObject, environment.toObject,  pm.environment.replaceIn, environment.replaceIn, pm.collectionVariables.has, collectionVariables.has, pm.collectionVariables.get, collectionVariables.get, pm.collectionVariables.set, collectionVariables.set, pm.collectionVariables.unset, collectionVariables.unset, pm.collectionVariables.clear, collectionVariables.clear, pm.collectionVariables.toObject, collectionVariables.toObject, pm.collectionVariables.replaceIn, collectionVariables.replaceIn, pm.globals.has, globals.has, pm.globals.get, globals.get, pm.globals.set, globals.set, pm.globals.unset, globals.unset, pm.globals.clear, globals.clear, pm.globals.toObject, globals.toObject pm.globals.replaceIn, globals.replaceIn, pm.request.url, request.url, pm.request.method, request.method, pm.request.body, request.body, pm.request.headers, request.headers, request.headers.add, headers.add, pm.request.headers.add, pm.request.headers.remove, request.headers.remove, headers.delete, pm.request.headers.upsert, request.headers.upsert, headers.upsert, pm.response.code, response.code, pm.response.status, response.status, pm.response.headers, response.headers, pm.response.responseTime, response.responseTime, pm.response.responseSize, response.responseSize, pm.response.text, response.text, pm.response.json, response.json, pm.iterationData.get, iterationData.get, pm.iterationData.toObject, iterationData.toObject, pm.iterationData.clear, iterationData.clear, pm.iterationData.has, iterationData.has, pm.iterationData.set, iterationData.set, pm.iterationData.toJSON, iterationData.toJSON, pm.iterationData.unset, iterationData.unset, pm.iterationData.variables, iterationData.variables, pm.cookies.has, cookies.has, pm.cookies.get, cookies.get, pm.cookies.toObject, cookies.toObject, pm.cookies.jar, cookies.jar, jar.set, jar.getAll, jar.unset, jar.clear, pm.response.to.have, response.to.have, pm.response.to.be, response.to.be"
 contextual_links:
@@ -391,7 +392,7 @@ pm.request.headers.remove(headerName:String):function
 ```js
 pm.request.headers.upsert({key: headerName:String, value: headerValue:String}):function)
 ```
-  
+
 > See the Postman [Collection SDK Request reference](https://www.postmanlabs.com/postman-collection/Request.html) for more detail.
 
 #### Scripting with response data
@@ -508,7 +509,7 @@ pm.cookies.toObject():Function → Object
 
 You can also use `pm.cookies.jar` to specify a domain for access to request cookies.
 
-To enable programmatic access via the `pm.cookies.jar` methods, first [whitelist](https://learning.postman.com/docs/sending-requests/cookies/) the cookie URL.
+To enable programmatic access via the `pm.cookies.jar` methods, first [whitelist](/docs/sending-requests/cookies/) the cookie URL.
 
 * Access the cookie jar object:
 

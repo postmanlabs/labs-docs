@@ -29,7 +29,7 @@ exports[`renders correctly 1`] = `
               <span
                 className="col-12 d-none d-md-block copyright"
               >
-                © 2021 Postman, Inc.
+                © 2022 Postman, Inc.
               </span>
             </div>
             <div
@@ -116,7 +116,7 @@ exports[`renders correctly 1`] = `
               <span
                 className="col-12 copyright"
               >
-                © 2021 Postman, Inc.
+                © 2022 Postman, Inc.
               </span>
             </div>
           </div>

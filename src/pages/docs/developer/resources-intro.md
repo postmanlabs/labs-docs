@@ -1,6 +1,7 @@
 ---
 title: "Developing with Postman utilities"
 order: 145
+updated: 2020-07-06
 page_id: "resources_intro"
 search_keyword: "postman-api-key, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset"
 contextual_links:
@@ -9,6 +10,13 @@ contextual_links:
   - type: link
     name: "Newman on the command line"
     url: "/docs/running-collections/using-newman-cli/command-line-integration-with-newman/"
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Public Workspaces"
+  - type: link
+    name: "Postman Public Workspace"
+    url:  "https://www.postman.com/postman/workspace/405e0480-49cf-463b-8052-6c0d05a8e8f3"
   - type: section
     name: "Next Steps"
   - type: link

@@ -2,6 +2,7 @@
 title: "Capturing HTTP requests"
 order: 32
 page_id: "capturing_http_requests"
+updated: 2022-01-20
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -31,84 +32,103 @@ warning: false
 
 ---
 
-If you are using APIs to build client-side applications—mobile apps, websites, or desktop applications—you may want to see the actual HTTP and HTTPS request traffic that's being sent and received in the application. Sometimes you might discover APIs that aren't even documented. You can capture this HTTP network traffic using the proxy that's built into the Postman app.
+If you are using APIs to build client-side applications like mobile apps, websites, or desktop applications, you may want to see the actual HTTP and HTTPS request traffic that's being sent and received in the application. Sometimes you might discover APIs that aren't even documented. You can capture network traffic, including requests, responses, and cookies, using the proxy that's built into the Postman app.
 
-> You can also capture HTTP requests in Chrome using [Postman Interceptor](/docs/sending-requests/capturing-request-data/interceptor/).
+> Capturing HTTP requests is only available using the [Postman desktop app](/docs/getting-started/installation-and-updates/#web-limitations).
 
 ## Contents
 
 * [How the built-in proxy works](#how-the-built-in-proxy-works)
-* [Example - Using the Postman proxy](#example---using-the-postman-proxy)
-* [Capturing HTTPS traffic](#capturing-https-traffic)
-* [Troubleshooting certificate issues](#troubleshooting-certificate-issues)
+* [Using the Postman proxy](#using-the-postman-proxy)
+    * [Step 1: Enable the proxy](#step-1-enable-the-proxy)
+    * [Step 2: Start the proxy debug session](#step-2-start-the-proxy-debug-session)
+    * [Step 3: Configure the proxy on a client device](#step-3-configure-the-proxy-on-a-client-device)
+    * [Step 4: Run the proxy debug session](#step-4-run-the-proxy-debug-session)
+    * [Step 5: Stop the debug session and proxy](#step-5-stop-the-debug-session-and-proxy)
+    * [Step 6: View the proxy debug session results](#step-6-view-the-proxy-debug-session-results)
 
 ## How the built-in proxy works
 
-The Postman app has a built-in proxy that can capture HTTP traffic. Here's how it works:
+The Postman app has a built-in proxy that can capture HTTP and HTTPS traffic. Here's how it works:
 
-1. The Postman app listens for any calls made by the client app or device.
+1. The Postman app listens for any calls made by a client app or device using the proxy.
 1. The Postman proxy captures the request and forwards it to the server.
 1. The server returns a response to the Postman proxy, where it can also be saved.
 1. The response is returned back to the client.
 
 [![postman capture proxy](https://assets.postman.com/postman-docs/proxymobile-aa.jpeg)](https://assets.postman.com/postman-docs/proxymobile-aa.jpeg)
 
-Similar to the [Interceptor Chrome extension](/docs/sending-requests/capturing-request-data/interceptor/), the Postman app proxy also intercepts and captures your requests. Additionally, it can capture responses. You can log all network requests and responses under the **History** tab in the sidebar or in a collection.
+Similar to the [Interceptor Chrome extension](/docs/sending-requests/capturing-request-data/interceptor/), the Postman app proxy intercepts and captures your requests. Additionally, it can capture responses and cookies.
 
-## Example - Using the Postman proxy
+After you start the Postman proxy, you can start a proxy debug session, which is a time-bound session of traffic capture. You can start, pause, and stop a proxy debug session, then later start another one. Each debug session is logged in the **History** tab, and displays the total session time, a traffic overview, and all traffic captured. You can also send requests and responses to a collection, and save cookies to the Postman cookie jar.
 
-In this tutorial, you will use the Postman app's proxy feature to inspect HTTP communication going to and from your phone. To get started, make sure your computer and phone are connected to the same local wireless network.
+## Using the Postman proxy
 
-### Step 1 - Set up the proxy in Postman
+In the steps below, you will use the Postman app's proxy feature to inspect HTTP communication going to and from a phone. To get started, make sure your computer and phone are connected to the same local wireless network.
 
-1. Select the **Capture requests and cookies** icon in the Postman app header.
+### Step 1: Enable the proxy
 
-    <img src="https://assets.postman.com/postman-docs/postman-proxy-settings-button.jpg" alt="Capture requests and cookies icon" width="300px"/>
+To begin, start the proxy inside Postman:
 
-1. On the **Requests** tab, set the **Source** to **Proxy**.
-1. Note the **Port** mentioned in the proxy settings. In this example, it's set for the default port `5555`.
-1. For **Save requests to**, select **History** to store requests in the **History** sidebar panel. You can also select a collection from the list and save the requests there.
+1. Select the **Capture requests and cookies** icon in the Postman footer.
 
-    <img alt="proxy settings modal" src="https://assets.postman.com/postman-docs/postman-capture-request-modal.jpg" width="350px"/>
+    <img src="https://assets.postman.com/postman-docs/proxy-capture-requests-button-v9.8.3.jpg" alt="Capture requests button" width="300px"/>
 
-1. Select **Save responses** to also save each request's responses. They will be saved alongside the requests in the history or the selected collection.
+1. In the **Capture requests and cookies** window, select the **Via Proxy** tab.
 
-    > In responses with a `content-type` containing images, audio, or video, content is intercepted but not captured. The only information captured is response headers, time taken, and the status code.
+    <img src="https://assets.postman.com/postman-docs/capture-via-proxy-tab-v9.8.3.jpg" alt="Capture via proxy tab" width="300px"/>
 
-1. Select **Show additional filters** to see additional options you can use to limit the requests and responses captured:
+1. In the upper right, select **Enable proxy**.
+1. Enter a port number. By default, it's set to port `5555`. Make a note of the port number you've used; you will use it later when configuring clients.
+1. Select **Enable Proxy**.
 
-    * Exclude requests with image, JS, or CSS responses.
-    * Only capture URLs containing a string or a regular expression.
-    * Not capture URLs containing a string or a regular expression.
-    * Only capture the methods specified in a comma-separated list.
+The proxy is now running, but it will not capture traffic until you start a proxy debug session.
 
-#### Grouping requests and responses
+### Step 2: Start the proxy debug session
 
-By default, requests and responses are saved chronologically. If you save them to a collection, you can also group them by domain name, endpoints, or both.
+After the proxy is running, you can start a proxy debug session. This is a time-bound session where captured traffic is saved in an entry in the **History** tab, and optionally into a collection. Once a proxy debug session is started, you can then pause, restart, or stop it. Before you start the session, you can select what traffic you want to go into it.
 
-1. For **Save requests to**, select a collection to store requests and responses.
-1. Under **Organize requests by**, select **Domain name**, **Endpoints**, or both. Your requests and responses are organized in folders in the selected collection.
+> You can only have a single proxy or interceptor debug session running at the same time.
 
-### Step 2 - Find the IP address of your computer
+1. Go to the **Via Proxy** tab of the **Capture requests and cookies** window.
 
-On macOS, the computer's IP address can be found in **System Preferences > Network**. The IP address of your system will be something like the example here: `192.168.0.101`.
+1. Select **Save Responses for Requests** to save each request's responses. They will be saved along with the captured requests.
 
-[![system preferences](https://assets.postman.com/postman-docs/osx-network-settings-aa.jpeg)](https://assets.postman.com/postman-docs/osx-network-settings-aa.jpeg)
+    > In responses with a `content-type` that contains images, audio, or video, the content is intercepted but not captured. The only information captured is response headers, time taken, and the status code.
+1. Select **Capture Cookies** if you want to capture cookies in addition to requests during the debug session.
+1. Requests will be saved in a debug session in the **History** tab in the sidebar. Select **Save requests to a collection** and select a collection from the list to also save the requests there.
+1. If you save requests and responses to a collection, they are added chronologically by default. You can alternately group them in folders organized by domain name or endpoints. Under **Organize requests by**, select **Domain name**, **Endpoints**, or both. Your requests and responses are then organized in folders in the selected collection.
 
-### Step 3 - Configure HTTP proxy on your mobile device
+1. Under **Configure Incoming Requests**, there are additional options you can use to limit the requests and responses captured:
+    * **URL must contain**: Only capture URLs containing the specified string or regular expression.
+    * **URL cannot contain**: Don't capture URLs containing the specified string or regular expression.
+    * **Methods**: Only capture the selected methods.
+    * **Resources**: Exclude requests with image, JS, or CSS responses.
+1. Select **Start Capture**.
 
-Open the wireless settings of your mobile device (an iPhone in this example) and update the configuration of the wireless connection to use HTTP Proxy.
+The proxy debug session is now started, but it won't capture anything until a device is configured with the proxy.
 
-* Set the IP address to the IP you retrieved from your computer in *Step 2* above.
-* Set the port to the port you noted in Postman in *Step 1* above.
+### Step 3: Configure the proxy on a client device
 
-<img src="https://assets.postman.com/postman-docs/ios-http-proxy-settings-aa.jpeg" alt="wireless settings on mobile device" width="350">
+1. Find the local IP address of the machine running the proxy:
 
-You are all set! Head back to the Postman app, and you will start seeing the network calls listed under the **History** tab of the sidebar or in the collection you specified. Open your device's web browser or your application and you will start seeing HTTP traffic passing through the app or the browser.
+    * On macOS, you can find the computer's IP address in **System Preferences > Network**. Select a network interface, and the IP address of your system will be shown on the right:
 
-<img src="https://assets.postman.com/postman-docs/postman-proxy-responses-collection.jpg" alt="requests under collection" width="350px"/>
+      <img alt="system preferences" src="https://assets.postman.com/postman-docs/osx-network-settings-v9-5.jpg" width="400px" />
 
-### Setting up a proxy on other devices
+    * On Windows, select **Start > Settings > Network & internet > Wi-Fi** or **Ethernet**. Your IP address is listed under **Properties**.
+
+1. Open the wireless settings of your client device and update the configuration of the network connection to use an HTTP Proxy. For example, in iOS:
+
+    1. Select **Settings > Wi-Fi**.
+    1. Select <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg" width="16px" style="vertical-align:middle;margin-bottom:5px"> next to a Wi-Fi connection.
+    1. Select **HTTP Proxy > Configure Proxy > Manual**.
+    1. Set **Server** and **Port** to the local IP address and proxy port.
+    1. Select **Save**.
+
+1. Go to the Postman app, and open the **Proxy debug session** window. Open the device's web browser or application and you will start seeing HTTP traffic passing through the app or the browser.
+
+#### Configuring a proxy on other devices
 
 The broader development community has published some useful tutorials for setting up a proxy server on various operating systems:
 
@@ -117,172 +137,53 @@ The broader development community has published some useful tutorials for settin
 * [macOS](https://support.apple.com/en-gb/guide/mac-help/mchlp2591/mac)
 * [Android](https://www.howtogeek.com/295048/how-to-configure-a-proxy-server-on-android/)
 
-## Capturing HTTPS traffic
+### Step 4: Run the proxy debug session
 
-In addition to capturing HTTP traffic, you can use the Postman's built-in proxy to inspect HTTPS communication from your Android, iOS, Linux, macOS, and Windows devices.
+While your capture session is running, the **Proxy Debug Session** window will show captured traffic as you use the browser or apps on the client device.
 
-You must install the `postman-proxy-ca.crt` certificate on your device to be able to capture secure HTTP traffic. First, [set up the proxy in Postman](#example---using-the-postman-proxy) as described above. Then follow the instructions below to install the required security certificate on the target devices.
+There are several controls you can use to limit, organize, and investigate traffic as it is captured:
 
-> You can disable or remove the certificate from your device if you no longer need to capture HTTPS requests.
+* Select the name **Proxy debug session** and enter another name to change the window name.
+* The **Configure incoming requests** controls at the top of the window enable you to limit captured traffic. Select items from **Methods**, **Status Codes**, **Resources**, and **URL** to limit the traffic. These controls are similar to the ones you set initially in Step 2 above, but they limit what is being captured, instead of what is going through the proxy.
+* You can select or unselect **Save Responses for Requests** and **Capture Cookies** to toggle if responses or cookies are collected.
+* Select the **Requests** tab to view incoming requests and responses, or **Cookies** to see captured cookies.
+* Use the search box to look for specific requests.
+* Select **>** next to a request to expand it and see more details.
+* Select the URL in the **URL** column to open the request as a new API request in Postman.
+* Below the request list, there are controls to change the collection where the traffic is being sent, and if it should be grouped by domain name or endpoints.
 
-### Windows
+When you select one or more requests from the list on the **Requests** tab, you can use the following controls:
 
-Before you install the `postman-proxy-ca.crt` certificate, you must install the OpenSSL module.
+* **+ Add to collection** - add the request to a specified collection.
 
-#### Installing OpenSSL on Windows
+* <img alt="External link icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg" width="12px" style="vertical-align:middle;margin-bottom:5px"> - delete the request.
 
-Postman uses **OpenSSL** to generate certificate-key pairs. For Postman to be able to generate the `postman-proxy-ca.crt` certificate, the OpenSSL module must be installed on your computer and accessible through the command line.
+When you select one or more cookies from the list on the **Cookies** tab, you can use the following controls:
 
-OpenSSL is already installed for macOS and is typically installed for Linux. For Windows systems, you must install OpenSSL manually:
+* **+ Add to Cookie Jar** - add the request to the Postman cookie jar.
 
-1. Download and install the [OpenSSL v1.1.1 installer](https://slproweb.com/products/Win32OpenSSL.html) for your operating system version. **Important:** OpenSSL v1.x is required to generate certificates. Later versions of OpenSSL are not supported at this time.
+* <img alt="External link icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg" width="12px" style="vertical-align:middle;margin-bottom:5px"> - delete the cookie.
 
-    > During installation, make sure to select the option to copy the OpenSSL DLLs to the **OpenSSL binaries (/bin) directory**.
+The bottom right corner shows the total time of the capture session, along with the total size of captured traffic. If you want to temporarily stop the capture session, select the **Pause** button. To restart the session, select **Resume**.
 
-1. Open the Windows **Start** menu, search for **Environment Variables**, and select **Open**.
-1. On the **System Properties** window, select **Environment Variables**.
-1. Select **Path** under **User variables**, and then select **Edit**.
+### Step 5: Stop the debug session and proxy
 
-    ![download OpenSSL installer](https://assets.postman.com/postman-docs/windows-environment-variables-edit-browse-bb.jpg)
+When you're done with your debug session, select **Stop** in the lower right corner. This will finish the debug session, and results of the debug session will be saved in the **History** tab.
 
-1. Select **Browse**.
-1. Navigate to and select **This PC > Local Disk (C:) > Program Files > OpenSSL-Win64 > bin**.
+After stopping the session, the proxy is still running. Select the **Capture requests and cookies** icon in the Postman footer, and you can either start another debug session, or select **Disable proxy** to turn off the proxy.
 
-    ![download OpenSSL installer](https://assets.postman.com/postman-docs/windows-oppssl-environment-variables-bin.jpg)
+### Step 6: View the proxy debug session results
 
-1. Select **OK** to add the folder directory. Then select **OK** to confirm changes and close the remaining windows.
-1. Open a command prompt. To do this, open the Windows **Start** menu, search for **cmd**, and select **Open**. Enter the command `openssl version` to confirm that installation was successful. You should see output similar to the following:
+After completing a debug session, details from the session are located in the **History** tab, named **Proxy debug session**.
 
-    ``OpenSSL 1.1.1l  24 Aug 2021``
+When you open a saved debug session, the top header displays the session start time, total size, duration, and source.
 
-#### Installing the security certificate on Windows
+The **Overview** displays summary graphs of the traffic captured in the session. You can select graphs summarizing traffic by method, domain, data mode, or return status code.
 
-> Before you begin, make sure to [install the OpenSSL module](#installing-openssl-on-windows) so Postman can generate the certificate.
+The **Requests** and **Cookies** tabs display requests, responses, and cookies, similar to the same tabs available during a capture session. The same options for searching, expanding, saving, and deleting items described in Step 4 are available. You can also use the controls at the bottom of the table to limit the number of items per page, and navigate through the pages of results.
 
-1. In Windows File Explorer, navigate to the `%APPDATA%\Postman\proxy` folder. Typically, the folder will be located at `C:\Users\<user>\AppData\Roaming\Postman\proxy`.
+You can rename a proxy debug session by selecting the name at the top of the window and entering a new name. Select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to the debug session name to rename or delete the session.
 
-1. Right-click on the **postman-proxy-ca.crt** file and select **Install Certificate**.
+## Next steps
 
-    [![Select crt file](https://assets.postman.com/postman-docs/windows-install-crt-aa.jpeg)](https://assets.postman.com/postman-docs/windows-install-crt-aa.jpeg)
-
-1. Select **Local Machine** and select **Next**. This action requires Administrator permissions—select **Yes** to proceed.
-1. Select **Place all certificates in the following store**.
-1. Select **Browse** and then select **Trusted Root Certification Authorities**.
-
-    [![Select trust root crt authorities](https://assets.postman.com/postman-docs/windows-crt-install-store-aa.jpeg)](https://assets.postman.com/postman-docs/windows-crt-install-store-aa.jpeg)
-
-1. Select **OK** and then select **Next**.
-1. Select **Finish** to import the certificate.
-1. Restart the Postman app.
-
-### macOS
-
-1. In the macOS Finder, navigate to the `~/Library/Application Support/Postman/proxy` folder.
-1. Double-click the `postman-proxy-ca.crt` file.
-1. Select **System** in the **Keychain** list, and then select **Add**. Enter your system password to confirm the action.
-1. In Keychain Access, double-click the imported Postman certificate to open it.
-
-    [![Select System keychains](https://assets.postman.com/postman-docs/mac-install-new-crt-v9-1.jpg)](https://assets.postman.com/postman-docs/mac-install-new-crt-v9-1.jpg)
-
-1. Expand the **Trust** section. Select the option to **Always Trust** when using this certificate, and make sure **Always Trust** is selected for **Secure Sockets Layer(SSL)**.
-    [![Select always trust for Postman keychain](https://assets.postman.com/postman-docs/mac-install-crt-always-trust-v9-1.jpg)](https://assets.postman.com/postman-docs/mac-install-crt-always-trust-v9-1.jpg)
-
-1. Close the certificate window. Enter your system password to update the settings.
-
-### CentOS and Red Hat Enterprise Linux
-
-1. Copy the `postman-proxy-ca.crt` certificate file from `~/.config/Postman/proxy` to the `/etc/pki/ca-trust/source/anchors/` directory.
-
-    `sudo cp ~/.config/Postman/proxy/postman-proxy-ca.crt /etc/pki/ca-trust/source/anchors/`
-1. Run the command below in terminal to complete the installation:
-
-    `sudo update-ca-trust extract`
-
-### Ubuntu
-
-1. Create the directory for the CA certificate with the command below.
-
-    `sudo mkdir -p /usr/share/ca-certificates/extra`
-
-1. Copy `postman-proxy-ca.crt` to the new folder with the command below.
-
-    `sudo cp ~/.config/Postman/proxy/postman-proxy-ca.crt /usr/share/ca-certificates/extra/postman-proxy-ca.crt`
-
-1. Add the certificate to the system with the two commands below.
-
-    `sudo dpkg-reconfigure ca-certificates`
-
-    `sudo update-ca-certificates`
-
-#### Installing the certificate for use with Chrome
-
-1. Open Google Chrome and go to the URL `chrome://settings/certificates`.
-
-1. Select **Manage certificates** from the list.
-
-1. Select the **Authorities** tab and then **Import**.
-
-1. Select **Browse** and select the `~/.config/Postman/proxy/postman-proxy-ca.crt` file.
-
-1. Under **Trust Settings**, select **Trust this certificate for identifying websites**.
-
-1. Select **OK**.
-
-#### Installing the certificate for use with Mozilla Firefox
-
-1. Open Firefox, select the application menu, and then select **Preferences**.
-1. Select **Privacy & Security**. Scroll down to **Certificates** and select **View Certificates**.
-1. In the Certificate Manager, select the **Authorities** tab, and then select **Import**.
-1. Select the **postman-proxy-ca.crt** and select **Open**.
-1. Select **Trust this CA to identify websites** and select **OK**.
-
-    [![Select trust CA crt](https://assets.postman.com/postman-docs/firefox-trust-crt-aa.jpeg)](https://assets.postman.com/postman-docs/firefox-trust-crt-aa.jpeg)
-
-### iOS
-
-1. Download the `postman-proxy-ca.crt` certificate to the iOS device (for example, using AirDrop). You can find the certificate file on your computer in the following location:
-
-    * **macOS:** `~/Library/Application Support/Postman/proxy`
-    * **Windows:** `C:\Users\<user>\AppData\Roaming\Postman\proxy`
-    * **Linux:** `~/.config/Postman/proxy`
-
-1. Go to **Settings > Profile Downloaded**, and then select **Install**. Enter your passcode to proceed.
-1. A security warning displays. Select **Install**.
-1. After the certificate is installed, select **Done**.
-1. Go to **Settings App > General > About > Certificate Trust Settings**.
-1. Enable full trust for Postman’s root certificate, and select **Continue** to complete the installation.
-
-    <img src="https://assets.postman.com/postman-docs/ios-enable-full-trust-aa.jpeg" alt="iOS crt full trust settings" width="350">
-
-### Android
-
-> The certificate installation process may differ depending on your device and Android version.
-
-1. Download the `postman-proxy-ca.crt` certificate to the Android device. You can find the certificate file on your computer in the following location:
-
-    * **macOS:** `~/Library/Application Support/Postman/proxy`
-    * **Windows:** `C:\Users\<user>\AppData\Roaming\Postman\proxy`
-    * **Linux:** `~/.config/Postman/proxy`
-
-1. Open the **Settings** app and go to **Security > Encryption & credentials**.
-1. Select **Install a certificate** and select the **CA Certificate** option.
-1. A security warning displays. Select **Install anyway** to proceed.
-1. Browse for and select the `postman-proxy-ca.crt` certificate file. A message displays stating that the certificate is installed. You can now capture traffic through a web browser on Android.
-
-**Need to capture requests from an Android app?** To capture requests from an Android app, you need to add a network security configuration file to your app to trust the `postman-proxy-ca.crt` certificate. For more information, see [Trust additional CAs](https://developer.android.com/training/articles/security-config#TrustingAdditionalCas) on the Android Developers portal.
-
-<img src="https://assets.postman.com/postman-docs/proxy-android-certificate-v9-1.jpg" alt="Android certificate installed" width="350">
-
-## Troubleshooting certificate issues
-
-If you are unable to correctly install the `postman-proxy-ca.crt` certificate, or if the certificate is not allowing you to capture traffic, try regenerating and reinstalling the certificate.
-
-1. Make sure you are running Postman version 9.1 or later. See [Updating Postman](/docs/getting-started/installation-and-updates/#updating-postman).
-1. On the computer where the Postman app is installed, delete the `/Postman/Proxy` folder. You can find the folder in the following location:
-
-    * **macOS:** `~/Library/Application Support/Postman/proxy`
-    * **Windows:** `C:\Users\<user>\AppData\Roaming\Postman\proxy`
-    * **Linux:** `~/.config/Postman/proxy`
-
-1. Close and restart the Postman app. Postman regenerates the certificate.
-1. Follow the steps for your device to [reinstall the certificate](#capturing-https-traffic).
+To also capture HTTPS data from your client devices, you'll need to add a certificate to the client. See [Capturing HTTPS traffic](/docs/sending-requests/capturing-request-data/capturing-https-traffic/) for more details.

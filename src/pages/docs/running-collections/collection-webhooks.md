@@ -10,6 +10,13 @@ contextual_links:
   - type: link
     name: "Grouping requests in collections"
     url: "/docs/sending-requests/intro-to-collections/"
+  - type: section
+    name: "Additional resources"
+  - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Postman Webhooks | Postman Level Up"
+    url: "https://youtu.be/wdLvXKkXhLk"
 warning: false
 ---
 
@@ -19,7 +26,7 @@ A webhook provides a way to automatically send data from one application to anot
 
 With a collection webhook, data is sent to the webhook URL using a POST request when certain events are triggered. (It's up to you to configure the application that sends the data and what the trigger events are.) The data sent to the webhook is accessible inside the collection in the [globals object](/docs/sending-requests/variables/). Using [scripts](/docs/writing-scripts/intro-to-scripts/), you can parse that data and use it during the collection run in any way possible.
 
-Webhooks for a collection can only be created using the [Postman API](https://learning.postman.com/docs/developer/intro-api/). To create a webhook, refer to the [documentation for **api.getpostman.com/webhooks**](https://documenter.getpostman.com/view/12959542/UV5XjJV8#8bec7537-cc5d-4ed7-a995-c7753e55ed28).
+Webhooks for a collection can only be created using the [Postman API](/docs/developer/intro-api/). To create a webhook, refer to the [documentation for **api.getpostman.com/webhooks**](https://documenter.getpostman.com/view/12959542/UV5XjJV8#8bec7537-cc5d-4ed7-a995-c7753e55ed28).
 
 ### Accessing the request body in scripts
 

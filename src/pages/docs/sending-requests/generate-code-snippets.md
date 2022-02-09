@@ -1,6 +1,7 @@
 ---
 title: "Generating client code"
 order: 29.1
+updated: 2021-02-08
 page_id: "generate_code_snippets"
 contextual_links:
   - type: section
@@ -72,7 +73,7 @@ Postman currently supports the following options:
 | **Language**  | **Framework** |
 | --- | --- |
 | C | [LibCurl](https://curl.se/libcurl/c/) |
-| C# | [RestSharp](http://restsharp.org/) |
+| C# | [RestSharp](http://restsharp.dev/) |
 | cURL |[cURL](https://curl.se/) |
 | Dart | [Dart](https://dart.dev/) |
 | Go   | [http package](https://pkg.go.dev/net/http) |

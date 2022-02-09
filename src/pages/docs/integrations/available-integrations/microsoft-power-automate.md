@@ -1,6 +1,7 @@
 ---
 title: "Microsoft Power Automate"
 order: 172
+updated: 2021-06-15
 page_id: "microsoft_power_automate"
 warning: false
 contextual_links:

@@ -33,6 +33,7 @@ jobs:
         RELIC_PRODUCTION_AGENT_ID: ${{ secrets.RELIC_PRODUCTION_AGENT_ID }}
         RELIC_PRODUCTION_APPLICATION_ID: ${{ secrets.RELIC_PRODUCTION_APPLICATION_ID }}
         PM_TECH: ${{secrets.PM_TECH}}
+        SITE_URL: ${{secrets.SITE_URL_BETA}}
 
       run: |
         npm config set //registry.npmjs.org/:_authToken=${{secrets.NPM_TOKEN}}

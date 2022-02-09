@@ -1,6 +1,7 @@
 ---
 title: "Postman API"
 order: 146
+updated: 2021-10-26
 page_id: "intro_api"
 search_keyword: "postman-api-key, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset"
 contextual_links:
@@ -24,6 +25,14 @@ contextual_links:
   - type: link
     name: "Filtering and Sorting APIs Using the Postman API"
     url: "https://blog.postman.com/filtering-and-sorting-apis-using-the-postman-api/"
+  - type: subtitle
+    name: "Public Workspaces"
+  - type: link
+    name: "Postman API"
+    url:  "https://www.postman.com/postman/workspace/postman-public-workspace/collection/12959542-c8142d51-e97c-46b6-bd77-52bb66712c9a?ctx=documentation"
+  - type: link
+    name: "Postman Public Workspace"
+    url:  "https://www.postman.com/postman/workspace/405e0480-49cf-463b-8052-6c0d05a8e8f3"
   - type: subtitle
     name: "Next Steps"
   - type: link
@@ -60,7 +69,7 @@ You need a valid API Key to send requests to the Postman API. To generate an API
 
 <img src="https://assets.postman.com/postman-docs/copy-your-api-key-v9.jpg" alt="Copy your API key" width="600px"/>
 
-Once you have API keys generated you can manage them within your workspace. Select **...** next to a key to regenerate or delete it.
+Once you have API keys generated you can manage them within your workspace. Select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to a key to regenerate or delete it.
 
 <img src="https://assets.postman.com/postman-docs/api-keys-regenerate-delete-v9.jpg" alt="View your API keys"/>
 

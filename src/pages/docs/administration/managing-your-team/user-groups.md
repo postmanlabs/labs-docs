@@ -10,8 +10,8 @@ contextual_links:
   - type: subtitle
     name: "Related Blog Posts"
   - type: link
-    name: "Manage Large Teams in Postman with Workspaces, Permissions, and Version Control"
-    url: "https://blog.postman.com/postman-team-workspaces-and-permissions/"
+    name: "Introducing Postman Groups: Manage Users with Easier Access Control"
+    url: "https://blog.postman.com/introducing-postman-groups/"
 
 ---
 
@@ -53,7 +53,7 @@ Give your group a name and description, add your team members, and select the te
 
 > You must have the billing role yourself to assign the billing role to others.
 
-<img alt="Create a group form" src="https://assets.postman.com/postman-docs/team-create-group-v9.1.jpg" width="500px"/>
+<img alt="Create a group form" src="https://assets.postman.com/postman-docs/create-a-group-9.5.jpg" width="500px"/>
 
 Team members will receive an email and in-app notification when added to a group.
 
@@ -70,7 +70,7 @@ In Postman, select **Team** in the upper-right corner > **Manage Team**. Under *
 
 Select **+ Add** to add a team member to the group. Select **X** next to a team member to remove them from the group.
 
-<img alt="Manage group members" src="https://assets.postman.com/postman-docs/team-edit-group-v9.1.jpg" width="500px"/>
+<img alt="Manage group members" src="https://assets.postman.com/postman-docs/edit-group-members-9.5.jpg" width="500px"/>
 
 > Group members will receive an email and in-app notification when added to or removed from a group.
 
@@ -84,15 +84,17 @@ You can control a group's access at the team level, workspace level, and on indi
 
 In Postman, select **Team** in the upper-right corner > **Manage Team**. Under **Members and groups**, select **Groups**. Locate the group you would like to modify and select it to edit.
 
-<img alt="Edit group team roles" src="https://assets.postman.com/postman-docs/team-edit-user-group-v9.1.jpg" width="500px"/>
+<img alt="Edit group team roles" src="https://assets.postman.com/postman-docs/edit-group-roles-9.5.1.jpg" width="500px"/>
 
 Select the team roles you would like to assign to the group, or deselect team roles you would like to remove from the group, then **Save Changes**.
+
+> For information on roles available to your team and their permissions, see [Team Roles](/docs/collaborating-in-postman/roles-and-permissions/#team-roles).
 
 #### Managing roles on workspaces and Postman entities
 
 You can control a group's access to individual workspaces, collections, APIs, environments, mock servers, and monitors. For more information on managing workspaces, see [Sharing workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#sharing-workspaces).
 
-For collections, APIs, environments, mock servers, and monitors, navigate to the entity in Postman and in the left sidebar, select **...** > **Manage roles**.
+For collections, APIs, environments, mock servers, and monitors, navigate to the entity in Postman. In the left sidebar, select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> to view more actions, then select **Manage roles**.
 
 <img alt="Invite group to collection" src="https://assets.postman.com/postman-docs/manage-roles-collection-with-user-group-v9.1.jpg"/>
 

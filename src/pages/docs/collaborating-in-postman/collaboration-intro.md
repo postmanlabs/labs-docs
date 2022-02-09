@@ -29,77 +29,50 @@ contextual_links:
 
 > Postman Free allows teams of up to three to collaborate at no cost. To collaborate with additional team members, features, and increased usage limits, see [Plans and Pricing](https://www.postman.com/pricing/).
 
-Postman allows all users to collaborate with their teams through Team Workspaces. Using this feature, you can easily collaborate and share your collections, environments, integrations, history, mocks, monitors, and more.
-
-Postman will alert you with notifications when activities occur within your team and workspace. You can view and opt in or out notifications by selecting your avatar in the upper-right corner of Postman and clicking **Notification Preferences**.
+Postman enables collaboration through [shared workspaces](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/). You can use workspaces to share your work with your teammates, including APIs, collections, environments, integrations, mock servers, and monitors.
 
 ## Contents
 
-* [Working with team workspaces](#working-with-team-workspaces)
-
+* [Enabling team discovery](#enabling-team-discovery)
+* [Collaborating in team workspaces](#collaborating-in-team-workspaces)
     * [Inviting a team member to a workspace](#inviting-a-team-member-to-a-workspace)
-
-    * [Creating a new workspace](#creating-a-new-workspace-from-the-menu)
-
-* [Team discovery](#team-discovery)
-
-    * [Making your team discoverable](#making-your-team-discoverable)
 
     * [Finding teams within your organization](#finding-teams-within-your-organization)
 
-* [Leaving a team](#leaving-a-team)
-
-* [Usage limit](#usage-limit)
-
-    * [How archiving works](#how-archiving-works)
-
-    * [Recovering archived collections](#recovering-your-archived-collections)
-
+    * [Leaving a team](#leaving-a-team)
+* [Team usage limits](#team-usage-limits)
 * [Next steps](#next-steps)
 
-## Working with team workspaces
+## Enabling team discovery
 
-Create a Team Workspace by inviting a team member to join a personal workspace or create a new one.
+When you enable team discovery, users who have a verified email address with your company's domain can request to join pre-existing teams within your organization. This encourages collaboration and eases the onboarding process for your team members.
 
-> Postman creates a default Team Workspace. You cannot delete this workspace but you can rename it.
+* Free users: Next to your avatar, select the menu to the right of **Upgrade**, then select **Manage Team**.
+* Paid users: Next to your avatar, select **Team**, then select **Manage Team**.
 
-### Inviting a team member to a workspace
+On your Team Settings page, select **Team discovery** on the left, then select the toggle to turn team discovery on.
 
-You can invite team members, [groups](/docs/administration/managing-your-team/user-groups/), and external users to collaborate in a workspace by navigating to the workspace and selecting **Invite** in the upper-right corner.
-
-<img alt="Share team workspace" src="https://assets.postman.com/postman-docs/share-workspace-9.4.jpg" width="400px"/>
-
-For more details, see [Sharing workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#sharing-workspaces).
-
-### Creating a new workspace from the menu
-
-Select **Workspaces** in the upper left, then **Create Workspace**.
-
-<img alt="Create workspace from Workspaces menu" src="https://assets.postman.com/postman-docs/workspace-switcher-with-new-wkspc-v9.1.jpg" width="350px"/>
-
-Specify a workspace name and summary, then define the workspace **Visibility**. Select **Create Workspace** to complete the process.
-
-<img alt="Create workspace form" src="https://assets.postman.com/postman-docs/create-workspace-v9.1.jpg" width="400px"/>
-
-## Team discovery
-
-Enabling team discovery encourages collaboration and eases the onboarding process by allowing users accessing Postman with their company email address to request to join pre-existing teams within their organization.
-
-### Making your team discoverable
-
-You can enable team discovery in the dashboard by selecting **Team** > **Team Settings** > [**Team Discovery**](https://go.postman.co/settings/team/discovery).
-
-[![Enable team discovery](https://assets.postman.com/postman-docs/team-discovery-enable-v9.1.0.jpg)](https://assets.postman.com/postman-docs/team-discovery-enable-v9.1.0.jpg)
+[![Enable team discovery](https://assets.postman.com/postman-docs/team-discovery-enable-v9.7.0.jpg)](https://assets.postman.com/postman-docs/team-discovery-enable-v9.7.0.jpg)
 
 > Team admins will receive an email notification when team discovery is enabled.
 
-You can optionally add a question for pending team members to answer when they request to join your team. Enter your question and click __Update Question__—anyone requesting to join the team will be prompted with the question.
+You can optionally add a question for pending team members to answer when they request to join your team. Enter your question and select **Update Question**. Anyone who requests to join the team will be prompted with the question. If you do not specify a question, team members can still add a note when they request to join the team.
 
-> If you do not specify a question, team members can still add a note when they ask to join.
+All admins will be notified when someone makes a request to join your team, including their answer to any question you set, or an optional note.
 
-You will receive a notification when anyone makes a request to join your team, including their answer to any question you set, or an optional note.
+[![Team Request Approval](https://assets.postman.com/postman-docs/admin-team-join-requests-v9.7.0.jpg)](https://assets.postman.com/postman-docs/admin-team-join-requests-v9.7.0.jpg)
 
-[![Team Request Approval](https://assets.postman.com/postman-docs/admin-team-join-requests.jpg)](https://assets.postman.com/postman-docs/admin-team-join-requests.jpg)
+## Collaborating in team workspaces
+
+Team workspaces allow you to collaborate on APIs, collections, environments, integrations, mocks, and monitors with your team.
+
+> Postman creates a default "Team Workspace" for every team. You can rename this workspace, but it cannot be deleted.
+
+Postman notifies you when activities occur within your team workspace. You can opt in to or out of these notifications by selecting your avatar in the upper right and selecting **Notification Preferences**.
+
+### Inviting a team member to a workspace
+
+You can invite team members to join a [new](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/) or existing workspace. For more details about how to invite a team member to a workspace, see [Sharing workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#sharing-workspaces).
 
 ### Finding teams within your organization
 
@@ -107,63 +80,43 @@ When you log in to the Postman web dashboard using a verified email address for 
 
 [![Choose Team](https://assets.postman.com/postman-docs/join-team-from-list.jpg)](https://assets.postman.com/postman-docs/join-team-from-list.jpg)
 
-You will see a list of available teams within your org. Select a team, answer the question set by the team admin if there is one (otherwise you can add an optional note), and click **Request to join**.
+You will see a list of the available teams within your organization. Select a team. Answer the question set by the team admin, if there is one. You can also add an optional note. Select **Request to join**.
 
-<img alt="Team Join Question" src="https://assets.postman.com/postman-docs/team-join-question-entry.jpg" width="400px"/>
+<img alt="Team Join Question" src="https://assets.postman.com/postman-docs/team-join-question-v9.7.0.jpg" width="400px"/>
 
-The team administrator will receive a notification that you’ve asked to join the team. Once they approve your request, you will be able to access the team and collaborate on API projects within it.
+Team admins will receive a notification when you ask to join the team. Once they approve your request, you'll be able to access the team and collaborate on API projects within it.
 
-## Leaving a team
+### Leaving a team
 
-You can leave a Postman team by navigating to your [Postman Dashboard](https://go.postman.co/home), selecting your avatar in the top-right corner, then **Account Settings**. Select **Team** on the left. You can then opt to **Leave Team**.
+You can leave a Postman team by navigating to your [Postman Dashboard](https://go.postman.co/home), selecting your avatar in the top right, then **Account Settings**. Select **Team** on the left. You can then opt to **Leave Team**.
 
 <img src="https://assets.postman.com/postman-docs/leave-team-v9.1.jpg" alt="Leave team"/>
 
 > If your team has [SCIM configured](/docs/administration/managing-your-team/configuring-scim/), you must contact your Postman team admins to leave the team.
 
+When you leave a team, you no longer have access to the team's workspaces or any of the elements in them. You will still have access to your personal workspaces.
+
 If you are the last member to leave your team, you will have the option to transfer collections to a personal workspace.
 
 <img src="https://assets.postman.com/postman-docs/leave-and-delete-team.jpg" alt="Leave and delete team" width="400px"/>
 
-> If you are invited to a new team and you are the last in your current team, all team data will be transferred to your personal default workspace.
+> If you are invited to a new team and you are the last member in your current team, all team data will be transferred to your personal default workspace.
 
-## Usage limit
+## Team usage limits
 
-You can check your usage limits within Postman. Free users can select the drop-down menu to the right of **Upgrade** in the app. Paid users can access the menu by selecting a team name.
+The Postman usage menu allows you to review your team's limits for APIs, shared requests and history, mocks, monitors, and public documentation.
 
-The usage menu allows you to review limits for APIs, shared requests and history, mocks, monitors, and public documentation. Click **Resource Usage** to view your usage period.
+* **Free users**: Next to your avatar, select the menu to the right of **Upgrade**.
+* **Paid users**: Next to your avatar, select **Team**.
 
-[![usage info](https://assets.postman.com/postman-docs/Screen%20Shot%202019-11-11%20at%205.38.16%20PM.png)](https://assets.postman.com/postman-docs/Screen%20Shot%202019-11-11%20at%205.38.16%20PM.png)
+For more details and to view your usage period, select **Resource Usage**.
 
-### How archiving works
-
- Postman archives collections when a free team's collaboration exceeds usage limits. Archived collections cannot be collaborated on, however they are still accessible to users. You will receive an in-app notification when a collection is archived.
-
-[![archived message](https://assets.postman.com/postman-docs/Screen%20Shot%202019-11-11%20at%205.44.36%20PM.png)](https://assets.postman.com/postman-docs/Screen%20Shot%202019-11-11%20at%205.44.36%20PM.png)
-
-Postman chooses which collection(s) to archive based on last edit date. The collections that have gone the longest without a revision will be archived in order to bring your team within usage limits.
-
-Postman indicates the number of archived collections at the bottom of the left sidebar.
-
-[![archived message](https://assets.postman.com/postman-docs/ArchiveMsg2.png)](https://assets.postman.com/postman-docs/ArchiveMsg2.png)
-
-### Recovering your archived collections
-
-To recover archived collections, select **Archived Collections**.
-
-You will then be directed to your dashboard, where you can click **Download your data** > **Request data export** > **Request an archive**.
-[![export data1](https://assets.postman.com/postman-docs/Recovering_ArchivedCol1.png)](https://assets.postman.com/postman-docs/Recovering_ArchivedCol1.png)
-
-You will then be able to select **Download** to retrieve your archived data.
-
-[![Download Data](https://assets.postman.com/postman-docs/Download_Data1.png)](https://assets.postman.com/postman-docs/Download_Data1.png)
-
-> The `archive.json` inside the downloaded ZIP archive is not a Postman collection that can be imported; it is simply an index of files present in the archive. A collections folder contains all the files that can be imported.
-
-Alternatively, you can download your archived data directly within Postman. To learn how, refer to [Settings](/docs/getting-started/settings/).
+<img src="https://assets.postman.com/postman-docs/team-resource-limits-v9.7.0.jpg" alt="Usage limit information" width="400px"/>
 
 ## Next steps
 
-For a more in-depth introduction to workspaces and how they can help organize your API development, check out [Creating Workspaces](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/).
+Postman has many features to help you collaborate with your team:
 
-To see how you can share the APIs that your teams use internally, check out [Your private API Network](/docs/collaborating-in-postman/adding-private-network/).
+* Assign [roles and permissions](/docs/collaborating-in-postman/roles-and-permissions/) to define Postman access at the team, workspace, and entity level.
+* Use [version control](/docs/collaborating-in-postman/version-control-for-collections/) to collaborate with teammates on different forks of a shared collection or [versioning](/docs/designing-and-developing-your-api/versioning-an-api/) to collaborate on different versions of a shared API.
+* Use your [Private API Network](/docs/collaborating-in-postman/adding-private-network/) to securely share the APIs that your team uses internally.

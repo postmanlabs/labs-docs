@@ -10,6 +10,13 @@ contextual_links:
     name: "Intro to monitoring"
     url: "/docs/monitoring-your-api/intro-monitors/"
   - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "API Monitoring | The Exploratory"
+    url: "https://youtu.be/tDQzY1Hn2LY"
+  - type: section
     name: "Next steps"
   - type: link
     name: "Integrations for monitoring"
@@ -47,7 +54,7 @@ When [creating a new monitor](/docs/monitoring-your-api/setting-up-monitor/#crea
 
 ## Changing an existing monitor to run from a static IP address
 
-Open your workspace in Postman and select **Monitors** from the left sidebar. Select your monitor, then **...** in the upper-right corner > **Edit**.
+Open your workspace in Postman and select **Monitors** from the left sidebar. Select your monitor, then in the upper-right corner select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> **> Edit**.
 
 <img src="https://assets.postman.com/postman-docs/select-edit-monitor.jpg" width="400px" alt="Edit monitor"/>
 

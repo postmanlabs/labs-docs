@@ -1,6 +1,7 @@
 ---
 title: "Scripting in Postman"
 order: 41
+updated: 2021-01-27
 page_id: "intro_to_scripts"
 search_keyword: "pm.test, pm.expect, pm.environment, pm.environment.get, environment.get, pm.response"
 contextual_links:
@@ -15,11 +16,6 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
-    name: "Case Studies"
-  - type: link
-    name: "Giant Machines"
-    url: "https://www.postman.com/case-studies/giant-machines/"
-  - type: subtitle
     name: "Related Blog Posts"
   - type: link
     name: "Keep it DRY with collection and folder elements"
@@ -27,6 +23,16 @@ contextual_links:
   - type: link
     name: "Not your Grandma's Postman"
     url: "https://blog.postman.com/not-your-grandmas-postman/"
+  - type: subtitle
+    name: "Case Studies"
+  - type: link
+    name: "Giant Machines"
+    url: "https://www.postman.com/case-studies/giant-machines/"
+  - type: subtitle
+    name: "Public Workspaces"
+  - type: link
+    name: "Postman Answers"
+    url:  "https://www.postman.com/postman/workspace/aa5fb3b8-0090-4b5e-b3b4-fa5c1f2d080d"
   - type: section
     name: "Next Steps"
   - type: link
@@ -79,7 +85,7 @@ If you created log statements in the pre-request and test script sections for th
 
 ### How does this work?
 
-Is this magic? No, it's the [Postman Sandbox](/docs/writing-scripts/script-references/postman-sandbox-api-reference/). The Postman Sandbox is a JavaScript execution environment that is available to you while writing pre-request and test scripts for requests (both in Postman and Newman). Whatever code you write in these sections is executed in this sandbox.  
+Is this magic? No, it's the [Postman Sandbox](/docs/writing-scripts/script-references/postman-sandbox-api-reference/). The Postman Sandbox is a JavaScript execution environment that is available to you while writing pre-request and test scripts for requests (both in Postman and Newman). Whatever code you write in these sections is executed in this sandbox.
 
 ## Debugging scripts
 

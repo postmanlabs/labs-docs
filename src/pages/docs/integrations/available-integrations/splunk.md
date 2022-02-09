@@ -1,6 +1,7 @@
 ---
 title: "Splunk"
 order: 177
+updated: 2021-07-14
 page_id: "splunk"
 warning: false
 contextual_links:

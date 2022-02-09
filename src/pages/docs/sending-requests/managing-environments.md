@@ -1,6 +1,7 @@
 ---
 title: "Managing environments"
 order: 25
+updated: 2021-10-06
 page_id: "managing-environments"
 search_keyword: "pm.globals.set, globals.set, pm.environment.set, environment.set, pm.variables.get, variables.get, pm.globals.get, globals.get, pm.environment.get, environment.get"
 contextual_links:
@@ -111,7 +112,7 @@ Enter a name for your variable, and specify __Initial__ and __Current__ values f
 * The __Initial Value__ is synced to your account via the Postman servers and shared with any collaborators who have access to the environment.
 * The __Current Value__ is local to your Postman app, and is never synced to your account or shared with your team—_unless you choose to persist it_.
 
-To update the synced variable with your local value, set the initial value to the current value by clicking __...__ to the right of the variable row and choosing __Persist__. To reset your local (current) value with the synced value shared with your workspace / collaborators, click __Reset__. You can persist or reset all values in the environment using __Persist All__ and __Reset All__.
+To update the synced variable with your local value, set the initial value to the current value by selecting <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> to the right of the variable row and choosing __Persist__. To reset your local (current) value with the synced value shared with your workspace / collaborators, click __Reset__. You can persist or reset all values in the environment using __Persist All__ and __Reset All__.
 
 > You can also mask environment variables by changing their type to [secret](/docs/sending-requests/variables/#variable-types).
 
@@ -228,7 +229,7 @@ You can manage roles on an environment by navigating to it in the left sidebar, 
 
 <img alt="Manage roles environment" src="https://assets.postman.com/postman-docs/environment-manage-roles-v9.1.jpg" width="250px"/>
 
-You can also remove a shared environment from a workspace by clicking __...__ next to the environment name and choosing __Move__ to move it to a different workspace or **Delete** to delete it entirely.
+You can also remove a shared environment from a workspace by selecting <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to the environment name and choosing __Move__ to move it to a different workspace or **Delete** to delete it entirely.
 
 To export an environment, select it and click <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> in the upper right > **Export**.
 

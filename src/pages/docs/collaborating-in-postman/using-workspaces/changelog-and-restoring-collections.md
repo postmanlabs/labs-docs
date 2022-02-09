@@ -6,15 +6,8 @@ contextual_links:
   - type: section
     name: "Prerequisites"
   - type: link
-    name: "Grouping requests in collections"
-    url: "/docs/sending-requests/intro-to-collections/"
-  - type: section
-    name: "Additional Resources"
-  - type: section
-    name: "Associated Topics"
-  - type: link
-    name: "Intro to Integrations"
-    url: "/docs/integrations/intro-integrations/"
+    name: "Creating workspaces"
+    url: "/docs/collaborating-in-postman/using-workspaces/creating-workspaces/"
 
 warning: false
 ---

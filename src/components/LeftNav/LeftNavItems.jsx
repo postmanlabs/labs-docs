@@ -144,19 +144,27 @@ export const leftNavItems = [
       {
         name: 'Capturing Request Data',
         subParentSlug: 'capturing-request-data',
-        slug: '/docs/sending-requests/capturing-request-data/capturing-http-requests/',
+        slug: '/docs/sending-requests/capturing-request-data/capture-overview/',
         subMenuItems2: [
+          {
+            name: 'Capturing request data overview',
+            url: '/docs/sending-requests/capturing-request-data/capture-overview/',
+          },
           {
             name: 'Capturing HTTP requests',
             url: '/docs/sending-requests/capturing-request-data/capturing-http-requests/',
           },
           {
-            name: 'Using a proxy',
-            url: '/docs/sending-requests/capturing-request-data/proxy/',
+            name: 'Capturing HTTPS traffic',
+            url: '/docs/sending-requests/capturing-request-data/capturing-https-traffic/',
           },
           {
             name: 'Using Postman Interceptor',
             url: '/docs/sending-requests/capturing-request-data/interceptor/',
+          },
+          {
+            name: 'Using a custom proxy',
+            url: '/docs/sending-requests/capturing-request-data/proxy/',
           },
         ],
       },
@@ -535,7 +543,7 @@ export const leftNavItems = [
   {
     name: 'Administration',
     parentSlug: 'administration',
-    url: '/docs/administration/buying/',
+    url: '/docs/administration/managing-your-team/managing-your-team/',
     subMenuItems1: [
       {
         name: 'Managing Your Team',

@@ -18,14 +18,22 @@ contextual_links:
   - type: subtitle
     name: "Videos"
   - type: link
-    name: "Postman intro series"
-    url: "https://www.youtube.com/playlist?list=PLM-7VG-sgbtAgGq_pef5y_ruIUBPpUgNJ"
-  - type: link
     name: "Intro to APIs"
     url:  "https://www.youtube.com/watch?v=iFMLyMgCUTs&list=PLM-7VG-sgbtBBnWb2Jc5kufgtWYEmiMAw"
   - type: link
+    name: "Postman intro series"
+    url: "https://www.youtube.com/playlist?list=PLM-7VG-sgbtAgGq_pef5y_ruIUBPpUgNJ"
+  - type: link
+    name: "Postman Space Camp: An Introduction for Developers"
+    url: "https://youtu.be/8MOzaTsVRKg"
+  - type: link
     name: "Postman Community Forum | Postman Level Up"
     url:  "https://youtu.be/Ks_4H58eCQc"
+  - type: subtitle
+    name: "Public Workspaces"
+  - type: link
+    name: "30 days of Postman for developers"
+    url:  "https://www.postman.com/postman/workspace/30-days-of-postman-for-developers/overview"
   - type: subtitle
     name: "Related Blog Posts"
   - type: link
@@ -39,7 +47,7 @@ contextual_links:
 
 Welcome to the Postman docs! This is the place to find official information on how to use Postman in your API projects.
 
-<img alt="Postman full view" src="https://assets.postman.com/postman-docs/intro-postman-request-selected-v9.1.jpg"/>
+[![Postman full view](https://assets.postman.com/postman-docs/intro-postman-request-selected-v9.8.3.jpg)](https://assets.postman.com/postman-docs/intro-postman-request-selected-v9.8.3.jpg)
 
 If you're just starting to learn about APIs and Postman, you can use a variety of channels both in and outside Postman:
 

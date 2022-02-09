@@ -312,9 +312,9 @@ Use meaningful text for links, avoiding phrases such as "click here" when possib
 
 ---
 
-:thumbsdown::no_entry_sign: Click [here](https://learning.postman.com/docs/postman/scripts/intro_to_scripts/) for more details on scripts.
+:thumbsdown::no_entry_sign: `Click [here](/docs/postman/scripts/intro_to_scripts/) for more details on scripts.`
 
-:thumbsup::white_check_mark: For more on scripting in Postman, see [Intro to Scripts](https://learning.postman.com/docs/postman/scripts/intro_to_scripts/).
+:thumbsup::white_check_mark: `For more on scripting in Postman, see [Intro to Scripts](/docs/postman/scripts/intro_to_scripts/).`
 
 ---
 
@@ -322,7 +322,15 @@ An exception to this is the __Run in Postman__ button, which you can refer to di
 
 Include links to relevant supporting docs inline throughout your pages, but in general only link to the same location once per page—usually the first time you mention the term.
 
-Use relative links between docs.
+Use relative links between docs:
+
+---
+
+:thumbsdown::no_entry_sign: `For more on scripting in Postman, see [Intro to Scripts](https://learning.postman.com/docs/postman/scripts/intro_to_scripts/).`
+
+:thumbsup::white_check_mark: `For more on scripting in Postman, see [Intro to Scripts](/docs/postman/scripts/intro_to_scripts/).`
+
+---
 
 Don't display a raw URL in text, unless seeing the URL is essential to the learning objective:
 

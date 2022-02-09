@@ -1,6 +1,7 @@
 ---
 title: "Dynamic variables"
 page_id: "variables_list"
+updated: 2020-09-04
 order: 46
 contextual_links:
   - type: section
@@ -10,6 +11,11 @@ contextual_links:
   - type: link
     name: "Dynamic Variables | Postman Level Up"
     url: "https://www.youtube.com/watch?v=vW030tA17ng&list=PLM-7VG-sgbtC5tNXxd28cmePSa9BYwqeU&index=1"
+  - type: subtitle
+    name: "Public Workspaces"
+  - type: link
+    name: "Faker.js example"
+    url: "https://www.postman.com/devrel/workspace/fakerjs-example/overview"
 warning: false
 
 ---

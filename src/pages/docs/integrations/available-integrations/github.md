@@ -1,6 +1,7 @@
 ---
 title: "GitHub"
 order: 168
+updated: 2021-06-03
 page_id: "github"
 warning: false
 contextual_links:
@@ -21,7 +22,9 @@ contextual_links:
     url:  "https://blog.postman.com/how-to-auto-sync-postman-collections-with-aws-codecommit-repositories/"
 ---
 
-Postman enables you to back up your collections (for paid plans only) or synchronize your API schemas on GitHub. For each of these integrations, you'll need to [generate a GitHub personal access token](#generating-a-github-personal-access-token).
+> __[GitHub Enterprise Server integrations are only available on Postman Enterprise plans.](https://www.postman.com/pricing)__
+
+Postman enables you to back up your collections or synchronize your API schemas on GitHub. For each of these integrations, you'll need to [generate a GitHub personal access token](#generating-a-github-personal-access-token).
 
 > If you are looking to import data into Postman from a GitHub repository, see [Importing via GitHub repositories](/docs/getting-started/importing-and-exporting-data/#importing-via-github-repositories).
 

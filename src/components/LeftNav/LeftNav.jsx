@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect }  from 'react';
 import { Link } from 'gatsby';
 import './LeftNav.scss';
 
@@ -8,10 +8,9 @@ const sectionHandler = (e) => {
   document.location.href = e.target.getAttribute('data-section');
 };
 
-const renderTwoLevelList = (item, runtime,) => {
+const renderTwoLevelList = (item, runtime) => {
   if (typeof document !== 'undefined') {
     const active = runtime ? document.location.pathname.match(item.parentSlug) : '';
-  
     return (
       <ul key={uuidv4()}>
         <li className="parent">
@@ -85,27 +84,17 @@ const renderTwoLevelList = (item, runtime,) => {
   }
 }
 
-class LeftNav extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      props,
-      runtime: true
-    }
-  }
-  componentDidMount() {
-    const isRuntime = typeof document === 'object';
-    this.setState({
-      runtime: isRuntime,
-    })
-  }
-  render() {
-    const { props, runtime } = this.state;
-    const { leftNavItems = [] } = props;
-    return (
-      leftNavItems.map((item) => renderTwoLevelList(item, runtime))
-    )
-  }
+function LeftNav(props) {
+  const [{ leftNavItems = [] }, setProps] = useState({ ...props })
+  const [runtime, setRuntime] = useState(true)
+  const isRuntime = typeof document === 'object';
+  useEffect(() => {
+    setProps(props);
+    setRuntime(isRuntime)
+  }, []);
+  return (
+    leftNavItems.map((item) => renderTwoLevelList(item, runtime))
+  )
 }
 
 export default LeftNav;

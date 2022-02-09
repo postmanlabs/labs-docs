@@ -16,6 +16,11 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "How to Version APIs | Postman"
+    url: "https://youtu.be/LzJEKsccQ70"
+  - type: subtitle
     name: "Related Blog Posts"
   - type: link
     name: "Redefining API Management for the API-First World"
@@ -38,6 +43,8 @@ contextual_links:
     name: "Validating elements against schema"
     url: "/docs/designing-and-developing-your-api/validating-elements-against-schema/"
 ---
+
+> __[GitHub Enterprise Server, GitLab Self-Managed, and Azure DevOps Server (hosted on-premises) integrations are only available on Postman Enterprise plans.](https://www.postman.com/pricing)__
 
 You can manage multiple versions of any APIs you create in Postman. You can then associate mocks, monitors, and documentation to specific versions of APIs.
 

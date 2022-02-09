@@ -1,6 +1,7 @@
 ---
 title: "Visualizing responses"
 order: 26
+updated: 2021-02-17
 page_id: "visualizer"
 search_keyword: "pm.visualizer.set, visualizer.set, pm.response.json, response.json, pm.getData, getData"
 contextual_links:
@@ -22,6 +23,14 @@ contextual_links:
   - type: link
     name: "Visualizer demo"
     url: "https://www.youtube.com/watch?v=i1jU-kivApg"
+  - type: subtitle
+    name: "Public Workspaces"
+  - type: link
+    name: "Sample Visualizations"
+    url: "https://www.postman.com/postman/workspace/sample-visualizations/overview"
+  - type: link
+    name: "More Visualizer Examples"
+    url: "https://www.postman.com/postman/workspace/more-visualizer-examples/overview"
   - type: subtitle
     name: "Templates"
   - type: link
