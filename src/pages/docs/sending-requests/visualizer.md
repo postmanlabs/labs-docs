@@ -1,6 +1,7 @@
 ---
 title: "Visualizing responses"
 order: 26
+updated: 2021-02-17
 page_id: "visualizer"
 search_keyword: "pm.visualizer.set, visualizer.set, pm.response.json, response.json, pm.getData, getData"
 contextual_links:

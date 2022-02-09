@@ -1,6 +1,7 @@
 ---
 title: "Collection SDK"
 order: 148
+updated: 2020-07-06
 page_id: "collection_sdk"
 contextual_links:
   - type: section
