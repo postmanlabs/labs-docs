@@ -11,6 +11,8 @@ export function useModal(parsedHtml) {
     if (imgSrc || imgSrc2) {
       images[i].parentNode.href = "javascript:void(0)";
       images[i].outerHTML = Modal(create_id, images, i);
+      const parser = new DOMParser();
+      parser.parseFromString(images[i].outerHTML, 'text/html');
     }
   }
 }
