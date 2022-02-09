@@ -1,6 +1,7 @@
 ---
 title: "Writing pre-request scripts"
 order: 42
+updated: 2021-01-27
 page_id: "pre_request_scripts"
 contextual_links:
   - type: section

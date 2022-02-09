@@ -1,6 +1,7 @@
 ---
 title: "Statuspage"
 order: 178
+updated: 2021-06-30
 page_id: "statuspage"
 warning: false
 contextual_links:

@@ -1,6 +1,7 @@
 ---
 title: "Receiving responses"
 order: 23
+updated: 2022-01-27
 page_id: "responses"
 contextual_links:
   - type: section

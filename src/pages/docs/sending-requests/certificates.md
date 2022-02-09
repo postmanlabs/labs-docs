@@ -1,6 +1,7 @@
 ---
 title: "Working with certificates"
 order: 29
+updated: 2020-07-17
 page_id: "certificates"
 contextual_links:
   - type: section
