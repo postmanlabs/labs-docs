@@ -40,7 +40,7 @@ contextual_links:
     url: "/docs/integrations/ci-integrations/"
 ---
 
-Testing is a critical part of the API development process. You can create a collection that contains your API tests and link it to a specific versions of your API. You can also integrate your API with supported Continuous Integration (CI) tools.
+Testing is a critical part of the API development process. You can create a collection that contains your API tests and link it to a specific version of your API. You can also integrate your API with supported Continuous Integration (CI) tools.
 
 * [Adding tests](#adding-tests)
 * [Adding CI integration](#adding-ci-integration)
