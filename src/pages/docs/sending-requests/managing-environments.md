@@ -155,7 +155,7 @@ You can edit variables either by opening an environment from __Environments__ on
 
 > You will only be able to edit environments where you have [editor access](#requesting-environment-access).
 
-[![Edit environment](https://assets.postman.com/postman-docs/environment-editor-new-v9.13.jpg)](https://assets.postman.com/environment-editor-new-v9.13.jpg)
+[![Edit environment](https://assets.postman.com/postman-docs/environment-editor-new-v9.13.jpg)](https://assets.postman.com/postman-docs/environment-editor-new-v9.13.jpg)
 
 Edit the environment name, or the names, [types](/docs/sending-requests/variables/#variable-types), and values of your variables, bearing in mind that __Initial Values__ will be synced with your Postman account and shared with any collaborators who have access to the environment. Click __Save__ when your edits are complete.
 
