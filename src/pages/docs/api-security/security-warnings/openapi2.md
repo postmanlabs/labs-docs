@@ -2,7 +2,7 @@
 title: "OpenAPI 2.0 warnings"
 order: 118
 page_id: "security_warnings_openapi2.0"
-updated: 2021-11-17
+updated: 2022-02-09
 warning: false
 contextual_links:
   - type: section
