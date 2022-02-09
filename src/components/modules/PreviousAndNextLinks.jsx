@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { leftNavItems } from '../LeftNav/LeftNavItems';
-import { handleKeyboard, handleSwipe } from './handlePagination'
+import { handleKeyboard } from './handlePagination'
 
 function PreviousAndNextLinks() {
   const [prevLink, setPrevious] = useState({})
@@ -73,7 +73,6 @@ function PreviousAndNextLinks() {
     setPrevious(previous);
     setNext(next);
     handleKeyboard();
-    handleSwipe();
   }, []);
 
 
