@@ -138,8 +138,7 @@ You can use the same variable notation in request URLs, parameters, headers, and
 
 Hover over a variable reference to see its current value.
 
-> If more than one variable with the same name is available to a request, Postman will use the value from the variable with narrowest [scope](/docs/sending-requests/variables/#variable-scopes). This means that if you have an environment variable with the same name as a collection or global variable, Postman will use the environment variable, but local and data variable values will supersede environment values. The value of any overridden variables will display with a strikethrough.
-> ![Overridden value](https://assets.postman.com/postman-docs/environment-quicklook-overridden-var-v9.13.jpg)
+> If more than one variable with the same name is available to a request, Postman will use the value from the variable with narrowest [scope](/docs/sending-requests/variables/#variable-scopes). This means that if you have an environment variable with the same name as a collection or global variable, Postman will use the environment variable, but local and data variable values will supersede environment values. The value of any overridden variables will display with a strikethrough. </br></br> ![Overridden value](https://assets.postman.com/postman-docs/environment-quicklook-overridden-var-v9.13.jpg)
 
 You can access current environment variable values in your __Pre-request__ and __Tests__ code.
 
@@ -249,8 +248,7 @@ If you have edit access to an environment, you can update the variable values fr
 
 When you edit the initial value of a shared environment variable, your updated value will be reflected for everyone who has access to the environment, so ensure that you only do this when you are happy for your value to be synced with the Postman servers.
 
-> If you uncheck (deselect) a variable in your environment, it will only be available to collaborators who also have edit access to the environment (and its enabled / disabled status will be reflected for them). Anyone with the viewer role for the environment will not see the unchecked variable.
-> ![Disable environment variable](https://assets.postman.com/postman-docs/environment-editor-unchecked-var-v9.13.jpg)
+> If you uncheck (deselect) a variable in your environment, it will only be available to collaborators who also have edit access to the environment (and its enabled / disabled status will be reflected for them). Anyone with the viewer role for the environment will not see the unchecked variable. </br></br> ![Disable environment variable](https://assets.postman.com/postman-docs/environment-editor-unchecked-var-v9.13.jpg)
 
 With the editor role, you can [configure access for other team members](#managing-environment-roles). If you need to specify access but do not have the editor role, you can [request access](#requesting-environment-access).
 
