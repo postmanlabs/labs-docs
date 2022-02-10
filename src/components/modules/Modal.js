@@ -9,7 +9,7 @@ export function useModal(parsedHtml, e) {
     const imgSrc = images[i].src === images[i].parentNode.href
     const imgSrc2 = images[i].parentNode.href === undefined;
     if (imgSrc || imgSrc2) {
-      // images[i].parentNode.href = "javascri";
+      images[i].parentNode.href = "";
       images[i].outerHTML = Modal(create_id, images, i);
       const parser = new DOMParser();
       parser.parseFromString(images[i].outerHTML, 'text/html');
