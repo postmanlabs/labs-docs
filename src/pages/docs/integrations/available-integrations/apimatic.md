@@ -45,15 +45,15 @@ To back up a collection periodically to a GitHub repository:
     > If you are not signed in to GitHub, you will be prompted to log in.
 
 1. In Postman, you will be prompted to enter the following information to create an integration:
-    *  Your [APIMatic integration key](https://docs.apimatic.io/manage-apis/get-api-keys/).
-    *  A nickname for the integration.
-    *  The Postman workspace that the collection you want to back up belongs to.
-    *  The Postman collection you want to back up.
-    *  The GitHub repository your collection will be saved to.
-    *  The directory in the GitHub repository in which to save your collection. If a directory with that name does not exist, it will be created when you add the integration.
-    *  A filename for the backup file.
-    *  The format in which you want to save the collection.
-    *  The name of the GitHub branch to save the collection to. This branch must already exist, and the integration process will fail if you specify an invalid branch name.
+    * Your [APIMatic integration key](https://docs.apimatic.io/manage-apis/get-api-keys/).
+    * A nickname for the integration.
+    * The Postman workspace that the collection you want to back up belongs to.
+    * The Postman collection you want to back up.
+    * The GitHub repository your collection will be saved to.
+    * The directory in the GitHub repository in which to save your collection. If a directory with that name does not exist, it will be created when you add the integration.
+    * A filename for the backup file.
+    * The format in which you want to save the collection.
+    * The name of the GitHub branch to save the collection to. This branch must already exist, and the integration process will fail if you specify an invalid branch name.
 1. Select **Add Integration**.
 
     <img alt="APIMatic integration form" src="https://assets.postman.com/postman-docs/apimatic-save-config-v9.jpg" width="400px"/>
