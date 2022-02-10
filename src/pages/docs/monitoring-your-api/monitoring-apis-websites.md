@@ -20,7 +20,7 @@ contextual_links:
     name: "Public Workspaces"
   - type: link
     name: "Postman API Monitoring Examples"
-    url:  "https://www.postman.com/postman/workspace/e348c5a0-2965-44cc-87ed-7b316516f38d"  
+    url:  "https://www.postman.com/postman/workspace/e348c5a0-2965-44cc-87ed-7b316516f38d"
   - type: subtitle
     name: "Related Blog Posts"
   - type: link
@@ -50,7 +50,7 @@ To monitor a specific endpoint, create a collection with different variants of t
 
 This is similar in approach to monitoring a specific endpoint, with the subtle difference of storing the common API host in an environment variable, such that the requests across different API endpoints differ in their path, among other request parameters. Such a sequence also makes it possible to chain data across requests, which allows testing an entire API as a whole.
 
-### Running an API test suite
+### Running API tests
 
 In an API where various endpoints are interlinked, precise knowledge about their functioning is crucial. In cases where data is passed from one request to another, the entire response, or a part of it, can be saved as an environment variable. Additional care should be taken while setting non-atomic values (objects, arrays, etc), as the original value will be lost. Instead, such complex objects and arrays can be handled via:
 

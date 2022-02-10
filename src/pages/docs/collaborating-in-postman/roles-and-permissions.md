@@ -175,7 +175,7 @@ The following roles control access at an API level:
 | View reports for APIs |   &#x2714;  | &#x2714;   |
 | Add and remove API environments |   &#x2714;  | &#x2714;   |
 | Add and remove API documentation |   &#x2714;  | &#x2714;   |
-| Add and remove API test suites, integration tests, and contract tests |   &#x2714;  | &#x2714;   |
+| Add and remove API tests |   &#x2714;  | &#x2714;   |
 | Add and remove API monitors |   &#x2714;  | &#x2714;   |
 | Add and remove API mock servers |   &#x2714;  | &#x2714;   |
 
