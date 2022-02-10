@@ -410,7 +410,7 @@ export const leftNavItems = [
             url: '/docs/designing-and-developing-your-api/mocking-data/mocking-with-examples/',
           },
           {
-            name: 'Mocking by API',
+            name: 'Mocking with the Postman API',
             url: '/docs/designing-and-developing-your-api/mocking-data/mock-with-api/',
           },
           {

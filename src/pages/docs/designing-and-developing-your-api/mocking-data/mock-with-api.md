@@ -1,7 +1,7 @@
 ---
-title: "Mocking by API"
+title: "Mocking with the Postman API"
 order: 86
-updated: 2021-08-27
+updated: 2022-02-10
 page_id: "mock_with_api"
 search_keyword: "x-mock-response-code, x-mock-response-name, x-mock-response-id, x-mock-match-request-body, x-mock-match-request-headers"
 contextual_links:
@@ -35,7 +35,7 @@ contextual_links:
 warning: false
 ---
 
-You can [mock a collection](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/) directly from Postman. Additionally, you can create a mock using the Postman API. Let’s walk through this step by step.
+Setting up a [mock server](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/) enables you to simulate the behavior of a real API for development or testing purposes. You can [mock a collection](/docs/designing-and-developing-your-api/mocking-data/mocking-with-examples/) by adding examples and creating a mock server in Postman. Alternatively, you can automate the process of setting up a mock server using the Postman API. Follow the steps below to get a hands-on demonstration of how to mock a collection using the Postman API.
 
 ## Set up a collection for mocking
 
