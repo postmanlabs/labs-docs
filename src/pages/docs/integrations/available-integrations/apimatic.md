@@ -19,7 +19,7 @@ contextual_links:
     url: "https://blog.postman.com/new-postman-pro-integration-apimatics-api-transformer/"
 ---
 
-Postman's APIMatic integration converts your Postman collections to any major API description format, including Swagger, RAML, and API Blueprint, and save the resulting file on GitHub.
+Postman's APIMatic integration converts your Postman collections to any major API description format, including Swagger, RAML, and API Blueprint, and saves the resulting file on GitHub.
 
 ## Prerequisites
 
@@ -45,17 +45,21 @@ To back up a collection periodically to a GitHub repository:
     > If you are not signed in to GitHub, you will be prompted to log in.
 
 1. In Postman, you will be prompted to enter the following information to create an integration:
-    *  [APIMatic integration key](https://docs.apimatic.io/manage-apis/get-api-keys/)
-    *  A nickname for the integration
-    *  The Postman workspace that the collection you want to back up belongs to
-    *  The Postman collection you want to back up
-    *  The GitHub repository your backed up collection will be saved in
-    *  The directory in the GitHub repository. If a directory with the name you enter does not exist, one will be created when you add the integration.
-    *  The filename for the backup file
-    *  The format in which you want to save the collection
+    *  Your [APIMatic integration key](https://docs.apimatic.io/manage-apis/get-api-keys/).
+    *  A nickname for the integration.
+    *  The Postman workspace that the collection you want to back up belongs to.
+    *  The Postman collection you want to back up.
+    *  The GitHub repository your collection will be saved to.
+    *  The directory in the GitHub repository in which to save your collection. If a directory with that name does not exist, it will be created when you add the integration.
+    *  A filename for the backup file.
+    *  The format in which you want to save the collection.
     *  The name of the GitHub branch to save the collection to. This branch must already exist, and the integration process will fail if you specify an invalid branch name.
 1. Select **Add Integration**.
 
-    [![github apimatic](https://assets.postman.com/postman-docs/apimatic-save-config.jpg)](https://assets.postman.com/postman-docs/apimatic-save-config.jpg)
+    <img alt="APIMatic integration form" src="https://assets.postman.com/postman-docs/apimatic-save-config-v9.jpg" width="400px"/>
 
-APIMatic converts your collection to the format of your choice and pushes it to the GitHub repository you specified. This integration runs once a day at 1200UTC. If you make any changes to your collection, they will be picked up by the converter in its subsequent run. If no updates are made to your collection, no updates will be pushed to GitHub.
+Once the integration has been created, click on it to view details including the run log.
+
+<img alt="APIMatic integration run log" src="https://assets.postman.com/postman-docs/apimatic-run-log-v9.jpg" width="500px"/>
+
+This integration runs once a day at 12:00 UTC. If you make changes to your collection, they are picked up by the converter in its next run. If no updates are made to your collection, no updates are pushed to GitHub.
