@@ -1,5 +1,5 @@
 /* eslint-disable react/no-danger */
-import React, { useState, useEffect }from 'react';
+import React, { useState, useEffect } from 'react';
 import { graphql } from 'gatsby';
 
 import Layout from '../components/layout';
@@ -8,35 +8,33 @@ import EditDoc from '../components/Shared/EditDoc';
 import { leftNavItems } from '../components/LeftNav/LeftNavItems';
 import LeftNav from '../components/LeftNav/LeftNav';
 import SEO from '../components/seo';
-
-import { useModal } from '../components/modules/Modal';
 const { v4: uuidv4 } = require('uuid');
 
 import './doc.scss';
 import 'prismjs/themes/prism-tomorrow.css';
 import pose from '../assets/pose-learning-center.svg';
+import { useModal } from '../components/modules/Modal';
 import PreviousAndNextLinks from '../components/modules/PreviousAndNextLinks';
 import BreadCrumbsLinks from '../components/modules/BreadCrumbsLinks';
 
 function CreateDoc(props) {
-  const [post, setModal] = useState({...props})
+  const [post, setModal] = useState({ ...props })
 
-  
   useEffect(() => {
     const { data } = props;
     const { html } = data;
-    // parses a string containing either HTML or XML, returning an HTMLDocument
+    // parses a string containing HTML & returns an HTMLDocument
     const parser = new DOMParser();
     const parsedHtml = parser.parseFromString(html, 'text/html');
 
-    /* enables functionality for images to display as modal on click */
+    // allows images to display as modal when clicked
     useModal(parsedHtml);
     setModal(parsedHtml.body.innerHTML)
-    }, []);
+  }, []);
 
-    return (
-      <span dangerouslySetInnerHTML={{ __html: post }} />
-    );
+  return (
+    <span dangerouslySetInnerHTML={{ __html: post }} />
+  );
 }
 
 /* Right side links */
@@ -68,8 +66,7 @@ const DocPage = ({ data }) => {
               <main className="col-sm-12 col-md-12 col-lg-9 offset-lg-0 col-xl-7 doc-page ml-xl-5">
                 <BreadCrumbsLinks data={{ parentLink, subParentLink }} />
                 <h1>{post.frontmatter.title}</h1>
-                {/* <span dangerouslySetInnerHTML={{ __html: post.html }} /> */}
-                <CreateDoc data={post}/>
+                <CreateDoc data={post} />
                 <p>
                   <small className="font-italic">Last modified: {date}</small>
                 </p>

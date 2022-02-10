@@ -1,0 +1,60 @@
+.modal-link {
+  cursor: pointer;
+}  
+div.modal {
+  z-index: 214748;
+  background-color: rgba(0, 0, 0, 0.5) !important;
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 999999999999; /* Sit on top */
+  justify-content: center;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height*/
+  &.show {
+    cursor: pointer;
+  }
+}
+
+img {
+  cursor: pointer;
+}
+
+div.modal-dialog {
+  max-width: 100% !important;
+  justify-content: center;
+  margin: 24px;
+}
+
+div.modal-content {
+  background: none;
+  border: none;
+  display: flex;
+  width: 60vw;
+  @media (max-width: 768px) {
+    width: 100%;
+  }
+}
+
+button.close {
+  opacity: 1;
+  margin-bottom: 16px;
+  &:hover {
+    background: rgba(0, 0, 0, 0.1);
+    opacity: 1;
+    transition: all 0.2s ease-in-out 0s;
+  }
+}
+// span.closed-icon {
+//   font-size: 24px;
+//   display: flex;
+//   justify-content: end;
+// }
+title.closed-label {
+  font-size: 0.75rem !important;
+  margin-right: 0.25rem;
+  vertical-align: middle;
+}
