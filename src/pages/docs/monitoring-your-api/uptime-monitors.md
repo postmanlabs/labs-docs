@@ -37,7 +37,7 @@ Create a new uptime monitor to track the availability of a single API endpoint, 
 1. Configure any optional details for the monitor:
 
     * **Notification recipients:** Add up to five members of your Postman team to be notified when downtime occurs.
-    * **Run frequency:** Select how often the monitor checks the availability of the URL, up to every minute (paid plans) or every five minutes (free plans).
+    * **Run frequency:** Select how often the monitor checks the availability of the URL, up to every minute (paid plans) or every 30 minutes (free plans).
     * **Regions:** Select one or more regions to run the monitor from (paid plans only). If downtime occurs in any selected region, a notification is sent. (For free plans, the region is automatically selected.)
     * **Follow redirects:** Select this option to exclude redirects from being classified as service downtime.
 
