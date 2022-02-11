@@ -32,9 +32,10 @@ You can use version control with your Postman Collections by forking and merging
 
 > Version control for collections is different than  API versioning. For information on managing multiple versions of APIs, see [Versioning APIs](/docs/designing-and-developing-your-api/versioning-an-api/).
 
-* [Forking a collection](#forking-a-collection)
-    * [Forking information](#forking-information)
-* [Forking an environment](#forking-an-environment)
+* [Forking Postman elements](#forking-postman-elements)
+    * [Forking a collection](#forking-a-collection)
+    * [Forking an environment](#forking-an-environment)
+    * [Viewing fork information](#viewing-fork-information)
 * [Creating pull requests](#creating-pull-requests)
     * [Pull request settings](#pull-request-settings)
     * [Creating public PRs](#creating-public-prs)
@@ -45,7 +46,11 @@ You can use version control with your Postman Collections by forking and merging
 * [Reviewing pull requests](#reviewing-pull-requests)
 * [Resolving conflicts](#resolving-conflicts)
 
-## Forking a collection
+## Forking Postman elements
+
+You can fork Postman collections and environments. <!-- TODO: flesh this out a bit -->
+
+### Forking a collection
 
 > If you are not a member of a public workspace, you will not be able to send a request from a collection within the workspace. To send requests or make changes to a collection, you must fork the collection into a personal workspace or a team workspace that you belong to.
 
@@ -61,19 +66,7 @@ Your fork will be created in the selected workspace.
 
 > If there are any mocks or monitors associated with a collection, they will not be available with the forked collection. You will need to create mocks and monitors specifically for the fork if you need them.
 
-### Forking information
-
-To fork a collection within a public workspace, you must enable your public profile. Navigate to your [profile settings](https://go.postman.co/settings/me). Select your avatar in the upper-right corner > **Account Settings**. Select the toggle next to **Make profile public**, then **Update Profile**.
-
-<img alt="Make profile public" src="https://assets.postman.com/postman-docs/make-profile-public-v9.jpg">
-
-Fork information provides details about forks and the users who have created them. You will be able to identify the users who are actively consuming and contributing to your APIs. Select the fork count to reveal the list of users who have active forks.
-
-[![Fork Information](https://assets.postman.com/postman-docs/fork-information-count.jpg)](https://assets.postman.com/postman-docs/fork-information-count.jpg)
-
-> You can select a user under __Forked by__ to view their public profile.
-
-## Forking an environment
+### Forking an environment
 
 To fork an environment in Postman, select the environment in the __Environments__ sidebar, then select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> __> Create a fork__. You can also fork an environment by selecting __Fork__ on the environment overview tab.
 
@@ -94,6 +87,18 @@ The forks icon <img alt="Fork icon on context bar for v8" src="https://assets.po
 Select **View all forks** to reveal the detailed list of forks along with information about users who created them.
 
 <img alt="Fork overview details v8" src="https://assets.postman.com/postman-docs/fork-overview-details-v8.jpg"/>
+
+### Viewing fork information
+
+To fork a collection within a public workspace, you must enable your public profile. Navigate to your [profile settings](https://go.postman.co/settings/me). Select your avatar in the upper-right corner > **Account Settings**. Select the toggle next to **Make profile public**, then **Update Profile**.
+
+<img alt="Make profile public" src="https://assets.postman.com/postman-docs/make-profile-public-v9.jpg">
+
+Fork information provides details about forks and the users who have created them. You will be able to identify the users who are actively consuming and contributing to your APIs. Select the fork count to reveal the list of users who have active forks.
+
+[![Fork Information](https://assets.postman.com/postman-docs/fork-information-count.jpg)](https://assets.postman.com/postman-docs/fork-information-count.jpg)
+
+> You can select a user under __Forked by__ to view their public profile.
 
 ## Creating pull requests
 
