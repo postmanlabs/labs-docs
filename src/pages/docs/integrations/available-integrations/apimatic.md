@@ -45,15 +45,15 @@ To back up a collection periodically to a GitHub repository:
     > If you are not signed in to GitHub, you will be prompted to log in.
 
 1. In Postman, enter information about the integration:
-    * Your [APIMatic integration key](https://docs.apimatic.io/manage-apis/get-api-keys/).
-    * A nickname for the integration.
-    * The Postman workspace that the collection you want to back up belongs to.
-    * The Postman collection you want to back up.
-    * The GitHub repository your collection will be backed up to.
-    * The directory in the GitHub repository in which to back up your collection. If a directory with that name does not exist, it will be created when you add the integration.
-    * A filename for the backup file.
-    * The format in which you want to back up the collection.
-    * The name of the GitHub branch in which to back up the collection. This branch must already exist, and the integration process will fail if you specify an invalid branch name.
+    * **APIMatic API Key** - Your [APIMatic integration key](https://docs.apimatic.io/manage-apis/get-api-keys/).
+    * **Nickname** - Create a nickname for the integration.
+    * **Choose Workspace** - Select the Postman workspace that the collection you want to back up belongs to.
+    * **Choose Collection** - Select the Postman collection you want to back up.
+    * **Choose Repository** - Select the GitHub repository your collection will be backed up to.
+    * **Enter Directory** - Add the directory in the GitHub repository in which to back up your collection. If a directory with that name does not exist, it will be created when you add the integration.
+    * **Enter filename** - Create a filename for the backup file.
+    * **Choose format** - Select the format in which you want to back up the collection.
+    * **Enter Branch** - Add the name of the GitHub branch in which to back up the collection. This branch must already exist, and the integration process will fail if you specify an invalid branch name.
 1. Select **Add Integration**.
 
     <img alt="APIMatic integration form" src="https://assets.postman.com/postman-docs/apimatic-save-config-v9.jpg" width="400px"/>
