@@ -53,19 +53,26 @@ You can fork Postman collections and environments. <!-- TODO: flesh this out a b
 
 ### Forking a collection
 
-> If you are not a member of a public workspace, you will not be able to send a request from a collection within the workspace. To send requests or make changes to a collection, you must fork the collection into a personal workspace or a team workspace that you belong to.
+> To fork a collection within a public workspace, you must enable your public profile in your [profile settings](https://go.postman.co/settings/me). For more information on making your profile public, see [Managing your account](/docs/getting-started/postman-account/#making-your-profile-public).
 
-To fork a collection in Postman, select the collection in the __Collections__ sidebar. Select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px">  to view more actions, then select __Create a fork__. To provide a uniform forking experience, you can create a fork in a public workspace in three steps — log in to Postman, fill up fork details, and enable your public profile.
+When you fork a Postman collection, you create a copy of it in a different workspace. To fork a collection:
 
-<img src="https://assets.postman.com/postman-docs/collection-create-a-fork-v9.1.jpg" alt="Create fork selected in menu" width="300px"/>
+1. Select **Collections** in the left sidebar.
+1. Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to the collection name.
+1. Select **Create a fork**.
 
-Enter a label for your fork, and select a workspace to save it to. Select __Fork Collection__.
+    <img src="https://assets.postman.com/postman-docs/collection-create-a-fork-v9.1.jpg" alt="Create fork selected in menu" width="300px"/>
 
-<img src="https://assets.postman.com/postman-docs/fork-collection-v9.1.jpg" alt="Create fork tab" width="400px"/>
+1. Enter a label for your fork, and select a workspace to save it to.
+1. Select **Fork Collection**.
+
+    <img src="https://assets.postman.com/postman-docs/fork-collection-v9.1.jpg" alt="Create fork tab" width="400px"/>
 
 Your fork will be created in the selected workspace.
 
-> If there are any mocks or monitors associated with a collection, they will not be available with the forked collection. You will need to create mocks and monitors specifically for the fork if you need them.
+If there are any [mocks](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/) or [monitors](/docs/monitoring-your-api/intro-monitors/) associated with a collection, they will not be available with the forked collection. You will need to create mocks and monitors specifically for the fork if you need them.
+
+> If you are not a member of a public workspace, you will not be able to send a request from a collection within the workspace. To send requests or make changes to a collection, fork the collection into a personal workspace or a team workspace that you belong to, and then make changes. Before forking the collection, you must be signed in to Postman.
 
 ### Forking an environment
 
