@@ -48,7 +48,7 @@ You can use version control with your Postman Collections by forking and merging
 
 ## Forking Postman elements
 
-You can fork Postman collections and environments. <!-- TODO: flesh this out a bit -->
+You can fork Postman collections and environments. <!-- TODO: flesh this out a bit and how it relates to version control -->
 
 ### Forking a collection
 
@@ -90,15 +90,21 @@ Select **View all forks** to reveal the detailed list of forks along with inform
 
 ### Viewing fork information
 
-To fork a collection within a public workspace, you must enable your public profile. Navigate to your [profile settings](https://go.postman.co/settings/me). Select your avatar in the upper-right corner > **Account Settings**. Select the toggle next to **Make profile public**, then **Update Profile**.
+Fork information provides details about forks and the users who have created them. You will be able to identify the users who are actively consuming and contributing to your APIs.
 
-<img alt="Make profile public" src="https://assets.postman.com/postman-docs/make-profile-public-v9.jpg">
+To see the list of users who have forked the collection:
 
-Fork information provides details about forks and the users who have created them. You will be able to identify the users who are actively consuming and contributing to your APIs. Select the fork count to reveal the list of users who have active forks.
+1. Select the number next to the fork icon <img alt="Fork icon" src="https://assets.postman.com/postman-docs/icon-fork.jpg" width="14px" style="vertical-align:middle;margin-bottom:5px"> to reveal the list of users who have active forks.
 
-[![Fork Information](https://assets.postman.com/postman-docs/fork-information-count.jpg)](https://assets.postman.com/postman-docs/fork-information-count.jpg)
+    <img alt="View the fork information count" src="https://assets.postman.com/postman-docs/fork-information-count-v9.12.jpg" width="400px"/>
 
-> You can select a user under __Forked by__ to view their public profile.
+To see the list of forks for a collection:
+
+1. Select the fork icon <img alt="Fork icon" src="https://assets.postman.com/postman-docs/icon-fork.jpg" width="14px" style="vertical-align:middle;margin-bottom:5px"> from the context menu.
+1. Select the fork name under **Forks**.
+1. You can also select the user's avatar under **Forks** to view the user's public profile.
+
+    <img alt="View the list of forks" src="https://assets.postman.com/postman-docs/fork-information-list-v9.12.jpg" width="350px"/>
 
 ## Creating pull requests
 
