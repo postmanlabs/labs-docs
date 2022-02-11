@@ -35,7 +35,7 @@ contextual_links:
 warning: false
 ---
 
-Setting up a [mock server](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/) enables you to simulate the behavior of a real API for development or testing purposes. You can [mock a collection](/docs/designing-and-developing-your-api/mocking-data/mocking-with-examples/) by adding examples and creating a mock server in Postman. Alternatively, you can automate the process of setting up a mock server using the Postman API. Follow the steps below to get a hands-on demonstration of how to mock a collection with the Postman API.
+Setting up a [mock server](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/) enables you to simulate the behavior of a real API for development or testing purposes. You can [mock a collection](/docs/designing-and-developing-your-api/mocking-data/mocking-with-examples/) by adding examples and creating a mock server in Postman. Alternatively, you can automate the process of setting up a mock server using the [Postman API](https://www.postman.com/postman/workspace/postman-public-workspace/documentation/12959542-c8142d51-e97c-46b6-bd77-52bb66712c9a). Follow the steps below to get a hands-on demonstration of how to mock a collection with the Postman API.
 
 ## Contents
 
@@ -59,19 +59,25 @@ Open the first request in the collection and select **Send** to send the request
 
 ## Step 2: Retrieve the collection ID
 
-Let's retrieve the `collectionId` of `testAPI` using the [Postman API](https://www.postman.com/postman/workspace/postman-public-workspace/documentation/12959542-c8142d51-e97c-46b6-bd77-52bb66712c9a). Get a list of all your Collections using the [GET All Collections endpoint](https://docs.api.getpostman.com/#3190c896-4216-a0a3-aa38-a041d0c2eb72). Search for the name of your Collection and retrieve the `uid` from the results, which will be used as the `collectionId` in the next step.
+To mock a collection using the Postman API, you first need to know the collection ID. You can retrieve the ID of the `testAPI` collection using the [GET All Collections](https://documenter.getpostman.com/view/12959542/UV5XjJV8#fa95fa93-5aa8-4146-94a6-bfebc1a578b4) endpoint of the Postman API.
+
+Create a new request in Postman, leave `GET` selected for the method, and enter the following URL: `https://api.getpostman.com/collections`
+
+If you try sending the request, you'll receive an authentication error. To [authenticate with the Postman API](https://learning.postman.com/docs/developer/intro-api/#authentication), add an `x-api-key` header to your request and sets its value to your Postman API key. (You can [generate a new Postman API key](https://learning.postman.com/docs/developer/intro-api/#generating-a-postman-api-key) if you don't already have one.)
+
+Select **Send** to send the `GET All Collections` request. A list of all of your collections is displayed in the response pane. Search for the `testAPI` collection and locate the `uid` value. You will use this collection ID in the next step.
 
 [![get collection id](https://assets.postman.com/postman-docs/WS-get-info-46.png)](https://assets.postman.com/postman-docs/WS-get-info-46.png)
 
-You can also use Postman to retrieve the `collectionId`. Find the Collection and hit `View Docs`. The `collectionId` is visible in the documentation url:
+> You can also find the collection ID in Postman. First, select **Collections** in the left sidebar and select the `testAPI` collection. Then select the Information icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg" width="16px" style="vertical-align:middle;margin-bottom:5px"> in the right context bar to see the ID.
 
-```text
-https://documenter.postman.com/collection/view/{{collectionId}}
-```
+If you created an environment, you also need to retrieve its ID using the [GET All Environments](https://documenter.getpostman.com/view/12959542/UV5XjJV8#b7ace502-4a5a-4f1c-8164-158811bbf236) endpoint. Create a new `GET` request and enter the following URL: `https://api.getpostman.com/environments`
 
-As an optional step, you can include an environment as a part of your simulation by retrieving the `environmentId` of `testAPIEnv` using the [Postman API](https://www.postman.com/postman/workspace/postman-public-workspace/documentation/12959542-c8142d51-e97c-46b6-bd77-52bb66712c9a). Get a list of all your environments using the [GET All Environments endpoint](https://docs.api.getpostman.com/#d26bd079-e3e1-aa08-7e21-66f55df99351). Search for the name of your environment and retrieve the `uid` from the results, which will be used as the `environmentId` in the next step.
+Make sure to add an `x-api-key` header with your Postman API Key, and then select **Send**. A list of all of your environments is displayed in the response pane. Search for the `testAPIenv` environment and locate the `uid` value.
 
 [![get environment id](https://assets.postman.com/postman-docs/WS-get-info-46.png)](https://assets.postman.com/postman-docs/WS-get-info-46.png)
+
+> You can also find the environment ID in Postman. First, select **Environments** in the left sidebar and select the `testAPIenv` environment. Then select the Information icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg" width="16px" style="vertical-align:middle;margin-bottom:5px"> in the right context bar to see the ID.
 
 ## Step 3: Create a mock server with the Postman API
 
