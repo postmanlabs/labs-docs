@@ -19,7 +19,7 @@ contextual_links:
     url: "https://blog.postman.com/new-postman-pro-integration-apimatics-api-transformer/"
 ---
 
-Postman's APIMatic integration converts your Postman collections to any major API description format, including Swagger, RAML, and API Blueprint, and backs up the resulting file on GitHub.
+Postman's APIMatic integration converts a Postman collection into an API description format such as Swagger, RAML, or API Blueprint, and then periodically backs up the resulting file on GitHub.
 
 ## Prerequisites
 
