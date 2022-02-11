@@ -40,7 +40,7 @@ To back up a collection periodically to a GitHub repository:
     ![browse and select APIMatic](https://assets.postman.com/postman-docs/apimatic-browse-all.jpg)
 
 1. Select **Add Integration**.
-1. Your browser will open a new Authorize Postman page that gives Postman access to your GitHub repositories. Select Authorize postmanlabs. Once the authorization process is complete, the page will tell you to close the tab and continue in Postman.
+1. Your browser will open a new **Authorize Postman** page that gives Postman access to your GitHub repositories. Select **Authorize postmanlabs**. Once the authorization process is complete, the page will tell you to close the tab and continue in Postman.
 
     > If you are not signed in to GitHub, you will be prompted to log in.
 
@@ -58,7 +58,7 @@ To back up a collection periodically to a GitHub repository:
 
     <img alt="APIMatic integration form" src="https://assets.postman.com/postman-docs/apimatic-save-config-v9.jpg" width="400px"/>
 
-Once the integration has been created, click on it to view details including the run log.
+Once the integration has been created, select it to view details about the integration including its run log.
 
 <img alt="APIMatic integration run log" src="https://assets.postman.com/postman-docs/apimatic-run-log-v9.jpg" width="500px"/>
 
