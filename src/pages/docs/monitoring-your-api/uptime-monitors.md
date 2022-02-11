@@ -47,9 +47,11 @@ Create a new uptime monitor to track the availability of a single API endpoint, 
 
 ## Viewing uptime monitor results
 
-To view results for an uptime monitor, select **Monitors** in the left sidebar, and then select a monitor to view its dashboard. Use the dashboard to quickly check if an API endpoint is currently up or down, for how long, and the number of regions where it's failing.
+To view results for an uptime monitor, select **Monitors** in the left sidebar, and then select a monitor to view its dashboard.
 
-You can also view key statistics for the selected time period, such as the percentage of time the endpoint has been available, the number of downtime incidents, and the average response time in milliseconds.
+The dashboard shows if the API endpoint was up or down at the time it was last checked, for how long, and the number of regions where it's failing. To update the dashboard with the latest status, select the refresh icon ICON.
+
+The dashboard also shows key statistics for the selected time period. You can view the percentage of time the endpoint has been available globally (up in at least one region) and the regional average (the total uptime in all regions divided by the total downtime in all regions). You can also view the number of downtime incidents and the average response time in milliseconds.
 
 To change the time period displayed, select a different time period in the menu at the upper right.
 
@@ -68,7 +70,7 @@ The **Uptime** graph shows the status of the monitored endpoint URL during the s
 
 * **Unknown:** (Gray) Postman cannot determine the status of the URL because the monitor is paused, because the monitor did not exist during the displayed time period, or for some other unexpected reason.
 
-Select the binoculars icon <img alt="Binoculars icon" src="https://assets.postman.com/postman-docs/icon-uptime-binoculars.jpg" width="16px" style="vertical-align:middle;margin-bottom:5px"> to view a summary for all regions, or select the globe icon <img alt="Globe icon" src="https://assets.postman.com/postman-docs/icon-uptime-globe.jpg" width="16px" style="vertical-align:middle;margin-bottom:5px"> to view data for each region separately.
+Select **Summary** to view combined data for all regions, or select **Region** to view data for each region separately.
 
 ### Viewing downtime incidents
 
