@@ -34,7 +34,6 @@ You can use version control with your Postman Collections by forking and merging
 
 * [Forking a collection](#forking-a-collection)
     * [Forking information](#forking-information)
-    * [Forking to send requests](#forking-to-send-requests)
 * [Forking an environment](#forking-an-environment)
 * [Creating pull requests](#creating-pull-requests)
     * [Pull request settings](#pull-request-settings)
@@ -47,6 +46,8 @@ You can use version control with your Postman Collections by forking and merging
 * [Resolving conflicts](#resolving-conflicts)
 
 ## Forking a collection
+
+> If you are not a member of a public workspace, you will not be able to send a request from a collection within the workspace. To send requests or make changes to a collection, you must fork the collection into a personal workspace or a team workspace that you belong to.
 
 To fork a collection in Postman, select the collection in the __Collections__ sidebar. Select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px">  to view more actions, then select __Create a fork__. To provide a uniform forking experience, you can create a fork in a public workspace in three steps — log in to Postman, fill up fork details, and enable your public profile.
 
@@ -71,22 +72,6 @@ Fork information provides details about forks and the users who have created the
 [![Fork Information](https://assets.postman.com/postman-docs/fork-information-count.jpg)](https://assets.postman.com/postman-docs/fork-information-count.jpg)
 
 > You can select a user under __Forked by__ to view their public profile.
-
-### Forking to send requests
-
-If you are a visitor who does not belong to any public workspace, to send requests from a collection in a public workspace, log in to Postman with your credentials. Select __Sign in__.
-
-[![Visitor accessing public workspace](https://assets.postman.com/postman-docs/visitor-public-workspace.jpg)](https://assets.postman.com/postman-docs/visitor-public-workspace.jpg)
-
-Postman will prompt a login screen, you can either create a free account or sign in to get started.
-
-<img src="https://assets.postman.com/postman-docs/sign-in-v2.jpg" alt="Visitor Sign in" height="400px"/>
-
-Being a signed-in non-member, to send requests in a public workspace, fork the collection into a workspace that you belong to (either team or personal whichever you choose during fork creation) and then make changes.
-
-<img src="https://assets.postman.com/postman-docs/visitor-fork-collection-v2.jpg" alt="Visitor creating a fork" height="400px"/>
-
-> Make sure your public profile is enabled before you fork a collection from a public workspace.
 
 ## Forking an environment
 
