@@ -49,11 +49,14 @@ Create a new uptime monitor to track the availability of a single API endpoint, 
 
 To view results for an uptime monitor, select **Monitors** in the left sidebar, and then select a monitor to view its dashboard.
 
-The dashboard shows if the API endpoint was up or down at the time it was last checked, for how long, and the number of regions where it's failing. To update the dashboard with the latest status, select the refresh icon ICON.
+The dashboard shows if the API endpoint was up or down at the time it was last checked, for how long, and the number of regions where it's failing. To update the dashboard with the latest monitor status, select <img alt="Refresh icon" src="https://assets.postman.com/postman-docs/icon-refresh-v9-5.jpg" width="14px" style="vertical-align:middle;margin-bottom:5px"> **Refresh**.
 
-The dashboard also shows key statistics for the selected time period. You can view the percentage of time the endpoint has been available globally (up in at least one region) and the regional average (the total uptime in all regions divided by the total downtime in all regions). You can also view the number of downtime incidents and the average response time in milliseconds.
+The dashboard also shows key statistics for the selected time period. You can view the percentage of time the endpoint has been available globally and the regional average:
 
-To change the time period displayed, select a different time period in the menu at the upper right.
+* **Global availability** - The percentage of time the endpoint has been up up in at least one region.
+* **Regional average** -  The total uptime in all regions divided by the sum of uptime and downtime in all regions.
+
+You can also view the number of downtime incidents and the average response time in milliseconds. To change the time period displayed, select a different time period in the menu at the upper right.
 
 <img alt="Uptime monitor graph" src="https://assets.postman.com/postman-docs/monitors-uptime-graph-v9-9.jpg" width="953px"/>
 
