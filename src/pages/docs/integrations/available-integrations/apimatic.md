@@ -19,7 +19,7 @@ contextual_links:
     url: "https://blog.postman.com/new-postman-pro-integration-apimatics-api-transformer/"
 ---
 
-Postman's APIMatic integration converts your Postman collections to any major API description format, including Swagger, RAML, and API Blueprint, and saves the resulting file on GitHub.
+Postman's APIMatic integration converts your Postman collections to any major API description format, including Swagger, RAML, and API Blueprint, and backs up the resulting file on GitHub.
 
 ## Prerequisites
 
@@ -28,7 +28,7 @@ To set up an APIMatic integration with Postman, you will need:
 * An [APIMatic account](https://www.apimatic.io/account/register)
 * An [APIMatic integration key](https://docs.apimatic.io/manage-apis/get-api-keys/)
 * A [GitHub account](https://github.com/)
-* A GitHub repository in which to save your collection
+* A GitHub repository in which to back up your collection
 
 ## Configuring an APIMatic integration
 
@@ -49,11 +49,11 @@ To back up a collection periodically to a GitHub repository:
     * A nickname for the integration.
     * The Postman workspace that the collection you want to back up belongs to.
     * The Postman collection you want to back up.
-    * The GitHub repository your collection will be saved to.
-    * The directory in the GitHub repository in which to save your collection. If a directory with that name does not exist, it will be created when you add the integration.
+    * The GitHub repository your collection will be backed up to.
+    * The directory in the GitHub repository in which to back up your collection. If a directory with that name does not exist, it will be created when you add the integration.
     * A filename for the backup file.
-    * The format in which you want to save the collection.
-    * The name of the GitHub branch to save the collection to. This branch must already exist, and the integration process will fail if you specify an invalid branch name.
+    * The format in which you want to back up the collection.
+    * The name of the GitHub branch in which to back up the collection. This branch must already exist, and the integration process will fail if you specify an invalid branch name.
 1. Select **Add Integration**.
 
     <img alt="APIMatic integration form" src="https://assets.postman.com/postman-docs/apimatic-save-config-v9.jpg" width="400px"/>
