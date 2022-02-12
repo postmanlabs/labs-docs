@@ -61,7 +61,10 @@ When you fork a Postman collection, you create a copy of it in a different works
 1. Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to the collection name.
 1. Select **Create a fork**.
 
+
     <img src="https://assets.postman.com/postman-docs/collection-create-a-fork-v9.1.jpg" alt="Create fork selected in menu" width="300px"/>
+
+    > You can also fork a collection by selecting **Fork** on the collection overview tab.
 
 1. Enter a label for your fork, and select a workspace to save it to.
 1. Select **Fork Collection**.
@@ -76,25 +79,24 @@ If there are any [mocks](/docs/designing-and-developing-your-api/mocking-data/se
 
 ### Forking an environment
 
-To fork an environment in Postman, select the environment in the __Environments__ sidebar, then select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> __> Create a fork__. You can also fork an environment by selecting __Fork__ on the environment overview tab.
+To fork an environment in Postman:
 
-<img src="https://assets.postman.com/postman-docs/environment-create-a-fork-v9.1.jpg" alt="Create an Environment Fork" width="300px"/>
+1. Select **Environments** in the left sidebar.
+1. Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to the environment name.
+1. Select **Create a fork**.
 
-Enter a label for your fork, and select a workspace to save it to. Select __Fork Environment__.
+    <img src="https://assets.postman.com/postman-docs/environment-create-a-fork-v9.1.jpg" alt="Create an Environment Fork" width="300px"/>
 
-<img src="https://assets.postman.com/postman-docs/fork-environment-v9.1.jpg" alt="Fork environment tab" width="400px"/>
+    > You can also fork an environment by selecting **Fork** on the environment overview tab.
 
-Your forked environment will be created in the selected workspace. You will be able to view the forked environments in the sidebar on the left as well as under the environment dropdown on the right side of Postman.
+1. Enter a label for your fork, and select a workspace to save it to.
+1. Select **Fork Environment**.
 
-<img alt="Environment dropdown for forked environments" src="https://assets.postman.com/postman-docs/environment-dropdown-view-v8.jpg" height="200px"/>
+    <img src="https://assets.postman.com/postman-docs/fork-environment-v9.1.jpg" alt="Fork environment tab" width="400px"/>
 
-The forks icon <img alt="Fork icon on context bar for v8" src="https://assets.postman.com/postman-docs/fork-icon-right-panel-v8.jpg" height="30px"/> on the context bar provides details about the forks created.
+Your forked environment will be created in the selected workspace. You will be able to view forked environments in **Environments** as well as under the environment dropdown on the right side of Postman.
 
-<img alt="Fork icon overview for v8" src="https://assets.postman.com/postman-docs/fork-panel-overview-v8.jpg" height="300px"/>
-
-Select **View all forks** to reveal the detailed list of forks along with information about users who created them.
-
-<img alt="Fork overview details v8" src="https://assets.postman.com/postman-docs/fork-overview-details-v8.jpg"/>
+<img alt="Environment dropdown for forked environments" src="https://assets.postman.com/postman-docs/environment-dropdown-view-v9.12.jpg" height="200px"/>
 
 ### Viewing fork information
 
