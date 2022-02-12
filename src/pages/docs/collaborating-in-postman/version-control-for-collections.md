@@ -102,7 +102,7 @@ Your forked environment will be created in the selected workspace. You will be a
 
 Fork information provides details about forks and the users who have created them. You will be able to identify the users who are actively consuming and contributing to your APIs.
 
-To see the list of users who have forked the collection:
+To see the list of users who have forked a collection or an environment:
 
 1. Select the number next to the fork icon <img alt="Fork icon" src="https://assets.postman.com/postman-docs/icon-fork.jpg" width="14px" style="vertical-align:middle;margin-bottom:5px"> to reveal the list of users who have active forks.
 
@@ -118,25 +118,31 @@ To see the list of forks for a collection:
 
 ## Creating pull requests
 
-You can merge changes from a collection fork (the _source_) into the parent (the _destination_) using a pull request process, by tagging reviewers who can comment on your changes and decide to merge them. In Postman, open the menu for a collection and select __Create Pull Request__.
+> Pull requests are not available for environments.
 
-<img alt="Create Pull Request" src="https://assets.postman.com/postman-docs/collection-create-pull-request-v9.1.jpg" width="250px"/>
+When you fork a collection, you can make changes to it. When you have made the changes that you want, you can create a _pull request_. Creating a pull request means that you want to merge the changes you made in the fork of the collection (the source) into the parent collection (the destination), requesting that reviewers look at your changes and decide to merge them.
 
-You can overview the source, destination, and changes that will be included in the pull request.
+1. Select the collection in the **Collections** sidebar.
+1. Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to the collection name.
+1. Select **Create pull request**.
 
-![Pull Request Changes](https://assets.postman.com/postman-docs/pull-request-changes-v2.jpg)
+    <img alt="Create Pull Request" src="https://assets.postman.com/postman-docs/create-pull-request.jpg" width="250px"/>
 
-> If the parent collection has any changes since you last updated your fork, you can [pull those changes](#pulling-updates) before merging.
+1. Select **Changes** to review the content changes that will be included in the pull request.
 
-If there are any conflicts, they will be highlighted so that you can [resolve them](#resolving-conflicts).
+    ![Pull Request Changes](https://assets.postman.com/postman-docs/pull-request-changes.jpg)
 
-![Resolve Conflicts](https://assets.postman.com/postman-docs/resolve-conflicts-v2.jpg)
+    * If the parent collection has any changes since you last updated your fork, you can [pull those changes](#pulling-updates) before merging.
 
-If your pull request has no conflicts, you can go ahead and open it for review. Enter a title and description, and select up to three reviewers from the dropdown list. Reviewers will need edit access to the collection in order to merge your changes. Select __Create Pull Request__.
+    * If there are any conflicts, they will be highlighted so that you can [resolve them](#resolving-conflicts).
 
-<img alt="Create Pull Request" src="https://assets.postman.com/postman-docs/pull-request-overview-v2.jpg"/>
+1. Select **Overview**.
+1. Enter a title and description for your pull request, and select up to 50 reviewers from the dropdown list. Reviewers must have edit access to the collection in order to merge your changes.
+1. Select **Create Pull Request**.
 
-Reviewers can [comment on your pull request or decide to merge](#reviewing-pull-requests) your changes into the parent collection.
+    <img alt="Create Pull Request" src="https://assets.postman.com/postman-docs/pull-request-overview.jpg" width="350px"/>
+
+The reviewers you selected will be notified about your pull request. You will receive a notification if the reviewers comment on your pull request, approve your pull request, or merge the pull request. <!-- TODO: add links to other sections -->
 
 ### Pull request settings
 
