@@ -2,6 +2,7 @@
 title: "Viewing collection-based monitor results"
 order: 90
 page_id: "viewing_monitor_results"
+updated: 2022-2-14
 contextual_links:
   - type: section
     name: "Additional Resources"

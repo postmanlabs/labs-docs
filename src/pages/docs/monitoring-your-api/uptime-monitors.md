@@ -2,7 +2,7 @@
 title: "Monitoring API uptime"
 order: 88
 page_id: "uptime_monitors"
-updated: 2022-1-24
+updated: 2022-2-14
 contextual_links:
 
 warning: false
@@ -51,14 +51,9 @@ To view results for an uptime monitor, select **Monitors** in the left sidebar, 
 
 The dashboard shows if the API endpoint was up or down at the time it was last checked, for how long, and the number of regions where it's failing. To update the dashboard with the latest monitor status, select <img alt="Refresh icon" src="https://assets.postman.com/postman-docs/icon-refresh-v9-5.jpg" width="14px" style="vertical-align:middle;margin-bottom:5px"> **Refresh**.
 
-The dashboard also shows key statistics for the selected time period. You can view the percentage of time the endpoint has been available globally and the regional average:
+The dashboard also shows key statistics for the selected time period. You can view the percentage of time the endpoint has been available globally in at least one region. You can also view the number of downtime incidents and the average response time in milliseconds. To change the time period displayed, select a different time period in the menu at the upper right.
 
-* **Global availability** - The percentage of time the endpoint has been up up in at least one region.
-* **Regional average** -  The total uptime in all regions divided by the sum of uptime and downtime in all regions.
-
-You can also view the number of downtime incidents and the average response time in milliseconds. To change the time period displayed, select a different time period in the menu at the upper right.
-
-<img alt="Uptime monitor graph" src="https://assets.postman.com/postman-docs/monitors-uptime-graph-v9-9.jpg" width="953px"/>
+<img alt="Uptime monitor graph" src="https://assets.postman.com/postman-docs/monitors-uptime-graph-v9-12.jpg" width="841px"/>
 
 > **Want to share an uptime monitor with others?** Hover over the monitor name at the top of the dashboard and select the link icon <img alt="Changelog icon" src="https://assets.postman.com/postman-docs/icon-workspace-link-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> to copy a link to the monitor. To view or edit the monitor, the person you share the link with must have the appropriate access to the workspace where the monitor is located. Learn more about [defining roles](/docs/collaborating-in-postman/roles-and-permissions/).
 

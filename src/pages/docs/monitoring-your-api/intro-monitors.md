@@ -2,7 +2,7 @@
 title: "Monitoring your APIs"
 order: 88
 page_id: "intro_monitors"
-updated: 2022-1-24
+updated: 2022-2-14
 contextual_links:
   - type: section
     name: "Prerequisites"

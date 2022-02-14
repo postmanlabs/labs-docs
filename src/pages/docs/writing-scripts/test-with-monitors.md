@@ -2,7 +2,7 @@
 title: "Running tests with monitors"
 order: 91
 page_id: "test_with_monitors"
-updated: 2021-12-15
+updated: 2022-2-14
 search_keyword: "setEnvironmentVariable, postman.setEnvironmentVariable"
 contextual_links:
   - type: section

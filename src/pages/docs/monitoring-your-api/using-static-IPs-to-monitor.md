@@ -2,7 +2,7 @@
 title: Running monitors using static IPs
 order: 93
 page_id: "using_static_IPs_to_monitor"
-updated: 2022-1-24
+updated: 2022-2-14
 warning: false
 contextual_links:
   - type: section
