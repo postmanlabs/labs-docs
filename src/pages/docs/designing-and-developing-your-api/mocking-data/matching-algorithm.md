@@ -1,6 +1,7 @@
 ---
 title: "Understanding example matching"
 order: 87
+updated: 2021-09-28
 page_id: "matching_algorithm"
 search_keyword: "x-mock-response-name, x-mock-response-id, requestMethod, mockPath"
 contextual_links:
