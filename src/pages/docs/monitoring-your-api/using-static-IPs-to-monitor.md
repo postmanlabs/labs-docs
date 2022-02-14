@@ -1,7 +1,8 @@
 ---
-title: Running Postman monitors using static IPs
+title: Running monitors using static IPs
 order: 93
 page_id: "using_static_IPs_to_monitor"
+updated: 2022-2-14
 warning: false
 contextual_links:
   - type: section
@@ -25,9 +26,9 @@ contextual_links:
 
 > __[Static IP address monitoring is available on Postman Professional and Enterprise plans.](https://www.postman.com/pricing)__
 
-Postman's static IP feature allows you to monitor your APIs that are behind a restricted firewall. This feature is available to all Postman Professional and Enterprise customers, provided your IT team [allowlists](#allowlisting-static-ip-addresses) the associated static IP addresses.
+Postman's static IP feature enables you to use [collection-based monitors](/docs/monitoring-your-api/setting-up-monitor/) to monitor APIs that are behind a restricted firewall. This feature is available to all Postman Professional and Enterprise customers, provided your IT team [allowlists](#allowlisting-static-ip-addresses) the associated static IP addresses. The provided static IP addresses are fixed to their specified region and are shared by all customers who use this feature.
 
-The provided static IP addresses are fixed to their specified region and shared by all customers who utilize this feature.
+> Static IPs are not available for uptime monitors.
 
 ## Contents
 
@@ -41,27 +42,27 @@ The provided static IP addresses are fixed to their specified region and shared 
 
 ## Allowlisting static IP addresses
 
-Static IP addresses are available for US east and US west regions. Contact your IT team to allowlist the following IP addresses:
+Static IP addresses are available for US East and US West regions. Contact your IT team to allowlist the following IP addresses:
 
 * US East: `34.201.186.27`
 * US West: `52.89.173.88`
 
 ## Creating a new monitor to run from a static IP address
 
-When [creating a new monitor](/docs/monitoring-your-api/setting-up-monitor/#creating-a-monitor), opt to **Manually Select Region**. Select your desired static IP regions, then click **Create**.
+When [creating a new collection-based monitor](/docs/monitoring-your-api/setting-up-monitor/#creating-a-monitor), choose the **Manually select region** option. Select your desired static IP regions, and then select **Create**.
 
-<img src="https://assets.postman.com/postman-docs/monitor-manually-select-region.jpg" height="500px" alt="Manually select regions"/>
+<img src="https://assets.postman.com/postman-docs/monitor-manually-select-region.jpg" width="272px" alt="Manually select regions"/>
 
 ## Changing an existing monitor to run from a static IP address
 
-Open your workspace in Postman and select **Monitors** from the left sidebar. Select your monitor, then in the upper-right corner select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> **> Edit**.
+Select **Monitors** from the left sidebar, and then select a collection-based monitor. Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> at the upper right, and then select **Edit**.
 
-<img src="https://assets.postman.com/postman-docs/select-edit-monitor.jpg" width="400px" alt="Edit monitor"/>
+<img src="https://assets.postman.com/postman-docs/select-edit-monitor.jpg" width="293px" alt="Edit monitor"/>
 
-Under **Regions**, opt to **Select regions manually**. Select your desired static IP regions, then click **Save Changes**.
+Under **Regions**, choose the **Manually select region** option. Select your desired static IP regions, then select **Update Monitor**.
 
-<img src="https://assets.postman.com/postman-docs/monitor-manually-select-region.jpg" height="500px" alt="Manually select regions"/>
+<img src="https://assets.postman.com/postman-docs/monitor-manually-select-region.jpg" width="272px" alt="Manually select regions"/>
 
 ## Next steps
 
-Learn how to set up [integrations](/docs/integrations/intro-integrations/) for your monitoring results.
+Learn how to set up [integrations](/docs/integrations/intro-integrations/) for your monitor results.
