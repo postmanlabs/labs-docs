@@ -1041,11 +1041,11 @@
 	},
 	{
 		"from": "/docs/postman/monitors/monitoring-apis-websites/",
-		"to": "/docs/monitoring-your-api/monitoring-apis-websites/"
+		"to": "/docs/writing-scripts/test-with-monitors/"
 	},
 	{
 		"from": "/docs/postman/monitors/monitoring_apis_websites/",
-		"to": "/docs/monitoring-your-api/monitoring-apis-websites/"
+		"to": "/docs/writing-scripts/test-with-monitors/"
 	},
 	{
 		"from": "/docs/postman/monitors/pricing-monitors/",
@@ -1853,7 +1853,7 @@
 	},
 	{
 		"from": "/docs/designing-and-developing-your-api/monitoring-your-api/monitoring-apis-websites/",
-		"to": "/docs/monitoring-your-api/monitoring-apis-websites/"
+		"to": "/docs/writing-scripts/test-with-monitors/"
 	},
 	{
 		"from": "/docs/designing-and-developing-your-api/monitoring-your-api/setting-up-monitor/",
@@ -1877,6 +1877,9 @@
 	},
 	{	"from": "/docs/monitoring-your-api/integrations-for-alerts/",
 		"to": "/docs/running-collections/collection-webhooks/"
+	},
+	{	"from": "/docs/monitoring-your-api/monitoring-apis-websites/",
+		"to": "/docs/writing-scripts/test-with-monitors/"
 	},
 	{	"from": "/docs/designing-and-developing-your-api/deploying-an-api/",
 		"to": "/docs/designing-and-developing-your-api/deploying-an-api/deploying-an-api-overview/"
