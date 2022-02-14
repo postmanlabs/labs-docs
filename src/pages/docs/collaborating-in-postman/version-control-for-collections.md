@@ -207,7 +207,7 @@ To set merge checks for pull requests on a specific collection:
 
 <img alt="Merge Check" src="https://assets.postman.com/postman-docs/manage-roles-set-merge-checks.jpg" width="800px"/>
 
-If the merge conditions for a pull request are not met, the option to **Merge** will be disabled.
+If the merge conditions for a pull request are not met, the option to **Merge** it into the parent collection will be disabled.
 
 <img alt="Merge Disabled" src="https://assets.postman.com/postman-docs/view-merge-conditions-v9.12.jpg" width="300px"/>
 
@@ -217,21 +217,26 @@ Select **View Merge Conditions** to see the merge conditions to be met for the p
 
 ### Watching a pull request
 
-The watch option allows you to receive an in-app notification when one of your team member belonging to the same workspace modifies the pull request. If you watch a pull request, you will be notified of actions such as adding a new comment, approving or unapproving, merging, editing or declining a pull request, and so on.
+The watch option allows you to receive an in-app notification when a team member modifies the pull request. If you watch a pull request, you will be notified of actions such as adding a new comment, approving or unapproving, merging, and editing or declining a pull request.
 
-Once you've created the pull request, select __Watch__ to start watching the pull request.
+To watch a pull request:
 
-![Pull request watching](https://assets.postman.com/postman-docs/watching-a-pull-request-v9.jpg)
+1. Select **Watch**.
 
-Once you have enabled watch, you will be able to view and modify the conditions for which notifications will be triggered.
+<img alt="Watch a pull request" src="https://assets.postman.com/postman-docs/watching-a-pull-request-v9.12.jpg" width="300px"/>
 
-<img alt="Conditions for watch notifications" src="https://assets.postman.com/postman-docs/watching-conditions-notifications-v9.jpg" height="424px"/>
+To change your watching notification settings:
 
-Select the bell icon <img alt="Changelog icon" src="https://assets.postman.com/postman-docs/icon-notification-bell-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> in the top right corner of Postman to view the notification. The popup will indicate further information about the change that was made to the pull request.
+1. Select **Watching**.
+1. Select or unselect the desired notification options.
 
-<img alt="Notification Pull Request Watching" src="https://assets.postman.com/postman-docs/pull-request-watch-notification-v8.jpg" width="500px"/>
+<img alt="Conditions for watch notifications" src="https://assets.postman.com/postman-docs/watching-conditions-notifications-v9.jpg" width="350px"/>
 
-> If you created the pull request and modified it from the same account, you will not receive any notifications for changes made.
+To view notifications for a watched pull request:
+
+1. Select the bell icon <img alt="Changelog icon" src="https://assets.postman.com/postman-docs/icon-notification-bell-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> in the top right corner of Postman. The popup will indicate further information about the change that was made to the pull request.
+
+> If you create a pull request and modify it from the same account, you will not receive any notifications about changes made to the pull request.
 
 ## Approving changes
 
