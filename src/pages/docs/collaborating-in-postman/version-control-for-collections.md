@@ -170,32 +170,48 @@ Once you create the pull request, you will get a notification that it has been *
 
 ## Pull request settings
 
-Pull request settings are available on [Postman Professional and Enterprise plans](https://www.postman.com/pricing) in the __Manage Roles__ section of a collection.
+> Pull request settings are available on [Postman Professional and Enterprise plans](https://www.postman.com/pricing).
 
-<img alt="Collection Manage Roles" src="https://assets.postman.com/postman-docs/collection-manage-roles-v9.1.jpg" width="300px"/>
+### Manage reviewer permissions
 
-In Postman, select the collection in the __Collections__ sidebar and select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px">. Select __Manage roles__, then select __Editor__ for the users you want to provide editor access to and **Update Roles**.
+1. Select the collection in the **Collections** sidebar.
+1. Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to the collection name.
+1. Select **Manage roles**.
 
-[![manage roles](https://assets.postman.com/postman-docs/manage-roles-collection-v9.1.jpg)](https://assets.postman.com/postman-docs/manage-roles-collection-v9.1.jpg)
+    <img alt="Collection Manage Roles" src="https://assets.postman.com/postman-docs/collection-manage-roles-v9.1.jpg" width="300px"/>
 
-You must have __Editor__ access on a collection to merge changes. If you have __Viewer__ access to a collection, you will see a warning icon while adding reviewers to a pull request.
+1. Select **Editor** for the users you want to provide editor access to.
+1. Select **Update Roles**.
 
-<img alt="Reviewer permission" src="https://assets.postman.com/postman-docs/reviewer-permission-pull-request.jpg" width="400px"/>
+    [![manage roles](https://assets.postman.com/postman-docs/manage-roles-collection-v9.12.jpg)](https://assets.postman.com/postman-docs/manage-roles-collection-v9.12.jpg)
+
+> A user must have **Editor** access on a collection to merge changes. If a user only has **Viewer** access to a collection, you will see a warning icon if you add them as reviewers for a pull request.
+>
+> <img alt="Reviewer permission" src="https://assets.postman.com/postman-docs/pull-request-reviewer-permission.jpg" width="350px"/>
+
+### Assign merge checks
 
 Once you have created the pull request, you can assign merge checks before approving changes.
 
-<img alt="Merge Check" src="https://assets.postman.com/postman-docs/manage-roles-collection-v9.1.jpg"/>
-
 There are two different types of checks that you can enable for a pull request:
 
-* __Approved once__ : You need at least one approval to merge the pull request.
-* __Approved by a collection editor__ : You require the approval of a collection editor to merge the pull request.
+* **Approved once**: You need at least one approval to merge the pull request.
+* **Approved by a collection editor**: You need the approval of a collection editor to merge the pull request.
 
-If you do not have editor access to the collection, the option to __Merge__ will be disabled.
+To set merge checks for pull requests on a specific collection:
 
-<img alt="Merge Disabled" src="https://assets.postman.com/postman-docs/view-merge-conditions.jpg" width="400px"/>
+1. Select the collection in the **Collections** sidebar.
+1. Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to the collection name.
+1. Select **Manage roles**.
+1. Select the merge checks that you want to set for the collection.
 
-Select __View Merge Conditions__ to see the merge conditions to be met for the pull request.
+<img alt="Merge Check" src="https://assets.postman.com/postman-docs/manage-roles-set-merge-checks.jpg" width="800px"/>
+
+If the merge conditions for a pull request are not met, the option to **Merge** will be disabled.
+
+<img alt="Merge Disabled" src="https://assets.postman.com/postman-docs/view-merge-conditions-v9.12.jpg" width="300px"/>
+
+Select **View Merge Conditions** to see the merge conditions to be met for the pull request.
 
 <img alt="Merge Condition" src="https://assets.postman.com/postman-docs/merge-conditions.jpg" width="400px"/>
 
