@@ -260,11 +260,21 @@ To view the diff:
 
 ### Editing or declining a pull request
 
-To edit or decline the pull request:
+You can edit a pull request's details before approving it, or you can decline it.
 
-You can choose to __Edit__ or __Decline__ the pull request.
+<img alt="Refresh, edit, or decline a pull request" src="https://assets.postman.com/postman-docs/refresh-edit-decline-pull-request.jpg" width="350px"/>
 
-![Pull Request Options](https://assets.postman.com/postman-docs/edit-decline-pull-request-v2.jpg)
+To edit the pull request details:
+
+* Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> from the pull request's header bar.
+* Select **Edit**.
+* Make your changes to the pull request's title, description, and list of reviewers.
+* Select **Save Changes**.
+
+If you do not want to merge the pull request into the parent collection, you can decline it. Declined pull requests cannot be reopened, so if you want to request edits or feedback, add a comment instead. To decline the pull request:
+
+* Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> from the pull request's header bar.
+* Select **Decline**, then select **Decline Pull Request**.
 
 ### Approving a pull request
 
@@ -294,13 +304,10 @@ You can view the detail on any merged pull request by selecting it.
 
 You can keep your forked collections up to date with any changes in the parent, for example if another team member has merged changes into the parent collection.
 
-To compare your fork to its parent, choose __Merge changes__ in the forked collection in Postman.
+1. Open the pull request. Postman will warn you that the parent collection has changed since you last updated it.
+1. Select **Pull Changes** to update your fork with the changes in the parent collection.
 
-<img src="https://assets.postman.com/postman-docs/collection-fork-merge-changes-v9.1.jpg" alt="Merge Fork" width="300px"/>
-
-Postman will warn you before you attempt to merge a fork whose parent has changed since you last updated it. Select __Pull Changes__ to update your fork with the changes in the parent collection.
-
-![Update Fork](https://assets.postman.com/postman-docs/merge-changes-screen-v2.jpg)
+![Pull recent changes](https://assets.postman.com/postman-docs/pr-pull-changes-v9.12.jpg)
 
 ### Merging changes
 
