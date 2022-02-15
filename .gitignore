@@ -85,3 +85,6 @@ bff-data/
 # Generated
 .nvmrc
 bff.json
+
+# Vale styles
+vale-styles/
