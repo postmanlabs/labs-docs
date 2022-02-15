@@ -14,7 +14,7 @@ contextual_links:
 
 > __[Audit logs are available on Postman Professional and Enterprise plans.](https://www.postman.com/pricing)__
 
-Audit logs list events related to team management, billing, and security. A team admin can review audit logs to determine:
+Audit logs display events related to team management, billing, and security. A team admin can review audit logs to determine:
 
 * When users were added to the team
 * When users received an invitation to a team
@@ -38,7 +38,7 @@ You can view audit logs in Postman by selecting **Team** in the upper-right corn
 
 Audit logs allow you to view team actions by user, event name, event description, and date.
 
-<img alt="Audit logs dashboard" src="https://assets.postman.com/postman-docs/audit-logs-v9.13.0.jpg"/>
+<img alt="Audit logs dashboard" src="https://assets.postman.com/postman-docs/audit-logs-v9.13.1.jpg"/>
 
 ## Accessing audit logs via the Postman API
 
@@ -74,7 +74,9 @@ Logged events include the following actions.
 | Added Member   | A user joined your team.   |
 | Cancelled Invite   | An invitation for a user was cancelled.   |
 | Successful login   | A user logged in successfully.   |
-| Failed login   | A user failed to log in successfully.  |
+| Logout | A user logged out. |
+| Reset Password | A user reset their password. |
+| Changed Password | A user changed their password. |
 | Custom auth scheme created| A new SSO scheme was added to your team.  |
 | Custom auth scheme disabled  | An SSO scheme was disabled. |
 | Custom auth scheme enabled | An SSO scheme was enabled.  |
