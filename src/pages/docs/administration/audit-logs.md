@@ -74,7 +74,7 @@ Logged events include the following actions.
 | Added Member   | A user joined your team.   |
 | Cancelled Invite   | An invitation for a user was cancelled.   |
 | Successful login   | A user logged in successfully.   |
-| Failed login   | A user failed to log in successfully  |
+| Failed login   | A user failed to log in successfully.  |
 | Custom auth scheme created| A new SSO scheme was added to your team.  |
 | Custom auth scheme disabled  | An SSO scheme was disabled. |
 | Custom auth scheme enabled | An SSO scheme was enabled.  |
