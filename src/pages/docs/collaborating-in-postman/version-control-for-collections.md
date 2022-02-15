@@ -246,21 +246,25 @@ To view notifications for a watched pull request:
 
 If you're tagged as a reviewer on a pull request, you can view the changes, comment, approve or decline the request, and merge the forked collection into the parent collection when you are ready.
 
-You can see a list of pull request for any collection under the **Pull Requests** tab on the right panel in Postman.
+To see the list of pull requests for a collection:
 
-<img src="https://assets.postman.com/postman-docs/open-pull-request-list-v2.jpg" alt="Open Pull Request" width="350px"/>
+1. Navigate to the collection and select the **Pull Requests** icon <img alt="Pull request icon" src="https://assets.postman.com/postman-docs/icon-pull-request.jpg" width="16px" style="vertical-align:middle;margin-bottom:5px"> on the context menu.
 
-Each pull request includes status, which will be `OPEN` for any that have not been merged or declined.
+<img src="https://assets.postman.com/postman-docs/open-pull-request-list-v9.12.jpg" alt="Pull request list" width="350px"/>
+
+Each item shows the pull request's status, which will be `OPEN` for any that have not been merged or declined. Click on a pull request's name to open it.
 
 ### Viewing the diff
 
-When you merge changes from a fork into its parent collection, you have a chance to review the difference between them, known as the _diff_, first. The diff navigation view enables you to review the changes made to a collection. The nested folder structure shows the requests present within the folders and improves navigation while working with forks and pull requests.
+When you merge changes from a fork into its parent collection, you have a chance to review the difference between them, known as the _diff_, first.
 
-To view the diff in a pull request:
+If you are [opening a new pull request](#creating-pull-requests), view the diff by selecting the **Changes** tab.
 
-1. Select the __Changes__ tab.
+<img alt="View diff when creating pull request" src="https://assets.postman.com/postman-docs/pull-request-create-view-diff-v9.12.jpg" width="300px"/>
 
-![Diff Navigation](https://assets.postman.com/postman-docs/diff-navigation-v2.jpg) <!-- TODO: update image -->
+If you are reviewing a pull request, view the diff under the **Changes** heading.
+
+<img alt="View diff when reviewing pull request" src="https://assets.postman.com/postman-docs/pull-request-review-view-diff-v9.12.jpg" width="450px"/>
 
 ### Adding comments
 
@@ -268,7 +272,7 @@ Adding comments as a reviewer is an important part of the pull request process, 
 
 To add a comment to a pull request:
 
-1. Select the comment icon <img alt="Changelog icon" src="https://assets.postman.com/postman-docs/icon-comments-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to the change in the diff that you want to comment on.
+1. Select the comment icon <img alt="Changelog icon" src="https://assets.postman.com/postman-docs/icon-comments-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to the change that you want to comment on.
 1. Once you've written your comment, select **Add Comment**.
 
 <img alt="Add a comment to a pull review" src="https://assets.postman.com/postman-docs/pr-add-comment-v9.12.jpg" width="450px"/>
@@ -288,24 +292,25 @@ To edit the pull request details:
 * Make your changes to the pull request's title, description, and list of reviewers.
 * Select **Save Changes**.
 
-If you do not want to merge the pull request into the parent collection, you can decline it. Declined pull requests cannot be reopened, so if you want to request edits or feedback, add a comment instead. To decline the pull request:
+If you do not want to merge the pull request into the parent collection, you can decline it. Declined pull requests cannot be reopened, so if you want to request edits or offer feedback, [add a comment](#adding-comments) instead. To decline the pull request:
 
 * Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> from the pull request's header bar.
 * Select **Decline**, then select **Decline Pull Request**.
 
 ### Approving a pull request
 
-If you're tagged as a reviewer on a pull request, you can approve the pull request.
+If you're tagged as a reviewer on a pull request you can approve the pull request.
 
 To approve a pull request:
 
-1. Navigate to the collection and select the **Pull Requests** icon <img alt="Pull request icon" src="https://assets.postman.com/postman-docs/icon-pull-request.jpg" width="16px" style="vertical-align:middle;margin-bottom:5px"> on the context menu.
+1. Select **Approve**.
+1. The button text now says **Unapprove**. If you need to revoke your approval, select the button again.
 
-<img src="https://assets.postman.com/postman-docs/status-pull-request-v2.jpg" alt="Status Pull Request"/> <!-- TODO: update -->
+<img alt="Approve a pull request" src="https://assets.postman.com/postman-docs/pull-request-approve-v9.12.jpg" width="300px"/>
 
-Upon approval, you will see the status of the pull request as **Approved**.
+After the pull request has been approved, you will see the status of the pull request as **Approved** in the collection's list of pull requests.
 
-<img src="https://assets.postman.com/postman-docs/approve-fork-v2.jpg" alt="Approve Fork"/>
+<img src="https://assets.postman.com/postman-docs/pull-request-list-approved-v9.12.jpg" alt="Approved pull request" width="350px"/>
 
 ### Viewing pull request details
 
