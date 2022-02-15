@@ -85,15 +85,33 @@ Make sure to add an `x-api-key` header with your Postman API Key, and then selec
 
 ## Step 3: Create a mock server with the Postman API
 
-Create a mock using the [`POST Create Mock` endpoint](https://docs.api.getpostman.com/#a54b358e-2686-bb4e-15c6-125b23776593) with the `collectionId` and `environmentId` you retrieved previously.
+Now that you have the collection ID (and optionally the environment ID), you can use the [POST Create Mock](https://documenter.getpostman.com/view/12959542/UV5XjJV8?_ga=2.100201950.1771040895.1644854022-1154140310.1627600155#296628ed-d49b-4206-b4a7-d622e693945c) endpoint to create a mock server.
 
-Mocks are accessible to the public by default. If you want the mock to only be available privately, include `"private": true`.
+First, create a new request in Postman, select `POST` for the method, and enter the following URL: `https://api.getpostman.com/environments`
+
+Next, add the following raw JSON code to the **Body** tab of the request, substituting your collection ID and environment ID:
+
+```JSON
+{
+  "mock": {
+    "name": "testAPImock",
+    "collection": "16724969-97860d6e-742a-409d-ae1e-0d34a53c57d6",
+    "environment": "16724969-3a77ee2c-6155-4c2d-af9e-2bfc9dcc174f"
+  }
+}
+```
+
+> By default, mock servers are publicly accessible. If you don't want the mock server to be public, add the line `"private": true` to the request body.
+
+As always, make sure to add an `x-api-key` header with your Postman API Key. When ready, select **Send** to send the request to the Postman API and create the mock server.
 
 [![create mock](https://assets.postman.com/postman-docs/WS-creaste-mock34.png)](https://assets.postman.com/postman-docs/WS-creaste-mock34.png)
 
-Verify that the mock has been created using the [GET All Mocks endpoint](https://docs.api.getpostman.com/#018b5d62-f6fc-f752-597e-c1eb4bb98d24), and your Collection is now ready to be simulated.
+You can verify that the mock server was successfully created using the [GET All Mocks](https://documenter.getpostman.com/view/12959542/UV5XjJV8?_ga=2.100201950.1771040895.1644854022-1154140310.1627600155#52a729a4-4a36-46e5-bfdf-fda0af228d2f) endpoint. Alternatively, in Postman, select **Mocks** in the left sidebar and verify the `testAPImock` mock server exists.
 
 ## Step 4: Run the mock server
+
+Your Collection is now ready to be simulated.
 
 Mock your Collection using the following url:
 
