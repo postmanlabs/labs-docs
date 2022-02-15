@@ -1,7 +1,7 @@
 ---
 title: "Mocking with the Postman API"
 order: 86
-updated: 2022-02-10
+updated: 2022-02-16
 page_id: "mock_with_api"
 search_keyword: "x-mock-response-code, x-mock-response-name, x-mock-response-id, x-mock-match-request-body, x-mock-match-request-headers"
 contextual_links:
@@ -42,12 +42,13 @@ Setting up a [mock server](/docs/designing-and-developing-your-api/mocking-data/
 * [Step 1: Set up a collection for mocking](#step-1-set-up-a-collection-for-mocking)
 * [Step 2: Retrieve the collection ID](#step-2-retrieve-the-collection-id)
 * [Step 3: Create a mock server with the Postman API](#step-3-create-a-mock-server-with-the-postman-api)
-* [Step 4: Run the mock server](#step-4-run-the-mock-server)
-* [Step 5: Add optional request headers](#step-5-add-optional-request-headers)
+* [Step 4: Get the mock server URL](#step-4-get-the-mock-server-url)
+* [Step 5: Send a request to the mock server](#step-5-send-a-request-to-the-mock-server)
+* [Step 6: Add optional request headers](#step-6-add-optional-request-headers)
 
 ## Step 1: Set up a collection for mocking
 
-In Postman, [create a new collection](/docs/sending-requests/intro-to-collections/#creating-collections) called `testAPI`. Optionally, you can also [create a new environment](/docs/sending-requests/managing-environments/#creating-environments) called `testAPIEnv`. For this demonstration, you will set up a mock server to enable your front-end development team to simulate each endpoint in the `testAPI` collection and view the various responses.
+In Postman, [create a new collection](/docs/sending-requests/intro-to-collections/#creating-collections) called `testAPI`. Optionally, you can also [create a new environment](/docs/sending-requests/managing-environments/#creating-environments) called `testAPIEnv`. For this demonstration, you will set up a mock server that enables you to simulate each endpoint in the `testAPI` collection and view their responses.
 
 [Add a new request](/docs/sending-requests/requests/#creating-requests) to the `testAPI` collection. In the example below, the collection has one request called `Request 1` that sends a `GET` request to `https://postman-echo.com/get?test=123`. Feel free to add more requests if you like.
 
@@ -107,9 +108,19 @@ As always, make sure to add an `x-api-key` header with your Postman API Key. Whe
 
 [![create mock](https://assets.postman.com/postman-docs/WS-creaste-mock34.png)](https://assets.postman.com/postman-docs/WS-creaste-mock34.png)
 
-You can verify that the mock server was successfully created using the [GET All Mocks](https://documenter.getpostman.com/view/12959542/UV5XjJV8?_ga=2.100201950.1771040895.1644854022-1154140310.1627600155#52a729a4-4a36-46e5-bfdf-fda0af228d2f) endpoint. Alternatively, in Postman, select **Mocks** in the left sidebar and verify the `testAPImock` mock server exists.
+## Step 4: Get the mock server URL
 
-## Step 4: Run the mock server
+To send a request your mock server, you need to know the mock server URL. You can retrieve the mock server URL using the [GET All Mocks](https://documenter.getpostman.com/view/12959542/UV5XjJV8?_ga=2.100201950.1771040895.1644854022-1154140310.1627600155#52a729a4-4a36-46e5-bfdf-fda0af228d2f) endpoint. Create a new request in Postman, leave `GET` selected for the method, and enter the following URL: `https://api.getpostman.com/mocks`
+
+Add an `x-api-key` header with your Postman API Key, and then select **Send**. A list of all of your mock servers is displayed in the response pane. Search for the `testAPImock` mock server and locate the `mockURL` value. You'll use this URL to send a request to the mock server.
+
+SCREENSHOT
+
+> You can also find the mock server URL in Postman. Select **Mock Servers** in the left sidebar, select the `testAPI` collection, and then select **Copy URL**.
+
+## Step 5: Send a request to the mock server
+
+You are now ready to simulate requests using your collection. To mock a request, use the following URL:
 
 Your Collection is now ready to be simulated.
 
@@ -122,7 +133,7 @@ https://{{mockId}}.mock.pstmn.io/{{mockPath}}
 * `mockId` is the `id` that you received upon creating the mock and can be retrieved using the [GET All Mocks endpoint](https://docs.api.getpostman.com/#018b5d62-f6fc-f752-597e-c1eb4bb98d24).
 * `mockPath` is the path of your request that you’d like to mock, for example `api/response`.
 
-## Step 5: Add optional request headers
+## Step 6: Add optional request headers
 
 * Mock requests also accept another optional header, `x-mock-response-code`, which specifies the integer response code your returned response will match. For example, `500` will return only an HTTP 500 response. If this header is not provided, the closest match of any response code will be returned.
 * Similarly, other optional headers like `x-mock-response-name` or `x-mock-response-id` enable you to further specify the exact response you want by the name or the uid of the saved example, respectively. You can get the example response uid by using the Postman API to [GET a Single Collection](https://docs.api.getpostman.com/#647806d5-492a-eded-1df6-6529b5dc685c) and searching for your example in the response. The uid has the syntax `<user-id>-<response-id>`. Without these optional headers, the mock will follow a [matching algorithm](/docs/designing-and-developing-your-api/mocking-data/matching-algorithm/) to decide which example to return.
