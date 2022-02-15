@@ -29,7 +29,7 @@ contextual_links:
     url: "/docs/designing-and-developing-your-api/versioning-an-api/"
 ---
 
-You can use version control with your Postman Collections by forking and merging and utilizing a standard pull request process. Version control allows you to collaborate with teammates by working on different forks of the same collection, updating forks from the parent collection, and merging changes when you're ready. You can tag collaborators to review pull requests and resolve conflicts to manage collection versions.
+Postman version control features provide a way for you and your team to collaboratively build an API. You can fork a collection, make updates to the fork, make a pull request, and merge your changes into the parent collection.
 
 > Version control for collections is different than  API versioning. For information on managing multiple versions of APIs, see [Versioning APIs](/docs/designing-and-developing-your-api/versioning-an-api/).
 
@@ -49,13 +49,15 @@ You can use version control with your Postman Collections by forking and merging
 
 ## Forking Postman elements
 
-You can fork Postman collections and environments. <!-- TODO: flesh this out a bit and how it relates to version control -->
+A _fork_ is a new instance of an element that you can modify without making any changes to the parent element. In Postman, you can fork [collections](#forking-a-collection) and [environments](#forking-an-environment). Forking also enables you to contribute to a collection or an environment without having edit access to that element.
 
 ### Forking a collection
 
 > To fork a collection within a public workspace, you must enable your public profile in your [profile settings](https://go.postman.co/settings/me). For more information on making your profile public, see [Managing your account](/docs/getting-started/postman-account/#making-your-profile-public).
 
-When you fork a Postman collection, you create a copy of it in a different workspace. To fork a collection:
+When you fork a Postman collection, you create a copy of it in a different workspace.
+
+To fork a collection:
 
 1. Select **Collections** in the left sidebar.
 1. Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to the collection name.
@@ -120,9 +122,11 @@ To see the list of forks for a collection:
 
 > Pull requests are only available for collections.
 
-When you fork a collection, you can make changes to it. When you have made the changes that you want, you can create a _pull request_. Creating a pull request means that you want to merge the changes you made in the fork of the collection (the _source_) into the parent collection (the _destination_), requesting that reviewers look at your changes and decide to merge them.
+When you have made the changes that you want to a forked collection, you can create a _pull request_. Creating a pull request means that you want to merge the changes you made in the forked collection (the _source_) into the parent collection (the _destination_). As part of the pull request process, you will request that reviewers look at your changes. The reviewers can make comments on your changes and will decide whether to approve them and merge them into the parent collection.
 
-1. Select the collection in the **Collections** sidebar.
+To create a pull request:
+
+1. Select the forked collection in the **Collections** sidebar.
 1. Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to the collection name.
 1. Select **Create pull request**.
 
@@ -252,11 +256,24 @@ Each pull request includes status, which will be `OPEN` for any that have not be
 
 When you merge changes from a fork into its parent collection, you have a chance to review the difference between them, known as the _diff_, first. The diff navigation view enables you to review the changes made to a collection. The nested folder structure shows the requests present within the folders and improves navigation while working with forks and pull requests.
 
-To view the diff:
+To view the diff in a pull request:
 
 1. Select the __Changes__ tab.
 
-![Diff Navigation](https://assets.postman.com/postman-docs/diff-navigation-v2.jpg)
+![Diff Navigation](https://assets.postman.com/postman-docs/diff-navigation-v2.jpg) <!-- TODO: update image -->
+
+### Adding comments
+
+Adding comments as a reviewer is an important part of the pull request process, facilitating meaningful conversations and allowing stakeholders to have a voice in the process.
+
+To add a comment to a pull request:
+
+1. Select the comment icon <img alt="Changelog icon" src="https://assets.postman.com/postman-docs/icon-comments-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to the change in the diff that you want to comment on.
+1. Once you've written your comment, select **Add Comment**.
+
+<img alt="Add a comment to a pull review" src="https://assets.postman.com/postman-docs/pr-add-comment-v9.12.jpg" width="450px"/>
+
+> To tag another user in your comment, use the `@` symbol before their username.
 
 ### Editing or declining a pull request
 
