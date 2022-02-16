@@ -66,7 +66,7 @@ You can add your teammates from your [team dashboard](https://go.postman.co/team
 
 ### Check Your Setup
 
-Before you start work in full, it’s best to check in on the functionality of Postman within your organization and ensure everything operates as expected. If you do not have access to Postman and a Postman account, find a team member who does to help you test the configuration. Depending on your organization's IT policy you may need to make requests of your IT team in order to get up and running as well.
+Before you start work in full, it’s best to check the functionality of Postman within your organization and ensure everything operates as expected. If you do not have access to Postman and a Postman account, find a team member who does to help you test the configuration. Depending on your organization's IT policy you may need to make requests of your IT team in order to get up and running as well.
 
 Ensure you are connected to your organization's network and test the following:
 
