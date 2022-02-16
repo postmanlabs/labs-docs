@@ -31,7 +31,7 @@ contextual_links:
 
 Postman version control features provide a way for you and your team to collaboratively build an API. You can fork a collection, make updates to the fork, make a pull request, and merge your changes into the parent collection.
 
-> Version control for collections is different than  API versioning. For information on managing multiple versions of APIs, see [Versioning APIs](/docs/designing-and-developing-your-api/versioning-an-api/).
+> Version control for collections is different from API versioning. For information on managing multiple versions of APIs, see [Versioning APIs](/docs/designing-and-developing-your-api/versioning-an-api/).
 
 * [Forking Postman elements](#forking-postman-elements)
     * [Forking a collection](#forking-a-collection)
