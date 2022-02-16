@@ -146,17 +146,17 @@ To create a pull request:
 
     <img alt="Create Pull Request" src="https://assets.postman.com/postman-docs/pull-request-overview.jpg" width="350px"/>
 
-The reviewers you selected will be notified about your pull request. You will receive a notification if the reviewers comment on your pull request, approve your pull request, or merge the pull request. <!-- TODO: add links to other sections -->
+The reviewers you selected will be notified about your pull request. You will receive a notification if the reviewers [comment on](#adding-comments), [approve](#approving-a-pull-request), or [merge](#merging-changes-from-a-pull-request) the pull request.
 
 ### Pull request permissions
 
-The pull request author and any users with [viewer or editor access](/docs/collaborating-in-postman/roles-and-permissions/) on the parent collection can do the following actions on a pull request:
+The pull request reviewers and any users with [viewer or editor access](/docs/collaborating-in-postman/roles-and-permissions/) on the parent collection can do the following actions on a pull request:
 
-* Update the title and description
-* Decline a pull request
-* Approve or unapprove a pull request
-* Merge a pull request
-* View or add pull request comments <!-- TODO: links to other sections -->
+* [Update the title and description](#editing-or-declining-a-pull-request)
+* [Decline a pull request](#editing-or-declining-a-pull-request)
+* [Approve or unapprove a pull request](#approving-a-pull-request)
+* [Merge a pull request](#merging-changes)
+* [View or add pull request comments](#adding-comments)
 
 ### Creating public pull requests
 
@@ -321,7 +321,9 @@ You can keep your forked collections up to date with any changes in the parent, 
 
 ![Pull recent changes](https://assets.postman.com/postman-docs/pr-pull-changes-v9.12.jpg)
 
-### Merging changes from a pull request
+### Merging changes
+
+#### Merging changes from a pull request
 
 After a pull request is reviewed, it is ready to be merged into the parent collection.
 
@@ -332,15 +334,15 @@ After a pull request is reviewed, it is ready to be merged into the parent colle
     > If the parent collection has any changes since you last updated your fork, you can [pull those changes](#pulling-updates) before merging.
 
 1. Select one of the following merge options:
-    * **Merge changes**: 
-    * **Merge changes and update source**:
-    * **Merge changes and delete source**:
+    * **Merge changes**: Merge the changes into the parent collection. No changes are made to the forked collection. You must have editor access to the parent collection.
+    * **Merge changes and update source**: Merge the changes into the parent collection. Any differences in the parent collection are also made to the forked collection. You must have editor access to both the parent and forked collections.
+    * **Merge changes and delete source**: Merge the changes into the parent collection. After merging, the forked collection is deleted. You must have editor access to both the parent and forked collections.
 
     <img src="https://assets.postman.com/postman-docs/merge-fork-options-v9.12.jpg" alt="Merge Fork Options" width="400px"/>
 
 1. Select **Merge**.
 
-### Merging changes from a forked collection
+#### Merging changes from a forked collection
 
 If you have edit access to a collection, you can merge a fork into the parent collection without going through the [pull request process](#creating-pull-requests). For example, if you’re using forks in a personal workspace to organize your work, you can merge changes in a fork directly back into the parent collection. If you are collaborating with others, though, merging directly lacks the safeguards built into the pull request process, and many teams require pull requests as part of their version control workflow.
 
@@ -356,13 +358,18 @@ To merge changes from a fork without opening a pull request:
 
 ## Resolving conflicts
 
-If you encounter conflicts when you attempt to merge a forked collection, you will need to decide how you want to resolve them before continuing. A conflict will occur when you are attempting to merge changes into a request, folder, or example that has changed since you updated your fork.
+A merge conflict happens when you try to merge changes into a parent collection that has changed since you updated your fork and Postman cannot automatically resolve the differences between the two collections. If you encounter a conflict when you try to merge a forked collection, you will need to decide how you want to resolve them before continuing.
 
 > Merge conflicts can involve changes in multiple workspaces.
 
+To resolve a merge conflict:
+
+1. Look at the differences between the two collections. The **Source** line shows the changes on your fork, and the **Destination** line shows the changes on the parent collection.
+1. Select **Use this** next to the version you want to include when you merge.
+
 <img src="https://assets.postman.com/postman-docs/conflicts-pull-changes-v2.jpg" alt="Pull Changes" width="450px"/>
 
-The __Source__ will indicate the changes on your fork, with the __Destination__ representing the changes on the parent branch. Select __Use this__ next to the version you want to include when you merge. When conflicts are resolved, the __Pull changes__ button will be enabled and you can [pull updates](#pulling-updates).
+After you resolve the conflicts, the **Pull changes** button will be enabled and you can [pull updates](#pulling-updates).
 
 ## Next steps
 
