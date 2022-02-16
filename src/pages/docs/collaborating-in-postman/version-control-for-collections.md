@@ -66,7 +66,6 @@ To fork a collection:
 1. Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to the collection name.
 1. Select **Create a fork**.
 
-
     <img src="https://assets.postman.com/postman-docs/collection-create-a-fork-v9.1.jpg" alt="Create fork selected in menu" width="300px"/>
 
     > You can also fork a collection by selecting **Fork** on the collection overview tab.
