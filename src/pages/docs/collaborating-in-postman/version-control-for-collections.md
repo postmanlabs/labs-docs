@@ -312,16 +312,6 @@ After the pull request has been approved, you will see the status of the pull re
 
 <img src="https://assets.postman.com/postman-docs/pull-request-list-approved-v9.12.jpg" alt="Approved pull request" width="350px"/>
 
-### Viewing pull request details
-
-Once a pull request is merged, you cannot __edit__ or __decline__ it. You can check the merged pull request in the __Pull Requests__ panel.
-
-<img src="https://assets.postman.com/postman-docs/pull-request-list-v2.jpg" alt="Merged pull request" width="400px"/>
-
-You can view the detail on any merged pull request by selecting it.
-
-<img src="https://assets.postman.com/postman-docs/pull-request-details-v2.jpg" alt="Merge pull request Detail" width="300px"/>
-
 ### Pulling updates
 
 You can keep your forked collections up to date with any changes in the parent, for example if another team member has merged changes into the parent collection.
@@ -331,25 +321,38 @@ You can keep your forked collections up to date with any changes in the parent, 
 
 ![Pull recent changes](https://assets.postman.com/postman-docs/pr-pull-changes-v9.12.jpg)
 
-### Merging changes
-
-> If you have edit access to a collection, you can merge a fork into the parent collection without going through the [pull request process](#creating-pull-requests). However, the pull request process offers the most protection against introducing errors into your collections, and some teams require it.
+### Merging changes from a pull request
 
 After a pull request is reviewed, it is ready to be merged into the parent collection.
 
-Select __Merge changes__ on the fork in Postman.
+1. From the approved pull request, select **Merge**.
 
-Postman will display an overview of the changes you are attempting to merge.
+    ![Merge a pull request](https://assets.postman.com/postman-docs/pull-request-merge-fork-v9.12.jpg)
 
-![Merge Fork](https://assets.postman.com/postman-docs/merge-fork-collection-change-v2.jpg)
+    > If the parent collection has any changes since you last updated your fork, you can [pull those changes](#pulling-updates) before merging.
 
-> If the parent collection has any changes since you last updated your fork, you can [pull those changes](#pulling-updates) before merging.
+1. Select one of the following merge options:
+    * **Merge changes**: 
+    * **Merge changes and update source**:
+    * **Merge changes and delete source**:
 
-If there are no [conflicts](#resolving-conflicts) you can review the changes and select __Merge all changes__ when you are ready.
+    <img src="https://assets.postman.com/postman-docs/merge-fork-options-v9.12.jpg" alt="Merge Fork Options" width="400px"/>
 
-<img src="https://assets.postman.com/postman-docs/merge-fork-options.jpg" alt="Merge Fork Options" width="300px"/>
+1. Select **Merge**.
 
-You can merge all changes from the fork into the parent, merge into the parent and update the fork, or merge in the parent and delete the fork. Make a selection and select __Merge__.
+### Merging changes from a forked collection
+
+If you have edit access to a collection, you can merge a fork into the parent collection without going through the [pull request process](#creating-pull-requests). For example, if you’re using forks in a personal workspace to organize your work, you can merge changes in a fork directly back into the parent collection. If you are collaborating with others, though, merging directly lacks the safeguards built into the pull request process, and many teams require pull requests as part of their version control workflow.
+
+To merge changes from a fork without opening a pull request:
+
+1. Select the forked collection in the **Collections** sidebar.
+1. Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to the collection name.
+1. Select **Merge changes**.
+
+    ![Merge Fork](https://assets.postman.com/postman-docs/merge-fork-collection-change-v2.jpg)
+
+1. Proceed with the merge process described in [Merging changes from a pull request](#merging-changes-from-a-pull-request).
 
 ## Resolving conflicts
 
