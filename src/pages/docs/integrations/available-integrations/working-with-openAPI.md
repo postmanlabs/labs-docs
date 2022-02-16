@@ -1,7 +1,7 @@
 ---
 title: "OpenAPI"
 order: 175
-updated: 2021-04-30
+updated: 2022-02-16
 page_id: "working_with_openAPI"
 contextual_links:
   - type: section
@@ -25,12 +25,8 @@ contextual_links:
 warning: false
 ---
 
-You can import your existing OAS 3.0 definitions (OpenAPI Specification) into Postman. Postman supports both YAML and JSON formats. You can choose to upload a file, enter a URL, or directly copy your JSON/YAML. In Postman, click 'Import' to bring up the following screen:
+You can import your existing OpenAPI 3.0 and 3.1 definitions (OpenAPI Specification) into Postman. Postman supports both YAML and JSON formats. You can choose to upload a file, enter a URL, or directly copy your JSON/YAML. In Postman, select **Import** to bring up the following screen:
 
 [![import sample](https://assets.postman.com/postman-docs/open-api-import-b.jpg)](https://assets.postman.com/postman-docs/open-api-import-b.jpg)
 
-When importing your OpenAPI specification, Postman follows the endpoint hierarchy defined in the specification to create a collection organized into folders (if your OpenAPI has multiple levels of hierarchy).
-
-Postman uses the schemas defined in the OpenAPI to generate request and response bodies. The following screen clearly illustrates importing of OpenAPI specification into Postman:
-
-[![import swagger 3 file](https://assets.postman.com/postman-docs/openapi-import-api-example-b.gif)](https://assets.postman.com/postman-docs/openapi-import-api-example-b.gif)
+When importing your OpenAPI specification, Postman follows the endpoint hierarchy defined in the specification to create a collection organized into folders (if your OpenAPI has multiple levels of hierarchy). Postman uses the schemas defined in the OpenAPI to generate request and response bodies.

@@ -37,7 +37,7 @@ You can validate your API schema in Postman, and validate your elements (documen
 
 ## Validating schemas
 
-> Schema validation is available for OpenAPI 2.0 and 3.0 and WSDL 1.1 and 2.0 schemas.
+> Schema validation is available for OpenAPI 2.0, 3.0, and 3.1 and WSDL 1.1 and 2.0 schemas.
 
 Postman indicates validation errors on your API schema as you edit it in the **Definition** tab on the API version page. Errors can include missing required fields, malformed field names, incorrect data types, incorrect nesting, or other API schema validation issues.
 
