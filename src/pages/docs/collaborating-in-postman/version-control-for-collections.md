@@ -39,12 +39,15 @@ Postman version control features provide a way for you and your team to collabor
     * [Viewing fork information](#viewing-fork-information)
 * [Creating pull requests](#creating-pull-requests)
     * [Creating public pull requests](#creating-public-pull-requests)
+    * [Pull request settings](#pull-request-settings)
 * [Watching a pull request](#watching-a-pull-request)
-* [Pull request settings](#pull-request-settings)
-* [Approving changes](#approving-changes)
-* [Merging changes](#merging-changes)
-* [Pulling updates](#pulling-updates)
 * [Reviewing pull requests](#reviewing-pull-requests)
+    * [Viewing the diff](#viewing-the-diff)
+    * [Adding comments](#adding-comments)
+    * [Editing or declining a pull request](#editing-or-declining-a-pull-request)
+    * [Approving a pull request](#approving-a-pull-request)
+    * [Pulling updates](#pulling-updates)
+    * [Merging changes](#merging-changes)
 * [Resolving conflicts](#resolving-conflicts)
 
 ## Forking Postman elements
@@ -148,8 +151,6 @@ To create a pull request:
 
 The reviewers you selected will be notified about your pull request. You will receive a notification if the reviewers [comment on](#adding-comments), [approve](#approving-a-pull-request), or [merge](#merging-changes-from-a-pull-request) the pull request.
 
-### Pull request permissions
-
 The pull request reviewers and any users with [viewer or editor access](/docs/collaborating-in-postman/roles-and-permissions/) on the parent collection can do the following actions on a pull request:
 
 * [Update the title and description](#editing-or-declining-a-pull-request)
@@ -172,11 +173,11 @@ To create a pull request on a public collection, you must fork the parent collec
 
 Once you create the pull request, you will get a notification that it has been **Shared to public workspace**.
 
-## Pull request settings
+### Pull request settings
 
 > Pull request settings are available on [Postman Professional and Enterprise plans](https://www.postman.com/pricing).
 
-### Manage reviewer permissions
+#### Manage reviewer permissions
 
 1. Select the collection in the **Collections** sidebar.
 1. Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to the collection name.
@@ -193,7 +194,7 @@ Once you create the pull request, you will get a notification that it has been *
 >
 > <img alt="Reviewer permission" src="https://assets.postman.com/postman-docs/pull-request-reviewer-permission.jpg" width="350px"/>
 
-### Assign merge checks
+#### Assign merge checks
 
 Once you have created the pull request, you can assign merge checks before approving changes.
 
@@ -219,7 +220,7 @@ Select **View Merge Conditions** to see the merge conditions to be met for the p
 
 <img alt="Merge Condition" src="https://assets.postman.com/postman-docs/merge-conditions.jpg" width="400px"/>
 
-### Watching a pull request
+## Watching a pull request
 
 The watch option allows you to receive an in-app notification when a team member modifies the pull request. If you watch a pull request, you will be notified of actions such as adding a new comment, approving or unapproving, merging, and editing or declining a pull request.
 
