@@ -122,7 +122,7 @@ If you are unable to send any requests through Postman and your network requires
 
     * **Mac**: Open System Preferences and select **Network**. On the left-hand side, make sure to select the connected or active network connection. You can have different proxy settings for each type of network connection. At the bottom, select **Advanced**. Select the **Proxies** tab and you will see different protocols you can configure. If you select **Web Proxy (HTTP)**, you will be able to enter the proxy server IP address, port number, username, and password.
 
-    * **Linux**: System Settings > scroll down to Hardware and then select **Networking**. Select **Network Proxy**, you can choose from **Automatic** or **Manual**.
+    * **Linux**: In System Settings, scroll down to **Hardware**, select **Networking**, and then select **Network Proxy**. You can choose **Automatic** or **Manual**.
 
 If you are unable to send any requests through Postman and your network does not require a proxy, take the following steps:
 
