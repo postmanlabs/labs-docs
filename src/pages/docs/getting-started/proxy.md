@@ -118,7 +118,7 @@ You can select or unselect the option "**Use the system proxy**" to enable or di
 If you are unable to send any requests through Postman and your network requires a proxy, take the following steps:
 
 * Enable the system proxy and make sure the proxy is added to the operating system:
-    * **Windows**: Select **Start**, then select on the gear icon (**Settings**) at the far left. In Settings, select **Network & Internet**. In the left-hand pane, select **Proxy** at the bottom. **Manual Proxy Setup** > use a Proxy **(ON)**.
+    * **Windows**: Select **Start**, then select on the gear icon (**Settings**) at the far left. In Settings, select **Network & Internet**. In the left-hand pane, select **Proxy** at the bottom. Select **Manual Proxy Setup** > use a Proxy **(ON)**.
 
     * **Mac**: Open System Preferences and select **Network**. On the left-hand side, make sure to select the connected or active network connection. You can have different proxy settings for each type of network connection. At the bottom, select **Advanced**. Select the **Proxies** tab and you will see a bunch of different protocols you can configure. If you select **Web Proxy (HTTP)**, you will be able to enter the proxy server IP address, port number, username, and password.
 
