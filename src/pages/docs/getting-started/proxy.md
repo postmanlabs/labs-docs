@@ -141,7 +141,7 @@ If you are unable to send any requests through Postman and your network does not
         start C:\path\to\Postman.exe
         ```
 
-        Double-clicking this `.bat` file should open Postman without any of the proxy environment variables set.
+        Double-clicking this `.bat` file opens Postman without any of the proxy environment variables set.
 
         * **Mac/Linux** – http&#95;proxy= '' https&#95;proxy= '' HTTP&#95;PROXY= '' HTTPS&#95;PROXY= '' /path/to/postman
 
