@@ -101,7 +101,7 @@ To view the documentation for an OpenAPI 3.0 schema:
 
 <img alt="Viewing schema documentation" src="https://assets.postman.com/postman-docs/documentation-view-schema-docs-v9-12.jpg" width="1106px">
 
-> Postman alerts you if your API schema contains unsaved changes that are not reflected in the documentation. To update the API documentation with the latest schema changes, select the **Definition** tab and save your schema.
+> Postman alerts you if your API schema contains unsaved changes or errors. To update the API documentation with the latest schema changes, select the **Definition** tab and save your schema.
 
 ### Creating new documentation for an API
 
