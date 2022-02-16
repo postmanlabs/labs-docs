@@ -1,6 +1,7 @@
 ---
 title: "Coralogix"
 order: 165
+updated: 2021-02-03
 page_id: "coralogix"
 warning: false
 contextual_links:

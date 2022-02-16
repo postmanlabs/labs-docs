@@ -1,6 +1,7 @@
 ---
 title: "AWS API Gateway"
 order: 163.1
+updated: 2021-09-15
 page_id: "aws-api-gateway"
 warning: false
 contextual_links:

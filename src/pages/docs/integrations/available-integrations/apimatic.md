@@ -2,6 +2,7 @@
 title: "APIMatic"
 order: 163
 page_id: "apimatic"
+updated: 2022-02-11
 warning: false
 contextual_links:
   - type: section
@@ -18,40 +19,47 @@ contextual_links:
     url: "https://blog.postman.com/new-postman-pro-integration-apimatics-api-transformer/"
 ---
 
-You can use Postman's APIMatic integration to back up your Postman collections in Swagger, RAML, API Blueprint, and other API description formats.
+Postman's APIMatic integration converts a Postman collection into an API description format such as Swagger, RAML, or API Blueprint, and then periodically backs up the resulting file on GitHub.
 
-This integration allows APIMatic to convert your Postman collections into any major API description format, and save the resulting file into your designated GitHub repository.
+## Prerequisites
 
-If you don't already have a [GitHub account](https://github.com/), you'll need to create one.
+To set up an APIMatic integration with Postman, you will need:
 
-## Configuring APIMatic Integration
+* An [APIMatic account](https://www.apimatic.io/account/register)
+* An [APIMatic integration key](https://docs.apimatic.io/manage-apis/get-api-keys/)
+* A [GitHub account](https://github.com/)
+* A GitHub repository in which to back up your collection
 
-From the **[Home](https://go.postman.co/home)** page select **[Integrations](https://go.postman.co/integrations)**.
-
-![home page and integrations](https://assets.postman.com/postman-docs/apimatic-home.jpg)
-
-Search and select **APIMatic**.
-
-![browse and select APIMatic](https://assets.postman.com/postman-docs/apimatic-browse-all.jpg)
-
-Select **Add Integration** to authorize a periodic backup of your collection to your GitHub repository.
-
-![auth APIMatic](https://assets.postman.com/postman-docs/apimatic-github-auth.jpg)
-
-> If you are not signed in to GitHub, you will be prompted to log in.
-
-[![github apimatic](https://assets.postman.com/postman-docs/apimatic-save-config.jpg)](https://assets.postman.com/postman-docs/apimatic-save-config.jpg)
+## Configuring an APIMatic integration
 
 To back up a collection periodically to a GitHub repository:
 
-* Enter your [API key from APIMatic](https://docs.apimatic.io/manage-apis/create-or-import-api#view-api-integration-keys).
-* Select a collection.
-* Select a repository.
-* Specify a directory in the repository where you want to add the collection.
-* Enter a filename for the directory in the repository.
-* Select the format in which you want to save the collection, such as Postman 2.0 or APIMatic format.
-* Specify the branch where you want to add the collection. _Note that the branch you want to back up your collection to must already exist._
+1. On the Postman **[Home](https://go.postman.co/home)** page, select **[Integrations](https://go.postman.co/integrations)**.
+1. Type **APIMatic** into the search bar and select the result.
 
-Click **Add Integration**.
+    ![browse and select APIMatic](https://assets.postman.com/postman-docs/apimatic-browse-all.jpg)
 
-APIMatic converts your collection to the format of your choice and pushes it to your GitHub repository. This integration runs once a day at 1200UTC. Any changes you make to your collection will be picked up by the converter in its subsequent run. If no updates have been made to your collection, no updates will be pushed to GitHub.
+1. Select **Add Integration**.
+1. Your browser will open a new **Authorize Postman** page that gives Postman access to your GitHub repositories. Select **Authorize postmanlabs**. Once the authorization process is complete, the page will tell you to close the tab and continue in Postman.
+
+    > If you are not signed in to GitHub, you will be prompted to log in.
+
+1. In Postman, enter information about the integration:
+    * **APIMatic API Key** - Your [APIMatic integration key](https://docs.apimatic.io/manage-apis/get-api-keys/).
+    * **Nickname** - Create a nickname for the integration.
+    * **Choose Workspace** - Select the Postman workspace that the collection you want to back up belongs to.
+    * **Choose Collection** - Select the Postman collection you want to back up.
+    * **Choose Repository** - Select the GitHub repository your collection will be backed up to.
+    * **Enter Directory** - Add the directory in the GitHub repository in which to back up your collection. If a directory with that name does not exist, it will be created when you add the integration.
+    * **Enter filename** - Create a filename for the backup file.
+    * **Choose format** - Select the format in which you want to back up the collection.
+    * **Enter Branch** - Add the name of the GitHub branch in which to back up the collection. This branch must already exist, and the integration process will fail if you specify an invalid branch name.
+1. Select **Add Integration**.
+
+    <img alt="APIMatic integration form" src="https://assets.postman.com/postman-docs/apimatic-save-config-v9.jpg" width="400px"/>
+
+Once the integration has been created, select it to view details about the integration including its run log.
+
+<img alt="APIMatic integration run log" src="https://assets.postman.com/postman-docs/apimatic-run-log-v9.jpg" width="500px"/>
+
+This integration runs once a day at 12:00 UTC. If you make changes to your collection, they are picked up by the converter in its next run. If no updates are made to your collection, no updates are pushed to GitHub.

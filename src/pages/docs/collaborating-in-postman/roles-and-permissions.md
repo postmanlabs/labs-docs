@@ -51,6 +51,8 @@ Roles determine user permissions within a Postman team and a user's level of acc
 
     * [API roles](#api-roles)
 
+    * [Environment roles](#environment-roles)
+
     * [Mock server roles](#mock-server-roles)
 
     * [Monitor roles](#monitor-roles)
@@ -65,7 +67,7 @@ You can [assign](/docs/administration/managing-your-team/managing-your-team/) on
 
 * **Super Admin**: Manages everything within a team, including team settings, members, roles, and resources in [public, team, or private workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#changing-workspace-visibility). Team members with this role can perform all actions that Admin, Billing, Community Manager, and Developer roles can perform ([Enterprise plans only](https://www.postman.com/pricing)).
 * **Admin**: Manages team members and team settings.
-* **Billing**: Manages team plan and payments. Billing roles can be granted by a Super Admin or by a fellow team member with a Billing role. If this is not possible, contact our [Support Center](https://support.postman.com/hc/en-us).
+* **Billing**: Manages team plan and payments. Billing roles can be granted by a Super Admin, by a fellow team member with a Billing role, or by an Admin when inviting a new team member. If this is not possible, contact our [Support Center](https://support.postman.com/hc/en-us).
 * **Developer**: Has access to all team resources and workspaces.
 * **Community Manager**: Manages the public visibility of workspaces and team profile ([Professional and Enterprise plans only](https://www.postman.com/pricing)).
 
@@ -173,9 +175,27 @@ The following roles control access at an API level:
 | View reports for APIs |   &#x2714;  | &#x2714;   |
 | Add and remove API environments |   &#x2714;  | &#x2714;   |
 | Add and remove API documentation |   &#x2714;  | &#x2714;   |
-| Add and remove API test suites, integration tests, and contract tests |   &#x2714;  | &#x2714;   |
+| Add and remove API tests |   &#x2714;  | &#x2714;   |
 | Add and remove API monitors |   &#x2714;  | &#x2714;   |
 | Add and remove API mock servers |   &#x2714;  | &#x2714;   |
+
+## Environment roles
+
+You can [assign](/docs/administration/managing-your-team/managing-your-team/) two role types for Postman environments: **Editor** and **Viewer**.
+
+* **Editor**: Can edit and manage environments
+* **Viewer**: Can view and use environments
+
+The following roles control access at the mock server level:
+
+Environment | Editor | Viewer
+--- | --- | ---
+View environment | &#x2714; | &#x2714;
+Use environment | &#x2714; | &#x2714;
+Edit the current value of variables | &#x2714; | &#x2714;
+Edit and delete environments | &#x2714; |
+Manage environment roles | &#x2714; |
+Move environment | &#x2714; |
 
 ## Mock server roles
 
