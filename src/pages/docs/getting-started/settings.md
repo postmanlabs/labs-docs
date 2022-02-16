@@ -1,6 +1,7 @@
 ---
 title: "Setting up Postman"
 order: 8.1
+updated: 2022-02-16
 page_id: "settings"
 search_keyword: "GPU, hardware acceleration, shortcut, shortcuts, keyboard shortcuts"
 contextual_links:
@@ -122,7 +123,7 @@ Use the **Certificates** tab to add and manage CA certificates and client certif
 
 ## Proxy
 
-Use the **Proxy** tab to configure proxy settings for connecting to online services and sending API requests. Learn more about [configuring a proxy](/docs/sending-requests/capturing-request-data/proxy/).
+Use the **Proxy** tab to configure proxy settings for connecting to online services and sending API requests. Learn more about [configuring a proxy](/docs/getting-started/proxy/).
 
 ## Update
 

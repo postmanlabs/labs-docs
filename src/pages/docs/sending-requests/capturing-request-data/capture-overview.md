@@ -1,7 +1,7 @@
 ---
 title: "Capturing request data overview"
 page_id: "capturing_overview"
-updated: 2022-01-05
+updated: 2022-02-16
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -60,4 +60,4 @@ Postman's native apps for Mac, Windows, and Linux support configuring proxies. Y
 
 Use the **custom proxy** if all of your applications need to use the same proxy. Turn **custom proxy** on if you want to direct the requests from Postman through the custom proxy server. Turning it off will direct the requests to not use the proxy server.
 
-Learn more about [using a custom proxy](/docs/sending-requests/capturing-request-data/proxy/).
+Learn more about [using a custom proxy](/docs/getting-started/proxy/).
