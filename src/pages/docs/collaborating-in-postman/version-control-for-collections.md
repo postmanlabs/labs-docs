@@ -3,7 +3,7 @@ title: "Using version control"
 order: 75
 page_id: "version_control_for_collections"
 warning: false
-updated: 2022-02-15
+updated: 2022-02-17
 contextual_links:
   - type: section
     name: "Prerequisites"
