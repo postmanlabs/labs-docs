@@ -52,7 +52,7 @@ Postman version control features provide a way for you and your team to collabor
 
 ## Forking Postman elements
 
-A _fork_ is a new instance of an element that you can modify without making any changes to the parent element. In Postman, you can fork [collections](#forking-a-collection) and [environments](#forking-an-environment). Forking also enables you to contribute to a collection or an environment without having edit access to that element.
+A _fork_ is a new instance of an element that you can modify without making any changes to the parent element. In Postman, you can fork [collections](#forking-a-collection) and [environments](#forking-an-environment). Forking also enables you to contribute to a collection or an environment without having Editor access to that element.
 
 ### Forking a collection
 
@@ -80,7 +80,7 @@ Your fork will be created in the selected workspace.
 
 If there are any [mocks](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/) or [monitors](/docs/monitoring-your-api/intro-monitors/) associated with a collection, they will not be available with the forked collection. You will need to create mocks and monitors specifically for the fork if you need them.
 
-> If you are not a member of a public workspace, you will not be able to send a request from a collection within the workspace. To send requests or make changes to a collection, fork the collection into a personal workspace or a team workspace that you belong to, and then make changes. Before forking the collection, you must be signed in to Postman.
+> If you are not a member of a public workspace, you will not be able to send a request from a collection within the workspace. To send requests or make changes to a collection, fork the collection into a personal workspace or a team workspace that you belong to. You must be signed in to Postman to fork a collection.
 
 ### Forking an environment
 
@@ -101,7 +101,7 @@ To fork an environment in Postman:
 
 Your forked environment will be created in the selected workspace. You will be able to view forked environments in **Environments** as well as under the environment dropdown on the right side of Postman.
 
-<img alt="Environment dropdown for forked environments" src="https://assets.postman.com/postman-docs/environment-dropdown-view-v9.12.jpg" height="200px"/>
+<img alt="Environment dropdown for forked environments" src="https://assets.postman.com/postman-docs/environment-dropdown-view-v9.12.jpg" width="300px"/>
 
 ### Viewing fork information
 
@@ -117,7 +117,8 @@ To see the list of forks for a collection:
 
 1. Select the fork icon <img alt="Fork icon" src="https://assets.postman.com/postman-docs/icon-fork.jpg" width="14px" style="vertical-align:middle;margin-bottom:5px"> from the context menu.
 1. Select the fork name under **Forks**.
-1. You can also select the user's avatar under **Forks** to view the user's public profile.
+
+    > You can also select the user's avatar under **Forks** to view the user's public profile.
 
     <img alt="View the list of forks" src="https://assets.postman.com/postman-docs/fork-information-list-v9.12.jpg" width="350px"/>
 
@@ -144,20 +145,16 @@ To create a pull request:
     * If there are any conflicts between the fork and the parent collection, they will be highlighted so that you can [resolve them](#resolving-conflicts).
 
 1. Select **Overview**.
-1. Enter a title and description for your pull request, and select up to 50 reviewers from the dropdown list. Reviewers must have edit access to the collection in order to merge your changes.
+1. Enter a title and description for your pull request, and select up to 50 reviewers from the dropdown list. Reviewers must have Editor access to the collection to merge your changes.
 1. Select **Create Pull Request**.
 
     <img alt="Create Pull Request" src="https://assets.postman.com/postman-docs/pull-request-overview.jpg" width="350px"/>
 
 The reviewers you selected will be notified about your pull request. You will receive a notification if the reviewers [comment on](#adding-comments), [approve](#approving-a-pull-request), or [merge](#merging-changes-from-a-pull-request) the pull request.
 
-The pull request reviewers and any users with [viewer or editor access](/docs/collaborating-in-postman/roles-and-permissions/) on the parent collection can do the following actions on a pull request:
-
-* [Update the title and description](#editing-or-declining-a-pull-request)
-* [Decline a pull request](#editing-or-declining-a-pull-request)
-* [Approve or unapprove a pull request](#approving-a-pull-request)
-* [Merge a pull request](#merging-changes)
-* [View or add pull request comments](#adding-comments)
+> A reviewer must have **Editor** access on the parent collection to merge changes. If a reviewer only has **Viewer** access to a collection, you will see a warning icon if you add them as reviewers for a pull request.
+>
+> <img alt="Reviewer permission" src="https://assets.postman.com/postman-docs/pull-request-reviewer-permission.jpg" width="350px"/>
 
 ### Creating public pull requests
 
@@ -185,14 +182,10 @@ Once you create the pull request, you will get a notification that it has been *
 
     <img alt="Collection Manage Roles" src="https://assets.postman.com/postman-docs/collection-manage-roles-v9.1.jpg" width="300px"/>
 
-1. Select **Editor** for the users you want to provide editor access to.
+1. Select **Editor** for the users you want to provide Editor access to.
 1. Select **Update Roles**.
 
     [![manage roles](https://assets.postman.com/postman-docs/manage-roles-collection-v9.12.jpg)](https://assets.postman.com/postman-docs/manage-roles-collection-v9.12.jpg)
-
-> A user must have **Editor** access on a collection to merge changes. If a user only has **Viewer** access to a collection, you will see a warning icon if you add them as reviewers for a pull request.
->
-> <img alt="Reviewer permission" src="https://assets.postman.com/postman-docs/pull-request-reviewer-permission.jpg" width="350px"/>
 
 #### Assign merge checks
 
@@ -257,15 +250,15 @@ Each item shows the pull request's status, which will be `OPEN` for any that hav
 
 ### Viewing the diff
 
-When you merge changes from a fork into its parent collection, you have a chance to review the difference between them, known as the _diff_, first.
+When you review a pull request, it's important to see the changes that the pull request would introduce into the parent collection. The difference between the fork and the parent collection is known as the _diff_.
 
-If you are [opening a new pull request](#creating-pull-requests), view the diff by selecting the **Changes** tab.
+To view the diff:
 
-<img alt="View diff when creating pull request" src="https://assets.postman.com/postman-docs/pull-request-create-view-diff-v9.12.jpg" width="300px"/>
-
-If you are reviewing a pull request, view the diff under the **Changes** heading.
+1. In the pull request, view the diff under the **Changes** heading.
 
 <img alt="View diff when reviewing pull request" src="https://assets.postman.com/postman-docs/pull-request-review-view-diff-v9.12.jpg" width="450px"/>
+
+The diff will tell you whether a change is an addition, a deletion, or a modification. You can use the **Jump to** pane on the right side of the pull request to navigate the folders and API requests included in the pull request.
 
 ### Adding comments
 
@@ -335,9 +328,9 @@ After a pull request is reviewed, it is ready to be merged into the parent colle
     > If the parent collection has any changes since you last updated your fork, you can [pull those changes](#pulling-updates) before merging.
 
 1. Select one of the following merge options:
-    * **Merge changes**: Merge the changes into the parent collection. No changes are made to the forked collection. You must have editor access to the parent collection.
-    * **Merge changes and update source**: Merge the changes into the parent collection. Any differences in the parent collection are also made to the forked collection. You must have editor access to both the parent and forked collections.
-    * **Merge changes and delete source**: Merge the changes into the parent collection. After merging, the forked collection is deleted. You must have editor access to both the parent and forked collections.
+    * **Merge changes**: Merge the changes into the parent collection. No changes are made to the forked collection. You must have Editor access to the parent collection.
+    * **Merge changes and update source**: Merge the changes into the parent collection. Any differences in the parent collection are also made to the forked collection. You must have Editor access to both the parent and forked collections.
+    * **Merge changes and delete source**: Merge the changes into the parent collection. After merging, the forked collection is deleted. You must have Editor access to both the parent and forked collections.
 
     <img src="https://assets.postman.com/postman-docs/merge-fork-options-v9.12.jpg" alt="Merge Fork Options" width="400px"/>
 
@@ -345,13 +338,14 @@ After a pull request is reviewed, it is ready to be merged into the parent colle
 
 #### Merging changes from a forked collection
 
-If you have edit access to a collection, you can merge a fork into the parent collection without going through the [pull request process](#creating-pull-requests). For example, if you’re using forks in a personal workspace to organize your work, you can merge changes in a fork directly back into the parent collection. If you are collaborating with others, though, merging directly lacks the safeguards built into the pull request process, and many teams require pull requests as part of their version control workflow.
+If you have Editor access to a collection, you can merge a fork into the parent collection without going through the [pull request process](#creating-pull-requests). For example, if you’re using forks in a personal workspace to organize your work, you can merge changes in a fork directly back into the parent collection. If you are collaborating with others, though, merging directly lacks the safeguards built into the pull request process, and many teams require pull requests as part of their version control workflow.
 
 To merge changes from a fork without opening a pull request:
 
 1. Select the forked collection in the **Collections** sidebar.
 1. Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to the collection name.
 1. Select **Merge changes**.
+1. Review the diff and select **Merge all changes**.
 
     ![Merge Fork](https://assets.postman.com/postman-docs/merge-fork-collection-change-v2.jpg)
 
@@ -359,7 +353,7 @@ To merge changes from a fork without opening a pull request:
 
 ## Resolving conflicts
 
-A merge conflict happens when you try to merge changes into a parent collection that has changed since you updated your fork and Postman cannot automatically resolve the differences between the two collections. If you encounter a conflict when you try to merge a forked collection, you will need to decide how you want to resolve them before continuing.
+A merge conflict happens when you try to merge changes into an updated parent collection and Postman is not able to automatically resolve the differences between the two collections. If you encounter a conflict when you try to merge a forked collection, you will need to decide how you want to resolve them before continuing.
 
 > Merge conflicts can involve changes in multiple workspaces.
 
