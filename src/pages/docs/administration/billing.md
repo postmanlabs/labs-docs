@@ -83,7 +83,7 @@ In your [billing dashboard](http://go.postman.co/billing), select **Resource usa
 
 > Select **View detailed usage** next to **Monitoring Usage** to view your team's active monitors and their impact on your team's overall usage during the current billing period.
 
-You can opt to allow or disable overages for mock server and monitor usage by selecting the icon to the right of each item. If enabled, you will be charged on a pay-as-you-go basis.
+You can opt to allow or disallow overages for mock server and monitor usage by selecting the icon to the right of each item. If enabled, you will be charged on a pay-as-you-go basis.
 
 You can also [Purchase Add-ons](#purchasing-add-ons).
 
@@ -187,7 +187,7 @@ Select to pay **Monthly** or **Annual** and confirm your changes. Note that annu
 
 ### Purchasing add-ons
 
-The base number of monitoring requests, mock server calls, and custom domains included in your plan depends on your [plan type](https://www.postman.com/pricing). You can enable or disable overages for monitoring and mock server calls by [managing your team's add-ons](#managing-add-ons). If enabled, you will be charged on a pay-as-you-go basis.
+The base number of monitoring requests, mock server calls, and custom domains included in your plan depends on your [plan type](https://www.postman.com/pricing). You can allow or disallow overages for monitoring and mock server calls by [managing your team's add-ons](#managing-add-ons). If enabled, you will be charged on a pay-as-you-go basis.
 
 You can purchase additional blocks of monitoring requests, mock server calls, and custom domains by navigating to your [billing dashboard](http://go.postman.co/billing), selecting **Resource usage** on the left, then **Purchase Add-ons** on the right.
 

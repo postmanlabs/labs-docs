@@ -94,5 +94,5 @@ Logged events include the following actions.
 | Updated User Roles | Roles were updated for some users in your team.  |
 | Team URL changed  | Team’s URL updated. (The custom URL you use to access your team’s dashboard.)  |
 | Added Custom Alert | A new [custom token alert](/docs/api-security/token-scanner/#custom-alerts) was created for your team. |
-| Edited Custom Alert | A custom token alert's name or regex pattern was changed, or the alert was enabled or disabled. |
+| Edited Custom Alert | A custom token alert's name or regex pattern was changed, or the alert was turned on or off. |
 | Deleted Custom Alert  | A custom token alert was deleted. |

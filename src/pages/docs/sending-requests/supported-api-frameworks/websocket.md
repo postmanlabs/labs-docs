@@ -147,7 +147,7 @@ In an expanded message:
 
 In Socket.IO, you have the ability to listen to specific events. The **Messages** pane will only display the received events for which you've added listeners. Events will be color-coded by event to make them easier to find.
 
-To the left of the **Messages** pane in a Socket.IO request is a **Listeners** panel of listener events. To listen to a new event, enter the name of an event and select **+** to add it. Select the toggle next to an event to disable and re-enable listening to that event. If you hover over the toggle, you can delete the event listener.
+To the left of the **Messages** pane in a Socket.IO request is a **Listeners** panel of listener events. To listen to a new event, enter the name of an event and select **+** to add it. Select the toggle next to an event to turn listening on or off for that event. If you hover over the toggle, you can delete the event listener.
 
 [![Socket.IO message body](https://assets.postman.com/postman-docs/socketio-message-body.jpg)](https://assets.postman.com/postman-docs/socketio-message-body.jpg)
 
