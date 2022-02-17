@@ -2,7 +2,7 @@
 title: 'Defining an API Specification'
 order: 81.3
 page_id: 'defining_api_specification'
-updated: 2022-02-16
+updated: 2022-02-17
 warning: false
 contextual_links:
   - type: section
@@ -38,7 +38,7 @@ You can define the structure of your API using its specification. You can also g
 
 The __Definition__ tab in each API version page contains an editor for your API specification (either one you imported or a sample Postman added when you created the API).
 
-The default schema type is OpenAPI 3.1, with YAML as the default format. To use a different schema type or format, choose it from the dropdown list.
+The default schema type is OpenAPI 3.0, with YAML as the default format. To use a different schema type or format, choose it from the dropdown list.
 
 The left pane of the schema editor displays an outline of your schema. When you first open the editor, the top level of nodes will be expanded, and the rest of them collapsed. Select nodes to expand or collapse them. Select an element in the outline to jump to it in the editor. You can also select the outline button to hide or show the outline.
 
