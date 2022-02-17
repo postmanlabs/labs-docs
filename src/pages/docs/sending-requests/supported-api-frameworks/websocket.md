@@ -227,7 +227,7 @@ Documenting a collection is similar, but the description is on the **Overview** 
 
 ## Other Socket.IO Notes
 
-Socket.IO normally uses WebSockets as its transport layer, but sometimes uses HTTP "long-polling" as a fallback when WebSockets can't be used. Postman does not support long-polling mode in Socket.IO.
+Socket.IO typically uses WebSockets as its transport layer, but sometimes uses HTTP "long-polling" as a fallback when WebSockets can't be used. Postman does not support long-polling mode in Socket.IO.
 
 ## Troubleshooting WebSocket Requests
 
