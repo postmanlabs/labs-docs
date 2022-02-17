@@ -77,7 +77,7 @@ To fork a collection:
 
 Your fork will be created in the selected workspace.
 
-If there are any [mocks](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/) or [monitors](/docs/monitoring-your-api/intro-monitors/) associated with a collection, they will not be available with the forked collection. You will need to create mocks and monitors specifically for the fork if you need them.
+If there are any [mocks](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/) or [monitors](/docs/monitoring-your-api/intro-monitors/) associated with a collection, they will not be linked to the forked collection. You will need to create mocks and monitors specifically for the fork if you need them.
 
 > If you are not a member of a public workspace, you won't be able to send a request from a collection within the workspace. To send requests or make changes to a collection, fork the collection into a personal workspace or a team workspace that you belong to. You must be signed in to Postman to fork a collection.
 
