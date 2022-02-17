@@ -1,6 +1,7 @@
 ---
 title: "Using a custom proxy"
 order: 33
+updated: 2022-02-16
 page_id: "proxy"
 search_keyword: "HTTP_PROXY, NO_PROXY"
 contextual_links:
@@ -64,7 +65,7 @@ Postman's native apps for Mac, Windows, and Linux support configuring proxies. Y
 
 Use the **custom proxy** if all of your applications need to use the same proxy. Turn **custom proxy** _on_ if you want to direct the requests from Postman go through a custom proxy server. Turning it off will direct the requests to not use the proxy server.
 
-To configure the proxy settings, click the gear icon on the right side of the header toolbar, choose **Settings**, and select the **Proxy** tab.
+To configure the proxy settings, select the gear icon on the right side of the header toolbar, choose **Settings**, and select the **Proxy** tab.
 
 [![Proxy settings modal](https://assets.postman.com/postman-docs/proxy-settings-overview-modal.jpg)](https://assets.postman.com/postman-docs/proxy-settings-overview-modal.jpg)
 
@@ -117,11 +118,11 @@ You can select or unselect the option "**Use the system proxy**" to enable or di
 If you are unable to send any requests through Postman and your network requires a proxy, take the following steps:
 
 * Enable the system proxy and make sure the proxy is added to the operating system:
-    * **Windows**: Click **Start**, then click on the gear icon (**Settings**) at the far left. In Settings, click **Network & Internet**. In the left-hand pane, click **Proxy** at the bottom. **Manual Proxy Setup** > use a Proxy **(ON)**.
+    * **Windows**: Select **Start**, then select on the gear icon (**Settings**) at the far left. In Settings, select **Network & Internet**. In the left-hand pane, select **Proxy** at the bottom. Select **Manual Proxy Setup** > use a Proxy **(ON)**.
 
-    * **Mac**: Open System Preferences and click **Network**. On the left-hand side, make sure to select the connected or active network connection. You can have different proxy settings for each type of network connection. At the bottom, click **Advanced**. Select the **Proxies** tab and you will see a bunch of different protocols you can configure. If you click **Web Proxy (HTTP)**, you will be able to enter the proxy server IP address, port number, username, and password.
+    * **Mac**: Open System Preferences and select **Network**. On the left-hand side, make sure to select the connected or active network connection. You can have different proxy settings for each type of network connection. At the bottom, select **Advanced**. Select the **Proxies** tab and you will see different protocols you can configure. If you select **Web Proxy (HTTP)**, you will be able to enter the proxy server IP address, port number, username, and password.
 
-    * **Linux**: System Settings > scroll down to Hardware and then click on Networking. Click on **Network Proxy**, you can choose from **Automatic** or **Manual**.
+    * **Linux**: In System Settings, scroll down to **Hardware**, select **Networking**, and then select **Network Proxy**. You can choose **Automatic** or **Manual**.
 
 If you are unable to send any requests through Postman and your network does not require a proxy, take the following steps:
 
@@ -140,7 +141,7 @@ If you are unable to send any requests through Postman and your network does not
         start C:\path\to\Postman.exe
         ```
 
-        Double-clicking this bat file should open Postman without any of the proxy environment variables set.
+        Double-clicking this `.bat` file opens Postman without any of the proxy environment variables set.
 
         * **Mac/Linux** – http&#95;proxy= '' https&#95;proxy= '' HTTP&#95;PROXY= '' HTTPS&#95;PROXY= '' /path/to/postman
 
