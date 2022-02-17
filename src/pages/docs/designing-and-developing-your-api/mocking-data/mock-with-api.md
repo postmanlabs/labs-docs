@@ -110,7 +110,7 @@ As always, make sure to add an `x-api-key` header with your Postman API Key. Whe
 
 ## Step 4: Get the mock server URL
 
-To send a request your mock server, you need to know the mock server URL. You can retrieve the mock server URL using the [GET All Mocks](https://documenter.getpostman.com/view/12959542/UV5XjJV8?_ga=2.100201950.1771040895.1644854022-1154140310.1627600155#52a729a4-4a36-46e5-bfdf-fda0af228d2f) endpoint. Create a new request in Postman, leave `GET` selected for the method, and enter the following URL: `https://api.getpostman.com/mocks`
+To send a request to your mock server, you need to know the mock server URL. You can retrieve the mock server URL using the [GET All Mocks](https://documenter.getpostman.com/view/12959542/UV5XjJV8?_ga=2.100201950.1771040895.1644854022-1154140310.1627600155#52a729a4-4a36-46e5-bfdf-fda0af228d2f) endpoint. Create a new request in Postman, leave `GET` selected for the method, and enter the following URL: `https://api.getpostman.com/mocks`
 
 Add an `x-api-key` header with your Postman API Key, and then select **Send**. The response pane displays a list of all your mock servers. Search for the `testAPImock` mock server and locate the `mockUrl` value. You'll use this URL to send a request to the mock server.
 
