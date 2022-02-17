@@ -2,7 +2,7 @@
 title: 'Importing and exporting data'
 order: 8.2
 page_id: 'importing_and_exporting_data'
-updated: 2021-12-20
+updated: 2022-2-16
 contextual_links:
   - type: section
     name: "Additional Resources"
@@ -120,7 +120,7 @@ See the [Postman Collection Transformer](https://github.com/postmanlabs/postman-
 
 Postman directly supports importing the following formats:
 
-* [OpenAPI 3.0](https://github.com/postmanlabs/openapi-to-postman)
+* [OpenAPI 3.0 and 3.1](https://github.com/postmanlabs/openapi-to-postman)
 * Swagger [1.2](https://github.com/postmanlabs/swagger1-to-postman) and [2.0](https://github.com/postmanlabs/swagger2-postman2-lambda)
 * [GraphQL](https://github.com/postmanlabs/graphql-to-postman)
 * [cURL](https://github.com/postmanlabs/curl-to-postman)

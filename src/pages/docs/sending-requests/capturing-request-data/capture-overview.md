@@ -1,7 +1,7 @@
 ---
 title: "Capturing request data overview"
 page_id: "capturing_overview"
-updated: 2022-01-05
+updated: 2022-02-16
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -53,11 +53,3 @@ Learn more about [capturing HTTP requests](/docs/sending-requests/capturing-requ
 Postman Interceptor is similar to Postman Proxy in that it can capture requests sent between a client and a server. However, Postman Interceptor uses a Chrome plug-in rather than Postman's built-in proxy. With Postman Interceptor, you can capture HTTP and HTTP requests sent from a Google Chrome browser. You can also capture cookies from a server for use in your requests.
 
 Learn more about [using Postman Interceptor](/docs/sending-requests/capturing-request-data/interceptor/).
-
-## Using a custom proxy
-
-Postman's native apps for Mac, Windows, and Linux support configuring proxies. You can either use a **custom proxy** or the **system proxy** defined in the operating system.
-
-Use the **custom proxy** if all of your applications need to use the same proxy. Turn **custom proxy** on if you want to direct the requests from Postman through the custom proxy server. Turning it off will direct the requests to not use the proxy server.
-
-Learn more about [using a custom proxy](/docs/sending-requests/capturing-request-data/proxy/).
