@@ -173,6 +173,8 @@ Once you create the pull request, you will get a notification that it has been *
 
 > Pull request settings are available on [Postman Professional and Enterprise plans](https://www.postman.com/pricing).
 
+Pull request settings let you manage permissions for reviewers and assign merge checks.
+
 #### Manage reviewer permissions
 
 1. Select the collection in the **Collections** sidebar.
@@ -204,9 +206,9 @@ To set merge checks for pull requests on a specific collection:
 
 <img alt="Merge Check" src="https://assets.postman.com/postman-docs/manage-roles-set-merge-checks.jpg" width="800px"/>
 
-If the merge conditions for a pull request are not met, the option to **Merge** it into the parent collection will be disabled.
+If the merge conditions for a pull request are not met, the option to **Merge** it into the parent collection will be active.
 
-<img alt="Merge Disabled" src="https://assets.postman.com/postman-docs/view-merge-conditions-v9.12.jpg" width="300px"/>
+<img alt="Merge option is not active" src="https://assets.postman.com/postman-docs/view-merge-conditions-v9.12.jpg" width="300px"/>
 
 Select **View Merge Conditions** to see the merge conditions to be met for the pull request.
 
@@ -280,15 +282,14 @@ You can edit a pull request's details before approving it, or you can decline it
 
 To edit the pull request details:
 
-* Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> from the pull request's header bar.
-* Select **Edit**.
-* Make any changes to the pull request's title, description, and list of reviewers.
-* Select **Save Changes**.
+1. Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> at the upper right and select **Edit**.
+1. Make any changes to the pull request's title, description, and list of reviewers.
+1. Select **Save Changes**.
 
 If you do not want to merge the pull request into the parent collection, you can decline it. Declined pull requests cannot be reopened, so if you want to request edits or offer feedback, [add a comment](#adding-comments) instead. To decline the pull request:
 
-* Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> from the pull request's header bar.
-* Select **Decline**, then select **Decline Pull Request**.
+1. Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> at the upper right and select **Decline**.
+1. Select **Decline Pull Request**.
 
 ### Approving a pull request
 
@@ -315,6 +316,8 @@ You can keep your forked collections up to date with any changes in the parent, 
 ![Pull recent changes](https://assets.postman.com/postman-docs/pr-pull-changes-v9.12.jpg)
 
 ### Merging changes
+
+When you are ready to add the changes from a pull request or forked collection into the parent collection, you will _merge_ them into the parent collection.
 
 #### Merging changes from a pull request
 
