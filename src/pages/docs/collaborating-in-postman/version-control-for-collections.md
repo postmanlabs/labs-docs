@@ -29,7 +29,7 @@ contextual_links:
     url: "/docs/designing-and-developing-your-api/versioning-an-api/"
 ---
 
-Postman version control features provide a way for you and your team to collaboratively build an API. You can fork a collection, make updates to the fork, make a pull request, and merge your changes into the parent collection.
+Postman's version control features provide a way for you and your team to collaboratively build an API. You can fork a collection, make updates to the fork, create a pull request, and merge your changes into the parent collection.
 
 > Version control for collections is different from API versioning. For information on managing multiple versions of APIs, see [Versioning APIs](/docs/designing-and-developing-your-api/versioning-an-api/).
 
@@ -79,7 +79,7 @@ Your fork will be created in the selected workspace.
 
 If there are any [mocks](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/) or [monitors](/docs/monitoring-your-api/intro-monitors/) associated with a collection, they will not be available with the forked collection. You will need to create mocks and monitors specifically for the fork if you need them.
 
-> If you are not a member of a public workspace, you will not be able to send a request from a collection within the workspace. To send requests or make changes to a collection, fork the collection into a personal workspace or a team workspace that you belong to. You must be signed in to Postman to fork a collection.
+> If you are not a member of a public workspace, you won't be able to send a request from a collection within the workspace. To send requests or make changes to a collection, fork the collection into a personal workspace or a team workspace that you belong to. You must be signed in to Postman to fork a collection.
 
 ### Forking an environment
 
@@ -98,7 +98,7 @@ To fork an environment in Postman:
 
     <img src="https://assets.postman.com/postman-docs/fork-environment-v9.1.jpg" alt="Fork environment tab" width="400px"/>
 
-Your forked environment will be created in the selected workspace. You will be able to view forked environments in **Environments** as well as under the environment dropdown on the right side of Postman.
+Your forked environment will be created in the selected workspace. You will be able to view forked environments in **Environments** as well as under the environment dropdown list on the right side of Postman.
 
 <img alt="Environment dropdown for forked environments" src="https://assets.postman.com/postman-docs/environment-dropdown-view-v9.12.jpg" width="300px"/>
 
@@ -114,7 +114,7 @@ To see the list of users who have forked a collection or an environment:
 
 To see the list of forks for a collection:
 
-1. Select the fork icon <img alt="Fork icon" src="https://assets.postman.com/postman-docs/icon-fork.jpg" width="14px" style="vertical-align:middle;margin-bottom:5px"> from the context menu.
+1. Select the fork icon <img alt="Fork icon" src="https://assets.postman.com/postman-docs/icon-fork.jpg" width="14px" style="vertical-align:middle;margin-bottom:5px"> in the context bar.
 1. Select the fork name under **Forks**.
 
     > You can also select the user's avatar under **Forks** to view the user's public profile.
@@ -160,7 +160,7 @@ The reviewers you selected will be notified about your pull request. You will re
 To create a pull request on a public collection, you must fork the parent collection into a public workspace so that the users you ask to [review it](#reviewing-pull-requests) have access to it.
 
 1. Begin the pull request process described in [Creating pull requests](#creating-pull-requests). You will see a note that tells you to move the source collection to a public workspace.
-1. Select a public workspace to which to move the collection.
+1. Select the public workspace where you want to move the collection.
 1. Select **Move Collection**.
 
     <img src="https://assets.postman.com/postman-docs/make-source-collection-public-v9.jpg" alt="Make the source collection public" width="400px"/>
@@ -214,7 +214,7 @@ Select **View Merge Conditions** to see the merge conditions to be met for the p
 
 ## Watching a pull request
 
-The watch option allows you to receive an in-app notification when a team member modifies the pull request. If you watch a pull request, you will be notified of actions such as adding a new comment, approving or unapproving, merging, and editing or declining a pull request.
+The watch option enables you to receive an in-app notification when a team member modifies the pull request. If you watch a pull request, you will be notified of actions such as adding a new comment, approving or unapproving, merging, and editing or declining a pull request.
 
 To watch a pull request:
 
@@ -231,9 +231,9 @@ To change your watching notification settings:
 
 To view notifications for a watched pull request:
 
-1. Select the bell icon <img alt="Changelog icon" src="https://assets.postman.com/postman-docs/icon-notification-bell-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> in the top right corner of Postman. The popup will indicate further information about the change that was made to the pull request.
+1. Select the bell icon <img alt="Changelog icon" src="https://assets.postman.com/postman-docs/icon-notification-bell-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> in the top right corner of Postman. The popup indicates further information about the change that was made to the pull request.
 
-> If you create a pull request and modify it from the same account, you will not receive any notifications about changes made to the pull request.
+> If you create a pull request and modify it from the same Postman account, you will not receive any notifications about changes made to the pull request.
 
 ## Reviewing pull requests
 
@@ -241,15 +241,15 @@ If you're tagged as a reviewer on a pull request, you can view the changes, comm
 
 To see the list of pull requests for a collection:
 
-1. Navigate to the collection and select the **Pull Requests** icon <img alt="Pull request icon" src="https://assets.postman.com/postman-docs/icon-pull-request.jpg" width="16px" style="vertical-align:middle;margin-bottom:5px"> on the context menu.
+1. Navigate to the collection and select the **Pull Requests** icon <img alt="Pull request icon" src="https://assets.postman.com/postman-docs/icon-pull-request.jpg" width="16px" style="vertical-align:middle;margin-bottom:5px"> in the context bar.
 
 <img src="https://assets.postman.com/postman-docs/open-pull-request-list-v9.12.jpg" alt="Pull request list" width="350px"/>
 
-Each item shows the pull request's status, which will be `OPEN` for any that have not been merged or declined. Click on a pull request's name to open it.
+Each item shows the pull request's status, which will be `OPEN` for any that have not been merged or declined. Select a pull request's name to open it.
 
 ### Viewing the diff
 
-When you review a pull request, it's important to see the changes that the pull request would introduce into the parent collection. The difference between the fork and the parent collection is known as the _diff_.
+When you review a pull request, it's important to see the changes that the pull request will introduce into the parent collection. The difference between the fork and the parent collection is known as the _diff_.
 
 To view the diff:
 
@@ -270,7 +270,7 @@ To add a comment to a pull request:
 
 <img alt="Add a comment to a pull review" src="https://assets.postman.com/postman-docs/pr-add-comment-v9.12.jpg" width="450px"/>
 
-> To tag another user in your comment, use the `@` symbol before their username.
+> To tag another user in your comment, use the **@** symbol before their username.
 
 ### Editing or declining a pull request
 
@@ -282,7 +282,7 @@ To edit the pull request details:
 
 * Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> from the pull request's header bar.
 * Select **Edit**.
-* Make your changes to the pull request's title, description, and list of reviewers.
+* Make any changes to the pull request's title, description, and list of reviewers.
 * Select **Save Changes**.
 
 If you do not want to merge the pull request into the parent collection, you can decline it. Declined pull requests cannot be reopened, so if you want to request edits or offer feedback, [add a comment](#adding-comments) instead. To decline the pull request:

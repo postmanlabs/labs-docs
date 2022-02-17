@@ -214,7 +214,7 @@ To view notifications about what has changed in a collection you watch:
 
 1. You will also receive an email with the information regarding who made the change, what the change was, and when it was made. Select **View changelog** in the email to access the full changelog in Postman.
 
-> If you create a collection and modify it from the same account, you will not receive notifications for any changes you make to that collection.
+> If you create a collection and modify it from the same Postman account, you will not receive notifications for any changes you make to that collection.
 
 ### Forking a collection
 
