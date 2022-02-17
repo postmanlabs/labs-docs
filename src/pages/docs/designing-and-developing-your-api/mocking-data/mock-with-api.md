@@ -124,7 +124,7 @@ You are now ready to simulate requests using your collection. To send a request 
 
 Try this yourself by simulating `Request 1` in the `testAPI` collection. Create a new request in Postman, leaving `GET` selected for the method. For the request URL, enter your mock server URL and append the path from the request:
 
-`https://8a4dbf15-c25d-472e-81a3-e472d0e534be.mock.pstmn.io/get?test=123`
+`https://5327d2ae-89ac-4568-b0cb-190b7f3408b2.mock.pstmn.io/get?test=123`
 
 There's no need to add an `x-api-key` header, as the mock server is public, so just select **Send** to send the request. The response from the mock server is displayed in the response pane.
 
@@ -151,5 +151,3 @@ Use the headers `x-mock-match-request-body` or `x-mock-match-request-headers` to
 * To enable request body matching, set the value of `x-mock-match-request-body` to `true`.
 
 * To enable request header matching, include the header `x-mock-match-request-headers` and set its value to a comma-separated string of header keys that you want to match against the saved examples. Header matching is not case-sensitive.
-
-[![request headers](https://assets.postman.com/postman-docs/WS-run-mock40.png)](https://assets.postman.com/postman-docs/WS-run-mock40.png)
