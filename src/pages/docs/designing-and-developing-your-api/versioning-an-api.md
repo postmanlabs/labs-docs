@@ -99,9 +99,9 @@ You can connect an API to your remote Git-based repository, at the API level. Th
 
 > The user account used for authentication requires full access to repositories. You may want to create a service account with limited permissions specifically for this integration.
 
-You can only connect one Postman API to one remote repo. Multiple APIs require multiple repos. Multiple versions of an API can link to the same repo/branch combination, as long as development only happens on one branch. If you link a repo/branch to a new version, then all older integrations on that branch become locked. For inactive integrations, no pulls/pushes or new tag-links can happen, but the linked tags will remain.
+You can only connect one Postman API to one remote repo. Multiple APIs require multiple repos. Multiple versions of an API can link to the same repo/branch combination, as long as development only happens on one branch. If you link a repo or branch to a new version, then all previous integrations on that branch become locked. For inactive integrations, no pulls, pushes, or new tag-links can happen, but the linked tags will remain.
 
-> For GitHub connections, there's currently a limit of ten auth tokens per user per application imposed by GitHub. If you create more than ten connections with the same user, your oldest tokens will be revoked. Teams can use other Postman accounts to create more than ten integrations.
+> For GitHub connections, there's currently a limit of ten auth tokens per user per application imposed by GitHub. If you create more than ten connections with the same user, the additional tokens will be revoked in the order that they were created. Teams can use other Postman accounts to create more than ten integrations.
 
 To connect a repository:
 
@@ -116,7 +116,7 @@ To connect a repository:
 1. Select an **API schema directory** and **Collection directory** where schemas and collections will be stored in the repo. If you leave a value blank, a `postman/schemas` or `postman/collections` directory will be created in the root of the repo. If you select a directory already containing schemas, you will be asked which schema to use in Postman the first time you pull changes.
 1. Select **Connect Repository**.
 
-> If you previously used the GitHub integration for two-way sync of an API schema, you must delete the old integration to connect a repo to your API. An existing integration will continue to function, but you can't add new integrations for two-way sync to an API schema.
+> If you previously used the GitHub integration for two-way sync of an API schema, you must delete the previous integration to connect a repo to your API. An existing integration will continue to function, but you can't add new integrations for two-way sync to an API schema.
 
 ### Pulling and pushing changes
 
