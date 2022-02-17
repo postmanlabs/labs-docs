@@ -35,7 +35,7 @@ contextual_links:
 warning: false
 ---
 
-Setting up a [mock server](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/) enables you to simulate the behavior of a real API for development or testing purposes. You can [mock a collection](/docs/designing-and-developing-your-api/mocking-data/mocking-with-examples/) by adding examples and creating a mock server in Postman. Alternatively, you can automate the process of setting up a mock server using the [Postman API](https://www.postman.com/postman/workspace/postman-public-workspace/documentation/12959542-c8142d51-e97c-46b6-bd77-52bb66712c9a). Follow the steps below to get a hands-on demonstration of how to mock a collection with the Postman API.
+Setting up a [mock server](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/) enables you to simulate the behavior of a real API for development or testing purposes. In Postman, you [mock a collection](/docs/designing-and-developing-your-api/mocking-data/mocking-with-examples/) by adding examples and creating a mock server. You can also automate the process of setting up a mock server using the [Postman API](https://www.postman.com/postman/workspace/postman-public-workspace/documentation/12959542-c8142d51-e97c-46b6-bd77-52bb66712c9a). Follow the steps below to get a hands-on demonstration of how to mock a collection with the Postman API.
 
 ## Contents
 
@@ -56,7 +56,7 @@ Open the first request in the collection and select **Send** to send the request
 
 <img alt="Response saved as an example" src="https://assets.postman.com/postman-docs/mock-api-saved-example-v9-14.jpg" width="893px">
 
-> You can [edit an example](/docs/sending-requests/examples/#editing-an-example) to include the specific response body, header, or status code that you want the mocked endpoint to return. A request can have multiple examples, in which case the mock server will follow a [matching algorithm](/docs/designing-and-developing-your-api/mocking-data/matching-algorithm/) to decide which example to return.
+> You can [edit an example](/docs/sending-requests/examples/#editing-an-example) to include the specific response body, header, or status code that you want the mocked endpoint to return. A request can have more than one example, in which case the mock server will follow a [matching algorithm](/docs/designing-and-developing-your-api/mocking-data/matching-algorithm/) to decide which example to return.
 
 ## Step 2: Retrieve the collection ID
 
@@ -68,7 +68,7 @@ Create a new request in Postman, leave `GET` selected for the method, and enter 
 
 If you try sending the request, you'll receive an authentication error. To [authenticate with the Postman API](https://learning.postman.com/docs/developer/intro-api/#authentication), add an `x-api-key` header to your request and sets its value to your Postman API key. (You can [generate a new Postman API key](https://learning.postman.com/docs/developer/intro-api/#generating-a-postman-api-key) if you don't already have one.)
 
-Select **Send** to send the `GET All Collections` request. A list of all of your collections is displayed in the response pane. Search for the `testAPI` collection and locate the `uid` value. You will use this collection ID in the next step.
+Select **Send** to send the `GET All Collections` request. The response pane displays a list of all your collections. Search for the `testAPI` collection and locate the `uid` value. You will use this collection ID in the next step.
 
 <img alt="Getting the collection ID" src="https://assets.postman.com/postman-docs/mock-api-collection-id-v9-14.jpg" width="893px">
 
@@ -78,7 +78,7 @@ Select **Send** to send the `GET All Collections` request. A list of all of your
 
 Create a new request in Postman, leave `GET` selected for the method, and enter the following URL: `https://api.getpostman.com/environments`
 
-Make sure to add an `x-api-key` header with your Postman API Key, and then select **Send**. A list of all of your environments is displayed in the response pane. Search for the `testAPIenv` environment and locate the `uid` value.
+Make sure to add an `x-api-key` header with your Postman API Key, and then select **Send**. The response pane displays a list of all your environments. Search for the `testAPIenv` environment and locate the `uid` value.
 
 <img alt="Getting the environment ID" src="https://assets.postman.com/postman-docs/mock-api-environment-id-v9-14.jpg" width="893px">
 
@@ -112,7 +112,7 @@ As always, make sure to add an `x-api-key` header with your Postman API Key. Whe
 
 To send a request your mock server, you need to know the mock server URL. You can retrieve the mock server URL using the [GET All Mocks](https://documenter.getpostman.com/view/12959542/UV5XjJV8?_ga=2.100201950.1771040895.1644854022-1154140310.1627600155#52a729a4-4a36-46e5-bfdf-fda0af228d2f) endpoint. Create a new request in Postman, leave `GET` selected for the method, and enter the following URL: `https://api.getpostman.com/mocks`
 
-Add an `x-api-key` header with your Postman API Key, and then select **Send**. A list of all of your mock servers is displayed in the response pane. Search for the `testAPImock` mock server and locate the `mockUrl` value. You'll use this URL to send a request to the mock server.
+Add an `x-api-key` header with your Postman API Key, and then select **Send**. The response pane displays a list of all your mock servers. Search for the `testAPImock` mock server and locate the `mockUrl` value. You'll use this URL to send a request to the mock server.
 
 <img alt="Getting the mock server URL" src="https://assets.postman.com/postman-docs/mock-api-mock-url-v9-14.jpg" width="893px">
 
@@ -126,11 +126,11 @@ Try this yourself by simulating `Request 1` in the `testAPI` collection. Create 
 
 `https://5327d2ae-89ac-4568-b0cb-190b7f3408b2.mock.pstmn.io/get?test=123`
 
-There's no need to add an `x-api-key` header, as the mock server is public, so just select **Send** to send the request. The response from the mock server is displayed in the response pane.
+There's no need to add an `x-api-key` header, as the mock server is public, so just select **Send** to send the request. The response pane shows the response from the mock server.
 
 <img alt="Sending a request to the mock server" src="https://assets.postman.com/postman-docs/mock-api-mock-response-v9-14.jpg" width="893px">
 
-Notice that the response is identical to the example you saved for `Request 1`. That's because the mock server uses the example to create a response. If you added additional requests and examples to the collection, try sending them to the mock server using the mock server URL and the request path.
+Notice that the response is identical to the example you saved for `Request 1`. That's because the mock server uses the example to create a response. If you added more requests and examples to the collection, try sending them to the mock server using the mock server URL and the request path.
 
 ## Adding optional request headers
 
@@ -138,7 +138,7 @@ Postman mock servers accept optional headers you can use to customize how the mo
 
 ### Matching a response code
 
-Use the header `x-mock-response-code` to specify the HTTP response code the returned response will match. For example, `500` will return only an example with the HTTP 500 response.
+Use the header `x-mock-response-code` to specify the HTTP response code the returned response will match. For example, `500` will return an example with the HTTP 500 response.
 
 ### Matching a response name or ID
 
@@ -150,4 +150,4 @@ Use the headers `x-mock-match-request-body` or `x-mock-match-request-headers` to
 
 * To enable request body matching, set the value of `x-mock-match-request-body` to `true`.
 
-* To enable request header matching, include the header `x-mock-match-request-headers` and set its value to a comma-separated string of header keys that you want to match against the saved examples. Header matching is not case-sensitive.
+* To enable request header matching, include the header `x-mock-match-request-headers` and set its value to a comma-separated string of header keys that you want to match against the saved examples. Header matching isn't case-sensitive.
