@@ -20,6 +20,11 @@ Shared workspaces make it easy to [collaborate with your teammates](http://local
 
 To request [editor role](/docs/collaborating-in-postman/roles-and-permissions/) access, you need a link to the entity or access to the workspace where the entity is located. After you submit a request for access, the owner of the entity will receive a notification prompting them to approve the request.
 
+## Contents
+
+* [Requesting editor role access](#requesting-editor-role-access)
+* [Approving requests for access](#approving-requests-for-access)
+
 ## Requesting editor role access
 
 If you can view an entity but aren't able to edit it, you will see a lock ICON next to the name of the collection, API, environment, mock server, or monitor.
