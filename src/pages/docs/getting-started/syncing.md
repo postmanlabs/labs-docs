@@ -25,71 +25,38 @@ warning: false
 
 ---
 
-_Syncing_ makes all your Postman data available when you're signed in to your Postman account.
+Postman automatically syncs changes such as edits, updates, additions, or deletions, across all devices that are linked to your account. As long as you are signed in to Postman in the desktop app or in the web version, your data will be synced.
 
-Changes, such as edits, updates, additions, or deletions, sync across all devices that are linked to your account.
+* If you _sign out_, Postman deletes your data from the local app instance.
+* When you _sign back in_, Postman restores your data from the cloud.
+* When you _reload_, Postman automatically retrieves the most recent and up-to-date version of your collections.
 
-These entities can sync with the server and be saved to the cloud:
-
-* Collections
-* Folders
-* Requests
-* Responses
-* Header Presets
-* Environments
-* Environment variables
-* Global variables
-* Collection run results
-* Workspaces
-* History
-
-If you sign out of the app, Postman deletes your data from the local app instance.
-
-When you sign back in to the app, Postman restores your data from the cloud.
-
-When you reload the app, Postman automatically retrieves the most recent and up-to-date version of your collections.
-
-## Syncing between computers
-
-Install [Postman](https://www.postman.com/downloads/) and sign in with the same email address or username on all your devices.
-
-Alternatively, access Postman on the web by visiting [go.postman.co/home](https://go.postman.co/home) in your browser and signing into your account.
-
-If you forget your username or password, you can recover them using the links in the sign-in prompt.
-
-When you're logged into Postman, your data is synced across devices.
-
-**Note:** Postman restricts parallel usage to three apps per account.
+> Postman restricts parallel usage to three apps per account.
 
 ### Understanding sync states
 
-Postman indicates the sync state of your workspace. The flow diagram for sync states is shown below:
+Postman indicates the sync state of your workspace with the cloud icon. Possible states are:
 
-[![Sync States](https://assets.postman.com/postman-docs/sync-states-flow.jpg)](https://assets.postman.com/postman-docs/sync-states-flow.jpg)
+* **Offline**: An offline status means that you are not connected to the Postman servers. This means that either your computer is not connected to the internet or you are not signed in to Postman.
 
-If you are not signed in to Postman, you see the state as **Offline**. Click **Sign In** to connect to Postman.
+    > If you are offline, you will be in the _Scratch Pad_, which is a space where you can work locally without a connection or login to Postman. The work that you do in the Scratch Pad will not be synced to Postman, but you can export it and import it to a workspace later. For more information, see [Using the Scratch Pad](/docs/getting-started/using-scratch-pad/).
+    >
+    > <img alt="Offline state" src="https://assets.postman.com/postman-docs/scratch-pad-logged-out.jpg" width="300px" />
 
-If you are offline, you will be in the _Scratch Pad_, which is a space where you can work locally without a connection or login to Postman. The work that you do in the Scratch Pad will not be synced to Postman, but you can export it and import it to a workspace later. For more information see, [Using the Scratch Pad](/docs/getting-started/using-scratch-pad/).
+* **Connecting**: When you open Postman, the status will be **Connecting** before it starts to sync. You may also see this status if your connection drops and then reconnects.
 
-<img alt="Offline state" src="https://assets.postman.com/postman-docs/scratch-pad-logged-out.jpg" width="300px" />
+    [![Connecting state](https://assets.postman.com/postman-docs/connecting-state.jpg)](https://assets.postman.com/postman-docs/connecting-state.jpg)
 
-When you open Postman or if your connection drops, it displays **Connecting** before it starts to sync.
+* **Online**: Status indicator
 
-[![Connecting state](https://assets.postman.com/postman-docs/connecting-state.jpg)](https://assets.postman.com/postman-docs/connecting-state.jpg)
+    * **Syncing**: The data in your workspace is in the process of being backed up on Postman's servers.
+    * **In sync**: The data in your workspace is fully backed up on Postman's servers.
 
-When you click the icon, you will see **Syncing** in **Online** state. The popup will indicate further information about the current sync state.
+* **Error**: If you encounter a syncing error while connecting to Postman, the status indicator will show the **Error** state. Hover to see the detailed information on the error.
 
-[![Online state syncing](https://assets.postman.com/postman-docs/online-state-syncing.jpg)](https://assets.postman.com/postman-docs/online-state-syncing.jpg)
+    [![Error state](https://assets.postman.com/postman-docs/error-state-v2.jpg)](https://assets.postman.com/postman-docs/error-state-v2.jpg)
 
-If Postman is in sync with the server, the icon to the left of your name at the top right indicates **Online**, and displays a popup showing **In sync** on hover.
-
-[![Online state in sync](https://assets.postman.com/postman-docs/online-state-in-sync.jpg)](https://assets.postman.com/postman-docs/online-state-in-sync.jpg)
-
-While connecting to Postman, if you encounter a syncing error, it will indicate **Error** state. Hover to see the detailed information on the error.
-
-[![Error state](https://assets.postman.com/postman-docs/error-state-v2.jpg)](https://assets.postman.com/postman-docs/error-state-v2.jpg)
-
-> You may occasionally experience sync conflicts between Postman and its servers, particularly when you work as part of a team: [Postman will prompt you to resolve any conflicts that occur](/docs/collaborating-in-postman/using-workspaces/conflicts/)
+> You may occasionally experience sync conflicts between Postman and its servers, particularly when you work as part of a team. When this happens, Postman will prompt you to [resolve any conflicts](/docs/collaborating-in-postman/using-workspaces/conflicts/) that occur.
 
 ## Disabling sync
 
