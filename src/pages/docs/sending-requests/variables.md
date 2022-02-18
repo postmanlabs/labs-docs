@@ -85,7 +85,7 @@ A variable is a symbolic representation of data that enables you to access a val
 
 For example, if you have the same URL in multiple requests, but the URL might change later, you can store the URL in a variable. If the URL changes, you only need to change the variable value and it will be reflected throughout your collection, wherever you've used the variable name. The same principle applies to any part of your request where data is repeated.
 
-![URL Variable](https://assets.postman.com/postman-docs/url-var-v9.jpg)
+![Environment editor](https://assets.postman.com/postman-docs/environment-editor-new-v9.13.jpg)
 
 <a href="https://assets.postman.com/postman-docs/reference-var-v9.jpg"><img alt="Reference Variable" src="https://assets.postman.com/postman-docs/reference-var-v9.jpg" width="300px"/></a>
 
@@ -143,7 +143,7 @@ Users with [editor](/docs/collaborating-in-postman/roles-and-permissions/) acces
 
 To set the variable type, select the Environment quick look <img alt="Environment quick look icon" src="https://assets.postman.com/postman-docs/eye.jpg" width="24px" style="vertical-align:middle;margin-bottom:5px"> in the top right of Postman. Select **Edit** to the right of environment or global variables to open the editor.
 
-<a href="https://assets.postman.com/postman-docs/env-default-auth-key-9.5.jpg"><img alt="Environment editor with string auth key" src="https://assets.postman.com/postman-docs/env-default-auth-key-9.5.jpg"/></a>
+<img alt="Environment editor" src="https://assets.postman.com/postman-docs/environment-editor-default-v9.13.jpg">
 
 > You can also edit an environment by navigating to the workspace it resides in and selecting **Environments** from the left sidebar, then selecting your environment.
 
@@ -153,7 +153,7 @@ To set the variable type, select the Environment quick look <img alt="Environmen
 
 Select **default** next to the variable you'd like to change to open the dropdown menu, then select **secret** to update the variable type and save your changes to confirm.
 
-<a href="https://assets.postman.com/postman-docs/env-secret-auth-key-9.5-b.jpg"><img alt="Environment editor with secret auth key" src="https://assets.postman.com/postman-docs/env-secret-auth-key-9.5-b.jpg"/></a>
+<img alt="Environment editor" src="https://assets.postman.com/postman-docs/environment-editor-secret-v9.13.jpg">
 
 All workspace members can view a secret variable's initial and current values by selecting the <img alt="Eye crossed out icon" src="https://assets.postman.com/postman-docs/eye-crossed-out.jpg" width="24px" style="vertical-align:middle;margin-bottom:5px"> eye symbol to the right of the variable.
 
@@ -161,7 +161,7 @@ Editors can change a variable's initial values, which are shared with collaborat
 
 Editors can change the variable type from secret to default at any time, and vice versa. When you change a variable's type from secret back to default, you must confirm by selecting **Change type**.
 
-<a href="https://assets.postman.com/postman-docs/change-var-type-confirmation-9.5-b.jpg"><img alt="Confirm unmark variable as secret" src="https://assets.postman.com/postman-docs/change-var-type-confirmation-9.5-b.jpg" width="400px"/></a>
+<img alt="Confirm unmark variable as secret" src="https://assets.postman.com/postman-docs/environment-change-type-confirmation-v9.13.jpg" width="400px">
 
 ## Defining variables
 
@@ -189,7 +189,7 @@ You can create and edit environment variables by selecting __Environments__ on t
 
 You can choose an environment in the drop-down list at the top right:
 
-<img src="https://assets.postman.com/postman-docs/select-environment.jpg" alt="Environment Quick Look" width="250px"/>
+<img src="https://assets.postman.com/postman-docs/environment-selector-v9.13.jpg" alt="Environment selector" width="300px"/>
 
 You can also activate an environment in the left sidebar, by selecting the check-mark button to make the environment _active_.
 
@@ -218,7 +218,7 @@ You can also [define collection variables in scripts](#defining-variables-in-scr
 
 ### Specifying variable detail
 
-You can add and edit variables at any time. All you need to include for a new variable is a name. You can choose to supply an initial value but can alternatively set it later, including from scripts. Use the checkbox to the left of a variable to enable or disable a variable.
+You can add and edit variables at any time. All you need to include for a new variable is a name. You can choose to supply an initial value but can alternatively set it later, including from scripts. Use the checkbox to the left of a variable to activate or deactivate a variable.
 
 Initial values are shared when you share a collection or environment. Current values are local and not synced or shared. See [Sharing and persisting data](#sharing-and-persisting-data) for more on local vs synced variables.
 

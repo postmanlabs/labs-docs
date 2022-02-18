@@ -292,7 +292,7 @@ On the **Configuration Options** tab:
 * __Token Name:__ The name you want to use for the token.
 * __Grant Type:__ A dropdown list of options. This will depend on the API service provider requirements.
 * __Callback URL:__ The client application callback URL redirected to after auth, and that should be registered with the API provider. If not provided, Postman will use a default empty URL and attempt to extract the code or access token from it. If this does not work for your API, you can use the following URL: `https://oauth.pstmn.io/v1/browser-callback`
-    * __Authorize using browser:__ You can enter your credentials in your web browser, instead of the pop-up that appears in Postman by default when you use the __Authorization code__ or __Implicit__ grant type. Checking this box will set the __Callback URL__ to return to Postman. If you opt to authorize using the browser, make sure pop-ups are disabled for the callback URL, otherwise it won't work.
+    * __Authorize using browser:__ You can enter your credentials in your web browser, instead of the pop-up that appears in Postman by default when you use the __Authorization code__ or __Implicit__ grant type. Checking this box will set the __Callback URL__ to return to Postman. If you opt to authorize using the browser, make sure pop-ups are deactivated for the callback URL, otherwise it won't work.
 * __Auth URL:__ The endpoint for the API provider authorization server, to retrieve the auth code.
 * __Access Token URL:__ The provider's authentication server, to exchange an authorization code for an access token.
 * __Client ID:__ The ID for your client application registered with the API provider.
@@ -373,7 +373,7 @@ Windows Challenge/Response (NTLM) is the authorization flow for the Windows oper
 
 1. In the __Authorization__ tab for a request, select __NTLM Authentication__ from the __Type__ dropdown list.
 
-1. Enter your __Username__ and __Password__ for NTLM access (use variables to avoid entering the values directly). You can optionally specify advanced parameters, but Postman will attempt to autocomplete these if necessary. By default your request will run a second time after extracting data received from the first—you can disable this by checking the checkbox.
+1. Enter your __Username__ and __Password__ for NTLM access (use variables to avoid entering the values directly). You can optionally specify advanced parameters, but Postman will attempt to autocomplete these if necessary. By default your request will run a second time after extracting data received from the first. You can turn off this behavior by checking the checkbox.
 
 Advanced parameters for NTLM auth are as follows:
 

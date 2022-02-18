@@ -139,7 +139,7 @@ When you leave feedback or a question for a specific teammate, you can let them 
 
 Your teammate will be notified in the app or with an email that they've been tagged in a comment. In-app notifications appear as a red dot above the bell icon at the top right.
 
-> If your teammate has disabled notifications then they will not be notified. If they don't have access to the collection they've been tagged on, they'll need to request access before they can read the comment.
+> If your teammate has turned off notifications then they will not be notified. If they don't have access to the collection they've been tagged on, they'll need to request access before they can read the comment.
 
 <img src="https://assets.postman.com/postman-docs/check-comment-notifications-v8.jpg" alt="Notification bell" width="50%">
 

@@ -2,7 +2,7 @@
 title: 'Creating an API'
 order: 81.1
 page_id: 'creating_an_api'
-updated: 2021-09-15
+updated: 2022-02-16
 warning: false
 contextual_links:
   - type: section
@@ -38,7 +38,7 @@ To start using the API Builder, you can create a new API in your workspace. You 
 
 1. Enter a name and a version, then select a schema type and format for your API. You can optionally select the **Import** tab to import an API specification directly from either a local file or a GitHub or Bitbucket repo. If you don't import a schema, Postman will populate your API with a sample specification you can edit at any time.
 
-   > Postman currently supports OpenAPI (versions 1.0, 2.0, and 3.0), RAML (0.8 and 1.0), GraphQL, or WSDL (1.1 and 2.0) schemas. OpenAPI schemas can be defined in JSON or YAML. RAML schemas must be YAML. GraphQL schemas can be JSON or GraphQL SDL. WSDL schemas must be XML. Multi-file variants of schemas are currently not supported.
+   > Postman currently supports OpenAPI (versions 1.0, 2.0, 3.0, and 3.1), RAML (0.8 and 1.0), GraphQL, or WSDL (1.1 and 2.0) schemas. OpenAPI schemas can be defined in JSON or YAML. RAML schemas must be YAML. GraphQL schemas can be JSON or GraphQL SDL. WSDL schemas must be XML. Multi-file variants of schemas are currently not supported.
 
    ![New API](https://assets.postman.com/postman-docs/create-api-v9.jpg)
 

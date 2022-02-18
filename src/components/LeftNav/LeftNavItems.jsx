@@ -83,6 +83,10 @@ export const leftNavItems = [
         url: '/docs/getting-started/importing-and-exporting-data/',
       },
       {
+        name: 'Using a custom proxy',
+        url: '/docs/getting-started/proxy/',
+      },
+      {
         name: 'Troubleshooting app issues',
         url: '/docs/getting-started/troubleshooting-inapp/',
       },
@@ -162,10 +166,6 @@ export const leftNavItems = [
             name: 'Using Postman Interceptor',
             url: '/docs/sending-requests/capturing-request-data/interceptor/',
           },
-          {
-            name: 'Using a custom proxy',
-            url: '/docs/sending-requests/capturing-request-data/proxy/',
-          },
         ],
       },
       {
@@ -205,6 +205,10 @@ export const leftNavItems = [
       {
         name: 'Writing tests',
         url: '/docs/writing-scripts/test-scripts/',
+      },
+      {
+        name: 'Running tests with monitors',
+        url: '/docs/writing-scripts/test-with-monitors/',
       },
       {
         name: 'Script references',
@@ -481,11 +485,15 @@ export const leftNavItems = [
         url: '/docs/monitoring-your-api/intro-monitors/',
       },
       {
-        name: 'Setting up a monitor',
+        name: 'Monitoring API uptime',
+        url: '/docs/monitoring-your-api/uptime-monitors/',
+      },
+      {
+        name: 'Setting up a collection-based monitor',
         url: '/docs/monitoring-your-api/setting-up-monitor/',
       },
       {
-        name: 'Viewing monitor results',
+        name: 'Viewing collection-based monitor results',
         url: '/docs/monitoring-your-api/viewing-monitor-results/',
       },
       {
@@ -493,11 +501,7 @@ export const leftNavItems = [
         url: '/docs/monitoring-your-api/monitor-usage/',
       },
       {
-        name: 'Monitoring APIs and websites',
-        url: '/docs/monitoring-your-api/monitoring-apis-websites/',
-      },
-      {
-        name: 'Running Postman monitors using static IPs',
+        name: 'Running monitors using static IPs',
         url: '/docs/monitoring-your-api/using-static-IPs-to-monitor/',
       },
       {

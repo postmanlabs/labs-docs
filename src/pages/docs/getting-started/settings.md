@@ -1,6 +1,7 @@
 ---
 title: "Setting up Postman"
 order: 8.1
+updated: 2022-02-16
 page_id: "settings"
 search_keyword: "GPU, hardware acceleration, shortcut, shortcuts, keyboard shortcuts"
 contextual_links:
@@ -75,7 +76,7 @@ When you send a form-data or binary file with a request body, Postman saves a pa
 * **Send Postman Token header:** (Recommended) Turn on this toggle to send a random Postman token with an XMLHttpRequest. Sending a random token ensures the receiving server handles each request separately, even when the requests are sent with the same parameters. The token can also aid debugging and help you distinguish between requests on the server side.
 * **Retain headers when clicking on links:** When you select a link in a response, Postman creates a new `GET` request with the link URL. Turn on this toggle to retain the headers from the previous request in the new request. Retaining headers is useful if you mainly access protected resources.
 * **Automatically follow redirects:** Turn off this toggle to prevent requests that return a 3xx series response from being automatically redirected.
-* **Send anonymous usage data to Postman:** Postman gathers basic, anonymous usage data to help with product improvement. Turn off this toggle to disable sending anonymous usage data to Postman.
+* **Send anonymous usage data to Postman:** Postman gathers basic, anonymous usage data to help with product improvement. Select this toggle to turn off sending anonymous usage data to Postman.
 
 ### User interface
 
@@ -102,7 +103,7 @@ Pick your pleasure: select a light or dark theme for Postman.
 
 ## Shortcuts
 
-The **Shortcuts** tab displays all of the keyboard shortcuts available in Postman. To disable keyboard shortcuts, turn off the **Shortcuts** toggle.
+The **Shortcuts** tab displays all of the keyboard shortcuts available in Postman. To turn off keyboard shortcuts, select the **Shortcuts** toggle.
 
 Some shortcuts are not available in Postman for Web. Also, shortcut modifier keys may differ depending on your operating system. For example, to open a new tab in the Postman app on macOS, select **⌘+T**. To open a new tab in the Postman app on Windows or Linux, select **Ctrl+T**.
 
@@ -122,7 +123,7 @@ Use the **Certificates** tab to add and manage CA certificates and client certif
 
 ## Proxy
 
-Use the **Proxy** tab to configure proxy settings for connecting to online services and sending API requests. Learn more about [configuring a proxy](/docs/sending-requests/capturing-request-data/proxy/).
+Use the **Proxy** tab to configure proxy settings for connecting to online services and sending API requests. Learn more about [configuring a proxy](/docs/getting-started/proxy/).
 
 ## Update
 
@@ -136,7 +137,7 @@ The **About** tab displays the current version of Postman, along with links to h
 
 The Postman app takes advantage of your computer's built-in graphics hardware to accelerate the rendering of onscreen graphics. In some cases, your computer's specific GPU, drivers, or operating system may cause issues with hardware acceleration. If you see screen artifacts or other glitches, try disabling hardware acceleration.
 
-To enable or disable hardware acceleration in the Postman app:
+To activate or deactivate hardware acceleration in the Postman app:
 
 * On macOS, select **Postman > Hardware Acceleration**.
 * On Windows or Linux, select **Help > Hardware Acceleration**.

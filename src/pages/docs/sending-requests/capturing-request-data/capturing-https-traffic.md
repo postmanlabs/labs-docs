@@ -36,7 +36,7 @@ In addition to capturing HTTP traffic, you can use the Postman's built-in proxy 
 
 You must install the `postman-proxy-ca.crt` certificate on your device to be able to capture secure HTTP traffic. First, [set up the proxy in Postman](/docs/sending-requests/capturing-request-data/capturing-http-requests/). Then follow the instructions below to install the required security certificate on the target devices.
 
-> You can disable or remove the certificate from your device if you no longer need to capture HTTPS requests.
+> You can deactivate or remove the certificate from your device if you no longer need to capture HTTPS requests.
 
 ## Contents
 
