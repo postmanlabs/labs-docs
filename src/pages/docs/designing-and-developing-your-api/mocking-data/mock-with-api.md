@@ -124,7 +124,7 @@ You are now ready to simulate requests using your collection. To send a request 
 
 Try this yourself by simulating `Request 1` in the `testAPI` collection. Create a new request in Postman, leaving `GET` selected for the method. For the request URL, enter your mock server URL and append the path from the request:
 
-`https://5327d2ae-89ac-4568-b0cb-190b7f3408b2.mock.pstmn.io/get?test=123`
+`https://<your-mock-server-url>/get?test=123`
 
 There's no need to add an `x-api-key` header, as the mock server is public, so just select **Send** to send the request. The response pane shows the response from the mock server.
 
