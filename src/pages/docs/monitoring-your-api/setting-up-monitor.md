@@ -117,7 +117,7 @@ Select **Follow redirects** to allow URL redirection for requests run by the mon
 
 ### Disabling SSL validation
 
-The **Enable SSL validation** option is selected by default. You can disable SSL validation if you are using self-signed certificates and want to stop validations of SSL certificates. For more information, see [Working with certificates](/docs/sending-requests/certificates/) and [How to Troubleshoot SSL Certificate & Server Connection Issues](https://blog.postman.com/self-signed-ssl-certificate-troubleshooting/).
+The **Enable SSL validation** option is selected by default. You can turn off SSL validation if you are using self-signed certificates and want to stop validations of SSL certificates. For more information, see [Working with certificates](/docs/sending-requests/certificates/) and [How to Troubleshoot SSL Certificate & Server Connection Issues](https://blog.postman.com/self-signed-ssl-certificate-troubleshooting/).
 
 ## Working with collection-based monitors
 

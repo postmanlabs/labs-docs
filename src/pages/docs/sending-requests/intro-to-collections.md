@@ -181,7 +181,7 @@ To recover a deleted collection:
 
 Recovery options depend on your Postman plan:
 
-* Free account: Recover collections up to one day old.
+* Free account: Recover collections for up to one day.
 * Postman Basic: Recover collections for up to 30 days.
 * Postman Professional and Enterprise: Recover collections for up to 90 days.
 
