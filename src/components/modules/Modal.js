@@ -6,10 +6,10 @@ export function useModal(parsedHtml, e) {
   for (let i = 0; i < images.length; i++) {
     /* Assign a unique ID for each modal */
     const create_id = `docs-${Math.random().toString(36).slice(8)}`
-    const imgSrc = images[i].src === images[i].parentNode.href
-    const imgSrc2 = images[i].parentNode.href === undefined;
-    if (imgSrc || imgSrc2) {
-      images[i].parentNode.href = "";
+    const imgHasDefinedATag = images[i].src === images[i].parentNode.href
+    const imgParentElementUndefined = images[i].parentNode.href === undefined;
+    if (imgHasDefinedATag || imgParentElementUndefined) {
+      images[i].parentNode.href = images[i].parentNode.href;
       images[i].outerHTML = Modal(create_id, images, i);
       const parser = new DOMParser();
       parser.parseFromString(images[i].outerHTML, 'text/html');
@@ -24,22 +24,17 @@ const Modal = (create_id, images, i) => {
     </a>
     <div id=${create_id} class="modal modal-link fade" tab-index="-1" role="dialog" aria-labelledby=${images[i].alt || null} aria-hidden="true">
       <div class="modal-dialog modal-dialog-centered" role="document">
-      <div class="modal-close-button">
-      <button
-        type="button"
-        class="close"
-        data-dismiss="modal"
-        aria-label="close"
-      >
-      <div class="container">
-
-      <div class="modal-content row">
-      <div class="col">
-        <img class="img-fluid" src=${images[i].src || null}  alt=${images[i].alt || null}></img>
-      </div>
-      </div>
-        </div>
-        </button>     
+        <div class="modal-close-button">
+          <button
+            type="button"
+            class="close"
+            data-dismiss="modal"
+            aria-label="close"
+          >
+          <div class="modal-content">
+            <img src=${images[i].src || null}  alt=${images[i].alt || null}></img>
+          </div>
+          </button>     
         </div>
       </div>
     </div>
