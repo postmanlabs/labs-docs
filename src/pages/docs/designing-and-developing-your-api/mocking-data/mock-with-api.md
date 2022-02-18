@@ -96,8 +96,8 @@ Next, add the following **raw** JSON code to the **Body** tab of the request, su
 {
   "mock": {
     "name": "testAPImock",
-    "collection": "16724969-97860d6e-742a-409d-ae1e-0d34a53c57d6",
-    "environment": "16724969-3a77ee2c-6155-4c2d-af9e-2bfc9dcc174f"
+    "collection": "<your-collection-id>",
+    "environment": "<your-environment-id>"
   }
 }
 ```
