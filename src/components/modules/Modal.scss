@@ -4,9 +4,8 @@
 div.modal {
   z-index: 214748;
   background-color: rgba(0, 0, 0, 0.5) !important;
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 999999999999; /* Sit on top */
+  display: none; 
+  position: fixed; 
   justify-content: center;
   left: 0;
   top: 0;
@@ -22,7 +21,7 @@ div.modal {
 div.modal-dialog {
   max-width: 80%;
   justify-content: center;
-  @media screen and (max-width: 992px){
+  @media screen and (max-width: 576px){
     max-width: 100%;
   }
 }
