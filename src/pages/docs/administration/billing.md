@@ -77,9 +77,9 @@ When navigating to your [billing dashboard](http://go.postman.co/billing), you w
 
 ### Managing add-ons
 
-In your [billing dashboard](http://go.postman.co/billing), select **Resource usage** on the left to view your team's additional features and their usage during your monthly billing period. These features include mock servers, monitoring, public documentation, the Postman API, custom domains, and integrations.
+In your [billing dashboard](http://go.postman.co/billing), select **Resource usage** on the left to view your team's Postman usage during your monthly billing period. You can use this page to track your team's usage of mock servers, monitoring, custom domains, the Postman API, serverless requests, integrations, and the cloud agent.
 
-<img alt="Add-ons usage and purchase" src="https://assets.postman.com/postman-docs/resource-usage-page-v87.jpg" />
+<img alt="Add-ons usage and purchase" src="https://assets.postman.com/postman-docs/resource-usage-9.13.jpg" />
 
 > Select **View detailed usage** next to **Monitoring Usage** to view your team's active monitors and their impact on your team's overall usage during the current billing period.
 
