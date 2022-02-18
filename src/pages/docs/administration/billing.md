@@ -237,11 +237,11 @@ You will not be billed if the number of users has remained unchanged during your
 
 > If your team has incurred any overages and you have an auto-flex bill for that cycle, your overage charges will be combined with your auto-flex charges in your invoice.
 
-<img alt="Auto-flex email notification" src="https://assets.postman.com/postman-docs/auto-flex-email-notification.jpg" width="500px"/>
+<img alt="Auto-flex email notification" src="https://assets.postman.com/postman-docs/auto-flex-email-notification-9.13.jpg" width="400px"/>
 
 You can view your current number of additional team members, how much you will be billed at the end of your cycle (unless you add or remove team members in the interim), and additional information about your auto-flex and regular billing cycles at any time in your [billing dashboard](http://go.postman.co/billing).
 
-<img alt="Billing overview" src="https://assets.postman.com/postman-docs/billing-plan-and-payments-dash-v9.1.jpg" />
+<img alt="Billing overview with auto flex" src="https://assets.postman.com/postman-docs/auto-flex-dash-9.13.jpg" />
 
 > [Contact Postman support](https://www.postman.com/support/) with any questions regarding auto-flex.
 
