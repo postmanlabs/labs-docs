@@ -25,9 +25,7 @@ warning: false
 
 ---
 
-## What is Syncing?
-
-Syncing makes all your Postman data available when you're signed in to your Postman account.
+_Syncing_ makes all your Postman data available when you're signed in to your Postman account.
 
 Changes, such as edits, updates, additions, or deletions, sync across all devices that are linked to your account.
 
@@ -45,7 +43,13 @@ These entities can sync with the server and be saved to the cloud:
 * Workspaces
 * History
 
-## How do I Sync between computers?
+If you sign out of the app, Postman deletes your data from the local app instance.
+
+When you sign back in to the app, Postman restores your data from the cloud.
+
+When you reload the app, Postman automatically retrieves the most recent and up-to-date version of your collections.
+
+## Syncing between computers
 
 Install [Postman](https://www.postman.com/downloads/) and sign in with the same email address or username on all your devices.
 
@@ -57,7 +61,7 @@ When you're logged into Postman, your data is synced across devices.
 
 **Note:** Postman restricts parallel usage to three apps per account.
 
-### States
+### Understanding sync states
 
 Postman indicates the sync state of your workspace. The flow diagram for sync states is shown below:
 
@@ -86,14 +90,6 @@ While connecting to Postman, if you encounter a syncing error, it will indicate 
 [![Error state](https://assets.postman.com/postman-docs/error-state-v2.jpg)](https://assets.postman.com/postman-docs/error-state-v2.jpg)
 
 > You may occasionally experience sync conflicts between Postman and its servers, particularly when you work as part of a team: [Postman will prompt you to resolve any conflicts that occur](/docs/collaborating-in-postman/using-workspaces/conflicts/)
-
-## Sign Out
-
-If you choose to sign out, Postman deletes your data from the local instance of the app.
-
-Don’t worry, Postman restores all your data from the cloud when you sign in, and enables other users to use it without your data clashing.
-
-When you reload, Postman automatically retrieves the most recent and up-to-date version of your collections.
 
 ## Disabling sync
 
