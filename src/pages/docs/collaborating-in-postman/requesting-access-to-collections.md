@@ -16,86 +16,35 @@ warning: false
 
 ---
 
-You can request edit access to a team member's personal or private collection, API, or monitor. You will need a link to the collection, API, or monitor, or have access to it in Postman. When you submit a request, the owner will receive a notification prompting them to choose whether to grant you the role.
+Shared workspaces make it easy to [collaborate with your teammates](http://localhost:8000/docs/collaborating-in-postman/collaboration-intro/) in Postman. By default, you can view Postman entities in workspaces that have been shared with you. If you need to edit an entity, such as a collection, API, environment mock server, or monitor, you can request access.
 
-- [Requesting access to collections](#requesting-access-to-collections)
-    - [Requesting editor role on a collection](#requesting-editor-role-on-a-collection)
-- [Requesting access to APIs](#requesting-access-to-apis)
-    - [Requesting editor role on an API](#requesting-editor-role-on-an-api)
-- [Requesting access to Monitors](#requesting-access-to-monitors)
-    - [Requesting editor role on a monitor](#requesting-editor-role-on-a-monitor)
-- [Approving requests for access](#approving-requests-for-access)
+To request [editor role](/docs/collaborating-in-postman/roles-and-permissions/) access, you need a link to the entity or access to the workspace where the entity is located. After you submit a request for access, the owner of the entity will receive a notification prompting them to approve the request.
 
-## Requesting access to collections
+## Requesting editor role access
 
-You will have a viewer role on a collection by default. You can request an editor role on a collection.
-
-### Requesting editor role on a collection
-
-There might be collections that you can view but not edit. These collections have a lock icon next to the collection name.
+If you can view an entity but aren't able to edit it, you will see a lock ICON next to the name of the collection, API, environment, mock server, or monitor.
 
 <img alt="Collection Lock" src="https://assets.postman.com/postman-docs/collection-lock-v8.jpg" width="300px">
 
-You can request the Editor role on this collection:
+To request the editor role for an entity:
 
-1. Select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to the collection name in the sidebar to open the following menu and choose **Manage Roles**.
-<img alt="Collection Context Menu" src="https://assets.postman.com/postman-docs/collection-context-menu-v8.jpg" width="300px">
+1. Select **Collections**, **APIs**, **Environments**, **Mock Servers**, or **Monitors** in the left sidebar.
 
-2. Click **Request Access** in the modal.
-<img alt="Manage Roles Blocked" src="https://assets.postman.com/postman-docs/manage-roles-blocked-v8.jpg">
+1. Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to the entity name and select **Manage Roles**.
 
-3. Select a person to send the request to and select the __Editor__ [role](/docs/collaborating-in-postman/roles-and-permissions/) from the __Role__ dropdown list.
-<img alt="Request Additional Access" src="https://assets.postman.com/postman-docs/request-additional-access-v8.jpg">
+    <img alt="Collection Context Menu" src="https://assets.postman.com/postman-docs/collection-context-menu-v8.jpg" width="300px">
 
-4. Complete your request by clicking **Request Access**.
+1. Select **Request Access**.
 
-This will trigger an email to the person you requested access from. When they approve your request, you will be notified by email. Your request will expire in 15 days, but you can make additional requests on the same collection after that period.
+    <img alt="Manage Roles Blocked" src="https://assets.postman.com/postman-docs/manage-roles-blocked-v8.jpg">
 
-## Requesting access to APIs
+1. Select the person you want to send the request to, and select the **Editor** role.
 
-You will have a viewer role on an API by default. You can request an editor role on an API.
+    <img alt="Request Additional Access" src="https://assets.postman.com/postman-docs/request-additional-access-v8.jpg">
 
-### Requesting editor role on an API
+1. Select **Request Access**.
 
-There might be APIs that you can view in your team workspace but can't edit. These APIs have a lock icon next to the API name.
-
-<img alt="Requesting Editor Role on an API" src="https://assets.postman.com/postman-docs/request-access-to-api-v8.jpg" width="300px">
-
-You can request the Editor role on this API:
-
-1. Select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to the API name in the sidebar to open the following menu and choose **Manage Roles**.
-<img alt="Manage roles for API" src="https://assets.postman.com/postman-docs/request-editor-api-manage-roles-v8.jpg" />
-
-2. Click **Request Access** in the modal.
-
-3. Select a person to send the request to and select the __Editor__ [role](/docs/collaborating-in-postman/roles-and-permissions/) from the __Role__ dropdown list.
-
-4. Complete your request by clicking **Request Access**.
-<img alt="Request Access to API" src="https://assets.postman.com/postman-docs/request-editor-role-on-api-v8.jpg"/>
-
-This will trigger an email to the person you requested access from. When they approve your request, you will be notified by email. Your request will expire in 15 days, but you can make additional requests on the same API after that period.
-
-## Requesting access to Monitors
-
-Editing a monitor requires you to have edit access for that specific monitor.
-
-### Requesting editor role on a monitor
-
-To get edit access for a monitor, you will first need to be a member of the team that owns the monitor.
-
-Once you have joined the team, navigate to the monitor in question in Postman. In the upper right, select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> to view more actions, then select **Edit**.
-
-<img src="https://assets.postman.com/postman-docs/manage-roles-request-access-monitor.jpg" alt="Manage roles request access"/>
-
-Select **Request Access**.
-
-<img src="https://assets.postman.com/postman-docs/manage-roles-request-access-monitor-21.jpg" alt="You need additional access modal"/>
-
-Select the team member you would like to send your request to and the **Editor** role, then **Request Access**.
-
-<img src="https://assets.postman.com/postman-docs/request-access-monitor-send-request.jpg" alt="Request access to monitor" width="500px"/>
-
-When your request for access is approved, you will receive a notification in Postman.
+Postman will send an email notification to the person you selected. Once they approve your request, you will also be notified by email. Your request will expire after 15 days, after which you can request access again.
 
 ## Approving requests for access
 
