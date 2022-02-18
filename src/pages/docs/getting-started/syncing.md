@@ -102,11 +102,3 @@ If you or your organization have a requirement to prevent your data from being s
 You can delete already synced data by [deleting your account](#deleting-your-postman-account). Note that if you are a part of a Postman team, you must first [leave the team](/docs/collaborating-in-postman/collaboration-intro/#leaving-a-team) in order to delete your account.
 
 > Learn more about [Security at Postman](https://www.postman.com/trust/security/).
-
-## Deleting your Postman account
-
-If you have a Postman account and are not part of a Postman team, you can [delete your account](https://go.postman.co/settings/me).
-
-Otherwise, you can contact us at [help@postman.com](mailto:help@postman.com).
-
-[![delete account](https://assets.postman.com/postman-docs/WS-syncing-deleteAccount.png)](https://assets.postman.com/postman-docs/WS-syncing-deleteAccount.png)
