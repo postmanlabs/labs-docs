@@ -84,7 +84,7 @@ Postman is available for Windows 7 and later.
 
 You can install Postman on Linux by manually downloading it, using the [Snap](https://snapcraft.io/postman) store link, or with the command `snap install postman`.
 
-To install manually, [download](https://www.postman.com/downloads/) and unzip the app, for example into the `opt` directory. You will need `sudo` privileges.
+To install manually, [download](https://www.postman.com/downloads/) and unzip the app, for example into the `Downloads` directory.
 
 To start the app from a launcher icon, create a desktop file, naming it `Postman.desktop` and saving it in the following location:
 
@@ -92,14 +92,14 @@ To start the app from a launcher icon, create a desktop file, naming it `Postman
 ~/.local/share/applications/Postman.desktop
 ```
 
-Enter the following content in the file, replacing `opt` if you extracted the file somewhere else, and save it:
+Enter the following content in the file, replacing `/path/to/Downloads` if you extracted the file somewhere else, and save it:
 
 ```shell
 [Desktop Entry]
 Encoding=UTF-8
 Name=Postman
-Exec=/opt/Postman/app/Postman %U
-Icon=/opt/Postman/app/resources/app/assets/icon.png
+Exec=/path/to/Downloads/Postman/app/Postman %U
+Icon=/path/to/Downloads/Postman/app/resources/app/assets/icon.png
 Terminal=false
 Type=Application
 Categories=Development;
