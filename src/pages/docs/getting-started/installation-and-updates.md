@@ -234,6 +234,9 @@ Open the DevTools using __View__ &gt; __Developer__ &gt; __Show DevTools (Curren
 
 ![Multiple Updates Running Issue in DevTools](https://assets.postman.com/postman-docs/multiple-updates-running.png)
 
+* __Error message:__ `EACCES: permission denied, open '/opt/Postman/Postman-1620288011421.tar.gz`
+    * This error means that the app user does not have write permission in the directory where Postman is installed. To resolve the problem, move Postman to a directory where the user has write permissions, for example the `home` directory for Linux.
+
 ### Update button not available
 
 If you are using Postman for Linux, and installed the app with the Ubuntu Software Center or Snap Store, you may not see a __Check for updates__ button. This is because the updates are handled by the store, which should automatically update Postman on a regular cadence.
