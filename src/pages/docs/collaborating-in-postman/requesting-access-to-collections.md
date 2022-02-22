@@ -16,9 +16,9 @@ warning: false
 
 ---
 
-Shared workspaces make it easy to [collaborate with your teammates](http://localhost:8000/docs/collaborating-in-postman/collaboration-intro/) in Postman. By default, you can view Postman elements in workspaces that have been shared with you. If you need to edit an element, such as a collection, API, environment, mock server, or monitor, you can request access.
+By default, you can view Postman elements in [workspaces](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/) that have been shared with you. If you need to edit an element, such as a collection, API, environment, mock server, or monitor, you can request [Editor role](/docs/collaborating-in-postman/roles-and-permissions/) access.
 
-To request [Editor role](/docs/collaborating-in-postman/roles-and-permissions/) access for an element, you need access to the workspace where the element is located. After you submit a request for access, the owner of the element will receive a notification asking them to approve the request.
+To request Editor access for an element, you first need to join or be invited to the [shared workspace](/docs/collaborating-in-postman/collaboration-intro/) where the element is located. After you submit a request for access, the owner of the element will receive a notification asking them to approve the request.
 
 > Roles and permissions are available depending on your [Postman plan](https://www.postman.com/pricing).
 
@@ -35,7 +35,7 @@ If you can view an element in a workspace but can't edit it, you will see a lock
 
 To request Editor role access for an element:
 
-1. Select **Collections**, **APIs**, **Environments**, **Mock Servers**, or **Monitors** in the left sidebar.
+1. Select **Collections**, **APIs**, **Environments**, **Mock Servers**, or **Monitors** in the sidebar.
 
 1. Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to the element name and select **Manage Roles**.
 
@@ -57,8 +57,6 @@ Postman will send an email notification to the person you selected. Once they ap
 
 If you have the Editor role for a Postman element such as a collection, API, environment, mock server, or monitor, you may receive a request to give a teammate access to the element.
 
-If a teammate requests Editor role access, you will receive an email that details the request.
+When a teammate requests Editor role access, you will receive an email that details the request. Select **Approve Request** if you want to give your teammate Editor role access to the collection, API, environment, mock server, or monitor. If you do not want to give Editor access, you can ignore the request. The request will expire after 15 days.
 
 ![Request Detail Email](https://assets.postman.com/postman-docs/request-detail-email-v8.jpg)
-
-Select **Approve Request** if you want to give your teammate Editor role access to the collection, API, or monitor. If you do not want to give Editor access, you can ignore the request. The request will expire after 15 days.
