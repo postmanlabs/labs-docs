@@ -53,7 +53,7 @@ There are a few ways for you to author and send a GraphQL query using Postman:
 
 ## Using Postman's built-in support for GraphQL
 
-Postman has built-in support for [sending GraphQL queries in the request body](#sending-graphql-queries-in-the-request-body), [using GraphQL variables](#using-graphql-variables), and [importing GraphQL schemas](#importing-graphql-schemas).
+Postman has built-in support for [sending GraphQL queries in the request body](#sending-graphql-queries-in-the-request-body), [using GraphQL variables](#using-graphql-variables), and [introspection and importing GraphQL schemas](#introspection-and-importing-graphql-schemas).
 
 ### Sending GraphQL queries in the request body
 
@@ -73,9 +73,9 @@ Postman has built-in support for [sending GraphQL queries in the request body](#
 
 > You can also [use Postman variables](/docs/sending-requests/variables/) as data inputs for GraphQL variables using `{{variable}}` syntax.
 
-### Importing GraphQL schemas
+### Introspection and importing GraphQL schemas
 
-To enable autocompletion, your request needs a GraphQL schema. Postman will automatically fetch a schema based on the request URL, using introspection. A message is displayed next to the schema selection list when Postman is able to auto-fetch a schema. If your schema has changed, select the refresh icon <img alt="Refresh icon" src="https://assets.postman.com/postman-docs/icon-refresh-v9-5.jpg" width="14px" style="vertical-align:middle;margin-bottom:5px"> to pull in the changes.
+To enable autocompletion, your request needs a GraphQL schema. Postman will automatically fetch a schema based on the request URL, using GraphQL introspection. A message is displayed next to the schema selection list when Postman is able to auto-fetch a schema. If your schema has changed, select the refresh icon <img alt="Refresh icon" src="https://assets.postman.com/postman-docs/icon-refresh-v9-5.jpg" width="14px" style="vertical-align:middle;margin-bottom:5px"> to pull in the changes.
 
 <img src="https://assets.postman.com/postman-docs/graphql-autofetch-schema.jpg" width="300px" alt="GraphQL auto-fetch schema"/>
 
