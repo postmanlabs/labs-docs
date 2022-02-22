@@ -26,13 +26,13 @@ warning: false
 
 ---
 
-Postman automatically syncs changes to your , including edits, updates, additions, or deletions, across all devices that are linked to your account. As long as you are signed in to Postman in the desktop app or in the web version, your data will be synced.
+Postman automatically syncs changes across all devices that are linked to your account, including edits, updates, additions, or deletions. As long as you are signed in to Postman in the desktop app or in the web version, your data will be synced.
 
-* If you _sign out_, Postman deletes your data from the local app instance.
+* When you _sign out_, Postman removes your synced data from your local storage.
 * When you _sign back in_, Postman restores your data from the cloud.
-* When you _reload_, Postman automatically retrieves the most recent and up-to-date version of your collections.
+* When you _reload_, Postman automatically retrieves the most recent version of your data.
 
-> Postman restricts parallel usage to three apps per account.
+You can have up to three devices logged in to your Postman account simultaneously, such as your work computer, personal computer, and mobile phone.
 
 ## Understanding sync states
 
