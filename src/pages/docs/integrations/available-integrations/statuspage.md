@@ -51,7 +51,7 @@ When this action is configured, if the specified monitor fails a test run, it wi
 If you select the **Link a monitor to a component** action, enter the following:
 
 1. Select a component from the list. The list will be populated with the components you have created in Statuspage.
-1. Select a component success status from the list. This status will be displayed in Statuspage when the linked monitor is running normally.
+1. Select a component success status from the list. This status will be displayed in Statuspage when the linked monitor is running as expected.
 1. Select a component failure status from the list. This status will be displayed in Statuspage when the linked monitor fails a test run.
   ![Statuspage link monitor to component](https://assets.postman.com/postman-docs/statuspage-monitor-to-component.jpg)
 

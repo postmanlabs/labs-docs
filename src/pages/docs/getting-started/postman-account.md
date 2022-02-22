@@ -129,7 +129,7 @@ You can update your username at any time by navigating to your [profile settings
 
 #### Making your profile public
 
-Your Postman profile is visible to your Postman team, and you can choose to make your profile public to the Postman community. You can enable or disable your public profile at any time in your [profile settings](https://go.postman.co/settings/me/). Select your avatar in the upper-right corner > **Account Settings**. Select the toggle next to **Make profile public**, then **Update Profile**.
+Your Postman profile is visible to your Postman team, and you can choose to make your profile public to the Postman community. You can turn your public profile on or off at any time in your [profile settings](https://go.postman.co/settings/me/). Select your avatar in the upper-right corner > **Account Settings**. Select the toggle next to **Make profile public**, then **Update Profile**.
 
 ## Updating your notification preferences
 

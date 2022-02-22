@@ -129,11 +129,11 @@ To set up provisioning with the Postman Okta app, take the following steps:
 
 The Postman Okta app supports [the provisioning features detailed above](#scim-features).
 
-To enable or disable features, navigate to the Postman app in Okta and select **To App** on the left, then click **Edit**.
+To turn these features on or off, navigate to the Postman app in Okta and select **To App** on the left, then click **Edit**.
 
 <img alt="Configure features in Okta's Postman app" src="https://assets.postman.com/postman-docs/postman-okta-app-enable-features.jpg"/>
 
-Select features to enable them, or de-select to disable. Click **Save** to save your changes.
+Select features to enable them, or de-select to turn them off. Click **Save** to save your changes.
 
 <img alt="Enabled features in Okta's Postman app" src="https://assets.postman.com/postman-docs/postman-okta-app-enabled-features.jpg"/>
 

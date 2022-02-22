@@ -129,7 +129,7 @@ For example, if you first installed Postman Enterprise with the following you mu
 INSTALLDIR=C:\custom and MSIINSTALLPERUSER=1
 ```
 
-> Downgrading the Postman Enterprise app is not supported and attempts to do so will result in an error message. You can force a downgrade by manually removing the current version and then installing an older version of Postman Enterprise.
+> Downgrading the Postman Enterprise app is not supported and attempts to do so will result in an error message. You can force a downgrade by manually removing the current version and then installing a previous version of Postman Enterprise.
 
 ### Uninstalling the Postman Enterprise Windows app
 

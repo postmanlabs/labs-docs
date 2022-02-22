@@ -77,13 +77,13 @@ When navigating to your [billing dashboard](http://go.postman.co/billing), you w
 
 ### Managing add-ons
 
-In your [billing dashboard](http://go.postman.co/billing), select **Resource usage** on the left to view your team's additional features and their usage during your monthly billing period. These features include mock servers, monitoring, public documentation, the Postman API, custom domains, and integrations.
+In your [billing dashboard](http://go.postman.co/billing), select **Resource usage** on the left to view your team's usage of mock servers, monitoring, custom domains, the Postman API, serverless requests, integrations, and the cloud agent.
 
-<img alt="Add-ons usage and purchase" src="https://assets.postman.com/postman-docs/resource-usage-page-v87.jpg" />
+<img alt="Add-ons usage and purchase" src="https://assets.postman.com/postman-docs/resource-usage-9.13.jpg" />
 
 > Select **View detailed usage** next to **Monitoring Usage** to view your team's active monitors and their impact on your team's overall usage during the current billing period.
 
-You can opt to allow or disable overages for mock server and monitor usage by selecting the icon to the right of each item. If enabled, you will be charged on a pay-as-you-go basis.
+You can opt to allow or disallow overages for mock server and monitor usage by selecting the icon to the right of each item. If enabled, you will be charged on a pay-as-you-go basis.
 
 You can also [Purchase Add-ons](#purchasing-add-ons).
 
@@ -187,7 +187,7 @@ Select to pay **Monthly** or **Annual** and confirm your changes. Note that annu
 
 ### Purchasing add-ons
 
-The base number of monitoring requests, mock server calls, and custom domains included in your plan depends on your [plan type](https://www.postman.com/pricing). You can enable or disable overages for monitoring and mock server calls by [managing your team's add-ons](#managing-add-ons). If enabled, you will be charged on a pay-as-you-go basis.
+The base number of monitoring requests, mock server calls, and custom domains included in your plan depends on your [plan type](https://www.postman.com/pricing). You can allow or disallow overages for monitoring and mock server calls by [managing your team's add-ons](#managing-add-ons). If enabled, you will be charged on a pay-as-you-go basis.
 
 You can purchase additional blocks of monitoring requests, mock server calls, and custom domains by navigating to your [billing dashboard](http://go.postman.co/billing), selecting **Resource usage** on the left, then **Purchase Add-ons** on the right.
 
@@ -237,11 +237,11 @@ You will not be billed if the number of users has remained unchanged during your
 
 > If your team has incurred any overages and you have an auto-flex bill for that cycle, your overage charges will be combined with your auto-flex charges in your invoice.
 
-<img alt="Auto-flex email notification" src="https://assets.postman.com/postman-docs/auto-flex-email-notification.jpg" width="500px"/>
+<img alt="Auto-flex email notification" src="https://assets.postman.com/postman-docs/auto-flex-email-notification-9.13.jpg" width="400px"/>
 
 You can view your current number of additional team members, how much you will be billed at the end of your cycle (unless you add or remove team members in the interim), and additional information about your auto-flex and regular billing cycles at any time in your [billing dashboard](http://go.postman.co/billing).
 
-<img alt="Billing overview" src="https://assets.postman.com/postman-docs/billing-plan-and-payments-dash-v9.1.jpg" />
+<img alt="Billing overview with auto flex" src="https://assets.postman.com/postman-docs/auto-flex-dash-9.13.jpg" />
 
 > [Contact Postman support](https://www.postman.com/support/) with any questions regarding auto-flex.
 
