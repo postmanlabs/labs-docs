@@ -12,16 +12,6 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
-    name: "Case Studies"
-  - type: link
-    name: "Monetary"
-    url: "https://www.postman.com/case-studies/monetary/"
-  - type: subtitle
-    name: "Public Workspaces"
-  - type: link
-    name: "Postman API Monitoring Examples"
-    url:  "https://www.postman.com/postman/workspace/e348c5a0-2965-44cc-87ed-7b316516f38d"
-  - type: subtitle
     name: "Videos"
   - type: link
     name: "API Monitoring | The Exploratory"
@@ -32,8 +22,21 @@ contextual_links:
   - type: subtitle
     name: "Blog Posts"
   - type: link
+    name: "Integrated API Monitoring in Postman"
+    url: "https://blog.postman.com/integrated-api-monitoring-in-postman/"
+  - type: link
     name: "From manual to automated testing: The roadblocks and the journey"
     url: "https://medium.com/better-practices/from-manual-to-automated-testing-the-roadblocks-and-the-journey-6333dfacc5ae"
+  - type: subtitle
+    name: "Case Studies"
+  - type: link
+    name: "Monetary"
+    url: "https://www.postman.com/case-studies/monetary/"
+  - type: subtitle
+    name: "Public Workspaces"
+  - type: link
+    name: "Postman API Monitoring Examples"
+    url:  "https://www.postman.com/postman/workspace/e348c5a0-2965-44cc-87ed-7b316516f38d"
 
 warning: false
 
