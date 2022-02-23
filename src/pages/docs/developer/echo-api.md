@@ -16,6 +16,9 @@ contextual_links:
   - type: link
     name: "10 Postman Features Everyone Should Know"
     url: "https://blog.postman.com/10-postman-features-everyone-should-know/"
+  - type: link
+    name: "Introducing Postman’s WebSocket Echo Service"
+    url: "https://blog.postman.com/introducing-postman-websocket-echo-service/"
   - type: section
     name: "Next Steps"
   - type: link

@@ -34,6 +34,9 @@ contextual_links:
   - type: link
     name: "Better Practices for Git Version Control in Postman"
     url: "https://blog.postman.com/better-practices-for-git-version-control-in-postman/"
+  - type: link
+    name: "Syncing Your Specs with Collections"
+    url: "https://blog.postman.com/latest-updates-to-syncing-your-specs-with-collections/"
   - type: section
     name: "Next Steps"
   - type: link
