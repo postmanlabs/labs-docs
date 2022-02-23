@@ -29,9 +29,9 @@ To request Editor access for an element, you first need to join or be invited to
 
 ## Requesting Editor role access
 
-If you can view an element in a workspace but can't edit it, you will see a lock ICON next to the name of the collection, API, environment, mock server, or monitor.
+If you can view an element in a workspace but can't edit it, you will see a lock icon <img alt="Lock icon" src="https://assets.postman.com/postman-docs/icon-lock.jpg" width="11px" style="vertical-align:middle;margin-bottom:5px"> next to the name of the collection, API, environment, mock server, or monitor.
 
-<img alt="Collection Lock" src="https://assets.postman.com/postman-docs/collection-lock-v8.jpg" width="300px">
+<img alt="Collection Lock" src="https://assets.postman.com/postman-docs/collection-lock-v9-14.jpg" width="292px">
 
 To request Editor role access for an element:
 
@@ -39,15 +39,15 @@ To request Editor role access for an element:
 
 1. Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to the element name and select **Manage Roles**.
 
-    <img alt="Collection Context Menu" src="https://assets.postman.com/postman-docs/collection-context-menu-v8.jpg" width="300px">
+    <img alt="Collection Context Menu" src="https://assets.postman.com/postman-docs/collection-context-menu-v9-14.jpg" width="292px">
 
 1. Select **Request Access**.
 
-    <img alt="Manage Roles Blocked" src="https://assets.postman.com/postman-docs/manage-roles-blocked-v8.jpg">
+    <img alt="Manage Roles Blocked" src="https://assets.postman.com/postman-docs/manage-roles-blocked-v9-14.jpg" width="848">
 
 1. Select the person you want to send the request to, and select the **Editor** role.
 
-    <img alt="Request Additional Access" src="https://assets.postman.com/postman-docs/request-additional-access-v8.jpg">
+    <img alt="Request Additional Access" src="https://assets.postman.com/postman-docs/request-additional-access-v9-14.jpg" width="482">
 
 1. Select **Request Access**.
 
@@ -59,4 +59,4 @@ If you have the Editor role for a Postman element such as a collection, API, env
 
 When a teammate requests Editor role access, you will receive an email that details the request. Select **Approve Request** if you want to give your teammate Editor role access to the collection, API, environment, mock server, or monitor. If you do not want to give Editor access, you can ignore the request. The request will expire after 15 days.
 
-![Request Detail Email](https://assets.postman.com/postman-docs/request-detail-email-v8.jpg)
+<img alt="Request Detail Email" src="https://assets.postman.com/postman-docs/request-detail-email-v9-14.jpg" width="644">
