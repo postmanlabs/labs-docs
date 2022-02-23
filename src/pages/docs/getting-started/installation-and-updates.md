@@ -92,7 +92,7 @@ To start the app from a launcher icon, create a desktop file, naming it `Postman
 ~/.local/share/applications/Postman.desktop
 ```
 
-Enter the following content in the file, replacing `/path/to/Downloads` if you extracted the file somewhere else, and save it:
+Enter the following content in the file, replacing `/path/to/Downloads` with the location of the file, and save it:
 
 ```shell
 [Desktop Entry]
