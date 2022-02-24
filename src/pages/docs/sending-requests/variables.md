@@ -50,7 +50,7 @@ warning: false
 
 ---
 
-Variables enable you to store and reuse values in your requests and scripts. By storing a value in a variable, you can reference it throughout your collections, environments, and requests. If you need to update the value, you only have to change it in one place. Using variables increases your ability to work efficiently and minimizes the likelihood of error.
+_Variables_ enable you to store and reuse values in your requests and scripts. By storing a value in a variable, you can reference it throughout your collections, environments, and requests. If you need to update the value, you only have to change it in one place. Using variables increases your ability to work efficiently and minimizes the likelihood of error.
 
 ## Contents
 
@@ -89,7 +89,7 @@ For example, if you have the same URL in multiple requests, but the URL might ch
 
 <a href="https://assets.postman.com/postman-docs/reference-var-v9.jpg"><img alt="Reference Variable" src="https://assets.postman.com/postman-docs/reference-var-v9.jpg" width="300px"/></a>
 
-Postman supports variables at different scopes, allowing you to tailor your processing to a variety of development, testing, and collaboration tasks. Scopes in Postman relate to the different contexts that your requests run in: within Postman, in collections, in environments, in Newman, and in the Collection Runner. You can use variables to pass data between requests and tests, for example if you are chaining requests using a collection.
+Postman supports variables at different scopes, allowing you to tailor your processing to a variety of development, testing, and collaboration tasks. Scopes in Postman relate to the different contexts that your requests run in: within Postman, in [collections](/docs/sending-requests/intro-to-collections/), in [environments](/docs/sending-requests/managing-environments/), in [Newman](/docs/running-collections/using-newman-cli/), and in the [Collection Runner](/docs/running-collections/intro-to-collection-runs/). You can use variables to pass data between requests and tests, for example if you are chaining requests using a collection.
 
 > Postman will store environment and global variables as strings. If you’re storing objects or arrays, remember to `JSON.stringify()` them before storing, and `JSON.parse()` them when you retrieve them.
 
@@ -126,7 +126,7 @@ Variable scopes are suited to different tasks in Postman:
     > If you have only one environment, using collection variables can be more efficient. However environments enable you to specify [role-based access levels](/docs/sending-requests/managing-environments/#working-with-environments-as-a-team).
 * __Local variables__ are temporary, and only accessible in your request scripts. Local variable values are scoped to a single request or collection run, and are no longer available when the run is complete.
     > Local variables are suitable if you need a value to override all other variable scopes but don't want the value to persist once execution has ended.
-* __Data variables__ come from external CSV and JSON files to define data sets you can use when running collections with Newman or the Collection Runner.
+* __Data variables__ come from external CSV and JSON files to define data sets you can use when running collections with [Newman](/docs/running-collections/using-newman-cli/) or the [Collection Runner](/docs/running-collections/intro-to-collection-runs/).
 
 ![Variable Scopes](https://assets.postman.com/postman-docs/Variables-Chart.png)
 
