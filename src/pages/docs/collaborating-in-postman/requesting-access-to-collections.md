@@ -2,6 +2,7 @@
 title: "Requesting access"
 order: 73
 page_id: "requesting-access-to-collections"
+updated: 2022-02-24
 contextual_links:
   - type: section
     name: "Prerequisites"
