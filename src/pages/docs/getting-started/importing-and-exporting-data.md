@@ -14,6 +14,9 @@ contextual_links:
   - type: link
     name: "Generate a Collection From a Specification | Postman Level Up"
     url: "https://youtu.be/gljWt9tDKOY"
+  - type: link
+    name: "Postman Level Up | Import a HAR file in Postman"
+    url: "https://youtu.be/E3uo-oQ9WtE"    
   - type: subtitle
     name: "Related Blog Posts"
   - type: link

@@ -85,7 +85,7 @@ If certificate verification fails, Postman will display an error message.
 
 <img alt="Certificate verification fail" src="https://assets.postman.com/postman-docs/certificate-verification-fail.jpg" width="500px"/>
 
-You will see the error in the response area if you have SSL verification turned on. __Disable SSL Verification__ to disable the setting globally and rerun the request.
+You will see the error in the response area if you have SSL verification turned on. __Disable SSL Verification__ to turn off the setting globally and rerun the request.
 
 <img alt="Verification error" src="https://assets.postman.com/postman-docs/response-error-disable-ssl.jpg" width="300px"/>
 

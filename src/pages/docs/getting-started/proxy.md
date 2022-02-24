@@ -79,7 +79,7 @@ Postman allows you to configure **Custom Proxy Configuration** that direct Postm
 
 [![Enable custom proxy](https://assets.postman.com/postman-docs/custom-proxy-flow.jpg)](https://assets.postman.com/postman-docs/custom-proxy-flow.jpg)
 
-Custom proxy settings are disabled by default and can be turned on using the toggle switch.
+Custom proxy settings are turned off by default and can be turned on using the toggle switch.
 
 Choose the type of proxy server by checking the appropriate checkboxes beside **Proxy Type**. By default, both `HTTP` and `HTTPS` are checked. This means that both HTTP and HTTPS requests will go through the proxy server.
 
@@ -107,7 +107,7 @@ If all of your applications need to use the same proxy, you might need to use a 
 
 System proxy settings are enabled by default. Any request made through Postman will go through the system proxy.
 
-You can select or unselect the option "**Use the system proxy**" to enable or disable the system proxy. When it is unchecked, all the requests are made directly. However, regardless of the proxy setting in the app, Postman will still use the system proxy if there is an environment variable set.
+You can select or unselect the option "**Use the system proxy**" to turn the system proxy on or off. When it is unchecked, all the requests are made directly. However, regardless of the proxy setting in the app, Postman will still use the system proxy if there is an environment variable set.
 
 [![Use system proxy](https://assets.postman.com/postman-docs/use-system-proxy.jpg)](https://assets.postman.com/postman-docs/use-system-proxy.jpg)
 
@@ -126,7 +126,7 @@ If you are unable to send any requests through Postman and your network requires
 
 If you are unable to send any requests through Postman and your network does not require a proxy, take the following steps:
 
-* Ensure you have both proxies (Custom/System) disabled. If you are still not able to send the request, it might be due to the environment variables setup in your system. There are two solutions to solve this:
+* Ensure you have both proxies (Custom/System) deactivated. If you are still not able to send the request, it might be due to the environment variables setup in your system. There are two solutions to solve this:
 
     * Remove the environment variables http&#95;proxy, https&#95;proxy, HTTP&#95;PROXY, and HTTPS&#95;PROXY.
     * Start Postman with these "variables" turned off:

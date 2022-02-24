@@ -77,7 +77,7 @@ The Raw view is a large text area with the response body. It can indicate whethe
 
 The Preview view renders the response in a sandboxed iframe. Some web frameworks by default return HTML errors, and Preview can be especially helpful for debugging in those cases.
 
-Due to iframe sandbox restrictions, JavaScript and images are disabled in the iframe. For binary response types, you can select “Send and download” to save the response locally. You can then view it using the appropriate viewer. This gives you the flexibility to test audio files, PDFs, zip files, or any other file types the API returns.
+Due to iframe sandbox restrictions, JavaScript and images are turned off in the iframe. For binary response types, you can select “Send and download” to save the response locally. You can then view it using the appropriate viewer. This gives you the flexibility to test audio files, PDFs, zip files, or any other file types the API returns.
 
 <img alt="Response Preview view" src="https://assets.postman.com/postman-docs/response-preview-view.jpg" width="300px"/>
 
@@ -115,9 +115,9 @@ When you make an `https` request, the globe icon includes a padlock. When you ho
 
 ### SSL verification errors
 
-If you have SSL verification enabled in Postman's global settings and verification fails, the response area will display an error message. Select the link in the error message to disable verification globally and immediately run the request again.
+If you have SSL verification enabled in Postman's global settings and verification fails, the response area will display an error message. Select the link in the error message to turn off verification globally and immediately run the request again.
 
-If SSL is disabled globally but enabled for your request, you will see the error and a link to open the console.
+If SSL is turned off globally but turned on for your request, you will see the error and a link to open the console.
 
 <img alt="Verification error" src="https://assets.postman.com/postman-docs/response-error-disable-ssl.jpg" width="300px"/>
 

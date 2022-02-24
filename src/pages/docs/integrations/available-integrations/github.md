@@ -116,7 +116,7 @@ Syncing your API schemas will enable a two-way sync between the schema stored in
 
 Postman 9.0 introduced the ability to connect a git repository to an API. Previously, a GitHub integration would only sync API schemas. Now, you can connect your repo to an API directly in the API Builder. Not only does this add two-way sync of schemas, but also syncs associated collections, and adds powerful new features for syncing branches and release tags between Postman and your repo. For more information on the repo sync feature, see [Versioning APIs](/docs/designing-and-developing-your-api/versioning-an-api/).
 
-> If you previously added two-way sync for an API schema, it will continue to function in the future. But you can't add a new sync, and if you want to use the new API-level sync, you must delete the old one first.
+> If you previously added two-way sync for an API schema, it will continue to function in the future. But you can't add a new sync, and if you want to use the new API-level sync, you must delete the previous one first.
 
 ## Troubleshooting GitHub Sync
 
