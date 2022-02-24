@@ -89,9 +89,7 @@ For example, if you have the same URL in multiple requests, but the URL might ch
 
 <a href="https://assets.postman.com/postman-docs/reference-var-v9.jpg"><img alt="Reference Variable" src="https://assets.postman.com/postman-docs/reference-var-v9.jpg" width="300px"/></a>
 
-Postman supports variables at different scopes, allowing you to tailor your processing to a variety of development, testing, and collaboration tasks. Scopes in Postman relate to the different contexts that your requests run in: within Postman, in [collections](/docs/sending-requests/intro-to-collections/), in [environments](/docs/sending-requests/managing-environments/), in [Newman](/docs/running-collections/using-newman-cli/), and in the [Collection Runner](/docs/running-collections/intro-to-collection-runs/). You can use variables to pass data between requests and tests, for example if you are chaining requests using a collection.
-
-> Postman will store environment and global variables as strings. If you’re storing objects or arrays, remember to `JSON.stringify()` them before storing, and `JSON.parse()` them when you retrieve them.
+You can use variables to pass data between requests and tests, for example if you are chaining requests using a collection.
 
 Variables in Postman are key-value pairs. Each variable name represents its key, so referencing the variable name allows you to access its value.
 
@@ -101,52 +99,27 @@ You can use environments to group sets of variables together and share them with
 
 ## Variable scopes
 
-Postman supports the following variable scopes:
+Postman supports variables at different scopes, allowing you to tailor your processing to a variety of development, testing, and collaboration tasks. Scopes in Postman relate to the different contexts that your requests run in, and different variable scopes are suited to different tasks.
 
-<div>
+In order from broadest to narrowest, these scopes are: _global_, _collection_, _environment_, _data_, and _local_.
 
-<div style="width:35%;float:left;">
+Scope | Description | Notes
+--- | --- | ---
+**Global variables** | Enable you to access data between collections, requests, test scripts, and environments. Global variables are available throughout a [workspace](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/). | Since global variables can create confusion, you should only use them sparingly. For example, use a global variable to test something or when your project is at an early prototyping stage.
+**Collection variables** | Available throughout the requests in a collection and are independent of environments. Collection variables don't change based on the selected environment. | Collection variables are suitable if you are only using a single environment, for example for auth or URL details.
+**Environment variables** | Enable you to tailor your processing to different environments, for example local development versus testing or production. Only one environment can be active at a time. |  If you have only one environment, using collection variables can be more efficient, but environments enable you to specify [role-based access levels](/docs/sending-requests/managing-environments/#working-with-environments-as-a-team).
+**Data variables** | Come from external CSV and JSON files to define data sets you can use when running collections with [Newman](/docs/running-collections/using-newman-cli/) or the [Collection Runner](/docs/running-collections/intro-to-collection-runs/). | <!-- TODO: something here -->
+**Local variables** | Temporary, and only accessible in your request scripts. Local variable values are scoped to a single request or collection run, and are no longer available when the run is complete. |  Local variables are suitable if you need a value to override all other variable scopes but don't want the value to persist once execution has ended.
 
-* Global
-* Collection
-* Environment
-* Data
-* Local
+> If a variable with the same name is declared in two different scopes, the value stored in the variable with narrowest scope will be used. For example, if there is a global variable named `username` and a local variable named `username`, the local value will be used when the request runs.
 
-</div>
+<!--  -->
 
-<div style="width:50%;float:left;padding-left:15%;">
-
-<img alt="Variable Scope" src="https://assets.postman.com/postman-docs/var-scope.jpg" width="350px"/>
-
-</div>
-
-</div>
-
-<br style="clear: both;" />
-
-If a variable with the same name is declared in two different scopes, the value stored in the variable with narrowest scope will be used. For example, if there is a global variable named `username` and a local variable named `username`, the local value will be used when the request runs.
-
-### Choosing variable scope
-
-Variable scopes are suited to different tasks in Postman:
-
-* __Global variables__ enable you to access data between collections, requests, test scripts, and environments. Global variables are available throughout a [workspace](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/).
-
-   > Since global variables can create confusion, you should only use them sparingly. For example, use a global variable to test something or when your project is at an early prototyping stage.
-* __Collection variables__ are available throughout the requests in a collection and are independent of environments, and don't change based on the selected environment.
-    > Collection variables are suitable if you are only using a single environment, for example for auth or URL details.
-* __Environment variables__ enable you to tailor your processing to different environments, for example local development versus testing or production. Only one environment can be active at a time.
-    > If you have only one environment, using collection variables can be more efficient. However environments enable you to specify [role-based access levels](/docs/sending-requests/managing-environments/#working-with-environments-as-a-team).
-* __Local variables__ are temporary, and only accessible in your request scripts. Local variable values are scoped to a single request or collection run, and are no longer available when the run is complete.
-    > Local variables are suitable if you need a value to override all other variable scopes but don't want the value to persist once execution has ended.
-* __Data variables__ come from external CSV and JSON files to define data sets you can use when running collections with [Newman](/docs/running-collections/using-newman-cli/) or the [Collection Runner](/docs/running-collections/intro-to-collection-runs/).
-
-![Variable Scopes](https://assets.postman.com/postman-docs/Variables-Chart.png)
+> Postman stores global and environment variables as strings. If you store objects or arrays, remember to `JSON.stringify()` them before storing, and `JSON.parse()` them when you retrieve them.
 
 ## Variable types
 
-Beyond scope, global and environment variables can be defined by type. The two variable types that you can configure for environment and global variables are:
+Beyond scope, global and environment variables can be defined by type. The two variable types that you can configure for global and environment variables are:
 
 * **Default type** is the default type that is automatically assigned to variables. This type is shown as plain text and has no additional properties.
 * **Secret type** masks the [initial and current values](#specifying-variable-detail) for all workspace members and can be used to prevent unintentional disclosure of sensitive data, including API secrets, passwords, tokens, and keys.
