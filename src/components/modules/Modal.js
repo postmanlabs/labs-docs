@@ -10,7 +10,7 @@ export function useModal(parsedHtml, e) {
     const imgHasDefinedHref = images[i].src === images[i].parentNode.href
     /* Check if image does not have parent element with href  */
     const imgHasUndefinedHref  = images[i].parentNode.href === undefined;
-    if (imgHasDefinedHref  || imgHasUndefinedHref) {
+    if (imgHasDefinedHref || imgHasUndefinedHref) {
       images[i].parentNode.href = images[i].parentNode.href;
       images[i].outerHTML = Modal(create_id, images, i);
       const parser = new DOMParser();
@@ -19,28 +19,33 @@ export function useModal(parsedHtml, e) {
   }
 }
 const Modal = (create_id, images, i) => {
-  console.log(images[i].alt)
   return (
     `
-    <a data-target=#${create_id} class="modal-link" data-toggle="modal">
-      <img src=${images[i].src || null} alt="${images[i].alt || null}"></img>
+    ${images[i].width === 0 ? (
+      `<a data-target=#${create_id} class="modal-link" data-toggle="modal">
+      <img src=${images[i].src || ''} alt="${images[i].alt || ''}" width=${images[i].width || ''}></img>
     </a>
     <div id=${create_id} class="modal modal-link fade" tab-index="-1" role="dialog">
-      <div class="modal-dialog modal-dialog-centered" role="document">
-        <div class="modal-close-button">
-          <button
-            type="button"
-            class="close"
-            data-dismiss="modal"
-            aria-label="close"
-          >
-          <div class="modal-content">
-            <img src=${images[i].src || null} alt="${images[i].alt || null}"></img>
-          </div>
-          </button>     
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-close-button">
+        <button
+          type="button"
+          class="close"
+          data-dismiss="modal"
+          aria-label="close"
+        >
+        <div class="modal-content">
+          <img src=${images[i].src || ''} alt="${images[i].alt || ''}" width=${images[i].width || '1400'}></img>
         </div>
+        </button>     
       </div>
     </div>
+  </div>
+    `
+    )
+      : (`
+        <img src=${images[i].src || ''} alt="${images[i].alt || ''}" width=${images[i].width || ''}></img>`
+      )}
     `
   )
 }
