@@ -58,8 +58,11 @@ A proxy acts as an intermediary between a client application (like a mobile app)
 
     SCREENSHOT
 
-1. Turn on the toggle next to **Enable Postman as a proxy**.
 1. Enter a **Port** number. The default value is `5555`. You will use this port number when configuring clients.
+
+    > You cannot change the port number while the proxy is enabled.
+
+1. Turn on the toggle next to **Enable Postman as a proxy**.
 1. Enter one or more **Domains**. Postman will sync cookies for the specified domains to the cookie jar. Adding a domain automatically syncs cookies for its subdomains as well.
 1. Select **Start Capture**.
 
