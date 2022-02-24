@@ -418,6 +418,8 @@ If the variable is unresolved because it does not exist:
 
 <!-- TODO: add screenshot -->
 
+> If the variable was [defined programmatically in a script](#defining-variables-in-scripts), it will be resolved at runtime. This means that if a variable is unresolved, Postman can’t warn you before the request is sent. Depending on how the unresolved variable is used, you may receive a `400 Bad Request` error response from the API, or Postman may be unable to send the request at all. Open the [console](/docs/sending-requests/troubleshooting-api-requests/#debugging-in-the-console) to help identify unresolved variables in your scripts.
+
 ## Next steps
 
 For an overview of how you can manage and share variable data sets, see [Managing environments](/docs/sending-requests/managing-environments/). Check out [Intro to scripts](/docs/writing-scripts/intro-to-scripts/) for more on using variables in your request scripting, and [Grouping requests in collections](/docs/sending-requests/intro-to-collections/) for more on how you can use data between requests.
