@@ -394,6 +394,7 @@ When you are working on an API request, Postman highlights unresolved variables 
 <!-- TODO: add screenshot -->
 
 A variable can be unresolved for a few reasons:
+
 * The variable was created but the changes have not been saved
 * The variable is not present in an active scope for the request <!-- TODO: (link to scope section) -->
 * The environment in which the variable is present is not active
