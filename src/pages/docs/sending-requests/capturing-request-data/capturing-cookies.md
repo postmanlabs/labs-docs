@@ -54,7 +54,7 @@ A proxy acts as an intermediary between a client application (like a mobile app)
 
     SCREENSHOT
 
-1. In the **Cookies** window, select the **Capture Cookies** tab.
+1. In the **Cookies** window, select the **Capture Cookies** tab and select the **Proxy** option.
 
     SCREENSHOT
 
@@ -65,13 +65,36 @@ A proxy acts as an intermediary between a client application (like a mobile app)
 
     SCREENSHOT
 
-Postman is now ready to capture and sync cookies.
+Postman is now ready to capture and sync cookies using the proxy.
 
 * To start capturing cookies, configure one or more clients to use the Postman proxy. Learn more about [configuring the proxy on a client device](/docs/sending-requests/capturing-request-data/capturing-http-requests/#step-3-configure-the-proxy-on-a-client-device).
 * To stop syncing cookies for a domain, select &#10005; next to the domain name.
-* To stop capturing and syncing all cookies, turn off the toggle next to **Enable Postman as a proxy**.
+* To stop capturing and syncing all cookies, select **Stop Capture**.
 
 ## Capture cookies with Postman Interceptor
 
+Postman Interceptor is a Chrome extension that captures network requests directly from Chrome and saves them to Postman. You can use Interceptor to continuously sync the cookies in your Chrome browser with the [Postman cookie jar](/docs/sending-requests/cookies/). You can then use the synced cookies when sending requests in Postman.
 
+> The cookie jar always has the latest value for a given cookie. If you need to observe how cookie values change during a request flow, start an [Interceptor debug session](/docs/sending-requests/capturing-request-data/interceptor/).
 
+1. Install the Postman Interceptor Chrome extension by following the steps in [Installing Interceptor](/docs/sending-requests/capturing-request-data/interceptor/#installing-interceptor).
+
+1. Select ICON **Cookies** in the Postman footer.
+
+    SCREENSHOT
+
+1. In the **Cookies** window, select the **Capture Cookies** tab and select the **Interceptor** option.
+
+    > Make sure you see the message **Interceptor Connected**. If you see the message **Interceptor Disconnected**, make sure your Chrome browser is open and the [Interceptor extension is installed](/docs/sending-requests/capturing-request-data/interceptor/#installing-interceptor).
+
+    SCREENSHOT
+
+1. Enter one or more **Domains**. Postman will sync cookies for the specified domains to the cookie jar. Adding a domain automatically syncs cookies for its subdomains as well.
+1. Select **Start Capture**.
+
+    SCREENSHOT
+
+Postman is now ready to capture and sync cookies using Interceptor.
+* Cookies for the domains you specified are automatically synced from Chrome to Postman.
+* To stop syncing cookies for a domain, select &#10005; next to the domain name.
+* To stop capturing and syncing all cookies, select **Stop Capture**.
