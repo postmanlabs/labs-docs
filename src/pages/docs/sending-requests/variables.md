@@ -103,15 +103,29 @@ You can use environments to group sets of variables together and share them with
 
 Postman supports the following variable scopes:
 
+<div>
+
+<div style="width:35%;float:left;">
+
 * Global
 * Collection
 * Environment
 * Data
 * Local
 
+</div>
+
+<div style="width:50%;float:left;padding-left:15%;">
+
 <img alt="Variable Scope" src="https://assets.postman.com/postman-docs/var-scope.jpg" width="350px"/>
 
-If a variable with the same name is declared in two different scopes, the value stored in the variable with narrowest scope will be used—for example if there is a global and a local variable both named `username`, the local value will be used when the request runs.
+</div>
+
+</div>
+
+<br style="clear: both;" />
+
+If a variable with the same name is declared in two different scopes, the value stored in the variable with narrowest scope will be used. For example, if there is a global variable named `username` and a local variable named `username`, the local value will be used when the request runs.
 
 ### Choosing variable scope
 
@@ -353,6 +367,12 @@ console.log(pm.variables.get("variable_key"));
 
 [![Logging Variable](https://assets.postman.com/postman-docs/log-var-v8.jpg)](https://assets.postman.com/postman-docs/log-var-v8.jpg)
 
+### Using data variables
+
+The Collection Runner lets you import a CSV or a JSON file, and use the values from the data file inside requests and scripts. You can't set a data variable inside Postman because it's pulled from the data file, but you can access data variables inside scripts, for example using `pm.iterationData.get("variable_name")`.
+
+See [working with data files](/docs/running-collections/working-with-data-files/) and the [Sandbox API reference](/docs/writing-scripts/script-references/postman-sandbox-api-reference/) for more.
+
 ## Sharing and persisting data
 
 When you edit global, collection, and environment variables in Postman, you will see a __Current Value__ that you can choose to __Persist__ or __Reset__ for individual variables. You can also select **Persist All** or **Reset All** to apply this setting to all variables. These enable you to control what happens within your local instance of Postman, independently of how the data is synced with anyone sharing your workspace, requests, collections, and environments.
@@ -378,12 +398,6 @@ You can edit a current value inline from the environment quick look.
 For more information on working with variables as a team, see [Managing environments](/docs/sending-requests/managing-environments/#creating-environments).
 
 > Local and data variables only have current values, which don't persist beyond request or collection runs.
-
-## Using data variables
-
-The Collection Runner lets you import a CSV or a JSON file, and use the values from the data file inside requests and scripts. You can't set a data variable inside Postman because it's pulled from the data file, but you can access data variables inside scripts, for example using `pm.iterationData.get("variable_name")`.
-
-See [working with data files](/docs/running-collections/working-with-data-files/) and the [Sandbox API reference](/docs/writing-scripts/script-references/postman-sandbox-api-reference/) for more.
 
 ## Fixing unresolved variables
 
