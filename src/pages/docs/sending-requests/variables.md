@@ -308,9 +308,9 @@ The prompt will indicate current value, scope (highlighted by color), and overri
 
 ![Overridden Variable](https://assets.postman.com/postman-docs/overridden-var.jpg)
 
-If a variable is unresolved, Postman will highlight it in red.
+If a variable is unresolved, Postman will highlight it in red. For information on how to fix an unresolved variable, see [Fixing unresolved variables](#fixing-unresolved-variables).
 
-<img alt="Unresolved Variable" src="https://assets.postman.com/postman-docs/unresolved-var.jpg" width="250px"/>
+<img alt="Unresolved Variable" src="https://assets.postman.com/postman-docs/unresolved-var.jpg" width="250px"/> <!-- TODO: update screenshot -->
 
 ### Using dynamic variables
 
@@ -384,6 +384,39 @@ For more information on working with variables as a team, see [Managing environm
 The Collection Runner lets you import a CSV or a JSON file, and use the values from the data file inside requests and scripts. You can't set a data variable inside Postman because it's pulled from the data file, but you can access data variables inside scripts, for example using `pm.iterationData.get("variable_name")`.
 
 See [working with data files](/docs/running-collections/working-with-data-files/) and the [Sandbox API reference](/docs/writing-scripts/script-references/postman-sandbox-api-reference/) for more.
+
+## Fixing unresolved variables
+
+An _unresolved variable_ is a variable that is not defined in an active scope (collection, environment, or globals) that is available for the request it’s used in.
+
+When you are working on an API request, Postman highlights unresolved variables in the **URL field** and in the **Params** tab. If you send a request that includes an unresolved variable, the request will fail.
+
+<!-- TODO: add screenshot -->
+
+A variable can be unresolved for a few reasons:
+* The variable was created but the changes have not been saved
+* The variable is not present in an active scope for the request <!-- TODO: (link to scope section) -->
+* The environment in which the variable is present is not active
+* The variable is turned off in an active environment
+
+To view details for an unresolved variable:
+
+1. Hover over the unresolved variable in the **URL field** or the **Params** tab.
+
+To check if the variable is available and in scope for the request:
+
+1. Select one of the **active environment**, **collection**, or **globals** links.
+1. On the tab for the environment, collection, or global, make the necessary changes to the variable.
+1. Select **Save**. <!-- TODO: (use the save icon here) -->
+
+<!-- TODO: add screenshot -->
+
+If the variable is unresolved because it does not exist:
+1. Select **Add new variable**.
+1. Enter a **Name**, verify a **Value** for the variable, and select the appropriate **Scope** (global, collection, or environment) from the dropdown.
+1. Select **Create variable**.
+
+<!-- TODO: add screenshot -->
 
 ## Next steps
 
