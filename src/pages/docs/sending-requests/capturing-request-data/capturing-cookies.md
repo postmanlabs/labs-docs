@@ -1,7 +1,7 @@
 ---
 title: "Capturing cookies"
 page_id: "capturing_cookies"
-updated: 2022-03-01
+updated: 2022-03-02
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -33,11 +33,11 @@ warning: false
 
 The Postman app enables you to capture cookies from a browser or client application. You can capture cookies using either the Postman proxy or Postman Interceptor, without starting a [debug session](/docs/sending-requests/capturing-request-data/capture-overview/).
 
-Once enabled, Postman continuously captures cookies for the domains you specify. Captured cookies are automatically synced to your Postman cookie jar. You can then use the cookies when sending requests from Postman. Learn more about [using cookies](/docs/sending-requests/cookies/).
+Once configured, Postman continuously captures cookies for the domains you specify. Captured cookies are automatically synced to your Postman cookie jar. You can then use the cookies when sending requests from Postman. Learn more about [using cookies](/docs/sending-requests/cookies/).
 
 > Capturing cookies is only available using the [Postman desktop app](/docs/getting-started/installation-and-updates/#web-limitations).
 
-> You can also capture requests and cookies during a proxy or Interceptor debug session. Learn more about capturing requests with [Postman proxy](/docs/sending-requests/capturing-request-data/capturing-http-requests/) or [Postman Interceptor](/docs/sending-requests/capturing-request-data/interceptor/).
+> You can also capture requests and cookies during a proxy or Interceptor debug session. Learn more about capturing requests with the [Postman proxy](/docs/sending-requests/capturing-request-data/capturing-http-requests/) or [Postman Interceptor](/docs/sending-requests/capturing-request-data/interceptor/).
 
 ## Contents
 
@@ -46,7 +46,30 @@ Once enabled, Postman continuously captures cookies for the domains you specify.
 
 ## Capture cookies with the Postman proxy
 
+A proxy acts as an intermediary between a client application (like a mobile app) and a server (like an API). You can use Postman's built-in proxy to capture any cookies passing between a client and a server. The captured cookies are synced to the [Postman cookie jar](/docs/sending-requests/cookies/) for later use.
 
+> The cookie jar always has the latest value for a given cookie. If you need to observe how cookie values change during a request flow, start a [proxy debug session](/docs/sending-requests/capturing-request-data/capturing-http-requests/).
+
+1. Select ICON **Cookies** in the Postman footer.
+
+    SCREENSHOT
+
+1. In the **Cookies** window, select the **Capture Cookies** tab.
+
+    SCREENSHOT
+
+1. Turn on the toggle next to **Enable Postman as a proxy**.
+1. Enter a **Port** number. The default value is `5555`. You will use this port number when configuring clients.
+1. Enter one or more **Domains**. Postman will sync cookies for the specified domains to the cookie jar. Adding a domain automatically syncs cookies for its subdomains as well.
+1. Select **Start Capture**.
+
+    SCREENSHOT
+
+Postman is now ready to capture and sync cookies.
+
+* To start capturing cookies, configure one or more clients to use the Postman proxy. Learn more about [configuring the proxy on a client device](/docs/sending-requests/capturing-request-data/capturing-http-requests/#step-3-configure-the-proxy-on-a-client-device).
+* To stop syncing cookies for a domain, select &#10005; next to the domain name.
+* To stop capturing and syncing all cookies, turn off the toggle next to **Enable Postman as a proxy**.
 
 ## Capture cookies with Postman Interceptor
 
