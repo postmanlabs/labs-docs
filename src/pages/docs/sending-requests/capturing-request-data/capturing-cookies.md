@@ -31,4 +31,20 @@ warning: false
 
 ---
 
-Describe continuous cookie capture with Postman proxy or Interceptor.
+The Postman app enables you to capture cookies from a browser or client application. You can capture cookies using either the Postman proxy or Postman Interceptor, without starting a debugging session.
+
+After you enable capture, Postman continuously captures cookies for the domains you specify. Captured cookies are automatically synced with your Postman cookie jar. You can then use the cookies when sending requests from Postman. Learn more about [using cookies](/docs/sending-requests/cookies/).
+
+> You can also capture requests and cookies during a proxy or Interceptor debugging session. Learn more about capturing requests with the [Postman proxy](/docs/sending-requests/capturing-request-data/capturing-http-requests/) or with [Postman Interceptor](/docs/sending-requests/capturing-request-data/interceptor/).
+
+## Contents
+
+* [Capture cookies with the Postman proxy](#capture-cookies-with-the-postman-proxy)
+* [Capture cookies with Postman Interceptor](#capture-cookies-with-postman-interceptor)
+
+## Capture cookies with the Postman proxy
+
+
+## Capture cookies with Postman Interceptor
+
+
