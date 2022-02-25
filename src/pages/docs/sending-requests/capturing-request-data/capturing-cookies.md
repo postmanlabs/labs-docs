@@ -45,6 +45,7 @@ Once configured, Postman continuously captures cookies for the domains you speci
 
 * [Capture cookies with the Postman proxy](#capture-cookies-with-the-postman-proxy)
 * [Capture cookies with Postman Interceptor](#capture-cookies-with-postman-interceptor)
+* [Next steps](#next-steps)
 
 ## Capture cookies with the Postman proxy
 
@@ -93,3 +94,7 @@ Postman is now ready to capture and sync cookies using Interceptor.
 * Cookies for the domains you specified are automatically synced from Chrome to Postman.
 * To stop syncing cookies for a domain, select &#10005; next to the domain name.
 * To stop capturing and syncing all cookies, select **Stop Capture**.
+
+## Next steps
+
+Learn more about [managing and using cookies](/docs/sending-requests/cookies/) in Postman.
