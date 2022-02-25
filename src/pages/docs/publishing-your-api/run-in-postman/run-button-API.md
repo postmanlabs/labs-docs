@@ -87,7 +87,7 @@ The `env.create` action will return true on success, false on failure.
 Use the `env.assign` method to modify an environment:
 
 ```javascript
-_pm('env.assign', 'environment_name', {key: new_value, new_key: value}, preventDefault, runButtonIndex)
+_pm('env.assign', 'environment_name', {key: new_value, new_key: value}, preventOveride, runButtonIndex)
 ```
 
 > The `env.assign` method works for environments that were included in the Run in Postman button when it was created, or environments that were added using the `env.create` method.
