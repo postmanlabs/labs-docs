@@ -93,6 +93,9 @@ After the proxy is running, you can start a proxy debug session. This is a time-
     > In responses with a `content-type` that contains images, audio, or video, the content is intercepted but not captured. The only information captured is response headers, time taken, and the status code.
 
 1. Select **Capture Cookies** if you want to capture cookies in addition to requests during the debug session.
+
+    > You can also capture cookies and sync them to Postman without starting a debug session. Learn more about [continuous cookie capture](/docs/sending-requests/capturing-request-data/capturing-cookies/).
+
 1. Requests will be saved in a debug session in the **History** tab in the sidebar. Select **Save requests to a collection** and select a collection from the list to also save the requests there.
 1. If you save requests and responses to a collection, they are added chronologically by default. You can alternately group them in folders organized by domain name or endpoints. Under **Organize requests by**, select **Domain name**, **Endpoints**, or both. Your requests and responses are then organized in folders in the selected collection.
 1. Under **Configure Incoming Requests**, there are additional options you can use to limit the requests and responses captured:
@@ -152,8 +155,6 @@ There are several controls you can use to limit, organize, and investigate traff
 
 When you select one or more requests from the list on the **Requests** tab, you can use the following controls:
 
-* **+ Add to collection** - add the request to a specified collection.
-
 * <img alt="External link icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg" width="12px" style="vertical-align:middle;margin-bottom:5px"> **Delete** - delete the request.
 
 When you select one or more cookies from the list on the **Cookies** tab, you can use the following controls:
@@ -178,7 +179,7 @@ When you open a saved debug session, the top header displays the session start t
 
 The **Overview** displays summary graphs of the traffic captured in the session. You can select graphs summarizing traffic by method, domain, data mode, or return status code.
 
-The **Requests** and **Cookies** tabs display requests, responses, and cookies, similar to the same tabs available during a capture session. The same options for searching, expanding, saving, and deleting items described in Step 4 are available. You can also use the controls at the bottom of the table to limit the number of items per page, and navigate through the pages of results.
+The **Requests** and **Cookies** tabs display requests, responses, and cookies, similar to the same tabs available during a capture session. The same options for searching, expanding, saving, and deleting items described in Step 4 are available. You can also add selected requests to a collection. Use the controls at the bottom of the table to limit the number of items per page and navigate through the pages of results.
 
 You can rename a proxy debug session by selecting the name at the top of the window and entering a new name. Select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to the debug session name to rename or delete the session.
 
