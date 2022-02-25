@@ -242,14 +242,12 @@ To edit an existing example variable:
 1. Change the desired variable value.
 1. Select <img alt="Save icon" src="https://assets.postman.com/postman-docs/icon-save.jpg" width="16px" style="vertical-align:middle;margin-bottom:5px"> **Save** to confirm your changes.
 
-
 > * If you have Editor access to the environment, you can add and edit variables.
 > * If you have Viewer access to the environment, you are restricted to updating the _current value_ of existing variables. Any variables you edit are accessible to you, but not to collaborators in your [workspace](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/).
 >
 > See [Managing environments](/docs/sending-requests/managing-environments/) for more on working with environments in your team.
 
 You can also [define environment variables in scripts](#defining-variables-in-scripts).
-
 
 ### Defining collection variables
 
@@ -439,6 +437,7 @@ To check if the variable is available and in scope for the request:
 <!-- TODO: add screenshot -->
 
 If the variable is unresolved because it doesn't exist:
+
 1. Select **Add new variable**.
 1. Enter a **Name**, verify a **Value** for the variable, and select the appropriate **Scope** (global, collection, or environment) from the dropdown.
 1. Select **Create variable**.
