@@ -35,7 +35,9 @@ The Postman app enables you to capture cookies from a browser or client applicat
 
 Once configured, Postman continuously captures cookies for the domains you specify. Captured cookies are automatically synced to your Postman cookie jar. You can then [use the cookies](/docs/sending-requests/cookies/) when sending requests from Postman.
 
-> Capturing cookies is only available using the [Postman desktop app](/docs/getting-started/installation-and-updates/#web-limitations).
+> Capturing cookies isn't available when using [Postman for web](/docs/getting-started/installation-and-updates/#web-limitations).
+
+<!-- -->
 
 > You can also capture requests and cookies during a proxy or Interceptor debug session. Learn more about capturing requests with the [Postman proxy](/docs/sending-requests/capturing-request-data/capturing-http-requests/) or [Postman Interceptor](/docs/sending-requests/capturing-request-data/interceptor/).
 
@@ -54,7 +56,7 @@ A proxy acts as an intermediary between a client application (like a mobile app)
 1. In the **Cookies** window, select the **Capture Cookies** tab and select the **Proxy** option.
 1. Enter a **Port** number. The default value is `5555`. You will use this port number when configuring clients.
 
-    > You cannot change the port number while the proxy is enabled.
+    > You can't change the port number while the proxy is enabled.
 
 1. Turn on the toggle next to **Enable Postman as a proxy**.
 1. Enter one or more **Domains**. Postman will sync cookies for the specified domains to the cookie jar. Adding a domain automatically syncs cookies for its subdomains as well.
@@ -87,6 +89,7 @@ Postman Interceptor is a Chrome extension that captures network requests directl
     <img alt="Capture cookies with Interceptor" src="https://assets.postman.com/postman-docs/cookies-interceptor-capture-v9-13.jpg" width="848px"/>
 
 Postman is now ready to capture and sync cookies using Interceptor.
+
 * Cookies for the domains you specified are automatically synced from Chrome to Postman.
 * To stop syncing cookies for a domain, select &#10005; next to the domain name.
 * To stop capturing and syncing all cookies, select **Stop Capture**.
