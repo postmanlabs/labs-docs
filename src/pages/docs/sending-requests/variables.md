@@ -270,33 +270,17 @@ You can also [define collection variables in scripts](#defining-variables-in-scr
 
 You can set variables programmatically in your request scripts.
 
-Use `pm.globals` to define a global variable:
-
-```js
-pm.globals.set("variable_key", "variable_value");
-```
-
-Use `pm.collectionVariables` to define a collection variable:
-
-```js
-pm.collectionVariables.set("variable_key", "variable_value");
-```
-
-Use `pm.environment` to define an environment variable (in the currently selected environment):
-
-```js
-pm.environment.set("variable_key", "variable_value");
-```
+Method | Use-case | Example
+--- | --- | ---
+`pm.globals` | Use to define a global variable. | `pm.globals.set("variable_key", "variable_value");`
+`pm.collectionVariables` | Use to define a collection variable. | `pm.collectionVariables.set("variable_key", "variable_value");`
+`pm.environment` | Use to define an environment variable in the currently selected environment. | `pm.environment.set("variable_key", "variable_value");`
+`pm.variables` | Use to define a local variable. | `pm.variables.set("variable_key", "variable_value");`
+`unset` | You can use `unset` to remove a variable. | `pm.environment.unset("variable_key");`
 
 > If you have view access but not edit access to an environment, your script code will only affect the current value, and won't be synced or shared with your team.
 
-You can use `unset` to remove a variable:
-
-```js
-pm.environment.unset("variable_key");
-```
-
-Check out the [Sandbox Reference](/docs/writing-scripts/script-references/postman-sandbox-api-reference/) for more on scripting with variables.
+See the [Sandbox Reference](/docs/writing-scripts/script-references/postman-sandbox-api-reference/) for more on scripting with variables.
 
 ### Defining local variables
 
