@@ -62,7 +62,7 @@ A proxy acts as an intermediary between a client application (like a mobile app)
 1. Enter one or more **Domains**. Postman will sync cookies for the specified domains to the cookie jar. Adding a domain automatically syncs cookies for its subdomains as well.
 1. Select **Start Capture**.
 
-    <img alt="Capture cookies with the proxy" src="https://assets.postman.com/postman-docs/cookies-proxy-capture-v9-13.jpg" width="848px"/>
+<img alt="Capture cookies with the proxy" src="https://assets.postman.com/postman-docs/cookies-proxy-capture-v9-13.jpg" width="848px"/>
 
 Postman is now ready to capture and sync cookies using the proxy.
 
@@ -86,7 +86,7 @@ Postman Interceptor is a Chrome extension that captures network requests directl
 1. Enter one or more **Domains**. Postman will sync cookies for the specified domains to the cookie jar. Adding a domain automatically syncs cookies for its subdomains as well.
 1. Select **Start Capture**.
 
-    <img alt="Capture cookies with Interceptor" src="https://assets.postman.com/postman-docs/cookies-interceptor-capture-v9-13.jpg" width="848px"/>
+<img alt="Capture cookies with Interceptor" src="https://assets.postman.com/postman-docs/cookies-interceptor-capture-v9-13.jpg" width="848px"/>
 
 Postman is now ready to capture and sync cookies using Interceptor.
 
