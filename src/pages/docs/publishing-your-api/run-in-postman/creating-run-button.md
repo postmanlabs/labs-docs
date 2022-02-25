@@ -57,9 +57,9 @@ Make sure you're signed in to your Postman account, and that you have a collecti
 * Next to the collection name, select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> to expand the collection details and select **Share collection** to open a modal.
 
 * Tab over to **Via Run in Postman**.
-* Choose a dynamic or static button:
-    * **Dynamic button**: This button uses JavaScript, HTML and CSS, so you can customize the button for a website. You can also access the [Run in Postman API](/docs/publishing-your-api/run-in-postman/run-button-API/) to dynamically create and update environments.
-    > To create a dynamic button, you need to share the collection to a public workspace. If you do not have a public workspace to share to, you can create a new one within the modal. For users on Enterprise plans, you need to have a [community manager](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) role to [create a new public workspace](/docs/collaborating-in-postman/public-workspaces/).
+* Choose a live or static button:
+    * **Live button**: This button uses JavaScript, HTML and CSS, so you can customize the button for a website. You can also access the [Run in Postman API](/docs/publishing-your-api/run-in-postman/run-button-API/) to dynamically create and update environments.
+    > To create a live button, you need to share the collection to a public workspace. If you do not have a public workspace to share to, you can create a new one within the modal. For users on Enterprise plans, you need to have a [community manager](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) role to [create a new public workspace](/docs/collaborating-in-postman/public-workspaces/).
     * **Static button**: This button uses Markdown, so you can display it in a README, blog, or other Markdown document.
 
 * You can optionally include an environment to embed with your collection. On the left, click the **Environment** drop-down and choose the environment.
@@ -97,13 +97,13 @@ data-postman-collection-url=":collection_url"></div>
 
 ![Run in postman](https://assets.postman.com/postman-docs/new-run-in-postman-button.gif)
 
-> You can include an environment along with a collection in your Run in Postman button. The dynamic button gives you access to the [Run in Postman API](/docs/publishing-your-api/run-in-postman/run-button-API/) to create and modify environments.
+> You can include an environment along with a collection in your Run in Postman button. The live button gives you access to the [Run in Postman API](/docs/publishing-your-api/run-in-postman/run-button-API/) to create and modify environments.
 
 Clicking **Run in Postman** button navigates to the page where you can fork the collection to your workspace. [Forking the collection](/docs/collaborating-in-postman/version-control-for-collections/) into your workspace will enable you to contribute to the source collection using pull requests. You can also view the collection in a public workspace if you like and even import a copy of the collection using the links present on the screen. All collections shared with the new Run in postman buttons come with [Fork counts](/docs/collaborating-in-postman/version-control-for-collections/#forking-information), that help you and your consumers understand how the API is being used.
 
 <img alt="Fork collection for run in postman" src="https://assets.postman.com/postman-docs/fork-collection-for-run-in-postman.jpg" height="400px"/>
 
-> Note: The live Run in Postman buttons automatically stay updated with changes in the original collection, so your consumers always get the most recent version of your collection without publishers having to manually update the collection's link.
+> Note: Live Run in Postman buttons automatically stay updated with changes in the original collection, so your consumers always get the most recent version of your collection without publishers having to manually update the collection's link.
 
 ## Next steps
 
