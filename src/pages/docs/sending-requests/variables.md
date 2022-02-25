@@ -50,7 +50,7 @@ warning: false
 
 ---
 
-_Variables_ enable you to store and reuse values in your requests and scripts. By storing a value in a variable, you can reference it throughout your collections, environments, and requests. If you need to update the value, you only have to change it in one place. Using variables increases your ability to work efficiently and minimizes the likelihood of error.
+_Variables_ enable you to store and reuse values in Postman. By storing a value as a variable, you can reference it throughout your collections, environments, requests, and test scripts. If you need to update the value, you only have to change it in one place. Variables help you work efficiently, collaborate with teammates, and set up dynamic workflows.
 
 ## Contents
 
@@ -59,11 +59,18 @@ _Variables_ enable you to store and reuse values in your requests and scripts. B
 * [Variable scopes](#variable-scopes)
 * [Variable types](#variable-types)
 * [Defining variables](#defining-variables)
-* [Accessing variables](#accessing-variables)
+    * [Defining global variables](#defining-global-variables)
+    * [Defining environment variables](#defining-environment-variables)
+    * [Defining collection variables](#defining-collection-variables)
+    * [Defining variables in scripts](#defining-variables-in-scripts)
+    * [Defining local variables](#defining-local-variables)
+* [Using variables](#using-variables)
+    * [Using dynamic variables](#using-dynamic-variables)
+    * [Using variables in scripts](#using-variables-in-scripts)
+        * [Logging variables](#logging-variables)
+    * [Using data variables](#using-data-variables)
 * [Sharing and persisting data](#sharing-and-persisting-data)
-* [Logging variables](#logging-variables)
-* [Using data variables](#using-data-variables)
-* [Using dynamic variables](#using-dynamic-variables)
+* [Fixing unresolved variables](#fixing-unresolved-variables)
 * [Next steps](#next-steps)
 
 ## Variables quick start
