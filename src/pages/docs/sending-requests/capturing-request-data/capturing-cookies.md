@@ -33,7 +33,7 @@ warning: false
 
 The Postman app enables you to capture cookies from a browser or client application. You can capture cookies using either the Postman proxy or Postman Interceptor, without starting a [debug session](/docs/sending-requests/capturing-request-data/capture-overview/).
 
-Once configured, Postman continuously captures cookies for the domains you specify. Captured cookies are automatically synced to your Postman cookie jar. You can then use the cookies when sending requests from Postman. Learn more about [using cookies](/docs/sending-requests/cookies/).
+Once configured, Postman continuously captures cookies for the domains you specify. Captured cookies are automatically synced to your Postman cookie jar. You can then [use the cookies](/docs/sending-requests/cookies/) when sending requests from Postman.
 
 > Capturing cookies is only available using the [Postman desktop app](/docs/getting-started/installation-and-updates/#web-limitations).
 
@@ -76,7 +76,7 @@ Postman is now ready to capture and sync cookies using the proxy.
 
 ## Capture cookies with Postman Interceptor
 
-Postman Interceptor is a Chrome extension that captures network requests directly from Chrome and saves them to Postman. You can use Interceptor to continuously sync the cookies in your Chrome browser with the [Postman cookie jar](/docs/sending-requests/cookies/). You can then use the synced cookies when sending requests in Postman.
+Postman Interceptor is a Chrome extension that captures network requests directly from Chrome and saves them to Postman. You can use Interceptor to continuously sync the cookies in your Chrome browser to the [Postman cookie jar](/docs/sending-requests/cookies/). You can then use the synced cookies when sending requests in Postman.
 
 > The cookie jar always has the latest value for a given cookie. If you need to observe how cookie values change during a request flow, start an [Interceptor debug session](/docs/sending-requests/capturing-request-data/interceptor/).
 
