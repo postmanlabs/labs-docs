@@ -64,7 +64,7 @@ Learn more about [using Postman Interceptor](/docs/sending-requests/capturing-re
 
 ## Capturing and syncing cookies
 
-Along with capturing requests, Postman can also capture cookies during a proxy or Interceptor debug session. You can manually add any captured cookies to the [Postman cookie jar](/docs/sending-requests/cookies/) and use them when sending requests from Postman.
+Along with capturing requests, Postman can capture cookies during a proxy or Interceptor debug session. You can manually add any captured cookies to the [Postman cookie jar](/docs/sending-requests/cookies/) and use them when sending requests from Postman.
 
 Postman's built-in proxy and Interceptor also support continuous cookie syncing. Once enabled, all captured cookies for the domains you specify are automatically synced to the Postman cookie jar.
 
