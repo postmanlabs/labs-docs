@@ -2,7 +2,7 @@
 title: "Using variables"
 order: 24
 page_id: "variables"
-updated: 2021-12-20
+updated: 2022-03-02
 search_keyword: "collectionVariables, iterationData, collectionVariables.set, collectionVariables.get, JSON.stringify, JSON.parse, base_url, pm.globals.set, globals.set, pm.collectionVariables.set, collectionVariables.set, pm.environment.set, environment.set, pm.variables.get, variables.get, pm.globals.get, globals.get, pm.collectionVariables.get, collectionVariables.get, pm.environment.get, environment.get, pm.iterationData.get, iterationData.get"
 contextual_links:
   - type: section
