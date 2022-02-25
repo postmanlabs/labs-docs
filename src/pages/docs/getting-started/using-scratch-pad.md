@@ -41,22 +41,22 @@ To leave the Scratch Pad:
 
 ## Exporting data from the Scratch Pad
 
-When you leave the Scratch Pad, your data remains there; you won't see it in your workspace. But you can export the data from the Scratch Pad, then import it to a workspace.
+When you leave the Scratch Pad, your data remains there; you won't see it in your workspace. But you can export the data from the Scratch Pad as JSON, then import it to a workspace.
 
-To export all Scratch Pad data:
+To export saved Scratch Pad data:
 
 1. Go to the Scratch Pad.
 1. Select the gear icon in the upper-right corner to open **Settings**, and select the **Data** tab.
 1. Click **Export Data**.
-1. This opens the **Export data** page in your web browser. Click **Export Data**.
-1. Select **Collections**, **Environments**, or both, and select **Request Data Export**.
-1. You'll get an email with a link to download the data dump, which is a single JSON file containing your data.
+1. In the save dialog, choose a directory in which to save the file, then select **Save**.
 
-You can also export a single collection or an environment. For more information, see [Exporting Postman data](/docs/getting-started/importing-and-exporting-data/#exporting-postman-data)
+You can also export a single collection or an environment. For more information, see [Exporting Postman data](/docs/getting-started/importing-and-exporting-data/#exporting-postman-data).
 
-To import Scratch Pad data:
+## Importing data from the Scratch Pad
 
-1. Log in and switch to a workspace using the **Workspaces** menu at the top of Postman. For more information, see [Using and managing workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/)
+When you log back in to Postman, you can import your Scratch Pad data:
+
+1. Log in and switch to a workspace using the **Workspaces** menu at the top of Postman. For more information, see [Using and managing workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/).
 1. Click **Import** in the upper-left corner.
 1. Drag and drop your exported data dump, collection, or environment and click **Import**.
 
