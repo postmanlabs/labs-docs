@@ -280,21 +280,11 @@ Method | Use-case | Example
 
 > If you have view access but not edit access to an environment, your script code will only affect the current value, and won't be synced or shared with your team.
 
-See the [Sandbox Reference](/docs/writing-scripts/script-references/postman-sandbox-api-reference/) for more on scripting with variables.
-
-### Defining local variables
-
-Local variables are temporary values you set in your request scripts using the following syntax:
-
-```js
-pm.variables.set("variable_key", "variable_value");
-```
-
-Local variables don't persist between sessions, but allow you to override all other scopes temporarily, during the execution of a request or collection / monitor run. For example, if you need to process a temporary test value for a single request or collection run locally, and don't want the value to sync with your team or remain available when the request / collection has finished running, you can use a local variable.
+For instructions on how to use variables in pre-request or test scripts, see [Using variables in scripts](#using-variables-in-scripts).
 
 ## Using variables
 
-You can use double curly braces to reference variables throughout the Postman user interface. For example, to reference a variable named "username" in your request auth settings, you could use the following syntax with double curly braces around the name:
+You can use double curly braces to reference variables throughout the Postman user interface. For example, to reference a variable named "username" in your request auth settings, you would use the following syntax with double curly braces around the name:
 
 ```js
 {{username}}
@@ -314,7 +304,7 @@ Postman will send whatever value you currently have stored for the `cust_id` var
 https://postman-echo.com/get?customer_id=3
 ```
 
-Alternatively, you could have a request body that accesses a variable by wrapping its reference in double-quotes:
+If you are want to access a variable from within a request body, wrap its reference in double-quotes:
 
 ```js
 { "customer_id" : "{{cust_id}}" }
@@ -340,15 +330,13 @@ If a variable is unresolved, Postman will highlight it in red. For information o
 
 Postman provides dynamic variables that you can use in your requests.
 
-Examples of dynamic variables are as follows:
+Examples of dynamic variables include:
 
-* `{{$guid}}` : A v4 style guid
-* `{{$timestamp}}`: The current timestamp (Unix timestamp in seconds)
+* `{{$guid}}` : A v4-style GUID
+* `{{$timestamp}}`: The current Unix timestamp in seconds
 * `{{$randomInt}}`: A random integer between 0 and 1000
 
 See the [Dynamic Variables](/docs/writing-scripts/script-references/variables-list/) section for a full list.
-
-> To use dynamic variables in pre-request or test scripts, use `pm.variables.replaceIn()`, for example `pm.variables.replaceIn('{{$randomFirstName}}')`.
 
 ### Using variables in scripts
 
@@ -367,13 +355,21 @@ pm.environment.get("variable_key");
 
 > Using `pm.variables.get()` to access variables in your scripts gives you the option to change variable scope without affecting your script functionality. This method will return whatever variable currently has highest precedence (or narrowest scope).
 
+To use [dynamic variables](#using-dynamic-variables) in pre-request or test scripts, use `pm.variables.replaceIn()`, for example `pm.variables.replaceIn('{{$randomFirstName}}')`.
+
+See the [Sandbox Reference](/docs/writing-scripts/script-references/postman-sandbox-api-reference/) for more details about scripting with variables.
+
 #### Logging variables
 
-You can alos log variable values to the [Postman Console](/docs/sending-requests/troubleshooting-api-requests/) while your requests run. Open the console from the button on the bottom left of Postman, or from the __View__ menu. To log the value of a variable, use the following syntax in your script:
+You can log variable values to the [Postman Console](/docs/sending-requests/troubleshooting-api-requests/) while your requests run.
+
+Use the following syntax in your script to log the value of a variable:
 
 ```js
 console.log(pm.variables.get("variable_key"));
 ```
+
+To view the results, open the console from the button on the bottom left of Postman, or from the __View__ menu.
 
 [![Logging Variable](https://assets.postman.com/postman-docs/log-var-v8.jpg)](https://assets.postman.com/postman-docs/log-var-v8.jpg)
 
@@ -401,9 +397,9 @@ When you create or edit a variable, you can enter both an initial and a current 
 
 > You can only edit the initial value of an environment variable if you have edit access to the environment itself. Without edit access to the environment, you can only edit the current value and your edit won't be visible to anyone sharing your [workspace](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/).
 
-Using __Persist__ will make your current value [sync](/docs/getting-started/syncing/) with Postman's servers and be reflected for anyone sharing your collection or environment. To reset your current local values to reflect the initial (shared) values, use __Reset__.
+Using __Persist__ will make your current value [sync](/docs/getting-started/syncing/) with Postman's servers and be reflected for anyone sharing your collection or environment. To reset your current local values to reflect the initial shared values, use __Reset__.
 
-You can edit a current value inline from the environment quick look.
+You can edit a current value inline from the **Environment quick look** <img alt="External link icon" src="https://assets.postman.com/postman-docs/eye.jpg" width="24px" style="vertical-align:middle;margin-bottom:5px"> in the top right of Postman.
 
 For more information on working with variables as a team, see [Managing environments](/docs/sending-requests/managing-environments/#creating-environments).
 
