@@ -227,21 +227,23 @@ To view environment variables:
 1. Select **Environments** in the left sidebar.
 1. Select the environment you want to see variables for.
 
-    > You can also view environment variables by selecting the **Environment quick look** <img alt="External link icon" src="https://assets.postman.com/postman-docs/eye.jpg" width="24px" style="vertical-align:middle;margin-bottom:5px"> at the top right.
+> You can also view environment variables by selecting the **Environment quick look** <img alt="External link icon" src="https://assets.postman.com/postman-docs/eye.jpg" width="24px" style="vertical-align:middle;margin-bottom:5px"> at the top right.
+>
+> The environment quick look shows the selected environment along with global variables in your workspace. You can edit the current value for an existing variable inline by selecting the value. To add a variable, select __Edit__ next to the environment section.
 
-You can create and edit environment variables by selecting __Environments__ on the left of Postman, or using the __Environment quick look__ <img alt="External link icon" src="https://assets.postman.com/postman-docs/eye.jpg" width="24px" style="vertical-align:middle;margin-bottom:5px"> at the top right.
+To add a new environment variable:
 
-You can choose an environment in the drop-down list at the top right:
+1. Select **Add a new variable**, and enter a name for the variable.
+1. Select a **Type** for the new variable.
+1. Add an **Inital Value**, and if you choose, a **Current Value**.
+1. Select **Save**.
 
-<img src="https://assets.postman.com/postman-docs/environment-selector-v9.13.jpg" alt="Environment selector" width="300px"/>
+To edit an existing example variable:
 
-You can also activate an environment in the left sidebar, by selecting the check-mark button to make the environment _active_.
+1. Change the desired variable value.
+1. Select **Save**.
 
-<img src="https://assets.postman.com/postman-docs/set-environment-active-left.jpg" alt="Environment Quick Look" width="350px"/>
-
-The environment quick look shows the selected environment along with global variables in your workspace. You can edit the current value for an existing variable inline, by selecting the value. To add a variable, select __Edit__ next to the environment or global section.
-
-You can only add and edit variables in environments if you have edit access to the environment as a whole. If you have view access, you can update the current value of existing variables only. Any variables you edit will only be accessible to you, and not available to collaborators in your [workspace](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/).
+You can only add and edit variables in environments if you have Editor access to the environment as a whole. If you have Viewer access, you can only update the _current value_ of existing variables. Any variables you edit will only be accessible to you, and not available to collaborators in your [workspace](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/).
 
 You can also [define environment variables in scripts](#defining-variables-in-scripts).
 
@@ -249,12 +251,18 @@ You can also [define environment variables in scripts](#defining-variables-in-sc
 
 ### Defining collection variables
 
-You can add collection variables when you create the collection or at any time after that. To create or edit a variable for an existing collection, select **Collections** in the left sidebar. Select a collection, and then select the **Variables** tab.
+You can add collection variables when you create the collection or at any time after that.
+
+To create or edit a variable for an existing collection:
+
+1. Select **Collections** in the left sidebar.
+1. Select a collection, and then select the **Variables** tab.
 
 [![Edit Collection](https://assets.postman.com/postman-docs/collection-variables-v9.jpg)](https://assets.postman.com/postman-docs/collection-variables-v9.jpg)
 
-> If you don't have edit access to a collection, you will see a __Request Access__ button. You won't be able to add new collection variables, update initial values, or persist values.
-> You can edit the current value for local use, override the collection variable by using an environment variable with the same name, or [request access](/docs/collaborating-in-postman/requesting-access-to-collections/) to the collection for __Editor__ role.
+> If you don't have Editor access to a collection, you will see a __Request Access__ button. You won't be able to add new collection variables, update initial values, or persist values.
+>
+> If you have Editor access to a collection, you can edit the current value for local use, override the collection variable by using an environment variable with the same name, or [request Editor access](/docs/collaborating-in-postman/requesting-access-to-collections/) to the collection.
 
 You can also [define collection variables in scripts](#defining-variables-in-scripts).
 
