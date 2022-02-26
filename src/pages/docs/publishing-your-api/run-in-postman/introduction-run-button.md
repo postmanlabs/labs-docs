@@ -33,9 +33,7 @@ contextual_links:
 
 ---
 
-The all-new <img alt="Run in Postman button icon" src="https://assets.postman.com/postman-docs/run-in-postman-button-icon.jpg" width="100px"/> button is a way to share a Postman collection (and optional environment) with your users. The live Run in Postman buttons automatically stay updated with changes in the original collection, so you will always get the most recent version of your collection without publishers having to manually update the collection's link. You can also attach a linked environment with this new button, to help consumers make faster API calls.
-
-![Twitter API button](https://assets.postman.com/postman-docs/twitter-api-RIP-button.jpg)
+The <img alt="Run in Postman button icon" src="https://assets.postman.com/postman-docs/run-in-postman-button-icon.jpg" width="100px"/> button is a way to share a Postman collection (and optional environment) with your users. Live Run in Postman buttons automatically stay updated with changes to your collection, providing consumers with its most recent version. You can also attach an environment to your live button to help onboard new users to your API quickly and efficiently.
 
 ## User interaction with your button
 
