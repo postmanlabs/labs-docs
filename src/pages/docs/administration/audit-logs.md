@@ -14,11 +14,10 @@ contextual_links:
 
 > __[Audit logs are available on Postman Professional and Enterprise plans.](https://www.postman.com/pricing)__
 
-Audit logs display events related to team management, billing, and security. A team admin can review audit logs to determine:
+Audit logs display events related to team management, billing, and security. Team admins can review audit logs to determine:
 
-* When users were added to the team
-* When users received an invitation to a team
-* Which user performed a specific action
+* When users were added to, removed from, or invited to your team
+* Which user performed a specific action and when they did so
 
 > Audit logs are visible to all [team admins](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) on [Postman Professional and Enterprise plans](https://www.postman.com/pricing), including super admins on Enterprise teams.
 
@@ -67,32 +66,68 @@ Logged events include the following actions.
 
 | Action name  | Description |
 | ------------- | ------------- |
-| Added Payment Method  | A new credit card was added to the your team.  |
-| Removed Payment method   | A credit card was removed from your team.  |
-| Added Domain   | A custom domain was added to your team. (You can use custom domains to publish documentation.)  |
-| Deleted Domain  | A custom domain was deleted from your team.  |
+| Activated SCIM Key | A user activated an SCIM key. |
+| Added Custom Alert | A new [custom token alert](/docs/api-security/token-scanner/#custom-alerts) was created for your team. |
+| Added Custom Domain | A custom domain was added to your team. (You can use custom domains to publish documentation.)  |
+| Added Domain For Domain Capture | Team admin added domain for domain capture. |
+| Added Group Member | A user joined the group. |
+| Added Group Role | A role was added to the group. |
 | Added Member   | A user joined your team.   |
+| Added Payment Method  | A user added a payment method. |
+| Approved Invite | An admin approved an email invitation. |
+| Approved join request | An admin approved a join request to team.
 | Cancelled Invite   | An invitation for a user was cancelled.   |
-| Successful login   | A user logged in successfully.   |
-| Logout | A user logged out. |
-| Reset Password | A user reset their password. |
+| Cancelled Invoice | A user cancelled an invoice for your team. |
+| Cancelled Plan | A user cancelled team’s subscription. |
+| Changed Default Payment Method | A user changed default payment method. |
 | Changed Password | A user changed their password. |
-| Custom auth scheme created| A new SSO scheme was added to your team.  |
+| Changed Plan | A user changed team plan. |
+| Created Group | A user created a new group. |
+| Created SCIM Key | A user created a new SCIM key. |
 | Custom auth scheme disabled  | An SSO scheme was disabled. |
 | Custom auth scheme enabled | An SSO scheme was enabled.  |
 | Custom auth scheme removed  | An SSO scheme was removed.  |
-| Custom auth scheme updated  | An SSO scheme was updated.|
+| Custom auth scheme updated  | An SSO scheme was updated. |
 | Decreased Team Size  | Extra licenses were removed from the team. |
-| Increased Team Size | Additional licenses were added to the team.  |
-| Set Instructions For Next Billing Cycle  | Instructions for the next billing cycle were added.|
-| Team name changed  | Team name was changed.  |
-| Removed Member  | Team member was removed.  |
-| Successfully Retried Invoice  | An invoice for your team was paid.  |
-| Sent Invite  | An invitation was sent to a user to join your team.  |
-| Started  | Your plan has started.  |
-| Updated domain verification  | A domain’s verification status was updated.|
-| Updated User Roles | Roles were updated for some users in your team.  |
-| Team URL changed  | Team’s URL updated. (The custom URL you use to access your team’s dashboard.)  |
-| Added Custom Alert | A new [custom token alert](/docs/api-security/token-scanner/#custom-alerts) was created for your team. |
-| Edited Custom Alert | A custom token alert's name or regex pattern was changed, or the alert was turned on or off. |
 | Deleted Custom Alert  | A custom token alert was deleted. |
+| Deleted Custom Domain  | A custom domain was deleted from your team. |
+| Deleted Domain For Domain Capture | Team admin deleted a domain for domain capture. |
+| Deleted Group | A user deleted a group. |
+| Deleted Payment Method | A user deleted payment method. |
+| Deleted SCIM Key | A user deleted an SCIM key. |
+| Disabled Domain Team Management | Team admin disabled domain team management. |
+| Downloaded Exported Data | A user downloaded an export of their data. |
+| Edited Custom Alert | A custom token alert's name or regex pattern was changed, or the alert was turned on or off. |
+| Enabled Domain Team Management | Team admin enabled domain team management. |
+| Exported Data | A user requested an export of their data. |
+| Increased Team Size | Additional licenses were added to the team.  |
+| Regenerated SCIM Key | A user regenerated an SCIM key. |
+| Rejected Invite | An admin rejected an email invitation. |
+| Rejected Join Request | A user rejected a join request to team. |
+| Removed Group Member | A user is removed from the group. |
+| Removed Group Role | A role was removed from the group. |
+| Removed Member  | A team member was removed.  |
+| Reset Password | A user reset their password. |
+| Revoked SCIM Key | A user revoked an SCIM key. |
+| SCIM user de-provisioned | The SCIM admin de-provisioned a user. |
+| SCIM user provisioned | The SCIM admin provisioned a new user. |
+| Set Instructions For Next Billing Cycle  | Instructions for the next billing cycle were added.|
+| Sent Invite  | An invitation was sent to a user to join your team.  |
+| Successful login via Google | A user logged in successfully. |
+| Successful login via Password | A user logged in successfully.   |
+| Successful login via SSO | A user logged in successfully. |
+| Successfully Retried Invoice  | An invoice for your team was paid.  |
+| Team name updated  | Your team's name was changed.  |
+| Team URL updated | Your team’s URL was changed. |
+| Updated Billing Email | A user changed your team's billing email address. |
+| Updated Custom Domain Verification Status | The verification status of your domain was updated. |
+| Updated Group | A user updated a group. |
+| Updated Invoice Details | A user updated invoice details. |
+| Updated Monitoring Block Count | A user updated monitoring block count. |
+| Updated Team Discovery | A user updated your team's discoverability status. |
+| Updated User Role | A user updated a user role. |
+| Updated User Roles | Roles were updated for some users in your team. |
+| User Joined Via Domain Capture | A user joined through team domain management |
+| User Logout | A user logged out. |
+| User Session revoked | A user revoked their session(s). |
+| Verified Domain For Domain Capture | The domain added for domain capture has been verified. |
