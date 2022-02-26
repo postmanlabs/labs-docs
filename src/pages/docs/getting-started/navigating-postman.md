@@ -158,7 +158,7 @@ Open a tab to send a request in Postman. Select __+__ in the middle of the scree
 
 You can have multiple tabs open at the same time, and drag tabs around to arrange them. Select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> to manage your tabs and access recent tabs.
 
-> Duplicating a tab does not mean creating a second request to the same endpoint. When you duplicate a tab, any edits you make affects the original request.
+> Duplicating a tab does not mean creating a second request to the same endpoint. When you duplicate a tab, any edits you make affect the original request.
 
 Postman displays a dot on tabs with unsaved changes.
 
