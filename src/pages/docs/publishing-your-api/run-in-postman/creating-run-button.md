@@ -63,9 +63,9 @@ Make sure you're signed in to your Postman account, and that you have a collecti
     * **Static button**: This button uses Markdown, so you can display it in a README, blog, or other Markdown document.
 
 * You can optionally include an environment to embed with your collection. On the left, click the **Environment** drop-down and choose the environment.
-* Click **Copy Code**.
+* Click <img alt="Copy icon" src="https://assets.postman.com/postman-docs/icon-copy-v9.jpg" width="15px" style="vertical-align:middle;margin-bottom:5px"> **Copy Code**.
 
-![How to create a run in postman](https://assets.postman.com/postman-docs/how-to-create-run-in-postman-button.jpg)
+![Create a Run in Postman button modal](https://assets.postman.com/postman-docs/run-in-postman-9.14.jpg)
 
 Your embed code will include your collection's ID. In the examples below, **:collection_id** is a placeholder for that ID and **:collection_url** is a placeholder for url. If you choose to include an environment in your button, the code will also have the environment parameter.
 
