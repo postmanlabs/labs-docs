@@ -2,7 +2,7 @@
 title: "Utilizing audit logs"
 order: 126
 page_id: "audit_logs"
-updated: 2022-02-13
+updated: 2022-02-25
 warning: false
 contextual_links:
   - type: section
@@ -111,8 +111,8 @@ Logged events include the following actions.
 | Revoked SCIM Key | A user revoked an SCIM key. |
 | SCIM user de-provisioned | The SCIM admin de-provisioned a user. |
 | SCIM user provisioned | The SCIM admin provisioned a new user. |
-| Set Instructions For Next Billing Cycle  | Instructions for the next billing cycle were added.|
 | Sent Invite  | An invitation was sent to a user to join your team.  |
+| Set Instructions For Next Billing Cycle  | Instructions for the next billing cycle were added.|
 | Successful login via Google | A user logged in successfully. |
 | Successful login via Password | A user logged in successfully.   |
 | Successful login via SSO | A user logged in successfully. |
