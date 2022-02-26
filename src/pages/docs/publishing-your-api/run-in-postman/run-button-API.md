@@ -62,7 +62,7 @@ Use the `env.create` method to create a new environment:
 _pm('env.create', 'environment_name', {key: value}, runButtonIndex);
 ```
 
-> `env.create` cannot be used to create duplicate environments. Calls made with existing environment names will fail.
+> `env.create` can't be used to create duplicate environments. Calls made with existing environment names will fail.
 
 Create a new environment using API keys entered by your user:
 
@@ -91,7 +91,7 @@ _pm('env.assign', 'environment_name', {key: new_value, new_key: value}, preventO
 ```
 
 > The `env.assign` method works for environments that were included in the Run in Postman button when it was created, or environments that were added using the `env.create` method.
-> `env.assign` cannot be used to create new environments. Calls made using `env.assign` will fail if an environment does not already exist.
+> `env.assign` can't be used to create new environments. Calls made using `env.assign` will fail if an environment doesn't already exist.
 
 Update an environment's API keys:
 
@@ -120,7 +120,7 @@ Use the `env.replace` method to replace an entire environment:
 _pm('env.replace', 'environment_name', {key: value}, runButtonIndex)
 ```
 
-> `env.replace` cannot be used to replace an environment which does not exist.
+> `env.replace` can't be used to replace an environment which doesn't exist.
 
 Replace an environment:
 

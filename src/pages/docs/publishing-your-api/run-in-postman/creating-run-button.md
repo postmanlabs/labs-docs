@@ -38,7 +38,7 @@ contextual_links:
 
 ---
 
-One way to [share your Postman Collections](/docs/collaborating-in-postman/sharing/) is to create a stand-alone Run in Postman button.  The new **Run in Postman** button allows you to fork the collections. You can embed the button in your website or a README to let developers interact with your API more quickly.
+One way to [share your Postman Collections](/docs/collaborating-in-postman/sharing/) is to create a stand-alone Run in Postman button. The new **Run in Postman** button allows you to fork the collections. You can embed the button in your website or a README to let developers interact with your API more quickly.
 
 > Being a user, you can still create the **Run in Postman** button from API specification formats like OpenAPI and RAML. To create a button for the standard you use, first convert the file to a collection by [importing it into Postman](/docs/getting-started/importing-and-exporting-data/) or by [authoring your specification in Postman](/docs/designing-and-developing-your-api/the-api-workflow/) to generate a collection.
 
@@ -59,7 +59,7 @@ Make sure you're signed in to your Postman account, and that you have a collecti
 * Tab over to **Via Run in Postman**.
 * Choose a live or static button:
     * **Live button**: This button uses JavaScript, HTML and CSS, so you can customize the button for a website. You can also access the [Run in Postman API](/docs/publishing-your-api/run-in-postman/run-button-API/) to dynamically create and update environments.
-    > To create a live button, you need to share the collection to a public workspace. If you do not have a public workspace to share to, you can create a new one within the modal. For users on Enterprise plans, you need to have a [community manager](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) role to [create a new public workspace](/docs/collaborating-in-postman/public-workspaces/).
+    > To create a live button, you need to share the collection to a public workspace. If you don't have a public workspace to share to, you can create a new one within the modal. For users on Enterprise plans, you need to have a [community manager](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) role to [create a new public workspace](/docs/collaborating-in-postman/public-workspaces/).
     * **Static button**: This button uses Markdown, so you can display it in a README, blog, or other Markdown document.
 
 * You can optionally include an environment to embed with your collection. On the left, click the **Environment** drop-down and choose the environment.

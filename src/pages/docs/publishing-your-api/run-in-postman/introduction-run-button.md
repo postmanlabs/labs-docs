@@ -43,7 +43,7 @@ When a user comes across <img alt="Run in Postman button icon" src="https://asse
 
 Run in postman buttons are only available for documentation and embed flows.
 
-> **Security check**: Do not leak sensitive data like access keys in your collection or environment. Read more about [securely using API keys in Postman](https://blog.postman.com/how-to-use-api-keys/).
+> **Security check**: Don't leak sensitive data like access keys in your collection or environment. Read more about [securely using API keys in Postman](https://blog.postman.com/how-to-use-api-keys/).
 
 ## Next steps
 
