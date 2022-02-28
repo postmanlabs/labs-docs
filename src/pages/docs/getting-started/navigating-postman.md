@@ -71,7 +71,7 @@ To open the __Comments__ tab, select the request under your collection and the C
 
 To learn more about comments, see [Commenting on collections](/docs/collaborating-in-postman/commenting-on-collections/).
 
-To open the __Code snippets__ tab, select the request under your collection and the Code icon on the right panel. For more information, see [Generating code snippets](/docs/sending-requests/generate-code-snippets/).
+To open the __Code snippets__ tab, select the request under your collection, and then select the Code icon <img alt="Code snippet icon" src="https://assets.postman.com/postman-docs/icon-code-snippet.jpg" width="16px" style="vertical-align:middle;margin-bottom:5px"> on the right panel. For more information, see [Generating code snippets](/docs/sending-requests/generate-code-snippets/).
 
 <img alt="Code snippets Pane" src="https://assets.postman.com/postman-docs/code-snippet-pane-v8.jpg" width="350px"/>
 
