@@ -59,7 +59,7 @@ To open the __Documentation__ tab, select the request under your collection and 
 
 <img alt="Documentation icon" src="https://assets.postman.com/postman-docs/overview-documentations-v8.jpg"/>
 
-To open the documentation in another tab, click __View complete collection documentation__.
+To open the documentation in another tab, select __View complete collection documentation__.
 
 <img alt="Overview Documentation" src="https://assets.postman.com/postman-docs/documentation-pane-v8.jpg" width="400px"/>
 
