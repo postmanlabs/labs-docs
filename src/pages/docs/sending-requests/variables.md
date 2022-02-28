@@ -413,7 +413,7 @@ For more information on working with variables as a team, see [Managing environm
 
 An _unresolved variable_ is a variable that's not defined in an active scope (collection, environment, or globals) that's available for the request it’s used in.
 
-When you are working on an API request, Postman highlights unresolved variables in the **URL builder** and in the **Params** tab. If you send a request that includes an unresolved variable, the request might fail.
+When you are working on an API request, Postman highlights unresolved variables in the **URL builder**, the **Params** tab, the **Authorization** tab, and the **Headers** tab. If you send a request that includes an unresolved variable, the request might fail.
 
 <!-- TODO: add screenshot -->
 
@@ -424,9 +424,11 @@ A variable can be unresolved for a few reasons:
 * The environment in which the variable is present isn't active
 * The variable is turned off in an active environment
 
-To view details for an unresolved variable:
+When a variable is unresolved, Postman highlights the variable text in red. To view details for an unresolved variable:
 
-1. Hover over the unresolved variable in the **URL builder** or the **Params** tab.
+1. Hover over the unresolved variable. You will see a message with more details about the error and how to resolve it.
+
+<!-- TODO: add screenshot -->
 
 To check if the variable is available and in scope for the request:
 
