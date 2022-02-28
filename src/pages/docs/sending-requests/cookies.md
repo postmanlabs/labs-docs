@@ -183,6 +183,6 @@ The following properties that are not supported by Postman:
 
 ## Capturing and syncing cookies
 
-Postman can capture cookies for a browser or client applications using the Postman proxy or Postman Interceptor. For the domains you select, captured cookies are continuously synced with the Postman cookie jar. This enables you to use any authentication sessions in your browser or client application to make API calls in Postman.
+Postman can capture cookies for a browser or client application using the Postman proxy or Postman Interceptor. For the domains you select, captured cookies are continuously synced with the Postman cookie jar. This enables you to use any authentication sessions in your browser or client application to make API calls in Postman.
 
 Learn more about [capturing cookies with the Postman proxy or Postman Interceptor](/docs/sending-requests/capturing-request-data/capturing-cookies/)
