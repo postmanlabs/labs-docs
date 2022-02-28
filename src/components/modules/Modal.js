@@ -25,22 +25,35 @@ const Modal = (create_id, images, i) => {
       `<a data-target=#${create_id} class="modal-link" data-toggle="modal">
       <img src=${images[i].src || ''} alt="${images[i].alt || ''}" width=${images[i].width || ''}></img>
     </a>
-    <div id=${create_id} class="modal modal-link fade" tab-index="-1" role="dialog">
-    <div class="modal-dialog modal-dialog-centered" role="document">
-      <div class="modal-close-button">
-        <button
-          type="button"
-          class="close"
-          data-dismiss="modal"
-          aria-label="close"
-        >
+    <div id=${create_id} class="modal modal-link fade" tabindex="-1" role="dialog">
+      <div class="modal-dialog modal-dialog-centered" role="document" >
         <div class="modal-content">
+          <div class="modal-close-button ml-auto mb-3">
+            <button type="button" data-dismiss="modal" aria-label="close">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 16 16"
+              >
+                <title class="closed-label">e-remove</title>
+                <g
+                  stroke-width="1"
+                  fill="#212121"
+                  stroke="#212121"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <line x1="13.5" y1="2.5" x2="2.5" y2="13.5"></line>
+                  <line x1="2.5" y1="2.5" x2="13.5" y2="13.5"></line>
+                </g>
+              </svg>
+            </button>
+          </div>
           <img class="modal-responsive" src=${images[i].src || ''} alt="${images[i].alt || ''}" width=${images[i].width || ''}></img>
-        </div>
-        </button>     
+        </div>   
       </div>
     </div>
-  </div>
     `
     )
       : (`

@@ -29,9 +29,15 @@ div.modal-dialog {
 div.modal-content {
   background: none;
   border: none;
-  display: flex;
-  width: 100%;
+  width: auto;
 }
+
+img.modal-responsive {
+  @media screen and (min-width: 2560px){
+    width: 1440px;
+  }
+}
+
 button.close {
   opacity: 1;
   margin-bottom: 0px;
@@ -44,13 +50,6 @@ button.close {
     outline: none
   }
 }
-
-.modal-responsive {
-  @media screen and (min-width: 1440px){
-    width: 1200px;
-  }
-}
-
 button.close:not(:disabled):not(.disabled):hover {
   opacity: 1;
 }
