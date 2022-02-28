@@ -27,9 +27,9 @@ warning: false
 
 ---
 
-Postman's cookie manager enables you to view and edit cookies that are associated with different domains. You can manually create cookies for a domain, or you can [capture cookies](/docs/sending-requests/capturing-request-data/capturing-cookies/) using the Postman proxy or Postman Interceptor.
+Postman's cookie manager enables you to view and edit cookies that are associated with different domains. You can manually create cookies for a domain, or you can [capture cookies](/docs/sending-requests/capturing-request-data/capturing-cookies/) using the Postman proxy or Postman Interceptor. You can then use the cookies stored in the cookie jar when sending requests in Postman.
 
-> You can deactivate the cookie jar in the __Settings__ tab for a request at any time to toggle off sending cookies.
+> To turn off sending cookies with a request, turn off the cookie jar toggle in the request's **Settings** tab.
 
 ## Contents
 
@@ -37,7 +37,7 @@ Postman's cookie manager enables you to view and edit cookies that are associate
 * [Using the cookie manager](#using-the-cookie-manager)
 * [Accessing cookies in scripts](#accessing-cookies-in-scripts)
 * [Creating cookies programmatically](#creating-cookies-programmatically)
-* [Syncing cookies](#syncing-cookies)
+* [Capturing and syncing cookies](#capturing-and-syncing-cookies)
 
 ## What are cookies?
 
@@ -181,7 +181,7 @@ The following properties that are not supported by Postman:
     * `__Secure-`
     * `__Host-`
 
-## Syncing cookies
+## Capturing and syncing cookies
 
 Postman can capture cookies for a browser or client applications using the Postman proxy or Postman Interceptor. For the domains you select, captured cookies are continuously synced with the Postman cookie jar. This enables you to use any authentication sessions in your browser or client application to make API calls in Postman.
 
