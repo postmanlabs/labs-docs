@@ -19,7 +19,7 @@ div.modal {
 }
 
 div.modal-dialog {
-  max-width: 80%;
+  max-width: 90%;
   justify-content: center;
   @media screen and (max-width: 576px){
     max-width: 100%;
@@ -33,8 +33,8 @@ div.modal-content {
 }
 
 img.modal-responsive {
-  @media screen and (min-width: 2560px){
-    width: 1440px;
+  @media screen and (min-width: 576px){
+    max-height: 90vh;
   }
 }
 
