@@ -142,7 +142,7 @@ You can access a history of the requests you've made in the __History__ tab on t
 
 <img alt="History Request" src="https://assets.postman.com/postman-docs/history-request-v8.jpg" width="400px"/>
 
-Select a request to open it again. Click __+__ to save the request to a collection. Toggle __Save Responses__ to save request responses so that you can view what was returned by a request when you open it from your history.
+Select a request to open it again. Select __+__ to save the request to a collection. Toggle __Save Responses__ to save request responses so that you can view what was returned by a request when you open it from your history.
 
 The history also includes the collection runs executed. These remain as the summarized version of the run and aren't logged as single requests. The __Save Responses__ option cannot be used with requests from collection runner.
 
