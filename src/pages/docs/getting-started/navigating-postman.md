@@ -55,7 +55,7 @@ On the right panel, you can see icons to view the documentation, comments, code,
 
 <img alt="Right panel icons" src="https://assets.postman.com/postman-docs/right-panel-view-v8.jpg" width="300px"/>
 
-To open the __Documentation__ tab, select the request under your collection and click the Documentation icon <img alt="Mini docs icon" src="https://assets.postman.com/postman-docs/mini-docs-icon-v8.jpg" width="25px"/> on the right panel.
+To open the __Documentation__ tab, select the request under your collection and select the Documentation icon <img alt="Mini docs icon" src="https://assets.postman.com/postman-docs/mini-docs-icon-v8.jpg" width="25px"/> on the right panel.
 
 <img alt="Documentation icon" src="https://assets.postman.com/postman-docs/overview-documentations-v8.jpg"/>
 
