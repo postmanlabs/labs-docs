@@ -411,11 +411,9 @@ For more information on working with variables as a team, see [Managing environm
 
 ## Fixing unresolved variables
 
-An _unresolved variable_ is a variable that's not defined in an active scope (collection, environment, or globals) that's available for the request it’s used in.
+An _unresolved variable_ is a variable that's not defined in an [active scope](#variable-scopes) (environment, collection, or globals) that's available for the request it’s used in.
 
-When you are working on an API request, Postman highlights unresolved variables in the **URL builder**, the **Params** tab, the **Authorization** tab, and the **Headers** tab. If you send a request that includes an unresolved variable, the request might fail.
-
-<!-- TODO: add screenshot -->
+For example, for the request `https://postman-echo.com/get?customer_id={{cust_id}}`, Postman expects to be able to find a definition for `{{cust_id}}` in the environment the request uses, in the collection the request is saved in, or at the global level. So if Postman doesn't find a definition for `{{cust_id}}` in one of those scopes, then it flags the variable as unresolved. If you send a request that includes an unresolved variable, the request might fail.
 
 A variable can be unresolved for a few reasons:
 
@@ -424,7 +422,11 @@ A variable can be unresolved for a few reasons:
 * The environment in which the variable is present isn't active
 * The variable is turned off in an active environment
 
-When a variable is unresolved, Postman highlights the variable text in red. To view details for an unresolved variable:
+When you are working on an API request, Postman highlights unresolved variables in the **URL builder**, the **Params** tab, the **Authorization** tab, and the **Headers** tab. Postman highlights unresolved variable text in red.
+
+<!-- TODO: add screenshot -->
+
+To view details for an unresolved variable:
 
 1. Hover over the unresolved variable. You will see a message with more details about the error and how to resolve it.
 
