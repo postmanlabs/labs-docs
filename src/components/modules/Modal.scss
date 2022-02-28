@@ -45,6 +45,11 @@ button.close {
   }
 }
 
+.modal-responsive {
+  @media screen and (min-width: 1440px){
+    width: 1200px;
+  }
+}
 
 button.close:not(:disabled):not(.disabled):hover {
   opacity: 1;

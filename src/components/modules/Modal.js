@@ -35,7 +35,7 @@ const Modal = (create_id, images, i) => {
           aria-label="close"
         >
         <div class="modal-content">
-          <img src=${images[i].src || ''} alt="${images[i].alt || ''}" width=${images[i].width || '1400'}></img>
+          <img class="modal-responsive" src=${images[i].src || ''} alt="${images[i].alt || ''}" width=${images[i].width || ''}></img>
         </div>
         </button>     
       </div>
