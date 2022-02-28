@@ -108,7 +108,7 @@ To add a domain to the allowlist:
 
 ## Creating cookies programmatically
 
-You can to programmatically create and delete cookies, instead of relying on the graphical interface. This gives you a greater degree of control over cookies.
+You can programmatically create and delete cookies, instead of relying on the graphical interface. This gives you a greater degree of control over cookies.
 
 The first step to perform in any kind of operation on cookies is to create a _cookie jar_, an object that will contain the cookies and the methods that will be used to operate on cookies.
 
