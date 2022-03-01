@@ -79,7 +79,7 @@ Logged events include the following actions.
 | Cancelled Invite   | An invitation for a user was cancelled.   |
 | Cancelled Invoice | A user cancelled an invoice for your team. |
 | Cancelled Plan | A user cancelled team’s subscription. |
-| Changed Default Payment Method | A user changed default payment method. |
+| Changed Default Payment Method | A user changed the default payment method. |
 | Changed Password | A user changed their password. |
 | Changed Plan | A user changed team plan. |
 | Created Group | A user created a new group. |
