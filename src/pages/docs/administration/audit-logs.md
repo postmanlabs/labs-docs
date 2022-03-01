@@ -93,7 +93,7 @@ Logged events include the following actions.
 | Deleted Custom Domain  | A custom domain was deleted from your team. |
 | Deleted Domain For Domain Capture | Team admin deleted a domain for domain capture. |
 | Deleted Group | A user deleted a group. |
-| Deleted Payment Method | A user deleted payment method. |
+| Deleted Payment Method | A user deleted a payment method. |
 | Deleted SCIM Key | A user deleted an SCIM key. |
 | Disabled Domain Team Management | Team admin disabled domain team management. |
 | Downloaded Exported Data | A user downloaded an export of their data. |
