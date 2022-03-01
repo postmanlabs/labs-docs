@@ -1,6 +1,7 @@
 ---
 title: "Configuring team settings"
 order: 125
+updated: 2021-12-01
 page_id: "team_settings"
 warning: false
 contextual_links:

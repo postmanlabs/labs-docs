@@ -1,6 +1,7 @@
 ---
 title: "Commenting on collections"
 order: 73.3
+updated: 2021-04-15
 page_id: "commenting_on_collections"
 contextual_links:
   - type: section
