@@ -41,13 +41,13 @@ We follow [Git Flow](https://guides.github.com/introduction/flow/) for changes t
     * `git push -u origin HEAD` This will push your changes to the branch you created on your forked repo.
 1. Open a Pull Request to the `postman-docs` repo:
     * Navigate to the [postman-docs](https://github.com/postmanlabs/postman-docs) repo
-    * Click `New pull request`
-    * Click `Compare across forks`
+    * Select `New pull request`
+    * Select `Compare across forks`
     * Select `base repository: postmanlabs/postman-docs`
     * Select `base branch: develop`
     * Select `head repository: <YOUR FORKED REPOSITORY>`
     * Select `head branch: <YOUR BRANCH NAME>`
-    * Click `Create pull request`
+    * Select `Create pull request`
 
 Your pull request will be reviewed and we'll get back to you!
 
