@@ -95,7 +95,7 @@ Logged events include the following actions.
 | Deleted Group | A user deleted a group. |
 | Deleted Payment Method | A user deleted a payment method. |
 | Deleted SCIM Key | A user deleted an SCIM key. |
-| Disabled Domain Team Management | Team admin disabled domain team management. |
+| Disabled Domain Team Management | A team admin disabled domain team management. |
 | Downloaded Exported Data | A user downloaded an export of their data. |
 | Edited Custom Alert | A custom token alert's name or regex pattern was changed, or the alert was turned on or off. |
 | Enabled Domain Team Management | Team admin enabled domain team management. |
