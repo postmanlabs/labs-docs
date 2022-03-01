@@ -16,7 +16,7 @@ contextual_links:
 ## Setting up a custom SAML application in Ping Identity
 
 1. From the Ping Identity admin console, select the **Applications** tab.
-   [![ping_app](https://assets.postman.com/postman-docs/ping_app)](https://assets.postman.com/postman-docs/ping_app)  
+   [![ping_app](https://assets.postman.com/postman-docs/ping_app)](https://assets.postman.com/postman-docs/ping_app)
 
 1. Under the **My Applications** tab, find the **Add Application** dropdown and select **New SAML Application**.
    [![ping_new_SAML](https://assets.postman.com/postman-docs/ping_new_SAML)](https://assets.postman.com/postman-docs/ping_new_SAML)
@@ -35,7 +35,7 @@ contextual_links:
     Leave the remaining fields blank or with the default value, and continue to the next step.
     [![ping service provider](https://assets.postman.com/postman-docs/ping_service_provider)](https://assets.postman.com/postman-docs/ping_service_provider)
 
-1. Add **email** as an application attribute and map it to **Email**. Click **Save & Publish**.
+1. Add **email** as an application attribute and map it to **Email**. Select **Save & Publish**.
    [![ping email](https://assets.postman.com/postman-docs/ping_email)](https://assets.postman.com/postman-docs/ping_email)
 
 1. After configuring all the details, enable the new SAML application with the **Enable** toggle.
