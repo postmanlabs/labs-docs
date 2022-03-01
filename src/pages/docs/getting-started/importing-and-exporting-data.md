@@ -2,7 +2,7 @@
 title: 'Importing and exporting data'
 order: 8.2
 page_id: 'importing_and_exporting_data'
-updated: 2022-2-16
+updated: 2022-03-01
 contextual_links:
   - type: section
     name: "Additional Resources"

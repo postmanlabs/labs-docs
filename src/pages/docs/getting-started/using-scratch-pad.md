@@ -2,6 +2,7 @@
 title: "Using the Scratch Pad"
 order: 7.1
 page_id: "using-the-scratch-pad"
+updated: 2022-03-01
 warning: false
 ---
 
