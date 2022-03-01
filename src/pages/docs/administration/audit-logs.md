@@ -104,7 +104,7 @@ Logged events include the following actions.
 | Regenerated SCIM Key | A user regenerated an SCIM key. |
 | Rejected Invite | An admin rejected an email invitation. |
 | Rejected Join Request | A user rejected a join request to team. |
-| Removed Group Member | A user is removed from the group. |
+| Removed Group Member | A user was removed from the group. |
 | Removed Group Role | A role was removed from the group. |
 | Removed Member  | A team member was removed.  |
 | Reset Password | A user reset their password. |
