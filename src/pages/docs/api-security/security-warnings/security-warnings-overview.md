@@ -1,6 +1,7 @@
 ---
 title: "API schema security warnings"
 order: 116
+updated: 2021-09-14
 page_id: "security_warnings"
 warning: false
 contextual_links:

@@ -1,6 +1,7 @@
 ---
 title: "Viewing workspace activity"
 order: 79
+updated: 2021-04-21
 page_id: "changelog_and_restoring_collections"
 contextual_links:
   - type: section
@@ -102,7 +103,7 @@ Postman will prompt you to resolve any conflicts that may cause you to lose unsa
 With a Postman Basic, Professional, or Enterprise account, you can pipe team activity feeds to external communication channels:
 
 * [Slack integration](/docs/integrations/available-integrations/slack/)
-* [Microsoft Teams integration](/docs/integrations/available-integrations/microsoft-teams/)  
+* [Microsoft Teams integration](/docs/integrations/available-integrations/microsoft-teams/)
 
 ## Next steps
 

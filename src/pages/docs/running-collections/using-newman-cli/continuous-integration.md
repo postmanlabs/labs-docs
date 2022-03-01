@@ -1,6 +1,7 @@
 ---
 title: "CI with Postman API"
 order: 62
+updated: 2021-09-01
 page_id: "continuous_integration"
 contextual_links:
   - type: section

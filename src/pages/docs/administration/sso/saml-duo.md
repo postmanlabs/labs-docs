@@ -1,6 +1,7 @@
 ---
 title: "Custom SAML in Duo"
 order: 136
+updated: 2020-05-22
 page_id: "saml_duo"
 warning: false
 contextual_links:
@@ -16,7 +17,7 @@ contextual_links:
 ## Setting up a custom SAML application in Duo
 
 1. Head over to the applications page from the Duo dashboard. Click the **Protect an Application** button.
-     [![duo dashboard](https://assets.postman.com/postman-docs/duo_dashboard.png)](https://assets.postman.com/postman-docs/duo_dashboard.png)  
+     [![duo dashboard](https://assets.postman.com/postman-docs/duo_dashboard.png)](https://assets.postman.com/postman-docs/duo_dashboard.png)
 
 1. Search for "SAML - Service Provider" and click on the **Protect this Application** link.
      [![duo protect](https://assets.postman.com/postman-docs/duo_protect.png)](https://assets.postman.com/postman-docs/duo_protect.png)

@@ -1,6 +1,7 @@
 ---
 title: "Running collections on the command line with Newman"
 order: 60
+updated: 2021-06-17
 page_id: "command_line_integration_with_newman"
 search_keyword: "newman run"
 contextual_links:

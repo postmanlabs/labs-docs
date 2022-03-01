@@ -1,6 +1,7 @@
 ---
 title: "Working with your team"
 order: 71
+updated: 2022-01-18
 page_id: "collaboration"
 warning: false
 contextual_links:
