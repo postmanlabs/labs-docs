@@ -69,7 +69,7 @@ Logged events include the following actions.
 | Activated SCIM Key | A user activated an SCIM key. |
 | Added Custom Alert | A new [custom token alert](/docs/api-security/token-scanner/#custom-alerts) was created for your team. |
 | Added Custom Domain | A custom domain was added to your team. (You can use custom domains to publish documentation.)  |
-| Added Domain For Domain Capture | Team admin added domain for domain capture. |
+| Added Domain For Domain Capture | A team admin added a domain for domain capture. |
 | Added Group Member | A user joined the group. |
 | Added Group Role | A role was added to the group. |
 | Added Member   | A user joined your team.   |
