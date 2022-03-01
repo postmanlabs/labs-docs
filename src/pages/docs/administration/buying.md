@@ -22,7 +22,7 @@ contextual_links:
 
 ---
 
-Visit the [pricing page](https://www.postman.com/pricing) to purchase a Postman Basic, Professional, or Enterprise plan. Click __Buy Now__ for your chosen plan. If you are [upgrading from an existing paid account](/docs/administration/billing/#team-and-plan-changes), you can use the links in your [billing dashboard](http://go.postman.co/billing).
+Visit the [pricing page](https://www.postman.com/pricing) to purchase a Postman Basic, Professional, or Enterprise plan. Select __Buy Now__ for your chosen plan. If you are [upgrading from an existing paid account](/docs/administration/billing/#team-and-plan-changes), you can use the links in your [billing dashboard](http://go.postman.co/billing).
 
 ## Configuring your plan
 

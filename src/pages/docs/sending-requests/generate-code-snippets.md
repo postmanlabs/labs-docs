@@ -54,7 +54,7 @@ You can generate code snippets in various languages and frameworks within Postma
 
 ## Generating code snippets in Postman
 
-In Postman, select the request under your collection and click **Code** icon on the right panel to open the **Code snippet** tab.
+In Postman, select the request under your collection and select **Code** icon on the right panel to open the **Code snippet** tab.
 
 <img src="https://assets.postman.com/postman-docs/context-menu-icon-v8.jpg" width="400px" alt="User Menu"/>
 
@@ -62,7 +62,7 @@ Select a language to view and copy your generated code snippet.
 
 ![Code Language](https://assets.postman.com/postman-docs/code-language-v8.jpg)
 
-Click the **Gear** icon to find additional configuration options based on your chosen language.
+Select the **Gear** icon to find additional configuration options based on your chosen language.
 
 ![Code settings](https://assets.postman.com/postman-docs/code-settings-v8.jpg)
 
@@ -100,7 +100,7 @@ Postman currently supports the following options:
 | Shell | [wget](https://www.gnu.org/software/wget/) |
 | Swift | [URLSession](https://developer.apple.com/documentation/foundation/urlsession) |
 
-> If your language isn't currently offered, or if there is a setting that you'd find useful, click **Contribute on GitHub** to contribute to [Postman's open-source project](https://github.com/postmanlabs/postman-code-generators).
+> If your language isn't currently offered, or if there is a setting that you'd find useful, select **Contribute on GitHub** to contribute to [Postman's open-source project](https://github.com/postmanlabs/postman-code-generators).
 
 ## Next steps
 
