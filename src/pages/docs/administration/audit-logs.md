@@ -2,7 +2,7 @@
 title: "Utilizing audit logs"
 order: 126
 page_id: "audit_logs"
-updated: 2022-02-28
+updated: 2022-03-01
 warning: false
 contextual_links:
   - type: section
@@ -68,15 +68,15 @@ Postman logs events related to [team management](#team-management), [user manage
 
 | Action | Description |
 | ------------- | ------------- |
-| Team name updated  | Your team's name was changed.  |
-| Team URL updated | Your team’s URL was changed. |
+| Team Name Updated  | Your team's name was changed.  |
+| Team URL Updated | Your team’s URL was changed. |
 | Updated Team Discovery | A user updated your team's discoverability status. |
-| Added Domain For Domain Capture | A team admin added a domain for domain capture. |
-| Verified Domain For Domain Capture | The domain added for domain capture has been verified. |
+| Added Domain for Domain Capture | A team admin added a domain for domain capture. |
+| Verified Domain for Domain Capture | The domain added for domain capture has been verified. |
 | Enabled Domain Team Management | A team admin enabled [domain team management](/docs/administration/managing-your-team/configuring-domain-capture/). |
-| User Joined Via Domain Capture | A user joined through [team domain management](/docs/administration/managing-your-team/configuring-domain-capture/). |
+| User Joined via Domain Capture | A user joined through [team domain management](/docs/administration/managing-your-team/configuring-domain-capture/). |
 | Disabled Domain Team Management | A team admin disabled domain team management. |
-| Deleted Domain For Domain Capture | A team admin deleted a domain for domain capture. |
+| Deleted Domain for Domain Capture | A team admin deleted a domain for domain capture. |
 | Added Custom Domain | A [custom domain](/docs/publishing-your-api/custom-doc-domains/) was added to your team. |
 | Updated Custom Domain Verification Status | The verification status of your domain was updated. |
 | Deleted Custom Domain  | A custom domain was deleted from your team. |
@@ -107,24 +107,24 @@ Postman logs events related to [team management](#team-management), [user manage
 
 | Action | Description |
 | ------------- | ------------- |
-| Successful login via Password | A user logged in successfully via Password.   |
-| Successful login via Google | A user logged in successfully via Google. |
-| Successful login via SSO | A user logged in successfully via SSO. |
+| Successful Login via Password | A user logged in successfully via Password.   |
+| Successful Login via Google | A user logged in successfully via Google. |
+| Successful Login via SSO | A user logged in successfully via SSO. |
 | Reset Password | A user reset their password. |
 | Changed Password | A user changed their password. |
-| User Session revoked | A user revoked their session(s). |
+| User Session Revoked | A user revoked their session(s). |
 | User Logout | A user logged out. |
-| Custom auth scheme enabled | An SSO scheme was enabled.  |
-| Custom auth scheme updated  | An SSO scheme was updated. |
-| Custom auth scheme disabled  | An SSO scheme was disabled. |
-| Custom auth scheme removed  | An SSO scheme was removed.  |
+| Custom Auth Scheme Enabled | An SSO scheme was enabled.  |
+| Custom Auth Scheme Updated  | An SSO scheme was updated. |
+| Custom Auth Scheme Disabled  | An SSO scheme was disabled. |
+| Custom Auth Scheme Removed  | An SSO scheme was removed.  |
 | Created SCIM Key | A user created a new SCIM key. |
 | Activated SCIM Key | A user activated a SCIM key. |
 | Regenerated SCIM Key | A user regenerated an SCIM key. |
 | Revoked SCIM Key | A user revoked an SCIM key. |
 | Deleted SCIM Key | A user deleted an SCIM key. |
-| SCIM user provisioned | The SCIM admin provisioned a new user. |
-| SCIM user de-provisioned | The SCIM admin de-provisioned a user. |
+| SCIM User Provisioned | The SCIM admin provisioned a new user. |
+| SCIM User De-provisioned | The SCIM admin de-provisioned a user. |
 | Exported Data | A user requested an export of their data. |
 | Downloaded Exported Data | A user downloaded an export of their data. |
 | Added Custom Alert | A new [custom token alert](/docs/api-security/token-scanner/#custom-alerts) was created for your team. |
@@ -139,7 +139,7 @@ Postman logs events related to [team management](#team-management), [user manage
 | Increased Team Size | Additional licenses were added to your team.  |
 | Decreased Team Size  | Extra licenses were removed from your team. |
 | Updated Monitoring Block Count | A user updated monitoring block count. |
-| Set Instructions For Next Billing Cycle  | Instructions for the next billing cycle were added.|
+| Set Instructions for Next Billing Cycle  | Instructions for the next billing cycle were added.|
 | Updated Billing Email | A user changed your team's billing email address. |
 | Updated Invoice Details | A user updated invoice details. |
 | Added Payment Method  | A user added a payment method. |
