@@ -66,46 +66,46 @@ Logged events include the following actions.
 
 | Action name  | Description |
 | ------------- | ------------- |
-| Activated SCIM Key | A user activated an SCIM key. |
+| Activated SCIM Key | A user activated a SCIM key. |
 | Added Custom Alert | A new [custom token alert](/docs/api-security/token-scanner/#custom-alerts) was created for your team. |
-| Added Custom Domain | A custom domain was added to your team. (You can use custom domains to publish documentation.)  |
+| Added Custom Domain | A [custom domain](/docs/publishing-your-api/custom-doc-domains/) was added to your team. |
 | Added Domain For Domain Capture | A team admin added a domain for domain capture. |
-| Added Group Member | A user joined the group. |
-| Added Group Role | A role was added to the group. |
+| Added Group Member | A user joined a group. |
+| Added Group Role | A role was added to a group. |
 | Added Member   | A user joined your team.   |
 | Added Payment Method  | A user added a payment method. |
 | Approved Invite | An admin approved an email invitation. |
-| Approved join request | An admin approved a join request to team.
+| Approved join request | An admin approved a request to join your team. |
 | Cancelled Invite   | An invitation for a user was cancelled.   |
 | Cancelled Invoice | A user cancelled an invoice for your team. |
-| Cancelled Plan | A user cancelled team’s subscription. |
+| Cancelled Plan | A user cancelled your team’s subscription. |
 | Changed Default Payment Method | A user changed the default payment method. |
 | Changed Password | A user changed their password. |
-| Changed Plan | A user changed team plan. |
+| Changed Plan | A user changed your team plan. |
 | Created Group | A user created a new group. |
 | Created SCIM Key | A user created a new SCIM key. |
 | Custom auth scheme disabled  | An SSO scheme was disabled. |
 | Custom auth scheme enabled | An SSO scheme was enabled.  |
 | Custom auth scheme removed  | An SSO scheme was removed.  |
 | Custom auth scheme updated  | An SSO scheme was updated. |
-| Decreased Team Size  | Extra licenses were removed from the team. |
+| Decreased Team Size  | Extra licenses were removed from your team. |
 | Deleted Custom Alert  | A custom token alert was deleted. |
 | Deleted Custom Domain  | A custom domain was deleted from your team. |
-| Deleted Domain For Domain Capture | Team admin deleted a domain for domain capture. |
+| Deleted Domain For Domain Capture | A team admin deleted a domain for domain capture. |
 | Deleted Group | A user deleted a group. |
 | Deleted Payment Method | A user deleted a payment method. |
 | Deleted SCIM Key | A user deleted an SCIM key. |
 | Disabled Domain Team Management | A team admin disabled domain team management. |
 | Downloaded Exported Data | A user downloaded an export of their data. |
 | Edited Custom Alert | A custom token alert's name or regex pattern was changed, or the alert was turned on or off. |
-| Enabled Domain Team Management | Team admin enabled domain team management. |
+| Enabled Domain Team Management | A team admin enabled [domain team management](/docs/administration/managing-your-team/configuring-domain-capture/). |
 | Exported Data | A user requested an export of their data. |
-| Increased Team Size | Additional licenses were added to the team.  |
+| Increased Team Size | Additional licenses were added to your team.  |
 | Regenerated SCIM Key | A user regenerated an SCIM key. |
 | Rejected Invite | An admin rejected an email invitation. |
-| Rejected Join Request | A user rejected a join request to team. |
-| Removed Group Member | A user was removed from the group. |
-| Removed Group Role | A role was removed from the group. |
+| Rejected Join Request | A user rejected a request to join your team. |
+| Removed Group Member | A user was removed from a group. |
+| Removed Group Role | A role was removed from a group. |
 | Removed Member  | A team member was removed.  |
 | Reset Password | A user reset their password. |
 | Revoked SCIM Key | A user revoked an SCIM key. |
