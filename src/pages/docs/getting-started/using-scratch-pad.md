@@ -15,7 +15,7 @@ If you're logged out or your connection to Postman is broken, you'll see a globa
 
 <img alt="Scratch Pad global banner" src="https://assets.postman.com/postman-docs/scratch-pad-notice.jpg" width="350px" />
 
-If you are logged in and want to go to the Scratch Pad, click the gear icon to the right side of the header toolbar and select **Scratch Pad**.
+If you are logged in and want to go to the Scratch Pad, select the gear icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-gear-outline-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> to the right side of the header toolbar and select **Scratch Pad**.
 
 <img alt="Enter Scratch Pad" src="https://assets.postman.com/postman-docs/scratch-pad-enter.jpg" width="200px" />
 
@@ -47,8 +47,8 @@ To export saved Scratch Pad data:
 
 1. Go to the Scratch Pad.
 1. Select the gear icon in the upper-right corner to open **Settings**, and select the **Data** tab.
-1. Click **Export Data**.
-1. In the save dialog, choose a directory in which to save the file, then select **Save**.
+1. Select **Export Data**.
+1. Choose a directory in which to save the file, then select **Save**.
 
 You can also export a single collection or an environment. For more information, see [Exporting Postman data](/docs/getting-started/importing-and-exporting-data/#exporting-postman-data).
 
@@ -57,7 +57,7 @@ You can also export a single collection or an environment. For more information,
 When you log back in to Postman, you can import your Scratch Pad data:
 
 1. Log in and switch to a workspace using the **Workspaces** menu at the top of Postman. For more information, see [Using and managing workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/).
-1. Click **Import** in the upper-left corner.
-1. Drag and drop your exported data dump, collection, or environment and click **Import**.
+1. Select **Import** in the upper-left corner.
+1. Drag and drop your exported data dump, collection, or environment and select **Import**.
 
 For more information on importing, see [Importing data into Postman](/docs/getting-started/importing-and-exporting-data/#importing-data-into-postman).
