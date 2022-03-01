@@ -51,9 +51,9 @@ To manage cookies in Postman, open a request and select the **Cookies** link und
 
 ![cookies link](https://assets.postman.com/postman-docs/cookies-link.jpg)
 
-The **Manage Cookies** window displays a list of domains and the cookies associated with each one.
+The **Manage Cookies** window displays a list of domains and the cookies associated with each one. If you want to view cookies for a domain that isn't present in the list, you can [add a domain](#adding-a-domain).
 
-<img alt="Managing cookies" src="https://assets.postman.com/postman-docs/cookies-dialog-v9-13.jpg" width="848px"/>
+<img alt="Managing cookies" src="https://assets.postman.com/postman-docs/manage-cookies-v9-13.jpg" width="848px"/>
 
 ### Creating cookies
 
@@ -86,7 +86,7 @@ When you make a request to a domain you have added a cookie to, the cookie will 
 
 ### Adding a domain
 
-If you want to add a cookie for a domain that isn’t present in the cookie manager, you can add a domain. To add a new domain, enter the domain name in the box (don't include a port number or `http://`) and select **Add domain**. You can then add cookies for the new domain.
+If you want to view or add cookies for a domain that isn’t present in the cookie manager, you can add a domain. To add a new domain, enter the domain name in the box (don't include a port number or `http://`) and select **Add domain**. You can then add cookies for the new domain.
 
 ### Updating a cookie
 
