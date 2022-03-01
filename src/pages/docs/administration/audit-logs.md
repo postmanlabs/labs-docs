@@ -127,7 +127,7 @@ Logged events include the following actions.
 | Updated Team Discovery | A user updated your team's discoverability status. |
 | Updated User Role | A user updated a user role. |
 | Updated User Roles | Roles were updated for some users in your team. |
-| User Joined Via Domain Capture | A user joined through team domain management |
+| User Joined Via Domain Capture | A user joined through [team domain management](/docs/administration/managing-your-team/configuring-domain-capture/). |
 | User Logout | A user logged out. |
 | User Session revoked | A user revoked their session(s). |
 | Verified Domain For Domain Capture | The domain added for domain capture has been verified. |
