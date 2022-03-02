@@ -1,6 +1,7 @@
 ---
 title: "Creating your first collection"
 order: 7
+updated: 2021-10-06
 page_id: "creating_the_first_collection"
 contextual_links:
   - type: section

@@ -1,6 +1,7 @@
 ---
 title: "Custom SAML in Ping Identity"
 order: 140
+updated: 2020-05-22
 page_id: "saml_ping"
 warning: false
 contextual_links:

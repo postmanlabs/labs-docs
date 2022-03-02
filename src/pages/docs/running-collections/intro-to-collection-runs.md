@@ -1,6 +1,7 @@
 ---
 title: "Using the Collection Runner"
 order: 55
+updated: 2021-11-04
 page_id: "intro_to_collection_runs"
 search_keyword: "postman.setNextRequest, setNextRequest"
 contextual_links:

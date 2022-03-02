@@ -1,6 +1,7 @@
 ---
 title: "Custom SAML in GSuite"
 order: 137
+updated: 2020-05-22
 page_id: "saml_gsuite"
 warning: false
 contextual_links:

@@ -1,6 +1,7 @@
 ---
 title: "Microsoft AD FS"
 order: 134
+updated: 2020-07-07
 page_id: "microsoft_adfs"
 warning: false
 contextual_links:

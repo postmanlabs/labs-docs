@@ -1,6 +1,7 @@
 ---
 title: "Migrating data between teams"
 order: 128
+updated: 2020-10-02
 page_id: "team-merge"
 warning: false
 contextual_links:

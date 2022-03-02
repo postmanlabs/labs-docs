@@ -1,6 +1,7 @@
 ---
 title: "Resolving team conflicts"
 order: 80
+updated: 2021-04-21
 page_id: "conflicts"
 contextual_links:
   - type: section
