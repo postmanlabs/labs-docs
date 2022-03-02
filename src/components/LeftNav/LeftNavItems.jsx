@@ -648,6 +648,14 @@ export const leftNavItems = [
             name: 'SCIM Provisioning Overview',
             url: '/docs/administration/scim-provisioning/scim-provisioning-overview/',
           },
+          {
+            name: 'Configuring SCIM with Okta',
+            url: '/docs/administration/scim-provisioning/configuring-scim-with-okta/',
+          },
+          {
+            name: 'Configuring SCIM with Azure AD',
+            url: '/docs/administration/scim-provisioning/configuring-scim-with-azure-ad/',
+          },
         ],
       },
       {
