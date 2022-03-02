@@ -150,7 +150,7 @@ The __View more actions__ menu allows you to save, monitor, document, or mock a 
 
 ## Tabs
 
-Tabs allow you to organize and work between multiple requests. 
+Tabs allow you to organize and work between multiple requests.
 
 ### Opening a new tab
 
@@ -171,6 +171,7 @@ You can have many tabs open at the same time. To rearrange your open tabs, selec
 To manage your open tabs or to access recently closed tabs, select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> to open a menu with action options:
 
 * **Recently Closed Tabs**: Shows you tabs that you closed recently. Select one to reopen it.
+* **Duplicate Selected Tab**: _(Desktop app only.)_ Duplicates the current tab. This does not create a copy of the request, so when you duplicate a tab any edits you make are reflected in the original request.
 * **Close Selected Tab**: Closes the current tab. If the tab contains unsaved changes, Postman will ask if you want to save before closing.
 * **Force Close Selected Tab**: Closes the current tab without saving any changes.
 * **Close All but Selected Tab**: Closes all tabs except the one you are currently working in.
@@ -181,7 +182,8 @@ To manage your open tabs or to access recently closed tabs, select the three dot
 
 You can also manage your open tabs or open a new tab by right-clicking on an existing tab:
 
-* **New Request**: Opens a new tab.
+* **New Request**: _(Postman for Web only.)_ Opens a new tab.
+* **Duplicate Tab**: _(Desktop app only.)_ Duplicates the current tab. This does not create a copy of the request, so when you duplicate a tab any edits you make are reflected in the original request.
 * **Close Tab**: Closes the current tab. If the tab contains unsaved changes, Postman will ask if you want to save before closing.
 * **Force Close Tab**: Closes the current tab without saving any changes.
 * **Close All Tabs**: Closes all tabs. If any tabs contain unsaved changes, Postman will ask if you want to save before closing.
