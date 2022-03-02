@@ -18,6 +18,7 @@ When your team admin has enabled single sign-on (**SSO**) for Postman, you can l
 Your team admin can provide a **Login URL** that was generated during the SSO configuration. The **Login URL** will automatically redirect you to your configured Identity Provider.
 
 To sign into Postman:
+
 1. Select **Sign In** in the upper-right corner of Postman
 1. Select **Home** in the upper-left, then select **Sign in**
 1. Navigate to [Postman's website](https://www.postman.com/) and select **Sign In** in the upper-right corner
