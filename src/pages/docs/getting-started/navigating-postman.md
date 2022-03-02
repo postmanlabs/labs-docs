@@ -103,9 +103,9 @@ Enter your search string and change the scope of search to narrow down your sear
 
 ![Changing scope for universal search](https://assets.postman.com/postman-docs/change-scope-for-universal-search-v9.5.jpg)
 
-> For signed-in users, the default search scope on workspaces is Team. On [explore](https://www.postman.com/explore), the default is Public API Network. For signed-out users, the results only include public resources and do not contain private data.
+> For signed-in users, the default search scope on workspaces is Team. On [explore](https://www.postman.com/explore), the default is Public API Network. For signed-out users, the results only include public resources and don't contain private data.
 
-If you do not find what you are looking for in the list of results, select __Search all workspaces, collections, APIs and teams__ and you can find all the results in one page.
+If you don't find what you are looking for in the list of results, select __Search all workspaces, collections, APIs and teams__ and you can find all the results in one page.
 
 <img alt="Search all" src ="https://assets.postman.com/postman-docs/search-all-workspaces-collections-and-teams-v9.5.jpg"/>
 
@@ -126,7 +126,7 @@ Depending on the entity type, the search results contain different information:
 
 ## Find and replace
 
-In the Postman app, you can search the current workspace by selecting __Find and Replace__ in the status bar at the bottom left, or by entering __⌘+Shift+F__ or __Ctrl+Shift+F__.
+In the Postman app, you can search the current workspace by selecting __Find and Replace__ in the status bar at the bottom left, or by entering __⌘+Shift+F__ or __Control+Shift+F__.
 
 Enter your search string and, optionally, choose which entities to return, entering replacement text if necessary.
 
@@ -134,7 +134,7 @@ Enter your search string and, optionally, choose which entities to return, enter
 
 Postman searches tabs, collections, and variables. You can select an item directly in the search results to open an entity.
 
-> __Find and Replace__ is not available in Postman for Web.
+> __Find and Replace__ isn't available in Postman for Web.
 
 ## History
 
@@ -144,7 +144,7 @@ You can access a history of the requests you've made in the __History__ tab on t
 
 Select a request to open it again. Select __+__ to save the request to a collection. Toggle __Save Responses__ to save request responses so that you can view what was returned by a request when you open it from your history.
 
-The history also includes the collection runs executed. These remain as the summarized version of the run and aren't logged as single requests. The __Save Responses__ option cannot be used with requests from collection runner.
+The history also includes the collection runs executed. These remain as the summarized version of the run and aren't logged as single requests. The __Save Responses__ option can't be used with requests from collection runner.
 
 The __View more actions__ menu allows you to save, monitor, document, or mock a request. Use the delete (trash icon) or __Clear all__ options to remove requests from your history. You can select multiple requests by pressing `Command` or `Control` and selecting the requests.
 
@@ -152,7 +152,7 @@ The __View more actions__ menu allows you to save, monitor, document, or mock a 
 
 Tabs allow you to organize your work <!-- TODO: better description -->
 
-> You can toggle whether or not Postman opens requests in new tabs in the __Settings__. You can also configure whether or not Postman prompts you when closing tabs with unsaved changes.
+> You can toggle whether or not Postman opens requests in new tabs in the __Settings__. You can also configure whether Postman prompts you when closing tabs with unsaved changes.
 
 ### Opening a new tab
 
@@ -162,24 +162,22 @@ To open a new tab, select __+__ in the middle of the screen.
 
 <img alt="Open a new tab" src="https://assets.postman.com/postman-docs/open-new-tab.jpg" width="450px"/>
 
-### Preview mode
-
-If you open a request and do not edit or send it, then open another request, the first tab is replaced by the second tab. When the tab is in _Preview_ mode, it displays in italics.
+If you open a request and don't edit or send it, then open another request, the second tab replaces the first tab. When the tab is in preview mode, it displays in italics.
 
 ### Managing tabs
 
-You can have multiple tabs open at the same time. To rearrange your open tabs, select and drag them to the desired location.
+You can have many tabs open at the same time. To rearrange your open tabs, select and drag them to the desired location.
 
 To manage your open tabs or to access recently closed tabs, select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> to open a menu with action options:
 
-* **Recently Closed Tabs**: Shows you tabs that were closed recently. Select one to reopen it.
+* **Recently Closed Tabs**: Shows you tabs that you closed recently. Select one to reopen it.
 * **Close Selected Tab**: Closes the current tab. If the tab contains unsaved changes, Postman will ask if you want to save before closing.
 * **Force Close Selected Tab**: Closes the current tab without saving any changes.
 * **Close All but Selected Tab**: Closes all tabs except the one you are currently working in.
 * **Close All Tabs**: Closes all tabs. If any tabs contain unsaved changes, Postman will ask if you want to save before closing.
 * **Force Close All Tabs**: Closes all tabs without saving any changes.
 
-<img alt="Manage tabs using the additional actions menu" src="https://assets.postman.com/postman-docs/manage-tabs.jpg" width="300px"/>
+<img alt="Manage tabs using the actions menu" src="https://assets.postman.com/postman-docs/manage-tabs.jpg" width="300px"/>
 
 You can also manage your open tabs or open a new tab by right-clicking on an existing tab:
 
@@ -211,7 +209,7 @@ The best way to get to know Postman is by firing up the __Bootcamp__ on the bott
 
 ![Bootcamp](https://assets.postman.com/postman-docs/bootcamp-lesson-v8.gif)
 
-To find additional resources to get started with Postman, select **Home** in the upper-left corner.
+To find more resources to get started with Postman, select **Home** in the upper-left corner.
 
 ![Bootcamp Home](https://assets.postman.com/postman-docs/bootcamp-home-v8.jpg)
 
