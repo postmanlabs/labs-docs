@@ -1,6 +1,7 @@
 ---
 title: "Upgrading your team to the current version of Postman"
 order: 140.1
+updated: 2021-12-09
 page_id: "upgrading"
 warning: false
 contextual_links:

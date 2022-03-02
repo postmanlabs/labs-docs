@@ -1,6 +1,7 @@
 ---
 title: "Creating workspaces"
 order: 77
+updated: 2021-09-30
 page_id: "creating_workspaces"
 contextual_links:
   - type: section

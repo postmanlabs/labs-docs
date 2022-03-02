@@ -3,6 +3,7 @@ title: "Troubleshooting app issues"
 order: 9
 page_id: "troubleshooting_in_app"
 warning: false
+updated: 2021-12-22
 ---
 
 Postman automatically captures log messages in the event something goes wrong in the Postman app. The logs include information about recent activity in the app and can be helpful when troubleshooting issues.

@@ -1,6 +1,7 @@
 ---
 title: "Newman with Docker"
 order: 61
+updated: 2021-06-17
 page_id: "newman_with_docker"
 contextual_links:
   - type: section
