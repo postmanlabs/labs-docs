@@ -1,8 +1,8 @@
 ---
-title: "Configuring SCIM provisioning"
+title: "SCIM provisioning overview"
 order: 142
 updated: 2021-07-20
-page_id: "configuring_scim"
+page_id: "scim_provisioning_overview"
 warning: false
 contextual_links:
   - type: section
