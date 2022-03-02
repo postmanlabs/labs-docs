@@ -52,7 +52,7 @@ _Workspace as an entity_ represents a whole container where being an admin gives
 
 ## Creating a new workspace
 
-To create a new workspace, select the workspace dropdown menu at the left of Postman, and click **Create Workspace**.
+To create a new workspace, select the workspace dropdown menu at the left of Postman, and select **Create Workspace**.
 
 <img alt="Create new workspace" src="https://assets.postman.com/postman-docs/workspace-switcher-v9.1.jpg" width="300px"/>
 
@@ -68,9 +68,9 @@ To create a team workspace, enter the workspace name and summary, then select __
 
 [![Team workspace](https://assets.postman.com/postman-docs/create-workspace-v9.1.jpg)](https://assets.postman.com/postman-docs/create-workspace-v9.1.jpg)
 
-Click **Create Workspace** and Postman will open your new workspace. You can add elements to the workspace and invite new members using the __Invite__ button in the upper right of Postman.
+Select **Create Workspace** and Postman will open your new workspace. You can add elements to the workspace and invite new members using the __Invite__ button in the upper right of Postman.
 
-To create a new workspace, you can click the __New__ button above the navigation bar, select __Workspace__ and follow the same steps.
+To create a new workspace, you can select the __New__ button above the navigation bar, select __Workspace__ and follow the same steps.
 
 [![Create workspace new button](https://assets.postman.com/postman-docs/create-workspace-new-button-v9.jpg)](https://assets.postman.com/postman-docs/create-workspace-new-button-v9.jpg)
 

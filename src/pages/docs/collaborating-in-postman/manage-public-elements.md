@@ -68,7 +68,7 @@ As the Community Manager, you will be able to view, access, or delete the collec
 
 If you turn off the toggle option, no new links can be generated and existing links cannot be modified or edited. The previously created JSON links will still remain accessible.
 
-Hover over the **JSON link** corresponding to the collection and click **Copy link to JSON**. Paste the link in a browser of your choice and you will have access to the collection JSON.
+Hover over the **JSON link** corresponding to the collection and select **Copy link to JSON**. Paste the link in a browser of your choice and you will have access to the collection JSON.
 
 <img alt="Collection JSON links" src="https://assets.postman.com/postman-docs/collection-json-links.jpg"/>
 
