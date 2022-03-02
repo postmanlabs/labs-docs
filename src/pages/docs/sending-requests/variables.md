@@ -117,7 +117,7 @@ Scope | Description | Notes
 
 <!--  -->
 
-> Postman stores global and environment variables as strings. If you store objects or arrays, remember to `JSON.stringify()` them before storing, and `JSON.parse()` them when you retrieve them.
+> Postman stores variables as strings. If you store objects or arrays, remember to `JSON.stringify()` them before storing, and `JSON.parse()` them when you retrieve them.
 
 ## Variable types
 
@@ -128,7 +128,7 @@ Beyond scope, global and environment variables can also be defined by type. The 
 
 Users with [Editor](/docs/collaborating-in-postman/roles-and-permissions/) access on a workspace (for global variables) or environment (for environment variables) can opt to change these variables from default to secret type.
 
-> Regardless of the type you configure for a variable, Postman stores environment and global variables as strings on its servers. To learn about how Postman keeps your data safe, see [Security at Postman](https://www.postman.com/trust/security/).
+> Regardless of the type you configure for a variable, Postman stores variables as strings on its servers. To learn about how Postman keeps your data safe, see [Security at Postman](https://www.postman.com/trust/security/).
 
 To set the variable type to secret:
 
