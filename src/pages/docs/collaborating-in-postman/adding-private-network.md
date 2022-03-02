@@ -127,7 +127,7 @@ The sidebar navigation displays the folder structure for your Private API Networ
 
 The API overview page provides all the relevant information about an API to enable users to make a choice about using the API. This also provides information on who published this API, along with other editors of the API, to whom you can reach out using the [comments in Postman](/docs/collaborating-in-postman/commenting-on-collections/#commenting-on-a-collection).
 
-Clicking on an API takes you to the API details where you will find more information about the API — API description, Markdown summary, API versions, the workspace where the API currently exists, API editors, and API reports. You can watch or unwatch an API at any time.
+Select an API to find more information about it, including the API description, a Markdown summary, API versions, the workspace where the API currently exists, API editors, and API reports. You can watch or unwatch an API at any time.
 
 <img alt="API Overview" src="https://assets.postman.com/postman-docs/api-overview-v9.jpg"/>
 

@@ -37,8 +37,8 @@ You can leave comments on collections from Postman.
 > Team members must have access to the collection in question in order to post comments.
 
 1. Sign in to [Postman](https://go.postman.co/).
-2. At the top, select a **Workspace** and then click the **Collections** tab.
-3. Open the collection you want to leave your comment on and click **Comments** next to the name of the collection.
+2. At the top, select a **Workspace** and then select the **Collections** tab.
+3. Open the collection you want to leave your comment on and select **Comments** next to the name of the collection.
 
 ![Add comments on collection](https://assets.postman.com/postman-docs/commenting-on-a-collection-v8.gif)
 
@@ -52,7 +52,7 @@ You can add comments at the [request level](#adding-a-comment-on-a-request), on 
 
 1. Navigate to the request you want to leave a comment on.
 2. Switch to **Comment** mode at the top-right of the window.
-3. Write your comment, then click **Add Comment**.
+3. Write your comment, then select **Add Comment**.
 
 ![Add comments on collection request](https://assets.postman.com/postman-docs/adding-a-comment-on-a-collection-request-v8.gif)
 
@@ -64,8 +64,8 @@ You can leave comments on request parameters (query parameters, path parameters,
 
 1. Open the request you would like to comment on.
 2. Switch to **Comment** mode at the top-right of the window.
-3. Click on the key, value, or description.
-4. Enter your comment, then click **Add Comment**.
+3. Select the key, value, or description.
+4. Enter your comment, and then select **Add Comment**.
 
 ![Add comments on request params](https://assets.postman.com/postman-docs/adding-a-comment-on-a-request-parameter-v8.gif)
 
@@ -77,7 +77,7 @@ You can add a comment on a specific part of a raw body, a pre-request script, or
 2. Switch to **Comment** mode at the top-right of the window.
 3. Open the tab where you want to leave a comment.
 4. Highlight the text you want to comment on.
-5. Enter your comment, then click **Add Comment**.
+5. Enter your comment, then select **Add Comment**.
 
 ![Add inline comments for tests](https://assets.postman.com/postman-docs/adding-an-inline-comment-tests-v8.gif)
 
@@ -87,7 +87,7 @@ You can leave comments on folders in Postman.
 
 1. Open the folder you would like to comment on.
 2. Open the **Comments** icon <img alt="Mini comments icon" src="https://assets.postman.com/postman-docs/mini-comments-icon-v8.jpg" width="20px"/> at the top-right of the context bar.
-3. Enter your comment, then click **Add Comment**.
+3. Enter your comment, then select **Add Comment**.
 
 ![Adding comment on a folder](https://assets.postman.com/postman-docs/commenting-on-a-folder-v8.gif)
 
@@ -106,7 +106,7 @@ You can read comments made on the request and on request parameters from the app
 You can make changes to comments you've already posted. Other team members cannot edit your comments.
 
 1. In Postman, open the collection with the comment you want to edit.
-2. Find the comment and click **Comment** > **Edit**.
+2. Find the comment and select **Comment** > **Edit**.
 
 <img src="https://assets.postman.com/postman-docs/editing-a-comment-v8.jpg" alt="Edit comment" width="50%">
 
@@ -114,16 +114,16 @@ You can make changes to comments you've already posted. Other team members canno
 
 You can resolve comments made on request parameters when you no longer want them to display.
 
-1. Open the collection with the comment(s) you want to resolve.
+1. Open the collection with the comment or comments you want to resolve.
 2. Switch to **Comment** mode at the top-right of the window.
-3. Click **Resolve** next to the comment(s) you would like to resolve.
+3. Select **Resolve** next to the comment or comments you would like to resolve.
 
 ![Resolve comments](https://assets.postman.com/postman-docs/resolving-a-comment-v8.gif)
 
 ## Deleting comments
 
 1. In Postman, open the collection with the comment you want to delete.
-2. Find the comment and click the trash can icon.
+2. Find the comment and select the trash can icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg" width="12px" style="vertical-align:middle;margin-bottom:5px">.
 
 <img src="https://assets.postman.com/postman-docs/deleting-a-comment-v8.jpg" alt="Delete comment" width="50%">
 
@@ -134,9 +134,9 @@ You can resolve comments made on request parameters when you no longer want them
 When you leave feedback or a question for a specific teammate, you can let them know by tagging them in your comment.
 
 1. In Postman, open the collection or request you want to leave your comment on.
-2. Click **Comments** and write your message.
+2. Select **Comments** and write your message.
 3. To tag your teammate, type "@" and choose their name from the list.
-4. Click **Add comment**.
+4. Select **Add comment**.
 
 Your teammate will be notified in the app or with an email that they've been tagged in a comment. In-app notifications appear as a red dot above the bell icon at the top right.
 

@@ -134,9 +134,9 @@ In general, use active voice and try not to use passive structures:
 
 ---
 
-:thumbsdown::no_entry_sign: The request can be run by clicking on the Send button.
+:thumbsdown::no_entry_sign: The request can be run by selecting the Send button.
 
-:thumbsup::white_check_mark: To run the request, click __Send__.
+:thumbsup::white_check_mark: To run the request, select __Send__.
 
 ---
 
@@ -146,7 +146,7 @@ Help users to scan content by indicating the purpose of a page, section, or sent
 
 ---
 
-:thumbsdown::no_entry_sign: Click __Tests__ and enter JavaScript code to carry out testing on your request response.
+:thumbsdown::no_entry_sign: Select __Tests__ and enter JavaScript code to carry out testing on your request response.
 
 :thumbsup::white_check_mark: To carry out tests on your request response, select __Tests__ and enter JavaScript code.
 
@@ -170,13 +170,13 @@ When using a list, everything that appears before it (before the colon) should b
 
 ---
 
-Use __bold__ to highlight names for parts of the software that the user interacts with. Say "click" not "click on." Include the visible name of the relevant user interface component wherever possible instead of describing it. When you refer to a feature of the user interface, capitalize names to reflect what you see in Postman:
+Use __bold__ to highlight names for parts of the software that the user interacts with. Include the visible name of the relevant user interface component wherever possible instead of describing it. When you refer to a feature of the user interface, capitalize names to reflect what you see in Postman:
 
 ---
 
-:thumbsdown::no_entry_sign: Click on the send button
+:thumbsdown::no_entry_sign: Select the send button
 
-:thumbsup::white_check_mark: Click __Send__
+:thumbsup::white_check_mark: Select __Send__
 
 ---
 
@@ -318,7 +318,7 @@ Use meaningful text for links, avoiding phrases such as "click here" when possib
 
 ---
 
-An exception to this is the __Run in Postman__ button, which you can refer to directly, for example "Import the collection by clicking the __Run in Postman__ button below."
+An exception to this is the __Run in Postman__ button, which you can refer to directly, for example "Import the collection by selecting the __Run in Postman__ button below."
 
 Include links to relevant supporting docs inline throughout your pages, but in general only link to the same location once per page—usually the first time you mention the term.
 

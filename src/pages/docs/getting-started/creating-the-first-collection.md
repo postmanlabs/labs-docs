@@ -41,11 +41,11 @@ Let's review how to [send a basic request](/docs/getting-started/sending-the-fir
 
 ## Creating your first collection
 
-You can create a new request from the left sidebar in Postman. Click __New__ &gt; __HTTP Request__.
+You can create a new request from the left sidebar in Postman. Select __New__ &gt; __HTTP Request__.
 
 <img alt="Create new request sidebar" src="https://assets.postman.com/postman-docs/create-new-request-sidebar-v9.jpg"/>
 
-Enter a request in the request builder and click **Save** to open the **SAVE REQUEST** modal.
+Enter a request in the request builder and select **Save** to open the **SAVE REQUEST** modal.
 
 1. Create a new collection by selecting **New Collection**. Enter a collection name, and then select the **Create** button.
 

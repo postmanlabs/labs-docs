@@ -135,7 +135,7 @@ If you have a local change that conflicts with the remote copy, you will be show
 
 ![](https://assets.postman.com/postman-docs/api-builder-pull-changes-conflict.jpg)
 
-To resolve the conflict, next to each file, select either **Keep remote file** or **Keep local file**, then click **Pull Changes**.
+To resolve the conflict, next to each file, select either **Keep remote file** or **Keep local file**, then select **Pull Changes**.
 
 The first time you pull changes from the remote repo, if the remote schema directory already contains schema files, you will be prompted to select which schema to use in Postman.
 
@@ -170,9 +170,9 @@ To create a new version of an API:
 1. Go to the API **Overview** page. Select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> in the upper right corner and select **Create version**.
 1. Enter a version name.
 1. Select **Make this version available for consumers** if you want the new version to be visible. Otherwise, it is only visible to editors.
-1. If you want want to base this version on existing elements, click **Show more options** to expand the dialog. In **Copy elements from a previous version**, choose a previous version of the API. Then select the elements you want to copy to your new API.
+1. If you want want to base this version on existing elements, select **Show more options** to expand the dialog. In **Copy elements from a previous version**, choose a previous version of the API. Then select the elements you want to copy to your new API.
     > Copying an element creates a new copy in your workspace. The new element will have the new version number appended to its name, such as `my-docs-2.0.0`. The new elements will be linked to the new version of the API.
-1. Click __Create Version__. Your new version will open in the API Builder.
+1. Select __Create Version__. Your new version will open in the API Builder.
 
 ### Renaming and deleting versions
 
