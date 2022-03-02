@@ -83,6 +83,10 @@ export const leftNavItems = [
         url: '/docs/getting-started/importing-and-exporting-data/',
       },
       {
+        name: 'Using a custom proxy',
+        url: '/docs/getting-started/proxy/',
+      },
+      {
         name: 'Troubleshooting app issues',
         url: '/docs/getting-started/troubleshooting-inapp/',
       },
@@ -161,10 +165,6 @@ export const leftNavItems = [
           {
             name: 'Using Postman Interceptor',
             url: '/docs/sending-requests/capturing-request-data/interceptor/',
-          },
-          {
-            name: 'Using a custom proxy',
-            url: '/docs/sending-requests/capturing-request-data/proxy/',
           },
         ],
       },
@@ -429,7 +429,7 @@ export const leftNavItems = [
             url: '/docs/designing-and-developing-your-api/mocking-data/mocking-with-examples/',
           },
           {
-            name: 'Mocking by API',
+            name: 'Mocking with the Postman API',
             url: '/docs/designing-and-developing-your-api/mocking-data/mock-with-api/',
           },
           {

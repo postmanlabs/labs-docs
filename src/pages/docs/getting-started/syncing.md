@@ -1,6 +1,7 @@
 ---
 title: "Syncing your work"
 order: 5
+updated: 2022-2-18
 page_id: "syncing"
 contextual_links:
   - type: section
@@ -25,88 +26,34 @@ warning: false
 
 ---
 
-## What is Syncing?
+Postman automatically syncs changes across all devices that are linked to your account, including edits, updates, additions, or deletions. As long as you are signed in to Postman in the desktop app or in the web version, your data will be synced.
 
-Syncing makes all your Postman data available when you're signed in to your Postman account.
+* When you _sign out_, Postman removes your synced data from your local storage.
+* When you _sign back in_, Postman restores your data from the cloud.
+* When you _reload_, Postman automatically retrieves the most recent version of your data.
 
-Changes, such as edits, updates, additions, or deletions, sync across all devices that are linked to your account.
+You can have up to three devices logged in to your Postman account simultaneously, such as your work computer, personal computer, and mobile phone.
 
-These entities can sync with the server and be saved to the cloud:
+## Understanding sync states
 
-* Collections
-* Folders
-* Requests
-* Responses
-* Header Presets
-* Environments
-* Environment variables
-* Global variables
-* Collection run results
-* Workspaces
-* History
+Postman indicates the sync state of your workspace with the cloud icon. Possible states are:
 
-## How do I Sync between computers?
+* **Offline** <img alt="Sync offline icon" src="https://assets.postman.com/postman-docs/icon-sync-offline.jpg" width="16px" style="vertical-align:middle;margin-bottom:5px"> means that you are not connected to the Postman servers. This means that either your computer is not connected to the internet or you are not signed in to Postman.
 
-Install [Postman](https://www.postman.com/downloads/) and sign in with the same email address or username on all your devices.
+    > If you are offline, you will be in the _Scratch Pad_, which is a space where you can work locally without a connection or login to Postman. The work that you do in the Scratch Pad will not be synced to Postman, but you can export it and import it into a workspace later. For more information, see [Using the Scratch Pad](/docs/getting-started/using-scratch-pad/).
+    >
+    > <img alt="Offline state" src="https://assets.postman.com/postman-docs/scratch-pad-logged-out-v9.12.jpg" width="250px" />
 
-Alternatively, access Postman on the web by visiting [go.postman.co/home](https://go.postman.co/home) in your browser and signing into your account.
+* **Connecting** <img alt="Sync connecting icon" src="https://assets.postman.com/postman-docs/icon-sync-connecting.jpg" width="16px" style="vertical-align:middle;margin-bottom:5px"> means the app is trying to connect to the Postman servers. You may also see this status if your connection drops and then reconnects.
+* **Online** <img alt="Sync online icon" src="https://assets.postman.com/postman-docs/icon-sync-online.jpg" width="16px" style="vertical-align:middle;margin-bottom:5px"> means that you are connected to the Postman servers and your work is either in the process of syncing or is already synced.
+* **Error** <img alt="Sync connection error icon" src="https://assets.postman.com/postman-docs/icon-sync-connection-error.jpg" width="16px" style="vertical-align:middle;margin-bottom:5px"> means there was a syncing error while connecting to Postman. Hover over the cloud icon to see detailed information on the error.
 
-If you forget your username or password, you can recover them using the links in the sign-in prompt.
-
-When you're logged into Postman, your data is synced across devices.
-
-**Note:** Postman restricts parallel usage to three apps per account.
-
-### States
-
-Postman indicates the sync state of your workspace. The flow diagram for sync states is shown below:
-
-[![Sync States](https://assets.postman.com/postman-docs/sync-states-flow.jpg)](https://assets.postman.com/postman-docs/sync-states-flow.jpg)
-
-If you are not signed in to Postman, you see the state as **Offline**. Click **Sign In** to connect to Postman.
-
-If you are offline, you will be in the _Scratch Pad_, which is a space where you can work locally without a connection or login to Postman. The work that you do in the Scratch Pad will not be synced to Postman, but you can export it and import it to a workspace later. For more information see, [Using the Scratch Pad](/docs/getting-started/using-scratch-pad/).
-
-<img alt="Offline state" src="https://assets.postman.com/postman-docs/scratch-pad-logged-out.jpg" width="300px" />
-
-When you open Postman or if your connection drops, it displays **Connecting** before it starts to sync.
-
-[![Connecting state](https://assets.postman.com/postman-docs/connecting-state.jpg)](https://assets.postman.com/postman-docs/connecting-state.jpg)
-
-When you click the icon, you will see **Syncing** in **Online** state. The popup will indicate further information about the current sync state.
-
-[![Online state syncing](https://assets.postman.com/postman-docs/online-state-syncing.jpg)](https://assets.postman.com/postman-docs/online-state-syncing.jpg)
-
-If Postman is in sync with the server, the icon to the left of your name at the top right indicates **Online**, and displays a popup showing **In sync** on hover.
-
-[![Online state in sync](https://assets.postman.com/postman-docs/online-state-in-sync.jpg)](https://assets.postman.com/postman-docs/online-state-in-sync.jpg)
-
-While connecting to Postman, if you encounter a syncing error, it will indicate **Error** state. Hover to see the detailed information on the error.
-
-[![Error state](https://assets.postman.com/postman-docs/error-state-v2.jpg)](https://assets.postman.com/postman-docs/error-state-v2.jpg)
-
-> You may occasionally experience sync conflicts between Postman and its servers, particularly when you work as part of a team: [Postman will prompt you to resolve any conflicts that occur](/docs/collaborating-in-postman/using-workspaces/conflicts/)
-
-## Sign Out
-
-If you choose to sign out, Postman deletes your data from the local instance of the app.
-
-Don’t worry, Postman restores all your data from the cloud when you sign in, and enables other users to use it without your data clashing.
-
-When you reload, Postman automatically retrieves the most recent and up-to-date version of your collections.
+> You may occasionally experience sync conflicts between Postman and its servers, particularly when you work as part of a team. When this happens, Postman will prompt you to [resolve any conflicts](/docs/collaborating-in-postman/using-workspaces/conflicts/) that occur.
 
 ## Disabling sync
 
-If you or your organization have a requirement to prevent your data from being synced to the Postman cloud, you can use Postman without an account and [manually back up your data locally](/docs/getting-started/importing-and-exporting-data/#exporting-postman-data).
+Some organizations have security guidelines that prevent team members from syncing data to the Postman cloud. In this situation, you can use Postman without an account and [manually back up your data locally](/docs/getting-started/importing-and-exporting-data/#exporting-postman-data).
 
-You can delete already synced data by [deleting your account](#deleting-your-postman-account). Note that if you are a part of a Postman team, you must first [leave the team](/docs/collaborating-in-postman/collaboration-intro/#leaving-a-team) in order to delete your account.
+You can delete data that has already been synced to Postman by [deleting your account](#deleting-your-postman-account). Note that if you are a part of a Postman team, you must first [leave the team](/docs/collaborating-in-postman/collaboration-intro/#leaving-a-team) to delete your account.
 
 > Learn more about [Security at Postman](https://www.postman.com/trust/security/).
-
-## Deleting your Postman account
-
-If you have a Postman account and are not part of a Postman team, you can [delete your account](https://go.postman.co/settings/me).
-
-Otherwise, you can contact us at [help@postman.com](mailto:help@postman.com).
-
-[![delete account](https://assets.postman.com/postman-docs/WS-syncing-deleteAccount.png)](https://assets.postman.com/postman-docs/WS-syncing-deleteAccount.png)

@@ -1,6 +1,7 @@
 ---
 title: "Custom SAML in Azure AD"
 order: 135
+updated: 2020-05-22
 page_id: "saml_in_azure_ad"
 warning: false
 contextual_links:

@@ -3,7 +3,7 @@ title: "Installing and updating"
 order: 2
 page_id: "installation_and_updates"
 warning: false
-updated: 2022-01-05
+updated: 2022-02-16
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -84,7 +84,7 @@ Postman is available for Windows 7 and later.
 
 You can install Postman on Linux by manually downloading it, using the [Snap](https://snapcraft.io/postman) store link, or with the command `snap install postman`.
 
-To install manually, [download](https://www.postman.com/downloads/) and unzip the app, for example into the `opt` directory. You will need `sudo` privileges.
+To install manually, [download](https://www.postman.com/downloads/) and unzip the app, for example into the `Downloads` directory.
 
 To start the app from a launcher icon, create a desktop file, naming it `Postman.desktop` and saving it in the following location:
 
@@ -92,14 +92,14 @@ To start the app from a launcher icon, create a desktop file, naming it `Postman
 ~/.local/share/applications/Postman.desktop
 ```
 
-Enter the following content in the file, replacing `opt` if you extracted the file somewhere else, and save it:
+Enter the following content in the file, replacing `/path/to/Downloads` with the location of the file, and save it:
 
 ```shell
 [Desktop Entry]
 Encoding=UTF-8
 Name=Postman
-Exec=/opt/Postman/app/Postman %U
-Icon=/opt/Postman/app/resources/app/assets/icon.png
+Exec=/path/to/Downloads/Postman/app/Postman %U
+Icon=/path/to/Downloads/Postman/app/resources/app/assets/icon.png
 Terminal=false
 Type=Application
 Categories=Development;
@@ -160,7 +160,7 @@ From Postman for Web, you can select the agent you would like to use for your re
 Postman for Web is under active development. There are a few features you can currently only access in the desktop app, not in your browser:
 
 * **Find and replace**: The Postman desktop app supports [finding and replacing values in a workspace](/docs/getting-started/navigating-postman/#find-and-replace), but this function is not available on Postman for Web yet.
-* **Certificates and proxy**: The Postman desktop app allows you to customize [certificates](/docs/sending-requests/certificates/) and [proxy configurations](/docs/sending-requests/capturing-request-data/proxy/#configuring-proxy-settings). On Postman for Web, these take the browser defined value and cannot be overridden by Postman.
+* **Certificates and proxy**: The Postman desktop app enables you to customize [certificates](/docs/sending-requests/certificates/) and [proxy configurations](/docs/getting-started/proxy/#configuring-proxy-settings). On Postman for Web, these take the browser defined value and cannot be overridden by Postman.
 * **Postman Interceptor**: [Interceptor](/docs/sending-requests/capturing-request-data/interceptor/) syncs cookies from your browser to the Postman desktop app and captures network requests directly from the browser. It is not possible to use Interceptor with Postman for Web.
 
 ## Updating Postman
@@ -222,17 +222,18 @@ If you see an __Update Failed__ notification in Postman, you can use the DevTool
 
 ![update-error-dialog](https://assets.postman.com/postman-docs/update-error-dialog.png)
 
-Open the DevTools using __View__ &gt; __Developer__ &gt; __Show DevTools (Current View)__. Some known errors are as follows:
+Open the DevTools using __View__ &gt; __Developer__ &gt; __Show DevTools (Current View)__.
+
+Some known errors are as follows:
 
 * __Error message:__ `Cannot update while running on a read-only volume`
     * This error means that the app user does not have write permission in the directory where Postman is installed. To resolve the problem, move Postman to a directory where the user has write permissions, for example the `/Application` directory for Mac, and to the `home` directory for Linux.
 
-![Write Permission Issue in DevTools](https://assets.postman.com/postman-docs/write-permission-issue.png)
-
 * __Error message:__ `Code signature at URL file:///... did not pass validation: code object is not signed at all`
     * This error means that there are multiple updates running at the same time. This can happen when the app is opened before the previous update could finish. To resolve the problem, quit and reopen the app.
 
-![Multiple Updates Running Issue in DevTools](https://assets.postman.com/postman-docs/multiple-updates-running.png)
+* __Error message:__ `EACCES: permission denied, open '/opt/Postman/Postman-1620288011421.tar.gz`
+    * This error means that the app user does not have write permission in the directory where Postman is installed. To resolve the problem, move Postman to a directory where the user has write permissions, for example the `home` directory for Linux.
 
 ### Update button not available
 

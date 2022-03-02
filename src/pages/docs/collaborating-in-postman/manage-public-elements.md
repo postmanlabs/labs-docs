@@ -1,6 +1,7 @@
 ---
 title: "Managing public elements"
 order: 76.1
+updated: 2021-08-23
 page_id: "manage_public_elements"
 warning: false
 contextual_links:
@@ -13,7 +14,7 @@ contextual_links:
     url: "https://blog.postman.com/govern-your-public-api-collections-more-effectively/"
   - type: link
     name: "How to Set Up Your First Public Workspace"
-    url: "https://blog.postman.com/how-to-set-up-public-workspaces/" 
+    url: "https://blog.postman.com/how-to-set-up-public-workspaces/"
   - type: section
     name: "Next Steps"
   - type: link
@@ -66,7 +67,7 @@ The **Collection JSON Links** tab displays all the collections with JSON links. 
 
 As the Community Manager, you will be able to view, access, or delete the collections with JSON links. In addition to the collection name, the dashboard displays more information about the date the link was updated on, who updated the link, and the JSON link.
 
-If you disable the toggle option, no new links can be generated and existing links cannot be modified or edited. The previously created JSON links will still remain accessible.
+If you turn off the toggle option, no new links can be generated and existing links cannot be modified or edited. The previously created JSON links will still remain accessible.
 
 Hover over the **JSON link** corresponding to the collection and click **Copy link to JSON**. Paste the link in a browser of your choice and you will have access to the collection JSON.
 

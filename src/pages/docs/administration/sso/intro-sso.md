@@ -1,6 +1,7 @@
 ---
 title: "Intro to SSO"
 order: 131
+updated: 2020-05-22
 page_id: "intro_sso"
 warning: false
 contextual_links:

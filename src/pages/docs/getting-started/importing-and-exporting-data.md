@@ -2,7 +2,7 @@
 title: 'Importing and exporting data'
 order: 8.2
 page_id: 'importing_and_exporting_data'
-updated: 2021-12-20
+updated: 2022-03-01
 contextual_links:
   - type: section
     name: "Additional Resources"
@@ -14,6 +14,9 @@ contextual_links:
   - type: link
     name: "Generate a Collection From a Specification | Postman Level Up"
     url: "https://youtu.be/gljWt9tDKOY"
+  - type: link
+    name: "Postman Level Up | Import a HAR file in Postman"
+    url: "https://youtu.be/E3uo-oQ9WtE"
   - type: subtitle
     name: "Related Blog Posts"
   - type: link
@@ -120,7 +123,7 @@ See the [Postman Collection Transformer](https://github.com/postmanlabs/postman-
 
 Postman directly supports importing the following formats:
 
-* [OpenAPI 3.0](https://github.com/postmanlabs/openapi-to-postman)
+* [OpenAPI 3.0 and 3.1](https://github.com/postmanlabs/openapi-to-postman)
 * Swagger [1.2](https://github.com/postmanlabs/swagger1-to-postman) and [2.0](https://github.com/postmanlabs/swagger2-postman2-lambda)
 * [GraphQL](https://github.com/postmanlabs/graphql-to-postman)
 * [cURL](https://github.com/postmanlabs/curl-to-postman)
@@ -234,6 +237,8 @@ The [Export page](http://go.postman.co/me/export) shows information about your e
 * **Download**: The zipped file is ready to be downloaded.
 
 When the export is ready, you will receive an email with link to download a zipped file with the data dump. You can also download the file using the **Download** button on the Export page.
+
+> Data exports from the Scratch Pad are downloaded directly instead of being emailed to you. See [Exporting data from the Scratch Pad](/docs/getting-started/using-scratch-pad/#exporting-data-from-the-scratch-pad) for more details.
 
 ## Next steps
 

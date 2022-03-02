@@ -53,7 +53,7 @@ With a free Postman account, once you've reached your monthly usage limit, your 
 
 With a paid Postman account, you have the option to allow monitoring overages. Once you're reached your monthly usage limit, your monitors continue to run, and you are charged at a pay-as-you-go rate for each monitoring API call.
 
-> Overages are allowed by default for paid Postman accounts. To disable overages, select **Team > Resource Usage** to open the [Resource Usage dashboard](https://go.postman.co/usage), and then turn off **Allow monitoring overages**.
+> Overages are allowed by default for paid Postman accounts. To disallow overages, select **Team > Resource Usage** to open the [Resource Usage dashboard](https://go.postman.co/usage), and then turn off **Allow monitoring overages**.
 
 ## Purchasing monitoring blocks
 

@@ -12,16 +12,6 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
-    name: "Case Studies"
-  - type: link
-    name: "Monetary"
-    url: "https://www.postman.com/case-studies/monetary/"
-  - type: subtitle
-    name: "Public Workspaces"
-  - type: link
-    name: "Postman API Monitoring Examples"
-    url:  "https://www.postman.com/postman/workspace/e348c5a0-2965-44cc-87ed-7b316516f38d"
-  - type: subtitle
     name: "Videos"
   - type: link
     name: "API Monitoring | The Exploratory"
@@ -32,8 +22,21 @@ contextual_links:
   - type: subtitle
     name: "Blog Posts"
   - type: link
+    name: "Integrated API Monitoring in Postman"
+    url: "https://blog.postman.com/integrated-api-monitoring-in-postman/"
+  - type: link
     name: "From manual to automated testing: The roadblocks and the journey"
     url: "https://medium.com/better-practices/from-manual-to-automated-testing-the-roadblocks-and-the-journey-6333dfacc5ae"
+  - type: subtitle
+    name: "Case Studies"
+  - type: link
+    name: "Monetary"
+    url: "https://www.postman.com/case-studies/monetary/"
+  - type: subtitle
+    name: "Public Workspaces"
+  - type: link
+    name: "Postman API Monitoring Examples"
+    url:  "https://www.postman.com/postman/workspace/e348c5a0-2965-44cc-87ed-7b316516f38d"
 
 warning: false
 
@@ -53,7 +56,7 @@ Once the monitor is running you’ll be alerted to any system outages or test fa
 
 Uptime monitors (open beta) make it easy to track the availability of an API or website. There’s no need to set up collections, test scripts, or environments. Simply enter the URL you want to monitor (HTTP or HTTPS only) and select the team members to be notified of outages.
 
-The uptime monitor continuously checks the availability of the URL, as often as every minute (paid plans) or every 30 minutes (free plans). As soon as downtime is detected, the selected team members will get alerted by email.
+The uptime monitor continuously checks the availability of the URL, as often as every minute (paid plans) or every 15 minutes (free plans). As soon as downtime is detected, the selected team members will get alerted by email.
 
 Uptime monitors ensure the availability of your API or service around the clock and help you detect system outage issues more quickly. Uptime statistics are recorded on the monitor’s dashboard, so you can always check the status of your API, view past trends, or pause the monitor as needed.
 

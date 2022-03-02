@@ -1,6 +1,7 @@
 ---
 title: "Using the Collection Runner"
 order: 55
+updated: 2021-11-04
 page_id: "intro_to_collection_runs"
 search_keyword: "postman.setNextRequest, setNextRequest"
 contextual_links:
@@ -70,7 +71,7 @@ You can optionally choose config parameters for your collection run:
 * A [data file](/docs/running-collections/working-with-data-files/) for the collection run.
 * Saving responses to the log will allow you to review them but can affect performance.
 * Persisting variables will mean that any variables updated by the run will remain changed after it. If you do not persist variables, changes will not be saved after the run completes. _Note that persisting variables in the collection run will update the current value only._
-* If your requests use cookies, you can optionally disable them for a collection run.
+* If your requests use cookies, you can optionally deactivate them for a collection run.
 * Saving cookies means that any values affected by requests during the run will remain after it completes.
 
 ## Running your collections

@@ -1209,7 +1209,7 @@
 	},
 	{
 		"from": "/docs/postman/sending-api-requests/proxy/",
-		"to": "/docs/sending-requests/capturing-request-data/proxy/"
+		"to": "/docs/getting-started/proxy/"
 	},
 	{
 		"from": "/docs/postman/sending-api-requests/requests/",
@@ -1281,7 +1281,7 @@
 	},
 	{
 		"from": "/docs/postman/sending_api_requests/proxy/",
-		"to": "/docs/sending-requests/capturing-request-data/proxy/"
+		"to": "/docs/getting-started/proxy/"
 	},
 	{
 		"from": "/docs/postman/sending_api_requests/requests/",
@@ -1883,5 +1883,9 @@
 	},
 	{	"from": "/docs/designing-and-developing-your-api/deploying-an-api/",
 		"to": "/docs/designing-and-developing-your-api/deploying-an-api/deploying-an-api-overview/"
+	},
+	{
+		"from": "/docs/sending-requests/capturing-request-data/proxy/",
+		"to": "/docs/getting-started/proxy/"
 	}
 ]

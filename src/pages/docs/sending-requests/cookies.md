@@ -29,7 +29,7 @@ warning: false
 
 Postman provides a **Manage Cookies** feature that enables you to edit cookies that are associated with each domain. If you want to capture cookies using Postman Interceptor, refer to [Syncing cookies](/docs/sending-requests/capturing-request-data/interceptor/#syncing-cookies).
 
-> You can disable the cookie jar in the __Settings__ tab for a request at any time to toggle off sending cookies.
+> You can deactivate the cookie jar in the __Settings__ tab for a request at any time to toggle off sending cookies.
 
 ## What are cookies?
 

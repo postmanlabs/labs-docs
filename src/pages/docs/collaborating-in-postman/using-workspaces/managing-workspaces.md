@@ -1,6 +1,7 @@
 ---
 title: "Using and managing workspaces"
 order: 78
+updated: 2021-09-30
 page_id: "managing_workspaces"
 contextual_links:
   - type: section
@@ -173,8 +174,6 @@ If more than three people are in a workspace, the fourth avatar will be a number
 ## Deleting a workspace
 
 Deleting a workspace removes the workspace and all data in it from Postman. Use caution, as once you delete a workspace it's gone forever. You must be a [workspace Admin](#managing-workspace-roles) to delete a workspace.
-
-> **My Workspace** and **Team Workspace** are default workspaces created by Postman. You cannot delete these workspace, but you can [rename them](#editing-workspace-details).
 
 To delete a workspace:
 

@@ -1,6 +1,7 @@
 ---
 title: "Running collections on the command line with Newman"
 order: 60
+updated: 2021-06-17
 page_id: "command_line_integration_with_newman"
 search_keyword: "newman run"
 contextual_links:
@@ -112,11 +113,11 @@ $ newman run -h
 | Option | Details |
 |:--|:--|
 | `--bail` | Stops the runner when a test case fails |
-| `--silent` | Disable terminal output |
-| `--color off` | Disable colored output (auto\|on\|off) (default: "auto")|
-| `-k`, `--insecure` | Disable strict ssl |
+| `--silent` | Turn off terminal output |
+| `--color off` | Turn off colored output (auto\|on\|off) (default: "auto")|
+| `-k`, `--insecure` | Turn off strict ssl |
 | `-x`, `--suppress-exit-code` | Continue running tests even after a failure, but exit with `code=0` |
-| `--ignore-redirects` | Disable automatic following of `3XX` responses |
+| `--ignore-redirects` | Turn off automatic following of `3XX` responses |
 | `--verbose` | Show detailed information of collection run and each request sent |
 
 Use the ``-n`` option to set the number of iterations to run the collection.

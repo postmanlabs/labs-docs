@@ -1,8 +1,8 @@
 ---
 title: "Documenting your API"
 order: 101
-updated: 2021-12-08
 page_id: "documenting_your_api"
+updated: 2022-1-24
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -53,14 +53,13 @@ warning: false
 
 Documentation is an important part of any collection or API. Good documentation helps the people who use your collection to understand what it does and how each request works. And comprehensive API documentation lets your consumers know what endpoints are available and how to successfully interact with them.
 
-Postman automatically generates basic documentation for any collection you create. Simply [view the documentation](/docs/publishing-your-api/viewing-documentation/) to see details for all of the requests in your collection. To make your documentation even more valuable to users, [add descriptions](/docs/publishing-your-api/authoring-your-documentation/) to the items in your collection.
-
-If you're designing an API in Postman, you can create a new collection to hold and organize your API documentation. Or you can link an existing collection to your API. By default your documentation is private, so only people you share the collection with will be able to see it. If you're creating a public API, you can [publish your documentation](/docs/publishing-your-api/publishing-your-docs/) to make it publicly available to anyone with a web browser.
+Once you've generated documentation for your collection or API, users can [view the documentation](/docs/publishing-your-api/viewing-documentation/) in Postman. By default your documentation is private, so only people you share a collection or API with will be able to see it. If you're creating a public API, you can [publish your documentation](/docs/publishing-your-api/publishing-your-docs/) to make it publicly available to anyone with a web browser.
 
 ## Contents
 
 * [Documenting a collection](#documenting-a-collection)
 * [Generating API documentation](#generating-api-documentation)
+    * [Viewing schema documentation](#viewing-schema-documentation)
     * [Creating new documentation for an API](#creating-new-documentation-for-an-api)
     * [Adding existing documentation to an API](#adding-existing-documentation-to-an-api)
     * [Editing API documentation](#editing-api-documentation)
@@ -71,14 +70,14 @@ If you're designing an API in Postman, you can create a new collection to hold a
 
 ## Documenting a collection
 
-Documentation in Postman is always part of a collection. The documentation automatically includes details for each request in the collection, along with sample code in various client languages. Request details include the method, authorization type, URL, headers, request and response structures, and examples. In addition, the documentation displays all key-value pairs for request parameters, headers, and bodies.
+Postman automatically generates basic documentation for any collection you create. [View the documentation](/docs/publishing-your-api/viewing-documentation/) to see details for all of the requests in your collection, along with sample code in various client languages. Request details include the method, authorization type, URL, headers, request and response structures, and examples. In addition, the documentation displays all key-value pairs for request parameters, headers, and bodies.
 
-To help others better understand what you're building, add detailed descriptions to your collection. The descriptions are included in the documentation for your collection.
+To make your documentation even more valuable to users, [add descriptions](/docs/publishing-your-api/authoring-your-documentation/) to the items in your collection. Any descriptions you add are automatically included in the documentation for your collection.
 
 1. Select **Collections** in the sidebar, and then select a collection, folder, or request.
 1. Select **Documentation** <img alt="Documentation icon" src="https://assets.postman.com/postman-docs/documentation-icon-v8-10.jpg" width="16px" style="vertical-align:middle;margin-bottom:5px"> in the context bar.
 1. Select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to the description.
-1. Compose your new content, and then click **Save**. To learn more about using Postman's built-in editing tools, see [Authoring your docs](/docs/publishing-your-api/authoring-your-documentation/).
+1. Compose your new content, and then select **Save**. To learn more about using Postman's built-in editing tools, see [Authoring your docs](/docs/publishing-your-api/authoring-your-documentation/).
 
 <img alt="Documentation pane" src="https://assets.postman.com/postman-docs/documentation-pane-v9.jpg" width="566px">
 
@@ -86,56 +85,72 @@ To help others better understand what you're building, add detailed descriptions
 
 ## Generating API documentation
 
-Like all documentation in Postman, documentation for an API must be part of a collection. To document your API, generate a new collection based on your API schema, or link an existing collection to your API.
+The **Documentation** tab in the API Builder provides one place to view, create, and manage all of your API's documentation. Postman automatically generates API docs for any OpenAPI 3.0 schema defined in the API Builder. You can also add detailed documentation to any API by generating a collection from the API or by linking to an existing collection.
 
 > A collection can be linked to only one version of an API. If you [create a new version](/docs/designing-and-developing-your-api/versioning-an-api/) of your API, you'll also need to generate a new collection to hold that version's documentation. To learn more, see [Versioning your docs](#versioning-your-docs).
+
+### Viewing schema documentation
+
+If you are [designing an API](/docs/designing-and-developing-your-api/defining-an-api/) based on the OpenAPI 3.0 specification, Postman automatically creates documentation based on your schema definition.
+
+The API documentation includes complete API, path, and operation information, such as authentication methods, parameters, request bodies, response bodies and headers, and examples. The documentation also includes schema information for various data models, such as required attributes, default, minimum, and maximum values, and other constraints.
+
+To view the documentation for an OpenAPI 3.0 schema:
+
+1. Select **APIs** in the left sidebar, and then select an API and a version.
+1. Select the **Documentation** tab.
+1. In the left pane, select an item under **Schema Documentation** to view a specific path or request.
+
+<img alt="Viewing schema documentation" src="https://assets.postman.com/postman-docs/documentation-view-schema-docs-v9-12.jpg" width="1106px">
+
+> Postman alerts you if your API schema contains unsaved changes or errors. To update the API documentation with the latest schema changes, select the **Definition** tab and save your schema.
 
 ### Creating new documentation for an API
 
 To generate a new collection for API documentation:
 
-1. Open your API by selecting **APIs** in the left sidebar, and then selecting an API and a version.
-1. Select the **Documentation** tab.
-1. Select **Create new documentation**.
+1. Select **APIs** in the left sidebar, and then select an API and a version.
+1. Select the **Overview** tab.
+1. Select the **+** next to **Documentation**, and then select **Create new documentation**.
 1. Enter a name for the new collection. (Make it something you'll easily associate with this version of your API.)
 1. (Optional) Select **Show advanced settings** and change any settings as needed. See the description for each setting to learn more.
-1. Select **Create Documentation**. The new API documentation is displayed on the **Documentation** tab.
+1. Select **Create Documentation**. The new API documentation is displayed in the **Documentation** tab.
 
 <img alt="Generating new API documentation" src="https://assets.postman.com/postman-docs/documentation-generate-api-docs-v9.jpg" width="702px">
 
-> You can generate additional documentation collections from the **Documentation** tab. Select the **Collection** dropdown list, and then select **Create new documentation**.
+> You can generate additional documentation collections from the **Documentation** tab. In the left pane, select the **+** next to **Collection Documentation**, and then select **Create Documentation**.
 
 ### Adding existing documentation to an API
 
 To use an existing collection for API documentation:
 
-1. Open your API by selecting **APIs** in the left sidebar, and then selecting an API and a version.
-1. Select the **Documentation** tab.
-1. Select **Add existing documentation**.
+1. Select **APIs** in the left sidebar, and then select an API and a version.
+1. Select the **Overview** tab.
+1. Select the **+** next to **Documentation**, and then select **Add existing documentation**.
 1. Select the collection you want to use for API documentation.
-1. Select **Add Documentation**. The API documentation is displayed on the **Documentation** tab.
+1. Select **Add Documentation**. The API documentation is displayed in the **Documentation** tab.
 
 <img alt="Adding existing API documentation" src="https://assets.postman.com/postman-docs/documentation-add-api-docs-v9.jpg" width="402px">
 
-> You can add additional documentation collections from the **Documentation** tab. Select the **Collection** dropdown list, and then select **Add existing documentation**.
+> You can add additional documentation collections from the **Documentation** tab. In the left pane, select the **+** next to **Collection Documentation**, and then select **Add Existing Documentation**.
 
 ### Editing API documentation
 
-You can add to your API documentation right from the **Documentation** tab. Just select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to any description and use [the built-in editing tools](/docs/publishing-your-api/authoring-your-documentation/) to author content.
+You can add to your API documentation collections right from the **Documentation** tab. First, select a linked collection in the left pane. Then select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to any description and use [the built-in editing tools](/docs/publishing-your-api/authoring-your-documentation/) to author content.
 
-Another way to work on your API documentation is to open the linked collection. On the **Documentation** tab, select **View Collection**, and then [edit the documentation](#documenting-a-collection) in the linked collection.
+Another way to work on your API documentation is to open the linked collection. In the **Documentation** tab, select **View Collection** at the upper right, and then [edit the documentation](#documenting-a-collection) in the linked collection.
 
-> You can also create or edit a documentation collection by selecting **New > API Documentation** and following the onscreen instructions. When you're done, [link the documentation to your API](#adding-existing-documentation-to-an-api).
+> Schema documentation cannot be edited in the **Documentation** tab. Instead, edit your schema in the **Definition** tab and then select **Save**. Postman automatically updates the API docs to reflect the latest schema changes.
 
-[![Editing API documentation](https://assets.postman.com/postman-docs/documentation-editing-api-docs-v9.jpg)](https://assets.postman.com/postman-docs/documentation-editing-api-docs-v9.jpg)
+<img alt="Editing API documentation" src="https://assets.postman.com/postman-docs/documentation-editing-api-docs-v9-12.jpg" width="1106px">
 
 ### Removing API documentation
 
-To remove documentation from an API:
+To remove a linked documentation collection from an API:
 
-1. Open your API by selecting **APIs** in the left sidebar, and then selecting an API and a version.
-1. Select the **Documentation** tab.
-1. In the **Collection** dropdown list, select the remove button <img alt="Remove button" src="https://assets.postman.com/postman-docs/icon-remove-api-element-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to the collection you want to remove from this API version.
+1. Select **APIs** in the left sidebar, and then select an API and a version.
+1. Select the **Overview** tab.
+1. Select the remove button <img alt="Remove button" src="https://assets.postman.com/postman-docs/icon-remove-api-element-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to the collection you want to remove from this API version.
 1. Select **Remove Documentation**.
 
 > Removing documentation only removes the link between the collection and the API version. The collection itself is not deleted.
@@ -167,9 +182,11 @@ There are several ways to create a documentation collection for a new version of
 
     <img alt="Creating a new version" src="https://assets.postman.com/postman-docs/documentation-new-version-v9.jpg" width="482px">
 
-* **Generate a collection from the new API version.** Open the new API version and select the **Documentation** tab. In the **Collection** dropdown list, select **Create new documentation**.
+* **Generate a collection from the new API version.** Open the new API version and select the **Overview** tab. Select the **+** next to **Documentation**, and then select **Create new documentation**.
 
-* **Add an existing to collection to the new API version.** Open the new API version and select the **Documentation** tab. In the **Collection** dropdown list, select **Add existing documentation**.
+* **Add an existing to collection to the new API version.** Open the new API version and select the **Overview** tab. Select the **+** next to **Documentation**, and then select **Add existing documentation**.
+
+> Postman automatically generates schema documentation for each version of your API, based on that version's API definition. Once you've versioned your API, you'll see a new version of the schema documentation in the **Documentation** tab.
 
 ### Documenting releases
 

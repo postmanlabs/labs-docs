@@ -1,6 +1,7 @@
 ---
 title: "Custom SAML in GSuite"
 order: 137
+updated: 2020-05-22
 page_id: "saml_gsuite"
 warning: false
 contextual_links:
@@ -16,7 +17,7 @@ contextual_links:
 ### Setting up a custom SAML application in GSuite
 
 1. From the Google admin console, select "Apps".
-   [![gsuite admin](https://assets.postman.com/postman-docs/gsuite_admin.png)](https://assets.postman.com/postman-docs/gsuite_admin.png)  
+   [![gsuite admin](https://assets.postman.com/postman-docs/gsuite_admin.png)](https://assets.postman.com/postman-docs/gsuite_admin.png)
 
 1. Look for "SAML apps".
    [![gsuite saml apps](https://assets.postman.com/postman-docs/gsuite_saml_apps.png)](https://assets.postman.com/postman-docs/gsuite_saml_apps.png)

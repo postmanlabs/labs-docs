@@ -1,6 +1,7 @@
 ---
 title: "Using WebSocket Requests"
 order: 38
+updated: 2021-10-11
 page_id: "websocket"
 search_keyword: "WebSocket, websockets, WebSocket requests, Socket.IO"
 contextual_links:
@@ -147,7 +148,7 @@ In an expanded message:
 
 In Socket.IO, you have the ability to listen to specific events. The **Messages** pane will only display the received events for which you've added listeners. Events will be color-coded by event to make them easier to find.
 
-To the left of the **Messages** pane in a Socket.IO request is a **Listeners** panel of listener events. To listen to a new event, enter the name of an event and select **+** to add it. Select the toggle next to an event to disable and re-enable listening to that event. If you hover over the toggle, you can delete the event listener.
+To the left of the **Messages** pane in a Socket.IO request is a **Listeners** panel of listener events. To listen to a new event, enter the name of an event and select **+** to add it. Select the toggle next to an event to turn listening on or off for that event. If you hover over the toggle, you can delete the event listener.
 
 [![Socket.IO message body](https://assets.postman.com/postman-docs/socketio-message-body.jpg)](https://assets.postman.com/postman-docs/socketio-message-body.jpg)
 
@@ -227,7 +228,7 @@ Documenting a collection is similar, but the description is on the **Overview** 
 
 ## Other Socket.IO Notes
 
-Socket.IO normally uses WebSockets as its transport layer, but sometimes uses HTTP "long-polling" as a fallback when WebSockets can't be used. Postman does not support long-polling mode in Socket.IO.
+Socket.IO typically uses WebSockets as its transport layer, but sometimes uses HTTP "long-polling" as a fallback when WebSockets can't be used. Postman does not support long-polling mode in Socket.IO.
 
 ## Troubleshooting WebSocket Requests
 

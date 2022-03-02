@@ -54,6 +54,7 @@ Select **Collections** in the left sidebar of Postman to see the list of collect
     * [Deleting a collection](#deleting-a-collection)
     * [Recovering a deleted collection](#recovering-a-deleted-collection)
     * [Sharing a collection](#sharing-a-collection)
+    * [Watching a collection](#watching-a-collection)
     * [Forking a collection](#forking-a-collection)
     * [Adding comments to a collection](#adding-comments-to-a-collection)
     * [Reverting collection changes](#reverting-collection-changes)
@@ -181,7 +182,7 @@ To recover a deleted collection:
 
 Recovery options depend on your Postman plan:
 
-* Free account: Recover collections up to one day old.
+* Free account: Recover collections for up to one day.
 * Postman Basic: Recover collections for up to 30 days.
 * Postman Professional and Enterprise: Recover collections for up to 90 days.
 
@@ -194,6 +195,26 @@ To share your collections with other users, you can:
 * Publish a [Run in Postman](/docs/publishing-your-api/run-in-postman/creating-run-button/) button.
 * Invite others to collaborate by selecting the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to the collection name, then selecting **Share**. Learn more about [sharing elements in Postman](/docs/collaborating-in-postman/sharing/#sharing-postman-entities).
 * Move the collection to a shared workspace by selecting the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to the collection name, then selecting **Move**. Learn more about [moving Postman elements](/docs/collaborating-in-postman/sharing/#moving-postman-entities-to-collaborative-workspaces).
+
+### Watching a collection
+
+When you watch a collection, Postman notifies you when a workspace team member makes changes to the collection, including adding a new request, modifying the existing requests, adding or updating variables, editing pre-request scripts or tests, and adding or deleting a folder. You can watch a collection that you own, as well as collections in any public workspace.
+
+To watch a collection:
+
+1. Select the watch icon <img alt="External link icon" src="https://assets.postman.com/postman-docs/eye.jpg" width="24px" style="vertical-align:middle;margin-bottom:5px"> to start watching the collection.
+
+![Collection watching](https://assets.postman.com/postman-docs/collection-watching-overview-v9.12.jpg)
+
+To view notifications about what has changed in a collection you watch:
+
+1. Select the bell icon <img alt="Changelog icon" src="https://assets.postman.com/postman-docs/icon-notification-bell-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> in the top right corner of Postman to view the notification. Select **View changelog** to view the collection's changelog.
+
+    <img alt="Notification Collection Watching" src="https://assets.postman.com/postman-docs/collection-watch-notification-v9.jpg" width="500px"/>
+
+1. You will also receive an email with the information regarding who made the change, what the change was, and when it was made. Select **View changelog** in the email to access the full changelog in Postman.
+
+> If you create a collection and modify it from the same Postman account, you will not receive notifications for any changes you make to that collection.
 
 ### Forking a collection
 
