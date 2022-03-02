@@ -3,7 +3,7 @@ title: "Configuring domain capture"
 order: 143
 page_id: "configuring_domain_capture"
 warning: false
-updated: 2022-01-26
+updated: 2022-03-02
 contextual_links:
   - type: section
     name: "Additional Resources"
@@ -40,7 +40,7 @@ You must be a [Postman team admin](/docs/collaborating-in-postman/roles-and-perm
 * [SSO](/docs/administration/sso/admin-sso/) must be configured and enabled.
     * Alternative authentication methods (Postman or Google login) must be deactivated.
 
-It is recommended that you enable [SSO provisioning](/docs/administration/managing-your-team/configuring-scim/) to ease the process of onboarding new users and [auto-flex](/docs/administration/billing/#utilizing-auto-flex) to ensure that your team can automatically accommodate all users that may be added to your Postman team when domain capture is enabled.
+It's recommended that you enable [SSO provisioning](/docs/administration/managing-your-team/configuring-scim/) to ease the process of onboarding new users and [auto-flex](/docs/administration/billing/#utilizing-auto-flex) to ensure that your team can automatically accommodate all users that may be added to your Postman team when domain capture is enabled.
 
 ## Enabling domain capture
 
@@ -70,7 +70,7 @@ Once your domain has been verified, you can enable it by selecting the switch un
 
 Select **Confirm** to enable domain capture.
 
-You can enable domain capture for additional domains and subdomains at any time in your [domain dashboard](https://go.postman.co/settings/team/domain-capture). You must add, verify, and enable domain capture for each subdomain separately. User accounts associated with subdomains will not be captured implicitly if domain capture is only enabled for the domain.
+You can enable domain capture for additional domains and subdomains at any time in your [domain dashboard](https://go.postman.co/settings/team/domain-capture). You must add, verify, and enable domain capture for each subdomain separately. User accounts associated with subdomains won't be captured implicitly if domain capture is only enabled for the domain.
 
 ## Admin experience
 
@@ -80,9 +80,9 @@ Team admins can manage the domains and subdomains that have been added to a team
 
 In the domain dashboard, you can view your domains, their verification status, the number of unclaimed accounts associated with the domain, and if domain capture is currently turned on or off for the particular domain.
 
-**Unclaimed Accounts** is the number of accounts associated with a verified domain that are not a part of your Postman team. When you opt to enable **Domain authentication** for a domain, you'll be provided with a list of the unclaimed Postman accounts that will be automatically added to your team. Once enabled, the number of unclaimed accounts will reduce as these users log in and join your team.
+**Unclaimed Accounts** is the number of accounts associated with a verified domain that aren't a part of your Postman team. When you opt to enable **Domain authentication** for a domain, you'll be provided with a list of the unclaimed Postman accounts that will be automatically added to your team. Once enabled, the number of unclaimed accounts will reduce as these users log in and join your team.
 
-> You will not be able to selectively pick users you'd like to add to your team. When domain capture is enabled, any user associated with the domain, who can authenticate via the SSO auth method you've enabled, can join your Postman team.
+> You won't be able to selectively pick users you'd like to add to your team. When domain capture is enabled, any user associated with the domain, who can authenticate via the SSO auth method you've enabled, can join your Postman team.
 
 With domain capture enabled, any new users that sign up for Postman with your domain are automatically added to your team and can be managed in your [team dashboard](https://go.postman.co/settings/team/members).
 
@@ -103,17 +103,17 @@ Existing users who were previously on another Postman team will have their perso
 The experience for captured users depends on their prior team status:
 
 * If a captured user is already on your organization's team, nothing changes for them.
-* If a captured user is not a part of any team:
+* If a captured user isn't a part of any team:
     * All existing user sessions are revoked.
     * The next time the user logs in, they will be prompted to join your organization's team via SSO.
     * When the user authenticates into your organization's team via SSO, their existing data will be available in their personal workspace.
 * If a captured user is a part of an existing free or paid team:
-    * They are removed from their existing team and the data that solely belongs to them and has not been shared will be moved with them.
+    * They're removed from their existing team and the data that solely belongs to them and hasn't been shared will be moved with them.
     * All existing user sessions are revoked.
     * The next time the user logs in, they will be prompted to join your organization's team via SSO.
     * When the user authenticates into your organization's team via SSO, their existing data will be available in their personal workspace.
 * If a captured user is the last admin of an existing free team:
-    * They are removed from the team and the remaining members are assigned the admin role. The data that solely belongs to them and has not been shared will be moved with them.
+    * They're removed from the team and the remaining members are assigned the admin role. The data that solely belongs to them and hasn't been shared will be moved with them.
     * All existing user sessions are revoked.
     * The next time the user logs in, they will be prompted to join your organization's team via SSO.
     * When the user authenticates into your organization's team via SSO, their existing data will be available in their personal workspace.
@@ -121,7 +121,7 @@ The experience for captured users depends on their prior team status:
     * Postman support will contact your team admins to discuss how to approach this prior to verifying the domain you've added to your team.
     * All existing user sessions are revoked.
     * The next time the user logs in, they will be prompted to leave their existing team.
-    * They will need to contact [Postman support](https://www.postman.com/support/) to assign the admin role to another team member and remove them from the team. The data that solely belongs to them and has not been shared will be moved with them.
+    * They will need to contact [Postman support](https://www.postman.com/support/) to assign the admin role to another team member and remove them from the team. The data that solely belongs to them and hasn't been shared will be moved with them.
     * Once they have been removed from their previous team, they can authenticate via SSO and join your organization's team. Their existing data will be available in their personal workspace.
 
 ### Can a team admin view the list of user accounts that will be captured before enabling domain capture?
