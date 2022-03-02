@@ -32,9 +32,27 @@ contextual_links:
 
 ## Creating a service account and private key
 
-When setting up the connection to Apigee, you will need to enter a service account email address and a private key. Follow the steps below to create a service account and generate a private key from your Google Cloud project.
+When setting up the connection to Apigee, you will need to enter a service account email address and a private key. Follow the steps below to [create a service account](https://cloud.google.com/iam/docs/creating-managing-service-accounts) and [generate a private key](https://cloud.google.com/iam/docs/creating-managing-service-account-keys) from your Google Cloud project.
 
-1.
+To create a service account:
+
+1. Log on to the [Google Cloud Platform console](https://console.cloud.google.com/home/dashboard) and navigate to your project settings.
+1. Select **Service Accounts** in the left navigation pane.
+1. Select **+ Create Service Account**.
+1. Enter the required details for the service account and select **Create and Continue**.
+1. Grant the following two roles to this service account:
+
+    * `Apigee API Reader`
+    * `Apigee Environment Admin`
+
+1. Select **Done** to finish creating the service account.
+
+To generate a private key:
+
+1. Open the new service account and select the **Keys** tab.
+1. Select **Add key** and add a JSON type key.
+
+Your browser will automatically download a JSON file. The file contains a `client_email` and a `private_key`. You will use this information when connecting Postman to Apigee X.
 
 ## Connecting to Apigee X
 
