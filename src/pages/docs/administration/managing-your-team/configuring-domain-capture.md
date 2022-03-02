@@ -70,11 +70,11 @@ Once your domain has been verified, you can enable it by selecting the switch un
 
 Select **Confirm** to enable domain capture.
 
-> You can enable domain capture for additional domains at any time in your [domain dashboard](https://go.postman.co/settings/team/domain-capture).
+You can enable domain capture for additional domains and subdomains at any time in your [domain dashboard](https://go.postman.co/settings/team/domain-capture). You must add, verify, and enable domain capture for each subdomain separately. User accounts associated with subdomains will not be captured implicitly if domain capture is only enabled for the domain.
 
 ## Admin experience
 
-Team admins can manage the domains and subdomains that have been added to a team by navigating to the [domain dashboard](https://go.postman.co/settings/team/domain-capture). Here, admins can add, activate, deactivate, or delete domains for their team at any time.
+Team admins can manage the domains and subdomains that have been added to a team by navigating to the [domain dashboard](https://go.postman.co/settings/team/domain-capture). Here, admins can add, activate, deactivate, or delete domains and subdomains for their team at any time.
 
 <img alt="Domain dashboard" src="https://assets.postman.com/postman-docs/authentication-domain-dashboard-9.5.jpg"/>
 
@@ -88,7 +88,7 @@ With domain capture enabled, any new users that sign up for Postman with your do
 
 ## User experience
 
-When domain capture is enabled, Postman users with accounts associated with the domain will only be able to access Postman after joining your Postman team. This applies to existing users who are a part of other Postman teams, existing individual Postman users, and new users who sign up for Postman.
+When domain capture is enabled, Postman users with accounts associated with the domain or subdomain will only be able to access Postman after joining your Postman team. This applies to existing users who are a part of other Postman teams, existing individual Postman users, and new users who sign up for Postman.
 
 Existing users will be notified when they next log in to Postman that their account is now managed by your team.
 
