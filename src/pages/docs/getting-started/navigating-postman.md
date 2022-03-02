@@ -150,21 +150,60 @@ The __View more actions__ menu allows you to save, monitor, document, or mock a 
 
 ## Tabs
 
-Open a tab to send a request in Postman. Select __+__ in the middle of the screen or press `Command/Control + T`.
+Tabs allow you to organize your work <!-- TODO: better description -->
 
-![Tabs](https://assets.postman.com/postman-docs/open-unsaved-tab-options-v8.jpg)
+> You can toggle whether or not Postman opens requests in new tabs in the __Settings__. You can also configure whether or not Postman prompts you when closing tabs with unsaved changes.
 
-> If you open a request and do not edit or send it, then open another request, the first tab is replaced by the second tab. When the tab is in _Preview_ mode, it displays in italics.
+### Opening a new tab
 
-You can have multiple tabs open at the same time, and drag tabs around to arrange them. Select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> to manage your tabs and access recent tabs.
+To open a new tab, select __+__ in the middle of the screen.
 
-> Duplicating a tab does not mean creating a second request to the same endpoint. When you duplicate a tab, any edits you make affect the original request.
+> **Keyboard shortcut**: You can also select **Command + T** or **Control + T** on your keyboard to open a new tab.
 
-Postman displays a dot on tabs with unsaved changes.
+<img alt="Open a new tab" src="https://assets.postman.com/postman-docs/open-new-tab.jpg" width="450px"/>
+
+### Preview mode
+
+If you open a request and do not edit or send it, then open another request, the first tab is replaced by the second tab. When the tab is in _Preview_ mode, it displays in italics.
+
+### Managing tabs
+
+You can have multiple tabs open at the same time. To rearrange your open tabs, select and drag them to the desired location.
+
+To manage your open tabs or to access recently closed tabs, select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> to open a menu with action options:
+
+* **Recently Closed Tabs**: Shows you tabs that were closed recently. Select one to reopen it.
+* **Close Selected Tab**: Closes the current tab. If the tab contains unsaved changes, Postman will ask if you want to save before closing.
+* **Force Close Selected Tab**: Closes the current tab without saving any changes.
+* **Close All but Selected Tab**: Closes all tabs except the one you are currently working in.
+* **Close All Tabs**: Closes all tabs. If any tabs contain unsaved changes, Postman will ask if you want to save before closing.
+* **Force Close All Tabs**: Closes all tabs without saving any changes.
+
+<img alt="Manage tabs using the additional actions menu" src="https://assets.postman.com/postman-docs/manage-tabs.jpg" width="300px"/>
+
+You can also manage your open tabs or open a new tab by right-clicking on an existing tab:
+
+* **New Request**: Opens a new tab.
+* **Close Tab**: Closes the current tab. If the tab contains unsaved changes, Postman will ask if you want to save before closing.
+* **Force Close Tab**: Closes the current tab without saving any changes.
+* **Close All Tabs**: Closes all tabs. If any tabs contain unsaved changes, Postman will ask if you want to save before closing.
+* **Force Close All Tabs**: Closes all tabs without saving any changes.
+
+<img alt="Manage tabs" src="https://assets.postman.com/postman-docs/right-click-manage-tab.jpg" width="300px"/>
+
+If you have a lot of tabs open, they might overflow the area of the tab bar. To navigate to tabs that are outside the viewable area, select the arrows to the left or right of the tab bar.
+
+<img alt="Scroll to navigate tabs" src="https://assets.postman.com/postman-docs/tab-navigation-scroll.jpg" width="800px"/>
+
+### Saving or discarding changes
+
+If a tab has unsaved changes, Postman displays a dot next to the tab name. Select <img alt="Save icon" src="https://assets.postman.com/postman-docs/icon-save.jpg" width="16px" style="vertical-align:middle;margin-bottom:5px"> **Save** to save the changes. To discard the changes, select the close icon <img alt="Close icon" src="https://assets.postman.com/postman-docs/icon-close.jpg" width="16px" style="vertical-align:middle;margin-bottom:5px"> to close the tab, then select **Don't save**.
+
+### Viewing conflicts
 
 A tab may indicate a conflict if you or a collaborator changes it in another tab or workspace. Postman prompts you to resolve any conflicts that may occur.
 
-> You can toggle whether or not Postman opens requests in new tabs in the __Settings__. You can also configure whether or not Postman prompts you when closing tabs with unsaved changes.
+<img alt="Tab displaying a conflict" src="https://assets.postman.com/postman-docs/tab-conflict.jpg" width="300px"/>
 
 ## Next steps
 
