@@ -50,7 +50,7 @@ To set up provisioning with the Postman Okta app, take the following steps:
 
 ### Configuring the Okta SCIM integration
 
-The Postman Okta app supports [the provisioning features detailed above](#scim-features).
+The Postman Okta app supports [the provisioning features detailed above](#scim-features). <!-- TODO: fix this link -->
 
 To turn these features on or off, navigate to the Postman app in Okta and select **To App** on the left, then click **Edit**.
 
