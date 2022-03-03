@@ -283,7 +283,7 @@ The communication between Interceptor and Postman is automatically encrypted. Yo
 ### Adding a custom encryption key in the UI
 
 1. In the Postman app, select the **Capture requests and cookies** icon in the Postman footer. Then in the **Capture requests and cookies** window, select the **Via Interceptor** tab.
-1. To the right of the green **Connected** status, click the lock icon.
+1. To the right of the green **Connected** status, select the lock icon <img alt="Lock icon" src="https://assets.postman.com/postman-docs/icon-lock.jpg" width="11px" style="vertical-align:middle;margin-bottom:5px">.
 
     <img src="https://assets.postman.com/postman-docs/interceptor-session-key.jpg" width="350px" alt="Set encryption in app"/>
 
@@ -320,6 +320,6 @@ To use Interceptor with Postman Chrome:
 
 1. [Install Postman](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop?) from the Chrome Web Store.
 2. Install [Interceptor](https://chrome.google.com/webstore/detail/postman-interceptor/aicmkgpgakddgnaphhhpliifpcfhicfo/) from the Chrome Web Store.
-3. Open Postman, click on the Interceptor icon in the toolbar, and toggle to **On**.
+3. Open Postman, select the Interceptor icon in the toolbar, and toggle to **On**.
 
 You can then browse your app or website and monitor requests as they stream in to your Postman history.

@@ -28,7 +28,7 @@ Select "Non-gallery application".
 
 [![non gallery app](https://assets.postman.com/postman-docs/ENT-add-non-gallery-application.png)](https://assets.postman.com/postman-docs/ENT-add-non-gallery-application.png)
 
-Enter the name of the application and click "Add".
+Enter the name of the application and select **Add**.
 
 [![add postman app](https://assets.postman.com/postman-docs/ENT-add-postman-app.png)](https://assets.postman.com/postman-docs/ENT-add-postman-app.png)
 
@@ -52,11 +52,11 @@ Configure the SAML integration. The table below describes the values of the fiel
 | Reply URL | The ACS URL for your Postman custom SSO auth. You can find it in the [Team](https://app.getpostman.com/dashboard/teams) page.  |
 | User Identifier  | Select user.mail from the dropdown  |
 
-Download the "SAML Signing Certificate" (Base64 format) and click the **Save** button.
+Download the "SAML Signing Certificate" (Base64 format) and select the **Save** button.
 
 After the setup is complete, submit your Identity Provider details to Postman. For more information, see [Intro to SSO](/docs/administration/sso/intro-sso/).
 
-Navigate to your [team settings](https://go.postman.co/settings/team/general) in the Postman Web dashboard. To update the identity provider details, navigate to __Authentication__ &gt; &lt;AzureAuthName&gt; and click __Edit__, then __Proceed__. Fill in the following details:
+Navigate to your [team settings](https://go.postman.co/settings/team/general) in the Postman Web dashboard. To update the identity provider details, navigate to __Authentication__ &gt; &lt;AzureAuthName&gt; and select __Edit__, then __Proceed__. Fill in the following details:
 
 ### Postman custom auth configuration fields
 
@@ -66,7 +66,7 @@ Navigate to your [team settings](https://go.postman.co/settings/team/general) in
 | Identity Provider SSO URL | The SAML Single Sign-on Service URL of your Azure AD application |
 | X.509 Certificate | Contents of the SAML Signing Certificate file |
 
-Once your details are complete, click __Generate relay/Regenerate relay__ to create a parameter to send with a SAML response in an IDP-initiated single sign-on. Click __Save Authentication__.
+Once your details are complete, select __Generate relay/Regenerate relay__ to create a parameter to send with a SAML response in an IDP-initiated single sign-on. Select __Save Authentication__.
 
 Navigate back to your Postman configuration in Azure AD.
 

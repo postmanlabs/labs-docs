@@ -16,10 +16,11 @@ contextual_links:
 
 ## Setting up a custom SAML application in Duo
 
-1. Head over to the applications page from the Duo dashboard. Click the **Protect an Application** button.
+1. Head over to the applications page from the Duo dashboard. Select the **Protect an Application** button.
+
      [![duo dashboard](https://assets.postman.com/postman-docs/duo_dashboard.png)](https://assets.postman.com/postman-docs/duo_dashboard.png)
 
-1. Search for "SAML - Service Provider" and click on the **Protect this Application** link.
+1. Search for "SAML - Service Provider" and select the **Protect this Application** link.
      [![duo protect](https://assets.postman.com/postman-docs/duo_protect.png)](https://assets.postman.com/postman-docs/duo_protect.png)
 
 1. Enter `Postman` as the service provider. The service provider details can be found on the Postman [Edit Team Details page](https://go.postman.co/settings/team/general). Other fields can either be left blank or set to the default value.
@@ -32,7 +33,7 @@ contextual_links:
      | Assertion Consumer Service | *collect it from the Postman team details page* |
      | NameID format | EmailAddress |
 
-1. After configuring the service provider details, click the **Save Configuration** button.
+1. After configuring the service provider details, select the **Save Configuration** button.
      [![duo save](https://assets.postman.com/postman-docs/duo_save.png)](https://assets.postman.com/postman-docs/duo_save.png)
 
 1. Download the configuration file.
