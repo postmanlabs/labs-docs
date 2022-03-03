@@ -18,7 +18,7 @@ contextual_links:
 
 Postman supports [SCIM](https://datatracker.ietf.org/doc/html/rfc7642) (System for Cross-domain Identity Management), allowing you to automate user provisioning and de-provisioning for your team. With this feature, you can efficiently deploy Postman at scale across your organization and control access to it via your identity provider.
 
-You can enable SCIM provisioning with the [SCIM API](#configuring-scim-with-the-scim-api), [Okta](/docs/administration/scim-provisioning/configuring-scim-with-okta/), or [Azure AD](/docs/administration/scim-provisioning/configuring-scim-with-azure-ad/). You must be a [Postman team admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) to enable SCIM for your team. With SCIM enabled, users will not have the option to leave your team on their own, and will not be able to change their account email or password. Only team admins will have the right to remove team members.
+You can enable SCIM provisioning with the [SCIM API](#configuring-scim-with-the-scim-api), [Okta](/docs/administration/scim-provisioning/configuring-scim-with-okta/), or [Azure AD](/docs/administration/scim-provisioning/configuring-scim-with-azure-ad/). You must be a [Postman team admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) to enable SCIM for your team. With SCIM enabled, users won't have the option to leave your team on their own, and won't be able to change their account email or password. Only team admins will have the right to remove team members.
 
 ## Contents
 
@@ -44,15 +44,15 @@ Postman supports the following provisioning features:
 
 * Update user information: Updates a user’s first and last name in Postman.
 
-* Activate user: Creates a new user on your Postman team, if one does not already exist, and activates the user to authenticate into your Postman team.
+* Activate user: Creates a new user on your Postman team, if one doesn't already exist, and activates the user to authenticate into your Postman team.
 
 * Deactivate user: Removes a user from your Postman team and deactivates their account, blocking the account from authenticating into Postman.
 
-> The user account and the data corresponding to it will not be deleted. To permanently delete the user account and their data, [contact Postman support](https://www.postman.com/support/).
+> The user account and the data corresponding to it won't be deleted. To permanently delete the user account and their data, [contact Postman support](https://www.postman.com/support/).
 
 * Reactivate user: Reactivates an existing deactivated user by unblocking the account's authentication into Postman and adds the account back to your Postman team.
 
-Currently, Postman does not support the following provisioning features:
+Currently, Postman doesn't support the following provisioning features:
 
 * Push groups
 * Import groups
@@ -62,9 +62,9 @@ Currently, Postman does not support the following provisioning features:
 
 ## Enabling SCIM provisioning
 
-You must have SSO configured prior to enabling SCIM for your Postman team.
+You must have SSO configured before you can enable SCIM for your Postman team.
 
-> To use SCIM, you must have only one SSO method configured. If you have more than one SSO method enabled, you will not have the option to generate a SCIM API key.
+> To use SCIM, you must have only one SSO method configured. If you have more than one SSO method enabled, you won't have the option to generate a SCIM API key.
 
 <!-- -->
 > Learn [how to configure SSO in Postman](/docs/administration/sso/admin-sso/).
@@ -89,9 +89,9 @@ Under **SCIM provisioning**, select **Generate SCIM API Key**.
 
 Name your key and click **Generate**. Copy your new API key for later use and click **Done**.
 
-> You can revisit this page to manage your SCIM API keys. If you regenerate an existing API key, you will have the option to keep the previous key active briefly while you switch over.
+> You can revisit this page to manage your SCIM API keys. If you regenerate an existing API key, you will have the option to keep the first key active briefly while you switch over.
 
-To continue enabling SCIM provisioning, see [Configuring SCIM with the SCIM API](#configuring-scim-with-the-scim-api), [Configuring SCIM with Okta](/docs/administration/scim-provisioning/configuring-scim-with-okta/), or [Configuring SCIM with Azure AD](/docs/administration/scim-provisioning/configuring-scim-with-azure-ad/). For further information or assistance configuring SCIM, [contact Postman support](https://www.postman.com/support/).
+To continue enabling SCIM provisioning, see [Configuring SCIM with the SCIM API](#configuring-scim-with-the-scim-api), [Configuring SCIM with Okta](/docs/administration/scim-provisioning/configuring-scim-with-okta/), or [Configuring SCIM with Azure AD](/docs/administration/scim-provisioning/configuring-scim-with-azure-ad/). For further information or help configuring SCIM, [contact Postman support](https://www.postman.com/support/).
 
 ## Configuring SCIM with the SCIM API
 

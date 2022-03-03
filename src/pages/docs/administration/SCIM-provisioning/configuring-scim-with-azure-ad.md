@@ -16,7 +16,7 @@ contextual_links:
 
 Postman supports SCIM provisioning through Microsoft Azure AD, allowing you to automate user provisioning and de-provisioning for your team.
 
-You must be a [Postman team admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) to enable SCIM for your team. With SCIM enabled, users will not have the option to leave your team on their own, and will not be able to change their account email or password. Only team admins will have the right to remove team members.
+You must be a [Postman team admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) to enable SCIM for your team. With SCIM enabled, users won't have the option to leave your team on their own, and won't be able to change their account email or password. Only team admins will have the right to remove team members.
 
 <!-- Add SCIM support for Azure AD to allow user to configure a custom Azure AD app for user provisioning -->
 
@@ -28,7 +28,7 @@ You must be a [Postman team admin](/docs/collaborating-in-postman/roles-and-perm
 
 ## Enabling SCIM in Azure AD
 
-Postman can be connected to Azure Active Directory using the "non-gallery application" feature in the Azure AD application gallery. Once they are connected, Azure AD queries the Postman SCIM endpoint every 40 minutes for assigned users and groups, and creates or modifies them according to the assignment details you set.
+Postman can be connected to Azure Active Directory using the "non-gallery application" feature in the Azure AD application gallery. Once they're connected, Azure AD queries the Postman SCIM endpoint every 40 minutes for assigned users and groups, and creates or modifies them according to the assignment details you set.
 
 To set up Postman provisioning with Azure AD, do the following:
 
