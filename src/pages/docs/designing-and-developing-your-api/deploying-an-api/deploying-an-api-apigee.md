@@ -36,23 +36,25 @@ When setting up the connection to Apigee, you will need to enter a service accou
 
 To create a service account:
 
-1. Log on to the [Google Cloud Platform console](https://console.cloud.google.com/home/dashboard) and navigate to your project settings.
+1. Log on to the [Google Cloud Platform console](https://console.cloud.google.com/home/dashboard) and go to your project settings.
 1. Select **Service Accounts** in the left navigation pane.
 1. Select **+ Create Service Account**.
 1. Enter the required details for the service account and select **Create and Continue**.
-1. Grant the following two roles to this service account:
+1. Add a new role to the service account with the following properties:
 
-    * `Apigee API Reader`
-    * `Apigee Environment Admin`
+    * List properties
 
-1. Select **Done** to finish creating the service account.
+    > If you aren't able to add a custom role, you can instead add the `Apigee API Reader` role and the `Apigee Environment Admin` role to the service account.
+
+1. Select **Continue**, and then select **Done** to finish creating the service account.
 
 To generate a private key:
 
 1. Open the new service account and select the **Keys** tab.
-1. Select **Add key** and add a JSON type key.
+1. Select **Add key** and select **Create new key**.
+1. Select the **JSON** option and select **Create**
 
-Your browser will automatically download a JSON file. The file contains a `client_email` and a `private_key`. You will use this information when connecting Postman to Apigee X.
+Your browser will automatically download a JSON file that contains values for `client_email` and a `private_key`. You will use these values when connecting Postman to Apigee X.
 
 ## Connecting to Apigee X
 
@@ -60,13 +62,18 @@ To connect to Apigee X in Postman, select **APIs** in the left sidebar, and then
 
 <img alt="Connecting to an API Gateway" src="https://assets.postman.com/postman-docs/deployments-api-gateway-v9-11.jpg" width="916px"/>
 
-Next, enter information about the connection to Apigee X:
+Authenticate with Apigee X using one of the following methods:
+
+* Upload the JSON file containing your service account email and private key. Select **Select File**, locate the JSON file you downloaded, and select **Open**.
+* Manually enter the **Service Account Email** and **Private Key**. You can find the values in the JSON file you downloaded.
+
+Select **Connect**, and then set up the connection to Apigee X:
 
 1. Select the **Organization** that contains the proxy you want to connect to Postman.
 1. Enter a **Nickname** for this integration.
 1. Select the **API Proxy** that you want to connect to your API version in Postman.
 1. Select one or more environments where you deploy your API in Apigee X.
-1. Select **Connect**.
+1. Select **Complete Setup**.
 
 <img alt="Connecting to Apigee X" src="https://assets.postman.com/postman-docs/apigee-connect-gateway-v9-11.jpg" width="470px"/>
 
