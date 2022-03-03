@@ -6,7 +6,6 @@ ignorecase: false
 # Ensures that the existence of 'first' implies the existence of 'second'.
 first: '\b([A-Z]{3,5})\b'
 second: '(?:\b[A-Z][a-z]+ )+\(([A-Z]{3,5})\)'
-#TODO: this isn't catching when an acronym is followed with a dash or 's
 # ... with the exception of these:
 exceptions:
   - API
@@ -63,28 +62,37 @@ exceptions:
   - XSS
   - YAML
   - ZIP
-# Postman additions
+  - ACH
+  - ACS
   - ADFS
   - AWS
   - APM
   - CNAME
   - CRT
   - DNS
+  - EULA
   - HEAD
+  - IAM
+  - IANA
+  - IDP
   - ISO
   - LDAP
   - MIME
   - MSI
+  - PCI
   - PKG
   - RAML
   - REST
   - SAML
   - SCIM
+  - SHA
   - SIEM
   - SMTP
   - SOAP
   - SSO
   - TLS
+  - TXT
   - UID
+  - UTC
   - VAT
   - WSDL
