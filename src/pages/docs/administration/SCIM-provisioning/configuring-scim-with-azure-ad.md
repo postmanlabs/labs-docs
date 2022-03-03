@@ -18,8 +18,6 @@ Postman supports SCIM provisioning through Microsoft Azure AD, allowing you to a
 
 You must be a [Postman team admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) to enable SCIM for your team. With SCIM enabled, users won't have the option to leave your team on their own, and won't be able to change their account email or password. Only team admins will have the right to remove team members.
 
-<!-- Add SCIM support for Azure AD to allow user to configure a custom Azure AD app for user provisioning -->
-
 ## Contents
 
 * [Enabling SCIM in Azure AD](#enabling-scim-in-azure-ad)
