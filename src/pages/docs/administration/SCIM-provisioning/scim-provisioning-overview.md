@@ -73,9 +73,9 @@ You must have SSO configured prior to enabling SCIM for your Postman team.
 
 To enable SCIM, navigate to [Postman](https://go.postman.co/home) and select **Team** > **Team Settings** in the upper-right. Select **Authentication** in the left sidebar.
 
-<img alt="Enable SCIM in dashboard" src="https://assets.postman.com/postman-docs/auth-enable-scim-1.jpg"/>
+<img alt="Enable SCIM in dashboard" src="https://assets.postman.com/postman-docs/auth-enable-scim-v9.jpg"/>
 
-Next to **SCIM provisioning**, select the **OFF** toggle.
+Next to **SCIM provisioning**, select the toggle to turn on SCIM provisioning.
 
 <img alt="Enable SCIM in dashboard" src="https://assets.postman.com/postman-docs/turn-on-scim-provisioning-1.jpg" width="400px"/>
 
@@ -85,7 +85,7 @@ Click **Turn On** to enable SCIM provisioning.
 
 Under **SCIM provisioning**, select **Generate SCIM API Key**.
 
-<img alt="Generate SCIM API key" src="https://assets.postman.com/postman-docs/auth-generate-scim-api-key-1.jpg"/>
+<img alt="Generate SCIM API key" src="https://assets.postman.com/postman-docs/generate-scim-api-key-v9.jpg"/>
 
 Name your key and click **Generate**. Copy your new API key for later use and click **Done**.
 

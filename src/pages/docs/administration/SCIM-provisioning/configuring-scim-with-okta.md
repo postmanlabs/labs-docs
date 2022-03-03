@@ -22,7 +22,7 @@ You must be a [Postman team admin](/docs/collaborating-in-postman/roles-and-perm
 
 * [Enabling SCIM in Okta](#enabling-scim-in-okta)
 
-    * [Configuring the Okta SCIM integration](#configuring-the-okta-scim-integration)
+* [Configuring the Okta SCIM integration](#configuring-the-okta-scim-integration)
 
 ## Enabling SCIM in Okta
 
@@ -38,19 +38,19 @@ To set up provisioning with the Postman Okta app, take the following steps:
 
     <img alt="Configure API Integration in Okta Postman app" src="https://assets.postman.com/postman-docs/postman-okta-app-configure-api-integration.jpg"/>
 
-3. Check **Enable API integration** and enter your [SCIM API key](#generating-scim-api-key) as the **API Token**.
+3. Check **Enable API integration** and enter your [SCIM API key](/docs/administration/scim-provisioning/scim-provisioning-overview/#generating-scim-api-key) as the **API Token**.
 
     <img alt="Configure provisioning in Okta's Postman app" src="https://assets.postman.com/postman-docs/postman-okta-app-enable-provisioning.jpg"/>
 
 4. Click **Test API Credentials**. If successful, a verification message will appear.
 
-    > If verification is unsuccessful, confirm that you have [SCIM enabled for your team in Postman](#enabling-scim-in-postman), are using the correct [SCIM API key](#generating-scim-api-key), and that your API key's status is **ACTIVE** in your [team authentication settings](https://go.postman.co/settings/team/auth). If you continue to face issues, [contact Postman support](https://www.postman.com/support/) for assistance.
+    > If verification is unsuccessful, confirm that you have [SCIM enabled for your team in Postman](/docs/administration/scim-provisioning/scim-provisioning-overview/#enabling-scim-in-postman), are using the correct [SCIM API key](/docs/administration/scim-provisioning/scim-provisioning-overview/#generating-scim-api-key), and that your API key's status is **ACTIVE** in your [team authentication settings](https://go.postman.co/settings/team/auth). If you continue to face issues, [contact Postman support](https://www.postman.com/support/) for assistance.
 
 5. Click **Save**.
 
-### Configuring the Okta SCIM integration
+## Configuring the Okta SCIM integration
 
-The Postman Okta app supports [the provisioning features detailed above](#scim-features). <!-- TODO: fix this link -->
+The Postman Okta app supports the provisioning features listed in the [SCIM provisioning overview](/docs/administration/scim-provisioning/scim-provisioning-overview/#scim-features).
 
 To turn these features on or off, navigate to the Postman app in Okta and select **To App** on the left, then click **Edit**.
 
