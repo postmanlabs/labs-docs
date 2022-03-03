@@ -1,7 +1,7 @@
 ---
 title: "SCIM provisioning overview"
 order: 142
-updated: 2021-07-20
+updated: 2022-03-02
 page_id: "scim_provisioning_overview"
 warning: false
 contextual_links:
@@ -18,7 +18,7 @@ contextual_links:
 
 Postman supports [SCIM](https://datatracker.ietf.org/doc/html/rfc7642) (System for Cross-domain Identity Management), allowing you to automate user provisioning and de-provisioning for your team. With this feature, you can efficiently deploy Postman at scale across your organization and control access to it via your identity provider.
 
-You can enable SCIM with the [SCIM API](#enabling-scim-with-the-scim-api) or utilize the [Postman Okta app](#enabling-scim-in-okta) for provisioning. You must be a [Postman team admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) to enable SCIM for your team. With SCIM enabled, users will not have the option to leave your team on their own, and will not be able to change their account email or password. Only team admins will have the right to remove team members.
+You can enable SCIM provisioning with the [SCIM API](#configuring-scim-with-the-scim-api), [Okta](/docs/administration/scim-provisioning/configuring-scim-with-okta/), or [Azure AD](/docs/administration/scim-provisioning/configuring-scim-with-azure-ad/). You must be a [Postman team admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) to enable SCIM for your team. With SCIM enabled, users will not have the option to leave your team on their own, and will not be able to change their account email or password. Only team admins will have the right to remove team members.
 
 ## Contents
 
@@ -30,11 +30,7 @@ You can enable SCIM with the [SCIM API](#enabling-scim-with-the-scim-api) or uti
 
     * [Generating SCIM API key](#generating-scim-api-key)
 
-* [Enabling SCIM in Okta](#enabling-scim-in-okta)
-
-    * [Configuring the Okta SCIM integration](#configuring-the-okta-scim-integration)
-
-* [Enabling SCIM with the SCIM API](#enabling-scim-with-the-scim-api)
+* [Configuring SCIM with the SCIM API](#configuring-scim-with-the-scim-api)
 
 * [Next steps](#next-steps)
 
@@ -95,52 +91,12 @@ Name your key and click **Generate**. Copy your new API key for later use and cl
 
 > You can revisit this page to manage your SCIM API keys. If you regenerate an existing API key, you will have the option to keep the previous key active briefly while you switch over.
 
-<!-- -->
+To continue enabling SCIM provisioning, see [Configuring SCIM with the SCIM API](#configuring-scim-with-the-scim-api), [Configuring SCIM with Okta](/docs/administration/scim-provisioning/configuring-scim-with-okta/), or [Configuring SCIM with Azure AD](/docs/administration/scim-provisioning/configuring-scim-with-azure-ad/). For further information or assistance configuring SCIM, [contact Postman support](https://www.postman.com/support/).
 
-> For further information or assistance configuring SCIM, [contact Postman support](https://www.postman.com/support/).
-
-## Enabling SCIM in Okta
-
-Postman is available as an app in the Okta Integration Network, allowing you to enable user provisioning directly through Okta.
-
-Prior to enabling SCIM in Okta, you must [add the Postman app in Okta](https://www.okta.com/integrations/postman/) and [configure Okta's SSO for your Postman team](/docs/administration/sso/saml-okta/).
-
-To set up provisioning with the Postman Okta app, take the following steps:
-
-1. [Enable SCIM in Postman](#enabling-scim-in-postman) and [generate a SCIM API key](#generating-scim-api-key).
-
-2. In Okta, navigate to the Postman app and select **Provisioning**. Click **Configure API Integration**.
-
-    <img alt="Configure API Integration in Okta Postman app" src="https://assets.postman.com/postman-docs/postman-okta-app-configure-api-integration.jpg"/>
-
-3. Check **Enable API integration** and enter your [SCIM API key](#generating-scim-api-key) as the **API Token**.
-
-    <img alt="Configure provisioning in Okta's Postman app" src="https://assets.postman.com/postman-docs/postman-okta-app-enable-provisioning.jpg"/>
-
-4. Click **Test API Credentials**. If successful, a verification message will appear.
-
-    > If verification is unsuccessful, confirm that you have [SCIM enabled for your team in Postman](#enabling-scim-in-postman), are using the correct [SCIM API key](#generating-scim-api-key), and that your API key's status is **ACTIVE** in your [team authentication settings](https://go.postman.co/settings/team/auth). If you continue to face issues, [contact Postman support](https://www.postman.com/support/) for assistance.
-
-5. Click **Save**.
-
-### Configuring the Okta SCIM integration
-
-The Postman Okta app supports [the provisioning features detailed above](#scim-features).
-
-To turn these features on or off, navigate to the Postman app in Okta and select **To App** on the left, then click **Edit**.
-
-<img alt="Configure features in Okta's Postman app" src="https://assets.postman.com/postman-docs/postman-okta-app-enable-features.jpg"/>
-
-Select features to enable them, or de-select to turn them off. Click **Save** to save your changes.
-
-<img alt="Enabled features in Okta's Postman app" src="https://assets.postman.com/postman-docs/postman-okta-app-enabled-features.jpg"/>
-
-Any provisioning features you've enabled will be immediately available for use in your Postman Okta app. If a user is already provisioned from the Postman app, you may encounter an error in Okta. If this occurs, remove the pending invite from the Postman manage team settings, and Okta will then provision them.
-
-## Enabling SCIM with the SCIM API
+## Configuring SCIM with the SCIM API
 
 Visit Postman's [SCIM API docs](https://www.postman.com/postman/workspace/scim/documentation/6248949-de4a96e2-9ebf-426f-bc55-4c5f2de51ab2) for information on setting up SCIM for your Postman team via the SCIM 2.0 API.
 
 ## Next steps
 
-Learn more about [defining roles](/docs/collaborating-in-postman/roles-and-permissions/) in your team.
+Learn more about [defining roles](/docs/collaborating-in-postman/roles-and-permissions/) in your team and how to [create user groups](/docs/administration/managing-your-team/user-groups/).
