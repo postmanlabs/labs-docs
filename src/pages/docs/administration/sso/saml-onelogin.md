@@ -46,4 +46,4 @@ contextual_links:
 
     [![OneLogin service provider details](https://assets.postman.com/postman-docs/server-provider-details.jpg)](https://assets.postman.com/postman-docs/server-provider-details.jpg)
 
-1. Generate or regenerate the relay state, select **Automatically add new users using this authentication method to my team**, and click **Save Authentication**.
+1. Generate or regenerate the relay state, select **Automatically add new users using this authentication method to my team**, and select **Save Authentication**.

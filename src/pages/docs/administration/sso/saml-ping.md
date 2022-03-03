@@ -36,7 +36,7 @@ contextual_links:
     Leave the remaining fields blank or with the default value, and continue to the next step.
     [![ping service provider](https://assets.postman.com/postman-docs/ping_service_provider)](https://assets.postman.com/postman-docs/ping_service_provider)
 
-1. Add **email** as an application attribute and map it to **Email**. Click **Save & Publish**.
+1. Add **email** as an application attribute and map it to **Email**. Select **Save & Publish**.
    [![ping email](https://assets.postman.com/postman-docs/ping_email)](https://assets.postman.com/postman-docs/ping_email)
 
 1. After configuring all the details, enable the new SAML application with the **Enable** toggle.

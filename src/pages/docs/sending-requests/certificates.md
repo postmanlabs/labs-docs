@@ -23,13 +23,13 @@ warning: false
 
 Postman provides a way to view and set SSL certificates on a per domain basis.
 
-To manage your client certificates, click the gear icon on the right side of the header toolbar, choose **Settings**, and select the **Certificates** tab.
+To manage your client certificates, select the gear icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-gear-outline-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> on the right side of the header toolbar, choose **Settings**, and select the **Certificates** tab.
 
 [![certificates tab](https://assets.postman.com/postman-docs/WS-certificates.png)](https://assets.postman.com/postman-docs/WS-certificates.png)
 
 ## Adding a Client Certificate
 
-To add a new client certificate, click the **Add Certificate** link.
+To add a new client certificate, select **Add Certificate**.
 
 In the **Host** field, enter the domain (without protocol) of the request URL for which you want to use the certificate, for example, `https://postman-echo.com` ([view Collection for Postman Echo](https://www.postman.com/postman/workspace/published-postman-templates/documentation/631643-f695cab7-6878-eb55-7943-ad88e1ccfd65)).
 
@@ -97,6 +97,6 @@ You can find more information about failed certification in the [console](/docs/
 
 <img alt="Certificate fail in console" src="https://assets.postman.com/postman-docs/console-certificate-fail.jpg" width="600px"/>
 
-You can toggle SSL verification on and off by default in the Postman __Settings__ (click the gear icon at the top right) or for a specific request in the __Settings__ tab.
+You can toggle SSL verification on and off by default in the Postman __Settings__ (select the gear icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-gear-outline-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> at the top right) or for a specific request in the __Settings__ tab.
 
 [![Request SSL](https://assets.postman.com/postman-docs/request-ssl-toggle.jpg)](https://assets.postman.com/postman-docs/request-ssl-toggle.jpg)

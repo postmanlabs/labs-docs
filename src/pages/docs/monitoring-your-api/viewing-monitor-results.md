@@ -88,11 +88,11 @@ You can use filters to identify recurring patterns in your monitoring runs by se
 
 #### Filtering by request
 
-You can filter by request to compare an individual request's response time in different runs. Click to open the drop-down menu **All Requests** under **Filter By**, then select your request.
+You can filter by request to compare an individual request's response time in different runs. Open the drop-down menu **All Requests** under **Filter By**, then select your request.
 
 #### Filtering by type
 
-You can filter by run type to compare how the response time changes between manual runs, scheduled runs, and webhook runs. Click to open the drop-down menu **Type: All**, then select the type of run you'd like to analyze further.
+You can filter by run type to compare how the response time changes between manual runs, scheduled runs, and webhook runs. Open the drop-down menu **Type: All**, then select the type of run you'd like to analyze further.
 
 > Manual runs are initiated in Postman or are triggered by the [Postman API](https://documenter.postman.com/view/631643/JsLs/?version=latest#5b277ca0-7114-e04e-f1f5-246fbbd6d973). Scheduled runs are initiated by the schedule you set when creating or editing your monitor. Webhook runs are initiated by integrations you've created.
 
@@ -105,11 +105,11 @@ Each run is labeled based on its result:
 * **Error**: Your monitor was unable to complete its run due to an error. An error can occur if there is a syntax error in the code you've written, a network error, or for various other reasons. If you encounter one, your [Console Log](#console-log) will help you identify what caused it.
 * **Abort**: Your monitor was unable to complete its run within the allotted five minutes, at which point it timed out.
 
-You can filter by run result to compare how your runs with the same result have differed. Click to open the drop-down menu **Run result: All**, then select one or more types of run results to view.
+You can filter by run result to compare how your runs with the same result have differed. Open the drop-down menu **Run result: All**, then select one or more types of run results to view.
 
 #### Filtering by region
 
-You can filter by [region](/docs/monitoring-your-api/setting-up-monitor/#adding-regions) to compare how runs within different regions have varied. Click to open the drop-down menu **All Regions**, then select a region to view.
+You can filter by [region](/docs/monitoring-your-api/setting-up-monitor/#adding-regions) to compare how runs within different regions have varied. Open the drop-down menu **All Regions**, then select a region to view.
 
 > This feature is only available if you selected multiple regions when you created or last edited your monitor. To learn more about regions, see [Adding regions](/docs/monitoring-your-api/setting-up-monitor/#adding-regions).
 
@@ -122,15 +122,15 @@ You can filter by mathematical formula to view the average, sum, minimum, and ma
 * **Minimum**: The minimum total response time for a run across all regions.
 * **Maximum**: The maximum total response time for a run across all regions.
 
-Click to open the drop-down menu **Average**, then select an option. To view the newly calculated response time value, you can hover over each run individually.
+Select **Average** to open the menu, then select an option. To view the newly calculated response time value, you can hover over each run individually.
 
 ### Time traverse
 
-You can navigate through past run results to review what happened at a particular point in time. To do so, click **Go to** in the upper-left corner of the monitor summary or request split graph. Select the time and date, then click **Apply** to view a specific run.
+You can navigate through past run results to review what happened at a particular point in time. To do so, select **Go to** in the upper-left corner of the monitor summary or request split graph. Select the time and date, then select **Apply** to view a specific run.
 
 ![Time traverse](https://assets.postman.com/postman-docs/monitors-time-traverse20.jpg)
 
-> To revert the view to your most recent runs, select the time and date you defined in the upper-left corner of the graph, then click **Reset**.
+> To revert the view to your most recent runs, select the time and date you defined in the upper-left corner of the graph, then select **Reset**.
 
 ### Test results
 

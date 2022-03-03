@@ -59,7 +59,7 @@ Enter your Bitbucket authentication and select **Authenticate and Proceed**.
 
 ![Bitbucket creation](https://assets.postman.com/postman-docs/bitbucket-create-bb.jpg)
 
-Select your collection to back up, the repository you'd like to back it up to, and designate the directory, filename, and branch. Click **Add Integration**.
+Select your collection to back up, the repository you'd like to back it up to, and designate the directory, filename, and branch. Select **Add Integration**.
 
 ![Bitbucket configuration](https://assets.postman.com/postman-docs/bitbucket-configure-bb.jpg)
 

@@ -77,7 +77,7 @@ Select __Watch__ to start watching the API.
 
 <img src="https://assets.postman.com/postman-docs/watch-button-v9.jpg" alt="Watch Option" width="350px"/>
 
-Click the bell icon on the top right corner to view the notification. The popup will indicate further information about the change that was made to the API.
+Select the bell icon <img alt="Notifications icon" src="https://assets.postman.com/postman-docs/icon-notification-bell-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> on the top right corner to view the notification. The popup will indicate further information about the change that was made to the API.
 
 ![Notification Watch API](https://assets.postman.com/postman-docs/v8-watch-notification2.jpg)
 
@@ -103,7 +103,7 @@ If you want to call the attention of a collaborator in comment, you can tag them
 
 ### Editing, deleting, or linking to a comment
 
-To edit, delete, or link to one of your comments, navigate to the comment section and hover over the comment you wish to manage. Click the pen icon to edit the comment, the bin icon to delete, or the anchor icon to get a direct link to the comment.
+To edit, delete, or link to one of your comments, navigate to the comment section and hover over the comment you wish to manage. Select the pen icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> to edit the comment, the trash icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg" width="12px" style="vertical-align:middle;margin-bottom:5px"> to delete, or the anchor icon <img alt="Link icon" src="https://assets.postman.com/postman-docs/icon-workspace-link-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> to get a direct link to the comment.
 
 [![api comment manage](https://assets.postman.com/postman-docs/v8-managing-comment-actions2.jpg)](https://assets.postman.com/postman-docs/v8-managing-comment-actions2.jpg)
 
@@ -113,9 +113,9 @@ To edit, delete, or link to one of your comments, navigate to the comment sectio
 
 You can view a changelog of your API schemas and all linked collections in the context bar. You can also create releases of an API from the changelog.
 
-To see the changelog, open an API version, then click the changelog icon. (<img alt="Changelog icon" src="https://assets.postman.com/postman-docs/icon-changelog.jpg" width="25px" style="vertical-align:middle;margin-bottom:0px">)
+To see the changelog, open an API version, then select the changelog icon <img alt="Changelog icon" src="https://assets.postman.com/postman-docs/icon-changelog.jpg" width="25px" style="vertical-align:middle;margin-bottom:0px">.
 
-You will see a list of changes made to the schema and associated elements. Each release is shown, and the top of the list will show any unreleased changes. Click to expand each entry for more details.
+You will see a list of changes made to the schema and associated elements. Each release is shown, and the top of the list will show any unreleased changes. Select each entry to see more details.
 
 Select **+ Release changes** at the top of the list to create a release from unreleased changes. For more information, see [Working with API releases](/docs/designing-and-developing-your-api/versioning-an-api/#working-with-api-releases).
 

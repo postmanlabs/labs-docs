@@ -30,7 +30,7 @@ You can move from Postman v7 or v8 to Postman v9 by updating the app via **Setti
 
 <img alt="Settings Update" src ="https://assets.postman.com/postman-docs/settings-update-v8-to-v9.jpg"/>
 
-You will need to restart Postman to install the update. Click __Restart and Install Update__.
+You will need to restart Postman to install the update. Select __Restart and Install Update__.
 
 <img alt="Restart and install modal" src ="https://assets.postman.com/postman-docs/restart-and-install-update-v8.jpg" width="450px"/>
 
@@ -44,15 +44,15 @@ You can start using Postman v9 and access the new UI and features once the updat
 
 Non-team users can move from Postman v7 to v8 by updating the app via **Settings** > **Update** > **Download update**.
 
-It is important to verify your work is synced to make sure no data is lost during the update. Click __Verify Sync__.
+It is important to verify your work is synced to make sure no data is lost during the update. Select __Verify Sync__.
 
 <img alt="Verify Sync modal" src ="https://assets.postman.com/postman-docs/verify-sync-before-updating-v8.jpg" width="450px"/>
 
-Once your work is synced, you can update to Postman v8. Click __Update to v8__.
+Once your work is synced, you can update to Postman v8. Select __Update to v8__.
 
 <img alt="Work in Sync modal" src ="https://assets.postman.com/postman-docs/sync-update-confirmed-v8.jpg" width="450px"/>
 
-You will need to restart Postman to install the update. Click __Restart and Install Update__.
+You will need to restart Postman to install the update. Select __Restart and Install Update__.
 
 <img alt="Restart and install modal" src ="https://assets.postman.com/postman-docs/restart-and-install-update-v8.jpg" width="450px"/>
 
