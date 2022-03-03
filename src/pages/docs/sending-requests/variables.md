@@ -95,7 +95,7 @@ The same principle applies to any part of your request where data is repeated. W
 
 Variables in Postman are key-value pairs. Each variable name represents its key, so referencing the variable name allows you to access its value.
 
-You can use variables to pass data between requests and tests, for example if you are [chaining requests](/docs/running-collections/intro-to-collection-runs/) using a collection.
+You can use variables to pass data between requests and tests, for example if you are [chaining requests](https://www.postman.com/postman/workspace/postman-team-collections/collection/1559645-81122f8b-5e07-4760-9504-f4387f45d2bc) in a collection.
 
 You can use environments to group sets of variables together and share them with collaborators, for example if you use one set of config details for your production server and another for testing. See [Managing environments](/docs/sending-requests/managing-environments/) for more on how you can incorporate environments into your team workflows.
 
@@ -108,7 +108,7 @@ In order from broadest to narrowest, these scopes are: _global_, _collection_, _
 Scope | Description | Notes
 --- | --- | ---
 **Global variables** | Enable you to access data between collections, requests, test scripts, and environments. Global variables are available throughout a [workspace](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/). | Since global variables can create confusion, you should use them sparingly. For example, use a global variable to test something or when your project is at an early prototyping stage.
-**Collection variables** | Available throughout the requests in a collection and are independent of environments. Collection variables don't change based on the selected environment. | Collection variables are suitable if you are using a single environment, for example for auth or URL details.
+**Collection variables** | Available throughout the requests in a collection and are independent of environments. Collection variables don't change based on the selected environment. | Collection variables are suitable if you're using a single environment, for example for auth or URL details.
 **Environment variables** | Enable you to tailor your processing to different environments, for example local development versus testing or production. One environment can be active at a time. |  If you have a single environment, using collection variables can be more efficient, but environments enable you to specify [role-based access levels](/docs/sending-requests/managing-environments/#working-with-environments-as-a-team).
 **Data variables** | Come from external CSV and JSON files to define data sets you can use when running collections with [Newman](/docs/running-collections/using-newman-cli/) or the [Collection Runner](/docs/running-collections/intro-to-collection-runs/). | Data variables have current values, which don't persist beyond request or collection runs.
 **Local variables** | Temporary. These are accessed in your request scripts. Local variable values are scoped to a single request or collection run, and are no longer available when the run is complete. |  Local variables are suitable if you need a value to override all other variable scopes but don't want the value to persist once execution has ended.
@@ -282,13 +282,13 @@ For instructions on how to use variables in pre-request or test scripts, see [Us
 
 ### Specifying variable detail
 
-You can add and edit variables at any time. All you need to include for a new variable is a name. You can choose to supply an initial value, but you can also set it later, including from scripts. Use the checkbox to the left of a variable to activate or deactivate a variable.
+You can add and edit variables at any time. All you need to include for a new variable is a name. You can choose to supply an initial value, but you can also set it later, including from [scripts](https://learning.postman.com/docs/writing-scripts/intro-to-scripts/). Use the checkbox to the left of a variable to activate or deactivate a variable.
 
 Initial values are shared when you share a collection or environment. Current values are local and not synced or shared. See [Sharing and persisting data](#sharing-and-persisting-data) for more on local versus synced variables.
 
 ## Using variables
 
-You can use double curly braces to reference variables throughout Postman. For example, to reference a variable named "username" in your request auth settings, you would use the following syntax with double curly braces around the name:
+You can use double curly braces to reference variables throughout Postman. For example, to reference a variable named "username" in your request authorization settings, you would use the following syntax with double curly braces around the name:
 
 ```js
 {{username}}
