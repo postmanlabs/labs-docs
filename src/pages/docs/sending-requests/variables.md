@@ -324,7 +324,7 @@ The prompt indicates the current value, scope (highlighted by color), and overri
 
 If a variable is unresolved, Postman highlights it in red. For information on how to fix an unresolved variable, see [Fixing unresolved variables](#fixing-unresolved-variables).
 
-<img alt="Unresolved Variable" src="https://assets.postman.com/postman-docs/unresolved-var.jpg" width="250px"/> <!-- TODO: update screenshot -->
+<img alt="Unresolved variable" src="https://assets.postman.com/postman-docs/unresolved-variable-v9.jpg" width="700px"/>
 
 ### Using dynamic variables
 
@@ -420,7 +420,7 @@ A variable can be unresolved for a few reasons:
 
 When you are working on an API request, Postman highlights unresolved variables in the **URL builder**, the **Params** tab, the **Authorization** tab, and the **Headers** tab. Postman highlights unresolved variable text in red.
 
-<!-- TODO: add screenshot -->
+<img alt="Unresolved variable" src="https://assets.postman.com/postman-docs/unresolved-variable-v9.jpg" width="700px"/>
 
 To view details for an unresolved variable:
 
@@ -430,8 +430,8 @@ To view details for an unresolved variable:
 
 To check if the variable is available and in scope for the request:
 
-1. Select one of the **active environment**, **collection**, or **globals** links.
-1. On the tab for the environment, collection, or global, make the necessary changes to the variable.
+1. Select one of the **collection** or **globals** links. To turn on an environment, select the **environment** link.
+1. Turn on or make the necessary changes to the value of the variable.
 1. Select <img alt="Save icon" src="https://assets.postman.com/postman-docs/icon-save.jpg" width="16px" style="vertical-align:middle;margin-bottom:5px"> **Save** to confirm your changes.
 
 <!-- TODO: add screenshot -->
