@@ -238,7 +238,7 @@ The communication between Interceptor and Postman is automatically encrypted. Yo
 ### Adding a custom encryption key in the UI
 
 1. In the Postman app, select <img alt="Capture icon" src="https://assets.postman.com/postman-docs/icon-capture.jpg" width="15px" style="vertical-align:middle;margin-bottom:5px"> **Capture requests** in the Postman footer. Then in the **Capture requests** window, select the **Via Interceptor** tab.
-1. To the right of the green **Connected** status, click the lock icon.
+1. To the right of the green **Connected** status, select the lock icon <img alt="Lock icon" src="https://assets.postman.com/postman-docs/icon-lock.jpg" width="11px" style="vertical-align:middle;margin-bottom:5px">.
 
     <img src="https://assets.postman.com/postman-docs/interceptor-session-key.jpg" width="350px" alt="Set encryption in app"/>
 
