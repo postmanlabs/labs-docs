@@ -23,10 +23,10 @@ Make sure to create your Statuspage account and create a page and components bef
 ## Retrieving your Statuspage API Key
 
 1. Log in to [Statuspage](https://manage.statuspage.io/login).
-2. Click your avatar icon in the bottom left of the page.
+2. Select your avatar icon in the bottom left of the page.
 3. On the user menu, select **API info**.
 ![Statuspage API key](https://assets.postman.com/postman-docs/statuspage-api-key.jpg)
-4. Click **Create key** to create a new key, or find an existing key you want to use.
+4. Select **Create key** to create a new key, or find an existing key you want to use.
 5. Copy the API key for later use.
 
 ## Integration Setup
@@ -42,7 +42,7 @@ Make sure to create your Statuspage account and create a page and components bef
 1. Select a Statuspage page where the monitor updates will be sent. This list will be populated with the pages you have created in Statuspage.
 1. Select one or both Statuspage actions. See [Link monitor to component](#link-monitor-to-component) and [Create incident when monitoring run fails](#create-incident-when-monitoring-run-fails) for information on how to fill in these sections.
 ![Configure Statuspage](https://assets.postman.com/postman-docs/configure-statuspage.jpg)
-1. Click the **Add Integration** button.
+1. Select **Add Integration**.
 
 ### Link monitor to component
 

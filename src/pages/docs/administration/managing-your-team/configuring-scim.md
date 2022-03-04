@@ -1,6 +1,7 @@
 ---
 title: "Configuring SCIM provisioning"
 order: 142
+updated: 2021-07-20
 page_id: "configuring_scim"
 warning: false
 contextual_links:
@@ -85,7 +86,7 @@ Next to **SCIM provisioning**, select the **OFF** toggle.
 
 <img alt="Enable SCIM in dashboard" src="https://assets.postman.com/postman-docs/turn-on-scim-provisioning-1.jpg" width="400px"/>
 
-Click **Turn On** to enable SCIM provisioning.
+Select **Turn On** to enable SCIM provisioning.
 
 ### Generating SCIM API key
 
@@ -93,7 +94,7 @@ Under **SCIM provisioning**, select **Generate SCIM API Key**.
 
 <img alt="Generate SCIM API key" src="https://assets.postman.com/postman-docs/auth-generate-scim-api-key-1.jpg"/>
 
-Name your key and click **Generate**. Copy your new API key for later use and click **Done**.
+Name your key and select **Generate**. Copy your new API key for later use and select **Done**.
 
 > You can revisit this page to manage your SCIM API keys. If you regenerate an existing API key, you will have the option to keep the previous key active briefly while you switch over.
 
@@ -111,7 +112,7 @@ To set up provisioning with the Postman Okta app, take the following steps:
 
 1. [Enable SCIM in Postman](#enabling-scim-in-postman) and [generate a SCIM API key](#generating-scim-api-key).
 
-2. In Okta, navigate to the Postman app and select **Provisioning**. Click **Configure API Integration**.
+2. In Okta, navigate to the Postman app and select **Provisioning**. Select **Configure API Integration**.
 
     <img alt="Configure API Integration in Okta Postman app" src="https://assets.postman.com/postman-docs/postman-okta-app-configure-api-integration.jpg"/>
 
@@ -119,21 +120,21 @@ To set up provisioning with the Postman Okta app, take the following steps:
 
     <img alt="Configure provisioning in Okta's Postman app" src="https://assets.postman.com/postman-docs/postman-okta-app-enable-provisioning.jpg"/>
 
-4. Click **Test API Credentials**. If successful, a verification message will appear.
+4. Select **Test API Credentials**. If successful, a verification message will appear.
 
     > If verification is unsuccessful, confirm that you have [SCIM enabled for your team in Postman](#enabling-scim-in-postman), are using the correct [SCIM API key](#generating-scim-api-key), and that your API key's status is **ACTIVE** in your [team authentication settings](https://go.postman.co/settings/team/auth). If you continue to face issues, [contact Postman support](https://www.postman.com/support/) for assistance.
 
-5. Click **Save**.
+5. Select **Save**.
 
 ### Configuring the Okta SCIM integration
 
 The Postman Okta app supports [the provisioning features detailed above](#scim-features).
 
-To turn these features on or off, navigate to the Postman app in Okta and select **To App** on the left, then click **Edit**.
+To turn these features on or off, navigate to the Postman app in Okta and select **To App** on the left, then select **Edit**.
 
 <img alt="Configure features in Okta's Postman app" src="https://assets.postman.com/postman-docs/postman-okta-app-enable-features.jpg"/>
 
-Select features to enable them, or de-select to turn them off. Click **Save** to save your changes.
+Select features to enable them, or de-select to turn them off. Select **Save** to save your changes.
 
 <img alt="Enabled features in Okta's Postman app" src="https://assets.postman.com/postman-docs/postman-okta-app-enabled-features.jpg"/>
 

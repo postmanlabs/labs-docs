@@ -1,6 +1,7 @@
 ---
 title: "Billing"
 order: 123
+updated: 2022-02-18
 page_id: "billing"
 tags:
   - "pro"

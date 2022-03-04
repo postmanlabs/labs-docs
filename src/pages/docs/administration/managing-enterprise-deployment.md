@@ -154,7 +154,7 @@ PKG installer packages have the following capabilities:
 
 ### Installing a PKG installer package
 
-A PKG installer can be installed by double-clicking on the file and following the interactive configurable wizard. PKGs can also be installed from a command-line interface using the `installer` tool included in macOS.
+To install a PKG installer, open the file and follow the interactive configurable wizard. PKGs can also be installed from a command-line interface using the `installer` tool included in macOS.
 
 The `LocalSystem` target instructs the PKG to install app bundles to `/Applications` and store installation settings at `/Library/Preferences`:
 
