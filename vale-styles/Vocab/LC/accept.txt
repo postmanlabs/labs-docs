@@ -1,6 +1,7 @@
 ACH
 ACS
 ADFS
+Airtable
 Akamai
 Algolia
 Amazon
@@ -12,11 +13,13 @@ AWS
 Azure DevOps
 BigPanda
 Bitbucket
+Bootcamp
 Chrome
 CircleCI
 CNAME
 Coralogix
 CRT
+Ctrl
 Datadog
 DNS
 Dropbox
@@ -38,6 +41,8 @@ MIME
 monitor
 MSI
 New Relic
+Newman
+NTLM
 OAuth
 Okta
 Okta
@@ -45,6 +50,8 @@ OpenAPI
 OpenID
 Opsgenie
 PCI
+PFX
+PKCE
 PKG
 Postman
 Postman Professional
@@ -52,12 +59,11 @@ RAML
 repo
 REST
 SAML
-SAML
-SCIM
 SCIM
 Scratch Pad
 SHA
 SIEM
+SMS
 SMTP
 SOAP
 Splunk
@@ -65,8 +71,10 @@ SSO
 Statuspage
 TLS
 Travis
+Twilio
 TXT
 UID
 UTC
 VAT
+WAP
 WSDL
