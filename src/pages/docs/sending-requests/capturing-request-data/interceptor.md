@@ -79,7 +79,7 @@ After Interceptor is connected, you can then start an Interceptor debug session,
 
 1. Select **Capture Cookies** if you want to capture cookies in addition to requests during the debug session. You can use these cookies in your Postman requests.
 
-    > You can also capture cookies and sync them to Postman without starting a debug session. Learn more about [continuous cookie capture](/docs/sending-requests/capturing-request-data/capturing-cookies/).
+    > You can also capture cookies and sync them to Postman without starting a debug session. Learn more about [syncing cookies](/docs/sending-requests/capturing-request-data/syncing-cookies/).
 
 1. By default, requests will be saved in a debug session in the **History** tab in the sidebar. To also save requests to a collection, select a collection from the list under **Save requests to a collection**.
 

@@ -68,4 +68,4 @@ Along with capturing requests, Postman can capture cookies during a proxy or Int
 
 Postman's built-in proxy and Interceptor also support continuous cookie syncing. Once enabled, all captured cookies for the domains you specify are automatically synced to the Postman cookie jar.
 
-Learn more about [capturing and syncing cookies](/docs/sending-requests/capturing-request-data/capturing-cookies/).
+Learn more about [syncing cookies](/docs/sending-requests/capturing-request-data/syncing-cookies/).

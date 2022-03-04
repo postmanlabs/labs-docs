@@ -167,8 +167,8 @@ export const leftNavItems = [
             url: '/docs/sending-requests/capturing-request-data/interceptor/',
           },
           {
-            name: 'Capturing cookies',
-            url: '/docs/sending-requests/capturing-request-data/capturing-cookies/',
+            name: 'Syncing cookies',
+            url: '/docs/sending-requests/capturing-request-data/syncing-cookies/',
           },
         ],
       },

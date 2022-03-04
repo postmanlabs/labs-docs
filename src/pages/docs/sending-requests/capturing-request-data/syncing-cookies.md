@@ -1,6 +1,6 @@
 ---
-title: "Capturing cookies"
-page_id: "capturing_cookies"
+title: "Syncing cookies"
+page_id: "syncing_cookies"
 updated: 2022-03-02
 contextual_links:
   - type: section
