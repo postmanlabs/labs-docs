@@ -4,13 +4,14 @@ ADFS
 Airtable
 Akamai
 Algolia
+allowlist
 Amazon
 APIMatic
 APIs
 APM
 Atlassian
 AWS
-Azure DevOps
+DevOps
 BigPanda
 Bitbucket
 Bootcamp
@@ -32,23 +33,27 @@ HEAD
 IAM
 IANA
 IDP
+ipsum
 ISO
 JSON
 Keen
 LDAP
+lorem
 Microsoft Teams
 MIME
 monitor
 MSI
 New Relic
 Newman
+npm
 NTLM
 OAuth
 Okta
-Okta
+OneLogin
 OpenAPI
 OpenID
 Opsgenie
+PagerDuty
 PCI
 PFX
 PKCE
@@ -76,5 +81,6 @@ TXT
 UID
 UTC
 VAT
+VictorOps
 WAP
 WSDL
