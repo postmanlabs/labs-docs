@@ -71,23 +71,28 @@ You must have SSO configured before you can enable SCIM for your Postman team.
 
 ### Enabling SCIM in Postman
 
-To enable SCIM, navigate to [Postman](https://go.postman.co/home) and select **Team** > **Team Settings** in the upper-right. Select **Authentication** in the left sidebar.
+To enable SCIM:
 
-<img alt="Enable SCIM in dashboard" src="https://assets.postman.com/postman-docs/auth-enable-scim-v9.jpg"/>
+1. Navigate to [Postman](https://go.postman.co/home).
+1. Select **Team** in the upper right, then select **Team Settings**.
+1. Select **Authentication** in the left sidebar.
 
-Next to **SCIM provisioning**, select the toggle to turn on SCIM provisioning.
+    <img alt="Enable SCIM in dashboard" src="https://assets.postman.com/postman-docs/auth-enable-scim-v9.jpg"/>
 
-<img alt="Enable SCIM in dashboard" src="https://assets.postman.com/postman-docs/turn-on-scim-provisioning-1.jpg" width="400px"/>
+1. Next to **SCIM provisioning**, select the toggle to turn on SCIM provisioning.
 
-Click **Turn On** to enable SCIM provisioning.
+    <img alt="Enable SCIM in dashboard" src="https://assets.postman.com/postman-docs/turn-on-scim-provisioning-1.jpg" width="400px"/>
+
+1. Click **Turn On** to enable SCIM provisioning.
 
 ### Generating SCIM API key
 
-Under **SCIM provisioning**, select **Generate SCIM API Key**.
+1. Under **SCIM provisioning**, select **Generate SCIM API Key**.
 
-<img alt="Generate SCIM API key" src="https://assets.postman.com/postman-docs/generate-scim-api-key-v9.jpg"/>
+    <img alt="Generate SCIM API key" src="https://assets.postman.com/postman-docs/generate-scim-api-key-v9.jpg"/>
 
-Name your key and click **Generate**. Copy your new API key for later use and click **Done**.
+1. Name your key and click **Generate**.
+1. Copy your new API key for later use and click **Done**.
 
 > You can revisit this page to manage your SCIM API keys. If you regenerate an existing API key, you will have the option to keep the first key active briefly while you switch over.
 
