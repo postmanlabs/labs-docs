@@ -113,7 +113,7 @@ Categories=Development;
 >
 > The support of certain Linux distributions depends on if they are supported by Electron. Refer to [Electron's documentation](https://www.electronjs.org/docs/tutorial/support#linux).
 >
-> It is recommended you install [Snap](https://snapcraft.io/postman) as it includes all the libraries that the app needs and they are bundled with the app itself.
+> It's recommended you install [Snap](https://snapcraft.io/postman) as it includes all the libraries that the app needs and they are bundled with the app itself.
 >
 > Avoid starting Postman using the `sudo` command, as it will create permission issues on the files created by Postman.
 >
@@ -161,7 +161,7 @@ Postman for Web is under active development. There are a few features you can cu
 
 * **Find and replace**: The Postman desktop app supports [finding and replacing values in a workspace](/docs/getting-started/navigating-postman/#find-and-replace), but this function is not available on Postman for Web yet.
 * **Certificates and proxy**: The Postman desktop app enables you to customize [certificates](/docs/sending-requests/certificates/) and [proxy configurations](/docs/getting-started/proxy/#configuring-proxy-settings). On Postman for Web, these take the browser defined value and cannot be overridden by Postman.
-* **Postman Interceptor**: [Interceptor](/docs/sending-requests/capturing-request-data/interceptor/) syncs cookies from your browser to the Postman desktop app and captures network requests directly from the browser. It is not possible to use Interceptor with Postman for Web.
+* **Postman Interceptor**: [Interceptor](/docs/sending-requests/capturing-request-data/interceptor/) syncs cookies from your browser to the Postman desktop app and captures network requests directly from the browser. It's not possible to use Interceptor with Postman for Web.
 
 ## Updating Postman
 

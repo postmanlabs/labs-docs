@@ -116,7 +116,7 @@ Next, create a new request by selecting **+** or by selecting **New > HTTP Reque
 
 <img alt="Mock server error response" src="https://assets.postman.com/postman-docs/mock-examples-step5b-v9-1.jpg" width="808px">
 
-Sending this request returns an error. The reason is because you did not add a path to the mock server URL, and there is no matching saved example with an undefined path and the request method `GET`. Responses returned by the mock service are entirely dependent on the URL and method in your saved examples.
+Sending this request returns an error. The reason is because you didn't add a path to the mock server URL, and there's no matching saved example with an undefined path and the request method `GET`. Responses returned by the mock service are entirely dependent on the URL and method in your saved examples.
 
 You do, however, have a saved example with the path `/get` and the request method `GET`. Add `/get` to the end of the mock server URL and send the request again. This time you receive the expected response from the mock server.
 

@@ -10,7 +10,7 @@ Please note we have a [code of conduct](https://www.postman.com/code-of-conduct)
 
 This site was built with Node.js v14.15.0. We recommend installing and using [nvm](https://github.com/nvm-sh/nvm), a version manager for Node.js. After you install nvm, use it to set your node version to v14.15.0.
 
-**Note for Mac users**: If you are using a MacBook with an Apple M1 chip, you may need to create a Rosetta version of Terminal in order to correctly download both nvm and the dependencies needed by this GitHub repo. For more information, see this guide on [creating a Rosetta terminal](https://www.courier.com/blog/tips-and-tricks-to-setup-your-apple-m1-for-development). After you create a Rosetta terminal, use it to install nvm, then proceed with the rest of the workflow outlined here.
+**Note for Mac users**: If you are using a Mac with an Apple M1 chip, you may need to create a Rosetta version of Terminal in order to correctly download both nvm and the dependencies needed by this GitHub repo. For more information, see this guide on [creating a Rosetta terminal](https://www.courier.com/blog/tips-and-tricks-to-setup-your-apple-m1-for-development). After you create a Rosetta terminal, use it to install nvm, then proceed with the rest of the workflow outlined here.
 
 ### Troubleshooting Local Development
 
@@ -70,7 +70,7 @@ If you would like to add, edit, or replace links you are welcome to do so. There
 When creating or editing an internal link (a link that points to a Learning Center doc), be sure to:
 
 * use a relative URL. Example: `/docs/collaborating-in-postman/collaboration-intro/`
-* use a trailing slash to keep our app from creating uneccesary 302 redirects. (See example of trailing slash above.)
+* use a trailing slash to keep our app from creating unnecessary 302 redirects. (See example of trailing slash above.)
 * use a leading slash to keep the doc page from 404'ing. (See example of leading slash above.)
 * `npm run dev` the app and check links you have added / edited to ensure they work correctly.
 
@@ -127,11 +127,11 @@ For a list of supported languages by the Prism syntax highlighter, [read more](h
 
 ## Algolia
 
-Please note that Algolia search will not work when running the app locally. If you wish to search when running the app locally, you are welcome to use your own Algolia API keys and index the app in your own Algolia account. You can find an `env.example` file in the repo that shows you what keys you require to run Algolia search.
+Please note that Algolia search won't work when running the app locally. If you wish to search when running the app locally, you are welcome to use your own Algolia API keys and index the app in your own Algolia account. You can find an `env.example` file in the repo that shows you what keys you require to run Algolia search.
 
 ## Right Sidebar - Recent Blog Posts
 
-The right sidebar has a feature flag for pulling in up to three contextual, recent blog posts based on a tag. This functionality and flag can be found in the frontmatter of the doc .md files. It utilizes our webhook and backend-for-frontend (BFF) service to source the latest 100 blog posts from blog.postman.com.
+The right sidebar has a feature flag for pulling in up to three contextual, recent blog posts based on a tag. This functionality and flag can be found in the frontmatter of the doc `.md` files. It utilizes our webhook and backend-for-frontend (BFF) service to source the latest 100 blog posts from blog.postman.com.
 
 Two example docs using `dynamic_blog`:
 
@@ -149,7 +149,7 @@ You need to get the `.env.development` file from Marketing Engineering, and plac
 
 #### When updating from hardcoded blog links to dynamic:
 
-Open the doc file .md that you want to edit right sidebar, and look for `contextual_links` in frontmatter. Look for the presence of existing recent Blogs posts like:
+Open the doc file `.md` that you want to edit right sidebar, and look for `contextual_links` in frontmatter. Look for the presence of existing recent Blogs posts like:
 
 ~~~~
 - type: subtitle
@@ -183,34 +183,34 @@ Open doc file .md that you want edit right sidebar, and add:
 
 The list of acceptable values for `blog_tag` are the slugs for tags in the blog. The `blog_tag` value is a string and only accepts one tag. To yield contextual posts for your doc page, use one of the following machiine-readbale blog tags in use today:
 
-* api-development
-* api-network
-* automation
-* aws
-* case-study
-* collections
-* continuous-delivery
-* data
-* developers
-* documentation
-* enterprise-plan
-* graphql
-* integrations
-* monitors
-* newman
-* news
-* openapi
-* postman
-* postman-community
-* public-workspaces
-* rest-api
-* security
-* state-of-the-api
-* testing
-* tutorials
-* visualizer
-* workflow
-* workspaces
+* `api-development`
+* `api-network`
+* `automation`
+* `aws`
+* `case-study`
+* `collections`
+* `continuous-delivery`
+* `data`
+* `developers`
+* `documentation`
+* `enterprise-plan`
+* `graphql`
+* `integrations`
+* `monitors`
+* `newman`
+* `news`
+* `openapi`
+* `postman`
+* `postman-community`
+* `public-workspaces`
+* `rest-api`
+* `security`
+* `state-of-the-api`
+* `testing`
+* `tutorials`
+* `visualizer`
+* `workflow`
+* `workspaces`
 
 NOTE: these tags pull from the latest 100 blog posts. We display **up to 3** blog posts for that tag. A return of zero or malformed tag enum will collapse / hide section.
 

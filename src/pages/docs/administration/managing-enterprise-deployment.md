@@ -55,7 +55,7 @@ To request this change, reach out to your Postman Account Manager or [contact Po
 
 ## Deploying the Postman Enterprise app
 
-Postman's Enterprise app is a variant of Postman’s Desktop app that offers greater control to administrators looking to deploy Postman at an enterprise level. It is available as an MSI package for Windows and PKG package for macOS, and supports silent installation, system-wide installation, and additional configurations to control how Postman is installed on users' devices.
+Postman's Enterprise app is a variant of Postman’s Desktop app that offers greater control to administrators looking to deploy Postman at an enterprise level. It's available as an MSI package for Windows and PKG package for macOS, and supports silent installation, system-wide installation, and additional configurations to control how Postman is installed on users' devices.
 
 ## Downloading the Postman Enterprise app
 
@@ -105,9 +105,9 @@ A silent installation or uninstallation is performed by passing the `/qn` option
 msiexec /i path\to\package.msi /qn MSIINSTALLPERUSER=1
 ```
 
-Note that running in silent installation mode will omit error messages. If the installation fails for any reason, `%ERRORLEVEL%` will not equal `0` but no error will be displayed.
+Note that running in silent installation mode will omit error messages. If the installation fails for any reason, `%ERRORLEVEL%` won't equal `0` but no error will be displayed.
 
-It is always recommended to [run silent installations with logging enabled](#enabling-verbose-logging-for-installation).
+It's always recommended to [run silent installations with logging enabled](#enabling-verbose-logging-for-installation).
 
 ### Enabling verbose logging for installation
 
@@ -225,7 +225,7 @@ sudo defaults write /Library/Preferences/<the bundle id> MY_INTEGER_OPTION -inte
 
 ### PKG installer logging
 
-It is recommended to use the `-dumplog` and `-verbose` flags supported by `installer` to get detailed information about an installation. For example:
+It's recommended to use the `-dumplog` and `-verbose` flags supported by `installer` to get detailed information about an installation. For example:
 
 ``` shell
 sudo installer -dumplog -verbose -pkg path/to/app.pkg -target LocalSystem
