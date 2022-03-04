@@ -66,12 +66,12 @@ A proxy acts as an intermediary between a client application (like a mobile app)
 
 1. Select **Start Capture**.
 
-<img alt="Capture cookies with the proxy" src="https://assets.postman.com/postman-docs/cookies-proxy-capture-v9-13.jpg" width="848px"/>
+<img alt="Capture cookies with the proxy" src="https://assets.postman.com/postman-docs/cookies-proxy-capture-v9-14.jpg" width="848px"/>
 
 Postman is now ready to capture and sync cookies using the proxy.
 
 * To start capturing cookies, configure one or more clients to use the Postman proxy. Learn more about [configuring the proxy on a client device](/docs/sending-requests/capturing-request-data/capturing-http-requests/#step-3-configure-the-proxy-on-a-client-device).
-* To stop syncing cookies for a domain, select &#10005; next to the domain name.
+* To stop syncing cookies for a domain, select <img alt="Close icon" src="https://assets.postman.com/postman-docs/icon-close.jpg" width="16px" style="vertical-align:middle;margin-bottom:5px"> next to the domain name.
 * To stop capturing and syncing all cookies, select **Stop Capture**.
 
 ## Capture cookies with Postman Interceptor
@@ -93,12 +93,12 @@ Postman Interceptor is a Chrome extension that captures network requests directl
 
 1. Select **Start Capture**.
 
-<img alt="Capture cookies with Interceptor" src="https://assets.postman.com/postman-docs/cookies-interceptor-capture-v9-13.jpg" width="848px"/>
+<img alt="Capture cookies with Interceptor" src="https://assets.postman.com/postman-docs/cookies-interceptor-capture-v9-14.jpg" width="848px"/>
 
 Postman is now ready to capture and sync cookies using Interceptor.
 
 * Cookies for the domains you specified are automatically synced from Chrome to Postman.
-* To stop syncing cookies for a domain, select &#10005; next to the domain name.
+* To stop syncing cookies for a domain, select <img alt="Close icon" src="https://assets.postman.com/postman-docs/icon-close.jpg" width="16px" style="vertical-align:middle;margin-bottom:5px"> next to the domain name.
 * To stop capturing and syncing all cookies, select **Stop Capture**.
 
 ## Next steps

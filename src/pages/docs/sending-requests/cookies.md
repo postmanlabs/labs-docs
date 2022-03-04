@@ -53,7 +53,7 @@ To manage cookies in Postman, open a request and select the **Cookies** link und
 
 The **Manage Cookies** window displays a list of domains and the cookies associated with each one. If you want to view cookies for a domain that isn't present in the list, you can [add a domain](#adding-a-domain).
 
-<img alt="Managing cookies" src="https://assets.postman.com/postman-docs/manage-cookies-v9-13.jpg" width="848px"/>
+<img alt="Managing cookies" src="https://assets.postman.com/postman-docs/manage-cookies-v9-14.jpg" width="848px"/>
 
 ### Creating cookies
 
@@ -94,7 +94,7 @@ To update an existing cookie for a domain, select the cookie you want to edit. Y
 
 ### Deleting a cookie
 
-To delete a domain and all cookies associated with it, select &#10005; next to the domain. To delete an individual cookie, select &#10005; next to the cookie.
+To delete a domain and all cookies associated with it, select <img alt="Close icon" src="https://assets.postman.com/postman-docs/icon-close.jpg" width="16px" style="vertical-align:middle;margin-bottom:5px"> next to the domain. To delete an individual cookie, select <img alt="Close icon" src="https://assets.postman.com/postman-docs/icon-close.jpg" width="16px" style="vertical-align:middle;margin-bottom:5px"> next to the cookie.
 
 ## Accessing cookies in scripts
 
