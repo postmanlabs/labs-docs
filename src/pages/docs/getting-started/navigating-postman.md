@@ -126,7 +126,7 @@ Depending on the entity type, the search results contain different information:
 
 ## Find and replace
 
-In the Postman app, you can search the current workspace by selecting __Find and Replace__ in the status bar at the bottom left, or by entering __⌘+Shift+F__ or __Control+Shift+F__.
+In the Postman app, you can search the current workspace by selecting __Find and Replace__ in the status bar at the bottom left, or by entering __Command + Shift + F__ or __Ctrl + Shift + F__.
 
 Enter your search string and, optionally, choose which entities to return, entering replacement text if necessary.
 
@@ -156,17 +156,17 @@ Tabs allow you to organize and work between multiple requests.
 
 To open a new tab, select __+__ in the middle of the screen.
 
-> **Keyboard shortcut**: You can also select **Command + T** or **Control + T** on your keyboard to open a new tab.
+> **Keyboard shortcut**: You can also select **Command + T** or **Ctrl + T** on your keyboard to open a new tab.
 
 <img alt="Open a new tab" src="https://assets.postman.com/postman-docs/open-new-tab.jpg" width="450px"/>
 
 If you open a request and don't edit or send it, then open another request, the second tab replaces the first tab. When the tab is in preview mode, it displays in italics.
 
-You can set whether Postman opens requests in new tabs. Select the gear icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-gear-outline-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> to open **Settings**. Under **Requests**, use the toggle next to _Always open requests in a new tab_ to turn this option on or off.
+You can set whether Postman opens requests in new tabs. Select the gear icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-gear-outline-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> to open **Settings**. Under **Requests**, use the toggle next to **Always open requests in a new tab** to turn this option on or off.
 
 ### Managing tabs
 
-You can have many tabs open at the same time. To rearrange your open tabs, select and drag them to the desired location.
+You can have many tabs open at the same time. To rearrange your open tabs, select and drag them in the desired order.
 
 To manage your open tabs or to access recently closed tabs, select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> to open a menu with action options:
 
@@ -191,7 +191,7 @@ You can also manage your open tabs or open a new tab by right-clicking on an exi
 
 <img alt="Manage tabs" src="https://assets.postman.com/postman-docs/right-click-manage-tab.jpg" width="300px"/>
 
-> **Closing unsaved tabs**: You can set whether Postman asks whether you want to save when you close a tab that contains changes. Select the gear icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-gear-outline-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> to open **Settings**. Under **Requests**, use the toggle next to _Always ask when closing unsaved tabs_ to turn this option on or off.
+> **Closing unsaved tabs**: You can set whether Postman asks whether you want to save when you close a tab that contains changes. Select the gear icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-gear-outline-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> to open **Settings**. Under **Requests**, use the toggle next to **Always ask when closing unsaved tabs** to turn this option on or off.
 
 If you have a lot of tabs open, they might overflow the area of the tab bar. To navigate to tabs that are outside the viewable area, select the arrows to the left or right of the tab bar.
 
