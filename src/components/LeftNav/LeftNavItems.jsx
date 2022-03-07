@@ -563,10 +563,6 @@ export const leftNavItems = [
             url: '/docs/administration/managing-your-team/user-groups/',
           },
           {
-            name: 'Configuring SCIM provisioning',
-            url: '/docs/administration/managing-your-team/configuring-scim/',
-          },
-          {
             name: 'Configuring domain capture',
             url: '/docs/administration/managing-your-team/configuring-domain-capture/',
           },
@@ -640,6 +636,25 @@ export const leftNavItems = [
           {
             name: 'Custom SAML in Ping Identity',
             url: '/docs/administration/sso/saml-ping/',
+          },
+        ],
+      },
+      {
+        name: 'SCIM Provisioning',
+        subParentSlug: 'scim-provisioning',
+        slug: '/docs/administration/scim-provisioning/scim-provisioning-overview/',
+        subMenuItems2: [
+          {
+            name: 'SCIM Provisioning Overview',
+            url: '/docs/administration/scim-provisioning/scim-provisioning-overview/',
+          },
+          {
+            name: 'Configuring SCIM with Okta',
+            url: '/docs/administration/scim-provisioning/configuring-scim-with-okta/',
+          },
+          {
+            name: 'Configuring SCIM with Azure AD',
+            url: '/docs/administration/scim-provisioning/configuring-scim-with-azure-ad/',
           },
         ],
       },
