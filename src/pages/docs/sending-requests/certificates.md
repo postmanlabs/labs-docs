@@ -1,7 +1,7 @@
 ---
 title: "Working with certificates"
 order: 29
-updated: 2020-07-17
+updated: 2021-03-10
 page_id: "certificates"
 contextual_links:
   - type: section
@@ -21,7 +21,15 @@ warning: false
 
 ---
 
-Postman provides a way to view and set SSL certificates on a per domain basis.
+Certificates enable making encrypted calls to APIs using Transport Layer Security (TLS) and Secure Sockets Layer (SSL). To send encrypted requests to an API, add a certificate in Postman.
+
+You can add two types of certificates in Postman:
+
+* **CA certificates** are issued by a trusted certificate authority and provide the greatest control over security properties and encryption.
+* **Client certificates** are self-signed rather than issued by a certificate authority. You can configure the domain and passphrase for the self-signed certificate.
+
+> Certificates in Postman are added on a per-domain basis. To send encrypted requests to multiple domains, add the certificate for each domain.
+
 
 To manage your client certificates, select the gear icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-gear-outline-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> on the right side of the header toolbar, choose **Settings**, and select the **Certificates** tab.
 
