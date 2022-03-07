@@ -21,21 +21,36 @@ warning: false
 
 ---
 
-Certificates enable making encrypted calls to APIs using Transport Layer Security (TLS) and Secure Sockets Layer (SSL). To send encrypted requests to an API, add a certificate in Postman.
+Certificates enable making encrypted calls to APIs using Transport Layer Security (TLS) and Secure Sockets Layer (SSL). Many APIs require requests to be sent over an encrypted connection and will reject requests that are not secure. To send encrypted requests to an API, add a certificate in Postman.
 
-You can add two types of certificates in Postman:
+You can add two types of certificates:
 
-* **CA certificates** are issued by a trusted certificate authority and provide the greatest control over security properties and encryption.
+* **CA certificates** are issued by a trusted certificate authority and provide the highest level of control over security and encryption.
 * **Client certificates** are self-signed rather than issued by a certificate authority. You can configure the domain and passphrase for the self-signed certificate.
 
-> Certificates in Postman are added on a per-domain basis. To send encrypted requests to multiple domains, add the certificate for each domain.
+> Certificates in Postman are added on a per-domain basis. To send encrypted requests to additional domains, add the appropriate certificate for each domain.
 
+## Contents
+
+* [Managing certificates](#managing-certificates)
+* [Adding CA certificates](#adding-ca-certificates)
+* [Adding client certificates](#adding-client-certificates)
+* [Using a certificate](#using-a-certificate)
+* [Editing a certificate](#editing-a-certificate)
+* [Removing a certificate](#removing-a-certificate)
+* [Viewing certificate details](#viewing-certificate-details)
+
+## Managing certificates
 
 To manage your client certificates, select the gear icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-gear-outline-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> on the right side of the header toolbar, choose **Settings**, and select the **Certificates** tab.
 
 [![certificates tab](https://assets.postman.com/postman-docs/WS-certificates.png)](https://assets.postman.com/postman-docs/WS-certificates.png)
 
-## Adding a Client Certificate
+## Adding CA certificates
+
+Steps to add CA cert
+
+## Adding client certificates
 
 To add a new client certificate, select **Add Certificate**.
 
@@ -57,7 +72,7 @@ Once your certificate is added, it should appear in the client certificates list
 
 **NOTE:** You should not have multiple certificates set for the same domain. If you have multiple ones set, only the last one added will be used.
 
-## Using a Certificate
+## Using a certificate
 
 You do not have to perform any extra steps to use a client certificate if it has been added. If you make a request to a configured domain, the certificate will automatically be sent with the request, provided you make the request over HTTPS.
 
@@ -67,19 +82,19 @@ Now, send a request to `https://postman-echo.com/get`. Keep the Postman Console 
 
 [![Postman console view](https://assets.postman.com/postman-docs/postmanconsoleviewcertificates.png)](https://assets.postman.com/postman-docs/postmanconsoleviewcertificates.png)
 
-## Removing a Certificate
-
-To remove a certificate, use the **Remove** link next to the certificate under the **Certificates** tab in the Settings.
-
-[![remove certificate](https://assets.postman.com/postman-docs/removecertificate.png)](https://assets.postman.com/postman-docs/removecertificate.png)
-
-## Editing a Certificate
+## Editing a certificate
 
 You cannot edit a certificate after it has been created. To make changes to it, you will need to remove the certificate and create a new one.
 
 > Let's Encrypt SSL certificates renew automatically—you do not need to carry out any manual steps. When a certificate is generated it has a 90 day expiry date and will renew seven days before it expires
 
-## Certificate data
+## Removing a certificate
+
+To remove a certificate, use the **Remove** link next to the certificate under the **Certificates** tab in the Settings.
+
+[![remove certificate](https://assets.postman.com/postman-docs/removecertificate.png)](https://assets.postman.com/postman-docs/removecertificate.png)
+
+## Viewing certificate details
 
 Postman will indicate certificate information in the __Network__ response pop-up for any HTTPS requests you send, including warnings and errors such as self-signed and expired certificates.
 
