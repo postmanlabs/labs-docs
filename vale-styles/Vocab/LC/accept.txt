@@ -38,6 +38,7 @@ ISO
 JSON
 Keen
 LDAP
+Lightstep
 lorem
 Microsoft Teams
 MIME
