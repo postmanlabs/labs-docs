@@ -1,6 +1,7 @@
 ---
 title: "Microsoft AD FS"
 order: 134
+updated: 2020-07-07
 page_id: "microsoft_adfs"
 warning: false
 contextual_links:
@@ -48,9 +49,9 @@ To add a Relying Party Trust:
 
   Select the Relying Party Trusts folder from "AD FS Management".
 
-  On the Actions sidebar, click "Add Relying Party Trust" to start the configuration wizard for a new trust.
+  On the Actions sidebar, select "Add Relying Party Trust" to start the configuration wizard for a new trust.
 
-  Click the **Claims aware** button in the Welcome screen and then click the **Start** button.
+  Select the **Claims aware** button in the Welcome screen and then select the **Start** button.
 
 [![relysing party trust](https://assets.postman.com/postman-docs/ENT-Relying-Party-Trust.png)](https://assets.postman.com/postman-docs/ENT-Relying-Party-Trust.png)
 
@@ -92,7 +93,7 @@ After the relying party trust has been created, you can create the claim rules.
 
 To create a new rule:
 
-Click "Add Rule". Then create a "Send LDAP Attributes as Claims" rule.
+Select "Add Rule". Then create a "Send LDAP Attributes as Claims" rule.
 
 [![add rule](https://assets.postman.com/postman-docs/ENT-Add-Rule.jpeg)](https://assets.postman.com/postman-docs/ENT-Add-Rule.jpeg)
 
@@ -103,9 +104,9 @@ Using the Active Directory as your attribute store, perform these actions:
 
 [![active directory](https://assets.postman.com/postman-docs/ENT-Active-Directory.jpeg)](https://assets.postman.com/postman-docs/ENT-Active-Directory.jpeg)
 
-   Click the **Finish** button to save the new rule.
+   Select the **Finish** button to save the new rule.
 
-   Click "Add Rule" to create another new rule and select "Transform an Incoming Claim" as the template.
+   Select "Add Rule" to create another new rule and select "Transform an Incoming Claim" as the template.
 
 [![incoming claim](https://assets.postman.com/postman-docs/ENT-Transform-Incoming-Claim.jpeg)](https://assets.postman.com/postman-docs/ENT-Transform-Incoming-Claim.jpeg)
 
@@ -121,9 +122,9 @@ In the next screen perform these actions:
 
 [![pass through claim values](https://assets.postman.com/postman-docs/ENT-Pass-through-all-claim-values.jpeg)](https://assets.postman.com/postman-docs/ENT-Pass-through-all-claim-values.jpeg)
 
-   Click the **Finish** button to create the claim rule.
+   Select the **Finish** button to create the claim rule.
 
-You should see two transform rules. Click "Edit Claim Issuance Policy" to confirm.
+You should see two transform rules. Select "Edit Claim Issuance Policy" to confirm.
 
 [![edit claim issuance](https://assets.postman.com/postman-docs/ENT-Edit-Claim-Issuance-Policy.jpeg)](https://assets.postman.com/postman-docs/ENT-Edit-Claim-Issuance-Policy.jpeg)
 

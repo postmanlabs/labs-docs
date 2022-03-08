@@ -1,6 +1,7 @@
 ---
 title: "Billing"
 order: 123
+updated: 2022-02-18
 page_id: "billing"
 tags:
   - "pro"
@@ -233,7 +234,7 @@ You can use this reminder to make any necessary changes to your team prior to th
 
 > If you have already been billed for the users you added and retained in a previous auto-flex cycle, you cannot remove those slots until your plan renews.
 
-You will not be billed if the number of users has remained unchanged during your auto-flex cycle, or if you remove any additional users prior to auto-flex billing.
+You won't be billed if the number of users has remained unchanged during your auto-flex cycle, or if you remove any additional users prior to auto-flex billing.
 
 > If your team has incurred any overages and you have an auto-flex bill for that cycle, your overage charges will be combined with your auto-flex charges in your invoice.
 

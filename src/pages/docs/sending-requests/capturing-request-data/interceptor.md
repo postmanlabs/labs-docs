@@ -58,7 +58,7 @@ Once Interceptor is running in Chrome, you can start a debug session, which is a
 
 To get started, install Postman Interceptor:
 
-1. [Download](https://go.pstmn.io/interceptor-download) Interceptor in the Chrome Web Store. If you already have the extension, ensure it is version v0.2.26 or later.
+1. [Download](https://go.pstmn.io/interceptor-download) Interceptor in the Chrome Web Store. If you already have the extension, ensure it's version v0.2.26 or later.
 
 1. In the Postman app, select the **Capture requests and cookies** icon in the Postman footer.
 
@@ -100,7 +100,7 @@ After Interceptor is connected, you can then start an Interceptor debug session,
 
 While your Interceptor session is running, the **Interceptor Debug Session** window will show captured traffic as you use the Chrome browser.
 
-There are several controls you can use to limit, organize, and investigate traffic as it is captured:
+There are several controls you can use to limit, organize, and investigate traffic as it's captured:
 
 * Select the name **Interceptor debug session** and enter another name to change the window name.
 * The **Configure incoming requests** controls at the top of the window enable you to limit captured traffic. Select items from **Methods** and **URL** to limit the traffic. These controls are similar to the ones you set initially, but they limit what is being captured instead of what is going through Interceptor.
@@ -128,7 +128,7 @@ After stopping the session, the Interceptor is still connected. Select the **Cap
 
 ### Viewing the Interceptor debug session results
 
-After completing a debug session, a transaction of it is located in the **History** tab, named **Interceptor debug session**.
+After completing a debug session, a transaction of it's located in the **History** tab, named **Interceptor debug session**.
 
 When you open a saved debug session, the top header displays the session start time, total size, duration, and source.
 
@@ -221,7 +221,7 @@ You can find the current status of your Interceptor integration by looking at th
 * **`INTERNET_CONNECTIVITY`**:
     * Check your internet connection.
     * If you are sitting behind a firewall check your inbound and outbound policies.
-    * If you are using a proxy, check that it is properly configured.
+    * If you are using a proxy, check that it's properly configured.
 * **`FILE_PERMISSIONS_REQUIRED`**:
     * Verify that you have permissions to create the `.postman/InterceptorBridge` folders.
     * Verify that you have permissions to delete, write, and execute in the path `.postman/InterceptorBridge`.
@@ -283,7 +283,7 @@ The communication between Interceptor and Postman is automatically encrypted. Yo
 ### Adding a custom encryption key in the UI
 
 1. In the Postman app, select the **Capture requests and cookies** icon in the Postman footer. Then in the **Capture requests and cookies** window, select the **Via Interceptor** tab.
-1. To the right of the green **Connected** status, click the lock icon.
+1. To the right of the green **Connected** status, select the lock icon <img alt="Lock icon" src="https://assets.postman.com/postman-docs/icon-lock.jpg" width="11px" style="vertical-align:middle;margin-bottom:5px">.
 
     <img src="https://assets.postman.com/postman-docs/interceptor-session-key.jpg" width="350px" alt="Set encryption in app"/>
 
@@ -308,7 +308,7 @@ To update Interceptor:
 
 ## Using the Interceptor with Postman's Chrome app
 
-> Postman's Chrome app is deprecated and no longer offers feature parity with Postman native. It is highly recommended that you switch to [Postman native](https://www.postman.com/downloads/).
+> Postman's Chrome app is deprecated and no longer offers feature parity with Postman native. It's highly recommended that you switch to [Postman native](https://www.postman.com/downloads/).
 
 The Postman Chrome app's Interceptor functions as a proxy to capture HTTP and HTTPS requests. You can use Interceptor to capture requests made by your Chrome browser and send them to your Postman app's history.
 
@@ -320,6 +320,6 @@ To use Interceptor with Postman Chrome:
 
 1. [Install Postman](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop?) from the Chrome Web Store.
 2. Install [Interceptor](https://chrome.google.com/webstore/detail/postman-interceptor/aicmkgpgakddgnaphhhpliifpcfhicfo/) from the Chrome Web Store.
-3. Open Postman, click on the Interceptor icon in the toolbar, and toggle to **On**.
+3. Open Postman, select the Interceptor icon in the toolbar, and toggle to **On**.
 
 You can then browse your app or website and monitor requests as they stream in to your Postman history.

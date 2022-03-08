@@ -1,6 +1,7 @@
 ---
 title: "Logging in to an SSO team"
 order: 133
+updated: 2021-02-08
 page_id: "user_sso"
 warning: false
 contextual_links:
@@ -17,13 +18,17 @@ When your team admin has enabled single sign-on (**SSO**) for Postman, you can l
 
 Your team admin can provide a **Login URL** that was generated during the SSO configuration. The **Login URL** will automatically redirect you to your configured Identity Provider.
 
-You can sign into Postman by clicking **Sign In** in the upper-right corner of Postman, selecting **Home** in the upper-left then **Sign in**, or by navigating to [Postman's website](https://www.postman.com/) and clicking **Sign In** in the upper-right corner.
+To sign into Postman:
+
+1. Select **Sign In** in the upper-right corner of Postman
+1. Select **Home** in the upper-left, then select **Sign in**
+1. Navigate to [Postman's website](https://www.postman.com/) and select **Sign In** in the upper-right corner
 
 <img src="https://assets.postman.com/postman-docs/create-account-or-sign-in.jpg" alt="Create account or sign in"/>
 
 When you opt to sign into the desktop version of Postman, you will see the following screen and your default browser will automatically open a webpage asking you to sign into Postman.
 
-> Your browser should open within a few seconds. If it does not, you can click **open your browser** in Postman.
+> Your browser should open within a few seconds. If it does not, you can select **open your browser** in Postman.
 
 <img src="https://assets.postman.com/postman-docs/sign-in-with-web-browser.jpg" alt="Sign in with web browser"/>
 

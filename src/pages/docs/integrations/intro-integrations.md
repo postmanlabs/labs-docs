@@ -45,13 +45,13 @@ Select __Add Integration__ to configure your integration. Enter the required inf
 
 ## Static IP support
 
-You can use static IP addresses to enable integrations and custom webhooks for Postman Collection backups that need to access hosted (private) networks behind firewalls that require whitelisted IP addresses.
+You can use static IP addresses to enable integrations and custom webhooks for Postman Collection backups that need to access hosted (private) networks behind firewalls that require IP addresses from an allowlist.
 
-Contact your IT team to whitelist the following static IP in your firewall to enable collection backup integrations and webhooks:
+Contact your IT team to allowlist the following static IP in your firewall to enable collection backup integrations and webhooks:
 
 * US East: `3.212.102.200`
 
-Once you whitelist this IP address, calls for the integrations and webhooks will be able to connect to your network and allow the integrations and webhooks to work as expected.
+Once you allowlist this IP address, calls for the integrations and webhooks will be able to connect to your network and allow the integrations and webhooks to work as expected.
 
 > DNS records should use the public IP address for instances which are behind a firewall or not accessible via the internet.
 

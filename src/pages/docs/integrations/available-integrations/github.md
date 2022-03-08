@@ -62,9 +62,9 @@ In order to set up an integration, you will need a GitHub Personal Access Token.
 
     [![github integration](https://assets.postman.com/postman-docs/integrations-github1.jpg)](https://assets.postman.com/postman-docs/integrations-github1.jpg)
 
-1. Next to **Backup a collection**, click **Add Integration** to authorize a backup of your Postman collections.
+1. Next to **Backup a collection**, select **Add Integration** to authorize a backup of your Postman collections.
 
-1. Enter your GitHub Personal Access Token and click the **Proceed** button.
+1. Enter your GitHub Personal Access Token and select the **Proceed** button.
 
    [![access token](https://assets.postman.com/postman-docs/integrations-github-schema-pat.jpg)](https://assets.postman.com/postman-docs/integrations-github-schema-pat.jpg)
 
@@ -80,7 +80,7 @@ In order to set up an integration, you will need a GitHub Personal Access Token.
    * Enter the file name of the collection in the repository.
    * Enter the branch where the collection will be pushed. This branch must already exist in your repository. If you do not specify anything, it will be pushed to the default branch of the repository.
 
-1. To finish, click **Add Integration**.
+1. To finish, select **Add Integration**.
 
 > Every change saved to your Postman Collection automatically commits changes to your GitHub repo in real time. You can navigate to your GitHub repository to view your collections.
 
@@ -90,25 +90,25 @@ In order to set up an integration, you will need a GitHub Personal Access Token.
 
 Backing up collection to GitHub with a custom domain name is similar to the above, with the following differences.
 
-1. From the initial GitHub integrations page, next to **Backup a collection (custom domain)**, click **Add Integration**.
+1. From the initial GitHub integrations page, next to **Backup a collection (custom domain)**, select **Add Integration**.
 
-1. In addition to your Personal Access Token, enter your GitHub Custom Domain, and click **Proceed**:
+1. In addition to your Personal Access Token, enter your GitHub Custom Domain, and select **Proceed**:
 
    [![access token custom](https://assets.postman.com/postman-docs/integrations-github-custom-domain-pat.jpg)](https://assets.postman.com/postman-docs/integrations-github-custom-domain-pat.jpg)
 
 1. Complete the same steps as above to configure your collection, repository, directory, file name, and branch.
 
-1. To finish, click **Add Integration**.
+1. To finish, select **Add Integration**.
 
 ### Static IP Support
 
-If your network is behind a firewall that requires whitelisted IP addresses, you will need to use a static IP address to enable collection backups to GitHub on custom domains.
+If your network is behind a firewall that requires IP addresses from an allowlist, you will need to use a static IP address to enable collection backups to GitHub on custom domains.
 
-Contact your IT team to whitelist the following static IP in your firewall to enable collection backups to GitHub:
+Contact your IT team to allowlist the following static IP in your firewall to enable collection backups to GitHub:
 
 * US East: `3.212.102.200`
 
-Once you whitelist this IP address, calls for this integration will be able to connect to your network and allow the integration to work as expected.
+Once you allowlist this IP address, calls for this integration will be able to connect to your network and allow the integration to work as expected.
 
 ## Syncing your API schemas on GitHub
 

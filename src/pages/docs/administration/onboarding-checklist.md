@@ -21,14 +21,14 @@ contextual_links:
 
 ---
 
-If you're just getting started using Postman within your organization, you can carry out a few preparation steps to set your team up for success.
+If you're just getting started using Postman within your organization, you can carry out the following preparation steps to set your team up for success.
 
 ## Contents
 
 * [Setting up Postman](#setting-up-postman)
-    * [Invite Team Members](#invite-team-members)
-    * [Check Your Setup](#check-your-setup)
-    * [Enable Team Discovery](#enable-team-discovery)
+    * [Invite team members](#invite-team-members)
+    * [Check your setup](#check-your-setup)
+    * [Enable team discovery](#enable-team-discovery)
 
 ## Setting up Postman
 
@@ -44,7 +44,7 @@ You may want to contact your IT team to establish what the procedure is for addi
 
 * Your IT team may need to add an exception to device policy allowing for Postman to be installed on employee workstations. Provide a [Postman download link​](https://www.postman.com/downloads/) to the IT team to help establish this exception.
 * If your organization's network connection is facilitated behind a proxy, you may need to configure Postman appropriately. Retrieve proxy connection details from your IT team and [​set them up within Postman](/docs/getting-started/proxy/)​.
-* It is recommended that your IT team allowlists Postman’s domains to ensure Postman data is synced with the cloud and all functionality works as expected. By default, WebSocket connections use the same ports as HTTP (80) and HTTPS (443). Ensure your network firewall allows WebSocket connections for Postman's services by allowlisting the following domains:
+* It's recommended that your IT team allowlists Postman’s domains to ensure Postman data is synced with the cloud and all functionality works as expected. By default, WebSocket connections use the same ports as HTTP (80) and HTTPS (443). Ensure your network firewall allows WebSocket connections for Postman's services by allowlisting the following domains:
 
     * `*.postman.com`
     * `*.getpostman.com`
@@ -56,7 +56,7 @@ You may want to contact your IT team to establish what the procedure is for addi
 * Update your [team settings](https://go.postman.co/settings/team/general). See [Team Settings](/docs/administration/team-settings/) for more information.
 * If your Postman [plan](https://www.postman.com/pricing) includes single-sign-on (SSO) you may need help from your IT team to configure it. See [Configuring SSO for a team](/docs/administration/sso/admin-sso/) for instructions on integrating with specific identity providers.
 
-### Invite Team Members
+### Invite team members
 
 Depending on the size of your team you can send invites to your team now or [Check Your Setup](#check-your-setup) with a few volunteers before you rollout Postman to your entire organization.
 
@@ -64,7 +64,7 @@ You can add your teammates from your [team dashboard](https://go.postman.co/team
 
 <img src="https://assets.postman.com/postman-docs/invite-users-modal.jpg" alt="Invite users" width="400px"/>
 
-### Check Your Setup
+### Check your setup
 
 Before you start work in full, it’s best to check the functionality of Postman within your organization and ensure everything operates as expected. If you do not have access to Postman and a Postman account, find a team member who does to help you test the configuration. Depending on your organization's IT policy you may need to make requests of your IT team in order to get up and running as well.
 
@@ -76,7 +76,7 @@ Ensure you are connected to your organization's network and test the following:
 
 Repeat these checks on a colleague’s workstation. If everything worked, your workstations and network are ready to support Postman! If you experienced an issue, [​contact Postman support](https://www.postman.com/support/) and please read on.
 
-### Enable Team Discovery
+### Enable team discovery
 
 Team discovery makes Postman’s collaboration features more discoverable to users, and allows your team participation to scale up along with your successful API projects. When team discovery is enabled, users in your organization can see teams to join when they access their Postman accounts. Anyone signing in with a company email address is presented with available teams and can make a request to join each one. Administrators will receive a notification and can approve or deny access from there. See [Team Discovery](/docs/collaborating-in-postman/collaboration-intro/#team-discovery) for more info.
 
@@ -84,7 +84,7 @@ Team discovery makes Postman’s collaboration features more discoverable to use
 
 If you have any questions or run into any issues setting up Postman for your team be sure and check to see if the question has already been answered by the [Postman Community](https://community.postman.com/). You can also find a number of support resources on the [support page](https://www.postman.com/support).
 
-## Next Steps
+## Next steps
 
 Check out [Security and Compliance: A Shared Responsibility Model](https://www.postman.com/shared-responsibility/) for important security considerations.
 

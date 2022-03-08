@@ -113,12 +113,12 @@ Select the public workspace you want to share to, and choose whether you also wa
 
 ## Removing elements from a public workspace
 
-When you remove an element from a public workspace, it is no longer visible in that particular workspace. The element is still available in any other workspace where it has been added.
+When you remove an element from a public workspace, it's no longer visible in that particular workspace. The element is still available in any other workspace where it has been added.
 
 * To remove a _collection_ from a public workspace, open it using Collections on the left side, then select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> > **Remove from workspace**. Confirm that you would like to remove the collection from the current workspace. The collection will no longer be visible in the workspace.
 * To remove an _environment_ from a public workspace, select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to the environment menu or select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to the Share button in the Environment tab. Select **Remove from workspace** and confirm that you would like to remove the environment from the current workspace. The environment will no longer be visible in the workspace.
 
-> Deleting an element is different from removing it. When you delete an element, it is no longer available in any workspace. When you remove an element from a specific workspace, it will still be available in any other workspaces it was in.
+> Deleting an element is different from removing it. When you delete an element, it's no longer available in any workspace. When you remove an element from a specific workspace, it will still be available in any other workspaces it was in.
 
 ## Deleting a public workspace
 

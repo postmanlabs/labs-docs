@@ -50,7 +50,7 @@ The Postman console logs the following information:
 * The proxy configuration and certificates used for the request
 * Network information such as IP addresses, ciphers, and protocols used
 * Log statements and asynchronous requests from test or pre-request scripts
-* The raw response sent by the server before it is processed by Postman
+* The raw response sent by the server before it's processed by Postman
 
 > Monitor results are logged to a separate console. For more information on how to view logs from a monitor run, see [Viewing monitor results](/docs/monitoring-your-api/viewing-monitor-results/#console-log).
 
@@ -93,7 +93,7 @@ Using log statements at appropriate locations in your test scripts can help you 
 
 ## Common issues
 
-If your issue with sending a request is not listed here, see [Getting help](#getting-help) for information how to to contact Postman support.
+If your issue with sending a request is not listed here, see [Getting help](#getting-help) for information how to contact Postman support.
 
 Issue | Resolving the issue
 --- | ---
@@ -107,8 +107,8 @@ Issue | Resolving the issue
 **Short timeouts** | If you configure a short timeout in Postman, the request could be timing out before completion, resulting in an error. Try increasing the timeout to avoid this issue in [Settings](/docs/getting-started/settings/) by selecting <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-gear-outline-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> > **Settings** > **General**.
 **Invalid responses** | If your server sends incorrect response encoding errors, or invalid headers, Postman may fail to interpret the response.
 **TLS version** | Postman supports TLS version 1.2 and higher, which [may not be supported if you are using an older browser or operating system](https://support.postman.com/hc/en-us/articles/360041392573-Deprecating-TLS-1-0-and-TLS-1-1).
-**Postman errors** | It is possible that Postman might be making invalid requests to your API server. You can confirm this by checking your server logs, if available. If you believe this is happening, contact the Postman team using the [GitHub issue tracker](https://github.com/postmanlabs/postman-app-support/issues).
-**Unresolved variables** | An unresolved variable is not defined in an active scope that is available for the request it’s used in. For more information on why this happens and how to solve the problem, see [Fixing unresolved variables](/docs/sending-requests/variables/#fixing-unresolved-variables).
+**Postman errors** | It's possible that Postman might be making invalid requests to your API server. You can confirm this by checking your server logs, if available. If you believe this is happening, contact the Postman team using the [GitHub issue tracker](https://github.com/postmanlabs/postman-app-support/issues).
+**Unresolved variables** | An unresolved variable isn't defined in an active scope that's available for the request it’s used in. For more information on why this happens and how to solve the problem, see [Fixing unresolved variables](/docs/sending-requests/variables/#fixing-unresolved-variables).
 
 ## Getting help
 

@@ -1,6 +1,7 @@
 ---
 title: "API schema security warnings"
 order: 116
+updated: 2021-09-14
 page_id: "security_warnings"
 warning: false
 contextual_links:
@@ -37,7 +38,7 @@ You can use Postman to identify any potential security misses when your API is d
 
 <img alt="Security warnings for OpenAPI 3.0" src="https://assets.postman.com/postman-docs/security-warnings-openapi-3-v9.jpg"/>
 
-Also, for every security warning that Postman supports, you can inspect each warning, understand its implication and find out ways to apply patches in order to solve the underlying issue highlighted by the warning. Once you create a new API, navigate to the **Definition** tab on the API version page to view the issues found in schema, if any. Under **Warnings**, click **Possible fix** to the right of the warning to understand more about the security warning and possible ways to resolve them.
+Also, for every security warning that Postman supports, you can inspect each warning, understand its implication and find out ways to apply patches in order to solve the underlying issue highlighted by the warning. Once you create a new API, navigate to the **Definition** tab on the API version page to view the issues found in schema, if any. Under **Warnings**, select **Possible fix** to the right of the warning to understand more about the security warning and possible ways to resolve them.
 
 ## Next steps
 

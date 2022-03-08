@@ -506,7 +506,7 @@ pm.test('Schema is valid', function() {
 });
 ```
 
-Validate JSON schema with the the Ajv JSON schema validator:
+Validate JSON schema with the Ajv JSON schema validator:
 
 ```js
 const schema = {

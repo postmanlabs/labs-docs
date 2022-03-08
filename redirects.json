@@ -1884,5 +1884,9 @@
 	{
 		"from": "/docs/sending-requests/capturing-request-data/proxy/",
 		"to": "/docs/getting-started/proxy/"
+	},
+	{
+		"from": "/docs/administration/managing-your-team/configuring-scim/",
+		"to": "/docs/administration/scim-provisioning/scim-provisioning-overview/"
 	}
 ]
