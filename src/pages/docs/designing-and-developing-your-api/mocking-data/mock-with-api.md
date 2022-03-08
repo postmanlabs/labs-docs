@@ -88,7 +88,7 @@ Make sure to add an `x-api-key` header with your Postman API Key, and then selec
 
 Now that you have the collection ID (and optionally the environment ID), you can use the [POST Create Mock](https://documenter.getpostman.com/view/12959542/UV5XjJV8?_ga=2.100201950.1771040895.1644854022-1154140310.1627600155#296628ed-d49b-4206-b4a7-d622e693945c) endpoint to create a mock server.
 
-First, create a new request in Postman, select `POST` for the method, and enter the following URL: `https://api.getpostman.com/environments`
+First, create a new request in Postman, select `POST` for the method, and enter the following URL: `https://api.getpostman.com/mocks`
 
 Next, add the following **raw** JSON code to the **Body** tab of the request, substituting your collection ID and environment ID:
 

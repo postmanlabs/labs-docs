@@ -66,7 +66,7 @@ The **Uptime** graph shows the status of the monitored endpoint URL during the s
 
     > If you selected the **Follow redirects** option when configuring the monitor, 3xx status codes are not considered as downtime.
 
-* **Unknown:** (Gray) Postman cannot determine the status of the URL because the monitor is paused, because the monitor did not exist during the displayed time period, or for some other unexpected reason.
+* **Unknown:** (Gray) Postman cannot determine the status of the URL because the monitor is paused, because the monitor didn't exist during the displayed time period, or for some other unexpected reason.
 
 Select **Summary** to view combined data for all regions, or select **Region** to view data for each region separately.
 

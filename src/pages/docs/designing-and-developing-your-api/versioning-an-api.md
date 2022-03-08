@@ -71,11 +71,11 @@ Each API in Postman has one or more versions, and versions have multiple release
 * A _release_ is a periodic incremental change to a version of an API. You can see released and unreleased changes in the Changelog, and create new releases there. Changes include edits to the API schema or any related elements. Releases can be mapped to Git release tags when you are connected to an external Git repo.
 * A _status_ is a text tag which you can change to indicate the current development stage of the API version.
 
-You can create any number of versions in parallel. For example, you can create a new 2.0 version of an API that introduces new breaking changes and work on it internally, but keep adding changes to the 1.0 version that is currently public.
+You can create any number of versions in parallel. For example, you can create a new 2.0 version of an API that introduces new breaking changes and work on it internally, but keep adding changes to the 1.0 version that's currently public.
 
 A typical workflow for API-first development:
 
-1. Create an initial version of an API. Set the version's status to indicate it is in progress, such as "Planning" or "In Development."
+1. Create an initial version of an API. Set the version's status to indicate it's in progress, such as "Planning" or "In Development."
 1. Make changes to the schema and associated collections.
 1. Review changes in the changelog. You can set the version's status in Postman to "Code Review" or "Security Review" during this stage.
 1. Go to the changelog and select **Release changes**. Name the release, add a release note, and create the release. Then change the status to "In Production."
@@ -89,7 +89,7 @@ When it's time to release, you can merge the develop branch to the main branch i
 A typical workflow for API-first development with an external Git repo:
 
 1. Connect a repo and set up a develop branch.
-1. Create an initial version of an API in Postman. Set the version's status to indicate it is in progress, such as "Planning" or "In Development."
+1. Create an initial version of an API in Postman. Set the version's status to indicate it's in progress, such as "Planning" or "In Development."
 1. Make changes to the schema and associated collections in Postman, then commit and push changes to the develop branch in the Git repo.
 1. You can also make changes to schemas and collections directly in Git using other tools or editors. And developers can follow a Git workflow like working on feature branches, then creating PRs to merge them into the develop branch.
 1. Periodically pull from the develop branch to get changes others have made into Postman, and resolve conflicts if there are any issues.
@@ -151,7 +151,7 @@ If your Git repo has multiple feature branches, you can switch branches in Postm
 
 To switch to a different branch, select **Switch Branch** the repo dropdown list, then choose a branch from the list. Note that the **Switch Branch** list is only available if your repo has more than one branch, in addition to the main branch.
 
-When you are not in the configured develop branch, you can only edit the API schema and collections. Commit and push your changes to the feature branch, then in your Git repo, you can make a pull request, review changes, and merge back to your develop branch.
+When you aren't in the configured develop branch, you can only edit the API schema and collections. Commit and push your changes to the feature branch, then in your Git repo, you can make a pull request, review changes, and merge back to your develop branch.
 
 ### Removing the repository connection
 
@@ -169,8 +169,8 @@ To create a new version of an API:
 
 1. Go to the API **Overview** page. Select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> in the upper right corner and select **Create version**.
 1. Enter a version name.
-1. Select **Make this version available for consumers** if you want the new version to be visible. Otherwise, it is only visible to editors.
-1. If you want want to base this version on existing elements, select **Show more options** to expand the dialog. In **Copy elements from a previous version**, choose a previous version of the API. Then select the elements you want to copy to your new API.
+1. Select **Make this version available for consumers** if you want the new version to be visible. Otherwise, it's only visible to editors.
+1. If you want to base this version on existing elements, select **Show more options** to expand the dialog. In **Copy elements from a previous version**, choose a previous version of the API. Then select the elements you want to copy to your new API.
     > Copying an element creates a new copy in your workspace. The new element will have the new version number appended to its name, such as `my-docs-2.0.0`. The new elements will be linked to the new version of the API.
 1. Select __Create Version__. Your new version will open in the API Builder.
 
@@ -203,7 +203,7 @@ To create a release:
 1. Select **+ Release changes**.
 1. Enter the release name and description.
 1. If you are using an external Git repo, select a tag in **Git release**.
-1. Select **Make this version available for consumers** if you want the new version to be visible. Otherwise, it is only visible to editors.
+1. Select **Make this version available for consumers** if you want the new version to be visible. Otherwise, it's only visible to editors.
 1. Select **Create Release**. You will be taken to a new page for the release.
 
 You can also edit a release name in the Changelog. Next to the release, select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px">, then select **Edit**.
@@ -212,6 +212,6 @@ You can also edit a release name in the Changelog. Next to the release, select <
 
 An API status is a text tag which you can change to indicate the current stage of the API version within your development cycle. For example, you can select a status such as "In Design," "Security Review," or "In Production." You can set different statuses for each version of an API.
 
-A status doesn't affect visibility, permissions, or availability of an API. It's simply a way to tell others on your team the current state of the API. Statuses are not automatically changed by any actions or state change in your files. You can change the status at any time.
+A status doesn't affect visibility, permissions, or availability of an API. It's simply a way to tell others on your team the current state of the API. Statuses aren't automatically changed by any actions or state change in your files. You can change the status at any time.
 
 Statuses are displayed in the upper left of the API tab. To set a new status, choose one from the dropdown list.

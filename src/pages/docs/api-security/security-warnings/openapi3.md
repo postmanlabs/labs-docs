@@ -777,7 +777,7 @@ components:
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| Medium | In OAuth implicit flow, authorization server issues access tokens in the authorization request’s response. Attackers can easily intercept API calls and retrieve the access tokens to make other API calls. | It is recommended to use authorizationCode flow. Make sure that the OAuth authentication scheme is not using the implicit flow. |
+| Medium | In OAuth implicit flow, authorization server issues access tokens in the authorization request’s response. Attackers can easily intercept API calls and retrieve the access tokens to make other API calls. | It's recommended to use authorizationCode flow. Make sure that the OAuth authentication scheme is not using the implicit flow. |
 
 **Resolution:**
 
@@ -801,7 +801,7 @@ components:
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| Medium | Oauth password grant flow uses the user’s credentials to retrieve the access token. Attackers can easily intercept API calls and retrieve the access tokens to make other API calls. | It is recommended to use authorizationCode flow. Make sure that the OAuth authentication scheme is not using the password grant flow. |
+| Medium | Oauth password grant flow uses the user’s credentials to retrieve the access token. Attackers can easily intercept API calls and retrieve the access tokens to make other API calls. | It's recommended to use authorizationCode flow. Make sure that the OAuth authentication scheme is not using the password grant flow. |
 
 **Resolution:**
 

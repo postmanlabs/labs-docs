@@ -95,7 +95,7 @@ After Interceptor is connected, you can then start an Interceptor debug session,
 
 While your Interceptor session is running, the **Interceptor Debug Session** window will show captured traffic as you use the Chrome browser.
 
-There are several controls you can use to limit, organize, and investigate traffic as it is captured:
+There are several controls you can use to limit, organize, and investigate traffic as it's captured:
 
 * Select the name **Interceptor debug session** and enter another name to change the window name.
 * The **Configure incoming requests** controls at the top of the window enable you to limit captured traffic. Select items from **Methods** and **URL** to limit the traffic. These controls are similar to the ones you set initially, but they limit what is being captured instead of what is going through Interceptor.
@@ -123,7 +123,7 @@ After stopping the session, the Interceptor is still connected. Select <img alt=
 
 ### Viewing the Interceptor debug session results
 
-After completing a debug session, a transaction of it is located in the **History** tab, named **Interceptor debug session**.
+After completing a debug session, a transaction of it's located in the **History** tab, named **Interceptor debug session**.
 
 When you open a saved debug session, the top header displays the session start time, total size, duration, and source.
 
@@ -176,7 +176,7 @@ You can find the current status of your Interceptor integration by looking at th
 * **`INTERNET_CONNECTIVITY`**:
     * Check your internet connection.
     * If you are sitting behind a firewall check your inbound and outbound policies.
-    * If you are using a proxy, check that it is properly configured.
+    * If you are using a proxy, check that it's properly configured.
 * **`FILE_PERMISSIONS_REQUIRED`**:
     * Verify that you have permissions to create the `.postman/InterceptorBridge` folders.
     * Verify that you have permissions to delete, write, and execute in the path `.postman/InterceptorBridge`.
@@ -263,7 +263,7 @@ To update Interceptor:
 
 ## Using the Interceptor with Postman's Chrome app
 
-> Postman's Chrome app is deprecated and no longer offers feature parity with Postman native. It is highly recommended that you switch to [Postman native](https://www.postman.com/downloads/).
+> Postman's Chrome app is deprecated and no longer offers feature parity with Postman native. It's highly recommended that you switch to [Postman native](https://www.postman.com/downloads/).
 
 The Postman Chrome app's Interceptor functions as a proxy to capture HTTP and HTTPS requests. You can use Interceptor to capture requests made by your Chrome browser and send them to your Postman app's history.
 
