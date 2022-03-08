@@ -37,13 +37,13 @@ You can configure a custom webhook with Postman to send events such as monitor r
 
 ## Static IP Support
 
-If your network is behind a firewall that requires whitelisted IP addresses, you will need to use a static IP address to enable collection backups to custom webhooks on custom domains.
+If your network is behind a firewall that requires IP addresses from an allowlist, you will need to use a static IP address to enable collection backups to custom webhooks on custom domains.
 
-Contact your IT team to whitelist the following static IP in your firewall to enable collection backups to webhooks:
+Contact your IT team to allowlist the following static IP in your firewall to enable collection backups to webhooks:
 
 * US East: `3.212.102.200`
 
-Once you whitelist this IP address, calls for the custom webhook will be able to connect to your network and allow the webhook to work as expected.
+Once you allowlist this IP address, calls for the custom webhook will be able to connect to your network and allow the webhook to work as expected.
 
 ## Configuring custom webhook URL
 
@@ -62,13 +62,13 @@ Each integration's page explains how to use the integration and what it can do. 
 
 You can use custom webhooks to back up your Postman collections. This will require a few quick steps to set up:
 
-1. Click **Add Integration**.
+1. Select **Add Integration**.
 2. In the **Backup your Postman Collections** page:
    * Enter any name
    * Select the collection.
    * Enter the webhook URL.
 
-3. Click **Add Integration**.
+3. Select **Add Integration**.
 
 [![webhooks collections1](https://assets.postman.com/postman-docs/add-integration-setup.jpg)](https://assets.postman.com/postman-docs/add-integration-setup.jpg)
 
@@ -102,9 +102,9 @@ The activity feed is where you can view all changes being made to your Postman c
 
 To send collection activity feed to custom webhooks:
 
-1. Click **Add Integration**.
+1. Select **Add Integration**.
 2. In the **Collection Activity Feed** page, enter the webhook URL to send team updates to this specific URL.
-3. Click **Add Integration**.
+3. Select **Add Integration**.
 
 ## Send Monitor run results to custom webhooks
 
@@ -112,9 +112,9 @@ Postman Monitors allows you to run your collections on a schedule without any ma
 
 To send monitor run results to custom webhooks:
 
-1. Click **Add Integration**.
+1. Select **Add Integration**.
 2. In the **Monitor Run Results** page, select the monitor you want to send to custom webhooks.
-3. Click **Add Integration**.
+3. Select **Add Integration**.
 
 [![webhook_mon_runs](https://assets.postman.com/postman-docs/webhooks_monitors1.png)](https://assets.postman.com/postman-docs/webhooks_monitors1.png)
 
@@ -205,9 +205,9 @@ The activity feed is where you can track changes made to your collections and wi
 
 To send a team activity feed to a custom webhook:
 
-1. Click the **Add Integration** button.
+1. Select **Add Integration**.
 2. In the **Team Activity Feed** page, enter the webhook URL to send team updates to this specific URL.
-3. Click the **Add Integration** button.
+3. Select **Add Integration**.
 
 [![custom webhook](https://assets.postman.com/postman-docs/WS-integrations-msFlow-teamactivityfeed.png)](https://assets.postman.com/postman-docs/WS-integrations-msFlow-teamactivityfeed.png)
 

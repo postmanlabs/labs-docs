@@ -30,7 +30,7 @@ In the header toolbar, select **Services**. If you are creating a new service fo
 
 Enter your Service Name and choose Postman as the Integration Type.
 
-Click the **Add Service** link at the bottom of the page to create a new service.
+Select the **Add Service** link at the bottom of the page to create a new service.
 
 ![pagerduty menu](https://assets.postman.com/postman-docs/pagerduty-config-service.jpg)
 

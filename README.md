@@ -30,13 +30,13 @@ We would love for you to contribute to the Learning Center! To contribute to thi
 
 ```
 
-**NOTE:** this site was built with node v14.15.0. We recommend installing and using [nvm](https://github.com/nvm-sh/nvm) and setting your node version to v14.15.0.
+**NOTE:** this site was built with node v14.15.0. We recommend installing and using [nvm](https://github.com/nvm-sh/nvm) and setting your Node.js version to v14.15.0.
 
 ### Build using Docker
 
 You can build the Learning Center and run it in a Docker container by creating a `dockerfile`.
 
-1. Start by cloning the the repository
+1. Start by cloning the repository:
 
    `git clone https://github.com/postmanlabs/postman-docs.git`
 
@@ -81,7 +81,7 @@ You can build the Learning Center and run it in a Docker container by creating a
 
 #### Docker Compose
 
-You can also build with the `docker-compose` command using the dockerfile above and this docker-compose.yaml
+You can also build with the `docker-compose` command using the `dockerfile` above and this `docker-compose.yaml`:
 
 ```yaml
 
@@ -95,7 +95,7 @@ services:
 
 ```
 
-The docker-compose.yaml should be in the same directory as the postman-docs directory and dockerfile.
+The `docker-compose.yaml` must be in the same directory as the `postman-docs` directory and `dockerfile`.
 
 ```shell
 
@@ -107,7 +107,7 @@ The docker-compose.yaml should be in the same directory as the postman-docs dire
 
 ```
 
-Start run the container with this command
+Start run the container with this command:
 
 `$ docker-compose up`
 
@@ -119,7 +119,7 @@ The built site will only host the most up-to-date docs. All legacy documentation
 
 * Posts are maintained under the `/src/pages/docs` folder.
 
-* The folder structure of /docs is the URL structure for posts. For example, `/docs/postman/variables-and-environments/variables.md` is mapped to the URL `https://learning.postman.com/docs/postman/variables-and-environments/variables/`.
+* The folder structure of `/docs` is the URL structure for posts. For example, `/docs/postman/variables-and-environments/variables.md` is mapped to the URL `https://learning.postman.com/docs/postman/variables-and-environments/variables/`.
 
 * Links in the docs should be relative. Example:
 

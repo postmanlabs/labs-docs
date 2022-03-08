@@ -90,9 +90,9 @@ To delete a domain and all cookies associated with it, select **X** next to the 
 
 You can also add or edit the cookies in a response with the [Set-Cookie header](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Set-Cookie).
 
-## Whitelisting domains for programmatic access of cookies
+## Allowlisting domains for programmatic access of cookies
 
-Adding a domain to the whitelist allows cookies for that domain to be accessed in scripts. To whitelist a domain, select the **Cookies** link under the **Send** button and open the **Manage Cookies** dialog. Select **Whitelist Domains** in the bottom left and enter the list of domains to be whitelisted.
+Adding a domain to the allowlist allows cookies for that domain to be accessed in scripts. To allowlist a domain, select the **Cookies** link under the **Send** button and open the **Manage Cookies** dialog. Select **Whitelist Domains** in the bottom left and enter the list of domains to be allowlisted.
 
 ## Programmatic access of cookies
 

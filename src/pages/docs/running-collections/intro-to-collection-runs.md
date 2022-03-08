@@ -1,6 +1,7 @@
 ---
 title: "Using the Collection Runner"
 order: 55
+updated: 2021-11-04
 page_id: "intro_to_collection_runs"
 search_keyword: "postman.setNextRequest, setNextRequest"
 contextual_links:
@@ -47,15 +48,15 @@ You can run collections against specific environments, and can pass data files i
 
 ## Starting a collection run
 
-To run a collection, open a collection and click __Run__ on the overview tab.
+To run a collection, open a collection and select __Run__ on the overview tab.
 
 [![Collection Run](https://assets.postman.com/postman-docs/collection-run-button-v8.jpg)](https://assets.postman.com/postman-docs/collection-run-button-v8.jpg)
 
-You can also click __Runner__ at the bottom right of Postman and drag a collection over from __Collections__ or __History__ on the left.
+You can also select __Runner__ at the bottom right of Postman and drag a collection over from __Collections__ or __History__ on the left.
 
 <img alt="Run history" src="https://assets.postman.com/postman-docs/run-history-v8.jpg" width="350px"/>
 
-By default your requests will run in the sequence they are listed in the collection, but you can click to the left of each one and drag to move it if you need to change the order of execution. You can also deselect an individual request by unchecking its box.
+By default your requests will run in the sequence they are listed in the collection. If you need to change the order of execution, select a request and drag it to move it to its new order. You can also deselect an individual request by unchecking its box.
 
 [![Runner request order](https://assets.postman.com/postman-docs/runner-order-v8.jpg)](https://assets.postman.com/postman-docs/runner-order-v8.jpg)
 
@@ -75,9 +76,9 @@ You can optionally choose config parameters for your collection run:
 
 ## Running your collections
 
-With your config complete, click __Run (collection name)__ to execute it. Postman will display your request executions and test results in realtime. To the right you will see a number for each iteration—click to select one. You will see an overview for each request, including its passed or failed tests—you can filter on each using the __Passed__ and __Failed__ tabs at the top.
+With your config complete, select __Run (collection name)__ to execute it. Postman will display your request executions and test results in realtime. To the right you will see a number for each iteration. When you select one, you will see an overview for each request, including its passed or failed tests. You can filter on each using the __Passed__ and __Failed__ tabs at the top.
 
-Click a request name to access more data on what happened when it executed.
+Select a request name to access more data on what happened when it executed.
 
 [![Runner results](https://assets.postman.com/postman-docs/runner-results-v8.jpg)](https://assets.postman.com/postman-docs/runner-results-v8.jpg)
 
@@ -97,13 +98,13 @@ You can export test results and view the __Run Summary__ using the buttons at th
 
 The summary also lists a column for each iteration of your collection run so that you can see test output for the whole run at a glance.
 
-To navigate back click __Run Results__.
+To navigate back select __Run Results__.
 
 ## Sharing collection runs
 
 You can share the run results for a collection, by exporting them from the Collection Runner so that other people can analyze them.
 
-To export a collection run, open it in the __Runner__ (using __History__ on the left if you don't still have the run open). Click __Export Results__ at the top right to download the run. Choose a location to save your downloaded collection run.
+To export a collection run, open it in the __Runner__ (using __History__ on the left if you don't still have the run open). Select __Export Results__ at the top right to download the run. Choose a location to save your downloaded collection run.
 
 ## Automating collection runs
 

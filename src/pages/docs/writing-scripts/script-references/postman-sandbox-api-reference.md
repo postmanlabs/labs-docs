@@ -451,7 +451,7 @@ The `pm.info` object provides data related to the request and the script itself,
 
 The `pm.info` object provides the following properties and methods:
 
-* The event, which will be either "prerequest" or "test" depending on where the script is executing within the request:
+* The event, which will be either `prerequest` or `test` depending on where the script is executing within the request:
 
 ```js
 pm.info.eventName:String
@@ -509,7 +509,7 @@ pm.cookies.toObject():Function → Object
 
 You can also use `pm.cookies.jar` to specify a domain for access to request cookies.
 
-To enable programmatic access via the `pm.cookies.jar` methods, first [whitelist](/docs/sending-requests/cookies/) the cookie URL.
+To enable programmatic access via the `pm.cookies.jar` methods, first add the cookie URL to the [allowlist](/docs/sending-requests/cookies/).
 
 * Access the cookie jar object:
 
@@ -632,7 +632,7 @@ The `postman` object provides the `setNextRequest` method for building request w
 
 When you run a collection (using the collection runner or Newman), Postman will run your requests in a default order or an order you specify when you set up the run. However, you can override this execution order using `postman.setNextRequest` to specify which request should run next.
 
-* Run the specified request after this one (the request name as defined in the collection e.g. "Get customers"):
+* Run the specified request after this one (the request name as defined in the collection, for example "Get customers"):
 
 ```js
 postman.setNextRequest(requestName:String):Function

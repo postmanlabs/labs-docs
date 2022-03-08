@@ -54,7 +54,7 @@ To include code you want to execute before Postman sends a request, open the req
 
 ![Pre Request Code](https://assets.postman.com/postman-docs/pre-request-script-v8.jpg)
 
-When you click __Send__, the code will execute before Postman sends the request to the API.
+When you select __Send__, the code will execute before Postman sends the request to the API.
 
 ## Re-using pre-request scripts
 

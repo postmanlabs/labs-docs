@@ -107,7 +107,7 @@ If all of your applications need to use the same proxy, you might need to use a 
 
 System proxy settings are enabled by default. Any request made through Postman will go through the system proxy.
 
-You can select or unselect the option "**Use the system proxy**" to turn the system proxy on or off. When it is unchecked, all the requests are made directly. However, regardless of the proxy setting in the app, Postman will still use the system proxy if there is an environment variable set.
+You can select or unselect the option "**Use the system proxy**" to turn the system proxy on or off. When it's unchecked, all the requests are made directly. However, regardless of the proxy setting in the app, Postman will still use the system proxy if there is an environment variable set.
 
 [![Use system proxy](https://assets.postman.com/postman-docs/use-system-proxy.jpg)](https://assets.postman.com/postman-docs/use-system-proxy.jpg)
 

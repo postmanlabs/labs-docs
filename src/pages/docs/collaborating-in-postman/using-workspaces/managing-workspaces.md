@@ -1,6 +1,7 @@
 ---
 title: "Using and managing workspaces"
 order: 78
+updated: 2021-09-30
 page_id: "managing_workspaces"
 contextual_links:
   - type: section
@@ -102,11 +103,11 @@ You can invite team members, [groups](/docs/administration/managing-your-team/us
 
 If you are a workspace editor or admin, you can invite anyone to personal, private, team, and public workspaces and assign them a [workspace role](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles). If you are a workspace viewer, you can invite external users to team and public workspaces, however you won't have the option to assign them a workspace role.
 
-> When you invite a collaborator to a personal workspace, it is automatically converted into a team workspace.
+> When you invite a collaborator to a personal workspace, it's automatically converted into a team workspace.
 
-Individual team members and groups you invite will be notified immediately of your request to collaborate. External users who are not on your Postman team will receive an invitation to join immediately if you are a team admin. If you are not a team admin, your request to add external users to your Postman team will be shared with your team admins for approval.
+Individual team members and groups you invite will be notified immediately of your request to collaborate. External users who aren't on your Postman team will receive an invitation to join immediately if you are a team admin. If you aren't a team admin, your request to add external users to your Postman team will be shared with your team admins for approval.
 
-You can also invite collaborators by selecting <img alt="Changelog icon" src="https://assets.postman.com/postman-docs/icon-workspace-link-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> **Copy Invite Link** and sharing the link with them outside of Postman. When individuals select the link, they'll be prompted to log in or sign up. If you are a team admin inviting an external user, they'll be automatically added to your team. If you are not a team admin, a request to add them to your Postman team will be shared with your team admins for approval.
+You can also invite collaborators by selecting <img alt="Changelog icon" src="https://assets.postman.com/postman-docs/icon-workspace-link-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> **Copy Invite Link** and sharing the link with them outside of Postman. When individuals select the link, they'll be prompted to log in or sign up. If you are a team admin inviting an external user, they'll be automatically added to your team. If you aren't a team admin, a request to add them to your Postman team will be shared with your team admins for approval.
 
 ## Managing workspace roles
 

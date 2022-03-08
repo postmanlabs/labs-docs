@@ -24,7 +24,7 @@ Log in to your Microsoft Teams account. Create a new channel, or go to an alread
 
 [![select channel](https://assets.postman.com/postman-docs/59031183.jpg)](https://assets.postman.com/postman-docs/59031183.jpg)
 
-Click on the `...` on the right side of the channel name and select `Connectors` from the dropdown list.
+Select the `...` on the right side of the channel name and select `Connectors` from the dropdown list.
 
 [![select connectors](https://assets.postman.com/postman-docs/59031299.jpg)](https://assets.postman.com/postman-docs/59031299.jpg)
 
@@ -32,7 +32,7 @@ Select the `Incoming Webhook` connector from the list of available connectors.
 
 [![select incoming webhook](https://assets.postman.com/postman-docs/59031428.jpg)](https://assets.postman.com/postman-docs/59031428.jpg)
 
-Enter a name to identify this webhook later. You can also add an image which will be visible whenever a message is posted using this webhook. Click `Create`.
+Enter a name to identify this webhook later. You can also add an image which will be visible whenever a message is posted using this webhook. Select **Create**.
 
 [![enter a name](https://assets.postman.com/postman-docs/59031665.jpg)](https://assets.postman.com/postman-docs/59031665.jpg)
 
@@ -74,7 +74,7 @@ In the **Monitor Run Results** page, select the monitor whose results you want t
 
    [![ms_teams monRun](https://assets.postman.com/postman-docs/ms-teams-send-mon-run.jpg)](https://assets.postman.com/postman-docs/ms-teams-send-mon-run.jpg)
 
-Select **Add Integration** to see your monitors in the "Configured Integrations" view. You can also click the "Advanced Options" link to indicate if you want notifications when all monitor runs are completed, or if you want notifications for three monitor run failures and then the first successful monitor run.
+Select **Add Integration** to see your monitors in the "Configured Integrations" view. You can also select the "Advanced Options" link to indicate if you want notifications when all monitor runs are completed, or if you want notifications for three monitor run failures and then the first successful monitor run.
 
    [![ms_teams monRun](https://assets.postman.com/postman-docs/msteams-monitor-results-add-q.jpg)](https://assets.postman.com/postman-docs/msteams-monitor-results-add-q.jpg)
 
