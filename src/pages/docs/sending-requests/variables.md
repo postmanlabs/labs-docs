@@ -418,31 +418,23 @@ A variable can be unresolved for a few reasons:
 * The environment in which the variable is present isn't active
 * The variable is turned off in an active environment
 
-When you are working on an API request, Postman highlights unresolved variables in the **URL builder**, the **Params** tab, the **Authorization** tab, and the **Headers** tab. Postman highlights unresolved variable text in red.
+When you are working on an API request, Postman highlights unresolved variables in the **URL builder**, the **Params** tab, the **Authorization** tab, and the **Headers** tab. Postman highlights unresolved variable text in red. To see more details about the error and how to resolve it, hover over the unresolved variable.
 
 <img alt="Unresolved variable" src="https://assets.postman.com/postman-docs/unresolved-variable-v9.jpg" width="700px"/>
 
-To view details for an unresolved variable:
-
-1. Hover over the unresolved variable. You will see a message with more details about the error and how to resolve it.
-
-<!-- TODO: add screenshot -->
-
 To check if the variable is available and in scope for the request:
 
-1. Select one of the **collection** or **globals** links. To turn on an environment, select the **environment** link.
+1. Select one of the **collection** or **globals** links. To turn on an environment, use the **select an **environment** link.
 1. Turn on or make the necessary changes to the value of the variable.
 1. Select <img alt="Save icon" src="https://assets.postman.com/postman-docs/icon-save.jpg" width="16px" style="vertical-align:middle;margin-bottom:5px"> **Save** to confirm your changes.
-
-<!-- TODO: add screenshot -->
 
 If the variable is unresolved because it doesn't exist:
 
 1. Select **Add new variable**.
 1. Enter a **Name**, verify a **Value** for the variable, and select the appropriate **Scope** (global, collection, or environment) from the dropdown.
-1. Select **Create variable**.
+1. Select **Set variable**.
 
-<!-- TODO: add screenshot -->
+<img alt="Set an unresolved variable" src="https://assets.postman.com/postman-docs/set-unresolved-variable-v9.jpg" width="300px"/>
 
 > If the variable was [defined programmatically in a script](#defining-variables-in-scripts), it will be resolved at runtime. This means that if a variable is unresolved, Postman can’t warn you before the request sends. Depending on how the unresolved variable is used, you may receive a `400 Bad Request` error response from the API, or Postman may be unable to send the request at all. Open the [console](/docs/sending-requests/troubleshooting-api-requests/#debugging-in-the-console) to help identify unresolved variables in your scripts.
 
