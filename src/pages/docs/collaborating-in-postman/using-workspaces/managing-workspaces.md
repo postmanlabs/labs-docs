@@ -29,7 +29,7 @@ contextual_links:
 warning: false
 ---
 
-Use workspaces to organize your work in Postman and collaborate with teammates ([or the world](/docs/collaborating-in-postman/public-workspaces/)). Workspaces group together various elements such as collections, APIs, environments, mock servers, and monitors. A particular element can exist only in a single workspace. Access to elements in a workspace is controlled by [workspace roles](#managing-workspace-roles).
+Use workspaces to organize your work in Postman and collaborate with teammates ([or the world](/docs/collaborating-in-postman/using-workspaces/public-workspaces/)). Workspaces group together various elements such as collections, APIs, environments, mock servers, and monitors. A particular element can exist only in a single workspace. Access to elements in a workspace is controlled by [workspace roles](#managing-workspace-roles).
 
 > You can [create new workspaces](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/) in addition to the default personal and team workspaces.
 
@@ -183,7 +183,7 @@ To delete a workspace:
 
 <img alt="Delete workspace" src="https://assets.postman.com/postman-docs/delete-a-workspace-v9.jpg" width="506px"/>
 
-> To delete a [public workspaces](/docs/collaborating-in-postman/public-workspaces/), you must first change the [workspace visibility](#changing-workspace-visibility) to team or private.
+> To delete a [public workspaces](/docs/collaborating-in-postman/using-workspaces/public-workspaces/), you must first change the [workspace visibility](#changing-workspace-visibility) to team or private.
 
 ## Next steps
 
