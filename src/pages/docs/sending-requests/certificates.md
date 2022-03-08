@@ -56,7 +56,10 @@ To add a certificate issued by a certificate authority to Postman:
 1. Turn on the toggle switch next to **CA Certificates**.
 1. Use the **Select file** button to select the PEM file for your CA certificate, and then select **Open**.
 
-SCREENSHOT - CA CERT INSTALLED
+SCREENSHOT - CA CERT INSTALLE
+
+> Do not add more than one certificate for the same domain. If you add more than one certificate a domain, Postman will use the last certificate added.
+
 
 ### Adding client certificates
 
@@ -80,7 +83,7 @@ Once your certificate is added, it should appear in the client certificates list
 
 [![client certificates list](https://assets.postman.com/postman-docs/clientcertificateslist.png)](https://assets.postman.com/postman-docs/clientcertificateslist.png)
 
-**NOTE:** You should not have multiple certificates set for the same domain. If you have multiple ones set, only the last one added will be used.
+> Do not add more than one certificate for the same domain. If you add more than one certificate a domain, Postman will use the last certificate added.
 
 ### Editing a certificate
 
