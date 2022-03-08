@@ -1,6 +1,7 @@
 ---
 title: "Viewing workspace activity"
 order: 79
+updated: 2021-04-21
 page_id: "changelog_and_restoring_collections"
 contextual_links:
   - type: section
@@ -25,7 +26,7 @@ Your Postman collections display a changelog for reviewing create, update, and d
 
 ## Viewing the collection changelog
 
-To review the changelog for a collection in Postman, select the __Collections__ tab in the left sidebar and click the __Changelog__ icon on the right of Postman to see a chronological list of collection activities.
+To review the changelog for a collection in Postman, select the __Collections__ tab in the left sidebar and select the __Changelog__ icon on the right of Postman to see a chronological list of collection activities.
 
 The changelog indicates the date of each update, the user who carried it out, what type of update they performed, and the time the change occurred. The changelog collates consecutive updates on the same session to the same entity for readability.
 
@@ -53,12 +54,12 @@ To access the activity feed in Postman, select the Overview tab and navigate to 
 
 Filtering the activity feed allows you to display the relevant information directly instead of having to scroll through the feed. You can choose to filter by [user](#filtering-by-user) or by [entity](#filtering-by-entity) (Workspace, API, Collection, Environment).
 
-To reset your search, click **Clear filters** at the right of the activity feed. You can also refresh the results by clicking **Refresh** at the right of the activity feed.
+To reset your search, select **Clear filters** at the right of the activity feed. You can also refresh the results by selecting **Refresh** at the right of the activity feed.
 
 #### Filtering by user
 
 Filtering by user will only display the actions the specified user carried out.
-To filter by user, click **User** at the top of the activity feed and select the user(s). You can search for a specific user by typing their name in the search field. Once you have selected the user(s), click **Apply**.
+To filter by user, select **User** at the top of the activity feed and select the user or users. You can search for a specific user by typing their name in the search field. Once you have selected the user, select **Apply**.
 
 > The user list will only show the users that are part of the workspace, not all team members.
 
@@ -67,9 +68,9 @@ To filter by user, click **User** at the top of the activity feed and select the
 #### Filtering by entity
 
 Filtering by entity will only display the actions carried out on the selected entity type. Available entities are `Workspace`, `API`, `Collection`, and `Environment`.
-To filter by entity, click **Entity** at the top of the activity feed and select the entity or entities. You can search for a specific entity by typing its name in the search field. Once you have selected the entity or entities, click **Apply**.
+To filter by entity, select **Entity** at the top of the activity feed and select the entity or entities. You can search for a specific entity by typing its name in the search field. Once you have selected the entity, select **Apply**.
 
-> You can access the changelog of a specific collection by clicking **View Changelog** next to actions on collections.
+> You can access the changelog of a specific collection by selecting **View Changelog** next to actions on collections.
 
 [![Activity filtering by entity](https://assets.postman.com/postman-docs/filter-by-entity.gif)](https://assets.postman.com/postman-docs/filter-by-entity.gif)
 
@@ -79,15 +80,15 @@ You can review the activity for a team with a Postman Basic, Professional, or En
 
 ## Viewing user activity
 
-You can review the activity for your own account in [Postman](https://go.postman.co/). Click your avatar in the top right, and select __Profile__ — the __Activity__ tab will list your events.
+You can review the activity for your own account in [Postman](https://go.postman.co/). Select your avatar in the top right, and select __Profile__ — the __Activity__ tab will list your events.
 
 ## Restoring collections and folders
 
-With a Postman Basic, Professional, or Enterprise account, you can use the changelog to restore a collection to a previous point in time. Click __Restore__ under a change to revert the collection to the point immediately _after_ the change was applied. The changelog will update and Postman will display a confirmation message indicating the time the collection has been restored to.
+With a Postman Basic, Professional, or Enterprise account, you can use the changelog to restore a collection to a previous point in time. Select __Restore__ under a change to revert the collection to the point immediately _after_ the change was applied. The changelog will update and Postman will display a confirmation message indicating the time the collection has been restored to.
 
 <img alt="Restore from changelog" src="https://assets.postman.com/postman-docs/restore-changelog-v8.jpg" width="400px"/>
 
-If you accidentally delete a folder, you can recover it by clicking __Restore__.
+If you accidentally delete a folder, you can recover it by selecting __Restore__.
 
 <img alt="Recover folder" src="https://assets.postman.com/postman-docs/restore-folder-v8.jpg" width="400px"/>
 
@@ -102,7 +103,7 @@ Postman will prompt you to resolve any conflicts that may cause you to lose unsa
 With a Postman Basic, Professional, or Enterprise account, you can pipe team activity feeds to external communication channels:
 
 * [Slack integration](/docs/integrations/available-integrations/slack/)
-* [Microsoft Teams integration](/docs/integrations/available-integrations/microsoft-teams/)  
+* [Microsoft Teams integration](/docs/integrations/available-integrations/microsoft-teams/)
 
 ## Next steps
 

@@ -137,7 +137,7 @@ Use links to direct users to your repository, web site, or other online resource
 
     <img alt="Adding a link" src="https://assets.postman.com/postman-docs/documentation-link-tool-v9-1.jpg" width="560px">
 
-* To add a link using Markdown, use the the following syntax:
+* To add a link using Markdown, use the following syntax:
 
     ```md
     [link text to display](https://your-link-url.com)

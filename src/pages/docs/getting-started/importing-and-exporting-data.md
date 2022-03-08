@@ -2,7 +2,7 @@
 title: 'Importing and exporting data'
 order: 8.2
 page_id: 'importing_and_exporting_data'
-updated: 2022-2-16
+updated: 2022-03-01
 contextual_links:
   - type: section
     name: "Additional Resources"
@@ -16,7 +16,7 @@ contextual_links:
     url: "https://youtu.be/gljWt9tDKOY"
   - type: link
     name: "Postman Level Up | Import a HAR file in Postman"
-    url: "https://youtu.be/E3uo-oQ9WtE"    
+    url: "https://youtu.be/E3uo-oQ9WtE"
   - type: subtitle
     name: "Related Blog Posts"
   - type: link
@@ -237,6 +237,8 @@ The [Export page](http://go.postman.co/me/export) shows information about your e
 * **Download**: The zipped file is ready to be downloaded.
 
 When the export is ready, you will receive an email with link to download a zipped file with the data dump. You can also download the file using the **Download** button on the Export page.
+
+> Data exports from the Scratch Pad are downloaded directly instead of being emailed to you. See [Exporting data from the Scratch Pad](/docs/getting-started/using-scratch-pad/#exporting-data-from-the-scratch-pad) for more details.
 
 ## Next steps
 

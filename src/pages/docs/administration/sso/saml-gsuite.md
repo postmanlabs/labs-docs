@@ -1,6 +1,7 @@
 ---
 title: "Custom SAML in GSuite"
 order: 137
+updated: 2020-05-22
 page_id: "saml_gsuite"
 warning: false
 contextual_links:
@@ -16,7 +17,7 @@ contextual_links:
 ### Setting up a custom SAML application in GSuite
 
 1. From the Google admin console, select "Apps".
-   [![gsuite admin](https://assets.postman.com/postman-docs/gsuite_admin.png)](https://assets.postman.com/postman-docs/gsuite_admin.png)  
+   [![gsuite admin](https://assets.postman.com/postman-docs/gsuite_admin.png)](https://assets.postman.com/postman-docs/gsuite_admin.png)
 
 1. Look for "SAML apps".
    [![gsuite saml apps](https://assets.postman.com/postman-docs/gsuite_saml_apps.png)](https://assets.postman.com/postman-docs/gsuite_saml_apps.png)
@@ -24,7 +25,7 @@ contextual_links:
 1. Create a new SAML app.
    [![gsuite create new](https://assets.postman.com/postman-docs/gsuite_create_new.png)](https://assets.postman.com/postman-docs/gsuite_create_new.png)
 
-1. Click "SETUP MY OWN CUSTOM APP".
+1. Select "SETUP MY OWN CUSTOM APP".
    [![gsuite setup](https://assets.postman.com/postman-docs/gsuite_setup.png)](https://assets.postman.com/postman-docs/gsuite_setup.png)
 
 1. Collect the `Identity Provider Single Sign-On URL`, `Identity Provider Issuer` and `X.509 Certificate` from this window, and enter these values into your Postman [Edit Team Details page](https://go.postman.co/settings/team/general) within the **GSuite Identity Provider Details** modal.

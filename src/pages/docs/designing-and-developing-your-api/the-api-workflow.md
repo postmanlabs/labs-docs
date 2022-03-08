@@ -65,7 +65,7 @@ The API **Overview** page displays high-level information about all versions of 
 
 <img src="https://assets.postman.com/postman-docs/api-builder-overview-page.jpg" alt="API Builder overview page" width="550px" />
 
-Select an API version to open its **API version** page. The version page contains an **Overview** tab, which shows a description of the API version, a list of each release of that version, and the associated documentation, environments, and mock servers. The **API version** page also has has tabs where you define the API schema, view documentation, add tests, view deployments, and monitor the API. This page also has controls to connect to and use an external Git repo.
+Select an API version to open its **API version** page. The version page contains an **Overview** tab, which shows a description of the API version, a list of each release of that version, and the associated documentation, environments, and mock servers. The **API version** page also has tabs where you define the API schema, view documentation, add tests, view deployments, and monitor the API. This page also has controls to connect to and use an external Git repo.
 
 <img src="https://assets.postman.com/postman-docs/api-builder-version-page.jpg" alt="API Builder version page" width="550px" />
 

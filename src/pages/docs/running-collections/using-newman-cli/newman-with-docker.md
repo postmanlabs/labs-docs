@@ -1,6 +1,7 @@
 ---
 title: "Newman with Docker"
 order: 61
+updated: 2021-06-17
 page_id: "newman_with_docker"
 contextual_links:
   - type: section
@@ -61,7 +62,11 @@ $ docker pull postman/newman;
 $ docker run -t postman/newman run "https://www.getpostman.com/collections/0d0350a9a89d39fb6361"
 ```
 
-The URL is a shareable public link to your collection. You can get this by clicking **View more actions** on a collection, choose **Share collection** and then click **Get public link**.
+The URL is a shareable public link to your collection. To get this link:
+
+1. Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to the collection name.
+1. Select **Share collection**.
+1. Select **Get public link**.
 
 At this stage, you should see the [Collection](/docs/sending-requests/intro-to-collections/) running in Newman and the output displayed in the terminal.
 
