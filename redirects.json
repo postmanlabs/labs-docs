@@ -44,6 +44,10 @@
 		"to": "/docs/collaborating-in-postman/using-workspaces/creating-workspaces/"
 	},
 	{
+		"from": "/docs/collaborating-in-postman/public-workspaces/",
+		"to": "/docs/collaborating-in-postman/using-workspaces/public-workspaces/"
+	},
+	{
 		"from": "/docs/designing-and-developing-your-api/",
 		"to": "/docs/designing-and-developing-your-api/the-api-workflow/"
 	},

@@ -319,15 +319,11 @@ export const leftNavItems = [
         url: '/docs/collaborating-in-postman/version-control-for-collections/',
       },
       {
-        name: 'Public workspaces',
-        url: '/docs/collaborating-in-postman/public-workspaces/',
-      },
-      {
         name: 'Managing public elements',
         url: '/docs/collaborating-in-postman/manage-public-elements/',
       },
       {
-        name: 'Using Workspaces',
+        name: 'Using workspaces',
         subParentSlug: 'using-workspaces',
         slug: '/docs/collaborating-in-postman/using-workspaces/creating-workspaces/',
         subMenuItems2: [
@@ -338,6 +334,10 @@ export const leftNavItems = [
           {
             name: 'Using and managing workspaces',
             url: '/docs/collaborating-in-postman/using-workspaces/managing-workspaces/',
+          },
+          {
+            name: 'Public workspaces',
+            url: '/docs/collaborating-in-postman/using-workspaces/public-workspaces/'
           },
           {
             name: 'Viewing workspace activity',
