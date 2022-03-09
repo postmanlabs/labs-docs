@@ -89,9 +89,10 @@ You can't edit a certificate after generating it. To make changes, first [remove
 
 ### Removing a certificate
 
-Remove a certificate if you no longer need it to make encrypted API calls for a domain. To remove a certificate, select **Remove** next to the certificate.
+Remove a certificate if you no longer need it to make encrypted API calls for a domain.
 
-[![remove certificate](https://assets.postman.com/postman-docs/removecertificate.png)](https://assets.postman.com/postman-docs/removecertificate.png)
+* To remove a CA certificate, select the remove icon <img alt="Close icon" src="https://assets.postman.com/postman-docs/icon-close.jpg" width="16px" style="vertical-align:middle;margin-bottom:5px"> next to the certificate
+* To remove a client certificate, select **Remove** next to the certificate.
 
 ## Using a certificate
 
@@ -103,17 +104,15 @@ You can verify a certificate was sent using the [Postman Console](/docs/sending-
 
 In this example, you used `https` to ensure Postman sends the certificate. In the Postman console, expand the request to view details about the certificate that was sent with the request.
 
-[![Postman console view](https://assets.postman.com/postman-docs/postmanconsoleviewcertificates.png)](https://assets.postman.com/postman-docs/postmanconsoleviewcertificates.png)
+[![Certificate details in console](https://assets.postman.com/postman-docs/certificates-console-details-v9-14.jpg)](https://assets.postman.com/postman-docs/certificates-console-details-v9-14.jpg)
 
 ### Viewing certificate details
 
 You can view additional certificate details in the response pane below the request. The globe icon <img alt="Refresh icon" src="https://assets.postman.com/postman-docs/icon-uptime-globe.jpg" width="14px" style="vertical-align:middle;margin-bottom:5px"> includes a padlock if a request was sent using HTTPS. Hover over the globe icon to view information about the certificate that was sent with the request, as well as any warnings or errors such as self-signed or expired certificates.
 
-[![Network info](https://assets.postman.com/postman-docs/network-info-response.jpg)](https://assets.postman.com/postman-docs/network-info-response.jpg)
+[![Network details](https://assets.postman.com/postman-docs/certificates-network-details-v9-14.jpg)](https://assets.postman.com/postman-docs/certificates-network-details-v9-14.jpg)
 
 You can also view details about the certificate that was sent in the [Postman console](#verifying-a-certificate-was-sent).
-
-<img alt="Certificate info in console" src="https://assets.postman.com/postman-docs/certificate-info-in-console.jpg" width="300px"/>
 
 ### Troubleshooting certificate errors
 
