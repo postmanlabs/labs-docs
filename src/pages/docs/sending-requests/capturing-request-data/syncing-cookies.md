@@ -35,7 +35,7 @@ The Postman app enables you to capture and sync cookies from a browser or client
 
 Once configured, Postman continuously captures cookies from the browser or client applications. For the domains you specify, captured cookies are automatically synced to your Postman cookie jar. You can then [use the cookies](/docs/sending-requests/cookies/) when sending requests from Postman.
 
-> Syncing cookies isn't available when using [Postman for web](/docs/getting-started/installation-and-updates/#web-limitations).
+> You can't sync cookies with [Postman for web](/docs/getting-started/installation-and-updates/#web-limitations). Make sure you've installed the [Postman desktop app](/docs/getting-started/installation-and-updates/).
 
 <!-- -->
 

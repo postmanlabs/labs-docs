@@ -34,7 +34,7 @@ warning: false
 
 If you are using APIs to build client-side applications like mobile apps, websites, or desktop applications, you may want to see the actual HTTP and HTTPS request traffic that's being sent and received in the application. Sometimes you might discover APIs that aren't even documented. You can capture network traffic, including requests, responses, and cookies, using the proxy that's built into the Postman app.
 
-> Capturing HTTP requests is only available using the [Postman desktop app](/docs/getting-started/installation-and-updates/#web-limitations).
+> You can also use the Postman proxy to automatically sync cookies from a Chrome browser to the Postman cookie jar. Learn more about [syncing cookies](/docs/sending-requests/capturing-request-data/syncing-cookies/).
 
 ## Contents
 
@@ -67,6 +67,8 @@ After you start the Postman proxy, you can start a proxy debug session, which is
 In the steps below, you will use the Postman app's proxy feature to inspect HTTP communication going to and from a phone. To get started, make sure your computer and phone are connected to the same local wireless network.
 
 ### Step 1: Enable the proxy
+
+> You can't use the Postman proxy with [Postman for web](/docs/getting-started/installation-and-updates/#web-limitations). Make sure you've installed the [Postman desktop app](/docs/getting-started/installation-and-updates/).
 
 To begin, start the proxy inside Postman:
 
