@@ -7,6 +7,13 @@
 // The transformer is a function that takes the data retrieved by the query and
 // transforms it into the array of objects that will become your Algolia index records.
 
+require('dotenv').config({
+  path: `.env.${process.env.NODE_ENV}`,
+
+});
+
+const algoliaIndex = (process.env.NODE_ENV === 'development') ? 'docs' : 'dev_docs';
+
 const pageQuery = `{
   docs: allMarkdownRemark(
     filter: {
@@ -54,7 +61,7 @@ const queries = [
   {
     query: pageQuery,
     transformer: ({ data }) => data.docs.edges.map(pageToAlgoliaRecord),
-    indexName: 'docs',
+    indexName: algoliaIndex,
     settings,
   },
 ];
