@@ -28,7 +28,7 @@ contextual_links:
     url: "https://youtu.be/DjGbMdqnY64"
 ---
 
-_Public workspaces_ enable you to collaborate on entities with anyone across the world. <!-- TODO: more intro. as an API developer, I can... as someone interested in collaborating with others on their APIs, I can... -->
+A _public workspace_ can be accessed by anyone in the Postman community. A public workspace can enhance a new user's onboarding experience with your API, inspire existing users with new use cases and resources, increase your API's discovery in Postman search results, and enable you to collaborate publicly with partners.
 
 ## Contents
 
@@ -184,6 +184,27 @@ You can access public workspaces using the Postman Explore page's [**Workspaces*
 
 ## Collaborating in a public workspace
 
+<!-- TODO: intro for this section -->
+<!-- TODO: new subheading titles, these are bad -->
+
+### Inviting collaboration on your workspace
+
+An informative and inviting public workspace can potentially increase adoption of your APIs.
+
+complete team public profile
+good public workspace including documentation for your APIs
+
+Signs of a healthy public workspace include:
+
+* **Active forks of your workspace.** The number of people who [fork your workspace](/docs/collaborating-in-postman/version-control-for-collections/#forking-postman-elements) and work on their forks can indicate strong collaborator engagement.
+* **People watching your workspace.** The number of people who [watch your workspace](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#watching-a-workspace) for activity can reflect interest from potential collaborators.
+* **Recent activity on the workspace.** A [workspace activity feed](/docs/collaborating-in-postman/using-workspaces/changelog-and-restoring-collections/#viewing-workspace-activity) that shows ongoing work assures potential collaborators that your team updates and maintains the workspace.
+* **API calls from Postman.** The percentage of calls to your API that include a Postman `User-Agent` header can be a good indicator that your workspace is being used.
+
+For more information on using a public workspace to help increase adoption of your API, see the [Postman blog](https://blog.postman.com/increasing-adoption-of-an-api-with-a-public-workspace/).
+
+### Collaborating on other's workspaces
+
 If you want to collaborate with someone in their public workspace, you can...
 
 To collaborate on entities within a public workspace, open the workspace menu and select the workspace.
@@ -191,12 +212,6 @@ To collaborate on entities within a public workspace, open the workspace menu an
 For collections and environments, [create a fork](/docs/collaborating-in-postman/version-control-for-collections/#forking-a-collection) and request to merge changes using a [pull request](/docs/collaborating-in-postman/version-control-for-collections/#creating-pull-requests).
 
 For APIs, navigate to the API and version. Select **Definition** > **Request Access** to request an editor role.
-
-If you are a team hoping to drum up collaboration from the public, you can...
-
-Best practices...
-
-Signs of a healthy public workspace include...
 
 ## Next steps
 
