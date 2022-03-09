@@ -49,7 +49,7 @@ You can view currently installed certificates, add a new certificate, or remove 
 1. Select the gear icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-gear-outline-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> in the Postman header and select **Settings**.
 1. Select the **Certificates** tab.
 
-[![certificates tab](https://assets.postman.com/postman-docs/WS-certificates.png)](https://assets.postman.com/postman-docs/WS-certificates.png)
+[![Certificates tab](https://assets.postman.com/postman-docs/certificates-settings-tab-v9-14.jpg)](https://assets.postman.com/postman-docs/certificates-settings-tab-v9-14.jpg)
 
 ### Adding CA certificates
 
@@ -58,7 +58,7 @@ To add a certificate issued by a certificate authority to Postman:
 1. Turn on the toggle switch next to **CA Certificates**.
 1. Select the PEM file for your CA certificate, then select **Open**.
 
-SCREENSHOT - CA CERT INSTALLED
+[![Adding a CA certificate](https://assets.postman.com/postman-docs/certificates-add-ca-cert-v9-14.jpg)](https://assets.postman.com/postman-docs/certificates-add-ca-cert-v9-14.jpg)
 
 ### Adding client certificates
 
@@ -77,9 +77,7 @@ To add a self-signed client certificate to Postman:
 1. If you used a **Passphrase** when generating the client certificate, enter it in the box. Otherwise, leave the box blank.
 1. Select **Add**.
 
-[![add certificate](https://assets.postman.com/postman-docs/addcertificate.png)](https://assets.postman.com/postman-docs/addcertificate.png)
-
-[![client certificates list](https://assets.postman.com/postman-docs/clientcertificateslist.png)](https://assets.postman.com/postman-docs/clientcertificateslist.png)
+[![Adding a client certificate](https://assets.postman.com/postman-docs/certificates-add-client-cert-v9-14.jpg)](https://assets.postman.com/postman-docs/certificates-add-client-cert-v9-14.jpg)
 
 > Do not add more than one certificate for the same domain. If you add more than one certificate for a domain, Postman will use the last certificate added.
 
