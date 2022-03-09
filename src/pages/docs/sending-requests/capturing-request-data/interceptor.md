@@ -33,11 +33,11 @@ warning: false
 
 ---
 
-Postman Interceptor is a Chrome extension that acts as a browser companion to Postman. Interceptor enables you to sync cookies from your browser to Postman and capture network requests directly from Chrome, saving them to your history or a Postman collection.
+Postman Interceptor is a Chrome extension that acts as a browser companion to the Postman app. Interceptor enables you to capture network requests and cookies directly from a Chrome browser.
 
-Once Interceptor is running in Chrome, you can start a debug session, which is a time-bound session of traffic capture. You can start, pause, and stop an interceptor debug session, then later start another one. Each debug session is logged in the **History** tab, and displays the total session time and all traffic captured. You can also send requests and responses to a collection, and save cookies to the Postman cookie jar.
+Once Interceptor is running in Chrome, you can start a debug session, which is a time-bound session of traffic capture. You can start, pause, and stop an interceptor debug session, then later start another one. Each debug session is logged in the **History** tab, and displays the total session time and all traffic captured. From the logged session, you can send requests and responses to a collection and save cookies to the Postman cookie jar.
 
-> Interceptor is only available on the [Postman desktop app](/docs/getting-started/installation-and-updates/#web-limitations).
+> You can also use Postman Interceptor to automatically sync cookies from a Chrome browser to the Postman cookie jar. Learn more about [syncing cookies](/docs/sending-requests/capturing-request-data/syncing-cookies/).
 
 ## Contents
 
@@ -54,6 +54,8 @@ Once Interceptor is running in Chrome, you can start a debug session, which is a
 * [Using Interceptor with Postman's Chrome app](#using-the-interceptor-with-postmans-chrome-app)
 
 ## Installing Interceptor
+
+> You can't use Interceptor with [Postman for web](/docs/getting-started/installation-and-updates/#web-limitations). Make sure you've installed the [Postman desktop app](/docs/getting-started/installation-and-updates/).
 
 To get started, install Postman Interceptor:
 
