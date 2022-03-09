@@ -2,7 +2,7 @@
 title: "Public workspaces"
 order: 76
 page_id: "public_workspaces"
-updated: 2021-12-22
+updated: 2022-03-11
 warning: false
 contextual_links:
   - type: section
@@ -28,12 +28,11 @@ contextual_links:
     url: "https://youtu.be/DjGbMdqnY64"
 ---
 
-[Public workspaces](https://blog.postman.com/public-workspaces-why-we-created-them-what-you-can-do/) enable you to collaborate on entities with anyone across the world. Before you create a public workspace, navigate to your [team profile settings](https://go.postman.co/settings/team/general) and enable your public team profile. This will ensure your team's profile will show up on the [Public API Network](https://www.postman.com/explore).
-
-<img alt="Enable team profile" src="https://assets.postman.com/postman-docs/edit-team-profile-v9.1.0.jpg"/>
+[Public workspaces](https://blog.postman.com/public-workspaces-why-we-created-them-what-you-can-do/) enable you to collaborate on entities with anyone across the world.
 
 ## Contents
 
+* [Enabling your team profile](#enabling-your-team-profile)
 * [Creating a public workspace](#creating-a-public-workspace)
 * [Accessing a public workspace](#accessing-a-public-workspace)
 * [Sharing a public workspace](#sharing-a-public-workspace)
@@ -42,9 +41,27 @@ contextual_links:
 * [Removing elements from a public workspace](#removing-elements-from-a-public-workspace)
 * [Deleting a public workspace](#deleting-a-public-workspace)
 * [Managing public workspace members](#managing-public-workspace-members)
-* [Collaborating in a public workspace](#collaborating-in-a-public-workspace)
 * [Adding summaries](#adding-summaries)
+* [Collaborating in a public workspace](#collaborating-in-a-public-workspace)
 * [Next steps](#next-steps)
+
+## Enabling your team profile
+
+The first step to being able to collaborate using public workspaces is having a public team profile. It will encourage others to collaborate with you in a public workspace, allow you to solicit contributions gather product feedback, and  will help increase your API's discovery in search results. A public team profile will will also show up on the [Public API Network](https://www.postman.com/explore).
+
+To make your [team profile](https://go.postman.co/settings/team/general) public:
+
+1. Select **Team** next to your avatar in the upper-right corner of Postman, then select **Team settings**.
+1. Select **Team profile**.
+1. Select the toggle next to **Make team profile public** to set the profile to public.
+
+An informative and inviting public profile can help increase adoption of your API. Consider adding additional information and assets to your team profile:
+
+* Add a **team logo**, **cover photo**, and **favicon** to establish your identity and ensure consistent branding.
+* Add information to the **About your team** section to help potential collaborators understand who your team is and what you do.
+* Add your team's website and links to your social profiles to give potential collaborators other ways to engage with your team.
+
+<img alt="Enable team profile" src="https://assets.postman.com/postman-docs/edit-team-profile-v9.1.0.jpg"/>
 
 ## Creating a public workspace
 
@@ -150,14 +167,6 @@ Select **X** next to the team member you want to remove from the public workspac
 
 <img alt="Remove members for a public workspace from overview" src="https://assets.postman.com/postman-docs/remove-team-member-workspace-overview.jpg" width="400px"/>
 
-## Collaborating in a public workspace
-
-To collaborate on entities within a public workspace, open the workspace menu and select the workspace.
-
-For collections and environments, [create a fork](/docs/collaborating-in-postman/version-control-for-collections/#forking-a-collection) and request to merge changes using a [pull request](/docs/collaborating-in-postman/version-control-for-collections/#creating-pull-requests).
-
-For APIs, navigate to the API and version. Select **Definition** > **Request Access** to request an editor role.
-
 ## Adding summaries
 
 Add summaries to improve the visibility of your collections, APIs, and workspaces on the Public API Network.
@@ -169,6 +178,22 @@ Add summaries to improve the visibility of your collections, APIs, and workspace
 1. Select **Save**.
 
 ![Adding a summary](https://assets.postman.com/postman-docs/workspace-add-summary-v9.5.jpg)
+
+## Collaborating in a public workspace
+
+If you want to collaborate with someone in their public workspace, you can...
+
+To collaborate on entities within a public workspace, open the workspace menu and select the workspace.
+
+For collections and environments, [create a fork](/docs/collaborating-in-postman/version-control-for-collections/#forking-a-collection) and request to merge changes using a [pull request](/docs/collaborating-in-postman/version-control-for-collections/#creating-pull-requests).
+
+For APIs, navigate to the API and version. Select **Definition** > **Request Access** to request an editor role.
+
+If you are a team hoping to drum up collaboration from the public, you can...
+
+Best practices...
+
+Signs of a healthy public workspace include...
 
 ## Next steps
 
