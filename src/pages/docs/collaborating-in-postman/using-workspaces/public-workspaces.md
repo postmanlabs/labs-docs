@@ -28,20 +28,21 @@ contextual_links:
     url: "https://youtu.be/DjGbMdqnY64"
 ---
 
-[Public workspaces](https://blog.postman.com/public-workspaces-why-we-created-them-what-you-can-do/) enable you to collaborate on entities with anyone across the world.
+_Public workspaces_ enable you to collaborate on entities with anyone across the world. <!-- TODO: more intro. as an API developer, I can... as someone interested in collaborating with others on their APIs, I can... -->
 
 ## Contents
 
 * [Enabling your team profile](#enabling-your-team-profile)
 * [Creating a public workspace](#creating-a-public-workspace)
-* [Accessing a public workspace](#accessing-a-public-workspace)
 * [Sharing a public workspace](#sharing-a-public-workspace)
-* [Editing a public workspace](#editing-a-public-workspace)
-* [Adding elements to a public workspace](#adding-elements-to-a-public-workspace)
-* [Removing elements from a public workspace](#removing-elements-from-a-public-workspace)
-* [Deleting a public workspace](#deleting-a-public-workspace)
-* [Managing public workspace members](#managing-public-workspace-members)
-* [Adding summaries](#adding-summaries)
+* [Managing a public workspace](#managing-a-public-workspace)
+    * [Editing a public workspace](#editing-a-public-workspace)
+    * [Adding summaries](#adding-summaries)
+    * [Adding elements to a public workspace](#adding-elements-to-a-public-workspace)
+    * [Removing elements from a public workspace](#removing-elements-from-a-public-workspace)
+    * [Deleting a public workspace](#deleting-a-public-workspace)
+    * [Managing public workspace members](#managing-public-workspace-members)
+* [Accessing a public workspace](#accessing-a-public-workspace)
 * [Collaborating in a public workspace](#collaborating-in-a-public-workspace)
 * [Next steps](#next-steps)
 
@@ -95,23 +96,19 @@ When you make a workspace public, a notification is sent to all workspace member
 
 In addition to this notification, all users will receive an email with the workspace information regarding who has made the change and which workspace was affected. The email will also provide a direct link to the workspace.
 
-## Accessing a public workspace
-
-You can access public workspaces using the Postman Explore page's [**Workspaces** category](https://www.postman.com/explore/workspaces). You can also access the public workspaces that you own or are a member of using the **Workspaces** selector at the top of Postman.
-
-![Access public workspaces](https://assets.postman.com/postman-docs/accessing-public-workspaces.jpg)
-
 ## Sharing a public workspace
 
-You can share a public workspace by sharing its **public profile URL** directly. To access the public profile URL, navigate to your **Team**, then select **Team Settings**.
+You can share a public workspace by sharing its **workspace URL** directly. To access the public profile URL, navigate to the workspace **Overview** page. Hover over the workspace name to reveal the link icon <img alt="Link icon" src="https://assets.postman.com/postman-docs/icon-workspace-link-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px">. Select the link icon to copy the workspace's URL to your clipboard. You can share this workspace URL with other users.
 
-![View team settings](https://assets.postman.com/postman-docs/view-team-settings-for-public-profile.jpg)
+<!-- TODO: screenshot -->
 
-Copy the **Public profile URL** and paste it in your browser to access your workspace.
+> When you share a workspace, it must be public. If the workspace is restricted to a team or is a private workspace, users who do not have access will not be able to open the workspace. <!-- TODO: reword -->
 
-<img alt="Enable public profile url" src="https://assets.postman.com/postman-docs/enable-public-profile-url.jpg"/>
+# Managing a public workspace
 
-## Editing a public workspace
+<!-- TODO: intro for this section -->
+
+### Editing a public workspace
 
 To view and edit your public workspace's name and summary, navigate to the workspace in Postman. In the **Overview** tab, hover over the workspace name or summary and select to edit. Changes to the workspace name and summary will be saved automatically.
 
@@ -119,7 +116,19 @@ To update the workspace's visibility or to delete the workspace, select **Worksp
 
 <img alt="Create public workspace dropdown" src="https://assets.postman.com/postman-docs/workspace-edit-name-details-overview-tab-v9.1.jpg"/>
 
-## Adding elements to a public workspace
+### Adding summaries
+<!-- TODO: don't love this for this page but not sure where it should go -->
+Add summaries to improve the visibility of your collections, APIs, and workspaces on the Public API Network.
+
+1. Navigate to your team page by selecting your team name from **Home**, then selecting **View team profile**.
+1. Select the **Collections**, **APIs**, or **Workspaces** tab.
+1. Hover over an item and select <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> **Edit listing**.
+1. Enter a brief **Summary** that describes your collection, API, or workspace.
+1. Select **Save**.
+
+![Adding a summary](https://assets.postman.com/postman-docs/workspace-add-summary-v9.5.jpg)
+
+### Adding elements to a public workspace
 
 You can add existing collections and environments to another public workspace by sharing them.
 
@@ -128,7 +137,7 @@ You can add existing collections and environments to another public workspace by
 
 Select the public workspace you want to share to, and choose whether you also want to remove the element from its current workspace. Select **Share and Continue**.
 
-## Removing elements from a public workspace
+### Removing elements from a public workspace
 
 When you remove an element from a public workspace, it's no longer visible in that particular workspace. The element is still available in any other workspace where it has been added.
 
@@ -137,7 +146,7 @@ When you remove an element from a public workspace, it's no longer visible in th
 
 > Deleting an element is different from removing it. When you delete an element, it's no longer available in any workspace. When you remove an element from a specific workspace, it will still be available in any other workspaces it was in.
 
-## Deleting a public workspace
+#E# Deleting a public workspace
 
 Public workspaces must have their visibility reverted in order to be deleted. If you try to delete a public workspace by selecting <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> on the right corner of the workspace overview, the option to delete will be greyed out.
 
@@ -145,7 +154,7 @@ Public workspaces must have their visibility reverted in order to be deleted. If
 
 To change the visibility of a public workspace, change the visibility dropdown to **Team**, then **Save Changes**. After changing the visibility, you will be able to delete the workspace. Select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> > **Delete workspace**.
 
-## Managing public workspace members
+### Managing public workspace members
 
 If you're a team administrator you can add or remove any member from your public workspace using the **Members** tab. To add members to a public workspace, see [Sharing workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#sharing-workspaces).
 
@@ -167,17 +176,11 @@ Select **X** next to the team member you want to remove from the public workspac
 
 <img alt="Remove members for a public workspace from overview" src="https://assets.postman.com/postman-docs/remove-team-member-workspace-overview.jpg" width="400px"/>
 
-## Adding summaries
+## Accessing a public workspace
 
-Add summaries to improve the visibility of your collections, APIs, and workspaces on the Public API Network.
+You can access public workspaces using the Postman Explore page's [**Workspaces** category](https://www.postman.com/explore/workspaces). You can also access the public workspaces that you own or are a member of using the **Workspaces** selector at the top of Postman.
 
-1. Navigate to your team page by selecting your team name from **Home**, then selecting **View team profile**.
-1. Select the **Collections**, **APIs**, or **Workspaces** tab.
-1. Hover over an item and select <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> **Edit listing**.
-1. Enter a brief **Summary** that describes your collection, API, or workspace.
-1. Select **Save**.
-
-![Adding a summary](https://assets.postman.com/postman-docs/workspace-add-summary-v9.5.jpg)
+![Access public workspaces](https://assets.postman.com/postman-docs/accessing-public-workspaces.jpg)
 
 ## Collaborating in a public workspace
 
@@ -197,4 +200,4 @@ Signs of a healthy public workspace include...
 
 ## Next steps
 
-To add an API to the network, see [Adding your API](/docs/collaborating-in-postman/adding-private-network/#adding-your-apis).
+To add an API to the network, see [Adding your API](/docs/collaborating-in-postman/adding-private-network/#adding-your-apis). <!-- TODO: for frick's sake, what the heck is this -->
