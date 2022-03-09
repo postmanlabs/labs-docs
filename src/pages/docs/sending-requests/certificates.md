@@ -107,32 +107,38 @@ In this example, you used `https` to ensure Postman sends the certificate. In th
 
 [![Postman console view](https://assets.postman.com/postman-docs/postmanconsoleviewcertificates.png)](https://assets.postman.com/postman-docs/postmanconsoleviewcertificates.png)
 
-<img alt="Certificate info in console" src="https://assets.postman.com/postman-docs/certificate-info-in-console.jpg" width="300px"/>
-
 ### Viewing certificate details
 
 You can view additional certificate details in the response pane below the request. The globe icon <img alt="Refresh icon" src="https://assets.postman.com/postman-docs/icon-uptime-globe.jpg" width="14px" style="vertical-align:middle;margin-bottom:5px"> includes a padlock if a request was sent using HTTPS. Hover over the globe icon to view information about the certificate that was sent with the request, as well as any warnings or errors such as self-signed or expired certificates.
 
 [![Network info](https://assets.postman.com/postman-docs/network-info-response.jpg)](https://assets.postman.com/postman-docs/network-info-response.jpg)
 
+You can also view details about the certificate that was sent in the [Postman console](#verifying-a-certificate-was-sent).
+
+<img alt="Certificate info in console" src="https://assets.postman.com/postman-docs/certificate-info-in-console.jpg" width="300px"/>
+
 ### Troubleshooting certificate errors
 
-If certificate verification fails, Postman will display an error message.
+If certificate verification fails when sending a request, Postman displays an error message in the response pane.
 
 <img alt="Certificate verification fail" src="https://assets.postman.com/postman-docs/certificate-verification-fail.jpg" width="500px"/>
 
-You will see the error in the response area if you have SSL verification turned on. __Disable SSL Verification__ to turn off the setting globally and rerun the request.
-
 <img alt="Verification error" src="https://assets.postman.com/postman-docs/response-error-disable-ssl.jpg" width="300px"/>
 
-If you have SSL verification switched off either globally or for the individual request, you will see the detail of any errors or warnings in the response __Network__ information.
+To fix the error, try turning off SSL verification for the request:
+
+1. Open the request and select the **Settings** tab.
+1. Turn off the toggle next to **Enable SSL certificate verification**.
+1. Send the request again.
+
+> You can turn off SSL verification globally in the [Postman settings](/docs/getting-started/settings/) on the **General** tab.
+
+[![Request SSL](https://assets.postman.com/postman-docs/request-ssl-toggle.jpg)](https://assets.postman.com/postman-docs/request-ssl-toggle.jpg)
+
+If SSL verification is turned off, you can hover over the globe icon <img alt="Refresh icon" src="https://assets.postman.com/postman-docs/icon-uptime-globe.jpg" width="14px" style="vertical-align:middle;margin-bottom:5px"> in the response pane to see details about any certificate errors or warnings.
 
 <img alt="Certificate error" src="https://assets.postman.com/postman-docs/certificate-error-in-network-info.jpg" width="400px"/>
 
-You can find more information about failed certification in the [console](/docs/sending-requests/troubleshooting-api-requests/).
+You can also find more information about certificate errors in the [Postman console](/docs/sending-requests/troubleshooting-api-requests/).
 
 <img alt="Certificate fail in console" src="https://assets.postman.com/postman-docs/console-certificate-fail.jpg" width="600px"/>
-
-You can toggle SSL verification on and off by default in the Postman __Settings__ (select the gear icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-gear-outline-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> at the top right) or for a specific request in the __Settings__ tab.
-
-[![Request SSL](https://assets.postman.com/postman-docs/request-ssl-toggle.jpg)](https://assets.postman.com/postman-docs/request-ssl-toggle.jpg)
