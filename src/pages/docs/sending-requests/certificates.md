@@ -100,9 +100,9 @@ After adding a client certificate, you don't have to perform any extra steps to 
 
 ### Verifying a certificate was sent
 
-You can verify a certificate was sent using the [Postman Console](/docs/sending-requests/troubleshooting-api-requests/). To see this in action, open the Postman console by selecting **Console** in the Postman footer. Then send a request to `https://postman-echo.com/get`.
+You can verify a certificate was sent using the [Postman Console](/docs/sending-requests/troubleshooting-api-requests/). Open the Postman console by selecting **Console** in the Postman footer, and then send a request.
 
-In this example, you used `https` to ensure Postman sends the certificate. In the Postman console, expand the request to view details about the certificate that was sent with the request.
+In the example below, the request used `https://` to ensure Postman sent the certificate. You can expand the request to view details about the certificate that was sent with the request.
 
 [![Certificate details in console](https://assets.postman.com/postman-docs/certificates-console-details-v9-14.jpg)](https://assets.postman.com/postman-docs/certificates-console-details-v9-14.jpg)
 
@@ -111,8 +111,6 @@ In this example, you used `https` to ensure Postman sends the certificate. In th
 You can view additional certificate details in the response pane below the request. The globe icon <img alt="Network information locked icon" src="https://assets.postman.com/postman-docs/icon-globe-locked.jpg" width="16px" style="vertical-align:middle;margin-bottom:5px"> includes a padlock if a request was sent using HTTPS. Hover over the globe icon to view information about the certificate that was sent with the request, as well as any warnings or errors such as self-signed or expired certificates.
 
 [![Network details](https://assets.postman.com/postman-docs/certificates-network-details-v9-14.jpg)](https://assets.postman.com/postman-docs/certificates-network-details-v9-14.jpg)
-
-You can also view details about the certificate that was sent in the [Postman console](#verifying-a-certificate-was-sent).
 
 ### Troubleshooting certificate errors
 
