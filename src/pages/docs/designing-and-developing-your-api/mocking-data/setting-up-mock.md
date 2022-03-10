@@ -19,6 +19,9 @@ contextual_links:
   - type: link
     name: "Mock Servers | The Exploratory"
     url: "https://youtu.be/n_7UUghLpco"
+  - type: link
+    name: "Dynamic Mock Behavior | Postman Level Up"
+    url: "https://youtu.be/av7SZo9sZAE"
   - type: subtitle
     name: "Related Blog Posts"
   - type: link
