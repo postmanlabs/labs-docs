@@ -26,13 +26,13 @@ warning: false
 
 ---
 
-Postman automatically syncs changes across all devices that are linked to your account, including edits, updates, additions, or deletions. As long as you are signed in to Postman in the desktop app or in the web version, your data will be synced.
+Postman automatically syncs changes across all devices that are linked to your account, including edits, updates, additions, or deletions. As long as you are signed in to Postman in the desktop app or in the web version, your data syncs.
 
 * When you _sign out_, Postman removes your synced data from your local storage.
 * When you _sign back in_, Postman restores your data from the cloud.
 * When you _reload_, Postman automatically retrieves the most recent version of your data.
 
-You can have up to three devices logged in to your Postman account simultaneously, such as your work computer, personal computer, and mobile phone.
+You can have up to three devices logged in to your Postman account simultaneously, such as your work computer, personal computer, and phone.
 
 ## Understanding sync states
 
@@ -54,6 +54,6 @@ Postman indicates the sync state of your workspace with the cloud icon. Possible
 
 Some organizations have security guidelines that prevent team members from syncing data to the Postman cloud. In this situation, you can use Postman without an account and [manually back up your data locally](/docs/getting-started/importing-and-exporting-data/#exporting-postman-data).
 
-You can delete data that has already been synced to Postman by [deleting your account](#deleting-your-postman-account). Note that if you are a part of a Postman team, you must first [leave the team](/docs/collaborating-in-postman/collaboration-intro/#leaving-a-team) to delete your account.
+You can delete data that is already synced to Postman by [deleting your account](#deleting-your-postman-account). Note that if you are a part of a Postman team, you must first [leave the team](/docs/collaborating-in-postman/collaboration-intro/#leaving-a-team) to delete your account.
 
 > Learn more about [Security at Postman](https://www.postman.com/trust/security/).
