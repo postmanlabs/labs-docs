@@ -30,6 +30,7 @@ favicon
 Git
 GitHub
 GitLab
+globals
 HEAD
 IAM
 IANA

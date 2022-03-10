@@ -66,7 +66,7 @@ When you send a form-data or binary file with a request body, Postman saves a pa
 
 **The working directory is also used by Newman.** Store files you want to upload to Newman in the working directory path that's saved in the collection. Learn more about [file uploads in Newman](/docs/running-collections/using-newman-cli/command-line-integration-with-newman/#file-uploads).
 
-**You cannot change the working directory in Postman for Web.** When you upload a file, Postman for Web creates a new folder with a random name in the `~/Postman/files` directory. Postman stores the uploaded file in the new folder so you can use it when sending requests. To automatically sync files you upload to Postman for Web with your local working directory, make sure you are using the [Postman Desktop Agent](/docs/getting-started/installation-and-updates/#using-postman-on-the-web).
+**You can't change the working directory in Postman for Web.** When you upload a file, Postman for Web creates a new folder with a random name in the `~/Postman/files` directory. Postman stores the uploaded file in the new folder so you can use it when sending requests. To automatically sync files you upload to Postman for Web with your local working directory, make sure you are using the [Postman Desktop Agent](/docs/getting-started/installation-and-updates/#using-postman-on-the-web).
 
 **Be careful using files located outside your working directory.** To use files located outside your working directory when sending requests, turn on the **Allow reading files outside working directory** toggle. This option allows third-party collections to potentially read any file on your system. Use caution, and make sure you trust all third-party collections you are using before enabling this option.
 
@@ -89,7 +89,7 @@ When you send a form-data or binary file with a request body, Postman saves a pa
 **Editor** settings only affect code-related text such as request and response bodies, pre-request scripts, and tests. To revert back to default text settings, select **Reset**.
 
 * **Font Family:** Enter one or more font family names separated by commas. Postman uses the first available font family to display code text.
-* **Font Size (px):** Enter the font size (in pixels) to use for code text.
+* **Font Size (`px`):** Enter the font size in pixels to use for code text.
 * **Indentation count:** Enter the number of indentation characters to use for each code level.
 * **Indentation type:** Select the type of indentation character to use (**Space** or **Tab**).
 * **Auto close brackets:** Turn on this toggle to automatically add a closing bracket when you type an opening bracket.
@@ -105,7 +105,7 @@ Pick your pleasure: select a light or dark theme for Postman.
 
 The **Shortcuts** tab displays all of the keyboard shortcuts available in Postman. To turn off keyboard shortcuts, select the **Shortcuts** toggle.
 
-Some shortcuts are not available in Postman for Web. Also, shortcut modifier keys may differ depending on your operating system. For example, to open a new tab in the Postman app on macOS, select **⌘+T**. To open a new tab in the Postman app on Windows or Linux, select **Ctrl+T**.
+Some shortcuts aren't available in Postman for Web. Also, shortcut modifier keys may differ depending on your operating system. For example, to open a new tab in the Postman app on macOS, select **⌘+T**. To open a new tab in the Postman app on Windows or Linux, select **Ctrl+T**.
 
 ## Data
 

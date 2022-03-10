@@ -33,7 +33,7 @@ Having a free Postman account allows you to [sync](/docs/getting-started/syncing
 
 Signing up for a Postman account is optional, and you can use the Postman desktop app without an account if you prefer. If you do want to create a Postman account, continue to the [Signing up for a Postman account](#signing-up-for-a-postman-account) section.
 
-> If you need assistance with your Postman account, you can contact our [support team](https://www.postman.com/support/) or check out our Help Center's [account FAQs](https://support.postman.com/hc/en-us/categories/115000609185-My-Account).
+> If you need assistance with your Postman account, you can contact the Postman [support team](https://www.postman.com/support/) or check out the Help Center's [account FAQs](https://support.postman.com/hc/en-us/categories/115000609185-My-Account).
 
 ## Contents
 
@@ -71,13 +71,13 @@ During the sign up process, you have the option to create or join a [team](/docs
 
 From the Postman app, you can sign in by selecting **Sign In** in the upper-right corner of the app or selecting **Home** in the upper-left corner of the app then **Sign In**. You can also navigate to [Postman's website](https://www.postman.com/) and selecting **Sign In** in the upper-right corner of the page.
 
-When you sign in using the Postman desktop app, the app will open a new screen that directs you to _Sign in via web browser_. Your default browser will automatically open a webpage asking you to sign into Postman. If your browser does not open within a few seconds, select the **open your browser** link in Postman.
+When you sign in using the Postman desktop app, the app will open a new screen that directs you to _Sign in via web browser_. Your default browser will automatically open a webpage asking you to sign into Postman. If your browser doesn't open within a few seconds, select the **open your browser** link in Postman.
 
 > You can opt out of the sign in process at any time by navigating back to the Postman app and selecting **Skip and take me to Postman Desktop App**.
 
 Sign into Postman in your browser by entering your account credentials or signing in with Google. If you are on a Postman Professional or Enterprise plan, opt to **Sign in with Single Sign-On (SSO)**.
 
-Check **Keep me signed in** if you would like to remain signed in after your current session for 30 minutes before re-authenticating. If you do not want to remain signed in on the computer you are working on, uncheck this option. Note that you will be prompted to sign in again after 30 minutes.
+Check **Keep me signed in** if you would like to remain signed in after your current session for 30 minutes before re-authenticating. If you don't want to remain signed in on the computer you are working on, turn this option off. Note that you will be prompted to sign in again after 30 minutes.
 
 After you sign in, you will see a confirmation in your browser and you will be redirected back to the Postman desktop app.
 
@@ -105,7 +105,7 @@ If you are on an Enterprise plan, you must contact your team admins to update th
 
 If you are on a Professional, Basic, or Free plan, you can reset your password if you are already signed in by navigating to your [account settings](https://go.postman.co/settings/me/account/) page. Select your avatar in the upper-right corner > **Account Settings** > **Account**. Select **Edit Password**.
 
-If you are not signed in to your Postman account, you can recover your username or reset your password from the [**Sign In**](https://identity.getpostman.com/login) page. Select __Trouble signing in?__ Enter your account email, select the __I'm not a robot__ box, and select __Submit__. Postman will send you an email with instructions for recovering access to your account.
+If you aren't signed in to your Postman account, you can recover your username or reset your password from the [**Sign In**](https://identity.getpostman.com/login) page. Select __Trouble signing in?__ Enter your account email, select the __I'm not a robot__ box, and select __Submit__. Postman will send you an email with instructions for recovering access to your account.
 
 > If you still have trouble logging into your Postman account, contact [Postman support](https://support.postman.com/hc/en-us).
 
@@ -151,7 +151,7 @@ You can manage your [active Postman sessions](https://go.postman.co/settings/me/
 
 If you have a free account, you can upgrade it by navigating to [Postman](https://go.postman.co/) and selecting **Upgrade** in the top-right corner.
 
-If you have a paid account, you can upgrade your Postman plan by navigating to your [billing dashboard](https://go.postman.co/billing/overview/) and selecting **Edit Plan** on the right. To learn more about upgrading and managing your Postman plan, see our [Billing](/docs/administration/billing/#changing-your-plan) guide.
+If you have a paid account, you can upgrade your Postman plan by navigating to your [billing dashboard](https://go.postman.co/billing/overview/) and selecting **Edit Plan** on the right. To learn more about upgrading and managing your Postman plan, see the [Billing](/docs/administration/billing/#changing-your-plan) guide.
 
 > The cost of your upgraded plan or additional seats will be prorated based on the time left in your team's current billing cycle. For more information, [contact Postman's sales team](mailto:sales@postman.com).
 

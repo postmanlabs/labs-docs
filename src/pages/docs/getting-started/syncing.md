@@ -38,9 +38,9 @@ You can have up to three devices logged in to your Postman account simultaneousl
 
 Postman indicates the sync state of your workspace with the cloud icon. Possible states are:
 
-* **Offline** <img alt="Sync offline icon" src="https://assets.postman.com/postman-docs/icon-sync-offline.jpg" width="16px" style="vertical-align:middle;margin-bottom:5px"> means that you are not connected to the Postman servers. This means that either your computer is not connected to the internet or you are not signed in to Postman.
+* **Offline** <img alt="Sync offline icon" src="https://assets.postman.com/postman-docs/icon-sync-offline.jpg" width="16px" style="vertical-align:middle;margin-bottom:5px"> means that you aren't connected to the Postman servers. This means that either your computer isn't connected to the internet or you aren't signed in to Postman.
 
-    > If you are offline, you will be in the _Scratch Pad_, which is a space where you can work locally without a connection or login to Postman. The work that you do in the Scratch Pad will not be synced to Postman, but you can export it and import it into a workspace later. For more information, see [Using the Scratch Pad](/docs/getting-started/using-scratch-pad/).
+    > If you are offline, you will be in the _Scratch Pad_, which is a space where you can work locally without a connection or login to Postman. The work that you do in the Scratch Pad won't be synced to Postman, but you can export it and import it into a workspace later. For more information, see [Using the Scratch Pad](/docs/getting-started/using-scratch-pad/).
     >
     > <img alt="Offline state" src="https://assets.postman.com/postman-docs/scratch-pad-logged-out-v9.12.jpg" width="250px" />
 
