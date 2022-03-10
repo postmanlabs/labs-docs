@@ -26,6 +26,7 @@ DNS
 Dropbox
 Echo
 EULA
+favicon
 Git
 GitHub
 GitLab
@@ -49,6 +50,7 @@ npm
 NTLM
 OAuth
 Okta
+onboarding
 OneLogin
 OpenAPI
 OpenID
