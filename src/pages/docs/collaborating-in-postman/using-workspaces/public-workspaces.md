@@ -130,7 +130,7 @@ You can share this workspace URL with other users.
 
 > When you share a workspace with Postman users who aren't workspace members, its visibility must be public. If the workspace is restricted to a team or is a private or personal workspace, users who don't have access won't be able to open the workspace.
 
-# Managing a public workspace
+## Managing a public workspace
 
 When a user opens a public workspace, Postman shows an overview of its contents, activity, and members in a new tab. The user interacts with the contents of the public workspace—the collections, APIs, environments, and other elements. As a team member with an Admin role on the workspace, you can manage the overview, the elements in the workspace, and the members of the workspace.
 
