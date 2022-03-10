@@ -34,6 +34,8 @@ Postman Enterprise offers greater control to administrators looking to deploy an
 
     * [Enabling verbose logging for installation](#enabling-verbose-logging-for-installation)
 
+    * [MSI installation options](#msi-installation-options)
+
     * [Updating the Postman Enterprise Windows app](#updating-the-postman-enterprise-windows-app)
 
     * [Uninstalling the Postman Enterprise Windows app](#uninstalling-the-postman-enterprise-windows-app)
@@ -115,6 +117,22 @@ The `msiexec` tool can be configured to output debug log information about the i
 
 ``` shell
 msiexec /i path\to\package.msi /l*v C:\log.txt
+```
+
+### MSI installation options
+
+Settings can be changed during the installation time for MSI application.
+
+For example, if your app defines a `MY_OPTION` installation option, you can set a custom value:
+
+``` shell
+msiexec /i path/to/package.msi MY_OPTION='hello'
+```
+
+Installing a MSI with some of its installation options looks like this:
+
+``` shell
+msiexec /i path\to\package.msi MY_STRING_OPTION='hello' MY_INTEGER_OPTION=7
 ```
 
 ### Updating the Postman Enterprise Windows app
