@@ -19,6 +19,9 @@ contextual_links:
     name: "Increasing Adoption of an API with a Public Workspace"
     url: "https://blog.postman.com/increasing-adoption-of-an-api-with-a-public-workspace/"
   - type: link
+    name: "How to Set Up Your First Public Workspace in 5 Easy Steps"
+    url: "https://blog.postman.com/how-to-set-up-public-workspaces/"  
+  - type: link
     name: "LGBTQ+ Pride Public Workspace: An Invitation for the API Community to Celebrate Pride"
     url: "https://blog.postman.com/lgbtq-pride-public-workspace-api-community/"
   - type: subtitle
@@ -62,6 +65,8 @@ An informative and inviting public profile can help increase adoption of your AP
 * Add links to your team's website and social profiles to give potential collaborators other ways to engage with your team.
 
 <img alt="Enable team profile" src="https://assets.postman.com/postman-docs/edit-team-profile-v9.1.0.jpg"/>
+
+For more tips on how to create a public profile, see [How to create your Postman profile](https://blog.postman.com/how-to-create-your-postman-public-profile/) on the Postman blog.
 
 ## Creating a public workspace
 
