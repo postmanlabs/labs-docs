@@ -82,7 +82,7 @@ You can import your data from files, folders, links, raw text, or code repositor
 
 ### Importing Postman data
 
-You can import Postman data you previously exported, including collections, environments, data dumps, and globals.
+You can import Postman data you exported earlier, including collections, environments, data dumps, and globals.
 
 1. Select **Import** in the left navigation menu.
 1. Select your file or folder, input your link, paste your raw text, or [import from GitHub](#importing-via-github-repositories).
@@ -93,7 +93,7 @@ You can import Postman data you previously exported, including collections, envi
 
 ### Converting Postman collections from v1 to v2
 
-Postman no longer supports the collection v1 format and will return an error if you attempt to import a collection in this format.
+Postman no longer supports the collection v1 format and will return an error if you try to import a collection in this format.
 
 You can convert your collection's format from v1 to v2 to import it into Postman:
 
@@ -106,10 +106,10 @@ You can convert your collection's format from v1 to v2 to import it into Postman
 1. Convert an individual Postman collection from v1 to v2 by entering the command below.
 
    ```bash
-   postman-collection-transformer convert -i <path to input Postman collection file> -o <path where the output Postman file will be downloaded> -j 1.0.0 -p 2.0.0 -P
+   postman-collection-transformer convert -i <path to input Postman collection file> -o <path where the output Postman file download> -j 1.0.0 -p 2.0.0 -P
    ```
 
-The resulting collection will be downloaded to your target file path in v2 format.
+The resulting collection will download to your target file path in v2 format.
 
 You can retrieve a list of convert options by running the command with the ``-h`` flag:
 
@@ -154,7 +154,7 @@ When importing into a team workspace, you can also choose to add the APIs to the
 
 ### Importing via GitHub repositories
 
-> You must be signed in to a [Postman account](/docs/getting-started/postman-account/#signing-up-for-a-postman-account) to use this feature.
+> You must sign in to a [Postman account](/docs/getting-started/postman-account/#signing-up-for-a-postman-account) to use this feature.
 
 You can import data in bulk from a GitHub repository.
 
@@ -172,7 +172,7 @@ You will receive a confirmation once the import has completed. You can now view 
 
 ### Importing via Bitbucket repositories
 
-> You must be signed in to a [Postman account](/docs/getting-started/postman-account/#signing-up-for-a-postman-account) to use this feature.
+> You must sign in to a [Postman account](/docs/getting-started/postman-account/#signing-up-for-a-postman-account) to use this feature.
 
 You can import data in bulk from a Bitbucket repository.
 
@@ -182,13 +182,13 @@ You can import data in bulk from a Bitbucket repository.
 
 1. In Postman, select your Bitbucket workspace, repository, and branch, then select **Continue**.
 
-1. A preview of the files that will be imported to your workspace is displayed. Select **Import** to confirm and complete the import.
+1. Postman shows a preview of the files to import to your workspace. Select **Import** to confirm and complete the import.
 
 You will receive a confirmation once the import has completed. You can now view your newly imported files and generated collections in Postman.
 
 ## Exporting Postman data
 
-You can export your Postman data, including collections, environments, data dumps, and globals, as JSON files. These files can be imported back into any Postman instance, or utilized by [Newman](/docs/running-collections/using-newman-cli/command-line-integration-with-newman/), Postman's command-line collection runner.
+You can export your Postman data, including collections, environments, data dumps, and globals, as JSON files. You can import these files back into any Postman instance, or use them with [Newman](/docs/running-collections/using-newman-cli/command-line-integration-with-newman/), Postman's command-line collection runner.
 
 ### Exporting collections
 
@@ -213,7 +213,7 @@ You can also export your environments from Postman.
 
 ### Exporting data dumps
 
-You can export a data dump of all of your collections, environments, globals, and header presets in Postman.
+You can export a data dump of all your collections, environments, globals, and header presets in Postman.
 
 1. Select the gear icon in the upper-right corner to open **Settings**.
 
@@ -227,14 +227,14 @@ You can export a data dump of all of your collections, environments, globals, an
 
    ![Export data dump](https://assets.postman.com/postman-docs/import-export-data-dump-request-confirm.jpg)
 
-The [Export page](http://go.postman.co/me/export) shows information about your export request, including the file size, the expiration date, and the statuses of your requested data exports. Possible statuses are:
+The [Export page](http://go.postman.co/me/export) shows information about your export request, including the file size, the date the export expires, and the statuses of your requested data exports. Possible statuses are:
 
-* **Scheduled**: The export request has been placed.
+* **Scheduled**: The export request is placed.
 * **Transferring**: The data transfer process has started.
 * **Transferred**: The data transfer process has completed.
 * **Zipping**: The process of zipping the file has started.
-* **Zipped**: The file has been zipped.
-* **Download**: The zipped file is ready to be downloaded.
+* **Zipped**: The file is zipped.
+* **Download**: The zipped file is ready to download.
 
 When the export is ready, you will receive an email with link to download a zipped file with the data dump. You can also download the file using the **Download** button on the Export page.
 
