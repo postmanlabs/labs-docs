@@ -126,7 +126,7 @@ Settings can be changed during the installation time for MSI application.
 For example, if your app defines a `MY_OPTION` installation option, you can set a custom value:
 
 ``` shell
-msiexec /i path/to/package.msi MY_OPTION='hello'
+msiexec /i path\to\package.msi MY_OPTION='hello'
 ```
 
 Installing a MSI with some of its installation options looks like this:
