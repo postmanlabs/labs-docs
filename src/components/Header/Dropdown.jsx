@@ -13,11 +13,17 @@ import {
 
 import { CustomHits } from '../Search/searchPreview';
 
+  const searchOnlyKey = process.env.NODE_ENV === 'development' ? '003daeb8de202d4a917c2395628d75a8' : '69f2c5376f1a90912c6c3b6b772c25bc';
+  const algoliaIndex = process.env.NODE_ENV === 'development' ? 'dev_docs' : 'docs';
+
+
   /* Algolia Search Bar */
   const algoliaClient = algoliasearch(
     '4A5N71XYH0',
-    '69f2c5376f1a90912c6c3b6b772c25bc',
+    searchOnlyKey
   );
+
+  
 
   // removes empty query searches from analytics
   const searchClient = {
@@ -73,7 +79,7 @@ const Dropdown = () => {
       <div className="wrapper" ref={ref}>
         <InstantSearch
           searchClient={searchClient}
-          indexName="docs"
+          indexName={algoliaIndex}
           refresh={refresh}
         >
           <Configure hitsPerPage={5} />

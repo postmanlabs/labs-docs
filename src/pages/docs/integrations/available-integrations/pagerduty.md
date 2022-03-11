@@ -13,6 +13,14 @@ contextual_links:
   - type: link
     name: "Intro to Monitoring"
     url: "/docs/monitoring-your-api/intro-monitors/"
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Integrate with PagerDuty in Postman"
+    url: "https://youtu.be/iKPPx_HtByA"
+    
 ---
 
 PagerDuty is a popular incident management solution that integrates with monitoring stacks for alerting, on-call scheduling, and automatic escalation of critical incidents.

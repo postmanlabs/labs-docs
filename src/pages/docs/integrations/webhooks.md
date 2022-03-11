@@ -37,13 +37,13 @@ You can configure a custom webhook with Postman to send events such as monitor r
 
 ## Static IP Support
 
-If your network is behind a firewall that requires whitelisted IP addresses, you will need to use a static IP address to enable collection backups to custom webhooks on custom domains.
+If your network is behind a firewall that requires IP addresses from an allowlist, you will need to use a static IP address to enable collection backups to custom webhooks on custom domains.
 
-Contact your IT team to whitelist the following static IP in your firewall to enable collection backups to webhooks:
+Contact your IT team to allowlist the following static IP in your firewall to enable collection backups to webhooks:
 
 * US East: `3.212.102.200`
 
-Once you whitelist this IP address, calls for the custom webhook will be able to connect to your network and allow the webhook to work as expected.
+Once you allowlist this IP address, calls for the custom webhook will be able to connect to your network and allow the webhook to work as expected.
 
 ## Configuring custom webhook URL
 
