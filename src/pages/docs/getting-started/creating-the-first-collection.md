@@ -45,7 +45,7 @@ You can create a new request from the left sidebar in Postman. Select __New__ &g
 
 <img alt="Create new request sidebar" src="https://assets.postman.com/postman-docs/create-new-request-sidebar-v9.jpg"/>
 
-Enter a request in the request builder and select **Save** to open the **Save Request** modal.
+Enter a request in the request builder and select **Save** to open the **Save Request** dialog box.
 
 1. Create a new collection by selecting **New Collection**. Enter a collection name, and then select the **Create** button.
 
@@ -53,7 +53,7 @@ Enter a request in the request builder and select **Save** to open the **Save Re
 
 1. Select **Save** to save the request in the new collection.
 
-Congratulations! You can see all your collections under the **Collections** tab of the sidebar on the left, as illustrated below:
+Congratulations! You can see all your collections under the **Collections** tab of the sidebar on the left, as shown below:
 
 <img alt="Collection sidebar" src="https://assets.postman.com/postman-docs/creating-first-collection-v9.jpg" width="400px"/>
 

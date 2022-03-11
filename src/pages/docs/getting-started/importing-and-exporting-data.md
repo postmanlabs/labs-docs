@@ -182,7 +182,7 @@ You can import data in bulk from a Bitbucket repository.
 
 1. In Postman, select your Bitbucket workspace, repository, and branch, then select **Continue**.
 
-1. Postman shows a preview of the files to import to your workspace. Select **Import** to confirm and complete the import.
+1. Postman shows a preview of the files to import into your workspace. Select **Import** to confirm and complete the import.
 
 You will receive a confirmation once the import has completed. You can now view your newly imported files and generated collections in Postman.
 
