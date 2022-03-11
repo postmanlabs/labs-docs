@@ -233,7 +233,7 @@ To add a new environment variable:
 1. Add an **Inital Value**, and if you choose, a **Current Value**.
 1. Select <img alt="Save icon" src="https://assets.postman.com/postman-docs/icon-save.jpg" width="16px" style="vertical-align:middle;margin-bottom:5px"> **Save** to confirm your changes.
 
-To edit an existing example variable:
+To edit an existing environment variable:
 
 1. Change the desired variable value.
 1. Select <img alt="Save icon" src="https://assets.postman.com/postman-docs/icon-save.jpg" width="16px" style="vertical-align:middle;margin-bottom:5px"> **Save** to confirm your changes.
