@@ -10,6 +10,14 @@ contextual_links:
   - type: link
     name: "Grouping requests in collections"
     url: "/docs/sending-requests/intro-to-collections/"
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Integrate with Coralogix in Postman"
+    url: "https://youtu.be/2cz02i0g6QU"
+    
 ---
 
 Coralogix is a machine learning powered log analytics platform which drastically improves the delivery and maintenance process for software providers. This integration allows you to configure your Postman Monitors to send metrics to Coralogix where you can visualize and compare metrics.

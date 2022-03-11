@@ -19,17 +19,14 @@ contextual_links:
   - type: link
     name: "Mock Servers | The Exploratory"
     url: "https://youtu.be/n_7UUghLpco"
+  - type: link
+    name: "Dynamic Mock Behavior | Postman Level Up"
+    url: "https://youtu.be/av7SZo9sZAE"
   - type: subtitle
     name: "Related Blog Posts"
   - type: link
-    name: "Mock responses in Postman by using Examples"
-    url: "https://blog.postman.com/mock-responses-in-postman-by-using-examples/"
-  - type: link
-    name: "Simulate a back end with Postman’s mock service"
-    url: "https://blog.postman.com/simulate-a-back-end-with-postmans-mock-service/"
-  - type: link
-    name: "Team collaboration with Postman mock servers"
-    url: "https://blog.postman.com/team-collaboration-with-postman-mock-servers/"
+    name: "Using Mock Servers throughout the API Lifecycle"
+    url:  "https://blog.postman.com/using-mock-servers-throughout-the-api-lifecycle/"
   - type: link
     name: "Introducing Postman Mock Call Logs"
     url:  "https://blog.postman.com/introducing-postman-mock-call-logs/"
