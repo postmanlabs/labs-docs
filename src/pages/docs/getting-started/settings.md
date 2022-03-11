@@ -73,7 +73,7 @@ When you send a form-data or binary file with a request body, Postman saves a pa
 ### Headers
 
 * **Send no-cache header:** (Recommended) Turn on this toggle to send a `Cache-Control: no-cache` header with each request. The `no-cache` directive forces the server to revalidate each request and ensures you get an up-to-date (not stale) response.
-* **Send Postman Token header:** (Recommended) Turn on this toggle to send a random Postman token with an XMLHttpRequest. Sending a random token ensures the receiving server handles each request individually, even when the requests send with the same parameters. The token can also aid debugging and help you distinguish between requests on the server side.
+* **Send Postman Token header:** (Recommended) Turn on this toggle to send a random Postman token with an XMLHttpRequest. Sending a random token ensures the receiving server handles one request at a time, even when the requests send with the same parameters. The token can also aid debugging and help you distinguish between requests on the server side.
 * **Retain headers when clicking on links:** When you select a link in a response, Postman creates a new `GET` request with the link URL. Turn on this toggle to keep the headers from the earlier request in the new request. Retaining headers is useful if you mainly access protected resources.
 * **Automatically follow redirects:** Turn off this toggle to prevent requests that return a 3xx series response from automatically redirecting.
 * **Send anonymous usage data to Postman:** Postman gathers basic, anonymous usage data to help with product improvement. Select this toggle to turn off sending anonymous usage data to Postman.

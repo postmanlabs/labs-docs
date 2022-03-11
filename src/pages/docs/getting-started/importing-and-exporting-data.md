@@ -106,7 +106,7 @@ You can convert your collection's format from v1 to v2 to import it into Postman
 1. Convert an individual Postman collection from v1 to v2 by entering the command below.
 
    ```bash
-   postman-collection-transformer convert -i <path to input Postman collection file> -o <path where the output Postman file download> -j 1.0.0 -p 2.0.0 -P
+   postman-collection-transformer convert -i <path to the input Postman collection file> -o <path to the downloaded Postman file> -j 1.0.0 -p 2.0.0 -P
    ```
 
 The resulting collection will download to your target file path in v2 format.

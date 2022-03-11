@@ -177,9 +177,9 @@ You can configure your preferences to enable automatic download for major update
 
 ## Postman Chrome app (deprecated)
 
-The Postman Chrome app is deprecated. If you use the Chrome app, you can [retain your data when you switch to the native app](#migrating-to-the-native-app) either by syncing with a signed-in Postman account or by exporting from Chrome and importing into the native app.
+The Postman Chrome app is deprecated. If you use the Chrome app, you can keep your data when you [switch to using Postman](#migrating-to-the-native-app) either by syncing with your Postman account or by exporting from Chrome and importing into Postman.
 
-The native app is built on [Electron](https://www.electronjs.org/), and [overcomes a number of restrictions](https://blog.postman.com/going-native/) of the Chrome platform.
+The Postman app is built on [Electron](https://www.electronjs.org/), and [overcomes a number of restrictions](https://blog.postman.com/going-native/) of the Chrome platform.
 
 * The native apps let you work with [cookies](/docs/sending-requests/cookies/) directly.
 * Unlike the Chrome app, no separate extension for the [Interceptor](/docs/sending-requests/capturing-request-data/interceptor/) is needed.
