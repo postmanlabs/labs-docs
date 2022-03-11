@@ -86,9 +86,9 @@ Postman logs events related to [team management](#team-management), [user manage
 | Custom Auth Scheme Removed  | An SSO scheme was removed.  |
 | Created SCIM Key | A user created a new SCIM key. |
 | Activated SCIM Key | A user activated a SCIM key. |
-| Regenerated SCIM Key | A user regenerated an SCIM key. |
-| Revoked SCIM Key | A user revoked an SCIM key. |
-| Deleted SCIM Key | A user deleted an SCIM key. |
+| Regenerated SCIM Key | A user regenerated a SCIM key. |
+| Revoked SCIM Key | A user revoked a SCIM key. |
+| Deleted SCIM Key | A user deleted a SCIM key. |
 | SCIM User Provisioned | The SCIM admin provisioned a new user. |
 | SCIM User De-provisioned | The SCIM admin de-provisioned a user. |
 | Exported Data | A user requested an export of their data. |
