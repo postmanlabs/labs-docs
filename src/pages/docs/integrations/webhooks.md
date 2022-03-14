@@ -48,6 +48,7 @@ Once you allowlist this IP address, calls for the custom webhook will be able to
    The integration's page has choices for each type of custom webhook. If available, you can view previously configured integrations for the selected integration.
 
    ![Webhooks integration choices](https://assets.postman.com/postman-docs/webhook-integrations.jpg)
+   
 2. Select __Add Integration__ next to a webhook type to configure your integration. Perform the steps in the related section below for the webhook type you are adding.
 
 Once the integration has been created, you can view the integration you just created in addition to the other active integrations created by your team:
