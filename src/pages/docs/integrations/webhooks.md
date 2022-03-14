@@ -88,7 +88,7 @@ The following is a schema for the backup a collection webhook:
 
 ## Send monitor results to custom webhooks
 
-Postman Monitors allows you to run your collections on a schedule without any manual intervention. With the custom webhooks, you can use those results by connecting to other available services.
+Postman Monitors enable you to run your collections on a schedule without any manual intervention. With the custom webhooks, you can use those results by connecting to other available services.
 
 To send monitor run results to custom webhooks:
 
