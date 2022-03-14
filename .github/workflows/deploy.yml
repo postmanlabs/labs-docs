@@ -18,7 +18,7 @@ jobs:
     - name: set AWS, BFF and Algolia Keys to environment
       env:
         GATSBY_ALGOLIA_APP_ID: ${{ secrets.GATSBY_ALGOLIA_APP_ID}}
-        GATSBY_ALGOLIA_SEARCH_KEY: ${{secrets.GATSBY_ALGOLIA_SEARCH_KEY}}
+        GATSBY_ALGOLIA_DEV_KEY: ${{secrets.GATSBY_ALGOLIA_DEV_KEY}}
         ALGOLIA_ADMIN_KEY: ${{secrets.ALGOLIA_ADMIN_KEY}}
         AWS_ACCESS_KEY_ID: ${{secrets.AWS_ACCESS_KEY_ID}}
         AWS_SECRET_ACCESS_KEY: ${{secrets.AWS_SECRET_ACCESS_KEY}}

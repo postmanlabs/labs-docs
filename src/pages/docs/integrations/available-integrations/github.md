@@ -102,13 +102,13 @@ Backing up collection to GitHub with a custom domain name is similar to the abov
 
 ### Static IP Support
 
-If your network is behind a firewall that requires whitelisted IP addresses, you will need to use a static IP address to enable collection backups to GitHub on custom domains.
+If your network is behind a firewall that requires IP addresses from an allowlist, you will need to use a static IP address to enable collection backups to GitHub on custom domains.
 
-Contact your IT team to whitelist the following static IP in your firewall to enable collection backups to GitHub:
+Contact your IT team to allowlist the following static IP in your firewall to enable collection backups to GitHub:
 
 * US East: `3.212.102.200`
 
-Once you whitelist this IP address, calls for this integration will be able to connect to your network and allow the integration to work as expected.
+Once you allowlist this IP address, calls for this integration will be able to connect to your network and allow the integration to work as expected.
 
 ## Syncing your API schemas on GitHub
 
