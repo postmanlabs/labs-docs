@@ -26,7 +26,7 @@ You can configure a custom webhook with Postman to send events such as monitor r
 * [Enabling static IP support](#enabling-static-ip-support)
 * [Configuring custom webhooks](#configuring-custom-webhooks)
 * [Send updates for a Postman Collection to a custom webhook](#send-updates-for-a-postman-collection-to-a-custom-webhook)
-* [Send monitor results to a custom webhook](#send-monitor-results-to-a-custom-webhook)
+* [Send monitor results to custom webhooks](#send-monitor-results-to-custom-webhooks)
 * [Send a team activity feed to custom webhooks](#send-a-team-activity-feed-to-custom-webhooks)
 
 ## Enabling static IP support
