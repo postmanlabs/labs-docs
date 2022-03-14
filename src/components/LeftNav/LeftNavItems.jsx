@@ -323,7 +323,7 @@ export const leftNavItems = [
         url: '/docs/collaborating-in-postman/manage-public-elements/',
       },
       {
-        name: 'Using workspaces',
+        name: 'Using Workspaces',
         subParentSlug: 'using-workspaces',
         slug: '/docs/collaborating-in-postman/using-workspaces/creating-workspaces/',
         subMenuItems2: [
