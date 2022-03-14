@@ -48,7 +48,7 @@ Open your Azure AD management portal in a new tab to continue configuring your S
 
 9. Select **Save Authentication** in Postman.
 
-Your team will now be able to log into Postman via Azure AD.
+You can test your SAML configuration by creating a test user in Azure AD and assigning them the Postman app. If you've opted to [automatically add new users](/docs/administration/sso/admin-sso/#automatically-adding-new-users) when configuring SAML, you'll be able to immediately log in to Postman with the test user's credentials to confirm the process works as expected. If you haven't opted to automatically add new users, you can manually [invite the test user](/docs/administration/managing-your-team/managing-your-team/#inviting-to-a-team) to your Postman team and then log in to Postman with the test users' credentials.
 
 > If you encounter any issues, confirm you've added and saved the correct configuration values on both Postman and Azure AD. [Contact Postman support](https://www.postman.com/support/) for further help.
 
