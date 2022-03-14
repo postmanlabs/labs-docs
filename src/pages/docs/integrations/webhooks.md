@@ -62,7 +62,7 @@ To send updates for a Postman Collection to a custom webhook:
 1. In the **Webhooks Integrations** page, next to **Backup a collection**, select **Add Integration**.
 1. In the **Add integration** page:
    * Enter any name for the nickname.
-   * Select the collection you wish to back up.
+   * Under **Choose Collection**, select the collection you wish to send updates for.
    * Enter the webhook URL your webhook payload will be sent to.
 1. Select **Add Integration**.
 
