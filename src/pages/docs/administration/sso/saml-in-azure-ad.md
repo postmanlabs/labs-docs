@@ -8,72 +8,50 @@ contextual_links:
   - type: section
     name: "Prerequisites"
   - type: link
-    name: "Intro to SSO"
-    url: "/docs/administration/sso/intro-sso/"
+    name: "Configuring SSO for a team"
+    url: "/docs/administration/sso/admin-sso/"
 ---
 
-The steps in this topic describe how to configure a custom SAML application in Azure AD.
+To configure SSO with Azure Active Directory (AD), you can use the available Postman app in Azure AD or create a custom SAML application. You must be an administrator in both Azure AD and Postman to configure SSO for your team.
 
-## Configuration
+## Contents
 
-Before you set up a custom SAML application in Azure Active Directory (AD), you must [configure SSO in Postman](/docs/administration/sso/admin-sso/). Select "SAML 2.0" as the "Authentication Type" and allow "Identity Provider Details" to remain empty for now.
+* [Configuring SSO with Azure AD](#configuring-sso-with-azure-ad)
 
-[![ad fs](https://assets.postman.com/postman-docs/AzureAD.png)](https://assets.postman.com/postman-docs/AzureAD.png)
+* [Next steps](#next-steps)
 
-Next, sign in to the Azure management portal using your Azure Active Directory administrator account.
+## Configuring SSO with Azure AD
 
-Browse to the Azure Active Directory > [Directory] > Enterprise Applications, and select "New Application".
+Before configuring a SAML application in Azure AD, you must [configure SSO in Postman](/docs/administration/sso/admin-sso/). When choosing the **Authentication Type**, select **SAML 2.0**. Name your authentication and **Proceed**.
 
-Select "Non-gallery application".
+<img alt="Configure identity provider details in Postman" src="https://assets.postman.com/postman-docs/configure-identity-provider-details-v9.14.jpg"/>
 
-[![non gallery app](https://assets.postman.com/postman-docs/ENT-add-non-gallery-application.png)](https://assets.postman.com/postman-docs/ENT-add-non-gallery-application.png)
+Open your Azure AD management portal in a new tab to continue configuring your SAML application:
 
-Enter the name of the application and select **Add**.
+1. Navigate to **Enterprise applications** and select **+ New application**.
+2. Search for "Postman" and select the Postman app from the results then **Create**. Or, you can **+ Create your own application**.
+3. Select **Set up single sign on** > **SAML**.
+4. Take the **Entity ID**, **Login URL**, and **ACS URL** from Postman and add them to your SAML configuration in Azure AD.
 
-[![add postman app](https://assets.postman.com/postman-docs/ENT-add-postman-app.png)](https://assets.postman.com/postman-docs/ENT-add-postman-app.png)
+    <img alt="Basic SAML configuration in Azure AD" src="https://assets.postman.com/postman-docs/basic-saml-config-azuread.jpg"/>
+5. In Postman, select **Generate relay state** and add the generated value to your SAML configuration in Azure AD.
 
-Assign a test user to the application. (Required)
+    <img alt="Generate relay state in Postman" src="https://assets.postman.com/postman-docs/generate-relay-state-v9.14.jpg" width="350px"/>
+6. Under **Attributes & Claims** in Azure AD, select **Edit** > **+ Add new claim**. Map the `Unique User Identifier (Name ID)` to the `user.mail` value.
 
-[![azure app quickstart](https://assets.postman.com/postman-docs/ENT-azure-app-quickstart.png)](https://assets.postman.com/postman-docs/ENT-azure-app-quickstart.png)
+    <img alt="Attributes and claims in Azure AD" src="https://assets.postman.com/postman-docs/attributes-claims-config-azuread.jpg"/>
+7. **Download** the Federation Metadata XML file in Azure AD under **SAML Signing Certificate**.
 
-In the "Configure Single Sign-on" section, select "SAML-based Sign-on" in the "Single Sign-on Mode" dropdown.
+    <img alt="SAML signing certificate in Azure AD" src="https://assets.postman.com/postman-docs/saml-signing-certificate-azuread.jpg"/>
 
-[![sso saml](https://assets.postman.com/postman-docs/ENT-single-sign-on-saml.png)](https://assets.postman.com/postman-docs/ENT-single-sign-on-saml.png)
+8. In Postman, upload the Federation Metadata XML file under **Identity Provider Metadata File**. Or, you can enter the **Identity Provider SSO URL**, **Identity Provider Issuer**, and **X.509 Certificate** individually under **Identity Provider Details**.
 
-Configure the SAML integration. The table below describes the values of the fields in this configuration.
+9. Select **Save Authentication** in Postman.
 
-[![configure saml](https://assets.postman.com/postman-docs/ENT-configure-saml.png)](https://assets.postman.com/postman-docs/ENT-configure-saml.png)
+Your team will now be able to log into Postman via Azure AD.
 
-### SAML integration fields
+> If you encounter any issues, confirm you've added and saved the correct configuration values on both Postman and Azure AD. [Contact Postman support](https://www.postman.com/support/) for further help.
 
-| **Field**          | **Value**         |
-| ------------- | ------------- |
-| Identifier | The Entity ID for your Postman custom SSO auth. You can find it in the [Team](https://app.getpostman.com/dashboard/teams) page.   |
-| Reply URL | The ACS URL for your Postman custom SSO auth. You can find it in the [Team](https://app.getpostman.com/dashboard/teams) page.  |
-| User Identifier  | Select user.mail from the dropdown  |
+## Next steps
 
-Download the "SAML Signing Certificate" (Base64 format) and select the **Save** button.
-
-After the setup is complete, submit your Identity Provider details to Postman. For more information, see [Intro to SSO](/docs/administration/sso/intro-sso/).
-
-Navigate to your [team settings](https://go.postman.co/settings/team/general) in the Postman Web dashboard. To update the identity provider details, navigate to __Authentication__ &gt; &lt;AzureAuthName&gt; and select __Edit__, then __Proceed__. Fill in the following details:
-
-### Postman custom auth configuration fields
-
-| **Field**         | **Value**         |
-| ------------- | ------------- |
-| Identity Provider Issuer | The SAML Entity ID of your Azure AD application |
-| Identity Provider SSO URL | The SAML Single Sign-on Service URL of your Azure AD application |
-| X.509 Certificate | Contents of the SAML Signing Certificate file |
-
-Once your details are complete, select __Generate relay/Regenerate relay__ to create a parameter to send with a SAML response in an IDP-initiated single sign-on. Select __Save Authentication__.
-
-Navigate back to your Postman configuration in Azure AD.
-
-![Azure Postman Config](https://assets.postman.com/postman-docs/ENT-configure-saml.png)
-
-Check the __Show advanced URL settings__ option. This will provide access to the Relay state, where you can enter the parameter you generated in Postman during your custom auth configuration setup.
-
-![Relay State Entry](https://assets.postman.com/postman-docs/azure-relay-state-entry.jpg)
-
-Save your Azure AD configuration. The setup should now be complete, allowing you to login to Postman using SSO via the Azure AD identity provider.
+Postman Enterprise teams can continue by [configuring SCIM with Azure AD](/docs/administration/scim-provisioning/configuring-scim-with-azure-ad/).
