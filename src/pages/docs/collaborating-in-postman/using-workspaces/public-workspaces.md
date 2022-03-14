@@ -44,7 +44,7 @@ Anyone in the Postman community can access a _public workspace_. A public worksp
     * [Adding elements to a public workspace](#adding-elements-to-a-public-workspace)
     * [Removing elements from a public workspace](#removing-elements-from-a-public-workspace)
     * [Deleting a public workspace](#deleting-a-public-workspace)
-    * [Managing public workspace members](#managing-public-workspace-members)
+    * [Managing public workspace users and roles](#managing-public-workspace-users-and-roles)
 * [Collaborating in another user's public workspace](#collaborating-in-another-users-public-workspace)
 * [Next steps](#next-steps)
 
@@ -184,7 +184,7 @@ To collaborate with someone else in their public workspace, open the **Workspace
 
 For **collections** and **environments**, [create a fork](/docs/collaborating-in-postman/version-control-for-collections/#forking-a-collection) and request to merge changes using a [pull request](/docs/collaborating-in-postman/version-control-for-collections/#creating-pull-requests).
 
-For **APIs**, navigate to the API and version. Select **Definition** > **Request Access** to request an editor role.
+For **APIs**, navigate to the API and version. Select the **Definition** tab and then select **Request Access** to request an editor role.
 
 You can access public workspaces using the Postman Explore page's [**Workspaces** category](https://www.postman.com/explore/workspaces). You can also access the public workspaces that you own or are a member of using the **Workspaces** selector at the top of Postman.
 
