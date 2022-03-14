@@ -30,9 +30,12 @@ Setting up a GitHub integration requires you to generate a GitHub personal acces
 
 > To import data into Postman from a GitHub repository, see [Importing via GitHub repositories](/docs/getting-started/importing-and-exporting-data/#importing-via-github-repositories).
 
+## Contents
+
 * [API sync with GitHub](#api-sync-with-github)
 * [Generating a GitHub Personal Access Token](#generating-a-github-personal-access-token)
 * [Backing up collections on GitHub](#backing-up-collections-on-github)
+* [Backing up collections to GitHub on a custom domain](#backing-up-collections-to-github-on-a-custom-domain)
 * [Troubleshooting GitHub Sync](#troubleshooting-github-sync)
 
 ## API sync with GitHub
