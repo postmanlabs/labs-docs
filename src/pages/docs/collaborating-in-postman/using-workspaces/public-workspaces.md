@@ -41,8 +41,8 @@ Anyone in the Postman community can access a _public workspace_. A public worksp
     * [Sharing a public workspace](#sharing-a-public-workspace)
 * [Managing a public workspace](#managing-a-public-workspace)
     * [Editing public workspace details](#editing-public-workspace-details)
-    * [Adding elements to a public workspace](#adding-elements-to-a-public-workspace)
-    * [Removing elements from a public workspace](#removing-elements-from-a-public-workspace)
+    * [Moving elements to a public workspace](#moving-elements-to-a-public-workspace)
+    * [Deleting elements from a public workspace](#deleting-elements-from-a-public-workspace)
     * [Deleting a public workspace](#deleting-a-public-workspace)
     * [Managing public workspace users and roles](#managing-public-workspace-users-and-roles)
 * [Collaborating in another user's public workspace](#collaborating-in-another-users-public-workspace)
@@ -132,7 +132,7 @@ You can share this workspace URL with other users.
 
 ## Managing a public workspace
 
-When a user opens a public workspace, Postman shows an overview of its contents, activity, and members in a new tab. The user interacts with the contents of the public workspace—the collections, APIs, environments, and other elements. As a team member with an Admin role on the workspace, you can manage the overview, the elements in the workspace, and the members of the workspace.
+When a user opens a public workspace, Postman shows an overview of its contents, activity, and members in an **Overview** tab. The user interacts with the contents of the public workspace, including the collections, APIs, environments, and other elements. As a team member with an [Admin role](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles) on the workspace, you can manage the overview, the elements in the workspace, and the members of the workspace.
 
 ### Editing public workspace details
 
@@ -140,27 +140,31 @@ Users with an [Admin role](/docs/collaborating-in-postman/roles-and-permissions/
 
 > The [Public API Network](/docs/getting-started/exploring-public-api-network/) displays your workspace's name and summary. Make your workspace name and summary informative to improve its visibility on the Public API Network.
 
-### Adding elements to a public workspace
+### Moving elements to a public workspace
 
-You can add existing collections and environments to another public workspace by sharing them.
+You can move Postman elements from your personal, private, or team workspace into a public workspace. You must have an [Admin or Editor role](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles) for the public workspace to move elements to it.
 
-* To share a _collection_ to a public workspace, open it using Collections on the left side, then select the three dots icon <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> > **Share collection**.
-* To share an _environment_ to a public workspace, open it using Environments on the left side, then select the three dots icon <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> > **Share environment**.
+To move an existing element to a public workspace:
 
-Select the public workspace you want to share to, and choose whether you also want to remove the element from its current workspace. Select **Share and Continue**.
+1. Select the three dots icon <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to the collection or environment name, then select **Move**.
+1. Select the public workspace to which you want to move the collection or environment, then select **Move Collection** or **Move Environment**.
 
-### Removing elements from a public workspace
+The Postman element that you move to the public workspace will no longer exist in the original workspace.
 
-When you remove an element from a public workspace, it's no longer visible in that particular workspace. The element is still available in any other workspace in which it exists.
+> If there are monitors, mock servers, or integrations associated with the moved element, they remain in the original workspace.
 
-* To remove a _collection_ from a public workspace, open it using Collections on the left side, then select the three dots icon <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> > **Remove from workspace**. Confirm that you would like to remove the collection from the current workspace. The collection will no longer be visible in the workspace.
-* To remove an _environment_ from a public workspace, select the three dots icon <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to the environment menu or select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to the Share button in the Environment tab. Select **Remove from workspace** and confirm that you would like to remove the environment from the current workspace. The environment will no longer be visible in the workspace.
+### Deleting elements from a public workspace
 
-> Deleting an element is different from removing it. When you delete an element, it's no longer available in any workspace. When you remove an element from a specific workspace, it will still be available in any other workspaces in which it exists.
+You can delete Postman elements from a public workspace for which you have an [Admin or Editor role](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles):
+
+1. Select the three dots icon <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to the element's name, then select **Delete**.
+1. Select **Delete** to confirm your choice.
+
+You can retrieve the deleted element by selecting <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg" width="12px" style="vertical-align:middle;margin-bottom:5px"> **Trash** from the status bar.
 
 ### Deleting a public workspace
 
-To delete a public workspace, you must change its visibility first.
+To delete a public workspace, you must change its visibility first. You must have an [Admin role](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles) for a workspace to be able to delete it.
 
 1. On the workspace overview, select **Workspace Settings**.
 1. Under **Visibility**, select one of **Team**, **Private**, or **Personal**, then select **Update**.
