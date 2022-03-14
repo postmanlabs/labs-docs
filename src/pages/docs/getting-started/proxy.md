@@ -59,7 +59,7 @@ A proxy acts like a go-between to perform various functions. Postman has a [buil
 
 ### Configuring proxy settings
 
-This article describes how to configure the proxy settings in Postman to direct all requests made in Postman to route through a proxy server. This is different from [capturing network traffic](/docs/sending-requests/capturing-request-data/capturing-http-requests/) with the built-in proxy which allows Postman to intercept network traffic.
+This article describes how to configure the proxy settings in Postman to direct all requests made in Postman to route through a proxy server. This is different from [capturing network traffic](/docs/sending-requests/capturing-request-data/capturing-http-requests/) with the built-in proxy which enables Postman to intercept network traffic.
 
 Postman's native apps for Mac, Windows, and Linux support configuring proxies. You can either specify to use a **custom proxy** or to use the **system proxy** defined in the operating system.
 
@@ -71,7 +71,7 @@ To configure the proxy settings, select the gear icon on the right side of the h
 
 ### Using a custom proxy
 
-Postman allows you to configure **Custom Proxy Configuration** that direct Postman to forward your HTTP or HTTPS requests through a proxy server. This will route all requests sent by Postman through a proxy server of your choosing.
+Postman enables you to configure **Custom Proxy Configuration** that direct Postman to forward your HTTP or HTTPS requests through a proxy server. This will route all requests sent by Postman through a proxy server of your choosing.
 
 1. Postman is the client that sends a request through the selected proxy.
 1. The proxy server sends the request to the server.
@@ -95,7 +95,7 @@ The **Proxy Bypass** setting is below the **Proxy Server** option. A number of c
 
 ### Using a system proxy
 
-The **Use the system proxy** option allows Postman to use the system's default proxy configuration. It contains an option to use `HTTP_PROXY`, `HTTPS_PROXY`, and `NO_PROXY` environment variables.
+The **Use the system proxy** option enables Postman to use the system's default proxy configuration. It contains an option to use `HTTP_PROXY`, `HTTPS_PROXY`, and `NO_PROXY` environment variables.
 
 If all of your applications need to use the same proxy, you might need to use a default proxy configured at the Operating System level. Use the **system proxy settings** to forward your HTTP or HTTPS requests in Postman through your OS’s default configuration. In other words, you are telling the Postman and all requests sent using Postman to follow your OS's default configuration.
 
