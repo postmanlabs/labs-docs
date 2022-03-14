@@ -41,7 +41,7 @@ Workspaces allow you to organize your Postman work and collaborate with teammate
 
 <img alt="Workspaces selected" src="https://assets.postman.com/postman-docs/workspace-overview-switcher-selected-v9.1.jpg"/>
 
-Personal workspaces are visible only to you—with a [Postman account](/docs/getting-started/postman-account/) you can create unlimited workspaces. With team workspaces, you can share and manage access to project components with collaborators. [Public workspaces](/docs/collaborating-in-postman/using-workspaces/public-workspaces/) enable you to collaborate on entities with anyone across the world.
+Personal workspaces are visible only to you. With a [Postman account](/docs/getting-started/postman-account/) you can create unlimited workspaces. With team workspaces, you can share and manage access to project components with collaborators. [Public workspaces](/docs/collaborating-in-postman/using-workspaces/public-workspaces/) enable you to collaborate on entities with anyone across the world.
 
 By adding an entity such as a collection to a workspace, collaborators with access to the workspace will also be able to access the entity by default with read-only permissions. You can [configure access settings](/docs/collaborating-in-postman/roles-and-permissions/) for the workspace on an individual basis to provide permissions depending on your account.
 
