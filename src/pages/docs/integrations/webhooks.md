@@ -189,7 +189,7 @@ To send a team activity feed to a custom webhook:
 
 1. In the **Webhooks Integrations** page, next to **Post team activity**, select **Add Integration**.
 2. In the **Add integration** page:
-   * Enter any name for the nickname.
+   * Enter a **Nickname** for the integration.
    * Enter the webhook URL to send team updates to this specific URL.
 3. Select **Add Integration**.
 
