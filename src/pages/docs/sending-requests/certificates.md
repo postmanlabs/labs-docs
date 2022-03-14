@@ -56,7 +56,7 @@ You can view currently installed certificates, add a new certificate, or remove 
 To add a certificate issued by a certificate authority to Postman:
 
 1. Turn on the toggle switch next to **CA Certificates**.
-1. Select the PEM file for your CA certificate, then select **Open**.
+1. Select the **PEM file** for your CA certificate.
 
 [![Adding a CA certificate](https://assets.postman.com/postman-docs/certificates-add-ca-cert-v9-14.jpg)](https://assets.postman.com/postman-docs/certificates-add-ca-cert-v9-14.jpg)
 
@@ -72,7 +72,7 @@ To add a self-signed client certificate to Postman:
 1. Do one of the following:
 
     * Select the **CRT file** and then select **Key file** for your certificate.
-    * Select the **PFX** file for your certificate.
+    * Select the **PFX file** for your certificate.
 
 1. If you used a **Passphrase** when generating the client certificate, enter it in the box. Otherwise, leave the box blank.
 1. Select **Add**.
