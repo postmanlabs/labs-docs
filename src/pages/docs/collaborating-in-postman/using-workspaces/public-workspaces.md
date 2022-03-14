@@ -160,14 +160,14 @@ When you remove an element from a public workspace, it's no longer visible in th
 
 ### Deleting a public workspace
 
-To delete a public workspace, you must revert its visibility. If you try to delete a public workspace by selecting the three dots icon <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> on the right corner of the workspace overview, the option to delete is greyed out.
+To delete a public workspace, you must change its visibility first.
 
-![Deleting a public workspace](https://assets.postman.com/postman-docs/delete-option-greyed-public-workspace.jpg)
+1. On the workspace overview, select **Workspace Settings**.
+1. Under **Visibility**, select one of **Team**, **Private**, or **Personal**, then select **Update**.
+1. After you update its visibility, select **Delete Workspace**.
+1. Enter the workspace name to confirm that you want to delete it, then select **Delete workspace**.
 
-To change the visibility of a public workspace and delete it:
-
-1. Change the visibility dropdown to **Team**, then **Save Changes**.
-1. Select the three dots icon <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px">, then select **Delete workspace**.
+<img alt="Unable to delete a public workspace" src="https://assets.postman.com/postman-docs/public-workspace-cant-delete-v9.jpg" width="350px"/>
 
 ### Managing public workspace users and roles
 
