@@ -2,7 +2,7 @@
 title: "Managing Enterprise deployment"
 order: 140.5
 page_id: "managing_enterprise_deployment"
-updated: 2022-01-05
+updated: 2022-03-14
 warning: false
 contextual_links:
   - type: section
@@ -121,7 +121,7 @@ msiexec /i path\to\package.msi /l*v C:\log.txt
 
 ### MSI installation options
 
-Settings can be changed during the installation time for MSI application.
+Settings can be changed during an MSI application installation.
 
 For example, if your app defines a `MY_OPTION` installation option, you can set a custom value:
 
@@ -129,7 +129,7 @@ For example, if your app defines a `MY_OPTION` installation option, you can set 
 msiexec /i path\to\package.msi MY_OPTION='hello'
 ```
 
-Installing a MSI with some of its installation options looks like this:
+You can also install an MSI with multiple installation options:
 
 ``` shell
 msiexec /i path\to\package.msi MY_STRING_OPTION='hello' MY_INTEGER_OPTION=7
