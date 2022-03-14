@@ -94,7 +94,7 @@ To send monitor run results to custom webhooks:
 
 1. In the **Webhooks Integrations** page, next to **Post monitoring results**, select **Add Integration**.
 2. In the **Add integration** page:
-   * Enter any name for the nickname.
+   * Enter a **Nickname** for the integration.
    * Select the workspace containing the monitor you want to send to a custom webhook.
    * Select the monitor you want to send.
    * Enter the webhook URL your webhook payload will be sent to.
