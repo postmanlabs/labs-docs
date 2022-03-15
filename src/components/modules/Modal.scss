@@ -30,11 +30,22 @@ div.modal-content {
   background: none;
   border: none;
   width: auto;
+  @media screen and (min-width: 576px){
+    margin-top: 40px;
+  }
 }
 
 img.modal-responsive {
   @media screen and (min-width: 576px){
-    max-height: 90vh;
+    max-height: 75vh;
+  }
+}
+
+.modal-close-button {
+  button {
+    border: none;
+    padding: 0.5rem;
+    border-radius: 4px;
   }
 }
 
