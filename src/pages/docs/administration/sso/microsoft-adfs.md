@@ -53,7 +53,7 @@ To add a Relying Party Trust:
 
   Select the **Claims aware** button in the Welcome screen and then select the **Start** button.
 
-[![relysing party trust](https://assets.postman.com/postman-docs/ENT-Relying-Party-Trust.png)](https://assets.postman.com/postman-docs/ENT-Relying-Party-Trust.png)
+[![relying party trust](https://assets.postman.com/postman-docs/ENT-Relying-Party-Trust.png)](https://assets.postman.com/postman-docs/ENT-Relying-Party-Trust.png)
 
    In the Select Data Source screen, select the last option, "Enter Data About the Party Manually".
 

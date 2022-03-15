@@ -17,12 +17,15 @@ DevOps
 BigPanda
 Bitbucket
 Bootcamp
+Chai
 Chrome
 CircleCI
+Clojars
 CNAME
 Coralogix
 CRT
 Ctrl
+Databricks
 Datadog
 DNS
 Dropbox
@@ -71,7 +74,9 @@ REST
 SAML
 SCIM
 Scratch Pad
+Sendinblue
 SHA
+Shopify
 SIEM
 SMS
 SMTP
@@ -83,6 +88,8 @@ TLS
 Travis
 Twilio
 TXT
+unencrypted
+unpublish
 UID
 UTC
 VAT
