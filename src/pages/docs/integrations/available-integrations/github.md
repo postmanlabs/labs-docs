@@ -44,7 +44,7 @@ Postman 9.0 introduced the ability to connect a Git repository to an API. Instea
 
 ## Generating a GitHub personal access token
 
-To integrate with GitHub, you will need a GitHub Personal Access Token.
+To integrate with GitHub, you will need a GitHub personal access token.
 
 1. Log in to [GitHub](https://github.com/).
 
