@@ -90,7 +90,7 @@ To convert an existing workspace to a public workspace:
 1. Under **Visibility**, select **Public**.
 1. Select **Update**.
 
-> You must have an [Admin](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles) role for a workspace to change its visibility to public.
+> You must be a [Workspace Admin](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles) to change the visibility of a workspace.
 <!--  -->
 > If you are on a [Postman Professional or Enterprise plan](https://www.postman.com/pricing), you need a community manager's approval to change a workspace's visibility to public. In the **Overview** tab, select **Workspace Settings**. Under **Visibility**, select **Public** from the dropdown list, then **Request to Change Visibility**.
 
