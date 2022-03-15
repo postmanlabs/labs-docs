@@ -26,9 +26,11 @@ DNS
 Dropbox
 Echo
 EULA
+favicon
 Git
 GitHub
 GitLab
+globals
 HEAD
 IAM
 IANA
@@ -49,6 +51,7 @@ npm
 NTLM
 OAuth
 Okta
+onboarding
 OneLogin
 OpenAPI
 OpenID
