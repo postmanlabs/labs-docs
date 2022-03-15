@@ -6,12 +6,14 @@ updated: 2022-03-11
 warning: false
 contextual_links:
   - type: section
-    name: "Additional Resources"
-  - type: subtitle
-    name: "Related Blog Posts"
+    name: "Prerequisites"
   - type: link
     name: "Creating workspaces"
     url: "/docs/collaborating-in-postman/using-workspaces/creating-workspaces/"
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Related Blog Posts"
   - type: link
     name: "Public Workspaces: Why We Created Them and What You Can Do with Them"
     url: "https://blog.postman.com/public-workspaces-why-we-created-them-what-you-can-do/"
