@@ -91,7 +91,7 @@ After Interceptor is connected, you can then start an Interceptor debug session,
 
 1. Select **Start Capture**.
 
-<img src="https://assets.postman.com/postman-docs/interceptor-capture-cookies.jpg" alt="Capture cookies" width="300px"/>
+<img src="https://assets.postman.com/postman-docs/interceptor-capture-cookies-v9-14.jpg" alt="Capture cookies" width="469px"/>
 
 ### Running the Interceptor debug session
 
