@@ -33,7 +33,7 @@ Setting up a GitHub integration requires you to generate a GitHub personal acces
 ## Contents
 
 * [API sync with GitHub](#api-sync-with-github)
-* [Generating a GitHub Personal Access Token](#generating-a-github-personal-access-token)
+* [Generating a GitHub personal access token](#generating-a-github-personal-access-token)
 * [Backing up collections on GitHub](#backing-up-collections-on-github)
 * [Backing up collections to GitHub on a custom domain](#backing-up-collections-to-github-on-a-custom-domain)
 * [Troubleshooting the GitHub integration](#troubleshooting-the-github-integration)
