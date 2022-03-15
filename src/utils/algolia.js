@@ -9,7 +9,6 @@
 
 require('dotenv').config({
   path: `.env.${process.env.NODE_ENV}`,
-
 });
 
 const algoliaIndex = (process.env.NODE_ENV === 'development') ? 'dev_docs' : 'docs';
