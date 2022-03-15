@@ -56,7 +56,7 @@ Before other Postman users can work with your team in a public workspace, your t
 
 To make your [team profile](https://go.postman.co/settings/team/general) public:
 
-1. Select **Team** next to your avatar in the upper-right corner of Postman, then select **Team settings**.
+1. In the upper-right corner of Postman next to your avatar, select **Team** > **Team settings**.
 1. Select **Team profile**.
 1. Select the toggle next to **Make team profile public** to set the profile to public.
 
@@ -92,9 +92,9 @@ To convert an existing workspace to a public workspace:
 1. Under **Visibility**, select **Public**.
 1. Select **Update**.
 
-> You must be a [Workspace Admin](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles) to change the visibility of a workspace.
+> You must be a workspace [Admin](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles) to change the visibility of a workspace.
 <!--  -->
-> If you are on a [Postman Professional or Enterprise plan](https://www.postman.com/pricing), you need a community manager's approval to change a workspace's visibility to public. In the **Overview** tab, select **Workspace Settings**. Under **Visibility**, select **Public** from the dropdown list, then **Request to Change Visibility**.
+> If you are on a [Postman Professional or Enterprise plan](https://www.postman.com/pricing), you need a approval from a user with the [Community Manager role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) to change a workspace's visibility. In the **Overview** tab, select **Workspace Settings**. Under **Visibility**, select **Public** from the dropdown list, then **Request to Change Visibility**.
 
 Once you make a workspace public, all entities within that workspace become publicly accessible through the workspace.
 
@@ -130,7 +130,7 @@ You can share this workspace URL with other users.
 
 <img alt="Copy link to workspace" src="https://assets.postman.com/postman-docs/copy-workspace-link-v9.jpg" width="500px"/>
 
-> When you share a workspace with Postman users who aren't workspace members, its visibility must be public. If the workspace is restricted to a team or is a private or personal workspace, users who don't have access won't be able to open the workspace.
+> When you share a workspace with Postman users who aren't team members, its visibility must be public. If the workspace is restricted to a team or is a private or personal workspace, users who don't have access won't be able to open the workspace.
 
 ## Managing a public workspace
 
