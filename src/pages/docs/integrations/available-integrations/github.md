@@ -47,18 +47,11 @@ Postman 9.0 introduced the ability to connect a Git repository to an API. Instea
 To integrate with GitHub, you will need a GitHub personal access token.
 
 1. Log in to [GitHub](https://github.com/).
-
 1. If you don’t already have a personal access token, [generate a new one](https://github.com/settings/tokens).
-
-1. To enable backing up collections, select the `repo` and the `user` scopes.
-
-   [![Repo scope](https://assets.postman.com/postman-docs/WS-integrations-github-repo-scope.png)](https://assets.postman.com/postman-docs/WS-integrations-github-repo-scope.png)
-
-   [![User scope](https://assets.postman.com/postman-docs/WS-integrations-github-user-scope.png)](https://assets.postman.com/postman-docs/WS-integrations-github-user-scope.png)
-
+1. To enable backing up collections, make sure to select the `repo` and the `user` scopes.
 1. Save the generated token to use later.
 
-   <img alt="Generated token" src="https://assets.postman.com/postman-docs/WS-integrations-github-generated-token.png" width="100%" style="border: 1px solid #4a4a4a">
+> For more information about generating a token, see the [GitHub documentation](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token).
 
 ## Backing up collections on GitHub
 
