@@ -48,7 +48,7 @@ To integrate with GitHub, you will need a GitHub personal access token.
 
 1. Log in to [GitHub](https://github.com/).
 
-1. If you don’t already have a personal access Token, [generate a new one](https://github.com/settings/tokens).
+1. If you don’t already have a personal access token, [generate a new one](https://github.com/settings/tokens).
 
 1. To enable backing up collections, select the `repo` and the `user` scopes.
 
