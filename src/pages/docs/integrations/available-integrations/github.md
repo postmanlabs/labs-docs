@@ -102,7 +102,7 @@ To back up collections to GitHub on a custom domain, follow the same step as bac
 
 1. After searching for the GitHub integration in Postman, select **Add Integration** next to **Backup a collection (custom domain)**.
 
-1. Along with your personal access token, enter your GitHub custom domain, then select **Authenticate Proceed**.
+1. Along with your personal access token, enter your GitHub custom domain, then select **Authenticate and Proceed**.
 
    <img alt="GitHub custom domain" src="https://assets.postman.com/postman-docs/integrations-github-custom-domain-pat.jpg" width="500px">
 
