@@ -14,8 +14,8 @@ contextual_links:
   - type: subtitle
     name: "Videos"
   - type: link
-    name: "Intro to Postman Cloud"
-    url: "https://www.youtube.com/watch?v=ccdxr0oJR-I"
+    name: "Group Requests in Collections | Postman Level Up"
+    url: "https://youtu.be/ghHX4FGvVyA"
   - type: subtitle
     name: "Public Workspaces"
   - type: link

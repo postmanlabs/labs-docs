@@ -13,6 +13,14 @@ contextual_links:
   - type: link
     name: "Intro to Monitoring"
     url: "/docs/monitoring-your-api/intro-monitors/"
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Integrate with Opsgenie in Postman"
+    url: "https://www.youtube.com/watch?v=XWf11B2tYpc"
+    
 ---
 
 ## Contents
