@@ -78,7 +78,6 @@ To integrate with GitHub, you will need a GitHub Personal Access Token.
 
     <img alt="Access token" src="https://assets.postman.com/postman-docs/integrations-github-schema-pat.jpg" width="500px">
 
-
 1. After Postman verifies the token, you can configure the integration:
 
    * Give the integration a nickname.
@@ -106,7 +105,6 @@ To back up collections to GitHub on a custom domain, follow the same step as bac
 1. Along with your personal access token, enter your GitHub custom domain, then select **Authenticate Proceed**.
 
    <img alt="GitHub custom domain" src="https://assets.postman.com/postman-docs/integrations-github-custom-domain-pat.jpg" width="500px">
-
 
 1. Configure the integration with your collection, repository, directory, file name, and branch.
 
