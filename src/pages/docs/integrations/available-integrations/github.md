@@ -1,7 +1,7 @@
 ---
 title: "GitHub"
 order: 168
-updated: 2022-03-14
+updated: 2022-03-15
 page_id: "github"
 warning: false
 contextual_links:
@@ -52,9 +52,9 @@ To integrate with GitHub, you will need a GitHub Personal Access Token.
 
 1. To enable backing up collections, select the `repo` and the `user` scopes.
 
-   [![repo scope](https://assets.postman.com/postman-docs/WS-integrations-github-repo-scope.png)](https://assets.postman.com/postman-docs/WS-integrations-github-repo-scope.png)
+   [![Repo scope](https://assets.postman.com/postman-docs/WS-integrations-github-repo-scope.png)](https://assets.postman.com/postman-docs/WS-integrations-github-repo-scope.png)
 
-   [![user scope](https://assets.postman.com/postman-docs/WS-integrations-github-user-scope.png)](https://assets.postman.com/postman-docs/WS-integrations-github-user-scope.png)
+   [![User scope](https://assets.postman.com/postman-docs/WS-integrations-github-user-scope.png)](https://assets.postman.com/postman-docs/WS-integrations-github-user-scope.png)
 
 1. Save the generated token to use later.
 
@@ -66,17 +66,18 @@ To integrate with GitHub, you will need a GitHub Personal Access Token.
 
 1. From the **[Home](https://go.postman.co/home)** page select **[Integrations](https://go.postman.co/integrations)**.
 
-    ![home page and integrations](https://assets.postman.com/postman-docs/home-integrations.jpg)
+    <img alt="Home page and integrations" src="https://assets.postman.com/postman-docs/home-integrations.jpg" width="500px">
 
 1. Search and select **GitHub**.
 
-    [![github integration](https://assets.postman.com/postman-docs/integrations-github1.jpg)](https://assets.postman.com/postman-docs/integrations-github1.jpg)
+    [![GitHub integration](https://assets.postman.com/postman-docs/integrations-github1.jpg)](https://assets.postman.com/postman-docs/integrations-github1.jpg)
 
 1. Next to **Backup a collection**, select **Add Integration**.
 
 1. Enter your GitHub **Personal Access Token** and select **Authenticate and Proceed**.
 
-   [![access token](https://assets.postman.com/postman-docs/integrations-github-schema-pat.jpg)](https://assets.postman.com/postman-docs/integrations-github-schema-pat.jpg)
+    <img alt="Access token" src="https://assets.postman.com/postman-docs/integrations-github-schema-pat.jpg" width="500px">
+
 
 1. After Postman verifies the token, you can configure the integration:
 
@@ -88,7 +89,7 @@ To integrate with GitHub, you will need a GitHub Personal Access Token.
    * Enter the file name of the collection in the repository.
    * Enter the branch where you want to push the collection. The branch must already exist in your repository. If you don't specify a branch, Postman will push the collection to the default branch of the repository.
 
-   [![configure](https://assets.postman.com/postman-docs/integrations-github-add.jpg)](https://assets.postman.com/postman-docs/integrations-github-add.jpg)
+   <img alt="Configure GitHub integration" src="https://assets.postman.com/postman-docs/integrations-github-add.jpg" width="500px">
 
 1. To finish setting up the integration, select **Add Integration**.
 
@@ -104,7 +105,8 @@ To back up collections to GitHub on a custom domain, follow the same step as bac
 
 1. Along with your personal access token, enter your GitHub custom domain, then select **Authenticate Proceed**.
 
-   [![access token custom](https://assets.postman.com/postman-docs/integrations-github-custom-domain-pat.jpg)](https://assets.postman.com/postman-docs/integrations-github-custom-domain-pat.jpg)
+   <img alt="GitHub custom domain" src="https://assets.postman.com/postman-docs/integrations-github-custom-domain-pat.jpg" width="500px">
+
 
 1. Configure the integration with your collection, repository, directory, file name, and branch.
 
