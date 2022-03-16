@@ -62,9 +62,9 @@ To get started, navigate to the [Postman API](https://www.postman.com/postman/wo
 
 ## Logged Events
 
-Postman logs events related to [team management](#team-management), [user management](#user-management), and [billing](#billing).
+Postman logs events related to your [team](#team), [users](#users), and [billing](#billing).
 
-### Team management
+### Team
 
 | Action | Description |
 | ------------- | ------------- |
@@ -97,7 +97,7 @@ Postman logs events related to [team management](#team-management), [user manage
 | Edited Custom Alert | A custom token alert's name or regex pattern was changed, or the alert was turned on or off. |
 | Deleted Custom Token Alert  | A custom token alert was deleted. |
 
-### User management
+### Users
 
 | Action | Description |
 | ------------- | ------------- |
