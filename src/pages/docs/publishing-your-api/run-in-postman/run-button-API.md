@@ -50,7 +50,11 @@ _pm('env.create', 'Spotify', {
 
 * [Replacing an existing environment](#replacing-an-existing-environment)
 
+* [Removing an existing environment](#removing-an-existing-environment)
+
 * [Using multiple buttons](#using-multiple-buttons-with-separate-environments)
+
+* [Getting all environments](#getting-all-environments)
 
 * [Next steps](#next-steps)
 
@@ -170,11 +174,11 @@ You can embed multiple buttons on a single page. If you want to include a differ
 _pm('_property.set', 'segregateEnvironments', true);
 ```
 
-> If `segregateEnvironments` is enabled, you will have to use `runButtonIndex` in all pm() methods to reference each button according to its position in your page [DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model). Because `segregateEnvironments` is deactivated by default, `runButtonIndex` is optional by default.
+> If `segregateEnvironments` is enabled, you will have to use `runButtonIndex` in all `pm()` methods to reference each button according to its position in your page [DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model). Because `segregateEnvironments` is deactivated by default, `runButtonIndex` is optional by default.
 
 ### Including the index
 
-If `segregateEnvironments` is enabled, you'll have to use `runButtonIndex` in all pm() methods to reference each button according to its position in your page [DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model). The `runButtonIndex` is represented by an integer.
+If `segregateEnvironments` is enabled, you'll have to use `runButtonIndex` in all `pm()` methods to reference each button according to its position in your page [DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model). The `runButtonIndex` is represented by an integer.
 
 ```javascript
 var runButtons = Array.prototype.slice.call(document.getElementsByClassName('postman-run-button')),
@@ -185,6 +189,32 @@ var runButtons = Array.prototype.slice.call(document.getElementsByClassName('pos
 
 ```javascript
 var runButtonIndex = $('postman-run-button').index(elem);
+```
+
+## Getting all environments
+
+You can use the `get()` method to retrieve an array of all the environments.
+
+```javascript
+_pm('_property.get', 'environments')
+```
+
+This will return an array of environments:
+
+```json
+[
+  {
+    "button_index": 0,
+    "name": "env1",
+    "values": [
+      {
+        "key": "testKey",
+        "value": "testValue",
+        "enabled": true
+      }
+    ]
+  }
+]
 ```
 
 ## Next steps
