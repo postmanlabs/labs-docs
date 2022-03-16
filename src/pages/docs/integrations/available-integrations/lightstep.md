@@ -10,7 +10,7 @@ contextual_links:
     url: "/docs/sending-requests/intro-to-collections/"
 ---
 
-Lightstep Instant Response is an incident response platform from ServiceNow, which offers the ability to observe, assess, resolve, and escalate alerts and issues in enterprise and DevOps applications. It's available at [lightstep.com](https://www.lightstep.com).
+[Lightstep Incident Response](https://lightstep.com/incident-response) is an incident response platform from ServiceNow, which offers the ability to observe, assess, resolve, and escalate alerts and issues in enterprise and DevOps applications.
 
 ServiceNow has created a Postman integration for Lightstep. This integration ingests Postman monitoring alerts into Lightstep to give visibility and remediation guidance for ops and support teams. When a configured Postman monitor fails, an alert is sent to Lightstep. Postman's [webhooks integration](src/pages/docs/integrations/webhooks.md) is used to add the integration to Postman.
 
