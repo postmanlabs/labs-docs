@@ -16,4 +16,4 @@ ServiceNow has created a Postman integration for Lightstep. This integration ing
 
 To use Lightstep with Postman, use the Postman integration within Lightstep to create a webhook. Then, add a webhook integration in Postman and add the URL of the Lightstep webhook.
 
-See the [Lightstep documentation for the Postman integration](https://lightstep.com/incident-response/docs/integrations-postman) for a complete procedure on how to add a Postman integration to Lightstep.
+See the [Lightstep documentation](https://lightstep.com/incident-response/docs/integrations-postman) for a step-by-step guide on how to add the Postman integration.
