@@ -1,7 +1,7 @@
 ---
 title: "Coding with Run in Postman"
 order: 110
-updated: 2022-03-01
+updated: 2022-03-17
 page_id: "run_button_API"
 warning: false
 contextual_links:
@@ -137,6 +137,30 @@ _pm('env.replace', 'user_data', {});
 ```
 
 The `env.replace` method will return true on success, false on failure.
+
+## Removing an existing environment
+
+Use the `env.remove` method to remove an existing environment.
+
+```javascript
+_pm('env.remove', 'environment_name', runButtonIndex)
+```
+
+To remove an environment:
+
+```javascript
+// Existing environment named 'user_data'
+{
+  auth_token: 'q4yugoiwqu4habddef3897ryq3891s',
+  user_id: '823',
+  session_data: {}
+}
+
+// Remove the 'user_data' environment
+_pm('env.remove', 'user_data');
+```
+
+The `env.replace` method will return `true` on success or `false` on failure. The specified environment must exist or `env.remove` will fail.
 
 ## Using multiple buttons with separate environments
 
