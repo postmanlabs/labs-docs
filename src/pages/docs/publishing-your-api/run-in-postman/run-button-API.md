@@ -31,7 +31,7 @@ contextual_links:
 
 Some API publishers use Run in Postman buttons alongside their own API documentation. If users input data in a developer portal, for example, the Run in Postman API can dynamically inject this provided information as environment variable values into the embedded Run in Postman button.
 
-The Run in Postman API uses the `_pm()` method to create or modify environments in your website's client-side code through existing dynamic Run in Postman buttons.
+The Run in Postman API uses the `_pm()` method to create or update environments in your website's client-side code through existing dynamic Run in Postman buttons.
 
 As another example, you can use the API to pass login credentials to Postman:
 
@@ -66,7 +66,7 @@ Use the `env.create` method to create a new environment:
 _pm('env.create', 'environment_name', {key: value}, runButtonIndex);
 ```
 
-> `env.create` can't be used to create duplicate environments. Calls made with existing environment names will fail.
+> You can't use `env.create` to create duplicate environments. Calls made with existing environment names will fail.
 
 Create a new environment using API keys entered by your user:
 
@@ -84,18 +84,18 @@ function () {
 }
 ```
 
-The `env.create` action will return true on success, false on failure.
+The `env.create` action will return `true` on success, `false` on failure.
 
 ## Editing an existing environment
 
-Use the `env.assign` method to modify an environment:
+Use the `env.assign` method to update an environment:
 
 ```javascript
 _pm('env.assign', 'environment_name', {key: new_value, new_key: value}, preventOveride, runButtonIndex)
 ```
 
-> The `env.assign` method works for environments that were included in the Run in Postman button when it was created, or environments that were added using the `env.create` method.
-> `env.assign` can't be used to create new environments. Calls made using `env.assign` will fail if an environment doesn't already exist.
+> The `env.assign` method works for environments that you included in the Run in Postman button when you created it, or environments that you added using the `env.create` method.
+> You can't use `env.assign` to create new environments. Calls made using `env.assign` will fail if an environment doesn't already exist.
 
 Update an environment's API keys:
 
@@ -114,7 +114,7 @@ function () {
 }
 ```
 
-The `env.assign` action will return true on success, false on failure.
+The `env.assign` action will return `true` on success, `false` on failure.
 
 ## Replacing an existing environment
 
@@ -124,7 +124,7 @@ Use the `env.replace` method to replace an entire environment:
 _pm('env.replace', 'environment_name', {key: value}, runButtonIndex)
 ```
 
-> `env.replace` can't be used to replace an environment which doesn't exist.
+> You can't use `env.replace` to replace an environment which doesn't exist.
 
 Replace an environment:
 
@@ -140,7 +140,7 @@ Replace an environment:
 _pm('env.replace', 'user_data', {});
 ```
 
-The `env.replace` method will return true on success, false on failure.
+The `env.replace` method will return `true` on success, `false` on failure.
 
 ## Removing an existing environment
 
@@ -174,11 +174,11 @@ You can embed multiple buttons on a single page. If you want to include a differ
 _pm('_property.set', 'segregateEnvironments', true);
 ```
 
-> If `segregateEnvironments` is enabled, you will have to use `runButtonIndex` in all `pm()` methods to reference each button according to its position in your page [DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model). Because `segregateEnvironments` is deactivated by default, `runButtonIndex` is optional by default.
+> If you enable `segregateEnvironments`, you will have to use `runButtonIndex` in all `pm()` methods to reference each button according to its position in your page [DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model). Because `segregateEnvironments` is deactivated by default, `runButtonIndex` is optional by default.
 
 ### Including the index
 
-If `segregateEnvironments` is enabled, you'll have to use `runButtonIndex` in all `pm()` methods to reference each button according to its position in your page [DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model). The `runButtonIndex` is represented by an integer.
+If you enable `segregateEnvironments`, you'll have to use `runButtonIndex` in all `pm()` methods to reference each button according to its position in your page [DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model). The `runButtonIndex` is an integer.
 
 ```javascript
 var runButtons = Array.prototype.slice.call(document.getElementsByClassName('postman-run-button')),
