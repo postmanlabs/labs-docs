@@ -166,6 +166,10 @@ export const leftNavItems = [
             name: 'Using Postman Interceptor',
             url: '/docs/sending-requests/capturing-request-data/interceptor/',
           },
+          {
+            name: 'Syncing cookies',
+            url: '/docs/sending-requests/capturing-request-data/syncing-cookies/',
+          },
         ],
       },
       {
