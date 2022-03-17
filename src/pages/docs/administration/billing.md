@@ -242,7 +242,7 @@ You won't be billed if the number of users has remained unchanged during your au
 
 In your [billing dashboard](http://go.postman.co/billing), you can view:
 
-* Your current number of additional team members,
+* Your current number of additional team members
 * How much you will be billed at the end of your cycle (unless you add or remove team members in the interim)
 * Additional information about your auto-flex and regular billing cycles
 
