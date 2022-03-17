@@ -41,11 +41,11 @@ function SEO({
         },
         {
           property: 'og:url',
-          content: 'https://learning.postman.com',
+          content: `https://learning.postman.com${slug}`,
         },
         {
           property: 'og:title',
-          content: title,
+          content: `${title} | Postman Learning Center`,
         },
         {
           property: 'og:site_name',
@@ -69,7 +69,7 @@ function SEO({
         },
         {
           name: 'twitter:title',
-          content: title,
+          content: `${title} | Postman Learning Center`,
         },
         {
           property: 'twitter:domain',
