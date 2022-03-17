@@ -44,6 +44,10 @@ function SEO({
           content: `https://learning.postman.com${slug}`,
         },
         {
+          property: 'og:description',
+          content: `${title}: documentation for Postman, the collaboration platform for API development. Create better APIs—faster.`,
+        },
+        {
           property: 'og:title',
           content: `${title} | Postman Learning Center`,
         },
@@ -70,6 +74,10 @@ function SEO({
         {
           name: 'twitter:title',
           content: `${title} | Postman Learning Center`,
+        },
+        {
+          property: 'twitter:description',
+          content: `${title}: documentation for Postman, the collaboration platform for API development. Create better APIs—faster.`,
         },
         {
           property: 'twitter:domain',
