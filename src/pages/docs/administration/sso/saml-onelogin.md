@@ -1,49 +1,56 @@
 ---
 title: "Custom SAML in OneLogin"
 order: 139
-updated: 2021-01-20
+updated: 2022-03-16
 page_id: "saml_onelogin"
 warning: false
 contextual_links:
   - type: section
     name: "Prerequisites"
   - type: link
-    name: "Intro to SSO"
-    url: "/docs/administration/sso/intro-sso/"
+    name: "Configuring SSO for a team"
+    url: "/docs/administration/sso/admin-sso/"
 ---
 
-> You must be an admin of your OneLogin organization in order to create this custom SAML application.
+To configure SSO with OneLogin, you can use the available Postman app. You must be an administrator in both OneLogin and Postman to configure SSO for your team.
 
-## Setting up a custom SAML application in OneLogin
+## Contents
 
-1. Go to the OneLogin home page at [https://www.onelogin.com/](https://www.onelogin.com/) and log in to your account using your OneLogin credentials.
+* [Configuring SSO with OneLogin](#configuring-sso-with-onelogin)
 
-1. Navigate to the OneLogin applications page, and select **Add Apps**:
+* [Next steps](#next-steps)
 
-   [![OneLogin add app2](https://assets.postman.com/postman-docs/Onelogin-Add-Apps2.png)](https://assets.postman.com/postman-docs/Onelogin-Add-Apps2.png)
+## Configuring SSO with OneLogin
 
-1. Search for *SAML Test Connector* in the Find Applications section. Select *SAML Test Connector (IdP w/ attr w/ sign response)* from the search results
+Before configuring the Postman application in OneLogin, you must [configure SSO in Postman](/docs/administration/sso/admin-sso/). When choosing the **Authentication Type**, select **OneLogin**. Name your authentication and **Proceed**.
 
-    [![onelogin find saml](https://assets.postman.com/postman-docs/Onelogin-Select-SAML1.png)](https://assets.postman.com/postman-docs/Onelogin-Select-SAML1.png)
+<img alt="Configure identity provider details in Postman" src="https://assets.postman.com/postman-docs/configure-identity-provider-details-v9.14.jpg"/>
 
-1. Update or rename the **Display Name**, and select **Save**.
+Open your OneLogin admin console in a new tab to continue configuring your Postman application:
 
-   [![onelogin display name](https://assets.postman.com/postman-docs/Onelogin_display.png)](https://assets.postman.com/postman-docs/Onelogin_display.png)
+1. Navigate to **Applications** and select **Add App**.
+2. Search for "Postman" and select the Postman app from the results.
+3. Select **Configuration** on the left.
+4. Take the **ACS URL** from Postman and add it as your **SAML Consumer URL** in OneLogin.
 
-1. You are now in the **Info** tab. Select the **Configuration** tab. Enter your Postman service provider details here. These details can be found on the Postman [Edit Team Details page](https://go.postman.co/settings/team/general). Select **Save** to proceed.
+    <img alt="OneLogin configuration application details" src="https://assets.postman.com/postman-docs/onelogin-configuration3.jpg"/>
 
-   [![OneLogin service provider](https://assets.postman.com/postman-docs/Onelogin-IDP-Details2.png)](https://assets.postman.com/postman-docs/Onelogin-IDP-Details2.png)
+5. In Postman, select **Generate relay state** and add the generated value as the SAML RelayState in OneLogin.
 
-    * Enter the string `^https:\/\/identity.getpostman.com\/` in the **ACS(Consumer) URL Validator** field.
-    * Copy **EntityID** in the **Recipient** field, and **ACS URL** in **ACS (Consumer) URL**.
-    * Enter `https://identity.getpostman.com` in the **Single Logout URL** field.
+    <img alt="Generate relay state in Postman" src="https://assets.postman.com/postman-docs/generate-relay-state-v9.14.jpg" width="350px"/>
 
-1. Navigate to the SSO tab in OneLogin and copy the `Identity Provider SSO URL`, `SAML 2.0 Endpoint (HTTP)`, and `X.509 Certificate` from here:
+6. Select **SSO** on the left in OneLogin.
+7. Copy the **Issuer URL** and add it as the **Identity Provider Issuer** in Postman.
 
-   [![OneLogin service provider](https://assets.postman.com/postman-docs/Onelogin-Copy-IDP-Details1.png)](https://assets.postman.com/postman-docs/Onelogin-Copy-IDP-Details1.png)
+    <img alt="OneLogin SSO Enable SAML 2.0" src="https://assets.postman.com/postman-docs/onelogin-sso.jpg"/>
 
-1. To copy the X.509 certificate, select **View Details**, then paste the values into the corresponding fields in the Postman Identity Provider Details screen:
+8. Copy the **SAML 2.0 Endpoint (HTTP)** and add it as **Identity Provider SSO URL** in Postman.
+9. Select **View Details** under **X.509 Certificate**. Copy the **X.509 Certificate** and add it under **X.509 Certificate** in Postman.
 
-    [![OneLogin service provider details](https://assets.postman.com/postman-docs/server-provider-details.jpg)](https://assets.postman.com/postman-docs/server-provider-details.jpg)
+10. Select **Save Authentication** in Postman to complete the configuration.
 
-1. Generate or regenerate the relay state, select **Automatically add new users using this authentication method to my team**, and select **Save Authentication**.
+> If you encounter any issues, confirm you've added and saved the correct configuration values on both Postman and OneLogin. [Contact Postman support](https://www.postman.com/support/) for further help.
+
+## Next steps
+
+Postman Enterprise teams can continue by [configuring SCIM with OneLogin](/docs/administration/scim-provisioning/configuring-scim-with-onelogin/).
