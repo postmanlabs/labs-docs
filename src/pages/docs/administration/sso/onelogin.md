@@ -1,8 +1,8 @@
 ---
-title: "Custom SAML in OneLogin"
+title: "OneLogin"
 order: 139
 updated: 2022-03-16
-page_id: "saml_onelogin"
+page_id: "onelogin"
 warning: false
 contextual_links:
   - type: section

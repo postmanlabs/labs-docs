@@ -44,17 +44,17 @@ As a next step, you must fill in the details in the **Identity Provider Details*
 
 To enter details in the **Identity Provider Details** section, you must login to your IDP account and fetch details. Refer to the corresponding section of the documentation and follow the outlined procedure there:
 
-* [Setting up custom SAML in Okta](/docs/administration/sso/saml-okta/)
+* [Setting up SSO via Okta](/docs/administration/sso/okta/)
 
-* [Setting up custom SAML in Duo](/docs/administration/sso/saml-duo/)
+* [Setting up SSO via Duo](/docs/administration/sso/duo/)
 
-* [Setting up custom SAML in Gsuite](/docs/administration/sso/saml-gsuite/)
+* [Setting up SSO via Google Workspace](/docs/administration/sso/google-workspace/)
 
-* [Setting up custom SAML in Onelogin](/docs/administration/sso/saml-onelogin/)
+* [Setting up SSO via OneLogin](/docs/administration/sso/onelogin/)
 
-* [Setting up custom SAML in Ping Identity](/docs/administration/sso/saml-ping/)
+* [Setting up SSO via Ping Identity](/docs/administration/sso/ping-identity/)
 
-* [Setting up custom SAML in Azure AD](/docs/administration/sso/saml-in-azure-ad/)
+* [Setting up SSO via Azure AD](/docs/administration/sso/azure-ad/)
 
 ## Managing user accounts
 

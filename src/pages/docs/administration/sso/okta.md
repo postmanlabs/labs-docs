@@ -1,8 +1,8 @@
 ---
-title: 'Custom SAML in Okta'
+title: 'Okta'
 order: 138
 updated: 2021-01-20
-page_id: 'saml_okta'
+page_id: 'okta'
 warning: false
 contextual_links:
   - type: section
