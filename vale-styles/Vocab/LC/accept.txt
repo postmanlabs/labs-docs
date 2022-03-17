@@ -1,8 +1,10 @@
 ACH
 ACS
 ADFS
+[Aa]gent
 Airtable
 Akamai
+alert
 Algolia
 allowlist
 Amazon
@@ -15,20 +17,25 @@ DevOps
 BigPanda
 Bitbucket
 Bootcamp
+Chai
 Chrome
 CircleCI
+Clojars
 CNAME
 Coralogix
 CRT
 Ctrl
+Databricks
 Datadog
 DNS
 Dropbox
 Echo
 EULA
+favicon
 Git
 GitHub
 GitLab
+globals
 HEAD
 IAM
 IANA
@@ -38,6 +45,7 @@ ISO
 JSON
 Keen
 LDAP
+Lightstep
 lorem
 Microsoft Teams
 MIME
@@ -49,6 +57,7 @@ npm
 NTLM
 OAuth
 Okta
+onboarding
 OneLogin
 OpenAPI
 OpenID
@@ -66,7 +75,9 @@ REST
 SAML
 SCIM
 Scratch Pad
+Sendinblue
 SHA
+Shopify
 SIEM
 SMS
 SMTP
@@ -78,6 +89,8 @@ TLS
 Travis
 Twilio
 TXT
+unencrypted
+unpublish
 UID
 UTC
 VAT

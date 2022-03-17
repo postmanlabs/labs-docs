@@ -30,7 +30,7 @@ warning: false
 
 ---
 
-The Postman Public API Network is the largest network of APIs, workspaces, and collections by developers across the planet. Many of the teams and companies responsible for leading-edge APIs and technologies have public workspaces you can explore. Popular third-party APIs are also published, along with numerous examples you can use as a starting point when writing your own APIs or collections.
+The Postman Public API Network is the largest network of APIs, workspaces, and collections by developers across the planet. Many of the teams and companies responsible for leading-edge APIs and technologies have public workspaces you can explore. Popular third-party APIs are also published, along with examples you can use as a starting point when writing your own APIs or collections.
 
 To access the Public API Network, visit [postman.com/explore](https://www.postman.com/explore) or select **Explore** at the top left of Postman.
 
@@ -41,7 +41,7 @@ There are a variety of ways to find APIs, workspaces, teams, and collections:
 * **Categories** showcases popular API categories in the Public API Network including Communication, Data Analytics, and Financial Services.
 * **In the spotlight** highlights the latest exciting, useful, and noteworthy contributions to the Public API Network, handpicked by the experts at Postman.
 * **Trending workspaces, collections, and APIs** shows entities that are the most popular in the Public API Network, based on the number of people viewing or creating forks of them.
-* The **Search Postman** box at the top of the page searches all of Postman by default, but you can also use the search controls to limit a search to only the Public API Network.
+* The **Search Postman** box at the top of the page searches all Postman teams, workspaces, collections, and APIs by default, but you can also use the search controls to limit a search to the Public API Network.
 * Under **Browse**, you can select to view **Teams**, **Workspaces**, **APIs**, and **Collections**. You can sort results using the **Featured**, **Most Viewed**, and **Latest** tabs just below the header.
     * You can also sort Collections and Workspaces by category using the filters below the header.
 

@@ -36,13 +36,13 @@ contextual_links:
 warning: false
 ---
 
-Postman makes it easy to create and send API requests. Send a request to test a endpoint, retrieve data from a data source, or try out an API's functionality. You don't need to enter commands in a terminal or write any code. Simply create a new request and select **Send**, and the API response appears right inside Postman.
+Postman makes it easy to create and send API requests. Send a request to test a endpoint, retrieve data from a data source, or try out an API's functionality. You don't need to enter commands in a terminal or write any code. Create a new request and select **Send**, and the API response appears right inside Postman.
 
-## What is an API request?
+## API requests defined
 
-APIs provide a structured way for one application to access the capabilities of another application. Typically, this communication happens over the internet by way of an API server. A client application (like a mobile app) sends a request to the server, and after the request is processed the server returns a response to the client.
+APIs provide a structured way for one application to access the capabilities of another application. Typically, this communication happens over the internet by way of an API server. A client application (like a mobile app) sends a request to the server, and after the request processes the server returns a response to the client.
 
-A request includes the URL of the API endpoint as well as an HTTP request method. The method indicates the type of action you are asking the API to perform. Here are some of the most common methods:
+A request includes the URL of the API endpoint and an HTTP request method. The method indicates the action you want the API to perform. Here are some of the most common methods:
 
 * `GET` retrieves data from an API.
 * `POST` sends new data to an API.

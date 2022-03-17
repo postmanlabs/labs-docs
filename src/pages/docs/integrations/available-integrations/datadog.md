@@ -69,7 +69,7 @@ Postman can forward a wide array of metrics for the specified monitors to Datado
 | **Metrics Name**          |       **Type**         | **Description**         | **Level**         |
 | ------------- | ------------- | ------------- | ------------- |
 | postman.monitor.run.errors | `GAUGE` | The total number of errors across all requests in a monitoring run | Run
-| postman.monitor.run.failed\_tests | GAUGE | The total number of failed tests across all requests in a monitoring run | Run
+| postman.monitor.run.failed\_tests | `GAUGE` | The total number of failed tests across all requests in a monitoring run | Run
 | postman.monitor.run.passed\_tests | `GAUGE` | Total number of passed tests across all requests in a monitoring run | Run
 | postman.monitor.run.request\_count | `GAUGE` | Total number of requests in a monitoring run | Run
 | postman.monitor.run.total\_latency | `GAUGE` | The total latency time for all requests in a monitoring run | Run

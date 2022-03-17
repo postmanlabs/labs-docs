@@ -44,7 +44,7 @@ To add a team activity feed to Microsoft Power Automate:
 1. On the **Team Activity Feed** page, enter the Webhook URL to send team updates to this specific URL.
 1. Select **Add Integration**.
 
-![microsoft_team_activity](https://assets.postman.com/postman-docs/WS-integrations-msFlow-teamactivityfeed.jpg)
+![Microsoft_team_activity](https://assets.postman.com/postman-docs/WS-integrations-msFlow-teamactivityfeed.jpg)
 
 ## Back up your Postman Collections in Microsoft Power Automate
 
@@ -59,7 +59,7 @@ To back up your Postman Collections in Microsoft Power Automate:
    * Enter an identifier for this integration.
 1. Select **Add Integration**.
 
-![microsoft_flow_backup](https://assets.postman.com/postman-docs/msflows-backup-col-save-config.jpg)
+![Microsoft_flow_backup](https://assets.postman.com/postman-docs/msflows-backup-col-save-config.jpg)
 
 ## See collection activity feed in Microsoft Power Automate
 
@@ -83,7 +83,7 @@ To send monitor run results to Microsoft Power Automate:
 1. On the **Monitor Run Results** page, select the monitor you want to send to Microsoft Power Automate.
 1. Select **Add Integration**.
 
-![microsoft_mon_runs](https://assets.postman.com/postman-docs/msflows-post-monitoring-res.jpg)
+![Microsoft_mon_runs](https://assets.postman.com/postman-docs/msflows-post-monitoring-res.jpg)
 
 You can also configure advanced options to alert you when a monitor run completes or when three failures occur and the first monitor run after those failures completes successfully.
 
