@@ -47,7 +47,7 @@ You can share your collections, APIs, and environments with collaborators by nav
 
 Collections, APIs, and environments can be shared directly with collaborators, including team members, [groups](/docs/administration/managing-your-team/user-groups/), and external users.
 
-<img alt="Share api" src="https://assets.postman.com/postman-docs/share-api-9.4.jpg"/>
+<img alt="Share API" src="https://assets.postman.com/postman-docs/share-api-9.4.jpg"/>
 
 If the entity resides in a private workspace and you are not a workspace admin, you will only be able to share it with team members who already have access to the workspace. If the entity resides in a personal workspace, you'll be prompted to either change the workspace visibility to team or create a new team workspace for the entity to reside in.
 

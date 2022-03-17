@@ -79,7 +79,7 @@ Keeping these various configurable elements in mind, let’s take a look at the 
 
     To match a request like this in your mock, you can now use a variable in the request URL of your example. You do not need to hardcode values in the example. Instead, you can match any request sent to your mock server that match the pattern `GET /users/<userId>`. You will just have to replace the dynamic segments
 
-    Wildcard matching is only applicable to entire URL path segments.  So, the same example, `GET {{url}}/users/{{userId}}` can serve `GET /users/1`, `GET /users/100` or even `GET /users/carol`. But, it will not match `GET /users/foo/bar`.
+    Wildcard matching is only applicable to entire URL path segments. So, the same example, `GET {{url}}/users/{{userId}}` can serve `GET /users/1`, `GET /users/100` or even `GET /users/carol`. But, it will not match `GET /users/foo/bar`.
 
     You can use the same variables in the example’s response to use their captured values. Taking the same example, you can add a request body for the same example like this:
 

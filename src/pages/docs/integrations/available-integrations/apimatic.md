@@ -62,4 +62,4 @@ Once the integration has been created, select it to view details about the integ
 
 <img alt="APIMatic integration run log" src="https://assets.postman.com/postman-docs/apimatic-run-log-v9.jpg" width="500px"/>
 
-This integration runs once a day at 12:00 UTC. If you make changes to your collection, they are picked up by the converter in its next run. If no updates are made to your collection, no updates are pushed to GitHub.
+This integration runs once a day at 12:00 UTC. If you make changes to your collection, they're picked up by the converter in its next run. If no updates are made to your collection, no updates are pushed to GitHub.

@@ -75,7 +75,7 @@ Once you've downloaded the Postman Enterprise MSI package, you can move forward 
 
 ### INSTALLDIR
 
-The `INSTALLDIR` public property is used to select a custom installation directory. If this public property is not manually overwritten, it defaults to `%PROGRAMFILES%\Postman\"Postman Enterprise"` for system-wide installations and `%USERPROFILE%\AppData\Local\Programs\Postman\"Postman Enterprise"` for per-user installations.
+The `INSTALLDIR` public property is used to select a custom installation directory. If this public property isn't manually overwritten, it defaults to `%PROGRAMFILES%\Postman\"Postman Enterprise"` for system-wide installations and `%USERPROFILE%\AppData\Local\Programs\Postman\"Postman Enterprise"` for per-user installations.
 
 For example, you can run the following command to perform a system-wide installation to a custom directory:
 
@@ -147,7 +147,7 @@ For example, if you first installed Postman Enterprise with the following you mu
 INSTALLDIR=C:\custom and MSIINSTALLPERUSER=1
 ```
 
-> Downgrading the Postman Enterprise app is not supported and attempts to do so will result in an error message. You can force a downgrade by manually removing the current version and then installing a previous version of Postman Enterprise.
+> Downgrading the Postman Enterprise app isn't supported and attempts to do so will result in an error message. You can force a downgrade by manually removing the current version and then installing a previous version of Postman Enterprise.
 
 ### Uninstalling the Postman Enterprise Windows app
 
@@ -166,8 +166,8 @@ macOS supports a flexible installer technology called PKG that can be easily ins
 PKG installer packages have the following capabilities:
 
 * You can select between system-wide, per-user installation, or custom installation disks.
-* They do not require reboots after installation.
-* They are fully configurable for silent installation.
+* They don't require reboots after installation.
+* They're fully configurable for silent installation.
 * Apple Silicon is supported.
 
 ### Installing a PKG installer package
@@ -188,9 +188,9 @@ installer -dumplog -verbose -pkg path/to/app.pkg -target CurrentUserHomeDirector
 
 ### Uninstalling PKG installers
 
-A disadvantage of PKG installers is that macOS does not provide a standard mechanism to uninstall PKGs. However, the `pkgutil` tool included with macOS can be used to get information about the current PKGs installed on a system and the files that each installation created using the app bundle identifier.
+A disadvantage of PKG installers is that macOS doesn't provide a standard mechanism to uninstall PKGs. However, the `pkgutil` tool included with macOS can be used to get information about the current PKGs installed on a system and the files that each installation created using the app bundle identifier.
 
-If you do not know the bundle identifier of the app you want to uninstall, you can print the list of all the PKG bundle identifiers installed either system-wide or per-user:
+If you don't know the bundle identifier of the app you want to uninstall, you can print the list of all the PKG bundle identifiers installed either system-wide or per-user:
 
 ``` shell
 # For system-wide PKGs

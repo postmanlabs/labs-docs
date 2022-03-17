@@ -56,7 +56,7 @@ You can also select __Runner__ at the bottom right of Postman and drag a collect
 
 <img alt="Run history" src="https://assets.postman.com/postman-docs/run-history-v8.jpg" width="350px"/>
 
-By default your requests will run in the sequence they are listed in the collection. If you need to change the order of execution, select a request and drag it to move it to its new order. You can also deselect an individual request by unchecking its box.
+By default your requests will run in the sequence they're listed in the collection. If you need to change the order of execution, select a request and drag it to move it to its new order. You can also deselect an individual request by unchecking its box.
 
 [![Runner request order](https://assets.postman.com/postman-docs/runner-order-v8.jpg)](https://assets.postman.com/postman-docs/runner-order-v8.jpg)
 

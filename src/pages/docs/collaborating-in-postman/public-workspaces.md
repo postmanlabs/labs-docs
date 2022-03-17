@@ -92,7 +92,7 @@ You can share a public workspace by sharing its **public profile URL** directly.
 
 Copy the **Public profile URL** and paste it in your browser to access your workspace.
 
-<img alt="Enable public profile url" src="https://assets.postman.com/postman-docs/enable-public-profile-url.jpg"/>
+<img alt="Enable public profile URL" src="https://assets.postman.com/postman-docs/enable-public-profile-url.jpg"/>
 
 ## Editing a public workspace
 

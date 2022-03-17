@@ -98,7 +98,7 @@ To confirm, select **Remove User From Team**.
 
 ![Confirmation for removing a team member](https://assets.postman.com/postman-docs/remove-user-from-team-confirmation.jpg)
 
-> When you remove a user from your team, you will still retain access to any data they have shared with the team. However, any data in the user’s personal workspaces is owned by that user and their ownership for that data will not be transferred when they are removed from your team.
+> When you remove a user from your team, you will still retain access to any data they have shared with the team. However, any data in the user’s personal workspaces is owned by that user and their ownership for that data will not be transferred when they're removed from your team.
 
 ## Next steps
 

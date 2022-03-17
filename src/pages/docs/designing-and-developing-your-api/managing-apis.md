@@ -39,7 +39,7 @@ When you [define your APIs](/docs/designing-and-developing-your-api/the-api-work
 
 You can share your APIs with collaborators by navigating to the API you'd like to share in the left sidebar. Select it, then select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> > **Share**.
 
-<img alt="Share api" src="https://assets.postman.com/postman-docs/share-api-9.4.jpg"/>
+<img alt="Share API" src="https://assets.postman.com/postman-docs/share-api-9.4.jpg"/>
 
 For more details, see [Sharing Postman entities](/docs/collaborating-in-postman/sharing/#sharing-postman-entities).
 
@@ -91,7 +91,7 @@ You can discuss your APIs with collaborators in Postman, keeping the conversatio
 
 To leave a comment on an API, open __APIs__ in the left sidebar and select the API version you want to comment on. Switch to comment mode, enter your comment, and **Add comment** to publish it.
 
-[![api comment app](https://assets.postman.com/postman-docs/api-builder-add-comment-v9.jpg)](https://assets.postman.com/postman-docs/api-builder-add-comment-v9.jpg)
+[![API comment app](https://assets.postman.com/postman-docs/api-builder-add-comment-v9.jpg)](https://assets.postman.com/postman-docs/api-builder-add-comment-v9.jpg)
 
 > You can leave inline comments on the API schema by highlighting what you want to comment on.
 
@@ -105,7 +105,7 @@ If you want to call the attention of a collaborator in comment, you can tag them
 
 To edit, delete, or link to one of your comments, navigate to the comment section and hover over the comment you wish to manage. Select the pen icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> to edit the comment, the trash icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg" width="12px" style="vertical-align:middle;margin-bottom:5px"> to delete, or the anchor icon <img alt="Link icon" src="https://assets.postman.com/postman-docs/icon-workspace-link-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> to get a direct link to the comment.
 
-[![api comment manage](https://assets.postman.com/postman-docs/v8-managing-comment-actions2.jpg)](https://assets.postman.com/postman-docs/v8-managing-comment-actions2.jpg)
+[![API comment manage](https://assets.postman.com/postman-docs/v8-managing-comment-actions2.jpg)](https://assets.postman.com/postman-docs/v8-managing-comment-actions2.jpg)
 
 > With Admin permissions you can delete comments made by any contributor, but you cannot update or modify comments.
 
