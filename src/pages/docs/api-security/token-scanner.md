@@ -17,10 +17,10 @@ contextual_links:
     name: "Public Workspaces"
   - type: link
     name: "Postman Security"
-    url:  "https://www.postman.com/postman/workspace/62d58d93-7e0c-45bf-9daa-cc8e531fc344"  
+    url:  "https://www.postman.com/postman/workspace/62d58d93-7e0c-45bf-9daa-cc8e531fc344"
 ---
 
-The Postman Token Scanner scans your public workspaces, collections, environments, and documentation to find accidentally exposed tokens. This protects your organization and prevents malicious users from exploiting the tokens.
+The Postman Token Scanner scans your public workspaces, collections, environments, and documentation to find exposed authentication tokens. This protects your organization and prevents malicious users from exploiting the tokens.
 
 > Token Scanner is available on all Postman plans and is enabled by default.
 
@@ -38,15 +38,15 @@ A scan is triggered whenever your team members do any of the following actions:
 
 * Change the workspace visibility to Public.
 * Share a collection or environment to a public workspace.
-* Make changes to a collection or environment that is present in a public workspace.
-* Author new documentation for a Postman Collection and make it public.
+* Make changes to a collection or environment that's present in a public workspace.
+* Write new documentation for a Postman Collection and make it public.
 * Make any changes to publicly available Postman documentation.
 
 Scan results are displayed in [Security audit reports](/docs/designing-and-developing-your-api/view-and-analyze-api-reports/#security-audit-reports) on the **Reports** section of the web dashboard.
 
 ## Supported tokens
 
-The Token Scanner will scan a variety of tokens by default. You can also add your team's proprietary third-party app tokens that are not supported yet using [custom alerts](#custom-alerts).
+The Token Scanner will scan a variety of tokens by default. You can also add your team's proprietary third-party app tokens that aren't supported yet using [custom alerts](#custom-alerts).
 
 ### Default alerts
 
@@ -83,7 +83,7 @@ By default, tokens issued by the following service providers are scanned:
 
 ### Custom alerts
 
-Custom alerts can be used to scan your team's proprietary and third-party app tokens that are not scanned by default.
+Custom alerts can be used to scan your team's proprietary and third-party app tokens that aren't scanned by default.
 
 > **[Custom alerts are available on Postman Enterprise plans only](https://www.postman.com/pricing/)**.
 
@@ -97,6 +97,6 @@ To add custom alerts:
 
 ## Token scanner dashboard
 
-You can view all of your team's configured [default](#default-alerts) and [custom](#custom-alerts) alerts in your [token scanner dashboard](https://go.postman.co/settings/team/token-scanner). Select **Team** in the upper-right > **Team Settings**. Then, select **Token scanner** on the left.
+You can view your team's configured [default](#default-alerts) and [custom](#custom-alerts) alerts in your [data security dashboard](https://go.postman.co/settings/team/token-scanner). Select **Team** in the upper-right > **Team Settings**. Then, select **Data security** on the left, and select **Token scanner**.
 
-<img alt="Token scanner dashboard" src="https://assets.postman.com/postman-docs/dashboard-token-scanner-v9.1.jpg"/>
+<img alt="Data security dashboard" src="https://assets.postman.com/postman-docs/data-security-dashboard.jpg"/>
