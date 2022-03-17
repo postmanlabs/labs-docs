@@ -15,3 +15,11 @@
         border-bottom: 1px solid;
     }
 }
+ol.lc-breadcrumbs {
+    margin: 0;
+    li {
+        list-style-type: none;
+        display: inline;
+        padding-left: 0;
+    }
+}
