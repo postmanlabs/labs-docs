@@ -166,6 +166,10 @@ export const leftNavItems = [
             name: 'Using Postman Interceptor',
             url: '/docs/sending-requests/capturing-request-data/interceptor/',
           },
+          {
+            name: 'Syncing cookies',
+            url: '/docs/sending-requests/capturing-request-data/syncing-cookies/',
+          },
         ],
       },
       {
@@ -776,6 +780,10 @@ export const leftNavItems = [
           {
             name: 'Keen',
             url: '/docs/integrations/available-integrations/keen/',
+          },
+          {
+            name: 'Lightstep',
+            url: '/docs/integrations/available-integrations/lightstep/',
           },
           {
             name: 'Microsoft Power Automate',

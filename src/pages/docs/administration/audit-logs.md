@@ -14,7 +14,7 @@ contextual_links:
 
 > __[Audit logs are available on Postman Professional and Enterprise plans.](https://www.postman.com/pricing)__
 
-Audit logs display events related to team management, billing, and security. Team admins can review audit logs to determine:
+Audit logs display events related to your team, users, and billing. Team admins can review audit logs to determine:
 
 * When users were added to, removed from, or invited to your team
 * Which user performed a specific action and when they did so
@@ -62,9 +62,9 @@ To get started, navigate to the [Postman API](https://www.postman.com/postman/wo
 
 ## Logged Events
 
-Postman logs events related to [team management](#team-management), [user management](#user-management), [security](#security), and [billing](#billing).
+Postman logs events related to your [team](#team), [users](#users), and [billing](#billing).
 
-### Team management
+### Team
 
 | Action | Description |
 | ------------- | ------------- |
@@ -80,8 +80,24 @@ Postman logs events related to [team management](#team-management), [user manage
 | Added Custom Domain | A [custom domain](/docs/publishing-your-api/custom-doc-domains/) was added to your team. |
 | Updated Custom Domain Verification Status | The verification status of your domain was updated. |
 | Deleted Custom Domain  | A custom domain was deleted from your team. |
+| Custom Auth Scheme Enabled | An SSO scheme was enabled.  |
+| Custom Auth Scheme Updated  | An SSO scheme was updated. |
+| Custom Auth Scheme Disabled  | An SSO scheme was disabled. |
+| Custom Auth Scheme Removed  | An SSO scheme was removed.  |
+| Created SCIM Key | A user created a new SCIM key. |
+| Activated SCIM Key | A user activated a SCIM key. |
+| Regenerated SCIM Key | A user regenerated a SCIM key. |
+| Revoked SCIM Key | A user revoked a SCIM key. |
+| Deleted SCIM Key | A user deleted a SCIM key. |
+| SCIM User Provisioned | The SCIM admin provisioned a new user. |
+| SCIM User De-provisioned | The SCIM admin de-provisioned a user. |
+| Exported Data | A user requested an export of their data. |
+| Downloaded Exported Data | A user downloaded an export of their data. |
+| Added Custom Alert | A new [custom token alert](/docs/api-security/token-scanner/#custom-alerts) was created for your team. |
+| Edited Custom Alert | A custom token alert's name or regex pattern was changed, or the alert was turned on or off. |
+| Deleted Custom Token Alert  | A custom token alert was deleted. |
 
-### User management
+### Users
 
 | Action | Description |
 | ------------- | ------------- |
@@ -102,11 +118,6 @@ Postman logs events related to [team management](#team-management), [user manage
 | Removed Group Role | A role was removed from a group. |
 | Removed Group Member | A user was removed from a group. |
 | Deleted Group | A user deleted a group. |
-
-### Security
-
-| Action | Description |
-| ------------- | ------------- |
 | Successful Login via Password | A user logged in successfully via Password.   |
 | Successful Login via Google | A user logged in successfully via Google. |
 | Successful Login via SSO | A user logged in successfully via SSO. |
@@ -114,22 +125,6 @@ Postman logs events related to [team management](#team-management), [user manage
 | Changed Password | A user changed their password. |
 | User Session Revoked | A user revoked their session(s). |
 | User Logout | A user logged out. |
-| Custom Auth Scheme Enabled | An SSO scheme was enabled.  |
-| Custom Auth Scheme Updated  | An SSO scheme was updated. |
-| Custom Auth Scheme Disabled  | An SSO scheme was disabled. |
-| Custom Auth Scheme Removed  | An SSO scheme was removed.  |
-| Created SCIM Key | A user created a new SCIM key. |
-| Activated SCIM Key | A user activated a SCIM key. |
-| Regenerated SCIM Key | A user regenerated an SCIM key. |
-| Revoked SCIM Key | A user revoked an SCIM key. |
-| Deleted SCIM Key | A user deleted an SCIM key. |
-| SCIM User Provisioned | The SCIM admin provisioned a new user. |
-| SCIM User De-provisioned | The SCIM admin de-provisioned a user. |
-| Exported Data | A user requested an export of their data. |
-| Downloaded Exported Data | A user downloaded an export of their data. |
-| Added Custom Alert | A new [custom token alert](/docs/api-security/token-scanner/#custom-alerts) was created for your team. |
-| Edited Custom Alert | A custom token alert's name or regex pattern was changed, or the alert was turned on or off. |
-| Deleted Custom Token Alert  | A custom token alert was deleted. |
 
 ### Billing
 

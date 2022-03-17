@@ -82,7 +82,7 @@ Select **Add Integration** to see your monitors in the "Configured Integrations"
 
 Monitor run messages summarize the basic details of the run, if the run was successful or if it failed. Also, it provides direct links to that particular run and to the documentation for the collection.
 
-[![microsoft teams view](https://assets.postman.com/postman-docs/59034537.jpg)](https://assets.postman.com/postman-docs/59034537.jpg)
+[![Microsoft teams view](https://assets.postman.com/postman-docs/59034537.jpg)](https://assets.postman.com/postman-docs/59034537.jpg)
 
 Similarly, the Team Activity message displays updates, who made the change and what it was.
 

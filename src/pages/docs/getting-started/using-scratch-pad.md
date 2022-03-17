@@ -6,13 +6,13 @@ updated: 2022-03-01
 warning: false
 ---
 
-The _Scratch Pad_ is a space where you can work while not being connected to Postman Servers. When you aren't logged in or don't have a network connection, you can still access some Postman features offline, such as creating collections and requests, or sending requests.
+The _Scratch Pad_ is a space where you can work if you're not connected to Postman servers. When you aren't logged in or don't have a network connection, you can still access some Postman features offline, such as creating collections and requests, or sending requests.
 
-All your work in the Scratch Pad will be stored locally and will not be synced online with Postman. After working in the Scratch Pad, you can later move your work into a workspace once you log in.
+All your work in the Scratch Pad is stored locally and isn't synced online with Postman. After working in the Scratch Pad, you can later move your work into a workspace once you log in.
 
 ## Entering the Scratch Pad
 
-If you're logged out or your connection to Postman is broken, you'll see a global banner at the top of the screen indicating that you're already in the Scratch Pad.
+If you log out or your connection to Postman breaks, you'll see a global banner at the top of the screen indicating that you're already in the Scratch Pad.
 
 <img alt="Scratch Pad global banner" src="https://assets.postman.com/postman-docs/scratch-pad-notice.jpg" width="350px" />
 
@@ -59,6 +59,6 @@ When you log back in to Postman, you can import your Scratch Pad data:
 
 1. Log in and switch to a workspace using the **Workspaces** menu at the top of Postman. For more information, see [Using and managing workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/).
 1. Select **Import** in the upper-left corner.
-1. Drag and drop your exported data dump, collection, or environment and select **Import**.
+1. Drag your exported data dump, collection, or environment and select **Import**.
 
 For more information on importing, see [Importing data into Postman](/docs/getting-started/importing-and-exporting-data/#importing-data-into-postman).

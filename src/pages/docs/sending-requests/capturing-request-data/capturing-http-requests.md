@@ -2,7 +2,7 @@
 title: "Capturing HTTP requests"
 order: 32
 page_id: "capturing_http_requests"
-updated: 2022-01-20
+updated: 2022-03-02
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -34,7 +34,7 @@ warning: false
 
 If you are using APIs to build client-side applications like mobile apps, websites, or desktop applications, you may want to see the actual HTTP and HTTPS request traffic that's being sent and received in the application. Sometimes you might discover APIs that aren't even documented. You can capture network traffic, including requests, responses, and cookies, using the proxy that's built into the Postman app.
 
-> Capturing HTTP requests is only available using the [Postman desktop app](/docs/getting-started/installation-and-updates/#web-limitations).
+> You can also use the Postman proxy to automatically sync cookies from a Chrome browser to the Postman cookie jar. Learn more about [syncing cookies](/docs/sending-requests/capturing-request-data/syncing-cookies/).
 
 ## Contents
 
@@ -68,15 +68,14 @@ In the steps below, you will use the Postman app's proxy feature to inspect HTTP
 
 ### Step 1: Enable the proxy
 
+> You can't use the Postman proxy with [Postman for web](/docs/getting-started/installation-and-updates/#web-limitations). Make sure you've installed the [Postman desktop app](/docs/getting-started/installation-and-updates/).
+
 To begin, start the proxy inside Postman:
 
-1. Select the **Capture requests and cookies** icon in the Postman footer.
+1. Select <img alt="Capture icon" src="https://assets.postman.com/postman-docs/icon-capture.jpg" width="15px" style="vertical-align:middle;margin-bottom:5px"> **Capture requests** in the Postman footer.
+1. In the **Capture requests** window, select the **Via Proxy** tab.
 
-    <img src="https://assets.postman.com/postman-docs/proxy-capture-requests-button-v9.8.3.jpg" alt="Capture requests button" width="300px"/>
-
-1. In the **Capture requests and cookies** window, select the **Via Proxy** tab.
-
-    <img src="https://assets.postman.com/postman-docs/capture-via-proxy-tab-v9.8.3.jpg" alt="Capture via proxy tab" width="300px"/>
+    <img src="https://assets.postman.com/postman-docs/capture-via-proxy-tab-v9-13.jpg" alt="Capture via proxy tab" width="300px"/>
 
 1. In the upper right, select **Enable proxy**.
 1. Enter a port number. By default, it's set to port `5555`. Make a note of the port number you've used; you will use it later when configuring clients.
@@ -90,20 +89,24 @@ After the proxy is running, you can start a proxy debug session. This is a time-
 
 > You can only have a single proxy or interceptor debug session running at the same time.
 
-1. Go to the **Via Proxy** tab of the **Capture requests and cookies** window.
-
+1. Go to the **Via Proxy** tab of the **Capture requests** window.
 1. Select **Save Responses for Requests** to save each request's responses. They will be saved along with the captured requests.
 
     > In responses with a `content-type` that contains images, audio, or video, the content is intercepted but not captured. The only information captured is response headers, time taken, and the status code.
+
 1. Select **Capture Cookies** if you want to capture cookies in addition to requests during the debug session.
+
+    > You can also capture cookies and sync them to Postman without starting a debug session. Learn more about [syncing cookies](/docs/sending-requests/capturing-request-data/syncing-cookies/).
+
 1. Requests will be saved in a debug session in the **History** tab in the sidebar. Select **Save requests to a collection** and select a collection from the list to also save the requests there.
 1. If you save requests and responses to a collection, they are added chronologically by default. You can alternately group them in folders organized by domain name or endpoints. Under **Organize requests by**, select **Domain name**, **Endpoints**, or both. Your requests and responses are then organized in folders in the selected collection.
-
 1. Under **Configure Incoming Requests**, there are additional options you can use to limit the requests and responses captured:
+
     * **URL must contain**: Only capture URLs containing the specified string or regular expression.
     * **URL cannot contain**: Don't capture URLs containing the specified string or regular expression.
     * **Methods**: Only capture the selected methods.
     * **Resources**: Exclude requests with image, JS, or CSS responses.
+
 1. Select **Start Capture**.
 
 The proxy debug session is now started, but it won't capture anything until a device is configured with the proxy.
@@ -154,15 +157,13 @@ There are several controls you can use to limit, organize, and investigate traff
 
 When you select one or more requests from the list on the **Requests** tab, you can use the following controls:
 
-* **+ Add to collection** - add the request to a specified collection.
-
-* <img alt="External link icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg" width="12px" style="vertical-align:middle;margin-bottom:5px"> - delete the request.
+* <img alt="External link icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg" width="12px" style="vertical-align:middle;margin-bottom:5px"> **Delete** - delete the request.
 
 When you select one or more cookies from the list on the **Cookies** tab, you can use the following controls:
 
 * **+ Add to Cookie Jar** - add the request to the Postman cookie jar.
 
-* <img alt="External link icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg" width="12px" style="vertical-align:middle;margin-bottom:5px"> - delete the cookie.
+* <img alt="External link icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg" width="12px" style="vertical-align:middle;margin-bottom:5px"> **Delete** - delete the cookie.
 
 The bottom right corner shows the total time of the capture session, along with the total size of captured traffic. If you want to temporarily stop the capture session, select the **Pause** button. To restart the session, select **Resume**.
 
@@ -170,7 +171,7 @@ The bottom right corner shows the total time of the capture session, along with 
 
 When you're done with your debug session, select **Stop** in the lower right corner. This will finish the debug session, and results of the debug session will be saved in the **History** tab.
 
-After stopping the session, the proxy is still running. Select the **Capture requests and cookies** icon in the Postman footer, and you can either start another debug session, or select **Disable proxy** to turn off the proxy.
+After stopping the session, the proxy is still running. Select <img alt="Capture icon" src="https://assets.postman.com/postman-docs/icon-capture.jpg" width="15px" style="vertical-align:middle;margin-bottom:5px"> **Capture requests** in the Postman footer, and you can either start another debug session, or select **Disable proxy** to turn off the proxy.
 
 ### Step 6: View the proxy debug session results
 
@@ -180,7 +181,7 @@ When you open a saved debug session, the top header displays the session start t
 
 The **Overview** displays summary graphs of the traffic captured in the session. You can select graphs summarizing traffic by method, domain, data mode, or return status code.
 
-The **Requests** and **Cookies** tabs display requests, responses, and cookies, similar to the same tabs available during a capture session. The same options for searching, expanding, saving, and deleting items described in Step 4 are available. You can also use the controls at the bottom of the table to limit the number of items per page, and navigate through the pages of results.
+The **Requests** and **Cookies** tabs display requests, responses, and cookies, similar to the same tabs available during a capture session. The same options for searching, expanding, saving, and deleting items described in Step 4 are available. You can also add selected requests to a collection. Use the controls at the bottom of the table to limit the number of items per page and navigate through the pages of results.
 
 You can rename a proxy debug session by selecting the name at the top of the window and entering a new name. Select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to the debug session name to rename or delete the session.
 

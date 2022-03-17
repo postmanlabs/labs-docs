@@ -1,19 +1,41 @@
 /* eslint-disable react/no-danger */
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { graphql } from 'gatsby';
+
 import Layout from '../components/layout';
 import ContextualLinks from '../components/ContextualLinks/ContextualLinks';
 import EditDoc from '../components/Shared/EditDoc';
 import { leftNavItems } from '../components/LeftNav/LeftNavItems';
 import LeftNav from '../components/LeftNav/LeftNav';
 import SEO from '../components/seo';
+const { v4: uuidv4 } = require('uuid');
+
 import './doc.scss';
 import 'prismjs/themes/prism-tomorrow.css';
 import pose from '../assets/pose-learning-center.svg';
+import { useModal } from '../components/modules/Modal';
 import PreviousAndNextLinks from '../components/modules/PreviousAndNextLinks';
 import BreadCrumbsLinks from '../components/modules/BreadCrumbsLinks';
 
-const { v4: uuidv4 } = require('uuid');
+function CreateDoc(props) {
+  const [post, setModal] = useState({ ...props })
+
+  useEffect(() => {
+    const { data } = props;
+    const { html } = data;
+    // parses a string containing HTML & returns an HTMLDocument
+    const parser = new DOMParser();
+    const parsedHtml = parser.parseFromString(html, 'text/html');
+
+    // allows images to display as modal when clicked
+    useModal(parsedHtml);
+    setModal(parsedHtml.body.innerHTML)
+  }, []);
+
+  return (
+    <span dangerouslySetInnerHTML={{ __html: post }} />
+  );
+}
 
 /* Right side links */
 const DisplayContextualLinks = (props) => {
@@ -30,6 +52,7 @@ const DocPage = ({ data }) => {
   const date = data.markdownRemark.fields.lastModifiedDate;
   /* Breadcrumbs (top of page) & Previous and Next Links (bottom of page) */
   const { parentLink, subParentLink, previous, next } = data;
+
   return (
     <Layout>
       <SEO title={post.frontmatter.title} slug={post.fields.slug} />
@@ -43,7 +66,7 @@ const DocPage = ({ data }) => {
               <main className="col-sm-12 col-md-12 col-lg-9 offset-lg-0 col-xl-7 doc-page ml-xl-5">
                 <BreadCrumbsLinks data={{ parentLink, subParentLink }} />
                 <h1>{post.frontmatter.title}</h1>
-                <span dangerouslySetInnerHTML={{ __html: post.html }} />
+                <CreateDoc data={post} />
                 <p>
                   <small className="font-italic">Last modified: {date}</small>
                 </p>
