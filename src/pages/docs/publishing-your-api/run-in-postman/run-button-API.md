@@ -164,7 +164,7 @@ To remove an environment:
 _pm('env.remove', 'user_data');
 ```
 
-The `env.replace` method will return `true` on success or `false` on failure. The specified environment must exist or `env.remove` will fail.
+The `env.remove` method will return `true` on success or `false` on failure. The specified environment must exist or `env.remove` will fail.
 
 ## Using multiple buttons with separate environments
 
