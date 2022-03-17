@@ -17,7 +17,7 @@ This site was built with Node.js v14.15.0. We recommend installing and using [nv
 If you run into issues when running the Learning Center locally, try the following:
 
 1. Check the Node.js version (`node -v`) to ensure you are now using `v14.15.0`. If not, enter `nvm use v14.15.0`.
-1. Enter `rm -rf node_modules; npm i` to remove all old packages and perform a fresh install.
+1. Enter `rm -rf node_modules; npm i` to remove all existing packages and perform a fresh install.
 1. Enter `gatsby clean` to clear the cache.
 
 We have found this to clear the bulk of local development issues. If you still have issues running the Learning Center locally, feel free to [open an issue](https://github.com/postmanlabs/postman-docs/issues).
