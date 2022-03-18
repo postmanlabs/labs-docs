@@ -76,6 +76,7 @@ SAML
 SCIM
 Scratch Pad
 Sendinblue
+serverless
 SHA
 Shopify
 SIEM
