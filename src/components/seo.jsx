@@ -41,11 +41,15 @@ function SEO({
         },
         {
           property: 'og:url',
-          content: 'https://learning.postman.com',
+          content: `https://learning.postman.com${slug}`,
+        },
+        {
+          property: 'og:description',
+          content: `${title}: documentation for Postman, the collaboration platform for API development. Create better APIs—faster.`,
         },
         {
           property: 'og:title',
-          content: title,
+          content: `${title} | Postman Learning Center`,
         },
         {
           property: 'og:site_name',
@@ -69,7 +73,11 @@ function SEO({
         },
         {
           name: 'twitter:title',
-          content: title,
+          content: `${title} | Postman Learning Center`,
+        },
+        {
+          property: 'twitter:description',
+          content: `${title}: documentation for Postman, the collaboration platform for API development. Create better APIs—faster.`,
         },
         {
           property: 'twitter:domain',
