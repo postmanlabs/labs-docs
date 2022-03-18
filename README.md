@@ -12,7 +12,7 @@ We would love for you to contribute to the Learning Center! To contribute to thi
 * The [Contribution Guidelines](CONTRIBUTING.md)
 * The [Documentation Style Guide](DOCS_STYLE_GUIDE.md)
 
-**NOTE:** We have added a new Markdown linter with GitHub Actions. When making a pull request, it will run against this linter. Your changed files are required to pass linting before they will be merged. More information on this can be found in the [contribution guidelines](CONTRIBUTING.md).
+**NOTE:** We've added a new Markdown linter with GitHub Actions. When making a pull request, it will run against this linter. Your changed files are required to pass linting before they will be merged. More information on this can be found in the [contribution guidelines](CONTRIBUTING.md).
 
 > To say thank you for your contribution, we’d love to send you exclusive Contributor swag. Fill out the [Contributor Submission form](https://docs.google.com/forms/d/e/1FAIpQLSfbLAcxl-IOiv3NmgEaWw7FleOaXnIyIoIrY_zn6U4JvjQBGA/viewform?usp=send_form) and we’ll send you a token of our gratitude.
 
@@ -30,7 +30,7 @@ We would love for you to contribute to the Learning Center! To contribute to thi
 
 ```
 
-**NOTE:** this site was built with node v14.15.0. We recommend installing and using [nvm](https://github.com/nvm-sh/nvm) and setting your Node.js version to v14.15.0.
+**NOTE:** this site was built with Node.js v14.15.0. We recommend installing and using [nvm](https://github.com/nvm-sh/nvm) and setting your Node.js version to v14.15.0.
 
 ### Build using Docker
 

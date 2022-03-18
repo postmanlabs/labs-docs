@@ -3,6 +3,6 @@ message: "Does this topic need to be split? It's %s words long."
 level: warning
 
 formula: |
-  math.min(words,paragraphs)
+  words
 
-condition: "> 1"
+condition: "> 750"
