@@ -58,7 +58,7 @@ class IndexPage extends React.Component {
 
     return (
       <Layout>
-        <SEO title="Home" slug="/" />
+        <SEO title="Learning Center" slug="/" />
         <div className="container-fluid">
           <section className="row section align-items-center hero" style={heroBackground}>
             <div className="container">
