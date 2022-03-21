@@ -40,7 +40,7 @@ You must be a [Postman team admin](/docs/collaborating-in-postman/roles-and-perm
 * [SSO](/docs/administration/sso/admin-sso/) must be configured and enabled.
     * Alternative authentication methods (Postman or Google login) must be deactivated.
 
-It's recommended that you enable [SSO provisioning](/docs/administration/managing-your-team/configuring-scim/) to ease the process of onboarding new users and [auto-flex](/docs/administration/billing/#utilizing-auto-flex) to ensure that your team can automatically accommodate all users that may be added to your Postman team when domain capture is enabled.
+It's recommended that you enable [SSO provisioning](/docs/administration/scim-provisioning/scim-provisioning-overview/) to ease the process of onboarding new users and [auto-flex](/docs/administration/billing/#utilizing-auto-flex) to ensure that your team can automatically accommodate all users that may be added to your Postman team when domain capture is enabled.
 
 ## Enabling domain capture
 

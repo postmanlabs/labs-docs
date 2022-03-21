@@ -1,7 +1,7 @@
 ---
 title: "Billing"
 order: 123
-updated: 2022-02-18
+updated: 2022-03-17
 page_id: "billing"
 tags:
   - "pro"
@@ -22,7 +22,7 @@ contextual_links:
 
 Postman provides a self-serve billing process. Refer to the following sections for guidance on managing your account, plan, and payment.
 
-You can contact Postman's support team for assistance if you encounter any account or billing issues. Navigate to Postman's [Support Center](https://www.postman.com/support/) and select **Submit a Request**.
+Contact Postman's support team for help with any account or billing issues. Navigate to Postman's [Support Center](https://www.postman.com/support/) and select **Submit a Request**.
 
 > Check out [Postman's Help Center](https://support.postman.com/hc/en-us) for [Postman billing and payment FAQs](https://support.postman.com/hc/en-us/categories/115000609205-Billing-and-Payment).
 
@@ -68,7 +68,7 @@ You can contact Postman's support team for assistance if you encounter any accou
 
 ## Billing dashboard
 
-The Postman [billing dashboard](http://go.postman.co/billing) allows you to manage your team's billing.
+The Postman [billing dashboard](http://go.postman.co/billing) enables you to manage your team's billing.
 
 ### Viewing billing overview
 
@@ -126,25 +126,25 @@ To set a card as your primary, hover over the card and **Set as Primary**.
 
 Invoicing is available for Postman Enterprise teams only. New customers can [contact the Postman Sales team](https://www.postman.com/pricing/get-started-postman-plans/) to get started and will receive a response within 3 business days. Existing Enterprise customers can [submit a request](https://support.postman.com/hc/en-us) to be invoiced instead of automatically charged.
 
-You can pay invoices online, via ACH, or via wire-transfer. Invoices will be sent to your team's billing email address found in your [billing details](http://go.postman.co/settings/team/billing-details), and will include offline payment instructions. Pending payments can be found in your [billing dashboard](http://go.postman.co/billing).
+You can pay invoices online, via ACH, or via wire-transfer. Postman sends invoices to the billing email address listed in your [billing details](http://go.postman.co/settings/team/billing-details). The invoice includes offline payment instructions. View your pending payments in your [billing dashboard](http://go.postman.co/billing).
 
 ### Adding custom information to invoices
 
-In your [billing dashboard](http://go.postman.co/billing), select **Plan and payments** on the left, then **Invoices**. Select **Edit Billing Information**.
+In your [billing dashboard](http://go.postman.co/billing), select **Plan and payments** on the left, then **Invoices**. Select **Edit billing information**.
 
-Add or update your billing email, company name, address, and (if applicable) VAT ID, then **Save**. All future [invoices](https://go.postman.co/billing/invoices) will have the updated copy. To modify an existing invoice, [submit a request](https://support.postman.com/hc/en-us).
+Add or update your company name, billing email, address, and your VAT ID if applicable, then select **Save**. All future [invoices](https://go.postman.co/billing/invoices) will have the updated copy. To modify an existing invoice, submit a request to [Postman support](https://support.postman.com/hc/en-us).
 
-<img alt="Edit billing details" src="https://assets.postman.com/postman-docs/update-billing-details-ex.jpg" width="550px"/>
+<img alt="Edit billing details" src="https://assets.postman.com/postman-docs/update-billing-details-v9.jpg" width="500px"/>
 
 ### Failed payments
 
-If you have a card on file, Postman will automatically attempt 3 times to charge it. If this is unsuccessful, team members with billing privileges will be notified via email.
+If you have a card on file, Postman will automatically attempt 3 times to charge it. If this is unsuccessful, team members with billing privileges receive an email notification.
 
 <img alt="Failed payment email" src="https://assets.postman.com/postman-docs/billing-email-payment-declined-v9.1.jpg" width="400px"/>
 
 If payment is unsuccessful, Postman offers a grace period of 21 days to avoid service disruption. For invoice-based teams, this means 21 days following the due date listed on the invoice.
 
-> All team members are notified in the event of non-payment and subsequent service deactivation in Postman.
+> All team members receive a notification in the event of non-payment and service deactivation in Postman.
 
 ## Team and plan changes
 
@@ -152,23 +152,23 @@ You can change your team's plan and billing cycle in your [billing dashboard](ht
 
 ### Changing your plan
 
-To change your plan immediately, navigate to your [billing dashboard](https://go.postman.co/billing/overview) and select **Edit Plan** on the right.
+To change your plan right away, navigate to your [billing dashboard](https://go.postman.co/billing/overview) and select **Edit Plan** on the right.
 
 <img alt="Edit plan page" src="https://assets.postman.com/postman-docs/billing-edit-plan-v9.1.jpg"/>
 
-You can opt to apply changes immediately or on renewal. You can adjust your team size, billing frequency, and plan type. Select **Next** to adjust your team's add-ons, including monitoring blocks, mock server blocks, and custom domains. Select **Next** to then **Confirm Changes**.
+You can opt to apply changes right away or on renewal. You can adjust your team size, billing frequency, and plan type. Select **Next** to adjust your team's add-ons, including monitoring blocks, mock server blocks, and custom domains. Select **Next** to then **Confirm Changes**.
 
-The cost of your new plan and/or additional seats will be prorated based on the time left in your team's billing cycle.
+The cost of your new plan and any new seats, if applicable, are prorated based on the time left in your team's billing cycle.
 
 > To upgrade to Postman Enterprise, [contact Postman's sales team](mailto:sales@postman.com).
 
 <!-- -->
 
-> Certain changes can only be applied to your team upon renewal. If you make adjustments to your plan that cannot be applied immediately, and have **Immediately** selected, you will be prompted to switch your selection to **On renewal**.
+> Certain changes can only be applied to your team upon renewal. If you make adjustments to your plan that can't be applied right away, and have **Immediately** selected, you will see a prompt to switch your selection to **On renewal**.
 
 ### Setting instructions for next billing cycle
 
-To set instructions to determine what will happen at the end of your current billing cycle, navigate to your [billing dashboard](https://go.postman.co/billing/overview) and select **Set instructions** on the right under your subtotal.
+To set instructions about what will happen at the end of your current billing cycle, navigate to your [billing dashboard](https://go.postman.co/billing/overview) and select **Set instructions** on the right under your subtotal.
 
 <img alt="Set instructions in billing dashboard" src="https://assets.postman.com/postman-docs/billing-overview-set-instructions-v9.1.jpg"/>
 
@@ -190,7 +190,7 @@ Select to pay **Monthly** or **Annual** and confirm your changes. Note that annu
 
 The base number of monitoring requests, mock server calls, and custom domains included in your plan depends on your [plan type](https://www.postman.com/pricing). You can allow or disallow overages for monitoring and mock server calls by [managing your team's add-ons](#managing-add-ons). If enabled, you will be charged on a pay-as-you-go basis.
 
-You can purchase additional blocks of monitoring requests, mock server calls, and custom domains by navigating to your [billing dashboard](http://go.postman.co/billing), selecting **Resource usage** on the left, then **Purchase Add-ons** on the right.
+You can purchase more blocks of monitoring requests, mock server calls, and custom domains by navigating to your [billing dashboard](http://go.postman.co/billing), selecting **Resource usage** on the left, then **Purchase Add-ons** on the right.
 
 <img alt="Add-ons purchase form" src="https://assets.postman.com/postman-docs/billing-edit-plan-add-ons-v9.1.jpg"/>
 
@@ -198,9 +198,9 @@ Update the number of monitoring blocks, mock server blocks, and custom domains y
 
 ### Utilizing auto-flex
 
-[Auto-flex](https://learning.postman.com/auto-flex-policy/) is a flexible billing feature available to Postman teams. With auto-flex enabled, your team admins can add users without having to pay in advance for additional seats. Instead, you can utilize auto-flex to determine the value of adding users to your Postman team, and opt to retain or remove them prior to being [billed](#billing-for-auto-flex).
+[Auto-flex](https://learning.postman.com/auto-flex-policy/) is a flexible billing feature available to Postman teams. With auto-flex enabled, your team admins can add users without having to pay in advance for more seats. Instead, you can use auto-flex to see the value of adding users to your Postman team, and opt to retain or remove them before being [billed](#billing-for-auto-flex).
 
-> Auto-flex is automatically enabled for all Postman Basic and Professional plans purchased after April 8, 2021. Teams created before this date can opt in immediately by enabling auto-flex via their [billing dashboard](http://go.postman.co/billing). All teams will have auto-flex automatically enabled when their plan first renews after July 1, 2021.
+> Auto-flex is automatically enabled for all Postman Basic and Professional plans purchased after April 8, 2021. Teams created before this date can opt in by enabling auto-flex via their [billing dashboard](http://go.postman.co/billing). All teams will have auto-flex automatically enabled when their plan first renews after July 1, 2021.
 
 #### Opting in to auto-flex
 
@@ -220,31 +220,35 @@ Select to **Agree to Auto-Flex's terms and conditions**, then select **Get Early
 
 Your auto-flex billing cycle is dependent on your team's plan:
 
-* Monthly plans are charged for additional users on a monthly basis.
+* Monthly plans are charged for newly added users on a monthly basis.
 
-* Annual plans are charged for additional users on a quarterly basis.
+* Annual plans are charged for newly added users on a quarterly basis.
 
 At any time during your auto-flex billing cycle, team admins can add users to your team regardless of available seats.
 
-Prior to your auto-flex billing cycle renewing, all billing and admin team members will be notified of any additional users you have added during that time period.
+Before your auto-flex billing cycle renews, all billing and admin team members receive a notification about any new users you added during that time period.
 
-> Annual plans will be notified two weeks prior to their quarterly cycle renewing, and monthly plans will be notified one week prior to their monthly cycle renewing.
+> Annual plans receive a notification two weeks before their quarterly cycle renews, and monthly plans receive a notification one week before their monthly cycle renews.
 
-You can use this reminder to make any necessary changes to your team prior to the end of your current auto-flex cycle, which is when you will be billed for any additional users.
+You can use this reminder to make any necessary changes to your team before the end of your current auto-flex cycle, when you will be billed for any newly added users.
 
-> If you have already been billed for the users you added and retained in a previous auto-flex cycle, you cannot remove those slots until your plan renews.
+> If you have already been billed for the users you added and retained in an earlier auto-flex cycle, you can't remove those slots until your plan renews.
 
-You will not be billed if the number of users has remained unchanged during your auto-flex cycle, or if you remove any additional users prior to auto-flex billing.
+You won't be billed if the number of users has remained unchanged during your auto-flex cycle, or if you remove any additional users prior to auto-flex billing.
 
-> If your team has incurred any overages and you have an auto-flex bill for that cycle, your overage charges will be combined with your auto-flex charges in your invoice.
+> If your team incurs any overages and you have an auto-flex bill for that cycle, your invoice will combine your overage charges with your auto-flex charges.
 
 <img alt="Auto-flex email notification" src="https://assets.postman.com/postman-docs/auto-flex-email-notification-9.13.jpg" width="400px"/>
 
-You can view your current number of additional team members, how much you will be billed at the end of your cycle (unless you add or remove team members in the interim), and additional information about your auto-flex and regular billing cycles at any time in your [billing dashboard](http://go.postman.co/billing).
+In your [billing dashboard](http://go.postman.co/billing), you can view:
+
+* Your current number of additional team members
+* How much you will be billed at the end of your cycle (unless you add or remove team members in the interim)
+* Additional information about your auto-flex and regular billing cycles
 
 <img alt="Billing overview with auto flex" src="https://assets.postman.com/postman-docs/auto-flex-dash-9.13.jpg" />
 
-> [Contact Postman support](https://www.postman.com/support/) with any questions regarding auto-flex.
+> [Contact Postman support](https://www.postman.com/support/) with any questions about auto-flex.
 
 ## Next steps
 

@@ -321,7 +321,7 @@ When you are ready to add the changes from a pull request or forked collection i
 
 #### Merging changes from a pull request
 
-After a pull request is reviewed, it is ready to be merged into the parent collection.
+After a pull request is reviewed, it's ready to be merged into the parent collection.
 
 1. From the approved pull request, select **Merge**.
 

@@ -111,9 +111,9 @@ Categories=Development;
 > * Fedora 24
 > * Debian 8 and newer
 >
-> The support of certain Linux distributions depends on if they are supported by Electron. Refer to [Electron's documentation](https://www.electronjs.org/docs/tutorial/support#linux).
+> The support of certain Linux distributions depends on if they're supported by Electron. Refer to [Electron's documentation](https://www.electronjs.org/docs/tutorial/support#linux).
 >
-> It is recommended you install [Snap](https://snapcraft.io/postman) as it includes all the libraries that the app needs and they are bundled with the app itself.
+> It's recommended you install [Snap](https://snapcraft.io/postman) as it includes all the libraries that the app needs and they're bundled with the app itself.
 >
 > Avoid starting Postman using the `sudo` command, as it will create permission issues on the files created by Postman.
 >
@@ -153,15 +153,15 @@ From Postman for Web, you can select the agent you would like to use for your re
 
 <img alt="Select agent" src="https://assets.postman.com/postman-docs/select-agent-for-requests.gif">
 
-> If you try to send a request and it isn't successful because the agent is not selected, you will see a link in the response area that you can select to switch to the agent and try your request again.
+> If you try to send a request and it isn't successful because the agent isn't selected, you will see a link in the response area that you can select to switch to the agent and try your request again.
 
 ### Web limitations
 
 Postman for Web is under active development. There are a few features you can currently only access in the desktop app, not in your browser:
 
-* **Find and replace**: The Postman desktop app supports [finding and replacing values in a workspace](/docs/getting-started/navigating-postman/#find-and-replace), but this function is not available on Postman for Web yet.
-* **Certificates and proxy**: The Postman desktop app enables you to customize [certificates](/docs/sending-requests/certificates/) and [proxy configurations](/docs/getting-started/proxy/#configuring-proxy-settings). On Postman for Web, these take the browser defined value and cannot be overridden by Postman.
-* **Postman Interceptor**: [Interceptor](/docs/sending-requests/capturing-request-data/interceptor/) syncs cookies from your browser to the Postman desktop app and captures network requests directly from the browser. It is not possible to use Interceptor with Postman for Web.
+* **Find and replace**: The Postman desktop app supports [finding and replacing values in a workspace](/docs/getting-started/navigating-postman/#find-and-replace), but this function isn't available on Postman for Web yet.
+* **Certificates and proxy**: The Postman desktop app enables you to customize [certificates](/docs/sending-requests/certificates/) and [proxy configurations](/docs/getting-started/proxy/#configuring-proxy-settings). On Postman for Web, these take the browser defined value and can't be overridden by Postman.
+* **Postman Interceptor**: [Interceptor](/docs/sending-requests/capturing-request-data/interceptor/) syncs cookies from your browser to the Postman desktop app and captures network requests directly from the browser. It's not possible to use Interceptor with Postman for Web.
 
 ## Updating Postman
 
@@ -169,7 +169,7 @@ The native Postman apps will notify you when a major update is available. For ot
 
 ![Update Ready](https://assets.postman.com/postman-docs/update-ready-v86.jpg)
 
-Select the update option to download or install the latest update. You will see a notification when the download is complete, prompting you to restart the Postman app to apply the updates. If you're not ready to update yet, choose __Later__ to auto-update the next time you launch the app.
+Select the update option to download or install the latest update. You will see a notification when the download is complete, prompting you to restart the Postman app to apply the updates. If you don't want to update yet, choose __Later__ to auto-update the next time you launch the app.
 
 You can configure your preferences to enable automatic download for major updates in __Settings__ &gt; __Update__. Postman automatically downloads minor updates and bug fixes.
 
@@ -177,17 +177,17 @@ You can configure your preferences to enable automatic download for major update
 
 ## Postman Chrome app (deprecated)
 
-The Postman Chrome app is deprecated—if you're using the Chrome app, you can [retain your data when you switch to the native app](#migrating-to-the-native-app) either by syncing with a Postman account you're signed into, or by exporting from Chrome and importing into the native app.
+The Postman Chrome app is deprecated. If you use the Chrome app, you can keep your data when you [switch to using Postman](#migrating-to-the-native-app) either by syncing with your Postman account or by exporting from Chrome and importing into Postman.
 
-The native app is built on [Electron](https://www.electronjs.org/), and [overcomes a number of restrictions](https://blog.postman.com/going-native/) of the Chrome platform.
+The Postman app is built on [Electron](https://www.electronjs.org/), and [overcomes a number of restrictions](https://blog.postman.com/going-native/) of the Chrome platform.
 
 * The native apps let you work with [cookies](/docs/sending-requests/cookies/) directly.
 * Unlike the Chrome app, no separate extension for the [Interceptor](/docs/sending-requests/capturing-request-data/interceptor/) is needed.
 * The native apps come with a built-in proxy that you can use to [capture network traffic](/docs/sending-requests/capturing-request-data/capturing-http-requests/).
-* The native apps are not restricted by the Chrome standards for the menu bar. You can check for updates, create Postman Windows and tabs, and edit preferences.
+* The native apps aren't restricted by the Chrome standards for the menu bar. You can check for updates, create Postman Windows and tabs, and edit preferences.
 * The native apps let you send headers like `Origin` and `User-Agent`. These are restricted in the Chrome app.
 * The "don't follow redirects" option exists in the native apps to prevent requests that return a 300-series response from being automatically redirected—doing this in the Chrome app requires the Interceptor extension.
-* The native app has a built-in [console](/docs/sending-requests/troubleshooting-api-requests/), which allows you to view the network request details for API calls.
+* The native app has a built-in [console](/docs/sending-requests/troubleshooting-api-requests/), which enables you to view the network request details for API calls.
 
 ### Migrating to the native app
 
@@ -210,11 +210,11 @@ Postman's infrastructure runs on Amazon's AWS platform. If you are operating beh
 
 By default, WebSocket connections use the same ports as HTTP (80) and HTTPS (443).
 
-Postman does not have a fixed IP range that can be provided. If necessary, please refer to the [current AWS IP ranges](https://docs.aws.amazon.com/general/latest/gr/aws-ip-ranges.html) and allow the broad range provided.
+Postman doesn't have a fixed IP range that can be provided. If necessary, please refer to the [current AWS IP ranges](https://docs.aws.amazon.com/general/latest/gr/aws-ip-ranges.html) and allow the broad range provided.
 
 ## Troubleshooting your Postman installation
 
-If you encounter any issues installing and running Postman, check out the following tips. If these do not help, please refer to the installation posts on the [community forum](https://community.postman.com/tags/installation) and create a new post if your issue is not already covered.
+If you encounter any issues installing and running Postman, check out the following tips. If these don't help, please refer to the installation posts on the [community forum](https://community.postman.com/tags/installation) and create a new post if your issue isn't already covered.
 
 ### Update failed error
 
@@ -227,13 +227,13 @@ Open the DevTools using __View__ &gt; __Developer__ &gt; __Show DevTools (Curren
 Some known errors are as follows:
 
 * __Error message:__ `Cannot update while running on a read-only volume`
-    * This error means that the app user does not have write permission in the directory where Postman is installed. To resolve the problem, move Postman to a directory where the user has write permissions, for example the `/Application` directory for Mac, and to the `home` directory for Linux.
+    * This error means that the app user doesn't have write permission in the directory where Postman is installed. To resolve the problem, move Postman to a directory where the user has write permissions, for example the `/Application` directory for Mac, and to the `home` directory for Linux.
 
 * __Error message:__ `Code signature at URL file:///... did not pass validation: code object is not signed at all`
     * This error means that there are multiple updates running at the same time. This can happen when the app is opened before the previous update could finish. To resolve the problem, quit and reopen the app.
 
 * __Error message:__ `EACCES: permission denied, open '/opt/Postman/Postman-1620288011421.tar.gz`
-    * This error means that the app user does not have write permission in the directory where Postman is installed. To resolve the problem, move Postman to a directory where the user has write permissions, for example the `home` directory for Linux.
+    * This error means that the app user doesn't have write permission in the directory where Postman is installed. To resolve the problem, move Postman to a directory where the user has write permissions, for example the `home` directory for Linux.
 
 ### Update button not available
 
@@ -241,4 +241,4 @@ If you are using Postman for Linux, and installed the app with the Ubuntu Softwa
 
 ## Next steps
 
-If you're having trouble with installation or updates, reach out for [Postman support](https://www.postman.com/support). If your installation is working as expected, [send your first request](/docs/getting-started/sending-the-first-request/)!
+If you have trouble with installation or updates, reach out for [Postman support](https://www.postman.com/support). If your installation is working as expected, [send your first request](/docs/getting-started/sending-the-first-request/)!

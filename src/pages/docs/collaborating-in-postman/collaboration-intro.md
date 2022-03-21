@@ -12,6 +12,9 @@ contextual_links:
   - type: link
     name: "Working With Your Team in Postman | The Exploratory"
     url: "https://youtu.be/5lscUV-Exac"
+  - type: link
+    name: "Postman Space Camp | Working with Your Team in Postman"
+    url: "https://youtu.be/OifhKJCd_-M"
   - type: subtitle
     name: "Related Blog Posts"
   - type: link
@@ -93,7 +96,7 @@ You can leave a Postman team by navigating to your [Postman Dashboard](https://g
 
 <img src="https://assets.postman.com/postman-docs/leave-team-v9.1.jpg" alt="Leave team"/>
 
-> If your team has [SCIM configured](/docs/administration/managing-your-team/configuring-scim/), you must contact your Postman team admins to leave the team.
+> If your team has [SCIM configured](/docs/administration/scim-provisioning/scim-provisioning-overview/), you must contact your Postman team admins to leave the team.
 
 When you leave a team, you no longer have access to the team's workspaces or any of the elements in them. You will still have access to your personal workspaces.
 

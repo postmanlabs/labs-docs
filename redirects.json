@@ -1887,5 +1887,33 @@
 	{
 		"from": "/docs/sending-requests/capturing-request-data/proxy/",
 		"to": "/docs/getting-started/proxy/"
+	},
+	{
+		"from": "/docs/administration/managing-your-team/configuring-scim/",
+		"to": "/docs/administration/scim-provisioning/scim-provisioning-overview/"
+	},
+	{
+		"from": "/docs/administration/sso/saml-in-azure-ad/",
+		"to": "/docs/administration/sso/azure-ad/"
+	},
+	{
+		"from": "/docs/administration/sso/saml-onelogin/",
+		"to": "/docs/administration/sso/onelogin/"
+	},
+	{
+		"from": "/docs/administration/sso/saml-duo/",
+		"to": "/docs/administration/sso/duo/"
+	},
+	{
+		"from": "/docs/administration/sso/saml-gsuite/",
+		"to": "/docs/administration/sso/google-workspace/"
+	},
+	{
+		"from": "/docs/administration/sso/saml-okta/",
+		"to": "/docs/administration/sso/okta/"
+	},
+	{
+		"from": "/docs/administration/sso/saml-ping/",
+		"to": "/docs/administration/sso/ping-identity/"
 	}
 ]

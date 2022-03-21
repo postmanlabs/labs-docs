@@ -4,6 +4,13 @@ order: 88
 page_id: "uptime_monitors"
 updated: 2022-2-14
 contextual_links:
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Related Blog Posts"
+  - type: link
+    name: "Introducing Postman’s API Uptime Monitor in Open Beta"
+    url: "https://blog.postman.com/introducing-uptime-monitor/"
 
 warning: false
 
@@ -66,7 +73,7 @@ The **Uptime** graph shows the status of the monitored endpoint URL during the s
 
     > If you selected the **Follow redirects** option when configuring the monitor, 3xx status codes are not considered as downtime.
 
-* **Unknown:** (Gray) Postman cannot determine the status of the URL because the monitor is paused, because the monitor did not exist during the displayed time period, or for some other unexpected reason.
+* **Unknown:** (Gray) Postman cannot determine the status of the URL because the monitor is paused, because the monitor didn't exist during the displayed time period, or for some other unexpected reason.
 
 Select **Summary** to view combined data for all regions, or select **Region** to view data for each region separately.
 

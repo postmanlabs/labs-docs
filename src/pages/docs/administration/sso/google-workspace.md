@@ -1,8 +1,8 @@
 ---
-title: "Custom SAML in GSuite"
+title: "Google Workspace"
 order: 137
 updated: 2020-05-22
-page_id: "saml_gsuite"
+page_id: "google_workspace"
 warning: false
 contextual_links:
   - type: section

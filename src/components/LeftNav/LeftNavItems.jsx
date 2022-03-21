@@ -166,6 +166,10 @@ export const leftNavItems = [
             name: 'Using Postman Interceptor',
             url: '/docs/sending-requests/capturing-request-data/interceptor/',
           },
+          {
+            name: 'Syncing cookies',
+            url: '/docs/sending-requests/capturing-request-data/syncing-cookies/',
+          },
         ],
       },
       {
@@ -578,10 +582,6 @@ export const leftNavItems = [
             url: '/docs/administration/managing-your-team/user-groups/',
           },
           {
-            name: 'Configuring SCIM provisioning',
-            url: '/docs/administration/managing-your-team/configuring-scim/',
-          },
-          {
             name: 'Configuring domain capture',
             url: '/docs/administration/managing-your-team/configuring-domain-capture/',
           },
@@ -633,29 +633,52 @@ export const leftNavItems = [
             url: '/docs/administration/sso/microsoft-adfs/',
           },
           {
-            name: 'Custom SAML in Azure AD',
-            url: '/docs/administration/sso/saml-in-azure-ad/',
+            name: 'Azure AD',
+            url: '/docs/administration/sso/azure-ad/',
           },
           {
-            name: 'Custom SAML in Duo',
-            url: '/docs/administration/sso/saml-duo/',
+            name: 'Duo',
+            url: '/docs/administration/sso/duo/',
           },
           {
-            name: 'Custom SAML in GSuite',
-            url: '/docs/administration/sso/saml-gsuite/',
+            name: 'Google Workspace',
+            url: '/docs/administration/sso/google-workspace/',
           },
           {
-            name: 'Custom SAML in Okta',
-            url: '/docs/administration/sso/saml-okta/',
+            name: 'Okta',
+            url: '/docs/administration/sso/okta/',
           },
           {
-            name: 'Custom SAML in OneLogin',
-            url: '/docs/administration/sso/saml-onelogin/',
+            name: 'OneLogin',
+            url: '/docs/administration/sso/onelogin/',
           },
           {
-            name: 'Custom SAML in Ping Identity',
-            url: '/docs/administration/sso/saml-ping/',
+            name: 'Ping Identity',
+            url: '/docs/administration/sso/ping-identity/',
           },
+        ],
+      },
+      {
+        name: 'SCIM Provisioning',
+        subParentSlug: 'scim-provisioning',
+        slug: '/docs/administration/scim-provisioning/scim-provisioning-overview/',
+        subMenuItems2: [
+          {
+            name: 'SCIM Provisioning Overview',
+            url: '/docs/administration/scim-provisioning/scim-provisioning-overview/',
+          },
+          {
+            name: 'Configuring SCIM with Okta',
+            url: '/docs/administration/scim-provisioning/configuring-scim-with-okta/',
+          },
+          {
+            name: 'Configuring SCIM with Azure AD',
+            url: '/docs/administration/scim-provisioning/configuring-scim-with-azure-ad/',
+          },
+          {
+            name: `Configuring SCIM with OneLogin`,
+            url: `/docs/administration/scim-provisioning/configuring-scim-with-onelogin/`
+          }
         ],
       },
       {
@@ -776,6 +799,10 @@ export const leftNavItems = [
           {
             name: 'Keen',
             url: '/docs/integrations/available-integrations/keen/',
+          },
+          {
+            name: 'Lightstep',
+            url: '/docs/integrations/available-integrations/lightstep/',
           },
           {
             name: 'Microsoft Power Automate',

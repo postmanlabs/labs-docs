@@ -82,7 +82,7 @@ You can export your personal workspace and shared workspaces for any team you ha
 
 If you have an individual account and are not part of a team, but want to maintain your current account while migrating company data to an authorized team, you can [export specific data](/docs/getting-started/importing-and-exporting-data/#exporting-postman-data) or [export a dump of all data](/docs/getting-started/importing-and-exporting-data/#exporting-data-dumps).
 
-If you have a personal account and want to deactivate it and join an authorized team, you can accept the team invite and all personal Postman data will be transferred to to your new team automatically.
+If you have a personal account and want to deactivate it and join an authorized team, you can accept the team invite and all personal Postman data will be transferred to your new team automatically.
 
 You ___should___ choose distributed migration if the following conditions apply:
 

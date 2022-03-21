@@ -92,7 +92,7 @@ There are several ways to add existing and new requests to a collection.
 To move an existing request to a different collection:
 
 1. Select the request you want to move.
-1. Drag and drop the request into into the desired collection.
+1. Drag and drop the request into the desired collection.
 
 > Alternatively, open the request and select **Save As**, then choose the collection you want to move it to.
 
@@ -165,7 +165,7 @@ To delete a collection:
 1. Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> to the right of the collection name.
 1. Select **Delete**.
 
-> If a deleted collection is larger than 30 MB, you will not be able to [recover it](#recovering-a-deleted-collection). To avoid this, you can split the collection into smaller pieces before deleting it, or back up the collection first.
+> If a deleted collection is larger than 30 MB, you won't be able to [recover it](#recovering-a-deleted-collection). To avoid this, you can split the collection into smaller pieces before deleting it, or back up the collection first.
 
 ### Recovering a deleted collection
 
@@ -255,6 +255,6 @@ Collections can power various parts of your API development, testing, and publis
 
 * Select **Run** to access the [Collection Runner](/docs/running-collections/intro-to-collection-runs/), which allows you to run all requests in a collection and build testing workflows into your runs.
 * Select the documentation icon <img alt="Documentation icon" src="https://assets.postman.com/postman-docs/documentation-icon-v8-10.jpg" width="16px" style="vertical-align:middle;margin-bottom:5px"> to generate [API documentation](/docs/publishing-your-api/documenting-your-api/) from a collection.
-* Attaching a [monitor](/docs/monitoring-your-api/intro-monitors/) to a collection lets you schedule collection runs. Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to the collection name, and then select **Monistor collection**.
+* Attaching a [monitor](/docs/monitoring-your-api/intro-monitors/) to a collection lets you schedule collection runs. Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to the collection name, and then select **Monitor collection**.
 * You can use [mock servers](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/) to return sample data during testing and development. Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to the collection name, and then select **Mock collection**.
 * Generate collections from API specifications using the [Postman API Builder](/docs/designing-and-developing-your-api/the-api-workflow/).

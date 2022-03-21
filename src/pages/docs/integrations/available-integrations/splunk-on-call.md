@@ -23,7 +23,7 @@ This integration allows you to configure [Postman Monitors](/docs/monitoring-you
 ## Get the Splunk On-Call API Key
 
 1. Log in to your Splunk On-Call account and go to the **Settings** tab.
-1. On the **Settings** page, go to the the **Alert Behavior** menu and select **Integrations**.
+1. On the **Settings** page, go to the **Alert Behavior** menu and select **Integrations**.
    [![log in to Splunk On-Call](https://assets.postman.com/postman-docs/58842896.png)](https://assets.postman.com/postman-docs/58842896.png)
 1. From the list of integrations, select the **REST Generic** Integration.
    [![select REST Generic](https://assets.postman.com/postman-docs/58843113.png)](https://assets.postman.com/postman-docs/58843113.png)

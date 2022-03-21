@@ -103,9 +103,9 @@ Enter your search string and change the scope of search to narrow down your sear
 
 ![Changing scope for universal search](https://assets.postman.com/postman-docs/change-scope-for-universal-search-v9.5.jpg)
 
-> For signed-in users, the default search scope on workspaces is Team. On [explore](https://www.postman.com/explore), the default is Public API Network. For signed-out users, the results only include public resources and do not contain private data.
+> For signed-in users, the default search scope on workspaces is Team. On [explore](https://www.postman.com/explore), the default is Public API Network. For signed-out users, the results only include public resources and don't contain private data.
 
-If you do not find what you are looking for in the list of results, select __Search all workspaces, collections, APIs and teams__ and you can find all the results in one page.
+If you don't find what you are looking for in the list of results, select __Search all workspaces, collections, APIs and teams__ and you can find all the results in one page.
 
 <img alt="Search all" src ="https://assets.postman.com/postman-docs/search-all-workspaces-collections-and-teams-v9.5.jpg"/>
 
@@ -126,7 +126,7 @@ Depending on the entity type, the search results contain different information:
 
 ## Find and replace
 
-In the Postman app, you can search the current workspace by selecting __Find and Replace__ in the status bar at the bottom left, or by entering __⌘+Shift+F__ or __Ctrl+Shift+F__.
+In the Postman app, you can search the current workspace by selecting __Find and Replace__ in the status bar at the bottom left, or by entering __Command + Shift + F__ or __Ctrl + Shift + F__.
 
 Enter your search string and, optionally, choose which entities to return, entering replacement text if necessary.
 
@@ -134,7 +134,7 @@ Enter your search string and, optionally, choose which entities to return, enter
 
 Postman searches tabs, collections, and variables. You can select an item directly in the search results to open an entity.
 
-> __Find and Replace__ is not available in Postman for Web.
+> __Find and Replace__ isn't available in Postman for Web.
 
 ## History
 
@@ -144,27 +144,68 @@ You can access a history of the requests you've made in the __History__ tab on t
 
 Select a request to open it again. Select __+__ to save the request to a collection. Toggle __Save Responses__ to save request responses so that you can view what was returned by a request when you open it from your history.
 
-The history also includes the collection runs executed. These remain as the summarized version of the run and aren't logged as single requests. The __Save Responses__ option cannot be used with requests from collection runner.
+The history also includes the collection runs executed. These remain as the summarized version of the run and aren't logged as single requests. The __Save Responses__ option can't be used with requests from collection runner.
 
 The __View more actions__ menu allows you to save, monitor, document, or mock a request. Use the delete (trash icon) or __Clear all__ options to remove requests from your history. You can select multiple requests by pressing `Command` or `Control` and selecting the requests.
 
 ## Tabs
 
-Open a tab to send a request in Postman. Select __+__ in the middle of the screen or press `Command/Control + T`.
+Tabs allow you to organize and work between multiple requests.
 
-![Tabs](https://assets.postman.com/postman-docs/open-unsaved-tab-options-v8.jpg)
+### Opening a new tab
 
-> If you open a request and do not edit or send it, then open another request, the first tab is replaced by the second tab. When the tab is in _Preview_ mode, it displays in italics.
+To open a new tab, select __+__ in the middle of the screen.
 
-You can have multiple tabs open at the same time, and drag tabs around to arrange them. Select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> to manage your tabs and access recent tabs.
+> **Keyboard shortcut**: You can also select **Command + T** or **Ctrl + T** on your keyboard to open a new tab.
 
-> Duplicating a tab does not mean creating a second request to the same endpoint. When you duplicate a tab, any edits you make affect the original request.
+<img alt="Open a new tab" src="https://assets.postman.com/postman-docs/open-new-tab.jpg" width="450px"/>
 
-Postman displays a dot on tabs with unsaved changes.
+If you open a request and don't edit or send it, then open another request, the second tab replaces the first tab. When the tab is in preview mode, it displays in italics.
+
+You can set whether Postman opens requests in new tabs. Select the gear icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-gear-outline-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> to open **Settings**. Under **Requests**, use the toggle next to **Always open requests in a new tab** to turn this option on or off.
+
+### Managing tabs
+
+You can have many tabs open at the same time. To rearrange your open tabs, select and drag them in the desired order.
+
+To manage your open tabs or to access recently closed tabs, select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> to open a menu with action options:
+
+* **Recently Closed Tabs**: Shows you tabs that you closed recently. Select one to reopen it.
+* **Duplicate Selected Tab**: _(Desktop app only.)_ Duplicates the current tab. This does not create a copy of the request, so when you duplicate a tab any edits you make are reflected in the original request.
+* **Close Selected Tab**: Closes the current tab. If the tab contains unsaved changes, Postman will ask if you want to save before closing.
+* **Force Close Selected Tab**: Closes the current tab without saving any changes.
+* **Close All but Selected Tab**: Closes all tabs except the one you are currently working in.
+* **Close All Tabs**: Closes all tabs. If any tabs contain unsaved changes, Postman will ask if you want to save before closing.
+* **Force Close All Tabs**: Closes all tabs without saving any changes.
+
+<img alt="Manage tabs using the actions menu" src="https://assets.postman.com/postman-docs/manage-tabs.jpg" width="300px"/>
+
+You can also manage your open tabs or open a new tab by right-clicking on an existing tab:
+
+* **New Request**: _(Postman for Web only.)_ Opens a new tab.
+* **Duplicate Tab**: _(Desktop app only.)_ Duplicates the current tab. This does not create a copy of the request, so when you duplicate a tab any edits you make are reflected in the original request.
+* **Close Tab**: Closes the current tab. If the tab contains unsaved changes, Postman will ask if you want to save before closing.
+* **Force Close Tab**: Closes the current tab without saving any changes.
+* **Close All Tabs**: Closes all tabs. If any tabs contain unsaved changes, Postman will ask if you want to save before closing.
+* **Force Close All Tabs**: Closes all tabs without saving any changes.
+
+<img alt="Manage tabs" src="https://assets.postman.com/postman-docs/right-click-manage-tab.jpg" width="300px"/>
+
+> **Closing unsaved tabs**: You can set whether Postman asks whether you want to save when you close a tab that contains changes. Select the gear icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-gear-outline-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> to open **Settings**. Under **Requests**, use the toggle next to **Always ask when closing unsaved tabs** to turn this option on or off.
+
+If you have a lot of tabs open, they might overflow the area of the tab bar. To navigate to tabs that are outside the viewable area, select the arrows to the left or right of the tab bar.
+
+<img alt="Scroll to navigate tabs" src="https://assets.postman.com/postman-docs/tab-navigation-scroll.jpg" width="800px"/>
+
+### Saving or discarding changes
+
+If a tab has unsaved changes, Postman displays a dot next to the tab name. Select <img alt="Save icon" src="https://assets.postman.com/postman-docs/icon-save.jpg" width="16px" style="vertical-align:middle;margin-bottom:5px"> **Save** to save the changes. To discard the changes, select the close icon <img alt="Close icon" src="https://assets.postman.com/postman-docs/icon-close.jpg" width="16px" style="vertical-align:middle;margin-bottom:5px"> to close the tab, then select **Don't save**.
+
+### Viewing conflicts
 
 A tab may indicate a conflict if you or a collaborator changes it in another tab or workspace. Postman prompts you to resolve any conflicts that may occur.
 
-> You can toggle whether or not Postman opens requests in new tabs in the __Settings__. You can also configure whether or not Postman prompts you when closing tabs with unsaved changes.
+<img alt="Tab displaying a conflict" src="https://assets.postman.com/postman-docs/tab-conflict.jpg" width="300px"/>
 
 ## Next steps
 
@@ -172,7 +213,7 @@ The best way to get to know Postman is by firing up the __Bootcamp__ on the bott
 
 ![Bootcamp](https://assets.postman.com/postman-docs/bootcamp-lesson-v8.gif)
 
-To find additional resources to get started with Postman, select **Home** in the upper-left corner.
+To find more resources to get started with Postman, select **Home** in the upper-left corner.
 
 ![Bootcamp Home](https://assets.postman.com/postman-docs/bootcamp-home-v8.jpg)
 

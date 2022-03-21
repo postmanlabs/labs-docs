@@ -2,7 +2,7 @@
 title: "Managing Enterprise deployment"
 order: 140.5
 page_id: "managing_enterprise_deployment"
-updated: 2022-01-05
+updated: 2022-03-14
 warning: false
 contextual_links:
   - type: section
@@ -34,6 +34,8 @@ Postman Enterprise offers greater control to administrators looking to deploy an
 
     * [Enabling verbose logging for installation](#enabling-verbose-logging-for-installation)
 
+    * [MSI installation options](#msi-installation-options)
+
     * [Updating the Postman Enterprise Windows app](#updating-the-postman-enterprise-windows-app)
 
     * [Uninstalling the Postman Enterprise Windows app](#uninstalling-the-postman-enterprise-windows-app)
@@ -55,7 +57,7 @@ To request this change, reach out to your Postman Account Manager or [contact Po
 
 ## Deploying the Postman Enterprise app
 
-Postman's Enterprise app is a variant of Postman’s Desktop app that offers greater control to administrators looking to deploy Postman at an enterprise level. It is available as an MSI package for Windows and PKG package for macOS, and supports silent installation, system-wide installation, and additional configurations to control how Postman is installed on users' devices.
+Postman's Enterprise app is a variant of Postman’s Desktop app that offers greater control to administrators looking to deploy Postman at an enterprise level. It's available as an MSI package for Windows and PKG package for macOS, and supports silent installation, system-wide installation, and additional configurations to control how Postman is installed on users' devices.
 
 ## Downloading the Postman Enterprise app
 
@@ -105,9 +107,9 @@ A silent installation or uninstallation is performed by passing the `/qn` option
 msiexec /i path\to\package.msi /qn MSIINSTALLPERUSER=1
 ```
 
-Note that running in silent installation mode will omit error messages. If the installation fails for any reason, `%ERRORLEVEL%` will not equal `0` but no error will be displayed.
+Note that running in silent installation mode will omit error messages. If the installation fails for any reason, `%ERRORLEVEL%` won't equal `0` but no error will be displayed.
 
-It is always recommended to [run silent installations with logging enabled](#enabling-verbose-logging-for-installation).
+It's always recommended to [run silent installations with logging enabled](#enabling-verbose-logging-for-installation).
 
 ### Enabling verbose logging for installation
 
@@ -115,6 +117,22 @@ The `msiexec` tool can be configured to output debug log information about the i
 
 ``` shell
 msiexec /i path\to\package.msi /l*v C:\log.txt
+```
+
+### MSI installation options
+
+Settings can be changed during an MSI application installation.
+
+For example, if your app defines a `MY_OPTION` installation option, you can set a custom value:
+
+``` shell
+msiexec /i path\to\package.msi MY_OPTION='hello'
+```
+
+You can also install an MSI with multiple installation options:
+
+``` shell
+msiexec /i path\to\package.msi MY_STRING_OPTION='hello' MY_INTEGER_OPTION=7
 ```
 
 ### Updating the Postman Enterprise Windows app
@@ -225,7 +243,7 @@ sudo defaults write /Library/Preferences/<the bundle id> MY_INTEGER_OPTION -inte
 
 ### PKG installer logging
 
-It is recommended to use the `-dumplog` and `-verbose` flags supported by `installer` to get detailed information about an installation. For example:
+It's recommended to use the `-dumplog` and `-verbose` flags supported by `installer` to get detailed information about an installation. For example:
 
 ``` shell
 sudo installer -dumplog -verbose -pkg path/to/app.pkg -target LocalSystem
