@@ -40,8 +40,8 @@ contextual_links:
   - type: section
     name: "Next Steps"
   - type: link
-    name: "Viewing and analyzing APIs"
-    url: "/docs/designing-and-developing-your-api/view-and-analyze-api-reports/"
+    name: "Reports overview"
+    url: "/docs/administration/reports/reports-overview/"
   - type: link
     name: "Validating elements against schema"
     url: "/docs/designing-and-developing-your-api/validating-elements-against-schema/"

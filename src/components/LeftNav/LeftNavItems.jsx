@@ -427,10 +427,6 @@ export const leftNavItems = [
           },
         ],
       },
-      {
-        name: 'Analyzing with reports',
-        url: '/docs/designing-and-developing-your-api/view-and-analyze-api-reports/',
-      },
     ],
   },
   {
@@ -583,6 +579,37 @@ export const leftNavItems = [
       {
         name: 'Configuring team settings',
         url: '/docs/administration/team-settings/',
+      },
+      {
+        name: 'Reports',
+        subParentSlug: 'reports',
+        slug: '/docs/administration/reports/reports-overview/',
+        subMenuItems2: [
+          {
+            name: 'Reports overview',
+            url: '/docs/administration/reports/reports-overview/',
+          },
+          {
+            name: 'Summary reports',
+            url: '/docs/administration/reports/summary-reports/',
+          },
+          {
+            name: 'Team details reports',
+            url: '/docs/administration/reports/team-details-reports/',
+          },
+          {
+            name: 'All Workspaces reports',
+            url: '/docs/administration/reports/all-workspaces-reports/',
+          },
+          {
+            name: 'All APIs reports',
+            url: '/docs/administration/reports/all-apis-reports/',
+          },
+          {
+            name: 'Security Audit reports',
+            url: '/docs/administration/reports/security-audit-reports/',
+          },
+        ],
       },
       {
         name: 'Utilizing audit logs',
