@@ -71,6 +71,12 @@ Postman is available for macOS 10.11 (El Capitan) and later.
 
 > You may encounter a "Library not loaded" error if you unzip and install Postman using a third-party archiving app. Use the default Archive Utility for Mac to unzip the file.
 
+You can also install Postman using the Homebrew package manager:
+
+```sh
+brew install --cask postman
+```
+
 ## Installing Postman on Windows
 
 Postman is available for Windows 7 and later.
