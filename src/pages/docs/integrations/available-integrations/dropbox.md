@@ -12,7 +12,7 @@ contextual_links:
     url: "/docs/sending-requests/intro-to-collections/"
 ---
 
-Back up and synchronize your Postman Collections on Dropbox for file sharing, storage, and collaboration.  The Postman to Dropbox integration seamlessly complements your existing workflows and allows you to store your Postman Collections and other project files in one place.
+Back up and synchronize your Postman Collections on Dropbox for file sharing, storage, and collaboration. The Postman to Dropbox integration seamlessly complements your existing workflows and allows you to store your Postman Collections and other project files in one place.
 
 ## Configuring Dropbox Integration
 

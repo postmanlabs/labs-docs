@@ -59,7 +59,7 @@ Note that if the response's `Content-Type` header indicates that the response is
 
 ### Pretty
 
-The Pretty view formats JSON or XML responses so they are easier to view. Links inside Pretty view are highlighted, and selecting them can load a GET request in Postman with the link URL.
+The Pretty view formats JSON or XML responses so they're easier to view. Links inside Pretty view are highlighted, and selecting them can load a GET request in Postman with the link URL.
 
 For navigating large responses, select the down arrows on the left of a line to collapse large sections of the response.
 
@@ -139,7 +139,7 @@ Postman displays the response code returned by the API. Hover over the response 
 
 <img alt="Hover over the response code to see a description" src="https://assets.postman.com/postman-docs/response-code.jpg" width="300px"/>
 
-Some API responses also contain custom messages that can help you understand response codes. For example, if you receive a `401 Unauthorized` response, the message might advise you to check the token you used in the request. If custom messages are returned, they are displayed in the **Body** of the response.
+Some API responses also contain custom messages that can help you understand response codes. For example, if you receive a `401 Unauthorized` response, the message might advise you to check the token you used in the request. If custom messages are returned, they're displayed in the **Body** of the response.
 
 ## Response time
 

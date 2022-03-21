@@ -83,7 +83,7 @@ Learn more about [editing and versioning APIs](/docs/designing-and-developing-yo
 
 #### Security
 
-Private APIs are only visible to logged in users who are a part of your Postman team. They are not discoverable or accessible to anyone who is not a part of your team.
+Private APIs are only visible to logged in users who are a part of your Postman team. They're not discoverable or accessible to anyone who is not a part of your team.
 
 #### Guidelines
 

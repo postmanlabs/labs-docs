@@ -58,7 +58,7 @@ Give your group a name and description, add your team members, and select the te
 Team members will receive an email and in-app notification when added to a group.
 
 <!-- -->
-> If a team member with a support-only account (admin or billing) is given the **Developer** role via a group they are in, they will automatically take up an available paid spot on your Postman team. If no spots are available, you will not be able to grant access to the group with that team member.
+> If a team member with a support-only account (admin or billing) is given the **Developer** role via a group they're in, they will automatically take up an available paid spot on your Postman team. If no spots are available, you will not be able to grant access to the group with that team member.
 
 ## Editing a group
 
@@ -78,7 +78,7 @@ Select **+ Add** to add a team member to the group. Select **X** next to a team 
 
 You can control a group's access at the team level, workspace level, and on individual collections, APIs, environments, mock servers, and monitors.
 
-> Group members will receive an in-app notificiation when roles are modified.
+> Group members will receive an in-app notification when roles are modified.
 
 #### Editing team roles for a group
 

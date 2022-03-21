@@ -103,7 +103,7 @@ Postman supports variables at different scopes, allowing you to tailor your proc
 
 In order from broadest to narrowest, these scopes are: _global_, _collection_, _environment_, _data_, and _local_.
 
-* **Global variables** enable you to access data between collections, requests, test scripts, and environments. Global variables are available throughout a [workspace](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/). Since global variables have the broadest scope available in Postman, they are well-suited for testing and prototyping, but more specific scopes should be used in later development phases.
+* **Global variables** enable you to access data between collections, requests, test scripts, and environments. Global variables are available throughout a [workspace](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/). Since global variables have the broadest scope available in Postman, they're well-suited for testing and prototyping, but more specific scopes should be used in later development phases.
 * **Collection variables** are available throughout the requests in a collection and are independent of environments. Collection variables don't change based on the selected environment. Collection variables are suitable if you're using a single environment, for example for auth or URL details.
 * **Environment variables** enable you to scope your work to different environments, for example local development versus testing or production. One environment can be active at a time. If you have a single environment, using collection variables can be more efficient, but environments enable you to specify [role-based access levels](/docs/sending-requests/managing-environments/#working-with-environments-as-a-team).
 * **Data variables** come from external CSV and JSON files to define data sets you can use when running collections with [Newman](/docs/running-collections/using-newman-cli/) or the [Collection Runner](/docs/running-collections/intro-to-collection-runs/). Data variables have current values, which don't persist beyond request or collection runs.
@@ -196,7 +196,7 @@ To add a new global variable:
 
 1. Select **Add a new variable**, and enter a name for the variable.
 1. Select a **Type** for the new variable.
-1. Add an **Inital Value**, and if you choose, a **Current Value**.
+1. Add an **Initial Value**, and if you choose, a **Current Value**.
 1. Select <img alt="Save icon" src="https://assets.postman.com/postman-docs/icon-save.jpg" width="16px" style="vertical-align:middle;margin-bottom:5px"> **Save** to confirm your changes.
 
 To edit an existing global variable:
@@ -230,7 +230,7 @@ To add a new environment variable:
 
 1. Select **Add a new variable**, and enter a name for the variable.
 1. Select a **Type** for the new variable.
-1. Add an **Inital Value**, and if you choose, a **Current Value**.
+1. Add an **Initial Value**, and if you choose, a **Current Value**.
 1. Select <img alt="Save icon" src="https://assets.postman.com/postman-docs/icon-save.jpg" width="16px" style="vertical-align:middle;margin-bottom:5px"> **Save** to confirm your changes.
 
 To edit an existing environment variable:
@@ -409,12 +409,12 @@ For more information on working with variables as a team, see [Managing environm
 
 An _unresolved variable_ is a variable that's not defined in an [active scope](#variable-scopes) (environment, collection, or globals) that's available for the request it’s used in.
 
-For example, for the request `https://postman-echo.com/get?customer_id={{cust_id}}`, Postman expects to be able to find a definition for `{{cust_id}}` in the environment the request uses, in the collection the request is saved in, or at the global level. So if Postman doesn't find a definition for `{{cust_id}}` in one of those scopes, then it flags the variable as unresolved. If you send a request that includes an unresolved variable, the request might fail.
+For example, for the request `https://postman-echo.com/get?customer_id={{cust_id}}`, Postman expects to be able to find a definition for `{{cust_id}}` in the environment the request uses, in the collection the request is saved in, or at the global level. If Postman doesn't find a definition for `{{cust_id}}` in one of those scopes, then it flags the variable as unresolved. If you send a request that includes an unresolved variable, the request might fail.
 
 A variable can be unresolved for a few reasons:
 
 * The variable isn't present in an [active scope](/docs/sending-requests/variables/#variable-scopes) for the request
-* The variable was created but the changes were not saved
+* The variable was created but the changes weren't saved
 * The environment in which the variable is present isn't active
 * The variable is turned off in an active environment
 
@@ -436,7 +436,7 @@ If the variable is unresolved because it doesn't exist:
 
 <img alt="Set an unresolved variable" src="https://assets.postman.com/postman-docs/set-unresolved-variable-v9.jpg" width="300px"/>
 
-> Variables that are [defined programmatically in a script](#defining-variables-in-scripts) are resolved differently depending on the variable scope. This means that unresolved variables will also be handled differently. Local variables that are set programmatically using `pm.variables.set` may appear to be unresolved since they are not stored and are only used at runtime, but if they are set and used correctly the request will still run successfully. Environment, global, and collection variables that are set programmatically are saved for later use, so they will resolve if they are set and used correctly. Depending on how an unresolved variable is used in a script, you may receive a `400 Bad Request` error response from the API, or Postman may be unable to send the request at all. Open the [console](/docs/sending-requests/troubleshooting-api-requests/#debugging-in-the-console) to help identify unresolved variables in your scripts.
+> Variables that are [defined programmatically in a script](#defining-variables-in-scripts) are resolved differently depending on the variable scope. This means that unresolved variables will also be handled differently. Local variables that are set programmatically using `pm.variables.set` may appear to be unresolved since they're not stored and are only used at runtime, but if they're set and used correctly the request will still run successfully. Environment, global, and collection variables that are set programmatically are saved for later use, so they will resolve if they're set and used correctly. Depending on how an unresolved variable is used in a script, you may receive a `400 Bad Request` error response from the API, or Postman may be unable to send the request at all. Open the [console](/docs/sending-requests/troubleshooting-api-requests/#debugging-in-the-console) to help identify unresolved variables in your scripts.
 
 ## Next steps
 
