@@ -31,6 +31,7 @@ This integration supports OpenAPI 3.0 schemas for both HTTP and REST APIs. For H
     * [Authenticating with an AWS IAM role](#authenticating-with-an-aws-iam-role)
     * [Authenticating with an AWS access key](#authenticating-with-an-aws-access-key)
 * [Viewing Amazon API gateway deployments](#viewing-amazon-api-gateway-deployments)
+* [Viewing CloudWatch metrics](#viewing-cloudwatch-metrics)
 * [Exporting and deploying your API](#exporting-and-deploying-your-api)
 
 ## Connecting to Amazon API Gateway
@@ -100,11 +101,13 @@ Next, enter information about the connection:
 
 When you're ready, select **Connect**.
 
-## Viewing Amazon API gateway deployments
+## Viewing Amazon API Gateway deployments
 
 After connecting to Amazon API Gateway, you can view the export and deployment history for your API schemas in Postman. Select **APIs** in the left sidebar, select an API and version, and then select the **Deployments** tab.
 
-* For each stage you can view the active deployment, the creation date, and the date last updated. Select a stage to view additional details, including the invoke URL and stage description (from AWS).
+* For each stage you can view the active deployment, the creation date, and the date last updated. You can also view CloudWatch metrics for the last week, such as average latency and the number of 4xx and 5xx errors.
+    * Select the arrow next to a stage to view additional details, including the invoke URL and stage description (from AWS).
+    * Select a stage name to view additional metrics on the [CloudWatch dashboard](#viewing-cloudwatch-metrics).
 * For each export from Postman, you can view the source of the export and the time when exported.
 * For each deployment you can view the ID, description, and creation date.
 
@@ -117,6 +120,10 @@ From the **Deployments** tab, you can take the following actions:
 * To view metrics for your API Gateway in AWS, select **View Dashboard**.
 * To see the latest deployment status, select the refresh icon <img alt="Refresh icon" src="https://assets.postman.com/postman-docs/icon-refresh-v9-5.jpg" width="14px" style="vertical-align:middle;margin-bottom:5px">.
 * To edit or delete the connection to Amazon API Gateway, select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px">.
+
+## Viewing CloudWatch metrics
+
+
 
 ## Exporting and deploying your API
 
