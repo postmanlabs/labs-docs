@@ -2,7 +2,7 @@
 title: 'Deploying an API'
 order: 81.65
 page_id: 'deploying_an_api'
-updated: 2021-12-29
+updated: 2022-03-31
 search_keyword: "deploy, aws, api gateway"
 warning: false
 contextual_links:
@@ -21,14 +21,16 @@ contextual_links:
 
 ---
 
-Stay on top of your API deployments in Postman by connecting to [Amazon API Gateway](https://aws.amazon.com/api-gateway/). Once connected to API Gateway, you can view your API deployment status and history from within Postman. This integration supports OpenAPI 3.0 schemas for both HTTP and REST APIs.
+[Amazon API Gateway](https://aws.amazon.com/api-gateway/) enables developers to publish and manage APIs that access AWS as well as other web services and data sources. Once connected to API Gateway, you can view your API deployment status and history from within Postman. This integration supports OpenAPI 3.0 schemas for both HTTP and REST APIs.
 
 For HTTP APIs, you can also choose to export your schema from Postman to Amazon API Gateway. You can then use the AWS console to deploy your exported schema to a stage. Alternatively, you can deploy your HTTP API schema directly from Postman to a stage in API Gateway.
+
+## Contents
 
 * [Connecting to Amazon API Gateway](#connecting-to-amazon-api-gateway)
     * [Authenticating with an AWS IAM role](#authenticating-with-an-aws-iam-role)
     * [Authenticating with an AWS access key](#authenticating-with-an-aws-access-key)
-* [Viewing API deployments in Postman](#viewing-api-deployments-in-postman)
+* [Viewing Amazon API gateway deployments](#viewing-amazon-api-gateway-deployments)
 * [Exporting and deploying your API](#exporting-and-deploying-your-api)
 
 ## Connecting to Amazon API Gateway
@@ -98,7 +100,7 @@ Next, enter information about the connection:
 
 When you're ready, select **Connect**.
 
-## Viewing API deployments in Postman
+## Viewing Amazon API gateway deployments
 
 After connecting to Amazon API Gateway, you can view the export and deployment history for your API schemas in Postman. Select **APIs** in the left sidebar, select an API and version, and then select the **Deployments** tab.
 
