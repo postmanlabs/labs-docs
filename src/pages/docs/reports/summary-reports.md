@@ -36,7 +36,7 @@ The [**Reports Summary**](https://go.postman.co/reports/summary) dashboard show 
 * **Test Results** - The number of successful and failed test runs over time.
 * **Uptime** - The number of successful responses (returning 1xx or 2xx) compared to failed responses (returning 3xx, 4xx, or 5xx) over time.
 
-    <img src="https://assets.postman.com/postman-docs/reporting-summary-view-apis.jpg" alt="reports data point" width="100%" />
+    <img src="https://assets.postman.com/postman-docs/reporting-summary-view-apis.jpg" alt="Report summary view" />
 
 ## How is your team using Postman?
 

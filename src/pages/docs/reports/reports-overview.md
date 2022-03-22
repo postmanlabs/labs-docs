@@ -63,7 +63,7 @@ To navigate within a report:
 
 * Select a data point to drill down and view more details. Sort the table by selecting a column heading. Hover over a table row and select the arrow to navigate to a related report or entity.
 
-    <img src="https://assets.postman.com/postman-docs/reports-drilldown.jpg" alt="reports data point" width="100%" />
+    <img src="https://assets.postman.com/postman-docs/reports-drilldown.jpg" alt="reports drill down" />
 
 ## Troubleshooting
 

@@ -41,7 +41,7 @@ contextual_links:
     name: "Next Steps"
   - type: link
     name: "Reports overview"
-    url: "/docs/administration/reports/reports-overview/"
+    url: "/docs/reports/reports-overview/"
   - type: link
     name: "Validating elements against schema"
     url: "/docs/designing-and-developing-your-api/validating-elements-against-schema/"

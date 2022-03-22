@@ -24,7 +24,7 @@ contextual_links:
     name: "Next Steps"
   - type: link
     name: "Reports overview"
-    url: "/docs/administration/reports/reports-overview/"
+    url: "/docs/reports/reports-overview/"
 ---
 
 You can validate your API schema in Postman, and validate your elements (documentation, tests, mock servers, and monitors) against your schema. This helps keep your API well-defined and ensures that your elements are in sync with your schema. If there is a validation error on the schema or elements don't match it, Postman will present a list of issues that have been found, as well as fixes for these issues. You can then apply fixes to the API elements and revalidate them.
@@ -117,4 +117,4 @@ You can access the updated API element by selecting **View Updated Collection** 
 
 ## Next steps
 
-In addition to keeping your API elements in sync with a schema, you can [analyze and utilize reporting](/docs/administration/reports/reports-overview/) to promote understanding of how your APIs are performing.
+In addition to keeping your API elements in sync with a schema, you can [use reports](/docs/reports/reports-overview/) to promote understanding of how your APIs are performing.

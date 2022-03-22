@@ -753,7 +753,7 @@
 	},
 	{
 		"from": "/docs/postman/design-and-develop-apis/reporting-faqs/",
-		"to": "/docs/administration/reports/reports-overview/"
+		"to": "/docs/reports/reports-overview/"
 	},
 	{
 		"from": "/docs/postman/design-and-develop-apis/sharing-apis/",
@@ -773,7 +773,7 @@
 	},
 	{
 		"from": "/docs/postman/design-and-develop-apis/view-and-analyze-api-reports/",
-		"to": "/docs/administration/reports/reports-overview/"
+		"to": "/docs/reports/reports-overview/"
 	},
 	{
 		"from": "/docs/postman/design_and_develop_apis/introduction_to_apis/",
@@ -785,7 +785,7 @@
 	},
 	{
 		"from": "/docs/postman/design_and_develop_apis/reporting_faqs/",
-		"to": "/docs/administration/reports/reports-overview/"
+		"to": "/docs/reports/reports-overview/"
 	},
 	{
 		"from": "/docs/postman/design_and_develop_apis/sharing_apis/",
@@ -809,7 +809,7 @@
 	},
 	{
 		"from": "/docs/postman/design_and_develop_apis/view_and_analyze_api_reports/",
-		"to": "/docs/administration/reports/reports-overview/"
+		"to": "/docs/reports/reports-overview/"
 	},
 	{
 		"from": "/docs/postman/environments-and-globals/intro-to-environments-and-globals/",
@@ -1915,6 +1915,6 @@
 	},
 	{
 		"from": "/docs/designing-and-developing-your-api/view-and-analyze-api-reports/",
-		"to": "/docs/administration/reports/reports-overview/"
+		"to": "/docs/reports/reports-overview/"
 	}
 ]
