@@ -23,6 +23,9 @@ h2, h3, h4 {
     height: auto;
     image-rendering: -webkit-optimize-contrast;
   }
+  img[src$='#icon'] {
+    margin-bottom: 0;
+  }
 
   // WIP - need to get ul li markers to move away from text
   ///////////////////////////////////////////////////////////////////
