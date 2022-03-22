@@ -123,6 +123,22 @@ From the **Deployments** tab, you can take the following actions:
 
 ## Viewing CloudWatch metrics
 
+[Amazon CloudWatch](https://aws.amazon.com/cloudwatch/) provides monitoring and observability for APIs deployed to Amazon API Gateway. After connecting to API Gateway, you can view the last week of CloudWatch metrics in Postman.
+
+From the **Deployments** tab, select the name of a stage to view the CloudWatch dashboard for that stage. The graphs on the dashboard display metrics for latency, integration latency, 4xx and 5xx error rates, and count.
+
+* Hover over a data point on a graph to view detailed metrics data.
+* Hover over the information icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg" width="16px" style="vertical-align:middle;margin-bottom:5px"> above a graph to learn more about the metrics in that graph.
+
+SCREENSHOT
+
+From the CloudWatch dashboard, you can take the following actions:
+
+* To view metrics for a different stage, select the stage in the drop-down list.
+* To view metrics for a different time range, select the time range in the drop-down list.
+* To view metrics for your API Gateway in AWS, select **View Dashboard**.
+* To view the currently selected stage in AWS, select **View Stage on AWS**.
+* To view the latest CloudWatch metrics, select the refresh icon <img alt="Refresh icon" src="https://assets.postman.com/postman-docs/icon-refresh-v9-5.jpg" width="14px" style="vertical-align:middle;margin-bottom:5px">.
 
 
 ## Exporting and deploying your API
