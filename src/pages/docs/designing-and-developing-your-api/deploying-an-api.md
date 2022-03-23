@@ -143,7 +143,6 @@ From the CloudWatch dashboard, you can take the following actions:
 * To view the currently selected stage in AWS, select **View Stage on AWS**.
 * To view the latest CloudWatch metrics, select the refresh icon <img alt="Refresh icon" src="https://assets.postman.com/postman-docs/icon-refresh-v9-5.jpg#icon" width="14px">.
 
-
 ## Exporting and deploying your API
 
 Exporting an HTTP API schema makes it available in the connected Amazon API Gateway. After you export a schema from Postman, use the AWS console to configure and deploy the schema to a stage in API Gateway. Alternatively, when exporting, you can choose to deploy the schema directly from Postman to a stage in the connected API Gateway. Once the schema is deployed, users can start calling the API.
