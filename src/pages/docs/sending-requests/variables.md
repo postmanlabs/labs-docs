@@ -148,9 +148,9 @@ You must have [Editor](/docs/collaborating-in-postman/roles-and-permissions/) ac
 
 ### Viewing and changing secret variable values
 
-All workspace members can view a secret variable's initial and current values by selecting the <img alt="Eye crossed out icon" src="https://assets.postman.com/postman-docs/eye-crossed-out.jpg#icon" width="24px"> eye symbol to the right of the variable.
+All workspace members can view a secret variable's initial and current values by selecting the <img alt="Unmask variable icon" src="https://assets.postman.com/postman-docs/icon-eye-crossed-out.jpg#icon" width="18px"> eye symbol to the right of the variable.
 
-Editors can change a variable's initial values, which are shared with collaborators, by selecting the <img alt="Eye crossed out icon" src="https://assets.postman.com/postman-docs/eye-crossed-out.jpg#icon" width="24px"> eye symbol to the right of the variable, then selecting the initial value. All collaborators can change a variable's current values by selecting the <img alt="Eye crossed out icon" src="https://assets.postman.com/postman-docs/eye-crossed-out.jpg#icon" width="24px"> eye symbol to the right of the variable, then selecting the current value.
+Editors can change a variable's initial values, which are shared with collaborators, by selecting the <img alt="Unmask variable icon" src="https://assets.postman.com/postman-docs/icon-eye-crossed-out.jpg#icon" width="18px"> eye symbol to the right of the variable, then selecting the initial value. All collaborators can change a variable's current values by selecting the <img alt="Unmask variable icon" src="https://assets.postman.com/postman-docs/icon-eye-crossed-out.jpg#icon" width="18px"> eye symbol to the right of the variable, then selecting the current value.
 
 ## Defining variables
 
