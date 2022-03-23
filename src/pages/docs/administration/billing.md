@@ -42,6 +42,8 @@ Contact Postman's support team for help with any account or billing issues. Navi
 
     * [Managing cards](#managing-cards)
 
+    * [Using the Pay Now option](#using-the-pay-now-option)
+
     * [Paying by invoice](#paying-by-invoice)
 
     * [Adding custom information to invoices](#adding-custom-information-to-invoices)
@@ -122,9 +124,9 @@ To set a card as your primary, hover over the card and **Set as Primary**.
 
 <img alt="Payment methods view" src="https://assets.postman.com/postman-docs/payment-methods-page.jpg" />
 
-### Using the Pay now option
+### Using the Pay Now option
 
-In some circumstances, including an overdue or failed payment, you may receive an invoice for your Postman bill. From the invoice, select **Pay Now** to immediately pay your bill using [your card](#managing-cards) or Apple Pay or Google Pay (if supported). 
+In some circumstances, including an overdue or [failed payment](#failed-payments), you may receive an invoice for your Postman bill. From the invoice, select **Pay Now** to immediately pay your bill using [your card](#managing-cards) or Apple Pay or Google Pay (if supported).
 
 ### Paying by invoice
 
@@ -142,7 +144,7 @@ Add or update your company name, billing email, address, and your VAT ID if appl
 
 ### Failed payments
 
-If you have a card on file, Postman will automatically attempt 3 times to charge it. If this is unsuccessful, team members with billing privileges receive an email notification.
+If you have a card on file, Postman will automatically attempt 3 times to charge it. If this is unsuccessful, team members with billing privileges receive an email notification. Use the link in the email to access and pay for your [invoice](#using-the-pay-now-option).
 
 <img alt="Failed payment email" src="https://assets.postman.com/postman-docs/billing-email-payment-declined-v9.1.jpg" width="400px"/>
 
