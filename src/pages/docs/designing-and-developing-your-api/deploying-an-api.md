@@ -109,8 +109,8 @@ When you're ready, select **Connect**.
 After connecting to Amazon API Gateway, you can view the export and deployment history for your API schemas in Postman. Select **APIs** in the left sidebar, select an API and version, and then select the **Deployments** tab.
 
 * For each stage you can view the active deployment, the creation date, and the date last updated. You can also view CloudWatch metrics for the last week, such as average latency and the number of 4xx and 5xx errors.
-    * Select the arrow next to a stage to view additional details, including the invoke URL and stage description (from AWS).
-    * Select a stage name to view additional metrics on the [CloudWatch dashboard](#viewing-cloudwatch-metrics).
+    * Select the arrow next to a stage to view more details, including the invoke URL and stage description (from AWS).
+    * Select a stage name to view metrics on the [CloudWatch dashboard](#viewing-cloudwatch-metrics).
 * For each export from Postman, you can view the source of the export and the time when exported.
 * For each deployment you can view the ID, description, and creation date.
 
@@ -140,7 +140,7 @@ From the CloudWatch dashboard, you can take the following actions:
 * To view metrics for a different stage, select the stage in the drop-down list.
 * To view metrics for a different time range, select the time range in the drop-down list.
 * To view metrics for your API Gateway in AWS, select **View Dashboard**.
-* To view the currently selected stage in AWS, select **View Stage on AWS**.
+* To view the this stage in AWS, select **View Stage on AWS**.
 * To view the latest CloudWatch metrics, select the refresh icon <img alt="Refresh icon" src="https://assets.postman.com/postman-docs/icon-refresh-v9-5.jpg#icon" width="14px">.
 
 ## Exporting and deploying your API
@@ -155,7 +155,7 @@ Exporting an HTTP API schema makes it available in the connected Amazon API Gate
     You can also export and deploy your API from the Changelog. Open the Changelog <img alt="Changelog icon" src="https://assets.postman.com/postman-docs/icon-changelog-v9.jpg#icon" width="18px"> in the right context bar, select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> next to a release, and then select **Deploy Schema**.
 
 1. Select the version, branch, or release to deploy. Learn more about [versioning an API](/docs/designing-and-developing-your-api/versioning-an-api/) and [creating a release](/docs/designing-and-developing-your-api/versioning-an-api/#creating-a-release).
-1. (Optional) If you would like to immediately deploy the schema to a stage after exporting, select **Deploy on a stage**. Select the AWS stage to deploy the schema to, and enter a brief description.
+1. (Optional) If you would like to deploy the schema to a stage after exporting, select **Deploy on a stage**. Select the AWS stage to deploy the schema to, and enter a brief description.
 
     > To deploy your schema, your gateway must have at least one route with a configured integration.
 
