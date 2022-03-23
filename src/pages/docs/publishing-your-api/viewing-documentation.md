@@ -112,7 +112,7 @@ Use the options in the header to customize the appearance of the documentation:
 * **Environment:** If an [environment](/docs/publishing-your-api/documenting-your-api/#associating-environments-with-documentation) was published with the documentation, you can select it to populate any variables.
 * **Layout:** **Double column** displays sample code in a column to the right of the documentation. **Single column** displays sample code inline beneath each request.
 * **Language:** Select a language to use for sample code.
-* **Language Settings:** Select the gear <img alt="Language settings icon" src="https://assets.postman.com/postman-docs/icon-gear-solid-v9.jpg" width="16px"> to customize settings for any of the available languages.
+* **Language Settings:** Select the gear <img alt="Language settings icon" src="https://assets.postman.com/postman-docs/icon-gear-solid-v9.jpg#icon" width="16px"> to customize settings for any of the available languages.
 
 [![Published documentation example](https://assets.postman.com/postman-docs/documentation-published-docs-v9.jpg)](https://assets.postman.com/postman-docs/documentation-published-docs-v9.jpg)
 
