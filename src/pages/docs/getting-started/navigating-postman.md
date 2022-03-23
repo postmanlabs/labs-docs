@@ -55,7 +55,7 @@ On the right panel, you can see icons to view the documentation, comments, code,
 
 <img alt="Right panel icons" src="https://assets.postman.com/postman-docs/right-panel-view-v8.jpg" width="300px"/>
 
-To open the __Documentation__ tab, select the request under your collection and select the Documentation icon <img alt="Mini docs icon" src="https://assets.postman.com/postman-docs/mini-docs-icon-v8.jpg" width="25px"/> on the right panel.
+To open the __Documentation__ tab, select the request under your collection and select the Documentation icon <img alt="Documentation icon" src="https://assets.postman.com/postman-docs/documentation-icon-v8-10.jpg#icon" width="16px"> on the right panel.
 
 <img alt="Documentation icon" src="https://assets.postman.com/postman-docs/overview-documentations-v8.jpg"/>
 
@@ -65,7 +65,7 @@ To open the documentation in another tab, select __View complete collection docu
 
 To publish a documentation for a collection, see [Publishing your documentation](/docs/publishing-your-api/publishing-your-docs/).
 
-To open the __Comments__ tab, select the request under your collection and the Comments icon <img alt="Mini comments icon" src="https://assets.postman.com/postman-docs/mini-comments-icon-v8.jpg" width="30px"/> on the right panel. You can switch to comment mode to leave comments on a specific part of the request, including parameters, headers, body, and tests.
+To open the __Comments__ tab, select the request under your collection and the Comments icon <img alt="Comments icon" src="https://assets.postman.com/postman-docs/icon-comments-v9.jpg#icon" width="18px"> on the right panel. You can switch to comment mode to leave comments on a specific part of the request, including parameters, headers, body, and tests.
 
 [![Overview Comments](https://assets.postman.com/postman-docs/overview-comments-v8.jpg)](https://assets.postman.com/postman-docs/overview-comments-v8.jpg)
 
@@ -87,7 +87,7 @@ You can also declutter your workspace by collapsing panes. Use the button at the
 
 ## Related Collections
 
-When a request is selected in Postman, you can see a Related Collections (light bulb) icon <img alt="Related Collections icon" src="https://assets.postman.com/postman-docs/collection-rec-lightbulb-icon2.jpg" width="25px"/> on the right panel.
+When a request is selected in Postman, you can see a Related Collections (light bulb) icon <img alt="Related Collections icon" src="https://assets.postman.com/postman-docs/collection-rec-lightbulb-icon2.jpg#icon" width="16px"/> on the right panel.
 
 Select the icon to view public collections from the [API Network](https://www.postman.com/explore/) that share the same base URL as your request and include API documentation to help you get started.
 
