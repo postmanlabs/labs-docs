@@ -114,7 +114,7 @@ After connecting to Amazon API Gateway, you can view the export and deployment h
 * For each export from Postman, you can view the source of the export and the time when exported.
 * For each deployment you can view the ID, description, and creation date.
 
-<img alt="Viewing API deployments" src="https://assets.postman.com/postman-docs/api-gateway-view-deployments-v9-8.jpg" width="946px"/>
+<img alt="Viewing API deployments" src="https://assets.postman.com/postman-docs/api-gateway-view-deployments-v9-14.jpg"/>
 
 From the **Deployments** tab, you can take the following actions:
 
@@ -133,7 +133,7 @@ From the **Deployments** tab, select the name of a stage to view the CloudWatch 
 * Hover over a data point on a graph to view detailed metrics data.
 * Hover over the information icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px"> above a graph to learn more about the metrics in that graph.
 
-SCREENSHOT
+<img alt="Viewing CloudWatch metrics" src="https://assets.postman.com/postman-docs/api-gateway-view-cloudwatch-v9-14.jpg"/>
 
 From the CloudWatch dashboard, you can take the following actions:
 
