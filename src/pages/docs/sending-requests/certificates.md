@@ -91,7 +91,7 @@ You can't edit a certificate after generating it. To make changes, first [remove
 
 Remove a certificate if you no longer need it to make encrypted API calls for a domain.
 
-* To remove a CA certificate, select the remove icon <img alt="Close icon" src="https://assets.postman.com/postman-docs/icon-close.jpg" width="16px" style="vertical-align:middle;margin-bottom:5px"> next to the certificate
+* To remove a CA certificate, select the remove icon <img alt="Close icon" src="https://assets.postman.com/postman-docs/icon-close.jpg#icon" width="16px"> next to the certificate
 * To remove a client certificate, select **Remove** next to the certificate.
 
 ## Using a certificate
@@ -108,7 +108,7 @@ In the example below, the request used `https://` to ensure Postman sent the cer
 
 ### Viewing certificate details
 
-You can view additional certificate details in the response pane below the request. The globe icon <img alt="Network information locked icon" src="https://assets.postman.com/postman-docs/icon-globe-locked.jpg" width="16px" style="vertical-align:middle;margin-bottom:5px"> includes a padlock if a request was sent using HTTPS. Hover over the globe icon to view information about the certificate that was sent with the request, as well as any warnings or errors such as self-signed or expired certificates.
+You can view additional certificate details in the response pane below the request. The globe icon <img alt="Network information locked icon" src="https://assets.postman.com/postman-docs/icon-globe-locked.jpg#icon" width="16px"> includes a padlock if a request was sent using HTTPS. Hover over the globe icon to view information about the certificate that was sent with the request, as well as any warnings or errors such as self-signed or expired certificates.
 
 [![Network details](https://assets.postman.com/postman-docs/certificates-network-details-v9-14.jpg)](https://assets.postman.com/postman-docs/certificates-network-details-v9-14.jpg)
 
@@ -126,7 +126,7 @@ To fix the error, try turning off SSL verification for the request:
 
 > You can turn off SSL verification globally in the [Postman settings](/docs/getting-started/settings/) on the **General** tab.
 
-If SSL verification is turned off, you can hover over the globe icon <img alt="Network information error icon" src="https://assets.postman.com/postman-docs/icon-globe-error.jpg" width="16px" style="vertical-align:middle;margin-bottom:5px"> in the response pane to see details about any certificate errors or warnings.
+If SSL verification is turned off, you can hover over the globe icon <img alt="Network information error icon" src="https://assets.postman.com/postman-docs/icon-globe-error.jpg#icon" width="16px"> in the response pane to see details about any certificate errors or warnings.
 
 [![Network information error](https://assets.postman.com/postman-docs/certificates-network-error-v9-14.jpg)](https://assets.postman.com/postman-docs/certificates-network-error-v9-14.jpg)
 
