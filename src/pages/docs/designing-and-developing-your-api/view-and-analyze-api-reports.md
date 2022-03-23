@@ -71,7 +71,7 @@ To navigate within a report:
 
 * Select a data point to drill down and view more details. Sort the table by selecting a column heading. Hover over a table row and select the arrow to navigate to a related report or entity.
 
-    <img src="https://assets.postman.com/postman-docs/reports-drilldown.jpg" alt="reports data point" width="100%" />
+    <img src="https://assets.postman.com/postman-docs/reports-drilldown.jpg" alt="reports data point" />
 
 > [Postman Enterprise](https://www.postman.com/pricing/get-started-postman-plans/) teams have access to detailed team and API reports. Postman Professional teams created after 2020 have access to a limited set of reports. For more information, see [Postman Professional reports](#postman-professional-reports).
 
@@ -86,7 +86,7 @@ The [**Reports Summary**](https://go.postman.co/reports/summary) dashboard show 
 * **Test Results** - The number of successful and failed test runs over time.
 * **Uptime** - The number of successful responses (returning 1xx or 2xx) compared to failed responses (returning 3xx, 4xx, or 5xx) over time.
 
-    <img src="https://assets.postman.com/postman-docs/reporting-summary-view-apis.jpg" alt="reports data point" width="100%" />
+    <img src="https://assets.postman.com/postman-docs/reporting-summary-view-apis.jpg" alt="reports data point" />
 
 ### How is your team using Postman?
 
