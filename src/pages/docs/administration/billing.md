@@ -122,6 +122,10 @@ To set a card as your primary, hover over the card and **Set as Primary**.
 
 <img alt="Payment methods view" src="https://assets.postman.com/postman-docs/payment-methods-page.jpg" />
 
+### Using the Pay now option
+
+In some circumstances, including an overdue or failed payment, you may receive an invoice for your Postman bill. From the invoice, select **Pay Now** to immediately pay your bill using [your card](#managing-cards) or Apple Pay or Google Pay (if supported). 
+
 ### Paying by invoice
 
 > Invoicing is available for Postman Enterprise teams only. If you are a new Enterprise customer, contact the [Postman Sales team](https://www.postman.com/pricing/get-started-postman-plans/) to get started. You will receive a response within three business days. If you are an existing Enterprise customer, submit a request to the [Postman Support team](https://support.postman.com/hc/en-us) to be invoiced instead of automatically charged.
