@@ -72,7 +72,7 @@ Once you make a workspace public, all entities within that workspace become publ
 
 ### Notifying workspace members
 
-When you make a workspace public, a notification is sent to all workspace members. Select the notification icon <img alt="Changelog icon" src="https://assets.postman.com/postman-docs/icon-notification-bell-v9.jpg#icon" width="18px"> in the top right corner to view notifications.
+When you make a workspace public, a notification is sent to all workspace members. Select the notification icon <img alt="Notifications icon" src="https://assets.postman.com/postman-docs/icon-notification-bell-v9.jpg#icon" width="18px"> in the top right corner to view notifications.
 
 <img alt="In app notification" src="https://assets.postman.com/postman-docs/visibility-app-notification.jpg" width="500px"/>
 

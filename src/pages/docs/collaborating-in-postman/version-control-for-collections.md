@@ -233,7 +233,7 @@ To change your watching notification settings:
 
 To view notifications for a watched pull request:
 
-1. Select the bell icon <img alt="Changelog icon" src="https://assets.postman.com/postman-docs/icon-notification-bell-v9.jpg#icon" width="18px"> in the top right corner of Postman. The popup indicates further information about the change that was made to the pull request.
+1. Select the bell icon <img alt="Notifications icon" src="https://assets.postman.com/postman-docs/icon-notification-bell-v9.jpg#icon" width="18px"> in the top right corner of Postman. The popup indicates further information about the change that was made to the pull request.
 
 > If you create a pull request and modify it from the same Postman account, you will not receive any notifications about changes made to the pull request.
 
@@ -267,7 +267,7 @@ Adding comments as a reviewer is an important part of the pull request process, 
 
 To add a comment to a pull request:
 
-1. Select the comment icon <img alt="Changelog icon" src="https://assets.postman.com/postman-docs/icon-comments-v9.jpg#icon" width="18px"> next to the change that you want to comment on.
+1. Select the comment icon <img alt="Comments icon" src="https://assets.postman.com/postman-docs/icon-comments-v9.jpg#icon" width="18px"> next to the change that you want to comment on.
 1. Once you've written your comment, select **Add Comment**.
 
 <img alt="Add a comment to a pull review" src="https://assets.postman.com/postman-docs/pr-add-comment-v9.12.jpg" width="450px"/>

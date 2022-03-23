@@ -208,7 +208,7 @@ To watch a collection:
 
 To view notifications about what has changed in a collection you watch:
 
-1. Select the bell icon <img alt="Changelog icon" src="https://assets.postman.com/postman-docs/icon-notification-bell-v9.jpg#icon" width="18px"> in the top right corner of Postman to view the notification. Select **View changelog** to view the collection's changelog.
+1. Select the bell icon <img alt="Notification icon" src="https://assets.postman.com/postman-docs/icon-notification-bell-v9.jpg#icon" width="18px"> in the top right corner of Postman to view the notification. Select **View changelog** to view the collection's changelog.
 
     <img alt="Notification Collection Watching" src="https://assets.postman.com/postman-docs/collection-watch-notification-v9.jpg" width="500px"/>
 
@@ -229,7 +229,7 @@ You can fork collections in your own workspace to [develop collection versions](
 
 To add a comment at the collection level:
 
-1. Select the comment icon <img alt="Changelog icon" src="https://assets.postman.com/postman-docs/icon-comments-v9.jpg#icon" width="18px"> from the right of the collection overview.
+1. Select the comment icon <img alt="Comments icon" src="https://assets.postman.com/postman-docs/icon-comments-v9.jpg#icon" width="18px"> from the right of the collection overview.
 1. Write your comment, then select **Add Comment**.
 
 ### Reverting collection changes

@@ -71,7 +71,7 @@ Postman Interceptor is a Chrome extension that captures network requests directl
 Postman is now ready to capture and sync cookies using Interceptor.
 
 * Cookies for the domains you specified are automatically synced from Chrome to Postman.
-* To stop syncing cookies for a domain, select <img alt="Close icon" src="https://assets.postman.com/postman-docs/icon-gear-outline-v9.jpg#icon" width="16px"> next to the domain name.
+* To stop syncing cookies for a domain, select <img alt="Close icon" src="https://assets.postman.com/postman-docs/icon-close.jpg#icon" width="16px"> next to the domain name.
 * To stop capturing and syncing all cookies, select **Stop Syncing**.
 
 ## Syncing cookies with the Postman proxy
@@ -98,7 +98,7 @@ A proxy acts as an intermediary between a client application (like a mobile app)
 Postman is now ready to capture and sync cookies using the proxy.
 
 * To start syncing cookies, configure one or more clients to use the Postman proxy. Learn more about [configuring the proxy on a client device](/docs/sending-requests/capturing-request-data/capturing-http-requests/#step-3-configure-the-proxy-on-a-client-device).
-* To stop syncing cookies for a domain, select <img alt="Close icon" src="https://assets.postman.com/postman-docs/icon-gear-outline-v9.jpg#icon" width="16px"> next to the domain name.
+* To stop syncing cookies for a domain, select <img alt="Close icon" src="https://assets.postman.com/postman-docs/icon-close.jpg#icon" width="16px"> next to the domain name.
 * To stop capturing and syncing all cookies, select **Stop Syncing**.
 
 ## Next steps

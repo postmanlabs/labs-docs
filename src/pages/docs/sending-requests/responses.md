@@ -107,7 +107,7 @@ To learn more about running tests against API requests in Postman, see [Writing 
 
 ## Network information
 
-Postman displays network information when your API returns a response. Hover over the globe icon <img alt="Refresh icon" src="https://assets.postman.com/postman-docs/icon-uptime-globe.jpg#icon" width="14px"> to see the local and remote IP addresses for the request you sent.
+Postman displays network information when your API returns a response. Hover over the globe icon <img alt="Network information icon" src="https://assets.postman.com/postman-docs/icon-uptime-globe.jpg#icon" width="14px"> to see the local and remote IP addresses for the request you sent.
 
 When you make an `https` request, the globe icon includes a padlock. When you hover over the icon, the network information will show additional information including [certificate verification](/docs/sending-requests/certificates/) details.
 

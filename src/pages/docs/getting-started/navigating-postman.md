@@ -199,7 +199,7 @@ If you have a lot of tabs open, they might overflow the area of the tab bar. To 
 
 ### Saving or discarding changes
 
-If a tab has unsaved changes, Postman displays a dot next to the tab name. Select <img alt="Save icon" src="https://assets.postman.com/postman-docs/icon-save.jpg#icon" width="16px"> **Save** to save the changes. To discard the changes, select the close icon <img alt="Close icon" src="https://assets.postman.com/postman-docs/icon-gear-outline-v9.jpg#icon" width="16px"> to close the tab, then select **Don't save**.
+If a tab has unsaved changes, Postman displays a dot next to the tab name. Select <img alt="Save icon" src="https://assets.postman.com/postman-docs/icon-save.jpg#icon" width="16px"> **Save** to save the changes. To discard the changes, select the close icon <img alt="Close icon" src="https://assets.postman.com/postman-docs/icon-close.jpg#icon" width="16px"> to close the tab, then select **Don't save**.
 
 ### Viewing conflicts
 
