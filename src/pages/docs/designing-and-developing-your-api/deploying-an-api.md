@@ -70,7 +70,8 @@ Next, create an IAM role for Postman in AWS:
                 "Sid": "Stmt909923626743",
                 "Effect": "Allow",
                 "Action": [
-                    "apigateway:GET"
+                    "apigateway:GET",
+                    "cloudwatch:GetMetricData"
                 ],
                 "Resource": [
                     "*"
@@ -79,6 +80,8 @@ Next, create an IAM role for Postman in AWS:
         ]
     }
     ```
+
+    > If you previously created an IAM policy, make sure to add `"cloudwatch:GetMetricData"` to the policy as shown above to enable Postman to get CloudWatch metrics.
 
 7. Select **Next: Tags**.
 8. Select **Next: Review**.
