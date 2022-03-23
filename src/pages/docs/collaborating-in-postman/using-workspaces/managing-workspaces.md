@@ -107,7 +107,7 @@ If you are a workspace editor or admin, you can invite anyone to personal, priva
 
 Individual team members and groups you invite will be notified immediately of your request to collaborate. External users who aren't on your Postman team will receive an invitation to join immediately if you are a team admin. If you aren't a team admin, your request to add external users to your Postman team will be shared with your team admins for approval.
 
-You can also invite collaborators by selecting <img alt="Changelog icon" src="https://assets.postman.com/postman-docs/icon-workspace-link-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> **Copy Invite Link** and sharing the link with them outside of Postman. When individuals select the link, they'll be prompted to log in or sign up. If you are a team admin inviting an external user, they'll be automatically added to your team. If you aren't a team admin, a request to add them to your Postman team will be shared with your team admins for approval.
+You can also invite collaborators by selecting <img alt="Changelog icon" src="https://assets.postman.com/postman-docs/icon-workspace-link-v9.jpg#icon" width="18px"> **Copy Invite Link** and sharing the link with them outside of Postman. When individuals select the link, they'll be prompted to log in or sign up. If you are a team admin inviting an external user, they'll be automatically added to your team. If you aren't a team admin, a request to add them to your Postman team will be shared with your team admins for approval.
 
 ## Managing workspace roles
 
@@ -134,7 +134,7 @@ To start watching a workspace, select **Watch** on the upper right of the worksp
 
 <img alt="Watching a workspace" src="https://assets.postman.com/postman-docs/watching-a-workspace-v9.jpg"/>
 
-To see notifications, select the bell <img alt="Bell icon" src="https://assets.postman.com/postman-docs/icon-notification-bell-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> in the Postman header. The notification list shows details about changes to workspaces you are watching. You will also receive an email with information about the change, who made it, and when.
+To see notifications, select the bell <img alt="Bell icon" src="https://assets.postman.com/postman-docs/icon-notification-bell-v9.jpg#icon" width="18px"> in the Postman header. The notification list shows details about changes to workspaces you are watching. You will also receive an email with information about the change, who made it, and when.
 
  To stop watching a workspace, select **Unwatch** on the upper right of the workspace's **Overview** tab.
 
@@ -149,7 +149,7 @@ Workspaces can contain elements such as collections, APIs, environments, mock se
 To move an element to a different workspace:
 
 1. Select **Collections**, **APIs**, **Environments**, or **Mock Servers** in the left sidebar.
-1. Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to an element and then select **Move**.
+1. Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> next to an element and then select **Move**.
 
     <img alt="Move collection" src="https://assets.postman.com/postman-docs/move-collection-v9.jpg" width="300px" height="400px"/>
 

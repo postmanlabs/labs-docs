@@ -71,7 +71,7 @@ To open the __Comments__ tab, select the request under your collection and the C
 
 To learn more about comments, see [Commenting on collections](/docs/collaborating-in-postman/commenting-on-collections/).
 
-To open the __Code snippets__ tab, select the request under your collection, and then select the Code icon <img alt="Code snippet icon" src="https://assets.postman.com/postman-docs/icon-code-snippet.jpg" width="16px" style="vertical-align:middle;margin-bottom:5px"> on the right panel. For more information, see [Generating code snippets](/docs/sending-requests/generate-code-snippets/).
+To open the __Code snippets__ tab, select the request under your collection, and then select the Code icon <img alt="Code snippet icon" src="https://assets.postman.com/postman-docs/icon-code-snippet.jpg#icon" width="16px"> on the right panel. For more information, see [Generating code snippets](/docs/sending-requests/generate-code-snippets/).
 
 <img alt="Code snippets Pane" src="https://assets.postman.com/postman-docs/code-snippet-pane-v8.jpg" width="350px"/>
 
@@ -162,13 +162,13 @@ To open a new tab, select __+__ in the middle of the screen.
 
 If you open a request and don't edit or send it, then open another request, the second tab replaces the first tab. When the tab is in preview mode, it displays in italics.
 
-You can set whether Postman opens requests in new tabs. Select the gear icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-gear-outline-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> to open **Settings**. Under **Requests**, use the toggle next to **Always open requests in a new tab** to turn this option on or off.
+You can set whether Postman opens requests in new tabs. Select the gear icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-gear-outline-v9.jpg#icon" width="18px"> to open **Settings**. Under **Requests**, use the toggle next to **Always open requests in a new tab** to turn this option on or off.
 
 ### Managing tabs
 
 You can have many tabs open at the same time. To rearrange your open tabs, select and drag them in the desired order.
 
-To manage your open tabs or to access recently closed tabs, select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> to open a menu with action options:
+To manage your open tabs or to access recently closed tabs, select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> to open a menu with action options:
 
 * **Recently Closed Tabs**: Shows you tabs that you closed recently. Select one to reopen it.
 * **Duplicate Selected Tab**: _(Desktop app only.)_ Duplicates the current tab. This does not create a copy of the request, so when you duplicate a tab any edits you make are reflected in the original request.
@@ -191,7 +191,7 @@ You can also manage your open tabs or open a new tab by right-clicking on an exi
 
 <img alt="Manage tabs" src="https://assets.postman.com/postman-docs/right-click-manage-tab.jpg" width="300px"/>
 
-> **Closing unsaved tabs**: You can set whether Postman asks whether you want to save when you close a tab that contains changes. Select the gear icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-gear-outline-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> to open **Settings**. Under **Requests**, use the toggle next to **Always ask when closing unsaved tabs** to turn this option on or off.
+> **Closing unsaved tabs**: You can set whether Postman asks whether you want to save when you close a tab that contains changes. Select the gear icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-gear-outline-v9.jpg#icon" width="18px"> to open **Settings**. Under **Requests**, use the toggle next to **Always ask when closing unsaved tabs** to turn this option on or off.
 
 If you have a lot of tabs open, they might overflow the area of the tab bar. To navigate to tabs that are outside the viewable area, select the arrows to the left or right of the tab bar.
 
@@ -199,7 +199,7 @@ If you have a lot of tabs open, they might overflow the area of the tab bar. To 
 
 ### Saving or discarding changes
 
-If a tab has unsaved changes, Postman displays a dot next to the tab name. Select <img alt="Save icon" src="https://assets.postman.com/postman-docs/icon-save.jpg" width="16px" style="vertical-align:middle;margin-bottom:5px"> **Save** to save the changes. To discard the changes, select the close icon <img alt="Close icon" src="https://assets.postman.com/postman-docs/icon-close.jpg" width="16px" style="vertical-align:middle;margin-bottom:5px"> to close the tab, then select **Don't save**.
+If a tab has unsaved changes, Postman displays a dot next to the tab name. Select <img alt="Save icon" src="https://assets.postman.com/postman-docs/icon-save.jpg#icon" width="16px"> **Save** to save the changes. To discard the changes, select the close icon <img alt="Close icon" src="https://assets.postman.com/postman-docs/icon-gear-outline-v9.jpg#icon" width="16px"> to close the tab, then select **Don't save**.
 
 ### Viewing conflicts
 

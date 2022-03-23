@@ -63,7 +63,7 @@ When you fork a Postman collection, you create a copy of it in a different works
 To fork a collection:
 
 1. Select **Collections** in the left sidebar.
-1. Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to the collection name.
+1. Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> next to the collection name.
 1. Select **Create a fork**.
 
     <img src="https://assets.postman.com/postman-docs/collection-create-a-fork-v9.1.jpg" alt="Create fork selected in menu" width="300px"/>
@@ -86,7 +86,7 @@ If there are any [mocks](/docs/designing-and-developing-your-api/mocking-data/se
 To fork an environment in Postman:
 
 1. Select **Environments** in the left sidebar.
-1. Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to the environment name.
+1. Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> next to the environment name.
 1. Select **Create a fork**.
 
     <img src="https://assets.postman.com/postman-docs/environment-create-a-fork-v9.1.jpg" alt="Create an Environment Fork" width="300px"/>
@@ -108,13 +108,13 @@ Fork information provides details about forks and the users who have created the
 
 To see the list of users who have forked a collection or an environment:
 
-1. Select the number next to the fork icon <img alt="Fork icon" src="https://assets.postman.com/postman-docs/icon-fork.jpg" width="14px" style="vertical-align:middle;margin-bottom:5px"> to reveal the list of users who have active forks.
+1. Select the number next to the fork icon <img alt="Fork icon" src="https://assets.postman.com/postman-docs/icon-fork.jpg#icon" width="14px"> to reveal the list of users who have active forks.
 
     <img alt="View the fork information count" src="https://assets.postman.com/postman-docs/fork-information-count-v9.12.jpg" width="400px"/>
 
 To see the list of forks for a collection:
 
-1. Select the fork icon <img alt="Fork icon" src="https://assets.postman.com/postman-docs/icon-fork.jpg" width="14px" style="vertical-align:middle;margin-bottom:5px"> in the context bar.
+1. Select the fork icon <img alt="Fork icon" src="https://assets.postman.com/postman-docs/icon-fork.jpg#icon" width="14px"> in the context bar.
 1. Select the fork name under **Forks**.
 
     > You can also select the user's avatar under **Forks** to view the user's public profile.
@@ -130,7 +130,7 @@ When you have made the changes that you want to a forked collection, you can cre
 To create a pull request:
 
 1. Select the forked collection in the **Collections** sidebar.
-1. Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to the collection name.
+1. Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> next to the collection name.
 1. Select **Create pull request**.
 
     <img alt="Create Pull Request" src="https://assets.postman.com/postman-docs/create-pull-request.jpg" width="250px"/>
@@ -178,7 +178,7 @@ Pull request settings let you manage permissions for reviewers and assign merge 
 #### Manage reviewer permissions
 
 1. Select the collection in the **Collections** sidebar.
-1. Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to the collection name.
+1. Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> next to the collection name.
 1. Select **Manage roles**.
 
     <img alt="Collection Manage Roles" src="https://assets.postman.com/postman-docs/collection-manage-roles-v9.1.jpg" width="300px"/>
@@ -200,7 +200,7 @@ There are two different types of checks that you can enable for a pull request:
 To set merge checks for pull requests on a specific collection:
 
 1. Select the collection in the **Collections** sidebar.
-1. Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to the collection name.
+1. Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> next to the collection name.
 1. Select **Manage roles**.
 1. Select the merge checks that you want to set for the collection.
 
@@ -233,7 +233,7 @@ To change your watching notification settings:
 
 To view notifications for a watched pull request:
 
-1. Select the bell icon <img alt="Changelog icon" src="https://assets.postman.com/postman-docs/icon-notification-bell-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> in the top right corner of Postman. The popup indicates further information about the change that was made to the pull request.
+1. Select the bell icon <img alt="Changelog icon" src="https://assets.postman.com/postman-docs/icon-notification-bell-v9.jpg#icon" width="18px"> in the top right corner of Postman. The popup indicates further information about the change that was made to the pull request.
 
 > If you create a pull request and modify it from the same Postman account, you will not receive any notifications about changes made to the pull request.
 
@@ -243,7 +243,7 @@ If you're tagged as a reviewer on a pull request, you can view the changes, comm
 
 To see the list of pull requests for a collection:
 
-1. Navigate to the collection and select the **Pull Requests** icon <img alt="Pull request icon" src="https://assets.postman.com/postman-docs/icon-pull-request.jpg" width="16px" style="vertical-align:middle;margin-bottom:5px"> in the context bar.
+1. Navigate to the collection and select the **Pull Requests** icon <img alt="Pull request icon" src="https://assets.postman.com/postman-docs/icon-pull-request.jpg#icon" width="16px"> in the context bar.
 
 <img src="https://assets.postman.com/postman-docs/open-pull-request-list-v9.12.jpg" alt="Pull request list" width="350px"/>
 
@@ -267,7 +267,7 @@ Adding comments as a reviewer is an important part of the pull request process, 
 
 To add a comment to a pull request:
 
-1. Select the comment icon <img alt="Changelog icon" src="https://assets.postman.com/postman-docs/icon-comments-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to the change that you want to comment on.
+1. Select the comment icon <img alt="Changelog icon" src="https://assets.postman.com/postman-docs/icon-comments-v9.jpg#icon" width="18px"> next to the change that you want to comment on.
 1. Once you've written your comment, select **Add Comment**.
 
 <img alt="Add a comment to a pull review" src="https://assets.postman.com/postman-docs/pr-add-comment-v9.12.jpg" width="450px"/>
@@ -282,13 +282,13 @@ You can edit a pull request's details before approving it, or you can decline it
 
 To edit the pull request details:
 
-1. Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> at the upper right and select **Edit**.
+1. Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> at the upper right and select **Edit**.
 1. Make any changes to the pull request's title, description, and list of reviewers.
 1. Select **Save Changes**.
 
 If you do not want to merge the pull request into the parent collection, you can decline it. Declined pull requests cannot be reopened, so if you want to request edits or offer feedback, [add a comment](#adding-comments) instead. To decline the pull request:
 
-1. Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> at the upper right and select **Decline**.
+1. Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> at the upper right and select **Decline**.
 1. Select **Decline Pull Request**.
 
 ### Approving a pull request
@@ -345,7 +345,7 @@ If you have Editor access to a collection, you can merge a fork into the parent 
 To merge changes from a fork without opening a pull request:
 
 1. Select the forked collection in the **Collections** sidebar.
-1. Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to the collection name.
+1. Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> next to the collection name.
 1. Select **Merge changes**.
 1. Review the diff and select **Merge all changes**.
 

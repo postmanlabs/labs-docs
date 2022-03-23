@@ -52,7 +52,7 @@ When you send a request to a mock server, Postman will match the request configu
 To try out a mock server, carry out the following steps:
 
 * Make a request to any API in Postman–making sure your request is saved to a collection.
-* Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> at the top right to view more actions, then select __Add example__. Postman will automatically populate the example with the response you received when you sent the request.
+* Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> at the top right to view more actions, then select __Add example__. Postman will automatically populate the example with the response you received when you sent the request.
 * In **Collections** on the left, select the collection and open the __Info__ using the button on the right. Select **Create mock server**.
 * Give your mock a name, leaving the default tag selected, and the delay option unchecked. Select **Create Mock Server**.
 * Copy the mock URL and go back into your request. Replace the base part of the URL with the mock server URL (everything before the path e.g. up to `/customers`).
@@ -120,7 +120,7 @@ If you want to generate a mocks collection from an API or add a mock to an API c
 
 ### Creating a mock from history
 
-You can build a mock based on requests from your Postman history. In __History__ on the left, hover over a request or date and select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> __> Mock Request__.
+You can build a mock based on requests from your Postman history. In __History__ on the left, hover over a request or date and select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> __> Mock Request__.
 
 <img alt="Mock history" src="https://assets.postman.com/postman-docs/mock-history-v8.jpg" width="350px"/>
 
@@ -150,7 +150,7 @@ You will see details of the mock in the collection overview info on the right.
 
 [![Mock in collection](https://assets.postman.com/postman-docs/mock-info-v8.jpg)](https://assets.postman.com/postman-docs/mock-info-v8.jpg)
 
-To edit or delete a mock, select **Mock Servers** on the left, then select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to the mock's name.
+To edit or delete a mock, select **Mock Servers** on the left, then select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> next to the mock's name.
 
 ## Making requests to mocks
 

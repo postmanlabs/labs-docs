@@ -99,7 +99,7 @@ Enter a name for your variable, and specify its __Initial__ and __Current__ valu
 * The __Initial Value__ is synced to your account via the Postman servers and shared with any collaborators who have access to the environment.
 * The __Current Value__ is local to your Postman app, and is never synced to your account or shared with your team _unless you choose to persist it_.
 
-To update the synced variable with your local value, set the initial value to the current value by selecting <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> to the right of the variable row and choosing __Persist__. To reset your local (current) value with the synced value shared with your workspace / collaborators, select __Reset__. You can persist or reset all values in the environment using __Persist All__ and __Reset All__.
+To update the synced variable with your local value, set the initial value to the current value by selecting <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> to the right of the variable row and choosing __Persist__. To reset your local (current) value with the synced value shared with your workspace / collaborators, select __Reset__. You can persist or reset all values in the environment using __Persist All__ and __Reset All__.
 
 You can also define environment variables by **Type**. Variables are automatically assigned the default type when created, which is shown as plain text and has no additional properties. You can change sensitive variables to [secret type](/docs/sending-requests/variables/#variable-types), which masks the initial and current values for all workspace members. Secret type can be used to prevent unintentional disclosure of sensitive data, including API secrets, passwords, tokens, and keys.
 
@@ -193,7 +193,7 @@ You can move environments to shared workspaces to collaborate with your team.
 
 > You must be an editor on an environment, or the workspace admin, to move an environment to another workspace.
 
-Navigate to the environment you'd like to share in the left sidebar, select it, then select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> > **Move**.
+Navigate to the environment you'd like to share in the left sidebar, select it, then select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> > **Move**.
 
 Use the search bar to find the workspace you'd like to move the environment to, or filter by workspace visibility by selecting the icon to the right of the search bar.
 
@@ -211,19 +211,19 @@ Select the workspace, then **Move**  **Environment**.
 
 Note that monitors, mock servers, and integrations in the original workspace that are using the environment may no longer work and will need to be re-configured in the new workspace. Collections and APIs that use the environment must be [moved separately](/docs/collaborating-in-postman/sharing/#moving-postman-entities-to-collaborative-workspaces).
 
-You can manage roles on an environment by navigating to it in the left sidebar, selecting it, then selecting <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> > **Manage Roles**.
+You can manage roles on an environment by navigating to it in the left sidebar, selecting it, then selecting <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> > **Manage Roles**.
 
 <img alt="Manage roles environment" src="https://assets.postman.com/postman-docs/environment-manage-roles-v9.1.jpg" width="250px"/>
 
-You can also remove a shared environment from a workspace by selecting <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to the environment name and choosing __Move__ to move it to a different workspace or **Delete** to delete it entirely.
+You can also remove a shared environment from a workspace by selecting <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> next to the environment name and choosing __Move__ to move it to a different workspace or **Delete** to delete it entirely.
 
-To export an environment, select it and select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> in the upper right > **Export**.
+To export an environment, select it and select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> in the upper right > **Export**.
 
 <img alt="Export environment" src="https://assets.postman.com/postman-docs/environment-export-v9.1.jpg" width="250px" />
 
 ### Managing environment roles
 
-You can manage roles on an environment by selecting <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> in the upper right > **Manage Roles**.
+You can manage roles on an environment by selecting <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> in the upper right > **Manage Roles**.
 
 You can assign collaborators the **Editor** or **Viewer** role. Users with the viewer role can only edit the current values of variables, but they can use the environment when sending requests. If a user requires edit access, they can request it when viewing the environment in the editor.
 

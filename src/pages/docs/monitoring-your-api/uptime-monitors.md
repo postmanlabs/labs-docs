@@ -56,13 +56,13 @@ Create a new uptime monitor to track the availability of a single API endpoint, 
 
 To view results for an uptime monitor, select **Monitors** in the left sidebar, and then select a monitor to view its dashboard.
 
-The dashboard shows if the API endpoint was up or down at the time it was last checked, for how long, and the number of regions where it's failing. To update the dashboard with the latest monitor status, select <img alt="Refresh icon" src="https://assets.postman.com/postman-docs/icon-refresh-v9-5.jpg" width="14px" style="vertical-align:middle;margin-bottom:5px"> **Refresh**.
+The dashboard shows if the API endpoint was up or down at the time it was last checked, for how long, and the number of regions where it's failing. To update the dashboard with the latest monitor status, select <img alt="Refresh icon" src="https://assets.postman.com/postman-docs/icon-refresh-v9-5.jpg#icon" width="14px"> **Refresh**.
 
 The dashboard also shows key statistics for the selected time period. You can view the percentage of time the endpoint has been available globally in at least one region. You can also view the number of downtime incidents and the average response time in milliseconds. To change the time period displayed, select a different time period in the menu at the upper right.
 
 <img alt="Uptime monitor graph" src="https://assets.postman.com/postman-docs/monitors-uptime-graph-v9-12.jpg" width="841px"/>
 
-> **Want to share an uptime monitor with others?** Hover over the monitor name at the top of the dashboard and select the link icon <img alt="Changelog icon" src="https://assets.postman.com/postman-docs/icon-workspace-link-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> to copy a link to the monitor. To view or edit the monitor, the person you share the link with must have the appropriate access to the workspace where the monitor is located. Learn more about [defining roles](/docs/collaborating-in-postman/roles-and-permissions/).
+> **Want to share an uptime monitor with others?** Hover over the monitor name at the top of the dashboard and select the link icon <img alt="Changelog icon" src="https://assets.postman.com/postman-docs/icon-workspace-link-v9.jpg#icon" width="18px"> to copy a link to the monitor. To view or edit the monitor, the person you share the link with must have the appropriate access to the workspace where the monitor is located. Learn more about [defining roles](/docs/collaborating-in-postman/roles-and-permissions/).
 
 ### Viewing the uptime graph
 
@@ -85,13 +85,13 @@ All detected outages are listed under **Downtime incidents**. For each incident,
 
 From the monitor dashboard, you can take the following actions:
 
-* **Pause an uptime monitor.** While paused, the monitor no longer makes calls to the specified URL. To pause a monitor, select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> at the upper right and select **Pause**. To resume the monitor, select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> again and select **Resume**.
+* **Pause an uptime monitor.** While paused, the monitor no longer makes calls to the specified URL. To pause a monitor, select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> at the upper right and select **Pause**. To resume the monitor, select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> again and select **Resume**.
 
-* **Edit an uptime monitor.** Edit an existing uptime monitor to update the name, URL, or any other configuration options. Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> at the upper right and select **Edit**. Change any configuration options, and then select **Update Monitor**.
+* **Edit an uptime monitor.** Edit an existing uptime monitor to update the name, URL, or any other configuration options. Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> at the upper right and select **Edit**. Change any configuration options, and then select **Update Monitor**.
 
-    > You can quickly rename a monitor without editing it. Select **Monitors** in the left sidebar, select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to a monitor, and then select **Rename**.
+    > You can quickly rename a monitor without editing it. Select **Monitors** in the left sidebar, select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> next to a monitor, and then select **Rename**.
 
-* **Delete an uptime monitor.** Delete an uptime monitor if it's no longer needed. Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> at the upper right and select **Delete**.
+* **Delete an uptime monitor.** Delete an uptime monitor if it's no longer needed. Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> at the upper right and select **Delete**.
 
 ## Uptime monitor pricing
 

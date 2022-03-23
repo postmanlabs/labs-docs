@@ -68,10 +68,10 @@ _Variables_ enable you to store and reuse values in Postman. By storing a value 
 
 To try out a variable:
 
-1. Select the __Environment quick look__ <img alt="External link icon" src="https://assets.postman.com/postman-docs/eye.jpg" width="24px" style="vertical-align:middle;margin-bottom:5px"> at the top right of Postman.
+1. Select the __Environment quick look__ <img alt="Quick Look icon" src="https://assets.postman.com/postman-docs/eye.jpg#icon" width="16px"> at the top right of Postman.
 1. Next to **Globals**, select __Edit__.
 1. Add a variable named `my_variable` and give it an initial value of `Hello`.
-1. Select <img alt="Save icon" src="https://assets.postman.com/postman-docs/icon-save.jpg" width="16px" style="vertical-align:middle;margin-bottom:5px"> **Save** and close the environment dialog.
+1. Select <img alt="Save icon" src="https://assets.postman.com/postman-docs/icon-save.jpg#icon" width="16px"> **Save** and close the environment dialog.
 1. Open a new request tab and enter `https://postman-echo.com/get?var={{my_variable}}` as the URL. Hover over the variable name and you'll see the variable's value and scope.
 
     <img alt="View the variable value and scope" src="https://assets.postman.com/postman-docs/variable-quick-start-hover.jpg" width="525px"/>
@@ -128,7 +128,7 @@ Users with [Editor](/docs/collaborating-in-postman/roles-and-permissions/) acces
 
 To set the variable type to secret:
 
-1. Select the Environment quick look <img alt="Environment quick look icon" src="https://assets.postman.com/postman-docs/eye.jpg" width="24px" style="vertical-align:middle;margin-bottom:5px"> in the top right of Postman.
+1. Select the Environment quick look <img alt="Environment quick look icon" src="https://assets.postman.com/postman-docs/eye.jpg#icon" width="24px"> in the top right of Postman.
 1. Select **Edit** to the right of environment or global variables to open the editor.
 
     <img alt="Environment editor" src="https://assets.postman.com/postman-docs/environment-editor-default-v9.13.jpg">
@@ -136,7 +136,7 @@ To set the variable type to secret:
     > You can also edit an environment by navigating to the workspace it resides in and selecting **Environments** from the left sidebar, then selecting your environment.
 
 1. Select **default** next to the variable you want to change to open the dropdown, then select **secret** to update the variable type.
-1. Select <img alt="Save icon" src="https://assets.postman.com/postman-docs/icon-save.jpg" width="16px" style="vertical-align:middle;margin-bottom:5px"> **Save** to confirm your changes.
+1. Select <img alt="Save icon" src="https://assets.postman.com/postman-docs/icon-save.jpg#icon" width="16px"> **Save** to confirm your changes.
 
 <img alt="Environment editor" src="https://assets.postman.com/postman-docs/environment-editor-secret-v9.13.jpg">
 
@@ -148,9 +148,9 @@ You must have [Editor](/docs/collaborating-in-postman/roles-and-permissions/) ac
 
 ### Viewing and changing secret variable values
 
-All workspace members can view a secret variable's initial and current values by selecting the <img alt="Eye crossed out icon" src="https://assets.postman.com/postman-docs/eye-crossed-out.jpg" width="24px" style="vertical-align:middle;margin-bottom:5px"> eye symbol to the right of the variable.
+All workspace members can view a secret variable's initial and current values by selecting the <img alt="Eye crossed out icon" src="https://assets.postman.com/postman-docs/eye-crossed-out.jpg#icon" width="24px"> eye symbol to the right of the variable.
 
-Editors can change a variable's initial values, which are shared with collaborators, by selecting the <img alt="Eye crossed out icon" src="https://assets.postman.com/postman-docs/eye-crossed-out.jpg" width="24px" style="vertical-align:middle;margin-bottom:5px"> eye symbol to the right of the variable, then selecting the initial value. All collaborators can change a variable's current values by selecting the <img alt="Eye crossed out icon" src="https://assets.postman.com/postman-docs/eye-crossed-out.jpg" width="24px" style="vertical-align:middle;margin-bottom:5px"> eye symbol to the right of the variable, then selecting the current value.
+Editors can change a variable's initial values, which are shared with collaborators, by selecting the <img alt="Eye crossed out icon" src="https://assets.postman.com/postman-docs/eye-crossed-out.jpg#icon" width="24px"> eye symbol to the right of the variable, then selecting the initial value. All collaborators can change a variable's current values by selecting the <img alt="Eye crossed out icon" src="https://assets.postman.com/postman-docs/eye-crossed-out.jpg#icon" width="24px"> eye symbol to the right of the variable, then selecting the current value.
 
 ## Defining variables
 
@@ -188,7 +188,7 @@ To view global variables:
 1. Select **Environments** in the left sidebar.
 1. Select **Globals**.
 
-> You can also view global variables by selecting the **Environment quick look** <img alt="External link icon" src="https://assets.postman.com/postman-docs/eye.jpg" width="24px" style="vertical-align:middle;margin-bottom:5px"> at the top right.
+> You can also view global variables by selecting the **Environment quick look** <img alt="Quick Look icon" src="https://assets.postman.com/postman-docs/eye.jpg#icon" width="16px"> at the top right.
 >
 > The environment quick look shows the selected environment along with global variables in your workspace. You can edit the current value for an existing variable inline by selecting the value. To add a variable, select __Edit__ next to the global section.
 
@@ -197,12 +197,12 @@ To add a new global variable:
 1. Select **Add a new variable**, and enter a name for the variable.
 1. Select a **Type** for the new variable.
 1. Add an **Initial Value**, and if you choose, a **Current Value**.
-1. Select <img alt="Save icon" src="https://assets.postman.com/postman-docs/icon-save.jpg" width="16px" style="vertical-align:middle;margin-bottom:5px"> **Save** to confirm your changes.
+1. Select <img alt="Save icon" src="https://assets.postman.com/postman-docs/icon-save.jpg#icon" width="16px"> **Save** to confirm your changes.
 
 To edit an existing global variable:
 
 1. Change the desired variable value.
-1. Select <img alt="Save icon" src="https://assets.postman.com/postman-docs/icon-save.jpg" width="16px" style="vertical-align:middle;margin-bottom:5px"> **Save** to confirm your changes.
+1. Select <img alt="Save icon" src="https://assets.postman.com/postman-docs/icon-save.jpg#icon" width="16px"> **Save** to confirm your changes.
 
 You can also [define global variables in scripts](#defining-variables-in-scripts).
 
@@ -222,7 +222,7 @@ To view environment variables:
 1. Select **Environments** in the left sidebar.
 1. Select the environment you want to see variables for.
 
-> You can also view environment variables by selecting the **Environment quick look** <img alt="External link icon" src="https://assets.postman.com/postman-docs/eye.jpg" width="24px" style="vertical-align:middle;margin-bottom:5px"> at the top right.
+> You can also view environment variables by selecting the **Environment quick look** <img alt="Quick Look icon" src="https://assets.postman.com/postman-docs/eye.jpg#icon" width="16px"> at the top right.
 >
 > The environment quick look shows the selected environment along with global variables in your workspace. You can edit the current value for an existing variable inline by selecting the value. To add a variable, select __Edit__ next to the environment section.
 
@@ -231,12 +231,12 @@ To add a new environment variable:
 1. Select **Add a new variable**, and enter a name for the variable.
 1. Select a **Type** for the new variable.
 1. Add an **Initial Value**, and if you choose, a **Current Value**.
-1. Select <img alt="Save icon" src="https://assets.postman.com/postman-docs/icon-save.jpg" width="16px" style="vertical-align:middle;margin-bottom:5px"> **Save** to confirm your changes.
+1. Select <img alt="Save icon" src="https://assets.postman.com/postman-docs/icon-save.jpg#icon" width="16px"> **Save** to confirm your changes.
 
 To edit an existing environment variable:
 
 1. Change the desired variable value.
-1. Select <img alt="Save icon" src="https://assets.postman.com/postman-docs/icon-save.jpg" width="16px" style="vertical-align:middle;margin-bottom:5px"> **Save** to confirm your changes.
+1. Select <img alt="Save icon" src="https://assets.postman.com/postman-docs/icon-save.jpg#icon" width="16px"> **Save** to confirm your changes.
 
 > * If you have Editor access to the environment, you can add and edit variables.
 > * If you have Viewer access to the environment, you are restricted to updating the _current value_ of existing variables. Any variables you edit are accessible to you, but not to collaborators in your [workspace](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/).
@@ -392,14 +392,14 @@ Using __Persist__ makes your current value [sync](/docs/getting-started/syncing/
 To persist individual values:
 
 1. Hover over a variable's current value.
-1. Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to the value.
+1. Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> next to the value.
 1. Select **Persist**.
 
 Your local session in Postman can use values that are transient and visible to you, but aren't synced or shared with your team. This lets you develop and test using private credentials or experimental values, without risk of exposing these details or affecting others on your team.
 
 > For example, your team could have a shared API key and individual API keys. You could do experimental development work locally using your personal key, but use the shared key for team collaboration. Similarly, you could have a variable that represents exploratory work you're doing locally but aren't ready to share with the team. You can later choose to persist the local data so that others on your team can also access it.
 
-You can edit a current value inline from the **Environment quick look** <img alt="External link icon" src="https://assets.postman.com/postman-docs/eye.jpg" width="24px" style="vertical-align:middle;margin-bottom:5px"> in the top right of Postman.
+You can edit a current value inline from the **Environment quick look** <img alt="Quick Look icon" src="https://assets.postman.com/postman-docs/eye.jpg#icon" width="16px"> in the top right of Postman.
 
 For more information on working with variables as a team, see [Managing environments](/docs/sending-requests/managing-environments/#creating-environments).
 
@@ -426,7 +426,7 @@ To check if the variable is available and in scope for the request:
 
 1. Select one of the **collection** or **globals** links. To turn on an environment, use the **select an **environment** link.
 1. Turn on or make the necessary changes to the value of the variable.
-1. Select <img alt="Save icon" src="https://assets.postman.com/postman-docs/icon-save.jpg" width="16px" style="vertical-align:middle;margin-bottom:5px"> **Save** to confirm your changes.
+1. Select <img alt="Save icon" src="https://assets.postman.com/postman-docs/icon-save.jpg#icon" width="16px"> **Save** to confirm your changes.
 
 If the variable is unresolved because it doesn't exist:
 
