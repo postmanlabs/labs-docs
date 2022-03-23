@@ -11,3 +11,4 @@ tokens:
   - let's
 exceptions:
   - US East
+  - US English

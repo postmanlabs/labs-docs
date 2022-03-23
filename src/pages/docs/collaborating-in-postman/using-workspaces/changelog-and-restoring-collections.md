@@ -46,7 +46,7 @@ You can also see who is actively working in your workspace at any time. The avat
 
 ### Accessing the activity feed from Postman
 
-To access the activity feed in Postman, select the Overview tab and navigate to the **Activity** section to see the events that have occured within the workspace.
+To access the activity feed in Postman, select the Overview tab and navigate to the **Activity** section to see the events that have occurred within the workspace.
 
 [![Activity feed from postman](https://assets.postman.com/postman-docs/activity-feed-overview-v8.jpg)](https://assets.postman.com/postman-docs/activity-feed-overview-v8.jpg)
 

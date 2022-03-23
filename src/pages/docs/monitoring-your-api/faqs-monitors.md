@@ -91,4 +91,4 @@ Because monitors run in the Postman cloud, all URLs must be publicly available o
 
 ### Will monitors impact my API performance?
 
-To limit the impact of monitor activity on your API, you can configure which of your API endpoints are called as well as how often they are called. In addition, Postman restricts each monitor’s total runtime to 5 minutes, to limit the number of requests the monitor can perform.
+To limit the impact of monitor activity on your API, you can configure which of your API endpoints are called as well as how often they're called. In addition, Postman restricts each monitor’s total runtime to 5 minutes, to limit the number of requests the monitor can perform.
