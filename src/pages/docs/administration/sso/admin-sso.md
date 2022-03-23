@@ -26,7 +26,7 @@ Upon selecting *Authentication*, the following screen appears:
 
 [![sso enable](https://assets.postman.com/postman-docs/configured-auths.jpg)](https://assets.postman.com/postman-docs/configured-auths.jpg)
 
-After configuring an SSO authentication for your Postman team, you can use the toggle option in Settings (as illustrated above) to turn on/off this SSO authentication. Select the button to turn your SSO authentication system on or off. This is a team-level option which will enable/disable SSO for the whole team. To update the SSO settings, select **Edit**.
+After configuring an SSO authentication for your Postman team, you can use the toggle option in Settings (as illustrated above) to turn on or off this SSO authentication. Select the button to turn your SSO authentication system on or off. This is a team-level option and applies to the whole team. To update the SSO settings, select **Edit**.
 
 To configure a new authentication method, select **Add a new authentication method** button.
 
@@ -44,17 +44,17 @@ As a next step, you must fill in the details in the **Identity Provider Details*
 
 To enter details in the **Identity Provider Details** section, you must login to your IDP account and fetch details. Refer to the corresponding section of the documentation and follow the outlined procedure there:
 
-* [Setting up custom SAML in Okta](/docs/administration/sso/saml-okta/)
+* [Setting up SSO with Okta](/docs/administration/sso/okta/)
 
-* [Setting up custom SAML in Duo](/docs/administration/sso/saml-duo/)
+* [Setting up SSO with Duo](/docs/administration/sso/duo/)
 
-* [Setting up custom SAML in Gsuite](/docs/administration/sso/saml-gsuite/)
+* [Setting up SSO with Google Workspace](/docs/administration/sso/google-workspace/)
 
-* [Setting up custom SAML in Onelogin](/docs/administration/sso/saml-onelogin/)
+* [Setting up SSO with OneLogin](/docs/administration/sso/onelogin/)
 
-* [Setting up custom SAML in Ping Identity](/docs/administration/sso/saml-ping/)
+* [Setting up SSO with Ping Identity](/docs/administration/sso/ping-identity/)
 
-* [Setting up custom SAML in Azure AD](/docs/administration/sso/saml-in-azure-ad/)
+* [Setting up SSO with Azure AD](/docs/administration/sso/azure-ad/)
 
 ## Managing user accounts
 

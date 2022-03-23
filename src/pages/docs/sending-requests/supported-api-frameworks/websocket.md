@@ -104,7 +104,7 @@ Sending events with a Socket.IO connection includes the ability to add event nam
 
 For a Socket.IO connection, you can enter an event name to publish next to the **Send** button. If you select **Send** without entering a name, the default name `message` will be used.
 
-There is also an **Acknowlegement** option; when selected, the server will acknowledge that it has received the message.
+There is also an **Acknowledgement** option; when selected, the server will acknowledge that it has received the message.
 
 <img src="https://assets.postman.com/postman-docs/socketio-event-name.jpg" alt="Socket.IO event name" width="500px">
 
@@ -178,7 +178,7 @@ On the **Params** tab, add any parameters you would like to append to the WebSoc
 
 On the **Headers** tab, enter any headers you would like to send with your message. This works similarly to [configuring request headers](/docs/sending-requests/requests/#configuring-request-headers) in a REST request.
 
-### Configuring Request Settings
+### Configuring request settings
 
 The following settings can be configured for your WebSocket request:
 
@@ -188,7 +188,7 @@ The following settings can be configured for your WebSocket request:
 | Handshake path | The server-side path that will be captured. (Socket.IO only)  |
 | Handshake request timeout | How long the handshake request will wait before timing out, in milliseconds. This is reset after every redirection. |
 | Reconnection attempts | The maximum number of reconnection attempts before disconnecting. |
-| Reconnection intervals | The period in milliseconds between subsequent reconnection attempts. |
+| Reconnection intervals | The period in milliseconds between reconnection attempts. |
 | Maximum message size | The maximum allowed message size, in megabytes. To receive messages of any size, set this to 0. (Raw WebSocket only)|
 
 ## Saving requests
@@ -206,11 +206,11 @@ You can see your collection and saved request under the **Collections** tab of t
 
 <img alt="Collection sidebar" src="https://assets.postman.com/postman-docs/websocket-collection-v2.jpg" width="400px"/>
 
-Because WebSocket requests have different features than HTTP requests, when they are added to a collection, it causes the collection to be in a “beta” state with certain limitations.
+Because WebSocket requests have different features than HTTP requests, when they're added to a collection, it causes the collection to be in a “beta” state with certain limitations.
 
 When in this state, a collection can only contain WebSocket requests. It can't contain folders or HTTP requests, and you can't move requests into or out of such a collection.
 
-Collections containing WebSocket requests support the use of documentation and variables. Other features related to collections are not currently supported, such as collaboration, version control, or scripting.
+Collections containing WebSocket requests support the use of documentation and variables. Other features related to collections aren't supported, such as collaboration, version control, or scripting.
 
 ## Documenting collections and requests
 
@@ -226,11 +226,11 @@ To document a WebSocket request:
 
 Documenting a collection is similar, but the description is on the **Overview** tab of the collection. Select the edit button <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to the description, write a summary, and select **Save**.
 
-## Other Socket.IO Notes
+## Other Socket.IO notes
 
-Socket.IO typically uses WebSockets as its transport layer, but sometimes uses HTTP "long-polling" as a fallback when WebSockets can't be used. Postman does not support long-polling mode in Socket.IO.
+Socket.IO typically uses WebSockets as its transport layer, but sometimes uses HTTP "long-polling" as a fallback when WebSockets can't be used. Postman doesn't support long-polling mode in Socket.IO.
 
-## Troubleshooting WebSocket Requests
+## Troubleshooting WebSocket requests
 
 You can use the console to debug issues with a WebSocket connection. To open the console and view log messages, select **Console** in the status bar at the bottom left of Postman.
 

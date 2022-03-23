@@ -17,7 +17,7 @@ This site was built with Node.js v14.15.0. We recommend installing and using [nv
 If you run into issues when running the Learning Center locally, try the following:
 
 1. Check the Node.js version (`node -v`) to ensure you are now using `v14.15.0`. If not, enter `nvm use v14.15.0`.
-1. Enter `rm -rf node_modules; npm i` to remove all old packages and perform a fresh install.
+1. Enter `rm -rf node_modules; npm i` to remove all existing packages and perform a fresh install.
 1. Enter `gatsby clean` to clear the cache.
 
 We have found this to clear the bulk of local development issues. If you still have issues running the Learning Center locally, feel free to [open an issue](https://github.com/postmanlabs/postman-docs/issues).
@@ -79,7 +79,7 @@ When creating or editing an internal link (a link that points to a Learning Cent
 When creating or editing an external link (a link that points to sources outside of Learning Center), be sure to:
 
 * Use an absolute URL. Example: `https://www.postman.com`
-* Use the resolved URL. Do not use abbreviated URLs (postman.com) or URLs that redirect (`http://www.postman.com`). **Tip:** Enter the URL into the browser and let it resolve, and copy the entire URL and use that.
+* Use the resolved URL. Don't use abbreviated URLs (postman.com) or URLs that redirect (`http://www.postman.com`). **Tip:** Enter the URL into the browser and let it resolve, and copy the entire URL and use that.
 * Strip off any UTM parameters or unnecessary query strings or tracking at the end of URLs. Example: `?utm_source=blog&utm_medium=internal&utm_campaign=exampleCampaign`
 * As a best practice for accessibility, add titles to external links to help the visitor understand the purpose of the link and why they will be taken away from the Learning Center. Example: `[Postman API Platform](https://www.postman.com/api-platform/  "Visit the Postman website to learn more about the Postman API Platform")`
 
@@ -144,7 +144,7 @@ Two example docs using `dynamic_blog`:
 
 You need to get the `.env.development` file from Marketing Engineering, and place in root of local Learning Center (`.gitignore` will keep it from getting checked in).
 
-* If you do not have this file or are an external contributor, the app will still build, but the Recent Blogs section in right sidebar will be hidden / blank (this is expected behavior).
+* If you don't have this file or are an external contributor, the app will still build, but the Recent Blogs section in right sidebar will be hidden / blank (this is expected behavior).
 * The `.env.development` file is for internal use only.
 
 #### When updating from hardcoded blog links to dynamic:

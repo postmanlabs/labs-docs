@@ -352,7 +352,7 @@ The official AWS Signature documentation provides more detail:
 
 1. In the __Authorization__ tab for a request, select __AWS Signature__ from the __Type__ dropdown list.
 
-1. Select where Postman should append your AWS auth details using the __Add authorization data to__ drop-down—choosing the request headers or URL.
+1. Select where Postman should append your AWS auth details using the __Add authorization data to__ drop-down, choosing the request headers or URL.
 
     * If you select __Request Headers__, Postman will add `Authorization` and `X-Amz-` prefixed fields in the __Headers__ tab.
     * If you select __Request URL__, Postman will add the auth details in __Params__ with keys prefixed `X-Amz-`.
@@ -382,7 +382,7 @@ Advanced parameters for NTLM auth are as follows:
 
 ### Akamai EdgeGrid
 
- Akamai Edgegrid is an authorization helper developed and used by Akamai.
+ Akamai EdgeGrid is an authorization helper developed and used by Akamai.
 
 1. In the __Authorization__ tab for a request, select __Akamai EdgeGrid__ from the __Type__ dropdown list.
 

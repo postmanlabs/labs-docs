@@ -66,18 +66,18 @@ The following metrics and their values are pushed from Postman to New Relic. Run
 
 | Metric | Description |
 |--------|--------|
-| postman.monitor.request.failedtests | The number of failed tests written in the Postman test script for a request.
-| postman.monitor.request.passedtests | The number of passed tests written in the Postman test script for a request.
-| postman.monitor.request.requestbytes | The total number of bytes exchanged in a request.
-| postman.monitor.request.totallatency | The total latency of a request.
-| postman.monitor.run.errors   | The total number of errors (such as DNS resolution errors) that occurred while executing the requests.
-| postman.monitor.run.failedtests   | The number of failed tests written in the Postman test script, across all requests in a collection.
-| postman.monitor.run.httpstatus2xx, postman.monitor.run.httpstatus4xx, postman.monitor.run.httpstatus5xx | The total count of these returned status codes for your APIs within a collection.
-| postman.monitor.run.passedtests| The number of failed tests written in the Postman test script, across all requests in a collection.
-| postman.monitor.run.requestcount | The number of requests in the collection.
-| postman.monitor.run.totalbytes |  The total number of bytes exchanged while running the monitor.
-| postman.monitor.run.totallatency |  The total latency after executing all the requests in the collection.
-| postman.monitor.run.warnings | The total number of warnings after executing all the requests in the collection.
+| `postman.monitor.request.failedtests` | The number of failed tests written in the Postman test script for a request.
+| `postman.monitor.request.passedtests` | The number of passed tests written in the Postman test script for a request.
+| `postman.monitor.request.requestbytes` | The total number of bytes exchanged in a request.
+| `postman.monitor.request.totallatency` | The total latency of a request.
+| `postman.monitor.run.errors`   | The total number of errors (such as DNS resolution errors) that occurred while executing the requests.
+| `postman.monitor.run.failedtests`   | The number of failed tests written in the Postman test script, across all requests in a collection.
+| `postman.monitor.run.httpstatus2xx`, `postman.monitor.run.httpstatus4xx`, `postman.monitor.run.httpstatus5xx` | The total count of these returned status codes for your APIs within a collection.
+| `postman.monitor.run.passedtests`| The number of failed tests written in the Postman test script, across all requests in a collection.
+| `postman.monitor.run.requestcount` | The number of requests in the collection.
+| `postman.monitor.run.totalbytes` |  The total number of bytes exchanged while running the monitor.
+| `postman.monitor.run.totallatency` |  The total latency after executing all the requests in the collection.
+| `postman.monitor.run.warnings` | The total number of warnings after executing all the requests in the collection.
 
 ## Dimension attributes
 

@@ -58,7 +58,7 @@ Give your group a name and description, add your team members, and select the te
 Team members will receive an email and in-app notification when added to a group.
 
 <!-- -->
-> If a team member with a support-only account (admin or billing) is given the **Developer** role via a group they are in, they will automatically take up an available paid spot on your Postman team. If no spots are available, you will not be able to grant access to the group with that team member.
+> If a team member with a support-only account (admin or billing) is given the **Developer** role via a group they're in, they will automatically take up an available paid spot on your Postman team. If no spots are available, you will not be able to grant access to the group with that team member.
 
 ## Editing a group
 
@@ -78,7 +78,7 @@ Select **+ Add** to add a team member to the group. Select **X** next to a team 
 
 You can control a group's access at the team level, workspace level, and on individual collections, APIs, environments, mock servers, and monitors.
 
-> Group members will receive an in-app notificiation when roles are modified.
+> Group members will receive an in-app notification when roles are modified.
 
 #### Editing team roles for a group
 
@@ -94,7 +94,7 @@ Select the team roles you would like to assign to the group, or deselect team ro
 
 You can control a group's access to individual workspaces, collections, APIs, environments, mock servers, and monitors. For more information on managing workspaces, see [Sharing workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#sharing-workspaces).
 
-For collections, APIs, environments, mock servers, and monitors, navigate to the entity in Postman. In the left sidebar, select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> to view more actions, then select **Manage roles**.
+For collections, APIs, environments, mock servers, and monitors, navigate to the entity in Postman. In the left sidebar, select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> to view more actions, then select **Manage roles**.
 
 <img alt="Invite group to collection" src="https://assets.postman.com/postman-docs/manage-roles-collection-with-user-group-v9.1.jpg"/>
 
