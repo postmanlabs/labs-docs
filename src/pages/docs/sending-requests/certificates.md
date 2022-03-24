@@ -23,7 +23,7 @@ warning: false
 
 Mutual TLS (mTLS) is an authentication method that requires both the client and the server to verify their identity with a certificate. Once both parties are verified, an encrypted connection is established. To connect to an API that uses mTLS, you need to add a client certificate to Postman.
 
-You can also add a custom CA certificate to Postman. If an endpoint uses a certificate that is registered with an internal certificate registry, requests sent from Postman will fail with a "self signed certificate" error. Adding a custom CA certificate will enable you to successfully send requests to the endpoint without needing to [turn off SSL verification](#troubleshooting-certificate-errors).
+You can also add a custom CA certificate to Postman. If an endpoint uses a certificate that's registered with an internal certificate registry, requests sent from Postman will fail with a "self signed certificate" error. Adding a custom CA certificate will enable you to send requests to the endpoint without needing to [turn off SSL verification](#troubleshooting-certificate-errors).
 
 ## Contents
 
@@ -39,7 +39,7 @@ You can also add a custom CA certificate to Postman. If an endpoint uses a certi
 
 ## Managing certificates
 
-You can view currently installed certificates, add a new certificate, or remove a certificate, in the Postman settings.
+You can view installed certificates, add a new certificate, or remove a certificate, in the Postman settings.
 
 1. Select the gear icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-gear-outline-v9.jpg#icon" width="18px"> in the Postman header and select **Settings**.
 1. Select the **Certificates** tab.
@@ -70,7 +70,7 @@ To send requests to an API that uses mutual TLS authentication, add your client 
 
 [![Adding a client certificate](https://assets.postman.com/postman-docs/certificates-add-client-cert-v9-14.jpg)](https://assets.postman.com/postman-docs/certificates-add-client-cert-v9-14.jpg)
 
-> Each client certificate is specific to a domain. To send requests to additional domains, add the appropriate certificate for each domain. Do not add more than one certificate for the same domain. If you add more than one certificate for a domain, Postman will use the last certificate added.
+> Each client certificate is specific to a domain. To send requests to more domains, add the appropriate certificate for each domain. Don't add more than one certificate for the same domain. If you add more than one certificate for a domain, Postman will use the last certificate added.
 
 ### Editing a certificate
 
@@ -93,13 +93,13 @@ After adding a client certificate, you don't have to perform any extra steps to 
 
 You can verify a certificate was sent using the [Postman Console](/docs/sending-requests/troubleshooting-api-requests/). Open the Postman console by selecting **Console** in the Postman footer, and then send a request.
 
-In the example below, the request used `https://` to ensure Postman sent the certificate. You can expand the request to view details about the certificate that was sent with the request.
+In the example below, Postman sent the certificate because the request used `https://`. You can expand the request to view details about the certificate that was sent with the request.
 
 [![Certificate details in console](https://assets.postman.com/postman-docs/certificates-console-details-v9-14.jpg)](https://assets.postman.com/postman-docs/certificates-console-details-v9-14.jpg)
 
 ### Viewing certificate details
 
-You can view additional certificate details in the response pane below the request. The globe icon <img alt="Network information locked icon" src="https://assets.postman.com/postman-docs/icon-globe-locked.jpg#icon" width="16px"> includes a padlock if a request was sent using HTTPS. Hover over the globe icon to view information about the certificate that was sent with the request, as well as any warnings or errors such as self-signed or expired certificates.
+You can view more certificate details in the response pane below the request. The globe icon <img alt="Network information locked icon" src="https://assets.postman.com/postman-docs/icon-globe-locked.jpg#icon" width="16px"> includes a padlock if a request was sent using HTTPS. Hover over the globe icon to view information about the certificate that was sent with the request, and any warnings or errors such as self-signed or expired certificates.
 
 [![Network details](https://assets.postman.com/postman-docs/certificates-network-details-v9-14.jpg)](https://assets.postman.com/postman-docs/certificates-network-details-v9-14.jpg)
 
