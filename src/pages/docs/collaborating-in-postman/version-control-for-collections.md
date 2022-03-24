@@ -51,7 +51,7 @@ Postman's version control features provide a way for you and your team to collab
 
 ## Forking Postman entities
 
-A _fork_ is a new instance of an element that you can modify without making any changes to the parent element. In Postman, you can fork [collections](#forking-a-collection) and [environments](#forking-an-environment). Forking also enables you to contribute to a collection or an environment without having [editor access](/docs/collaborating-in-postman/roles-and-permissions/#element-based-roles) to that element.
+A _fork_ is a new instance of an element that you can modify without making any changes to the parent element. In Postman, you can fork collections and environments. Forking also enables you to contribute to a collection or an environment without having [editor access](/docs/collaborating-in-postman/roles-and-permissions/#element-based-roles) to that element.
 
 ### Creating a fork
 
