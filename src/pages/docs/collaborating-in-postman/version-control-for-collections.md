@@ -64,10 +64,10 @@ To fork a collection or environment:
 1. Select the entity in the left sidebar.
 2. In the overview tab that appears, select **Fork** <img alt="Fork icon" src="https://assets.postman.com/postman-docs/icon-fork.jpg#icon" width="14px"> in the upper right.
 
-    > You can also create a fork by hovering over the entity in the left sidebar and selecting the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> that appear next to its name, then **Create a fork**.
+    > You can also create a fork by hovering over the entity in the left sidebar and selecting the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> that appear next to its name, then **Create a Fork**.
 
-1. Enter a label for your fork, and select a workspace to save it to.
-1. Select **Fork Collection** or **Fork Environment**.
+3. Enter a label for your fork, and select a workspace to save it to.
+4. Select **Fork Collection** or **Fork Environment**.
 
     <img src="https://assets.postman.com/postman-docs/fork-collection-v9.1.jpg" alt="Create fork tab" width="400px"/>
 
