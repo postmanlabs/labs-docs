@@ -21,14 +21,9 @@ warning: false
 
 ---
 
-Certificates enable making encrypted calls to APIs using Transport Layer Security (TLS) and Secure Sockets Layer (SSL). Some APIs require clients to send requests over an encrypted connection.
+Mutual TLS (mTLS) is an authentication method that requires both the client and the server to verify their identity with a certificate. Once both parties are verified, an encrypted connection is established. To connect to an API that uses mTLS, you need to add a client certificate to Postman.
 
-To send encrypted requests to an API, add a certificate in Postman. You can add two types of certificates:
-
-* **CA certificates** are issued by a trusted certificate authority.
-* **Client certificates** are self-signed rather than signed by a certificate authority.
-
-> Each certificate you add is specific to a domain. To send encrypted requests to additional domains, add the appropriate certificate for each domain.
+You can also add a custom CA certificate to Postman. If an endpoint uses a certificate that is registered with an internal certificate registry, requests sent from Postman will fail with a "self signed certificate" error. Adding a custom CA certificate will enable you to successfully send requests to the endpoint without needing to turn off SSL verification.
 
 ## Contents
 
@@ -46,57 +41,53 @@ To send encrypted requests to an API, add a certificate in Postman. You can add 
 
 You can view currently installed certificates, add a new certificate, or remove a certificate, in the Postman settings.
 
-1. Select the gear icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-gear-outline-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> in the Postman header and select **Settings**.
+1. Select the gear icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-gear-outline-v9.jpg#icon" width="18px"> in the Postman header and select **Settings**.
 1. Select the **Certificates** tab.
 
 [![Certificates tab](https://assets.postman.com/postman-docs/certificates-settings-tab-v9-14.jpg)](https://assets.postman.com/postman-docs/certificates-settings-tab-v9-14.jpg)
 
 ### Adding CA certificates
 
-To add a certificate issued by a certificate authority to Postman:
+To avoid "self signed certificate" errors when sending requests, add your custom CA certificate to Postman.
 
 1. Turn on the toggle switch next to **CA Certificates**.
-1. Select the **PEM file** for your CA certificate.
+1. Select the **PEM file** for your CA certificate. (The PEM file can contain multiple CA certificates.)
 
 [![Adding a CA certificate](https://assets.postman.com/postman-docs/certificates-add-ca-cert-v9-14.jpg)](https://assets.postman.com/postman-docs/certificates-add-ca-cert-v9-14.jpg)
 
 ### Adding client certificates
 
-To add a self-signed client certificate to Postman:
+To send requests to an API that uses mTLS authentication, add your client certificate to Postman:
 
 1. Select **Add Certificate**.
-1. Enter the **Host** domain for the certificate (don't include the protocol). For example, enter `postman-echo.com` to send encrypted requests to the [Postman Echo API](https://www.postman.com/postman/workspace/published-postman-templates/documentation/631643-f695cab7-6878-eb55-7943-ad88e1ccfd65).
+1. Enter the **Host** domain for the certificate (don't include the protocol). For example, enter `postman-echo.com` to send requests to the [Postman Echo API](https://www.postman.com/postman/workspace/published-postman-templates/documentation/631643-f695cab7-6878-eb55-7943-ad88e1ccfd65).
 
     You can optionally enter a custom port number to associate with this domain. If you don't specify a port, Postman uses the default HTTPS port (443).
 
-1. Do one of the following:
-
-    * Select the **CRT file** and then select **Key file** for your certificate.
-    * Select the **PFX file** for your certificate.
-
+1. Select the **CRT file** and the **Key file** for your certificate *OR* select the **PFX file** for your certificate.
 1. If you used a **Passphrase** when generating the client certificate, enter it in the box. Otherwise, leave the box blank.
 1. Select **Add**.
 
 [![Adding a client certificate](https://assets.postman.com/postman-docs/certificates-add-client-cert-v9-14.jpg)](https://assets.postman.com/postman-docs/certificates-add-client-cert-v9-14.jpg)
 
-> Do not add more than one certificate for the same domain. If you add more than one certificate for a domain, Postman will use the last certificate added.
+> Each client certificate is specific to a domain. To send requests to additional domains, add the appropriate certificate for each domain. Do not add more than one certificate for the same domain. If you add more than one certificate for a domain, Postman will use the last certificate added.
 
 ### Editing a certificate
 
-You can't edit a certificate after generating it. To make changes, first [remove the certificate](#removing-a-certificate), then generate a new certificate and add it to Postman.
+You can't edit a certificate after adding it. To make changes, first [remove the certificate](#removing-a-certificate), then generate a new certificate and add it to Postman.
 
 > [Let's Encrypt](https://letsencrypt.org/) SSL certificates have a lifetime of 90 days. Let's Encrypt recommends using an [ACME client](https://letsencrypt.org/docs/client-options/) to automatically renew your certificate every 60 days.
 
 ### Removing a certificate
 
-Remove a certificate if you no longer need it to make encrypted API calls for a domain.
+Remove a certificate if you no longer need it to send requests from Postman.
 
 * To remove a CA certificate, select the remove icon <img alt="Close icon" src="https://assets.postman.com/postman-docs/icon-close.jpg#icon" width="16px"> next to the certificate
 * To remove a client certificate, select **Remove** next to the certificate.
 
 ## Using a certificate
 
-After adding a client certificate, you don't have to perform any extra steps to use the certificate in Postman. When you make an HTTPS request to a configured domain, Postman automatically sends the certificate with the request. (Postman won't send the certificate if you make an HTTP request.)
+After adding a client certificate, you don't have to perform any extra steps to use the certificate in Postman. When you make an HTTPS request to a configured domain, Postman automatically sends the client certificate with the request. (Postman won't send the certificate if you make an HTTP request.)
 
 ### Verifying a certificate was sent
 
