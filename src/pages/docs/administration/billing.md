@@ -126,7 +126,7 @@ To set a card as your primary, hover over the card and **Set as Primary**.
 
 ### Using the Pay Now option
 
-In some circumstances, including an overdue or [failed payment](#failed-payments), you may receive an invoice for your Postman bill. From the invoice, select **Pay Now** to immediately pay your bill using [your card](#managing-cards) or Apple Pay or Google Pay (if supported).
+In some circumstances, including an overdue or [failed payment](#failed-payments), you may receive an invoice for your Postman payment. From the invoice, select **Pay Now** to pay immediately using [your card](#managing-cards) or Apple Pay or Google Pay (if supported).
 
 ### Paying by invoice
 
