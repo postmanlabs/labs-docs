@@ -154,7 +154,7 @@ Select **X** next to the team member you want to remove from the public workspac
 
 To collaborate on entities within a public workspace, open the workspace menu and select the workspace.
 
-For collections and environments, [create a fork](/docs/collaborating-in-postman/version-control-for-collections/#forking-a-collection) and request to merge changes using a [pull request](/docs/collaborating-in-postman/version-control-for-collections/#creating-pull-requests).
+For collections and environments, [create a fork](/docs/collaborating-in-postman/version-control-for-collections/#creating-a-fork) and request to merge changes using a [pull request](/docs/collaborating-in-postman/version-control-for-collections/#creating-pull-requests).
 
 For APIs, navigate to the API and version. Select **Definition** > **Request Access** to request an editor role.
 
