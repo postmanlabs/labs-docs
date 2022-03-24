@@ -51,7 +51,7 @@ Postman's version control features provide a way for you and your team to collab
 
 ## Forking Postman entities
 
-A _fork_ is a new instance of an element that you can modify without making any changes to the parent element. In Postman, you can fork collections and environments. Forking also enables you to contribute to a collection or an environment without having [editor access](/docs/collaborating-in-postman/roles-and-permissions/#element-based-roles) to that element.
+A _fork_ is a new instance of an entity that you can modify without making any changes to the parent entity. In Postman, you can fork collections and environments. Forking also enables you to contribute to a collection or an environment without having [editor access](/docs/collaborating-in-postman/roles-and-permissions/#element-based-roles) to that entity.
 
 ### Creating a fork
 
@@ -61,13 +61,10 @@ When you fork a Postman collection or environment, you create a copy of it in a 
 
 To fork a collection or environment:
 
-1. Hover over the entity in the left sidebar.
-1. Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> that appear next to its name.
-1. Select **Create a fork**.
+1. Select the entity in the left sidebar.
+2. In the overview tab that appears, select **Fork** <img alt="Fork icon" src="https://assets.postman.com/postman-docs/icon-fork.jpg#icon" width="14px"> in the upper right.
 
-    <img src="https://assets.postman.com/postman-docs/collection-create-a-fork-v9.1.jpg" alt="Create fork selected in menu" width="300px"/>
-
-    > You can also create a fork by selecting **Fork** <img alt="Fork icon" src="https://assets.postman.com/postman-docs/icon-fork.jpg#icon" width="14px"> in the overview tab.
+    > You can also create a fork by hovering over the entity in the left sidebar and selecting the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> that appear next to its name, then **Create a fork**.
 
 1. Enter a label for your fork, and select a workspace to save it to.
 1. Select **Fork Collection** or **Fork Environment**.
@@ -176,7 +173,7 @@ There are two different types of checks that you can enable for a pull request:
 
 To set merge checks for pull requests on a specific collection:
 
-1. Hover over the entity in the left sidebar.
+1. Hover over the collection in the left sidebar.
 1. Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> that appear next to its name.
 1. Select **Manage roles**.
 1. Select the merge checks that you want to set for the collection.
