@@ -108,7 +108,7 @@ When you're ready, select **Connect**.
 
 After connecting to Amazon API Gateway, you can view the export and deployment history for your API schemas in Postman. Select **APIs** in the left sidebar, select an API and version, and then select the **Deployments** tab.
 
-* For each stage you can view the active deployment, the creation date, and the date last updated. You can also view CloudWatch metrics for the last week, such as average latency and the number of 4xx and 5xx errors.
+* For each stage you can view the active deployment, the creation date, and the date last updated. You can also view CloudWatch metrics for the last week, such as average latency and the number of `4xx` and `5xx` errors.
     * Select the arrow next to a stage to view more details, including the invoke URL and stage description (from AWS).
     * Select a stage name to view metrics on the [CloudWatch dashboard](#viewing-cloudwatch-metrics).
 * For each export from Postman, you can view the source of the export and the time when exported.
