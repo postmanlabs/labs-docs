@@ -144,7 +144,7 @@ Add or update your company name, billing email, address, and your VAT ID if appl
 
 ### Failed payments
 
-If you have a card on file, Postman will automatically attempt 3 times to charge it. If this is unsuccessful, team members with billing privileges receive an email notification. Use the link in the email to access and pay for your [invoice](#using-the-pay-now-option).
+If you have a card on file, Postman will automatically attempt three times to charge it. If this is unsuccessful, team members with billing privileges receive an email notification. Use the link in the email to access and pay for your [invoice](#using-the-pay-now-option).
 
 <img alt="Failed payment email" src="https://assets.postman.com/postman-docs/billing-email-payment-declined-v9.1.jpg" width="400px"/>
 
