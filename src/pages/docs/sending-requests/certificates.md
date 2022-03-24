@@ -23,7 +23,7 @@ warning: false
 
 Mutual TLS (mTLS) is an authentication method that requires both the client and the server to verify their identity with a certificate. Once both parties are verified, an encrypted connection is established. To connect to an API that uses mTLS, you need to add a client certificate to Postman.
 
-You can also add a custom CA certificate to Postman. If an endpoint uses a certificate that is registered with an internal certificate registry, requests sent from Postman will fail with a "self signed certificate" error. Adding a custom CA certificate will enable you to successfully send requests to the endpoint without needing to turn off SSL verification.
+You can also add a custom CA certificate to Postman. If an endpoint uses a certificate that is registered with an internal certificate registry, requests sent from Postman will fail with a "self signed certificate" error. Adding a custom CA certificate will enable you to successfully send requests to the endpoint without needing to [turn off SSL verification](#troubleshooting-certificate-errors).
 
 ## Contents
 
@@ -57,7 +57,7 @@ To avoid "self signed certificate" errors when sending requests, add your custom
 
 ### Adding client certificates
 
-To send requests to an API that uses mTLS authentication, add your client certificate to Postman:
+To send requests to an API that uses mutual TLS authentication, add your client certificate to Postman:
 
 1. Select **Add Certificate**.
 1. Enter the **Host** domain for the certificate (don't include the protocol). For example, enter `postman-echo.com` to send requests to the [Postman Echo API](https://www.postman.com/postman/workspace/published-postman-templates/documentation/631643-f695cab7-6878-eb55-7943-ad88e1ccfd65).
