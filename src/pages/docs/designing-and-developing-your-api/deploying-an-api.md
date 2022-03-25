@@ -81,13 +81,22 @@ Next, create an IAM role for Postman in AWS:
     }
     ```
 
-    > If you previously created an IAM policy, make sure to add `"cloudwatch:GetMetricData"` to the policy as shown above to enable Postman to get CloudWatch metrics.
-
 7. Select **Next: Tags**.
 8. Select **Next: Review**.
 9. Add a **Role name** and **Role description**, then select **Create role**.
 
 Copy the **Role ARN** from AWS and paste it in Postman under **Step 2: Enter role ARN and region**. Next, enter the **AWS Region** where the API Gateway is located and select the **API Gateway**. When you're ready, select **Connect**.
+
+#### Updating an exiting IAM policy for CloudWatch
+
+The Amazon API Gateway integration now supports viewing CloudWatch metrics in Postman. If you previously created an IAM policy when configuring the integration, you need to update the policy to enable CloudWatch metrics. Add the following actions to your IAM policy:
+
+```json
+"Action": [
+    "apigateway:GET",
+    "cloudwatch:GetMetricData"
+],
+```
 
 ### Authenticating with an AWS access key
 
