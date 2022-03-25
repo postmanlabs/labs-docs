@@ -1,7 +1,7 @@
 ---
 title: "Using version control"
 order: 75
-page_id: "version_control_for_collections"
+page_id: "version_control"
 warning: false
 updated: 2022-03-23
 contextual_links:

@@ -1912,5 +1912,9 @@
 	{
 		"from": "/docs/administration/sso/saml-ping/",
 		"to": "/docs/administration/sso/ping-identity/"
+	},
+	{
+		"from": "/docs/collaborating-in-postman/version-control-for-collections/",
+		"to": "/docs/collaborating-in-postman/version-control/"
 	}
 ]
