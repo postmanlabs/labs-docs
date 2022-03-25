@@ -45,7 +45,7 @@ There are a variety of ways to find APIs, workspaces, teams, and collections:
 * Under **Browse**, you can select to view **Teams**, **Workspaces**, **APIs**, and **Collections**. You can sort results using the **Featured**, **Most Viewed**, and **Latest** tabs just below the header.
     * You can also sort Collections and Workspaces by category using the filters below the header.
 
-To import a collection from a public workspace to your workspace, create a fork of it. See [forking a collection](/docs/collaborating-in-postman/version-control-for-collections/#forking-a-collection).
+To import a collection from a public workspace to your workspace, create a fork of it. See [creating a fork](/docs/collaborating-in-postman/version-control-for-collections/#creating-a-fork).
 
 Check out some useful collections for getting started learning about APIs, requests, and Postman:
 
