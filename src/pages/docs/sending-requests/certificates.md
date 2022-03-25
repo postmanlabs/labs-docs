@@ -82,7 +82,7 @@ You can't edit a certificate after adding it. To make changes, first [remove the
 
 Remove a certificate if you no longer need it to send requests from Postman.
 
-* To remove a CA certificate, select the remove icon <img alt="Close icon" src="https://assets.postman.com/postman-docs/icon-close.jpg#icon" width="16px"> next to the certificate
+* To remove a CA certificate, select the remove icon <img alt="Close icon" src="https://assets.postman.com/postman-docs/icon-close.jpg#icon" width="16px"> next to the certificate.
 * To remove a client certificate, select **Remove** next to the certificate.
 
 ## Using a certificate
