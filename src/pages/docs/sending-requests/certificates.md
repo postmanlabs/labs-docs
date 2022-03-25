@@ -91,7 +91,7 @@ After adding a client certificate, you don't have to perform any extra steps to 
 
 ### Verifying a certificate was sent
 
-You can verify a certificate was sent using the [Postman Console](/docs/sending-requests/troubleshooting-api-requests/). Open the Postman console by selecting **Console** in the Postman footer, and then send a request.
+You can verify a certificate was sent using the [Postman console](/docs/sending-requests/troubleshooting-api-requests/). Open the Postman console by selecting **Console** in the Postman footer, and then send a request.
 
 In the example below, Postman sent the certificate because the request used `https://`. You can expand the request to view details about the certificate that was sent with the request.
 
