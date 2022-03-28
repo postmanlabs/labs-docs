@@ -246,11 +246,9 @@ In your [billing dashboard](http://go.postman.co/billing), you can view:
 
 ## Canceling your plan
 
-how to cancel a plan, where that's located
+To cancel your Postman plan, select **Cancel plan** at the bottom of your [billing dashboard](http://go.postman.co/billing).
 
-how to reverse a cancelation request from the billing overview
-
-To reverse a cancelation request, select **Undo cancelation** next to the cancelation notice on your Billing dashboard.
+If you have canceled your Postman plan and want to reverse this action, select **Undo cancelation** next to the cancelation notice on your [billing dashboard](http://go.postman.co/billing).
 
 ## Next steps
 
