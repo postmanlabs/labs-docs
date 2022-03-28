@@ -64,6 +64,8 @@ Contact Postman's support team for help with any account or billing issues. Navi
 
         * [Billing for auto-flex](#billing-for-auto-flex)
 
+* [Canceling your plan](#canceling-your-plan)
+
 * [Next steps](#next-steps)
 
 ## Billing dashboard
@@ -238,9 +240,17 @@ In your [billing dashboard](http://go.postman.co/billing), you can view:
 * How much you will be billed at the end of your cycle (unless you add or remove team members in the interim)
 * Additional information about your auto-flex and regular billing cycles
 
-<img alt="Billing overview with auto flex" src="https://assets.postman.com/postman-docs/auto-flex-dash-9.13.jpg" />
+<img alt="Billing overview with auto flex" src="https://assets.postman.com/postman-docs/auto-flex-dash-9.14.jpg" />
 
 > [Contact Postman support](https://www.postman.com/support/) with any questions about auto-flex.
+
+## Canceling your plan
+
+how to cancel a plan, where that's located
+
+how to reverse a cancelation request from the billing overview
+
+To reverse a cancelation request, select **Undo cancelation** next to the cancelation notice on your Billing dashboard.
 
 ## Next steps
 
