@@ -76,7 +76,7 @@ The Postman [billing dashboard](http://go.postman.co/billing) enables you to man
 
 When navigating to your [billing dashboard](http://go.postman.co/billing), you will first see your billing overview. You can view the details of your Postman plan, including your subscription cycle and a calculation of your expected cost upon renewal.
 
-<img alt="Billing overview" src="https://assets.postman.com/postman-docs/billing-plan-and-payments-dash-v9.1.jpg" />
+<img alt="Billing overview" src="https://assets.postman.com/postman-docs/billing-plan-and-payments-dash-v9.14.jpg" />
 
 ### Managing add-ons
 
