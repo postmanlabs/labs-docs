@@ -320,7 +320,7 @@ export const leftNavItems = [
       },
       {
         name: 'Using version control',
-        url: '/docs/collaborating-in-postman/version-control-for-collections/',
+        url: '/docs/collaborating-in-postman/version-control/',
       },
       {
         name: 'Public workspaces',

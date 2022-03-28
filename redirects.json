@@ -1914,7 +1914,11 @@
 		"to": "/docs/administration/sso/ping-identity/"
 	},
 	{
+		"from": "/docs/collaborating-in-postman/version-control-for-collections/",
+		"to": "/docs/collaborating-in-postman/version-control/"
+	},
+	{
 		"from": "/docs/designing-and-developing-your-api/view-and-analyze-api-reports/",
 		"to": "/docs/reports/reports-overview/"
-	}
+	},
 ]
