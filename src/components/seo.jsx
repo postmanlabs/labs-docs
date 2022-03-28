@@ -94,8 +94,8 @@ function SEO({
       ].concat(meta)}
     >
       {/* OneTrust */}
-      <script type="text/javascript" src="https://cdn.cookielaw.org/consent/1cef3369-6d07-4928-b977-2d877eb670c4/OtAutoBlock.js" />
-      <script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js" type="text/javascript" charset="UTF-8" data-domain-script="1cef3369-6d07-4928-b977-2d877eb670c4" />
+      <script type="text/javascript" src="https://cdn.cookielaw.org/consent/2de0c11f-a3fc-4b21-87df-8af90a20bb1a/OtAutoBlock.js" />
+      <script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js" type="text/javascript" charset="UTF-8" data-domain-script="2de0c11f-a3fc-4b21-87df-8af90a20bb1a" />
       <link rel="canonical" href={`https://learning.postman.com${slug}`} />
       {/* Algolia Instantsearch IE11 support v3 */}
       {/* <script src="https://polyfill.io/v3/polyfill.min.js?features=default,Array.prototype.find,Array.prototype.includes" /> */}
