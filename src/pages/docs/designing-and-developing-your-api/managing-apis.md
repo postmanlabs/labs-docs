@@ -23,8 +23,8 @@ contextual_links:
     name: "Versioning APIs"
     url: "/docs/designing-and-developing-your-api/versioning-an-api/"
   - type: link
-    name: "Viewing and analyzing APIs"
-    url: "/docs/designing-and-developing-your-api/view-and-analyze-api-reports/"
+    name: "Reports overview"
+    url: "/docs/reports/reports-overview/"
 ---
 
 When you [define your APIs](/docs/designing-and-developing-your-api/the-api-workflow/) in Postman using the API Builder, each API is associated with a workspace. You can share access to your APIs, discuss them in comments, and view schema activity.
@@ -126,4 +126,4 @@ Select **+ Release changes** at the top of the list to create a release from unr
 For more info on working with the API Builder in Postman, check out the following resources:
 
 - [Versioning APIs](/docs/designing-and-developing-your-api/versioning-an-api/)
-- [Viewing and analyzing APIs](/docs/designing-and-developing-your-api/view-and-analyze-api-reports/)
+- [Using reports](/docs/reports/reports-overview)

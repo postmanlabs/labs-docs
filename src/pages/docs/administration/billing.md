@@ -42,6 +42,8 @@ Contact Postman's support team for help with any account or billing issues. Navi
 
     * [Managing cards](#managing-cards)
 
+    * [Using the Pay Now option](#using-the-pay-now-option)
+
     * [Paying by invoice](#paying-by-invoice)
 
     * [Adding custom information to invoices](#adding-custom-information-to-invoices)
@@ -122,11 +124,15 @@ To set a card as your primary, hover over the card and **Set as Primary**.
 
 <img alt="Payment methods view" src="https://assets.postman.com/postman-docs/payment-methods-page.jpg" />
 
+### Using the Pay Now option
+
+In some circumstances, including an overdue or [failed payment](#failed-payments), you may receive an invoice for your Postman payment. From the invoice, select **Pay Now** to pay immediately using [your card](#managing-cards) or Apple Pay or Google Pay (if supported).
+
 ### Paying by invoice
 
-Invoicing is available for Postman Enterprise teams only. New customers can [contact the Postman Sales team](https://www.postman.com/pricing/get-started-postman-plans/) to get started and will receive a response within 3 business days. Existing Enterprise customers can [submit a request](https://support.postman.com/hc/en-us) to be invoiced instead of automatically charged.
+> Invoicing is available for Postman Enterprise teams only. If you are a new Enterprise customer, contact the [Postman Sales team](https://www.postman.com/pricing/get-started-postman-plans/) to get started. You will receive a response within three business days. If you are an existing Enterprise customer, submit a request to the [Postman Support team](https://support.postman.com/hc/en-us) to be invoiced instead of automatically charged.
 
-You can pay invoices online, via ACH, or via wire-transfer. Postman sends invoices to the billing email address listed in your [billing details](http://go.postman.co/settings/team/billing-details). The invoice includes offline payment instructions. View your pending payments in your [billing dashboard](http://go.postman.co/billing).
+You can pay invoices online, via ACH, or via wire transfer. Postman sends invoices to the billing email address listed in your [billing details](http://go.postman.co/settings/team/billing-details). The invoice includes offline payment instructions. View your pending payments in your [billing dashboard](http://go.postman.co/billing).
 
 ### Adding custom information to invoices
 
@@ -138,7 +144,7 @@ Add or update your company name, billing email, address, and your VAT ID if appl
 
 ### Failed payments
 
-If you have a card on file, Postman will automatically attempt 3 times to charge it. If this is unsuccessful, team members with billing privileges receive an email notification.
+If you have a card on file, Postman will automatically attempt three times to charge it. If this is unsuccessful, team members with billing privileges receive an email notification. Use the link in the email to access and pay for your [invoice](#using-the-pay-now-option).
 
 <img alt="Failed payment email" src="https://assets.postman.com/postman-docs/billing-email-payment-declined-v9.1.jpg" width="400px"/>
 

@@ -320,7 +320,7 @@ export const leftNavItems = [
       },
       {
         name: 'Using version control',
-        url: '/docs/collaborating-in-postman/version-control-for-collections/',
+        url: '/docs/collaborating-in-postman/version-control/',
       },
       {
         name: 'Public workspaces',
@@ -426,10 +426,6 @@ export const leftNavItems = [
             url: '/docs/designing-and-developing-your-api/mocking-data/matching-algorithm/',
           },
         ],
-      },
-      {
-        name: 'Analyzing with reports',
-        url: '/docs/designing-and-developing-your-api/view-and-analyze-api-reports/',
       },
     ],
   },
@@ -677,6 +673,37 @@ export const leftNavItems = [
       {
         name: 'Admin FAQs',
         url: '/docs/administration/admin-faqs/',
+      },
+    ],
+  },
+  {
+    name: 'Using Reports',
+    parentSlug: 'reports',
+    url: '/docs/reports/reports-overview/',
+    subMenuItems1: [
+      {
+        name: 'Reports overview',
+        url: '/docs/reports/reports-overview/',
+      },
+      {
+        name: 'Summary reports',
+        url: '/docs/reports/summary-reports/',
+      },
+      {
+        name: 'Team details reports',
+        url: '/docs/reports/team-details-reports/',
+      },
+      {
+        name: 'All Workspaces reports',
+        url: '/docs/reports/all-workspaces-reports/',
+      },
+      {
+        name: 'All APIs reports',
+        url: '/docs/reports/all-apis-reports/',
+      },
+      {
+        name: 'Security Audit reports',
+        url: '/docs/reports/security-audit-reports/',
       },
     ],
   },

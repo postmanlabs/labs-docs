@@ -1,7 +1,7 @@
 ---
 title: "Managing environments"
 order: 25
-updated: 2021-10-06
+updated: 2022-03-23
 page_id: "managing-environments"
 search_keyword: "pm.globals.set, globals.set, pm.environment.set, environment.set, pm.variables.get, variables.get, pm.globals.get, globals.get, pm.environment.get, environment.get"
 contextual_links:
@@ -59,6 +59,8 @@ An environment is a set of [variables](/docs/sending-requests/variables/) you ca
     * [Using an environment in viewer role](#using-an-environment-in-viewer-role)
         * [Requesting environment access](#requesting-environment-access)
     * [Using an environment in editor role](#using-an-environment-in-editor-role)
+    * [Forking environments](#forking-environments)
+    * [Viewing pull requests, forks, and environment details](#viewing-pull-requests-forks-and-environment-details)
 
 ## Creating environments
 
@@ -251,7 +253,28 @@ When you edit the initial value of a shared environment variable, your updated v
 
 > If you uncheck (deselect) a variable in your environment, it will only be available to collaborators who also have edit access to the environment. They will also be able to see if the variable is active or not. Anyone with the viewer role for the environment won't see the unchecked variable. </br></br> ![Turn off environment variable](https://assets.postman.com/postman-docs/environment-editor-unchecked-var-v9.13.jpg)
 
-With the editor role, you can [configure access for other team members](#managing-environment-roles). If you need to specify access but do not have the editor role, you can [request access](#requesting-environment-access).
+With the editor role, you can [configure access for other team members](#managing-environment-roles). If you need to specify access but don't have the editor role, you can [request access](#requesting-environment-access).
+
+### Forking environments
+
+You can fork environments to change them without impacting their base versions, or to contribute to their development without having editor access. To fork an environment:
+
+1. Hover over the environment in the left sidebar and select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> that appear to the right of the environment's name.
+2. Select **Create a Fork**.
+
+> You can also fork an environment by selecting **Fork** <img alt="Fork icon" src="https://assets.postman.com/postman-docs/icon-fork.jpg#icon" width="14px"> in the environment overview tab.
+
+You can edit your environment fork and use it as needed, or you can [create a pull request](/docs/collaborating-in-postman/version-control-for-collections/#creating-pull-requests) to update the original environment.
+
+### Viewing pull requests, forks, and environment details
+
+You can view all pull requests, forks, and details about an environment from the right sidebar:
+
+* To view pull requests, select the pull request icon <img alt="Pull request icon" src="https://assets.postman.com/postman-docs/icon-pull-request.jpg" width="16px" style="vertical-align:middle;margin-bottom:5px">
+* To view forks, select the fork icon <img alt="Fork icon" src="https://assets.postman.com/postman-docs/icon-fork.jpg" width="16px" style="vertical-align:middle;margin-bottom:5px">
+* To view additional information about the environment, including its ID, author, and any mock servers or monitors that use it, select the info icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg" width="16px" style="vertical-align:middle;margin-bottom:5px">
+
+If you have [editor access](/docs/collaborating-in-postman/roles-and-permissions/#environment-roles) on the environment, you can [review pull requests](/docs/collaborating-in-postman/version-control-for-collections/#reviewing-pull-requests) and [merge changes into the parent environment](/docs/collaborating-in-postman/version-control-for-collections/#merging-changes).
 
 ## Next steps
 
