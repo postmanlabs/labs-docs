@@ -298,7 +298,7 @@ Images can help to provide context and give users a reference point for their le
 
 ---
 
-Try to keep your images focused on what's relevant, but still show enough of your screen to indicate how users can get there. For example, in a doc showing how to set parameters, you could show the top of the request tab along with the parameter input area, but cut out other parts of the window. Crop your images to remove parts of your screen that are not relevant to the documentation, for example docks and desktop areas.
+Try to keep your images focused on what's relevant, but still show enough of your screen to indicate how users can get there. For example, in a doc showing how to set parameters, you could show the top of the request tab along with the parameter input area, but cut out other parts of the window. Crop your images to remove parts of your screen that aren't relevant to the documentation, for example docks and desktop areas.
 
 Include alternative text for images.
 

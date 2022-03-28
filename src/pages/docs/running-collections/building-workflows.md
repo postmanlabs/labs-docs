@@ -77,7 +77,7 @@ You can use `postman.setNextRequest()` in the pre-request script or the test scr
 
 ### Specify the next request using the request ID
 
-Instead of specifying the name of the request to run next, you can provide the request ID. To find the ID, open a request and select **Info** <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg" width="16px" style="vertical-align:middle;margin-bottom:5px"> in the context bar at right.
+Instead of specifying the name of the request to run next, you can provide the request ID. To find the ID, open a request and select **Info** <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px"> in the context bar at right.
 
 Note that the ID shown is the user ID followed by the request ID. Omit the first eight digits and dash to get the request ID. You can also get the request ID using the `pm.info.requestId` function (see [Scripting Workflows](/docs/writing-scripts/script-references/postman-sandbox-api-reference/#scripting-workflows)).
 

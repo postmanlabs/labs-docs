@@ -23,9 +23,9 @@ contextual_links:
     url: "/docs/collaborating-in-postman/using-workspaces/creating-workspaces/"
 ---
 
-Postman workspaces allow you to organize and collaborate on API projects with your team. Within each workspace you can share [APIs](/docs/designing-and-developing-your-api/creating-an-api/), [collections](/docs/getting-started/creating-the-first-collection/), [environments](/docs/sending-requests/managing-environments/), and other components of your work in Postman.
+Postman workspaces enable you to organize and work together on API projects with your team. Within each workspace you can share [APIs](/docs/designing-and-developing-your-api/creating-an-api/), [collections](/docs/getting-started/creating-the-first-collection/), [environments](/docs/sending-requests/managing-environments/), and other components of your work in Postman.
 
-When you first open Postman, you will be in your default personal workspace. You can create more workspaces for your personal use and to collaborate with teammates. To create additional workspaces, you need to be signed into a [Postman account](/docs/getting-started/postman-account/).
+When you first open Postman, you will be in your default personal workspace. You can create more workspaces for your personal use and to work with teammates. To create more workspaces, you need to sign in to your [Postman account](/docs/getting-started/postman-account/).
 
 To create a new workspace:
 
@@ -35,8 +35,8 @@ To create a new workspace:
 
 1. Enter a **Name** and optional **Summary** for your workspace.
 1. Choose the workspace's visibility:
-    * A **Personal** workspace is only visible to you.
-    * A **Private** workspace is only visible to you and to any team members you invite to join it.
+    * A **Personal** workspace is visible only to you.
+    * A **Private** workspace is visible to you and to any team members you invite to join it.
     * A **Team** workspace is visible to everyone on your team.
     * A **Public** workspace is visible to all Postman users.
 1. Select **Create Workspace**.

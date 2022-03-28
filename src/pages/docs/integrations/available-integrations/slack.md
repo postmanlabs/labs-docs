@@ -20,11 +20,8 @@ contextual_links:
   - type: subtitle
     name: "Related Blog Posts"
   - type: link
-    name: "Introducing Postman Notifications in Slack"
-    url: "https://blog.postman.com/postman-notifications-slack/"
-  - type: link
-    name: "Librarian: building a serverless slack app using Postman and Airtable"
-    url: "https://blog.postman.com/librarian-building-a-serverless-slack-app-using-postman-and-airtable/"
+    name: "Enhanced Postman Slack Notifications for Easier Collaboration"
+    url: "https://blog.postman.com/enhanced-postman-slack-notifications-for-easier-collaboration/"
   - type: subtitle
     name: "Public Workspaces"
   - type: link

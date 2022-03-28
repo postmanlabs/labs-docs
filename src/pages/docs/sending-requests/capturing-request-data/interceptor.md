@@ -2,7 +2,7 @@
 title: "Using Postman Interceptor"
 order: 34
 page_id: "interceptor"
-updated: 2022-01-20
+updated: 2022-03-02
 search_keyword: "pm.interceptorInstaller.reset, interceptorInstaller.reset, pm.interceptorBridge.setKey, interceptorBridge.setKey"
 contextual_links:
   - type: section
@@ -33,11 +33,11 @@ warning: false
 
 ---
 
-Postman Interceptor is a Chrome extension that acts as a browser companion to Postman. Interceptor enables you to sync cookies from your browser to Postman and capture network requests directly from Chrome, saving them to your history or a Postman collection.
+Postman Interceptor is a Chrome extension that acts as a browser companion to the Postman app. Interceptor enables you to capture network requests and cookies directly from a Chrome browser.
 
-Once Interceptor is running in Chrome, you can start a debug session, which is a time-bound session of traffic capture. You can start, pause, and stop an interceptor debug session, then later start another one. Each debug session is logged in the **History** tab, and displays the total session time and all traffic captured. You can also send requests and responses to a collection, and save cookies to the Postman cookie jar.
+Once Interceptor is running in Chrome, you can start a debug session, which is a time-bound session of traffic capture. You can start, pause, and stop an interceptor debug session, then later start another one. Each debug session is logged in the **History** tab, and displays the total session time and all traffic captured. From the logged session, you can send requests and responses to a collection and save cookies to the Postman cookie jar.
 
-> Interceptor is only available on the [Postman desktop app](/docs/getting-started/installation-and-updates/#web-limitations).
+> You can also use Postman Interceptor to automatically sync cookies from a Chrome browser to the Postman cookie jar. Learn more about [syncing cookies](/docs/sending-requests/capturing-request-data/syncing-cookies/).
 
 ## Contents
 
@@ -45,7 +45,6 @@ Once Interceptor is running in Chrome, you can start a debug session, which is a
 * [Using Interceptor](#using-interceptor)
     * [Running the Interceptor debug session](#running-the-interceptor-debug-session)
     * [Viewing the Interceptor debug session results](#viewing-the-interceptor-debug-session-results)
-    * [Working with cookies](#working-with-cookies)
 * [How it works](#how-it-works)
     * [Troubleshooting tips](#troubleshooting-tips)
 * [Security](#security)
@@ -56,17 +55,15 @@ Once Interceptor is running in Chrome, you can start a debug session, which is a
 
 ## Installing Interceptor
 
+> You can't use Interceptor with [Postman for web](/docs/getting-started/installation-and-updates/#web-limitations). Make sure you've installed the [Postman desktop app](/docs/getting-started/installation-and-updates/).
+
 To get started, install Postman Interceptor:
 
-1. [Download](https://go.pstmn.io/interceptor-download) Interceptor in the Chrome Web Store. If you already have the extension, ensure it's version v0.2.26 or later.
+1. [Download](https://go.pstmn.io/interceptor-download) Interceptor in the Chrome Web Store. If you already have the extension, ensure it is version v0.2.26 or later.
+1. Select <img alt="Capture icon" src="https://assets.postman.com/postman-docs/icon-capture.jpg#icon" width="15px"> **Capture requests** in the Postman footer.
+1. On the **Capture requests** window, select the **Via Interceptor** tab.
 
-1. In the Postman app, select the **Capture requests and cookies** icon in the Postman footer.
-
-    <img src="https://assets.postman.com/postman-docs/proxy-capture-requests-button-v9.8.3.jpg" alt="Capture requests button" width="300px"/>
-
-1. On the **Capture requests and cookies** window, select the **Via Interceptor** tab.
-
-    <img src="https://assets.postman.com/postman-docs/capture-via-interceptor-tab-v9.8.3.jpg" alt="Capture via Interceptor tab" width="300px"/>
+    <img src="https://assets.postman.com/postman-docs/capture-via-interceptor-tab-v9-13.jpg" alt="Capture via Interceptor tab" width="300px"/>
 
 1. Select **Install Interceptor Bridge** to download the Bridge, an independent executable that facilitates communication with the Interceptor.
 
@@ -80,11 +77,11 @@ After Interceptor is connected, you can then start an Interceptor debug session,
 
 > You can only have a single proxy or interceptor debug session running at the same time.
 
-1. Go to the **Via Interceptor** tab of the **Capture requests and cookies** window.
+1. Go to the **Via Interceptor** tab of the **Capture requests** window.
 
-1. Optionally, Interceptor can sync cookies from specific domains between your browser and Postman. Enter the domain then select **Add domain**. Once you have added the domain or domains, select **Sync cookies**. For more details, see [Syncing cookies](#syncing-cookies).
+1. Select **Capture Cookies** if you want to capture cookies in addition to requests during the debug session. You can use these cookies in your Postman requests.
 
-1. Select **Capture Cookies** if you want to capture cookies in addition to requests during the debug session. You can use these cookies in your Postman requests. For more details, see [Capturing cookies](#capturing-cookies).
+    > You can also capture cookies and sync them to Postman without starting a debug session. Learn more about [syncing cookies](/docs/sending-requests/capturing-request-data/syncing-cookies/).
 
 1. By default, requests will be saved in a debug session in the **History** tab in the sidebar. To also save requests to a collection, select a collection from the list under **Save requests to a collection**.
 
@@ -94,7 +91,7 @@ After Interceptor is connected, you can then start an Interceptor debug session,
 
 1. Select **Start Capture**.
 
-<img src="https://assets.postman.com/postman-docs/interceptor-capture-cookies.jpg" alt="Capture cookies" width="300px"/>
+<img src="https://assets.postman.com/postman-docs/interceptor-capture-cookies-v9-15.jpg" alt="Capture cookies" width="412px"/>
 
 ### Running the Interceptor debug session
 
@@ -112,19 +109,19 @@ There are several controls you can use to limit, organize, and investigate traff
 
 When you select one or more requests from the list on the **Requests** tab, you can use the following controls:
 
-* <img alt="External link icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg" width="12px" style="vertical-align:middle;margin-bottom:5px"> - delete the request.
+* <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> **Delete** - delete the request.
 
 When you select one or more cookies from the list on the **Cookies** tab, you can use the following controls:
 
 * **+ Add to Cookie Jar** - add the request to the Postman cookie jar.
 
-* <img alt="External link icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg" width="12px" style="vertical-align:middle;margin-bottom:5px"> - delete the cookie.
+* <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> **Delete** - delete the cookie.
 
 The bottom right corner shows the total time of the capture session, along with the total size of captured traffic. If you want to temporarily stop the capture session, select the **Pause** button, and select **Resume** to restart it.
 
 When you're done with your debug session, select **Stop** in the lower right corner. This will finish the debug session, and results of the debug session will be saved in the **History** tab.
 
-After stopping the session, the Interceptor is still connected. Select the **Capture requests and cookies** icon in the Postman footer, and you can start another debug session.
+After stopping the session, the Interceptor is still connected. Select <img alt="Capture icon" src="https://assets.postman.com/postman-docs/icon-capture.jpg#icon" width="15px"> **Capture requests** in the Postman footer, and you can start another debug session.
 
 ### Viewing the Interceptor debug session results
 
@@ -134,49 +131,9 @@ When you open a saved debug session, the top header displays the session start t
 
 The **Overview** displays summary graphs of the traffic captured in the session. You can select graphs summarizing traffic by method, domain, data mode, or return status code.
 
-The **Requests** and **Cookies** tabs display requests, responses, and cookies, similar to the same tabs available during a capture session. The same options for searching, expanding, saving, and deleting items described in Step 4 are available. You can also use the controls at the bottom of the table to limit the number of items per page, and navigate through the pages of results.
+The **Requests** and **Cookies** tabs display requests, responses, and cookies, similar to the same tabs available during a capture session. The same options for searching, expanding, saving, and deleting items described in Step 4 are available. You can also add selected requests to a collection. Use the controls at the bottom of the table to limit the number of items per page and navigate through the pages of results.
 
-You can rename an Interceptor debug session by selecting the name at the top of the window and entering a new name. Select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to the debug session name to rename or delete the session.
-
-### Working with cookies
-
-Interceptor enables you to sync [cookies](/docs/sending-requests/cookies/) between your browser and the Postman desktop app and to capture them to use in later Postman requests.
-
-#### Syncing cookies
-
-Interceptor can sync cookies from specific domains between your browser and Postman. Postman will be updated from the browser when cookies update, including deletions. This allows you to use browser sessions to make API calls in Postman. This is an optional step and you do not need to enable it to run an Interceptor debug session.
-
-> Postman does not save these synced cookies to Postman’s history.
-
-You can also choose to sync cookies without running an Interceptor debug session, which can be useful if you want access to cookies without capturing other network traffic.
-
-To sync cookies for specified domains between the Interceptor extension and Postman:
-
-1. In the **Via Interceptor** tab, enter the domain then select **Add domain**. Repeat this process for all domains from which you want to capture cookies.
-
-    > Interceptor will sync all cookies for that domain from the browser. It will also sync cookies for all subdomains of a specified domain. For example, adding the domain `example.com` will also sync cookies from `m.example.com`. To sync cookies for the domain only, you can add **https://** in front of the domain, such as `https://example.com`.
-
-1. After you have added the domain or domains, select **Sync cookies**.
-
-1. You can remove a domain at any time by selecting **X** next to the domain. This will prevent future cookie updates from being synced, but it won’t delete cookies that have already been synced.
-
-    <img src="https://assets.postman.com/postman-docs/interceptor-sync-cookies.jpg" alt="Sync cookies button" width="300px"/>
-
-Once the cookies begin syncing between the browser and Postman, you can access them from the [Manage Cookies dialog](/docs/sending-requests/cookies/#getting-to-the-cookie-manager).
-
-#### Capturing cookies
-
-During an Interceptor session, you can retrieve cookies from any domain and then use them in your Postman requests.
-
-1. In the **Via Interceptor** tab, select **Capture cookies**.
-
-    <img src="https://assets.postman.com/postman-docs/interceptor-capture-cookies-checkmark.jpg" alt="Capture cookies" width="300px"/>
-
-1. When you start a new interceptor session, the captured cookies will be saved along with other network traffic. To view the captured cookies in your Interceptor debug session, select the **Cookies** tab.
-
-1. To add a captured cookie to your Postman Cookie Jar from an Interceptor debug session, select the cookie and then select **+ Add to Cookie Jar**.
-
-![Add a cookie to the Cookie Jar from a debug session](https://assets.postman.com/postman-docs/interceptor-add-cookie-to-jar.jpg)
+You can rename an Interceptor debug session by selecting the name at the top of the window and entering a new name. Select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> next to the debug session name to rename or delete the session.
 
 ## How it works
 
@@ -200,7 +157,7 @@ Your installation may include the following options:
 
 ### Troubleshooting tips
 
-You can find the current status of your Interceptor integration by looking at the upper right of the **Capture requests and cookies** window:
+You can find the current status of your Interceptor integration by looking at the upper right of the **Capture requests** window:
 
 * **Connected**: You can proceed with using Interceptor.
 * **Not connected**: Ensure Interceptor is [installed correctly](#installing-interceptor).
@@ -282,8 +239,8 @@ The communication between Interceptor and Postman is automatically encrypted. Yo
 
 ### Adding a custom encryption key in the UI
 
-1. In the Postman app, select the **Capture requests and cookies** icon in the Postman footer. Then in the **Capture requests and cookies** window, select the **Via Interceptor** tab.
-1. To the right of the green **Connected** status, select the lock icon <img alt="Lock icon" src="https://assets.postman.com/postman-docs/icon-lock.jpg" width="11px" style="vertical-align:middle;margin-bottom:5px">.
+1. In the Postman app, select <img alt="Capture icon" src="https://assets.postman.com/postman-docs/icon-capture.jpg#icon" width="15px"> **Capture requests** in the Postman footer. Then in the **Capture requests** window, select the **Via Interceptor** tab.
+1. To the right of the green **Connected** status, select the lock icon <img alt="Lock icon" src="https://assets.postman.com/postman-docs/icon-lock.jpg#icon" width="11px">.
 
     <img src="https://assets.postman.com/postman-docs/interceptor-session-key.jpg" width="350px" alt="Set encryption in app"/>
 

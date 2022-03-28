@@ -1,8 +1,8 @@
 ---
-title: "Custom SAML in Duo"
+title: "Duo"
 order: 136
 updated: 2020-05-22
-page_id: "saml_duo"
+page_id: "duo"
 warning: false
 contextual_links:
   - type: section

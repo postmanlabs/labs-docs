@@ -166,6 +166,10 @@ export const leftNavItems = [
             name: 'Using Postman Interceptor',
             url: '/docs/sending-requests/capturing-request-data/interceptor/',
           },
+          {
+            name: 'Syncing cookies',
+            url: '/docs/sending-requests/capturing-request-data/syncing-cookies/',
+          },
         ],
       },
       {
@@ -316,7 +320,7 @@ export const leftNavItems = [
       },
       {
         name: 'Using version control',
-        url: '/docs/collaborating-in-postman/version-control-for-collections/',
+        url: '/docs/collaborating-in-postman/version-control/',
       },
       {
         name: 'Managing public elements',
@@ -422,10 +426,6 @@ export const leftNavItems = [
             url: '/docs/designing-and-developing-your-api/mocking-data/matching-algorithm/',
           },
         ],
-      },
-      {
-        name: 'Analyzing with reports',
-        url: '/docs/designing-and-developing-your-api/view-and-analyze-api-reports/',
       },
     ],
   },
@@ -614,28 +614,28 @@ export const leftNavItems = [
             url: '/docs/administration/sso/microsoft-adfs/',
           },
           {
-            name: 'Custom SAML in Azure AD',
-            url: '/docs/administration/sso/saml-in-azure-ad/',
+            name: 'Azure AD',
+            url: '/docs/administration/sso/azure-ad/',
           },
           {
-            name: 'Custom SAML in Duo',
-            url: '/docs/administration/sso/saml-duo/',
+            name: 'Duo',
+            url: '/docs/administration/sso/duo/',
           },
           {
-            name: 'Custom SAML in GSuite',
-            url: '/docs/administration/sso/saml-gsuite/',
+            name: 'Google Workspace',
+            url: '/docs/administration/sso/google-workspace/',
           },
           {
-            name: 'Custom SAML in Okta',
-            url: '/docs/administration/sso/saml-okta/',
+            name: 'Okta',
+            url: '/docs/administration/sso/okta/',
           },
           {
-            name: 'Custom SAML in OneLogin',
-            url: '/docs/administration/sso/saml-onelogin/',
+            name: 'OneLogin',
+            url: '/docs/administration/sso/onelogin/',
           },
           {
-            name: 'Custom SAML in Ping Identity',
-            url: '/docs/administration/sso/saml-ping/',
+            name: 'Ping Identity',
+            url: '/docs/administration/sso/ping-identity/',
           },
         ],
       },
@@ -656,6 +656,10 @@ export const leftNavItems = [
             name: 'Configuring SCIM with Azure AD',
             url: '/docs/administration/scim-provisioning/configuring-scim-with-azure-ad/',
           },
+          {
+            name: `Configuring SCIM with OneLogin`,
+            url: `/docs/administration/scim-provisioning/configuring-scim-with-onelogin/`
+          }
         ],
       },
       {
@@ -669,6 +673,37 @@ export const leftNavItems = [
       {
         name: 'Admin FAQs',
         url: '/docs/administration/admin-faqs/',
+      },
+    ],
+  },
+  {
+    name: 'Using Reports',
+    parentSlug: 'reports',
+    url: '/docs/reports/reports-overview/',
+    subMenuItems1: [
+      {
+        name: 'Reports overview',
+        url: '/docs/reports/reports-overview/',
+      },
+      {
+        name: 'Summary reports',
+        url: '/docs/reports/summary-reports/',
+      },
+      {
+        name: 'Team details reports',
+        url: '/docs/reports/team-details-reports/',
+      },
+      {
+        name: 'All Workspaces reports',
+        url: '/docs/reports/all-workspaces-reports/',
+      },
+      {
+        name: 'All APIs reports',
+        url: '/docs/reports/all-apis-reports/',
+      },
+      {
+        name: 'Security Audit reports',
+        url: '/docs/reports/security-audit-reports/',
       },
     ],
   },
@@ -776,6 +811,10 @@ export const leftNavItems = [
           {
             name: 'Keen',
             url: '/docs/integrations/available-integrations/keen/',
+          },
+          {
+            name: 'Lightstep',
+            url: '/docs/integrations/available-integrations/lightstep/',
           },
           {
             name: 'Microsoft Power Automate',

@@ -54,9 +54,9 @@ If you're just starting to learn about APIs and Postman, you can use a variety o
 * [__Send your first request!__](/docs/getting-started/sending-the-first-request/)
 * Use the __Bootcamp__ to work through lessons inside Postman—open it at the bottom right of the app.
 * Explore [workspaces, collections, and more](https://www.postman.com/explore) that you can try out inside Postman, like the following:
-    * [**Learn by API**](https://www.postman.com/postman/workspace/published-postman-templates/collection/9065401-ff29b3be-af69-4442-91e0-c1158b620fc2?ctx=documentation)–walk through beginner API concepts.
-    * [**Postman Training**](https://www.postman.com/postman/workspace/postman-galaxy-training/overview)–Learn APIs 101, Testing and Automation, API Adoption, and API First, earning [Postman badges](https://badgr.com/public/issuers/BC0x4AQaQPC7lFilsBP_tQ/badges).
-    * [**Student Program**](https://www.postman.com/postman/workspace/postman-student-program/overview)–Take the Student Expert training, covering request configurations and test scripting.
+    * [**Learn by API**](https://www.postman.com/postman/workspace/published-postman-templates/collection/9065401-ff29b3be-af69-4442-91e0-c1158b620fc2?ctx=documentation): Explore beginner API concepts.
+    * [**Postman Training**](https://www.postman.com/postman/workspace/postman-galaxy-training/overview): Learn APIs 101, Testing and Automation, API Adoption, and API First, earning [Postman badges](https://badgr.com/public/issuers/BC0x4AQaQPC7lFilsBP_tQ/badges).
+    * [**Student Program**](https://www.postman.com/postman/workspace/postman-student-program/overview): Take the Student Expert training, covering request configurations and test scripting.
 
 ## What are you here to learn about?
 
@@ -94,7 +94,7 @@ If you're developing a back-end, working API-first, or need to monitor API perfo
 
 * [Defining an API from a schema](/docs/designing-and-developing-your-api/the-api-workflow/)
 * [Monitoring test runs](/docs/monitoring-your-api/intro-monitors/)
-* [Analyzing API performance](/docs/designing-and-developing-your-api/view-and-analyze-api-reports/)
+* [Analyzing API performance](/docs/reports/reports-overview/)
 * [Mocking responses](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/)
 
 ### Publishing APIs

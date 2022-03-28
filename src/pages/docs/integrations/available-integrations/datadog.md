@@ -69,7 +69,7 @@ Postman can forward a wide array of metrics for the specified monitors to Datado
 | **Metrics Name**          |       **Type**         | **Description**         | **Level**         |
 | ------------- | ------------- | ------------- | ------------- |
 | postman.monitor.run.errors | `GAUGE` | The total number of errors across all requests in a monitoring run | Run
-| postman.monitor.run.failed\_tests | GAUGE | The total number of failed tests across all requests in a monitoring run | Run
+| postman.monitor.run.failed\_tests | `GAUGE` | The total number of failed tests across all requests in a monitoring run | Run
 | postman.monitor.run.passed\_tests | `GAUGE` | Total number of passed tests across all requests in a monitoring run | Run
 | postman.monitor.run.request\_count | `GAUGE` | Total number of requests in a monitoring run | Run
 | postman.monitor.run.total\_latency | `GAUGE` | The total latency time for all requests in a monitoring run | Run
@@ -115,6 +115,6 @@ If you have previously created any integrations, you must update them to take th
 
 The updated integration has the following benefits:
 
-* The Postman metrics for the new integration are no longer treated as [Custom Metrics](https://docs.datadoghq.com/metrics/) in Datadog, which means they are free. (Custom metrics on Datadog are [charged](https://docs.datadoghq.com/account_management/billing/custom_metrics/?tab=countrategauge).)
+* The Postman metrics for the new integration are no longer treated as [Custom Metrics](https://docs.datadoghq.com/metrics/) in Datadog, which means they're free. (Custom metrics on Datadog are [charged](https://docs.datadoghq.com/account_management/billing/custom_metrics/?tab=countrategauge).)
 * Datadog provides a default dashboard that you can use to observe the monitor. Change the `monitor_name` variable to the monitor for which you want to observe the dashboard.
   [![Datadog dashboard](https://assets.postman.com/postman-docs/datadog-dashboard.jpg)](https://assets.postman.com/postman-docs/datadog-dashboard.jpg)

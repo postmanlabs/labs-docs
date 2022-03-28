@@ -54,7 +54,7 @@ Make sure you're signed in to your Postman account, and that you have a collecti
 > Note: If the collection is present in a public workspace, you can directly embed the copied code where you would like the button to be displayed. If the collection is present in a team or a personal workspace, [share the collection to a public workspace](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#changing-workspace-visibility) to create the **Run in Postman** button.
 
 * In Postman, open the collection you want to share.
-* Next to the collection name, select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> to expand the collection details and select **Share collection** to open a modal.
+* Next to the collection name, select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> to expand the collection details and select **Share collection** to open a modal.
 
 * Tab over to **Via Run in Postman**.
 * Choose a live or static button:
@@ -63,7 +63,7 @@ Make sure you're signed in to your Postman account, and that you have a collecti
     * **Static button**: This button uses Markdown, so you can display it in a README, blog, or other Markdown document.
 
 * You can optionally include an environment to embed with your collection. On the left, select the **Environment** drop-down and choose the environment.
-* Select <img alt="Copy icon" src="https://assets.postman.com/postman-docs/icon-copy-v9.jpg" width="15px" style="vertical-align:middle;margin-bottom:5px"> **Copy Code**.
+* Select <img alt="Copy icon" src="https://assets.postman.com/postman-docs/icon-copy-v9.jpg#icon" width="15px"> **Copy Code**.
 
 ![Create a Run in Postman button modal](https://assets.postman.com/postman-docs/run-in-postman-9.14.jpg)
 
