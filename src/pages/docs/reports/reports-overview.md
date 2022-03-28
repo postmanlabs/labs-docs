@@ -51,12 +51,12 @@ To view reports:
 
 Reports are generated periodically but not in real time. You may experience a delay of a few minutes or up to 24 hours before report data is available. The last update time is shown at the bottom of the left sidebar.
 
-> You can only see report data that is visible to you based on your role.
+> You can only see report data that is visible to you based on your [role](/docs/collaborating-in-postman/roles-and-permissions/).
 
 To navigate within a report:
 
 * Select items in the left sidebar to see each report.
-* Some report items have a link which opens another related report. For example, on the **Uptime** chart in the **Summary** report, there is a link to open the **Team APIs** report.
+* Some report items have a link that opens another related report. For example, on the **Uptime** chart in the **Summary** report, there is a link to open the **Team APIs** report.
 * Hover over a data point to show the data point's value.
 
     <img src="https://assets.postman.com/postman-docs/reports-datapoint-hover.jpg" alt="reports data point" width="100px" />
@@ -77,7 +77,7 @@ If you don't see any data in your reports, or your data is incomplete (for examp
 
 * It's too early to check. The data refreshes every four hours.
 * You may not have linked a collection to your API.
-* You may not have sent a request—or you may have executed requests from monitoring, collection runs, or Newman, but not from the request builder in Postman.
+* You may not have sent a request, or you may have executed requests from monitoring, collection runs, or Newman, but not from the request builder in Postman.
 * You may not have enabled __Save Responses__ in the __History__ tab in Postman.
 * Sync is not successfully communicating with the Postman servers. Check your network connection, and visit the [Postman Status Page](https://status.postman.com) to see if there is a current outage.
 

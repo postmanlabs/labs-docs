@@ -80,7 +80,7 @@ The __Private Network APIs__ report provides the following information:
 
 The __Public APIs__ report provides metrics including an overview of your total published APIs, API updates and views, and a separate view of your APIs with and without mocks, monitors, tests, and documentation.
 
-The __Public API__ report provides the same information as the **Private API** report, excluding __Schemas by type__. It also includes the following:
+The [Public API report](#private-network-apis) provides the same information as the **Private API** report, excluding __Schemas by type__. It also includes the following:
 
 * **APIs updated over time** - The number of APIs updated over time.
 * **Most viewed public API** - A link to your team's most-viewed public API over the last three months.
@@ -90,9 +90,9 @@ The __Public API__ report provides the same information as the **Private API** r
 
 __View reports by API__ provides a report for each individual API. Scroll through the list of APIs, or use the search box to find an API, and then select the API to view the report. Each API report includes the following information:
 
-* **API name** - The name of the API
-* **API created by** - The user who created the API
-* **API created on** - The date the API was created
+* **API name** - The name of the API.
+* **API created by** - The user who created the API.
+* **API created on** - The date the API was created.
 * **Number of API requests** - The number of requests made to the API over time.
 * **Failed test runs** - The total number of failed test runs over time.
 * **Average response size** - The average response size in bytes over time.
