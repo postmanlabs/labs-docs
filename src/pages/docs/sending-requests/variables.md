@@ -24,7 +24,7 @@ contextual_links:
     name: "Manage CLI Environment Variables | Postman Level Up"
     url: "https://youtu.be/n8O2KP-Zx8I"
   - type: subtitle
-    name: "Related Blog Posts"
+    name: "Blog Posts"
   - type: link
     name: "Find and replace text, code, and variables"
     url: "https://blog.postman.com/find-and-replace-text-code-and-variables-in-postman/"

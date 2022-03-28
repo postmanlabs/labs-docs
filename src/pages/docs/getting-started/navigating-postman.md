@@ -23,7 +23,7 @@ contextual_links:
     name: "Universal Search | Postman Level Up"
     url: "https://www.youtube.com/watch?v=1K6Pl6o_tj8"
   - type: subtitle
-    name: "Related Blog Posts"
+    name: "Blog Posts"
   - type: link
     name: "Postman Now Recommends Related Collections in Requests"
     url: "https://blog.postman.com/postman-now-recommends-collections-in-requests/"

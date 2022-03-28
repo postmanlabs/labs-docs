@@ -18,7 +18,7 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
-    name: "Related Blog Posts"
+    name: "Blog Posts"
   - type: link
     name: "Germaphobia collection (see pre-request scripts in action)"
     url: "https://blog.postman.com/germaphobia/"

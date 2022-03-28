@@ -17,7 +17,7 @@ contextual_links:
     name: "Debugging with the Console | Postman Level Up"
     url: "https://www.youtube.com/watch?v=YCsURct9wCk&list=PLM-7VG-sgbtC5tNXxd28cmePSa9BYwqeU&index=9"
   - type: subtitle
-    name: "Related Blog Posts"
+    name: "Blog Posts"
   - type: link
     name: "Powerful Debugging with the Postman Console"
     url: "https://blog.postman.com/powerful-debugging-with-the-postman-console/"

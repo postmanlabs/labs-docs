@@ -43,7 +43,7 @@ contextual_links:
     name: "Visualizer D3 examples"
     url: "https://www.postman.com/DTHb3DSmtDah2RD/workspace/codebase-visualizer-templates/collection/2897506-d2486b17-0fc6-4ff3-8045-800623e5c02b?ctx=documentation"
   - type: dynamic_blog
-    name: "Related Blog Posts"
+    name: "Blog Posts"
     blog_tag: "visualizer"
 
 ---

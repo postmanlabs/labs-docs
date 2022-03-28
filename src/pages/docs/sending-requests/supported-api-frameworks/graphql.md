@@ -17,7 +17,7 @@ contextual_links:
     name: "GraphQL in Postman Demo"
     url: "https://youtu.be/7pUbezVADQs"
   - type: subtitle
-    name: "Related Blog Posts"
+    name: "Blog Posts"
   - type: link
     name: "Postman v7.2 Supports GraphQL"
     url: "https://blog.postman.com/postman-v7-2-supports-graphql/"

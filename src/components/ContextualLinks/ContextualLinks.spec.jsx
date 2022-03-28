@@ -16,7 +16,7 @@ describe('ContextualLinks', () => {
       },
       {
         type: 'subtitle',
-        name: 'Related Blog Posts',
+        name: 'Blog Posts',
 
       },
       {

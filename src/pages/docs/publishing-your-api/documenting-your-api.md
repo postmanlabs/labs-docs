@@ -31,7 +31,7 @@ contextual_links:
     name: "API Publishers Series, Part 2: Increase Adoption of your Public API"
     url: "https://youtu.be/52pXP3X4a_8"
   - type: subtitle
-    name: "Related Blog Posts"
+    name: "Blog Posts"
   - type: link
     name: "Simplifying API documentation for a great first user experience"
     url: "https://blog.postman.com/simplifying-api-documentation-for-a-great-first-user-experience/"

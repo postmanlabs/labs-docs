@@ -13,7 +13,7 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
-    name: "Related Blog Posts"
+    name: "Blog Posts"
   - type: link
     name: "Speeding up workflows with keyboard shortcuts"
     url: "https://blog.postman.com/speeding-up-workflows-with-keyboard-shortcuts/"

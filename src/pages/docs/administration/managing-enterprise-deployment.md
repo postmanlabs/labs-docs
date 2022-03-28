@@ -8,7 +8,7 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
-    name: "Related Blog Posts"
+    name: "Blog Posts"
   - type: link
     name: "Deploying Postman at Enterprise Scale"
     url: "https://blog.postman.com/deploying-postman-at-enterprise-scale/"

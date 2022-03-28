@@ -12,7 +12,7 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
-    name: "Related Blog Posts"
+    name: "Blog Posts"
   - type: link
     name: "Backup and Sync your Postman Collections on GitHub"
     url: "https://blog.postman.com/backup-and-sync-your-postman-collections-on-github/"

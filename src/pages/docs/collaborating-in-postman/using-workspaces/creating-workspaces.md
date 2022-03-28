@@ -17,7 +17,7 @@ contextual_links:
     name: "Creating a Workspace | Postman Level Up"
     url: "https://youtu.be/I10RCvMbPi0"
   - type: subtitle
-    name: "Related Blog Posts"
+    name: "Blog Posts"
   - type: link
     name: "How to Set Up Your First Public Workspace in 5 Easy Steps"
     url: "https://blog.postman.com/how-to-set-up-public-workspaces/"

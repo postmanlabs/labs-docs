@@ -23,7 +23,7 @@ contextual_links:
     name: "Generate a Run in Postman Button | Postman Level Up"
     url: "https://www.youtube.com/watch?v=r2DGy4jSuUE&list=PLM-7VG-sgbtC5tNXxd28cmePSa9BYwqeU&index=8"
   - type: subtitle
-    name: "Related Blog Posts"
+    name: "Blog Posts"
   - type: link
     name: "Introducing the All-New Run in Postman Button"
     url: "https://blog.postman.com/new-run-in-postman/"

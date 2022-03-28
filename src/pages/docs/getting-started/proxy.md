@@ -13,7 +13,7 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
-    name: "Related Blog Posts"
+    name: "Blog Posts"
   - type: link
     name: "Client proxy settings in Postman"
     url: "https://blog.postman.com/client-proxy-settings-in-postman/"

@@ -8,7 +8,7 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
-    name: "Related Blog Posts"
+    name: "Blog Posts"
   - type: link
     name: "Creating workspaces"
     url: "/docs/collaborating-in-postman/using-workspaces/creating-workspaces/"

@@ -12,7 +12,7 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
-    name: "Related Blog Posts"
+    name: "Blog Posts"
   - type: link
     name: "Encryption, SSL/TLS, and Managing Your Certificates in Postman"
     url: "https://blog.postman.com/encryption-ssl-tls-and-managing-your-certificates-in-postman/"

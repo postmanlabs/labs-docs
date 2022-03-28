@@ -8,7 +8,7 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
-    name: "Related Blog Posts"
+    name: "Blog Posts"
   - type: link
     name: "Announcing updated Postman plans and pricing"
     url: "https://blog.postman.com/announcing-updated-postman-plans-and-pricing/"

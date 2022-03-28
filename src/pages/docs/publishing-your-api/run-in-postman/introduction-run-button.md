@@ -21,7 +21,7 @@ contextual_links:
       name: "WTD: Postman for API development and docs"
       url: "https://podcast.writethedocs.org/2018/01/22/postman-for-api-docs-write-the-docs/"
     - type: subtitle
-      name: "Related Blog Posts"
+      name: "Blog Posts"
     - type: link
       name: "How to Dynamically Create Custom Environments with Code"
       url: "https://blog.postman.com/how-to-dynamically-create-custom-environments-with-code/"

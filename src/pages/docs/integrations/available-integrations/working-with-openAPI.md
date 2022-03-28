@@ -12,7 +12,7 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
-    name: "Related blog posts"
+    name: "Blog Posts"
   - type: link
     name: "Postman Joins the OpenAPI Initiative"
     url: "https://blog.postman.com/postman-joins-openapi-initiative/"

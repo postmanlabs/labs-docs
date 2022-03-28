@@ -25,7 +25,7 @@ contextual_links:
     name: "API Documentation | The Exploratory"
     url: "https://youtu.be/XNVo9WkCoak"
   - type: subtitle
-    name: "Related Blog Posts"
+    name: "Blog Posts"
   - type: link
     name: "Simplifying API documentation for a great first user experience"
     url: "https://blog.postman.com/simplifying-api-documentation-for-a-great-first-user-experience/"

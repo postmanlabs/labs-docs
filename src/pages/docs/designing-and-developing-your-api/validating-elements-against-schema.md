@@ -16,7 +16,7 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
-    name: "Related Blog Posts"
+    name: "Blog Posts"
   - type: link
     name: "Create APIs directly within the Postman app"
     url: "https://blog.postman.com/postman-7-1-create-apis-directly-within-the-postman-app/"

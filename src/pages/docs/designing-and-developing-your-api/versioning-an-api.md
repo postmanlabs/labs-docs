@@ -21,7 +21,7 @@ contextual_links:
     name: "How to Version APIs | Postman"
     url: "https://youtu.be/LzJEKsccQ70"
   - type: subtitle
-    name: "Related Blog Posts"
+    name: "Blog Posts"
   - type: link
     name: "Redefining API Management for the API-First World"
     url: "https://blog.postman.com/new-postman-api-platform-redefining-api-management-for-api-first-world"

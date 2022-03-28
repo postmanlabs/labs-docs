@@ -13,7 +13,7 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
-    name: "Related blog posts"
+    name: "blog posts"
   - type: link
     name: "Turn your Postman Collection into a Microsoft integration"
     url: "https://blog.postman.com/turn-your-postman-collection-into-a-microsoft-integration/"

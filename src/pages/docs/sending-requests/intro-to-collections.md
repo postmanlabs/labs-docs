@@ -22,7 +22,7 @@ contextual_links:
     name: "Intro to Postman & Postman Collections"
     url: "https://www.youtube.com/watch?v=ptvV_Fc3hd8"
   - type: dynamic_blog
-    name: "Related Blog Posts"
+    name: "Blog Posts"
     blog_tag: "collections"
   - type: section
     name: "Next Steps"
