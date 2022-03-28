@@ -50,7 +50,7 @@ In the Postman settings, you can view installed certificates, add a new certific
 
 To avoid "self signed certificate" errors when sending requests, add your custom CA certificate to Postman.
 
-1. Turn on the toggle switch next to **CA Certificates**.
+1. Turn on the toggle next to **CA Certificates**.
 1. Select the **PEM file** for your CA certificate. (The PEM file can contain multiple CA certificates.)
 
 [![Adding a CA certificate](https://assets.postman.com/postman-docs/certificates-add-ca-cert-v9-14.jpg)](https://assets.postman.com/postman-docs/certificates-add-ca-cert-v9-14.jpg)
