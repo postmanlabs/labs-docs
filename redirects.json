@@ -44,6 +44,10 @@
 		"to": "/docs/collaborating-in-postman/using-workspaces/creating-workspaces/"
 	},
 	{
+		"from": "/docs/collaborating-in-postman/public-workspaces/",
+		"to": "/docs/collaborating-in-postman/using-workspaces/public-workspaces/"
+	},
+	{
 		"from": "/docs/designing-and-developing-your-api/",
 		"to": "/docs/designing-and-developing-your-api/the-api-workflow/"
 	},
@@ -753,7 +757,7 @@
 	},
 	{
 		"from": "/docs/postman/design-and-develop-apis/reporting-faqs/",
-		"to": "/docs/designing-and-developing-your-api/view-and-analyze-api-reports/"
+		"to": "/docs/reports/reports-overview/"
 	},
 	{
 		"from": "/docs/postman/design-and-develop-apis/sharing-apis/",
@@ -773,7 +777,7 @@
 	},
 	{
 		"from": "/docs/postman/design-and-develop-apis/view-and-analyze-api-reports/",
-		"to": "/docs/designing-and-developing-your-api/view-and-analyze-api-reports/"
+		"to": "/docs/reports/reports-overview/"
 	},
 	{
 		"from": "/docs/postman/design_and_develop_apis/introduction_to_apis/",
@@ -785,7 +789,7 @@
 	},
 	{
 		"from": "/docs/postman/design_and_develop_apis/reporting_faqs/",
-		"to": "/docs/designing-and-developing-your-api/view-and-analyze-api-reports/"
+		"to": "/docs/reports/reports-overview/"
 	},
 	{
 		"from": "/docs/postman/design_and_develop_apis/sharing_apis/",
@@ -809,7 +813,7 @@
 	},
 	{
 		"from": "/docs/postman/design_and_develop_apis/view_and_analyze_api_reports/",
-		"to": "/docs/designing-and-developing-your-api/view-and-analyze-api-reports/"
+		"to": "/docs/reports/reports-overview/"
 	},
 	{
 		"from": "/docs/postman/environments-and-globals/intro-to-environments-and-globals/",
@@ -1916,5 +1920,9 @@
 	{
 		"from": "/docs/collaborating-in-postman/version-control-for-collections/",
 		"to": "/docs/collaborating-in-postman/version-control/"
+	},
+	{
+		"from": "/docs/designing-and-developing-your-api/view-and-analyze-api-reports/",
+		"to": "/docs/reports/reports-overview/"
 	}
 ]

@@ -53,7 +53,7 @@ The following are the high-level steps involved when creating and using APIs:
 * [Deploying an API](/docs/designing-and-developing-your-api/deploying-an-api/) - Connect your API deployment service to have greater visibility within Postman.
 * [Observing an API](/docs/designing-and-developing-your-api/observing-an-api/) - Add monitors to observe your API.
 * [Managing and sharing APIs](/docs/designing-and-developing-your-api/managing-apis/) - Share your API with other team members, add comments, view the changelog, and watch for changes.
-* [Viewing and analyzing APIs](/docs/designing-and-developing-your-api/view-and-analyze-api-reports/) - Use reports to view statistics on how APIs are being used, developed, and improved by your team.
+* [Using API reports](/docs/reports/reports-overview/) - Use reports to view statistics on how APIs are being used, developed, and improved by your team.
 
 ## Navigating the API Builder
 

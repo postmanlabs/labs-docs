@@ -65,7 +65,7 @@ For navigating large responses, select the down arrows on the left of a line to 
 
 <img alt="Response Pretty view" src="https://assets.postman.com/postman-docs/response-pretty-view.jpg" width="400px"/>
 
-> **Forcing JSON formatting**. For Postman to automatically format the body, the response must have the appropriate `Content-Type` header. If you receive a response with a different `Content-Type` header, you can force formatting through JSON. In the Postman header, select the gear icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-gear-outline-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px">, then select **Settings**. In the **General** tab, select **JSON** from the **Language detection** dropdown.
+> **Forcing JSON formatting**. For Postman to automatically format the body, the response must have the appropriate `Content-Type` header. If you receive a response with a different `Content-Type` header, you can force formatting through JSON. In the Postman header, select the gear icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-gear-outline-v9.jpg#icon" width="18px">, then select **Settings**. In the **General** tab, select **JSON** from the **Language detection** dropdown.
 
 ### Raw
 
@@ -95,7 +95,7 @@ To learn more about working with cookies in Postman, see  [Using cookies](/docs/
 
 ## Headers
 
-Headers are displayed as key-value pairs under the **Headers** tab. Hover over the information icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg" width="16px" style="vertical-align:middle;margin-bottom:5px"> next to the header name to see a description of the header according to the HTTP specification.
+Headers are displayed as key-value pairs under the **Headers** tab. Hover over the information icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px"> next to the header name to see a description of the header according to the HTTP specification.
 
 > If you send a HEAD request, Postman will show the **Headers** tab by default instead of the **Body** tab.
 
@@ -107,7 +107,7 @@ To learn more about running tests against API requests in Postman, see [Writing 
 
 ## Network information
 
-Postman displays network information when your API returns a response. Hover over the globe icon <img alt="Refresh icon" src="https://assets.postman.com/postman-docs/icon-uptime-globe.jpg" width="14px" style="vertical-align:middle;margin-bottom:5px"> to see the local and remote IP addresses for the request you sent.
+Postman displays network information when your API returns a response. Hover over the globe icon <img alt="Network information icon" src="https://assets.postman.com/postman-docs/icon-uptime-globe.jpg#icon" width="14px"> to see the local and remote IP addresses for the request you sent.
 
 When you make an `https` request, the globe icon includes a padlock. When you hover over the icon, the network information will show additional information including [certificate verification](/docs/sending-requests/certificates/) details.
 
@@ -121,7 +121,7 @@ If SSL is turned off globally but turned on for your request, you will see the e
 
 <img alt="Verification error" src="https://assets.postman.com/postman-docs/response-error-disable-ssl.jpg" width="300px"/>
 
-> If you select **Disable SSL Verification** in the error message, you will need to turn it back on if you want to verify certificates for future requests. To enable it globally, select the gear icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-gear-outline-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> in the Postman header and then select **Settings**. In the **General** tab, select the **SSL certificate verification** toggle.
+> If you select **Disable SSL Verification** in the error message, you will need to turn it back on if you want to verify certificates for future requests. To enable it globally, select the gear icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-gear-outline-v9.jpg#icon" width="18px"> in the Postman header and then select **Settings**. In the **General** tab, select the **SSL certificate verification** toggle.
 
 <!--  -->
 

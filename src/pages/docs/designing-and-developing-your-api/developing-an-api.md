@@ -96,6 +96,6 @@ You can link mock servers for a collection to an API, by creating a new mock ser
 
 You can remove an associated documentation collection, environment, or mock server collection from an API.
 
-In the API version **Overview** tab, hover over the element and select <img alt="Remove icon" src="https://assets.postman.com/postman-docs/icon-remove-api-element-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> to the right of it.
+In the API version **Overview** tab, hover over the element and select <img alt="Remove icon" src="https://assets.postman.com/postman-docs/icon-remove-api-element-v9.jpg#icon" width="18px"> to the right of it.
 
 This will only remove the association between the element and the API version. It will not delete the element or remove it from your workspace.

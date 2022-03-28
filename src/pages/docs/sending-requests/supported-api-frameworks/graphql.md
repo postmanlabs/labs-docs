@@ -75,7 +75,7 @@ Postman has built-in support for [sending GraphQL queries in the request body](#
 
 ### Introspection and importing GraphQL schemas
 
-To enable autocompletion, your request needs a GraphQL schema. Postman will automatically fetch a schema based on the request URL, using GraphQL introspection. A message is displayed next to the schema selection list when Postman is able to auto-fetch a schema. If your schema has changed, select the refresh icon <img alt="Refresh icon" src="https://assets.postman.com/postman-docs/icon-refresh-v9-5.jpg" width="14px" style="vertical-align:middle;margin-bottom:5px"> to pull in the changes.
+To enable autocompletion, your request needs a GraphQL schema. Postman will automatically fetch a schema based on the request URL, using GraphQL introspection. A message is displayed next to the schema selection list when Postman is able to auto-fetch a schema. If your schema has changed, select the refresh icon <img alt="Refresh icon" src="https://assets.postman.com/postman-docs/icon-refresh-v9-5.jpg#icon" width="14px"> to pull in the changes.
 
 <img src="https://assets.postman.com/postman-docs/graphql-autofetch-schema.jpg" width="300px" alt="GraphQL auto-fetch schema"/>
 
@@ -92,7 +92,7 @@ You can also import a schema manually. When you [create or import a GraphQL sche
 
     ![Edit the API schema](https://assets.postman.com/postman-docs/graphql-schema-definition.jpg)
 
-1. Return to your **GraphQL** body. Select your schema from the dropdown list. You may need to refresh by selecting the <img alt="Refresh icon" src="https://assets.postman.com/postman-docs/icon-refresh-v9-5.jpg" width="14px" style="vertical-align:middle;margin-bottom:5px"> refresh icon.
+1. Return to your **GraphQL** body. Select your schema from the dropdown list. You may need to refresh by selecting the <img alt="Refresh icon" src="https://assets.postman.com/postman-docs/icon-refresh-v9-5.jpg#icon" width="14px"> refresh icon.
 1. Begin editing your query. Postman will now suggest autocomplete options from the data within your new GraphQL schema.
 
 ![GraphQL autocomplete](https://assets.postman.com/postman-docs/graphql-autocomplete.jpg)

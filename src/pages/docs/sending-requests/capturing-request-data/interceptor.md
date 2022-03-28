@@ -60,7 +60,7 @@ Once Interceptor is running in Chrome, you can start a debug session, which is a
 To get started, install Postman Interceptor:
 
 1. [Download](https://go.pstmn.io/interceptor-download) Interceptor in the Chrome Web Store. If you already have the extension, ensure it is version v0.2.26 or later.
-1. Select <img alt="Capture icon" src="https://assets.postman.com/postman-docs/icon-capture.jpg" width="15px" style="vertical-align:middle;margin-bottom:5px"> **Capture requests** in the Postman footer.
+1. Select <img alt="Capture icon" src="https://assets.postman.com/postman-docs/icon-capture.jpg#icon" width="15px"> **Capture requests** in the Postman footer.
 1. On the **Capture requests** window, select the **Via Interceptor** tab.
 
     <img src="https://assets.postman.com/postman-docs/capture-via-interceptor-tab-v9-13.jpg" alt="Capture via Interceptor tab" width="300px"/>
@@ -109,19 +109,19 @@ There are several controls you can use to limit, organize, and investigate traff
 
 When you select one or more requests from the list on the **Requests** tab, you can use the following controls:
 
-* <img alt="External link icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg" width="12px" style="vertical-align:middle;margin-bottom:5px"> **Delete** - delete the request.
+* <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> **Delete** - delete the request.
 
 When you select one or more cookies from the list on the **Cookies** tab, you can use the following controls:
 
 * **+ Add to Cookie Jar** - add the request to the Postman cookie jar.
 
-* <img alt="External link icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg" width="12px" style="vertical-align:middle;margin-bottom:5px"> **Delete** - delete the cookie.
+* <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> **Delete** - delete the cookie.
 
 The bottom right corner shows the total time of the capture session, along with the total size of captured traffic. If you want to temporarily stop the capture session, select the **Pause** button, and select **Resume** to restart it.
 
 When you're done with your debug session, select **Stop** in the lower right corner. This will finish the debug session, and results of the debug session will be saved in the **History** tab.
 
-After stopping the session, the Interceptor is still connected. Select <img alt="Capture icon" src="https://assets.postman.com/postman-docs/icon-capture.jpg" width="15px" style="vertical-align:middle;margin-bottom:5px"> **Capture requests** in the Postman footer, and you can start another debug session.
+After stopping the session, the Interceptor is still connected. Select <img alt="Capture icon" src="https://assets.postman.com/postman-docs/icon-capture.jpg#icon" width="15px"> **Capture requests** in the Postman footer, and you can start another debug session.
 
 ### Viewing the Interceptor debug session results
 
@@ -133,7 +133,7 @@ The **Overview** displays summary graphs of the traffic captured in the session.
 
 The **Requests** and **Cookies** tabs display requests, responses, and cookies, similar to the same tabs available during a capture session. The same options for searching, expanding, saving, and deleting items described in Step 4 are available. You can also add selected requests to a collection. Use the controls at the bottom of the table to limit the number of items per page and navigate through the pages of results.
 
-You can rename an Interceptor debug session by selecting the name at the top of the window and entering a new name. Select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to the debug session name to rename or delete the session.
+You can rename an Interceptor debug session by selecting the name at the top of the window and entering a new name. Select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> next to the debug session name to rename or delete the session.
 
 ## How it works
 
@@ -239,8 +239,8 @@ The communication between Interceptor and Postman is automatically encrypted. Yo
 
 ### Adding a custom encryption key in the UI
 
-1. In the Postman app, select <img alt="Capture icon" src="https://assets.postman.com/postman-docs/icon-capture.jpg" width="15px" style="vertical-align:middle;margin-bottom:5px"> **Capture requests** in the Postman footer. Then in the **Capture requests** window, select the **Via Interceptor** tab.
-1. To the right of the green **Connected** status, select the lock icon <img alt="Lock icon" src="https://assets.postman.com/postman-docs/icon-lock.jpg" width="11px" style="vertical-align:middle;margin-bottom:5px">.
+1. In the Postman app, select <img alt="Capture icon" src="https://assets.postman.com/postman-docs/icon-capture.jpg#icon" width="15px"> **Capture requests** in the Postman footer. Then in the **Capture requests** window, select the **Via Interceptor** tab.
+1. To the right of the green **Connected** status, select the lock icon <img alt="Lock icon" src="https://assets.postman.com/postman-docs/icon-lock.jpg#icon" width="11px">.
 
     <img src="https://assets.postman.com/postman-docs/interceptor-session-key.jpg" width="350px" alt="Set encryption in app"/>
 

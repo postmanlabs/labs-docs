@@ -23,7 +23,7 @@ warning: false
 
 Postman provides a way to view and set SSL certificates on a per domain basis.
 
-To manage your client certificates, select the gear icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-gear-outline-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> on the right side of the header toolbar, choose **Settings**, and select the **Certificates** tab.
+To manage your client certificates, select the gear icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-gear-outline-v9.jpg#icon" width="18px"> on the right side of the header toolbar, choose **Settings**, and select the **Certificates** tab.
 
 [![certificates tab](https://assets.postman.com/postman-docs/WS-certificates.png)](https://assets.postman.com/postman-docs/WS-certificates.png)
 
@@ -97,6 +97,6 @@ You can find more information about failed certification in the [console](/docs/
 
 <img alt="Certificate fail in console" src="https://assets.postman.com/postman-docs/console-certificate-fail.jpg" width="600px"/>
 
-You can toggle SSL verification on and off by default in the Postman __Settings__ (select the gear icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-gear-outline-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> at the top right) or for a specific request in the __Settings__ tab.
+You can toggle SSL verification on and off by default in the Postman __Settings__ (select the gear icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-gear-outline-v9.jpg#icon" width="18px"> at the top right) or for a specific request in the __Settings__ tab.
 
 [![Request SSL](https://assets.postman.com/postman-docs/request-ssl-toggle.jpg)](https://assets.postman.com/postman-docs/request-ssl-toggle.jpg)

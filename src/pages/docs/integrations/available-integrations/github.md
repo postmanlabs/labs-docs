@@ -87,7 +87,7 @@ To integrate with GitHub, you will need a GitHub personal access token.
 
 Every change saved to your Postman collection automatically commits changes to your GitHub repo in JSON format. Navigate to your GitHub repository to view your collections.
 
-<img alt="Github integrations screen" src="https://assets.postman.com/postman-docs/Github_Integrations5.png" width="100%" style="border: 1px solid #4a4a4a">
+<img alt="Github integrations screen" src="https://assets.postman.com/postman-docs/Github_Integrations5.png" style="border: 1px solid #4a4a4a">
 
 ## Backing up collections to GitHub on a custom domain
 

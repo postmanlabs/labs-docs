@@ -53,7 +53,7 @@ When you select **Team Settings**, you will be automatically directed to **Team 
 * Logos must have a 1:1 aspect ratio (height:width), and cover photos must have a 1:7.5 aspect ratio. If your image has a different aspect ratio, Postman prompts you to select a portion of your image to display.
 * Favicons must be in **.ico** format, no larger than 32x32 pixels, and 500 KB or less in size. Your favicon is displayed on the browser tab of your team's published documentation site.
 
-**Make your team discoverable.** If you enable your team's public profile, your team will be visible on Postman's [API Network](/docs/collaborating-in-postman/adding-private-network/), along with any [APIs](/docs/collaborating-in-postman/adding-private-network/#adding-your-apis), [collections](/docs/publishing-your-api/publishing-your-docs/), and [workspaces](/docs/collaborating-in-postman/public-workspaces/) your team has published. You can also add an **About your team** section, a link to your website, and links to social media accounts to your team's public profile.
+**Make your team discoverable.** If you enable your team's public profile, your team will be visible on Postman's [API Network](/docs/collaborating-in-postman/adding-private-network/), along with any [APIs](/docs/collaborating-in-postman/adding-private-network/#adding-your-apis), [collections](/docs/publishing-your-api/publishing-your-docs/), and [workspaces](/docs/collaborating-in-postman/using-workspaces/public-workspaces/) your team has published. You can also add an **About your team** section, a link to your website, and links to social media accounts to your team's public profile.
 
 ## Making your team discoverable
 

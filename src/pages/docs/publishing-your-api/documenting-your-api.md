@@ -75,8 +75,8 @@ Postman automatically generates basic documentation for any collection you creat
 To make your documentation even more valuable to users, [add descriptions](/docs/publishing-your-api/authoring-your-documentation/) to the items in your collection. Any descriptions you add are automatically included in the documentation for your collection.
 
 1. Select **Collections** in the sidebar, and then select a collection, folder, or request.
-1. Select **Documentation** <img alt="Documentation icon" src="https://assets.postman.com/postman-docs/documentation-icon-v8-10.jpg" width="16px" style="vertical-align:middle;margin-bottom:5px"> in the context bar.
-1. Select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to the description.
+1. Select **Documentation** <img alt="Documentation icon" src="https://assets.postman.com/postman-docs/documentation-icon-v8-10.jpg#icon" width="16px"> in the context bar.
+1. Select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px"> next to the description.
 1. Compose your new content, and then select **Save**. To learn more about using Postman's built-in editing tools, see [Authoring your docs](/docs/publishing-your-api/authoring-your-documentation/).
 
 <img alt="Documentation pane" src="https://assets.postman.com/postman-docs/documentation-pane-v9.jpg" width="566px">
@@ -136,7 +136,7 @@ To use an existing collection for API documentation:
 
 ### Editing API documentation
 
-You can add to your API documentation collections right from the **Documentation** tab. First, select a linked collection in the left pane. Then select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to any description and use [the built-in editing tools](/docs/publishing-your-api/authoring-your-documentation/) to author content.
+You can add to your API documentation collections right from the **Documentation** tab. First, select a linked collection in the left pane. Then select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px"> next to any description and use [the built-in editing tools](/docs/publishing-your-api/authoring-your-documentation/) to author content.
 
 Another way to work on your API documentation is to open the linked collection. In the **Documentation** tab, select **View Collection** at the upper right, and then [edit the documentation](#documenting-a-collection) in the linked collection.
 
@@ -150,7 +150,7 @@ To remove a linked documentation collection from an API:
 
 1. Select **APIs** in the left sidebar, and then select an API and a version.
 1. Select the **Overview** tab.
-1. Select the remove button <img alt="Remove button" src="https://assets.postman.com/postman-docs/icon-remove-api-element-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to the collection you want to remove from this API version.
+1. Select the remove button <img alt="Remove button" src="https://assets.postman.com/postman-docs/icon-remove-api-element-v9.jpg#icon" width="18px"> next to the collection you want to remove from this API version.
 1. Select **Remove Documentation**.
 
 > Removing documentation only removes the link between the collection and the API version. The collection itself is not deleted.

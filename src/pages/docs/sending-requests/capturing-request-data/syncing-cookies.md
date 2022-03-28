@@ -55,7 +55,7 @@ Postman Interceptor is a Chrome extension that captures network requests directl
 
 1. Install the Postman Interceptor Chrome extension by following the steps in [Installing Interceptor](/docs/sending-requests/capturing-request-data/interceptor/#installing-interceptor).
 
-1. Select <img alt="Cookies icon" src="https://assets.postman.com/postman-docs/icon-cookies.jpg" width="16px" style="vertical-align:middle;margin-bottom:5px"> **Cookies** in the Postman footer.
+1. Select <img alt="Cookies icon" src="https://assets.postman.com/postman-docs/icon-cookies.jpg#icon" width="16px"> **Cookies** in the Postman footer.
 1. In the **Cookies** window, select the **Sync Cookies** tab and select the **Interceptor** option.
 
     > Make sure you see the message **Connected**. If you see the message **Disconnected**, make sure your Chrome browser is open and the [Interceptor extension is installed](/docs/sending-requests/capturing-request-data/interceptor/#installing-interceptor).
@@ -71,7 +71,7 @@ Postman Interceptor is a Chrome extension that captures network requests directl
 Postman is now ready to capture and sync cookies using Interceptor.
 
 * Cookies for the domains you specified are automatically synced from Chrome to Postman.
-* To stop syncing cookies for a domain, select <img alt="Close icon" src="https://assets.postman.com/postman-docs/icon-close.jpg" width="16px" style="vertical-align:middle;margin-bottom:5px"> next to the domain name.
+* To stop syncing cookies for a domain, select <img alt="Close icon" src="https://assets.postman.com/postman-docs/icon-close.jpg#icon" width="16px"> next to the domain name.
 * To stop capturing and syncing all cookies, select **Stop Syncing**.
 
 ## Syncing cookies with the Postman proxy
@@ -80,7 +80,7 @@ A proxy acts as an intermediary between a client application (like a mobile app)
 
 > The cookie jar always has the latest value for a given cookie. If you need to observe how cookie values change during a request flow, start a [proxy debug session](/docs/sending-requests/capturing-request-data/capturing-http-requests/).
 
-1. Select <img alt="Cookies icon" src="https://assets.postman.com/postman-docs/icon-cookies.jpg" width="16px" style="vertical-align:middle;margin-bottom:5px"> **Cookies** in the Postman footer.
+1. Select <img alt="Cookies icon" src="https://assets.postman.com/postman-docs/icon-cookies.jpg#icon" width="16px"> **Cookies** in the Postman footer.
 1. In the **Cookies** window, select the **Sync Cookies** tab and select the **Proxy** option.
 1. Enter a **Port** number. The default value is `5555`. You will use this port number when configuring clients.
 
@@ -98,7 +98,7 @@ A proxy acts as an intermediary between a client application (like a mobile app)
 Postman is now ready to capture and sync cookies using the proxy.
 
 * To start syncing cookies, configure one or more clients to use the Postman proxy. Learn more about [configuring the proxy on a client device](/docs/sending-requests/capturing-request-data/capturing-http-requests/#step-3-configure-the-proxy-on-a-client-device).
-* To stop syncing cookies for a domain, select <img alt="Close icon" src="https://assets.postman.com/postman-docs/icon-close.jpg" width="16px" style="vertical-align:middle;margin-bottom:5px"> next to the domain name.
+* To stop syncing cookies for a domain, select <img alt="Close icon" src="https://assets.postman.com/postman-docs/icon-close.jpg#icon" width="16px"> next to the domain name.
 * To stop capturing and syncing all cookies, select **Stop Syncing**.
 
 ## Next steps
