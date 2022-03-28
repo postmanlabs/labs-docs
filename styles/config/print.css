@@ -111,6 +111,12 @@
         height: auto;
         display: block;
     }
+    img[src$='#icon'] {
+        margin-bottom: 0;
+        display: inline;
+        width: 18pt;
+        height: auto;
+      }
         
     /* Adding custom messages before and after the content */
     .entry:after {
