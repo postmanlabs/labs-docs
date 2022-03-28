@@ -94,7 +94,7 @@ To update an existing cookie for a domain, select the cookie you want to edit. Y
 
 ### Deleting a cookie
 
-To delete a domain and all cookies associated with it, select <img alt="Close icon" src="https://assets.postman.com/postman-docs/icon-close.jpg" width="16px" style="vertical-align:middle;margin-bottom:5px"> next to the domain. To delete an individual cookie, select <img alt="Close icon" src="https://assets.postman.com/postman-docs/icon-close.jpg" width="16px" style="vertical-align:middle;margin-bottom:5px"> next to the cookie.
+To delete a domain and all cookies associated with it, select <img alt="Close icon" src="https://assets.postman.com/postman-docs/icon-close.jpg#icon" width="16px"> next to the domain. To delete an individual cookie, select <img alt="Close icon" src="https://assets.postman.com/postman-docs/icon-close.jpg#icon" width="16px"> next to the cookie.
 
 ## Accessing cookies in scripts
 

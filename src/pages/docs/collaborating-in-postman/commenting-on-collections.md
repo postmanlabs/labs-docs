@@ -108,7 +108,7 @@ You can make changes to comments you've already posted. Other team members canno
 1. In Postman, open the collection with the comment you want to edit.
 2. Find the comment and select **Comment** > **Edit**.
 
-<img src="https://assets.postman.com/postman-docs/editing-a-comment-v8.jpg" alt="Edit comment" width="50%">
+<img src="https://assets.postman.com/postman-docs/editing-a-comment-v8.jpg" alt="Edit comment" width="395px">
 
 ## Resolving comments
 
@@ -123,9 +123,9 @@ You can resolve comments made on request parameters when you no longer want them
 ## Deleting comments
 
 1. In Postman, open the collection with the comment you want to delete.
-2. Find the comment and select the trash can icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg" width="12px" style="vertical-align:middle;margin-bottom:5px">.
+2. Find the comment and select the trash can icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px">.
 
-<img src="https://assets.postman.com/postman-docs/deleting-a-comment-v8.jpg" alt="Delete comment" width="50%">
+<img src="https://assets.postman.com/postman-docs/deleting-a-comment-v8.jpg" alt="Delete comment" width="399px">
 
 > For moderation purposes, admins can delete comments made by anyone, but cannot modify comments.
 
@@ -142,7 +142,7 @@ Your teammate will be notified in the app or with an email that they've been tag
 
 > If your teammate has turned off notifications then they will not be notified. If they don't have access to the collection they've been tagged on, they'll need to request access before they can read the comment.
 
-<img src="https://assets.postman.com/postman-docs/check-comment-notifications-v8.jpg" alt="Notification bell" width="50%">
+<img src="https://assets.postman.com/postman-docs/check-comment-notifications-v8.jpg" alt="Notification bell" width="398px">
 
 ## Next steps
 

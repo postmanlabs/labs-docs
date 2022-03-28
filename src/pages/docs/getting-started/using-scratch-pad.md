@@ -16,7 +16,7 @@ If you log out or your connection to Postman breaks, you'll see a global banner 
 
 <img alt="Scratch Pad global banner" src="https://assets.postman.com/postman-docs/scratch-pad-notice.jpg" width="350px" />
 
-If you are logged in and want to go to the Scratch Pad, select the gear icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-gear-outline-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> to the right side of the header toolbar and select **Scratch Pad**.
+If you are logged in and want to go to the Scratch Pad, select the gear icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-gear-outline-v9.jpg#icon" width="18px"> to the right side of the header toolbar and select **Scratch Pad**.
 
 <img alt="Enter Scratch Pad" src="https://assets.postman.com/postman-docs/scratch-pad-enter.jpg" width="200px" />
 
