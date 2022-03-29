@@ -64,8 +64,9 @@ To send requests to an API that uses mutual TLS authentication, add your client 
 1. Select **Add Certificate**.
 1. Enter the **Host** domain for the certificate (don't include the protocol). For example, enter `postman-echo.com` to send requests to the [Postman Echo API](https://www.postman.com/postman/workspace/published-postman-templates/documentation/631643-f695cab7-6878-eb55-7943-ad88e1ccfd65).
 
-    You can optionally enter a custom port number to associate with this domain. If you don't specify a port, Postman uses the default HTTPS port (443).
+    > The **Host** field supports pattern matching. If you enter `*.example.com`, the same client certificate will be used for all `example.com` subdomains.
 
+1. (Optional) Enter a custom port number to associate with the domain. If you don't specify a port, Postman uses the default HTTPS port (443).
 1. Select the **CRT file** and the **Key file** for your certificate *OR* select the **PFX file** for your certificate.
 1. If you used a **Passphrase** when generating the client certificate, enter it in the box. Otherwise, leave the box blank.
 1. Select **Add**.
