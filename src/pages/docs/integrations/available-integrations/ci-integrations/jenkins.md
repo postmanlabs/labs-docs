@@ -11,9 +11,11 @@ contextual_links:
     url: "/docs/integrations/ci-integrations/"
 ---
 
-Jenkins is an open source automation server that can act as a CI (continuous integration) server or a continuous delivery (CD) hub. With hundreds of available plug-ins, software development teams can use Jenkins to build, deploy, and automate any project.
+Jenkins is an open source automation server that can act as a CI (continuous integration) server or a continuous delivery (CD) hub. With hundreds of available plug-ins, teams can use Jenkins to build, deploy, and automate almost any project.
 
-To set up CircleCI integration for your API, you’ll need to create an API token in CircleCI and configure your API in Postman. After you set up the integration, you can view the status of builds or kick off a new build, all from within Postman.
+To set up Jenkins integration for your API, you’ll need to create an API token in Jenkins and configure your API in Postman. After you set up the integration, you can view the status of builds or kick off a new build, all from within Postman.
+
+> If you use Newman in your pipeline, you can configure Jenkins to send Newman collection run information back to Postman.
 
 ## Creating a CircleCI API Token
 
