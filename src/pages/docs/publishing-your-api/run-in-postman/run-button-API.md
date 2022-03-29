@@ -84,7 +84,7 @@ function () {
 }
 ```
 
-The `env.create` action will return the total number of environments associated with Run in Postman buttons on the page on success or `false` on failure.
+The `env.create` action will return the total number of environments associated with Run in Postman buttons on the page on success and `false` on failure.
 
 ## Editing an existing environment
 
