@@ -11,18 +11,19 @@ contextual_links:
     url: "/docs/integrations/ci-integrations/"
 ---
 
-Jenkins is an open source automation server that can act as a CI (continuous integration) server or a continuous delivery (CD) hub. With hundreds of available plug-ins, teams can use Jenkins to build, deploy, and automate almost any project.
+[Jenkins](https://www.jenkins.io/) is an open source automation server that can act as a CI (continuous integration) server or a continuous delivery (CD) hub. With hundreds of available plug-ins, teams can use Jenkins to build, deploy, and automate almost any project.
 
 To set up Jenkins integration for your API, you’ll need to create an API token in Jenkins and configure your API in Postman. After you set up the integration, you can view the status of builds or kick off a new build, all from within Postman.
 
 > If you use Newman in your pipeline, you can configure Jenkins to send Newman collection run information back to Postman.
 
-## Creating a CircleCI API Token
+## Creating a Jenkins API token
 
-1. Log into [CircleCI](https://app.circleci.com/settings/user/tokens) and navigate to **User Settings > Personal API Tokens**.
-1. Select **Create New Token**.
-1. Enter a **Token Name** and select **Add API Token**.
-1. Select **Copy** to copy the new token. (You might want to save the token somewhere safe.)
+1. Log into Jenkins.
+1. Select your user name at the upper right, and then select **Configure**.
+1. Select **Add new Token**.
+1. Enter a name for the token and select **Generate**.
+1. Copy the new token. (You might want to save the token somewhere safe.)
 
 ## Configuring CircleCI integration
 
