@@ -66,7 +66,7 @@ To publish the documentation for a collection:
     * **Header background color:** Specify a color (hex format) for the header at the top of the documentation window.
     * **Code background color:** Specify a color (hex format) for sample code blocks.
     * **Highlight color:** Specify a color (hex format) for hyperlinks.
-    * **Move to public workspace:** (Optional) Select an available [public workspace](/docs/collaborating-in-postman/public-workspaces/) to move the collection to. This will make the collection discoverable on the [Public API Network](https://www.postman.com/explore), along with its documentation.
+    * **Move to public workspace:** (Optional) Select an available [public workspace](/docs/collaborating-in-postman/using-workspaces/public-workspaces/) to move the collection to. This will make the collection discoverable on the [Public API Network](https://www.postman.com/explore), along with its documentation.
 
 1. To see what your documentation will look like using the current settings, select **Preview Documentation**. The preview automatically updates as you change settings.
 
@@ -92,7 +92,7 @@ To share your public documentation, simply share the published URL with your tea
 
 If your collection is in a public workspace, others can search for and find your collection on the [Public API Network](https://www.postman.com/explore), along with its documentation. If you haven't already moved your collection to a public workspace, you can do so at any time by [changing the publication settings](#changing-publication-settings).
 
-> By sharing your documentation with the Public API Network, you increase the visibility of your API to a wider range of consumers in the Postman community. Learn more about [public workspaces](/docs/collaborating-in-postman/public-workspaces/).
+> By sharing your documentation with the Public API Network, you increase the visibility of your API to a wider range of consumers in the Postman community. Learn more about [public workspaces](/docs/collaborating-in-postman/using-workspaces/public-workspaces/).
 
 ## Changing publication settings
 
