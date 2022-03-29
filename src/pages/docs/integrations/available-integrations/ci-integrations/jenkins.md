@@ -25,22 +25,24 @@ To set up Jenkins integration for your API, you’ll need to create an API token
 1. Enter a name for the token and select **Generate**.
 1. Copy the new token. (You might want to save the token somewhere safe.)
 
-## Configuring CircleCI integration
+## Configuring Jenkins integration
 
 1. Open your API by selecting **APIs** in the left sidebar, and then selecting an API and a version. *Each API version can be linked to only one CI project*.
 1. Select the **Test** tab.
-1. Under **Connect to CI/CD Builds**, select **CircleCI**.
+1. Under **Connect to CI/CD Builds**, select **Jenkins**.
 
     ![CI Integration](https://assets.postman.com/postman-docs/ci-add-integration-v9-15.jpg)
 
-1. For **API Key**, enter your CircleCI token.
 1. Enter a **Nickname** to help you recognize the integration later.
+1. Enter the **URL** for your Jenkins server.
+1. Enter your **Jenkins username**.
+1. For **Authentication token**, enter your Jenkins API token.
 1. Select the **CI project** used for your API.
 1. Select **Connect**.
 
     <img alt="Add API key" src="https://assets.postman.com/postman-docs/jenkins-connect-project-v9-15.jpg" width="527px">
 
-## Configuring Newman for CircleCI
+## Configuring Newman for Jenkins
 
 With the help of Newman and the Postman API, you can run API tests created in Postman as part of your CI pipeline. First [generate the Newman configuration code](/docs/integrations/ci-integrations/#configuring-newman-for-ci) in Postman. Then add the configuration code to CircleCI:
 
@@ -51,7 +53,7 @@ With the help of Newman and the Postman API, you can run API tests created in Po
 1. Select **Save and Run** to run the pipeline using the new configuration.
 1. To view the test results in Postman, open your API and select the **Tests** tab.
 
-### Example CircleCI config.yml
+### Example of Jenkins config
 
 ```yaml
 version: 2.1
