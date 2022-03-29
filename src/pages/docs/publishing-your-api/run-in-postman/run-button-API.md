@@ -84,8 +84,8 @@ function () {
 }
 ```
 
-The `env.create` action will return `true` on success, `false` on failure.
-
+The `env.create` action will return the total number of environments associated with Run in Postman buttons on the page on success or `false` on failure.
+ 
 ## Editing an existing environment
 
 Use the `env.assign` method to update an environment:
