@@ -4,17 +4,16 @@ Thanks for your interest in contributing to the Postman docs! :rocket::book::tro
 
 Check out the [contributing](CONTRIBUTING.md) guide for a step-by-step overview of making your contribution. Read on for tips on what types of language to use in your edits and additions.
 
-- [Documentation style guide](#documentation-style-guide)
-  - [Audience](#audience)
-  - [Language style](#language-style)
-    - [Grammar and word choice](#grammar-and-word-choice)
-    - [Tone](#tone)
-    - [Readability](#readability)
-  - [Formatting and structure](#formatting-and-structure)
-    - [Document sections](#document-sections)
-  - [Images](#images)
-  - [Links](#links)
-  - [Publish!](#publish)
+* [Audience](#audience)
+* [Language style](#language-style)
+    * [Grammar and word choice](#grammar-and-word-choice)
+    * [Tone](#tone)
+    * [Readability](#readability)
+* [Formatting and structure](#formatting-and-structure)
+    * [Document sections](#document-sections)
+* [Images](#images)
+* [Links](#links)
+* [Publish!](#publish)
 
 _This style guide is a work in progress, and we'll be continuing to iterate on it. Create an [issue](https://github.com/postmanlabs/postman-docs/issues) if you'd like to provide feedback!_
 
