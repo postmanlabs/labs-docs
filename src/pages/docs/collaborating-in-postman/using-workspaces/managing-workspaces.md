@@ -29,7 +29,7 @@ contextual_links:
 warning: false
 ---
 
-Use workspaces to organize your work in Postman and collaborate with teammates ([or the world](/docs/collaborating-in-postman/public-workspaces/)). Workspaces group together various elements such as collections, APIs, environments, mock servers, and monitors. A particular element can exist only in a single workspace. Access to elements in a workspace is controlled by [workspace roles](#managing-workspace-roles).
+Use workspaces to organize your work in Postman and collaborate with teammates ([or the world](/docs/collaborating-in-postman/using-workspaces/public-workspaces/)). Workspaces group together various elements such as collections, APIs, environments, mock servers, and monitors. A particular element can exist only in a single workspace. Access to elements in a workspace is controlled by [workspace roles](#managing-workspace-roles).
 
 > You can [create new workspaces](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/) in addition to the default personal and team workspaces.
 
@@ -161,15 +161,11 @@ To move an element to a different workspace:
 
 ## Seeing who is in your workspace
 
-See all of the people in your workspace and keep track of who's working on workspace elements at any given time. You can also make sure that all teammates who should be included in your workspace are there.
+You can view who's active in your workspace at any time via the list of avatars in the top right corner of Postman. If you're in a private or team workspace, this list will include all team members who are currently active in the workspace, as well as all team members who are currently inactive, but have visited the workspace before.
 
-The avatars at the top of Postman window are bright when a user is active and dimmed when the user hasn't been active for fifteen to twenty seconds. Hover over the avatars to see the names of your teammates.
+If you're in a public workspace, this list will include all active users with [public profiles](/docs/getting-started/postman-account/#making-your-profile-public) as well as users who've chosen to remain anonymous by not enabling their public profile.
 
-<img alt="Active user" src="https://assets.postman.com/postman-docs/active-member-v8.jpg" width="250px"/>
-
-If more than three people are in a workspace, the fourth avatar will be a number representing the remaining users. Select the number to see a list of all active and inactive users. Any team member who has visited the workspace even once will be listed under the users list. You can collapse the list of active or inactive users.
-
-<img alt="Active user list" src="https://assets.postman.com/postman-docs/active-inactive-members-v8.jpg" width="300px"/>
+<img alt="Active users in public workspace" src="https://assets.postman.com/postman-docs/presence-public-workspace-v9.15.jpg" width="250px"/>
 
 ## Deleting a workspace
 
@@ -183,7 +179,7 @@ To delete a workspace:
 
 <img alt="Delete workspace" src="https://assets.postman.com/postman-docs/delete-a-workspace-v9.jpg" width="506px"/>
 
-> To delete a [public workspaces](/docs/collaborating-in-postman/public-workspaces/), you must first change the [workspace visibility](#changing-workspace-visibility) to team or private.
+> To delete a [public workspaces](/docs/collaborating-in-postman/using-workspaces/public-workspaces/), you must first change the [workspace visibility](#changing-workspace-visibility) to team or private.
 
 ## Next steps
 

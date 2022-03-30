@@ -38,11 +38,9 @@ With a Postman Basic, Professional, or Enterprise account, you can see generated
 
 ## Viewing workspace activity
 
-You can [access the activity feed from Postman](#accessing-the-activity-feed-from-postman). The activity feed will show information on who added or removed collections, environments, or entities from the workspace as well as members joining and leaving the workspace. You can [filter this information](#filtering-the-activity-feed) directly within the activity feed.
+You can [access the activity feed in Postman](#accessing-the-activity-feed-from-postman). The activity feed will show information on who added or removed collections, environments, or entities from the workspace as well as members joining and leaving the workspace. You can [filter this information](#filtering-the-activity-feed) directly within the activity feed.
 
-You can also see who is actively working in your workspace at any time. The avatars of members currently active in the workspace will be brightly colored and displayed at the top of your Postman screen.
-
-<img alt="Active user" src="https://assets.postman.com/postman-docs/active-member-v8.jpg" width="300px"/>
+You can also [view who's active in your workspace](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#seeing-who-is-in-your-workspace).
 
 ### Accessing the activity feed from Postman
 
