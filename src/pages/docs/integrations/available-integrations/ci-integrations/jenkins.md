@@ -15,7 +15,7 @@ contextual_links:
 
 To set up Jenkins integration for your API, you’ll need to create an API token in Jenkins and configure your API in Postman. After you set up the integration, you can view the status of builds or kick off a new build, all from within Postman.
 
-> If your Jenkins pipeline is configured to run collections using Newman, you can configure the  Newman reporter to send collection run information back to Postman.
+> If your Jenkins pipeline is configured to run API tests using Newman, you can configure the  Newman reporter to send collection run information back to Postman.
 
 ## Creating a Jenkins API token
 
@@ -48,7 +48,6 @@ After you set up Jenkins integration, information for build jobs is available in
 
 To view build jobs, open an API version and select the **Test** tab. The most recent jobs are listed under **CI/CD Builds**.
 
-* To view collection run details, use the arrows to expand a build and then expand **Collection Runs**. Expand a collection to view details about the collection run.
 * To view a build in Jenkins, hover over a build and select **View build details**.
 * To kick off a new build, select **Run Build**.
 * To edit or delete the integration, select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px">.
@@ -58,6 +57,16 @@ To view build jobs, open an API version and select the **Test** tab. The most re
 To view the full list of build jobs, select **View Builds**. Use the dropdown list to filter the list by build status. To get the latest build status information, select **Refresh**.
 
 <img alt="View all CI builds" src="https://assets.postman.com/postman-docs/ci-view-builds-v9.jpg" width="788">
+
+## Viewing collection run details
+
+Using Newman, you can configure your Jenkins pipeline to run Postman collections with your API tests tests. To view details for any collection that were run as part of a build, use the arrows to expand a build and then expand **Collection Runs**. Expand a collection to view details about the collection run.
+
+SCREENSHOT
+
+Select **View Report** to view a collection run report in the Postman **History**.
+
+SCREENSHOT
 
 ## Configuring Newman for Jenkins
 
