@@ -4,6 +4,18 @@ order: 7.1
 page_id: "using-the-scratch-pad"
 updated: 2022-03-01
 warning: false
+contextual_links:
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Accessing Scratchpad in Postman | Postman Level Up"
+    url: "https://youtu.be/AHpdO8AetjA"
+  - type: link
+    name: "Importing Data from the Scratchpad | Postman Level Up"
+    url: "https://youtu.be/GZWf7F-aVDc"
+
 ---
 
 The _Scratch Pad_ is a space where you can work if you're not connected to Postman servers. When you aren't logged in or don't have a network connection, you can still access some Postman features offline, such as creating collections and requests, or sending requests.
