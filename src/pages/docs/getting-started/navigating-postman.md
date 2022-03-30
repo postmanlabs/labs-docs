@@ -40,9 +40,19 @@ warning: false
 
 ---
 
-Postman provides a variety of views and controls to help you manage your API projects.
+Postman provides a variety of views and controls to help you manage your API projects. <!-- TODO: more intro -->
 
 [![Postman app](https://assets.postman.com/postman-docs/app-overview-v9.5.jpg)](https://assets.postman.com/postman-docs/app-overview-v9.5.jpg)
+
+The primary interface areas for Postman are the: <!-- TODO: this is bad -->
+
+* [Header](#header)
+* [Sidebar](#sidebar)
+* [Main work area](#main-work-area)
+    * [Tabs](#tabs)
+    * [Context bar](#context-bar)
+    * [Environment selector and environment quick look](#environment-selector-and-environment-quick-look)
+* [Footer](#footer)
 
 <!-- TODO: semi-abstracted image with labels -->
 
@@ -50,33 +60,32 @@ Postman provides a variety of views and controls to help you manage your API pro
 
 The header allows you to create workspaces, access reports, explore the public API network,  within Postman, view sync status and notifications, move and invite collaborators to workspaces, capture requests and cookies, and access your settings, account, and [Postman plan](/docs/administration/buying/).
 
-<!-- TODO: intro -->
+<img alt="Postman header left side" src="https://assets.postman.com/postman-docs/navigating-postman-header-left-v9.15.jpg" width="500px"/>
 
-<!-- TODO: screenshot -->
+* **Home**: Go to your personal home page, which includes alerts, announcements, your activity feed, your recently visited workspaces, and links to resources for [your team](/docs/collaborating-in-postman/collaboration-intro/) if applicable.
+* **Workspaces**: Search for workspaces, view your recently visited workspaces, or [create a new workspace](/docs/getting-started/creating-your-first-workspace/).
+* **API Network**: Explore the [Public API Network](/docs/getting-started/exploring-public-api-network/) and access your team's [Private API Network](/docs/collaborating-in-postman/adding-private-network/).
+* **Reports**: _Available for Postman Enterprise and select Postman Professional plans_. View [reports](/docs/reports/reports-overview/) with details about your team, workspaces, and APIs, and your security audit.
+* **Explore**: Browse public APIs, teams, workspaces, and collections on Postman.
 
-* **Home**: Go to your personal home page, which includes alerts, announcements, your activity feed, your recently visited workspaces, and links to resources for [your team](/docs/collaborating-in-postman/collaboration-intro/) (if applicable).
-* **Workspaces**: Search for workspaces, view your recently visited workspaces, or create a new workspace. For information on how to get started with workspaces, see [Creating a workspace](/docs/getting-started/creating-your-first-workspace/).
-* **API Network**: Explore the Public API Network, the world's largest network of APIs, workspaces, and collections. For more information, see [Exploring the Public API Network](/docs/getting-started/exploring-public-api-network/).
-* **Reports**: _Available for Postman Enterprise and select Postman Professional plans_. View reports with details about your team, workspaces, and APIs, and your security audit. For more information about your report dashboard, see [Analyzing with reports](/docs/designing-and-developing-your-api/view-and-analyze-api-reports/). <!-- TODO: fix this link -->
-* **Explore**:
-    <!-- TODO: screenshot of first 5 items -->
-* **Search Postman**:<!-- TODO: are we married to "universal search" --> Search all workspaces, collections, APIs, and teams in Postman. For more details on searching in Postman, see [Universal search](#universal-search).
-    <!-- TODO: screenshot of search bar -->
-* **Sync status**: Quickly determine whether Postman is connected and your data is syncing. <!-- TODO: link -->
-* **Invite**: Invite other users to collaborate in a workspace. <!-- TODO: link -->
-* **Settings**: Select the gear icon to access Postman settings <!-- TODO: link --> and other Postman resources.
-* **Notifications**
-* **Avatar**: Select your avatar to view your profile, access your account and notification settings, see all active sessions for your account, or to sign out of your account.
-* **Team** (paid plans) or **Upgrade** (free plan, what is this called):
-    <!-- TODO: screenshot of this section -->
+<img alt="Expanded view of the Search Postman field" src="https://assets.postman.com/postman-docs/navigating-postman-search-v9.15.jpg" width="500px"/>
+
+* **Search Postman**: Search all workspaces, collections, APIs, and teams in Postman. For more details on searching in Postman, see [Universal search](#universal-search).
+
+<img alt="Postman header right side" src="https://assets.postman.com/postman-docs/navigating-postman-header-right-v9.15.jpg" width="350px"/>
+
+* <img alt="Sync online icon" src="https://assets.postman.com/postman-docs/icon-sync-online.jpg#icon" width="16px"> **Sync status**: See if you are connected to Postman's servers and your data is [syncing](/docs/getting-started/syncing/).
+* **Invite**: If you have an [Admin role](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles) on a workspace, you can invite other users to collaborate.
+* <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-gear-outline-v9.jpg#icon" width="18px"> **Settings**: Access [Postman settings](/docs/getting-started/settings/) and other Postman resources.
+* <img alt="Notifications icon" src="https://assets.postman.com/postman-docs/icon-notification-bell-v9.jpg#icon" width="18px"> **Notifications**: View recent activity from your team, get notifications about Postman updates, and see pull requests, comment activity, and other important information.
+* **Your avatar**: View your profile, access your [account and notification settings](/docs/getting-started/postman-account/), see all active sessions for your account, or sign out of your account.
+* **Team** (_paid plans_) or **Upgrade** (_free plan_): View resource usage and access your [billing dashboard](/docs/administration/billing/) and other account management settings.
 
 ### Universal search
 
-You can access universal search by selecting __Search Postman__ at the top of Postman, or by using the keyboard shortcut `Command + K`.
+Access universal search by selecting __Search Postman__ in the header, or by using the keyboard shortcut `Command + K`.
 
 Enter your search string and change the scope of search to narrow down your search results to all of Postman, your personal or team space, or the Public API Network. You can also change the scope of your search to **Workspaces**, **Collections**, **APIs**, or **Teams**.
-
-![Changing scope for universal search](https://assets.postman.com/postman-docs/change-scope-for-universal-search-v9.5.jpg)
 
 > For signed-in users, the default search scope on workspaces is Team. On [explore](https://www.postman.com/explore), the default is Public API Network. For signed-out users, the results only include public resources and don't contain private data.
 
@@ -84,20 +93,16 @@ If you don't find what you are looking for in the list of results, select __Sear
 
 <img alt="Search all" src ="https://assets.postman.com/postman-docs/search-all-workspaces-collections-and-teams-v9.5.jpg"/>
 
-The left navigation on the __Search results__ page lists the scope and entity type. You can change these options to further filter your results.
+The __Search results__ page lists the scope and entity type. You can change these options to further filter your results.
 
-<img alt="Universal search results page" src ="https://assets.postman.com/postman-docs/universal-search-results-page-v8.jpg"/>
-
-You can sort results using __Sort by__ on the right by selecting _Most relevant_ (default), _Most views_, or _Most recent_.
-
-<img alt="Search results sort" src ="https://assets.postman.com/postman-docs/search-result-sort-by-v8.jpg"/>
+You can also sort results using __Sort by__ on the right by selecting _Most relevant_ (default), _Most views_, or _Most recent_.
 
 Depending on the element type, the search results contain different information:
 
-* For workspaces, the search result contains the workspace type, summary, who published it, and when was it published.
-* For collections, the search result contains the workspace type, whether the collection is a fork or not, who published it, and when was it published.
-* For APIs, the search result contains the name and summary of the API, the API's owner (either an individual user or a team), and the type of workspace.
-* For teams, the search result contains the name and summary of the team. Selecting the team name redirects you to the team profile.
+* For _workspaces_, the search result contains the workspace type, summary, who published it, and when was it published.
+* For _collections_, the search result contains the workspace type, whether the collection is a fork or not, who published it, and when was it published.
+* For _APIs_, the search result contains the name and summary of the API, the API's owner (either an individual user or a team), and the type of workspace.
+* For _teams_, the search result contains the name and summary of the team. Selecting the team name redirects you to the team profile.
 
 ## Sidebar
 
@@ -228,14 +233,17 @@ Tool | Available for | Description
 
 The footer on the bottom of Postman enables you to find and replace text, open the console, capture requests and cookies, open __Bootcamp__, and access several other tools. <!-- TODO: need all icons, reformat list -->
 
-<!-- TODO: screenshots -->
+<!-- TODO: screenshots --> <!-- TODO: clarify desktop vs web options -->
 
 * To hide the [sidebar](#sidebar), use the **hide sidebar icon** at the bottom-left.
 * **Find and replace**: Search the current workspace in Postman for Desktop. You can also enter __Command + Shift + F__ or __Ctrl + Shift + F__. Enter your search string then select **Find**. To limit your search to a specific entity type, select **Collections**, **Environments**, **Globals**, or **Open tabs**. To replace your search term in a selected entity, select **Replace in selected**.
     > __Find and Replace__ isn't available in Postman for Web.
 
 * <img alt="Console icon" src="https://assets.postman.com/postman-docs/icon-console-v9.jpg#icon" width="16px"> **Console**: [Inspect and debug](/docs/sending-requests/troubleshooting-api-requests/#debugging-in-the-console) your Postman requests.
-* <img alt="Capture icon" src="https://assets.postman.com/postman-docs/icon-capture.jpg#icon" width="15px"> **Capture requests and cookies**: Start a [Postman proxy or Interceptor session](/docs/sending-requests/capturing-request-data/capture-overview/).
+
+<!-- TODO: other screenshot -->
+* **Cookies**: <!-- TODO: Description -->
+* <img alt="Capture icon" src="https://assets.postman.com/postman-docs/icon-capture.jpg#icon" width="15px"> **Capture requests**: Start a [Postman proxy or Interceptor session](/docs/sending-requests/capturing-request-data/capture-overview/).
 * <img alt="Bootcamp icon" src="https://assets.postman.com/postman-docs/icon-bootcamp-v9.jpg#icon" width="16px"> **Bootcamp**: Access an in-app classroom that teaches you how to use Postman, from the basics to advanced topics.
 * **Runner**: Open the [Collection Runner](/docs/running-collections/intro-to-collection-runs/).
 * <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> **Trash**: Recover or permanently delete any deleted collections.
