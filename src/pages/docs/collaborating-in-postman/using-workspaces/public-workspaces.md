@@ -23,14 +23,15 @@ contextual_links:
   - type: link
     name: "How to Set Up Your First Public Workspace in 5 Easy Steps"
     url: "https://blog.postman.com/how-to-set-up-public-workspaces/"
-  - type: link
-    name: "LGBTQ+ Pride Public Workspace: An Invitation for the API Community to Celebrate Pride"
-    url: "https://blog.postman.com/lgbtq-pride-public-workspace-api-community/"
   - type: subtitle
     name: "Videos"
   - type: link
     name: "Public Workspaces | The Exploratory"
     url: "https://youtu.be/DjGbMdqnY64"
+  - type: link
+    name: "Workspace Linter Using a Style Guide | Postman Level Up"
+    url: "https://youtu.be/6MSS8YgvFVA"
+
 ---
 
 Anyone in the Postman community can access a _public workspace_. A public workspace can enhance a new user's onboarding experience with your API, inspire your existing users with new use cases and resources, increase your API's discovery in Postman search results, and enable you to work publicly with partners.

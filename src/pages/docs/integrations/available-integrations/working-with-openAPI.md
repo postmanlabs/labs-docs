@@ -14,14 +14,11 @@ contextual_links:
   - type: subtitle
     name: "Related blog posts"
   - type: link
-    name: "Postman Joins the OpenAPI Initiative"
-    url: "https://blog.postman.com/postman-joins-openapi-initiative/"
+    name: "Postman Now Generates Docs from OpenAPI 3.0 Definitions"
+    url: "https://blog.postman.com/open-api-3-0-documentation/"
   - type: link
     name: "Syncing Your OpenAPI, RAML, and GraphQL Schema to GitHub with Postman"
     url: "https://blog.postman.com/syncing-your-openapi-raml-and-graphql-schema-to-github-with-postman/"
-  - type: link
-    name: "Postman Supports OpenAPI 3.0"
-    url: "https://blog.postman.com/postman-supports-openapi-3-0/"
 warning: false
 ---
 

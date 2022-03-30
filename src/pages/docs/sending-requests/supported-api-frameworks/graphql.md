@@ -16,6 +16,9 @@ contextual_links:
   - type: link
     name: "GraphQL in Postman Demo"
     url: "https://youtu.be/7pUbezVADQs"
+  - type: link
+    name: "GraphQL introspection | Postman Level Up"
+    url: "https://youtu.be/k-j3FwTjJkE"
   - type: subtitle
     name: "Related Blog Posts"
   - type: link
