@@ -28,9 +28,6 @@ contextual_links:
   - type: link
     name: "Securely Using API Keys in Postman"
     url: "https://blog.postman.com/how-to-use-api-keys/"
-  - type: link
-    name: "You Can Now Identify Unresolved Variables Easily"
-    url: "https://blog.postman.com/identify-unresolved-variables-easily/"
   - type: section
     name: "Next Steps"
   - type: link
