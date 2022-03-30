@@ -15,7 +15,7 @@ contextual_links:
 
 To set up Jenkins integration for your API, you’ll need to create an API token in Jenkins and configure your API in Postman. After you set up the integration, you can view the status of builds or kick off a new build, all from within Postman.
 
-> If your Jenkins pipeline is configured to run API tests using Newman, you can configure the  Newman reporter to send collection run information back to Postman.
+> If your Jenkins pipeline is configured to run API tests using [Newman](/docs/running-collections/using-newman-cli/command-line-integration-with-newman/), you can [configure the  Newman reporter](#configuring-newman-for-jenkins) to send collection run information back to Postman.
 
 ## Creating a Jenkins API token
 
@@ -27,7 +27,7 @@ To set up Jenkins integration for your API, you’ll need to create an API token
 
 ## Configuring Jenkins integration
 
-1. Open your API by selecting **APIs** in the left sidebar, and then selecting an API and a version. *Each API version can be linked to only one CI project*.
+1. Open your API by selecting **APIs** in the left sidebar, and then selecting an API and a version. *Each API version can be linked to only one Jenkins project*.
 1. Select the **Test** tab.
 1. Under **Connect to CI/CD Builds**, select **Jenkins**.
 
@@ -44,7 +44,7 @@ To set up Jenkins integration for your API, you’ll need to create an API token
 
 ## Viewing build status
 
-After you set up Jenkins integration, information for build jobs is available in Postman. For each build you can view the start time, duration, and build status (success or failed). You can also view the results of collection runs that are configured in your pipeline using Newman.
+After you set up Jenkins integration, information for build jobs is available in Postman. For each build you can view the start time, duration, and build status (success or failed). You can also view the results of collection runs that are [configured in your pipeline using Newman](#configuring-newman-for-jenkins).
 
 To view build jobs, open an API version and select the **Test** tab. The most recent jobs are listed under **CI/CD Builds**.
 
@@ -60,7 +60,9 @@ To view the full list of build jobs, select **View Builds**. Use the dropdown li
 
 ## Viewing collection run details
 
-Using Newman, you can configure your Jenkins pipeline to run Postman collections with your API tests tests. To view details for any collection that were run as part of a build, use the arrows to expand a build and then expand **Collection Runs**. Expand a collection to view details about the collection run.
+Using Newman, you can run Postman collections with your API tests as part of a Jenkins pipeline. The Newman reporter can send details about the collection runs back to Postman.
+
+To view details for collections that were run as part of a build, first [configure Newman for Jenkins](#configuring-newman-for-jenkins) and then [kick off a new build](#viewing-build-status). After the build is complete, in Postman, use the arrows to expand a build and then expand **Collection Runs**. Expand a collection to view details about a collection run.
 
 SCREENSHOT
 
