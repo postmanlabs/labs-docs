@@ -117,13 +117,13 @@ When you're ready, select **Connect**.
 
 After connecting to Amazon API Gateway, you can view the export and deployment history for your API schemas in Postman. Select **APIs** in the left sidebar, select an API and version, and then select the **Deployments** tab.
 
-* For each stage you can view the active deployment, the creation date, and the date last updated. You can also view CloudWatch metrics for the last week, such as average latency and the number of `4xx` and `5xx` errors.
+* For each stage you can view the active deployment and the date last updated. You can also view CloudWatch metrics for the last week, such as average latency and the number of `4xx` and `5xx` errors.
     * Select the arrow next to a stage to view more details, including the invoke URL and stage description (from AWS).
     * Select a stage name to view metrics on the [CloudWatch dashboard](#viewing-cloudwatch-metrics).
 * For each export from Postman, you can view the source of the export and the time when exported.
 * For each deployment you can view the ID, description, and creation date.
 
-<img alt="Viewing API deployments" src="https://assets.postman.com/postman-docs/api-gateway-view-deployments-v9-14.jpg"/>
+<img alt="Viewing API deployments" src="https://assets.postman.com/postman-docs/api-gateway-deployments-tab-v9-15.jpg"/>
 
 From the **Deployments** tab, you can take the following actions:
 
@@ -142,7 +142,7 @@ From the **Deployments** tab, select the name of a stage to view the CloudWatch 
 * Hover over a data point on a graph to view detailed metrics data.
 * Hover over the information icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px"> above a graph to learn more about the metrics in that graph.
 
-<img alt="Viewing CloudWatch metrics" src="https://assets.postman.com/postman-docs/api-gateway-view-cloudwatch-v9-14.jpg"/>
+<img alt="Viewing CloudWatch metrics" src="https://assets.postman.com/postman-docs/api-gateway-cloudwatch-metrics-v9-15.jpg"/>
 
 From the CloudWatch dashboard, you can take the following actions:
 
