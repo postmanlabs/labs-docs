@@ -9,7 +9,7 @@
 }
 
 body {
-  font-family: $inter;
+  font-family: $Inter400;
   color: $grey_90;
   font-feature-settings: "ss01", "onum", "zero";
   font-weight: 400;
@@ -38,7 +38,7 @@ h5,
 .h5,
 h6,
 .h6 {
-  font-family: $inter;
+  font-family: $Inter600;
   font-weight: 600;
 }
 
@@ -107,8 +107,12 @@ p {
   }
 }
 
-strong, .bold {
-  font-weight: 600;
+strong,
+.strong,
+.bold,
+.font-weight-bold {
+  font-family: $Inter600;
+  font-weight: 600 !important;
 }
 
 // refresh 2021 layout changes
@@ -166,6 +170,7 @@ strong, .bold {
   text-align: center;
   padding: 10px;
   color: #282828;
+  font-family: $Inter600;
   font-weight: 600;
 }
 
@@ -181,6 +186,7 @@ strong, .bold {
 
 .hellobar__postman-link {
   height: 24px;
+  font-family: $Inter600;
   font-weight: 600;
   color: #282828;
   background-image: linear-gradient(180deg, transparent 50%, rgba(249,157,120,.5) 0);
