@@ -12,10 +12,6 @@ If you have questions about Postman beyond what's covered in this guide, see [Po
 
 > This guide specifically discusses troubleshooting issues with the Postman app. To troubleshoot issues with Postman requests, see [Troubleshooting requests](/docs/sending-requests/troubleshooting-api-requests/). To troubleshoot issues with Postman monitors, see [Troubleshooting monitors](/docs/monitoring-your-api/troubleshooting-monitors/).
 
-## Checking Postman's status
-
-Wondering if Postman is experiencing issues? Check the [Postman Status page](https://status.postman.com/), which lets you know if Postman is experiencing degraded performance, outages, or is undergoing maintenance.
-
 ## Contacting Postman product support
 
 You can contact Postman product support if you need help resolving any issues you find in Postman. Go to the [Postman Support Center](https://www.postman.com/support/) and select **Submit a Request**.
@@ -45,3 +41,7 @@ To locate the logs in Linux, open the Postman app and go to **View > Developer >
 The DevTools console provides internal debugging entries for Postman that may be useful in troubleshooting problems with the app.
 
 To access the DevTools console logs, go to **View > Developer > Show DevTools (current view)**. In the DevTools window, select __Console__ to see the app debug logs.
+
+## Checking Postman's status
+
+Wondering if Postman is experiencing issues? Check the [Postman Status page](https://status.postman.com/), which lets you know if Postman is experiencing degraded performance, outages, or is undergoing maintenance.
