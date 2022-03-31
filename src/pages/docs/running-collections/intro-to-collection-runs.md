@@ -24,7 +24,7 @@ contextual_links:
     name: "Intro to Postman | Run a Collection"
     url: "https://youtu.be/8UR1NzuT7jg"
   - type: dynamic_blog
-    name: "Related Blog Posts"
+    name: "Blog Posts"
     blog_tag: "collections"
 warning: false
 

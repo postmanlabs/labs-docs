@@ -8,7 +8,7 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
-    name: "Related Blog Posts"
+    name: "Blog Posts"
   - type: link
     name: "Introducing User Management in Postman with SCIM"
     url: "https://blog.postman.com/introducing-user-management-in-postman-with-scim/"

@@ -19,7 +19,7 @@ contextual_links:
     name: "Postman Interceptor Demo"
     url: "https://youtu.be/Swjims0aOl4"
   - type: subtitle
-    name: "Related Blog Posts"
+    name: "Blog Posts"
   - type: link
     name: "Enhanced HTTP Traffic Capture and Analysis in Postman"
     url: "https://blog.postman.com/http-traffic-capture-and-analysis-in-postman/"

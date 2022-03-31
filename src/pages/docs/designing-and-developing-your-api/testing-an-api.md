@@ -18,7 +18,7 @@ contextual_links:
     name: "Intro to Postman | Advanced API Tests"
     url: "https://youtu.be/vVDZxeS865g"
   - type: subtitle
-    name: "Related Blog Posts"
+    name: "Blog Posts"
   - type: link
     name: "The Reimagined API-First Workflow, Part 2: for Testers"
     url: "https://blog.postman.com/the-reimagined-api-first-workflow-for-testers/"

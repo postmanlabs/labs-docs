@@ -20,7 +20,7 @@ contextual_links:
     name: "GraphQL introspection | Postman Level Up"
     url: "https://youtu.be/k-j3FwTjJkE"
   - type: subtitle
-    name: "Related Blog Posts"
+    name: "Blog Posts"
   - type: link
     name: "Postman v7.2 Supports GraphQL"
     url: "https://blog.postman.com/postman-v7-2-supports-graphql/"

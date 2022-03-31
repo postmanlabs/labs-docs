@@ -16,7 +16,7 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
-    name: "Related Blog Posts"
+    name: "Blog Posts"
   - type: link
     name: "Keep it DRY with collection and folder elements"
     url: "https://blog.postman.com/keep-it-dry-with-collection-and-folder-elements/"

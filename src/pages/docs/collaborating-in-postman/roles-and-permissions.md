@@ -21,7 +21,7 @@ contextual_links:
     name: "Working With Your Team in Postman | The Exploratory"
     url: "https://youtu.be/5lscUV-Exac"
   - type: subtitle
-    name: "Related Blog Posts"
+    name: "Blog Posts"
   - type: link
     name: "Streamline access control with extended roles & permissions"
     url: "https://blog.postman.com/streamline-access-control-with-extended-roles-permissions/"

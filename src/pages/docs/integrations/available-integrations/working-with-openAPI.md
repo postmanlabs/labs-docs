@@ -12,7 +12,7 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
-    name: "Related blog posts"
+    name: "Blog Posts"
   - type: link
     name: "Postman Now Generates Docs from OpenAPI 3.0 Definitions"
     url: "https://blog.postman.com/open-api-3-0-documentation/"

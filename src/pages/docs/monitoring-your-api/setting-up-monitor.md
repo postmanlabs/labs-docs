@@ -17,7 +17,7 @@ contextual_links:
     name: "API Monitoring | The Exploratory"
     url: "https://youtu.be/tDQzY1Hn2LY"
   - type: subtitle
-    name: "Related Blog Posts"
+    name: "Blog Posts"
   - type: link
     name: "How to monitor Postman Collections with APImetrics"
     url: "https://blog.postman.com/how-to-use-postman-apimetrics/"

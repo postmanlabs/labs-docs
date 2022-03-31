@@ -8,7 +8,7 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
-    name: "Related Blog Posts"
+    name: "Blog Posts"
   - type: link
     name: "Introducing Domain Capture: Group Your Organization’s Postman Users into a Single Team"
     url: "https://blog.postman.com/introducing-domain-capture/"

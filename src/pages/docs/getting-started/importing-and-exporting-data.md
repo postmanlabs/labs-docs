@@ -18,7 +18,7 @@ contextual_links:
     name: "Postman Level Up | Import a HAR file in Postman"
     url: "https://youtu.be/E3uo-oQ9WtE"
   - type: subtitle
-    name: "Related Blog Posts"
+    name: "Blog Posts"
   - type: link
     name: "Sync your specs"
     url: "https://blog.postman.com/sync-your-specs/"

@@ -24,7 +24,7 @@ contextual_links:
     name: "Manage CLI Environment Variables | Postman Level Up"
     url: "https://youtu.be/n8O2KP-Zx8I"
   - type: subtitle
-    name: "Related Blog Posts"
+    name: "Blog Posts"
   - type: link
     name: "Securely Using API Keys in Postman"
     url: "https://blog.postman.com/how-to-use-api-keys/"

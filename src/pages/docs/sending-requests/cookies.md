@@ -18,7 +18,7 @@ contextual_links:
     name: "Syncing Cookies for Authentication | Postman Level Up"
     url: "https://www.youtube.com/watch?v=jfgFNw5SoUg"
   - type: subtitle
-    name: "Related Blog Posts"
+    name: "Blog Posts"
   - type: link
     name: "Using the Interceptor to read and write cookies"
     url: "https://blog.postman.com/using-the-interceptor-to-read-and-write-cookies/"

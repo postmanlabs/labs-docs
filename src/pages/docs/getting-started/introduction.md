@@ -35,7 +35,7 @@ contextual_links:
     name: "30 days of Postman for developers"
     url:  "https://www.postman.com/postman/workspace/30-days-of-postman-for-developers/overview"
   - type: subtitle
-    name: "Related Blog Posts"
+    name: "Blog Posts"
   - type: link
     name: "First 5 things to try if you're new to Postman"
     url: "https://blog.postman.com/first-5-things-to-try-if-youre-new-to-postman/"

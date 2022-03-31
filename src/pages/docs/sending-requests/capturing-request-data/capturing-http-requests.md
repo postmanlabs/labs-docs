@@ -17,7 +17,7 @@ contextual_links:
     name: "Capture API Calls With a Proxy"
     url: "https://youtu.be/bjrCHUITZ3k"
   - type: subtitle
-    name: "Related Blog Posts"
+    name: "Blog Posts"
   - type: link
     name: "Reverse engineering an API"
     url: "https://medium.com/better-practices/reverse-engineering-an-api-403fae885303"

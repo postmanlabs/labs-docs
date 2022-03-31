@@ -13,7 +13,7 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
-    name: "Related Blog Posts"
+    name: "Blog Posts"
   - type: link
     name: "Why we became big believers in APIMatic's API transformer"
     url: "https://blog.postman.com/new-postman-pro-integration-apimatics-api-transformer/"

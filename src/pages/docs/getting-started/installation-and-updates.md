@@ -21,7 +21,7 @@ contextual_links:
     name: "Agent for the Postman Web Client | Postman Level Up"
     url:  "https://www.youtube.com/watch?v=6xlJUx2ZMy4&list=PLM-7VG-sgbtC5tNXxd28cmePSa9BYwqeU&index=3"
   - type: subtitle
-    name: "Related Blog Posts"
+    name: "Blog Posts"
   - type: link
     name: "First 5 things to try if you're new to Postman"
     url: "https://blog.postman.com/first-5-things-to-try-if-youre-new-to-postman/"
