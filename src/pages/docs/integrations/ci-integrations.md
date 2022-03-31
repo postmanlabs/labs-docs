@@ -44,9 +44,9 @@ To set up CI integration for your API, you’ll need to create an API token in y
 
 ## Viewing build status
 
-After you set up CI integration, status information for CI build jobs is available in Postman. For each build you can view the commit message, the branch the build ran on, the build status (success or failed), and the time the build ran.
+After you set up CI integration, status information for CI build jobs is available in Postman. For each build you can view the commit message, the branch the build ran on, the start time and duration, and the build status (success or failed).
 
-To view build jobs, open your API and select the **Test** tab. The most recent jobs are listed under **Recent Runs**.
+To view build jobs, open your API and select the **Test** tab. The most recent jobs are listed under **CI/CD Builds**.
 
 * To view a build in your CI tool, hold the cursor over a build and select **View build details**.
 * To kick off a new build, select **Run Build**. Select or type a branch name, and then select **Run Build**.
@@ -54,7 +54,7 @@ To view build jobs, open your API and select the **Test** tab. The most recent j
 
 <img alt="View CI recent runs" src="https://assets.postman.com/postman-docs/ci-recent-runs-v9.jpg" width="788">
 
-To view the full list of build jobs, select **View All Builds**. Use the dropdown list to filter the list of builds by branch or view builds for **All Branches**. To get the latest build status information, select **Refresh**.
+To view the full list of build jobs, select **View All Builds**. Use the dropdown lists to filter the list of builds by branch or build status. To get the latest build status information, select **Refresh**.
 
 <img alt="View all CI builds" src="https://assets.postman.com/postman-docs/ci-view-builds-v9.jpg" width="788">
 
@@ -68,8 +68,8 @@ To run your API tests along with each build, first generate the required Newman 
 
 To generate configuration code for Newman:
 
-1. Open your API and select the **Test** tab.
-1. Under **Recent Runs**, select **View All Builds**.
+1. Open your API version and select the **Test** tab.
+1. Under **CI/CD Builds**, select **View All Builds**.
 1. Select **Configure Newman**.
 1. Select a **Collection** and **Environment** to run during CI builds.
 1. (Optional) Select **+ Add more** to select additional collections to run.
