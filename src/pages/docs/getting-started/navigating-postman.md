@@ -71,7 +71,7 @@ The header allows you to create workspaces, access reports, explore the public A
 
 <img alt="Expanded view of the Search Postman field" src="https://assets.postman.com/postman-docs/navigating-postman-search-v9.15.jpg" width="500px"/>
 
-* **Search Postman**: Search all workspaces, collections, APIs, and teams in Postman. For more details on searching in Postman, see [Search Postman](#search-postman).
+* <img alt="Search icon" src="https://assets.postman.com/postman-docs/icon-search-v9.jpg#icon" width="16px"> **Search Postman**: Search all workspaces, collections, APIs, and teams in Postman. For more details on searching in Postman, see [Search Postman](#search-postman).
 
 <img alt="Postman header right side" src="https://assets.postman.com/postman-docs/navigating-postman-header-right-v9.15.jpg" width="350px"/>
 
@@ -227,7 +227,7 @@ Tool | Available for | Description
 
 ### Environment selector and environment quick look
 
-The environment selector enables you to choose which [environment](docs/sending-requests/managing-environments/) to use in your work. Select an environment from the menu to set it as the active environment, which gives you access to the variables in that environment. 
+The environment selector enables you to choose which [environment](docs/sending-requests/managing-environments/) to use in your work. Select an environment from the menu to set it as the active environment, which gives you access to the variables in that environment.
 
 <img src="https://assets.postman.com/postman-docs/environment-selector-v9.13.jpg" alt="Environment selector" width="300">
 
@@ -237,19 +237,18 @@ To check a variable value at a glance, use the **quick look icon** <img alt="Qui
 
 The footer on the bottom of Postman enables you to find and replace text, open the console, capture requests and cookies, open __Bootcamp__, and access several other tools. <!-- TODO: need all icons, reformat list -->
 
-<!-- TODO: screenshots --> <!-- TODO: clarify desktop vs web options -->
+<img alt="Postman footer left view" src="https://assets.postman.com/postman-docs/navigating-postman-footer-left-v9.jpg" width="300px"/>
 
-* To hide the [sidebar](#sidebar), use the **hide sidebar icon** at the bottom-left.
-* **Find and replace**: Search the current workspace in Postman for Desktop. You can also enter __Command + Shift + F__ or __Ctrl + Shift + F__. Enter your search string then select **Find**. To limit your search to a specific entity type, select **Collections**, **Environments**, **Globals**, or **Open tabs**. To replace your search term in a selected entity, select **Replace in selected**.
-    > __Find and Replace__ isn't available in Postman for Web.
-
+* <img alt="Hide sidebar icon" src="https://assets.postman.com/postman-docs/icon-hide-sidebar-v9.jpg#icon" width="18px"> **Hide sidebar**: Close or reopen the [sidebar](#sidebar).
+* <img alt="Search icon" src="https://assets.postman.com/postman-docs/icon-search-v9.jpg#icon" width="16px"> **Find and replace**: _Postman Desktop app only._ Search the current workspace. You can also use the shortcuts __Command + Shift + F__ or __Ctrl + Shift + F__. Enter your search string then select **Find**. Limit your search to a specific entity type by selecting **Collections**, **Environments**, **Globals**, or **Open tabs**. To replace your search term in a selected entity, select **Replace in selected**.
 * <img alt="Console icon" src="https://assets.postman.com/postman-docs/icon-console-v9.jpg#icon" width="16px"> **Console**: [Inspect and debug](/docs/sending-requests/troubleshooting-api-requests/#debugging-in-the-console) your Postman requests.
 
-<!-- TODO: other screenshot -->
-* **Cookies**: <!-- TODO: Description -->
+<img alt="Postman footer right view" src="https://assets.postman.com/postman-docs/navigating-postman-footer-right-v9.jpg" width="900px"/>
+
+* <img alt="Cookies icon" src="https://assets.postman.com/postman-docs/icon-cookies.jpg#icon" width="16px"> **Cookies**: View, manage, and sync [cookies](/docs/sending-requests/cookies/).
 * <img alt="Capture icon" src="https://assets.postman.com/postman-docs/icon-capture.jpg#icon" width="15px"> **Capture requests**: Start a [Postman proxy or Interceptor session](/docs/sending-requests/capturing-request-data/capture-overview/).
-* <img alt="Bootcamp icon" src="https://assets.postman.com/postman-docs/icon-bootcamp-v9.jpg#icon" width="16px"> **Bootcamp**: Access an in-app classroom that teaches you how to use Postman, from the basics to advanced topics.
-* **Runner**: Open the [Collection Runner](/docs/running-collections/intro-to-collection-runs/).
+* <img alt="Bootcamp icon" src="https://assets.postman.com/postman-docs/icon-bootcamp-v9.jpg#icon" width="16px"> **Bootcamp**: Access an [in-app classroom](https://postman.postman.co/bootcamp) that teaches you how to use Postman, from the basics to advanced topics.
+* <img alt="Runner icon" src="https://assets.postman.com/postman-docs/icon-runner-v9.jpg#icon" width="16px"> **Runner**: Open the [Collection Runner](/docs/running-collections/intro-to-collection-runs/).
 * <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> **Trash**: Recover or permanently delete any deleted collections.
-* To toggle between a single pane view and a two pane view, select the **two-pane view icon** at the bottom-right of the footer.
-* To access more resources, select the **help icon**.
+* <img alt="Two pane view icon" src="https://assets.postman.com/postman-docs/icon-two-pane-v9.jpg#icon" width="16px"> **Two-pane view**: Toggle between a single pane view and a two pane view.
+* <img alt="Help icon" src="https://assets.postman.com/postman-docs/icon-help-v9.jpg#icon" width="16px"> **Help**: Access more resources, including release notes and Postman Support.
