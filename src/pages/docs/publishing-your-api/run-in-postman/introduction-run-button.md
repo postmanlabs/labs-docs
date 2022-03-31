@@ -25,6 +25,9 @@ contextual_links:
     - type: link
       name: "How to Dynamically Create Custom Environments with Code"
       url: "https://blog.postman.com/how-to-dynamically-create-custom-environments-with-code/"
+    - type: link
+      name: "Link Your Docs to a Public Workspace for a Better Developer Experience"
+      url: "https://blog.postman.com/link-docs-to-public-workspace-for-better-developer-experience/"
     - type: section
       name: "Next steps"
     - type: link

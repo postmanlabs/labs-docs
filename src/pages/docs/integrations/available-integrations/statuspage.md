@@ -10,6 +10,14 @@ contextual_links:
   - type: link
     name: "Grouping requests in collections"
     url: "/docs/sending-requests/intro-to-collections/"
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Integrate with Statuspage in Postman"
+    url: "https://youtu.be/siL7Iu9L7ys"
+    
 ---
 
 Atlassian Statuspage an uptime and incident communication tools. You can use Statuspage to create a home page for your customers so they can monitor if subsystems or services within your site are operational, and find out more information on system outages or failures. A great example of a Statuspage home page is Postman's status page, located at [status.postman.com](https://status.postman.com).
