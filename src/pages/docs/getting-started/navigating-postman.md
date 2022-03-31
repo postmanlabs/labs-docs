@@ -112,11 +112,11 @@ The Postman sidebar provides access to the fundamental elements of Postman:
 * [Environments](/docs/sending-requests/managing-environments/#creating-environments)
 * [Mock servers](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/)
 * [Monitors](/docs/running-collections/scheduling-collection-runs/)
-* History contains a list of all the requests you send in Postman. For more information, see the [History](#history) section of this guide.
+* [History](#history)
 
-<!-- TODO: screenshot -->
+<img alt="Sidebar focused on Collections" src="https://assets.postman.com/postman-docs/navigating-postman-sidebar-v9.15.jpg" width="350px"/>
 
-To hide the left sidebar, select **Hide sidebar** on the [status bar](#status-bar).
+To hide the sidebar, select the **hide sidebar icon** <img alt="Hide sidebar icon" src="https://assets.postman.com/postman-docs/icon-hide-sidebar-v9.jpg#icon" width="18px"> from the [footer](#footer).
 
 ### History
 
