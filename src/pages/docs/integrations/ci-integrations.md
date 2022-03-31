@@ -2,7 +2,7 @@
 title: "CI Integrations"
 order: 164.2
 page_id: "ci-integrations"
-updated: 2021-09-15
+updated: 2022-03-31
 warning: false
 contextual_links:
   - type: section
@@ -23,6 +23,9 @@ contextual_links:
     name: "CircleCI"
     url: "/docs/integrations/available-integrations/ci-integrations/circleci/"
   - type: link
+    name: "Jenkins"
+    url: "/docs/integrations/available-integrations/ci-integrations/jenkins/"
+  - type: link
     name: "Travis CI"
     url: "/docs/integrations/available-integrations/ci-integrations/travis-ci/"
 ---
@@ -36,6 +39,7 @@ After you set up CI integration, you can view the status of builds or kick off a
 To set up CI integration for your API, you’ll need to create an API token in your CI tool and configure your API in Postman. See the instructions for your CI tool:
 
 * [CircleCI](/docs/integrations/available-integrations/ci-integrations/circleci/)
+* [Jenkins](/docs/integrations/available-integrations/ci-integrations/jenkins/)
 * [Travis CI](/docs/integrations/available-integrations/ci-integrations/travis-ci/)
 
 ## Viewing build status
@@ -72,6 +76,7 @@ To generate configuration code for Newman:
 1. Select **Copy** to copy the Newman configuration, and then select **Finish**.
 1. Add the Newman configuration you copied to the build configuration file in your API repository. See the instructions for your CI tool:
     * [CircleCI](/docs/integrations/available-integrations/ci-integrations/circleci/#configuring-newman-for-circleci)
+    * [Jenkins](/docs/integrations/available-integrations/ci-integrations/jenkins/#configuring-newman-for-jenkins)
     * [Travis CI](/docs/integrations/available-integrations/ci-integrations/travis-ci/#configuring-newman-for-travis-ci)
 
 <img alt="Generate Newman configuration for CI" src="https://assets.postman.com/postman-docs/ci-generate-newman-config-v9.jpg" width="543">
