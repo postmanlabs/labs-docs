@@ -34,7 +34,7 @@ To set up Jenkins integration for your API, you’ll need to create an API token
     ![CI Integration](https://assets.postman.com/postman-docs/ci-add-integration-v9-15.jpg)
 
 1. Enter a **Nickname** to help you recognize the integration later.
-1. Enter the **URL** for your Jenkins server.
+1. Enter the **URL** of your Jenkins server.
 1. Enter your **Jenkins username**.
 1. For **Authentication token**, enter your Jenkins API token.
 1. Select the Jenkins **CI project** used for your API.
