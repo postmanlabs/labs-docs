@@ -52,11 +52,11 @@ To view build jobs, open your API and select the **Test** tab. The most recent j
 * To kick off a new build, select **Run Build**. Select or type a branch name, and then select **Run Build**.
 * To edit or delete the integration, select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px">.
 
-<img alt="View CI recent runs" src="https://assets.postman.com/postman-docs/ci-recent-runs-v9.jpg" width="788">
+<img alt="View CI recent runs" src="https://assets.postman.com/postman-docs/ci-recent-runs-v9-15.jpg">
 
 To view the full list of build jobs, select **View All Builds**. Use the dropdown lists to filter the list of builds by branch or build status. To get the latest build status information, select **Refresh**.
 
-<img alt="View all CI builds" src="https://assets.postman.com/postman-docs/ci-view-builds-v9.jpg" width="788">
+<img alt="View all CI builds" src="https://assets.postman.com/postman-docs/ci-view-builds-v9-15.jpg">
 
 ## Configuring Newman for CI
 
@@ -64,7 +64,7 @@ Running API tests as part of your CI pipeline helps to ensure that expectations 
 
 To run your API tests along with each build, first generate the required Newman configuration code in Postman. Then add the configuration code to your CI tool. After configuration, each time a CI build runs, Newman uses the Postman API to run the collections that contain your tests. You can view the results of your tests in Postman.
 
->Before you begin, make sure you’ve already [set up an integration](#configuring-ci-integration) between your API and CI tool.
+>Before you begin, make sure you’ve already [set up an integration](#configuring-ci-integration) between your API version and CI tool.
 
 To generate configuration code for Newman:
 
