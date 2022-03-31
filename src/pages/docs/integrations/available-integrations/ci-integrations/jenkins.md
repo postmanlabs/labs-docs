@@ -52,11 +52,11 @@ To view build jobs, open an API version and select the **Test** tab. The most re
 * To kick off a new build, select **Run Build**.
 * To edit or delete the integration, select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px">.
 
-<img alt="View CI recent runs" src="https://assets.postman.com/postman-docs/ci-recent-runs-v9.jpg" width="788">
+<img alt="View recent Jenkins builds" src="https://assets.postman.com/postman-docs/jenkins-test-tab-v9-14.jpg">
 
 To view the full list of build jobs, select **View Builds**. Use the dropdown list to filter the list by build status. To get the latest build status information, select **Refresh**.
 
-<img alt="View all CI builds" src="https://assets.postman.com/postman-docs/ci-view-builds-v9.jpg" width="788">
+<img alt="View all Jenkins builds" src="https://assets.postman.com/postman-docs/jenkins-view-builds-v9-14.jpg">
 
 ## Viewing collection run details
 
@@ -64,11 +64,11 @@ Using Newman, you can run Postman collections with your API tests as part of a J
 
 To view details for collections that were run as part of a build, first [configure Newman for Jenkins](#configuring-newman-for-jenkins) and then [kick off a new build](#viewing-build-status). After the build is complete, in Postman, use the arrows to expand a build and then expand **Collection Runs**. Expand a collection to view details about a collection run.
 
-SCREENSHOT
+<img alt="View collection runs" src="https://assets.postman.com/postman-docs/jenkins-collection-runs-v9-14.jpg">
 
 Select **View Report** to view a collection run report in the Postman **History**.
 
-SCREENSHOT
+<img alt="View collection run report" src="https://assets.postman.com/postman-docs/jenkins-view-report-v9-14.jpg">
 
 ## Configuring Newman for Jenkins
 
@@ -90,7 +90,7 @@ To generate configuration code for Newman:
 1. (Optional) Select the check box to use the Postman cloud reporter to send detailed collection run information back to Postman. You can view the collection run details in the Postman **History** and on the API version **Test** tab.
 1. Select **Copy** to copy the Newman configuration, and then select **Finish**.
 
-SCREENSHOT
+<img alt="Generate Newman configuration" src="https://assets.postman.com/postman-docs/jenkins-generate-newman-v9-14.jpg" width="546px">
 
 To add the Newman configuration to your Jenkins pipeline:
 
