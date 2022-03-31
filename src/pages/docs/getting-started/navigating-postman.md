@@ -59,7 +59,7 @@ The primary interface areas for Postman are the: <!-- TODO: this is bad -->
 
 ## Header
 
-The header allows you to create workspaces, access reports, explore the public API network,  within Postman, view sync status and notifications, move and invite collaborators to workspaces, capture requests and cookies, and access your settings, account, and [Postman plan](/docs/administration/buying/).
+The header enables you to create workspaces, access reports, explore the public API network, search in Postman, view sync status and notifications, and access your settings, account, and [Postman plan](/docs/administration/buying/).
 
 <img alt="Postman header left side" src="https://assets.postman.com/postman-docs/navigating-postman-header-left-v9.15.jpg" width="500px"/>
 
@@ -84,7 +84,7 @@ The header allows you to create workspaces, access reports, explore the public A
 
 ### Search Postman
 
-To search in Postman, select __Search Postman__ in the header then enter your search terms. You can also use the keyboard shortcut `Command + K`. To change the scope of your search to your personal or team space or the Public API Network, select **All of Postman** to the left of the search field and choose the desired scope. You can also change the scope of your search to **Workspaces**, **Collections**, **APIs**, or **Teams**.
+To search in Postman, select __Search Postman__ in the header then enter your search terms. You can also use the keyboard shortcut `Command + K`. To change the scope of your search to your personal or team space or the Public API Network, select **All of Postman** and choose the desired scope. You can also change the scope of your search to **Workspaces**, **Collections**, **APIs**, or **Teams**.
 
 > For signed-out users, search results only include public resources.
 
@@ -100,7 +100,7 @@ Depending on the element type, the search results contain different information:
 
 * For _workspaces_, the search result contains the workspace type, summary, who published it, and when was it published.
 * For _collections_, the search result contains the workspace type, whether the collection is a fork or not, who published it, and when was it published.
-* For _APIs_, the search result contains the name and summary of the API, the API's owner (either an individual user or a team), and the type of workspace.
+* For _APIs_, the search result contains the name and summary of the API, the API's owner (either an individual user or a team), and the workspace type.
 * For _teams_, the search result contains the name and summary of the team. Selecting the team name redirects you to the team profile.
 
 ## Sidebar
@@ -122,7 +122,7 @@ To hide the sidebar, select the **hide sidebar icon** <img alt="Hide sidebar ico
 
 To access the requests you've made, select __History__ on the sidebar. When you're signed in to Postman, your history [syncs](/docs/getting-started/syncing/) across your devices.
 
-Select a request to open it again in a new tab. You can select multiple requests by pressing `Command` or `Control` and selecting the requests.
+Select a request to open it again in a new tab. You can select more than one request by pressing `Command` or `Control` and selecting the requests.
 
 <img alt="History Request" src="https://assets.postman.com/postman-docs/history-request-v9.jpg" width="350px"/>
 
@@ -140,7 +140,7 @@ To remove all requests from your history, select the **more actions icon** <img 
 
 To save request responses in your history, select the **more actions icon** <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> next to the History search bar, then turn on **Save Responses**.
 
-> The __Save Responses__ option can't be used with requests from collection runner.
+> You can't use the __Save Responses__ option with requests from [Collection Runner](/docs/running-collections/intro-to-collection-runs/).
 
 ## Main work area
 
@@ -148,7 +148,7 @@ Whether you're working with a collection, an API, or another entity type, the ce
 
 ### Tabs
 
-Tabs allow you to organize and work between multiple requests.
+Tabs allow you to organize and work between requests.
 
 #### Opening a new tab
 
@@ -168,7 +168,7 @@ If a tab has unsaved changes, Postman displays a dot next to the tab name. Selec
 
 #### Viewing conflicts
 
-A tab may indicate a conflict if you or a collaborator changes it in another tab or workspace. Postman prompts you to resolve any conflicts that may occur.
+A tab will alert you to a conflict if you or a collaborator changes its contents in another tab or workspace. Postman prompts you to resolve any conflicts that happen.
 
 <img alt="Tab displaying a conflict" src="https://assets.postman.com/postman-docs/tab-conflict.jpg" width="300px"/>
 
@@ -179,8 +179,8 @@ You can have many tabs open at the same time. To rearrange your open tabs, selec
 To manage your open tabs or to access recently closed tabs, select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> to open a menu with action options:
 
 * **Recently Closed Tabs**: Shows you tabs that you closed recently. Select one to reopen it.
-* **Duplicate Selected Tab**: _(Desktop app only.)_ Duplicates the current tab. This does not create a copy of the request, so when you duplicate a tab any edits you make are reflected in the original request.
-* **Close Selected Tab**: Closes the current tab. If the tab contains unsaved changes, Postman will ask if you want to save before closing.
+* **Duplicate Selected Tab**: _(Desktop app only.)_ Duplicates the current tab. This doesn't create a copy of the request, so when you duplicate a tab any edits you make are reflected in the original request.
+* **Close Selected Tab**: Closes the current tab. If the tab has unsaved changes, Postman will ask if you want to save before closing.
 * **Force Close Selected Tab**: Closes the current tab without saving any changes.
 * **Close All but Selected Tab**: Closes all tabs except the one you are currently working in.
 * **Close All Tabs**: Closes all tabs. If any tabs contain unsaved changes, Postman will ask if you want to save before closing.
@@ -191,15 +191,15 @@ To manage your open tabs or to access recently closed tabs, select the three dot
 You can also manage your open tabs or open a new tab by right-clicking on an existing tab:
 
 * **New Request**: _(Postman for Web only.)_ Opens a new tab.
-* **Duplicate Tab**: _(Desktop app only.)_ Duplicates the current tab. This does not create a copy of the request, so when you duplicate a tab any edits you make are reflected in the original request.
-* **Close Tab**: Closes the current tab. If the tab contains unsaved changes, Postman will ask if you want to save before closing.
+* **Duplicate Tab**: _(Desktop app only.)_ Duplicates the current tab. This doesn't create a copy of the request, so when you duplicate a tab any edits you make are reflected in the original request.
+* **Close Tab**: Closes the current tab. If the tab has unsaved changes, Postman will ask if you want to save before closing.
 * **Force Close Tab**: Closes the current tab without saving any changes.
 * **Close All Tabs**: Closes all tabs. If any tabs contain unsaved changes, Postman will ask if you want to save before closing.
 * **Force Close All Tabs**: Closes all tabs without saving any changes.
 
 <img alt="Manage tabs" src="https://assets.postman.com/postman-docs/right-click-manage-tab.jpg" width="300px"/>
 
-> **Closing unsaved tabs**: You can set whether Postman asks whether you want to save when you close a tab that contains changes. Select the gear icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-gear-outline-v9.jpg#icon" width="18px"> to open **Settings**. Under **Requests**, use the toggle next to **Always ask when closing unsaved tabs** to turn this option on or off.
+> **Closing unsaved tabs**: You can set whether Postman asks whether you want to save when you close a tab that has changes. Select the gear icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-gear-outline-v9.jpg#icon" width="18px"> to open **Settings**. Under **Requests**, use the toggle next to **Always ask when closing unsaved tabs** to turn this option on or off.
 
 If you have a lot of tabs open, they might overflow the area of the tab bar. To navigate to tabs that are outside the viewable area, select the arrows to the left or right of the tab bar.
 
