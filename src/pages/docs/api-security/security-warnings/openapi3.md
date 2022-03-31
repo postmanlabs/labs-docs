@@ -25,7 +25,7 @@ contextual_links:
 search_keyword: "api security, api schema, security warnings, schema validation, security validation, api security audit, api security scan, api schema vulnerabilities, security audit,openapi 3.0"
 ---
 
-You can use Postman to identify any potential security misses when your API is defined.
+You can use Postman to identify any potential security misses when defining your API.
 
 <img alt="Security warnings for OpenAPI 3.0" src="https://assets.postman.com/postman-docs/security-warnings-openapi-3-v9.jpg"/>
 
@@ -134,7 +134,7 @@ components:
 
 | Severity | Issue description | Possible fix |
 | -------- | ----------------- | ------------ |
-| High | If the global security field is not defined, the API does not require any authentication by default. Anyone can access the API operations that do not have a security field defined. | The security field should be defined in the schema. |
+| High | If the global security field isn't defined, the API doesn't require any authentication by default. Anyone can access the API operations that do not have a security field defined. | The security field should be defined in the schema. |
 
 **Resolution:**
 
@@ -188,7 +188,7 @@ security:
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| High | The components object of the API does not declare any security schemes which can be used in the security field of the API or individual operations. | Security schemes should be defined in the schema of the component. |
+| High | The components object of the API doesn't declare any security schemes which can be used in the security field of the API or individual operations. | Security schemes should be defined in the schema of the component. |
 
 **Resolution:**
 
@@ -224,7 +224,7 @@ components:
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| Medium | The authentication scheme used in global or operation security field is not defined in the security scheme object. | Scheme used in the security field should be defined in the security scheme object. |
+| Medium | The authentication scheme used in global or operation security field isn't defined in the security scheme object. | Scheme used in the security field should be defined in the security scheme object. |
 
 **Resolution:**
 
@@ -330,7 +330,7 @@ components:
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| Medium |  If both the global security field and operation’s security field are not defined, anyone can access the API without any authentication. | Define a security field in the operation. |
+| Medium |  If both the global security field and operation’s security field aren't defined, anyone can access the API without any authentication. | Define a security field in the operation. |
 
 **Resolution:**
 
@@ -362,7 +362,7 @@ components:
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| High | The access tokens are sent as plain text over an unencrypted network. Attackers can intercept the access tokens simply by listening to the network traffic in a public Wi-Fi network. | Make sure that the server URL is a valid URL and uses HTTPS protocol. |
+| High | The access tokens are sent as plain text over an unencrypted network. Attackers can intercept the access tokens by listening to the network traffic in a public Wi-Fi network. | Make sure that the server URL is a valid URL and uses HTTPS protocol. |
 
 **Resolution:**
 
@@ -388,7 +388,7 @@ security:
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| Medium | The credentials are sent as plain text over an unencrypted network. Attackers can intercept the access tokens simply by listening to the network traffic in a public Wi-Fi network. | Make sure that the server URL is a valid URL and uses HTTPS protocol. |
+| Medium | The credentials are sent as plain text over an unencrypted network. Attackers can intercept the access tokens by listening to the network traffic in a public Wi-Fi network. | Make sure that the server URL is a valid URL and uses HTTPS protocol. |
 
 **Resolution**:
 
@@ -415,7 +415,7 @@ paths:
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| High | The authentication tokens are sent as plain text over an unencrypted channel. Attackers can easily intercept the token by listening to the network traffic in a public Wi-Fi network. | Make sure that the server URL is a valid URL and uses HTTPS protocol. |
+| High | The authentication tokens are sent as plain text over an unencrypted channel. Attackers can intercept the token by listening to the network traffic in a public Wi-Fi network. | Make sure that the server URL is a valid URL and uses HTTPS protocol. |
 
 **Resolution**:
 
@@ -440,7 +440,7 @@ security:
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| High | API keys are sent as plain text over an unencrypted channel. Attackers can easily intercept API key by listening to the network traffic in a public Wi-Fi network. | Make sure that the server URL is a valid URL and uses HTTPS protocol. |
+| High | API keys are sent as plain text over an unencrypted channel. Attackers can intercept API key by listening to the network traffic in a public Wi-Fi network. | Make sure that the server URL is a valid URL and uses HTTPS protocol. |
 
 **Resolution**:
 
@@ -466,7 +466,7 @@ security:
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| High | The credentials are sent as plain text over an unencrypted network. Attackers can intercept the credentials simply by listening to the network traffic in a public Wi-Fi network. | Make sure that the server URL is a valid URL and uses HTTPS protocol. |
+| High | The credentials are sent as plain text over an unencrypted network. Attackers can intercept the credentials by listening to the network traffic in a public Wi-Fi network. | Make sure that the server URL is a valid URL and uses HTTPS protocol. |
 
 **Resolution:**
 
@@ -515,7 +515,7 @@ security:
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| Medium | The API operation accepts the access tokens from a flow that are transported in plain text over an unencrypted channel. Attackers can easily intercept API calls and retrieve the unencrypted tokens. They can then use the tokens to make other API calls. | Make sure that the server URL of the operation is a valid URL and uses HTTPS protocol. |
+| Medium | The API operation accepts the access tokens from a flow that are transported in plain text over an unencrypted channel. Attackers can intercept API calls and retrieve the unencrypted tokens. They can then use the tokens to make other API calls. | Make sure that the server URL of the operation is a valid URL and uses HTTPS protocol. |
 
 **Resolution:**
 
@@ -539,7 +539,7 @@ paths:
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| Medium | The credentials for an operation are sent as plain text over an unencrypted network. Attackers can intercept the access tokens simply by listening to the network traffic in a public Wi-Fi network. | Make sure that the server URL of the operation is a valid URL and uses HTTPS protocol. |
+| Medium | The credentials for an operation are sent as plain text over an unencrypted network. Attackers can intercept the access tokens by listening to the network traffic in a public Wi-Fi network. | Make sure that the server URL of the operation is a valid URL and uses HTTPS protocol. |
 
 **Resolution**:
 
@@ -564,7 +564,7 @@ paths:
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| High | The API operation accepts the authorization tokens that are transported as plain text over an unencrypted channel. Attackers can easily intercept API calls and retrieve the unencrypted tokens to make other API calls. | Make sure that the server URL of the operation is a valid URL and uses HTTPS protocol. |
+| High | The API operation accepts the authorization tokens that are transported as plain text over an unencrypted channel. Attackers can intercept API calls and retrieve the unencrypted tokens to make other API calls. | Make sure that the server URL of the operation is a valid URL and uses HTTPS protocol. |
 
 **Resolution**:
 
@@ -592,7 +592,7 @@ security:
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| High | The API operation accepts API keys that are transported in plain text over an unencrypted channel. Attackers can easily intercept API calls and retrieve the API key to make other API calls. | Make sure that the server URL of the operation is a valid URL and uses HTTPS protocol. |
+| High | The API operation accepts API keys that are transported in plain text over an unencrypted channel. Attackers can intercept API calls and retrieve the API key to make other API calls. | Make sure that the server URL of the operation is a valid URL and uses HTTPS protocol. |
 
 **Resolution**:
 
@@ -621,7 +621,7 @@ security:
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| Medium | The API operation accepts the credentials that are transported in plain text over an unencrypted channel. Attackers can easily intercept API calls and retrieve the unencrypted tokens. They can then use the tokens to make other API calls. | Make sure that the server URL of the operation is a valid URL and uses HTTPS protocol. |
+| Medium | The API operation accepts the credentials that are transported in plain text over an unencrypted channel. Attackers can intercept API calls and retrieve the unencrypted tokens. They can then use the tokens to make other API calls. | Make sure that the server URL of the operation is a valid URL and uses HTTPS protocol. |
 
 **Resolution:**
 
@@ -753,7 +753,7 @@ security:
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| Low | Security scheme uses OAuth 1.0 authentication which has been deprecated and replaced by OAuth 2.0. | Make sure that the security scheme is not using the deprecated OAuth 1.0 authentication. |
+| Low | Security scheme uses OAuth 1.0 authentication which has been deprecated and replaced by OAuth 2.0. | Make sure that the security scheme isn't using the deprecated OAuth 1.0 authentication. |
 
 **Resolution:**
 
@@ -777,7 +777,7 @@ components:
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| Medium | In OAuth implicit flow, authorization server issues access tokens in the authorization request’s response. Attackers can easily intercept API calls and retrieve the access tokens to make other API calls. | It's recommended to use authorizationCode flow. Make sure that the OAuth authentication scheme is not using the implicit flow. |
+| Medium | In OAuth implicit flow, authorization server issues access tokens in the authorization request’s response. Attackers can intercept API calls and retrieve the access tokens to make other API calls. | It's recommended to use authorizationCode flow. Make sure that the OAuth authentication scheme isn't using the implicit flow. |
 
 **Resolution:**
 
@@ -801,7 +801,7 @@ components:
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| Medium | Oauth password grant flow uses the user’s credentials to retrieve the access token. Attackers can easily intercept API calls and retrieve the access tokens to make other API calls. | It's recommended to use authorizationCode flow. Make sure that the OAuth authentication scheme is not using the password grant flow. |
+| Medium | Oauth password grant flow uses the user’s credentials to retrieve the access token. Attackers can intercept API calls and retrieve the access tokens to make other API calls. | It's recommended to use authorizationCode flow. Make sure that the OAuth authentication scheme isn't using the password grant flow. |
 
 **Resolution:**
 
