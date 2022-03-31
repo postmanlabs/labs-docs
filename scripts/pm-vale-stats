@@ -1,0 +1,17 @@
+#!/bin/sh
+# pm-vale-stats - return metrics on Vale run, including wordcount, number of errors, and error rate.
+
+if ! command -v vale &> /dev/null
+then
+    echo "Vale couldn't be found. Make sure it's installed."
+    exit
+fi
+
+echo "Running Vale... (this takes a minute)"
+wordcount=$(wc -l `find src -name "*.md" -print` | tail -1 | awk '{print $1}')
+errortotal=$(vale --output=line --minAlertLevel=warning src | wc -l)
+echo "Total wordcount: $wordcount"
+echo "Error total: $errortotal"
+rate=$(echo "result = ($errortotal/$wordcount) * 100; scale=2; result /1" | bc -l)
+echo "Error rate: $rate%"
+
