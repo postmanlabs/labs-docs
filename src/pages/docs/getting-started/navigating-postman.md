@@ -51,7 +51,7 @@ The primary interface areas for Postman are the: <!-- TODO: this is bad -->
 * [Sidebar](#sidebar)
 * [Main work area](#main-work-area)
     * [Tabs](#tabs)
-    * [Context bar](#context-bar)
+    * [Right sidebar](#right-sidebar)
     * [Environment selector and environment quick look](#environment-selector-and-environment-quick-look)
 * [Footer](#footer)
 
@@ -205,30 +205,33 @@ If you have a lot of tabs open, they might overflow the area of the tab bar. To 
 
 <img alt="Scroll to navigate tabs" src="https://assets.postman.com/postman-docs/tab-navigation-scroll.jpg" width="800px"/>
 
-### Context bar
+### Right sidebar
 
-The _context bar_ gives you access to more tools, including documentation, comments, code snippets, and request information, based on which kind of Postman element you select. <!-- TODO: fix name -->
+The right sidebar gives you access to more tools, including documentation, comments, code snippets, and request information, based on which kind of Postman entity you select.
 
-<!-- TODO: new screenshot that shows related collections icon -->
+<img alt="Postman right sidebar showing Documentation view" src="https://assets.postman.com/postman-docs/navigating-postman-right-sidebar-v9.15.jpg" width="400px"/>
 
 <!-- TODO: fix all icons -->
 
 Tool | Available for | Description
 --- | --- | ---
-**Documentation** <img alt="Documentation icon" src="https://assets.postman.com/postman-docs/documentation-icon-v8-10.jpg" width="16px" style="vertical-align:middle;margin-bottom:5px"> | Collections, requests | See the documentation for a collection or for a specific request. (To learn how to create documentation for your own collections, see [Publishing your documentation](/docs/publishing-your-api/publishing-your-docs/).)
-**Comments** <img alt="Comments icon" src="https://assets.postman.com/postman-docs/icon-comments-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> | Collections, requests, APIs | Leave comments on a specific part of a request or an API. For more information about comments, see [Commenting on collections](/docs/collaborating-in-postman/commenting-on-collections/).
-**Code** <img alt="Code snippet icon" src="https://assets.postman.com/postman-docs/icon-code-snippet.jpg" width="16px" style="vertical-align:middle;margin-bottom:5px"> | Requests, APIs, history | Generate code snippets in a variety of languages and frameworks that you can use in other apps. To learn more about code snippets and how to use them, see [Generating code snippets](/docs/sending-requests/generate-code-snippets/).
-**Info** | Collections, requests, APIs, environments, mock servers, monitors |
-**Related collections** | Requests, history | View public collections from the [Public API Network](/docs/getting-started/exploring-public-api-network/) that share the same base URL as your request and include API documentation. Select any recommended collection to view its contents and documentation.
-**Changelog** | Collections, APIs |
-**Pull requests** | Collections |
-**Forks** | Collections, environments |
-**Changelog** | Collections, APIs |
-**Activity feed** | Monitors |
+**Documentation** <img alt="Documentation icon" src="https://assets.postman.com/postman-docs/documentation-icon-v8-10.jpg#icon" width="16px"> | Collections, requests | See the [documentation](/docs/publishing-your-api/publishing-your-docs/) for a collection or for a specific request.
+**Comments** <img alt="Comments icon" src="https://assets.postman.com/postman-docs/icon-comments-v9.jpg#icon" width="18px"> | Collections, requests, APIs | Leave [comments](/docs/collaborating-in-postman/commenting-on-collections/) on a specific part of a request or an API.
+**Code** <img alt="Code snippet icon" src="https://assets.postman.com/postman-docs/icon-code-snippet.jpg#icon" width="16px"> | Requests, APIs, history | Generate [code snippets](/docs/sending-requests/generate-code-snippets/) in a variety of languages and frameworks that you can use in other apps.
+**Info** <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px"> | Collections, requests, APIs, environments, mock servers, monitors | See details about the entity, including its ID, when it was created, who created it, and more.
+**Related collections** <img alt="Related Collections icon" src="https://assets.postman.com/postman-docs/collection-rec-lightbulb-icon2.jpg#icon" width="16px"/> | Requests, history | View public collections from the [Public API Network](/docs/getting-started/exploring-public-api-network/) that share the same base URL as your request and include API documentation.
+**Changelog** <img alt="Changelog icon" src="https://assets.postman.com/postman-docs/icon-changelog-v9.jpg#icon" width="18px"> | Collections, APIs | Use the [changelog](/docs/collaborating-in-postman/using-workspaces/changelog-and-restoring-collections/#viewing-the-collection-changelog) to see changes that you and your collaborators have made. Available on [Postman Basic, Professional, and Enterprise plans](https://www.postman.com/pricing/).
+**Pull requests** <img alt="Pull request icon" src="https://assets.postman.com/postman-docs/icon-pull-request.jpg#icon" width="16px"> | Collections, environments | View any [pull requests](/docs/collaborating-in-postman/version-control/#creating-pull-requests) for a Postman entity.
+**Forks** <img alt="Fork icon" src="https://assets.postman.com/postman-docs/icon-fork.jpg#icon" width="14px"> | Collections, environments | View any [forks](/docs/collaborating-in-postman/version-control/#forking-postman-entities) of a Postman entity.
+**Activity feed** <img alt="Activity feed icon" src="https://assets.postman.com/postman-docs/icon-activity-feed-v9.jpg#icon" width="16px"> | Monitors | View the activity feed for a [monitor](/docs/monitoring-your-api/intro-monitors/).
 
 ### Environment selector and environment quick look
 
-<!-- TODO: needs content -->
+The environment selector enables you to choose which [environment](docs/sending-requests/managing-environments/) to use in your work. Select an environment from the menu to set it as the active environment, which gives you access to the variables in that environment. 
+
+<img src="https://assets.postman.com/postman-docs/environment-selector-v9.13.jpg" alt="Environment selector" width="300">
+
+To check a variable value at a glance, use the **quick look icon** <img alt="Quick Look icon" src="https://assets.postman.com/postman-docs/eye.jpg#icon" width="16px">.
 
 ## Footer
 
