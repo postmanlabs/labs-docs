@@ -27,7 +27,7 @@ To set up Jenkins integration for your API, you’ll need to create an API token
 
 ## Configuring Jenkins integration
 
-1. Open your API by selecting **APIs** in the left sidebar, and then selecting an API and a version. *Each API version can be linked to only one Jenkins project*.
+1. Open your API by selecting **APIs** in the left sidebar, and then selecting an API and a version. *Each API version can be linked to only one CI project*.
 1. Select the **Test** tab.
 1. Under **Connect to CI/CD Builds**, select **Jenkins**.
 
@@ -37,7 +37,7 @@ To set up Jenkins integration for your API, you’ll need to create an API token
 1. Enter the **URL** for your Jenkins server.
 1. Enter your **Jenkins username**.
 1. For **Authentication token**, enter your Jenkins API token.
-1. Select the **CI project** used for your API.
+1. Select the Jenkins **CI project** used for your API.
 1. Select **Connect**.
 
     <img alt="Add API key" src="https://assets.postman.com/postman-docs/jenkins-connect-project-v9-15.jpg" width="527px">
@@ -62,25 +62,25 @@ To view the full list of build jobs, select **View Builds**. Use the dropdown li
 
 Using Newman, you can run Postman collections with your API tests as part of a Jenkins pipeline. The Postman cloud reporter can send details about the collection runs back to Postman.
 
-To view details for collections that were run as part of a build, first [configure Newman for Jenkins](#configuring-newman-for-jenkins) and then [kick off a new build](#viewing-build-status). After the build is complete, in Postman, use the arrows to expand a build and then expand **Collection Runs**. Expand a collection to view details about a collection run.
+To view details for collections that were run as part of a build, first [configure Newman for Jenkins](#configuring-newman-for-jenkins) and then [kick off a new build](#viewing-build-status). After the build is complete, use the arrows to expand a build and expand **Collection Runs**. Then expand a collection to view details about a collection run.
 
 <img alt="View collection runs" src="https://assets.postman.com/postman-docs/jenkins-collection-runs-v9-14.jpg">
 
-Select **View Report** to view a collection run report in the Postman **History**.
+Select **View Report** to view a collection run report in the Postman **History**. Learn more about using the [Collection Runner](/docs/running-collections/intro-to-collection-runs/).
 
 <img alt="View collection run report" src="https://assets.postman.com/postman-docs/jenkins-view-report-v9-14.jpg">
 
 ## Configuring Newman for Jenkins
 
-With the help of Newman and the Postman API, you can run API tests created in Postman as part of your Jenkins pipeline. First generate the Newman configuration code in Postman. Then add the configuration code to Jenkins:
+With the help of Newman and the Postman API, you can run API tests created in Postman as part of your Jenkins pipeline. First generate the Newman configuration code in Postman. Then add the configuration code to your Jenkins pipeline.
 
-Each time a Jenkins build runs, Newman runs the collections that contain your tests. You can view the results of your tests in Postman. You an also configure the  Postman cloud reporter to send detailed collection run information back to Postman.
+Each time a Jenkins build runs, Newman runs the collections that contain your tests. You can view the results of your tests in Postman. You an also configure the  [Postman cloud reporter](https://www.npmjs.com/package/newman-reporter-postman-cloud) to send detailed collection run information back to Postman.
 
->Before you begin, make sure you’ve already [set up an integration](#configuring-ci-integration) between your API and Jenkins.
+>Before you begin, make sure you’ve already [set up an integration](#configuring-jenkins-integration) between your API version and Jenkins.
 
 To generate configuration code for Newman:
 
-1. Open an API version and select the **Test** tab.
+1. Open your API version and select the **Test** tab.
 1. Under **CI/CD Builds**, select **View Builds**.
 1. Select **Configure Newman**.
 1. Select a **Collection** and **Environment** to run during Jenkins builds.
