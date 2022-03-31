@@ -47,6 +47,7 @@ Postman provides a variety of views and controls to help you manage your API pro
 The primary interface areas for Postman are the: <!-- TODO: this is bad -->
 
 * [Header](#header)
+    * [Search Postman](#search-postman)
 * [Sidebar](#sidebar)
 * [Main work area](#main-work-area)
     * [Tabs](#tabs)
@@ -70,7 +71,7 @@ The header allows you to create workspaces, access reports, explore the public A
 
 <img alt="Expanded view of the Search Postman field" src="https://assets.postman.com/postman-docs/navigating-postman-search-v9.15.jpg" width="500px"/>
 
-* **Search Postman**: Search all workspaces, collections, APIs, and teams in Postman. For more details on searching in Postman, see [Universal search](#universal-search).
+* **Search Postman**: Search all workspaces, collections, APIs, and teams in Postman. For more details on searching in Postman, see [Search Postman](#search-postman).
 
 <img alt="Postman header right side" src="https://assets.postman.com/postman-docs/navigating-postman-header-right-v9.15.jpg" width="350px"/>
 
@@ -79,15 +80,13 @@ The header allows you to create workspaces, access reports, explore the public A
 * <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-gear-outline-v9.jpg#icon" width="18px"> **Settings**: Access [Postman settings](/docs/getting-started/settings/) and other Postman resources.
 * <img alt="Notifications icon" src="https://assets.postman.com/postman-docs/icon-notification-bell-v9.jpg#icon" width="18px"> **Notifications**: View recent activity from your team, get notifications about Postman updates, and see pull requests, comment activity, and other important information.
 * **Your avatar**: View your profile, access your [account and notification settings](/docs/getting-started/postman-account/), see all active sessions for your account, or sign out of your account.
-* **Team** (_paid plans_) or **Upgrade** (_free plan_): View resource usage and access your [billing dashboard](/docs/administration/billing/) and other account management settings.
+* **Team** (_paid plans_) or **Upgrade** (_free plan_): View resource usage and access your [billing dashboard](/docs/administration/billing/) and other account management tools.
 
-### Universal search
+### Search Postman
 
-Access universal search by selecting __Search Postman__ in the header, or by using the keyboard shortcut `Command + K`.
+To search in Postman, select __Search Postman__ in the header then enter your search terms. You can also use the keyboard shortcut `Command + K`. To change the scope of your search to your personal or team space or the Public API Network, select **All of Postman** to the left of the search field and choose the desired scope. You can also change the scope of your search to **Workspaces**, **Collections**, **APIs**, or **Teams**.
 
-Enter your search string and change the scope of search to narrow down your search results to all of Postman, your personal or team space, or the Public API Network. You can also change the scope of your search to **Workspaces**, **Collections**, **APIs**, or **Teams**.
-
-> For signed-in users, the default search scope on workspaces is Team. On [explore](https://www.postman.com/explore), the default is Public API Network. For signed-out users, the results only include public resources and don't contain private data.
+> For signed-out users, search results only include public resources.
 
 If you don't find what you are looking for in the list of results, select __Search all workspaces, collections, APIs and teams__ and you can find all the results in one page.
 
