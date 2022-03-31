@@ -30,7 +30,7 @@ contextual_links:
     url: "/docs/integrations/available-integrations/ci-integrations/travis-ci/"
 ---
 
-Continuous Integration and Continuous Delivery (CI/CD) are a core component of the [API development workflow](/docs/designing-and-developing-your-api/the-api-workflow/). Postman integrates with popular CI tools so you can view details about API builds in the same place where you define and test your API.
+Continuous Integration and Continuous Delivery (CI/CD) are a core part of the [API development workflow](/docs/designing-and-developing-your-api/the-api-workflow/). Postman integrates with popular CI tools so you can view details about API builds in the same place where you define and test your API.
 
 After you set up CI integration, you can view the status of builds or kick off a new build, all from within Postman. In addition, with the help of [Newman](/docs/running-collections/using-newman-cli/command-line-integration-with-newman/) and the Postman API, you can run API tests created in Postman as part of your CI pipeline.
 
