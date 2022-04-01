@@ -82,7 +82,7 @@ If you are a team admin, you can customize your published documentation with a t
 
 ## Sharing your public docs
 
-To share your public documentation, simply share the published URL with your team members, other users, or the community. If you have forgotten the URL for your published documentation, you get it at any time:
+To share your public documentation, share the published URL with your team members, other users, or the community. If you have forgotten the URL for your published documentation, you get it at any time:
 
 1. Select **Collections** in the left sidebar.
 1. Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> next to a collection with published docs, and then select **View Documentation**.

@@ -332,7 +332,7 @@ securityDefinitions:
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| High | The access tokens are sent as plain text over an unencrypted network. Attackers can intercept the access tokens simply by listening to the network traffic in a public Wi-Fi network. | Make sure that the scheme used in the schemes array is HTTPS. |
+| High | The access tokens are sent as plain text over an unencrypted network. Attackers can intercept the access tokens by listening to the network traffic in a public Wi-Fi network. | Make sure that the scheme used in the schemes array is HTTPS. |
 
 **Resolution:**
 
@@ -383,7 +383,7 @@ security:
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| High | The credentials are sent as plain text over an unencrypted network. Attackers can intercept the credentials simply by listening to the network traffic in a public Wi-Fi network. | Make sure that the scheme used in the scheme array is HTTPS. |
+| High | The credentials are sent as plain text over an unencrypted network. Attackers can intercept the credentials by listening to the network traffic in a public Wi-Fi network. | Make sure that the scheme used in the scheme array is HTTPS. |
 
 **Resolution:**
 

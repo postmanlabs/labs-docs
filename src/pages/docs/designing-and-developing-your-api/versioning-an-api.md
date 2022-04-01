@@ -212,6 +212,6 @@ You can also edit a release name in the Changelog. Next to the release, select <
 
 An API status is a text tag which you can change to indicate the current stage of the API version within your development cycle. For example, you can select a status such as "In Design," "Security Review," or "In Production." You can set different statuses for each version of an API.
 
-A status doesn't affect visibility, permissions, or availability of an API. It's simply a way to tell others on your team the current state of the API. Statuses aren't automatically changed by any actions or state change in your files. You can change the status at any time.
+A status doesn't affect visibility, permissions, or availability of an API. Instead, it's a way to tell others on your team the current state of the API. Statuses aren't automatically changed by any actions or state change in your files. You can change the status at any time.
 
 Statuses are displayed in the upper left of the API tab. To set a new status, choose one from the dropdown list.

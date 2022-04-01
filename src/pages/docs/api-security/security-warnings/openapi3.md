@@ -362,7 +362,7 @@ components:
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| High | The access tokens are sent as plain text over an unencrypted network. Attackers can intercept the access tokens simply by listening to the network traffic in a public Wi-Fi network. | Make sure that the server URL is a valid URL and uses HTTPS protocol. |
+| High | The access tokens are sent as plain text over an unencrypted network. Attackers can intercept the access tokens by listening to the network traffic in a public Wi-Fi network. | Make sure that the server URL is a valid URL and uses HTTPS protocol. |
 
 **Resolution:**
 
@@ -388,7 +388,7 @@ security:
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| Medium | The credentials are sent as plain text over an unencrypted network. Attackers can intercept the access tokens simply by listening to the network traffic in a public Wi-Fi network. | Make sure that the server URL is a valid URL and uses HTTPS protocol. |
+| Medium | The credentials are sent as plain text over an unencrypted network. Attackers can intercept the access tokens by listening to the network traffic in a public Wi-Fi network. | Make sure that the server URL is a valid URL and uses HTTPS protocol. |
 
 **Resolution**:
 
@@ -466,7 +466,7 @@ security:
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| High | The credentials are sent as plain text over an unencrypted network. Attackers can intercept the credentials simply by listening to the network traffic in a public Wi-Fi network. | Make sure that the server URL is a valid URL and uses HTTPS protocol. |
+| High | The credentials are sent as plain text over an unencrypted network. Attackers can intercept the credentials by listening to the network traffic in a public Wi-Fi network. | Make sure that the server URL is a valid URL and uses HTTPS protocol. |
 
 **Resolution:**
 
@@ -539,7 +539,7 @@ paths:
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| Medium | The credentials for an operation are sent as plain text over an unencrypted network. Attackers can intercept the access tokens simply by listening to the network traffic in a public Wi-Fi network. | Make sure that the server URL of the operation is a valid URL and uses HTTPS protocol. |
+| Medium | The credentials for an operation are sent as plain text over an unencrypted network. Attackers can intercept the access tokens by listening to the network traffic in a public Wi-Fi network. | Make sure that the server URL of the operation is a valid URL and uses HTTPS protocol. |
 
 **Resolution**:
 
