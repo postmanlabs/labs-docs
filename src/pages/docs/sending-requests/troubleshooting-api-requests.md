@@ -116,4 +116,4 @@ If you are still having problems with your request, there are a few options for 
 
 * Ask for community help in the [Postman forum](https://community.postman.com/).
 * If you think the problem is with the Postman app, search the [issue tracker](https://github.com/postmanlabs/postman-app-support/issues) on GitHub to check if someone has already reported the issue and whether there is a known solution.
-* If you need to include confidential data, file a ticket with [Postman support](https://support.postman.com/hc/en-us), including your console logs.
+* If you need to include confidential data, file a support ticket with [Postman support](https://support.postman.com/hc/en-us), including your console logs.
