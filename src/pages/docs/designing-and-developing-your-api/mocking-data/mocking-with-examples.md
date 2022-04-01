@@ -21,7 +21,7 @@ contextual_links:
     name: "Mock Servers | The Exploratory"
     url: "https://youtu.be/n_7UUghLpco"
   - type: subtitle
-    name: "Related Blog Posts"
+    name: "Blog Posts"
   - type: link
     name: "Mock responses in Postman by using Examples"
     url: "https://blog.postman.com/mock-responses-in-postman-by-using-examples/"

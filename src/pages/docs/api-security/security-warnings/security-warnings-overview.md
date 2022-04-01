@@ -8,7 +8,7 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
-    name: "Related Blog Posts"
+    name: "Blog Posts"
   - type: link
     name: "Introducing Security Warnings During API Validation"
     url: "https://blog.postman.com/security-warnings-during-api-validation/"

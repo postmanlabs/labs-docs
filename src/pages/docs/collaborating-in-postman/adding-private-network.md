@@ -13,7 +13,7 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
-    name: "Related Blog Posts"
+    name: "Blog Posts"
   - type: link
     name: "Introducing the New Private API Network for Easier Discovery"
     url: "https://blog.postman.com/new-private-api-network-for-easier-discovery/"

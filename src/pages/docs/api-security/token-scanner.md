@@ -9,7 +9,7 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
-    name: "Related Blog Posts"
+    name: "Blog Posts"
   - type: link
     name: "2 Big Improvements to the Postman Token Scanner"
     url: "https://blog.postman.com/2-big-improvements-to-the-postman-token-scanner/"

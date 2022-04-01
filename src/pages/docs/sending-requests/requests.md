@@ -24,7 +24,7 @@ contextual_links:
     name: "Upload a File via POST Request | Postman Level Up"
     url: "https://youtu.be/S7bwkys6D0E"
   - type: subtitle
-    name: "Related Blog Posts"
+    name: "Blog Posts"
   - type: link
     name: "Get Greater Visibility With HTTP Header Live Preview in Postman"
     url:  "https://blog.postman.com/get-greater-visibility-with-http-header-live-preview-in-postman/"

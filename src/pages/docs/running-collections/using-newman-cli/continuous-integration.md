@@ -15,7 +15,7 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
-    name: "Related Blog Posts"
+    name: "Blog Posts"
   - type: link
     name: "Continuous Testing of APIs"
     url: "https://medium.com/better-practices/continuous-testing-of-apis-5294552d65ce"

@@ -16,7 +16,7 @@ contextual_links:
     name: "Continuous Testing with Postman | Webinar"
     url: "https://youtu.be/sB2HHrezQOo"
   - type: subtitle
-    name: "Related Blog Posts"
+    name: "Blog Posts"
   - type: link
     name: "How to write powerful automated API tests with Postman, Newman and Jenkins"
     url: "https://blog.postman.com/how-to-write-powerful-automated-api-tests-with-postman-newman-and-jenkins/"

@@ -29,7 +29,7 @@ contextual_links:
     name: "Inheriting Auth Details | Postman Level Up"
     url: "https://www.youtube.com/watch?v=WFiYsfSkyXE&list=PLM-7VG-sgbtC5tNXxd28cmePSa9BYwqeU&index=2"
   - type: subtitle
-    name: "Related Blog Posts"
+    name: "Blog Posts"
   - type: link
     name: "Generate Spotify playlists using a Postman collection"
     url: "https://blog.postman.com/generate-spotify-playlists-using-a-postman-collection/"

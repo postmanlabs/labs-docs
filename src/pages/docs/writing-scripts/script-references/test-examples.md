@@ -21,7 +21,7 @@ contextual_links:
     name: "Intro to Postman | Write API Tests"
     url: "https://youtu.be/EVg6gxeiUd0"
   - type: subtitle
-    name: "Related Blog Posts"
+    name: "Blog Posts"
   - type: link
     name: "Continuous API testing with Postman"
     url: "https://blog.postman.com/continuous-api-testing-with-postman/"

@@ -22,7 +22,7 @@ contextual_links:
     name: "API Documentation | The Exploratory"
     url: "https://youtu.be/XNVo9WkCoak"
   - type: subtitle
-    name: "Related Blog Posts"
+    name: "Blog Posts"
   - type: link
     name: "API Network Exploration: Infermedica"
     url: "https://blog.postman.com/api-network-exploration-infermedica/"

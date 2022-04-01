@@ -13,7 +13,7 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
-    name: "Related Blog Posts"
+    name: "Blog Posts"
   - type: link
     name: "Postman Is Now a Datadog Technology Partner: More Integration Features"
     url: "https://blog.postman.com/postman-datadog-technology-partner-more-integration-features/"

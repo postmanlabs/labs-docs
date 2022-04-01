@@ -16,7 +16,7 @@ contextual_links:
     name: "Postman Space Camp | Working with Your Team in Postman"
     url: "https://youtu.be/OifhKJCd_-M"
   - type: subtitle
-    name: "Related Blog Posts"
+    name: "Blog Posts"
   - type: link
     name: "Get More Out of Postman by Collaborating with Your Team"
     url: "https://blog.postman.com/get-more-out-of-postman-by-collaborating-with-your-team/"

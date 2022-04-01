@@ -57,7 +57,7 @@
          },
          {
            property: 'og:image',
-           content: 'https://learning.postman.com/postman-api-platform-social-preview.jpeg',
+           content: 'https://voyager.postman.com/social-preview/learning-center/postman-learning-center-social-preview.jpg',
          },
          {
            property: 'og:type',
@@ -85,7 +85,7 @@
          },
          {
            property: 'twitter:image',
-           content: 'https://learning.postman.com/postman-api-platform-social-preview.jpeg',
+           content: 'https://voyager.postman.com/social-preview/learning-center/postman-learning-center-social-preview.jpg',
          },
          {
            property: 'twitter:site',
