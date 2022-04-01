@@ -104,7 +104,7 @@ After connecting to Amazon API Gateway, you can view the export and deployment h
 
 * For each stage you can view the active deployment, the creation date, and the date last updated. Select a stage to view additional details, including the invoke URL and stage description (from AWS).
 * For each export from Postman, you can view the source of the export and the time when exported.
-* For each deployment you can view the ID, description, and creation date.
+* For each deployment you can view the deployment ID, description, and creation date.
 
 <img alt="Viewing API deployments" src="https://assets.postman.com/postman-docs/api-gateway-view-deployments-v9-8.jpg" width="946px"/>
 

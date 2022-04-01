@@ -172,7 +172,7 @@ For example:
 https://3589dfde-f398-45cd-88eb-b0fa0192fc3f.mock.pstmn.io/matches
 ```
 
-The mock URL includes the ID for the mock and the path for the request with a saved example.
+The mock URL includes the mock's ID and the path for the request with a saved example.
 
 [![Mock example](https://assets.postman.com/postman-docs/mock-example-v8.jpg)](https://assets.postman.com/postman-docs/mock-example-v8.jpg)
 
