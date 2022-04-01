@@ -52,8 +52,6 @@ Postman has a variety of tools, views, and controls to help you manage your API 
 
 [![Postman app](https://assets.postman.com/postman-docs/navigating-postman-app-overview-v9.15.jpg)](https://assets.postman.com/postman-docs/navigating-postman-app-overview-v9.15.jpg)
 
-<!-- TODO: semi-abstracted image with labels -->
-
 ## Header
 
 The header enables you to create workspaces, access reports, explore the public API network, search in Postman, view sync status and notifications, and access your settings, account, and [Postman plan](/docs/administration/buying/).
@@ -208,8 +206,6 @@ The right sidebar gives you access to more tools, including documentation, comme
 
 <img alt="Postman right sidebar showing Documentation view" src="https://assets.postman.com/postman-docs/navigating-postman-right-sidebar-v9.15.jpg" width="400px"/>
 
-<!-- TODO: fix all icons -->
-
 Tool | Available for | Description
 --- | --- | ---
 **Documentation** <img alt="Documentation icon" src="https://assets.postman.com/postman-docs/documentation-icon-v8-10.jpg#icon" width="16px"> | Collections, requests | See the [documentation](/docs/publishing-your-api/publishing-your-docs/) for a collection or for a specific request.
@@ -232,7 +228,7 @@ To check a variable value at a glance, use the **quick look icon** <img alt="Qui
 
 ## Footer
 
-The footer on the bottom of Postman enables you to find and replace text, open the console, capture requests and cookies, open __Bootcamp__, and access several other tools. <!-- TODO: need all icons, reformat list -->
+The footer on the bottom of Postman enables you to find and replace text, open the console, capture requests and cookies, open __Bootcamp__, and access several other tools.
 
 <img alt="Postman footer left view" src="https://assets.postman.com/postman-docs/navigating-postman-footer-left-v9.jpg" width="300px"/>
 
