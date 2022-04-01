@@ -33,7 +33,7 @@ warning: false
 
 ---
 
-Postman Interceptor is a Chrome extension that acts as a browser companion to the Postman app. Interceptor enables you to capture network requests and cookies directly from a Chrome browser.
+Postman Interceptor is a Chrome extension that acts as a browser companion to the Postman Desktop app. Interceptor enables you to capture network requests and cookies directly from a Chrome browser.
 
 Once Interceptor is running in Chrome, you can start a debug session, which is a time-bound session of traffic capture. You can start, pause, and stop an interceptor debug session, then later start another one. Each debug session is logged in the **History** tab, and displays the total session time and all traffic captured. From the logged session, you can send requests and responses to a collection and save cookies to the Postman cookie jar.
 
@@ -55,7 +55,7 @@ Once Interceptor is running in Chrome, you can start a debug session, which is a
 
 ## Installing Interceptor
 
-> You can't use Interceptor with [Postman for web](/docs/getting-started/installation-and-updates/#web-limitations). Make sure you've installed the [Postman desktop app](/docs/getting-started/installation-and-updates/).
+> You can't use Interceptor with [Postman for Web](/docs/getting-started/installation-and-updates/#web-limitations). Make sure you've installed the [Postman Desktop app](/docs/getting-started/installation-and-updates/).
 
 To get started, install Postman Interceptor:
 
@@ -231,7 +231,7 @@ If you are unable to resolve an ``INTERNET_CONNECTIVITY`` error, you can manuall
 
 * To run the script depending on your OS, you may need to double-click or execute the installer script in a shell. Users on macOS or Windows may see a security warning. For example, to override the security on macOS, you may need to right-click the file and select **Open**.
 
-* If you have installed Postman app with snap (on Linux machines), Interceptor will not connect and you must reinstall the Postman app outside of snap.
+* If you have installed Postman with snap (on Linux machines), Interceptor will not connect and you must reinstall Postman outside of snap.
 
 ## Security
 
@@ -239,7 +239,7 @@ The communication between Interceptor and Postman is automatically encrypted. Yo
 
 ### Adding a custom encryption key in the UI
 
-1. In the Postman app, select <img alt="Capture icon" src="https://assets.postman.com/postman-docs/icon-capture.jpg#icon" width="15px"> **Capture requests** in the Postman footer. Then in the **Capture requests** window, select the **Via Interceptor** tab.
+1. In Postman, select <img alt="Capture icon" src="https://assets.postman.com/postman-docs/icon-capture.jpg#icon" width="15px"> **Capture requests** in the Postman footer. Then in the **Capture requests** window, select the **Via Interceptor** tab.
 1. To the right of the green **Connected** status, select the lock icon <img alt="Lock icon" src="https://assets.postman.com/postman-docs/icon-lock.jpg#icon" width="11px">.
 
     <img src="https://assets.postman.com/postman-docs/interceptor-session-key.jpg" width="350px" alt="Set encryption in app"/>
@@ -267,7 +267,7 @@ To update Interceptor:
 
 > Postman's Chrome app is deprecated and no longer offers feature parity with Postman native. It's highly recommended that you switch to [Postman native](https://www.postman.com/downloads/).
 
-The Postman Chrome app's Interceptor functions as a proxy to capture HTTP and HTTPS requests. You can use Interceptor to capture requests made by your Chrome browser and send them to your Postman app's history.
+The Postman Chrome app's Interceptor functions as a proxy to capture HTTP and HTTPS requests. You can use Interceptor to capture requests made by your Chrome browser and send them to your Postman history.
 
 You can filter requests according to the URL by selecting the Interceptor icon in your browser, then applying a filter under **Filter requests**.
 

@@ -69,11 +69,11 @@ During the sign up process, you have the option to create or join a [team](/docs
 
 ## Signing into Postman
 
-From the Postman app, you can sign in by selecting **Sign In** in the upper-right corner of the app or selecting **Home** in the upper-left corner of the app then **Sign In**. You can also navigate to [Postman's website](https://www.postman.com/) and selecting **Sign In** in the upper-right corner of the page.
+You can sign in to Postman by selecting **Sign In** in the upper-right corner of the app or selecting **Home** in the upper-left corner of the app then **Sign In**. You can also navigate to [Postman's website](https://www.postman.com/) and selecting **Sign In** in the upper-right corner of the page.
 
 When you sign in using the Postman desktop app, the app will open a new screen that directs you to _Sign in via web browser_. Your default browser will automatically open a webpage asking you to sign into Postman. If your browser doesn't open within a few seconds, select the **open your browser** link in Postman.
 
-> You can opt out of the sign in process at any time by navigating back to the Postman app and selecting **Skip and take me to Postman Desktop App**.
+> You can opt out of the sign in process at any time by going back to Postman and selecting **Skip and take me to Postman Desktop App**.
 
 Sign into Postman in your browser by entering your account credentials or signing in with Google. If you are on a Postman Professional or Enterprise plan, opt to **Sign in with Single Sign-On (SSO)**.
 

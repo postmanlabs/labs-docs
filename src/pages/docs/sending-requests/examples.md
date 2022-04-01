@@ -59,7 +59,7 @@ Examples are useful in several ways. Developers and testers can refer to example
 
 An example is always associated with a [request](/docs/sending-requests/requests/) in a [collection](/docs/sending-requests/intro-to-collections/), and a request can have more than one example. To quickly add an example to a request, send the request and then save the response as an example. You can also manually add an example to a request and define a custom response. After adding an example using either method, you can edit it at any time to make changes.
 
-> To ensure optimal performance of the Postman app, example responses should be no larger than 5 MB in size.
+> To ensure optimal Postman performance, example responses should be no larger than 5 MB in size.
 
 ### Saving a response as an example
 

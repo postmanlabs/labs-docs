@@ -36,7 +36,7 @@ You will need to restart Postman to install the update. Select __Restart and Ins
 
 You can start using Postman v9 and access the new UI and features once the update is completed.
 
-> Postman v9.4 is the last version of the Postman app that supports both 32-bit and 64-bit Windows. All versions of the Postman app following v9.4 will only work on 64-bit Windows. You can continue to use Postman v9.4 and earlier on 32-bit Windows.
+> Postman v9.4 is the last version of Postman that supports both 32-bit and 64-bit Windows. All versions of Postman following v9.4 will only work on 64-bit Windows. You can continue to use Postman v9.4 and earlier on 32-bit Windows.
 
 ## Upgrading to Postman v8
 
@@ -66,7 +66,7 @@ Team members on v7 can upgrade to v8 by updating the app via **Settings** > **Up
 
 ## Installing earlier versions of Postman
 
-If you happen to be on Postman v8 or below and would like to downgrade to Postman v7 or below to continue working with a team that has not migrated yet, download the earlier versions of Postman app from the links below.
+If you are on Postman v8 or below and would like to downgrade to Postman v7 or below to continue working with a team that has not migrated yet, download the earlier versions of Postman from the links below.
 
 ### Downloading Postman v8
 

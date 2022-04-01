@@ -42,7 +42,7 @@ contextual_links:
 1. After configuring all the details, enable the new SAML application with the **Enable** toggle.
    [![ping toggle](https://assets.postman.com/postman-docs/ping_toggle)](https://assets.postman.com/postman-docs/ping_toggle)
 
-1. Once enabled, the status will show as **Active** for the application.
+1. Once enabled, the status will show as **Active** for the SAML application.
    [![ping active](https://assets.postman.com/postman-docs/ping_active)](https://assets.postman.com/postman-docs/ping_active)
 
 1. Once the setup is completed, submit your Identity Provider's details to Postman. Copy the `Identity Provider Single Sign-On URL`, `Identity Provider Issuer`, and `X.509 Certificate` from the downloaded **SAML metadata** file and enter these values on the Postman [Edit Team Details page](https://go.postman.co/settings/team/general) within the **Ping Identity Provider Details** modal. For more details on this last step, review [setting up SSO in Postman](/docs/administration/sso/admin-sso/).

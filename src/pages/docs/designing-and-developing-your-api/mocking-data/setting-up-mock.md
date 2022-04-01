@@ -188,7 +188,7 @@ If you configured a delay for your mock server, Postman will wait the specified 
 
 ### Using HTTP access control for a mock
 
-In addition to using the Postman app to make requests to mock endpoints, you can also make those requests in a browser.
+In addition to using Postman to make requests to mock endpoints, you can also make those requests in a browser.
 
 A web browser makes a cross-origin HTTP request when it requests a resource from a domain, protocol, or port that's different from its own. [Cross-Origin Resource Sharing (CORS)](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) is a standard that defines a way in which a browser and server can interact securely, in this case referring to how a web browser interacts with the mock endpoints hosted on the Postman server.
 

@@ -25,11 +25,11 @@ To begin, let’s start with an example.
 
 [![create mock diagram](https://assets.postman.com/postman-docs/create-mock-v9.jpg)](https://assets.postman.com/postman-docs/create-mock-v9.jpg)
 
-When a mock is created using either the Postman API or the Postman app, a call is made to the Postman servers that associates a particular collection (and environment if you choose one) with a newly created mock. The collection `C1` that was just mocked is now associated with the new mock `M1`.
+When a mock is created using either Postman or the Postman API, a call is made to the Postman servers that associates a particular collection (and environment if you choose one) with a newly created mock. The collection `C1` that was just mocked is now associated with the new mock `M1`.
 
 [![show mock diagram](https://assets.postman.com/postman-docs/show-mock-v9.jpg)](https://assets.postman.com/postman-docs/show-mock-v9.jpg)
 
-When you use the mock `M1` via the mock URL `https://M1.mock.pstmn.io` in the Postman app, the mock service will retrieve all saved examples from the Postman servers for that particular collection before it begins the matching process.
+When you use the mock `M1` via the mock URL `https://M1.mock.pstmn.io` in Postman, the mock service will retrieve all saved examples from the Postman servers for that particular collection before it begins the matching process.
 
 [![use mock diagram](https://assets.postman.com/postman-docs/use-mock-v9.jpg)](https://assets.postman.com/postman-docs/use-mock-v9.jpg)
 

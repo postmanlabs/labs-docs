@@ -100,7 +100,7 @@ OpenSSL is already installed for macOS and is typically installed for Linux. For
 
 1. Select **OK** and then select **Next**.
 1. Select **Finish** to import the certificate.
-1. Restart the Postman app.
+1. Restart Postman.
 
 ## macOS
 
@@ -203,11 +203,11 @@ OpenSSL is already installed for macOS and is typically installed for Linux. For
 If you are unable to correctly install the `postman-proxy-ca.crt` certificate, or if the certificate is not allowing you to capture traffic, try regenerating and reinstalling the certificate.
 
 1. Make sure you are running Postman version 9.1 or later. See [Updating Postman](/docs/getting-started/installation-and-updates/#updating-postman).
-1. On the computer where the Postman app is installed, delete the `/Postman/Proxy` folder. You can find the folder in the following location:
+1. On the computer on which Postman is installed, delete the `/Postman/Proxy` folder. You can find the folder in the following location:
 
     * **macOS:** `~/Library/Application Support/Postman/proxy`
     * **Windows:** `C:\Users\<user>\AppData\Roaming\Postman\proxy`
     * **Linux:** `~/.config/Postman/proxy`
 
-1. Close and restart the Postman app. Postman regenerates the certificate.
+1. Close and restart Postman. Postman regenerates the certificate.
 1. Follow the steps for your device to [reinstall the certificate](#capturing-https-traffic).

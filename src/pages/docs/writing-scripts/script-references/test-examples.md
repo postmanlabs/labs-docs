@@ -73,7 +73,7 @@ Use the **Tests** tab in your requests, folders, and collections to write tests 
 
 ## Getting started with tests
 
-To write your first test script, open a request in your Postman app and open the **Tests** tab. Enter the following JavaScript code:
+To write your first test script, open a request in Postman, then select the **Tests** tab. Enter the following JavaScript code:
 
 ```js
 pm.test("Status code is 200", function () {

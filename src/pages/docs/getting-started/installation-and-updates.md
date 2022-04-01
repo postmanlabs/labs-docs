@@ -61,7 +61,7 @@ To get the latest version of the Postman desktop app, visit the [download page](
 
 Postman is available for macOS 10.11 (El Capitan) and later.
 
-1. [Download](https://www.postman.com/downloads/) the latest Postman app.
+1. [Download](https://www.postman.com/downloads/) the latest Postman version.
 
     > Make sure to download the **Mac Apple Chip** version if you have a Mac with the M1 processor.
 
@@ -81,10 +81,10 @@ brew install --cask postman
 
 Postman is available for Windows 7 and later.
 
-1. [Download](https://www.postman.com/downloads/) the latest Postman app.
+1. [Download](https://www.postman.com/downloads/) the latest Postman version.
 1. Select and run the `.exe` file to install Postman.
 
-> Postman v9.4 is the last version of the Postman app that supports both 32-bit and 64-bit Windows. All versions of the Postman app following v9.4 will only work on 64-bit Windows. You can continue to use Postman v9.4 and earlier on 32-bit Windows.
+> Postman v9.4 is the last version of Postman that supports both 32-bit and 64-bit Windows. All versions of Postman following v9.4 will only work on 64-bit Windows. You can continue to use Postman v9.4 and earlier on 32-bit Windows.
 
 ## Installing Postman on Linux
 
@@ -171,11 +171,11 @@ Postman for Web is under active development. There are a few features you can cu
 
 ## Updating Postman
 
-The native Postman apps will notify you when a major update is available. For other updates you will see a dot on the settings icon. If the indicator is red instead of orange, it indicates a failed update.
+Postman will notify you when a major update is available. For other updates, you will see a dot on the settings icon. If the indicator is red instead of orange, it indicates a failed update.
 
 ![Update Ready](https://assets.postman.com/postman-docs/update-ready-v86.jpg)
 
-Select the update option to download or install the latest update. You will see a notification when the download is complete, prompting you to restart the Postman app to apply the updates. If you don't want to update yet, choose __Later__ to auto-update the next time you open Postman.
+Select the update option to download or install the latest update. You will see a notification when the download is complete, prompting you to restart Postman to apply the updates. If you don't want to update yet, choose __Later__ to auto-update the next time you open Postman.
 
 You can configure your preferences to enable automatic download for major updates in __Settings__ &gt; __Update__. Postman automatically downloads minor updates and bug fixes.
 
@@ -185,7 +185,7 @@ You can configure your preferences to enable automatic download for major update
 
 The Postman Chrome app is deprecated. If you use the Chrome app, you can keep your data when you [switch to using Postman](#migrating-to-the-native-app) either by syncing with your Postman account or by exporting from Chrome and importing into Postman.
 
-The Postman app is built on [Electron](https://www.electronjs.org/), and [overcomes a number of restrictions](https://blog.postman.com/going-native/) of the Chrome platform.
+The Postman Desktop app is built on [Electron](https://www.electronjs.org/), and [overcomes a number of restrictions](https://blog.postman.com/going-native/) of the Chrome platform.
 
 * The native apps let you work with [cookies](/docs/sending-requests/cookies/) directly.
 * Unlike the Chrome app, no separate extension for the [Interceptor](/docs/sending-requests/capturing-request-data/interceptor/) is needed.
