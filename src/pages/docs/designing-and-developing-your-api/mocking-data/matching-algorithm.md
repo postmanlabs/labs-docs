@@ -35,7 +35,7 @@ When you use the mock `M1` via the mock URL `https://M1.mock.pstmn.io` in the Po
 
 Now that the mock service has all the saved examples for the current collection, it will now iteratively pair the incoming request with the closest matching example.
 
-The incoming request can have several configurable variables, such as `requestMethod` and `mockPath`. The `requestMethod` variable corresponds to any valid HTTP request method (e.g. `GET`, `POST`,`PUT`, `PATCH`, `DELETE`, etc.), and the `mockPath` refers to any valid string path (e.g. `/`, `/test`, `/test/path`, `/test/path/1`).
+The incoming request can have several configurable variables, such as `requestMethod` and `mockPath`. The `requestMethod` variable corresponds to any valid HTTP request method (such as `GET`, `POST`,`PUT`, `PATCH`, or `DELETE`), and the `mockPath` refers to any valid string path (`/`, `/test`, `/test/path`, `/test/path/1`).
 
 Other optional headers like `x-mock-response-name` or `x-mock-response-id` allow you to further specify the example to be returned by the name or by the UID of the saved example respectively. You can get the example response UID by using the Postman API to [GET a Single Collection](https://docs.api.getpostman.com/#647806d5-492a-eded-1df6-6529b5dc685c) and searching for your example in the response. The UID has the syntax `<user_id>-<response_id>`.
 

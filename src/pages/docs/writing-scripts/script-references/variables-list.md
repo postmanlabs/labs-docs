@@ -22,11 +22,11 @@ warning: false
 
 Postman uses the [faker library](https://www.npmjs.com/package/@faker-js/faker) to generate sample data, including random names, addresses, email addresses, and much more. You can use these pre-defined variables multiple times to return different values per request.
 
-You can use these variables like any other variable in Postman. Their values are generated at the time of execution and their names start with a `$` symbol e.g. `$guid`, `$timestamp` etc.
+You can use these variables like any other variable in Postman. Their values are generated at the time of execution and their names start with a `$` symbol, for example `$guid` or `$timestamp`.
 
 The following is a list of dynamic variables whose values are randomly generated during the request/collection run.
 
-> To use dynamic variables in pre-request or test scripts, you need to use `pm.variables.replaceIn()`, e.g. `pm.variables.replaceIn('{{$randomFirstName}}')`.
+> To use dynamic variables in pre-request or test scripts, you need to use `pm.variables.replaceIn()`, for example `pm.variables.replaceIn('{{$randomFirstName}}')`.
 
 ### Common
 
@@ -43,7 +43,7 @@ The following is a list of dynamic variables whose values are randomly generated
 |                           |                                               | `"53151b27-034f-45a0-9f0a-d7b6075b67d0"`   |
 |                           |                                               | `"727131a2-2717-44ad-ab02-006587e947dc"`   |
 
-### Text, Numbers and Colors
+### Text, numbers, and colors
 
 | **Variable Name**         | **Description**                                | **Examples**                               |
 |:--------------------------|:----------------------------------------------|:-------------------------------------------|
@@ -54,7 +54,7 @@ The following is a list of dynamic variables whose values are randomly generated
 | **`$randomHexColor`**     | A random hex value                            | `"#47594a"`, `"#431e48"`, `"#106f21"`      |
 | **`$randomAbbreviation`** | A random abbreviation                         | `SQL`, `PCI`, `JSON`                       |
 
-### Internet and IP Addresses
+### Internet and IP addresses
 
 | **Variable Name**         | **Description**                                | **Examples**                               |
 |:--------------------------|:----------------------------------------------|:-------------------------------------------|
@@ -92,17 +92,17 @@ The following is a list of dynamic variables whose values are randomly generated
 | | | `Future Interactions Executive` |
 | **`$randomJobType`**          | A random job type             | `Supervisor`, `Manager`, `Coordinator`                    |
 
-### Phone, Address and Location
+### Phone, address, and location
 
 | **Variable Name**             | **Description**                | **Examples**                                              |
 |:------------------------------|:------------------------------|:----------------------------------------------------------|
-| **`$randomPhoneNumber`**      | A random 10-digit phone number| `700-008-5275`, `494-261-3424`, `662-302-7817`            |
+| **`$randomPhoneNumber`**      | A random ten-digit phone number| `700-008-5275`, `494-261-3424`, `662-302-7817`            |
 | **`$randomPhoneNumberExt`**   | A random phone number with extension (12 digits) | `27-199-983-3864`, `99-841-448-2775`   |
 | **`$randomCity`**             | A random city name            | `Spinkahaven`, `Korbinburgh`, `Lefflerport`               |
 | **`$randomStreetName`**       | A random street name          | `Kuhic Island`, `General Street`, `Kendrick Springs`      |
 | **`$randomStreetAddress`**    | A random street address       | `5742 Harvey Streets`, `47906 Wilmer Orchard`             |
 | **`$randomCountry`**          | A random country              |`Lao People's Democratic Republic`, `Kazakhstan`, `Austria`|
-| **`$randomCountryCode`**      | A random 2-letter country code (ISO 3166-1 alpha-2) | `CV`, `MD`, `TD`                    |
+| **`$randomCountryCode`**      | A random two-letter country code (ISO 3166-1 alpha-2) | `CV`, `MD`, `TD`                    |
 | **`$randomLatitude`**         | A random latitude coordinate  | `55.2099`, `27.3644`, `-84.7514`                          |
 | **`$randomLongitude`**        | A random longitude coordinate | `40.6609`, `171.7139`, `-159.9757`                        |
 
@@ -113,19 +113,19 @@ The following is a list of dynamic variables whose values are randomly generated
 | **`$randomAvatarImage`**  | A random avatar image                         | `https://s3.amazonaws.com/uifaces/faces/twitter/johnsmithagency/128.jpg` |
 |                           |                                               | `https://s3.amazonaws.com/uifaces/faces/twitter/xadhix/128.jpg` |
 |                           |                                               | `https://s3.amazonaws.com/uifaces/faces/twitter/martip07/128.jpg` |
-| **`$randomImageUrl`**     | A URL for a random image                      | `http://lorempixel.com/640/480`            |
-| **`$randomAbstractImage`**| A URL for a random abstract image             | `http://lorempixel.com/640/480/abstract`   |
-| **`$randomAnimalsImage`** | A URL for a random animal image               | `http://lorempixel.com/640/480/animals`    |
-| **`$randomBusinessImage`**| A URL for a random stock business image       | `http://lorempixel.com/640/480/business`   |
-| **`$randomCatsImage`**    | A URL for a random cat image                  | `http://lorempixel.com/640/480/cats`       |
-| **`$randomCityImage`**    | A URL for a random city image                 | `http://lorempixel.com/640/480/city`       |
-| **`$randomFoodImage`**    | A URL for a random food image                 | `http://lorempixel.com/640/480/food`       |
-|**`$randomNightlifeImage`**| A URL for a random nightlife image            | `http://lorempixel.com/640/480/nightlife`  |
-| **`$randomFashionImage`** | A URL for a random fashion image              | `http://lorempixel.com/640/480/fashion`    |
-| **`$randomPeopleImage`**  | A URL for a random image of a person          | `http://lorempixel.com/640/480/people`     |
-| **`$randomNatureImage`**  | A URL for a random nature image               | `http://lorempixel.com/640/480/nature`     |
-| **`$randomSportsImage`**  | A URL for a random sports image               | `http://lorempixel.com/640/480/sports`     |
-|**`$randomTransportImage`**| A URL for a random transportation image       | `http://lorempixel.com/640/480/transport`  |
+| **`$randomImageUrl`**     | A URL of a random image                      | `http://lorempixel.com/640/480`            |
+| **`$randomAbstractImage`**| A URL of a random abstract image             | `http://lorempixel.com/640/480/abstract`   |
+| **`$randomAnimalsImage`** | A URL of a random animal image               | `http://lorempixel.com/640/480/animals`    |
+| **`$randomBusinessImage`**| A URL of a random stock business image       | `http://lorempixel.com/640/480/business`   |
+| **`$randomCatsImage`**    | A URL of a random cat image                  | `http://lorempixel.com/640/480/cats`       |
+| **`$randomCityImage`**    | A URL of a random city image                 | `http://lorempixel.com/640/480/city`       |
+| **`$randomFoodImage`**    | A URL of a random food image                 | `http://lorempixel.com/640/480/food`       |
+|**`$randomNightlifeImage`**| A URL of a random nightlife image            | `http://lorempixel.com/640/480/nightlife`  |
+| **`$randomFashionImage`** | A URL of a random fashion image              | `http://lorempixel.com/640/480/fashion`    |
+| **`$randomPeopleImage`**  | A URL of a random image of a person          | `http://lorempixel.com/640/480/people`     |
+| **`$randomNatureImage`**  | A URL of a random nature image               | `http://lorempixel.com/640/480/nature`     |
+| **`$randomSportsImage`**  | A URL of a random sports image               | `http://lorempixel.com/640/480/sports`     |
+|**`$randomTransportImage`**| A URL of a random transportation image       | `http://lorempixel.com/640/480/transport`  |
 | **`$randomImageDataUri`** | A random image data URI                       | `data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20version%3D%221.1%22%20baseProfile%3D%22full%22%20width%3D%22undefined%22%20height%3D%22undefined%22%3E%20%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22grey%22%2F%3E%20%20%3Ctext%20x%3D%220%22%20y%3D%2220%22%20font-size%3D%2220%22%20text-anchor%3D%22start%22%20fill%3D%22white%22%3Eundefinedxundefined%3C%2Ftext%3E%20%3C%2Fsvg%3E` |
 
 ### Finance
@@ -133,13 +133,13 @@ The following is a list of dynamic variables whose values are randomly generated
 | **Variable Name**          | **Description**                                | **Examples**                                 |
 |:---------------------------|:----------------------------------------------|:---------------------------------------------|
 | **`$randomBankAccount`**   | A random 8-digit bank account number          | `09454073`, `65653440`, `75728757`           |
-|**`$randomBankAccountName`**| A random bank account name (e.g. savings account, checking account) | `Home Loan Account`, `Checking Account`, `Auto Loan Account` |
+|**`$randomBankAccountName`**| A random bank account name (savings account, checking account) | `Home Loan Account`, `Checking Account`, `Auto Loan Account` |
 | **`$randomCreditCardMask`**| A random masked credit card number            | `3622`, `5815`, `6257`                       |
 | **`$randomBankAccountBic`**| A random BIC (Bank Identifier Code)           | `EZIAUGJ1`, `KXCUTVJ1`, `DIVIPLL1`           |
 |**`$randomBankAccountIban`**| A random 15-31 character IBAN (International Bank Account Number) | `MU20ZPUN3039684000618086155TKZ` |
 | | | `BR7580569810060080800805730W2` |
 | | | `XK241602002200395017`          |
-| **`$randomTransactionType`**| A random transaction type (e.g. invoice, payment, deposit) | `invoice`, `payment`, `deposit`|
+| **`$randomTransactionType`**| A random transaction type (invoice, payment, deposit) | `invoice`, `payment`, `deposit`|
 | **`$randomCurrencyCode`**  | A random 3-letter currency code (ISO-4217)    | `CDF`, `ZMK`, `GNF`                          |
 | **`$randomCurrencyName`**  | A random currency name                        | `CFP Franc`, `Cordoba Oro`, `Pound Sterling` |
 | **`$randomCurrencySymbol`**| A random currency symbol                      | `$`, `£`                                     |
@@ -152,7 +152,7 @@ The following is a list of dynamic variables whose values are randomly generated
 | **Variable Name**         | **Description**                                | **Examples**                               |
 |:--------------------------|:----------------------------------------------|:-------------------------------------------|
 | **`$randomCompanyName`**  | A random company name                         | `Johns - Kassulke`, `Grady LLC`            |
-| **`$randomCompanySuffix`**| A random company suffix (e.g. Inc, LLC, Group)| `Inc`, `LLC`, `Group`                      |
+| **`$randomCompanySuffix`**| A random company suffix (Inc, LLC, Group)| `Inc`, `LLC`, `Group`                      |
 | **`$randomBs`**           | A random phrase of business speak             | `killer leverage schemas`,                 |
 |                           |                                               | `bricks-and-clicks deploy markets`,        |
 |                           |                                               | `world-class unleash platforms`            |
@@ -196,7 +196,7 @@ The following is a list of dynamic variables whose values are randomly generated
 | **`$randomWeekday`**          | A random weekday                | `Thursday`, `Friday`, `Monday`                            |
 | **`$randomMonth`**            | A random month                  | `February`, `May`, `January`                              |
 
-### Domains, Emails and Usernames
+### Domains, emails, and usernames
 
 | **Variable Name**             | **Description**                  | **Examples**                                              |
 |:------------------------------|:--------------------------------|:----------------------------------------------------------|
@@ -208,7 +208,7 @@ The following is a list of dynamic variables whose values are randomly generated
 | **`$randomUserName`**         | A random username               | `Jarrell.Gutkowski`, `Lottie.Smitham24`, `Alia99`         |
 | **`$randomUrl`**              | A random URL                    | `https://anais.net`, `https://tristin.net`, `http://jakob.name` |
 
-### Files and Directories
+### Files and directories
 
 | **Variable Name**             | **Description**                                        | **Examples**                            |
 |:------------------------------|:------------------------------------------------------|:----------------------------------------|
@@ -257,7 +257,7 @@ The following is a list of dynamic variables whose values are randomly generated
 | | | `overriding the capacitor won't do anything, we need to compress the optical SMS transmitter!`, |
 | | | `I'll generate the virtual AI program, that should microchip the RAM monitor!` |
 
-### Lorem Ipsum
+### Lorem ipsum
 
 | **Variable Name**             | **Description**                  | **Examples**                                              |
 |:------------------------------|:--------------------------------|:----------------------------------------------------------|

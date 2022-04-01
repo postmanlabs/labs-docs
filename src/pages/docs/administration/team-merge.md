@@ -118,7 +118,7 @@ See [performing distributed migration](#performing-distributed-migration) to cho
     * By default, the person who imports a collection or environment is automatically assigned the Editor role (see more about [roles](/docs/collaborating-in-postman/roles-and-permissions/)). Everyone else on the team will be assigned as a Viewer.
 * Once the last team member and data from your previous team have migrated to your new one, the previous team will automatically deactivate and you can begin [collaborating](https://www.youtube.com/watch?v=0hPUzjM-Cc8).
     * If you change your previous team email to a non-company domain email (for example, Gmail or Yahoo), your previous team will continue indefinitely. You can keep a personal account with your current data and use a work email for a work account. Keeping both accounts in use can help when you migrate data.
-    * Please keep in mind items that will need to be recreated (monitors, mocks, etc).
+    * Please keep in mind items that will need to be recreated (such as monitors and mocks).
 
 ## Migration FAQs
 

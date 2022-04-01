@@ -98,7 +98,7 @@ Existing users who were previously on another Postman team will have their perso
 
 ## Domain capture FAQs
 
-### What happens to captured users and their data (collections, environments, etc.) when domain capture is enabled?
+### What happens to captured users and their data (collections, environments) when domain capture is enabled?
 
 The experience for captured users depends on their prior team status:
 
