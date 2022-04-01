@@ -47,7 +47,7 @@ Signing up for a Postman account is optional, and you can use the Postman deskto
 
 ## Signing up for a Postman account
 
-Before you sign up for a Postman account, either download and launch the [desktop app](https://www.postman.com/downloads/) or navigate to the [web app](https://go.postman.co/home/).
+Before you sign up for a Postman account, either download and open the [desktop app](https://www.postman.com/downloads/) or navigate to the [web app](https://go.postman.co/home/).
 
 You will see a prompt to log in or sign up. Select __Create Account__. You can sign up using an email address or using your Google account:
 

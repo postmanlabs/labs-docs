@@ -92,7 +92,7 @@ You can install Postman on Linux by manually downloading it, using the [Snap](ht
 
 To install manually, [download](https://www.postman.com/downloads/) and unzip the app, for example into the `Downloads` directory.
 
-To start the app from a launcher icon, create a desktop file, naming it `Postman.desktop` and saving it in the following location:
+To start the app from a desktop shortcut, create a desktop file. Name the file `Postman.desktop` and save it in the following location:
 
 ```shell
 ~/.local/share/applications/Postman.desktop
@@ -175,7 +175,7 @@ The native Postman apps will notify you when a major update is available. For ot
 
 ![Update Ready](https://assets.postman.com/postman-docs/update-ready-v86.jpg)
 
-Select the update option to download or install the latest update. You will see a notification when the download is complete, prompting you to restart the Postman app to apply the updates. If you don't want to update yet, choose __Later__ to auto-update the next time you launch the app.
+Select the update option to download or install the latest update. You will see a notification when the download is complete, prompting you to restart the Postman app to apply the updates. If you don't want to update yet, choose __Later__ to auto-update the next time you open Postman.
 
 You can configure your preferences to enable automatic download for major updates in __Settings__ &gt; __Update__. Postman automatically downloads minor updates and bug fixes.
 
