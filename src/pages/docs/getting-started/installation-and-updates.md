@@ -216,11 +216,11 @@ Postman's infrastructure runs on Amazon's AWS platform. If you are operating beh
 
 By default, WebSocket connections use the same ports as HTTP (80) and HTTPS (443).
 
-Postman doesn't have a fixed IP range that can be provided. If necessary, please refer to the [current AWS IP ranges](https://docs.aws.amazon.com/general/latest/gr/aws-ip-ranges.html) and allow the broad range provided.
+Postman doesn't have a fixed IP range that can be provided. If necessary, refer to the [current AWS IP ranges](https://docs.aws.amazon.com/general/latest/gr/aws-ip-ranges.html) and allow the broad range provided.
 
 ## Troubleshooting your Postman installation
 
-If you encounter any issues installing and running Postman, check out the following tips. If these don't help, please refer to the installation posts on the [community forum](https://community.postman.com/tags/installation) and create a new post if your issue isn't already covered.
+If you encounter any issues installing and running Postman, check out the following tips. If these don't help, refer to the installation posts on the [community forum](https://community.postman.com/tags/installation) and create a new post if your issue isn't already covered.
 
 ### Update failed error
 

@@ -66,18 +66,18 @@ Team members on v7 can upgrade to v8 by updating the app via **Settings** > **Up
 
 ## Installing earlier versions of Postman
 
-If you happen to be on Postman v8 or below and would like to downgrade to Postman v7 or below to continue working with a team that has not migrated yet, please download the earlier versions of Postman app from the links below.
+If you happen to be on Postman v8 or below and would like to downgrade to Postman v7 or below to continue working with a team that has not migrated yet, download the earlier versions of Postman app from the links below.
 
 ### Downloading Postman v8
 
-Please use the following links to download the latest Postman v8 version for your platform.
+Use the following links to download the latest Postman v8 version for your platform.
 
 * [Download Postman v8 for macOS 64-bit](https://go.pstmn.io/dl-macos64-v8-latest)
 * [Download Postman v8 for Windows 64-bit](https://go.pstmn.io/dl-win64-v8-latest)
 * [Download Postman v8 for Windows 32-bit](https://go.pstmn.io/dl-win32-v8-latest)
 * [Download Postman v8 for Linux 64-bit](https://go.pstmn.io/dl-linux64-v8-latest)
 
-**Note:** If you are using Postman for Linux, and had installed the app via 'Ubuntu Software Center' or 'Snap Store', please use the following commands to switch to Postman v8.
+**Note:** If you are using Postman for Linux, and had installed the app via 'Ubuntu Software Center' or 'Snap Store', use the following commands to switch to Postman v8.
 
 ```shell
 sudo snap switch --channel=v8/stable postman
@@ -86,14 +86,14 @@ sudo snap refresh postman
 
 ### Downloading Postman v7
 
-Please use the following links to download the latest Postman v7 version for your platform.
+Use the following links to download the latest Postman v7 version for your platform.
 
 * [Download Postman v7 for macOS 64-bit](https://go.pstmn.io/dl-macos64-v7-latest)
 * [Download Postman v7 for Windows 64-bit](https://go.pstmn.io/dl-win64-v7-latest)
 * [Download Postman v7 for Windows 32-bit](https://go.pstmn.io/dl-win32-v7-latest)
 * [Download Postman v7 for Linux 64-bit](https://go.pstmn.io/dl-linux64-v7-latest)
 
-**Note:** If you are using Postman for Linux, and had installed the app via 'Ubuntu Software Center' or 'Snap Store', please use the following commands to switch to Postman v7.
+**Note:** If you are using Postman for Linux, and had installed the app via 'Ubuntu Software Center' or 'Snap Store', use the following commands to switch to Postman v7.
 
 ```shell
 sudo snap switch --channel=v7/stable postman
