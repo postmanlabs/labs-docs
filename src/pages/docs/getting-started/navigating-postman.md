@@ -40,20 +40,17 @@ warning: false
 
 ---
 
-Postman provides a variety of views and controls to help you manage your API projects. <!-- TODO: more intro -->
-
-[![Postman app](https://assets.postman.com/postman-docs/app-overview-v9.5.jpg)](https://assets.postman.com/postman-docs/app-overview-v9.5.jpg)
-
-The primary interface areas for Postman are the: <!-- TODO: this is bad -->
+Postman has a variety of tools, views, and controls to help you manage your API projects. This guide is a high-level overview of Postman's primary interface areas:
 
 * [Header](#header)
-    * [Search Postman](#search-postman)
 * [Sidebar](#sidebar)
 * [Main work area](#main-work-area)
     * [Tabs](#tabs)
     * [Right sidebar](#right-sidebar)
     * [Environment selector and environment quick look](#environment-selector-and-environment-quick-look)
 * [Footer](#footer)
+
+[![Postman app](https://assets.postman.com/postman-docs/navigating-postman-app-overview-v9.15.jpg)](https://assets.postman.com/postman-docs/navigating-postman-app-overview-v9.15.jpg)
 
 <!-- TODO: semi-abstracted image with labels -->
 
