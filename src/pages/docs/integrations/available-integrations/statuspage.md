@@ -17,7 +17,7 @@ contextual_links:
   - type: link
     name: "Integrate with Statuspage in Postman"
     url: "https://youtu.be/siL7Iu9L7ys"
-    
+
 ---
 
 Atlassian Statuspage an uptime and incident communication tools. You can use Statuspage to create a home page for your customers so they can monitor if subsystems or services within your site are operational, and find out more information on system outages or failures. A great example of a Statuspage home page is Postman's status page, located at [status.postman.com](https://status.postman.com).
@@ -30,7 +30,7 @@ Make sure to create your Statuspage account and create a page and components bef
 
 ## Retrieving your Statuspage API Key
 
-1. Log in to [Statuspage](https://manage.statuspage.io/login).
+1. Sign in to [Statuspage](https://manage.statuspage.io/login).
 2. Select your avatar icon in the bottom left of the page.
 3. On the user menu, select **API info**.
 ![Statuspage API key](https://assets.postman.com/postman-docs/statuspage-api-key.jpg)

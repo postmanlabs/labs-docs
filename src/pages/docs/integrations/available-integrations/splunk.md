@@ -17,7 +17,7 @@ contextual_links:
   - type: link
     name: "Integrate with Splunk in Postman"
     url: "https://youtu.be/0PH2Pv3QwMI"
-    
+
 ---
 
 Splunk is a monitoring service for cloud-scale applications. It combines data from servers, databases, tools, and services to present a unified view of an entire stack. This integration allows you to configure your Postman Monitors to send metrics to Splunk where you can visualize and compare them with other metrics.
@@ -26,7 +26,7 @@ Setting up a Splunk integration requires you to get an HTTP Event Collector (HEC
 
 ## Retrieving your Splunk HEC token
 
-Log in to [Splunk](https://login.splunk.com) and follow the [steps from Splunk](https://docs.splunk.com/Documentation/Splunk/8.1.0/Metrics/GetMetricsInOther#Get_metrics_in_from_clients_over_HTTP_or_HTTPS
+Sign in to [Splunk](https://login.splunk.com) and follow the [steps from Splunk](https://docs.splunk.com/Documentation/Splunk/8.1.0/Metrics/GetMetricsInOther#Get_metrics_in_from_clients_over_HTTP_or_HTTPS
 ) to create and save your HTTP Event Collector token (HEC token). Save the HEC token to configure the Postman Splunk integration.
 
 ![save splunk HEC token](https://assets.postman.com/postman-docs/splunk-http-event-collection-token-created.jpg)

@@ -93,7 +93,7 @@ Your integration has been set up successfully. Now, whenever a monitor runs, you
 
 ## Get the Microsoft Power Automate webhook URL
 
-Log in to [Microsoft Power Automate](https://flow.microsoft.com/en-us/), and go to `My Flows`. Select `Create from Blank` in the top-right corner.
+Sign in to [Microsoft Power Automate](https://flow.microsoft.com/en-us/), and go to `My Flows`. Select `Create from Blank` in the top-right corner.
 
 ![create connector](https://assets.postman.com/postman-docs/58858272.jpg)
 

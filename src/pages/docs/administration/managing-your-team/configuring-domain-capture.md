@@ -80,7 +80,7 @@ Team admins can manage the domains and subdomains that have been added to a team
 
 In the domain dashboard, you can view your domains, their verification status, the number of unclaimed accounts associated with the domain, and if domain capture is currently turned on or off for the particular domain.
 
-**Unclaimed Accounts** is the number of accounts associated with a verified domain that aren't a part of your Postman team. When you opt to enable **Domain authentication** for a domain, you'll be provided with a list of the unclaimed Postman accounts that will be automatically added to your team. Once enabled, the number of unclaimed accounts will reduce as these users log in and join your team.
+**Unclaimed Accounts** is the number of accounts associated with a verified domain that aren't a part of your Postman team. When you opt to enable **Domain authentication** for a domain, you'll be provided with a list of the unclaimed Postman accounts that will be automatically added to your team. Once enabled, the number of unclaimed accounts will reduce as these users sign in and join your team.
 
 > You won't be able to selectively pick users you'd like to add to your team. When domain capture is enabled, any user associated with the domain, who can authenticate via the SSO auth method you've enabled, can join your Postman team.
 
@@ -90,7 +90,7 @@ With domain capture enabled, any new users that sign up for Postman with your do
 
 When domain capture is enabled, Postman users with accounts associated with the domain or subdomain will only be able to access Postman after joining your Postman team. This applies to existing users who are a part of other Postman teams, existing individual Postman users, and new users who sign up for Postman.
 
-Existing users will be notified when they next log in to Postman that their account is now managed by your team.
+Existing users will be notified when they next sign in to Postman that their account is now managed by your team.
 
 <img alt="Domain capture join team notification" src="https://assets.postman.com/postman-docs/domain-capture-join-team-9.4.jpg" width="350px"/>
 

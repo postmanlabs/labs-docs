@@ -23,7 +23,7 @@ Setting up a New Relic monitor integration requires you to get an API key (Inges
 
 If you don't already have a [New Relic account](https://newrelic.com/), you'll need to create one. Then follow the steps below to retrieve your Ingest License key from New Relic:
 
-1. Log in to [New Relic](https://login.newrelic.com).
+1. Sign in to [New Relic](https://login.newrelic.com).
 1. Select your user avatar in the upper right corner, then select **API keys**.
 1. Select the three dots next to the **INGEST - LICENSE** key and then select **Copy**.
 

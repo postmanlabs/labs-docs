@@ -40,7 +40,7 @@ Back up and synchronize your Postman Collections on Dropbox for file sharing, st
 
     ![authorize to go to dropbox login page](https://assets.postman.com/postman-docs/dropbox-warning.jpg)
 
-1. Log in to your Dropbox account.
+1. Sign in to your Dropbox account.
 
     ![dropbox login](https://assets.postman.com/postman-docs/dropbox-login.jpg)
 

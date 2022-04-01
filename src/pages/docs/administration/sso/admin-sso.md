@@ -89,11 +89,11 @@ If a Postman user logs in to Postman through a team's IdP, the user will be auto
 
 The **Automatically add new users** checkbox in your SSO configuration determines whether users with accounts in your SSO system will be allowed to join your team automatically by signing in to Postman with SSO. If this is enabled, users with or without existing Postman accounts can join your team by heading to the [Enterprise login page](https://identity.getpostman.com/enterprise/login) and logging in with SSO.
 
-> **Automatically add new users** will only work if your team has user slots available. Your team size will not be automatically increased if additional users log in via SSO.
+> **Automatically add new users** will only work if your team has user slots available. Your team size will not be automatically increased if additional users sign in via SSO.
 
 ### Managing team logins
 
-By default, Postman only supports Service Provider initiated logins for Postman Professional or Enterprise teams utilizing SSO. Your team will be required to head to the [Enterprise login page](https://identity.getpostman.com/enterprise/login) in order to log in to Postman. If you require users be able to log in from your SSO portal, you can generate and copy the RelayState from your [Postman team settings](http://go.postman.co/settings/team/auth) and save it in your IDP configuration. This ensures an additional level of security when logins are initiated through a source unknown to Postman.
+By default, Postman only supports Service Provider initiated logins for Postman Professional or Enterprise teams utilizing SSO. Your team will be required to head to the [Enterprise login page](https://identity.getpostman.com/enterprise/login) in order to sign in to Postman. If you require users be able to sign in from your SSO portal, you can generate and copy the RelayState from your [Postman team settings](http://go.postman.co/settings/team/auth) and save it in your IDP configuration. This ensures an additional level of security when logins are initiated through a source unknown to Postman.
 
 ### Removing team access
 

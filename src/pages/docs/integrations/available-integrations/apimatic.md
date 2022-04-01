@@ -42,7 +42,7 @@ To back up a collection periodically to a GitHub repository:
 1. Select **Add Integration**.
 1. Your browser will open a new **Authorize Postman** page that gives Postman access to your GitHub repositories. Select **Authorize postmanlabs**. Once the authorization process is complete, the page will tell you to close the tab and continue in Postman.
 
-    > If you are not signed in to GitHub, you will be prompted to log in.
+    > If you are not signed in to GitHub, you will be prompted to sign in.
 
 1. In Postman, enter information about the integration:
     * **APIMatic API Key** - Your [APIMatic integration key](https://docs.apimatic.io/manage-apis/get-api-keys/).

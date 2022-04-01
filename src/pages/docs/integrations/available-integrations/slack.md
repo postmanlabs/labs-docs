@@ -49,7 +49,7 @@ The Postman to Slack integration enables you to send many Postman notifications 
 
         ![select Slack integration](https://assets.postman.com/postman-docs/slack-select-integration.jpg)
 
-1. After you select the integration type, a browser window asking you to log in to Slack opens. If you are not signed in to a Slack workplace, enter your workspace URL and sign in with your email and password or SSO.
+1. After you select the integration type, a browser window asking you to sign in to Slack opens. If you are not signed in to a Slack workplace, enter your workspace URL and sign in with your email and password or SSO.
     > This window may be blocked by your pop-up blocker.
 
 1. On the **Permission request** page:

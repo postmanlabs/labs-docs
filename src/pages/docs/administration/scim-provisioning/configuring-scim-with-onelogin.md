@@ -55,6 +55,6 @@ To configure provisioning, navigate to the Postman app in OneLogin and select **
 
 Select features to enable them, or de-select to turn them off.
 
-You can also define what happens when users are deleted in OneLogin, their Postman app access is removed, or their accounts are suspended. You can choose to **Suspend** these users' Postman accounts or **Do Nothing**. If you choose to **Suspend**, the affected accounts will no longer appear in your [Postman team dashboard](https://go.postman.co/settings/team/members). Regardless of your choice, users who are deleted, suspended, or have their app access removed will no longer be able to log in to their Postman account.
+You can also define what happens when users are deleted in OneLogin, their Postman app access is removed, or their accounts are suspended. You can choose to **Suspend** these users' Postman accounts or **Do Nothing**. If you choose to **Suspend**, the affected accounts will no longer appear in your [Postman team dashboard](https://go.postman.co/settings/team/members). Regardless of your choice, users who are deleted, suspended, or have their app access removed will no longer be able to sign in to their Postman account.
 
 Select **Save** to save your changes.

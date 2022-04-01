@@ -20,11 +20,11 @@ contextual_links:
 
 The _Scratch Pad_ is a space where you can work if you're not connected to Postman servers. When you aren't logged in or don't have a network connection, you can still access some Postman features offline, such as creating collections and requests, or sending requests.
 
-All your work in the Scratch Pad is stored locally and isn't synced online with Postman. After working in the Scratch Pad, you can later move your work into a workspace once you log in.
+All your work in the Scratch Pad is stored locally and isn't synced online with Postman. After working in the Scratch Pad, you can later move your work into a workspace once you sign in.
 
 ## Entering the Scratch Pad
 
-If you log out or your connection to Postman breaks, you'll see a global banner at the top of the screen indicating that you're already in the Scratch Pad.
+If you sign out or your connection to Postman breaks, you'll see a global banner at the top of the screen indicating that you're already in the Scratch Pad.
 
 <img alt="Scratch Pad global banner" src="https://assets.postman.com/postman-docs/scratch-pad-notice.jpg" width="350px" />
 
@@ -47,7 +47,7 @@ While you are in the Scratch Pad, you can:
 
 To leave the Scratch Pad:
 
-1. Ensure you have a network connection to Postman, and log in.
+1. Ensure you have a network connection to Postman, and sign in.
 1. Switch to a workspace using the **Workspaces** menu at the top of Postman. For more information, see [Using and managing workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/).
 
 > You can also select **Switch to a Workspace** from the Scratch Menu global banner at the top of the screen.
@@ -69,7 +69,7 @@ You can also export a single collection or an environment. For more information,
 
 When you log back in to Postman, you can import your Scratch Pad data:
 
-1. Log in and switch to a workspace using the **Workspaces** menu at the top of Postman. For more information, see [Using and managing workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/).
+1. Sign in and switch to a workspace using the **Workspaces** menu at the top of Postman. For more information, see [Using and managing workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/).
 1. Select **Import** in the upper-left corner.
 1. Drag your exported data dump, collection, or environment and select **Import**.
 

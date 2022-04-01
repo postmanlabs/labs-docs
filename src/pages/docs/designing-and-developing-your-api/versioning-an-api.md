@@ -109,7 +109,7 @@ You can only connect one Postman API to one remote repo. Multiple APIs require m
 To connect a repository:
 
 1. On an API Version page, select **Connect Repository** and choose a repo type: **GitHub**, **GitHub Enterprise**, **Bitbucket**, **GitLab**, **GitLab Self-Managed**, or **Azure DevOps**.
-1. An authentication pop-up window appears. Enter the information to log in to your repo and select **Grant access**.
+1. An authentication pop-up window appears. Enter the information to sign in to your repo and select **Grant access**.
    > This pop-up window may be hidden by your browser. Make sure to enable pop-ups from this site.
 1. On the **Connect your repository page**, enter the information for your repo.
 1. Enter the Git **Organization** and **Repository** where the API will be stored. (For GitLab, **Organization** refers to a **Group**, and **Repository** refers to a **Project**.)
