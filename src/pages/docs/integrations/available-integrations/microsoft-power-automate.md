@@ -23,7 +23,7 @@ Microsoft Power Automate enables you to automate workflows between your favorite
 
 You can configure Microsoft Power Automate with Postman to monitor run results, view team and collection-specific activity feeds, back up your Postman Collections, and use a Microsoft Power Automate Webhook URL.
 
-## Configuring Microsoft Power Automate Integration
+## Configuring Microsoft Power Automate integration
 
 1. Select **[Home](https://go.postman.co/home)**.
 
@@ -63,7 +63,7 @@ To back up your Postman Collections in Microsoft Power Automate:
 
 ## See collection activity feed in Microsoft Power Automate
 
-The activity feed is where you can view all of the changes being made to your Postman Collection by your teammates. Integrating with Microsoft Power Automate gives you the freedom to connect email services like Outlook, Gmail, or a custom SMTP service. You also have the option to set up Twilio to text you when updates are made to your feed.
+The activity feed is where you can view changes being made to your Postman Collection by your teammates. Integrating with Microsoft Power Automate gives you the freedom to connect email services like Outlook, Gmail, or a custom SMTP service. You also have the option to set up Twilio to text you when updates are made to your feed.
 
 To see collection activity feed in Microsoft Power Automate:
 
@@ -103,7 +103,7 @@ To add the first step, enter `request` in the search bar, and select `Request / 
 
 For different types of integrations, the JSON schema varies. The following shows which schema to use for each one.
 
-## **Monitor Run Results**
+## Example monitor run results
 
 ```json
 {
@@ -178,7 +178,7 @@ For different types of integrations, the JSON schema varies. The following shows
 }
 ```
 
-## **Collection and Team Activity Feed**
+## Example collection and team activity feed
 
 ```json
 {
@@ -227,7 +227,7 @@ For different types of integrations, the JSON schema varies. The following shows
 }
 ```
 
-## **Backup Collections**
+## Example backup collections
 
 ```json
 {
@@ -247,7 +247,7 @@ For different types of integrations, the JSON schema varies. The following shows
 
 ![request](https://assets.postman.com/postman-docs/58858289.jpg)
 
-Once that is done, select `New Step → Add an Action` and configure your specific service. For this demo, let's connect your Postman Monitor to the Microsoft Power Automate mobile app. So, on every Monitor run, you will receive an in-app notification in the Microsoft Power Automate mobile app. Select `Notifications` from the list of services and choose the `Send me a mobile notification` action.
+Next, select `New Step → Add an Action` and configure your specific service. For this demo, connect your Postman Monitor to the Microsoft Power Automate mobile app. On every monitor run, you will receive an in-app notification in the Microsoft Power Automate mobile app. Select `Notifications` from the list of services and choose the `Send me a mobile notification` action.
 
 ![add action](https://assets.postman.com/postman-docs/58858298.jpg)
 

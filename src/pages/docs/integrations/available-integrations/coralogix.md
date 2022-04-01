@@ -24,19 +24,19 @@ Coralogix is a machine learning powered log analytics platform which drastically
 
 Setting up a Coralogix integration requires you to get an API key from Coralogix and configure your Postman Monitors. After you set up the integration, you can view real-time alerts based on the results of your monitors.
 
-## Retrieving your Coralogix Private Key
+## Retrieving your Coralogix private key
 
-Log in to [Coralogix](https://dashboard.coralogix.com/#/login). The following screen appears:
+1. Log in to [Coralogix](https://dashboard.coralogix.com/#/login). The following screen appears:
 
-[![coralogix settings](https://assets.postman.com/postman-docs/Coralogix_Settings.png)](https://assets.postman.com/postman-docs/Coralogix_Settings.png)
+    [![Coralogix settings](https://assets.postman.com/postman-docs/Coralogix_Settings.png)](https://assets.postman.com/postman-docs/Coralogix_Settings.png)
 
-Select "Settings" to go to the following screen:
+1. Select "Settings" to go to the following screen:
 
-[![coralogix settings](https://assets.postman.com/postman-docs/Coralogix_Pvtkey1.png)](https://assets.postman.com/postman-docs/Coralogix_Pvtkey1.png)
+    [![Coralogix settings](https://assets.postman.com/postman-docs/Coralogix_Pvtkey1.png)](https://assets.postman.com/postman-docs/Coralogix_Pvtkey1.png)
 
-Navigate to "Send your logs" tab and copy the private key for later use, as illustrated in the above screen (highlighted in red circle).
+1. Navigate to the **Send your logs** tab and copy the private key for later use, as illustrated in the above screen (highlighted in red circle).
 
-## Configuring Coralogix Integration
+## Configuring Coralogix integration
 
 1. From the **[Home](https://go.postman.co/home)** page select **[Integrations](https://go.postman.co/integrations)**.
 

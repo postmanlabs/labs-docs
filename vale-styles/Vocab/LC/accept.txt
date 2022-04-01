@@ -55,6 +55,7 @@ Keen
 LDAP
 Lightstep
 lorem
+Microsoft Power Automate
 Microsoft Teams
 MIME
 monitor
@@ -92,6 +93,7 @@ serverless
 SHA
 Shopify
 SIEM
+Slack
 SMS
 SMTP
 SOAP
@@ -114,3 +116,11 @@ VictorOps
 WAP
 WebSocket
 WSDL
+ajv
+atob
+btoa
+lodash
+util
+url
+punycode
+querystring
