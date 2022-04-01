@@ -60,7 +60,7 @@ In Postman, you can select **← Back** to navigate back to your domain dashboar
 
 Verification status will change from "Created" to "In Progress" after the TXT record has been added to the domain's DNS configuration.
 
-Postman's team will verify your requested domain and update its status to "Verified" in your domain dashboard, as well as notify your team admins via email.
+Postman's team will check your requested domain and update its status to "Verified" in your domain dashboard, as well as notify your team admins via email.
 
 > You can reach out to [Postman support](https://www.postman.com/support/) to check on the status of your domain verification.
 

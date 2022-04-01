@@ -180,13 +180,13 @@ You can find the current status of your Interceptor integration by looking at th
     * If you are sitting behind a firewall check your inbound and outbound policies.
     * If you are using a proxy, check that it's properly configured.
 * **`FILE_PERMISSIONS_REQUIRED`**:
-    * Verify that you have permissions to create the `.postman/InterceptorBridge` folders.
-    * Verify that you have permissions to delete, write, and execute in the path `.postman/InterceptorBridge`.
-    * [macOS only] Verify that you have a `~/Downloads` folder and write permissions for it.
+    * Confirm that you have permissions to create the `.postman/InterceptorBridge` folders.
+    * Confirm that you have permissions to delete, write, and execute in the path `.postman/InterceptorBridge`.
+    * [macOS only] Confirm that you have a `~/Downloads` folder and write permissions for it.
     * If the above steps are unsuccessful, close Chrome and Postman before retrying the installation.
 * **[Windows] `REGISTRY_ACCESS_NEEDED`**:
-    * Verify that you have [permissions](https://docs.microsoft.com/en-us/windows/win32/sysinfo/registry-key-security-and-access-rights) to add a registry key.
-    * Verify that `C:\Windows\System32` is present in the `PATH` (a [system environment variable](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_environment_variables?view=powershell-7)) so that `reg` queries can be executed.
+    * Confirm that you have [permissions](https://docs.microsoft.com/en-us/windows/win32/sysinfo/registry-key-security-and-access-rights) to add a registry key.
+    * Confirm that `C:\Windows\System32` is present in the `PATH` (a [system environment variable](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_environment_variables?view=powershell-7)) so that `reg` queries can be executed.
 
 If you are unable to use the integration after completing the guided installation, you'll want to check the following items:
 
@@ -216,16 +216,16 @@ If you are unable to resolve an ``INTERNET_CONNECTIVITY`` error, you can manuall
     * Install the bridge for [macOS](https://go.pstmn.io/interceptor-bridge-macos) or [Linux](https://go.pstmn.io/interceptor-bridge-linux).
     * Run the script `install_host.sh`.
     * After executing the script, check the following items:
-        1. Verify  the `InterceptorBridge` file exists in `$HOME/.postman`.
-        2. Verify the manifest file `com.postman.postmanapp.json` exists at `~/Library/ApplicationSupport/Google/Chrome/NativeMessagingHosts` for macOS or `~/.config/google-chrome/NativeMessagingHosts` for Linux. Check that it has the correct extension ID `aicmkgpgakddgnaphhhpliifpcfhicfo`, and the correct path `$HOME/.postman` to the executable file `InterceptorBridge`.
+        1. Confirm the `InterceptorBridge` file exists in `$HOME/.postman`.
+        2. Confirm the manifest file `com.postman.postmanapp.json` exists at `~/Library/ApplicationSupport/Google/Chrome/NativeMessagingHosts` for macOS or `~/.config/google-chrome/NativeMessagingHosts` for Linux. Check that it has the correct extension ID `aicmkgpgakddgnaphhhpliifpcfhicfo`, and the correct path `$HOME/.postman` to the executable file `InterceptorBridge`.
 
 * **Windows**:
 
     * Install the bridge for [Windows](https://go.pstmn.io/interceptor-bridge-windows).
     * Run the script ``install_host.bat``.
     * After executing the script, check the following items:
-        1. Verify the `InterceptorBridge.exe` file exists at ``%USERPROFILE%\.postman\``.
-        2. Verify in this path `HKEY_CURRENT_USER\SOFTWARE\Google\Chrome\NativeMessagingHosts` that the manifest file ``com.postman.postmanapp.json`` exists with the correct extension ID ``aicmkgpgakddgnaphhhpliifpcfhicfo`` and the correct path ``%USERPROFILE%\.postman\`` to the executable file ``InterceptorBridge.exe``.
+        1. Confirm the `InterceptorBridge.exe` file exists at ``%USERPROFILE%\.postman\``.
+        2. Check in this path `HKEY_CURRENT_USER\SOFTWARE\Google\Chrome\NativeMessagingHosts` that the manifest file ``com.postman.postmanapp.json`` exists with the correct extension ID ``aicmkgpgakddgnaphhhpliifpcfhicfo`` and the correct path ``%USERPROFILE%\.postman\`` to the executable file ``InterceptorBridge.exe``.
 
 **Note:**
 

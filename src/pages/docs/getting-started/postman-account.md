@@ -115,7 +115,7 @@ If you are on an Enterprise plan, you must contact your team admins to update th
 
 Deleting your account is an irreversible operation. Any data synced to your account will be deleted and no longer be accessible.
 
-If you are on a Professional, Basic, or Free plan, you can permanently delete your Postman account from your [account settings](https://go.postman.co/settings/me/account/) page. Select your avatar in the upper-right corner > **Account Settings** > **Account**. Select **Delete Account**. Before the account is deleted, you will be asked to sign in again to verify that you own the account.
+If you are on a Professional, Basic, or Free plan, you can permanently delete your Postman account from your [account settings](https://go.postman.co/settings/me/account/) page. Select your avatar in the upper-right corner > **Account Settings** > **Account**. Select **Delete Account**. Before the account is deleted, you will be asked to sign in again to confirm that you own the account.
 
 If you are on an Enterprise plan, you must contact your team admins to delete your Postman account.
 

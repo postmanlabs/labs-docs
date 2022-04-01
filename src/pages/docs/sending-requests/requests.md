@@ -221,7 +221,7 @@ Check out [Using GraphQL](/docs/sending-requests/supported-api-frameworks/graphq
 
 ### Authenticating requests
 
-Some APIs require auth details you can send in Postman. Authentication involves verifying the identity of the client sending a request, and authorization involves verifying that the client has permission to carry out the endpoint operation. Open the __Authorization__ tab to configure your access details.
+Some APIs require auth details you can send in Postman. Authentication involves confirming the identity of the client sending a request, and authorization involves confirming that the client has permission to carry out the endpoint operation. Open the __Authorization__ tab to configure your access details.
 
 [![Request Auth](https://assets.postman.com/postman-docs/authorization-tab-v9.jpg)](https://assets.postman.com/postman-docs/authorization-tab-v9.jpg)
 

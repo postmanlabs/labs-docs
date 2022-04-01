@@ -44,7 +44,7 @@ You can start using Postman v9 and access the new UI and features once the updat
 
 Non-team users can move from Postman v7 to v8 by updating the app via **Settings** > **Update** > **Download update**.
 
-It's important to verify your work is synced to make sure no data is lost during the update. Select __Verify Sync__.
+It's important to make sure your work is synced so that no data is lost during the update. Select __Verify Sync__.
 
 <img alt="Verify Sync modal" src ="https://assets.postman.com/postman-docs/verify-sync-before-updating-v8.jpg" width="450px"/>
 
