@@ -30,7 +30,7 @@ contextual_links:
 warning: false
 ---
 
-If your API request is not behaving as expected, there can be many possible reasons. To find out what the problem is, you can use the Postman console to troubleshoot your request. This guide also lists common issues and their causes.
+If your API request isn't behaving as expected, there can be many possible reasons. To find out what the problem is, you can use the Postman console to troubleshoot your request. This guide also lists common issues and their causes.
 
 > This guide specifically discusses troubleshooting API requests. To troubleshoot issues with the Postman app, see [Troubleshooting app issues](/docs/getting-started/troubleshooting-inapp/). To troubleshoot issues with Postman monitors, see [Troubleshooting monitors](/docs/monitoring-your-api/troubleshooting-monitors/).
 
@@ -93,7 +93,7 @@ Using log statements at appropriate locations in your test scripts can help you 
 
 ## Common issues
 
-If your issue with sending a request is not listed here, see [Getting help](#getting-help) for information how to contact Postman support.
+If your issue with sending a request isn't listed here, see [Getting help](#getting-help) for information how to contact Postman support.
 
 Issue | Resolving the issue
 --- | ---

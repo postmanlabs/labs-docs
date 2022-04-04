@@ -20,7 +20,7 @@ contextual_links:
 
 Single Sign-On (SSO) services make it easy to manage your team’s identity across all the SaaS products that you use.
 
-SSO services permit a user to use one set of login credentials (e.g., name/email and password) to access multiple applications. The service authenticates the end user only once for all the applications the user has been given rights to and eliminates further prompts when the user switches applications during the same session.
+SSO services permit a user to use one set of login credentials (name/email and password) to access multiple applications. The service authenticates the end user only once for all the applications the user has been given rights to and eliminates further prompts when the user switches applications during the same session.
 
 An example of SSO is Google's implementation of login for their products, such as Gmail, YouTube, and so on. Any user that is logged in to one of Google's products is automatically logged in to their other products as well.
 
