@@ -12,7 +12,7 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
-    name: "Related Blog Posts"
+    name: "Blog Posts"
   - type: link
     name: "Integrations: how Postman plays with some of your favorite tools"
     url: "https://blog.postman.com/integrations-how-postman-plays-with-some-of-your-favorite-tools/"

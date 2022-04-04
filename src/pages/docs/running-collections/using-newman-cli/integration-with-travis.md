@@ -12,7 +12,7 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
-    name: "Related Blog Posts"
+    name: "Blog Posts"
   - type: link
     name: "Integrate API tests with Postman, Newman, and Travis CI"
     url: "https://blog.postman.com/integrate-api-tests-with-postman-newman-and-travis-ci/"

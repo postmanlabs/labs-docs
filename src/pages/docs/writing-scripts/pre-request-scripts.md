@@ -18,7 +18,7 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
-    name: "Related Blog Posts"
+    name: "Blog Posts"
   - type: link
     name: "Germaphobia collection (see pre-request scripts in action)"
     url: "https://blog.postman.com/germaphobia/"
@@ -42,11 +42,11 @@ You can use pre-request scripts in Postman to execute JavaScript before a reques
 
 An example usage of pre-request scripting could be as follows:
 
-* You have a series of requests in a collection and are running them in a sequence, e.g. using the [collection runner](/docs/running-collections/intro-to-collection-runs/).
+* You have a series of requests in a collection and are running them in a sequence, such as when using the [collection runner](/docs/running-collections/intro-to-collection-runs/).
 * The second request is dependent on a value returned from the first request.
 * The value needs to be processed before you pass it to the second request.
 * The first request sets the data value from a response field to a variable in its __Tests__ script.
-* The second request retrieves the value and processes it in its __Pre-request Script__, then sets the processed value to a variable (which is referenced in the second request, e.g. in its parameters).
+* The second request retrieves the value and processes it in its __Pre-request Script__, then sets the processed value to a variable (which is referenced in the second request, for example in its parameters).
 
 ## Scripting before your request runs
 

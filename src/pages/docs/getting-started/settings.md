@@ -13,7 +13,7 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
-    name: "Related Blog Posts"
+    name: "Blog Posts"
   - type: link
     name: "Speeding up workflows with keyboard shortcuts"
     url: "https://blog.postman.com/speeding-up-workflows-with-keyboard-shortcuts/"
@@ -37,7 +37,7 @@ warning: false
 
 Postman automatically chooses default values for some settings so you can get right to work. Make changes to settings at any time based on your use case or to customize your Postman experience.
 
-To change settings in Postman, select the **Settings** button <img alt="Settings icon" src="https://assets.postman.com/postman-docs/settings-icon-v8.jpg" width="18px"> in the header and then select **Settings**. In the Postman app, you can also select **⌘+Comma (,)** or **Ctrl+Comma (,)**.
+To change settings in Postman, select the **Settings** button <img alt="Settings icon" src="https://assets.postman.com/postman-docs/settings-icon-v8.jpg#icon" width="18px"> in the header and then select **Settings**. In the Postman app, you can also select **⌘+Comma (,)** or **Ctrl+Comma (,)**.
 
 ## General
 

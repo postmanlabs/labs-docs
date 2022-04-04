@@ -27,7 +27,7 @@ contextual_links:
     name: "Giant Machines"
     url: "https://www.postman.com/case-studies/giant-machines/"
   - type: subtitle
-    name: "Related Blog Posts"
+    name: "Blog Posts"
   - type: link
     name: "Mock responses in Postman by using Examples"
     url: "https://blog.postman.com/mock-responses-in-postman-by-using-examples/"

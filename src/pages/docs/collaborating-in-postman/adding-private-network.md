@@ -13,7 +13,7 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
-    name: "Related Blog Posts"
+    name: "Blog Posts"
   - type: link
     name: "Introducing the New Private API Network for Easier Discovery"
     url: "https://blog.postman.com/new-private-api-network-for-easier-discovery/"
@@ -111,9 +111,9 @@ Once you've created the folder, you can add APIs to get started. Make your API s
 
 > All versions that are visible to consumers will be available on the Private API Network. Read more about [API versioning](/docs/designing-and-developing-your-api/versioning-an-api/).
 
-Select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> next to the API you would like to edit from the network and select __Edit API listing__. You can update the API summary, and modify the folder to which the API should be added. Select **Update** when the changes are done.
+Select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> next to the API you would like to edit from the network, then select __Edit API listing__ to modify the folder where the API should be located. Select **Update** to save your changes.
 
-<img alt="Edit API summary" src="https://assets.postman.com/postman-docs/edit-api-summary-v9.jpg" width="400px"/>
+<img alt="Edit API listing" src="https://assets.postman.com/postman-docs/private-api-network-edit-listing.jpg" width="400px"/>
 
 You can also remove the added APIs from your Private API Network. Select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> next to the API you would like to remove from network. Once you select __Remove__, your team members will also lose access to the API via the network.
 

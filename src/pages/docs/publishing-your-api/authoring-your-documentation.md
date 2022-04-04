@@ -15,7 +15,7 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
-    name: "Related Blog Posts"
+    name: "Blog Posts"
   - type: link
     name: "Introducing Postman’s WYSIWYG Editing Experience"
     url: "https://blog.postman.com/introducing-postmans-wysiwyg-editing-experience/"

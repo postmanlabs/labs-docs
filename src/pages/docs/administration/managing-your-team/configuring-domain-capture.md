@@ -8,7 +8,7 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
-    name: "Related Blog Posts"
+    name: "Blog Posts"
   - type: link
     name: "Introducing Domain Capture: Group Your Organization’s Postman Users into a Single Team"
     url: "https://blog.postman.com/introducing-domain-capture/"
@@ -98,7 +98,7 @@ Existing users who were previously on another Postman team will have their perso
 
 ## Domain capture FAQs
 
-### What happens to captured users and their data (collections, environments, etc.) when domain capture is enabled?
+### What happens to captured users and their data (collections, environments) when domain capture is enabled?
 
 The experience for captured users depends on their prior team status:
 

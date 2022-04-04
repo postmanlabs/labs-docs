@@ -30,7 +30,7 @@ contextual_links:
     name: "Continuous Quality with Postman"
     url:  "https://youtu.be/zrmQAgixMpU"
   - type: subtitle
-    name: "Related Blog Posts"
+    name: "Blog Posts"
   - type: link
     name: "Writing tests in Postman"
     url:  "https://blog.postman.com/writing-tests-in-postman/"

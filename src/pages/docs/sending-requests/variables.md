@@ -24,16 +24,13 @@ contextual_links:
     name: "Manage CLI Environment Variables | Postman Level Up"
     url: "https://youtu.be/n8O2KP-Zx8I"
   - type: subtitle
-    name: "Related Blog Posts"
-  - type: link
-    name: "Find and replace text, code, and variables"
-    url: "https://blog.postman.com/find-and-replace-text-code-and-variables-in-postman/"
-  - type: link
-    name: "10 tips for working with variables"
-    url: "https://blog.postman.com/10-tips-for-working-with-postman-variables/"
+    name: "Blog Posts"
   - type: link
     name: "Securely Using API Keys in Postman"
     url: "https://blog.postman.com/how-to-use-api-keys/"
+  - type: link
+    name: "You Can Now Identify Unresolved Variables Easily"
+    url: "https://blog.postman.com/identify-unresolved-variables-easily/"
   - type: section
     name: "Next Steps"
   - type: link

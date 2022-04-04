@@ -3,7 +3,6 @@ import './Header.scss';
 import { trackCustomEvent } from 'gatsby-plugin-google-analytics';
 import Dropdown from './Dropdown';
 import $ from 'jquery';
-import postmanLogo from '../../images/postman-logo-icon.svg';
 
 // Get Cookie for Sign In toggler
 const getCookie = (a) => {
@@ -213,7 +212,7 @@ class Header extends React.Component {
         <nav className="navbar-v6 navbar navbar-expand-lg navbar-light bg-light nav-primary">
           <a className="navbar-brand" href="https://www.postman.com">
             <div className="navbar-logo-container">
-              <img src={postmanLogo} alt="Postman" width="32" height="32" />
+              <img src="https://voyager.postman.com/logo/postman-logo-icon-orange.svg" alt="Postman" width="32" height="32" />
             </div>
           </a>
           <button

@@ -13,7 +13,7 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
-    name: "Related Blog Posts"
+    name: "Blog Posts"
   - type: link
     name: "Check for broken links on your website using a Postman Collection"
     url: "https://blog.postman.com/check-for-broken-links-on-your-website-using-a-postman-collection/"

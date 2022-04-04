@@ -1,4 +1,4 @@
-# Documentation Style Guide
+# Documentation style guide
 
 Thanks for your interest in contributing to the Postman docs! :rocket::book::trophy:
 
@@ -15,17 +15,17 @@ Check out the [contributing](CONTRIBUTING.md) guide for a step-by-step overview 
 * [Links](#links)
 * [Publish!](#publish)
 
-_This style guide is a work in progress, and we'll be continuing to iterate on it. Create an [issue](https://github.com/postmanlabs/postman-docs/issues) if you'd like to provide feedback! Please also note that the Postman team will be working to apply these guidelines across the learning center, initially focusing on the core documentation, then later on additional material such as tutorials._
+_This style guide is a work in progress, and we'll be continuing to iterate on it. Create an [issue](https://github.com/postmanlabs/postman-docs/issues) if you'd like to provide feedback!_
 
 ## Audience
 
-The Postman community is very diverse, and we aim to create an empathetic, inclusive learning experience for all. Remember that __not everyone reading this documentation is a developer__, so try to make the information as accessible as possible to anyone who happens to visit, regardless of their technical background or skill level.
+The Postman community is diverse, and we aim to create an empathetic, inclusive learning experience for all. Remember that __not everyone reading this documentation is a developer__. Make the information as intuitive as possible to anyone who happens to visit, regardless of their technical background or skill level.
 
 For more advanced topics, if someone doesn't have the required skills to carry out a particular task yet, we want to help them get there. Provide context by indicating prerequisites and setting clear expectations, ideally linking to support information so that people can equip themselves with the necessary understanding to carry on learning. Be aware of what you're assuming people already know, but if possible link to background info rather than including it to help keep each doc focused on its core topic.
 
 Avoid unnecessary tech jargon, but don't simplify either. Try to strike a balance between supporting people regardless of skill level and using accurate industry terms (since readers will need to know these in order to apply what they learn).
 
-Postman learners speak lots of different languages, but right now our docs are only available in English. Try to use clear, concise sentences so that people reading in a second language can follow along. :earth_africa::earth_americas::earth_asia:
+Postman learners speak lots of different languages, but right now our docs are only available in English. Use clear, concise sentences so that people reading in a second language can follow along. :earth_africa::earth_americas::earth_asia:
 
 ## Language style
 
@@ -39,7 +39,7 @@ The documentation in the [learning center](https://learning.postman.com/docs) is
 
 ---
 
-Don't make time-specific references like "now," "soon," and "new." These are appropriate in time-stamped resources like blog posts, but documentation info should not be relative to a particular point in time, and should remain equally valid for present and future readers—as well as people who have never used Postman before.
+Don't make time-specific references like "now," "soon," and "new." These are appropriate in time-stamped resources like blog posts, but documentation info shouldn't be relative to a particular point in time, and should remain equally valid for present and future readers—as well as people who have never used Postman before.
 
 ---
 
@@ -98,9 +98,9 @@ Be careful with words that have a specific meaning in the context of Postman but
 
 ### Tone
 
-Official Postman documentation language aims to be friendly and conversational in tone, but not colloquial—not too formal or too frivolous. Think friendly teacher. :school_satchel:
+Official Postman documentation language aims to be friendly and conversational in tone, but not colloquial; not too formal or too frivolous. Think friendly teacher. :school_satchel:
 
-Try not to use language that readers might typically associate with marketing material, for example words that are subjective or opinion-based, such as "great" and "amazing." By focusing on effectively showing __how__ to use a feature, docs can demonstrate _what_ the feature is and _why_ someone would want to use it along the way.
+Avoid language that readers might typically associate with marketing material, for example words that are subjective or opinion-based, such as "great" and "amazing." By focusing on effectively showing __how__ to use a feature, docs can demonstrate _what_ the feature is and _why_ someone would want to use it along the way.
 
 ---
 
@@ -114,7 +114,7 @@ Try not to use language that readers might typically associate with marketing ma
 
 Avoid terms like "easy," "simply," and "just." Everyone's experience is different, and we don't want anyone to feel they aren't learning quickly enough. :slightly_smiling_face:
 
-Avoid gendered words, including pronouns, but feel free to use "they" and "them," and to address the user as "you." Choose pronouns carefully, especially in cases where it may not be clear what you're referring to—relative pronouns (such as "that" and "they") can help reduce ambiguity. Be mindful of pronoun choice when referring to the Postman user's users, for example a consumer of an API that a Postman user is publishing:
+Avoid gendered words, including pronouns, but feel free to use "they" and "them," and to address the user as "you." Choose pronouns carefully, especially in cases where it may not be clear what you're referring to. Relative pronouns (such as "that" and "they") can help reduce ambiguity. Be mindful of pronoun choice when referring to the Postman user's users, for example a consumer of an API that a Postman user is publishing:
 
 ---
 
@@ -124,13 +124,13 @@ Avoid gendered words, including pronouns, but feel free to use "they" and "them,
 
 ---
 
-Avoid using first person in core docs—"let's" and "we" are appropriate in tutorials and blog posts but typically not in the documentation.
+Avoid using first person in core docs. "Let's" and "we" are appropriate in tutorials and blog posts but typically not in the documentation.
 
-Be careful when using metaphors or choosing examples—these don't always translate across different cultures and languages.
+Be careful when using metaphors or choosing examples. These don't always translate across different cultures and languages.
 
 ### Readability
 
-In general, use active voice and try not to use passive structures:
+In general, use active voice and avoid passive structures:
 
 ---
 
@@ -140,7 +140,7 @@ In general, use active voice and try not to use passive structures:
 
 ---
 
-Try to keep your sentences as short as possible. Use commas to break the content of a sentence into smaller, more digestible chunks. Use serial commas in sentences containing three or more clauses. If a sentence has multiple clauses and you're having to use lots of commas and semicolons, it may benefit from being broken into more than one sentence, or perhaps presented in a different format such as a list. Be as concise as you can, while still being specific and conveying the relevant info. :eyeglasses:
+Keep your sentences as short as possible. Use commas to break the content of a sentence into smaller, more digestible chunks. Use serial commas in sentences containing three or more clauses. If a sentence has multiple clauses and you're having to use lots of commas and semicolons, it may benefit from being broken into more than one sentence, or perhaps presented in a different format such as a list. Be as concise as you can, while still being specific and conveying the relevant info. :eyeglasses:
 
 Help users to scan content by indicating the purpose of a page, section, or sentence at the beginning. Introducing a sentence or section with a conditional clause lets learners know if it's relevant to them:
 
@@ -180,9 +180,9 @@ Use __bold__ to highlight names for parts of the software that the user interact
 
 ---
 
-> The only exception to this is where the UI element includes all upper case—only capitalize initial letters in the documentation.
+> The only exception to this is where the UI element includes all upper case. Only capitalize initial letters in the documentation.
 
-The first time you mention a generic Postman feature in a page, capitalize it and use its full name—later in the doc you can refer to it in shortened forms and without capitalizing:
+The first time you mention a generic Postman feature in a page, capitalize it and use its full name. Later in the doc you can refer to it in shortened forms and without capitalizing:
 
 ---
 
@@ -218,8 +218,8 @@ Indent code blocks using spaces.
 
 Use single backticks for inline references to the following API constructs:
 
-* HTTP verbs (`GET`, `POST`, `PUT`, `PATCH`, `DELETE`, etc)
-* status codes (`200 OK` etc)
+* HTTP verbs (such as `GET`, `POST`, `PUT`, `PATCH`, or `DELETE`)
+* status codes (`200 OK`)
 * parameter names
 * variable names
 * JSON object and field names
@@ -264,13 +264,12 @@ Each doc should begin with an introduction section. Subheadings should only appe
 In general, aim for the following structure:
 
 * An intro section outlining the purpose of the page and indicating / linking to any required knowledge
-    * This might include a video in some cases
-* A main instructional section walking users through a series of generic steps showing how to carry out whatever task the page represents
+* A main instructional section guiding users through a series of generic steps showing how to carry out whatever task the page represents
     * Subheadings to indicate the steps
     * Images to illustrate key steps or configurations
 * Any supplementary material, which will vary by topic but may include the following:
     * Any info about carrying out the task using the Postman API
-    * Links to relevant collections / templates
+    * Links to relevant collections
     * Debugging info
 * Links to relevant follow-up material in a Next Steps section
 
@@ -290,7 +289,7 @@ Use present participles (verbs ending in "-ing") for page headings throughout th
 
 ## Images
 
-Images can help to provide context and give users a reference point for their learning. However images should only act as a backup for text information—don't include required information only in an image, make sure the necessary instructions are also in text form:
+Images can help to provide context and give users a reference point for their learning. However images should only act as a backup for text information. Don't include required information only in an image; make sure the necessary instructions are also in text form:
 
 ---
 
@@ -298,7 +297,7 @@ Images can help to provide context and give users a reference point for their le
 
 ---
 
-Try to keep your images focused on what's relevant, but still show enough of your screen to indicate how users can get there. For example, in a doc showing how to set parameters, you could show the top of the request tab along with the parameter input area, but cut out other parts of the window. Crop your images to remove parts of your screen that aren't relevant to the documentation, for example docks and desktop areas.
+Keep your images focused on what's relevant, but show enough of your screen to indicate how users can get there. For example, in a doc showing how to set parameters, you could show the top of the request tab along with the parameter input area, but cut out other parts of the window. Crop your images to remove parts of your screen that aren't relevant to the documentation, for example docks and desktop areas.
 
 Include alternative text for images.
 

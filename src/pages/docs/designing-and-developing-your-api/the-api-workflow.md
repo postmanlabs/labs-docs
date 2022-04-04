@@ -13,7 +13,7 @@ contextual_links:
     name: "The Reimagined API-First Workflow | The Exploratory"
     url: "https://youtu.be/rTTAVlUxfDc"
   - type: subtitle
-    name: "Related Blog Posts"
+    name: "Blog Posts"
   - type: link
     name: "The Reimagined API-First Workflow, Part 1: for Developers"
     url: "https://blog.postman.com/the-reimagined-api-first-workflow-for-developers/"
