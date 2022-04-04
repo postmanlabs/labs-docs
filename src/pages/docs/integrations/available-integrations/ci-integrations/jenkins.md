@@ -76,7 +76,7 @@ With the help of Newman and the Postman API, you can run API tests created in Po
 
 Each time a Jenkins build runs, Newman runs the collections that contain your tests. You can view the results of your tests in Postman. You an also configure the  [Postman cloud reporter](https://www.npmjs.com/package/newman-reporter-postman-cloud) to send detailed collection run information back to Postman.
 
->Before you begin, make sure you’ve already [set up an integration](#configuring-jenkins-integration) between your API version and Jenkins.
+> Before you begin, make sure you’ve already [set up an integration](#configuring-jenkins-integration) between your API version and Jenkins.
 
 To generate configuration code for Newman:
 
@@ -96,7 +96,7 @@ To add the Newman configuration to your Jenkins pipeline:
 
 1. Open your pipeline project in Jenkins and select **Configure**.
 1. Paste the Newman configuration you copied from Postman into the **Pipeline script**:
-    * Replace `your_nodejs_configured_tool_name` with the name of your NodeJs tool, for example, `node`.
+    * Replace `your_nodejs_configured_tool_name` with the name of your Node.js tool, for example, `node`.
     * Replace both instances of `$POSTMAN_API_KEY` with a valid [Postman API Key](/docs/developer/intro-api/#generating-a-postman-api-key).
 1. Select **Save** and then run the pipeline using the new configuration.
 1. To view the test results in Postman, open your API version and select the **Tests** tab. For more help, see [Viewing collection run details](#viewing-collection-run-details).
