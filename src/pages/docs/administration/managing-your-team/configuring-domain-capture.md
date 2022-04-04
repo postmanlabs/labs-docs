@@ -38,7 +38,7 @@ You must be a [Postman team admin](/docs/collaborating-in-postman/roles-and-perm
 * Your team must be on the [Postman Enterprise](https://www.postman.com/pricing) plan.
 * Your team must be on [Postman version 9](/docs/administration/upgrading/).
 * [SSO](/docs/administration/sso/admin-sso/) must be configured and enabled.
-    * Alternative authentication methods (Postman or Google login) must be deactivated.
+    * Alternative authentication methods (Postman or Google sign in) must be deactivated.
 
 It's recommended that you enable [SSO provisioning](/docs/administration/scim-provisioning/scim-provisioning-overview/) to ease the process of onboarding new users and [auto-flex](/docs/administration/billing/#utilizing-auto-flex) to ensure that your team can automatically accommodate all users that may be added to your Postman team when domain capture is enabled.
 
@@ -48,7 +48,7 @@ To enable domain capture, open Postman and select **Team** > **Team Settings** i
 
 Confirm that your team has only the SSO authentication method enabled. Then, select the **Domains** tab.
 
-> Your team must have only SAML-based SSO authentication methods enabled to set up domain capture. Alternative authentication methods such as Postman or Google login must be deactivated.
+> Your team must have only SAML-based SSO authentication methods enabled to set up domain capture. Alternative authentication methods such as Postman or Google sign in must be deactivated.
 
 Select **Add Domain**. Enter the domain or subdomain you'd like to add, then select **Generate Verification Records**. <img alt="Copy icon" src="https://assets.postman.com/postman-docs/icon-copy-v9.jpg#icon" width="15px"> **Copy** the **TXT record** and add it to your domain's DNS configuration.
 

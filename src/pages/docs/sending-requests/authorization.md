@@ -141,7 +141,7 @@ Bearer <Your API key>
 
 Basic authentication involves sending a verified username and password with your request. In the request __Authorization__ tab, select __Basic Auth__ from the __Type__ dropdown list.
 
-Enter your API login details in the __Username__ and __Password__ fields. For additional security, store these in variables.
+Enter your API username and password in the __Username__ and __Password__ fields. For additional security, store these in variables.
 
 In the request __Headers__, the Authorization header passes the API a Base64 encoded string representing your username and password values, appended to the text `Basic` as follows:
 
@@ -169,7 +169,7 @@ Setting the fields in the **Advanced** section is optional; Postman will populat
 
 ### OAuth 1.0
 
-OAuth 1.0 enables client applications to access data provided by a third-party API. For example, as a user of a service, you can grant another application access to your data with that service without exposing your login details. Accessing user data with OAuth 1.0 involves a few requests back and forth between client application, user, and service provider.
+OAuth 1.0 enables client applications to access data provided by a third-party API. For example, as a user of a service, you can grant another application access to your data with that service without exposing details like your username and password. Accessing user data with OAuth 1.0 involves a few requests back and forth between client application, user, and service provider.
 
 OAuth 1.0 is sometimes referred to as "two-legged" (auth only between client and server) or "three-legged" (where a client requests data for a user of a third-party service). An example OAuth 1.0 flow could run as follows:
 

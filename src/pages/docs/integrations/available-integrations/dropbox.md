@@ -38,11 +38,11 @@ Back up and synchronize your Postman Collections on Dropbox for file sharing, st
 
 1. Select **Continue**.
 
-    ![authorize to go to dropbox login page](https://assets.postman.com/postman-docs/dropbox-warning.jpg)
+    ![authorize to go to dropbox sign in page](https://assets.postman.com/postman-docs/dropbox-warning.jpg)
 
 1. Sign in to your Dropbox account.
 
-    ![dropbox login](https://assets.postman.com/postman-docs/dropbox-login.jpg)
+    ![Sign in to Dropbox](https://assets.postman.com/postman-docs/dropbox-login.jpg)
 
 1. Select **Allow** so Postman can access its own folder inside your Dropbox.
 

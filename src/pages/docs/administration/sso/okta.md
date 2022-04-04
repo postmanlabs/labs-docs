@@ -25,7 +25,7 @@ You can set up your custom SAML application by using the available Postman app i
 
 To set up custom SAML application, follow the procedure outlined below:
 
-After you login to your Okta account, perform the following steps:
+After you sign in to your Okta account, perform the following steps:
 
 ### Okta - Step 1
 
@@ -106,7 +106,7 @@ Select **Save Authentication**.
 
 To set up custom SAML application using the Postman app, follow the procedure outlined below:
 
-After you login to your Okta account, perform the following steps:
+After you sign in to your Okta account, perform the following steps:
 
 ### Postman - Step 1
 

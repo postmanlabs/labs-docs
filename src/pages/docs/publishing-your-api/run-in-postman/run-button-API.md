@@ -33,7 +33,7 @@ Some API publishers use Run in Postman buttons alongside their own API documenta
 
 The Run in Postman API uses the `_pm()` method to create or update environments in your website's client-side code through existing dynamic Run in Postman buttons.
 
-As another example, you can use the API to pass login credentials to Postman:
+As another example, you can use the API to pass sign in credentials to Postman:
 
 ```javascript
 _pm('env.create', 'Spotify', {
