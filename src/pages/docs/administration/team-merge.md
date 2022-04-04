@@ -39,7 +39,7 @@ Team migration can occur in different ways depending on your needs and preferred
 
 * All plan types (Free, Basic, Professional, and Enterprise)
 * [Team admins and team developers](/docs/collaborating-in-postman/roles-and-permissions/#team-roles)
-* Information Technology / System Administrator for [Single Sign-On provisioning](/docs/administration/sso/intro-sso/) (available to [Professional and Enterprise plans](https://www.postman.com/pricing/))
+* Information Technology / System Administrator for [single sign-on provisioning](/docs/administration/sso/intro-sso/) (available to [Professional and Enterprise plans](https://www.postman.com/pricing/))
 
 ## Before you start migrating
 
