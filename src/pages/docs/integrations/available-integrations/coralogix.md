@@ -30,11 +30,11 @@ Setting up a Coralogix integration requires you to get an API key from Coralogix
 
     [![Coralogix settings](https://assets.postman.com/postman-docs/Coralogix_Settings.png)](https://assets.postman.com/postman-docs/Coralogix_Settings.png)
 
-1. Select "Settings" to go to the following screen:
+1. Select **Settings** to go to the following screen:
 
     [![Coralogix settings](https://assets.postman.com/postman-docs/Coralogix_Pvtkey1.png)](https://assets.postman.com/postman-docs/Coralogix_Pvtkey1.png)
 
-1. Select the "Send your logs" tab and copy the private key for later use, as illustrated in the above screen (highlighted in the red circle).
+1. Select the **Send your logs** tab and copy the private key for later use, as illustrated in the above screen (highlighted in the red circle).
 
 ## Configuring Coralogix integration
 
