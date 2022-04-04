@@ -44,13 +44,13 @@ To set up a Jenkins integration for your API, you need to create an API token in
 
 ## Viewing build status
 
-After you set up Jenkins integration, information for build jobs is available in Postman. For each build you can view the start time, duration, and build status (success or failed). You can also view the results of collection runs that are [configured in your pipeline using Newman](#configuring-newman-for-jenkins).
+After you set up a Jenkins integration, information for build jobs is available in Postman. For each build you can view the start time, duration, and build status (success or failed). You can also view the results of collection runs that are [configured in your pipeline using Newman](#configuring-newman-for-jenkins).
 
 To view build jobs, open an API version and select the **Test** tab. The most recent jobs are listed under **CI/CD Builds**.
 
 * To view a build in Jenkins, hover over a build and select **View build details**.
 * To kick off a new build, select **Run Build**.
-* To edit or delete the integration, select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px">.
+* To edit or delete the integration, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px">.
 
 <img alt="View recent Jenkins builds" src="https://assets.postman.com/postman-docs/jenkins-test-tab-v9-14.jpg">
 
