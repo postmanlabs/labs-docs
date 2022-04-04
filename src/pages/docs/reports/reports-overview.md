@@ -53,7 +53,7 @@ Reports are generated periodically but not in real time. You may experience a de
 
 > You can only see report data that is visible to you based on your [role](/docs/collaborating-in-postman/roles-and-permissions/).
 
-To explore within a report:
+To explore reports and report data:
 
 * Select items in the left sidebar to see each report.
 * Some report items have a link that opens another related report. For example, on the **Uptime** chart in the **Summary** report, there is a link to open the **Team APIs** report.

@@ -92,7 +92,7 @@ You can install Postman on Linux by manually downloading it, using the [Snap](ht
 
 To install manually, [download](https://www.postman.com/downloads/) and unzip the app, for example into the `Downloads` directory.
 
-To start the app from a desktop shortcut, create a desktop file. Name the file `Postman.desktop` and save it in the following location:
+To start the app from a launcher icon, create a desktop file. Name the file `Postman.desktop` and save it in the following location:
 
 ```shell
 ~/.local/share/applications/Postman.desktop

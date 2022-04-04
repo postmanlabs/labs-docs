@@ -203,7 +203,7 @@ OpenSSL is already installed for macOS and is typically installed for Linux. For
 If you are unable to correctly install the `postman-proxy-ca.crt` certificate, or if the certificate is not allowing you to capture traffic, try regenerating and reinstalling the certificate.
 
 1. Make sure you are running Postman version 9.1 or later. See [Updating Postman](/docs/getting-started/installation-and-updates/#updating-postman).
-1. On the computer on which Postman is installed, delete the `/Postman/Proxy` folder. You can find the folder in the following location:
+1. On the computer where Postman is installed, delete the `/Postman/Proxy` folder. You can find the folder in the following location:
 
     * **macOS:** `~/Library/Application Support/Postman/proxy`
     * **Windows:** `C:\Users\<user>\AppData\Roaming\Postman\proxy`

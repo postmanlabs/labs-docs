@@ -49,22 +49,22 @@ If you are using APIs to build client-side applications like mobile apps, websit
 
 ## How the built-in proxy works
 
-Postman has a built-in proxy that can capture HTTP and HTTPS traffic. Here's how it works:
+The Postman app has a built-in proxy that can capture HTTP and HTTPS traffic. Here's how it works:
 
-1. Postman listens for any calls made by a client app or device using the proxy.
+1. The Postman app listens for any calls made by a client app or device using the proxy.
 1. The Postman proxy captures the request and forwards it to the server.
 1. The server returns a response to the Postman proxy, where it can also be saved.
 1. The response is returned back to the client.
 
 [![postman capture proxy](https://assets.postman.com/postman-docs/proxymobile-aa.jpeg)](https://assets.postman.com/postman-docs/proxymobile-aa.jpeg)
 
-Similar to the [Interceptor Chrome extension](/docs/sending-requests/capturing-request-data/interceptor/), the Postman proxy intercepts and captures your requests. Additionally, it can capture responses and cookies.
+Similar to the [Interceptor Chrome extension](/docs/sending-requests/capturing-request-data/interceptor/), the Postman app proxy intercepts and captures your requests. Additionally, it can capture responses and cookies.
 
 After you start the Postman proxy, you can start a proxy debug session, which is a time-bound session of traffic capture. You can start, pause, and stop a proxy debug session, then later start another one. Each debug session is logged in the **History** tab, and displays the total session time, a traffic overview, and all traffic captured. You can also send requests and responses to a collection, and save cookies to the Postman cookie jar.
 
 ## Using the Postman proxy
 
-In the steps below, you will use Postman's proxy to inspect HTTP communication going to and from a phone. To get started, make sure your computer and phone are connected to the same local wireless network.
+In the steps below, you will use the Postman app's proxy to inspect HTTP communication going to and from a phone. To get started, make sure your computer and phone are connected to the same local wireless network.
 
 ### Step 1: Enable the proxy
 
@@ -129,7 +129,7 @@ The proxy debug session is now started, but it won't capture anything until a de
     1. Set **Server** and **Port** to the local IP address and proxy port.
     1. Select **Save**.
 
-1. In Postman, open the **Proxy debug session** window. Open the device's web browser or application and you will start seeing HTTP traffic passing through the app or the browser.
+1. In the Postman app, open the **Proxy debug session** window. Open the device's web browser or application and you will start seeing HTTP traffic passing through the app or the browser.
 
 #### Configuring a proxy on other devices
 

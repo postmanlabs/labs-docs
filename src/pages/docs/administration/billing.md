@@ -22,7 +22,7 @@ contextual_links:
 
 Postman provides a self-serve billing process. Refer to the following sections for guidance on managing your account, plan, and payment.
 
-For help with any account or billing issues, contact Postman's [support team](https://www.postman.com/support/).
+For help with any account or billing issues, go to Postman's [Support Center](https://www.postman.com/support/) and select **Submit a Request**.
 
 > Check out [Postman's Help Center](https://support.postman.com/hc/en-us) for [Postman billing and payment FAQs](https://support.postman.com/hc/en-us/categories/115000609205-Billing-and-Payment).
 
