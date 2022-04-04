@@ -218,8 +218,8 @@ Indent code blocks using spaces.
 
 Use single backticks for inline references to the following API constructs:
 
-* HTTP verbs (`GET`, `POST`, `PUT`, `PATCH`, `DELETE`, etc)
-* status codes (`200 OK` etc)
+* HTTP verbs (such as `GET`, `POST`, `PUT`, `PATCH`, or `DELETE`)
+* status codes (`200 OK`)
 * parameter names
 * variable names
 * JSON object and field names
