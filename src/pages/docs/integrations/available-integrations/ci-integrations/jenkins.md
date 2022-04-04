@@ -11,7 +11,7 @@ contextual_links:
     url: "/docs/integrations/ci-integrations/"
 ---
 
-[Jenkins](https://www.jenkins.io/) is an open source automation server that can act as a CI (continuous integration) server or a continuous delivery (CD) hub. With hundreds of available plug-ins, teams can use Jenkins to build, deploy, and automate almost any project.
+[Jenkins](https://www.jenkins.io/) is an open source automation server that can act as a continuous integration (CI) server or a continuous delivery (CD) hub. With hundreds of available plug-ins, teams can use Jenkins to build, deploy, and automate almost any project.
 
 To set up Jenkins integration for your API, you’ll need to create an API token in Jenkins and configure your API in Postman. After you set up the integration, you can view the status of builds or kick off a new build, all from within Postman.
 
