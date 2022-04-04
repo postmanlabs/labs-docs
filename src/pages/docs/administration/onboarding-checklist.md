@@ -74,7 +74,7 @@ Ensure you are connected to your organization's network and test the following:
 * Can you execute a request to one of your internal/private APIs?
 * Save a request inside a [​Collection​](/docs/sending-requests/intro-to-collections/). Visit `​go.postman.co`​, has your collection and request synced with Postman’s cloud?
 
-Repeat these checks on a colleague’s workstation. If everything worked, your workstations and network are ready to support Postman! If you experienced an issue, [​contact Postman support](https://www.postman.com/support/) and please read on.
+Repeat these checks on a colleague’s workstation. If everything worked, your workstations and network are ready to support Postman! If you experienced an issue, [​contact Postman support](https://www.postman.com/support/).
 
 ### Enable team discovery
 

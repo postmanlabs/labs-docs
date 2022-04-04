@@ -221,7 +221,7 @@ Check out [Using GraphQL](/docs/sending-requests/supported-api-frameworks/graphq
 
 ### Authenticating requests
 
-Some APIs require auth details you can send in Postman. Authentication involves verifying the identity of the client sending a request, and authorization involves verifying that the client has permission to carry out the endpoint operation. Open the __Authorization__ tab to configure your access details.
+Some APIs require auth details you can send in Postman. Authentication involves confirming the identity of the client sending a request, and authorization involves confirming that the client has permission to carry out the endpoint operation. Open the __Authorization__ tab to configure your access details.
 
 [![Request Auth](https://assets.postman.com/postman-docs/authorization-tab-v9.jpg)](https://assets.postman.com/postman-docs/authorization-tab-v9.jpg)
 
@@ -255,9 +255,9 @@ If you need to change a header, you can do so in the relevant part of Postman, f
 
 [![Token Header](https://assets.postman.com/postman-docs/headers-added-v8.jpg)](https://assets.postman.com/postman-docs/headers-added-v8.jpg)
 
-If you need to navigate to a different part of the app, Postman will show a link on the right-hand side.
+If you need to go to a different part of the app, Postman will show a link on the right-hand side.
 
-If a header has been added based on your auth setup, [navigate to the __Authorization__ tab](/docs/sending-requests/authorization/) to change it.
+If a header has been added based on your auth setup, [select the __Authorization__ tab](/docs/sending-requests/authorization/) to change it.
 
 To alter cookie headers, [amend the cookie setup](/docs/sending-requests/cookies/) for the domain you're sending the request to.
 
@@ -291,7 +291,7 @@ The processor will encode characters depending on where they occur in the URL:
 | Query | `"` `#` `&` `'` `<` `=` `>` `SPACE` |
 | Userinfo | `"` `<` `>` `` ` `` `#` `?` `{` `}` `/` `:` `;` `=` `@` `[` `\` `]` `^` | `SPACE` |
 
-The processor will be turned on by default in your Postman app, however you can turn off encoding if you are working with an unusual server implementation. Toggle the setting on or off in your request __Settings__ &gt; __Encode URL automatically__.
+The processor is turned on by default in Postman, but you can turn off encoding if you are working with an unusual server implementation. Toggle the setting on or off in your request __Settings__ &gt; __Encode URL automatically__.
 
 > You can selectively encode parts of your URL by highlighting the text and right-clicking, then choosing __EncodeURIComponent__.
 

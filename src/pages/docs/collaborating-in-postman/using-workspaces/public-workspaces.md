@@ -123,7 +123,7 @@ You can share a public workspace by giving collaborators its **workspace URL** d
 
 To access a workspace's URL:
 
-1. Navigate to the workspace **Overview** page.
+1. Go to the workspace **Overview** page.
 1. Hover over the workspace name to reveal the link icon <img alt="Link icon" src="https://assets.postman.com/postman-docs/icon-workspace-link-v9.jpg#icon" width="18px">.
 1. Select the link icon to copy the workspace's URL to your clipboard.
 
@@ -191,7 +191,7 @@ To collaborate with someone else in their public workspace, open the **Workspace
 
 For **collections** and **environments**, [create a fork](/docs/collaborating-in-postman/version-control-for-collections/#forking-a-collection) and request to merge changes using a [pull request](/docs/collaborating-in-postman/version-control-for-collections/#creating-pull-requests).
 
-For **APIs**, navigate to the API and version. Select the **Definition** tab and then select **Request Access** to request an editor role.
+For **APIs**, select the API and version. Select the **Definition** tab and then select **Request Access** to request an editor role.
 
 You can access public workspaces using the Postman Explore page's [**Workspaces** category](https://www.postman.com/explore/workspaces). You can also access the public workspaces that you own or are a member of using the **Workspaces** selector at the top of Postman.
 

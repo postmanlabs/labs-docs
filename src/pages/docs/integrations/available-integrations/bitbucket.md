@@ -67,7 +67,7 @@ Your new integration will now appear in a list along with previously created int
 
 ![Configured integrations](https://assets.postman.com/postman-docs/bitbucket-add-integration-bb.jpg)
 
-To confirm this integration, navigate to your [Bitbucket dashboard](https://bitbucket.org/dashboard/overview) > **Repositories**. Select your repository > **Commits**.
+To confirm this integration, go to your [Bitbucket dashboard](https://bitbucket.org/dashboard/overview) > **Repositories**. Select your repository, then select **Commits**.
 
 ![Bitbucket commits list](https://assets.postman.com/postman-docs/bitbucket-commits.jpg)
 

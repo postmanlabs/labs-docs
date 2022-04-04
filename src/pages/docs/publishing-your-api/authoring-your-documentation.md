@@ -165,7 +165,7 @@ Images liven up your documentation and help your ideas come across more clearly.
 
 **Looking for some documentation inspiration?** Browse through the Public API Network to find examples of great documentation created in Postman.
 
-1. Navigate to the [Public API Network](https://www.postman.com/explore) page or select **Explore** in the Postman header.
+1. Open the [Public API Network](https://www.postman.com/explore) page or select **Explore** in the Postman header.
 1. Select **Teams**, **Workspaces**, **APIs**, or **Collections** in the left pane.
 
     ![Public API Network page](https://assets.postman.com/postman-docs/documentation-explore-docs-v8-10.jpg)

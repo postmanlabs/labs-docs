@@ -15,7 +15,7 @@ contextual_links:
 
 ## Prerequisites
 
-Before you configure Microsoft Active Directory Federation Services (AD FS) to work with Postman Single sign-on (SSO), you must have:
+Before you configure Microsoft Active Directory Federation Services (AD FS) to work with Postman single sign-on (SSO), you must have:
 
 * An Active Directory instance where all users have an email address attribute.
 * A SSL certificate from the AD FS server.
@@ -197,4 +197,4 @@ Take the final string and append it to the IDP initiated sign-on URL.
 * An example IDP initiated sign-on URL would have the following structure: `https://adfs.contoso.com/adfs/ls/idpinitiatedsignon.aspx`
 * __Final URL__: `https://adfs.contoso.com/adfs/ls/idpinitiatedsignon.aspx?RelayState=RPID%3Dhttps%253A%252F%252Fidentity-example.getpostman.com%26RelayState%3D+35ef7ab89gh99hh00`
 
-Navigate to the final URL in the browser on first time login from Azure AD, which will enable setting the relay state and allow seamless SSO login in future.
+The first time you sign in from Azure AD, go to the final URL in the browser. This sets the relay state and enables users to sign in with SSO in the future.

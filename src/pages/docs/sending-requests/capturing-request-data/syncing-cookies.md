@@ -31,7 +31,7 @@ warning: false
 
 ---
 
-The Postman app enables you to capture and sync cookies from a browser or client application. You can sync cookies using either the Postman proxy or Postman Interceptor at any time, without starting a [debug session](/docs/sending-requests/capturing-request-data/capture-overview/).
+Postman enables you to capture and sync cookies from a browser or client application. You can sync cookies using either the Postman proxy or Postman Interceptor at any time, without starting a [debug session](/docs/sending-requests/capturing-request-data/capture-overview/).
 
 Once configured, Postman continuously captures cookies from the browser or client applications. For the domains you specify, captured cookies are automatically synced to your Postman cookie jar. You can then [use the cookies](/docs/sending-requests/cookies/) when sending requests from Postman.
 

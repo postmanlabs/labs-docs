@@ -46,7 +46,7 @@ Postman 9.0 introduced the ability to connect a Git repository to an API. Instea
 
 To integrate with GitHub, you will need a GitHub personal access token.
 
-1. Log in to [GitHub](https://github.com/).
+1. Sign in to [GitHub](https://github.com/).
 1. If you don’t already have a personal access token, [generate a new one](https://github.com/settings/tokens).
 1. To enable backing up collections, make sure to select the `repo` and the `user` scopes.
 1. Save the generated token to use later.
@@ -85,7 +85,7 @@ To integrate with GitHub, you will need a GitHub personal access token.
 
 1. To finish setting up the integration, select **Add Integration**.
 
-Every change saved to your Postman collection automatically commits changes to your GitHub repo in JSON format. Navigate to your GitHub repository to view your collections.
+Every change saved to your Postman collection automatically commits changes to your GitHub repo in JSON format. Go to your GitHub repository to view your collections.
 
 <img alt="Github integrations screen" src="https://assets.postman.com/postman-docs/Github_Integrations5.png" style="border: 1px solid #4a4a4a">
 

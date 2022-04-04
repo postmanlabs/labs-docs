@@ -29,9 +29,9 @@ The following open-source projects are hosted on GitHub:
 * [RAML 1.0 to Postman](https://github.com/postmanlabs/raml1-to-postman)
 * [GraphQL to Postman](https://github.com/postmanlabs/graphql-to-postman)
 
-Each of these node.js modules is available to use via NPM or by cloning directly from the repo.
+Each of these Node.js modules is available to use via NPM or by cloning directly from the repo.
 
-Check out the repo for the format you need to convert—the READMEs indicate how to install and use the converters. Your output collections will be suitable for import into the Postman app, or to run collections on the command line using [Newman](/docs/running-collections/using-newman-cli/command-line-integration-with-newman/).
+Check out the repo for the format you need to convert—the READMEs indicate how to install and use the converters. Your output collections will be suitable for import into Postman, or to run collections on the command line using [Newman](/docs/running-collections/using-newman-cli/command-line-integration-with-newman/).
 
 ## Next steps
 
