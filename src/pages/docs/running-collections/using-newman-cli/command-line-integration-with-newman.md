@@ -295,8 +295,7 @@ newman.run({
 
 ## Custom reporters
 
-Custom reporters are useful to generate collection run reports that cater to specific use cases, 
-for example, logging out the response body when a request (or its tests) fail.
+Custom reporters are useful to generate collection run reports that cater to specific use cases, for example, logging out the response body when a request (or its tests) fail.
 
 ## Building custom reporters
 
