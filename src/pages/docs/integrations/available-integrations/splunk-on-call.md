@@ -20,14 +20,14 @@ Splunk On-Call (formerly VictorOps) is a real-time incident management platform 
 
 This integration allows you to configure [Postman Monitors](/docs/monitoring-your-api/intro-monitors/) to trigger incidents on Splunk On-Call whenever it fails.
 
-## Get the Splunk On-Call API Key
+## Get the Splunk On-Call API key
 
 1. Sign in to your Splunk On-Call account and go to the **Settings** tab.
 1. On the **Settings** page, go to the **Alert Behavior** menu and select **Integrations**.
    [![sign in to Splunk On-Call](https://assets.postman.com/postman-docs/58842896.png)](https://assets.postman.com/postman-docs/58842896.png)
 1. From the list of integrations, select the **REST Generic** Integration.
    [![select REST Generic](https://assets.postman.com/postman-docs/58843113.png)](https://assets.postman.com/postman-docs/58843113.png)
-1. If the integration is not already enabled, select the **Enable Integration** button.
+1. If the integration isn't already enabled, select the **Enable Integration** button.
    [![enable integration](https://assets.postman.com/postman-docs/58843154.png)](https://assets.postman.com/postman-docs/58843154.png)
    If the integration is enabled, you will see a URL which contains the API Key.
    [![view API key](https://assets.postman.com/postman-docs/58843264.png)](https://assets.postman.com/postman-docs/58843264.png)
