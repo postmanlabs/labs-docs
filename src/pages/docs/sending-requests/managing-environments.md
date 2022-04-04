@@ -195,7 +195,7 @@ You can move environments to shared workspaces to collaborate with your team.
 
 > You must be an editor on an environment, or the workspace admin, to move an environment to another workspace.
 
-Navigate to the environment you'd like to share in the left sidebar, select it, then select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> > **Move**.
+In the sidebar, select the environment you want to share, then select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> > **Move**.
 
 Use the search bar to find the workspace you'd like to move the environment to, or filter by workspace visibility by selecting the icon to the right of the search bar.
 

@@ -103,7 +103,7 @@ To set the frequency with which Jenkins runs Newman:
 
 1. Open the build window.
 1. Select **Configure**.
-1. Navigate to **Build Triggers** and select **Build periodically**.
+1. Go to **Build Triggers** and select **Build periodically**.
 1. Enter a schedule. The syntax for setting the frequency to every 30 minutes is `H/(30) * * * *`.
 
     > Select the help icon next to **Schedule** to see information on how to specify the build frequency.

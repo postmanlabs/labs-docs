@@ -22,7 +22,7 @@ To sign into Postman:
 
 1. Select **Sign In** in the upper-right corner of Postman
 1. Select **Home** in the upper-left, then select **Sign in**
-1. Navigate to [Postman's website](https://www.postman.com/) and select **Sign In** in the upper-right corner
+1. Open [Postman's website](https://www.postman.com/) and select **Sign In** in the upper-right corner
 
 <img src="https://assets.postman.com/postman-docs/create-account-or-sign-in.jpg" alt="Create account or sign in"/>
 

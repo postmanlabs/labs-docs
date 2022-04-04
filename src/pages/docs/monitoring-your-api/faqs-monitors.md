@@ -71,7 +71,7 @@ A monitor is visible to all users who have access to the workspace the monitor w
 
 ### Who can edit my monitors?
 
-Monitors can be edited in their respective workspace by members who have been granted [Editor permissions](/docs/collaborating-in-postman/roles-and-permissions/) on the monitor. To review or manage which team members have Editor or Viewer permissions on a specific monitor, navigate to your workspace and select **Monitors** from the left sidebar. Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> next to a monitor, and then select **Manage Roles**.
+Monitors can be edited in their respective workspace by members who have been granted [Editor permissions](/docs/collaborating-in-postman/roles-and-permissions/) on the monitor. To review or manage which team members have Editor or Viewer permissions on a specific monitor, open your workspace and select **Monitors** from the left sidebar. Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> next to a monitor, and then select **Manage Roles**.
 
 ### Can I move a monitor?
 

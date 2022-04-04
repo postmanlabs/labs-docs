@@ -73,7 +73,7 @@ OpenSSL is already installed for macOS and is typically installed for Linux. For
     ![download OpenSSL installer](https://assets.postman.com/postman-docs/windows-environment-variables-edit-browse-bb.jpg)
 
 1. Select **Browse**.
-1. Navigate to and select **This PC > Local Disk (C:) > Program Files > OpenSSL-Win64 > bin**.
+1. Find and select **This PC > Local Disk (C:) > Program Files > OpenSSL-Win64 > bin**.
 
     ![download OpenSSL installer](https://assets.postman.com/postman-docs/windows-oppssl-environment-variables-bin.jpg)
 
@@ -86,7 +86,7 @@ OpenSSL is already installed for macOS and is typically installed for Linux. For
 
 > Before you begin, make sure to [install the OpenSSL module](#installing-openssl-on-windows) so Postman can generate the certificate.
 
-1. In Windows File Explorer, navigate to the `%APPDATA%\Postman\proxy` folder. Typically, the folder will be located at `C:\Users\<user>\AppData\Roaming\Postman\proxy`.
+1. In Windows File Explorer, open the `%APPDATA%\Postman\proxy` folder. Typically, the folder will be located at `C:\Users\<user>\AppData\Roaming\Postman\proxy`.
 
 1. Right-click on the **postman-proxy-ca.crt** file and select **Install Certificate**.
 
@@ -104,7 +104,7 @@ OpenSSL is already installed for macOS and is typically installed for Linux. For
 
 ## macOS
 
-1. In the macOS Finder, navigate to the `~/Library/Application Support/Postman/proxy` folder.
+1. In the macOS Finder, open the `~/Library/Application Support/Postman/proxy` folder.
 1. Double-click the `postman-proxy-ca.crt` file.
 1. Select **System** in the **Keychain** list, and then select **Add**. Enter your system password to confirm the action.
 1. In Keychain Access, double-click the imported Postman certificate to open it.

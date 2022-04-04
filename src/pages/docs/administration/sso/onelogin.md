@@ -28,7 +28,7 @@ Before configuring the Postman app in OneLogin, you must [configure SSO in Postm
 
 Open your OneLogin admin console in a new tab to continue configuring your Postman app:
 
-1. Navigate to **Applications** and select **Add App**.
+1. Go to **Applications** and select **Add App**.
 2. Search for "Postman" and select the Postman app from the results.
 3. Select **Configuration** on the left.
 4. Take the **ACS URL** from Postman and add it as your **SAML Consumer URL** in OneLogin.

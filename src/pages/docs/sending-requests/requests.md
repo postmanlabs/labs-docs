@@ -255,9 +255,9 @@ If you need to change a header, you can do so in the relevant part of Postman, f
 
 [![Token Header](https://assets.postman.com/postman-docs/headers-added-v8.jpg)](https://assets.postman.com/postman-docs/headers-added-v8.jpg)
 
-If you need to navigate to a different part of the app, Postman will show a link on the right-hand side.
+If you need to go to a different part of the app, Postman will show a link on the right-hand side.
 
-If a header has been added based on your auth setup, [navigate to the __Authorization__ tab](/docs/sending-requests/authorization/) to change it.
+If a header has been added based on your auth setup, [select the __Authorization__ tab](/docs/sending-requests/authorization/) to change it.
 
 To alter cookie headers, [amend the cookie setup](/docs/sending-requests/cookies/) for the domain you're sending the request to.
 

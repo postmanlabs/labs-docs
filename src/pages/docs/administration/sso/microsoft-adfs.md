@@ -197,4 +197,4 @@ Take the final string and append it to the IDP initiated sign-on URL.
 * An example IDP initiated sign-on URL would have the following structure: `https://adfs.contoso.com/adfs/ls/idpinitiatedsignon.aspx`
 * __Final URL__: `https://adfs.contoso.com/adfs/ls/idpinitiatedsignon.aspx?RelayState=RPID%3Dhttps%253A%252F%252Fidentity-example.getpostman.com%26RelayState%3D+35ef7ab89gh99hh00`
 
-Navigate to the final URL in the browser on first time login from Azure AD, which will enable setting the relay state and allow seamless SSO login in future.
+On the first time signing in from Azure AD, go to the final URL in the browser. This will enable setting the relay state and allow seamless SSO login in future.

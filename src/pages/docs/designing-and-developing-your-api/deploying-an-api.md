@@ -49,7 +49,7 @@ Enter a **Nickname** for this integration and select the **AWS API Type** (HTTP 
 
 Next, create an IAM role for Postman in AWS:
 
-1. Navigate to the [AWS IAM console](https://console.aws.amazon.com/iam/home#/roles) and select **Create role**.
+1. Open the [AWS IAM console](https://console.aws.amazon.com/iam/home#/roles) and select **Create role**.
 2. Under **Select type of trusted entity**, select **Another AWS account**.
 3. Enter Postman's **AWS Account ID**: `258201882842`
 4. Under options, select the check box to **Require external ID** and enter the **External ID** from Postman. You can find the external ID under **Step 1: Create an IAM role**.

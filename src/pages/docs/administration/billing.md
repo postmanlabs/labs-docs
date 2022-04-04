@@ -22,7 +22,7 @@ contextual_links:
 
 Postman provides a self-serve billing process. Refer to the following sections for guidance on managing your account, plan, and payment.
 
-Contact Postman's support team for help with any account or billing issues. Navigate to Postman's [Support Center](https://www.postman.com/support/) and select **Submit a Request**.
+For help with any account or billing issues, contact Postman's [support team](https://www.postman.com/support/).
 
 > Check out [Postman's Help Center](https://support.postman.com/hc/en-us) for [Postman billing and payment FAQs](https://support.postman.com/hc/en-us/categories/115000609205-Billing-and-Payment).
 
@@ -158,7 +158,7 @@ You can change your team's plan and billing cycle in your [billing dashboard](ht
 
 ### Changing your plan
 
-To change your plan right away, navigate to your [billing dashboard](https://go.postman.co/billing/overview) and select **Edit Plan** on the right.
+To change your plan right away, open your [billing dashboard](https://go.postman.co/billing/overview) and select **Edit Plan** on the right.
 
 <img alt="Edit plan page" src="https://assets.postman.com/postman-docs/billing-edit-plan-v9.1.jpg"/>
 
@@ -174,7 +174,7 @@ The cost of your new plan and any new seats, if applicable, are prorated based o
 
 ### Setting instructions for next billing cycle
 
-To set instructions about what will happen at the end of your current billing cycle, navigate to your [billing dashboard](https://go.postman.co/billing/overview) and select **Set instructions** on the right under your subtotal.
+To set instructions about what will happen at the end of your current billing cycle, open your [billing dashboard](https://go.postman.co/billing/overview) and select **Set instructions** on the right under your subtotal.
 
 <img alt="Set instructions in billing dashboard" src="https://assets.postman.com/postman-docs/billing-overview-set-instructions-v9.1.jpg"/>
 

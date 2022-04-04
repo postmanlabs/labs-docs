@@ -34,7 +34,7 @@ Select "Settings" to go to the following screen:
 
 [![coralogix settings](https://assets.postman.com/postman-docs/Coralogix_Pvtkey1.png)](https://assets.postman.com/postman-docs/Coralogix_Pvtkey1.png)
 
-Navigate to "Send your logs" tab and copy the private key for later use, as illustrated in the above screen (highlighted in red circle).
+Select "Send your logs" tab and copy the private key for later use, as illustrated in the above screen (highlighted in red circle).
 
 ## Configuring Coralogix Integration
 

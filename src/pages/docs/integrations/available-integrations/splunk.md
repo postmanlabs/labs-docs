@@ -33,7 +33,7 @@ Sign in to [Splunk](https://login.splunk.com) and follow the [steps from Splunk]
 
 ## Configuring Postman Splunk integration
 
-1. On your Postman Home page, navigate to **Integrations**, select **Browse All Integrations**, and select **Splunk** in the list of third-party integrations.
+1. On your Postman Home page, open **Integrations**, select **Browse All Integrations**, and select **Splunk** in the list of third-party integrations.
 
    [![splunk integrations search all](https://assets.postman.com/postman-docs/splunk-all-search.jpg)](https://assets.postman.com/postman-docs/splunk-all-search.jpg)
 
@@ -62,7 +62,7 @@ As soon as your monitor runs, the data will start flowing into Splunk.
 
 ### Viewing data in a list
 
-1. Navigate to the Splunk homepage, from the left navigation bar, select **Search & Reporting**.
+1. Open the Splunk homepage, from the left navigation bar, select **Search & Reporting**.
 
 1. Enter a **metric** to search for and select it from the results to view details regarding it.
 
@@ -72,7 +72,7 @@ As soon as your monitor runs, the data will start flowing into Splunk.
 
 ### Viewing data as a Pivot table
 
-1. Navigate to the Splunk homepage, from the left navigation bar, select **Search & Reporting**.
+1. Open the Splunk homepage, from the left navigation bar, select **Search & Reporting**.
 
 1. Select **Visualization** and enter a **metric** to search for.
 

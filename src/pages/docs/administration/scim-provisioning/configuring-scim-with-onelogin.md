@@ -39,7 +39,7 @@ To set up provisioning with the Postman OneLogin app:
 
 1. [Enable SCIM in Postman](/docs/administration/scim-provisioning/scim-provisioning-overview/#enabling-scim-in-postman) and [generate a SCIM API key](/docs/administration/scim-provisioning/scim-provisioning-overview/#generating-scim-api-key).
 
-2. In OneLogin, navigate to the Postman app and select **Configuration**. Paste the generated SCIM API key under **API Connection** and select **Enable**.
+2. In OneLogin, go to the Postman app and select **Configuration**. Paste the generated SCIM API key under **API Connection** and select **Enable**.
 
     <img alt="OneLogin configuration API connection" src="https://assets.postman.com/postman-docs/onelogin-api-connection.jpg" width="275px"/>
 
@@ -49,7 +49,7 @@ To set up provisioning with the Postman OneLogin app:
 
 Postman supports the provisioning features detailed in the [SCIM provisioning overview](/docs/administration/scim-provisioning/scim-provisioning-overview/#scim-features).
 
-To configure provisioning, navigate to the Postman app in OneLogin and select **Provisioning** on the left, then **Enable provisioning**.
+To configure provisioning, go to the Postman app in OneLogin and select **Provisioning** on the left, then **Enable provisioning**.
 
 <img alt="OneLogin provisioning workflow" src="https://assets.postman.com/postman-docs/onelogin-provisioning-workflow.jpg" width="400px"/>
 

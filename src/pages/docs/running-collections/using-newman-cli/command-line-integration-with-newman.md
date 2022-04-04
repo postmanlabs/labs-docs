@@ -302,7 +302,7 @@ For instance, logging out the response body when a request (or its tests) fail, 
 
 A custom reporter is a Node module with a name of the form `newman-reporter-<name>`. To create a custom reporter:
 
-1. Navigate to a directory of your choice, and create a blank npm package with `npm init`.
+1. In the directory of your choice, create a blank npm package with `npm init`.
 
 2. Add an `index.js` file, that exports a function of the following form:
 

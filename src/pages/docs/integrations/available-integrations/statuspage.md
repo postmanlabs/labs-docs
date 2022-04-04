@@ -39,7 +39,7 @@ Make sure to create your Statuspage account and create a page and components bef
 
 ## Integration Setup
 
-1. On your Home page, navigate to **Integrations**, select **Browse All Integrations**, and select **Statuspage** in the list of third-party integrations.
+1. On your Home page, go to **Integrations**, select **Browse All Integrations**, and select **Statuspage** in the list of third-party integrations.
 1. Select **Add Integration**.
 1. In the **Authenticate** tab, enter the Statuspage API key you copied above.
 ![Statuspage add integration](https://assets.postman.com/postman-docs/add-integration-statuspage.jpg)

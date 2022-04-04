@@ -37,7 +37,7 @@ The [Manage public elements](https://blog.postman.com/govern-your-public-api-col
 
 ### Managing public elements
 
-To manage public elements, you need to have a Community Manager role in a Postman **Enterprise** plan. Use the dashboard to manage what collections your team has exposed for public consumption and to see which team member created a specific link. You have the ability to delete links to collections you feel should not be public. From the **Home** page, go to the **Manage public elements** section and select **Manage** to navigate to the dashboard view.
+To manage public elements, you need to have a Community Manager role in a Postman **Enterprise** plan. Use the dashboard to manage what collections your team has exposed for public consumption and to see which team member created a specific link. You have the ability to delete links to collections you feel should not be public. From the **Home** page, go to the **Manage public elements** section and select **Manage** to go to the dashboard view.
 
 <img alt="Manage public elements" src="https://assets.postman.com/postman-docs/manage-public-elements.jpg"/>
 

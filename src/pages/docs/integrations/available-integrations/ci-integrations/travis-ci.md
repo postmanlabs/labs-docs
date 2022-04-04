@@ -18,7 +18,7 @@ To set up Travis CI integration for your API, you’ll need to create an API tok
 
 ## Copying your Travis CI API Token
 
-1. Sign in to [Travis CI](https://app.travis-ci.com/account/preferences) and navigate to your account profile page.
+1. Sign in to [Travis CI](https://app.travis-ci.com/account/preferences) and go to your account profile page.
 1. Select the **Settings** tab, and then select **Copy Token**.
 
 ## Configuring Travis CI integration

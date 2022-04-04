@@ -47,7 +47,7 @@ Signing up for a Postman account is optional, and you can use the Postman deskto
 
 ## Signing up for a Postman account
 
-Before you sign up for a Postman account, either download and open the [desktop app](https://www.postman.com/downloads/) or navigate to the [web app](https://go.postman.co/home/).
+Before you sign up for a Postman account, either download and open the [desktop app](https://www.postman.com/downloads/) or go to the [web app](https://go.postman.co/home/).
 
 You will see a prompt to sign in or sign up. Select __Create Account__. You can sign up using an email address or using your Google account:
 
@@ -69,7 +69,7 @@ During the sign up process, you have the option to create or join a [team](/docs
 
 ## Signing into Postman
 
-You can sign in to Postman by selecting **Sign In** in the upper-right corner of the app or selecting **Home** in the upper-left corner of the app then **Sign In**. You can also navigate to [Postman's website](https://www.postman.com/) and selecting **Sign In** in the upper-right corner of the page.
+You can sign in to Postman by selecting **Sign In** in the upper-right corner of the app or selecting **Home** in the upper-left corner of the app then **Sign In**. You can also go to [Postman's website](https://www.postman.com/) and selecting **Sign In** in the upper-right corner of the page.
 
 When you sign in using the Postman desktop app, the app will open a new screen that directs you to _Sign in via web browser_. Your default browser will automatically open a webpage asking you to sign into Postman. If your browser doesn't open within a few seconds, select the **open your browser** link in Postman.
 
@@ -97,7 +97,7 @@ You can manage account settings including your email address, password, and work
 
 #### Changing your email address
 
-If you are on a Professional, Basic, or Free plan, you can change the email address associated with your Postman account. Navigate to your [account settings](https://go.postman.co/settings/me/account/) page. Select your avatar in the upper-right corner > **Account Settings** > **Account**. Edit your email address and select **Update Email** to save changes.
+If you are on a Professional, Basic, or Free plan, you can change the email address associated with your Postman account. Open your [account settings](https://go.postman.co/settings/me/account/) page. Select your avatar in the upper-right corner > **Account Settings** > **Account**. Edit your email address and select **Update Email** to save changes.
 
 If you are on an Enterprise plan, you must contact your team admins to update the email address associated with your Postman account.
 

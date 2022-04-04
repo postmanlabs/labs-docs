@@ -44,7 +44,7 @@ It's recommended that you enable [SSO provisioning](/docs/administration/scim-pr
 
 ## Enabling domain capture
 
-To enable domain capture, navigate to Postman and select **Team** > **Team Settings** in the upper-right. Select **Authentication** in the left sidebar.
+To enable domain capture, open Postman and select **Team** > **Team Settings** in the upper-right. Select **Authentication** in the left sidebar.
 
 Confirm that your team has only the SSO authentication method enabled. Then, select the **Domains** tab.
 
@@ -54,7 +54,7 @@ Select **Add Domain**. Enter the domain or subdomain you'd like to add, then sel
 
 <img alt="Add domain - domain details" src="https://assets.postman.com/postman-docs/authentication-domain-add-details-9.4.jpg" width="350"/>
 
-In Postman, you can select **← Back** to navigate back to your domain dashboard.
+In Postman, you can select **← Back** to return to your domain dashboard.
 
 <img alt="Domain dashboard" src="https://assets.postman.com/postman-docs/authentication-domain-dashboard-9.5.jpg"/>
 
