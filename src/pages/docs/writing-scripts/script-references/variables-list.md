@@ -247,7 +247,7 @@ The following is a list of dynamic variables whose values are randomly generated
 |:------------------------------|:-----------------------------------------|:-----------------------------------------------|
 | **`$randomNoun`**             | A random noun                            | `matrix`, `bus`, `bandwidth`                   |
 | **`$randomVerb`**             | A random verb                            | `parse`, `quantify`, `navigate`                |
-| **`$randomIngverb`**          | A random verb ending in "-ing"           | `synthesizing`, `navigating`, `backing up`     |
+| **`$randomIngverb`**          | A random verb ending in `-ing`           | `synthesizing`, `navigating`, `backing up`     |
 | **`$randomAdjective`**        | A random adjective                       | `auxiliary`, `multi-byte`, `back-end`          |
 | **`$randomWord`**             | A random word                            | `withdrawal`, `infrastructures`, `IB`          |
 | **`$randomWords`**            | Some random words                        | `Samoa Synergistic sticky copying Grocery`,    |
@@ -264,11 +264,11 @@ The following is a list of dynamic variables whose values are randomly generated
 | **`$randomLoremWord`**        |A random word of lorem ipsum text| `est`                                                     |
 | **`$randomLoremWords`**       |Some random words of lorem ipsum text| `vel repellat nobis`                                  |
 | **`$randomLoremSentence`**    |A random sentence of lorem ipsum text| `Molestias consequuntur nisi non quod.`               |
-| **`$randomLoremSentences`**   |A random 2-6 sentences of lorem ipsum text|`Et sint voluptas similique iure amet perspiciatis vero sequi atque. Ut porro sit et hic. Neque aspernatur vitae fugiat ut dolore et veritatis. Ab iusto ex delectus animi. Voluptates nisi iusto. Impedit quod quae voluptate qui.`|
+| **`$randomLoremSentences`**   |A random 2 to 6 sentences of lorem ipsum text|`Et sint voluptas similique iure amet perspiciatis vero sequi atque. Ut porro sit et hic. Neque aspernatur vitae fugiat ut dolore et veritatis. Ab iusto ex delectus animi. Voluptates nisi iusto. Impedit quod quae voluptate qui.`|
 | **`$randomLoremParagraph`**   |A random paragraph of lorem ipsum text|`Ab aliquid odio iste quo voluptas voluptatem dignissimos velit. Recusandae facilis qui commodi ea magnam enim nostrum quia quis. Nihil est suscipit assumenda ut voluptatem sed. Esse ab voluptas odit qui molestiae. Rem est nesciunt est quis ipsam expedita consequuntur.`|
 | **`$randomLoremParagraphs`** |3 random paragraphs of lorem ipsum text|`Voluptatem rem magnam aliquam ab id aut quaerat. Placeat provident possimus voluptatibus dicta velit non aut quasi. Mollitia et aliquam expedita sunt dolores nam consequuntur. Nam dolorum delectus ipsam repudiandae et ipsam ut voluptatum totam. Nobis labore labore recusandae ipsam quo.`|
 | | | `Voluptatem occaecati omnis debitis eum libero. Veniam et cum unde. Nisi facere repudiandae error aperiam expedita optio quae consequatur qui. Vel ut sit aliquid omnis. Est placeat ducimus. Libero voluptatem eius occaecati ad sint voluptatibus laborum provident iure.`|
 | | | `Autem est sequi ut tenetur omnis enim. Fuga nisi dolor expedita. Ea dolore ut et a nostrum quae ut reprehenderit iste. Numquam optio magnam omnis architecto non. Est cumque laboriosam quibusdam eos voluptatibus velit omnis. Voluptatem officiis nulla omnis ratione excepturi.`|
 | **`$randomLoremText`**        | A random amount of lorem ipsum text | `Quisquam asperiores exercitationem ut ipsum. Aut eius nesciunt. Et reiciendis aut alias eaque. Nihil amet laboriosam pariatur eligendi. Sunt ullam ut sint natus ducimus. Voluptas harum aspernatur soluta rem nam.` |
 | **`$randomLoremSlug`**        | A random lorem ipsum URL slug | `eos-aperiam-accusamus`, `beatae-id-molestiae`, `qui-est-repellat` |
-| **`$randomLoremLines`**       | 1-5 random lines of lorem ipsum | `Ducimus in ut mollitia.\nA itaque non.\nHarum temporibus nihil voluptas.\nIste in sed et nesciunt in quaerat sed.`|
+| **`$randomLoremLines`**       | 1 to 5 random lines of lorem ipsum | `Ducimus in ut mollitia.\nA itaque non.\nHarum temporibus nihil voluptas.\nIste in sed et nesciunt in quaerat sed.`|
