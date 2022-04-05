@@ -18,7 +18,7 @@ contextual_links:
     name: "WebSocket Requests | Postman Level Up"
     url: "https://youtu.be/H-7EZVj9D-k"
   - type: subtitle
-    name: "Related Blog Posts"
+    name: "Blog Posts"
   - type: link
     name: "Save and Document WebSocket Requests in Collections"
     url: "https://blog.postman.com/save-and-document-websocket-requests-in-collections/"
@@ -54,7 +54,7 @@ In addition to raw WebSocket connections, Postman also supports Socket.IO connec
 
 You can create a WebSocket request from the left sidebar in Postman.
 
-1. Select  __New__ &gt; __WebSocket Request__ to open a new tab. (In the Postman app, you can also select **⌘+N** or **Ctrl+N**.)
+1. Select  __New__ &gt; __WebSocket Request__ to open a new tab. (In the Postman Desktop app, you can also select **⌘+N** or **Ctrl+N**.)
 
     [![New Screen](https://assets.postman.com/postman-docs/new-request-websocket-v91.jpg)](https://assets.postman.com/postman-docs/new-request-websocket-v91.jpg)
 

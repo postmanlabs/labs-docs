@@ -20,7 +20,7 @@ contextual_links:
     name: "HTTP protocol explained"
     url:  "https://www.youtube.com/watch?v=FAnuh0_BU4c&list=PLM-7VG-sgbtBBnWb2Jc5kufgtWYEmiMAw"
   - type: subtitle
-    name: "Related Blog Posts"
+    name: "Blog Posts"
   - type: link
     name: "Inspecting Postman Requests"
     url: "https://blog.postman.com/debugging-postman-requests/"
@@ -34,7 +34,7 @@ warning: false
 
 ---
 
-The Postman response viewer helps you to visualize and verify the correctness of API responses. An API response consists of the response body, headers, and the HTTP status code.
+The Postman response viewer helps you to visualize and check the correctness of API responses. An API response consists of the response body, headers, and the HTTP status code.
 
 ## Contents
 

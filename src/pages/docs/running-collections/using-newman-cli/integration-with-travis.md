@@ -12,7 +12,7 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
-    name: "Related Blog Posts"
+    name: "Blog Posts"
   - type: link
     name: "Integrate API tests with Postman, Newman, and Travis CI"
     url: "https://blog.postman.com/integrate-api-tests-with-postman-newman-and-travis-ci/"
@@ -115,7 +115,7 @@ This example shows you how to integrate Postman with [Travis CI](https://travis-
 
 1. Commit all the changes to your local project and push them to your public GitHub repo.
 
-    Travis CI will automatically trigger a build and run  your tests every time you push a commit to your repo. Navigate to the [Travis CI dashboard](https://app.travis-ci.com/dashboard) to see the status of your build. If all went well, your build passed successfully.
+    Travis CI will automatically trigger a build and run  your tests every time you push a commit to your repo. Open the [Travis CI dashboard](https://app.travis-ci.com/dashboard) to see the status of your build. If all went well, your build passed successfully.
 
     [![Travis CI build successful](https://assets.postman.com/postman-docs/travis-ci-build-success.jpg)](https://assets.postman.com/postman-docs/travis-ci-build-success.jpg)
 

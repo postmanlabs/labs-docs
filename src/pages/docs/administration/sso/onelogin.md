@@ -22,13 +22,13 @@ To configure SSO with OneLogin, you can use the available Postman app. You must 
 
 ## Configuring SSO with OneLogin
 
-Before configuring the Postman application in OneLogin, you must [configure SSO in Postman](/docs/administration/sso/admin-sso/). When choosing the **Authentication Type**, select **OneLogin**. Name your authentication and **Proceed**.
+Before configuring the Postman app in OneLogin, you must [configure SSO in Postman](/docs/administration/sso/admin-sso/). When choosing the **Authentication Type**, select **OneLogin**. Name your authentication and **Proceed**.
 
 <img alt="Configure identity provider details in Postman" src="https://assets.postman.com/postman-docs/configure-identity-provider-details-v9.14.jpg"/>
 
-Open your OneLogin admin console in a new tab to continue configuring your Postman application:
+Open your OneLogin admin console in a new tab to continue configuring your Postman app:
 
-1. Navigate to **Applications** and select **Add App**.
+1. Go to **Applications** and select **Add App**.
 2. Search for "Postman" and select the Postman app from the results.
 3. Select **Configuration** on the left.
 4. Take the **ACS URL** from Postman and add it as your **SAML Consumer URL** in OneLogin.

@@ -16,7 +16,7 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
-    name: "Related Blog Posts"
+    name: "Blog Posts"
   - type: link
     name: "Create APIs directly within the Postman app"
     url: "https://blog.postman.com/postman-7-1-create-apis-directly-within-the-postman-app/"
@@ -85,7 +85,7 @@ If an issue arises when you run a request, select the warning message next to th
 
 > You can select a specific issue to access the relevant request component.
 
-If your issue relates to another element, navigate to your API by selecting **APIs** in the app sidebar, then select an API version from the list. Open the tab containing the element you want to see issues for (either **Overview**, **Test** or **Monitoring**).
+If your issue relates to another element, open your API by selecting **APIs** in the app sidebar, then select an API version from the list. Open the tab containing the element you want to see issues for (either **Overview**, **Test** or **Monitoring**).
 
 You will see a status indicating if issues have been found during validation next to the element. If there are issues, view them by selecting **Issues found** > **View issues**. This will take you to a page summarizing validation issues.
 
@@ -99,13 +99,13 @@ The validation summary lists all the issues found between the generated collecti
 
 ![review issues sidebar](https://assets.postman.com/postman-docs/api-builder-validation-sync.jpg)
 
-> You can select the request name or the request element in the right sidebar to navigate directly to the corresponding issues.
+> You can select the request name or the request element in the right sidebar to go directly to the corresponding issues.
 
 The review contains details on what changes need to be made for the API element to be in sync with the schema again.
 
 ### Applying changes to API elements
 
-You can individually select the changes to be applied to the API element as you review them. Navigate to the change you want to apply and select the checkbox next to it. Repeat the same action for each change you would like to apply.
+You can individually select the changes to be applied to the API element as you review them. Select the change you want to apply, then select the checkbox next to it. Repeat the same action for each change you would like to apply.
 
 When you're done selecting the changes to apply, select **Confirm Changes to Collection**.
 

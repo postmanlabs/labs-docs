@@ -21,7 +21,7 @@ contextual_links:
     name: "Intro to Postman | Write API Tests"
     url: "https://youtu.be/EVg6gxeiUd0"
   - type: subtitle
-    name: "Related Blog Posts"
+    name: "Blog Posts"
   - type: link
     name: "Continuous API testing with Postman"
     url: "https://blog.postman.com/continuous-api-testing-with-postman/"
@@ -73,7 +73,7 @@ Use the **Tests** tab in your requests, folders, and collections to write tests 
 
 ## Getting started with tests
 
-To write your first test script, open a request in your Postman app and open the **Tests** tab. Enter the following JavaScript code:
+To write your first test script, open a request in Postman, then select the **Tests** tab. Enter the following JavaScript code:
 
 ```js
 pm.test("Status code is 200", function () {
@@ -533,7 +533,7 @@ pm.sendRequest("https://postman-echo.com/get", function (err, response) {
 
 ## Previous style of writing Postman tests (deprecated)
 
-> **This section refers to deprecated script syntax used in previous versions of Postman. If you are writing scripts now, please use the current syntax described above.**
+> **This section refers to deprecated script syntax used in previous versions of Postman. If you are writing scripts now, use the current syntax described above.**
 
 The previous style of writing Postman tests relies on setting values for the `tests` object. Set a descriptive key for an element in the object and then assert if it's true or false. For example, the following will check if the response body contains the `user_id` string:
 

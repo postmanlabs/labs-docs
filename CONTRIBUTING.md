@@ -153,7 +153,7 @@ Open the doc file `.md` that you want to edit right sidebar, and look for `conte
 
 ~~~~
 - type: subtitle
-    name: "Related Blog Posts"
+    name: "Blog Posts"
 - type: link
     name: "Check for broken links on your website using a Postman Collection"
     url: "https://blog.postman.com/check-for-broken-links-on-your-website-using-a-postman-collection/"
@@ -163,7 +163,7 @@ Replace with:
 
 ~~~~
 - type: dynamic_blog
-name: "Related Blog Posts"
+name: "Blog Posts"
 blog_tag: "PUT_TAG_NAME_HERE"
 ~~~~
 
@@ -175,7 +175,7 @@ Open doc file .md that you want edit right sidebar, and add:
 
 ~~~~
 - type: dynamic_blog
-    name: "Related Blog Posts"
+    name: "Blog Posts"
     blog_tag: "PUT_TAG_NAME_HERE"
 ~~~~
 

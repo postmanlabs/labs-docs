@@ -23,14 +23,15 @@ contextual_links:
   - type: link
     name: "How to Set Up Your First Public Workspace in 5 Easy Steps"
     url: "https://blog.postman.com/how-to-set-up-public-workspaces/"
-  - type: link
-    name: "LGBTQ+ Pride Public Workspace: An Invitation for the API Community to Celebrate Pride"
-    url: "https://blog.postman.com/lgbtq-pride-public-workspace-api-community/"
   - type: subtitle
     name: "Videos"
   - type: link
     name: "Public Workspaces | The Exploratory"
     url: "https://youtu.be/DjGbMdqnY64"
+  - type: link
+    name: "Workspace Linter Using a Style Guide | Postman Level Up"
+    url: "https://youtu.be/6MSS8YgvFVA"
+
 ---
 
 Anyone in the Postman community can access a _public workspace_. A public workspace can enhance a new user's onboarding experience with your API, inspire your existing users with new use cases and resources, increase your API's discovery in Postman search results, and enable you to work publicly with partners.
@@ -122,7 +123,7 @@ You can share a public workspace by giving collaborators its **workspace URL** d
 
 To access a workspace's URL:
 
-1. Navigate to the workspace **Overview** page.
+1. Go to the workspace **Overview** page.
 1. Hover over the workspace name to reveal the link icon <img alt="Link icon" src="https://assets.postman.com/postman-docs/icon-workspace-link-v9.jpg#icon" width="18px">.
 1. Select the link icon to copy the workspace's URL to your clipboard.
 
@@ -190,7 +191,7 @@ To collaborate with someone else in their public workspace, open the **Workspace
 
 For **collections** and **environments**, [create a fork](/docs/collaborating-in-postman/version-control-for-collections/#forking-a-collection) and request to merge changes using a [pull request](/docs/collaborating-in-postman/version-control-for-collections/#creating-pull-requests).
 
-For **APIs**, navigate to the API and version. Select the **Definition** tab and then select **Request Access** to request an editor role.
+For **APIs**, select the API and version. Select the **Definition** tab and then select **Request Access** to request an editor role.
 
 You can access public workspaces using the Postman Explore page's [**Workspaces** category](https://www.postman.com/explore/workspaces). You can also access the public workspaces that you own or are a member of using the **Workspaces** selector at the top of Postman.
 

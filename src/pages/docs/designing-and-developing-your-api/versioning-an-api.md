@@ -21,7 +21,7 @@ contextual_links:
     name: "How to Version APIs | Postman"
     url: "https://youtu.be/LzJEKsccQ70"
   - type: subtitle
-    name: "Related Blog Posts"
+    name: "Blog Posts"
   - type: link
     name: "Redefining API Management for the API-First World"
     url: "https://blog.postman.com/new-postman-api-platform-redefining-api-management-for-api-first-world"
@@ -109,7 +109,7 @@ You can only connect one Postman API to one remote repo. Multiple APIs require m
 To connect a repository:
 
 1. On an API Version page, select **Connect Repository** and choose a repo type: **GitHub**, **GitHub Enterprise**, **Bitbucket**, **GitLab**, **GitLab Self-Managed**, or **Azure DevOps**.
-1. An authentication pop-up window appears. Enter the information to log in to your repo and select **Grant access**.
+1. An authentication pop-up window appears. Enter the information to sign in to your repo and select **Grant access**.
    > This pop-up window may be hidden by your browser. Make sure to enable pop-ups from this site.
 1. On the **Connect your repository page**, enter the information for your repo.
 1. Enter the Git **Organization** and **Repository** where the API will be stored. (For GitLab, **Organization** refers to a **Group**, and **Repository** refers to a **Project**.)
@@ -212,6 +212,6 @@ You can also edit a release name in the Changelog. Next to the release, select <
 
 An API status is a text tag which you can change to indicate the current stage of the API version within your development cycle. For example, you can select a status such as "In Design," "Security Review," or "In Production." You can set different statuses for each version of an API.
 
-A status doesn't affect visibility, permissions, or availability of an API. It's simply a way to tell others on your team the current state of the API. Statuses aren't automatically changed by any actions or state change in your files. You can change the status at any time.
+A status doesn't affect visibility, permissions, or availability of an API. Instead, it's a way to tell others on your team the current state of the API. Statuses aren't automatically changed by any actions or state change in your files. You can change the status at any time.
 
 Statuses are displayed in the upper left of the API tab. To set a new status, choose one from the dropdown list.

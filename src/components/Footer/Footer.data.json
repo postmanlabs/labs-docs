@@ -1,6 +1,6 @@
 {
   "type": "footer",
-  "src": "/assets/postman-footer-v6-2.svg",
+  "src": "https://voyager.postman.com/illustration/postman-footer-rocket-launch.svg",
   "alt": "api-platform",
   "copyright": "© 2022 Postman, Inc.",
   "items": [

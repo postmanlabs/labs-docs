@@ -14,7 +14,7 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
-    name: "Related Blog Posts"
+    name: "Blog Posts"
   - type: link
     name: "Stay on Top of Your API Deployments: AWS API Gateway Integration"
     url: "https://blog.postman.com/deployments-aws-api-gateway-integration/"
@@ -52,7 +52,7 @@ Enter a **Nickname** for this integration and select the **AWS API Type** (HTTP 
 
 Next, create an IAM role for Postman in AWS:
 
-1. Navigate to the [AWS IAM console](https://console.aws.amazon.com/iam/home#/roles) and select **Create role**.
+1. Open the [AWS IAM console](https://console.aws.amazon.com/iam/home#/roles) and select **Create role**.
 2. Under **Select type of trusted entity**, select **Another AWS account**.
 3. Enter Postman's **AWS Account ID**: `258201882842`
 4. Under options, select the check box to **Require external ID** and enter the **External ID** from Postman. You can find the external ID under **Step 1: Create an IAM role**.
@@ -121,7 +121,7 @@ After connecting to Amazon API Gateway, you can view the export and deployment h
     * Select the arrow next to a stage to view more details, including the invoke URL and stage description (from AWS).
     * Select a stage name to view metrics on the [CloudWatch dashboard](#viewing-cloudwatch-metrics).
 * For each export from Postman, you can view the source of the export and the time when exported.
-* For each deployment you can view the ID, description, and creation date.
+* For each deployment you can view the deployment ID, description, and creation date.
 
 <img alt="Viewing API deployments" src="https://assets.postman.com/postman-docs/api-gateway-deployments-tab-v9-15.jpg"/>
 
