@@ -22,7 +22,7 @@ contextual_links:
 warning: false
 ---
 
-Postman provides JavaScript APIs that you can use in your request scripts. The `pm` object provides most of the functionality for testing your request and response data, with the `postman` object providing some additional workflow control.
+Postman provides JavaScript APIs that you can use in your request scripts. The `pm` object provides functionality for testing your request and response data, with the `postman` object providing additional workflow control.
 
 ## Contents
 
@@ -54,7 +54,7 @@ You can access and manipulate [variables](/docs/sending-requests/variables/) at 
 
 > You can use [dynamic variables](/docs/writing-scripts/script-references/variables-list/) to generate values when your requests run.
 
-Postman supports a variety of variable [scopes](/docs/sending-requests/variables/#variable-scopes). The `pm` object provides methods for accessing global, collection, and environment variables specifically, and `pm.variables` methods for accessing variables at different scopes as well as setting local variables.
+Postman supports a variety of variable [scopes](/docs/sending-requests/variables/#variable-scopes). The `pm` object provides methods for accessing global, collection, and environment variables specifically, and `pm.variables` methods for accessing variables at different scopes and setting local variables.
 
 * Check if there is a Postman variable in the current scope:
 
@@ -336,7 +336,7 @@ A variety of methods provide access to request and response data in Postman scri
 
 #### Scripting with request data
 
-The `pm.request` object provides access to the data for the request the script is running within. For a **Pre-request Script** this is the request that is about to run, and for a **Test** script this is the request that has already run.
+The `pm.request` object provides access to the data for the request the script is running within. For a **Pre-request Script** this is the request that's about to run, and for a **Test** script this is the request that has already run.
 
 You can use the `pm.request` object pre-request scripts to alter various parts of the request configuration before it runs.
 
@@ -360,7 +360,7 @@ pm.request.headers:HeaderList
 pm.request.method:String
 ```
 
-* The data in the [request body](https://www.postmanlabs.com/postman-collection/RequestBody.html). This object is immutable and cannot be modified from scripts:
+* The data in the [request body](https://www.postmanlabs.com/postman-collection/RequestBody.html). This object is immutable and can't be modified from scripts:
 
 ```js
 pm.request.body:RequestBody
@@ -387,7 +387,7 @@ pm.request.headers.add({
 pm.request.headers.remove(headerName:String):function
 ```
 
-* Insert the specified header name and value (if the header does not exist, otherwise the already existing header will update to the new value):
+* Insert the specified header name and value (if the header doesn't exist, otherwise the already existing header will update to the new value):
 
 ```js
 pm.request.headers.upsert({key: headerName:String, value: headerValue:String}):function)
@@ -447,7 +447,7 @@ pm.response.json():Function → Object
 
 #### Scripting with request info
 
-The `pm.info` object provides data related to the request and the script itself, including name, ID, and iteration count.
+The `pm.info` object provides data related to the request and the script itself, including name, request ID, and iteration count.
 
 The `pm.info` object provides the following properties and methods:
 
@@ -764,7 +764,7 @@ The `require` method allows you to use the sandbox built-in library modules. The
 * [uuid](https://www.npmjs.com/package/uuid)
 * [xml2js](https://www.npmjs.com/package/xml2js)
 
-A number of NodeJS modules are also available to use in the sandbox:
+The following NodeJS modules are also available to use in the sandbox:
 
 * [path](https://nodejs.org/api/path.html)
 * [assert](https://nodejs.org/api/assert.html)
@@ -778,7 +778,7 @@ A number of NodeJS modules are also available to use in the sandbox:
 * [timers](https://nodejs.org/api/timers.html)
 * [events](https://nodejs.org/api/events.html)
 
-In order to use a library, call the `require` method, pass the module name as a parameter, and assign the return object from the method to a variable.
+To use a library, call the `require` method, pass the module name as a parameter, and assign the return object from the method to a variable.
 
 ## Next steps
 

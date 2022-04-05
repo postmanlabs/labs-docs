@@ -21,7 +21,7 @@ contextual_links:
     name: "Intro to Postman | Chain Requests"
     url: "https://youtu.be/4fULCou_7Wc"
   - type: subtitle
-    name: "Related Blog Posts"
+    name: "Blog Posts"
   - type: link
     name: "How to Control Access to Variables, Workflows, and More"
     url:  "https://blog.postman.com/postman-environments-how-to-control-access-to-variables-workflows-and-more/"
@@ -99,7 +99,7 @@ Alternatively, open the environment quick look (the eye button at the top right)
 Enter a name for your variable, and specify its __Initial__ and __Current__ values. By default the current value will copy the initial value.
 
 * The __Initial Value__ is synced to your account via the Postman servers and shared with any collaborators who have access to the environment.
-* The __Current Value__ is local to your Postman app, and is never synced to your account or shared with your team _unless you choose to persist it_.
+* The __Current Value__ is used in your local instance of Postman, and is never synced to your account or shared with your team _unless you choose to persist it_.
 
 To update the synced variable with your local value, set the initial value to the current value by selecting <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> to the right of the variable row and choosing __Persist__. To reset your local (current) value with the synced value shared with your workspace / collaborators, select __Reset__. You can persist or reset all values in the environment using __Persist All__ and __Reset All__.
 
@@ -195,7 +195,7 @@ You can move environments to shared workspaces to collaborate with your team.
 
 > You must be an editor on an environment, or the workspace admin, to move an environment to another workspace.
 
-Navigate to the environment you'd like to share in the left sidebar, select it, then select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> > **Move**.
+In the sidebar, select the environment you want to share, then select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> > **Move**.
 
 Use the search bar to find the workspace you'd like to move the environment to, or filter by workspace visibility by selecting the icon to the right of the search bar.
 

@@ -17,26 +17,26 @@ contextual_links:
   - type: link
     name: "Integrate with Coralogix in Postman"
     url: "https://youtu.be/2cz02i0g6QU"
-    
+
 ---
 
 Coralogix is a machine learning powered log analytics platform which drastically improves the delivery and maintenance process for software providers. This integration allows you to configure your Postman Monitors to send metrics to Coralogix where you can visualize and compare metrics.
 
 Setting up a Coralogix integration requires you to get an API key from Coralogix and configure your Postman Monitors. After you set up the integration, you can view real-time alerts based on the results of your monitors.
 
-## Retrieving your Coralogix Private Key
+## Retrieving your Coralogix private key
 
-Log in to [Coralogix](https://dashboard.coralogix.com/#/login). The following screen appears:
+1. Sign in to [Coralogix](https://dashboard.coralogix.com/#/login). The following screen appears:
 
-[![coralogix settings](https://assets.postman.com/postman-docs/Coralogix_Settings.png)](https://assets.postman.com/postman-docs/Coralogix_Settings.png)
+    [![Coralogix settings](https://assets.postman.com/postman-docs/Coralogix_Settings.png)](https://assets.postman.com/postman-docs/Coralogix_Settings.png)
 
-Select "Settings" to go to the following screen:
+1. Select **Settings** to go to the following screen:
 
-[![coralogix settings](https://assets.postman.com/postman-docs/Coralogix_Pvtkey1.png)](https://assets.postman.com/postman-docs/Coralogix_Pvtkey1.png)
+    [![Coralogix settings](https://assets.postman.com/postman-docs/Coralogix_Pvtkey1.png)](https://assets.postman.com/postman-docs/Coralogix_Pvtkey1.png)
 
-Navigate to "Send your logs" tab and copy the private key for later use, as illustrated in the above screen (highlighted in red circle).
+1. Select the **Send your logs** tab and copy the private key for later use, as illustrated in the above screen (highlighted in the red circle).
 
-## Configuring Coralogix Integration
+## Configuring Coralogix integration
 
 1. From the **[Home](https://go.postman.co/home)** page select **[Integrations](https://go.postman.co/integrations)**.
 

@@ -15,7 +15,7 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
-    name: "Related Blog Posts"
+    name: "Blog Posts"
   - type: link
     name: "Continuous Testing of APIs"
     url: "https://medium.com/better-practices/continuous-testing-of-apis-5294552d65ce"
@@ -47,7 +47,7 @@ Before you get started:
 
 You may skip this step if your CI already has Node installed.
 
-Follow the [steps to download Node](https://nodejs.org/en/download/package-manager/) which is specific to your CI's platform. Otherwise, some CI has configuration which simply pre-installs Node. Ensure you are using NodeJS v4 or above.
+Follow the [steps to download Node](https://nodejs.org/en/download/package-manager/) which is specific to your CI's platform. Otherwise, some CI has configuration that pre-installs Node. Ensure you are using Node.js v4 or above.
 
 ## Step 2: Install Newman
 

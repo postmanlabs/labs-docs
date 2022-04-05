@@ -12,7 +12,7 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
-    name: "Related Blog Posts"
+    name: "Blog Posts"
   - type: link
     name: "Backup and Sync your Postman Collections on GitHub"
     url: "https://blog.postman.com/backup-and-sync-your-postman-collections-on-github/"
@@ -40,7 +40,7 @@ Postman indicates the sync state of your workspace with the cloud icon. Possible
 
 * **Offline** <img alt="Sync offline icon" src="https://assets.postman.com/postman-docs/icon-sync-offline.jpg#icon" width="16px"> means that you aren't connected to the Postman servers. This means that either your computer isn't connected to the internet or you aren't signed in to Postman.
 
-    > If you are offline, you will be in the _Scratch Pad_, which is a space where you can work locally without a connection or login to Postman. The work that you do in the Scratch Pad won't be synced to Postman, but you can export it and import it into a workspace later. For more information, see [Using the Scratch Pad](/docs/getting-started/using-scratch-pad/).
+    > If you are offline, you will be in the _Scratch Pad_, a space where you can work locally without an internet connection or signing in to Postman. The work that you do in the Scratch Pad won't be synced to Postman, but you can export it and import it into a workspace later. For more information, see [Using the Scratch Pad](/docs/getting-started/using-scratch-pad/).
     >
     > <img alt="Offline state" src="https://assets.postman.com/postman-docs/scratch-pad-logged-out-v9.12.jpg" width="250px" />
 

@@ -18,7 +18,7 @@ Setting up a Keen integration requires you to get a project ID and API key befor
 
 ## Retrieving your Keen IO project ID and API Key
 
-1. Log in to [Keen IO](https://keen.io/users/login/).
+1. Sign in to [Keen IO](https://keen.io/users/login/).
 1. Select **Projects**.
 
     ![keen dashboard](https://assets.postman.com/postman-docs/keen-projects.jpg)

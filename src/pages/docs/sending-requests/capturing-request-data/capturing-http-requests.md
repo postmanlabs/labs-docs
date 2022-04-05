@@ -17,7 +17,7 @@ contextual_links:
     name: "Capture API Calls With a Proxy"
     url: "https://youtu.be/bjrCHUITZ3k"
   - type: subtitle
-    name: "Related Blog Posts"
+    name: "Blog Posts"
   - type: link
     name: "Reverse engineering an API"
     url: "https://medium.com/better-practices/reverse-engineering-an-api-403fae885303"
@@ -32,7 +32,7 @@ warning: false
 
 ---
 
-If you are using APIs to build client-side applications like mobile apps, websites, or desktop applications, you may want to see the actual HTTP and HTTPS request traffic that's being sent and received in the application. Sometimes you might discover APIs that aren't even documented. You can capture network traffic, including requests, responses, and cookies, using the proxy that's built into the Postman app.
+If you are using APIs to build client-side applications like mobile apps, websites, or desktop applications, you may want to see the actual HTTP and HTTPS request traffic that's being sent and received in the application. Sometimes you might discover APIs that aren't even documented. You can capture network traffic, including requests, responses, and cookies, using the proxy that's built into Postman.
 
 > You can also use the Postman proxy to automatically sync cookies from a Chrome browser to the Postman cookie jar. Learn more about [syncing cookies](/docs/sending-requests/capturing-request-data/syncing-cookies/).
 
@@ -64,7 +64,7 @@ After you start the Postman proxy, you can start a proxy debug session, which is
 
 ## Using the Postman proxy
 
-In the steps below, you will use the Postman app's proxy feature to inspect HTTP communication going to and from a phone. To get started, make sure your computer and phone are connected to the same local wireless network.
+In the steps below, you will use the Postman app's proxy to inspect HTTP communication going to and from a phone. To get started, make sure your computer and phone are connected to the same local wireless network.
 
 ### Step 1: Enable the proxy
 
@@ -129,7 +129,7 @@ The proxy debug session is now started, but it won't capture anything until a de
     1. Set **Server** and **Port** to the local IP address and proxy port.
     1. Select **Save**.
 
-1. Go to the Postman app, and open the **Proxy debug session** window. Open the device's web browser or application and you will start seeing HTTP traffic passing through the app or the browser.
+1. In the Postman app, open the **Proxy debug session** window. Open the device's web browser or application and you will start seeing HTTP traffic passing through the app or the browser.
 
 #### Configuring a proxy on other devices
 
@@ -181,7 +181,7 @@ When you open a saved debug session, the top header displays the session start t
 
 The **Overview** displays summary graphs of the traffic captured in the session. You can select graphs summarizing traffic by method, domain, data mode, or return status code.
 
-The **Requests** and **Cookies** tabs display requests, responses, and cookies, similar to the same tabs available during a capture session. The same options for searching, expanding, saving, and deleting items described in Step 4 are available. You can also add selected requests to a collection. Use the controls at the bottom of the table to limit the number of items per page and navigate through the pages of results.
+The **Requests** and **Cookies** tabs display requests, responses, and cookies, similar to the same tabs available during a capture session. The same options for searching, expanding, saving, and deleting items described in Step 4 are available. You can also add selected requests to a collection. Use the controls at the bottom of the table to limit the number of items per page and view the pages of results.
 
 You can rename a proxy debug session by selecting the name at the top of the window and entering a new name. Select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> next to the debug session name to rename or delete the session.
 

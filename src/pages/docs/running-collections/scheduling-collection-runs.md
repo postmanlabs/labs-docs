@@ -17,7 +17,7 @@ contextual_links:
     name: "API Monitoring | The Exploratory"
     url: "https://youtu.be/tDQzY1Hn2LY"
   - type: dynamic_blog
-    name: "Related Blog Posts"
+    name: "Blog Posts"
     blog_tag: "monitors"
 
 warning: false

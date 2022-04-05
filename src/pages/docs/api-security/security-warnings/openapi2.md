@@ -13,7 +13,7 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
-    name: "Related Blog Posts"
+    name: "Blog Posts"
   - type: link
     name: "Introducing Security Warnings During API Validation"
     url: "https://blog.postman.com/security-warnings-during-api-validation/"
@@ -25,7 +25,7 @@ contextual_links:
 search_keyword: "api security, api schema, security warnings, schema validation, security validation, api security audit, api security scan, api schema vulnerabilities, security audit, openapi 2.0"
 ---
 
-You can use Postman to identify any potential security misses when your API is defined.
+You can use Postman to identify any potential security misses when defining your API.
 
 <img alt="Security warnings for OpenAPI 2.0" src="https://assets.postman.com/postman-docs/security-warnings-openapi-2-v9.jpg"/>
 
@@ -139,7 +139,7 @@ securityDefinitions:
 
 | Severity | Issue description | Possible fix |
 | -------- | ----------------- | ------------ |
-| High | If the global security field is not defined, the API does not require any authentication by default. Anyone can access the API operations that do not have a security field defined. | The security field should be defined in the schema. |
+| High | If the global security field isn't defined, the API doesn't require any authentication by default. Anyone can access the API operations that do not have a security field defined. | The security field should be defined in the schema. |
 
 **Resolution:**
 
@@ -199,7 +199,7 @@ security:
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| High | The components object of the API does not declare any security definitions which can be used in the security field of the API or individual operations. | Security definitions should be defined in the schema of the component. |
+| High | The components object of the API doesn't declare any security definitions which can be used in the security field of the API or individual operations. | Security definitions should be defined in the schema of the component. |
 
 **Resolution:**
 
@@ -235,7 +235,7 @@ securityDefinitions:
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| Medium | The authentication scheme used in global or operation security field is not defined in the security definition object. | Scheme used in the security field should be defined in the security definition object. |
+| Medium | The authentication scheme used in global or operation security field isn't defined in the security definition object. | Scheme used in the security field should be defined in the security definition object. |
 
 **Resolution:**
 
@@ -305,7 +305,7 @@ securityDefinitions:
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| Medium |  If both the global security field and operation’s security field are not defined, anyone can access the API without any authentication. | Define a security field in the operation. |
+| Medium |  If both the global security field and operation’s security field aren't defined, anyone can access the API without any authentication. | Define a security field in the operation. |
 
 **Resolution:**
 
@@ -332,7 +332,7 @@ securityDefinitions:
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| High | The access tokens are sent as plain text over an unencrypted network. Attackers can intercept the access tokens simply by listening to the network traffic in a public Wi-Fi network. | Make sure that the scheme used in the schemes array is HTTPS. |
+| High | The access tokens are sent as plain text over an unencrypted network. Attackers can intercept the access tokens by listening to the network traffic in a public Wi-Fi network. | Make sure that the scheme used in the schemes array is HTTPS. |
 
 **Resolution:**
 
@@ -358,7 +358,7 @@ security:
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| High | API keys are sent as plain text over an unencrypted channel. Attackers can easily intercept API key by listening to the network traffic in a public Wi-Fi network. | Make sure that the scheme used in the scheme array is HTTPS. |
+| High | API keys are sent as plain text over an unencrypted channel. Attackers can intercept API key by listening to the network traffic in a public Wi-Fi network. | Make sure that the scheme used in the scheme array is HTTPS. |
 
 **Resolution**:
 
@@ -383,7 +383,7 @@ security:
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| High | The credentials are sent as plain text over an unencrypted network. Attackers can intercept the credentials simply by listening to the network traffic in a public Wi-Fi network. | Make sure that the scheme used in the scheme array is HTTPS. |
+| High | The credentials are sent as plain text over an unencrypted network. Attackers can intercept the credentials by listening to the network traffic in a public Wi-Fi network. | Make sure that the scheme used in the scheme array is HTTPS. |
 
 **Resolution:**
 
@@ -425,7 +425,7 @@ schemes:
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| Medium | The API operation accepts the access tokens from a flow that are transported in plain text over an unencrypted channel. Attackers can easily intercept API calls and retrieve the unencrypted tokens. They can then use the tokens to make other API calls. | Make sure that the scheme used in the scheme array of the operation is HTTPS.|
+| Medium | The API operation accepts the access tokens from a flow that are transported in plain text over an unencrypted channel. Attackers can intercept API calls and retrieve the unencrypted tokens. They can then use the tokens to make other API calls. | Make sure that the scheme used in the scheme array of the operation is HTTPS.|
 
 **Resolution:**
 
@@ -456,7 +456,7 @@ securityDefinitions:
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| High | The API operation accepts API keys that are transported in plain text over an unencrypted channel. Attackers can easily intercept API calls and retrieve the API key to make other API calls. | Make sure that the scheme used in the scheme array of the operation is HTTPS. |
+| High | The API operation accepts API keys that are transported in plain text over an unencrypted channel. Attackers can intercept API calls and retrieve the API key to make other API calls. | Make sure that the scheme used in the scheme array of the operation is HTTPS. |
 
 **Resolution**:
 
@@ -486,7 +486,7 @@ securityDefinitions:
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| Medium | The API operation accepts the credentials that are transported in plain text over an unencrypted channel. Attackers can easily intercept API calls and retrieve the unencrypted tokens. They can then use the tokens to make other API calls. | Make sure that the scheme used in the scheme array of the operation is HTTPS. |
+| Medium | The API operation accepts the credentials that are transported in plain text over an unencrypted channel. Attackers can intercept API calls and retrieve the unencrypted tokens. They can then use the tokens to make other API calls. | Make sure that the scheme used in the scheme array of the operation is HTTPS. |
 
 **Resolution:**
 
@@ -579,7 +579,7 @@ securityDefinitions:
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| High | If the global `produces` field is not defined, the API could potentially return any form of data.  | The `produces` field should be defined in the schema.|
+| High | If the global `produces` field isn't defined, the API could potentially return any form of data.  | The `produces` field should be defined in the schema.|
 
 **Resolution:**
 
@@ -635,7 +635,7 @@ paths:
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| Medium | If both the global `produces` field and operation’s `produces` field for any operation are not defined, anyone can exploit your API. | Define a `produces` field in the operation if not defined at the global level.|
+| Medium | If both the global `produces` field and operation’s `produces` field for any operation aren't defined, anyone can exploit your API. | Define a `produces` field in the operation if not defined at the global level.|
 
 **Resolution:**
 
@@ -658,7 +658,7 @@ paths:
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| High | If the global `consumes` field is not defined, the API could potentially accept any form of data as input. This could open your API to any number of potential attacks, like buffer overflow, decoding errors, or SQL injection attacks. | The `consumes` field should be defined in the schema. |
+| High | If the global `consumes` field isn't defined, the API could potentially accept any form of data as input. This could open your API to any number of potential attacks, like buffer overflow, decoding errors, or SQL injection attacks. | The `consumes` field should be defined in the schema. |
 
 **Resolution:**
 
@@ -712,7 +712,7 @@ paths:
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| Medium | If both the global `consumes` field and operation’s `consumes` field (for `PUT`/`PATCH`/`POST`) are not defined, anyone can exploit your API. | Define a `consumes` field in the operation if not defined at the global level. |
+| Medium | If both the global `consumes` field and operation’s `consumes` field (for `PUT`/`PATCH`/`POST`) aren't defined, anyone can exploit your API. | Define a `consumes` field in the operation if not defined at the global level. |
 
 **Resolution:**
 
@@ -735,7 +735,7 @@ paths:
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| Medium | In OAuth implicit flow, authorization server issues access tokens in the authorization request’s response. Attackers can easily intercept API calls and retrieve the access tokens to make other API calls. | It's recommended to use accessCode flow. Make sure that the OAuth authentication scheme is not using the implicit flow. |
+| Medium | In OAuth implicit flow, authorization server issues access tokens in the authorization request’s response. Attackers can intercept API calls and retrieve the access tokens to make other API calls. | It's recommended to use accessCode flow. Make sure that the OAuth authentication scheme isn't using the implicit flow. |
 
 **Resolution:**
 
@@ -759,7 +759,7 @@ securityDefinitions:
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| Medium | Oauth password grant flow uses the user’s credentials to retrieve the access token. Attackers can easily intercept API calls and retrieve the access tokens to make other API calls. | It's recommended to use accessCode flow. Make sure that the OAuth authentication scheme is not using the password flow. |
+| Medium | Oauth password grant flow uses the user’s credentials to retrieve the access token. Attackers can intercept API calls and retrieve the access tokens to make other API calls. | It's recommended to use accessCode flow. Make sure that the OAuth authentication scheme isn't using the password flow. |
 
 **Resolution:**
 

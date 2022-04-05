@@ -13,7 +13,7 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
-    name: "Related Blog Posts"
+    name: "Blog Posts"
   - type: link
     name: "Create APIs directly within the Postman app"
     url: "https://blog.postman.com/postman-7-1-create-apis-directly-within-the-postman-app/"
@@ -49,7 +49,7 @@ You can move APIs to shared workspaces to collaborate with your team.
 
 > You must be an editor on an API or the workspace admin to move the API to another workspace.
 
-Navigate to the API you'd like to share in the left sidebar, select it, then select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> > **Move**.
+In the sidebar, select the API you want to share, then select the more actions icon <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> > **Move**.
 
 Use the search bar to find the workspace you'd like to move the API to, or filter by workspace visibility by selecting the icon to the right of the search bar.
 
@@ -103,7 +103,7 @@ If you want to call the attention of a collaborator in comment, you can tag them
 
 ### Editing, deleting, or linking to a comment
 
-To edit, delete, or link to one of your comments, navigate to the comment section and hover over the comment you wish to manage. Select the pen icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px"> to edit the comment, the trash icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> to delete, or the anchor icon <img alt="Link icon" src="https://assets.postman.com/postman-docs/icon-workspace-link-v9.jpg#icon" width="18px"> to get a direct link to the comment.
+To edit, delete, or link to one of your comments, go to the comment section and hover over the comment you wish to manage. Select the pen icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px"> to edit the comment, the trash icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> to delete, or the anchor icon <img alt="Link icon" src="https://assets.postman.com/postman-docs/icon-workspace-link-v9.jpg#icon" width="18px"> to get a direct link to the comment.
 
 [![API comment manage](https://assets.postman.com/postman-docs/v8-managing-comment-actions2.jpg)](https://assets.postman.com/postman-docs/v8-managing-comment-actions2.jpg)
 

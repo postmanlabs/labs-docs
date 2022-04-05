@@ -23,14 +23,15 @@ contextual_links:
   - type: link
     name: "How to Set Up Your First Public Workspace in 5 Easy Steps"
     url: "https://blog.postman.com/how-to-set-up-public-workspaces/"
-  - type: link
-    name: "LGBTQ+ Pride Public Workspace: An Invitation for the API Community to Celebrate Pride"
-    url: "https://blog.postman.com/lgbtq-pride-public-workspace-api-community/"
   - type: subtitle
     name: "Videos"
   - type: link
     name: "Public Workspaces | The Exploratory"
     url: "https://youtu.be/DjGbMdqnY64"
+  - type: link
+    name: "Workspace Linter Using a Style Guide | Postman Level Up"
+    url: "https://youtu.be/6MSS8YgvFVA"
+
 ---
 
 Anyone in the Postman community can access a _public workspace_. A public workspace can enhance a new user's onboarding experience with your API, inspire your existing users with new use cases and resources, increase your API's discovery in Postman search results, and enable you to work publicly with partners.
@@ -98,7 +99,7 @@ To convert an existing workspace to a public workspace:
 
 Once you make a workspace public, all entities within that workspace become publicly accessible through the workspace.
 
-When you make a workspace public, Postman sends in-app and email notifications to all workspace members. To view your in-app notifications, select the notification icon <img alt="Changelog icon" src="https://assets.postman.com/postman-docs/icon-notification-bell-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> in the top right corner of Postman.
+When you make a workspace public, Postman sends in-app and email notifications to all workspace members. To view your in-app notifications, select the notification icon <img alt="Changelog icon" src="https://assets.postman.com/postman-docs/icon-notification-bell-v9.jpg#icon" width="18px"> in the top right corner of Postman.
 
 ## Inviting collaboration on a public workspace
 
@@ -122,8 +123,8 @@ You can share a public workspace by giving collaborators its **workspace URL** d
 
 To access a workspace's URL:
 
-1. Navigate to the workspace **Overview** page.
-1. Hover over the workspace name to reveal the link icon <img alt="Link icon" src="https://assets.postman.com/postman-docs/icon-workspace-link-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px">.
+1. Go to the workspace **Overview** page.
+1. Hover over the workspace name to reveal the link icon <img alt="Link icon" src="https://assets.postman.com/postman-docs/icon-workspace-link-v9.jpg#icon" width="18px">.
 1. Select the link icon to copy the workspace's URL to your clipboard.
 
 You can share this workspace URL with other users.
@@ -148,7 +149,7 @@ You can move Postman elements from your personal, private, or team workspace int
 
 To move an existing element to a public workspace:
 
-1. Select the three dots icon <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to the collection or environment name, then select **Move**.
+1. Select the three dots icon <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> next to the collection or environment name, then select **Move**.
 1. Select the public workspace to which you want to move the collection or environment, then select **Move Collection** or **Move Environment**.
 
 The Postman element that you move to the public workspace will no longer exist in the original workspace.
@@ -159,10 +160,10 @@ The Postman element that you move to the public workspace will no longer exist i
 
 You can delete Postman elements from a public workspace for which you have an [Admin or Editor role](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles):
 
-1. Select the three dots icon <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg" width="18px" style="vertical-align:middle;margin-bottom:5px"> next to the element's name, then select **Delete**.
+1. Select the three dots icon <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> next to the element's name, then select **Delete**.
 1. Select **Delete** to confirm your choice.
 
-You can retrieve the deleted element by selecting <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg" width="12px" style="vertical-align:middle;margin-bottom:5px"> **Trash** from the status bar.
+You can retrieve the deleted element by selecting <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> **Trash** from the status bar.
 
 ### Deleting a public workspace
 
@@ -190,11 +191,15 @@ To collaborate with someone else in their public workspace, open the **Workspace
 
 For **collections** and **environments**, [create a fork](/docs/collaborating-in-postman/version-control-for-collections/#forking-a-collection) and request to merge changes using a [pull request](/docs/collaborating-in-postman/version-control-for-collections/#creating-pull-requests).
 
-For **APIs**, navigate to the API and version. Select the **Definition** tab and then select **Request Access** to request an editor role.
+For **APIs**, select the API and version. Select the **Definition** tab and then select **Request Access** to request an editor role.
 
 You can access public workspaces using the Postman Explore page's [**Workspaces** category](https://www.postman.com/explore/workspaces). You can also access the public workspaces that you own or are a member of using the **Workspaces** selector at the top of Postman.
 
 ![Access public workspaces](https://assets.postman.com/postman-docs/accessing-public-workspaces.jpg)
+
+You can view who's active in a public workspace via the list of avatars in the top right corner of Postman. This list will include all active users with [public profiles](/docs/getting-started/postman-account/#making-your-profile-public) as well as users who've chosen to remain anonymous by not enabling their public profile.
+
+<img alt="Active users in public workspace" src="https://assets.postman.com/postman-docs/presence-public-workspace-v9.15.jpg" width="250px"/>
 
 ## Next steps
 

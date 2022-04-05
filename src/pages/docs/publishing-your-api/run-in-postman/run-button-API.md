@@ -18,7 +18,7 @@ contextual_links:
     name: "Dynamically create custom environments with code"
     url: "https://youtu.be/6h2JiMfNU0A"
   - type: subtitle
-    name: "Related Blog Posts"
+    name: "Blog Posts"
   - type: link
     name: "How to Dynamically Create Custom Environments with Code"
     url: "https://blog.postman.com/how-to-dynamically-create-custom-environments-with-code/"
@@ -84,7 +84,7 @@ function () {
 }
 ```
 
-The `env.create` action will return `true` on success, `false` on failure.
+The `env.create` action will return the total number of environments associated with Run in Postman buttons on the page on success and `false` on failure.
 
 ## Editing an existing environment
 

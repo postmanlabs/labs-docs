@@ -4,16 +4,12 @@ import React from 'react';
 import './Footer.scss';
 import { v4 as uuidv4 } from 'uuid';
 
-import blau from '../../assets/postman-footer-v6-2.svg';
-
-
 const triggerGA = (category, label) => (
   category
   && label
   && window.pm
   && window.pm.ga('send', 'event', category, 'Click', label)
 );
-
 
 // Helper function for rel attribute in link or button
 function relStringGenerator(target) {
@@ -35,7 +31,6 @@ function targetStringGenerator(target) {
   }
   return null;
 }
-
 
 class FooterComponent extends React.Component {
   constructor(props) {
@@ -65,7 +60,7 @@ class FooterComponent extends React.Component {
                       src={data.src}
                       alt={data.alt}
                     /> */}
-                    <img className="footer-img" src={blau} alt="footer" />
+                    <img className="footer-img" src='https://voyager.postman.com/illustration/postman-footer-rocket-launch.svg' alt="Postman" />
                     <span className="col-12 d-none d-md-block copyright">
                       {data.copyright}
                     </span>

@@ -3,7 +3,7 @@
 .navbar-v6 {
   background-color: rgba(255, 255, 255, 0.32) !important;
   margin: 0;
-  font-family: $inter;
+  font-family: $Inter400;
 
   &.nav-primary {
     background-color: #ffffff !important;
@@ -53,7 +53,7 @@
 
   .navbar-nav .nav-link,
   a {
-    font-family: $inter;
+    font-family: $Inter600;
   }
 
   /* Ul */
@@ -84,7 +84,7 @@
   /* Second Nav - Learning Center Link */
   & #learning-center-home-link {
     color: $grey_90 !important;
-    font-family: $inter;
+    font-family: $Inter600;
     font-size: 16px;
     letter-spacing: -0.25px;
     line-height: 1.4;
@@ -101,6 +101,7 @@
     letter-spacing: normal;
     color: #6b6b6b !important;
     font-size: 14px;
+    font-family: $Inter600;
     font-weight: 600;
     transition: color 0.2s ease-in-out;
     -webkit-transition: color 0.2s ease-in-out;
@@ -118,6 +119,7 @@
 
     &:link,
     &:active {
+      font-family: $Inter600;
       font-weight: 600;
       padding: 6px 6px 6px 16px;
       /* Learning Center Nav Positioning */
@@ -276,6 +278,8 @@
   /* Individual Dropdown Item */
   & .dropdown-item {
     padding: 8px 16px;
+    font-family: $Inter400;
+    font-weight: 400;
 
     &:focus,
     &:active {
@@ -286,6 +290,7 @@
     /* Get Started for Free link */
     &.app-cta {
       color: $blue_60;
+      font-family: $Inter600;
       font-weight: 600;
     }
   }
@@ -293,6 +298,7 @@
   & .property-context-menu {
     & .nav-link:link,
     .nav-link:active {
+      font-family: $Inter400;
       font-weight: 400 !important;
     }
   }
@@ -383,7 +389,7 @@
   & .dropdown-header {
     color: #5b5b5b !important;
     font-size: 16px;
-    font-family: $inter;
+    font-family: $Inter600;
     letter-spacing: -0.24px;
     line-height: 1.4;
     font-weight: 600;
@@ -462,6 +468,7 @@ a.button__sign-up {
   cursor: pointer;
   display: inline-flex;
   font-size: 14px;
+  font-family: $Inter600;
   font-weight: 600;
   line-height: 1.75;
   padding: 4px 12px !important;
@@ -502,6 +509,7 @@ a.button__sign-in {
   cursor: pointer;
   display: inline-flex;
   font-size: 14px !important;
+  font-family: $Inter600;
   font-weight: 600;
   line-height: 1.75;
   padding: 4px 12px !important;

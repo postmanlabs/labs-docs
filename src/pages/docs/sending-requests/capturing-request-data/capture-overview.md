@@ -16,7 +16,7 @@ contextual_links:
     name: "Capture API Calls With a Proxy"
     url: "https://youtu.be/bjrCHUITZ3k"
   - type: subtitle
-    name: "Related Blog Posts"
+    name: "Blog Posts"
   - type: link
     name: "Enhanced HTTP Traffic Capture and Analysis in Postman"
     url: "https://blog.postman.com/http-traffic-capture-and-analysis-in-postman/"

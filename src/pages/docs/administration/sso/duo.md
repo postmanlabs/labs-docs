@@ -12,7 +12,7 @@ contextual_links:
     url: "/docs/administration/sso/intro-sso/"
 ---
 
-*Note: only an admin of your Duo organization can create the application.*
+*Note: An admin of your Duo organization must create the SAML application.*
 
 ## Setting up a custom SAML application in Duo
 

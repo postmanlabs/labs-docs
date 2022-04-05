@@ -13,7 +13,7 @@ contextual_links:
     name: "Postman Pricing"
     url: "https://www.postman.com/pricing/"
   - type: subtitle
-    name: "Related Blog Posts"
+    name: "Blog Posts"
   - type: link
     name: "Announcing updated Postman plans and pricing"
     url: "https://blog.postman.com/announcing-updated-postman-plans-and-pricing/"
@@ -22,7 +22,7 @@ contextual_links:
 
 Postman provides a self-serve billing process. Refer to the following sections for guidance on managing your account, plan, and payment.
 
-Contact Postman's support team for help with any account or billing issues. Navigate to Postman's [Support Center](https://www.postman.com/support/) and select **Submit a Request**.
+For help with any account or billing issues, go to Postman's [Support Center](https://www.postman.com/support/) and select **Submit a Request**.
 
 > Check out [Postman's Help Center](https://support.postman.com/hc/en-us) for [Postman billing and payment FAQs](https://support.postman.com/hc/en-us/categories/115000609205-Billing-and-Payment).
 
@@ -158,7 +158,7 @@ You can change your team's plan and billing cycle in your [billing dashboard](ht
 
 ### Changing your plan
 
-To change your plan right away, navigate to your [billing dashboard](https://go.postman.co/billing/overview) and select **Edit Plan** on the right.
+To change your plan right away, open your [billing dashboard](https://go.postman.co/billing/overview) and select **Edit Plan** on the right.
 
 <img alt="Edit plan page" src="https://assets.postman.com/postman-docs/billing-edit-plan-v9.1.jpg"/>
 

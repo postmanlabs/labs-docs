@@ -13,7 +13,7 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
-    name: "Related Blog Posts"
+    name: "Blog Posts"
   - type: link
     name: "Introducing User Management in Postman with SCIM"
     url: "https://blog.postman.com/introducing-user-management-in-postman-with-scim/"
@@ -39,7 +39,7 @@ To set up provisioning with the Postman OneLogin app:
 
 1. [Enable SCIM in Postman](/docs/administration/scim-provisioning/scim-provisioning-overview/#enabling-scim-in-postman) and [generate a SCIM API key](/docs/administration/scim-provisioning/scim-provisioning-overview/#generating-scim-api-key).
 
-2. In OneLogin, navigate to the Postman app and select **Configuration**. Paste the generated SCIM API key under **API Connection** and select **Enable**.
+2. In OneLogin, go to the Postman app and select **Configuration**. Paste the generated SCIM API key under **API Connection** and select **Enable**.
 
     <img alt="OneLogin configuration API connection" src="https://assets.postman.com/postman-docs/onelogin-api-connection.jpg" width="275px"/>
 
@@ -49,12 +49,12 @@ To set up provisioning with the Postman OneLogin app:
 
 Postman supports the provisioning features detailed in the [SCIM provisioning overview](/docs/administration/scim-provisioning/scim-provisioning-overview/#scim-features).
 
-To configure provisioning, navigate to the Postman app in OneLogin and select **Provisioning** on the left, then **Enable provisioning**.
+To configure provisioning, go to the Postman app in OneLogin and select **Provisioning** on the left, then **Enable provisioning**.
 
 <img alt="OneLogin provisioning workflow" src="https://assets.postman.com/postman-docs/onelogin-provisioning-workflow.jpg" width="400px"/>
 
 Select features to enable them, or de-select to turn them off.
 
-You can also define what happens when users are deleted in OneLogin, their Postman app access is removed, or their accounts are suspended. You can choose to **Suspend** these users' Postman accounts or **Do Nothing**. If you choose to **Suspend**, the affected accounts will no longer appear in your [Postman team dashboard](https://go.postman.co/settings/team/members). Regardless of your choice, users who are deleted, suspended, or have their app access removed will no longer be able to log in to their Postman account.
+You can also define what happens when users are deleted in OneLogin, their Postman app access is removed, or their accounts are suspended. You can choose to **Suspend** these users' Postman accounts or **Do Nothing**. If you choose to **Suspend**, the affected accounts will no longer appear in your [Postman team dashboard](https://go.postman.co/settings/team/members). Regardless of your choice, users who are deleted, suspended, or have their app access removed will no longer be able to sign in to their Postman account.
 
 Select **Save** to save your changes.

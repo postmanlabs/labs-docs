@@ -16,7 +16,7 @@ contextual_links:
     name: "Postman Space Camp | Working with Your Team in Postman"
     url: "https://youtu.be/OifhKJCd_-M"
   - type: subtitle
-    name: "Related Blog Posts"
+    name: "Blog Posts"
   - type: link
     name: "Get More Out of Postman by Collaborating with Your Team"
     url: "https://blog.postman.com/get-more-out-of-postman-by-collaborating-with-your-team/"
@@ -80,7 +80,7 @@ You can invite team members to join a [new](/docs/collaborating-in-postman/using
 
 ### Finding teams within your organization
 
-When you log in to the Postman web dashboard using a verified email address for your company or organization, you can see available teams to join by selecting your avatar > **Your Team**. You will also be prompted with available teams when you first sign into your Postman account with a verified address.
+When you sign in to the Postman web dashboard using a verified email address for your company or organization, you can see available teams to join by selecting your avatar > **Your Team**. You will also be prompted with available teams when you first sign into your Postman account with a verified address.
 
 [![Choose Team](https://assets.postman.com/postman-docs/join-team-from-list.jpg)](https://assets.postman.com/postman-docs/join-team-from-list.jpg)
 
