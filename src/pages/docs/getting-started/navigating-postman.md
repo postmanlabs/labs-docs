@@ -79,7 +79,7 @@ The header enables you to create workspaces, access reports, explore the public 
 
 ### Search Postman
 
-To search in Postman, select __Search Postman__ in the header then enter your search terms. You can also use the keyboard shortcut `Command + K`. To change the scope of your search to your personal or team space or the Public API Network, select **All of Postman** and choose the desired scope. You can also change the scope of your search to **Workspaces**, **Collections**, **APIs**, or **Teams**.
+To search in Postman, select __Search Postman__ in the header then enter your search terms. You can also use the keyboard shortcut **⌘+K** or **Ctrl+K**. To change the scope of your search to your personal or team space or the Public API Network, select **All of Postman** and choose the desired scope. You can also change the scope of your search to **Workspaces**, **Collections**, **APIs**, or **Teams**.
 
 > For signed-out users, search results only include public resources.
 
