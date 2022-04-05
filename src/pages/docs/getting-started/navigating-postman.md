@@ -183,16 +183,7 @@ To manage your open tabs or to access recently closed tabs, select the more acti
 
 <img alt="Manage tabs using the actions menu" src="https://assets.postman.com/postman-docs/manage-tabs.jpg" width="300px"/>
 
-You can also manage your open tabs or open a new tab by right-clicking on an existing tab:
-
-* **New Request**: _(Postman for Web only.)_ Opens a new tab.
-* **Duplicate Tab**: _(Desktop app only.)_ Duplicates the current tab. This doesn't create a copy of the request, so when you duplicate a tab any edits you make are reflected in the original request.
-* **Close Tab**: Closes the current tab. If the tab has unsaved changes, Postman will ask if you want to save before closing.
-* **Force Close Tab**: Closes the current tab without saving any changes.
-* **Close All Tabs**: Closes all tabs. If any tabs contain unsaved changes, Postman will ask if you want to save before closing.
-* **Force Close All Tabs**: Closes all tabs without saving any changes.
-
-<img alt="Manage tabs" src="https://assets.postman.com/postman-docs/right-click-manage-tab.jpg" width="300px"/>
+You can also manage your open tabs or open a new tab by right-clicking on an existing tab.
 
 > **Closing unsaved tabs**: You can set whether Postman asks whether you want to save when you close a tab that has changes. Select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-gear-outline-v9.jpg#icon" width="18px"> to open **Settings**. Under **Requests**, use the toggle next to **Always ask when closing unsaved tabs** to turn this option on or off.
 
