@@ -217,7 +217,7 @@ If you're tagged as a reviewer on a pull request, you can view the changes, comm
 
 To see the list of pull requests:
 
-1. Navigate to the entity and select the **Pull Requests** icon <img alt="Pull request icon" src="https://assets.postman.com/postman-docs/icon-pull-request.jpg#icon" width="16px"> in the context bar.
+1. Go to the entity and select the **Pull Requests** icon <img alt="Pull request icon" src="https://assets.postman.com/postman-docs/icon-pull-request.jpg#icon" width="16px"> in the context bar.
 
 <img src="https://assets.postman.com/postman-docs/open-pull-request-list-v9.12.jpg" alt="Pull request list" width="350px"/>
 
@@ -233,7 +233,7 @@ To view the diff:
 
 <img alt="View diff when reviewing pull request" src="https://assets.postman.com/postman-docs/pull-request-review-view-diff-v9.12.jpg" width="450px"/>
 
-The diff will tell you whether a change is an addition, a deletion, or a modification. You can use the **Jump to** pane on the right side of the pull request to navigate the folders and API requests included in the pull request.
+The diff will tell you whether a change is an addition, a deletion, or a modification. You can use the **Jump to** pane on the right side of the pull request to open the folders and API requests included in the pull request.
 
 ### Adding comments
 

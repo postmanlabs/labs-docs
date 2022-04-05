@@ -49,13 +49,13 @@ The Postman to Slack integration enables you to send Postman notifications to a 
 
         ![select Slack integration](https://assets.postman.com/postman-docs/slack-select-integration.jpg)
 
-1. After you select the integration type, a browser window asking you to log in to Slack opens. If you aren't signed in to a Slack workplace, enter your workspace URL and sign in with your email and password or SSO.
+1. After you select the integration type, a browser window asking you to sign in to Slack opens. If you aren't signed in to a Slack workplace, enter your workspace URL and sign in with your email and password or SSO.
     > This window may be blocked by your pop-up blocker.
 
 1. On the **Permission request** page:
 
     * Postman will request permission from Slack to view content and information about you. Select the level of security from the list.
-    * The **Receive Postman Notification** integration will configure a Slack bot. Verify that the actions it asks permission for are acceptable in your Slack workplace.
+    * The **Receive Postman Notification** integration will configure a Slack bot. Confirm that the actions it asks permission for are acceptable in your Slack workplace.
     * For other integrations, select the Slack channel where the integration will post its messages. Note that you can't change this channel after you set it up. If you need to change channels later, delete the integration and create a new one.
 
 1. Select **Allow**.

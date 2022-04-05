@@ -163,7 +163,7 @@ You can also define variables at any scope in the request builder:
 
     <img src="https://assets.postman.com/postman-docs/set-as-a-new-var.jpg" alt="Set as variable" width="300px"/>
 
-1. Enter a **Name**, verify the **Value**, and select a scope from the drop-down list. Select **Set variable**.
+1. Enter a **Name**, confirm the **Value** is correct, and select a scope from the drop-down list. Select **Set variable**.
 
     <img src="https://assets.postman.com/postman-docs/set-as-var-modal.jpg" alt="Set as variable" width="450px"/>
 
@@ -428,7 +428,7 @@ To check if the variable is available and in scope for the request:
 If the variable is unresolved because it doesn't exist:
 
 1. Select **Add new variable**.
-1. Enter a **Name**, verify a **Value** for the variable, and select the appropriate **Scope** (global, collection, or environment) from the dropdown.
+1. Enter a **Name**, set a **Value** for the variable, and select the appropriate **Scope** (global, collection, or environment) from the dropdown.
 1. Select **Set variable**.
 
 <img alt="Set an unresolved variable" src="https://assets.postman.com/postman-docs/set-unresolved-variable-v9.jpg" width="300px"/>

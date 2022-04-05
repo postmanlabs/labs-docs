@@ -34,7 +34,7 @@ To set up provisioning with the Postman Okta app:
 
 1. [Enable SCIM in Postman](/docs/administration/scim-provisioning/scim-provisioning-overview/#enabling-scim-in-postman) and [generate a SCIM API key](/docs/administration/scim-provisioning/scim-provisioning-overview/#generating-scim-api-key).
 
-2. In Okta, navigate to the Postman app and select **Provisioning**. Click **Configure API Integration**.
+2. In Okta, go to the Postman app and select **Provisioning**. Click **Configure API Integration**.
 
     <img alt="Configure API Integration in Okta Postman app" src="https://assets.postman.com/postman-docs/postman-okta-app-configure-api-integration.jpg"/>
 
@@ -52,7 +52,7 @@ To set up provisioning with the Postman Okta app:
 
 The Postman Okta app supports the provisioning features listed in the [SCIM provisioning overview](/docs/administration/scim-provisioning/scim-provisioning-overview/#scim-features).
 
-To turn these features on or off, navigate to the Postman app in Okta and select **To App** on the left, then click **Edit**.
+To turn these features on or off, go to the Postman app in Okta and select **To App** on the left, then click **Edit**.
 
 <img alt="Configure features in Okta's Postman app" src="https://assets.postman.com/postman-docs/postman-okta-app-enable-features.jpg"/>
 

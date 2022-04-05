@@ -301,7 +301,7 @@ Keep your images focused on what's relevant, but show enough of your screen to i
 
 Include alternative text for images.
 
-Surround images with a 1px border dark grey, ideally `#4a4a4a`.
+Surround images with a 1px border dark gray, ideally `#4a4a4a`.
 
 Use JPG format for images, and optimize them to minimize file size.
 

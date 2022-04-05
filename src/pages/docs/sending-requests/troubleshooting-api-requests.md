@@ -56,7 +56,7 @@ The Postman console logs the following information:
 
 ### Opening the console
 
-Open the console by selecting **Console** in the status bar at the bottom left of Postman. In the Postman app, you can also select **⌘+Option+C** or **Ctrl+Alt+C**.
+Open the console by selecting **Console** in the status bar at the bottom left of Postman. In the Postman Desktop app, you can also select **⌘+Option+C** or **Ctrl+Alt+C**.
 
 <img alt="Open the console" src="https://assets.postman.com/postman-docs/console-pane-button.jpg" width="350px"/>
 
@@ -115,5 +115,5 @@ Issue | Resolving the issue
 If you are still having problems with your request, there are a few options for you to get help:
 
 * Ask for community help in the [Postman forum](https://community.postman.com/).
-* If you think the problem is with the Postman app, search the [issue tracker](https://github.com/postmanlabs/postman-app-support/issues) on GitHub to check if someone has already reported the issue and whether there is a known solution.
-* If you need to include confidential data, file a ticket with [Postman support](https://support.postman.com/hc/en-us), including your console logs.
+* If you think the problem is with Postman itself, search the [issue tracker](https://github.com/postmanlabs/postman-app-support/issues) on GitHub to check if someone has already reported the issue and whether there is a known solution.
+* If you need to include confidential data, file a support ticket with [Postman support](https://support.postman.com/hc/en-us), including your console logs.

@@ -447,7 +447,7 @@ pm.response.json():Function → Object
 
 #### Scripting with request info
 
-The `pm.info` object provides data related to the request and the script itself, including name, ID, and iteration count.
+The `pm.info` object provides data related to the request and the script itself, including name, request ID, and iteration count.
 
 The `pm.info` object provides the following properties and methods:
 

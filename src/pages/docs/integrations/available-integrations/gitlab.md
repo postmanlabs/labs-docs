@@ -24,7 +24,7 @@ Postman 9.0 introduced the ability to connect a git repository to an API. Instea
 
 ## Generating a GitLab Personal Access Token
 
-1. Log in to [GitLab](https://about.gitlab.com/).
+1. Sign in to [GitLab](https://about.gitlab.com/).
 
 1. If you don’t already have a Personal Access Token from GitLab, [generate a new one](https://gitlab.com/-/profile/personal_access_tokens).
 

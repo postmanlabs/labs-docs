@@ -34,7 +34,7 @@ warning: false
 
 ---
 
-The Postman response viewer helps you to visualize and verify the correctness of API responses. An API response consists of the response body, headers, and the HTTP status code.
+The Postman response viewer helps you to visualize and check the correctness of API responses. An API response consists of the response body, headers, and the HTTP status code.
 
 ## Contents
 

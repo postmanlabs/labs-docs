@@ -98,7 +98,7 @@ You can export test results and view the __Run Summary__ using the buttons at th
 
 The summary also lists a column for each iteration of your collection run so that you can see test output for the whole run at a glance.
 
-To navigate back select __Run Results__.
+To return to the overview of the run, select __Run Results__.
 
 ## Sharing collection runs
 

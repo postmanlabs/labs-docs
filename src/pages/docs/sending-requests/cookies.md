@@ -43,7 +43,7 @@ Postman's cookie manager enables you to view and edit cookies that are associate
 
 A computer _cookie_ is more formally known as an HTTP cookie, a web cookie, an Internet cookie, or a browser cookie. The name is a shorter version of “magic cookie,” which is a term for a packet of data that a computer receives and then sends back without changing or altering it.
 
-A cookie typically contains two pieces of data: a unique ID for each user and a site name. Cookies enable websites to retrieve this information when you revisit them, so that they can remember you and your preferences and tailor page content for you based on this information. Without cookies, you’d have to log in again after you leave a site or rebuild your shopping cart if you accidentally closed a web page. This makes cookies an important a part of the internet experience.
+A cookie typically contains two pieces of data: a unique ID for each user and a site name. Cookies enable websites to retrieve this information when you revisit them, so that they can remember you and your preferences and tailor page content for you based on this information. Without cookies, you’d have to sign in again after you leave a site or rebuild your shopping cart if you accidentally closed a web page. This makes cookies an important a part of the internet experience.
 
 ## Using the cookie manager
 

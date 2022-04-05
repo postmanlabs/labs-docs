@@ -44,7 +44,7 @@ You can also [view who's active in your workspace](/docs/collaborating-in-postma
 
 ### Accessing the activity feed from Postman
 
-To access the activity feed in Postman, select the Overview tab and navigate to the **Activity** section to see the events that have occurred within the workspace.
+To access the activity feed in Postman, select the Overview tab and go to the **Activity** section to see the events that have occurred within the workspace.
 
 [![Activity feed from postman](https://assets.postman.com/postman-docs/activity-feed-overview-v8.jpg)](https://assets.postman.com/postman-docs/activity-feed-overview-v8.jpg)
 
@@ -74,7 +74,7 @@ To filter by entity, select **Entity** at the top of the activity feed and selec
 
 ## Viewing team activity
 
-You can review the activity for a team with a Postman Basic, Professional, or Enterprise account. In [Postman](https://go.postman.co/), use the __Workspaces__ dropdown to select your team, then navigate to the __Activity__ feed to view the events.
+You can review the activity for a team with a Postman Basic, Professional, or Enterprise account. In [Postman](https://go.postman.co/), use the __Workspaces__ dropdown to select your team, then go to the __Activity__ feed to view the events.
 
 ## Viewing user activity
 
