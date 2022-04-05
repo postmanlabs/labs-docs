@@ -117,11 +117,11 @@ To hide the sidebar, select the **hide sidebar icon** <img alt="Hide sidebar ico
 
 To access the requests you've made, select __History__ on the sidebar. When you're signed in to Postman, your history [syncs](/docs/getting-started/syncing/) across your devices.
 
-Select a request to open it again in a new tab. You can select more than one request by pressing `Command` or `Control` and selecting the requests.
+Select a request to open it again in a new tab. You can select more than one request by pressing **⌘** or **Ctrl** and selecting the requests.
 
 <img alt="History Request" src="https://assets.postman.com/postman-docs/history-request-v9.jpg" width="350px"/>
 
-Your history also includes executed [collection runs](/docs/running-collections/intro-to-collection-runs/). These remain as the summarized version of the run and aren't logged as single requests.
+Your history also includes [collection runs](/docs/running-collections/intro-to-collection-runs/). These remain as the summarized version of the run and aren't logged as single requests.
 
 * Select the **add icon** __+__ to save the request to a collection.
 * Select the **delete request icon** <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> to remove the request from your history.
@@ -139,7 +139,7 @@ To save request responses in your history, select the **more actions icon** <img
 
 ## Main work area
 
-Whether you're working with a collection, an API, or another entity type, the center section of Postman is where you do the majority of your work. [Tabs](#tabs) enable you to organize your work, while the right sidebar, the [right sidebar](#right-sidebar) gives you access to entity-specific tools like documentation, and the [environment selector and environment quick look](#environment-selector-and-environment-quick-look) enable you to manage variables.
+Whether you're working with a collection, an API, or another entity type, the center section of Postman is where you do the majority of your work. [Tabs](#tabs) enable you to organize your work, while the [right sidebar](#right-sidebar) gives you access to entity-specific tools like documentation, and the [environment selector and environment quick look](#environment-selector-and-environment-quick-look) enable you to manage variables.
 
 ### Tabs
 
@@ -149,7 +149,7 @@ Tabs allow you to organize and work between requests.
 
 To open a new tab, select __+__ in the middle of the screen.
 
-> **Keyboard shortcut**: You can also select **Command + T** or **Ctrl + T** on your keyboard to open a new tab.
+> You can also select **⌘+T** or **Ctrl+T** to open a new tab.
 
 <img alt="Open a new tab" src="https://assets.postman.com/postman-docs/open-new-tab.jpg" width="450px"/>
 
@@ -173,9 +173,9 @@ You can have many tabs open at the same time. To rearrange your open tabs, selec
 
 To manage your open tabs or to access recently closed tabs, select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> to open a menu with action options:
 
-* **Recently Closed Tabs**: Shows you tabs that you closed recently. Select one to reopen it.
-* **Duplicate Selected Tab**: _(Desktop app only.)_ Duplicates the current tab. This doesn't create a copy of the request, so when you duplicate a tab any edits you make are reflected in the original request.
-* **Close Selected Tab**: Closes the current tab. If the tab has unsaved changes, Postman will ask if you want to save before closing.
+* **Recently Closed Tabs**: Shows tabs that you closed recently. Select one to reopen it.
+* **Duplicate Selected Tab**: _(Desktop app only)_ Duplicates the current tab. This doesn't create a copy of the request, so when you duplicate a tab any edits you make are reflected in the original request.
+* **Close Selected Tab**: Closes the current tab. If the tab has unsaved changes, Postman asks if you want to save before closing.
 * **Force Close Selected Tab**: Closes the current tab without saving any changes.
 * **Close All but Selected Tab**: Closes all tabs except the one you are currently working in.
 * **Close All Tabs**: Closes all tabs. If any tabs contain unsaved changes, Postman will ask if you want to save before closing.
@@ -220,7 +220,7 @@ Tool | Available for | Description
 
 ### Environment selector and environment quick look
 
-The environment selector enables you to choose which [environment](docs/sending-requests/managing-environments/) to use in your work. Select an environment from the menu to set it as the active environment, which gives you access to the variables in that environment.
+The environment selector enables you to choose which [environment](/docs/sending-requests/managing-environments/) to use in your work. Select an environment from the menu to set it as the active environment, which gives you access to the variables in that environment.
 
 <img src="https://assets.postman.com/postman-docs/environment-selector-v9.13.jpg" alt="Environment selector" width="300">
 
@@ -233,7 +233,7 @@ The footer on the bottom of Postman enables you to find and replace text, open t
 <img alt="Postman footer left view" src="https://assets.postman.com/postman-docs/navigating-postman-footer-left-v9.jpg" width="300px"/>
 
 * <img alt="Hide sidebar icon" src="https://assets.postman.com/postman-docs/icon-hide-sidebar-v9.jpg#icon" width="18px"> **Hide sidebar**: Close or reopen the [sidebar](#sidebar).
-* <img alt="Search icon" src="https://assets.postman.com/postman-docs/icon-search-v9.jpg#icon" width="16px"> **Find and replace**: _Postman Desktop app only._ Search the current workspace. You can also use the shortcuts __Command + Shift + F__ or __Ctrl + Shift + F__. Enter your search string then select **Find**. Limit your search to a specific entity type by selecting **Collections**, **Environments**, **Globals**, or **Open tabs**. To replace your search term in a selected entity, select **Replace in selected**.
+* <img alt="Search icon" src="https://assets.postman.com/postman-docs/icon-search-v9.jpg#icon" width="16px"> **Find and replace**: _(Postman Desktop app only)_ Search the current workspace. You can also use the shortcuts **⌘+Shift+F** or **Ctrl+Shift+F**. Enter your search string then select **Find**. Limit your search to a specific entity type by selecting **Collections**, **Environments**, **Globals**, or **Open tabs**. To replace your search term in a selected entity, select **Replace in selected**.
 * <img alt="Console icon" src="https://assets.postman.com/postman-docs/icon-console-v9.jpg#icon" width="16px"> **Console**: [Inspect and debug](/docs/sending-requests/troubleshooting-api-requests/#debugging-in-the-console) your Postman requests.
 
 <img alt="Postman footer right view" src="https://assets.postman.com/postman-docs/navigating-postman-footer-right-v9.jpg" width="900px"/>
