@@ -14,7 +14,7 @@ contextual_links:
 
 > __[SSO is available on Postman Professional and Enterprise plans.](https://www.postman.com/pricing)__
 
-When your team admin has enabled single sign-on (**SSO**) for Postman, you can log in to Postman with a [configured Identity provider](/docs/administration/sso/intro-sso/).
+When your team admin has enabled single sign-on (**SSO**) for Postman, you can sign in to Postman with a [configured Identity provider](/docs/administration/sso/intro-sso/).
 
 Your team admin can provide a **Login URL** that was generated during the SSO configuration. The **Login URL** will automatically redirect you to your configured Identity Provider.
 
@@ -22,7 +22,7 @@ To sign into Postman:
 
 1. Select **Sign In** in the upper-right corner of Postman
 1. Select **Home** in the upper-left, then select **Sign in**
-1. Navigate to [Postman's website](https://www.postman.com/) and select **Sign In** in the upper-right corner
+1. Open [Postman's website](https://www.postman.com/) and select **Sign In** in the upper-right corner
 
 <img src="https://assets.postman.com/postman-docs/create-account-or-sign-in.jpg" alt="Create account or sign in"/>
 
@@ -32,9 +32,9 @@ When you opt to sign into the desktop version of Postman, you will see the follo
 
 <img src="https://assets.postman.com/postman-docs/sign-in-with-web-browser.jpg" alt="Sign in with web browser"/>
 
-> You must complete the process of signing in within five minutes once you initiate login from Postman. If you go beyond this time, you must return to Postman and restart the sign in process.
+> You must finish signing in within five minutes once you initiate the process from Postman. If you go beyond this time, you must return to Postman and restart the sign in process.
 
-Log into Postman by selecting **Sign in with Single Sign-On (SSO)** in the upper-right.
+Sign into Postman by selecting **Sign in with Single Sign-On (SSO)** in the upper-right.
 
 <img src="https://assets.postman.com/postman-docs/sign-in-full-page-20.jpg" alt="Sign in"/>
 
@@ -44,9 +44,9 @@ Enter your team domain and **Continue**.
 
 <img src="https://assets.postman.com/postman-docs/sso-login-continue.jpg" alt="Sign in with SSO" width="350px"/>
 
-Postman will redirect you to the configured SSO provider. Enter your SSO login details to sign in.
+Postman will redirect you to the configured SSO provider. Enter your SSO details to sign in.
 
-> The first time you log in to Postman, you may need to carry out additional steps to set up access to your identity provider account. Sign in using SSO and follow your provider's steps to connect the account to Postman.
+> The first time you sign in to Postman, you may need to carry out additional steps to set up access to your identity provider account. Sign in using SSO and follow your provider's steps to connect the account to Postman.
 
 Upon signing in, you will see a confirmation in your browser and you will be redirected back to Postman.
 

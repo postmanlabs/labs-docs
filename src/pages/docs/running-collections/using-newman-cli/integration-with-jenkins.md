@@ -54,7 +54,7 @@ The following example shows how to set up a Jenkins build that uses Newman to ru
 1. Install Jenkins locally and start it. For more information, see the Jenkins documentation at [https://www.jenkins.io](https://www.jenkins.io).
 
 1. Install Node.js and Newman in Jenkins:
-    1. Go to your Jenkins server (it's at `http://localhost:8080` by default if you are running it locally) and log in.
+    1. Go to your Jenkins server (it's at `http://localhost:8080` by default if you are running it locally) and sign in.
     1. Go to **Manage Jenkins > Manage Plugins** and install the NodeJS plugin.
     1. Go to **Manage Jenkins > Global Tool Configuration** and under **NodeJS**, select **Add NodeJS**.
     1. Enter a name for the Node.js installation.
@@ -73,7 +73,7 @@ After you've created the collection, [export it as a JSON file](/docs/getting-st
 
 ## Set up Jenkins
 
-1. With Jenkins running, go to `http://localhost:8080` and log in.
+1. With Jenkins running, go to `http://localhost:8080` and sign in.
 1. On the **Dashboard** page, select **New Item** on the left sidebar to create a new job.
 1. Select a **Freestyle project** from the options. Name your project, and select **OK**.
 
@@ -105,7 +105,7 @@ To set the frequency with which Jenkins runs Newman:
 
 1. Open the build window.
 1. Select **Configure**.
-1. Navigate to **Build Triggers** and select **Build periodically**.
+1. Go to **Build Triggers** and select **Build periodically**.
 1. Enter a schedule. The syntax for setting the frequency to every 30 minutes is `H/(30) * * * *`.
 
     > Select the help icon next to **Schedule** to see information on how to specify the build frequency.

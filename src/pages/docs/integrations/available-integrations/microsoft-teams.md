@@ -20,7 +20,7 @@ To configure a Microsoft Teams integration, you will need to first create a Micr
 
 > Note that certain permissions are required by Microsoft Teams in order to [add a connector to a channel](https://docs.microsoft.com/en-us/microsoftteams/office-365-custom-connectors).
 
-Log in to your Microsoft Teams account. Create a new channel, or go to an already existing channel, where you want to set up this integration.
+Sign in to your Microsoft Teams account. Create a new channel, or go to an already existing channel, where you want to set up this integration.
 
 [![select channel](https://assets.postman.com/postman-docs/59031183.jpg)](https://assets.postman.com/postman-docs/59031183.jpg)
 

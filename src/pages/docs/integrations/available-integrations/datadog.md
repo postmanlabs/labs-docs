@@ -26,7 +26,7 @@ Setting up a Datadog integration requires you to get an API key from Datadog and
 
 ## Retrieving your Datadog API key
 
-1. Log in to [Datadog](https://app.datadoghq.com/). Navigate to your Organization Settings page and select [API Keys](https://app.datadoghq.com/organization-settings/api-keys).
+1. Sign in to [Datadog](https://app.datadoghq.com/). Open your Organization Settings page and select [API Keys](https://app.datadoghq.com/organization-settings/api-keys).
 
 1. Select **+ New Key**. Create a name for the new API key, then select **New Key**.
 

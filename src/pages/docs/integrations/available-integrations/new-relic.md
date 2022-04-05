@@ -23,7 +23,7 @@ Setting up a New Relic monitor integration requires you to get an API key (Inges
 
 If you don't already have a [New Relic account](https://newrelic.com/), you'll need to create one. Then follow the steps below to retrieve your Ingest License key from New Relic:
 
-1. Log in to [New Relic](https://login.newrelic.com).
+1. Sign in to [New Relic](https://login.newrelic.com).
 1. Select your user avatar in the upper right corner, then select **API keys**.
 1. Select the three dots next to the **INGEST - LICENSE** key and then select **Copy**.
 
@@ -54,7 +54,7 @@ If you don't already have a [New Relic account](https://newrelic.com/), you'll n
 
 As soon as your monitor runs, Postman starts sending metrics data to New Relic. Once the data is present in New Relic, you can query and display metrics.
 
-In New Relic, select **Browse data** and then select **Metrics**. To view Postman monitor results, search for metrics that begin with `postman`. You can create simple queries to customize the graph displayed, and there is also a query builder for advanced searches.
+In New Relic, select **Browse data** and then select **Metrics**. To view Postman monitor results, search for metrics that begin with `postman`. You can create queries to customize the graph displayed. New Relic also has a query builder to help you construct advanced searches.
 
 <img alt="View data in New Relic" src="https://assets.postman.com/postman-docs/new-relic-metrics.jpg" width="351px">
 

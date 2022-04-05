@@ -36,7 +36,7 @@ You will need to restart Postman to install the update. Select __Restart and Ins
 
 You can start using Postman v9 and access the new UI and features once the update is completed.
 
-> Postman v9.4 is the last version of the Postman app that supports both 32-bit and 64-bit Windows. All versions of the Postman app following v9.4 will only work on 64-bit Windows. You can continue to use Postman v9.4 and earlier on 32-bit Windows.
+> Postman v9.4 is the last version of Postman that supports both 32-bit and 64-bit Windows. All versions of Postman following v9.4 will only work on 64-bit Windows. You can continue to use Postman v9.4 and earlier on 32-bit Windows.
 
 ## Upgrading to Postman v8
 
@@ -44,7 +44,7 @@ You can start using Postman v9 and access the new UI and features once the updat
 
 Non-team users can move from Postman v7 to v8 by updating the app via **Settings** > **Update** > **Download update**.
 
-It's important to verify your work is synced to make sure no data is lost during the update. Select __Verify Sync__.
+It's important to make sure your work is synced so that no data is lost during the update. Select __Verify Sync__.
 
 <img alt="Verify Sync modal" src ="https://assets.postman.com/postman-docs/verify-sync-before-updating-v8.jpg" width="450px"/>
 
@@ -66,18 +66,18 @@ Team members on v7 can upgrade to v8 by updating the app via **Settings** > **Up
 
 ## Installing earlier versions of Postman
 
-If you happen to be on Postman v8 or below and would like to downgrade to Postman v7 or below to continue working with a team that has not migrated yet, please download the earlier versions of Postman app from the links below.
+If you are on Postman v8 or below and would like to downgrade to Postman v7 or below to continue working with a team that has not migrated yet, download the earlier versions of Postman from the links below.
 
 ### Downloading Postman v8
 
-Please use the following links to download the latest Postman v8 version for your platform.
+Use the following links to download the latest Postman v8 version for your platform.
 
 * [Download Postman v8 for macOS 64-bit](https://go.pstmn.io/dl-macos64-v8-latest)
 * [Download Postman v8 for Windows 64-bit](https://go.pstmn.io/dl-win64-v8-latest)
 * [Download Postman v8 for Windows 32-bit](https://go.pstmn.io/dl-win32-v8-latest)
 * [Download Postman v8 for Linux 64-bit](https://go.pstmn.io/dl-linux64-v8-latest)
 
-**Note:** If you are using Postman for Linux, and had installed the app via 'Ubuntu Software Center' or 'Snap Store', please use the following commands to switch to Postman v8.
+**Note:** If you are using Postman for Linux, and had installed the app via 'Ubuntu Software Center' or 'Snap Store', use the following commands to switch to Postman v8.
 
 ```shell
 sudo snap switch --channel=v8/stable postman
@@ -86,14 +86,14 @@ sudo snap refresh postman
 
 ### Downloading Postman v7
 
-Please use the following links to download the latest Postman v7 version for your platform.
+Use the following links to download the latest Postman v7 version for your platform.
 
 * [Download Postman v7 for macOS 64-bit](https://go.pstmn.io/dl-macos64-v7-latest)
 * [Download Postman v7 for Windows 64-bit](https://go.pstmn.io/dl-win64-v7-latest)
 * [Download Postman v7 for Windows 32-bit](https://go.pstmn.io/dl-win32-v7-latest)
 * [Download Postman v7 for Linux 64-bit](https://go.pstmn.io/dl-linux64-v7-latest)
 
-**Note:** If you are using Postman for Linux, and had installed the app via 'Ubuntu Software Center' or 'Snap Store', please use the following commands to switch to Postman v7.
+**Note:** If you are using Postman for Linux, and had installed the app via 'Ubuntu Software Center' or 'Snap Store', use the following commands to switch to Postman v7.
 
 ```shell
 sudo snap switch --channel=v7/stable postman

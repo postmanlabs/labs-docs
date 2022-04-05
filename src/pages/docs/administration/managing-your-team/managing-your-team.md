@@ -68,7 +68,7 @@ To allow Postman users from your company to request to join your team, [enable t
 
 ### Inviting to a team
 
-Navigate to [Manage Team](https://go.postman.co/settings/team/members) and select **Invite People**. Enter the email address of the individual you would like to invite, select **Add**, edit their roles, then **Send Invites**.
+Go to [Manage Team](https://go.postman.co/settings/team/members) and select **Invite People**. Enter the email address of the individual you would like to invite, select **Add**, edit their roles, then **Send Invites**.
 
 <img alt="Invite users to team" src="https://assets.postman.com/postman-docs/team-invite-people-v9.1.0.jpg" width="350px"/>
 
@@ -90,7 +90,7 @@ To change your team size, see [Changing your plan](/docs/administration/billing/
 
 ## Removing team members
 
-To remove a member from your team, navigate to your team's page > **Members and groups**. Select the <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> icon next the team member's name.
+To remove a member from your team, go to your team's page > **Members and groups**. Select the <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> icon next the team member's name.
 
 ![Removing a team member](https://assets.postman.com/postman-docs/remove-member.jpg)
 
