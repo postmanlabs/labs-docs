@@ -35,6 +35,9 @@ To set up a Jenkins integration for your API, you need to create an API token in
 
 1. Enter a **Nickname** to help you recognize the integration later.
 1. Enter the **URL** of your Jenkins server.
+
+    > If your Jenkins server is located behind a firewall, you may need to ask your IT team to allowlist the Postman static IP address (`3.212.102.200`) to enable the Jenkins integration. Learn more about [Static IP support](https://learning.postman.com/docs/integrations/intro-integrations/#static-ip-support).
+
 1. Enter your **Jenkins username**.
 1. For **Authentication token**, enter your Jenkins API token.
 1. Select the Jenkins **CI project** used for your API.
