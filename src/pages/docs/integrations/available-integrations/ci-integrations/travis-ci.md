@@ -23,7 +23,7 @@ To set up Travis CI integration for your API, you’ll need to create an API tok
 
 ## Configuring Travis CI integration
 
-1. Open your API by selecting **APIs** in the left sidebar, and then selecting an API and a version. *Each API version can be linked to only one CI project*.
+1. Open your API by selecting **APIs** in the sidebar, and then selecting an API and a version. *Each API version can be linked to only one CI project*.
 1. Select the **Test** tab.
 1. Under **Connect to CI/CD Builds**, select **Travis CI**.
 

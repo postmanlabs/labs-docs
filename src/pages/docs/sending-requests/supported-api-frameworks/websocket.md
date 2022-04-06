@@ -52,7 +52,7 @@ In addition to raw WebSocket connections, Postman also supports Socket.IO connec
 
 ## Creating WebSocket requests
 
-You can create a WebSocket request from the left sidebar in Postman.
+You can create a WebSocket request from the sidebar in Postman.
 
 1. Select  __New__ &gt; __WebSocket Request__ to open a new tab. (In the Postman Desktop app, you can also select **⌘+N** or **Ctrl+N**.)
 
@@ -202,7 +202,7 @@ To save a request:
 1. If you are creating a new collection, enter a name and select **Create**.
 1. Select **Save**.
 
-You can see your collection and saved request under the **Collections** tab of the left sidebar on the left:
+You can see your collection and saved request in **Collections** in the sidebar:
 
 <img alt="Collection sidebar" src="https://assets.postman.com/postman-docs/websocket-collection-v2.jpg" width="400px"/>
 

@@ -213,7 +213,7 @@ Select the workspace, then **Move**  **Environment**.
 
 Note that monitors, mock servers, and integrations in the original workspace that are using the environment may no longer work and will need to be re-configured in the new workspace. Collections and APIs that use the environment must be [moved separately](/docs/collaborating-in-postman/sharing/#moving-postman-entities-to-collaborative-workspaces).
 
-You can manage roles on an environment by navigating to it in the left sidebar, selecting it, then selecting <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> > **Manage Roles**.
+You can manage roles on an environment by navigating to it in the sidebar, selecting it, then selecting <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> > **Manage Roles**.
 
 <img alt="Manage roles environment" src="https://assets.postman.com/postman-docs/environment-manage-roles-v9.1.jpg" width="250px"/>
 
@@ -259,7 +259,7 @@ With the editor role, you can [configure access for other team members](#managin
 
 You can fork environments to change them without impacting their base versions, or to contribute to their development without having editor access. To fork an environment:
 
-1. Hover over the environment in the left sidebar and select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> that appear to the right of the environment's name.
+1. Hover over the environment in the sidebar and select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> that appear to the right of the environment's name.
 2. Select **Create a Fork**.
 
 > You can also fork an environment by selecting **Fork** <img alt="Fork icon" src="https://assets.postman.com/postman-docs/icon-fork.jpg#icon" width="14px"> in the environment overview tab.

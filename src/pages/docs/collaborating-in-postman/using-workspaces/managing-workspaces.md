@@ -148,7 +148,7 @@ Workspaces can contain elements such as collections, APIs, environments, mock se
 
 To move an element to a different workspace:
 
-1. Select **Collections**, **APIs**, **Environments**, or **Mock Servers** in the left sidebar.
+1. Select **Collections**, **APIs**, **Environments**, or **Mock Servers** in the sidebar.
 1. Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> next to an element and then select **Move**.
 
     <img alt="Move collection" src="https://assets.postman.com/postman-docs/move-collection-v9.jpg" width="300px" height="400px"/>

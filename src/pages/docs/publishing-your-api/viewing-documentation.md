@@ -61,7 +61,7 @@ You can view the documentation for any collection that you created or for collec
 
 To view documentation for a collection:
 
-1. Select **Collections** in the left sidebar, and then select a collection, folder, or request.
+1. Select **Collections** in the sidebar, and then select a collection, folder, or request.
 
     > You can also search for collections on the [Public API Network](https://www.postman.com/explore/collections).
 
@@ -88,7 +88,7 @@ Postman automatically generates API docs for any OpenAPI 3.0 schema [defined in 
 
 To view documentation for an API:
 
-1. Select **APIs** in the left sidebar, then select an API and a version.
+1. Select **APIs** in the sidebar, then select an API and a version.
 
     > You can also search for APIs on the [Private API Network](https://go.postman.co/network/private) or the [Public API Network](https://www.postman.com/explore/apis).
 
@@ -122,7 +122,7 @@ Use the options in the header to customize the appearance of the documentation:
 
 Want to share a specific endpoint with someone or bookmark it for later? You can save links to sections in public documentation, including the introduction, requests, folders, and responses.
 
-To save a link, select a section, folder, or request in the left sidebar. Copy the URL in your browser's address bar, or save it as a bookmark. Next time, you can use the URL to link directly to the selected section.
+To save a link, select a section, folder, or request in the sidebar. Copy the URL in your browser's address bar, or save it as a bookmark. Next time, you can use the URL to link directly to the selected section.
 
 <img alt="Documentation links" src="https://assets.postman.com/postman-docs/documentation-copy-link-v9.jpg" width="773px"/>
 

@@ -43,7 +43,7 @@ You can collaborate on Postman entities including collections, APIs, and environ
 
 ## Sharing Postman entities
 
-You can share your collections, APIs, and environments with collaborators by navigating to the entity you'd like to share in the left sidebar. Select it, then select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> > **Share**.
+You can share your collections, APIs, and environments with collaborators by navigating to the entity you want to share in the sidebar. Select it, then select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> > **Share**.
 
 Collections, APIs, and environments can be shared directly with collaborators, including team members, [groups](/docs/administration/managing-your-team/user-groups/), and external users.
 

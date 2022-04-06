@@ -27,7 +27,7 @@ To set up a Jenkins integration for your API, you need to create an API token in
 
 ## Configuring Jenkins integration
 
-1. Open your API by selecting **APIs** in the left sidebar, and then selecting an API and a version. *Each API version can be linked to only one CI project*.
+1. Open your API by selecting **APIs** in the sidebar, and then selecting an API and a version. *Each API version can be linked to only one CI project*.
 1. Select the **Test** tab.
 1. Under **Connect to CI/CD Builds**, select **Jenkins**.
 

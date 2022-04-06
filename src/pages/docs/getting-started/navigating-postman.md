@@ -115,7 +115,7 @@ To hide the sidebar, select the hide sidebar icon <img alt="Hide sidebar icon" s
 
 ### History
 
-To access the requests you've made, select __History__ on the sidebar. When you're signed in to Postman, your history [syncs](/docs/getting-started/syncing/) across your devices.
+To access the requests you've made, select __History__ in the sidebar. When you're signed in to Postman, your history [syncs](/docs/getting-started/syncing/) across your devices.
 
 Select a request to open it again in a new tab. You can select more than one request by pressing **⌘** or **Ctrl** and selecting the requests.
 

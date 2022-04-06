@@ -97,7 +97,7 @@ The API documentation includes complete API, path, and operation information, su
 
 To view the documentation for an OpenAPI 3.0 schema:
 
-1. Select **APIs** in the left sidebar, and then select an API and a version.
+1. Select **APIs** in the sidebar, and then select an API and a version.
 1. Select the **Documentation** tab.
 1. In the left pane, select an item under **Schema Documentation** to view a specific path or request.
 
@@ -109,7 +109,7 @@ To view the documentation for an OpenAPI 3.0 schema:
 
 To generate a new collection for API documentation:
 
-1. Select **APIs** in the left sidebar, and then select an API and a version.
+1. Select **APIs** in the sidebar, and then select an API and a version.
 1. Select the **Overview** tab.
 1. Select the **+** next to **Documentation**, and then select **Create new documentation**.
 1. Enter a name for the new collection. (Make it something you'll easily associate with this version of your API.)
@@ -124,7 +124,7 @@ To generate a new collection for API documentation:
 
 To use an existing collection for API documentation:
 
-1. Select **APIs** in the left sidebar, and then select an API and a version.
+1. Select **APIs** in the sidebar, and then select an API and a version.
 1. Select the **Overview** tab.
 1. Select the **+** next to **Documentation**, and then select **Add existing documentation**.
 1. Select the collection you want to use for API documentation.
@@ -148,7 +148,7 @@ Another way to work on your API documentation is to open the linked collection. 
 
 To remove a linked documentation collection from an API:
 
-1. Select **APIs** in the left sidebar, and then select an API and a version.
+1. Select **APIs** in the sidebar, and then select an API and a version.
 1. Select the **Overview** tab.
 1. Select the remove button <img alt="Remove button" src="https://assets.postman.com/postman-docs/icon-remove-api-element-v9.jpg#icon" width="18px"> next to the collection you want to remove from this API version.
 1. Select **Remove Documentation**.

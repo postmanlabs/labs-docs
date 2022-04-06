@@ -35,7 +35,7 @@ warning: false
 
 You can group your Postman requests and examples into collections to keep your workspace organized, to collaborate with teammates, to generate API documentation and API tests, and to automate request runs.
 
-Select **Collections** in the left sidebar of Postman to see the list of collections in a workspace.
+Select **Collections** in the sidebar to see the list of collections in a workspace.
 
 <img alt="" src="https://assets.postman.com/postman-docs/collections-overview.jpg" width="300px"/>
 
@@ -65,7 +65,7 @@ Select **Collections** in the left sidebar of Postman to see the list of collect
 
 There are several ways to create a new collection:
 
-* Select **Collections** in the left sidebar, then select **+**.
+* Select **Collections** in the sidebar, then select **+**.
 
     <img alt="Create new collection" src="https://assets.postman.com/postman-docs/new-collection.jpg" width="300px"/>
 
@@ -127,7 +127,7 @@ To add a request to an empty collection:
 
 To save a request from your history:
 
-1. Select **History** in the left sidebar.
+1. Select **History** in the sidebar.
 1. Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> next to the request you want to save.
 1. Select **Save Request**.
 

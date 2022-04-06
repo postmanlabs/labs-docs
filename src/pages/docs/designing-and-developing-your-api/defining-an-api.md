@@ -58,7 +58,7 @@ In the upper right of the schema editor are options to beautify the content, wra
 
 The Postman API Builder supports API-first development by providing the option to create a Postman collection directly from a schema. Once you have a saved schema, you will see a **Generate Collection** option in the upper right of the schema editor.
 
-To create a collection based on your schema, select **Generate Collection**. You can add the collection as documentation, a test, a monitor, or a mock server. The collection will appear in __Collections__ in the left sidebar. It will be linked to the same version of the API as the schema.
+To create a collection based on your schema, select **Generate Collection**. You can add the collection as documentation, a test, a monitor, or a mock server. The collection will appear in __Collections__ in the sidebar. It will be linked to the same version of the API as the schema.
 
 ![Generate Collection](https://assets.postman.com/postman-docs/v8-generate-collection-modal2.jpg)
 

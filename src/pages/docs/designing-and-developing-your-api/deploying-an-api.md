@@ -36,7 +36,7 @@ This integration supports OpenAPI 3.0 schemas for both HTTP and REST APIs. For H
 
 ## Connecting to Amazon API Gateway
 
-To connect to Amazon API Gateway in Postman, select **APIs** in the left sidebar, and then select the API and version you want to connect. Select the **Deployments** tab, and then select **AWS API Gateway**.
+To connect to Amazon API Gateway in Postman, select **APIs** in the sidebar, and then select the API and version you want to connect. Select the **Deployments** tab, and then select **AWS API Gateway**.
 
 <img alt="Connecting to AWS API Gateway" src="https://assets.postman.com/postman-docs/deployments-aws-api-gateway-v9-5.jpg" width="915px"/>
 
@@ -115,7 +115,7 @@ When you're ready, select **Connect**.
 
 ## Viewing Amazon API Gateway deployments
 
-After connecting to Amazon API Gateway, you can view the export and deployment history for your API schemas in Postman. Select **APIs** in the left sidebar, select an API and version, and then select the **Deployments** tab.
+After connecting to Amazon API Gateway, you can view the export and deployment history for your API schemas in Postman. Select **APIs** in the sidebar, select an API and version, and then select the **Deployments** tab.
 
 * For each stage you can view the active deployment and the date last updated. You can also view CloudWatch metrics for the last week, such as average latency and the number of `4xx` and `5xx` errors.
     * Select the arrow next to a stage to view more details, including the invoke URL and stage description (from AWS).
@@ -158,7 +158,7 @@ Exporting an HTTP API schema makes it available in the connected Amazon API Gate
 
 > Only HTTP API schemas can be exported and deployed from Postman. To deploy a REST API schema, use the AWS console.
 
-1. Open your API by selecting **APIs** in the left sidebar, and then selecting an API and a version.
+1. Open your API by selecting **APIs** in the sidebar, and then selecting an API and a version.
 1. Select the **Deployments** tab, and then select **Deploy API**.
 
     You can also export and deploy your API from the Changelog. Open the Changelog <img alt="Changelog icon" src="https://assets.postman.com/postman-docs/icon-changelog-v9.jpg#icon" width="18px"> in the right context bar, select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> next to a release, and then select **Deploy Schema**.
