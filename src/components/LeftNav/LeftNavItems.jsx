@@ -809,6 +809,10 @@ export const leftNavItems = [
             url: '/docs/integrations/available-integrations/gitlab/',
           },
           {
+            name: 'Jenkins',
+            url: '/docs/integrations/available-integrations/ci-integrations/jenkins/',
+          },
+          {
             name: 'Keen',
             url: '/docs/integrations/available-integrations/keen/',
           },

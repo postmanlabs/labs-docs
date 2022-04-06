@@ -2,7 +2,7 @@
 title: "CircleCI"
 order: 164.3
 page_id: "circleci"
-updated: 2021-09-15
+updated: 2022-03-31
 warning: false
 contextual_links:
   - type: section
@@ -29,14 +29,14 @@ To set up CircleCI integration for your API, you’ll need to create an API toke
 1. Select the **Test** tab.
 1. Under **Connect to CI/CD Builds**, select **CircleCI**.
 
-    ![CI Integration](https://assets.postman.com/postman-docs/ci-add-integration-v9.jpg)
+    ![CI Integration](https://assets.postman.com/postman-docs/ci-add-integration-v9-15.jpg)
 
 1. For **API Key**, enter your CircleCI token.
 1. Enter a **Nickname** to help you recognize the integration later.
 1. Select the **CI project** used for your API.
 1. Select **Connect**.
 
-    <img alt="Add API key" src="https://assets.postman.com/postman-docs/circleci-connect-project-v9.jpg" width="527px">
+    <img alt="Add API key" src="https://assets.postman.com/postman-docs/circleci-connect-project-v9-15.jpg" width="512px">
 
 ## Configuring Newman for CircleCI
 
