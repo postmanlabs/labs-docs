@@ -11,11 +11,11 @@ contextual_links:
     url: "/docs/integrations/ci-integrations/"
 ---
 
-[Jenkins](https://www.jenkins.io/) is an open source automation server that can act as a continuous integration (CI) server or a continuous delivery (CD) hub. With hundreds of available plug-ins, teams can use Jenkins to build, deploy, and automate almost any project.
+[Bitbucket Pipelines](https://bitbucket.org/product/features/pipelines) is a continuous integration (CI) and continuous delivery (CD) service that's integrated with Bitbucket Cloud. Software development teams can use Bitbucket Pipelines to automatically build, test, and deploy code all from within Bitbucket.
 
-To set up a Jenkins integration for your API, you need to create an API token in Jenkins and configure your API in Postman. After you set up the integration, you can view the status of builds or kick off a new build, all from within Postman.
+To set up a Bitbucket Pipelines integration for your API, you need to create an API token in Bitbucket and configure your API in Postman. After you set up the integration, you can view the status of builds or kick off a new build, all from within Postman.
 
-> If your Jenkins pipeline is configured to run API tests using [Newman](/docs/running-collections/using-newman-cli/command-line-integration-with-newman/), you can [configure the  Postman cloud reporter](#configuring-newman-for-jenkins) to send collection run information back to Postman.
+> If your Bitbucket pipeline is configured to run API tests using [Newman](/docs/running-collections/using-newman-cli/command-line-integration-with-newman/), you can [configure the  Postman cloud reporter](#configuring-newman-for-bitbucket-pipelines) to send collection run information back to Postman.
 
 ## Creating a Jenkins API token
 
@@ -73,7 +73,7 @@ Select **View Report** to view a collection run report in the Postman **History*
 
 <img alt="View collection run report" src="https://assets.postman.com/postman-docs/jenkins-view-report-v9-14.jpg">
 
-## Configuring Newman for Jenkins
+## Configuring Newman for Bitbucket Pipelines
 
 With the help of Newman and the Postman API, you can run API tests created in Postman as part of your Jenkins pipeline. First generate the Newman configuration code in Postman. Then add the configuration code to your Jenkins pipeline.
 
