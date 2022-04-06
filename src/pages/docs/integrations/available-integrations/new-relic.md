@@ -19,9 +19,9 @@ Setting up a New Relic monitor integration requires you to get an API key (Inges
 
 > **You can also view New Relic application performance management (APM) metrics in the Postman API Builder.** Note that viewing APM metrics is a separate integration from sending monitor results to New Relic and uses a different New Relic API key. Learn more about [viewing New Relic APM metrics](/docs/designing-and-developing-your-api/observing-an-api/#viewing-new-relic-apm-metrics).
 
-## Retrieving your New Relic API Key
+## Retrieving your New Relic API key
 
-If you don't already have a [New Relic account](https://newrelic.com/), you'll need to create one. Then follow the steps below to retrieve your Ingest License key from New Relic:
+If you don't already have a [New Relic account](https://newrelic.com/), you'll need to [create one](https://newrelic.com/signup). Then follow the steps below to retrieve your Ingest License key from New Relic:
 
 1. Sign in to [New Relic](https://login.newrelic.com).
 1. Select your user avatar in the upper right corner, then select **API keys**.
@@ -29,9 +29,9 @@ If you don't already have a [New Relic account](https://newrelic.com/), you'll n
 
 <img alt="Get a New Relic Ingest key" src="https://assets.postman.com/postman-docs/new-relic-get-ingest-key-v9-6.jpg" width="1109px">
 
-> There are multiple types of API keys in New Relic. Make sure to use an **Ingest License** key for Postman monitor integration. For more information on API Keys in New Relic, see the [New Relic API keys documentation](https://docs.newrelic.com/docs/apis/intro-apis/new-relic-api-keys/).
+> There are different types of API keys in New Relic. Make sure to use an **Ingest License** key for Postman monitor integration. For more information on API Keys in New Relic, see the [New Relic API keys documentation](https://docs.newrelic.com/docs/apis/intro-apis/new-relic-api-keys/).
 
-## Configuring New Relic Integration
+## Configuring New Relic integration
 
 1. From the **[Home](https://go.postman.co/home)** page select **[Integrations](https://go.postman.co/integrations)**.
 1. Select **Browse All Integrations**, and then search for **New Relic**.
@@ -50,7 +50,21 @@ If you don't already have a [New Relic account](https://newrelic.com/), you'll n
 1. Select a New Relic region. New Relic offers US and EU region instances. See the [New Relic data center documentation](https://docs.newrelic.com/docs/using-new-relic/welcome-new-relic/get-started/our-eu-us-region-data-centers) for more information.
 1. Select **Add Integration**.
 
-## Viewing data in New Relic
+## Visualize your data with the Postman quickstart
+
+New Relic I/O ([Instant Observability](http://newrelic.com/instant-observability)) has integrations and quickstarts that bundle observability tools to help you get started with monitoring your stack. The Postman quickstart provides you with an out-of-the-box dashboard with a suggested view for API monitoring.
+
+To use the Postman quickstart:
+
+1. Go to the [Postman quickstart](https://newrelic.com/instant-observability/postman/d465bf08-b737-4bc5-b5ad-dd5be272967b) in New Relic I/O, and select **+ Install quickstart**.
+1. If you don't have a New Relic account, follow the signup instructions to get started for free. Check your email for a link to continue to the next step.
+1. Select an account and select **Begin installation**.
+1. Under **Postman (manual install)** select **Done** if you have already completed the steps in the [Configuring New Relic Integration](#configuring-new-relic-integration) section.
+1. Select **See your data**.
+1. That’s it! Now you can visualize your Postman API data on the New Relic dashboard.
+![](https://assets.postman.com/postman-docs/newrelic-dashboard-visualize.jpg)
+
+## Manually view and query data in New Relic
 
 As soon as your monitor runs, Postman starts sending metrics data to New Relic. Once the data is present in New Relic, you can query and display metrics.
 

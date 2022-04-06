@@ -54,8 +54,6 @@ For help with any account or billing issues, go to Postman's [Support Center](ht
 
     * [Changing your plan](#changing-your-plan)
 
-    * [Setting instructions for next billing cycle](#setting-instructions-for-next-billing-cycle)
-
     * [Changing billing cycle](#changing-billing-cycle)
 
     * [Purchasing add-ons](#purchasing-add-ons)
@@ -65,6 +63,8 @@ For help with any account or billing issues, go to Postman's [Support Center](ht
         * [Opting in to auto-flex](#opting-in-to-auto-flex)
 
         * [Billing for auto-flex](#billing-for-auto-flex)
+
+* [Canceling your plan](#canceling-your-plan)
 
 * [Next steps](#next-steps)
 
@@ -76,7 +76,7 @@ The Postman [billing dashboard](http://go.postman.co/billing) enables you to man
 
 When navigating to your [billing dashboard](http://go.postman.co/billing), you will first see your billing overview. You can view the details of your Postman plan, including your subscription cycle and a calculation of your expected cost upon renewal.
 
-<img alt="Billing overview" src="https://assets.postman.com/postman-docs/billing-plan-and-payments-dash-v9.1.jpg" />
+<img alt="Billing overview" src="https://assets.postman.com/postman-docs/billing-plan-and-payments-dash-v9.14.jpg" />
 
 ### Managing add-ons
 
@@ -172,18 +172,6 @@ The cost of your new plan and any new seats, if applicable, are prorated based o
 
 > Certain changes can only be applied to your team upon renewal. If you make adjustments to your plan that can't be applied right away, and have **Immediately** selected, you will see a prompt to switch your selection to **On renewal**.
 
-### Setting instructions for next billing cycle
-
-To set instructions about what will happen at the end of your current billing cycle, open your [billing dashboard](https://go.postman.co/billing/overview) and select **Set instructions** on the right under your subtotal.
-
-<img alt="Set instructions in billing dashboard" src="https://assets.postman.com/postman-docs/billing-overview-set-instructions-v9.1.jpg"/>
-
-You can view your current plan and opt to **Edit Standing Instructions**. Select your preferred option from the drop-down menu, then select **Proceed** to move forward with your plan changes.
-
-<img alt="Set instructions for next cycle" src="https://assets.postman.com/postman-docs/billing-set-instructions-v9.1.jpg" width="400px"/>
-
-> You can change your standing instructions at any time before the end of your current billing cycle.
-
 ### Changing billing cycle
 
 Monthly teams can switch to an annual plan at any time by navigating to the [billing dashboard](https://go.postman.co/billing/overview) and selecting **Edit Plan** on the right.
@@ -252,9 +240,15 @@ In your [billing dashboard](http://go.postman.co/billing), you can view:
 * How much you will be billed at the end of your cycle (unless you add or remove team members in the interim)
 * Additional information about your auto-flex and regular billing cycles
 
-<img alt="Billing overview with auto flex" src="https://assets.postman.com/postman-docs/auto-flex-dash-9.13.jpg" />
+<img alt="Billing overview with auto flex" src="https://assets.postman.com/postman-docs/auto-flex-dash-9.14.jpg" />
 
 > [Contact Postman support](https://www.postman.com/support/) with any questions about auto-flex.
+
+## Canceling your plan
+
+To cancel your Postman plan, select **Cancel plan** at the bottom of your [billing dashboard](http://go.postman.co/billing).
+
+If you have canceled your Postman plan and want to reverse this action, select **Undo cancelation** next to the cancelation notice on your [billing dashboard](http://go.postman.co/billing).
 
 ## Next steps
 
