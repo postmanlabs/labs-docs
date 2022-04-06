@@ -11,36 +11,24 @@ contextual_links:
     url: "/docs/integrations/ci-integrations/"
 ---
 
-[Bitbucket Pipelines](https://bitbucket.org/product/features/pipelines) is a continuous integration (CI) and continuous delivery (CD) service that's integrated with Bitbucket Cloud. Software development teams can use Bitbucket Pipelines to automatically build, test, and deploy code all from within Bitbucket.
+[Bitbucket Pipelines](https://bitbucket.org/product/features/pipelines) is a continuous integration (CI) and continuous delivery (CD) service that's integrated with Bitbucket Cloud. Software development teams can use Bitbucket Pipelines to automatically build, test, and deploy code in Bitbucket.
 
-To set up a Bitbucket Pipelines integration for your API, you need to create an API token in Bitbucket and configure your API in Postman. After you set up the integration, you can view the status of builds or kick off a new build, all from within Postman.
+To set up a Bitbucket Pipelines integration for your API, you need to configure your API in Postman and add a `bitbucket-pipelines.yml` file to your Bitbucket repository. After you set up the integration, you can view the status of builds or kick off a new build, all from within Postman.
 
 > If your Bitbucket pipeline is configured to run API tests using [Newman](/docs/running-collections/using-newman-cli/command-line-integration-with-newman/), you can [configure the  Postman cloud reporter](#configuring-newman-for-bitbucket-pipelines) to send collection run information back to Postman.
 
-## Creating a Jenkins API token
-
-1. Log into Jenkins.
-1. Select your user name at the upper right, and then select **Configure**.
-1. Select **Add new Token**.
-1. Enter a name for the token and select **Generate**.
-1. Copy the new token. (You might want to save the token somewhere safe.)
-
-## Configuring Jenkins integration
+## Configuring Bitbucket Pipelines integration
 
 1. Open your API by selecting **APIs** in the left sidebar, and then selecting an API and a version. *Each API version can be linked to only one CI project*.
 1. Select the **Test** tab.
-1. Under **Connect to CI/CD Builds**, select **Jenkins**.
+1. Under **Connect to CI/CD Builds**, select **Bitbucket**.
 
     ![CI Integration](https://assets.postman.com/postman-docs/ci-add-integration-v9-15.jpg)
 
+1. You'll be prompted to authorize Postman to access your Bitbucket account. After you grant access, you can close the browser tab and return to Postman.
 1. Enter a **Nickname** to help you recognize the integration later.
-1. Enter the **URL** of your Jenkins server.
-
-    > If your Jenkins server is located behind a firewall, you may need to ask your IT team to allowlist the Postman static IP address (`3.212.102.200`) to enable the Jenkins integration. Learn more about [Static IP support](https://learning.postman.com/docs/integrations/intro-integrations/#static-ip-support).
-
-1. Enter your **Jenkins username**.
-1. For **Authentication token**, enter your Jenkins API token.
-1. Select the Jenkins **CI project** used for your API.
+1. Select the Bitbucket **Workspace** with your API repository.
+1. For **CI project**, select the Bitbucket repository used for your API.
 1. Select **Connect**.
 
     <img alt="Add API key" src="https://assets.postman.com/postman-docs/jenkins-connect-project-v9-15.jpg" width="527px">
