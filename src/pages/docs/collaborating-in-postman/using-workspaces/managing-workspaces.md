@@ -153,7 +153,7 @@ To move an element to a different workspace:
 
     <img alt="Move collection" src="https://assets.postman.com/postman-docs/move-collection-v9.jpg" width="300px" height="400px"/>
 
-1. Select the workspace where you want to move the element, and then select the **Move** button.
+1. Select the workspace where you want to move the element, and then select **Move**.
 
     > You cannot move elements from a private, team, or public workspace to a personal workspace.
 

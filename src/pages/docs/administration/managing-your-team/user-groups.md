@@ -47,7 +47,7 @@ As a team admin, you can create a group by selecting **Team** in the upper-right
 
 Under **Members and groups**, select **Groups** > **Create Group**.
 
-<img alt="Create group button" src="https://assets.postman.com/postman-docs/team-groups-list-v9.1.jpg"/>
+<img alt="Create group" src="https://assets.postman.com/postman-docs/team-groups-list-v9.1.jpg"/>
 
 Give your group a name and description, add your team members, and select the team roles you would like to assign to the group, then **Create Group**.
 

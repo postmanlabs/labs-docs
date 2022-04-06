@@ -150,7 +150,7 @@ To remove a linked documentation collection from an API:
 
 1. Select **APIs** in the sidebar, and then select an API and a version.
 1. Select the **Overview** tab.
-1. Select the remove button <img alt="Remove button" src="https://assets.postman.com/postman-docs/icon-remove-api-element-v9.jpg#icon" width="18px"> next to the collection you want to remove from this API version.
+1. Select the remove icon <img alt="Remove icon" src="https://assets.postman.com/postman-docs/icon-remove-api-element-v9.jpg#icon" width="16px"> next to the collection you want to remove from this API version.
 1. Select **Remove Documentation**.
 
 > Removing documentation only removes the link between the collection and the API version. The collection itself is not deleted.

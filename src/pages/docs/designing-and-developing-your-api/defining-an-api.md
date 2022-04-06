@@ -40,7 +40,7 @@ The __Definition__ tab in each API version page contains an editor for your API 
 
 The default schema type is OpenAPI 3.0, with YAML as the default format. To use a different schema type or format, choose it from the dropdown list.
 
-The left pane of the schema editor displays an outline of your schema. When you first open the editor, the top level of nodes will be expanded, and the rest of them collapsed. Select nodes to expand or collapse them. Select an element in the outline to jump to it in the editor. You can also select the outline button to hide or show the outline.
+The left pane of the schema editor displays an outline of your schema. When you first open the editor, the top level of nodes will be expanded, and the rest of them collapsed. Select nodes to expand or collapse them. Select an element in the outline to jump to it in the editor. You can also select the schema outline icon <img alt="Schema outline icon" src="https://assets.postman.com/postman-docs/icon-schema-outline-v9.jpg#icon" width="16px"/> to hide or show the outline.
 
 ![Schema navigation](https://assets.postman.com/postman-docs/v8-api-builder-schema-outline.gif)
 

@@ -27,7 +27,7 @@ This integration allows you to configure [Postman Monitors](/docs/monitoring-you
    [![sign in to Splunk On-Call](https://assets.postman.com/postman-docs/58842896.png)](https://assets.postman.com/postman-docs/58842896.png)
 1. From the list of integrations, select the **REST Generic** Integration.
    [![select REST Generic](https://assets.postman.com/postman-docs/58843113.png)](https://assets.postman.com/postman-docs/58843113.png)
-1. If the integration isn't already enabled, select the **Enable Integration** button.
+1. If the integration isn't already enabled, select **Enable Integration**.
    [![enable integration](https://assets.postman.com/postman-docs/58843154.png)](https://assets.postman.com/postman-docs/58843154.png)
    If the integration is enabled, you will see a URL which contains the API Key.
    [![view API key](https://assets.postman.com/postman-docs/58843264.png)](https://assets.postman.com/postman-docs/58843264.png)
@@ -51,7 +51,7 @@ You can also provide routing keys if you are using teams within Splunk On-Call. 
 1. Select a monitor to send to Splunk On-Call.
 1. Enter the Splunk On-Call API key.
 1. Select "Advanced Options" if you want to add a Splunk On-Call Routing Key.
-1. Select the **Add Integration** button.
+1. Select **Add Integration**.
 1. You can send the results of multiple monitors to the same Splunk On-Call collection.
 
    ![Splunk On-Call add integration](https://assets.postman.com/postman-docs/splunk-on-call-add-integration-config.jpg)

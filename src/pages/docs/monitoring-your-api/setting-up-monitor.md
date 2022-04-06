@@ -51,7 +51,7 @@ Create a new collection-based monitor to continuously check your API's health, r
 
 Postman offers several ways to create a new collection-based monitor:
 
-* **Create a monitor from scratch.** Select **Monitors** in the sidebar, and then select the plus **+** button. You will select a collection to run when configuring the new monitor.
+* **Create a monitor from scratch.** Select **Monitors** in the sidebar, and then select **+**. You will select a collection to run when configuring the new monitor.
 * **Create a monitor from a collection.** Select **Collections** in the sidebar, select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> next to a collection, and then select **Monitor collection**. The new monitor is automatically configured to run the selected collection.
 * **Create a monitor from an API.** Open an API version from **APIs** in the sidebar and select the **Monitoring** tab. Select **+ Add Monitor**, and then select **Create new monitor**. You can choose to use an existing collection, create a new collection, or generate a collection from your schema.
 

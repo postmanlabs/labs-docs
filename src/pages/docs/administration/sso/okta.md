@@ -80,7 +80,7 @@ Under the third step “Feedback”, select “I’m an Okta customer adding an 
 
 ### Okta - Step 9
 
-Move over to the **Sign On** tab, and select the **View Setup Instructions** button.
+Move over to the **Sign On** tab, and select **View Setup Instructions**.
 [![okta sign on](https://assets.postman.com/postman-docs/okta_sign_on.png)](https://assets.postman.com/postman-docs/okta_sign_on.png)
 
 The **View Setup Instructions** screen comes populated with values that you should copy and paste in the **Identity Provider Details** section.
@@ -95,10 +95,10 @@ Copy the **Identity Provider Single Sign-On URL**, **Identity Provider Issuer** 
 And paste them in the corresponding sections of the **Identity Provider Details** screen as shown below:
 [![details](https://assets.postman.com/postman-docs/Okta-IDP-Details3.png)](https://assets.postman.com/postman-docs/Okta-IDP-Details3.png)
 
-Once you fill in the details, select the **Generate relay/Regenerate relay** button to create a parameter to send with a SAML response in an IDP-initiated single sign-on. Copy the **relay state** and paste it in the following screen:
+Once you fill in the details, select **Generate relay/Regenerate relay** to create a parameter to send with a SAML response in an IDP-initiated single sign-on. Copy the **relay state** and paste it in the following screen:
 [![details](https://assets.postman.com/postman-docs/Okta-Relay-State.png)](https://assets.postman.com/postman-docs/Okta-Relay-State.png)
 
-To paste, select the **Edit** button and paste the value in **Default Relay State** field.
+To paste, select **Edit** and paste the value in **Default Relay State** field.
 
 Select **Save Authentication**.
 
@@ -148,7 +148,7 @@ Select **Browse** and upload the encryption certificate. Select **Save**.
 
 ### Postman - Step 5
 
-Move over to the **Sign On** tab, and select the **View Setup Instructions** button.
+Move over to the **Sign On** tab, and select **View Setup Instructions**.
 [![okta sign on](https://assets.postman.com/postman-docs/okta_sign_on.png)](https://assets.postman.com/postman-docs/okta_sign_on.png)
 
 The **View Setup Instructions** screen comes populated with values that you should copy and paste in the **Identity Provider Details** section.
@@ -165,7 +165,7 @@ And paste them in the corresponding sections of the **Identity Provider Details*
 
 ### Postman - Step 7
 
-Once you fill-in the details, select the **Generate relay/Regenerate relay** button to create a parameter to send with a SAML response in an IDP-initiated single sign-on. Copy the **relay state** and paste it in the following screen:
+Once you fill in the details, select **Generate relay/Regenerate relay** to create a parameter to send with a SAML response in an IDP-initiated single sign-on. Copy the **relay state** and paste it in the following screen:
 [![details](https://assets.postman.com/postman-docs/Okta-Relay-State.png)](https://assets.postman.com/postman-docs/Okta-Relay-State.png)
 
 To paste, select **Edit** and paste the value in **Default Relay State** field.

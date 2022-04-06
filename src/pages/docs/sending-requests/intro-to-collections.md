@@ -69,7 +69,7 @@ There are several ways to create a new collection:
 
     <img alt="Create new collection" src="https://assets.postman.com/postman-docs/new-collection.jpg" width="300px"/>
 
-* Select the **New** button, then select **Collection**.
+* Select **New**, then select **Collection**.
 * Select **Home** in the Postman header. Select **Create New**, then select **Collection**.
 
 Once you have created a new collection, you can customize and configure it:
@@ -135,7 +135,7 @@ To save a request from your history:
 
 1. Choose the collection to add the request to, then select **Save**.
 
-> Alternatively, select the **+** button next to the request.
+> Alternatively, select **+** next to the request.
 
 ## Managing collections
 

@@ -253,7 +253,7 @@ To create or edit a variable for an existing collection:
 
 [![Edit Collection](https://assets.postman.com/postman-docs/collection-variables-v9.jpg)](https://assets.postman.com/postman-docs/collection-variables-v9.jpg)
 
-> If you don't have Editor access to a collection, you will see a __Request Access__ button. You won't be able to add new collection variables, update initial values, or persist values. You can edit the current value for local use, override the collection variable by using an environment variable with the same name, or [request Editor access](/docs/collaborating-in-postman/requesting-access-to-collections/) to the collection.
+> If you don't have Editor access to a collection, you can select __Request Access__. Without Editor access, you won't be able to add new collection variables, update initial values, or persist values. You can edit the current value for local use, override the collection variable by using an environment variable with the same name, or [request Editor access](/docs/collaborating-in-postman/requesting-access-to-collections/) to the collection.
 
 You can also [define collection variables in scripts](#defining-variables-in-scripts).
 
@@ -366,7 +366,7 @@ Use the following syntax in your script to log the value of a variable:
 console.log(pm.variables.get("variable_key"));
 ```
 
-To view the results, open the console from the button on the bottom left of Postman, or from the __View__ menu.
+To view the results, select **Console** <img alt="Console icon" src="https://assets.postman.com/postman-docs/icon-console-v9.jpg#icon" width="16px"> from the footer. You can also access the console from the __View__ menu > **Show Postman Console**.
 
 [![Logging Variable](https://assets.postman.com/postman-docs/log-var-v8.jpg)](https://assets.postman.com/postman-docs/log-var-v8.jpg)
 

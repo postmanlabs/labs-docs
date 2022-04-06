@@ -269,10 +269,9 @@ If you don't want to merge the pull request into the parent entity, you can decl
 
 If you're tagged as a reviewer on a pull request you can approve the pull request.
 
-To approve a pull request:
+To approve a pull request, select **Approve**.
 
-1. Select **Approve**.
-1. The button text now says **Unapprove**. If you need to revoke your approval, select the button again.
+> If you need to revoke your approval, select **Unapprove**.
 
 <img alt="Approve a pull request" src="https://assets.postman.com/postman-docs/pull-request-approve-v9.12.jpg" width="300px"/>
 
@@ -341,7 +340,7 @@ To resolve a merge conflict:
 
 <img src="https://assets.postman.com/postman-docs/conflicts-pull-changes-v2.jpg" alt="Pull Changes" width="450px"/>
 
-After you resolve the conflicts, the **Pull changes** button will be enabled and you can [pull updates](#pulling-updates).
+After you resolve the conflicts, select **Pull changes** to [pull the updates](#pulling-updates).
 
 ## Next steps
 
