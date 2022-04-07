@@ -48,7 +48,7 @@ To view build jobs, open an API version and select the **Test** tab. The most re
 
 To view the full list of build jobs, select **View All Builds**. Use the dropdown lists to filter jobs by branch or build status. To get the latest build status information, select **Refresh**.
 
-To view more details for a build, use the arrows to expand a build, and then expand **Build Steps**. For each build step you can view the name, duration, and status.
+To view more details for a build, use the arrows to expand a build and expand **Build Steps**. For each build step you can view the name, duration, and status.
 
 <img alt="View all Jenkins builds" src="https://assets.postman.com/postman-docs/jenkins-view-builds-v9-14.jpg">
 
@@ -66,61 +66,45 @@ Select **View Report** to view a collection run report in the Postman **History*
 
 ## Configuring Newman for Bitbucket Pipelines
 
-With the help of Newman and the Postman API, you can run API tests created in Postman as part of your Jenkins pipeline. First generate the Newman configuration code in Postman. Then add the configuration code to your Jenkins pipeline.
+With the help of Newman and the Postman API, you can run API tests created in Postman as part of your Bitbucket pipeline. First generate the Newman configuration code in Postman. Then add the configuration code to the `bitbucket-pipelines.yml` file in your Bitbucket repository.
 
-Each time a Jenkins build runs, Newman runs the collections that contain your tests. You can view the results of your tests in Postman. You an also configure the  [Postman cloud reporter](https://www.npmjs.com/package/newman-reporter-postman-cloud) to send detailed collection run information back to Postman.
+Each time the pipeline runs, Newman runs the collections that contain your tests. You can view the results of your tests in Postman. You an also configure the [Postman cloud reporter](https://www.npmjs.com/package/newman-reporter-postman-cloud) to send detailed collection run information back to Postman.
 
-> Before you begin, make sure you’ve already [set up an integration](#configuring-jenkins-integration) between your API version and Jenkins.
+> Before you begin, make sure you’ve already [set up an integration](#configuring-bitbucket-pipelines-integration) between your API version and Bitbucket Pipelines.
 
 To generate configuration code for Newman:
 
 1. Open your API version and select the **Test** tab.
-1. Under **CI/CD Builds**, select **View Builds**.
+1. Under **CI/CD Builds**, select **View All Builds**.
 1. Select **Configure Newman**.
 1. Select a **Collection** and **Environment** to run during Jenkins builds.
 
     > If needed, select **+ Add More** to select additional collections to run.
 
-1. (Optional) Select the check box to use the Postman cloud reporter to send detailed collection run information back to Postman. You can view the collection run details in the Postman **History** and on the API version **Test** tab.
+1. (Optional) Select the check box to use the Postman cloud reporter to send collection run information back to Postman. You can view the collection run details in the Postman **History** and on the API version **Test** tab.
 1. Select **Copy** to copy the Newman configuration, and then select **Finish**.
 
 <img alt="Generate Newman configuration" src="https://assets.postman.com/postman-docs/jenkins-generate-newman-v9-14.jpg" width="546px">
 
-To add the Newman configuration to your Jenkins pipeline:
+To add the Newman configuration to your Bitbucket pipeline:
 
-1. Open your pipeline project in Jenkins and select **Configure**.
-1. Paste the Newman configuration you copied from Postman into the **Pipeline script**:
-    * Replace `your_nodejs_configured_tool_name` with the name of your Node.js tool, for example, `node`.
+1. Edit the `bitbucket-pipelines.yml` file at the root of your Bitbucket repository.
+1. Add the Newman configuration you copied from Postman to the `bitbucket-pipelines.yml` file:
     * Replace both instances of `$POSTMAN_API_KEY` with a valid [Postman API Key](/docs/developer/intro-api/#generating-a-postman-api-key).
-1. Select **Save** and then run the pipeline using the new configuration.
-1. To view the test results in Postman, open your API version and select the **Tests** tab. For more help, see [Viewing collection run details](#viewing-collection-run-details).
+1. Commit and push the changes to your remote repository. This will automatically start a build in Bitbucket Pipelines.
+1. To view the test results in Postman, open your API and select the **Test** tab. Learn more about [Viewing collection run details](#viewing-collection-run-details).
 
-### Example of Jenkins pipeline script
+### Example bitbucket-pipelines.yml file
 
-```groovy
-pipeline {
-  agent any
+```yaml
+image: node:16
 
-  tools {nodejs "{your_nodejs_configured_tool_name}"}
-
-  stages {
-    stage('Install Newman') {
-      steps {
-        sh 'npm install -g newman'
-      }
-    }
-
-    stage ('Install Postman Cloud Reporter') {
-      steps {
-        sh 'npm install -g newman-reporter-postman-cloud'
-      }
-    }
-
-    stage('Running collection') {
-      steps {
-        sh 'newman run "https://api.getpostman.com/collections/12420868-2ffef72e-d740-456c-a0c6-a6af9ec8755c?apikey=$POSTMAN_API_KEY" -r postman-cloud --reporter-apiKey "$POSTMAN_API_KEY" --reporter-workspaceId "4f4f98fb-7127-4cb5-8cb8-fddce86d53a6" --reporter-integrationIdentifier "107267-${JOB_NAME}${BUILD_NUMBER}"'
-      }
-    }
-  }
-}
+pipelines:
+  default:
+    - step:
+        name: Run collection via newman
+        script:
+          - 'npm i -g newman'
+          - 'npm i -g newman-reporter-postman-cloud'
+          - newman run "https://api.getpostman.com/collections/735639-949d82a2-1b47-4e2a-8836-10222ba1fb51?apikey=$POSTMAN_API_KEY" -r postman-cloud --reporter-apiKey "$POSTMAN_API_KEY" --reporter-workspaceId "1b5bd345-56e0-4acd-842f-d27b3d82d0b4" --reporter-integrationIdentifier "46689-${BITBUCKET_PIPELINE_UUID}"
 ```
