@@ -13,22 +13,23 @@ contextual_links:
 
 [Bitbucket Pipelines](https://bitbucket.org/product/features/pipelines) is a continuous integration (CI) and continuous delivery (CD) service that's integrated with Bitbucket Cloud. Software development teams can use Bitbucket Pipelines to automatically build, test, and deploy code in Bitbucket.
 
-To set up a Bitbucket Pipelines integration for your API, you need to configure your API in Postman and add a `bitbucket-pipelines.yml` file to your Bitbucket repository. After you set up the integration, you can view the status of builds or kick off a new build, all from within Postman.
+To set up a Bitbucket Pipelines integration for your API, you need to create a pipeline in Bitbucket and configure your API in Postman. After you set up the integration, you can view the status of builds or kick off a new build, all from within Postman.
 
 > If your Bitbucket pipeline is configured to run API tests using [Newman](/docs/running-collections/using-newman-cli/command-line-integration-with-newman/), you can [configure the  Postman cloud reporter](#configuring-newman-for-bitbucket-pipelines) to send collection run information back to Postman.
+
+## Creating a pipeline Bitbucket
+
+If you haven't already, create a pipeline in the Bitbucket repository you use for your API. To create a pipeline, add a `bitbucket-pipelines.yml` file in the root of your repository. You define your pipeline in this YAML file. To learn more, see [the Bitbucket Pipelines documentation](https://support.atlassian.com/bitbucket-cloud/docs/get-started-with-bitbucket-pipelines/).
 
 ## Configuring Bitbucket Pipelines integration
 
 1. Open your API by selecting **APIs** in the left sidebar, and then selecting an API and a version. *Each API version can be linked to only one CI project*.
 1. Select the **Test** tab.
 1. Under **Connect to CI/CD Builds**, select **Bitbucket**.
-
-    ![CI Integration](https://assets.postman.com/postman-docs/ci-add-integration-v9-15.jpg)
-
 1. You'll be prompted to authorize Postman to access your Bitbucket account. After you grant access, you can close the browser tab and return to Postman.
 1. Enter a **Nickname** to help you recognize the integration later.
 1. Select the Bitbucket **Workspace** with your API repository.
-1. For **CI project**, select the Bitbucket repository used for your API.
+1. For **CI project**, select the Bitbucket repository you use for your API.
 1. Select **Connect**.
 
     <img alt="Add API key" src="https://assets.postman.com/postman-docs/jenkins-connect-project-v9-15.jpg" width="527px">
