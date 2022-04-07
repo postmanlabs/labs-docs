@@ -105,20 +105,20 @@ class IndexPage extends React.Component {
               <div className="row justify-content-center">
                 <div className="col-sm-6 col-lg-4 mb-3 mb-md-4 pr-md-5">
                   <LandingCard
-                    title="Get Started"
+                    title="Get Started with Postman"
                     description="Send your first API request in Postman in just a few clicks!"
                     cta="Send a request"
                     link="/docs/getting-started/sending-the-first-request/"
-                    icon={LearnImage}
+                    icon="https://voyager.postman.com/icon/spaceship-rocket-launch-icon-postman.svg"
                   />
                 </div>
                 <div className="col-sm-6 col-lg-4 mb-3 mb-md-4 pr-md-5">
                   <LandingCard
-                    title="Test"
+                    title="Test with Postman"
                     description="Write test scripts and build automation into your workflow."
                     link="/docs/writing-scripts/intro-to-scripts/"
                     cta="Create tests"
-                    icon={TestImage}
+                    icon="https://voyager.postman.com/icon/flask-science-beaker-test-icon-postman.svg"
                   />
                 </div>
                 <div className="col-sm-6 col-lg-4 mb-3 mb-md-4 pr-md-5">
@@ -127,7 +127,7 @@ class IndexPage extends React.Component {
                     description="Tackle a new challenge each day with these developer tutorials."
                     link="https://www.postman.com/postman/workspace/30-days-of-postman-for-developers/overview"
                     cta="Start challenge"
-                    icon={ThirtyDaysImage}
+                    icon="https://voyager.postman.com/icon/trophy-award-icon-postman.svg"
                   />
                 </div>
                 <div className="col-sm-6 col-lg-4 mb-3 mb-md-4 pr-md-5">
@@ -136,7 +136,7 @@ class IndexPage extends React.Component {
                     description="See previous and upcoming educational webinars."
                     cta="See webinars"
                     link="https://www.postman.com/events/postman-space-camp/"
-                    icon={SpaceCampImage}
+                    icon="https://voyager.postman.com/icon/camp-tent-icon-postman.svg"
                   />
                 </div>
                 <div className="col-sm-6 col-lg-4 mb-3 mb-md-4 pr-md-5">
@@ -145,16 +145,16 @@ class IndexPage extends React.Component {
                     description="Browse APIs, workspaces, and collections inside Postman."
                     link="https://www.postman.com/explore"
                     cta="Explore Postman"
-                    icon={NetworkImage}
+                    icon="https://voyager.postman.com/icon/hotspot-network-icon-postman.svg"
                   />
                 </div>
                 <div className="col-sm-6 col-lg-4 mb-3 mb-md-4 pr-md-5">
                   <LandingCard
-                    title="Videos"
+                    title="Postman Videos"
                     description="Learn Postman skills from our video playlists."
                     link="https://www.youtube.com/c/Postman"
                     cta="Watch videos"
-                    icon={VideoImage}
+                    icon="https://voyager.postman.com/icon/play-movie-video-film-icon-postman.svg"
                   />
                 </div>
               </div>
@@ -302,7 +302,7 @@ class IndexPage extends React.Component {
                 title="Postman support"
                 description="Reach out to our support team."
                 cta="Open a ticket"
-                icon={SupportImage}
+                icon="https://voyager.postman.com/icon/support-life-ring-icon-postman.svg"
                 link="https://support.postman.com/hc/en-us/requests/new/"
               />
             </div>
@@ -311,16 +311,16 @@ class IndexPage extends React.Component {
                 title="Bugs and feature requests"
                 description="Check out the app support repo."
                 cta="Make a request"
-                icon={BugImage}
+                icon="https://voyager.postman.com/icon/bug-error-icon-postman.svg"
                 link="https://github.com/postmanlabs/postman-app-support/"
               />
             </div>
             <div className="col-sm-6 col-lg-3 mb-sm-4 mb-md-0 pr-md-5">
               <LandingCard
-                title="Community"
+                title="Postman Community"
                 description="Join the Postman community."
                 cta="Visit forum"
-                icon={CommunityImage}
+                icon="https://voyager.postman.com/icon/community-three-people-icon-postman.svg"
                 link="https://community.postman.com/"
               />
             </div>
@@ -329,7 +329,7 @@ class IndexPage extends React.Component {
                 title="Postman Answers"
                 description="Code samples for most commonly asked questions."
                 cta="Visit Postman Answers"
-                icon={SolutionImage}
+                icon="https://voyager.postman.com/icon/solution-puzzle-answers-icon-postman.svg"
                 link="https://www.postman.com/postman/workspace/postman-answers/"
               />
             </div>
