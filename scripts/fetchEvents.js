@@ -1,6 +1,13 @@
 const fs = require('fs');
 const path = require('path');
 const fetch = require('node-fetch');
+const requestOptions = {
+  method: 'GET',
+  headers: {
+    bff: 'e2e'
+  },
+  redirect: 'follow'
+};
 
 require('dotenv').config({
   path: `.env.${process.env.NODE_ENV}`,
@@ -10,7 +17,7 @@ const host = process.env.BFF_EVENTS_URL || ''
 
 function fetchEvents() {
   if (host) {
-    return fetch(host)
+    return fetch(host, requestOptions)
     .then(
       (res) => {
         res.text()
