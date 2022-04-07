@@ -31,6 +31,7 @@ The Postman Token Scanner scans your public workspaces, collections, environment
     * [Default alerts](#default-alerts)
     * [Custom alerts](#custom-alerts)
 * [Token scanner dashboard](#token-scanner-dashboard)
+* [Protecting Postman API keys in GitHub](#protecting-postman-api-keys-in-github)
 
 ## Use cases
 
@@ -100,3 +101,9 @@ To add custom alerts:
 You can view your team's configured [default](#default-alerts) and [custom](#custom-alerts) alerts in your [data security dashboard](https://go.postman.co/settings/team/token-scanner). Select **Team** in the upper-right > **Team Settings**. Then, select **Data security** on the left, and select **Token scanner**.
 
 <img alt="Data security dashboard" src="https://assets.postman.com/postman-docs/data-security-dashboard.jpg"/>
+
+## Protecting Postman API keys in GitHub
+
+Postman also works with GitHub to ensure that your Postman API keys are kept secure. In the event you commit a valid Postman API key to a public GitHub repository, Postman will notify you immediately via email to delete the compromised API key in your [API keys dashboard](https://go.postman.co/settings/me/api-keys). You can then [generate a new API key](/docs/developer/intro-api/#generating-a-postman-api-key) to continue working with the Postman API.
+
+> For more information, see [GitHub secret scanning](https://help.github.com/en/github/administering-a-repository/about-token-scanning).
