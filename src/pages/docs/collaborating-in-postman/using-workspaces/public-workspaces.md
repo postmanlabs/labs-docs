@@ -75,7 +75,7 @@ For more tips on how to create a public profile, see [How to create your Postman
 
 To create a new public workspace:
 
-1. Open the workspace menu, then select **Create Workspace**.
+1. Select **Workspaces** from the header, then select **Create Workspace**.
 
     <img alt="Workspace menu" src="https://assets.postman.com/postman-docs/workspace-switcher-v9.1.jpg" width="400px"/>
 
@@ -99,7 +99,7 @@ To convert an existing workspace to a public workspace:
 
 Once you make a workspace public, all entities within that workspace become publicly accessible through the workspace.
 
-When you make a workspace public, Postman sends in-app and email notifications to all workspace members. To view your in-app notifications, select the notification icon <img alt="Changelog icon" src="https://assets.postman.com/postman-docs/icon-notification-bell-v9.jpg#icon" width="18px"> in the top right corner of Postman.
+When you make a workspace public, Postman sends in-app and email notifications to all workspace members. To view your in-app notifications, select the notification icon <img alt="Changelog icon" src="https://assets.postman.com/postman-docs/icon-notification-bell-v9.jpg#icon" width="18px"> in the Postman header.
 
 ## Inviting collaboration on a public workspace
 
@@ -163,7 +163,7 @@ You can delete Postman elements from a public workspace for which you have an [A
 1. Select the three dots icon <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> next to the element's name, then select **Delete**.
 1. Select **Delete** to confirm your choice.
 
-You can retrieve the deleted element by selecting <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> **Trash** from the status bar.
+You can retrieve the deleted element by selecting <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> **Trash** from the footer.
 
 ### Deleting a public workspace
 
@@ -187,17 +187,17 @@ If you have a [team Admin role](/docs/collaborating-in-postman/roles-and-permiss
 
 ## Collaborating in another user's public workspace
 
-To collaborate with someone else in their public workspace, open the **Workspace** menu and select the workspace you want to work in.
+To collaborate with someone else in their public workspace, select **Workspaces** from the header, and then select the workspace you want to work in.
 
 For **collections** and **environments**, [create a fork](/docs/collaborating-in-postman/version-control-for-collections/#forking-a-collection) and request to merge changes using a [pull request](/docs/collaborating-in-postman/version-control-for-collections/#creating-pull-requests).
 
 For **APIs**, select the API and version. Select the **Definition** tab and then select **Request Access** to request an editor role.
 
-You can access public workspaces using the Postman Explore page's [**Workspaces** category](https://www.postman.com/explore/workspaces). You can also access the public workspaces that you own or are a member of using the **Workspaces** selector at the top of Postman.
+You can access public workspaces using the Postman Explore page's [**Workspaces** category](https://www.postman.com/explore/workspaces). You can also access the public workspaces that you own or are a member of using **Workspaces** in the header.
 
 ![Access public workspaces](https://assets.postman.com/postman-docs/accessing-public-workspaces.jpg)
 
-You can view who's active in a public workspace via the list of avatars in the top right corner of Postman. This list will include all active users with [public profiles](/docs/getting-started/postman-account/#making-your-profile-public) as well as users who've chosen to remain anonymous by not enabling their public profile.
+You can view who's active in a public workspace via the list of avatars in the Postman header. This list will include all active users with [public profiles](/docs/getting-started/postman-account/#making-your-profile-public) as well as users who've chosen to remain anonymous by not enabling their public profile.
 
 <img alt="Active users in public workspace" src="https://assets.postman.com/postman-docs/presence-public-workspace-v9.15.jpg" width="250px"/>
 

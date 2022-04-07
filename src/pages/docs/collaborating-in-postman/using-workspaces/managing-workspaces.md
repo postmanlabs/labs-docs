@@ -161,7 +161,7 @@ To move an element to a different workspace:
 
 ## Seeing who is in your workspace
 
-You can view who's active in your workspace at any time via the list of avatars in the top right corner of Postman. If you're in a private or team workspace, this list will include all team members who are currently active in the workspace, as well as all team members who are currently inactive, but have visited the workspace before.
+You can view who's active in your workspace at any time via the list of avatars in the Postman header. If you're in a private or team workspace, this list will include all team members who are currently active in the workspace, as well as all team members who are currently inactive, but have visited the workspace before.
 
 If you're in a public workspace, this list will include all active users with [public profiles](/docs/getting-started/postman-account/#making-your-profile-public) as well as users who've chosen to remain anonymous by not enabling their public profile.
 

@@ -174,7 +174,7 @@ To recover a deleted collection:
 1. Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> next to the collection search bar.
 1. Select **Open Trash**.
 
-    > Alternatively, select the trash can icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> from the status bar in the bottom right corner in Postman.
+    > Alternatively, select the trash can icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> from the Postman footer.
 
 1. In the Trash page, select the restore icon <img alt="Restore icon" src="https://assets.postman.com/postman-docs/icon-restore-v9.jpg" width="14px"> next to the collection you want to recover.
 
@@ -208,7 +208,7 @@ To watch a collection:
 
 To view notifications about what has changed in a collection you watch:
 
-1. Select the bell icon <img alt="Notification icon" src="https://assets.postman.com/postman-docs/icon-notification-bell-v9.jpg#icon" width="18px"> in the top right corner of Postman to view the notification. Select **View changelog** to view the collection's changelog.
+1. Select the notifications icon <img alt="Notification icon" src="https://assets.postman.com/postman-docs/icon-notification-bell-v9.jpg#icon" width="18px"> in the Postman header to view the notification. Select **View changelog** to view the collection's changelog.
 
     <img alt="Notification Collection Watching" src="https://assets.postman.com/postman-docs/collection-watch-notification-v9.jpg" width="500px"/>
 

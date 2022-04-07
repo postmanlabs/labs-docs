@@ -77,7 +77,7 @@ Select __Watch__ to start watching the API.
 
 <img src="https://assets.postman.com/postman-docs/watch-button-v9.jpg" alt="Watch Option" width="350px"/>
 
-Select the bell icon <img alt="Notifications icon" src="https://assets.postman.com/postman-docs/icon-notification-bell-v9.jpg#icon" width="18px"> on the top right corner to view the notification. The popup will indicate further information about the change that was made to the API.
+Select the notifications icon <img alt="Notifications icon" src="https://assets.postman.com/postman-docs/icon-notification-bell-v9.jpg#icon" width="18px"> in the Postman header. The popup will indicate further information about the change that was made to the API.
 
 ![Notification Watch API](https://assets.postman.com/postman-docs/v8-watch-notification2.jpg)
 

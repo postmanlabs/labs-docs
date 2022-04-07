@@ -207,7 +207,7 @@ To change your watching notification settings:
 
 To view notifications for a watched pull request:
 
-1. Select the bell icon <img alt="Notifications icon" src="https://assets.postman.com/postman-docs/icon-notification-bell-v9.jpg#icon" width="18px"> in the top right corner of Postman. The popup indicates further information about the change that was made to the pull request.
+1. Select the notifications icon <img alt="Notifications icon" src="https://assets.postman.com/postman-docs/icon-notification-bell-v9.jpg#icon" width="18px"> in the Postman header. The popup indicates further information about the change that was made to the pull request.
 
 > If you create a pull request and modify it from the same Postman account, you won't receive any notifications about changes made to the pull request.
 

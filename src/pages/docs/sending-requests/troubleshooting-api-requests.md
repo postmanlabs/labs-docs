@@ -56,7 +56,7 @@ The Postman console logs the following information:
 
 ### Opening the console
 
-Open the console by selecting **Console** in the status bar at the bottom left of Postman. In the Postman Desktop app, you can also select **⌘+Option+C** or **Ctrl+Alt+C**.
+Open the console by selecting <img alt="Console icon" src="https://assets.postman.com/postman-docs/icon-console-v9.jpg#icon" width="16px"> **Console** in the Postman footer. In the Postman Desktop app, you can also select **⌘+Option+C** or **Ctrl+Alt+C**.
 
 <img alt="Open the console" src="https://assets.postman.com/postman-docs/console-pane-button.jpg" width="350px"/>
 

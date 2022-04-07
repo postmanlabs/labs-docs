@@ -232,6 +232,7 @@ Socket.IO typically uses WebSockets as its transport layer, but sometimes uses H
 
 ## Troubleshooting WebSocket requests
 
-You can use the console to debug issues with a WebSocket connection. To open the console and view log messages, select **Console** in the status bar at the bottom left of Postman.
+You can use the console to debug issues with a WebSocket connection. To open the console and view log messages, select
+<img alt="Console icon" src="https://assets.postman.com/postman-docs/icon-console-v9.jpg#icon" width="16px"> **Console** in the Postman footer.
 
 For more information on using the console, see [Troubleshooting requests](/docs/sending-requests/troubleshooting-api-requests/).

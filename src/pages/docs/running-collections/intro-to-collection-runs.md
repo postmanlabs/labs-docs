@@ -52,7 +52,7 @@ To run a collection, open a collection and select __Run__ on the overview tab.
 
 [![Collection Run](https://assets.postman.com/postman-docs/collection-run-button-v8.jpg)](https://assets.postman.com/postman-docs/collection-run-button-v8.jpg)
 
-You can also select __Runner__ at the bottom right of Postman and drag a collection over from __Collections__ or __History__ on the left.
+You can also select <img alt="Runner icon" src="https://assets.postman.com/postman-docs/icon-runner-v9.jpg#icon" width="16px"> __Runner__ from the Postman footer and drag a collection over from __Collections__ or __History__ on the left.
 
 <img alt="Run history" src="https://assets.postman.com/postman-docs/run-history-v8.jpg" width="350px"/>
 

@@ -208,7 +208,7 @@ You can also export your environments from Postman.
 
 1. Select the **Environments** tab from the left navigation menu.
 1. Select an environment to export.
-1. In the top right corner, select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px">.
+1. In the main work area, select the more actions icon <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px">.
 1. Select **Export** to download your newly generated JSON file.
 
 ### Exporting data dumps
