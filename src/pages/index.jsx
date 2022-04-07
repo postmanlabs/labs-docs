@@ -6,24 +6,10 @@ import SEO from '../components/seo';
 import '../../styles/config/_pm-icons.css';
 import upcomingEvents from '../../bff-data/events.json';
 import HeroImage from '../assets/refresh-hero-image.svg';
-// import TeamCollaborationImage from '../assets/team-collaboration-postmanaut-pic.png';
-
-import LearnImage from '../assets/icons/spaceship.svg';
-import ThirtyDaysImage from '../assets/icons/trophy.svg';
-import SpaceCampImage from '../assets/icons/camp.svg';
-import NetworkImage from '../assets/icons/hotspot.svg';
-import TestImage from '../assets/icons/flask.svg';
-import VideoImage from '../assets/icons/movie.svg';
-import SupportImage from '../assets/icons/support.svg';
-import BugImage from '../assets/icons/bug.svg';
-import CommunityImage from '../assets/icons/community.svg';
-import SolutionImage from '../assets/icons/solution.svg';
-
 import { LandingCard } from '../components/MarketingPages/Cards';
 import '../../styles/config/normalize.css';
 import '../components/MarketingPages/Buttons.scss';
 import './index.scss';
-
 
 const heroBackground = {
   backgroundColor: '#f9f9f9',
