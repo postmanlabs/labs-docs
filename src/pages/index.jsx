@@ -163,7 +163,7 @@ class IndexPage extends React.Component {
                 <iframe
                   loading="lazy"
                   className="embed-responsive-item "
-                  src="https://www.youtube-nocookie.com/embed/2oOSnxZ28fA?rel=0"
+                  src="https://www.youtube.com/embed/2oOSnxZ28fA?rel=0&origin=https://learning.postman.com/"
                   title="Intro to Postman"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
