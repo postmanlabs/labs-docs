@@ -19,11 +19,6 @@ contextual_links:
   - type: link
     name: "HTTP protocol explained"
     url:  "https://www.youtube.com/watch?v=FAnuh0_BU4c&list=PLM-7VG-sgbtBBnWb2Jc5kufgtWYEmiMAw"
-  - type: subtitle
-    name: "Blog Posts"
-  - type: link
-    name: "Inspecting Postman Requests"
-    url: "https://blog.postman.com/debugging-postman-requests/"
   - type: section
     name: "Next Steps"
   - type: link
