@@ -67,9 +67,9 @@ Select **Save** to save the request in a collection. [Collections](/docs/sending
 
 <img alt="Save a request" src="https://assets.postman.com/postman-docs/mock-examples-step2a-v9-1.jpg" width="808px">
 
-Select **New Collection** at the bottom of the **Save Request** dialog box. Enter `C1` for the collection name and select **Create**. Then select **Save** to save the request to the new collection.
+Enter a **Request name**. Instead of selecting an existing collection in **Save to**, select **New Collection**. Enter `C1` for the collection name and select **Create**. Then select **Save** to save the request to the new collection.
 
-<img alt="Save a request dialog box" src="https://assets.postman.com/postman-docs/mock-examples-step2b-v9-1.jpg" width="482px">
+<img alt="Save a request to a new collection" src="https://assets.postman.com/postman-docs/mock-examples-step2b-v9-1.jpg" width="482px">
 
 ### Step 3: Save a response as an example
 
