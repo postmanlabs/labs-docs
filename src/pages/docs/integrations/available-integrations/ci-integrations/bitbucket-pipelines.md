@@ -48,15 +48,15 @@ To view build jobs, open an API version and select the **Test** tab. The most re
 
 To view the full list of build jobs, select **View All Builds**. Use the dropdown lists to filter jobs by branch or build status. To get the latest build status information, select **Refresh**.
 
+To view more details for a build, use the arrows to expand a build, and then expand **Build Steps**. For each build step you can view the name, duration, and status.
+
 <img alt="View all Jenkins builds" src="https://assets.postman.com/postman-docs/jenkins-view-builds-v9-14.jpg">
 
 ## Viewing collection run details
 
-Using Newman, you can run Postman collections with your API tests as part of a Jenkins pipeline. The Postman cloud reporter can send details about the collection runs back to Postman.
+Using Newman, you can run Postman collections with your API tests as part of a Bitbucket pipeline. The Postman cloud reporter can send details about the collection runs back to Postman.
 
-You can also view the results of collection runs that are [configured in your pipeline using Newman](#configuring-newman-for-jenkins).
-
-To view details for collections that were run as part of a build, first [configure Newman for Jenkins](#configuring-newman-for-jenkins) and then [kick off a new build](#viewing-build-status). After the build is complete, use the arrows to expand a build and expand **Collection Runs**. Then expand a collection to view details about a collection run.
+To view details for collections that were run as part of a build, first [configure Newman for Bitbucket Pipelines](#configuring-newman-for-bitbucket-pipelines) and then [start a new build](#viewing-build-status). After the build is complete, use the arrows to expand a build and expand **Collection Runs**. Then expand a collection to view details about a collection run.
 
 <img alt="View collection runs" src="https://assets.postman.com/postman-docs/jenkins-collection-runs-v9-14.jpg">
 
