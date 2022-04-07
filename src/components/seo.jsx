@@ -103,9 +103,6 @@
        {/* Algolia Instantsearch IE11 support v4 */}
        <link rel="dns-prefetch" href="https://polyfill.io" />
        <link crossOrigin rel="preconnect" href="https://polyfill.io" />
-       <script src="https://polyfill.io/v3/polyfill.min.js?features=default%2CArray.prototype.find%2CArray.prototype.includes%2CPromise%2CObject.assign%2CObject.entries" />
- 
- 
      </Helmet>
    );
  }
