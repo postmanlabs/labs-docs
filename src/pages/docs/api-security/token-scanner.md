@@ -106,4 +106,4 @@ You can view your team's configured [default](#default-alerts) and [custom](#cus
 
 Postman also works with GitHub to ensure that your Postman API keys are kept secure. In the event you commit a valid Postman API key to a public GitHub repository, Postman will notify you immediately via email to delete the compromised API key in your [API keys dashboard](https://go.postman.co/settings/me/api-keys). You can then [generate a new API key](/docs/developer/intro-api/#generating-a-postman-api-key) to continue working with the Postman API.
 
-> For more information, see [GitHub secret scanning](https://help.github.com/en/github/administering-a-repository/about-token-scanning).
+> For more information, see [About secret scanning](https://help.github.com/en/github/administering-a-repository/about-token-scanning) in the GitHub documentation.
