@@ -36,19 +36,16 @@ If you haven't already, create a pipeline in the Bitbucket repository you use fo
 
 ## Viewing build status
 
-After you set up a Bitbucket Pipelines integration, information for build jobs is available in Postman. For each build you can view the branch, start time, duration, and status (successful or failed).
+After you set up a Bitbucket Pipelines integration, information for build jobs is available in Postman. For each build you can view the branch, start time, duration, and status (successful or failed). You can also view the results of collection runs that are [configured in your pipeline using Newman](#viewing-collection-run-details).
 
-To view build jobs, open an API version and select the **Test** tab. The most recent jobs are listed under **CI/CD Builds**.
+To view build jobs, open an API version and select the **Test** tab. The most recent jobs are listed under **CI/CD Builds**. To view the full list of build jobs, select **View All Builds**.
 
+* Use the dropdown lists to filter jobs by branch or build status.
 * To view a build in Bitbucket Pipelines, hover over a build and select **View build details**.
-* To start a new build, select **Run Build**.
+* To start a new build, select **Run Build**. Enter the name of the branch to use and select **Run Build**. To cancel a running build, select **Cancel** next to the build.
+* To get the latest build status information, select <img alt="Refresh icon" src="https://assets.postman.com/postman-docs/icon-refresh-v9-5.jpg#icon" width="14px"> **Refresh**.
 * To edit or delete the integration, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px">.
-
-<img alt="View recent Jenkins builds" src="https://assets.postman.com/postman-docs/jenkins-test-tab-v9-14.jpg">
-
-To view the full list of build jobs, select **View All Builds**. Use the dropdown lists to filter jobs by branch or build status. To get the latest build status information, select **Refresh**.
-
-To view more details for a build, use the arrows to expand a build and expand **Build Steps**. For each build step you can view the name, duration, and status.
+* To view more details for a build, use the arrows to expand a build and expand **Build Steps**. For each build step you can view the name, duration, and status.
 
 <img alt="View all Jenkins builds" src="https://assets.postman.com/postman-docs/jenkins-view-builds-v9-14.jpg">
 
