@@ -64,7 +64,7 @@ To fork a collection or environment:
 1. Select the entity in the left sidebar.
 2. In the overview tab that appears, select **Fork** <img alt="Fork icon" src="https://assets.postman.com/postman-docs/icon-fork.jpg#icon" width="14px"> in the upper right.
 
-    > You can also create a fork by hovering over the entity in the left sidebar and selecting the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> that appear next to its name, then **Create a Fork**.
+    > You can also create a fork by hovering over the entity in the left sidebar and selecting the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to its name, then **Create a Fork**.
 
 3. Enter a label for your fork, and select a workspace to save it to.
 4. Select **Fork Collection** or **Fork Environment**.
@@ -103,7 +103,7 @@ When you have made the changes that you want to a forked collection or environme
 To create a pull request:
 
 1. Hover over the entity in the left sidebar.
-1. Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> that appear next to its name.
+1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to its name.
 
 1. Select **Create pull request**.
 
@@ -152,7 +152,7 @@ Pull request settings let you manage permissions for reviewers and assign merge 
 #### Manage reviewer permissions
 
 1. Hover over the entity in the left sidebar.
-1. Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> that appear next to its name.
+1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to its name.
 1. Select **Manage roles**.
 
     <img alt="Collection Manage Roles" src="https://assets.postman.com/postman-docs/collection-manage-roles-v9.1.jpg" width="300px"/>
@@ -174,7 +174,7 @@ There are two different types of checks that you can enable for a pull request:
 To set merge checks for pull requests on a specific collection:
 
 1. Hover over the collection in the left sidebar.
-1. Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> that appear next to its name.
+1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to its name.
 1. Select **Manage roles**.
 1. Select the merge checks that you want to set for the collection.
 
@@ -256,13 +256,13 @@ You can edit a pull request's details before approving it, or you can decline it
 
 To edit the pull request details:
 
-1. Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> at the upper right and select **Edit**.
+1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> at the upper right and select **Edit**.
 1. Make any changes to the pull request's title, description, and list of reviewers.
 1. Select **Save Changes**.
 
 If you don't want to merge the pull request into the parent entity, you can decline it. Declined pull requests can't be reopened, so if you want to request edits or offer feedback, [add a comment](#adding-comments) instead. To decline the pull request:
 
-1. Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> at the upper right and select **Decline**.
+1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> at the upper right and select **Decline**.
 1. Select **Decline Pull Request**.
 
 ### Approving a pull request
@@ -319,7 +319,7 @@ If you have Editor access on the entity, you can merge a fork into the parent en
 To merge changes from a fork without opening a pull request:
 
 1. Hover over the fork in the left sidebar.
-1. Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> that appear next to its name.
+1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to its name.
 
 1. Select **Merge changes**.
 1. Review the diff and select **Merge all changes**.

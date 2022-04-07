@@ -149,7 +149,7 @@ You can move Postman elements from your personal, private, or team workspace int
 
 To move an existing element to a public workspace:
 
-1. Select the three dots icon <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> next to the collection or environment name, then select **Move**.
+1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the collection or environment name, then select **Move**.
 1. Select the public workspace to which you want to move the collection or environment, then select **Move Collection** or **Move Environment**.
 
 The Postman element that you move to the public workspace will no longer exist in the original workspace.
@@ -160,7 +160,7 @@ The Postman element that you move to the public workspace will no longer exist i
 
 You can delete Postman elements from a public workspace for which you have an [Admin or Editor role](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles):
 
-1. Select the three dots icon <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> next to the element's name, then select **Delete**.
+1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the element's name, then select **Delete**.
 1. Select **Delete** to confirm your choice.
 
 You can retrieve the deleted element by selecting <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> **Trash** from the footer.

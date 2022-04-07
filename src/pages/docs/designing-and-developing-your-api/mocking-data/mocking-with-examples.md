@@ -87,7 +87,7 @@ To rename the example, select the edit icon <img alt="Edit icon" src="https://as
 
 ### Step 4: Create a mock server for the collection
 
-Now that you've added an example to your collection, you're ready to set up a mock server. Select **Collections** in the left sidebar. Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> next to the `C1` collection, and then select **Mock collection**.
+Now that you've added an example to your collection, you're ready to set up a mock server. Select **Collections** in the left sidebar. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the `C1` collection, and then select **Mock collection**.
 
 <img alt="Mock a collection" src="https://assets.postman.com/postman-docs/mock-examples-step4a-v9-1.jpg" width="455px">
 

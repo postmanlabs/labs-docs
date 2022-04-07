@@ -74,7 +74,7 @@ Select __View in Console__ to see the request detail in the console and find out
 
 In the console, you will see network information, request and response headers and body for each request, together with any console output messages coming from your scripts.
 
-Filter by log message type under **All Logs**. Select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> to toggle timestamps and network information on or off.
+Filter by log message type under **All Logs**. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> to turn timestamps and network information on or off.
 
 <img alt="Console options" src="https://assets.postman.com/postman-docs/console-pane-log-options-v8.jpg" width="350px"/>
 

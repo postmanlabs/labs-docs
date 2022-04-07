@@ -169,4 +169,4 @@ At the top of the dashboard tab, you can:
 
     <img src="https://assets.postman.com/postman-docs/api-builder-apm-page.jpg" alt="New Relic APM" width="350px"/>
 
-To reconfigure the connection to New Relic, select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> and choose **Edit integration**. You can then change the nickname, API key, services, dashboards or region. You can also choose **Delete integration** to remove the connection.
+To reconfigure the connection to New Relic, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> and choose **Edit integration**. You can then change the nickname, API key, services, dashboards or region. You can also choose **Delete integration** to remove the connection.

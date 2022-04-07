@@ -96,7 +96,7 @@ To load a saved message:
 
 You can also create a new message from the **Saved Messages** pane by selecting <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px"> **Compose Message**.
 
-To rename, duplicate, or delete a saved message, select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> and then select **Rename**, **Duplicate**, or **Delete**.
+To rename, duplicate, or delete a saved message, select the more actions icon <<img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> and then select **Rename**, **Duplicate**, or **Delete**.
 
 ### Adding Socket.IO event names and arguments
 
