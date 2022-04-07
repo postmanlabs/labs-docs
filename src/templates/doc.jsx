@@ -12,7 +12,6 @@ const { v4: uuidv4 } = require('uuid');
 
 import './doc.scss';
 import 'prismjs/themes/prism-tomorrow.css';
-import pose from '../assets/pose-learning-center.svg';
 import { useModal } from '../components/modules/Modal';
 import PreviousAndNextLinks from '../components/modules/PreviousAndNextLinks';
 import BreadCrumbsLinks from '../components/modules/BreadCrumbsLinks';
@@ -79,7 +78,7 @@ const DocPage = ({ data }) => {
                 </div>
                 <DisplayContextualLinks data={data} />
                 <figure className="sticky posmanaut-dab">
-                  <img src={pose} alt="pose" className="img-fluid" />
+                  <img src="https://voyager.postman.com/illustration/postmanaut-posing-dancing-postman-illustration.svg" alt="Posmanaut dancing. Illustration." className="img-fluid" />
                 </figure>
               </aside>
             </div>
