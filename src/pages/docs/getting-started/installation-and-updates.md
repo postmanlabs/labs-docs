@@ -23,9 +23,6 @@ contextual_links:
   - type: subtitle
     name: "Blog Posts"
   - type: link
-    name: "First 5 things to try if you're new to Postman"
-    url: "https://blog.postman.com/first-5-things-to-try-if-youre-new-to-postman/"
-  - type: link
     name: "Introducing the Postman Agent: Send API Requests from Your Browser without Limits"
     url: "https://blog.postman.com/introducing-the-postman-agent-send-api-requests-from-your-browser-without-limits/"
   - type: section

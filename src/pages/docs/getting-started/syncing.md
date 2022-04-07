@@ -10,13 +10,6 @@ contextual_links:
     name: "Download and Install"
     url: "https://www.postman.com/downloads/"
   - type: section
-    name: "Additional Resources"
-  - type: subtitle
-    name: "Blog Posts"
-  - type: link
-    name: "Backup and Sync your Postman Collections on GitHub"
-    url: "https://blog.postman.com/backup-and-sync-your-postman-collections-on-github/"
-  - type: section
     name: "Next Steps"
   - type: link
     name: "Sending your first request"

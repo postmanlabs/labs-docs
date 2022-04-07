@@ -20,20 +20,8 @@ contextual_links:
   - type: subtitle
     name: "Blog Posts"
   - type: link
-    name: "Sync your specs"
-    url: "https://blog.postman.com/sync-your-specs/"
-  - type: link
-    name: "Importing SoapUI projects into Postman"
-    url: "https://blog.postman.com/importing-soapui-projects-into-postman/"
-  - type: link
-    name: "Importing RAML folders into Postman"
-    url: "https://blog.postman.com/supporting-raml-folders-in-postman/"
-  - type: link
-    name: "Introducing Postman Collection Format Schema"
-    url: "https://blog.postman.com/introducing-postman-collection-format-schema/"
-  - type: link
-    name: "Travelogue of Postman Collections Format v2"
-    url: "https://blog.postman.com/travelogue-of-postman-collection-format-v2/"
+    name: "Latest Updates to Syncing Your Specs with Collections"
+    url: "https://blog.postman.com/latest-updates-to-syncing-your-specs-with-collections/"
   - type: link
     name: "Postman Supports WSDL"
     url: "https://blog.postman.com/postman-now-supports-wsdl/"
