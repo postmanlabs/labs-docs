@@ -19,7 +19,7 @@ To set up a Jenkins integration for your API, first create an API token in Jenki
 
 ## Creating a Jenkins API token
 
-1. Log into Jenkins.
+1. Sign in to Jenkins.
 1. Select your user name at the upper right, and then select **Configure**.
 1. Select **Add new Token**.
 1. Enter a name for the token and select **Generate**.
@@ -40,7 +40,7 @@ To set up a Jenkins integration for your API, first create an API token in Jenki
 1. Select the **CI project** used for your API.
 1. Select **Connect**.
 
-    <img alt="Add API key" src="https://assets.postman.com/postman-docs/jenkins-connect-project-v9-15.jpg" width="527px">
+<img alt="Connect to Jenkins" src="https://assets.postman.com/postman-docs/jenkins-connect-project-v9-15.jpg" width="527px">
 
 ## Viewing build status
 
@@ -95,7 +95,7 @@ To add the Newman configuration to your Jenkins pipeline:
 1. Open your pipeline project in Jenkins and select **Configure**.
 1. Paste the Newman configuration you copied from Postman into the **Pipeline script**:
     * Replace `your_nodejs_configured_tool_name` with the name of your Node.js tool, for example, `node`.
-    * Replace both instances of `$POSTMAN_API_KEY` with a valid [Postman API Key](/docs/developer/intro-api/#generating-a-postman-api-key).
+    * Replace all instances of `$POSTMAN_API_KEY` with a valid [Postman API Key](/docs/developer/intro-api/#generating-a-postman-api-key).
 1. Select **Save** and then run the pipeline using the new configuration.
 1. To view the test results in Postman, open your API version and select the **Tests** tab. For more help, see [Viewing collection run details](#viewing-collection-run-details).
 

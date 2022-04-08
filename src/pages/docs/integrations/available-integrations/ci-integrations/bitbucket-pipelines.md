@@ -87,7 +87,7 @@ To add the Newman configuration to your Bitbucket pipeline:
 
 1. Edit the `bitbucket-pipelines.yml` file at the root of your Bitbucket repository.
 1. Add the Newman configuration you copied from Postman to the `bitbucket-pipelines.yml` file:
-    * Replace both instances of `$POSTMAN_API_KEY` with a valid [Postman API Key](/docs/developer/intro-api/#generating-a-postman-api-key).
+    * Replace all instances of `$POSTMAN_API_KEY` with a valid [Postman API Key](/docs/developer/intro-api/#generating-a-postman-api-key).
 1. Commit and push the changes to your remote repository. This will automatically start a build in Bitbucket Pipelines.
 1. To view the test results in Postman, open your API and select the **Test** tab. Learn more about [Viewing collection run details](#viewing-collection-run-details).
 

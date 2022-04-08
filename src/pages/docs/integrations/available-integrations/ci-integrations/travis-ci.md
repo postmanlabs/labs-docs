@@ -23,7 +23,7 @@ To set up Travis CI integration for your API, first create an API token in Travi
 
 ## Configuring a Travis CI integration
 
-1. Open your API by selecting **APIs** in the left sidebar, and then selecting an API and a version. *Each API version can be linked to one CI project*.
+1. Open your API by selecting **APIs** in the sidebar, and then selecting an API and a version. *Each API version can be linked to one CI project*.
 1. Select the **Test** tab.
 1. Under **Connect to CI/CD Builds**, select **Travis CI**.
 1. For **API Key**, enter your Travis CI token.
@@ -31,15 +31,46 @@ To set up Travis CI integration for your API, first create an API token in Travi
 1. Select the **CI project** used for your API.
 1. Select **Connect**.
 
-    <img alt="Add API key" src="https://assets.postman.com/postman-docs/travis-ci-connect-project-v9-15.jpg" width="522px">
+<img alt="Connect to Travis CI" src="https://assets.postman.com/postman-docs/travis-ci-connect-project-v9-15.jpg" width="522px">
+
+## Viewing build status
+
+After you set up a Travis CI integration, status information for build jobs is available in Postman. For each build you can view the commit message, the branch the build ran on, the start time and duration, and the build status (passed or failed).
+
+To view build jobs, open an API version and select the **Test** tab. The most recent jobs are listed under **CI/CD Builds**.
+
+Select **View All Builds** to view the full list of build jobs. From here you can take the following actions:
+
+* Use the dropdown lists to filter jobs by branch or build status.
+* To view a build in Travis CI, hover over a build and select **View build details**.
+* To start a new build, select **Run Build**. Enter the name of the branch to use and select **Run Build**.
+* To get the latest build status information, select <img alt="Refresh icon" src="https://assets.postman.com/postman-docs/icon-refresh-v9-5.jpg#icon" width="14px"> **Refresh**.
+* To edit or delete the integration, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px">.
+
+<img alt="View all Travis CI builds" src="https://assets.postman.com/postman-docs/ci-view-builds-v9-15.jpg">
 
 ## Configuring Newman for Travis CI
 
-With the help of Newman and the Postman API, you can run API tests created in Postman as part of your CI pipeline. First [generate the Newman configuration code](/docs/integrations/ci-integrations/#configuring-newman-for-ci) in Postman. Then add the configuration code to Travis CI:
+With the help of Newman and the Postman API, you can run API tests created in Postman as part of your Travis CI pipeline. First generate the Newman configuration code in Postman. Then add the configuration code to the `.travis.yml` file in your Travis CI project.
+
+To generate configuration code for Newman:
+
+1. Open your API version and select the **Test** tab.
+1. Under **CI/CD Builds**, select **View All Builds**.
+1. Select **Configure Newman**.
+1. Select a **Collection** to run during pipeline builds. You can also select an **Environment** to use.
+
+    > If needed, select **+ Add More** to select other collections to run.
+
+1. Select **Copy** to copy the Newman configuration, and then select **Finish**.
+
+<img alt="Generate Newman configuration for CI" src="https://assets.postman.com/postman-docs/ci-generate-newman-config-v9.jpg" width="543">
+
+To add the Newman configuration to your Travis CI project:
 
 1. Create a file named **.travis.yml** at the root of your project repository.
 1. Add the Newman configuration you copied from Postman to the **.travis.yml** file:
-    * Replace both instances of `$KEY` with a valid [Postman API Key](/docs/developer/intro-api/#generating-a-postman-api-key).
+    * Replace all instances of `$KEY` with a valid [Postman API Key](/docs/developer/intro-api/#generating-a-postman-api-key).
 1. Commit and push the changes to your remote repository.
 1. In Travis CI, open the repository from the dashboard. Then select **More options > Trigger build**.
 1. To view the test results in Postman, open your API and select the **Tests** tab.
