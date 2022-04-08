@@ -158,7 +158,7 @@ The `pm.getData(callback)` method takes a callback function as its parameter. Th
 
 ## Try it out
 
-See more visualizer code working by importing any of the following collections. Use the __Run in Postman__ buttons to import from the documentation for each one. Import the collection > open a request from __Collections__ on the left sidebar in Postman > select __Send__ to run it. You'll see the rendered data in __Visualize__.
+See more visualizer code working by importing any of the following collections. Use the __Run in Postman__ buttons to import from the documentation for each one. Import the collection, then open a request from __Collections__ in the sidebar. Select __Send__ to run it. You'll see the rendered data in __Visualize__.
 
 * [DIY collection that renders a bar chart using ChartJS](https://documenter.postman.com/view/4946945/SVzz4KxB?version=latest)
 ![Bar Chart](https://assets.postman.com/postman-docs/visualizer-example-v8.jpg)

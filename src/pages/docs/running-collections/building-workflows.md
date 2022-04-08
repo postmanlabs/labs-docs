@@ -69,7 +69,7 @@ Keep the following tips in mind when using the `postman.setNextRequest()` functi
 
 ### setNextRequest() only works in Collection Runner
 
-The `postman.setNextRequest()` function has no effect when you run a request using the **Send** button and is only used when you run a collection.
+The `postman.setNextRequest()` function has no effect when you run a request using **Send** and is only used when you run a collection.
 
 ### Use setNextRequest() in pre-request or test scripts
 

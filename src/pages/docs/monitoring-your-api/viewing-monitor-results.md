@@ -56,7 +56,7 @@ warning: false
 
 ## Viewing monitors in Postman
 
-You can view your collection-based monitors in Postman by navigating to your workspace and selecting **Monitors** in the left sidebar. Select your monitor to open a tab detailing its latest performance.
+You can view your collection-based monitors in Postman by navigating to your workspace and selecting **Monitors** in the sidebar. Select your monitor to open a tab detailing its latest performance.
 
 <img src="https://assets.postman.com/postman-docs/view-monitor-in-tab3.jpg" alt="View monitor in tab"/>
 

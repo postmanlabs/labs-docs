@@ -41,7 +41,7 @@ To see API reports in Postman, make sure to do all of the following:
 
 * [Share your API](/docs/designing-and-developing-your-api/managing-apis/).
 * [Add a collection to the API](/docs/designing-and-developing-your-api/defining-an-api/#generating-a-collection).
-* Select __History__ in the left sidebar and enable the [__Save Responses__ option](/docs/getting-started/navigating-postman/#history).
+* Select __History__ in the sidebar and enable the [__Save Responses__ option](/docs/getting-started/navigating-postman/#history).
 * [Send a request](/docs/sending-requests/requests/) from the collection.
 
 To view reports:
