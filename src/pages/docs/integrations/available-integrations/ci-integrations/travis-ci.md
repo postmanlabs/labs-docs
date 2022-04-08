@@ -2,7 +2,7 @@
 title: "Travis CI"
 order: 164.4
 page_id: "travisci"
-updated: 2022-03-31
+updated: 2022-04-08
 warning: false
 contextual_links:
   - type: section

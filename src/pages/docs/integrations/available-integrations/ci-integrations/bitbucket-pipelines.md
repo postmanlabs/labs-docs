@@ -1,7 +1,7 @@
 ---
 title: "Bitbucket Pipelines"
 page_id: "bitbucket-pipelines"
-updated: 2022-04-12
+updated: 2022-04-08
 warning: false
 contextual_links:
   - type: section
