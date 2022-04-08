@@ -35,7 +35,7 @@ contextual_links:
 
 Continuous Integration and Continuous Delivery (CI/CD) are a core part of the [API development workflow](/docs/designing-and-developing-your-api/the-api-workflow/). Postman integrates with popular CI tools so you can view details about API builds in the same place where you define and test your API.
 
-After you set up CI integration, you can view the status of builds or start a new build, all from within Postman. In addition, with the help of [Newman](/docs/running-collections/using-newman-cli/command-line-integration-with-newman/) and the Postman API, you can run API tests created in Postman as part of your CI pipeline.
+After you set up CI integration, you can view the status of builds or start a new build, all from within Postman. You can also run API tests created in Postman as part of your CI pipeline using [Newman](/docs/running-collections/using-newman-cli/command-line-integration-with-newman/) and the Postman API.
 
 ## Configuring CI integration
 
@@ -50,7 +50,7 @@ To connect your API to your CI project, see the steps for your CI tool:
 
 ## Configuring Newman for CI
 
-Running API tests as part of your CI pipeline helps to ensure that expectations between your API producers and consumers stay in sync.
+Running API tests as part of your CI pipeline helps to keep expectations between your API producers and consumers in sync.
 
 To run your API tests along with each build, first generate the Newman configuration code in Postman. Then add the configuration code to your CI project. Each time a CI build runs, Newman uses the Postman API to run the collections that contain your tests. You can view the results of your tests in Postman.
 

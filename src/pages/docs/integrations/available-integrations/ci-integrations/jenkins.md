@@ -99,7 +99,7 @@ To add the Newman configuration to your Jenkins pipeline:
 1. Select **Save** and then run the pipeline using the new configuration.
 1. To view the test results in Postman, open your API version and select the **Tests** tab. For more help, see [Viewing collection run details](#viewing-collection-run-details).
 
-### Example of Jenkins pipeline script
+### Example Jenkins pipeline script
 
 ```groovy
 pipeline {
