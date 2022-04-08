@@ -13,7 +13,7 @@ contextual_links:
 
 [Bitbucket Pipelines](https://bitbucket.org/product/features/pipelines) is a continuous integration (CI) and continuous delivery (CD) service that's integrated with Bitbucket Cloud. Software development teams can use Bitbucket Pipelines to automatically build, test, and deploy code in Bitbucket.
 
-To set up a Bitbucket Pipelines integration for your API, you need to create a pipeline in Bitbucket and configure your API in Postman. After you set up the integration, you can view the status of builds or kick off a new build, all from within Postman.
+To set up a Bitbucket Pipelines integration for your API, first create a pipeline in Bitbucket and then configure your API in Postman. After you set up the integration, you can view the status of builds or start a new build, all from within Postman.
 
 > If your Bitbucket pipeline is configured to run API tests using [Newman](/docs/running-collections/using-newman-cli/command-line-integration-with-newman/), you can [configure the  Postman cloud reporter](#configuring-newman-for-bitbucket-pipelines) to send collection run information back to Postman.
 
@@ -21,9 +21,9 @@ To set up a Bitbucket Pipelines integration for your API, you need to create a p
 
 If you haven't already, create a pipeline in the Bitbucket repository you use for your API. To create a pipeline, add a `bitbucket-pipelines.yml` file in the root of your repository. You define your pipeline in this YAML file. To learn more, see [the Bitbucket Pipelines documentation](https://support.atlassian.com/bitbucket-cloud/docs/get-started-with-bitbucket-pipelines/).
 
-## Configuring Bitbucket Pipelines integration
+## Configuring a Bitbucket Pipelines integration
 
-1. Open your API by selecting **APIs** in the left sidebar, and then selecting an API and a version. *Each API version can be linked to only one CI project*.
+1. Open your API by selecting **APIs** in the left sidebar, and then selecting an API and a version. *Each API version can be linked to one CI project*.
 1. Select the **Test** tab.
 1. Under **Connect to CI/CD Builds**, select **Bitbucket**.
 1. You'll be prompted to authorize Postman to access your Bitbucket account. After you grant access, you can close the browser tab and return to Postman.
@@ -38,9 +38,9 @@ If you haven't already, create a pipeline in the Bitbucket repository you use fo
 
 After you set up a Bitbucket Pipelines integration, information for build jobs is available in Postman. For each build you can view the branch, start time, duration, and status (successful or failed). You can also view the results of collection runs that are [configured in your pipeline using Newman](#viewing-collection-run-details).
 
-To view build jobs, open an API version and select the **Test** tab. The most recent jobs are listed under **CI/CD Builds**. Select **View All Builds** to view the full list of build jobs.
+To view build jobs, open an API version and select the **Test** tab. The most recent jobs are listed under **CI/CD Builds**.
 
-From here you can take the following actions:
+Select **View All Builds** to view the full list of build jobs. From here you can take the following actions:
 
 * Use the dropdown lists to filter jobs by branch or build status.
 * To view a build in Bitbucket Pipelines, hover over a build and select **View build details**.
@@ -76,9 +76,9 @@ To generate configuration code for Newman:
 1. Open your API version and select the **Test** tab.
 1. Under **CI/CD Builds**, select **View All Builds**.
 1. Select **Configure Newman**.
-1. Select a **Collection** and **Environment** to run during pipeline builds.
+1. Select a **Collection** to run during pipeline builds. You can also select an **Environment** to use.
 
-    > If needed, select **+ Add More** to select additional collections to run.
+    > If needed, select **+ Add More** to select other collections to run.
 
 1. (Optional) Select the check box to use the Postman cloud reporter to send collection run information back to Postman. You can view the collection run details in the Postman **History** and on the API version **Test** tab.
 1. Select **Copy** to copy the Newman configuration, and then select **Finish**.
