@@ -117,7 +117,7 @@ When you select one or more cookies from the list on the **Cookies** tab, you ca
 
 * <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> **Delete** - delete the cookie.
 
-The bottom right corner shows the total time of the capture session, along with the total size of captured traffic. If you want to temporarily stop the capture session, select the **Pause** button, and select **Resume** to restart it.
+The bottom right corner shows the total time of the capture session, along with the total size of captured traffic. If you want to temporarily stop the capture session, select **Pause**. To restart the capture session, select **Resume**.
 
 When you're done with your debug session, select **Stop** in the lower right corner. This will finish the debug session, and results of the debug session will be saved in the **History** tab.
 

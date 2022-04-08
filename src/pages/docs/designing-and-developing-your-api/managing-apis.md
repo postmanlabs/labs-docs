@@ -37,7 +37,7 @@ When you [define your APIs](/docs/designing-and-developing-your-api/the-api-work
 
 ## Sharing APIs
 
-You can share your APIs with collaborators by navigating to the API you'd like to share in the left sidebar. Select it, then select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> > **Share**.
+You can share your APIs with collaborators by navigating to the API you want to share in the sidebar. Select it, then select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> > **Share**.
 
 <img alt="Share API" src="https://assets.postman.com/postman-docs/share-api-9.4.jpg"/>
 
@@ -89,7 +89,7 @@ You will also receive an email with the information regarding who has made the c
 
 You can discuss your APIs with collaborators in Postman, keeping the conversation in context and available to other stakeholders. Anyone with access to the API can comment.
 
-To leave a comment on an API, open __APIs__ in the left sidebar and select the API version you want to comment on. Switch to comment mode, enter your comment, and **Add comment** to publish it.
+To leave a comment on an API, select __APIs__ in the sidebar, then select the API version you want to comment on. Switch to comment mode, enter your comment, and **Add comment** to publish it.
 
 [![API comment app](https://assets.postman.com/postman-docs/api-builder-add-comment-v9.jpg)](https://assets.postman.com/postman-docs/api-builder-add-comment-v9.jpg)
 

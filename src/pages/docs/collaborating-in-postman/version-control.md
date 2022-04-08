@@ -61,10 +61,10 @@ When you fork a Postman collection or environment, you create a copy of it in a 
 
 To fork a collection or environment:
 
-1. Select the entity in the left sidebar.
+1. Select the entity in the sidebar.
 2. In the overview tab that appears, select **Fork** <img alt="Fork icon" src="https://assets.postman.com/postman-docs/icon-fork.jpg#icon" width="14px"> in the upper right.
 
-    > You can also create a fork by hovering over the entity in the left sidebar and selecting the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to its name, then **Create a Fork**.
+    > You can also create a fork by hovering over the entity in the sidebar and selecting the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to its name, then **Create a Fork**.
 
 3. Enter a label for your fork, and select a workspace to save it to.
 4. Select **Fork Collection** or **Fork Environment**.
@@ -102,7 +102,7 @@ When you have made the changes that you want to a forked collection or environme
 
 To create a pull request:
 
-1. Hover over the entity in the left sidebar.
+1. Hover over the entity in the sidebar.
 1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to its name.
 
 1. Select **Create pull request**.
@@ -151,7 +151,7 @@ Pull request settings let you manage permissions for reviewers and assign merge 
 
 #### Manage reviewer permissions
 
-1. Hover over the entity in the left sidebar.
+1. Hover over the entity in the sidebar.
 1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to its name.
 1. Select **Manage roles**.
 
@@ -173,7 +173,7 @@ There are two different types of checks that you can enable for a pull request:
 
 To set merge checks for pull requests on a specific collection:
 
-1. Hover over the collection in the left sidebar.
+1. Hover over the collection in the sidebar.
 1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to its name.
 1. Select **Manage roles**.
 1. Select the merge checks that you want to set for the collection.
@@ -269,10 +269,9 @@ If you don't want to merge the pull request into the parent entity, you can decl
 
 If you're tagged as a reviewer on a pull request you can approve the pull request.
 
-To approve a pull request:
+To approve a pull request, select **Approve**.
 
-1. Select **Approve**.
-1. The button text now says **Unapprove**. If you need to revoke your approval, select the button again.
+> If you need to revoke your approval, select **Unapprove**.
 
 <img alt="Approve a pull request" src="https://assets.postman.com/postman-docs/pull-request-approve-v9.12.jpg" width="300px"/>
 
@@ -318,7 +317,7 @@ If you have Editor access on the entity, you can merge a fork into the parent en
 
 To merge changes from a fork without opening a pull request:
 
-1. Hover over the fork in the left sidebar.
+1. Hover over the fork in the sidebar.
 1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to its name.
 
 1. Select **Merge changes**.
@@ -341,7 +340,7 @@ To resolve a merge conflict:
 
 <img src="https://assets.postman.com/postman-docs/conflicts-pull-changes-v2.jpg" alt="Pull Changes" width="450px"/>
 
-After you resolve the conflicts, the **Pull changes** button will be enabled and you can [pull updates](#pulling-updates).
+After you resolve the conflicts, select **Pull changes** to [pull the updates](#pulling-updates).
 
 ## Next steps
 

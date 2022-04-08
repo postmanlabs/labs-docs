@@ -64,15 +64,15 @@ An environment is a set of [variables](/docs/sending-requests/variables/) you ca
 
 ## Creating environments
 
-You will see the selected environment status at the top-right of Postman, with any _active_ environment selected in the drop-down. In __Environments__ on the left you can access all environments, and select the check-mark button to make an environment active. Select an environment to open it for editing in a tab.
+You will see the selected environment status at the top-right of Postman, with any _active_ environment selected in the drop-down. In __Environments__ on the left you can access all environments, and select the set active icon <img alt="Set active icon" src="https://assets.postman.com/postman-docs/icon-checkmark-v9.jpg#icon" width="16px"> to make an environment active. Select an environment to open it for editing in a tab.
 
 [![Environment editor](https://assets.postman.com/postman-docs/environment-editor-v9.13.jpg)](https://assets.postman.com/postman-docs/environment-editor-v9.13.jpg)
 
-To the right next to the drop-down you will also see the __Environment quick look__ (eye) button. The quick look lists variables for the active environment, and any global variables you have declared (or that are shared via your workspace).
+To the right next to the drop-down you will also see the environment quick look icon <img alt="Quick Look icon" src="https://assets.postman.com/postman-docs/eye.jpg#icon" width="16px">. The quick look lists variables for the active environment, and any global variables you have declared (or that are shared via your workspace).
 
 [![Environment quick look](https://assets.postman.com/postman-docs/environment-quicklook-v9.13.jpg)](https://assets.postman.com/postman-docs/environment-quicklook-v9.13.jpg)
 
-To create a new environment, select __Environments__ on the left and select the __+__ plus button.
+To create a new environment, select __Environments__ on the left and select __+__.
 
 <img src="https://assets.postman.com/postman-docs/environment-create-new-v9.13.jpg" alt="Create new environment" width="300px"/>
 
@@ -88,9 +88,9 @@ You can add variables to an active (currently selected) environment by opening t
 
 ![Edit environment](https://assets.postman.com/postman-docs/environment-editor-tab-v9.13.jpg)
 
-Edit the variable names and values inline, or use the X button to delete a variable. Enter the name and values for a new variable on a new line. __Save__ when your changes are complete.
+Edit the variable names and values inline, or use the close icon <img alt="Close icon" src="https://assets.postman.com/postman-docs/icon-close.jpg#icon" width="16px"> to delete a variable. Enter the name and values for a new variable on a new line. __Save__ when your changes are complete.
 
-Alternatively, open the environment quick look (the eye button at the top right) and edit inline.
+Alternatively, select the environment quick look icon <img alt="Quick Look icon" src="https://assets.postman.com/postman-docs/eye.jpg#icon" width="16px"> and edit inline.
 
 ![Edit Environment](https://assets.postman.com/postman-docs/environment-quicklook-edit-v9.13.jpg)
 
@@ -125,7 +125,7 @@ To use the variables in an environment, select it from the drop-down list at the
 
 <img src="https://assets.postman.com/postman-docs/environment-selector-v9.13.jpg" alt="Environment selector" width="300px"/>
 
-To check a variable value at a glance, use the __quick look__ (eye button).
+To check a variable value at a glance, use the environment quick look icon <img alt="Quick Look icon" src="https://assets.postman.com/postman-docs/eye.jpg#icon" width="16px">.
 
 When you have an environment selected in the drop-down, Postman will treat it as the active environment, and will run all requests against that environment (if your requests reference environment variables).
 
@@ -153,7 +153,7 @@ pm.environment.get("variable_key");
 
 ### Editing environment variables
 
-You can edit variables either by opening an environment from __Environments__ on the left, or by opening the environment quick look (eye button) at the top right of Postman, and selecting __Edit__.
+You can edit variables either by opening an environment from __Environments__ on the left, or by opening the environment quick look icon <img alt="Quick Look icon" src="https://assets.postman.com/postman-docs/eye.jpg#icon" width="16px"> at the top right of Postman and selecting __Edit__.
 
 > You will only be able to edit environments where you have [editor access](#requesting-environment-access).
 
@@ -213,7 +213,7 @@ Select the workspace, then **Move**  **Environment**.
 
 Note that monitors, mock servers, and integrations in the original workspace that are using the environment may no longer work and will need to be re-configured in the new workspace. Collections and APIs that use the environment must be [moved separately](/docs/collaborating-in-postman/sharing/#moving-postman-entities-to-collaborative-workspaces).
 
-You can manage roles on an environment by navigating to it in the left sidebar, selecting it, then selecting the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> > **Manage Roles**.
+You can manage roles on an environment by navigating to it in the sidebar, selecting it, then selecting the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> > **Manage Roles**.
 
 <img alt="Manage roles environment" src="https://assets.postman.com/postman-docs/environment-manage-roles-v9.1.jpg" width="250px"/>
 
@@ -259,7 +259,7 @@ With the editor role, you can [configure access for other team members](#managin
 
 You can fork environments to change them without impacting their base versions, or to contribute to their development without having editor access. To fork an environment:
 
-1. Hover over the environment in the left sidebar and select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> that appear to the right of the environment's name.
+1. Hover over the environment in the sidebar and select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> to the right of the environment's name.
 2. Select **Create a Fork**.
 
 > You can also fork an environment by selecting **Fork** <img alt="Fork icon" src="https://assets.postman.com/postman-docs/icon-fork.jpg#icon" width="14px"> in the environment overview tab.

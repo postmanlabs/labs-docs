@@ -235,7 +235,7 @@ The [Export page](http://go.postman.co/me/export) shows information about your e
 * **Zipped**: The file is zipped.
 * **Download**: The zipped file is ready to download.
 
-When the export is ready, you will receive an email with link to download a zipped file with the data dump. You can also download the file using the **Download** button on the Export page.
+When the export is ready, you will receive an email with link to download a zipped file with the data dump. You can also download the file from the Export page using **Download**.
 
 > Data exports from the Scratch Pad are downloaded directly instead of being emailed to you. See [Exporting data from the Scratch Pad](/docs/getting-started/using-scratch-pad/#exporting-data-from-the-scratch-pad) for more details.
 

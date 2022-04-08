@@ -51,7 +51,7 @@ To publish [documentation](/docs/publishing-your-api/documenting-your-api/), it 
 
 To publish the documentation for a collection:
 
-1. Select **Collections** in the left sidebar.
+1. Select **Collections** in the sidebar.
 1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to a collection, and then select **View Documentation**.
 1. Select **Publish** at the upper right.
 
@@ -84,7 +84,7 @@ If you are a team admin, you can customize your published documentation with a t
 
 To share your public documentation, share the published URL with your team members, other users, or the community. If you have forgotten the URL for your published documentation, you get it at any time:
 
-1. Select **Collections** in the left sidebar.
+1. Select **Collections** in the sidebar.
 1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to a collection with published docs, and then select **View Documentation**.
 1. Select **Published** at the upper right, and then select **Copy published link**.
 
@@ -98,7 +98,7 @@ If your collection is in a public workspace, others can search for and find your
 
 Change the publication settings for your documentation to add a release, update your documentation's look, or make your collection public. You can change the publication settings at any time after publishing your documentation:
 
-1. Select **Collections** in the left sidebar.
+1. Select **Collections** in the sidebar.
 1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to a collection with published docs, and then select **View Documentation**.
 1. Select **Published** at the upper right, and then select **Edit published documentation**.
 
@@ -111,7 +111,7 @@ Change the publication settings for your documentation to add a release, update 
 
 If you no long want your documentation to be publicly available, you can unpublish it:
 
-1. Select **Collections** in the left sidebar.
+1. Select **Collections** in the sidebar.
 1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to a collection with published docs, and then select **View Documentation**.
 1. Select **Published** at the upper right, and then select **Edit published documentation**.
 1. Select **Unpublish**.

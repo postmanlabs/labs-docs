@@ -101,7 +101,7 @@ You can create new folders from the Private API Network view. Select __Create Fo
 
 <img alt="New folder in Private Network" src="https://assets.postman.com/postman-docs/add-new-folder-api-network-left-navigation-v9.jpg" width="350px"/>
 
-From the overview page, select **Create Folder** on the right to create a new folder. You can also create sub folders when you are inside a folder with the **Create folder** button.
+From the overview page, select **Create Folder** on the right to create a new folder. You can also use **Create folder** to create sub-folders inside a folder.
 
 ![New folder in Private Network](https://assets.postman.com/postman-docs/add-new-folder-api-network-overview-v9.jpg)
 
@@ -135,7 +135,7 @@ Select an API to find more information about it, including the API description, 
 
 You can publish specific versions of your APIs to the Private API Network which helps API consumers understand which versions are ready for consumption and which versions are still being worked upon. Only the versions of your API that are intended for use by consumers are visible on the Private API Network.
 
-From the API builder, you can create a new version of the existing API. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> on the right near the Share button and select **Create version**. You can unselect the checkbox to hide the version or make it unavailable to the consumers.
+From the API builder, you can create a new version of the existing API. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> on the right and select **Create version**. You can unselect the checkbox to hide the version or make it unavailable to the consumers.
 
 <img alt="Visibility API versions" src="https://assets.postman.com/postman-docs/new-version-visibility-api-v9.jpg"/>
 

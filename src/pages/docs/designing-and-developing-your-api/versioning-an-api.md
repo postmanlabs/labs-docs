@@ -161,7 +161,7 @@ On the repo dropdown list, select **Delete Integration**. Note that this only re
 
 ## Working with API versions
 
-When you create a new API in Postman, it also creates the initial version you entered during the API creation. You can create new versions from scratch or based on an existing version. Each API version has its own **API version** page, which you can find on the API Overview page or in the left sidebar.
+When you create a new API in Postman, it also creates the initial version you entered during the API creation. You can create new versions from scratch or based on an existing version. Each API version has its own **API version** page, which you can find on the API Overview page or in the sidebar.
 
 ### Creating versions
 
@@ -176,7 +176,7 @@ To create a new version of an API:
 
 ### Renaming and deleting versions
 
-You can rename, edit, or delete an API version using the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> in the left sidebar. Editing an API enables you to change the name, status, and visibility at once.
+You can rename, edit, or delete an API version using the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> in the sidebar. Editing an API enables you to change the name, status, and visibility at once.
 
    > When you delete an API version, the collections, monitors, mocks, and environments linked to it will not be deleted or removed.
 

@@ -165,7 +165,7 @@ When you select one or more cookies from the list on the **Cookies** tab, you ca
 
 * <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> **Delete** - delete the cookie.
 
-The bottom right corner shows the total time of the capture session, along with the total size of captured traffic. If you want to temporarily stop the capture session, select the **Pause** button. To restart the session, select **Resume**.
+The bottom right corner shows the total time of the capture session, along with the total size of captured traffic. If you want to temporarily stop the capture session, select **Pause**. To restart the session, select **Resume**.
 
 ### Step 5: Stop the debug session and proxy
 

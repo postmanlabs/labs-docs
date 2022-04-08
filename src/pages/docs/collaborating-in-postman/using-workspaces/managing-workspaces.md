@@ -148,12 +148,12 @@ Workspaces can contain elements such as collections, APIs, environments, mock se
 
 To move an element to a different workspace:
 
-1. Select **Collections**, **APIs**, **Environments**, or **Mock Servers** in the left sidebar.
+1. Select **Collections**, **APIs**, **Environments**, or **Mock Servers** in the sidebar.
 1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to an element and then select **Move**.
 
     <img alt="Move collection" src="https://assets.postman.com/postman-docs/move-collection-v9.jpg" width="300px" height="400px"/>
 
-1. Select the workspace where you want to move the element, and then select the **Move** button.
+1. Select the workspace where you want to move the element, and then select **Move**.
 
     > You cannot move elements from a private, team, or public workspace to a personal workspace.
 

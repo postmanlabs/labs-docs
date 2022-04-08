@@ -84,7 +84,7 @@ To enable autocompletion, your request needs a GraphQL schema. Postman will auto
 
 You can also import a schema manually. When you [create or import a GraphQL schema](/docs/designing-and-developing-your-api/creating-an-api/) into Postman, you can then select it instead of the auto-fetched schema.
 
-1. Select **APIs** in the left sidebar, then select **+** to create a new API.
+1. Select **APIs** in the sidebar, then select **+** to create a new API.
 1. Enter a name and version for your API.
 1. Choose **GraphQL** from the **Schema type** dropdown list.
 1. Choose either **JSON** or **GraphQL SDL** from the **Schema Format** dropdown list.

@@ -52,7 +52,7 @@ Setting up a Datadog integration requires you to get an API key from Datadog and
    * Select the Datadog region you would like to use.
    * Optionally indicate if you want to send events for completed runs or send metrics for each run.
 
-1. Select the **Add Integration** button.
+1. Select **Add Integration**.
 
 ## Viewing data in Datadog
 
