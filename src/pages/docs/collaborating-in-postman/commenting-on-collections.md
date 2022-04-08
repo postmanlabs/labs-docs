@@ -86,7 +86,7 @@ You can add a comment on a specific part of a raw body, a pre-request script, or
 You can leave comments on folders in Postman.
 
 1. Open the folder you would like to comment on.
-2. Open the **Comments** icon <img alt="Mini comments icon" src="https://assets.postman.com/postman-docs/mini-comments-icon-v8.jpg" width="20px"/> at the top-right of the context bar.
+2. Open the comments icon <img alt="Comments icon" src="https://assets.postman.com/postman-docs/icon-comments-v9.jpg#icon" width="18px"> at the top-right of the context bar.
 3. Enter your comment, then select **Add Comment**.
 
 ![Adding comment on a folder](https://assets.postman.com/postman-docs/commenting-on-a-folder-v8.gif)
@@ -123,7 +123,7 @@ You can resolve comments made on request parameters when you no longer want them
 ## Deleting comments
 
 1. In Postman, open the collection with the comment you want to delete.
-2. Find the comment and select the trash can icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px">.
+2. Find the comment and select the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px">.
 
 <img src="https://assets.postman.com/postman-docs/deleting-a-comment-v8.jpg" alt="Delete comment" width="399px">
 
@@ -138,7 +138,7 @@ When you leave feedback or a question for a specific teammate, you can let them 
 3. To tag your teammate, type "@" and choose their name from the list.
 4. Select **Add comment**.
 
-Your teammate will be notified in the app or with an email that they've been tagged in a comment. In-app notifications appear as a red dot above the bell icon at the top right.
+Your teammate will be notified in the app or with an email that they've been tagged in a comment. Select the notifications icon <img alt="Notifications icon" src="https://assets.postman.com/postman-docs/icon-notification-bell-v9.jpg#icon" width="18px"> in the Postman header to view in-app notifications.
 
 > If your teammate has turned off notifications then they will not be notified. If they don't have access to the collection they've been tagged on, they'll need to request access before they can read the comment.
 

@@ -122,9 +122,9 @@ At the top of the message pane is a connection details badge. It shows if the co
 
 Above the message display are the following controls:
 
-* Search control - Enter a search term to display only messages containing the term. Select **X** to end the search.
+* Search control - Enter a search term to display only messages containing the term. Select <img alt="Close icon" src="https://assets.postman.com/postman-docs/icon-close.jpg#icon" width="16px"> to end the search.
 * Message type list - Select if you want to view all messages, or only incoming or outgoing messages.
-* Trash - Select the trash can icon to clear all messages.
+* Trash - Select the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> to clear all messages.
 
 The following are displayed for each message:
 

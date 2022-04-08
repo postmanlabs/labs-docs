@@ -199,7 +199,7 @@ Each release page shows a read-only view of the schema, documentation, and tests
 To create a release:
 
 1. If you are using an external Git repo, create a release in Git first by merging changes from your develop branch to the main branch, and creating a release tag.
-1. Select the Changelog icon (<img alt="Changelog icon" src="https://assets.postman.com/postman-docs/icon-changelog.jpg" width="25px" style="vertical-align:middle;margin-bottom:0px">) in the sidebar. The Changelog will show changes to the API version's schema and associated elements.
+1. Select the changelog icon (<img alt="Changelog icon" src="https://assets.postman.com/postman-docs/icon-changelog.jpg" width="25px" style="vertical-align:middle;margin-bottom:0px">) in the sidebar. The Changelog will show changes to the API version's schema and associated elements.
 1. Select **+ Release changes**.
 1. Enter the release name and description.
 1. If you are using an external Git repo, select a tag in **Git release**.

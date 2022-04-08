@@ -38,7 +38,7 @@ contextual_links:
 
 ---
 
-One way to [share your Postman collections](/docs/collaborating-in-postman/sharing/) is to create a stand-alone Run in Postman button. The Run in Postman <img alt="Run in Postman button icon" src="https://assets.postman.com/postman-docs/run-in-postman-button-icon.jpg" width="100px"/> button allows users to fork the collections. You can embed the button in your website or a README to let developers interact with your API more quickly.
+One way to [share your Postman collections](/docs/collaborating-in-postman/sharing/) is to create a stand-alone Run in Postman button. The Run in Postman button <img alt="Run in Postman button" src="https://assets.postman.com/postman-docs/run-in-postman-button-icon.jpg" width="100px"/> allows users to fork the collections. You can embed the button in your website or a README to let developers interact with your API more quickly.
 
 > Being a user, you can still create the **Run in Postman** button from API specification formats like OpenAPI and RAML. To create a button for the standard you use, first convert the file to a collection by [importing it into Postman](/docs/getting-started/importing-and-exporting-data/) or by [authoring your specification in Postman](/docs/designing-and-developing-your-api/the-api-workflow/) to generate a collection.
 

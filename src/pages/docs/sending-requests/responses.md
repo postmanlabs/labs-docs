@@ -53,7 +53,7 @@ The Postman response viewer helps you to visualize and check the correctness of 
 
 The Postman **Body** tab gives you several tools to help you understand the response quickly. You can view the body in one of four views: _Pretty_, _Raw_, _Preview_, and _Visualize_.
 
-> **Finding items in responses:** To open the search bar, select the magnifying glass icon on the results pane. You can also place your cursor in the response and select **⌘+F** or **Ctrl+F**. This option is not available in a response's Preview or Visualize views.
+> **Finding items in responses:** To open the search bar, select the search icon <img alt="Search icon" src="https://assets.postman.com/postman-docs/icon-search-v9.jpg#icon" width="16px"> in the results pane. You can also place your cursor in the response and select **⌘+F** or **Ctrl+F**. This option is not available in a response's Preview or Visualize views.
 
 Note that if the response's `Content-Type` header indicates that the response is an image, Postman will detect and render the image automatically.
 
@@ -107,11 +107,11 @@ To learn more about running tests against API requests in Postman, see [Writing 
 
 ## Network information
 
-Postman displays network information when your API returns a response. Hover over the globe icon <img alt="Network information icon" src="https://assets.postman.com/postman-docs/icon-uptime-globe.jpg#icon" width="14px"> to see the local and remote IP addresses for the request you sent.
+Postman displays network information when your API returns a response. Hover over the network icon <img alt="Network information icon" src="https://assets.postman.com/postman-docs/icon-uptime-globe.jpg#icon" width="14px"> to see the local and remote IP addresses for the request you sent.
 
-When you make an `https` request, the globe icon includes a padlock. When you hover over the icon, the network information will show additional information including [certificate verification](/docs/sending-requests/certificates/) details.
+When you make an `https` request, the network icon includes a padlock. When you hover over the icon, the network information will show additional information including [certificate verification](/docs/sending-requests/certificates/) details.
 
-<img alt="Hover over the globe icon to see network information" src="https://assets.postman.com/postman-docs/https-network-info-response.jpg" width="300px"/>
+<img alt="Hover over the network icon to see network information" src="https://assets.postman.com/postman-docs/https-network-info-response.jpg" width="300px"/>
 
 ### SSL verification errors
 

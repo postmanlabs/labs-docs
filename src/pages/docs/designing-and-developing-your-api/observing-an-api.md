@@ -106,7 +106,7 @@ Once you've added a monitor integration to an API version, you can take the foll
   <img alt="Edit an API monitor" src="https://assets.postman.com/postman-docs/observe-api-integrations-modify-v9-10.jpg" width="332px">
 
 * Hover over a monitor and select **Run** to immediately run the monitor.
-* Hover over a monitor and select the **Remove** icon <img alt="Remove icon" src="https://assets.postman.com/postman-docs/icon-remove-api-element-v9.jpg#icon" width="18px"> to remove the monitor from the API version. (The monitor and its associated integrations are not deleted.)
+* Hover over a monitor and select the remove icon <img alt="Remove icon" src="https://assets.postman.com/postman-docs/icon-remove-api-element-v9.jpg#icon" width="16px"> to remove the monitor from the API version. (The monitor and its associated integrations are not deleted.)
 
 ## Viewing New Relic APM metrics
 
