@@ -40,7 +40,7 @@ The __Definition__ tab in each API version page contains an editor for your API 
 
 The default schema type is OpenAPI 3.0, with YAML as the default format. To use a different schema type or format, choose it from the dropdown list.
 
-The left pane of the schema editor displays an outline of your schema. When you first open the editor, the top level of nodes will be expanded, and the rest of them collapsed. Select nodes to expand or collapse them. Select an element in the outline to jump to it in the editor. You can also select the outline button to hide or show the outline.
+The left pane of the schema editor displays an outline of your schema. When you first open the editor, the top level of nodes will be expanded, and the rest of them collapsed. Select nodes to expand or collapse them. Select an element in the outline to jump to it in the editor. You can also select the schema outline icon <img alt="Schema outline icon" src="https://assets.postman.com/postman-docs/icon-schema-outline-v9.jpg#icon" width="16px"/> to hide or show the outline.
 
 ![Schema navigation](https://assets.postman.com/postman-docs/v8-api-builder-schema-outline.gif)
 
@@ -58,7 +58,7 @@ In the upper right of the schema editor are options to beautify the content, wra
 
 The Postman API Builder supports API-first development by providing the option to create a Postman collection directly from a schema. Once you have a saved schema, you will see a **Generate Collection** option in the upper right of the schema editor.
 
-To create a collection based on your schema, select **Generate Collection**. You can add the collection as documentation, a test, a monitor, or a mock server. The collection will appear in __Collections__ in the left sidebar. It will be linked to the same version of the API as the schema.
+To create a collection based on your schema, select **Generate Collection**. You can add the collection as documentation, a test, a monitor, or a mock server. The collection will appear in __Collections__ in the sidebar. It will be linked to the same version of the API as the schema.
 
 ![Generate Collection](https://assets.postman.com/postman-docs/v8-generate-collection-modal2.jpg)
 
