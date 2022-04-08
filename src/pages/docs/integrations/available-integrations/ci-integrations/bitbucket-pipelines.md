@@ -23,13 +23,13 @@ If you haven't already, create a pipeline in the Bitbucket repository you use fo
 
 ## Configuring a Bitbucket Pipelines integration
 
-1. Open your API by selecting **APIs** in the left sidebar, and then selecting an API and a version. *Each API version can be linked to one CI project*.
+1. Open your API by selecting **APIs** in the sidebar, and then selecting an API and a version. *Each API version can be linked to one CI project*.
 1. Select the **Test** tab.
 1. Under **Connect to CI/CD Builds**, select **Bitbucket**.
 1. You'll be prompted to authorize Postman to access your Bitbucket account. After you grant access, you can close the browser tab and return to Postman.
 1. Enter a **Nickname** to help you recognize the integration later.
 1. Select the Bitbucket **Workspace** with your API repository.
-1. For **CI project**, select the Bitbucket repository you use for your API.
+1. Select the **CI project** used for your API.
 1. Select **Connect**.
 
 <img alt="Connect to Bitbucket Pipelines" src="https://assets.postman.com/postman-docs/bitbucket-pipelines-connect-project-v9-15.jpg" width="518px">

@@ -14,21 +14,18 @@ contextual_links:
 
 Travis CI is continuous integration (CI) platform that software development teams use to automatically build and test code changes. With Travis CI, developers can get immediate feedback on the success of a change.
 
-To set up Travis CI integration for your API, you’ll need to create an API token in Travis CI and configure your API in Postman. After you set up the integration, you can view the status of builds or kick off a new build, all from within Postman.
+To set up Travis CI integration for your API, first create an API token in Travis CI and then configure your API in Postman. After you set up the integration, you can view the status of builds or start a new build, all from within Postman.
 
 ## Copying your Travis CI API Token
 
 1. Sign in to [Travis CI](https://app.travis-ci.com/account/preferences) and go to your account profile page.
 1. Select the **Settings** tab, and then select **Copy Token**.
 
-## Configuring Travis CI integration
+## Configuring a Travis CI integration
 
-1. Open your API by selecting **APIs** in the left sidebar, and then selecting an API and a version. *Each API version can be linked to only one CI project*.
+1. Open your API by selecting **APIs** in the left sidebar, and then selecting an API and a version. *Each API version can be linked to one CI project*.
 1. Select the **Test** tab.
 1. Under **Connect to CI/CD Builds**, select **Travis CI**.
-
-    ![CI Integration](https://assets.postman.com/postman-docs/ci-add-integration-v9-15.jpg)
-
 1. For **API Key**, enter your Travis CI token.
 1. Enter a **Nickname** to help you recognize the integration later.
 1. Select the **CI project** used for your API.

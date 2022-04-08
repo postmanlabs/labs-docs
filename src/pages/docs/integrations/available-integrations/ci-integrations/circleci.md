@@ -14,7 +14,7 @@ contextual_links:
 
 CircleCI is a cloud-based continuous integration and continuous delivery (CI/CD) platform. Software development teams use CircleCI to run build jobs, automate tests, and orchestrate complex workflows.
 
-To set up CircleCI integration for your API, you’ll need to create an API token in CircleCI and configure your API in Postman. After you set up the integration, you can view the status of builds or kick off a new build, all from within Postman.
+To set up CircleCI integration for your API, first create an API token in CircleCI and then configure your API in Postman. After you set up the integration, you can view the status of builds or start a new build, all from within Postman.
 
 ## Creating a CircleCI API Token
 
@@ -23,14 +23,11 @@ To set up CircleCI integration for your API, you’ll need to create an API toke
 1. Enter a **Token Name** and select **Add API Token**.
 1. Select **Copy** to copy the new token. (You might want to save the token somewhere safe.)
 
-## Configuring CircleCI integration
+## Configuring a CircleCI integration
 
-1. Open your API by selecting **APIs** in the left sidebar, and then selecting an API and a version. *Each API version can be linked to only one CI project*.
+1. Open your API by selecting **APIs** in the left sidebar, and then selecting an API and a version. *Each API version can be linked to one CI project*.
 1. Select the **Test** tab.
 1. Under **Connect to CI/CD Builds**, select **CircleCI**.
-
-    ![CI Integration](https://assets.postman.com/postman-docs/ci-add-integration-v9-15.jpg)
-
 1. For **API Key**, enter your CircleCI token.
 1. Enter a **Nickname** to help you recognize the integration later.
 1. Select the **CI project** used for your API.
