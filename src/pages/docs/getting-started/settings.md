@@ -37,7 +37,7 @@ warning: false
 
 Postman automatically chooses default values for some settings so you can get right to work. Make changes to settings at any time based on your use case or to customize your Postman experience.
 
-To change settings in Postman, select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/settings-icon-v8.jpg#icon" width="18px"> in the header and then select **Settings**. In the Postman Desktop app, you can also select **⌘+Comma (,)** or **Ctrl+Comma (,)**.
+To change settings in Postman, select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the header and then select **Settings**. In the Postman Desktop app, you can also select **⌘+Comma (,)** or **Ctrl+Comma (,)**.
 
 ## General
 
