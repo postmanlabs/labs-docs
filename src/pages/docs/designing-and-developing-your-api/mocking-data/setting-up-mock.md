@@ -74,7 +74,7 @@ You can create mock servers from an existing collection, or Postman will create 
 
 ### Creating a mock from scratch
 
-In __Mock Servers__ on the left of Postman, select __+__.
+In __Mock Servers__ in the sidebar, select __+__.
 
 <img alt="New mock" src="https://assets.postman.com/postman-docs/new-mock-v8.jpg" width="350px"/>
 
