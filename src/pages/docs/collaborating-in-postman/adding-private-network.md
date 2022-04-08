@@ -77,7 +77,7 @@ The API will immediately be visible in your team's [Private API Network](https:/
 
 ![Listing APIs in Private API Network](https://assets.postman.com/postman-docs/private-api-network-listing-v9.gif)
 
-You can also add an API to your team's Private API Network from the [API Builder](/docs/designing-and-developing-your-api/the-api-workflow/) via **APIs** in the left navigation bar. Select an API to see a high-level description on the **Overview** tab. Select **Add API to Private API Network** in the upper right corner of the overview page.
+You can also add an API to your team's Private API Network from the [API Builder](/docs/designing-and-developing-your-api/the-api-workflow/) via **APIs** in the sidebar. Select an API to see a high-level description on the **Overview** tab. Select **Add API to Private API Network** in the upper right corner of the overview page.
 
 Learn more about [editing and versioning APIs](/docs/designing-and-developing-your-api/versioning-an-api/).
 
@@ -97,7 +97,7 @@ The following lists the key features of the Private API Network that help make d
 
 #### Folder organization
 
-You can create new folders from the Private API Network view. Select __Create Folder__ from the left navigation bar to create a new folder. Give it a name and summary (supports Markdown). Your new folder will now be created in the Private API Network.
+You can create new folders from the Private API Network view. Select __Create Folder__ from the sidebar to create a new folder. Give it a name and summary (supports Markdown). Your new folder will now be created in the Private API Network.
 
 <img alt="New folder in Private Network" src="https://assets.postman.com/postman-docs/add-new-folder-api-network-left-navigation-v9.jpg" width="350px"/>
 

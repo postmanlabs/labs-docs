@@ -109,7 +109,7 @@ You can also define environment variables by **Type**. Variables are automatical
 
 You can access your environment variables from the Postman UI and from your request elements, including the URL, parameters, body data, and test scripts.
 
-To see all of your environments, select __Environments__ on the left of Postman.
+To see all of your environments, select __Environments__ in the sidebar.
 
 <img src="https://assets.postman.com/postman-docs/environments-view-menu-v9.13.jpg" alt="View all environments" width="300px"/>
 
@@ -239,7 +239,7 @@ If you are using sensitive data like API credentials, it's safer to use the curr
 
 #### Requesting environment access
 
-If you need to update the initial value of a variable in an environment you have read-only access to, you can request edit access. Open the environment from __Environments__ on the left of Postman and select __Request Access__.
+If you need to update the initial value of a variable in an environment you have read-only access to, you can request edit access. Open the environment from __Environments__ in the sidebar and select __Request Access__.
 
 [![Viewer role on environment](https://assets.postman.com/postman-docs/request-access-env-v9.13.jpg)](https://assets.postman.com/postman-docs/request-access-env-v9.13.jpg)
 

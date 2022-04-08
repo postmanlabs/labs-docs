@@ -41,7 +41,7 @@ warning: false
 
 You can make requests that return mock data defined within Postman if you do not have a production API ready, or you do not want to run your requests against real data yet. By adding a mock server to your collection and adding examples to your requests, you can simulate the behavior of a real API.
 
-When you send a request to a mock server, Postman will match the request configuration to the examples you have saved for the request and respond with the data you added to the example. You will see any existing mocks in your workspace from __Mock Servers__ on the left of Postman.
+When you send a request to a mock server, Postman will match the request configuration to the examples you have saved for the request and respond with the data you added to the example. You will see any existing mocks in your workspace from __Mock Servers__ in the sidebar.
 
 > You need to be signed into a Postman account to create a mock server.
 
@@ -106,7 +106,7 @@ Configure your [mock details](#configuring-mock-details).
 
 If you want to generate a mocks collection from an API or add a mock to an API collection:
 
-1. Open an API version from __APIs__ on the left of Postman.
+1. Open an API version from __APIs__ in the sidebar.
 
 1. On the API version **Overview** tab, next to **Mock Servers**, select **+** and choose **Create new mock server** or **Add existing mock server**.
 
@@ -196,7 +196,7 @@ CORS is enabled for Postman mock servers. As a result, you can stub your web app
 
 ## Viewing mock calls
 
-You can view and search the details of calls to your mock servers using the mock call log. Open a mock from __Mock Servers__ on the left of Postman. Your mock overview and call log will open.
+You can view and search the details of calls to your mock servers using the mock call log. Open a mock from __Mock Servers__ in the sidebar. Your mock overview and call log will open.
 
 [![Mock Call](https://assets.postman.com/postman-docs/mock-calls-v8.jpg)](https://assets.postman.com/postman-docs/mock-calls-v8.jpg)
 
