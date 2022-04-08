@@ -129,3 +129,4 @@ parsable
 datetime
 boolean
 config
+yml
