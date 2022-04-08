@@ -43,7 +43,7 @@ You can also add a custom CA certificate to Postman. If an endpoint uses a certi
 
 In the Postman settings, you can view installed certificates, add a new certificate, or remove a certificate.
 
-1. Select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-gear-outline-v9.jpg#icon" width="18px"> in the header and select **Settings**.
+1. Select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the header and select **Settings**.
 1. Select the **Certificates** tab.
 
 [![Certificates tab](https://assets.postman.com/postman-docs/certificates-settings-tab-v9-14.jpg)](https://assets.postman.com/postman-docs/certificates-settings-tab-v9-14.jpg)

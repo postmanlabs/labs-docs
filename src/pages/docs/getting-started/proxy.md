@@ -65,7 +65,7 @@ Postman's native apps for Mac, Windows, and Linux support configuring proxies. Y
 
 Use the **custom proxy** if all of your applications need to use the same proxy. Turn **custom proxy** _on_ if you want to direct the requests from Postman go through a custom proxy server. Turning it off will direct the requests to not use the proxy server.
 
-To configure the proxy settings, select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-gear-outline-v9.jpg#icon" width="18px"> in the header, then choose **Settings** > **Proxy**.
+To configure the proxy settings, select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the header, then choose **Settings** > **Proxy**.
 
 [![Proxy settings modal](https://assets.postman.com/postman-docs/proxy-settings-overview-modal.jpg)](https://assets.postman.com/postman-docs/proxy-settings-overview-modal.jpg)
 

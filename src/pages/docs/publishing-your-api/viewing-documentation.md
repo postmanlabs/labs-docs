@@ -76,7 +76,7 @@ Use the following options to customize the appearance of the documentation:
 
 * **Release Tag:** If the documentation has multiple [release tags](/docs/publishing-your-api/documenting-your-api/#documenting-releases), you can select a specific release to view.
 * **Language:** Select a language to use for sample code.
-* **Code Generation Settings:** Select the gear <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-gear-outline-v9.jpg#icon" width="16px"> to customize settings for the currently selected language.
+* **Code Generation Settings:** Select the gear <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> to customize settings for the currently selected language.
 
 [![Viewing a release](https://assets.postman.com/postman-docs/documentation-view-release-v9.jpg)](https://assets.postman.com/postman-docs/documentation-view-release-v9.jpg)
 
