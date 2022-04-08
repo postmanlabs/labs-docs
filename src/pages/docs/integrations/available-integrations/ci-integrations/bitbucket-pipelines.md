@@ -32,13 +32,15 @@ If you haven't already, create a pipeline in the Bitbucket repository you use fo
 1. For **CI project**, select the Bitbucket repository you use for your API.
 1. Select **Connect**.
 
-    <img alt="Add API key" src="https://assets.postman.com/postman-docs/jenkins-connect-project-v9-15.jpg" width="527px">
+<img alt="Connect to Bitbucket Pipelines" src="https://assets.postman.com/postman-docs/bitbucket-pipelines-connect-project-v9-15.jpg" width="518px">
 
 ## Viewing build status
 
 After you set up a Bitbucket Pipelines integration, information for build jobs is available in Postman. For each build you can view the branch, start time, duration, and status (successful or failed). You can also view the results of collection runs that are [configured in your pipeline using Newman](#viewing-collection-run-details).
 
-To view build jobs, open an API version and select the **Test** tab. The most recent jobs are listed under **CI/CD Builds**. To view the full list of build jobs, select **View All Builds**.
+To view build jobs, open an API version and select the **Test** tab. The most recent jobs are listed under **CI/CD Builds**. Select **View All Builds** to view the full list of build jobs.
+
+From here you can take the following actions:
 
 * Use the dropdown lists to filter jobs by branch or build status.
 * To view a build in Bitbucket Pipelines, hover over a build and select **View build details**.
@@ -47,7 +49,7 @@ To view build jobs, open an API version and select the **Test** tab. The most re
 * To edit or delete the integration, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px">.
 * To view more details for a build, use the arrows to expand a build and expand **Build Steps**. For each build step you can view the name, duration, and status.
 
-<img alt="View all Jenkins builds" src="https://assets.postman.com/postman-docs/jenkins-view-builds-v9-14.jpg">
+<img alt="View all Bitbucket Pipelines builds" src="https://assets.postman.com/postman-docs/bitbucket-pipelines-view-builds-v9-15.jpg">
 
 ## Viewing collection run details
 
@@ -55,11 +57,11 @@ Using Newman, you can run Postman collections with your API tests as part of a B
 
 To view details for collections that were run as part of a build, first [configure Newman for Bitbucket Pipelines](#configuring-newman-for-bitbucket-pipelines) and then [start a new build](#viewing-build-status). After the build is complete, use the arrows to expand a build and expand **Collection Runs**. Then expand a collection to view details about a collection run.
 
-<img alt="View collection runs" src="https://assets.postman.com/postman-docs/jenkins-collection-runs-v9-14.jpg">
+<img alt="View collection runs" src="https://assets.postman.com/postman-docs/bitbucket-pipelines-view-collection-runs-v9-15.jpg">
 
 Select **View Report** to view a collection run report in the Postman **History**. Learn more about using the [Collection Runner](/docs/running-collections/intro-to-collection-runs/).
 
-<img alt="View collection run report" src="https://assets.postman.com/postman-docs/jenkins-view-report-v9-14.jpg">
+<img alt="View collection run report" src="https://assets.postman.com/postman-docs/bitbucket-pipelines-view-report-v9-15.jpg">
 
 ## Configuring Newman for Bitbucket Pipelines
 
@@ -74,14 +76,14 @@ To generate configuration code for Newman:
 1. Open your API version and select the **Test** tab.
 1. Under **CI/CD Builds**, select **View All Builds**.
 1. Select **Configure Newman**.
-1. Select a **Collection** and **Environment** to run during Jenkins builds.
+1. Select a **Collection** and **Environment** to run during pipeline builds.
 
     > If needed, select **+ Add More** to select additional collections to run.
 
 1. (Optional) Select the check box to use the Postman cloud reporter to send collection run information back to Postman. You can view the collection run details in the Postman **History** and on the API version **Test** tab.
 1. Select **Copy** to copy the Newman configuration, and then select **Finish**.
 
-<img alt="Generate Newman configuration" src="https://assets.postman.com/postman-docs/jenkins-generate-newman-v9-14.jpg" width="546px">
+<img alt="Generate Newman configuration" src="https://assets.postman.com/postman-docs/bitbucket-pipelines-generate-newman-v9-15.jpg" width="548px">
 
 To add the Newman configuration to your Bitbucket pipeline:
 
