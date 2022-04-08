@@ -366,7 +366,7 @@ Use the following syntax in your script to log the value of a variable:
 console.log(pm.variables.get("variable_key"));
 ```
 
-To view the results, select **Console** <img alt="Console icon" src="https://assets.postman.com/postman-docs/icon-console-v9.jpg#icon" width="16px"> from the footer. You can also access the console from the __View__ menu > **Show Postman Console**.
+To view the results, select **Console** <img alt="Console icon" src="https://assets.postman.com/postman-docs/icon-console-v9.jpg#icon" width="16px"> in the footer. You can also access the console from the __View__ menu > **Show Postman Console**.
 
 [![Logging Variable](https://assets.postman.com/postman-docs/log-var-v8.jpg)](https://assets.postman.com/postman-docs/log-var-v8.jpg)
 
