@@ -66,7 +66,7 @@ To generate configuration code for Newman:
 
 1. Select **Copy** to copy the Newman configuration, and then select **Finish**.
 
-<img alt="Generate Newman configuration for CI" src="https://assets.postman.com/postman-docs/ci-generate-newman-config-v9.jpg" width="543">
+<img alt="Generate Newman configuration" src="https://assets.postman.com/postman-docs/ci-generate-newman-config-v9.jpg" width="543">
 
 To add the Newman configuration to your CircleCI project:
 

@@ -47,7 +47,7 @@ Select **View All Builds** to view the full list of build jobs. From here you ca
 * To get the latest build status information, select <img alt="Refresh icon" src="https://assets.postman.com/postman-docs/icon-refresh-v9-5.jpg#icon" width="14px"> **Refresh**.
 * To edit or delete the integration, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px">.
 
-<img alt="View all Travis CI builds" src="https://assets.postman.com/postman-docs/ci-view-builds-v9-15.jpg">
+<img alt="View all Travis CI builds" src="https://assets.postman.com/postman-docs/travis-ci-view-builds-v9-15.jpg">
 
 ## Configuring Newman for Travis CI
 
@@ -64,7 +64,7 @@ To generate configuration code for Newman:
 
 1. Select **Copy** to copy the Newman configuration, and then select **Finish**.
 
-<img alt="Generate Newman configuration for CI" src="https://assets.postman.com/postman-docs/ci-generate-newman-config-v9.jpg" width="543">
+<img alt="Generate Newman configuration" src="https://assets.postman.com/postman-docs/travis-ci-generate-newman-v9-15.jpg" width="562">
 
 To add the Newman configuration to your Travis CI project:
 
