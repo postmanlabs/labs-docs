@@ -14,7 +14,7 @@ contextual_links:
 
 > __[Audit logs are available on Postman Professional and Enterprise plans.](https://www.postman.com/pricing)__
 
-Audit logs display events related to your team, users, and billing. Team admins can review audit logs to determine:
+Audit logs display events related to your team, users, and billing. Team admins can review audit logs to see:
 
 * When users were added to, removed from, or invited to your team
 * Which user performed a specific action and when they did so
@@ -51,7 +51,7 @@ Use the filters to filter the actions by date range, event type, and user.
 
 You can export audit logs as CSV files. By default, Postman will export all data in your audit logs from the last seven days. To start the export process, select **Export Audit Logs**.
 
-To specify certain data to export, set the filters you want in the audit logs dashboard and Postman will generate the export using those parameters. To filter your results, select a time period, event, and actor, then select **Export Audit Logs**.
+To specify certain data to export, set the filters you want in the audit logs dashboard and Postman will generate the export using those parameters. To filter your results, select a time range, event, and actor, then select **Export Audit Logs**.
 
 You will receive an email with a link to the exported audit logs. The link in the email will be active for 24 hours.
 
@@ -59,7 +59,7 @@ You will receive an email with a link to the exported audit logs. The link in th
 
 You can also access audit logs via the [Postman API](https://www.postman.com/postman/workspace/postman-public-workspace/documentation/12959542-c8142d51-e97c-46b6-bd77-52bb66712c9a), allowing you to integrate Postman's audit logs with your security information and event management (SIEM) tools.
 
-Each audit log event contains the following attributes:
+Each audit log event has the following attributes:
 
 | <div style="width:100px">Name</div> | Description |
 | --- | --- |
@@ -76,7 +76,7 @@ To get started, go to the [Postman API](https://www.postman.com/postman/workspac
 
 > You must [generate a Postman API key](/docs/developer/intro-api/#generating-a-postman-api-key) to access the [Postman API](/docs/developer/intro-api/).
 
-## Logged Events
+## Logged events
 
 Postman logs events related to your [team](#team), [users](#users), and [billing](#billing).
 
@@ -122,7 +122,7 @@ Postman logs events related to your [team](#team), [users](#users), and [billing
 | Sent Team Invite  | An invitation was sent to a user to join your team.  |
 | Approved Team Invite | An admin approved an email invitation. |
 | Rejected Team Invite  | An admin rejected an email invitation. |
-| Cancelled Team Invite   | An invitation for a user was cancelled.   |
+| Canceled Team Invite   | An invitation for a user was canceled.   |
 | Approved Team Join Request | An admin approved a request to join your team. |
 | Rejected Team Join Request | A user rejected a request to join your team. |
 | Updated User Role | A user updated a user role. |
@@ -157,5 +157,5 @@ Postman logs events related to your [team](#team), [users](#users), and [billing
 | Changed Default Payment Method | A user changed the default payment method. |
 | Deleted Payment Method | A user deleted a payment method. |
 | Successfully Retried Invoice  | An invoice for your team was paid.  |
-| Cancelled Invoice | A user cancelled an invoice for your team. |
-| Cancelled Plan | A user cancelled your team’s subscription. |
+| Canceled Invoice | A user canceled an invoice for your team. |
+| Canceled Plan | A user canceled your team’s subscription. |
