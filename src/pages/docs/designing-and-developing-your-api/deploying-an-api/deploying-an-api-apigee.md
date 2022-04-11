@@ -80,7 +80,7 @@ Your browser will automatically download a JSON file that has values for `client
 
 ## Connecting to Apigee X
 
-To connect to Apigee X in Postman, select **APIs** in the left sidebar, and then select the API and version you want to connect. Select the **Deployments** tab, and then select **Apigee X**.
+To connect to Apigee X in Postman, select **APIs** in the sidebar, and then select the API and version you want to connect. Select the **Deployments** tab, and then select **Apigee X**.
 
 <img alt="Connecting to an API Gateway" src="https://assets.postman.com/postman-docs/deployments-api-gateway-v9-11.jpg" width="916px"/>
 
@@ -106,7 +106,7 @@ Next, set up the connection to Apigee X:
 
 ## Viewing Apigee X deployments
 
-After connecting to Apigee X, you can view the deployment status and history for your API schemas in Postman. Select **APIs** in the left sidebar, select an API and version, and then select the **Deployments** tab.
+After connecting to Apigee X, you can view the deployment status and history for your API schemas in Postman. Select **APIs** in the sidebar, select an API and version, and then select the **Deployments** tab.
 
 * For your API proxy, you can view the latest revision, source, creation date, and date last updated.
 * For each proxy endpoint, you can view the name and base paths.
@@ -119,4 +119,4 @@ From the **Deployments** tab, you can take the following actions:
 * To view your API proxy in Apigee X, select the **Latest Revision** or a **Deployed Revision.**
 * To view performance metrics for your API proxy in Apigee X, select **API Metrics**.
 * To see the latest deployment status, select the refresh icon <img alt="Refresh icon" src="https://assets.postman.com/postman-docs/icon-refresh-v9-5.jpg#icon" width="14px">.
-* To edit or delete the connection to Apigee X, select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px">.
+* To edit or delete the connection to Apigee X, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px">.
