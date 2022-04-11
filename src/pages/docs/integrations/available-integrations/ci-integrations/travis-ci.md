@@ -45,7 +45,7 @@ Select **View All Builds** to view the full list of build jobs. From here you ca
 * To view a build in Travis CI, hover over a build and select **View build details**.
 * To start a new build, select **Run Build**. Enter the name of the branch to use and select **Run Build**.
 * To get the latest build status information, select <img alt="Refresh icon" src="https://assets.postman.com/postman-docs/icon-refresh-v9-5.jpg#icon" width="14px"> **Refresh**.
-* To edit or delete the integration, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px">.
+* To edit or delete the integration, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px">.
 
 <img alt="View all Travis CI builds" src="https://assets.postman.com/postman-docs/travis-ci-view-builds-v9-15.jpg">
 
