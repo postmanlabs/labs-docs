@@ -87,6 +87,8 @@ You will receive a confirmation once the import has completed. You can now view 
 
 This integration supports importing OpenAPI 3.0 schemas for both HTTP and REST APIs. Importing will create a new API in Postman, with the API name set as the name of the API Gateway, and the default API version being the name of stage/environment. The new API will also have the AWS API Gateway integration added to it.
 
+To import an API from AWS API Gateway:
+
 1. From the sidebar, select __APIs__.
 1. Select **Import** in the left navigation menu.
 1. Select **API Gateway**, then select **AWS API Gateway**.
@@ -100,7 +102,7 @@ To set up a connection to Amazon API Gateway using an AWS IAM role:
 
 1. Select **IAM** under **AWS Authentication Mechanism**.
 
-    <img alt="Connecting with AWS IAM role" src="https://assets.postman.com/postman-docs/connect-to-api-gateway-with-iam-role-v9-5.jpg" width="502px"/><!--TODO: replace image -->
+    <img alt="Connecting with AWS IAM role" src="https://assets.postman.com/postman-docs/import-from-api-gateway-with-iam-role-v9.jpg" />
 
 1. Select the **AWS API Type** (HTTP or REST).
 
@@ -156,7 +158,7 @@ The Amazon API Gateway integration now supports viewing CloudWatch metrics in Po
 
 To set up a connection to Amazon API Gateway using an AWS access key, select **Access Key** under **AWS Authentication Mechanism**.
 
-<img alt="Connecting with AWS access key" src="https://assets.postman.com/postman-docs/connect-to-api-gateway-with-access-key-v9-5.jpg" width="502px"/><!--TODO: replace image -->
+<img alt="Connecting with AWS access key" src="https://assets.postman.com/postman-docs/import-from-api-gateway-with-access-key.jpg" />
 
 Next, enter information about the connection:
 
