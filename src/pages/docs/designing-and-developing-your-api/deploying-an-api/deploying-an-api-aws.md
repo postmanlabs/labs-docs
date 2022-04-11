@@ -26,8 +26,6 @@ This integration supports OpenAPI 3.0 schemas for both HTTP and REST APIs. For H
 
 ## Contents
 
-## Contents
-
 * [Connecting to Amazon API Gateway](#connecting-to-amazon-api-gateway)
     * [Authenticating with an AWS IAM role](#authenticating-with-an-aws-iam-role)
     * [Authenticating with an AWS access key](#authenticating-with-an-aws-access-key)
