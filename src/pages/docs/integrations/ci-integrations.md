@@ -54,7 +54,7 @@ Running API tests as part of your CI pipeline helps to keep expectations between
 
 To run your API tests along with each build, first generate the Newman configuration code in Postman. Then add the configuration code to your CI project. Each time a CI build runs, Newman uses the Postman API to run the collections that contain your tests. You can view the results of your tests in Postman.
 
-To configure Newman to run APItests, see the steps for your CI tool:
+To configure Newman to run API tests, see the steps for your CI tool:
 
 * [CircleCI](/docs/integrations/available-integrations/ci-integrations/circleci/#configuring-newman-for-circleci)
 * [Jenkins](/docs/integrations/available-integrations/ci-integrations/jenkins/#configuring-newman-for-jenkins)
