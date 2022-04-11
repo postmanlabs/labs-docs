@@ -86,7 +86,7 @@ You can add a comment on a specific part of a raw body, a pre-request script, or
 You can leave comments on folders in Postman.
 
 1. Open the folder you would like to comment on.
-2. Open the comments icon <img alt="Comments icon" src="https://assets.postman.com/postman-docs/icon-comments-v9.jpg#icon" width="18px"> at the top-right of the context bar.
+2. Select the comments icon <img alt="Comments icon" src="https://assets.postman.com/postman-docs/icon-comments-v9.jpg#icon" width="18px"> at the top-right of the context bar.
 3. Enter your comment, then select **Add Comment**.
 
 ![Adding comment on a folder](https://assets.postman.com/postman-docs/commenting-on-a-folder-v8.gif)
