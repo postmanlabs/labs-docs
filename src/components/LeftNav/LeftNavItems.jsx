@@ -390,7 +390,18 @@ export const leftNavItems = [
       },
       {
         name: 'Deploying an API',
-        url: '/docs/designing-and-developing-your-api/deploying-an-api/',
+        subParentSlug: 'deploying-an-api',
+        slug: '/docs/designing-and-developing-your-api/deploying-an-api/deploying-an-api-overview/',
+        subMenuItems2: [
+          {
+            name: 'Deploying an API overview',
+            url: '/docs/designing-and-developing-your-api/deploying-an-api/deploying-an-api-overview/',
+          },
+          {
+            name: 'Deploying an AWS API',
+            url: '/docs/designing-and-developing-your-api/deploying-an-api/deploying-an-api-aws/',
+          },
+        ],
       },
       {
         name: 'Observing an API',
