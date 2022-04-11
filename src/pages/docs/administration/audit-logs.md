@@ -19,7 +19,7 @@ Audit logs display events related to your team, users, and billing. Team admins 
 * When users were added to, removed from, or invited to your team
 * Which user performed a specific action and when they did so
 
-Audit logs are retained for 90 days for Professional plan customers, and 180 days for Enterprise plan customers. <!-- TODO: reword -->
+Postman provides audit logs for 90 days for users with Professional plans, and 180 days for users with Enterprise plans.
 
 > Audit logs are visible to all [team admins](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) on [Postman Professional and Enterprise plans](https://www.postman.com/pricing), including super admins on Enterprise teams.
 
@@ -39,7 +39,9 @@ You can view audit logs in Postman by selecting **Team** in the header, then sel
 
 <img alt="Team menu with audit logs selected" src="https://assets.postman.com/postman-docs/menu-select-audit-logs-v9.13.0.jpg" width="300px"/>
 
-Audit logs allow you to view team actions by user, event name, event description, and date. <!-- TODO: include IP address email address, user time zone --> Use the filters to filter the actions by date range, event type, and user.
+Audit logs provide information about actions taken by members of your team. Each event includes the user, the user's email address, the event name and a description of the event, the user's IP address, and the date and time of the action, including the user's timezone.
+
+Use the filters to filter the actions by date range, event type, and user.
 
 <!-- TODO: update screenshot -->
 
@@ -47,7 +49,11 @@ Audit logs allow you to view team actions by user, event name, event description
 
 ## Exporting audit logs from the dashboard
 
-You can export audit logs as CSV files. By default, Postman will export all data in your audit logs from the last seven days. To specify certain data to export, set the filters you want in the audit logs dashboard and Postman will generate the export using those parameters. You will receive an email with a link to the exported audit logs. The link in the email will be active for 24 hours.
+You can export audit logs as CSV files. By default, Postman will export all data in your audit logs from the last seven days. To start the export process, select **Export Audit Logs**.
+
+To specify certain data to export, set the filters you want in the audit logs dashboard and Postman will generate the export using those parameters. To filter your results, select a time period, event, and actor, then select **Export Audit Logs**.
+
+You will receive an email with a link to the exported audit logs. The link in the email will be active for 24 hours.
 
 ## Accessing audit logs via the Postman API
 
