@@ -51,7 +51,7 @@ Use the filters to filter the actions by date range, event type, and user.
 
 You can export audit logs as CSV files. By default, Postman will export all data in your audit logs from the last seven days. To start the export process, select **Export Audit Logs**.
 
-To specify certain data to export, set the filters you want in the audit logs dashboard and Postman will generate the export using those parameters. To filter your results, select a time range, event, and actor, then select **Export Audit Logs**.
+To specify certain data to export, set the filters you want in the audit logs dashboard and Postman will generate the export using those parameters. To filter your results, select a time range, event, and user, then select **Export Audit Logs**.
 
 You will receive an email with a link to the exported audit logs. The link in the email will be active for 24 hours.
 
