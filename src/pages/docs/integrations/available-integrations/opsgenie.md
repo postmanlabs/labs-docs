@@ -20,7 +20,7 @@ contextual_links:
   - type: link
     name: "Integrate with Opsgenie in Postman"
     url: "https://www.youtube.com/watch?v=XWf11B2tYpc"
-    
+
 ---
 
 ## Contents
@@ -39,9 +39,9 @@ This integration allows you to configure [Postman Monitors](/docs/monitoring-you
 
 ## Get the Opsgenie API Key
 
-Log in to your Opsgenie account and go to the **Teams** tab and select the team you will add an integration to.
+Sign in to your Opsgenie account and go to the **Teams** tab and select the team you will add an integration to.
 
-![log in to Opsgenie](https://assets.postman.com/postman-docs/opsgenie-teams-select-bb.jpg)
+![sign in to Opsgenie](https://assets.postman.com/postman-docs/opsgenie-teams-select-bb.jpg)
 
 From the left nav, select **Integrations** > **Add integration**.
 

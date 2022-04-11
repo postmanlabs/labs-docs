@@ -16,7 +16,7 @@ contextual_links:
     name: "Continuous Testing with Postman | Webinar"
     url: "https://youtu.be/sB2HHrezQOo"
   - type: subtitle
-    name: "Related Blog Posts"
+    name: "Blog Posts"
   - type: link
     name: "How to write powerful automated API tests with Postman, Newman and Jenkins"
     url: "https://blog.postman.com/how-to-write-powerful-automated-api-tests-with-postman-newman-and-jenkins/"
@@ -39,6 +39,8 @@ Postman contains a full-featured [testing sandbox](/docs/writing-scripts/script-
 
 The following example shows how to set up a Jenkins build that uses Newman to run a collection. If the collection passes all tests, the Jenkins build will be marked as successful. This uses a Jenkins install running locally, but you'll typically be running it on a build server for production use.
 
+> **Developing an API?** Postman offers built-in tools to integrate your API with some of the most widely-used Continuous Integration (CI) tools, including Jenkins. After you set up CI integration for your API, you can view the status of builds or kick off a new build, all from within Postman. You can also use Newman to run API tests as part of your CI pipeline. To learn more, see [CI integrations](/docs/integrations/ci-integrations/).
+
 ## Contents
 
 * [Installation](#installation)
@@ -52,7 +54,7 @@ The following example shows how to set up a Jenkins build that uses Newman to ru
 1. Install Jenkins locally and start it. For more information, see the Jenkins documentation at [https://www.jenkins.io](https://www.jenkins.io).
 
 1. Install Node.js and Newman in Jenkins:
-    1. Go to your Jenkins server (it's at `http://localhost:8080` by default if you are running it locally) and log in.
+    1. Go to your Jenkins server (it's at `http://localhost:8080` by default if you are running it locally) and sign in.
     1. Go to **Manage Jenkins > Manage Plugins** and install the NodeJS plugin.
     1. Go to **Manage Jenkins > Global Tool Configuration** and under **NodeJS**, select **Add NodeJS**.
     1. Enter a name for the Node.js installation.
@@ -71,7 +73,7 @@ After you've created the collection, [export it as a JSON file](/docs/getting-st
 
 ## Set up Jenkins
 
-1. With Jenkins running, go to `http://localhost:8080` and log in.
+1. With Jenkins running, go to `http://localhost:8080` and sign in.
 1. On the **Dashboard** page, select **New Item** on the left sidebar to create a new job.
 1. Select a **Freestyle project** from the options. Name your project, and select **OK**.
 
@@ -103,7 +105,7 @@ To set the frequency with which Jenkins runs Newman:
 
 1. Open the build window.
 1. Select **Configure**.
-1. Navigate to **Build Triggers** and select **Build periodically**.
+1. Go to **Build Triggers** and select **Build periodically**.
 1. Enter a schedule. The syntax for setting the frequency to every 30 minutes is `H/(30) * * * *`.
 
     > Select the help icon next to **Schedule** to see information on how to specify the build frequency.

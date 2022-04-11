@@ -10,6 +10,14 @@ contextual_links:
   - type: link
     name: "Grouping requests in collections"
     url: "/docs/sending-requests/intro-to-collections/"
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Integrate with Statuspage in Postman"
+    url: "https://youtu.be/siL7Iu9L7ys"
+
 ---
 
 Atlassian Statuspage an uptime and incident communication tools. You can use Statuspage to create a home page for your customers so they can monitor if subsystems or services within your site are operational, and find out more information on system outages or failures. A great example of a Statuspage home page is Postman's status page, located at [status.postman.com](https://status.postman.com).
@@ -22,7 +30,7 @@ Make sure to create your Statuspage account and create a page and components bef
 
 ## Retrieving your Statuspage API Key
 
-1. Log in to [Statuspage](https://manage.statuspage.io/login).
+1. Sign in to [Statuspage](https://manage.statuspage.io/login).
 2. Select your avatar icon in the bottom left of the page.
 3. On the user menu, select **API info**.
 ![Statuspage API key](https://assets.postman.com/postman-docs/statuspage-api-key.jpg)
@@ -31,7 +39,7 @@ Make sure to create your Statuspage account and create a page and components bef
 
 ## Integration Setup
 
-1. On your Home page, navigate to **Integrations**, select **Browse All Integrations**, and select **Statuspage** in the list of third-party integrations.
+1. On your Home page, go to **Integrations**, select **Browse All Integrations**, and select **Statuspage** in the list of third-party integrations.
 1. Select **Add Integration**.
 1. In the **Authenticate** tab, enter the Statuspage API key you copied above.
 ![Statuspage add integration](https://assets.postman.com/postman-docs/add-integration-statuspage.jpg)

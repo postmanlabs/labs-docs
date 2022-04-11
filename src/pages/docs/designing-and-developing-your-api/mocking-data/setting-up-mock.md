@@ -23,7 +23,7 @@ contextual_links:
     name: "Dynamic Mock Behavior | Postman Level Up"
     url: "https://youtu.be/av7SZo9sZAE"
   - type: subtitle
-    name: "Related Blog Posts"
+    name: "Blog Posts"
   - type: link
     name: "Using Mock Servers throughout the API Lifecycle"
     url:  "https://blog.postman.com/using-mock-servers-throughout-the-api-lifecycle/"
@@ -53,9 +53,9 @@ To try out a mock server, carry out the following steps:
 
 * Make a request to any API in Postman–making sure your request is saved to a collection.
 * Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> at the top right to view more actions, then select __Add example__. Postman will automatically populate the example with the response you received when you sent the request.
-* In **Collections** on the left, select the collection and open the __Info__ using the button on the right. Select **Create mock server**.
+* In **Collections** in the sidebar, select the collection, and then select the info icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px"> on the right. Select **Create mock server**.
 * Give your mock a name, leaving the default tag selected, and the delay option unchecked. Select **Create Mock Server**.
-* Copy the mock URL and go back into your request. Replace the base part of the URL with the mock server URL (everything before the path e.g. up to `/customers`).
+* Copy the mock URL and go back into your request. Replace the base part of the URL with the mock server URL (everything before the path, for example up to `/customers`).
 * Select **Send**. Postman should return the example response you saved for the request, this time from the mock server.
 * Open the example again and alter the mock response JSON, then save it and send the request again—you will see your edited mock response.
 
@@ -70,11 +70,11 @@ To try out a mock server, carry out the following steps:
 
 ## Creating mock servers
 
-You can create mock servers from an existing collection, or Postman will create a new collection for your mock server. You can create a new mock [from scratch](#creating-a-mock-from-scratch), [from a collection](#creating-a-mock-from-a-collection), [from the New button](#creating-a-mock-from-the-new-button), [from an API](#creating-a-mock-from-an-api), or [from your history](#creating-a-mock-from-history).
+You can create mock servers from an existing collection, or Postman will create a new collection for your mock server. You can create a new mock [from scratch](#creating-a-mock-from-scratch), [from a collection](#creating-a-mock-from-a-collection), [from the sidebar](#creating-a-mock-from-the-sidebar), [from an API](#creating-a-mock-from-an-api), or [from your history](#creating-a-mock-from-history).
 
 ### Creating a mock from scratch
 
-In __Mock Servers__ on the left of Postman, select the __+__ button.
+In __Mock Servers__ in the sidebar, select __+__.
 
 <img alt="New mock" src="https://assets.postman.com/postman-docs/new-mock-v8.jpg" width="350px"/>
 
@@ -86,13 +86,13 @@ Configure your [mock details](#configuring-mock-details).
 
 ### Creating a mock from a collection
 
-Open a collection in Postman, and open the __Info__ from the button in the right sidebar. Select __Create mock server__.
+Open a collection in Postman, and select the info icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px"> in the right sidebar. Select __Create mock server__.
 
 [![New mock](https://assets.postman.com/postman-docs/add-mock-v8.jpg)](https://assets.postman.com/postman-docs/add-mock-v8.jpg)
 
 Configure your [mock details](#configuring-mock-details).
 
-### Creating a mock from the New button
+### Creating a mock from the sidebar
 
 Select __New__ and choose __Mock Server__.
 
@@ -172,7 +172,7 @@ For example:
 https://3589dfde-f398-45cd-88eb-b0fa0192fc3f.mock.pstmn.io/matches
 ```
 
-The mock URL includes the ID for the mock and the path for the request with a saved example.
+The mock URL includes the mock's ID and the path for the request with a saved example.
 
 [![Mock example](https://assets.postman.com/postman-docs/mock-example-v8.jpg)](https://assets.postman.com/postman-docs/mock-example-v8.jpg)
 
@@ -188,7 +188,7 @@ If you configured a delay for your mock server, Postman will wait the specified 
 
 ### Using HTTP access control for a mock
 
-In addition to using the Postman app to make requests to mock endpoints, you can also make those requests in a browser.
+In addition to using Postman to make requests to mock endpoints, you can also make those requests in a browser.
 
 A web browser makes a cross-origin HTTP request when it requests a resource from a domain, protocol, or port that's different from its own. [Cross-Origin Resource Sharing (CORS)](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) is a standard that defines a way in which a browser and server can interact securely, in this case referring to how a web browser interacts with the mock endpoints hosted on the Postman server.
 
@@ -204,7 +204,7 @@ The mock call log lists an overview of calls made to the mock url, together with
 
 Mock call log entries indicate the time a request was sent, the request method and path, and a response overview. Select an entry to see more detail on request headers and body, or response headers and body.
 
-Use the search field to find particular calls, and the refresh button at the top of the list to view up to date requests.
+Use the search field to find particular calls. Use the refresh icon <img alt="Refresh icon" src="https://assets.postman.com/postman-docs/icon-refresh-v9-5.jpg#icon" width="14px"> at the top of the list to view up to date requests.
 
 ### Troubleshooting mock calls
 
@@ -214,7 +214,7 @@ You can use the mock call log to troubleshoot your requests to mock servers.
 
 If you see `No matching requests` listed in the __Response__ column, this may mean that your mock server is not setup correctly. Make sure [you have an example saved for the request](/docs/designing-and-developing-your-api/mocking-data/mocking-with-examples/) in the collection you have the mock connected to.
 
-In the case of a service outage, you will get a 502/503/504 response. Please subscribe and check the Postman [status page](https://status.postman.com/) for updates if you encounter this.
+In the case of a service outage, you will get a `502`, `503`, or `504` response. Check the Postman [status page](https://status.postman.com/) for updates if you encounter this.
 
 ## Next steps
 

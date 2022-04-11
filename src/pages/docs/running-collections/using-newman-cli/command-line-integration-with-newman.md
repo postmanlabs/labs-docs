@@ -32,15 +32,15 @@ tags:
 
 ---
 
-Newman is a command-line Collection Runner for Postman. It enables you to run and test a Postman Collection directly from the command line. It's built with extensibility in mind so that you can easily integrate it with your continuous integration servers and build systems.
+Newman is a command-line Collection Runner for Postman. It enables you to run and test a Postman Collection directly from the command line. It's built with extensibility in mind so that you can integrate it with your continuous integration servers and build systems.
 
 Newman maintains feature parity with Postman and allows you to run collections the way they're executed inside the collection runner in Postman.
 
 Newman resides in the [NPM registry](https://www.npmjs.com/package/newman) and on [GitHub](https://github.com/postmanlabs/newman).
 
-[![newman gif](https://assets.postman.com/postman-docs/newman-running-in-terminal.gif)](https://assets.postman.com/postman-docs/newman-running-in-terminal.gif)
+[![Running Newman](https://assets.postman.com/postman-docs/newman-running-in-terminal.gif)](https://assets.postman.com/postman-docs/newman-running-in-terminal.gif)
 
-* [Getting Started](#getting-started)
+* [Getting started](#getting-started)
 * [Options](#options)
 * [Example collection with failing tests](#example-collection-with-failing-tests)
 * [Using Newman with CI/CD](#using-newman-with-cicd)
@@ -48,7 +48,7 @@ Newman resides in the [NPM registry](https://www.npmjs.com/package/newman) and o
 * [Library](#library)
 * [Custom reporters](#custom-reporters)
 
-## Getting Started
+## Getting started
 
 Newman is built on Node.js. To run Newman, make sure you have Node.js installed.
 
@@ -97,7 +97,7 @@ $ newman run -h
 |:--|:--|
 | `--folder [folderName]` | Specify a single folder to run from a collection. |
 | `-e`, `--environment [file\|URL]` | Specify a Postman environment as a JSON [file] |
-| `-d`, `--iteration-data [file]` | Specify a data file to use either json or csv |
+| `-d`, `--iteration-data [file]` | Specify a data file to use, either JSON or CSV |
 | `-g`, `--globals [file]` | Specify a Postman globals file as JSON [file] |
 | `-n`, `--iteration-count [number]` | Define the number of iterations to run |
 
@@ -108,14 +108,14 @@ $ newman run -h
 | `--delay-request [number]` | Specify a delay (in ms) between requests [number] |
 | `--timeout-request [number]` | Specify a request timeout (in ms) for a request |
 
-### Misc.
+### Miscellaneous options
 
 | Option | Details |
 |:--|:--|
 | `--bail` | Stops the runner when a test case fails |
 | `--silent` | Turn off terminal output |
 | `--color off` | Turn off colored output (auto\|on\|off) (default: "auto")|
-| `-k`, `--insecure` | Turn off strict ssl |
+| `-k`, `--insecure` | Turn off strict SSL |
 | `-x`, `--suppress-exit-code` | Continue running tests even after a failure, but exit with `code=0` |
 | `--ignore-redirects` | Turn off automatic following of `3XX` responses |
 | `--verbose` | Show detailed information of collection run and each request sent |
@@ -214,11 +214,11 @@ $ newman run mycollection.json --reporters cli,json --reporter-json-export outpu
 
 ## Using Newman with CI/CD
 
-By default, Newman exits with a status code of 0 if everything runs as expected with no exceptions. You can configure your continuous integration tools to respond to Newman's exit codes and correspondingly pass or fail a build. You can also utilize the `--bail` flag to make Newman stop the run if it encounters a test case error with a status code of 1, which can then be picked up by your CI tool or build system.
+By default, Newman exits with a status code of 0 if everything runs as expected with no exceptions. You can configure your continuous integration tools to respond to Newman's exit codes and correspondingly pass or fail a build. You can also use the `--bail` flag to make Newman stop the run if it encounters a test case error with a status code of 1, which can then be picked up by your CI tool or build system.
 
 ## File uploads
 
-Newman also supports file uploads. For this to work correctly, upload the file in the relative location specified in the collection. For instance, review this collection:
+Newman also supports file uploads. For this to work, upload the file in the relative location specified in the collection. For instance, review this collection:
 
 ```json
 {
@@ -295,14 +295,13 @@ newman.run({
 
 ## Custom reporters
 
-Custom reporters come in handy when one would want to generate collection run reports that cater to very specific use cases.
-For instance, logging out the response body when a request (or its tests) fail, and so on.
+Custom reporters are useful to generate collection run reports that cater to specific use cases, for example, logging out the response body when a request (or its tests) fail.
 
 ## Building custom reporters
 
-A custom reporter is a Node module with a name of the form `newman-reporter-<name>`. To create a custom reporter:
+A custom reporter is a Node.js module with a name of the form `newman-reporter-<name>`. To create a custom reporter:
 
-1. Navigate to a directory of your choice, and create a blank npm package with `npm init`.
+1. In the directory of your choice, create a blank npm package with `npm init`.
 
 2. Add an `index.js` file, that exports a function of the following form:
 
@@ -321,7 +320,7 @@ Scoped reporter package names like `@myorg/newman-reporter-<name>` are also supp
 
 ## Using custom reporters
 
-In order to use the custom reporter, it will have to be installed first. For instance, to use the Newman TeamCity reporter, install the reporter package:
+To use the custom reporter, it will have to be installed first. For instance, to use the Newman TeamCity reporter, install the reporter package:
 
 ```bash
 npm install newman-reporter-teamcity
@@ -331,7 +330,7 @@ Note that the name of the package is of the form `newman-reporter-<name>`, where
 
 To use local (non-published) reporters, run the command `npm install <path/to/local-reporter-directory>` instead.
 
-Use the installed reporter, either via the CLI, or programmatically. Here, the `newman-reporter` prefix is not required while specifying the reporter name in the options.
+Use the installed reporter, either with the CLI, or programmatically. Here, the `newman-reporter` prefix isn't required while specifying the reporter name in the options.
 
 Scoped reporter packages must be specified with the scope prefix. For instance, if your package name is `@myorg/newman-reporter-name`, you must specify the reporter with `@myorg/name`.
 

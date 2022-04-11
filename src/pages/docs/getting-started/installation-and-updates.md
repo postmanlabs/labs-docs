@@ -21,7 +21,7 @@ contextual_links:
     name: "Agent for the Postman Web Client | Postman Level Up"
     url:  "https://www.youtube.com/watch?v=6xlJUx2ZMy4&list=PLM-7VG-sgbtC5tNXxd28cmePSa9BYwqeU&index=3"
   - type: subtitle
-    name: "Related Blog Posts"
+    name: "Blog Posts"
   - type: link
     name: "First 5 things to try if you're new to Postman"
     url: "https://blog.postman.com/first-5-things-to-try-if-youre-new-to-postman/"
@@ -61,7 +61,7 @@ To get the latest version of the Postman desktop app, visit the [download page](
 
 Postman is available for macOS 10.11 (El Capitan) and later.
 
-1. [Download](https://www.postman.com/downloads/) the latest Postman app.
+1. [Download](https://www.postman.com/downloads/) the latest Postman version.
 
     > Make sure to download the **Mac Apple Chip** version if you have a Mac with the M1 processor.
 
@@ -81,10 +81,10 @@ brew install --cask postman
 
 Postman is available for Windows 7 and later.
 
-1. [Download](https://www.postman.com/downloads/) the latest Postman app.
+1. [Download](https://www.postman.com/downloads/) the latest Postman version.
 1. Select and run the `.exe` file to install Postman.
 
-> Postman v9.4 is the last version of the Postman app that supports both 32-bit and 64-bit Windows. All versions of the Postman app following v9.4 will only work on 64-bit Windows. You can continue to use Postman v9.4 and earlier on 32-bit Windows.
+> Postman v9.4 is the last version of Postman that supports both 32-bit and 64-bit Windows. All versions of Postman following v9.4 will only work on 64-bit Windows. You can continue to use Postman v9.4 and earlier on 32-bit Windows.
 
 ## Installing Postman on Linux
 
@@ -92,7 +92,7 @@ You can install Postman on Linux by manually downloading it, using the [Snap](ht
 
 To install manually, [download](https://www.postman.com/downloads/) and unzip the app, for example into the `Downloads` directory.
 
-To start the app from a launcher icon, create a desktop file, naming it `Postman.desktop` and saving it in the following location:
+To start the app from a launcher icon, create a desktop file. Name the file `Postman.desktop` and save it in the following location:
 
 ```shell
 ~/.local/share/applications/Postman.desktop
@@ -171,11 +171,11 @@ Postman for Web is under active development. There are a few features you can cu
 
 ## Updating Postman
 
-The native Postman apps will notify you when a major update is available. For other updates you will see a dot on the settings icon. If the indicator is red instead of orange, it indicates a failed update.
+Postman will notify you when a major update is available. For other updates, you will see a dot on the settings icon. If the indicator is red instead of orange, it indicates a failed update.
 
 ![Update Ready](https://assets.postman.com/postman-docs/update-ready-v86.jpg)
 
-Select the update option to download or install the latest update. You will see a notification when the download is complete, prompting you to restart the Postman app to apply the updates. If you don't want to update yet, choose __Later__ to auto-update the next time you launch the app.
+Select the update option to download or install the latest update. You will see a notification when the download is complete, prompting you to restart Postman to apply the updates. If you don't want to update yet, choose __Later__ to auto-update the next time you open Postman.
 
 You can configure your preferences to enable automatic download for major updates in __Settings__ &gt; __Update__. Postman automatically downloads minor updates and bug fixes.
 
@@ -185,7 +185,7 @@ You can configure your preferences to enable automatic download for major update
 
 The Postman Chrome app is deprecated. If you use the Chrome app, you can keep your data when you [switch to using Postman](#migrating-to-the-native-app) either by syncing with your Postman account or by exporting from Chrome and importing into Postman.
 
-The Postman app is built on [Electron](https://www.electronjs.org/), and [overcomes a number of restrictions](https://blog.postman.com/going-native/) of the Chrome platform.
+The Postman Desktop app is built on [Electron](https://www.electronjs.org/), and [overcomes a number of restrictions](https://blog.postman.com/going-native/) of the Chrome platform.
 
 * The native apps let you work with [cookies](/docs/sending-requests/cookies/) directly.
 * Unlike the Chrome app, no separate extension for the [Interceptor](/docs/sending-requests/capturing-request-data/interceptor/) is needed.
@@ -216,11 +216,11 @@ Postman's infrastructure runs on Amazon's AWS platform. If you are operating beh
 
 By default, WebSocket connections use the same ports as HTTP (80) and HTTPS (443).
 
-Postman doesn't have a fixed IP range that can be provided. If necessary, please refer to the [current AWS IP ranges](https://docs.aws.amazon.com/general/latest/gr/aws-ip-ranges.html) and allow the broad range provided.
+Postman doesn't have a fixed IP range that can be provided. If necessary, refer to the [current AWS IP ranges](https://docs.aws.amazon.com/general/latest/gr/aws-ip-ranges.html) and allow the broad range provided.
 
 ## Troubleshooting your Postman installation
 
-If you encounter any issues installing and running Postman, check out the following tips. If these don't help, please refer to the installation posts on the [community forum](https://community.postman.com/tags/installation) and create a new post if your issue isn't already covered.
+If you encounter any issues installing and running Postman, check out the following tips. If these don't help, refer to the installation posts on the [community forum](https://community.postman.com/tags/installation) and create a new post if your issue isn't already covered.
 
 ### Update failed error
 
@@ -241,9 +241,9 @@ Some known errors are as follows:
 * __Error message:__ `EACCES: permission denied, open '/opt/Postman/Postman-1620288011421.tar.gz`
     * This error means that the app user doesn't have write permission in the directory where Postman is installed. To resolve the problem, move Postman to a directory where the user has write permissions, for example the `home` directory for Linux.
 
-### Update button not available
+### Update not available
 
-If you are using Postman for Linux, and installed the app with the Ubuntu Software Center or Snap Store, you may not see a __Check for updates__ button. This is because the updates are handled by the store, which should automatically update Postman on a regular cadence.
+If you are using Postman for Linux, and installed the app with the Ubuntu Software Center or Snap Store, you may not see the __Check for updates__ option. This is because the updates are handled by the store, which should automatically update Postman on a regular cadence.
 
 ## Next steps
 

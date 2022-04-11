@@ -8,7 +8,7 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
-    name: "Related Blog Posts"
+    name: "Blog Posts"
   - type: link
     name: "Deploying Postman at Enterprise Scale"
     url: "https://blog.postman.com/deploying-postman-at-enterprise-scale/"
@@ -63,7 +63,7 @@ Postman's Enterprise app is a variant of Postman’s Desktop app that offers gre
 
 You must be a [Postman team admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) to access the Postman Enterprise app package.
 
-To download, navigate to Postman and select **Team** in the upper right, then **Team Settings** > **Enterprise Application**.
+To download the Postman Enterprise app, open Postman and select **Team** in the upper right, then **Team Settings** > **Enterprise Application**.
 
 <img alt="Postman Enterprise app download" src="https://assets.postman.com/postman-docs/enterprise-app-download-9.6.jpg" />
 

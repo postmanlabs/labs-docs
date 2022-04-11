@@ -17,7 +17,7 @@ contextual_links:
   - type: link
     name: "Integrate with Splunk in Postman"
     url: "https://youtu.be/0PH2Pv3QwMI"
-    
+
 ---
 
 Splunk is a monitoring service for cloud-scale applications. It combines data from servers, databases, tools, and services to present a unified view of an entire stack. This integration allows you to configure your Postman Monitors to send metrics to Splunk where you can visualize and compare them with other metrics.
@@ -26,14 +26,14 @@ Setting up a Splunk integration requires you to get an HTTP Event Collector (HEC
 
 ## Retrieving your Splunk HEC token
 
-Log in to [Splunk](https://login.splunk.com) and follow the [steps from Splunk](https://docs.splunk.com/Documentation/Splunk/8.1.0/Metrics/GetMetricsInOther#Get_metrics_in_from_clients_over_HTTP_or_HTTPS
+Sign in to [Splunk](https://login.splunk.com) and follow the [steps from Splunk](https://docs.splunk.com/Documentation/Splunk/8.1.0/Metrics/GetMetricsInOther#Get_metrics_in_from_clients_over_HTTP_or_HTTPS
 ) to create and save your HTTP Event Collector token (HEC token). Save the HEC token to configure the Postman Splunk integration.
 
 ![save splunk HEC token](https://assets.postman.com/postman-docs/splunk-http-event-collection-token-created.jpg)
 
 ## Configuring Postman Splunk integration
 
-1. On your Postman Home page, navigate to **Integrations**, select **Browse All Integrations**, and select **Splunk** in the list of third-party integrations.
+1. On your Postman Home page, open **Integrations**, select **Browse All Integrations**, and select **Splunk** in the list of third-party integrations.
 
    [![splunk integrations search all](https://assets.postman.com/postman-docs/splunk-all-search.jpg)](https://assets.postman.com/postman-docs/splunk-all-search.jpg)
 
@@ -62,7 +62,7 @@ As soon as your monitor runs, the data will start flowing into Splunk.
 
 ### Viewing data in a list
 
-1. Navigate to the Splunk homepage, from the left navigation bar, select **Search & Reporting**.
+1. Open the Splunk homepage, from the left navigation bar, select **Search & Reporting**.
 
 1. Enter a **metric** to search for and select it from the results to view details regarding it.
 
@@ -72,7 +72,7 @@ As soon as your monitor runs, the data will start flowing into Splunk.
 
 ### Viewing data as a Pivot table
 
-1. Navigate to the Splunk homepage, from the left navigation bar, select **Search & Reporting**.
+1. Open the Splunk homepage, from the left navigation bar, select **Search & Reporting**.
 
 1. Select **Visualization** and enter a **metric** to search for.
 

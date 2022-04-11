@@ -27,6 +27,7 @@
 
       &-title {
         font-size: 18px;
+        font-family: $Inter600;
         font-weight: 600;
         color: #404040;
       }
@@ -92,6 +93,7 @@
       padding: 6px 12px;
       cursor: pointer;
       -webkit-tap-highlight-color: transparent;
+      font-family: $Inter600;
       font-weight: 600;
       color: #818688;
   

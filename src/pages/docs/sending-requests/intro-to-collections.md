@@ -22,7 +22,7 @@ contextual_links:
     name: "Intro to Postman & Postman Collections"
     url: "https://www.youtube.com/watch?v=ptvV_Fc3hd8"
   - type: dynamic_blog
-    name: "Related Blog Posts"
+    name: "Blog Posts"
     blog_tag: "collections"
   - type: section
     name: "Next Steps"
@@ -35,7 +35,7 @@ warning: false
 
 You can group your Postman requests and examples into collections to keep your workspace organized, to collaborate with teammates, to generate API documentation and API tests, and to automate request runs.
 
-Select **Collections** in the left sidebar of Postman to see the list of collections in a workspace.
+Select **Collections** in the sidebar to see the list of collections in a workspace.
 
 <img alt="" src="https://assets.postman.com/postman-docs/collections-overview.jpg" width="300px"/>
 
@@ -65,11 +65,11 @@ Select **Collections** in the left sidebar of Postman to see the list of collect
 
 There are several ways to create a new collection:
 
-* Select **Collections** in the left sidebar, then select **+**.
+* Select **Collections** in the sidebar, then select **+**.
 
     <img alt="Create new collection" src="https://assets.postman.com/postman-docs/new-collection.jpg" width="300px"/>
 
-* Select the **New** button, then select **Collection**.
+* Select **New**, then select **Collection**.
 * Select **Home** in the Postman header. Select **Create New**, then select **Collection**.
 
 Once you have created a new collection, you can customize and configure it:
@@ -127,7 +127,7 @@ To add a request to an empty collection:
 
 To save a request from your history:
 
-1. Select **History** in the left sidebar.
+1. Select **History** in the sidebar.
 1. Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> next to the request you want to save.
 1. Select **Save Request**.
 
@@ -135,7 +135,7 @@ To save a request from your history:
 
 1. Choose the collection to add the request to, then select **Save**.
 
-> Alternatively, select the **+** button next to the request.
+> Alternatively, select **+** next to the request.
 
 ## Managing collections
 

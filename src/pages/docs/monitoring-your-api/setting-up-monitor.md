@@ -17,7 +17,7 @@ contextual_links:
     name: "API Monitoring | The Exploratory"
     url: "https://youtu.be/tDQzY1Hn2LY"
   - type: subtitle
-    name: "Related Blog Posts"
+    name: "Blog Posts"
   - type: link
     name: "How to monitor Postman Collections with APImetrics"
     url: "https://blog.postman.com/how-to-use-postman-apimetrics/"
@@ -51,9 +51,9 @@ Create a new collection-based monitor to continuously check your API's health, r
 
 Postman offers several ways to create a new collection-based monitor:
 
-* **Create a monitor from scratch.** Select **Monitors** in the left sidebar, and then select the plus **+** button. You will select a collection to run when configuring the new monitor.
-* **Create a monitor from a collection.** Select **Collections** in the left sidebar, select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> next to a collection, and then select **Monitor collection**. The new monitor is automatically configured to run the selected collection.
-* **Create a monitor from an API.** Open an API version from **APIs** in the left sidebar and select the **Monitoring** tab. Select **+ Add Monitor**, and then select **Create new monitor**. You can choose to use an existing collection, create a new collection, or generate a collection from your schema.
+* **Create a monitor from scratch.** Select **Monitors** in the sidebar, and then select **+**. You will select a collection to run when configuring the new monitor.
+* **Create a monitor from a collection.** Select **Collections** in the sidebar, select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> next to a collection, and then select **Monitor collection**. The new monitor is automatically configured to run the selected collection.
+* **Create a monitor from an API.** Open an API version from **APIs** in the sidebar and select the **Monitoring** tab. Select **+ Add Monitor**, and then select **Create new monitor**. You can choose to use an existing collection, create a new collection, or generate a collection from your schema.
 
 > You can also create a monitor using the Postman API. To learn how, see the [Postman API documentation](https://documenter.getpostman.com/view/12959542/UV5XjJV8#419dd5ae-5fb8-476b-b070-c05accc3aaba).
 
@@ -121,7 +121,7 @@ The **Enable SSL validation** option is selected by default. You can turn off SS
 
 ## Working with collection-based monitors
 
-To work with a monitor, select **Monitors** in the left sidebar and then select a monitor to view its dashboard. From here you can take the following actions:
+To work with a monitor, select **Monitors** in the sidebar and then select a monitor to view its dashboard. From here you can take the following actions:
 
 * **Run a monitor.** A monitor runs automatically at set intervals, determined by the run frequency you select when configuring the monitor. To run a monitor manually at any time, select **Run** at the upper right.
 
@@ -131,7 +131,7 @@ To work with a monitor, select **Monitors** in the left sidebar and then select 
 
 * **Edit a monitor.** Edit an existing monitor to update the name, collection, or any other configuration options. Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> at the upper right and select **Edit**. Change any configuration options, and then select **Update Monitor**.
 
-    > You can quickly rename a monitor without editing it. Select **Monitors** in the left sidebar, select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> next to a monitor, and then select **Rename**.
+    > You can quickly rename a monitor without editing it. Select **Monitors** in the sidebar, select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> next to a monitor, and then select **Rename**.
 
 * **Delete a monitor.** Delete a monitor if it's no longer needed. Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> at the upper right and select **Delete**.
 

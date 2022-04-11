@@ -56,7 +56,7 @@ warning: false
 
 ## Viewing monitors in Postman
 
-You can view your collection-based monitors in Postman by navigating to your workspace and selecting **Monitors** in the left sidebar. Select your monitor to open a tab detailing its latest performance.
+You can view your collection-based monitors in Postman by navigating to your workspace and selecting **Monitors** in the sidebar. Select your monitor to open a tab detailing its latest performance.
 
 <img src="https://assets.postman.com/postman-docs/view-monitor-in-tab3.jpg" alt="View monitor in tab"/>
 
@@ -126,7 +126,7 @@ Select **Average** to open the menu, then select an option. To view the newly ca
 
 ### Time traverse
 
-You can navigate through past run results to review what happened at a particular point in time. To do so, select **Go to** in the upper-left corner of the monitor summary or request split graph. Select the time and date, then select **Apply** to view a specific run.
+You can review past run results to see what happened at a particular point in time. To do so, select **Go to** in the upper-left corner of the monitor summary or request split graph. Select the time and date, then select **Apply** to view a specific run.
 
 ![Time traverse](https://assets.postman.com/postman-docs/monitors-time-traverse20.jpg)
 

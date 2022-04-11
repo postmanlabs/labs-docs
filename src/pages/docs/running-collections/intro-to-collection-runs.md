@@ -24,7 +24,7 @@ contextual_links:
     name: "Intro to Postman | Run a Collection"
     url: "https://youtu.be/8UR1NzuT7jg"
   - type: dynamic_blog
-    name: "Related Blog Posts"
+    name: "Blog Posts"
     blog_tag: "collections"
 warning: false
 
@@ -92,13 +92,13 @@ For additional details such as viewing log statements, open the __Console__ from
 
 [![Runner console](https://assets.postman.com/postman-docs/run-console-v8.jpg)](https://assets.postman.com/postman-docs/run-console-v8.jpg)
 
-You can export test results and view the __Run Summary__ using the buttons at the top right.
+To export test results, select **Export Results**. To view details about the run, select __View Summary__.
 
 [![Runner result summary](https://assets.postman.com/postman-docs/run-overview-v8.jpg)](https://assets.postman.com/postman-docs/run-overview-v8.jpg)
 
 The summary also lists a column for each iteration of your collection run so that you can see test output for the whole run at a glance.
 
-To navigate back select __Run Results__.
+To return to the overview of the run, select __View Results__.
 
 ## Sharing collection runs
 

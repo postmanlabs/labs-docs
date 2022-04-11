@@ -9,7 +9,7 @@ export const LandingCard = ({
   <div className="landing-card h-100">
     <div className="landing-card__top">
       <div className="landing-card__image">
-        <img src={icon} alt="landing-card icon" />
+        <img src={icon} alt={title} aria-hidden="true"/>
       </div>
     </div>
     <div className="landing-card__content text-left">

@@ -16,8 +16,11 @@ contextual_links:
   - type: link
     name: "GraphQL in Postman Demo"
     url: "https://youtu.be/7pUbezVADQs"
+  - type: link
+    name: "GraphQL introspection | Postman Level Up"
+    url: "https://youtu.be/k-j3FwTjJkE"
   - type: subtitle
-    name: "Related Blog Posts"
+    name: "Blog Posts"
   - type: link
     name: "Postman v7.2 Supports GraphQL"
     url: "https://blog.postman.com/postman-v7-2-supports-graphql/"
@@ -81,14 +84,14 @@ To enable autocompletion, your request needs a GraphQL schema. Postman will auto
 
 You can also import a schema manually. When you [create or import a GraphQL schema](/docs/designing-and-developing-your-api/creating-an-api/) into Postman, you can then select it instead of the auto-fetched schema.
 
-1. Select **APIs** in the left sidebar, then select **+** to create a new API.
+1. Select **APIs** in the sidebar, then select **+** to create a new API.
 1. Enter a name and version for your API.
 1. Choose **GraphQL** from the **Schema type** dropdown list.
 1. Choose either **JSON** or **GraphQL SDL** from the **Schema Format** dropdown list.
     > You can optionally select the **Import** tab to import an API specification directly from either a local file or a GitHub or Bitbucket repo. If you don't import a schema, Postman will populate your API with a sample specification you can edit at any time.
 1. Select **Create API**.
     <img src="https://assets.postman.com/postman-docs/graphql-create-schema.jpg" alt="Create a new API" width="500px"/>
-1. Open the new API's version page and navigate to the **Definition** tab. Enter your GraphQL schema in the editor and save it.
+1. Open the new API's version page and select the **Definition** tab. Enter your GraphQL schema in the editor and save it.
 
     ![Edit the API schema](https://assets.postman.com/postman-docs/graphql-schema-definition.jpg)
 

@@ -17,7 +17,7 @@ contextual_links:
     name: "Debugging with the Console | Postman Level Up"
     url: "https://www.youtube.com/watch?v=YCsURct9wCk&list=PLM-7VG-sgbtC5tNXxd28cmePSa9BYwqeU&index=9"
   - type: subtitle
-    name: "Related Blog Posts"
+    name: "Blog Posts"
   - type: link
     name: "Powerful Debugging with the Postman Console"
     url: "https://blog.postman.com/powerful-debugging-with-the-postman-console/"
@@ -30,7 +30,7 @@ contextual_links:
 warning: false
 ---
 
-If your API request is not behaving as expected, there can be many possible reasons. To find out what the problem is, you can use the Postman console to troubleshoot your request. This guide also lists common issues and their causes.
+If your API request isn't behaving as expected, there can be many possible reasons. To find out what the problem is, you can use the Postman console to troubleshoot your request. This guide also lists common issues and their causes.
 
 > This guide specifically discusses troubleshooting API requests. To troubleshoot issues with the Postman app, see [Troubleshooting app issues](/docs/getting-started/troubleshooting-inapp/). To troubleshoot issues with Postman monitors, see [Troubleshooting monitors](/docs/monitoring-your-api/troubleshooting-monitors/).
 
@@ -56,7 +56,7 @@ The Postman console logs the following information:
 
 ### Opening the console
 
-Open the console by selecting **Console** in the status bar at the bottom left of Postman. In the Postman app, you can also select **⌘+Option+C** or **Ctrl+Alt+C**.
+Open the console by selecting <img alt="Console icon" src="https://assets.postman.com/postman-docs/icon-console-v9.jpg#icon" width="16px"> **Console** in the status bar at the bottom left of Postman. In the Postman Desktop app, you can also select **⌘+Option+C** or **Ctrl+Alt+C**.
 
 <img alt="Open the console" src="https://assets.postman.com/postman-docs/console-pane-button.jpg" width="350px"/>
 
@@ -93,7 +93,7 @@ Using log statements at appropriate locations in your test scripts can help you 
 
 ## Common issues
 
-If your issue with sending a request is not listed here, see [Getting help](#getting-help) for information how to contact Postman support.
+If your issue with sending a request isn't listed here, see [Getting help](#getting-help) for information how to contact Postman support.
 
 Issue | Resolving the issue
 --- | ---
@@ -115,5 +115,5 @@ Issue | Resolving the issue
 If you are still having problems with your request, there are a few options for you to get help:
 
 * Ask for community help in the [Postman forum](https://community.postman.com/).
-* If you think the problem is with the Postman app, search the [issue tracker](https://github.com/postmanlabs/postman-app-support/issues) on GitHub to check if someone has already reported the issue and whether there is a known solution.
-* If you need to include confidential data, file a ticket with [Postman support](https://support.postman.com/hc/en-us), including your console logs.
+* If you think the problem is with Postman itself, search the [issue tracker](https://github.com/postmanlabs/postman-app-support/issues) on GitHub to check if someone has already reported the issue and whether there is a known solution.
+* If you need to include confidential data, file a support ticket with [Postman support](https://support.postman.com/hc/en-us), including your console logs.

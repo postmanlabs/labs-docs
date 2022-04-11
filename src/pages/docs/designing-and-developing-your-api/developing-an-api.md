@@ -18,7 +18,7 @@ contextual_links:
     name: "Postman Space Camp | Advanced API Debugging"
     url: "https://youtu.be/9xGp6d7VFgU"
   - type: subtitle
-    name: "Related Blog Posts"
+    name: "Blog Posts"
   - type: link
     name: "Create APIs directly within the Postman app"
     url: "https://blog.postman.com/postman-7-1-create-apis-directly-within-the-postman-app/"

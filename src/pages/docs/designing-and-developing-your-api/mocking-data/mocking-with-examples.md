@@ -21,7 +21,7 @@ contextual_links:
     name: "Mock Servers | The Exploratory"
     url: "https://youtu.be/n_7UUghLpco"
   - type: subtitle
-    name: "Related Blog Posts"
+    name: "Blog Posts"
   - type: link
     name: "Mock responses in Postman by using Examples"
     url: "https://blog.postman.com/mock-responses-in-postman-by-using-examples/"
@@ -77,7 +77,7 @@ To save the response you received from the Postman Echo service, select **Save R
 
 <img alt="Save an example" src="https://assets.postman.com/postman-docs/mock-examples-step3a-v9-1.jpg" width="808px">
 
-Select **Collections** in the left sidebar, expand the `C1` collection and the request, and then select the example to open it.
+Select **Collections** in the sidebar, expand the `C1` collection and the request, and then select the example to open it.
 
 <img alt="Open an example" src="https://assets.postman.com/postman-docs/mock-examples-step3b-v9-1.jpg" width="456px">
 
@@ -87,7 +87,7 @@ To rename the example, select the edit icon <img alt="Edit icon" src="https://as
 
 ### Step 4: Create a mock server for the collection
 
-Now that you've added an example to your collection, you're ready to set up a mock server. Select **Collections** in the left sidebar. Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> next to the `C1` collection, and then select **Mock collection**.
+Now that you've added an example to your collection, you're ready to set up a mock server. Select **Collections** in the sidebar. Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> next to the `C1` collection, and then select **Mock collection**.
 
 <img alt="Mock a collection" src="https://assets.postman.com/postman-docs/mock-examples-step4a-v9-1.jpg" width="455px">
 
@@ -98,7 +98,7 @@ For **Mock server name**, enter `M1`. You can also specify other details for you
 * If your saved example uses [environment variables](/docs/sending-requests/managing-environments/) (like `{{base_url}}/my/path`), you must select the corresponding **Environment** or the mock server won't work. In this case, the example doesn't use any variables, so you can select **No Environment**.
 * By default, mock servers are publicly accessible. If you select the **Make mock server private** check box, the mock server will no longer be public. You can share it with team members and [provide permission](/docs/collaborating-in-postman/roles-and-permissions/) to edit or view. For now, do not select this check box.
 
-When you're done configuring the mock server, select **Create Mock Server**. You can access the mock server at any time by selecting **Mock Servers** in the left sidebar.
+When you're done configuring the mock server, select **Create Mock Server**. You can access the mock server at any time by selecting **Mock Servers** in the sidebar.
 
 <img alt="Create a mock server" src="https://assets.postman.com/postman-docs/mock-examples-step4b-v9-1.jpg" width="779px">
 
@@ -108,7 +108,7 @@ When you're done configuring the mock server, select **Create Mock Server**. You
 
 Now that you've created the mock server `M1`, you can try sending a request to the mock endpoint.
 
-First, copy the mock server URL. Select **Mock Servers** in the left sidebar, select the `M1` mock server, and then select **Copy Mock URL**.
+First, copy the mock server URL. Select **Mock Servers** in the sidebar, select the `M1` mock server, and then select **Copy Mock URL**.
 
 <img alt="Copy mock URL" src="https://assets.postman.com/postman-docs/mock-examples-step5a-v9-1.jpg" width="808px">
 

@@ -13,7 +13,7 @@ contextual_links:
     name: "The Reimagined API-First Workflow | The Exploratory"
     url: "https://youtu.be/rTTAVlUxfDc"
   - type: subtitle
-    name: "Related Blog Posts"
+    name: "Blog Posts"
   - type: link
     name: "The Reimagined API-First Workflow, Part 1: for Developers"
     url: "https://blog.postman.com/the-reimagined-api-first-workflow-for-developers/"
@@ -57,9 +57,9 @@ The following are the high-level steps involved when creating and using APIs:
 
 ## Navigating the API Builder
 
-Open __APIs__ from the left sidebar in Postman. You can open and edit any existing APIs from here, or create or import new APIs. Select a parent entry to open the API's **Overview** page, or select a child entry underneath to open an **API version** page.
+Select __APIs__ in the sidebar. You can open and edit any existing APIs from here, or create or import new APIs. Select a parent entry to open the API's **Overview** page, or select a child entry underneath to open an **API version** page.
 
-<img src="https://assets.postman.com/postman-docs/api-builder-left-sidebar.jpg" alt="API Builder left sidebar" width="350px" />
+<img src="https://assets.postman.com/postman-docs/api-builder-left-sidebar.jpg" alt="API Builder sidebar" width="350px" />
 
 The API **Overview** page displays high-level information about all versions of your API, and a list of each version of the API. The **Overview** page includes actions to create a new version of the API.
 

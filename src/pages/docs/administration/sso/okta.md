@@ -25,7 +25,7 @@ You can set up your custom SAML application by using the available Postman app i
 
 To set up custom SAML application, follow the procedure outlined below:
 
-After you login to your Okta account, perform the following steps:
+After you sign in to your Okta account, perform the following steps:
 
 ### Okta - Step 1
 
@@ -54,7 +54,7 @@ Under the first step "General Settings", enter an application name and then sele
 
 ### Okta - Step 6
 
-Under the second step “Configure SAML”, section A “SAML Settings”, enter the Postman service provider details which can be found on the Postman [Edit Team Details](https://go.postman.co/settings/team/general) page. To update the identity provider details, navigate to _Authentication -> <My_Okta_Integration_Name>_ and select **Edit**. Next, select **Proceed**. Ensure you are in the following screen after the completion of this step:
+Under the second step “Configure SAML”, section A “SAML Settings”, enter the Postman service provider details which can be found on the Postman [Edit Team Details](https://go.postman.co/settings/team/general) page. To update the identity provider details, go to _Authentication > <My_Okta_Integration_Name>_ and select **Edit**. Next, select **Proceed**. Ensure you are in the following screen after the completion of this step:
 [![details](https://assets.postman.com/postman-docs/server-provider-details.jpg)](https://assets.postman.com/postman-docs/server-provider-details.jpg)
 
 Now, download the encryption certificate. Select the **Download as file** link (shown in red circle). You will upload this later in the **Okta SAML** configuration section, which is explained below. In the following screen, select **Show Advanced Settings** link to configure advanced SAML assertion settings.
@@ -80,7 +80,7 @@ Under the third step “Feedback”, select “I’m an Okta customer adding an 
 
 ### Okta - Step 9
 
-Move over to the **Sign On** tab, and select the **View Setup Instructions** button.
+Move over to the **Sign On** tab, and select **View Setup Instructions**.
 [![okta sign on](https://assets.postman.com/postman-docs/okta_sign_on.png)](https://assets.postman.com/postman-docs/okta_sign_on.png)
 
 The **View Setup Instructions** screen comes populated with values that you should copy and paste in the **Identity Provider Details** section.
@@ -95,10 +95,10 @@ Copy the **Identity Provider Single Sign-On URL**, **Identity Provider Issuer** 
 And paste them in the corresponding sections of the **Identity Provider Details** screen as shown below:
 [![details](https://assets.postman.com/postman-docs/Okta-IDP-Details3.png)](https://assets.postman.com/postman-docs/Okta-IDP-Details3.png)
 
-Once you fill in the details, select the **Generate relay/Regenerate relay** button to create a parameter to send with a SAML response in an IDP-initiated single sign-on. Copy the **relay state** and paste it in the following screen:
+Once you fill in the details, select **Generate relay/Regenerate relay** to create a parameter to send with a SAML response in an IDP-initiated single sign-on. Copy the **relay state** and paste it in the following screen:
 [![details](https://assets.postman.com/postman-docs/Okta-Relay-State.png)](https://assets.postman.com/postman-docs/Okta-Relay-State.png)
 
-To paste, select the **Edit** button and paste the value in **Default Relay State** field.
+To paste, select **Edit** and paste the value in **Default Relay State** field.
 
 Select **Save Authentication**.
 
@@ -106,7 +106,7 @@ Select **Save Authentication**.
 
 To set up custom SAML application using the Postman app, follow the procedure outlined below:
 
-After you login to your Okta account, perform the following steps:
+After you sign in to your Okta account, perform the following steps:
 
 ### Postman - Step 1
 
@@ -132,13 +132,13 @@ In the following screen, enter a name in the **Application Label** field and sel
 
 ### Postman - Step 4
 
-Now, go to the Postman [Edit Team Details](https://go.postman.co/settings/team/general) page. To update the identity provider details, navigate to _Authentication -> <My_Okta_Integration_Name>_ and select **Edit**. Next, select **Proceed**. Ensure you are in the following screen after the completion of this step:
+Now, go to the Postman [Edit Team Details](https://go.postman.co/settings/team/general) page. To update the identity provider details, go to _Authentication > <My_Okta_Integration_Name>_ and select **Edit**. Next, select **Proceed**. Ensure you are in the following screen after the completion of this step:
 
 [![details](https://assets.postman.com/postman-docs/Okta-IDP-Details.png)](https://assets.postman.com/postman-docs/Okta-IDP-Details.png)
 
 Now, download the encryption certificate by selecting **Download as file** (shown in red circle). You will upload this later in the **Okta SAML** configuration section, which is explained below.
 
-Navigate to your Okta account. Go to the **Sign On** tab and select **Edit**.
+Go to your Okta account. Go to the **Sign On** tab and select **Edit**.
 [![details](https://assets.postman.com/postman-docs/Okta-New-Integ3.png)](https://assets.postman.com/postman-docs/Okta-New-Integ3.png)
 
 The following screen opens:
@@ -148,7 +148,7 @@ Select **Browse** and upload the encryption certificate. Select **Save**.
 
 ### Postman - Step 5
 
-Move over to the **Sign On** tab, and select the **View Setup Instructions** button.
+Move over to the **Sign On** tab, and select **View Setup Instructions**.
 [![okta sign on](https://assets.postman.com/postman-docs/okta_sign_on.png)](https://assets.postman.com/postman-docs/okta_sign_on.png)
 
 The **View Setup Instructions** screen comes populated with values that you should copy and paste in the **Identity Provider Details** section.
@@ -165,7 +165,7 @@ And paste them in the corresponding sections of the **Identity Provider Details*
 
 ### Postman - Step 7
 
-Once you fill-in the details, select the **Generate relay/Regenerate relay** button to create a parameter to send with a SAML response in an IDP-initiated single sign-on. Copy the **relay state** and paste it in the following screen:
+Once you fill in the details, select **Generate relay/Regenerate relay** to create a parameter to send with a SAML response in an IDP-initiated single sign-on. Copy the **relay state** and paste it in the following screen:
 [![details](https://assets.postman.com/postman-docs/Okta-Relay-State.png)](https://assets.postman.com/postman-docs/Okta-Relay-State.png)
 
 To paste, select **Edit** and paste the value in **Default Relay State** field.

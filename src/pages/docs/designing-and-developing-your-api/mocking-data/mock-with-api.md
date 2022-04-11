@@ -27,7 +27,7 @@ contextual_links:
     name: "Giant Machines"
     url: "https://www.postman.com/case-studies/giant-machines/"
   - type: subtitle
-    name: "Related Blog Posts"
+    name: "Blog Posts"
   - type: link
     name: "Mock responses in Postman by using Examples"
     url: "https://blog.postman.com/mock-responses-in-postman-by-using-examples/"
@@ -72,7 +72,7 @@ Select **Send** to send the `GET All Collections` request. The response pane dis
 
 <img alt="Getting the collection ID" src="https://assets.postman.com/postman-docs/mock-api-collection-id-v9-14.jpg" width="893px">
 
-> You can also find the collection ID in Postman. First, select **Collections** in the left sidebar and select the `testAPI` collection. Then select the Information icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px"> in the right context bar to see the ID.
+> You can also find the collection ID in Postman. First, select **Collections** in the sidebar and select the `testAPI` collection. Then select the Information icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px"> in the right context bar to see the collection ID.
 
 ### Get the environment ID
 
@@ -82,7 +82,7 @@ Make sure to add an `x-api-key` header with your Postman API Key, and then selec
 
 <img alt="Getting the environment ID" src="https://assets.postman.com/postman-docs/mock-api-environment-id-v9-14.jpg" width="893px">
 
-> You can also find the environment ID in Postman. First, select **Environments** in the left sidebar and select the `testAPIenv` environment. Then select the Information icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px"> in the right context bar to see the ID.
+> You can also find the environment ID in Postman. First, select **Environments** in the sidebar and select the `testAPIenv` environment. Then select the Information icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px"> in the right context bar to see the environment ID.
 
 ## Step 3: Create a mock server with the Postman API
 
@@ -116,7 +116,7 @@ Add an `x-api-key` header with your Postman API Key, and then select **Send**. T
 
 <img alt="Getting the mock server URL" src="https://assets.postman.com/postman-docs/mock-api-mock-url-v9-14.jpg" width="893px">
 
-> You can also find the mock server URL in Postman. Select **Mock Servers** in the left sidebar, select the `testAPI` mock server, and then select **Copy URL**.
+> You can also find the mock server URL in Postman. Select **Mock Servers** in the sidebar, select the `testAPI` mock server, and then select **Copy URL**.
 
 ## Step 5: Send a request to the mock server
 

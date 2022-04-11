@@ -22,7 +22,7 @@ contextual_links:
     name: "30 days of Postman for developers"
     url:  "https://www.postman.com/postman/workspace/30-days-of-postman-for-developers/overview"
   - type: subtitle
-    name: "Related Blog Posts"
+    name: "Blog Posts"
   - type: link
     name: "The Good Collection"
     url: "https://blog.postman.com/the-good-collection/"
@@ -41,19 +41,19 @@ Postman Collections are a group of saved requests. Every request you send in Pos
 
 To create a new collection, you can start by creating a new request first:
 
-You can create a new request from the left sidebar in Postman. Select __New__ &gt; __HTTP Request__.
+You can create a new request from the sidebar in Postman. Select __New__ &gt; __HTTP Request__.
 
 <img alt="Create new request sidebar" src="https://assets.postman.com/postman-docs/create-new-request-sidebar-v9.jpg"/>
 
 Enter a request in the request builder and select **Save** to open the **Save Request** dialog box.
 
-1. Create a new collection by selecting **New Collection**. Enter a collection name, and then select the **Create** button.
+1. Create a new collection by selecting **New Collection**. Enter a collection name, and then select **Create**.
 
     <img alt="Save request to collection" src="https://assets.postman.com/postman-docs/save-request-to-collection-v9.jpg" width="400px"/>
 
 1. Select **Save** to save the request in the new collection.
 
-Congratulations! You can see all your collections under the **Collections** tab of the sidebar on the left, as shown below:
+Congratulations! You can see all your collections under **Collections** in the sidebar, as shown below:
 
 <img alt="Collection sidebar" src="https://assets.postman.com/postman-docs/creating-first-collection-v9.jpg" width="400px"/>
 

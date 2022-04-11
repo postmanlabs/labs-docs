@@ -35,7 +35,7 @@ contextual_links:
     name: "30 days of Postman for developers"
     url:  "https://www.postman.com/postman/workspace/30-days-of-postman-for-developers/overview"
   - type: subtitle
-    name: "Related Blog Posts"
+    name: "Blog Posts"
   - type: link
     name: "First 5 things to try if you're new to Postman"
     url: "https://blog.postman.com/first-5-things-to-try-if-youre-new-to-postman/"
@@ -123,6 +123,6 @@ If you're integrating Postman with your CI/CD workflow or are developing with Po
 
 ## Providing feedback
 
-Share your thoughts on the documentation and help the Postman team to improve it for yourself and other learners! To submit feedback, please [create an issue on the documentation GitHub repo](https://github.com/postmanlabs/postman-docs/issues) or post in the [community forum](https://community.postman.com/).
+Share your thoughts on the documentation and help the Postman team to improve it for yourself and other learners! To submit feedback, [create an issue in the documentation GitHub repo](https://github.com/postmanlabs/postman-docs/issues) or post in the [community forum](https://community.postman.com/).
 
 Help improve Postman and have an impact on [Postman's roadmap](https://github.com/postmanlabs/postman-app-support/projects/45?fullscreen=true) by sending your feedback directly to Postman's developer team. To submit feature requests, [create an issue on the Postman GitHub repo](https://github.com/postmanlabs/postman-app-support/issues).

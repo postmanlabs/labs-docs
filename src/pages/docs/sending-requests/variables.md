@@ -24,16 +24,13 @@ contextual_links:
     name: "Manage CLI Environment Variables | Postman Level Up"
     url: "https://youtu.be/n8O2KP-Zx8I"
   - type: subtitle
-    name: "Related Blog Posts"
-  - type: link
-    name: "Find and replace text, code, and variables"
-    url: "https://blog.postman.com/find-and-replace-text-code-and-variables-in-postman/"
-  - type: link
-    name: "10 tips for working with variables"
-    url: "https://blog.postman.com/10-tips-for-working-with-postman-variables/"
+    name: "Blog Posts"
   - type: link
     name: "Securely Using API Keys in Postman"
     url: "https://blog.postman.com/how-to-use-api-keys/"
+  - type: link
+    name: "You Can Now Identify Unresolved Variables Easily"
+    url: "https://blog.postman.com/identify-unresolved-variables-easily/"
   - type: section
     name: "Next Steps"
   - type: link
@@ -133,7 +130,7 @@ To set the variable type to secret:
 
     <img alt="Environment editor" src="https://assets.postman.com/postman-docs/environment-editor-default-v9.13.jpg">
 
-    > You can also edit an environment by navigating to the workspace it resides in and selecting **Environments** from the left sidebar, then selecting your environment.
+    > You can also edit an environment by navigating to the workspace it resides in and selecting **Environments** from the sidebar, then selecting your environment.
 
 1. Select **default** next to the variable you want to change to open the dropdown, then select **secret** to update the variable type.
 1. Select <img alt="Save icon" src="https://assets.postman.com/postman-docs/icon-save.jpg#icon" width="16px"> **Save** to confirm your changes.
@@ -166,7 +163,7 @@ You can also define variables at any scope in the request builder:
 
     <img src="https://assets.postman.com/postman-docs/set-as-a-new-var.jpg" alt="Set as variable" width="300px"/>
 
-1. Enter a **Name**, verify the **Value**, and select a scope from the drop-down list. Select **Set variable**.
+1. Enter a **Name**, confirm the **Value** is correct, and select a scope from the drop-down list. Select **Set variable**.
 
     <img src="https://assets.postman.com/postman-docs/set-as-var-modal.jpg" alt="Set as variable" width="450px"/>
 
@@ -185,7 +182,7 @@ You can set the values for existing variables to values from a request's respons
 
 To view global variables:
 
-1. Select **Environments** in the left sidebar.
+1. Select **Environments** in the sidebar.
 1. Select **Globals**.
 
 > You can also view global variables by selecting the **Environment quick look** <img alt="Quick Look icon" src="https://assets.postman.com/postman-docs/eye.jpg#icon" width="16px"> at the top right.
@@ -210,7 +207,7 @@ You can also [define global variables in scripts](#defining-variables-in-scripts
 
 To download global variables as JSON:
 
-1. Select **Environments** in the left sidebar.
+1. Select **Environments** in the sidebar.
 1. Select **Globals**.
 1. Select **Export**.
 1. Choose where to save the file, then select **Save**.
@@ -219,7 +216,7 @@ To download global variables as JSON:
 
 To view environment variables:
 
-1. Select **Environments** in the left sidebar.
+1. Select **Environments** in the sidebar.
 1. Select the environment you want to see variables for.
 
 > You can also view environment variables by selecting the **Environment quick look** <img alt="Quick Look icon" src="https://assets.postman.com/postman-docs/eye.jpg#icon" width="16px"> at the top right.
@@ -251,12 +248,12 @@ You can add collection variables when you create the collection or at any time a
 
 To create or edit a variable for an existing collection:
 
-1. Select **Collections** in the left sidebar.
+1. Select **Collections** in the sidebar.
 1. Select a collection, and then select the **Variables** tab.
 
 [![Edit Collection](https://assets.postman.com/postman-docs/collection-variables-v9.jpg)](https://assets.postman.com/postman-docs/collection-variables-v9.jpg)
 
-> If you don't have Editor access to a collection, you will see a __Request Access__ button. You won't be able to add new collection variables, update initial values, or persist values. You can edit the current value for local use, override the collection variable by using an environment variable with the same name, or [request Editor access](/docs/collaborating-in-postman/requesting-access-to-collections/) to the collection.
+> If you don't have Editor access to a collection, you can select __Request Access__. Without Editor access, you won't be able to add new collection variables, update initial values, or persist values. You can edit the current value for local use, override the collection variable by using an environment variable with the same name, or [request Editor access](/docs/collaborating-in-postman/requesting-access-to-collections/) to the collection.
 
 You can also [define collection variables in scripts](#defining-variables-in-scripts).
 
@@ -369,7 +366,7 @@ Use the following syntax in your script to log the value of a variable:
 console.log(pm.variables.get("variable_key"));
 ```
 
-To view the results, open the console from the button on the bottom left of Postman, or from the __View__ menu.
+To view the results, select **Console** <img alt="Console icon" src="https://assets.postman.com/postman-docs/icon-console-v9.jpg#icon" width="16px"> in the footer. You can also access the console from the __View__ menu > **Show Postman Console**.
 
 [![Logging Variable](https://assets.postman.com/postman-docs/log-var-v8.jpg)](https://assets.postman.com/postman-docs/log-var-v8.jpg)
 
@@ -431,7 +428,7 @@ To check if the variable is available and in scope for the request:
 If the variable is unresolved because it doesn't exist:
 
 1. Select **Add new variable**.
-1. Enter a **Name**, verify a **Value** for the variable, and select the appropriate **Scope** (global, collection, or environment) from the dropdown.
+1. Enter a **Name**, set a **Value** for the variable, and select the appropriate **Scope** (global, collection, or environment) from the dropdown.
 1. Select **Set variable**.
 
 <img alt="Set an unresolved variable" src="https://assets.postman.com/postman-docs/set-unresolved-variable-v9.jpg" width="300px"/>

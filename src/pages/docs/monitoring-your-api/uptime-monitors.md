@@ -7,7 +7,7 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
-    name: "Related Blog Posts"
+    name: "Blog Posts"
   - type: link
     name: "Introducing Postman’s API Uptime Monitor in Open Beta"
     url: "https://blog.postman.com/introducing-uptime-monitor/"
@@ -18,7 +18,7 @@ warning: false
 
 Uptime monitors (open beta) continuously check the availability of a single API endpoint, website, or other URL and let you know whenever downtime occurs (typically within 1 to 2 minutes).
 
-To create a new uptime monitor, simply enter the URL and select which team members should be notified of a system outage. You can customize how often the monitor checks the availability of the URL. You can also configure the monitor to run in multiple regions (paid plans only).
+To create a new uptime monitor, enter the URL and select which team members should be notified of a system outage. You can customize how often the monitor checks the availability of the URL. You can also configure the monitor to run in multiple regions (paid plans only).
 
 Use the uptime monitor dashboard to quickly check if the API endpoint is currently up or down and the average response time. You can also view previous downtime incidents and get insights into the availability of the endpoint over time.
 
@@ -37,7 +37,7 @@ Use the uptime monitor dashboard to quickly check if the API endpoint is current
 
 Create a new uptime monitor to track the availability of a single API endpoint, website, or other URL. The uptime monitor sends an email notification to your team whenever downtime is detected, or when the service is once again up and available.
 
-1. Select **Monitors** in the left sidebar, and then select the plus **+** button.
+1. Select **Monitors** in the sidebar, and then select **+**.
 1. Select **Create an Uptime Monitor** in the right pane.
 1. Enter the **URL** you want to monitor. *Uptime monitors can only monitor URLs, API endpoints, and websites that are publicly available over the internet. Only HTTP and HTTPS are supported.*
 1. For **Monitor name**, enter a descriptive name that will help you identify the monitor later.
@@ -54,7 +54,7 @@ Create a new uptime monitor to track the availability of a single API endpoint, 
 
 ## Viewing uptime monitor results
 
-To view results for an uptime monitor, select **Monitors** in the left sidebar, and then select a monitor to view its dashboard.
+To view results for an uptime monitor, select **Monitors** in the sidebar, and then select a monitor to view its dashboard.
 
 The dashboard shows if the API endpoint was up or down at the time it was last checked, for how long, and the number of regions where it's failing. To update the dashboard with the latest monitor status, select <img alt="Refresh icon" src="https://assets.postman.com/postman-docs/icon-refresh-v9-5.jpg#icon" width="14px"> **Refresh**.
 
@@ -89,7 +89,7 @@ From the monitor dashboard, you can take the following actions:
 
 * **Edit an uptime monitor.** Edit an existing uptime monitor to update the name, URL, or any other configuration options. Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> at the upper right and select **Edit**. Change any configuration options, and then select **Update Monitor**.
 
-    > You can quickly rename a monitor without editing it. Select **Monitors** in the left sidebar, select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> next to a monitor, and then select **Rename**.
+    > You can quickly rename a monitor without editing it. Select **Monitors** in the sidebar, select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> next to a monitor, and then select **Rename**.
 
 * **Delete an uptime monitor.** Delete an uptime monitor if it's no longer needed. Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> at the upper right and select **Delete**.
 

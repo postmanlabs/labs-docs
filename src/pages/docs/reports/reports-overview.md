@@ -41,7 +41,7 @@ To see API reports in Postman, make sure to do all of the following:
 
 * [Share your API](/docs/designing-and-developing-your-api/managing-apis/).
 * [Add a collection to the API](/docs/designing-and-developing-your-api/defining-an-api/#generating-a-collection).
-* Select __History__ in the left sidebar and enable the [__Save Responses__ option](/docs/getting-started/navigating-postman/#history).
+* Select __History__ in the sidebar and enable the [__Save Responses__ option](/docs/getting-started/navigating-postman/#history).
 * [Send a request](/docs/sending-requests/requests/) from the collection.
 
 To view reports:
@@ -53,7 +53,7 @@ Reports are generated periodically but not in real time. You may experience a de
 
 > You can only see report data that is visible to you based on your [role](/docs/collaborating-in-postman/roles-and-permissions/).
 
-To navigate within a report:
+To explore reports and report data:
 
 * Select items in the left sidebar to see each report.
 * Some report items have a link that opens another related report. For example, on the **Uptime** chart in the **Summary** report, there is a link to open the **Team APIs** report.
@@ -61,7 +61,7 @@ To navigate within a report:
 
     <img src="https://assets.postman.com/postman-docs/reports-datapoint-hover.jpg" alt="reports data point" width="100px" />
 
-* Select a data point to drill down and view more details. Sort the table by selecting a column heading. Hover over a table row and select the arrow to navigate to a related report or entity.
+* Select a data point to drill down and view more details. Sort the table by selecting a column heading. Hover over a table row and select the arrow to go to a related report or entity.
 
     <img src="https://assets.postman.com/postman-docs/reports-drilldown.jpg" alt="reports drill down" />
 

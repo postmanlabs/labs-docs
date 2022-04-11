@@ -13,7 +13,7 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
-    name: "Related Blog Posts"
+    name: "Blog Posts"
   - type: link
     name: "Speeding up workflows with keyboard shortcuts"
     url: "https://blog.postman.com/speeding-up-workflows-with-keyboard-shortcuts/"
@@ -37,7 +37,7 @@ warning: false
 
 Postman automatically chooses default values for some settings so you can get right to work. Make changes to settings at any time based on your use case or to customize your Postman experience.
 
-To change settings in Postman, select the **Settings** button <img alt="Settings icon" src="https://assets.postman.com/postman-docs/settings-icon-v8.jpg" width="18px"> in the header and then select **Settings**. In the Postman app, you can also select **⌘+Comma (,)** or **Ctrl+Comma (,)**.
+To change settings in Postman, select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the header and then select **Settings**. In the Postman Desktop app, you can also select **⌘+Comma (,)** or **Ctrl+Comma (,)**.
 
 ## General
 
@@ -105,7 +105,7 @@ Pick your pleasure: select a light or dark theme for Postman.
 
 The **Shortcuts** tab displays all the keyboard shortcuts available in Postman. To turn off keyboard shortcuts, select the **Shortcuts** toggle.
 
-Some shortcuts aren't available in Postman for Web. Also, shortcut modifier keys may differ depending on your operating system. For example, to open a new tab in the Postman app on macOS, select **⌘+T**. To open a new tab in the Postman app on Windows or Linux, select **Ctrl+T**.
+Some shortcuts aren't available in Postman for Web. Also, shortcut modifier keys in Postman may differ depending on your operating system. For example, to open a new tab select **⌘+T** on macOS or **Ctrl+T** on Windows or Linux.
 
 ## Data
 
@@ -127,7 +127,7 @@ Use the **Proxy** tab to configure proxy settings for connecting to online servi
 
 ## Update
 
-Use the **Update** tab to check for updates to the Postman app or to enable automatic updating. Learn more about [updating Postman](/docs/getting-started/installation-and-updates/#updating-postman).
+Use the **Update** tab to check for updates to Postman or to enable automatic updating. Learn more about [updating Postman](/docs/getting-started/installation-and-updates/#updating-postman).
 
 ## About
 
@@ -135,11 +135,11 @@ The **About** tab displays the current version of Postman, along with links to h
 
 ## Hardware acceleration
 
-The Postman app takes advantage of your computer's built-in graphics hardware to speed up the rendering of onscreen graphics. Sometimes your computer's specific GPU, drivers, or operating system may cause issues with hardware acceleration. If you see screen artifacts or other glitches, try disabling hardware acceleration.
+Postman takes advantage of your computer's built-in graphics hardware to speed up the rendering of onscreen graphics. Sometimes your computer's specific GPU, drivers, or operating system may cause issues with hardware acceleration. If you see screen artifacts or other glitches, try disabling hardware acceleration.
 
-To activate or deactivate hardware acceleration in the Postman app:
+To activate or deactivate hardware acceleration in Postman:
 
 * On macOS, select **Postman > Hardware Acceleration**.
 * On Windows or Linux, select **Help > Hardware Acceleration**.
 
-Restart the Postman app to apply the new setting. Disabling hardware acceleration may affect performance or CPU usage.
+Restart Postman to apply the new setting. Disabling hardware acceleration may affect performance or CPU usage.

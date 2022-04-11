@@ -67,7 +67,7 @@ You can directly upload your API schemas from Postman to AWS API Gateway. Once t
 
     > You can have one AWS API Gateway integration configured for each API version.
 
-To confirm this integration, navigate to your AWS Gateway dashboard, select your API Gateway, then select **Integrations** to view your newly uploaded endpoints.
+To confirm this integration, go to your AWS Gateway dashboard, select your API Gateway, then select **Integrations** to view your newly uploaded endpoints.
 
 ![Configured integration in AWS](https://assets.postman.com/postman-docs/configured-in-aws-2.jpg)
 

@@ -13,7 +13,7 @@ contextual_links:
     name: "Postman Space Camp | Design and Prototype an API in Postman"
     url: "https://youtu.be/r4kb3jOSsmk"
   - type: subtitle
-    name: "Related Blog Posts"
+    name: "Blog Posts"
   - type: link
     name: "Create APIs directly within the Postman app"
     url: "https://blog.postman.com/postman-7-1-create-apis-directly-within-the-postman-app/"
@@ -28,7 +28,7 @@ To start using the API Builder, you can create a new API in your workspace. You 
 
 ## Creating an API
 
-1. Open __APIs__ from the left sidebar in Postman. You can open and edit any existing APIs from here.
+1. From the sidebar, select __APIs__. You can open and edit any existing APIs from here.
 
    <img alt="Create API" src="https://assets.postman.com/postman-docs/v8-create-new-api2.jpg"/>
 
@@ -46,7 +46,7 @@ To start using the API Builder, you can create a new API in your workspace. You 
 
 ## Renaming and deleting APIs
 
-You can rename, delete, or remove the API from the workspace using the __View more actions__ (<img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px">) menu in the left sidebar.
+You can rename, delete, or remove the API from the workspace using the __View more actions__ (<img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px">) menu in the sidebar.
 
    > When you delete an API or remove it from a workspace, the collections, monitors, mocks, and environments linked to it will not be deleted or removed.
 

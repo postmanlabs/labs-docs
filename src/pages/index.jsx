@@ -6,24 +6,10 @@ import SEO from '../components/seo';
 import '../../styles/config/_pm-icons.css';
 import upcomingEvents from '../../bff-data/events.json';
 import HeroImage from '../assets/refresh-hero-image.svg';
-// import TeamCollaborationImage from '../assets/team-collaboration-postmanaut-pic.png';
-
-import LearnImage from '../assets/icons/spaceship.svg';
-import ThirtyDaysImage from '../assets/icons/trophy.svg';
-import SpaceCampImage from '../assets/icons/camp.svg';
-import NetworkImage from '../assets/icons/hotspot.svg';
-import TestImage from '../assets/icons/flask.svg';
-import VideoImage from '../assets/icons/movie.svg';
-import SupportImage from '../assets/icons/support.svg';
-import BugImage from '../assets/icons/bug.svg';
-import CommunityImage from '../assets/icons/community.svg';
-import SolutionImage from '../assets/icons/solution.svg';
-
 import { LandingCard } from '../components/MarketingPages/Cards';
 import '../../styles/config/normalize.css';
 import '../components/MarketingPages/Buttons.scss';
 import './index.scss';
-
 
 const heroBackground = {
   backgroundColor: '#f9f9f9',
@@ -37,6 +23,16 @@ class IndexPage extends React.Component {
     pix.src = '//pixel.mathtag.com/event/js?mt_id=1538259&mt_adid=244742&mt_exem=&mt_excl=&v1=&v2=&v3=&s1=&s2=&s3=';
     pix.async = true;
     document.body.appendChild(pix);
+
+    const id = 'Polyfill';
+    if (!document.getElementById(id)) {
+      const polyfill = document.createElement('script');
+      polyfill.id = id;
+      polyfill.language = 'JavaScript1.1';
+      polyfill.src = '//polyfill.io/v3/polyfill.min.js?features=default%2CArray.prototype.find%2CArray.prototype.includes%2CPromise%2CObject.assign%2CObject.entries';
+      polyfill.async = true;
+      document.body.appendChild(polyfill);
+    }
   }
 
   render() {
@@ -95,20 +91,20 @@ class IndexPage extends React.Component {
               <div className="row justify-content-center">
                 <div className="col-sm-6 col-lg-4 mb-3 mb-md-4 pr-md-5">
                   <LandingCard
-                    title="Get Started"
+                    title="Get Started with Postman"
                     description="Send your first API request in Postman in just a few clicks!"
                     cta="Send a request"
                     link="/docs/getting-started/sending-the-first-request/"
-                    icon={LearnImage}
+                    icon="https://voyager.postman.com/icon/spaceship-rocket-launch-icon-postman.svg"
                   />
                 </div>
                 <div className="col-sm-6 col-lg-4 mb-3 mb-md-4 pr-md-5">
                   <LandingCard
-                    title="Test"
+                    title="Test with Postman"
                     description="Write test scripts and build automation into your workflow."
                     link="/docs/writing-scripts/intro-to-scripts/"
                     cta="Create tests"
-                    icon={TestImage}
+                    icon="https://voyager.postman.com/icon/flask-science-beaker-test-icon-postman.svg"
                   />
                 </div>
                 <div className="col-sm-6 col-lg-4 mb-3 mb-md-4 pr-md-5">
@@ -117,7 +113,7 @@ class IndexPage extends React.Component {
                     description="Tackle a new challenge each day with these developer tutorials."
                     link="https://www.postman.com/postman/workspace/30-days-of-postman-for-developers/overview"
                     cta="Start challenge"
-                    icon={ThirtyDaysImage}
+                    icon="https://voyager.postman.com/icon/trophy-award-icon-postman.svg"
                   />
                 </div>
                 <div className="col-sm-6 col-lg-4 mb-3 mb-md-4 pr-md-5">
@@ -126,7 +122,7 @@ class IndexPage extends React.Component {
                     description="See previous and upcoming educational webinars."
                     cta="See webinars"
                     link="https://www.postman.com/events/postman-space-camp/"
-                    icon={SpaceCampImage}
+                    icon="https://voyager.postman.com/icon/camp-tent-icon-postman.svg"
                   />
                 </div>
                 <div className="col-sm-6 col-lg-4 mb-3 mb-md-4 pr-md-5">
@@ -135,16 +131,16 @@ class IndexPage extends React.Component {
                     description="Browse APIs, workspaces, and collections inside Postman."
                     link="https://www.postman.com/explore"
                     cta="Explore Postman"
-                    icon={NetworkImage}
+                    icon="https://voyager.postman.com/icon/hotspot-network-icon-postman.svg"
                   />
                 </div>
                 <div className="col-sm-6 col-lg-4 mb-3 mb-md-4 pr-md-5">
                   <LandingCard
-                    title="Videos"
+                    title="Postman Videos"
                     description="Learn Postman skills from our video playlists."
                     link="https://www.youtube.com/c/Postman"
                     cta="Watch videos"
-                    icon={VideoImage}
+                    icon="https://voyager.postman.com/icon/play-movie-video-film-icon-postman.svg"
                   />
                 </div>
               </div>
@@ -167,7 +163,7 @@ class IndexPage extends React.Component {
                 <iframe
                   loading="lazy"
                   className="embed-responsive-item "
-                  src="https://www.youtube-nocookie.com/embed/2oOSnxZ28fA?rel=0"
+                  src="https://www.youtube.com/embed/2oOSnxZ28fA?rel=0&origin=https://learning.postman.com/"
                   title="Intro to Postman"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
@@ -292,7 +288,7 @@ class IndexPage extends React.Component {
                 title="Postman support"
                 description="Reach out to our support team."
                 cta="Open a ticket"
-                icon={SupportImage}
+                icon="https://voyager.postman.com/icon/support-life-ring-icon-postman.svg"
                 link="https://support.postman.com/hc/en-us/requests/new/"
               />
             </div>
@@ -301,16 +297,16 @@ class IndexPage extends React.Component {
                 title="Bugs and feature requests"
                 description="Check out the app support repo."
                 cta="Make a request"
-                icon={BugImage}
+                icon="https://voyager.postman.com/icon/bug-error-icon-postman.svg"
                 link="https://github.com/postmanlabs/postman-app-support/"
               />
             </div>
             <div className="col-sm-6 col-lg-3 mb-sm-4 mb-md-0 pr-md-5">
               <LandingCard
-                title="Community"
+                title="Postman Community"
                 description="Join the Postman community."
                 cta="Visit forum"
-                icon={CommunityImage}
+                icon="https://voyager.postman.com/icon/community-three-people-icon-postman.svg"
                 link="https://community.postman.com/"
               />
             </div>
@@ -319,7 +315,7 @@ class IndexPage extends React.Component {
                 title="Postman Answers"
                 description="Code samples for most commonly asked questions."
                 cta="Visit Postman Answers"
-                icon={SolutionImage}
+                icon="https://voyager.postman.com/icon/solution-puzzle-answers-icon-postman.svg"
                 link="https://www.postman.com/postman/workspace/postman-answers/"
               />
             </div>

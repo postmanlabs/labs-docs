@@ -13,7 +13,7 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
-    name: "Related Blog Posts"
+    name: "Blog Posts"
   - type: link
     name: "Introducing the New Private API Network for Easier Discovery"
     url: "https://blog.postman.com/new-private-api-network-for-easier-discovery/"
@@ -101,7 +101,7 @@ You can create new folders from the Private API Network view. Select __Create Fo
 
 <img alt="New folder in Private Network" src="https://assets.postman.com/postman-docs/add-new-folder-api-network-left-navigation-v9.jpg" width="350px"/>
 
-From the overview page, select **Create Folder** on the right to create a new folder. You can also create sub folders when you are inside a folder with the **Create folder** button.
+From the overview page, select **Create Folder** on the right to create a new folder. You can also use **Create folder** to create sub-folders inside a folder.
 
 ![New folder in Private Network](https://assets.postman.com/postman-docs/add-new-folder-api-network-overview-v9.jpg)
 
@@ -111,9 +111,9 @@ Once you've created the folder, you can add APIs to get started. Make your API s
 
 > All versions that are visible to consumers will be available on the Private API Network. Read more about [API versioning](/docs/designing-and-developing-your-api/versioning-an-api/).
 
-Select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> next to the API you would like to edit from the network and select __Edit API listing__. You can update the API summary, and modify the folder to which the API should be added. Select **Update** when the changes are done.
+Select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> next to the API you would like to edit from the network, then select __Edit API listing__ to modify the folder where the API should be located. Select **Update** to save your changes.
 
-<img alt="Edit API summary" src="https://assets.postman.com/postman-docs/edit-api-summary-v9.jpg" width="400px"/>
+<img alt="Edit API listing" src="https://assets.postman.com/postman-docs/private-api-network-edit-listing.jpg" width="400px"/>
 
 You can also remove the added APIs from your Private API Network. Select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> next to the API you would like to remove from network. Once you select __Remove__, your team members will also lose access to the API via the network.
 
@@ -135,7 +135,7 @@ Select an API to find more information about it, including the API description, 
 
 You can publish specific versions of your APIs to the Private API Network which helps API consumers understand which versions are ready for consumption and which versions are still being worked upon. Only the versions of your API that are intended for use by consumers are visible on the Private API Network.
 
-From the API builder, you can create a new version of the existing API. Select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> on the right near the Share button and select **Create version**. You can unselect the checkbox to hide the version or make it unavailable to the consumers.
+From the API builder, you can create a new version of the existing API. Select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> on the right and select **Create version**. You can unselect the checkbox to hide the version or make it unavailable to the consumers.
 
 <img alt="Visibility API versions" src="https://assets.postman.com/postman-docs/new-version-visibility-api-v9.jpg"/>
 
@@ -161,7 +161,7 @@ The report feature makes it easier to govern your internal API landscape through
 
 > **[Reporting is available only on Postman Enterprise plans.](https://www.postman.com/pricing/)**
 
-Navigate to your API and select **Reports** to the right of the API.
+Go to your API and select **Reports** to the right of the API.
 
 <img alt="API landscape governance" src="https://assets.postman.com/postman-docs/api-reports-selected-v9.1.jpg" width="400px"/>
 

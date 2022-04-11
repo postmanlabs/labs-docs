@@ -2,7 +2,7 @@
 title: "Travis CI"
 order: 164.4
 page_id: "travisci"
-updated: 2021-09-15
+updated: 2022-03-31
 warning: false
 contextual_links:
   - type: section
@@ -18,23 +18,23 @@ To set up Travis CI integration for your API, you’ll need to create an API tok
 
 ## Copying your Travis CI API Token
 
-1. Log into [Travis CI](https://app.travis-ci.com/account/preferences) and navigate to your account profile page.
+1. Sign in to [Travis CI](https://app.travis-ci.com/account/preferences) and go to your account profile page.
 1. Select the **Settings** tab, and then select **Copy Token**.
 
 ## Configuring Travis CI integration
 
-1. Open your API by selecting **APIs** in the left sidebar, and then selecting an API and a version. *Each API version can be linked to only one CI project*.
+1. Open your API by selecting **APIs** in the sidebar, and then selecting an API and a version. *Each API version can be linked to only one CI project*.
 1. Select the **Test** tab.
 1. Under **Connect to CI/CD Builds**, select **Travis CI**.
 
-    ![CI Integration](https://assets.postman.com/postman-docs/ci-add-integration-v9.jpg)
+    ![CI Integration](https://assets.postman.com/postman-docs/ci-add-integration-v9-15.jpg)
 
 1. For **API Key**, enter your Travis CI token.
 1. Enter a **Nickname** to help you recognize the integration later.
 1. Select the **CI project** used for your API.
 1. Select **Connect**.
 
-    <img alt="Add API key" src="https://assets.postman.com/postman-docs/travis-ci-connect-project-v9.jpg" width="527px">
+    <img alt="Add API key" src="https://assets.postman.com/postman-docs/travis-ci-connect-project-v9-15.jpg" width="522px">
 
 ## Configuring Newman for Travis CI
 

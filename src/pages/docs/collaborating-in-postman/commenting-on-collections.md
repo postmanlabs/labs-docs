@@ -50,7 +50,7 @@ You can add comments at the [request level](#adding-a-comment-on-a-request), on 
 
 ### Adding a comment on a request
 
-1. Navigate to the request you want to leave a comment on.
+1. Go to the request you want to leave a comment on.
 2. Switch to **Comment** mode at the top-right of the window.
 3. Write your comment, then select **Add Comment**.
 
