@@ -49,7 +49,7 @@ Select **View All Builds** to view the full list of build jobs. From here you ca
 * To edit or delete the integration, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px">.
 * To view more details for a build, use the arrows to expand a build and expand **Build Steps**. For each build step you can view the name, duration, and status.
 
-<img alt="View all Bitbucket Pipelines builds" src="https://assets.postman.com/postman-docs/bitbucket-pipelines-view-builds-v9-15.jpg">
+<img alt="View all Bitbucket Pipelines builds" src="https://assets.postman.com/postman-docs/bitbucket-pipelines-builds-v9-15.jpg">
 
 ## Viewing collection run details
 
@@ -57,7 +57,7 @@ Using Newman, you can run Postman collections with your API tests as part of a B
 
 To view details for collections that were run as part of a build, first [configure Newman for Bitbucket Pipelines](#configuring-newman-for-bitbucket-pipelines) and then [start a new build](#viewing-build-status). After the build is complete, use the arrows to expand a build and expand **Collection Runs**. Then expand a collection to view details about a collection run.
 
-<img alt="View collection runs" src="https://assets.postman.com/postman-docs/bitbucket-pipelines-view-collection-runs-v9-15.jpg">
+<img alt="View collection runs" src="https://assets.postman.com/postman-docs/bitbucket-pipelines-collection-runs-v9-15.jpg">
 
 > Select **View Report** to view a collection run report in the Postman **History**. Learn more about using the [Collection Runner](/docs/running-collections/intro-to-collection-runs/).
 
