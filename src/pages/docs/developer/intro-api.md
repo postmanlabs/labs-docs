@@ -69,7 +69,7 @@ You need a valid API Key to send requests to the Postman API. To generate an API
 
 <img src="https://assets.postman.com/postman-docs/copy-your-api-key-v9.jpg" alt="Copy your API key" width="600px"/>
 
-Once you have API keys generated you can manage them within your workspace. Select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> next to a key to regenerate or delete it.
+Once you have API keys generated you can manage them within your workspace. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to a key to regenerate or delete it.
 
 <img src="https://assets.postman.com/postman-docs/api-keys-regenerate-delete-v9.jpg" alt="View your API keys"/>
 
