@@ -126,4 +126,4 @@ Select **+ Release changes** at the top of the list to create a release from unr
 For more info on working with the API Builder in Postman, check out the following resources:
 
 - [Versioning APIs](/docs/designing-and-developing-your-api/versioning-an-api/)
-- [Using reports](/docs/reports/reports-overview)
+- [Using reports](/docs/reports/reports-overview/)
