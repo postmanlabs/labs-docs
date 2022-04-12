@@ -15,7 +15,7 @@ contextual_links:
 
 To set up a Bitbucket Pipelines integration for your API, first create a pipeline in Bitbucket and then configure your API in Postman. After you set up the integration, you can view the status of builds or start a new build, all from within Postman.
 
-> If your Bitbucket pipeline is configured to run API tests using [Newman](/docs/running-collections/using-newman-cli/command-line-integration-with-newman/), you can [configure the  Postman cloud reporter](#configuring-newman-for-bitbucket-pipelines) to send collection run information back to Postman.
+> If your Bitbucket pipeline is configured to run API tests using [Newman](/docs/running-collections/using-newman-cli/command-line-integration-with-newman/), you can [configure the Postman cloud reporter](#configuring-newman-for-bitbucket-pipelines) to send collection run information back to Postman.
 
 ## Creating a pipeline in Bitbucket
 
