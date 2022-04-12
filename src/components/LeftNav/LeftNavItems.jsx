@@ -401,6 +401,10 @@ export const leftNavItems = [
             name: 'Deploying an AWS API',
             url: '/docs/designing-and-developing-your-api/deploying-an-api/deploying-an-api-aws/',
           },
+          {
+            name: 'Deploying an Azure API',
+            url: '/docs/designing-and-developing-your-api/deploying-an-api/deploying-an-api-azure/',
+          },
         ],
       },
       {
