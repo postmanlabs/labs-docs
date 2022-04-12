@@ -32,12 +32,11 @@ You can import an existing API schema into your API. API schemas can be imported
 
 To import your API specifications into Postman:
 
-1. From the sidebar, select __APIs__.
-1. Select **Import** in the left navigation menu.
+1. From the sidebar, select __APIs__, then select **Import**.
 1. Select a file or folder, enter a link to the API, or paste your raw text.
 
         > You can also import from a code repository or API gateway. See below for details.
-        
+
 1. Confirm the name, format, and what you would like your data to import as.
 1. Select **Import** to bring your data into Postman.
 
@@ -55,7 +54,9 @@ When importing into a team workspace, you can also choose to add the APIs to the
 
 You can import API schemas from a GitHub repository.
 
-1. Select **Import** > **Code repository** > **GitHub**.
+1. From the sidebar, select __APIs__, then select **Import**.
+
+1. Select **Code repository**, then select **GitHub**.
 
 1. Confirm your GitHub account and **Authorize postmanlabs** to access your repositories.
 
@@ -73,7 +74,9 @@ You will receive a confirmation once the import has completed. You can now view 
 
 You can import API schemas from a Bitbucket repository.
 
-1. Select **Import** > **Code repository** > **Bitbucket**.
+1. From the sidebar, select __APIs__, then select **Import**.
+
+1. Select **Code repository**, then select **Bitbucket**.
 
 1. Confirm your Bitbucket account and **Authorize Postman** to access your repositories.
 
@@ -91,8 +94,7 @@ This integration supports importing OpenAPI 3.0 schemas for both HTTP and REST A
 
 To import an API from AWS API Gateway:
 
-1. From the sidebar, select __APIs__.
-1. Select **Import** in the left navigation menu.
+1. From the sidebar, select __APIs__, then select **Import**.
 1. Select **API Gateway**, then select **AWS API Gateway**.
 1. Connect to the AWS API Gateway as follows.
 
