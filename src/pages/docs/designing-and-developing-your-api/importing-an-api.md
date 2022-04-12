@@ -35,7 +35,7 @@ To import your API specifications into Postman:
 1. From the sidebar, select __APIs__, then select **Import**.
 1. Select a file or folder, enter a link to the API, or paste your raw text.
 
-        > You can also import from a code repository or API gateway. See below for details.
+    > You can also import from a code repository or API gateway. See below for details.
 
 1. Confirm the name, format, and what you would like your data to import as.
 1. Select **Import** to bring your data into Postman.
@@ -113,14 +113,14 @@ To set up a connection to Amazon API Gateway using an AWS IAM role:
 Next, create an IAM role for Postman in AWS:
 
 1. Open the [AWS IAM console](https://console.aws.amazon.com/iam/home#/roles) and select **Create role**.
-2. Under **Select type of trusted entity**, select **Another AWS account**.
-3. Enter Postman's **AWS Account ID**: `258201882842`
-4. Under options, select the check box to **Require external ID** and enter the **External ID** from Postman. You can find the external ID under **Step 1: Create an IAM role**.
+1. Under **Select type of trusted entity**, select **Another AWS account**.
+1. Enter Postman's **AWS Account ID**: `258201882842`
+1. Under options, select the check box to **Require external ID** and enter the **External ID** from Postman. You can find the external ID under **Step 1: Create an IAM role**.
 
     > For more information, refer to the [AWS IAM guide on using external IDs](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_create_for-user_externalid.html).
 
-5. Select **Next: Permissions**.
-6. Select an existing IAM policy or select **Create policy**. If you are creating a policy, use the following JSON:
+1. Select **Next: Permissions**.
+1. Select an existing IAM policy or select **Create policy**. If you are creating a policy, use the following JSON:
 
     ```json
     {
@@ -141,22 +141,11 @@ Next, create an IAM role for Postman in AWS:
     }
     ```
 
-7. Select **Next: Tags**.
-8. Select **Next: Review**.
-9. Add a **Role name** and **Role description**, then select **Create role**.
+1. Select **Next: Tags**.
+1. Select **Next: Review**.
+1. Add a **Role name** and **Role description**, then select **Create role**.
 
 Copy the **Role ARN** from AWS and paste it in Postman under **Step 2: Enter role ARN and region**. Next, enter the **AWS Region** where the API Gateway is located and select the **API Gateway**. Then, enter an **API Name** for the imported API. When you're ready, select **Connect**.
-
-#### Updating an exiting IAM policy for CloudWatch
-
-The Amazon API Gateway integration now supports viewing CloudWatch metrics in Postman. If you previously created an IAM policy when configuring the integration, you need to update the policy to enable CloudWatch metrics. Add the following actions to your IAM policy:
-
-```json
-"Action": [
-    "apigateway:GET",
-    "cloudwatch:GetMetricData"
-],
-```
 
 ### Authenticating with an AWS access key
 
