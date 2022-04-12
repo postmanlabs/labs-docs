@@ -35,7 +35,9 @@ To import your API specifications into Postman:
 1. From the sidebar, select __APIs__.
 1. Select **Import** in the left navigation menu.
 1. Select a file or folder, enter a link to the API, or paste your raw text.
-    > You can also import from a code repository or API gateway. See below for details.
+
+        > You can also import from a code repository or API gateway. See below for details.
+        
 1. Confirm the name, format, and what you would like your data to import as.
 1. Select **Import** to bring your data into Postman.
 
