@@ -49,7 +49,9 @@ Collections, APIs, and environments can be shared directly with collaborators, i
 
 <img alt="Share API" src="https://assets.postman.com/postman-docs/share-api-9.4.jpg"/>
 
-If the entity resides in a private workspace and you are not a workspace admin, you will only be able to share it with team members who already have access to the workspace. If the entity resides in a personal workspace, you'll be prompted to either change the workspace visibility to team or create a new team workspace for the entity to reside in.
+If the entity resides in a private workspace and you aren't a workspace admin, you will only be able to share it with team members who already have access to the workspace. If you'd like a team member to [request access to a private workspace](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#accessing-private-workspaces), you can open the workspace in [Postman on the web](/docs/getting-started/installation-and-updates/#using-postman-on-the-web), copy the page URL, and send it to them.
+
+If the entity resides in a personal workspace, you'll be prompted to either change the workspace visibility to team or create a new team workspace for the entity to reside in.
 
 If you are an [editor](/docs/collaborating-in-postman/roles-and-permissions/) on the entity you are sharing, you'll have the option to give your new collaborators a **Viewer** or **Editor** [role](/docs/collaborating-in-postman/roles-and-permissions/) on the entity. If you are a [viewer](/docs/collaborating-in-postman/roles-and-permissions/) on the entity, you can share it, but you won't be able to assign roles.
 

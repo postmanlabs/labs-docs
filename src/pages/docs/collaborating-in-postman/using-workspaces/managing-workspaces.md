@@ -37,10 +37,12 @@ Use workspaces to organize your work in Postman and collaborate with teammates (
 
 * [Accessing workspaces](#accessing-workspaces)
     * [Getting the workspace ID](#getting-the-workspace-id)
+    * [Accessing private workspaces](#accessing-private-workspaces)
 * [Modifying a workspace](#modifying-a-workspace)
     * [Editing workspace details](#editing-workspace-details)
     * [Changing workspace visibility](#changing-workspace-visibility)
 * [Sharing workspaces](#sharing-workspaces)
+    * [Approving requests for access to private workspaces](#approving-requests-for-access-to-private-workspaces)
 * [Managing workspace roles](#managing-workspace-roles)
 * [Watching a workspace](#watching-a-workspace)
 * [Moving elements to workspaces](#moving-elements-to-workspaces)
@@ -64,6 +66,18 @@ To view the workspace ID, select the **Workspace details** icon. Copy the worksp
 
 <img alt="Workspace ID" src="https://assets.postman.com/postman-docs/find-workspace-id-v9.jpg" width="300px"/>
 
+### Accessing private workspaces
+
+> Private workspaces are only available to [Professional and Enterprise](https://www.postman.com/pricing/) teams.
+
+To collaborate in a private workspace, you must be [invited](#sharing-workspaces) by a workspace editor or admin, or request access to it and be approved. If you're using [Postman on the web](/docs/getting-started/installation-and-updates/#using-postman-on-the-web) and navigate to a link a teammate has shared to a private workspace or an entity within one, you'll have the option to request access to the workspace.
+
+<img alt="Request access to private workspace" src="https://assets.postman.com/postman-docs/user-rfa-private-workspace-v9.16.jpg"/>
+
+You can add a note and select **Request Access** to submit the request. All workspace admins will receive a notification to review your request, and you'll be alerted via the notifications icon <img alt="Notifications icon" src="https://assets.postman.com/postman-docs/icon-notification-bell-v9.jpg#icon" width="18px"> and via email when your request is approved or denied.
+
+> If your request isn't reviewed within 15 days, it will expire and you'll be notified in Postman and via email to resubmit your request for access.
+
 ## Modifying a workspace
 
 Workspace admins can edit workspace details or change the visibility of a workspace.
@@ -86,7 +100,7 @@ To change workspace visibility:
 1. On the workspace's **Overview** tab, select **Workspace Settings**.
 1. Select a **Visibility** for the workspace:
     * **Personal:** Only you can access.
-    * **Private:** Only invited team members can access.
+    * **Private:** Only invited team members can access. (Private workspaces are only available to [Professional and Enterprise](https://www.postman.com/pricing/) teams.)
     * **Team:** All team members can access.
     * **Public:** Everyone can view.
 1. Select **Update**.
@@ -108,6 +122,18 @@ If you are a workspace editor or admin, you can invite anyone to personal, priva
 Individual team members and groups you invite will be notified immediately of your request to collaborate. External users who aren't on your Postman team will receive an invitation to join immediately if you are a team admin. If you aren't a team admin, your request to add external users to your Postman team will be shared with your team admins for approval.
 
 You can also invite collaborators by selecting <img alt="Link icon" src="https://assets.postman.com/postman-docs/icon-workspace-link-v9.jpg#icon" width="18px"> **Copy Invite Link** and sharing the link with them outside of Postman. When individuals select the link, they'll be prompted to sign in or sign up. If you are a team admin inviting an external user, they'll be automatically added to your team. If you aren't a team admin, a request to add them to your Postman team will be shared with your team admins for approval.
+
+### Approving requests for access to private workspaces
+
+> Private workspaces are only available to [Professional and Enterprise](https://www.postman.com/pricing/) teams.
+
+Team members can [request access to a private workspace](#accessing-private-workspaces) if a fellow team member with access provides them with a link to it. All workspace admins will be notified of requests for access via the notifications icon <img alt="Notifications icon" src="https://assets.postman.com/postman-docs/icon-notification-bell-v9.jpg#icon" width="18px"> and via email. Select **Respond to Request** to review requests for access.
+
+<img alt="Respond to request for access to private workspace" src="https://assets.postman.com/postman-docs/workspace-admin-respond-rfa-private-workspace-v9.16.jpg" width="400px"/>
+
+You can assign a [workspace role](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles) to define a user's permissions within the workspace, then select **Approve** to grant them access. You can also choose to reject a request for access by selecting **Deny**. Team members who have requested access will be notified of your decision in Postman and via email.
+
+> Requests for access to private workspaces expire if they aren't reviewed within 15 days. If this occurs, Postman will notify the affected users to resubmit their request for access.
 
 ## Managing workspace roles
 
@@ -136,7 +162,7 @@ To start watching a workspace, select **Watch** on the upper right of the worksp
 
 To see notifications, select the bell <img alt="Bell icon" src="https://assets.postman.com/postman-docs/icon-notification-bell-v9.jpg#icon" width="18px"> in the Postman header. The notification list shows details about changes to workspaces you are watching. You will also receive an email with information about the change, who made it, and when.
 
- To stop watching a workspace, select **Unwatch** on the upper right of the workspace's **Overview** tab.
+To stop watching a workspace, select **Unwatch** on the upper right of the workspace's **Overview** tab.
 
 > By default, you are a watcher for any workspace you create. You will not receive notifications for changes you make to a workspace you're watching.
 
