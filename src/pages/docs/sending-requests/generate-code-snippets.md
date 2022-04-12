@@ -42,31 +42,32 @@ warning: false
 
 ---
 
-You can generate code snippets in various languages and frameworks within Postman.
+Postman can convert an API request into a code snippet in the programming language or framework of your choosing. You can use this generated code snippet in your front-end applications.
+
+> This guide contains information about generating code snippets from API requests. For information about generating server-side boilerplate code from an OpenAPI 3 specification. see [Generating server code](/docs/designing-and-developing-your-api/generating-server-code/).
 
 ## Contents
 
 * [Generating code snippets in Postman](#generating-code-snippets-in-postman)
 
-* [Supported languages/frameworks](#supported-languagesframeworks)
+* [Supported languages and frameworks](#supported-languages-and-frameworks)
 
 * [Next steps](#next-steps)
 
 ## Generating code snippets in Postman
 
-In Postman, select the request under your collection and select **Code** icon on the right panel to open the **Code snippet** tab.
+1. With the request you want to use for a code snippet open, select the code snippet icon <img alt="Code snippet icon" src="https://assets.postman.com/postman-docs/icon-code-snippet.jpg#icon" width="16px"> in the right panel.
 
-<img src="https://assets.postman.com/postman-docs/context-menu-icon-v8.jpg" width="400px" alt="User Menu"/>
+    <img src="https://assets.postman.com/postman-docs/generate-code-right-sidebar-v9.jpg" width="300px" alt="Open code snippets"/>
 
-Select a language to view and copy your generated code snippet.
+1. Use the dropdown list to select a [language or framework](#supported-languages-and-frameworks).
+1. Select the copy icon to copy the code snippet to your clipboard.
 
-![Code Language](https://assets.postman.com/postman-docs/code-language-v8.jpg)
+    ![Copy code snippet to clipboard](https://assets.postman.com/postman-docs/generate-code-copy-snippet-v9.jpg)
 
-Select the **Gear** icon to find additional configuration options based on your chosen language.
+1. For more configuration options, like the indentation type and count, select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> next to the dropdown list. The settings will vary based on the language or framework you chose.
 
-![Code settings](https://assets.postman.com/postman-docs/code-settings-v8.jpg)
-
-## Supported languages/frameworks
+## Supported languages and frameworks
 
 Postman supports the following options:
 
@@ -100,7 +101,7 @@ Postman supports the following options:
 | Shell | [wget](https://www.gnu.org/software/wget/) |
 | Swift | [URLSession](https://developer.apple.com/documentation/foundation/urlsession) |
 
-> If your language isn't offered, or if there is a setting that you'd find useful, select **Contribute on GitHub** to contribute to [Postman's open-source project](https://github.com/postmanlabs/postman-code-generators).
+> To add a new language or setting, you can contribute to [Postman's open-source project](https://github.com/postmanlabs/postman-code-generators).
 
 ## Next steps
 
