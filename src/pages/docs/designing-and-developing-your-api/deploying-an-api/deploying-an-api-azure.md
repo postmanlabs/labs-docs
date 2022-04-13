@@ -49,7 +49,7 @@ After connecting to Azure API Management, you can view the deployment status and
 
 For each connected API Management service instance, you can view the resource group, location, subscription, and virtual IP address (VIP).
 
-SCREENSHOT - DEPLOYMENTS TAB
+<img alt="Viewing Azure API Management services" src="https://assets.postman.com/postman-docs/azure-apim-deployments-tab-v9-15.jpg"/>
 
 Select a service to view more details about the connected Azure API version.
 
@@ -62,7 +62,7 @@ Select a service to view more details about the connected Azure API version.
 
 * **Export History:** The export history lists all exports from Postman for this APi version. For each export, you can view the date created, the Azure revision, and the Postman source.
 
-<img alt="Viewing API deployments" src="https://assets.postman.com/postman-docs/api-gateway-deployments-tab-v9-15.jpg"/>
+<img alt="Viewing a service instance" src="https://assets.postman.com/postman-docs/azure-apim-view-service-v9-15.jpg"/>
 
 From the **Deployments** tab, you can take the following actions:
 
