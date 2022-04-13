@@ -41,7 +41,7 @@ You can view audit logs in Postman by selecting **Team** in the header, then sel
 
 Audit logs provide information about actions taken by members of your team. Each event includes the user, the user's email address, the event name and a description of the event, the user's IP address, and the date and time of the action, including the user's timezone.
 
-Use the filters to filter the actions by date range, event type, and user.
+You can use filters to view actions by date range, event type, and user.
 
 <!-- TODO: update screenshot -->
 
