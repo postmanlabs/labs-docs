@@ -32,6 +32,7 @@ Stay on top of your API deployments in Postman by connecting to an API gateway. 
 To connect to an API gateway in Postman, select **APIs** in the sidebar, and then select the API and version you want to connect. Select the **Deployments** tab, and then select **AWS API Gateway** or **Azure API Management**.
 
 Enter the required information to configure the API gateway integration. For more information, see the detailed steps for your API gateway:
+
 * [Deploying to an Amazon API Gateway](/docs/designing-and-developing-your-api/deploying-an-api/deploying-an-api-aws/)
 * [Deploying to Azure API Management](/docs/designing-and-developing-your-api/deploying-an-api/deploying-an-api-azure/)
 

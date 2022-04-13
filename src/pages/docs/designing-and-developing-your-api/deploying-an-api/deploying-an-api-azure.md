@@ -38,8 +38,8 @@ To connect to Azure API Management in Postman:
     * **Service:** The Azure API Management [service instance](https://docs.microsoft.com/en-us/azure/api-management/api-management-key-concepts) used for deploying your API.
     * **Azure API Version:** The Azure API [version](https://docs.microsoft.com/en-us/azure/api-management/api-management-versions) that corresponds to your API version in Postman.
 
-1. To connect additional Azure API Management services, select **+ Add Service**. To remove a service, select **Remove**.
-1. When you are finished adding services, select **Connect**.
+1. To connect more Azure API Management services, select **+ Add Service**. To remove a service, select **Remove**.
+1. When you're finished adding services, select **Connect**.
 
     <img alt="Azure API Management setup" src="https://assets.postman.com/postman-docs/azure-apim-setup-v9-15.jpg" width="531px"/>
 
@@ -55,16 +55,16 @@ Select a service to view more details about the connected Azure API version.
 
 * **Revisions:** [Revisions](https://docs.microsoft.com/en-us/azure/api-management/api-management-revisions) enable you make and test changes to your API without affecting consumers. For each revision, you can view the revision ID, date created, description, URL, and Postman source.
 
-    * Use the **Online** toggle to set a revision to offline or online. Consumers cannot access an offline revision.
-    * Use the **Current** toggle to make a revision the current revision for your API. Enter an optional description and select **Confirm**.
+    * Use the **Online** toggle to set a revision to offline or online. Consumers can't access an offline revision.
+    * Use the **Current** toggle to make a revision the current revision for your API. Enter an optional description and select **Confirm**. Consumers access the current revision when calling the API.
 
 * **Changelog:** The changelog shows the deployment history for your API. Each time you make a revision current, Postman adds an entry to the changelog, including the date created, the date last updated, and a description of the change.
 
-* **Export History:** The export history lists all exports from Postman for this APi version. For each export, you can view the date created, the Azure revision, and the Postman source.
+* **Export History:** The export history lists all exports from Postman for this API version. For each export, you can view the date created, the Azure revision, and the Postman source.
 
 <img alt="Viewing a service instance" src="https://assets.postman.com/postman-docs/azure-apim-view-service-v9-15.jpg"/>
 
-From the **Deployments** tab, you can take the following actions:
+From the service details view, you can take the following actions:
 
 * Use the dropdown list to view a different Azure API Management service instance.
 * To export your schema, select **Export API**. Learn more about [exporting your API](#exporting-your-api-to-azure-api-management).
@@ -91,4 +91,4 @@ Exporting an OpenAPI 3.0 schema makes it available in the connected Azure API Ma
 
 After exporting, you can use the **Current** toggle to make the new or updated revision the current revision.
 
-> If you encounter an error when exporting, it may be because your schema uses some properties (such as `name` or `description`) that can only be updated on the current revision. For more information, see the Microsoft help article [API import restrictions and known issues](https://docs.microsoft.com/en-us/azure/api-management/api-management-api-import-restrictions). After you validate your schema against the restrictions, export it again.
+> You may see an error when exporting if your schema uses certain properties (such as `name` or `description`) that must be updated on the current revision. For more information, see the Microsoft help article [API import restrictions and known issues](https://docs.microsoft.com/en-us/azure/api-management/api-management-api-import-restrictions). Check your schema and then export it again.
