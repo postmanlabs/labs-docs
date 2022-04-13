@@ -38,7 +38,7 @@ To request Editor role access for an element:
 
 1. Select **Collections**, **APIs**, **Environments**, **Mock Servers**, or **Monitors** in the sidebar.
 
-1. Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> next to the element name and select **Manage Roles**.
+1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the element name and select **Manage Roles**.
 
     <img alt="Collection Context Menu" src="https://assets.postman.com/postman-docs/collection-context-menu-v9-14.jpg" width="292px">
 

@@ -74,8 +74,8 @@ There are several ways to create a new collection:
 
 Once you have created a new collection, you can customize and configure it:
 
-1. Select the pencil icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px"> to give your new collection a name.
-1. You can optionally specify a [description](/docs/publishing-your-api/authoring-your-documentation/) for your collection. Select the documentation icon <img alt="Documentation icon" src="https://assets.postman.com/postman-docs/documentation-icon-v8-10.jpg#icon" width="16px">, then select the pencil icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px"> to write your description. This description will appear in its documentation and in the workspace when anyone opens it.
+1. Select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px"> to give your new collection a name.
+1. You can optionally specify a [description](/docs/publishing-your-api/authoring-your-documentation/) for your collection. Select the documentation icon <img alt="Documentation icon" src="https://assets.postman.com/postman-docs/documentation-icon-v8-10.jpg#icon" width="16px">, then select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px"> to write your description. This description will appear in its documentation and in the workspace when anyone opens it.
 1. Select **Authorization** to configure authorization details for the collection.
 1. Select **Pre-request Script** to define a [pre-request script](/docs/writing-scripts/pre-request-scripts/) for your collection, which will run before requests are sent to the server.
 1. Select **Tests** to define a [test script](/docs/writing-scripts/test-scripts/) for your collection, which will run after a response is received.
@@ -108,7 +108,7 @@ To add a new request to a collection:
 
 To create a new request inside a collection:
 
-1. Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> next to the collection name.
+1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the collection name.
 1. Select **Add Request** from the actions menu.
 
     <img alt="Add request to folder" src="https://assets.postman.com/postman-docs/collection-menu-v9.jpg" width="350px"/>
@@ -128,7 +128,7 @@ To add a request to an empty collection:
 To save a request from your history:
 
 1. Select **History** in the sidebar.
-1. Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> next to the request you want to save.
+1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the request you want to save.
 1. Select **Save Request**.
 
     <img alt="Save request from history" src="https://assets.postman.com/postman-docs/save-history-v9.jpg" width="350px"/>
@@ -153,7 +153,7 @@ From the list of collections in your workspace, you can:
 
 To add a folder to your collection:
 
-1. Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> to the right of the collection name.
+1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> to the right of the collection name.
 1. Select **Add folder**.
 
 You can also add sub-folders to create extra levels of nesting for the collection's requests and examples.
@@ -162,7 +162,7 @@ You can also add sub-folders to create extra levels of nesting for the collectio
 
 To delete a collection:
 
-1. Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> to the right of the collection name.
+1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> to the right of the collection name.
 1. Select **Delete**.
 
 > If a deleted collection is larger than 30 MB, you won't be able to [recover it](#recovering-a-deleted-collection). To avoid this, you can split the collection into smaller pieces before deleting it, or back up the collection first.
@@ -171,10 +171,10 @@ To delete a collection:
 
 To recover a deleted collection:
 
-1. Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> next to the collection search bar.
+1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the collection search bar.
 1. Select **Open Trash**.
 
-    > Alternatively, select the trash can icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> from the status bar in the bottom right corner in Postman.
+    > Alternatively, select <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> **Trash** from the Postman footer.
 
 1. In the Trash page, select the restore icon <img alt="Restore icon" src="https://assets.postman.com/postman-docs/icon-restore-v9.jpg" width="14px"> next to the collection you want to recover.
 
@@ -193,8 +193,8 @@ Recovery options depend on your Postman plan:
 To share your collections with other users, you can:
 
 * Publish a [Run in Postman](/docs/publishing-your-api/run-in-postman/creating-run-button/) button.
-* Invite others to collaborate by selecting the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> next to the collection name, then selecting **Share**. Learn more about [sharing elements in Postman](/docs/collaborating-in-postman/sharing/#sharing-postman-entities).
-* Move the collection to a shared workspace by selecting the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> next to the collection name, then selecting **Move**. Learn more about [moving Postman elements](/docs/collaborating-in-postman/sharing/#moving-postman-entities-to-collaborative-workspaces).
+* Invite others to collaborate by selecting the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the collection name, then selecting **Share**. Learn more about [sharing elements in Postman](/docs/collaborating-in-postman/sharing/#sharing-postman-entities).
+* Move the collection to a shared workspace by selecting the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the collection name, then selecting **Move**. Learn more about [moving Postman elements](/docs/collaborating-in-postman/sharing/#moving-postman-entities-to-collaborative-workspaces).
 
 ### Watching a collection
 
@@ -208,7 +208,7 @@ To watch a collection:
 
 To view notifications about what has changed in a collection you watch:
 
-1. Select the bell icon <img alt="Notification icon" src="https://assets.postman.com/postman-docs/icon-notification-bell-v9.jpg#icon" width="18px"> in the top right corner of Postman to view the notification. Select **View changelog** to view the collection's changelog.
+1. Select the notifications icon <img alt="Notification icon" src="https://assets.postman.com/postman-docs/icon-notification-bell-v9.jpg#icon" width="18px"> in the Postman header to view the notification. Select **View changelog** to view the collection's changelog.
 
     <img alt="Notification Collection Watching" src="https://assets.postman.com/postman-docs/collection-watch-notification-v9.jpg" width="500px"/>
 
@@ -220,7 +220,7 @@ To view notifications about what has changed in a collection you watch:
 
 You can fork collections in your own workspace to [develop collection versions](/docs/collaborating-in-postman/version-control-for-collections/). To fork a collection:
 
-1. Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> to the right of the collection name
+1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> to the right of the collection name.
 1. Select **Fork**.
 
 > Alternatively, select the fork icon <img alt="Fork icon" src="https://assets.postman.com/postman-docs/icon-fork.jpg#icon" width="14px"> from the collection overview.
@@ -247,7 +247,7 @@ From the context bar to the right of the collection overview:
 
 * To view pull requests for a collection, select the pull request icon <img alt="Pull request icon" src="https://assets.postman.com/postman-docs/icon-pull-request.jpg#icon" width="16px">
 * To view forks created from a collection, select the fork icon <img alt="Fork icon" src="https://assets.postman.com/postman-docs/icon-fork.jpg#icon" width="16px">
-* To view additional information about the collection, including mock servers, monitors, and integrations, select the info icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px">
+* To view additional information about the collection, including mock servers, monitors, and integrations, select the information icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px">
 
 ## Using collections in development workflows
 
@@ -255,6 +255,6 @@ Collections can power various parts of your API development, testing, and publis
 
 * Select **Run** to access the [Collection Runner](/docs/running-collections/intro-to-collection-runs/), which allows you to run all requests in a collection and build testing workflows into your runs.
 * Select the documentation icon <img alt="Documentation icon" src="https://assets.postman.com/postman-docs/documentation-icon-v8-10.jpg#icon" width="16px"> to generate [API documentation](/docs/publishing-your-api/documenting-your-api/) from a collection.
-* Attaching a [monitor](/docs/monitoring-your-api/intro-monitors/) to a collection lets you schedule collection runs. Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> next to the collection name, and then select **Monitor collection**.
-* You can use [mock servers](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/) to return sample data during testing and development. Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> next to the collection name, and then select **Mock collection**.
+* Attaching a [monitor](/docs/monitoring-your-api/intro-monitors/) to a collection lets you schedule collection runs. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the collection name, and then select **Monitor collection**.
+* You can use [mock servers](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/) to return sample data during testing and development. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the collection name, and then select **Mock collection**.
 * Generate collections from API specifications using the [Postman API Builder](/docs/designing-and-developing-your-api/the-api-workflow/).
