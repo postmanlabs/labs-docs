@@ -18,15 +18,15 @@ contextual_links:
     name: "API Monitoring | The Exploratory"
     url: "https://youtu.be/tDQzY1Hn2LY"
   - type: subtitle
-    name: "Public Workspaces"
-  - type: link
-    name: "Postman API Monitoring Examples"
-    url:  "https://www.postman.com/postman/workspace/e348c5a0-2965-44cc-87ed-7b316516f38d"
-  - type: subtitle
     name: "Blog Posts"
   - type: link
     name: "6 Steps to Enhance Your Audio with a Dolby API and Postman Monitors"
     url:  "https://blog.postman.com/6-steps-enhance-audio-dolby-api/"
+  - type: subtitle
+    name: "Public Workspaces"
+  - type: link
+    name: "Postman API Monitoring Examples"
+    url:  "https://www.postman.com/postman/workspace/e348c5a0-2965-44cc-87ed-7b316516f38d"
   - type: section
     name: "Next Steps"
   - type: link

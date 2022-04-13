@@ -16,13 +16,27 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Intro to Postman | Write API Tests"
+    url: "https://youtu.be/EVg6gxeiUd0"
+  - type: link
+    name: "Intro to Postman | Advanced API Tests"
+    url: "https://youtu.be/vVDZxeS865g"
+  - type: link
+    name: "Get and Set Variables | Postman Level Up"
+    url: "https://youtu.be/EKv6n-jY9lU"
+  - type: link
+    name: "Testing with Snippets | Postman Level Up"
+    url: "https://youtu.be/QGNJ0wh5Ry0"
+  - type: subtitle
     name: "Blog Posts"
   - type: link
-    name: "Keep it DRY with collection and folder elements"
-    url: "https://blog.postman.com/keep-it-dry-with-collection-and-folder-elements/"
+    name: "Autocomplete Now Available in Postman Script Editor"
+    url: "https://blog.postman.com/postman-script-editor-autocomplete/"
   - type: link
-    name: "Not your Grandma's Postman"
-    url: "https://blog.postman.com/not-your-grandmas-postman/"
+    name: "When and How to Use JSON Serialization in Postman"
+    url: "https://blog.postman.com/when-and-how-to-use-json-serialization-in-postman/"
   - type: subtitle
     name: "Case Studies"
   - type: link

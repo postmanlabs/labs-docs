@@ -26,23 +26,14 @@ contextual_links:
   - type: link
     name: "Testing with Snippets | Postman Level Up"
     url: "https://youtu.be/QGNJ0wh5Ry0"
-  - type: link
-    name: "Continuous Quality with Postman"
-    url:  "https://youtu.be/zrmQAgixMpU"
   - type: subtitle
     name: "Blog Posts"
   - type: link
-    name: "Writing tests in Postman"
-    url:  "https://blog.postman.com/writing-tests-in-postman/"
+    name: "The Reimagined API-First Workflow, Part 2: for Testers"
+    url:  "https://blog.postman.com/the-reimagined-api-first-workflow-for-testers/"
   - type: link
-    name: "Continuous API Testing with Postman"
-    url: "https://blog.postman.com/continuous-api-testing-with-postman/"
-  - type: link
-    name: "Acing your API tests"
-    url:  "https://medium.com/better-practices/acing-your-apis-what-you-need-to-know-for-test-automation-e3fdba3519b9"
-  - type: link
-    name: "Extracting data from responses and chaining requests"
-    url:  "https://blog.postman.com/extracting-data-from-responses-and-chaining-requests/"
+    name: "A Space Camp Miniseries for Basic to Advanced API Testing Skills"
+    url: "https://blog.postman.com/space-camp-miniseries-basic-advanced-api-testing/"
   - type: subtitle
     name: "Case Studies"
   - type: link
