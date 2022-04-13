@@ -16,9 +16,6 @@ contextual_links:
   - type: link
     name: "Integrations: how Postman plays with some of your favorite tools"
     url: "https://blog.postman.com/integrations-how-postman-plays-with-some-of-your-favorite-tools/"
-  - type: link
-    name: "Using the Newman Docker image in Windows, hassle free"
-    url: "https://blog.postman.com/using-the-newman-docker-image-in-windows/"
   - type: section
     name: "Next Steps"
   - type: link

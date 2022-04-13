@@ -20,6 +20,11 @@ contextual_links:
   - type: link
     name: "Using Custom Reporters with Newman"
     url: "https://youtu.be/Nxdxx-VaYno"
+  - type: subtitle
+    name: "Blog Posts"
+  - type: link
+    name: "Newman: run and test your collections from the command line"
+    url: "https://blog.postman.com/newman-run-and-test-your-collections-from-the-command-line/"
   - type: section
     name: "Next Steps"
   - type: link
