@@ -104,7 +104,7 @@ You can connect an API to your remote Git-based repository, at the API level. Th
 
 You can only connect one Postman API to one remote repo. Multiple APIs require multiple repos. Multiple versions of an API can link to the same repo/branch combination, as long as development only happens on one branch. If you link a repo or branch to a new version, then all previous integrations on that branch become locked. For inactive integrations, no pulls, pushes, or new tag-links can happen, but the linked tags will remain.
 
-> For GitHub connections, there's currently a limit of ten auth tokens per user per application imposed by GitHub. If you create more than ten connections with the same user, the additional tokens will be revoked in the order that they were created. Teams can use other Postman accounts to create more than ten integrations.
+> For GitHub connections, there's a limit of ten auth tokens per user per application imposed by GitHub. If you create more than ten connections with the same user, the additional tokens will be revoked in the order that they were created. Teams can use other Postman accounts to create more than ten integrations.
 
 To connect a repository:
 
@@ -114,12 +114,12 @@ To connect a repository:
 1. On the **Connect your repository page**, enter the information for your repo.
 1. Enter the Git **Organization** and **Repository** where the API will be stored. (For GitLab, **Organization** refers to a **Group**, and **Repository** refers to a **Project**.)
    > Note that you can only connect one Postman API per repo. Multiple APIs require multiple repos.
-1. Enter the **Main branch** for the API. This is used to fetch  release tags; code is not pushed to this branch.
+1. Enter the **Main branch** for the API. This is used to fetch  release tags; code isn't pushed to this branch.
 1. Enter the **Development branch** for the API. This is where code updates are pushed.
 1. Select an **API schema directory** and **Collection directory** where schemas and collections will be stored in the repo. If you leave a value blank, a `postman/schemas` or `postman/collections` directory will be created in the root of the repo. If you select a directory already containing schemas, you will be asked which schema to use in Postman the first time you pull changes.
 1. Select **Connect Repository**.
 
-> If you previously used the GitHub integration for two-way sync of an API schema, you must delete the previous integration to connect a repo to your API. An existing integration will continue to function, but you can't add new integrations for two-way sync to an API schema.
+> If you used the earlier standalone GitHub integration for two-way sync of an API schema, you must delete the previous integration to connect a repo to your API. An existing integration will continue to function, but you can't add new integrations for two-way sync to an API schema.
 
 ### Pulling and pushing changes
 
@@ -157,7 +157,7 @@ When you aren't in the configured develop branch, you can only edit the API sche
 
 You can remove a connection to a Git repo at any time. You may want to do this if you are changing accounts or providers, or need to use a different development branch.
 
-On the repo dropdown list, select **Delete Integration**. Note that this only removes the connection to Git; it does not change any files or branches.
+On the repo dropdown list, select **Delete Integration**. Note that this only removes the connection to Git; it doesn't change any files or branches.
 
 ## Working with API versions
 
@@ -178,7 +178,7 @@ To create a new version of an API:
 
 You can rename, edit, or delete an API version using the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> in the sidebar. Editing an API enables you to change the name, status, and visibility at once.
 
-   > When you delete an API version, the collections, monitors, mocks, and environments linked to it will not be deleted or removed.
+   > When you delete an API version, the collections, monitors, mocks, and environments linked to it won't be deleted or removed.
 
 ## Working with API releases
 
@@ -192,7 +192,7 @@ Releases are shown on the **API version** page, on the **Overview** tab. Hover o
 
 <img src="https://assets.postman.com/postman-docs/api-builder-releases.jpg" alt="API Builder releases" width="350px"/>
 
-Each release page shows a read-only view of the schema, documentation, and tests associated with that release. You can't make changes to a released API; if you have more changes, you can create another release.
+Each release page shows a read-only view of the schema, documentation, and tests associated with that release. You can't make changes to a released API. If you have more changes, you can create another release.
 
 ### Creating a release
 
