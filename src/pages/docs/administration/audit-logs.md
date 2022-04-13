@@ -122,7 +122,7 @@ Postman logs events related to your [team](#team), [users](#users), and [billing
 | Sent Team Invite  | An invitation was sent to a user to join your team.  |
 | Approved Team Invite | An admin approved an email invitation. |
 | Rejected Team Invite  | An admin rejected an email invitation. |
-| Canceled Team Invite   | An invitation for a user was canceled.   |
+| Cancelled Team Invite   | An invitation for a user was cancelled.   |
 | Approved Team Join Request | An admin approved a request to join your team. |
 | Rejected Team Join Request | A user rejected a request to join your team. |
 | Updated User Role | A user updated a user role. |
@@ -157,5 +157,5 @@ Postman logs events related to your [team](#team), [users](#users), and [billing
 | Changed Default Payment Method | A user changed the default payment method. |
 | Deleted Payment Method | A user deleted a payment method. |
 | Successfully Retried Invoice  | An invoice for your team was paid.  |
-| Canceled Invoice | A user canceled an invoice for your team. |
-| Canceled Plan | A user canceled your team’s subscription. |
+| Cancelled Invoice | A user cancelled an invoice for your team. |
+| Cancelled Plan | A user cancelled your team’s subscription. |
