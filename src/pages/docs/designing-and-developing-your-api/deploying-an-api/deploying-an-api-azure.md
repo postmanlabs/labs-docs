@@ -13,7 +13,7 @@ contextual_links:
 
 ---
 
-[Azure API Management](https://azure.microsoft.com/en-us/services/api-management/) enables developers to deploy API gateways for APIs hosted in Microsoft Azure, other cloud platforms, or on-premises. Once connected to Azure API Management, you can view your API deployment status and history from within Postman. You can also export your API schema from Postman to Azure API Management.
+[Azure API Management](https://azure.microsoft.com/en-us/services/api-management/) enables developers to deploy API gateways for APIs hosted in Microsoft Azure, other cloud platforms, or on-premises. Once connected to Azure API Management, you can view your API deployment status and history from within Postman. You can also export your OpenAPI 3.0 schema from Postman to Azure API Management.
 
 ## Contents
 
@@ -74,5 +74,19 @@ From the **Deployments** tab, you can take the following actions:
 * To open the developer portal for the API management service, select **View Developer Portal**.
 
 ## Exporting your API to Azure API Management
+
+Exporting an OpenAPI 3.0 schema makes it available in the connected Azure API Management service. You can export the schema to an existing revision or to a new revision.
+
+1. Select **APIs** in the sidebar, select an API and version, and then select the **Deployments** tab.
+1. Select the service you want to export to, and then select **Export API**.
+1. Select the version, branch, or release to export. Learn more about [versioning an API](/docs/designing-and-developing-your-api/versioning-an-api/) and [creating a release](/docs/designing-and-developing-your-api/versioning-an-api/#creating-a-release).
+1. Enter a brief description for the export.
+1. (Optional) If you want to export the schema to an existing revision, select the check box. Select the **Revision ID** of the revision you want to update.
+
+    > If you don't select the checkbox, Postman exports the API to a new revision.
+
+1. Select **Export**.
+
+After exporting, you can use the **Current** toggle to make the new or updated revision the current revision.
 
 > If you encounter an error when exporting, it may be because your schema uses some properties (such as `name` or `description`) that can only be updated on the current revision. For more information, see the Microsoft help article [API import restrictions and known issues](https://docs.microsoft.com/en-us/azure/api-management/api-management-api-import-restrictions). After you validate your schema against the restrictions, export it again.
