@@ -1,7 +1,7 @@
 ---
 title: 'Deploying to an Amazon API Gateway'
 page_id: 'deploying_an_api_aws'
-updated: 2022-03-31
+updated: 2022-04-13
 search_keyword: "deploy, aws, api gateway"
 warning: false
 contextual_links:

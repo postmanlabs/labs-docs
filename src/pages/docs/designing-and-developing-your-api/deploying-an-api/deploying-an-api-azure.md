@@ -1,7 +1,7 @@
 ---
 title: 'Deploying to Azure API Management'
 page_id: 'deploying_an_api_azure'
-updated: 2022-04-22
+updated: 2022-04-13
 search_keyword: "deploy, azure, api management"
 warning: false
 contextual_links:
