@@ -1,9 +1,6 @@
 ---
 title: 'Versioning APIs'
-order: 81.2
-page_id: 'versioning_an_api'
-updated: 2022-02-16
-warning: false
+updated: 2022-04-18
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -188,11 +185,11 @@ When you are connected to an external Git repo, releases can be mapped to the Gi
 
 ### Viewing releases
 
-Releases are shown on the **API version** page, on the **Overview** tab. Hover over a release and select **View Release** to open that release's page.
+Releases are shown on the **API version** page, on the **Overview** tab. Select a release date to open that release's page.
 
-<img src="https://assets.postman.com/postman-docs/api-builder-releases.jpg" alt="API Builder releases" width="350px"/>
+<img src="https://assets.postman.com/postman-docs/api-builder-releases-v9-16.jpg" alt="API Builder releases" width="350px"/>
 
-Each release page shows a read-only view of the schema, documentation, and tests associated with that release. You can't make changes to a released API. If you have more changes, you can create another release.
+Each release page shows a read-only view of the schema, documentation, and tests associated with that release. You can't make changes to a released API. If you have more entity changes, you can create another release.
 
 ### Creating a release
 
@@ -200,13 +197,14 @@ To create a release:
 
 1. If you are using an external Git repo, create a release in Git first by merging changes from your develop branch to the main branch, and creating a release tag.
 1. Select the changelog icon (<img alt="Changelog icon" src="https://assets.postman.com/postman-docs/icon-changelog.jpg" width="25px" style="vertical-align:middle;margin-bottom:0px">) in the sidebar. The Changelog will show changes to the API version's schema and associated elements.
-1. Select **+ Release changes**.
-1. Enter the release name and description.
+1. Select **+ Create release**.
+1. Enter the release name and description. The description can be up to 140 characters.
+1. Optionally, enter release notes for the release. Use the editor to enter a long-form description of the release, which can include headings, lists, tables, images, code blocks and other formatting.
 1. If you are using an external Git repo, select a tag in **Git release**.
 1. Select **Make this version available for consumers** if you want the new version to be visible. Otherwise, it's only visible to editors.
 1. Select **Create Release**. You will be taken to a new page for the release.
 
-You can also edit a release name in the Changelog. Next to the release, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px">, then select **Edit**.
+You can edit a release name in the Changelog. Next to the release, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px">, then select **Edit**. You can also edit a release's description and release notes from the release page, either in the edit dialog, or by selecting the description or release notes in the overview.
 
 ## Setting an API status
 
