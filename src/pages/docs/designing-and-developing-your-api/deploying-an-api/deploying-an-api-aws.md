@@ -29,7 +29,7 @@ This integration supports OpenAPI 3.0 schemas for both HTTP and REST APIs. For H
 * [Connecting to Amazon API Gateway](#connecting-to-amazon-api-gateway)
     * [Authenticating with an AWS IAM role](#authenticating-with-an-aws-iam-role)
     * [Authenticating with an AWS access key](#authenticating-with-an-aws-access-key)
-* [Viewing Amazon API gateway deployments](#viewing-amazon-api-gateway-deployments)
+* [Viewing Amazon API Gateway deployments](#viewing-amazon-api-gateway-deployments)
 * [Viewing CloudWatch metrics](#viewing-cloudwatch-metrics)
 * [Exporting and deploying your API](#exporting-and-deploying-your-api)
 
@@ -37,7 +37,7 @@ This integration supports OpenAPI 3.0 schemas for both HTTP and REST APIs. For H
 
 To connect to Amazon API Gateway in Postman, select **APIs** in the sidebar, and then select the API and version you want to connect. Select the **Deployments** tab, and then select **AWS API Gateway**.
 
-<img alt="Connecting to AWS API Gateway" src="https://assets.postman.com/postman-docs/deployments-aws-api-gateway-v9-5.jpg" width="915px"/>
+<img alt="Connecting to an API Gateway" src="https://assets.postman.com/postman-docs/deployments-aws-api-gateway-v9-15.jpg"/>
 
 When setting up the connection to API Gateway, you can choose to authenticate by [creating an AWS IAM role](#authenticating-with-an-aws-iam-role) or by [using an AWS access key](#authenticating-with-an-aws-access-key). Follow the steps for your chosen method below.
 
