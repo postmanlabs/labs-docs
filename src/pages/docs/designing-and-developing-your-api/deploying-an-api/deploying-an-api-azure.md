@@ -87,6 +87,8 @@ Exporting an OpenAPI 3.0 schema makes it available in the connected Azure API Ma
 
 1. Select **Export**.
 
+<img alt="Exporting an API" src="https://assets.postman.com/postman-docs/azure-apim-export-v9-15.jpg" width="520px"/>
+
 After exporting, you can use the **Current** toggle to make the new or updated revision the current revision.
 
 > If you encounter an error when exporting, it may be because your schema uses some properties (such as `name` or `description`) that can only be updated on the current revision. For more information, see the Microsoft help article [API import restrictions and known issues](https://docs.microsoft.com/en-us/azure/api-management/api-management-api-import-restrictions). After you validate your schema against the restrictions, export it again.
