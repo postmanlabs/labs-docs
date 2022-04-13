@@ -33,10 +33,10 @@ To connect to Azure API Management in Postman:
 1. You'll be prompted to authorize Postman to access your Microsoft Azure account. After you grant access, you can close the browser tab and return to Postman.
 1. Enter information about the Azure API Management service you want to connect to your API:
 
-    * **Subscription:** The subscription where the service was created.
-    * **Resource Group:** The resource group that contains the service.
-    * **Service:** The Azure API Management service instance used for deploying your API.
-    * **Azure API Version:** The Azure API version that corresponds to your API version in Postman.
+    * **Subscription:** The [subscription](https://docs.microsoft.com/en-us/azure/api-management/api-management-subscriptions) where the service was created.
+    * **Resource Group:** The [resource group](https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/manage-resource-groups-portal) that contains the service.
+    * **Service:** The Azure API Management [service instance](https://docs.microsoft.com/en-us/azure/api-management/api-management-key-concepts) used for deploying your API.
+    * **Azure API Version:** The Azure API [version](https://docs.microsoft.com/en-us/azure/api-management/api-management-versions) that corresponds to your API version in Postman.
 
 1. To connect additional Azure API Management services, select **+ Add Service**. To remove a service, select **Remove**.
 1. When you are finished adding services, select **Connect**.
@@ -55,24 +55,24 @@ Select a service to view more details about the connected Azure API version.
 
 * **Revisions:** [Revisions](https://docs.microsoft.com/en-us/azure/api-management/api-management-revisions) enable you make and test changes to your API without affecting consumers. For each revision, you can view the revision ID, date created, description, URL, and Postman source.
 
-    * Use the **Online** toggle to set a revision to be online or offline.
-    * Use the **Current** toggle to set a revision to be the current revision for your API. Enter an optional description and select **Confirm**.
+    * Use the **Online** toggle to set a revision to offline or online. Consumers cannot access an offline revision.
+    * Use the **Current** toggle to make a revision the current revision for your API. Enter an optional description and select **Confirm**.
 
-* **Changelog:**
+* **Changelog:** The changelog shows the deployment history for your API. Each time you make a revision current, Postman adds an entry to the changelog, including the date created, the date last updated, and a description of the change.
 
-* **Export History:**
+* **Export History:** The export history lists all exports from Postman for this APi version. For each export, you can view the date created, the Azure revision, and the Postman source.
 
 <img alt="Viewing API deployments" src="https://assets.postman.com/postman-docs/api-gateway-deployments-tab-v9-15.jpg"/>
 
 From the **Deployments** tab, you can take the following actions:
 
-* To view your API Gateway in AWS, select the **AWS Gateway ID**.
-* To export or deploy an HTTP schema, select **Deploy API**. Learn more about [deploying your API](#exporting-and-deploying-your-api).
-* To view metrics for your API Gateway in AWS, select **View Dashboard**.
+* Use the dropdown list to view a different Azure API Management service instance.
+* To export your schema, select **Export API**. Learn more about [exporting your API](#exporting-your-api-to-azure-api-management).
 * To see the latest deployment status, select the refresh icon <img alt="Refresh icon" src="https://assets.postman.com/postman-docs/icon-refresh-v9-5.jpg#icon" width="14px">.
-* To edit or delete the connection to Amazon API Gateway, select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px">.
+* To edit or delete the connection to Azure API management, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px">.
+* To open the gateway URL of the API management service, select the **Gateway URL** link.
+* To open the developer portal for the API management service, select **View Developer Portal**.
 
 ## Exporting your API to Azure API Management
-
 
 > If you encounter an error when exporting, it may be because your schema uses some properties (such as `name` or `description`) that can only be updated on the current revision. For more information, see the Microsoft help article [API import restrictions and known issues](https://docs.microsoft.com/en-us/azure/api-management/api-management-api-import-restrictions). After you validate your schema against the restrictions, export it again.
