@@ -13,7 +13,7 @@ contextual_links:
 
 ---
 
-Azure API Management intro
+[Azure API Management](https://azure.microsoft.com/en-us/services/api-management/) enables developers to deploy API gateways for APIs hosted in Azure, other cloud platforms, or on-premises. Once connected to Azure API Management, you can view your API deployment status and history from within Postman. You can also export your API schema from Postman to Azure API Management.
 
 ## Contents
 
