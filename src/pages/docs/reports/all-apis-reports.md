@@ -5,14 +5,6 @@ order: 99
 warning: false
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Using the API Builder"
-    url: "/docs/designing-and-developing-your-api/the-api-workflow/"
-  - type: link
-    name: "Managing and sharing APIs"
-    url: "/docs/designing-and-developing-your-api/managing-apis/"
-  - type: section
     name: "Additional Resources"
   - type: subtitle
     name: "Related Blog Posts"
