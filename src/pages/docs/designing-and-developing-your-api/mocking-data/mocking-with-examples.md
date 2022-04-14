@@ -67,9 +67,9 @@ Select **Save** to save the request in a collection. [Collections](/docs/sending
 
 <img alt="Save a request" src="https://assets.postman.com/postman-docs/mock-examples-step2a-v9-1.jpg" width="808px">
 
-Select **New Collection** at the bottom of the **Save Request** dialog box. Enter `C1` for the collection name and select **Create**. Then select **Save** to save the request to the new collection.
+Enter a **Request name**. Instead of selecting an existing collection in **Save to**, select **New Collection**. Enter `C1` for the collection name and select **Create**. Then select **Save** to save the request to the new collection.
 
-<img alt="Save a request dialog box" src="https://assets.postman.com/postman-docs/mock-examples-step2b-v9-1.jpg" width="482px">
+<img alt="Save a request to a new collection" src="https://assets.postman.com/postman-docs/mock-examples-step2b-v9-1.jpg" width="482px">
 
 ### Step 3: Save a response as an example
 
@@ -87,7 +87,7 @@ To rename the example, select the edit icon <img alt="Edit icon" src="https://as
 
 ### Step 4: Create a mock server for the collection
 
-Now that you've added an example to your collection, you're ready to set up a mock server. Select **Collections** in the sidebar. Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> next to the `C1` collection, and then select **Mock collection**.
+Now that you've added an example to your collection, you're ready to set up a mock server. Select **Collections** in the sidebar. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the `C1` collection, and then select **Mock collection**.
 
 <img alt="Mock a collection" src="https://assets.postman.com/postman-docs/mock-examples-step4a-v9-1.jpg" width="455px">
 

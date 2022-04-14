@@ -28,7 +28,7 @@ If you sign out or your connection to Postman breaks, you'll see a global banner
 
 <img alt="Scratch Pad global banner" src="https://assets.postman.com/postman-docs/scratch-pad-notice.jpg" width="350px" />
 
-If you are logged in and want to go to the Scratch Pad, select the gear icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-gear-outline-v9.jpg#icon" width="18px"> to the right side of the header toolbar and select **Scratch Pad**.
+If you are logged in and want to go to the Scratch Pad, select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the header and select **Scratch Pad**.
 
 <img alt="Enter Scratch Pad" src="https://assets.postman.com/postman-docs/scratch-pad-enter.jpg" width="200px" />
 
@@ -48,7 +48,7 @@ While you are in the Scratch Pad, you can:
 To leave the Scratch Pad:
 
 1. Ensure you have a network connection to Postman, and sign in.
-1. Switch to a workspace using the **Workspaces** menu at the top of Postman. For more information, see [Using and managing workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/).
+1. Switch to a workspace by selecting **Workspaces** from the header. For more information, see [Using and managing workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/).
 
 > You can also select **Switch to a Workspace** from the Scratch Menu global banner at the top of the screen.
 
@@ -59,7 +59,7 @@ When you leave the Scratch Pad, your data remains there; you won't see it in you
 To export saved Scratch Pad data:
 
 1. Go to the Scratch Pad.
-1. Select the gear icon in the upper-right corner to open **Settings**, and select the **Data** tab.
+1. Select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the header, then select **Settings** > **Data**.
 1. Select **Export Data**.
 1. Choose a directory in which to save the file, then select **Save**.
 
@@ -69,7 +69,7 @@ You can also export a single collection or an environment. For more information,
 
 When you log back in to Postman, you can import your Scratch Pad data:
 
-1. Sign in and switch to a workspace using the **Workspaces** menu at the top of Postman. For more information, see [Using and managing workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/).
+1. Sign in and switch to a workspace by selecting **Workspaces** from the header. For more information, see [Using and managing workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/).
 1. Select **Import** in the upper-left corner.
 1. Drag your exported data dump, collection, or environment and select **Import**.
 

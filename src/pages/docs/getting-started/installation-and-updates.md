@@ -171,7 +171,7 @@ Postman for Web is under active development. There are a few features you can cu
 
 ## Updating Postman
 
-Postman will notify you when a major update is available. For other updates, you will see a dot on the settings icon. If the indicator is red instead of orange, it indicates a failed update.
+Postman will notify you when a major update is available. For other updates, you will see a dot on the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px">. If the indicator is red instead of orange, it indicates a failed update.
 
 ![Update Ready](https://assets.postman.com/postman-docs/update-ready-v86.jpg)
 
