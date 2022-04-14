@@ -24,13 +24,13 @@ If you haven't already, create a pipeline in the GitLab you use for your API. To
 1. Open your API by selecting **APIs** in the sidebar, and then selecting an API and a version. *Each API version can be linked to one CI project*.
 1. Select the **Test** tab.
 1. Under **Connect to CI/CD Builds**, select **GitLab**.
-1. You'll be prompted to authorize Postman to access your GitLab account. After you grant access, you can close the browser tab and return to Postman.
+1. You'll be prompted to authorize Postman to access your GitLab account. After you grant access, you can close the browser tab and return to Postman. <!--TODO auth reuse if you're already using a GitLab repo -->
 1. Enter a **Nickname** to help you recognize the integration later.
-1. Select the GitLab **Workspace** with your API repository.
-1. Select the **CI project** used for your API.
-1. Select **Connect**.
+1. Select the **GitLab group** with your API repository.
+1. Select the **project** used for your API.
+1. Select **Connect**. <!--TODO these fields don't look right in beta. Also, are they different if you haven't authed for repo sync? They are pre-populated if you already have a repo sync configured. -->
 
-<img alt="Connect to Bitbucket Pipelines" src="https://assets.postman.com/postman-docs/bitbucket-pipelines-connect-project-v9-15.jpg" width="518px">
+<img alt="Connect to Bitbucket Pipelines" src="https://assets.postman.com/postman-docs/bitbucket-pipelines-connect-project-v9-15.jpg" width="518px"><!--TODO replace -->
 
 ## Viewing build status
 
@@ -47,7 +47,7 @@ Select **View All Builds** to view the full list of build jobs. From here you ca
 * To edit or delete the integration, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px">.
 * To view more details for a build, use the arrows to expand a build and expand **Build Steps**. For each build step you can view the name, duration, and status.
 
-<img alt="View all Bitbucket Pipelines builds" src="https://assets.postman.com/postman-docs/bitbucket-pipelines-builds-v9-15.jpg">
+<img alt="View all Bitbucket Pipelines builds" src="https://assets.postman.com/postman-docs/bitbucket-pipelines-builds-v9-15.jpg"><!--TODO replace -->
 
 ## Viewing collection run details
 
@@ -55,7 +55,7 @@ Using Newman, you can run Postman collections with your API tests as part of a G
 
 To view details for collections that were run as part of a build, first [configure Newman for GitLab](#configuring-newman-for-gitlab) and then [start a new build](#viewing-build-status). After the build is complete, use the arrows to expand a build and expand **Collection Runs**. Then expand a collection to view details about a collection run.
 
-<img alt="View collection runs" src="https://assets.postman.com/postman-docs/bitbucket-pipelines-collection-runs-v9-15.jpg">
+<img alt="View collection runs" src="https://assets.postman.com/postman-docs/bitbucket-pipelines-collection-runs-v9-15.jpg"><!--TODO replace -->
 
 > Select **View Report** to view a collection run report in the Postman **History**. Learn more about using the [Collection Runner](/docs/running-collections/intro-to-collection-runs/).
 
@@ -79,7 +79,7 @@ To generate configuration code for Newman:
 1. (Optional) Select the check box to use the Postman cloud reporter to send collection run information back to Postman. You can view the collection run details in the Postman **History** and on the API version **Test** tab.
 1. Select **Copy** to copy the Newman configuration, and then select **Finish**.
 
-<img alt="Generate Newman configuration" src="https://assets.postman.com/postman-docs/bitbucket-pipelines-generate-newman-v9-15.jpg" width="548px">
+<img alt="Generate Newman configuration" src="https://assets.postman.com/postman-docs/bitbucket-pipelines-generate-newman-v9-15.jpg" width="548px"><!--TODO replace -->
 
 To add the Newman configuration to your GitLab pipeline:
 
@@ -92,14 +92,13 @@ To add the Newman configuration to your GitLab pipeline:
 ### Example .gitlab-ci.yml file
 
 ```yaml
-image: node:16
+stages:
+  - build
 
-pipelines:
-  default:
-    - step:
-        name: Run collection via newman
-        script:
-          - 'npm i -g newman'
-          - 'npm i -g newman-reporter-postman-cloud'
-          - newman run "https://api.getpostman.com/collections/735639-949d82a2-1b47-4e2a-8836-10222ba1fb51?apikey=$POSTMAN_API_KEY" -r postman-cloud --reporter-apiKey "$POSTMAN_API_KEY" --reporter-workspaceId "1b5bd345-56e0-4acd-842f-d27b3d82d0b4" --reporter-integrationIdentifier "46689-${BITBUCKET_PIPELINE_UUID}"
+build_code_job:
+    stage: build
+    script:
+        - npm i -g newman
+        - npm i -g newman-reporter-postman-cloud
+        - newman run "https://api.getpostman.com/collections/733336-007044ca-213d-4ca1-a935-1ad2f1f65145?apikey=$POSTMAN_API_KEY"  --environment "https://api.getpostman.com/environments/733336-cceafe18-8a69-4c70-b0b9-aab4d5823ecb?apikey=$POSTMAN_API_KEY" -r postman-cloud --reporter-apiKey "$POSTMAN_API_KEY" --reporter-workspaceId "32da4917-f0a9-40a1-893c-3ad988cb670e" --reporter-integrationIdentifier 47056-${CI_PIPELINE_ID}
 ```
