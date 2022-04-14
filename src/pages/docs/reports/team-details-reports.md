@@ -49,17 +49,17 @@ The **Team activity** report provides more detail on your team members' activity
     * Creating, editing, deleting, and sending requests
     * Creating, editing, and deleting collections, APIs, environments, mocks, and monitors
 * **Entities created over time** - The number of entities created over time, including APIs, collections, environments, mocks, and monitors.
-* **Updates on entities over time** - Changes made to entities over time.
+* **Updates on entities over time** - Changes made to entities in the reporting period.
 
 ## Resource usage
 
 The **Resource usage** report provides more information on how your team is using Postman resources, including:
 
-* **Team slots** - Billed slot usage across your team.
-    * **Used slots** - The used billed slots compared to unused billed slots for your team.
-    * **Unbilled slots** - The number of unbilled slots.
-    * **Used slots over time** - Billed slots, unbilled slots, and total available slots over time.
-* **Mock server calls** - Mock server calls made, overage calls, and mock calls over time.
-* **Monitoring server calls** - Monitoring calls made, overage calls, and monitoring calls over time.
+* **Team slots** - Billed seat usage across your team.
+    * **Billed slots** - The used billed seats compared to unused billed seats for your team.
+    * **Unbilled slots** - The number of seats that will be billed at the next [autoflex renewal](/docs/administration/billing/#utilizing-auto-flex).
+    * **Used slots over time** - The number of billed seats and unbilled seats used by your team in the reporting period.
+* **Mock server calls** - Mock server calls made, [overage calls](/docs/administration/billing/#managing-add-ons), and mock calls over time.
+* **Monitoring server calls** - Monitoring calls made, [overage calls](/docs/administration/billing/#managing-add-ons), and monitoring calls over time.
 * **Postman API calls** - The number of API calls made to the Postman API.
 * **Integrations** - Integrations created, integrations on entities, and integrations by type.
