@@ -21,7 +21,7 @@ contextual_links:
 
 The __Security Audit__ report provides metrics including an overview of your total collections scanned, collections with exposed tokens, total exposed tokens, and separate visualizations of exposed tokens by type and over time. This report consolidates the findings of the Postman token scanner from public documentation. Learn more about the Postman [Token scanner](/docs/api-security/token-scanner/).
 
-The **Security Audit** report provides the following information:
+The **Security Audit** report provides the following information for the past 30 days:
 
 * __Total collections scanned__ - The number of collections that are published or updated.
 * __Collections with exposed tokens__ - The total number of collection scans that have an exposed token.
