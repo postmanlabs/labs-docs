@@ -13,7 +13,7 @@ contextual_links:
 
 ---
 
-[Azure API Management](https://azure.microsoft.com/en-us/services/api-management/) enables developers to deploy API gateways for APIs hosted in Microsoft Azure, other cloud platforms, or on-premises. Once connected to Azure API Management, you can view your API deployment status and history from within Postman. You can also export your OpenAPI 3.0 schema from Postman to Azure API Management.
+[Azure API Management](https://azure.microsoft.com/en-us/services/api-management/) enables developers to deploy API gateways for APIs hosted in Microsoft Azure, other cloud platforms, or on-premises. Once connected to Azure API Management, you can view your API deployment status and history from within Postman. You can also export your OpenAPI schema from Postman to Azure API Management.
 
 ## Contents
 
@@ -77,7 +77,7 @@ From the service details view, you can take the following actions:
 
 ## Exporting your API to Azure API Management
 
-Exporting an OpenAPI 3.0 schema makes it available in the connected Azure API Management service. You can export the schema to an existing revision or to a new revision.
+Exporting an OpenAPI schema makes it available in the connected Azure API Management service. OpenAPI 2.0 and 3.0.x schemas are supported. You can export the schema to an existing revision or to a new revision.
 
 1. Select **APIs** in the sidebar, select an API and version, and then select the **Deployments** tab.
 1. Select the service you want to export to, and then select **Export API**.
@@ -99,4 +99,4 @@ If you have problems exporting your schema, check the following:
 
 * Some schema fields (such as name, description, and protocols) must be updated on the current revision and can't be updated on other revisions. To update these fields on revisions that aren't the current revision, perform a manual merge instead.
 
-* Some properties of the OpenAPI 3.0 specification aren't supported by Azure API Management. For more information, see the Microsoft help article [API import restrictions and known issues](https://docs.microsoft.com/en-us/azure/api-management/api-management-api-import-restrictions).
+* Some properties of the OpenAPI specification aren't supported by Azure API Management. For more information, see the Microsoft help article [API import restrictions and known issues](https://docs.microsoft.com/en-us/azure/api-management/api-management-api-import-restrictions).
