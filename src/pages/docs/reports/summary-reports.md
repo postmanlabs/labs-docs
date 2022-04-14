@@ -23,26 +23,32 @@ The [**Reports Summary**](https://go.postman.co/reports/summary) dashboard show 
 
 ## A summary view of your APIs
 
+To be included in this metric, an API must have [**Team** or **Public** visibility](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#changing-workspace-visibility).
+
 * **Overview** - The total number of APIs, plus a breakdown of the number of APIs with mocks, monitors, tests, and documentation, and the number of APIs on the Private and Public API Networks.
-* **Response Time** - The average response time in milliseconds across all APIs over time.
-* **Test Results** - The number of successful and failed test runs over time.
-* **Uptime** - The number of successful responses (returning 1xx or 2xx) compared to failed responses (returning 3xx, 4xx, or 5xx) over time.
+* **API Response time for team and public workspaces** - The average response time in milliseconds across all your APIs in the reporting period.
+* **API test results** - The number of successful and failed test runs for your APIs in the reporting period.
+* **API uptime** - The number of successful responses (returning 1xx or 2xx) compared to failed responses (returning 3xx, 4xx, or 5xx) for your APIs in the reporting period.
 
     <img src="https://assets.postman.com/postman-docs/reporting-summary-view-apis.jpg" alt="Report summary view" />
 
 ## How is your team using Postman?
 
-* **Team Activity** - The total number of user actions (creating, editing, and deleting entities such as requests, collections, APIs, and environments) in a workspace over time.
-* **Resource Usage** - The number of used and unused integrations, mock calls, monitor requests, and Postman API calls across your team.
+* **Team activity** - The total number of user actions in a workspace in the reporting period. These actions include:
+    * Creating, editing, deleting, and sending requests
+    * Creating, editing, and deleting collections, APIs, environments, mocks, and monitors
+* **Resource usage** - The number of used and unused integrations, mock calls, monitor requests, and Postman API calls across your team, calculated as the amount that have been used or not used from your overall resource limit.
 
     <img src="https://assets.postman.com/postman-docs/reporting-summary-team-use.jpg" alt="reports data point" width="500px" />
 
 ## How people are interacting with your publicly shared work
 
-* **Public profile views** - The total number of times people have viewed any public profile on your team.
-* **Public workspace views** - The number of views of your team's public workspace over time.
-* **Published documentation views** - The number of views of your team's published documentation over time.
-* **Forks and Pull requests over time** - The number of times a collection in your public workspaces has been forked or pulled over time.
-* **Watch over time** - The number of times someone has watched a collection in your public workspaces over time.
+* **Public profile views** - The total number of views of your team's public profile in the reporting period.
+* **Public workspace views** - The number of views of all your team's public workspaces in the reporting period.
+* **Published documentation views** - The number of views of your team's published documentation in the reporting period.
+* **Forks and Pull requests on public collections** - The number of times in the reporting period that a collection in your public workspaces was forked or pulled.
+* **Watch count on public entities** - The number of times in the reporting period that someone watched a collection or API in your public workspaces.
+
+    > Reports in this section reflect all views and actions on publicly shared work, regardless of whether the user is a team member or not.
 
     <img src="https://assets.postman.com/postman-docs/reporting-summary-interaction.jpg" alt="report interaction" width="500px" />

@@ -45,7 +45,9 @@ The **Team activity** report provides more detail on your team members' activity
 
 * **Total team members** - The current number of user accounts in the team.
 * **Active members over time** - The number of team members who used Postman at least once on that day.
-* **Team Activity** - The total number of user actions (creating, editing, and deleting entities such as requests, collections, APIs, and environments) in a workspace over time.
+* **Team Activity** - The total number of user actions in a workspace over time. These actions include:
+    * Creating, editing, deleting, and sending requests
+    * Creating, editing, and deleting collections, APIs, environments, mocks, and monitors
 * **Entities created over time** - The number of entities created over time, including APIs, collections, environments, mocks, and monitors.
 * **Updates on entities over time** - Changes made to entities over time.
 
