@@ -91,4 +91,10 @@ Exporting an OpenAPI 3.0 schema makes it available in the connected Azure API Ma
 
 After exporting, you can use the **Current** toggle to make the new or updated revision the current revision.
 
-> You may see an error when exporting if your schema uses certain properties (such as `name` or `description`) that must be updated on the current revision. For more information, see the Microsoft help article [API import restrictions and known issues](https://docs.microsoft.com/en-us/azure/api-management/api-management-api-import-restrictions). Check your schema and then export it again.
+### Troubleshooting export issues
+
+If you have problems exporting your schema, check the following:
+
+* Some schema fields (such as name, description, and protocols) must be updated on the current revision and can't be updated on other revisions. To update these fields on revisions that aren't the current revision, perform a manual merge instead.
+
+* Some properties of the OpenAPI 3.0 specification aren't supported by Azure API Management. For more information, see the Microsoft help article [API import restrictions and known issues](https://docs.microsoft.com/en-us/azure/api-management/api-management-api-import-restrictions).
