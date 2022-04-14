@@ -41,17 +41,17 @@ The **All APIs** overview report provides the following information:
 The **Team APIs** report provides information on APIs created by your team, including:
 
 * **Total APIs in team Workspaces** - The number of APIs in team workspaces.
-* **Schemas by type** - The number of APIs by schema type (OpenAPI, GraphQL, Swagger, and so on).
-* **APIs updated over time** - The number of APIs that have been updated over time.
-* **Response time** - The average response time of all APIs over time.
-* **Test Results** - The number of successful and failed test runs over time.
-* **Uptime** - The number of successful responses (returning 1xx or 2xx) compared to failed responses (returning 3xx, 4xx, or 5xx) over time.
-* **APIs with Mocks** - The number of APIs your team has added mocks to.
-* **APIs with Monitors** - The number of APIs your team has added monitors to.
-* **APIs with Tests** - The number of APIs your team has added tests to.
-* **APIs with Documentation** - The number of APIs your team has added documentation to.
-* **Watches API** - The number of watches over time.
-* **Comments over time** - The number of comments over time.
+* **Schemas by type** - The number of APIs by schema type (OpenAPI, GraphQL, Swagger, and so on). If an API has multiple versions with different schemas, the API will have entries in each of those schema types.
+* **APIs updated over time** - The number of team APIs that have been updated over time.
+* **API response time** - The average response time of all APIs over time.
+* **API test results** - The number of successful and failed test runs over time.
+* **API uptime** - The number of successful responses (returning 1xx or 2xx) compared to failed responses (returning 3xx, 4xx, or 5xx) over time.
+* **API mock coverage** - The number of APIs your team has added mocks to.
+* **API monitoring coverage** - The number of APIs your team has added monitors to.
+* **API test coverage** - The number of APIs your team has added tests to.
+* **API documentation coverage** - The number of APIs your team has added documentation to.
+* **Watch count** - The number of watches in the reporting period.
+* **Comments over time** - The number of comments in the reporting period.
 
 ## Private Network APIs
 
@@ -61,12 +61,12 @@ The __Private Network APIs__ report provides the following information:
 
 * __Total APIs on Private API Network__ - The number of APIs that are published to the Private API network.
 * __Schemas by type__ - The number of APIs by schema type (OpenAPI, GraphQL, Swagger, and so on).
-* __APIs with mocks__ - The number of APIs your team has added mocks to.
-* __APIs with monitors__ - The number of APIs your team has added monitors to.
-* __APIs with tests__ - The number of APIs your team has added tests to.
-* __APIs with documentation__ - The number of APIs your team has added documentation to.
-* **Watches over time** - The number of watches over time.
-* **Comments over time** - The number of comments over time.
+* __API mock coverage__ - The number of APIs your team has added mocks to.
+* __API monitoring coverage__ - The number of APIs your team has added monitors to.
+* __API test coverage__ - The number of APIs your team has added tests to.
+* __API documentation coverage__ - The number of APIs your team has added documentation to.
+* **Watch count** - The number of watches in the reporting period.
+* **Comments over time** - The number of comments in the reporting period.
 
 ## Public APIs
 
@@ -77,6 +77,13 @@ The [Public API report](#private-network-apis) provides the same information as 
 * **APIs updated over time** - The number of APIs updated over time.
 * **Most viewed public API** - A link to your team's most-viewed public API over the last three months.
 * **Public API views** - A graph of the number of views of your team's public APIs over time.
+* **API mock coverage** - The number of APIs your team has added mocks to.
+* **API monitoring coverage** - The number of APIs your team has added monitors to.
+* **API test coverage** - The number of APIs your team has added tests to.
+* **API documentation coverage** - The number of APIs your team has added documentation to.
+* **Watch count** - The number of watches in the reporting period.
+* **Comments over time** - The number of comments in the reporting period.
+
 
 ## View Report by API
 
@@ -89,4 +96,4 @@ __View reports by API__ provides a report for each individual API. Scroll throug
 * **Failed test runs** - The total number of failed test runs over time.
 * **Average response size** - The average response size in bytes over time.
 * **Average response time** - The average response time in milliseconds, over time.
-* **API Response Codes** - The HTTP response codes for each API response.
+* **API response codes** - The HTTP response codes for each API response.
