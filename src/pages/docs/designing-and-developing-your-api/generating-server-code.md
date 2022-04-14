@@ -47,7 +47,7 @@ To generate server side boilerplate from your OpenAPI 3 spec:
 
 1. Open the API tab.
 1. Select an API containing an OpenAPI 3 specification.
-1. In the right sidebar, select the code generation icon **\<\/\>**.
+1. In the right sidebar, select the code generation icon <img alt="Code snippet icon" src="https://assets.postman.com/postman-docs/icon-code-snippet.jpg#icon" width="16px">.
    <img alt="Edit API" src="https://assets.postman.com/postman-docs/api-codegen.jpg" width="350px"/>
 1. In the **Code Generation** panel, choose the language and framework for which you want to generate boilerplate and select **Generate Code**.
 

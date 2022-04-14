@@ -55,7 +55,7 @@ When [creating a new collection-based monitor](/docs/monitoring-your-api/setting
 
 ## Changing an existing monitor to run from a static IP address
 
-Select **Monitors** in the sidebar, and then select a collection-based monitor. Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> at the upper right, and then select **Edit**.
+Select **Monitors** in the sidebar, and then select a collection-based monitor. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px">at the upper right, and then select **Edit**.
 
 <img src="https://assets.postman.com/postman-docs/select-edit-monitor.jpg" width="293px" alt="Edit monitor"/>
 
