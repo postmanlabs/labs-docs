@@ -43,6 +43,8 @@ To connect to Azure API Management in Postman:
 
     <img alt="Azure API Management setup" src="https://assets.postman.com/postman-docs/azure-apim-setup-v9-15.jpg" width="531px"/>
 
+> When you delete an API or remove it from a workspace, any configured integrations aren't deleted or removed.
+
 ## Viewing Azure API deployments
 
 After connecting to Azure API Management, you can view the deployment status and history for your API schemas in Postman. Select **APIs** in the sidebar, select an API and version, and then select the **Deployments** tab.

@@ -41,6 +41,8 @@ To connect to Amazon API Gateway in Postman, select **APIs** in the sidebar, and
 
 When setting up the connection to API Gateway, you can choose to authenticate by [creating an AWS IAM role](#authenticating-with-an-aws-iam-role) or by [using an AWS access key](#authenticating-with-an-aws-access-key). Follow the steps for your chosen method below.
 
+> When you delete an API or remove it from a workspace, any configured integrations aren't deleted or removed.
+
 ### Authenticating with an AWS IAM role
 
 To set up a connection to Amazon API Gateway using an AWS IAM role, select **IAM** under **AWS Authentication Mechanism**.
