@@ -111,7 +111,7 @@ To connect a repository:
 1. On the **Connect your repository page**, enter the information for your repo.
 1. Enter the Git **Organization** and **Repository** where the API will be stored. (For GitLab, **Organization** refers to a **Group**, and **Repository** refers to a **Project**.)
    > Note that you can only connect one Postman API per repo. Multiple APIs require multiple repos.
-1. Enter the **Main branch** for the API. This is used to fetch  release tags; code isn't pushed to this branch.
+1. Enter the **Main branch** for the API. This is used to fetch release tags; code isn't pushed to this branch.
 1. Enter the **Development branch** for the API. This is where code updates are pushed.
 1. Select an **API schema directory** and **Collection directory** where schemas and collections will be stored in the repo. If you leave a value blank, a `postman/schemas` or `postman/collections` directory will be created in the root of the repo. If you select a directory already containing schemas, you will be asked which schema to use in Postman the first time you pull changes.
 1. Select **Connect Repository**.
