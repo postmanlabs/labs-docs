@@ -84,7 +84,6 @@ The [Public API report](#private-network-apis) provides the same information as 
 * **Watch count** - The number of times someone has watched an API in the reporting period.
 * **Comments over time** - The number of times someone has commented on an API in the reporting period.
 
-
 ## View Report by API
 
 __View reports by API__ provides a report for each individual API. Scroll through the list of APIs, or use the search box to find an API, and then select the API to view the report. Each API report includes the following information:
