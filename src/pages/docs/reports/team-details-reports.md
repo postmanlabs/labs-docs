@@ -19,7 +19,7 @@ contextual_links:
 
 > [__Reports are available on all Postman Enterprise plans.__](https://www.postman.com/pricing)
 
-**Team details reports** provide team-level metrics, including team overview, team size, billing details, team activity, and workspaces. This section contains three reports:
+**Team details reports** show team-level metrics, including team overview, team size, billing details, team activity, and workspaces. This section has three reports:
 
 * [Team details](#team-details)
 * [Team activity](#team-activity)
@@ -27,11 +27,11 @@ contextual_links:
 
 ## Team details
 
-The **Team details** report provides an overview of your team and members, including:
+The **Team details** report shows an overview of your team and members, including:
 
 * **Team name** - The name of your team.
 * **Team created on** - The date when the team was created.
-* **Plan type** - The [Postman plan](https://www.postman.com/pricing/) your team currently subscribes to.
+* **Plan type** - The [Postman plan](https://www.postman.com/pricing/) your team subscribes to.
 * **Total team members** - The current number of user accounts in the team.
 * **Team members over time** - The size of the team over time.
 * **Team roles** - The number of team members with Admin, Billing, Community Manager, or Developer roles.
@@ -41,7 +41,7 @@ The **Team details** report provides an overview of your team and members, inclu
 
 ## Team activity
 
-The **Team activity** report provides more detail on your team members' activity, including:
+The **Team activity** report gives more detail on your team members' activity, including:
 
 * **Total team members** - The current number of user accounts in the team.
 * **Active members over time** - The number of team members who used Postman at least once on that day.
@@ -53,11 +53,11 @@ The **Team activity** report provides more detail on your team members' activity
 
 ## Resource usage
 
-The **Resource usage** report provides more information on how your team is using Postman resources, including:
+The **Resource usage** report gives more information on how your team is using Postman resources, including:
 
 * **Team slots** - Billed seat usage across your team.
     * **Billed slots** - The used billed seats compared to unused billed seats for your team.
-    * **Unbilled slots** - The number of seats that will be billed at the next [autoflex renewal](/docs/administration/billing/#utilizing-auto-flex).
+    * **Unbilled slots** - The number of seats that will be billed at the next [auto-flex renewal](/docs/administration/billing/#utilizing-auto-flex).
     * **Used slots over time** - The number of billed seats and unbilled seats used by your team in the reporting period.
 * **Mock server calls** - Mock server calls made, [overage calls](/docs/administration/billing/#managing-add-ons), and mock calls over time.
 * **Monitoring server calls** - Monitoring calls made, [overage calls](/docs/administration/billing/#managing-add-ons), and monitoring calls over time.

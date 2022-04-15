@@ -20,7 +20,7 @@ contextual_links:
 
 > [__Reports are available on all Postman Enterprise plans.__](https://www.postman.com/pricing)
 
-The __All APIs__ report provides an overview of all your APIs as well as separate reports for team, private network, and public APIs. It also enables you to view a detailed report for each API.
+The __All APIs__ report provides an overview of all your APIs. It also has separate reports for team, private network, and public APIs. It also enables you to view a detailed report for each API.
 
 * [All APIs overview](#all-apis-overview)
 * [Team APIs](#team-apis)
@@ -41,7 +41,7 @@ The **All APIs** overview report provides the following information:
 The **Team APIs** report provides information on APIs created by your team, including:
 
 * **Total APIs in team Workspaces** - The number of APIs in team workspaces.
-* **Schemas by type** - The number of APIs by schema type (OpenAPI, GraphQL, Swagger, and so on). If an API has multiple versions with different schemas, the API will have entries in each of those schema types.
+* **Schemas by type** - The number of APIs by schema type (like OpenAPI, GraphQL, and Swagger). If an API has more than one version with different schemas, the API will have entries in each of those schema types.
 * **APIs updated over time** - The number of team APIs that have been updated over time.
 * **API response time** - The average response time of all APIs over time.
 * **API test results** - The number of successful and failed test runs over time.
@@ -60,7 +60,7 @@ The __Private Network APIs__ report provides metrics including an overview of yo
 The __Private Network APIs__ report provides the following information:
 
 * __Total APIs on Private API Network__ - The number of APIs that are published to the Private API network.
-* __Schemas by type__ - The number of APIs by schema type (OpenAPI, GraphQL, Swagger, and so on).
+* __Schemas by type__ - The number of APIs by schema type (like OpenAPI, GraphQL, and Swagger).
 * __API mock coverage__ - The number of APIs your team has added mocks to.
 * __API monitoring coverage__ - The number of APIs your team has added monitors to.
 * __API test coverage__ - The number of APIs your team has added tests to.

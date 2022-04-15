@@ -19,7 +19,7 @@ contextual_links:
 
 > [__Reports are available on all Postman Enterprise plans.__](https://www.postman.com/pricing)
 
-**All workspaces** provides a report with aggregated metrics on all your workspaces, as well as separate reports for team and public workspaces. This section contains three reports:
+**All workspaces** provides a report with aggregated metrics on all your workspaces. It also has separate reports for team and public workspaces. This section has three reports:
 
 * [All Workspaces](#all-workspaces)
 * [Team Workspaces](#team-workspaces)
@@ -39,7 +39,7 @@ The **All workspaces** summary report contains the following:
 
 ## Team Workspaces
 
-The **Team Workspaces** report contains the following information for your team workspaces:
+The **Team Workspaces** report gives the following information for your team workspaces:
 
 * **Total team workspaces** - The total number of team workspaces for your team.
 * **Most active team workspace** - A link to the most active team workspace in the past 30 days. Actions include:
@@ -54,7 +54,7 @@ The **Team Workspaces** report contains the following information for your team 
 
 ## Public Workspaces
 
-The **Public Workspaces** report contains the following information for your public workspaces:
+The **Public Workspaces** report gives the following information for your public workspaces:
 
 * **Total public workspaces** - The total number of public workspaces for your team.
 * **Most active public workspace** - A link to the most active public workspace in the past 30 days. Actions include:

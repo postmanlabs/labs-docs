@@ -19,7 +19,7 @@ contextual_links:
 
 > [__Reports are available on all Postman Enterprise plans.__](https://www.postman.com/pricing)
 
-The [**Reports Summary**](https://go.postman.co/reports/summary) dashboard show an overview of your APIs, as well as snapshots for how your team is using Postman and how people are interacting with your publicly shared work.
+The [**Reports Summary**](https://go.postman.co/reports/summary) dashboard shows an overview of your APIs. It also has snapshots about how your team is using Postman and how people are interacting with your publicly shared work.
 
 ## A summary view of your APIs
 
@@ -37,7 +37,7 @@ To be included in this metric, an API must have [**Team** or **Public** visibili
 * **Team activity** - The total number of user actions in a workspace in the reporting period. These actions include:
     * Creating, editing, deleting, and sending requests
     * Creating, editing, and deleting collections, APIs, environments, mocks, and monitors
-* **Resource usage** - The number of used and unused integrations, mock calls, monitor requests, and Postman API calls across your team, calculated as the amount that have been used or not used from your overall resource limit.
+* **Resource usage** - The number of used and unused integrations, mock calls, monitor requests, and Postman API calls across your team, calculated as the amount that have been used or not used from your total resource limit.
 
     <img src="https://assets.postman.com/postman-docs/reporting-summary-team-use.jpg" alt="reports data point" width="500px" />
 

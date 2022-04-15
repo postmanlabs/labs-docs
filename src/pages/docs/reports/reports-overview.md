@@ -33,7 +33,7 @@ Access your reports in your [Postman reports dashboard](https://go.postman.co/re
 
 ## Getting started with reports
 
-Reports are based on activity in Postman, including [sharing your API](/docs/designing-and-developing-your-api/managing-apis/), [adding a collection to the API](/docs/designing-and-developing-your-api/defining-an-api/#generating-a-collection), and [sending a request](/docs/sending-requests/requests/) from the collection.
+Reports give information about activity in Postman, including [sharing your API](/docs/designing-and-developing-your-api/managing-apis/), [adding a collection to the API](/docs/designing-and-developing-your-api/defining-an-api/#generating-a-collection), and [sending a request](/docs/sending-requests/requests/) from the collection.
 
 To view your reports dashboard:
 
@@ -48,11 +48,11 @@ To see a report for a specific API:
 
 ### Report availability
 
-Reports are generated periodically but not in real time. You may experience a delay of four to six hours before report data is available. You can see the last update time at the bottom of the report dashboard sidebar.
+Postman generates reports periodically but not in real time. You may experience a delay of four to six hours before report data is available. You can see the last update time at the bottom of the report dashboard sidebar.
 
 ### Report permissions
 
-In the dashboard sidebar, you can only see report data that is available to you based on your [role](/docs/collaborating-in-postman/roles-and-permissions/). You aren't able to view reports for entities you don't have permission to access.
+In the dashboard sidebar, you can only see report data that's available to you based on your [role](/docs/collaborating-in-postman/roles-and-permissions/). You aren't able to view reports for entities you don't have permission to access.
 
 ## Exploring reports and report data
 
@@ -77,13 +77,13 @@ To explore data in a report:
 Reports have the following limitations:
 
 * You can't download or export your reports.
-* Postman reports only track data sent through the request builder, and not through Newman, collection runs, or monitors. However, failed test runs generate reports using collection runs.
+* Postman reports only track data sent through the request builder, and not through Newman, collection runs, or monitors. Failed test runs do generate reports using collection runs.
 * You can't view the details of entities you don't have access to.
 
 If you don't see any data in your reports, or your data is incomplete (for example, you have empty response times or sizes) this may be due to one of the following reasons:
 
-* It's too early to check. The data refreshes every four to six hours.
+* The data hasn't refreshed yet. Check after four to six hours.
 * You might not have linked a collection to your API.
 * You might not have sent a request. Or you might have executed requests from monitoring, collection runs, or Newman, but not from the request builder in Postman.
 * You might not have enabled __Save Responses__ in the __History__ tab in Postman.
-* Sync is not successfully communicating with the Postman servers. Check your network connection and visit the [Postman Status Page](https://status.postman.com) to see if there is a current outage.
+* Postman isn't syncing correctly. Check your network connection and visit the [Postman Status Page](https://status.postman.com) to see if there is a current outage.
