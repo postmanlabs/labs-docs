@@ -1,6 +1,6 @@
 ---
 title: "Summary reports"
-updated: 2021-10-19
+updated: 2022-04-18
 warning: false
 contextual_links:
   - type: section
@@ -30,16 +30,12 @@ To be included in this metric, an API must have [**Team** or **Public** visibili
 * **API test results** - The number of successful and failed test runs for your APIs in the reporting period.
 * **API uptime** - The number of successful responses (returning 1xx or 2xx) compared to failed responses (returning 3xx, 4xx, or 5xx) for your APIs in the reporting period.
 
-    <img src="https://assets.postman.com/postman-docs/reporting-summary-view-apis.jpg" alt="Report summary view" />
-
 ## How is your team using Postman?
 
 * **Team activity** - The total number of user actions in a workspace in the reporting period. These actions include:
     * Creating, editing, deleting, and sending requests.
     * Creating, editing, and deleting collections, APIs, environments, mocks, and monitors.
 * **Resource usage** - The number of used and unused integrations, mock calls, monitor requests, and Postman API calls across your team, calculated as the amount that have been used or not used from your total resource limit.
-
-    <img src="https://assets.postman.com/postman-docs/reporting-summary-team-use.jpg" alt="reports data point" width="500px" />
 
 ## How people are interacting with your publicly shared work
 
@@ -49,6 +45,4 @@ To be included in this metric, an API must have [**Team** or **Public** visibili
 * **Forks and Pull requests on public collections** - The number of times in the reporting period that a collection in your public workspaces was forked or pulled.
 * **Watch count on public entities** - The number of times in the reporting period that someone watched a collection or API in your public workspaces.
 
-    > Reports in this section reflect all views and actions on publicly shared work, regardless of whether the user is a team member or not.
-
-    <img src="https://assets.postman.com/postman-docs/reporting-summary-interaction.jpg" alt="report interaction" width="500px" />
+> Reports in this section reflect all views and actions on publicly shared work, regardless of whether the user is a team member or not.
