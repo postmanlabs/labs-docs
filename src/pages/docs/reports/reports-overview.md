@@ -48,11 +48,13 @@ To see a report for a specific API:
 
 ### Report availability
 
-Postman generates reports periodically but not in real time. You may experience a delay of four to six hours before report data is available. You can see the last update time at the bottom of the report dashboard sidebar.
+Postman generates reports periodically but not in real time. You might experience a delay of four to six hours before report data is available. You can see the last update time at the bottom of the report dashboard sidebar.
 
 ### Report permissions
 
-In the dashboard sidebar, you can only see report data that's available to you based on your [role](/docs/collaborating-in-postman/roles-and-permissions/). You aren't able to view reports for entities you don't have permission to access.
+You can only see report data that's available to you based on your [role](/docs/collaborating-in-postman/roles-and-permissions/). If you don't have role-based permission to access an entity, you won't have access to that data in the relevant reports.
+
+![Report message that restricted data is hidden](https://assets.postman.com/postman-docs/reports-restricted-data-v9.jpg)
 
 ## Exploring reports and report data
 
@@ -77,13 +79,13 @@ To explore data in a report:
 Reports have the following limitations:
 
 * You can't download or export your reports.
-* Postman reports only track data sent through the request builder, and not through Newman, collection runs, or monitors. Failed test runs do generate reports using collection runs.
+* Postman reports only track data sent through the request builder, and not data sent through [Newman](/docs/running-collections/using-newman-cli/command-line-integration-with-newman/), [collection runs](/docs/running-collections/intro-to-collection-runs/), or [monitors](/docs/monitoring-your-api/intro-monitors/). However, failed test runs do generate reports using collection runs.
 * You can't view the details of entities you don't have access to.
 
 If you don't see any data in your reports, or your data is incomplete (for example, you have empty response times or sizes) this may be due to one of the following reasons:
 
 * The data hasn't refreshed yet. Check after four to six hours.
 * You might not have linked a collection to your API.
-* You might not have sent a request. Or you might have executed requests from monitoring, collection runs, or Newman, but not from the request builder in Postman.
+* You might not have sent a request. Or you might have executed requests from [monitoring](/docs/monitoring-your-api/intro-monitors/), [collection runs](/docs/running-collections/intro-to-collection-runs/), or [Newman](/docs/running-collections/using-newman-cli/command-line-integration-with-newman/), but not from the request builder in Postman.
 * You might not have enabled __Save Responses__ in the __History__ tab in Postman.
 * Postman isn't syncing correctly. Check your network connection and visit the [Postman Status Page](https://status.postman.com) to see if there is a current outage.

@@ -19,7 +19,7 @@ contextual_links:
 
 > [__Reports are available on all Postman Enterprise plans.__](https://www.postman.com/pricing)
 
-**Team details reports** show team-level metrics, including team overview, team size, billing details, team activity, and workspaces. This section has three reports:
+The **Team details** dashboard shows team-level metrics, including team overview, team size, billing details, team activity, and workspaces. This section has three reports:
 
 * [Team details](#team-details)
 * [Team activity](#team-activity)
@@ -33,22 +33,24 @@ The **Team details** report shows an overview of your team and members, includin
 * **Team created on** - The date when the team was created.
 * **Plan type** - The [Postman plan](https://www.postman.com/pricing/) your team subscribes to.
 * **Total team members** - The current number of user accounts in the team.
-* **Team members over time** - The size of the team over time.
-* **Team roles** - The number of team members with Admin, Billing, Community Manager, or Developer roles.
+* **Team members over time** - The size of the team in the reporting period.
+* **Team roles** - The number of team members with Admin, Billing, Community Manager, or Developer [roles](/docs/collaborating-in-postman/roles-and-permissions/).
 * **SSO identity provider** - Any [single sign-on provider](/docs/administration/sso/intro-sso/) you have configured for team members to access their Postman accounts.
 * **Billing Cycle** - Your account's billing cycle (annual or monthly).
 * **Renewal Date** - The date your current Postman plan will renew.
 
 ## Team activity
 
-The **Team activity** report gives more detail on your team members' activity, including:
+The **Team activity** report gives more details about your team members' activity, including:
 
 * **Total team members** - The current number of user accounts in the team.
 * **Active members over time** - The number of team members who used Postman at least once on that day.
-* **Team Activity** - The total number of user actions in a workspace over time. These actions include:
-    * Creating, editing, deleting, and sending requests
-    * Creating, editing, and deleting collections, APIs, environments, mocks, and monitors
-* **Entities created over time** - The number of entities created over time, including APIs, collections, environments, mocks, and monitors.
+* **Team Activity** - The total number of user actions in a workspace in the reporting period. These actions include:
+
+    * Creating, editing, deleting, and sending requests.
+    * Creating, editing, and deleting collections, APIs, environments, mocks, and monitors.
+
+* **Entities created over time** - The number of Postman entities created in the reporting period, including APIs, collections, environments, mocks, and monitors.
 * **Updates on entities over time** - Changes made to entities in the reporting period.
 
 ## Resource usage
@@ -56,10 +58,12 @@ The **Team activity** report gives more detail on your team members' activity, i
 The **Resource usage** report gives more information on how your team is using Postman resources, including:
 
 * **Team slots** - Billed seat usage across your team.
+
     * **Billed slots** - The used billed seats compared to unused billed seats for your team.
     * **Unbilled slots** - The number of seats that will be billed at the next [auto-flex renewal](/docs/administration/billing/#utilizing-auto-flex).
     * **Used slots over time** - The number of billed seats and unbilled seats used by your team in the reporting period.
-* **Mock server calls** - Mock server calls made, [overage calls](/docs/administration/billing/#managing-add-ons), and mock calls over time.
-* **Monitoring server calls** - Monitoring calls made, [overage calls](/docs/administration/billing/#managing-add-ons), and monitoring calls over time.
+
+* **Mock server calls** - Mock server calls made, [overage calls](/docs/administration/billing/#managing-add-ons), and mock calls in the reporting period.
+* **Monitoring server calls** - Monitoring calls made, [overage calls](/docs/administration/billing/#managing-add-ons), and monitoring calls in the reporting period.
 * **Postman API calls** - The number of API calls made to the Postman API.
 * **Integrations** - Integrations created, integrations on entities, and integrations by type.

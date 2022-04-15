@@ -27,4 +27,4 @@ The **Security Audit** report provides the following information for the past 30
 * __Collections with exposed tokens__ - The total number of collection scans that have an exposed token.
 * __Total exposed tokens__ - The total number of tokens that are exposed across all published collections.
 * __Exposed tokens by type__ - The number of exposed tokens by type.
-* __Exposed tokens over time__ - The number of exposed tokens over time.
+* __Exposed tokens over time__ - The number of exposed tokens in the reporting period.

@@ -25,7 +25,7 @@ The [**Reports Summary**](https://go.postman.co/reports/summary) dashboard shows
 
 To be included in this metric, an API must have [**Team** or **Public** visibility](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#changing-workspace-visibility).
 
-* **Overview** - The total number of APIs, plus a breakdown of the number of APIs with mocks, monitors, tests, and documentation, and the number of APIs on the Private and Public API Networks.
+* **Overview** - The total number of APIs, plus a breakdown of the number of APIs with mocks, monitors, tests, and documentation, and the number of APIs on your team's [Private API Network](/docs/collaborating-in-postman/adding-private-network/) and the [Public API Network](/docs/getting-started/exploring-public-api-network/).
 * **API Response time for team and public workspaces** - The average response time in milliseconds across all your APIs in the reporting period.
 * **API test results** - The number of successful and failed test runs for your APIs in the reporting period.
 * **API uptime** - The number of successful responses (returning 1xx or 2xx) compared to failed responses (returning 3xx, 4xx, or 5xx) for your APIs in the reporting period.
@@ -35,8 +35,8 @@ To be included in this metric, an API must have [**Team** or **Public** visibili
 ## How is your team using Postman?
 
 * **Team activity** - The total number of user actions in a workspace in the reporting period. These actions include:
-    * Creating, editing, deleting, and sending requests
-    * Creating, editing, and deleting collections, APIs, environments, mocks, and monitors
+    * Creating, editing, deleting, and sending requests.
+    * Creating, editing, and deleting collections, APIs, environments, mocks, and monitors.
 * **Resource usage** - The number of used and unused integrations, mock calls, monitor requests, and Postman API calls across your team, calculated as the amount that have been used or not used from your total resource limit.
 
     <img src="https://assets.postman.com/postman-docs/reporting-summary-team-use.jpg" alt="reports data point" width="500px" />
