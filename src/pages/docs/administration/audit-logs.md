@@ -123,7 +123,7 @@ Postman logs events related to your [team](#team), [users](#users), and [billing
 | Successful Login via SSO | A user logged in successfully via SSO. |
 | Reset Password | A user reset their password. |
 | Changed Password | A user changed their password. |
-| User Session Revoked | A user revoked their session(s). |
+| User Session Revoked | A user revoked their session. |
 | User Logout | A user logged out. |
 
 ### Billing
