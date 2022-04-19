@@ -125,7 +125,7 @@ To connect a repository:
 
 When you are connected to an external Git repo, the repo dropdown list displays your current develop branch and indicates if your API changes in Postman are ahead of or behind the files in your external repo. It shows links to the connected branch and repo, and a date when changes were last pulled to Postman or pushed to the Git repo. It also contains commands to pull, commit and push, switch branches, and delete the integration.
 
-<img src="https://assets.postman.com/postman-docs/api-builder-git-integration-dropdown.jpg" alt="API Builder source control" width="250px" />
+<img src="https://assets.postman.com/postman-docs/api-builder-git-integration-dropdown-v9-17.jpg" alt="API Builder source control" width="250px" />
 
 #### Pulling changes
 
