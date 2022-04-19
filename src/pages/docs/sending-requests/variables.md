@@ -311,7 +311,7 @@ You can use variables in request URLs, parameters, headers, authorization, body,
 
 [![Variables in Request](https://assets.postman.com/postman-docs/var-auth-v8.jpg)](https://assets.postman.com/postman-docs/var-auth-v8.jpg)
 
-When you hover over a variable you can see an overview of its current status. As you type variables into your requests, Postman prompts you with any that are currently defined.
+When you hover over a variable you can see an overview of its current status. As you add variables to your requests, Postman prompts you with any that are currently defined.
 
 ![Variable Prompt](https://assets.postman.com/postman-docs/var-prompt.jpg)
 

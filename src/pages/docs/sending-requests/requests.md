@@ -118,7 +118,7 @@ When you start typing in the URL input field, Postman will present a dropdown li
 
 > Postman will automatically add `http://` to the start of your URL if you don't specify a protocol.
 
-You can optionally type _query_ parameters into the URL field, or can [enter them in the Params tab](#sending-parameters). If your request uses _path_ parameters, [you can enter them directly into the URL field](#sending-parameters).
+You can optionally enter _query_ parameters into the URL field, or you can [enter them in the Params tab](#sending-parameters). If your request uses _path_ parameters, [you can enter them directly into the URL field](#sending-parameters).
 
 > You can use [next generation URL encoding](#encoding-your-request-urls) in your requests.
 
@@ -233,7 +233,7 @@ Once your auth and other request details are set up, select __Send__ to run your
 
 ### Configuring request headers
 
-Some APIs require you to send particular headers along with requests, typically to provide additional metadata about the operation you are performing. You can set these up in the __Headers__ tab. Enter any key-value pairs you need and Postman will send them along with your request. As you type, Postman will prompt you with common options you can use to autocomplete your setup, such as `Content-Type`.
+Some APIs require you to send particular headers along with requests, typically to provide additional metadata about the operation you are performing. You can set these up in the __Headers__ tab. Enter any key-value pairs you need and Postman will send them along with your request. As you enter text, Postman prompts you with common options you can use to autocomplete your setup, such as `Content-Type`.
 
 ![Header Types](https://assets.postman.com/postman-docs/presets-v9.jpg)
 

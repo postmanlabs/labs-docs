@@ -44,7 +44,7 @@ If you don't already have a [New Relic account](https://newrelic.com/), you'll n
     <img alt="Add New Relic monitor integration" src="https://assets.postman.com/postman-docs/new-relic-add-integration-v9-6.jpg" width="1124px">
 
 1. Enter a **Nickname** for this integration.
-1. Type or select the name of the workspace that contains the monitor you want to use.
+1. Select the name of the workspace that contains the monitor you want to use, or enter a new one.
 1. Select the monitor you want to use.
 1. For **New Relic API key**, enter the Ingest License key you copied from New Relic.
 1. Select a New Relic region. New Relic offers US and EU region instances. See the [New Relic data center documentation](https://docs.newrelic.com/docs/using-new-relic/welcome-new-relic/get-started/our-eu-us-region-data-centers) for more information.

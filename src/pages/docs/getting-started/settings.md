@@ -92,8 +92,8 @@ When you send a form-data or binary file with a request body, Postman saves a pa
 * **Font Size (`px`):** Enter the font size in pixels to use for code text.
 * **Indentation count:** Enter the number of indentation characters to use for each code level.
 * **Indentation type:** Select the indentation character type to use (**Space** or **Tab**).
-* **Auto close brackets:** Turn on this toggle to automatically add a closing bracket when you type an opening bracket.
-* **Auto close quotes:** Turn on this toggle to automatically add a closing quotation mark when you type an opening quotation mark.
+* **Auto close brackets:** Turn on this toggle to automatically add a closing bracket when you enter an opening bracket.
+* **Auto close quotes:** Turn on this toggle to automatically add a closing quotation mark when you enter an opening quotation mark.
 
 ## Themes
 

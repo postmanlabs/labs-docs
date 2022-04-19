@@ -83,7 +83,7 @@ To author a description using rich text editing tools, select the **Postman edit
 
 <img alt="Postman editor table shortcuts" src="https://assets.postman.com/postman-docs/documentation-wysiwyg-table-tool-v9-1.jpg" width="560px">
 
-**The Postman editor understands Markdown syntax.** If you're comfortable using Markdown, type any standard [Markdown code](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) to quickly format text. For example, type `#` followed by a space to start a new heading, or type `---` to add a horizontal line. To reuse documentation that's already written in Markdown, just copy the existing Markdown code and paste it into the editor to instantly format it.
+**The Postman editor understands Markdown syntax.** If you're comfortable using Markdown, enter any standard [Markdown code](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) to quickly format text. For example, enter `#` followed by a space to start a new heading, or enter `---` to add a horizontal line. To reuse documentation that's already written in Markdown, copy the existing Markdown code and paste it into the editor to instantly format it.
 
 > If you copy content from the Postman editor, the content will retain its formatting when you paste it into another application like a word processor or an email.
 
@@ -105,7 +105,7 @@ As you work, select the **Preview** tab to see how your documentation will appea
 
 ### Adding descriptions to parameters and headers
 
-Add descriptions to parameters and headers to help others understand and use the requests in your collection. Open a request and type the description in the box next to the key-value pair.
+Add descriptions to parameters and headers to help others understand and use the requests in your collection. Open a request and enter the description in the box next to the key-value pair.
 
 ![Parameter descriptions](https://assets.postman.com/postman-docs/documentation-parameter-descriptions.jpg)
 
@@ -133,7 +133,7 @@ Examples are paired requests and responses that demonstrate your endpoints in ac
 
 Use links to direct users to your repository, web site, or other online resources.
 
-* To add a link using the Postman editor, select the **Link** tool. Paste or type the URL and the link text, and then select **Add**. (If you need to change the link later, select it and then select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px">.)
+* To add a link using the Postman editor, select the **Link** tool. Paste or enter the URL and the link text, and then select **Add**. (If you need to change the link later, select it and then select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px">.)
 
     <img alt="Adding a link" src="https://assets.postman.com/postman-docs/documentation-link-tool-v9-1.jpg" width="560px">
 
@@ -147,7 +147,7 @@ Use links to direct users to your repository, web site, or other online resource
 
 Images liven up your documentation and help your ideas come across more clearly. Your image must be hosted online before you can add it to your documentation.
 
-* To add an image using the Postman editor, select the **Image** tool. Paste or type the image URL, and then select **Add**. (If you need to change the image later, select it and then select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px">.)
+* To add an image using the Postman editor, select the **Image** tool. Paste or enter the image URL, and then select **Add**. (If you need to change the image later, select it and then select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px">.)
 
     <img alt="Adding an image" src="https://assets.postman.com/postman-docs/documentation-image-tool-v9-1.jpg" width="560px">
 

@@ -160,7 +160,7 @@ Prior to making a connection, you can also add events in the **Events** tab abov
 
 ## Using variables in requests and messages
 
-You can use Postman variables in the URL of a WebSocket connection or the body of a message. For example, you could create a variable named `my_host`, set the value to `example.com` and then use a URL of `ws://{{my_host}}/api/example`. If you type `{{` in either the URL field or message editor, you can autocomplete your variables.
+You can use Postman variables in the URL of a WebSocket connection or the body of a message. For example, you could create a variable named `my_host`, set the value to `example.com` and then use a URL of `ws://{{my_host}}/api/example`. If you enter `{{` in either the URL field or message editor, you can autocomplete your variables.
 
 See [Using variables](/docs/sending-requests/variables/) for more information on how to use variables.
 
