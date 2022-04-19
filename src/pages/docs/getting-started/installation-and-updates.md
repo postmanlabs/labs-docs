@@ -243,7 +243,7 @@ Some known errors are as follows:
 
 ### Update not available
 
-If you are using Postman for Linux, and installed the app with the Ubuntu Software Center or Snap Store, you may not see the __Check for updates__ option. This is because the updates are handled by the store, which should automatically update Postman on a regular cadence.
+If you are using Postman for Linux, and installed the app with the Ubuntu Software Center or Snap Store, you may not see the __Check for updates__ option. This is because the updates are handled by the store, which automatically updates Postman on a regular cadence.
 
 ## Next steps
 

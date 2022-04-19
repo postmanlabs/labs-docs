@@ -103,7 +103,7 @@ When you make a workspace public, Postman sends in-app and email notifications t
 
 ## Inviting collaboration on a public workspace
 
-An informative and inviting public workspace can help increase adoption of your APIs. To invite collaboration from other users on your public workspace, you should have:
+An informative and inviting public workspace can help increase adoption of your APIs. To invite collaboration from other users on your public workspace, you need to have:
 
 * A complete [public team profile](#enabling-your-team-profile).
 * A complete [workspace overview](#editing-public-workspace-details), including a name, summary, and description.

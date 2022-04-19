@@ -335,9 +335,9 @@ pm.test("Test array properties", () => {
       (m => m.type === "notification");
   pm.expect(notificationSettings)
     .to.be.an("object", "Could not find the setting");
-    //detail array should include "sms"
+    //detail array must include "sms"
   pm.expect(notificationSettings.detail).to.include("sms");
-    //detail array should include all listed
+    //detail array must include all listed
   pm.expect(notificationSettings.detail)
     .to.have.members(["email", "sms"]);
 });

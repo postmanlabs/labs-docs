@@ -78,7 +78,7 @@ To visualize your response data, add code to the __Pre-request__ or __Tests__ [s
 
 ### Adding visualizer code
 
-The `pm.visualizer.set()` method accepts a [Handlebars](https://handlebarsjs.com/) template string as its first parameter. The second parameter should be the data you want to use the template to display. Read on to learn how you can build a Handlebars template and pass data to it.
+The `pm.visualizer.set()` method accepts a [Handlebars](https://handlebarsjs.com/) template string as its first parameter. The second parameter is the data you want to use the template to display. Read on to learn how you can build a Handlebars template and pass data to it.
 
 ### Rendering HTML
 

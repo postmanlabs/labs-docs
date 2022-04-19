@@ -70,7 +70,7 @@ If you want to test the number conversion SOAP API used in the last section, ent
 </soap:Envelope>
 ```
 
-Your request body must include the SOAP `Envelope`, `Header`, and `Body` tags as required by the endpoint, as well as any namespaces. The data should include the name of the operation, together with any values you need to post to the service.
+Your request body must include the SOAP `Envelope`, `Header`, and `Body` tags as required by the endpoint, as well as any namespaces. The data needs to include the name of the operation, together with any values you need to post to the service.
 
 ## Setting your request headers
 

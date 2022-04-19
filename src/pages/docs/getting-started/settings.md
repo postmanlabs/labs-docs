@@ -111,7 +111,7 @@ Some shortcuts aren't available in Postman for Web. Also, shortcut modifier keys
 
 Use the **Data** tab to request a bulk export of Postman data or to import data. To begin the export process, select **Export Data**. You can choose to export your collections, environments, or both. You'll receive an email when your dump file is ready to download.
 
-Importing a dump file may overwrite your existing collections and environments, so use caution. You should always make a backup before importing files. Learn more about [importing and exporting data](/docs/getting-started/importing-and-exporting-data/).
+Importing a dump file may overwrite your existing collections and environments, so use caution. Always make a backup before importing files. Learn more about [importing and exporting data](/docs/getting-started/importing-and-exporting-data/).
 
 ## Add-ons
 
