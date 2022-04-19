@@ -32,7 +32,7 @@ warning: false
 
 The _Collection Runner_ enables you to run the API requests in a collection in a specified sequence. It logs your request [test results](/docs/writing-scripts/test-scripts/) and can use [scripts](/docs/writing-scripts/intro-to-scripts/) to pass data between requests and alter the request workflow.
 
-You can configure the Collection Runner to meet your development needs. You can run collections using a specific environment, and can pass data files into a run. Collection runs allow you to automate your API testing, and you can schedule runs using [monitors](/docs/monitoring-your-api/intro-monitors/). You can also integrate collection runs to your CI/CD pipeline using [Newman](/docs/running-collections/using-newman-cli/command-line-integration-with-newman/), a Postman tool that enables you to run and test collections directly from the command line.
+You can configure the Collection Runner to meet your development needs. You can run collections using a specific environment, and can pass data files into a run. Collection runs allow you to automate your API testing, and you can schedule runs using [monitors](/docs/monitoring-your-api/intro-monitors/). You can also integrate collection runs with your CI/CD pipeline using [Newman](/docs/running-collections/using-newman-cli/command-line-integration-with-newman/), a Postman tool that enables you to run and test collections directly from the command line.
 
 ![Collection Runner results page overview](https://assets.postman.com/postman-docs/collection-runner-overview-v9.jpg)
 
@@ -48,12 +48,12 @@ You can configure the Collection Runner to meet your development needs. You can 
 
 To configure a collection run:
 
-1. Select the collection you want to run.
+1. Select **Collections** in the sidebar and select the collection you want to run.
 1. On the overview tab, select <img alt="Runner icon" src="https://assets.postman.com/postman-docs/icon-runner-v9.jpg#icon" width="16px"> **Run**.
 
     <img alt="Select Run from the collection overview" src="https://assets.postman.com/postman-docs/collection-runner-select-run-v9.jpg" width="350px"/>
 
-    > You can also select <img alt="Runner icon" src="https://assets.postman.com/postman-docs/icon-runner-v9.jpg#icon" width="16px"> __Runner__ from the Postman footer and drag a collection over from __Collections__ or __History__ in the sidebar.
+    > You can also select <img alt="Runner icon" src="https://assets.postman.com/postman-docs/icon-runner-v9.jpg#icon" width="16px"> __Runner__ from the Postman footer and drag a collection from __Collections__ or __History__ in the sidebar.
 
 1. Before you start a collection run, you can choose optional configuration parameters:
 
@@ -92,19 +92,19 @@ To return to the overview of the run, select __View Results__.
 
 If your collection has tests, you will see whether each request passed or failed. You can also filter on each using the __Passed__ and __Failed__ tabs at the top. If any tests in a request script fail during the collection run, the whole request fails.
 
-> If you check __Save responses__ when you start a collection run, you will see the responses in the run results.
+> If you select __Save responses__ when you start a collection run, you will see the responses in the run results.
 
 ### Viewing iterations
 
-If you set an iteration number for the collection run, you can see the overview each iteration by selecting one from the list on the right.
+If you set an iteration number for the collection run, you can see the overview for each iteration by selecting one from the list on the right.
 
 ## Sharing collection runs
 
-You can share collection run results with other people by exporting them from the Collection Runner.
+You can share collection run results with others by exporting the results from the Collection Runner.
 
 To export a collection run:
 
-1. Open the collection run in the __Runner__. You can also access the collection run using __History__ in the sidebar if you don't still have the run open.
+1. Open the collection run in the __Runner__. You can also access the collection run using __History__ in the sidebar if you don't have the run open.
 1. Select __Export Results__ at the top right to download the run.
 1. Choose a location to save your downloaded collection run, then select **Save**.
 
