@@ -184,7 +184,7 @@ To use OAuth 1.0:
 
 1. In the __Authorization__ tab for a request, select __OAuth 1.0__ from the __Type__ dropdown list.
 
-1. Select a __Signature Method__ from the drop-down list. This will determine which parameters to include with your request. Postman supports `HMAC-SHA1`, `HMAC-SHA256`, `HMAC-SHA512`, `RSA-SHA1`, `RSA-SHA256`, `RSA-SHA512`, and `PLAINTEXT`.
+1. Select a __Signature Method__ from the dropdown list. This will determine which parameters to include with your request. Postman supports `HMAC-SHA1`, `HMAC-SHA256`, `HMAC-SHA512`, `RSA-SHA1`, `RSA-SHA256`, `RSA-SHA512`, and `PLAINTEXT`.
 
    * If your server requires an `HMAC` or `PLAINTEXT` signature, Postman will provide __Consumer Key__, __Consumer Secret__, __Access Token__, and __Token Secret__ fields.
    * If you're using an `RSA` signature, Postman will present __Consumer Key__, __Access Token__, and __Private Key__ inputs.
@@ -299,7 +299,7 @@ On the **Configuration Options** tab:
 * __Client Secret:__ The client secret given to you by the API provider.
 * __Scope:__ The scope of access you are requesting, which may include multiple space-separated values.
 * __State:__ An opaque value to prevent cross-site request forgery.
-* __Client Authentication:__ A dropdown list: send a Basic Auth request in the header, or client credentials in the request body. After upgrading to a new version, change the value in this dropdown menu to avoid problems with client authentication.
+* __Client Authentication:__ Send a Basic Auth request in the header, or client credentials in the request body. After upgrading to a new version, change the value here to avoid problems with client authentication.
 
 On the **Advanced Options** tab:
 
@@ -352,7 +352,7 @@ The official AWS Signature documentation provides more detail:
 
 1. In the __Authorization__ tab for a request, select __AWS Signature__ from the __Type__ dropdown list.
 
-1. Select the location where Postman will append your AWS auth details using the __Add authorization data to__ drop-down, choosing the request headers or URL.
+1. Select the location where Postman will append your AWS auth details using the __Add authorization data to__ dropdown list, choosing the request headers or URL.
 
     * If you select __Request Headers__, Postman will add `Authorization` and `X-Amz-` prefixed fields in the __Headers__ tab.
     * If you select __Request URL__, Postman will add the auth details in __Params__ with keys prefixed `X-Amz-`.

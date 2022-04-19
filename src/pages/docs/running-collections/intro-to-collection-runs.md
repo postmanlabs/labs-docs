@@ -62,7 +62,7 @@ By default your requests will run in the sequence they're listed in the collecti
 
 > You can alter the flow of execution from your request scripts using `setNextRequest` to [create workflows](/docs/running-collections/building-workflows/).
 
-If you want your collection to run against an environment, make the environment active by selecting it from the drop-down list at the top right of Postman, or from __Environments__ on the left.
+If you want your collection to run against an environment, select it using the environment selector at the top right of Postman. You can also select __Environments__ in the sidebar, then select the environment you want to use.
 
 You can optionally choose config parameters for your collection run:
 

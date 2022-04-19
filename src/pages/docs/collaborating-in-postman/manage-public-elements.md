@@ -41,7 +41,7 @@ To manage public elements, you need to have a Community Manager role in a Postma
 
 <img alt="Manage public elements" src="https://assets.postman.com/postman-docs/manage-public-elements.jpg"/>
 
-You can access manage public elements by navigating to the **Team** dropdown menu in the upper right corner and selecting **Manage Public Elements**.
+> You can also manage public elements by selecting **Team** in the header, then selecting **Manage Public Elements**.
 
 <img alt="Manage public elements from team dropdown" src="https://assets.postman.com/postman-docs/manage-public-elements-option-from-team-dropdown.jpg" height="400px"/>
 

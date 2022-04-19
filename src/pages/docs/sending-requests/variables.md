@@ -163,7 +163,7 @@ You can also define variables at any scope in the request builder:
 
     <img src="https://assets.postman.com/postman-docs/set-as-a-new-var.jpg" alt="Set as variable" width="300px"/>
 
-1. Enter a **Name**, confirm the **Value** is correct, and select a scope from the drop-down list. Select **Set variable**.
+1. Enter a **Name**, confirm the **Value** is correct, and select a scope. Select **Set variable**.
 
     <img src="https://assets.postman.com/postman-docs/set-as-var-modal.jpg" alt="Set as variable" width="450px"/>
 
