@@ -95,7 +95,7 @@ You will receive daily and weekly summaries of your active monitors by email. If
 
 ### Using retry on failure
 
-To try running a monitor again after a failure or error, select the **Retry if run fails** option. If this option is enabled, Postman will automatically run the failed request again. This can help to avoid false alarms due to transient issues. Postman will still log the initial failure but will only notify you if the run continues to fail.
+To run a monitor again after a failure or error, select the **Retry if run fails** option. If this option is enabled, Postman will automatically run the failed request again. This can help to avoid false alarms due to transient issues. Postman will still log the initial failure but will only notify you if the run continues to fail.
 
 > Enabling this option may affect your [monitor usage](/docs/monitoring-your-api/monitor-usage/#viewing-monitor-usage). For example, if a collection of three requests fails on the first request, but is successful on retrying, the run will count as four total requests.
 

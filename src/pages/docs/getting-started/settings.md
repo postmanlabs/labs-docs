@@ -135,7 +135,7 @@ The **About** tab displays the current version of Postman, along with links to h
 
 ## Hardware acceleration
 
-Postman takes advantage of your computer's built-in graphics hardware to speed up the rendering of onscreen graphics. Sometimes your computer's specific GPU, drivers, or operating system may cause issues with hardware acceleration. If you see screen artifacts or other glitches, try disabling hardware acceleration.
+Postman takes advantage of your computer's built-in graphics hardware to speed up the rendering of onscreen graphics. Sometimes your computer's specific GPU, drivers, or operating system may cause issues with hardware acceleration. If you see screen artifacts or other glitches, turning off hardware acceleration might solve the problem.
 
 To activate or deactivate hardware acceleration in Postman:
 

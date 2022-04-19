@@ -159,7 +159,7 @@ From Postman for Web, you can select the agent you would like to use for your re
 
 <img alt="Select agent" src="https://assets.postman.com/postman-docs/select-agent-for-requests.gif">
 
-> If you try to send a request and it isn't successful because the agent isn't selected, you will see a link in the response area that you can select to switch to the agent and try your request again.
+> If you send a request and it isn't successful because the agent isn't selected, you will see a link in the response area that you can select to switch to the agent and send your request again.
 
 ### Web limitations
 

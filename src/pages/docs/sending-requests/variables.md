@@ -63,7 +63,7 @@ _Variables_ enable you to store and reuse values in Postman. By storing a value 
 
 ## Variables quick start
 
-To try out a variable:
+To create and use a variable:
 
 1. Select the environment quick look icon <img alt="Quick Look icon" src="https://assets.postman.com/postman-docs/eye.jpg#icon" width="16px"> at the top right of Postman.
 1. Next to **Globals**, select __Edit__.
@@ -74,7 +74,7 @@ To try out a variable:
     <img alt="View the variable value and scope" src="https://assets.postman.com/postman-docs/variable-quick-start-hover.jpg" width="525px"/>
 
 1. Select __Send__ and send the request. In the response, you'll see that Postman sent the variable value to the API.
-1. Try changing the value in the Environment quick look and sending the request again.
+1. Change the value in the Environment quick look and send the request again.
 
 ## Understanding variables
 

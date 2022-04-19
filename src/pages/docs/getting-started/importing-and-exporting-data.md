@@ -93,7 +93,7 @@ You can import Postman data you exported earlier, including collections, environ
 
 ### Converting Postman collections from v1 to v2
 
-Postman no longer supports the collection v1 format and will return an error if you try to import a collection in this format.
+Postman no longer supports the collection v1 format and will return an error if you import a collection in this format.
 
 You can convert your collection's format from v1 to v2 to import it into Postman:
 

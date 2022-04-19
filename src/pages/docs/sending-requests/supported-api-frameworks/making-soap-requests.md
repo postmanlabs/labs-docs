@@ -40,7 +40,7 @@ The following steps show how to make a SOAP request in Postman.
 
 <img src="https://assets.postman.com/postman-docs/soap-method-v9.jpg" alt="SOAP method" width="500px"/>
 
-As an example, try the following endpoint URL:
+As an example, use the following endpoint URL:
 
 ```xml
 https://www.dataaccess.com/webservicesserver/NumberConversion.wso
@@ -93,4 +93,4 @@ If you are following along with the number conversion SOAP API example, you need
 
 ## Next steps
 
-Check out the [Public SOAP APIs](https://www.postman.com/cs-demo/workspace/public-soap-apis/overview) collection for sample requests you can try in Postman.
+Check out the [Public SOAP APIs](https://www.postman.com/cs-demo/workspace/public-soap-apis/overview) collection for sample requests you can send in Postman.
