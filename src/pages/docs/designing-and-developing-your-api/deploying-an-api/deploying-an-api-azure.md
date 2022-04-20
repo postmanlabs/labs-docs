@@ -13,12 +13,13 @@ contextual_links:
 
 ---
 
-[Azure API Management](https://azure.microsoft.com/en-us/services/api-management/) enables developers to deploy API gateways for APIs hosted in Microsoft Azure, other cloud platforms, or on-premises. Once connected to Azure API Management, you can view your API deployment status and history from within Postman. You can also export your OpenAPI schema from Postman to Azure API Management.
+[Azure API Management](https://azure.microsoft.com/en-us/services/api-management/) enables developers to deploy API gateways for APIs hosted in Microsoft Azure, other cloud platforms, or on-premises. Once connected to Azure API Management, you can view your API deployment status and history from within Postman. You can also export your OpenAPI schema from Postman to Azure API Management, or import a schema from Azure to use it in Postman.
 
 ## Contents
 
 * [Connecting to Azure API Management](#connecting-to-azure-api-management)
 * [Viewing Azure API deployments](#viewing-azure-api-deployments)
+* [Importing a schema from Azure](#importing-a-schema-from-azure)
 * [Exporting your API to Azure API Management](#exporting-your-api-to-azure-api-management)
 
 ## Connecting to Azure API Management
@@ -40,6 +41,13 @@ To connect to Azure API Management in Postman:
 
 1. To connect more Azure API Management services, select **+ Add Service**. To remove a service, select **Remove**.
 1. When you're finished adding services, select **Connect**.
+
+    <img alt="Azure API Management setup" src="https://assets.postman.com/postman-docs/azure-apim-setup-v9-15.jpg" width="531px"/>
+
+1. If you want, you can choose to import a schema from Azure API Management:
+
+    * To import a schema, select the **Schema type** (OpenAPI 2.0 or OpenAPI 3.0). Then select the **Azure service** to import the schema from and select **Import**. _Importing a schema will replace your current API schema or add a new schema if one doesn't exist._
+    * If you don't want to import a schema, select **Maybe later**. You can [import a schema](#importing-a-schema-from-azure) at any time after connecting to Azure API Management.
 
     <img alt="Azure API Management setup" src="https://assets.postman.com/postman-docs/azure-apim-setup-v9-15.jpg" width="531px"/>
 
@@ -69,11 +77,22 @@ Select a service to view more details about the connected Azure API version.
 From the service details view, you can take the following actions:
 
 * Use the dropdown list to view a different Azure API Management service instance.
-* To export your schema, select **Export API**. Learn more about [exporting your API](#exporting-your-api-to-azure-api-management).
+* To export your schema to Azure, select **Export API**. Learn more about [exporting your API](#exporting-your-api-to-azure-api-management).
+* To import a schema from Azure, select **Import Schema**. Learn more about [importing a schema](#importing-a-schema-from-azure).
 * To see the latest deployment status, select the refresh icon <img alt="Refresh icon" src="https://assets.postman.com/postman-docs/icon-refresh-v9-5.jpg#icon" width="14px">.
 * To edit or delete the connection to Azure API management, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px">.
 * To open the gateway URL of the API management service, select the **Gateway URL** link.
 * To open the developer portal for the API management service, select **View Developer Portal**.
+
+## Importing a schema from Azure
+
+You can import a schema from a connected Azure API Management service to your API in Postman. _Importing a schema will replace your current API schema or add a new schema if one doesn't exist._
+
+1. Select **APIs** in the sidebar, select an API and version, and then select the **Deployments** tab.
+1. Select a connected service in the list, and then select **Import Schema**.
+1. Select the **Schema type** (OpenAPI 2.0 or OpenAPI 3.0).
+1. Select the **Azure service** to import the schema from.
+1. Select **Import**.
 
 ## Exporting your API to Azure API Management
 
