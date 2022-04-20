@@ -139,7 +139,7 @@ securityDefinitions:
 
 | Severity | Issue description | Possible fix |
 | -------- | ----------------- | ------------ |
-| High | If the global security field isn't defined, the API doesn't require any authentication by default. Anyone can access the API operations that do not have a security field defined. | The security field need to be defined in the schema. |
+| High | If the global security field isn't defined, the API doesn't require any authentication by default. Anyone can access the API operations that do not have a security field defined. | The security field needs to be defined in the schema. |
 
 **Resolution:**
 

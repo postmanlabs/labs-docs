@@ -59,7 +59,7 @@ Keeping these various configurable elements in mind, let’s take a look at the 
 
    * Match the input path with the example path exactly as it is. The max value is set as the matching threshold.
    * Strip trailing slashes and match the input path with the example path. The threshold is reduced by a certain value, `n`.
-   * Lowercase the input path and the example path. The threshold is reduced by a greater value, `n + m`.
+   * Use lowercase for the input path and the example path. The threshold is reduced by a greater value, `n + m`.
    * Strip out alphanumeric IDs from the input path and the example path. The threshold is reduced further, `n + 2m`.
    * If all steps fail, this saved example is not an eligible response.
    * Parameters (such as `{{url}}/path?status=pass`) are also considered when matching the URLs and can be used to determine which example to surface.

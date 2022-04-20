@@ -87,7 +87,7 @@ This example shows you how to integrate Postman with [Travis CI](https://travis-
 
     Because Travis CI doesn’t know where Newman is located, you need to update the `PATH`. In this example, the `newman` tool is located in the `.bin` folder which is in the `node_modules` folder.
 
-    For this example, your `.travis.yml` file would look like the following:
+    For this example, your `.travis.yml` file will look like the following:
 
     ```bash
     language: node_js
