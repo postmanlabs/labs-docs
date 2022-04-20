@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Foother renders correctly 1`] = `
+exports[`Footer renders correctly 1`] = `
 <footer>
   <section
     className="pb-5 section"
