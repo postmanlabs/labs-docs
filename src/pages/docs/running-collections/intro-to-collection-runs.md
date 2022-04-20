@@ -52,7 +52,7 @@ To run a collection, open a collection and select __Run__ on the overview tab.
 
 [![Collection Run](https://assets.postman.com/postman-docs/collection-run-button-v8.jpg)](https://assets.postman.com/postman-docs/collection-run-button-v8.jpg)
 
-You can also select __Runner__ at the bottom right of Postman and drag a collection over from __Collections__ or __History__ on the left.
+You can also select <img alt="Runner icon" src="https://assets.postman.com/postman-docs/icon-runner-v9.jpg#icon" width="16px"> __Runner__ from the Postman footer and drag a collection over from __Collections__ or __History__ on the left.
 
 <img alt="Run history" src="https://assets.postman.com/postman-docs/run-history-v8.jpg" width="350px"/>
 
@@ -92,13 +92,13 @@ For additional details such as viewing log statements, open the __Console__ from
 
 [![Runner console](https://assets.postman.com/postman-docs/run-console-v8.jpg)](https://assets.postman.com/postman-docs/run-console-v8.jpg)
 
-You can export test results and view the __Run Summary__ using the buttons at the top right.
+To export test results, select **Export Results**. To view details about the run, select __View Summary__.
 
 [![Runner result summary](https://assets.postman.com/postman-docs/run-overview-v8.jpg)](https://assets.postman.com/postman-docs/run-overview-v8.jpg)
 
 The summary also lists a column for each iteration of your collection run so that you can see test output for the whole run at a glance.
 
-To return to the overview of the run, select __Run Results__.
+To return to the overview of the run, select __View Results__.
 
 ## Sharing collection runs
 

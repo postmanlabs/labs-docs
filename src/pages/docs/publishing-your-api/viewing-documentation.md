@@ -61,11 +61,11 @@ You can view the documentation for any collection that you created or for collec
 
 To view documentation for a collection:
 
-1. Select **Collections** in the left sidebar, and then select a collection, folder, or request.
+1. Select **Collections** in the sidebar, and then select a collection, folder, or request.
 
     > You can also search for collections on the [Public API Network](https://www.postman.com/explore/collections).
 
-1. Select **Documentation** <img alt="Documentation icon" src="https://assets.postman.com/postman-docs/documentation-icon-v8-10.jpg#icon" width="16px"> in the context bar to view documentation for the selected item.
+1. Select the documentation icon <img alt="Documentation icon" src="https://assets.postman.com/postman-docs/documentation-icon-v8-10.jpg#icon" width="16px"> in the context bar to view documentation for the selected item.
 1. To view all of the documentation for the collection, select **View complete collection documentation**.
 
 <img alt="View complete documentation" src="https://assets.postman.com/postman-docs/documentation-view-complete-v9.jpg" width="566px"/>
@@ -76,7 +76,7 @@ Use the following options to customize the appearance of the documentation:
 
 * **Release Tag:** If the documentation has multiple [release tags](/docs/publishing-your-api/documenting-your-api/#documenting-releases), you can select a specific release to view.
 * **Language:** Select a language to use for sample code.
-* **Code Generation Settings:** Select the gear <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-gear-outline-v9.jpg#icon" width="16px"> to customize settings for the currently selected language.
+* **Code Generation Settings:** Select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> to customize settings for the currently selected language.
 
 [![Viewing a release](https://assets.postman.com/postman-docs/documentation-view-release-v9.jpg)](https://assets.postman.com/postman-docs/documentation-view-release-v9.jpg)
 
@@ -88,7 +88,7 @@ Postman automatically generates API docs for any OpenAPI 3.0 schema [defined in 
 
 To view documentation for an API:
 
-1. Select **APIs** in the left sidebar, then select an API and a version.
+1. Select **APIs** in the sidebar, then select an API and a version.
 
     > You can also search for APIs on the [Private API Network](https://go.postman.co/network/private) or the [Public API Network](https://www.postman.com/explore/apis).
 
@@ -112,17 +112,17 @@ Use the options in the header to customize the appearance of the documentation:
 * **Environment:** If an [environment](/docs/publishing-your-api/documenting-your-api/#associating-environments-with-documentation) was published with the documentation, you can select it to populate any variables.
 * **Layout:** **Double column** displays sample code in a column to the right of the documentation. **Single column** displays sample code inline beneath each request.
 * **Language:** Select a language to use for sample code.
-* **Language Settings:** Select the gear <img alt="Language settings icon" src="https://assets.postman.com/postman-docs/icon-gear-solid-v9.jpg#icon" width="16px"> to customize settings for any of the available languages.
+* **Language Settings:** Select the language settings icon <img alt="Language settings icon" src="https://assets.postman.com/postman-docs/icon-gear-solid-v9.jpg#icon" width="16px"> to customize settings for any of the available languages.
 
 [![Published documentation example](https://assets.postman.com/postman-docs/documentation-published-docs-v9.jpg)](https://assets.postman.com/postman-docs/documentation-published-docs-v9.jpg)
 
-> Postman supports [various programming languages and frameworks](/docs/sending-requests/generate-code-snippets/#supported-languagesframeworks) for displaying sample code. Don't see your language of choice, or is there a setting missing that you'd find useful? Select the gear <img alt="Language settings icon" src="https://assets.postman.com/postman-docs/icon-gear-solid-v9.jpg#icon" width="16px"> and then select **Contribute on GitHub** to contribute to [the open-source project](https://github.com/postmanlabs/postman-code-generators).
+> Postman supports [various programming languages and frameworks](/docs/sending-requests/generate-code-snippets/#supported-languagesframeworks) for displaying sample code. Don't see your language of choice, or is there a setting missing that you'd find useful? Select the language settings icon <img alt="Language settings icon" src="https://assets.postman.com/postman-docs/icon-gear-solid-v9.jpg#icon" width="16px"> and then select **Contribute on GitHub** to contribute to [the open-source project](https://github.com/postmanlabs/postman-code-generators).
 
 ## Linking to public documentation
 
 Want to share a specific endpoint with someone or bookmark it for later? You can save links to sections in public documentation, including the introduction, requests, folders, and responses.
 
-To save a link, select a section, folder, or request in the left sidebar. Copy the URL in your browser's address bar, or save it as a bookmark. Next time, you can use the URL to link directly to the selected section.
+To save a link, select a section, folder, or request in the sidebar. Copy the URL in your browser's address bar, or save it as a bookmark. Next time, you can use the URL to link directly to the selected section.
 
 <img alt="Documentation links" src="https://assets.postman.com/postman-docs/documentation-copy-link-v9.jpg" width="773px"/>
 

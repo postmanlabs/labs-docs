@@ -75,7 +75,7 @@ To enable SCIM:
 
 1. Open [Postman](https://go.postman.co/home).
 1. Select **Team** in the upper right, then select **Team Settings**.
-1. Select **Authentication** in the left sidebar.
+1. Select **Authentication** in the sidebar.
 
     <img alt="Enable SCIM in dashboard" src="https://assets.postman.com/postman-docs/auth-enable-scim-v9.jpg"/>
 

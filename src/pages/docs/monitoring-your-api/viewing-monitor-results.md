@@ -56,7 +56,7 @@ warning: false
 
 ## Viewing monitors in Postman
 
-You can view your collection-based monitors in Postman by navigating to your workspace and selecting **Monitors** in the left sidebar. Select your monitor to open a tab detailing its latest performance.
+You can view your collection-based monitors in Postman by navigating to your workspace and selecting **Monitors** in the sidebar. Select your monitor to open a tab detailing its latest performance.
 
 <img src="https://assets.postman.com/postman-docs/view-monitor-in-tab3.jpg" alt="View monitor in tab"/>
 
@@ -154,7 +154,7 @@ You can use this console to both troubleshoot issues and learn more about an ind
 
 ### Activity log
 
-You can view a monitor's activity logs by selecting the <img src="https://assets.postman.com/postman-docs/activity-feed-icon-2.png" width="20px" style="margin:0" alt="Activity log clock symbol"/> (clock icon) in the upper-right corner > **View activity logs**.
+You can view a monitor's activity logs by selecting the changelog icon <img alt="Changelog icon" src="https://assets.postman.com/postman-docs/icon-changelog-v9.jpg#icon" width="18px"> in the upper-right corner > **View activity logs**.
 
 <img src="https://assets.postman.com/postman-docs/monitor-activity-log20.jpg" width="400px" alt="Activity log"/>
 
@@ -162,7 +162,7 @@ You can check these logs to learn when a monitor was created, edited, paused, or
 
 ### Monitor details
 
-You can view details about a monitor by selecting the info (i) icon in the upper-right corner. Here you can view a monitor's ID, creator, creation date and time, collection, environment, and integration options.
+You can view details about a monitor by selecting the information icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px"> in the upper-right corner. Here you can view a monitor's ID, creator, creation date and time, collection, environment, and integration options.
 
 <img src="https://assets.postman.com/postman-docs/monitor-information10.jpg" width="400px" alt="Monitor details"/>
 

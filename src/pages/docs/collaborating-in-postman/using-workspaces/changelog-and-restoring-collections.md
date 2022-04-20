@@ -26,7 +26,7 @@ Your Postman collections display a changelog for reviewing create, update, and d
 
 ## Viewing the collection changelog
 
-To review the changelog for a collection in Postman, select the __Collections__ tab in the left sidebar and select the __Changelog__ icon on the right of Postman to see a chronological list of collection activities.
+To review the changelog for a collection in Postman, select __Collections__ in the sidebar, then select the changelog icon <img alt="Changelog icon" src="https://assets.postman.com/postman-docs/icon-changelog-v9.jpg#icon" width="18px"> on the right of Postman to see a chronological list of collection activities.
 
 The changelog indicates the date of each update, the user who carried it out, what type of update they performed, and the time the change occurred. The changelog collates consecutive updates on the same session to the same entity for readability.
 

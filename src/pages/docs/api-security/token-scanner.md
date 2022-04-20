@@ -43,7 +43,7 @@ A scan is triggered whenever your team members do any of the following actions:
 * Write new documentation for a Postman Collection and make it public.
 * Make any changes to publicly available Postman documentation.
 
-Scan results are displayed in [Security audit reports](/docs/reports/security-audit-reports) on the **Reports** section of the web dashboard.
+Scan results are displayed in [Security audit reports](/docs/reports/security-audit-reports/) on the **Reports** section of the web dashboard.
 
 ## Supported tokens
 

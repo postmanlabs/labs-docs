@@ -52,7 +52,7 @@ In addition to raw WebSocket connections, Postman also supports Socket.IO connec
 
 ## Creating WebSocket requests
 
-You can create a WebSocket request from the left sidebar in Postman.
+You can create a WebSocket request from the sidebar in Postman.
 
 1. Select  __New__ &gt; __WebSocket Request__ to open a new tab. (In the Postman Desktop app, you can also select **⌘+N** or **Ctrl+N**.)
 
@@ -96,13 +96,13 @@ To load a saved message:
 
 You can also create a new message from the **Saved Messages** pane by selecting <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px"> **Compose Message**.
 
-To rename, duplicate, or delete a saved message, select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> and then select **Rename**, **Duplicate**, or **Delete**.
+To rename, duplicate, or delete a saved message, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> and then select **Rename**, **Duplicate**, or **Delete**.
 
 ### Adding Socket.IO event names and arguments
 
 Sending events with a Socket.IO connection includes the ability to add event names and arguments. This makes it easy to listen to only specific events.
 
-For a Socket.IO connection, you can enter an event name to publish next to the **Send** button. If you select **Send** without entering a name, the default name `message` will be used.
+For a Socket.IO connection, you can enter an event name to publish next **Send**. If you select **Send** without entering a name, the default name `message` will be used.
 
 There is also an **Acknowledgement** option; when selected, the server will acknowledge that it has received the message.
 
@@ -122,9 +122,9 @@ At the top of the message pane is a connection details badge. It shows if the co
 
 Above the message display are the following controls:
 
-* Search control - Enter a search term to display only messages containing the term. Select **X** to end the search.
+* Search control - Enter a search term to display only messages containing the term. Select <img alt="Close icon" src="https://assets.postman.com/postman-docs/icon-close.jpg#icon" width="16px"> to end the search.
 * Message type list - Select if you want to view all messages, or only incoming or outgoing messages.
-* Trash - Select the trash can icon to clear all messages.
+* Trash - Select the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> to clear all messages.
 
 The following are displayed for each message:
 
@@ -202,7 +202,7 @@ To save a request:
 1. If you are creating a new collection, enter a name and select **Create**.
 1. Select **Save**.
 
-You can see your collection and saved request under the **Collections** tab of the left sidebar on the left:
+You can see your collection and saved request in **Collections** in the sidebar:
 
 <img alt="Collection sidebar" src="https://assets.postman.com/postman-docs/websocket-collection-v2.jpg" width="400px"/>
 
@@ -219,12 +219,12 @@ You can add documentation to your collection or requests to give it a summary, a
 To document a WebSocket request:
 
 1. Open the request.
-1. Select **Documentation** <img alt="Documentation icon" src="https://assets.postman.com/postman-docs/documentation-icon-v8-10.jpg#icon" width="16px"> in the context bar.
-1. Select the edit button <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px"> next to the description.
+1. Select the documentation icon <img alt="Documentation icon" src="https://assets.postman.com/postman-docs/documentation-icon-v8-10.jpg#icon" width="16px"> in the context bar.
+1. Select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px"> next to the description.
 1. Author your description using [Markdown](/docs/publishing-your-api/authoring-your-documentation/#authoring-descriptions-in-markdown).
 1. When you're finished, select **Save** to save your documentation. If you ever need to make changes, just edit the description again.
 
-Documenting a collection is similar, but the description is on the **Overview** tab of the collection. Select the edit button <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px"> next to the description, write a summary, and select **Save**.
+Documenting a collection is similar, but the description is on the **Overview** tab of the collection. Select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px"> next to the description, write a summary, and select **Save**.
 
 ## Other Socket.IO notes
 
@@ -232,6 +232,7 @@ Socket.IO typically uses WebSockets as its transport layer, but sometimes uses H
 
 ## Troubleshooting WebSocket requests
 
-You can use the console to debug issues with a WebSocket connection. To open the console and view log messages, select **Console** in the status bar at the bottom left of Postman.
+You can use the console to debug issues with a WebSocket connection. To open the console and view log messages, select
+<img alt="Console icon" src="https://assets.postman.com/postman-docs/icon-console-v9.jpg#icon" width="16px"> **Console** in the Postman footer.
 
 For more information on using the console, see [Troubleshooting requests](/docs/sending-requests/troubleshooting-api-requests/).

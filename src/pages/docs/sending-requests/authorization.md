@@ -91,7 +91,7 @@ With a request open in Postman, use the __Authorization__ tab to select an auth 
 
 When you select a type from the **Type** dropdown list, Postman will indicate which parts of the request your details will be included in, for example the header, body, URL, or query parameters. Postman will add your auth details to the relevant parts of the request as soon as you select or enter them, so you can see how your data will be sent before attempting to run the request.
 
-Your auth data will appear in the relevant parts of the request, for example in the __Headers__ tab. To show headers added automatically, select the __hidden__ button.
+Your auth data will appear in the relevant parts of the request, for example in the __Headers__ tab. To show headers that were added automatically, select __hidden__.
 
 <img alt="Hidden Headers" src="https://assets.postman.com/postman-docs/hidden-headers-v9.jpg" width="400px"/>
 
@@ -245,7 +245,7 @@ To use OAuth 2.0:
 
 1. Enter the details for your client application, and any auth details from the service provider. This allows you to replicate your application auth flow inside Postman in order to test authenticated requests.
 
-   > You can share token credentials with your team by selecting the sync button next to an available token. By default Postman won't sync your token in case you don't want to share it.
+   > You can share token credentials with your team by selecting the sync token icon <img alt="Syncing icon" src="https://assets.postman.com/postman-docs/icon-syncing-v9.jpg#icon" width="16px"> next to an available token. By default Postman won't sync your token in case you don't want to share it.
 
 1. Postman will prompt you to supply specific details depending on the OAuth 2.0 __grant__ type, which can be [Authorization code](#authorization-code), [Implicit](#implicit), [Password credentials](#password-credentials), or [Client credentials](#client-credentials).
 

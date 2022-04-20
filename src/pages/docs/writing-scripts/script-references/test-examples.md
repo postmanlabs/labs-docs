@@ -408,7 +408,7 @@ pm.test("Check the active environment", () => {
 
 ## Troubleshooting common test errors
 
-When you encounter errors or unexpected behavior in your test scripts, the Postman [Console](/docs/sending-requests/troubleshooting-api-requests/) can help you to identify the source. By combining `console.log()`, `console.info()`, `console.warn()` and `console.error()` debug statements with your test assertions, you can examine the content of the HTTP requests and responses, as well as Postman data items such as variables. Select **Console** at the bottom left of Postman to open it.
+When you encounter errors or unexpected behavior in your test scripts, the Postman [Console](/docs/sending-requests/troubleshooting-api-requests/) can help you to identify the source. By combining `console.log()`, `console.info()`, `console.warn()` and `console.error()` debug statements with your test assertions, you can examine the content of the HTTP requests and responses, as well as Postman data items such as variables. Select <img alt="Console icon" src="https://assets.postman.com/postman-docs/icon-console-v9.jpg#icon" width="16px"> **Console** from the Postman footer to open it.
 
 [![Console info](https://assets.postman.com/postman-docs/console-logs-in-pane-v8.jpg)](https://assets.postman.com/postman-docs/console-logs-in-pane-v8.jpg)
 

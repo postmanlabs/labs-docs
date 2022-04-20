@@ -1879,11 +1879,17 @@
 		"from": "/docs/sending-requests/authorization/#inheriting-auth",
 		"to": "/docs/sending-requests/authorization/#inheriting-authorization"
 	},
-	{	"from": "/docs/monitoring-your-api/integrations-for-alerts/",
+	{
+		"from": "/docs/monitoring-your-api/integrations-for-alerts/",
 		"to": "/docs/running-collections/collection-webhooks/"
 	},
-	{	"from": "/docs/monitoring-your-api/monitoring-apis-websites/",
+	{
+		"from": "/docs/monitoring-your-api/monitoring-apis-websites/",
 		"to": "/docs/writing-scripts/test-with-monitors/"
+	},
+	{
+		"from": "/docs/designing-and-developing-your-api/deploying-an-api/",
+		"to": "/docs/designing-and-developing-your-api/deploying-an-api/deploying-an-api-overview/"
 	},
 	{
 		"from": "/docs/sending-requests/capturing-request-data/proxy/",

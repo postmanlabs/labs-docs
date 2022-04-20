@@ -192,7 +192,7 @@ You can export your Postman data, including collections, environments, data dump
 
 ### Exporting collections
 
-1. Select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> next to the collection, then select **Export**.
+1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the collection, then select **Export**.
 
    <img alt="Export collection" src="https://assets.postman.com/postman-docs/export-collection-v9.1.jpg" width="350px" />
 
@@ -208,14 +208,13 @@ You can also export your environments from Postman.
 
 1. Select the **Environments** tab from the left navigation menu.
 1. Select an environment to export.
-1. In the top right corner, select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px">.
-1. Select **Export** to download your newly generated JSON file.
+1. In the main work area, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px">, then select **Export** to download your newly generated JSON file.
 
 ### Exporting data dumps
 
 You can export a data dump of all your collections, environments, globals, and header presets in Postman.
 
-1. Select the gear icon in the upper-right corner to open **Settings**.
+1. Select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the header, then select **Settings**.
 
    ![Export data dump](https://assets.postman.com/postman-docs/import-export-data-dump-menu.jpg)
 
@@ -236,7 +235,7 @@ The [Export page](http://go.postman.co/me/export) shows information about your e
 * **Zipped**: The file is zipped.
 * **Download**: The zipped file is ready to download.
 
-When the export is ready, you will receive an email with link to download a zipped file with the data dump. You can also download the file using the **Download** button on the Export page.
+When the export is ready, you will receive an email with link to download a zipped file with the data dump. You can also download the file from the Export page using **Download**.
 
 > Data exports from the Scratch Pad are downloaded directly instead of being emailed to you. See [Exporting data from the Scratch Pad](/docs/getting-started/using-scratch-pad/#exporting-data-from-the-scratch-pad) for more details.
 

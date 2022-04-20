@@ -72,7 +72,7 @@ The header enables you to create workspaces, access reports, explore the public 
 
 * <img alt="Sync online icon" src="https://assets.postman.com/postman-docs/icon-sync-online.jpg#icon" width="16px"> **Sync status**: See if you are connected to Postman's servers and your data is [syncing](/docs/getting-started/syncing/).
 * **Invite**: If you have an [Admin role](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles) on a workspace, you can invite other users to collaborate.
-* <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-gear-outline-v9.jpg#icon" width="18px"> **Settings**: Access [Postman settings](/docs/getting-started/settings/) and other Postman resources.
+* <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> **Settings**: Access [Postman settings](/docs/getting-started/settings/) and other Postman resources.
 * <img alt="Notifications icon" src="https://assets.postman.com/postman-docs/icon-notification-bell-v9.jpg#icon" width="18px"> **Notifications**: View recent activity from your team, get notifications about Postman updates, and see pull requests, comment activity, and other important information.
 * **Your avatar**: View your profile, access your [account and notification settings](/docs/getting-started/postman-account/), see all active sessions for your account, or sign out of your account.
 * **Team** (_paid plans_) or **Upgrade** (_free plan_): View resource usage and access your [billing dashboard](/docs/administration/billing/) and other account management tools.
@@ -115,7 +115,7 @@ To hide the sidebar, select the hide sidebar icon <img alt="Hide sidebar icon" s
 
 ### History
 
-To access the requests you've made, select __History__ on the sidebar. When you're signed in to Postman, your history [syncs](/docs/getting-started/syncing/) across your devices.
+To access the requests you've made, select __History__ in the sidebar. When you're signed in to Postman, your history [syncs](/docs/getting-started/syncing/) across your devices.
 
 Select a request to open it again in a new tab. You can select more than one request by pressing **⌘** or **Ctrl** and selecting the requests.
 
@@ -155,7 +155,7 @@ To open a new tab, select __+__ in the middle of the screen.
 
 If you open a request and don't edit or send it, then open another request, the second tab replaces the first tab. When the tab is in preview mode, it displays in italics.
 
-You can set whether Postman opens requests in new tabs. Select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-gear-outline-v9.jpg#icon" width="18px"> to open **Settings**. Under **Requests**, use the toggle next to **Always open requests in a new tab** to turn this option on or off.
+You can set whether Postman opens requests in new tabs. Select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> to open **Settings**. Under **Requests**, use the toggle next to **Always open requests in a new tab** to turn this option on or off.
 
 #### Saving or discarding changes
 
@@ -185,7 +185,7 @@ To manage your open tabs or to access recently closed tabs, select the more acti
 
 You can also manage your open tabs or open a new tab by right-clicking on an existing tab.
 
-> **Closing unsaved tabs**: You can set whether Postman asks whether you want to save when you close a tab that has changes. Select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-gear-outline-v9.jpg#icon" width="18px"> to open **Settings**. Under **Requests**, use the toggle next to **Always ask when closing unsaved tabs** to turn this option on or off.
+> **Closing unsaved tabs**: You can set whether Postman asks whether you want to save when you close a tab that has changes. Select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> to open **Settings**. Under **Requests**, use the toggle next to **Always ask when closing unsaved tabs** to turn this option on or off.
 
 If you have a lot of tabs open, they might overflow the area of the tab bar. To go to tabs that are outside the viewable area, select the arrows to the left or right of the tab bar.
 
