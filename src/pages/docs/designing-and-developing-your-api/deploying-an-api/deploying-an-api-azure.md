@@ -42,14 +42,14 @@ To connect to Azure API Management in Postman:
 1. To connect more Azure API Management services, select **+ Add Service**. To remove a service, select **Remove**.
 1. When you're finished adding services, select **Connect**.
 
-    <img alt="Azure API Management setup" src="https://assets.postman.com/postman-docs/azure-apim-setup-v9-15.jpg" width="531px"/>
+    <img alt="Azure API Management setup" src="https://assets.postman.com/postman-docs/azure-apim-setup-v9-16.jpg" width="518"/>
 
 1. If you want, you can choose to import a schema from Azure API Management:
 
     * To import a schema, select the **Schema type** (OpenAPI 2.0 or OpenAPI 3.0). Then select the **Azure service** to import the schema from and select **Import**. _Importing a schema will replace your current API schema or add a new schema if one doesn't exist._
     * If you don't want to import a schema, select **Maybe later**. You can [import a schema](#importing-a-schema-from-azure) at any time after connecting to Azure API Management.
 
-    <img alt="Azure API Management setup" src="https://assets.postman.com/postman-docs/azure-apim-setup-v9-15.jpg" width="531px"/>
+    <img alt="Azure API Management setup" src="https://assets.postman.com/postman-docs/azure-apim-setup-import-v9-16.jpg" width="518px"/>
 
 > When you delete an API or remove it from a workspace, any configured integrations aren't deleted or removed.
 
@@ -72,7 +72,7 @@ Select a service to view more details about the connected Azure API version.
 
 * **Export History:** The export history lists all exports from Postman for this API version. For each export, you can view the date created, the Azure revision, and the Postman source.
 
-<img alt="Viewing a service instance" src="https://assets.postman.com/postman-docs/azure-apim-view-service-v9-16.jpg"/>
+<img alt="Viewing a service instance" src="https://assets.postman.com/postman-docs/azure-apim-view-a-service-v9-16.jpg"/>
 
 From the service details view, you can take the following actions:
 
@@ -93,6 +93,8 @@ You can import a schema from a connected Azure API Management service to your AP
 1. Select the **Schema type** (OpenAPI 2.0 or OpenAPI 3.0).
 1. Select the **Azure service** to import the schema from.
 1. Select **Import**.
+
+<img alt="Importing a schema" src="https://assets.postman.com/postman-docs/azure-apim-import-schema-v9-16.jpg" width="651px"/>
 
 ## Exporting your API to Azure API Management
 
