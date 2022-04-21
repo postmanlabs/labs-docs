@@ -101,7 +101,7 @@ Enter a name for your variable, and specify its __Initial__ and __Current__ valu
 * The __Initial Value__ is synced to your account via the Postman servers and shared with any collaborators who have access to the environment.
 * The __Current Value__ is used in your local instance of Postman, and is never synced to your account or shared with your team _unless you choose to persist it_.
 
-To update the synced variable with your local value, set the initial value to the current value by selecting <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> to the right of the variable row and choosing __Persist__. To reset your local (current) value with the synced value shared with your workspace / collaborators, select __Reset__. You can persist or reset all values in the environment using __Persist All__ and __Reset All__.
+To update the synced variable with your local value, set the initial value to the current value by selecting the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> to the right of the variable row and choosing __Persist__. To reset your local (current) value with the synced value shared with your workspace / collaborators, select __Reset__. You can persist or reset all values in the environment using __Persist All__ and __Reset All__.
 
 You can also define environment variables by **Type**. Variables are automatically assigned the default type when created, which is shown as plain text and has no additional properties. You can change sensitive variables to [secret type](/docs/sending-requests/variables/#variable-types), which masks the initial and current values for all workspace members. Secret type can be used to prevent unintentional disclosure of sensitive data, including API secrets, passwords, tokens, and keys.
 
@@ -109,7 +109,7 @@ You can also define environment variables by **Type**. Variables are automatical
 
 You can access your environment variables from the Postman UI and from your request elements, including the URL, parameters, body data, and test scripts.
 
-To see all of your environments, select __Environments__ on the left of Postman.
+To see all of your environments, select __Environments__ in the sidebar.
 
 <img src="https://assets.postman.com/postman-docs/environments-view-menu-v9.13.jpg" alt="View all environments" width="300px"/>
 
@@ -163,9 +163,9 @@ Edit the environment name, or the names, [types](/docs/sending-requests/variable
 
 [![Viewer role on environment](https://assets.postman.com/postman-docs/request-access-env-v9.13.jpg)](https://assets.postman.com/postman-docs/request-access-env-v9.13.jpg)
 
-If you have viewer access to an environment, you will see a padlock icon next to the name to indicate that it's read-only, and you will only be able to edit the current value, which is visible only to you and not synced with your Postman account or workspace. To edit initial values you will need to **Request Access**.
+If you have viewer access to an environment, you will see a lock icon <img alt="Lock icon" src="https://assets.postman.com/postman-docs/icon-lock.jpg#icon" width="11px"> next to the name to indicate that it's read-only, and you will only be able to edit the current value, which is visible only to you and not synced with your Postman account or workspace. To edit initial values you will need to **Request Access**.
 
-> You can edit current values for variables in an active (currently selected) environment directly via the environment quick look. Select the pencil icon to edit your chosen value.
+> You can edit current values for variables in an active (currently selected) environment directly via the environment quick look. Select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px"> to edit your chosen value.
 
 ![Edit Environment](https://assets.postman.com/postman-docs/environment-quicklook-edit-v9.13.jpg)
 
@@ -195,7 +195,7 @@ You can move environments to shared workspaces to collaborate with your team.
 
 > You must be an editor on an environment, or the workspace admin, to move an environment to another workspace.
 
-In the sidebar, select the environment you want to share, then select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> > **Move**.
+In the sidebar, select the environment you want to share, then select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> > **Move**.
 
 Use the search bar to find the workspace you'd like to move the environment to, or filter by workspace visibility by selecting the icon to the right of the search bar.
 
@@ -213,19 +213,19 @@ Select the workspace, then **Move**  **Environment**.
 
 Note that monitors, mock servers, and integrations in the original workspace that are using the environment may no longer work and will need to be re-configured in the new workspace. Collections and APIs that use the environment must be [moved separately](/docs/collaborating-in-postman/sharing/#moving-postman-entities-to-collaborative-workspaces).
 
-You can manage roles on an environment by navigating to it in the sidebar, selecting it, then selecting <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> > **Manage Roles**.
+You can manage roles on an environment by navigating to it in the sidebar, selecting it, then selecting the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> > **Manage Roles**.
 
 <img alt="Manage roles environment" src="https://assets.postman.com/postman-docs/environment-manage-roles-v9.1.jpg" width="250px"/>
 
-You can also remove a shared environment from a workspace by selecting <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> next to the environment name and choosing __Move__ to move it to a different workspace or **Delete** to delete it entirely.
+You can also remove a shared environment from a workspace by selecting the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the environment name and choosing __Move__ to move it to a different workspace or **Delete** to delete it entirely.
 
-To export an environment, select it and select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> in the upper right > **Export**.
+To export an environment, select it and select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> in the upper right > **Export**.
 
 <img alt="Export environment" src="https://assets.postman.com/postman-docs/environment-export-v9.1.jpg" width="250px" />
 
 ### Managing environment roles
 
-You can manage roles on an environment by selecting <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> in the upper right > **Manage Roles**.
+You can manage roles on an environment by selecting the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> in the upper right > **Manage Roles**.
 
 You can assign collaborators the **Editor** or **Viewer** role. Users with the viewer role can only edit the current values of variables, but they can use the environment when sending requests. If a user requires edit access, they can request it when viewing the environment in the editor.
 
@@ -239,7 +239,7 @@ If you are using sensitive data like API credentials, it's safer to use the curr
 
 #### Requesting environment access
 
-If you need to update the initial value of a variable in an environment you have read-only access to, you can request edit access. Open the environment from __Environments__ on the left of Postman and select __Request Access__.
+If you need to update the initial value of a variable in an environment you have read-only access to, you can request edit access. Open the environment from __Environments__ in the sidebar and select __Request Access__.
 
 [![Viewer role on environment](https://assets.postman.com/postman-docs/request-access-env-v9.13.jpg)](https://assets.postman.com/postman-docs/request-access-env-v9.13.jpg)
 
@@ -259,7 +259,7 @@ With the editor role, you can [configure access for other team members](#managin
 
 You can fork environments to change them without impacting their base versions, or to contribute to their development without having editor access. To fork an environment:
 
-1. Hover over the environment in the sidebar and select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> that appear to the right of the environment's name.
+1. Hover over the environment in the sidebar and select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> to the right of the environment's name.
 2. Select **Create a Fork**.
 
 > You can also fork an environment by selecting **Fork** <img alt="Fork icon" src="https://assets.postman.com/postman-docs/icon-fork.jpg#icon" width="14px"> in the environment overview tab.
@@ -272,7 +272,7 @@ You can view all pull requests, forks, and details about an environment from the
 
 * To view pull requests, select the pull request icon <img alt="Pull request icon" src="https://assets.postman.com/postman-docs/icon-pull-request.jpg#icon" width="16px">
 * To view forks, select the fork icon <img alt="Fork icon" src="https://assets.postman.com/postman-docs/icon-fork.jpg#icon" width="16px">
-* To view additional information about the environment, including its ID, author, and any mock servers or monitors that use it, select the info icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px">
+* To view additional information about the environment, including its ID, author, and any mock servers or monitors that use it, select the information icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px">
 
 If you have [editor access](/docs/collaborating-in-postman/roles-and-permissions/#environment-roles) on the environment, you can [review pull requests](/docs/collaborating-in-postman/version-control-for-collections/#reviewing-pull-requests) and [merge changes into the parent environment](/docs/collaborating-in-postman/version-control-for-collections/#merging-changes).
 

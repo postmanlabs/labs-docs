@@ -96,7 +96,7 @@ To load a saved message:
 
 You can also create a new message from the **Saved Messages** pane by selecting <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px"> **Compose Message**.
 
-To rename, duplicate, or delete a saved message, select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> and then select **Rename**, **Duplicate**, or **Delete**.
+To rename, duplicate, or delete a saved message, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> and then select **Rename**, **Duplicate**, or **Delete**.
 
 ### Adding Socket.IO event names and arguments
 
@@ -122,9 +122,9 @@ At the top of the message pane is a connection details badge. It shows if the co
 
 Above the message display are the following controls:
 
-* Search control - Enter a search term to display only messages containing the term. Select **X** to end the search.
+* Search control - Enter a search term to display only messages containing the term. Select <img alt="Close icon" src="https://assets.postman.com/postman-docs/icon-close.jpg#icon" width="16px"> to end the search.
 * Message type list - Select if you want to view all messages, or only incoming or outgoing messages.
-* Trash - Select the trash can icon to clear all messages.
+* Trash - Select the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> to clear all messages.
 
 The following are displayed for each message:
 
@@ -232,6 +232,7 @@ Socket.IO typically uses WebSockets as its transport layer, but sometimes uses H
 
 ## Troubleshooting WebSocket requests
 
-You can use the console to debug issues with a WebSocket connection. To open the console and view log messages, select **Console** in the status bar at the bottom left of Postman.
+You can use the console to debug issues with a WebSocket connection. To open the console and view log messages, select
+<img alt="Console icon" src="https://assets.postman.com/postman-docs/icon-console-v9.jpg#icon" width="16px"> **Console** in the Postman footer.
 
 For more information on using the console, see [Troubleshooting requests](/docs/sending-requests/troubleshooting-api-requests/).
