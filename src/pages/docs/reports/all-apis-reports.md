@@ -34,7 +34,7 @@ The **All APIs** overview report provides the following information:
 
 * **Total APIs** - The total number of APIs created by your team in all workspaces.
 * **Distribution of APIs** - The number of APIs created in personal, private, team, or public workspaces, or in the Private API Network.
-* **APIs created over time** - The total number of APIs created each month. This might include APIs that have since been deleted, as long as they were created in the reporting period.
+* **APIs created over time** - The total number of APIs created each month in the last six months. This might include APIs that have since been deleted, as long as they were created in the reporting period.
 
 ## Team APIs
 
@@ -42,7 +42,7 @@ The **Team APIs** report provides information on APIs created by your team, incl
 
 * **Total APIs in team workspaces** - The number of APIs in team workspaces.
 * **Schemas by type** - The number of APIs by schema type (like OpenAPI, GraphQL, and Swagger). If an API has more than one version with different schemas, the API will have entries in each of those schema types.
-* **APIs updated over time** - The number of team APIs that have been updated in the reporting period.
+* **APIs updated over time** - The number of team APIs that have been updated in the last 30 days.
 * **API response time** - The average response time of all APIs in the last seven days.
 * **API test results** - The number of successful and failed test runs in the last seven days.
 * **API uptime** - The number of successful responses (returning 1xx or 2xx) compared to failed responses (returning 3xx, 4xx, or 5xx) in the last seven days.
@@ -50,8 +50,8 @@ The **Team APIs** report provides information on APIs created by your team, incl
 * **API monitoring coverage** - The number of APIs your team has added monitors to.
 * **API test coverage** - The number of APIs your team has added tests to.
 * **API documentation coverage** - The number of APIs your team has added documentation to.
-* **Watch count** - The number of times someone has watched an API in the reporting period. This number includes users who watched and then unwatched an API.
-* **Comments over time** - The number times someone has commented on an API in the reporting period.
+* **Watch count** - The number of times someone has watched an API in the last six months. This number includes users who watched and then unwatched an API.
+* **Comments over time** - The number times someone has commented on an API in the last six months.
 
 ## Private Network APIs
 
@@ -65,8 +65,8 @@ The __Private Network APIs__ report provides the following information:
 * __API monitoring coverage__ - The number of APIs your team has added monitors to.
 * __API test coverage__ - The number of APIs your team has added tests to.
 * __API documentation coverage__ - The number of APIs your team has added documentation to.
-* **Watch count** - The number of times someone has watched an API in the reporting period. This number includes users who watched and then unwatched an API.
-* **Comments over time** - The number of times someone has commented on an API in the reporting period.
+* **Watch count** - The number of times someone has watched an API in the last six months. This number includes users who watched and then unwatched an API.
+* **Comments over time** - The number of times someone has commented on an API in the last six months.
 
 ## Public APIs
 
@@ -75,15 +75,15 @@ The __Public APIs__ report provides metrics including an overview of your total 
 The [Public API report](#private-network-apis) provides the same information as the **Private API** report, excluding __Schemas by type__. It also includes the following:
 
 * **Total public APIs** - The number of APIs that are published to the Public API Network.
-* **APIs updated over time** - The number of APIs updated in the reporting period.
+* **APIs updated over time** - The number of APIs updated in the last 30 days.
 * **Most viewed public API** - A link to your team's most-viewed public API over the last three months.
 * **Public API views** - A graph of the number of views of your team's public APIs over the last three months.
 * **API mock coverage** - The number of APIs your team has added mocks to.
 * **API monitoring coverage** - The number of APIs your team has added monitors to.
 * **API test coverage** - The number of APIs your team has added tests to.
 * **API documentation coverage** - The number of APIs your team has added documentation to.
-* **Watch count** - The number of times someone has watched an API in the reporting period. This number includes users who watched and then unwatched an API.
-* **Comments over time** - The number of times someone has commented on an API in the reporting period.
+* **Watch count** - The number of times someone has watched an API in the last six months. This number includes users who watched and then unwatched an API.
+* **Comments over time** - The number of times someone has commented on an API in the last six months.
 
 ## View Report by API
 

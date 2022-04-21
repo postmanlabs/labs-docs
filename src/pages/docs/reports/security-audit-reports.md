@@ -23,8 +23,8 @@ The __Security Audit__ report provides metrics including an overview of your tot
 
 The **Security Audit** report provides the following information for the past 30 days:
 
-* __Published documentation scanned__ - The number of documentation sets that were reviewed by the Token Scanner.
-* __Published documentation with exposed tokens__ - The number of documentation sets that have an exposed token.
+* __Published documentation scanned__ - The number of published documentation sets that were reviewed by the Token Scanner.
+* __Published documentation with exposed tokens__ - The number of published documentation sets that have an exposed token.
 * __Total exposed tokens__ - The number of tokens that are exposed across all published documentation sets.
 * __Exposed tokens by type__ - The number of exposed tokens by type.
 * __Exposed tokens over time__ - The number of tokens that were exposed each day.

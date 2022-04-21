@@ -36,7 +36,7 @@ To be included in this metric, an API must have [**Team** or **Public** visibili
     * Creating, editing, deleting, and sending requests.
     * Creating, editing, and deleting collections, APIs, environments, mocks, and monitors.
 
-    > This metric does not include the following actions:
+    > This metric doesn't include the following actions:
     > * Creating a workspace, changing its visibility, adding users, or assigning roles
     > * Administrative or billing-related tasks that happen outside of a workspace
     > * Adding integrations
@@ -48,7 +48,7 @@ To be included in this metric, an API must have [**Team** or **Public** visibili
 Metrics in this section reflect all views and actions on publicly shared work, regardless of whether the user is a team member or not.
 
 * **Public profile views** - The total number of views of your team's public profile in the reporting period.
-* **Public workspace views** - The number of views of all your team's public workspaces in the reporting period.
-* **Published documentation views** - The number of views of your team's published documentation in the reporting period.
-* **Forks and Pull requests on public collections** - The number of times in the reporting period that a collection in your public workspaces was forked or pulled.
-* **Watch count on public entities** - The number of times in the reporting period that someone watched a collection or API in your public workspaces. This number includes users who watched and then unwatched an entity.
+* **Public workspace views** - The number of views of all your team's public workspaces in the last three months.
+* **Published documentation views** - The number of views of your team's published documentation in the last six months.
+* **Forks and Pull requests on public collections** - The number of times in the last six months that a collection in your public workspaces was forked or pulled.
+* **Watch count on public entities** - The number of times in the last six months that someone watched a collection or API in your public workspaces. This number includes users who watched and then unwatched an entity.
