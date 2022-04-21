@@ -1,7 +1,7 @@
 ---
 title: 'Deploying to an Amazon API Gateway'
 page_id: 'deploying_an_api_aws'
-updated: 2022-03-31
+updated: 2022-04-21
 search_keyword: "deploy, aws, api gateway"
 warning: false
 contextual_links:
@@ -29,7 +29,7 @@ This integration supports OpenAPI 3.0 schemas for HTTP and REST APIs. You can im
 * [Connecting to Amazon API Gateway](#connecting-to-amazon-api-gateway)
     * [Authenticating with an AWS IAM role](#authenticating-with-an-aws-iam-role)
     * [Authenticating with an AWS access key](#authenticating-with-an-aws-access-key)
-* [Viewing Amazon API gateway deployments](#viewing-amazon-api-gateway-deployments)
+* [Viewing Amazon API Gateway deployments](#viewing-amazon-api-gateway-deployments)
 * [Viewing CloudWatch metrics](#viewing-cloudwatch-metrics)
 * [Importing a schema from Amazon API Gateway](#importing-a-schema-from-amazon-api-gateway)
 * [Exporting and deploying your API](#exporting-and-deploying-your-api)
@@ -38,9 +38,11 @@ This integration supports OpenAPI 3.0 schemas for HTTP and REST APIs. You can im
 
 To connect to Amazon API Gateway in Postman, select **APIs** in the sidebar, and then select the API and version you want to connect. Select the **Deployments** tab, and then select **AWS API Gateway**.
 
-<img alt="Connecting to AWS API Gateway" src="https://assets.postman.com/postman-docs/deployments-aws-api-gateway-v9-5.jpg" width="915px"/>
+<img alt="Connecting to an API Gateway" src="https://assets.postman.com/postman-docs/deployments-aws-api-gateway-v9-5.jpg" width="915px"/>
 
 When setting up the connection to API Gateway, you can choose to authenticate by [creating an AWS IAM role](#authenticating-with-an-aws-iam-role) or by [using an AWS access key](#authenticating-with-an-aws-access-key). Follow the steps for your chosen method below. After setting up the connection, you can choose to import a schema from the API Gateway.
+
+> When you delete an API or remove it from a workspace, any configured integrations aren't deleted or removed.
 
 ### Authenticating with an AWS IAM role
 
