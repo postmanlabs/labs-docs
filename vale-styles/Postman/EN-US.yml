@@ -6,6 +6,7 @@ action:
   name: replace
 swap:
   apologise: apologize
+  behaviour: behavior
   cancelled: canceled
   colour: color
   centre: center
@@ -16,3 +17,6 @@ swap:
   neighbour: neighbor
   organise: organize
   organisation: organization
+  specialise: specialize
+  specialisation: specialization
+  characterise: characterize
