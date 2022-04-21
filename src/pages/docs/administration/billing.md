@@ -86,7 +86,7 @@ In your [billing dashboard](http://go.postman.co/billing), select **Resource usa
 
 > Select **View detailed usage** next to **Monitoring Usage** to view your team's active monitors and their impact on your team's overall usage during the current billing period.
 
-You can opt to allow or disallow overages for mock server and monitor usage by selecting the icon to the right of each item. If enabled, you will be charged on a pay-as-you-go basis.
+You can opt to allow or disallow overages for mock server and monitor usage by selecting the toggle to the right of each item. If enabled, you will be charged on a pay-as-you-go basis.
 
 You can also [Purchase Add-ons](#purchasing-add-ons).
 
@@ -102,7 +102,7 @@ Items such as updates to your Postman subscription, card changes, payments, and 
 
 ### Viewing past invoices
 
-In your [billing dashboard](http://go.postman.co/billing), select **Plan and payments** on the left, then **Invoices**. You can get a copy of your past invoices by selecting the download icon to the right of the invoice you would like to retrieve.
+In your [billing dashboard](http://go.postman.co/billing), select **Plan and payments** on the left, then **Invoices**. You can get a copy of your past invoices by selecting the download icon <img alt="Download icon" src="https://assets.postman.com/postman-docs/icon-download-v9.jpg#icon" width="16px"/> to the right of the invoice you would like to retrieve.
 
 <img alt="Invoices view" src="https://assets.postman.com/postman-docs/billing-invoices-v9.1.jpg" />
 

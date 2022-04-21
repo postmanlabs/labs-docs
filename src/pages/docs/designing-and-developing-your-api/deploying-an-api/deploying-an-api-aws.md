@@ -130,7 +130,7 @@ From the **Deployments** tab, you can take the following actions:
 * To export or deploy an HTTP schema, select **Deploy API**. Learn more about [deploying your API](#exporting-and-deploying-your-api).
 * To view metrics for your API Gateway in AWS, select **View Dashboard**.
 * To see the latest deployment status, select the refresh icon <img alt="Refresh icon" src="https://assets.postman.com/postman-docs/icon-refresh-v9-5.jpg#icon" width="14px">.
-* To edit or delete the connection to Amazon API Gateway, select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px">.
+* To edit or delete the connection to Amazon API Gateway, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px">.
 
 ## Viewing CloudWatch metrics
 
@@ -160,7 +160,7 @@ Exporting an HTTP API schema makes it available in the connected Amazon API Gate
 1. Open your API by selecting **APIs** in the sidebar, and then selecting an API and a version.
 1. Select the **Deployments** tab, and then select **Deploy API**.
 
-    You can also export and deploy your API from the Changelog. Open the Changelog <img alt="Changelog icon" src="https://assets.postman.com/postman-docs/icon-changelog-v9.jpg#icon" width="18px"> in the right context bar, select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> next to a release, and then select **Deploy Schema**.
+    You can also export and deploy your API from the Changelog. Select the changelog icon <img alt="Changelog icon" src="https://assets.postman.com/postman-docs/icon-changelog-v9.jpg#icon" width="18px"> in the right context bar, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to a release, and then select **Deploy Schema**.
 
 1. Select the version, branch, or release to deploy. Learn more about [versioning an API](/docs/designing-and-developing-your-api/versioning-an-api/) and [creating a release](/docs/designing-and-developing-your-api/versioning-an-api/#creating-a-release).
 1. (Optional) If you would like to deploy the schema to a stage after exporting, select **Deploy on a stage**. Select the AWS stage to deploy the schema to, and enter a brief description.

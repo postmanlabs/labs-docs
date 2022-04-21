@@ -76,7 +76,7 @@ When saving a [response](/docs/sending-requests/responses/) in Postman, you have
 With a custom example, you can define exactly how both the [request](/docs/sending-requests/requests/) and the [response](/docs/sending-requests/responses/) should look, including the status code and response body.
 
 1. Select **Collections** in the sidebar.
-1. Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> next to a request and then select **Add example**.
+1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to a request and then select **Add example**.
 1. Enter a name for the example.
 1. Edit the request part of the example.
     * Add any parameters or headers as needed.
@@ -105,7 +105,7 @@ Examples are stored in a collection below their associated requests. You can edi
 Duplicate an example to quickly add a new example using an existing example as a base. You can then edit the copied example to change the name, status code, or any other part of the request or response.
 
 1. Select **Collections** in the sidebar.
-1. Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> next to an example, and then select **Duplicate**.
+1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to an example, and then select **Duplicate**.
 1. Make any changes to the example request or response.
 1. Select **Save** to save the example.
 
@@ -114,7 +114,7 @@ Duplicate an example to quickly add a new example using an existing example as a
 Deleting an example removes it from the collection as well as from the associated API documentation. Any mock servers you have set up can no longer use the example to return a response.
 
 1. Select **Collections** in the sidebar.
-1. Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> next to an example, and then select **Delete**.
+1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to an example, and then select **Delete**.
 1. Select **Delete** to confirm.
 
 ## Using examples in documentation
