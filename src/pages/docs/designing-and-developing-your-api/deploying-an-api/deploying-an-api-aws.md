@@ -46,7 +46,7 @@ When setting up the connection to API Gateway, you can choose to authenticate by
 
 To set up a connection to Amazon API Gateway using an AWS IAM role, select **IAM** under **AWS Authentication Mechanism**.
 
-<img alt="Connecting with AWS IAM role" src="https://assets.postman.com/postman-docs/connect-to-api-gateway-with-iam-role-v9-5.jpg" width="502px"/>
+<img alt="Connecting with AWS IAM role" src="https://assets.postman.com/postman-docs/connect-to-api-gateway-with-iam-role-v9-16.jpg" width="520px"/>
 
 Enter a **Nickname** for this integration and select the **AWS API Type** (HTTP or REST).
 
@@ -102,7 +102,7 @@ The Amazon API Gateway integration now supports viewing CloudWatch metrics in Po
 
 To set up a connection to Amazon API Gateway using an AWS access key, select **Access Key** under **AWS Authentication Mechanism**.
 
-<img alt="Connecting with AWS access key" src="https://assets.postman.com/postman-docs/connect-to-api-gateway-with-access-key-v9-5.jpg" width="502px"/>
+<img alt="Connecting with AWS access key" src="https://assets.postman.com/postman-docs/connect-to-api-gateway-with-access-key-v9-16.jpg" width="520px"/>
 
 Next, enter information about the connection:
 
@@ -120,7 +120,7 @@ After setting up the connection, you can choose to import a schema from the API 
 * To import a schema, select the **AWS stage** to import the schema from and select **Import**. _Importing a schema will replace your current API schema or add a new schema if one doesn't exist._
 * If you don't want to import a schema, select **Maybe later**. You can [import a schema](#importing-a-schema-from-amazon-api-gateway) at any time after connecting to Amazon API Gateway.
 
-SCREENSHOT
+<img alt="Importing a schema" src="https://assets.postman.com/postman-docs/connect-to-api-gateway-import-v9-16.jpg" width="520px"/>
 
 ## Viewing Amazon API Gateway deployments
 
@@ -132,7 +132,7 @@ After connecting to Amazon API Gateway, you can view the export and deployment h
 * For each export from Postman, you can view the source of the export and the time when exported.
 * For each deployment you can view the deployment ID, description, and creation date.
 
-<img alt="Viewing API deployments" src="https://assets.postman.com/postman-docs/api-gateway-deployments-tab-v9-15.jpg"/>
+<img alt="Viewing API deployments" src="https://assets.postman.com/postman-docs/api-gateway-deployments-tab-v9-16.jpg"/>
 
 From the **Deployments** tab, you can take the following actions:
 
@@ -171,7 +171,7 @@ You can import a schema from a connected Amazon API Gateway to your API in Postm
 1. Select the **AWS stage** to import the schema from.
 1. Select **Import**.
 
-SCREENSHOT
+<img alt="Importing a schema" src="https://assets.postman.com/postman-docs/amazon-api-gateway-import-v9-16.jpg" width="650px"/>
 
 ## Exporting and deploying your API
 
