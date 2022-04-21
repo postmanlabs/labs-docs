@@ -34,23 +34,23 @@ The **All APIs** overview report provides the following information:
 
 * **Total APIs** - The total number of APIs created by your team in all workspaces.
 * **Distribution of APIs** - The number of APIs created in personal, private, team, or public workspaces, or in the Private API Network.
-* **APIs created over time** - The total number of APIs created each month.
+* **APIs created over time** - The total number of APIs created each month. This might include APIs that have since been deleted, as long as they were created in the reporting period.
 
 ## Team APIs
 
 The **Team APIs** report provides information on APIs created by your team, including:
 
-* **Total APIs in team Workspaces** - The number of APIs in team workspaces.
+* **Total APIs in team workspaces** - The number of APIs in team workspaces.
 * **Schemas by type** - The number of APIs by schema type (like OpenAPI, GraphQL, and Swagger). If an API has more than one version with different schemas, the API will have entries in each of those schema types.
 * **APIs updated over time** - The number of team APIs that have been updated in the reporting period.
-* **API response time** - The average response time of all APIs in the reporting period.
-* **API test results** - The number of successful and failed test runs in the reporting period.
-* **API uptime** - The number of successful responses (returning 1xx or 2xx) compared to failed responses (returning 3xx, 4xx, or 5xx) in the reporting period.
+* **API response time** - The average response time of all APIs in the last seven days.
+* **API test results** - The number of successful and failed test runs in the last seven days.
+* **API uptime** - The number of successful responses (returning 1xx or 2xx) compared to failed responses (returning 3xx, 4xx, or 5xx) in the last seven days.
 * **API mock coverage** - The number of APIs your team has added mocks to.
 * **API monitoring coverage** - The number of APIs your team has added monitors to.
 * **API test coverage** - The number of APIs your team has added tests to.
 * **API documentation coverage** - The number of APIs your team has added documentation to.
-* **Watch count** - The number of times someone has watched an API in the reporting period.
+* **Watch count** - The number of times someone has watched an API in the reporting period. This number includes users who watched and then unwatched an API.
 * **Comments over time** - The number times someone has commented on an API in the reporting period.
 
 ## Private Network APIs
@@ -59,13 +59,13 @@ The __Private Network APIs__ report provides metrics including an overview of yo
 
 The __Private Network APIs__ report provides the following information:
 
-* __Total APIs on Private API Network__ - The number of APIs that are published to the Private API network.
+* __Total APIs on Private API Network__ - The number of APIs that are published to the Private API Network.
 * __Schemas by type__ - The number of APIs by schema type (like OpenAPI, GraphQL, and Swagger).
 * __API mock coverage__ - The number of APIs your team has added mocks to.
 * __API monitoring coverage__ - The number of APIs your team has added monitors to.
 * __API test coverage__ - The number of APIs your team has added tests to.
 * __API documentation coverage__ - The number of APIs your team has added documentation to.
-* **Watch count** - The number of times someone has watched an API in the reporting period.
+* **Watch count** - The number of times someone has watched an API in the reporting period. This number includes users who watched and then unwatched an API.
 * **Comments over time** - The number of times someone has commented on an API in the reporting period.
 
 ## Public APIs
@@ -74,14 +74,15 @@ The __Public APIs__ report provides metrics including an overview of your total 
 
 The [Public API report](#private-network-apis) provides the same information as the **Private API** report, excluding __Schemas by type__. It also includes the following:
 
+* **Total public APIs** - The number of APIs that are published to the Public API Network.
 * **APIs updated over time** - The number of APIs updated in the reporting period.
 * **Most viewed public API** - A link to your team's most-viewed public API over the last three months.
-* **Public API views** - A graph of the number of views of your team's public APIs in the reporting period.
+* **Public API views** - A graph of the number of views of your team's public APIs over the last three months.
 * **API mock coverage** - The number of APIs your team has added mocks to.
 * **API monitoring coverage** - The number of APIs your team has added monitors to.
 * **API test coverage** - The number of APIs your team has added tests to.
 * **API documentation coverage** - The number of APIs your team has added documentation to.
-* **Watch count** - The number of times someone has watched an API in the reporting period.
+* **Watch count** - The number of times someone has watched an API in the reporting period. This number includes users who watched and then unwatched an API.
 * **Comments over time** - The number of times someone has commented on an API in the reporting period.
 
 ## View Report by API
@@ -91,8 +92,8 @@ __View reports by API__ provides a report for each individual API. Scroll throug
 * **API name** - The name of the API.
 * **API created by** - The user who created the API.
 * **API created on** - The date the API was created.
-* **Number of API requests** - The number of requests made to the API in the reporting period.
-* **Failed test runs** - The total number of failed test runs in the reporting period.
-* **Average response size** - The average response size in the reporting period, in bytes.
-* **Average response time** - The average response time in the reporting period, in milliseconds.
-* **API response codes** - The HTTP response codes for each API response.
+* **Number of API requests** - The number of requests made to the API in the last 30 days.
+* **Failed test runs** - The total number of failed test runs in the last 30 days.
+* **Average response size** - The average response size in bytes in the last 30 days.
+* **Average response time** - The average response time in milliseconds in the last 30 days.
+* **API response codes** - The HTTP response codes for each API response in the last 30 days.

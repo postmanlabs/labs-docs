@@ -30,22 +30,30 @@ The **All workspaces** dashboard shows a report with aggregated metrics on all y
 The **All workspaces** summary report contains the following information:
 
 * **Total workspaces** - The total number of workspaces including public, team, personal, and private workspaces.
-* **Workspaces created over time** - The total number of workspaces created by your team in the reporting period.
-* **Workspaces by type** - The total number of personal, private, public, and team workspaces, and the number of empty workspaces of each type.
+* **Workspaces created over time** - The total number of workspaces created by your team in the reporting period. This might include workspaces that have since been deleted, as long as they were created in the reporting period.
+* **Workspaces by type** - The total number of personal, private, public, and team workspaces, and the number of empty workspaces of each type. Empty workspaces are workspaces that do not contain any entities.
 * **Active workspaces over time** - The number of workspaces with at least one action on that day. Actions include:
 
     * Creating, editing, deleting, and sending requests.
     * Creating, editing, and deleting collections, APIs, environments, mocks, and monitors.
+
+    > This metric does not include administrative or billing-related tasks that happen outside of a workspace.
 
 ## Team Workspaces
 
 The **Team Workspaces** report shows information about your team workspaces:
 
 * **Total team workspaces** - The total number of team workspaces for your team.
-* **Most active team workspace** - A link to the most active team workspace in the past 30 days.
+* **Most active team workspace** - A link to the most active team workspace in the past 30 days. Actions include:
+
+    * Creating, editing, deleting, and sending requests.
+    * Creating, editing, and deleting collections, APIs, environments, mocks, and monitors.
+
+    > This metric does not include administrative or billing-related tasks that happen outside of a workspace.
+
 * **Entities in team workspaces** - The number of environments, monitors, mocks, collections, and APIs in all team workspaces.
-* **Forks and Pull requests over time** - The number of times a collection in your team workspaces has been forked or pulled in the reporting period.
-* **Watch over time** - The number of times someone has watched a collection or API in your team workspaces in the reporting period.
+* **Forks and Pull requests on team collections** - The number of times a collection in your team workspaces has been forked or pulled in the reporting period. This might include forks and pull requests that have since been deleted, as long as they were created in the reporting period.
+* **Watch count** - The number of times someone has watched a collection or API in your team workspaces in the reporting period. This number includes users who watched and then unwatched an entity.
 * **Comments over time** - The number of times a person has commented on an API, collection, pull request, request, or folder in your team workspaces in the reporting period.
 
 ## Public Workspaces
@@ -53,10 +61,16 @@ The **Team Workspaces** report shows information about your team workspaces:
 The **Public Workspaces** report shows information about your public workspaces:
 
 * **Total public workspaces** - The total number of public workspaces for your team.
-* **Most active public workspace** - A link to the most active public workspace in the past 30 days.
+* **Most active public workspace** - A link to the most active public workspace in the past 30 days. Actions include:
+
+    * Creating, editing, deleting, and sending requests.
+    * Creating, editing, and deleting collections, APIs, environments, mocks, and monitors.
+
+    > This metric does not include administrative or billing-related tasks that happen outside of a workspace.
+
 * **Most viewed public workspace** - A link to the most viewed public workspace in the past three months.
-* **Workspace and Collection views** - The number of workspace and collection views within your public workspaces in the reporting period.
+* **Views on public entities** - The number of workspace and collection views within your public workspaces in the reporting period.
 * **Entities in public workspaces** - The number of environments, monitors, mocks, collections, and APIs in your team's public workspaces.
-* **Forks and Pull requests over time** - The number of times a collection in your public workspaces has been forked or pulled in the reporting period.
-* **Watch over time** - The number of times someone has watched a collection or API in your public workspaces in the reporting period.
+* **Forks and Pull requests on public collections over time** - The number of times a collection in your public workspaces has been forked or pulled in the reporting period. This might include forks and pull requests that have since been deleted, as long as they were created in the reporting period.
+* **Watch count** - The number of times someone has watched a collection or API in your public workspaces in the reporting period. This number includes users who watched and then unwatched an entity.
 * **Comments over time** - The number of times a person has commented on an API, collection, pull request, request, or folder in your public workspaces in the reporting period.
