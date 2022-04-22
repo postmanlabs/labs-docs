@@ -40,7 +40,7 @@ For help with any account or billing issues, go to Postman's [Support Center](ht
 
 * [Payments](#payments)
 
-    * [Managing cards](#managing-cards)
+    * [Managing payment methods](#managing-payment-methods)
 
     * [Using the Pay Now option](#using-the-pay-now-option)
 
@@ -98,7 +98,7 @@ In your [billing dashboard](http://go.postman.co/billing), select **Plan and pay
 
 <img alt="Account history view" src="https://assets.postman.com/postman-docs/billing-history-v9.1.jpg" />
 
-Items such as updates to your Postman subscription, card changes, payments, and charges are all listed in chronological order.
+Items such as updates to your Postman subscription, payment method changes, payments, and charges are all listed in chronological order.
 
 ### Viewing past invoices
 
@@ -112,21 +112,21 @@ To add or edit the information on an invoice, see [adding custom information to 
 
 Postman offers various payment options dependent on your plan type.
 
-### Managing cards
+### Managing payment methods
 
 In your [billing dashboard](http://go.postman.co/billing), select **Plan and payments** on the left, then **Payment methods**.
 
 To add, select **Add Payment Method**.
 
-To remove, hover over the card in question and select **Delete Payment Method**.
+To remove, hover over the payment method in question and select **Delete Payment Method**.
 
-To set a card as your primary, hover over the card and **Set as Primary**.
+To set a payment method as your primary, hover over it and select **Set as Primary**.
 
 <img alt="Payment methods view" src="https://assets.postman.com/postman-docs/payment-methods-page.jpg" />
 
 ### Using the Pay Now option
 
-In some circumstances, including an overdue or [failed payment](#failed-payments), you may receive an invoice for your Postman payment. From the invoice, select **Pay Now** to pay immediately using [your card](#managing-cards) or Apple Pay or Google Pay (if supported).
+In some circumstances, including an overdue or [failed payment](#failed-payments), you may receive an invoice for your Postman payment. From the invoice, select **Pay Now** to pay immediately using your primary [payment method](#managing-payment-methods), or Apple Pay or Google Pay if supported.
 
 ### Paying by invoice
 
@@ -144,7 +144,7 @@ Add or update your company name, billing email, address, and your VAT ID if appl
 
 ### Failed payments
 
-If you have a card on file, Postman will automatically attempt three times to charge it. If this is unsuccessful, team members with billing privileges receive an email notification. Use the link in the email to access and pay for your [invoice](#using-the-pay-now-option).
+If you have a payment method on file, Postman will automatically attempt three times to charge it. If this is unsuccessful, team members with billing privileges receive an email notification. Use the link in the email to access and pay for your [invoice](#using-the-pay-now-option).
 
 <img alt="Failed payment email" src="https://assets.postman.com/postman-docs/billing-email-payment-declined-v9.1.jpg" width="400px"/>
 
