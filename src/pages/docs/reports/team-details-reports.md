@@ -92,4 +92,4 @@ This section contains information about [integrations](https://learning.postman.
 
 * **Integration usage** - The number of integrations created.
 * **Integrations on entities** - The number of integrations on APIs, collections, and monitors created.
-* * **Integrations by type** - The number of integrations, broken down by integration type.
+* **Integrations by type** - The number of integrations, broken down by integration type.
