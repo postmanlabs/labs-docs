@@ -117,7 +117,7 @@ When you're ready, select **Connect**.
 
 ### Importing a schema
 
-After setting up the connection, you can choose to import a schema from the API Gateway:
+After setting up the connection, you can choose to import an HTTP or REST schema from the API Gateway:
 
 * To import a schema, select the **AWS stage** to import the schema from and select **Import**. _Importing a schema will replace your current API schema or add a new schema if one doesn't exist._
 * If you don't want to import a schema, select **Maybe later**. You can [import a schema](#importing-a-schema-from-amazon-api-gateway) at any time after connecting to Amazon API Gateway.
@@ -166,7 +166,7 @@ From the CloudWatch dashboard, you can take the following actions:
 
 ## Importing a schema from Amazon API Gateway
 
-You can import a schema from a connected Amazon API Gateway to your API in Postman. _Importing a schema will replace your current API schema or add a new schema if one doesn't exist._
+You can import an HTTP or REST schema from a connected Amazon API Gateway to your API in Postman. _Importing a schema will replace your current API schema or add a new schema if one doesn't exist._
 
 1. Open your API by selecting **APIs** in the sidebar, and then selecting an API and a version.
 1. Select the **Deployments** tab, and then select **Import Schema**.
