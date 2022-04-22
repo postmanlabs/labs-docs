@@ -161,22 +161,22 @@ On the repo dropdown list, select **Delete Integration**. Note that this only re
 
 ## Working with API versions
 
-When you create a new API in Postman, it also creates the initial version you entered during the API creation. You can create new versions from scratch or based on an existing version. Each API version has its own **API version** page, which you can find on the API Overview page or in the left sidebar.
+When you create a new API in Postman, it also creates the initial version you entered during the API creation. You can create new versions from scratch or based on an existing version. Each API version has its own **API version** page, which you can find on the API Overview page or in the sidebar.
 
 ### Creating versions
 
 To create a new version of an API:
 
-1. Go to the API **Overview** page. Select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> in the upper right corner and select **Create version**.
+1. Go to the API **Overview** page. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> in the upper right corner and select **Create version**.
 1. Enter a version name.
 1. Select **Make this version available for consumers** if you want the new version to be visible. Otherwise, it's only visible to editors.
-1. If you want to base this version on existing elements, select **Show more options** to expand the dialog. In **Copy elements from a previous version**, choose a previous version of the API. Then select the elements you want to copy to your new API.
+1. If you want to base this version on existing elements, select **Show more options**. In **Copy elements from a previous version**, choose a previous version of the API. Then select the elements you want to copy to your new API.
     > Copying an element creates a new copy in your workspace. The new element will have the new version number appended to its name, such as `my-docs-2.0.0`. The new elements will be linked to the new version of the API.
 1. Select __Create Version__. Your new version will open in the API Builder.
 
 ### Renaming and deleting versions
 
-You can rename, edit, or delete an API version using the __View more actions__ (<img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px">) menu in the left sidebar. Editing an API enables you to change the name, status, and visibility at once.
+You can rename, edit, or delete an API version using the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> in the sidebar. Editing an API enables you to change the name, status, and visibility at once.
 
    > When you delete an API version, the collections, monitors, mocks, and environments linked to it will not be deleted or removed.
 
@@ -199,14 +199,14 @@ Each release page shows a read-only view of the schema, documentation, and tests
 To create a release:
 
 1. If you are using an external Git repo, create a release in Git first by merging changes from your develop branch to the main branch, and creating a release tag.
-1. Select the Changelog icon (<img alt="Changelog icon" src="https://assets.postman.com/postman-docs/icon-changelog.jpg" width="25px" style="vertical-align:middle;margin-bottom:0px">) in the sidebar. The Changelog will show changes to the API version's schema and associated elements.
+1. Select the changelog icon (<img alt="Changelog icon" src="https://assets.postman.com/postman-docs/icon-changelog.jpg" width="25px" style="vertical-align:middle;margin-bottom:0px">) in the sidebar. The Changelog will show changes to the API version's schema and associated elements.
 1. Select **+ Release changes**.
 1. Enter the release name and description.
 1. If you are using an external Git repo, select a tag in **Git release**.
 1. Select **Make this version available for consumers** if you want the new version to be visible. Otherwise, it's only visible to editors.
 1. Select **Create Release**. You will be taken to a new page for the release.
 
-You can also edit a release name in the Changelog. Next to the release, select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px">, then select **Edit**.
+You can also edit a release name in the Changelog. Next to the release, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px">, then select **Edit**.
 
 ## Setting an API status
 

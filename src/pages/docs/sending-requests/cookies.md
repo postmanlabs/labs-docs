@@ -42,7 +42,7 @@ A cookie typically contains two pieces of data: a unique ID for each user and a 
 
 ## Using the cookie manager
 
-To manage cookies in Postman, open a request and select the **Cookies** link under the **Send** button.
+To manage cookies in Postman, open a request, then select **Cookies** (under **Send**).
 
 ![cookies link](https://assets.postman.com/postman-docs/cookies-link.jpg)
 
@@ -97,7 +97,7 @@ When you add a domain to the allowlist, cookies for that domain can be accessed 
 
 To add a domain to the allowlist:
 
-1. Open a request and select the **Cookies** link under the **Send** button.
+1. Open a request, then select **Cookies** (under **Send**).
 1. In the **Manage Cookies** window, select **Domains Allowlist**.
 1. Enter the domain to be allowed and select **Add**.
 

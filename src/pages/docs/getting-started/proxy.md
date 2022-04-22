@@ -55,7 +55,7 @@ Postman's native apps for Mac, Windows, and Linux support configuring proxies. Y
 
 Use the **custom proxy** if all of your applications need to use the same proxy. Turn **custom proxy** _on_ if you want to direct the requests from Postman go through a custom proxy server. Turning it off will direct the requests to not use the proxy server.
 
-To configure the proxy settings, select the gear icon on the right side of the header toolbar, choose **Settings**, and select the **Proxy** tab.
+To configure the proxy settings, select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the header, then choose **Settings** > **Proxy**.
 
 [![Proxy settings modal](https://assets.postman.com/postman-docs/proxy-settings-overview-modal.jpg)](https://assets.postman.com/postman-docs/proxy-settings-overview-modal.jpg)
 
@@ -108,7 +108,7 @@ You can select the option "**Use the system proxy**" to turn the system proxy on
 If you are unable to send any requests through Postman and your network requires a proxy, take the following steps:
 
 * Enable the system proxy and make sure the proxy is added to the operating system:
-    * **Windows**: Select **Start**, then select on the gear icon (**Settings**) at the far left. In Settings, select **Network & Internet**. In the left-hand pane, select **Proxy** at the bottom. Select **Manual Proxy Setup** > use a Proxy **(ON)**.
+    * **Windows**: Select **Start**, then select the gear icon (**Settings**) at the far left. In Settings, select **Network & Internet**. In the left-hand pane, select **Proxy** at the bottom. Select **Manual Proxy Setup** > use a Proxy **(ON)**.
 
     * **Mac**: Open System Preferences and select **Network**. On the left-hand side, make sure to select the connected or active network connection. You can have different proxy settings for each type of network connection. At the bottom, select **Advanced**. Select the **Proxies** tab and you will see different protocols you can configure. If you select **Web Proxy (HTTP)**, you will be able to enter the proxy server IP address, port number, username, and password.
 

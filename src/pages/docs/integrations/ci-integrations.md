@@ -50,7 +50,7 @@ To view build jobs, open your API and select the **Test** tab. The most recent j
 
 * To view a build in your CI tool, hold the cursor over a build and select **View build details**.
 * To kick off a new build, select **Run Build**. Select or type a branch name, and then select **Run Build**.
-* To edit or delete the integration, select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px">.
+* To edit or delete the integration, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px">.
 
 <img alt="View CI recent runs" src="https://assets.postman.com/postman-docs/ci-recent-runs-v9-15.jpg">
 

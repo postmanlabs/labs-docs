@@ -29,7 +29,7 @@ You can have up to three devices logged in to your Postman account simultaneousl
 
 ## Understanding sync states
 
-Postman indicates the sync state of your workspace with the cloud icon. Possible states are:
+Postman indicates the sync state of your workspace with the sync icon. Possible states are:
 
 * **Offline** <img alt="Sync offline icon" src="https://assets.postman.com/postman-docs/icon-sync-offline.jpg#icon" width="16px"> means that you aren't connected to the Postman servers. This means that either your computer isn't connected to the internet or you aren't signed in to Postman.
 

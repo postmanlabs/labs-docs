@@ -41,7 +41,7 @@ warning: false
 
 You can make requests that return mock data defined within Postman if you do not have a production API ready, or you do not want to run your requests against real data yet. By adding a mock server to your collection and adding examples to your requests, you can simulate the behavior of a real API.
 
-When you send a request to a mock server, Postman will match the request configuration to the examples you have saved for the request and respond with the data you added to the example. You will see any existing mocks in your workspace from __Mock Servers__ on the left of Postman.
+When you send a request to a mock server, Postman will match the request configuration to the examples you have saved for the request and respond with the data you added to the example. You will see any existing mocks in your workspace from __Mock Servers__ in the sidebar.
 
 > You need to be signed into a Postman account to create a mock server.
 
@@ -52,8 +52,8 @@ When you send a request to a mock server, Postman will match the request configu
 To try out a mock server, carry out the following steps:
 
 * Make a request to any API in Postman–making sure your request is saved to a collection.
-* Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> at the top right to view more actions, then select __Add example__. Postman will automatically populate the example with the response you received when you sent the request.
-* In **Collections** on the left, select the collection and open the __Info__ using the button on the right. Select **Create mock server**.
+* Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> at the top right, then select __Add example__. Postman will automatically populate the example with the response you received when you sent the request.
+* In **Collections** in the sidebar, select the collection, and then select the information icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px"> on the right. Select **Create mock server**.
 * Give your mock a name, leaving the default tag selected, and the delay option unchecked. Select **Create Mock Server**.
 * Copy the mock URL and go back into your request. Replace the base part of the URL with the mock server URL (everything before the path, for example up to `/customers`).
 * Select **Send**. Postman should return the example response you saved for the request, this time from the mock server.
@@ -70,11 +70,11 @@ To try out a mock server, carry out the following steps:
 
 ## Creating mock servers
 
-You can create mock servers from an existing collection, or Postman will create a new collection for your mock server. You can create a new mock [from scratch](#creating-a-mock-from-scratch), [from a collection](#creating-a-mock-from-a-collection), [from the New button](#creating-a-mock-from-the-new-button), [from an API](#creating-a-mock-from-an-api), or [from your history](#creating-a-mock-from-history).
+You can create mock servers from an existing collection, or Postman will create a new collection for your mock server. You can create a new mock [from scratch](#creating-a-mock-from-scratch), [from a collection](#creating-a-mock-from-a-collection), [from the sidebar](#creating-a-mock-from-the-sidebar), [from an API](#creating-a-mock-from-an-api), or [from your history](#creating-a-mock-from-history).
 
 ### Creating a mock from scratch
 
-In __Mock Servers__ on the left of Postman, select the __+__ button.
+In __Mock Servers__ in the sidebar, select __+__.
 
 <img alt="New mock" src="https://assets.postman.com/postman-docs/new-mock-v8.jpg" width="350px"/>
 
@@ -86,13 +86,13 @@ Configure your [mock details](#configuring-mock-details).
 
 ### Creating a mock from a collection
 
-Open a collection in Postman, and open the __Info__ from the button in the right sidebar. Select __Create mock server__.
+Open a collection in Postman, and select the information icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px"> in the right sidebar. Select __Create mock server__.
 
 [![New mock](https://assets.postman.com/postman-docs/add-mock-v8.jpg)](https://assets.postman.com/postman-docs/add-mock-v8.jpg)
 
 Configure your [mock details](#configuring-mock-details).
 
-### Creating a mock from the New button
+### Creating a mock from the sidebar
 
 Select __New__ and choose __Mock Server__.
 
@@ -106,7 +106,7 @@ Configure your [mock details](#configuring-mock-details).
 
 If you want to generate a mocks collection from an API or add a mock to an API collection:
 
-1. Open an API version from __APIs__ on the left of Postman.
+1. Open an API version from __APIs__ in the sidebar.
 
 1. On the API version **Overview** tab, next to **Mock Servers**, select **+** and choose **Create new mock server** or **Add existing mock server**.
 
@@ -120,7 +120,7 @@ If you want to generate a mocks collection from an API or add a mock to an API c
 
 ### Creating a mock from history
 
-You can build a mock based on requests from your Postman history. In __History__ on the left, hover over a request or date and select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> __> Mock Request__.
+You can build a mock based on requests from your Postman history. In __History__ on the left, hover over a request or date and select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> __> Mock Request__.
 
 <img alt="Mock history" src="https://assets.postman.com/postman-docs/mock-history-v8.jpg" width="350px"/>
 
@@ -150,7 +150,7 @@ You will see details of the mock in the collection overview info on the right.
 
 [![Mock in collection](https://assets.postman.com/postman-docs/mock-info-v8.jpg)](https://assets.postman.com/postman-docs/mock-info-v8.jpg)
 
-To edit or delete a mock, select **Mock Servers** on the left, then select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> next to the mock's name.
+To edit or delete a mock, select **Mock Servers** on the left, then select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the mock's name.
 
 ## Making requests to mocks
 
@@ -196,7 +196,7 @@ CORS is enabled for Postman mock servers. As a result, you can stub your web app
 
 ## Viewing mock calls
 
-You can view and search the details of calls to your mock servers using the mock call log. Open a mock from __Mock Servers__ on the left of Postman. Your mock overview and call log will open.
+You can view and search the details of calls to your mock servers using the mock call log. Open a mock from __Mock Servers__ in the sidebar. Your mock overview and call log will open.
 
 [![Mock Call](https://assets.postman.com/postman-docs/mock-calls-v8.jpg)](https://assets.postman.com/postman-docs/mock-calls-v8.jpg)
 
@@ -204,7 +204,7 @@ The mock call log lists an overview of calls made to the mock url, together with
 
 Mock call log entries indicate the time a request was sent, the request method and path, and a response overview. Select an entry to see more detail on request headers and body, or response headers and body.
 
-Use the search field to find particular calls, and the refresh button at the top of the list to view up to date requests.
+Use the search field to find particular calls. Use the refresh icon <img alt="Refresh icon" src="https://assets.postman.com/postman-docs/icon-refresh-v9-5.jpg#icon" width="14px"> at the top of the list to view up to date requests.
 
 ### Troubleshooting mock calls
 

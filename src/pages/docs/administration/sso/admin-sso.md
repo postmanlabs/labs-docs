@@ -26,11 +26,14 @@ Upon selecting *Authentication*, the following screen appears:
 
 [![sso enable](https://assets.postman.com/postman-docs/configured-auths.jpg)](https://assets.postman.com/postman-docs/configured-auths.jpg)
 
-After configuring an SSO authentication for your Postman team, you can use the toggle option in Settings (as illustrated above) to turn on or off this SSO authentication. Select the button to turn your SSO authentication system on or off. This is a team-level option and applies to the whole team. To update the SSO settings, select **Edit**.
+After configuring an SSO authentication for your Postman team, you can use the toggle option in Settings (as illustrated above) to turn on or off this SSO authentication. Select the toggle to turn your SSO authentication system on or off. This is a team-level option and applies to the whole team. To update the SSO settings, select **Edit**.
 
-To configure a new authentication method, select **Add a new authentication method** button.
+To configure a new authentication method:
 
-In the **Add Authentication Method** modal, select the authentication type. Enter an authentication name that is easily identifiable to your team. Then select the **Proceed** button.
+1. Select **Add Authentication Method**.
+1. Select the authentication type.
+1. Enter an authentication name that is easily identifiable to your team.
+1. Select **Proceed**.
 
 <img src="https://assets.postman.com/postman-docs/add-auth-method.jpg" width="350px" alt="Authentication Method"/>
 

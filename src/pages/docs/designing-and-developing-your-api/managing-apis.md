@@ -37,7 +37,7 @@ When you [define your APIs](/docs/designing-and-developing-your-api/the-api-work
 
 ## Sharing APIs
 
-You can share your APIs with collaborators by navigating to the API you'd like to share in the left sidebar. Select it, then select <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> > **Share**.
+You can share your APIs with collaborators by navigating to the API you want to share in the sidebar. Select it, then select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> > **Share**.
 
 <img alt="Share API" src="https://assets.postman.com/postman-docs/share-api-9.4.jpg"/>
 
@@ -49,7 +49,7 @@ You can move APIs to shared workspaces to collaborate with your team.
 
 > You must be an editor on an API or the workspace admin to move the API to another workspace.
 
-In the sidebar, select the API you want to share, then select the more actions icon <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> > **Move**.
+In the sidebar, select the API you want to share, then select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> > **Move**.
 
 Use the search bar to find the workspace you'd like to move the API to, or filter by workspace visibility by selecting the icon to the right of the search bar.
 
@@ -77,7 +77,7 @@ Select __Watch__ to start watching the API.
 
 <img src="https://assets.postman.com/postman-docs/watch-button-v9.jpg" alt="Watch Option" width="350px"/>
 
-Select the bell icon <img alt="Notifications icon" src="https://assets.postman.com/postman-docs/icon-notification-bell-v9.jpg#icon" width="18px"> on the top right corner to view the notification. The popup will indicate further information about the change that was made to the API.
+Select the notifications icon <img alt="Notifications icon" src="https://assets.postman.com/postman-docs/icon-notification-bell-v9.jpg#icon" width="18px"> in the Postman header. The popup will indicate further information about the change that was made to the API.
 
 ![Notification Watch API](https://assets.postman.com/postman-docs/v8-watch-notification2.jpg)
 
@@ -89,7 +89,7 @@ You will also receive an email with the information regarding who has made the c
 
 You can discuss your APIs with collaborators in Postman, keeping the conversation in context and available to other stakeholders. Anyone with access to the API can comment.
 
-To leave a comment on an API, open __APIs__ in the left sidebar and select the API version you want to comment on. Switch to comment mode, enter your comment, and **Add comment** to publish it.
+To leave a comment on an API, select __APIs__ in the sidebar, then select the API version you want to comment on. Switch to comment mode, enter your comment, and **Add comment** to publish it.
 
 [![API comment app](https://assets.postman.com/postman-docs/api-builder-add-comment-v9.jpg)](https://assets.postman.com/postman-docs/api-builder-add-comment-v9.jpg)
 
@@ -103,7 +103,7 @@ If you want to call the attention of a collaborator in comment, you can tag them
 
 ### Editing, deleting, or linking to a comment
 
-To edit, delete, or link to one of your comments, go to the comment section and hover over the comment you wish to manage. Select the pen icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px"> to edit the comment, the trash icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> to delete, or the anchor icon <img alt="Link icon" src="https://assets.postman.com/postman-docs/icon-workspace-link-v9.jpg#icon" width="18px"> to get a direct link to the comment.
+To edit, delete, or link to one of your comments, go to the comment section and hover over the comment you wish to manage. Select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px"> to edit the comment, the trash icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> to delete, or the anchor icon <img alt="Link icon" src="https://assets.postman.com/postman-docs/icon-workspace-link-v9.jpg#icon" width="18px"> to get a direct link to the comment.
 
 [![API comment manage](https://assets.postman.com/postman-docs/v8-managing-comment-actions2.jpg)](https://assets.postman.com/postman-docs/v8-managing-comment-actions2.jpg)
 
@@ -126,4 +126,4 @@ Select **+ Release changes** at the top of the list to create a release from unr
 For more info on working with the API Builder in Postman, check out the following resources:
 
 - [Versioning APIs](/docs/designing-and-developing-your-api/versioning-an-api/)
-- [Using reports](/docs/reports/reports-overview)
+- [Using reports](/docs/reports/reports-overview/)

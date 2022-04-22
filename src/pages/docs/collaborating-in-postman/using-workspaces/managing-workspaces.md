@@ -60,7 +60,7 @@ The workspace's **Overview** tab displays a summary and description of the works
 
 ### Getting the workspace ID
 
-To view the workspace ID, select the **Workspace details** icon. Copy the workspace ID to use it in collection requests or environments. You can also view the creator of the workspace and when was the workspace was last updated.
+To view the workspace ID, select the information icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px">. Copy the workspace ID to use it in collection requests or environments. You can also view the creator of the workspace and when was the workspace was last updated.
 
 <img alt="Workspace ID" src="https://assets.postman.com/postman-docs/find-workspace-id-v9.jpg" width="300px"/>
 
@@ -134,7 +134,7 @@ To start watching a workspace, select **Watch** on the upper right of the worksp
 
 <img alt="Watching a workspace" src="https://assets.postman.com/postman-docs/watching-a-workspace-v9.jpg"/>
 
-To see notifications, select the bell <img alt="Bell icon" src="https://assets.postman.com/postman-docs/icon-notification-bell-v9.jpg#icon" width="18px"> in the Postman header. The notification list shows details about changes to workspaces you are watching. You will also receive an email with information about the change, who made it, and when.
+To see notifications, select the notification icon <img alt="Bell icon" src="https://assets.postman.com/postman-docs/icon-notification-bell-v9.jpg#icon" width="18px"> in the Postman header. The notification list shows details about changes to workspaces you are watching. You will also receive an email with information about the change, who made it, and when.
 
  To stop watching a workspace, select **Unwatch** on the upper right of the workspace's **Overview** tab.
 
@@ -148,12 +148,12 @@ Workspaces can contain elements such as collections, APIs, environments, mock se
 
 To move an element to a different workspace:
 
-1. Select **Collections**, **APIs**, **Environments**, or **Mock Servers** in the left sidebar.
-1. Select the three dots <img alt="Three dots icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> next to an element and then select **Move**.
+1. Select **Collections**, **APIs**, **Environments**, or **Mock Servers** in the sidebar.
+1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to an element and then select **Move**.
 
     <img alt="Move collection" src="https://assets.postman.com/postman-docs/move-collection-v9.jpg" width="300px" height="400px"/>
 
-1. Select the workspace where you want to move the element, and then select the **Move** button.
+1. Select the workspace where you want to move the element, and then select **Move**.
 
     > You cannot move elements from a private, team, or public workspace to a personal workspace.
 
@@ -161,7 +161,7 @@ To move an element to a different workspace:
 
 ## Seeing who is in your workspace
 
-You can view who's active in your workspace at any time via the list of avatars in the top right corner of Postman. If you're in a private or team workspace, this list will include all team members who are currently active in the workspace, as well as all team members who are currently inactive, but have visited the workspace before.
+You can view who's active in your workspace at any time via the list of avatars in the Postman header. If you're in a private or team workspace, this list will include all team members who are currently active in the workspace, as well as all team members who are currently inactive, but have visited the workspace before.
 
 If you're in a public workspace, this list will include all active users with [public profiles](/docs/getting-started/postman-account/#making-your-profile-public) as well as users who've chosen to remain anonymous by not enabling their public profile.
 
