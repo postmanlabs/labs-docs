@@ -13,6 +13,11 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Public Workspaces | The Exploratory"
+    url: "https://youtu.be/DjGbMdqnY64"
+  - type: subtitle
     name: "Related Blog Posts"
   - type: link
     name: "How to Set Up Your First Public Workspace in 5 Easy Steps"
@@ -23,11 +28,6 @@ contextual_links:
   - type: link
     name: "Public Workspaces: Why We Created Them and What You Can Do with Them"
     url: "https://blog.postman.com/public-workspaces-why-we-created-them-what-you-can-do/"
-  - type: subtitle
-    name: "Videos"
-  - type: link
-    name: "Public Workspaces | The Exploratory"
-    url: "https://youtu.be/DjGbMdqnY64"
   - type: link
     name: "Workspace Linter Using a Style Guide | Postman Level Up"
     url: "https://youtu.be/6MSS8YgvFVA"
