@@ -630,7 +630,7 @@ The `postman` object provides the `setNextRequest` method for building request w
 
 > Note that `setNextRequest` has no effect when you run requests using **Send**; it only has an effect when you run a collection.
 
-When you run a collection (using the collection runner or Newman), Postman will run your requests in a default order or an order you specify when you set up the run. However, you can override this execution order using `postman.setNextRequest` to specify which request should run next.
+When you run a collection (using the collection runner or Newman), Postman will run your requests in a default order or an order you specify when you set up the run. However, you can override this execution order using `postman.setNextRequest` to specify which request to run next.
 
 * Run the specified request after this one (the request name as defined in the collection, for example "Get customers"):
 

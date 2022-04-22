@@ -56,7 +56,7 @@ Under **Members**, select the roles next to the user you would like to update. S
 
 Each team member must have a minimum of one role assigned to them.
 
-Teams may have two support accounts at no additional cost. Support accounts are defined as members with only admin and/or billing roles.
+Teams may have two support accounts at no additional cost. Support accounts are defined as members with only admin or billing roles.
 
 > Roles can also be assigned via [groups](/docs/administration/managing-your-team/user-groups/).
 

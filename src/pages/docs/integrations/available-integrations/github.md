@@ -125,4 +125,4 @@ If your GitHub integration has issues or your data isn't pushed to GitHub, check
 * You have permissions to push to the branch.
 * If your enterprise version of GitHub is on-premises or self-hosted, check with your IT team for [firewall requirements](#static-ip-support).
 
-Edit the integration to make any required changes and try again. If the integration still doesn't work, try deleting the integration and adding it again.
+Edit the integration to make any required changes. If the integration still doesn't work after you edit it, delete the integration and add it again.
