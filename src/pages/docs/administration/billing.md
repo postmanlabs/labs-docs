@@ -116,9 +116,13 @@ Postman offers various payment options dependent on your plan type.
 
 In your [billing dashboard](http://go.postman.co/billing), select **Plan and payments** on the left, then **Payment methods**.
 
-To add, select **Add Payment Method**.
+Accepted payment methods include credit cards or [verified bank account via ACH]. <!-- TODO: better wording -->
 
-To remove, hover over the payment method in question and select **Delete Payment Method**.
+> If you use ACH as your payment method, you must verify your bank account before Postman can process payment. The payment service that Postman uses, Stripe, makes a test transaction into your account, the details of which you will use to confirm your bank account details. 
+
+To add a new payment method, select **Add Payment Method**.
+
+To remove a payment method, hover over the payment method in question and select **Delete Payment Method**.
 
 To set a payment method as your primary, hover over it and select **Set as Primary**.
 
