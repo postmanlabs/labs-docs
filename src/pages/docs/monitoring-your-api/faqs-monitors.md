@@ -79,7 +79,7 @@ Monitors cannot be moved between workspaces. If you move a collection out of the
 
 ### Can I delete a monitor?
 
-You can delete a monitor at any time. Once deleted, all run history for the monitor is deleted too. If you want to retain the history, then you should pause the monitor instead of deleting it.
+You can delete a monitor at any time. Once deleted, all run history for the monitor is deleted too. If you want to retain the history, pause the monitor instead of deleting it.
 
 ### Where do monitors run?
 

@@ -95,7 +95,7 @@ After you've created the collection, [export it as a JSON file](/docs/getting-st
 
 1. Select the build in the history list, then select **Console Output** to see what Newman returned.
 
-1. Fix these tests inside your collection. Export it and then try again.
+1. Fix these tests inside your collection. Export it and then run the build again.
 
 Jenkins indicates that the build succeeded with a green checkmark.
 
