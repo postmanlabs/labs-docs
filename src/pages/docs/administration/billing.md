@@ -128,13 +128,25 @@ To set a payment method as your primary, hover over it and select **Set as Prima
 
 #### Setting up ACH payments
 
-Postman accepts ACH direct debit payments, which takes payment funds directly from a linked bank account.
+Postman accepts ACH direct debit payments, which take payment funds directly from a linked bank account. You need to verify your bank account before Postman can process payment.
 
-To use ACH as your payment method, you need to verify your bank account before Postman can process payment. Stripe, the payment service that Postman uses, makes a test transaction into your account, the details of which you will use to confirm your bank account details.
+To use ACH as your payment method:
 
-You will receive an email with the verification link and further details.
+1. Select **Add payment method**, then select **ACH**.
+1. Enter your email, your name, and either enter or search for your bank name.
+1. Enter your bank account number and its routing number.
+1. To verify your account immediately, select **Verify your bank account manually**. Otherwise, you will verify your bank account later.
+1. Select **Add account**.
 
-If you do not verify your account within __ days, for security Postman will delete your bank account information. 
+Stripe, the payment service that Postman uses, will make a small test deposit into your bank account that you will use to verify your bank account. To verify your bank account:
+
+1. In the Postman billing dashboard, select **Plans and payments**, then select **Verify**.
+1. Under **Enter code**, paste the six-digit code from your bank account.
+1. Select **Verify**.
+
+> If you do not verify your account within ten days, Postman will delete your bank account information. If you want to add ACH direct debit payment later, you will need to re-enter your bank account information.
+
+After your bank account is verified, Postman will send you a confirmation email. It can take up to four days to withdraw funds from your bank account via ACH.
 
 ### Using the Pay Now option
 
