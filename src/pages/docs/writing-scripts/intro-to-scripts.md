@@ -49,7 +49,7 @@ Postman contains a powerful runtime based on Node.js that allows you to add dyna
   1. Before a request is sent to the server, as a [pre-request script](/docs/writing-scripts/pre-request-scripts/) under the **Pre-request Script** tab.
   1. After a response is received, as a [test script](/docs/writing-scripts/test-scripts/) under the **Tests** tab.
 
-Postman will prompt you with suggestions as you type—select one to autocomplete your code.
+Postman will prompt you with suggestions as you enter text. Select one to autocomplete your code.
 
 [![Script autocomplete](https://assets.postman.com/postman-docs/autocomplete-v8.gif)](https://assets.postman.com/postman-docs/autocomplete-v8.gif)
 

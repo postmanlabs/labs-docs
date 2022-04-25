@@ -147,8 +147,8 @@ From the **Deployments** tab, select the name of a stage to view the CloudWatch 
 
 From the CloudWatch dashboard, you can take the following actions:
 
-* To view metrics for a different stage, select the stage in the drop-down list.
-* To view metrics for a different time range, select the time range in the drop-down list.
+* To view metrics for a different stage, select the stage in the dropdown list.
+* To view metrics for a different time range, select the time range in the dropdown list.
 * To view metrics for your API Gateway in AWS, select **View Dashboard**.
 * To view the this stage in AWS, select **View Stage on AWS**.
 * To view the latest CloudWatch metrics, select the refresh icon <img alt="Refresh icon" src="https://assets.postman.com/postman-docs/icon-refresh-v9-5.jpg#icon" width="14px">.

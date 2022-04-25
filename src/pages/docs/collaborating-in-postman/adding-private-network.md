@@ -111,7 +111,7 @@ Once you've created the folder, you can add APIs to get started. Make your API s
 
 > All versions that are visible to consumers will be available on the Private API Network. Read more about [API versioning](/docs/designing-and-developing-your-api/versioning-an-api/).
 
-Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the API you would like to edit from the network, then select __Edit API listing__ to modify the folder where the API should be located. Select **Update** to save your changes.
+Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the API you would like to edit from the network, then select __Edit API listing__ to change the location of the API. Select **Update** to save your changes.
 
 <img alt="Edit API listing" src="https://assets.postman.com/postman-docs/private-api-network-edit-listing.jpg" width="400px"/>
 

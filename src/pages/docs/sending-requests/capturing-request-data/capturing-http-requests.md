@@ -153,7 +153,7 @@ There are several controls you can use to limit, organize, and investigate traff
 * Use the search box to look for specific requests.
 * Select **>** next to a request to expand it and see more details.
 * Select the URL in the **URL** column to open the request as a new API request in Postman.
-* Below the request list, there are controls to change the collection where the traffic is being sent, and if it should be grouped by domain name or endpoints.
+* Below the request list, there are controls to change the collection where the traffic is being sent, and if it needs to be grouped by domain name or endpoints.
 
 When you select one or more requests from the list on the **Requests** tab, you can use the following controls:
 
