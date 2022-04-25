@@ -64,11 +64,11 @@ An environment is a set of [variables](/docs/sending-requests/variables/) you ca
 
 ## Creating environments
 
-You will see the selected environment status at the top-right of Postman, with any _active_ environment selected in the drop-down. In __Environments__ on the left you can access all environments, and select the set active icon <img alt="Set active icon" src="https://assets.postman.com/postman-docs/icon-checkmark-v9.jpg#icon" width="16px"> to make an environment active. Select an environment to open it for editing in a tab.
+You will see the selected environment status at the top-right of Postman, with any _active_ environment selected in the environment selector. In __Environments__ on the left you can access all environments, and select the set active icon <img alt="Set active icon" src="https://assets.postman.com/postman-docs/icon-checkmark-v9.jpg#icon" width="16px"> to make an environment active. Select an environment to open it for editing in a tab.
 
 [![Environment editor](https://assets.postman.com/postman-docs/environment-editor-v9.13.jpg)](https://assets.postman.com/postman-docs/environment-editor-v9.13.jpg)
 
-To the right next to the drop-down you will also see the environment quick look icon <img alt="Quick Look icon" src="https://assets.postman.com/postman-docs/eye.jpg#icon" width="16px">. The quick look lists variables for the active environment, and any global variables you have declared (or that are shared via your workspace).
+To the right next to the environment selector you will also see the environment quick look icon <img alt="Quick Look icon" src="https://assets.postman.com/postman-docs/eye.jpg#icon" width="16px">. The quick look lists variables for the active environment, and any global variables you have declared (or that are shared via your workspace).
 
 [![Environment quick look](https://assets.postman.com/postman-docs/environment-quicklook-v9.13.jpg)](https://assets.postman.com/postman-docs/environment-quicklook-v9.13.jpg)
 
@@ -121,13 +121,13 @@ To view the variables in an environment, select its name. You can edit, add, and
 
 ### Selecting an active environment
 
-To use the variables in an environment, select it from the drop-down list at the top right of Postman.
+To use the variables in an environment, select it from the environment selector at the top right of Postman.
 
 <img src="https://assets.postman.com/postman-docs/environment-selector-v9.13.jpg" alt="Environment selector" width="300px"/>
 
 To check a variable value at a glance, use the environment quick look icon <img alt="Quick Look icon" src="https://assets.postman.com/postman-docs/eye.jpg#icon" width="16px">.
 
-When you have an environment selected in the drop-down, Postman will treat it as the active environment, and will run all requests against that environment (if your requests reference environment variables).
+When you choose an environment using the environment selector, Postman treats it as the active environment and runs all requests against that environment (if your requests reference environment variables).
 
 To use an environment variable value in a request, reference it by name, surrounded with [double curly braces](/docs/sending-requests/variables/):
 
@@ -243,7 +243,7 @@ If you need to update the initial value of a variable in an environment you have
 
 [![Viewer role on environment](https://assets.postman.com/postman-docs/request-access-env-v9.13.jpg)](https://assets.postman.com/postman-docs/request-access-env-v9.13.jpg)
 
-Select the team member you want to submit the request to, and choose __Editor__ from the drop-down list. Select __Request Access__. You will receive an email when your request is approved.
+Select the team member you want to submit the request to, and select the __Editor__ role. Select __Request Access__. You will receive an email when your request is approved.
 
 ### Using an environment in editor role
 

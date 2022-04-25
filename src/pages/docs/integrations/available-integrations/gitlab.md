@@ -85,7 +85,7 @@ Every change that is saved to your Postman collection automatically commits chan
 
 1. In the **Backup your Postman Collections** page, choose an existing Postman Collection and your GitLab Project, then enter a filename for your backup.
 
-1. In **Advanced Options** you can enter a custom directory name or leave `Postman Collections` as the default. You can specify a branch for commit or the default branch of the repository will be used. Make sure you have write access to the branch where you are trying to push your changes.
+1. In **Advanced Options** you can enter a custom directory name or leave `Postman Collections` as the default. You can specify a branch for commit or the default branch of the repository will be used. Make sure you have write access to the branch where you want to push your changes.
 
    > Note that the branch you want to back up your collection to must already exist.
 

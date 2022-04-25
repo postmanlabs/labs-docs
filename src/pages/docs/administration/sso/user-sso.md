@@ -28,7 +28,7 @@ To sign into Postman:
 
 When you opt to sign into the desktop version of Postman, you will see the following screen and your default browser will automatically open a webpage asking you to sign into Postman.
 
-> Your browser should open within a few seconds. If it does not, you can select **open your browser** in Postman.
+> Your browser will open within a few seconds. If it doesn't, select **open your browser** in Postman.
 
 <img src="https://assets.postman.com/postman-docs/sign-in-with-web-browser.jpg" alt="Sign in with web browser"/>
 
