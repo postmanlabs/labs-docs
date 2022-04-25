@@ -1,0 +1,7 @@
+extends: metric
+message: "This topic has %s H2s in it. Does it need to be split up?"
+level: warning
+
+formula: heading_h2
+
+condition: "> 6"

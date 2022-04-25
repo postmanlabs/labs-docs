@@ -1,0 +1,128 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer renders correctly 1`] = `
+<footer>
+  <section
+    className="pb-5 section"
+    id="Footer"
+  >
+    <div
+      className="container"
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="col-sm-8 offset-sm-2 col-md-12 offset-md-0"
+        >
+          <div
+            className="row"
+          >
+            <div
+              className="col-6 col-md-3 col-lg-2 order-12 order-md-0 pad-md-right align-self-center"
+            >
+              <img
+                alt="Postman"
+                className="footer-img"
+                src="https://voyager.postman.com/illustration/postman-footer-rocket-launch.svg"
+              />
+              <span
+                className="col-12 d-none d-md-block copyright"
+              >
+                © 2022 Postman, Inc.
+              </span>
+            </div>
+            <div
+              className="col-6 col-md-3 offset-md-1 col-lg-3 offset-lg-2 order-1 order-md-2 mb-5"
+            >
+              <nav>
+                <h2
+                  className="footer-col-title"
+                >
+                  Postman Galaxy
+                </h2>
+                <ul
+                  className="column"
+                >
+                  
+                </ul>
+              </nav>
+            </div>
+            <div
+              className="col-6 col-md-3 order-2 order-md-3"
+            >
+              <div>
+                <nav
+                  className="mb-5"
+                >
+                  <h2
+                    className="footer-col-title"
+                  >
+                    Privacy
+                  </h2>
+                  <ul
+                    className="column"
+                  >
+                    
+                  </ul>
+                </nav>
+              </div>
+              <div>
+                <nav
+                  className="mb-5"
+                >
+                  <h2
+                    className="footer-col-title"
+                  >
+                    Terms
+                  </h2>
+                  <ul
+                    className="column"
+                  >
+                    
+                  </ul>
+                </nav>
+              </div>
+            </div>
+            <div
+              className="col-6 col-md-2 col-lg-2 order-3 order-md-4"
+            >
+              <div
+                className="row"
+              >
+                <div
+                  className="col-sm-12"
+                >
+                  <nav
+                    className="mb-5"
+                  >
+                    <h2
+                      className="footer-col-title"
+                    >
+                      Careers
+                    </h2>
+                    <ul
+                      className="column"
+                    >
+                      
+                    </ul>
+                  </nav>
+                </div>
+              </div>
+            </div>
+            <div
+              className="col-12 d-block d-md-none text-center order-last"
+            >
+              <span
+                className="col-12 copyright"
+              >
+                © 2022 Postman, Inc.
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</footer>
+`;

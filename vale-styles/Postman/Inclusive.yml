@@ -1,0 +1,13 @@
+extends: substitution
+message: "Use '%s' instead of '%s'."
+level: warning
+ignorecase: true
+action:
+  name: replace
+swap:
+  blacklist: blocklist
+  whitelist: allowlist
+  disable: turn off, deselect, inactive, unavailable, or deactivated
+  normal: expected or typical
+  dummy: sample
+  old: existing or previous
