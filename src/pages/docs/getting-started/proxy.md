@@ -156,7 +156,7 @@ If your proxy has basic auth, take the following steps:
     start C:\path\to\Postman.exe
     ```
 
-  Double-clicking this `.bat` file should open Postman without any of the proxy environment variables set.
+  Double-clicking this `.bat` file opens Postman without any of the proxy environment variables set.
 
     * **Mac/Linux**: Create the `.sh` file with the following contents:
 
