@@ -93,7 +93,7 @@ You can import Postman data you exported earlier, including collections, environ
 
 ### Converting Postman collections from v1 to v2
 
-Postman no longer supports the collection v1 format and will return an error if you try to import a collection in this format.
+Postman no longer supports the collection v1 format and will return an error if you import a collection in this format.
 
 You can convert your collection's format from v1 to v2 to import it into Postman:
 
@@ -164,7 +164,7 @@ You can import data in bulk from a GitHub repository.
 
 1. In Postman, select your GitHub organization, repository, and branch, then select **Continue**.
 
-1. Confirm the files you would like to import into Postman. You can also select **Generate collection from imported APIs** and select what you would like to link this collection as. Select **Show advanced settings** to control how Postman should generate collections based on your file types, then select **Import**.
+1. Confirm the files you would like to import into Postman. You can also select **Generate collection from imported APIs** and select what you would like to link this collection as. Select **Show advanced settings** to control how Postman generates collections based on your file types, then select **Import**.
 
    ![Confirm import from github](https://assets.postman.com/postman-docs/import-export-github-files-confirm.jpg)
 

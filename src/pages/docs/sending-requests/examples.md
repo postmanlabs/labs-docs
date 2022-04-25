@@ -53,13 +53,13 @@ In Postman, an example is a tightly-coupled request and response pair. Each exam
 
 Having multiple examples for one request is useful for illustrating the different ways an endpoint can respond to a request. You might have examples that respond with different status codes (such as 200 or 404) or that return different data (or no data at all).
 
-Examples are useful in several ways. Developers and testers can refer to examples to better understand how an endpoint should function in different scenarios. Examples can also be used to [set up mock servers](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/), so developers and testers can start [writing code](/docs/writing-scripts/test-scripts/) against your API—even before it's complete. In addition, you can include examples in your API's [public documentation](/docs/publishing-your-api/publishing-your-docs/) to help anyone in the world who uses your API.
+Examples are useful in several ways. Developers and testers can refer to examples to better understand how an endpoint functions in different scenarios. Examples can also be used to [set up mock servers](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/), so developers and testers can start [writing code](/docs/writing-scripts/test-scripts/) against your API—even before it's complete. In addition, you can include examples in your API's [public documentation](/docs/publishing-your-api/publishing-your-docs/) to help anyone in the world who uses your API.
 
 ## Adding an example
 
 An example is always associated with a [request](/docs/sending-requests/requests/) in a [collection](/docs/sending-requests/intro-to-collections/), and a request can have more than one example. To quickly add an example to a request, send the request and then save the response as an example. You can also manually add an example to a request and define a custom response. After adding an example using either method, you can edit it at any time to make changes.
 
-> To ensure optimal Postman performance, example responses should be no larger than 5 MB in size.
+> To ensure optimal Postman performance, example responses must be smaller than 5 MB.
 
 ### Saving a response as an example
 
@@ -73,7 +73,7 @@ When saving a [response](/docs/sending-requests/responses/) in Postman, you have
 
 ### Adding a custom example
 
-With a custom example, you can define exactly how both the [request](/docs/sending-requests/requests/) and the [response](/docs/sending-requests/responses/) should look, including the status code and response body.
+With a custom example, you can define exactly how both the [request](/docs/sending-requests/requests/) and the [response](/docs/sending-requests/responses/) look, including the status code and response body.
 
 1. Select **Collections** in the sidebar.
 1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to a request and then select **Add example**.

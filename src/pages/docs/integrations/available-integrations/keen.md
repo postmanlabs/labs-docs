@@ -50,7 +50,7 @@ Setting up a Keen integration requires you to get a project ID and API key befor
 
 ## Viewing data in Keen IO
 
-Within a few minutes, you should start to see data flowing into Keen IO if your Monitor is running. If you’ve sent the results of multiple Postman Monitors to Keen, you’ll be able to segment by Monitor name/id, Collection name/id, error code, and so on.
+Within a few minutes, data will start flowing into Keen IO if your Monitor is running. If you’ve sent the results of multiple Postman Monitors to Keen, you’ll be able to segment by Monitor name/id, Collection name/id, error code, and so on.
 
 Here’s a preview of analyses from the Postman Monitors integration. You can build visualizations into dashboards that your team or customers can view with [Keen dashboard templates](https://keen.io/docs/visualize/data-visualization-library/create-dashboard/).
 

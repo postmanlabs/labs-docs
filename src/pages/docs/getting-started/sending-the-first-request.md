@@ -36,7 +36,7 @@ contextual_links:
 warning: false
 ---
 
-Postman makes it easy to create and send API requests. Send a request to test a endpoint, retrieve data from a data source, or try out an API's functionality. You don't need to enter commands in a terminal or write any code. Create a new request and select **Send**, and the API response appears right inside Postman.
+Postman makes it easy to create and send API requests. Send a request to an endpoint, retrieve data from a data source, or test an API's functionality. You don't need to enter commands in a terminal or write any code. Create a new request and select **Send**, and the API response appears right inside Postman.
 
 ## API requests defined
 
@@ -51,7 +51,7 @@ A request includes the URL of the API endpoint and an HTTP request method. The m
 
 ## Sending a request
 
-Ready to send your first request? Open Postman and try the following:
+Ready to send your first request? Open Postman and get started:
 
 1. Select **+** in the main work area to open a new [tab](/docs/getting-started/navigating-postman/#tabs).
 1. Enter `postman-echo.com/get` for the request URL.
@@ -75,6 +75,6 @@ You just used Postman to send an API request and got a response from the API ser
 
 ## Next steps
 
-Send some more requests to the [Postman Echo API](/docs/developer/echo-api/), a handy tool you can use to try out API requests in Postman.
+Send some more requests to the [Postman Echo API](/docs/developer/echo-api/), a handy tool you can use to test API requests in Postman.
 
 When you're ready, learn more about [building and sending requests in Postman](/docs/sending-requests/requests/).

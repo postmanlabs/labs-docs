@@ -63,7 +63,7 @@ _Variables_ enable you to store and reuse values in Postman. By storing a value 
 
 ## Variables quick start
 
-To try out a variable:
+To create and use a variable:
 
 1. Select the environment quick look icon <img alt="Quick Look icon" src="https://assets.postman.com/postman-docs/eye.jpg#icon" width="16px"> at the top right of Postman.
 1. Next to **Globals**, select __Edit__.
@@ -74,7 +74,7 @@ To try out a variable:
     <img alt="View the variable value and scope" src="https://assets.postman.com/postman-docs/variable-quick-start-hover.jpg" width="525px"/>
 
 1. Select __Send__ and send the request. In the response, you'll see that Postman sent the variable value to the API.
-1. Try changing the value in the Environment quick look and sending the request again.
+1. Change the value in the Environment quick look and send the request again.
 
 ## Understanding variables
 
@@ -100,7 +100,7 @@ Postman supports variables at different scopes, allowing you to tailor your proc
 
 In order from broadest to narrowest, these scopes are: _global_, _collection_, _environment_, _data_, and _local_.
 
-* **Global variables** enable you to access data between collections, requests, test scripts, and environments. Global variables are available throughout a [workspace](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/). Since global variables have the broadest scope available in Postman, they're well-suited for testing and prototyping, but more specific scopes should be used in later development phases.
+* **Global variables** enable you to access data between collections, requests, test scripts, and environments. Global variables are available throughout a [workspace](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/). Since global variables have the broadest scope available in Postman, they're well-suited for testing and prototyping. In later development phases, use more specific scopes.
 * **Collection variables** are available throughout the requests in a collection and are independent of environments. Collection variables don't change based on the selected environment. Collection variables are suitable if you're using a single environment, for example for auth or URL details.
 * **Environment variables** enable you to scope your work to different environments, for example local development versus testing or production. One environment can be active at a time. If you have a single environment, using collection variables can be more efficient, but environments enable you to specify [role-based access levels](/docs/sending-requests/managing-environments/#working-with-environments-as-a-team).
 * **Data variables** come from external CSV and JSON files to define data sets you can use when running collections with [Newman](/docs/running-collections/using-newman-cli/) or the [Collection Runner](/docs/running-collections/intro-to-collection-runs/). Data variables have current values, which don't persist beyond request or collection runs.
@@ -163,7 +163,7 @@ You can also define variables at any scope in the request builder:
 
     <img src="https://assets.postman.com/postman-docs/set-as-a-new-var.jpg" alt="Set as variable" width="300px"/>
 
-1. Enter a **Name**, confirm the **Value** is correct, and select a scope from the drop-down list. Select **Set variable**.
+1. Enter a **Name**, confirm the **Value** is correct, and select a scope. Select **Set variable**.
 
     <img src="https://assets.postman.com/postman-docs/set-as-var-modal.jpg" alt="Set as variable" width="450px"/>
 
@@ -311,7 +311,7 @@ You can use variables in request URLs, parameters, headers, authorization, body,
 
 [![Variables in Request](https://assets.postman.com/postman-docs/var-auth-v8.jpg)](https://assets.postman.com/postman-docs/var-auth-v8.jpg)
 
-When you hover over a variable you can see an overview of its current status. As you type variables into your requests, Postman prompts you with any that are currently defined.
+When you hover over a variable you can see an overview of its current status. As you add variables to your requests, Postman prompts you with any that are currently defined.
 
 ![Variable Prompt](https://assets.postman.com/postman-docs/var-prompt.jpg)
 
