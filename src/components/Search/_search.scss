@@ -1,0 +1,73 @@
+@import '../Shared/_variables.scss';
+
+
+ais-highlight-0000000000 {
+  color: $grey_90;
+  background-color: $yellow_20;
+}
+
+.input-empty {
+  display: none;
+}
+
+.input-value {
+  position: absolute;
+  z-index: 3;
+  right: 10px;
+  background-color: white;
+  border: 1px solid #d9d9d9;
+  background: #fff;
+  border-radius: $borderRadiusSmall;
+  padding-right: 24px;
+  margin-top: 5px;
+  display: flex;
+  text-align: left;
+  max-width: 600px;
+
+  @media screen and (max-width: 992px){
+    left: 10px;
+    right: 10px;
+  }
+}
+
+.arrow-up {
+  width: 0; 
+  height: 0; 
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid black;
+}
+
+.style {
+  list-style: none;
+  padding-top: 20px;
+  a {
+    color: #757575;
+  }
+  a:hover {
+    color: $blue_70;
+    text-decoration: none;
+  }
+}
+
+.search-title {
+  font-family: $Inter600;
+  font-weight: 600;
+}
+
+.ais-SearchBox-form {
+    margin-bottom: 0px;
+    flex-grow: 2;
+  }
+
+.ais-SearchBox-submit {
+  width: 0.1px;
+  height: 0.1px;
+  font-size: 0.001px;
+}
+
+.ais-SearchBox-reset {
+  width: 0.1px;
+  height: 0.1px;
+  font-size: 0.001px;
+}
