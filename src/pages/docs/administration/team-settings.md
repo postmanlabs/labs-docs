@@ -42,7 +42,7 @@ Your [Team Settings](https://go.postman.co/settings/team/general) allow you to m
 
 ## Accessing team settings
 
-You can access team settings by navigating to the **Team** dropdown menu in the upper right corner and selecting **Team Settings**.
+You can access team settings by selecting **Team** in the header, then selecting **Team Settings**.
 
 <img alt="Team menu with Team Settings selected" src="https://assets.postman.com/postman-docs/team-settings-menu-selected.jpg" width="350px"/>
 

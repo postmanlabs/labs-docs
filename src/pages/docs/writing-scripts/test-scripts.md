@@ -95,7 +95,7 @@ pm.test("Status test", function () {
 
 Select __Send__ to run your request and open __Test Results__ in the response section. The tab header displays how many tests passed and how many ran in total. You can also toggle between passed, skipped, and failed test results.
 
-If the request returned a `200` status code, the test passes. Try changing the expected status code in your test script and running the request again.
+If the request returned a `200` status code, the test passes. To see what happens with a different status code, change the expected status code in your test script and run the request again.
 
 ### Formatting test result messages with pm.expect
 

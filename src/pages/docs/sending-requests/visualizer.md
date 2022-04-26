@@ -78,7 +78,7 @@ To visualize your response data, add code to the __Pre-request__ or __Tests__ [s
 
 ### Adding visualizer code
 
-The `pm.visualizer.set()` method accepts a [Handlebars](https://handlebarsjs.com/) template string as its first parameter. The second parameter should be the data you want to use the template to display. Read on to learn how you can build a Handlebars template and pass data to it.
+The `pm.visualizer.set()` method accepts a [Handlebars](https://handlebarsjs.com/) template string as its first parameter. The second parameter is the data you want to use the template to display. Read on to learn how you can build a Handlebars template and pass data to it.
 
 ### Rendering HTML
 
@@ -185,4 +185,4 @@ You can debug a visualization in Postman by right-clicking in the __Visualize__ 
 
 ## Next steps
 
-You can try experimenting with visualizations using the collections [listed above](#try-it-out) as a starting point and tweak the code to get the results you need for your own data. For more on how Postman provides access to your response data inside scripts, check out the [Test Examples](/docs/writing-scripts/script-references/test-examples/).
+You can experiment with visualizations using the collections [listed above](#try-it-out) as a starting point and tweak the code to get the results you need for your own data. For more on how Postman provides access to your response data inside scripts, check out the [Test Examples](/docs/writing-scripts/script-references/test-examples/).

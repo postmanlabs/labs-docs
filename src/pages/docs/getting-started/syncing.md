@@ -37,7 +37,7 @@ Postman indicates the sync state of your workspace with the sync icon. Possible 
     >
     > <img alt="Offline state" src="https://assets.postman.com/postman-docs/scratch-pad-logged-out-v9.12.jpg" width="250px" />
 
-* **Connecting** <img alt="Sync connecting icon" src="https://assets.postman.com/postman-docs/icon-sync-connecting.jpg#icon" width="16px"> means the app is trying to connect to the Postman servers. You may also see this status if your connection drops and then reconnects.
+* **Connecting** <img alt="Sync connecting icon" src="https://assets.postman.com/postman-docs/icon-sync-connecting.jpg#icon" width="16px"> means the app is connecting to the Postman servers. You may also see this status if your connection drops and then reconnects.
 * **Online** <img alt="Sync online icon" src="https://assets.postman.com/postman-docs/icon-sync-online.jpg#icon" width="16px"> means that you are connected to the Postman servers and your work is either in the process of syncing or is already synced.
 * **Error** <img alt="Sync connection error icon" src="https://assets.postman.com/postman-docs/icon-sync-connection-error.jpg#icon" width="16px"> means there was a syncing error while connecting to Postman. Hover over the cloud icon to see detailed information on the error.
 

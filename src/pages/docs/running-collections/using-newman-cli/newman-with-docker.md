@@ -65,7 +65,7 @@ The URL is a shareable public link to your collection. To get this link:
 1. Select **Share collection**.
 1. Select **Get public link**.
 
-At this stage, you should see the [Collection](/docs/sending-requests/intro-to-collections/) running in Newman and the output displayed in the terminal.
+At this stage, the [Collection](/docs/sending-requests/intro-to-collections/) runs in Newman and the output displays in the terminal.
 
 The entry point to the Docker image is Newman. So you can use all Newman command-line parameters. You can also run locally stored collection files. The README of the image outlines how to mount shared data volumes.
 

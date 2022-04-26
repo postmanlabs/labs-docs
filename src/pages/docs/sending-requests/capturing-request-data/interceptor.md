@@ -184,17 +184,17 @@ You can find the current status of your Interceptor integration by looking at th
 
 If you are unable to use the integration after completing the guided installation, you'll want to check the following items:
 
-* **[macOS] Node is properly installed**: Node should be installed and available at `/usr/local/node` or `/usr/local/bin/node`, or you have the environment variable `NVM_BIN` set.
+* **[macOS] Node is properly installed**: Node is installed and available at `/usr/local/node` or `/usr/local/bin/node`, or you have the environment variable `NVM_BIN` set.
 * **Manifest file location**: The manifest file (``com.postman.postmanapp.json``) is present, has the correct extension ID (``aicmkgpgakddgnaphhhpliifpcfhicfo``), and the correct path to the executable file.
     * If this is missing, delete the following directory and restart the [installation process](#installing-interceptor):
         * **macOS / Linux**: `$HOME/.postman`
         * **Windows**: `%USERPROFILE%\.postman\`
-* **Executable**: The executable that the manifest points to should exist and be approximately 40MB for Windows/Linux or 33KB for macOS.
+* **Executable**: The executable that the manifest points to exists and is approximately 40MB for Windows/Linux or 33KB for macOS.
     * If this is missing, delete the following directory and restart the [installation process](#installing-interceptor):
         * **macOS / Linux**: `$HOME/.postman`
         * **Windows**: `%USERPROFILE%\.postman\`
 
-For macOS, the NodeJS downloader should be saved to your `~/Downloads` directory.
+For macOS, the NodeJS downloader is saved to your `~/Downloads` directory.
 
 For Windows, if you see an installation error in Postman, close Chrome and retry before repeating the installation process.
 
@@ -206,7 +206,7 @@ If you are unable to resolve an ``INTERNET_CONNECTIVITY`` error, you can manuall
 
 * **macOS/Linux**:
 
-    * **[macOS-only]** Node.js (>v6.0.0) should be installed and available at `/usr/local/node` or `/usr/local/bin/node`, or you have the environment variable `NVM_BIN` set.
+    * **[macOS-only]** Node.js (>v6.0.0) needs to be installed and available at `/usr/local/node` or `/usr/local/bin/node`, or you need to have the environment variable `NVM_BIN` set.
     * Install the bridge for [macOS](https://go.pstmn.io/interceptor-bridge-macos) or [Linux](https://go.pstmn.io/interceptor-bridge-linux).
     * Run the script `install_host.sh`.
     * After executing the script, check the following items:

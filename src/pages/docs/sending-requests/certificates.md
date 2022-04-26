@@ -112,7 +112,7 @@ You can view more certificate details in the response pane below the request. Th
 
 If certificate verification fails when sending a request, Postman displays an error message in the response pane.
 
-To fix the error, try turning off SSL verification for the request:
+To fix the error, turn off SSL verification for the request:
 
 1. Open the request and select the **Settings** tab.
 1. Turn off the toggle next to **Enable SSL certificate verification**.

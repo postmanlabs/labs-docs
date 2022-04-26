@@ -66,7 +66,7 @@ You can directly upload your API schemas from Postman to AWS API Gateway. Once t
 
     ![aws gateway auth and proceed](https://assets.postman.com/postman-docs/aws-gateway-auth-proceed.jpg)
 
-1. Select your API, API version, and the API Gateway you'd like to deploy to from the dropdown menus. You can use an existing API Gateway, or create a new one by selecting **Create New API Gateway** from the dropdown.
+1. Select your API, API version, and the API Gateway you'd like to deploy to. You can use an existing API Gateway, or create a new one by selecting **Create New API Gateway** from the dropdown.
 
     > If you are creating a new API Gateway, auto-deployment will automatically be set to false in AWS.
 

@@ -19,8 +19,7 @@ Before you configure Microsoft Active Directory Federation Services (AD FS) to w
 
 * An Active Directory instance where all users have an email address attribute.
 * A SSL certificate from the AD FS server.
-* A server that runs Microsoft Server 2012 or 2008. **Note**: This guide uses screenshots from Server 2012R2,
-but similar steps should be possible in other versions.
+* A server that runs Microsoft Server 2012 or 2008. **Note**: This guide uses screenshots from Server 2012R2, but similar steps are possible in other versions.
 
 After you meet these basic requirements, install AD FS on your server.
 
@@ -116,7 +115,7 @@ To create a new rule:
     [![pass through claim values](https://assets.postman.com/postman-docs/ENT-Pass-through-all-claim-values.jpeg)](https://assets.postman.com/postman-docs/ENT-Pass-through-all-claim-values.jpeg)
 
 1. Select **Finish** to create the claim rule.
-1. You should see two transform rules. Select **Edit Claim Issuance Policy** to confirm.
+1. There are two transform rules. Select **Edit Claim Issuance Policy** to confirm.
 
 [![edit claim issuance](https://assets.postman.com/postman-docs/ENT-Edit-Claim-Issuance-Policy.jpeg)](https://assets.postman.com/postman-docs/ENT-Edit-Claim-Issuance-Policy.jpeg)
 

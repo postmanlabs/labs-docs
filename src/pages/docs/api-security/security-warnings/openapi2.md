@@ -76,7 +76,7 @@ For all APIs defined in OpenAPI 2.0, the following list describes possible warni
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| Low | The OAuth2 scopes used in the global security field should be defined in the security schemes field. Otherwise, an attacker can introduce their scopes to fill the gap and exploit the system. | Make sure that all the OAuth2 scopes used are defined in the OAuth2 security scheme. |
+| Low | The OAuth2 scopes used in the global security field need to be defined in the security schemes field. Otherwise, an attacker can introduce their scopes to fill the gap and exploit the system. | Make sure that all the OAuth2 scopes used are defined in the OAuth2 security scheme. |
 
 **Resolution:**
 
@@ -104,7 +104,7 @@ securityDefinitions:
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| Low | The OAuth2 scopes used in the  security field of the operation should be defined in the security schemes field. Otherwise, an attacker can introduce their scopes to fill the gap and exploit the system. | Make sure that all the OAuth2 scopes used are defined in the OAuth2 security scheme. |
+| Low | The OAuth2 scopes used in the  security field of the operation need to be defined in the security schemes field. Otherwise, an attacker can introduce their scopes to fill the gap and exploit the system. | Make sure that all the OAuth2 scopes used are defined in the OAuth2 security scheme. |
 
 **Resolution:**
 
@@ -139,7 +139,7 @@ securityDefinitions:
 
 | Severity | Issue description | Possible fix |
 | -------- | ----------------- | ------------ |
-| High | If the global security field isn't defined, the API doesn't require any authentication by default. Anyone can access the API operations that do not have a security field defined. | The security field should be defined in the schema. |
+| High | If the global security field isn't defined, the API doesn't require any authentication by default. Anyone can access the API operations that do not have a security field defined. | The security field needs to be defined in the schema. |
 
 **Resolution:**
 
@@ -159,7 +159,7 @@ security:
 
 | Severity | Issue description | Possible fix |
 | -------- | ----------------- | ------------ |
-| High | If the security field contains an empty array, no security scheme is applied to the operations by default. | The security field should contain at least one item in the array. |
+| High | If the security field contains an empty array, no security scheme is applied to the operations by default. | The security field needs to contain at least one item in the array. |
 
 **Resolution:**
 
@@ -179,7 +179,7 @@ security:
 
 | Severity | Issue description | Possible fix |
 | -------- | ----------------- | ------------ |
-| High | An empty object in the security field deactivates the authentication completely. Without security fields defined for each operation, anyone can access the API operations without any authentication. | Security field array items should not contain an empty object. |
+| High | An empty object in the security field deactivates the authentication completely. Without security fields defined for each operation, anyone can access the API operations without any authentication. | Security field array items can't contain an empty object. |
 
 **Resolution:**
 
@@ -199,7 +199,7 @@ security:
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| High | The components object of the API doesn't declare any security definitions which can be used in the security field of the API or individual operations. | Security definitions should be defined in the schema of the component. |
+| High | The components object of the API doesn't declare any security definitions which can be used in the security field of the API or individual operations. | Security definitions need to be defined in the schema of the component. |
 
 **Resolution:**
 
@@ -217,7 +217,7 @@ securityDefinitions:
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| High | An empty object in the reusable security definition means that no authentication scheme is defined for each operation, anyone can access the API operations without any authentication. | Security definitions should contain at least one item in the object. |
+| High | An empty object in the reusable security definition means that no authentication scheme is defined for each operation, anyone can access the API operations without any authentication. | Security definitions need to contain at least one item in the object. |
 
 **Resolution:**
 
@@ -235,7 +235,7 @@ securityDefinitions:
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| Medium | The authentication scheme used in global or operation security field isn't defined in the security definition object. | Scheme used in the security field should be defined in the security definition object. |
+| Medium | The authentication scheme used in global or operation security field isn't defined in the security definition object. | The scheme used in the security field needs to be defined in the security definition object. |
 
 **Resolution:**
 
@@ -255,7 +255,7 @@ security:
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| Medium | No security scheme is applied to the API operation by default. | The security field in any operation should contain at least one item in the array. |
+| Medium | No security scheme is applied to the API operation by default. | The security field in any operation needs to contain at least one item in the array. |
 
 **Resolution:**
 
@@ -579,7 +579,7 @@ securityDefinitions:
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| High | If the global `produces` field isn't defined, the API could potentially return any form of data.  | The `produces` field should be defined in the schema.|
+| High | If the global `produces` field isn't defined, the API could potentially return any form of data.  | The `produces` field needs to be defined in the schema.|
 
 **Resolution:**
 
@@ -598,7 +598,7 @@ produces:
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| High | If the `produces` field contains an empty array, the API can return any type of data by default. | The global `produces` field should contain at least one item with a valid MIME type in the array. |
+| High | If the `produces` field contains an empty array, the API can return any type of data by default. | The global `produces` field needs to contain at least one item with a valid MIME type in the array. |
 
 **Resolution:**
 
@@ -616,7 +616,7 @@ produces:
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| High | No `produces` field in the operation means that API can return any type of data by default.| The `produces` field in any operation should contain at least one item in the array.|
+| High | No `produces` field in the operation means that API can return any type of data by default.| The `produces` field in any operation needs to contain at least one item in the array.|
 
 **Resolution:**
 
@@ -658,7 +658,7 @@ paths:
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| High | If the global `consumes` field isn't defined, the API could potentially accept any form of data as input. This could open your API to any number of potential attacks, like buffer overflow, decoding errors, or SQL injection attacks. | The `consumes` field should be defined in the schema. |
+| High | If the global `consumes` field isn't defined, the API could potentially accept any form of data as input. This could open your API to any number of potential attacks, like buffer overflow, decoding errors, or SQL injection attacks. | The `consumes` field needs to be defined in the schema. |
 
 **Resolution:**
 
@@ -675,7 +675,7 @@ consumes:
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| High   | If the `consumes` field contains an empty array, the API can accept any type of input by default. | The global `consumes` field should contain at least one item with valid MIME type in the array.  |
+| High   | If the `consumes` field contains an empty array, the API can accept any type of input by default. | The global `consumes` field needs to contain at least one item with valid MIME type in the array.  |
 
 **Resolution:**
 
@@ -693,7 +693,7 @@ consumes:
 
 | Severity | Issue description | Possible fix |
 | ----------- | ----------- | ----------- |
-| High | No `consumes` field in the operation means that API can accept any type of input by default. | The `consumes` field in `PUT`/`PATCH`/`POST` operations should contain at least one item in the array. |
+| High | No `consumes` field in the operation means that API can accept any type of input by default. | The `consumes` field in `PUT`/`PATCH`/`POST` operations needs to contain at least one item in the array. |
 
 **Resolution:**
 

@@ -52,7 +52,7 @@ Learn more about [capturing HTTP requests](/docs/sending-requests/capturing-requ
 
 ## Using Postman Interceptor
 
-Postman Interceptor provides another way to capture requests sent between a client and a server. Interceptor uses a Chrome plug-in rather than Postman's built-in proxy. With Postman Interceptor, you can capture HTTP and HTTP requests sent from a Google Chrome browser.
+Postman Interceptor provides another way to capture requests sent between a client and a server. Interceptor uses a Chrome plug-in rather than Postman's built-in proxy. With Postman Interceptor, you can capture HTTP and HTTPS requests sent from a Google Chrome browser.
 
 Learn more about [using Postman Interceptor](/docs/sending-requests/capturing-request-data/interceptor/).
 
