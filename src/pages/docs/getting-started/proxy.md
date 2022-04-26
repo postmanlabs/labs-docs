@@ -10,6 +10,13 @@ contextual_links:
   - type: link
     name: "Setting up Postman"
     url: "/docs/getting-started/settings/"
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Blog Posts"
+  - type: link
+    name: "Capture Responses Using the Postman Proxy"
+    url: "https://blog.postman.com/capture-responses-using-the-postman-proxy/"
 
 warning: false
 
