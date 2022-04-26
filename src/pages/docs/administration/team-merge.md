@@ -13,9 +13,6 @@ contextual_links:
   - type: link
     name: "Managing your team"
     url: "/docs/administration/managing-your-team/managing-your-team/"
-  - type: link
-    name: "Manage Large Teams in Postman with Workspaces, Permissions, and Version Control"
-    url: "/docs/administration/sso/admin-sso/"
 
 ---
 

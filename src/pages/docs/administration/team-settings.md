@@ -12,6 +12,11 @@ contextual_links:
   - type: link
     name: "Checklist for a Great Team Profile | Postman Level Up"
     url: "https://youtu.be/Ud_rq-VwO4s"
+  - type: subtitle
+    name: "Blog Posts"
+  - type: link
+    name: "Get More Out of Postman by Collaborating with Your Team"
+    url: "https://blog.postman.com/get-more-out-of-postman-by-collaborating-with-your-team/"
   - type: section
     name: "Next Steps"
   - type: link
