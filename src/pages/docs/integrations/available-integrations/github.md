@@ -17,9 +17,6 @@ contextual_links:
   - type: link
     name: "Syncing Your OpenAPI, RAML, and GraphQL Schema to GitHub with Postman"
     url:  "https://blog.postman.com/syncing-your-openapi-raml-and-graphql-schema-to-github-with-postman/"
-  - type: link
-    name: "How to Auto-Sync Postman Collections with AWS CodeCommit Repositories"
-    url:  "https://blog.postman.com/how-to-auto-sync-postman-collections-with-aws-codecommit-repositories/"
 ---
 
 > __[GitHub Enterprise Server integrations are only available on Postman Enterprise plans.](https://www.postman.com/pricing)__

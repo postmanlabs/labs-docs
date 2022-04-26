@@ -10,13 +10,7 @@ contextual_links:
   - type: link
     name: "Grouping requests in collections"
     url: "/docs/sending-requests/intro-to-collections/"
-  - type: section
-    name: "Additional Resources"
-  - type: subtitle
-    name: "Blog Posts"
-  - type: link
-    name: "Why we became big believers in APIMatic's API transformer"
-    url: "https://blog.postman.com/new-postman-pro-integration-apimatics-api-transformer/"
+
 ---
 
 Postman's APIMatic integration converts a Postman collection into an API description format such as Swagger, RAML, or API Blueprint, and then periodically backs up the resulting file on GitHub.
