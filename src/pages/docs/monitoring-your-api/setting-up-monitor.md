@@ -19,11 +19,15 @@ contextual_links:
   - type: subtitle
     name: "Blog Posts"
   - type: link
-    name: "How to monitor Postman Collections with APImetrics"
-    url: "https://blog.postman.com/how-to-use-postman-apimetrics/"
+    name: "Integrated API Monitoring in Postman"
+    url: "https://blog.postman.com/integrated-api-monitoring-in-postman/"
   - type: link
-    name: "Using a Postman monitor to water my plants"
-    url: "https://blog.postman.com/using-a-postman-monitor-to-water-my-plants/"
+    name: "How to Use Postman Monitors to Schedule CircleCI Pipelines"
+    url: "https://blog.postman.com/how-to-use-postman-monitors-to-schedule-circleci-pipelines/"
+  - type: link
+    name: "Power Mocks, Monitors, and CI/CD with Postman"
+    url: "https://blog.postman.com/power-mocks-monitors-and-ci-cd-with-postman-webinar-recap-part-3/"
+
 
 warning: false
 
