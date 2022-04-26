@@ -14,6 +14,9 @@ contextual_links:
   - type: subtitle
     name: "Videos"
   - type: link
+    name: "Working With Your Team in Postman | The Exploratory"
+    url: "https://youtu.be/5lscUV-Exac"
+  - type: link
     name: "Postman Level Up | Moving Elements in Postman"
     url: "https://youtu.be/OOkKkH5bXHg"
   - type: subtitle

@@ -14,9 +14,6 @@ contextual_links:
   - type: subtitle
     name: "Blog Posts"
   - type: link
-    name: "Integrate API tests with Postman, Newman, and Travis CI"
-    url: "https://blog.postman.com/integrate-api-tests-with-postman-newman-and-travis-ci/"
-  - type: link
     name: "Integrations: how Postman plays with some of your favorite tools"
     url: "https://blog.postman.com/integrations-how-postman-plays-with-some-of-your-favorite-tools/"
   - type: section

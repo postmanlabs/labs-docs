@@ -11,6 +11,14 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
+    name: "Blog Posts"
+  - type: link
+    name: "Build Custom Webhooks Using Postman"
+    url: "https://blog.postman.com/postman-custom-webhooks/"
+  - type: link
+    name: "Building a Slack Bot with the Twitch API and Postman"
+    url: "https://blog.postman.com/building-slack-bot-with-twitch-api-and-postman/"
+  - type: subtitle
     name: "Public Workspaces"
   - type: link
     name: "Postman Loves Slack"

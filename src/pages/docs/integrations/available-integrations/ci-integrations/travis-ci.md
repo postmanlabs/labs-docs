@@ -10,6 +10,13 @@ contextual_links:
   - type: link
     name: "CI Integrations"
     url: "/docs/integrations/ci-integrations/"
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Blog Posts"
+  - type: link
+    name: "The Reimagined API-First Workflow, Part 2: for Testers"
+    url: "https://blog.postman.com/the-reimagined-api-first-workflow-for-testers/"
 ---
 
 Travis CI is continuous integration (CI) platform that software development teams use to automatically build and test code changes. With Travis CI, developers can get immediate feedback on the success of a change.

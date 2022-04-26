@@ -21,11 +21,6 @@ contextual_links:
   - type: link
     name: "30 days of Postman for developers"
     url:  "https://www.postman.com/postman/workspace/30-days-of-postman-for-developers/overview"
-  - type: subtitle
-    name: "Blog Posts"
-  - type: link
-    name: "The Good Collection"
-    url: "https://blog.postman.com/the-good-collection/"
   - type: section
     name: "Next Steps"
   - type: link
