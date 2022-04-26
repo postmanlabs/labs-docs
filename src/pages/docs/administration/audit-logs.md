@@ -41,11 +41,11 @@ You can view audit logs in Postman by selecting **Team** in the header, then sel
 
 Audit logs provide information about actions taken by members of your team. Each event includes the user, the user's email address, the event name and a description of the event, the user's IP address, and the date and time of the action, including the user's timezone.
 
+<img alt="Audit logs dashboard" src="https://assets.postman.com/postman-docs/audit-logs-dashboard-v9.jpg" width="1000px"/>
+
 You can use filters to view actions by date range, event type, and user.
 
-<!-- TODO: update screenshot -->
-
-<img alt="Audit logs dashboard" src="https://assets.postman.com/postman-docs/audit-logs-v9.13.1.jpg"/>
+<img alt="Filtering the audit log results" src="https://assets.postman.com/postman-docs/audit-logs-filter-actions-v9.jpg" width="600px"/>
 
 ## Exporting audit logs from the dashboard
 
@@ -53,7 +53,7 @@ You can export audit logs as CSV files. By default, Postman will export all data
 
 To specify certain data to export, set the filters you want in the audit logs dashboard and Postman will generate the export using those parameters. To filter your results, select a time range, event, and user, then select **Export Audit Logs**.
 
-You will receive an email with a link to the exported audit logs. The link in the email will be active for one hour.
+You will receive an email with a link to the exported audit logs. The link in the email is active for one hour.
 
 ## Accessing audit logs via the Postman API
 
