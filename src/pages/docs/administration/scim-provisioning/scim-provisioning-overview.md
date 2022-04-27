@@ -54,7 +54,7 @@ Postman supports the following provisioning features:
 
     * **Reactivate user**: Reactivates an existing deactivated user by unblocking the account's authentication into Postman and adds the account back to your Postman team.
 
-* **Create group**: Creates a new user group in Postman. When you assign the Postman app to a group, Postman creates a new account for each group member, adds each account to your organization's Postman team, and activates authentication for each user. If an account with a matching email ID to a group member exists, an [email invite](/docs/administration/managing-your-team/managing-your-team/#invites) to join your Postman team is sent to that user. Once the user accepts the invite, they'll be added to your team.
+* **Create group**: Creates a new [user group](/docs/administration/managing-your-team/user-groups/) in Postman. When you assign the Postman app to a group, Postman creates a new account for each group member, adds each account to your organization's Postman team, and activates authentication for each user. If an account with a matching email ID to a group member exists, an [email invite](/docs/administration/managing-your-team/managing-your-team/#invites) to join your Postman team is sent to that user. Once the user accepts the invite, they'll be added to your team.
 
     > Newly created groups will have the developer role in Postman by default. You can later [update group roles in Postman](/docs/administration/managing-your-team/managing-your-team/#managing-roles).
 
@@ -65,14 +65,6 @@ Postman supports the following provisioning features:
     * **Update group attributes**: Updates a group's name in Postman.
 
     * **Update group members**: Adds or removes members from a group in Postman.
-
-    * **Activate group**: Creates a new user group in your Postman team and activates authentication for each group member.
-
-    * **Deactivate group**: Removes a group of users from your Postman team and deactivates their accounts, blocking them from authenticating into Postman.
-
-        > User accounts and the data corresponding to them won't be deleted. To permanently delete a user account and its data, [contact Postman support](https://www.postman.com/support/).
-
-    * **Reactivate group**: Reactivates an existing deactivated group by unblocking the user accounts' authentication into Postman and adds the accounts back to your Postman team.
 
 Currently, Postman doesn't support the following provisioning features:
 
@@ -115,7 +107,7 @@ To enable SCIM:
 1. Name your key and click **Generate**.
 1. Copy your new API key for later use and click **Done**.
 
-> You can revisit this page to manage your SCIM API keys. If you regenerate an existing API key, you will have the option to keep the first key active briefly while you switch over.
+> You can revisit this page to manage your SCIM API keys. If you regenerate an existing API key, you will have the option to keep the first key active while you switch over.
 
 To continue enabling SCIM provisioning, see [Configuring SCIM with the SCIM API](#configuring-scim-with-the-scim-api), [Configuring SCIM with Okta](/docs/administration/scim-provisioning/configuring-scim-with-okta/), or [Configuring SCIM with Azure AD](/docs/administration/scim-provisioning/configuring-scim-with-azure-ad/). For further information or help configuring SCIM, [contact Postman support](https://www.postman.com/support/).
 
