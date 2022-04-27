@@ -7,6 +7,11 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "API Documentation | The Exploratory"
+    url: "https://youtu.be/XNVo9WkCoak"
+  - type: subtitle
     name: "Case Studies"
   - type: link
     name: "Imgur"

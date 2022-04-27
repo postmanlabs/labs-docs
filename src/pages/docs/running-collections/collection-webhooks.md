@@ -17,6 +17,11 @@ contextual_links:
   - type: link
     name: "Postman Webhooks | Postman Level Up"
     url: "https://youtu.be/wdLvXKkXhLk"
+  - type: subtitle
+    name: "Blog Posts"
+  - type: link
+    name: "Building a Slack Bot with the Twitch API and Postman"
+    url:  "https://blog.postman.com/building-slack-bot-with-twitch-api-and-postman/"
 warning: false
 ---
 

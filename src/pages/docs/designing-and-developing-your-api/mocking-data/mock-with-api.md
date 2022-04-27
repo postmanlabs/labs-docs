@@ -19,6 +19,11 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Intro to the Postman API | Postman Level Up"
+    url: "https://youtu.be/iEtsp6o4AJg"
+  - type: subtitle
     name: "Case Studies"
   - type: link
     name: "Gear4Music"
@@ -26,11 +31,6 @@ contextual_links:
   - type: link
     name: "Giant Machines"
     url: "https://www.postman.com/case-studies/giant-machines/"
-  - type: subtitle
-    name: "Blog Posts"
-  - type: link
-    name: "Mock responses in Postman by using Examples"
-    url: "https://blog.postman.com/mock-responses-in-postman-by-using-examples/"
 
 warning: false
 ---

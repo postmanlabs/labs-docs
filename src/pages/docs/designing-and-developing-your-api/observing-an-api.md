@@ -20,8 +20,11 @@ contextual_links:
   - type: subtitle
     name: "Blog Posts"
   - type: link
-    name: "Create APIs directly within the Postman app"
-    url: "https://blog.postman.com/postman-7-1-create-apis-directly-within-the-postman-app/"
+    name: "Integrated API Monitoring in Postman"
+    url: "https://blog.postman.com/integrated-api-monitoring-in-postman/"
+  - type: link
+    name: "Monitor APIs with Postman and New Relic"
+    url: "https://blog.postman.com/monitor-apis-with-postman-and-new-relic/"
   - type: section
     name: "Next Steps"
   - type: link
