@@ -12,11 +12,6 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
-    name: "Case Studies"
-  - type: link
-    name: "Imgur"
-    url: "https://www.postman.com/resources/case-studies/imgur/"
-  - type: subtitle
     name: "Videos"
   - type: link
     name: "API Documentation | The Exploratory"
@@ -24,8 +19,13 @@ contextual_links:
   - type: subtitle
     name: "Blog Posts"
   - type: link
-    name: "API Network Exploration: Infermedica"
-    url: "https://blog.postman.com/api-network-exploration-infermedica/"
+    name: "Postman Public API Network Is Now the World’s Largest Public API Hub"
+    url: "https://blog.postman.com/postman-public-api-network-is-now-the-worlds-largest-public-api-hub/"
+  - type: subtitle
+    name: "Case Studies"
+  - type: link
+    name: "Imgur"
+    url: "https://www.postman.com/resources/case-studies/imgur/"
 
 warning: false
 ---

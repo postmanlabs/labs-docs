@@ -16,6 +16,11 @@ contextual_links:
   - type: link
     name: "Loop Through a Data File | Postman Level Up"
     url: "https://youtu.be/RH8b3gbujPY"
+  - type: subtitle
+    name: "Blog Posts"
+  - type: link
+    name: "Looping through a Data File in the Postman Collection Runner"
+    url: "https://blog.postman.com/looping-through-a-data-file-in-the-postman-collection-runner/"
 
 warning: false
 

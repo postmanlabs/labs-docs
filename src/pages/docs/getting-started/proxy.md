@@ -15,9 +15,6 @@ contextual_links:
   - type: subtitle
     name: "Blog Posts"
   - type: link
-    name: "Client proxy settings in Postman"
-    url: "https://blog.postman.com/client-proxy-settings-in-postman/"
-  - type: link
     name: "Capture Responses Using the Postman Proxy"
     url: "https://blog.postman.com/capture-responses-using-the-postman-proxy/"
 

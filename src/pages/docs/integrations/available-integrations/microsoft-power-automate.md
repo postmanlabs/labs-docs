@@ -10,13 +10,6 @@ contextual_links:
   - type: link
     name: "Grouping requests in collections"
     url: "/docs/sending-requests/intro-to-collections/"
-  - type: section
-    name: "Additional Resources"
-  - type: subtitle
-    name: "Blog Posts"
-  - type: link
-    name: "Turn your Postman Collection into a Microsoft integration"
-    url: "https://blog.postman.com/turn-your-postman-collection-into-a-microsoft-integration/"
 ---
 
 Microsoft Power Automate enables you to automate workflows between your favorite apps and services to get notifications, synchronize files, collect data, and more. It offers over 140 services with predefined flows available for easy implementation.

@@ -12,13 +12,10 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Videos"
   - type: link
-    name: "One person, multiple accounts"
-    url: "https://blog.postman.com/one-person-multiple-accounts/"
-  - type: link
-    name: "Sweet cosmic karma for your public profile"
-    url: "https://blog.postman.com/sweet-cosmic-karma-for-your-public-profile/"
+    name: "Public Profiles | Postman Level Up"
+    url:  "https://youtu.be/w-EgqQ8Anvw"
   - type: section
     name: "Next Steps"
   - type: link

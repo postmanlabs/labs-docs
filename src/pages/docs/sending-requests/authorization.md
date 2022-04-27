@@ -29,20 +29,6 @@ contextual_links:
     name: "Inheriting Auth Details | Postman Level Up"
     url: "https://www.youtube.com/watch?v=WFiYsfSkyXE&list=PLM-7VG-sgbtC5tNXxd28cmePSa9BYwqeU&index=2"
   - type: subtitle
-    name: "Blog Posts"
-  - type: link
-    name: "Generate Spotify playlists using a Postman collection"
-    url: "https://blog.postman.com/generate-spotify-playlists-using-a-postman-collection/"
-  - type: link
-    name: "Keep it DRY with collection and folder elements"
-    url: "https://blog.postman.com/keep-it-dry-with-collection-and-folder-elements/"
-  - type: link
-    name: "Postman makes authorization stronger and easier"
-    url: "https://blog.postman.com/postman-makes-authorization-stronger-and-easier/"
-  - type: link
-    name: "Audit your AWS infrastructure with Postman"
-    url: "https://blog.postman.com/audit-your-aws-infrastructure-with-postman/"
-  - type: subtitle
     name: "Next Steps"
   - type: link
     name: "Troubleshooting your Requests"

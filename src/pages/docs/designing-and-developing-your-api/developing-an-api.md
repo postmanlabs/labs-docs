@@ -20,8 +20,8 @@ contextual_links:
   - type: subtitle
     name: "Blog Posts"
   - type: link
-    name: "Create APIs directly within the Postman app"
-    url: "https://blog.postman.com/postman-7-1-create-apis-directly-within-the-postman-app/"
+    name: "The Reimagined API-First Workflow, Part 1: for Developers"
+    url: "https://blog.postman.com/the-reimagined-api-first-workflow-for-developers/"
   - type: section
     name: "Next Steps"
   - type: link

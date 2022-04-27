@@ -13,8 +13,8 @@ contextual_links:
   - type: subtitle
     name: "Videos"
   - type: link
-    name: "Capture API Calls With a Proxy"
-    url: "https://youtu.be/bjrCHUITZ3k"
+    name: "Syncing Cookies for Authentication | Postman Level Up"
+    url: "https://www.youtube.com/watch?v=jfgFNw5SoUg"
   - type: link
     name: "Postman Interceptor Demo"
     url: "https://youtu.be/Swjims0aOl4"
@@ -23,9 +23,6 @@ contextual_links:
   - type: link
     name: "Enhanced HTTP Traffic Capture and Analysis in Postman"
     url: "https://blog.postman.com/http-traffic-capture-and-analysis-in-postman/"
-  - type: link
-    name: "Using the Interceptor to read and write cookies"
-    url: "https://blog.postman.com/using-the-interceptor-to-read-and-write-cookies/"
 
 warning: false
 
