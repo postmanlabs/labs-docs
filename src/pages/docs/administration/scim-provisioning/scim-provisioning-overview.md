@@ -14,7 +14,7 @@ contextual_links:
     url: "https://blog.postman.com/introducing-user-management-in-postman-with-scim/"
 ---
 
-> __[Provisioning with SCIM is only available to Postman Enterprise teams.](https://www.postman.com/pricing)__
+> **[Provisioning with SCIM is only available to Postman Enterprise teams.](https://www.postman.com/pricing)**
 
 Postman supports [SCIM](https://datatracker.ietf.org/doc/html/rfc7642) (System for Cross-domain Identity Management), allowing you to automate user provisioning and de-provisioning for your team. With this feature, you can efficiently deploy Postman at scale across your organization and control access to it via your identity provider.
 
@@ -38,27 +38,48 @@ You can enable SCIM provisioning with the [SCIM API](#configuring-scim-with-the-
 
 Postman supports the following provisioning features:
 
-* Create user: Creates a new user account in Postman, adds the account to your organization's Postman team, and activates authentication for the user. If an account with the same email ID exists, an [email invite](/docs/administration/managing-your-team/managing-your-team/#invites) to join your Postman team is sent to the user. Once the user accepts the invite, they will be added to your team.
+* **Create user**: Creates a new user account in Postman, adds the account to your organization's Postman team, and activates authentication for the user. If an account with the same email ID exists, an [email invite](/docs/administration/managing-your-team/managing-your-team/#invites) to join your Postman team is sent to the user. Once the user accepts the invite, they will be added to your team.
 
 > The newly added user will have the developer role in Postman by default. You can later [update account roles in Postman](/docs/administration/managing-your-team/managing-your-team/#managing-roles).
 
-* Update user information: Updates a user’s first and last name in Postman.
+* **Update user information**:
 
-* Activate user: Creates a new user on your Postman team, if one doesn't already exist, and activates the user to authenticate into your Postman team.
+    * **Update user attributes**: Updates a user’s first and last name in Postman.
 
-* Deactivate user: Removes a user from your Postman team and deactivates their account, blocking the account from authenticating into Postman.
+    * **Activate user**: Creates a new user on your Postman team, if one doesn't already exist, and activates the user to authenticate into your Postman team.
 
-> The user account and the data corresponding to it won't be deleted. To permanently delete the user account and their data, [contact Postman support](https://www.postman.com/support/).
+    * **Deactivate user**: Removes a user from your Postman team and deactivates their account, blocking the account from authenticating into Postman.
 
-* Reactivate user: Reactivates an existing deactivated user by unblocking the account's authentication into Postman and adds the account back to your Postman team.
+        > User accounts and the data corresponding to them won't be deleted. To permanently delete a user account and its data, [contact Postman support](https://www.postman.com/support/).
+
+    * **Reactivate user**: Reactivates an existing deactivated user by unblocking the account's authentication into Postman and adds the account back to your Postman team.
+
+* **Create group**: Creates a new user group in Postman. When you assign the Postman app to a group, Postman creates a new account for each group member, adds each account to your organization's Postman team, and activates authentication for each user. If an account with a matching email ID to a group member exists, an [email invite](/docs/administration/managing-your-team/managing-your-team/#invites) to join your Postman team is sent to that user. Once the user accepts the invite, they'll be added to your team.
+
+    > Newly created groups will have the developer role in Postman by default. You can later [update group roles in Postman](/docs/administration/managing-your-team/managing-your-team/#managing-roles).
+
+* **Delete group**: Deletes a user group in Postman. User accounts that were part of the deleted group are deactivated in Postman.
+
+* **Update group information**:
+
+    * **Update group attributes**: Updates a group's name in Postman.
+
+    * **Update group members**: Adds or removes members from a group in Postman.
+
+    * **Activate group**: Creates a new user group in your Postman team and activates authentication for each group member.
+
+    * **Deactivate group**: Removes a group of users from your Postman team and deactivates their accounts, blocking them from authenticating into Postman.
+
+        > User accounts and the data corresponding to them won't be deleted. To permanently delete a user account and its data, [contact Postman support](https://www.postman.com/support/).
+
+    * **Reactivate group**: Reactivates an existing deactivated group by unblocking the user accounts' authentication into Postman and adds the accounts back to your Postman team.
 
 Currently, Postman doesn't support the following provisioning features:
 
-* Push groups
-* Import groups
+* Push groups from Postman to your Identity Provider (IdP)
 * Push/sync password updates
-* Push user attribute updates from Okta to Postman other than name
-* Pull user attribute updates from Postman to Okta
+* Push user attribute updates from your IdP to Postman other than name
+* Pull user attribute updates from Postman to your IdP
 
 ## Enabling SCIM provisioning
 
