@@ -29,20 +29,6 @@ contextual_links:
     name: "Inheriting Auth Details | Postman Level Up"
     url: "https://www.youtube.com/watch?v=WFiYsfSkyXE&list=PLM-7VG-sgbtC5tNXxd28cmePSa9BYwqeU&index=2"
   - type: subtitle
-    name: "Blog Posts"
-  - type: link
-    name: "Generate Spotify playlists using a Postman collection"
-    url: "https://blog.postman.com/generate-spotify-playlists-using-a-postman-collection/"
-  - type: link
-    name: "Keep it DRY with collection and folder elements"
-    url: "https://blog.postman.com/keep-it-dry-with-collection-and-folder-elements/"
-  - type: link
-    name: "Postman makes authorization stronger and easier"
-    url: "https://blog.postman.com/postman-makes-authorization-stronger-and-easier/"
-  - type: link
-    name: "Audit your AWS infrastructure with Postman"
-    url: "https://blog.postman.com/audit-your-aws-infrastructure-with-postman/"
-  - type: subtitle
     name: "Next Steps"
   - type: link
     name: "Troubleshooting your Requests"
@@ -165,7 +151,7 @@ Setting the fields in the **Advanced** section is optional; Postman will populat
 * __qop:__ The quality of protection applied to the message. The value must be one of the alternatives specified by the server in the `WWW-Authenticate` response header.
 * __Nonce Count:__ The hexadecimal count of the number of requests (including the current request) that the client has sent with the nonce value in this request.
 * __Client Nonce:__ An opaque quoted string value provided by the client, used by both client and server to avoid chosen plaintext attacks, to provide mutual authentication, and to provide some message integrity protection.
-* __Opaque:__ A string of data specified by the server in the `WWW-Authenticate` response header, which should be used unchanged with URIs in the same protection space.
+* __Opaque:__ A string of data specified by the server in the `WWW-Authenticate` response header, which will be used unchanged with URIs in the same protection space.
 
 ### OAuth 1.0
 
@@ -184,7 +170,7 @@ To use OAuth 1.0:
 
 1. In the __Authorization__ tab for a request, select __OAuth 1.0__ from the __Type__ dropdown list.
 
-1. Select a __Signature Method__ from the drop-down list. This will determine which parameters you should include with your request. Postman supports `HMAC-SHA1`, `HMAC-SHA256`, `HMAC-SHA512`, `RSA-SHA1`, `RSA-SHA256`, `RSA-SHA512`, and `PLAINTEXT`.
+1. Select a __Signature Method__ from the dropdown list. This will determine which parameters to include with your request. Postman supports `HMAC-SHA1`, `HMAC-SHA256`, `HMAC-SHA512`, `RSA-SHA1`, `RSA-SHA256`, `RSA-SHA512`, and `PLAINTEXT`.
 
    * If your server requires an `HMAC` or `PLAINTEXT` signature, Postman will provide __Consumer Key__, __Consumer Secret__, __Access Token__, and __Token Secret__ fields.
    * If you're using an `RSA` signature, Postman will present __Consumer Key__, __Access Token__, and __Private Key__ inputs.
@@ -253,7 +239,7 @@ To use OAuth 2.0:
 
 Authorization code grant type requires the user to authenticate with the provider—an authorization code is then sent back to the client app, extracted, and exchanged with the provider for an access token to authenticate subsequent requests.
 
-To use authorization code grant type, enter a __Callback URL__ for your client application (which should be registered with the API provider), together with various details provided by the API service including __Auth URL__, __Access Token URL__, __Client ID__, and __Client Secret__.
+To use authorization code grant type, enter a __Callback URL__ for your client application (which needs to be registered with the API provider), together with various details provided by the API service including __Auth URL__, __Access Token URL__, __Client ID__, and __Client Secret__.
 
 > You can enter your auth details in the web browser, instead of in Postman, if you prefer, by selecting __Authorize using browser__.
 
@@ -291,7 +277,7 @@ On the **Configuration Options** tab:
 
 * __Token Name:__ The name you want to use for the token.
 * __Grant Type:__ A dropdown list of options. This will depend on the API service provider requirements.
-* __Callback URL:__ The client application callback URL redirected to after auth, and that should be registered with the API provider. If not provided, Postman will use a default empty URL and attempt to extract the code or access token from it. If this doesn't work for your API, you can use the following URL: `https://oauth.pstmn.io/v1/browser-callback`
+* __Callback URL:__ The client application callback URL to redirect to after auth. This must be registered with the API provider. If not provided, Postman will use a default empty URL and attempt to extract the code or access token from it. If this doesn't work for your API, you can use the following URL: `https://oauth.pstmn.io/v1/browser-callback`
     * __Authorize using browser:__ You can enter your credentials in your web browser, instead of the pop-up that appears in Postman by default when you use the __Authorization code__ or __Implicit__ grant type. Checking this box will set the __Callback URL__ to return to Postman. If you opt to authorize using the browser, make sure pop-ups are deactivated for the callback URL, otherwise it won't work.
 * __Auth URL:__ The endpoint for the API provider authorization server, to retrieve the auth code.
 * __Access Token URL:__ The provider's authentication server, to exchange an authorization code for an access token.
@@ -299,7 +285,7 @@ On the **Configuration Options** tab:
 * __Client Secret:__ The client secret given to you by the API provider.
 * __Scope:__ The scope of access you are requesting, which may include multiple space-separated values.
 * __State:__ An opaque value to prevent cross-site request forgery.
-* __Client Authentication:__ A dropdown list: send a Basic Auth request in the header, or client credentials in the request body. After upgrading to a new version, change the value in this dropdown menu to avoid problems with client authentication.
+* __Client Authentication:__ Send a Basic Auth request in the header, or client credentials in the request body. After upgrading to a new version, change the value here to avoid problems with client authentication.
 
 On the **Advanced Options** tab:
 
@@ -352,7 +338,7 @@ The official AWS Signature documentation provides more detail:
 
 1. In the __Authorization__ tab for a request, select __AWS Signature__ from the __Type__ dropdown list.
 
-1. Select where Postman should append your AWS auth details using the __Add authorization data to__ drop-down, choosing the request headers or URL.
+1. Select the location where Postman will append your AWS auth details using the __Add authorization data to__ dropdown list, choosing the request headers or URL.
 
     * If you select __Request Headers__, Postman will add `Authorization` and `X-Amz-` prefixed fields in the __Headers__ tab.
     * If you select __Request URL__, Postman will add the auth details in __Params__ with keys prefixed `X-Amz-`.
@@ -398,4 +384,4 @@ If you have session cookies in your browser, you can sync them to Postman using 
 
 ## Next steps
 
-If you're having issues getting a request to authenticate and run successfully, try some of the tips in [troubleshooting API requests](/docs/sending-requests/troubleshooting-api-requests/). If you still have auth problems, check out the [authentication tag](https://community.postman.com/tags/authentication) on the Postman forum.
+If you're having issues getting a request to authenticate and run successfully, review the tips in [troubleshooting API requests](/docs/sending-requests/troubleshooting-api-requests/). If you still have auth problems, check out the [authentication tag](https://community.postman.com/tags/authentication) on the Postman forum.

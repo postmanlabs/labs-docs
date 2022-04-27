@@ -19,6 +19,11 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Intro to the Postman API | Postman Level Up"
+    url: "https://youtu.be/iEtsp6o4AJg"
+  - type: subtitle
     name: "Case Studies"
   - type: link
     name: "Gear4Music"
@@ -26,11 +31,6 @@ contextual_links:
   - type: link
     name: "Giant Machines"
     url: "https://www.postman.com/case-studies/giant-machines/"
-  - type: subtitle
-    name: "Blog Posts"
-  - type: link
-    name: "Mock responses in Postman by using Examples"
-    url: "https://blog.postman.com/mock-responses-in-postman-by-using-examples/"
 
 warning: false
 ---
@@ -66,7 +66,7 @@ To mock a collection using the Postman API, you first need to know the collectio
 
 Create a new request in Postman, leave `GET` selected for the method, and enter the following URL: `https://api.getpostman.com/collections`
 
-If you try sending the request, you'll receive an authentication error. To [authenticate with the Postman API](https://learning.postman.com/docs/developer/intro-api/#authentication), add an `x-api-key` header to your request and sets its value to your Postman API key. (You can [generate a new Postman API key](https://learning.postman.com/docs/developer/intro-api/#generating-a-postman-api-key) if you don't already have one.)
+If you send the request, you'll receive an authentication error. To [authenticate with the Postman API](https://learning.postman.com/docs/developer/intro-api/#authentication), add an `x-api-key` header to your request and sets its value to your Postman API key. (You can [generate a new Postman API key](https://learning.postman.com/docs/developer/intro-api/#generating-a-postman-api-key) if you don't already have one.)
 
 Select **Send** to send the `GET All Collections` request. The response pane displays a list of all your collections. Search for the `testAPI` collection and locate the `uid` value. You will use this collection ID in the next step.
 
@@ -130,7 +130,7 @@ There's no need to add an `x-api-key` header, as the mock server is public, so j
 
 <img alt="Sending a request to the mock server" src="https://assets.postman.com/postman-docs/mock-api-mock-response-v9-14.jpg" width="893px">
 
-Notice that the response is identical to the example you saved for `Request 1`. That's because the mock server uses the example to create a response. If you added more requests and examples to the collection, try sending them to the mock server using the mock server URL and the request path.
+Notice that the response is identical to the example you saved for `Request 1`. That's because the mock server uses the example to create a response. If you added more requests and examples to the collection, send them to the mock server using the mock server URL and the request path.
 
 ## Adding optional request headers
 

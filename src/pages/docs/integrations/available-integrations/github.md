@@ -17,9 +17,6 @@ contextual_links:
   - type: link
     name: "Syncing Your OpenAPI, RAML, and GraphQL Schema to GitHub with Postman"
     url:  "https://blog.postman.com/syncing-your-openapi-raml-and-graphql-schema-to-github-with-postman/"
-  - type: link
-    name: "How to Auto-Sync Postman Collections with AWS CodeCommit Repositories"
-    url:  "https://blog.postman.com/how-to-auto-sync-postman-collections-with-aws-codecommit-repositories/"
 ---
 
 > __[GitHub Enterprise Server integrations are only available on Postman Enterprise plans.](https://www.postman.com/pricing)__
@@ -125,4 +122,4 @@ If your GitHub integration has issues or your data isn't pushed to GitHub, check
 * You have permissions to push to the branch.
 * If your enterprise version of GitHub is on-premises or self-hosted, check with your IT team for [firewall requirements](#static-ip-support).
 
-Edit the integration to make any required changes and try again. If the integration still doesn't work, try deleting the integration and adding it again.
+Edit the integration to make any required changes. If the integration still doesn't work after you edit it, delete the integration and add it again.

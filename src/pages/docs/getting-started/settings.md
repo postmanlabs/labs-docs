@@ -13,11 +13,6 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
-    name: "Blog Posts"
-  - type: link
-    name: "Speeding up workflows with keyboard shortcuts"
-    url: "https://blog.postman.com/speeding-up-workflows-with-keyboard-shortcuts/"
-  - type: subtitle
     name: "Videos"
   - type: link
     name: "Keyboard Shortcuts | Postman Level Up"
@@ -92,8 +87,8 @@ When you send a form-data or binary file with a request body, Postman saves a pa
 * **Font Size (`px`):** Enter the font size in pixels to use for code text.
 * **Indentation count:** Enter the number of indentation characters to use for each code level.
 * **Indentation type:** Select the indentation character type to use (**Space** or **Tab**).
-* **Auto close brackets:** Turn on this toggle to automatically add a closing bracket when you type an opening bracket.
-* **Auto close quotes:** Turn on this toggle to automatically add a closing quotation mark when you type an opening quotation mark.
+* **Auto close brackets:** Turn on this toggle to automatically add a closing bracket when you enter an opening bracket.
+* **Auto close quotes:** Turn on this toggle to automatically add a closing quotation mark when you enter an opening quotation mark.
 
 ## Themes
 
@@ -111,7 +106,7 @@ Some shortcuts aren't available in Postman for Web. Also, shortcut modifier keys
 
 Use the **Data** tab to request a bulk export of Postman data or to import data. To begin the export process, select **Export Data**. You can choose to export your collections, environments, or both. You'll receive an email when your dump file is ready to download.
 
-Importing a dump file may overwrite your existing collections and environments, so use caution. You should always make a backup before importing files. Learn more about [importing and exporting data](/docs/getting-started/importing-and-exporting-data/).
+Importing a dump file may overwrite your existing collections and environments, so use caution. Always make a backup before importing files. Learn more about [importing and exporting data](/docs/getting-started/importing-and-exporting-data/).
 
 ## Add-ons
 
@@ -135,7 +130,7 @@ The **About** tab displays the current version of Postman, along with links to h
 
 ## Hardware acceleration
 
-Postman takes advantage of your computer's built-in graphics hardware to speed up the rendering of onscreen graphics. Sometimes your computer's specific GPU, drivers, or operating system may cause issues with hardware acceleration. If you see screen artifacts or other glitches, try disabling hardware acceleration.
+Postman takes advantage of your computer's built-in graphics hardware to speed up the rendering of onscreen graphics. Sometimes your computer's specific GPU, drivers, or operating system may cause issues with hardware acceleration. If you see screen artifacts or other glitches, turning off hardware acceleration might solve the problem.
 
 To activate or deactivate hardware acceleration in Postman:
 

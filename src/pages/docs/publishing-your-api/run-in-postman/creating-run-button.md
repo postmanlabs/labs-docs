@@ -62,7 +62,7 @@ Make sure you're signed in to your Postman account, and that you have a collecti
     > To create a live button, you need to share the collection to a public workspace. If you don't have a public workspace to share to, you can create a new one using the modal. For users on Enterprise plans, you need to have a [community manager](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) role to [create a new public workspace](/docs/collaborating-in-postman/using-workspaces/public-workspaces/).
     * **Static button**: This button uses Markdown, so you can display it in a README, blog, or other Markdown document.
 
-* You can optionally include an environment to embed with your collection. On the left, select the **Environment** drop-down and choose the environment.
+* You can optionally include an environment to embed with your collection. Select the **Add an environment** dropdown list and choose the environment.
 * Select <img alt="Copy icon" src="https://assets.postman.com/postman-docs/icon-copy-v9.jpg#icon" width="15px"> **Copy Code**.
 
 ![Create a Run in Postman button modal](https://assets.postman.com/postman-docs/run-in-postman-9.14.jpg)

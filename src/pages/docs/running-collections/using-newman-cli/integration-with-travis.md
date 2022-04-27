@@ -14,9 +14,6 @@ contextual_links:
   - type: subtitle
     name: "Blog Posts"
   - type: link
-    name: "Integrate API tests with Postman, Newman, and Travis CI"
-    url: "https://blog.postman.com/integrate-api-tests-with-postman-newman-and-travis-ci/"
-  - type: link
     name: "Integrations: how Postman plays with some of your favorite tools"
     url: "https://blog.postman.com/integrations-how-postman-plays-with-some-of-your-favorite-tools/"
   - type: section
@@ -70,7 +67,7 @@ This example shows you how to integrate Postman with [Travis CI](https://travis-
         └── hello_world.postman_collection.json
     ```
 
-    > If your collection uses an environment, you should also [export the environment](/docs/sending-requests/managing-environments/) as a JSON file and move it to the `tests` folder.
+    > If your collection uses an environment, you also need to [export the environment](/docs/sending-requests/managing-environments/) as a JSON file and move it to the `tests` folder.
 
 1. Create a new file named `.travis.yml` at the root of your project repository. You'll use this file to tell Travis CI the programming language for your project and how to  build it.
 
@@ -87,7 +84,7 @@ This example shows you how to integrate Postman with [Travis CI](https://travis-
 
     Because Travis CI doesn’t know where Newman is located, you need to update the `PATH`. In this example, the `newman` tool is located in the `.bin` folder which is in the `node_modules` folder.
 
-    For this example, your `.travis.yml` file should look like the following:
+    For this example, your `.travis.yml` file will look like the following:
 
     ```bash
     language: node_js
@@ -131,7 +128,7 @@ To see what things look like when a test fails, make a change in your imported "
 
 1. Save the change and then export the collection again. As before, rename the exported file `hello_world.postman_collection.json` and move it into the `tests` directory in your local project.
 
-1. Commit and push the change to your public GitHub repo. This will trigger a new build in Travis CI, and this time the build should fail.
+1. Commit and push the change to your public GitHub repo. This will trigger a new build in Travis CI, and this time the build will fail.
 
     [![Travis CI build failed](https://assets.postman.com/postman-docs/travis-ci-build-failed.jpg)](https://assets.postman.com/postman-docs/travis-ci-build-failed.jpg)
 
@@ -139,7 +136,7 @@ To see what things look like when a test fails, make a change in your imported "
 
     [![Travis CI error log](https://assets.postman.com/postman-docs/travis-ci-error-log.jpg)](https://assets.postman.com/postman-docs/travis-ci-error-log.jpg)
 
-1. For this example, if you want, you can correct the error in the test in Postman and export the collection again. As before, rename the JSON file, add it to the `tests` folder in your local project, then commit and push. This time your build in Travis CI should be successful.
+1. For this example, if you want, you can correct the error in the test in Postman and export the collection again. As before, rename the JSON file, add it to the `tests` folder in your local project, then commit and push. This time your build in Travis CI will be successful.
 
 ## Next Steps
 
