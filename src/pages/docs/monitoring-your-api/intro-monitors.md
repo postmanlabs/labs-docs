@@ -25,8 +25,8 @@ contextual_links:
     name: "Integrated API Monitoring in Postman"
     url: "https://blog.postman.com/integrated-api-monitoring-in-postman/"
   - type: link
-    name: "From manual to automated testing: The roadblocks and the journey"
-    url: "https://medium.com/better-practices/from-manual-to-automated-testing-the-roadblocks-and-the-journey-6333dfacc5ae"
+    name: "Continuous API Testing with Postman"
+    url: "https://blog.postman.com/continuous-api-testing-with-postman/"
   - type: subtitle
     name: "Case Studies"
   - type: link

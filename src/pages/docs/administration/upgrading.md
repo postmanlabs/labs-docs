@@ -10,6 +10,18 @@ contextual_links:
   - type: link
     name: "Installing and updating"
     url: "/docs/getting-started/installation-and-updates/"
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Test-driving the Latest Postman Release: v9 and Flows"
+    url: "https://youtu.be/j-fkJLbOpjk"
+  - type: subtitle
+    name: "Blog Posts"
+  - type: link
+    name: "The New Postman API Platform: Redefining API Management for the API-First World"
+    url: "https://blog.postman.com/new-postman-api-platform-redefining-api-management-for-api-first-world/"
 
 ---
 This section describes the steps to migrate your team to the latest version of Postman.

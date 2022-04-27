@@ -12,6 +12,11 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "API Documentation | The Exploratory"
+    url: "https://youtu.be/XNVo9WkCoak"
+  - type: subtitle
     name: "Case Studies"
   - type: link
     name: "Cisco DevNet"
@@ -19,16 +24,6 @@ contextual_links:
   - type: link
     name: "Imgur"
     url: "https://www.postman.com/case-studies/imgur/"
-  - type: subtitle
-    name: "Videos"
-  - type: link
-    name: "API Documentation | The Exploratory"
-    url: "https://youtu.be/XNVo9WkCoak"
-  - type: subtitle
-    name: "Blog Posts"
-  - type: link
-    name: "Simplifying API documentation for a great first user experience"
-    url: "https://blog.postman.com/simplifying-api-documentation-for-a-great-first-user-experience/"
   - type: section
     name: "Next Steps"
   - type: link

@@ -15,10 +15,15 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Continuous Testing with Postman | Webinar"
+    url: "https://youtu.be/sB2HHrezQOo"
+  - type: subtitle
     name: "Blog Posts"
   - type: link
-    name: "Continuous Testing of APIs"
-    url: "https://medium.com/better-practices/continuous-testing-of-apis-5294552d65ce"
+    name: "Continuous API Testing with Postman"
+    url: "https://blog.postman.com/continuous-api-testing-with-postman/"
   - type: section
     name: "Next Steps"
   - type: link

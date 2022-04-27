@@ -12,14 +12,6 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
-    name: "Case Studies"
-  - type: link
-    name: "Cisco DevNet"
-    url: "https://www.postman.com/case-studies/cisco-devnet/"
-  - type: link
-    name: "Imgur"
-    url: "https://www.postman.com/case-studies/imgur/"
-  - type: subtitle
     name: "Videos"
   - type: link
     name: "API Documentation | The Exploratory"
@@ -33,8 +25,19 @@ contextual_links:
   - type: subtitle
     name: "Blog Posts"
   - type: link
-    name: "Simplifying API documentation for a great first user experience"
-    url: "https://blog.postman.com/simplifying-api-documentation-for-a-great-first-user-experience/"
+    name: "Introducing The Good Documentation Checklist"
+    url: "https://blog.postman.com/postman-good-documentation-checklist/"
+  - type: link
+    name: "Design Your Own Style Guide with This Public Workspace Linter"
+    url: "https://blog.postman.com/design-your-style-guide-public-workspace-linter/"
+  - type: subtitle
+    name: "Case Studies"
+  - type: link
+    name: "Cisco DevNet"
+    url: "https://www.postman.com/case-studies/cisco-devnet/"
+  - type: link
+    name: "Imgur"
+    url: "https://www.postman.com/case-studies/imgur/"
   - type: section
     name: "Next Steps"
   - type: link

@@ -18,17 +18,11 @@ contextual_links:
   - type: subtitle
     name: "Blog Posts"
   - type: link
-    name: "Enhanced HTTP Traffic Capture and Analysis in Postman"
-    url: "https://blog.postman.com/http-traffic-capture-and-analysis-in-postman/"
-  - type: link
-    name: "Reverse engineering an API"
-    url: "https://medium.com/better-practices/reverse-engineering-an-api-403fae885303"
-  - type: link
-    name: "Using Postman Proxy to Capture and Inspect API Calls from iOS or Android Devices"
-    url: "https://blog.postman.com/using-postman-proxy-to-capture-and-inspect-api-calls-from-ios-or-android-devices/"
-  - type: link
     name: "Capture Responses Using the Postman Proxy"
     url: "https://blog.postman.com/capture-responses-using-the-postman-proxy/"
+  - type: link
+    name: "Enhanced HTTP Traffic Capture and Analysis in Postman"
+    url: "https://blog.postman.com/http-traffic-capture-and-analysis-in-postman/"
 
 warning: false
 
