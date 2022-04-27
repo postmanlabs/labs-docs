@@ -1,5 +1,5 @@
 ---
-title: "GitLab"
+title: "GitLab CI/CD"
 updated: 2022-04-29
 contextual_links:
   - type: section
@@ -26,11 +26,11 @@ If you haven't already, create a pipeline in the GitLab you use for your API. To
 1. Under **Connect to CI/CD Builds**, select **GitLab**.
 1. You'll be prompted to authorize Postman to access your GitLab account. After you grant access, you can close the browser tab and return to Postman.
 1. Enter a **Nickname** to help you recognize the integration later.
-1. Select the **GitLab group** with your API repository.
-1. Select the **project** used for your API.
-1. Select **Connect**. <!--TODO these fields don't look right in beta. Also, are they different if you haven't authed for repo sync? They are pre-populated if you already have a repo sync configured. -->
+1. Select the **Workspace** containing your API repository.
+1. Select the **CI project** used for your API.
+1. Select **Connect**.
 
-<img alt="Connect to Bitbucket Pipelines" src="https://assets.postman.com/postman-docs/bitbucket-pipelines-connect-project-v9-15.jpg" width="518px"><!--TODO replace -->
+   <img alt="Connect to GitLab CI/CD" src="https://assets.postman.com/postman-docs/gitlab-ci-connect-project-v9-16.jpg" />
 
 ## Viewing build status
 
@@ -59,7 +59,7 @@ To view details for collections that were run as part of a build, first [configu
 
 > Select **View Report** to view a collection run report in the Postman **History**. Learn more about using the [Collection Runner](/docs/running-collections/intro-to-collection-runs/).
 
-## Configuring Newman for GitLab
+## Configuring Newman for GitLab CI/CD
 
 With the help of Newman and the Postman API, you can run API tests created in Postman as part of your GitLab pipeline. First generate the Newman configuration code in Postman. Then add the configuration code to the `.gitlab-ci.yml` file in your GitLab repository.
 
@@ -79,7 +79,7 @@ To generate configuration code for Newman:
 1. (Optional) Select the check box to use the Postman cloud reporter to send collection run information back to Postman. You can view the collection run details in the Postman **History** and on the API version **Test** tab.
 1. Select **Copy** to copy the Newman configuration, and then select **Finish**.
 
-<img alt="Generate Newman configuration" src="https://assets.postman.com/postman-docs/bitbucket-pipelines-generate-newman-v9-15.jpg" width="548px"><!--TODO replace -->
+   <img alt="Generate Newman configuration" src="https://assets.postman.com/postman-docs/gitlab-ci-generate-newman-v9-16.jpg" />
 
 To add the Newman configuration to your GitLab pipeline:
 
