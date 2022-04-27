@@ -24,7 +24,7 @@ If you haven't already, create a pipeline in the GitLab you use for your API. To
 1. Open your API by selecting **APIs** in the sidebar, and then selecting an API and a version. *Each API version can be linked to one CI project*.
 1. Select the **Test** tab.
 1. Under **Connect to CI/CD Builds**, select **GitLab**.
-1. You'll be prompted to authorize Postman to access your GitLab account. After you grant access, you can close the browser tab and return to Postman. <!--TODO auth reuse if you're already using a GitLab repo -->
+1. You'll be prompted to authorize Postman to access your GitLab account. After you grant access, you can close the browser tab and return to Postman.
 1. Enter a **Nickname** to help you recognize the integration later.
 1. Select the **GitLab group** with your API repository.
 1. Select the **project** used for your API.
