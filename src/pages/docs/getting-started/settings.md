@@ -13,11 +13,6 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
-    name: "Blog Posts"
-  - type: link
-    name: "Speeding up workflows with keyboard shortcuts"
-    url: "https://blog.postman.com/speeding-up-workflows-with-keyboard-shortcuts/"
-  - type: subtitle
     name: "Videos"
   - type: link
     name: "Keyboard Shortcuts | Postman Level Up"

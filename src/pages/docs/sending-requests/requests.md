@@ -18,22 +18,16 @@ contextual_links:
     name: "How to Send API Requests"
     url: "https://youtu.be/8mBmLDbpIH8"
   - type: link
-    name: "How to use an API"
-    url:  "https://www.youtube.com/watch?v=jCadnlO9xSQ&list=PLM-7VG-sgbtBBnWb2Jc5kufgtWYEmiMAw"
+    name: "Intro to Postman | Part 1: Send a Request"
+    url: "https://youtu.be/2oOSnxZ28fA"
   - type: link
     name: "Upload a File via POST Request | Postman Level Up"
     url: "https://youtu.be/S7bwkys6D0E"
   - type: subtitle
     name: "Blog Posts"
   - type: link
-    name: "Get Greater Visibility With HTTP Header Live Preview in Postman"
-    url:  "https://blog.postman.com/get-greater-visibility-with-http-header-live-preview-in-postman/"
-  - type: link
     name: "Introducing the Next-Generation Postman URL Processor"
     url:  "https://blog.postman.com/introducing-the-next-generation-postman-url-processor/"
-  - type: link
-    name: "Announcing Increased Visibility of Invalid Whitespaces and Newlines In Your API Requests"
-    url:  "https://blog.postman.com/how-postman-increases-the-visibility-of-invalid-whitespaces-and-newlines-in-your-api-requests/"
   - type: subtitle
     name: "Public Workspaces"
   - type: link

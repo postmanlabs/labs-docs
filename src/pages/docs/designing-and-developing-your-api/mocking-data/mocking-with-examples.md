@@ -20,11 +20,9 @@ contextual_links:
   - type: link
     name: "Mock Servers | The Exploratory"
     url: "https://youtu.be/n_7UUghLpco"
-  - type: subtitle
-    name: "Blog Posts"
   - type: link
-    name: "Mock responses in Postman by using Examples"
-    url: "https://blog.postman.com/mock-responses-in-postman-by-using-examples/"
+    name: "Dynamic Mock Behavior | Postman Level Up"
+    url: "https://youtu.be/av7SZo9sZAE"
   - type: section
     name: "Next Steps"
   - type: link

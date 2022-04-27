@@ -10,6 +10,13 @@ contextual_links:
   - type: link
     name: "Intro to SSO"
     url: "/docs/administration/sso/intro-sso/"
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Postman 101 for Admins | Webinar"
+    url: "https://youtu.be/d6pw-0Yy5fs"
 ---
 
 > __[SSO is available on Postman Professional and Enterprise plans.](https://www.postman.com/pricing)__

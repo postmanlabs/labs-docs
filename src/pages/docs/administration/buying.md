@@ -13,8 +13,8 @@ contextual_links:
   - type: subtitle
     name: "Blog Posts"
   - type: link
-    name: "Announcing updated Postman plans and pricing"
-    url: "https://blog.postman.com/announcing-updated-postman-plans-and-pricing/"
+    name: "Announcing 2021 Postman Plans and Pricing Updates"
+    url: "https://blog.postman.com/announcing-postman-plans-and-pricing-2021/"
   - type: section
     name: "Next Steps"
   - type: link

@@ -20,12 +20,6 @@ contextual_links:
   - type: subtitle
     name: "Blog Posts"
   - type: link
-    name: "Introducing Interceptor integration for native Postman apps"
-    url: "https://blog.postman.com/introducing-interceptor-integration-for-native-postman-apps/"
-  - type: link
-    name: "Client proxy settings in Postman"
-    url: "https://blog.postman.com/client-proxy-settings-in-postman/"
-  - type: link
     name: "Postman Interceptor: The Next Generation View Source for The API Economy"
     url:  "https://blog.postman.com/postman-interceptor-the-next-generation-view-source-for-the-api-economy/"
 
