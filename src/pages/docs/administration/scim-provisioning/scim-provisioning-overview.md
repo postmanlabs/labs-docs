@@ -69,7 +69,7 @@ Postman supports the following provisioning features:
 Currently, Postman doesn't support the following provisioning features:
 
 * Push groups from Postman to your Identity Provider (IdP)
-* Push/sync password updates
+* Push and sync password updates
 * Push user attribute updates from your IdP to Postman other than name
 * Pull user attribute updates from Postman to your IdP
 
