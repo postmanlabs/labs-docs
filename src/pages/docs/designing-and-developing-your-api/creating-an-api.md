@@ -15,6 +15,9 @@ contextual_links:
   - type: link
     name: "API Builder | The Exploratory"
     url: "https://youtu.be/BUZiRtGRHj0"
+  - type: link
+    name: "Getting Started with OpenAPI in Postman | Postman Space Camp"
+    url: "https://youtu.be/YRzpziA35Mg"
   - type: section
     name: "Next Steps"
   - type: link
