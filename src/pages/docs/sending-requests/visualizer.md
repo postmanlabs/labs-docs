@@ -23,6 +23,9 @@ contextual_links:
   - type: link
     name: "Visualizer demo"
     url: "https://www.youtube.com/watch?v=i1jU-kivApg"
+  - type: link
+    name: "Create a Custom OneSignal Dashboard Using Postman Visualizer"
+    url: "https://youtu.be/Prgff3__-mw"
   - type: dynamic_blog
     name: "Blog Posts"
     blog_tag: "visualizer"
