@@ -16,6 +16,12 @@ contextual_links:
     name: "API Builder | The Exploratory"
     url: "https://youtu.be/BUZiRtGRHj0"
   - type: link
+    name: "API Fest 2022 | Workshop on Designing API Schemas"
+    url: "https://youtu.be/gGOB3oM2cE4"
+  - type: link
+    name: "API Fest 2022 | Workshop on Coding an API using an API Schema"
+    url: "https://youtu.be/RMiG9tzw5tg"
+  - type: link
     name: "Getting Started with OpenAPI in Postman | Postman Space Camp"
     url: "https://youtu.be/YRzpziA35Mg"
   - type: section
