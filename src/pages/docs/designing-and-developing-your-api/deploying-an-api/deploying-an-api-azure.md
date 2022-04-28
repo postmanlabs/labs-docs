@@ -72,7 +72,7 @@ Select a service to view more details about the connected Azure API version.
 
 * **Export History:** The export history lists all exports from Postman for this API version. For each export, you can view the date created, the Azure revision, and the Postman source.
 
-<img alt="Viewing a service instance" src="https://assets.postman.com/postman-docs/azure-apim-view-a-service-v9-16.jpg"/>
+<img alt="Viewing a service instance" src="https://assets.postman.com/postman-docs/azure-apim-view-a-service-v9-17.jpg"/>
 
 From the service details view, you can take the following actions:
 
