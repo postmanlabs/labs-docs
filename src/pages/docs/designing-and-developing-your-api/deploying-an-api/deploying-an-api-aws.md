@@ -134,7 +134,7 @@ After connecting to Amazon API Gateway, you can view the export and deployment h
 * For each export from Postman, you can view the source of the export and the time when exported.
 * For each deployment you can view the deployment ID, description, and creation date.
 
-<img alt="Viewing API deployments" src="https://assets.postman.com/postman-docs/api-gateway-deployments-tab-v9-16.jpg"/>
+<img alt="Viewing API deployments" src="https://assets.postman.com/postman-docs/api-gateway-deployments-tab-v9-17.jpg"/>
 
 From the **Deployments** tab, you can take the following actions:
 
