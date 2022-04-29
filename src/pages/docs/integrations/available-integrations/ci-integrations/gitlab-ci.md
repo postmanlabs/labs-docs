@@ -13,11 +13,11 @@ contextual_links:
 
 To set up a GitLab CI/CD integration for your API, first create a pipeline in GitLab and then configure your API in Postman. After you set up the integration, you can view the status of builds or start a new build, all from within Postman.
 
-> If your GitLab pipeline is configured to run API tests using [Newman](/docs/running-collections/using-newman-cli/command-line-integration-with-newman/), you can [configure the Postman cloud reporter](#configuring-newman-for-gitlab) to send collection run information back to Postman.
+> If your GitLab pipeline is configured to run API tests using [Newman](/docs/running-collections/using-newman-cli/command-line-integration-with-newman/), you can [configure the Postman cloud reporter](#configuring-newman-for-gitlab-cicd) to send collection run information back to Postman.
 
 ## Creating a pipeline in GitLab
 
-If you haven't already, create a pipeline in the GitLab you use for your API. To create a pipeline, add a `.gitlab-ci.yml` file in the root of your repository. You define your pipeline in this YAML file. To learn more, see [the GitLab CI/CD documentation](https://docs.gitlab.com/ee/ci/).
+If you haven't already, create a pipeline in the GitLab repository you use for your API. To create a pipeline, add a `.gitlab-ci.yml` file in the root of your repository. You define your pipeline in this YAML file. To learn more, see [the GitLab CI/CD documentation](https://docs.gitlab.com/ee/ci/).
 
 ## Configuring a GitLab CI/CD integration
 
@@ -53,7 +53,7 @@ Select **View All Builds** to view the full list of build jobs. From here you ca
 
 Using Newman, you can run Postman collections with your API tests as part of a GitLab pipeline. The Postman cloud reporter can send details about the collection runs back to Postman.
 
-To view details for collections that were run as part of a build, first [configure Newman for GitLab](#configuring-newman-for-gitlab) and then [start a new build](#viewing-build-status). After the build is complete, use the arrows to expand a build and expand **Collection Runs**. Then expand a collection to view details about a collection run.
+To view details for collections that were run as part of a build, first [configure Newman for GitLab](#configuring-newman-for-gitlab-cicd) and then [start a new build](#viewing-build-status). After the build is complete, use the arrows to expand a build and expand **Collection Runs**. Then expand a collection to view details about a collection run.
 
 <img alt="View collection runs" src="https://assets.postman.com/postman-docs/bitbucket-pipelines-collection-runs-v9-15.jpg"><!--TODO replace -->
 
@@ -65,7 +65,7 @@ With the help of Newman and the Postman API, you can run API tests created in Po
 
 Each time the pipeline runs, Newman runs the collections that contain your tests. You can view the results of your tests in Postman. You an also configure the [Postman cloud reporter](https://www.npmjs.com/package/newman-reporter-postman-cloud) to send detailed collection run information back to Postman.
 
-> Before you begin, make sure you’ve already [set up an integration](#configuring-gitlab-integration) between your API version and GitLab.
+> Before you begin, make sure you’ve already [set up an integration](/docs/designing-and-developing-your-api/versioning-an-api/#connecting-a-repository) between your API version and GitLab.
 
 To generate configuration code for Newman:
 
