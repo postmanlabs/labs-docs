@@ -66,7 +66,7 @@ Postman supports the following provisioning features:
 
     * **Update group members**: Adds or removes members from a group in Postman.
 
-Currently, Postman doesn't support the following provisioning features:
+Postman doesn't support the following provisioning features:
 
 * Push groups from Postman to your Identity Provider (IdP)
 * Push/sync password updates
@@ -109,7 +109,7 @@ To enable SCIM:
 
 > You can revisit this page to manage your SCIM API keys. If you regenerate an existing API key, you will have the option to keep the first key active while you switch over.
 
-To continue enabling SCIM provisioning, see [Configuring SCIM with the SCIM API](#configuring-scim-with-the-scim-api), [Configuring SCIM with Okta](/docs/administration/scim-provisioning/configuring-scim-with-okta/), or [Configuring SCIM with Azure AD](/docs/administration/scim-provisioning/configuring-scim-with-azure-ad/). For further information or help configuring SCIM, [contact Postman support](https://www.postman.com/support/).
+To continue enabling SCIM provisioning, see [Configuring SCIM with the SCIM API](#configuring-scim-with-the-scim-api), [Configuring SCIM with Okta](/docs/administration/scim-provisioning/configuring-scim-with-okta/), [Configuring SCIM with Azure AD](/docs/administration/scim-provisioning/configuring-scim-with-azure-ad/), or [Configuring SCIM with OneLogin](/docs/administration/scim-provisioning/configuring-scim-with-onelogin/). For further information or help configuring SCIM, [contact Postman support](https://www.postman.com/support/).
 
 ## Configuring SCIM with the SCIM API
 
