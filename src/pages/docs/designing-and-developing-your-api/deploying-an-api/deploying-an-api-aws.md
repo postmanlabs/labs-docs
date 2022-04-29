@@ -22,7 +22,7 @@ contextual_links:
 
 [Amazon API Gateway](https://aws.amazon.com/api-gateway/) enables developers to publish and manage APIs that access AWS and other web services and data sources. Once connected to API Gateway, you can view your API deployment status and history from within Postman. You can also view [Amazon CloudWatch](https://aws.amazon.com/cloudwatch/) metrics for each stage to get operational insight into your API.
 
-This integration supports OpenAPI 3.0 schemas for HTTP and REST APIs. You can import a schema from Amazon API Gateway to use it in Postman. For HTTP APIs, you can choose to export your schema from Postman to API Gateway. You can use the AWS console to deploy your exported schema to a stage, or deploy your HTTP API schema directly from Postman to a stage.
+This integration supports OpenAPI 3.0 schemas for HTTP and REST APIs. You can import a schema from Amazon API Gateway and use it in Postman. For HTTP APIs, you can choose to export your schema from Postman to API Gateway. You can use the AWS console to deploy your exported schema to a stage, or deploy your HTTP API schema directly from Postman to a stage.
 
 ## Contents
 
@@ -42,7 +42,7 @@ To connect to Amazon API Gateway in Postman, select **APIs** in the sidebar, and
 
 When setting up the connection to API Gateway, you can choose to authenticate by [creating an AWS IAM role](#authenticating-with-an-aws-iam-role) or by [using an AWS access key](#authenticating-with-an-aws-access-key). Follow the steps for your chosen method below. After setting up the connection, you can choose to import a schema from the API Gateway.
 
-> When you delete an API or remove it from a workspace, any configured integrations aren't deleted or removed.
+> When you delete an API or remove it from a workspace, any configured integrations aren't deleted or removed. On the Postman **Home** page, select **Integrations** and search for "AWS API Gateway" to view the list of [AWS API gateway integrations](https://go.postman.co/integrations/service/api_gateway_aws/api_gateway_aws). To delete an integration, select it and then select **Delete Integration**.
 
 ### Authenticating with an AWS IAM role
 
