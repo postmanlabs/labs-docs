@@ -51,7 +51,7 @@ To connect to Azure API Management in Postman:
 
     <img alt="Azure API Management setup" src="https://assets.postman.com/postman-docs/azure-apim-setup-import-v9-16.jpg" width="518px"/>
 
-> When you delete an API or remove it from a workspace, any configured integrations aren't deleted or removed.
+> When you delete an API or remove it from a workspace, any configured integrations aren't deleted or removed. On the Postman **Home** page, select **Integrations** and search for "Microsoft Azure" to view the list of [Azure API Management integrations](https://go.postman.co/integrations/service/api_management_azure/api_management_azure). To delete an integration, select it and then select **Delete Integration**.
 
 ## Viewing Azure API deployments
 
@@ -59,7 +59,7 @@ After connecting to Azure API Management, you can view the deployment status and
 
 For each connected API Management service instance, you can view the resource group, location, subscription, and virtual IP address (VIP).
 
-<img alt="Viewing Azure API Management services" src="https://assets.postman.com/postman-docs/azure-apim-deployments-tab-v9-16.jpg"/>
+<img alt="Viewing Azure API Management services" src="https://assets.postman.com/postman-docs/azure-apim-deployments-tab-v9-17.jpg"/>
 
 Select a service to view more details about the connected Azure API version.
 
