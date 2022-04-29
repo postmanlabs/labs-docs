@@ -1,9 +1,6 @@
 ---
 title: "Integrating with Postman"
-order: 161
-page_id: "intro_integrations"
-updated: 2022-02-08
-warning: false
+updated: 2022-04-29
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -29,6 +26,7 @@ Postman provides an API development toolchain aimed at integrating with your wor
 ## Contents
 
 * [Accessing integrations](#accessing-integrations)
+* [Connected accounts](#connected-accounts)
 * [Static IP support](#static-ip-support)
 * [CI integrations](#ci-integrations)
 
@@ -45,6 +43,22 @@ Each integration's page explains how to use the integration and what it could do
 Select __Add Integration__ to configure your integration. Enter the required information for account and access authorization. Select your workspace to add the integration to and complete the setup process.
 
 ![Add Integrations](https://assets.postman.com/postman-docs/add-integration-b.jpg)
+
+## Connected accounts
+
+>> lede
+
+### Adding a connected account
+
+>> procedure to add an account
+
+### Viewing configured connected accounts
+
+>> viewing? managing?
+
+### Configuring integration instances with connected accounts
+
+>> how you add the connected account to an integration
 
 ## Static IP support
 
