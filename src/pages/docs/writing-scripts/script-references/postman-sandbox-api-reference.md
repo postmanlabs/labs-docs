@@ -14,6 +14,13 @@ contextual_links:
     name: "Test script examples"
     url: "/docs/writing-scripts/script-references/test-examples/"
   - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Data Encryption with CryptoJS"
+    url: "https://youtu.be/W_Gj1Q0lEOU"
+  - type: section
     name: "Next Steps"
   - type: link
     name: "Developing with Postman utilities"
