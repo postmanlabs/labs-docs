@@ -60,6 +60,8 @@ Postman supports the following provisioning features:
 
 * **Delete group**: Deletes a user group in Postman. User accounts that were part of the deleted group are deactivated in Postman.
 
+    > User accounts and the data corresponding to them will not be deleted. To permanently delete user accounts and their data, [contact Postman support](https://www.postman.com/support/).
+
 * **Update group information**:
 
     * **Update group attributes**: Updates a group's name in Postman.
