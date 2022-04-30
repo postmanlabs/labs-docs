@@ -22,7 +22,8 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
       name: 'slug',
       value: slug,
     });
-    /* Returns the latest commit log for a specific doc file (View Doc.jsx for query) */
+    /* Used on doc.jsx / View GraphQL query
+    /* Returns the latest commit log for a specific doc file */
     const lastModifiedDate = execSync(
       `git log -1 --pretty='%ad' --date=format:'%Y/%m/%d' ${node.fileAbsolutePath}`
     ).toString()
@@ -31,6 +32,16 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
       name: "lastModifiedDate",
       value: lastModifiedDate,
     })
+    /* Returns the last modified time (SEO)  */
+    const lastModifiedTime = execSync(
+      `git log -1 --pretty="format:%ci" ${node.fileAbsolutePath}`
+    ).toString().replace(/\s+/g, '');
+    actions.createNodeField({
+      node,
+      name: "lastModifiedTime",
+      value: lastModifiedTime,
+    })
+    console.log(lastModifiedTime)
   }
 };
 

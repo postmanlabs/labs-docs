@@ -11,8 +11,9 @@
  import { useStaticQuery, graphql } from 'gatsby';
  
  function SEO({
-   lang, meta, title, slug,
+   lang, meta, title, slug, lastModifiedTime
  }) {
+   console.log(lastModifiedTime)
    const { site } = useStaticQuery(
      graphql`
        query {
@@ -22,11 +23,10 @@
              description
              author
            }
-         }
+         }   
        }
      `,
    );
- 
    return (
      <Helmet
        htmlAttributes={{
@@ -54,6 +54,14 @@
          {
            property: 'og:site_name',
            content: 'Postman Learning Center',
+         },
+         {
+          property: 'article:publisher',
+          content: 'https://www.facebook.com/getpostman/',
+         },
+         {
+          property: 'article:modified_time',
+          content: lastModifiedTime
          },
          {
            property: 'og:image',
