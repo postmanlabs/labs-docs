@@ -41,7 +41,6 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
       name: "lastModifiedTime",
       value: lastModifiedTime,
     })
-    console.log(lastModifiedTime)
   }
 };
 
