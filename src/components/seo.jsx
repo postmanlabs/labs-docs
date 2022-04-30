@@ -13,7 +13,6 @@
  function SEO({
    lang, meta, title, slug, lastModifiedTime
  }) {
-   console.log(lastModifiedTime)
    const { site } = useStaticQuery(
      graphql`
        query {
