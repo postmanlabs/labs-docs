@@ -20,6 +20,9 @@ contextual_links:
   - type: link
     name: "API Builder | The Exploratory"
     url: "https://youtu.be/BUZiRtGRHj0"
+  - type: link
+    name: "API Fest 2022 | Workshop by Kin Lane on Designing API Schemas"
+    url: "https://youtu.be/gGOB3oM2cE4"
   - type: subtitle
     name: "Blog Posts"
   - type: link
