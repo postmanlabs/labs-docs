@@ -34,8 +34,8 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
     })
     /* Returns the last modified time (SEO)  */
     const lastModifiedTime = execSync(
-      `git log -1 --pretty="format:%ci" ${node.fileAbsolutePath}`
-    ).toString().replace(/\s+/g, '');
+      `git log -1 --pretty="format:%cI" ${node.fileAbsolutePath}`
+    ).toString();
     actions.createNodeField({
       node,
       name: "lastModifiedTime",
