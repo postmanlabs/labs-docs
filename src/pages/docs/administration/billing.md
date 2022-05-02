@@ -116,7 +116,7 @@ Postman offers various payment options dependent on your plan type.
 
 In your [billing dashboard](http://go.postman.co/billing), select **Plan and payments** on the left, then **Payment methods**.
 
-You can pay by credit card or [via ACH](#setting-up-ach-payments) from a verified bank account.
+You can pay by credit card or by [direct debit](#setting-up-direct-debit-payments) from a verified bank account.
 
 To add a new payment method, select **Add Payment Method**.
 
@@ -126,27 +126,49 @@ To set a payment method as your primary, hover over it and select **Set as Prima
 
 <img alt="Payment methods view" src="https://assets.postman.com/postman-docs/payment-methods-page.jpg" />
 
-#### Setting up ACH payments
+#### Setting up direct debit payments
 
-Postman accepts ACH direct debit payments, which take payment funds directly from a linked bank account. You need to verify your bank account before Postman can process payment.
+> The direct debit payment option is only available for customers in the United States.
 
-To use ACH as your payment method:
+Postman accepts direct debit payments, in which payment funds are taken directly from a linked bank account via ACH.
+
+To use direct debit as your payment method:
 
 1. Select **Add payment method**, then select **ACH**.
 1. Enter your email, your name, and either enter or search for your bank name.
-1. Enter your bank account number and its routing number.
-1. To verify your account immediately, select **Verify your bank account manually**. Otherwise, you will verify your bank account later.
+
+    > This process will verify your bank account immediately. If you want to use a manual verification process instead, see [Verifying your bank account manually](#verifying-your-bank-account-manually).
+
+1. To accept the Terms and Privacy Policy,  select **Agree**. You can select **Learn more** to view the whole policy.
+1. Stripe, the payment service Postman uses, will open a new window where you can log into your bank account. Select **Continue**.
+1. Select the account you want to use, then select **Link account**. After Stripe verifies the account, select **Done**. Stripe will return you to the Postman billing dashboard.
 1. Select **Add account**.
 
-Stripe, the payment service that Postman uses, will make a small test deposit into your bank account that you will use to verify your bank account. To verify your bank account:
+After your bank account is verified, Postman will send you a confirmation email. It can take up to four days to withdraw funds from your bank account using direct debit.
 
-1. In the Postman billing dashboard, select **Plans and payments**, then select **Verify**.
-1. Under **Enter code**, paste the six-digit code from your bank account.
-1. Select **Verify**.
+##### Verifying your bank account manually
+
+You can choose to verify your bank account manually instead of using the automatic process documented in [Setting up direct debit payments](#setting-up-direct-debit-payments). This manual process may take up to two days.
+
+1. Select **Add payment method**, then select **ACH**.
+1. Enter your email and your name, then select **Verify your bank account manually**.
+1. Enter your routing number and bank account number. Confirm your account number, then select **Continue**.
+
+In 1-2 business days, Stripe will make a small test deposit into your bank account that you will use to verify your bank account and will email you with further instructions. To verify your account:
+
+1. After you see the test deposit in your bank account, go back to the Postman billing dashboard. Select **Plans and payments** > **Payment methods**.
+1. Hover over the bank account and select **Verify**.
+1. Under **Enter code**, paste the six digit transaction code from the test deposit. Select **Verify**.
+1. Select **Confirm** to accept the Terms and Privacy Policy.
 
 > If you do not verify your account within ten days, Postman will delete your bank account information. If you want to add ACH direct debit payment later, you will need to re-enter your bank account information.
 
-After your bank account is verified, Postman will send you a confirmation email. It can take up to four days to withdraw funds from your bank account via ACH.
+After your bank account is verified, Postman will send you a confirmation email. It can take up to four days to withdraw funds from your bank account using direct debit.
+
+##### Troubleshooting direct debit payments
+
+* **Direct debit payment failures.** In the event of a direct debit payment failure, Postman will email you with information about how to fix the issue. The billing dashboard will also contain this information.
+* **Direct debit disputes.** If you believe there has been an error with your direct debit payment, contact [Postman support](https://www.postman.com/support/) to resolve the issue. If you dispute the payment through your bank, Stripe removes your bank account's verified status and you will not be able to use the account for Postman payments until you [verify it](#setting-up-direct-debit-payments) again.
 
 ### Using the Pay Now option
 
