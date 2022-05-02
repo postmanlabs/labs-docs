@@ -44,8 +44,6 @@ When setting up the connection to API Gateway, you can choose to authenticate by
 
 > When you delete an API or remove it from a workspace, any configured integrations aren't deleted or removed. On the Postman **Home** page, select **Integrations** and search for "AWS API Gateway" to view the list of [AWS API gateway integrations](https://go.postman.co/integrations/service/api_gateway_aws/api_gateway_aws). To delete an integration, select it and then select **Delete Integration**.
 
-> When you delete an API or remove it from a workspace, any configured integrations aren't deleted or removed.
-
 ### Authenticating with an AWS IAM role
 
 To set up a connection to Amazon API Gateway using an AWS IAM role, select **IAM** under **AWS Authentication Mechanism**.
