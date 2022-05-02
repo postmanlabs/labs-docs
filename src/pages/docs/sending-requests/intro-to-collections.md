@@ -12,18 +12,21 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Group Requests in Collections | Postman Level Up"
+    url: "https://youtu.be/ghHX4FGvVyA"
+  - type: link
+    name: "Create a Postman Collection | Postman Level Up"
+    url: "https://youtu.be/NlrPjuXEaZ8"
+  - type: dynamic_blog
+    name: "Blog Posts"
+    blog_tag: "collections"
+  - type: subtitle
     name: "Case Studies"
   - type: link
     name: "Ping Identity"
     url: "https://www.postman.com/case-studies/pingidentity/"
-  - type: subtitle
-    name: "Videos"
-  - type: link
-    name: "Intro to Postman & Postman Collections"
-    url: "https://www.youtube.com/watch?v=ptvV_Fc3hd8"
-  - type: dynamic_blog
-    name: "Blog Posts"
-    blog_tag: "collections"
   - type: section
     name: "Next Steps"
   - type: link

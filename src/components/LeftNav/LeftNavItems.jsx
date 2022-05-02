@@ -369,6 +369,10 @@ export const leftNavItems = [
         url: '/docs/designing-and-developing-your-api/creating-an-api/',
       },
       {
+        name: 'Importing an API',
+        url: '/docs/designing-and-developing-your-api/importing-an-api/',
+      },
+      {
         name: 'Versioning APIs',
         url: '/docs/designing-and-developing-your-api/versioning-an-api/',
       },
