@@ -23,6 +23,12 @@ contextual_links:
   - type: link
     name: "Visualizer demo"
     url: "https://www.youtube.com/watch?v=i1jU-kivApg"
+  - type: link
+    name: "Create a Custom OneSignal Dashboard Using Postman Visualizer"
+    url: "https://youtu.be/Prgff3__-mw"
+  - type: dynamic_blog
+    name: "Blog Posts"
+    blog_tag: "visualizer"
   - type: subtitle
     name: "Public Workspaces"
   - type: link
@@ -42,9 +48,6 @@ contextual_links:
   - type: link
     name: "Visualizer D3 examples"
     url: "https://www.postman.com/DTHb3DSmtDah2RD/workspace/codebase-visualizer-templates/collection/2897506-d2486b17-0fc6-4ff3-8045-800623e5c02b?ctx=documentation"
-  - type: dynamic_blog
-    name: "Blog Posts"
-    blog_tag: "visualizer"
 
 ---
 

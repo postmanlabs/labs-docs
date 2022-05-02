@@ -17,11 +17,17 @@ contextual_links:
   - type: link
     name: "Postman Space Camp | Design and Prototype an API in Postman"
     url: "https://youtu.be/r4kb3jOSsmk"
+  - type: link
+    name: "API Builder | The Exploratory"
+    url: "https://youtu.be/BUZiRtGRHj0"
+  - type: link
+    name: "API Fest 2022 | Workshop by Kin Lane on Designing API Schemas"
+    url: "https://youtu.be/gGOB3oM2cE4"
   - type: subtitle
     name: "Blog Posts"
   - type: link
-    name: "Create APIs directly within the Postman app"
-    url: "https://blog.postman.com/postman-7-1-create-apis-directly-within-the-postman-app/"
+    name: "The Reimagined API-First Workflow, Part 1: for Developers"
+    url: "https://blog.postman.com/the-reimagined-api-first-workflow-for-developers/"
   - type: section
     name: "Next Steps"
   - type: link

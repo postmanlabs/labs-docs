@@ -23,9 +23,6 @@ contextual_links:
   - type: subtitle
     name: "Blog Posts"
   - type: link
-    name: "Streamline access control with extended roles & permissions"
-    url: "https://blog.postman.com/streamline-access-control-with-extended-roles-permissions/"
-  - type: link
     name: "Manage large teams in Postman with workspaces, permissions & more"
     url: "https://blog.postman.com/postman-team-workspaces-and-permissions/"
   - type: link

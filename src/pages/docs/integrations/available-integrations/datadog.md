@@ -13,6 +13,12 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Integrate with Datadog in Postman"
+    url: "https://youtu.be/nOYro8AWInI"
+  - type: subtitle
+  - type: subtitle
     name: "Blog Posts"
   - type: link
     name: "Postman Is Now a Datadog Technology Partner: More Integration Features"

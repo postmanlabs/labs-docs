@@ -20,6 +20,9 @@ contextual_links:
   - type: subtitle
     name: "Blog Posts"
   - type: link
+    name: "Introducing Environment Forking and Pull Requests"
+    url: "https://blog.postman.com/introducing-environment-forking-and-pull-requests/"
+  - type: link
     name: "Streamline the API Development Lifecycle with Postman Version Control"
     url: "https://blog.postman.com/streamline-api-development-lifecycle-with-postman-version-control/"
   - type: section

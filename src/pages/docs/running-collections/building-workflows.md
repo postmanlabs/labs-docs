@@ -13,15 +13,15 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
-    name: "Blog Posts"
-  - type: link
-    name: "Check for broken links on your website using a Postman Collection"
-    url: "https://blog.postman.com/check-for-broken-links-on-your-website-using-a-postman-collection/"
-  - type: subtitle
     name: "Videos"
   - type: link
     name: "Control Workflows with postman.setNextRequest() | Postman Level Up"
     url: "https://youtu.be/Oxsdv1VFRsE"
+  - type: subtitle
+    name: "Blog Posts"
+  - type: link
+    name: "How to Make Money Using Postman: Chaining Requests"
+    url: "https://blog.postman.com/how-to-make-money-using-postman-chaining-requests/"
 
 warning: false
 
