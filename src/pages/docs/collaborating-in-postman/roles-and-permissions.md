@@ -68,28 +68,31 @@ You can [assign](/docs/administration/managing-your-team/managing-your-team/) on
 * **Billing**: Manages team plan and payments. Billing roles can be granted by a Super Admin, by a fellow team member with a Billing role, or by an Admin when inviting a new team member. If this is not possible, contact our [Support Center](https://support.postman.com/hc/en-us).
 * **Developer**: Has access to all team resources and workspaces.
 * **Community Manager**: Manages the public visibility of workspaces and team profile ([Professional and Enterprise plans only](https://www.postman.com/pricing)).
+* **API Network Manager**: Manages a team's [Private API Network](/docs/collaborating-in-postman/adding-private-network/), including adding APIs, creating folders, and reviewing requests to add APIs. The API Network Manager role can be granted by a Super Admin or by another team member with the API Network Manager role. 
 
 > If you are on a [Postman Enterprise plan](https://www.postman.com/pricing), you can also assign roles at the [group level](/docs/administration/managing-your-team/user-groups/).
 
 Team roles provide high-level access control:
 
-| Permission | Super Admin | Admin | Billing | Developer | Community Manager |
-| --- |:---:| --- | --- | --- | --- |
-| Add users | &#x2714; | &#x2714; | | |
-| Remove users | &#x2714; | &#x2714; | | |
-| Manage team Admins and Developers | &#x2714; | &#x2714; | | |
-| Manage SSO | &#x2714; | &#x2714; || |
-| Manage custom domains  | &#x2714; | &#x2714; | | |
-| View audit logs  | &#x2714; | &#x2714; | | | &#x2714;
-| View usage data | &#x2714; | &#x2714; | &#x2714; | &#x2714; | &#x2714;
-| Manage Billing members | &#x2714; | | &#x2714; | |
-| Manage payment | &#x2714; | | &#x2714; | | |
-| Change plan  | &#x2714; | | &#x2714; | |
-| View shared APIs, collections, environments, mock servers and monitors | &#x2714; | | | &#x2714; | &#x2714;
-| View and create team workspaces | &#x2714; | | | &#x2714; | &#x2714;
-| Change visibility of workspaces to team or public | &#x2714; | | | &#x2714;&ast; | &#x2714;
-| Approve requests to change workspace visibility&ast;&ast; | &#x2714; | | | | &#x2714;
-| Enable public team profile | &#x2714; | &#x2714; | | | &#x2714;
+| Permission | Super Admin | Admin | Billing | Developer | Community Manager | API Network Manager |
+| --- |:---:| --- | --- | --- | --- | --- |
+| Add users | &#x2714; | &#x2714; | | | |
+| Remove users | &#x2714; | &#x2714; | | | |
+| Manage team Admins and Developers | &#x2714; | &#x2714; | | | |
+| Manage SSO | &#x2714; | &#x2714; || | |
+| Manage custom domains  | &#x2714; | &#x2714; | | | |
+| View audit logs  | &#x2714; | &#x2714; | | | &#x2714; |
+| View usage data | &#x2714; | &#x2714; | &#x2714; | &#x2714; | &#x2714; |
+| Manage Billing members | &#x2714; | | &#x2714; | | |
+| Manage payment | &#x2714; | | &#x2714; | | | |
+| Change plan  | &#x2714; | | &#x2714; | | |
+| View shared APIs, collections, environments, mock servers and monitors | &#x2714; | | | &#x2714; | &#x2714; |
+| View and create team workspaces | &#x2714; | | | &#x2714; | &#x2714; |
+| Change visibility of workspaces to team or public | &#x2714; | | | &#x2714;&ast; | &#x2714; |
+| Approve requests to change workspace visibility&ast;&ast; | &#x2714; | | | | &#x2714; |
+| Enable public team profile | &#x2714; | &#x2714; | | | &#x2714; |
+| Add any API to team's Private API Network | | | | | | &#x2714; |
+| Review requests to add APIs to team's Private API Network | | | | | | &#x2714; |
 
 &ast; On Postman Basic and Free plans, any developer can change visibility of workspaces
 

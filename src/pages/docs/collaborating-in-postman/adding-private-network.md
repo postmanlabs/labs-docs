@@ -38,7 +38,7 @@ You can share the APIs that your team uses internally to the Private API Network
 
 <img alt="Private API Network" src="https://assets.postman.com/postman-docs/private-api-network-v9.jpg"/>
 
-> To add an API to your team's Private API Network, it must be in the [API Builder](/docs/designing-and-developing-your-api/creating-an-api/). You can only add APIs, not collections, to the Private API Network.
+> To add an API to your team's Private API Network, it must be in the [API Builder](/docs/designing-and-developing-your-api/creating-an-api/). You can only add APIs, not collections, to the Private API Network. <!-- TODO: update this with new info -->
 
 ## Contents
 
