@@ -8,6 +8,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    environment: Beta
     steps:
       - name: Checkout
         uses: actions/checkout@v2
