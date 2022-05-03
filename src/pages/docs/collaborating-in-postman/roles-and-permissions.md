@@ -68,7 +68,7 @@ You can [assign](/docs/administration/managing-your-team/managing-your-team/) on
 * **Billing**: Manages team plan and payments. Billing roles can be granted by a Super Admin, by a fellow team member with a Billing role, or by an Admin when inviting a new team member. If this is not possible, contact our [Support Center](https://support.postman.com/hc/en-us).
 * **Developer**: Has access to all team resources and workspaces.
 * **Community Manager**: Manages the public visibility of workspaces and team profile ([Professional and Enterprise plans only](https://www.postman.com/pricing)).
-* **API Network Manager**: Manages a team's [Private API Network](/docs/collaborating-in-postman/adding-private-network/), including adding APIs, creating folders, and reviewing requests to add APIs. The API Network Manager role can be granted by a Super Admin or by another team member with the API Network Manager role. 
+* **API Network Manager**: Manages a team's [Private API Network](/docs/collaborating-in-postman/adding-private-network/), including adding APIs and reviewing requests to add APIs. A Super Admin or another team member with the API Network Manager role can grant this role to a user.
 
 > If you are on a [Postman Enterprise plan](https://www.postman.com/pricing), you can also assign roles at the [group level](/docs/administration/managing-your-team/user-groups/).
 
@@ -91,12 +91,13 @@ Team roles provide high-level access control:
 | Change visibility of workspaces to team or public | &#x2714; | | | &#x2714;&ast; | &#x2714; |
 | Approve requests to change workspace visibility&ast;&ast; | &#x2714; | | | | &#x2714; |
 | Enable public team profile | &#x2714; | &#x2714; | | | &#x2714; |
-| Add any API to team's Private API Network | | | | | | &#x2714; |
-| Review requests to add APIs to team's Private API Network | | | | | | &#x2714; |
+| Manage a team's Private API Network&ast;&ast;&ast; | | | | | | &#x2714; |
 
-&ast; On Postman Basic and Free plans, any developer can change visibility of workspaces
+&ast; On Postman Basic and Free plans, any developer can change visibility of workspaces.
 
-&ast;&ast; Enterprise and Professional plans only
+&ast;&ast; Enterprise and Professional plans only.
+
+&ast;&ast;&ast; Optionally, a team can allow users with [an API Editor role](/docs/collaborating-in-postman/roles-and-permissions/#element-based-roles) to add APIs to the Private API Network. To learn how to turn this option on, see [Your Private API Network](/docs/collaborating-in-postman/adding-private-network/). <!-- TODO: update link and heading title for new section when complete -->
 
 > **Postman support users**. Members with a Developer or Super Admin role consume a paid slot on your team. Team members who have only Admin or Billing roles become support users and don’t consume paid slots. Your team can have two support users.
 
