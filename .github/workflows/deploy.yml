@@ -1,4 +1,4 @@
-name: Deploy
+name: Deploy to Beta
 
 on:
   push:
@@ -7,58 +7,67 @@ on:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
     steps:
-    - uses: actions/checkout@v1
+    - name: Checkout
+    - uses: actions/checkout@v2
+
+    - name: Setup Node
     - uses: actions/setup-node@master
       with:
         node-version: '14'
+
+    - name: Configure AWS Credentials
+      uses: aws-actions/configure-aws-credentials@v1
+      with:
+        aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        aws-region: us-east-1
+
     - name: set AWS, BFF and Algolia Keys to environment
       env:
         GATSBY_ALGOLIA_APP_ID: ${{ secrets.GATSBY_ALGOLIA_APP_ID}}
         GATSBY_ALGOLIA_DEV_KEY: ${{secrets.GATSBY_ALGOLIA_DEV_KEY}}
         ALGOLIA_ADMIN_KEY: ${{secrets.ALGOLIA_ADMIN_KEY}}
-        AWS_ACCESS_KEY_ID: ${{secrets.AWS_ACCESS_KEY_ID}}
-        AWS_SECRET_ACCESS_KEY: ${{secrets.AWS_SECRET_ACCESS_KEY}}
-        DIST_ID: ${{secrets.DIST_ID}}
-        MUNCHKIN_ID: ${{ secrets.MUNCHKIN_ID}}
-        BFF_BLOG_URL: ${{ secrets.BFF_BLOG_URL }}
-        BFF_EVENTS_URL: ${{ secrets.BFF_EVENTS_URL }}
-        BFF_PING_WEBHOOK_URL: $ {{ secrets.BFF_PING_WEBHOOK_URL }}
-        RELIC_ACCOUNT_ID: ${{ secrets.RELIC_ACCOUNT_ID }}
-        RELIC_TRUST_KEY: ${{ secrets.RELIC_TRUST_KEY }}
-        RELIC_LICENSE_KEY: ${{ secrets.RELIC_LICENSE_KEY }}
-        RELIC_PRODUCTION_AGENT_ID: ${{ secrets.RELIC_PRODUCTION_AGENT_ID }}
-        RELIC_PRODUCTION_APPLICATION_ID: ${{ secrets.RELIC_PRODUCTION_APPLICATION_ID }}
-        PM_TECH: ${{secrets.PM_TECH}}
-        SITE_URL: ${{secrets.SITE_URL_BETA}}
+        DIST_ID: ${{secrets.BETA_DIST_ID}}
+        # MUNCHKIN_ID: ${{ secrets.MUNCHKIN_ID}}
+        # BFF_BLOG_URL: ${{ secrets.BFF_BLOG_URL }}
+        # BFF_EVENTS_URL: ${{ secrets.BFF_EVENTS_URL }}
+        # BFF_PING_WEBHOOK_URL: $ {{ secrets.BFF_PING_WEBHOOK_URL }}
+        # RELIC_ACCOUNT_ID: ${{ secrets.RELIC_ACCOUNT_ID }}
+        # RELIC_TRUST_KEY: ${{ secrets.RELIC_TRUST_KEY }}
+        # RELIC_LICENSE_KEY: ${{ secrets.RELIC_LICENSE_KEY }}
+        # RELIC_PRODUCTION_AGENT_ID: ${{ secrets.RELIC_PRODUCTION_AGENT_ID }}
+        # RELIC_PRODUCTION_APPLICATION_ID: ${{ secrets.RELIC_PRODUCTION_APPLICATION_ID }}
+        # PM_TECH: ${{secrets.PM_TECH}}
+        SITE_URL: ${{secrets.BETA_SITE_URL}}
 
-      run: |
-        npm config set //registry.npmjs.org/:_authToken=${{secrets.NPM_TOKEN}}
-        npm install
-        npm run clean
-        npm run build:dev && node_modules/s3-deploy/bin/s3-deploy './public/**' --cwd './public/' --bucket postman-learning-center-beta --deleteRemoved --distId $DIST_ID --invalidate '/*'
+      - name: Deploy static site to S3 bucket
+        run: |
+          npm config set //registry.npmjs.org/:_authToken=${{secrets.NPM_TOKEN}}
+          npm install
+          npm run clean
+          npm run build:dev
+          aws s3 sync ./public/ s3://postman-labs-docs-beta --delete
 
-    - name: update Algolia with GA Pageviews
-      env:
-        ALGOLIA_ADMIN_KEY: ${{secrets.ALGOLIA_ADMIN_KEY}}
-        GOOGLE_ALGOLIA_CREDENTIALS: ${{secrets.GOOGLE_ALGOLIA_CREDENTIALS}}
-        GOOGLE_PROJECT_ID: ${{secrets.GOOGLE_PROJECT_ID}}
-        GOOGLE_PRIVATE_KEY: ${{secrets.GOOGLE_PRIVATE_KEY}}
-        GOOGLE_PRIVATE_KEY_2: ${{secrets.GOOGLE_PRIVATE_KEY_2}}
-        GOOGLE_CLIENT_EMAIL: ${{secrets.GOOGLE_CLIENT_EMAIL}}
-        GOOGLE_CLIENT_ID: ${{secrets.GOOGLE_CLIENT_ID}}
-        GOOGLE_AUTH_CERT: ${{secrets.GOOGLE_AUTH_CERT}}
-        GOOGLE_CLIENT_CERT: ${{secrets.GOOGLE_CLIENT_CERT}}
-        PM_TECH: ${{secrets.PM_TECH}}
-      run: |
-        npm config set //registry.npmjs.org/:_authToken=${{secrets.NPM_TOKEN}}
-        npm install;
-        type=service_account project_id=$GOOGLE_PROJECT_ID private_key_id=$GOOGLE_PRIVATE_KEY private_key=$GOOGLE_PRIVATE_KEY_2 client_email=$GOOGLE_CLIENT_EMAIL client_id=$GOOGLE_CLIENT_ID auth_uri=https://accounts.google.com/o/oauth2/auth token_uri=https://oauth2.googleapis.com/token auth_provider_x509_cert_url=$GOOGLE_AUTH_CERT client_x509_cert_url=$GOOGLE_CLIENT_CERT node -p -e 'const {type,private_key_id,private_key,project_id,client_email,client_id,auth_uri,token_uri,auth_provider_x509_cert_url,client_x509_cert_url} = process.env; require("fs").writeFile("auth.json", JSON.stringify({type,project_id,private_key_id,private_key:private_key.replace(/\\n/g,"\n"),client_email,client_id,auth_uri,token_uri,auth_provider_x509_cert_url,client_x509_cert_url},null,2), err=>{})'
-        GOOGLE_APPLICATION_CREDENTIALS=auth.json ALGOLIA_ADMIN_KEY=$ALGOLIA_ADMIN_KEY node ga_connector.js;
-        rm -rf auth.json
+    # - name: update Algolia with GA Pageviews
+    #   env:
+    #     ALGOLIA_ADMIN_KEY: ${{secrets.ALGOLIA_ADMIN_KEY}}
+    #     GOOGLE_ALGOLIA_CREDENTIALS: ${{secrets.GOOGLE_ALGOLIA_CREDENTIALS}}
+    #     GOOGLE_PROJECT_ID: ${{secrets.GOOGLE_PROJECT_ID}}
+    #     GOOGLE_PRIVATE_KEY: ${{secrets.GOOGLE_PRIVATE_KEY}}
+    #     GOOGLE_PRIVATE_KEY_2: ${{secrets.GOOGLE_PRIVATE_KEY_2}}
+    #     GOOGLE_CLIENT_EMAIL: ${{secrets.GOOGLE_CLIENT_EMAIL}}
+    #     GOOGLE_CLIENT_ID: ${{secrets.GOOGLE_CLIENT_ID}}
+    #     GOOGLE_AUTH_CERT: ${{secrets.GOOGLE_AUTH_CERT}}
+    #     GOOGLE_CLIENT_CERT: ${{secrets.GOOGLE_CLIENT_CERT}}
+    #     PM_TECH: ${{secrets.PM_TECH}}
+    #   run: |
+    #     npm config set //registry.npmjs.org/:_authToken=${{secrets.NPM_TOKEN}}
+    #     npm install;
+    #     type=service_account project_id=$GOOGLE_PROJECT_ID private_key_id=$GOOGLE_PRIVATE_KEY private_key=$GOOGLE_PRIVATE_KEY_2 client_email=$GOOGLE_CLIENT_EMAIL client_id=$GOOGLE_CLIENT_ID auth_uri=https://accounts.google.com/o/oauth2/auth token_uri=https://oauth2.googleapis.com/token auth_provider_x509_cert_url=$GOOGLE_AUTH_CERT client_x509_cert_url=$GOOGLE_CLIENT_CERT node -p -e 'const {type,private_key_id,private_key,project_id,client_email,client_id,auth_uri,token_uri,auth_provider_x509_cert_url,client_x509_cert_url} = process.env; require("fs").writeFile("auth.json", JSON.stringify({type,project_id,private_key_id,private_key:private_key.replace(/\\n/g,"\n"),client_email,client_id,auth_uri,token_uri,auth_provider_x509_cert_url,client_x509_cert_url},null,2), err=>{})'
+    #     GOOGLE_APPLICATION_CREDENTIALS=auth.json ALGOLIA_ADMIN_KEY=$ALGOLIA_ADMIN_KEY node ga_connector.js;
+    #     rm -rf auth.json
 
 
 
