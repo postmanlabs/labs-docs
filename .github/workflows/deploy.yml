@@ -9,38 +9,39 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout
-    - uses: actions/checkout@v2
+      - name: Checkout
+      - uses: actions/checkout@v2
 
-    - name: Setup Node
-    - uses: actions/setup-node@master
-      with:
-        node-version: '14'
+      - name: Setup Node
+      - uses: actions/setup-node@master
+        with:
+          node-version: '14'
 
-    - name: Configure AWS Credentials
-      uses: aws-actions/configure-aws-credentials@v1
-      with:
-        role-to-assume: $${{ secrets.BETA_ROLE_TO_ASSUME }}
-        aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
-        aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-        aws-region: us-east-1
-    - name: set AWS, BFF and Algolia Keys to environment
-      env:
-        GATSBY_ALGOLIA_APP_ID: ${{ secrets.GATSBY_ALGOLIA_APP_ID}}
-        GATSBY_ALGOLIA_DEV_KEY: ${{secrets.GATSBY_ALGOLIA_DEV_KEY}}
-        ALGOLIA_ADMIN_KEY: ${{secrets.ALGOLIA_ADMIN_KEY}}
-        DIST_ID: ${{secrets.BETA_DIST_ID}}
-        # MUNCHKIN_ID: ${{ secrets.MUNCHKIN_ID}}
-        # BFF_BLOG_URL: ${{ secrets.BFF_BLOG_URL }}
-        # BFF_EVENTS_URL: ${{ secrets.BFF_EVENTS_URL }}
-        # BFF_PING_WEBHOOK_URL: $ {{ secrets.BFF_PING_WEBHOOK_URL }}
-        # RELIC_ACCOUNT_ID: ${{ secrets.RELIC_ACCOUNT_ID }}
-        # RELIC_TRUST_KEY: ${{ secrets.RELIC_TRUST_KEY }}
-        # RELIC_LICENSE_KEY: ${{ secrets.RELIC_LICENSE_KEY }}
-        # RELIC_PRODUCTION_AGENT_ID: ${{ secrets.RELIC_PRODUCTION_AGENT_ID }}
-        # RELIC_PRODUCTION_APPLICATION_ID: ${{ secrets.RELIC_PRODUCTION_APPLICATION_ID }}
-        # PM_TECH: ${{secrets.PM_TECH}}
-        SITE_URL: ${{secrets.BETA_SITE_URL}}
+      - name: Configure AWS Credentials
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          role-to-assume: $${{ secrets.BETA_ROLE_TO_ASSUME }}
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: us-east-1
+
+      - name: set AWS, BFF and Algolia Keys to environment
+        env:
+          GATSBY_ALGOLIA_APP_ID: ${{ secrets.GATSBY_ALGOLIA_APP_ID}}
+          GATSBY_ALGOLIA_DEV_KEY: ${{secrets.GATSBY_ALGOLIA_DEV_KEY}}
+          ALGOLIA_ADMIN_KEY: ${{secrets.ALGOLIA_ADMIN_KEY}}
+          DIST_ID: ${{secrets.BETA_DIST_ID}}
+          # MUNCHKIN_ID: ${{ secrets.MUNCHKIN_ID}}
+          # BFF_BLOG_URL: ${{ secrets.BFF_BLOG_URL }}
+          # BFF_EVENTS_URL: ${{ secrets.BFF_EVENTS_URL }}
+          # BFF_PING_WEBHOOK_URL: $ {{ secrets.BFF_PING_WEBHOOK_URL }}
+          # RELIC_ACCOUNT_ID: ${{ secrets.RELIC_ACCOUNT_ID }}
+          # RELIC_TRUST_KEY: ${{ secrets.RELIC_TRUST_KEY }}
+          # RELIC_LICENSE_KEY: ${{ secrets.RELIC_LICENSE_KEY }}
+          # RELIC_PRODUCTION_AGENT_ID: ${{ secrets.RELIC_PRODUCTION_AGENT_ID }}
+          # RELIC_PRODUCTION_APPLICATION_ID: ${{ secrets.RELIC_PRODUCTION_APPLICATION_ID }}
+          # PM_TECH: ${{secrets.PM_TECH}}
+          SITE_URL: ${{secrets.BETA_SITE_URL}}
 
       - name: Deploy static site to S3 bucket
         run: |
