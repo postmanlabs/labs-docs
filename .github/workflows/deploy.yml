@@ -1,6 +1,6 @@
 name: Deploy to Beta
 
-on: 
+on:
   push:
     branches:
     - 'develop'
