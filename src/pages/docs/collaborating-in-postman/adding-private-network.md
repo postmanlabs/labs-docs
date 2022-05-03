@@ -43,6 +43,7 @@ APIs in the Private API Network are only visible to logged-in users who are a pa
 ## Contents
 
 * [Navigating the Private API Network](#navigating-the-private-api-network)
+* [Using the approval process workflow](#using-the-approval-process-workflow)
 * [Adding your APIs](#adding-your-apis)
 * [Managing the Private API Network](#managing-the-private-api-network)
     * [Organizing with folders](#organizing-with-folders)
@@ -65,6 +66,84 @@ To review version-level details, select **>** on the right of the API version. Y
 <img alt="API page in private network" src="https://assets.postman.com/postman-docs/private-network-api-view-v9.1.jpg"/>
 
 To watch the API and get notified about any changes, select **Watch**. To learn more about watch notifications, see [Watching an API](/docs/designing-and-developing-your-api/managing-apis/#watching-apis).
+
+## Using the approval process workflow
+
+In order to enable the Private API Network approval process for your team, you need to complete two steps first:
+
+1. [Assign the API Network Manager role to a user](#assign-the-api-network-manager-role)
+1. [Turn on the approval process in Team Settings](#turn-on-the-approval-process)
+
+Once these steps are complete, the API Network Manager will be able to [review requests](<!-- TODO:  -->) to add an API to the Private API Network, [add APIs](<!-- TODO:  -->), and [create and edit folders](<!-- TODO:  -->).
+
+### Assign the API Network Manager role
+
+An API Network Manager can:
+
+* Add any API to the team's Private API Network
+* Create and edit folders
+* Assign this role to other team members
+
+> You must have either the Super Admin role or the API Network Manager role to assign this role to a user.
+
+To assign the API Network Manager role:
+
+1. On the Team Settings page, select **Members and groups**.
+1. Select the user you want to assign the API Network Manager role to.
+1. In the **Roles** dropdown list next to their name, select **API Network Manager**, then select **Update Roles**. For more information about assigning team roles to individual users, see [Managing roles](docs/administration/managing-your-team/managing-your-team/#managing-roles).
+
+    > Enterprise teams can also assign this role to a user group. For more information about assigning team roles to groups, see [Managing user groups](/docs/administration/managing-your-team/user-groups/).
+
+Postman will send an email to new API Network Managers about their updated role.
+
+### Turn on the approval process
+
+The approval process enables an API Network Manager to control the process of adding APIs to their team's Private API Network.
+
+> You must have either the Super Admin role or the API Network Manager role to turn on the approval process.
+
+To turn on the approval process workflow:
+
+1. In the header, select **Team** > **Team Settings**.
+1. Select **Private API Network**.
+1. Turn on the API approval process.  <!-- TODO: screenshot -->
+
+Once the approval process is turned on, any team member with an API Editor role can [request to add an API to the Private API Network](<!-- TODO:  -->).
+
+### Editor: Requesting to add an API to the Private API Network
+
+Users with an Editor role for an API can request that an API be added to the Private API Network.
+
+From the API overview:
+
+1. Select the API you want added to the Private API Network.
+1. On the right side of the API overview, select **Request to add to Private API Network**.
+1. Under **Comments**, add a note for the API Network Manager.
+1. Select **Request to Add API**.
+
+Postman notifies the API Network Manager about your request, and they will review it and either approve or deny your request. Postman will notify you of the API Network Manager's decision. If they deny your request, the notification will include a comment with their reason.
+
+### API Network Manager: Reviewing requests to add APIs
+
+When an API Editor requests to add an API to your Private API Network, Postman will send you an email and an in-app notification. To see a list of all the pending requests, go to **Private API Network** and select **Pending API requests**.
+
+To approve a request:
+
+1. Select **Approve**.
+1. Optionally, you can add the API to a folder. To create a new folder to add the API to, select **Create folder**.
+1. Select **Approve request**. <!-- TODO: screenshot -->
+
+To deny a request:
+
+1. Select **Deny**.
+1. Write a note for the API Editor who submitted the request with details about why you are denying the request.
+1. Select **Deny request**. <!-- TODO: screenshot -->
+
+You can also review a request directly in an API's overview:
+
+1. Select **APIs** from the sidebar, then select the API with the pending review.
+1. Details about the request, including comments from the user who submitted it, are on the right side of the overview.
+1. Select **Approve** or **Deny**.
 
 ## Adding your APIs
 
