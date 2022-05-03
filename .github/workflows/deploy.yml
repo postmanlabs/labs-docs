@@ -48,7 +48,7 @@ jobs:
           npm install
           npm run clean
           npm run build:dev
-          aws s3 sync ./public/ s3://postman-labs-docs-beta --delete
+          aws s3 sync ./public/ s3://postman-labs-docs-beta --delete --acl public-read
 
     # - name: update Algolia with GA Pageviews
     #   env:
