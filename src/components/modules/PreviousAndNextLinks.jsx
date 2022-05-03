@@ -61,7 +61,7 @@ function PreviousAndNextLinks() {
           let prevIndex = link[i + -1];
           let nextIndex = link[i + 1];
           // if previous section is submenu, use last item of previous section
-          // Ex: /docs/designing-and-developing-your-api/view-and-analyze-api-reports/
+          // Ex: /labs/designing-and-developing-your-api/view-and-analyze-api-reports/
           previous = prevIndex && prevIndex.subMenuItems2 ? prevIndex.subMenuItems2[prevIndex.subMenuItems2.length + -1] : prevIndex;
           next = nextIndex ? nextIndex : nextIndex;
         }

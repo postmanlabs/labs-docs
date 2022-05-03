@@ -15,7 +15,7 @@ const NotFoundPage = () => (
           <div className="col-md-4 align-self-center">
             <h1>404</h1>
             <p className="subtitle">Oops! We can&apos;t find this page. It may have been moved or deleted.</p>
-            <a href="/docs/" className="btn btn__primary-hollow">Back to Docs</a>
+            <a href="/labs/" className="btn btn__primary-hollow">Back to Docs</a>
           </div>
         </div>
       </div>
