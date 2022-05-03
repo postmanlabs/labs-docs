@@ -8,7 +8,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    environment: develop
+    environment: Beta
     steps:
       - name: Checkout
         uses: actions/checkout@v2
@@ -22,16 +22,16 @@ jobs:
         uses: aws-actions/configure-aws-credentials@v1
         with:
           aws-region: us-east-1
-          # role-to-assume: ${{ env.BETA_ROLE_TO_ASSUME }}
-          aws-access-key-id: ${{ env.AWS_ACCESS_KEY_ID }}
-          aws-secret-access-key: ${{ env.AWS_SECRET_ACCESS_KEY }}
+          # role-to-assume: ${{ secrets.BETA_ROLE_TO_ASSUME }}
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
 
       - name: set keys and deploy
         env:
-          GATSBY_ALGOLIA_APP_ID: ${{ env.GATSBY_ALGOLIA_APP_ID}}
-          GATSBY_ALGOLIA_DEV_KEY: ${{env.GATSBY_ALGOLIA_DEV_KEY}}
-          ALGOLIA_ADMIN_KEY: ${{env.ALGOLIA_ADMIN_KEY}}
-          DIST_ID: ${{env.BETA_DIST_ID}}
+          GATSBY_ALGOLIA_APP_ID: ${{ secrets.GATSBY_ALGOLIA_APP_ID}}
+          GATSBY_ALGOLIA_DEV_KEY: ${{secrets.GATSBY_ALGOLIA_DEV_KEY}}
+          ALGOLIA_ADMIN_KEY: ${{secrets.ALGOLIA_ADMIN_KEY}}
+          DIST_ID: ${{secrets.BETA_DIST_ID}}
           # MUNCHKIN_ID: ${{ secrets.MUNCHKIN_ID}}
           # BFF_BLOG_URL: ${{ secrets.BFF_BLOG_URL }}
           # BFF_EVENTS_URL: ${{ secrets.BFF_EVENTS_URL }}
@@ -42,7 +42,7 @@ jobs:
           # RELIC_PRODUCTION_AGENT_ID: ${{ secrets.RELIC_PRODUCTION_AGENT_ID }}
           # RELIC_PRODUCTION_APPLICATION_ID: ${{ secrets.RELIC_PRODUCTION_APPLICATION_ID }}
           # PM_TECH: ${{secrets.PM_TECH}}
-          SITE_URL: ${{env.BETA_SITE_URL}}
+          SITE_URL: ${{secrets.BETA_SITE_URL}}
         run: |
           npm config set //registry.npmjs.org/:_authToken=${{secrets.NPM_TOKEN}}
           npm install
