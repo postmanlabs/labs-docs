@@ -25,7 +25,7 @@ jobs:
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: us-east-1
 
-      - name: set AWS, BFF and Algolia Keys to environment
+      - name: set keys and deploy
         env:
           GATSBY_ALGOLIA_APP_ID: ${{ secrets.GATSBY_ALGOLIA_APP_ID}}
           GATSBY_ALGOLIA_DEV_KEY: ${{secrets.GATSBY_ALGOLIA_DEV_KEY}}
@@ -42,8 +42,6 @@ jobs:
           # RELIC_PRODUCTION_APPLICATION_ID: ${{ secrets.RELIC_PRODUCTION_APPLICATION_ID }}
           # PM_TECH: ${{secrets.PM_TECH}}
           SITE_URL: ${{secrets.BETA_SITE_URL}}
-
-      - name: Deploy static site to S3 bucket
         run: |
           npm config set //registry.npmjs.org/:_authToken=${{secrets.NPM_TOKEN}}
           npm install
