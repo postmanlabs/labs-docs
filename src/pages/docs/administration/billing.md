@@ -128,13 +128,13 @@ To set a payment method as your primary, hover over it and select **Set as Prima
 
 #### Setting up direct debit payments
 
-> The direct debit payment option is only available for customers in the United States.
+> The option to pay via direct debit is only available for customers in the United States.
 
 Postman accepts direct debit payments, in which payment funds are taken directly from a linked bank account via ACH.
 
 To use direct debit as your payment method:
 
-1. Select **Add payment method**, then select **ACH**.
+1. Select **Add payment method**, then select **Bank direct debit**.
 1. Enter your email, your name, and either enter or search for your bank name.
 
     > This process will verify your bank account immediately. If you want to use a manual verification process instead, see [Verifying your bank account manually](#verifying-your-bank-account-manually).
@@ -150,7 +150,7 @@ After your bank account is verified, Postman will send you a confirmation email.
 
 You can choose to verify your bank account manually instead of using the automatic process documented in [Setting up direct debit payments](#setting-up-direct-debit-payments). This manual process may take up to two days.
 
-1. Select **Add payment method**, then select **ACH**.
+1. Select **Add payment method**, then select **Bank direct debit**.
 1. Enter your email and your name, then select **Verify your bank account manually**.
 1. Enter your routing number and bank account number. Confirm your account number, then select **Continue**.
 
@@ -161,7 +161,7 @@ In 1-2 business days, Stripe will make a small test deposit into your bank accou
 1. Under **Enter code**, paste the six digit transaction code from the test deposit. Select **Verify**.
 1. Select **Confirm** to accept the Terms and Privacy Policy.
 
-> If you do not verify your account within ten days, Postman will delete your bank account information. If you want to add ACH direct debit payment later, you will need to re-enter your bank account information.
+> If you do not verify your account within ten days, Postman will delete your bank account information. If you want to add a direct debit payment method later, you will need to re-enter your bank account information.
 
 After your bank account is verified, Postman will send you a confirmation email. It can take up to four days to withdraw funds from your bank account using direct debit.
 
