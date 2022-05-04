@@ -84,13 +84,13 @@ In your [billing dashboard](http://go.postman.co/billing), select **Resource usa
 
 <img alt="Add-ons usage and purchase" src="https://assets.postman.com/postman-docs/resource-usage-9.13.jpg" />
 
-> Select **View detailed usage** next to **Monitoring Usage** to view your team's active monitors and their impact on your team's overall usage during the current billing period.
+> Select **View detailed usage** next to **Monitoring Usage** to view your team's active monitors and their impact on your team's usage during the current billing period.
 
 You can opt to allow or disallow overages for mock server and monitor usage by selecting the toggle to the right of each item. If enabled, you will be charged on a pay-as-you-go basis.
 
 You can also [Purchase Add-ons](#purchasing-add-ons).
 
-> If your API development pipeline is dependent on Postman monitoring, disabling overages may cause unintended consequences. To avoid this as well as potentially fluctuating pay-as-you-go charges, consider adding [pre-paid monitoring blocks](#purchasing-add-ons) to your team plan.
+> If your API development pipeline is dependent on Postman monitoring, disabling overages may cause unintended consequences for your bill. To avoid fluctuating pay-as-you-go charges, consider adding [pre-paid monitoring blocks](#purchasing-add-ons) to your team plan.
 
 ### Viewing account history
 
@@ -161,14 +161,14 @@ In one to two business days, Stripe will make a small test deposit into your ban
 1. Under **Enter code**, paste the six digit transaction code from the test deposit. Select **Verify**.
 1. Select **Confirm** to accept the Terms and Privacy Policy.
 
-> If you do not verify your account within ten days, Postman will delete your bank account information. If you want to add a direct debit payment method later, you will need to re-enter your bank account information.
+> If you don't verify your account within ten days, Postman will delete your bank account information. If you want to add a direct debit payment method later, you will need to re-enter your bank account information.
 
 After your bank account is verified, Postman will send you a confirmation email. It can take up to four days to withdraw funds from your bank account using direct debit.
 
 ##### Troubleshooting direct debit payments
 
-* **Direct debit payment failures.** In the event of a direct debit payment failure, Postman will email you with information about how to fix the issue. The billing dashboard will also contain this information.
-* **Direct debit disputes.** If you believe there has been an error with your direct debit payment, contact [Postman support](https://www.postman.com/support/) to resolve the issue. If you dispute the payment through your bank, Stripe removes your bank account's verified status and you will not be able to use the account for Postman payments until you [verify it](#setting-up-direct-debit-payments) again.
+* **Direct debit payment failures** - In the event of a direct debit payment failure, Postman will email you with information about how to fix the issue. The billing dashboard will also contain this information.
+* **Direct debit disputes** - If you believe there has been an error with your direct debit payment, contact [Postman support](https://www.postman.com/support/) to resolve the issue. If you dispute the payment through your bank, Stripe removes your bank account's verified status and you won't be able to use the account for Postman payments until you [verify it](#setting-up-direct-debit-payments) again.
 
 ### Using the Pay Now option
 
@@ -184,7 +184,7 @@ You can pay invoices online, via ACH, or via wire transfer. Postman sends invoic
 
 In your [billing dashboard](http://go.postman.co/billing), select **Plan and payments** on the left, then **Invoices**. Select **Edit billing information**.
 
-Add or update your company name, billing email, address, and your VAT ID if applicable, then select **Save**. All future [invoices](https://go.postman.co/billing/invoices) will have the updated copy. To modify an existing invoice, submit a request to [Postman support](https://support.postman.com/hc/en-us).
+Add or update your company name, billing email, address, and your VAT ID if applicable, then select **Save**. All future [invoices](https://go.postman.co/billing/invoices) will have the updated copy. To change an existing invoice, submit a request to [Postman support](https://support.postman.com/hc/en-us).
 
 <img alt="Edit billing details" src="https://assets.postman.com/postman-docs/update-billing-details-v9.jpg" width="500px"/>
 
@@ -238,7 +238,7 @@ Update the number of monitoring blocks, mock server blocks, and custom domains y
 
 ### Utilizing auto-flex
 
-[Auto-flex](https://learning.postman.com/auto-flex-policy/) is a flexible billing feature available to Postman teams. With auto-flex enabled, your team admins can add users without having to pay in advance for more seats. Instead, you can use auto-flex to see the value of adding users to your Postman team, and opt to retain or remove them before being [billed](#billing-for-auto-flex).
+[Auto-flex](https://learning.postman.com/auto-flex-policy/) is a flexible billing feature available to Postman teams. With auto-flex enabled, your team admins can add users without having to pay in advance for more seats. Instead, you can use auto-flex to see the value of adding users to your Postman team, and opt to keep or remove them before being [billed](#billing-for-auto-flex).
 
 > Auto-flex is automatically enabled for all Postman Basic and Professional plans purchased after April 8, 2021. Teams created before this date can opt in by enabling auto-flex via their [billing dashboard](http://go.postman.co/billing). All teams will have auto-flex automatically enabled when their plan first renews after July 1, 2021.
 
@@ -272,7 +272,7 @@ Before your auto-flex billing cycle renews, all billing and admin team members r
 
 You can use this reminder to make any necessary changes to your team before the end of your current auto-flex cycle, when you will be billed for any newly added users.
 
-> If you have already been billed for the users you added and retained in an earlier auto-flex cycle, you can't remove those slots until your plan renews.
+> If you have already been billed for the users you added and kept in an earlier auto-flex cycle, you can't remove those slots until your plan renews.
 
 You won't be billed if the number of users has remained unchanged during your auto-flex cycle, or if you remove any additional users prior to auto-flex billing.
 
@@ -283,8 +283,8 @@ You won't be billed if the number of users has remained unchanged during your au
 In your [billing dashboard](http://go.postman.co/billing), you can view:
 
 * Your current number of additional team members
-* How much you will be billed at the end of your cycle (unless you add or remove team members in the interim)
-* Additional information about your auto-flex and regular billing cycles
+* How much your bill will be at the end of your cycle (unless you add or remove team members in the interim)
+* More information about your auto-flex and regular billing cycles
 
 <img alt="Billing overview with auto flex" src="https://assets.postman.com/postman-docs/auto-flex-dash-9.14.jpg" />
 
