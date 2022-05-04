@@ -17,7 +17,6 @@ module.exports = {
     author: 'Postman',
     siteUrl: siteUrl,
   },
-  assetPrefix: 'https://learning.postman-beta.com/labs/',
   pathPrefix: '/labs/',
   trailingSlash: 'always',
   plugins: [
