@@ -38,7 +38,7 @@ The _Private API Network_ provides a central directory of all the APIs your team
 
 APIs in the Private API Network are visible to logged-in users who are a part of your Postman team. Users who aren't a part of your team can't find or access these APIs.
 
-> As a quality control measure, your team can turn on an [optional approval process workflow](#using-the-approval-process-workflow) in which only designated users can add APIs to the Private API Network. If your team does not use the optional approval process workflow, any user who has an Editor role for an API can [add it to the Private API Network](#adding-your-apis). 
+> As a quality control measure, your team can turn on an [optional approval process workflow](#using-the-approval-process-workflow) in which only designated users can add APIs to the Private API Network. If your team does not use the optional approval process workflow, any user who has an Editor role for an API can [add it to the Private API Network](#adding-your-apis).
 
 <img alt="Private API Network" src="https://assets.postman.com/postman-docs/private-api-network-v9.jpg"/>
 
@@ -114,7 +114,7 @@ To turn on the approval process workflow:
 1. Select **Private API Network**.
 1. Turn on the API approval process.  <!-- TODO: screenshot -->
 
-Once you have turned on the approval process, any team member with an API Editor role can [request to add an API to the Private API Network](<!-- TODO:  -->).
+Once you have turned on the approval process, any team member with the Editor role for an API can [request to add it to the Private API Network](#editor-requesting-to-add-an-api).
 
 ### Editor: Requesting to add an API
 
@@ -221,9 +221,11 @@ Select the more actions icon <img alt="More actions icon" src="https://assets.po
 
 ### Removing APIs from the Private API Network
 
-You can also remove the added APIs from your Private API Network. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the API you would like to remove from network. Once you select __Remove__, your team members will also lose access to the API via the network.
+You can also remove APIs from your Private API Network. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the API you would like to remove from network. Once you select __Remove__, your team members will also lose access to the API via the network.
 
 <img alt="Remove API from Network" src="https://assets.postman.com/postman-docs/edit-remove-from-private-network-v9.gif"/>
+
+> If your team uses the [optional approval process](#using-the-approval-process-workflow), only an API Network Manager can remove an API from the Private API Network. If your team does not use the approval process, any user who has an Editor role for the API can remove it.
 
 ### Publishing specific API versions
 
