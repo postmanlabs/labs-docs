@@ -1,5 +1,9 @@
 name: Deploy to Beta
 
+permissions:
+  id-token: write
+  contents: read
+
 on:
   push:
     branches:
@@ -49,6 +53,15 @@ jobs:
           npm run clean
           npm run build:dev
           aws s3 sync ./public/ s3://postman-labs-docs-beta/labs --delete --acl public-read
+      
+      - name: invalidate
+        uses: chetan/invalidate-cloudfront-action@v2
+        env:
+          PATHS: '/*'
+          AWS_REGION: 'us-east-1'
+          DISTRIBUTION: ${{ secrets.BETA_DIST_ID }}
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
 
     # - name: update Algolia with GA Pageviews
     #   env:
