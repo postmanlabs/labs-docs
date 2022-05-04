@@ -40,25 +40,21 @@ export const leftNavItems = [
       },
       {
         name: 'Getting Started',
-        subParentSlug: 'available-integrations',
-        slug: '/postman-flows/available-integrations/apimatic/',
+        subParentSlug: 'getting-started',
+        slug: '/postman-flows/getting-started/the-interface/',
         subMenuItems2: [
           {
             name: 'The Interface',
-            url: '/postman-flows/available-integrations/apimatic/',
+            url: '/postman-flows/getting-started/the-interface/',
           },
           {
             name: 'The Block',
-            url: '/postman-flows/available-integrations/aws-api-gateway/',
+            url: '/postman-flows/getting-started/the-block/',
           },
           {
             name: 'Data Types',
-            url: '/postman-flows/available-integrations/azure-devops/',
-          },
-          {
-            name: 'Expressions & Operators',
-            url: '/postman-flows/available-integrations/ci-integrations/travis-ci/',
-          },
+            url: '/postman-flows/getting-started/data-types/',
+          }
         ],
       },
       {

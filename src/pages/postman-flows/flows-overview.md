@@ -1,21 +1,9 @@
 ---
 title: "Postman Flows"
 page_id: "postman_flows"
-updated: 2022-04-25
+updated: 2022-05-04
 warning: false
-contextual_links:
-  - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Grouping requests in collections"
-    url: "/docs/sending-requests/intro-to-collections/"
-  - type: section
-    name: "Additional Resources"
-  - type: subtitle
-    name: "Blog Posts"
-  - type: link
-    name: "Integrations: how Postman plays with some of your favorite tools"
-    url: "https://blog.postman.com/integrations-how-postman-plays-with-some-of-your-favorite-tools/"
+
 ---
 
 ### A visual programming language for APIs 
@@ -23,7 +11,7 @@ contextual_links:
 
 Postman Flows is an API workflow builder that lets you connect APIs logically. Use Flows to chain requests, handle data and create real world workflows right in your Postman workspace.
 
-Postman Flow is a beta feature and is available to members of all plans **_for free_**. 
+>Postman Flow is a `beta feature` and is available to members of *any* plans. 
 Head on to [Postman web app](https://go.postman.co/) or use the latest version 
 of [Postman desktop app](https://www.postman.com/downloads/) to start creating Flows.
 
@@ -31,9 +19,9 @@ of [Postman desktop app](https://www.postman.com/downloads/) to start creating F
 There are just **4 fundamental** concepts that you need to know before starting
 to use flows.
 
-![](labs/static/concepts.png)
+![Concepts](https://www.postmanlabs.com/postman-flows/static/concepts.png)
 
-+++ Block
+### Block
 A **Block** is the basic unit of flows. There are various kind of blocks,
 some *create data*, some *process data* and some *visualize data*. 
 In the above example you can see three blocks which are capable of Sending a HTTP request.
@@ -49,7 +37,7 @@ Additionally, a flow in itself can be considered as a block.
 > 2. A block starts running when a message packet becomes available in all of its connected inputs.
 > 3. A block is not a function but a process
 
-+++ Messages
+### Messages
 A **Message** is a single packet of data. A message could be a simple string or number, or it could be a
 large complex data structure like an List of users, or maybe an entire Movie.
 
@@ -59,7 +47,7 @@ Data structures like Lists can also be converted to Streams which can be process
 > 
 > When message flow from one block another, the actual data does not move but a pointer to the message is passed along.
 
-+++ Connection
+### Connection
 A **Connection** is a data pipe which can be used to transfer messages from output of one block to the
 input of another. Imagined them as FedEx like courier service that transfer mails and parcels between addresses.
 
@@ -69,7 +57,7 @@ input of another. Imagined them as FedEx like courier service that transfer mail
 > 3. When two connections are connected to the output, then a message is duplicated and sent to both connections.
 > 4. When two connections are connected to the input and both have messages, they don't get merged, the block processes each message in a round-robbin fashion.
 
-+++ Signal (advanced)
+### Signal (advanced)
 A **Signal** is a special kind of connection that does not carry data but a signal which is triggered when a block completes processing.
 
 Very often execution happens in parallel, but there may be requirements to halt the execution of block until other blocks have completed their execution. 
