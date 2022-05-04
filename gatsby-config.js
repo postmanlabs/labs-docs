@@ -17,6 +17,7 @@ module.exports = {
     author: 'Postman',
     siteUrl: siteUrl,
   },
+  assetPrefix: '/labs/',
   trailingSlash: 'always',
   plugins: [
     {
