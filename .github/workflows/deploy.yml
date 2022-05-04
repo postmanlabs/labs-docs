@@ -45,7 +45,7 @@ jobs:
           # RELIC_LICENSE_KEY: ${{ secrets.RELIC_LICENSE_KEY }}
           # RELIC_PRODUCTION_AGENT_ID: ${{ secrets.RELIC_PRODUCTION_AGENT_ID }}
           # RELIC_PRODUCTION_APPLICATION_ID: ${{ secrets.RELIC_PRODUCTION_APPLICATION_ID }}
-          # PM_TECH: ${{secrets.PM_TECH}}
+          PM_TECH: ${{secrets.PM_TECH}}
           SITE_URL: ${{secrets.BETA_SITE_URL}}
         run: |
           npm config set //registry.npmjs.org/:_authToken=${{secrets.NPM_TOKEN}}
