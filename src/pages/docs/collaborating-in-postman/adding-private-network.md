@@ -38,7 +38,7 @@ The _Private API Network_ provides a central directory of all the APIs your team
 
 APIs in the Private API Network are visible to logged-in users who are a part of your Postman team. Users who aren't a part of your team can't find or access these APIs.
 
-> As a quality control measure, your team can turn on an [optional approval process workflow](#using-the-approval-process-workflow) in which only designated users can add APIs to the Private API Network. If your team does not use the optional approval process workflow, any user who has an Editor role for an API can [add it to the Private API Network](#adding-your-apis).
+> As a quality control measure, your team can turn on an [optional approval process workflow](#using-the-approval-process-workflow) in which only designated users can add APIs to the Private API Network. If your team doesn't use the optional approval process workflow, any user who has an Editor role for an API can [add it to the Private API Network](#adding-your-apis).
 
 <img alt="Private API Network" src="https://assets.postman.com/postman-docs/private-api-network-v9.jpg"/>
 
@@ -165,7 +165,7 @@ You can also review a request directly in an API's overview:
 To add an API to the Private API Network, it must be in the [API Builder](/docs/designing-and-developing-your-api/creating-an-api/) in a team or public workspace. You can't add an API to the Private API Network unless all team members have at least view access to the API. Learn more about team [roles and permissions](/docs/collaborating-in-postman/roles-and-permissions/).
 
 * **If your team uses the [optional approval process](#using-the-approval-process-workflow)**, users with an Editor role must [submit a request](#editor-requesting-to-add-an-api) to add an API to the Private API Network and an API Network Manager must [approve the request](#api-network-manager-reviewing-requests-to-add-apis). API Network Managers can add APIs directly to the Private API Network following the instructions here.
-* **If your team does not use the optional approval process**, any user with an Editor role for an API can add it to the Private API Network following the instructions here.
+* **If your team doesn't use the optional approval process**, any user with an Editor role for an API can add it to the Private API Network following the instructions here.
 
 To add an API to your team's Private API Network, [sign in](https://go.postman.co) and select **Private API Network** in the left navigation bar. The default view is your team's [Private API Network](https://go.postman.co/network/private).
 
@@ -230,7 +230,7 @@ To import from Github, see [Importing via GitHub repositories.](/docs/getting-st
 Once you have added APIs to your Private API Network, you can manage them by organizing them in folders, editing their listings, and removing them from the Private API Network.
 
 * **If your team uses the [optional approval workflow](#using-the-approval-process-workflow)**, a user with the API Network Manager can complete these tasks.
-* **If your team does not use the optional approval workflow**, any user with an Editor role can complete these tasks.
+* **If your team doesn't use the optional approval workflow**, any user with an Editor role can complete these tasks.
 
 ### Organizing with folders
 
@@ -262,7 +262,7 @@ Select the more actions icon <img alt="More actions icon" src="https://assets.po
 
 ### Removing APIs from the Private API Network
 
-> If your team uses the [optional approval process](#using-the-approval-process-workflow), only an API Network Manager can remove an API from the Private API Network. If your team does not use the approval process, any user who has an Editor role for the API can remove it.
+> If your team uses the [optional approval process](#using-the-approval-process-workflow), only an API Network Manager can remove an API from the Private API Network. If your team doesn't use the approval process, any user who has an Editor role for the API can remove it.
 
 You can also remove APIs from your Private API Network:
 
