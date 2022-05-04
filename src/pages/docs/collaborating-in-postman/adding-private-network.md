@@ -95,9 +95,9 @@ An API Network Manager can:
 
 * Add any API to the team's Private API Network
 * Create and edit folders
+* Assign this role to other team members
 
 > You must have either [the Super Admin role or the API Network Manager role](docs/administration/managing-your-team/managing-your-team/#managing-roles) to assign this role to a user.
-* Assign this role to other team members
 
 To assign the API Network Manager role:
 
