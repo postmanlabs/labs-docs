@@ -3,15 +3,11 @@ const fs = require('fs');
 const { createFilePath } = require('gatsby-source-filesystem');
 const glob = require('glob');
 const { v4: uuidv4 } = require('uuid');
-// const axios = require('axios');
 const frontmatter = require('@github-docs/frontmatter');
 const redirects = require('./redirects.json');
-// const HeaderJson = require('./src/components/Header/Header.data.json');
 const FooterJson = require('./src/components/Footer/Footer.data.json');
 const { execSync } = require("child_process")
 const ignorePaths = [];
-
-// const { google } = require('googleapis');
 
 exports.onCreateNode = ({ node, getNode, actions }) => {
   const { createNodeField } = actions;
@@ -60,16 +56,6 @@ exports.createPages = async ({ graphql, actions }) => {
     }
   `);
   result.data.allMarkdownRemark.edges.forEach(({ node }) => {
-    if (node.fields.slug.includes('-')) {
-      const underscoreSlug = node.fields.slug.replace(/-/g, '_');
-
-      createRedirect({
-        fromPath: underscoreSlug,
-        isPermanent: true,
-        redirectInBrowser: true,
-        toPath: node.fields.slug,
-      });
-    }
     createPage({
       path: node.fields.slug,
       component: path.resolve('./src/templates/doc.jsx'),
