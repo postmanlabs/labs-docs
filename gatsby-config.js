@@ -18,6 +18,7 @@ module.exports = {
     siteUrl: siteUrl,
   },
   assetPrefix: '/labs/',
+  pathPrefix: '/labs/',
   trailingSlash: 'always',
   plugins: [
     {

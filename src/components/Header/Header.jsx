@@ -400,7 +400,7 @@ class Header extends React.Component {
                       <h6 className="dropdown-header">Learning</h6>
                       <a
                         className="dropdown-item"
-                        href="/labs/postman-flows/flows-overview/"
+                        href="/postman-flows/flows-overview/"
                       >
                         Docs
                       </a>
@@ -540,7 +540,7 @@ class Header extends React.Component {
         <nav className="navbar-v6 navbar navbar-expand-lg navbar-light bg-light nav-secondary blurred-container">
           <a
             className="navbar-brand"
-            href="/labs/postman-flows/flows-overview/"
+            href="/postman-flows/flows-overview/"
           >
             <span id="learning-center-home-link" className="nav-link uber-nav">
               Postman Labs Docs
@@ -581,7 +581,7 @@ class Header extends React.Component {
               <li className="nav-item">
                 <a
                   className="nav-link uber-nav mr-3"
-                  href="/labs/postman-flows/flows-overview/"
+                  href="/postman-flows/flows-overview/"
                 >
                   Flows
                 </a>

@@ -63,7 +63,7 @@ class IndexPage extends React.Component {
                   <p className="subtitle">
                     Learn how to use Postman's cutting edge features!
                   </p>
-                  <a href="/labs/postman-flows/flows-overview/" className="btn btn__primary-hollow mb-5">
+                  <a href="/postman-flows/flows-overview/" className="btn btn__primary-hollow mb-5">
                     Explore the docs
                   </a>
                 </div>
@@ -87,7 +87,7 @@ class IndexPage extends React.Component {
               <h2>Low-code Flows in Postman</h2>
               <p>Learn the Postman fundamentals in this video course for beginners.</p>
               <p className="mb-4">Learn more about Postman's new low-code no-code development tool called Flows to create your own API workflows.</p>
-              <a href="/labs/postman-flows/flows-overview/" className="btn btn__primary-hollow mb-5">
+              <a href="/postman-flows/flows-overview/" className="btn btn__primary-hollow mb-5">
                 Explore the Flow docs
               </a>
             </div>
