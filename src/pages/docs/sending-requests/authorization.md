@@ -376,7 +376,7 @@ Advanced parameters for NTLM auth are as follows:
 
 > When the required details are complete in the __Authorization__ tab for your request, Postman will add them to the __Headers__.
 
-For information on obtaining your credentials, see [Akamai Developer - Authorize your Client](https://developer.akamai.com/legacy/introduction/Prov_Creds.html).
+For information on obtaining your credentials, see [Akamai Developer - Authorize your Client](https://techdocs.akamai.com/developer/docs/set-up-authentication-credentials).
 
 ## Syncing cookies
 
