@@ -154,7 +154,7 @@ You can choose to verify your bank account manually instead of using the automat
 1. Enter your email and your name, then select **Verify your bank account manually**.
 1. Enter your routing number and bank account number. Confirm your account number, then select **Continue**.
 
-In 1-2 business days, Stripe will make a small test deposit into your bank account that you will use to verify your bank account and will email you with further instructions. To verify your account:
+In one to two business days, Stripe will make a small test deposit into your bank account that you will use to verify your bank account and will email you with further instructions. To verify your account:
 
 1. After you see the test deposit in your bank account, go back to the Postman billing dashboard. Select **Plans and payments** > **Payment methods**.
 1. Hover over the bank account and select **Verify**.
