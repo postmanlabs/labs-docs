@@ -1,6 +1,5 @@
 import React from 'react';
-import { OutboundLink } from 'gatsby-plugin-google-analytics';
-import { v4 as uuidv4 } from 'uuid';
+import { Link } from 'gatsby';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 import '../../styles/config/_pm-icons.css';
@@ -63,9 +62,9 @@ class IndexPage extends React.Component {
                   <p className="subtitle">
                     Learn how to use Postman's cutting edge features!
                   </p>
-                  <a href="/postman-flows/flows-overview/" className="btn btn__primary-hollow mb-5">
+                  <Link to="/postman-flows/flows-overview/" className="btn btn__primary-hollow mb-5">
                     Explore the docs
-                  </a>
+                  </Link>
                 </div>
                 <div className="col-sm-12 col-md-6 col-lg-6 align-self-center">
                   <img
@@ -87,9 +86,9 @@ class IndexPage extends React.Component {
               <h2>Low-code Flows in Postman</h2>
               <p>Learn the Postman fundamentals in this video course for beginners.</p>
               <p className="mb-4">Learn more about Postman's new low-code no-code development tool called Flows to create your own API workflows.</p>
-              <a href="/postman-flows/flows-overview/" className="btn btn__primary-hollow mb-5">
+              <Link to="/postman-flows/flows-overview/" className="btn btn__primary-hollow mb-5">
                 Explore the Flow docs
-              </a>
+              </Link>
             </div>
             <div className="col-lg-8">
               <div className="embed-responsive embed-responsive-16by9 img-frame">

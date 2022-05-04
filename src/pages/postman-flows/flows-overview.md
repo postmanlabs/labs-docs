@@ -31,7 +31,7 @@ of [Postman desktop app](https://www.postman.com/downloads/) to start creating F
 There are just **4 fundamental** concepts that you need to know before starting
 to use flows.
 
-![](static/concepts.png)
+![](labs/static/concepts.png)
 
 +++ Block
 A **Block** is the basic unit of flows. There are various kind of blocks,
