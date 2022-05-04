@@ -2,7 +2,7 @@
 title: "Your Private API Network"
 order: 73.2
 page_id: "adding_private_network"
-updated: 2021-09-15
+updated: 2022-05-11
 warning: false
 contextual_links:
   - type: section
@@ -37,6 +37,8 @@ contextual_links:
 The _Private API Network_ provides a central directory of all the APIs your team uses internally. Your team can learn about and access these APIs and start using them right away.
 
 APIs in the Private API Network are visible to logged-in users who are a part of your Postman team. Users who aren't a part of your team can't find or access these APIs.
+
+> As a quality control measure, your team can turn on an [optional approval process workflow](#using-the-approval-process-workflow) in which only designated users can add APIs to the Private API Network. If your team does not use the optional approval process workflow, any user who has an Editor role for an API can [add it to the Private API Network](#adding-your-apis). 
 
 <img alt="Private API Network" src="https://assets.postman.com/postman-docs/private-api-network-v9.jpg"/>
 
