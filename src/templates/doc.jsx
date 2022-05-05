@@ -1,4 +1,5 @@
 /* eslint-disable react/no-danger */
+const useQualtrics = require('../../scripts/useQualtrics');
 import React, { useState, useEffect } from 'react';
 import { graphql } from 'gatsby';
 
@@ -20,6 +21,7 @@ function CreateDoc(props) {
   const [post, setModal] = useState({ ...props })
 
   useEffect(() => {
+    useQualtrics();
     const { data } = props;
     const { html } = data;
     // parses a string containing HTML & returns an HTMLDocument
@@ -67,6 +69,8 @@ const DocPage = ({ data }) => {
                 <BreadCrumbsLinks data={{ parentLink, subParentLink }} />
                 <h1>{post.frontmatter.title}</h1>
                 <CreateDoc data={post} />
+                {/* Qualtrics */}
+                <div id='ZN_cG6u1PkZV7TpCFo'/>
                 <p>
                   <small className="font-italic">Last modified: {lastModifiedDate}</small>
                 </p>
