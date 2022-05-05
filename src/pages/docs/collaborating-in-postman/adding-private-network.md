@@ -38,7 +38,7 @@ The _Private API Network_ provides a central directory of all the APIs your team
 
 APIs in the Private API Network are visible to logged-in users who are a part of your Postman team. Users who aren't a part of your team can't find or access these APIs.
 
-> As a quality control measure, your team can turn on an [optional approval process workflow](#using-the-approval-process-workflow) in which only designated users can add APIs to the Private API Network. If your team doesn't use the optional approval process workflow, any user who has an Editor role for an API can [add it to the Private API Network](#adding-your-apis).
+> As a quality control measure, your team can turn on an [optional approval process workflow](#using-the-approval-process-workflow) in which only designated users with the [API Network Manager role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can add APIs to the Private API Network. If your team doesn't use the optional approval process workflow, any user who has an Editor role for an API can [add it to the Private API Network](#adding-your-apis).
 
 <img alt="Private API Network" src="https://assets.postman.com/postman-docs/private-api-network-v9.jpg"/>
 
@@ -80,7 +80,7 @@ To watch the API and get notified about any changes, select **Watch**. To learn 
 
 ## Using the approval process workflow
 
-As a quality control measure, your team can turn on an optional approval process workflow in which only users with the API Network Manager role can add APIs to your Private API Network.
+As a quality control measure, your team can turn on an optional approval process workflow in which only designated users with the [API Network Manager role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can add APIs to your Private API Network.
 
 To use this approval process for your team, you need to complete two steps first:
 
@@ -91,7 +91,7 @@ Once these steps are complete, users with an Editor role for an API will need to
 
 ### Assign the API Network Manager role
 
-An API Network Manager can:
+An [API Network Manager](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can:
 
 * Add any API to the team's Private API Network
 * Create and edit folders
