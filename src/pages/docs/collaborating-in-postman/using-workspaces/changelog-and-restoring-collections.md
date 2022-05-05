@@ -15,26 +15,28 @@ warning: false
 
 > **[Changelog is available on Postman Basic, Professional, and Enterprise plans.](https://www.postman.com/pricing/)**
 
-Your Postman collections display a changelog for reviewing create, update, and delete events. You can use the changelog to keep track of any updates you and your collaborators make to your private and team collections. The changelog also lets you rollback a collection and restore it to any previous point in time. Postman also tracks activity within teams and accounts.
+Each Postman Collection has a changelog that covers create, update, and delete events. You can use the changelog to keep track of updates you and your collaborators make to your private and team collections. The changelog also lets you rollback a collection and restore it to an earlier point in time.
 
 ## Contents
 
 * Viewing changes to a [collection](#viewing-the-collection-changelog), [workspace](#viewing-workspace-activity), [team](#viewing-team-activity), or [user account](#viewing-user-activity).
-* [Restoring collections and folders](#restoring-collections-and-folders)
+* [Restoring collections](#restoring-collections)
 * [Exporting team activity](#exporting-team-activity-to-other-platforms)
 * [Next steps](#next-steps)
 
 ## Viewing the collection changelog
 
-To review the changelog for a collection in Postman, select __Collections__ in the sidebar, then select the changelog icon <img alt="Changelog icon" src="https://assets.postman.com/postman-docs/icon-changelog-v9.jpg#icon" width="18px"> on the right of Postman to see a chronological list of collection activities.
+To review the changelog for a collection in Postman, open the collection and select the changelog icon <img alt="Changelog icon" src="https://assets.postman.com/postman-docs/icon-changelog-v9.jpg#icon" width="18px"> on the right.
 
-The changelog indicates the date of each update, the user who carried it out, what type of update they performed, and the time the change occurred. The changelog collates consecutive updates on the same session to the same entity for readability.
+The changelog provides a chronological list of collection activities. You can view the time and date changes occurred, the users who were involved, and what parts of the collection were affected.
 
-![Collection changelog](https://assets.postman.com/postman-docs/collection-changelog-v8.jpg)
+<img alt="Collection changelog" src ="https://assets.postman.com/postman-docs/changelog-v9.16.jpg" width=400px/>
 
-With a Postman Basic, Professional, or Enterprise account, you can see generated diffs detailing changes to a collection.
+Postman groups changes made within several minutes of each other into sessions for readability. You can select a session in the changelog to review its changes individually.
 
-<img alt="Changelog diffs" src ="https://assets.postman.com/postman-docs/changelog-diff-v8.jpg" width=400px/>
+Select **View changes** under an item to view the collection diff. If a diff is too large to view in the changelog, you can hover over the diff and select **View more** to open it in a new tab.
+
+<img alt="Collection changelog view changes" src ="https://assets.postman.com/postman-docs/changelog-view-changes-view-more-v9.16.jpg" width=375px/>
 
 ## Viewing workspace activity
 
@@ -78,23 +80,21 @@ You can review the activity for a team with a Postman Basic, Professional, or En
 
 ## Viewing user activity
 
-You can review the activity for your own account in [Postman](https://go.postman.co/). Select your avatar in the top right, and select __Profile__ — the __Activity__ tab will list your events.
+You can review the activity for your own account in [Postman](https://go.postman.co/). Select your avatar in the top right, then select __Profile__. The __Activity__ tab will list your events.
 
-## Restoring collections and folders
+## Restoring collections
 
-With a Postman Basic, Professional, or Enterprise account, you can use the changelog to restore a collection to a previous point in time. Select __Restore__ under a change to revert the collection to the point immediately _after_ the change was applied. The changelog will update and Postman will display a confirmation message indicating the time the collection has been restored to.
+You can use the [changelog](#viewing-the-collection-changelog) to restore a collection to an earlier point in time.
 
-<img alt="Restore from changelog" src="https://assets.postman.com/postman-docs/restore-changelog-v8.jpg" width="400px"/>
+To restore a collection from the changelog:
 
-If you accidentally delete a folder, you can recover it by selecting __Restore__.
+1. Select a session to expand it.
+2. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the change you'd like to restore your collection to, then select **Restore to this change**.
+    <img alt="Restore from changelog" src="https://assets.postman.com/postman-docs/changelog-restore-v9.16.jpg" width="350px"/>
 
-<img alt="Recover folder" src="https://assets.postman.com/postman-docs/restore-folder-v8.jpg" width="400px"/>
+Restoring a collection from the changelog reverts it to the point immediately after your selected change occurred.
 
-You may see a warning on any request tabs you have open that are affected by reverting the collection, for example indicating a conflict or deletion.
-
-![Revert conflict](https://assets.postman.com/postman-docs/revert-conflict-v8.jpg)
-
-Postman will prompt you to resolve any conflicts that may cause you to lose unsaved data.
+> If you'd like to restore a deleted collection, see [Recovering a deleted collection](/docs/sending-requests/intro-to-collections/#recovering-a-deleted-collection).
 
 ## Exporting team activity to other platforms
 
