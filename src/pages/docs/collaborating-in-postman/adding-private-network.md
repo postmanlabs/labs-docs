@@ -76,7 +76,7 @@ To review version-level details, select **View** next to the API version. If you
 
  <img alt="View an API version" src="https://assets.postman.com/postman-docs/private-api-network-view-version-v9.jpg" width="500px"/>
 
-To watch the API and get notified about any changes, select **Watch**. To learn more about watch notifications, see [Watching an API](/docs/designing-and-developing-your-api/managing-apis/#watching-apis).
+To watch the API and get notified about any changes, select **Watch** in the upper right corner. To learn more about watch notifications, see [Watching an API](/docs/designing-and-developing-your-api/managing-apis/#watching-apis).
 
 ## Using the approval process workflow
 
@@ -89,7 +89,7 @@ To use this approval process for your team, you need to complete two steps first
 1. [Assign the API Network Manager role to a user](#assign-the-api-network-manager-role)
 1. [Turn on the approval process in Team Settings](#turn-on-the-approval-process)
 
-Once these steps are complete, users with an Editor role for an API will need to [request to add the API](#editor-requesting-to-add-an-api) to the Private API Network. The API Network Manager will be able to [review requests](#api-network-manager-reviewing-requests-to-add-apis) to add an API to the Private API Network, [add APIs](adding-your-apis), and [create and edit folders](#organizing-with-folders).
+Once these steps are complete, users with an Editor role for an API will need to [request to add the API](#editor-requesting-to-add-an-api) to the Private API Network. The API Network Manager will be able to [review requests](#api-network-manager-reviewing-requests-to-add-apis) to add an API to the Private API Network, [add APIs](#adding-your-apis), and [create and edit folders](#organizing-with-folders).
 
 ### Assign the API Network Manager role
 
@@ -99,13 +99,13 @@ An [API Network Manager](/docs/collaborating-in-postman/roles-and-permissions/#t
 * Create and edit folders
 * Assign this role to other team members
 
-> You must have either [the Super Admin role or the API Network Manager role](docs/administration/managing-your-team/managing-your-team/#managing-roles) to assign this role to a user.
+> You must have either [the Super Admin role or the API Network Manager role](/docs/administration/managing-your-team/managing-your-team/#managing-roles) to assign this role to a user.
 
 To assign the API Network Manager role:
 
 1. On the Team Settings page, select **Members and groups**.
 1. Select the user you want to assign the API Network Manager role to.
-1. In the **Roles** dropdown list next to their name, select **API Network Manager**, then select **Update Roles**. For more information about assigning team roles to individual users, see [Managing roles](docs/administration/managing-your-team/managing-your-team/#managing-roles).
+1. In the **Roles** dropdown list next to their name, select **API Network Manager**, then select **Update Roles**. For more information about assigning team roles to individual users, see [Managing roles](/docs/administration/managing-your-team/managing-your-team/#managing-roles).
 
     > Enterprise teams can also assign this role to a user group. For more information about assigning team roles to groups, see [Managing user groups](/docs/administration/managing-your-team/user-groups/).
 
@@ -115,7 +115,7 @@ Postman will send an email to new API Network Managers about their updated role.
 
 The approval process enables an API Network Manager to control the process of adding APIs to their team's Private API Network.
 
-> You must have either [the Super Admin role or the API Network Manager role](docs/administration/managing-your-team/managing-your-team/#managing-roles) to turn on the approval process.
+> You must have either [the Super Admin role or the API Network Manager role](/docs/administration/managing-your-team/managing-your-team/#managing-roles) to turn on the approval process.
 
 To turn on the approval process workflow:
 
@@ -159,7 +159,7 @@ To deny a request:
 You can also review a request directly in an API's overview:
 
 1. Select **APIs** from the sidebar, then select the API with the pending review.
-1. Details about the request, including comments from the user who submitted it, are on the right side of the overview.
+1. View details about the request, including comments from the user who submitted it, on the right side of the overview.
 1. Select **Approve** or **Deny**. <!-- TODO: screenshot -->
 
 ## Adding your APIs
@@ -223,7 +223,7 @@ To learn more about the visibility of API versions, see [Versioning APIs](/docs/
 
 You can make all your existing APIs discoverable on the Private API Network when you import from GitHub. When you create an API, switch over to the **Import** tab to view the options to import from a code repository.
 
-<img alt="GitHub import" src="https://assets.postman.com/postman-docs/github-import-v9.jpg" height="300px"/>
+<img alt="GitHub import" src="https://assets.postman.com/postman-docs/github-import-v9.jpg" width="450px"/>
 
 To import from Github, see [Importing via GitHub repositories.](/docs/getting-started/importing-and-exporting-data/#importing-via-github-repositories)
 
