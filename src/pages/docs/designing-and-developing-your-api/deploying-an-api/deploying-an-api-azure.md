@@ -42,7 +42,7 @@ To connect to Azure API Management in Postman:
 1. To connect more Azure API Management services, select **+ Add Service**. To remove a service, select **Remove**.
 1. When you're finished adding services, select **Connect**.
 
-    <img alt="Azure API Management setup" src="https://assets.postman.com/postman-docs/azure-apim-setup-v9-16.jpg" width="518"/>
+    <img alt="Azure API Management setup" src="https://assets.postman.com/postman-docs/azure-apim-setup-v9-17.jpg" width="518"/>
 
 1. If you want, you can choose to import a schema from Azure API Management:
 
