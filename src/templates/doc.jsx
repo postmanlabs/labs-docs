@@ -68,11 +68,11 @@ const DocPage = ({ data }) => {
                 <BreadCrumbsLinks data={{ parentLink, subParentLink }} />
                 <h1>{post.frontmatter.title}</h1>
                 <CreateDoc data={post} />
-                {/* Qualtrics */}
-               <LoadQualtrics />
                 <p>
                   <small className="font-italic">Last modified: {lastModifiedDate}</small>
                 </p>
+                                {/* Qualtrics */}
+                                <LoadQualtrics />
                 <PreviousAndNextLinks data={{ previous, next }} />
               </main>
               <aside className="col-sm-12 col-md-12 col-lg-3 offset-lg-0 col-xl-3 offset-xl-1 right-column">
