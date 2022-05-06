@@ -1,5 +1,4 @@
 /* eslint-disable react/no-danger */
-const useQualtrics = require('../../scripts/useQualtrics');
 import React, { useState, useEffect } from 'react';
 import { graphql } from 'gatsby';
 
@@ -16,12 +15,12 @@ import 'prismjs/themes/prism-tomorrow.css';
 import { useModal } from '../components/modules/Modal';
 import PreviousAndNextLinks from '../components/modules/PreviousAndNextLinks';
 import BreadCrumbsLinks from '../components/modules/BreadCrumbsLinks';
+import LoadQualtrics from '../components/modules/loadQualtrics';
 
 function CreateDoc(props) {
   const [post, setModal] = useState({ ...props })
 
   useEffect(() => {
-    useQualtrics();
     const { data } = props;
     const { html } = data;
     // parses a string containing HTML & returns an HTMLDocument
@@ -70,7 +69,7 @@ const DocPage = ({ data }) => {
                 <h1>{post.frontmatter.title}</h1>
                 <CreateDoc data={post} />
                 {/* Qualtrics */}
-                <div id='ZN_cG6u1PkZV7TpCFo'/>
+               <LoadQualtrics />
                 <p>
                   <small className="font-italic">Last modified: {lastModifiedDate}</small>
                 </p>
