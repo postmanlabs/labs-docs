@@ -47,14 +47,15 @@ const DisplayContextualLinks = (props) => {
 }
 const DocPage = ({ data }) => {
   const post = data.markdownRemark;
-  /* Last modified date (bottom of page) */
-  const date = data.markdownRemark.fields.lastModifiedDate;
-  /* Breadcrumbs (top of page) & Previous and Next Links (bottom of page) */
+    // Last modified date - displaed at bottom of docs
+    // Last modified time - meta data for SEO
+  const {lastModifiedDate, lastModifiedTime } = data.markdownRemark.fields;
+  // Breadcrumbs (top of page) & Previous and Next Links (bottom of page) 
   const { parentLink, subParentLink, previous, next } = data;
 
   return (
     <Layout>
-      <SEO title={post.frontmatter.title} slug={post.fields.slug} />
+      <SEO title={post.frontmatter.title} slug={post.fields.slug} lastModifiedTime={lastModifiedTime} />
       <div className="container-fluid">
         <div className="row row-eq-height">
           <nav className="col-sm-12 col-md-4 col-lg-3 left-nav-re">
@@ -67,7 +68,7 @@ const DocPage = ({ data }) => {
                 <h1>{post.frontmatter.title}</h1>
                 <CreateDoc data={post} />
                 <p>
-                  <small className="font-italic">Last modified: {date}</small>
+                  <small className="font-italic">Last modified: {lastModifiedDate}</small>
                 </p>
                 <PreviousAndNextLinks data={{ previous, next }} />
               </main>
@@ -105,6 +106,7 @@ export const query = graphql`
       fields {
         slug
         lastModifiedDate
+        lastModifiedTime
       }
     }
   }

@@ -11,6 +11,14 @@ contextual_links:
     url: "/docs/sending-requests/requests/"
   - type: section
     name: "Additional Resources"
+  - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Group Requests in Collections | Postman Level Up"
+    url: "https://youtu.be/ghHX4FGvVyA"
+  - type: link
+    name: "Create a Postman Collection | Postman Level Up"
+    url: "https://youtu.be/NlrPjuXEaZ8"
   - type: dynamic_blog
     name: "Blog Posts"
     blog_tag: "collections"
