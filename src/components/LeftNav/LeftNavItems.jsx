@@ -27,42 +27,34 @@
   }
 */
 
-
 export const leftNavItems = [
   {
-    name: 'Postman Flows',
-    parentSlug: 'postman-flows',
-    url: '/postman-flows/flows-overview/',
+    name: 'Getting started',
+    parentSlug: 'getting-started',
+    url: '/postman-flows/getting-started/flows-overview/',
     subMenuItems1: [
       {
         name: 'Overview',
-        url: '/postman-flows/flows-overview/',
+        url: '/postman-flows/getting-started/flows-overview/',
       },
       {
-        name: 'Getting Started',
-        subParentSlug: 'getting-started',
-        slug: '/postman-flows/getting-started/the-interface/',
-        subMenuItems2: [
-          {
-            name: 'The Interface',
-            url: '/postman-flows/getting-started/the-interface/',
-          },
-          {
-            name: 'The Block',
-            url: '/postman-flows/getting-started/the-block/',
-          },
-          {
-            name: 'Data Types',
-            url: '/postman-flows/getting-started/data-types/',
-          }
-        ],
+        name: 'The Interface',
+        url: '/postman-flows/getting-started/the-interface/',
+      },
+      {
+        name: 'The Block',
+        url: '/postman-flows/getting-started/the-block/',
+      },
+      {
+        name: 'Data Types',
+        url: '/postman-flows/getting-started/data-types/',
       },
       {
         name: 'FAQs',
-        url: '/postman-flows/flows-faq/',
+        url: '/postman-flows/getting-started/flows-faq/',
       },
     ],
   },
-];
+]
 
 // export default parentSlugItems;

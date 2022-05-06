@@ -7,12 +7,11 @@ warning: false
 
 Stage: 1 - Proposal
 
-Postman Flows in its heart is a dataflow language, which means that there flows
+Postman Flows is a "dataflow language" in its heart, which means that Flows
 understands all kinds of values and associates a type to data. It should also be
 noted that Flows in a hybrid typed language, which means that it perform static 
 type checking to provide features like auto-complete and early warning, and it 
-also performs some dynamic type checking during execution. Our intention, in the long run, is to move Flows towards being
-strictly typed language over a period of time. 
+also performs some dynamic type checking during execution. Our intention, in the long run, is to move Flows towards being a strictly typed language over a period of time. 
 
 We are assuming most flow programmers would either be coming from a 
 javascript/typescript background, or it might be their first time programming in 
