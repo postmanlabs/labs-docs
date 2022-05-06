@@ -44,4 +44,4 @@ Check out the pages in this section for an intro to developer resources that all
 * [**Postman collection converters**](/docs/developer/collection-conversion/)
     * The converters allow you to transform OpenAPI, Swagger, RAML, and GraphQL specs to Postman collection format.
 
-> You can use the __Postman CLI [Newman](/docs/running-collections/using-newman-cli/command-line-integration-with-newman/)__ in conjunction with other utilities to build collection runs into your development pipeline. Newman is also an [open-source project](https://github.com/postmanlabs/newman) that you can use and contribute to.
+> You can use [Newman](/docs/running-collections/using-newman-cli/command-line-integration-with-newman/), Postman's command-line collection runner, in conjunction with other utilities to build collection runs into your development pipeline. Newman is also an [open-source project](https://github.com/postmanlabs/newman) that you can use and contribute to.
