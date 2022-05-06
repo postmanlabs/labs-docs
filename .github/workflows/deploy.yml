@@ -40,11 +40,6 @@ jobs:
           # BFF_BLOG_URL: ${{ secrets.BFF_BLOG_URL }}
           # BFF_EVENTS_URL: ${{ secrets.BFF_EVENTS_URL }}
           # BFF_PING_WEBHOOK_URL: $ {{ secrets.BFF_PING_WEBHOOK_URL }}
-          # RELIC_ACCOUNT_ID: ${{ secrets.RELIC_ACCOUNT_ID }}
-          # RELIC_TRUST_KEY: ${{ secrets.RELIC_TRUST_KEY }}
-          # RELIC_LICENSE_KEY: ${{ secrets.RELIC_LICENSE_KEY }}
-          # RELIC_PRODUCTION_AGENT_ID: ${{ secrets.RELIC_PRODUCTION_AGENT_ID }}
-          # RELIC_PRODUCTION_APPLICATION_ID: ${{ secrets.RELIC_PRODUCTION_APPLICATION_ID }}
           PM_TECH: ${{secrets.PM_TECH}}
           SITE_URL: ${{secrets.BETA_SITE_URL}}
         run: |
@@ -81,9 +76,3 @@ jobs:
     #     type=service_account project_id=$GOOGLE_PROJECT_ID private_key_id=$GOOGLE_PRIVATE_KEY private_key=$GOOGLE_PRIVATE_KEY_2 client_email=$GOOGLE_CLIENT_EMAIL client_id=$GOOGLE_CLIENT_ID auth_uri=https://accounts.google.com/o/oauth2/auth token_uri=https://oauth2.googleapis.com/token auth_provider_x509_cert_url=$GOOGLE_AUTH_CERT client_x509_cert_url=$GOOGLE_CLIENT_CERT node -p -e 'const {type,private_key_id,private_key,project_id,client_email,client_id,auth_uri,token_uri,auth_provider_x509_cert_url,client_x509_cert_url} = process.env; require("fs").writeFile("auth.json", JSON.stringify({type,project_id,private_key_id,private_key:private_key.replace(/\\n/g,"\n"),client_email,client_id,auth_uri,token_uri,auth_provider_x509_cert_url,client_x509_cert_url},null,2), err=>{})'
     #     GOOGLE_APPLICATION_CREDENTIALS=auth.json ALGOLIA_ADMIN_KEY=$ALGOLIA_ADMIN_KEY node ga_connector.js;
     #     rm -rf auth.json
-
-
-
-
-
-
