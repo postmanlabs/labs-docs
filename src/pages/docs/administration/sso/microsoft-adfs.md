@@ -19,7 +19,9 @@ Before you configure Microsoft Active Directory Federation Services (AD FS) to w
 
 * An Active Directory instance where all users have an email address attribute.
 * A SSL certificate from the AD FS server.
-* A server that runs Microsoft Server 2012 or 2008. **Note**: This guide uses screenshots from Server 2012R2, but similar steps are possible in other versions.
+* A server that runs Microsoft Server 2012 or 2008.
+
+> This guide uses screenshots from Server 2012R2, but similar steps are possible in other versions.
 
 After you meet these basic requirements, install AD FS on your server.
 

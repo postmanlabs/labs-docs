@@ -137,62 +137,62 @@ Postman's native app requires Chrome's [Native Messaging](https://developer.chro
 
 Your installation may include the following options:
 
-* **[macOS only] Install NodeJS**: If Postman detects that you don't have the NodeJS binary available, you'll be prompted to install it. Postman will then download the [latest stable version of Node](https://nodejs.org/en/).
-* **[Windows only] Add a registry key**: A `com.postman.postmanapp` key is added to `HKCU\Software\Google\Chrome\NativeMessagingHosts\`. The key points to the location of a JSON file (the manifest).
-* **Add a manifest file**: This is a JSON file (whose structure is defined by [Native Messaging](https://developer.chrome.com/docs/apps/nativeMessaging/)) that gives Chrome the absolute path of the executable that the Interceptor extension can talk to. This file will be installed in a location dependent on your operating system:
+* **[macOS only] Install NodeJS** - If Postman detects that you don't have the NodeJS binary available, you'll be prompted to install it. Postman will then download the [latest stable version of Node](https://nodejs.org/en/).
+* **[Windows only] Add a registry key** - A `com.postman.postmanapp` key is added to `HKCU\Software\Google\Chrome\NativeMessagingHosts\`. The key points to the location of a JSON file (the manifest).
+* **Add a manifest file** - This is a JSON file (whose structure is defined by [Native Messaging](https://developer.chrome.com/docs/apps/nativeMessaging/)) that gives Chrome the absolute path of the executable that the Interceptor extension can talk to. This file will be installed in a location dependent on your operating system:
 
-    * **macOS**:  `/Users/<username>/Library/Application Support/Google/Chrome/NativeMessagingHosts/com.postman.postmanapp.json`
-    * **Windows**: `%USERPROFILE%\.postman\InterceptorBridge\com.postman.postmanapp.json`
-    * **Linux**: `~/.config/google-chrome/NativeMessagingHosts/com.postman.postmanapp.json`
-* **Add an executable**: This is a new process started by Chrome when required by the Interceptor extension. For Windows and Linux, this is a self-contained binary. For macOS, this is a JavaScript file. This file must be executable. This executable will be installed in a location dependent on your operating system:
-    * **macOS**: `$HOME/.postman/InterceptorBridge`
-    * **Windows**: `%USERPROFILE%/.postman/InterceptorBridge`
-    * **Linux**: `$HOME/.postman/InterceptorBridge`
+    * **macOS** -  `/Users/<username>/Library/Application Support/Google/Chrome/NativeMessagingHosts/com.postman.postmanapp.json`
+    * **Windows** - `%USERPROFILE%\.postman\InterceptorBridge\com.postman.postmanapp.json`
+    * **Linux** - `~/.config/google-chrome/NativeMessagingHosts/com.postman.postmanapp.json`
+* **Add an executable** - This is a new process started by Chrome when required by the Interceptor extension. For Windows and Linux, this is a self-contained binary. For macOS, this is a JavaScript file. This file must be executable. This executable will be installed in a location dependent on your operating system:
+    * **macOS** - `$HOME/.postman/InterceptorBridge`
+    * **Windows** - `%USERPROFILE%/.postman/InterceptorBridge`
+    * **Linux** - `$HOME/.postman/InterceptorBridge`
 
 ### Troubleshooting tips
 
 You can find the current status of your Interceptor integration by looking at the upper right of the **Capture requests** window:
 
-* **Connected**: You can proceed with using Interceptor.
-* **Not connected**: Ensure Interceptor is [installed correctly](#installing-interceptor).
-* **Dependencies not installed**: Postman will walk you through how to install the required dependencies.
+* **Connected** - You can proceed with using Interceptor.
+* **Not connected** - Ensure Interceptor is [installed correctly](#installing-interceptor).
+* **Dependencies not installed** - Postman will walk you through how to install the required dependencies.
 
  If you encounter errors during installation or download, check out the following steps to resolve them:
 
-* **`CHROME_NOT_INSTALLED`**: Check if Chrome is installed and a `NativeMessagingHosts` folder exists at the following location:
-    * **macOS**: `~/Library/Application Support/Google/Chrome/NativeMessagingHosts`
-    * **Linux**:  `~/.config/google-chrome/NativeMessagingHosts`
-    * **Windows** : `HKEY_CURRENT_USER\SOFTWARE\Google\Chrome\NativeMessagingHosts`
+* **`CHROME_NOT_INSTALLED`**- Check if Chrome is installed and a `NativeMessagingHosts` folder exists at the following location:
+    * **macOS** - `~/Library/Application Support/Google/Chrome/NativeMessagingHosts`
+    * **Linux** -  `~/.config/google-chrome/NativeMessagingHosts`
+    * **Windows** - `HKEY_CURRENT_USER\SOFTWARE\Google\Chrome\NativeMessagingHosts`
 
   If you are using a different flavor of Chrome, such as Chromium, Brave, or Edge:
     1. Create the `NativeMessagingHosts` directory in the location above.
     1. Install the Interceptor Bridge (refer to [Installing interceptor](#installing-interceptor)).
     1. Copy `InterceptorBridge` into the above `NativeMessagingHosts` directory.
 
-* **`INTERNET_CONNECTIVITY`**:
+* **`INTERNET_CONNECTIVITY`** -
     * Check your internet connection.
     * If you are sitting behind a firewall check your inbound and outbound policies.
     * If you are using a proxy, check that it's properly configured.
-* **`FILE_PERMISSIONS_REQUIRED`**:
+* **`FILE_PERMISSIONS_REQUIRED`** -
     * Confirm that you have permissions to create the `.postman/InterceptorBridge` folders.
     * Confirm that you have permissions to delete, write, and execute in the path `.postman/InterceptorBridge`.
     * [macOS only] Confirm that you have a `~/Downloads` folder and write permissions for it.
     * If the above steps are unsuccessful, close Chrome and Postman before retrying the installation.
-* **[Windows] `REGISTRY_ACCESS_NEEDED`**:
+* **[Windows] `REGISTRY_ACCESS_NEEDED`** -
     * Confirm that you have [permissions](https://docs.microsoft.com/en-us/windows/win32/sysinfo/registry-key-security-and-access-rights) to add a registry key.
     * Confirm that `C:\Windows\System32` is present in the `PATH` (a [system environment variable](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_environment_variables?view=powershell-7)) so that `reg` queries can be executed.
 
 If you are unable to use the integration after completing the guided installation, you'll want to check the following items:
 
-* **[macOS] Node is properly installed**: Node is installed and available at `/usr/local/node` or `/usr/local/bin/node`, or you have the environment variable `NVM_BIN` set.
-* **Manifest file location**: The manifest file (``com.postman.postmanapp.json``) is present, has the correct extension ID (``aicmkgpgakddgnaphhhpliifpcfhicfo``), and the correct path to the executable file.
+* **[macOS] Node is properly installed** - Node is installed and available at `/usr/local/node` or `/usr/local/bin/node`, or you have the environment variable `NVM_BIN` set.
+* **Manifest file location** - The manifest file (``com.postman.postmanapp.json``) is present, has the correct extension ID (``aicmkgpgakddgnaphhhpliifpcfhicfo``), and the correct path to the executable file.
     * If this is missing, delete the following directory and restart the [installation process](#installing-interceptor):
-        * **macOS / Linux**: `$HOME/.postman`
-        * **Windows**: `%USERPROFILE%\.postman\`
-* **Executable**: The executable that the manifest points to exists and is approximately 40MB for Windows/Linux or 33KB for macOS.
+        * **macOS / Linux** - `$HOME/.postman`
+        * **Windows** - `%USERPROFILE%\.postman\`
+* **Executable** - The executable that the manifest points to exists and is approximately 40MB for Windows/Linux or 33KB for macOS.
     * If this is missing, delete the following directory and restart the [installation process](#installing-interceptor):
-        * **macOS / Linux**: `$HOME/.postman`
-        * **Windows**: `%USERPROFILE%\.postman\`
+        * **macOS / Linux** - `$HOME/.postman`
+        * **Windows** - `%USERPROFILE%\.postman\`
 
 For macOS, the NodeJS downloader is saved to your `~/Downloads` directory.
 
@@ -204,7 +204,7 @@ If the aforementioned troubleshooting steps do not fix the problem, you may need
 
 If you are unable to resolve an ``INTERNET_CONNECTIVITY`` error, you can manually install Interceptor:
 
-* **macOS/Linux**:
+* **macOS/Linux** -
 
     * **[macOS-only]** Node.js (>v6.0.0) needs to be installed and available at `/usr/local/node` or `/usr/local/bin/node`, or you need to have the environment variable `NVM_BIN` set.
     * Install the bridge for [macOS](https://go.pstmn.io/interceptor-bridge-macos) or [Linux](https://go.pstmn.io/interceptor-bridge-linux).
@@ -213,7 +213,7 @@ If you are unable to resolve an ``INTERNET_CONNECTIVITY`` error, you can manuall
         1. Confirm the `InterceptorBridge` file exists in `$HOME/.postman`.
         2. Confirm the manifest file `com.postman.postmanapp.json` exists at `~/Library/ApplicationSupport/Google/Chrome/NativeMessagingHosts` for macOS or `~/.config/google-chrome/NativeMessagingHosts` for Linux. Check that it has the correct extension ID `aicmkgpgakddgnaphhhpliifpcfhicfo`, and the correct path `$HOME/.postman` to the executable file `InterceptorBridge`.
 
-* **Windows**:
+* **Windows** -
 
     * Install the bridge for [Windows](https://go.pstmn.io/interceptor-bridge-windows).
     * Run the script ``install_host.bat``.

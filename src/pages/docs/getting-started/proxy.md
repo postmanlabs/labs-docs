@@ -115,11 +115,11 @@ You can select the option "**Use the system proxy**" to turn the system proxy on
 If you are unable to send any requests through Postman and your network requires a proxy, take the following steps:
 
 * Enable the system proxy and make sure the proxy is added to the operating system:
-    * **Windows**: Select **Start**, then select the gear icon (**Settings**) at the far left. In Settings, select **Network & Internet**. In the left-hand pane, select **Proxy** at the bottom. Select **Manual Proxy Setup** > use a Proxy **(ON)**.
+    * **Windows** - Select **Start**, then select the gear icon (**Settings**) at the far left. In Settings, select **Network & Internet**. In the left-hand pane, select **Proxy** at the bottom. Select **Manual Proxy Setup** > use a Proxy **(ON)**.
 
-    * **Mac**: Open System Preferences and select **Network**. On the left-hand side, make sure to select the connected or active network connection. You can have different proxy settings for each type of network connection. At the bottom, select **Advanced**. Select the **Proxies** tab and you will see different protocols you can configure. If you select **Web Proxy (HTTP)**, you will be able to enter the proxy server IP address, port number, username, and password.
+    * **Mac** - Open System Preferences and select **Network**. On the left-hand side, make sure to select the connected or active network connection. You can have different proxy settings for each type of network connection. At the bottom, select **Advanced**. Select the **Proxies** tab and you will see different protocols you can configure. If you select **Web Proxy (HTTP)**, you will be able to enter the proxy server IP address, port number, username, and password.
 
-    * **Linux**: In System Settings, scroll down to **Hardware**, select **Networking**, and then select **Network Proxy**. You can choose **Automatic** or **Manual**.
+    * **Linux** - In System Settings, scroll down to **Hardware**, select **Networking**, and then select **Network Proxy**. You can choose **Automatic** or **Manual**.
 
 If you are unable to send any requests through Postman and your network doesn't require a proxy, take the following steps:
 
@@ -128,7 +128,7 @@ If you are unable to send any requests through Postman and your network doesn't 
     * Remove the environment variables `http_proxy`, `https_proxy`, `HTTP_PROXY`, and `HTTPS_PROXY`.
     * Start Postman with these "variables" turned off:
 
-        * **Windows**: Create a `postman.bat` file with the following contents:
+        * **Windows** - Create a `postman.bat` file with the following contents:
 
         ```shell
         set HTTP_PROXY=''
@@ -145,7 +145,7 @@ If you are unable to send any requests through Postman and your network doesn't 
 If your proxy has basic auth, take the following steps:
 
 * Start Postman with the appropriate environment variables:
-    * **Windows**: Create a `postman.bat` file with the following contents:
+    * **Windows** - Create a `postman.bat` file with the following contents:
 
     ```shell
     set HTTP_PROXY=http://USER:PASS@host:port
@@ -155,7 +155,7 @@ If your proxy has basic auth, take the following steps:
 
   Double-clicking this `.bat` file opens Postman without any of the proxy environment variables set.
 
-    * **Mac/Linux**: Create the `.sh` file with the following contents:
+    * **Mac/Linux** - Create the `.sh` file with the following contents:
 
     ```shell
     HTTP_PROXY=http://USER:PASS@host:port

@@ -61,8 +61,8 @@ Your new Postman profile will be visible to collaborators and anyone viewing res
 
 During the sign up process, you have the option to create or join a [team](/docs/collaborating-in-postman/collaboration-intro/):
 
-* **Joining a team.** If you are signing up with your company email and your company has a Postman account with team discovery enabled, you will see [teams you can join](/docs/collaborating-in-postman/collaboration-intro/#finding-teams-within-your-organization).
-* **Creating a team.** To create a team and optionally invite collaborators, select __Create new team__. Enter your team name and URL, then select __Continue__.
+* **Joining a team** - If you are signing up with your company email and your company has a Postman account with team discovery enabled, you will see [teams you can join](/docs/collaborating-in-postman/collaboration-intro/#finding-teams-within-your-organization).
+* **Creating a team** - To create a team and optionally invite collaborators, select __Create new team__. Enter your team name and URL, then select __Continue__.
 
 ## Signing into Postman
 

@@ -110,8 +110,8 @@ If you are the last member to leave your team, you will have the option to trans
 
 The Postman usage menu allows you to review your team's limits for APIs, shared requests and history, mocks, monitors, and public documentation.
 
-* **Free users**: Next to your avatar, select the menu to the right of **Upgrade**.
-* **Paid users**: Next to your avatar, select **Team**.
+* **Free users** - Next to your avatar, select the menu to the right of **Upgrade**.
+* **Paid users** - Next to your avatar, select **Team**.
 
 For more details and to view your usage period, select **Resource Usage**.
 
