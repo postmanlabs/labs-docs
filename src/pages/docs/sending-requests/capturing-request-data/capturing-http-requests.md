@@ -19,6 +19,9 @@ contextual_links:
   - type: subtitle
     name: "Blog Posts"
   - type: link
+    name: "Test Your Web Apps Using the Postman Proxy"
+    url: "https://blog.postman.com/testing-web-app-using-postman-proxy/"
+  - type: link
     name: "Capture Responses Using the Postman Proxy"
     url: "https://blog.postman.com/capture-responses-using-the-postman-proxy/"
   - type: link

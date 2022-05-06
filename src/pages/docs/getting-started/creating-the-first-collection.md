@@ -14,6 +14,9 @@ contextual_links:
   - type: subtitle
     name: "Videos"
   - type: link
+    name: "Create a Postman Collection | Postman Level Up"
+    url: "https://youtu.be/NlrPjuXEaZ8"
+  - type: link
     name: "Group Requests in Collections | Postman Level Up"
     url: "https://youtu.be/ghHX4FGvVyA"
   - type: subtitle
