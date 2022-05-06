@@ -91,14 +91,14 @@ To enable SCIM:
 1. Open [Postman](https://go.postman.co/home).
 1. Select **Team** in the upper right, then select **Team Settings**.
 1. Select **Authentication** in the sidebar.
+1. Select the **SCIM provisioning** toggle.
 
     <img alt="Enable SCIM in dashboard" src="https://assets.postman.com/postman-docs/auth-enable-scim-v9.jpg"/>
 
-1. Next to **SCIM provisioning**, select the toggle to turn on SCIM provisioning.
+1. Click **Turn On** to enable SCIM provisioning.
 
     <img alt="Enable SCIM in dashboard" src="https://assets.postman.com/postman-docs/turn-on-scim-provisioning-1.jpg" width="400px"/>
 
-1. Click **Turn On** to enable SCIM provisioning.
 
 ### Generating SCIM API key
 

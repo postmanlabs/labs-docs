@@ -115,7 +115,7 @@ If certificate verification fails when sending a request, Postman displays an er
 To fix the error, turn off SSL verification for the request:
 
 1. Open the request and select the **Settings** tab.
-1. Turn off the toggle next to **Enable SSL certificate verification**.
+1. Select **Enable SSL certificate verification** to turn off this setting.
 1. Send the request again.
 
 [![SSL certificate verification](https://assets.postman.com/postman-docs/certificates-ssl-verification-v9-14.jpg)](https://assets.postman.com/postman-docs/certificates-ssl-verification-v9-14.jpg)

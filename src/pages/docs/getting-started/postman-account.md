@@ -82,7 +82,7 @@ After you sign in, you will see a confirmation in your browser and you will be r
 
 ### Switching between accounts
 
-You can sign in to multiple accounts at the same time in Postman. Select your user avatar in the top right to toggle between accounts or select __Add a new account__ to sign in with another one.
+You can sign in to multiple accounts at the same time in Postman. Select your user avatar in the top right to switch between accounts or select __Add a new account__ to sign in with another one.
 
 ## Updating your account and profile settings
 
@@ -126,7 +126,7 @@ You can update your username at any time by navigating to your [profile settings
 
 #### Making your profile public
 
-Your Postman profile is visible to your Postman team, and you can choose to make your profile public to the Postman community. You can turn your public profile on or off at any time in your [profile settings](https://go.postman.co/settings/me/). Select your avatar in the upper-right corner > **Account Settings**. Select the toggle next to **Make profile public**, then **Update Profile**.
+Your Postman profile is visible to your Postman team, and you can choose to make your profile public to the Postman community. You can turn your public profile on or off at any time in your [profile settings](https://go.postman.co/settings/me/). Select your avatar in the upper-right corner > **Account Settings** > **Profile**. Select **Make profile public**, then select **Update Profile** to save your changes.
 
 ## Updating your notification preferences
 

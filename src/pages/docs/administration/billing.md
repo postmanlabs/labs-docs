@@ -86,7 +86,7 @@ In your [billing dashboard](http://go.postman.co/billing), select **Resource usa
 
 > Select **View detailed usage** next to **Monitoring Usage** to view your team's active monitors and their impact on your team's overall usage during the current billing period.
 
-You can opt to allow or disallow overages for mock server and monitor usage by selecting the toggle to the right of each item. If enabled, you will be charged on a pay-as-you-go basis.
+You can opt to allow or disallow overages for mock server and monitor usage by selecting **Pay-as-you-go** for each item. If enabled, you will be charged on a pay-as-you-go basis.
 
 You can also [Purchase Add-ons](#purchasing-add-ons).
 

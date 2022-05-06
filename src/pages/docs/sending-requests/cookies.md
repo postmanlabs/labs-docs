@@ -24,7 +24,7 @@ warning: false
 
 Postman's cookie manager enables you to view and edit cookies that are associated with different domains. You can manually create cookies for a domain, or you can [capture cookies](/docs/sending-requests/capturing-request-data/syncing-cookies/) using the Postman proxy or Postman Interceptor. You can then use the cookies stored in the cookie jar when sending requests in Postman.
 
-> To turn off sending cookies with a request, turn off the cookie jar toggle in the request's **Settings** tab.
+> To turn off sending cookies with a request, select the request's **Settings** tab, then select **Disable cookie jar**.
 
 ## Contents
 

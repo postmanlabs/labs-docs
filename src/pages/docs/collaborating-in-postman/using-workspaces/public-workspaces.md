@@ -59,7 +59,7 @@ To make your [team profile](https://go.postman.co/settings/team/general) public:
 
 1. In the upper-right corner of Postman next to your avatar, select **Team** > **Team settings**.
 1. Select **Team profile**.
-1. Select the toggle next to **Make team profile public** to set the profile to public.
+1. Select **Make team profile public** to set the profile to public.
 
 An informative and inviting public profile can help increase adoption of your API. Consider adding more information and assets to your team profile:
 
