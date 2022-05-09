@@ -169,25 +169,25 @@ Ensure that `<useRelayStateForIdpInitiatedSignOn enabled="true" />` has been add
 
 Starting values:
 
-* __RPID__: `https://identity-example.getpostman.com`
-* __Relay State__: `35ef7ab89gh99hh00`
+* **RPID** - `https://identity-example.getpostman.com`
+* **Relay State** - `35ef7ab89gh99hh00`
 
 > You are advised to use a trusted URL encoder to generate the encode values.
 
 URL encode each value.
 
-* __RPID__: `https%3A%2F%2Fidentity-example.getpostman.com`
-* __Relay State__: `35ef7ab89gh99hh00`
+* **RPID** - `https%3A%2F%2Fidentity-example.getpostman.com`
+* **Relay State** - `35ef7ab89gh99hh00`
 
 Merge the URL encoded values with the string below, and URL encode the whole string.
 
-* __String__: `RPID=<URL encoded RPID>&RelayState=<URL encoded RelayState>`
-* __String with values__: `RPID=https%3A%2F%2Fidentity-example.getpostman.com&RelayState=35ef7ab89gh99hh00`
-* __URL encoded string__: `RPID%3Dhttps%253A%252F%252Fidentity-example.getpostman.com%26RelayState%3D+35ef7ab89gh99hh00`
+* **String** - `RPID=<URL encoded RPID>&RelayState=<URL encoded RelayState>`
+* **String with values** - `RPID=https%3A%2F%2Fidentity-example.getpostman.com&RelayState=35ef7ab89gh99hh00`
+* **URL encoded string** - `RPID%3Dhttps%253A%252F%252Fidentity-example.getpostman.com%26RelayState%3D+35ef7ab89gh99hh00`
 
 Take the final string and append it to the IDP initiated sign-on URL.
 
 * An example IDP initiated sign-on URL would have the following structure: `https://adfs.contoso.com/adfs/ls/idpinitiatedsignon.aspx`
-* __Final URL__: `https://adfs.contoso.com/adfs/ls/idpinitiatedsignon.aspx?RelayState=RPID%3Dhttps%253A%252F%252Fidentity-example.getpostman.com%26RelayState%3D+35ef7ab89gh99hh00`
+* **Final URL** - `https://adfs.contoso.com/adfs/ls/idpinitiatedsignon.aspx?RelayState=RPID%3Dhttps%253A%252F%252Fidentity-example.getpostman.com%26RelayState%3D+35ef7ab89gh99hh00`
 
 The first time you sign in from Azure AD, go to the final URL in the browser. This sets the relay state and enables users to sign in with SSO in the future.

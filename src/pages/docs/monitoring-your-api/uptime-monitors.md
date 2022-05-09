@@ -43,10 +43,10 @@ Create a new uptime monitor to track the availability of a single API endpoint, 
 1. For **Monitor name**, enter a descriptive name that will help you identify the monitor later.
 1. Configure any optional details for the monitor:
 
-    * **Notification recipients:** Add up to five members of your Postman team to be notified when downtime occurs.
-    * **Run frequency:** Select how often the monitor checks the availability of the URL, up to every minute (paid plans) or every 15 minutes (free plans).
-    * **Regions:** Select one or more regions to run the monitor from (paid plans only). If downtime occurs in any selected region, a notification is sent. (For free plans, the region is automatically selected.)
-    * **Follow redirects:** Select this option to exclude redirects from being classified as service downtime.
+    * **Notification recipients** - Add up to five members of your Postman team to be notified when downtime occurs.
+    * **Run frequency** - Select how often the monitor checks the availability of the URL, up to every minute (paid plans) or every 15 minutes (free plans).
+    * **Regions** - Select one or more regions to run the monitor from (paid plans only). If downtime occurs in any selected region, a notification is sent. (For free plans, the region is automatically selected.)
+    * **Follow redirects** - Select this option to exclude redirects from being classified as service downtime.
 
 1. Select **Create Uptime Monitor**.
 
@@ -68,12 +68,12 @@ The dashboard also shows key statistics for the selected time period. You can vi
 
 The **Uptime** graph shows the status of the monitored endpoint URL during the selected time period:
 
-* **Up:** (Green) The URL is serving traffic and returning 2xx status codes within the expected response time (60 seconds or less).
-* **Down:** (Red) The URL is not serving traffic, is returning non-2xx status codes, or is exceeding the expected response time (more than 60 seconds).
+* **Up** - (Green) The URL is serving traffic and returning 2xx status codes within the expected response time (60 seconds or less).
+* **Down** - (Red) The URL is not serving traffic, is returning non-2xx status codes, or is exceeding the expected response time (more than 60 seconds).
 
     > If you selected the **Follow redirects** option when configuring the monitor, 3xx status codes are not considered as downtime.
 
-* **Unknown:** (Gray) Postman cannot determine the status of the URL because the monitor is paused, because the monitor didn't exist during the displayed time period, or for some other unexpected reason.
+* **Unknown** - (Gray) Postman cannot determine the status of the URL because the monitor is paused, because the monitor didn't exist during the displayed time period, or for some other unexpected reason.
 
 Select **Summary** to view combined data for all regions, or select **Region** to view data for each region separately.
 

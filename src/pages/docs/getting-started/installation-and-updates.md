@@ -229,13 +229,13 @@ Open the DevTools using __View__ &gt; __Developer__ &gt; __Show DevTools (Curren
 
 Some known errors are as follows:
 
-* __Error message:__ `Cannot update while running on a read-only volume`
+* **Error message** - `Cannot update while running on a read-only volume`
     * This error means that the app user doesn't have write permission in the directory where Postman is installed. To resolve the problem, move Postman to a directory where the user has write permissions, for example the `/Application` directory for Mac, and to the `home` directory for Linux.
 
-* __Error message:__ `Code signature at URL file:///... did not pass validation: code object is not signed at all`
+* **Error message** - `Code signature at URL file:///... did not pass validation: code object is not signed at all`
     * This error means that there are multiple updates running at the same time. This can happen when the app is opened before the previous update could finish. To resolve the problem, quit and reopen the app.
 
-* __Error message:__ `EACCES: permission denied, open '/opt/Postman/Postman-1620288011421.tar.gz`
+* **Error message** - `EACCES: permission denied, open '/opt/Postman/Postman-1620288011421.tar.gz`
     * This error means that the app user doesn't have write permission in the directory where Postman is installed. To resolve the problem, move Postman to a directory where the user has write permissions, for example the `home` directory for Linux.
 
 ### Update not available

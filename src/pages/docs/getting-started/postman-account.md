@@ -48,8 +48,8 @@ Before you sign up for a Postman account, either download and open the [desktop 
 
 You will see a prompt to sign in or sign up. Select __Create Account__. You can sign up using an email address or using your Google account:
 
-* **Email:** Enter your email and create a username and password. Check the box to agree to the __Terms of Use__, which you can view by selecting the link, and select __Create free account__. Postman will send you an email to confirm your account. Follow the instructions in the email to complete your account setup.
-* **Google account:** Select __Sign up with Google__ and follow the instructions.
+* **Email** - Enter your email and create a username and password. Check the box to agree to the __Terms of Use__, which you can view by selecting the link, and select __Create free account__. Postman will send you an email to confirm your account. Follow the instructions in the email to complete your account setup.
+* **Google account** - Select __Sign up with Google__ and follow the instructions.
 
 When you first sign up for a Postman account, you will be prompted to provide some information about yourself, including your name and your role, to help customize the app experience to your needs. Enter your details and select __Continue__.
 

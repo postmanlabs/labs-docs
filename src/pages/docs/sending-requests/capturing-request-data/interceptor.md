@@ -221,11 +221,8 @@ If you are unable to resolve an ``INTERNET_CONNECTIVITY`` error, you can manuall
         1. Confirm the `InterceptorBridge.exe` file exists at ``%USERPROFILE%\.postman\``.
         2. Check in this path `HKEY_CURRENT_USER\SOFTWARE\Google\Chrome\NativeMessagingHosts` that the manifest file ``com.postman.postmanapp.json`` exists with the correct extension ID ``aicmkgpgakddgnaphhhpliifpcfhicfo`` and the correct path ``%USERPROFILE%\.postman\`` to the executable file ``InterceptorBridge.exe``.
 
-**Note:**
-
-* To run the script depending on your OS, you may need to double-click or execute the installer script in a shell. Users on macOS or Windows may see a security warning. For example, to override the security on macOS, you may need to right-click the file and select **Open**.
-
-* If you have installed Postman with snap (on Linux machines), Interceptor will not connect and you must reinstall Postman outside of snap.
+> * To run the script depending on your OS, you may need to double-click or execute the installer script in a shell. Users on macOS or Windows may see a security warning. For example, to override the security on macOS, you may need to right-click the file and select **Open**.
+> * If you have installed Postman with snap (on Linux machines), Interceptor will not connect and you must reinstall Postman outside of snap.
 
 ## Security
 

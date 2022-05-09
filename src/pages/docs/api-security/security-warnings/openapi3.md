@@ -77,7 +77,7 @@ For all APIs defined in OpenAPI 3.0, the following list describes possible warni
 | ----------- | ----------- | ----------- |
 | Low | The OAuth2 scopes used in the global security field need to be defined in the security schemes field. Otherwise, an attacker can introduce their scopes to fill the gap and exploit the system. | Make sure that all the OAuth2 scopes used are defined in the OAuth2 security scheme. |
 
-**Resolution:**
+**Resolution**
 
 ```json
 security:
@@ -103,7 +103,7 @@ components:
 | ----------- | ----------- | ----------- |
 | Low | The OAuth2 scopes used in the  security field of the operation need to be defined in the security schemes field. Otherwise, an attacker can introduce their scopes to fill the gap and exploit the system. | Make sure that all the OAuth2 scopes used are defined in the OAuth2 security scheme. |
 
-**Resolution:**
+**Resolution**
 
 ```json
 paths:
@@ -136,7 +136,7 @@ components:
 | -------- | ----------------- | ------------ |
 | High | If the global security field isn't defined, the API doesn't require any authentication by default. Anyone can access the API operations that do not have a security field defined. | The security field needs to be defined in the schema. |
 
-**Resolution:**
+**Resolution**
 
 ```json
 openapi: 3.0.0
@@ -154,7 +154,7 @@ security:
 | -------- | ----------------- | ------------ |
 | High | If the security field contains an empty array, no security scheme is applied to the operations by default. | The security field needs to contain at least one item in the array. |
 
-**Resolution:**
+**Resolution**
 
 ```json
 openapi: 3.0.0
@@ -172,7 +172,7 @@ security:
 | -------- | ----------------- | ------------ |
 | High | An empty object in the security field deactivates the authentication completely. Without security fields defined for each operation, anyone can access the API operations without any authentication. | Security field array items can't contain an empty object. |
 
-**Resolution:**
+**Resolution**
 
 ```json
 openapi: 3.0.0
@@ -190,7 +190,7 @@ security:
 | ----------- | ----------- | ----------- |
 | High | The components object of the API doesn't declare any security schemes which can be used in the security field of the API or individual operations. | Security schemes need to be defined in the schema of the component. |
 
-**Resolution:**
+**Resolution**
 
 ```json
 components:
@@ -208,7 +208,7 @@ components:
 | ----------- | ----------- | ----------- |
 | High | An empty object in the reusable security schemes means that no authentication scheme is defined for each operation, anyone can access the API operations without any authentication. | Security schemes need to contain at least one item in the object. |
 
-**Resolution:**
+**Resolution**
 
 ```json
 components:
@@ -226,7 +226,7 @@ components:
 | ----------- | ----------- | ----------- |
 | Medium | The authentication scheme used in global or operation security field isn't defined in the security scheme object. | The scheme used in the security field needs to be defined in the security scheme object. |
 
-**Resolution:**
+**Resolution**
 
 ```json
 components:
@@ -247,7 +247,7 @@ security:
 | ----------- | ----------- | ----------- |
 | Medium | The name of the HTTP authentication scheme must be registered in the [IANA Authentication Scheme registry](https://www.iana.org/assignments/http-authschemes/http-authschemes.xhtml). | Make sure that the HTTP authentication scheme registered in the IANA Authentication Scheme registry is used. |
 
-**Resolution:**
+**Resolution**
 
 ```json
 servers:
@@ -272,7 +272,7 @@ security:
 | ----------- | ----------- | ----------- |
 | Medium | No security scheme is applied to the API operation by default. | The security field in any operation needs to contain at least one item in the array. |
 
-**Resolution:**
+**Resolution**
 
 ```json
 openapi: 3.0.0
@@ -302,7 +302,7 @@ components:
 | ----------- | ----------- | ----------- |
 | Medium | An empty object in the security field deactivates the authentication completely for the operation. Anyone can access the API operation without any authentication. | Specify at least one security requirement in the operation. |
 
-**Resolution:**
+**Resolution**
 
 ```json
 openapi: 3.0.0
@@ -332,7 +332,7 @@ components:
 | ----------- | ----------- | ----------- |
 | Medium |  If both the global security field and operation’s security field aren't defined, anyone can access the API without any authentication. | Define a security field in the operation. |
 
-**Resolution:**
+**Resolution**
 
 ```json
  openapi: 3.0.0
@@ -364,7 +364,7 @@ components:
 | ----------- | ----------- | ----------- |
 | High | The access tokens are sent as plain text over an unencrypted network. Attackers can intercept the access tokens by listening to the network traffic in a public Wi-Fi network. | Make sure that the server URL is a valid URL and uses HTTPS protocol. |
 
-**Resolution:**
+**Resolution**
 
 ```json
 servers:
@@ -417,7 +417,7 @@ paths:
 | ----------- | ----------- | ----------- |
 | High | The authentication tokens are sent as plain text over an unencrypted channel. Attackers can intercept the token by listening to the network traffic in a public Wi-Fi network. | Make sure that the server URL is a valid URL and uses HTTPS protocol. |
 
-**Resolution**:
+**Resolution**
 
 ```json
 servers:
@@ -442,7 +442,7 @@ security:
 | ----------- | ----------- | ----------- |
 | High | API keys are sent as plain text over an unencrypted channel. Attackers can intercept API key by listening to the network traffic in a public Wi-Fi network. | Make sure that the server URL is a valid URL and uses HTTPS protocol. |
 
-**Resolution**:
+**Resolution**
 
 ```json
 servers:
@@ -468,7 +468,7 @@ security:
 | ----------- | ----------- | ----------- |
 | High | The credentials are sent as plain text over an unencrypted network. Attackers can intercept the credentials by listening to the network traffic in a public Wi-Fi network. | Make sure that the server URL is a valid URL and uses HTTPS protocol. |
 
-**Resolution:**
+**Resolution**
 
 ```json
 servers:
@@ -491,7 +491,7 @@ security:
 | ----------- | ----------- | ----------- |
 | Medium | The server supports unencrypted HTTP connections, all requests and responses will be transmitted in the open. Anyone listening to the network traffic while the calls are being made can intercept them. | Make sure that the server URL is a valid URL and uses HTTPS protocol. |
 
-**Resolution:**
+**Resolution**
 
 ```json
 servers:
@@ -517,7 +517,7 @@ security:
 | ----------- | ----------- | ----------- |
 | Medium | The API operation accepts the access tokens from a flow that are transported in plain text over an unencrypted channel. Attackers can intercept API calls and retrieve the unencrypted tokens. They can then use the tokens to make other API calls. | Make sure that the server URL of the operation is a valid URL and uses HTTPS protocol. |
 
-**Resolution:**
+**Resolution**
 
 ```json
 components:
@@ -541,7 +541,7 @@ paths:
 | ----------- | ----------- | ----------- |
 | Medium | The credentials for an operation are sent as plain text over an unencrypted network. Attackers can intercept the access tokens by listening to the network traffic in a public Wi-Fi network. | Make sure that the server URL of the operation is a valid URL and uses HTTPS protocol. |
 
-**Resolution**:
+**Resolution**
 
 ```json
 components:
@@ -566,7 +566,7 @@ paths:
 | ----------- | ----------- | ----------- |
 | High | The API operation accepts the authorization tokens that are transported as plain text over an unencrypted channel. Attackers can intercept API calls and retrieve the unencrypted tokens to make other API calls. | Make sure that the server URL of the operation is a valid URL and uses HTTPS protocol. |
 
-**Resolution**:
+**Resolution**
 
 ```json
 paths:
@@ -594,7 +594,7 @@ security:
 | ----------- | ----------- | ----------- |
 | High | The API operation accepts API keys that are transported in plain text over an unencrypted channel. Attackers can intercept API calls and retrieve the API key to make other API calls. | Make sure that the server URL of the operation is a valid URL and uses HTTPS protocol. |
 
-**Resolution**:
+**Resolution**
 
 ```json
 paths:
@@ -623,7 +623,7 @@ security:
 | ----------- | ----------- | ----------- |
 | Medium | The API operation accepts the credentials that are transported in plain text over an unencrypted channel. Attackers can intercept API calls and retrieve the unencrypted tokens. They can then use the tokens to make other API calls. | Make sure that the server URL of the operation is a valid URL and uses HTTPS protocol. |
 
-**Resolution:**
+**Resolution**
 
 ```json
 components:
@@ -650,7 +650,7 @@ paths:
 | ----------- | ----------- | ----------- |
 | Medium | The API operation supports unencrypted HTTP connections, all requests and responses will be transmitted in the open. Anyone listening to the network traffic while the calls are being made can intercept them. | Make sure that the server URL of the operation is a valid URL and uses HTTPS protocol. |
 
-**Resolution:**
+**Resolution**
 
 ```json
 get:
@@ -667,7 +667,7 @@ get:
 | ----------- | ----------- | ----------- |
 | Medium | OAuth authorization credentials are transported over an unencrypted channel. Anyone listening to the network traffic while the calls are being made can intercept them. | Make sure that the authorization URL is a valid URL and follows HTTPS protocol. |
 
-**Resolution:**
+**Resolution**
 
 ```json
 components:
@@ -687,7 +687,7 @@ components:
 | ----------- | ----------- | ----------- |
 | Medium | OAuth authentication tokens are transported over an unencrypted channel. Anyone listening to the network traffic while the token is being sent can intercept it. | Make sure that the token URL is a valid URL and follows HTTPS protocol. |
 
-**Resolution:**
+**Resolution**
 
 ```json
 components:
@@ -707,7 +707,7 @@ components:
 | ----------- | ----------- | ----------- |
 | Medium | OAuth authentication refresh tokens are transported over an unencrypted channel. Anyone listening to the network traffic while the token is being sent can intercept it. | Make sure that the refresh URL is a valid URL and follows HTTPS protocol. |
 
-**Resolution:**
+**Resolution**
 
 ```json
 components:
@@ -732,7 +732,7 @@ components:
 | ----------- | ----------- | ----------- |
 | Medium | OpenID Connect access tokens & open Ids are transported over an unencrypted channel. Anyone listening to the network traffic while the calls are being made can intercept them. | Make sure that the openID connect URL is a valid URL and follows HTTPS protocol. |
 
-**Resolution:**
+**Resolution**
 
 ```json
 components:
@@ -755,7 +755,7 @@ security:
 | ----------- | ----------- | ----------- |
 | Low | Security scheme uses OAuth 1.0 authentication which has been deprecated and replaced by OAuth 2.0. | Make sure that the security scheme isn't using the deprecated OAuth 1.0 authentication. |
 
-**Resolution:**
+**Resolution**
 
 ```json
 components:
@@ -779,7 +779,7 @@ components:
 | ----------- | ----------- | ----------- |
 | Medium | In OAuth implicit flow, authorization server issues access tokens in the authorization request’s response. Attackers can intercept API calls and retrieve the access tokens to make other API calls. | It's recommended to use authorizationCode flow. Make sure that the OAuth authentication scheme isn't using the implicit flow. |
 
-**Resolution:**
+**Resolution**
 
 ```json
 components:
@@ -803,7 +803,7 @@ components:
 | ----------- | ----------- | ----------- |
 | Medium | Oauth password grant flow uses the user’s credentials to retrieve the access token. Attackers can intercept API calls and retrieve the access tokens to make other API calls. | It's recommended to use authorizationCode flow. Make sure that the OAuth authentication scheme isn't using the password grant flow. |
 
-**Resolution:**
+**Resolution**
 
 ```json
 components:

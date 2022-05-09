@@ -78,7 +78,7 @@ For all APIs defined in OpenAPI 2.0, the following list describes possible warni
 | ----------- | ----------- | ----------- |
 | Low | The OAuth2 scopes used in the global security field need to be defined in the security schemes field. Otherwise, an attacker can introduce their scopes to fill the gap and exploit the system. | Make sure that all the OAuth2 scopes used are defined in the OAuth2 security scheme. |
 
-**Resolution:**
+**Resolution**
 
 ```json
 swagger: '2.0'
@@ -106,7 +106,7 @@ securityDefinitions:
 | ----------- | ----------- | ----------- |
 | Low | The OAuth2 scopes used in the  security field of the operation need to be defined in the security schemes field. Otherwise, an attacker can introduce their scopes to fill the gap and exploit the system. | Make sure that all the OAuth2 scopes used are defined in the OAuth2 security scheme. |
 
-**Resolution:**
+**Resolution**
 
 ```json
 swagger: '2.0'
@@ -141,7 +141,7 @@ securityDefinitions:
 | -------- | ----------------- | ------------ |
 | High | If the global security field isn't defined, the API doesn't require any authentication by default. Anyone can access the API operations that do not have a security field defined. | The security field needs to be defined in the schema. |
 
-**Resolution:**
+**Resolution**
 
 ```json
 swagger: '2.0'
@@ -161,7 +161,7 @@ security:
 | -------- | ----------------- | ------------ |
 | High | If the security field contains an empty array, no security scheme is applied to the operations by default. | The security field needs to contain at least one item in the array. |
 
-**Resolution:**
+**Resolution**
 
 ```json
 swagger: '2.0'
@@ -181,7 +181,7 @@ security:
 | -------- | ----------------- | ------------ |
 | High | An empty object in the security field deactivates the authentication completely. Without security fields defined for each operation, anyone can access the API operations without any authentication. | Security field array items can't contain an empty object. |
 
-**Resolution:**
+**Resolution**
 
 ```json
 swagger: '2.0'
@@ -201,7 +201,7 @@ security:
 | ----------- | ----------- | ----------- |
 | High | The components object of the API doesn't declare any security definitions which can be used in the security field of the API or individual operations. | Security definitions need to be defined in the schema of the component. |
 
-**Resolution:**
+**Resolution**
 
 ```json
 swagger: '2.0'
@@ -219,7 +219,7 @@ securityDefinitions:
 | ----------- | ----------- | ----------- |
 | High | An empty object in the reusable security definition means that no authentication scheme is defined for each operation, anyone can access the API operations without any authentication. | Security definitions need to contain at least one item in the object. |
 
-**Resolution:**
+**Resolution**
 
 ```json
 swagger: '2.0'
@@ -237,7 +237,7 @@ securityDefinitions:
 | ----------- | ----------- | ----------- |
 | Medium | The authentication scheme used in global or operation security field isn't defined in the security definition object. | The scheme used in the security field needs to be defined in the security definition object. |
 
-**Resolution:**
+**Resolution**
 
 ```json
 swagger: '2.0'
@@ -257,7 +257,7 @@ security:
 | ----------- | ----------- | ----------- |
 | Medium | No security scheme is applied to the API operation by default. | The security field in any operation needs to contain at least one item in the array. |
 
-**Resolution:**
+**Resolution**
 
 ```json
 swagger: '2.0'
@@ -282,7 +282,7 @@ securityDefinitions:
 | ----------- | ----------- | ----------- |
 | Medium | An empty object in the security field deactivates the authentication completely for the operation. Anyone can access the API operation without any authentication. | Specify at least one security requirement in the operation. |
 
-**Resolution:**
+**Resolution**
 
 ```json
 swagger: '2.0'
@@ -307,7 +307,7 @@ securityDefinitions:
 | ----------- | ----------- | ----------- |
 | Medium |  If both the global security field and operation’s security field aren't defined, anyone can access the API without any authentication. | Define a security field in the operation. |
 
-**Resolution:**
+**Resolution**
 
 ```json
 swagger: '2.0'
@@ -334,7 +334,7 @@ securityDefinitions:
 | ----------- | ----------- | ----------- |
 | High | The access tokens are sent as plain text over an unencrypted network. Attackers can intercept the access tokens by listening to the network traffic in a public Wi-Fi network. | Make sure that the scheme used in the schemes array is HTTPS. |
 
-**Resolution:**
+**Resolution**
 
 ```json
 swagger: '2.0'
@@ -360,7 +360,7 @@ security:
 | ----------- | ----------- | ----------- |
 | High | API keys are sent as plain text over an unencrypted channel. Attackers can intercept API key by listening to the network traffic in a public Wi-Fi network. | Make sure that the scheme used in the scheme array is HTTPS. |
 
-**Resolution**:
+**Resolution**
 
 ```json
 swagger: '2.0'
@@ -385,7 +385,7 @@ security:
 | ----------- | ----------- | ----------- |
 | High | The credentials are sent as plain text over an unencrypted network. Attackers can intercept the credentials by listening to the network traffic in a public Wi-Fi network. | Make sure that the scheme used in the scheme array is HTTPS. |
 
-**Resolution:**
+**Resolution**
 
 ```json
 swagger: '2.0'
@@ -408,7 +408,7 @@ security:
 | ----------- | ----------- | ----------- |
 | Medium | The server supports unencrypted HTTP connections, all requests and responses will be transmitted in the open. Anyone listening to the network traffic while the calls are being made can intercept them. | Make sure that the scheme used in the scheme array is HTTPS. |
 
-**Resolution:**
+**Resolution**
 
 ```json
 swagger: '2.0'
@@ -427,7 +427,7 @@ schemes:
 | ----------- | ----------- | ----------- |
 | Medium | The API operation accepts the access tokens from a flow that are transported in plain text over an unencrypted channel. Attackers can intercept API calls and retrieve the unencrypted tokens. They can then use the tokens to make other API calls. | Make sure that the scheme used in the scheme array of the operation is HTTPS.|
 
-**Resolution:**
+**Resolution**
 
 ```json
 swagger: '2.0'
@@ -458,7 +458,7 @@ securityDefinitions:
 | ----------- | ----------- | ----------- |
 | High | The API operation accepts API keys that are transported in plain text over an unencrypted channel. Attackers can intercept API calls and retrieve the API key to make other API calls. | Make sure that the scheme used in the scheme array of the operation is HTTPS. |
 
-**Resolution**:
+**Resolution**
 
 ```json
 swagger: '2.0'
@@ -488,7 +488,7 @@ securityDefinitions:
 | ----------- | ----------- | ----------- |
 | Medium | The API operation accepts the credentials that are transported in plain text over an unencrypted channel. Attackers can intercept API calls and retrieve the unencrypted tokens. They can then use the tokens to make other API calls. | Make sure that the scheme used in the scheme array of the operation is HTTPS. |
 
-**Resolution:**
+**Resolution**
 
 ```json
 swagger: '2.0'
@@ -516,7 +516,7 @@ securityDefinitions:
 | ----------- | ----------- | ----------- |
 | Medium | The API operation supports unencrypted HTTP connections, all requests and responses will be transmitted in the open. Anyone listening to the network traffic while the calls are being made can intercept them. | Make sure that the scheme used in the scheme array of the operation is HTTPS. |
 
-**Resolution:**
+**Resolution**
 
 ```json
 swagger: '2.0'
@@ -539,7 +539,7 @@ paths:
 | ----------- | ----------- | ----------- |
 | Medium | OAuth authorization credentials are transported over an unencrypted channel. Anyone listening to the network traffic while the calls are being made can intercept them. | Make sure that the authorization URL is a valid URL and follows HTTPS protocol. |
 
-**Resolution:**
+**Resolution**
 
 ```json
 swagger: '2.0'
@@ -560,7 +560,7 @@ securityDefinitions:
 | ----------- | ----------- | ----------- |
 | Medium | OAuth authentication tokens are transported over an unencrypted channel. Anyone listening to the network traffic while the token is being sent can intercept it. | Make sure that the token URL is a valid URL and follows HTTPS protocol. |
 
-**Resolution:**
+**Resolution**
 
 ```json
 swagger: '2.0'
@@ -581,7 +581,7 @@ securityDefinitions:
 | ----------- | ----------- | ----------- |
 | High | If the global `produces` field isn't defined, the API could potentially return any form of data.  | The `produces` field needs to be defined in the schema.|
 
-**Resolution:**
+**Resolution**
 
 ```json
 swagger: '2.0'
@@ -600,7 +600,7 @@ produces:
 | ----------- | ----------- | ----------- |
 | High | If the `produces` field contains an empty array, the API can return any type of data by default. | The global `produces` field needs to contain at least one item with a valid MIME type in the array. |
 
-**Resolution:**
+**Resolution**
 
 ```json
 swagger: '2.0'
@@ -618,7 +618,7 @@ produces:
 | ----------- | ----------- | ----------- |
 | High | No `produces` field in the operation means that API can return any type of data by default.| The `produces` field in any operation needs to contain at least one item in the array.|
 
-**Resolution:**
+**Resolution**
 
 ```json
 swagger: '2.0'
@@ -637,7 +637,7 @@ paths:
 | ----------- | ----------- | ----------- |
 | Medium | If both the global `produces` field and operation’s `produces` field for any operation aren't defined, anyone can exploit your API. | Define a `produces` field in the operation if not defined at the global level.|
 
-**Resolution:**
+**Resolution**
 
 ```json
 swagger: '2.0'
@@ -660,7 +660,7 @@ paths:
 | ----------- | ----------- | ----------- |
 | High | If the global `consumes` field isn't defined, the API could potentially accept any form of data as input. This could open your API to any number of potential attacks, like buffer overflow, decoding errors, or SQL injection attacks. | The `consumes` field needs to be defined in the schema. |
 
-**Resolution:**
+**Resolution**
 
 ```json
 swagger: '2.0'
@@ -677,7 +677,7 @@ consumes:
 | ----------- | ----------- | ----------- |
 | High   | If the `consumes` field contains an empty array, the API can accept any type of input by default. | The global `consumes` field needs to contain at least one item with valid MIME type in the array.  |
 
-**Resolution:**
+**Resolution**
 
 ```json
 swagger: '2.0'
@@ -695,7 +695,7 @@ consumes:
 | ----------- | ----------- | ----------- |
 | High | No `consumes` field in the operation means that API can accept any type of input by default. | The `consumes` field in `PUT`/`PATCH`/`POST` operations needs to contain at least one item in the array. |
 
-**Resolution:**
+**Resolution**
 
 ```json
 swagger: '2.0'
@@ -714,7 +714,7 @@ paths:
 | ----------- | ----------- | ----------- |
 | Medium | If both the global `consumes` field and operation’s `consumes` field (for `PUT`/`PATCH`/`POST`) aren't defined, anyone can exploit your API. | Define a `consumes` field in the operation if not defined at the global level. |
 
-**Resolution:**
+**Resolution**
 
 ```json
 swagger: '2.0'
@@ -737,7 +737,7 @@ paths:
 | ----------- | ----------- | ----------- |
 | Medium | In OAuth implicit flow, authorization server issues access tokens in the authorization request’s response. Attackers can intercept API calls and retrieve the access tokens to make other API calls. | It's recommended to use accessCode flow. Make sure that the OAuth authentication scheme isn't using the implicit flow. |
 
-**Resolution:**
+**Resolution**
 
 ```json
 swagger: '2.0'
@@ -761,7 +761,7 @@ securityDefinitions:
 | ----------- | ----------- | ----------- |
 | Medium | Oauth password grant flow uses the user’s credentials to retrieve the access token. Attackers can intercept API calls and retrieve the access tokens to make other API calls. | It's recommended to use accessCode flow. Make sure that the OAuth authentication scheme isn't using the password flow. |
 
-**Resolution:**
+**Resolution**
 
 ```json
 swagger: '2.0'

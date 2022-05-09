@@ -108,7 +108,7 @@ You can select the option "**Use the system proxy**" to turn the system proxy on
 
 [![Use system proxy](https://assets.postman.com/postman-docs/use-system-proxy.jpg)](https://assets.postman.com/postman-docs/use-system-proxy.jpg)
 
-**Note:** If the **Use System Proxy** and the **Custom Proxy Configuration** are both turned on, then the **Custom Proxy Configuration** will take precedence.
+If the **Use System Proxy** and the **Custom Proxy Configuration** are both turned on, then the **Custom Proxy Configuration** will take precedence.
 
 ### Troubleshooting proxy configurations
 
