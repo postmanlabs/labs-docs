@@ -69,13 +69,13 @@ Make sure you're signed in to your Postman account, and that you have a collecti
 
 Your embed code will include your collection's ID. In the examples below, **:collection_id** is a placeholder for that ID and **:collection_url** is a placeholder for url. If you choose to include an environment in your button, the code will also have the environment parameter.
 
-**Sample markdown snippet**
+### Sample markdown snippet
 
 ```markdown
 [![Run in Postman](https://run.pstmn.io/button.svg)](https://god.gw.postman.com/run-collection/:collection_id)
 ```
 
-**Sample HTML snippet**
+### Sample HTML snippet
 
 ```html
 <div class="postman-run-button"
