@@ -46,9 +46,9 @@ Everyone in your team is a member. Each member has certain roles, which allow th
 
 An admin can modify the roles of other team members individually by selecting **Team** in the upper right > [**Manage Team**](https://go.postman.co/settings/team/members).
 
-An admin can manage which team members have **Admin** and **Developer** roles. If you are on a [Postman Professional or Enterprise](https://www.postman.com/pricing) plan, an admin will also have the option of assigning a **Community Manager**. If you are on a Postman Enterprise plan, an admin will additionally have the option to assign the **Super Admin** role.
+An admin can manage which team members have Admin and Developer roles. If you are on a [Postman Professional or Enterprise](https://www.postman.com/pricing) plan, an admin will also have the option of assigning a Community Manager. If you are on a Postman Enterprise plan, an admin will additionally have the option to assign the Super Admin role.
 
-Only a team member with the billing role can grant the **Billing** role to or remove it from other team members.
+Only a team member with the Billing role can grant the Billing role to, or remove it from, other team members.
 
 Under **Members**, select the roles next to the user you would like to update. Select the roles you would like to assign or unassign, then **Update Roles** to confirm your changes.
 
@@ -56,7 +56,7 @@ Under **Members**, select the roles next to the user you would like to update. S
 
 Each team member must have a minimum of one role assigned to them.
 
-Teams may have two support accounts at no additional cost. Support accounts are defined as members with only admin or billing roles.
+Teams may have two support accounts at no additional cost. Support accounts are defined as members with only Admin or Billing roles.
 
 > Roles can also be assigned via [groups](/docs/administration/managing-your-team/user-groups/).
 

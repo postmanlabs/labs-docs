@@ -155,7 +155,7 @@ pm.environment.get("variable_key");
 
 You can edit variables either by opening an environment from __Environments__ on the left, or by opening the environment quick look icon <img alt="Quick Look icon" src="https://assets.postman.com/postman-docs/eye.jpg#icon" width="16px"> at the top right of Postman and selecting __Edit__.
 
-> You will only be able to edit environments where you have [editor access](#requesting-environment-access).
+> You will only be able to edit environments where you have [Editor access](#requesting-environment-access).
 
 [![Edit environment](https://assets.postman.com/postman-docs/environment-editor-new-v9.13.jpg)](https://assets.postman.com/postman-docs/environment-editor-new-v9.13.jpg)
 

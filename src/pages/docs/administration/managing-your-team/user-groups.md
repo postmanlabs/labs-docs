@@ -51,7 +51,7 @@ Under **Members and groups**, select **Groups** > **Create Group**.
 
 Give your group a name and description, add your team members, and select the team roles you would like to assign to the group, then **Create Group**.
 
-> You must have the billing role yourself to assign the billing role to others.
+> You must have the Billing role yourself to assign the Billing role to others.
 
 <img alt="Create a group form" src="https://assets.postman.com/postman-docs/create-a-group-9.5.jpg" width="500px"/>
 

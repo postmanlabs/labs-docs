@@ -124,7 +124,7 @@ The following roles control access at a workspace level:
 | Manage workspace roles | &#x2714; | | |
 | Manage workspace visibility | &#x2714;&ast; | | |
 
-&ast; On Professional and Enterprise plans, workspace admins must request to change a workspace's visibility to public. This request will go to the [Community Manager](#team-roles). On Basic and Free plans, or if a team has no Community Manager assigned, workspace admins can control visibility.
+&ast; On Professional and Enterprise plans, an Admin for a workspace must request to change its visibility to public. This request will go to the [Community Manager](#team-roles). On Basic and Free plans, or if a team has no Community Manager assigned, an Admin for a workspace can control its visibility.
 
 ## Element-based roles
 

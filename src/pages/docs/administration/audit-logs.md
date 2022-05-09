@@ -21,7 +21,7 @@ Audit logs display events related to your team, users, and billing. Team admins 
 
 Postman provides audit logs for 90 days for users with Professional plans, and 180 days for users with Enterprise plans.
 
-> Audit logs are visible to all [team admins](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) on [Postman Professional and Enterprise plans](https://www.postman.com/pricing), including super admins on Enterprise teams.
+> Audit logs are visible to all [team admins](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) on [Postman Professional and Enterprise plans](https://www.postman.com/pricing), including Super Admins on Enterprise teams.
 
 ## Contents
 
