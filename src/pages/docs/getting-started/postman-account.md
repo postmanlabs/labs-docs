@@ -74,7 +74,7 @@ When you sign in using the Postman desktop app, the app will open a new screen t
 
 Sign into Postman in your browser by entering your account credentials or signing in with Google. If you are on a Postman Professional or Enterprise plan, opt to **Sign in with SSO**.
 
-Select **Stay signed in for 30 days** if you want to remain signed in after your current session for 30 minutes before re-authenticating. If you don't want to remain signed in on the computer you are working on, clear the checkbox to turn this option off. Note that you will be prompted to sign in again after 30 minutes.
+Select **Stay signed in for 30 days** if you want to remain signed in after your current session for 30 days before re-authenticating. If you don't want to remain signed in on the computer you are working on, clear this checkbox. Note that you will be prompted to sign in again after 30 minutes.
 
 After you sign in, you will see a confirmation in your browser and you will be redirected back to the Postman desktop app.
 
