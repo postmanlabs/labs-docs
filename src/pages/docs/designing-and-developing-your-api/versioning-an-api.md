@@ -23,9 +23,6 @@ contextual_links:
     name: "Redefining API Management for the API-First World"
     url: "https://blog.postman.com/new-postman-api-platform-redefining-api-management-for-api-first-world"
   - type: link
-    name: "Create APIs directly within the Postman app"
-    url: "https://blog.postman.com/postman-7-1-create-apis-directly-within-the-postman-app/"
-  - type: link
     name: "Streamline the API Development Lifecycle with Postman Version Control"
     url: "https://blog.postman.com/streamline-api-development-lifecycle-with-postman-version-control/"
   - type: link

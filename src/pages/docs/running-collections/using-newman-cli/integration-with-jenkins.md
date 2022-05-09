@@ -18,9 +18,6 @@ contextual_links:
   - type: subtitle
     name: "Blog Posts"
   - type: link
-    name: "How to write powerful automated API tests with Postman, Newman and Jenkins"
-    url: "https://blog.postman.com/how-to-write-powerful-automated-api-tests-with-postman-newman-and-jenkins/"
-  - type: link
     name: "Integrations: how Postman plays with some of your favorite tools"
     url: "https://blog.postman.com/integrations-how-postman-plays-with-some-of-your-favorite-tools/"
   - type: section
@@ -95,7 +92,7 @@ After you've created the collection, [export it as a JSON file](/docs/getting-st
 
 1. Select the build in the history list, then select **Console Output** to see what Newman returned.
 
-1. Fix these tests inside your collection. Export it and then try again.
+1. Fix these tests inside your collection. Export it and then run the build again.
 
 Jenkins indicates that the build succeeded with a green checkmark.
 

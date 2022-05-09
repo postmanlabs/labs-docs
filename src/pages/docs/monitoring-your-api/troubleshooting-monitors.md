@@ -19,7 +19,7 @@ contextual_links:
 warning: false
 ---
 
-If you encounter a problem with a collection-based monitor, try the following steps to identify and resolve the issue.
+If you encounter a problem with a collection-based monitor, the following troubleshooting steps may help you identify and resolve the issue.
 
 ## Viewing failed monitors
 

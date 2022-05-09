@@ -20,11 +20,9 @@ contextual_links:
   - type: link
     name: "Mock Servers | The Exploratory"
     url: "https://youtu.be/n_7UUghLpco"
-  - type: subtitle
-    name: "Blog Posts"
   - type: link
-    name: "Mock responses in Postman by using Examples"
-    url: "https://blog.postman.com/mock-responses-in-postman-by-using-examples/"
+    name: "Dynamic Mock Behavior | Postman Level Up"
+    url: "https://youtu.be/av7SZo9sZAE"
   - type: section
     name: "Next Steps"
   - type: link
@@ -106,7 +104,7 @@ When you're done configuring the mock server, select **Create Mock Server**. You
 
 ### Step 5: Send a request to the mock server
 
-Now that you've created the mock server `M1`, you can try sending a request to the mock endpoint.
+Now that you've created the mock server `M1`, you can send a request to the mock endpoint.
 
 First, copy the mock server URL. Select **Mock Servers** in the sidebar, select the `M1` mock server, and then select **Copy Mock URL**.
 
@@ -124,7 +122,7 @@ You do, however, have a saved example with the path `/get` and the request metho
 
 ### Step 6: Add another example
 
-To further demonstrate how responses from the mock service are entirely dependent on your saved examples, try adding another example to the `C1` collection. Repeat steps 1 to 3 above to save a request to the collection and then save the response as an example `E2`, this time using the request URL `https://postman-echo.com/test`.
+To further demonstrate how responses from the mock service are entirely dependent on your saved examples, add another example to the `C1` collection. Repeat steps 1 to 3 above to save a request to the collection and then save the response as an example `E2`, this time using the request URL `https://postman-echo.com/test`.
 
 <img alt="Add a second example" src="https://assets.postman.com/postman-docs/mock-examples-step6a-v9-1.jpg" width="808px">
 
@@ -137,7 +135,7 @@ Finally, repeat step 5 above, but this time add the path `/test` to the end of t
 
 <img alt="Send another request to the mock server" src="https://assets.postman.com/postman-docs/mock-examples-step6b-v9-1.jpg" width="808px">
 
-> **Your examples can vary depending on the URL endpoint, request method, or status code.** If you have multiple examples, you can choose to save each example under a unique endpoint URL, like you saw in this demonstration with `/get` and `/test`. If you have saved examples with different response status codes, you can send an authenticated request to the mock server along with the `x-mock-response-code` header specifying which integer response code your returned response should match.
+> **Your examples can vary depending on the URL endpoint, request method, or status code.** If you have multiple examples, you can choose to save each example under a unique endpoint URL, like you saw in this demonstration with `/get` and `/test`. If you have saved examples with different response status codes, you can send an authenticated request to the mock server along with the `x-mock-response-code` header specifying which integer response code your returned response needs to match.
 
 ## Generating random data with dynamic variables
 

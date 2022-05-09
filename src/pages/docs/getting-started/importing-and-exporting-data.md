@@ -20,20 +20,8 @@ contextual_links:
   - type: subtitle
     name: "Blog Posts"
   - type: link
-    name: "Sync your specs"
-    url: "https://blog.postman.com/sync-your-specs/"
-  - type: link
-    name: "Importing SoapUI projects into Postman"
-    url: "https://blog.postman.com/importing-soapui-projects-into-postman/"
-  - type: link
-    name: "Importing RAML folders into Postman"
-    url: "https://blog.postman.com/supporting-raml-folders-in-postman/"
-  - type: link
-    name: "Introducing Postman Collection Format Schema"
-    url: "https://blog.postman.com/introducing-postman-collection-format-schema/"
-  - type: link
-    name: "Travelogue of Postman Collections Format v2"
-    url: "https://blog.postman.com/travelogue-of-postman-collection-format-v2/"
+    name: "Latest Updates to Syncing Your Specs with Collections"
+    url: "https://blog.postman.com/latest-updates-to-syncing-your-specs-with-collections/"
   - type: link
     name: "Postman Supports WSDL"
     url: "https://blog.postman.com/postman-now-supports-wsdl/"
@@ -58,7 +46,9 @@ Postman can import and export Postman data, including collections, environments,
 
     * [Importing API specifications](#importing-api-specifications)
 
-    * [Importing via GitHub repositories](#importing-via-github-repositories)
+    * [Importing from GitHub repositories](#importing-from-github-repositories)
+
+    * [Importing from Bitbucket repositories](#importing-from-bitbucket-repositories)
 
 * [Exporting Postman data](#exporting-postman-data)
 
@@ -93,7 +83,7 @@ You can import Postman data you exported earlier, including collections, environ
 
 ### Converting Postman collections from v1 to v2
 
-Postman no longer supports the collection v1 format and will return an error if you try to import a collection in this format.
+Postman no longer supports the collection v1 format and will return an error if you import a collection in this format.
 
 You can convert your collection's format from v1 to v2 to import it into Postman:
 
@@ -121,38 +111,9 @@ See the [Postman Collection Transformer](https://github.com/postmanlabs/postman-
 
 ### Importing API specifications
 
-Postman directly supports importing the following formats:
+To import your API specifications into Postman, see [Importing an API](/docs/designing-and-developing-your-api/importing-an-api/).
 
-* [OpenAPI 3.0 and 3.1](https://github.com/postmanlabs/openapi-to-postman)
-* Swagger [1.2](https://github.com/postmanlabs/swagger1-to-postman) and [2.0](https://github.com/postmanlabs/swagger2-postman2-lambda)
-* [GraphQL](https://github.com/postmanlabs/graphql-to-postman)
-* [cURL](https://github.com/postmanlabs/curl-to-postman)
-* RAML [0.8](https://github.com/postmanlabs/raml-to-postman) and [1.0](https://github.com/postmanlabs/raml1-to-postman)
-* [WSDL 1.1 and 2.0](https://github.com/postmanlabs/wsdl-to-postman)
-* [HTTP Archive (HAR)](https://github.com/postmanlabs/har-to-postman)
-* Web Application Description Language (WADL)
-
-There are also tools on GitHub to convert different specifications into a Postman collection for import:
-
-* [`runscope-to-postman`](https://github.com/postmanlabs/runscope-to-postman)
-
-* [`DHC-to-postman`](https://github.com/postmanlabs/dhc-to-postman)
-
-To import your API specifications into Postman:
-
-1. Select **Import** in the left navigation menu.
-1. Select a file or folder, input a link to the API, or paste your raw text. Confirm the name, format, and what you would like your data to import as.
-1. Select **Import** to bring your data into Postman.
-
-> You can configure your **Import Settings**, which will differ depending on your API specification.
-
-You can import several API specification files at once. Select the workspace you'd like to import the APIs into, choose whether you want to generate collections from the APIs, configure the details, and select **Import**.
-
-When importing into a team workspace, you can also choose to add the APIs to the [Private API Network](/docs/collaborating-in-postman/adding-private-network/).
-
-[![Import several APIs](https://assets.postman.com/postman-docs/import-export-publish-to-private-api-network-22.jpg)](https://assets.postman.com/postman-docs/import-export-publish-to-private-api-network-22.jpg)
-
-### Importing via GitHub repositories
+## Importing from GitHub repositories
 
 > You must sign in to a [Postman account](/docs/getting-started/postman-account/#signing-up-for-a-postman-account) to use this feature.
 
@@ -164,13 +125,13 @@ You can import data in bulk from a GitHub repository.
 
 1. In Postman, select your GitHub organization, repository, and branch, then select **Continue**.
 
-1. Confirm the files you would like to import into Postman. You can also select **Generate collection from imported APIs** and select what you would like to link this collection as. Select **Show advanced settings** to control how Postman should generate collections based on your file types, then select **Import**.
+1. Confirm the files you would like to import into Postman. You can also select **Generate collection from imported APIs** and select what you would like to link this collection as. Select **Show advanced settings** to control how Postman generates collections based on your file types, then select **Import**.
 
    ![Confirm import from github](https://assets.postman.com/postman-docs/import-export-github-files-confirm.jpg)
 
 You will receive a confirmation once the import has completed. You can now view your newly imported files and generated collections in Postman.
 
-### Importing via Bitbucket repositories
+## Importing from Bitbucket repositories
 
 > You must sign in to a [Postman account](/docs/getting-started/postman-account/#signing-up-for-a-postman-account) to use this feature.
 

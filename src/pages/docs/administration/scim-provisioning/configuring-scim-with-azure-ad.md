@@ -6,12 +6,17 @@ page_id: "configuring_scim_with_azure_ad"
 warning: false
 contextual_links:
   - type: section
+    name: "Prerequisites"
+  - type: link
+    name: "Configuring SSO with Azure AD"
+    url: "/docs/administration/sso/azure-ad/"
+  - type: section
     name: "Additional Resources"
   - type: subtitle
     name: "Blog Posts"
   - type: link
-    name: "Introducing User Management in Postman with SCIM"
-    url: "https://blog.postman.com/introducing-user-management-in-postman-with-scim/"
+    name: "Introducing User Management in Postman via Azure AD SCIM"
+    url: "https://blog.postman.com/introducing-user-management-postman-azure-ad-scim/"
 ---
 
 Postman supports SCIM provisioning through Microsoft Azure AD, allowing you to automate user provisioning and de-provisioning for your team.

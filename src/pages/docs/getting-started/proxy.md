@@ -15,9 +15,6 @@ contextual_links:
   - type: subtitle
     name: "Blog Posts"
   - type: link
-    name: "Client proxy settings in Postman"
-    url: "https://blog.postman.com/client-proxy-settings-in-postman/"
-  - type: link
     name: "Capture Responses Using the Postman Proxy"
     url: "https://blog.postman.com/capture-responses-using-the-postman-proxy/"
 
@@ -156,7 +153,7 @@ If your proxy has basic auth, take the following steps:
     start C:\path\to\Postman.exe
     ```
 
-  Double-clicking this `.bat` file should open Postman without any of the proxy environment variables set.
+  Double-clicking this `.bat` file opens Postman without any of the proxy environment variables set.
 
     * **Mac/Linux**: Create the `.sh` file with the following contents:
 

@@ -53,7 +53,7 @@ _Workspace as an entity_ represents a whole container where being an admin gives
 
 ## Creating a new workspace
 
-To create a new workspace, select the workspace dropdown menu at the left of Postman, and select **Create Workspace**.
+To create a new workspace, select **Workspaces** in the header, then select **Create Workspace**.
 
 <img alt="Create new workspace" src="https://assets.postman.com/postman-docs/workspace-switcher-v9.1.jpg" width="300px"/>
 

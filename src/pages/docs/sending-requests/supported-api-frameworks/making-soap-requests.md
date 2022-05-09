@@ -16,14 +16,14 @@ contextual_links:
   - type: link
     name: "Making HTTP SOAP Requests with Postman"
     url: "https://blog.postman.com/making-http-soap-requests-with-postman/"
-  - type: link
-    name: "SOAP: fahrenheit to celsius conversion"
-    url: "https://www.postman.com/postman/workspace/postman-team-collections/collection/1559645-468bc02d-1eb5-40d6-bf98-b4e5c6574e41?ctx=documentation"
   - type: subtitle
     name: "Public Workspaces"
   - type: link
     name: "Public SOAP APIs"
     url:  "https://www.postman.com/cs-demo/workspace/public-soap-apis/overview"
+  - type: link
+    name: "SOAP: Fahrenheit to Celsius conversion"
+    url: "https://www.postman.com/postman/workspace/postman-team-collections/collection/1559645-468bc02d-1eb5-40d6-bf98-b4e5c6574e41?ctx=documentation"
 
 warning: false
 
@@ -40,7 +40,7 @@ The following steps show how to make a SOAP request in Postman.
 
 <img src="https://assets.postman.com/postman-docs/soap-method-v9.jpg" alt="SOAP method" width="500px"/>
 
-As an example, try the following endpoint URL:
+As an example, use the following endpoint URL:
 
 ```xml
 https://www.dataaccess.com/webservicesserver/NumberConversion.wso
@@ -70,7 +70,7 @@ If you want to test the number conversion SOAP API used in the last section, ent
 </soap:Envelope>
 ```
 
-Your request body must include the SOAP `Envelope`, `Header`, and `Body` tags as required by the endpoint, as well as any namespaces. The data should include the name of the operation, together with any values you need to post to the service.
+Your request body must include the SOAP `Envelope`, `Header`, and `Body` tags as required by the endpoint, as well as any namespaces. The data needs to include the name of the operation, together with any values you need to post to the service.
 
 ## Setting your request headers
 
@@ -93,4 +93,4 @@ If you are following along with the number conversion SOAP API example, you need
 
 ## Next steps
 
-Check out the [Public SOAP APIs](https://www.postman.com/cs-demo/workspace/public-soap-apis/overview) collection for sample requests you can try in Postman.
+Check out the [Public SOAP APIs](https://www.postman.com/cs-demo/workspace/public-soap-apis/overview) collection for sample requests you can send in Postman.

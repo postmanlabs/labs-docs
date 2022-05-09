@@ -19,17 +19,21 @@ contextual_links:
   - type: subtitle
     name: "Blog Posts"
   - type: link
-    name: "How to monitor Postman Collections with APImetrics"
-    url: "https://blog.postman.com/how-to-use-postman-apimetrics/"
+    name: "Integrated API Monitoring in Postman"
+    url: "https://blog.postman.com/integrated-api-monitoring-in-postman/"
   - type: link
-    name: "Using a Postman monitor to water my plants"
-    url: "https://blog.postman.com/using-a-postman-monitor-to-water-my-plants/"
+    name: "How to Use Postman Monitors to Schedule CircleCI Pipelines"
+    url: "https://blog.postman.com/how-to-use-postman-monitors-to-schedule-circleci-pipelines/"
+  - type: link
+    name: "Power Mocks, Monitors, and CI/CD with Postman"
+    url: "https://blog.postman.com/power-mocks-monitors-and-ci-cd-with-postman-webinar-recap-part-3/"
+
 
 warning: false
 
 ---
 
-Create a new collection-based monitor to continuously check your API's health, run test suites, or validate critical workflows. When creating a monitor, you select a collection with the requests you want to run and set a schedule for how often Postman should run the collection. Additional configuration options enable you to tailor the monitor to your specific API development workflow.
+Create a new collection-based monitor to continuously check your API's health, run test suites, or validate critical workflows. When creating a monitor, you select a collection with the requests you want to run and set a schedule for how often Postman runs the collection. Additional configuration options enable you to tailor the monitor to your specific API development workflow.
 
 ## Contents
 
@@ -95,7 +99,7 @@ You will receive daily and weekly summaries of your active monitors by email. If
 
 ### Using retry on failure
 
-To try running a monitor again after a failure or error, select the **Retry if run fails** option. If this option is enabled, Postman will automatically run the failed request again. This can help to avoid false alarms due to transient issues. Postman will still log the initial failure but will only notify you if the run continues to fail.
+To run a monitor again after a failure or error, select the **Retry if run fails** option. If this option is enabled, Postman will automatically run the failed request again. This can help to avoid false alarms due to transient issues. Postman will still log the initial failure but will only notify you if the run continues to fail.
 
 > Enabling this option may affect your [monitor usage](/docs/monitoring-your-api/monitor-usage/#viewing-monitor-usage). For example, if a collection of three requests fails on the first request, but is successful on retrying, the run will count as four total requests.
 

@@ -21,7 +21,7 @@ For limits on the number of uptime monitors you can create, see [Uptime monitor 
 
 ### How many regions can my monitor run in?
 
-If you are on a paid plan, you can select one or more geographic regions you'd like your monitor to run in, or have Postman automatically select a region for you. If you are on a free plan, Postman always selects a region from you. If you want to manually select specific regions, [upgrade your Postman plan](https://www.postman.com/pricing)
+If you are on a paid plan, you can select one or more geographic regions you'd like your monitor to run in, or have Postman automatically select a region for you. If you are on a free plan, Postman always selects a region for you. If you want to manually select specific regions, [upgrade your Postman plan](https://www.postman.com/pricing)
 
 > If you’re interested in a region that’s not currently available when creating a monitor, contact the [Postman support team](https://www.postman.com/support/).
 
@@ -79,7 +79,7 @@ Monitors cannot be moved between workspaces. If you move a collection out of the
 
 ### Can I delete a monitor?
 
-You can delete a monitor at any time. Once deleted, all run history for the monitor is deleted too. If you want to retain the history, then you should pause the monitor instead of deleting it.
+You can delete a monitor at any time. Once deleted, all run history for the monitor is deleted too. If you want to retain the history, pause the monitor instead of deleting it.
 
 ### Where do monitors run?
 

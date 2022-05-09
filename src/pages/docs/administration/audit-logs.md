@@ -14,10 +14,12 @@ contextual_links:
 
 > __[Audit logs are available on Postman Professional and Enterprise plans.](https://www.postman.com/pricing)__
 
-Audit logs display events related to your team, users, and billing. Team admins can review audit logs to determine:
+Audit logs display events related to your team, users, and billing. Team admins can review audit logs to see:
 
 * When users were added to, removed from, or invited to your team
 * Which user performed a specific action and when they did so
+
+Postman provides audit logs for 90 days for users with Professional plans, and 180 days for users with Enterprise plans.
 
 > Audit logs are visible to all [team admins](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) on [Postman Professional and Enterprise plans](https://www.postman.com/pricing), including super admins on Enterprise teams.
 
@@ -25,25 +27,39 @@ Audit logs display events related to your team, users, and billing. Team admins 
 
 * [Viewing audit logs in the dashboard](#viewing-audit-logs-in-the-dashboard)
 
+* [Exporting audit logs from the dashboard](#exporting-audit-logs-from-the-dashboard)
+
 * [Accessing audit logs via the Postman API](#accessing-audit-logs-via-the-postman-api)
 
 * [Logged events](#logged-events)
 
 ## Viewing audit logs in the dashboard
 
-You can view audit logs in Postman by selecting **Team** in the upper-right corner, then **Audit Logs**.
+You can view audit logs in Postman by selecting **Team** in the header, then selecting **Audit Logs**.
 
 <img alt="Team menu with audit logs selected" src="https://assets.postman.com/postman-docs/menu-select-audit-logs-v9.13.0.jpg" width="300px"/>
 
-Audit logs allow you to view team actions by user, event name, event description, and date.
+Audit logs provide information about actions taken by members of your team. Each event includes the user, the user's email address, the event name and a description of the event, the user's IP address, and the date and time of the action, including the user's timezone.
 
-<img alt="Audit logs dashboard" src="https://assets.postman.com/postman-docs/audit-logs-v9.13.1.jpg"/>
+<img alt="Audit logs dashboard" src="https://assets.postman.com/postman-docs/audit-logs-dashboard-v9.jpg" width="1000px"/>
+
+You can use filters to view actions by date range, event type, and user.
+
+<img alt="Filtering the audit log results" src="https://assets.postman.com/postman-docs/audit-logs-filter-actions-v9.jpg" width="600px"/>
+
+## Exporting audit logs from the dashboard
+
+You can export audit logs as CSV files. By default, Postman will export all data in your audit logs from the last seven days. To start the export process, select **Export Audit Logs**.
+
+To specify certain data to export, set the filters you want in the audit logs dashboard and Postman will generate the export using those parameters. To filter your results, select a time range, event, and user, then select **Export Audit Logs**.
+
+You will receive an email with a link to the exported audit logs. The link in the email is active for one hour.
 
 ## Accessing audit logs via the Postman API
 
 You can also access audit logs via the [Postman API](https://www.postman.com/postman/workspace/postman-public-workspace/documentation/12959542-c8142d51-e97c-46b6-bd77-52bb66712c9a), allowing you to integrate Postman's audit logs with your security information and event management (SIEM) tools.
 
-Each audit log event contains the following attributes:
+Each audit log event has the following attributes:
 
 | <div style="width:100px">Name</div> | Description |
 | --- | --- |
@@ -60,7 +76,7 @@ To get started, go to the [Postman API](https://www.postman.com/postman/workspac
 
 > You must [generate a Postman API key](/docs/developer/intro-api/#generating-a-postman-api-key) to access the [Postman API](/docs/developer/intro-api/).
 
-## Logged Events
+## Logged events
 
 Postman logs events related to your [team](#team), [users](#users), and [billing](#billing).
 
@@ -123,7 +139,7 @@ Postman logs events related to your [team](#team), [users](#users), and [billing
 | Successful Login via SSO | A user logged in successfully via SSO. |
 | Reset Password | A user reset their password. |
 | Changed Password | A user changed their password. |
-| User Session Revoked | A user revoked their session(s). |
+| User Session Revoked | A user revoked their session. |
 | User Logout | A user logged out. |
 
 ### Billing

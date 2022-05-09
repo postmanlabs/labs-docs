@@ -36,7 +36,7 @@ const Modal = (create_id, images, i) => {
                 height="16"
                 viewBox="0 0 16 16"
               >
-                <title class="closed-label">e-remove</title>
+                <title class="closed-label">Close</title>
                 <g
                   stroke-width="1"
                   fill="#212121"

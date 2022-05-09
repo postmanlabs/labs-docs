@@ -7,6 +7,11 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "API Documentation | The Exploratory"
+    url: "https://youtu.be/XNVo9WkCoak"
+  - type: subtitle
     name: "Case Studies"
   - type: link
     name: "Imgur"
@@ -50,10 +55,10 @@ When you add a custom domain, you will see a modal displaying the DNS records re
 
 For DNS records, verify the ownership with a DNS web service provider. In a separate browser tab, go to the DNS provider’s console and add the following two new records.
 
-1. A TXT record for `postman-echo.com` verifies the ownership of the domain. The value should be the same as the token shown in the modal. Add the TXT record to the __root domain__. For example if you're adding `example.com` or `api.example.com`, add the TXT record to `example.com`.
-2. A CNAME record for `docs.postman-echo.com`, as shown in the modal—this should be `phs.getpostman.com`. Add the CNAME record to the URL that's associated with your public documentation.
+1. A TXT record for `postman-echo.com` verifies the ownership of the domain. The value must be the same as the token shown in the modal. Add the TXT record to the __root domain__. For example if you're adding `example.com` or `api.example.com`, add the TXT record to `example.com`.
+2. A CNAME record for `docs.postman-echo.com`, as shown in the modal. This value must be `phs.getpostman.com`. Add the CNAME record to the URL that's associated with your public documentation.
 
-To verify the domain, check the __I've added the TXT and CNAME records__ checkbox, then select __Verify Domain__. A confirmation message should indicate that the domain has been verified.
+To verify the domain, check the __I've added the TXT and CNAME records__ checkbox, then select __Verify Domain__. A confirmation message will indicate that the domain has been verified.
 
 [![verify_domain](https://assets.postman.com/postman-docs/docs-verify-domain-1.jpg)](https://assets.postman.com/postman-docs/docs-verify-domain-1.jpg)
 
@@ -75,7 +80,7 @@ RRSet of type CNAME with DNS name <subdomain.domain.com> is not permitted as it 
 
 when adding your first domain, note that CNAME records cannot co-exist with any other records for a domain. You will need to either edit the existing record type for your subdomain to CNAME or add a new subdomain.
 
-If you receive the same message when adding your second domain, note that since the TXT record verifies the ownership of the domain, the value should be the same as the token already added for the root domain. Add the CNAME record to the URL that's associated with your public documentation, for which the value should be `phs.getpostman.com`.
+If you receive the same message when adding your second domain, note that since the TXT record verifies the ownership of the domain, the value will be the same as the token already added for the root domain. Add the CNAME record to the URL that's associated with your public documentation, for which the value will be `phs.getpostman.com`.
 
 ## Publishing a collection on your custom domain
 

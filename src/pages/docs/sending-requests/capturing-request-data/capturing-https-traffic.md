@@ -19,14 +19,8 @@ contextual_links:
   - type: subtitle
     name: "Blog Posts"
   - type: link
-    name: "Reverse engineering an API"
-    url: "https://medium.com/better-practices/reverse-engineering-an-api-403fae885303"
-  - type: link
-    name: "Using Postman Proxy to Capture and Inspect API Calls from iOS or Android Devices"
-    url: "https://blog.postman.com/using-postman-proxy-to-capture-and-inspect-api-calls-from-ios-or-android-devices/"
-  - type: link
-    name: "Capture Responses Using the Postman Proxy"
-    url: "https://blog.postman.com/capture-responses-using-the-postman-proxy/"
+    name: "Postman’s Proxy Now Fully Supports HTTPS Endpoints"
+    url: "https://blog.postman.com/postmans-proxy-now-fully-supports-https-endpoints/"
 
 warning: false
 
@@ -78,7 +72,7 @@ OpenSSL is already installed for macOS and is typically installed for Linux. For
     ![download OpenSSL installer](https://assets.postman.com/postman-docs/windows-oppssl-environment-variables-bin.jpg)
 
 1. Select **OK** to add the folder directory. Then select **OK** to confirm changes and close the remaining windows.
-1. Open a command prompt. To do this, open the Windows **Start** menu, search for **cmd**, and select **Open**. Enter the command `openssl version` to confirm that installation was successful. You should see output similar to the following:
+1. Open a command prompt. To do this, open the Windows **Start** menu, search for **cmd**, and select **Open**. Enter the command `openssl version` to confirm that installation was successful. You will see output similar to the following:
 
     ``OpenSSL 1.1.1l  24 Aug 2021``
 
@@ -200,7 +194,7 @@ OpenSSL is already installed for macOS and is typically installed for Linux. For
 
 ## Troubleshooting certificate issues
 
-If you are unable to correctly install the `postman-proxy-ca.crt` certificate, or if the certificate is not allowing you to capture traffic, try regenerating and reinstalling the certificate.
+If you are unable to correctly install the `postman-proxy-ca.crt` certificate, or if the certificate is not allowing you to capture traffic, regenerate and reinstall the certificate.
 
 1. Make sure you are running Postman version 9.1 or later. See [Updating Postman](/docs/getting-started/installation-and-updates/#updating-postman).
 1. On the computer where Postman is installed, delete the `/Postman/Proxy` folder. You can find the folder in the following location:
