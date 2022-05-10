@@ -105,9 +105,9 @@ To learn how to manage team roles in Postman, see [Managing your team](/docs/adm
 
 You can [assign](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#managing-workspace-roles) three role types in Postman workspaces: **Admin**, **Editor**, and **Viewer**.
 
-* **Admin:** Can manage workspace resources and settings
-* **Editor:** Can create and edit workspace resources
-* **Viewer:** Can view, fork, and export workspace resources
+* **Admin** - Can manage workspace resources and settings
+* **Editor** - Can create and edit workspace resources
+* **Viewer** - Can view, fork, and export workspace resources
 
 The following roles control access at a workspace level:
 

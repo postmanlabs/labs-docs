@@ -111,9 +111,9 @@ An informative and inviting public workspace can help increase adoption of your 
 
 Signs of a public workspace that invites collaboration include:
 
-* **Active forks of your workspace.** The number of people who [fork your workspace](/docs/collaborating-in-postman/version-control-for-collections/#forking-postman-elements) and work on their forks shows strong collaborator engagement.
-* **People watching your workspace.** The number of people who [watch your workspace](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#watching-a-workspace) for activity can reflect interest from potential collaborators.
-* **Recent activity on the workspace.** A [workspace activity feed](/docs/collaborating-in-postman/using-workspaces/changelog-and-restoring-collections/#viewing-workspace-activity) that shows ongoing work assures potential collaborators that your team updates and maintains the workspace.
+* **Active forks of your workspace** - The number of people who [fork your workspace](/docs/collaborating-in-postman/version-control-for-collections/#forking-postman-elements) and work on their forks shows strong collaborator engagement.
+* **People watching your workspace** - The number of people who [watch your workspace](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#watching-a-workspace) for activity can reflect interest from potential collaborators.
+* **Recent activity on the workspace** - A [workspace activity feed](/docs/collaborating-in-postman/using-workspaces/changelog-and-restoring-collections/#viewing-workspace-activity) that shows ongoing work assures potential collaborators that your team updates and maintains the workspace.
 
 For more information on using a public workspace to help increase adoption of your API, see [Increasing adoption of an API with a public workspace](https://blog.postman.com/increasing-adoption-of-an-api-with-a-public-workspace/) on the Postman blog.
 

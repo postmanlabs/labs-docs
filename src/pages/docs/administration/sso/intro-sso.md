@@ -52,6 +52,6 @@ Most SAML 2.0 compliant identity providers require the same information about th
 
 Learn more about [setting up SSO](/docs/administration/sso/admin-sso/).
 
-**Note:** While configuring your IdP, make sure the user’s email address is set in attribute statements.
+**Note** - While configuring your IdP, make sure the user’s email address is set in attribute statements.
 
-**Note:** Postman’s form-based authentication mechanism and Google OAuth 2.0 remain enabled even if SSO is configured for a team.
+**Note** - Postman’s form-based authentication mechanism and Google OAuth 2.0 remain enabled even if SSO is configured for a team.
