@@ -59,14 +59,14 @@ To publish the documentation for a collection:
 
 1. Change any publication settings as needed:
 
-    * **Release tag:** Select one or more [release tags](/docs/publishing-your-api/documenting-your-api/#documenting-releases) to publish. Users can view documentation for each selected release.
-    * **Environment:** Select an [environment](/docs/publishing-your-api/documenting-your-api/#associating-environments-with-documentation) to publish environment variables with your documentation. *The initial values of all variables are published with your documentation, so make sure they don't contain sensitive information such as passwords or tokens.*
-    * **Custom domain:** Select a [custom domain](/docs/publishing-your-api/custom-doc-domains/) where you want to publish your documentation.
-    * **Default layout:** Select a layout style for your documentation. **Double column** displays sample code in a column to the right of the documentation. **Single column** displays sample code inline beneath each request.
-    * **Header background color:** Specify a color (hex format) for the header at the top of the documentation window.
-    * **Code background color:** Specify a color (hex format) for sample code blocks.
-    * **Highlight color:** Specify a color (hex format) for hyperlinks.
-    * **Move to public workspace:** (Optional) Select an available [public workspace](/docs/collaborating-in-postman/using-workspaces/public-workspaces/) to move the collection to. This will make the collection discoverable on the [Public API Network](https://www.postman.com/explore), along with its documentation.
+    * **Release tag** - Select one or more [release tags](/docs/publishing-your-api/documenting-your-api/#documenting-releases) to publish. Users can view documentation for each selected release.
+    * **Environment** - Select an [environment](/docs/publishing-your-api/documenting-your-api/#associating-environments-with-documentation) to publish environment variables with your documentation. *The initial values of all variables are published with your documentation, so make sure they don't contain sensitive information such as passwords or tokens.*
+    * **Custom domain** - Select a [custom domain](/docs/publishing-your-api/custom-doc-domains/) where you want to publish your documentation.
+    * **Default layout** - Select a layout style for your documentation. **Double column** displays sample code in a column to the right of the documentation. **Single column** displays sample code inline beneath each request.
+    * **Header background color** - Specify a color (hex format) for the header at the top of the documentation window.
+    * **Code background color** - Specify a color (hex format) for sample code blocks.
+    * **Highlight color** - Specify a color (hex format) for hyperlinks.
+    * **Move to public workspace** - (Optional) Select an available [public workspace](/docs/collaborating-in-postman/using-workspaces/public-workspaces/) to move the collection to. This will make the collection discoverable on the [Public API Network](https://www.postman.com/explore), along with its documentation.
 
 1. To see what your documentation will look like using the current settings, select **Preview Documentation**. The preview automatically updates as you change settings.
 

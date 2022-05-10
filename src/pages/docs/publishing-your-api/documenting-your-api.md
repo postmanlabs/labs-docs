@@ -181,13 +181,12 @@ A [version](/docs/designing-and-developing-your-api/versioning-an-api/#versionin
 
 There are several ways to create a documentation collection for a new version of your API:
 
-* **Carry over documentation when creating an API version.** When you [create a new API version](/docs/designing-and-developing-your-api/versioning-an-api/#creating-versions), you have the option to copy elements from a previous API version into the new version. Select the **Documentation** element, and then select **Create Version**. This will create a new documentation collection based on the previous collection, with the new version name appended to the collection name.
+* **Carry over documentation when creating an API version** - When you [create a new API version](/docs/designing-and-developing-your-api/versioning-an-api/#creating-versions), you have the option to copy elements from a previous API version into the new version. Select the **Documentation** element, and then select **Create Version**. This will create a new documentation collection based on the previous collection, with the new version name appended to the collection name.
 
     <img alt="Creating a new version" src="https://assets.postman.com/postman-docs/documentation-new-version-v9.jpg" width="482px">
 
-* **Generate a collection from the new API version.** Open the new API version and select the **Overview** tab. Select the **+** next to **Documentation**, and then select **Create new documentation**.
-
-* **Add an existing to collection to the new API version.** Open the new API version and select the **Overview** tab. Select the **+** next to **Documentation**, and then select **Add existing documentation**.
+* **Generate a collection from the new API version** - Open the new API version and select the **Overview** tab. Select the **+** next to **Documentation**, and then select **Create new documentation**.
+* **Add an existing to collection to the new API version** - Open the new API version and select the **Overview** tab. Select the **+** next to **Documentation**, and then select **Add existing documentation**.
 
 > Postman automatically generates schema documentation for each version of your API, based on that version's API definition. Once you've versioned your API, you'll see a new version of the schema documentation in the **Documentation** tab.
 

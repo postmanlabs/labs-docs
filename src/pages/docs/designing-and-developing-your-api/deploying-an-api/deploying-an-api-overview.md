@@ -44,7 +44,7 @@ After connecting to an API gateway, you can view the deployment history for your
 
 The **Deployments** tab displays details about recent deployments and your API gateway:
 
-* **Amazon API Gateway:** View the active deployment for each stage, recent exports from Postman, and details about each deployment. You can also export or deploy your HTTP API schema from Postman to your gateway. Learn more about [Viewing Amazon API gateway deployments](/docs/designing-and-developing-your-api/deploying-an-api/deploying-an-api-aws/#viewing-amazon-api-gateway-deployments).
+* **Amazon API Gateway** - View the active deployment for each stage, recent exports from Postman, and details about each deployment. You can also export or deploy your HTTP API schema from Postman to your gateway. Learn more about [Viewing Amazon API gateway deployments](/docs/designing-and-developing-your-api/deploying-an-api/deploying-an-api-aws/#viewing-amazon-api-gateway-deployments).
 
 * **Azure API Management:** View deployments for each of your Azure API Management services. You can view the revision history, changelog, and export history. You can also export your API schema from Postman to Azure API Management. Learn more about [Viewing Azure API deployments](/docs/designing-and-developing-your-api/deploying-an-api/deploying-an-api-azure/#viewing-azure-api-deployments).
 

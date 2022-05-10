@@ -100,10 +100,10 @@ You can filter by run type to compare how the response time changes between manu
 
 Each run is labeled based on its result:
 
-* **Successful**: Your monitor completed the run with no issues and passed all tests.
-* **Failure**: Your monitor completed the run, however one or more tests failed.
-* **Error**: Your monitor was unable to complete its run due to an error. An error can occur if there is a syntax error in the code you've written, a network error, or for various other reasons. If you encounter one, your [Console Log](#console-log) will help you identify what caused it.
-* **Abort**: Your monitor was unable to complete its run within the allotted five minutes, at which point it timed out.
+* **Successful** - Your monitor completed the run with no issues and passed all tests.
+* **Failure** - Your monitor completed the run, however one or more tests failed.
+* **Error** - Your monitor was unable to complete its run due to an error. An error can occur if there is a syntax error in the code you've written, a network error, or for various other reasons. If you encounter one, your [Console Log](#console-log) will help you identify what caused it.
+* **Abort** - Your monitor was unable to complete its run within the allotted five minutes, at which point it timed out.
 
 You can filter by run result to compare how your runs with the same result have differed. Select **Run result: All**, then select one or more types of run results to view.
 
@@ -117,10 +117,10 @@ You can filter by [region](/docs/monitoring-your-api/setting-up-monitor/#adding-
 
 You can filter by mathematical formula to view the average, sum, minimum, and maximum response time for each run:
 
-* **Average**: The average of the total response time across all regions.
-* **Sum**: The sum of the response time across all regions.
-* **Minimum**: The minimum total response time for a run across all regions.
-* **Maximum**: The maximum total response time for a run across all regions.
+* **Average** - The average of the total response time across all regions.
+* **Sum** - The sum of the response time across all regions.
+* **Minimum** - The minimum total response time for a run across all regions.
+* **Maximum** - The maximum total response time for a run across all regions.
 
 Select **Average** to open the menu, then select an option. To view the newly calculated response time value, you can hover over each run individually.
 

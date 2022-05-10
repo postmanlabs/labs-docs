@@ -85,7 +85,7 @@ Move over to the **Sign On** tab, and select **View Setup Instructions**.
 
 The **View Setup Instructions** screen comes populated with values. Copy these values and paste them in the **Identity Provider Details** section.
 
-**Note:** You will need to come back to this screen to paste the value in _Default Relay State_ that you will generate from the Postman's **Identity Provide Details** section.
+You will need to come back to this screen to paste the value in _Default Relay State_ that you will generate from the Postman's **Identity Provide Details** section.
 
 ### Okta - Step 10
 
@@ -153,7 +153,7 @@ Move over to the **Sign On** tab, and select **View Setup Instructions**.
 
 The **View Setup Instructions** screen comes populated with values. Copy these values and paste them in the **Identity Provider Details** section.
 
-**Note:** You will need to come back to this screen to paste the value in _Default Relay State_ that you will generate from the Postman's **Identity Provide Details** section.
+You will need to come back to this screen to paste the value in _Default Relay State_ that you will generate from the Postman's **Identity Provide Details** section.
 
 ### Postman - Step 6
 
