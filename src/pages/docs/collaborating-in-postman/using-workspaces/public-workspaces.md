@@ -178,7 +178,7 @@ To delete a public workspace, you must change its visibility first. You must hav
 
 ### Managing public workspace users and roles
 
-If you have a [Team Admin role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles), you can manage collaborators and user roles in a public workspace:
+If you're a [Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles), you can manage collaborators and user roles in a public workspace:
 
 * **Invite team members, groups, and external users to collaborate in a public workspace.** To learn more about inviting users to work with you in your public workspace, see [Sharing workspaces](https://learning.postman.com/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#sharing-workspaces).
 * **Assign access to elements within a workspace.** Workspace roles control access to elements. You can assign workspace roles to an individual user or to a user group. To learn more about assigning workspace roles or removing a user from a workspace, see [Managing workspace roles](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#managing-workspace-roles).
