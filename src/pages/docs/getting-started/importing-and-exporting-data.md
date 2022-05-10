@@ -189,12 +189,12 @@ You can export a data dump of all your collections, environments, globals, and h
 
 The [Export page](http://go.postman.co/me/export) shows information about your export request, including the file size, the date the export expires, and the statuses of your requested data exports. Possible statuses are:
 
-* **Scheduled**: The export request is placed.
-* **Transferring**: The data transfer process has started.
-* **Transferred**: The data transfer process has completed.
-* **Zipping**: The process of zipping the file has started.
-* **Zipped**: The file is zipped.
-* **Download**: The zipped file is ready to download.
+* **Scheduled** - The export request is placed.
+* **Transferring** - The data transfer process has started.
+* **Transferred** - The data transfer process has completed.
+* **Zipping** - The process of zipping the file has started.
+* **Zipped** - The file is zipped.
+* **Download** - The zipped file is ready to download.
 
 When the export is ready, you will receive an email with link to download a zipped file with the data dump. You can also download the file from the Export page using **Download**.
 

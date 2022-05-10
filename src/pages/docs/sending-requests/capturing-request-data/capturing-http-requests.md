@@ -102,10 +102,10 @@ After the proxy is running, you can start a proxy debug session. This is a time-
 1. If you save requests and responses to a collection, they're added chronologically by default. You can alternately group them in folders organized by domain name or endpoints. Under **Organize requests by**, select **Domain name**, **Endpoints**, or both. Your requests and responses are then organized in folders in the selected collection.
 1. Under **Configure Incoming Requests**, there are additional options you can use to limit the requests and responses captured:
 
-    * **URL must contain**: Only capture URLs containing the specified string or regular expression.
-    * **URL cannot contain**: Don't capture URLs containing the specified string or regular expression.
-    * **Methods**: Only capture the selected methods.
-    * **Resources**: Exclude requests with image, JS, or CSS responses.
+    * **URL must contain** - Only capture URLs containing the specified string or regular expression.
+    * **URL cannot contain** - Don't capture URLs containing the specified string or regular expression.
+    * **Methods** - Only capture the selected methods.
+    * **Resources** - Exclude requests with image, JS, or CSS responses.
 
 1. Select **Start Capture**.
 
