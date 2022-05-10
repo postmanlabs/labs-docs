@@ -78,6 +78,7 @@ When you send a form-data or binary file with a request body, Postman saves a pa
 * **Two-pane view:** By default, Postman displays responses below requests. Turn on this toggle to display the response and request panes side by side.
 * **Show icons with tab names:** Turn off this toggle to hide the icons that appear next to tab names.
 * **Variable autocomplete:** Turn on this toggle to enable autocomplete when typing variable names.
+* **Default documentation editor** - Select the default editor to use for editing documentation descriptions. Learn more about authoring descriptions in the [Postman editor](/docs/publishing-your-api/authoring-your-documentation/#authoring-descriptions-in-the-postman-editor) or the [Markdown editor](/docs/publishing-your-api/authoring-your-documentation/#authoring-descriptions-in-markdown).
 
 ### Editor settings
 
