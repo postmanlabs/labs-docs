@@ -69,11 +69,11 @@ To view the workspace ID, select the information icon <img alt="Information icon
 
 ## Modifying a workspace
 
-Workspace admins can edit workspace details or change the visibility of a workspace.
+Workspace Admins can edit workspace details or change the visibility of a workspace.
 
 ### Editing workspace details
 
-A summary and description help others understand what your workspace is for. You must be a [workspace Admin](#managing-workspace-roles) to edit workplace details.
+A summary and description help others understand what your workspace is for. You must be a [Workspace Admin](#managing-workspace-roles) to edit workplace details.
 
 On the workspace's **Overview** tab, select the workspace name, summary, or description to edit it. You can add Markdown to the description—select **Save** when you're done.
 
@@ -81,7 +81,7 @@ On the workspace's **Overview** tab, select the workspace name, summary, or desc
 
 ### Changing workspace visibility
 
-The visibility setting for a workspace determines who can access it. You must be a [workspace Admin](#managing-workspace-roles) to change the visibility for a workspace.
+The visibility setting for a workspace determines who can access it. You must be a [Workspace Admin](#managing-workspace-roles) to change the visibility for a workspace.
 
 To change workspace visibility:
 
@@ -104,13 +104,13 @@ You can invite team members, [groups](/docs/administration/managing-your-team/us
 
 <img alt="Share team workspace" src="https://assets.postman.com/postman-docs/share-workspace-9.4.jpg" width="400px"/>
 
-If you are a workspace editor or admin, you can invite anyone to personal, private, team, and public workspaces and assign them a [workspace role](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles). If you are a workspace viewer, you can invite external users to team and public workspaces, however you won't have the option to assign them a workspace role.
+If you are a Workspace Editor or Admin, you can invite anyone to personal, private, team, and public workspaces and assign them a [workspace role](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles). If you are a workspace viewer, you can invite external users to team and public workspaces, however you won't have the option to assign them a workspace role.
 
 > When you invite a collaborator to a personal workspace, it's automatically converted into a team workspace.
 
-Individual team members and groups you invite will be notified immediately of your request to collaborate. External users who aren't on your Postman team will receive an invitation to join immediately if you are a team admin. If you aren't a team admin, your request to add external users to your Postman team will be shared with your team admins for approval.
+Individual team members and groups you invite will be notified immediately of your request to collaborate. External users who aren't on your Postman team will receive an invitation to join immediately if you have an [Admin role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles). If you aren't a team Admin, your request to add external users to your Postman team will be shared with your team Admins for approval.
 
-You can also invite collaborators by selecting <img alt="Link icon" src="https://assets.postman.com/postman-docs/icon-workspace-link-v9.jpg#icon" width="18px"> **Copy Invite Link** and sharing the link with them outside of Postman. When individuals select the link, they'll be prompted to sign in or sign up. If you are a team admin inviting an external user, they'll be automatically added to your team. If you aren't a team admin, a request to add them to your Postman team will be shared with your team admins for approval.
+You can also invite collaborators by selecting <img alt="Link icon" src="https://assets.postman.com/postman-docs/icon-workspace-link-v9.jpg#icon" width="18px"> **Copy Invite Link** and sharing the link with them outside of Postman. When individuals select the link, they'll be prompted to sign in or sign up. If you are a team Admin inviting an external user, they'll be automatically added to your team. If you aren't a team Admin, a request to add them to your Postman team will be shared with your team Admins for approval.
 
 ## Managing workspace roles
 
@@ -172,7 +172,7 @@ If you're in a public workspace, this list will include all active users with [p
 
 ## Deleting a workspace
 
-Deleting a workspace removes the workspace and all data in it from Postman. Use caution, as once you delete a workspace it's gone forever. You must be a [workspace Admin](#managing-workspace-roles) to delete a workspace.
+Deleting a workspace removes the workspace and all data in it from Postman. Use caution, as once you delete a workspace it's gone forever. You must be a [Workspace Admin](#managing-workspace-roles) to delete a workspace.
 
 To delete a workspace:
 

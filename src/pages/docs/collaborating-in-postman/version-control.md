@@ -121,7 +121,7 @@ To create a pull request:
     * If there are any conflicts between the fork and the parent entity, they will be highlighted so that you can [resolve them](#resolving-conflicts).
 
 1. Select **Overview**.
-1. Enter a title and description for your pull request, and select up to 50 reviewers from the dropdown list. Reviewers must have [editor access](/docs/collaborating-in-postman/roles-and-permissions/#element-based-roles) on the entity to merge your changes.
+1. Enter a title and description for your pull request, and select up to 50 reviewers from the dropdown list. Reviewers must have [Editor access](/docs/collaborating-in-postman/roles-and-permissions/#element-based-roles) on the entity to merge your changes.
 1. Select **Create Pull Request**.
 
     <img alt="Create Pull Request" src="https://assets.postman.com/postman-docs/pull-request-overview.jpg" width="350px"/>
@@ -172,7 +172,7 @@ For collections, you can assign merge checks before approving changes.
 There are two different types of checks that you can enable for a pull request:
 
 * **Approved once**: You need at least one approval to merge the pull request.
-* **Approved by a collection editor**: You need the approval of a collection editor to merge the pull request.
+* **Approved by a collection editor**: You need the approval of a user who has [Editor access for the collection](/docs/collaborating-in-postman/roles-and-permissions/#collection-roles) to merge the pull request.
 
 To set merge checks for pull requests on a specific collection:
 

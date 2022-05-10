@@ -191,7 +191,7 @@ To collaborate with someone else in their public workspace, select **Workspaces*
 
 For **collections** and **environments**, [create a fork](/docs/collaborating-in-postman/version-control-for-collections/#forking-a-collection) and request to merge changes using a [pull request](/docs/collaborating-in-postman/version-control-for-collections/#creating-pull-requests).
 
-For **APIs**, select the API and version. Select the **Definition** tab and then select **Request Access** to request an editor role.
+For **APIs**, select the API and version. Select the **Definition** tab and then select **Request Access** to request an Editor role.
 
 You can access public workspaces using the Postman Explore page's [**Workspaces** category](https://www.postman.com/explore/workspaces). You can also access the public workspaces that you own or are a member of using **Workspaces** in the header.
 

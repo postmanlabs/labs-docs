@@ -23,7 +23,7 @@ contextual_links:
 
 ## Configuring single sign-on
 
-Only a team administrator (admin) can configure single sign-on (SSO) for a Postman team.
+Only a [team Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can configure single sign-on (SSO) for a Postman team.
 
 To configure a new authentication method:
 

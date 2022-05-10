@@ -62,7 +62,7 @@ Teams may have two support accounts at no additional cost. Support accounts are 
 
 ## Invites
 
-Invitations are sent to individuals you opt to add to your Postman team. Only admins are able to send, delete, and resend these. However, other members of the team can request to invite members to the team. These requests must be approved by an admin. Once approved, an invite will be sent to the individual.
+Invitations are sent to individuals you opt to add to your Postman team. Only [team Admins](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can send, delete, and resend these. However, other members of the team can request to invite members to the team. These requests must be approved by an Admin. Once approved, an invite will be sent to the individual.
 
 To allow Postman users from your company to request to join your team, [enable team discovery](/docs/collaborating-in-postman/collaboration-intro/#making-your-team-discoverable).
 

@@ -19,7 +19,7 @@ contextual_links:
 
 For administrative and team management frequently asked questions, check out Postman's [Help Center](https://support.postman.com/hc/en-us).
 
-The Help Center provides frequently asked questions that you may encounter as a Postman Team Admin, including:
+The Help Center provides frequently asked questions that you may encounter as a Postman [team Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles), including:
 
 * [Account FAQs](https://support.postman.com/hc/en-us/categories/115000609185-My-Account)
 * [Collaboration FAQs](https://support.postman.com/hc/en-us/categories/115000609165-Collaboration)
