@@ -99,7 +99,6 @@ To enable SCIM:
 
     <img alt="Enable SCIM in dashboard" src="https://assets.postman.com/postman-docs/turn-on-scim-provisioning-1.jpg" width="400px"/>
 
-
 ### Generating SCIM API key
 
 1. Under **SCIM provisioning**, select **Generate SCIM API Key**.
