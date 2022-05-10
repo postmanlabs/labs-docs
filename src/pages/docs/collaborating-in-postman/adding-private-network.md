@@ -40,7 +40,7 @@ APIs in the Private API Network are visible to logged-in users who are a part of
 
 > As a quality control measure, Enterprise teams can turn on an [optional approval process workflow](#using-the-approval-process-workflow) in which only designated users with the [API Network Manager role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can add APIs to the Private API Network. If your team doesn't use the optional approval process workflow, any user who has an Editor role for an API can [add it to the Private API Network](#adding-your-apis).
 
-<img alt="Private API Network" src="https://assets.postman.com/postman-docs/private-api-network-v9.jpg"/>
+<img alt="Private API Network overview" src="https://assets.postman.com/postman-docs/private-api-network-overview-v9.jpg" width="1400px"/>
 
 ## Contents
 
@@ -137,35 +137,43 @@ Once you have turned on the approval process, any team member with the Editor ro
 Once the optional approval process is turned on, users with an Editor role for an API can request to add an API to the Private API Network.
 
 1. Select the API you want added to the Private API Network.
-1. On the right side of the API overview, select **Request to add to Private API Network**.
+1. On the right side of the API overview, select **Request to add API**.
 1. Under **Comments**, add a note for the API Network Manager.
-1. Select **Request to Add API**.
+1. Select **Request to add API**.
 
-<!-- TODO: screenshot -->
+<img alt="" src="https://assets.postman.com/postman-docs/private-api-network-editor-request-to-add-v9.jpg" width="300px"/>
 
-Postman notifies the API Network Manager about your request, and they will review it and either approve or deny your request. Postman will notify you of the API Network Manager's decision. If they deny your request, the notification will include a comment with their reason.
+Postman notifies the API Network Manager about your request, who will review it and either approve or deny your request. Postman will notify you of the API Network Manager's decision. If they deny your request, the notification will include a comment with their reason.
 
 ### API Network Manager: Reviewing requests to add APIs
 
 When an API Editor requests to add an API to your Private API Network, Postman will send you an email and an in-app notification. To see a list of all the pending requests, go to **Private API Network** and select **Pending API requests**.
 
+<img alt="View pending requests" src="https://assets.postman.com/postman-docs/private-api-network-pending-requests-v9.jpg" width="300px"/>
+
+The pending request includes the user who submitted the request, the API's version, the note the requesting user added, and a link to view the API.
+
+<img alt="Approve or deny a request" src="https://assets.postman.com/postman-docs/private-api-network-approve-or-deny-v9.jpg" width="700px"/>
+
 To approve a request:
 
 1. Select **Approve**.
 1. Optionally, you can add the API to a folder. To create a new folder to add the API to, select **Create folder**.
-1. Select **Approve request**. <!-- TODO: screenshot -->
+1. Select **Approve request**.
 
 To deny a request:
 
 1. Select **Deny**.
 1. Write a note for the API Editor who submitted the request with details about why you are denying the request.
-1. Select **Deny request**. <!-- TODO: screenshot -->
+1. Select **Deny request**.
 
 You can also review a request directly in an API's overview:
 
 1. Select **APIs** from the sidebar, then select the API with the pending review.
 1. View details about the request, including comments from the user who submitted it, on the right side of the overview.
-1. Select **Approve** or **Deny**. <!-- TODO: screenshot -->
+1. Select **Approve** or **Deny**.
+
+<img alt="Approve or deny a request in the API overview" src="https://assets.postman.com/postman-docs/private-api-network-view-request-in-api-overview-v9.jpg" width="300px"/>
 
 ## Adding your APIs
 
@@ -181,9 +189,6 @@ To add an API to your team's Private API Network, [sign in](https://go.postman.c
 To add an API to your team's Private API Network:
 
 1. From the Private API Network page, select **Add APIs** in the left navigation bar.
-
-    <img alt="Private API Network" src="https://assets.postman.com/postman-docs/private-api-network-v9.jpg"/>
-
 1. Select one or more APIs you want to add to the network. Optionally, you can add the API into an existing [folder](#organizing-with-folders), or create a new folder.
 1. Select **Add API**.
 
@@ -216,7 +221,8 @@ To create a new version of an existing API from the [API Builder](/docs/designin
 
 API versions must be visible to consumers before you can add them to the Private API Network. To edit the visibility an existing API version:
 
-1. Select the version in the **Overview** tab, then select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> > **Edit** in the upper right.
+1. Select the API version in the **Overview** tab.
+1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px">, then select **Edit** in the upper right.
 1. Select **Consumers can view this version** to show or hide this version in the Public API Network.
 1. Select **Save Changes** when you're done.
 
@@ -236,8 +242,8 @@ To import from Github, see [Importing via GitHub repositories.](/docs/getting-st
 
 Once you have added APIs to your Private API Network, you can manage them by organizing them in folders, editing their listings, and removing them from the Private API Network.
 
-* **If your team uses the [optional approval workflow](#using-the-approval-process-workflow)**, a user with the API Network Manager can complete these tasks.
-* **If your team doesn't use the optional approval workflow**, any user with an Editor role can complete these tasks.
+* **If your team uses the [optional approval process](#using-the-approval-process-workflow)**, a user with the API Network Manager can complete these tasks.
+* **If your team doesn't use the optional approval process**, any user with an Editor role can complete these tasks.
 
 ### Organizing with folders
 
