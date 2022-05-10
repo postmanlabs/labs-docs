@@ -88,10 +88,10 @@ To change workspace visibility:
 1. Select **Workspaces** in the Postman header, and then select a workspace.
 1. On the workspace's **Overview** tab, select **Workspace Settings**.
 1. Select a **Visibility** for the workspace:
-    * **Personal:** Only you can access.
-    * **Private:** Only invited team members can access.
-    * **Team:** All team members can access.
-    * **Public:** Everyone can view.
+    * **Personal** - Only you can access.
+    * **Private** - Only invited team members can access.
+    * **Team** - All team members can access.
+    * **Public** - Everyone can view.
 1. Select **Update**.
 
 <img alt="Changing workspace visibility" src="https://assets.postman.com/postman-docs/workspace-visibility-v9.jpg" width="521px"/>
@@ -122,10 +122,10 @@ To change the role of people in a workspace, or to remove someone from a workspa
 1. On the workspace's **Overview** tab, select **Workspace Settings**.
 1. Select a different workspace **Role** for a person or group:
 
-    * **Admin:** Can manage workspace resources and settings.
-    * **Editor:** Can create and edit workspace resources.
-    * **Viewer:** Can view, fork, and export workspace resources.
-    * **Remove:** Removes the person from the workspace. (You can [invite the user](#sharing-workspaces) again in the future.)
+    * **Admin** - Can manage workspace resources and settings.
+    * **Editor** - Can create and edit workspace resources.
+    * **Viewer** - Can view, fork, and export workspace resources.
+    * **Remove** - Removes the person from the workspace. (You can [invite the user](#sharing-workspaces) again in the future.)
 
 <img alt="Changing workspace role" src="https://assets.postman.com/postman-docs/workspace-change-role-v9.jpg" width="720px"/>
 

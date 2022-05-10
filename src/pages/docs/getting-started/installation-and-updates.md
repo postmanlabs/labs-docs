@@ -149,10 +149,10 @@ To learn more about the desktop agent, read the [Introducing the Postman Agent](
 
 From Postman for Web, you can select the agent you would like to use for your requests:
 
-* **Auto-select**: Postman automatically selects the best agent to use for your request.
-* **Cloud**: Manually select this option to send HTTP requests using Postman's cloud servers.
-* **Desktop**: Manually select this option to send requests using the Postman desktop agent.
-* **Browser**: Manually select this option to send requests using your browser, with some [limitations](#web-limitations).
+* **Auto-select** - Postman automatically selects the best agent to use for your request.
+* **Cloud** - Manually select this option to send HTTP requests using Postman's cloud servers.
+* **Desktop** - Manually select this option to send requests using the Postman desktop agent.
+* **Browser** - Manually select this option to send requests using your browser, with some [limitations](#web-limitations).
 
 <img alt="Select agent" src="https://assets.postman.com/postman-docs/select-agent-for-requests.gif">
 
@@ -162,9 +162,9 @@ From Postman for Web, you can select the agent you would like to use for your re
 
 Postman for Web is under active development. There are a few features you can currently only access in the desktop app, not in your browser:
 
-* **Find and replace**: The Postman desktop app supports [finding and replacing values in a workspace](/docs/getting-started/navigating-postman/#find-and-replace), but this function isn't available on Postman for Web yet.
-* **Certificates and proxy**: The Postman desktop app enables you to customize [certificates](/docs/sending-requests/certificates/) and [proxy configurations](/docs/getting-started/proxy/#configuring-proxy-settings). On Postman for Web, these take the browser defined value and can't be overridden by Postman.
-* **Postman Interceptor**: [Interceptor](/docs/sending-requests/capturing-request-data/interceptor/) syncs cookies from your browser to the Postman desktop app and captures network requests directly from the browser. It's not possible to use Interceptor with Postman for Web.
+* **Find and replace** - The Postman desktop app supports [finding and replacing values in a workspace](/docs/getting-started/navigating-postman/#find-and-replace), but this function isn't available on Postman for Web yet.
+* **Certificates and proxy** - The Postman desktop app enables you to customize [certificates](/docs/sending-requests/certificates/) and [proxy configurations](/docs/getting-started/proxy/#configuring-proxy-settings). On Postman for Web, these take the browser defined value and can't be overridden by Postman.
+* **Postman Interceptor** - [Interceptor](/docs/sending-requests/capturing-request-data/interceptor/) syncs cookies from your browser to the Postman desktop app and captures network requests directly from the browser. It's not possible to use Interceptor with Postman for Web.
 
 ## Updating Postman
 
@@ -229,13 +229,13 @@ Open the DevTools using __View__ &gt; __Developer__ &gt; __Show DevTools (Curren
 
 Some known errors are as follows:
 
-* __Error message:__ `Cannot update while running on a read-only volume`
+* **Error message** - `Cannot update while running on a read-only volume`
     * This error means that the app user doesn't have write permission in the directory where Postman is installed. To resolve the problem, move Postman to a directory where the user has write permissions, for example the `/Application` directory for Mac, and to the `home` directory for Linux.
 
-* __Error message:__ `Code signature at URL file:///... did not pass validation: code object is not signed at all`
+* **Error message** - `Code signature at URL file:///... did not pass validation: code object is not signed at all`
     * This error means that there are multiple updates running at the same time. This can happen when the app is opened before the previous update could finish. To resolve the problem, quit and reopen the app.
 
-* __Error message:__ `EACCES: permission denied, open '/opt/Postman/Postman-1620288011421.tar.gz`
+* **Error message** - `EACCES: permission denied, open '/opt/Postman/Postman-1620288011421.tar.gz`
     * This error means that the app user doesn't have write permission in the directory where Postman is installed. To resolve the problem, move Postman to a directory where the user has write permissions, for example the `home` directory for Linux.
 
 ### Update not available
