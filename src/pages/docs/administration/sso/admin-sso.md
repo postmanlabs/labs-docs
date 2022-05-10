@@ -35,7 +35,7 @@ To configure a new authentication method:
 
 <img src="https://assets.postman.com/postman-docs/add-auth-method.jpg" width="350px" alt="Authentication Method"/>
 
-**Note**: Always check with your authentication provider dashboard or your IT support staff for the correct information to complete a modal.
+> Always check with your authentication provider dashboard or your IT support staff for the correct information to complete a modal.
 
 In the "Service Provider Details (Postman)" screen, the Entity ID, and the URLs for the Login and ACS are already populated.
 

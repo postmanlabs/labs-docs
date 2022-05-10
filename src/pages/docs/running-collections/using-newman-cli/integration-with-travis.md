@@ -53,7 +53,7 @@ This example shows you how to integrate Postman with [Travis CI](https://travis-
 
 1. **Set up a GitHub repository.** Travis CI is free for open source projects on GitHub. For this example, you'll store the collection with your Postman tests in a public GitHub repository. Create a new public repo on GitHub and clone the project to your local system.
 
-1. **Set up Travis CI**: Follow the [Travis CI getting started guide](https://docs.travis-ci.com/user/getting-started) for a complete walk through. You will need to [sign in to Travis CI](https://app.travis-ci.com/signin) and [activate Travis CI integration](https://app.travis-ci.com/account/repositories) for your new public GitHub repo.
+1. **Set up Travis CI.** Follow the [Travis CI getting started guide](https://docs.travis-ci.com/user/getting-started) for a complete walk through. You will need to [sign in to Travis CI](https://app.travis-ci.com/signin) and [activate Travis CI integration](https://app.travis-ci.com/account/repositories) for your new public GitHub repo.
 
 ## Connecting Postman to Travis CI
 

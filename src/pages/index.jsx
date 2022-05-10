@@ -286,10 +286,10 @@ class IndexPage extends React.Component {
             <div className="col-sm-6 col-lg-3 mb-sm-4 mb-md-0 pr-md-5">
               <LandingCard
                 title="Postman support"
-                description="Reach out to our support team."
-                cta="Open a ticket"
+                description="Get help for your issue or a specific question."
+                cta="Visit Postman Support Center"
                 icon="https://voyager.postman.com/icon/support-life-ring-icon-postman.svg"
-                link="https://support.postman.com/hc/en-us/requests/new/"
+                link="https://support.postman.com/hc/en-us"
               />
             </div>
             <div className="col-sm-6 col-lg-3 mb-sm-4 mb-md-0 pr-md-5">

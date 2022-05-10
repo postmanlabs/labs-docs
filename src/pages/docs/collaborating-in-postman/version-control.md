@@ -171,8 +171,8 @@ For collections, you can assign merge checks before approving changes.
 
 There are two different types of checks that you can enable for a pull request:
 
-* **Approved once**: You need at least one approval to merge the pull request.
-* **Approved by a collection editor**: You need the approval of a user who has [Editor access for the collection](/docs/collaborating-in-postman/roles-and-permissions/#collection-roles) to merge the pull request.
+* **Approved once** - You need at least one approval to merge the pull request.
+* **Approved by a collection editor** - You need the approval of a user who has [Editor access for the collection](/docs/collaborating-in-postman/roles-and-permissions/#collection-roles) to merge the pull request.
 
 To set merge checks for pull requests on a specific collection:
 
@@ -306,9 +306,9 @@ After a pull request is reviewed, it's ready to be merged into the parent entity
     > If the parent entity has any changes since you last updated your fork, you can [pull those changes](#pulling-updates) before merging.
 
 1. Select one of the following merge options:
-    * **Merge changes**: Merge the changes into the parent entity. No changes are made to the fork. You must have Editor access to the parent entity.
-    * **Merge changes and update source**: Merge the changes into the parent entity. Any differences in the parent entity are also made to the fork. You must have Editor access to both the parent and forked entities.
-    * **Merge changes and delete source**: Merge the changes into the parent entity. After merging, the fork is deleted. You must have Editor access to both the parent and forked entities.
+    * **Merge changes** - Merge the changes into the parent entity. No changes are made to the fork. You must have Editor access to the parent entity.
+    * **Merge changes and update source** - Merge the changes into the parent entity. Any differences in the parent entity are also made to the fork. You must have Editor access to both the parent and forked entities.
+    * **Merge changes and delete source** - Merge the changes into the parent entity. After merging, the fork is deleted. You must have Editor access to both the parent and forked entities.
 
     <img src="https://assets.postman.com/postman-docs/merge-fork-options-v9.12.jpg" alt="Merge Fork Options" width="400px"/>
 
