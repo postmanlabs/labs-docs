@@ -77,7 +77,7 @@ Team roles provide high-level access control:
 | --- |:---:| --- | --- | --- | --- |
 | Add users | &#x2714; | &#x2714; | | |
 | Remove users | &#x2714; | &#x2714; | | |
-| Manage team Admins and Developers | &#x2714; | &#x2714; | | |
+| Manage Team Admins and Developers | &#x2714; | &#x2714; | | |
 | Manage SSO | &#x2714; | &#x2714; || |
 | Manage custom domains  | &#x2714; | &#x2714; | | |
 | View audit logs  | &#x2714; | &#x2714; | | | &#x2714;

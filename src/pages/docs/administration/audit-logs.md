@@ -21,7 +21,7 @@ Audit logs display events related to your team, users, and billing. Team Admins 
 
 Postman provides audit logs for 90 days for users with Professional plans, and 180 days for users with Enterprise plans.
 
-> Audit logs are visible to all [team Admins](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) on [Postman Professional and Enterprise plans](https://www.postman.com/pricing), including Super Admins on Enterprise teams.
+> Audit logs are visible to all [Team Admins](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) on [Postman Professional and Enterprise plans](https://www.postman.com/pricing), including Super Admins on Enterprise teams.
 
 ## Contents
 
@@ -87,12 +87,12 @@ Postman logs events related to your [team](#team), [users](#users), and [billing
 | Team Name Updated  | Your team's name was changed.  |
 | Team URL Updated | Your team’s URL was changed. |
 | Updated Team Discovery | A user updated your team's discoverability status. |
-| Added Domain for Domain Capture | A team Admin added a domain for domain capture. |
+| Added Domain for Domain Capture | A Team Admin added a domain for domain capture. |
 | Verified Domain for Domain Capture | The domain added for domain capture has been verified. |
-| Enabled Domain Team Management | A team Admin enabled [domain team management](/docs/administration/managing-your-team/configuring-domain-capture/). |
+| Enabled Domain Team Management | A Team Admin enabled [domain team management](/docs/administration/managing-your-team/configuring-domain-capture/). |
 | User Joined via Domain Capture | A user joined through [team domain management](/docs/administration/managing-your-team/configuring-domain-capture/). |
-| Disabled Domain Team Management | A team Admin disabled domain team management. |
-| Deleted Domain for Domain Capture | A team Admin deleted a domain for domain capture. |
+| Disabled Domain Team Management | A Team Admin disabled domain team management. |
+| Deleted Domain for Domain Capture | A Team Admin deleted a domain for domain capture. |
 | Added Custom Domain | A [custom domain](/docs/publishing-your-api/custom-doc-domains/) was added to your team. |
 | Updated Custom Domain Verification Status | The verification status of your domain was updated. |
 | Deleted Custom Domain  | A custom domain was deleted from your team. |

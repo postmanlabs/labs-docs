@@ -19,7 +19,7 @@ contextual_links:
 
 With Postman groups, you can organize your team members into functional groups that mimic your organizational structure. These groups allow you to efficiently manage access control across your team and seamlessly onboard new team members.
 
-You must be a [Postman team Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) to create, manage, and delete groups.
+You must be a [Postman Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) to create, manage, and delete groups.
 
 ## Contents
 
@@ -43,7 +43,7 @@ You must be a [Postman team Admin](/docs/collaborating-in-postman/roles-and-perm
 
 ## Creating a group
 
-As a team Admin, you can create a group by selecting **Team** in the upper-right corner > **Manage Team**.
+As a Team Admin, you can create a group by selecting **Team** in the upper-right corner > **Manage Team**.
 
 Under **Members and groups**, select **Groups** > **Create Group**.
 

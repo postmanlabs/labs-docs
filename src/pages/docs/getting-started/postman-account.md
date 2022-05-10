@@ -96,7 +96,7 @@ You can manage account settings including your email address, password, and work
 
 If you are on a Professional, Basic, or Free plan, you can change the email address associated with your Postman account. Open your [account settings](https://go.postman.co/settings/me/account/) page. Select your avatar in the upper-right corner > **Account Settings** > **Account**. Edit your email address and select **Update Email** to save changes.
 
-If you are on an Enterprise plan, you must contact your team Admins to update the email address associated with your Postman account.
+If you are on an Enterprise plan, you must contact your Team Admins to update the email address associated with your Postman account.
 
 #### Resetting your password
 
@@ -106,7 +106,7 @@ If you aren't signed in to your Postman account, you can recover your username o
 
 > If you still have trouble logging into your Postman account, contact [Postman support](https://support.postman.com/hc/en-us).
 
-If you are on an Enterprise plan, you must contact your team Admins to update the password associated with your Postman account.
+If you are on an Enterprise plan, you must contact your Team Admins to update the password associated with your Postman account.
 
 #### Deleting your account
 
@@ -114,7 +114,7 @@ Deleting your account is an irreversible operation. Any data synced to your acco
 
 If you are on a Professional, Basic, or Free plan, you can permanently delete your Postman account from your [account settings](https://go.postman.co/settings/me/account/) page. Select your avatar in the upper-right corner > **Account Settings** > **Account**. Select **Delete Account**. Before the account is deleted, you will be asked to sign in again to confirm that you own the account.
 
-If you are on an Enterprise plan, you must contact your team Admins to delete your Postman account.
+If you are on an Enterprise plan, you must contact your Team Admins to delete your Postman account.
 
 ### Updating your profile
 
