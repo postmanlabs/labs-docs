@@ -31,9 +31,9 @@ To configure and install AD FS, see [Deploy and configure AD FS](https://docs.mi
 
 Follow the steps below to configure Microsoft AD FS to work with Postman SSO.
 
-**Step 1** - Create an AD FS authentication scheme in Postman.
+### Step 1: Create an AD FS authentication scheme
 
-To create this scheme authentication, see [Configuring SSO for a team](/docs/administration/sso/admin-sso/).
+First, you need to create an AD FS authentication scheme in Postman. To create this authentication scheme, see [Configuring SSO for a team](/docs/administration/sso/admin-sso/).
 
 After creating the scheme, collect the values for these fields in the [Team](https://app.getpostman.com/dashboard/teams) page.
 
@@ -42,53 +42,49 @@ After creating the scheme, collect the values for these fields in the [Team](htt
 | Assertion Consumer Service URL  |  SAML 2.0 SSO service URL  |
 | Encryption Certificate   | Token encryption certificate  |
 
-**Step 2** - Add a Relying Party Trust.
+### Step 2: Add a Relying Party Trust
 
 Relying Party Trust (RPT) defines the connection between AD FS and Postman.
 
 To add a Relying Party Trust:
 
-  Select the Relying Party Trusts folder from "AD FS Management".
+1. Select the **Relying Party Trusts** folder from AD FS Management.
+1. On the Actions sidebar, select **Add Relying Party Trust** to start the configuration wizard for a new trust.
+1. Select **Claims aware** in the Welcome screen and then select **Start**.
 
-  On the Actions sidebar, select "Add Relying Party Trust" to start the configuration wizard for a new trust.
+    [![relying party trust](https://assets.postman.com/postman-docs/ENT-Relying-Party-Trust.png)](https://assets.postman.com/postman-docs/ENT-Relying-Party-Trust.png)
 
-  Select **Claims aware** in the Welcome screen and then select **Start**.
+1. In the Select Data Source screen, select **Enter Data About the Party Manually**.
 
-[![relying party trust](https://assets.postman.com/postman-docs/ENT-Relying-Party-Trust.png)](https://assets.postman.com/postman-docs/ENT-Relying-Party-Trust.png)
+    [![select data source](https://assets.postman.com/postman-docs/ENT-Enter-Data-About-Party-Manually.jpeg)](https://assets.postman.com/postman-docs/ENT-Enter-Data-About-Party-Manually.jpeg)
 
-   In the Select Data Source screen, select the last option, "Enter Data About the Party Manually".
+1. Enter a **Display Name** that you'll recognize later. You can optionally add notes.
 
-[![select data source](https://assets.postman.com/postman-docs/ENT-Enter-Data-About-Party-Manually.jpeg)](https://assets.postman.com/postman-docs/ENT-Enter-Data-About-Party-Manually.jpeg)
+    [![display name](https://assets.postman.com/postman-docs/ENT-display-name.jpeg)](https://assets.postman.com/postman-docs/ENT-display-name.jpeg)
 
-   Enter a "Display Name" that you'll recognize later. You can optionally add notes.
+1. Upload the encryption certificate in the [Team](https://app.getpostman.com/dashboard/teams) page or use the default certificate settings.
 
-[![display name](https://assets.postman.com/postman-docs/ENT-display-name.jpeg)](https://assets.postman.com/postman-docs/ENT-display-name.jpeg)
+    [![encryption cert](https://assets.postman.com/postman-docs/ENT-configure-cert.jpeg)](https://assets.postman.com/postman-docs/ENT-configure-cert.jpeg)
 
-   Upload the encryption certificate in the [Team](https://app.getpostman.com/dashboard/teams) page or use the default certificate settings.
+1. Select **Enable Support** for the SAML 2.0 WebSSO protocol.
+1. Collect the service URL (ACS URL) from the [Team](https://app.getpostman.com/dashboard/teams) page.
 
-[![encryption cert](https://assets.postman.com/postman-docs/ENT-configure-cert.jpeg)](https://assets.postman.com/postman-docs/ENT-configure-cert.jpeg)
+    [![acs url](https://assets.postman.com/postman-docs/ENT-ACS-URL.jpeg)](https://assets.postman.com/postman-docs/ENT-ACS-URL.jpeg)
 
-   Check the box labeled "Enable Support" for the SAML 2.0 WebSSO protocol.
+1. Add this Relying party trust identifier: `https://identity.getpostman.com`.
 
-   Collect the service URL (ACS URL) from the [Team](https://app.getpostman.com/dashboard/teams) page.
+    [![replying party trust identifier](https://assets.postman.com/postman-docs/ENT-Relying-party-trust-identifier.jpeg)](https://assets.postman.com/postman-docs/ENT-Relying-party-trust-identifier.jpeg)
 
-[![acs url](https://assets.postman.com/postman-docs/ENT-ACS-URL.jpeg)](https://assets.postman.com/postman-docs/ENT-ACS-URL.jpeg)
+1. Select **Permit everyone**.
 
-   Add this Relying party trust identifier: `https://identity.getpostman.com`.
+    [![permit everyone](https://assets.postman.com/postman-docs/ENT-Permit-everyone.jpeg)](https://assets.postman.com/postman-docs/ENT-Permit-everyone.jpeg)
 
-[![replying party trust identifier](https://assets.postman.com/postman-docs/ENT-Relying-party-trust-identifier.jpeg)](https://assets.postman.com/postman-docs/ENT-Relying-party-trust-identifier.jpeg)
+1. In the next two screens, the wizard displays an overview of your settings.
+1. In the final screen, select **Close** to exit and open the Claim Rules editor.
 
-   Select "Permit everyone".
+### Step 3: Create claim rules
 
-[![permit everyone](https://assets.postman.com/postman-docs/ENT-Permit-everyone.jpeg)](https://assets.postman.com/postman-docs/ENT-Permit-everyone.jpeg)
-
-In the next two screens, the wizard displays an overview of your settings.
-
-In the final screen, select **Close** to exit and open the "Claim Rules" editor.
-
-**Step 3** - Create claim rules.
-
-After the relying party trust has been created, you can create the claim rules.
+After you create the relying party trust, you can create the claim rules.
 
 [![claim rules](https://assets.postman.com/postman-docs/ENT-claim-rules.jpeg)](https://assets.postman.com/postman-docs/ENT-claim-rules.jpeg)
 
@@ -121,73 +117,74 @@ To create a new rule:
 
 [![edit claim issuance](https://assets.postman.com/postman-docs/ENT-Edit-Claim-Issuance-Policy.jpeg)](https://assets.postman.com/postman-docs/ENT-Edit-Claim-Issuance-Policy.jpeg)
 
-**Step 4** - Adjust the trust settings.
+### Step 4: Adjust the trust settings
 
-To adjust the trust settings, select "RPT" and then select "Properties" in the Actions sidebar.
+To adjust the trust settings:
 
-In the Advanced tab, specify "SHA-1" as the secure hash algorithm.
+1. In the Actions sidebar, Select **RPT** and then select **Properties**.
+1. In the Advanced tab, specify **SHA-1** as the secure hash algorithm.
 
 [![adjusting trust](https://assets.postman.com/postman-docs/ENT-Adjusting-trust-settings.jpeg)](https://assets.postman.com/postman-docs/ENT-Adjusting-trust-settings.jpeg)
 
-**Step 5** - Submit Identity Provider details to Postman.
+### Step 5: Submit Identity Provider details
 
 After the setup, you must submit your Identity Provider's details to Postman.
 
-Download the FederationMetadata.xml. You can generally find this file at: `https://<Federation Service name>/FederationMetadata/2007-06/FederationMetadata.xml`
+1. Download the `FederationMetadata.xml` file. You can often find this file at: `https://<Federation Service name>/FederationMetadata/2007-06/FederationMetadata.xml`
+1. Collect the Identity Provider Single Sign-On URL, Identity Provider Issuer, and X.509 Certificate from the metadata file and enter these values in the [Team](https://app.getpostman.com/dashboard/teams) page under **Identity Provider Details**.
 
-Collect the Identity Provider Single Sign-On URL, Identity Provider Issuer, and X.509 Certificate from the metadata file and enter these values in the [Team](https://app.getpostman.com/dashboard/teams) page under **Identity Provider Details**.
+### Step 6: Enable the RelayState parameter on your ADFS servers
 
-**Step 6** Enable the RelayState parameter on your ADFS servers.
+Next, you must enable the RelayState parameter on your ADFS servers.
 
 * For ADFS 2.0, open the following file in a text editor:
 
-```shell
-%systemroot%\inetpub\adfs\ls\web.config
-```
+    ```shell
+    %systemroot%\inetpub\adfs\ls\web.config
+    ```
 
 * For ADFS 3.0, open the following file in a text editor:
 
-```shell
-%systemroot%\ADFS\Microsoft.IdentityServer.Servicehost.exe.config
-```
+    ```shell
+    %systemroot%\ADFS\Microsoft.IdentityServer.Servicehost.exe.config
+    ```
 
-In the `<microsoft.identityServer.web>` section, add a line for __useRelyStateForIdpInitiatedSignOn__ as follows, and save the change:
+1. In the `<microsoft.identityServer.web>` section, add a line for __useRelyStateForIdpInitiatedSignOn__ as follows, and save the change:
 
-```shell
-<microsoft.identityServer.web>    ... <useRelayStateForIdpInitiatedSignOn enabled="true" />    ...</microsoft.identityServer.web>
-```
+    ```shell
+    <microsoft.identityServer.web>    ... <useRelayStateForIdpInitiatedSignOn enabled="true" />    ...</microsoft.identityServer.web>
+    ```
 
-* For ADFS 2.0, run IISReset to restart IIS.
-* For both platforms, restart the Active Directory Federation Services (adfssrv) service.
+1. For ADFS 2.0, run IISReset to restart IIS.
+1. For both platforms, restart the Active Directory Federation Services (`adfssrv`) service.
 
-> If you're using ADFS 3.0 you only need to do the above on your ADFS 3.0 servers, not the WAP servers.
+    > If you're using ADFS 3.0 you only need to do the above on your ADFS 3.0 servers, not the WAP servers.
 
-Ensure that `<useRelayStateForIdpInitiatedSignOn enabled="true" />` has been added at `microsoft.identityServer.web`, then generate a URL encoded string from the relay state and the Entity ID as follows.
+1. Ensure that `<useRelayStateForIdpInitiatedSignOn enabled="true" />` has been added at `microsoft.identityServer.web`, then generate a URL encoded string from the relay state and the Entity ID as follows. There are two pieces of information you need to generate the RelayState URL:
 
-* There are two pieces of information you need to generate the RelayState URL. The first is the relying party's identifier, which can be found in the AD FS Management Console. View the Identifiers tab on the relying party's property page.
-* The second part is the actual RelayState value that you need to send to the relying Party. The example below uses the relying party identifier of `https://identity-example.getpostman.com` and the relay state of `35ef7ab89gh99hh00`.
+    * The relying party's identifier, which you can find in the AD FS Management Console. View the Identifiers tab on the relying party's property page.
+    * The actual RelayState value that you need to send to the relying Party. The example below uses the relying party identifier of `https://identity-example.getpostman.com` and the relay state of `35ef7ab89gh99hh00`.
+    * Starting values:
 
-Starting values:
+        * **RPID** - `https://identity-example.getpostman.com`
+        * **Relay State** - `35ef7ab89gh99hh00`
 
-* **RPID** - `https://identity-example.getpostman.com`
-* **Relay State** - `35ef7ab89gh99hh00`
+    > You should use a trusted URL encoder to generate the encode values.
 
-> You are advised to use a trusted URL encoder to generate the encode values.
+1. URL encode each value.
 
-URL encode each value.
+    * **RPID** - `https%3A%2F%2Fidentity-example.getpostman.com`
+    * **Relay State** - `35ef7ab89gh99hh00`
 
-* **RPID** - `https%3A%2F%2Fidentity-example.getpostman.com`
-* **Relay State** - `35ef7ab89gh99hh00`
+1. Merge the URL encoded values with the string below, and URL encode the whole string.
 
-Merge the URL encoded values with the string below, and URL encode the whole string.
+    * **String** - `RPID=<URL encoded RPID>&RelayState=<URL encoded RelayState>`
+    * **String with values** - `RPID=https%3A%2F%2Fidentity-example.getpostman.com&RelayState=35ef7ab89gh99hh00`
+    * **URL encoded string** - `RPID%3Dhttps%253A%252F%252Fidentity-example.getpostman.com%26RelayState%3D+35ef7ab89gh99hh00`
 
-* **String** - `RPID=<URL encoded RPID>&RelayState=<URL encoded RelayState>`
-* **String with values** - `RPID=https%3A%2F%2Fidentity-example.getpostman.com&RelayState=35ef7ab89gh99hh00`
-* **URL encoded string** - `RPID%3Dhttps%253A%252F%252Fidentity-example.getpostman.com%26RelayState%3D+35ef7ab89gh99hh00`
+1. Take the final string and append it to the IDP initiated sign-on URL.
 
-Take the final string and append it to the IDP initiated sign-on URL.
-
-* An example IDP initiated sign-on URL would have the following structure: `https://adfs.contoso.com/adfs/ls/idpinitiatedsignon.aspx`
-* **Final URL** - `https://adfs.contoso.com/adfs/ls/idpinitiatedsignon.aspx?RelayState=RPID%3Dhttps%253A%252F%252Fidentity-example.getpostman.com%26RelayState%3D+35ef7ab89gh99hh00`
+    * An example IDP initiated sign-on URL would have the following structure: `https://adfs.contoso.com/adfs/ls/idpinitiatedsignon.aspx`
+    * **Final URL** - `https://adfs.contoso.com/adfs/ls/idpinitiatedsignon.aspx?RelayState=RPID%3Dhttps%253A%252F%252Fidentity-example.getpostman.com%26RelayState%3D+35ef7ab89gh99hh00`
 
 The first time you sign in from Azure AD, go to the final URL in the browser. This sets the relay state and enables users to sign in with SSO in the future.
