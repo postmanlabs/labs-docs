@@ -9,9 +9,9 @@
 }
 
 body {
-  font-family: $Inter400;
+  font-family: $Inter;
   color: $grey_90;
-  font-feature-settings: "ss01", "onum", "zero";
+  font-feature-settings: "calt" 0;
   font-weight: 400;
   text-rendering: geometricPrecision;
   letter-spacing: -0.16px;
@@ -38,7 +38,7 @@ h5,
 .h5,
 h6,
 .h6 {
-  font-family: $Inter600;
+  font-family: $Inter;
   font-weight: 600;
 }
 
@@ -111,7 +111,7 @@ strong,
 .strong,
 .bold,
 .font-weight-bold {
-  font-family: $Inter600;
+  font-family: $Inter;
   font-weight: 600 !important;
 }
 
@@ -170,7 +170,7 @@ strong,
   text-align: center;
   padding: 10px;
   color: #282828;
-  font-family: $Inter600;
+  font-family: $Inter;
   font-weight: 600;
 }
 
@@ -186,7 +186,7 @@ strong,
 
 .hellobar__postman-link {
   height: 24px;
-  font-family: $Inter600;
+  font-family: $Inter;
   font-weight: 600;
   color: #282828;
   background-image: linear-gradient(180deg, transparent 50%, rgba(249,157,120,.5) 0);
