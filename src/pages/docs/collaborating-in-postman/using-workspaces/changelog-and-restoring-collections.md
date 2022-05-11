@@ -19,7 +19,7 @@ Each Postman Collection has a changelog that covers create, update, and delete e
 
 ## Contents
 
-* Viewing changes to a [collection](#viewing-the-collection-changelog), [workspace](#viewing-workspace-activity), [team](#viewing-team-activity), or [user account](#viewing-user-activity).
+* Viewing changes to a [collection](#viewing-the-collection-changelog), [workspace](#viewing-workspace-activity), [team](#viewing-team-activity), or [user account](#viewing-user-activity)
 * [Restoring collections](#restoring-collections)
 * [Exporting team activity](#exporting-team-activity-to-other-platforms)
 * [Next steps](#next-steps)
