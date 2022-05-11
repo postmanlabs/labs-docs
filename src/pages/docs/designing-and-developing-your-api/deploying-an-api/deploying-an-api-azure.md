@@ -63,14 +63,14 @@ For each connected API Management service instance, you can view the resource gr
 
 Select a service to view more details about the connected Azure API version.
 
-* **Revisions:** [Revisions](https://docs.microsoft.com/en-us/azure/api-management/api-management-revisions) enable you make and test changes to your API without affecting consumers. For each revision, you can view the revision ID, date created, description, URL, and Postman source.
+* **Revisions** - [Revisions](https://docs.microsoft.com/en-us/azure/api-management/api-management-revisions) enable you make and test changes to your API without affecting consumers. For each revision, you can view the revision ID, date created, description, URL, and Postman source.
 
     * Use the **Online** toggle to set a revision to offline or online. Consumers can't access an offline revision.
     * Use the **Current** toggle to make a revision the current revision for your API. Enter an optional description and select **Confirm**. Consumers access the current revision when calling the API.
 
-* **Changelog:** The changelog shows the deployment history for your API. Each time you make a revision current, Postman adds an entry to the changelog, including the date created, the date last updated, and a description of the change.
+* **Changelog** - The changelog shows the deployment history for your API. Each time you make a revision current, Postman adds an entry to the changelog, including the date created, the date last updated, and a description of the change.
 
-* **Export History:** The export history lists all exports from Postman for this API version. For each export, you can view the date created, the Azure revision, and the Postman source.
+* **Export History** - The export history lists all exports from Postman for this API version. For each export, you can view the date created, the Azure revision, and the Postman source.
 
 <img alt="Viewing a service instance" src="https://assets.postman.com/postman-docs/azure-apim-view-a-service-v9-17.jpg"/>
 
