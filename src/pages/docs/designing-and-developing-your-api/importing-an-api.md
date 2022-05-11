@@ -26,6 +26,7 @@ You can import an existing API schema into your API. API schemas can be imported
 * [Importing API schemas from GitHub](#importing-api-schemas-from-github)
 * [Importing API schemas from Bitbucket](#importing-api-schemas-from-bitbucket)
 * [Importing API schemas from Amazon API Gateway](#importing-api-schemas-from-amazon-api-gateway)
+* [Importing API schemas from Azure API Management](#importing-api-schemas-from-azure-api-management)
 * [Supported API schema formats](#supported-api-schema-formats)
 
 ## Importing API schemas
@@ -161,6 +162,28 @@ Next, enter information about the connection:
 * Enter an **API Name** for the imported API.
 
 When you're ready, select **Import**.
+
+## Importing API schemas from Azure API Management
+
+You can import a schema from a connected Azure API Management service to an API in Postman. Importing a schema will create a new API in Postman and will also configure an integration with Azure API Management. Learn more about [integrating with Azure API Management](/docs/designing-and-developing-your-api/deploying-an-api/deploying-an-api-azure/).
+
+To import an API schema from Azure API Management:
+
+1. From the sidebar, select **APIs**, then select **Import**.
+1. Select **API Gateway**, then select **Azure APIM**.
+1. You'll be prompted to authorize Postman to access your Microsoft Azure account. After you grant access, you can close the browser tab and return to Postman.
+1. Enter information about the Azure API Management service you want to import a schema from:
+
+    * **Subscription** - The [subscription](https://docs.microsoft.com/en-us/azure/api-management/api-management-subscriptions) where the service was created.
+    * **Resource Group** - The [resource group](https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/manage-resource-groups-portal) that contains the service.
+    * **Service** - The Azure API Management [service instance](https://docs.microsoft.com/en-us/azure/api-management/api-management-key-concepts) used for deploying your API.
+    * **Azure API Version** - The Azure API [version](https://docs.microsoft.com/en-us/azure/api-management/api-management-versions) you want to import.
+    * **Schema type** - Select the specification for the schema you want to import (OpenAPI 2.0 or OpenAPI 3.0).
+    * **API name** - The name to use for the new API that will be created in Postman using the imported schema.
+
+1. Select **Import**.
+
+    <img alt="Importing an API schema from Azure APIM" src="https://assets.postman.com/postman-docs/import-schema-from-azure-apim-v9-19.jpg" width="523px"/>
 
 ## Supported API schema formats
 
