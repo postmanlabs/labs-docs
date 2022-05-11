@@ -242,6 +242,7 @@ To revert your collection to a previous state:
 1. Select the changelog icon <img alt="Changelog icon" src="https://assets.postman.com/postman-docs/icon-changelog-v9.jpg#icon" width="18px"> on the right.
 2. Select a session to expand it.
 3. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the change you'd like to restore your collection to, then select **Restore to this change**.
+
     <img alt="Restore from changelog" src="https://assets.postman.com/postman-docs/changelog-restore-v9.16.jpg" width="350px"/>
 
 Restoring a collection from the changelog reverts it to the point immediately after your selected change occurred.

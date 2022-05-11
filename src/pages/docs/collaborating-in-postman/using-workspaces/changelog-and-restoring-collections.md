@@ -15,11 +15,11 @@ warning: false
 
 > **[Changelog is available on Postman Basic, Professional, and Enterprise plans.](https://www.postman.com/pricing/)**
 
-Each Postman Collection has a changelog that covers create, update, and delete events. You can use the changelog to keep track of updates you and your collaborators make to your private and team collections. The changelog also lets you roll back a collection and restore it to an earlier point in time.
+Each Postman Collection has a changelog that covers create, update, transfer, and delete events. You can use the changelog to keep track of updates you and other collaborators make to your private and team collections. The changelog also enables you to roll back a collection and restore it to an earlier point in time.
 
 ## Contents
 
-* Viewing changes to a [collection](#viewing-the-collection-changelog), [workspace](#viewing-workspace-activity), [team](#viewing-team-activity), or [user account](#viewing-user-activity)
+* Viewing changes to a [collection](#viewing-the-collection-changelog), [workspace](#viewing-workspace-activity), or [team](#viewing-team-activity)
 * [Restoring collections](#restoring-collections)
 * [Exporting team activity](#exporting-team-activity-to-other-platforms)
 * [Next steps](#next-steps)
@@ -78,10 +78,6 @@ To filter by entity, select **Entity** at the top of the activity feed and selec
 
 You can review the activity for a team with a Postman Basic, Professional, or Enterprise account. In [Postman](https://go.postman.co/), use the __Workspaces__ dropdown to select your team, then go to the __Activity__ feed to view the events.
 
-## Viewing user activity
-
-You can review the activity for your own account in [Postman](https://go.postman.co/). Select your avatar in the top right, then select __Profile__. The __Activity__ tab will list your events.
-
 ## Restoring collections
 
 You can use the [changelog](#viewing-the-collection-changelog) to restore a collection to an earlier point in time.
@@ -90,6 +86,7 @@ To restore a collection from the changelog:
 
 1. Select a session to expand it.
 2. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the change you'd like to restore your collection to, then select **Restore to this change**.
+
     <img alt="Restore from changelog" src="https://assets.postman.com/postman-docs/changelog-restore-v9.16.jpg" width="350px"/>
 
 Restoring a collection from the changelog reverts it to the point immediately after your selected change occurred.
