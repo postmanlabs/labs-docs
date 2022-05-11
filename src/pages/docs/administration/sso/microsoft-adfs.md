@@ -12,6 +12,18 @@ contextual_links:
     url: "/docs/administration/sso/intro-sso/"
 ---
 
+You can configure [Microsoft Active Directory Federation Services](https://docs.microsoft.com/en-gb/windows-server/identity/active-directory-federation-services) (AD FS) to work with Postman single sign-on (SSO).
+
+## Contents
+
+* [Prerequisites](#prerequisites)
+* [Configuration](#configuration)
+    * [Step 1: Create an AD FS authentication scheme](#step-1-create-an-ad-fs-authentication-scheme)
+    * [Step 2: Add a Relying Party Trust](#step-2-add-a-relying-party-trust)
+    * [Step 3: Create claim rules](#step-3-create-claim-rules)
+    * [Step 4: Adjust the trust settings](#step-4-adjust-the-trust-settings)
+    * [Step 5: Submit Identity Provider details](#step-5-submit-identity-provider-details)
+    * [Step 6: Enable the RelayState parameter on your AD FS servers](#step-6-enable-the-relaystate-parameter-on-your-ad-fs-servers)
 
 ## Prerequisites
 
@@ -133,17 +145,17 @@ After the setup, you must submit your Identity Provider's details to Postman.
 1. Download the `FederationMetadata.xml` file. You can often find this file at: `https://<Federation Service name>/FederationMetadata/2007-06/FederationMetadata.xml`
 1. Collect the Identity Provider Single Sign-On URL, Identity Provider Issuer, and X.509 Certificate from the metadata file and enter these values in the [Team](https://app.getpostman.com/dashboard/teams) page under **Identity Provider Details**.
 
-### Step 6: Enable the RelayState parameter on your ADFS servers
+### Step 6: Enable the RelayState parameter on your AD FS servers
 
-Next, you must enable the RelayState parameter on your ADFS servers.
+Next, you must enable the RelayState parameter on your AD FS servers.
 
-* For ADFS 2.0, open the following file in a text editor:
+* For AD FS 2.0, open the following file in a text editor:
 
     ```shell
     %systemroot%\inetpub\adfs\ls\web.config
     ```
 
-* For ADFS 3.0, open the following file in a text editor:
+* For AD FS 3.0, open the following file in a text editor:
 
     ```shell
     %systemroot%\ADFS\Microsoft.IdentityServer.Servicehost.exe.config
@@ -155,10 +167,10 @@ Next, you must enable the RelayState parameter on your ADFS servers.
     <microsoft.identityServer.web>    ... <useRelayStateForIdpInitiatedSignOn enabled="true" />    ...</microsoft.identityServer.web>
     ```
 
-1. For ADFS 2.0, run IISReset to restart IIS.
+1. For AD FS 2.0, run IISReset to restart IIS.
 1. For both platforms, restart the Active Directory Federation Services (`adfssrv`) service.
 
-    > If you're using ADFS 3.0 you only need to do the above on your ADFS 3.0 servers, not the WAP servers.
+    > If you're using AD FS 3.0 you only need to do the above on your AD FS 3.0 servers, not the WAP servers.
 
 1. Ensure that `<useRelayStateForIdpInitiatedSignOn enabled="true" />` has been added at `microsoft.identityServer.web`, then generate a URL encoded string from the relay state and the Entity ID as follows. There are two pieces of information you need to generate the RelayState URL:
 
