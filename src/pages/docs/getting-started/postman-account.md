@@ -82,7 +82,7 @@ After you sign in, you will see a confirmation in your browser and you will be r
 
 ### Switching between accounts
 
-You can sign in to multiple accounts at the same time in Postman. Select your user avatar in the top right to toggle between accounts or select __Add a new account__ to sign in with another one.
+You can sign in to multiple accounts at the same time in Postman. Select your user avatar in the top right to switch between accounts or select __Add a new account__ to sign in with another one.
 
 ## Updating your account and profile settings
 
@@ -96,7 +96,7 @@ You can manage account settings including your email address, password, and work
 
 If you are on a Professional, Basic, or Free plan, you can change the email address associated with your Postman account. Open your [account settings](https://go.postman.co/settings/me/account/) page. Select your avatar in the upper-right corner > **Account Settings** > **Account**. Edit your email address and select **Update Email** to save changes.
 
-If you are on an Enterprise plan, you must contact your team admins to update the email address associated with your Postman account.
+If you are on an Enterprise plan, you must contact your Team Admins to update the email address associated with your Postman account.
 
 #### Resetting your password
 
@@ -106,7 +106,7 @@ If you aren't signed in to your Postman account, you can recover your username o
 
 > If you still have trouble logging into your Postman account, contact [Postman support](https://support.postman.com/hc/en-us).
 
-If you are on an Enterprise plan, you must contact your team admins to update the password associated with your Postman account.
+If you are on an Enterprise plan, you must contact your Team Admins to update the password associated with your Postman account.
 
 #### Deleting your account
 
@@ -114,7 +114,7 @@ Deleting your account is an irreversible operation. Any data synced to your acco
 
 If you are on a Professional, Basic, or Free plan, you can permanently delete your Postman account from your [account settings](https://go.postman.co/settings/me/account/) page. Select your avatar in the upper-right corner > **Account Settings** > **Account**. Select **Delete Account**. Before the account is deleted, you will be asked to sign in again to confirm that you own the account.
 
-If you are on an Enterprise plan, you must contact your team admins to delete your Postman account.
+If you are on an Enterprise plan, you must contact your Team Admins to delete your Postman account.
 
 ### Updating your profile
 
@@ -126,7 +126,7 @@ You can update your username at any time by navigating to your [profile settings
 
 #### Making your profile public
 
-Your Postman profile is visible to your Postman team, and you can choose to make your profile public to the Postman community. You can turn your public profile on or off at any time in your [profile settings](https://go.postman.co/settings/me/). Select your avatar in the upper-right corner > **Account Settings**. Select the toggle next to **Make profile public**, then **Update Profile**.
+Your Postman profile is visible to your Postman team, and you can choose to make your profile public to the Postman community. You can turn your public profile on or off at any time in your [profile settings](https://go.postman.co/settings/me/). Select your avatar in the upper-right corner > **Account Settings** > **Profile**. Select **Make profile public**, then select **Update Profile** to save your changes.
 
 ## Updating your notification preferences
 

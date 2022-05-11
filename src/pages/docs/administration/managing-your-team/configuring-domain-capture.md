@@ -33,7 +33,7 @@ Domain capture allows you to identify and manage all user accounts in Postman th
 
 ## Prerequisites for domain capture
 
-You must be a [Postman team admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) to enable domain capture for your team. In addition, domain capture requires the following:
+You must be a [Postman Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) to enable domain capture for your team. In addition, domain capture requires the following:
 
 * Your team must be on the [Postman Enterprise](https://www.postman.com/pricing) plan.
 * Your team must be on [Postman version 9](/docs/administration/upgrading/).
@@ -60,7 +60,7 @@ In Postman, you can select **← Back** to return to your domain dashboard.
 
 Verification status will change from "Created" to "In Progress" after the TXT record has been added to the domain's DNS configuration.
 
-Postman's team will check your requested domain and update its status to "Verified" in your domain dashboard, as well as notify your team admins via email.
+Postman's team will check your requested domain and update its status to "Verified" in your domain dashboard. They will also email your Team Admins.
 
 > You can reach out to [Postman support](https://www.postman.com/support/) to check on the status of your domain verification.
 
@@ -74,7 +74,7 @@ You can enable domain capture for additional domains and subdomains at any time 
 
 ## Admin experience
 
-Team admins can manage the domains and subdomains that have been added to a team by navigating to the [domain dashboard](https://go.postman.co/settings/team/domain-capture). Here, admins can add, activate, deactivate, or delete domains and subdomains for their team at any time.
+Users with the [Team Admin role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can manage the domains and subdomains that have been added to a team by navigating to the [domain dashboard](https://go.postman.co/settings/team/domain-capture). Here, Admins can add, activate, deactivate, or delete domains and subdomains for their team at any time.
 
 <img alt="Domain dashboard" src="https://assets.postman.com/postman-docs/authentication-domain-dashboard-9.5.jpg"/>
 
@@ -113,21 +113,21 @@ The experience for captured users depends on their prior team status:
     * The next time the user logs in, they will be prompted to join your organization's team via SSO.
     * When the user authenticates into your organization's team via SSO, their existing data will be available in their personal workspace.
 * If a captured user is the last admin of an existing free team:
-    * They're removed from the team and the remaining members are assigned the admin role. The data that solely belongs to them and hasn't been shared will be moved with them.
+    * They're removed from the team and the remaining members are assigned the [Admin role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles). The data that solely belongs to them and hasn't been shared will be moved with them.
     * All existing user sessions are revoked.
     * The next time the user logs in, they will be prompted to join your organization's team via SSO.
     * When the user authenticates into your organization's team via SSO, their existing data will be available in their personal workspace.
 * If a captured user is the last admin of an existing paid team:
-    * Postman support will contact your team admins to discuss how to approach this prior to verifying the domain you've added to your team.
+    * Postman support will contact your Team Admins to discuss how to approach this prior to verifying the domain you've added to your team.
     * All existing user sessions are revoked.
     * The next time the user logs in, they will be prompted to leave their existing team.
-    * They will need to contact [Postman support](https://www.postman.com/support/) to assign the admin role to another team member and remove them from the team. The data that solely belongs to them and hasn't been shared will be moved with them.
+    * They will need to contact [Postman support](https://www.postman.com/support/) to assign the Admin role to another team member and remove them from the team. The data that solely belongs to them and hasn't been shared will be moved with them.
     * Once they have been removed from their previous team, they can authenticate via SSO and join your organization's team. Their existing data will be available in their personal workspace.
 
-### Can a team admin view the list of user accounts that will be captured before enabling domain capture?
+### Can a Team Admin view the list of user accounts that will be captured before enabling domain capture?
 
-Yes, a team admin can view the list of the unclaimed Postman accounts that will be captured prior to confirming they'd like to enable domain capture.
+Yes, a Team Admin can view the list of the unclaimed Postman accounts that will be captured prior to confirming they'd like to enable domain capture.
 
 ### Does adding a domain automatically add all the users with the organization’s domain to the organization’s team?
 
-No, after a domain is added, it must be verified by [Postman support](https://www.postman.com/support/). Postman support will contact team admins to evaluate and explain the effects of enabling domain capture, then confirm verification of the domain. Any team admin will then be able to enable domain capture for your Postman team.
+No, after a domain is added, it must be verified by [Postman support](https://www.postman.com/support/). Postman support will contact Team Admins to evaluate and explain the effects of enabling domain capture, then confirm verification of the domain. Any Team Admin will then be able to enable domain capture for your Postman team.
