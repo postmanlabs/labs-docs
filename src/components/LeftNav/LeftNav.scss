@@ -5,7 +5,7 @@
   padding: 32px 0px 8px 0px;
   background-color: $grey_05;
   font-size: 14px;
-  font-family: $Inter400;
+  font-family: $Inter;
 
   & ul {
     margin-left: 0;
@@ -105,7 +105,7 @@
     color: $grey_50;
 
     &.currentUrl{
-      font-family: $Inter600;
+      font-family: $Inter;
       font-weight: 600;
 
       > * {

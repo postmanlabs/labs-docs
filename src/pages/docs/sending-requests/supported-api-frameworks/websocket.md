@@ -139,7 +139,7 @@ In an expanded message:
 
 * Select **Text**, **HTML**, **JSON**, or **XML** to change the formatting of the message.
 * Select **Wrap Line** to add or remove line wraps.
-* Select **Show Hexdump** or **Show Message** to toggle if the message is shown in hex or text.
+* Select **Show Hexdump** or **Show Message** to show the message in hex or text.
 * Use the search control to search the body of the message.
 * Hover over a line number and select the arrow to expand or collapse message blocks.
 [![WebSocket message body](https://assets.postman.com/postman-docs/websocket-message-body.jpg)](https://assets.postman.com/postman-docs/websocket-message-body.jpg)

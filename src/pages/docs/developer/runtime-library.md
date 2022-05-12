@@ -19,7 +19,7 @@ warning: false
 
 ---
 
-The Postman Runtime library supports request sending and [collection running](/docs/running-collections/intro-to-collection-runs/) in Postman as well as in other interfaces including Newman CLI.
+The Postman Runtime library supports request sending and [collection running](/docs/running-collections/intro-to-collection-runs/) in Postman as well as in other interfaces including [Newman](/docs/running-collections/using-newman-cli/command-line-integration-with-newman/), Postman's command-line collection runner.
 
 The library is an [open-source Node.js project](https://github.com/postmanlabs/postman-runtime/) you can utilize for low-level configuration over request sending in your API development and testing projects.
 
@@ -51,7 +51,7 @@ function (err, run) {
 
 You can use the Runtime library if you need a detailed configuration of your request runs, for example as part of an automation workflow to integrate Postman Collection runs into your development pipeline.
 
-> Note that if you only need to run collections, you can use [Newman CLI](/docs/running-collections/using-newman-cli/command-line-integration-with-newman/).
+> Note that if you only need to run collections, you can use [Newman](/docs/running-collections/using-newman-cli/command-line-integration-with-newman/), Postman's command-line tool.
 
 ## Next steps
 

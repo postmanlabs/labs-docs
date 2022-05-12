@@ -95,7 +95,7 @@ There are several controls you can use to limit, organize, and investigate traff
 
 * Select the name **Interceptor debug session** and enter another name to change the window name.
 * The **Configure incoming requests** controls at the top of the window enable you to limit captured traffic. Select items from **Methods** and **URL** to limit the traffic. These controls are similar to the ones you set initially, but they limit what is being captured instead of what is going through Interceptor.
-* You can select or unselect **Capture Cookies** to toggle if cookies are collected.
+* Select **Capture Cookies** to collect cookies and sync them to the Interceptor session.
 * Select the **Requests** tab to view incoming requests and responses, or **Cookies** to see captured cookies.
 * Use the search box to look for specific requests.
 * Select **>** next to a request to expand it and see more details.
@@ -262,12 +262,12 @@ The Postman Chrome app's Interceptor functions as a proxy to capture HTTP and HT
 
 You can filter requests according to the URL by selecting the Interceptor icon in your browser, then applying a filter under **Filter requests**.
 
-You can use Interceptor to create a Postman collection for a web app or to debug your APIs. You can also use the Postman Chrome app in tandem with Interceptor to make and capture requests.
+You can use Interceptor to create a Postman Collection for a web app or to debug your APIs. You can also use the Postman Chrome app in tandem with Interceptor to make and capture requests.
 
 To use Interceptor with Postman Chrome:
 
 1. [Install Postman](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop?) from the Chrome Web Store.
 2. Install [Interceptor](https://chrome.google.com/webstore/detail/postman-interceptor/aicmkgpgakddgnaphhhpliifpcfhicfo/) from the Chrome Web Store.
-3. Open Postman, select the Interceptor icon in the toolbar, and toggle to **On**.
+3. Open Postman, select the Interceptor icon in the toolbar, and select **On**.
 
 You can then browse your app or website and monitor requests as they stream in to your Postman history.

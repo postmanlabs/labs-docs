@@ -23,20 +23,11 @@ contextual_links:
 
 ## Configuring single sign-on
 
-Only a team administrator (admin) can configure single sign-on (SSO) for a Postman team.
-
-Go to [Team Settings](https://app.getpostman.com/dashboard/teams/edit). In the following screen, select **Authentication**.
-
-[![sso enable](https://assets.postman.com/postman-docs/edit-team-profile.jpg)](https://assets.postman.com/postman-docs/edit-team-profile.jpg)
-
-Upon selecting *Authentication*, the following screen appears:
-
-[![sso enable](https://assets.postman.com/postman-docs/configured-auths.jpg)](https://assets.postman.com/postman-docs/configured-auths.jpg)
-
-After configuring an SSO authentication for your Postman team, you can use the toggle option in Settings (as illustrated above) to turn on or off this SSO authentication. Select the toggle to turn your SSO authentication system on or off. This is a team-level option and applies to the whole team. To update the SSO settings, select **Edit**.
+Only a [Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can configure single sign-on (SSO) for a Postman team.
 
 To configure a new authentication method:
 
+1. Go to [Team Settings](https://app.getpostman.com/dashboard/teams/edit), then select **Authentication**.
 1. Select **Add Authentication Method**.
 1. Select the authentication type.
 1. Enter an authentication name that is easily identifiable to your team.
@@ -65,6 +56,14 @@ To enter details in the **Identity Provider Details** section, you must sign in 
 * [Setting up SSO with Ping Identity](/docs/administration/sso/ping-identity/)
 
 * [Setting up SSO with Azure AD](/docs/administration/sso/azure-ad/)
+
+## Edit SSO settings
+
+After configuring an SSO authentication method for your Postman team, you can select the **Status** toggle to turn it on or off. This is a team-level option, so this setting applies to the whole team.
+
+To update the settings for an authentication method, select **Edit**.
+
+<img alt="" src="https://assets.postman.com/postman-docs/admin-sso-turn-on-auth-method-v9.jpg" width="800px"/>
 
 ## Managing user accounts
 

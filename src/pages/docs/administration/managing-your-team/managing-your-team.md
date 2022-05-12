@@ -46,9 +46,9 @@ Everyone in your team is a member. Each member has certain roles, which allow th
 
 An admin can modify the roles of other team members individually by selecting **Team** in the upper right > [**Manage Team**](https://go.postman.co/settings/team/members).
 
-An admin can manage which team members have **Admin** and **Developer** roles. If you are on a [Postman Professional or Enterprise](https://www.postman.com/pricing) plan, an admin will also have the option of assigning a **Community Manager**. If you are on a Postman Enterprise plan, an admin will additionally have the option to assign the **Super Admin** role.
+An admin can manage which team members have Admin and Developer roles. If you are on a [Postman Professional or Enterprise](https://www.postman.com/pricing) plan, an admin will also have the option of assigning a Community Manager. If you are on a Postman Enterprise plan, an admin will additionally have the option to assign the Super Admin role.
 
-Only a team member with the billing role can grant the **Billing** role to or remove it from other team members.
+Only a team member with the Billing role can grant the Billing role to, or remove it from, other team members.
 
 Under **Members**, select the roles next to the user you would like to update. Select the roles you would like to assign or unassign, then **Update Roles** to confirm your changes.
 
@@ -56,13 +56,13 @@ Under **Members**, select the roles next to the user you would like to update. S
 
 Each team member must have a minimum of one role assigned to them.
 
-Teams may have two support accounts at no additional cost. Support accounts are defined as members with only admin or billing roles.
+Teams may have two support accounts at no additional cost. Support accounts are defined as members with only Admin or Billing roles.
 
 > Roles can also be assigned via [groups](/docs/administration/managing-your-team/user-groups/).
 
 ## Invites
 
-Invitations are sent to individuals you opt to add to your Postman team. Only admins are able to send, delete, and resend these. However, other members of the team can request to invite members to the team. These requests must be approved by an admin. Once approved, an invite will be sent to the individual.
+Invitations are sent to individuals you opt to add to your Postman team. Only [Team Admins](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can send, delete, and resend these. However, other members of the team can request to invite members to the team. These requests must be approved by an Admin. Once approved, an invite will be sent to the individual.
 
 To allow Postman users from your company to request to join your team, [enable team discovery](/docs/collaborating-in-postman/collaboration-intro/#making-your-team-discoverable).
 
