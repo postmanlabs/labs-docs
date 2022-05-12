@@ -87,7 +87,7 @@ Hover over a header to see where it was added. To change an auth header, return 
 
 Your request auth can use environment, collection, and global [variables](/docs/sending-requests/variables/). Postman doesn't save header data or query parameters to avoid exposing sensitive data such as API keys.
 
-You can inspect a raw dump of the entire request including auth data in the Postman console after you send it.
+You can inspect a raw dump of the entire request including auth data in the Postman Console after you send it.
 
 ## Inheriting authorization
 

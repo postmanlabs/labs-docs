@@ -41,7 +41,7 @@ Check out the pages in this section for an intro to developer resources that all
     * The Runtime library powers Postman request sending functionality.
 * [**Code generators**](/docs/developer/code-generators/)
     * Postman uses the code generators SDK to create client snippets from your requests.
-* [**Postman collection converters**](/docs/developer/collection-conversion/)
-    * The converters allow you to transform OpenAPI, Swagger, RAML, and GraphQL specs to Postman collection format.
+* [**Postman Collection converters**](/docs/developer/collection-conversion/)
+    * The converters allow you to transform OpenAPI, Swagger, RAML, and GraphQL specs to Postman Collection format.
 
 > You can use [Newman](/docs/running-collections/using-newman-cli/command-line-integration-with-newman/), Postman's command-line collection runner, in conjunction with other utilities to build collection runs into your development pipeline. Newman is also an [open-source project](https://github.com/postmanlabs/newman) that you can use and contribute to.

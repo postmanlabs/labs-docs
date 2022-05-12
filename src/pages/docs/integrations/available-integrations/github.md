@@ -52,7 +52,7 @@ To integrate with GitHub, you will need a GitHub personal access token.
 
 ## Backing up collections on GitHub
 
- You can back up a Postman collection to a GitHub repository. After you create the integration, any new changes to the collection in Postman will also appear in the GitHub repository.
+ You can back up a Postman Collection to a GitHub repository. After you create the integration, any new changes to the collection in Postman will also appear in the GitHub repository.
 
 1. From the **[Home](https://go.postman.co/home)** page select **[Integrations](https://go.postman.co/integrations)**.
 
@@ -82,7 +82,7 @@ To integrate with GitHub, you will need a GitHub personal access token.
 
 1. To finish setting up the integration, select **Add Integration**.
 
-Every change saved to your Postman collection automatically commits changes to your GitHub repo in JSON format. Go to your GitHub repository to view your collections.
+Every change saved to your Postman Collection automatically commits changes to your GitHub repo in JSON format. Go to your GitHub repository to view your collections.
 
 <img alt="Github integrations screen" src="https://assets.postman.com/postman-docs/Github_Integrations5.png" style="border: 1px solid #4a4a4a">
 

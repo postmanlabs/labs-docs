@@ -60,7 +60,7 @@ A _fork_ is a new instance of an entity that you can change without making any c
 
 > To fork a collection, environment, or flow within a public workspace, you must enable your public profile in your [profile settings](https://go.postman.co/settings/me). For more information on making your profile public, see [Managing your account](/docs/getting-started/postman-account/#making-your-profile-public).
 
-When you fork a Postman collection, environment, or flow, you create a copy of it in a different workspace. You must sign in to Postman to create a fork.
+When you fork a Postman Collection, environment, or flow, you create a copy of it in a different workspace. You must sign in to Postman to create a fork.
 
 To fork an entity:
 

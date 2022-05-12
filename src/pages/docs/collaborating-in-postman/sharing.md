@@ -59,7 +59,7 @@ Individual team members and groups you invite will be notified immediately of yo
 
 <!-- -->
 
-> Your team must have [available slots](/docs/administration/billing/#changing-your-plan) or [auto-flex enabled](/docs/administration/billing/#utilizing-auto-flex) to invite additional team members.
+> Your team must have [available slots](/docs/administration/billing/#changing-your-plan) or [Auto-Flex enabled](/docs/administration/billing/#utilizing-auto-flex) to invite additional team members.
 
 You can also share collections via a [Run in Postman](/docs/publishing-your-api/run-in-postman/creating-run-button/) button or via a JSON link.
 

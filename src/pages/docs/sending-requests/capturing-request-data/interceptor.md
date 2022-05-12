@@ -262,7 +262,7 @@ The Postman Chrome app's Interceptor functions as a proxy to capture HTTP and HT
 
 You can filter requests according to the URL by selecting the Interceptor icon in your browser, then applying a filter under **Filter requests**.
 
-You can use Interceptor to create a Postman collection for a web app or to debug your APIs. You can also use the Postman Chrome app in tandem with Interceptor to make and capture requests.
+You can use Interceptor to create a Postman Collection for a web app or to debug your APIs. You can also use the Postman Chrome app in tandem with Interceptor to make and capture requests.
 
 To use Interceptor with Postman Chrome:
 
