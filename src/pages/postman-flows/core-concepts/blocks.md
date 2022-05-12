@@ -25,7 +25,7 @@ Additionally, a flow in itself can be considered as a block.
 
 ## Anatomy
 
-![](https://www.postmanlabs.com/postman-flows/static/block-anatomy.svg)
+![](https://assets.postman.com/postman-labs-docs/block/block-anatomy.svg)
 
 1. **Name**
    This is the name of the block

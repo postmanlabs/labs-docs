@@ -13,22 +13,22 @@ A very common use case is to take data from once response, and pipe that to anot
 
    Bring two Send Request blocks by clicking on the `+ Block` button on the toolbar. Select the ”Create a Post” for the first request and ”Update Post” request for the second.
 
-   ![https://www.postmanlabs.com/postman-flows/static/chaining/add-two-requests.gif](https://www.postmanlabs.com/postman-flows/static/chaining/add-two-requests.gif)
+   ![Add two requests](https://assets.postman.com/postman-labs-docs/chaining-requests/chaining-add-two-requests.gif)
 
 2. **Pipe the message from output to input**
 
-   Now we need to tell the flow how the [message](https://www.notion.so/Messages-929f3acc3e504ef596ce59fd8972a4a2) should *flow*. To do that, connect the `response` output of the first block to the `variables` input of the second block.
+   Now we need to tell the flow how the [message](../core-concepts/messages.md) should *flow*. To do that, connect the `response` output of the first block to the `variables` input of the second block.
 
-   ![https://www.postmanlabs.com/postman-flows/static/chaining/pipe-data.gif](https://www.postmanlabs.com/postman-flows/static/chaining/pipe-data.gif)
+   ![Pipe data](https://assets.postman.com/postman-labs-docs/chaining-requests/chaining-pipe-data.gif)
 
    > 1. On flow execution, the output message from the source block is passed over to the input of the target block using the pipe connection.
    > 2. When using pipes to connect blocks, signal connections are **optional**. Flows automatically decides the order in which the blocks should execute based on connections. (Signal can be used explicitly to manually override the order of execution)
 
-3. Check the output in the terminal\*\*
+3. Check the output in the terminal
 
    At this point we don't really know what the output of the ”Send Request” looks like. So let's add the ”Terminal” block to see the output.
 
-   ![https://www.postmanlabs.com/postman-flows/static/chaining/check-in-terminal.gif](https://www.postmanlabs.com/postman-flows/static/chaining/check-in-terminal.gif)
+   ![CHeck the terminal](https://assets.postman.com/postman-labs-docs/chaining-requests/chaining-check-in-terminal.gif)
 
    The output has the following structure and the `id` is present in the body.
 
@@ -58,13 +58,13 @@ A very common use case is to take data from once response, and pipe that to anot
 
    ```
 
-   ![https://www.postmanlabs.com/postman-flows/static/chaining/set-variable.gif](https://www.postmanlabs.com/postman-flows/static/chaining/set-variable.gif)
+   ![Set variable](https://assets.postman.com/postman-labs-docs/chaining-requests/chaining-set-variable.gif)
 
 5. **Start the Flow**
 
    Start the flow and the data will *flow* through!
 
-   ![https://www.postmanlabs.com/postman-flows/static/chaining/start-flow.gif](https://www.postmanlabs.com/postman-flows/static/chaining/start-flow.gif)
+   ![Start the flow](https://assets.postman.com/postman-labs-docs/chaining-requests/chaining-start-flow.gif)
 
    You can observe that the request sent has the path param set to `1` which we obtained from the `body.id`
 
