@@ -29,29 +29,52 @@
 
 export const leftNavItems = [
   {
-    name: 'Getting started',
-    parentSlug: 'getting-started',
-    url: '/postman-flows/getting-started/flows-overview/',
+    name: "Getting started",
+    parentSlug: "getting-started",
+    url: "/postman-flows/getting-started/flows-overview/",
     subMenuItems1: [
       {
-        name: 'Overview',
-        url: '/postman-flows/getting-started/flows-overview/',
+        name: "Introduction",
+        url: "/postman-flows/getting-started/flows-overview/",
       },
       {
-        name: 'The Interface',
-        url: '/postman-flows/getting-started/the-interface/',
+        name: "The Interface",
+        url: "/postman-flows/getting-started/the-interface/",
       },
       {
-        name: 'The Block',
-        url: '/postman-flows/getting-started/the-block/',
+        name: "Running requests in sequence",
+        url: "/postman-flows/getting-started/running-requests-in-sequence/",
       },
       {
-        name: 'Data Types',
-        url: '/postman-flows/getting-started/data-types/',
+        name: "Chaining requests with data",
+        url: "/postman-flows/getting-started/chaining-requests-with-data/",
       },
       {
-        name: 'FAQs',
-        url: '/postman-flows/getting-started/flows-faq/',
+        name: "Working with access tokens",
+        url: "/postman-flows/getting-started/working-with-access-tokens/",
+      },
+    ],
+  },
+  {
+    name: "Core concepts",
+    parentSlug: "core-concepts",
+    url: "/postman-flows/core-concepts/blocks/",
+    subMenuItems1: [
+      {
+        name: "Blocks",
+        url: "/postman-flows/core-concepts/blocks/",
+      },
+      {
+        name: "Messages",
+        url: "/postman-flows/core-concepts/messages/",
+      },
+      {
+        name: "Connections",
+        url: "/postman-flows/core-concepts/connections/",
+      },
+      {
+        name: "Data Types",
+        url: "/postman-flows/core-concepts/data-types/",
       },
     ],
   },

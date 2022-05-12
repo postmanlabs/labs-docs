@@ -1,85 +1,39 @@
 ---
-title: "Postman Flows"
-page_id: "postman_flows"
-updated: 2022-05-04
+title: "Introduction"
+order: 1
+page_id: "introduction"
 warning: false
-
+updated: 2022-05-12
+contextual_links:
+  - type: section
+    name: "Prerequisites"
+  - type: link
+    name: "Download and Install"
+    url: "https://www.postman.com/downloads/"
 ---
 
-### A visual programming language for APIs 
+Welcome to Postman flows, a visual tool to create API workflows. You can use Flows to chain requests, handle data and create real world workflows right in your Postman workspace.
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4Yr9CG8Pp14" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Postman Flows is an API workflow builder that lets you connect APIs logically. Use Flows to chain requests, handle data and create real world workflows right in your Postman workspace.
+Whether you're just starting out with flows or want to learn more about its core concepts, these documentations should help you get there
 
->Postman Flow is a `beta feature` and is available to members of *any* plans. 
-Head on to [Postman web app](https://go.postman.co/) or use the latest version 
-of [Postman desktop app](https://www.postman.com/downloads/) to start creating Flows.
+## Quick Start
 
-## Fundamentals
-There are just **4 fundamental** concepts that you need to know before starting
-to use flows.
+- [Running requests in sequence](getting-started/running-requests-in-sequence.md)
+- [Chaining requests with data](https://www.notion.so/Chaining-requests-with-data-42df05f9945d4a24bf656229314b176f)
+- [Working with access tokens](https://www.notion.so/Working-with-access-tokens-ebf57f77d92a4b0f9a84ed0a37aac06d)
+- [Looping over data](https://www.notion.so/Looping-66ae595185714b01ad989811ef68978d)
 
-![Concepts](https://www.postmanlabs.com/postman-flows/static/concepts.png)
+## Learn more about Flows core concepts
 
-### Block
-A **Block** is the basic unit of flows. There are various kind of blocks,
-some *create data*, some *process data* and some *visualize data*. 
-In the above example you can see three blocks which are capable of Sending a HTTP request.
+- [Blocks](https://www.notion.so/Blocks-858667c9747e4918a2d12c89e31136fd)
+- [Messages](https://www.notion.so/Messages-929f3acc3e504ef596ce59fd8972a4a2)
+- [Connections](https://www.notion.so/Connections-12d476153198490dbf8d2564e697f253)
+- [Data Types](https://www.notion.so/Data-Types-a727e3c67eed4e2aaab1d8ba8e419db6)
 
-To be able to send a request, the block might need some **input** like variable
-and it might generate some **output** like the response. Every block is different but fundamentally 
-it is a black-box process which takes in some input messages,executes and then generates output messages.
-
-Additionally, a flow in itself can be considered as a block.
-
-> **Important**
-> 1. A block to executable when all of it's **required** inputs are connected.
-> 2. A block starts running when a message packet becomes available in all of its connected inputs.
-> 3. A block is not a function but a process
-
-### Messages
-A **Message** is a single packet of data. A message could be a simple string or number, or it could be a
-large complex data structure like an List of users, or maybe an entire Movie.
-
-Data structures like Lists can also be converted to Streams which can be processed by blocks asynchronously.
-
-> **Geek's Note**
-> 
-> When message flow from one block another, the actual data does not move but a pointer to the message is passed along.
-
-### Connection
-A **Connection** is a data pipe which can be used to transfer messages from output of one block to the
-input of another. Imagined them as FedEx like courier service that transfer mails and parcels between addresses.
-
-> **Important**
-> 1. Connections don't store data, they just transmit.
-> 2. Message can't be transmitted to an input if it already has a message. Messages wait in the output until the receivers completes processing the existing message.
-> 3. When two connections are connected to the output, then a message is duplicated and sent to both connections.
-> 4. When two connections are connected to the input and both have messages, they don't get merged, the block processes each message in a round-robbin fashion.
-
-### Signal (advanced)
-A **Signal** is a special kind of connection that does not carry data but a signal which is triggered when a block completes processing.
-
-Very often execution happens in parallel, but there may be requirements to halt the execution of block until other blocks have completed their execution. 
-In such cases the signal can be used to pause execution and synchronize. 
-
-Signal ports also understand stream, so they don’t turn on until the entire stream has been processed.
-+++
-
-## Getting Started
-* [The Interface](getting-started/interface.md)
-* [The Block Anatomy](getting-started/blocks.md)
-* [Data Types](getting-started/data-types.md)
-* [Expressions & Operators](getting-started/operators.md)
-
-## Tutorials
-* [Level 1 - Sending a Request](tutorials/sending-a-request.md)
-* [Level 2 - Chaining Requests](tutorials/chaining-requests.md)
-* [Level 3 - Working with Access Tokens](tutorials/working-with-access-token.md)
-* [Level 4 - Loops & Lists](tutorials/loops.md)
-
-## Contribute
+# **Contribute**
 
 Flows is in beta and we're building it actively. We would love to hear what you're making with flows, what issues you face while doing so, and what new you'd like to see in Postman Flows.
 
-Head on over to the [discussions page](https://github.com/postmanlabs/postman-flows/discussions) to start or join a conversation
+Head on over to the [discussions page](https://github.com/postmanlabs/postman-flows/discussions) to start or join a conversation
