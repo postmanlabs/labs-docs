@@ -1,5 +1,6 @@
 import React from 'react';
 import './Header.scss';
+import { Link } from 'gatsby';
 import { trackCustomEvent } from 'gatsby-plugin-google-analytics';
 import $ from 'jquery';
 
@@ -400,7 +401,7 @@ class Header extends React.Component {
                       <h6 className="dropdown-header">Learning</h6>
                       <a
                         className="dropdown-item"
-                        href="/docs/postman-flows/flows-overview/"
+                        href="/postman-flows/flows-overview/"
                       >
                         Docs
                       </a>
@@ -538,15 +539,15 @@ class Header extends React.Component {
           </div>
         </nav>
         <nav className="navbar-v6 navbar navbar-expand-lg navbar-light bg-light nav-secondary blurred-container">
-          <a
+          <Link
             className="navbar-brand"
-            href="/docs/postman-flows/flows-overview/"
+            to="/postman-flows/flows-overview/"
           >
             <span id="learning-center-home-link" className="nav-link uber-nav">
               Postman Labs Docs
               <span className="sr-only">(current)</span>
             </span>
-          </a>
+          </Link>
           <button
             onClick={() => {
               this.showTargetElementLC();
@@ -579,12 +580,12 @@ class Header extends React.Component {
           >
             <ul className="property-context-menu navbar-nav ml-auto">
               <li className="nav-item">
-                <a
+                <Link
                   className="nav-link uber-nav mr-3"
-                  href="/docs/postman-flows/flows-overview/"
+                  to="/postman-flows/flows-overview/"
                 >
                   Flows
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

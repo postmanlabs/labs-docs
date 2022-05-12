@@ -13,7 +13,7 @@ describe('DynamicLink', () => {
   it('should have a class of dynamic-link__internal for internal links', () => {
     const tree = renderer
       .create(
-        <DynamicLink url="/docs/" name="docs" />,
+        <DynamicLink url="/" name="labs" />,
       )
       .toJSON();
     expect(tree.props.className).toBe('dynamic-link__internal');

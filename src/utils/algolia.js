@@ -16,7 +16,7 @@ const algoliaIndex = (process.env.NODE_ENV === 'development') ? 'dev_docs' : 'do
 const pageQuery = `{
   docs: allMarkdownRemark(
     filter: {
-      fileAbsolutePath: { regex: "/docs/" },
+      fileAbsolutePath: { regex: "/labs/" },
     }
   ) {
     edges {

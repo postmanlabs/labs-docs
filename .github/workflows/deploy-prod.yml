@@ -1,0 +1,50 @@
+name: Deploy to Prod
+
+permissions:
+  id-token: write
+  contents: read
+
+on:
+  push:
+    branches:
+    - 'main'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    environment: Production
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Setup Node
+        uses: actions/setup-node@master
+        with:
+          node-version: '14'
+
+      - name: Configure AWS Credentials
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-region: ${{ secrets.AWS_REGION }}
+          aws-access-key-id: ${{ secrets.PROD_AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.PROD_AWS_SECRET_ACCESS_KEY }}
+
+      - name: set keys and deploy
+        env:
+          DIST_ID: ${{secrets.PROD_DIST_ID}}
+          PM_TECH: ${{secrets.PM_TECH}}
+          SITE_URL: ${{secrets.BETA_SITE_URL}}
+        run: |
+          npm install
+          npm run clean
+          npm run build:prod
+          aws s3 sync ./public/ s3://${{secrets.PROD_BUCKET_NAME}}/labs --delete --acl public-read
+      
+      - name: invalidate
+        uses: chetan/invalidate-cloudfront-action@v2
+        env:
+          PATHS: '/*'
+          AWS_REGION: '${{ secrets.AWS_REGION }}'
+          DISTRIBUTION: ${{ secrets.PROD_DIST_ID }}
+          AWS_ACCESS_KEY_ID: ${{ secrets.PROD_AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.PROD_AWS_SECRET_ACCESS_KEY }}
