@@ -42,7 +42,7 @@ jobs:
           npm install
           npm run clean
           npm run build:dev
-          aws s3 sync ./public/ s3://${{BETA_BUCKET_NAME}}/labs --delete --acl public-read
+          aws s3 sync ./public/ s3://${{secrets.BETA_BUCKET_NAME}}/labs --delete --acl public-read
       
       - name: invalidate
         uses: chetan/invalidate-cloudfront-action@v2
