@@ -127,7 +127,7 @@ You can resolve comments made on request parameters when you no longer want them
 
 <img src="https://assets.postman.com/postman-docs/deleting-a-comment-v8.jpg" alt="Delete comment" width="399px">
 
-> For moderation purposes, admins can delete comments made by anyone, but cannot modify comments.
+> For moderation purposes, users with the [Team Admin role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can delete comments made by anyone, but cannot modify comments.
 
 ## Tagging members in comments
 

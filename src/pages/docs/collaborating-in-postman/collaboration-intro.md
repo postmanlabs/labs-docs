@@ -54,15 +54,15 @@ When you enable team discovery, users who have a verified email address with you
 * Free users: Next to your avatar, select the menu to the right of **Upgrade**, then select **Manage Team**.
 * Paid users: Next to your avatar, select **Team**, then select **Manage Team**.
 
-On your Team Settings page, select **Team discovery** on the left, then select the toggle to turn team discovery on.
+On your Team Settings page, select **Team discovery** on the left, then select **Enable team discovery**. This will enable anyone from your domain to find and request to join your team.
 
 [![Enable team discovery](https://assets.postman.com/postman-docs/team-discovery-enable-v9.7.0.jpg)](https://assets.postman.com/postman-docs/team-discovery-enable-v9.7.0.jpg)
 
-> Team admins will receive an email notification when team discovery is enabled.
+> Team Admins will receive an email notification when team discovery is enabled.
 
 You can optionally add a question for pending team members to answer when they request to join your team. Enter your question and select **Update Question**. Anyone who requests to join the team will be prompted with the question. If you do not specify a question, team members can still add a note when they request to join the team.
 
-All admins will be notified when someone makes a request to join your team, including their answer to any question you set, or an optional note.
+All users with the [Team Admin role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) will be notified when someone makes a request to join your team, including their answer to any question you set, or an optional note.
 
 [![Team Request Approval](https://assets.postman.com/postman-docs/admin-team-join-requests-v9.7.0.jpg)](https://assets.postman.com/postman-docs/admin-team-join-requests-v9.7.0.jpg)
 
@@ -84,11 +84,11 @@ When you sign in to the Postman web dashboard using a verified email address for
 
 [![Choose Team](https://assets.postman.com/postman-docs/join-team-from-list.jpg)](https://assets.postman.com/postman-docs/join-team-from-list.jpg)
 
-You will see a list of the available teams within your organization. Select a team. Answer the question set by the team admin, if there is one. You can also add an optional note. Select **Request to join**.
+You will see a list of the available teams within your organization. Select a team. Answer the question set by the Team Admin, if there is one. You can also add an optional note. Select **Request to join**.
 
 <img alt="Team Join Question" src="https://assets.postman.com/postman-docs/team-join-question-v9.7.0.jpg" width="400px"/>
 
-Team admins will receive a notification when you ask to join the team. Once they approve your request, you'll be able to access the team and collaborate on API projects within it.
+Team Admins will receive a notification when you ask to join the team. Once they approve your request, you'll be able to access the team and collaborate on API projects within it.
 
 ### Leaving a team
 
@@ -96,7 +96,7 @@ You can leave a Postman team by navigating to your [Postman Dashboard](https://g
 
 <img src="https://assets.postman.com/postman-docs/leave-team-v9.1.jpg" alt="Leave team"/>
 
-> If your team has [SCIM configured](/docs/administration/scim-provisioning/scim-provisioning-overview/), you must contact your Postman team admins to leave the team.
+> If your team has [SCIM configured](/docs/administration/scim-provisioning/scim-provisioning-overview/), you must contact your Postman Team Admins to leave the team.
 
 When you leave a team, you no longer have access to the team's workspaces or any of the elements in them. You will still have access to your personal workspaces.
 
@@ -110,8 +110,8 @@ If you are the last member to leave your team, you will have the option to trans
 
 The Postman usage menu allows you to review your team's limits for APIs, shared requests and history, mocks, monitors, and public documentation.
 
-* **Free users**: Next to your avatar, select the menu to the right of **Upgrade**.
-* **Paid users**: Next to your avatar, select **Team**.
+* **Free users** - Next to your avatar, select the menu to the right of **Upgrade**.
+* **Paid users** - Next to your avatar, select **Team**.
 
 For more details and to view your usage period, select **Resource Usage**.
 

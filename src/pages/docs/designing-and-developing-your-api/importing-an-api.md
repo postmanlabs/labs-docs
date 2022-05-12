@@ -175,7 +175,7 @@ Postman directly supports importing the following formats:
 * [HTTP Archive (HAR)](https://github.com/postmanlabs/har-to-postman)
 * Web Application Description Language (WADL)
 
-There are also tools on GitHub to convert different API specifications into a Postman collection that can be imported:
+There are also tools on GitHub to convert different API specifications into a Postman Collection that can be imported:
 
 * [`runscope-to-postman`](https://github.com/postmanlabs/runscope-to-postman)
 

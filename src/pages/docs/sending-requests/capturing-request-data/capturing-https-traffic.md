@@ -56,7 +56,7 @@ Postman uses **OpenSSL** to generate certificate-key pairs. For Postman to be ab
 
 OpenSSL is already installed for macOS and is typically installed for Linux. For Windows systems, you must install OpenSSL manually:
 
-1. Download and install the [OpenSSL v1.1.1 installer](https://slproweb.com/products/Win32OpenSSL.html) for your operating system version. **Important:** OpenSSL v1.x is required to generate certificates. Later versions of OpenSSL are not supported at this time.
+1. Download and install the [OpenSSL v1.1.1 installer](https://slproweb.com/products/Win32OpenSSL.html) for your operating system version. OpenSSL v1.x is required to generate certificates. Later versions of OpenSSL are not supported at this time.
 
     > During installation, make sure to select the option to copy the OpenSSL DLLs to the **OpenSSL binaries (/bin) directory**.
 
@@ -72,7 +72,7 @@ OpenSSL is already installed for macOS and is typically installed for Linux. For
     ![download OpenSSL installer](https://assets.postman.com/postman-docs/windows-oppssl-environment-variables-bin.jpg)
 
 1. Select **OK** to add the folder directory. Then select **OK** to confirm changes and close the remaining windows.
-1. Open a command prompt. To do this, open the Windows **Start** menu, search for **cmd**, and select **Open**. Enter the command `openssl version` to confirm that installation was successful. You will see output similar to the following:
+1. Open the Windows command prompt. To do this, open the **Start** menu, search for **cmd**, and select **Open**. On the command line, enter the command `openssl version` to confirm that installation was successful. You will see output similar to the following:
 
     ``OpenSSL 1.1.1l  24 Aug 2021``
 
@@ -163,9 +163,9 @@ OpenSSL is already installed for macOS and is typically installed for Linux. For
 
 1. Download the `postman-proxy-ca.crt` certificate to the iOS device (for example, using AirDrop). You can find the certificate file on your computer in the following location:
 
-    * **macOS:** `~/Library/Application Support/Postman/proxy`
-    * **Windows:** `C:\Users\<user>\AppData\Roaming\Postman\proxy`
-    * **Linux:** `~/.config/Postman/proxy`
+    * **macOS** - `~/Library/Application Support/Postman/proxy`
+    * **Windows** - `C:\Users\<user>\AppData\Roaming\Postman\proxy`
+    * **Linux** - `~/.config/Postman/proxy`
 
 1. Go to **Settings > Profile Downloaded**, and then select **Install**. Enter your passcode to proceed.
 1. A security warning displays. Select **Install**.
@@ -179,9 +179,9 @@ OpenSSL is already installed for macOS and is typically installed for Linux. For
 
 1. Download the `postman-proxy-ca.crt` certificate to the Android device. You can find the certificate file on your computer in the following location:
 
-    * **macOS:** `~/Library/Application Support/Postman/proxy`
-    * **Windows:** `C:\Users\<user>\AppData\Roaming\Postman\proxy`
-    * **Linux:** `~/.config/Postman/proxy`
+    * **macOS** - `~/Library/Application Support/Postman/proxy`
+    * **Windows** - `C:\Users\<user>\AppData\Roaming\Postman\proxy`
+    * **Linux** - `~/.config/Postman/proxy`
 
 1. Open the **Settings** app and go to **Security > Encryption & credentials**.
 1. Select **Install a certificate** and select the **CA Certificate** option.
@@ -199,9 +199,9 @@ If you are unable to correctly install the `postman-proxy-ca.crt` certificate, o
 1. Make sure you are running Postman version 9.1 or later. See [Updating Postman](/docs/getting-started/installation-and-updates/#updating-postman).
 1. On the computer where Postman is installed, delete the `/Postman/Proxy` folder. You can find the folder in the following location:
 
-    * **macOS:** `~/Library/Application Support/Postman/proxy`
-    * **Windows:** `C:\Users\<user>\AppData\Roaming\Postman\proxy`
-    * **Linux:** `~/.config/Postman/proxy`
+    * **macOS** - `~/Library/Application Support/Postman/proxy`
+    * **Windows** - `C:\Users\<user>\AppData\Roaming\Postman\proxy`
+    * **Linux** - `~/.config/Postman/proxy`
 
 1. Close and restart Postman. Postman regenerates the certificate.
 1. Follow the steps for your device to [reinstall the certificate](#capturing-https-traffic).

@@ -93,10 +93,10 @@ You can convert your collection's format from v1 to v2 to import it into Postman
    sudo npm install -g postman-collection-transformer
    ```
 
-1. Convert an individual Postman collection from v1 to v2 by entering the command below.
+1. Convert an individual Postman Collection from v1 to v2 by entering the command below.
 
    ```bash
-   postman-collection-transformer convert -i <path to the input Postman collection file> -o <path to the downloaded Postman file> -j 1.0.0 -p 2.0.0 -P
+   postman-collection-transformer convert -i <path to the input Postman Collection file> -o <path to the downloaded Postman file> -j 1.0.0 -p 2.0.0 -P
    ```
 
 The resulting collection will download to your target file path in v2 format.
@@ -189,12 +189,12 @@ You can export a data dump of all your collections, environments, globals, and h
 
 The [Export page](http://go.postman.co/me/export) shows information about your export request, including the file size, the date the export expires, and the statuses of your requested data exports. Possible statuses are:
 
-* **Scheduled**: The export request is placed.
-* **Transferring**: The data transfer process has started.
-* **Transferred**: The data transfer process has completed.
-* **Zipping**: The process of zipping the file has started.
-* **Zipped**: The file is zipped.
-* **Download**: The zipped file is ready to download.
+* **Scheduled** - The export request is placed.
+* **Transferring** - The data transfer process has started.
+* **Transferred** - The data transfer process has completed.
+* **Zipping** - The process of zipping the file has started.
+* **Zipped** - The file is zipped.
+* **Download** - The zipped file is ready to download.
 
 When the export is ready, you will receive an email with link to download a zipped file with the data dump. You can also download the file from the Export page using **Download**.
 
