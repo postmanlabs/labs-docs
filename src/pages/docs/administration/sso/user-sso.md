@@ -34,15 +34,15 @@ When you opt to sign into the desktop version of Postman, you will see the follo
 
 > You must finish signing in within five minutes once you initiate the process from Postman. If you go beyond this time, you must return to Postman and restart the sign in process.
 
-Sign into Postman by selecting **Sign in with Single Sign-On (SSO)** in the upper-right.
+Sign into Postman by selecting **Sign in with SSO**.
 
-<img src="https://assets.postman.com/postman-docs/sign-in-full-page-20.jpg" alt="Sign in"/>
+<img src="https://assets.postman.com/postman-docs/sign-in-v9.16.jpg" alt="Sign in" width="350px"/>
 
 Enter your team domain and **Continue**.
 
-> Check **Keep me signed in** if you would like to remain signed in after your current session for 30 days before re-authenticating. If you do not want to remain signed in on the computer you are working on, uncheck this option. Note that you will be prompted to sign in again after 30 minutes.
+> Select **Stay signed in for 30 days** if you want to remain signed in after your current session for 30 days before re-authenticating. If you don't want to remain signed in on the computer you are working on, clear this checkbox. Note that you will be prompted to sign in again after 30 minutes.
 
-<img src="https://assets.postman.com/postman-docs/sso-login-continue.jpg" alt="Sign in with SSO" width="350px"/>
+<img src="https://assets.postman.com/postman-docs/postman-sign-in-sso-v9.16.jpg" alt="Sign in with SSO" width="350px"/>
 
 Postman will redirect you to the configured SSO provider. Enter your SSO details to sign in.
 
