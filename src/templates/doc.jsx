@@ -54,6 +54,10 @@ const DocPage = ({ data }) => {
   // Breadcrumbs (top of page) & Previous and Next Links (bottom of page) 
   const { parentLink, subParentLink, previous, next } = data;
 
+  let excerptLength = data.markdownRemark.excerpt.length; 
+  let excerptCount = process.env.GATSBY_EXCERPT_COUNT;
+  let overIndexLimit = excerptLength > 6700 ? (excerptLength - 6700) : 0;
+
   return (
     <Layout>
       <SEO title={post.frontmatter.title} slug={post.fields.slug} lastModifiedTime={lastModifiedTime} />
@@ -68,11 +72,18 @@ const DocPage = ({ data }) => {
                 <BreadCrumbsLinks data={{ parentLink, subParentLink }} />
                 <h1>{post.frontmatter.title}</h1>
                 <CreateDoc data={post} />
+                <div>
+                  <p>
+                    <small>{excerptCount ? `Development Notification` : null }</small>
+                  <br />
+                    <small>{excerptCount ? `Wordcount: ${excerptLength} and therefore ${overIndexLimit} words too long to be indexed by Algolia` : null}</small>
+                  </p>
+                </div>
                 <p>
                   <small className="font-italic">Last modified: {lastModifiedDate}</small>
                 </p>
-                                {/* Qualtrics */}
-                                <LoadQualtrics />
+                {/* Qualtrics */}
+                <LoadQualtrics />
                 <PreviousAndNextLinks data={{ previous, next }} />
               </main>
               <aside className="col-sm-12 col-md-12 col-lg-3 offset-lg-0 col-xl-3 offset-xl-1 right-column">
@@ -97,6 +108,7 @@ export const query = graphql`
   query($slug: String!) {
     markdownRemark(fields: { slug: { eq: $slug } }) {
       html
+      excerpt(pruneLength: 20000)
       frontmatter {
         title
         contextual_links {

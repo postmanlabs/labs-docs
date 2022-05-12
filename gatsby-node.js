@@ -42,6 +42,12 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
       value: lastModifiedTime,
     })
   }
+  // display console error if algolia indexed frontmatter length exceeds 9999 bytes on build
+  if (node.internal.type === 'frontmatterLength') {
+    if(JSON.parse(node.internal.content).value > 9999) {
+      console.error("IMPORTANT: Frontmatter has too many characters");
+    }
+  }
 };
 
 exports.createPages = async ({ graphql, actions }) => {
@@ -119,13 +125,15 @@ exports.sourceNodes = async ({
     return output;
   };
   const { createNode } = actions;
-  let mdFrontmatterCharacterCount = []
+  let mdFrontmatterCharacterCount = [];
+  let excerptCharacterCount = [];
   const getDirectories = (src) => glob.sync(`${src}/**/*`);
   const paths = getDirectories('./src/pages/docs')
     .filter((val) => val.slice(-3) === '.md')
     .map((val) => {
       const { data } = frontmatter(fs.readFileSync(val));
-      mdFrontmatterCharacterCount.push(data)
+      mdFrontmatterCharacterCount.push(data.title, data.search_keyword);
+      excerptCharacterCount.push(data.excerpt)
       // const algoliaLength = JSON.stringify(val[data]);
       // h = algoliaLength;
       const order = data.order || 200;
@@ -149,17 +157,19 @@ exports.sourceNodes = async ({
 
     let current = output;
     split.forEach((part) => {
-      current[part] = current[part] || {};
+      current[part] = current[part] || {}; 
       current = current[part];
     });
     current.url = `/${split.join('/')}/`;
   });
   mdFrontmatterCharacterCount = JSON.stringify(mdFrontmatterCharacterCount);
   // enable console.logs to view frontmatter object in terminal 'npm run dev'
-  console.log(mdFrontmatterCharacterCount, 'List of all frontmatter objects from md files')
+  // console.log(mdFrontmatterCharacterCount, 'List of all frontmatter objects from md files')
   mdFrontmatterCharacterCount = mdFrontmatterCharacterCount.length;
-  console.log('Length of all frontmatter from md files', mdFrontmatterCharacterCount)
-
+  // console.log('Length of all frontmatter from md files', mdFrontmatterCharacterCount)
+  excerptCharacterCount = JSON.stringify(excerptCharacterCount);
+  excerptCharacterCount = excerptCharacterCount.length;
+  
   createNode(prepareNode(mdFrontmatterCharacterCount, 'frontmatterLength'));
   createNode(prepareNode(output.docs, 'leftNavLinks'));
   createNode(prepareNode(FooterJson, 'FooterLinks'));
