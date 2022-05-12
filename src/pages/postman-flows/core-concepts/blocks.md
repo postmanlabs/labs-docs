@@ -5,7 +5,23 @@ updated: 2022-05-04
 warning: false
 ---
 
-A block is a small actor/process that perform some predefine action. Flows comes with some in-built blocks. A block starts executing when it has some data in all of it's input ports.
+Blocks are the atomic pieces you put together to create a flow. They do the heavy lifting of performing tasks, creating data, transforming data and much more.
+
+- [Fundamentals](#fundamentals)
+- [Anatomy](#anatomy)
+- [Types of blocks](#types-of-blocks)
+
+## Fundamentals
+
+A block, fundamentally is a black box. Every block has a specific purpose which it can achieve by optionally taking in data, processing it, and producing outputs.
+
+Additionally, a flow in itself can be considered as a block.
+
+> **Important**
+>
+> - A block becomes executable when all of it's **_required_** inputs are connected.
+> - A block starts running when a message packet becomes available in all of its connected inputs.
+> - A block is not a function but a process
 
 ## Anatomy
 
@@ -40,3 +56,11 @@ A block is a small actor/process that perform some predefine action. Flows comes
 
 10. **Signal Output**
     This is the signal output port that emits a high signal when the block completes its processing.
+
+## Types of blocks
+
+Blocks are of 3 types:
+
+- **Task blocks** - Blocks that perform a particular asynchronous task.
+- **Value blocks** - Blocks that create data of a specific
+- **Operation blocks** - Blocks used to perform actions on data to transform them. These are synchronous in nature.
