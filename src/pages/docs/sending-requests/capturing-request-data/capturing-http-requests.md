@@ -148,7 +148,7 @@ There are several controls you can use to limit, organize, and investigate traff
 
 * Select the name **Proxy debug session** and enter another name to change the window name.
 * The **Configure incoming requests** controls at the top of the window enable you to limit captured traffic. Select items from **Methods**, **Status Codes**, **Resources**, and **URL** to limit the traffic. These controls are similar to the ones you set initially in Step 2 above, but they limit what is being captured, instead of what is going through the proxy.
-* You can select or unselect **Save Responses for Requests** and **Capture Cookies** to toggle if responses or cookies are collected.
+* Select or unselect **Save Responses for Requests** and **Capture Cookies** to choose whether to collect responses or cookies.
 * Select the **Requests** tab to view incoming requests and responses, or **Cookies** to see captured cookies.
 * Use the search box to look for specific requests.
 * Select **>** next to a request to expand it and see more details.

@@ -59,7 +59,7 @@ To make your [team profile](https://go.postman.co/settings/team/general) public:
 
 1. In the upper-right corner of Postman next to your avatar, select **Team** > **Team settings**.
 1. Select **Team profile**.
-1. Select the toggle next to **Make team profile public** to set the profile to public.
+1. Select **Make team profile public** to set the profile to public.
 
 An informative and inviting public profile can help increase adoption of your API. Consider adding more information and assets to your team profile:
 
@@ -178,7 +178,7 @@ To delete a public workspace, you must change its visibility first. You must hav
 
 ### Managing public workspace users and roles
 
-If you have a [team Admin role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles), you can manage collaborators and user roles in a public workspace:
+If you're a [Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles), you can manage collaborators and user roles in a public workspace:
 
 * **Invite team members, groups, and external users to collaborate in a public workspace.** To learn more about inviting users to work with you in your public workspace, see [Sharing workspaces](https://learning.postman.com/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#sharing-workspaces).
 * **Assign access to elements within a workspace.** Workspace roles control access to elements. You can assign workspace roles to an individual user or to a user group. To learn more about assigning workspace roles or removing a user from a workspace, see [Managing workspace roles](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#managing-workspace-roles).
@@ -191,7 +191,7 @@ To collaborate with someone else in their public workspace, select **Workspaces*
 
 For **collections** and **environments**, [create a fork](/docs/collaborating-in-postman/version-control-for-collections/#forking-a-collection) and request to merge changes using a [pull request](/docs/collaborating-in-postman/version-control-for-collections/#creating-pull-requests).
 
-For **APIs**, select the API and version. Select the **Definition** tab and then select **Request Access** to request an editor role.
+For **APIs**, select the API and version. Select the **Definition** tab and then select **Request Access** to request an Editor role.
 
 You can access public workspaces using the Postman Explore page's [**Workspaces** category](https://www.postman.com/explore/workspaces). You can also access the public workspaces that you own or are a member of using **Workspaces** in the header.
 

@@ -135,7 +135,7 @@ Select an API to find more information about it, including the API description, 
 
 You can publish specific versions of your APIs to the Private API Network which helps API consumers understand which versions are ready for consumption and which versions are still being worked upon. Only the versions of your API that are intended for use by consumers are visible on the Private API Network.
 
-From the API builder, you can create a new version of the existing API. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> on the right and select **Create version**. You can unselect the checkbox to hide the version or make it unavailable to the consumers.
+From the API Builder, you can create a new version of the existing API. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> on the right and select **Create version**. You can unselect the checkbox to hide the version or make it unavailable to the consumers.
 
 <img alt="Visibility API versions" src="https://assets.postman.com/postman-docs/new-version-visibility-api-v9.jpg"/>
 
