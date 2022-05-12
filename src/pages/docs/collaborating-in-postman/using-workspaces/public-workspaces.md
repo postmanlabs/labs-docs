@@ -17,6 +17,9 @@ contextual_links:
   - type: link
     name: "Public Workspaces | The Exploratory"
     url: "https://youtu.be/DjGbMdqnY64"
+  - type: link
+    name: "Workspace Linter Using a Style Guide | Postman Level Up"
+    url: "https://youtu.be/6MSS8YgvFVA"
   - type: subtitle
     name: "Related Blog Posts"
   - type: link
@@ -29,8 +32,8 @@ contextual_links:
     name: "Public Workspaces: Why We Created Them and What You Can Do with Them"
     url: "https://blog.postman.com/public-workspaces-why-we-created-them-what-you-can-do/"
   - type: link
-    name: "Workspace Linter Using a Style Guide | Postman Level Up"
-    url: "https://youtu.be/6MSS8YgvFVA"
+    name: "Supercharge Your API Development with Utility Collections"
+    url: "https://blog.postman.com/supercharge-api-development-with-utility-collections/"
 
 ---
 
