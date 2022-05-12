@@ -39,7 +39,7 @@ contextual_links:
 1. Add **email** as an application attribute and map it to **Email**. Select **Save & Publish**.
    [![ping email](https://assets.postman.com/postman-docs/ping_email)](https://assets.postman.com/postman-docs/ping_email)
 
-1. After configuring all the details, enable the new SAML application with the **Enable** toggle.
+1. After configuring all the details, select **Enable**.
    [![ping toggle](https://assets.postman.com/postman-docs/ping_toggle)](https://assets.postman.com/postman-docs/ping_toggle)
 
 1. Once enabled, the status will show as **Active** for the SAML application.

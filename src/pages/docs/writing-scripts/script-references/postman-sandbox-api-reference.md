@@ -41,8 +41,8 @@ Postman provides JavaScript APIs that you can use in your request scripts. The `
         * [Cookies](#scripting-with-request-cookies)
     * [Sending requests from scripts](#sending-requests-from-scripts)
 * [Scripting workflows](#scripting-workflows)
-* [Scripting visualizations](#scripting-visualizations)
-* [Building response data into visualizations](#building-response-data-into-visualizations)
+* [Scripting Postman Visualizations](#scripting-postman-visualizations)
+* [Building response data into Postman Visualizations](#building-response-data-into-postman-visualizations)
 * [Writing test assertions](#writing-test-assertions)
 * [Using external libraries](#using-external-libraries)
 
@@ -654,9 +654,9 @@ For example:
 postman.setNextRequest(pm.environment.get('next'));
 ```
 
-## Scripting visualizations
+## Scripting Postman Visualizations
 
-Use `pm.visualizer.set` to specify a template to [display response data in the visualizer](/docs/sending-requests/visualizer/).
+Use `pm.visualizer.set` to specify a template to [display response data in the Postman Visualizer](/docs/sending-requests/visualizer/).
 
 ```js
 pm.visualizer.set(layout:String, data:Object, options:Object):Function
@@ -678,9 +678,9 @@ pm.visualizer.set(template, {
 });
 ```
 
-### Building response data into visualizations
+### Building response data into Postman Visualizations
 
-Use `pm.getData` to retrieve response data inside a visualization template string.
+Use `pm.getData` to retrieve response data inside a Postman Visualizer template string.
 
 ```js
 pm.getData(callback):Function
@@ -691,7 +691,7 @@ The callback function accepts two parameters:
 * `error`
     * Any error detail
 * `data`
-    * Data [passed to the template](#scripting-visualizations) by `pm.visualizer.set`
+    * Data [passed to the template](#scripting-postman-visualizations) by `pm.visualizer.set`
 
 Example usage:
 

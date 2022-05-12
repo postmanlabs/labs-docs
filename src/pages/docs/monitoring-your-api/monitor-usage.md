@@ -71,7 +71,7 @@ To purchase additional monitoring call blocks:
 
 ## Monitor activity limits
 
-Postman maintains default limits on various team and user actions to ensure the overall performance and availability of monitoring. Postman will notify team admins by email if your team encounters these limits. In addition, team members will see an alert in Postman.
+Postman maintains default limits on various team and user actions to ensure the overall performance and availability of monitoring. Postman will email your Team Admins if your team encounters these limits. In addition, team members will see an alert in Postman.
 
 Postman maintains the following monitoring limits per team:
 

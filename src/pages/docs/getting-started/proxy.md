@@ -68,7 +68,7 @@ To configure the proxy settings, select the settings icon <img alt="Settings ico
 
 ### Using a custom proxy
 
-Postman enables you to configure **Custom Proxy Configuration** that direct Postman to forward your HTTP or HTTPS requests through a proxy server. This will route all requests sent by Postman through a proxy server of your choosing.
+Postman enables you to configure a custom proxy configuration that directs Postman to forward your HTTP or HTTPS requests through a proxy server. This will route all requests sent by Postman through a proxy server of your choosing.
 
 1. Postman is the client that sends a request through the selected proxy.
 1. The proxy server sends the request to the server.
@@ -76,7 +76,7 @@ Postman enables you to configure **Custom Proxy Configuration** that direct Post
 
 [![Enable custom proxy](https://assets.postman.com/postman-docs/custom-proxy-flow.jpg)](https://assets.postman.com/postman-docs/custom-proxy-flow.jpg)
 
-Custom proxy settings are turned off by default and can be turned on using the toggle switch.
+Custom proxy settings are turned off by default. To turn them on, select **Settings** > **Add a custom proxy configuration**.
 
 Choose the type of proxy server by checking the appropriate checkboxes beside **Proxy Type**. By default, both `HTTP` and `HTTPS` are checked. This means that both HTTP and HTTPS requests will go through the proxy server.
 

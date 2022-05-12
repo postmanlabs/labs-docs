@@ -155,7 +155,7 @@ To open a new tab, select __+__ in the middle of the screen.
 
 If you open a request and don't edit or send it, then open another request, the second tab replaces the first tab. When the tab is in preview mode, it displays in italics.
 
-You can set whether Postman opens requests in new tabs. Select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> to open **Settings**. Under **Requests**, use the toggle next to **Always open requests in a new tab** to turn this option on or off.
+You can set whether Postman opens requests in new tabs. Select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> to open **Settings**. Under **Requests**, select **Always open requests in a new tab** to turn this option on or off.
 
 #### Saving or discarding changes
 
@@ -185,7 +185,7 @@ To manage your open tabs or to access recently closed tabs, select the more acti
 
 You can also manage your open tabs or open a new tab by right-clicking on an existing tab.
 
-> **Closing unsaved tabs.** You can set whether Postman asks whether you want to save when you close a tab that has changes. Select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> to open **Settings**. Under **Requests**, use the toggle next to **Always ask when closing unsaved tabs** to turn this option on or off.
+> **Closing unsaved tabs.** You can set whether Postman asks whether you want to save when you close a tab that has changes. Select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> to open **Settings**. Under **Requests**, select **Always ask when closing unsaved tabs** to turn this option on or off.
 
 If you have a lot of tabs open, they might overflow the area of the tab bar. To go to tabs that are outside the viewable area, select the arrows to the left or right of the tab bar.
 
