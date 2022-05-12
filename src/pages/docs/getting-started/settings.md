@@ -44,12 +44,12 @@ Use the settings on the **General** tab to configure how Postman sends requests 
 
 * **Trim keys and values in request body** - Turn on this toggle to trim parameters when sending requests with form data or url-encoded data.
 * **SSL certificate verification** - Turn off this toggle to prevent Postman from checking the validity of SSL certificates when making requests.
-* **Always open requests in new tab** - By default, when you select a request in a collection, Postman opens the request in the preview tab. Turn on this toggle to always open requests in a new tab.
-* **Always ask when closing unsaved tabs** - By default, Postman asks if you want to save any unsaved changes when closing a tab. Turn off this toggle to always discard unsaved changes when closing a tab.
-* **Language detection** - By default, Postman automatically detects the correct media type for the response body based on the Content-Type header. Select **JSON** to always use JSON rendering for the response body.
-* **Request Timeout in ms** - Enter how long (in milliseconds) Postman will wait for a response before timing out. If you enter **0**, Postman will wait for a response forever.
-* **Max response size in MB** - Enter the largest response size (in megabytes) that Postman will download. For responses that exceed this limit, Postman asks if you want to increase the size limit or download the response. If you enter **0**, Postman downloads responses of any size. Rendering large responses may affect Postman's performance.
-* **Request Validation** - Turn off this toggle to prevent Postman from attempting to validate requests in collections linked to an API schema.
+* **Always open requests in new tab:** By default, when you select a request in a collection, Postman opens the request in the preview tab. Turn on this toggle to always open requests in a new tab.
+* **Always ask when closing unsaved tabs:** By default, Postman asks if you want to save any unsaved changes when closing a tab. Turn off this toggle to always discard unsaved changes when closing a tab.
+* **Language detection:** By default, Postman automatically detects the correct media type for the response body based on the Content-Type header. Select **JSON** to always use JSON rendering for the response body.
+* **Request Timeout in ms:** Enter how long (in milliseconds) Postman will wait for a response before timing out. If you enter **0**, Postman will wait for a response forever.
+* **Max response size in MB:** Enter the largest response size (in megabytes) that Postman will download. For responses that exceed this limit, Postman asks if you want to increase the size limit or download the response. If you enter **0**, Postman downloads responses of any size. Rendering large responses may affect Postman's performance.
+* **Request Validation:** Turn off this toggle to prevent Postman from attempting to validate requests in collections linked to an API schema.
 
 ### Working directory
 
