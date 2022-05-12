@@ -20,17 +20,17 @@ Whether you're just starting out with flows or want to learn more about its core
 
 ## Quick Start
 
-- [Running requests in sequence](getting-started/running-requests-in-sequence.md)
-- [Chaining requests with data](https://www.notion.so/Chaining-requests-with-data-42df05f9945d4a24bf656229314b176f)
-- [Working with access tokens](https://www.notion.so/Working-with-access-tokens-ebf57f77d92a4b0f9a84ed0a37aac06d)
-- [Looping over data](https://www.notion.so/Looping-66ae595185714b01ad989811ef68978d)
+- [Running requests in sequence](/postman-flows/getting-started/running-requests-in-sequence/)
+- [Chaining requests with data](/postman-flows/getting-started/chaining-requests-with-data/)
+- [Working with access tokens](/postman-flows/getting-started/working-with-access-tokens/)
+- [Looping over data](/postman-flows/getting-started/loops/)
 
 ## Learn more about Flows core concepts
 
-- [Blocks](https://www.notion.so/Blocks-858667c9747e4918a2d12c89e31136fd)
-- [Messages](https://www.notion.so/Messages-929f3acc3e504ef596ce59fd8972a4a2)
-- [Connections](https://www.notion.so/Connections-12d476153198490dbf8d2564e697f253)
-- [Data Types](https://www.notion.so/Data-Types-a727e3c67eed4e2aaab1d8ba8e419db6)
+- [Blocks](/postman-flows/core-concepts/blocks/)
+- [Messages](/postman-flows/core-concepts/messages/)
+- [Connections](/postman-flows/core-concepts/connections/)
+- [Data Types](/postman-flows/core-concepts/data-types/)
 
 ## **Contribute**
 

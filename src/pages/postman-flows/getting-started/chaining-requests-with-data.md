@@ -17,7 +17,7 @@ A very common use case is to take data from once response, and pipe that to anot
 
 2. **Pipe the message from output to input**
 
-   Now we need to tell the flow how the [message](../core-concepts/messages.md) should *flow*. To do that, connect the `response` output of the first block to the `variables` input of the second block.
+   Now we need to tell the flow how the [message](/postman-flows/core-concepts/messages/) should *flow*. To do that, connect the `response` output of the first block to the `variables` input of the second block.
 
    ![Pipe data](https://assets.postman.com/postman-labs-docs/chaining-requests/chaining-pipe-data.gif)
 

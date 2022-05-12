@@ -5,7 +5,7 @@ updated: 2022-05-12
 warning: false
 ---
 
-If you have a bunch of simple requests that have no dependency on each other but they have to be executed in a particular order, you can do so by using [signals](../core-concepts/signals.md) to connect your [blocks](../core-concepts/blocks.md)
+If you have a bunch of simple requests that have no dependency on each other but they have to be executed in a particular order, you can do so by using [signals](/postman-flows/core-concepts/connections/#signals) to connect your [blocks](/postman-flows/core-concepts/blocks/)
 
 > Check out the example flow - [Running requests](https://www.postman.com/postman/workspace/example-flows/flow/6267f9315d367a64e7ba06e5)
 
@@ -36,4 +36,4 @@ If you have a bunch of simple requests that have no dependency on each other but
 
    ![Start the flow](https://assets.postman.com/postman-labs-docs/running-requests/running-run-with-signals.gif)
 
-If you want to use data from one request in another request, you can learn how to do so in [Chaining Requests with data](https://www.notion.so/Chaining-requests-with-data-91241cd9a6014bba9a437f96ec9d77f8)
+If you want to use data from one request in another request, you can learn how to do so in [Chaining Requests with data](/postman-flows/getting-started/chaining-requests-with-data/)

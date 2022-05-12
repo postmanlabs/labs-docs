@@ -5,11 +5,9 @@ updated: 2022-05-12
 warning: false
 ---
 
-## Content
+A **Connection** is a “data pipe” which can be used to transfer messages from output of one block to the input of another. Imagined them as FedEx like courier service that transfer mails and parcels between addresses.
 
 ![conections in flows](https://assets.postman.com/postman-labs-docs/connections/connection-header.png)
-
-A **Connection** is a “data pipe” which can be used to transfer messages from output of one block to the input of another. Imagined them as FedEx like courier service that transfer mails and parcels between addresses.
 
 > Important
 >
