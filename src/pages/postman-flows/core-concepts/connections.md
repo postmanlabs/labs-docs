@@ -18,7 +18,7 @@ A **Connection** is a “data pipe” which can be used to transfer messages f
 > 3. When two connections are connected to the output, then a message is duplicated and sent to both connections.
 > 4. When two connections are connected to the input and both have messages, they don't get merged, the block processes each message in a round-robbin fashion.
 
-# Signals
+## Signals
 
 A **Signal** is a special kind of connection that does not carry data but a signal which is triggered when a block completes processing.
 

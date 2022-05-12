@@ -32,7 +32,7 @@ Whether you're just starting out with flows or want to learn more about its core
 - [Connections](https://www.notion.so/Connections-12d476153198490dbf8d2564e697f253)
 - [Data Types](https://www.notion.so/Data-Types-a727e3c67eed4e2aaab1d8ba8e419db6)
 
-# **Contribute**
+## **Contribute**
 
 Flows is in beta and we're building it actively. We would love to hear what you're making with flows, what issues you face while doing so, and what new you'd like to see in Postman Flows.
 
