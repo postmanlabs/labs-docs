@@ -215,7 +215,7 @@ The results of all tests and requests can be exported into a file. Use the JSON 
 $ newman run mycollection.json --reporters cli,json --reporter-json-export outputfile.json
 ```
 
-**Note:** Newman allows you to use all [libraries and objects](/docs/writing-scripts/script-references/postman-sandbox-api-reference/) that Postman supports to run tests and pre-request scripts.
+> Newman allows you to use all [libraries and objects](/docs/writing-scripts/script-references/postman-sandbox-api-reference/) that Postman supports to run tests and pre-request scripts.
 
 ## Using Newman with CI/CD
 
@@ -335,11 +335,11 @@ Note that the name of the package is of the form `newman-reporter-<name>`, where
 
 To use local (non-published) reporters, run the command `npm install <path/to/local-reporter-directory>` instead.
 
-Use the installed reporter, either with the CLI, or programmatically. Here, the `newman-reporter` prefix isn't required while specifying the reporter name in the options.
+Use the installed reporter, either with the command-line tool, or programmatically. Here, the `newman-reporter` prefix isn't required while specifying the reporter name in the options.
 
 Scoped reporter packages must be specified with the scope prefix. For instance, if your package name is `@myorg/newman-reporter-name`, you must specify the reporter with `@myorg/name`.
 
-CLI:
+On the command line:
 
 ```bash
 newman run /path/to/collection.json -r myreporter --reporter-myreporter-<option-name> <option-value> # The option is optional

@@ -1,0 +1,9 @@
+extends: existence
+message: "Verify your use of '%s' with our A-Z word list."
+level: warning
+ignorecase: true
+tokens:
+  - toggle switch
+  - toggle option
+  - command prompt
+  - CLI
