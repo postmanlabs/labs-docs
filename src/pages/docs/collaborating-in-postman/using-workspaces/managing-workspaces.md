@@ -73,11 +73,11 @@ To view the workspace ID, select the information icon <img alt="Information icon
 
 > Private workspaces are only available to [Professional and Enterprise](https://www.postman.com/pricing/) teams.
 
-To collaborate in a private workspace, you must be [invited](#sharing-workspaces) by a workspace editor or admin, or request access to it and be approved. If you're using [Postman on the web](/docs/getting-started/installation-and-updates/#using-postman-on-the-web) and navigate to a link a teammate has shared to a private workspace or an entity within one, you'll have the option to request access to the workspace.
+To collaborate in a private workspace, you must be [invited](#sharing-workspaces) by a Workspace Editor or Admin, or request access to it and be approved. If you're using [Postman on the web](/docs/getting-started/installation-and-updates/#using-postman-on-the-web) and navigate to a link a teammate has shared to a private workspace or an entity within one, you'll have the option to request access to the workspace.
 
 <img alt="Request access to private workspace" src="https://assets.postman.com/postman-docs/user-rfa-private-workspace-v9.16.jpg"/>
 
-You can add a note and select **Request Access** to submit the request. All workspace admins will receive a notification to review your request, and you'll be alerted by the notifications icon <img alt="Notifications icon" src="https://assets.postman.com/postman-docs/icon-notification-bell-v9.jpg#icon" width="18px"> and by email when your request is approved or denied.
+You can add a note and select **Request Access** to submit the request. All Workspace Admins will receive a notification to review your request, and you'll be alerted by the notifications icon <img alt="Notifications icon" src="https://assets.postman.com/postman-docs/icon-notification-bell-v9.jpg#icon" width="18px"> and by email when your request is approved or denied.
 
 > If your request isn't reviewed within 15 days, it will expire and you'll be notified in Postman and by email to resubmit your request for access.
 
@@ -130,7 +130,7 @@ You can also invite collaborators by selecting <img alt="Link icon" src="https:/
 
 > Private workspaces are only available to [Professional and Enterprise](https://www.postman.com/pricing/) teams.
 
-Team members can [request access to a private workspace](#accessing-private-workspaces) if another team member with access provides them with a link to it. All workspace admins will be notified of requests for access by the notifications icon <img alt="Notifications icon" src="https://assets.postman.com/postman-docs/icon-notification-bell-v9.jpg#icon" width="18px"> and by email. Select **Respond to Request** to review requests for access.
+Team members can [request access to a private workspace](#accessing-private-workspaces) if another team member with access provides them with a link to it. All Workspace Admins will be notified of requests for access by the notifications icon <img alt="Notifications icon" src="https://assets.postman.com/postman-docs/icon-notification-bell-v9.jpg#icon" width="18px"> and by email. Select **Respond to Request** to review requests for access.
 
 <img alt="Respond to request for access to private workspace" src="https://assets.postman.com/postman-docs/workspace-admin-respond-rfa-private-workspace-v9.16.jpg" width="400px"/>
 
