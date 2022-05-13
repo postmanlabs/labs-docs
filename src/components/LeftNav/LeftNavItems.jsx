@@ -50,7 +50,7 @@ export const leftNavItems = [
         url: "/postman-flows/getting-started/chaining-requests-with-data/",
       },
       {
-        name: "Working with access tokens",
+        name: "Working with access tokens - Durables",
         url: "/postman-flows/getting-started/working-with-access-tokens/",
       },
     ],
