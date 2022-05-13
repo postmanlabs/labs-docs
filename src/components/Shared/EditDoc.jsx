@@ -23,9 +23,11 @@ class EditDoc extends Component {
     // Gatsby path prefixing includes /labs/ at build.
     // This is a case where we do not want the pathRoute prefixed, as it is used inside a github URL
     // So we remove it
+    console.log('pathRoute from EditDoc before replace, ', pathRoute)
     if (pathRoute.includes("/labs/")) {
       pathRoute.replace("/labs/", "/")
     }
+    console.log('pathRoute from EditDoc after replace, ', pathRoute)
 
     return (
       <a id="GTM-LC-id" className={classes} href={`https://github.com/postmanlabs/labs-docs/blob/develop/src/pages${pathRoute}.md`} target="_blank" rel="noopener nofollow">
