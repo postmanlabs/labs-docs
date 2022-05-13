@@ -27,46 +27,57 @@
   }
 */
 
-
 export const leftNavItems = [
   {
-    name: 'Postman Flows',
-    parentSlug: 'postman-flows',
-    url: '/postman-flows/flows-overview/',
+    name: "Getting started",
+    parentSlug: "getting-started",
+    url: "/postman-flows/getting-started/flows-overview/",
     subMenuItems1: [
       {
-        name: 'Overview',
-        url: '/postman-flows/flows-overview/',
+        name: "Introduction",
+        url: "/postman-flows/getting-started/flows-overview/",
       },
       {
-        name: 'Getting Started',
-        subParentSlug: 'available-integrations',
-        slug: '/postman-flows/available-integrations/apimatic/',
-        subMenuItems2: [
-          {
-            name: 'The Interface',
-            url: '/postman-flows/available-integrations/apimatic/',
-          },
-          {
-            name: 'The Block',
-            url: '/postman-flows/available-integrations/aws-api-gateway/',
-          },
-          {
-            name: 'Data Types',
-            url: '/postman-flows/available-integrations/azure-devops/',
-          },
-          {
-            name: 'Expressions & Operators',
-            url: '/postman-flows/available-integrations/ci-integrations/travis-ci/',
-          },
-        ],
+        name: "The Interface",
+        url: "/postman-flows/getting-started/the-interface/",
       },
       {
-        name: 'FAQs',
-        url: '/postman-flows/flows-faq/',
+        name: "Running requests in sequence",
+        url: "/postman-flows/getting-started/running-requests-in-sequence/",
+      },
+      {
+        name: "Chaining requests with data",
+        url: "/postman-flows/getting-started/chaining-requests-with-data/",
+      },
+      {
+        name: "Working with access tokens - Durables",
+        url: "/postman-flows/getting-started/working-with-access-tokens/",
       },
     ],
   },
-];
+  {
+    name: "Core concepts",
+    parentSlug: "core-concepts",
+    url: "/postman-flows/core-concepts/blocks/",
+    subMenuItems1: [
+      {
+        name: "Blocks",
+        url: "/postman-flows/core-concepts/blocks/",
+      },
+      {
+        name: "Messages",
+        url: "/postman-flows/core-concepts/messages/",
+      },
+      {
+        name: "Connections",
+        url: "/postman-flows/core-concepts/connections/",
+      },
+      {
+        name: "Data Types",
+        url: "/postman-flows/core-concepts/data-types/",
+      },
+    ],
+  },
+]
 
 // export default parentSlugItems;
