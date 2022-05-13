@@ -25,6 +25,9 @@ contextual_links:
   - type: link
     name: "Filtering and Sorting APIs Using the Postman API"
     url: "https://blog.postman.com/filtering-and-sorting-apis-using-the-postman-api/"
+  - type: link
+    name: "Introducing an API to Access Mock Server Call Logs"
+    url: "https://blog.postman.com/introducing-an-api-to-access-mock-server-call-logs/"
   - type: subtitle
     name: "Public Workspaces"
   - type: link

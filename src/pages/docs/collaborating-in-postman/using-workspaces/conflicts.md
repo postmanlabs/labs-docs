@@ -15,7 +15,7 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
-    name: "Related Blog Posts"
+    name: "Blog Posts"
   - type: link
     name: "Forking + Merging: A Conflict Resolution Solution"
     url: "https://blog.postman.com/forking-merging-a-conflict-resolution-solution/"
