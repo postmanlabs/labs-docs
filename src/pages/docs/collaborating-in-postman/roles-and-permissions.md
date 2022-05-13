@@ -59,7 +59,7 @@ Roles determine user permissions within a Postman team and a user's level of acc
 
 ## Team roles
 
-As a team admin, you have the power to define Postman access at the team level. You can use Postman's role-based access control system to limit visibility of team resources, define your development workflow, and provide access to administrative and billing personnel. Each user on a team must have at least one role attached to them, and can hold multiple roles simultaneously.
+With the [Admin role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles), you have the power to define Postman access at the team level. You can use Postman's role-based access control system to limit visibility of team resources, define your development workflow, and provide access to administrative and billing personnel. Each user on a team must have at least one role attached to them, and can hold multiple roles simultaneously.
 
 You can [assign](/docs/administration/managing-your-team/managing-your-team/) one or more role types to your team members, based on the functions those team members require:
 
@@ -109,9 +109,9 @@ To learn how to manage team roles in Postman, see [Managing your team](/docs/adm
 
 You can [assign](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#managing-workspace-roles) three role types in Postman workspaces: **Admin**, **Editor**, and **Viewer**.
 
-* **Admin:** Can manage workspace resources and settings
-* **Editor:** Can create and edit workspace resources
-* **Viewer:** Can view, fork, and export workspace resources
+* **Admin** - Can manage workspace resources and settings
+* **Editor** - Can create and edit workspace resources
+* **Viewer** - Can view, fork, and export workspace resources
 
 The following roles control access at a workspace level:
 
@@ -128,7 +128,7 @@ The following roles control access at a workspace level:
 | Manage workspace roles | &#x2714; | | |
 | Manage workspace visibility | &#x2714;&ast; | | |
 
-&ast; On Professional and Enterprise plans, workspace admins must request to change a workspace's visibility to public. This request will go to the [Community Manager](#team-roles). On Basic and Free plans, or if a team has no Community Manager assigned, workspace admins can control visibility.
+&ast; On Professional and Enterprise plans, an Admin for a workspace must request to change its visibility to public. This request will go to the [Community Manager](#team-roles). On Basic and Free plans, or if a team has no Community Manager assigned, an Admin for a workspace can control its visibility.
 
 ## Element-based roles
 

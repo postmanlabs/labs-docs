@@ -58,9 +58,10 @@ Make sure you're signed in to your Postman account, and that you have a collecti
 
 * Tab over to **Via Run in Postman**.
 * Choose a live or static button:
-    * **Live button**: This button uses JavaScript, HTML, and CSS, so you can customize the button for a website. You can also access the [Run in Postman API](/docs/publishing-your-api/run-in-postman/run-button-API/) to dynamically create and update environments.
+
+    * **Live button** - This button uses JavaScript, HTML, and CSS, so you can customize the button for a website. You can also access the [Run in Postman API](/docs/publishing-your-api/run-in-postman/run-button-API/) to dynamically create and update environments.
     > To create a live button, you need to share the collection to a public workspace. If you don't have a public workspace to share to, you can create a new one using the modal. For users on Enterprise plans, you need to have a [community manager](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) role to [create a new public workspace](/docs/collaborating-in-postman/using-workspaces/public-workspaces/).
-    * **Static button**: This button uses Markdown, so you can display it in a README, blog, or other Markdown document.
+    * **Static button** - This button uses Markdown, so you can display it in a README, blog, or other Markdown document.
 
 * You can optionally include an environment to embed with your collection. Select the **Add an environment** dropdown list and choose the environment.
 * Select <img alt="Copy icon" src="https://assets.postman.com/postman-docs/icon-copy-v9.jpg#icon" width="15px"> **Copy Code**.
@@ -69,13 +70,13 @@ Make sure you're signed in to your Postman account, and that you have a collecti
 
 Your embed code will include your collection's ID. In the examples below, **:collection_id** is a placeholder for that ID and **:collection_url** is a placeholder for url. If you choose to include an environment in your button, the code will also have the environment parameter.
 
-**Sample markdown snippet:**
+### Sample markdown snippet
 
 ```markdown
 [![Run in Postman](https://run.pstmn.io/button.svg)](https://god.gw.postman.com/run-collection/:collection_id)
 ```
 
-**Sample HTML snippet:**
+### Sample HTML snippet
 
 ```html
 <div class="postman-run-button"

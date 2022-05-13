@@ -53,5 +53,5 @@ Check out some useful collections for getting started learning about APIs, reque
 * [API Learner](https://www.postman.com/apilearningresources/workspace/api-learning-resources/collection/1841124-369362dc-c11e-44f1-a7a9-ffe591cc2156?ctx=documentation)
 * [Public REST APIs](https://www.postman.com/cs-demo/workspace/public-rest-apis/overview)
 * [Intro to writing tests](https://www.postman.com/postman/workspace/postman-team-collections/collection/1559645-13bd44c4-94ec-420a-8390-8ff44b60f14d?ctx=documentation)
-* [How to use the Postman console](https://www.postman.com/postman/workspace/postman-team-collections/collection/1559645-9349429e-3744-467b-a127-e3881f0dffc8?ctx=documentation)
+* [How to use the Postman Console](https://www.postman.com/postman/workspace/postman-team-collections/collection/1559645-9349429e-3744-467b-a127-e3881f0dffc8?ctx=documentation)
 * [Postman Echo](https://www.postman.com/postman/workspace/published-postman-templates/documentation/631643-f695cab7-6878-eb55-7943-ad88e1ccfd65?ctx=documentation)
