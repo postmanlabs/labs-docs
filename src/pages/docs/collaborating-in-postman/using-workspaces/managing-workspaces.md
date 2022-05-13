@@ -104,11 +104,15 @@ You can invite team members, [groups](/docs/administration/managing-your-team/us
 
 <img alt="Share team workspace" src="https://assets.postman.com/postman-docs/share-workspace-9.4.jpg" width="400px"/>
 
-If you are a Workspace Editor or Admin, you can invite anyone to personal, private, team, and public workspaces and assign them a [workspace role](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles). If you are a workspace viewer, you can invite external users to team and public workspaces, however you won't have the option to assign them a workspace role.
+Your ability to share workspaces with teammates depends on your [workspace role](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles):
+
+* **Workspace Admin** - Can invite Postman teammates or external users to personal, private, team, and public workspaces, and assign them a workspace role. If a Workspace Admin invites an external user to a workspace, Postman will share this request with [Team Admins](https://learning.postman.com/docs/collaborating-in-postman/roles-and-permissions/#team-roles). Once approved, an invite to join the team will be sent to the individual.
+* **Workspace Editor** - Can invite external users to team and public workspaces, but can't assign them workspace roles. For private workspaces, Workspace Editors using [Postman on the web](/docs/getting-started/installation-and-updates/#using-postman-on-the-web) can copy and share a link to the workspace with a teammate, who can then [request access to the workspace](#accessing-private-workspaces).
+* **Workspace Viewer** - Can't invite teammates to private, team, or public workspaces. For private workspaces, Workspace Viewers using [Postman on the web](/docs/getting-started/installation-and-updates/#using-postman-on-the-web) can copy and share a link to the workspace with a teammate, who can then [request access to the workspace](#accessing-private-workspaces).
 
 > When you invite a collaborator to a personal workspace, it's automatically converted into a team workspace.
 
-Individual team members and groups you invite will be notified immediately of your request to collaborate. External users who aren't on your Postman team will receive an invitation to join immediately if you have an [Admin role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles). If you aren't a Team Admin, your request to add external users to your Postman team will be shared with your Team Admins for approval.
+Individual team members and groups you invite will be notified immediately of your request to collaborate. External users who aren't on your Postman team will receive an invitation to join immediately if you're a [Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles). If you aren't a Team Admin, your request to add external users to your Postman team will be shared with your Team Admins for approval.
 
 You can also invite collaborators by selecting <img alt="Link icon" src="https://assets.postman.com/postman-docs/icon-workspace-link-v9.jpg#icon" width="18px"> **Copy Invite Link** and sharing the link with them outside of Postman. When individuals select the link, they'll be prompted to sign in or sign up. If you are a Team Admin inviting an external user, they'll be automatically added to your team. If you aren't a Team Admin, a request to add them to your Postman team will be shared with your Team Admins for approval.
 
@@ -141,13 +145,13 @@ To see notifications, select the notification icon <img alt="Bell icon" src="htt
 
  To stop watching a workspace, select **Unwatch** on the upper right of the workspace's **Overview** tab.
 
-> By default, you are a watcher for any workspace you create. You will not receive notifications for changes you make to a workspace you're watching.
+> By default, you are a watcher for any workspace you create. You won't receive notifications for changes you make to a workspace you're watching.
 
 ## Moving elements to workspaces
 
 Workspaces can contain elements such as collections, APIs, environments, mock servers, and monitors. A particular element can exist only in a single workspace. If needed, you can move elements to a different workspace.
 
-> Monitors cannot be moved. If you move a collection that is being monitored, the associated monitor is paused and stays in the original workspace.
+> Monitors can't be moved. If you move a collection that's being monitored, the associated monitor is paused and stays in the original workspace.
 
 To move an element to a different workspace:
 
@@ -158,7 +162,7 @@ To move an element to a different workspace:
 
 1. Select the workspace where you want to move the element, and then select **Move**.
 
-    > You cannot move elements from a private, team, or public workspace to a personal workspace.
+    > You can't move elements from a private, team, or public workspace to a personal workspace.
 
     <img alt="Move collection to workspace" src="https://assets.postman.com/postman-docs/move-collection-to-selected-workspace-v9.jpg" width="400px" height="400px"/>
 
