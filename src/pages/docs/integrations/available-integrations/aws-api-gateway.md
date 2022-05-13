@@ -1,15 +1,19 @@
 ---
 title: "AWS API Gateway"
-order: 163.1
-updated: 2021-09-15
-page_id: "aws-api-gateway"
-warning: false
+updated: 2022-04-15
 contextual_links:
   - type: section
     name: "Prerequisites"
   - type: link
     name: "Intro to collections"
     url: "/docs/sending-requests/intro-to-collections/"
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Blog Posts"
+  - type: link
+    name: "Introducing Postman’s AWS API Gateway Integration"
+    url: "https://blog.postman.com/aws-api-gateway-integration-postman/"
   - type: section
     name: "Next Steps"
   - type: link
@@ -20,7 +24,7 @@ contextual_links:
     url: "/docs/integrations/available-integrations/slack/"
 ---
 
-> **You can now connect to Amazon API Gateway from the Postman API Builder.** After you connect your API to API Gateway, you can view stage information and deployment history on the **Deployments** tab in the API Builder. OpenAPI 3.0 schemas for both HTTP and REST APIs are supported. In addition, for HTTP APIs, you can export your schema from Postman to API Gateway for later deployment, or even deploy your HTTP API schema directly from Postman to a stage in API Gateway.<br/><br/>To learn more about connecting your API in Postman to Amazon API Gateway, see [Deploying an API](/docs/designing-and-developing-your-api/deploying-an-api/).
+> **You can now connect to Amazon API Gateway from the Postman API Builder.** After you connect your API to API Gateway, you can view stage information and deployment history on the **Deployments** tab in the API Builder. OpenAPI 3.0 schemas for both HTTP and REST APIs are supported. In addition, for HTTP APIs, you can import your schema from API Gateway to Postman, export your schema from Postman to API Gateway for later deployment, or even deploy your HTTP API schema directly from Postman to a stage in API Gateway.<br/><br/>To learn more about connecting your API in Postman to Amazon API Gateway, see [Importing an API](/docs/designing-and-developing-your-api/importing-an-api/) and [Deploying an API](/docs/designing-and-developing-your-api/deploying-an-api/).
 
 You can upload your API schemas directly to AWS API Gateway from Postman with this integration. This integration uses version 2 of the AWS API and only supports HTTP APIs with OpenAPI 3.0 schemas.
 
@@ -59,7 +63,7 @@ You can directly upload your API schemas from Postman to AWS API Gateway. Once t
 
     ![aws gateway auth and proceed](https://assets.postman.com/postman-docs/aws-gateway-auth-proceed.jpg)
 
-1. Select your API, API version, and the API Gateway you'd like to deploy to from the dropdown menus. You can use an existing API Gateway, or create a new one by selecting **Create New API Gateway** from the dropdown.
+1. Select your API, API version, and the API Gateway you'd like to deploy to. You can use an existing API Gateway, or create a new one by selecting **Create New API Gateway** from the dropdown.
 
     > If you are creating a new API Gateway, auto-deployment will automatically be set to false in AWS.
 

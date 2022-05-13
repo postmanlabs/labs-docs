@@ -21,7 +21,7 @@ Setting up a New Relic monitor integration requires you to get an API key (Inges
 
 ## Retrieving your New Relic API key
 
-If you don't already have a [New Relic account](https://newrelic.com/), you'll need to [create one](https://newrelic.com/signup). Then follow the steps below to retrieve your Ingest License key from New Relic:
+If you don't already have a [New Relic account](https://newrelic.com/), you'll need to [create one](https://newrelic.com/signup?utm_source=external_partners&utm_medium=referral&utm_campaign=global-fy22-q3-io-partner&utm_content=postman_qs). Then follow the steps below to retrieve your Ingest License key from New Relic:
 
 1. Sign in to [New Relic](https://login.newrelic.com).
 1. Select your user avatar in the upper right corner, then select **API keys**.
@@ -44,7 +44,7 @@ If you don't already have a [New Relic account](https://newrelic.com/), you'll n
     <img alt="Add New Relic monitor integration" src="https://assets.postman.com/postman-docs/new-relic-add-integration-v9-6.jpg" width="1124px">
 
 1. Enter a **Nickname** for this integration.
-1. Type or select the name of the workspace that contains the monitor you want to use.
+1. Select the name of the workspace with the monitor you want to use, or enter a new one.
 1. Select the monitor you want to use.
 1. For **New Relic API key**, enter the Ingest License key you copied from New Relic.
 1. Select a New Relic region. New Relic offers US and EU region instances. See the [New Relic data center documentation](https://docs.newrelic.com/docs/using-new-relic/welcome-new-relic/get-started/our-eu-us-region-data-centers) for more information.

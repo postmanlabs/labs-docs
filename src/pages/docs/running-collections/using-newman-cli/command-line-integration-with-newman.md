@@ -20,6 +20,11 @@ contextual_links:
   - type: link
     name: "Using Custom Reporters with Newman"
     url: "https://youtu.be/Nxdxx-VaYno"
+  - type: subtitle
+    name: "Blog Posts"
+  - type: link
+    name: "Newman: run and test your collections from the command line"
+    url: "https://blog.postman.com/newman-run-and-test-your-collections-from-the-command-line/"
   - type: section
     name: "Next Steps"
   - type: link
@@ -210,7 +215,7 @@ The results of all tests and requests can be exported into a file. Use the JSON 
 $ newman run mycollection.json --reporters cli,json --reporter-json-export outputfile.json
 ```
 
-**Note:** Newman allows you to use all [libraries and objects](/docs/writing-scripts/script-references/postman-sandbox-api-reference/) that Postman supports to run tests and pre-request scripts.
+> Newman allows you to use all [libraries and objects](/docs/writing-scripts/script-references/postman-sandbox-api-reference/) that Postman supports to run tests and pre-request scripts.
 
 ## Using Newman with CI/CD
 
@@ -326,15 +331,15 @@ To use the custom reporter, it will have to be installed first. For instance, to
 npm install newman-reporter-teamcity
 ```
 
-Note that the name of the package is of the form `newman-reporter-<name>`, where `<name>` is the actual name of the reporter. The installation should be global if Newman is installed globally, local otherwise. Run `npm install ...` with the `-g` flag for a global installation.
+Note that the name of the package is of the form `newman-reporter-<name>`, where `<name>` is the actual name of the reporter. The installation is global if Newman is installed globally, local otherwise. Run `npm install ...` with the `-g` flag for a global installation.
 
 To use local (non-published) reporters, run the command `npm install <path/to/local-reporter-directory>` instead.
 
-Use the installed reporter, either with the CLI, or programmatically. Here, the `newman-reporter` prefix isn't required while specifying the reporter name in the options.
+Use the installed reporter, either with the command-line tool, or programmatically. Here, the `newman-reporter` prefix isn't required while specifying the reporter name in the options.
 
 Scoped reporter packages must be specified with the scope prefix. For instance, if your package name is `@myorg/newman-reporter-name`, you must specify the reporter with `@myorg/name`.
 
-CLI:
+On the command line:
 
 ```bash
 newman run /path/to/collection.json -r myreporter --reporter-myreporter-<option-name> <option-value> # The option is optional

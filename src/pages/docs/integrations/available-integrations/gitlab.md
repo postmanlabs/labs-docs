@@ -57,7 +57,7 @@ The above screen provides you the following two options:
 
 1. Enter your GitLab Personal Access Token and select **Authenticate and Proceed**.
 
-1. Choose an existing Postman collection and your GitLab Project, and enter a filename for your backup.
+1. Choose an existing Postman Collection and your GitLab Project, and enter a filename for your backup.
 
 1. In **Advanced Options** you can enter a custom directory name or leave `Postman Collections` as the default. You can specify a branch for commit or the default branch of the repository will be used.
 
@@ -67,7 +67,7 @@ The above screen provides you the following two options:
 
 Your collection is pushed to your GitLab project under the filename that you specified and saved as a single JSON file.
 
-Every change that is saved to your Postman collection automatically commits changes to your GitLab project in real time. Your collections and code can exist in the same repository.
+Every change that is saved to your Postman Collection automatically commits changes to your GitLab project in real time. Your collections and code can exist in the same repository.
 
 ## Back up your Postman Collections to GitLab on a custom domain
 
@@ -85,7 +85,7 @@ Every change that is saved to your Postman collection automatically commits chan
 
 1. In the **Backup your Postman Collections** page, choose an existing Postman Collection and your GitLab Project, then enter a filename for your backup.
 
-1. In **Advanced Options** you can enter a custom directory name or leave `Postman Collections` as the default. You can specify a branch for commit or the default branch of the repository will be used. Make sure you have write access to the branch where you are trying to push your changes.
+1. In **Advanced Options** you can enter a custom directory name or leave `Postman Collections` as the default. You can specify a branch for commit or the default branch of the repository will be used. Make sure you have write access to the branch where you want to push your changes.
 
    > Note that the branch you want to back up your collection to must already exist.
 

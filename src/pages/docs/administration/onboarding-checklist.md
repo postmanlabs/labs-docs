@@ -32,9 +32,9 @@ If you're just getting started using Postman within your organization, you can c
 
 ## Setting up Postman
 
-Postman can be accessed [on the web](/docs/getting-started/installation-and-updates/#using-postman-on-the-web) with a [desktop agent](https://www.postman.com/downloads/postman-agent/). Postman is available as a standalone app for Windows, Mac, and Linux. Make sure everyone who would like to use Postman has the latest version by downloading it from [the Postman website](https://www.postman.com/downloads/).
+Postman can be accessed [on the web](/docs/getting-started/installation-and-updates/#using-postman-on-the-web) with the [Postman Desktop Agent](https://www.postman.com/downloads/postman-agent/). Postman is available as a standalone app for Windows, Mac, and Linux. Make sure everyone who would like to use Postman has the latest version by downloading it from [the Postman website](https://www.postman.com/downloads/).
 
-For the Postman web version, you can also manually select the agent for your requests: **Cloud Agent**, **Desktop Agent**, or **Browser Agent**. To learn more about the agent used for your request, select the agent selector from the Postman footer. You can use the toggle option in **Auto-select** to turn on or off the auto-select agent. Once you enable the option for Auto-select, Postman will automatically select the best agent for your requests.
+For the Postman web version, you can also manually select the agent for your requests: **Cloud Agent**, **Desktop Agent**, or **Browser Agent**. To learn more about the agent used for your request, select the agent selector from the Postman footer. You can use **Auto-select** to turn the auto-select agent on or off. Once you enable the option for Auto-select, Postman will automatically select the best agent for your requests.
 
 <img alt="Auto-select agent" src="https://assets.postman.com/postman-docs/auto-select-agent.jpg" width="350px">
 
@@ -51,7 +51,7 @@ You may want to contact your IT team to establish what the procedure is for addi
     * `*.postman.co`
     * `*.pstmn.io`
 
-* Depending on your [plan](https://www.postman.com/pricing) you may be able to obtain static IP addresses for Postman Monitors. Your IT team should allowlist these static IPs for monitoring. See [Running Postman monitors using static IPs](/docs/monitoring-your-api/using-static-IPs-to-monitor/) for details on how to obtain and configure static IP addresses for monitoring.
+* Depending on your [plan](https://www.postman.com/pricing) you may be able to obtain static IP addresses for Postman Monitors. Your IT team must allowlist these static IPs for monitoring. See [Running Postman monitors using static IPs](/docs/monitoring-your-api/using-static-IPs-to-monitor/) for details on how to obtain and configure static IP addresses for monitoring.
 
 * Update your [team settings](https://go.postman.co/settings/team/general). See [Team Settings](/docs/administration/team-settings/) for more information.
 * If your Postman [plan](https://www.postman.com/pricing) includes single-sign-on (SSO) you may need help from your IT team to configure it. See [Configuring SSO for a team](/docs/administration/sso/admin-sso/) for instructions on integrating with specific identity providers.

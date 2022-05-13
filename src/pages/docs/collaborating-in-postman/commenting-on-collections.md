@@ -127,7 +127,7 @@ You can resolve comments made on request parameters when you no longer want them
 
 <img src="https://assets.postman.com/postman-docs/deleting-a-comment-v8.jpg" alt="Delete comment" width="399px">
 
-> For moderation purposes, admins can delete comments made by anyone, but cannot modify comments.
+> For moderation purposes, users with the [Team Admin role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can delete comments made by anyone, but cannot modify comments.
 
 ## Tagging members in comments
 
@@ -135,7 +135,7 @@ When you leave feedback or a question for a specific teammate, you can let them 
 
 1. In Postman, open the collection or request you want to leave your comment on.
 2. Select **Comments** and write your message.
-3. To tag your teammate, type "@" and choose their name from the list.
+3. To tag your teammate, enter "@" and choose their name from the list.
 4. Select **Add comment**.
 
 Your teammate will be notified in the app or with an email that they've been tagged in a comment. Select the notifications icon <img alt="Notifications icon" src="https://assets.postman.com/postman-docs/icon-notification-bell-v9.jpg#icon" width="18px"> in the Postman header to view in-app notifications.

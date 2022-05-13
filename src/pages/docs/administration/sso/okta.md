@@ -83,9 +83,9 @@ Under the third step “Feedback”, select “I’m an Okta customer adding an 
 Move over to the **Sign On** tab, and select **View Setup Instructions**.
 [![okta sign on](https://assets.postman.com/postman-docs/okta_sign_on.png)](https://assets.postman.com/postman-docs/okta_sign_on.png)
 
-The **View Setup Instructions** screen comes populated with values that you should copy and paste in the **Identity Provider Details** section.
+The **View Setup Instructions** screen comes populated with values. Copy these values and paste them in the **Identity Provider Details** section.
 
-**Note:** You will need to come back to this screen to paste the value in _Default Relay State_ that you will generate from the Postman's **Identity Provide Details** section.
+You will need to come back to this screen to paste the value in _Default Relay State_ that you will generate from the Postman's **Identity Provide Details** section.
 
 ### Okta - Step 10
 
@@ -151,9 +151,9 @@ Select **Browse** and upload the encryption certificate. Select **Save**.
 Move over to the **Sign On** tab, and select **View Setup Instructions**.
 [![okta sign on](https://assets.postman.com/postman-docs/okta_sign_on.png)](https://assets.postman.com/postman-docs/okta_sign_on.png)
 
-The **View Setup Instructions** screen comes populated with values that you should copy and paste in the **Identity Provider Details** section.
+The **View Setup Instructions** screen comes populated with values. Copy these values and paste them in the **Identity Provider Details** section.
 
-**Note:** You will need to come back to this screen to paste the value in _Default Relay State_ that you will generate from the Postman's **Identity Provide Details** section.
+You will need to come back to this screen to paste the value in _Default Relay State_ that you will generate from the Postman's **Identity Provide Details** section.
 
 ### Postman - Step 6
 

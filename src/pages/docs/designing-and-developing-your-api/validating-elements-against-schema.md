@@ -16,10 +16,10 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Videos"
   - type: link
-    name: "Create APIs directly within the Postman app"
-    url: "https://blog.postman.com/postman-7-1-create-apis-directly-within-the-postman-app/"
+    name: "Postman Space Camp | Design and Prototype an API in Postman"
+    url: "https://youtu.be/r4kb3jOSsmk"
   - type: section
     name: "Next Steps"
   - type: link

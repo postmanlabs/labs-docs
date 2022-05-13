@@ -18,15 +18,15 @@ contextual_links:
     name: "API Monitoring | The Exploratory"
     url: "https://youtu.be/tDQzY1Hn2LY"
   - type: subtitle
-    name: "Public Workspaces"
-  - type: link
-    name: "Postman API Monitoring Examples"
-    url:  "https://www.postman.com/postman/workspace/e348c5a0-2965-44cc-87ed-7b316516f38d"
-  - type: subtitle
     name: "Blog Posts"
   - type: link
     name: "6 Steps to Enhance Your Audio with a Dolby API and Postman Monitors"
     url:  "https://blog.postman.com/6-steps-enhance-audio-dolby-api/"
+  - type: subtitle
+    name: "Public Workspaces"
+  - type: link
+    name: "Postman API Monitoring Examples"
+    url:  "https://www.postman.com/postman/workspace/e348c5a0-2965-44cc-87ed-7b316516f38d"
   - type: section
     name: "Next Steps"
   - type: link
@@ -36,7 +36,7 @@ contextual_links:
 warning: false
 ---
 
-Postman Monitors provide a way to automatically run test scripts and perform other tests at regular intervals. When you [set up a collection-based monitor](/docs/monitoring-your-api/setting-up-monitor/), you choose a collection with the requests and test scripts you want to run, and you specify how frequently Postman should run the collection. You'll be notified if a test fails, and all results are recorded on the [monitor's dashboard](/docs/monitoring-your-api/viewing-monitor-results/).
+Postman Monitors provide a way to automatically run test scripts and perform other tests at regular intervals. When you [set up a collection-based monitor](/docs/monitoring-your-api/setting-up-monitor/), you choose a collection with the requests and test scripts you want to run, and you specify how frequently Postman runs the collection. You'll be notified if a test fails, and all results are recorded on the [monitor's dashboard](/docs/monitoring-your-api/viewing-monitor-results/).
 
 Below are some ways you can use collection-based monitors to test your APIs and ensure they're functioning correctly.
 
@@ -52,7 +52,7 @@ This is similar in approach to monitoring a specific endpoint, with the subtle d
 
 ## Running API tests
 
-In an API where various endpoints are interlinked, precise knowledge about their functioning is crucial. In cases where data is passed from one request to another, the entire response, or a part of it, can be saved as an environment variable. Additional care should be taken while setting non-atomic values (objects, arrays, and the like), as the original value will be lost. Instead, such complex objects and arrays can be handled as follows:
+In an API where various endpoints are interlinked, precise knowledge about their functioning is crucial. In cases where data is passed from one request to another, the entire response, or a part of it, can be saved as an environment variable. Pay extra attention while setting non-atomic values (like objects and arrays), since the original value will be lost. Instead, such complex objects and arrays can be handled as follows:
 
 ```js
 // set the value

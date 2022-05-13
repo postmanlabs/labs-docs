@@ -16,13 +16,27 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Intro to Postman | Write API Tests"
+    url: "https://youtu.be/EVg6gxeiUd0"
+  - type: link
+    name: "Intro to Postman | Advanced API Tests"
+    url: "https://youtu.be/vVDZxeS865g"
+  - type: link
+    name: "Get and Set Variables | Postman Level Up"
+    url: "https://youtu.be/EKv6n-jY9lU"
+  - type: link
+    name: "Testing with Snippets | Postman Level Up"
+    url: "https://youtu.be/QGNJ0wh5Ry0"
+  - type: subtitle
     name: "Blog Posts"
   - type: link
-    name: "Keep it DRY with collection and folder elements"
-    url: "https://blog.postman.com/keep-it-dry-with-collection-and-folder-elements/"
+    name: "Autocomplete Now Available in Postman Script Editor"
+    url: "https://blog.postman.com/postman-script-editor-autocomplete/"
   - type: link
-    name: "Not your Grandma's Postman"
-    url: "https://blog.postman.com/not-your-grandmas-postman/"
+    name: "When and How to Use JSON Serialization in Postman"
+    url: "https://blog.postman.com/when-and-how-to-use-json-serialization-in-postman/"
   - type: subtitle
     name: "Case Studies"
   - type: link
@@ -49,7 +63,7 @@ Postman contains a powerful runtime based on Node.js that allows you to add dyna
   1. Before a request is sent to the server, as a [pre-request script](/docs/writing-scripts/pre-request-scripts/) under the **Pre-request Script** tab.
   1. After a response is received, as a [test script](/docs/writing-scripts/test-scripts/) under the **Tests** tab.
 
-Postman will prompt you with suggestions as you type—select one to autocomplete your code.
+Postman will prompt you with suggestions as you enter text. Select one to autocomplete your code.
 
 [![Script autocomplete](https://assets.postman.com/postman-docs/autocomplete-v8.gif)](https://assets.postman.com/postman-docs/autocomplete-v8.gif)
 
@@ -79,7 +93,7 @@ For example, imagine you had the following collection structured with a single f
 
 [![Console log statement](https://assets.postman.com/postman-docs/console-log-statement-v8.jpg)](https://assets.postman.com/postman-docs/console-log-statement-v8.jpg)
 
-If you created log statements in the pre-request and test script sections for the collection, folder, and requests, you'd see the execution order in the [Postman console](/docs/sending-requests/troubleshooting-api-requests/).
+If you created log statements in the pre-request and test script sections for the collection, folder, and requests, you'd see the execution order in the [Postman Console](/docs/sending-requests/troubleshooting-api-requests/).
 
 [![Logs in console](https://assets.postman.com/postman-docs/logs-in-console-v8.jpg)](https://assets.postman.com/postman-docs/logs-in-console-v8.jpg)
 

@@ -19,11 +19,11 @@ contextual_links:
 warning: false
 ---
 
-If you encounter a problem with a collection-based monitor, try the following steps to identify and resolve the issue.
+If you encounter a problem with a collection-based monitor, the following troubleshooting steps may help you identify and resolve the issue.
 
 ## Viewing failed monitors
 
-The [Postman console log](/docs/monitoring-your-api/viewing-monitor-results/#console-log) can help you debug issues you might encounter with your collection-based monitors. To view the log:
+The [Postman Console log](/docs/monitoring-your-api/viewing-monitor-results/#console-log) can help you debug issues you might encounter with your collection-based monitors. To view the log:
 
 1. Go to your workspace and select **Monitors** in the sidebar.
 1. Select a monitor, and then select a failed monitor run in the performance graph.

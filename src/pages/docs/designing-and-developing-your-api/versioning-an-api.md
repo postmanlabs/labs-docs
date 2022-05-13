@@ -1,9 +1,6 @@
 ---
 title: 'Versioning APIs'
-order: 81.2
-page_id: 'versioning_an_api'
-updated: 2022-02-16
-warning: false
+updated: 2022-05-09
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -25,9 +22,6 @@ contextual_links:
   - type: link
     name: "Redefining API Management for the API-First World"
     url: "https://blog.postman.com/new-postman-api-platform-redefining-api-management-for-api-first-world"
-  - type: link
-    name: "Create APIs directly within the Postman app"
-    url: "https://blog.postman.com/postman-7-1-create-apis-directly-within-the-postman-app/"
   - type: link
     name: "Streamline the API Development Lifecycle with Postman Version Control"
     url: "https://blog.postman.com/streamline-api-development-lifecycle-with-postman-version-control/"
@@ -104,7 +98,7 @@ You can connect an API to your remote Git-based repository, at the API level. Th
 
 You can only connect one Postman API to one remote repo. Multiple APIs require multiple repos. Multiple versions of an API can link to the same repo/branch combination, as long as development only happens on one branch. If you link a repo or branch to a new version, then all previous integrations on that branch become locked. For inactive integrations, no pulls, pushes, or new tag-links can happen, but the linked tags will remain.
 
-> For GitHub connections, there's currently a limit of ten auth tokens per user per application imposed by GitHub. If you create more than ten connections with the same user, the additional tokens will be revoked in the order that they were created. Teams can use other Postman accounts to create more than ten integrations.
+> For GitHub connections, there's a limit of ten auth tokens per user per application imposed by GitHub. If you create more than ten connections with the same user, the additional tokens will be revoked in the order that they were created. Teams can use other Postman accounts to create more than ten integrations.
 
 To connect a repository:
 
@@ -114,18 +108,20 @@ To connect a repository:
 1. On the **Connect your repository page**, enter the information for your repo.
 1. Enter the Git **Organization** and **Repository** where the API will be stored. (For GitLab, **Organization** refers to a **Group**, and **Repository** refers to a **Project**.)
    > Note that you can only connect one Postman API per repo. Multiple APIs require multiple repos.
-1. Enter the **Main branch** for the API. This is used to fetch  release tags; code is not pushed to this branch.
+1. Enter the **Main branch** for the API. This is used to fetch release tags; code isn't pushed to this branch.
 1. Enter the **Development branch** for the API. This is where code updates are pushed.
 1. Select an **API schema directory** and **Collection directory** where schemas and collections will be stored in the repo. If you leave a value blank, a `postman/schemas` or `postman/collections` directory will be created in the root of the repo. If you select a directory already containing schemas, you will be asked which schema to use in Postman the first time you pull changes.
 1. Select **Connect Repository**.
 
-> If you previously used the GitHub integration for two-way sync of an API schema, you must delete the previous integration to connect a repo to your API. An existing integration will continue to function, but you can't add new integrations for two-way sync to an API schema.
+> If you used the earlier standalone GitHub integration for two-way sync of an API schema, you must delete the previous integration to connect a repo to your API. An existing integration will continue to function, but you can't add new integrations for two-way sync to an API schema.
 
 ### Pulling and pushing changes
 
 When you are connected to an external Git repo, the repo dropdown list displays your current develop branch and indicates if your API changes in Postman are ahead of or behind the files in your external repo. It shows links to the connected branch and repo, and a date when changes were last pulled to Postman or pushed to the Git repo. It also contains commands to pull, commit and push, switch branches, and delete the integration.
 
-<img src="https://assets.postman.com/postman-docs/api-builder-git-integration-dropdown.jpg" alt="API Builder source control" width="250px" />
+<img src="https://assets.postman.com/postman-docs/api-builder-git-integration-dropdown-v9-17.jpg" alt="API Builder source control" width="250px" />
+
+Select the refresh icon <img alt="Refresh icon" src="https://assets.postman.com/postman-docs/icon-refresh-v9-5.jpg#icon" width="14px"> next to the repo dropdown list to check the remote repo for relevant changes.
 
 #### Pulling changes
 
@@ -157,7 +153,7 @@ When you aren't in the configured develop branch, you can only edit the API sche
 
 You can remove a connection to a Git repo at any time. You may want to do this if you are changing accounts or providers, or need to use a different development branch.
 
-On the repo dropdown list, select **Delete Integration**. Note that this only removes the connection to Git; it does not change any files or branches.
+On the repo dropdown list, select **Delete Integration**. Note that this only removes the connection to Git; it doesn't change any files or branches.
 
 ## Working with API versions
 
@@ -178,7 +174,7 @@ To create a new version of an API:
 
 You can rename, edit, or delete an API version using the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> in the sidebar. Editing an API enables you to change the name, status, and visibility at once.
 
-   > When you delete an API version, the collections, monitors, mocks, and environments linked to it will not be deleted or removed.
+   > When you delete an API version, the collections, monitors, mocks, and environments linked to it won't be deleted or removed.
 
 ## Working with API releases
 
@@ -188,11 +184,11 @@ When you are connected to an external Git repo, releases can be mapped to the Gi
 
 ### Viewing releases
 
-Releases are shown on the **API version** page, on the **Overview** tab. Hover over a release and select **View Release** to open that release's page.
+Releases are shown on the **API version** page, on the **Overview** tab. Select a release date to open that release's page.
 
-<img src="https://assets.postman.com/postman-docs/api-builder-releases.jpg" alt="API Builder releases" width="350px"/>
+<img src="https://assets.postman.com/postman-docs/api-builder-releases-v9-16.jpg" alt="API Builder releases" width="350px"/>
 
-Each release page shows a read-only view of the schema, documentation, and tests associated with that release. You can't make changes to a released API; if you have more changes, you can create another release.
+Each release page shows a read-only view of the schema, documentation, and tests associated with that release. You can't make changes to a released API. If you have more entity changes, you can create another release.
 
 ### Creating a release
 
@@ -200,13 +196,14 @@ To create a release:
 
 1. If you are using an external Git repo, create a release in Git first by merging changes from your develop branch to the main branch, and creating a release tag.
 1. Select the changelog icon (<img alt="Changelog icon" src="https://assets.postman.com/postman-docs/icon-changelog.jpg" width="25px" style="vertical-align:middle;margin-bottom:0px">) in the sidebar. The Changelog will show changes to the API version's schema and associated elements.
-1. Select **+ Release changes**.
-1. Enter the release name and description.
+1. Select **+ Create Release**.
+1. Enter the release name and summary. The summary can be up to 140 characters.
+1. Optionally, enter release notes for the release. Use the editor to enter a long-form description of the release, which can include headings, lists, tables, images, code blocks and other formatting.
 1. If you are using an external Git repo, select a tag in **Git release**.
 1. Select **Make this version available for consumers** if you want the new version to be visible. Otherwise, it's only visible to editors.
 1. Select **Create Release**. You will be taken to a new page for the release.
 
-You can also edit a release name in the Changelog. Next to the release, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px">, then select **Edit**.
+You can edit a release name in the Changelog. Next to the release, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px">, then select **Edit**. You can also edit a release's summary and release notes from the release page, either in the edit dialog, or by selecting the description or release notes in the overview.
 
 ## Setting an API status
 

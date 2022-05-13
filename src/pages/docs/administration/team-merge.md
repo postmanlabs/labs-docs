@@ -13,9 +13,6 @@ contextual_links:
   - type: link
     name: "Managing your team"
     url: "/docs/administration/managing-your-team/managing-your-team/"
-  - type: link
-    name: "Manage Large Teams in Postman with Workspaces, Permissions, and Version Control"
-    url: "/docs/administration/sso/admin-sso/"
 
 ---
 
@@ -38,8 +35,8 @@ Team migration can occur in different ways depending on your needs and preferred
 ## Who can perform team migration
 
 * All plan types (Free, Basic, Professional, and Enterprise)
-* [Team admins and team developers](/docs/collaborating-in-postman/roles-and-permissions/#team-roles)
-* Information Technology / System Administrator for [single sign-on provisioning](/docs/administration/sso/intro-sso/) (available to [Professional and Enterprise plans](https://www.postman.com/pricing/))
+* [Team members with the Admin or Developer role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles)
+* Information Technology or System Administrator for [single sign-on provisioning](/docs/administration/sso/intro-sso/) (available to [Professional and Enterprise plans](https://www.postman.com/pricing/))
 
 ## Before you start migrating
 
@@ -52,7 +49,7 @@ Team migration can occur in different ways depending on your needs and preferred
 
 You can choose either [centralized](#choosing-centralized-migration) or [distributed](#choosing-distributed-migration) migration to export your team data.
 
-> As a precautionary measure prior to migrating data, admins and team members are strongly encouraged to perform a [JSON data dump backup through a bulk export](/docs/getting-started/importing-and-exporting-data/#exporting-data-dumps).
+> As a precautionary measure prior to migrating data, Admins and team members are strongly encouraged to perform a [JSON data dump backup through a bulk export](/docs/getting-started/importing-and-exporting-data/#exporting-data-dumps).
 
 ### Choosing centralized migration
 
@@ -62,11 +59,11 @@ With centralized migration, you will export a large JSON file of collections, en
 
 You can bulk export your admin personal workspaces or your personal workspaces plus the workspaces of any team you have joined.
 
-You ___should___ choose centralized migration if the following conditions apply:
+Choose centralized migration if the following conditions apply:
 
 * Your organization prefers to have one person perform the migration.
 
-You should ___not___ choose distributed migration if your organization relies on the following:
+Don't choose distributed migration if your organization relies on the following:
 
 * Postman-published documentation–URLs would need to be republished from your new team instance.
 * Mocks and monitors—you would need to recreate these.
@@ -84,15 +81,15 @@ If you have an individual account and are not part of a team, but want to mainta
 
 If you have a personal account and want to deactivate it and join an authorized team, you can accept the team invite and all personal Postman data will be transferred to your new team automatically.
 
-You ___should___ choose distributed migration if the following conditions apply:
+Choose distributed migration if the following conditions apply:
 
-* Your organization has workspaces that have dedicated workspace admins with numerous collections.
-    * Workspace admins can export any relevant collections and environments into the new team workspace.
+* Your organization has workspaces that have dedicated [Workspace Admins](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles) with many collections.
+    * Workspace Admins can export any relevant collections and environments into the new team workspace.
 * You are a single user and want to deactivate your existing account or move company data from personal account to the authorized team.
 
 > Recreating mocks, monitors, and documentation on the new team may be carried out by those who are responsible for maintaining it.
 
-You should ___not___ choose distributed migration if your organization is unable to do the following:
+Don't choose distributed migration if your organization is unable to do the following:
 
 * Determine ownership of workspaces, collections, and other data that may be important and would otherwise be lost if no one takes responsibility for migrating it.
 * Create the necessary communication channels that would allow you to understand when everyone has migrated.
@@ -101,7 +98,7 @@ See [performing distributed migration](#performing-distributed-migration) to cho
 
 ### Performing centralized migration
 
-* The appointed admin on the previous team should inherit ownership of all shared collections. To do this they can [access the existing workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#accessing-workspaces).
+* The appointed admin on the previous team will inherit ownership of all shared collections. To do this they can [access the existing workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#accessing-workspaces).
     * Data from team workspaces you have not joined will not be present in the export.
     * By default, the person who imports a collection or environment is automatically assigned the Editor role (see more about [roles](/docs/collaborating-in-postman/roles-and-permissions/)). Everyone else on the team will be assigned as Viewer.
 * [Export all data](/docs/getting-started/importing-and-exporting-data/#exporting-postman-data) at once via a [JSON data dump](/docs/getting-started/importing-and-exporting-data/#exporting-data-dumps).
@@ -113,7 +110,7 @@ See [performing distributed migration](#performing-distributed-migration) to cho
 
 ### Performing distributed migration
 
-* Your team members should export their collections and environments prior to moving to your new team. You can use this as an opportunity to clean up and reorganize your workspaces.
+* Your team members need to export their collections and environments prior to moving to your new team. You can use this as an opportunity to clean up and reorganize your workspaces.
 * Team members can join your new team and re-import collections and environments into their respective team workspaces, creating new workspaces where necessary.
     * By default, the person who imports a collection or environment is automatically assigned the Editor role (see more about [roles](/docs/collaborating-in-postman/roles-and-permissions/)). Everyone else on the team will be assigned as a Viewer.
 * Once the last team member and data from your previous team have migrated to your new one, the previous team will automatically deactivate and you can begin [collaborating](https://www.youtube.com/watch?v=0hPUzjM-Cc8).

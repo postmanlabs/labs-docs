@@ -18,22 +18,16 @@ contextual_links:
     name: "How to Send API Requests"
     url: "https://youtu.be/8mBmLDbpIH8"
   - type: link
-    name: "How to use an API"
-    url:  "https://www.youtube.com/watch?v=jCadnlO9xSQ&list=PLM-7VG-sgbtBBnWb2Jc5kufgtWYEmiMAw"
+    name: "Intro to Postman | Part 1: Send a Request"
+    url: "https://youtu.be/2oOSnxZ28fA"
   - type: link
     name: "Upload a File via POST Request | Postman Level Up"
     url: "https://youtu.be/S7bwkys6D0E"
   - type: subtitle
     name: "Blog Posts"
   - type: link
-    name: "Get Greater Visibility With HTTP Header Live Preview in Postman"
-    url:  "https://blog.postman.com/get-greater-visibility-with-http-header-live-preview-in-postman/"
-  - type: link
     name: "Introducing the Next-Generation Postman URL Processor"
     url:  "https://blog.postman.com/introducing-the-next-generation-postman-url-processor/"
-  - type: link
-    name: "Announcing Increased Visibility of Invalid Whitespaces and Newlines In Your API Requests"
-    url:  "https://blog.postman.com/how-postman-increases-the-visibility-of-invalid-whitespaces-and-newlines-in-your-api-requests/"
   - type: subtitle
     name: "Public Workspaces"
   - type: link
@@ -58,7 +52,7 @@ warning: false
 
 ---
 
-You can send requests in Postman to connect to APIs you are working with. Your requests can retrieve, add, delete, and update data. Whether you are building or testing your own API, or integrating with a third-party API, you can try out your requests in Postman. Your requests can send parameters, authorization details, and any body data you require.
+You can send requests in Postman to connect to APIs you are working with. Your requests can retrieve, add, delete, and update data. Whether you are building or testing your own API, or integrating with a third-party API, you can send your requests in Postman. Your requests can send parameters, authorization details, and any body data you require.
 
 For example, if you're building a client application (such as a mobile or web app) for a store, you might send one request to retrieve the list of available products, another request to create a new order (including the selected product details), and a different request to log a customer in to their account.
 
@@ -103,7 +97,7 @@ Once your new tab is open, you can specify the details you need for your request
 
 If you have a request you want to run, you will need to know the URL, method, and other optional values such as auth and parameters.
 
-If you are trying out sending requests in Postman, you can set the URL to the Postman Echo sample API endpoint `https://postman-echo.com/get` and the method to `GET`, then select __Send__ to see what happens.
+To test sending a request in Postman, you can set the URL to the Postman Echo sample API endpoint `https://postman-echo.com/get` and the method to `GET`, then select __Send__ to see what happens.
 
 > Open the __Bootcamp__ in Postman and follow __Designing and mocking APIs__ to import some requests you can use for exploring Postman.
 
@@ -118,7 +112,7 @@ When you start typing in the URL input field, Postman will present a dropdown li
 
 > Postman will automatically add `http://` to the start of your URL if you don't specify a protocol.
 
-You can optionally type _query_ parameters into the URL field, or can [enter them in the Params tab](#sending-parameters). If your request uses _path_ parameters, [you can enter them directly into the URL field](#sending-parameters).
+You can optionally enter _query_ parameters into the URL field, or you can [enter them in the Params tab](#sending-parameters). If your request uses _path_ parameters, [you can enter them directly into the URL field](#sending-parameters).
 
 > You can use [next generation URL encoding](#encoding-your-request-urls) in your requests.
 
@@ -137,7 +131,7 @@ For example, if you're working with an API for a To Do list application, you mig
 
 Postman supports a number of additional request methods by default, and you can use custom methods. Select the method dropdown list, edit the method name text, and save your new method. To delete a method, hover over it in the list and select the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px">.
 
-> To try out the `https://postman-echo.com/get` endpoint, leave the `GET` method selected and select __Send__.
+> To test the `https://postman-echo.com/get` endpoint, leave the `GET` method selected and select __Send__.
 
 The same location (sometimes called "route") can provide more than one endpoint by accepting different methods. For example, an API might have a `POST` `/customer` endpoint for adding a new customer, and a `GET` `/customer` endpoint for retrieving an existing customer.
 
@@ -164,7 +158,7 @@ You can add descriptions to your parameters and they'll appear for anyone sharin
 
 > You can use the __Bulk Edit__ option if you prefer to enter your parameters in text instead of using the UI.
 
-If your request doesn't require body data, auth, or headers, go ahead and select __Send__ to try it out. Otherwise, set up your [body](#sending-body-data), [auth](#authenticating-requests), and [headers](#configuring-request-headers).
+If your request doesn't require body data, auth, or headers, select __Send__. Otherwise, set up your [body](#sending-body-data), [auth](#authenticating-requests), and [headers](#configuring-request-headers).
 
 ### Sending body data
 
@@ -233,7 +227,7 @@ Once your auth and other request details are set up, select __Send__ to run your
 
 ### Configuring request headers
 
-Some APIs require you to send particular headers along with requests, typically to provide additional metadata about the operation you are performing. You can set these up in the __Headers__ tab. Enter any key-value pairs you need and Postman will send them along with your request. As you type, Postman will prompt you with common options you can use to autocomplete your setup, such as `Content-Type`.
+Some APIs require you to send particular headers along with requests, typically to provide additional metadata about the operation you are performing. You can set these up in the __Headers__ tab. Enter any key-value pairs you need and Postman will send them along with your request. As you enter text, Postman prompts you with common options you can use to autocomplete your setup, such as `Content-Type`.
 
 ![Header Types](https://assets.postman.com/postman-docs/presets-v9.jpg)
 
@@ -291,7 +285,7 @@ The processor will encode characters depending on where they occur in the URL:
 | Query | `"` `#` `&` `'` `<` `=` `>` `SPACE` |
 | Userinfo | `"` `<` `>` `` ` `` `#` `?` `{` `}` `/` `:` `;` `=` `@` `[` `\` `]` `^` | `SPACE` |
 
-The processor is turned on by default in Postman, but you can turn off encoding if you are working with an unusual server implementation. Toggle the setting on or off in your request __Settings__ &gt; __Encode URL automatically__.
+The processor is turned on by default in Postman, but you can turn off encoding if you are working with an unusual server implementation. To turn this setting on or off in your request, select __Settings__ &gt; __Encode URL automatically__.
 
 > You can selectively encode parts of your URL by highlighting the text and right-clicking, then choosing __EncodeURIComponent__.
 

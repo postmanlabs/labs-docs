@@ -13,10 +13,10 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Videos"
   - type: link
-    name: "Create APIs directly within the Postman app"
-    url: "https://blog.postman.com/postman-7-1-create-apis-directly-within-the-postman-app/"
+    name: "Working With Your Team in Postman | The Exploratory"
+    url: "https://youtu.be/5lscUV-Exac"
   - type: section
     name: "Next Steps"
   - type: link
@@ -47,7 +47,7 @@ For more details, see [Sharing Postman entities](/docs/collaborating-in-postman/
 
 You can move APIs to shared workspaces to collaborate with your team.
 
-> You must be an editor on an API or the workspace admin to move the API to another workspace.
+> You must be an Editor on an API or the Workspace Admin to move the API to another workspace. To learn more about roles and permissions, see [Defining roles](/docs/collaborating-in-postman/roles-and-permissions/).
 
 In the sidebar, select the API you want to share, then select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> > **Move**.
 

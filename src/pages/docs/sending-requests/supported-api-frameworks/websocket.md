@@ -102,7 +102,7 @@ To rename, duplicate, or delete a saved message, select the more actions icon <i
 
 Sending events with a Socket.IO connection includes the ability to add event names and arguments. This makes it easy to listen to only specific events.
 
-For a Socket.IO connection, you can enter an event name to publish next **Send**. If you select **Send** without entering a name, the default name `message` will be used.
+For a Socket.IO connection, you can enter an event name to publish next to **Send**. If you select **Send** without entering a name, the default name `message` will be used.
 
 There is also an **Acknowledgement** option; when selected, the server will acknowledge that it has received the message.
 
@@ -139,7 +139,7 @@ In an expanded message:
 
 * Select **Text**, **HTML**, **JSON**, or **XML** to change the formatting of the message.
 * Select **Wrap Line** to add or remove line wraps.
-* Select **Show Hexdump** or **Show Message** to toggle if the message is shown in hex or text.
+* Select **Show Hexdump** or **Show Message** to show the message in hex or text.
 * Use the search control to search the body of the message.
 * Hover over a line number and select the arrow to expand or collapse message blocks.
 [![WebSocket message body](https://assets.postman.com/postman-docs/websocket-message-body.jpg)](https://assets.postman.com/postman-docs/websocket-message-body.jpg)
@@ -160,7 +160,7 @@ Prior to making a connection, you can also add events in the **Events** tab abov
 
 ## Using variables in requests and messages
 
-You can use Postman variables in the URL of a WebSocket connection or the body of a message. For example, you could create a variable named `my_host`, set the value to `example.com` and then use a URL of `ws://{{my_host}}/api/example`. If you type `{{` in either the URL field or message editor, you can autocomplete your variables.
+You can use Postman variables in the URL of a WebSocket connection or the body of a message. For example, you could create a variable named `my_host`, set the value to `example.com` and then use a URL of `ws://{{my_host}}/api/example`. If you enter `{{` in either the URL field or message editor, you can autocomplete your variables.
 
 See [Using variables](/docs/sending-requests/variables/) for more information on how to use variables.
 
@@ -232,7 +232,6 @@ Socket.IO typically uses WebSockets as its transport layer, but sometimes uses H
 
 ## Troubleshooting WebSocket requests
 
-You can use the console to debug issues with a WebSocket connection. To open the console and view log messages, select
-<img alt="Console icon" src="https://assets.postman.com/postman-docs/icon-console-v9.jpg#icon" width="16px"> **Console** in the Postman footer.
+You can use the console to debug issues with a WebSocket connection. To open the console and view log messages, select <img alt="Console icon" src="https://assets.postman.com/postman-docs/icon-console-v9.jpg#icon" width="16px"> **Console** in the Postman footer.
 
 For more information on using the console, see [Troubleshooting requests](/docs/sending-requests/troubleshooting-api-requests/).

@@ -1,9 +1,6 @@
 ---
 title: "Postman JavaScript reference"
-order: 47
 updated: 2020-09-04
-page_id: "postman_sandbox_api_reference"
-search_keyword: "pm.info, eventName, iteration, iterationCount, requestName, requestId, pm.sendRequest, sendRequest, pm.expect, pm.test, pm.variables.has, variables.has, pm.variables.get, variables.get, pm.variables.toObject, variables.toObject, pm.variables.set, variables.set, pm.environment.name, environment.name, pm.environment.has, environment.has, pm.environment.get, environment.get, pm.environment.set, environment.set, pm.environment.unset, environment.unset, pm.environment.clear, environment.clear, pm.environment.toObject, environment.toObject,  pm.environment.replaceIn, environment.replaceIn, pm.collectionVariables.has, collectionVariables.has, pm.collectionVariables.get, collectionVariables.get, pm.collectionVariables.set, collectionVariables.set, pm.collectionVariables.unset, collectionVariables.unset, pm.collectionVariables.clear, collectionVariables.clear, pm.collectionVariables.toObject, collectionVariables.toObject, pm.collectionVariables.replaceIn, collectionVariables.replaceIn, pm.globals.has, globals.has, pm.globals.get, globals.get, pm.globals.set, globals.set, pm.globals.unset, globals.unset, pm.globals.clear, globals.clear, pm.globals.toObject, globals.toObject pm.globals.replaceIn, globals.replaceIn, pm.request.url, request.url, pm.request.method, request.method, pm.request.body, request.body, pm.request.headers, request.headers, request.headers.add, headers.add, pm.request.headers.add, pm.request.headers.remove, request.headers.remove, headers.delete, pm.request.headers.upsert, request.headers.upsert, headers.upsert, pm.response.code, response.code, pm.response.status, response.status, pm.response.headers, response.headers, pm.response.responseTime, response.responseTime, pm.response.responseSize, response.responseSize, pm.response.text, response.text, pm.response.json, response.json, pm.iterationData.get, iterationData.get, pm.iterationData.toObject, iterationData.toObject, pm.iterationData.clear, iterationData.clear, pm.iterationData.has, iterationData.has, pm.iterationData.set, iterationData.set, pm.iterationData.toJSON, iterationData.toJSON, pm.iterationData.unset, iterationData.unset, pm.iterationData.variables, iterationData.variables, pm.cookies.has, cookies.has, pm.cookies.get, cookies.get, pm.cookies.toObject, cookies.toObject, pm.cookies.jar, cookies.jar, jar.set, jar.getAll, jar.unset, jar.clear, pm.response.to.have, response.to.have, pm.response.to.be, response.to.be"
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -14,12 +11,22 @@ contextual_links:
     name: "Test script examples"
     url: "/docs/writing-scripts/script-references/test-examples/"
   - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Data Encryption with CryptoJS"
+    url: "https://youtu.be/W_Gj1Q0lEOU"
+  - type: subtitle
+    name: "Blog Posts"
+  - type: link
+    name: "Adding External Libraries in Postman"
+    url: "https://blog.postman.com/adding-external-libraries-in-postman/"
+  - type: section
     name: "Next Steps"
   - type: link
     name: "Developing with Postman utilities"
     url: "/docs/developer/resources-intro/"
-
-warning: false
 ---
 
 Postman provides JavaScript APIs that you can use in your request scripts. The `pm` object provides functionality for testing your request and response data, with the `postman` object providing additional workflow control.
@@ -39,8 +46,8 @@ Postman provides JavaScript APIs that you can use in your request scripts. The `
         * [Cookies](#scripting-with-request-cookies)
     * [Sending requests from scripts](#sending-requests-from-scripts)
 * [Scripting workflows](#scripting-workflows)
-* [Scripting visualizations](#scripting-visualizations)
-* [Building response data into visualizations](#building-response-data-into-visualizations)
+* [Scripting Postman Visualizations](#scripting-postman-visualizations)
+* [Building response data into Postman Visualizations](#building-response-data-into-postman-visualizations)
 * [Writing test assertions](#writing-test-assertions)
 * [Using external libraries](#using-external-libraries)
 
@@ -630,7 +637,7 @@ The `postman` object provides the `setNextRequest` method for building request w
 
 > Note that `setNextRequest` has no effect when you run requests using **Send**; it only has an effect when you run a collection.
 
-When you run a collection (using the collection runner or Newman), Postman will run your requests in a default order or an order you specify when you set up the run. However, you can override this execution order using `postman.setNextRequest` to specify which request should run next.
+When you run a collection (using the collection runner or Newman), Postman will run your requests in a default order or an order you specify when you set up the run. However, you can override this execution order using `postman.setNextRequest` to specify which request to run next.
 
 * Run the specified request after this one (the request name as defined in the collection, for example "Get customers"):
 
@@ -652,9 +659,9 @@ For example:
 postman.setNextRequest(pm.environment.get('next'));
 ```
 
-## Scripting visualizations
+## Scripting Postman Visualizations
 
-Use `pm.visualizer.set` to specify a template to [display response data in the visualizer](/docs/sending-requests/visualizer/).
+Use `pm.visualizer.set` to specify a template to [display response data in the Postman Visualizer](/docs/sending-requests/visualizer/).
 
 ```js
 pm.visualizer.set(layout:String, data:Object, options:Object):Function
@@ -676,9 +683,9 @@ pm.visualizer.set(template, {
 });
 ```
 
-### Building response data into visualizations
+### Building response data into Postman Visualizations
 
-Use `pm.getData` to retrieve response data inside a visualization template string.
+Use `pm.getData` to retrieve response data inside a Postman Visualizer template string.
 
 ```js
 pm.getData(callback):Function
@@ -689,7 +696,7 @@ The callback function accepts two parameters:
 * `error`
     * Any error detail
 * `data`
-    * Data [passed to the template](#scripting-visualizations) by `pm.visualizer.set`
+    * Data [passed to the template](#scripting-postman-visualizations) by `pm.visualizer.set`
 
 Example usage:
 

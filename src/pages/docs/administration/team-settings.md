@@ -12,6 +12,11 @@ contextual_links:
   - type: link
     name: "Checklist for a Great Team Profile | Postman Level Up"
     url: "https://youtu.be/Ud_rq-VwO4s"
+  - type: subtitle
+    name: "Blog Posts"
+  - type: link
+    name: "Get More Out of Postman by Collaborating with Your Team"
+    url: "https://blog.postman.com/get-more-out-of-postman-by-collaborating-with-your-team/"
   - type: section
     name: "Next Steps"
   - type: link
@@ -37,7 +42,7 @@ Your [Team Settings](https://go.postman.co/settings/team/general) allow you to m
 
 ## Accessing team settings
 
-You can access team settings by navigating to the **Team** dropdown menu in the upper right corner and selecting **Team Settings**.
+You can access team settings by selecting **Team** in the header, then selecting **Team Settings**.
 
 <img alt="Team menu with Team Settings selected" src="https://assets.postman.com/postman-docs/team-settings-menu-selected.jpg" width="350px"/>
 

@@ -18,7 +18,7 @@ warning: false
 
 Uptime monitors (open beta) continuously check the availability of a single API endpoint, website, or other URL and let you know whenever downtime occurs (typically within 1 to 2 minutes).
 
-To create a new uptime monitor, enter the URL and select which team members should be notified of a system outage. You can customize how often the monitor checks the availability of the URL. You can also configure the monitor to run in multiple regions (paid plans only).
+To create a new uptime monitor, enter the URL and select which team members to notify in the event of a system outage. You can customize how often the monitor checks the availability of the URL. You can also configure the monitor to run in multiple regions (paid plans only).
 
 Use the uptime monitor dashboard to quickly check if the API endpoint is currently up or down and the average response time. You can also view previous downtime incidents and get insights into the availability of the endpoint over time.
 
@@ -43,10 +43,10 @@ Create a new uptime monitor to track the availability of a single API endpoint, 
 1. For **Monitor name**, enter a descriptive name that will help you identify the monitor later.
 1. Configure any optional details for the monitor:
 
-    * **Notification recipients:** Add up to five members of your Postman team to be notified when downtime occurs.
-    * **Run frequency:** Select how often the monitor checks the availability of the URL, up to every minute (paid plans) or every 15 minutes (free plans).
-    * **Regions:** Select one or more regions to run the monitor from (paid plans only). If downtime occurs in any selected region, a notification is sent. (For free plans, the region is automatically selected.)
-    * **Follow redirects:** Select this option to exclude redirects from being classified as service downtime.
+    * **Notification recipients** - Add up to five members of your Postman team to be notified when downtime occurs.
+    * **Run frequency** - Select how often the monitor checks the availability of the URL, up to every minute (paid plans) or every 15 minutes (free plans).
+    * **Regions** - Select one or more regions to run the monitor from (paid plans only). If downtime occurs in any selected region, a notification is sent. (For free plans, the region is automatically selected.)
+    * **Follow redirects** - Select this option to exclude redirects from being classified as service downtime.
 
 1. Select **Create Uptime Monitor**.
 
@@ -68,12 +68,12 @@ The dashboard also shows key statistics for the selected time period. You can vi
 
 The **Uptime** graph shows the status of the monitored endpoint URL during the selected time period:
 
-* **Up:** (Green) The URL is serving traffic and returning 2xx status codes within the expected response time (60 seconds or less).
-* **Down:** (Red) The URL is not serving traffic, is returning non-2xx status codes, or is exceeding the expected response time (more than 60 seconds).
+* **Up** - (Green) The URL is serving traffic and returning 2xx status codes within the expected response time (60 seconds or less).
+* **Down** - (Red) The URL is not serving traffic, is returning non-2xx status codes, or is exceeding the expected response time (more than 60 seconds).
 
     > If you selected the **Follow redirects** option when configuring the monitor, 3xx status codes are not considered as downtime.
 
-* **Unknown:** (Gray) Postman cannot determine the status of the URL because the monitor is paused, because the monitor didn't exist during the displayed time period, or for some other unexpected reason.
+* **Unknown** - (Gray) Postman cannot determine the status of the URL because the monitor is paused, because the monitor didn't exist during the displayed time period, or for some other unexpected reason.
 
 Select **Summary** to view combined data for all regions, or select **Region** to view data for each region separately.
 
@@ -85,13 +85,12 @@ All detected outages are listed under **Downtime incidents**. For each incident,
 
 From the monitor dashboard, you can take the following actions:
 
-* **Pause an uptime monitor.** While paused, the monitor no longer makes calls to the specified URL. To pause a monitor, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> at the upper right and select **Pause**. To resume the monitor, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> again and select **Resume**.
-
-* **Edit an uptime monitor.** Edit an existing uptime monitor to update the name, URL, or any other configuration options. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> at the upper right and select **Edit**. Change any configuration options, and then select **Update Monitor**.
+* **Pause an uptime monitor** - While paused, the monitor no longer makes calls to the specified URL. To pause a monitor, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> at the upper right and select **Pause**. To resume the monitor, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> again and select **Resume**.
+* **Edit an uptime monitor** - Edit an existing uptime monitor to update the name, URL, or any other configuration options. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> at the upper right and select **Edit**. Change any configuration options, and then select **Update Monitor**.
 
     > You can quickly rename a monitor without editing it. Select **Monitors** in the sidebar, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to a monitor, and then select **Rename**.
 
-* **Delete an uptime monitor.** Delete an uptime monitor if it's no longer needed. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> at the upper right and select **Delete**.
+* **Delete an uptime monitor** - Delete an uptime monitor if it's no longer needed. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> at the upper right and select **Delete**.
 
 ## Uptime monitor pricing
 

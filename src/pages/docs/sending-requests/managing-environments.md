@@ -56,19 +56,19 @@ An environment is a set of [variables](/docs/sending-requests/variables/) you ca
     * [Setting environment variables from scripts](#setting-environment-variables-from-scripts)
 * [Working with environments as a team](#working-with-environments-as-a-team)
     * [Managing environment roles](#managing-environment-roles)
-    * [Using an environment in viewer role](#using-an-environment-in-viewer-role)
+    * [Using an environment in Viewer role](#using-an-environment-in-viewer-role)
         * [Requesting environment access](#requesting-environment-access)
-    * [Using an environment in editor role](#using-an-environment-in-editor-role)
+    * [Using an environment in Editor role](#using-an-environment-in-editor-role)
     * [Forking environments](#forking-environments)
     * [Viewing pull requests, forks, and environment details](#viewing-pull-requests-forks-and-environment-details)
 
 ## Creating environments
 
-You will see the selected environment status at the top-right of Postman, with any _active_ environment selected in the drop-down. In __Environments__ on the left you can access all environments, and select the set active icon <img alt="Set active icon" src="https://assets.postman.com/postman-docs/icon-checkmark-v9.jpg#icon" width="16px"> to make an environment active. Select an environment to open it for editing in a tab.
+You will see the selected environment status at the top-right of Postman, with any _active_ environment selected in the environment selector. In __Environments__ on the left you can access all environments, and select the set active icon <img alt="Set active icon" src="https://assets.postman.com/postman-docs/icon-checkmark-v9.jpg#icon" width="16px"> to make an environment active. Select an environment to open it for editing in a tab.
 
 [![Environment editor](https://assets.postman.com/postman-docs/environment-editor-v9.13.jpg)](https://assets.postman.com/postman-docs/environment-editor-v9.13.jpg)
 
-To the right next to the drop-down you will also see the environment quick look icon <img alt="Quick Look icon" src="https://assets.postman.com/postman-docs/eye.jpg#icon" width="16px">. The quick look lists variables for the active environment, and any global variables you have declared (or that are shared via your workspace).
+To the right next to the environment selector you will also see the environment quick look icon <img alt="Quick Look icon" src="https://assets.postman.com/postman-docs/eye.jpg#icon" width="16px">. The quick look lists variables for the active environment, and any global variables you have declared (or that are shared via your workspace).
 
 [![Environment quick look](https://assets.postman.com/postman-docs/environment-quicklook-v9.13.jpg)](https://assets.postman.com/postman-docs/environment-quicklook-v9.13.jpg)
 
@@ -94,7 +94,7 @@ Alternatively, select the environment quick look icon <img alt="Quick Look icon"
 
 ![Edit Environment](https://assets.postman.com/postman-docs/environment-quicklook-edit-v9.13.jpg)
 
-> If you are working with environment variables as part of a team, you will only be able to change initial values if you have [edit access to the environment](#managing-environment-roles). You can access all variables in environments shared with you, but may have read-only access to initial values if you have viewer role.
+> If you are working with environment variables as part of a team, you will only be able to change initial values if you have [edit access to the environment](#managing-environment-roles). You can access all variables in environments shared with you, but may have read-only access to initial values if you have a Viewer role.
 
 Enter a name for your variable, and specify its __Initial__ and __Current__ values. By default the current value will copy the initial value.
 
@@ -121,13 +121,13 @@ To view the variables in an environment, select its name. You can edit, add, and
 
 ### Selecting an active environment
 
-To use the variables in an environment, select it from the drop-down list at the top right of Postman.
+To use the variables in an environment, select it from the environment selector at the top right of Postman.
 
 <img src="https://assets.postman.com/postman-docs/environment-selector-v9.13.jpg" alt="Environment selector" width="300px"/>
 
 To check a variable value at a glance, use the environment quick look icon <img alt="Quick Look icon" src="https://assets.postman.com/postman-docs/eye.jpg#icon" width="16px">.
 
-When you have an environment selected in the drop-down, Postman will treat it as the active environment, and will run all requests against that environment (if your requests reference environment variables).
+When you choose an environment using the environment selector, Postman treats it as the active environment and runs all requests against that environment (if your requests reference environment variables).
 
 To use an environment variable value in a request, reference it by name, surrounded with [double curly braces](/docs/sending-requests/variables/):
 
@@ -155,7 +155,7 @@ pm.environment.get("variable_key");
 
 You can edit variables either by opening an environment from __Environments__ on the left, or by opening the environment quick look icon <img alt="Quick Look icon" src="https://assets.postman.com/postman-docs/eye.jpg#icon" width="16px"> at the top right of Postman and selecting __Edit__.
 
-> You will only be able to edit environments where you have [editor access](#requesting-environment-access).
+> You will only be able to edit environments where you have [Editor access](#requesting-environment-access).
 
 [![Edit environment](https://assets.postman.com/postman-docs/environment-editor-new-v9.13.jpg)](https://assets.postman.com/postman-docs/environment-editor-new-v9.13.jpg)
 
@@ -163,7 +163,7 @@ Edit the environment name, or the names, [types](/docs/sending-requests/variable
 
 [![Viewer role on environment](https://assets.postman.com/postman-docs/request-access-env-v9.13.jpg)](https://assets.postman.com/postman-docs/request-access-env-v9.13.jpg)
 
-If you have viewer access to an environment, you will see a lock icon <img alt="Lock icon" src="https://assets.postman.com/postman-docs/icon-lock.jpg#icon" width="11px"> next to the name to indicate that it's read-only, and you will only be able to edit the current value, which is visible only to you and not synced with your Postman account or workspace. To edit initial values you will need to **Request Access**.
+If you have Viewer access to an environment, you will see a lock icon <img alt="Lock icon" src="https://assets.postman.com/postman-docs/icon-lock.jpg#icon" width="11px"> next to the name to indicate that it's read-only, and you will only be able to edit the current value, which is visible only to you and not synced with your Postman account or workspace. To edit initial values you will need to **Request Access**.
 
 > You can edit current values for variables in an active (currently selected) environment directly via the environment quick look. Select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px"> to edit your chosen value.
 
@@ -181,7 +181,7 @@ Use [pm.environment](/docs/writing-scripts/script-references/postman-sandbox-api
 pm.environment.set("variable_key", "variable_value");
 ```
 
-You can only create new variables from a script in an environment that you have edit access to. If you update or unset a value in a script with viewer access to the environment, that change will only be visible to you and not shared with your team.
+You can only create new variables from a script in an environment that you have edit access to. If you update or unset a value in a script with Viewer access to the environment, that change will only be visible to you and not shared with your team.
 
 > If you use scripts to set environment variable values, these will be reflected for all requests referencing the variables. For example, you can use environments [in conjunction with the collection runner](/docs/running-collections/intro-to-collection-runs/) and [monitors](/docs/monitoring-your-api/intro-monitors/) to share updated values throughout a run for a series of requests as well as after it completes.
 
@@ -193,7 +193,7 @@ In a shared workspace, any global variables you create and update will be availa
 
 You can move environments to shared workspaces to collaborate with your team.
 
-> You must be an editor on an environment, or the workspace admin, to move an environment to another workspace.
+> You must be an Editor on an environment or the Workspace Admin to move an environment to another workspace. To learn more about roles and permissions, see [Defining roles](/docs/collaborating-in-postman/roles-and-permissions/).
 
 In the sidebar, select the environment you want to share, then select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> > **Move**.
 
@@ -227,13 +227,13 @@ To export an environment, select it and select the more actions icon <img alt="M
 
 You can manage roles on an environment by selecting the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> in the upper right > **Manage Roles**.
 
-You can assign collaborators the **Editor** or **Viewer** role. Users with the viewer role can only edit the current values of variables, but they can use the environment when sending requests. If a user requires edit access, they can request it when viewing the environment in the editor.
+You can assign collaborators the Editor or Viewer role. Users with the Viewer role can only edit the current values of variables, but they can use the environment when sending requests. If a user requires edit access, they can request it when viewing the environment in the editor.
 
 For more details, see [Environment roles](/docs/collaborating-in-postman/roles-and-permissions/#environment-roles).
 
-### Using an environment in viewer role
+### Using an environment in Viewer role
 
-If you have view access to an environment, you will be able to access the value of the variables to use them in your requests, but won't be able to update the __Initial Value__, which is shared with your team. You can update the __Current Value__, but this isn't shared with anyone on your team or synced with your Postman account.
+If you have the Viewer role for an environment, you will be able to access the value of the variables to use them in your requests, but won't be able to update the __Initial Value__, which is shared with your team. You can update the __Current Value__, but this isn't shared with anyone on your team or synced with your Postman account.
 
 If you are using sensitive data like API credentials, it's safer to use the current value of an environment variable for these. You won't be able to __Persist__ the current values to update the initial values of environment variables without edit access to the environment. You can use the __Reset__ option to update your local current values with the shared initial value at any time.
 
@@ -243,21 +243,21 @@ If you need to update the initial value of a variable in an environment you have
 
 [![Viewer role on environment](https://assets.postman.com/postman-docs/request-access-env-v9.13.jpg)](https://assets.postman.com/postman-docs/request-access-env-v9.13.jpg)
 
-Select the team member you want to submit the request to, and choose __Editor__ from the drop-down list. Select __Request Access__. You will receive an email when your request is approved.
+Select the team member you want to submit the request to, and select the __Editor__ role. Select __Request Access__. You will receive an email when your request is approved.
 
-### Using an environment in editor role
+### Using an environment in Editor role
 
 If you have edit access to an environment, you can update the variable values from the Postman UI and from your scripts. If you are using sensitive data such as API secrets, passwords, tokens, or keys, you can define variables as [secret type](/docs/sending-requests/variables/#variable-types) to mask their initial and current values. You can also opt to only use current values, which aren't synced or shared with your team.
 
 When you edit the initial value of a shared environment variable, your updated value will be reflected for everyone who has access to the environment, so ensure that you only do this when you are happy for your value to be synced with the Postman servers.
 
-> If you uncheck (deselect) a variable in your environment, it will only be available to collaborators who also have edit access to the environment. They will also be able to see if the variable is active or not. Anyone with the viewer role for the environment won't see the unchecked variable. </br></br> ![Turn off environment variable](https://assets.postman.com/postman-docs/environment-editor-unchecked-var-v9.13.jpg)
+> If you uncheck (deselect) a variable in your environment, it will only be available to collaborators who also have edit access to the environment. They will also be able to see if the variable is active or not. Anyone with the Viewer role for the environment won't see the unchecked variable. </br></br> ![Turn off environment variable](https://assets.postman.com/postman-docs/environment-editor-unchecked-var-v9.13.jpg)
 
-With the editor role, you can [configure access for other team members](#managing-environment-roles). If you need to specify access but don't have the editor role, you can [request access](#requesting-environment-access).
+With the Editor role, you can [configure access for other team members](#managing-environment-roles). If you need to specify access but don't have the Editor role, you can [request access](#requesting-environment-access).
 
 ### Forking environments
 
-You can fork environments to change them without impacting their base versions, or to contribute to their development without having editor access. To fork an environment:
+You can fork environments to change them without impacting their base versions, or to contribute to their development without having Editor access. To fork an environment:
 
 1. Hover over the environment in the sidebar and select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> to the right of the environment's name.
 2. Select **Create a Fork**.
@@ -274,7 +274,7 @@ You can view all pull requests, forks, and details about an environment from the
 * To view forks, select the fork icon <img alt="Fork icon" src="https://assets.postman.com/postman-docs/icon-fork.jpg#icon" width="16px">
 * To view additional information about the environment, including its ID, author, and any mock servers or monitors that use it, select the information icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px">
 
-If you have [editor access](/docs/collaborating-in-postman/roles-and-permissions/#environment-roles) on the environment, you can [review pull requests](/docs/collaborating-in-postman/version-control-for-collections/#reviewing-pull-requests) and [merge changes into the parent environment](/docs/collaborating-in-postman/version-control-for-collections/#merging-changes).
+If you have [Editor access](/docs/collaborating-in-postman/roles-and-permissions/#environment-roles) on the environment, you can [review pull requests](/docs/collaborating-in-postman/version-control-for-collections/#reviewing-pull-requests) and [merge changes into the parent environment](/docs/collaborating-in-postman/version-control-for-collections/#merging-changes).
 
 ## Next steps
 

@@ -41,7 +41,7 @@ To manage public elements, you need to have a Community Manager role in a Postma
 
 <img alt="Manage public elements" src="https://assets.postman.com/postman-docs/manage-public-elements.jpg"/>
 
-You can access manage public elements by navigating to the **Team** dropdown menu in the upper right corner and selecting **Manage Public Elements**.
+> You can also manage public elements by selecting **Team** in the header, then selecting **Manage Public Elements**.
 
 <img alt="Manage public elements from team dropdown" src="https://assets.postman.com/postman-docs/manage-public-elements-option-from-team-dropdown.jpg" height="400px"/>
 
@@ -63,11 +63,11 @@ The **Documentation** tab displays all the collections with published documentat
 
 #### Collection JSON links
 
-The **Collection JSON Links** tab displays all the collections with JSON links. You can use the toggle option to enable sharing collection JSON via public links.
+The **Collection JSON Links** tab displays all the collections with JSON links. Select **Allow sharing collection JSON via public link** to enable anyone with the link to access the collection in JSON format, even if they aren't on your team.
 
 As the Community Manager, you will be able to view, access, or delete the collections with JSON links. In addition to the collection name, the dashboard displays more information about the date the link was updated on, who updated the link, and the JSON link.
 
-If you turn off the toggle option, no new links can be generated and existing links cannot be modified or edited. The previously created JSON links will still remain accessible.
+If you turn off the **Allow sharing collection JSON via public link** option, no new links can be generated and existing links cannot be modified or edited. The previously created JSON links will still remain accessible.
 
 Hover over the **JSON link** corresponding to the collection and select **Copy link to JSON**. Paste the link in a browser of your choice and you will have access to the collection JSON.
 

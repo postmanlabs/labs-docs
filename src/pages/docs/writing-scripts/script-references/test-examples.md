@@ -87,7 +87,7 @@ This test checks the response code returned by the API. If the response code is 
 
 [![Test output](https://assets.postman.com/postman-docs/example-test-assertion-result-v9.jpg)](https://assets.postman.com/postman-docs/example-test-assertion-result-v9.jpg)
 
-Try changing the status code in the assertion code and sending the request again to see how test results appear differently when they pass or fail.
+To see what test results look like when they pass or fail, change the status code in the assertion code and send the request again.
 
 Structure your test assertions in a variety of ways to suit your logic and preference in terms of how you want the results to output. The following code is an alternative way of achieving the same test as the one above using the `expect` syntax:
 
@@ -335,9 +335,9 @@ pm.test("Test array properties", () => {
       (m => m.type === "notification");
   pm.expect(notificationSettings)
     .to.be.an("object", "Could not find the setting");
-    //detail array should include "sms"
+    //detail array must include "sms"
   pm.expect(notificationSettings.detail).to.include("sms");
-    //detail array should include all listed
+    //detail array must include all listed
   pm.expect(notificationSettings.detail)
     .to.have.members(["email", "sms"]);
 });
@@ -485,7 +485,7 @@ pm.test("Not failing", function () {
 });
 ```
 
-Make sure your test code is syntactically correct and try sending your request again.
+Make sure your test code is syntactically correct and send your request again.
 
 ## Validating response structure
 

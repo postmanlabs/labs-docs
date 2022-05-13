@@ -8,10 +8,11 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Videos"
   - type: link
-    name: "Announcing updated Postman plans and pricing"
-    url: "https://blog.postman.com/announcing-updated-postman-plans-and-pricing/"
+    name: "Postman 101 for Admins | Webinar"
+    url: "https://youtu.be/d6pw-0Yy5fs"
+
 ---
 
 > __[SSO is available on Postman Professional and Enterprise plans.](https://www.postman.com/pricing)__
@@ -51,6 +52,6 @@ Most SAML 2.0 compliant identity providers require the same information about th
 
 Learn more about [setting up SSO](/docs/administration/sso/admin-sso/).
 
-**Note:** While configuring your IdP, make sure the user’s email address is set in attribute statements.
+**Note** - While configuring your IdP, make sure the user’s email address is set in attribute statements.
 
-**Note:** Postman’s form-based authentication mechanism and Google OAuth 2.0 remain enabled even if SSO is configured for a team.
+**Note** - Postman’s form-based authentication mechanism and Google OAuth 2.0 remain enabled even if SSO is configured for a team.

@@ -18,9 +18,6 @@ contextual_links:
   - type: subtitle
     name: "Blog Posts"
   - type: link
-    name: "How to write powerful automated API tests with Postman, Newman and Jenkins"
-    url: "https://blog.postman.com/how-to-write-powerful-automated-api-tests-with-postman-newman-and-jenkins/"
-  - type: link
     name: "Integrations: how Postman plays with some of your favorite tools"
     url: "https://blog.postman.com/integrations-how-postman-plays-with-some-of-your-favorite-tools/"
   - type: section
@@ -44,7 +41,7 @@ The following example shows how to set up a Jenkins build that uses Newman to ru
 ## Contents
 
 * [Installation](#installation)
-* [Create a Postman collection](#create-a-postman-collection)
+* [Create a Postman Collection](#create-a-postman-collection)
 * [Set up Jenkins](#set-up-jenkins)
 * [Troubleshooting](#troubleshooting)
 * [Configure frequency of runs](#configure-frequency-of-runs)
@@ -61,9 +58,9 @@ The following example shows how to set up a Jenkins build that uses Newman to ru
     1. In **Global npm packages to install**, enter `newman`.
     1. Select **Save**.
 
-## Create a Postman collection
+## Create a Postman Collection
 
-For this example, you'll need a Postman collection that contains a few requests with tests. For this example, you can import a sample "Hello World" collection into your workspace by selecting the **Run in Postman** button below.
+For this example, you'll need a Postman Collection that contains a few requests with tests. For this example, you can import a sample "Hello World" collection into your workspace by selecting the **Run in Postman** button below.
 
 [![Run in Postman](https://run.pstmn.io/button.svg)](https://god.gw.postman.com/run-collection/92cc7527bbab2bedffbd?action=collection%2Fimport)
 
@@ -95,7 +92,7 @@ After you've created the collection, [export it as a JSON file](/docs/getting-st
 
 1. Select the build in the history list, then select **Console Output** to see what Newman returned.
 
-1. Fix these tests inside your collection. Export it and then try again.
+1. Fix these tests inside your collection. Export it and then run the build again.
 
 Jenkins indicates that the build succeeded with a green checkmark.
 

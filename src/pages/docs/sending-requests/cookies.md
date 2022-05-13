@@ -17,11 +17,6 @@ contextual_links:
   - type: link
     name: "Syncing Cookies for Authentication | Postman Level Up"
     url: "https://www.youtube.com/watch?v=jfgFNw5SoUg"
-  - type: subtitle
-    name: "Blog Posts"
-  - type: link
-    name: "Using the Interceptor to read and write cookies"
-    url: "https://blog.postman.com/using-the-interceptor-to-read-and-write-cookies/"
 
 warning: false
 
@@ -29,7 +24,7 @@ warning: false
 
 Postman's cookie manager enables you to view and edit cookies that are associated with different domains. You can manually create cookies for a domain, or you can [capture cookies](/docs/sending-requests/capturing-request-data/syncing-cookies/) using the Postman proxy or Postman Interceptor. You can then use the cookies stored in the cookie jar when sending requests in Postman.
 
-> To turn off sending cookies with a request, turn off the cookie jar toggle in the request's **Settings** tab.
+> To turn off sending cookies with a request, select the request's **Settings** tab, then select **Disable cookie jar**.
 
 ## Contents
 
@@ -65,12 +60,12 @@ To add a new cookie for a domain, select **+ Add Cookie** below the domain. A pr
 
 Postman supports the following attributes:
 
-* **cookieName**, **cookieValue**: The name of the cookie and the value stored in it.
-* **Domain**: The domain Postman will send the cookie to.
-* **Path**: The URL path that the cookie is restricted to. If the path is `/`, the cookie will be sent to all requests in the specified domain.
-* **HttpOnly**: If present, the cookie won't be accessible to the client-side scripts run on the page (for example, with `document.cookie` in JavaScript). The cookie will only be added to the cookie header in requests that are made. This field does not have an effect on Postman's behavior.
-* **Secure**: If present, the cookie is only sent when the URL begins with `https://` and won't be sent over an insecure connection.
-* **Expires**: The time after which the cookie will expire and not be sent by Postman.
+* **cookieName**, **cookieValue** - The name of the cookie and the value stored in it.
+* **Domain** - The domain Postman will send the cookie to.
+* **Path** - The URL path that the cookie is restricted to. If the path is `/`, the cookie will be sent to all requests in the specified domain.
+* **HttpOnly** - If present, the cookie won't be accessible to the client-side scripts run on the page (for example, with `document.cookie` in JavaScript). The cookie will only be added to the cookie header in requests that are made. This field does not have an effect on Postman's behavior.
+* **Secure** - If present, the cookie is only sent when the URL begins with `https://` and won't be sent over an insecure connection.
+* **Expires** - The time after which the cookie will expire and not be sent by Postman.
 
 Select **Save** to save the cookie to the cookie store under the relevant domain.
 

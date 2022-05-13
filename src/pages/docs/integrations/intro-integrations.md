@@ -15,6 +15,9 @@ contextual_links:
   - type: subtitle
     name: "Blog Posts"
   - type: link
+    name: "The New Postman API Platform: Introducing Powerful Integrations"
+    url: "https://blog.postman.com/the-new-postman-api-platform/"
+  - type: link
     name: "Integrations: how Postman plays with some of your favorite tools"
     url: "https://blog.postman.com/integrations-how-postman-plays-with-some-of-your-favorite-tools/"
 ---
@@ -53,7 +56,7 @@ Contact your IT team to allowlist the following static IP in your firewall to en
 
 Once you allowlist this IP address, calls for the integrations and webhooks will be able to connect to your network and allow the integrations and webhooks to work as expected.
 
-> DNS records should use the public IP address for instances which are behind a firewall or not accessible via the internet.
+> DNS records use the public IP address for instances which are behind a firewall or not accessible via the internet.
 
 Postman supports implementing static IP addresses for the following integrations and webhooks:
 
