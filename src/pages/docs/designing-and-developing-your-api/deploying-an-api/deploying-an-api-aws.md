@@ -1,7 +1,7 @@
 ---
 title: 'Deploying to an Amazon API Gateway'
 page_id: 'deploying_an_api_aws'
-updated: 2022-04-21
+updated: 2022-05-16
 search_keyword: "deploy, aws, api gateway"
 warning: false
 contextual_links:
@@ -85,12 +85,13 @@ Next, create an IAM role for Postman in AWS:
     }
     ```
 
-    This policy will enable both importing and exporting for HTTP API schemas. (Import and export are not supported for REST API schemas.) You can customize the `Action` section in the IAM policy based on your needs:
+    This policy will enable exporting and deploying for HTTP API schemas. (Exporting and deploying aren't supported for REST API schemas.) You can customize the `Action` section in the IAM policy based on your needs:
 
-    * `"apigateway:GET"` - (Required) Enables viewing API Gateway metadata, stages, and deployments in Postman.
-    * `"apigateway:PUT"` - (Optional) Enables importing HTTP API schemas from the API Gateway.
-    * `"apigateway:POST"` - (Optional) Enables exporting and deploying HTTP API schemas to the API Gateway.
-    * `"cloudwatch:GetMetricData"` - (Optional) Enables viewing CloudWatch metrics in Postman.
+    * `"apigateway:GET"` - (Required) Enables viewing API Gateway deployments for HTTP and REST APIs in Postman.
+    * `"apigateway:PUT"` - Enables [exporting](#exporting-and-deploying-your-api) HTTP API schemas to the API Gateway.
+    * `"apigateway:POST"` - Enables [deploying](#exporting-and-deploying-your-api) HTTP API schemas to a stage on the API Gateway.
+    * ` "apigateway:*"` - Assigns all GET, PUT, POST, PATCH, DELETE permissions to the IAM role.
+    * `"cloudwatch:GetMetricData"` - Enables [viewing CloudWatch metrics](#viewing-cloudwatch-metrics) in Postman.
 
 7. Select **Next: Tags**.
 8. Select **Next: Review**.
@@ -203,6 +204,8 @@ Exporting an HTTP API schema makes it available in the connected Amazon API Gate
     > To deploy your schema, your gateway must have at least one route with a configured integration.
 
 1. Select **Deploy**.
+
+    > If you have a problem exporting or deploying, make sure you've assigned both the PUT and POST permissions [in your IAM policy](#authenticating-with-an-aws-iam-role).
 
 <img alt="Deploying an API" src="https://assets.postman.com/postman-docs/deploy-api-schema-on-aws-v9-8.jpg" width="502px"/>
 
