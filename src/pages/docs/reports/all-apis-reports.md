@@ -51,7 +51,7 @@ The **Team APIs** report provides information on APIs created by your team, incl
 * **API test coverage** - The number of APIs your team has added tests to.
 * **API documentation coverage** - The number of APIs your team has added documentation to.
 * **Watch count** - The number of times someone has watched an API in the last six months. This number includes users who watched and then unwatched an API.
-* **Comments over time** - The number times someone has commented on an API in the last six months.
+* **Comments over time** - The number of times someone has commented on an API in the last six months.
 
 ## Private Network APIs
 
