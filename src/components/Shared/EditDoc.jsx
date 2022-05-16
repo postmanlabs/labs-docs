@@ -18,7 +18,15 @@ class EditDoc extends Component {
   render() {
     const { className } = this.props;
     const classes = className ? `${className}` : '';
-    const { pathRoute } = this.state;
+    let { pathRoute } = this.state;
+    
+    // Gatsby path prefixing includes /labs/ at build.
+    // This is a case where we do not want the pathRoute prefixed, as it is used inside a github URL
+    // So we remove it 
+    if (pathRoute.includes("/labs/")) {
+      pathRoute = pathRoute.replace("/labs/", "/")
+    }
+
     return (
       <a id="GTM-LC-id" className={classes} href={`https://github.com/postmanlabs/labs-docs/blob/develop/src/pages${pathRoute}.md`} target="_blank" rel="noopener nofollow">
         <i>

@@ -6,16 +6,16 @@ import $ from 'jquery';
 
 // Get Cookie for Sign In toggler
 const getCookie = (a) => {
-  if (typeof document !== 'undefined') {
-    const b = document.cookie.match(`(^|;)\\s*${a}\\s*=\\s*([^;]+)`);
-    return b ? b.pop() : '';
+  if (typeof document !== "undefined") {
+    const b = document.cookie.match(`(^|;)\\s*${a}\\s*=\\s*([^;]+)`)
+    return b ? b.pop() : ""
   }
-  return false;
-};
+  return false
+}
 
 // changes button in navbar based on cookie presence
 const LoginCheck = (props) => {
-  const { cookie, beta, hidden } = props;
+  const { cookie, beta, hidden } = props
 
   if (!hidden) {
     return (
@@ -23,202 +23,194 @@ const LoginCheck = (props) => {
         <a
           href={`https://go.postman${beta}.co/build`}
           className={
-            cookie !== 'yes'
-              ? 'button__sign-in pingdom-transactional-check__sign-in-button'
-              : 'd-none'
+            cookie !== "yes"
+              ? "button__sign-in pingdom-transactional-check__sign-in-button"
+              : "d-none"
           }
           onClick={() => {
             trackCustomEvent({
               // string - required - The object that was interacted with (e.g.video)
-              category: 'lc-top-nav',
+              category: "lc-top-nav",
               // string - required - Type of interaction (e.g. 'play')
-              action: 'Click',
+              action: "Click",
               // string - optional - Useful for categorizing events (e.g. 'Spring Campaign')
-              label: 'sign-in-button-clicked',
-            });
+              label: "sign-in-button-clicked",
+            })
           }}
         >
           Sign In
         </a>
         <a
           href={`https://identity.getpostman${beta}.com/signup?continue=https%3A%2F%2Fgo.postman.co%2Fbuild`}
-          className={cookie !== 'yes' ? 'button__sign-up' : 'd-none'}
+          className={cookie !== "yes" ? "button__sign-up" : "d-none"}
           onClick={() => {
             trackCustomEvent({
-              category: 'lc-top-nav',
-              action: 'Click',
-              label: 'sign-in-button-clicked',
-            });
+              category: "lc-top-nav",
+              action: "Click",
+              label: "sign-in-button-clicked",
+            })
           }}
         >
           Sign Up for Free
         </a>
         <a
           href="https://go.postman.co/home"
-          className={cookie ? 'button__sign-up ml-3' : 'd-none'}
+          className={cookie ? "button__sign-up ml-3" : "d-none"}
         >
           Launch Postman
         </a>
       </>
-    );
+    )
   }
-  return <></>;
-};
+  return <></>
+}
 class Header extends React.Component {
   constructor(props) {
-    super(props);
+    super(props)
 
     this.state = {
-      beta: '',
-      cookie: '',
+      beta: "",
+      cookie: "",
       hidden: true,
-    };
+    }
   }
 
   componentDidMount() {
-    const cookie = getCookie('getpostmanlogin');
-    const beta = window.location.host.includes('postman-beta') ? '-beta' : '';
+    const cookie = getCookie("getpostmanlogin")
+    const beta = window.location.host.includes("postman-beta") ? "-beta" : ""
 
     this.setState({
       cookie,
       beta,
-    });
+    })
 
     /* eslint-disable react/prop-types */
-    const { waitBeforeShow } = this.props;
+    const { waitBeforeShow } = this.props
     /* eslint-enable react/prop-types */
     setTimeout(() => {
-      this.setState({ hidden: false });
-    }, waitBeforeShow);
+      this.setState({ hidden: false })
+    }, waitBeforeShow)
 
     /* Applies styling for sticky nav */
-    $('#secondaryNav').on('click', () => {
-      $('body').toggleClass('menu-open');
-      $('.nav-primary').toggleClass('activeMenu');
-      $('.nav-secondary').toggleClass('activeMenu');
-    });
+    $("#secondaryNav").on("click", () => {
+      $("body").toggleClass("menu-open")
+      $(".nav-primary").toggleClass("activeMenu")
+      $(".nav-secondary").toggleClass("activeMenu")
+    })
     // Dropdown Slideup Animation
     function showBsDropdown() {
-      $(this)
-        .find('.dropdown-menu')
-        .first()
-        .stop(true, true)
-        .slideDown(225);
-      $(this)
-        .find('.arrow-icon')
-        .addClass('show');
+      $(this).find(".dropdown-menu").first().stop(true, true).slideDown(225)
+      $(this).find(".arrow-icon").addClass("show")
     }
-    $('.dropdown').on('show.bs.dropdown', showBsDropdown);
+    $(".dropdown").on("show.bs.dropdown", showBsDropdown)
     // Dropdown Slidedown Animation
     function hideBsDropdown() {
-      $(this)
-        .find('.dropdown-menu')
-        .stop(true, true)
-        .slideUp(225);
-      $(this)
-        .find('.arrow-icon')
-        .removeClass('show');
+      $(this).find(".dropdown-menu").stop(true, true).slideUp(225)
+      $(this).find(".arrow-icon").removeClass("show")
     }
-    $('.dropdown').on('hide.bs.dropdown', hideBsDropdown);
+    $(".dropdown").on("hide.bs.dropdown", hideBsDropdown)
   }
 
   showTargetElement = () => {
     // Show Sign In Button if user is not logged in (mobile)
-    const cookie = getCookie('getpostmanlogin');
-    const signInButton = document.querySelector('.mobile-sign-in');
-    if (cookie !== 'yes') {
-      signInButton.classList.toggle('show');
+    const cookie = getCookie("getpostmanlogin")
+    const signInButton = document.querySelector(".mobile-sign-in")
+    if (cookie !== "yes") {
+      signInButton.classList.toggle("show")
     }
     // Global Mobile Icon Transition
     const toggler = document
-      .getElementById('globalNav')
-      .getAttribute('aria-expanded');
-    const body = document.querySelector('body');
-    const icon1 = document.getElementById('icon-wrap-one');
+      .getElementById("globalNav")
+      .getAttribute("aria-expanded")
+    const body = document.querySelector("body")
+    const icon1 = document.getElementById("icon-wrap-one")
     // Mobile Menu is active ?
-    if (toggler === 'true') {
+    if (toggler === "true") {
       // Add lock CSS to body to disable scroll
-      body.classList.add('lock');
+      body.classList.add("lock")
       // Flip up dropdown icon
-      icon1.classList.add('open');
+      icon1.classList.add("open")
     }
     // Hellobar
     const messageBarAlertTop = document.getElementById(
-      'message-bar-alert-top',
-    ) || { style: { display: '' } };
+      "message-bar-alert-top"
+    ) || { style: { display: "" } }
     if (!messageBarAlertTop.style.display) {
-      messageBarAlertTop.style.display = 'none';
+      messageBarAlertTop.style.display = "none"
     } else {
-      messageBarAlertTop.style.display = '';
+      messageBarAlertTop.style.display = ""
     }
   }
 
   hideTargetElement = () => {
     // Hide Sign In Button if user is not logged in (mobile)
-    const signInButton = document.querySelector('.mobile-sign-in');
-    const cookie = getCookie('getpostmanlogin');
-    if (cookie !== 'yes') {
-      signInButton.classList.toggle('hide');
+    const signInButton = document.querySelector(".mobile-sign-in")
+    const cookie = getCookie("getpostmanlogin")
+    if (cookie !== "yes") {
+      signInButton.classList.toggle("hide")
     }
     const toggler = document
-      .getElementById('globalNav')
-      .getAttribute('aria-expanded');
-    const body = document.querySelector('body');
-    const icon1 = document.getElementById('icon-wrap-one');
+      .getElementById("globalNav")
+      .getAttribute("aria-expanded")
+    const body = document.querySelector("body")
+    const icon1 = document.getElementById("icon-wrap-one")
     // Mobile Menu is not active ?
-    if (toggler === 'false') {
+    if (toggler === "false") {
       // Remove lock CSS to body to disable scroll
-      body.classList.remove('lock');
+      body.classList.remove("lock")
       // Flip down dropdown icon
-      icon1.classList.remove('open');
+      icon1.classList.remove("open")
     }
-    const icon2 = document.getElementById('navbar-chevron-icons');
+    const icon2 = document.getElementById("navbar-chevron-icons")
     const togglerSecondary = document
-      .getElementById('secondaryNav')
-      .getAttribute('aria-expanded');
-    if (togglerSecondary === 'false') {
-      icon2.classList.remove('open');
+      .getElementById("secondaryNav")
+      .getAttribute("aria-expanded")
+    if (togglerSecondary === "false") {
+      icon2.classList.remove("open")
     }
   }
 
   showTargetElementLC = () => {
     // LC Mobile Icon Transition
     const togglerSecondary = document
-      .getElementById('secondaryNav')
-      .getAttribute('aria-expanded');
-    const toggleChevron = document.getElementById('navbar-chevron-icons');
-    if (togglerSecondary === 'true') {
-      toggleChevron.classList.add('open');
+      .getElementById("secondaryNav")
+      .getAttribute("aria-expanded")
+    const toggleChevron = document.getElementById("navbar-chevron-icons")
+    if (togglerSecondary === "true") {
+      toggleChevron.classList.add("open")
     }
   }
 
   hideTargetElementLC = () => {
-    const toggleChevron = document.getElementById('navbar-chevron-icons');
+    const toggleChevron = document.getElementById("navbar-chevron-icons")
     const togglerSecondary = document
-      .getElementById('secondaryNav')
-      .getAttribute('aria-expanded');
-    if (togglerSecondary === 'false') {
-      toggleChevron.classList.remove('open');
+      .getElementById("secondaryNav")
+      .getAttribute("aria-expanded")
+    if (togglerSecondary === "false") {
+      toggleChevron.classList.remove("open")
     }
   }
   /* eslint-enable class-methods-use-this */
 
   render() {
-    const {
-      beta, visibleHelloBar, cookie, hidden,
-    } = this.state;
+    const { beta, visibleHelloBar, cookie, hidden } = this.state
     return (
       <>
         <nav className="navbar-v6 navbar navbar-expand-lg navbar-light bg-light nav-primary">
           <a className="navbar-brand" href="https://www.postman.com">
             <div className="navbar-logo-container">
-              <img src="https://voyager.postman.com/logo/postman-logo-icon-orange.svg" alt="Postman" width="32" height="32" />
+              <img
+                src="https://voyager.postman.com/logo/postman-logo-icon-orange.svg"
+                alt="Postman"
+                width="32"
+                height="32"
+              />
             </div>
           </a>
           <button
             onClick={() => {
-              this.showTargetElement();
-              this.hideTargetElement();
+              this.showTargetElement()
+              this.hideTargetElement()
             }}
             id="globalNav"
             className="mobile-sign-in navbar-toggler"
@@ -245,8 +237,9 @@ class Header extends React.Component {
           </button>
           <div
             id="navbarSupportedContent"
-            className={`collapse navbar-collapse${!visibleHelloBar ? ' noBar' : ''
-              }`}
+            className={`collapse navbar-collapse${
+              !visibleHelloBar ? " noBar" : ""
+            }`}
           >
             <ul className="navbar-nav mr-auto">
               <li className="nav-item dropdown">
@@ -401,7 +394,7 @@ class Header extends React.Component {
                       <h6 className="dropdown-header">Learning</h6>
                       <a
                         className="dropdown-item"
-                        href="/postman-flows/flows-overview/"
+                        href="/docs/getting-started/introduction/"
                       >
                         Docs
                       </a>
@@ -541,7 +534,7 @@ class Header extends React.Component {
         <nav className="navbar-v6 navbar navbar-expand-lg navbar-light bg-light nav-secondary blurred-container">
           <Link
             className="navbar-brand"
-            to="/postman-flows/flows-overview/"
+            href="/labs/postman-flows/getting-started/flows-overview/"
           >
             <span id="learning-center-home-link" className="nav-link uber-nav">
               Postman Labs Docs
@@ -550,8 +543,8 @@ class Header extends React.Component {
           </Link>
           <button
             onClick={() => {
-              this.showTargetElementLC();
-              this.hideTargetElementLC();
+              this.showTargetElementLC()
+              this.hideTargetElementLC()
             }}
             id="secondaryNav"
             className="mobile-sign-in navbar-toggler"
@@ -564,12 +557,22 @@ class Header extends React.Component {
             aria-label="Toggle navigation"
           >
             <span className="navbar-toggler-icon">
-              <div
-                id="icon-wrap-two"
-                aria-expanded="false"
-              >
-                <svg id="navbar-chevron-icons" width="20" height="11" viewBox="0 0 20 11" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M1 1L10 10L19 1" stroke="#6B6B6B" strokwidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+              <div id="icon-wrap-two" aria-expanded="false">
+                <svg
+                  id="navbar-chevron-icons"
+                  width="20"
+                  height="11"
+                  viewBox="0 0 20 11"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M1 1L10 10L19 1"
+                    stroke="#6B6B6B"
+                    strokwidth="1.5"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
                 </svg>
               </div>
             </span>
@@ -582,7 +585,7 @@ class Header extends React.Component {
               <li className="nav-item">
                 <Link
                   className="nav-link uber-nav mr-3"
-                  to="/postman-flows/flows-overview/"
+                  href="/labs/postman-flows/getting-started/flows-overview/"
                 >
                   Flows
                 </Link>
@@ -591,8 +594,8 @@ class Header extends React.Component {
           </div>
         </nav>
       </>
-    );
+    )
   }
 }
 
-export default Header;
+export default Header
