@@ -1,6 +1,6 @@
 ---
 title: 'Importing an API'
-updated: 2022-04-15
+updated: 2022-05-16
 search_keyword: "import, aws, api gateway"
 contextual_links:
   - type: section
