@@ -87,5 +87,4 @@ If you don't see any data in your reports, or your data is incomplete (for examp
 * The data hasn't refreshed yet. Check after four to six hours.
 * You might not have linked a collection to your API.
 * You might not have sent a request. Or you might have executed requests from [monitoring](/docs/monitoring-your-api/intro-monitors/), [collection runs](/docs/running-collections/intro-to-collection-runs/), or [Newman](/docs/running-collections/using-newman-cli/command-line-integration-with-newman/), but not from the request builder in Postman.
-* You might not have enabled __Save Responses__ in the __History__ tab in Postman.
 * Postman isn't syncing. Check your network connection and visit the [Postman Status Page](https://status.postman.com) to see if there is a current outage.
