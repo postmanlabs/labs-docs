@@ -71,7 +71,7 @@ The **Public Workspaces** report shows information about your public workspaces:
     > This metric doesn't include administrative or billing-related tasks that happen outside of a workspace.
 
 * **Most viewed public workspace** - A link to the most viewed public workspace in the past three months.
-* **Views on public entities** - The number of workspace and collection views within your public workspaces in the last three months.
+* **Views on public entities** - The number of views on your public workspaces and collections in the last three months.
 * **Entities in public workspaces** - The number of environments, monitors, mocks, collections, and APIs in your team's public workspaces.
 * **Forks and Pull requests on public collections over time** - The number of times a collection in your public workspaces has been forked or pulled in the last six months. This might include forks and pull requests that have since been deleted, as long as they were created in the reporting period.
 * **Watch count** - The number of times someone has watched a collection or API in your public workspaces in the last six months. This number includes users who watched and then unwatched an entity.
