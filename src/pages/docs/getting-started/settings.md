@@ -13,11 +13,6 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
-    name: "Blog Posts"
-  - type: link
-    name: "Speeding up workflows with keyboard shortcuts"
-    url: "https://blog.postman.com/speeding-up-workflows-with-keyboard-shortcuts/"
-  - type: subtitle
     name: "Videos"
   - type: link
     name: "Keyboard Shortcuts | Postman Level Up"
@@ -47,14 +42,14 @@ Use the settings on the **General** tab to configure how Postman sends requests 
 
 ### Request
 
-* **Trim keys and values in request body:** Turn on this toggle to trim parameters when sending requests with form data or url-encoded data.
-* **SSL certificate verification:** Turn off this toggle to prevent Postman from checking the validity of SSL certificates when making requests.
-* **Always open requests in new tab:** By default, when you select a request in a collection, Postman opens the request in the preview tab. Turn on this toggle to always open requests in a new tab.
-* **Always ask when closing unsaved tabs:** By default, Postman asks if you want to save any unsaved changes when closing a tab. Turn off this toggle to always discard unsaved changes when closing a tab.
+* **Trim keys and values in request body:** Turn this on to trim parameters when sending requests with form data or url-encoded data.
+* **SSL certificate verification:** Turn this off to prevent Postman from checking the validity of SSL certificates when making requests.
+* **Always open requests in new tab:** By default, when you select a request in a collection, Postman opens the request in the preview tab. Turn this on to always open requests in a new tab.
+* **Always ask when closing unsaved tabs:** By default, Postman asks if you want to save any unsaved changes when closing a tab. Turn this off to always discard unsaved changes when closing a tab.
 * **Language detection:** By default, Postman automatically detects the correct media type for the response body based on the Content-Type header. Select **JSON** to always use JSON rendering for the response body.
 * **Request Timeout in ms:** Enter how long (in milliseconds) Postman will wait for a response before timing out. If you enter **0**, Postman will wait for a response forever.
 * **Max response size in MB:** Enter the largest response size (in megabytes) that Postman will download. For responses that exceed this limit, Postman asks if you want to increase the size limit or download the response. If you enter **0**, Postman downloads responses of any size. Rendering large responses may affect Postman's performance.
-* **Request Validation:** Turn off this toggle to prevent Postman from attempting to validate requests in collections linked to an API schema.
+* **Request Validation:** Turn this off to prevent Postman from attempting to validate requests in collections linked to an API schema.
 
 ### Working directory
 
@@ -68,21 +63,21 @@ When you send a form-data or binary file with a request body, Postman saves a pa
 
 **You can't change the working directory in Postman for Web.** When you upload a file, Postman for Web creates a new folder with a random name in the `~/Postman/files` directory. Postman stores the uploaded file in the new folder so you can use it when sending requests. To automatically sync files you upload to Postman for Web with your local working directory, make sure you are using the [Postman Desktop Agent](/docs/getting-started/installation-and-updates/#using-postman-on-the-web).
 
-**Use caution with files located outside your working directory.** To use files located outside your working directory when sending requests, turn on the **Allow reading files outside working directory** toggle. This option gives third-party collections the ability to read any file on your system. Use caution, and make sure you trust all third-party collections you are using before enabling this option.
+**Use caution with files located outside your working directory.** To use files located outside your working directory when sending requests, turn on **Allow reading files outside working directory**. This option gives third-party collections the ability to read any file on your system. Use caution, and make sure you trust all third-party collections you are using before enabling this option.
 
 ### Headers
 
-* **Send no-cache header:** (Recommended) Turn on this toggle to send a `Cache-Control: no-cache` header with each request. The `no-cache` directive forces the server to revalidate each request and ensures you get an up-to-date (not stale) response.
-* **Send Postman Token header:** (Recommended) Turn on this toggle to send a random Postman token with an XMLHttpRequest. Sending a random token ensures the receiving server handles one request at a time, even when the requests send with the same parameters. The token can also aid debugging and help you distinguish between requests on the server side.
-* **Retain headers when clicking on links:** When you select a link in a response, Postman creates a new `GET` request with the link URL. Turn on this toggle to keep the headers from the earlier request in the new request. Retaining headers is useful if you mainly access protected resources.
-* **Automatically follow redirects:** Turn off this toggle to prevent requests that return a 3xx series response from automatically redirecting.
-* **Send anonymous usage data to Postman:** Postman gathers basic, anonymous usage data to help with product improvement. Select this toggle to turn off sending anonymous usage data to Postman.
+* **Send no-cache header:** (Recommended) Turn this on to send a `Cache-Control: no-cache` header with each request. The `no-cache` directive forces the server to revalidate each request and ensures you get an up-to-date (not stale) response.
+* **Send Postman Token header:** (Recommended) Turn this on to send a random Postman token with an XMLHttpRequest. Sending a random token ensures the receiving server handles one request at a time, even when the requests send with the same parameters. The token can also aid debugging and help you distinguish between requests on the server side.
+* **Retain headers when clicking on links:** When you select a link in a response, Postman creates a new `GET` request with the link URL. Turn this on to keep the headers from the earlier request in the new request. Retaining headers is useful if you mainly access protected resources.
+* **Automatically follow redirects:** Turn this off to prevent requests that return a 3xx series response from automatically redirecting.
+* **Send anonymous usage data to Postman:** Postman gathers basic, anonymous usage data to help with product improvement. Turn this off to stop sending anonymous usage data to Postman.
 
 ### User interface
 
-* **Two-pane view:** By default, Postman displays responses below requests. Turn on this toggle to display the response and request panes side by side.
-* **Show icons with tab names:** Turn off this toggle to hide the icons that appear next to tab names.
-* **Variable autocomplete:** Turn on this toggle to enable autocomplete when typing variable names.
+* **Two-pane view:** By default, Postman displays responses below requests. Turn this on to display the response and request panes side by side.
+* **Show icons with tab names:** Turn this off to hide the icons that appear next to tab names.
+* **Variable autocomplete:** Turn this on to enable autocomplete when typing variable names.
 
 ### Editor settings
 
@@ -92,8 +87,8 @@ When you send a form-data or binary file with a request body, Postman saves a pa
 * **Font Size (`px`):** Enter the font size in pixels to use for code text.
 * **Indentation count:** Enter the number of indentation characters to use for each code level.
 * **Indentation type:** Select the indentation character type to use (**Space** or **Tab**).
-* **Auto close brackets:** Turn on this toggle to automatically add a closing bracket when you enter an opening bracket.
-* **Auto close quotes:** Turn on this toggle to automatically add a closing quotation mark when you enter an opening quotation mark.
+* **Auto close brackets:** Turn this on to automatically add a closing bracket when you enter an opening bracket.
+* **Auto close quotes:** Turn this on to automatically add a closing quotation mark when you enter an opening quotation mark.
 
 ## Themes
 

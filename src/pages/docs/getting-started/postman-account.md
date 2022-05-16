@@ -12,13 +12,10 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Videos"
   - type: link
-    name: "One person, multiple accounts"
-    url: "https://blog.postman.com/one-person-multiple-accounts/"
-  - type: link
-    name: "Sweet cosmic karma for your public profile"
-    url: "https://blog.postman.com/sweet-cosmic-karma-for-your-public-profile/"
+    name: "Public Profiles | Postman Level Up"
+    url:  "https://youtu.be/w-EgqQ8Anvw"
   - type: section
     name: "Next Steps"
   - type: link
@@ -51,8 +48,8 @@ Before you sign up for a Postman account, either download and open the [desktop 
 
 You will see a prompt to sign in or sign up. Select __Create Account__. You can sign up using an email address or using your Google account:
 
-* **Email:** Enter your email and create a username and password. Check the box to agree to the __Terms of Use__, which you can view by selecting the link, and select __Create free account__. Postman will send you an email to confirm your account. Follow the instructions in the email to complete your account setup.
-* **Google account:** Select __Sign up with Google__ and follow the instructions.
+* **Email** - Enter your email and create a username and password. Check the box to agree to the __Terms of Use__, which you can view by selecting the link, and select __Create free account__. Postman will send you an email to confirm your account. Follow the instructions in the email to complete your account setup.
+* **Google account** - Select __Sign up with Google__ and follow the instructions.
 
 When you first sign up for a Postman account, you will be prompted to provide some information about yourself, including your name and your role, to help customize the app experience to your needs. Enter your details and select __Continue__.
 
@@ -64,8 +61,8 @@ Your new Postman profile will be visible to collaborators and anyone viewing res
 
 During the sign up process, you have the option to create or join a [team](/docs/collaborating-in-postman/collaboration-intro/):
 
-* **Joining a team.** If you are signing up with your company email and your company has a Postman account with team discovery enabled, you will see [teams you can join](/docs/collaborating-in-postman/collaboration-intro/#finding-teams-within-your-organization).
-* **Creating a team.** To create a team and optionally invite collaborators, select __Create new team__. Enter your team name and URL, then select __Continue__.
+* **Joining a team** - If you are signing up with your company email and your company has a Postman account with team discovery enabled, you will see [teams you can join](/docs/collaborating-in-postman/collaboration-intro/#finding-teams-within-your-organization).
+* **Creating a team** - To create a team and optionally invite collaborators, select __Create new team__. Enter your team name and URL, then select __Continue__.
 
 ## Signing into Postman
 
@@ -75,9 +72,9 @@ When you sign in using the Postman desktop app, the app will open a new screen t
 
 > You can opt out of the sign in process at any time by going back to Postman and selecting **Skip and take me to Postman Desktop App**.
 
-Sign into Postman in your browser by entering your account credentials or signing in with Google. If you are on a Postman Professional or Enterprise plan, opt to **Sign in with Single Sign-On (SSO)**.
+Sign into Postman in your browser by entering your account credentials or signing in with Google. If you are on a Postman Professional or Enterprise plan, opt to **Sign in with SSO**.
 
-Select **Keep me signed in** if you want to remain signed in after your current session for 30 minutes before re-authenticating. If you don't want to remain signed in on the computer you are working on, clear the checkbox to turn this option off. Note that you will be prompted to sign in again after 30 minutes.
+Select **Stay signed in for 30 days** if you want to remain signed in after your current session for 30 days before re-authenticating. If you don't want to remain signed in on the computer you are working on, clear this checkbox. Note that you will be prompted to sign in again after 30 minutes.
 
 After you sign in, you will see a confirmation in your browser and you will be redirected back to the Postman desktop app.
 
@@ -85,7 +82,7 @@ After you sign in, you will see a confirmation in your browser and you will be r
 
 ### Switching between accounts
 
-You can sign in to multiple accounts at the same time in Postman. Select your user avatar in the top right to toggle between accounts or select __Add a new account__ to sign in with another one.
+You can sign in to multiple accounts at the same time in Postman. Select your user avatar in the top right to switch between accounts or select __Add a new account__ to sign in with another one.
 
 ## Updating your account and profile settings
 
@@ -99,7 +96,7 @@ You can manage account settings including your email address, password, and work
 
 If you are on a Professional, Basic, or Free plan, you can change the email address associated with your Postman account. Open your [account settings](https://go.postman.co/settings/me/account/) page. Select your avatar in the upper-right corner > **Account Settings** > **Account**. Edit your email address and select **Update Email** to save changes.
 
-If you are on an Enterprise plan, you must contact your team admins to update the email address associated with your Postman account.
+If you are on an Enterprise plan, you must contact your Team Admins to update the email address associated with your Postman account.
 
 #### Resetting your password
 
@@ -109,7 +106,7 @@ If you aren't signed in to your Postman account, you can recover your username o
 
 > If you still have trouble logging into your Postman account, contact [Postman support](https://support.postman.com/hc/en-us).
 
-If you are on an Enterprise plan, you must contact your team admins to update the password associated with your Postman account.
+If you are on an Enterprise plan, you must contact your Team Admins to update the password associated with your Postman account.
 
 #### Deleting your account
 
@@ -117,7 +114,7 @@ Deleting your account is an irreversible operation. Any data synced to your acco
 
 If you are on a Professional, Basic, or Free plan, you can permanently delete your Postman account from your [account settings](https://go.postman.co/settings/me/account/) page. Select your avatar in the upper-right corner > **Account Settings** > **Account**. Select **Delete Account**. Before the account is deleted, you will be asked to sign in again to confirm that you own the account.
 
-If you are on an Enterprise plan, you must contact your team admins to delete your Postman account.
+If you are on an Enterprise plan, you must contact your Team Admins to delete your Postman account.
 
 ### Updating your profile
 
@@ -129,7 +126,7 @@ You can update your username at any time by navigating to your [profile settings
 
 #### Making your profile public
 
-Your Postman profile is visible to your Postman team, and you can choose to make your profile public to the Postman community. You can turn your public profile on or off at any time in your [profile settings](https://go.postman.co/settings/me/). Select your avatar in the upper-right corner > **Account Settings**. Select the toggle next to **Make profile public**, then **Update Profile**.
+Your Postman profile is visible to your Postman team, and you can choose to make your profile public to the Postman community. You can turn your public profile on or off at any time in your [profile settings](https://go.postman.co/settings/me/). Select your avatar in the upper-right corner > **Account Settings** > **Profile**. Select **Make profile public**, then select **Update Profile** to save your changes.
 
 ## Updating your notification preferences
 

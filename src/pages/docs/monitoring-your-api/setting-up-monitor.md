@@ -19,11 +19,15 @@ contextual_links:
   - type: subtitle
     name: "Blog Posts"
   - type: link
-    name: "How to monitor Postman Collections with APImetrics"
-    url: "https://blog.postman.com/how-to-use-postman-apimetrics/"
+    name: "Integrated API Monitoring in Postman"
+    url: "https://blog.postman.com/integrated-api-monitoring-in-postman/"
   - type: link
-    name: "Using a Postman monitor to water my plants"
-    url: "https://blog.postman.com/using-a-postman-monitor-to-water-my-plants/"
+    name: "How to Use Postman Monitors to Schedule CircleCI Pipelines"
+    url: "https://blog.postman.com/how-to-use-postman-monitors-to-schedule-circleci-pipelines/"
+  - type: link
+    name: "Power Mocks, Monitors, and CI/CD with Postman"
+    url: "https://blog.postman.com/power-mocks-monitors-and-ci-cd-with-postman-webinar-recap-part-3/"
+
 
 warning: false
 
@@ -51,9 +55,9 @@ Create a new collection-based monitor to continuously check your API's health, r
 
 Postman offers several ways to create a new collection-based monitor:
 
-* **Create a monitor from scratch.** Select **Monitors** in the sidebar, and then select **+**. You will select a collection to run when configuring the new monitor.
-* **Create a monitor from a collection.** Select **Collections** in the sidebar, then select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to a collection > **Monitor collection**. The new monitor is automatically configured to run the selected collection.
-* **Create a monitor from an API.** Open an API version from **APIs** in the sidebar and select the **Monitoring** tab. Select **+ Add Monitor**, and then select **Create new monitor**. You can choose to use an existing collection, create a new collection, or generate a collection from your schema.
+* **Create a monitor from scratch** - Select **Monitors** in the sidebar, and then select **+**. You will select a collection to run when configuring the new monitor.
+* **Create a monitor from a collection** - Select **Collections** in the sidebar, then select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to a collection > **Monitor collection**. The new monitor is automatically configured to run the selected collection.
+* **Create a monitor from an API** - Open an API version from **APIs** in the sidebar and select the **Monitoring** tab. Select **+ Add Monitor**, and then select **Create new monitor**. You can choose to use an existing collection, create a new collection, or generate a collection from your schema.
 
 > You can also create a monitor using the Postman API. To learn how, see the [Postman API documentation](https://documenter.getpostman.com/view/12959542/UV5XjJV8#419dd5ae-5fb8-476b-b070-c05accc3aaba).
 
@@ -123,17 +127,14 @@ The **Enable SSL validation** option is selected by default. You can turn off SS
 
 To work with a monitor, select **Monitors** in the sidebar and then select a monitor to view its dashboard. From here you can take the following actions:
 
-* **Run a monitor.** A monitor runs automatically at set intervals, determined by the run frequency you select when configuring the monitor. To run a monitor manually at any time, select **Run** at the upper right.
-
-* **Refresh the dashboard.** To make sure you're viewing the latest monitor results, select **Refresh** at the upper right.
-
-* **Pause a monitor.** While paused, the monitor no longer makes calls to the specified URL. To pause a monitor, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> at the upper right and select **Pause**. To resume the monitor, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> again and select **Resume**.
-
-* **Edit a monitor.** Edit an existing monitor to update the name, collection, or any other configuration options. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> at the upper right and select **Edit**. Change any configuration options, and then select **Update Monitor**.
+* **Run a monitor** - A monitor runs automatically at set intervals, determined by the run frequency you select when configuring the monitor. To run a monitor manually at any time, select **Run** at the upper right.
+* **Refresh the dashboard** - To make sure you're viewing the latest monitor results, select **Refresh** at the upper right.
+* **Pause a monitor** - While paused, the monitor no longer makes calls to the specified URL. To pause a monitor, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> at the upper right and select **Pause**. To resume the monitor, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> again and select **Resume**.
+* **Edit a monitor** - Edit an existing monitor to update the name, collection, or any other configuration options. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> at the upper right and select **Edit**. Change any configuration options, and then select **Update Monitor**.
 
     > You can quickly rename a monitor without editing it. Select **Monitors** in the sidebar, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to a monitor, and then select **Rename**.
 
-* **Delete a monitor.** Delete a monitor if it's no longer needed. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> at the upper right and select **Delete**.
+* **Delete a monitor** - Delete a monitor if it's no longer needed. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> at the upper right and select **Delete**.
 
 ## Next steps
 

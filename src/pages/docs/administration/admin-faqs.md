@@ -10,16 +10,16 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
-    name: "Blog Posts"
+    name: "Videos"
   - type: link
-    name: "Manage Large Teams in Postman with Workspaces, Permissions, and Version Control"
-    url: "https://blog.postman.com/postman-team-workspaces-and-permissions/"
+    name: "Postman 101 for Admins"
+    url: "https://youtu.be/rEKvQO8EYR8"
 
 ---
 
 For administrative and team management frequently asked questions, check out Postman's [Help Center](https://support.postman.com/hc/en-us).
 
-The Help Center provides frequently asked questions that you may encounter as a Postman team admin, including:
+The Help Center provides frequently asked questions that you may encounter as a Postman [Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles), including:
 
 * [Account FAQs](https://support.postman.com/hc/en-us/categories/115000609185-My-Account)
 * [Collaboration FAQs](https://support.postman.com/hc/en-us/categories/115000609165-Collaboration)

@@ -16,20 +16,20 @@ contextual_links:
   - type: link
     name: "Making HTTP SOAP Requests with Postman"
     url: "https://blog.postman.com/making-http-soap-requests-with-postman/"
-  - type: link
-    name: "SOAP: fahrenheit to celsius conversion"
-    url: "https://www.postman.com/postman/workspace/postman-team-collections/collection/1559645-468bc02d-1eb5-40d6-bf98-b4e5c6574e41?ctx=documentation"
   - type: subtitle
     name: "Public Workspaces"
   - type: link
     name: "Public SOAP APIs"
     url:  "https://www.postman.com/cs-demo/workspace/public-soap-apis/overview"
+  - type: link
+    name: "SOAP: Fahrenheit to Celsius conversion"
+    url: "https://www.postman.com/postman/workspace/postman-team-collections/collection/1559645-468bc02d-1eb5-40d6-bf98-b4e5c6574e41?ctx=documentation"
 
 warning: false
 
 ---
 
-Postman can make HTTP calls using SOAP, a platform-agnostic messaging protocol specification, in addition to REST, [GraphQL](/docs/sending-requests/supported-api-frameworks/graphql/), and [WebSocket](/docs/sending-requests/supported-api-frameworks/websocket/) requests.
+Postman can make HTTP calls using SOAP, a platform-independent messaging protocol specification, in addition to REST, [GraphQL](/docs/sending-requests/supported-api-frameworks/graphql/), and [WebSocket](/docs/sending-requests/supported-api-frameworks/websocket/) requests.
 
 The following steps show how to make a SOAP request in Postman.
 

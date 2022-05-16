@@ -28,11 +28,6 @@ const pageQuery = `{
         frontmatter {
           title
           search_keyword
-          contextual_links {
-            type
-            name
-            url
-          }
         }
         fields {
           slug

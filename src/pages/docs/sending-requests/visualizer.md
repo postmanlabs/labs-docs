@@ -1,8 +1,6 @@
 ---
 title: "Visualizing responses"
-order: 26
 updated: 2021-02-17
-page_id: "visualizer"
 search_keyword: "pm.visualizer.set, visualizer.set, pm.response.json, response.json, pm.getData, getData"
 contextual_links:
   - type: section
@@ -18,11 +16,17 @@ contextual_links:
   - type: subtitle
     name: "Videos"
   - type: link
-    name: "Learn about Visualizer"
+    name: "Learn about Postman Visualizer"
     url: "https://www.youtube.com/watch?v=nQNbdfKKQfc"
   - type: link
-    name: "Visualizer demo"
+    name: "PostmanVisualizer demo"
     url: "https://www.youtube.com/watch?v=i1jU-kivApg"
+  - type: link
+    name: "Create a Custom OneSignal Dashboard Using Postman Visualizer"
+    url: "https://youtu.be/Prgff3__-mw"
+  - type: dynamic_blog
+    name: "Blog Posts"
+    blog_tag: "visualizer"
   - type: subtitle
     name: "Public Workspaces"
   - type: link
@@ -42,17 +46,14 @@ contextual_links:
   - type: link
     name: "Visualizer D3 examples"
     url: "https://www.postman.com/DTHb3DSmtDah2RD/workspace/codebase-visualizer-templates/collection/2897506-d2486b17-0fc6-4ff3-8045-800623e5c02b?ctx=documentation"
-  - type: dynamic_blog
-    name: "Blog Posts"
-    blog_tag: "visualizer"
 
 ---
 
-Postman provides a programmable way to visually represent your request [responses](/docs/sending-requests/responses/). Visualization code added to the __Tests__ for a request will render in the __Visualize__ tab for the response body, alongside the Pretty, Raw, and Preview options.
+The _Postman Visualizer_ provides a programmable way to visually represent your request [responses](/docs/sending-requests/responses/). Visualization code added to the __Tests__ for a request will render in the __Visualize__ tab for the response body, alongside the Pretty, Raw, and Preview options.
 
 [![Visualizer rendering](https://assets.postman.com/postman-docs/visualizer-v8.jpg)](https://assets.postman.com/postman-docs/visualizer-v8.jpg)
 
-Visualizers let you present your response data in ways that help to make sense of it. You can use visualizers to model and highlight the information that's relevant to your project, instead of having to read through raw response data. When you [share a Postman collection](/docs/collaborating-in-postman/sharing/), other people on your team can also see your visualizations within the context of each request.
+Visualizers let you present your response data in ways that help to make sense of it. You can use visualizers to model and highlight the information that's relevant to your project, instead of having to read through raw response data. When you [share a Postman Collection](/docs/collaborating-in-postman/sharing/), other people on your team can also see your visualizations within the context of each request.
 
 ## Contents
 

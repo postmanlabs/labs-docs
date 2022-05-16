@@ -13,9 +13,6 @@ contextual_links:
   - type: link
     name: "Managing your team"
     url: "/docs/administration/managing-your-team/managing-your-team/"
-  - type: link
-    name: "Manage Large Teams in Postman with Workspaces, Permissions, and Version Control"
-    url: "/docs/administration/sso/admin-sso/"
 
 ---
 
@@ -38,8 +35,8 @@ Team migration can occur in different ways depending on your needs and preferred
 ## Who can perform team migration
 
 * All plan types (Free, Basic, Professional, and Enterprise)
-* [Team admins and team developers](/docs/collaborating-in-postman/roles-and-permissions/#team-roles)
-* Information Technology / System Administrator for [single sign-on provisioning](/docs/administration/sso/intro-sso/) (available to [Professional and Enterprise plans](https://www.postman.com/pricing/))
+* [Team members with the Admin or Developer role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles)
+* Information Technology or System Administrator for [single sign-on provisioning](/docs/administration/sso/intro-sso/) (available to [Professional and Enterprise plans](https://www.postman.com/pricing/))
 
 ## Before you start migrating
 
@@ -52,7 +49,7 @@ Team migration can occur in different ways depending on your needs and preferred
 
 You can choose either [centralized](#choosing-centralized-migration) or [distributed](#choosing-distributed-migration) migration to export your team data.
 
-> As a precautionary measure prior to migrating data, admins and team members are strongly encouraged to perform a [JSON data dump backup through a bulk export](/docs/getting-started/importing-and-exporting-data/#exporting-data-dumps).
+> As a precautionary measure prior to migrating data, Admins and team members are strongly encouraged to perform a [JSON data dump backup through a bulk export](/docs/getting-started/importing-and-exporting-data/#exporting-data-dumps).
 
 ### Choosing centralized migration
 
@@ -86,8 +83,8 @@ If you have a personal account and want to deactivate it and join an authorized 
 
 Choose distributed migration if the following conditions apply:
 
-* Your organization has workspaces that have dedicated workspace admins with numerous collections.
-    * Workspace admins can export any relevant collections and environments into the new team workspace.
+* Your organization has workspaces that have dedicated [Workspace Admins](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles) with many collections.
+    * Workspace Admins can export any relevant collections and environments into the new team workspace.
 * You are a single user and want to deactivate your existing account or move company data from personal account to the authorized team.
 
 > Recreating mocks, monitors, and documentation on the new team may be carried out by those who are responsible for maintaining it.

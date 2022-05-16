@@ -19,11 +19,6 @@ contextual_links:
   - type: link
     name: "HTTP protocol explained"
     url:  "https://www.youtube.com/watch?v=FAnuh0_BU4c&list=PLM-7VG-sgbtBBnWb2Jc5kufgtWYEmiMAw"
-  - type: subtitle
-    name: "Blog Posts"
-  - type: link
-    name: "Inspecting Postman Requests"
-    url: "https://blog.postman.com/debugging-postman-requests/"
   - type: section
     name: "Next Steps"
   - type: link
@@ -53,7 +48,7 @@ The Postman response viewer helps you to visualize and check the correctness of 
 
 The Postman **Body** tab gives you several tools to help you understand the response quickly. You can view the body in one of four views: _Pretty_, _Raw_, _Preview_, and _Visualize_.
 
-> **Finding items in responses:** To open the search bar, select the search icon <img alt="Search icon" src="https://assets.postman.com/postman-docs/icon-search-v9.jpg#icon" width="16px"> in the results pane. You can also place your cursor in the response and select **⌘+F** or **Ctrl+F**. This option is not available in a response's Preview or Visualize views.
+> **Finding items in responses** - To open the search bar, select the search icon <img alt="Search icon" src="https://assets.postman.com/postman-docs/icon-search-v9.jpg#icon" width="16px"> in the results pane. You can also place your cursor in the response and select **⌘+F** or **Ctrl+F**. This option is not available in a response's Preview or Visualize views.
 
 Note that if the response's `Content-Type` header indicates that the response is an image, Postman will detect and render the image automatically.
 
@@ -121,11 +116,11 @@ If SSL is turned off globally but turned on for your request, you will see the e
 
 <img alt="Verification error" src="https://assets.postman.com/postman-docs/response-error-disable-ssl.jpg" width="300px"/>
 
-> If you select **Disable SSL Verification** in the error message, you will need to turn it back on if you want to verify certificates for future requests. To enable it globally, select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the header and then select **Settings**. In the **General** tab, select the **SSL certificate verification** toggle.
+> If you select **Disable SSL Verification** in the error message, you will need to turn it back on if you want to verify certificates for future requests. To enable it globally, select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the header and then select **Settings**. In the **General** tab, select **SSL certificate verification**.
 
 <!--  -->
 
-> To enable SSL verification for only the current request, select the **Settings** tab in the request, and then select the **Enable SSL certificate verification** toggle.
+> To enable SSL verification for only the current request, select the **Settings** tab in the request, and then select **Enable SSL certificate verification**.
 
 If you have **SSL verification** turned off and your request returns a certificate verification error, you will see the details in the network information pop-up.
 

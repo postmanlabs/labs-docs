@@ -10,16 +10,9 @@ contextual_links:
   - type: link
     name: "Grouping requests in collections"
     url: "/docs/sending-requests/intro-to-collections/"
-  - type: section
-    name: "Additional Resources"
-  - type: subtitle
-    name: "Blog Posts"
-  - type: link
-    name: "Why we became big believers in APIMatic's API transformer"
-    url: "https://blog.postman.com/new-postman-pro-integration-apimatics-api-transformer/"
 ---
 
-Postman's APIMatic integration converts a Postman collection into an API description format such as Swagger, RAML, or API Blueprint, and then periodically backs up the resulting file on GitHub.
+Postman's APIMatic integration converts a Postman Collection into an API description format such as Swagger, RAML, or API Blueprint, and then periodically backs up the resulting file on GitHub.
 
 ## Prerequisites
 
@@ -48,7 +41,7 @@ To back up a collection periodically to a GitHub repository:
     * **APIMatic API Key** - Your [APIMatic integration key](https://docs.apimatic.io/manage-apis/get-api-keys/).
     * **Nickname** - Create a nickname for the integration.
     * **Choose Workspace** - Select the Postman workspace that the collection you want to back up belongs to.
-    * **Choose Collection** - Select the Postman collection you want to back up.
+    * **Choose Collection** - Select the Postman Collection you want to back up.
     * **Choose Repository** - Select the GitHub repository your collection will be backed up to.
     * **Enter Directory** - Add the directory in the GitHub repository in which to back up your collection. If a directory with that name doesn't exist, it will be created when you add the integration.
     * **Enter filename** - Create a filename for the backup file.

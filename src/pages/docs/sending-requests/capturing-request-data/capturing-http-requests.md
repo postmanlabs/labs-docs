@@ -19,14 +19,14 @@ contextual_links:
   - type: subtitle
     name: "Blog Posts"
   - type: link
-    name: "Reverse engineering an API"
-    url: "https://medium.com/better-practices/reverse-engineering-an-api-403fae885303"
-  - type: link
-    name: "Using Postman Proxy to Capture and Inspect API Calls from iOS or Android Devices"
-    url: "https://blog.postman.com/using-postman-proxy-to-capture-and-inspect-api-calls-from-ios-or-android-devices/"
+    name: "Test Your Web Apps Using the Postman Proxy"
+    url: "https://blog.postman.com/testing-web-app-using-postman-proxy/"
   - type: link
     name: "Capture Responses Using the Postman Proxy"
     url: "https://blog.postman.com/capture-responses-using-the-postman-proxy/"
+  - type: link
+    name: "Reverse engineering an API"
+    url: "https://medium.com/better-practices/reverse-engineering-an-api-403fae885303"
 
 warning: false
 
@@ -102,10 +102,10 @@ After the proxy is running, you can start a proxy debug session. This is a time-
 1. If you save requests and responses to a collection, they're added chronologically by default. You can alternately group them in folders organized by domain name or endpoints. Under **Organize requests by**, select **Domain name**, **Endpoints**, or both. Your requests and responses are then organized in folders in the selected collection.
 1. Under **Configure Incoming Requests**, there are additional options you can use to limit the requests and responses captured:
 
-    * **URL must contain**: Only capture URLs containing the specified string or regular expression.
-    * **URL cannot contain**: Don't capture URLs containing the specified string or regular expression.
-    * **Methods**: Only capture the selected methods.
-    * **Resources**: Exclude requests with image, JS, or CSS responses.
+    * **URL must contain** - Only capture URLs containing the specified string or regular expression.
+    * **URL cannot contain** - Don't capture URLs containing the specified string or regular expression.
+    * **Methods** - Only capture the selected methods.
+    * **Resources** - Exclude requests with image, JS, or CSS responses.
 
 1. Select **Start Capture**.
 
@@ -148,7 +148,7 @@ There are several controls you can use to limit, organize, and investigate traff
 
 * Select the name **Proxy debug session** and enter another name to change the window name.
 * The **Configure incoming requests** controls at the top of the window enable you to limit captured traffic. Select items from **Methods**, **Status Codes**, **Resources**, and **URL** to limit the traffic. These controls are similar to the ones you set initially in Step 2 above, but they limit what is being captured, instead of what is going through the proxy.
-* You can select or unselect **Save Responses for Requests** and **Capture Cookies** to toggle if responses or cookies are collected.
+* Select or unselect **Save Responses for Requests** and **Capture Cookies** to choose whether to collect responses or cookies.
 * Select the **Requests** tab to view incoming requests and responses, or **Cookies** to see captured cookies.
 * Use the search box to look for specific requests.
 * Select **>** next to a request to expand it and see more details.

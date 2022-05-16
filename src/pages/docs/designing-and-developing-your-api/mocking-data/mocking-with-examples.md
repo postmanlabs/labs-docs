@@ -20,11 +20,9 @@ contextual_links:
   - type: link
     name: "Mock Servers | The Exploratory"
     url: "https://youtu.be/n_7UUghLpco"
-  - type: subtitle
-    name: "Blog Posts"
   - type: link
-    name: "Mock responses in Postman by using Examples"
-    url: "https://blog.postman.com/mock-responses-in-postman-by-using-examples/"
+    name: "Dynamic Mock Behavior | Postman Level Up"
+    url: "https://youtu.be/av7SZo9sZAE"
   - type: section
     name: "Next Steps"
   - type: link
@@ -130,8 +128,8 @@ To further demonstrate how responses from the mock service are entirely dependen
 
 Sending a `GET` request to `https://postman-echo.com/test` returns a 404 error, which you saved as another example. The collection `C1` now has two requests and two saved examples:
 
-* **Example E1:** `GET` request to path `/get`
-* **Example E2:** `GET` request to path `/test`
+* **Example E1** - `GET` request to path `/get`
+* **Example E2** - `GET` request to path `/test`
 
 Finally, repeat step 5 above, but this time add the path `/test` to the end of the mock server URL when sending the request. This returns the expected 404 response.
 

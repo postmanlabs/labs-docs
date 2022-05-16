@@ -6,17 +6,22 @@ page_id: "configuring_scim_with_azure_ad"
 warning: false
 contextual_links:
   - type: section
+    name: "Prerequisites"
+  - type: link
+    name: "Configuring SSO with Azure AD"
+    url: "/docs/administration/sso/azure-ad/"
+  - type: section
     name: "Additional Resources"
   - type: subtitle
     name: "Blog Posts"
   - type: link
-    name: "Introducing User Management in Postman with SCIM"
-    url: "https://blog.postman.com/introducing-user-management-in-postman-with-scim/"
+    name: "Introducing User Management in Postman via Azure AD SCIM"
+    url: "https://blog.postman.com/introducing-user-management-postman-azure-ad-scim/"
 ---
 
 Postman supports SCIM provisioning through Microsoft Azure AD, allowing you to automate user provisioning and de-provisioning for your team.
 
-You must be a [Postman team admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) to enable SCIM for your team. With SCIM enabled, users won't have the option to leave your team on their own, and won't be able to change their account email or password. Only team admins will have the right to remove team members.
+You must be a [Postman Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) to enable SCIM for your team. With SCIM enabled, users won't have the option to leave your team on their own, and won't be able to change their account email or password. Only Team Admins will have the right to remove team members.
 
 ## Contents
 

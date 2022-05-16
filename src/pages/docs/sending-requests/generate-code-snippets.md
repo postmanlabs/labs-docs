@@ -17,6 +17,11 @@ contextual_links:
     name: "Generating Code Snippets | Postman Level Up"
     url: "https://www.youtube.com/watch?v=yYwkvtSvpHI"
   - type: subtitle
+    name: "Blog Posts"
+  - type: link
+    name: "Generate Code for Your Front-end Apps"
+    url: "https://blog.postman.com/use-your-work-in-postman-to-generate-code-for-your-apps/"
+  - type: subtitle
     name: "Case Studies"
   - type: link
     name: "Intuit"
@@ -24,11 +29,6 @@ contextual_links:
   - type: link
     name: "BigCommerce"
     url: "https://www.postman.com/case-studies/bigcommerce/"
-  - type: subtitle
-    name: "Blog Posts"
-  - type: link
-    name: "Generate Code for Your Front-end Apps"
-    url: "https://blog.postman.com/use-your-work-in-postman-to-generate-code-for-your-apps/"
   - type: section
     name: "Next Steps"
   - type: link
