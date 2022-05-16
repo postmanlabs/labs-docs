@@ -60,13 +60,13 @@ The __Private Network APIs__ report provides metrics including an overview of yo
 The __Private Network APIs__ report provides the following information:
 
 * __Total APIs on Private API Network__ - The number of APIs that are published to the Private API Network.
-* __Schemas by type__ - The number of APIs by schema type (like OpenAPI, GraphQL, and Swagger).
-* __API mock coverage__ - The number of APIs your team has added mocks to.
-* __API monitoring coverage__ - The number of APIs your team has added monitors to.
-* __API test coverage__ - The number of APIs your team has added tests to.
-* __API documentation coverage__ - The number of APIs your team has added documentation to.
-* **Watch count** - The number of times someone has watched an API in the last six months. This number includes users who watched and then unwatched an API.
-* **Comments over time** - The number of times someone has commented on an API in the last six months.
+* __Schemas by type__ - The number of APIs in the Private API Network by schema type (like OpenAPI, GraphQL, and Swagger).
+* __API mock coverage__ - The number of APIs in the Private API Network your team has added mocks to.
+* __API monitoring coverage__ - The number of APIs in the Private API Network your team has added monitors to.
+* __API test coverage__ - The number of APIs in the Private API Network your team has added tests to.
+* __API documentation coverage__ - The number of APIs in the Private API Network your team has added documentation to.
+* **Watch count** - The number of times someone has watched an API in the Private API Network in the last six months. This number includes users who watched and then unwatched an API.
+* **Comments over time** - The number of times someone has commented on an API in the Private API Network in the last six months.
 
 ## Public APIs
 
