@@ -120,7 +120,7 @@ Next, create an IAM role for Postman in AWS:
     > For more information, refer to the [AWS IAM guide on using external IDs](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_create_for-user_externalid.html).
 
 1. Select **Next: Permissions**.
-6. Select an existing IAM policy or select **Create policy**. If you are creating a policy, use the following JSON code:
+1. Select an existing IAM policy or select **Create policy**. If you are creating a policy, use the following JSON code:
 
     ```json
     {
@@ -148,7 +148,7 @@ Next, create an IAM role for Postman in AWS:
     * `"apigateway:GET"` - (Required) Enables viewing API Gateway deployments for HTTP and REST APIs in Postman.
     * `"apigateway:PUT"` - Enables [exporting](/docs/designing-and-developing-your-api/deploying-an-api/deploying-an-api-aws/#exporting-and-deploying-your-api) HTTP API schemas to the API Gateway.
     * `"apigateway:POST"` - Enables [deploying](/docs/designing-and-developing-your-api/deploying-an-api/deploying-an-api-aws/#exporting-and-deploying-your-api) HTTP API schemas to a stage on the API Gateway.
-    * ` "apigateway:*"` - Assigns all GET, PUT, POST, PATCH, DELETE permissions to the IAM role.
+    * `"apigateway:*"` - Assigns all GET, PUT, POST, PATCH, DELETE permissions to the IAM role.
     * `"cloudwatch:GetMetricData"` - Enables [viewing CloudWatch metrics](/docs/designing-and-developing-your-api/deploying-an-api/deploying-an-api-aws/#viewing-cloudwatch-metrics) in Postman.
 
 1. Select **Next: Tags**.

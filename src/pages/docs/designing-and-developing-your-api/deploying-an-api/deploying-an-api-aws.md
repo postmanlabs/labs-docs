@@ -90,7 +90,7 @@ Next, create an IAM role for Postman in AWS:
     * `"apigateway:GET"` - (Required) Enables viewing API Gateway deployments for HTTP and REST APIs in Postman.
     * `"apigateway:PUT"` - Enables [exporting](#exporting-and-deploying-your-api) HTTP API schemas to the API Gateway.
     * `"apigateway:POST"` - Enables [deploying](#exporting-and-deploying-your-api) HTTP API schemas to a stage on the API Gateway.
-    * ` "apigateway:*"` - Assigns all GET, PUT, POST, PATCH, DELETE permissions to the IAM role.
+    * `"apigateway:*"` - Assigns all GET, PUT, POST, PATCH, DELETE permissions to the IAM role.
     * `"cloudwatch:GetMetricData"` - Enables [viewing CloudWatch metrics](#viewing-cloudwatch-metrics) in Postman.
 
 7. Select **Next: Tags**.
@@ -163,7 +163,7 @@ From the CloudWatch dashboard, you can take the following actions:
 * To view the this stage in AWS, select **View Stage on AWS**.
 * To view the latest CloudWatch metrics, select the refresh icon <img alt="Refresh icon" src="https://assets.postman.com/postman-docs/icon-refresh-v9-5.jpg#icon" width="14px">.
 
-#### Updating an existing IAM policy for CloudWatch
+### Updating an existing IAM policy for CloudWatch
 
 The Amazon API Gateway integration now supports viewing CloudWatch metrics in Postman. If you previously created an IAM policy when configuring the integration, you need to update the policy to enable CloudWatch metrics. Make sure to add the `"cloudwatch:GetMetricData"` action to your IAM policy:
 
