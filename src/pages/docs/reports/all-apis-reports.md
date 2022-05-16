@@ -55,7 +55,7 @@ The **Team APIs** report provides information about APIs in team workspaces, inc
 
 ## Private Network APIs
 
-The __Private Network APIs__ report provides metrics including an overview of your total published APIs, a visualization of API categorized by schema type, and a separate view of your APIs with and without mocks, monitors, tests, and documentation.
+The __Private Network APIs__ report provides metrics about APIs in your [Private API Network](/docs/collaborating-in-postman/adding-private-network/), including an overview of your total APIs, a visualization of API categorized by schema type, and a separate view of your APIs with and without mocks, monitors, tests, and documentation.
 
 The __Private Network APIs__ report provides the following information:
 
@@ -70,20 +70,20 @@ The __Private Network APIs__ report provides the following information:
 
 ## Public APIs
 
-The __Public APIs__ report provides metrics including an overview of your total published APIs, API updates and views, and a separate view of your APIs with and without mocks, monitors, tests, and documentation.
+The __Public APIs__ report provides metrics about APIs in your public workspaces, including an overview of your total APIs, API updates and views, and a separate view of your APIs with and without mocks, monitors, tests, and documentation.
 
 The [Public API report](#private-network-apis) provides the same information as the **Private API** report, excluding __Schemas by type__. It also includes the following:
 
 * **Total public APIs** - The number of APIs that are published to the Public API Network.
-* **APIs updated over time** - The number of APIs updated in the last 30 days.
+* **APIs updated over time** - The number of APIs in your public workspaces updated in the last 30 days.
 * **Most viewed public API** - A link to your team's most-viewed public API over the last three months.
 * **Public API views** - A graph of the number of views of your team's public APIs over the last three months.
-* **API mock coverage** - The number of APIs your team has added mocks to.
-* **API monitoring coverage** - The number of APIs your team has added monitors to.
-* **API test coverage** - The number of APIs your team has added tests to.
-* **API documentation coverage** - The number of APIs your team has added documentation to.
-* **Watch count** - The number of times someone has watched an API in the last six months. This number includes users who watched and then unwatched an API.
-* **Comments over time** - The number of times someone has commented on an API in the last six months.
+* **API mock coverage** - The number of APIs in your public workspaces that your team has added mocks to.
+* **API monitoring coverage** - The number of APIs in your public workspaces that your team has added monitors to.
+* **API test coverage** - The number of APIs in your public workspaces that your team has added tests to.
+* **API documentation coverage** - The number of APIs in your public workspaces that your team has added documentation to.
+* **Watch count** - The number of times someone has watched an API in your public workspaces in the last six months. This number includes users who watched and then unwatched an API.
+* **Comments over time** - The number of times someone has commented on an API in your public workspaces in the last six months.
 
 ## View Report by API
 
