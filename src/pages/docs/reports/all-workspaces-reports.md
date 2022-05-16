@@ -31,7 +31,7 @@ The **All workspaces** summary report contains the following information:
 
 * **Total workspaces** - The total number of workspaces including public, team, personal, and private workspaces.
 * **Workspaces created over time** - The total number of workspaces created by your team in the last six months. This might include workspaces that have since been deleted, as long as they were created in the reporting period.
-* **Workspaces by type** - The total number of personal, private, public, and team workspaces, and the number of empty workspaces of each type. Empty workspaces are workspaces that don't contain any entities.
+* **Workspaces by type** - The total number of personal, private, public, and team workspaces, and the number of empty workspaces of each type. Empty workspaces are workspaces that don't contain any environments, monitors, mocks, collections, or APIs.
 * **Active workspaces over time** - The number of workspaces with at least one action on that day in the last 30 days. Actions include:
 
     * Creating, editing, deleting, and sending requests.

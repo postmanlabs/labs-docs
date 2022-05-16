@@ -56,7 +56,7 @@ The **Team activity** report gives more details about your team members' activit
     > * Adding integrations
 
 * **Entities created over time** - The number of Postman entities created in the last six months, including APIs, collections, environments, mocks, and monitors. This might include entities that have since been deleted, as long as they were created in the reporting period.
-* **Updates on entities over time** - Changes made to entities in the last six months.
+* **Updates on entities over time** - Changes made to entities including APIs, collections, environments, mocks, and monitors in the last six months.
 
 ## Resource usage
 
