@@ -394,7 +394,7 @@ class Header extends React.Component {
                       <h6 className="dropdown-header">Learning</h6>
                       <a
                         className="dropdown-item"
-                        href="/postman-flows/getting-started/flows-overview/"
+                        href="/docs/getting-started/introduction/"
                       >
                         Docs
                       </a>
@@ -534,7 +534,7 @@ class Header extends React.Component {
         <nav className="navbar-v6 navbar navbar-expand-lg navbar-light bg-light nav-secondary blurred-container">
           <Link
             className="navbar-brand"
-            href="/postman-flows/getting-started/flows-overview/"
+            href="/labs/postman-flows/getting-started/flows-overview/"
           >
             <span id="learning-center-home-link" className="nav-link uber-nav">
               Postman Labs Docs
@@ -585,8 +585,7 @@ class Header extends React.Component {
               <li className="nav-item">
                 <Link
                   className="nav-link uber-nav mr-3"
-                  href="/postman-flows/getting-started/flows-overview/"
-
+                  href="/labs/postman-flows/getting-started/flows-overview/"
                 >
                   Flows
                 </Link>
