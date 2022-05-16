@@ -77,7 +77,7 @@ The [Public API report](#private-network-apis) provides the same information as 
 * **Total public APIs** - The number of APIs that are published to the Public API Network.
 * **APIs updated over time** - The number of APIs in your public workspaces updated in the last 30 days.
 * **Most viewed public API** - A link to your team's most-viewed public API over the last three months.
-* **Public API views** - A graph of the number of views of your team's public APIs over the last three months.
+* **Public API views** - The number of views of your APIs in your public workspaces over the last three months.
 * **API mock coverage** - The number of APIs in your public workspaces that your team has added mocks to.
 * **API monitoring coverage** - The number of APIs in your public workspaces that your team has added monitors to.
 * **API test coverage** - The number of APIs in your public workspaces that your team has added tests to.
