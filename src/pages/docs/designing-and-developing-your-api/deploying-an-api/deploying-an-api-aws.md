@@ -164,7 +164,7 @@ From the CloudWatch dashboard, you can take the following actions:
 
 #### Updating an existing IAM policy for CloudWatch
 
-The Amazon API Gateway integration now supports viewing CloudWatch metrics in Postman. If you previously created an IAM policy when configuring the integration, you need to update the policy to enable CloudWatch metrics. Add the `"cloudwatch:GetMetricData"` action to your IAM policy:
+The Amazon API Gateway integration now supports viewing CloudWatch metrics in Postman. If you previously created an IAM policy when configuring the integration, you need to update the policy to enable CloudWatch metrics. Make sure to add the `"cloudwatch:GetMetricData"` action to your IAM policy:
 
 ```json
 "Action": [
