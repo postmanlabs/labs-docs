@@ -33,7 +33,8 @@ To be included in this metric, an API must have [**Team** or **Public** visibili
 ## How is your team using Postman?
 
 * **Team activity** - The total number of user actions in a workspace in the reporting period. These actions include:
-    * Creating, editing, deleting, and sending requests.
+    * Creating, editing, and deleting requests.
+    * Sending requests.
     * Creating, editing, and deleting collections, APIs, environments, mocks, and monitors.
 
     > This metric doesn't include the following actions:

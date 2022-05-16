@@ -34,7 +34,8 @@ The **All workspaces** summary report contains the following information:
 * **Workspaces by type** - The total number of personal, private, public, and team workspaces, and the number of empty workspaces of each type. Empty workspaces are workspaces that don't contain any environments, monitors, mocks, collections, or APIs.
 * **Active workspaces over time** - The number of workspaces with at least one action on that day in the last 30 days. Actions include:
 
-    * Creating, editing, deleting, and sending requests.
+    * Creating, editing, and deleting requests.
+    * Sending requests.
     * Creating, editing, and deleting collections, APIs, environments, mocks, and monitors.
 
     > This metric doesn't include administrative or billing-related tasks that happen outside of a workspace.
@@ -46,7 +47,8 @@ The **Team Workspaces** report shows information about your team workspaces:
 * **Total team workspaces** - The total number of team workspaces for your team.
 * **Most active team workspace** - A link to the most active team workspace in the past 30 days. Actions include:
 
-    * Creating, editing, deleting, and sending requests.
+    * Creating, editing, and deleting requests.
+    * Sending requests.
     * Creating, editing, and deleting collections, APIs, environments, mocks, and monitors.
 
     > This metric doesn't include administrative or billing-related tasks that happen outside of a workspace.

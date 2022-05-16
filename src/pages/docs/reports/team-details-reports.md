@@ -47,7 +47,8 @@ The **Team activity** report gives more details about your team members' activit
 * **Active members over time** - The number of team members who used Postman at least once on a specific day in the last 30 days.
 * **Team activity** - The total number of user actions in a workspace in the last six months. These actions include:
 
-    * Creating, editing, deleting, and sending requests.
+    * Creating, editing, and deleting requests.
+    * Sending requests.
     * Creating, editing, and deleting collections, APIs, environments, mocks, and monitors.
 
     > This metric doesn't include the following actions:
