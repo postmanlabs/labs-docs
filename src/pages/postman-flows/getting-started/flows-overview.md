@@ -23,7 +23,6 @@ Whether you're just starting out with flows or want to learn more about its core
 - [Running requests in sequence](/postman-flows/getting-started/running-requests-in-sequence/)
 - [Chaining requests with data](/postman-flows/getting-started/chaining-requests-with-data/)
 - [Working with access tokens](/postman-flows/getting-started/working-with-access-tokens/)
-- [Looping over data](/postman-flows/getting-started/loops/)
 
 ## Learn more about Flows core concepts
 
