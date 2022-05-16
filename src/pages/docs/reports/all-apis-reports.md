@@ -38,20 +38,20 @@ The **All APIs** overview report provides the following information:
 
 ## Team APIs
 
-The **Team APIs** report provides information on APIs created by your team, including:
+The **Team APIs** report provides information about APIs in team workspaces, including:
 
 * **Total APIs in team workspaces** - The number of APIs in team workspaces.
-* **Schemas by type** - The number of APIs by schema type (like OpenAPI, GraphQL, and Swagger). If an API has more than one version with different schemas, the API will have entries in each of those schema types.
-* **APIs updated over time** - The number of team APIs that have been updated in the last 30 days.
-* **API response time** - The average response time of all APIs in the last seven days.
+* **Schemas by type** - The number of APIs in team workspaces by schema type (like OpenAPI, GraphQL, and Swagger). If an API has multiple versions with different schema types, then the same API will be counted in the column for each relevant schema type.
+* **APIs updated over time** - The number of APIs in team workspaces that have been updated in the last 30 days.
+* **API response time** - The average response time of all APIs in team workspaces in the last seven days. To be included, the request to which a response belongs must be part of a collection linked to a team API.
 * **API test results** - The number of successful and failed test runs in the last seven days.
 * **API uptime** - The number of successful responses (returning 1xx or 2xx) compared to failed responses (returning 3xx, 4xx, or 5xx) in the last seven days.
-* **API mock coverage** - The number of APIs your team has added mocks to.
-* **API monitoring coverage** - The number of APIs your team has added monitors to.
-* **API test coverage** - The number of APIs your team has added tests to.
-* **API documentation coverage** - The number of APIs your team has added documentation to.
-* **Watch count** - The number of times someone has watched an API in the last six months. This number includes users who watched and then unwatched an API.
-* **Comments over time** - The number of times someone has commented on an API in the last six months.
+* **API mock coverage** - The number of APIs in team workspaces that your team has added mocks to.
+* **API monitoring coverage** - The number of APIs in team workspaces that your team has added monitors to.
+* **API test coverage** - The number of APIs in team workspaces that your team has added tests to.
+* **API documentation coverage** - The number of APIs in team workspaces that your team has added documentation to.
+* **Watch count** - The number of times someone has watched an API in a team workspace in the last six months. This number includes users who watched and then unwatched an API.
+* **Comments over time** - The number of times someone has commented on an API in a team workspace in the last six months.
 
 ## Private Network APIs
 
