@@ -117,7 +117,7 @@ To see the changelog, open an API version, then select the changelog icon <img a
 
 You will see a list of changes made to the schema and associated elements. Each release is shown, and the top of the list will show any unreleased changes. Select each entry to see more details.
 
-Select **+ Release changes** at the top of the list to create a release from unreleased changes. For more information, see [Working with API releases](/docs/designing-and-developing-your-api/versioning-an-api/working-with-api-releases/).
+Select **+ Release changes** at the top of the list to create a release from unreleased changes. For more information, see [Working with API releases](/docs/designing-and-developing-your-api/versioning-an-api/api-releases/).
 
 <img src="https://assets.postman.com/postman-docs/api-builder-changelog-v9.jpg" alt="Changelog" width="350px" />
 
