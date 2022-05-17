@@ -52,7 +52,9 @@ Postman generates reports periodically but not in real time. You might experienc
 
 ### Report permissions
 
-You can only see report data that's available to you based on your [role](/docs/collaborating-in-postman/roles-and-permissions/). If you don't have role-based permission to access an entity, you won't have access to that data in the relevant reports.
+In a given report, you can only see report data that's available to you based on the level of access you have for the relevant collection, API, element, mock server, or monitor. For more information about entity-based roles, see [Defining roles](/docs/collaborating-in-postman/roles-and-permissions/#element-based-roles).
+
+If you don't have permission to access an entity, you will still see the correct number of entities in aggregate visualizations but you won't see the entity name or other relevant information for the specific entity.
 
 ![Report message that restricted data is hidden](https://assets.postman.com/postman-docs/reports-restricted-data-v9.jpg)
 
