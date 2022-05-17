@@ -69,8 +69,8 @@ A typical workflow for API-first development:
 
 1. Create an initial version of an API. Set the version's status to indicate it's in progress, such as "Planning" or "In Development."
 1. Make changes to the schema and associated collections.
-1. Review changes in the changelog. You can set the version's status in Postman to "Code Review" or "Security Review" during this stage.
-1. Go to the changelog and select **Release changes**. Name the release, add a release note, and create the release. Then change the status to "In Production."
+1. Review changes in the Changelog. You can set the version's status in Postman to "Code Review" or "Security Review" during this stage.
+1. Go to the Changelog and select **Release changes**. Name the release, add a release note, and create the release. Then change the status to "In Production."
 
 ## Using an external Git repository
 
