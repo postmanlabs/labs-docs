@@ -98,4 +98,4 @@ A status doesn't affect visibility, permissions, or availability of an API. Inst
 
 Statuses are displayed in the upper left of the API tab. To set a new status, choose one from the dropdown list.
 
-Learn more about [setting an API status](/docs/designing-and-developing-your-api/versioning-an-api/api-releases/).
+Learn more about [setting an API status](/docs/designing-and-developing-your-api/versioning-an-api/api-statuses/).
