@@ -5,62 +5,60 @@ updated: 2022-05-04
 warning: false
 ---
 
-Blocks are the atomic pieces you put together to create a flow. They do the heavy lifting of performing tasks, creating data, transforming data and much more.
+Blocks are the atomic pieces used to create a flow. Every block has a specific purpose and does the heavy lifting by performing tasks, creating data, transforming data and much more.
 
 - [Fundamentals](#fundamentals)
-- [Anatomy](#anatomy)
-- [Types of blocks](#types-of-blocks)
+- [Block Anatomy](#block-anatomy)
+- [Types of Blocks](#types-of-blocks)
 
 ## Fundamentals
 
-A block, fundamentally is a black box. Every block has a specific purpose which it can achieve by optionally taking in data, processing it, and producing outputs.
-
-Additionally, a flow in itself can be considered as a block.
+Every block has an input and output. You can pass/pipe a message packet (see "[messages](./messages.md)") from one block to another. Blocks can perform tasks, have value, or run an operation (see "[Types of Blocks](#types-of-blocks))
 
 > **Important**
 >
-> - A block becomes executable when all of it's **_required_** inputs are connected.
+> - A block becomes executable when all of its **_required_** inputs are connected.
 > - A block starts running when a message packet becomes available in all of its connected inputs.
 > - A block is not a function but a process
 
-## Anatomy
+## Block Anatomy
 
 ![](https://assets.postman.com/postman-labs-docs/block/block-anatomy.svg)
 
-1. **Name**
-   This is the name of the block
+1. **Name** - 
+   Name of the block.
 
-2. **Run State**
-   An indicator telling the state of the block: default, running, ran successfully or ran unsuccessfully
+2. **Run State** - 
+   Indicator telling the state of the block: default, running, ran successfully or ran unsuccessfully.
 
-3. **Expand**
-   Expand the block to view more configurations and information
+3. **Expand** - 
+   Expands the block to view more configurations and information.
 
-4. **Options**
-   Contains additional options for the block
+4. **Options Menu** - 
+   Contains additional options for the block.
 
-5. **Required Input Port**
-   This is a required port and needs a connection for the block to be executable
+5. **Required Input Port** - 
+   Required input ports are colored dark blue. Needs a connection from another block to be executable. 
 
-6. **Optional Input Port**
-   This is an optional port and block will execute even if there is not connection of the port
+6. **Optional Input Port** - 
+   Option input ports are colored light blue. The block executes even if there is no connection to the port. 
 
-7. **Output Port**
-   This is the output port where the result of the block is emitted
+7. **Output Port** - 
+   Where results of the block process is emitted.
 
-8. **Configuration**
-   These are the quick configuration for blocks. Some configuration may not be shown here.
+8. **Configuration** - 
+   These are the quick configurations for a block. Some avaiable configurations may not be shown here.
 
-9. **Signal Input**
-   This is the signal port that can be connected to prevent the execution of the block until the signal turns high.
+9. **Signal Input** - 
+   Once connected, the execution of a given block is prevented until the signal port turns high.
 
-10. **Signal Output**
-    This is the signal output port that emits a high signal when the block completes its processing.
+10. **Signal Output** - 
+    Similar to "Signal Input", the signal output port that emits a high signal when the block completes its processing.
 
-## Types of blocks
+## Types of Blocks
 
-Blocks are of 3 types:
+There are 3 types of blocks:
 
-- **Task blocks** - Blocks that perform a particular asynchronous task.
-- **Value blocks** - Blocks that create data of a specific
-- **Operation blocks** - Blocks used to perform actions on data to transform them. These are synchronous in nature.
+- **Task blocks** - perform a particular asynchronous task.
+- **Value blocks** - create data of a specific
+- **Operation blocks** - perform actions on data to transform them. These are synchronous in nature.
