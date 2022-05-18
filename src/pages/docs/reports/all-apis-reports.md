@@ -74,7 +74,7 @@ The __Public APIs__ report provides metrics about APIs in your public workspaces
 
 The [Public API report](#private-network-apis) provides the same information as the **Private API** report, excluding __Schemas by type__. It also includes the following:
 
-* **Total public APIs** - The number of APIs that are published to the Public API Network.
+* **Total public APIs** - The number of APIs in your public workspaces.
 * **APIs updated over time** - The number of APIs in your public workspaces updated in the last 30 days.
 * **Most viewed public API** - A link to your team's most-viewed public API over the last three months.
 * **Public API views** - The number of views of your APIs in your public workspaces over the last three months.

@@ -32,7 +32,7 @@ To be included in this metric, an API must have [**Team** or **Public** visibili
 
 ## How is your team using Postman?
 
-* **Team activity** - The total number of user actions in a workspace in the reporting period. These actions include:
+* **Team activity** - The total number of user actions in a workspace in the last six months. These actions include:
     * Creating, editing, and deleting requests.
     * Sending requests.
     * Creating, editing, and deleting collections, APIs, environments, mocks, and monitors.
@@ -48,7 +48,7 @@ To be included in this metric, an API must have [**Team** or **Public** visibili
 
 Metrics in this section reflect all views and actions on publicly shared work, regardless of whether the user is a team member or not.
 
-* **Public profile views** - The total number of views of your team's public profile in the reporting period.
+* **Public profile views** - The total number of views of your team's public profile.
 * **Public workspace views** - The number of views of all your team's public workspaces in the last three months.
 * **Published documentation views** - The number of views of your team's published documentation in the last six months.
 * **Forks and Pull requests on public collections** - The number of times in the last six months that a collection in your public workspaces was forked or pulled.
