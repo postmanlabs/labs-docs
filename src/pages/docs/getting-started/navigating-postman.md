@@ -83,7 +83,7 @@ To search in Postman, select __Search Postman__ in the header then enter your se
 
 > For signed-out users, search results only include public resources.
 
-If you don't find what you are looking for in the list of results, select __Search all workspaces, collections, APIs and teams__ and you can find all the results in one page.
+If you don't find what you are looking for in the list of results, select __Search all workspaces, collections, APIs and teams__ to see all the results in one page.
 
 <img alt="Search all" src ="https://assets.postman.com/postman-docs/search-all-workspaces-collections-and-teams-v9.5.jpg"/>
 
@@ -93,10 +93,10 @@ You can also sort results using __Sort by__ on the right by selecting _Most rele
 
 Depending on the element type, the search results contain different information:
 
-* For _workspaces_, the search result contains the workspace type, summary, who published it, and when was it published.
-* For _collections_, the search result contains the workspace type, whether the collection is a fork or not, who published it, and when was it published.
-* For _APIs_, the search result contains the name and summary of the API, the API's owner (either an individual user or a team), and the workspace type.
-* For _teams_, the search result contains the name and summary of the team. Selecting the team name redirects you to the team profile.
+* For _workspaces_, the search result shows the workspace type, summary, who published it, and when was it published.
+* For _collections_, the search result shows the workspace type, whether the collection is a fork or not, who published it, and when was it published.
+* For _APIs_, the search result shows the name and summary of the API, the API's owner (either an individual user or a team), and the workspace type.
+* For _teams_, the search result shows the name and summary of the team. Selecting the team name redirects you to the team profile.
 
 ## Sidebar
 
@@ -139,11 +139,13 @@ To save request responses in your history, select the more actions icon <img alt
 
 ## Main work area
 
-Whether you're working with a collection, an API, or another element type, the center section of Postman is where you do the majority of your work. [Tabs](#tabs) enable you to organize your work, while the [right sidebar](#right-sidebar) gives you access to element-specific tools like documentation, and the [environment selector and environment quick look](#environment-selector-and-environment-quick-look) enable you to manage variables.
+Whether you're working with a collection, an API, or another element type, the center section of Postman is where you do the majority of your work. [Tabs](#tabs) enable you to organize your work, while the [right sidebar](#right-sidebar) gives you access to element-specific tools like documentation. The [environment selector and environment quick look](#environment-selector-and-environment-quick-look) enable you to manage variables.
 
 ### Tabs
 
 Tabs allow you to organize and work between requests.
+
+> This section describes how tabs work in the Postman Desktop app. By default, Postman for Web only shows one collection overview or request in the main work area at a time, rather than opening new in-app tabs as described here. For more information, see [Browser tabs in Postman for Web](#browser-tabs-in-postman-for-web).
 
 #### Opening a new tab
 
@@ -177,7 +179,7 @@ To manage your open tabs or to access recently closed tabs, select the more acti
 * **Duplicate Selected Tab** - _(Desktop app only)_ Duplicates the current tab. This doesn't create a copy of the request, so when you duplicate a tab any edits you make are reflected in the original request.
 * **Close Selected Tab** - Closes the current tab. If the tab has unsaved changes, Postman asks if you want to save before closing.
 * **Force Close Selected Tab** - Closes the current tab without saving any changes.
-* **Close All but Selected Tab** - Closes all tabs except the one you are currently working in.
+* **Close All but Selected Tab** - Closes all tabs except the one you are working in.
 * **Close All Tabs** - Closes all tabs. If any tabs contain unsaved changes, Postman will ask if you want to save before closing.
 * **Force Close All Tabs** - Closes all tabs without saving any changes.
 
@@ -190,6 +192,18 @@ You can also manage your open tabs or open a new tab by right-clicking on an exi
 If you have a lot of tabs open, they might overflow the area of the tab bar. To go to tabs that are outside the viewable area, select the arrows to the left or right of the tab bar.
 
 <img alt="Scroll to view tabs" src="https://assets.postman.com/postman-docs/tab-navigation-scroll.jpg" width="800px"/>
+
+#### Browser tabs in Postman for Web
+
+By default, Postman for Web only shows one collection overview or request in the main work area at a time, rather than opening new in-app tabs as described here. You can open more Postman elements in new browser tabs, which enables you to work across workspaces or to use different environments in the same workspace.
+
+If you have saved changes to a request, when you click on a new element Postman will open it in the main work area area. If the request has unsaved changes, Postman will prompt you to save or discard your changes.
+
+To open a workspace, environment, or request in a new browser tab, enter **⌘+Shift** or **Ctrl+Shift** and select the element you want to open.
+
+To open an in-app link in a new browser tab, enter **⌘** or **Ctrl** and select the link you want to open.
+
+To turn this behavior on or off in Postman for Web, select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the header, then select **Use browser tabs** in the **User interface** section.
 
 ### Right sidebar
 
