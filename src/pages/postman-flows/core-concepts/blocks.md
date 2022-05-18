@@ -50,5 +50,5 @@ Every block has an input and output. You can pass/pipe a message packet (see "[m
 There are 3 types of blocks:
 
 - **Task blocks** - perform a particular asynchronous task.
-- **Value blocks** - create data of a specific
+- **Value blocks** - create data of a specific.
 - **Operation blocks** - perform actions on data to transform them. These are synchronous in nature.
