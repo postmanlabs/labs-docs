@@ -25,35 +25,25 @@ Every block has an input and output. You can pass/pipe a message packet (see "[m
 
 ![](https://assets.postman.com/postman-labs-docs/block/block-anatomy.svg)
 
-1. **Name** - 
-   Name of the block.
+1. **Name** - Name of the block.
 
-2. **Run State** - 
-   Indicator telling the state of the block: default, running, ran successfully or ran unsuccessfully.
+2. **Run State** - Indicator telling the state of the block: default, running, ran successfully or ran unsuccessfully.
 
-3. **Expand** - 
-   Expands the block to view more configurations and information.
+3. **Expand** - Expands the block to view more configurations and information.
 
-4. **Options Menu** - 
-   Contains additional options for the block.
+4. **Options Menu** - Contains additional options for the block.
 
-5. **Required Input Port** - 
-   Required input ports are colored dark blue. Needs a connection from another block to be executable. 
+5. **Required Input Port** - Required input ports are colored dark blue. Needs a connection from another block to be executable.
 
-6. **Optional Input Port** - 
-   Option input ports are colored light blue. The block executes even if there is no connection to the port. 
+6. **Optional Input Port** - Option input ports are colored light blue. The block executes even if there is no connection to the port.
 
-7. **Output Port** - 
-   Where results of the block process is emitted.
+7. **Output Port** - Where results of the block process is emitted.
 
-8. **Configuration** - 
-   These are the quick configurations for a block. Some avaiable configurations may not be shown here.
+8. **Configuration** - These are the quick configurations for a block. Some available configurations may not be shown here.
 
-9. **Signal Input** - 
-   Once connected, the execution of a given block is prevented until the signal port turns high.
+9. **Signal Input** - Once connected, the execution of a given block is prevented until the signal port turns high.
 
-10. **Signal Output** - 
-    Similar to "Signal Input", the signal output port that emits a high signal when the block completes its processing.
+10. **Signal Output** - Similar to "Signal Input", the signal output port that emits a high signal when the block completes its processing.
 
 ## Types of Blocks
 
