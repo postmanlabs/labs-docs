@@ -16,7 +16,6 @@
     "gatsby": "4.11.2",
     "gatsby-cli": "4.11.2",
     "gatsby-plugin-algolia": "0.24.0",
-    "gatsby-plugin-client-side-redirect": "^1.1.0",
     "gatsby-plugin-env-variables": "2.2.0",
     "gatsby-plugin-gdpr-cookies": "2.0.8",
     "gatsby-plugin-google-analytics": "4.11.0",

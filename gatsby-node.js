@@ -34,11 +34,10 @@ exports.createPages = async ({ graphql, actions }) => {
   const { createRedirect, createPage } = actions;
 
   redirects.forEach(({ from, to }) => {
-    console.log(from, to)
     createRedirect({
       fromPath: from,
-      // isPermanent: true,
-      // redirectInBrowser: true,
+      isPermanent: true,
+      redirectInBrowser: true,
       toPath: to,
     });
   });
