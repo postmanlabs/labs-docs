@@ -39,7 +39,7 @@ warning: false
 
 Workspaces allow you to organize your Postman work and collaborate with teammates. You can group your projects together, with workspace acting as the single source of truth for related APIs, collections, environments, mocks, monitors, and other linked entities. By collaborating in a workspace, your edits are synced with your team in realtime.
 
-<img alt="Workspaces selected" src="https://assets.postman.com/postman-docs/workspace-overview-switcher-selected-v9.1.jpg"/>
+<img alt="Workspaces selected" src="https://assets.postman.com/postman-docs/workspace-overview-switcher-selected-v9.19.jpg"/>
 
 Personal workspaces are visible only to you. With a [Postman account](/docs/getting-started/postman-account/) you can create unlimited workspaces. With team workspaces, you can share and manage access to project components with collaborators. [Public workspaces](/docs/collaborating-in-postman/using-workspaces/public-workspaces/) enable you to collaborate on entities with anyone across the world.
 
@@ -55,7 +55,7 @@ _Workspace as an entity_ represents a whole container where being an admin gives
 
 To create a new workspace, select **Workspaces** in the header, then select **Create Workspace**.
 
-<img alt="Create new workspace" src="https://assets.postman.com/postman-docs/workspace-switcher-v9.1.jpg" width="300px"/>
+<img alt="Create new workspace" src="https://assets.postman.com/postman-docs/workspace-switcher-v9.19.jpg" width="300px"/>
 
 Use the visibility dropdown to choose a __Personal__, __Team__, __Private__, or __Public__ workspace.
 

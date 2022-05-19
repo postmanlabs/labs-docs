@@ -213,7 +213,7 @@ To view notifications about what has changed in a collection you watch:
 
 1. Select the notifications icon <img alt="Notification icon" src="https://assets.postman.com/postman-docs/icon-notification-bell-v9.jpg#icon" width="18px"> in the Postman header to view the notification. Select **View changelog** to view the collection's changelog.
 
-    <img alt="Notification Collection Watching" src="https://assets.postman.com/postman-docs/collection-watch-notification-v9.jpg" width="500px"/>
+    <img alt="Notification Collection Watching" src="https://assets.postman.com/postman-docs/collection-watch-notification-v9.19.jpg" width="500px"/>
 
 1. You will also receive an email with the information regarding who made the change, what the change was, and when it was made. Select **View changelog** in the email to access the full changelog in Postman.
 
