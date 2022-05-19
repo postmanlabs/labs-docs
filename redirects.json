@@ -1,14 +1,14 @@
 [
     {
         "from": "/postman-flows/",
-        "to": "/labs/postman-flows/getting-started/flows-overview/"
+        "to": "/postman-flows/getting-started/flows-overview/"
     },
     {
         "from": "/postman-flows/getting-started/",
-        "to": "/labs/postman-flows/getting-started/flows-overview/"
+        "to": "/postman-flows/getting-started/flows-overview/"
     },
     {
         "from": "/postman-flows/core-concepts/",
-        "to": "/labs/postman-flows/core-concepts/blocks/"
+        "to": "/postman-flows/core-concepts/blocks/"
     }
 ]
