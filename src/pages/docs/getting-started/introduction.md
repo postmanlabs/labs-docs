@@ -44,7 +44,7 @@ contextual_links:
 
 Welcome to the Postman docs! This is the place to find official information on how to use Postman in your API projects.
 
-[![Postman full view](https://assets.postman.com/postman-docs/intro-postman-request-selected-v9.8.3.jpg)](https://assets.postman.com/postman-docs/intro-postman-request-selected-v9.8.3.jpg)
+<img alt="Postman full view" src="https://assets.postman.com/postman-docs/intro-postman-request-selected-v9.19.2.jpg" width="1200px"/>
 
 If you're just starting to learn about APIs and Postman, you can use a variety of channels both in and outside Postman:
 
