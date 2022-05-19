@@ -37,7 +37,7 @@ Reports give information about activity in Postman, including [sharing your API]
 
 To view your reports dashboard:
 
-* Select **Reports** in the Postman header.
+* Select **Home** in the Postman header, then select **Reports** from the team information section on the left.
 
 To see a report for a specific API:
 
