@@ -69,7 +69,6 @@ The header enables you to create workspaces, access reports, explore the public 
 
 <img alt="Postman header right side" src="https://assets.postman.com/postman-docs/navigating-postman-header-right-v9.15.jpg" width="350px"/>
 
-* <img alt="Sync online icon" src="https://assets.postman.com/postman-docs/icon-sync-online.jpg#icon" width="16px"> **Sync status** - See if you are connected to Postman's servers and your data is [syncing](/docs/getting-started/syncing/).
 * **Invite** - If you have an [Admin role](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles) on a workspace, you can invite other users to collaborate.
 * <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> **Settings** - Access [Postman settings](/docs/getting-started/settings/) and other Postman resources.
 * <img alt="Notifications icon" src="https://assets.postman.com/postman-docs/icon-notification-bell-v9.jpg#icon" width="18px"> **Notifications** - View recent activity from your team, get notifications about Postman updates, and see pull requests, comment activity, and other important information.
