@@ -1,8 +1,6 @@
 ---
 title: "CI with Postman API"
-order: 62
-updated: 2021-09-01
-page_id: "continuous_integration"
+updated: 2022-05-23
 contextual_links:
   - type: section
     name: "Prerequisites"
