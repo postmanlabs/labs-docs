@@ -72,7 +72,7 @@ const DocPage = ({ data }) => {
                 <BreadCrumbsLinks data={{ parentLink, subParentLink }} />
                 <h1>{post.frontmatter.title}</h1>
                 <CreateDoc data={post} />
-                <div>
+                <div className='events__alert mb-3'>
                   <p>
                     <small>{excerptCount ? `Development Notification` : null }</small>
                   <br />
