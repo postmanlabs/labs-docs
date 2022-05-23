@@ -30,7 +30,7 @@ contextual_links:
     url: "/docs/designing-and-developing-your-api/managing-apis/"
 ---
 
-Postman Monitors can be used to track functionality and end-to-end performance of your APIs and response time. You can also view New Relic metrics for your API, and see relevant New Relic dashboards and deployments within Postman.
+You can use Postman Monitors to track functionality and end-to-end performance of your APIs and response time. You can also view New Relic metrics for your API, and see relevant New Relic dashboards and deployments within Postman.
 
 * [Linking monitors](#linking-monitors)
 * [Connecting to monitor integrations](#connecting-to-monitor-integrations)
@@ -75,7 +75,7 @@ For more about creating a monitor, see [Setting up a monitor](/docs/monitoring-y
 
 Postman integrations enable you to send the results of monitor runs to a variety of applications and channels, such as Slack, Microsoft Teams, Datadog, or Splunk. You can also send monitor results to a custom webhook to integrate Postman monitors with your specific workflow.
 
-The **Monitoring** tab in the API Builder provides one place to manage all of your API's monitor integrations. You can set up a new integration, track results, and view all of your configured monitor integrations.
+The **Monitoring** tab in the API Builder provides one place to manage all of your API's monitor integrations. You can set up a new integration, track results, and view your configured monitor integrations.
 
 <img alt="API monitor integrations" src="https://assets.postman.com/postman-docs/observe-api-integrations-v9-10.jpg" width="946px">
 
@@ -97,7 +97,7 @@ Connect an API version to one or more monitoring integrations to send monitor re
 Once you've added a monitor integration to an API version, you can take the following actions on the **Monitoring** tab:
 
 * Select a monitor's name to open its dashboard in a new tab.
-* Select **Validate** next to a monitor to validate it against the API schema (OpenAPI 3.0 schemas only). If validation is not successful, select **Issues found** and then select **Review issues**. Learn more about [validating APIs](/docs/designing-and-developing-your-api/validating-elements-against-schema/).
+* Select **Validate** next to a monitor to validate it against the API schema (OpenAPI 3.0 schemas only). If validation isn't successful, select **Issues found** and then select **Review issues**. Learn more about [validating APIs](/docs/designing-and-developing-your-api/validating-elements-against-schema/).
 * Hover over a bar in the graph to view metrics for a monitor run.
 
   <img alt="API monitor results" src="https://assets.postman.com/postman-docs/observe-api-integrations-results-v9-10.jpg" width="332px">
@@ -107,7 +107,7 @@ Once you've added a monitor integration to an API version, you can take the foll
   <img alt="Edit an API monitor" src="https://assets.postman.com/postman-docs/observe-api-integrations-modify-v9-10.jpg" width="332px">
 
 * Hover over a monitor and select **Run** to immediately run the monitor.
-* Hover over a monitor and select the remove icon <img alt="Remove icon" src="https://assets.postman.com/postman-docs/icon-remove-api-element-v9.jpg#icon" width="16px"> to remove the monitor from the API version. (The monitor and its associated integrations are not deleted.)
+* Hover over a monitor and select the remove icon <img alt="Remove icon" src="https://assets.postman.com/postman-docs/icon-remove-api-element-v9.jpg#icon" width="16px"> to remove the monitor from the API version. (The monitor and its associated integrations aren't deleted.)
 
 ## Viewing New Relic APM metrics
 
@@ -168,4 +168,4 @@ At the top of the dashboard tab, you can:
 
     <img src="https://assets.postman.com/postman-docs/api-builder-apm-page.jpg" alt="New Relic APM" width="350px"/>
 
-To reconfigure the connection to New Relic, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> and choose **Edit integration**. You can then change the nickname, API key, services, dashboards or region. You can also choose **Delete integration** to remove the connection.
+To reconfigure the connection to New Relic, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> and choose **Edit integration**. You can then change the nickname, API key, services, dashboards, or region. You can also choose **Delete integration** to remove the connection.
