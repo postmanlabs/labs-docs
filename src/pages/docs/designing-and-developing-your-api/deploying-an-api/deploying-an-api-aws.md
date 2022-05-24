@@ -1,7 +1,7 @@
 ---
 title: 'Deploying to an Amazon API Gateway'
 page_id: 'deploying_an_api_aws'
-updated: 2022-04-21
+updated: 2022-05-16
 search_keyword: "deploy, aws, api gateway"
 warning: false
 contextual_links:
@@ -62,7 +62,7 @@ Next, create an IAM role for Postman in AWS:
     > For more information, refer to the [AWS IAM guide on using external IDs](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_create_for-user_externalid.html).
 
 5. Select **Next: Permissions**.
-6. Select an existing IAM policy or select **Create policy**. If you are creating a policy, use the following JSON:
+6. Select an existing IAM policy or select **Create policy**. If you are creating a policy, use the following JSON code:
 
     ```json
     {
@@ -73,6 +73,8 @@ Next, create an IAM role for Postman in AWS:
                 "Effect": "Allow",
                 "Action": [
                     "apigateway:GET",
+                    "apigateway:PUT",
+                    "apigateway:POST",
                     "cloudwatch:GetMetricData"
                 ],
                 "Resource": [
@@ -83,22 +85,19 @@ Next, create an IAM role for Postman in AWS:
     }
     ```
 
+    This policy will enable exporting and deploying for HTTP API schemas. (Exporting and deploying aren't supported for REST API schemas.) You can customize the `Action` section in the IAM policy based on your needs:
+
+    * `"apigateway:GET"` - (Required) Enables viewing API Gateway deployments for HTTP and REST APIs in Postman.
+    * `"apigateway:PUT"` - Enables [exporting](#exporting-and-deploying-your-api) HTTP API schemas to the API Gateway.
+    * `"apigateway:POST"` - Enables [deploying](#exporting-and-deploying-your-api) HTTP API schemas to a stage on the API Gateway.
+    * `"apigateway:*"` - Assigns all GET, PUT, POST, PATCH, DELETE permissions to the IAM role.
+    * `"cloudwatch:GetMetricData"` - Enables [viewing CloudWatch metrics](#viewing-cloudwatch-metrics) in Postman.
+
 7. Select **Next: Tags**.
 8. Select **Next: Review**.
 9. Add a **Role name** and **Role description**, then select **Create role**.
 
 Copy the **Role ARN** from AWS and paste it in Postman under **Step 2: Enter role ARN and region**. Next, enter the **AWS Region** where the API Gateway is located and select the **API Gateway**. When you're ready, select **Connect**.
-
-#### Updating an exiting IAM policy for CloudWatch
-
-The Amazon API Gateway integration now supports viewing CloudWatch metrics in Postman. If you previously created an IAM policy when configuring the integration, you need to update the policy to enable CloudWatch metrics. Add the following actions to your IAM policy:
-
-```json
-"Action": [
-    "apigateway:GET",
-    "cloudwatch:GetMetricData"
-],
-```
 
 ### Authenticating with an AWS access key
 
@@ -164,6 +163,19 @@ From the CloudWatch dashboard, you can take the following actions:
 * To view the this stage in AWS, select **View Stage on AWS**.
 * To view the latest CloudWatch metrics, select the refresh icon <img alt="Refresh icon" src="https://assets.postman.com/postman-docs/icon-refresh-v9-5.jpg#icon" width="14px">.
 
+### Updating an existing IAM policy for CloudWatch
+
+The Amazon API Gateway integration now supports viewing CloudWatch metrics in Postman. If you previously created an IAM policy when configuring the integration, you need to update the policy to enable CloudWatch metrics. Make sure to add the `"cloudwatch:GetMetricData"` action to your IAM policy:
+
+```json
+"Action": [
+    "apigateway:GET",
+    "apigateway:PUT",
+    "apigateway:POST",
+    "cloudwatch:GetMetricData"
+],
+```
+
 ## Importing a schema from Amazon API Gateway
 
 You can import an HTTP or REST schema from a connected Amazon API Gateway to your API in Postman. _Importing a schema will replace your current API schema or add a new schema if one doesn't exist._
@@ -186,12 +198,14 @@ Exporting an HTTP API schema makes it available in the connected Amazon API Gate
 
     You can also export and deploy your API from the Changelog. Select the changelog icon <img alt="Changelog icon" src="https://assets.postman.com/postman-docs/icon-changelog-v9.jpg#icon" width="18px"> in the right context bar, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to a release, and then select **Deploy Schema**.
 
-1. Select the version, branch, or release to deploy. Learn more about [versioning an API](/docs/designing-and-developing-your-api/versioning-an-api/) and [creating a release](/docs/designing-and-developing-your-api/versioning-an-api/#creating-a-release).
+1. Select the version, branch, or release to deploy. Learn more about [versioning an API](/docs/designing-and-developing-your-api/versioning-an-api/) and [creating a release](/docs/designing-and-developing-your-api/versioning-an-api/api-releases/#creating-a-release).
 1. (Optional) If you would like to deploy the schema to a stage after exporting, select **Deploy on a stage**. Select the AWS stage to deploy the schema to, and enter a brief description.
 
     > To deploy your schema, your gateway must have at least one route with a configured integration.
 
 1. Select **Deploy**.
+
+    > If you have a problem exporting or deploying, make sure you've assigned both the PUT and POST permissions [in your IAM policy](#authenticating-with-an-aws-iam-role).
 
 <img alt="Deploying an API" src="https://assets.postman.com/postman-docs/deploy-api-schema-on-aws-v9-8.jpg" width="502px"/>
 

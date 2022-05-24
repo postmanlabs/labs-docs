@@ -47,7 +47,7 @@ By adding an entity such as a collection to a workspace, collaborators with acce
 
 Workspaces can also create visibility for the projects within a team, as collections in a workspace are visible to all members with access to the workspace. Request history is also saved to a workspace, which can aid collaborative debugging efforts.
 
-_Workspace as an entity_ represents a whole container where being an admin gives you full access to the workspace. This concept works like the inheritance property where you will have editor access to all the elements within that particular workspace.
+_Workspace as an entity_ represents a whole container where being an admin gives you full access to the workspace. This concept works like the inheritance property where you will have Editor access to all the elements within that particular workspace.
 
 > For Postman Professional and Enterprise teams, a private workspace is a team workspace that is only visible to the user who created it, plus team members who have been invited to join it. Private workspaces allow teams to restrict access to collections, environments, mocks, and monitors that are relevant only to a particular group.
 

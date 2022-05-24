@@ -177,17 +177,16 @@ To use an environment variable in your documentation:
 
 ## Versioning your docs
 
-A [version](/docs/designing-and-developing-your-api/versioning-an-api/#versioning-concepts) is a set of features and functionality that your API delivers to consumers. A collection that contains API documentation can be linked to only one version of an API. That means, when you create a new version of your API, you'll also need to create a new documentation collection. You can then use the new collection to author documentation for the new API version.
+A [version](/docs/designing-and-developing-your-api/versioning-an-api/versioning-an-api-overview/#versioning-concepts) is a set of features and functionality that your API delivers to consumers. A collection that contains API documentation can be linked to only one version of an API. That means, when you create a new version of your API, you'll also need to create a new documentation collection. You can then use the new collection to author documentation for the new API version.
 
 There are several ways to create a documentation collection for a new version of your API:
 
-* **Carry over documentation when creating an API version.** When you [create a new API version](/docs/designing-and-developing-your-api/versioning-an-api/#creating-versions), you have the option to copy elements from a previous API version into the new version. Select the **Documentation** element, and then select **Create Version**. This will create a new documentation collection based on the previous collection, with the new version name appended to the collection name.
+* **Carry over documentation when creating an API version** - When you [create a new API version](/docs/designing-and-developing-your-api/versioning-an-api/api-versions/), you have the option to copy elements from a previous API version into the new version. Select the **Documentation** element, and then select **Create Version**. This will create a new documentation collection based on the previous collection, with the new version name appended to the collection name.
 
     <img alt="Creating a new version" src="https://assets.postman.com/postman-docs/documentation-new-version-v9.jpg" width="482px">
 
-* **Generate a collection from the new API version.** Open the new API version and select the **Overview** tab. Select the **+** next to **Documentation**, and then select **Create new documentation**.
-
-* **Add an existing to collection to the new API version.** Open the new API version and select the **Overview** tab. Select the **+** next to **Documentation**, and then select **Add existing documentation**.
+* **Generate a collection from the new API version** - Open the new API version and select the **Overview** tab. Select the **+** next to **Documentation**, and then select **Create new documentation**.
+* **Add an existing to collection to the new API version** - Open the new API version and select the **Overview** tab. Select the **+** next to **Documentation**, and then select **Add existing documentation**.
 
 > Postman automatically generates schema documentation for each version of your API, based on that version's API definition. Once you've versioned your API, you'll see a new version of the schema documentation in the **Documentation** tab.
 
@@ -198,7 +197,7 @@ There are several ways to create a documentation collection for a new version of
 To document a new release of an API version:
 
 1. Before creating the release, [edit the API documentation](#editing-api-documentation) as needed.
-2. [Create a new release](/docs/designing-and-developing-your-api/versioning-an-api/#creating-a-release) of the API version.
+2. [Create a new release](/docs/designing-and-developing-your-api/versioning-an-api/api-releases/#creating-a-release) of the API version.
 3. If the documentation is public, [edit the publishing settings](/docs/publishing-your-api/publishing-your-docs/#changing-publication-settings) to include the new release.
 
 [![Viewing a release](https://assets.postman.com/postman-docs/documentation-view-release-v9.jpg)](https://assets.postman.com/postman-docs/documentation-view-release-v9.jpg)

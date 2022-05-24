@@ -69,9 +69,9 @@ The documentation includes a [description](/docs/publishing-your-api/authoring-y
 
 Use the following options to customize the appearance of the documentation:
 
-* **Release Tag:** If the documentation has multiple [release tags](/docs/publishing-your-api/documenting-your-api/#documenting-releases), you can select a specific release to view.
-* **Language:** Select a language to use for sample code.
-* **Code Generation Settings:** Select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> to customize settings for the currently selected language.
+* **Release Tag** - If the documentation has multiple [release tags](/docs/publishing-your-api/documenting-your-api/#documenting-releases), you can select a specific release to view.
+* **Language** - Select a language to use for sample code.
+* **Code Generation Settings** - Select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> to customize settings for the currently selected language.
 
 [![Viewing a release](https://assets.postman.com/postman-docs/documentation-view-release-v9.jpg)](https://assets.postman.com/postman-docs/documentation-view-release-v9.jpg)
 
@@ -90,8 +90,8 @@ To view documentation for an API:
 1. Select the **Documentation** tab.
 1. Select a documentation source in the left pane:
 
-    * **Schema Documentation:** Select an API, and then select an item to view a specific path or request. (Schema documentation is only available for OpenAPI 3.0 schemas.)
-    * **Collection Documentation:** Select a linked collection, and then select an item to view a specific path or request. To see sample code in a different language, select it in the **Language** menu.
+    * **Schema Documentation** - Select an API, and then select an item to view a specific path or request. (Schema documentation is only available for OpenAPI 3.0 schemas.)
+    * **Collection Documentation** - Select a linked collection, and then select an item to view a specific path or request. To see sample code in a different language, select it in the **Language** menu.
 
 <img alt="Viewing API documentation" src="https://assets.postman.com/postman-docs/documentation-view-schema-docs-v9-12.jpg" width="1106px">
 
@@ -103,11 +103,11 @@ For each request, you will see a description of the request, the method and URL,
 
 Use the options in the header to customize the appearance of the documentation:
 
-* **Release Tag:** If the documentation has multiple [release tags](/docs/publishing-your-api/documenting-your-api/#documenting-releases), you can select a specific release to view.
-* **Environment:** If an [environment](/docs/publishing-your-api/documenting-your-api/#associating-environments-with-documentation) was published with the documentation, you can select it to populate any variables.
-* **Layout:** **Double column** displays sample code in a column to the right of the documentation. **Single column** displays sample code inline beneath each request.
-* **Language:** Select a language to use for sample code.
-* **Language Settings:** Select the language settings icon <img alt="Language settings icon" src="https://assets.postman.com/postman-docs/icon-gear-solid-v9.jpg#icon" width="16px"> to customize settings for any of the available languages.
+* **Release Tag** - If the documentation has multiple [release tags](/docs/publishing-your-api/documenting-your-api/#documenting-releases), you can select a specific release to view.
+* **Environment** - If an [environment](/docs/publishing-your-api/documenting-your-api/#associating-environments-with-documentation) was published with the documentation, you can select it to populate any variables.
+* **Layout** - **Double column** displays sample code in a column to the right of the documentation. **Single column** displays sample code inline beneath each request.
+* **Language** - Select a language to use for sample code.
+* **Language Settings** - Select the language settings icon <img alt="Language settings icon" src="https://assets.postman.com/postman-docs/icon-gear-solid-v9.jpg#icon" width="16px"> to customize settings for any of the available languages.
 
 [![Published documentation example](https://assets.postman.com/postman-docs/documentation-published-docs-v9.jpg)](https://assets.postman.com/postman-docs/documentation-published-docs-v9.jpg)
 
