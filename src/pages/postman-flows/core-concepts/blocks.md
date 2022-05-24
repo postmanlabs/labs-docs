@@ -33,17 +33,17 @@ Every block has an input and output. You can pass/pipe a message packet (see "[m
 
 4. **Options Menu** - Contains additional options for the block.
 
-5. **Required Input Port** - Required input ports are colored dark blue. Needs a connection from another block to be executable.
+5. **Required Input Port** - Required input ports are colored dark blue. Needs a connection from another block to be executable. (see also [connections](./connections.md))
 
-6. **Optional Input Port** - Option input ports are colored light blue. The block executes even if there is no connection to the port.
+6. **Optional Input Port** - Option input ports are colored light blue. The block executes even if there is no connection to the port. (see also [connections](./connections.md))
 
-7. **Output Port** - Where results of the block process is emitted.
+7. **Output Port** - Where results of the block process is emitted. (see also [connections](./connections.md))
 
 8. **Configuration** - These are the quick configurations for a block. Some available configurations may not be shown here.
 
-9. **Signal Input** - Once connected, the execution of a given block is prevented until the signal port turns high.
+9. **Signal Input** - Once connected, the execution of a given block is prevented until the signal port turns high. (see also [connections](./connections.md))
 
-10. **Signal Output** - Similar to "Signal Input", the signal output port that emits a high signal when the block completes its processing.
+10. **Signal Output** - Similar to "Signal Input", the signal output port that emits a high signal when the block completes its processing. (see also [connections](./connections.md))
 
 ## Types of Blocks
 
