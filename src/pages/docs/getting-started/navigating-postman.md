@@ -145,7 +145,7 @@ Whether you're working with a collection, an API, or another element type, the c
 
 Tabs allow you to organize and work between requests.
 
-> This section describes how tabs work in the Postman Desktop app. By default, Postman for Web only shows one collection overview or request in the main work area at a time, rather than opening new in-app tabs as described here. For more information, see [Browser tabs in Postman for Web](#browser-tabs-in-postman-for-web).
+> This section describes how tabs work in the Postman Desktop app. By default, tabs in Postman for Web work this way as well. You can choose to use browser tabs instead, which enables you to use a different tab for each open Postman element. For more information, see [Browser tabs in Postman for Web](#browser-tabs-in-postman-for-web).
 
 #### Opening a new tab
 
@@ -195,9 +195,9 @@ If you have a lot of tabs open, they might overflow the area of the tab bar. To 
 
 #### Browser tabs in Postman for Web
 
-By default, Postman for Web only shows one collection overview or request in the main work area at a time, rather than opening new in-app tabs like the Postman Desktop app does. You can open more Postman elements in new browser tabs, which enables you to work across workspaces or to use different environments in the same workspace.
+By default, Postman for Web uses in-app tabs like the Postman Desktop app does. You can optionally choose to use browser tabs instead. With this setting turned on, there is only one collection overview or request in the main work area at a time, and you can open more Postman elements in new browser tabs. This enables you to work across workspaces or to use different environments in the same workspace.
 
-If you've saved changes to a request, when you click on a new element Postman will open it in the main work area area. If the request has unsaved changes, Postman will prompt you to save or discard your changes.
+If you've saved changes to a request, when you select a new element Postman will open it in the main work area area. If the request has unsaved changes, Postman will prompt you to save or discard your changes.
 
 To open a workspace, environment, or request in a new browser tab, enter **⌘+Shift** or **Ctrl+Shift** and select the element you want to open.
 
