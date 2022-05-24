@@ -2,7 +2,7 @@
 title: "Monitoring API uptime"
 order: 88
 page_id: "uptime_monitors"
-updated: 2022-2-14
+updated: 2022-5-24
 contextual_links:
   - type: section
     name: "Additional Resources"
@@ -31,6 +31,7 @@ Use the uptime monitor dashboard to quickly check if the API endpoint is current
     * [Viewing the uptime graph](#viewing-the-uptime-graph)
     * [Viewing downtime incidents](#viewing-downtime-incidents)
     * [Working with uptime monitors](#working-with-uptime-monitors)
+* [Getting notified about downtime](#getting-notified-about-downtime)
 * [Uptime Monitor pricing](#uptime-monitor-pricing)
 
 ## Creating an uptime monitor
@@ -56,11 +57,11 @@ Create a new uptime monitor to track the availability of a single API endpoint, 
 
 To view results for an uptime monitor, select **Monitors** in the sidebar, and then select a monitor to view its dashboard.
 
-The dashboard shows if the API endpoint was up or down at the time it was last checked, for how long, and the number of regions where it's failing. To update the dashboard with the latest monitor status, select <img alt="Refresh icon" src="https://assets.postman.com/postman-docs/icon-refresh-v9-5.jpg#icon" width="14px"> **Refresh**.
+The dashboard shows if the API endpoint was up or down at the time it was last checked, for how long, and the number of regions where it's failing. To update the dashboard with the latest monitor status, select the refresh icon <img alt="Refresh icon" src="https://assets.postman.com/postman-docs/icon-refresh-v9-5.jpg#icon" width="14px">.
 
-The dashboard also shows key statistics for the selected time period. You can view the percentage of time the endpoint has been available globally in at least one region. You can also view the number of downtime incidents and the average response time in milliseconds. To change the time period displayed, select a different time period in the menu at the upper right.
+The dashboard also shows key statistics for the selected time period. You can view the average percentage of time the endpoint has been available in at least one region. You can also view the number of downtime incidents and the average response time in milliseconds. To change the time period displayed, select a different time period in the menu at the upper right.
 
-<img alt="Uptime monitor graph" src="https://assets.postman.com/postman-docs/monitors-uptime-graph-v9-12.jpg" width="841px"/>
+<img alt="Uptime monitor graph" src="https://assets.postman.com/postman-docs/monitors-uptime-graph-v9-19.jpg"/>
 
 > **Want to share an uptime monitor with others?** Hover over the monitor name at the top of the dashboard and select the link icon <img alt="Link icon" src="https://assets.postman.com/postman-docs/icon-workspace-link-v9.jpg#icon" width="18px"> to copy a link to the monitor. To view or edit the monitor, the person you share the link with must have the appropriate access to the workspace where the monitor is located. Learn more about [defining roles](/docs/collaborating-in-postman/roles-and-permissions/).
 
@@ -91,6 +92,25 @@ From the monitor dashboard, you can take the following actions:
     > You can quickly rename a monitor without editing it. Select **Monitors** in the sidebar, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to a monitor, and then select **Rename**.
 
 * **Delete an uptime monitor** - Delete an uptime monitor if it's no longer needed. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> at the upper right and select **Delete**.
+
+## Getting notified about downtime
+
+You can integrate your uptime monitor with Slack to get real-time notifications. After setting up the integration, you'll get downtime alerts in the Slack channel you select. You'll also get notified when the downtime ends.
+
+1. From the uptime monitor dashboard, select **Notify**.
+
+    <img alt="Configuring uptime notifications" src="https://assets.postman.com/postman-docs/monitors-uptime-notify-v9-19.jpg">
+
+1. Select the external link icon <img alt="External link icon" src="https://assets.postman.com/postman-docs/icon-external-link.jpg#icon" width="18px"> next to **Slack**.
+1. Select **Continue** to sign in to your Slack workspace. Review the requested permissions and select **Allow**. When you're finished, close the browser tab to continue in Postman.
+1. Enter a **Nickname** to help you identify the integration.
+1. Select the uptime monitor you want to get notifications for in Slack.
+1. Select the Slack channel where you want to get the notifications.
+1. Select **Add Integration**.
+
+    <img alt="Configuring uptime Slack notifications" src="https://assets.postman.com/postman-docs/monitors-uptime-slack-v9-19.jpg" width="523px">
+
+> To edit or delete the Slack integration, select **Notify** from the uptime monitor dashboard, and then select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px"> or the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px">.
 
 ## Uptime monitor pricing
 
