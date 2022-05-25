@@ -36,7 +36,7 @@ To get started using Newman, install Node.js, then Newman. Then you can run your
 
 ## Installing Newman
 
-1. Newman is built on Node.js. To run Newman, make sure you have Node.js installed. Follow the [steps to download Node](https://nodejs.org/en/download/package-manager/) which is specific to your CI's platform. Otherwise, some CI has configuration that pre-installs Node. Ensure you are using Node.js v4 or above.
+1. Newman is built on Node.js. To run Newman, make sure you have Node.js installed. Follow the [steps to download Node](https://nodejs.org/en/download/package-manager/) for your CI's platform. (Note that some CI systems have configurations that pre-install Node.) Ensure you are using Node.js v4 or above.
 
 1. Install Newman from npm globally on your system, which allows you to run it from anywhere:
 
