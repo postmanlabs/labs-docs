@@ -55,7 +55,7 @@ Newman provides a rich set of options to customize a run. Learn more about [Newm
 
 ## File uploads
 
-Newman also supports file uploads. This enables you to use a data file such as a text file to fill in form data fields. For an example, learn more at [Uploading files in Newman](/docs/running-collections/using-newman-cli/newman-file-uploads/)
+Newman supports file uploads, so you can use a data file (such as a text file) to fill in form data fields. Learn more about [uploading files in Newman](/docs/running-collections/using-newman-cli/newman-file-uploads/).
 
 ## Custom reporters
 
