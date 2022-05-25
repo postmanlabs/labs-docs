@@ -40,7 +40,7 @@ A custom reporter is a Node.js module with a name of the form `newman-reporter-<
 
 1. In the directory of your choice, create a blank npm package with `npm init`.
 
-2. Add an `index.js` file, that exports a function of the following form:
+2. Add an `index.js` file, which exports a function of the following form:
 
 ```javascript
 function (emitter, reporterOptions, collectionRunOptions) {
