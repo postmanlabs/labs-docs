@@ -40,7 +40,7 @@ Create a new uptime monitor to track the availability of a single API endpoint, 
 
 1. Select **Monitors** in the sidebar, and then select **+**.
 1. Select **Create an Uptime Monitor** in the right pane.
-1. Enter the **URL** you want to monitor. *The URL, API endpoint, or website you want to monitor must be publicly available over the internet HTTP and HTTPS protocols are supported.*
+1. Enter the **URL** you want to monitor. *The URL, API endpoint, or website you want to monitor must be publicly available over the internet. HTTP and HTTPS protocols are supported.*
 1. For **Monitor name**, enter a descriptive name that will help you identify the monitor later.
 1. Configure any optional details for the monitor:
 
