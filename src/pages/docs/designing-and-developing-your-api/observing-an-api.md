@@ -41,7 +41,7 @@ You can use Postman Monitors to track functionality and end-to-end performance o
 
 You can link [collection-based monitors](/docs/monitoring-your-api/setting-up-monitor/) in your current workspace to an API version. This enables you to check an API's performance and response times at scheduled intervals. From an API version's **Monitoring** tab, you can [create a new monitor](#creating-a-new-monitor) or [add an existing monitor](#adding-an-existing-monitor).
 
-![Schema Monitors](https://assets.postman.com/postman-docs/api-builder-api-monitor.jpg)
+<img alt="API monitor integrations" src="https://assets.postman.com/postman-docs/api-builder-api-monitor-v9-19.jpg">
 
 ### Creating a new monitor
 
@@ -82,7 +82,7 @@ To add an existing uptime monitor to your API:
 
 For more about creating an uptime monitor, see [Monitoring API uptime](/docs/monitoring-your-api/uptime-monitors/).
 
-SCREENSHOT
+<img alt="API monitor integrations" src="https://assets.postman.com/postman-docs/api-builder-uptime-monitor-v9-19.jpg">
 
 ## Connecting to monitor integrations
 
@@ -92,7 +92,7 @@ The **Monitoring** tab in the API Builder provides one place to manage all of yo
 
 > You can also set up a Slack integration for uptime monitors. Learn more about [integrating uptime monitors and Slack](/docs/monitoring-your-api/uptime-monitors/#getting-notified-about-downtime).
 
-<img alt="API monitor integrations" src="https://assets.postman.com/postman-docs/observe-api-integrations-v9-10.jpg" width="946px">
+<img alt="API monitor integrations" src="https://assets.postman.com/postman-docs/observe-api-integrations-v9-19.jpg">
 
 ### Adding a monitor integration
 
