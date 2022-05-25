@@ -51,7 +51,7 @@ function (emitter, reporterOptions, collectionRunOptions) {
 };
 ```
 
-1. Publish your reporter using `npm publish`, or use your reporter locally. See the usage instructions for more information.
+3. Publish your reporter using `npm publish`, or use your reporter locally. See the usage instructions for more information.
 
 Scoped reporter package names like `@myorg/newman-reporter-<name>` are also supported.
 
