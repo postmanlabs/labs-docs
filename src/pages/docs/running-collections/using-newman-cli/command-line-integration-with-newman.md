@@ -59,4 +59,4 @@ Newman supports file uploads, so you can use a data file (such as a text file) t
 
 ## Custom reporters
 
-Custom reporters are useful to generate collection run reports that cater to specific use cases, for example, logging out the response body when a request (or its tests) fail. Learn more at [using Newman custom reporters](/docs/running-collections/using-newman-cli/newman-custom-reporters/)
+Custom reporters are useful to generate collection run reports that cater to specific use cases, for example, logging out the response body when a request (or its tests) fail. Learn more about [using Newman custom reporters](/docs/running-collections/using-newman-cli/newman-custom-reporters/).
