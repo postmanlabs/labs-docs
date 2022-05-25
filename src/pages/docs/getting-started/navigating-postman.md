@@ -111,6 +111,10 @@ The Postman sidebar provides access to the fundamental elements of Postman:
 
 <img alt="Sidebar focused on Collections" src="https://assets.postman.com/postman-docs/navigating-postman-sidebar-v9.15.jpg" width="350px"/>
 
+To see the task options that are available for elements in the sidebar, select the element's name then select the more options icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> to the right. The task options will vary depending on the type of element you've selected.
+
+For collections, folders and requests inside a collection, and requests in History, you can select more than one at a time by entering **⌘** or **Ctrl** on your keyboard, then selecting the desired elements. For elements that are next to each other, enter **Shift**, then select the desired elements. For collections and their contents, you can also use [keyboard shortcuts](/docs/getting-started/settings/#shortcuts) to do tasks like copying, pasting, and deleting.
+
 To hide the sidebar, select the hide sidebar icon <img alt="Hide sidebar icon" src="https://assets.postman.com/postman-docs/icon-hide-sidebar-v9.jpg#icon" width="18px"> from the [footer](#footer).
 
 ### History

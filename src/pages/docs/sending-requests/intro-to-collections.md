@@ -101,7 +101,7 @@ To move an existing request to a different collection:
 
 To move more than one request to a different collection:
 
-1. Press **⌘** or **Ctrl** on your keyboard, then select the requests you want to move.
+1. Enter **⌘** or **Ctrl** on your keyboard, then select the requests you want to move.
 1. Drag the requests into the desired collection.
 
 ### Adding a new request to a collection
