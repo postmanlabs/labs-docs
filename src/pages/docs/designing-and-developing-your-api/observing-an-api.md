@@ -57,7 +57,7 @@ You can choose between generating a collection from your API schema, using an ex
     1. Choose an existing collection in the dropdown list.
     1. Select **Select Collection and Continue**.
 * **Create a new collection.**
-    1. Add the requests you plan to monitor, specifying the method and URL, as well as the status code and response time you want to check.
+    1. Add the requests you plan to monitor, specifying the method and URL, along with the status code and response time you want to check.
     1. Select **Create Collection and Continue**.
 
 Next, configure the new monitor. For details, see [Configuring a collection-based monitor](/docs/monitoring-your-api/setting-up-monitor/#configuring-a-collection-based-monitor).
@@ -67,7 +67,7 @@ Next, configure the new monitor. For details, see [Configuring a collection-base
 To add an existing monitor to your API:
 
 1. On the API version **Monitoring** tab, next to **Collection-based Monitors**, select **Add Monitor** and choose **Add existing monitor**.
-1. Select a collection-based monitor from the list and select **Add Monitor**. You'll only see available monitors in your workspace in the list.
+1. Select a collection-based monitor from the list and select **Add Monitor**. (The list shows monitors available in your current workspace.)
 
 For more about creating a monitor, see [Setting up a collection-based monitor](/docs/monitoring-your-api/setting-up-monitor/).
 
@@ -78,7 +78,7 @@ You can link [uptime monitors](/docs/monitoring-your-api/uptime-monitors/) in yo
 To add an existing uptime monitor to your API:
 
 1. On the API version **Monitoring** tab, next to **Uptime Monitors**, select **Add Monitor** and choose **Add existing monitor**.
-1. Select an uptime monitor from the list and select **Add Monitor**. You'll only see available monitors in your workspace in the list.
+1. Select an uptime monitor from the list and select **Add Monitor**. (The list shows monitors available in your current workspace.)
 
 For more about creating an uptime monitor, see [Monitoring API uptime](/docs/monitoring-your-api/uptime-monitors/).
 
@@ -88,7 +88,7 @@ For more about creating an uptime monitor, see [Monitoring API uptime](/docs/mon
 
 Postman integrations enable you to send the results of collection-based monitors to a variety of applications and channels, such as Slack, Microsoft Teams, Datadog, or Splunk. You can also send monitor results to a custom webhook to integrate Postman monitors with your specific workflow.
 
-The **Monitoring** tab in the API Builder provides one place to manage all of your API's integrations for collection-based monitors. You can set up a new integration, track results, and view your configured monitor integrations.
+The **Monitoring** tab in the API Builder provides one place to manage all your API's integrations for collection-based monitors. You can set up a new integration, track results, and view your configured monitor integrations.
 
 > You can also set up a Slack integration for uptime monitors. Learn more about [integrating uptime monitors and Slack](/docs/monitoring-your-api/uptime-monitors/#getting-notified-about-downtime).
 
@@ -105,14 +105,14 @@ Connect an API version to one or more monitoring integrations to send collection
 1. Finish entering the requested information. This information varies depending on the application you're integrating with, and typically includes an API key. For more help with a specific application, see [Integrating with Postman](/docs/integrations/intro-integrations/) and select [Available integrations](/docs/integrations/available-integrations/apimatic/) in the left navigation pane.
 1. Select **Add integration**.
 
-> You can configure multiple integrations for a collection-based monitor, or even have multiple instances of the same integration. For example, you can configure two Slack integrations for a monitor that send the monitor's results to two different Slack channels.
+> You can configure multiple integrations for a collection-based monitor, or even have more than one instance of the same integration. For example, you can configure two Slack integrations for a monitor that send the monitor's results to two different Slack channels.
 
 ### Working with monitor integrations
 
 Once you've added a monitor integration to an API version, you can take the following actions on the **Monitoring** tab:
 
 * Select a monitor's name to open its dashboard in a new tab.
-* Select **Validate** next to a monitor to validate it against the API schema (OpenAPI 3.0 schemas only). If validation isn't successful, select **Issues found** and then select **Review issues**. Learn more about [validating APIs](/docs/designing-and-developing-your-api/validating-elements-against-schema/).
+* Select **Validate** next to a monitor to validate it against the API schema (OpenAPI 3.0 schemas). If validation isn't successful, select **Issues found** and then select **Review issues**. Learn more about [validating APIs](/docs/designing-and-developing-your-api/validating-elements-against-schema/).
 * Hover over a bar in the graph to view metrics for a monitor run.
 
   <img alt="API monitor results" src="https://assets.postman.com/postman-docs/observe-api-integrations-results-v9-10.jpg" width="332px">
@@ -168,7 +168,7 @@ You can also select **Dashboard Quicklinks** to choose a link to any of your con
 
 ![](https://assets.postman.com/postman-docs/api-builder-nr-services.jpg)
 
-Select the name of a service to open a new tab in Postman containing an APM dashboard. The dashboard is continually updated with:
+Select the name of a service to open a new tab in Postman containing an APM dashboard. The dashboard is updated with:
 
 * Graphs for web transaction time, throughput, error rate, and apdex score. Select a point on a graph to show an exact value for that time.
 * Tables of violation Events, slowest transactions by time, and deployments.
