@@ -46,11 +46,9 @@ Select __Add Integration__ to configure your integration. Enter the required inf
 
 ## Connected accounts
 
->> lede
+A team admin can centrally store third-party authentication for supported integrations in _connected accounts_. They are centrally managed by the team admin, and then be used by other team members in integrations for that Postman team.
 
->>A team admin can store auth for other team members for certain integrations.
-
->> Learn more at [](/docs/integrations/connected-accounts/).
+Learn more at [using connected accounts in integrations](/docs/integrations/connected-accounts/).
 
 ## Static IP support
 
