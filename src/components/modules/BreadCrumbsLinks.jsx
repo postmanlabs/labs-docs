@@ -19,7 +19,7 @@ class BreadCrumbsLinks extends React.Component {
       location = window.location.pathname;
       // Below is because "/labs/" gets prefixed at build for deployment, in the LeftNavItems array.
       // In other words, our codebase below isn't aware of "/labs/" being in the location bar of the browser
-      // The "/labs/" prefixing at build breaks the comparisons below, so we be sure to remove it from the strings we are comparing.
+      // The "/labs/" prefixing at build breaks the comparisons below, so we remove it from the strings we are comparing against LeftNavItems.
       location = location.replace("/labs/", "/");
     }
     /* Loop over LeftNavItems.jsx */
