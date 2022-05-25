@@ -47,7 +47,7 @@ Newman resides in the [NPM registry](https://www.npmjs.com/package/newman) and o
 
 ## Getting started
 
-To get started, install Node.js and Newman, then run your collections. Learn more at [installing and running Newman](/docs/running-collections/using-newman-cli/installing-running-newman/)
+To get started, install Node.js and Newman, then run your collections. Learn more about [installing and running Newman](/docs/running-collections/using-newman-cli/installing-running-newman/).
 
 ## Options
 
