@@ -17,6 +17,10 @@ class BreadCrumbsLinks extends React.Component {
     let location;
     if (typeof window !== 'undefined') {
       location = window.location.pathname;
+      // Below is because "/labs/" gets prefixed at build for deployment, in the LeftNavItems array.
+      // In other words, our codebase below isn't aware of "/labs/" being in the location bar of the browser
+      // The "/labs/" prefixing at build breaks the comparisons below, so we be sure to remove it from the strings we are comparing.
+      location = location.replace("/labs/", "/");
     }
     /* Loop over LeftNavItems.jsx */
     for (let index = 0; index < leftNavItems.length; index++) {
@@ -41,7 +45,7 @@ class BreadCrumbsLinks extends React.Component {
   }
   render() {
     const { parentLink, subParentLink } = this.state;
-    console.log(this.state);
+    
     return (
       <nav className="breadcrumb-wrapper mb-3" aria-label="breadcrumbs">
         <ol className="lc-breadcrumbs">
