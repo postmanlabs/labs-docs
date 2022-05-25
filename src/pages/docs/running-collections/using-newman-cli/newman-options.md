@@ -113,7 +113,7 @@ $ newman run PostmanCollection.json -e environment.json --bail
 
 ## Data file example
 
-To provide a different set of data, such as variables for each iteration, you can use the ``-d`` to specify a JSON or CSV file.
+To provide a different set of data, such as variables for each iteration, you can use the `-d` flag to specify a JSON or CSV file.
 
 For example, a data file such as the one shown below runs _2_ iterations, with each iteration using a set of variables.
 
