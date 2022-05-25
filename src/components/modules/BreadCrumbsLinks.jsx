@@ -41,6 +41,7 @@ class BreadCrumbsLinks extends React.Component {
   }
   render() {
     const { parentLink, subParentLink } = this.state;
+    console.log(this.state);
     return (
       <nav className="breadcrumb-wrapper mb-3" aria-label="breadcrumbs">
         <ol className="lc-breadcrumbs">
