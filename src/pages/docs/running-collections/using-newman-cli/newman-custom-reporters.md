@@ -40,18 +40,18 @@ A custom reporter is a Node.js module with a name of the form `newman-reporter-<
 
 1. In the directory of your choice, create a blank npm package with `npm init`.
 
-2. Add an `index.js` file, which exports a function of the following form:
+1. Add an `index.js` file, which exports a function of the following form:
 
-```javascript
-function (emitter, reporterOptions, collectionRunOptions) {
-  // emitter is is an event emitter that triggers the following events: https://github.com/postmanlabs/newman#newmanrunevents
-  // reporterOptions is an object of the reporter specific options. See usage examples below for more details.
-  // collectionRunOptions is an object of all the collection run options:
-  // https://github.com/postmanlabs/newman#newmanrunoptions-object--callback-function--run-eventemitter
-};
-```
+    ```javascript
+    function (emitter, reporterOptions, collectionRunOptions) {
+      // emitter is is an event emitter that triggers the following events: https://github.com/postmanlabs/newman#newmanrunevents
+      // reporterOptions is an object of the reporter specific options. See usage examples below for more details.
+      // collectionRunOptions is an object of all the collection run options:
+      // https://github.com/postmanlabs/newman#newmanrunoptions-object--callback-function--run-eventemitter
+    };
+    ```
 
-3. Publish your reporter using `npm publish`, or use your reporter locally. See the usage instructions for more information.
+1. Publish your reporter using `npm publish`, or use your reporter locally. See the usage instructions for more information.
 
 Scoped reporter package names like `@myorg/newman-reporter-<name>` are also supported.
 
