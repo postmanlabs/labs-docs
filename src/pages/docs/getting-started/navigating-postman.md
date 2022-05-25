@@ -181,7 +181,7 @@ To manage your open tabs or to access recently closed tabs, select the more acti
 * **Duplicate Selected Tab** - _(Desktop app only)_ Duplicates the current tab. This doesn't create a copy of the request, so when you duplicate a tab any edits you make are reflected in the original request.
 * **Close Selected Tab** - Closes the current tab. If the tab has unsaved changes, Postman asks if you want to save before closing.
 * **Force Close Selected Tab** - Closes the current tab without saving any changes.
-* **Close All but Selected Tab** - Closes all tabs except the one you are currently working in.
+* **Close All but Selected Tab** - Closes all tabs except the one you're working in.
 * **Close All Tabs** - Closes all tabs. If any tabs contain unsaved changes, Postman will ask if you want to save before closing.
 * **Force Close All Tabs** - Closes all tabs without saving any changes.
 
