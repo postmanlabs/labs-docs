@@ -12,6 +12,7 @@ const sectionHandler = (e) => {
 const renderTwoLevelList = (item, runtime) => {
   if (typeof document !== 'undefined') {
     const active = runtime ? document.location.pathname.match(item.parentSlug) : '';
+
     return (
       <ul key={uuidv4()}>
         <li className="parent">
@@ -66,8 +67,10 @@ const renderTwoLevelList = (item, runtime) => {
                       ) && (
                           <ul>
                             {sItem.subMenuItems2.map(
+                              // "/labs/" gets prefixed at build for deployment, our codebase below isn't aware of "/labs/" being in the location bar of the browser
+                              // So we need to remove it via .replace() when comparing URLs
                               (ssItem) => ssItem.url && (
-                                <li key={uuidv4()} className={`child ${document.location.pathname === ssItem.url ? 'currentUrl' : ''}`}>
+                                <li key={uuidv4()} className={`child ${document.location.pathname.replace("/labs/", "/") === ssItem.url ? 'currentUrl' : ''}`}>
                                   <Link to={ssItem.url} data-click={sItem.name} className="ssItem second-child">{ssItem.name}</Link>
                                 </li>
                               ),
