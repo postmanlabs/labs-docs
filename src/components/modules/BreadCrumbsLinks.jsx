@@ -68,7 +68,7 @@ class BreadCrumbsLinks extends React.Component {
           ) : (
             <>
             <li>
-              <Link href={parentLink.url} className="small breadcrumb-parent-link">{parentLink.name}</Link>
+              <Link to={parentLink.url} className="small breadcrumb-parent-link">{parentLink.name}</Link>
             </li>
             </>
           )}
