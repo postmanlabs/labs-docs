@@ -72,13 +72,17 @@ const DocPage = ({ data }) => {
                 <BreadCrumbsLinks data={{ parentLink, subParentLink }} />
                 <h1>{post.frontmatter.title}</h1>
                 <CreateDoc data={post} />
-                <div className='events__alert mb-3'>
-                  <p>
-                    <small>{excerptCount ? `Development Notification` : null }</small>
-                  <br />
-                    <small>{excerptCount ? `Wordcount: ${excerptLength} and therefore ${overIndexLimit} words too long to be indexed by Algolia` : null}</small>
-                  </p>
-                </div>
+                {
+                  excerptCount ? 
+                    <div className='events__alert mb-3'>
+                      <p>
+                        <small>Development Notification</small>
+                      <br />
+                        <small>{`Wordcount: ${excerptLength} and therefore ${overIndexLimit} words too long to be indexed by Algolia`}</small>
+                      </p>
+                    </div> 
+                  : null
+                }
                 <p>
                   <small className="font-italic">Last modified: {lastModifiedDate}</small>
                 </p>
