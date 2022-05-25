@@ -48,17 +48,9 @@ Select __Add Integration__ to configure your integration. Enter the required inf
 
 >> lede
 
-### Adding a connected account
+>>A team admin can store auth for other team members for certain integrations.
 
->> procedure to add an account
-
-### Viewing configured connected accounts
-
->> viewing? managing?
-
-### Configuring integration instances with connected accounts
-
->> how you add the connected account to an integration
+>> Learn more at [](/docs/integrations/connected-accounts/).
 
 ## Static IP support
 

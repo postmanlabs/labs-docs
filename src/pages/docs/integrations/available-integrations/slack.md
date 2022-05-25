@@ -1,7 +1,5 @@
 ---
 title: "Slack"
-order: 178
-page_id: "slack"
 updated: 2021-12-08
 warning: false
 contextual_links:
@@ -98,3 +96,14 @@ In the Slack column, you can opt in to or out of notifications such as security,
 For the **Post team activity** integration, after completing the above steps, your integration will be configured. Your team's [activity feed](/docs/collaborating-in-postman/using-workspaces/changelog-and-restoring-collections/#accessing-the-activity-feed-from-postman) will send updates to the specified channel, as shown below.
 
 [![configured_slack](https://assets.postman.com/postman-docs/slack-activity-feed.jpg)](https://assets.postman.com/postman-docs/slack-activity-feed.jpg)
+
+<!--
+for connected accounts
+a section that talks about getting the ID for a Slack channel
+Brief steps:
+Go to the Slack channel in the app
+Click on the channel name on the top of the screen
+In the about section, you should see the channel ID at the bottom.
+Click the copy icon next to the ID to copy it.
+Note: this doesn’t work for IMs or group IMs.
+-->
