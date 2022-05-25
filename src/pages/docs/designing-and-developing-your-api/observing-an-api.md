@@ -73,7 +73,7 @@ For more about creating a monitor, see [Setting up a collection-based monitor](/
 
 ## Linking uptime monitors
 
-You can link [uptime monitors](/docs/monitoring-your-api/uptime-monitors/) in your current workspace to an API version. Uptime monitors (open beta) continuously check the availability of a single API endpoint, website, or other URL. After linking an uptime monitor, you can view the current status and key statistics for the last 3 hours, such as availability, the number of downtime incidents, and average response time.
+You can link [uptime monitors](/docs/monitoring-your-api/uptime-monitors/) in your current workspace to an API version. Uptime monitors (open beta) continuously check the availability of a single API endpoint, website, or other URL. After linking an uptime monitor, you can view the current status and key statistics for the last three hours, such as availability, the number of downtime incidents, and average response time.
 
 To add an existing uptime monitor to your API:
 
