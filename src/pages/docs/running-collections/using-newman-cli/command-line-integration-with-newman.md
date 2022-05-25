@@ -51,7 +51,7 @@ To get started, install Node.js and Newman, then run your collections. Learn mor
 
 ## Options
 
-Newman provides a rich set of options to customize a run. Learn more at [Newman options](/docs/running-collections/using-newman-cli/newman-options/)
+Newman provides a rich set of options to customize a run. Learn more about [Newman options](/docs/running-collections/using-newman-cli/newman-options/).
 
 ## File uploads
 
