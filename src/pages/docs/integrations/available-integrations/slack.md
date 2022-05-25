@@ -66,13 +66,13 @@ The Postman to Slack integration enables you to send Postman notifications to a 
 
 ## Send your monitor run results to Slack
 
-> Before beginning, you must create a monitor. For more information, see [setting up a monitor](/docs/monitoring-your-api/setting-up-monitor/).
+> This integration works with collection-based monitors. Before you begin, make sure you've [created at least one collection-based monitor](/docs/monitoring-your-api/setting-up-monitor/). You can also set up a Slack integration for uptime monitors. Learn more about [integrating uptime monitors and Slack](/docs/monitoring-your-api/uptime-monitors/#getting-notified-about-downtime).
 
 1. After completing the above steps, enter the following in the **Add integration** screen:
 
     * **Nickname** -   A nickname for your integration.
     * **Workspace** -  The workspace that contains your monitor.
-    * **Monitor** -   The monitor which will send its results to Slack.
+    * **Monitor** -   The collection-based monitor which will send its results to Slack.
     * **Slack Webhook URL** - The webhook URL. This field will be pre-filled from the authorization process.
     * **Slack Channel** - The channel where the integration will post. This field will be pre-filled from the authorization process.
     * **Advanced Options** - Select the Advanced Options link to specify if you want notifications for all completed monitor runs, or notifications for three failed monitor runs and then the first successful monitor run.
