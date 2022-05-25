@@ -9,6 +9,13 @@ contextual_links:
   - type: link
     name: "CI Integrations"
     url: "/docs/integrations/ci-integrations/"
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Blog Posts"
+  - type: link
+    name: "Stay on Top of Your API Builds with Postman’s Jenkins Integration"
+    url: "https://blog.postman.com/stay-on-top-of-your-api-builds-witih-postmans-jenkins-integration/"
 ---
 
 [Jenkins](https://www.jenkins.io/) is an open source automation server that can act as a continuous integration (CI) server or a continuous delivery (CD) hub. With hundreds of available plug-ins, teams can use Jenkins to build, deploy, and automate almost any project.

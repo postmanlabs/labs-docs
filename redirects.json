@@ -1930,5 +1930,9 @@
 	{
 		"from": "/docs/designing-and-developing-your-api/view-and-analyze-api-reports/",
 		"to": "/docs/reports/reports-overview/"
+	},
+	{
+		"from": "/docs/designing-and-developing-your-api/versioning-an-api/",
+		"to": "/docs/designing-and-developing-your-api/versioning-an-api/versioning-an-api-overview/"
 	}
 ]

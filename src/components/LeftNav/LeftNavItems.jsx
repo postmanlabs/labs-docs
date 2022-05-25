@@ -270,6 +270,22 @@ export const leftNavItems = [
             url: '/docs/running-collections/using-newman-cli/command-line-integration-with-newman/',
           },
           {
+            name: 'Installing and running Newman',
+            url: '/docs/running-collections/using-newman-cli/installing-running-newman/',
+          },
+          {
+            name: 'Newman options',
+            url: '/docs/running-collections/using-newman-cli/newman-options/',
+          },
+          {
+            name: 'Uploading files in Newman',
+            url: '/docs/running-collections/using-newman-cli/newman-file-uploads/',
+          },
+          {
+            name: 'Using Newman custom reporters',
+            url: '/docs/running-collections/using-newman-cli/newman-custom-reporters/',
+          },
+          {
             name: 'Newman with Docker',
             url: '/docs/running-collections/using-newman-cli/newman-with-docker/',
           },
@@ -373,8 +389,31 @@ export const leftNavItems = [
         url: '/docs/designing-and-developing-your-api/importing-an-api/',
       },
       {
-        name: 'Versioning APIs',
-        url: '/docs/designing-and-developing-your-api/versioning-an-api/',
+        name: 'Versioning an API',
+        subParentSlug: 'versioning-an-api',
+        slug: '/docs/designing-and-developing-your-api/versioning-an-api/versioning-an-api-overview/',
+        subMenuItems2: [
+          {
+            name: 'Versioning an API overview',
+            url: '/docs/designing-and-developing-your-api/versioning-an-api/versioning-an-api-overview/',
+          },
+          {
+            name: 'Using an external Git repository',
+            url: '/docs/designing-and-developing-your-api/versioning-an-api/using-external-git-repo/',
+          },
+          {
+            name: 'Working with API versions',
+            url: '/docs/designing-and-developing-your-api/versioning-an-api/api-versions/',
+          },
+          {
+            name: 'Working with API releases',
+            url: '/docs/designing-and-developing-your-api/versioning-an-api/api-releases/',
+          },
+          {
+            name: 'Setting an API status',
+            url: '/docs/designing-and-developing-your-api/versioning-an-api/api-statuses/',
+          },
+        ],
       },
       {
         name: 'Defining an API Specification',

@@ -93,10 +93,10 @@ You can convert your collection's format from v1 to v2 to import it into Postman
    sudo npm install -g postman-collection-transformer
    ```
 
-1. Convert an individual Postman collection from v1 to v2 by entering the command below.
+1. Convert an individual Postman Collection from v1 to v2 by entering the command below.
 
    ```bash
-   postman-collection-transformer convert -i <path to the input Postman collection file> -o <path to the downloaded Postman file> -j 1.0.0 -p 2.0.0 -P
+   postman-collection-transformer convert -i <path to the input Postman Collection file> -o <path to the downloaded Postman file> -j 1.0.0 -p 2.0.0 -P
    ```
 
 The resulting collection will download to your target file path in v2 format.

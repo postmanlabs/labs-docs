@@ -54,13 +54,13 @@ Postman's _version control_ features can help you and your team to collaborative
 
 ## Forking Postman entities
 
-A _fork_ is a new instance of an entity that you can change without making any changes to the parent entity. In Postman, you can fork collections and environments. Forking also enables you to contribute to a collection or an environment without having [editor access](/docs/collaborating-in-postman/roles-and-permissions/#element-based-roles) to that entity.
+A _fork_ is a new instance of an entity that you can change without making any changes to the parent entity. In Postman, you can fork collections, environments, and flows. Forking also enables you to contribute to an entity without having an [Editor access](/docs/collaborating-in-postman/roles-and-permissions/#element-based-roles) for that entity.
 
 ### Creating a fork
 
 > To fork a collection, environment, or flow within a public workspace, you must enable your public profile in your [profile settings](https://go.postman.co/settings/me). For more information on making your profile public, see [Managing your account](/docs/getting-started/postman-account/#making-your-profile-public).
 
-When you fork a Postman collection, environment, or flow, you create a copy of it in a different workspace. You must sign in to Postman to create a fork.
+When you fork a Postman Collection, environment, or flow, you create a copy of it in a different workspace. You must sign in to Postman to create a fork.
 
 To fork an entity:
 
@@ -123,7 +123,7 @@ To create a pull request:
     * If there are any conflicts between the fork and the parent entity, Postman highlights them so that you can [resolve them](#resolving-conflicts).
 
 1. Select **Overview**.
-1. Enter a title and description for your pull request, and select up to 50 reviewers from the dropdown list. Reviewers must have [editor access](/docs/collaborating-in-postman/roles-and-permissions/#element-based-roles) on the entity to merge your changes.
+1. Enter a title and description for your pull request, and select up to 50 reviewers from the dropdown list. Reviewers must have [Editor access](/docs/collaborating-in-postman/roles-and-permissions/#element-based-roles) on the entity to merge your changes.
 1. Select **Create Pull Request**.
 
     <img alt="Create Pull Request" src="https://assets.postman.com/postman-docs/pull-request-overview.jpg" width="350px"/>
@@ -174,7 +174,7 @@ For collections, you can assign merge checks before approving changes.
 There are two different types of checks that you can enable for a pull request:
 
 * **Approved once** - You need at least one approval to merge the pull request.
-* **Approved by a collection editor** - You need the approval of a collection editor to merge the pull request.
+* **Approved by a collection editor** - You need the approval of a user who has [Editor access for the collection](/docs/collaborating-in-postman/roles-and-permissions/#collection-roles) to merge the pull request.
 
 To set merge checks for pull requests on a specific collection:
 

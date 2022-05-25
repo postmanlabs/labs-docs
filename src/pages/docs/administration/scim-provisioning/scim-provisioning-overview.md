@@ -18,7 +18,7 @@ contextual_links:
 
 Postman supports [SCIM](https://datatracker.ietf.org/doc/html/rfc7642) (System for Cross-domain Identity Management), allowing you to automate user provisioning and de-provisioning for your team. With this feature, you can efficiently deploy Postman at scale across your organization and control access to it via your identity provider.
 
-You can enable SCIM provisioning with the [SCIM API](#configuring-scim-with-the-scim-api), [Okta](/docs/administration/scim-provisioning/configuring-scim-with-okta/), or [Azure AD](/docs/administration/scim-provisioning/configuring-scim-with-azure-ad/). You must be a [Postman team admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) to enable SCIM for your team. With SCIM enabled, users won't have the option to leave your team on their own, and won't be able to change their account email or password. Only team admins will have the right to remove team members.
+You can enable SCIM provisioning with the [SCIM API](#configuring-scim-with-the-scim-api), [Okta](/docs/administration/scim-provisioning/configuring-scim-with-okta/), or [Azure AD](/docs/administration/scim-provisioning/configuring-scim-with-azure-ad/). You must be a [Postman Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) to enable SCIM for your team. With SCIM enabled, users won't have the option to leave your team on their own, and won't be able to change their account email or password. Only Team Admins will have the right to remove team members.
 
 ## Contents
 
@@ -40,7 +40,7 @@ Postman supports the following provisioning features:
 
 * **Create user**: Creates a new user account in Postman, adds the account to your organization's Postman team, and activates authentication for the user. If an account with the same email ID exists, an [email invite](/docs/administration/managing-your-team/managing-your-team/#invites) to join your Postman team is sent to the user. Once the user accepts the invite, they will be added to your team.
 
-    > The newly added user will have the developer role in Postman by default. You can later [update account roles in Postman](/docs/administration/managing-your-team/managing-your-team/#managing-roles).
+    > The newly added user will have the Developer role in Postman by default. You can later [update account roles in Postman](/docs/administration/managing-your-team/managing-your-team/#managing-roles).
 
 * **Update user information**:
 
@@ -56,7 +56,7 @@ Postman supports the following provisioning features:
 
 * **Create group**: Creates a new [user group](/docs/administration/managing-your-team/user-groups/) in Postman. When you assign the Postman app to a group, Postman creates a new account for each group member, adds each account to your organization's Postman team, and activates authentication for each user. If an existing Postman account uses an email that matches a group member's email ID, an [email invite](/docs/administration/managing-your-team/managing-your-team/#invites) to join your Postman team is sent to that user. Once the user accepts the invite, they'll be added to your team.
 
-    > Newly created groups will have the developer role in Postman by default. You can later [update group roles in Postman](/docs/administration/managing-your-team/managing-your-team/#managing-roles).
+    > Newly created groups will have the Developer role in Postman by default. You can later [update group roles in Postman](/docs/administration/managing-your-team/managing-your-team/#managing-roles).
 
 * **Delete group**: Deletes a user group in Postman. User accounts that were part of the deleted group are deactivated in Postman.
 
@@ -91,14 +91,13 @@ To enable SCIM:
 1. Open [Postman](https://go.postman.co/home).
 1. Select **Team** in the upper right, then select **Team Settings**.
 1. Select **Authentication** in the sidebar.
+1. Select the **SCIM provisioning** toggle.
 
     <img alt="Enable SCIM in dashboard" src="https://assets.postman.com/postman-docs/auth-enable-scim-v9.jpg"/>
 
-1. Next to **SCIM provisioning**, select the toggle to turn on SCIM provisioning.
+1. Click **Turn On** to enable SCIM provisioning.
 
     <img alt="Enable SCIM in dashboard" src="https://assets.postman.com/postman-docs/turn-on-scim-provisioning-1.jpg" width="400px"/>
-
-1. Click **Turn On** to enable SCIM provisioning.
 
 ### Generating SCIM API key
 

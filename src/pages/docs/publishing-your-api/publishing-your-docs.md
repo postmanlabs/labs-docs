@@ -34,7 +34,7 @@ Publishing your documentation makes it publicly available to anyone with the lin
 
 Public documentation automatically includes details for each request or endpoint in the published collection, along with sample code in various client languages. As you modify your collection, the published documentation automatically stays in sync with  your latest changes. There's no need to publish the documentation again after making changes.
 
-> Your public documentation includes the **Run in Postman** button so users can interact with your collection or API directly in Postman. For an example, check out the [Postman API documentation](https://documenter.postman.com/view/631643/JsLs/) which was published from a Postman collection.
+> Your public documentation includes the **Run in Postman** button so users can interact with your collection or API directly in Postman. For an example, check out the [Postman API documentation](https://documenter.postman.com/view/631643/JsLs/) which was published from a Postman Collection.
 
 ## Contents
 
@@ -78,7 +78,7 @@ To publish the documentation for a collection:
 
 ## Adding a custom logo
 
-If you are a team admin, you can customize your published documentation with a team logo. To add a logo, [edit your team profile](/docs/administration/team-settings/#editing-your-team-profile) in your [team settings](https://go.postman.co/settings/team/general). Your team logo will replace the Postman logo in your team's published documentation. (It may take a few minutes for the new logo to appear.)
+If you have a [Team Admin role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles), you can customize your published documentation with a team logo. To add a logo, [edit your team profile](/docs/administration/team-settings/#editing-your-team-profile) in your [team settings](https://go.postman.co/settings/team/general). Your team logo will replace the Postman logo in your team's published documentation. (It may take a few minutes for the new logo to appear.)
 
 ## Sharing your public docs
 
