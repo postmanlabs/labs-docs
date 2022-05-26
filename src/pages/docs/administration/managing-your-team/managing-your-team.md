@@ -82,9 +82,9 @@ You can review invite requests team members have submitted in your [team dashboa
 
 ### Removing team members
 
-To remove a member from your team, go to your team's page > **Members and groups**. Select the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> next the team member's name.
+To remove a member from your team, go to your [team dashboard](https://go.postman.co/settings/team/members). Select the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> next the team member's name.
 
-![Removing a team member](https://assets.postman.com/postman-docs/remove-member.jpg)
+![Removing a team member](https://assets.postman.com/postman-docs/remove-team-member-v9.19.jpg)
 
 To confirm, select **Remove User From Team**.
 
@@ -128,6 +128,6 @@ If your team isn't on the latest version of Postman (v9), you can update your te
 
 ## Next steps
 
-Check out the [Postman's integrations](/docs/integrations/intro-integrations/) to incorporate Postman into your existing API development workflows.
+Check out [Postman's integrations](/docs/integrations/intro-integrations/) to incorporate Postman into your existing API development workflows.
 
-If you're on an Enterprise plan, look into [Postman's reporting feature](/docs/reports/reports-overview/) that provides insights into your team's API development, including tests, documentation, and monitoring coverage.
+If you're on an Enterprise plan, check out [Postman's reporting feature](/docs/reports/reports-overview/) that provides insights into your team's API development, including tests, documentation, and monitoring coverage.
