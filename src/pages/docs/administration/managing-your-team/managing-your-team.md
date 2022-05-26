@@ -110,7 +110,7 @@ For full details about the Postman team roles that you can assign as a Team Admi
 
 ## Managing your team’s Postman plan
 
-You can manage your team size, upgrade your plan, or update your team to the latest Postman version at any time during your team's billing cycle.
+You can manage your team size or upgrade your plan at any time during your team's billing cycle.
 
 ### Changing team size
 
