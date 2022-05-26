@@ -104,13 +104,13 @@ An [API Network Manager](/docs/collaborating-in-postman/roles-and-permissions/#t
 * Create and edit folders
 * Assign this role to other team members
 
-> You must have either [the Super Admin role or the API Network Manager role](/docs/administration/managing-your-team/managing-your-team/#managing-roles) to assign this role to a user.
+> You must have either [the Super Admin role or the API Network Manager role](/docs/administration/managing-your-team/managing-your-team/#managing-team-roles) to assign this role to a user.
 
 To assign the API Network Manager role:
 
 1. On the Team Settings page, select **Members and groups**.
 1. Select the user you want to assign the API Network Manager role to.
-1. In the **Roles** dropdown list next to their name, select **API Network Manager**, then select **Update Roles**. For more information about assigning team roles to individual users, see [Managing roles](/docs/administration/managing-your-team/managing-your-team/#managing-roles).
+1. In the **Roles** dropdown list next to their name, select **API Network Manager**, then select **Update Roles**. For more information about assigning team roles to individual users, see [Managing roles](/docs/administration/managing-your-team/managing-your-team/#managing-team-roles).
 
     > Enterprise teams can also assign this role to a user group. For more information about assigning team roles to groups, see [Managing user groups](/docs/administration/managing-your-team/user-groups/).
 
@@ -120,7 +120,7 @@ Postman will send an email to new API Network Managers about their updated role.
 
 The approval process enables an API Network Manager to control the process of adding APIs to their team's Private API Network.
 
-> You must have either [the Super Admin role or the API Network Manager role](/docs/administration/managing-your-team/managing-your-team/#managing-roles) to turn on the approval process.
+> You must have either [the Super Admin role or the API Network Manager role](/docs/administration/managing-your-team/managing-your-team/#managing-team-roles) to turn on the approval process.
 
 To turn on the approval process workflow:
 
