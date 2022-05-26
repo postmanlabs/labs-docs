@@ -98,7 +98,7 @@ Each team member must have one or more team roles, which will allow them to perf
 
 You can modify the roles of team members by selecting **Team** in the upper right > [**Manage Team**](https://go.postman.co/settings/team/members).
 
-Under **Members**, select the roles next to the user you would like to update. Select the roles you would like to assign or unassign, then **Update Roles** to confirm your changes.
+Under **Members**, select the roles next to the user you'd like to update. Select the roles you'd like to assign or unassign, then **Update Roles** to confirm your changes.
 
 <img alt="Edit team roles" src="https://assets.postman.com/postman-docs/members-and-groups-update-roles-v9.18.jpg" width="650px"/>
 
