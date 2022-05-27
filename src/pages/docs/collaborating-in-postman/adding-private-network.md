@@ -13,15 +13,18 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
-    name: "Blog Posts"
-  - type: link
-    name: "Introducing the New Private API Network for Easier Discovery"
-    url: "https://blog.postman.com/new-private-api-network-for-easier-discovery/"
-  - type: subtitle
     name: "Videos"
   - type: link
     name: "Private API Network | The Exploratory"
     url: "https://youtu.be/1SINcytmKsc"
+  - type: subtitle
+    name: "Blog Posts"
+  - type: link
+    name: "Introducing the New Private API Network for Easier Discovery"
+    url: "https://blog.postman.com/new-private-api-network-for-easier-discovery/"
+  - type: link
+    name: "Introducing the API Network Manager Role and Approval Process"
+    url: "https://blog.postman.com/introducing-private-api-network-manager-role-and-approval-process/"
   - type: section
     name: "Next Steps"
   - type: link
