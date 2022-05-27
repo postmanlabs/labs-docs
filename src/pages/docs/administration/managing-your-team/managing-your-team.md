@@ -120,7 +120,7 @@ For more information, see [Team and plan changes](/docs/administration/billing/#
 
 ### Upgrading your plan
 
-Team members with the Billing role can upgrade your team plan in their [billing dashboard](https://go.postman.co/billing/overview). For more information, see [Changing your plan](/docs/administration/billing/#changing-your-plan).
+Team members with the Billing role can upgrade your team plan in the [billing dashboard](https://go.postman.co/billing/overview). For more information, see [Changing your plan](/docs/administration/billing/#changing-your-plan).
 
 ## Updating your team’s Postman version
 
