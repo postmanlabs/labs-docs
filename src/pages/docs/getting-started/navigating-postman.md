@@ -111,9 +111,9 @@ The Postman sidebar provides access to the fundamental elements of Postman:
 
 <img alt="Sidebar focused on Collections" src="https://assets.postman.com/postman-docs/navigating-postman-sidebar-v9.15.jpg" width="350px"/>
 
-To see the task options that are available for elements in the sidebar, select the element's name then select the more options icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px"> to the right. The task options will vary depending on the type of element you've selected.
+To see the task options that are available for elements in the sidebar, select the element's name then select the more options icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-three-dots-v9.jpg#icon" width="18px">. The task options will vary depending on the type of element you've selected.
 
-For collections, folders and requests inside a collection, and requests in History, you can select more than one element at a time. Press and hold **⌘** or **Ctrl*, then select the desired elements. For elements that are next to each other, press and hold **Shift**, then select the desired elements. For collections and their contents, you can also use [keyboard shortcuts](/docs/getting-started/settings/#shortcuts) for tasks like copying, pasting, and deleting.
+For collections, folders and requests inside a collection, and requests in History, you can select more than one element at a time. Press and hold **⌘** or **Ctrl**, then select the desired elements. For elements that are next to each other, press and hold **Shift**, then select the desired elements. For collections and their contents, you can also use [keyboard shortcuts](/docs/getting-started/settings/#shortcuts) for tasks like copying, pasting, and deleting.
 
 To hide the sidebar, select the hide sidebar icon <img alt="Hide sidebar icon" src="https://assets.postman.com/postman-docs/icon-hide-sidebar-v9.jpg#icon" width="18px"> from the [footer](#footer).
 
@@ -121,7 +121,7 @@ To hide the sidebar, select the hide sidebar icon <img alt="Hide sidebar icon" s
 
 To access the requests you've made, select __History__ in the sidebar. When you're signed in to Postman, your history [syncs](/docs/getting-started/syncing/) across your devices.
 
-Select a request to open it again in a new tab. You can select more than one request by pressing **⌘** or **Ctrl** and selecting the requests.
+Select a request to open it again in a new tab. To select more than one request, press and hold **⌘** or **Ctrl**, then select the requests.
 
 <img alt="History Request" src="https://assets.postman.com/postman-docs/history-request-v9.jpg" width="350px"/>
 
