@@ -130,4 +130,4 @@ If your team isn't on the latest version of Postman (v9), you can update your te
 
 Check out [Postman's integrations](/docs/integrations/intro-integrations/) to incorporate Postman into your existing API development workflows.
 
-If you're on an Enterprise plan, check out [Postman's reporting feature](/docs/reports/reports-overview/) that provides insights into your team's API development, including tests, documentation, and monitoring coverage.
+If you're on an Enterprise plan, check out [Postman's reporting feature](/docs/reports/reports-overview/), which provides insights into your team's API development, including tests, documentation, and monitoring coverage.
