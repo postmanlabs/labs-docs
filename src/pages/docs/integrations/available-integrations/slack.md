@@ -116,5 +116,3 @@ For the **Post team activity** integration, after allowing Slack permissions, yo
     <img alt="Configuring uptime Slack notifications" src="https://assets.postman.com/postman-docs/slack-integration-uptime-monitors-v9-19.jpg" width="530px">
 
 After setting up the integration, you'll get downtime alerts in the Slack channel you select. You'll also get notified when the downtime ends. Learn more about [uptime monitors](/docs/monitoring-your-api/uptime-monitors/).
-
-a change
