@@ -66,7 +66,7 @@ Only Team Admins and [Super Admins](/docs/collaborating-in-postman/roles-and-per
 
 You can also allow Postman users from your company to request to join your team by [enabling team discovery](/docs/collaborating-in-postman/collaboration-intro/#making-your-team-discoverable).
 
-> [Postman Enterprise](https://www.postman.com/pricing) teams can enable [SCIM provisioning](/docs/administration/scim-provisioning/scim-provisioning-overview/), which allows you to create, update, and deactivate user accounts at scale through your identity provider.
+> [Postman Enterprise](https://www.postman.com/pricing) teams can enable [SCIM provisioning](/docs/administration/scim-provisioning/scim-provisioning-overview/), which enables you to create, update, and deactivate user accounts at scale through your identity provider.
 
 #### Managing invitations
 
