@@ -23,15 +23,9 @@ A team admin can centrally store third-party authentication for supported integr
 
 ## Contents
 
-* [About connected accounts](#about-connected-accounts)
 * [Supported integrations](#supported-integrations)
 * [Creating a connected account](#creating-a-connected-account)
 * [Creating integrations using connected accounts](#creating-integrations-using-connected-accounts)
-
-## About connected accounts
-
->> Connected accounts are mapped to a single third-party service. They can be added and managed by team admins.
->> Connected accounts are scoped to a Postman team
 
 ## Supported integrations
 
@@ -51,13 +45,16 @@ postman stores auth information as connected account
 
 ## Managing connected accounts
 
->>  managing?
+To view your connected accounts, go to Team > Team Settings > Connected accounts.
 
-
+>> Service name     Connected to     Setup by
+>>  edit
+>>      what can you edit?
+>> delete
+>>      what happens to integrations using the CA when you delete?
 
 ## Creating integrations using connected accounts
 
->> how you add the connected account to an integration is described above
 >> if there already is an added account to this team, there is at the top of the **Add Integration** page a **Connected to...** thing and an option to connect to a different workspace
 
 user in team
