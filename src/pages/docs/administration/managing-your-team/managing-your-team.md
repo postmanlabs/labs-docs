@@ -60,7 +60,7 @@ You can invite users to your Postman team by navigating to [Manage Team](https:/
 
 <img alt="Invite users to team" src="https://assets.postman.com/postman-docs/team-invite-people-v9.1.0.jpg" width="350px"/>
 
-Or, you can invite users to your team via links. To do so, select **Get Link**.
+Or, you can invite a user to join your team with a link. To do so, select **Get Link**.
 
 Only Team Admins and [Super Admins](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can send invitations, however team members can submit requests to invite collaborators to your team. You can review these requests in your [team dashboard](https://go.postman.co/settings/team/members) and opt to approve or dismiss them. If approved, an invite will be sent to the individual.
 
