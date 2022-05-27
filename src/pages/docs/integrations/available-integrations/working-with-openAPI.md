@@ -12,6 +12,11 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "API Lifecycle, Part 1: Build and Test an API | Postman Space Camp"
+    url: "https://youtu.be/RfYWIOocPfM"
+  - type: subtitle
     name: "Blog Posts"
   - type: link
     name: "Postman Now Generates Docs from OpenAPI 3.0 Definitions"
