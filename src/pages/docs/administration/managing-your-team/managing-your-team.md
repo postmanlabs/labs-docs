@@ -124,7 +124,7 @@ Team members with the Billing role can upgrade your team plan in the [billing da
 
 ## Updating your team’s Postman version
 
-If your team isn't on the latest version of Postman (v9), you can update your team to ensure everyone has access to the complete API development experience that Postman has to offer. To do so, see [Upgrading your team to the current version of Postman](/docs/administration/upgrading/).
+If your team isn't on the latest version of Postman, you can update your team to ensure everyone has access to the complete API development experience that Postman has to offer. To do so, see [Upgrading your team to the current version of Postman](/docs/administration/upgrading/).
 
 ## Next steps
 
