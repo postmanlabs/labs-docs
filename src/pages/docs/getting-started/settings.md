@@ -42,14 +42,14 @@ Use the settings on the **General** tab to configure how Postman sends requests 
 
 ### Request
 
-* **Trim keys and values in request body:** Turn this on to trim parameters when sending requests with form data or url-encoded data.
-* **SSL certificate verification:** Turn this off to prevent Postman from checking the validity of SSL certificates when making requests.
-* **Always open requests in new tab:** By default, when you select a request in a collection, Postman opens the request in the preview tab. Turn this on to always open requests in a new tab.
-* **Always ask when closing unsaved tabs:** By default, Postman asks if you want to save any unsaved changes when closing a tab. Turn this off to always discard unsaved changes when closing a tab.
-* **Language detection:** By default, Postman automatically detects the correct media type for the response body based on the Content-Type header. Select **JSON** to always use JSON rendering for the response body.
-* **Request Timeout in ms:** Enter how long (in milliseconds) Postman will wait for a response before timing out. If you enter **0**, Postman will wait for a response forever.
-* **Max response size in MB:** Enter the largest response size (in megabytes) that Postman will download. For responses that exceed this limit, Postman asks if you want to increase the size limit or download the response. If you enter **0**, Postman downloads responses of any size. Rendering large responses may affect Postman's performance.
-* **Request Validation:** Turn this off to prevent Postman from attempting to validate requests in collections linked to an API schema.
+* **Trim keys and values in request body** - Turn this on to trim parameters when sending requests with form data or url-encoded data.
+* **SSL certificate verification** - Turn this off to prevent Postman from checking the validity of SSL certificates when making requests.
+* **Always open requests in new tab** - By default, when you select a request in a collection, Postman opens the request in the preview tab. Turn this on to always open requests in a new tab.
+* **Always ask when closing unsaved tabs** - By default, Postman asks if you want to save any unsaved changes when closing a tab. Turn this off to always discard unsaved changes when closing a tab.
+* **Language detection** - By default, Postman automatically detects the correct media type for the response body based on the Content-Type header. Select **JSON** to always use JSON rendering for the response body.
+* **Request Timeout in ms** - Enter how long (in milliseconds) Postman will wait for a response before timing out. If you enter **0**, Postman will wait for a response forever.
+* **Max response size in MB** - Enter the largest response size (in megabytes) that Postman will download. For responses that exceed this limit, Postman asks if you want to increase the size limit or download the response. If you enter **0**, Postman downloads responses of any size. Rendering large responses may affect Postman's performance.
+* **Request Validation** - Turn this off to prevent Postman from attempting to validate requests in collections linked to an API schema.
 
 ### Working directory
 
@@ -67,28 +67,28 @@ When you send a form-data or binary file with a request body, Postman saves a pa
 
 ### Headers
 
-* **Send no-cache header:** (Recommended) Turn this on to send a `Cache-Control: no-cache` header with each request. The `no-cache` directive forces the server to revalidate each request and ensures you get an up-to-date (not stale) response.
-* **Send Postman Token header:** (Recommended) Turn this on to send a random Postman token with an XMLHttpRequest. Sending a random token ensures the receiving server handles one request at a time, even when the requests send with the same parameters. The token can also aid debugging and help you distinguish between requests on the server side.
-* **Retain headers when clicking on links:** When you select a link in a response, Postman creates a new `GET` request with the link URL. Turn this on to keep the headers from the earlier request in the new request. Retaining headers is useful if you mainly access protected resources.
-* **Automatically follow redirects:** Turn this off to prevent requests that return a 3xx series response from automatically redirecting.
-* **Send anonymous usage data to Postman:** Postman gathers basic, anonymous usage data to help with product improvement. Turn this off to stop sending anonymous usage data to Postman.
+* **Send no-cache header** - (Recommended) Turn this on to send a `Cache-Control: no-cache` header with each request. The `no-cache` directive forces the server to revalidate each request and ensures you get an up-to-date (not stale) response.
+* **Send Postman Token header** - (Recommended) Turn this on to send a random Postman token with an XMLHttpRequest. Sending a random token ensures the receiving server handles one request at a time, even when the requests send with the same parameters. The token can also aid debugging and help you distinguish between requests on the server side.
+* **Retain headers when clicking on links** - When you select a link in a response, Postman creates a new `GET` request with the link URL. Turn this on to keep the headers from the earlier request in the new request. Retaining headers is useful if you mainly access protected resources.
+* **Automatically follow redirects** - Turn this off to prevent requests that return a 3xx series response from automatically redirecting.
+* **Send anonymous usage data to Postman** - Postman gathers basic, anonymous usage data to help with product improvement. Turn this off to stop sending anonymous usage data to Postman.
 
 ### User interface
 
-* **Two-pane view:** By default, Postman displays responses below requests. Turn this on to display the response and request panes side by side.
-* **Show icons with tab names:** Turn this off to hide the icons that appear next to tab names.
-* **Variable autocomplete:** Turn this on to enable autocomplete when typing variable names.
+* **Two-pane view** - By default, Postman displays responses below requests. Turn this on to display the response and request panes side by side.
+* **Show icons with tab names** - Turn this off to hide the icons that appear next to tab names.
+* **Variable autocomplete** - Turn this on to enable autocomplete when typing variable names.
 
 ### Editor settings
 
 **Editor** settings affect code-related text such as request and response bodies, pre-request scripts, and tests. To revert back to default text settings, select **Reset**.
 
-* **Font Family:** Enter one or more font family names separated by commas. Postman uses the first available font family to display code text.
-* **Font Size (`px`):** Enter the font size in pixels to use for code text.
-* **Indentation count:** Enter the number of indentation characters to use for each code level.
-* **Indentation type:** Select the indentation character type to use (**Space** or **Tab**).
-* **Auto close brackets:** Turn this on to automatically add a closing bracket when you enter an opening bracket.
-* **Auto close quotes:** Turn this on to automatically add a closing quotation mark when you enter an opening quotation mark.
+* **Font Family** - Enter one or more font family names separated by commas. Postman uses the first available font family to display code text.
+* **Font Size (`px`)** - Enter the font size in pixels to use for code text.
+* **Indentation count** - Enter the number of indentation characters to use for each code level.
+* **Indentation type** - Select the indentation character type to use (**Space** or **Tab**).
+* **Auto close brackets** - Turn this on to automatically add a closing bracket when you enter an opening bracket.
+* **Auto close quotes** - Turn this on to automatically add a closing quotation mark when you enter an opening quotation mark.
 
 ## Themes
 
@@ -127,14 +127,3 @@ Use the **Update** tab to check for updates to Postman or to enable automatic up
 ## About
 
 The **About** tab displays the current version of Postman, along with links to helpful information and support.
-
-## Hardware acceleration
-
-Postman takes advantage of your computer's built-in graphics hardware to speed up the rendering of onscreen graphics. Sometimes your computer's specific GPU, drivers, or operating system may cause issues with hardware acceleration. If you see screen artifacts or other glitches, turning off hardware acceleration might solve the problem.
-
-To activate or deactivate hardware acceleration in Postman:
-
-* On macOS, select **Postman > Hardware Acceleration**.
-* On Windows or Linux, select **Help > Hardware Acceleration**.
-
-Restart Postman to apply the new setting. Disabling hardware acceleration may affect performance or CPU usage.
