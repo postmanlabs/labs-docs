@@ -78,9 +78,9 @@ Postman enables you to configure a custom proxy configuration that directs Postm
 
 Custom proxy settings are turned off by default. To turn them on, select **Settings** > **Add a custom proxy configuration** and update the following settings:
 
-* **Proxy Type** - Choose the type of proxy server by selecting the appropriate checkboxes. By default, both `HTTP` and `HTTPS` are checked. This means that both HTTP and HTTPS requests will go through the proxy server.
+* **Proxy Type** - Choose the type of proxy server by selecting the appropriate checkboxes. By default, both `HTTP` and `HTTPS` are selected. This means that both HTTP and HTTPS requests will go through the proxy server.
 * **Proxy Server** - Enter the **host** or **IP address** (without protocol) and the **port** of the proxy server.
-* **Proxy Auth** - Postman uses the system's proxy configurations by default. To send API requests, select the option **This proxy requires authentication.** Turning this on makes the requests use Basic Authentication method, which requires a **Username** and a **Password**.
+* **Proxy Auth** - Postman uses the system's proxy configurations by default. To send API requests, select the option **This proxy requires authentication.** Turning this on makes the requests use the Basic Authentication method, which requires a **Username** and a **Password**.
 
     <img alt="Default proxy authentication" src="https://assets.postman.com/postman-docs/enable-default-proxy-configuration.jpg"/>
 
