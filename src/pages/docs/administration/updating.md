@@ -75,7 +75,7 @@ You can start using Postman v8 and access the new UI and features once the updat
 
 Team members on v7 can update to v8 by navigating to **Settings** and selecting **Update**, then **Download update**. You don't need an approval from an admin to update from v7 to v8.
 
-> If you are on a team and download Postman v8 while the rest of your team is using Postman v7, you will still be able to use v8. Syncing and collaboration won't be affected.
+> If you're on a team and download Postman v8 while the rest of your team is using Postman v7, you will still be able to use v8. Syncing and collaboration won't be affected.
 
 ## Installing earlier versions of Postman
 
@@ -90,7 +90,7 @@ Use the following links to download the latest Postman v8 version for your platf
 * [Download Postman v8 for Windows 32-bit](https://go.pstmn.io/dl-win32-v8-latest)
 * [Download Postman v8 for Linux 64-bit](https://go.pstmn.io/dl-linux64-v8-latest)
 
-If you are using Postman for Linux, and had installed the app through 'Ubuntu Software Center' or 'Snap Store', use the following commands to switch to Postman v8.
+If you're using Postman for Linux, and had installed the app through 'Ubuntu Software Center' or 'Snap Store', use the following commands to switch to Postman v8.
 
 ```shell
 sudo snap switch --channel=v8/stable postman
@@ -106,7 +106,7 @@ Use the following links to download the latest Postman v7 version for your platf
 * [Download Postman v7 for Windows 32-bit](https://go.pstmn.io/dl-win32-v7-latest)
 * [Download Postman v7 for Linux 64-bit](https://go.pstmn.io/dl-linux64-v7-latest)
 
-If you are using Postman for Linux, and had installed the app through 'Ubuntu Software Center' or 'Snap Store', use the following commands to switch to Postman v7.
+If you're using Postman for Linux, and had installed the app through 'Ubuntu Software Center' or 'Snap Store', use the following commands to switch to Postman v7.
 
 ```shell
 sudo snap switch --channel=v7/stable postman
