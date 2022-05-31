@@ -75,7 +75,7 @@ You can start using Postman v8 and access the new UI and features once the updat
 
 Team members on v7 can update to v8 by navigating to **Settings** and selecting **Update** > **Download update**. You don't need an approval from an admin to update from v7 to v8.
 
-> If you are on a team and download Postman v8 while the rest of your team is using a earlier version of Postman v7, you will still be able to use v8. Syncing and collaboration won't be affected.
+> If you are on a team and download Postman v8 while the rest of your team is using Postman v7, you will still be able to use v8. Syncing and collaboration won't be affected.
 
 ## Installing earlier versions of Postman
 
