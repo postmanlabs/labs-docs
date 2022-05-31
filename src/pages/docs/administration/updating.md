@@ -27,7 +27,7 @@ contextual_links:
 ---
 This section describes the steps to migrate your team to the latest version of Postman.
 
-Postman v9 provides a consistent, improved API development experience. The Postman desktop app and [Postman on the web](https://community.postman.com/t/whats-new-in-postman-for-the-web/18203) are equally empowering—which one you use is a matter of preference for your workflows.
+Postman v9 provides a consistent, improved API development experience. The Postman desktop app and [Postman for Web](/docs/getting-started/installation-and-updates/#using-postman-on-the-web) are equally empowering—which one you use is a matter of preference for your workflows.
 
 * [Updating to Postman v9](#updating-to-postman-v9)
 * [Updating to Postman v8](#updating-to-postman-v8)
@@ -73,13 +73,13 @@ You can start using Postman v8 and access the new UI and features once the updat
 
 ### Updating to v8 as a team
 
-Team members on v7 can update to v8 by navigating to **Settings** and selecting **Update** > **Download update**. You do not need an approval from an admin to update from v7 to v8.
+Team members on v7 can update to v8 by navigating to **Settings** and selecting **Update** > **Download update**. You don't need an approval from an admin to update from v7 to v8.
 
-> If you are on a team and download Postman v8 while the rest of your team is using a previous version of Postman v7, you will still be able to use v8. Syncing and collaboration will not be affected.
+> If you are on a team and download Postman v8 while the rest of your team is using a earlier version of Postman v7, you will still be able to use v8. Syncing and collaboration won't be affected.
 
 ## Installing earlier versions of Postman
 
-If you are on Postman v8 or below and would like to downgrade to Postman v7 or below to continue working with a team that has not migrated yet, download the earlier versions of Postman from the links below.
+If you'd like to downgrade to Postman v8 or below to continue working with a team that hasn't migrated yet, you can download an earlier version of Postman.
 
 ### Downloading Postman v8
 
