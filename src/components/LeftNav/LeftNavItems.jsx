@@ -717,7 +717,7 @@ export const leftNavItems = [
         ],
       },
       {
-        name: 'Upgrading your team to the current version of Postman',
+        name: 'Updating your team to the current version of Postman',
         url: '/docs/administration/upgrading/',
       },
       {
