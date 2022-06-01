@@ -1,7 +1,7 @@
 ---
 title: "Updating your team to the current version of Postman"
 order: 140.1
-updated: 2021-12-09
+updated: 2022-06-01
 page_id: "updating"
 search_keyword: "upgrade, upgrading, update, updating, version"
 warning: false

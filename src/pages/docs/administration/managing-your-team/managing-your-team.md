@@ -1,7 +1,7 @@
 ---
 title: "Managing your team"
 order: 121
-updated: 2021-12-19
+updated: 2022-06-01
 page_id: "managing_your_team"
 warning: false
 contextual_links:
