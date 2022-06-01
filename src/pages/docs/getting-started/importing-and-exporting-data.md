@@ -75,8 +75,7 @@ You can import your data from files, folders, links, raw text, or code repositor
 You can import Postman data you exported earlier, including collections, environments, data dumps, and globals.
 
 1. Select **Import** in the left navigation menu.
-1. Select your file or folder, input your link, paste your raw text, or [import from GitHub](#importing-via-github-repositories).
-   Postman will automatically recognize Postman data, confirming the name, format, and what the file will import as.
+1. Select your file or folder, input your link, paste your raw text, or [import from GitHub](#importing-from-github-repositories). Postman will automatically recognize Postman data, confirming the name, format, and what the file will import as.
    ![Import collection and environment](https://assets.postman.com/postman-docs/import-export-github-files-confirm.jpg)
 1. Select the files you want to import.
 1. Select **Import** to bring your data into Postman.

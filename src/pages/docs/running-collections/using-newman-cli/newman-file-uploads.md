@@ -78,7 +78,7 @@ Newman supports file uploads. For this to work, upload the file in the relative 
                         }
                     ]
                 },
-                "description": "Uploads a file as a form data field to `https://postman-echo.com/post` via a `POST` request."
+                "description": "Uploads a file as a form data field to `https://postman-echo.com/post` using a `POST` request."
             },
             "response": []
         }

@@ -101,7 +101,7 @@ See [performing distributed migration](#performing-distributed-migration) to cho
 * The appointed admin on the previous team will inherit ownership of all shared collections. To do this they can [access the existing workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#accessing-workspaces).
     * Data from team workspaces you have not joined will not be present in the export.
     * By default, the person who imports a collection or environment is automatically assigned the Editor role (see more about [roles](/docs/collaborating-in-postman/roles-and-permissions/)). Everyone else on the team will be assigned as Viewer.
-* [Export all data](/docs/getting-started/importing-and-exporting-data/#exporting-postman-data) at once via a [JSON data dump](/docs/getting-started/importing-and-exporting-data/#exporting-data-dumps).
+* [Export all data](/docs/getting-started/importing-and-exporting-data/#exporting-postman-data) at once with a [JSON data dump](/docs/getting-started/importing-and-exporting-data/#exporting-data-dumps).
 * The appointed admin can then [re-import into the new team](/docs/getting-started/importing-and-exporting-data/#importing-data-into-postman).
     * All collections included in the data dump will be imported into your currently selected workspace.
 * When your new team is ready for team members to join, the admin on the new team can send invitations to all other team members. The invite link will prompt them to leave their current team to join the new team.

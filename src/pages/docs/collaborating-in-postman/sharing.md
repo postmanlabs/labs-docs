@@ -26,11 +26,11 @@ warning: false
 
 ---
 
-You can collaborate on Postman entities including collections, APIs, and environments, by sharing them via link or by moving them to a shared private, team, or public workspace.
+You can collaborate on Postman entities including collections, APIs, and environments, by sharing them using a link or by moving them to a shared private, team, or public workspace.
 
 > To share a collection run, see [Using the Collection Runner](/docs/running-collections/intro-to-collection-runs/).
 >
-> To share a collection via embed, use the [Run in Postman](/docs/publishing-your-api/run-in-postman/introduction-run-button/) button.
+> To share a collection using an embed, use the [Run in Postman](/docs/publishing-your-api/run-in-postman/introduction-run-button/) button.
 >
 > To share a collection as a file, see [Importing and exporting data](/docs/getting-started/importing-and-exporting-data/)
 
@@ -39,7 +39,7 @@ You can collaborate on Postman entities including collections, APIs, and environ
 * [Sharing Postman entities](#sharing-postman-entities)
 * [Moving Postman entities to collaborative workspaces](#moving-postman-entities-to-collaborative-workspaces)
 
-> To share your work via workspaces you will need to be signed in to your [Postman account](/docs/getting-started/postman-account/).
+> To share your work using workspaces, you need to be signed in to your [Postman account](/docs/getting-started/postman-account/).
 
 ## Sharing Postman entities
 
@@ -57,15 +57,15 @@ If you are an [Editor](/docs/collaborating-in-postman/roles-and-permissions/) on
 
 Individual team members and groups you invite will be notified immediately of your request to collaborate. External users who are not on your Postman team will receive an invitation to join immediately if you have an [Admin role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles). If you are not an Team Admin, your request to add external users to your Postman team will be shared with your Team Admins for approval.
 
-> If your team has [SSO enabled](/docs/administration/sso/intro-sso/), external users will be required to sign in via your team's SSO.
+> If your team has [SSO enabled](/docs/administration/sso/intro-sso/), external users will be required to sign in using your team's SSO.
 
 <!-- -->
 
 > Your team must have [available slots](/docs/administration/billing/#changing-your-plan) or [Auto-Flex enabled](/docs/administration/billing/#utilizing-auto-flex) to invite additional team members.
 
-You can also share collections via a [Run in Postman](/docs/publishing-your-api/run-in-postman/creating-run-button/) button or via a JSON link.
+You can also share collections with a [Run in Postman](/docs/publishing-your-api/run-in-postman/creating-run-button/) button or a JSON link.
 
-<img alt="Share collection via Run in Postman button" src="https://assets.postman.com/postman-docs/share-collection-ripbutton-9.4.jpg"/>
+<img alt="Share a collection with a Run in Postman button" src="https://assets.postman.com/postman-docs/share-collection-ripbutton-9.4.jpg"/>
 
 > A JSON link is a shareable public link to a static snapshot of your collection. You can manage a complete list of your active collection links from your [Postman profile](https://go.postman.co/me/collections?view=links).
 

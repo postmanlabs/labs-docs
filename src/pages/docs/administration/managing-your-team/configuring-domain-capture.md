@@ -82,7 +82,7 @@ In the domain dashboard, you can view your domains, their verification status, t
 
 **Unclaimed Accounts** is the number of accounts associated with a verified domain that aren't a part of your Postman team. When you opt to enable **Domain authentication** for a domain, you'll be provided with a list of the unclaimed Postman accounts that will be automatically added to your team. Once enabled, the number of unclaimed accounts will reduce as these users sign in and join your team.
 
-> You won't be able to selectively pick users you'd like to add to your team. When domain capture is enabled, any user associated with the domain, who can authenticate via the SSO auth method you've enabled, can join your Postman team.
+> You won't be able to selectively pick users you'd like to add to your team. When domain capture is enabled, any user associated with the domain, who can authenticate with the SSO auth method you've enabled, can join your Postman team.
 
 With domain capture enabled, any new users that sign up for Postman with your domain are automatically added to your team and can be managed in your [team dashboard](https://go.postman.co/settings/team/members).
 
@@ -105,24 +105,24 @@ The experience for captured users depends on their prior team status:
 * If a captured user is already on your organization's team, nothing changes for them.
 * If a captured user isn't a part of any team:
     * All existing user sessions are revoked.
-    * The next time the user logs in, they will be prompted to join your organization's team via SSO.
-    * When the user authenticates into your organization's team via SSO, their existing data will be available in their personal workspace.
+    * The next time the user logs in, they will be prompted to join your organization's team using SSO.
+    * When the user authenticates into your organization's team using SSO, their existing data will be available in their personal workspace.
 * If a captured user is a part of an existing free or paid team:
     * They're removed from their existing team and the data that solely belongs to them and hasn't been shared will be moved with them.
     * All existing user sessions are revoked.
-    * The next time the user logs in, they will be prompted to join your organization's team via SSO.
-    * When the user authenticates into your organization's team via SSO, their existing data will be available in their personal workspace.
+    * The next time the user logs in, they will be prompted to join your organization's team using SSO.
+    * When the user authenticates into your organization's team using SSO, their existing data will be available in their personal workspace.
 * If a captured user is the last admin of an existing free team:
     * They're removed from the team and the remaining members are assigned the [Admin role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles). The data that solely belongs to them and hasn't been shared will be moved with them.
     * All existing user sessions are revoked.
-    * The next time the user logs in, they will be prompted to join your organization's team via SSO.
-    * When the user authenticates into your organization's team via SSO, their existing data will be available in their personal workspace.
+    * The next time the user logs in, they will be prompted to join your organization's team using SSO.
+    * When the user authenticates into your organization's team using SSO, their existing data will be available in their personal workspace.
 * If a captured user is the last admin of an existing paid team:
     * Postman support will contact your Team Admins to discuss how to approach this prior to verifying the domain you've added to your team.
     * All existing user sessions are revoked.
     * The next time the user logs in, they will be prompted to leave their existing team.
     * They will need to contact [Postman support](https://www.postman.com/support/) to assign the Admin role to another team member and remove them from the team. The data that solely belongs to them and hasn't been shared will be moved with them.
-    * Once they have been removed from their previous team, they can authenticate via SSO and join your organization's team. Their existing data will be available in their personal workspace.
+    * Once they have been removed from their previous team, they can authenticate using SSO and join your organization's team. Their existing data will be available in their personal workspace.
 
 ### Can a Team Admin view the list of user accounts that will be captured before enabling domain capture?
 

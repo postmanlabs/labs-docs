@@ -68,7 +68,7 @@ You will see the selected environment status at the top-right of Postman, with a
 
 [![Environment editor](https://assets.postman.com/postman-docs/environment-editor-v9.13.jpg)](https://assets.postman.com/postman-docs/environment-editor-v9.13.jpg)
 
-To the right next to the environment selector you will also see the environment quick look icon <img alt="Quick Look icon" src="https://assets.postman.com/postman-docs/eye.jpg#icon" width="16px">. The quick look lists variables for the active environment, and any global variables you have declared (or that are shared via your workspace).
+To the right next to the environment selector you will also see the environment quick look icon <img alt="Quick Look icon" src="https://assets.postman.com/postman-docs/eye.jpg#icon" width="16px">. The quick look lists variables for the active environment, and any global variables you have declared (or that are shared in your workspace).
 
 [![Environment quick look](https://assets.postman.com/postman-docs/environment-quicklook-v9.13.jpg)](https://assets.postman.com/postman-docs/environment-quicklook-v9.13.jpg)
 
@@ -98,7 +98,7 @@ Alternatively, select the environment quick look icon <img alt="Quick Look icon"
 
 Enter a name for your variable, and specify its __Initial__ and __Current__ values. By default the current value will copy the initial value.
 
-* The __Initial Value__ is synced to your account via the Postman servers and shared with any collaborators who have access to the environment.
+* The __Initial Value__ is synced to your account using the Postman servers. It's shared with any collaborators who have access to the environment.
 * The __Current Value__ is used in your local instance of Postman, and is never synced to your account or shared with your team _unless you choose to persist it_.
 
 To update the synced variable with your local value, set the initial value to the current value by selecting the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> to the right of the variable row and choosing __Persist__. To reset your local (current) value with the synced value shared with your workspace / collaborators, select __Reset__. You can persist or reset all values in the environment using __Persist All__ and __Reset All__.
@@ -165,7 +165,7 @@ Edit the environment name, or the names, [types](/docs/sending-requests/variable
 
 If you have Viewer access to an environment, you will see a lock icon <img alt="Lock icon" src="https://assets.postman.com/postman-docs/icon-lock.jpg#icon" width="11px"> next to the name to indicate that it's read-only, and you will only be able to edit the current value, which is visible only to you and not synced with your Postman account or workspace. To edit initial values you will need to **Request Access**.
 
-> You can edit current values for variables in an active (currently selected) environment directly via the environment quick look. Select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px"> to edit your chosen value.
+> You can edit current values for variables in an active (currently selected) environment directly using the environment quick look. Select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px"> to edit your chosen value.
 
 ![Edit Environment](https://assets.postman.com/postman-docs/environment-quicklook-edit-v9.13.jpg)
 

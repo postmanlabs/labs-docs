@@ -29,7 +29,7 @@ When a mock is created using either Postman or the Postman API, a call is made t
 
 [![show mock diagram](https://assets.postman.com/postman-docs/show-mock-v9.jpg)](https://assets.postman.com/postman-docs/show-mock-v9.jpg)
 
-When you use the mock `M1` via the mock URL `https://M1.mock.pstmn.io` in Postman, the mock service will retrieve all saved examples from the Postman servers for that particular collection before it begins the matching process.
+When you use the mock URL `https://M1.mock.pstmn.io` to access the mock `M1` in Postman, the mock service will retrieve all saved examples from the Postman servers for that particular collection before it begins the matching process.
 
 [![use mock diagram](https://assets.postman.com/postman-docs/use-mock-v9.jpg)](https://assets.postman.com/postman-docs/use-mock-v9.jpg)
 

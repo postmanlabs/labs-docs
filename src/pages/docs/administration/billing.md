@@ -128,9 +128,9 @@ To set a payment method as your primary, hover over it and select **Set as Prima
 
 #### Setting up direct debit payments
 
-> The option to pay via direct debit is only available for customers in the United States.
+> The option to pay with direct debit is only available for customers in the United States.
 
-Postman accepts direct debit payments, in which payment funds are taken directly from a linked bank account via ACH.
+Postman accepts direct debit payments, in which payment funds are taken directly from a linked bank account using ACH.
 
 To use direct debit as your payment method:
 
@@ -178,7 +178,7 @@ In some circumstances, including an overdue or [failed payment](#failed-payments
 
 > Invoicing is available for Postman Enterprise teams only. If you are a new Enterprise customer, contact the [Postman Sales team](https://www.postman.com/pricing/get-started-postman-plans/) to get started. You will receive a response within three business days. If you are an existing Enterprise customer, submit a request to the [Postman Support team](https://support.postman.com/hc/en-us) to be invoiced instead of automatically charged.
 
-You can pay invoices online, via ACH, or via wire transfer. Postman sends invoices to the billing email address listed in your [billing details](http://go.postman.co/settings/team/billing-details). The invoice includes offline payment instructions. View your pending payments in your [billing dashboard](http://go.postman.co/billing).
+You can pay invoices online, with ACH, or with wire transfer. Postman sends invoices to the billing email address listed in your [billing details](http://go.postman.co/settings/team/billing-details). The invoice includes offline payment instructions. View your pending payments in your [billing dashboard](http://go.postman.co/billing).
 
 ### Adding custom information to invoices
 
@@ -240,7 +240,7 @@ Update the number of monitoring blocks, mock server blocks, and custom domains y
 
 [Auto-Flex](https://learning.postman.com/auto-flex-policy/) is a flexible billing feature available to Postman teams. With Auto-Flex enabled, your Team Admins can add users without having to pay in advance for more seats. Instead, you can use Auto-Flex to see the value of adding users to your Postman team, and opt to retain or remove them before being [billed](#billing-for-auto-flex).
 
-> Auto-Flex is automatically enabled for all Postman Basic and Professional plans purchased after April 8, 2021. Teams created before this date can opt in by enabling Auto-Flex via their [billing dashboard](http://go.postman.co/billing). All teams will have Auto-Flex automatically enabled when their plan first renews after July 1, 2021.
+> Auto-Flex is automatically enabled for all Postman Basic and Professional plans purchased after April 8, 2021. Teams created before this date can opt in by enabling Auto-Flex on their [billing dashboard](http://go.postman.co/billing). All teams will have Auto-Flex automatically enabled when their plan first renews after July 1, 2021.
 
 #### Opting in to Auto-Flex
 

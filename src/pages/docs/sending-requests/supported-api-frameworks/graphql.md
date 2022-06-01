@@ -121,7 +121,7 @@ You can also import a schema manually. When you [create or import a GraphQL sche
 1. Select **Import** in the upper left.
 1. Select **Raw text**.
 1. Paste your cURL command in the text field, then **Continue**. Your cURL command must contain a GraphQL endpoint URL and must specify the `POST` request method.
-    <img src="https://assets.postman.com/postman-docs/graphql-curl-import.jpg" alt="Import GraphQL request via cURL" width="500px"/>
+    <img src="https://assets.postman.com/postman-docs/graphql-curl-import.jpg" alt="Import a GraphQL request with cURL" width="500px"/>
 1. Select **Import**.
 1. The request will open in a new tab with the GraphQL endpoint URL you specified and the `POST` request method.
 
