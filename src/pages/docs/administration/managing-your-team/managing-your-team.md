@@ -76,7 +76,7 @@ You can review the invitations your team has sent by opening your [team dashboar
 
 To copy an active invite URL, hover over a row and select the copy icon <img alt="Copy link icon" src="https://assets.postman.com/postman-docs/icon-copy-v9.jpg#icon" width="15px">.
 
-To revoke an active invitation, hover over the invitation and select the delete icon <img alt="Delete link icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px".
+To revoke an active invitation, hover over the invitation and select the delete icon <img alt="Delete link icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px" />.
 
 You can review invite requests team members have submitted in your [team dashboard](https://go.postman.co/settings/team/members) under **Suggestions**. To respond to a request, hover over the individual and select **Invite** or the dismiss suggestion icon <img alt="Close icon" src="https://assets.postman.com/postman-docs/icon-close.jpg#icon" width="16px">. If an invite has already been sent to a suggested user, but they haven't yet joined your team, you'll have the option to resend it, copy the invite link, or dismiss it.
 
