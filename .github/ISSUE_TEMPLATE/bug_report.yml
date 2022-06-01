@@ -1,6 +1,6 @@
 name: Bug report
 description: Report typos, broken links, or other documentation errors
-title: ''
+title: 'Learning Center bug report'
 labels: ["bug"]
 assignees:
   - jkonrath-postman
