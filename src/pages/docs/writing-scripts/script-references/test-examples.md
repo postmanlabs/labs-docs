@@ -533,7 +533,7 @@ pm.sendRequest("https://postman-echo.com/get", function (err, response) {
 
 ## Previous style of writing Postman tests (deprecated)
 
-> **This section refers to deprecated script syntax used in previous versions of Postman. If you are writing scripts now, use the current syntax described above.**
+> **This section refers to deprecated script syntax used in previous versions of Postman. If you are writing new scripts, use the syntax described above.**
 
 The previous style of writing Postman tests relies on setting values for the `tests` object. Set a descriptive key for an element in the object and then assert if it's true or false. For example, the following will check if the response body contains the `user_id` string:
 

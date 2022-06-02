@@ -128,7 +128,7 @@ You can import data in bulk from a GitHub repository.
 
    ![Confirm import from github](https://assets.postman.com/postman-docs/import-export-github-files-confirm.jpg)
 
-You will receive a confirmation once the import has completed. You can now view your newly imported files and generated collections in Postman.
+You will receive a confirmation once the import has completed. You can view your imported files and generated collections in Postman.
 
 ## Importing from Bitbucket repositories
 

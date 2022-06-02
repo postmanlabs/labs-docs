@@ -90,7 +90,7 @@ With domain capture enabled, any new users that sign up for Postman with your do
 
 When domain capture is enabled, Postman users with accounts associated with the domain or subdomain will only be able to access Postman after joining your Postman team. This applies to existing users who are a part of other Postman teams, existing individual Postman users, and new users who sign up for Postman.
 
-Existing users will be notified when they next sign in to Postman that their account is now managed by your team.
+The next time existing users sign in to Postman, they will get a notification that their account is managed by your team.
 
 <img alt="Domain capture join team notification" src="https://assets.postman.com/postman-docs/domain-capture-join-team-9.4.jpg" width="350px"/>
 

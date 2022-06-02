@@ -122,7 +122,7 @@ You can filter by mathematical formula to view the average, sum, minimum, and ma
 * **Minimum** - The minimum total response time for a run across all regions.
 * **Maximum** - The maximum total response time for a run across all regions.
 
-Select **Average** to open the menu, then select an option. To view the newly calculated response time value, you can hover over each run individually.
+Select **Average** to open the menu, then select an option. To view the calculated response time value, you can hover over each run individually.
 
 ### Time traverse
 

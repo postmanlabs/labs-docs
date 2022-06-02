@@ -56,7 +56,7 @@ Once the monitor is running you’ll be alerted to any system outages or test fa
 
 Uptime monitors (open beta) make it easy to track the availability of an API or website. There’s no need to set up collections, test scripts, or environments. Enter the URL you want to monitor (HTTP or HTTPS only) and select the team members to be notified of outages.
 
-The uptime monitor continuously checks the availability of the URL, as often as every minute (paid plans) or every 15 minutes (free plans). As soon as downtime is detected, the selected team members will get alerted by email.
+The uptime monitor continuously checks the availability of the URL, as often as every minute (paid plans) or every 15 minutes (free plans). When Postman detects downtime, the selected team members are alerted by email.
 
 Uptime monitors ensure the availability of your API or service around the clock and help you detect system outage issues more quickly. Uptime statistics are recorded on the monitor’s dashboard, so you can always check the status of your API, view past trends, or pause the monitor as needed.
 

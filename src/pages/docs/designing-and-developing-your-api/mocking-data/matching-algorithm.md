@@ -53,7 +53,7 @@ Keeping these various configurable elements in mind, let’s take a look at the 
 
 3. **Filter by URL**
 
-   The matching process will now examine each saved example, and iterate over every possibility. Compare the `mockPath` of the input URL with that of the saved example. If the input URL was `https://M1.mock.pstmn.io/test` and the example currently being examined had a URL of `https://google.com/help`, the mock service would compare `/test` with `/help`. While comparing URLs, a step-by-step matching is conducted. Each consecutive step that the matching algorithm traverses reduces the matching threshold of the current example response.
+   The matching process will examine each saved example, and iterate over every possibility. Compare the `mockPath` of the input URL with that of the saved example. If the input URL was `https://M1.mock.pstmn.io/test` and the example currently being examined had a URL of `https://google.com/help`, the mock service would compare `/test` with `/help`. While comparing URLs, a step-by-step matching is conducted. Each consecutive step that the matching algorithm traverses reduces the matching threshold of the current example response.
 
    For example:
 
@@ -77,7 +77,7 @@ Keeping these various configurable elements in mind, let’s take a look at the 
     }
     ```
 
-    To match a request like this in your mock, you can now use a variable in the request URL of your example. You do not need to hardcode values in the example. Instead, you can match any request sent to your mock server that match the pattern `GET /users/<userId>`. You will just have to replace the dynamic segments
+    To match a request like this in your mock, you can use a variable in the request URL of your example. You do not need to hardcode values in the example. Instead, you can match any request sent to your mock server that match the pattern `GET /users/<userId>`. You will just have to replace the dynamic segments
 
     Wildcard matching is only applicable to entire URL path segments. So, the same example, `GET {{url}}/users/{{userId}}` can serve `GET /users/1`, `GET /users/100` or even `GET /users/carol`. But, it will not match `GET /users/foo/bar`.
 

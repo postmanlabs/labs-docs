@@ -60,7 +60,7 @@ To use the Postman quickstart:
 
 ## Manually view and query data in New Relic
 
-As soon as your monitor runs, Postman starts sending metrics data to New Relic. Once the data is present in New Relic, you can query and display metrics.
+When your monitor runs, Postman starts sending metrics data to New Relic. Once the data is present in New Relic, you can query and display metrics.
 
 In New Relic, select **Browse data** and then select **Metrics**. To view Postman monitor results, search for metrics that begin with `postman`. You can create queries to customize the graph displayed. New Relic also has a query builder to help you construct advanced searches.
 

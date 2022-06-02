@@ -62,7 +62,7 @@ Setting up a Datadog integration requires you to get an API key from Datadog and
 
 ## Viewing data in Datadog
 
-As soon as your monitor runs, the data will start flowing into Datadog.
+When your monitor runs, the data starts flowing into Datadog.
 
 [![view in datadog](https://assets.postman.com/postman-docs/datadog-monitor-alerts.jpg)](https://assets.postman.com/postman-docs/datadog-monitor-alerts.jpg)
 
@@ -107,7 +107,7 @@ Postman sends tags to Datadog along with each metric and event. Tags enable you 
 
 Postman is now a Datadog Technology Partner. Postman’s Integration is listed on Datadog’s Integrations page. To enable the partnership, the metrics being emitted by Postman have been renamed as described above.
 
-If you have previously created any integrations, you must update them to take the advantage of the integration listing on Datadog. To update existing integrations to the new format:
+If you have previously created any integrations, you must update them to take the advantage of the integration listing on Datadog. To update existing integrations:
 
 1. Go to the [Post monitoring results](https://go.postman.co/integrations/service/datadog/monitor_run_datadog) page.
 
@@ -121,6 +121,6 @@ If you have previously created any integrations, you must update them to take th
 
 The updated integration has the following benefits:
 
-* The Postman metrics for the new integration are no longer treated as [Custom Metrics](https://docs.datadoghq.com/metrics/) in Datadog, which means they're free. (Custom metrics on Datadog are [charged](https://docs.datadoghq.com/account_management/billing/custom_metrics/?tab=countrategauge).)
+* The Postman metrics for the integration are no longer treated as [Custom Metrics](https://docs.datadoghq.com/metrics/) in Datadog, which means they're free. (Custom metrics on Datadog are [charged](https://docs.datadoghq.com/account_management/billing/custom_metrics/?tab=countrategauge).)
 * Datadog provides a default dashboard that you can use to observe the monitor. Change the `monitor_name` variable to the monitor for which you want to observe the dashboard.
   [![Datadog dashboard](https://assets.postman.com/postman-docs/datadog-dashboard.jpg)](https://assets.postman.com/postman-docs/datadog-dashboard.jpg)

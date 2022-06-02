@@ -66,7 +66,7 @@ You can import API schemas from a GitHub repository.
 
    ![Confirm import from GitHub](https://assets.postman.com/postman-docs/import-export-github-files-confirm.jpg)
 
-You will receive a confirmation once the import has completed. You can now view your newly imported API schemas and generated collections in Postman.
+You will receive a confirmation once the import is complete and you can view your imported API schemas and generated collections in Postman.
 
 ## Importing API schemas from Bitbucket
 
@@ -84,7 +84,7 @@ You can import API schemas from a Bitbucket repository.
 
 1. Postman shows a preview of the API schemas to import into your workspace. Select **Import** to confirm and complete the import.
 
-You will receive a confirmation once the import has completed. You can now view your newly imported API schemas and generated collections in Postman.
+You will receive a confirmation once the import is complete and you can view your imported API schemas and generated collections in Postman.
 
 ## Importing API schemas from Amazon API Gateway
 

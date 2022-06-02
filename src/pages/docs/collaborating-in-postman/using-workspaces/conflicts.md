@@ -40,7 +40,7 @@ There is a tab for each collection affected by conflicts, and each conflict list
 
 You can choose to preserve your local changes, or update your local version to match the synced version from the server. There is an overview of each conflict. Choose __Local changes__ or __Server changes__ for each one.
 
-After you choose which version to use, select __Resolve Conflicts__ to update both your local version and the synced version of the projects you're working on. You will need to make selections for every collection affected and select __Resolve Conflicts__ to update each one. If you choose your local changes, other devices and team members will now see your changes whenever Postman syncs for them.
+After you choose which version to use, select __Resolve Conflicts__ to update both your local version and the synced version of the projects you're working on. You will need to make selections for every collection affected and select __Resolve Conflicts__ to update each one. If you choose your local changes, other devices and team members will see your changes whenever Postman syncs for them.
 
 If you update the conflict selections and want to revert to the original selections, which will be to use the server changes by default, select __Reset__.
 

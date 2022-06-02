@@ -63,7 +63,7 @@ warning: false
 
 ---
 
-Tests confirm that your API is working as expected, that integrations between services are functioning reliably, and that new developments haven't broken any existing functionality. You can write test scripts for your Postman API requests in JavaScript. You can also use test code to aid the debugging process when something goes wrong with your API project. For example, you might write a test to validate your API's error handling by sending a request with incomplete data or incorrect parameters.
+Tests confirm that your API is working as expected, that integrations between services are functioning reliably, and that any changes haven't broken existing functionality. You can write test scripts for your Postman API requests in JavaScript. You can also use test code to aid the debugging process when something goes wrong with your API project. For example, you might write a test to validate your API's error handling by sending a request with incomplete data or incorrect parameters.
 
 You can add tests to individual [requests](/docs/sending-requests/requests/), [collections](/docs/sending-requests/intro-to-collections/), and folders in a collection. Postman includes code snippets you add and then modify to suit your test logic.
 

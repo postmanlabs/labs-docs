@@ -58,7 +58,7 @@ Sign in to [Splunk](https://login.splunk.com) and follow the [steps from Splunk]
 
 ## Viewing data in Splunk
 
-As soon as your monitor runs, the data will start flowing into Splunk.
+When your monitor runs, the data starts flowing into Splunk.
 
 ### Viewing data in a list
 

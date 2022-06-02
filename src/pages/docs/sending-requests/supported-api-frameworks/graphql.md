@@ -91,7 +91,7 @@ You can also import a schema manually. When you [create or import a GraphQL sche
     ![Edit the API schema](https://assets.postman.com/postman-docs/graphql-schema-definition.jpg)
 
 1. Return to your **GraphQL** body. Select your schema from the dropdown list. You may need to refresh by selecting the refresh icon <img alt="Refresh icon" src="https://assets.postman.com/postman-docs/icon-refresh-v9-5.jpg#icon" width="14px">.
-1. Begin editing your query. Postman will now suggest autocomplete options from the data within your new GraphQL schema.
+1. Begin editing your query. Postman will suggest autocomplete options from the data within your new GraphQL schema.
 
 ![GraphQL autocomplete](https://assets.postman.com/postman-docs/graphql-autocomplete.jpg)
 

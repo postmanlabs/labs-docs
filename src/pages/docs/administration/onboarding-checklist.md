@@ -59,7 +59,7 @@ You may want to contact your IT team to establish what the procedure is for addi
 
 ### Invite team members
 
-Depending on the size of your team you can send invites to your team now or [Check Your Setup](#check-your-setup) with a few volunteers before you rollout Postman to your entire organization.
+Depending on the size of your team, you can either send invites to your team immediately or [check your setup](#check-your-setup) with a few volunteers before you roll out Postman to your entire organization.
 
 You can add your teammates from your [team dashboard](https://go.postman.co/team) by generating a shareable link or by inviting them through a direct email. See [Managing Your Team](/docs/administration/managing-your-team/managing-your-team/) for more detail.
 
