@@ -128,14 +128,3 @@ Use the **Update** tab to check for updates to Postman or to enable automatic up
 ## About
 
 The **About** tab displays the current version of Postman, along with links to helpful information and support.
-
-## Hardware acceleration
-
-Postman takes advantage of your computer's built-in graphics hardware to speed up the rendering of onscreen graphics. Sometimes your computer's specific GPU, drivers, or operating system may cause issues with hardware acceleration. If you see screen artifacts or other glitches, turning off hardware acceleration might solve the problem.
-
-To activate or deactivate hardware acceleration in Postman:
-
-* On macOS, select **Postman > Hardware Acceleration**.
-* On Windows or Linux, select **Help > Hardware Acceleration**.
-
-Restart Postman to apply the new setting. Disabling hardware acceleration may affect performance or CPU usage.
