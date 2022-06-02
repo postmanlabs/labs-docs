@@ -43,7 +43,7 @@ Similar to the way parents might speak to each other through a child, the child 
 >>>**Parent 2**:  _Yeah._
 >>>>**Timmy**:  _Dad says yeah._
 
-In this analogy, the child forwards the information on behalf of each parent. Besides just relaying information, [proxies can do much more](https://en.wikipedia.org/wiki/Proxy_server).
+In this analogy, the child forwards the information on behalf of each parent. Besides relaying information, [proxies can do much more](https://en.wikipedia.org/wiki/Proxy_server).
 
 * Record all traffic between your machine and the internet
 * Reveal the contents of all requests, responses, cookies, and headers

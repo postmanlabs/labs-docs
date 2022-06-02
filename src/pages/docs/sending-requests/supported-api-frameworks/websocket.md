@@ -100,7 +100,7 @@ To rename, duplicate, or delete a saved message, select the more actions icon <i
 
 ### Adding Socket.IO event names and arguments
 
-Sending events with a Socket.IO connection includes the ability to add event names and arguments. This makes it easy to listen to only specific events.
+Sending events with a Socket.IO connection includes the ability to add event names and arguments. This enables you to listen to only specific events.
 
 For a Socket.IO connection, you can enter an event name to publish next to **Send**. If you select **Send** without entering a name, the default name `message` will be used.
 
@@ -222,7 +222,7 @@ To document a WebSocket request:
 1. Select the documentation icon <img alt="Documentation icon" src="https://assets.postman.com/postman-docs/documentation-icon-v8-10.jpg#icon" width="16px"> in the context bar.
 1. Select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px"> next to the description.
 1. Author your description using [Markdown](/docs/publishing-your-api/authoring-your-documentation/#authoring-descriptions-in-markdown).
-1. When you're finished, select **Save** to save your documentation. If you ever need to make changes, just edit the description again.
+1. When you're finished, select **Save** to save your documentation. If you ever need to make changes, you can edit the description again.
 
 Documenting a collection is similar, but the description is on the **Overview** tab of the collection. Select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px"> next to the description, write a summary, and select **Save**.
 

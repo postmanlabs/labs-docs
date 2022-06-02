@@ -12,7 +12,7 @@ contextual_links:
     url: "/docs/sending-requests/intro-to-collections/"
 ---
 
-Microsoft Power Automate enables you to automate workflows between your favorite apps and services to get notifications, synchronize files, collect data, and more. It offers over 140 services with predefined flows available for easy implementation.
+Microsoft Power Automate enables you to automate workflows between your favorite apps and services to get notifications, synchronize files, collect data, and more. It offers over 140 services with predefined flows that you can implement.
 
 You can configure Microsoft Power Automate with Postman to monitor run results, view team and collection-specific activity feeds, back up your Postman Collections, and use a Microsoft Power Automate Webhook URL.
 

@@ -126,7 +126,7 @@ Try this yourself by simulating `Request 1` in the `testAPI` collection. Create 
 
 `https://<your-mock-server-url>/get?test=123`
 
-There's no need to add an `x-api-key` header, as the mock server is public, so just select **Send** to send the request. The response pane shows the response from the mock server.
+There's no need to add an `x-api-key` header, as the mock server is public, so select **Send** to send the request. The response pane shows the response from the mock server.
 
 <img alt="Sending a request to the mock server" src="https://assets.postman.com/postman-docs/mock-api-mock-response-v9-14.jpg" width="893px">
 

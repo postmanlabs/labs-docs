@@ -21,7 +21,7 @@ contextual_links:
 
 ---
 
-If you're just getting started using Postman within your organization, you can carry out the following preparation steps to set your team up for success.
+When you're getting started using Postman within your organization, you can carry out the following preparation steps to set your team up for success.
 
 ## Contents
 

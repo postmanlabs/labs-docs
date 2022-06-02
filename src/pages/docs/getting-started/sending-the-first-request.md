@@ -36,7 +36,7 @@ contextual_links:
 warning: false
 ---
 
-Postman makes it easy to create and send API requests. Send a request to an endpoint, retrieve data from a data source, or test an API's functionality. You don't need to enter commands in a terminal or write any code. Create a new request and select **Send**, and the API response appears right inside Postman.
+Postman enables you to create and send API requests. Send a request to an endpoint, retrieve data from a data source, or test an API's functionality. You don't need to enter commands in a terminal or write any code. Create a new request and select **Send**, and the API response appears right inside Postman.
 
 ## API requests defined
 
@@ -61,7 +61,7 @@ Postman displays the response data sent from the server in the lower pane.
 
 <img alt="Sending a request" src="https://assets.postman.com/postman-docs/first-request-sent-v9-4.jpg" width="716px">
 
-### What just happened?
+### What happened?
 
 In this example, Postman is acting as the client application and is communicating with an API server. Here's what happened when you selected **Send**:
 
@@ -69,7 +69,7 @@ In this example, Postman is acting as the client application and is communicatin
 1. The API server received the request, processed it, and returned a response to Postman.
 1. Postman received the response and displayed it in the **Response** pane.
 
-You just used Postman to send an API request and got a response from the API server. It's okay to take a moment to sit back and reflect on how cool that is!
+You used Postman to send an API request and got a response from the API server. It's okay to take a moment to sit back and reflect on how cool that is!
 
 [![Request and response illustration](https://assets.postman.com/postman-docs/anatomy-of-a-request-v8.jpg)](https://assets.postman.com/postman-docs/anatomy-of-a-request-v8.jpg)
 

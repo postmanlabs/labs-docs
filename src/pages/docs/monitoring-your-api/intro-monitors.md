@@ -42,7 +42,7 @@ warning: false
 
 ---
 
-Postman Monitors give you continuous visibility into the health and performance of your APIs. Setting up a new monitor is easy and flexible. Quickly create an uptime monitor (open beta) to keep watch on a single API endpoint. Or create a collection-based monitor to run API test scripts, chain together multiple requests, and validate critical API flows.
+Postman Monitors give you continuous visibility into the health and performance of your APIs. Uptime monitors (open beta) enable you to keep watch on a single API endpoint, while collection-based monitors enable you to run API test scripts, chain together multiple requests, and validate critical API flows.
 
 Once the monitor is running you’ll be alerted to any system outages or test failures, so you can identify and address issues before your API’s consumers are affected.
 
@@ -54,7 +54,7 @@ Once the monitor is running you’ll be alerted to any system outages or test fa
 
 ## Uptime monitors
 
-Uptime monitors (open beta) make it easy to track the availability of an API or website. There’s no need to set up collections, test scripts, or environments. Enter the URL you want to monitor (HTTP or HTTPS only) and select the team members to be notified of outages.
+Uptime monitors (open beta) enable you to track the availability of an API or website. There’s no need to set up collections, test scripts, or environments. Enter the URL you want to monitor (HTTP or HTTPS only) and select the team members to be notified of outages.
 
 The uptime monitor continuously checks the availability of the URL, as often as every minute (paid plans) or every 15 minutes (free plans). When Postman detects downtime, the selected team members are alerted by email.
 

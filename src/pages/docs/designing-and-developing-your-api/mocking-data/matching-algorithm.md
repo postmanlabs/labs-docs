@@ -25,7 +25,7 @@ To begin, let’s start with an example.
 
 [![create mock diagram](https://assets.postman.com/postman-docs/create-mock-v9.jpg)](https://assets.postman.com/postman-docs/create-mock-v9.jpg)
 
-When a mock is created using either Postman or the Postman API, a call is made to the Postman servers that associates a particular collection (and environment if you choose one) with a newly created mock. The collection `C1` that was just mocked is now associated with the new mock `M1`.
+When a mock is created using either Postman or the Postman API, a call is made to the Postman servers that associates a particular collection (and environment if you choose one) with a newly created mock. In this example, the collection `C1` is associated with the new mock `M1`.
 
 [![show mock diagram](https://assets.postman.com/postman-docs/show-mock-v9.jpg)](https://assets.postman.com/postman-docs/show-mock-v9.jpg)
 
@@ -77,7 +77,7 @@ Keeping these various configurable elements in mind, let’s take a look at the 
     }
     ```
 
-    To match a request like this in your mock, you can use a variable in the request URL of your example. You do not need to hardcode values in the example. Instead, you can match any request sent to your mock server that match the pattern `GET /users/<userId>`. You will just have to replace the dynamic segments
+    To match a request like this in your mock, you can use a variable in the request URL of your example. You do not need to hardcode values in the example. Instead, you can match any request sent to your mock server that match the pattern `GET /users/<userId>`. To do this, you need to replace the dynamic segments.
 
     Wildcard matching is only applicable to entire URL path segments. So, the same example, `GET {{url}}/users/{{userId}}` can serve `GET /users/1`, `GET /users/100` or even `GET /users/carol`. But, it will not match `GET /users/foo/bar`.
 

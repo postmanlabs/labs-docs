@@ -31,7 +31,7 @@ tags:
 
 ---
 
-Continuous Integration (CI) is a development practice that encourages developers to regularly commit their code changes to a shared repository, usually several times a day. Committing early and often helps the team avoid technical debt and detect problems quickly, when conflicts are still relatively easy to fix.
+Continuous Integration (CI) is a development practice that encourages developers to regularly commit their code changes to a shared repository, usually several times a day. Committing early and often helps the team avoid technical debt and detect problems.
 
 With CI, every code commit triggers an automated process that builds the code and runs tests. The process can even deploy the updated code if all checks pass, a practice referred to as Continuous Delivery (CD).
 

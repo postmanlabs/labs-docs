@@ -65,13 +65,13 @@ To add or edit the description for an existing collection, folder, or request:
 
     <img alt="Switching editors" src="https://assets.postman.com/postman-docs/documentation-editor-menu-v9-1.jpg" width="560px">
 
-1. When you're finished, select **Save** to save your documentation. If you ever need to make changes, just edit the description again.
+1. When you're finished, select **Save** to save your documentation. If you ever need to make changes, you can edit the description again.
 
 > To give users even more details about requests in your collection, add descriptions to the request [parameters and headers](#adding-descriptions-to-parameters-and-headers).
 
 ### Authoring descriptions in the Postman editor
 
-To author a description using rich text editing tools, select the **Postman editor** option. The Postman editor makes it easy to author a description without having to write any Markdown code. Use the tools on the toolbar to work with text and other content, just like in a typical word processor. Or use common keyboard shortcuts to format text, like **⌘+B** or **Ctrl+B** to make text bold. There's no need to preview your content to see the final appearance—what you see is what you get!
+To author a description using rich text editing tools, select the **Postman editor** option. The Postman editor enables you to author a description without having to write any Markdown code. Use the tools on the toolbar to work with text and other content, as you would in a typical word processor. Or use common keyboard shortcuts to format text, like **⌘+B** or **Ctrl+B** to make text bold. There's no need to preview your content to see the final appearance—what you see is what you get!
 
 <img alt="Postman editor" src="https://assets.postman.com/postman-docs/documentation-use-postman-editor-v9-1.jpg" width="560px">
 
@@ -79,7 +79,7 @@ To author a description using rich text editing tools, select the **Postman edit
 
 <img alt="Postman editor toolbar" src="https://assets.postman.com/postman-docs/documentation-wysiwyg-toolbar-v9-1.jpg" width="560px">
 
-**Working with tables is fast and easy.** No need to fuss with Markdown code to get your tables to work. To add a table, select the **Table** tool. To add or remove columns or rows, or to delete the table, select a cell and then select the shortcut menu.
+**Create tables without Markdown.** No need to fuss with Markdown code to get your tables to work. To add a table, select the **Table** tool. To add or remove columns or rows, or to delete the table, select a cell and then select the shortcut menu.
 
 <img alt="Postman editor table shortcuts" src="https://assets.postman.com/postman-docs/documentation-wysiwyg-table-tool-v9-1.jpg" width="560px">
 
