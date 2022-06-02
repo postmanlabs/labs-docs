@@ -159,7 +159,7 @@ You can import data in bulk from a GitLab repository.
 
 1. Confirm your GitLab account and **Authorize Postman** to access your repositories.
 
-1. In Postman, select your GitLab Saas group, project, and branch, then select **Continue**.
+1. In Postman, select your GitLab SaaS group, project, and branch, then select **Continue**.
 
 1. Select the files you would like to import into Postman. You can also select **Generate collection from imported APIs** and select what you would like to link this collection as. Select **Show advanced settings** to control how Postman generates collections based on your file types, then select **Import**.
 
