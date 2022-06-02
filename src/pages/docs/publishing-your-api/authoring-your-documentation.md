@@ -2,7 +2,7 @@
 title: "Authoring your docs"
 order: 102
 page_id: "authoring_your_documentation"
-updated: 2021-11-09
+updated: 2022-06-02
 contextual_links:
   - type: section
     name: "Prerequisites"

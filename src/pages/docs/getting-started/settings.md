@@ -1,7 +1,7 @@
 ---
 title: "Setting up Postman"
 order: 8.1
-updated: 2022-05-10
+updated: 2022-06-02
 page_id: "settings"
 search_keyword: "GPU, hardware acceleration, shortcut, shortcuts, keyboard shortcuts"
 contextual_links:
@@ -78,6 +78,7 @@ When you send a form-data or binary file with a request body, Postman saves a pa
 * **Two-pane view** - By default, Postman displays responses below requests. Turn this on to display the response and request panes side by side.
 * **Show icons with tab names** - Turn this off to hide the icons that appear next to tab names.
 * **Variable autocomplete** - Turn this on to enable autocomplete when typing variable names.
+* **Default documentation editor** - Select the default editor you want to use for [editing documentation descriptions](/docs/publishing-your-api/authoring-your-documentation/) in Postman (Postman editor or Markdown editor).
 
 ### Editor settings
 
