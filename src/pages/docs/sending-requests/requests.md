@@ -146,7 +146,7 @@ You can send path and query parameters with your requests using the URL field an
 * Query parameters are appended to the end of the request URL, following `?` and listed in key value pairs, separated by `&` using the following syntax: `?id=1&type=new`
 * Path parameters form part of the request URL, and are referenced using placeholders preceded by `:` as in the following example: `/customer/:id`
 
-To send a query parameter, add it directly to the URL or open __Params__ and enter the name and value. _You can enter your query parameters in either the URL or UI fields and it will update elsewhere._
+To send a query parameter, add it directly to the URL or open __Params__ and enter the name and value. When you enter your query parameters in either the URL or the **Params** fields, these values will update everywhere they're used in Postman.
 
 > Parameters aren't automatically URL-encoded. Right-click selected text, and choose __EncodeURIComponent__ to manually encode a parameter value.
 
@@ -156,7 +156,7 @@ To send a path parameter, enter the parameter name into the URL field, after a c
 
 You can add descriptions to your parameters and they'll appear for anyone sharing the request (for example in your workspace) or viewing your API documentation.
 
-> You can use the __Bulk Edit__ option if you prefer to enter your parameters in text instead of using the UI.
+> You can use the __Bulk Edit__ option if you prefer to enter your parameters in plain text instead of using the request builder.
 
 If your request doesn't require body data, auth, or headers, select __Send__. Otherwise, set up your [body](#sending-body-data), [auth](#authenticating-requests), and [headers](#configuring-request-headers).
 

@@ -111,7 +111,7 @@ You can also define environment variables by **Type**. Variables are automatical
 
 ## Accessing environments
 
-You can access your environment variables from the Postman UI and from your request elements, including the URL, parameters, body data, and test scripts.
+You can access your environment variables from Postman and from your request elements, including the URL, parameters, body data, and test scripts.
 
 To see all of your environments, select __Environments__ in the sidebar.
 
@@ -251,7 +251,7 @@ Select the team member you want to submit the request to, and select the __Edito
 
 ### Using an environment in Editor role
 
-If you have edit access to an environment, you can update the variable values from the Postman UI and from your scripts. If you are using sensitive data such as API secrets, passwords, tokens, or keys, you can define variables as [secret type](/docs/sending-requests/variables/#variable-types) to mask their initial and current values. You can also opt to only use current values, which aren't synced or shared with your team.
+If you have edit access to an environment, you can update the variable values from Postman and from your scripts. If you are using sensitive data such as API secrets, passwords, tokens, or keys, you can define variables as [secret type](/docs/sending-requests/variables/#variable-types) to mask their initial and current values. You can also opt to only use current values, which aren't synced or shared with your team.
 
 When you edit the initial value of a shared environment variable, your updated value will be reflected for everyone who has access to the environment, so ensure that you only do this when you are happy for your value to be synced with the Postman servers.
 

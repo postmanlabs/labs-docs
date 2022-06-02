@@ -66,7 +66,7 @@ You can import collections or your API specifications directly into Postman.
 
 To import your data into Postman, select **Import** in upper left:
 
-![Import UI](https://assets.postman.com/postman-docs/import-export-import-ui-v9-6.jpg)
+![Import data into Postman](https://assets.postman.com/postman-docs/import-export-import-ui-v9-6.jpg)
 
 You can import your data from files, folders, links, raw text, or code repositories.
 

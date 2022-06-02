@@ -108,7 +108,7 @@ There is also an **Acknowledgement** option; when selected, the server will ackn
 
 <img src="https://assets.postman.com/postman-docs/socketio-event-name.jpg" alt="Socket.IO event name" width="500px">
 
-You can also add arguments to a Socket.IO connection. In the bottom left of the editor pane, select **+ Arg**. A sidebar will open to the left of the editor pane adding an argument and a new editor pane for the argument's message. Hover over an existing argument and select **x** to delete it. A similar UI will be used when viewing messages to show each argument's message.
+You can also add arguments to a Socket.IO connection. In the bottom left of the editor pane, select **+ Arg**. A sidebar will open to the left of the editor pane adding an argument and a new editor pane for the argument's message. Hover over an existing argument and select **x** to delete it. The workflow to inspect each argument's message is similar.
 
 <img src="https://assets.postman.com/postman-docs/socketio-second-arg.jpg" alt="Socket.IO arguments" width="400px">
 

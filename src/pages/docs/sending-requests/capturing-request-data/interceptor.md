@@ -42,7 +42,7 @@ Once Interceptor is running in Chrome, you can start a debug session, which is a
 * [How it works](#how-it-works)
     * [Troubleshooting tips](#troubleshooting-tips)
 * [Security](#security)
-    * [Adding a custom encryption key in the UI](#adding-a-custom-encryption-key-in-the-ui)
+    * [Adding a custom encryption key in Postman](#adding-a-custom-encryption-key-in-postman)
     * [Adding a custom encryption key with the pm API](#adding-a-custom-encryption-key-with-the-pm-api)
 * [Updating Interceptor](#updating-interceptor)
 * [Using Interceptor with Postman's Chrome app](#using-the-interceptor-with-postmans-chrome-app)
@@ -228,7 +228,7 @@ If you are unable to resolve an ``INTERNET_CONNECTIVITY`` error, you can manuall
 
 The communication between Interceptor and Postman is automatically encrypted. You can make that communication even more secure by adding a custom encryption key.
 
-### Adding a custom encryption key in the UI
+### Adding a custom encryption key in Postman
 
 1. In Postman, select <img alt="Capture icon" src="https://assets.postman.com/postman-docs/icon-capture.jpg#icon" width="15px"> **Capture requests** in the Postman footer. Then in the **Capture requests** window, select the **Via Interceptor** tab.
 1. To the right of the green **Connected** status, select the lock icon <img alt="Lock icon" src="https://assets.postman.com/postman-docs/icon-lock.jpg#icon" width="11px">.
