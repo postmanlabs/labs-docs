@@ -57,7 +57,7 @@ Ready to send your first request? Open Postman and get started:
 1. Enter `postman-echo.com/get` for the request URL.
 1. Select **Send**.
 
-You will see the response data sent from the server in the lower pane.
+Postman displays the response data sent from the server in the lower pane.
 
 <img alt="Sending a request" src="https://assets.postman.com/postman-docs/first-request-sent-v9-4.jpg" width="716px">
 

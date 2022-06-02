@@ -41,7 +41,7 @@ warning: false
 
 You can make requests that return mock data defined within Postman if you do not have a production API ready, or you do not want to run your requests against real data yet. By adding a mock server to your collection and adding examples to your requests, you can simulate the behavior of a real API.
 
-When you send a request to a mock server, Postman will match the request configuration to the examples you have saved for the request and respond with the data you added to the example. You will see any existing mocks in your workspace from __Mock Servers__ in the sidebar.
+When you send a request to a mock server, Postman will match the request configuration to the examples you have saved for the request and respond with the data you added to the example. To view existing mocks in your workspace, select __Mock Servers__ in the sidebar.
 
 > You need to be signed into a Postman account to create a mock server.
 
@@ -57,7 +57,7 @@ To test using a mock server, carry out the following steps:
 * Give your mock a name, leaving the default tag selected, and the delay option unchecked. Select **Create Mock Server**.
 * Copy the mock URL and go back into your request. Replace the base part of the URL with the mock server URL (everything before the path, for example up to `/customers`).
 * Select **Send**. Postman will return the example response you saved for the request, this time from the mock server.
-* Open the example again and alter the mock response JSON, then save it and send the request again—you will see your edited mock response.
+* Open the example again and alter the mock response JSON, then save it and send the request again. Postman will return your edited mock response.
 
 ## Contents
 
@@ -146,7 +146,7 @@ Postman will display the details you'll need to use the mock (you can also get t
 
 Select **Copy Mock URL** to begin making requests to your mock.
 
-You will see details of the mock in the collection overview info on the right.
+Details about the mock are in the collection overview info on the right.
 
 [![Mock in collection](https://assets.postman.com/postman-docs/mock-info-v8.jpg)](https://assets.postman.com/postman-docs/mock-info-v8.jpg)
 

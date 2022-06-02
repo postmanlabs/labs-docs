@@ -30,19 +30,21 @@ You can use data files to pass Postman sets of values to use in a collection run
 
 ## Running collections with data files
 
-When you [initiate a collection run](/docs/running-collections/intro-to-collection-runs/) you will see an option to select a data file. Select __Runner__ at bottom right of Postman.
+You can select a data file to use in a [collection run](/docs/running-collections/intro-to-collection-runs/).
 
 ![Collection Runner](https://assets.postman.com/postman-docs/collection-runner-for-v8.gif)
 
-Select your collection, then select __Select File__ next to __Data__ on the right to select your data file.
+1. Select <img alt="Runner icon" src="https://assets.postman.com/postman-docs/icon-runner-v9.jpg#icon" width="16px"> __Runner__ from the Postman footer.
+1. Select your collection and drag it into the **Run Order** workspace.
+1. Select __Select File__ next to __Data__ to select your data file.
 
-<img alt="Data File Select" src="https://assets.postman.com/postman-docs/select-data-file-v8.jpg" height="350px"/>
+    <img alt="Data File Select" src="https://assets.postman.com/postman-docs/select-data-file-v8.jpg" height="350px"/>
 
-You will see an option to __Preview__ the data in the file before starting the run.
+1. After you select the file, you can select **Preview** to inspect the data in the file before you start the run.
 
-![Data File Preview](https://assets.postman.com/postman-docs/preview-data-file.jpg)
+    ![Data File Preview](https://assets.postman.com/postman-docs/preview-data-file.jpg)
 
-Select __Run using data files__ to begin the run with the values from the file.
+1. Select __Run using data files__ to begin the run with the values from the file.
 
 > * You can test the steps in this page by first importing [the sample collection](https://assets.postman.com/postman-docs/58533790.json). Download and import it into Postman using __Import__ at the top of the sidebar.
 > ![Import Collection](https://assets.postman.com/postman-docs/collection-import-file-v8.jpg)

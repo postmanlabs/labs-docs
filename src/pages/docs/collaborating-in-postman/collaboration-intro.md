@@ -84,7 +84,7 @@ When you sign in to the Postman web dashboard using a verified email address for
 
 [![Choose Team](https://assets.postman.com/postman-docs/join-team-from-list.jpg)](https://assets.postman.com/postman-docs/join-team-from-list.jpg)
 
-You will see a list of the available teams within your organization. Select a team. Answer the question set by the Team Admin, if there is one. You can also add an optional note. Select **Request to join**.
+Select a team from the list of the available teams within your organization. Answer the question set by the Team Admin, if there is one. You can also add an optional note. Select **Request to join**.
 
 <img alt="Team Join Question" src="https://assets.postman.com/postman-docs/team-join-question-v9.7.0.jpg" width="400px"/>
 

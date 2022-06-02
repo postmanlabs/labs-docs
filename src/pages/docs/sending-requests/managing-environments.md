@@ -64,7 +64,11 @@ An environment is a set of [variables](/docs/sending-requests/variables/) you ca
 
 ## Creating environments
 
-You will see the selected environment status at the top-right of Postman, with any _active_ environment selected in the environment selector. In __Environments__ on the left you can access all environments, and select the set active icon <img alt="Set active icon" src="https://assets.postman.com/postman-docs/icon-checkmark-v9.jpg#icon" width="16px"> to make an environment active. Select an environment to open it for editing in a tab.
+Postman displays the active environment in the environment selector, located in the header.
+
+You can access all environments from __Environments__ in the sidebar. Select the set active icon <img alt="Set active icon" src="https://assets.postman.com/postman-docs/icon-checkmark-v9.jpg#icon" width="16px"> next to an environment to make it the active environment.
+
+Select an environment's name to open the environment editor.
 
 [![Environment editor](https://assets.postman.com/postman-docs/environment-editor-v9.13.jpg)](https://assets.postman.com/postman-docs/environment-editor-v9.13.jpg)
 
@@ -163,7 +167,7 @@ Edit the environment name, or the names, [types](/docs/sending-requests/variable
 
 [![Viewer role on environment](https://assets.postman.com/postman-docs/request-access-env-v9.13.jpg)](https://assets.postman.com/postman-docs/request-access-env-v9.13.jpg)
 
-If you have Viewer access to an environment, you will see a lock icon <img alt="Lock icon" src="https://assets.postman.com/postman-docs/icon-lock.jpg#icon" width="11px"> next to the name to indicate that it's read-only, and you will only be able to edit the current value, which is visible only to you and not synced with your Postman account or workspace. To edit initial values you will need to **Request Access**.
+If you have Viewer access to an environment, a lock icon <img alt="Lock icon" src="https://assets.postman.com/postman-docs/icon-lock.jpg#icon" width="11px"> next to the name indicates that it's read-only. You will only be able to edit the current value, which is visible only to you and not synced with your Postman account or workspace. To edit initial values you will need to **Request Access**.
 
 > You can edit current values for variables in an active (currently selected) environment directly using the environment quick look. Select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px"> to edit your chosen value.
 

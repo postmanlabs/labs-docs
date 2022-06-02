@@ -145,7 +145,7 @@ Adding scripts to collections and folders enables you to test the workflows in y
 
 You can update collection and folder scripts by selecting the view more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the collection or folder name, and selecting __Edit__. Choose the __Tests__ tab to add or update your script. You can also add collection scripts when you first create a collection.
 
-When you [run a collection](/docs/running-collections/intro-to-collection-runs/) you will see the test results output by the collection runner.
+When you [run a collection](/docs/running-collections/intro-to-collection-runs/) the collection runner displays the test results, including the response time in milliseconds and details about whether a specific request in the collection passed or failed its tests.
 
 ![Collection Tests](https://assets.postman.com/postman-docs/collection-tests-run-v9.jpg)
 

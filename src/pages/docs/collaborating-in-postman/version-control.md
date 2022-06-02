@@ -130,7 +130,7 @@ To create a pull request:
 
 Postman notifies the reviewers you selected about your pull request. You will receive a notification if the reviewers [comment on](#adding-comments), [approve](#approving-a-pull-request), or [merge](#merging-changes-from-a-pull-request) the pull request.
 
-> A reviewer must have an Editor role for the entity to merge changes. If a reviewer doesn't have Editor access, you will see a warning icon when you add them as reviewers for a pull request.
+> A reviewer must have an Editor role for the entity to merge changes. If you add a user who doesn't have Editor access as a reviewer, there will be a warning icon next to their name.
 >
 > <img alt="Reviewer permission" src="https://assets.postman.com/postman-docs/pull-request-reviewer-permission.jpg" width="350px"/>
 
@@ -138,7 +138,7 @@ Postman notifies the reviewers you selected about your pull request. You will re
 
 To create a pull request on a public collection or environment, you must fork the parent entity into a public workspace so that the users you ask to [review it](#reviewing-pull-requests) have access to it.
 
-1. Begin the pull request process described in [Creating pull requests](#creating-pull-requests). You will see a note that tells you to move the source entity to a public workspace.
+1. Begin the pull request process described in [Creating pull requests](#creating-pull-requests). A note tells you to move the source entity to a public workspace.
 1. Select the public workspace where you want to move the entity.
 1. Select **Move Collection** or **Move Environment**.
 

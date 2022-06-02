@@ -381,7 +381,7 @@ For more details, see [working with data files](/docs/running-collections/workin
 
 ## Sharing and persisting data
 
-When you edit global, collection, and environment variables in Postman, you will see a __Current Value__ that you can choose to __Persist__ or __Reset__ for individual variables. You can also select **Persist All** or **Reset All** to apply this setting to all variables. These enable you to control what happens within your local instance of Postman, independently of how the data is synced with anyone sharing your workspace, requests, collections, and environments.
+When you edit global, collection, and environment variables in Postman, there is a __Current Value__ that you can choose to __Persist__ or __Reset__ for individual variables. You can also select **Persist All** or **Reset All** to apply this setting to all variables. These enable you to control what happens within your local instance of Postman, independently of how the data is synced with anyone sharing your workspace, requests, collections, and environments.
 
 When you create or edit a variable, you can enter both an initial and a current value. When you create a new variable in Postman, if you leave the current value empty, it will autofill with the initial value. If you specify a current value, it will be local to your instance. The __Persist__ option lets you push your current value to the shared data, updating the initial value to match the current value.
 

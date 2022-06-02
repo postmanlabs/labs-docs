@@ -60,7 +60,7 @@ Open the console by selecting <img alt="Console icon" src="https://assets.postma
 
 ### Viewing request errors from the console
 
-You will see an error message if Postman isn't able to send your request, or if it doesn't receive a response from the API you sent the request to. This message will include an overview of the issue and a link to the console, where you can access detailed information about the request.
+You will get an error message if Postman isn't able to send your request, or if it doesn't receive a response from the API you sent the request to. This message will include an overview of the issue and a link to the console, where you can access detailed information about the request.
 
 ![Request not sent](https://assets.postman.com/postman-docs/response-error-console-link-v8.jpg)
 
@@ -70,7 +70,7 @@ Select __View in Console__ to see the request detail in the console and find out
 
 ### Navigating the console
 
-In the console, you will see network information, request and response headers and body for each request, together with any console output messages coming from your scripts.
+The console displays network information and the request and response headers and body for each request, together with any console output messages coming from your scripts.
 
 Filter by log message type under **All Logs**. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> to turn timestamps and network information on or off.
 

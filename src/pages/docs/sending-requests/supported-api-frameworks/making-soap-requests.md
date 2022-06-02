@@ -87,7 +87,7 @@ If you are following along with the number conversion SOAP API example, you need
 
 ## Sending your request
 
-1. Select __Send__ to make your call to the SOAP service. If your call is successful, you will see the response in the lower tab in Postman.
+1. Select __Send__ to make your call to the SOAP service. If your call is successful, Postman displays the response in the lower tab.
 
 ![SOAP response data](https://assets.postman.com/postman-docs/soap-response-data-v9.jpg)
 

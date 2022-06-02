@@ -216,7 +216,7 @@ The cost of your new plan and any new seats, if applicable, are prorated based o
 
 <!-- -->
 
-> Certain changes can only be applied to your team upon renewal. If you make adjustments to your plan that can't be applied right away, and have **Immediately** selected, you will see a prompt to switch your selection to **On renewal**.
+> Certain changes can only be applied to your team upon renewal. If you make adjustments to your plan that can't be applied right away, and have **Immediately** selected, you will be prompted to switch your selection to **On renewal**.
 
 ### Changing billing cycle
 

@@ -296,7 +296,7 @@ When your config is complete, select __Get New Access Token__.
 
 > When you use __Authorization code__ or __Implicit__ grant type, you will be prompted to supply your credentials to retrieve an access token to use in subsequent requests. By default Postman will display a pop-up browser when you select __Request Token__. You can alternatively choose to authenticate using your system's default web browser. Select __Authorize using browser__ and the __Callback URL__ will autofill to return to Postman when you have completed auth in the browser, so that your requests can use the token returned on successful authentication.
 
-When you receive a token from the API, you will see its details, together with the expiry, and optionally a refresh token you can use to retrieve a new access token when your current one expires. Select __Use Token__ to select the returned value.
+A token from the API includes its details, together with the expiry, and optionally a refresh token you can use to retrieve a new access token when your current one expires. Select __Use Token__ to select the returned value.
 
 Any successfully retrieved tokens will be listed in the request __Available Tokens__ dropdown list. Select one to send with your request. Select __Manage Tokens__ in the dropdown list to view more details or delete your tokens.
 

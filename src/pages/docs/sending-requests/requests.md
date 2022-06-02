@@ -291,11 +291,11 @@ The processor is turned on by default in Postman, but you can turn off encoding 
 
 ## Troubleshooting your requests
 
-Postman will indicate any whitespace or invalid characters in parts of your request that may not function as expected so that you can rectify your values. You will see characters highlighted in the request method, URL (including the path), parameters, headers (including your key names), and body.
+Postman will indicate any whitespace or invalid characters in parts of your request that may not function as expected so that you can rectify your values. Invalid characters are highlighted in the request method, URL (including the path), parameters, headers (including your key names), and body.
 
 <img alt="Invalid Characters" src="https://assets.postman.com/postman-docs/invalid-character-message-v9.jpg" width="400px"/>
 
-If Postman isn't able to send your request or doesn't receive a response, you will see details outlining the error. Select __View in Console__ to see an overview of your request and identify the source of the issue.
+If Postman isn't able to send your request or doesn't receive a response, you will get a message with details about the error. Select __View in Console__ to see an overview of your request and identify the source of the issue.
 
 If your request doesn't work as expected, check out some [troubleshooting tips](/docs/sending-requests/troubleshooting-api-requests/).
 

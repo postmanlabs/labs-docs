@@ -115,7 +115,7 @@ You can view a changelog of your API schemas and all linked collections in the c
 
 To see the changelog, open an API version, then select the changelog icon <img alt="Changelog icon" src="https://assets.postman.com/postman-docs/icon-changelog.jpg" width="25px" style="vertical-align:middle;margin-bottom:0px">.
 
-You will see a list of changes made to the schema and associated elements. Each release is shown, and the top of the list will show any unreleased changes. Select each entry to see more details.
+The changelog shows a list of changes made to the schema and associated elements. Each release is shown, and the top of the list will show any unreleased changes. Select each entry to see more details.
 
 Select **+ Release changes** at the top of the list to create a release from unreleased changes. For more information, see [Working with API releases](/docs/designing-and-developing-your-api/versioning-an-api/api-releases/).
 

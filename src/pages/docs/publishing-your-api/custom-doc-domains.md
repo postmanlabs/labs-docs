@@ -35,7 +35,7 @@ In the Postman web dashboard, select [Team Settings](https://go.postman.co/setti
 
 [![edit view for team](https://assets.postman.com/postman-docs/edit-team-profile-a.jpg)](https://assets.postman.com/postman-docs/edit-team-profile-a.jpg)
 
-In the __Custom Domains__ section, you will see a list of domains indicated with verification status. Select __Add custom domain__.
+In the __Custom Domains__ section, there is a list of domains indicated with verification status. Select __Add custom domain__.
 
 [![custom domain dashboard](https://assets.postman.com/postman-docs/dashboard-view-custom-domains-v9.1.jpg)](https://assets.postman.com/postman-docs/dashboard-view-custom-domains-v9.1.jpg)
 
@@ -47,7 +47,7 @@ Select __Proceed__ to verify the domain.
 
 ## Verifying your domain
 
-When you add a custom domain, you will see a modal displaying the DNS records required to verify domain ownership. To verify that you control the domain you're attempting to add, you must add these provided tokens as DNS records to your domain for TXT and CNAME.
+When you add a custom domain, Postman displays the DNS records required to verify domain ownership. To verify that you control the domain you're attempting to add, you must add these provided tokens as DNS records to your domain for TXT and CNAME.
 
 [![see TXT and CNAME](https://assets.postman.com/postman-docs/verfication-tokens-1.jpg)](https://assets.postman.com/postman-docs/verfication-tokens-1.jpg)
 
