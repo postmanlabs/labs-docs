@@ -32,7 +32,7 @@ contextual_links:
     url: "/docs/designing-and-developing-your-api/versioning-an-api/"
 ---
 
-Postman's _version control_ features can help you and your team to collaboratively build an API. You can fork a collection or environment, make updates to the fork, create a pull request, and merge your changes into the parent entity.
+Postman's _version control_ features can help you and your team to collaboratively build an API. You can fork a collection or environment, make updates to the fork, create a pull request, and merge your changes into the parent element.
 
 > Version control for collections and environments is different from API versioning. For information on managing multiple versions of APIs, see [Versioning APIs](/docs/designing-and-developing-your-api/versioning-an-api/).
 
@@ -54,7 +54,7 @@ Postman's _version control_ features can help you and your team to collaborative
 
 ## Forking Postman entities
 
-A _fork_ is a new instance of an entity that you can change without making any changes to the parent entity. In Postman, you can fork collections, environments, and flows. Forking also enables you to contribute to an entity without having an [Editor access](/docs/collaborating-in-postman/roles-and-permissions/#element-based-roles) for that entity.
+A _fork_ is a new instance of an element that you can change without making any changes to the parent element. In Postman, you can fork collections, environments, and flows. Forking also enables you to contribute to an element without having an [Editor access](/docs/collaborating-in-postman/roles-and-permissions/#element-based-roles) for that element.
 
 ### Creating a fork
 
@@ -62,12 +62,12 @@ A _fork_ is a new instance of an entity that you can change without making any c
 
 When you fork a Postman Collection, environment, or flow, you create a copy of it in a different workspace. You must sign in to Postman to create a fork.
 
-To fork an entity:
+To fork an element:
 
-1. Select the entity in the sidebar.
+1. Select the element in the sidebar.
 2. In the overview tab that appears, select **Fork** <img alt="Fork icon" src="https://assets.postman.com/postman-docs/icon-fork.jpg#icon" width="14px"> in the upper right.
 
-    > You can also create a fork by hovering over the entity in the sidebar and selecting the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to its name, then **Create a Fork**.
+    > You can also create a fork by hovering over the element in the sidebar and selecting the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to its name, then **Create a Fork**.
 
 3. Enter a label for your fork, and select a workspace to save it to.
 4. Select **Fork Collection**, **Fork Environment**, or **Fork Flow**.
@@ -76,7 +76,7 @@ To fork an entity:
 
 Postman creates your fork in the selected workspace.
 
-If there are any [mocks](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/) or [monitors](/docs/monitoring-your-api/intro-monitors/) associated with the parent entity, they aren't linked to the forked entity. You must create mocks and monitors specifically for the fork if you need them.
+If there are any [mocks](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/) or [monitors](/docs/monitoring-your-api/intro-monitors/) associated with the parent element, they aren't linked to the forked element. You must create mocks and monitors specifically for the fork if you need them.
 
 > If a collection is in a public workspace that you aren't a member of, you won't be able to send a request within that workspace. To send requests or make changes to a collection, you must fork the collection into a personal workspace or a team workspace that you belong to.
 
@@ -103,11 +103,11 @@ To see the list of forks for a collection, environment, or flow:
 
 > The pull request process isn't available for flows.
 
-When you have made the changes that you want to a forked collection or environment, you can create a _pull request_. Creating a pull request means that you want to merge the changes you made in the forked entity (the _source_) into the parent entity (the _destination_). As part of the pull request process, you will request that reviewers look at your changes. Reviewers can make comments on your changes and will decide whether to approve them and merge them into the parent entity.
+When you have made the changes that you want to a forked collection or environment, you can create a _pull request_. Creating a pull request means that you want to merge the changes you made in the forked element (the _source_) into the parent element (the _destination_). As part of the pull request process, you will request that reviewers look at your changes. Reviewers can make comments on your changes and will decide whether to approve them and merge them into the parent element.
 
 To create a pull request:
 
-1. Hover over the entity in the sidebar.
+1. Hover over the element in the sidebar.
 1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to its name.
 
 1. Select **Create pull request**.
@@ -118,28 +118,28 @@ To create a pull request:
 
     ![Pull Request Changes](https://assets.postman.com/postman-docs/pull-request-changes.jpg)
 
-    * If the parent entity has any changes since you last updated your fork, you can [pull those changes](#pulling-updates) into your fork before merging.
+    * If the parent element has any changes since you last updated your fork, you can [pull those changes](#pulling-updates) into your fork before merging.
 
-    * If there are any conflicts between the fork and the parent entity, Postman highlights them so that you can [resolve them](#resolving-conflicts).
+    * If there are any conflicts between the fork and the parent element, Postman highlights them so that you can [resolve them](#resolving-conflicts).
 
 1. Select **Overview**.
-1. Enter a title and description for your pull request, and select up to 50 reviewers from the dropdown list. Reviewers must have [Editor access](/docs/collaborating-in-postman/roles-and-permissions/#element-based-roles) on the entity to merge your changes.
+1. Enter a title and description for your pull request, and select up to 50 reviewers from the dropdown list. Reviewers must have [Editor access](/docs/collaborating-in-postman/roles-and-permissions/#element-based-roles) on the element to merge your changes.
 1. Select **Create Pull Request**.
 
     <img alt="Create Pull Request" src="https://assets.postman.com/postman-docs/pull-request-overview.jpg" width="350px"/>
 
 Postman notifies the reviewers you selected about your pull request. You will receive a notification if the reviewers [comment on](#adding-comments), [approve](#approving-a-pull-request), or [merge](#merging-changes-from-a-pull-request) the pull request.
 
-> A reviewer must have an Editor role for the entity to merge changes. If you add a user who doesn't have Editor access as a reviewer, there will be a warning icon next to their name.
+> A reviewer must have an Editor role for the element to merge changes. If you add a user who doesn't have Editor access as a reviewer, there will be a warning icon next to their name.
 >
 > <img alt="Reviewer permission" src="https://assets.postman.com/postman-docs/pull-request-reviewer-permission.jpg" width="350px"/>
 
 ### Creating public pull requests
 
-To create a pull request on a public collection or environment, you must fork the parent entity into a public workspace so that the users you ask to [review it](#reviewing-pull-requests) have access to it.
+To create a pull request on a public collection or environment, you must fork the parent element into a public workspace so that the users you ask to [review it](#reviewing-pull-requests) have access to it.
 
-1. Begin the pull request process described in [Creating pull requests](#creating-pull-requests). A note tells you to move the source entity to a public workspace.
-1. Select the public workspace where you want to move the entity.
+1. Begin the pull request process described in [Creating pull requests](#creating-pull-requests). A note tells you to move the source element to a public workspace.
+1. Select the public workspace where you want to move the element.
 1. Select **Move Collection** or **Move Environment**.
 
     <img src="https://assets.postman.com/postman-docs/make-source-collection-public-v9.jpg" alt="Make the source collection public" width="400px"/>
@@ -156,7 +156,7 @@ Pull request settings let you manage permissions for reviewers and assign merge 
 
 #### Manage reviewer permissions
 
-1. Hover over the entity in the sidebar.
+1. Hover over the element in the sidebar.
 1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to its name.
 1. Select **Manage roles**.
 
@@ -218,11 +218,11 @@ To view notifications for a watched pull request:
 
 ## Reviewing pull requests
 
-If you're tagged as a reviewer on a pull request, you can view the changes, comment, approve or decline the request, and merge the forked collection or environment into the parent entity.
+If you're tagged as a reviewer on a pull request, you can view the changes, comment, approve or decline the request, and merge the forked collection or environment into the parent element.
 
 To see the list of pull requests:
 
-1. Go to the entity and select the pull requests icon <img alt="Pull request icon" src="https://assets.postman.com/postman-docs/icon-pull-request.jpg#icon" width="16px"> in the context bar.
+1. Go to the element and select the pull requests icon <img alt="Pull request icon" src="https://assets.postman.com/postman-docs/icon-pull-request.jpg#icon" width="16px"> in the context bar.
 
 <img src="https://assets.postman.com/postman-docs/open-pull-request-list-v9.12.jpg" alt="Pull request list" width="350px"/>
 
@@ -230,7 +230,7 @@ Each item shows the pull request's status, which will be `OPEN` for any that hav
 
 ### Viewing the diff
 
-When you review a pull request, it's important to see the changes that the pull request will introduce into the parent collection or environment. The difference between the fork and the parent entity is called the _diff_.
+When you review a pull request, it's important to see the changes that the pull request will introduce into the parent collection or environment. The difference between the fork and the parent element is called the _diff_.
 
 To view the diff:
 
@@ -265,7 +265,7 @@ To edit the pull request details:
 1. Make any changes to the pull request's title, description, and list of reviewers.
 1. Select **Save Changes**.
 
-If you don't want to merge the pull request into the parent entity, you can decline it. You can't reopen a pull request that you have declined, so if you want to request edits or offer feedback, [add a comment](#adding-comments) instead. To decline the pull request:
+If you don't want to merge the pull request into the parent element, you can decline it. You can't reopen a pull request that you have declined, so if you want to request edits or offer feedback, [add a comment](#adding-comments) instead. To decline the pull request:
 
 1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> at the upper right and select **Decline**.
 1. Select **Decline Pull Request**.
@@ -286,10 +286,10 @@ After you approve the pull request, its status in the list of pull requests is *
 
 ### Pulling updates
 
-You can keep your forked collections and environments up to date with any changes to the parent entity, for example if another team member has merged changes into the parent entity.
+You can keep your forked collections and environments up to date with any changes to the parent element, for example if another team member has merged changes into the parent element.
 
-1. Open the pull request. Postman will warn you that the parent entity has changed since you last updated it.
-1. Select **Pull Changes** to update your fork with the changes to the parent entity.
+1. Open the pull request. Postman will warn you that the parent element has changed since you last updated it.
+1. Select **Pull Changes** to update your fork with the changes to the parent element.
 
 ![Pull recent changes](https://assets.postman.com/postman-docs/pr-pull-changes-v9.12.jpg)
 
@@ -299,18 +299,18 @@ When you are ready to add the changes from a pull request or fork, you will _mer
 
 #### Merging changes from a pull request
 
-After the requested reviewer approves a pull request, you can merge it into the parent entity.
+After the requested reviewer approves a pull request, you can merge it into the parent element.
 
 1. From the approved pull request, select **Merge**.
 
     ![Merge a pull request](https://assets.postman.com/postman-docs/pull-request-merge-fork-v9.12.jpg)
 
-    > If the parent entity has any changes since you last updated your fork, you can [pull those changes](#pulling-updates) before merging.
+    > If the parent element has any changes since you last updated your fork, you can [pull those changes](#pulling-updates) before merging.
 
 1. Select one of the following merge options:
-    * **Merge changes** - Merge the changes into the parent entity. This doesn't make any changes to the fork. You must have Editor access to the parent entity.
-    * **Merge changes and update source** - Merge the changes into the parent entity. Any differences in the parent entity are also made to the fork. You must have Editor access to both the parent and forked entities.
-    * **Merge changes and delete source** - Merge the changes into the parent entity. After the merge process is complete, Postman deletes the fork. You must have Editor access to both the parent and forked entities.
+    * **Merge changes** - Merge the changes into the parent element. This doesn't make any changes to the fork. You must have Editor access to the parent element.
+    * **Merge changes and update source** - Merge the changes into the parent element. Any differences in the parent element are also made to the fork. You must have Editor access to both the parent and forked entities.
+    * **Merge changes and delete source** - Merge the changes into the parent element. After the merge process is complete, Postman deletes the fork. You must have Editor access to both the parent and forked entities.
 
     <img src="https://assets.postman.com/postman-docs/merge-fork-options-v9.12.jpg" alt="Merge Fork Options" width="400px"/>
 
@@ -318,7 +318,7 @@ After the requested reviewer approves a pull request, you can merge it into the 
 
 #### Merging changes from a fork
 
-If you have Editor access on the entity, you can merge a fork into the parent entity without going through the [pull request process](#creating-pull-requests). For example, if you’re using forks in a personal workspace to organize your work, you can merge changes in a fork directly back into the parent entity. If you are collaborating with others, though, merging directly lacks the safeguards built into the pull request process. Many teams require pull requests as part of their version control workflow.
+If you have Editor access on the element, you can merge a fork into the parent element without going through the [pull request process](#creating-pull-requests). For example, if you’re using forks in a personal workspace to organize your work, you can merge changes in a fork directly back into the parent element. If you are collaborating with others, though, merging directly lacks the safeguards built into the pull request process. Many teams require pull requests as part of their version control workflow.
 
 To merge changes from a fork without opening a pull request:
 
@@ -334,13 +334,13 @@ To merge changes from a fork without opening a pull request:
 
 ## Resolving conflicts
 
-A merge conflict happens when you try to merge changes into an updated parent entity and Postman isn't able to automatically resolve the differences between the two. If there's a conflict when you try to merge a fork, you will need to decide how you want to resolve them before continuing.
+A merge conflict happens when you try to merge changes into an updated parent element and Postman isn't able to automatically resolve the differences between the two. If there's a conflict when you try to merge a fork, you will need to decide how you want to resolve them before continuing.
 
 > Merge conflicts can involve changes in more than one workspace.
 
 To resolve a merge conflict:
 
-1. Look at the differences between the two entities. The **Source** line shows the changes on your fork, and the **Destination** line shows the changes on the parent entity.
+1. Look at the differences between the two entities. The **Source** line shows the changes on your fork, and the **Destination** line shows the changes on the parent element.
 1. Select **Use this** next to the version you want to include when you merge.
 
 <img src="https://assets.postman.com/postman-docs/conflicts-pull-changes-v2.jpg" alt="Pull Changes" width="450px"/>

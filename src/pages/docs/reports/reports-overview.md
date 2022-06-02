@@ -52,9 +52,9 @@ Postman generates reports periodically but not in real time. You might experienc
 
 ### Report permissions
 
-In a given report, you can only see report data that's available to you based on the level of access you have for the relevant collection, API, element, mock server, or monitor. For more information about entity-based roles, see [Defining roles](/docs/collaborating-in-postman/roles-and-permissions/#element-based-roles).
+In a given report, you can only see report data that's available to you based on the level of access you have for the relevant collection, API, element, mock server, or monitor. For more information about element-based roles, see [Defining roles](/docs/collaborating-in-postman/roles-and-permissions/#element-based-roles).
 
-If you don't have permission to access an entity, you will still see the correct number of entities in aggregate visualizations but you won't see the entity name or other relevant information for the specific entity.
+If you don't have permission to access an element, you will still see the correct number of entities in aggregate visualizations but you won't see the element name or other relevant information for the specific element.
 
 ![Report message that restricted data is hidden](https://assets.postman.com/postman-docs/reports-restricted-data-v9.jpg)
 
@@ -72,7 +72,7 @@ To explore data in a report:
 
     <img src="https://assets.postman.com/postman-docs/reports-datapoint-hover.jpg" alt="reports data point" width="100px" />
 
-* Select a data point to drill down and view more details. Sort the table by selecting a column heading. Hover over a table row and select the arrow to go to a related report or entity.
+* Select a data point to drill down and view more details. Sort the table by selecting a column heading. Hover over a table row and select the arrow to go to a related report or element.
 
     <img src="https://assets.postman.com/postman-docs/reports-drilldown.jpg" alt="reports drill down" />
 

@@ -52,7 +52,7 @@ To access the activity feed in Postman, select the Overview tab and go to the **
 
 ### Filtering the activity feed
 
-Filtering the activity feed allows you to display the relevant information directly instead of having to scroll through the feed. You can choose to filter by [user](#filtering-by-user) or by [entity](#filtering-by-entity) (Workspace, API, Collection, Environment).
+Filtering the activity feed allows you to display the relevant information directly instead of having to scroll through the feed. You can choose to filter by [user](#filtering-by-user) or by [element](#filtering-by-element) (Workspace, API, Collection, Environment).
 
 To reset your search, select **Clear filters** at the right of the activity feed. You can also refresh the results by selecting **Refresh** at the right of the activity feed.
 
@@ -65,14 +65,14 @@ To filter by user, select **User** at the top of the activity feed and select th
 
 [![Activity filtering by user](https://assets.postman.com/postman-docs/filter-by-user.gif)](https://assets.postman.com/postman-docs/filter-by-user.gif)
 
-#### Filtering by entity
+#### Filtering by element
 
-Filtering by entity will only display the actions carried out on the selected entity type. Available entities are `Workspace`, `API`, `Collection`, and `Environment`.
-To filter by entity, select **Entity** at the top of the activity feed and select the entity or entities. You can search for a specific entity by typing its name in the search field. Once you have selected the entity, select **Apply**.
+Filtering by element will only display the actions carried out on the selected element type. Available entities are `Workspace`, `API`, `Collection`, and `Environment`.
+To filter by element, select **Entity** at the top of the activity feed and select the element or entities. You can search for a specific element by typing its name in the search field. Once you have selected the element, select **Apply**.
 
 > You can access the changelog of a specific collection by selecting **View Changelog** next to actions on collections.
 
-[![Activity filtering by entity](https://assets.postman.com/postman-docs/filter-by-entity.gif)](https://assets.postman.com/postman-docs/filter-by-entity.gif)
+[![Activity filtering by element](https://assets.postman.com/postman-docs/filter-by-entity.gif)](https://assets.postman.com/postman-docs/filter-by-entity.gif)
 
 ## Viewing team activity
 
