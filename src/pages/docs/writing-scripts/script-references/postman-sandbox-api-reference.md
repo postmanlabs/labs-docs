@@ -17,6 +17,11 @@ contextual_links:
   - type: link
     name: "Data Encryption with CryptoJS"
     url: "https://youtu.be/W_Gj1Q0lEOU"
+  - type: subtitle
+    name: "Blog Posts"
+  - type: link
+    name: "Adding External Libraries in Postman"
+    url: "https://blog.postman.com/adding-external-libraries-in-postman/"
   - type: section
     name: "Next Steps"
   - type: link

@@ -72,7 +72,7 @@ class AutoFlexPolicyPage extends React.Component {
               <h2 id="examples">Examples</h2>
               <p>Here&#39;s an example of a monthly plan:</p>
               <p className="font-italic">
-                Your workspace is on the Team plan and you&#39;re paying monthly — $15 per User per
+                Your workspace is on the Basic plan and you&#39;re paying monthly — $15 per User per
                 month. You add 4 new Users ten days into your monthly billing cycle. You deprovision
                 2 Users before the next regular billing date. You will be charged $15 each for the
                 total number of Users on your plan as of the billing date, including the 2 Users you
@@ -80,7 +80,7 @@ class AutoFlexPolicyPage extends React.Component {
               </p>
               <p>Here&#39;s an example of an annual plan:</p>
               <p className="font-italic">
-                Your workspace is on the Team plan and you&#39;re paying annually — $144 per User
+                Your workspace is on the Basic plan and you&#39;re paying annually — $144 per User
                 per year. Your &quot;auto-flex&quot; billing cycle happens at the end of every
                 quarter of your annual Subscription Term. You add 4 new Users two months into your
                 billing cycle. You deprovision 2 Users before the next regular billing date (i.e.
