@@ -22,7 +22,8 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
       name: 'slug',
       value: slug,
     });
-    /* Returns the latest commit log for a specific doc file (View Doc.jsx for query) */
+    /* Used on doc.jsx / View GraphQL query
+    /* Returns the latest commit log for a specific doc file */
     const lastModifiedDate = execSync(
       `git log -1 --pretty='%ad' --date=format:'%Y/%m/%d' ${node.fileAbsolutePath}`
     ).toString()
@@ -31,6 +32,21 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
       name: "lastModifiedDate",
       value: lastModifiedDate,
     })
+    /* Returns the last modified time (SEO)  */
+    const lastModifiedTime = execSync(
+      `git log -1 --pretty="format:%cI" ${node.fileAbsolutePath}`
+    ).toString();
+    actions.createNodeField({
+      node,
+      name: "lastModifiedTime",
+      value: lastModifiedTime,
+    })
+  }
+  // display console error if algolia indexed frontmatter length exceeds 9999 bytes on build
+  if (node.internal.type === 'frontmatterLength') {
+    if(JSON.parse(node.internal.content).value > 9999) {
+      console.error("IMPORTANT: Frontmatter has too many characters");
+    }
   }
 };
 
@@ -108,14 +124,16 @@ exports.sourceNodes = async ({
     const output = { ...data, ...nodeMeta };
     return output;
   };
-
   const { createNode } = actions;
-
+  let mdFrontmatterCharacterCount = []
   const getDirectories = (src) => glob.sync(`${src}/**/*`);
   const paths = getDirectories('./src/pages/docs')
     .filter((val) => val.slice(-3) === '.md')
     .map((val) => {
       const { data } = frontmatter(fs.readFileSync(val));
+      mdFrontmatterCharacterCount.push(data.title, data.search_keyword)
+      // const algoliaLength = JSON.stringify(val[data]);
+      // h = algoliaLength;
       const order = data.order || 200;
       return [val, order];
     })
@@ -130,7 +148,7 @@ exports.sourceNodes = async ({
     .filter((val) => !ignorePaths.includes(val));
 
   const output = {};
-
+  
   paths.forEach((val) => {
     let split = val.split('/');
     split = split.filter((url) => url !== '');
@@ -142,8 +160,13 @@ exports.sourceNodes = async ({
     });
     current.url = `/${split.join('/')}/`;
   });
+  mdFrontmatterCharacterCount = JSON.stringify(mdFrontmatterCharacterCount);
+  // enable console.logs to view frontmatter object in terminal 'npm run dev'
+  console.log(mdFrontmatterCharacterCount, 'List of all frontmatter objects from md files')
+  mdFrontmatterCharacterCount = mdFrontmatterCharacterCount.length;
+  console.log('Length of all frontmatter from md files', mdFrontmatterCharacterCount)
 
+  createNode(prepareNode(mdFrontmatterCharacterCount, 'frontmatterLength'));
   createNode(prepareNode(output.docs, 'leftNavLinks'));
-  // createNode(prepareNode(HeaderJson, 'headerLinks'));
   createNode(prepareNode(FooterJson, 'FooterLinks'));
 };

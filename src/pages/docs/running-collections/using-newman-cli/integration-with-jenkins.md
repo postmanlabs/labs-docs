@@ -41,7 +41,7 @@ The following example shows how to set up a Jenkins build that uses Newman to ru
 ## Contents
 
 * [Installation](#installation)
-* [Create a Postman collection](#create-a-postman-collection)
+* [Create a Postman Collection](#create-a-postman-collection)
 * [Set up Jenkins](#set-up-jenkins)
 * [Troubleshooting](#troubleshooting)
 * [Configure frequency of runs](#configure-frequency-of-runs)
@@ -58,9 +58,9 @@ The following example shows how to set up a Jenkins build that uses Newman to ru
     1. In **Global npm packages to install**, enter `newman`.
     1. Select **Save**.
 
-## Create a Postman collection
+## Create a Postman Collection
 
-For this example, you'll need a Postman collection that contains a few requests with tests. For this example, you can import a sample "Hello World" collection into your workspace by selecting the **Run in Postman** button below.
+For this example, you'll need a Postman Collection that contains a few requests with tests. For this example, you can import a sample "Hello World" collection into your workspace by selecting the **Run in Postman** button below.
 
 [![Run in Postman](https://run.pstmn.io/button.svg)](https://god.gw.postman.com/run-collection/92cc7527bbab2bedffbd?action=collection%2Fimport)
 

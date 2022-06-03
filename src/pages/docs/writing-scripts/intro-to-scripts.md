@@ -83,7 +83,7 @@ For every request in a collection, scripts will execute in the following order:
 * A pre-request script associated with a collection will run prior to every request in the collection.
 * A pre-request script associated with a folder will run prior to every request in the folder.
 * A test script associated with a collection will run after every request in the collection.
-* A test script associated with a folder will run after request in the folder.
+* A test script associated with a folder will run after every request in the folder.
 
 [![workflow for request in collection](https://assets.postman.com/postman-docs/execOrder.jpg)](https://assets.postman.com/postman-docs/execOrder.jpg)
 
@@ -93,7 +93,7 @@ For example, imagine you had the following collection structured with a single f
 
 [![Console log statement](https://assets.postman.com/postman-docs/console-log-statement-v8.jpg)](https://assets.postman.com/postman-docs/console-log-statement-v8.jpg)
 
-If you created log statements in the pre-request and test script sections for the collection, folder, and requests, you'd see the execution order in the [Postman console](/docs/sending-requests/troubleshooting-api-requests/).
+If you created log statements in the pre-request and test script sections for the collection, folder, and requests, you'd see the execution order in the [Postman Console](/docs/sending-requests/troubleshooting-api-requests/).
 
 [![Logs in console](https://assets.postman.com/postman-docs/logs-in-console-v8.jpg)](https://assets.postman.com/postman-docs/logs-in-console-v8.jpg)
 

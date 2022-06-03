@@ -47,7 +47,7 @@ For more details, see [Sharing Postman entities](/docs/collaborating-in-postman/
 
 You can move APIs to shared workspaces to collaborate with your team.
 
-> You must be an editor on an API or the workspace admin to move the API to another workspace.
+> You must be an Editor on an API or the Workspace Admin to move the API to another workspace. To learn more about roles and permissions, see [Defining roles](/docs/collaborating-in-postman/roles-and-permissions/).
 
 In the sidebar, select the API you want to share, then select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> > **Move**.
 
@@ -117,7 +117,7 @@ To see the changelog, open an API version, then select the changelog icon <img a
 
 You will see a list of changes made to the schema and associated elements. Each release is shown, and the top of the list will show any unreleased changes. Select each entry to see more details.
 
-Select **+ Release changes** at the top of the list to create a release from unreleased changes. For more information, see [Working with API releases](/docs/designing-and-developing-your-api/versioning-an-api/#working-with-api-releases).
+Select **+ Release changes** at the top of the list to create a release from unreleased changes. For more information, see [Working with API releases](/docs/designing-and-developing-your-api/versioning-an-api/api-releases/).
 
 <img src="https://assets.postman.com/postman-docs/api-builder-changelog-v9.jpg" alt="Changelog" width="350px" />
 

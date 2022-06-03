@@ -1,8 +1,6 @@
 ---
 title: 'Importing and exporting data'
-order: 8.2
-page_id: 'importing_and_exporting_data'
-updated: 2022-03-01
+updated: 2022-06-03
 contextual_links:
   - type: section
     name: "Additional Resources"
@@ -50,6 +48,10 @@ Postman can import and export Postman data, including collections, environments,
 
     * [Importing from Bitbucket repositories](#importing-from-bitbucket-repositories)
 
+    * [Importing from GitLab repositories](#importing-from-gitlab-repositories)
+
+    * [Importing from Azure DevOps repositories](#importing-from-azure-devops-repositories)
+
 * [Exporting Postman data](#exporting-postman-data)
 
     * [Exporting collections](#exporting-collections)
@@ -93,10 +95,10 @@ You can convert your collection's format from v1 to v2 to import it into Postman
    sudo npm install -g postman-collection-transformer
    ```
 
-1. Convert an individual Postman collection from v1 to v2 by entering the command below.
+1. Convert an individual Postman Collection from v1 to v2 by entering the command below.
 
    ```bash
-   postman-collection-transformer convert -i <path to the input Postman collection file> -o <path to the downloaded Postman file> -j 1.0.0 -p 2.0.0 -P
+   postman-collection-transformer convert -i <path to the input Postman Collection file> -o <path to the downloaded Postman file> -j 1.0.0 -p 2.0.0 -P
    ```
 
 The resulting collection will download to your target file path in v2 format.
@@ -125,7 +127,7 @@ You can import data in bulk from a GitHub repository.
 
 1. In Postman, select your GitHub organization, repository, and branch, then select **Continue**.
 
-1. Confirm the files you would like to import into Postman. You can also select **Generate collection from imported APIs** and select what you would like to link this collection as. Select **Show advanced settings** to control how Postman generates collections based on your file types, then select **Import**.
+1. Select the files you want to import into Postman. You can also select **Generate collection from imported APIs** and select what you want to link this collection as. Select **Show advanced settings** to control how Postman generates collections based on your file types, then select **Import**.
 
    ![Confirm import from github](https://assets.postman.com/postman-docs/import-export-github-files-confirm.jpg)
 
@@ -143,7 +145,39 @@ You can import data in bulk from a Bitbucket repository.
 
 1. In Postman, select your Bitbucket workspace, repository, and branch, then select **Continue**.
 
-1. Postman shows a preview of the files to import into your workspace. Select **Import** to confirm and complete the import.
+1. Select the files you want to import into Postman. You can also select **Generate collection from imported APIs** and select what you want to link this collection as. Select **Show advanced settings** to control how Postman generates collections based on your file types, then select **Import**.
+
+You will receive a confirmation once the import has completed. You can now view your newly imported files and generated collections in Postman.
+
+## Importing from GitLab repositories
+
+> You must sign in to a [Postman account](/docs/getting-started/postman-account/#signing-up-for-a-postman-account) to use this feature.
+
+You can import data in bulk from a GitLab repository.
+
+1. Select **Import** > **Code repository** > **GitLab**.
+
+1. Confirm your GitLab account and **Authorize Postman** to access your repositories.
+
+1. In Postman, select your GitLab SaaS group, project, and branch, then select **Continue**.
+
+1. Select the files you want to import into Postman. You can also select **Generate collection from imported APIs** and select what you want to link this collection as. Select **Show advanced settings** to control how Postman generates collections based on your file types, then select **Import**.
+
+You will receive a confirmation once the import has completed. You can now view your newly imported files and generated collections in Postman.
+
+## Importing from Azure DevOps repositories
+
+> You must sign in to a [Postman account](/docs/getting-started/postman-account/#signing-up-for-a-postman-account) to use this feature.
+
+You can import data in bulk from a Azure DevOps repository.
+
+1. Select **Import** > **Code repository** > **Azure**.
+
+1. Confirm your Azure DevOps account and **Authorize Postman** to access your repositories.
+
+1. In Postman, select your Azure DevOps workspace, repository, and branch, then select **Continue**.
+
+1. Select the files you want to import into Postman. You can also select **Generate collection from imported APIs** and select what you want to link this collection as. Select **Show advanced settings** to control how Postman generates collections based on your file types, then select **Import**.
 
 You will receive a confirmation once the import has completed. You can now view your newly imported files and generated collections in Postman.
 
@@ -189,12 +223,12 @@ You can export a data dump of all your collections, environments, globals, and h
 
 The [Export page](http://go.postman.co/me/export) shows information about your export request, including the file size, the date the export expires, and the statuses of your requested data exports. Possible statuses are:
 
-* **Scheduled**: The export request is placed.
-* **Transferring**: The data transfer process has started.
-* **Transferred**: The data transfer process has completed.
-* **Zipping**: The process of zipping the file has started.
-* **Zipped**: The file is zipped.
-* **Download**: The zipped file is ready to download.
+* **Scheduled** - The export request is placed.
+* **Transferring** - The data transfer process has started.
+* **Transferred** - The data transfer process has completed.
+* **Zipping** - The process of zipping the file has started.
+* **Zipped** - The file is zipped.
+* **Download** - The zipped file is ready to download.
 
 When the export is ready, you will receive an email with link to download a zipped file with the data dump. You can also download the file from the Export page using **Download**.
 

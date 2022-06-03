@@ -36,7 +36,7 @@ contextual_links:
 
 ---
 
-The Run in Postman button <img alt="Run in Postman button" src="https://assets.postman.com/postman-docs/run-in-postman-button-icon.jpg" width="100px"/> is a way to share a Postman collection (and optional environment) with your users. Live Run in Postman buttons automatically stay updated with changes to your collection, providing consumers with its most recent version. You can also attach an environment to your live button to help onboard new users to your API quickly and efficiently.
+The Run in Postman button <img alt="Run in Postman button" src="https://assets.postman.com/postman-docs/run-in-postman-button-icon.jpg" width="100px"/> is a way to share a Postman Collection (and optional environment) with your users. Live Run in Postman buttons automatically stay updated with changes to your collection, providing consumers with its most recent version. You can also attach an environment to your live button to help onboard new users to your API quickly and efficiently.
 
 ## User interaction with your button
 
@@ -46,7 +46,7 @@ When a user comes across the Run in Postman button <img alt="Run in Postman butt
 
 Run in postman buttons are only available for documentation and embed flows.
 
-> **Security check**: Don't leak sensitive data like access keys in your collection or environment. Read more about [securely using API keys in Postman](https://blog.postman.com/how-to-use-api-keys/).
+> **Security check!** Don't leak sensitive data like access keys in your collection or environment. Read more about [securely using API keys in Postman](https://blog.postman.com/how-to-use-api-keys/).
 
 ## Next steps
 

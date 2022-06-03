@@ -1,6 +1,6 @@
 ---
 title: 'Importing an API'
-updated: 2022-04-15
+updated: 2022-05-16
 search_keyword: "import, aws, api gateway"
 contextual_links:
   - type: section
@@ -120,7 +120,7 @@ Next, create an IAM role for Postman in AWS:
     > For more information, refer to the [AWS IAM guide on using external IDs](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_create_for-user_externalid.html).
 
 1. Select **Next: Permissions**.
-1. Select an existing IAM policy or select **Create policy**. If you are creating a policy, use the following JSON:
+1. Select an existing IAM policy or select **Create policy**. If you are creating a policy, use the following JSON code:
 
     ```json
     {
@@ -131,6 +131,8 @@ Next, create an IAM role for Postman in AWS:
                 "Effect": "Allow",
                 "Action": [
                     "apigateway:GET",
+                    "apigateway:PUT",
+                    "apigateway:POST",
                     "cloudwatch:GetMetricData"
                 ],
                 "Resource": [
@@ -140,6 +142,14 @@ Next, create an IAM role for Postman in AWS:
         ]
     }
     ```
+
+    This policy will enable exporting and deploying for HTTP API schemas. (Exporting and deploying aren't supported for REST API schemas.) You can customize the `Action` section in the IAM policy based on your needs:
+
+    * `"apigateway:GET"` - (Required) Enables viewing API Gateway deployments for HTTP and REST APIs in Postman.
+    * `"apigateway:PUT"` - Enables [exporting](/docs/designing-and-developing-your-api/deploying-an-api/deploying-an-api-aws/#exporting-and-deploying-your-api) HTTP API schemas to the API Gateway.
+    * `"apigateway:POST"` - Enables [deploying](/docs/designing-and-developing-your-api/deploying-an-api/deploying-an-api-aws/#exporting-and-deploying-your-api) HTTP API schemas to a stage on the API Gateway.
+    * `"apigateway:*"` - Assigns all GET, PUT, POST, PATCH, DELETE permissions to the IAM role.
+    * `"cloudwatch:GetMetricData"` - Enables [viewing CloudWatch metrics](/docs/designing-and-developing-your-api/deploying-an-api/deploying-an-api-aws/#viewing-cloudwatch-metrics) in Postman.
 
 1. Select **Next: Tags**.
 1. Select **Next: Review**.
@@ -160,7 +170,7 @@ Next, enter information about the connection:
 * Enter the **AWS Region** where the API Gateway is located and select the **API Gateway**.
 * Enter an **API Name** for the imported API.
 
-When you're ready, select **Import**.
+When you're ready, select **Import**. After importing your API schema, you can [view API deployments in Postman](/docs/designing-and-developing-your-api/deploying-an-api/deploying-an-api-aws/).
 
 ## Supported API schema formats
 
@@ -175,7 +185,7 @@ Postman directly supports importing the following formats:
 * [HTTP Archive (HAR)](https://github.com/postmanlabs/har-to-postman)
 * Web Application Description Language (WADL)
 
-There are also tools on GitHub to convert different API specifications into a Postman collection that can be imported:
+There are also tools on GitHub to convert different API specifications into a Postman Collection that can be imported:
 
 * [`runscope-to-postman`](https://github.com/postmanlabs/runscope-to-postman)
 

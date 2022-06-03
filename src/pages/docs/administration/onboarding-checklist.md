@@ -32,9 +32,9 @@ If you're just getting started using Postman within your organization, you can c
 
 ## Setting up Postman
 
-Postman can be accessed [on the web](/docs/getting-started/installation-and-updates/#using-postman-on-the-web) with a [desktop agent](https://www.postman.com/downloads/postman-agent/). Postman is available as a standalone app for Windows, Mac, and Linux. Make sure everyone who would like to use Postman has the latest version by downloading it from [the Postman website](https://www.postman.com/downloads/).
+Postman can be accessed [on the web](/docs/getting-started/installation-and-updates/#using-postman-on-the-web) with the [Postman Desktop Agent](https://www.postman.com/downloads/postman-agent/). Postman is available as a standalone app for Windows, Mac, and Linux. Make sure everyone who would like to use Postman has the latest version by downloading it from [the Postman website](https://www.postman.com/downloads/).
 
-For the Postman web version, you can also manually select the agent for your requests: **Cloud Agent**, **Desktop Agent**, or **Browser Agent**. To learn more about the agent used for your request, select the agent selector from the Postman footer. You can use the toggle option in **Auto-select** to turn on or off the auto-select agent. Once you enable the option for Auto-select, Postman will automatically select the best agent for your requests.
+For the Postman web version, you can also manually select the agent for your requests: **Cloud Agent**, **Desktop Agent**, or **Browser Agent**. To learn more about the agent used for your request, select the agent selector from the Postman footer. You can use **Auto-select** to turn the auto-select agent on or off. Once you enable the option for Auto-select, Postman will automatically select the best agent for your requests.
 
 <img alt="Auto-select agent" src="https://assets.postman.com/postman-docs/auto-select-agent.jpg" width="350px">
 
@@ -43,6 +43,7 @@ You can either enable **Auto-select** option or manually select the agent (**Clo
 You may want to contact your IT team to establish what the procedure is for adding a new piece of software. This varies from organization to organization, however, the following points are common:
 
 * Your IT team may need to add an exception to device policy allowing for Postman to be installed on employee workstations. Provide a [Postman download link​](https://www.postman.com/downloads/) to the IT team to help establish this exception.
+    * If you are on a [Postman Enterprise plan](https://www.postman.com/pricing), your IT team can opt to deploy the Postman Enterprise app across your organization. For more information, see [Managing Enterprise deployment](/docs/administration/managing-enterprise-deployment/).
 * If your organization's network connection is facilitated behind a proxy, you may need to configure Postman appropriately. Retrieve proxy connection details from your IT team and [​set them up within Postman](/docs/getting-started/proxy/)​.
 * It's recommended that your IT team allowlists Postman’s domains to ensure Postman data is synced with the cloud and all functionality works as expected. By default, WebSocket connections use the same ports as HTTP (80) and HTTPS (443). Ensure your network firewall allows WebSocket connections for Postman's services by allowlisting the following domains:
 

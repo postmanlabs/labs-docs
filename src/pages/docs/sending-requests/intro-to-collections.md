@@ -239,10 +239,13 @@ To add a comment at the collection level:
 
 To revert your collection to a previous state:
 
-1. Select the changelog icon <img alt="Changelog icon" src="https://assets.postman.com/postman-docs/icon-changelog-v9.jpg#icon" width="18px"> from the right of the collection overview.
-1. Select **Restore** for the state to which you want to revert the collection.
+1. Select the changelog icon <img alt="Changelog icon" src="https://assets.postman.com/postman-docs/icon-changelog-v9.jpg#icon" width="18px"> on the right.
+2. Select a session to expand it.
+3. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the change you'd like to restore your collection to, then select **Restore to this change**.
 
-    <img alt="Revert collection to a previous state with the changelog" src="https://assets.postman.com/postman-docs/collection-changelog.jpg" width="300px"/>
+    <img alt="Restore from changelog" src="https://assets.postman.com/postman-docs/changelog-restore-v9.16.jpg" width="350px"/>
+
+Restoring a collection from the changelog reverts it to the point immediately after your selected change occurred.
 
 ### Viewing pull requests, forks, and collection details
 
