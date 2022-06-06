@@ -61,26 +61,34 @@ A typical workflow for API-first development with an external Git repo:
 
 You can connect an API to your remote Git-based repository, at the API level. This enables you to continuously synchronize changes between the repository and Postman. Versions and release tags are then synchronized between Postman and your Git repo.
 
-> The user account used for authentication requires full access to repositories. You may want to create a service account with limited permissions specifically for this integration.
+Keep in mind the following when connecting to a repository:
 
-You can only connect one Postman API to one remote repo. Multiple APIs require multiple repos. Multiple versions of an API can link to the same repo/branch combination, as long as development only happens on one branch. If you link a repo or branch to a new version, then all previous integrations on that branch become locked. For inactive integrations, no pulls, pushes, or new tag-links can happen, but the linked tags will remain.
+* **The user account used for authentication requires full access to repositories.** You may want to create a service account with limited permissions specifically for this integration.
 
-> For GitHub connections, there's a limit of ten auth tokens per user per application imposed by GitHub. If you create more than ten connections with the same user, the additional tokens will be revoked in the order that they were created. Teams can use other Postman accounts to create more than ten integrations.
+* **You can only connect one Postman API to one remote repo.** Multiple APIs require multiple repos. Multiple versions of an API can link to the same repo/branch combination, as long as development only happens on one branch. If you link a repo or branch to a new version, then all previous integrations on that branch become locked. For inactive integrations, no pulls, pushes, or new tag-links can happen, but the linked tags will remain.
 
-To connect a repository:
+* **For Azure DevOps connections, make sure to enable third-party application access for your organization.** If you don't enable third-party access, Postman won't be able to connect to your repo. Go to your [organization settings](https://docs.microsoft.com/en-us/azure/devops/organizations/accounts/change-application-access-policies?view=azure-devops), select **Policies**, and turn on the toggle next to **Third-party application access via OAuth**.
+
+* **For GitHub connections, there's a limit of ten auth tokens per user per application imposed by GitHub.** If you create more than ten connections with the same user, the additional tokens will be revoked in the order that they were created. Teams can use other Postman accounts to create more than ten integrations.
+
+    > If you used the earlier standalone GitHub integration for two-way sync of an API schema, you must delete the previous integration to connect a repo to your API. An existing integration will continue to function, but you can't add new integrations for two-way sync to an API schema.
+
+To connect a repository, do the following:
 
 1. On an API Version page, select **Connect Repository** and choose a repo type: **GitHub**, **GitHub Enterprise**, **Bitbucket**, **GitLab**, **GitLab Self-Managed**, or **Azure DevOps**.
 1. An authentication pop-up window appears. Enter the information to sign in to your repo and select **Grant access**.
+
    > This pop-up window may be hidden by your browser. Make sure to enable pop-ups from this site.
+
 1. On the **Connect your repository page**, enter the information for your repo.
 1. Enter the Git **Organization** and **Repository** where the API will be stored. (For GitLab, **Organization** refers to a **Group**, and **Repository** refers to a **Project**.)
+
    > Note that you can only connect one Postman API per repo. Multiple APIs require multiple repos.
+
 1. Enter the **Main branch** for the API. This is used to fetch release tags; code isn't pushed to this branch.
 1. Enter the **Development branch** for the API. This is where code updates are pushed.
 1. Select an **API schema directory** and **Collection directory** where schemas and collections will be stored in the repo. If you leave a value blank, a `postman/schemas` or `postman/collections` directory will be created in the root of the repo. If you select a directory already containing schemas, you will be asked which schema to use in Postman the first time you pull changes.
 1. Select **Connect Repository**.
-
-> If you used the earlier standalone GitHub integration for two-way sync of an API schema, you must delete the previous integration to connect a repo to your API. An existing integration will continue to function, but you can't add new integrations for two-way sync to an API schema.
 
 ## Pulling and pushing changes
 
