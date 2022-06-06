@@ -18,6 +18,9 @@ contextual_links:
     name: "How to Use Variables in Postman"
     url: "https://youtu.be/BKLC-_C9fxE"
   - type: link
+    name: "Use Secret Variables | Postman Level Up"
+    url: "https://youtu.be/n3MNxYQRd6I"
+  - type: link
     name: "Intro to Postman | Chain Requests"
     url: "https://youtu.be/4fULCou_7Wc"
   - type: link

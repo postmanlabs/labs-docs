@@ -38,9 +38,9 @@ You can enable SCIM provisioning with the [SCIM API](#configuring-scim-with-the-
 
 Postman supports the following provisioning features:
 
-* **Create user**: Creates a new user account in Postman, adds the account to your organization's Postman team, and activates authentication for the user. If an account with the same email ID exists, an [email invite](/docs/administration/managing-your-team/managing-your-team/#invites) to join your Postman team is sent to the user. Once the user accepts the invite, they will be added to your team.
+* **Create user**: Creates a new user account in Postman, adds the account to your organization's Postman team, and activates authentication for the user. If an account with the same email ID exists, an [email invite](/docs/administration/managing-your-team/managing-your-team/#inviting-users) to join your Postman team is sent to the user. Once the user accepts the invite, they will be added to your team.
 
-    > The newly added user will have the Developer role in Postman by default. You can later [update account roles in Postman](/docs/administration/managing-your-team/managing-your-team/#managing-roles).
+    > The newly added user will have the Developer role in Postman by default. You can later [update account roles in Postman](/docs/administration/managing-your-team/managing-your-team/#managing-team-roles).
 
 * **Update user information**:
 
@@ -54,9 +54,9 @@ Postman supports the following provisioning features:
 
     * **Reactivate user**: Reactivates an existing deactivated user by unblocking the account's authentication into Postman and adds the account back to your Postman team.
 
-* **Create group**: Creates a new [user group](/docs/administration/managing-your-team/user-groups/) in Postman. When you assign the Postman app to a group, Postman creates a new account for each group member, adds each account to your organization's Postman team, and activates authentication for each user. If an existing Postman account uses an email that matches a group member's email ID, an [email invite](/docs/administration/managing-your-team/managing-your-team/#invites) to join your Postman team is sent to that user. Once the user accepts the invite, they'll be added to your team.
+* **Create group**: Creates a new [user group](/docs/administration/managing-your-team/user-groups/) in Postman. When you assign the Postman app to a group, Postman creates a new account for each group member, adds each account to your organization's Postman team, and activates authentication for each user. If an existing Postman account uses an email that matches a group member's email ID, an [email invite](/docs/administration/managing-your-team/managing-your-team/#inviting-users) to join your Postman team is sent to that user. Once the user accepts the invite, they'll be added to your team.
 
-    > Newly created groups will have the Developer role in Postman by default. You can later [update group roles in Postman](/docs/administration/managing-your-team/managing-your-team/#managing-roles).
+    > Newly created groups will have the Developer role in Postman by default. You can later [update group roles in Postman](/docs/administration/managing-your-team/managing-your-team/#managing-team-roles).
 
 * **Delete group**: Deletes a user group in Postman. User accounts that were part of the deleted group are deactivated in Postman.
 
