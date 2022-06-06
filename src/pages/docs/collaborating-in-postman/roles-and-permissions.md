@@ -173,13 +173,13 @@ The following roles control access at an API level:
 | Comment on APIs |   &#x2714;   | &#x2714;   |
 | Create new API versions |  &#x2714;   |    |
 | Update schema |  &#x2714;   |    |
-| Generate collections from the schema |   &#x2714;  | &#x2714;   |
+| Generate collections from the schema |   &#x2714;  |    |
 | View reports for APIs |   &#x2714;  | &#x2714;   |
-| Add and remove API environments |   &#x2714;  | &#x2714;   |
-| Add and remove API documentation |   &#x2714;  | &#x2714;   |
-| Add and remove API tests |   &#x2714;  | &#x2714;   |
-| Add and remove API monitors |   &#x2714;  | &#x2714;   |
-| Add and remove API mock servers |   &#x2714;  | &#x2714;   |
+| Add and remove API environments |   &#x2714;  |    |
+| Add and remove API documentation |   &#x2714;  |   |
+| Add and remove API tests |   &#x2714;  |   |
+| Add and remove API monitors |   &#x2714;  |    |
+| Add and remove API mock servers |   &#x2714;  |    |
 
 ## Environment roles
 
