@@ -239,7 +239,7 @@ You can make all your existing APIs discoverable on the Private API Network when
 
 <img alt="GitHub import" src="https://assets.postman.com/postman-docs/github-import-v9.jpg" width="450px"/>
 
-To import from Github, see [Importing from GitHub repositories.](/docs/getting-started/importing-and-exporting-data/#importing-from-github-repositories)
+To import from Github, see [Importing from GitHub repositories](/docs/getting-started/importing-and-exporting-data/#importing-from-github-repositories).
 
 ## Managing the Private API Network
 
