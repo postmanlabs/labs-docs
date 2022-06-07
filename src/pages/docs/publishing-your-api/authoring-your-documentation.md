@@ -2,7 +2,7 @@
 title: "Authoring your docs"
 order: 102
 page_id: "authoring_your_documentation"
-updated: 2021-11-09
+updated: 2022-06-02
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -44,6 +44,7 @@ To help your teammates ([or the world](/docs/publishing-your-api/publishing-your
 * [Adding descriptions to your documentation](#adding-descriptions-to-your-documentation)
     * [Authoring descriptions in the Postman editor](#authoring-descriptions-in-the-postman-editor)
     * [Authoring descriptions in Markdown](#authoring-descriptions-in-markdown)
+    * [Selecting a default documentation editor](#selecting-a-default-documentation-editor)
     * [Adding descriptions to parameters and headers](#adding-descriptions-to-parameters-and-headers)
 * [Including authorization details](#including-authorization-details)
 * [Including examples](#including-examples)
@@ -102,6 +103,13 @@ As you work, select the **Preview** tab to review how your documentation will ap
 > Leave a blank line before and after [block elements](https://daringfireball.net/projects/markdown/syntax#block) (such as headings, paragraphs, and lists) to avoid any formatting issues.
 
 <img alt="Markdown editor" src="https://assets.postman.com/postman-docs/documentation-use-markdown-editor-v9-1.jpg" width="560px">
+
+### Selecting a default documentation editor
+
+You can choose the default editor you want to use for editing documentation descriptions in Postman. When you edit a description, Postman will switch to your preferred editor. (You can still switch between the Postman and Markdown editors while editing a description.)
+
+1. Select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the header and then select **Settings**.
+1. Under **User Interface**, select a **Default documentation editor** (Postman editor or Markdown editor).
 
 ### Adding descriptions to parameters and headers
 
