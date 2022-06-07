@@ -14,7 +14,7 @@ contextual_links:
 
 > __[Audit logs are available on Postman Professional and Enterprise plans.](https://www.postman.com/pricing)__
 
-Audit logs display events related to your team, users, and billing. Team Admins can review audit logs to see:
+Audit logs display events related to your team, users, and billing. Team Admins can review audit logs to get information about:
 
 * When users were added to, removed from, or invited to your team
 * Which user performed a specific action and when they did so

@@ -46,7 +46,7 @@ You can also [view who's active in your workspace](/docs/collaborating-in-postma
 
 ### Accessing the activity feed from Postman
 
-To access the activity feed in Postman, select the Overview tab and go to the **Activity** section to see the events that have occurred within the workspace.
+To access the activity feed in Postman, select the Overview tab and go to the **Activity** section learn about events that have occurred within the workspace.
 
 [![Activity feed from postman](https://assets.postman.com/postman-docs/activity-feed-overview-v8.jpg)](https://assets.postman.com/postman-docs/activity-feed-overview-v8.jpg)
 
@@ -102,4 +102,5 @@ With a Postman Basic, Professional, or Enterprise account, you can pipe team act
 
 ## Next steps
 
-For more on working with a team in Postman, see the [collaboration intro](/docs/collaborating-in-postman/collaboration-intro/). To learn how to invite input on your API projects, see [sharing your work](/docs/collaborating-in-postman/sharing/).
+* For more on working with a team in Postman, read the [collaboration intro](/docs/collaborating-in-postman/collaboration-intro/).
+* To learn how to invite input on your API projects, read [sharing your work](/docs/collaborating-in-postman/sharing/).

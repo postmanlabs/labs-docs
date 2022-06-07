@@ -70,7 +70,7 @@ You can also allow Postman users from your company to request to join your team 
 
 #### Managing invitations
 
-You can review the invitations your team has sent by opening your [team dashboard](https://go.postman.co/settings/team/members) and selecting [**Invite links**](https://go.postman.co/settings/team/manage-invite-links) from the left-hand menu. Here, you can see which users generated links, when they were generated, their expiry date, and their URL.
+You can review the invitations your team has sent by opening your [team dashboard](https://go.postman.co/settings/team/members) and selecting [**Invite links**](https://go.postman.co/settings/team/manage-invite-links) from the left-hand menu. The list provides information about which users generated links, when they were generated, their expiry date, and their URL.
 
 <img alt="Invite links dashboard" src="https://assets.postman.com/postman-docs/team-manage-invite-links-v9.2.jpg"/>
 

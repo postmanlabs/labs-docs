@@ -112,13 +112,13 @@ This example shows you how to integrate Postman with [Travis CI](https://travis-
 
 1. Commit all the changes to your local project and push them to your public GitHub repo.
 
-    Travis CI will automatically trigger a build and run  your tests every time you push a commit to your repo. Open the [Travis CI dashboard](https://app.travis-ci.com/dashboard) to see the status of your build. If all went well, your build passed successfully.
+    Travis CI will automatically trigger a build and run  your tests every time you push a commit to your repo. Open the [Travis CI dashboard](https://app.travis-ci.com/dashboard) to get details about the status of your build. If all went well, your build passed successfully.
 
     [![Travis CI build successful](https://assets.postman.com/postman-docs/travis-ci-build-success.jpg)](https://assets.postman.com/postman-docs/travis-ci-build-success.jpg)
 
 ## Fixing test failures
 
-To see what things look like when a test fails, make a change in your imported "Hello Word" collection in Postman so that one of the test breaks.
+What do things look like when a test fails? To find out, make a change in your imported "Hello Word" collection in Postman so that one of the test breaks.
 
 1. Open the collection, select the "Hello World" request, and then select the **Tests** tab.
 
@@ -132,7 +132,7 @@ To see what things look like when a test fails, make a change in your imported "
 
     [![Travis CI build failed](https://assets.postman.com/postman-docs/travis-ci-build-failed.jpg)](https://assets.postman.com/postman-docs/travis-ci-build-failed.jpg)
 
-1. Select the failed build link to view the build logs in Travis CI. Looking at the logs, you can see that the assertion failed. If this was your own collection, you could use the error message to help understand why the test failed and debug the problem.
+1. Select the failed build link to view the build logs in Travis CI. The logs will tell you that the assertion failed. If this was your own collection, you could use the error message to help understand why the test failed and debug the problem.
 
     [![Travis CI error log](https://assets.postman.com/postman-docs/travis-ci-error-log.jpg)](https://assets.postman.com/postman-docs/travis-ci-error-log.jpg)
 

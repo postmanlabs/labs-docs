@@ -67,13 +67,13 @@ Tests confirm that your API is working as expected, that integrations between se
 
 You can add tests to individual [requests](/docs/sending-requests/requests/), [collections](/docs/sending-requests/intro-to-collections/), and folders in a collection. Postman includes code snippets you add and then modify to suit your test logic.
 
-To add tests to a request, open the request and enter your code in the **Tests** tab. Tests will execute after the request runs. You will be able to see the output in the __Test Results__ tab alongside the response data.
+To add tests to a request, open the request and enter your code in the **Tests** tab. Tests will execute after the request runs. The output is in the response's __Test Results__ tab.
 
 ![Request Test Tab](https://assets.postman.com/postman-docs/request-test-tab-v9.jpg)
 
 ## Writing test scripts
 
-Test scripts can use dynamic variables, carry out test assertions on response data, and pass data between requests. In the __Tests__ tab for a request, enter your JavaScript manually or use the __Snippets__ you'll see to the right of the code editor.
+Test scripts can use dynamic variables, carry out test assertions on response data, and pass data between requests. In the __Tests__ tab for a request, enter your JavaScript manually or select __Snippets__ to the right of the code editor.
 
 Tests execute after the response is received. When you select __Send__, Postman runs your test script after the response data returns from the API.
 
@@ -95,7 +95,7 @@ pm.test("Status test", function () {
 
 Select __Send__ to run your request and open __Test Results__ in the response section. The tab header displays how many tests passed and how many ran in total. You can also view the number of **Passed**, **Skipped**, and **Failed** test results.
 
-If the request returned a `200` status code, the test passes. To see what happens with a different status code, change the expected status code in your test script and run the request again.
+If the request returned a `200` status code, the test passes. To find out what happens with a different status code, change the expected status code in your test script and run the request again.
 
 ### Formatting test result messages with pm.expect
 

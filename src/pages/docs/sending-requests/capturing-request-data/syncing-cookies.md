@@ -55,7 +55,7 @@ Postman Interceptor is a Chrome extension that captures network requests directl
 1. Select <img alt="Cookies icon" src="https://assets.postman.com/postman-docs/icon-cookies.jpg#icon" width="16px"> **Cookies** in the Postman footer.
 1. In the **Cookies** window, select the **Sync Cookies** tab and select the **Interceptor** option.
 
-    > Make sure you see the message **Connected**. If you see the message **Disconnected**, make sure your Chrome browser is open and the [Interceptor extension is installed](/docs/sending-requests/capturing-request-data/interceptor/#installing-interceptor).
+    > Make sure you get the message **Connected**. If you get the message **Disconnected**, make sure your Chrome browser is open and the [Interceptor extension is installed](/docs/sending-requests/capturing-request-data/interceptor/#installing-interceptor).
 
 1. Enter one or more **Domains**. Postman will sync cookies for the specified domains to the cookie jar.
 

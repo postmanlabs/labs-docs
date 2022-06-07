@@ -132,7 +132,7 @@ The following are displayed for each message:
   [![WebSocket time difference](https://assets.postman.com/postman-docs/websocket-time-difference.gif)](https://assets.postman.com/postman-docs/websocket-time-difference.gif)
 * Select the arrow next to a message to expand or collapse it.
 * The time is displayed as your local time.
-* If you hover over the time of a raw Socket.IO message, an information icon is displayed. Hover over it to see the time, MIME type, and size of the message.
+* If you hover over the time of a raw Socket.IO message, an information icon is displayed. Hover over it for the time, MIME type, and size of the message.
 * If you hover over the time, a copy icon is also shown. Select this to copy the message to your clipboard.
 
 In an expanded message:
@@ -152,7 +152,7 @@ To the left of the **Messages** pane in a Socket.IO request is a **Listeners** p
 
 [![Socket.IO message body](https://assets.postman.com/postman-docs/socketio-message-body.jpg)](https://assets.postman.com/postman-docs/socketio-message-body.jpg)
 
-Messages will indicate if they have multiple arguments. When you expand the message, it will have tabs to see each argument.
+Messages will indicate if they have multiple arguments. When you expand the message, it will have tabs for each argument.
 
 [![WebSocket message body](https://assets.postman.com/postman-docs/socketio-message-with-args.jpg)](https://assets.postman.com/postman-docs/socketio-message-with-args.jpg)
 
@@ -198,11 +198,11 @@ You can save your WebSocket requests into a collection. This enables you to reus
 To save a request:
 
 1. In the upper right of the request tab, select **Save**.
-1. In **Save request**, under **Save to**, select a collection, or select **Create collection**. (Note that there are limitations to WebSocket requests in collections; see below.)
+1. In **Save request**, under **Save to**, select a collection, or select **Create collection**. (Note that there are limitations to WebSocket requests in collections. Keep reading for more information.)
 1. If you are creating a new collection, enter a name and select **Create**.
 1. Select **Save**.
 
-You can see your collection and saved request in **Collections** in the sidebar:
+Postman will display your collection and saved request in **Collections** in the sidebar:
 
 <img alt="Collection sidebar" src="https://assets.postman.com/postman-docs/websocket-collection-v2.jpg" width="400px"/>
 

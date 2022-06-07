@@ -141,7 +141,7 @@ From the **Deployments** tab, you can take the following actions:
 * To export or deploy an HTTP schema to the API Gateway, select **Deploy API**. Learn more about [deploying your API](#exporting-and-deploying-your-api).
 * To import a schema from the API Gateway, select **Import Schema**. Learn more about [importing a schema](#importing-a-schema-from-amazon-api-gateway).
 * To view metrics for your API Gateway in AWS, select **View Dashboard**.
-* To see the latest deployment status, select the refresh icon <img alt="Refresh icon" src="https://assets.postman.com/postman-docs/icon-refresh-v9-5.jpg#icon" width="14px">.
+* For information about the latest deployment status, select the refresh icon <img alt="Refresh icon" src="https://assets.postman.com/postman-docs/icon-refresh-v9-5.jpg#icon" width="14px">.
 * To edit or delete the connection to Amazon API Gateway, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px">.
 
 ## Viewing CloudWatch metrics

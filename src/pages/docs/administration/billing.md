@@ -74,7 +74,7 @@ The Postman [billing dashboard](http://go.postman.co/billing) enables you to man
 
 ### Viewing billing overview
 
-When navigating to your [billing dashboard](http://go.postman.co/billing), you will first see your billing overview. You can view the details of your Postman plan, including your subscription cycle and a calculation of your expected cost upon renewal.
+The billing overview is your billing dashboard's default view. You can view the details of your Postman plan, including your subscription cycle and a calculation of your expected cost upon renewal.
 
 <img alt="Billing overview" src="https://assets.postman.com/postman-docs/billing-plan-and-payments-dash-v9.14.jpg" />
 
@@ -156,7 +156,7 @@ You can choose to verify your bank account manually instead of using the automat
 
 In one to two business days, Stripe will make a small test deposit into your bank account that you will use to verify your bank account and will email you with further instructions. To verify your account:
 
-1. After you see the test deposit in your bank account, go back to the Postman billing dashboard. Select **Plans and payments** > **Payment methods**.
+1. After the test deposit arrives in your bank account, go back to the Postman billing dashboard. Select **Plans and payments** > **Payment methods**.
 1. Hover over the bank account and select **Verify**.
 1. Under **Enter code**, paste the six digit transaction code from the test deposit. Select **Verify**.
 1. Select **Confirm** to accept the Terms and Privacy Policy.
@@ -238,7 +238,7 @@ Update the number of monitoring blocks, mock server blocks, and custom domains y
 
 ### Utilizing Auto-Flex
 
-[Auto-Flex](https://learning.postman.com/auto-flex-policy/) is a flexible billing feature available to Postman teams. With Auto-Flex enabled, your Team Admins can add users without having to pay in advance for more seats. Instead, you can use Auto-Flex to see the value of adding users to your Postman team, and opt to retain or remove them before being [billed](#billing-for-auto-flex).
+[Auto-Flex](https://learning.postman.com/auto-flex-policy/) is a flexible billing feature available to Postman teams. With Auto-Flex enabled, your Team Admins can add users without having to pay in advance for more seats, then opt to retain or remove them before being [billed](#billing-for-auto-flex).
 
 > Auto-Flex is automatically enabled for all Postman Basic and Professional plans purchased after April 8, 2021. Teams created before this date can opt in by enabling Auto-Flex on their [billing dashboard](http://go.postman.co/billing). All teams will have Auto-Flex automatically enabled when their plan first renews after July 1, 2021.
 

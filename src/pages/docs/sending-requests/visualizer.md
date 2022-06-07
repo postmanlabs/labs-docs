@@ -53,7 +53,7 @@ The _Postman Visualizer_ provides a programmable way to visually represent your 
 
 [![Visualizer rendering](https://assets.postman.com/postman-docs/visualizer-v8.jpg)](https://assets.postman.com/postman-docs/visualizer-v8.jpg)
 
-Visualizers let you present your response data in ways that help to make sense of it. You can use visualizers to model and highlight the information that's relevant to your project, instead of having to read through raw response data. When you [share a Postman Collection](/docs/collaborating-in-postman/sharing/), other people on your team can also see your visualizations within the context of each request.
+Visualizers let you present your response data in ways that help to make sense of it. You can use visualizers to model and highlight the information that's relevant to your project, instead of having to read through raw response data. When you [share a Postman Collection](/docs/collaborating-in-postman/sharing/), other people on your team can also understand your visualizations within the context of each request.
 
 ## Contents
 
@@ -83,7 +83,7 @@ The `pm.visualizer.set()` method accepts a [Handlebars](https://handlebarsjs.com
 
 ### Rendering HTML
 
-To see a basic visualizer in action, open the following request in Postman:
+For an example of a basic visualizer in action, open the following request in Postman:
 
 [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/4e3ee3d03f6e2e7fc250)
 
@@ -137,11 +137,9 @@ The `template` variable is the template string created earlier. The second argum
 
 ### Viewing visualizations
 
-__Send__ the request in Postman and select the __Visualize__ tab to see the table.
+__Send__ the request in Postman and select the __Visualize__ tab. Postman renders the table as HTML, as it would be in a web browser.
 
 [![Visualizer table rendering](https://assets.postman.com/postman-docs/visualizer-table-v8.jpg)](https://assets.postman.com/postman-docs/visualizer-table-v8.jpg)
-
-The table is rendered as HTML as it would be in a web browser.
 
 ### Adding styling and interaction to visualizations
 
@@ -159,7 +157,7 @@ The `pm.getData(callback)` method takes a callback function as its parameter. Th
 
 ## Try it out
 
-See more visualizer code working by importing any of the following collections. Use the __Run in Postman__ buttons to import from the documentation for each one. Import the collection, then open a request from __Collections__ in the sidebar. Select __Send__ to run it. You'll see the rendered data in __Visualize__.
+For more examples of visualizer code in action, import any of the following collections. Use the __Run in Postman__ buttons to import from the documentation for each one. Import the collection, then open a request from __Collections__ in the sidebar. Select __Send__ to run it. Postman will display the rendered data in __Visualize__.
 
 * [DIY collection that renders a bar chart using ChartJS](https://documenter.postman.com/view/4946945/SVzz4KxB?version=latest)
 ![Bar Chart](https://assets.postman.com/postman-docs/visualizer-example-v8.jpg)
@@ -176,7 +174,7 @@ You can access visualizers from the [Postman API](/docs/writing-scripts/script-r
 * `data` (optional): The second parameter is data that you can bind to the template. The properties of this object can be accessed in the template.
 * `options` (optional): The third argument is an `options` object for [`Handlebars.compile()`](https://handlebarsjs.com/api-reference/). You can use this to control how Handlebars compiles the template.
 
-Postman uses the information you pass to `pm.visualizer.set()` to render an HTML page in the sandbox for the visualizer. To see this rendered HTML page, select the __Visualize__ tab. The `layout` string is inserted into the `<body>` of the rendered page, including any JavaScript, CSS, and HTML that the template contains.
+Postman uses the information you pass to `pm.visualizer.set()` to render an HTML page in the sandbox for the visualizer. Select the __Visualize__ tab for the rendered HTML page. The `layout` string is inserted into the `<body>` of the rendered page, including any JavaScript, CSS, and HTML that the template contains.
 
 ## Debugging visualizers
 

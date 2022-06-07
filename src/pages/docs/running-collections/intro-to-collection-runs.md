@@ -82,7 +82,7 @@ Postman displays your request executions and test results in real time. To acces
 
 To view more details, including any log statements used in your collection, select <img alt="Console icon" src="https://assets.postman.com/postman-docs/icon-console-v9.jpg#icon" width="16px"> __Console__ from the footer.
 
-To view details about the run, select __View Summary__. The summary also lists a column for each iteration of your collection run so you can see test output for the whole run at a glance.
+To view details about the run, select __View Summary__. The summary also has a column for each iteration of your collection run so you can review test output for the whole run.
 
 [![Runner result summary](https://assets.postman.com/postman-docs/run-overview-v8.jpg)](https://assets.postman.com/postman-docs/run-overview-v8.jpg)
 
@@ -96,7 +96,7 @@ If your collection has tests, the **View Results** page indicates whether each r
 
 ### Viewing iterations
 
-If you set an iteration number for the collection run, you can see the overview for each iteration by selecting one from the list on the right.
+If you set an iteration number for the collection run, you can access the overview for each iteration by selecting one from the list on the right.
 
 ## Sharing collection runs
 

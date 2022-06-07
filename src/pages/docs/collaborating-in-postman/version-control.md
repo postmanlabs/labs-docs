@@ -84,13 +84,13 @@ If there are any [mocks](/docs/designing-and-developing-your-api/mocking-data/se
 
 Fork information shows details about forks and the users who have created them. You will be able to identify the users who are actively consuming and contributing to your APIs.
 
-To see the list of users who have forked a collection, environment, or flow:
+To access the list of users who have forked a collection, environment, or flow:
 
 1. Select the number next to the fork icon <img alt="Fork icon" src="https://assets.postman.com/postman-docs/icon-fork.jpg#icon" width="14px"> to reveal the list of users who have active forks.
 
     <img alt="View the fork information count" src="https://assets.postman.com/postman-docs/fork-information-count-v9.12.jpg" width="400px"/>
 
-To see the list of forks for a collection, environment, or flow:
+To access the list of forks for a collection, environment, or flow:
 
 1. Select the fork icon <img alt="Fork icon" src="https://assets.postman.com/postman-docs/icon-fork.jpg#icon" width="14px"> in the context bar.
 1. Select the fork name under **Forks**.
@@ -189,7 +189,7 @@ If the merge conditions for a pull request aren't met, the option to **Merge** i
 
 <img alt="Merge option isn't active" src="https://assets.postman.com/postman-docs/view-merge-conditions-v9.12.jpg" width="300px"/>
 
-Select **View Merge Conditions** to see the merge conditions for the pull request.
+For information about the pull request's merge conditions, select **View Merge Conditions**.
 
 <img alt="Merge Condition" src="https://assets.postman.com/postman-docs/merge-conditions.jpg" width="400px"/>
 
@@ -220,7 +220,7 @@ To view notifications for a watched pull request:
 
 If you're tagged as a reviewer on a pull request, you can view the changes, comment, approve or decline the request, and merge the forked collection or environment into the parent element.
 
-To see the list of pull requests:
+To access the list of pull requests:
 
 1. Go to the element and select the pull requests icon <img alt="Pull request icon" src="https://assets.postman.com/postman-docs/icon-pull-request.jpg#icon" width="16px"> in the context bar.
 
@@ -230,7 +230,7 @@ Each item shows the pull request's status, which will be `OPEN` for any that hav
 
 ### Viewing the diff
 
-When you review a pull request, it's important to see the changes that the pull request will introduce into the parent collection or environment. The difference between the fork and the parent element is called the _diff_.
+When you review a pull request, it's important to understand the changes that the pull request will introduce into the parent collection or environment. The difference between the fork and the parent element is called the _diff_.
 
 To view the diff:
 

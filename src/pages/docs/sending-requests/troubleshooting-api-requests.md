@@ -64,7 +64,7 @@ You will get an error message if Postman isn't able to send your request, or if 
 
 ![Request not sent](https://assets.postman.com/postman-docs/response-error-console-link-v8.jpg)
 
-Select __View in Console__ to see the request detail in the console and find out more about what went wrong.
+Select __View in Console__ to inspect the request details in the console and find out more about what went wrong.
 
 ![Error in Console](https://assets.postman.com/postman-docs/console-pane-opened-from-response-v8.jpg)
 

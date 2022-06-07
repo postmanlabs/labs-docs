@@ -80,7 +80,7 @@ You can invite team members to join a [new](/docs/collaborating-in-postman/using
 
 ### Finding teams within your organization
 
-When you sign in to the Postman web dashboard using a verified email address for your company or organization, you can see available teams to join by selecting your avatar > **Your Team**. You will also be prompted with available teams when you first sign into your Postman account with a verified address.
+When you sign in to the Postman web dashboard using a verified email address for your company or organization, you can find available teams to join by selecting your avatar > **Your Team**. You will also be prompted with available teams when you first sign into your Postman account with a verified address.
 
 [![Choose Team](https://assets.postman.com/postman-docs/join-team-from-list.jpg)](https://assets.postman.com/postman-docs/join-team-from-list.jpg)
 

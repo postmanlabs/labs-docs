@@ -55,11 +55,11 @@ Use workspaces to organize your work in Postman and collaborate with teammates (
 
 ## Accessing workspaces
 
-To open a workspace, select **Workspaces** in the Postman header. Select a workspace to open it, or select **View all workspaces** to see a list of all available workspaces. You will only see workspaces that you have access to, based on the [workspace visibility](#changing-workspace-visibility) and your [workspace role](#managing-workspace-roles).
+To open a workspace, select **Workspaces** in the Postman header. Select a workspace to open it, or select **View all workspaces** for a list of all available workspaces. This will only display workspaces that you have access to, based on the [workspace visibility](#changing-workspace-visibility) and your [workspace role](#managing-workspace-roles).
 
 <img alt="New Workspace" src="https://assets.postman.com/postman-docs/default-create-new-workspace-v9.jpg" width="400px"/>
 
-The workspace's **Overview** tab displays a summary and description of the workspace, as well as a list of recent activity. On the right, you'll also see the number of various elements within the workspace, such as collections and APIs, along with a list of recent contributors.
+The workspace's **Overview** tab displays a summary and description of the workspace, as well as a list of recent activity. On the right, there is a list of the number of Postman elements like collections and APIs in the workspace and a list of recent contributors.
 
 <img alt="Workspace overview" src="https://assets.postman.com/postman-docs/workspace-overview-v9.jpg" width="962px"/>
 
@@ -167,7 +167,7 @@ To start watching a workspace, select **Watch** on the upper right of the worksp
 
 <img alt="Watching a workspace" src="https://assets.postman.com/postman-docs/watching-a-workspace-v9.jpg"/>
 
-To see notifications, select the notification icon <img alt="Bell icon" src="https://assets.postman.com/postman-docs/icon-notification-bell-v9.jpg#icon" width="18px"> in the Postman header. The notification list shows details about changes to workspaces you are watching. You will also receive an email with information about the change, who made it, and when.
+To access your notifications, select the notification icon <img alt="Bell icon" src="https://assets.postman.com/postman-docs/icon-notification-bell-v9.jpg#icon" width="18px"> in the Postman header. The notification list shows details about changes to workspaces you are watching. You will also receive an email with information about the change, who made it, and when.
 
 To stop watching a workspace, select **Unwatch** on the upper right of the workspace's **Overview** tab.
 

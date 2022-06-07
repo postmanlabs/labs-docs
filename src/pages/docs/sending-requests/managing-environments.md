@@ -72,7 +72,7 @@ Select an environment's name to open the environment editor.
 
 [![Environment editor](https://assets.postman.com/postman-docs/environment-editor-v9.13.jpg)](https://assets.postman.com/postman-docs/environment-editor-v9.13.jpg)
 
-To the right next to the environment selector you will also see the environment quick look icon <img alt="Quick Look icon" src="https://assets.postman.com/postman-docs/eye.jpg#icon" width="16px">. The quick look lists variables for the active environment, and any global variables you have declared (or that are shared in your workspace).
+The environment quick look icon <img alt="Quick Look icon" src="https://assets.postman.com/postman-docs/eye.jpg#icon" width="16px"> is next to the environment selector. The quick look lists variables for the active environment, and any global variables you have declared (or that are shared in your workspace).
 
 [![Environment quick look](https://assets.postman.com/postman-docs/environment-quicklook-v9.13.jpg)](https://assets.postman.com/postman-docs/environment-quicklook-v9.13.jpg)
 
@@ -113,7 +113,7 @@ You can also define environment variables by **Type**. Variables are automatical
 
 You can access your environment variables from Postman and from your request elements, including the URL, parameters, body data, and test scripts.
 
-To see all of your environments, select __Environments__ in the sidebar.
+For the list of all your environments, select __Environments__ in the sidebar.
 
 <img src="https://assets.postman.com/postman-docs/environments-view-menu-v9.13.jpg" alt="View all environments" width="300px"/>
 
@@ -143,7 +143,7 @@ You can use the same variable notation in request URLs, parameters, headers, and
 
 <img alt="Environment var reference" src="https://assets.postman.com/postman-docs/env-hover-v8.jpg" width="400px"/>
 
-Hover over a variable reference to see its current value.
+Hover over a variable reference to get its current value.
 
 > If more than one variable with the same name is available to a request, Postman will use the value from the variable with narrowest [scope](/docs/sending-requests/variables/#variable-scopes). This means that if you have an environment variable with the same name as a collection or global variable, Postman will use the environment variable, but local and data variable values will supersede environment values. The value of any overridden variables will display with a strikethrough. </br></br> ![Overridden value](https://assets.postman.com/postman-docs/environment-quicklook-overridden-var-v9.13.jpg)
 
@@ -255,7 +255,7 @@ If you have edit access to an environment, you can update the variable values fr
 
 When you edit the initial value of a shared environment variable, your updated value will be reflected for everyone who has access to the environment, so ensure that you only do this when you are happy for your value to be synced with the Postman servers.
 
-> If you uncheck (deselect) a variable in your environment, it will only be available to collaborators who also have edit access to the environment. They will also be able to see if the variable is active or not. Anyone with the Viewer role for the environment won't see the unchecked variable. </br></br> ![Turn off environment variable](https://assets.postman.com/postman-docs/environment-editor-unchecked-var-v9.13.jpg)
+> If you clear the checkbox for a variable in your environment, it will only be available to collaborators who also have Editor access to the environment. The variable's listing will also indicate whether it is active. Anyone with the Viewer role for the environment won't be able to access the cleared variable. </br></br> ![Turn off environment variable](https://assets.postman.com/postman-docs/environment-editor-unchecked-var-v9.13.jpg)
 
 With the Editor role, you can [configure access for other team members](#managing-environment-roles). If you need to specify access but don't have the Editor role, you can [request access](#requesting-environment-access).
 

@@ -56,7 +56,7 @@ warning: false
 
 Documentation is an important part of any collection or API. Good documentation helps the people who use your collection to understand what it does and how each request works. And comprehensive API documentation lets your consumers know what endpoints are available and how to successfully interact with them.
 
-Once you've generated documentation for your collection or API, users can [view the documentation](/docs/publishing-your-api/viewing-documentation/) in Postman. By default your documentation is private, so only people you share a collection or API with will be able to see it. If you're creating a public API, you can [publish your documentation](/docs/publishing-your-api/publishing-your-docs/) to make it publicly available to anyone with a web browser.
+Once you've generated documentation for your collection or API, users can [view the documentation](/docs/publishing-your-api/viewing-documentation/) in Postman. By default your documentation is private, so only people you share a collection or API with will be able to access it. If you're creating a public API, you can [publish your documentation](/docs/publishing-your-api/publishing-your-docs/) to make it publicly available to anyone with a web browser.
 
 ## Contents
 
@@ -73,7 +73,7 @@ Once you've generated documentation for your collection or API, users can [view 
 
 ## Documenting a collection
 
-Postman automatically generates basic documentation for any collection you create. [View the documentation](/docs/publishing-your-api/viewing-documentation/) to see details for all of the requests in your collection, along with sample code in various client languages. Request details include the method, authorization type, URL, headers, request and response structures, and examples. In addition, the documentation displays all key-value pairs for request parameters, headers, and bodies.
+Postman automatically generates basic documentation for any collection you create. [View the documentation](/docs/publishing-your-api/viewing-documentation/) for details about all of the requests in your collection, along with sample code in various client languages. Request details include the method, authorization type, URL, headers, request and response structures, and examples. In addition, the documentation displays all key-value pairs for request parameters, headers, and bodies.
 
 To make your documentation even more valuable to users, [add descriptions](/docs/publishing-your-api/authoring-your-documentation/) to the items in your collection. Any descriptions you add are automatically included in the documentation for your collection.
 
@@ -116,7 +116,7 @@ To generate a new collection for API documentation:
 1. Select the **Overview** tab.
 1. Select the **+** next to **Documentation**, and then select **Create new documentation**.
 1. Enter a name for the new collection. (Make it something you'll easily associate with this version of your API.)
-1. (Optional) Select **Show advanced settings** and change any settings as needed. See the description for each setting to learn more.
+1. (Optional) Select **Show advanced settings** and change any settings as needed. Read the description for each setting to learn more.
 1. Select **Create Documentation**. The new API documentation is displayed in the **Documentation** tab.
 
 <img alt="Generating new API documentation" src="https://assets.postman.com/postman-docs/documentation-generate-api-docs-v9.jpg" width="702px">
@@ -188,7 +188,7 @@ There are several ways to create a documentation collection for a new version of
 * **Generate a collection from the new API version** - Open the new API version and select the **Overview** tab. Select the **+** next to **Documentation**, and then select **Create new documentation**.
 * **Add an existing to collection to the new API version** - Open the new API version and select the **Overview** tab. Select the **+** next to **Documentation**, and then select **Add existing documentation**.
 
-> Postman automatically generates schema documentation for each version of your API, based on that version's API definition. Once you've versioned your API, you'll see a new version of the schema documentation in the **Documentation** tab.
+> Postman automatically generates schema documentation for each version of your API, based on that version's API definition. Once you've versioned your API, you can access the new version of the schema documentation in the **Documentation** tab.
 
 ### Documenting releases
 

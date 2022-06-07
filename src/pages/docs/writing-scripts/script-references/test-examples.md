@@ -87,7 +87,7 @@ This test checks the response code returned by the API. If the response code is 
 
 [![Test output](https://assets.postman.com/postman-docs/example-test-assertion-result-v9.jpg)](https://assets.postman.com/postman-docs/example-test-assertion-result-v9.jpg)
 
-To see what test results look like when they pass or fail, change the status code in the assertion code and send the request again.
+To learn what test results look like when they pass or fail, change the status code in the assertion code and send the request again.
 
 Structure your test assertions in a variety of ways to suit your logic and preference in terms of how you want the results to output. The following code is an alternative way of achieving the same test as the one above using the `expect` syntax:
 
@@ -472,7 +472,7 @@ You may encounter the `AssertionError: expected undefined to deeply equal..` iss
 pm.expect(jsonData.name).to.eql("John");
 ```
 
-In the above example, if you see `AssertionError: expected undefined to deeply equal 'John'`, this indicates that the `name` property isn't defined in the `jsonData` object.
+In the above example, if you get the error `AssertionError: expected undefined to deeply equal 'John'`, this indicates that the `name` property isn't defined in the `jsonData` object.
 
 ### Test not failing
 

@@ -97,7 +97,7 @@ To author a description using Markdown, select the **Classic Markdown editor** o
 * Format text with bold, emphasis, and blockquotes
 * Add images, links, and code blocks
 
-As you work, select the **Preview** tab to see how your documentation will appear and to make sure it's formatted correctly. To continue editing, select the **Markdown** tab.
+As you work, select the **Preview** tab to review how your documentation will appear and to make sure it's formatted correctly. To continue editing, select the **Markdown** tab.
 
 > Leave a blank line before and after [block elements](https://daringfireball.net/projects/markdown/syntax#block) (such as headings, paragraphs, and lists) to avoid any formatting issues.
 
@@ -159,7 +159,7 @@ Images liven up your documentation and help your ideas come across more clearly.
 
 ## Finding help and inspiration
 
-**Need some help using Markdown?** Check out the Postman [Markdown demo collection](https://documenter.postman.com/view/4630964/S1LsXVJy) to see how Markdown is formatted in published documentation. Select the **Run in Postman** button to add the demo collection to your workspace and view the Markdown code.
+**Need some help using Markdown?** Check out the Postman [Markdown demo collection](https://documenter.postman.com/view/4630964/S1LsXVJy) to learn how Markdown is formatted in published documentation. Select the **Run in Postman** button to add the demo collection to your workspace and view the Markdown code.
 
 ![Markdown demo collection](https://assets.postman.com/postman-docs/documentation-markdown-demo-v8-10.jpg)
 
@@ -170,7 +170,7 @@ Images liven up your documentation and help your ideas come across more clearly.
 
     ![Public API Network page](https://assets.postman.com/postman-docs/documentation-explore-docs-v8-10.jpg)
 
-1. Select a team, workspace, API, or collection to see documentation authored by others who are part of the Public API Network.
+1. Select a team, workspace, API, or collection to access documentation authored by others who are part of the Public API Network.
 
     ![Documentation example](https://assets.postman.com/postman-docs/documentation-docs-example-v8-10.jpg)
 

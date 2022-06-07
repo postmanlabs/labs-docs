@@ -79,11 +79,11 @@ Repeat these checks on a colleague’s workstation. If everything worked, your w
 
 ### Enable team discovery
 
-Team discovery makes Postman’s collaboration features more discoverable to users, and allows your team participation to scale up along with your successful API projects. When team discovery is enabled, users in your organization can see teams to join when they access their Postman accounts. Anyone signing in with a company email address is presented with available teams and can make a request to join each one. Administrators will receive a notification and can approve or deny access from there. See [Team Discovery](/docs/collaborating-in-postman/collaboration-intro/#team-discovery) for more info.
+Team discovery makes Postman’s collaboration features more discoverable to users, and allows your team participation to scale up along with your successful API projects. When team discovery is enabled, Postman displays a list of teams to join when users in your organization access their Postman accounts. Anyone signing in with a company email address is presented with available teams and can make a request to join each one. Administrators will receive a notification and can approve or deny access from there. See [Team Discovery](/docs/collaborating-in-postman/collaboration-intro/#team-discovery) for more info.
 
 ### Questions?
 
-If you have any questions or run into any issues setting up Postman for your team be sure and check to see if the question has already been answered by the [Postman Community](https://community.postman.com/). You can also find a number of support resources on the [support page](https://www.postman.com/support).
+If you have any questions or run into any issues setting up Postman for your team, check the [Postman Community](https://community.postman.com/). Other users might have the same question! You can also find a number of support resources on the [support page](https://www.postman.com/support).
 
 ## Next steps
 
