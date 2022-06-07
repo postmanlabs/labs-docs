@@ -35,7 +35,7 @@ You can select a data file to use in a [collection run](/docs/running-collection
 ![Collection Runner](https://assets.postman.com/postman-docs/collection-runner-for-v8.gif)
 
 1. Select <img alt="Runner icon" src="https://assets.postman.com/postman-docs/icon-runner-v9.jpg#icon" width="16px"> __Runner__ from the Postman footer.
-1. Select your collection and drag it into the **Run Order** workspace.
+1. Select your collection and drag it into the **Run Order** work area.
 1. Select __Select File__ next to __Data__ to select your data file.
 
     <img alt="Data File Select" src="https://assets.postman.com/postman-docs/select-data-file-v8.jpg" height="350px"/>
