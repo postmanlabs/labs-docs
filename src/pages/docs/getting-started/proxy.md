@@ -23,9 +23,9 @@ warning: false
 
 A proxy is an intermediary server that sits between a client application (like Postman) and the destination server that the client is communicating with (like an API).
 
-By default, The Postman app uses your system's configured proxy to access online services or to send requests. If needed, you can enter authentication details for the default proxy in the Postman app. You can also configure Postman to use the system proxy or a custom proxy when sending requests.
+The Postman Desktop app uses your system's configured proxy to send API requests or access the internet. If needed, you can enter authentication details for the default proxy in the Postman app. You can also configure Postman to use the system proxy or a custom proxy when sending requests.
 
-> The steps below show how to configure Postman to use a proxy server when sending requests or accessing online services. If you want to configure Postman's built-in proxy to capture API requests, see [Capturing request data overview](/docs/sending-requests/capturing-request-data/capture-overview/).
+> The steps below show how to configure Postman to use a proxy server when sending requests or accessing online resources. If you want to configure Postman's built-in proxy to capture API requests, see [Capturing request data overview](/docs/sending-requests/capturing-request-data/capture-overview/).
 
 ## Contents
 
@@ -37,19 +37,21 @@ By default, The Postman app uses your system's configured proxy to access online
 
 ## How does a proxy server work?
 
-A proxy can reside on your local system, somewhere in your network, or at any point between your client and the destination server. The proxy server acts as a security barrier, making requests on your behalf to websites and other internet resources, and keeping others on the internet from accessing your internal network.
+A proxy can reside on your local system, somewhere in your network, or at any point between your client and the destination server. The proxy server acts as a security barrier, making requests on your behalf to websites and other internet resources, and preventing others on the internet from accessing your internal network.
 
 [![Standard web proxy flow](https://assets.postman.com/postman-docs/proxy-standard-flow.jpg)](https://assets.postman.com/postman-docs/proxy-standard-flow.jpg)
 
 ## Configuring the default proxy
 
-This article describes how to configure the proxy settings in Postman to direct all requests made in Postman to route through a proxy server. This is different from [capturing network traffic](/docs/sending-requests/capturing-request-data/capturing-http-requests/) with the built-in proxy which enables Postman to intercept network traffic.
+If you have configured a proxy for your local system, the Postman Desktop app uses this proxy by default to send API requests or access any online resources. Learn more about [adding a proxy to your operating system](https://support.postman.com/hc/en-us/articles/4406993238551).
 
-Postman's native apps for Mac, Windows, and Linux support configuring proxies. You can either specify to use a **custom proxy** or to use the **system proxy** defined in the operating system.
+If the proxy server configured for your system requires authentication, you must add the credentials to the Postman Desktop app. Do the following:
 
-Use the **custom proxy** if all of your applications need to use the same proxy. Turn **custom proxy** _on_ if you want to direct the requests from Postman go through a custom proxy server. Turning it off will direct the requests to not use the proxy server.
-
-To configure the proxy settings, select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the header, then choose **Settings** > **Proxy**.
+1. In the Postman Desktop app, select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the header and then select **Settings**.
+1. Select the **Proxy** tab.
+1. Under **Default Proxy Configuration**, select the checkbox next to **This proxy requires authentication**.
+1. Enter the **Username** and **Password** required by the proxy server.
+1. Select **Save and restart Postman**.
 
 [![Proxy settings modal](https://assets.postman.com/postman-docs/proxy-settings-overview-modal.jpg)](https://assets.postman.com/postman-docs/proxy-settings-overview-modal.jpg)
 
@@ -76,6 +78,8 @@ If **Use System Proxy** and the **Custom Proxy Configuration** are both turned o
 ## Using a custom proxy for requests
 
 Postman enables you to configure a custom proxy configuration that directs Postman to forward your HTTP or HTTPS requests through a proxy server. This will route all requests sent by Postman through a proxy server of your choosing.
+
+Turn **custom proxy** _on_ if you want to direct the requests from Postman go through a custom proxy server. Turning it off will direct the requests to not use the proxy server.
 
 1. Postman is the client that sends a request through the selected proxy.
 1. The proxy server sends the request to the server.
