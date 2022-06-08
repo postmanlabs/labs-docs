@@ -1934,5 +1934,9 @@
 	{
 		"from": "/docs/designing-and-developing-your-api/versioning-an-api/",
 		"to": "/docs/designing-and-developing-your-api/versioning-an-api/versioning-an-api-overview/"
+	},
+	{
+		"from": "/docs/administration/upgrading/",
+		"to": "/docs/administration/updating/"
 	}
 ]
