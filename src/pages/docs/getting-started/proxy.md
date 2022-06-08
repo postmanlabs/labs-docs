@@ -44,7 +44,7 @@ If you have configured a proxy for your local system, the Postman Desktop app us
 
 If the proxy server configured for your system requires authentication, add the credentials to the Postman Desktop app. Do the following:
 
-1. In the Postman Desktop app, select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the header and then select **Settings**.
+1. In the Postman Desktop app, select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the header and select **Settings**.
 1. Select the **Proxy** tab.
 1. Under **Default Proxy Configuration**, select the checkbox next to **This proxy requires authentication**.
 1. Enter the **Username** and **Password** required by the proxy server.
@@ -58,7 +58,7 @@ If you have configured a proxy for your local system, Postman can use this proxy
 
 To configure Postman to use the system proxy:
 
-1. In the Postman Desktop app, select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the header and then select **Settings**.
+1. Select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the header and select **Settings**.
 1. Select the **Proxy** tab.
 1. Under **Proxy configurations for sending requests**, select the checkbox next to **Use the system proxy**.
 1. (Optional) Select the checkbox if you want Postman to use the `HTTP_PROXY`, `HTTPS_PROXY`, and `NO_PROXY` environment variables configured for your operating system.
@@ -69,27 +69,21 @@ To configure Postman to use the system proxy:
 
 ## Using a custom proxy for requests
 
-Postman enables you to configure a custom proxy configuration that directs Postman to forward your HTTP or HTTPS requests through a proxy server. This will route all requests sent by Postman through a proxy server of your choosing.
+Configure a custom proxy to send API requests using a proxy server other than your system proxy. You can send HTTP requests, HTTPS requests, or both types of requests through the custom proxy.
 
-Turn **custom proxy** _on_ if you want to direct the requests from Postman go through a custom proxy server. Turning it off will direct the requests to not use the proxy server.
+To configure Postman to use a custom proxy:
 
-1. Postman is the client that sends a request through the selected proxy.
-1. The proxy server sends the request to the server.
-1. The server returns a response back through the proxy server.
+1. Select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the header and select **Settings**.
+1. Select the **Proxy** tab.
+1. Under **Proxy configurations for sending requests**, select the checkbox next to **Add a custom proxy configuration**.
+1. Enter information about the custom proxy:
 
-[![Enable custom proxy](https://assets.postman.com/postman-docs/custom-proxy-flow.jpg)](https://assets.postman.com/postman-docs/custom-proxy-flow.jpg)
+    * **Proxy Type** - Select the type of requests you want to send through the proxy server. Both **HTTP** and **HTTPS** are selected by default.
+    * **Proxy Server** - Enter the hostname or IP address of the proxy server and the port number. (Don't include the protocol before the hostname or IP address.)
+    * **Proxy Auth** - Turn on this toggle if the proxy server requires basic authentication. Enter the **Username** and **Password** for the proxy server.
+    * **Proxy Bypass** - Enter a comma-separated list of hosts. Requests sent to these hosts won't use the custom proxy.
 
-Custom proxy settings are turned off by default. To turn them on, select **Settings** > **Add a custom proxy configuration** and update the following settings:
-
-* **Proxy Type** - Choose the type of proxy server by selecting the appropriate checkboxes. By default, both `HTTP` and `HTTPS` are selected. This means that both HTTP and HTTPS requests will go through the proxy server.
-* **Proxy Server** - Enter the **host** or **IP address** (without protocol) and the **port** of the proxy server.
-* **Proxy Auth** - Postman uses the system's proxy configurations by default. To send API requests, select the option **This proxy requires authentication.** Turning this on makes the requests use the Basic Authentication method, which requires a **Username** and a **Password**.
-
-    <img alt="Default proxy authentication" src="https://assets.postman.com/postman-docs/enable-default-proxy-configuration.jpg"/>
-
-* **Proxy Bypass** - Enter comma-separated hosts for which the requests will bypass the proxy settings.
-
-    [![Custom proxy configuration](https://assets.postman.com/postman-docs/enable-custom-proxy-configuration.jpg)](https://assets.postman.com/postman-docs/enable-custom-proxy-configuration.jpg)
+[![Custom proxy configuration](https://assets.postman.com/postman-docs/enable-custom-proxy-configuration.jpg)](https://assets.postman.com/postman-docs/enable-custom-proxy-configuration.jpg)
 
 ## Troubleshooting proxy configurations
 
@@ -100,7 +94,7 @@ If you are unable to send any requests through Postman and your network requires
 
     * **Mac** - Open System Preferences and select **Network**. On the left-hand side, make sure to select the connected or active network connection. You can have different proxy settings for each type of network connection. At the bottom, select **Advanced**. Select the **Proxies** tab and you will see different protocols you can configure. If you select **Web Proxy (HTTP)**, you will be able to enter the proxy server IP address, port number, username, and password.
 
-    * **Linux** - In System Settings, scroll down to **Hardware**, select **Networking**, and then select **Network Proxy**. You can choose **Automatic** or **Manual**.
+    * **Linux** - In System Settings, scroll down to **Hardware**, select **Networking**, and select **Network Proxy**. You can choose **Automatic** or **Manual**.
 
 If you are unable to send any requests through Postman and your network doesn't require a proxy, take the following steps:
 
