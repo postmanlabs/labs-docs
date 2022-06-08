@@ -29,7 +29,7 @@ You can have up to three devices logged in to your Postman account simultaneousl
 
 ## Understanding sync states
 
-Postman indicates the sync state of your workspace with the sync icon in the Postman footer. Hover over the sync icon to see more information about your connection and sync status.
+Postman indicates the sync state of your workspace with the sync icon in the footer. Hover over the sync icon to see more information about your connection and sync status.
 
 <img alt="Understanding sync states" src="https://assets.postman.com/postman-docs/syncing-understanding-sync-states-v9.19.jpg" width="250px"/>
 
