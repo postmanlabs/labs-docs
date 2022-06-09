@@ -115,5 +115,5 @@ build_code_job:
     script:
         - npm i -g newman
         - npm i -g newman-reporter-postman-cloud
-        - newman run "https://api.getpostman.com/collections/4946945-3c52d739-1511-4303-b191-bf1eb187dedc?apikey=$POSTMAN_API_KEY"  --environment "https://api.getpostman.com/environments/16724969-8e6c6119-ed57-4665-b4f9-f648c5637484?apikey=$POSTMAN_API_KEY" -r postman-cloud --reporter-apiKey "$POSTMAN_API_KEY" --reporter-workspaceId "32da4917-f0a9-40a1-893c-3ad988cb670e" --reporter-integrationIdentifier 47056-${CI_PIPELINE_ID}
+        - newman run "https://api.getpostman.com/collections/4946945-3673316a-9a35-4b0d-a148-3566b490798d?apikey=$POSTMAN_API_KEY"  --environment "https://api.getpostman.com/environments/16724969-8e6c6119-ed57-4665-b4f9-f648c5637484?apikey=$POSTMAN_API_KEY" -r postman-cloud --reporter-apiKey "$POSTMAN_API_KEY" --reporter-workspaceId "34f3a42c-18a7-4ad6-83fb-2c05767d63a7" --reporter-integrationIdentifier 47056-${CI_PIPELINE_ID}
 ```
