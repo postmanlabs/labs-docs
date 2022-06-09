@@ -10,6 +10,13 @@ contextual_links:
   - type: link
     name: "CI Integrations"
     url: "/docs/integrations/ci-integrations/"
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Building Continuous Delivery Pipelines in CircleCI With Newman"
+    url: "https://youtu.be/xyu7CG3msQY"
 ---
 
 CircleCI is a cloud-based continuous integration and continuous delivery (CI/CD) platform. Software development teams use CircleCI to run build jobs, automate tests, and orchestrate complex workflows.

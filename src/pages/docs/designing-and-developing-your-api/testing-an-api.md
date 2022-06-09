@@ -17,6 +17,9 @@ contextual_links:
   - type: link
     name: "Intro to Postman | Advanced API Tests"
     url: "https://youtu.be/vVDZxeS865g"
+  - type: link
+    name: "API Lifecycle, Part 1: Build and Test an API | Postman Space Camp"
+    url: "https://youtu.be/RfYWIOocPfM"
   - type: subtitle
     name: "Blog Posts"
   - type: link

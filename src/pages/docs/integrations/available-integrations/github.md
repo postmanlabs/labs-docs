@@ -1,8 +1,6 @@
 ---
 title: "GitHub"
-order: 168
 updated: 2022-03-15
-page_id: "github"
 warning: false
 contextual_links:
   - type: section
@@ -109,6 +107,8 @@ Contact your IT team to allowlist the following static IP in your firewall:
 * US East: `3.212.102.200`
 
 Once you allowlist this IP address, calls for this integration will be able to connect to your network and allow the integration to work as expected.
+
+> GitHub Enterprise requires the ability to reach the above IP from the network where your GitHub Enterprise server instance is hosted. If your server instance is in a VPC, you may need to modify the network access control list or rules there.
 
 ## Troubleshooting the GitHub integration
 
