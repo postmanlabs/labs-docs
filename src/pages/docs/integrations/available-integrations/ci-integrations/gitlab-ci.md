@@ -1,6 +1,6 @@
 ---
 title: "GitLab CI/CD"
-updated: 2022-04-29
+updated: 2022-06-09
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -9,7 +9,9 @@ contextual_links:
     url: "/docs/integrations/ci-integrations/"
 ---
 
-[GitLab CI/CD](https://docs.gitlab.com/ee/ci/) is a continuous integration (CI) and continuous delivery (CD) service that's integrated with GitLab SaaS. Software development teams can use GitLab CI/CD to automatically build, test, and deploy code in GitLab.
+> __[GitLab Self-Managed integrations are only available on Postman Enterprise plans.](https://www.postman.com/pricing)__
+
+[GitLab CI/CD](https://docs.gitlab.com/ee/ci/) is a continuous integration (CI) and continuous delivery (CD) service that's integrated with GitLab SaaS and GitLab self-managed. Software development teams can use GitLab CI/CD to automatically build, test, and deploy code in GitLab.
 
 To set up a GitLab CI/CD integration for your API, first create a pipeline in GitLab and then configure your API in Postman. After you set up the integration, you can view the status of builds or start a new build, all from within Postman.
 
@@ -21,16 +23,29 @@ If you haven't already, create a pipeline in the GitLab repository you use for y
 
 ## Configuring a GitLab CI/CD integration
 
+To configure a GitLab CI/CD integration for Gitlab SaaS or GitLab self-managed:
+
 1. Open your API by selecting **APIs** in the sidebar, and then selecting an API and a version. *Each API version can be linked to one CI project*.
 1. Select the **Test** tab.
-1. Under **Connect to CI/CD Builds**, select **GitLab**.
+1. Under **Connect to CI/CD Builds**, select **GitLab SaaS** or **GitLab self-managed**.
 1. You'll be prompted to authorize Postman to access your GitLab account. After you grant access, you can close the browser tab and return to Postman.
-1. Enter a **Nickname** to help you recognize the integration later.
-1. Select the **Workspace** containing your API repository.
+
+For GitLab SaaS, do the following:
+
+1. Enter a **Nickname** to help you recognize the integration later. Postman pre-fills a nickname in the format `GitLab-{API_NAME}-{API_VERSION_NAME}`, and you can edit it if you want.
+1. Select the GitLab **Workspace** with your API repository.
 1. Select the **CI project** used for your API.
 1. Select **Connect**.
 
-   <img alt="Connect to GitLab CI/CD" src="https://assets.postman.com/postman-docs/gitlab-ci-connect-project-v9-16.jpg" />
+<img alt="Connect to GitLab CI/CD" src="https://assets.postman.com/postman-docs/gitlab-saas-connect-ci-cd-v9-19.jpg" />
+
+For GitLab self-managed, do the following:
+
+1. Enter the URL for your GitLab self-managed domain.
+1. Enter your GitLab personal access token. When [creating your token](https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html), make sure to select the **api**, **read_api**, **read_user**, and **write_repository** scopes.
+1. Select **Authenticate**.
+
+<img alt="Connect to GitLab CI/CD" src="https://assets.postman.com/postman-docs/gitlab-hosted-connect-ci-cd-v9-19.jpg" />
 
 ## Viewing build status
 
@@ -41,8 +56,8 @@ To view build jobs, open an API version and select the **Test** tab. The most re
 Select **View All Builds** to view the full list of build jobs. From here you can take the following actions:
 
 * Use the dropdown lists to filter jobs by branch or build status.
-* To view a build in GitLab, hover over a build and select **View build details**.
-* To start a new build, select **Run Build**. Enter the name of the branch to use and select **Run Build**. To cancel a running build, select **Cancel** next to the build.
+* To view a build in GitLab, select the build name.
+* To start a new build, select **Run Build**. Select or enter the name of the branch to use, and then select **Run Build**. To cancel a running build, select **Cancel** next to the build.
 * To get the latest build status information, select <img alt="Refresh icon" src="https://assets.postman.com/postman-docs/icon-refresh-v9-5.jpg#icon" width="14px"> **Refresh**.
 * To edit or delete the integration, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px">.
 * To view more details for a build, use the arrows to expand a build and expand **Build Steps**. For each build step you can view the name, duration, and status.
@@ -72,7 +87,7 @@ To generate configuration code for Newman:
 1. Open your API version and select the **Test** tab.
 1. Under **CI/CD Builds**, select **View All Builds**.
 1. Select **Configure Newman**.
-1. Select a **Collection** to run during pipeline builds. You can also select an **Environment** to use.
+1. Select a **Collection** to run during pipeline builds. To be available in the dropdown list, you must first [add the collection as a test suite](/docs/designing-and-developing-your-api/testing-an-api/#adding-tests) to your API. You can also select an **Environment** to use.
 
     > If needed, select **+ Add More** to select other collections to run.
 
