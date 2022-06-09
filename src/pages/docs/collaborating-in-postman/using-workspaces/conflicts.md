@@ -28,7 +28,7 @@ contextual_links:
 warning: false
 ---
 
-By syncing your Postman data with an account, you can work between devices and as part of a team. If a conflict occurs between the data in your local app and the data synced to the Postman servers, you will be prompted to choose which version to preserve.
+By syncing your Postman data with an account, you can work between devices and as part of a team. If a conflict occurs between the data in your local app and the data synced to the Postman servers, Postman will prompt you to choose which version to preserve.
 
 For example, if a teammate makes a change to the same request you are currently working on, and their change syncs to the Postman servers while you are editing yours, then you attempt to save your changes, a conflict may arise.
 
