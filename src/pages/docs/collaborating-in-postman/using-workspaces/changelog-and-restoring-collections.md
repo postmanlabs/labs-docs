@@ -46,7 +46,7 @@ You can also [view who's active in your workspace](/docs/collaborating-in-postma
 
 ### Accessing the activity feed from Postman
 
-To access the activity feed in Postman, select the Overview tab and go to the **Activity** section learn about events that have occurred within the workspace.
+To access the activity feed in Postman, select the **Overview** tab. Go to the **Activity** section to learn about events that have occurred within the workspace.
 
 [![Activity feed from postman](https://assets.postman.com/postman-docs/activity-feed-overview-v8.jpg)](https://assets.postman.com/postman-docs/activity-feed-overview-v8.jpg)
 
