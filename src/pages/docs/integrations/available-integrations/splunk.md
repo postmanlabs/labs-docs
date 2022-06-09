@@ -37,7 +37,7 @@ Sign in to [Splunk](https://login.splunk.com) and follow the [steps from Splunk]
 
    [![splunk integrations search all](https://assets.postman.com/postman-docs/splunk-all-search.jpg)](https://assets.postman.com/postman-docs/splunk-all-search.jpg)
 
-1. You can select **View All** to see all integrations already created by your team.
+1. You can select **View All** for a list of all the integrations already created by your team.
 
    [![splunk integrations view all](https://assets.postman.com/postman-docs/splunk-view-all.jpg)](https://assets.postman.com/postman-docs/splunk-view-all.jpg)
 

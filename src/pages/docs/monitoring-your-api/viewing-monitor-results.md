@@ -64,7 +64,7 @@ You can view your collection-based monitors in Postman by navigating to your wor
 
 ### Monitor summary
 
-You can use the **Monitor Summary** to see how your APIs have performed over time. Each monitor run is represented by a bar in the graph.
+You can use the **Monitor Summary** to understand how your APIs have performed over time. Each monitor run is represented by a bar in the graph.
 
 The upper section charts your monitor's average response time for each run, while the lower section visualizes the number of failed tests for each run across all regions. To view the exact response time and failed percent, you can hover over each run individually.
 
@@ -126,7 +126,7 @@ Select **Average** to open the menu, then select an option. To view the calculat
 
 ### Time traverse
 
-You can review past run results to see what happened at a particular point in time. To do so, select **Go to** in the upper-left corner of the monitor summary or request split graph. Select the time and date, then select **Apply** to view a specific run.
+You can review past run results to understand what happened at a particular point in time. To do so, select **Go to** in the upper-left corner of the monitor summary or request split graph. Select the time and date, then select **Apply** to view a specific run.
 
 ![Time traverse](https://assets.postman.com/postman-docs/monitors-time-traverse20.jpg)
 

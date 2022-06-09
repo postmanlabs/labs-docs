@@ -221,7 +221,7 @@ If you encounter any issues installing and running Postman, check out the follow
 
 ### Update failed error
 
-If you see an __Update Failed__ notification in Postman, you can use the DevTools to investigate.
+If you get an __Update Failed__ notification in Postman, you can use the DevTools to investigate.
 
 ![update-error-dialog](https://assets.postman.com/postman-docs/update-error-dialog.png)
 
@@ -240,7 +240,7 @@ Some known errors are as follows:
 
 ### Update not available
 
-If you are using Postman for Linux, and installed the app with the Ubuntu Software Center or Snap Store, you may not see the __Check for updates__ option. This is because the updates are handled by the store, which automatically updates Postman on a regular cadence.
+If you are using Postman for Linux, and installed the app with the Ubuntu Software Center or Snap Store, you may not have the __Check for updates__ option. This is because the updates are handled by the store, which automatically updates Postman on a regular cadence.
 
 ## Next steps
 

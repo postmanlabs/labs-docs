@@ -202,7 +202,7 @@ You can view and search the details of calls to your mock servers using the mock
 
 The mock call log lists an overview of calls made to the mock url, together with request and response details you can drill down into.
 
-Mock call log entries indicate the time a request was sent, the request method and path, and a response overview. Select an entry to see more detail on request headers and body, or response headers and body.
+Mock call log entries indicate the time a request was sent, the request method and path, and a response overview. Select an entry for more details about the request headers and body, or response headers and body.
 
 Use the search field to find particular calls. Use the refresh icon <img alt="Refresh icon" src="https://assets.postman.com/postman-docs/icon-refresh-v9-5.jpg#icon" width="14px"> at the top of the list to view up to date requests.
 
@@ -212,13 +212,13 @@ You can use the mock call log to troubleshoot your requests to mock servers.
 
 [![Mock Call Error](https://assets.postman.com/postman-docs/mock-not-found-v8.jpg)](https://assets.postman.com/postman-docs/mock-not-found-v8.jpg)
 
-If you see `No matching requests` listed in the __Response__ column, this may mean that your mock server is not setup correctly. Make sure [you have an example saved for the request](/docs/designing-and-developing-your-api/mocking-data/mocking-with-examples/) in the collection you have the mock connected to.
+If the __Response__ column contains `No matching requests`, this may mean that your mock server is not setup correctly. Make sure [you have an example saved for the request](/docs/designing-and-developing-your-api/mocking-data/mocking-with-examples/) in the collection you have the mock connected to.
 
 In the case of a service outage, you will get a `502`, `503`, or `504` response. Check the Postman [status page](https://status.postman.com/) for updates if you encounter this.
 
 ## Next steps
 
-For more information about mock servers, see the following resources:
+For more information about mock servers, read the following resources:
 
 * [Mocking with examples](/docs/designing-and-developing-your-api/mocking-data/mocking-with-examples/)
 * [Mocking with the Postman API](/docs/designing-and-developing-your-api/mocking-data/mock-with-api/)

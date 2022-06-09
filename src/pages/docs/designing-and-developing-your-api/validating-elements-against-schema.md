@@ -43,7 +43,7 @@ Postman indicates validation errors on your API schema as you edit it in the **D
 
 The pane below the schema editing area displays issues. You can hide and show the error view as you work.
 
-Each error will indicate the type, the line on which it occurs, and details of the issue. You can also hover over the error inline in the editor to see information as you type.
+Each error will indicate the type, the line on which it occurs, and details of the issue. To get more information as you type, you can also hover over the error inline in the editor.
 
 [![Schema error](https://assets.postman.com/postman-docs/schema-validation-error-open-v9.jpg)](https://assets.postman.com/postman-docs/schema-validation-error-open-v9.jpg)
 
@@ -85,7 +85,7 @@ If an issue arises when you run a request, select the warning message next to th
 
 > You can select a specific issue to access the relevant request component.
 
-If your issue relates to another element, open your API by selecting **APIs** in the sidebar, then select an API version from the list. Open the tab containing the element you want to see issues for (either **Overview**, **Test** or **Monitoring**).
+If your issue relates to another element, open your API by selecting **APIs** in the sidebar, then select an API version from the list. Open the tab containing the element you want to inspect issues for (either **Overview**, **Test**, or **Monitoring**).
 
 If Postman finds any issues during validation, view them by selecting **Issues found** > **View issues**. This will take you to a page summarizing validation issues.
 

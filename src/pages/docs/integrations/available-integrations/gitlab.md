@@ -40,7 +40,7 @@ Postman 9.0 introduced the ability to connect a git repository to an API. Instea
 
 1. Search and select **GitLab**.
 
-1. You can select **View** or **View All** to see all integrations created by your team.
+1. You can select **View** or **View All** for a list of all the integrations created by your team.
 
    ![gitlab add integration](https://assets.postman.com/postman-docs/gitlab-add-integration.jpg)
 
