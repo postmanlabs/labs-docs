@@ -92,7 +92,7 @@ To confirm, select **Remove User From Team**.
 
 When you remove a user from your team, you will still retain access to any data they have shared with the team. However, any data in the user’s personal workspaces is owned by that user and their ownership for that data won't be transferred when they're removed from your team.
 
-> **Billing ramifications:** When you remove a member from your team, this doesn't automatically reduce the number of paid slots for your team unless the member was added by [Auto-Flex](/docs/administration/billing/#utilizing-auto-flex) during the current Auto-Flex cycle. If you want to reduce the number of paid slots on your team, a member of your team with the [Billing role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) must [edit your plan](/docs/administration/billing/#changing-your-plan).
+> Note that when you remove a member from your team, this doesn't automatically reduce the number of paid slots for your team unless the member was added by [Auto-Flex](/docs/administration/billing/#utilizing-auto-flex) during the current Auto-Flex cycle. If you want to reduce the number of paid slots on your team, a member of your team with the [Billing role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can [edit your plan](/docs/administration/billing/#changing-your-plan).
 
 ### Managing team roles
 
