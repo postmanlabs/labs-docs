@@ -41,7 +41,7 @@ For GitLab SaaS, do the following:
 
 For GitLab self-managed, do the following:
 
-1. Enter the URL for your GitLab self-managed domain.
+1. Enter the URL of your GitLab self-managed domain.
 1. Enter your GitLab personal access token. When [creating your token](https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html), make sure to select the **api**, **read_api**, **read_user**, and **write_repository** scopes.
 1. Select **Authenticate**.
 
