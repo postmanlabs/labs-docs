@@ -37,7 +37,7 @@ For GitLab SaaS, do the following:
 1. Select the **CI project** used for your API.
 1. Select **Connect**.
 
-<img alt="Connect to GitLab CI/CD" src="https://assets.postman.com/postman-docs/gitlab-saas-connect-ci-cd-v9-19.jpg" />
+<img alt="Connect to GitLab CI/CD" src="https://assets.postman.com/postman-docs/gitlab-saas-connect-ci-cd-v9-19.jpg" width="571px" />
 
 For GitLab self-managed, do the following:
 
@@ -45,11 +45,11 @@ For GitLab self-managed, do the following:
 1. Enter your GitLab personal access token. When [creating your token](https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html), make sure to select the **api**, **read_api**, **read_user**, and **write_repository** scopes.
 1. Select **Authenticate**.
 
-<img alt="Connect to GitLab CI/CD" src="https://assets.postman.com/postman-docs/gitlab-hosted-connect-ci-cd-v9-19.jpg" />
+<img alt="Connect to GitLab CI/CD" src="https://assets.postman.com/postman-docs/gitlab-hosted-connect-ci-cd-v9-19.jpg" width="571px" />
 
 ## Viewing build status
 
-After you set up a GitLab integration, information for build jobs is available in Postman. For each build you can view the branch, start time, duration, and status (successful or failed). You can also view the results of collection runs that are [configured in your pipeline using Newman](#viewing-collection-run-details).
+After you set up a GitLab integration, information for build jobs is available in Postman. For each build you can view the branch, start time, and status (successful or failed). You can also view the results of collection runs that are [configured in your pipeline using Newman](#viewing-collection-run-details).
 
 To view build jobs, open an API version and select the **Test** tab. The most recent jobs are listed under **CI/CD Builds**.
 
@@ -62,7 +62,7 @@ Select **View All Builds** to view the full list of build jobs. From here you ca
 * To edit or delete the integration, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px">.
 * To view more details for a build, use the arrows to expand a build and expand **Build Steps**. For each build step you can view the name, duration, and status.
 
-<img alt="View all GitLab builds" src="https://assets.postman.com/postman-docs/gitlab-builds-v9-16.jpg">
+<img alt="View all GitLab builds" src="https://assets.postman.com/postman-docs/gitlab-builds-v9-19.jpg">
 
 ## Viewing collection run details
 
@@ -70,7 +70,7 @@ Using Newman, you can run Postman collections with your API tests as part of a G
 
 To view details for collections that were run as part of a build, first [configure Newman for GitLab](#configuring-newman-for-gitlab-cicd) and then [start a new build](#viewing-build-status). After the build is complete, use the arrows to expand a build and expand **Collection Runs**. Then expand a collection to view details about a collection run.
 
-<img alt="View collection runs" src="https://assets.postman.com/postman-docs/gitlab-collection-runs-v9-16.jpg">
+<img alt="View collection runs" src="https://assets.postman.com/postman-docs/gitlab-collection-runs-v9-19.jpg">
 
 > Select **View Report** to view a collection run report in the Postman **History**. Learn more about using the [Collection Runner](/docs/running-collections/intro-to-collection-runs/).
 
@@ -80,7 +80,7 @@ With the help of Newman and the Postman API, you can run API tests created in Po
 
 Each time the pipeline runs, Newman runs the collections that contain your tests. You can view the results of your tests in Postman. You an also configure the [Postman cloud reporter](https://www.npmjs.com/package/newman-reporter-postman-cloud) to send detailed collection run information back to Postman.
 
-> Before you begin, make sure you’ve already [set up an integration](/docs/designing-and-developing-your-api/versioning-an-api/#connecting-a-repository) between your API version and GitLab.
+> Before you begin, make sure you’ve already [set up an integration](#configuring-a-gitlab-cicd-integration) between your API version and GitLab CI/CD.
 
 To generate configuration code for Newman:
 
@@ -91,10 +91,10 @@ To generate configuration code for Newman:
 
     > If needed, select **+ Add More** to select other collections to run.
 
-1. (Optional) Select the check box to use the Postman cloud reporter to send collection run information back to Postman. You can view the collection run details in the Postman **History** and on the API version **Test** tab.
+1. (Optional) Select the checkbox to use the Postman cloud reporter to send collection run information back to Postman. You can view the collection run details in the Postman **History** and on the API version **Test** tab.
 1. Select **Copy** to copy the Newman configuration, and then select **Finish**.
 
-   <img alt="Generate Newman configuration" src="https://assets.postman.com/postman-docs/gitlab-ci-generate-newman-v9-16.jpg" />
+   <img alt="Generate Newman configuration" src="https://assets.postman.com/postman-docs/gitlab-ci-generate-newman-v9-16.jpg" width="447px" />
 
 To add the Newman configuration to your GitLab pipeline:
 
@@ -115,5 +115,5 @@ build_code_job:
     script:
         - npm i -g newman
         - npm i -g newman-reporter-postman-cloud
-        - newman run "https://api.getpostman.com/collections/733336-007044ca-213d-4ca1-a935-1ad2f1f65145?apikey=$POSTMAN_API_KEY"  --environment "https://api.getpostman.com/environments/733336-cceafe18-8a69-4c70-b0b9-aab4d5823ecb?apikey=$POSTMAN_API_KEY" -r postman-cloud --reporter-apiKey "$POSTMAN_API_KEY" --reporter-workspaceId "32da4917-f0a9-40a1-893c-3ad988cb670e" --reporter-integrationIdentifier 47056-${CI_PIPELINE_ID}
+        - newman run "https://api.getpostman.com/collections/4946945-3c52d739-1511-4303-b191-bf1eb187dedc?apikey=$POSTMAN_API_KEY"  --environment "https://api.getpostman.com/environments/16724969-8e6c6119-ed57-4665-b4f9-f648c5637484?apikey=$POSTMAN_API_KEY" -r postman-cloud --reporter-apiKey "$POSTMAN_API_KEY" --reporter-workspaceId "32da4917-f0a9-40a1-893c-3ad988cb670e" --reporter-integrationIdentifier 47056-${CI_PIPELINE_ID}
 ```
