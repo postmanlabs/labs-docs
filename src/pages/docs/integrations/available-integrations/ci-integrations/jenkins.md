@@ -88,7 +88,7 @@ To generate configuration code for Newman:
 1. Open your API version and select the **Test** tab.
 1. Under **CI/CD Builds**, select **View Builds**.
 1. Select **Configure Newman**.
-1. Select a **Collection** to run during pipeline builds. You can also select an **Environment** to use.
+1. Select a **Collection** to run during pipeline builds. To be available in the dropdown list, you must first [add the collection as a test suite](/docs/designing-and-developing-your-api/testing-an-api/#adding-tests) to your API. You can also select an **Environment** to use.
 
     > If needed, select **+ Add More** to select other collections to run.
 
@@ -129,7 +129,7 @@ pipeline {
 
     stage('Running collection') {
       steps {
-        sh 'newman run "https://api.getpostman.com/collections/12420868-2ffef72e-d740-456c-a0c6-a6af9ec8755c?apikey=$POSTMAN_API_KEY" -r postman-cloud --reporter-apiKey "$POSTMAN_API_KEY" --reporter-workspaceId "4f4f98fb-7127-4cb5-8cb8-fddce86d53a6" --reporter-integrationIdentifier "107267-${JOB_NAME}${BUILD_NUMBER}"'
+        sh 'newman run "https://api.getpostman.com/collections/4946945-3673316a-9a35-4b0d-a148-3566b490798d?apikey=$POSTMAN_API_KEY" -r postman-cloud --reporter-apiKey "$POSTMAN_API_KEY" --reporter-workspaceId "34f3a42c-18a7-4ad6-83fb-2c05767d63a7" --reporter-integrationIdentifier "107267-${JOB_NAME}${BUILD_NUMBER}"'
       }
     }
   }

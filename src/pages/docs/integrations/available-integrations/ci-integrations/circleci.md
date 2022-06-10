@@ -52,7 +52,7 @@ Select **View All Builds** to view the full list of build jobs. From here you ca
 
 * Use the dropdown lists to filter jobs by branch or build status.
 * To view a build in CircleCI, hover over a build and select **View build details**.
-* To start a new build, select **Run Build**. Enter the name of the branch to use and select **Run Build**.
+* To start a new build, select **Run Build**. Select or enter the name of the branch to use and select **Run Build**.
 * To get the latest build status information, select <img alt="Refresh icon" src="https://assets.postman.com/postman-docs/icon-refresh-v9-5.jpg#icon" width="14px"> **Refresh**.
 * To edit or delete the integration, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px">.
 
@@ -67,13 +67,13 @@ To generate configuration code for Newman:
 1. Open your API version and select the **Test** tab.
 1. Under **CI/CD Builds**, select **View All Builds**.
 1. Select **Configure Newman**.
-1. Select a **Collection** to run during pipeline builds. You can also select an **Environment** to use.
+1. Select a **Collection** to run during pipeline builds. To be available in the dropdown list, you must first [add the collection as a test suite](/docs/designing-and-developing-your-api/testing-an-api/#adding-tests) to your API. You can also select an **Environment** to use.
 
     > If needed, select **+ Add More** to select other collections to run.
 
 1. Select **Copy** to copy the Newman configuration, and then select **Finish**.
 
-<img alt="Generate Newman configuration" src="https://assets.postman.com/postman-docs/ci-generate-newman-config-v9.jpg" width="543">
+<img alt="Generate Newman configuration" src="https://assets.postman.com/postman-docs/ci-generate-newman-config-v9-21.jpg" width="543">
 
 To add the Newman configuration to your CircleCI project:
 
@@ -99,8 +99,8 @@ jobs:
       - checkout
 
       - newman/newman-run:
-        collection: https://api.getpostman.com/collections/789883-28b680e3-eb56-4135-8f4c-de01a6e494e9?apikey=$POSTMAN_API_KEY
-        environment: https://api.getpostman.com/environments/5d1b4d44-ac1e-4eb6-9062-b28cd96333a4?apikey=$POSTMAN_API_KEY
+        collection: https://api.getpostman.com/collections/4946945-3673316a-9a35-4b0d-a148-3566b490798d?apikey=$POSTMAN_API_KEY
+        environment: https://api.getpostman.com/environments/16724969-8e6c6119-ed57-4665-b4f9-f648c5637484?apikey=$POSTMAN_API_KEY
 
 workflows:
   example-workflow:
