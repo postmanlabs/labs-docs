@@ -33,7 +33,7 @@ contextual_links:
 warning: false
 ---
 
-Examples show your API endpoints in action and provide additional details on exactly how requests and responses work. You can quickly add an example to a request just by saving a response, or create an example with a custom response to illustrate a specific use case. Once you've created examples, you can use them to set up a mock server or add more detail to your API documentation.
+Examples show your API endpoints in action and provide additional details on exactly how requests and responses work. You can add an example to a request by saving a response, or you can create an example with a custom response to illustrate a specific use case. Once you've created examples, you can use them to set up a mock server or add more detail to your API documentation.
 
 ## Contents
 

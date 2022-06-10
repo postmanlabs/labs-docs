@@ -27,9 +27,9 @@ This integration allows you to configure [Postman Monitors](/docs/monitoring-you
    [![sign in to Splunk On-Call](https://assets.postman.com/postman-docs/58842896.png)](https://assets.postman.com/postman-docs/58842896.png)
 1. From the list of integrations, select the **REST Generic** Integration.
    [![select REST Generic](https://assets.postman.com/postman-docs/58843113.png)](https://assets.postman.com/postman-docs/58843113.png)
-1. If the integration isn't already enabled, select **Enable Integration**.
+1. If the integration isn't already turned on, select **Enable Integration**.
    [![enable integration](https://assets.postman.com/postman-docs/58843154.png)](https://assets.postman.com/postman-docs/58843154.png)
-   If the integration is enabled, you will see a URL which contains the API Key.
+   If the integration is turned on, Splunk displays a URL that contains the API Key.
    [![view API key](https://assets.postman.com/postman-docs/58843264.png)](https://assets.postman.com/postman-docs/58843264.png)
 1. Copy the API Key and save it for later.
 

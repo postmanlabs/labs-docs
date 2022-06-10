@@ -41,7 +41,7 @@ warning: false
 
 You can make requests that return mock data defined within Postman if you do not have a production API ready, or you do not want to run your requests against real data yet. By adding a mock server to your collection and adding examples to your requests, you can simulate the behavior of a real API.
 
-When you send a request to a mock server, Postman will match the request configuration to the examples you have saved for the request and respond with the data you added to the example. You will see any existing mocks in your workspace from __Mock Servers__ in the sidebar.
+When you send a request to a mock server, Postman will match the request configuration to the examples you have saved for the request and respond with the data you added to the example. To view existing mocks in your workspace, select __Mock Servers__ in the sidebar.
 
 > You need to be signed into a Postman account to create a mock server.
 
@@ -57,7 +57,7 @@ To test using a mock server, carry out the following steps:
 * Give your mock a name, leaving the default tag selected, and the delay option unchecked. Select **Create Mock Server**.
 * Copy the mock URL and go back into your request. Replace the base part of the URL with the mock server URL (everything before the path, for example up to `/customers`).
 * Select **Send**. Postman will return the example response you saved for the request, this time from the mock server.
-* Open the example again and alter the mock response JSON, then save it and send the request again—you will see your edited mock response.
+* Open the example again and alter the mock response JSON, then save it and send the request again. Postman will return your edited mock response.
 
 ## Contents
 
@@ -146,7 +146,7 @@ Postman will display the details you'll need to use the mock (you can also get t
 
 Select **Copy Mock URL** to begin making requests to your mock.
 
-You will see details of the mock in the collection overview info on the right.
+Details about the mock are in the collection overview info on the right.
 
 [![Mock in collection](https://assets.postman.com/postman-docs/mock-info-v8.jpg)](https://assets.postman.com/postman-docs/mock-info-v8.jpg)
 
@@ -202,7 +202,7 @@ You can view and search the details of calls to your mock servers using the mock
 
 The mock call log lists an overview of calls made to the mock url, together with request and response details you can drill down into.
 
-Mock call log entries indicate the time a request was sent, the request method and path, and a response overview. Select an entry to see more detail on request headers and body, or response headers and body.
+Mock call log entries indicate the time a request was sent, the request method and path, and a response overview. Select an entry for more details about the request headers and body, or response headers and body.
 
 Use the search field to find particular calls. Use the refresh icon <img alt="Refresh icon" src="https://assets.postman.com/postman-docs/icon-refresh-v9-5.jpg#icon" width="14px"> at the top of the list to view up to date requests.
 
@@ -212,13 +212,13 @@ You can use the mock call log to troubleshoot your requests to mock servers.
 
 [![Mock Call Error](https://assets.postman.com/postman-docs/mock-not-found-v8.jpg)](https://assets.postman.com/postman-docs/mock-not-found-v8.jpg)
 
-If you see `No matching requests` listed in the __Response__ column, this may mean that your mock server is not setup correctly. Make sure [you have an example saved for the request](/docs/designing-and-developing-your-api/mocking-data/mocking-with-examples/) in the collection you have the mock connected to.
+If the __Response__ column contains `No matching requests`, this may mean that your mock server is not setup correctly. Make sure [you have an example saved for the request](/docs/designing-and-developing-your-api/mocking-data/mocking-with-examples/) in the collection you have the mock connected to.
 
 In the case of a service outage, you will get a `502`, `503`, or `504` response. Check the Postman [status page](https://status.postman.com/) for updates if you encounter this.
 
 ## Next steps
 
-For more information about mock servers, see the following resources:
+For more information about mock servers, read the following resources:
 
 * [Mocking with examples](/docs/designing-and-developing-your-api/mocking-data/mocking-with-examples/)
 * [Mocking with the Postman API](/docs/designing-and-developing-your-api/mocking-data/mock-with-api/)

@@ -30,7 +30,7 @@ contextual_links:
     url: "/docs/designing-and-developing-your-api/managing-apis/"
 ---
 
-You can use Postman Monitors to track functionality and end-to-end performance of your APIs and response time. You can also view New Relic metrics for your API, and see relevant New Relic dashboards and deployments within Postman.
+You can use Postman Monitors to track functionality and end-to-end performance of your APIs and response time. You can also inspect New Relic metrics for your API, and access relevant New Relic dashboards and deployments within Postman.
 
 * [Linking collection-based monitors](#linking-collection-based-monitors)
 * [Linking uptime monitors](#linking-uptime-monitors)
@@ -143,7 +143,7 @@ To connect an API to New Relic APM:
 1. On the **Monitor API performance** tab:
     * Enter a New Relic User API Key.
 
-        > There are multiple types of API keys in New Relic. Make sure to use a **User** key for connecting an API to New Relic. For more information on API keys in New Relic, see the [New Relic API keys documentation](https://docs.newrelic.com/docs/apis/intro-apis/new-relic-api-keys/).
+        > There are multiple types of API keys in New Relic. Make sure to use a **User** key for connecting an API to New Relic. For more information on API keys in New Relic, read the [New Relic API keys documentation](https://docs.newrelic.com/docs/apis/intro-apis/new-relic-api-keys/).
 1. In **Services** select one or more of your New Relic APM services.
 1. Optionally, in **Link dashboard**, select one or more of your New Relic Dashboards.
 1. Select your New Relic region.
@@ -155,7 +155,7 @@ To connect an API to New Relic APM:
 
 Once your New Relic connection is established, the **Monitoring** tab will show a table of your services, along with their latency, error rate, apdex (ratio of successful to total requests), and health status.
 
-Health status is based on violations of alert conditions in New Relic, as shown in the table below. For more information, see the New Relic documentation for [viewing alert violations](https://docs.newrelic.com/docs/alerts-applied-intelligence/new-relic-alerts/alert-violations/view-alert-violations-our-products/).
+Health status is based on violations of alert conditions in New Relic, as shown in the table below. For more information, read the New Relic documentation for [viewing alert violations](https://docs.newrelic.com/docs/alerts-applied-intelligence/new-relic-alerts/alert-violations/view-alert-violations-our-products/).
 
 | Status | Description |
 | ----------- | ----------- |

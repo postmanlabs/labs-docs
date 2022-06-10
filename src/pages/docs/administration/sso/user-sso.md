@@ -26,7 +26,7 @@ To sign into Postman:
 
 <img src="https://assets.postman.com/postman-docs/create-account-or-sign-in.jpg" alt="Create account or sign in"/>
 
-When you opt to sign into the desktop version of Postman, you will see the following screen and your default browser will automatically open a webpage asking you to sign into Postman.
+When you opt to sign into the desktop version of Postman, your default browser will automatically open a webpage asking you to sign into Postman.
 
 > Your browser will open within a few seconds. If it doesn't, select **open your browser** in Postman.
 
@@ -48,6 +48,6 @@ Postman will redirect you to the configured SSO provider. Enter your SSO details
 
 > The first time you sign in to Postman, you may need to carry out additional steps to set up access to your identity provider account. Sign in using SSO and follow your provider's steps to connect the account to Postman.
 
-Upon signing in, you will see a confirmation in your browser and you will be redirected back to Postman.
+When you sign in, you will get a confirmation in your browser and you will be redirected back to Postman.
 
 <img src="https://assets.postman.com/postman-docs/youre-signed-in-confirmation.jpg" width="350px" alt="Signed in confirmation"/>
