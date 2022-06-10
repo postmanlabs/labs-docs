@@ -35,7 +35,7 @@ In the Postman web dashboard, select [Team Settings](https://go.postman.co/setti
 
 [![edit view for team](https://assets.postman.com/postman-docs/edit-team-profile-a.jpg)](https://assets.postman.com/postman-docs/edit-team-profile-a.jpg)
 
-In the __Custom Domains__ section, there is a list of domains indicated with verification status. Select __Add custom domain__.
+The __Custom Domains__ section contains a list of domains with the verification status of each. Select __Add custom domain__.
 
 [![custom domain dashboard](https://assets.postman.com/postman-docs/dashboard-view-custom-domains-v9.1.jpg)](https://assets.postman.com/postman-docs/dashboard-view-custom-domains-v9.1.jpg)
 
