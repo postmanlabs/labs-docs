@@ -1,6 +1,6 @@
 ---
 title: "Configuring proxy settings"
-updated: 2022-06-08
+updated: 2022-06-13
 page_id: "proxy"
 search_keyword: "HTTP_PROXY, NO_PROXY"
 contextual_links:
@@ -25,7 +25,7 @@ A proxy is an intermediary server that sits between a client application (like P
 
 <img alt="Standard web proxy" src="https://assets.postman.com/postman-docs/proxy-standard-flow.jpg">
 
-By default, the Postman Desktop app uses your system's configured proxy to send API requests or access the internet. If needed, you can enter authentication details for the default proxy in the Postman app. You can also configure Postman to use the system proxy or a custom proxy when sending requests.
+By default, the Postman Desktop app uses your system's configured proxy to send API requests or access the internet. If needed, you can enter authentication details for the default proxy in the Postman Desktop app. You can also configure Postman to use the system proxy or a custom proxy when sending requests.
 
 > The steps below show how to configure Postman to use a proxy server when sending requests or accessing online resources. If you want to configure Postman's built-in proxy to capture API requests, see [Capturing request data overview](/docs/sending-requests/capturing-request-data/capture-overview/).
 
@@ -42,7 +42,7 @@ If you have configured a proxy for your local system, the Postman Desktop app us
 
 > You can't configure the default proxy in Postman for Web. Instead, use the [system proxy](#using-the-system-proxy-for-requests) or a [custom proxy](#using-a-custom-proxy-for-requests) for sending requests.
 
-If the proxy server configured for your system requires authentication, add the credentials to the Postman Desktop app. Do the following:
+If the proxy server configured for your system requires basic authentication, add the credentials to the Postman Desktop app. Do the following:
 
 1. In the Postman Desktop app, select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the header and select **Settings**.
 1. Select the **Proxy** tab.
@@ -87,23 +87,34 @@ To configure Postman to use a custom proxy:
 
 ## Troubleshooting proxy configurations
 
-If you are unable to send any requests through Postman and your network requires a proxy, take the following steps:
+If you're having problems sending requests from Postman, see the topics below for help resolving the issue.
 
-* Enable the system proxy and make sure the proxy is added to the operating system:
-    * **Windows** - Select **Start**, then select the gear icon (**Settings**) at the far left. In Settings, select **Network & Internet**. In the left-hand pane, select **Proxy** at the bottom. Select **Manual Proxy Setup** > use a Proxy **(ON)**.
+> For more help with configuration and request issues, see [Troubleshooting requests](/docs/sending-requests/troubleshooting-api-requests/).
 
-    * **Mac** - Open System Preferences and select **Network**. On the left-hand side, make sure to select the connected or active network connection. You can have different proxy settings for each type of network connection. At the bottom, select **Advanced**. Select the **Proxies** tab and you will see different protocols you can configure. If you select **Web Proxy (HTTP)**, you will be able to enter the proxy server IP address, port number, username, and password.
+### I can't send a request and my network requires a proxy
 
-    * **Linux** - In System Settings, scroll down to **Hardware**, select **Networking**, and select **Network Proxy**. You can choose **Automatic** or **Manual**.
+Enable the [system proxy option](#using-the-system-proxy-for-requests) in Postman and make sure the proxy is configured for your operating system:
 
-If you are unable to send any requests through Postman and your network doesn't require a proxy, take the following steps:
+* **Windows** - Open **Settings**, select **Network & Internet**, and select **Proxy**. Under **Manual proxy setup**, turn on the toggle. Enter the proxy address and port, and then select **Save**.
 
-* Ensure you have both proxies (Custom/System) deactivated. If you are still not able to send the request, it might be due to the environment variables setup in your system. Two solutions are available to solve this:
+* **macOS** - Open **System Preferences** and select **Network**. Select your active network connection, select **Advanced**, and select the **Proxies** tab. Select **Web Proxy (HTTP)** and enter the proxy address and port. you can also enter the username and password if needed. Select **OK** and then select **Apply**.
 
-    * Remove the environment variables `http_proxy`, `https_proxy`, `HTTP_PROXY`, and `HTTPS_PROXY`. Regardless of the proxy setting in the app, Postman will still use the system proxy if there is an environment variable set.
-    * Start Postman with these "variables" turned off:
+* **Linux** - (These steps may vary depending on your Linux distribution.) Open **Settings**, select **Network**, and turn on the **Network Proxy** option. Select **Automatic** or **Manual**, and then enter the configuration settings for your proxy.
 
-        * **Windows** - Create a `postman.bat` file with the following contents:
+### I can't send a request and my network doesn't require a proxy
+
+In Postman, make sure both the system proxy and custom proxy are turned off:
+
+1. Select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the header and select **Settings**.
+1. Select the **Proxy** tab.
+1. Clear the **Use the system proxy** and **Add a custom proxy configuration** checkboxes.
+
+If you still can't send requests, the problem might be due to environment variables configured for your operating system. If there are environment variables, Postman will use the system proxy and ignore the proxy settings in Postman. Do one of the following:
+
+* Remove the environment variables `http_proxy`, `https_proxy`, `HTTP_PROXY`, and `HTTPS_PROXY` from your shell profile or operating system configuration.
+* Create a `postman.bat` file using the code for your operating system below. Run the `.bat` file to open Postman without any of the proxy environment variables set.
+
+    * **Windows** - Create a `postman.bat` file with the following code:
 
         ```shell
         set HTTP_PROXY=''
@@ -113,14 +124,23 @@ If you are unable to send any requests through Postman and your network doesn't 
         start C:\path\to\Postman.exe
         ```
 
-        Double-clicking this `.bat` file opens Postman without any of the proxy environment variables set.
+    * **macOS or Linux** – Create a `postman.bat` file with the following code:
 
-        * **Mac/Linux** – http&#95;proxy= '' https&#95;proxy= '' HTTP&#95;PROXY= '' HTTPS&#95;PROXY= '' /path/to/postman
+        ```shell
+        http_proxy=''
+        https_proxy=''
+        HTTP_PROXY=''
+        HTTPS_PROXY=''
+        /path/to/postman
+        ```
 
-If your proxy has basic auth, take the following steps:
+### The proxy on my system requires basic authentication
 
-* Start Postman with the appropriate environment variables:
-    * **Windows** - Create a `postman.bat` file with the following contents:
+Make sure to [configure basic authentication](#configuring-the-default-proxy) for the default proxy in the Postman Desktop app.
+
+You can also start Postman with the appropriate environment variables. Create a `postman.bat` file using the code for your operating system below. Run the `.bat` file to open Postman using your proxy configuration.
+
+* **Windows** - Create a `postman.bat` file with the following contents:
 
     ```shell
     set HTTP_PROXY=http://USER:PASS@host:port
@@ -128,15 +148,9 @@ If your proxy has basic auth, take the following steps:
     start C:\path\to\Postman.exe
     ```
 
-  Double-clicking this `.bat` file opens Postman without any of the proxy environment variables set.
-
-    * **Mac/Linux** - Create the `.sh` file with the following contents:
+* **Mac/Linux** - Create the `.sh` file with the following contents:
 
     ```shell
     HTTP_PROXY=http://USER:PASS@host:port
     HTTPS_PROXY=https://USER:PASS@host:port /path/to/postman
     ```
-
-    * Create this file and save it in a convenient location. When you open this file, the set environment variables will only apply to the Postman process.
-
-For troubleshooting configuration or request issues, see [Troubleshooting using console](/docs/sending-requests/troubleshooting-api-requests/).
