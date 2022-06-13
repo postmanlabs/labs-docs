@@ -124,7 +124,7 @@ If you still can't send requests, the problem might be due to environment variab
         start C:\path\to\Postman.exe
         ```
 
-    * **macOS or Linux** – Create a `postman.bat` file with the following code:
+    * **macOS or Linux** - Create a `postman.bat` file with the following code:
 
         ```shell
         http_proxy=''
