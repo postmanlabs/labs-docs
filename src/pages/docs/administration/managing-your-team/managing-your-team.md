@@ -15,8 +15,8 @@ contextual_links:
   - type: subtitle
     name: "Blog Posts"
   - type: link
-    name: "Manage Large Teams in Postman with Workspaces, Permissions, and Version Control"
-    url: "https://blog.postman.com/postman-team-workspaces-and-permissions/"
+    name: "How to Securely Deploy Postman at Scale, Part 1: User Management"
+    url: "https://blog.postman.com/how-to-securely-deploy-postman-at-scale-user-management/"
   - type: link
     name: "Govern Your Public API Collections More Effectively"
     url: "https://blog.postman.com/govern-your-public-api-collections-more-effectively/"
