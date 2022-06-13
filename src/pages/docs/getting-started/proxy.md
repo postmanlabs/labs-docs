@@ -43,7 +43,7 @@ Similar to the way parents might speak to each other through a child, the child 
 >>>**Parent 2**:  _Yeah._
 >>>>**Timmy**:  _Dad says yeah._
 
-In this analogy, the child forwards the information on behalf of each parent. Besides just relaying information, [proxies can do much more](https://en.wikipedia.org/wiki/Proxy_server).
+In this analogy, the child forwards the information on behalf of each parent. Besides relaying information, [proxies can do much more](https://en.wikipedia.org/wiki/Proxy_server).
 
 * Record all traffic between your machine and the internet
 * Reveal the contents of all requests, responses, cookies, and headers
@@ -115,7 +115,7 @@ If you are unable to send any requests through Postman and your network requires
 * Enable the system proxy and make sure the proxy is added to the operating system:
     * **Windows** - Select **Start**, then select the gear icon (**Settings**) at the far left. In Settings, select **Network & Internet**. In the left-hand pane, select **Proxy** at the bottom. Select **Manual Proxy Setup** > use a Proxy **(ON)**.
 
-    * **Mac** - Open System Preferences and select **Network**. On the left-hand side, make sure to select the connected or active network connection. You can have different proxy settings for each type of network connection. At the bottom, select **Advanced**. Select the **Proxies** tab and you will see different protocols you can configure. If you select **Web Proxy (HTTP)**, you will be able to enter the proxy server IP address, port number, username, and password.
+    * **Mac** - Open System Preferences and select **Network**. On the left-hand side, make sure to select the connected or active network connection. You can have different proxy settings for each type of network connection. At the bottom, select **Advanced**. Select the **Proxies** tab to configure different protocols. If you select **Web Proxy (HTTP)**, you will be able to enter the proxy server IP address, port number, username, and password.
 
     * **Linux** - In System Settings, scroll down to **Hardware**, select **Networking**, and then select **Network Proxy**. You can choose **Automatic** or **Manual**.
 

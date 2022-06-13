@@ -42,7 +42,7 @@ warning: false
 
 ---
 
-Postman Monitors give you continuous visibility into the health and performance of your APIs. Setting up a new monitor is easy and flexible. Quickly create an uptime monitor (open beta) to keep watch on a single API endpoint. Or create a collection-based monitor to run API test scripts, chain together multiple requests, and validate critical API flows.
+Postman Monitors give you continuous visibility into the health and performance of your APIs. Uptime monitors (open beta) enable you to keep watch on a single API endpoint, while collection-based monitors enable you to run API test scripts, chain together multiple requests, and validate critical API flows.
 
 Once the monitor is running you’ll be alerted to any system outages or test failures, so you can identify and address issues before your API’s consumers are affected.
 
@@ -54,9 +54,9 @@ Once the monitor is running you’ll be alerted to any system outages or test fa
 
 ## Uptime monitors
 
-Uptime monitors (open beta) make it easy to track the availability of an API or website. There’s no need to set up collections, test scripts, or environments. Enter the URL you want to monitor (HTTP or HTTPS only) and select the team members to be notified of outages.
+Uptime monitors (open beta) enable you to track the availability of an API or website. There’s no need to set up collections, test scripts, or environments. Enter the URL you want to monitor (HTTP or HTTPS only) and select the team members to be notified of outages.
 
-The uptime monitor continuously checks the availability of the URL, as often as every minute (paid plans) or every 15 minutes (free plans). As soon as downtime is detected, the selected team members will get alerted by email.
+The uptime monitor continuously checks the availability of the URL, as often as every minute (paid plans) or every 15 minutes (free plans). When Postman detects downtime, the selected team members are alerted by email.
 
 Uptime monitors ensure the availability of your API or service around the clock and help you detect system outage issues more quickly. Uptime statistics are recorded on the monitor’s dashboard, so you can always check the status of your API, view past trends, or pause the monitor as needed.
 
@@ -70,7 +70,7 @@ A collection-based monitor runs a series of requests from the Postman cloud on a
 
 You can configure your monitors to run as frequently as you would like, depending on your [Postman plan](https://www.postman.com/pricing/). For paid plans, monitors can be scheduled to run as often as every five minutes. For free plans, monitors can be scheduled to run as often as every hour. You can even specify which region of the world you’d like to run the collection from (paid plans only).
 
-Get alerted by email if a test fails or errors occur, or [set up integrations](/docs/integrations/intro-integrations/) to be notified over Slack and other channels. All results are recorded on the monitor’s dashboard, so you can view past results or see trends over time.
+Get alerted by email if a test fails or errors occur, or [set up integrations](/docs/integrations/intro-integrations/) to be notified over Slack and other channels. All results are recorded on the monitor’s dashboard, so you can view past results or inspect trends over time.
 
 Learn how to [set up a collection-based monitor](/docs/monitoring-your-api/setting-up-monitor/).
 
@@ -86,7 +86,7 @@ Because they run Postman requests and scripts, collection-based monitors can be 
 * **Monitor the security of your endpoints** - Continuously test APIs for known security vulnerabilities.
 * **Visualize results on the monitor dashboard** - Get better visibility into API performance over time and identify trends.
 
-> **Want to see Postman Monitors in action?** Visit the [Postman API Monitoring Examples public workspace](https://www.postman.com/postman/workspace/postman-api-monitoring-examples/overview) to find example collections for some common monitoring use cases. You can collaborate on the collections in the workspace by [creating a fork](/docs/collaborating-in-postman/version-control-for-collections/#creating-a-fork), or modify the collections for your team's use by [exporting and importing them into your team workspace](/docs/getting-started/importing-and-exporting-data/#exporting-collections).
+> For more examples of Postman Monitors in action, visit the [Postman API Monitoring Examples public workspace](https://www.postman.com/postman/workspace/postman-api-monitoring-examples/overview) to find example collections for some common monitoring use cases. You can collaborate on the collections in the workspace by [creating a fork](/docs/collaborating-in-postman/version-control-for-collections/#creating-a-fork), or modify the collections for your team's use by [exporting and importing them into your team workspace](/docs/getting-started/importing-and-exporting-data/#exporting-collections).
 
 ## Next steps
 

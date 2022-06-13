@@ -48,7 +48,7 @@ https://www.dataaccess.com/webservicesserver/NumberConversion.wso
 
 This SOAP endpoint changes numeric values into their text equivalents, for example changing the value "500" into "five hundred".
 
-> If you want to see other SOAP request examples, take a look at the [Public SOAP APIs](https://www.postman.com/cs-demo/workspace/public-soap-apis/overview) collection.
+> If you want to inspect more SOAP request examples, head to the [Public SOAP APIs](https://www.postman.com/cs-demo/workspace/public-soap-apis/overview) collection.
 
 ## Adding body data
 
@@ -87,7 +87,7 @@ If you are following along with the number conversion SOAP API example, you need
 
 ## Sending your request
 
-1. Select __Send__ to make your call to the SOAP service. If your call is successful, you will see the response in the lower tab in Postman.
+1. Select __Send__ to make your call to the SOAP service. If your call is successful, Postman displays the response in the lower tab.
 
 ![SOAP response data](https://assets.postman.com/postman-docs/soap-response-data-v9.jpg)
 

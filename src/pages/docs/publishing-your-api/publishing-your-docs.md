@@ -68,7 +68,7 @@ To publish the documentation for a collection:
     * **Highlight color** - Specify a color (hex format) for hyperlinks.
     * **Move to public workspace** - (Optional) Select an available [public workspace](/docs/collaborating-in-postman/using-workspaces/public-workspaces/) to move the collection to. This will make the collection discoverable on the [Public API Network](https://www.postman.com/explore), along with its documentation.
 
-1. To see what your documentation will look like using the current settings, select **Preview Documentation**. The preview automatically updates as you change settings.
+1. To understand what your documentation will look like using the current settings, select **Preview Documentation**. The preview automatically updates as you change settings.
 
     > If Postman detects a possibly sensitive token or other secret, a warning appears at the top of the preview window. Postman also highlights the token so you can remove it from the documentation before publishing.
 
