@@ -19,7 +19,7 @@ contextual_links:
 
 ## What is SSO?
 
-Single sign-on (SSO) services make it easy to manage your team’s identity across all the SaaS products that you use.
+Single sign-on (SSO) services enable you to manage your team’s identity across all the SaaS products that you use.
 
 SSO services permit a user to use one set of credentials (for example, a name or email address and password) to access multiple applications. The service authenticates the end user only once for all the applications the user has been given rights to and eliminates further prompts when the user switches applications during the same session.
 

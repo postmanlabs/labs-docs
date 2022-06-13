@@ -39,7 +39,7 @@ To view your reports dashboard:
 
 * Select **Home** in the Postman header, then select **Reports** from the team information section on the left.
 
-To see a report for a specific API:
+To access a specific API's report:
 
 1. On the report dashboard, select **All APIs** > **View Report by API**.
 1. Search for the API name, or scroll through the list to find it.
@@ -48,13 +48,13 @@ To see a report for a specific API:
 
 ### Report availability
 
-Postman generates reports periodically but not in real time. You might experience a delay of four to six hours before report data is available. You can see the last update time at the bottom of the report dashboard sidebar.
+Postman generates reports periodically but not in real time. You might experience a delay of four to six hours before report data is available. Postman displays the last update time at the bottom of the report dashboard sidebar.
 
 ### Report permissions
 
-In a given report, you can only see report data that's available to you based on the level of access you have for the relevant collection, API, element, mock server, or monitor. For more information about entity-based roles, see [Defining roles](/docs/collaborating-in-postman/roles-and-permissions/#element-based-roles).
+In a given report, you can only access report data that's available to you based on the level of access you have for the relevant collection, API, element, mock server, or monitor. For more information about element-based roles, see [Defining roles](/docs/collaborating-in-postman/roles-and-permissions/#element-based-roles).
 
-If you don't have permission to access an entity, you will still see the correct number of entities in aggregate visualizations but you won't see the entity name or other relevant information for the specific entity.
+If you don't have permission to access an element, aggregate visualizations will still display the correct number of entities but won't provide you with the element name or other relevant information for the specific element.
 
 ![Report message that restricted data is hidden](https://assets.postman.com/postman-docs/reports-restricted-data-v9.jpg)
 
@@ -72,7 +72,7 @@ To explore data in a report:
 
     <img src="https://assets.postman.com/postman-docs/reports-datapoint-hover.jpg" alt="reports data point" width="100px" />
 
-* Select a data point to drill down and view more details. Sort the table by selecting a column heading. Hover over a table row and select the arrow to go to a related report or entity.
+* Select a data point to drill down and view more details. Sort the table by selecting a column heading. Hover over a table row and select the arrow to go to a related report or element.
 
     <img src="https://assets.postman.com/postman-docs/reports-drilldown.jpg" alt="reports drill down" />
 
@@ -84,9 +84,9 @@ Reports have the following limitations:
 * Postman reports only track data sent through the request builder, and not data sent through [Newman](/docs/running-collections/using-newman-cli/command-line-integration-with-newman/), [collection runs](/docs/running-collections/intro-to-collection-runs/), or [monitors](/docs/monitoring-your-api/intro-monitors/). However, failed test runs do generate reports using collection runs.
 * You can't view the details of entities you don't have access to.
 
-If you don't see any data in your reports, or your data is incomplete (for example, you have empty response times or sizes) this may be due to one of the following reasons:
+If there isn't any data in your reports, or your data is incomplete (for example, you have empty response times or sizes) this may be due to one of the following reasons:
 
 * The data hasn't refreshed yet. Check after four to six hours.
 * You might not have linked a collection to your API.
 * You might not have sent a request. Or you might have executed requests from [monitoring](/docs/monitoring-your-api/intro-monitors/), [collection runs](/docs/running-collections/intro-to-collection-runs/), or [Newman](/docs/running-collections/using-newman-cli/command-line-integration-with-newman/), but not from the request builder in Postman.
-* Postman isn't syncing. Check your network connection and visit the [Postman Status Page](https://status.postman.com) to see if there is a current outage.
+* Postman isn't syncing. Check your network connection and visit the [Postman Status Page](https://status.postman.com) to learn whether there's an outage.

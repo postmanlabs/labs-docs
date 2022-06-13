@@ -122,7 +122,7 @@ To fix the error, turn off SSL verification for the request:
 
 > You can turn off SSL verification globally in the [Postman settings](/docs/getting-started/settings/) on the **General** tab.
 
-If SSL verification is turned off, you can hover over the network icon <img alt="Network information error icon" src="https://assets.postman.com/postman-docs/icon-globe-error.jpg#icon" width="16px"> in the response pane to see details about any certificate errors or warnings.
+If SSL verification is turned off, you can hover over the network icon <img alt="Network information error icon" src="https://assets.postman.com/postman-docs/icon-globe-error.jpg#icon" width="16px"> in the response pane to get details about any certificate errors or warnings.
 
 [![Network information error](https://assets.postman.com/postman-docs/certificates-network-error-v9-14.jpg)](https://assets.postman.com/postman-docs/certificates-network-error-v9-14.jpg)
 

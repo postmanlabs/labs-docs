@@ -36,7 +36,7 @@ In Postman you can create a WebSocket request with a server, and use it to send 
 
 ### About Socket.IO
 
-In addition to raw WebSocket connections, Postman also supports Socket.IO connections. Socket.IO is one of the most popular libraries to enable event-driven, bidirectional, real-time communication between clients and servers. It uses WebSocket as its transport layer. Many developers use Socket.IO in combination with HTTP APIs; now you can enjoy the benefits of Postman while switching between these two paradigms at will.
+In addition to raw WebSocket connections, Postman also supports Socket.IO connections. Socket.IO is one of the most popular libraries to enable event-driven, bidirectional, real-time communication between clients and servers. It uses WebSocket as its transport layer. Many developers use Socket.IO in combination with HTTP APIs, and Postman enables you to switch between the two paradigms at will.
 
 ## Contents
 
@@ -100,7 +100,7 @@ To rename, duplicate, or delete a saved message, select the more actions icon <i
 
 ### Adding Socket.IO event names and arguments
 
-Sending events with a Socket.IO connection includes the ability to add event names and arguments. This makes it easy to listen to only specific events.
+Sending events with a Socket.IO connection includes the ability to add event names and arguments. This enables you to listen to only specific events.
 
 For a Socket.IO connection, you can enter an event name to publish next to **Send**. If you select **Send** without entering a name, the default name `message` will be used.
 
@@ -108,7 +108,7 @@ There is also an **Acknowledgement** option; when selected, the server will ackn
 
 <img src="https://assets.postman.com/postman-docs/socketio-event-name.jpg" alt="Socket.IO event name" width="500px">
 
-You can also add arguments to a Socket.IO connection. In the bottom left of the editor pane, select **+ Arg**. A sidebar will open to the left of the editor pane adding an argument and a new editor pane for the argument's message. Hover over an existing argument and select **x** to delete it. A similar UI will be used when viewing messages to show each argument's message.
+You can also add arguments to a Socket.IO connection. In the bottom left of the editor pane, select **+ Arg**. A sidebar will open to the left of the editor pane adding an argument and a new editor pane for the argument's message. Hover over an existing argument and select **x** to delete it. The workflow to inspect each argument's message is similar.
 
 <img src="https://assets.postman.com/postman-docs/socketio-second-arg.jpg" alt="Socket.IO arguments" width="400px">
 
@@ -132,7 +132,7 @@ The following are displayed for each message:
   [![WebSocket time difference](https://assets.postman.com/postman-docs/websocket-time-difference.gif)](https://assets.postman.com/postman-docs/websocket-time-difference.gif)
 * Select the arrow next to a message to expand or collapse it.
 * The time is displayed as your local time.
-* If you hover over the time of a raw Socket.IO message, an information icon is displayed. Hover over it to see the time, MIME type, and size of the message.
+* If you hover over the time of a raw Socket.IO message, an information icon is displayed. Hover over it for the time, MIME type, and size of the message.
 * If you hover over the time, a copy icon is also shown. Select this to copy the message to your clipboard.
 
 In an expanded message:
@@ -152,7 +152,7 @@ To the left of the **Messages** pane in a Socket.IO request is a **Listeners** p
 
 [![Socket.IO message body](https://assets.postman.com/postman-docs/socketio-message-body.jpg)](https://assets.postman.com/postman-docs/socketio-message-body.jpg)
 
-Messages will indicate if they have multiple arguments. When you expand the message, it will have tabs to see each argument.
+Messages will indicate if they have multiple arguments. When you expand the message, it will have tabs for each argument.
 
 [![WebSocket message body](https://assets.postman.com/postman-docs/socketio-message-with-args.jpg)](https://assets.postman.com/postman-docs/socketio-message-with-args.jpg)
 
@@ -198,11 +198,11 @@ You can save your WebSocket requests into a collection. This enables you to reus
 To save a request:
 
 1. In the upper right of the request tab, select **Save**.
-1. In **Save request**, under **Save to**, select a collection, or select **Create collection**. (Note that there are limitations to WebSocket requests in collections; see below.)
+1. In **Save request**, under **Save to**, select a collection, or select **Create collection**. (Note that there are limitations to WebSocket requests in collections. Keep reading for more information.)
 1. If you are creating a new collection, enter a name and select **Create**.
 1. Select **Save**.
 
-You can see your collection and saved request in **Collections** in the sidebar:
+Postman will display your collection and saved request in **Collections** in the sidebar:
 
 <img alt="Collection sidebar" src="https://assets.postman.com/postman-docs/websocket-collection-v2.jpg" width="400px"/>
 
@@ -222,7 +222,7 @@ To document a WebSocket request:
 1. Select the documentation icon <img alt="Documentation icon" src="https://assets.postman.com/postman-docs/documentation-icon-v8-10.jpg#icon" width="16px"> in the context bar.
 1. Select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px"> next to the description.
 1. Author your description using [Markdown](/docs/publishing-your-api/authoring-your-documentation/#authoring-descriptions-in-markdown).
-1. When you're finished, select **Save** to save your documentation. If you ever need to make changes, just edit the description again.
+1. When you're finished, select **Save** to save your documentation. If you ever need to make changes, you can edit the description again.
 
 Documenting a collection is similar, but the description is on the **Overview** tab of the collection. Select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px"> next to the description, write a summary, and select **Save**.
 

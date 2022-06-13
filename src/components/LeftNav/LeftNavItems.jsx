@@ -270,6 +270,22 @@ export const leftNavItems = [
             url: '/docs/running-collections/using-newman-cli/command-line-integration-with-newman/',
           },
           {
+            name: 'Installing and running Newman',
+            url: '/docs/running-collections/using-newman-cli/installing-running-newman/',
+          },
+          {
+            name: 'Newman options',
+            url: '/docs/running-collections/using-newman-cli/newman-options/',
+          },
+          {
+            name: 'Uploading files in Newman',
+            url: '/docs/running-collections/using-newman-cli/newman-file-uploads/',
+          },
+          {
+            name: 'Using Newman custom reporters',
+            url: '/docs/running-collections/using-newman-cli/newman-custom-reporters/',
+          },
+          {
             name: 'Newman with Docker',
             url: '/docs/running-collections/using-newman-cli/newman-with-docker/',
           },
@@ -701,8 +717,8 @@ export const leftNavItems = [
         ],
       },
       {
-        name: 'Upgrading your team to the current version of Postman',
-        url: '/docs/administration/upgrading/',
+        name: 'Updating your team to the current version of Postman',
+        url: '/docs/administration/updating/',
       },
       {
         name: 'Managing Enterprise deployment',

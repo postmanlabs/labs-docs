@@ -104,6 +104,6 @@ You can view your team's configured [default](#default-alerts) and [custom](#cus
 
 ## Protecting Postman API keys in GitHub
 
-Postman also works with GitHub to ensure that your Postman API keys are kept secure. If you commit a valid Postman API key to a public GitHub repository, Postman will notify you as soon as possible by email and in-app notification. You can also enable Postman's [Slack integration](/docs/integrations/available-integrations/slack/) to be alerted within Slack if this occurs.
+Postman also works with GitHub to ensure that your Postman API keys are kept secure. If you commit a valid Postman API key to a public GitHub repository, Postman notifies you by email and in-app notification. You can also enable Postman's [Slack integration](/docs/integrations/available-integrations/slack/) to be alerted within Slack if this occurs.
 
 It's recommended you delete the exposed API key in your [API keys dashboard](https://go.postman.co/settings/me/api-keys). You can then [generate a new API key](/docs/developer/intro-api/#generating-a-postman-api-key) to continue working with the Postman API.

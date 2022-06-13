@@ -1,8 +1,6 @@
 ---
 title: "New Relic"
-order: 174
-page_id: "new_relic"
-updated: 2021-12-21
+updated: 2022-05-25
 warning: false
 contextual_links:
   - type: section
@@ -35,13 +33,9 @@ If you don't already have a [New Relic account](https://newrelic.com/), you'll n
 
 1. From the **[Home](https://go.postman.co/home)** page select **[Integrations](https://go.postman.co/integrations)**.
 1. Select **Browse All Integrations**, and then search for **New Relic**.
-1. There are two New Relic integrations available in Postman. Select the option labeled **Bring Postman monitor results into New Relic**.
+1. There are two New Relic integrations available in Postman. Next to the option labeled **Bring Postman monitor results into New Relic**, select **Add Integration**.
 
-    <img alt="Select New Relic monitor integration" src="https://assets.postman.com/postman-docs/new-relic-search-integration-v9-6.jpg" width="1124px">
-
-1. Select **Add Integration**.
-
-    <img alt="Add New Relic monitor integration" src="https://assets.postman.com/postman-docs/new-relic-add-integration-v9-6.jpg" width="1124px">
+    <img alt="Select New Relic monitor integration" src="https://assets.postman.com/postman-docs/new-relic-search-integration-v9-19.jpg" />
 
 1. Enter a **Nickname** for this integration.
 1. Select the name of the workspace with the monitor you want to use, or enter a new one.
@@ -66,7 +60,7 @@ To use the Postman quickstart:
 
 ## Manually view and query data in New Relic
 
-As soon as your monitor runs, Postman starts sending metrics data to New Relic. Once the data is present in New Relic, you can query and display metrics.
+When your monitor runs, Postman starts sending metrics data to New Relic. Once the data is present in New Relic, you can query and display metrics.
 
 In New Relic, select **Browse data** and then select **Metrics**. To view Postman monitor results, search for metrics that begin with `postman`. You can create queries to customize the graph displayed. New Relic also has a query builder to help you construct advanced searches.
 

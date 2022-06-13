@@ -198,7 +198,7 @@ For **APIs**, select the API and version. Select the **Definition** tab and then
 
 You can access public workspaces using the Postman Explore page's [**Workspaces** category](https://www.postman.com/explore/workspaces). You can also access the public workspaces that you own or are a member of using **Workspaces** in the header.
 
-You can view who's active in a public workspace using the list of avatars in the Postman header. This list will include all active users with [public profiles](/docs/getting-started/postman-account/#making-your-profile-public) as well as users who've chosen to remain anonymous by not enabling their public profile.
+The list of avatars in the Postman header shows you who's active in your workspace. This list will include all active users with [public profiles](/docs/getting-started/postman-account/#making-your-profile-public) as well as users who've chosen to remain anonymous by not enabling their public profile.
 
 <img alt="Active users in public workspace" src="https://assets.postman.com/postman-docs/presence-public-workspace-v9.19.jpg" width="250px"/>
 

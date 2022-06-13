@@ -72,7 +72,7 @@ OpenSSL is already installed for macOS and is typically installed for Linux. For
     ![download OpenSSL installer](https://assets.postman.com/postman-docs/windows-oppssl-environment-variables-bin.jpg)
 
 1. Select **OK** to add the folder directory. Then select **OK** to confirm changes and close the remaining windows.
-1. Open the Windows command line. To do this, open the **Start** menu, search for **cmd**, and select **Open**. On the command line, enter the command `openssl version` to confirm that installation was successful. You will see output similar to the following:
+1. Open the Windows command line. To do this, open the **Start** menu, search for **cmd**, and select **Open**. On the command line, enter the command `openssl version` to confirm that installation was successful. The output will be similar to the following:
 
     ``OpenSSL 1.1.1l  24 Aug 2021``
 
@@ -186,7 +186,7 @@ OpenSSL is already installed for macOS and is typically installed for Linux. For
 1. Open the **Settings** app and go to **Security > Encryption & credentials**.
 1. Select **Install a certificate** and select the **CA Certificate** option.
 1. A security warning displays. Select **Install anyway** to proceed.
-1. Browse for and select the `postman-proxy-ca.crt` certificate file. You will see a message that the certificate is installed. You can now capture traffic through a web browser on Android.
+1. Browse for and select the `postman-proxy-ca.crt` certificate file. You will get a message that the certificate is installed. You can now capture traffic through a web browser on Android.
 
 > **Need to capture requests from an Android app?** To capture requests from an Android app, you need to add a network security configuration file to your app to trust the `postman-proxy-ca.crt` certificate. For more information, see [Trust additional CAs](https://developer.android.com/training/articles/security-config#TrustingAdditionalCas) on the Android Developers portal.
 

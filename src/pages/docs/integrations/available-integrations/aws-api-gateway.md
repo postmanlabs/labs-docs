@@ -81,7 +81,7 @@ This integration will be triggered whenever the configured Postman schema is upd
 
 ## Tracking API deployments with AWS API Gateway
 
-You can also track your AWS API Gateway deployments in Postman via the **Deployments** tab. See [Deploying an API](/docs/designing-and-developing-your-api/deploying-an-api/) for details.
+You can also use the **Deployments** tab to track your AWS API Gateway deployments. See [Deploying an API](/docs/designing-and-developing-your-api/deploying-an-api/) for details.
 
 ## Next steps
 

@@ -129,7 +129,7 @@ console.log(pm.variables.get('score'));//outputs 2
 
 > See the [Postman Collection SDK Variables reference](https://www.postmanlabs.com/postman-collection/Variable.html) for more detail.
 
-You can also access variables defined in the individual scopes via [pm.environment](#using-environment-variables-in-scripts), [pm.collectionVariables](#using-collection-variables-in-scripts), and [pm.globals](#using-global-variables-in-scripts).
+You can also access variables defined in the individual scopes with [pm.environment](#using-environment-variables-in-scripts), [pm.collectionVariables](#using-collection-variables-in-scripts), and [pm.globals](#using-global-variables-in-scripts).
 
 #### Using environment variables in scripts
 
@@ -516,7 +516,7 @@ pm.cookies.toObject():Function → Object
 
 You can also use `pm.cookies.jar` to specify a domain for access to request cookies.
 
-To enable programmatic access via the `pm.cookies.jar` methods, first add the cookie URL to the [allowlist](/docs/sending-requests/cookies/).
+To enable programmatic access using the `pm.cookies.jar` methods, first add the cookie URL to the [allowlist](/docs/sending-requests/cookies/).
 
 * Access the cookie jar object:
 

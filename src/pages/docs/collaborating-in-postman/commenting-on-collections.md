@@ -93,7 +93,7 @@ You can leave comments on folders in Postman.
 
 ## Reading comments
 
-You can see comments made by teammates on requests and request parameters in Postman.
+You can read comments made by teammates on requests and request parameters in Postman.
 
 You can read comments made on the request and on request parameters from the app.
 
