@@ -200,7 +200,7 @@ You can access public workspaces using the Postman Explore page's [**Workspaces*
 
 ![Access public workspaces](https://assets.postman.com/postman-docs/accessing-public-workspaces.jpg)
 
-You can view who's active in a public workspace via the list of avatars in the Postman header. This list will include all active users with [public profiles](/docs/getting-started/postman-account/#making-your-profile-public) as well as users who've chosen to remain anonymous by not enabling their public profile.
+The list of avatars in the Postman header shows you who's active in your workspace. This list will include all active users with [public profiles](/docs/getting-started/postman-account/#making-your-profile-public) as well as users who've chosen to remain anonymous by not enabling their public profile.
 
 <img alt="Active users in public workspace" src="https://assets.postman.com/postman-docs/presence-public-workspace-v9.15.jpg" width="250px"/>
 

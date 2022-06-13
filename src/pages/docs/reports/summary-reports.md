@@ -52,4 +52,4 @@ Metrics in this section reflect all views and actions on publicly shared work, r
 * **Public workspace views** - The number of views of all your team's public workspaces in the last three months.
 * **Published documentation views** - The number of views of your team's published documentation in the last six months.
 * **Forks and Pull requests on public collections** - The number of times in the last six months that a collection in your public workspaces was forked or pulled.
-* **Watch count on public entities** - The number of times in the last six months that someone watched a collection or API in your public workspaces. This number includes users who watched and then unwatched an entity.
+* **Watch count on public entities** - The number of times in the last six months that someone watched a collection or API in your public workspaces. This number includes users who watched and then unwatched an element.

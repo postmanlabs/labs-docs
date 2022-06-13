@@ -80,11 +80,11 @@ You can invite team members to join a [new](/docs/collaborating-in-postman/using
 
 ### Finding teams within your organization
 
-When you sign in to the Postman web dashboard using a verified email address for your company or organization, you can see available teams to join by selecting your avatar > **Your Team**. You will also be prompted with available teams when you first sign into your Postman account with a verified address.
+When you sign in to the Postman web dashboard using a verified email address for your company or organization, you can find available teams to join by selecting your avatar > **Your Team**. You will also be prompted with available teams when you first sign into your Postman account with a verified address.
 
 [![Choose Team](https://assets.postman.com/postman-docs/join-team-from-list.jpg)](https://assets.postman.com/postman-docs/join-team-from-list.jpg)
 
-You will see a list of the available teams within your organization. Select a team. Answer the question set by the Team Admin, if there is one. You can also add an optional note. Select **Request to join**.
+Select a team from the list of the available teams within your organization. Answer the question set by the Team Admin, if there is one. You can also add an optional note. Select **Request to join**.
 
 <img alt="Team Join Question" src="https://assets.postman.com/postman-docs/team-join-question-v9.7.0.jpg" width="400px"/>
 
@@ -121,6 +121,6 @@ For more details and to view your usage period, select **Resource Usage**.
 
 Postman has many features to help you collaborate with your team:
 
-* Assign [roles and permissions](/docs/collaborating-in-postman/roles-and-permissions/) to define Postman access at the team, workspace, and entity level.
+* Assign [roles and permissions](/docs/collaborating-in-postman/roles-and-permissions/) to define Postman access at the team, workspace, and element level.
 * Use [version control](/docs/collaborating-in-postman/version-control-for-collections/) to collaborate with teammates on different forks of a shared collection or [versioning](/docs/designing-and-developing-your-api/versioning-an-api/) to collaborate on different versions of a shared API.
 * Use your [Private API Network](/docs/collaborating-in-postman/adding-private-network/) to securely share the APIs that your team uses internally.

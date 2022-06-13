@@ -46,7 +46,7 @@ Welcome to the Postman docs! This is the place to find official information on h
 
 [![Postman full view](https://assets.postman.com/postman-docs/intro-postman-request-selected-v9.8.3.jpg)](https://assets.postman.com/postman-docs/intro-postman-request-selected-v9.8.3.jpg)
 
-If you're just starting to learn about APIs and Postman, you can use a variety of channels both in and outside Postman:
+If you're starting to learn about APIs and Postman, you can use a variety of channels both in and outside Postman:
 
 * [__Send your first request!__](/docs/getting-started/sending-the-first-request/)
 * Use the Bootcamp to work through lessons inside Postman. Open it by selecting <img alt="Bootcamp icon" src="https://assets.postman.com/postman-docs/icon-bootcamp-v9.jpg#icon" width="16px"> **Bootcamp** from the Postman footer.
@@ -68,7 +68,7 @@ If you're learning to carry out a specific task or workflow in Postman, check ou
 
 ### Making requests
 
-If you're building a client app or just need to connect to an API, check out some Postman essentials:
+If you're building a client app or want to connect to an API, check out some Postman essentials:
 
 * [Connecting to APIs](/docs/sending-requests/requests/)
 * [Authorizing requests](/docs/sending-requests/authorization/)

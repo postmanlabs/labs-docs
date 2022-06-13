@@ -57,8 +57,7 @@ Give your group a name and description, add your team members, and select the te
 
 Team members will receive an email and in-app notification when added to a group.
 
-<!-- -->
-> If a team member with a support-only account (admin or billing) is given the **Developer** role via a group they're in, they will automatically take up an available paid spot on your Postman team. If no spots are available, you will not be able to grant access to the group with that team member.
+> If you add a team member with a support-only role (Admin or Billing) to a group that gives them a Developer role, they will automatically take up an available paid spot on your Postman team. If no spots are available, you will not be able to grant access to the group with that team member.
 
 ## Editing a group
 
@@ -94,7 +93,7 @@ Select the team roles you would like to assign to the group, or deselect team ro
 
 You can control a group's access to individual workspaces, collections, APIs, environments, mock servers, and monitors. For more information on managing workspaces, see [Sharing workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#sharing-workspaces).
 
-For collections, APIs, environments, mock servers, and monitors, go to the entity in Postman. In the sidebar, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> then select **Manage roles**.
+For collections, APIs, environments, mock servers, and monitors, go to the element for which you want to manage roles. In the sidebar, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> then select **Manage roles**.
 
 <img alt="Invite group to collection" src="https://assets.postman.com/postman-docs/manage-roles-collection-with-user-group-v9.1.jpg"/>
 

@@ -38,7 +38,7 @@ contextual_links:
 
 Postman supports API-first development with the API Builder. You can design your API directly in Postman using the API Builder. Your specification can then act as the single source of truth for your API project.
 
-You can connect various components of your API development and testing process to your schema, such as collections, documentation, tests, mocks, and monitors. You can version your APIs in Postman and connect elements to specific versions and releases. You can also sync your API in Postman with a remote Git repo.
+You can connect various elements of your API development and testing process to your schema, such as collections, documentation, tests, mocks, and monitors. You can version your APIs in Postman and connect elements to specific versions and releases. You can also sync your API in Postman with a remote Git repo.
 
 ## High-level steps
 
