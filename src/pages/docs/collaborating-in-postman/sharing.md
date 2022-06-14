@@ -16,6 +16,9 @@ contextual_links:
   - type: link
     name: "Working With Your Team in Postman | The Exploratory"
     url: "https://youtu.be/5lscUV-Exac"
+  - type: link
+    name: "How to Share Postman Collections"
+    url: "https://youtu.be/b9VlFDlwKvI"
   - type: section
     name: "Next Steps"
   - type: link

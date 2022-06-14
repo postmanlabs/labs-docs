@@ -7,14 +7,14 @@ contextual_links:
   - type: subtitle
     name: "Videos"
   - type: link
+    name: "How to Import and Export Data in Postman"
+    url: "https://youtu.be/sCWwOzhUMXE"
+  - type: link
     name: "Postman | How to Connect to Your Git Repository"
     url: "https://youtu.be/8jJHXLVYOh0"
   - type: link
     name: "Generate a Collection From a Specification | Postman Level Up"
     url: "https://youtu.be/gljWt9tDKOY"
-  - type: link
-    name: "Postman Level Up | Import a HAR file in Postman"
-    url: "https://youtu.be/E3uo-oQ9WtE"
   - type: subtitle
     name: "Blog Posts"
   - type: link

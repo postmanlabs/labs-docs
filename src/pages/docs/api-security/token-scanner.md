@@ -9,6 +9,11 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Postman Token Scanner | Postman Level Up"
+    url: "https://youtu.be/9XxkqPQF-Rw"
+  - type: subtitle
     name: "Blog Posts"
   - type: link
     name: "2 Big Improvements to the Postman Token Scanner"
