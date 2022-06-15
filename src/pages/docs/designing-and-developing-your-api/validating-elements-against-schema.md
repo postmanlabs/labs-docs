@@ -43,13 +43,13 @@ Postman indicates validation errors on your API schema as you edit it in the **D
 
 The pane below the schema editing area displays issues. You can hide and show the error view as you work.
 
-Each error will indicate the type, the line on which it occurs, and details of the issue. You can also hover over the error inline in the editor to see information as you type.
+Each error will indicate the type, the line on which it occurs, and details of the issue. To get more information as you type, you can also hover over the error inline in the editor.
 
 [![Schema error](https://assets.postman.com/postman-docs/schema-validation-error-open-v9.jpg)](https://assets.postman.com/postman-docs/schema-validation-error-open-v9.jpg)
 
-> Note that sometimes a single error in your schema will cause more than one issue to appear in the list. As you fix your errors you will see the validation issues disappear.
+> Note that sometimes a single error in your schema will cause more than one issue to appear in the list. As you fix your errors, the validation issues disappear.
 
-If there is an issue with your schema JSON or YAML syntax, you will see a warning. Look for errors indicated in the editor and hover over them for more detail. Postman will only be able to validate your schema elements if the JSON or YAML is itself well-formed.
+Postman will display a warning if there is an issue with your schema JSON or YAML syntax. Look for errors indicated in the editor and hover over them for more detail. Postman will only be able to validate your schema elements if the JSON or YAML is itself well-formed.
 
 If there are no errors, Postman will indicate in the lower pane that your schema is valid.
 
@@ -73,7 +73,7 @@ If you want your requests to be validated, your collection must be linked to an 
 
 A collection is linked to an API if you [generate it from a schema](/docs/designing-and-developing-your-api/defining-an-api/#generating-a-collection) or [add it as a relation to an existing API](/docs/designing-and-developing-your-api/developing-an-api/).
 
-Postman will validate a request when it's sent. If issues are found, you will see a warning message showing the number of issues next to the name of the request.
+Postman validates a request when it's sent. If there are issues with the request, Postman displays a warning message showing the number of issues next to the name of the request.
 
 > Validation is version-specific, and will be performed against the schema of the particular version of the API linked with the collection. If one version of a collection is linked to more than one version of an API, Postman will select the schema from the latest created version of API for validation.
 
@@ -85,9 +85,9 @@ If an issue arises when you run a request, select the warning message next to th
 
 > You can select a specific issue to access the relevant request component.
 
-If your issue relates to another element, open your API by selecting **APIs** in the app sidebar, then select an API version from the list. Open the tab containing the element you want to see issues for (either **Overview**, **Test** or **Monitoring**).
+If your issue relates to another element, open your API by selecting **APIs** in the sidebar, then select an API version from the list. Open the tab containing the element you want to inspect issues for (either **Overview**, **Test**, or **Monitoring**).
 
-You will see a status indicating if issues have been found during validation next to the element. If there are issues, view them by selecting **Issues found** > **View issues**. This will take you to a page summarizing validation issues.
+If Postman finds any issues during validation, view them by selecting **Issues found** > **View issues**. This will take you to a page summarizing validation issues.
 
 ## Updating API elements
 

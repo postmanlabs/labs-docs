@@ -46,7 +46,7 @@ Signing up for a Postman account is optional, and you can use the Postman deskto
 
 Before you sign up for a Postman account, either download and open the [desktop app](https://www.postman.com/downloads/) or go to the [web app](https://go.postman.co/home/).
 
-You will see a prompt to sign in or sign up. Select __Create Account__. You can sign up using an email address or using your Google account:
+Postman prompts you to sign in or sign up. Select __Create Account__. You can sign up using an email address or using your Google account:
 
 * **Email** - Enter your email and create a username and password. Check the box to agree to the __Terms of Use__, which you can view by selecting the link, and select __Create free account__. Postman will send you an email to confirm your account. Follow the instructions in the email to complete your account setup.
 * **Google account** - Select __Sign up with Google__ and follow the instructions.
@@ -61,7 +61,7 @@ Your new Postman profile will be visible to collaborators and anyone viewing res
 
 During the sign up process, you have the option to create or join a [team](/docs/collaborating-in-postman/collaboration-intro/):
 
-* **Joining a team** - If you are signing up with your company email and your company has a Postman account with team discovery enabled, you will see [teams you can join](/docs/collaborating-in-postman/collaboration-intro/#finding-teams-within-your-organization).
+* **Joining a team** - If you sign up with your company email and your company has a Postman account with team discovery enabled, there will be a list of [teams you can join](/docs/collaborating-in-postman/collaboration-intro/#finding-teams-within-your-organization).
 * **Creating a team** - To create a team and optionally invite collaborators, select __Create new team__. Enter your team name and URL, then select __Continue__.
 
 ## Signing into Postman
@@ -76,7 +76,7 @@ Sign into Postman in your browser by entering your account credentials or signin
 
 Select **Stay signed in for 30 days** if you want to remain signed in after your current session for 30 days before re-authenticating. If you don't want to remain signed in on the computer you are working on, clear this checkbox. Note that you will be prompted to sign in again after 30 minutes.
 
-After you sign in, you will see a confirmation in your browser and you will be redirected back to the Postman desktop app.
+After you sign in, you will be redirected back to the Postman desktop app.
 
 > You must complete the process of signing in within five minutes once you begin the process in the Postman desktop app. If you go beyond this time, you must return to the Postman desktop app and restart the sign in process.
 
@@ -134,7 +134,7 @@ You can update your [notification preferences](https://go.postman.co/settings/me
 
 You can opt in to or out of email or in-app notifications about security, usage, monitors, and comments by selecting or de-selecting the boxes next to each item. Select **Update Preferences** to save changes.
 
-In addition to email and in-app notifications, you can also send many notifications to Slack using the [Slack integration](/docs/integrations/available-integrations/slack/). After you add the Slack integration, you will see an additional column of notification items you can select. These notifications will be sent to Slack by the integration.
+In addition to email and in-app notifications, you can also send many notifications to Slack using the [Slack integration](/docs/integrations/available-integrations/slack/). After you add the Slack integration, you can select notification events from the additional **On Slack** column. These notifications are sent to Slack by the integration.
 
 <img alt="Update notification preferences" src="https://assets.postman.com/postman-docs/notification-preferences-v9-4.jpg">
 

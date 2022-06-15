@@ -57,7 +57,7 @@ The generated code structure will depend on which language you choose. All of th
 * All operations will be generated as routes in your server boilerplate with a stubbed section of code for each endpoint where you can add your business logic. This stub may include a default response, usually taken from the API definition **Response** section of the associated endpoint.
 * You can access request bodies, parameters, path parameters, and headers in each of these routes when applicable and use them in your business logic.
 * You can start a server from this generated code. There will be a `README.md` file describing prerequisites and instructions to start the server.
-* See the framework's relevant documentation for more details on configuring or customizing the generated code.
+* Read the framework's relevant documentation for more details on configuring or customizing the generated code.
 
 ## Generating only routes and interfaces
 

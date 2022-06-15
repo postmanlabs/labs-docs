@@ -58,7 +58,7 @@ To create a new collection and generate an API's documentation from your schema:
 
 1. In the API version **Overview** tab, next to **Documentation**, select **+** and choose **Add existing documentation**.
 
-1. Select the collection with the documentation you want to link and select **Add Documentation**. You will only see the available collections in the list.
+1. Select the collection with the documentation you want to link and select **Add Documentation**. Only the available collections are in this list.
 
 ### Viewing documentation
 
@@ -66,7 +66,7 @@ You can view the documentation for your API from within API Builder. Select any 
 
 You can also view the documentation in the **Documentation** tab. In the upper left of the tab is a dropdown list where you can choose which collection is shown, and add or generate another documentation collection.
 
-Select **View Collection** from the **Documentation** tab to see the documentation's collection.
+Select **View Collection** from the **Documentation** tab to access the documentation's collection.
 
 ## Adding an environment
 
@@ -74,7 +74,7 @@ You can link specific environments in your workspaces to specific versions of an
 
 1. In the API version **Overview** tab, next to **Environments**, select **+**.
 
-1. Select an environment from the list and select **Add environment**. You will only see the available environments in the list.
+1. Select an environment from the list and select **Add environment**. Only the available environments are in this list.
 
 ## Adding a mock server
 
@@ -90,7 +90,7 @@ You can link mock servers for a collection to an API, by creating a new mock ser
 
 1. In the API version **Overview** tab, next to **Mock Servers**, select **+** and choose **Add existing mock server**.
 
-1. Choose a mock server from your workspace and select **Add Mock Server**. You will only see available mocks in the list. Your mock server will be added to the API.
+1. Choose a mock server from your workspace and select **Add Mock Server**. Only the available mocks are in this list. Your mock server will be added to the API.
 
 ## Removing elements from an API
 

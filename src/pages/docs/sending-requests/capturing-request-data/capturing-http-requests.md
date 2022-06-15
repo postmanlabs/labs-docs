@@ -32,7 +32,7 @@ warning: false
 
 ---
 
-If you are using APIs to build client-side applications like mobile apps, websites, or desktop applications, you may want to see the actual HTTP and HTTPS request traffic that's being sent and received in the application. Sometimes you might discover APIs that aren't even documented. You can capture network traffic, including requests, responses, and cookies, using the proxy that's built into Postman.
+If you are using APIs to build client-side applications like mobile apps, websites, or desktop applications, you may want to inspect the actual HTTP and HTTPS request traffic that's being sent and received in the application. Sometimes you might discover APIs that aren't even documented. You can capture network traffic, including requests, responses, and cookies, using the proxy that's built into Postman.
 
 > You can also use the Postman proxy to automatically sync cookies from a Chrome browser to the Postman cookie jar. Learn more about [syncing cookies](/docs/sending-requests/capturing-request-data/syncing-cookies/).
 
@@ -129,7 +129,7 @@ The proxy debug session is now started, but it won't capture anything until a de
     1. Set **Server** and **Port** to the local IP address and proxy port.
     1. Select **Save**.
 
-1. In the Postman app, open the **Proxy debug session** window. Open the device's web browser or application and you will start seeing HTTP traffic passing through the app or the browser.
+1. In the Postman app, open the **Proxy debug session** window. Open the device's web browser or application and HTTP traffic will start passing through the app or the browser.
 
 #### Configuring a proxy on other devices
 
@@ -149,9 +149,9 @@ There are several controls you can use to limit, organize, and investigate traff
 * Select the name **Proxy debug session** and enter another name to change the window name.
 * The **Configure incoming requests** controls at the top of the window enable you to limit captured traffic. Select items from **Methods**, **Status Codes**, **Resources**, and **URL** to limit the traffic. These controls are similar to the ones you set initially in Step 2 above, but they limit what is being captured, instead of what is going through the proxy.
 * Select or unselect **Save Responses for Requests** and **Capture Cookies** to choose whether to collect responses or cookies.
-* Select the **Requests** tab to view incoming requests and responses, or **Cookies** to see captured cookies.
-* Use the search box to look for specific requests.
-* Select **>** next to a request to expand it and see more details.
+* Select the **Requests** tab to get information about incoming requests and responses, or **Cookies** to get information about captured cookies.
+* Use the search box to find specific requests.
+* Select **>** next to a request to expand it for more details.
 * Select the URL in the **URL** column to open the request as a new API request in Postman.
 * Below the request list, there are controls to change the collection where the traffic is being sent, and if it needs to be grouped by domain name or endpoints.
 

@@ -63,17 +63,17 @@ warning: false
 
 ---
 
-Tests confirm that your API is working as expected, that integrations between services are functioning reliably, and that new developments haven't broken any existing functionality. You can write test scripts for your Postman API requests in JavaScript. You can also use test code to aid the debugging process when something goes wrong with your API project. For example, you might write a test to validate your API's error handling by sending a request with incomplete data or incorrect parameters.
+Tests confirm that your API is working as expected, that integrations between services are functioning reliably, and that any changes haven't broken existing functionality. You can write test scripts for your Postman API requests in JavaScript. You can also use test code to aid the debugging process when something goes wrong with your API project. For example, you might write a test to validate your API's error handling by sending a request with incomplete data or incorrect parameters.
 
 You can add tests to individual [requests](/docs/sending-requests/requests/), [collections](/docs/sending-requests/intro-to-collections/), and folders in a collection. Postman includes code snippets you add and then modify to suit your test logic.
 
-To add tests to a request, open the request and enter your code in the **Tests** tab. Tests will execute after the request runs. You will be able to see the output in the __Test Results__ tab alongside the response data.
+To add tests to a request, open the request and enter your code in the **Tests** tab. Tests will execute after the request runs. The output is in the response's __Test Results__ tab.
 
 ![Request Test Tab](https://assets.postman.com/postman-docs/request-test-tab-v9.jpg)
 
 ## Writing test scripts
 
-Test scripts can use dynamic variables, carry out test assertions on response data, and pass data between requests. In the __Tests__ tab for a request, enter your JavaScript manually or use the __Snippets__ you'll see to the right of the code editor.
+Test scripts can use dynamic variables, carry out test assertions on response data, and pass data between requests. In the __Tests__ tab for a request, enter your JavaScript manually or select __Snippets__ to the right of the code editor.
 
 Tests execute after the response is received. When you select __Send__, Postman runs your test script after the response data returns from the API.
 
@@ -95,7 +95,7 @@ pm.test("Status test", function () {
 
 Select __Send__ to run your request and open __Test Results__ in the response section. The tab header displays how many tests passed and how many ran in total. You can also view the number of **Passed**, **Skipped**, and **Failed** test results.
 
-If the request returned a `200` status code, the test passes. To see what happens with a different status code, change the expected status code in your test script and run the request again.
+If the request returned a `200` status code, the test passes. To find out what happens with a different status code, change the expected status code in your test script and run the request again.
 
 ### Formatting test result messages with pm.expect
 
@@ -145,7 +145,7 @@ Adding scripts to collections and folders enables you to test the workflows in y
 
 You can update collection and folder scripts by selecting the view more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the collection or folder name, and selecting __Edit__. Choose the __Tests__ tab to add or update your script. You can also add collection scripts when you first create a collection.
 
-When you [run a collection](/docs/running-collections/intro-to-collection-runs/) you will see the test results output by the collection runner.
+When you [run a collection](/docs/running-collections/intro-to-collection-runs/) the collection runner displays the test results, including the response time in milliseconds and details about whether a specific request in the collection passed or failed its tests.
 
 ![Collection Tests](https://assets.postman.com/postman-docs/collection-tests-run-v9.jpg)
 
