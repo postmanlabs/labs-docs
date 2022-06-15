@@ -125,3 +125,4 @@ parsable
 datetime
 boolean
 config
+Vale
