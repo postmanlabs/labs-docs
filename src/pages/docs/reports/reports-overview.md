@@ -23,7 +23,7 @@ Postman generates reports that enable you to visualize data for how your team us
 
 Access your reports in your [Postman reports dashboard](https://go.postman.co/reports/summary).
 
-[![reports summary](https://assets.postman.com/postman-docs/reports-overview.jpg)](https://assets.postman.com/postman-docs/reports-overview.jpg)
+<img alt="The Postman reports dashboard" src="https://assets.postman.com/postman-docs/dashboard-reports-overview.jpg" width="1200px"/>
 
 * [Getting started with reports](#getting-started-with-reports)
     * [Report availability](#report-availability)
