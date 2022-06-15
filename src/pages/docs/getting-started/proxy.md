@@ -38,7 +38,7 @@ By default, the Postman Desktop app uses your system's configured proxy to send 
 
 ## Configuring the default proxy
 
-If you have configured a proxy for your local system, the Postman Desktop app uses this proxy by default to send API requests or access any online resources. Learn more about [adding a proxy to your operating system](https://support.postman.com/hc/en-us/articles/4406993238551).
+If you have configured a proxy for your local system, the Postman Desktop app uses this proxy by default to send API requests or access any online resources. Learn more about [adding a proxy to your operating system](#i-cant-send-a-request-and-my-network-requires-a-proxy).
 
 > You can't configure the default proxy in Postman for Web. Instead, use the [system proxy](#using-the-system-proxy-for-requests) or a [custom proxy](#using-a-custom-proxy-for-requests) for sending requests.
 
@@ -54,7 +54,7 @@ If the proxy server configured for your system requires basic authentication, ad
 
 ## Using the system proxy for requests
 
-If you have configured a proxy for your local system, Postman can use this proxy to send API requests. Learn more about [adding a proxy to your operating system](https://support.postman.com/hc/en-us/articles/4406993238551).
+If you have configured a proxy for your local system, Postman can use this proxy to send API requests. Learn more about [adding a proxy to your operating system](#i-cant-send-a-request-and-my-network-requires-a-proxy).
 
 To configure Postman to use the system proxy:
 
