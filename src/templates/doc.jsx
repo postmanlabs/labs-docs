@@ -78,7 +78,7 @@ const DocPage = ({ data }) => {
                       <p>
                         <small>Development Notification</small>
                       <br />
-                        <small>{`Wordcount: ${excerptLength} and therefore ${overIndexLimit} words too long to be indexed by Algolia`}</small>
+                        <small>{`Character count: ${excerptLength} and therefore ${overIndexLimit} characters too long to be indexed by Algolia`}</small>
                       </p>
                     </div> 
                   : null
