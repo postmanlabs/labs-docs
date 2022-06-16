@@ -448,7 +448,22 @@ export const leftNavItems = [
       },
       {
         name: 'Observing an API',
-        url: '/docs/designing-and-developing-your-api/observing-an-api/',
+        subParentSlug: 'observing-an-api',
+        slug: '/docs/designing-and-developing-your-api/observing-an-api/observing-an-api/',
+        subMenuItems2: [
+          {
+            name: 'Observing an API',
+            url: '/docs/designing-and-developing-your-api/observing-an-api/observing-an-api/',
+          },
+          {
+            name: 'Viewing New Relic metrics',
+            url: '/docs/designing-and-developing-your-api/observing-an-api/new-relic-apm/',
+          },
+          {
+            name: 'Viewing Datadog metrics',
+            url: '/docs/designing-and-developing-your-api/observing-an-api/datadog-apm/',
+          },
+        ],
       },
       {
         name: 'Managing and sharing APIs',

@@ -1938,5 +1938,9 @@
 	{
 		"from": "/docs/administration/upgrading/",
 		"to": "/docs/administration/updating/"
+	},
+	{
+		"from": "/docs/designing-and-developing-your-api/observing-an-api/",
+		"to": "/docs/designing-and-developing-your-api/observing-an-api/observing-an-api/"
 	}
 ]
