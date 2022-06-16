@@ -46,7 +46,7 @@ To set up Postman provisioning with Azure AD:
 1. In the **Provisioning Mode** menu, select **Automatic**.
 1. In the **Tenant URL** field, enter the Postman SCIM endpoint: `https://api.getpostman.com/scim/v2/`
 1. In the **Secret Token** field, enter your [SCIM API key](/docs/administration/scim-provisioning/scim-provisioning-overview/#generating-scim-api-key).
-1. Select **Test Connection** to have Azure AD attempt to connect to the Postman SCIM endpoint. If the attempt fails, you will see an error message. If the attempt is successful, the response is `HTTP 200 OK` with an empty SCIM `ListResponse` message.
+1. Select **Test Connection** to have Azure AD attempt to connect to the Postman SCIM endpoint. There will be an error message if the attempt fails. If the attempt is successful, the response is `HTTP 200 OK` with an empty SCIM `ListResponse` message.
 1. Select **Save** to save the admin credentials.
 
 Next, you will configure the Azure AD integration.

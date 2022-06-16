@@ -14,7 +14,7 @@ contextual_links:
 
 > __[Audit logs are available on Postman Professional and Enterprise plans.](https://www.postman.com/pricing)__
 
-Audit logs display events related to your team, users, and billing. Team Admins can review audit logs to see:
+Audit logs display events related to your team, users, and billing. Team Admins can review audit logs to get information about:
 
 * When users were added to, removed from, or invited to your team
 * Which user performed a specific action and when they did so
@@ -29,7 +29,7 @@ Postman provides audit logs for 90 days for users with Professional plans, and 1
 
 * [Exporting audit logs from the dashboard](#exporting-audit-logs-from-the-dashboard)
 
-* [Accessing audit logs via the Postman API](#accessing-audit-logs-via-the-postman-api)
+* [Accessing audit logs with the Postman API](#accessing-audit-logs-with-the-postman-api)
 
 * [Logged events](#logged-events)
 
@@ -55,9 +55,9 @@ To specify certain data to export, set the filters you want in the audit logs da
 
 You will receive an email with a link to the exported audit logs. The link in the email is active for one hour.
 
-## Accessing audit logs via the Postman API
+## Accessing audit logs with the Postman API
 
-You can also access audit logs via the [Postman API](https://www.postman.com/postman/workspace/postman-public-workspace/documentation/12959542-c8142d51-e97c-46b6-bd77-52bb66712c9a), allowing you to integrate Postman's audit logs with your security information and event management (SIEM) tools.
+You can also access audit logs with the [Postman API](https://www.postman.com/postman/workspace/postman-public-workspace/documentation/12959542-c8142d51-e97c-46b6-bd77-52bb66712c9a), allowing you to integrate Postman's audit logs with your security information and event management (SIEM) tools.
 
 Each audit log event has the following attributes:
 

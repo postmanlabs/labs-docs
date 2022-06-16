@@ -60,7 +60,7 @@ Give your integration a nickname and provide your [incoming webhook URL](#create
 
 [![select ms_teams integration](https://assets.postman.com/postman-docs/msteams-add-team-activities-q.jpg)](https://assets.postman.com/postman-docs/msteams-add-team-activities-q.jpg)
 
-Select **Add Integration** to see your team's activity feed in the "Configured Integrations" view.
+Select **Add Integration** to access your team's activity feed in the "Configured Integrations" view.
 
    [![ms_teams configInt](https://assets.postman.com/postman-docs/msteams-team-activities-show-all-q.jpg)](https://assets.postman.com/postman-docs/msteams-team-activities-show-all-q.jpg)
 
@@ -74,7 +74,7 @@ In the **Monitor Run Results** page, select the monitor whose results you want t
 
    [![ms_teams monRun](https://assets.postman.com/postman-docs/ms-teams-send-mon-run.jpg)](https://assets.postman.com/postman-docs/ms-teams-send-mon-run.jpg)
 
-Select **Add Integration** to see your monitors in the "Configured Integrations" view. You can also select the "Advanced Options" link to indicate if you want notifications when all monitor runs are completed, or if you want notifications for three monitor run failures and then the first successful monitor run.
+Select **Add Integration** to access your monitors in the "Configured Integrations" view. You can also select the "Advanced Options" link to indicate if you want notifications when all monitor runs are completed, or if you want notifications for three monitor run failures and then the first successful monitor run.
 
    [![ms_teams monRun](https://assets.postman.com/postman-docs/msteams-monitor-results-add-q.jpg)](https://assets.postman.com/postman-docs/msteams-monitor-results-add-q.jpg)
 

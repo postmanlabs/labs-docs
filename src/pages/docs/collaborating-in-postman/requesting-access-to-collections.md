@@ -30,7 +30,7 @@ To request Editor access for an element, you first need to join or get invited t
 
 ## Requesting Editor role access
 
-If you can view an element in a workspace but can't edit it, you will see a lock icon <img alt="Lock icon" src="https://assets.postman.com/postman-docs/icon-lock.jpg#icon" width="11px"> next to the name of the collection, API, environment, mock server, or monitor.
+If you can view an element in a workspace but can't edit it, there is a lock icon <img alt="Lock icon" src="https://assets.postman.com/postman-docs/icon-lock.jpg#icon" width="11px"> next to the name of the collection, API, environment, mock server, or monitor.
 
 <img alt="Collection Lock" src="https://assets.postman.com/postman-docs/collection-lock-v9-14.jpg" width="292px">
 

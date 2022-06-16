@@ -25,11 +25,11 @@ To begin, let’s start with an example.
 
 [![create mock diagram](https://assets.postman.com/postman-docs/create-mock-v9.jpg)](https://assets.postman.com/postman-docs/create-mock-v9.jpg)
 
-When a mock is created using either Postman or the Postman API, a call is made to the Postman servers that associates a particular collection (and environment if you choose one) with a newly created mock. The collection `C1` that was just mocked is now associated with the new mock `M1`.
+When a mock is created using either Postman or the Postman API, a call is made to the Postman servers that associates a particular collection (and environment if you choose one) with a newly created mock. In this example, the collection `C1` is associated with the new mock `M1`.
 
 [![show mock diagram](https://assets.postman.com/postman-docs/show-mock-v9.jpg)](https://assets.postman.com/postman-docs/show-mock-v9.jpg)
 
-When you use the mock `M1` via the mock URL `https://M1.mock.pstmn.io` in Postman, the mock service will retrieve all saved examples from the Postman servers for that particular collection before it begins the matching process.
+When you use the mock URL `https://M1.mock.pstmn.io` to access the mock `M1` in Postman, the mock service will retrieve all saved examples from the Postman servers for that particular collection before it begins the matching process.
 
 [![use mock diagram](https://assets.postman.com/postman-docs/use-mock-v9.jpg)](https://assets.postman.com/postman-docs/use-mock-v9.jpg)
 
@@ -53,7 +53,7 @@ Keeping these various configurable elements in mind, let’s take a look at the 
 
 3. **Filter by URL**
 
-   The matching process will now examine each saved example, and iterate over every possibility. Compare the `mockPath` of the input URL with that of the saved example. If the input URL was `https://M1.mock.pstmn.io/test` and the example currently being examined had a URL of `https://google.com/help`, the mock service would compare `/test` with `/help`. While comparing URLs, a step-by-step matching is conducted. Each consecutive step that the matching algorithm traverses reduces the matching threshold of the current example response.
+   The matching process will examine each saved example, and iterate over every possibility. Compare the `mockPath` of the input URL with that of the saved example. If the input URL was `https://M1.mock.pstmn.io/test` and the example currently being examined had a URL of `https://google.com/help`, the mock service would compare `/test` with `/help`. While comparing URLs, a step-by-step matching is conducted. Each consecutive step that the matching algorithm traverses reduces the matching threshold of the current example response.
 
    For example:
 
@@ -77,7 +77,7 @@ Keeping these various configurable elements in mind, let’s take a look at the 
     }
     ```
 
-    To match a request like this in your mock, you can now use a variable in the request URL of your example. You do not need to hardcode values in the example. Instead, you can match any request sent to your mock server that match the pattern `GET /users/<userId>`. You will just have to replace the dynamic segments
+    To match a request like this in your mock, you can use a variable in the request URL of your example. You do not need to hardcode values in the example. Instead, you can match any request sent to your mock server that match the pattern `GET /users/<userId>`. To do this, you need to replace the dynamic segments.
 
     Wildcard matching is only applicable to entire URL path segments. So, the same example, `GET {{url}}/users/{{userId}}` can serve `GET /users/1`, `GET /users/100` or even `GET /users/carol`. But, it will not match `GET /users/foo/bar`.
 

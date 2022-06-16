@@ -53,7 +53,7 @@ Releases are shown on the **API version** page, on the **Overview** tab. Select 
 
 <img src="https://assets.postman.com/postman-docs/api-builder-releases-v9-16.jpg" alt="API Builder releases" width="350px"/>
 
-Each release page shows a read-only view of the schema, documentation, and tests associated with that release. You can't make changes to a released API. If you have more entity changes, you can create another release.
+Each release page shows a read-only view of the schema, documentation, and tests associated with that release. You can't make changes to a released API. If you have more changes to make, you can create another release.
 
 ## Creating a release
 

@@ -29,7 +29,7 @@ You can install the library from [npm](https://www.npmjs.com/package/postman-run
 runtime = require('postman-runtime');
 var runner = new runtime.Runner();
 
-//Collection object constructed via Collection SDK
+//Collection object constructed using the Collection SDK
 var collection = new sdk.Collection();
 
 runner.run(collection, {

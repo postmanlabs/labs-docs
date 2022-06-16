@@ -38,7 +38,7 @@ warning: false
 
 You can group your Postman requests and examples into collections to keep your workspace organized, to collaborate with teammates, to generate API documentation and API tests, and to automate request runs.
 
-Select **Collections** in the sidebar to see the list of collections in a workspace.
+Select **Collections** in the sidebar for the list of collections in a workspace.
 
 <img alt="" src="https://assets.postman.com/postman-docs/collections-overview.jpg" width="300px"/>
 
@@ -189,7 +189,7 @@ Recovery options depend on your Postman plan:
 * Postman Basic: Recover collections for up to 30 days.
 * Postman Professional and Enterprise: Recover collections for up to 90 days.
 
-> If you do not see a collection that you expected to see in the Trash page, it may have been removed from a workspace rather than deleted. If the collection appears in another workspace, you can move it by selecting **Share**.
+> If a collection that you expected to be in the Trash isn't there, it may have been removed from a workspace rather than deleted. If the collection appears in another workspace, you can move it by selecting **Share**.
 
 ### Sharing a collection
 

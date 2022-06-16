@@ -21,7 +21,7 @@ contextual_links:
 
 ---
 
-If you're just getting started using Postman within your organization, you can carry out the following preparation steps to set your team up for success.
+When you're getting started using Postman within your organization, you can carry out the following preparation steps to set your team up for success.
 
 ## Contents
 
@@ -43,6 +43,7 @@ You can either enable **Auto-select** option or manually select the agent (**Clo
 You may want to contact your IT team to establish what the procedure is for adding a new piece of software. This varies from organization to organization, however, the following points are common:
 
 * Your IT team may need to add an exception to device policy allowing for Postman to be installed on employee workstations. Provide a [Postman download link​](https://www.postman.com/downloads/) to the IT team to help establish this exception.
+    * If you are on a [Postman Enterprise plan](https://www.postman.com/pricing), your IT team can opt to deploy the Postman Enterprise app across your organization. For more information, see [Managing Enterprise deployment](/docs/administration/managing-enterprise-deployment/).
 * If your organization's network connection is facilitated behind a proxy, you may need to configure Postman appropriately. Retrieve proxy connection details from your IT team and [​set them up within Postman](/docs/getting-started/proxy/)​.
 * It's recommended that your IT team allowlists Postman’s domains to ensure Postman data is synced with the cloud and all functionality works as expected. By default, WebSocket connections use the same ports as HTTP (80) and HTTPS (443). Ensure your network firewall allows WebSocket connections for Postman's services by allowlisting the following domains:
 
@@ -58,7 +59,7 @@ You may want to contact your IT team to establish what the procedure is for addi
 
 ### Invite team members
 
-Depending on the size of your team you can send invites to your team now or [Check Your Setup](#check-your-setup) with a few volunteers before you rollout Postman to your entire organization.
+Depending on the size of your team, you can either send invites to your team immediately or [check your setup](#check-your-setup) with a few volunteers before you roll out Postman to your entire organization.
 
 You can add your teammates from your [team dashboard](https://go.postman.co/team) by generating a shareable link or by inviting them through a direct email. See [Managing Your Team](/docs/administration/managing-your-team/managing-your-team/) for more detail.
 
@@ -78,11 +79,11 @@ Repeat these checks on a colleague’s workstation. If everything worked, your w
 
 ### Enable team discovery
 
-Team discovery makes Postman’s collaboration features more discoverable to users, and allows your team participation to scale up along with your successful API projects. When team discovery is enabled, users in your organization can see teams to join when they access their Postman accounts. Anyone signing in with a company email address is presented with available teams and can make a request to join each one. Administrators will receive a notification and can approve or deny access from there. See [Team Discovery](/docs/collaborating-in-postman/collaboration-intro/#team-discovery) for more info.
+Team discovery makes Postman’s collaboration features more discoverable to users, and allows your team participation to scale up along with your successful API projects. When team discovery is enabled, Postman displays a list of teams to join when users in your organization access their Postman accounts. Anyone signing in with a company email address is presented with available teams and can make a request to join each one. Administrators will receive a notification and can approve or deny access from there. See [Team Discovery](/docs/collaborating-in-postman/collaboration-intro/#team-discovery) for more info.
 
 ### Questions?
 
-If you have any questions or run into any issues setting up Postman for your team be sure and check to see if the question has already been answered by the [Postman Community](https://community.postman.com/). You can also find a number of support resources on the [support page](https://www.postman.com/support).
+If you have any questions or run into any issues setting up Postman for your team, check the [Postman Community](https://community.postman.com/). Other users might have the same question! You can also find a number of support resources on the [support page](https://www.postman.com/support).
 
 ## Next steps
 

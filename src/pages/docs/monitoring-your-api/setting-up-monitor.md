@@ -138,6 +138,6 @@ To work with a monitor, select **Monitors** in the sidebar and then select a mon
 
 ## Next steps
 
-[View the results of your collection-based monitors](/docs/monitoring-your-api/viewing-monitor-results/) to see detailed information about monitor runs.
+[View the results of your collection-based monitors](/docs/monitoring-your-api/viewing-monitor-results/) for detailed information about monitor runs.
 
 Learn how to set up [integrations](/docs/integrations/intro-integrations/) to send monitor data and notifications to other platforms, such as [Slack](/docs/integrations/available-integrations/slack/) or [Datadog](/docs/integrations/available-integrations/datadog/).

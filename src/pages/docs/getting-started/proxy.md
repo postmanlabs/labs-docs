@@ -43,7 +43,7 @@ Similar to the way parents might speak to each other through a child, the child 
 >>>**Parent 2**:  _Yeah._
 >>>>**Timmy**:  _Dad says yeah._
 
-In this analogy, the child forwards the information on behalf of each parent. Besides just relaying information, [proxies can do much more](https://en.wikipedia.org/wiki/Proxy_server).
+In this analogy, the child forwards the information on behalf of each parent. Besides relaying information, [proxies can do much more](https://en.wikipedia.org/wiki/Proxy_server).
 
 * Record all traffic between your machine and the internet
 * Reveal the contents of all requests, responses, cookies, and headers
@@ -76,19 +76,17 @@ Postman enables you to configure a custom proxy configuration that directs Postm
 
 [![Enable custom proxy](https://assets.postman.com/postman-docs/custom-proxy-flow.jpg)](https://assets.postman.com/postman-docs/custom-proxy-flow.jpg)
 
-Custom proxy settings are turned off by default. To turn them on, select **Settings** > **Add a custom proxy configuration**.
+Custom proxy settings are turned off by default. To turn them on, select **Settings** > **Add a custom proxy configuration** and update the following settings:
 
-Choose the type of proxy server by checking the appropriate checkboxes beside **Proxy Type**. By default, both `HTTP` and `HTTPS` are checked. This means that both HTTP and HTTPS requests will go through the proxy server.
+* **Proxy Type** - Choose the type of proxy server by selecting the appropriate checkboxes. By default, both `HTTP` and `HTTPS` are selected. This means that both HTTP and HTTPS requests will go through the proxy server.
+* **Proxy Server** - Enter the **host** or **IP address** (without protocol) and the **port** of the proxy server.
+* **Proxy Auth** - Postman uses the system's proxy configurations by default. To send API requests, select the option **This proxy requires authentication.** Turning this on makes the requests use the Basic Authentication method, which requires a **Username** and a **Password**.
 
-The first field under **Proxy Type** is **Proxy Server**. Here, enter the **host** or **IP address** (without protocol) of the proxy server. The next field to **Proxy Server** is where the **port** of the proxy server is provided.
+    <img alt="Default proxy authentication" src="https://assets.postman.com/postman-docs/enable-default-proxy-configuration.jpg"/>
 
-The field below **Proxy Server** is **Proxy Auth**. Postman uses the system's proxy configurations by default. To send API requests, select the option **This proxy requires authentication.** Turning this on makes the requests use Basic Authentication method, which requires a username and a password.
+* **Proxy Bypass** - Enter comma-separated hosts for which the requests will bypass the proxy settings.
 
-<img alt="Default proxy authentication" src="https://assets.postman.com/postman-docs/enable-default-proxy-configuration.jpg"/>
-
-The **Proxy Bypass** setting is below the **Proxy Server** option. A number of comma-separated hosts can be provided here for which the requests don't use the proxy settings.
-
-[![Custom proxy configuration](https://assets.postman.com/postman-docs/enable-custom-proxy-configuration.jpg)](https://assets.postman.com/postman-docs/enable-custom-proxy-configuration.jpg)
+    [![Custom proxy configuration](https://assets.postman.com/postman-docs/enable-custom-proxy-configuration.jpg)](https://assets.postman.com/postman-docs/enable-custom-proxy-configuration.jpg)
 
 ### Using a system proxy
 
@@ -104,11 +102,11 @@ If all of your applications need to use the same proxy, you might need to use a 
 
 System proxy settings are enabled by default. Any request made through Postman will go through the system proxy.
 
-You can select the option "**Use the system proxy**" to turn the system proxy on or off. When it's unchecked, all the requests are made directly. However, regardless of the proxy setting in the app, Postman will still use the system proxy if there is an environment variable set.
+Select **Use the system proxy** to turn the system proxy on or off. When you clear the checkbox, all the requests are made directly. However, regardless of the proxy setting in the app, Postman will still use the system proxy if there is an environment variable set.
 
 [![Use system proxy](https://assets.postman.com/postman-docs/use-system-proxy.jpg)](https://assets.postman.com/postman-docs/use-system-proxy.jpg)
 
-If the **Use System Proxy** and the **Custom Proxy Configuration** are both turned on, then the **Custom Proxy Configuration** will take precedence.
+If **Use System Proxy** and the **Custom Proxy Configuration** are both turned on, then **Custom Proxy Configuration** will take precedence.
 
 ### Troubleshooting proxy configurations
 
@@ -117,7 +115,7 @@ If you are unable to send any requests through Postman and your network requires
 * Enable the system proxy and make sure the proxy is added to the operating system:
     * **Windows** - Select **Start**, then select the gear icon (**Settings**) at the far left. In Settings, select **Network & Internet**. In the left-hand pane, select **Proxy** at the bottom. Select **Manual Proxy Setup** > use a Proxy **(ON)**.
 
-    * **Mac** - Open System Preferences and select **Network**. On the left-hand side, make sure to select the connected or active network connection. You can have different proxy settings for each type of network connection. At the bottom, select **Advanced**. Select the **Proxies** tab and you will see different protocols you can configure. If you select **Web Proxy (HTTP)**, you will be able to enter the proxy server IP address, port number, username, and password.
+    * **Mac** - Open System Preferences and select **Network**. On the left-hand side, make sure to select the connected or active network connection. You can have different proxy settings for each type of network connection. At the bottom, select **Advanced**. Select the **Proxies** tab to configure different protocols. If you select **Web Proxy (HTTP)**, you will be able to enter the proxy server IP address, port number, username, and password.
 
     * **Linux** - In System Settings, scroll down to **Hardware**, select **Networking**, and then select **Network Proxy**. You can choose **Automatic** or **Manual**.
 
