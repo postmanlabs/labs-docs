@@ -25,7 +25,7 @@ A proxy is an intermediary server that sits between a client application (like P
 
 <img alt="Standard web proxy" src="https://assets.postman.com/postman-docs/proxy-standard-flow.jpg">
 
-By default, the Postman Desktop app uses your system's configured proxy to send API requests or access the internet. If needed, you can enter authentication details for the default proxy in the Postman Desktop app. You can also configure Postman to use the system proxy or a custom proxy when sending requests.
+By default, the Postman Desktop app uses your system's configured proxy to send API requests or access the internet. If needed, you can enter authentication details for the [default proxy](#configuring-the-default-proxy) in the Postman Desktop app. You can also configure Postman to use the [system proxy](#using-the-system-proxy-for-requests) or a [custom proxy](#using-a-custom-proxy-for-requests) when sending requests.
 
 > The steps below show how to configure Postman to use a proxy server when sending requests or accessing online resources. If you want to configure Postman's built-in proxy to capture API requests, see [Capturing request data overview](/docs/sending-requests/capturing-request-data/capture-overview/).
 
