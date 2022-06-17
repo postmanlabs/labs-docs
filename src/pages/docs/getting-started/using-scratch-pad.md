@@ -28,7 +28,7 @@ If you sign out or your connection to Postman breaks, Postman displays a global 
 
 <img alt="Scratch Pad global banner" src="https://assets.postman.com/postman-docs/scratch-pad-notice.jpg" width="350px" />
 
-If you are logged in and want to go to the Scratch Pad, select your avatar in the header, then select **Scratch Pad**.
+If you are logged in and want to go to the Scratch Pad, select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the header and select **Scratch Pad**.
 
 ## Scratch Pad features
 
@@ -57,7 +57,7 @@ When you leave the Scratch Pad, your data remains there and isn't automatically 
 To export saved Scratch Pad data:
 
 1. Go to the Scratch Pad.
-1. Select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the header, then select **Data**.
+1. Select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the header, then select **Settings** > **Data**.
 1. Select **Export Data**.
 1. Choose a directory in which to save the file, then select **Save**.
 
