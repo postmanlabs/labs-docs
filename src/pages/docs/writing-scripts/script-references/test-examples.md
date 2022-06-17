@@ -25,6 +25,9 @@ contextual_links:
   - type: link
     name: "Continuous API testing with Postman"
     url: "https://blog.postman.com/continuous-api-testing-with-postman/"
+  - type: link
+    name: "How to Test JSON Properties in Postman"
+    url: "https://blog.postman.com/how-to-test-json-properties-in-postman/"
   - type: subtitle
     name: "Public Workspaces"
   - type: link
