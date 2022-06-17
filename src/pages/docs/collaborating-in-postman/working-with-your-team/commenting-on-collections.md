@@ -1,8 +1,8 @@
 ---
-title: "Commenting on collections"
+title: "Discussing your work"
 order: 73.3
 updated: 2021-04-15
-page_id: "commenting_on_collections"
+page_id: "discussing_your_work"
 contextual_links:
   - type: section
     name: "Additional Resources"

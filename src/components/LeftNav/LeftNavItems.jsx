@@ -308,11 +308,30 @@ export const leftNavItems = [
   {
     name: 'Collaborating in Postman',
     parentSlug: 'collaborating-in-postman',
-    url: '/docs/collaborating-in-postman/collaboration-intro/',
+    url: '/docs/collaborating-in-postman/working-with-your-team/collaboration-intro/',
     subMenuItems1: [
       {
         name: 'Working with your team',
-        url: '/docs/collaborating-in-postman/collaboration-intro/',
+        subParentSlug: 'working-with-your-team',
+        slug: '/docs/collaborating-in-postman/working-with-your-team/collaboration-intro/',
+        subMenuItems2: [
+          {
+            name: 'Collaboration overview',
+            url: '/docs/collaborating-in-postman/working-with-your-team/collaboration-intro/',
+          },
+          {
+            name: 'Enabling team discovery',
+            url: '/docs/collaborating-in-postman/working-with-your-team/enabling-team-discovery/',
+          },
+          {
+            name: 'Collaborating in team workspaces',
+            url: '/docs/collaborating-in-postman/working-with-your-team/collaborating-in-team-workspaces/',
+          },
+          {
+            name: 'Discussing your work',
+            url: '/docs/collaborating-in-postman/working-with-your-team/commenting-on-collections/',
+          },
+        ],
       },
       {
         name: 'Defining roles',
@@ -329,10 +348,6 @@ export const leftNavItems = [
       {
         name: 'Your Private API Network',
         url: '/docs/collaborating-in-postman/adding-private-network/',
-      },
-      {
-        name: 'Commenting on collections',
-        url: '/docs/collaborating-in-postman/commenting-on-collections/',
       },
       {
         name: 'Using version control',
