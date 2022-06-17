@@ -25,7 +25,7 @@ contextual_links:
 
 New Relic is an application performance management (APM) solution to monitor real-time and trending data for your processes or web apps. The API Builder has a New Relic integration that enables you to access New Relic APM metrics from within Postman.
 
-With this integration, you can link a version of your API in Postman to multiple services from New Relic. Each New Relic service corresponds to an API instance, such as `beta`, `prod1`, or `prod2`. You can also link multiple dashboards from New Relic to your API.
+With this integration, you can link a version of your API in Postman to multiple services from New Relic. Each New Relic service corresponds to an API instance, such as `beta`, `prod1`, or `prod2`. You can also link multiple dashboards from New Relic to your API in Postman.
 
 > **Want to send Postman monitor results to New Relic?** Sending monitor results to New Relic is a separate integration from viewing APM metrics in Postman and uses a different New Relic API key. The integration in the API Builder has two tabs that cover both integrations. Learn more about [configuring a Postman monitor integration with New Relic](/docs/integrations/available-integrations/new-relic/).
 
@@ -36,21 +36,21 @@ With this integration, you can link a version of your API in Postman to multiple
 
 ## Connecting to New Relic APM
 
-Before beginning, you must set up APM services for each deployment of your API. See [the New Relic APM documentation](https://docs.newrelic.com/docs/apm/) for more details.
+Before you begin, you must set up APM services for each deployment of your API. See [the New Relic APM documentation](https://docs.newrelic.com/docs/apm/) for more details.
 
 To connect an API to New Relic APM:
 
 1. Open an API version and select the **Monitoring** tab.
 1. Under **Connect Postman to your monitoring workflows**, select **New Relic APM**.
-1. On the **Monitor API performance** tab, enter a New Relic User API Key.
+1. Enter your **New Relic API Key** (user key).
 
-    > There are multiple types of API keys in New Relic. Make sure to use a **User** key for connecting an API to New Relic. For more information on API keys in New Relic, read the [New Relic API keys documentation](https://docs.newrelic.com/docs/apis/intro-apis/new-relic-api-keys/).
-1. In **Services** select one or more of your New Relic APM services.
-1. Optionally, in **Link dashboard**, select one or more of your New Relic Dashboards.
-1. Select your New Relic region.
+    > There are multiple types of API keys in New Relic. Make sure to use a **User Key** key for connecting an API to New Relic. For more information on API keys in New Relic, read the [New Relic API keys documentation](https://docs.newrelic.com/docs/apis/intro-apis/new-relic-api-keys/).
+
+1. Select one or more New Relic **Services** to connect to Postman.
+1. (Optional) Select one or more New Relic **Dashboards** to view in Postman.
+1. Select your New Relic region (**US** or **EU**).
 1. Select **Connect**.
-
-> You can also optionally select **Post monitoring results** and configure an integration to send your Postman monitor run metrics to New Relic. This uses a different New Relic API key. Learn more about [configuring a Postman monitor integration with New Relic](/docs/integrations/available-integrations/new-relic/).
+1. If you want, you can also configure an integration to send your Postman monitor run results to New Relic. Enter details for the integration, or select **Maybe Later**. Learn more about [configuring a Postman monitor integration with New Relic](/docs/integrations/available-integrations/new-relic/).
 
 ## Using the APM dashboard
 
