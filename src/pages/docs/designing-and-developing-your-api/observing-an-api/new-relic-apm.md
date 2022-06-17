@@ -23,11 +23,11 @@ contextual_links:
   - type: section
 ---
 
-New Relic is an application performance management (APM) solution to monitor real-time and trending data for your processes or web apps. The API Builder has a New Relic integration that enables you to access New Relic APM metrics from directly within Postman.
+New Relic is an application performance management (APM) solution to monitor real-time and trending data for your processes or web apps. The API Builder has a New Relic integration that enables you to access New Relic APM metrics from within Postman.
 
-With this integration, each version of your API in Postman can be linked to multiple services from New Relic. Each service can correspond to a running instance of the API, such as beta, prod1, and prod2. You can also optionally link multiple dashboards from New Relic to your API.
+With this integration, you can link a version of your API in Postman to multiple services from New Relic. Each New Relic service corresponds to an API instance, such as `beta`, `prod1`, or `prod2`. You can also link multiple dashboards from New Relic to your API.
 
-> **You can also send Postman monitor results to New Relic.** Note that sending monitor results to New Relic is a separate integration from viewing APM metrics and uses a different New Relic API key. The integration in the API Builder has two tabs to cover both integrations. Learn more about [configuring a Postman monitor integration with New Relic](/docs/integrations/available-integrations/new-relic/).
+> **Want to send Postman monitor results to New Relic?** Sending monitor results to New Relic is a separate integration from viewing APM metrics in Postman and uses a different New Relic API key. The integration in the API Builder has two tabs that cover both integrations. Learn more about [configuring a Postman monitor integration with New Relic](/docs/integrations/available-integrations/new-relic/).
 
 ## Contents
 
