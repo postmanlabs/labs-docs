@@ -308,16 +308,16 @@ export const leftNavItems = [
   {
     name: 'Collaborating in Postman',
     parentSlug: 'collaborating-in-postman',
-    url: '/docs/collaborating-in-postman/working-with-your-team/collaboration-intro/',
+    url: '/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/',
     subMenuItems1: [
       {
         name: 'Working with your team',
         subParentSlug: 'working-with-your-team',
-        slug: '/docs/collaborating-in-postman/working-with-your-team/collaboration-intro/',
+        slug: '/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/',
         subMenuItems2: [
           {
             name: 'Collaboration overview',
-            url: '/docs/collaborating-in-postman/working-with-your-team/collaboration-intro/',
+            url: '/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/',
           },
           {
             name: 'Enabling team discovery',
