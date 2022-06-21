@@ -69,7 +69,7 @@ If you would like to add, edit, or replace links you are welcome to do so. There
 
 When creating or editing an internal link (a link that points to a Learning Center doc), be sure to:
 
-* use a relative URL. Example: `/docs/collaborating-in-postman/collaboration-intro/`
+* use a relative URL. Example: `/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/`
 * use a trailing slash to keep our app from creating unnecessary 302 redirects. (See example of trailing slash above.)
 * use a leading slash to keep the doc page from 404'ing. (See example of leading slash above.)
 * `npm run dev` the app and check links you have added / edited to ensure they work correctly.

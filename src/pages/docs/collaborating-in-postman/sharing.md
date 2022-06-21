@@ -8,7 +8,7 @@ contextual_links:
     name: "Prerequisites"
   - type: link
     name: "Working with your team"
-    url: "/docs/collaborating-in-postman/collaboration-intro/"
+    url: "/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/"
   - type: section
     name: "Additional Resources"
   - type: subtitle

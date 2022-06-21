@@ -35,7 +35,7 @@ contextual_links:
     name: "Next Steps"
   - type: link
     name: "Collaborating with your team"
-    url: "/docs/collaborating-in-postman/collaboration-intro/"
+    url: "/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/"
   - type: link
     name: "Version control for collections"
     url:  "/docs/collaborating-in-postman/version-control-for-collections/"
@@ -284,7 +284,7 @@ If you have [Editor access](/docs/collaborating-in-postman/roles-and-permissions
 
 Shared environments allow you to leverage collaboration within Postman. Check out some more resources on how you can work with team members on your API development projects:
 
-* [Collaborating in Postman](/docs/collaborating-in-postman/collaboration-intro/)
+* [Collaborating in Postman](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/)
 * [Intro to workspaces](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/)
 * [Managing and sharing APIs](/docs/designing-and-developing-your-api/managing-apis/)
 * [Version control for collections](/docs/collaborating-in-postman/version-control-for-collections/)

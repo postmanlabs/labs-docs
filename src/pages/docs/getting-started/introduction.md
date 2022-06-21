@@ -105,7 +105,7 @@ If you're exposing an API for public use, Postman can support developer onboardi
 
 If you're using Postman in your company or team, check out these guides to maximize your collaboration:
 
-* [Collaborating in Postman](/docs/collaborating-in-postman/collaboration-intro/)
+* [Collaborating in Postman](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/)
 * [Creating workspaces](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/)
 * [Managing Postman for an organization](/docs/administration/managing-your-team/managing-your-team/)
 * [Onboarding your team](/docs/administration/onboarding-checklist/)

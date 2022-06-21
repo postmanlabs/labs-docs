@@ -26,7 +26,7 @@ warning: false
 
 ---
 
-Having a free Postman account enables you to [sync](/docs/getting-started/syncing/) and back up your work so that you can access it from different machines. With a Postman account, you can also [collaborate](/docs/collaborating-in-postman/collaboration-intro/) with others on your API projects.
+Having a free Postman account enables you to [sync](/docs/getting-started/syncing/) and back up your work so that you can access it from different machines. With a Postman account, you can also [collaborate](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/) with others on your API projects.
 
 Signing up for a Postman account is optional, and you can use the Postman desktop app without an account if you prefer. If you do want to create a Postman account, continue to the [Signing up for a Postman account](#signing-up-for-a-postman-account) section.
 
@@ -60,9 +60,9 @@ Your new Postman profile will be visible to collaborators and anyone viewing res
 
 ### Creating or joining a team
 
-During the sign up process, you have the option to create or join a [team](/docs/collaborating-in-postman/collaboration-intro/):
+During the sign up process, you have the option to create or join a [team](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/):
 
-* **Joining a team** - If you sign up with your company email and your company has a Postman account with team discovery enabled, there will be a list of [teams you can join](/docs/collaborating-in-postman/collaboration-intro/#finding-teams-within-your-organization).
+* **Joining a team** - If you sign up with your company email and your company has a Postman account with team discovery enabled, there will be a list of [teams you can join](/docs/collaborating-in-postman/working-with-your-team/enabling-team-discovery/#finding-teams-within-your-organization).
 * **Creating a team** - To create a team and optionally invite collaborators, select __Create new team__. Enter your team name and URL, then select __Continue__.
 
 ## Signing into Postman
