@@ -9,60 +9,83 @@ contextual_links:
   - type: subtitle
     name: "Videos"
   - type: link
-    name: ""
-    url: ""
+    name: "Working With Your Team in Postman | The Exploratory"
+    url: "https://youtu.be/5lscUV-Exac"
   - type: link
-    name: ""
-    url: ""
+    name: "Postman Space Camp | Working with Your Team in Postman"
+    url: "https://youtu.be/OifhKJCd_-M"
   - type: subtitle
     name: "Blog Posts"
   - type: link
-    name: ""
-    url: ""
-  - type: section
-    name: "Next Steps"
-  - type: link
-    name: ""
-    url: ""
-
+    name: "Get More Out of Postman by Collaborating with Your Team"
+    url: "https://blog.postman.com/get-more-out-of-postman-by-collaborating-with-your-team/"
 ---
 
-Collaborating in team workspaces
+You can use team workspaces to work together on APIs, collections, environments, integrations, mocks, and monitors. Team workspaces can act as a single source of truth for your API projects and encourage collaboration within your team.
 
-Team workspaces allow you to collaborate on APIs, collections, environments, integrations, mocks, and monitors with your team.
+[Postman Professional and Enterprise teams](https://www.postman.com/pricing) can also create [private workspaces](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/). A private workspace is a team workspace that is only visible to the user who created it and team members who have been invited to join it. Private workspaces allow teams to restrict access to elements that are relevant only to a particular group.
 
 > Postman creates a default "Team Workspace" for every team. You can rename this workspace, but it cannot be deleted.
 
-Postman notifies you when activities occur within your team workspace. You can opt in to or out of these notifications by selecting your avatar in the upper right and selecting **Notification Preferences**.
+## Contents
+
+* [Creating a team workspace](#creating-a-team-workspace)
+* [Inviting a team member to a workspace](#inviting-a-team-member-to-a-workspace)
+* [Moving elements to team workspaces](#moving-elements-to-team-workspaces)
+* [Watching team workspaces](#watching-team-workspaces)
+* [Next steps](#next-steps)
+
+## Creating a team workspace
+
+You can create a new team workspace at any time by selecting **New** above the sidebar, then **Workspace**. To learn more, see [Creating workspaces](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/).
 
 ### Inviting a team member to a workspace
 
 You can invite team members to join a [new](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/) or existing workspace. For more details about how to invite a team member to a workspace, see [Sharing workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#sharing-workspaces).
 
-### Finding teams within your organization
+## Moving elements to team workspaces
 
-When you sign in to the Postman web dashboard using a verified email address for your company or organization, you can find available teams to join by selecting your avatar > **Your Team**. You will also be prompted with available teams when you first sign into your Postman account with a verified address.
+You can move collections, APIs, and environments to shared workspaces to collaborate with your team.
 
-[![Choose Team](https://assets.postman.com/postman-docs/join-team-from-list.jpg)](https://assets.postman.com/postman-docs/join-team-from-list.jpg)
+> You must be an Editor on a collection, API, or environment, the Workspace Admin, or a [Super Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) to move an element to another workspace.
 
-Select a team from the list of the available teams within your organization. Answer the question set by the Team Admin, if there is one. You can also add an optional note. Select **Request to join**.
+In the sidebar, select the element you want to share, then select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> > **Move**.
 
-<img alt="Team Join Question" src="https://assets.postman.com/postman-docs/team-join-question-v9.7.0.jpg" width="400px"/>
+Use the search bar to find the workspace to which you want to move the element, or filter by workspace visibility by selecting the icon to the right of the search bar.
 
-Team Admins will receive a notification when you ask to join the team. Once they approve your request, you'll be able to access the team and collaborate on API projects within it.
+You can share entities to personal, private, team, and public workspaces that you have access to. Shared private, team, and public workspaces allow you to collaborate with others.
 
-### Leaving a team
+> You cannot move entities from team, private, or public workspaces to a personal workspace.
 
-You can leave a Postman team by navigating to your [Postman Dashboard](https://go.postman.co/home), selecting your avatar in the top right, then **Account Settings**. Select **Team** on the left. You can then opt to **Leave Team**.
+<!-- -->
 
-<img src="https://assets.postman.com/postman-docs/leave-team-v9.1.jpg" alt="Leave team"/>
+> Refer to [Roles and permissions](/docs/collaborating-in-postman/roles-and-permissions/) for information on workspace access control within your team.
 
-> If your team has [SCIM configured](/docs/administration/scim-provisioning/scim-provisioning-overview/), you must contact your Postman Team Admins to leave the team.
+Select the workspace, then **Move** (**Collection**, **API**, or **Environment**).
 
-When you leave a team, you no longer have access to the team's workspaces or any of the elements in them. You will still have access to your personal workspaces.
+<img alt="Move API" src="https://assets.postman.com/postman-docs/move-api-v9.1.jpg" width="400px"/>
 
-If you are the last member to leave your team, you will have the option to transfer collections to a personal workspace.
+Note that items related to what's being moved will not move with the element automatically:
 
-<img src="https://assets.postman.com/postman-docs/leave-and-delete-team.jpg" alt="Leave and delete team" width="400px"/>
+* Collections: Monitors will pause and stay in the current workspace.
 
-> If you are invited to a new team and you are the last member in your current team, all team data will be transferred to your personal default workspace.
+* APIs: Collections, documentation, monitors, mock servers, and environments of the API will stay in the current workspace.
+
+* Environments: Monitors, mock servers, and integrations using the environment may no longer work.
+
+These items must be moved separately or re-configured in the new workspace.
+
+## Watching team workspaces
+
+You can watch team workspaces to receive a notification when a team member modifies anything in the workspace. To do so, see [Watching a workspace](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#watching-a-workspace).
+
+You can also watch specific elements within a team workspace to receive a notification when a team member modifies the element:
+
+* [Watching a collection](/docs/sending-requests/intro-to-collections/#watching-a-collection)
+* [Watching APIs](/docs/designing-and-developing-your-api/managing-apis/#watching-apis)
+
+## Next steps
+
+To learn more about managing team workspaces, see [Using and managing workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/).
+
+To move forward with collaboration, see [Discussing your work](/docs/collaborating-in-postman/working-with-your-team/discussing-your-work/).

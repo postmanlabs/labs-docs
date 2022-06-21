@@ -329,7 +329,7 @@ export const leftNavItems = [
           },
           {
             name: 'Discussing your work',
-            url: '/docs/collaborating-in-postman/working-with-your-team/commenting-on-collections/',
+            url: '/docs/collaborating-in-postman/working-with-your-team/discussing-your-work/',
           },
         ],
       },

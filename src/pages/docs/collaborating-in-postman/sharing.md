@@ -74,32 +74,4 @@ You can also share collections with a [Run in Postman](/docs/publishing-your-api
 
 ## Moving Postman entities to collaborative workspaces
 
-You can move collections, APIs, and environments to shared workspaces to collaborate with your team.
-
-> You must be an Editor on a collection, API, or environment, or the Workspace Admin, to move an element to another workspace.
-
-In the sidebar, select the element you want to share, then select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> > **Move**.
-
-Use the search bar to find the workspace to which you want to move the element, or filter by workspace visibility by selecting the icon to the right of the search bar.
-
-You can share entities to personal, private, team, and public workspaces that you have access to. Shared private, team, and public workspaces allow you to collaborate with others.
-
-> You cannot move entities from team, private, or public workspaces to a personal workspace.
-
-<!-- -->
-
-> Refer to [Roles and permissions](/docs/collaborating-in-postman/roles-and-permissions/) for information on workspace access control within your team.
-
-Select the workspace, then **Move** (**Collection**, **API**, or **Environment**).
-
-<img alt="Move API" src="https://assets.postman.com/postman-docs/move-api-v9.1.jpg" width="400px"/>
-
-Note that items related to what's being moved will not move with the element automatically:
-
-* Collections: Monitors will pause and stay in the current workspace.
-
-* APIs: Collections, documentation, monitors, mock servers, and environments of the API will stay in the current workspace.
-
-* Environments: Monitors, mock servers, and integrations using the environment may no longer work.
-
-These items must be moved separately or re-configured in the new workspace.
+You can move APIs, collections, and environments to shared workspaces to collaborate with your team. For more information, see [Collaborating in team workspaces](/docs/collaborating-in-postman/working-with-your-team/collaborating-in-team-workspaces/).

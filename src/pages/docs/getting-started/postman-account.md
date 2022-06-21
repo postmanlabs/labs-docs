@@ -40,6 +40,7 @@ Signing up for a Postman account is optional, and you can use the Postman deskto
 * [Updating your notification preferences](#updating-your-notification-preferences)
 * [Managing your active sessions](#managing-your-active-sessions)
 * [Upgrading your account](#upgrading-your-account)
+* [Leaving a team](#leaving-a-team)
 * [Account security policies and standards](#account-security-policies-and-standards)
 
 ## Signing up for a Postman account
@@ -151,6 +152,22 @@ If you have a free account, you can upgrade it by navigating to [Postman](https:
 If you have a paid account, you can upgrade your Postman plan by navigating to your [billing dashboard](https://go.postman.co/billing/overview/) and selecting **Edit Plan** on the right. To learn more about upgrading and managing your Postman plan, see the [Billing](/docs/administration/billing/#changing-your-plan) guide.
 
 > The cost of your upgraded plan or additional seats will be prorated based on the time left in your team's current billing cycle. For more information, [contact Postman's sales team](mailto:sales@postman.com).
+
+## Leaving a team
+
+You can leave a Postman team by navigating to your [Postman Dashboard](https://go.postman.co/home), selecting your avatar in the top right, then **Account Settings**. Select **Team** on the left. You can then opt to **Leave Team**.
+
+<img src="https://assets.postman.com/postman-docs/leave-team-v9.1.jpg" alt="Leave team"/>
+
+> If your team has [SCIM configured](/docs/administration/scim-provisioning/scim-provisioning-overview/), you must contact your Postman Team Admins to leave the team.
+
+When you leave a team, you no longer have access to the team's workspaces or any of the elements in them. You will still have access to your personal workspaces.
+
+If you are the last member to leave your team, you will have the option to transfer collections to a personal workspace.
+
+<img src="https://assets.postman.com/postman-docs/leave-and-delete-team.jpg" alt="Leave and delete team" width="400px"/>
+
+> If you are invited to a new team and you are the last member in your current team, all team data will be transferred to your personal default workspace.
 
 ## Account security policies and standards
 
