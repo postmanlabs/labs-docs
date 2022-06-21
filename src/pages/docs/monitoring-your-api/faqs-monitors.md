@@ -35,11 +35,11 @@ Monitors are limited to a maximum of five minutes for each run, including all HT
 
 ### How do I persist variables between monitor runs?
 
-You cannot import existing global variables into a monitor, but you can create new global variables during a run. Global and environment variables can be updated and subsequently used during a monitoring run, however they will immediately revert to their original values. You can change this behavior and persist variable values by using the [Postman API](https://docs.api.getpostman.com/#6517e0d6-3bc3-3da5-ab57-7a578a8504ce) to update your environment each time your monitor runs.
+You can't import existing global variables into a monitor, but you can create new global variables during a run. Global and environment variables can be updated and subsequently used during a monitoring run, however they will immediately revert to their original values. You can change this behavior and persist variable values by using the [Postman API](https://docs.api.getpostman.com/#6517e0d6-3bc3-3da5-ab57-7a578a8504ce) to update your environment each time your monitor runs.
 
 ### How many HTTP requests can a monitor send?
 
-Uptime monitors can be configured to call a single URL or endpoint. For collection-based monitors, there is no limit to the number of requests, although the total runtime cannot exceed 5 minutes.
+Uptime monitors can be configured to call a single URL or endpoint. For collection-based monitors, there is no limit to the number of requests, although the total runtime can't exceed five minutes.
 
 ### Can I run a request multiple times?
 
@@ -51,17 +51,17 @@ There is no specific limit to the amount of data that can be sent or received pe
 
 ### Can I upload files or attach data files?
 
-You cannot attach files to requests, like you can in the request builder, but you can upload data as a raw request body. Also, you cannot attach data files, like you can in the collection runner, but you can access files using APIs such as Google Docs, Google Sheets, and Dropbox.
+You can't attach files to requests, like you can in the request builder, but you can upload data as a raw request body. Also, you can't attach data files, like you can in the collection runner, but you can access files using APIs such as Google Docs, Google Sheets, and Dropbox.
 
 ### Are static IP addresses dedicated to individual customers or shared?
 
-The provided static IP addresses are fixed to their specified region and shared by all customers who enable this feature, which is available to Postman Professional and Enterprise teams. Static IP addresses are not available for uptime monitors. For more information, see [Running Postman monitors using static IPs](/docs/monitoring-your-api/using-static-IPs-to-monitor/).
+The provided static IP addresses are fixed to their specified region and shared by all customers who enable this feature, which is available to Postman Professional and Enterprise teams. Static IP addresses aren't available for uptime monitors. For more information, see [Running Postman monitors using static IPs](/docs/monitoring-your-api/using-static-IPs-to-monitor/).
 
 ### How do I troubleshoot problems?
 
 For collection-based monitors, you can view the full console output for every monitor run, including any errors. You can also use methods such as `console.log()` and `console.warn()` to output your own debugging information. To learn more, see [Troubleshooting monitors](/docs/monitoring-your-api/troubleshooting-monitors/).
 
-> For your security and privacy, Postman does not log request or response bodies in the console. Postman also does not log headers, as they may include items like cookies and authorization keys.
+> For your security and privacy, Postman doesn't log request or response bodies in the console. Postman also doesn't log headers, as they may include items like cookies and authorization keys.
 
 ## Security
 
@@ -75,7 +75,7 @@ Monitors can be edited in their respective workspace by members who have been gr
 
 ### Can I move a monitor?
 
-Monitors cannot be moved between workspaces. If you move a collection out of the workspace where its associated monitor is located, the monitor is paused. To learn more, see [Moving elements to workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#moving-elements-to-workspaces).
+Monitors can't be moved between workspaces. If you move a collection out of the workspace where its associated monitor is located, the monitor is paused. To learn more, see [Moving elements to workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#moving-elements-to-workspaces).
 
 ### Can I delete a monitor?
 
@@ -87,7 +87,7 @@ Monitors run on Postman's cloud infrastructure, which is hosted by Amazon Web Se
 
 ### Can monitors access private networks?
 
-Because monitors run in the Postman cloud, all URLs must be publicly available on the internet. A monitor cannot directly access your `localhost` or run requests behind a firewall. Also, you cannot monitor APIs that run on private networks, VPNs, or corporate intranets. For collection-based monitors, you can [use static IPs](/docs/monitoring-your-api/using-static-IPs-to-monitor/) to overcome this issue. Static IPs are available on [Postman Professional and Enterprise plans](https://www.postman.com/pricing).
+Because monitors run in the Postman cloud, all URLs must be publicly available on the internet. A monitor can't directly access your `localhost` or run requests behind a firewall. Also, you can't monitor APIs that run on private networks, VPNs, or corporate intranets. For collection-based monitors, you can [use static IPs](/docs/monitoring-your-api/using-static-IPs-to-monitor/) to overcome this issue. Static IPs are available on [Postman Professional and Enterprise plans](https://www.postman.com/pricing).
 
 ### Will monitors impact my API performance?
 
