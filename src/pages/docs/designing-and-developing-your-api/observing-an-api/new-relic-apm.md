@@ -44,7 +44,7 @@ To connect an API to New Relic APM:
 1. Under **Connect Postman to your monitoring workflows**, select **New Relic APM**.
 1. Enter your **New Relic API Key** (user key).
 
-    > There are multiple types of API keys in New Relic. Make sure to use a **User Key** key for connecting an API to New Relic. For more information on API keys in New Relic, read the [New Relic API keys documentation](https://docs.newrelic.com/docs/apis/intro-apis/new-relic-api-keys/).
+    > There are multiple types of API keys in New Relic. Make sure to use a **User Key** key for connecting an API to New Relic. To learn more, see the [New Relic API keys documentation](https://docs.newrelic.com/docs/apis/intro-apis/new-relic-api-keys/).
 
 1. Select one or more New Relic **Services** to connect to Postman.
 1. (Optional) Select one or more New Relic **Dashboards** to view in Postman.
@@ -54,9 +54,9 @@ To connect an API to New Relic APM:
 
 ## Using the APM dashboard
 
-Once your New Relic connection is established, the **Monitoring** tab will show a table of your services, along with their latency, error rate, apdex (ratio of successful to total requests), and health status.
+After your New Relic connection is established, the **Monitoring** tab displays a table of your services, along with their latency, error rate, apdex (ratio of successful to total requests), and health status.
 
-Health status is based on violations of alert conditions in New Relic, as shown in the table below. For more information, read the New Relic documentation for [viewing alert violations](https://docs.newrelic.com/docs/alerts-applied-intelligence/new-relic-alerts/alert-violations/view-alert-violations-our-products/).
+Health status is based on violations of alert conditions in New Relic, as shown in the table below. For more information, see the New Relic documentation for [viewing alert violations](https://docs.newrelic.com/docs/alerts-applied-intelligence/new-relic-alerts/alert-violations/view-alert-violations-our-products/).
 
 | Status | Description |
 | ----------- | ----------- |

@@ -19,7 +19,7 @@ With this integration, you can link a version of your API in Postman to multiple
 ## Contents
 
 * [Connecting to Datadog APM](#connecting-to-datadog-apm)
-* [Using the APM dashboard](#using-the-apm-dashboard)
+* [Viewing Datadog APM metrics](#viewing-datadog-apm-metrics)
 
 ## Connecting to Datadog APM
 
@@ -33,8 +33,28 @@ To connect an API to Datadog APM:
 1. Enter your **Datadog API Key** and **Datadog Application Key**. To learn more, see the Datadog documentation for [adding API and application keys](https://docs.datadoghq.com/account_management/api-app-keys/).
 1. Enter the **Datadog Environment** with the services you want to connect (for example, `beta` or `prod`).
 1. Select one or more Datadog **Services** to connect to Postman.
-1. (Optional) Select one or more Datadog **Dashboards** to view in Postman.
+1. (Optional) Select one or more Datadog **Dashboards** to link to Postman.
 1. Select **Connect**.
 1. If you want, you can also configure an integration to send your Postman monitor run results to Datadog. Enter details for the integration, or select **Maybe Later**. Learn more about [configuring a Postman monitor integration with Datadog](/docs/integrations/available-integrations/datadog/).
 
-## Using the APM dashboard
+SCREENSHOT
+
+## Viewing Datadog APM metrics
+
+After connecting to Datadog APM, you can view metrics for your Datadog services in Postman. Select **APIs** in the sidebar, select an API and version, and then select the **Monitoring** tab.
+
+For each Datadog service, you can view the environment, latency, throughput, error rate, and apdex (application performance index). You can also view monitor notifications, including `Alert`, `Warn`, and `No Data`. If you linked dashboards when connecting to Datadog, you can view them by selecting **Dashboard Quicklinks** and selecting a dashboard.
+
+SCREENSHOT
+
+Select the name of a Datadog service to view APM graphs for that service. The graphs display metrics for latency, throughput, apdex, and error rate. Hover over a data point on a graph to view more details.
+
+From here you can take the following actions:
+
+* To view graphs for a different service, select the service in the dropdown list.
+* To view the service in Datadog, select **View on Datadog**.
+* To view metrics for a different time range, select the time range in the dropown list.
+* To view the latest metrics, select <img alt="Refresh icon" src="https://assets.postman.com/postman-docs/icon-refresh-v9-5.jpg#icon" width="14px"> **Refresh**.
+* To edit or delete the integration, select the <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> **More actions** icon.
+
+SCREENSHOT
