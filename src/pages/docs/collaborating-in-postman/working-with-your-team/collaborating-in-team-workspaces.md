@@ -53,9 +53,9 @@ In the sidebar, select the element you want to share, then select the more actio
 
 Use the search bar to find the workspace to which you want to move the element, or filter by workspace visibility by selecting the icon to the right of the search bar.
 
-You can share entities to personal, private, team, and public workspaces that you have access to.
+You can share elements to personal, private, team, and public workspaces that you have access to.
 
-> You can't move entities from team, private, or public workspaces to a personal workspace.
+> You can't move elements from team, private, or public workspaces to a personal workspace.
 
 <!-- -->
 
