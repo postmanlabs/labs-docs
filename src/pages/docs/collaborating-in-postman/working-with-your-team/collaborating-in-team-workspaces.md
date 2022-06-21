@@ -23,9 +23,9 @@ contextual_links:
 
 You can use team workspaces to work together on APIs, collections, environments, integrations, mocks, and monitors. Team workspaces can act as a single source of truth for your API projects and encourage collaboration within your team.
 
-[Postman Professional and Enterprise teams](https://www.postman.com/pricing) can also create [private workspaces](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/). A private workspace is a team workspace that is only visible to the user who created it and team members who have been invited to join it. Private workspaces allow teams to restrict access to elements that are relevant only to a particular group.
+[Postman Professional and Enterprise teams](https://www.postman.com/pricing) can also create [private workspaces](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/). A private workspace is a team workspace that's only visible to the user who created it and team members who have been invited to join it. Private workspaces allow teams to restrict access to elements that are relevant only to a particular group.
 
-> Postman creates a default "Team Workspace" for every team. You can rename this workspace, but it cannot be deleted.
+> Postman creates a default "Team Workspace" for every team. You can rename this workspace, but it can't be deleted.
 
 ## Contents
 
@@ -53,9 +53,9 @@ In the sidebar, select the element you want to share, then select the more actio
 
 Use the search bar to find the workspace to which you want to move the element, or filter by workspace visibility by selecting the icon to the right of the search bar.
 
-You can share entities to personal, private, team, and public workspaces that you have access to. Shared private, team, and public workspaces allow you to collaborate with others.
+You can share entities to personal, private, team, and public workspaces that you have access to.
 
-> You cannot move entities from team, private, or public workspaces to a personal workspace.
+> You can't move entities from team, private, or public workspaces to a personal workspace.
 
 <!-- -->
 
@@ -65,7 +65,7 @@ Select the workspace, then **Move** (**Collection**, **API**, or **Environment**
 
 <img alt="Move API" src="https://assets.postman.com/postman-docs/move-api-v9.1.jpg" width="400px"/>
 
-Note that items related to what's being moved will not move with the element automatically:
+Note that items related to what you're moving won't move with the element automatically:
 
 * Collections: Monitors will pause and stay in the current workspace.
 
@@ -73,7 +73,7 @@ Note that items related to what's being moved will not move with the element aut
 
 * Environments: Monitors, mock servers, and integrations using the environment may no longer work.
 
-These items must be moved separately or re-configured in the new workspace.
+You must move these items separately or re-configure them in the new workspace.
 
 ## Watching team workspaces
 
