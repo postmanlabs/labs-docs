@@ -29,7 +29,7 @@ warning: false
 
 ---
 
-You can collaborate on Postman entities including collections, APIs, and environments, by sharing them using a link or by moving them to a shared private, team, or public workspace.
+You can collaborate on Postman elements including collections, APIs, and environments, by sharing them using a link or by moving them to a shared private, team, or public workspace.
 
 > To share a collection run, see [Using the Collection Runner](/docs/running-collections/intro-to-collection-runs/).
 >
@@ -39,12 +39,12 @@ You can collaborate on Postman entities including collections, APIs, and environ
 
 ## Contents
 
-* [Sharing Postman entities](#sharing-postman-entities)
-* [Moving Postman entities to collaborative workspaces](#moving-postman-entities-to-collaborative-workspaces)
+* [Sharing Postman elements](#sharing-postman-elements)
+* [Moving Postman elements to collaborative workspaces](#moving-postman-elements-to-collaborative-workspaces)
 
 > To share your work using workspaces, you need to be signed in to your [Postman account](/docs/getting-started/postman-account/).
 
-## Sharing Postman entities
+## Sharing Postman elements
 
 You can share your collections, APIs, and environments with collaborators by navigating to the element you want to share in the sidebar. Select it, then select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> > **Share**.
 
@@ -72,6 +72,6 @@ You can also share collections with a [Run in Postman](/docs/publishing-your-api
 
 > A JSON link is a shareable public link to a static snapshot of your collection. You can manage a complete list of your active collection links from your [Postman profile](https://go.postman.co/me/collections?view=links).
 
-## Moving Postman entities to collaborative workspaces
+## Moving Postman elements to collaborative workspaces
 
 You can move APIs, collections, and environments to shared workspaces to collaborate with your team. For more information, see [Collaborating in team workspaces](/docs/collaborating-in-postman/working-with-your-team/collaborating-in-team-workspaces/).

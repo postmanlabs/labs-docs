@@ -105,7 +105,7 @@ See [performing distributed migration](#performing-distributed-migration) to cho
 * The appointed admin can then [re-import into the new team](/docs/getting-started/importing-and-exporting-data/#importing-data-into-postman).
     * All collections included in the data dump will be imported into your currently selected workspace.
 * When your new team is ready for team members to join, the admin on the new team can send invitations to all other team members. The invite link will prompt them to leave their current team to join the new team.
-* At this point, you can [re-share and organize collections into team workspaces](/docs/collaborating-in-postman/sharing/#moving-postman-entities-to-collaborative-workspaces).
+* At this point, you can [re-share and organize collections into team workspaces](/docs/collaborating-in-postman/working-with-your-team/collaborating-in-team-workspaces/#moving-elements-to-team-workspaces).
 * Once the last team member and data from your previous team have migrated to your new one, the previous team will deactivate and you can begin [collaborating](https://www.youtube.com/watch?v=0hPUzjM-Cc8).
 
 ### Performing distributed migration

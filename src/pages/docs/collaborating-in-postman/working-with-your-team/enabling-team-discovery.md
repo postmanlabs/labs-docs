@@ -42,7 +42,7 @@ On your Team Settings page, select **Team discovery** on the left, then select *
 
 You can optionally add a question for pending team members to answer when they request to join your team. Enter your question and select **Update Question**. Anyone who requests to join the team will be prompted with the question. If you don't specify a question, team members can still add a note when they request to join the team.
 
-All [Team Admins](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) will be notified when someone makes a request to join your team, including their answer to any question you set, or an optional note.
+All [Team Admins](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) will receive a notification when someone makes a request to join your team, including their answer to any question you set, or an optional note.
 
 [![Team Request Approval](https://assets.postman.com/postman-docs/admin-team-join-requests-v9.7.0.jpg)](https://assets.postman.com/postman-docs/admin-team-join-requests-v9.7.0.jpg)
 
