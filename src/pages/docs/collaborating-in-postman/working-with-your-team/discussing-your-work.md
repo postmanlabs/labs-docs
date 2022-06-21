@@ -67,7 +67,7 @@ You can leave comments on request parameters (query parameters, path parameters,
 3. Select the key, value, or description.
 4. Enter your comment, and then select **Add Comment**.
 
-![Add comments on request params](https://assets.postman.com/postman-docs/adding-a-comment-on-a-request-parameter-v8.gif)
+![Add comments on request parameters](https://assets.postman.com/postman-docs/adding-a-comment-on-a-request-parameter-v8.gif)
 
 ### Adding an inline comment
 
@@ -103,7 +103,7 @@ You can read comments made on the request and on request parameters from the app
 
 ## Editing comments
 
-You can make changes to comments you've already posted. Other team members cannot edit your comments.
+You can make changes to comments you've already posted. Other team members can't edit your comments.
 
 1. In Postman, open the collection with the comment you want to edit.
 2. Find the comment and select **Comment** > **Edit**.
@@ -127,7 +127,7 @@ You can resolve comments made on request parameters when you no longer want them
 
 <img src="https://assets.postman.com/postman-docs/deleting-a-comment-v8.jpg" alt="Delete comment" width="399px">
 
-> For moderation purposes, users with the [Team Admin role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can delete comments made by anyone, but cannot modify comments.
+> For moderation purposes, users with the [Team Admin role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can delete comments made by anyone, but can't change comments.
 
 ## Tagging members in comments
 
@@ -140,7 +140,7 @@ When you leave feedback or a question for a specific teammate, you can let them 
 
 Your teammate will be notified in the app or with an email that they've been tagged in a comment. Select the notifications icon <img alt="Notifications icon" src="https://assets.postman.com/postman-docs/icon-notification-bell-v9.jpg#icon" width="18px"> in the Postman header to view in-app notifications.
 
-> If your teammate has turned off notifications then they will not be notified. If they don't have access to the collection they've been tagged on, they'll need to request access before they can read the comment.
+> If your teammate has turned off notifications they won't be notified. If they don't have access to the collection they've been tagged on, they'll need to request access before they can read the comment.
 
 <img src="https://assets.postman.com/postman-docs/check-comment-notifications-v8.jpg" alt="Notification bell" width="398px">
 
