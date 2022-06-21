@@ -14,7 +14,7 @@ contextual_links:
 warning: false
 ---
 
-You can leave comments on collections and requests to collaborate with your teammates. You can tag your collaborators in comments to let them know that you have questions or feedback.
+You can leave comments on APIs, collections, and requests to collaborate with your teammates. You can tag your collaborators in comments to let them know that you have questions or feedback.
 
 ## Contents
 
