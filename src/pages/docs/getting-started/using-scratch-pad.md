@@ -30,8 +30,6 @@ If you sign out or your connection to Postman breaks, Postman displays a global 
 
 If you are logged in and want to go to the Scratch Pad, select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the header and select **Scratch Pad**.
 
-<img alt="Enter Scratch Pad" src="https://assets.postman.com/postman-docs/scratch-pad-enter.jpg" width="200px" />
-
 ## Scratch Pad features
 
 While you are in the Scratch Pad, you can:

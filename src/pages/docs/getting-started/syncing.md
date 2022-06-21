@@ -29,17 +29,16 @@ You can have up to three devices logged in to your Postman account simultaneousl
 
 ## Understanding sync states
 
-Postman indicates the sync state of your workspace with the sync icon. Possible states are:
+Postman indicates the sync state of your workspace with the sync icon in the footer. Hover over the sync icon to see more information about your connection and sync status.
 
-* **Offline** <img alt="Sync offline icon" src="https://assets.postman.com/postman-docs/icon-sync-offline.jpg#icon" width="16px"> means that you aren't connected to the Postman servers. This means that either your computer isn't connected to the internet or you aren't signed in to Postman.
+<img alt="Understanding sync states" src="https://assets.postman.com/postman-docs/syncing-understanding-sync-states-v9.19.jpg" width="250px"/>
 
-    > If you are offline, you will be in the _Scratch Pad_, a space where you can work locally without an internet connection or signing in to Postman. The work that you do in the Scratch Pad won't be synced to Postman, but you can export it and import it into a workspace later. For more information, see [Using the Scratch Pad](/docs/getting-started/using-scratch-pad/).
-    >
-    > <img alt="Offline state" src="https://assets.postman.com/postman-docs/scratch-pad-logged-out-v9.12.jpg" width="250px" />
+* **Offline** means that you aren't connected to the Postman servers. This may mean that your computer isn't connected to the internet.
 
-* **Connecting** <img alt="Sync connecting icon" src="https://assets.postman.com/postman-docs/icon-sync-connecting.jpg#icon" width="16px"> means the app is connecting to the Postman servers. You may also see this status if your connection drops and then reconnects.
-* **Online** <img alt="Sync online icon" src="https://assets.postman.com/postman-docs/icon-sync-online.jpg#icon" width="16px"> means that you are connected to the Postman servers and your work is either in the process of syncing or is already synced.
-* **Error** <img alt="Sync connection error icon" src="https://assets.postman.com/postman-docs/icon-sync-connection-error.jpg#icon" width="16px"> means there was a syncing error while connecting to Postman. Hover over the cloud icon to see detailed information on the error.
+    > If you're offline, you will be in the _Scratch Pad_, a space where you can work locally without an internet connection or signing in to Postman. The work that you do in the Scratch Pad won't be synced to Postman, but you can export it and import it into a workspace later. For more information, see [Using the Scratch Pad](/docs/getting-started/using-scratch-pad/).
+
+* **Online** means that you are connected to the Postman servers and your work is either in the process of syncing or is already synced.
+* **Error** means there was a syncing error while connecting to Postman. Hover over the sync state icon to see detailed information on the error.
 
 > You may occasionally experience sync conflicts between Postman and its servers, particularly when you work as part of a team. When this happens, Postman will prompt you to [resolve any conflicts](/docs/collaborating-in-postman/using-workspaces/conflicts/) that occur.
 
