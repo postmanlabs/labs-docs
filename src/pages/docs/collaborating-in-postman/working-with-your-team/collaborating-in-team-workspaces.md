@@ -71,7 +71,7 @@ Note that items related to what you're moving won't move with the element automa
 
 * **APIs** - Collections, documentation, monitors, mock servers, and environments of the API will stay in the current workspace.
 
-* Environments: Monitors, mock servers, and integrations using the environment may no longer work.
+* **Environments** - Monitors, mock servers, and integrations using the environment may no longer work.
 
 You must move these items separately or re-configure them in the new workspace.
 
