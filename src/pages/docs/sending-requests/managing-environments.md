@@ -35,7 +35,7 @@ contextual_links:
     name: "Next Steps"
   - type: link
     name: "Collaborating with your team"
-    url: "/docs/collaborating-in-postman/collaboration-intro/"
+    url: "/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/"
   - type: link
     name: "Version control for collections"
     url:  "/docs/collaborating-in-postman/version-control-for-collections/"
@@ -215,7 +215,7 @@ Select the workspace, then **Move**  **Environment**.
 
 <img alt="Move environment" src="https://assets.postman.com/postman-docs/move-environment-v9.1.jpg" width="400px"/>
 
-Note that monitors, mock servers, and integrations in the original workspace that are using the environment may no longer work and will need to be re-configured in the new workspace. Collections and APIs that use the environment must be [moved separately](/docs/collaborating-in-postman/sharing/#moving-postman-entities-to-collaborative-workspaces).
+Note that monitors, mock servers, and integrations in the original workspace that are using the environment may no longer work and will need to be re-configured in the new workspace. Collections and APIs that use the environment must be [moved separately](/docs/collaborating-in-postman/working-with-your-team/collaborating-in-team-workspaces/#moving-elements-to-team-workspaces).
 
 You can manage roles on an environment by navigating to it in the sidebar, selecting it, then selecting the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> > **Manage Roles**.
 
@@ -284,7 +284,7 @@ If you have [Editor access](/docs/collaborating-in-postman/roles-and-permissions
 
 Shared environments allow you to leverage collaboration within Postman. Check out some more resources on how you can work with team members on your API development projects:
 
-* [Collaborating in Postman](/docs/collaborating-in-postman/collaboration-intro/)
+* [Collaborating in Postman](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/)
 * [Intro to workspaces](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/)
 * [Managing and sharing APIs](/docs/designing-and-developing-your-api/managing-apis/)
 * [Version control for collections](/docs/collaborating-in-postman/version-control-for-collections/)

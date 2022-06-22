@@ -46,6 +46,6 @@ Postman indicates the sync state of your workspace with the sync icon in the foo
 
 Some organizations have security guidelines that prevent team members from syncing data to the Postman cloud. In this situation, you can use Postman without an account and [manually back up your data locally](/docs/getting-started/importing-and-exporting-data/#exporting-postman-data).
 
-You can delete data that is already synced to Postman by [deleting your account](#deleting-your-postman-account). Note that if you are a part of a Postman team, you must first [leave the team](/docs/collaborating-in-postman/collaboration-intro/#leaving-a-team) to delete your account.
+You can delete data that is already synced to Postman by [deleting your account](#deleting-your-postman-account). Note that if you are a part of a Postman team, you must first [leave the team](/docs/getting-started/postman-account/#leaving-a-team) to delete your account.
 
 > Learn more about [Security at Postman](https://www.postman.com/trust/security/).
