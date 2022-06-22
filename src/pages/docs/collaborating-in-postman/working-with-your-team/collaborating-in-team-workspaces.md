@@ -30,7 +30,7 @@ You can use team workspaces to work together on APIs, collections, environments,
 ## Contents
 
 * [Creating a team workspace](#creating-a-team-workspace)
-    * [Inviting a team member to a workspace](#inviting-a-team-member-to-a-workspace)
+* [Inviting a team member to a workspace](#inviting-a-team-member-to-a-workspace)
 * [Moving elements to team workspaces](#moving-elements-to-team-workspaces)
 * [Watching team workspaces](#watching-team-workspaces)
 * [Next steps](#next-steps)
