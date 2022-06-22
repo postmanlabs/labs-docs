@@ -25,8 +25,6 @@ You can use team workspaces to work together on APIs, collections, environments,
 
 [Postman Professional and Enterprise teams](https://www.postman.com/pricing) can also create [private workspaces](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/). A private workspace is a team workspace that's only visible to the user who created it and team members who have been invited to join it. Private workspaces allow teams to restrict access to elements that are relevant only to a particular group.
 
-> Postman creates a default "Team Workspace" for every team. You can rename this workspace, but it can't be deleted.
-
 ## Contents
 
 * [Creating a team workspace](#creating-a-team-workspace)
@@ -37,7 +35,9 @@ You can use team workspaces to work together on APIs, collections, environments,
 
 ## Creating a team workspace
 
-You can create a new team workspace at any time by selecting **New** above the sidebar, then **Workspace**. To learn more, see [Creating workspaces](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/).
+Postman creates a default "Team Workspace" for every team. You can rename this workspace, but it can't be deleted.
+
+You can create more team workspaces at any time by selecting **New** above the sidebar, then **Workspace**. To learn more, see [Creating workspaces](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/).
 
 ## Inviting a team member to a workspace
 
