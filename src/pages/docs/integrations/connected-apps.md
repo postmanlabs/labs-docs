@@ -1,6 +1,6 @@
 ---
-title: "Using connected accounts in integrations"
-updated: 2022-05-29
+title: "Using connected apps in integrations"
+updated: 2022-06-29
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -19,7 +19,7 @@ contextual_links:
     url: "https://blog.postman.com/integrations-how-postman-plays-with-some-of-your-favorite-tools/"
 ---
 
-A team admin can centrally store third-party authentication for supported integrations in _connected accounts_. They are centrally managed by the team admin, and then be used by other team members in integrations for that Postman team.
+A team admin can centrally store third-party authentication for supported integrations in _connected apps_. They are centrally managed by the team admin, and then be used by other team members in integrations for that Postman team.
 
 ## Contents
 
@@ -29,23 +29,23 @@ A team admin can centrally store third-party authentication for supported integr
 
 ## Supported integrations
 
-Connected accounts are supported in the following integrations:
+Connected apps are supported in the following integrations:
 
 * [Slack](/docs/integrations/available-integrations/slack/) monitor run notifications
 
-## Creating a connected account
+## Creating a connected app
 
->> procedure to add an account
+>> procedure to add an app
 
-two ways: either from the Slack integration page, you select **Add Slack for Team** (what is the flow after that?) or in the **Add integration**, select **Add Slack for your Team**.
+>>two ways: either from the Slack integration page, you select **Add Slack for Team** (what is the flow after that?) or in the **Add integration**, select **Add Slack for your Team**.
 
-Admin of team
-Authenticate slack bot on postman
-postman stores auth information as connected account
+>> Added by Admin of team
+>> Authenticate Slack bot on Postman
+>> Postman stores auth information as connected app
 
-## Managing connected accounts
+## Managing connected apps
 
-To view your connected accounts, go to Team > Team Settings > Connected accounts.
+To view your connected apps, go to **Team > Team Settings > Connected apps**.
 
 >> Service name     Connected to     Setup by
 >>  edit
@@ -53,12 +53,12 @@ To view your connected accounts, go to Team > Team Settings > Connected accounts
 >> delete
 >>      what happens to integrations using the CA when you delete?
 
-## Creating integrations using connected accounts
+## Creating integrations using connected apps
 
->> if there already is an added account to this team, there is at the top of the **Add Integration** page a **Connected to...** thing and an option to connect to a different workspace
+>> if there already is an added app to this team, there is at the top of the **Add Integration** page a **Connected to...** thing and an option to connect to a different workspace
 
 user in team
-choose connected account (and other options)
+choose connected app (and other options)
 postman fetches CA to auth user's integration
 
 notes/trash:

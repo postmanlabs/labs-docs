@@ -44,11 +44,11 @@ Select __Add Integration__ to configure your integration. Enter the required inf
 
 ![Add Integrations](https://assets.postman.com/postman-docs/add-integration-b.jpg)
 
-## Connected accounts
+## Connected apps
 
-A team admin can centrally store third-party authentication for supported integrations in _connected accounts_. They are centrally managed by the team admin, and then be used by other team members in integrations for that Postman team.
+A team admin can centrally store third-party authentication for supported integrations in _connected apps_. They are centrally managed by the team admin, and then be used by other team members in integrations for that Postman team.
 
-Learn more at [using connected accounts in integrations](/docs/integrations/connected-accounts/).
+Learn more at [using connected apps in integrations](/docs/integrations/connected-apps/).
 
 ## Static IP support
 

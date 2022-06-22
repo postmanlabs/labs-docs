@@ -1,9 +1,6 @@
 ---
 title: "Slack"
-order: 178
-page_id: "slack"
 updated: 2022-05-26
-warning: false
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -103,7 +100,7 @@ For the **Post team activity** integration, after allowing Slack permissions, yo
 [![configured_slack](https://assets.postman.com/postman-docs/slack-activity-feed.jpg)](https://assets.postman.com/postman-docs/slack-activity-feed.jpg)
 
 <!--
-for connected accounts
+for connected apps
 a section that talks about getting the ID for a Slack channel
 Brief steps:
 Go to the Slack channel in the app
