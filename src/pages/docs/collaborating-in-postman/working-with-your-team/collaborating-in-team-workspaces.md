@@ -67,7 +67,7 @@ Select the workspace, then **Move** (**Collection**, **API**, or **Environment**
 
 Note that items related to what you're moving won't move with the element automatically:
 
-* Collections: Monitors will pause and stay in the current workspace.
+* **Collections** - Monitors will pause and stay in the current workspace.
 
 * APIs: Collections, documentation, monitors, mock servers, and environments of the API will stay in the current workspace.
 
