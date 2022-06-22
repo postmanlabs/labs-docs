@@ -39,7 +39,7 @@ You can use team workspaces to work together on APIs, collections, environments,
 
 You can create a new team workspace at any time by selecting **New** above the sidebar, then **Workspace**. To learn more, see [Creating workspaces](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/).
 
-### Inviting a team member to a workspace
+## Inviting a team member to a workspace
 
 You can invite team members to join a [new](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/) or existing workspace. For more details about how to invite a team member to a workspace, see [Sharing workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#sharing-workspaces).
 
