@@ -569,22 +569,22 @@ export const leftNavItems = [
     ],
   },
   {
-    name: 'API Security',
-    parentSlug: 'api-security',
-    url: '<!-- TODO:  -->',
+    name: 'API Governance',
+    parentSlug: 'api-security', <!-- TODO: does this need to be updated -->
+    url: '<!-- TODO: url for overview page -->',
     subMenuItems1: [
       {
-        name: '<!-- TODO:  -->',
-        url: '<!-- TODO:  -->',
+        name: '<!-- TODO: title for overview page -->',
+        url: '<!-- TODO: url for overview page -->',
       },
       {
-        name: 'Security Warnings',
-        subParentSlug: 'security-warnings',
-        slug: '/docs/api-security/security-warnings/security-warnings-overview/',
+        name: 'API design', <!-- TODO: confirm this heading wording -->
+        subParentSlug: 'security-warnings', <!-- TODO: does this need to be updated -->
+        slug: '<!-- TODO: URL for overview page -->',
         subMenuItems2: [
           {
-            name: 'API schema security warnings',
-            url: '/docs/api-security/security-warnings/security-warnings-overview/',
+            name: 'API schema issues', <!-- TODO:  -->
+            url: '<!-- TODO: URL for overview page -->',
           },
           {
             name: 'OpenAPI 3.0 warnings',

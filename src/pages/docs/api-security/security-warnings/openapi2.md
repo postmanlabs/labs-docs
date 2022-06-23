@@ -8,8 +8,8 @@ contextual_links:
   - type: section
     name: "Prerequisites"
   - type: link
-    name: "Introduction to security warnings"
-    url: "/docs/api-security/security-warnings/security-warnings-overview/"
+    name: "API schema issues"
+    url: "<!-- TODO: update -->"
   - type: section
     name: "Additional Resources"
   - type: subtitle
