@@ -66,13 +66,13 @@ To add or edit the description for an existing collection, folder, or request:
 
     <img alt="Switching editors" src="https://assets.postman.com/postman-docs/documentation-editor-menu-v9-1.jpg" width="560px">
 
-1. When you're finished, select **Save** to save your documentation. If you ever need to make changes, just edit the description again.
+1. When you're finished, select **Save** to save your documentation. If you ever need to make changes, you can edit the description again.
 
 > To give users even more details about requests in your collection, add descriptions to the request [parameters and headers](#adding-descriptions-to-parameters-and-headers).
 
 ### Authoring descriptions in the Postman editor
 
-To author a description using rich text editing tools, select the **Postman editor** option. The Postman editor makes it easy to author a description without having to write any Markdown code. Use the tools on the toolbar to work with text and other content, just like in a typical word processor. Or use common keyboard shortcuts to format text, like **⌘+B** or **Ctrl+B** to make text bold. There's no need to preview your content to see the final appearance—what you see is what you get!
+To author a description using rich text editing tools, select the **Postman editor** option. The Postman editor enables you to author a description without having to write any Markdown code. Use the tools on the toolbar to work with text and other content, as you would in a typical word processor. Or use common keyboard shortcuts to format text, like **⌘+B** or **Ctrl+B** to make text bold. There's no need to preview your content to see the final appearance—what you see is what you get!
 
 <img alt="Postman editor" src="https://assets.postman.com/postman-docs/documentation-use-postman-editor-v9-1.jpg" width="560px">
 
@@ -80,7 +80,7 @@ To author a description using rich text editing tools, select the **Postman edit
 
 <img alt="Postman editor toolbar" src="https://assets.postman.com/postman-docs/documentation-wysiwyg-toolbar-v9-1.jpg" width="560px">
 
-**Working with tables is fast and easy.** No need to fuss with Markdown code to get your tables to work. To add a table, select the **Table** tool. To add or remove columns or rows, or to delete the table, select a cell and then select the shortcut menu.
+**Create tables without Markdown.** No need to fuss with Markdown code to get your tables to work. To add a table, select the **Table** tool. To add or remove columns or rows, or to delete the table, select a cell and then select the shortcut menu.
 
 <img alt="Postman editor table shortcuts" src="https://assets.postman.com/postman-docs/documentation-wysiwyg-table-tool-v9-1.jpg" width="560px">
 
@@ -98,7 +98,7 @@ To author a description using Markdown, select the **Classic Markdown editor** o
 * Format text with bold, emphasis, and blockquotes
 * Add images, links, and code blocks
 
-As you work, select the **Preview** tab to see how your documentation will appear and to make sure it's formatted correctly. To continue editing, select the **Markdown** tab.
+As you work, select the **Preview** tab to review how your documentation will appear and to make sure it's formatted correctly. To continue editing, select the **Markdown** tab.
 
 > Leave a blank line before and after [block elements](https://daringfireball.net/projects/markdown/syntax#block) (such as headings, paragraphs, and lists) to avoid any formatting issues.
 
@@ -167,7 +167,7 @@ Images liven up your documentation and help your ideas come across more clearly.
 
 ## Finding help and inspiration
 
-**Need some help using Markdown?** Check out the Postman [Markdown demo collection](https://documenter.postman.com/view/4630964/S1LsXVJy) to see how Markdown is formatted in published documentation. Select the **Run in Postman** button to add the demo collection to your workspace and view the Markdown code.
+**Need some help using Markdown?** Check out the Postman [Markdown demo collection](https://documenter.postman.com/view/4630964/S1LsXVJy) to learn how Markdown is formatted in published documentation. Select the **Run in Postman** button to add the demo collection to your workspace and view the Markdown code.
 
 ![Markdown demo collection](https://assets.postman.com/postman-docs/documentation-markdown-demo-v8-10.jpg)
 
@@ -178,7 +178,7 @@ Images liven up your documentation and help your ideas come across more clearly.
 
     ![Public API Network page](https://assets.postman.com/postman-docs/documentation-explore-docs-v8-10.jpg)
 
-1. Select a team, workspace, API, or collection to see documentation authored by others who are part of the Public API Network.
+1. Select a team, workspace, API, or collection to access documentation authored by others who are part of the Public API Network.
 
     ![Documentation example](https://assets.postman.com/postman-docs/documentation-docs-example-v8-10.jpg)
 

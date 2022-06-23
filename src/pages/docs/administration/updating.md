@@ -47,7 +47,7 @@ You will need to restart Postman to install the update. Select __Restart and Ins
 
 <img alt="Restart and install modal" src ="https://assets.postman.com/postman-docs/restart-and-install-update-v8.jpg" width="450px"/>
 
-You can start using Postman v9 and access the new UI and features once the update is completed.
+You can start using Postman v9 once the update is completed.
 
 > Postman v9.4 is the last version of Postman that supports both 32-bit and 64-bit Windows. All versions of Postman following v9.4 will only work on 64-bit Windows. You can continue to use Postman v9.4 and earlier on 32-bit Windows.
 
@@ -69,7 +69,7 @@ You will need to restart Postman to install the update. Select __Restart and Ins
 
 <img alt="Restart and install modal" src ="https://assets.postman.com/postman-docs/restart-and-install-update-v8.jpg" width="450px"/>
 
-You can start using Postman v8 and access the new UI and features once the update is completed.
+You can start using Postman v8 once the update is completed.
 
 ### Updating to v8 as a team
 

@@ -95,7 +95,7 @@ $ newman run -h
 | `--cookie-jar [path]` | Specify the file path for a JSON Cookie Jar. Uses `tough-cookie` to deserialize the file. |
 | `--export-cookie-jar [path]` | The path to the file where Newman will output the final cookie jar file before completing a run. Uses `tough-cookie` to serialize the file. |
 | `--global-var "[global-variable-name]=[global-variable-value]"` | Specifies global variables on the command line, in a key=value format. Multiple global variables can be added by using `--global-var` multiple times, for example, `--global-var "this=that" --global-var "alpha=beta".` |
-| `--env-var "[environment-variable-name]=[environment-variable-value]"` | Allows the specification of environment variables via the command line, in a key=value format. Multiple CLI environment variables can be added by using --env-var multiple times, like so: --env-var "foo=bar" --env-var "alpha=beta". |
+| `--env-var "[environment-variable-name]=[environment-variable-value]"` | Allows you to set environment variables in a key=value format on the command line. You can add multiple environment variables using `--env-var` multiple times, for example: `--env-var "key1=value1" --env-var "key2=value2"`. |
 
 ## Exit status
 

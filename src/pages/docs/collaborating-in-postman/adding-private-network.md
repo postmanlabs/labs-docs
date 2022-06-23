@@ -9,7 +9,7 @@ contextual_links:
     name: "Prerequisites"
   - type: link
     name: "Working with your team"
-    url: "/docs/collaborating-in-postman/collaboration-intro/"
+    url: "/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/"
   - type: section
     name: "Additional Resources"
   - type: subtitle
@@ -150,7 +150,7 @@ Postman notifies the API Network Manager about your request, who will review it 
 
 ### API Network Manager: Reviewing requests to add APIs
 
-When an API Editor requests to add an API to your Private API Network, Postman will send you an email and an in-app notification. To see a list of all the pending requests, go to **Private API Network** and select **Pending API requests**.
+When an API Editor requests to add an API to your Private API Network, Postman will send you an email and an in-app notification. For the list of all the pending requests, go to **Private API Network** and select **Pending API requests**.
 
 <img alt="View pending requests" src="https://assets.postman.com/postman-docs/private-api-network-pending-requests-v9.jpg" width="300px"/>
 
@@ -239,7 +239,7 @@ You can make all your existing APIs discoverable on the Private API Network when
 
 <img alt="GitHub import" src="https://assets.postman.com/postman-docs/github-import-v9.jpg" width="450px"/>
 
-To import from Github, see [Importing via GitHub repositories.](/docs/getting-started/importing-and-exporting-data/#importing-via-github-repositories)
+To import from Github, see [Importing from GitHub repositories](/docs/getting-started/importing-and-exporting-data/#importing-from-github-repositories).
 
 ## Managing the Private API Network
 

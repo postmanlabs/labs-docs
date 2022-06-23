@@ -74,7 +74,7 @@ The Postman [billing dashboard](http://go.postman.co/billing) enables you to man
 
 ### Viewing billing overview
 
-When navigating to your [billing dashboard](http://go.postman.co/billing), you will first see your billing overview. You can view the details of your Postman plan, including your subscription cycle and a calculation of your expected cost upon renewal.
+The billing overview is your billing dashboard's default view. You can view the details of your Postman plan, including your subscription cycle and a calculation of your expected cost upon renewal.
 
 <img alt="Billing overview" src="https://assets.postman.com/postman-docs/billing-plan-and-payments-dash-v9.14.jpg" />
 
@@ -128,9 +128,9 @@ To set a payment method as your primary, hover over it and select **Set as Prima
 
 #### Setting up direct debit payments
 
-> The option to pay via direct debit is only available for customers in the United States.
+> The option to pay with direct debit is only available for customers in the United States.
 
-Postman accepts direct debit payments, in which payment funds are taken directly from a linked bank account via ACH.
+Postman accepts direct debit payments, in which payment funds are taken directly from a linked bank account using ACH.
 
 To use direct debit as your payment method:
 
@@ -156,7 +156,7 @@ You can choose to verify your bank account manually instead of using the automat
 
 In one to two business days, Stripe will make a small test deposit into your bank account that you will use to verify your bank account and will email you with further instructions. To verify your account:
 
-1. After you see the test deposit in your bank account, go back to the Postman billing dashboard. Select **Plans and payments** > **Payment methods**.
+1. After the test deposit arrives in your bank account, go back to the Postman billing dashboard. Select **Plans and payments** > **Payment methods**.
 1. Hover over the bank account and select **Verify**.
 1. Under **Enter code**, paste the six digit transaction code from the test deposit. Select **Verify**.
 1. Select **Confirm** to accept the Terms and Privacy Policy.
@@ -178,7 +178,7 @@ In some circumstances, including an overdue or [failed payment](#failed-payments
 
 > Invoicing is available for Postman Enterprise teams only. If you are a new Enterprise customer, contact the [Postman Sales team](https://www.postman.com/pricing/get-started-postman-plans/) to get started. You will receive a response within three business days. If you are an existing Enterprise customer, submit a request to the [Postman Support team](https://support.postman.com/hc/en-us) to be invoiced instead of automatically charged.
 
-You can pay invoices online, via ACH, or via wire transfer. Postman sends invoices to the billing email address listed in your [billing details](http://go.postman.co/settings/team/billing-details). The invoice includes offline payment instructions. View your pending payments in your [billing dashboard](http://go.postman.co/billing).
+You can pay invoices online, with ACH, or with wire transfer. Postman sends invoices to the billing email address listed in your [billing details](http://go.postman.co/settings/team/billing-details). The invoice includes offline payment instructions. View your pending payments in your [billing dashboard](http://go.postman.co/billing).
 
 ### Adding custom information to invoices
 
@@ -216,7 +216,7 @@ The cost of your new plan and any new seats, if applicable, are prorated based o
 
 <!-- -->
 
-> Certain changes can only be applied to your team upon renewal. If you make adjustments to your plan that can't be applied right away, and have **Immediately** selected, you will see a prompt to switch your selection to **On renewal**.
+> Certain changes can only be applied to your team upon renewal. If you make adjustments to your plan that can't be applied right away, and have **Immediately** selected, you will be prompted to switch your selection to **On renewal**.
 
 ### Changing billing cycle
 
@@ -238,9 +238,9 @@ Update the number of monitoring blocks, mock server blocks, and custom domains y
 
 ### Utilizing Auto-Flex
 
-[Auto-Flex](https://learning.postman.com/auto-flex-policy/) is a flexible billing feature available to Postman teams. With Auto-Flex enabled, your Team Admins can add users without having to pay in advance for more seats. Instead, you can use Auto-Flex to see the value of adding users to your Postman team, and opt to retain or remove them before being [billed](#billing-for-auto-flex).
+[Auto-Flex](https://learning.postman.com/auto-flex-policy/) is a flexible billing feature available to Postman teams. With Auto-Flex enabled, your Team Admins can add users without having to pay in advance for more seats, then opt to retain or remove them before being [billed](#billing-for-auto-flex).
 
-> Auto-Flex is automatically enabled for all Postman Basic and Professional plans purchased after April 8, 2021. Teams created before this date can opt in by enabling Auto-Flex via their [billing dashboard](http://go.postman.co/billing). All teams will have Auto-Flex automatically enabled when their plan first renews after July 1, 2021.
+> Auto-Flex is automatically enabled for all Postman Basic and Professional plans purchased after April 8, 2021. Teams created before this date can opt in by enabling Auto-Flex on their [billing dashboard](http://go.postman.co/billing). All teams will have Auto-Flex automatically enabled when their plan first renews after July 1, 2021.
 
 #### Opting in to Auto-Flex
 

@@ -7,14 +7,14 @@ contextual_links:
   - type: subtitle
     name: "Videos"
   - type: link
+    name: "How to Import and Export Data in Postman"
+    url: "https://youtu.be/sCWwOzhUMXE"
+  - type: link
     name: "Postman | How to Connect to Your Git Repository"
     url: "https://youtu.be/8jJHXLVYOh0"
   - type: link
     name: "Generate a Collection From a Specification | Postman Level Up"
     url: "https://youtu.be/gljWt9tDKOY"
-  - type: link
-    name: "Postman Level Up | Import a HAR file in Postman"
-    url: "https://youtu.be/E3uo-oQ9WtE"
   - type: subtitle
     name: "Blog Posts"
   - type: link
@@ -68,7 +68,7 @@ You can import collections or your API specifications directly into Postman.
 
 To import your data into Postman, select **Import** in upper left:
 
-![Import UI](https://assets.postman.com/postman-docs/import-export-import-ui-v9-6.jpg)
+![Import data into Postman](https://assets.postman.com/postman-docs/import-export-import-ui-v9-6.jpg)
 
 You can import your data from files, folders, links, raw text, or code repositories.
 
@@ -77,8 +77,7 @@ You can import your data from files, folders, links, raw text, or code repositor
 You can import Postman data you exported earlier, including collections, environments, data dumps, and globals.
 
 1. Select **Import** in the left navigation menu.
-1. Select your file or folder, input your link, paste your raw text, or [import from GitHub](#importing-via-github-repositories).
-   Postman will automatically recognize Postman data, confirming the name, format, and what the file will import as.
+1. Select your file or folder, input your link, paste your raw text, or [import from GitHub](#importing-from-github-repositories). Postman will automatically recognize Postman data, confirming the name, format, and what the file will import as.
    ![Import collection and environment](https://assets.postman.com/postman-docs/import-export-github-files-confirm.jpg)
 1. Select the files you want to import.
 1. Select **Import** to bring your data into Postman.
@@ -131,7 +130,7 @@ You can import data in bulk from a GitHub repository.
 
    ![Confirm import from github](https://assets.postman.com/postman-docs/import-export-github-files-confirm.jpg)
 
-You will receive a confirmation once the import has completed. You can now view your newly imported files and generated collections in Postman.
+You will receive a confirmation once the import has completed. You can view your imported files and generated collections in Postman.
 
 ## Importing from Bitbucket repositories
 
@@ -236,4 +235,4 @@ When the export is ready, you will receive an email with link to download a zipp
 
 ## Next steps
 
-You can collaborate on collections by [sharing](/docs/collaborating-in-postman/sharing/) and [commenting](/docs/collaborating-in-postman/commenting-on-collections/) to discuss your API projects with team members. Learn more about [Postman's API workflow](/docs/designing-and-developing-your-api/the-api-workflow/).
+You can collaborate on collections by [sharing](/docs/collaborating-in-postman/sharing/) and [commenting](/docs/collaborating-in-postman/working-with-your-team/discussing-your-work/) to discuss your API projects with team members. Learn more about [Postman's API workflow](/docs/designing-and-developing-your-api/the-api-workflow/).

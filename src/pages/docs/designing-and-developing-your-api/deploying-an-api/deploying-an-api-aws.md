@@ -141,7 +141,7 @@ From the **Deployments** tab, you can take the following actions:
 * To export or deploy an HTTP schema to the API Gateway, select **Deploy API**. Learn more about [deploying your API](#exporting-and-deploying-your-api).
 * To import a schema from the API Gateway, select **Import Schema**. Learn more about [importing a schema](#importing-a-schema-from-amazon-api-gateway).
 * To view metrics for your API Gateway in AWS, select **View Dashboard**.
-* To see the latest deployment status, select the refresh icon <img alt="Refresh icon" src="https://assets.postman.com/postman-docs/icon-refresh-v9-5.jpg#icon" width="14px">.
+* For information about the latest deployment status, select the refresh icon <img alt="Refresh icon" src="https://assets.postman.com/postman-docs/icon-refresh-v9-5.jpg#icon" width="14px">.
 * To edit or delete the connection to Amazon API Gateway, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px">.
 
 ## Viewing CloudWatch metrics
@@ -165,7 +165,7 @@ From the CloudWatch dashboard, you can take the following actions:
 
 ### Updating an existing IAM policy for CloudWatch
 
-The Amazon API Gateway integration now supports viewing CloudWatch metrics in Postman. If you previously created an IAM policy when configuring the integration, you need to update the policy to enable CloudWatch metrics. Make sure to add the `"cloudwatch:GetMetricData"` action to your IAM policy:
+The Amazon API Gateway integration supports viewing CloudWatch metrics in Postman. If you previously created an IAM policy when configuring the integration, you may need to update the policy to enable CloudWatch metrics. Make sure to add the `"cloudwatch:GetMetricData"` action to your IAM policy:
 
 ```json
 "Action": [
