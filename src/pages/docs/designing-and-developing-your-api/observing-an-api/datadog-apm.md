@@ -43,11 +43,15 @@ To connect an API to Datadog APM:
 
 After connecting to Datadog APM, you can view metrics for your Datadog services in Postman. Select **APIs** in the sidebar, select an API and version, and then select the **Monitoring** tab.
 
-For each Datadog service, you can view the environment, latency, throughput, error rate, and apdex (application performance index). You can also view monitor notifications, including `Alert`, `Warn`, and `No Data`. If you linked dashboards when connecting to Datadog, you can view them by selecting **Dashboard Quicklinks** and selecting a dashboard.
+For each Datadog service, you can view the environment, latency, throughput, error rate, and apdex (application performance index). You can also view monitor notifications, for example `Alert`, `Warn`, and `No Data`.
+
+If you linked dashboards when connecting to Datadog, you can view them by selecting **Dashboard Quicklinks** and selecting a dashboard.
 
 <img alt="Viewing Datadog APM metrics" src="https://assets.postman.com/postman-docs/datadog-apm-view-metrics-v9-19.jpg">
 
-Select the name of a Datadog service to view APM graphs for that service. The graphs display metrics for latency, throughput, apdex, and error rate. Hover over a data point on a graph to view more details.
+Select the name of a Datadog service to view APM graphs for that service. The graphs display metrics for latency, throughput, apdex, and error rate. Hover over a data point on a graph to view more details. Below the graphs is a table that lists triggered monitors, which you can select to view in Datadog.
+
+<img alt="Viewing Datadog APM graphs" src="https://assets.postman.com/postman-docs/datadog-apm-view-graphs-v9-19.jpg">
 
 From here you can take the following actions:
 
@@ -56,5 +60,3 @@ From here you can take the following actions:
 * To view metrics for a different time range, select the time range in the dropown list.
 * To view the latest metrics, select <img alt="Refresh icon" src="https://assets.postman.com/postman-docs/icon-refresh-v9-5.jpg#icon" width="14px"> **Refresh**.
 * To edit or delete the integration, select the <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> **More actions** icon.
-
-<img alt="Viewing Datadog APM graphs" src="https://assets.postman.com/postman-docs/datadog-apm-view-graphs-v9-19.jpg">
