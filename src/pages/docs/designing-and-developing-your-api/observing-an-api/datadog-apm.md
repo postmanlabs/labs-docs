@@ -37,7 +37,7 @@ To connect an API to Datadog APM:
 1. Select **Connect**.
 1. If you want, you can also configure an integration to send your Postman monitor run results to Datadog. Enter details for the integration, or select **Maybe Later**. Learn more about [configuring a Postman monitor integration with Datadog](/docs/integrations/available-integrations/datadog/).
 
-SCREENSHOT
+<img alt="Connecting to Datadog APM" src="https://assets.postman.com/postman-docs/datadog-apm-connect-v9-19.jpg" width="524px">
 
 ## Viewing Datadog APM metrics
 
@@ -45,7 +45,7 @@ After connecting to Datadog APM, you can view metrics for your Datadog services 
 
 For each Datadog service, you can view the environment, latency, throughput, error rate, and apdex (application performance index). You can also view monitor notifications, including `Alert`, `Warn`, and `No Data`. If you linked dashboards when connecting to Datadog, you can view them by selecting **Dashboard Quicklinks** and selecting a dashboard.
 
-SCREENSHOT
+<img alt="Viewing Datadog APM metrics" src="https://assets.postman.com/postman-docs/datadog-apm-view-metrics-v9-19.jpg">
 
 Select the name of a Datadog service to view APM graphs for that service. The graphs display metrics for latency, throughput, apdex, and error rate. Hover over a data point on a graph to view more details.
 
@@ -57,4 +57,4 @@ From here you can take the following actions:
 * To view the latest metrics, select <img alt="Refresh icon" src="https://assets.postman.com/postman-docs/icon-refresh-v9-5.jpg#icon" width="14px"> **Refresh**.
 * To edit or delete the integration, select the <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> **More actions** icon.
 
-SCREENSHOT
+<img alt="Viewing Datadog APM graphs" src="https://assets.postman.com/postman-docs/datadog-apm-view-graphs-v9-19.jpg">
