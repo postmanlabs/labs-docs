@@ -19,7 +19,7 @@ contextual_links:
 
 > [__Reports are available on all Postman Enterprise plans.__](https://www.postman.com/pricing)
 
-The __Security Audit__ report provides metrics including an overview of your total collections scanned, collections with exposed tokens, total exposed tokens, and separate visualizations of exposed tokens by type and over time. This report consolidates the findings of the Postman token scanner from public documentation. Learn more about the Postman [Token Scanner](/docs/api-security/token-scanner/).
+The __Security Audit__ report provides metrics including an overview of your total collections scanned, collections with exposed tokens, total exposed tokens, and separate visualizations of exposed tokens by type and over time. This report consolidates the findings of the Postman token scanner from public documentation. Learn more about the Postman [Token Scanner](/docs/administration/token-scanner/).
 
 The **Security Audit** report provides the following information for the past 30 days:
 

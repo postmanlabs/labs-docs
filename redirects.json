@@ -1836,6 +1836,10 @@
 		"to": "/docs/api-security/security-warnings/security-warnings-overview/"
 	},
 	{
+		"from": "/docs/api-security/token-scanner/",
+		"to": "/docs/administration/token-scanner/"
+	},
+	{
 		"from": "/docs/designing-and-developing-your-api/watching-an-api/",
 		"to": "/docs/designing-and-developing-your-api/managing-apis/"
 	},

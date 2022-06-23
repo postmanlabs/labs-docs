@@ -571,11 +571,11 @@ export const leftNavItems = [
   {
     name: 'API Security',
     parentSlug: 'api-security',
-    url: '/docs/api-security/token-scanner/',
+    url: '<!-- TODO:  -->',
     subMenuItems1: [
       {
-        name: 'Token Scanner',
-        url: '/docs/api-security/token-scanner/',
+        name: '<!-- TODO:  -->',
+        url: '<!-- TODO:  -->',
       },
       {
         name: 'Security Warnings',
@@ -637,6 +637,10 @@ export const leftNavItems = [
       {
         name: 'Utilizing audit logs',
         url: '/docs/administration/audit-logs/',
+      },
+      {
+        name: 'Token Scanner',
+        url: '/docs/administration/token-scanner/',
       },
       {
         name: 'Onboarding checklist',
