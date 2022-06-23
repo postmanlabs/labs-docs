@@ -40,7 +40,7 @@ To locate the logs in Linux, open Postman and go to **View > Developer > View Lo
 
 The DevTools console provides internal debugging entries for Postman that may be useful in troubleshooting problems with the app.
 
-To access the DevTools console logs, go to **View > Developer > Show DevTools (current view)**. In the DevTools window, select __Console__ to see the app debug logs.
+To access the DevTools console logs, go to **View > Developer > Show DevTools (current view)**. In the DevTools window, select __Console__ to access the app debug logs.
 
 ## Checking Postman's status
 

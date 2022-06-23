@@ -15,8 +15,8 @@ contextual_links:
   - type: subtitle
     name: "Blog Posts"
   - type: link
-    name: "Manage Large Teams in Postman with Workspaces, Permissions, and Version Control"
-    url: "https://blog.postman.com/postman-team-workspaces-and-permissions/"
+    name: "How to Securely Deploy Postman at Scale, Part 1: User Management"
+    url: "https://blog.postman.com/how-to-securely-deploy-postman-at-scale-user-management/"
   - type: link
     name: "Govern Your Public API Collections More Effectively"
     url: "https://blog.postman.com/govern-your-public-api-collections-more-effectively/"
@@ -46,7 +46,7 @@ Postman provides a variety of options to customize your team's experience, from 
 Once you've created your Postman team, you can take the following steps to enable an efficient onboarding process for end users:
 
 * Use the [Onboarding checklist](/docs/administration/onboarding-checklist/) to ensure that both the Postman Desktop App and Postman for Web are accessible on employee devices and function as expected.
-* [Enable team discovery](/docs/collaborating-in-postman/collaboration-intro/#enabling-team-discovery) to allow fellow Postman users from your organization to request to join your team.
+* [Enable team discovery](/docs/collaborating-in-postman/working-with-your-team/enabling-team-discovery/) to allow fellow Postman users from your organization to request to join your team.
 * [Configure SSO](/docs/administration/sso/admin-sso/) ([Professional and Enterprise plans only](https://www.postman.com/pricing)).
 * [Configure SCIM provisioning](/docs/administration/scim-provisioning/scim-provisioning-overview/) ([Enterprise plans only](https://www.postman.com/pricing)).
 
@@ -64,13 +64,13 @@ Or, you can invite a user to join your team with a link. To do so, select **Get 
 
 Only Team Admins and [Super Admins](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can send invitations. However, any team member can submit requests to invite collaborators to your team. You can review these requests in your [team dashboard](https://go.postman.co/settings/team/members) and opt to approve or dismiss them. If you approve the request, Postman will send an invitation to the individual.
 
-You can also allow Postman users from your company to request to join your team by [enabling team discovery](/docs/collaborating-in-postman/collaboration-intro/#making-your-team-discoverable).
+You can also allow Postman users from your company to request to join your team by [enabling team discovery](/docs/collaborating-in-postman/working-with-your-team/enabling-team-discovery/#enabling-team-discovery).
 
 > [Postman Enterprise](https://www.postman.com/pricing) teams can enable [SCIM provisioning](/docs/administration/scim-provisioning/scim-provisioning-overview/), which enables you to create, update, and deactivate user accounts at scale through your identity provider.
 
 #### Managing invitations
 
-You can review the invitations your team has sent by opening your [team dashboard](https://go.postman.co/settings/team/members) and selecting [**Invite links**](https://go.postman.co/settings/team/manage-invite-links) from the left-hand menu. Here, you can see which users generated links, when they were generated, their expiry date, and their URL.
+You can review the invitations your team has sent by opening your [team dashboard](https://go.postman.co/settings/team/members) and selecting [**Invite links**](https://go.postman.co/settings/team/manage-invite-links) from the left-hand menu. The list provides information about which users generated links, when they were generated, their expiry date, and their URL.
 
 <img alt="Invite links dashboard" src="https://assets.postman.com/postman-docs/team-manage-invite-links-v9.2.jpg"/>
 
@@ -90,7 +90,9 @@ To confirm, select **Remove User From Team**.
 
 <img alt="Confirmation for removing a team member" src="https://assets.postman.com/postman-docs/remove-user-from-team-confirmation.jpg" width="400px"/>
 
-> When you remove a user from your team, you will still retain access to any data they have shared with the team. However, any data in the user’s personal workspaces is owned by that user and their ownership for that data won't be transferred when they're removed from your team.
+When you remove a user from your team, you will still retain access to any data they have shared with the team. However, any data in the user’s personal workspaces is owned by that user and their ownership for that data won't be transferred when they're removed from your team.
+
+> Note that when you remove a member from your team, this doesn't automatically reduce the number of paid slots for your team unless the member was added by [Auto-Flex](/docs/administration/billing/#utilizing-auto-flex) during the current Auto-Flex cycle. If you want to reduce the number of paid slots on your team, a member of your team with the [Billing role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can [edit your plan](/docs/administration/billing/#changing-your-plan).
 
 ### Managing team roles
 

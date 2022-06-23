@@ -38,11 +38,11 @@ Once your plan configuration is in place you can enter your payment details. __Y
 
 * For security reasons, Postman doesn't store any credit card data. The data is stored only by payment provider Stripe, who are certified to PCI Service Provider Level 1.
 * Review the details of your plan to ensure they're correct before you submit your payment details.
-* After payment, you'll see a confirmation with the transaction ID. Use this ID for any communication with Postman.
+* After payment, you'll receive a confirmation with the transaction ID. Use this ID for any communication with Postman.
 * The designated admin will receive an activation link where you can begin inviting your team members. Billing-only users will receive a link to join the team in the Billing role.
 
 ## Next steps
 
 You can manage your account in your [billing dashboard](http://go.postman.co/billing), for example if you need to [change or upgrade](/docs/administration/billing/#team-and-plan-changes) your plan.
 
-Once your account is set up, you can leverage Postman features including additional [collaboration](/docs/collaborating-in-postman/collaboration-intro/) and [monitoring](/docs/monitoring-your-api/using-static-IPs-to-monitor/) options, as well as [integrations](/docs/integrations/intro-integrations/).
+Once your account is set up, you can leverage Postman features including additional [collaboration](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/) and [monitoring](/docs/monitoring-your-api/using-static-IPs-to-monitor/) options, as well as [integrations](/docs/integrations/intro-integrations/).

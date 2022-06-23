@@ -60,7 +60,7 @@ You can manage multiple versions of any APIs you create in Postman. You can then
 Each API in Postman has one or more versions, and versions have multiple releases. Each version also has a status.
 
 * A _version_ defines a major variant of an API and its associated elements, such as documentation, tests, mock servers, and monitors.
-* A _release_ is a periodic incremental change to a version of an API. You can see released and unreleased changes in the Changelog, and create new releases there. Changes include edits to the API schema or any related elements. Releases can be mapped to Git release tags when you are connected to an external Git repo.
+* A _release_ is a periodic incremental change to a version of an API. The Changelog lists released and unreleased changes, and you can create new releases there. Changes include edits to the API schema or any related elements. Releases can be mapped to Git release tags when you are connected to an external Git repo.
 * A _status_ is a text tag which you can change to indicate the current development stage of the API version.
 
 You can create any number of versions in parallel. For example, you can create a new 2.0 version of an API that introduces new breaking changes and work on it internally, but keep adding changes to the 1.0 version that's currently public.

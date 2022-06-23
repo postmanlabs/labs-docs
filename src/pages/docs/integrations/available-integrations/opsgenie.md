@@ -73,11 +73,11 @@ On the integration authentication page, enter the Opsgenie API key you saved fro
 
 ![Add Opsgenie API key into Postman](https://assets.postman.com/postman-docs/opsgenie-with-api-key.jpg)
 
-On the integration configuration page, enter a nickname for your integration, your workspace, alert tags, and alert priorities.
+On the integration configuration page, enter a nickname for your integration, your workspace, alert tags, and alert priorities. Select **Add Integration**.
 
 <img src="https://assets.postman.com/postman-docs/opsgenie-save-configuration-b.jpg" alt="Save opsgenie configuration" width="500px"/>
 
-After you create the integration, you can see all of the integrations created by your team. Select an integration to see the run logs for it.
+After you create the integration, you have access to a list of all of the integrations created by your team. Select an integration to inspect its run logs.
 
 ![View integration run log](https://assets.postman.com/postman-docs/opsgenie-run-logs.jpg)
 
@@ -98,10 +98,10 @@ It will also provide a direct link to the failing monitor.
 
 This integration automatically closes a triggered alert if a subsequent run succeeds. All failures from the same monitor are grouped under the a single Opsgenie alert.
 
-When there is an alert on Postman, you will also see one on your Opsgenie console.
+When there is an alert on Postman, you will also receive one on your Opsgenie console.
 
 ![View list of alerts in Opsgenie](https://assets.postman.com/postman-docs/opsgenie-alerts-list-bb.jpg)
 
-Select the alert in Opsgenie to see more information.
+Select the alert in Opsgenie for more information.
 
 ![View Opsgenie alert details](https://assets.postman.com/postman-docs/opsgenie-alerts-details.jpg)

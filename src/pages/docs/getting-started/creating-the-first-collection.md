@@ -50,7 +50,7 @@ You can create a new request from the sidebar in Postman. Select __New__ &gt; __
 
 1. Select **Save** to save the request in the new collection.
 
-Congratulations! You can see all your collections under **Collections** in the sidebar, as shown below:
+Congratulations! Postman lists all your collections under **Collections** in the sidebar, as shown below:
 
 <img alt="Collection sidebar" src="https://assets.postman.com/postman-docs/creating-first-collection-v9.jpg" width="400px"/>
 

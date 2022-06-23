@@ -168,7 +168,6 @@ module.exports = {
         concurrentQueries: false,
       },
     },
-    
     {
       resolve: 'gatsby-plugin-purgecss',
       options: {

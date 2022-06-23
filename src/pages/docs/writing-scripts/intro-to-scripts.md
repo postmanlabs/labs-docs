@@ -93,7 +93,7 @@ For example, imagine you had the following collection structured with a single f
 
 [![Console log statement](https://assets.postman.com/postman-docs/console-log-statement-v8.jpg)](https://assets.postman.com/postman-docs/console-log-statement-v8.jpg)
 
-If you created log statements in the pre-request and test script sections for the collection, folder, and requests, you'd see the execution order in the [Postman Console](/docs/sending-requests/troubleshooting-api-requests/).
+If you created log statements in the pre-request and test script sections for the collection, folder, and requests, the execution order is returned in the [Postman Console](/docs/sending-requests/troubleshooting-api-requests/).
 
 [![Logs in console](https://assets.postman.com/postman-docs/logs-in-console-v8.jpg)](https://assets.postman.com/postman-docs/logs-in-console-v8.jpg)
 
