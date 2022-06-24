@@ -62,7 +62,7 @@ For each New Relic service, you can view the latency, error rate, and apdex (app
 
 If you linked dashboards when connecting to New Relic, you can view them by selecting **Dashboard Quicklinks** and selecting a dashboard.
 
-<img alt="Viewing Datadog APM metrics" src="https://assets.postman.com/postman-docs/datadog-apm-view-metrics-v9-19.jpg">
+<img alt="Viewing Datadog APM metrics" src="https://assets.postman.com/postman-docs/new-relic-apm-view-metrics-v9-22.jpg">
 
 Select the name of a New Relic service to view APM graphs for that service. The graphs display metrics for web transaction time, throughput, error rate, and apdex score. Hover over a data point on a graph to view more details. Below the graphs are tables that list violation events, slowest transactions by time, and deployments.
 
