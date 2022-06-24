@@ -583,16 +583,31 @@ export const leftNavItems = [
         slug: '<!-- TODO: URL for overview page -->',
         subMenuItems2: [
           {
-            name: 'API schema issues', <!-- TODO:  -->
+            name: 'API schema issues', <!-- TODO: confirm this title -->
             url: '<!-- TODO: URL for overview page -->',
           },
           {
-            name: 'OpenAPI 3.0 warnings',
-            url: '/docs/api-security/security-warnings/openapi3/',
+            name: 'OpenAPI 3.0 schema issues',
+            url: '/docs/api-security/security-warnings/openapi3/', <!-- TODO: update URL -->
           },
           {
-            name: 'OpenAPI 2.0 warnings',
-            url: '/docs/api-security/security-warnings/openapi2/',
+            name: 'OpenAPI 2.0 schema issues',
+            url: '/docs/api-security/security-warnings/openapi2/', <!-- TODO: update URL -->
+          },
+        ],
+      },
+      {
+        name: 'API testing', <!-- TODO: confirm this heading wording -->
+        subParentSlug: 'api-testing',
+        slug: '/docs/api-governance/api-testing/api-testing-overview/',
+        subMenuItems2: [
+          {
+            name: 'API testing overview',
+            url: '/docs/api-governance/api-testing/api-testing-overview/',
+          },
+          {
+            name: 'Security issues',
+            url: '/docs/api-governance/api-testing/security-issues/',
           },
         ],
       },

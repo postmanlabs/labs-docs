@@ -1,5 +1,5 @@
 ---
-title: "OpenAPI 2.0 warnings"
+title: "OpenAPI 2.0 schema issues"
 order: 118
 page_id: "security_warnings_openapi2.0"
 updated: 2022-02-09

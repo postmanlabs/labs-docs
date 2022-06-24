@@ -1,5 +1,5 @@
 ---
-title: "OpenAPI 3.0 warnings"
+title: "OpenAPI 3.0 schema issues"
 order: 117
 page_id: "security_warnings_openapi3.0"
 updated: 2022-02-09
