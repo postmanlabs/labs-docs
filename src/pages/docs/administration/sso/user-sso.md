@@ -24,25 +24,19 @@ To sign into Postman:
 1. Select **Home** in the upper-left, then select **Sign in**
 1. Open [Postman's website](https://www.postman.com/) and select **Sign In** in the upper-right corner
 
-<img src="https://assets.postman.com/postman-docs/create-account-or-sign-in.jpg" alt="Create account or sign in"/>
-
 When you opt to sign into the desktop version of Postman, your default browser will automatically open a webpage asking you to sign into Postman.
 
-> Your browser will open within a few seconds. If it doesn't, select **open your browser** in Postman.
-
-<img src="https://assets.postman.com/postman-docs/sign-in-with-web-browser.jpg" alt="Sign in with web browser"/>
+> Your browser will open within a few seconds. If it doesn't, select **open your browser** in Postman. <img src="https://assets.postman.com/postman-docs/sign-in-with-web-browser.jpg" alt="Sign in with web browser"/>
 
 > You must finish signing in within five minutes once you initiate the process from Postman. If you go beyond this time, you must return to Postman and restart the sign in process.
 
 Sign into Postman by selecting **Sign in with SSO**.
 
-<img src="https://assets.postman.com/postman-docs/sign-in-v9.16.jpg" alt="Sign in" width="350px"/>
-
 Enter your team domain and **Continue**.
 
-> Select **Stay signed in for 30 days** if you want to remain signed in after your current session for 30 days before re-authenticating. If you don't want to remain signed in on the computer you are working on, clear this checkbox. Note that you will be prompted to sign in again after 30 minutes.
-
 <img src="https://assets.postman.com/postman-docs/postman-sign-in-sso-v9.16.jpg" alt="Sign in with SSO" width="350px"/>
+
+> Select **Stay signed in for 30 days** if you want to remain signed in after your current session for 30 days before re-authenticating. If you don't want to remain signed in on the computer you are working on, clear this checkbox. Note that you will be prompted to sign in again after 30 minutes.
 
 Postman will redirect you to the configured SSO provider. Enter your SSO details to sign in.
 
@@ -51,3 +45,5 @@ Postman will redirect you to the configured SSO provider. Enter your SSO details
 When you sign in, you will get a confirmation in your browser and you will be redirected back to Postman.
 
 <img src="https://assets.postman.com/postman-docs/youre-signed-in-confirmation.jpg" width="350px" alt="Signed in confirmation"/>
+
+> If you're a member of multiple Postman teams with varying authentication methods, you'll be required to sign in to those teams separately. To do so, select your avatar in the upper-right corner, then select the team to proceed.
