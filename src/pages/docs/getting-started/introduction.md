@@ -44,7 +44,7 @@ contextual_links:
 
 Welcome to the Postman docs! This is the place to find official information on how to use Postman in your API projects.
 
-[![Postman full view](https://assets.postman.com/postman-docs/intro-postman-request-selected-v9.8.3.jpg)](https://assets.postman.com/postman-docs/intro-postman-request-selected-v9.8.3.jpg)
+<img alt="Postman full view" src="https://assets.postman.com/postman-docs/intro-postman-request-selected-v9.19.2.jpg" width="1200px"/>
 
 If you're starting to learn about APIs and Postman, you can use a variety of channels both in and outside Postman:
 
@@ -105,7 +105,7 @@ If you're exposing an API for public use, Postman can support developer onboardi
 
 If you're using Postman in your company or team, check out these guides to maximize your collaboration:
 
-* [Collaborating in Postman](/docs/collaborating-in-postman/collaboration-intro/)
+* [Collaborating in Postman](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/)
 * [Creating workspaces](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/)
 * [Managing Postman for an organization](/docs/administration/managing-your-team/managing-your-team/)
 * [Onboarding your team](/docs/administration/onboarding-checklist/)

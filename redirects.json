@@ -1938,5 +1938,13 @@
 	{
 		"from": "/docs/administration/upgrading/",
 		"to": "/docs/administration/updating/"
+	},
+	{
+		"from": "/docs/collaborating-in-postman/collaboration-intro/",
+		"to": "/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/"
+	},
+	{
+		"from": "/docs/collaborating-in-postman/commenting-on-collections/",
+		"to": "/docs/collaborating-in-postman/working-with-your-team/discussing-your-work/"
 	}
 ]

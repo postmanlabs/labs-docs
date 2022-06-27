@@ -57,11 +57,11 @@ Use workspaces to organize your work in Postman and collaborate with teammates (
 
 To open a workspace, select **Workspaces** in the Postman header. Select a workspace to open it, or select **View all workspaces** for a list of all available workspaces. This will only display workspaces that you have access to, based on the [workspace visibility](#changing-workspace-visibility) and your [workspace role](#managing-workspace-roles).
 
-<img alt="New Workspace" src="https://assets.postman.com/postman-docs/default-create-new-workspace-v9.jpg" width="400px"/>
+<img alt="New Workspace" src="https://assets.postman.com/postman-docs/view-workspaces-v9.19.jpg" width="400px"/>
 
 The workspace's **Overview** tab displays a summary and description of the workspace, as well as a list of recent activity. On the right, there is a list of the number of Postman elements like collections and APIs in the workspace and a list of recent contributors.
 
-<img alt="Workspace overview" src="https://assets.postman.com/postman-docs/workspace-overview-v9.jpg" width="962px"/>
+<img alt="Workspace overview" src="https://assets.postman.com/postman-docs/workspace-overview-v9.19.jpg" width="1000px"/>
 
 ### Getting the workspace ID
 
@@ -198,7 +198,7 @@ The list of avatars in the Postman header shows you who's active in your workspa
 
 If you're in a public workspace, this list will include all active users with [public profiles](/docs/getting-started/postman-account/#making-your-profile-public) as well as users who've chosen to remain anonymous by not enabling their public profile.
 
-<img alt="Active users in public workspace" src="https://assets.postman.com/postman-docs/presence-public-workspace-v9.15.jpg" width="250px"/>
+<img alt="Active users in public workspace" src="https://assets.postman.com/postman-docs/presence-public-workspace-v9.19.jpg" width="300px"/>
 
 ## Deleting a workspace
 
