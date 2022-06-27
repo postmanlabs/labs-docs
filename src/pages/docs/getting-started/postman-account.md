@@ -115,9 +115,11 @@ If you are on an Enterprise plan, you must contact your Team Admins to update th
 
 Deleting your account is an irreversible operation. Any data synced to your account will be deleted and no longer be accessible.
 
-If you are on a Professional, Basic, or Free plan, you can permanently delete your Postman account from your [account settings](https://go.postman.co/settings/me/account/) page. Select your avatar in the upper-right corner > **Account Settings** > **Account**. Select **Delete Account**. Before the account is deleted, you will be asked to sign in again to confirm that you own the account.
+You must leave all Postman teams that you're a member of prior to deleting your account. To do so, see [Leaving a team](#leaving-a-team).
 
-If you are on an Enterprise plan, you must contact your Team Admins to delete your Postman account.
+If you're a member of an Enterprise team with [SCIM](/docs/administration/scim-provisioning/scim-provisioning-overview/) enabled, you must contact a Team Admin to remove your Postman account from that team.
+
+Once you're no longer a member of any Postman team, you can permanently delete your Postman account in your [account settings](https://go.postman.co/settings/me/account/). Select your avatar in the upper-right corner > **Account Settings** > **Account**. Select **Delete Account**. Before deleting your account, Postman will prompt you to sign in again to confirm that you own the account.
 
 ### Updating your profile
 
@@ -157,11 +159,11 @@ If you have a paid account, you can upgrade your Postman plan by navigating to y
 
 ## Leaving a team
 
-You can leave a Postman team by navigating to your [Postman Dashboard](https://go.postman.co/home), selecting your avatar in the top right, then **Account Settings**. Select **Team** on the left. You can then opt to **Leave Team**.
+You can leave a Postman team by navigating to your [Postman Dashboard](https://go.postman.co/home), selecting your avatar in the top right, then **Account Settings**. Select **Teams** on the left.
 
 <img src="https://assets.postman.com/postman-docs/leave-team-v9.1.jpg" alt="Leave team"/>
 
-> If your team has [SCIM configured](/docs/administration/scim-provisioning/scim-provisioning-overview/), you must contact your Postman Team Admins to leave the team.
+Select **Leave Team** to the right of a team to leave it. If you're a member of an Enterprise team that has [SCIM configured](/docs/administration/scim-provisioning/scim-provisioning-overview/), you must contact a Team Admin to remove you from the team.
 
 When you leave a team, you no longer have access to the team's workspaces or any of the elements in them. You will still have access to your personal workspaces.
 
