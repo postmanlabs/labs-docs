@@ -14,7 +14,7 @@ Datadog is an application performance management (APM) service that provides vis
 
 With this integration, you can link a version of your API in Postman to multiple services from Datadog. Services are the building blocks that make up your application, like a web framework or a database. You can also link multiple dashboards from Datadog to your API in Postman.
 
-> **Want to send Postman monitor results to Datadog?** Sending monitor results to Datadog is a separate integration from viewing APM metrics in Postman. The integration in the API Builder has two tabs that cover both integrations. Learn more about [configuring a Postman monitor integration with Datadog](/docs/integrations/available-integrations/datadog/).
+> **Want to send Postman monitor results to Datadog?** Sending Postman monitor results to Datadog is a separate integration from viewing APM metrics in Postman. The integration in the API Builder has two tabs that cover both integrations. Learn more about [configuring a Postman monitor integration with Datadog](/docs/integrations/available-integrations/datadog/).
 
 ## Contents
 
@@ -43,13 +43,13 @@ To connect an API to Datadog APM:
 
 After connecting to Datadog APM, you can view metrics for your Datadog services in Postman. Select **APIs** in the sidebar, select an API and version, and then select the **Monitoring** tab.
 
-For each Datadog service, you can view the environment, latency, throughput, error rate, and apdex (application performance index). You can also view monitor notifications, for example `Alert`, `Warn`, and `No Data`.
+For each Datadog service, you can view the environment, latency, throughput, error rate, and apdex (application performance index). You can also view Datadog monitor notifications, for example `Alert`, `Warn`, and `No Data`.
 
 If you linked dashboards when connecting to Datadog, you can view them by selecting **Dashboard Quicklinks** and selecting a dashboard.
 
 <img alt="Viewing Datadog APM metrics" src="https://assets.postman.com/postman-docs/datadog-apm-view-metrics-v9-19.jpg">
 
-Select the name of a Datadog service to view APM graphs for that service. The graphs display metrics for latency, throughput, apdex, and error rate. Hover over a data point on a graph to view more details. Below the graphs is a table that lists triggered monitors, which you can select to view in Datadog.
+Select the name of a Datadog service to view APM graphs for that service. The graphs display metrics for latency, throughput, apdex, and error rate. Hover over a data point on a graph to view more details. Below the graphs is a table that lists triggered Datadog monitors, which you can select to view in Datadog.
 
 <img alt="Viewing Datadog APM graphs" src="https://assets.postman.com/postman-docs/datadog-apm-view-graphs-v9-19.jpg">
 
