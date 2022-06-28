@@ -31,14 +31,14 @@ const DocPage = ({ data }) => {
   let overIndexLimit = excerptLength > 6700 ? (excerptLength - 6700) : 0;
 
   /* Right side links */
-const DisplayContextualLinks = (props) => {
-  const { data } = props;
-  /* Single post data */
-  const doc = data.markdownRemark;
-  return (
-    doc.frontmatter.contextual_links && <ContextualLinks key={uuidv4()} links={doc.frontmatter.contextual_links} />
-  )
-}
+  const DisplayContextualLinks = (props) => {
+    const { data } = props;
+    /* Single post data */
+    const doc = data.markdownRemark;
+    return (
+      doc.frontmatter.contextual_links && <ContextualLinks key={uuidv4()} links={doc.frontmatter.contextual_links} />
+    )
+  }
 
   const CreateDoc = (props) => {
     const [useHTML, setHTML] = useState({ ...props })
@@ -46,7 +46,6 @@ const DisplayContextualLinks = (props) => {
     useEffect(() => {
       const { data } = props;
       const { html } = data;
-      // parses a string containing HTML & returns an HTMLDocument
       const parser = new DOMParser();
       const parsedHtml = parser.parseFromString(html, 'text/html');
   
@@ -59,8 +58,6 @@ const DisplayContextualLinks = (props) => {
       <span dangerouslySetInnerHTML={{ __html: useHTML }} />
     );
   }
-
-  
 
   return (
     <Layout>
