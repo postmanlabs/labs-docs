@@ -159,7 +159,7 @@ Images liven up your documentation and help your ideas come across with more cla
 
 To upload an image using the Postman editor, select the **Image** tool and select **Browse**. Select the image you want to upload and select **Open**. The Postman editor supports GIF, JPG, PNG, and SVG formats, and the maximum supported image size is 5 MB.
 
-<img alt="Adding an image" src="https://assets.postman.com/postman-docs/documentation-image-tool-v9-1.jpg" width="560px">
+<img alt="Uploading an image" src="https://assets.postman.com/postman-docs/documentation-upload-image-v9-23.jpg" width="542px">
 
 ### Embedding an image
 
@@ -167,7 +167,7 @@ Your image must be hosted online (for example, on a website) before you can embe
 
 * To embed an image using the Postman editor, select the **Image** tool and select **Embed URL**. Paste or enter the URL of the image, and then select **Embed**.
 
-    <img alt="Adding an image" src="https://assets.postman.com/postman-docs/documentation-image-tool-v9-1.jpg" width="560px">
+    <img alt="Embedding an image" src="https://assets.postman.com/postman-docs/documentation-embed-image-v9-23.jpg" width="542px">
 
 * To embed an image using the Markdown editor, use the following syntax:
 
