@@ -197,9 +197,9 @@ By default, Postman for Web uses in-app tabs like the Postman Desktop app does. 
 
 If you've saved changes to a request, when you select a new element Postman will open it in the main work area area. If the request has unsaved changes, Postman will prompt you to save or discard your changes.
 
-To open a workspace, environment, or request in a new browser tab, enter **⌘+Shift** or **Ctrl+Shift** and select the element you want to open.
+To open a workspace, environment, or request in a new browser tab, press and hold **⌘+Shift** or **Ctrl+Shift** and select the element you want to open.
 
-To open an in-app link in a new browser tab, enter **⌘** or **Ctrl** and select the link you want to open.
+To open an in-app link in a new browser tab, press and hold **⌘** or **Ctrl** and select the link you want to open.
 
 To turn this behavior on or off in Postman for Web, select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the header, then select **Remove tabs** in the **User interface** section.
 
