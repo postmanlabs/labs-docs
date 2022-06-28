@@ -94,7 +94,9 @@ The next time existing users sign in to Postman, they will get a notification th
 
 <img alt="Domain capture join team notification" src="https://assets.postman.com/postman-docs/domain-capture-join-team-9.4.jpg" width="350px"/>
 
-Existing users who were previously on another Postman team will have their personal workspace data, collections, and environments automatically transferred over. If users experience any issues when moving to your Postman team, reach out to [Postman support](https://www.postman.com/support/).
+Existing users who were previously on another Postman team will have their personal workspace data, collections, and environments automatically transferred over. Users won't be able to remain on or join extra Postman teams with their captured accounts.
+
+> If users experience any issues when moving to your Postman team, reach out to [Postman support](https://www.postman.com/support/).
 
 ## Domain capture FAQs
 
