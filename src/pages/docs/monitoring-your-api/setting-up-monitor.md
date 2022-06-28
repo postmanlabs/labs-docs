@@ -105,15 +105,15 @@ To run a monitor again after a failure or error, select the **Retry if run fails
 
 ### Adding request timeouts
 
-You can choose to **Set request timeout** if you'd like to make sure all of your requests run within a certain amount of time. By default, requests do not have a timeout value, however each monitor run has a timeout of five minutes. It's not possible to configure this at the request level.
+You can choose to **Set request timeout** if you'd like to make sure all of your requests run within a certain amount of time. By default, requests do not have a timeout value, however each monitor run has a timeout of 10 minutes. It's not possible to configure this at the request level.
 
-> Request timeout may not exceed five minutes (300000 ms).
+> Request timeout can't exceed 10 minutes (600000 ms).
 
 ### Adding delays between requests
 
 Enabling the **Set delay between requests** will insert a delay between all requests in your collection. To configure the delay for individual requests, you can add a delay in your [pre-request or test scripts](/docs/writing-scripts/intro-to-scripts/) using `setTimeout()`.
 
-> The delay between requests cannot exceed five minutes (300000 ms), but note that five minutes is also the maximum runtime for a monitor.
+> The delay between requests can't exceed 10 minutes (600000 ms), but note that 10 minutes is also the maximum runtime for a monitor.
 
 ### Managing redirect behavior
 
@@ -138,6 +138,6 @@ To work with a monitor, select **Monitors** in the sidebar and then select a mon
 
 ## Next steps
 
-[View the results of your collection-based monitors](/docs/monitoring-your-api/viewing-monitor-results/) to see detailed information about monitor runs.
+[View the results of your collection-based monitors](/docs/monitoring-your-api/viewing-monitor-results/) for detailed information about monitor runs.
 
 Learn how to set up [integrations](/docs/integrations/intro-integrations/) to send monitor data and notifications to other platforms, such as [Slack](/docs/integrations/available-integrations/slack/) or [Datadog](/docs/integrations/available-integrations/datadog/).

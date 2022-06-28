@@ -9,6 +9,11 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Postman Token Scanner | Postman Level Up"
+    url: "https://youtu.be/9XxkqPQF-Rw"
+  - type: subtitle
     name: "Blog Posts"
   - type: link
     name: "2 Big Improvements to the Postman Token Scanner"
@@ -22,7 +27,7 @@ contextual_links:
 
 The Postman Token Scanner scans your public workspaces, collections, environments, and documentation to find exposed authentication tokens. This protects your organization and prevents malicious users from exploiting the tokens.
 
-> Token Scanner is available on all Postman plans and is enabled by default.
+> The Token Scanner is available on all Postman plans. It is turned on by default.
 
 ## Contents
 
@@ -35,7 +40,7 @@ The Postman Token Scanner scans your public workspaces, collections, environment
 
 ## Use cases
 
-A scan is triggered whenever your team members do any of the following actions:
+A scan starts whenever your team members do any of the following actions:
 
 * Change the workspace visibility to Public.
 * Share a collection or environment to a public workspace.
@@ -43,7 +48,9 @@ A scan is triggered whenever your team members do any of the following actions:
 * Write new documentation for a Postman Collection and make it public.
 * Make any changes to publicly available Postman documentation.
 
-Scan results are displayed in [Security audit reports](/docs/reports/security-audit-reports/) on the **Reports** section of the web dashboard.
+Postman delivers the scan results in the [Security audit reports](/docs/reports/security-audit-reports/) section of the [**Reports** dashboard](/docs/reports/reports-overview/).
+
+> **[Security Audit Reports are available on Postman Enterprise plans only.](https://www.postman.com/pricing/)**
 
 ## Supported tokens
 
@@ -51,7 +58,7 @@ The Token Scanner will scan a variety of tokens by default. You can also add you
 
 ### Default alerts
 
-By default, tokens issued by the following service providers are scanned:
+By default, the Token Scanner scans tokens issued by the following service providers:
 
 * Airtable API Key
 * Amazon MWS Token
@@ -84,7 +91,7 @@ By default, tokens issued by the following service providers are scanned:
 
 ### Custom alerts
 
-Custom alerts can be used to scan your team's proprietary and third-party app tokens that aren't scanned by default.
+You can use custom alerts to scan your team's proprietary tokens and any third-party app tokens that aren't scanned by default.
 
 > **[Custom alerts are available on Postman Enterprise plans only](https://www.postman.com/pricing/)**.
 
@@ -104,6 +111,6 @@ You can view your team's configured [default](#default-alerts) and [custom](#cus
 
 ## Protecting Postman API keys in GitHub
 
-Postman also works with GitHub to ensure that your Postman API keys are kept secure. If you commit a valid Postman API key to a public GitHub repository, Postman will notify you as soon as possible by email and in-app notification. You can also enable Postman's [Slack integration](/docs/integrations/available-integrations/slack/) to be alerted within Slack if this occurs.
+Postman also works with GitHub to ensure that your Postman API keys are secure. If you commit a valid Postman API key to a public GitHub repository, Postman notifies you by email and in-app notification. You can also set up Postman's [Slack integration](/docs/integrations/available-integrations/slack/) to alert you in Slack if this occurs.
 
 It's recommended you delete the exposed API key in your [API keys dashboard](https://go.postman.co/settings/me/api-keys). You can then [generate a new API key](/docs/developer/intro-api/#generating-a-postman-api-key) to continue working with the Postman API.

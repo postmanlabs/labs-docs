@@ -35,7 +35,7 @@ To import your API specifications into Postman:
 1. From the sidebar, select __APIs__, then select **Import**.
 1. Select a file or folder, enter a link to the API, or paste your raw text.
 
-    > You can also import from a code repository or API gateway. See below for details.
+    > You can also import from a code repository or API gateway. Keep reading for more details.
 
 1. Confirm the name, format, and what you would like your data to import as.
 1. Select **Import** to bring your data into Postman.
@@ -66,7 +66,7 @@ You can import API schemas from a GitHub repository.
 
    ![Confirm import from GitHub](https://assets.postman.com/postman-docs/import-export-github-files-confirm.jpg)
 
-You will receive a confirmation once the import has completed. You can now view your newly imported API schemas and generated collections in Postman.
+You will receive a confirmation once the import is complete and you can view your imported API schemas and generated collections in Postman.
 
 ## Importing API schemas from Bitbucket
 
@@ -84,7 +84,7 @@ You can import API schemas from a Bitbucket repository.
 
 1. Postman shows a preview of the API schemas to import into your workspace. Select **Import** to confirm and complete the import.
 
-You will receive a confirmation once the import has completed. You can now view your newly imported API schemas and generated collections in Postman.
+You will receive a confirmation once the import is complete and you can view your imported API schemas and generated collections in Postman.
 
 ## Importing API schemas from Amazon API Gateway
 

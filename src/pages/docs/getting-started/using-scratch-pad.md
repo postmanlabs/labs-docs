@@ -24,13 +24,11 @@ All your work in the Scratch Pad is stored locally and isn't synced online with 
 
 ## Entering the Scratch Pad
 
-If you sign out or your connection to Postman breaks, you'll see a global banner at the top of the screen indicating that you're already in the Scratch Pad.
+If you sign out or your connection to Postman breaks, Postman displays a global banner at the top of the screen indicating that you're already in the Scratch Pad.
 
 <img alt="Scratch Pad global banner" src="https://assets.postman.com/postman-docs/scratch-pad-notice.jpg" width="350px" />
 
 If you are logged in and want to go to the Scratch Pad, select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the header and select **Scratch Pad**.
-
-<img alt="Enter Scratch Pad" src="https://assets.postman.com/postman-docs/scratch-pad-enter.jpg" width="200px" />
 
 ## Scratch Pad features
 
@@ -54,7 +52,7 @@ To leave the Scratch Pad:
 
 ## Exporting data from the Scratch Pad
 
-When you leave the Scratch Pad, your data remains there; you won't see it in your workspace. But you can export the data from the Scratch Pad as JSON, then import it to a workspace.
+When you leave the Scratch Pad, your data remains there and isn't automatically transferred to your workspace. But you can export the data from the Scratch Pad as JSON, then import it to a workspace.
 
 To export saved Scratch Pad data:
 

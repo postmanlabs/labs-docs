@@ -55,13 +55,13 @@ Use workspaces to organize your work in Postman and collaborate with teammates (
 
 ## Accessing workspaces
 
-To open a workspace, select **Workspaces** in the Postman header. Select a workspace to open it, or select **View all workspaces** to see a list of all available workspaces. You will only see workspaces that you have access to, based on the [workspace visibility](#changing-workspace-visibility) and your [workspace role](#managing-workspace-roles).
+To open a workspace, select **Workspaces** in the Postman header. Select a workspace to open it, or select **View all workspaces** for a list of all available workspaces. This will only display workspaces that you have access to, based on the [workspace visibility](#changing-workspace-visibility) and your [workspace role](#managing-workspace-roles).
 
-<img alt="New Workspace" src="https://assets.postman.com/postman-docs/default-create-new-workspace-v9.jpg" width="400px"/>
+<img alt="New Workspace" src="https://assets.postman.com/postman-docs/view-workspaces-v9.19.jpg" width="400px"/>
 
-The workspace's **Overview** tab displays a summary and description of the workspace, as well as a list of recent activity. On the right, you'll also see the number of various elements within the workspace, such as collections and APIs, along with a list of recent contributors.
+The workspace's **Overview** tab displays a summary and description of the workspace, as well as a list of recent activity. On the right, there is a list of the number of Postman elements like collections and APIs in the workspace and a list of recent contributors.
 
-<img alt="Workspace overview" src="https://assets.postman.com/postman-docs/workspace-overview-v9.jpg" width="962px"/>
+<img alt="Workspace overview" src="https://assets.postman.com/postman-docs/workspace-overview-v9.19.jpg" width="1000px"/>
 
 ### Getting the workspace ID
 
@@ -73,7 +73,7 @@ To view the workspace ID, select the information icon <img alt="Information icon
 
 > Private workspaces are only available to [Professional and Enterprise](https://www.postman.com/pricing/) teams.
 
-To collaborate in a private workspace, you must be [invited](#sharing-workspaces) by a Workspace Editor or Admin, or request access to it and be approved. If you're using [Postman on the web](/docs/getting-started/installation-and-updates/#using-postman-on-the-web) and navigate to a link a teammate has shared to a private workspace or an entity within one, you'll have the option to request access to the workspace.
+To collaborate in a private workspace, you must be [invited](#sharing-workspaces) by a Workspace Editor or Admin, or request access to it and be approved. If you're using [Postman on the web](/docs/getting-started/installation-and-updates/#using-postman-on-the-web) and navigate to a link a teammate has shared to a private workspace or an element within one, you'll have the option to request access to the workspace.
 
 <img alt="Request access to private workspace" src="https://assets.postman.com/postman-docs/user-rfa-private-workspace-v9.16.jpg"/>
 
@@ -167,7 +167,7 @@ To start watching a workspace, select **Watch** on the upper right of the worksp
 
 <img alt="Watching a workspace" src="https://assets.postman.com/postman-docs/watching-a-workspace-v9.jpg"/>
 
-To see notifications, select the notification icon <img alt="Bell icon" src="https://assets.postman.com/postman-docs/icon-notification-bell-v9.jpg#icon" width="18px"> in the Postman header. The notification list shows details about changes to workspaces you are watching. You will also receive an email with information about the change, who made it, and when.
+To access your notifications, select the notification icon <img alt="Bell icon" src="https://assets.postman.com/postman-docs/icon-notification-bell-v9.jpg#icon" width="18px"> in the Postman header. The notification list shows details about changes to workspaces you are watching. You will also receive an email with information about the change, who made it, and when.
 
 To stop watching a workspace, select **Unwatch** on the upper right of the workspace's **Overview** tab.
 
@@ -194,11 +194,11 @@ To move an element to a different workspace:
 
 ## Seeing who is in your workspace
 
-You can view who's active in your workspace at any time via the list of avatars in the Postman header. If you're in a private or team workspace, this list will include all team members who are currently active in the workspace, as well as all team members who are currently inactive, but have visited the workspace before.
+The list of avatars in the Postman header shows you who's active in your workspace. If you're in a private or team workspace, this list will include all team members who are currently active in the workspace, as well as all team members who are currently inactive, but have visited the workspace before.
 
 If you're in a public workspace, this list will include all active users with [public profiles](/docs/getting-started/postman-account/#making-your-profile-public) as well as users who've chosen to remain anonymous by not enabling their public profile.
 
-<img alt="Active users in public workspace" src="https://assets.postman.com/postman-docs/presence-public-workspace-v9.15.jpg" width="250px"/>
+<img alt="Active users in public workspace" src="https://assets.postman.com/postman-docs/presence-public-workspace-v9.19.jpg" width="300px"/>
 
 ## Deleting a workspace
 

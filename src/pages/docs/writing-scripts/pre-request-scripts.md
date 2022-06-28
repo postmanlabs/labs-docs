@@ -20,19 +20,16 @@ contextual_links:
   - type: subtitle
     name: "Videos"
   - type: link
+    name: "Pre-request Scripts in Postman | The Exploratory"
+    url: "https://youtu.be/1ls5Dr5SOxw"
+  - type: link
     name: "Get and Set Variables | Postman Level Up"
     url: "https://youtu.be/EKv6n-jY9lU"
   - type: subtitle
     name: "Blog Posts"
   - type: link
-    name: "Autocomplete Now Available in Postman Script Editor"
-    url: "https://blog.postman.com/postman-script-editor-autocomplete/"
-  - type: link
     name: "When and How to Use JSON Serialization in Postman"
     url: "https://blog.postman.com/when-and-how-to-use-json-serialization-in-postman/"
-  - type: link
-    name: "Germaphobia collection (see pre-request scripts in action)"
-    url: "https://blog.postman.com/germaphobia/"
   - type: section
     name: "Next Steps"
   - type: link
