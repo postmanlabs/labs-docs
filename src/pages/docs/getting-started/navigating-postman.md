@@ -201,7 +201,7 @@ To open a workspace, environment, or request in a new browser tab, enter **⌘+S
 
 To open an in-app link in a new browser tab, enter **⌘** or **Ctrl** and select the link you want to open.
 
-To turn this behavior on or off in Postman for Web, select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the header, then select **Use browser tabs** in the **User interface** section.
+To turn this behavior on or off in Postman for Web, select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the header, then select **Remove tabs** in the **User interface** section.
 
 ### Right sidebar
 
