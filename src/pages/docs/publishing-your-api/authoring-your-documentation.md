@@ -145,7 +145,7 @@ Use links to direct users to your repository, web site, or other online resource
 
     <img alt="Adding a link" src="https://assets.postman.com/postman-docs/documentation-link-tool-v9-1.jpg" width="560px">
 
-* To add a link using Markdown, use the following syntax:
+* To add a link using the Markdown editor, use the following syntax:
 
     ```md
     [link text to display](https://your-link-url.com)
@@ -153,17 +153,43 @@ Use links to direct users to your repository, web site, or other online resource
 
 ## Adding images
 
-Images liven up your documentation and help your ideas come across more clearly. Your image must be hosted online before you can add it to your documentation.
+Images liven up your documentation and help your ideas come across more clearly. You can upload an image file from your computer or embed an image that's hosted online.
 
-* To add an image using the Postman editor, select the **Image** tool. Paste or enter the image URL, and then select **Add**. (If you need to change the image later, select it and then select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px">.)
+### Uploading an image
+
+To upload an image using the Postman editor, select the **Image** tool and select **Browse**. Select the image you want to upload and select **Open**. The Postman editor supports GIF, JPG, PNG, and SVG formats.
+
+<img alt="Adding an image" src="https://assets.postman.com/postman-docs/documentation-image-tool-v9-1.jpg" width="560px">
+
+### Embedding an image
+
+Your image must be hosted online (for example, on a website) before you can embed it in your documentation.
+
+* To embed an image using the Postman editor, select the **Image** tool and select **Embed URL**. Paste or enter the URL of the image, and then select **Embed**.
 
     <img alt="Adding an image" src="https://assets.postman.com/postman-docs/documentation-image-tool-v9-1.jpg" width="560px">
 
-* To add an image using Markdown, use the following syntax:
+* To embed an image using the Markdown editor, use the following syntax:
 
     ```md
     ![image alt text](https://your-image-location.com)
     ```
+
+### Editing images
+
+You can change an image after uploading or embedding it:
+
+* To change an uploaded image in the Postman editor, first select it and select the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px">. Then [upload a new image](#uploading-an-image).
+
+* To change an embedded image in the Postman editor, select it and select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px">. Enter the new image URL and select **Edit**.
+
+* To change an image in the Markdown editor, edit the Markdown code as needed.
+
+### Image storage limits
+
+If you are on a [Postman Free plan](https://www.postman.com/pricing/) and aren't part of a team, the total size of your uploaded images is limited to 20 MB. If you are part of a team ([free or paid plans](https://www.postman.com/pricing/)), the total size of your team's uploaded images is limited to 100 MB.
+
+> You will get a warning when you reach 90% of your storage limit, and again at 99%. To upgrade your available storage, contact [Postman support](https://www.postman.com/support/).
 
 ## Finding help and inspiration
 
