@@ -28,6 +28,9 @@ contextual_links:
   - type: link
     name: "Introducing an API to Access Mock Server Call Logs"
     url: "https://blog.postman.com/introducing-an-api-to-access-mock-server-call-logs/"
+  - type: link
+    name: "Introducing APIs to Access and Manage Server-Level Responses on a Mock Server"
+    url: "https://blog.postman.com/apis-to-access-manage-server-level-responses-mock-server/"
   - type: subtitle
     name: "Public Workspaces"
   - type: link

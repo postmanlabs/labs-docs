@@ -82,7 +82,7 @@ Postman displays your request executions and test results in real time. To acces
 
 To view more details, including any log statements used in your collection, select <img alt="Console icon" src="https://assets.postman.com/postman-docs/icon-console-v9.jpg#icon" width="16px"> __Console__ from the footer.
 
-To view details about the run, select __View Summary__. The summary also lists a column for each iteration of your collection run so you can see test output for the whole run at a glance.
+To view details about the run, select __View Summary__. The summary also has a column for each iteration of your collection run so you can review test output for the whole run.
 
 [![Runner result summary](https://assets.postman.com/postman-docs/run-overview-v8.jpg)](https://assets.postman.com/postman-docs/run-overview-v8.jpg)
 
@@ -90,13 +90,13 @@ To return to the overview of the run, select __View Results__.
 
 ### Viewing test results
 
-If your collection has tests, you will see whether each request passed or failed. You can also filter on each using the __Passed__ and __Failed__ tabs at the top. If any tests in a request script fail during the collection run, the whole request fails.
+If your collection has tests, the **View Results** page indicates whether each request passed or failed. You can also filter on each using the __Passed__ and __Failed__ tabs at the top. If any tests in a request script fail during the collection run, the whole request fails.
 
-> If you select __Save responses__ when you start a collection run, you will see the responses in the run results.
+> If you select __Save responses__ when you start a collection run, Postman displays the responses in the run results.
 
 ### Viewing iterations
 
-If you set an iteration number for the collection run, you can see the overview for each iteration by selecting one from the list on the right.
+If you set an iteration number for the collection run, you can access the overview for each iteration by selecting one from the list on the right.
 
 ## Sharing collection runs
 

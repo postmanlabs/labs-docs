@@ -35,7 +35,7 @@ Many Postman learning resources, including the documentation here in the Learnin
 
 ## Using the Echo API
 
-The Echo API includes endpoints to test different request methods, parameters, authentication, and a variety of supporting utilities. To see the available endpoints, read the [Echo API documentation](https://www.postman.com/postman/workspace/published-postman-templates/documentation/631643-f695cab7-6878-eb55-7943-ad88e1ccfd65?ctx=documentation).
+The Echo API includes endpoints to test different request methods, parameters, authentication, and a variety of supporting utilities. To learn about the available endpoints, read the [Echo API documentation](https://www.postman.com/postman/workspace/published-postman-templates/documentation/631643-f695cab7-6878-eb55-7943-ad88e1ccfd65?ctx=documentation).
 
 To test the Echo API, open a new request in Postman and enter the following path in the URL field:
 

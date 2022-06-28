@@ -270,6 +270,22 @@ export const leftNavItems = [
             url: '/docs/running-collections/using-newman-cli/command-line-integration-with-newman/',
           },
           {
+            name: 'Installing and running Newman',
+            url: '/docs/running-collections/using-newman-cli/installing-running-newman/',
+          },
+          {
+            name: 'Newman options',
+            url: '/docs/running-collections/using-newman-cli/newman-options/',
+          },
+          {
+            name: 'Uploading files in Newman',
+            url: '/docs/running-collections/using-newman-cli/newman-file-uploads/',
+          },
+          {
+            name: 'Using Newman custom reporters',
+            url: '/docs/running-collections/using-newman-cli/newman-custom-reporters/',
+          },
+          {
             name: 'Newman with Docker',
             url: '/docs/running-collections/using-newman-cli/newman-with-docker/',
           },
@@ -292,11 +308,30 @@ export const leftNavItems = [
   {
     name: 'Collaborating in Postman',
     parentSlug: 'collaborating-in-postman',
-    url: '/docs/collaborating-in-postman/collaboration-intro/',
+    url: '/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/',
     subMenuItems1: [
       {
         name: 'Working with your team',
-        url: '/docs/collaborating-in-postman/collaboration-intro/',
+        subParentSlug: 'working-with-your-team',
+        slug: '/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/',
+        subMenuItems2: [
+          {
+            name: 'Collaboration overview',
+            url: '/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/',
+          },
+          {
+            name: 'Enabling team discovery',
+            url: '/docs/collaborating-in-postman/working-with-your-team/enabling-team-discovery/',
+          },
+          {
+            name: 'Collaborating in team workspaces',
+            url: '/docs/collaborating-in-postman/working-with-your-team/collaborating-in-team-workspaces/',
+          },
+          {
+            name: 'Discussing your work',
+            url: '/docs/collaborating-in-postman/working-with-your-team/discussing-your-work/',
+          },
+        ],
       },
       {
         name: 'Defining roles',
@@ -313,10 +348,6 @@ export const leftNavItems = [
       {
         name: 'Your Private API Network',
         url: '/docs/collaborating-in-postman/adding-private-network/',
-      },
-      {
-        name: 'Commenting on collections',
-        url: '/docs/collaborating-in-postman/commenting-on-collections/',
       },
       {
         name: 'Using version control',
@@ -701,8 +732,8 @@ export const leftNavItems = [
         ],
       },
       {
-        name: 'Upgrading your team to the current version of Postman',
-        url: '/docs/administration/upgrading/',
+        name: 'Updating your team to the current version of Postman',
+        url: '/docs/administration/updating/',
       },
       {
         name: 'Managing Enterprise deployment',

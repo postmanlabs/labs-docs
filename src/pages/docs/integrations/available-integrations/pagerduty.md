@@ -56,7 +56,7 @@ Search and select **PagerDuty**.
 
 ![pagerduty menu](https://assets.postman.com/postman-docs/pagerduty-search-all.jpg)
 
-You can select **View All** to see all PagerDuty integrations created by your team.
+Select **View All** for a list of all PagerDuty integrations created by your team.
 
 ![pagerduty menu](https://assets.postman.com/postman-docs/pagerduty-all-integrations.jpg)
 

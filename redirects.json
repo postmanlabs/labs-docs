@@ -1934,5 +1934,17 @@
 	{
 		"from": "/docs/designing-and-developing-your-api/versioning-an-api/",
 		"to": "/docs/designing-and-developing-your-api/versioning-an-api/versioning-an-api-overview/"
+	},
+	{
+		"from": "/docs/administration/upgrading/",
+		"to": "/docs/administration/updating/"
+	},
+	{
+		"from": "/docs/collaborating-in-postman/collaboration-intro/",
+		"to": "/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/"
+	},
+	{
+		"from": "/docs/collaborating-in-postman/commenting-on-collections/",
+		"to": "/docs/collaborating-in-postman/working-with-your-team/discussing-your-work/"
 	}
 ]
