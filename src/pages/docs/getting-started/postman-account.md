@@ -85,7 +85,13 @@ If you're a member of multiple Postman teams with varying authentication methods
 
 ### Switching between accounts
 
-You can sign in to multiple accounts at the same time in Postman. Select your user avatar in the top right to switch between accounts or select __Add a new account__ to sign in with another one.
+You can sign in to multiple accounts at the same time in Postman. Select your user avatar in the top right to switch between accounts or select __+ Add Account__ to sign in with another one.
+
+### Switching between teams
+
+You can sign in to multiple teams at the same time with your Postman account. To switch between teams, select your user avatar in the top right. Select a team to open or select **+ Add Team** to create a new team or join another team within your organization.
+
+<img alt="Switch teams" src="https://assets.postman.com/postman-docs/team-account-switcher-v9.2.jpg" width="350px">
 
 ## Updating your account and profile settings
 
