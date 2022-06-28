@@ -17,35 +17,7 @@ import PreviousAndNextLinks from '../components/modules/PreviousAndNextLinks';
 import BreadCrumbsLinks from '../components/modules/BreadCrumbsLinks';
 import LoadQualtrics from '../components/modules/loadQualtrics';
 
-function CreateDoc(props) {
-  const [post, setModal] = useState({ ...props })
 
-  useEffect(() => {
-    const { data } = props;
-    const { html } = data;
-    // parses a string containing HTML & returns an HTMLDocument
-    const parser = new DOMParser();
-    const parsedHtml = parser.parseFromString(html, 'text/html');
-
-    // allows images to display as modal when clicked
-    useModal(parsedHtml);
-    setModal(parsedHtml.body.innerHTML)
-  }, []);
-
-  return (
-    <span dangerouslySetInnerHTML={{ __html: post }} />
-  );
-}
-
-/* Right side links */
-const DisplayContextualLinks = (props) => {
-  const { data } = props;
-  /* Single post data */
-  const doc = data.markdownRemark;
-  return (
-    doc.frontmatter.contextual_links && <ContextualLinks key={uuidv4()} links={doc.frontmatter.contextual_links} />
-  )
-}
 const DocPage = ({ data }) => {
   const post = data.markdownRemark;
     // Last modified date - displaed at bottom of docs
@@ -57,6 +29,38 @@ const DocPage = ({ data }) => {
   let excerptLength = data.markdownRemark.excerpt.length; 
   let excerptCount = process.env.GATSBY_EXCERPT_COUNT;
   let overIndexLimit = excerptLength > 6700 ? (excerptLength - 6700) : 0;
+
+  /* Right side links */
+const DisplayContextualLinks = (props) => {
+  const { data } = props;
+  /* Single post data */
+  const doc = data.markdownRemark;
+  return (
+    doc.frontmatter.contextual_links && <ContextualLinks key={uuidv4()} links={doc.frontmatter.contextual_links} />
+  )
+}
+
+  const CreateDoc = (props) => {
+    const [useHTML, setHTML] = useState({ ...props })
+  
+    useEffect(() => {
+      const { data } = props;
+      const { html } = data;
+      // parses a string containing HTML & returns an HTMLDocument
+      const parser = new DOMParser();
+      const parsedHtml = parser.parseFromString(html, 'text/html');
+  
+      // allows images to display as modal when clicked
+      useModal(parsedHtml);
+      setHTML(parsedHtml.body.innerHTML)
+    }, []);
+  
+    return (
+      <span dangerouslySetInnerHTML={{ __html: useHTML }} />
+    );
+  }
+
+  
 
   return (
     <Layout>
@@ -71,7 +75,7 @@ const DocPage = ({ data }) => {
               <main className="col-sm-12 col-md-12 col-lg-9 offset-lg-0 col-xl-7 doc-page ml-xl-5">
                 <BreadCrumbsLinks data={{ parentLink, subParentLink }} />
                 <h1>{post.frontmatter.title}</h1>
-                <CreateDoc data={post} />
+                <CreateDoc data={data.markdownRemark} />
                 {
                   excerptCount ? 
                     <div className='events__alert mb-3'>
