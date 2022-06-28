@@ -821,3 +821,103 @@ components:
 ```
 
 &nbsp;
+
+## API information
+
+This category of linting rules deals with information about your API. The OpenAPI info object provides metadata about the API.  <!-- TODO: reword -->
+
+### Info contact
+
+| Issue description | Possible fix |
+| ----------- | ----------- |
+| Your API schema's [info object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#infoObject) doesn't contain a [contact object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#contactObject), which contains contact information including a name and email address. | Although contact information isn't required, including it allows your users to contact you. Add a contact object to your API schema's info object.  |
+
+### Info contact email
+
+| Issue description | Possible fix |
+| ----------- | ----------- |
+| Your API schema's [contact object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#contactObject) doesn't contain an email address for the contact person or organization. | Although contact information isn't required, including it allows your users to communicate with you. Add an email address to your API schema's contact object. |
+
+### Info contact name
+
+| Issue description | Possible fix |
+| ----------- | ----------- |
+| Your API schema's [contact object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#contactObject) doesn't contain a name for the contact person or organization. | Although contact information isn't required, including it allows your users to communicate with you. Add a name to your API schema's contact object. |
+
+### Info contact URL
+
+| Issue description | Possible fix |
+| ----------- | ----------- |
+| Your API schema's [contact object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#contactObject) doesn't contain a URL for the contact person or organization. | Although contact information isn't required, including it allows your users to communicate with you. Add a URL to your API schema's contact object. |
+
+### Info description
+
+| Issue description | Possible fix |
+| ----------- | ----------- |
+| Your API schema's [info object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#infoObject) doesn't contain a description. | Although a description isn't required, including it allows you to provide your users with information about what the API does. Add a description to your API schema's info object. |
+
+### Info license
+
+| Issue description | Possible fix |
+| ----------- | ----------- |
+| Your API schema's [info object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#infoObject) doesn't contain a [license object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#licenseObject), which specifies information about the schema's license. | Although a license object isn't required, including one provides your users with important information. Add a license object to your API schema's info object. |
+
+### Info license URL
+
+| Issue description | Possible fix |
+| ----------- | ----------- |
+| Your API schema's [license object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#licenseObject) doesn't contain a URL to the license used for the API. | Although license information isn't required, including it provides your users with important information. Add a URL to your API schema's license object. |
+
+### Info terms of service
+
+| Issue description | Possible fix |
+| ----------- | ----------- |
+| Your API schema's [info object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#infoObject) doesn't contain a URL to the Terms of Service for the API. | Although a link to the Terms of Service isn't required, including it provides your users with important information. Add a URL to the API's Terms of Service to your API schema's info object. |
+
+### Info API ID extension
+
+| Issue description | Possible fix |
+| ----------- | ----------- |
+| Your API schema's [info object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#infoObject) doesn't contain an API ID extension (`x-api-id`), which is a custom header used to pass an API key. | Although an API ID extension isn't required, including it provides your users with important information. Add an API ID extension to your API schema's info object. |
+
+### Info audience extension
+
+| Issue description | Possible fix |
+| ----------- | ----------- |
+| Your API schema's [info object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#infoObject) doesn't contain an audience extension (`x-audience`), which is a custom header used to describe an API's target audience. | Although an audience extension isn't required, including it provides your users with important information about the API. Add an audience extension to your API schema's info object. |
+
+### No empty paths
+
+| Issue description | Possible fix |
+| ----------- | ----------- |
+|  |  |
+
+### No trailing slash on paths
+
+| Issue description | Possible fix |
+| ----------- | ----------- |
+|  |  |
+
+### Tags description
+
+| Issue description | Possible fix |
+| ----------- | ----------- |
+|  |  |
+
+### Tags object
+
+| Issue description | Possible fix |
+| ----------- | ----------- |
+|  |  |
+
+### Tags one
+
+| Issue description | Possible fix |
+| ----------- | ----------- |
+|  |  |
+
+## Operations
+
+This category of linting rules deals with operations on an API path. <!-- TODO: reword -->
+
+## Models <!-- TODO: reword -->

@@ -54,7 +54,7 @@ A security misconfiguration can result from many issues, including:
 
 ### CORS misconfiguration
 
-Cross-origin resource sharing (CORS) is a browser mechanism that enables controlled access to resources located outside of a given domain. It extends and adds flexibility to the same-origin policy ([SOP](https://portswigger.net/web-security/cors/same-origin-policy)). However, if a website's CORS policy is poorly configured and implemented, it also provides the potential for cross-domain attacks. CORS isn't a protection against cross-origin attacks such as cross-site request forgery ([CSRF](https://portswigger.net/web-security/csrf)).
+Cross-origin resource sharing (CORS) is a browser mechanism that enables controlled access to resources located outside of a given domain. It extends and adds flexibility to the same-origin policy ([SOP](https://portswigger.net/web-security/cors/same-origin-policy)). However, if a website's CORS policy is poorly configured and implemented, it also provides the potential for cross-domain attacks. CORS isn't a protection against cross-origin attacks such as cross-site request forgery ([CSRF](https://portswigger.net/web-security/csrf)). <!-- TODO: these individual rules need new titles -->
 
 #### CORS misconfiguration rule 1
 
@@ -198,7 +198,7 @@ By setting the `Secure` attribute, the browser will prevent the transmission of 
 
 Issue description | Possible fix
 --- | ---
-A cookie was set without the `Secure` flag. This could allow an attacker to access the cookie using an unencrypted connection. | If a cookie contains sensitive information or is a session token, ensure that it is passed using an encrypted channel and the `Secure` flag is set.
+A cookie was set without the `Secure` flag. This could allow an attacker to access the cookie using an unencrypted connection. | If a cookie contains sensitive information or is a session token, ensure that it is passed using an encrypted channel and that the `Secure` flag is set.
 
 ### Clickjacking
 
