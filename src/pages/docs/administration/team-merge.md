@@ -145,4 +145,4 @@ All collections in your personal workspace and any workspaces that you have join
 
 [Configure SSO](/docs/administration/sso/admin-sso/) if you are subscribed to a Postman Professional or Enterprise plan.
 
-Learn how to [manage your team roles, invite team members to workspaces, and adjust your team size](/docs/administration/managing-your-team/managing-your-team/).
+Learn how to [manage team roles, invite team members to workspaces, and adjust team size](/docs/administration/managing-your-team/managing-your-team/).

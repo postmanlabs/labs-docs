@@ -49,4 +49,4 @@ Postman will switch to your new workspace when you create it. You can move betwe
 
 You can start collaborating with other people by [inviting](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#sharing-workspaces) them to join your new workspace.
 
-Learn more about [using workspaces for your team and projects](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/).
+Learn more about [using workspaces](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/).

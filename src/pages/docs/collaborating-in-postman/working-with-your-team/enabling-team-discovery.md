@@ -34,7 +34,7 @@ To enable team discovery:
 * Free users: Next to your avatar, select the menu to the right of **Upgrade**, then select **Manage Team**.
 * Paid users: Next to your avatar, select **Team**, then select **Manage Team**.
 
-On your Team Settings page, select **Team discovery** on the left, then select **Enable team discovery**. This will enable anyone from your domain to find and request to join your team.
+In [Team Settings](https://go.postman.co/settings/team/general), select **Team discovery** on the left, then select **Enable team discovery**. This will enable anyone from your domain to find and request to join your team.
 
 [![Enable team discovery](https://assets.postman.com/postman-docs/team-discovery-enable-v9.7.0.jpg)](https://assets.postman.com/postman-docs/team-discovery-enable-v9.7.0.jpg)
 

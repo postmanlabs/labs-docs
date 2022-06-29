@@ -40,7 +40,7 @@ The Postman Token Scanner scans your public workspaces, collections, environment
 
 ## Use cases
 
-A scan starts whenever your team members do any of the following actions:
+A scan starts whenever team members do any of the following actions:
 
 * Change the workspace visibility to Public.
 * Share a collection or environment to a public workspace.

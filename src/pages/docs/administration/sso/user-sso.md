@@ -36,7 +36,7 @@ Sign into Postman by selecting **Sign in with SSO**.
 
 <img src="https://assets.postman.com/postman-docs/sign-in-v9.16.jpg" alt="Sign in" width="350px"/>
 
-Enter your team domain and **Continue**.
+Enter the team domain and **Continue**.
 
 > Select **Stay signed in for 30 days** if you want to remain signed in after your current session for 30 days before re-authenticating. If you don't want to remain signed in on the computer you are working on, clear this checkbox. Note that you will be prompted to sign in again after 30 minutes.
 

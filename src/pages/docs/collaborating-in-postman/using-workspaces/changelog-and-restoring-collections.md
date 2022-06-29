@@ -83,7 +83,7 @@ To filter by element, select **Entity** at the top of the activity feed and sele
 
 ## Viewing team activity
 
-You can review the activity for a team with a Postman Basic, Professional, or Enterprise account. In [Postman](https://go.postman.co/), use the __Workspaces__ dropdown to select your team, then go to the __Activity__ feed to view the events.
+You can review your team's activity with a Postman Basic, Professional, or Enterprise account. To do so, select **Home** in the upper-left. You can view your team **Activity Feed** on the right.
 
 ## Restoring collections
 
