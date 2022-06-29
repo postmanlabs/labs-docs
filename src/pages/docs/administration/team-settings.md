@@ -21,7 +21,7 @@ contextual_links:
     name: "Next Steps"
   - type: link
     name: "Working with your team"
-    url: "/docs/collaborating-in-postman/collaboration-intro/"
+    url: "/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/"
   - type: link
     name: "Managing your team"
     url: "/docs/administration/managing-your-team/managing-your-team/"
@@ -64,7 +64,7 @@ When you select **Team Settings**, you will be automatically directed to **Team 
 
 You can select **Team Discovery** from the left-hand menu to view your options for making your team discoverable to other Postman users with email addresses from your team's domain.
 
-See [Team Discovery](/docs/collaborating-in-postman/collaboration-intro/#team-discovery) for more information on this feature and the admin and user experience it provides.
+See [Team Discovery](/docs/collaborating-in-postman/working-with-your-team/enabling-team-discovery/) for more information on this feature and the admin and user experience it provides.
 
 <img alt="Edit team profile" src="https://assets.postman.com/postman-docs/team-discovery-enable-v9.1.0.jpg"/>
 

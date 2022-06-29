@@ -123,4 +123,4 @@ To save a link, select a section, folder, or request in the sidebar. Copy the UR
 
 ## Next steps
 
-Learn more about [collaborating with your team](/docs/collaborating-in-postman/collaboration-intro/) in Postman.
+Learn more about [collaborating with your team](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/) in Postman.

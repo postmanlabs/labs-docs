@@ -31,7 +31,7 @@ Your monitor's time zone is automatically set to the time zone of your computer 
 
 ### How long can a monitor run?
 
-Monitors are limited to a maximum of five minutes for each run, including all HTTP requests, responses, pre-request scripts, and test scripts. For collection-based monitors, this limit applies to all HTTP requests, responses, and test scripts.
+Monitors are limited to a maximum of 10 minutes for each run, including all HTTP requests, responses, pre-request scripts, and test scripts. For collection-based monitors, this limit applies to all HTTP requests, responses, and test scripts.
 
 ### How do I persist variables between monitor runs?
 
@@ -39,7 +39,7 @@ You cannot import existing global variables into a monitor, but you can create n
 
 ### How many HTTP requests can a monitor send?
 
-Uptime monitors can be configured to call a single URL or endpoint. For collection-based monitors, there is no limit to the number of requests, although the total runtime cannot exceed 5 minutes.
+Uptime monitors can be configured to call a single URL or endpoint. For collection-based monitors, there is no limit to the number of requests, although the total runtime cannot exceed 10 minutes.
 
 ### Can I run a request multiple times?
 
@@ -47,7 +47,7 @@ Collection-based monitors only run one iteration by default, but you can use `se
 
 ### How much data can a monitor send or receive?
 
-There is no specific limit to the amount of data that can be sent or received per request. However, large requests or responses take longer to send and receive. As a result, be sure that all requests can be completed within the 5 minute time limit.
+There is no specific limit to the amount of data that can be sent or received per request. However, large requests or responses take longer to send and receive. As a result, be sure that all requests can be completed within the 10 minute time limit.
 
 ### Can I upload files or attach data files?
 
@@ -91,4 +91,4 @@ Because monitors run in the Postman cloud, all URLs must be publicly available o
 
 ### Will monitors impact my API performance?
 
-To limit the impact of monitor activity on your API, you can configure which of your API endpoints are called as well as how often they're called. In addition, Postman restricts each monitor’s total runtime to 5 minutes, to limit the number of requests the monitor can perform.
+To limit the impact of monitor activity on your API, you can configure which of your API endpoints are called as well as how often they're called. In addition, Postman restricts each monitor’s total runtime to 10 minutes, to limit the number of requests the monitor can perform.

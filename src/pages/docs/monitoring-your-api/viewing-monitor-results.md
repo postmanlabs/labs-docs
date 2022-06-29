@@ -103,7 +103,7 @@ Each run is labeled based on its result:
 * **Successful** - Your monitor completed the run with no issues and passed all tests.
 * **Failure** - Your monitor completed the run, however one or more tests failed.
 * **Error** - Your monitor was unable to complete its run due to an error. An error can occur if there is a syntax error in the code you've written, a network error, or for various other reasons. If you encounter one, your [Console Log](#console-log) will help you identify what caused it.
-* **Abort** - Your monitor was unable to complete its run within the allotted five minutes, at which point it timed out.
+* **Abort** - Your monitor was unable to complete its run within the allotted 10 minutes, at which point it timed out.
 
 You can filter by run result to compare how your runs with the same result have differed. Select **Run result: All**, then select one or more types of run results to view.
 

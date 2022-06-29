@@ -17,7 +17,7 @@ contextual_links:
     name: "Next Steps"
   - type: link
     name: "Working with your team"
-    url:  "/docs/collaborating-in-postman/collaboration-intro/"
+    url:  "/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/"
   - type: link
     name: "Creating workspaces"
     url: "/docs/collaborating-in-postman/using-workspaces/creating-workspaces/"

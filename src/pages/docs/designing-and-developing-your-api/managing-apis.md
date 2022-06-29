@@ -67,7 +67,7 @@ Select the workspace, then **Move** **API**.
 
 Note that collections, documentation, monitors, mock servers, and environments of the API will not move with the API to the new workspace automatically.
 
-Collections and environments must be [moved separately](/docs/collaborating-in-postman/sharing/#moving-postman-entities-to-collaborative-workspaces). Documentation, monitors, and mock servers must be re-configured in the new workspace.
+Collections and environments must be [moved separately](/docs/collaborating-in-postman/working-with-your-team/collaborating-in-team-workspaces/#moving-elements-to-team-workspaces). Documentation, monitors, and mock servers must be re-configured in the new workspace.
 
 ## Watching APIs
 
@@ -77,13 +77,11 @@ Select __Watch__ to start watching the API.
 
 <img src="https://assets.postman.com/postman-docs/watch-button-v9.jpg" alt="Watch Option" width="350px"/>
 
-Select the notifications icon <img alt="Notifications icon" src="https://assets.postman.com/postman-docs/icon-notification-bell-v9.jpg#icon" width="18px"> in the Postman header. The popup will indicate further information about the change that was made to the API.
+For more information about the changes to the API, select the notifications icon <img alt="Notifications icon" src="https://assets.postman.com/postman-docs/icon-notification-bell-v9.jpg#icon" width="18px"> in the Postman header.
 
-![Notification Watch API](https://assets.postman.com/postman-docs/v8-watch-notification2.jpg)
+You will also receive an email with the information regarding who made the change, what the change was, and when it was made.
 
-You will also receive an email with the information regarding who has made the change, what the change was, and when it was made.
-
-> You will not receive notifications for changes made by yourself.
+> You will not receive notifications for changes that you made.
 
 ## Commenting on APIs
 

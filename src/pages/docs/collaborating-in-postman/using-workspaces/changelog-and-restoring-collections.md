@@ -109,5 +109,5 @@ With a Postman Basic, Professional, or Enterprise account, you can pipe team act
 
 ## Next steps
 
-* For more on working with a team in Postman, read the [collaboration intro](/docs/collaborating-in-postman/collaboration-intro/).
+* For more on working with a team in Postman, read the [collaboration overview](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/).
 * To learn how to invite input on your API projects, read [sharing your work](/docs/collaborating-in-postman/sharing/).
