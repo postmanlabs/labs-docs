@@ -30,7 +30,7 @@ We would love for you to contribute to the Learning Center! To contribute to thi
 
 ```
 
-**NOTE:** this site was built with Node.js v14.15.0. We recommend installing and using [nvm](https://github.com/nvm-sh/nvm) and setting your Node.js version to v14.15.0.
+**NOTE:** this site was built with Node.js v14.17.1. We recommend installing and using [nvm](https://github.com/nvm-sh/nvm) and setting your Node.js version to v14.17.1.
 
 ### Build using Docker
 
