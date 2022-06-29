@@ -56,6 +56,6 @@ To start using the API Builder, you can create a new API in your workspace. You 
 
 You can rename, delete, or remove the API from the workspace using the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> in the sidebar.
 
-   > When you delete an API or remove it from a workspace, the collections, monitors, mocks, and environments linked to it will not be deleted or removed. Also, any configured integrations are not deleted.
+   > When you delete an API or remove it from a workspace, the collections, monitors, mocks, and environments linked to it won't be deleted or removed. Also, any configured integrations aren't deleted.
 
    <img alt="Edit API" src="https://assets.postman.com/postman-docs/v8-more-actions2.jpg"/>
