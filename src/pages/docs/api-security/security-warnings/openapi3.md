@@ -890,13 +890,13 @@ This category of linting rules deals with information about your API. The OpenAP
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-|  |  |
+| Your API schema contains one or more empty [path item objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#path-item-object) in the [paths object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#paths-object). <!-- TODO: confirm that this is correct - might be the paths object instead? --> | Although you can leave a path item object empty due to [access-control list (ACL) constraints](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#securityFiltering), this doesn't provide your users with a good experience. Add details for any empty path item objects in your API schema. |
 
 ### No trailing slash on paths
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-|  |  |
+| One or more [path item objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#path-item-object) in your API schema's [paths object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#paths-object) have a trailing slash at the end of the path (for example, `/path/` rather than `/path`). | Remove any trailing slashes from paths in your API schema's paths object. |
 
 ### Tags description
 
