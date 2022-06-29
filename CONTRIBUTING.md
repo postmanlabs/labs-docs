@@ -8,7 +8,7 @@ Please note we have a [code of conduct](https://www.postman.com/code-of-conduct)
 
 ### Prerequisites
 
-This site is built with Node.js v14.15.0. We recommend installing and using [nvm](https://github.com/nvm-sh/nvm), a version manager for Node.js. After you install nvm, use it to set your node version to v14.15.0.
+This site is built with Node.js v14.17.1. We recommend installing and using [nvm](https://github.com/nvm-sh/nvm), a version manager for Node.js. After you install nvm, use it to set your node version to v14.17.1.
 
 **Note for Mac users**: If you are using a Mac with an Apple M1 chip, you may need to create a Rosetta version of Terminal to download nvm and the dependencies needed by this GitHub repo. For more information, see this guide on [creating a Rosetta terminal](https://www.courier.com/blog/tips-and-tricks-to-setup-your-apple-m1-for-development). After you create a Rosetta terminal, use it to install nvm, then proceed with the rest of the workflow outlined here.
 
@@ -16,7 +16,7 @@ This site is built with Node.js v14.15.0. We recommend installing and using [nvm
 
 If you run into issues when running the Learning Center locally, try the following:
 
-1. Check the Node.js version (`node -v`) to ensure you are using `v14.15.0`. If not, enter `nvm use v14.15.0`.
+1. Check the Node.js version (`node -v`) to ensure you are using `v14.17.1`. If not, enter `nvm use v14.17.1`.
 1. Enter `rm -rf node_modules; npm i` to remove all existing packages and perform a fresh install.
 1. Enter `gatsby clean` to clear the cache.
 
