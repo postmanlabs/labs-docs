@@ -103,13 +103,13 @@ You can manage account settings including your email address, password, and work
 
 #### Changing your email address
 
-If you are on a Professional, Basic, or Free plan, you can change the email address associated with your Postman account. Open your [account settings](https://go.postman.co/settings/me/account/) page. Select your avatar in the upper-right corner > **Account Settings** > **Account**. Edit your email address and select **Update Email** to save changes.
+If you are on a Professional, Basic, or Free plan, you can change the email address associated with your Postman account. Open your [account settings](https://go.postman.co/settings/me/account/) page. Select your avatar in the upper-right corner > **Settings** > **Account**. Edit your email address and select **Update Email** to save changes.
 
 If you are on an Enterprise plan, you must contact your Team Admins to update the email address associated with your Postman account.
 
 #### Resetting your password
 
-If you are on a Professional, Basic, or Free plan, you can reset your password if you are already signed in by navigating to your [account settings](https://go.postman.co/settings/me/account/) page. Select your avatar in the upper-right corner > **Account Settings** > **Account**. Select **Edit Password**.
+If you are on a Professional, Basic, or Free plan, you can reset your password if you are already signed in by navigating to your [account settings](https://go.postman.co/settings/me/account/) page. Select your avatar in the upper-right corner > **Settings** > **Account**. Select **Edit Password**.
 
 If you aren't signed in to your Postman account, you can recover your username or reset your password from the [**Sign In**](https://identity.getpostman.com/login) page. Select __Trouble signing in?__ Enter your account email, select the __I'm not a robot__ box, and select __Submit__. Postman will send you an email with instructions for recovering access to your account.
 
@@ -125,7 +125,7 @@ You must leave all Postman teams that you're a member of prior to deleting your 
 
 If you're a member of an Enterprise team with [SCIM](/docs/administration/scim-provisioning/scim-provisioning-overview/) enabled, you must contact a Team Admin to remove your Postman account from that team.
 
-Once you're no longer a member of any Postman team, you can permanently delete your Postman account in your [account settings](https://go.postman.co/settings/me/account/). Select your avatar in the upper-right corner > **Account Settings** > **Account**. Select **Delete Account**. Before deleting your account, Postman will prompt you to sign in again to confirm that you own the account.
+Once you're no longer a member of any Postman team, you can permanently delete your Postman account in your [account settings](https://go.postman.co/settings/me/account/). Select your avatar in the upper-right corner > **Settings** > **Account**. Select **Delete Account**. Before deleting your account, Postman will prompt you to sign in again to confirm that you own the account.
 
 ### Updating your profile
 
@@ -133,11 +133,11 @@ You can update your Postman profile and add more details about you on your [prof
 
 #### Updating your username
 
-You can update your username at any time by navigating to your [profile settings](https://go.postman.co/settings/me/). Select your avatar in the upper-right corner > **Account Settings**. Edit your username and select **Update Profile** to save changes.
+You can update your username at any time by navigating to your [profile settings](https://go.postman.co/settings/me/). Select your avatar in the upper-right corner > **Settings**. Edit your username and select **Update Profile** to save changes.
 
 #### Making your profile public
 
-Your Postman profile is visible to your Postman team, and you can choose to make your profile public to the Postman community. You can turn your public profile on or off at any time in your [profile settings](https://go.postman.co/settings/me/). Select your avatar in the upper-right corner > **Account Settings** > **Profile**. Select **Make profile public**, then select **Update Profile** to save your changes.
+Your Postman profile is visible to your Postman team, and you can choose to make your profile public to the Postman community. You can turn your public profile on or off at any time in your [profile settings](https://go.postman.co/settings/me/). Select your avatar in the upper-right corner > **Settings** > **Profile**. Select **Make profile public**, then select **Update Profile** to save your changes.
 
 ## Updating your notification preferences
 
@@ -153,7 +153,7 @@ In addition to email and in-app notifications, you can also send many notificati
 
 You can manage your [active Postman sessions](https://go.postman.co/settings/me/sessions/) by selecting your avatar in the upper-right corner > **Active Sessions**. You can view all of the devices you're logged in to Postman on and revoke any sessions you no longer use or recognize. You can also choose to **Revoke all sessions**.
 
-<img alt="Active sessions" src="https://assets.postman.com/postman-docs/active-sessions-v9.jpg">
+<img alt="Active sessions" src="https://assets.postman.com/postman-docs/dashboard-active-sessions-revoke-v9.2.jpg">
 
 ## Upgrading your account
 
@@ -165,19 +165,19 @@ If you have a paid account, you can upgrade your Postman plan by navigating to y
 
 ## Leaving a team
 
-You can leave a Postman team by navigating to your [Postman Dashboard](https://go.postman.co/home), selecting your avatar in the top right, then **Account Settings**. Select **Teams** on the left.
+You can leave a Postman team by selecting your avatar in the top right, then **Settings**. Select **Teams** on the left.
 
-<img src="https://assets.postman.com/postman-docs/leave-team-v9.1.jpg" alt="Leave team"/>
+<img src="https://assets.postman.com/postman-docs/dashboard-teams-leave-team-v9.2.jpg" alt="Leave team"/>
 
 Select **Leave Team** to the right of a team to leave it. If you're a member of an Enterprise team that has [SCIM configured](/docs/administration/scim-provisioning/scim-provisioning-overview/), you must contact a Team Admin to remove you from the team.
 
-When you leave a team, you no longer have access to the team's workspaces or any of the elements in them. You will still have access to your personal workspaces.
+When you leave a team, you no longer have access to the team's workspaces, including personal workspaces, or any of the elements in them. You must reassign your personal workspaces to a remaining team member before leaving.
 
-If you are the last member to leave your team, you will have the option to transfer collections to a personal workspace.
+<img src="https://assets.postman.com/postman-docs/dashboard-teams-leave-team-confirm-v9.2.jpg" alt="Leave and delete team" width="400px"/>
 
-<img src="https://assets.postman.com/postman-docs/leave-and-delete-team.jpg" alt="Leave and delete team" width="400px"/>
+If you're the last member to leave a team, the team will be deleted. You will no longer have access to the team's workspaces, including personal workspaces, or any elements in them.
 
-> If you are invited to a new team and you are the last member in your current team, all team data will be transferred to your personal default workspace.
+> Learn how to [export your Postman data](/docs/getting-started/importing-and-exporting-data/#exporting-postman-data).
 
 ## Account security policies and standards
 
