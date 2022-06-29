@@ -82,8 +82,6 @@ Select **Billing Details** from the left-hand menu to add to or update your team
 
 View [Adding custom information to invoices](/docs/administration/billing/#adding-custom-information-to-invoices) for information on modifying new and existing invoices.
 
-<img alt="Updating billing details" src="https://assets.postman.com/postman-docs/ts-billing-details.jpg" width="500px"/>
-
 ## Editing authentication methods
 
 > SSO is available on Postman Professional and Enterprise plans.
@@ -91,8 +89,6 @@ View [Adding custom information to invoices](/docs/administration/billing/#addin
 Select **Authentication** from the left-hand menu to configure or reconfigure your team's authentication methods.
 
 See [Configuring SSO for a team](/docs/administration/sso/admin-sso/) for details on how to configure your team's custom SSO setup and manage user accounts.
-
-<img alt="Editing authentication methods" src="https://assets.postman.com/postman-docs/ts-authentication.jpg"/>
 
 ## Understanding roles and permissions
 
