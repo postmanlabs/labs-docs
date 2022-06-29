@@ -902,13 +902,13 @@ This category of linting rules deals with information about your API. The OpenAP
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-|  |  |
+|  | Each path should contain one or more tags |
 
 ### Tags object
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-|  |  |
+|  | `At the root level, the tags object lists all the tags that are used in the operation objects (which appear within the paths object, as explained in Step 4: The paths object).` |
 
 ### Tags one
 
