@@ -19,7 +19,7 @@ warning: false
 
 By default, you can view Postman elements in [workspaces](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/) that you share with your team. If you need to edit an element, such as a collection, API, environment, mock server, or monitor, you can request [Editor role](/docs/collaborating-in-postman/roles-and-permissions/) access.
 
-To request Editor access for an element, you first need to join or get invited to the [shared workspace](/docs/collaborating-in-postman/collaboration-intro/) that contains the element. After you submit a request for access, the owner of the element will receive a notification asking them to approve the request.
+To request Editor access for an element, you first need to join or get invited to the [shared workspace](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/) that contains the element. After you submit a request for access, the owner of the element will receive a notification asking them to approve the request.
 
 > Roles and permissions are available depending on your [Postman plan](https://www.postman.com/pricing).
 
