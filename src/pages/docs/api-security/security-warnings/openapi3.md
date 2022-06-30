@@ -896,28 +896,166 @@ This category of linting rules deals with information about your API. The OpenAP
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| One or more [path item objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#path-item-object) in your API schema's [paths object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#paths-object) have a trailing slash at the end of the path (for example, `/path/` rather than `/path`). | Remove any trailing slashes from paths in your API schema's paths object. |
+| One or more [path item objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#path-item-object) in your API schema's [paths object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#paths-object) have a trailing slash at the end of the path. | Some tools treat a path that ends with a trailing slash (`/path/`) differently from way that they treat paths without a trailing slash (`/path`). To avoid any ambiguity, remove any trailing slashes from paths in your API schema's paths object. |
 
-### Tags description
+### Tags description <!-- TODO: should this be below Tags object -->
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-|  | Each path should contain one or more tags |
+| One or more tags in your API schema's [tag object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#tagObject) don't have an accompanying description. | Tag descriptions enable you to provide your users with important context. Add a description for every tag in the tag object. |
 
 ### Tags object
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-|  | `At the root level, the tags object lists all the tags that are used in the operation objects (which appear within the paths object, as explained in Step 4: The paths object).` |
+| Your API schema doesn't contain a root-level [tag object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#tagObject). | The tag object lists all the tags used in the schema's [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#operationObject), providing users with important context. Add a tag object to your API schema. |
 
 ### Tags one
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-|  |  |
+| Your API schema's [tag object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#tagObject) doesn't contain any tags. | Tags enable you to provide your users with important context. Add at least one tag to your schema's tag object. |
 
 ## Operations
 
 This category of linting rules deals with operations on an API path. <!-- TODO: reword -->
+
+### Operations description
+
+| Issue description | Possible fix |
+| ----------- | ----------- |
+| One or more [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#operation-object) in your API schema doesn't have a description. | A verbose explanation of the operation's behavior provides your users with important context. Add a description for each operation object. |
+
+### Operations summary
+
+| Issue description | Possible fix |
+| ----------- | ----------- |
+| One or more [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#operation-object) in your API schema doesn't have a summary. | A short summary of what the operation does provides your users with important context. Add a summary for each operation object. |
+
+### Operations summary period none
+
+| Issue description | Possible fix |
+| ----------- | ----------- |
+| One or more [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#operation-object) in your API schema contains a summary that ends with a period (`.`). | Remove the final period from all summaries at the operations object level in your API schema. |
+
+### Operations tags
+
+| Issue description | Possible fix |
+| ----------- | ----------- |
+| One or more [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#operation-object) in your API schema does not contain a `tags` array. | Operation tags can be used to create logical groupings of operations in API documentation. Add a `tags` array for each operation object. |
+
+### Operations tags one
+
+| Issue description | Possible fix |
+| ----------- | ----------- |
+| One or more [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#operation-object) in your API schema contains a `tags` array, but the array does not contain any items. | Operation tags can be used to create logical groupings of operations in API documentation. Add at least one tag to the `tags` array for each operation object. |
+
+### Parameters description
+
+| Issue description | Possible fix |
+| ----------- | ----------- |
+| One or more [parameter objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#parameter-object) in an [operations object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#operation-object) in your API schema doesn't contain a `description` field. | A brief description of the parameter provides your users with important context. Add a `description` field for each parameter object. |
+
+### Parameters example
+
+| Issue description | Possible fix |
+| ----------- | ----------- |
+| One or more [parameter objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#parameter-object) in an [operations object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#operation-object) in your API schema doesn't contain an `example` field. | Add an `example` field to provide your users with an example of the parameter's potential value. |
+
+### Request body on POST
+
+| Issue description | Possible fix |
+| ----------- | ----------- |
+| One or more POST [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#operationObject) in your API schema doesn't contain a [request body object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#requestBodyObject). |  A request body object contains a brief description of the response body and information about what a valid response body should look like. Add a request body object to any POST operation operation objects. |
+
+### Request body on PUT
+
+| Issue description | Possible fix |
+| ----------- | ----------- |
+| One or more PUT [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#operationObject) in your API schema doesn't contain a [request body object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#requestBodyObject). | A request body object contains a brief description of the response body and information about what a valid response body should look like. Add a request body object to any POST operation operation objects. |
+
+### Request body on PATCH
+
+| Issue description | Possible fix |
+| ----------- | ----------- |
+| One or more PATCH [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#operationObject) in your API schema doesn't contain a [request body object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#requestBodyObject). | A request body object contains a brief description of the response body and information about what a valid response body should look like. Add a request body object to any POST operation operation objects. |
+
+### Have request body examples <!-- TODO: only 3.0 -->
+
+| Issue description | Possible fix |
+| ----------- | ----------- |
+| One or more [request body objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#requestBodyObject) in your API schema doesn't contain at least one example. | An example shows your users what is expected when a request body is submitted as part of an API request. Add one or more examples to any body request objects. |
+
+### Have responses examples <!-- TODO: only 3.0 -->
+
+| Issue description | Possible fix |
+| ----------- | ----------- |
+| One or more [response objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#responseObject) in your API schema doesn't contain an example. | An example shows your users the kind of response they can expect from the API. Add an example to any response objects. |
+
+### Response DELETE `204` No Body
+
+| Issue description | Possible fix |
+| ----------- | ----------- |
+| One or more DELETE [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#operationObject) in your API schema contains a response body. | Make sure that DELETE methods do not have a response body. |
+
+### Response DELETE `204` status code
+
+| Issue description | Possible fix |
+| ----------- | ----------- |
+| The [responses object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#responses-object) for one or more DELETE [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#operationObject) in your API schema doesn't contain the `204` status code. | Make sure that DELETE methods all have a `204` status code response. |
+
+### Response DELETE `500` status code
+
+| Issue description | Possible fix |
+| ----------- | ----------- |
+| The [responses object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#responses-object) for one or more DELETE [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#operationObject) in your API schema doesn't contain the `500` status code. | Make sure that DELETE methods all have a `500` status code response. |
+
+### Response GET `200` status code
+
+| Issue description | Possible fix |
+| ----------- | ----------- |
+| The [responses object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#responses-object) for one or more GET [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#operationObject) in your API schema doesn't contain the `200` status code. | Make sure that GET methods all have a `200` status code response. |
+
+### Response GET `500` status code
+
+| Issue description | Possible fix |
+| ----------- | ----------- |
+| The [responses object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#responses-object) for one or more GET [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#operationObject) in your API schema doesn't contain the `500` status code. | Make sure that GET methods all have a `500` status code response. |
+
+### Response PATCH `200` status code
+
+| Issue description | Possible fix |
+| ----------- | ----------- |
+| The [responses object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#responses-object) for one or more PATCH [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#operationObject) in your API schema doesn't contain the `200` status code. | Make sure that PATCH methods all have a `200` status code response. |
+
+### Response PATCH `500` status code
+
+| Issue description | Possible fix |
+| ----------- | ----------- |
+| The [responses object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#responses-object) for one or more PATCH [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#operationObject) in your API schema doesn't contain the `500` status code. | Make sure that PATCH methods all have a `500` status code response. |
+
+### Response POST `201` status code
+
+| Issue description | Possible fix |
+| ----------- | ----------- |
+| The [responses object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#responses-object) for one or more POST [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#operationObject) in your API schema doesn't contain the `201` status code. | Make sure that POST methods all have a `201` status code response. |
+
+### Response POST `500` status code
+
+| Issue description | Possible fix |
+| ----------- | ----------- |
+| The [responses object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#responses-object) for one or more POST [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#operationObject) in your API schema doesn't contain the `500` status code. | Make sure that POST methods all have a `500` status code response. |
+
+### Response PUT `200` status code
+
+| Issue description | Possible fix |
+| ----------- | ----------- |
+| The [responses object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#responses-object) for one or more PUT [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#operationObject) in your API schema doesn't contain the `200` status code. | Make sure that PUT methods all have a `200` status code response. |
+
+### Response PUT `500` status code
+
+| Issue description | Possible fix |
+| ----------- | ----------- |
+| The [responses object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#responses-object) for one or more PUT [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#operationObject) in your API schema doesn't contain the `500` status code. | Make sure that PUT methods all have a `500` status code response. |
 
 ## Models <!-- TODO: reword -->
