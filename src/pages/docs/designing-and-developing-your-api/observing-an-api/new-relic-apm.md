@@ -36,7 +36,7 @@ With this integration, you can link a version of your API in Postman to multiple
 
 ## Connecting to New Relic APM
 
-Before you begin, you must set up APM services for each deployment of your API. See [the New Relic APM documentation](https://docs.newrelic.com/docs/apm/) for more details.
+Before you begin, you must set up APM services for each deployment of your API. See the [New Relic APM documentation](https://docs.newrelic.com/docs/apm/) for more details.
 
 To connect an API to New Relic APM:
 
