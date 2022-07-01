@@ -23,7 +23,7 @@ Postman generates reports that enable you to visualize data for how your team us
 
 Access your reports in your [Postman reports dashboard](https://go.postman.co/reports/summary).
 
-[![reports summary](https://assets.postman.com/postman-docs/reports-overview.jpg)](https://assets.postman.com/postman-docs/reports-overview.jpg)
+<img alt="The Postman reports dashboard" src="https://assets.postman.com/postman-docs/dashboard-reports-overview.jpg" width="1200px"/>
 
 * [Getting started with reports](#getting-started-with-reports)
     * [Report availability](#report-availability)
@@ -37,7 +37,7 @@ Reports give information about activity in Postman, including [sharing your API]
 
 To view your reports dashboard:
 
-* Select **Reports** in the Postman header.
+* Select **Home** in the Postman header, then select **Reports** from the team information section on the left.
 
 To access a specific API's report:
 

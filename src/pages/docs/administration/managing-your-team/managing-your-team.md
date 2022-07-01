@@ -46,7 +46,7 @@ Postman provides a variety of options to customize your team's experience, from 
 Once you've created your Postman team, you can take the following steps to enable an efficient onboarding process for end users:
 
 * Use the [Onboarding checklist](/docs/administration/onboarding-checklist/) to ensure that both the Postman Desktop App and Postman for Web are accessible on employee devices and function as expected.
-* [Enable team discovery](/docs/collaborating-in-postman/collaboration-intro/#enabling-team-discovery) to allow fellow Postman users from your organization to request to join your team.
+* [Enable team discovery](/docs/collaborating-in-postman/working-with-your-team/enabling-team-discovery/) to allow fellow Postman users from your organization to request to join your team.
 * [Configure SSO](/docs/administration/sso/admin-sso/) ([Professional and Enterprise plans only](https://www.postman.com/pricing)).
 * [Configure SCIM provisioning](/docs/administration/scim-provisioning/scim-provisioning-overview/) ([Enterprise plans only](https://www.postman.com/pricing)).
 
@@ -64,7 +64,7 @@ Or, you can invite a user to join your team with a link. To do so, select **Get 
 
 Only Team Admins and [Super Admins](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can send invitations. However, any team member can submit requests to invite collaborators to your team. You can review these requests in your [team dashboard](https://go.postman.co/settings/team/members) and opt to approve or dismiss them. If you approve the request, Postman will send an invitation to the individual.
 
-You can also allow Postman users from your company to request to join your team by [enabling team discovery](/docs/collaborating-in-postman/collaboration-intro/#making-your-team-discoverable).
+You can also allow Postman users from your company to request to join your team by [enabling team discovery](/docs/collaborating-in-postman/working-with-your-team/enabling-team-discovery/#enabling-team-discovery).
 
 > [Postman Enterprise](https://www.postman.com/pricing) teams can enable [SCIM provisioning](/docs/administration/scim-provisioning/scim-provisioning-overview/), which enables you to create, update, and deactivate user accounts at scale through your identity provider.
 

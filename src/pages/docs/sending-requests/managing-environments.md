@@ -35,7 +35,7 @@ contextual_links:
     name: "Next Steps"
   - type: link
     name: "Collaborating with your team"
-    url: "/docs/collaborating-in-postman/collaboration-intro/"
+    url: "/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/"
   - type: link
     name: "Version control for collections"
     url:  "/docs/collaborating-in-postman/version-control-for-collections/"
@@ -215,7 +215,7 @@ Select the workspace, then **Move**  **Environment**.
 
 <img alt="Move environment" src="https://assets.postman.com/postman-docs/move-environment-v9.1.jpg" width="400px"/>
 
-Note that monitors, mock servers, and integrations in the original workspace that are using the environment may no longer work and will need to be re-configured in the new workspace. Collections and APIs that use the environment must be [moved separately](/docs/collaborating-in-postman/sharing/#moving-postman-entities-to-collaborative-workspaces).
+Note that monitors, mock servers, and integrations in the original workspace that are using the environment may no longer work and will need to be re-configured in the new workspace. Collections and APIs that use the environment must be [moved separately](/docs/collaborating-in-postman/working-with-your-team/collaborating-in-team-workspaces/#moving-elements-to-team-workspaces).
 
 You can manage roles on an environment by navigating to it in the sidebar, selecting it, then selecting the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> > **Manage Roles**.
 
@@ -255,7 +255,7 @@ If you have edit access to an environment, you can update the variable values fr
 
 When you edit the initial value of a shared environment variable, your updated value will be reflected for everyone who has access to the environment, so ensure that you only do this when you are happy for your value to be synced with the Postman servers.
 
-> If you clear the checkbox for a variable in your environment, it will only be available to collaborators who also have Editor access to the environment. The variable's listing will also indicate whether it is active. Anyone with the Viewer role for the environment won't be able to access the cleared variable. </br></br> ![Turn off environment variable](https://assets.postman.com/postman-docs/environment-editor-unchecked-var-v9.13.jpg)
+> If you clear the checkbox for a variable in your environment, it will only be available to collaborators who also have Editor access to the environment. The variable's listing will also indicate whether it's active. Anyone with the Viewer role for the environment won't be able to access the cleared variable. </br></br> ![Turn off environment variable](https://assets.postman.com/postman-docs/environment-editor-unchecked-var-v9.13.jpg)
 
 With the Editor role, you can [configure access for other team members](#managing-environment-roles). If you need to specify access but don't have the Editor role, you can [request access](#requesting-environment-access).
 
@@ -284,7 +284,7 @@ If you have [Editor access](/docs/collaborating-in-postman/roles-and-permissions
 
 Shared environments allow you to leverage collaboration within Postman. Check out some more resources on how you can work with team members on your API development projects:
 
-* [Collaborating in Postman](/docs/collaborating-in-postman/collaboration-intro/)
+* [Collaborating in Postman](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/)
 * [Intro to workspaces](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/)
 * [Managing and sharing APIs](/docs/designing-and-developing-your-api/managing-apis/)
 * [Version control for collections](/docs/collaborating-in-postman/version-control-for-collections/)
