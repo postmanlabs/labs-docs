@@ -40,7 +40,6 @@ Signing up for a Postman account is optional, and you can use the Postman deskto
 * [Updating your notification preferences](#updating-your-notification-preferences)
 * [Managing your active sessions](#managing-your-active-sessions)
 * [Upgrading your account](#upgrading-your-account)
-* [Leaving a team](#leaving-a-team)
 * [Account security policies and standards](#account-security-policies-and-standards)
 
 ## Signing up for a Postman account
@@ -63,7 +62,9 @@ Your new Postman profile will be visible to collaborators and anyone viewing res
 During the sign up process, you have the option to create or join a [team](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/):
 
 * **Joining a team** - If you sign up with your company email and your company has a Postman account with team discovery enabled, there will be a list of [teams you can join](/docs/collaborating-in-postman/working-with-your-team/enabling-team-discovery/#finding-teams-within-your-organization).
-* **Creating a team** - To create a team and optionally invite collaborators, select __Create new team__. Enter your team name and URL, then select __Continue__.
+* **Creating a team** - To create a team and optionally invite collaborators, select __Collaborate with people in new team__. Enter your team name and URL, then select __Continue__.
+
+> To learn more about joining and creating teams, see [Collaboration overview](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/).
 
 ## Signing into Postman
 
@@ -162,22 +163,6 @@ If you have a free account, you can upgrade it by navigating to [Postman](https:
 If you have a paid account, you can upgrade your Postman plan by navigating to your [billing dashboard](https://go.postman.co/billing/overview/) and selecting **Edit Plan** on the right. To learn more about upgrading and managing your Postman plan, see the [Billing](/docs/administration/billing/#changing-your-plan) guide.
 
 > The cost of your upgraded plan or additional seats will be prorated based on the time left in your team's current billing cycle. For more information, [contact Postman's sales team](mailto:sales@postman.com).
-
-## Leaving a team
-
-You can leave a Postman team by selecting your avatar in the top right, then **Settings**. Select **Teams** on the left.
-
-<img src="https://assets.postman.com/postman-docs/dashboard-teams-leave-team-v9.2.jpg" alt="Leave team"/>
-
-Select **Leave Team** to the right of a team to leave it. If you're a member of an Enterprise team that has [SCIM configured](/docs/administration/scim-provisioning/scim-provisioning-overview/), you must contact a Team Admin to remove you from the team.
-
-When you leave a team, you no longer have access to the team's workspaces, including personal workspaces, or any of the elements in them. You must reassign your personal workspaces to a remaining team member before leaving.
-
-<img src="https://assets.postman.com/postman-docs/dashboard-teams-leave-team-confirm-v9.2.jpg" alt="Leave and delete team" width="400px"/>
-
-If you're the last member to leave a team, the team will be deleted. You will no longer have access to the team's workspaces, including personal workspaces, or any elements in them.
-
-> Learn how to [export your Postman data](/docs/getting-started/importing-and-exporting-data/#exporting-postman-data).
 
 ## Account security policies and standards
 
