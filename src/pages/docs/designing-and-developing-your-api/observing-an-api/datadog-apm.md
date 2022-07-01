@@ -49,7 +49,7 @@ If you linked dashboards when connecting to Datadog, you can view them by select
 
 <img alt="Viewing Datadog APM metrics" src="https://assets.postman.com/postman-docs/datadog-apm-view-metrics-v9-19.jpg">
 
-Select the name of a Datadog service to view APM graphs for that service. The graphs display metrics for latency, throughput, apdex, and error rate. Hover over a data point on a graph to view more details. Below the graphs is a table that lists triggered Datadog monitors, which you can select to view in Datadog.
+Select the name of a Datadog service to view APM graphs for that service. The graphs display metrics for latency, throughput, apdex, and error rate. Hover over a data point on a graph to view more details. The table below the graphs lists triggered Datadog monitors, which you can select to view in Datadog.
 
 <img alt="Viewing Datadog APM graphs" src="https://assets.postman.com/postman-docs/datadog-apm-view-graphs-v9-19.jpg">
 
