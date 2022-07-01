@@ -59,4 +59,4 @@ From here you can take the following actions:
 * To view the service in Datadog, select **View on Datadog**.
 * To view metrics for a different time range, select the time range in the dropown list.
 * To view the latest metrics, select <img alt="Refresh icon" src="https://assets.postman.com/postman-docs/icon-refresh-v9-5.jpg#icon" width="14px"> **Refresh**.
-* To edit or delete the integration, select the <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> **More actions** icon.
+* To edit or delete the integration, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px">.
