@@ -31,13 +31,13 @@ contextual_links:
 
 * [Alerts on Opsgenie](#alerts-on-opsgenie)
 
-[Opsgenie](https://www.atlassian.com/software/opsgenie) is an incident management and alerting tool that allows you to effectively manage alerts across the infrastructure. It has several communication features such as SMS, phone calls, and iOS & Android push notifications, and collaboration features such as escalations and schedules.
+[Opsgenie](https://www.atlassian.com/software/opsgenie) is an incident management and alerting tool that lets you effectively manage alerts across the infrastructure. It has several communication features such as SMS, phone calls, and iOS & Android push notifications, and collaboration features such as escalations and schedules.
 
 This integration with Opsgenie triggers an alert in Opsgenie whenever there is an alert in Postman Monitor. The alert will then automatically close after the first successful run.
 
-This integration allows you to configure [Postman Monitors](/docs/monitoring-your-api/intro-monitors/) to trigger alerts on Opsgenie whenever your monitor fails.
+This integration lets you configure [Postman Monitors](/docs/monitoring-your-api/intro-monitors/) to trigger alerts on Opsgenie whenever your monitor fails.
 
-## Get the Opsgenie API Key
+## Get the Opsgenie API key
 
 Sign in to your Opsgenie account and go to the **Teams** tab and select the team you will add an integration to.
 
@@ -94,9 +94,9 @@ An alert on Opsgenie consists of the following information below:
 * Number of errors
 * Response time
 
-It will also provide a direct link to the failing monitor.
+It will also offer a direct link to the failing monitor.
 
-This integration automatically closes a triggered alert if a subsequent run succeeds. All failures from the same monitor are grouped under the a single Opsgenie alert.
+This integration automatically closes a triggered alert if a later run succeeds. This integration also groups failures from the same monitor under a single Opsgenie alert.
 
 When there is an alert on Postman, you will also receive one on your Opsgenie console.
 
