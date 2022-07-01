@@ -64,7 +64,7 @@ If you linked dashboards when connecting to New Relic, you can view them by sele
 
 <img alt="Viewing Datadog APM metrics" src="https://assets.postman.com/postman-docs/new-relic-apm-view-metrics-v9-22.jpg">
 
-Select the name of a New Relic service to view APM graphs for that service. The graphs display metrics for web transaction time, throughput, error rate, and apdex score. Hover over a data point on a graph to view more details. Below the graphs are tables that list violation events, slowest transactions by time, and deployments.
+Select the name of a New Relic service to view APM graphs for that service. The graphs display metrics for web transaction time, throughput, error rate, and apdex score. Hover over a data point on a graph to view more details. The tables below the graphs list violation events, slowest transactions by time, and deployments.
 
 <img alt="Viewing New Relic APM graphs" src="https://assets.postman.com/postman-docs/new-relic-apm-view-graphs-v9-22.jpg">
 
