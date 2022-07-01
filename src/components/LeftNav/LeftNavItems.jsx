@@ -825,8 +825,8 @@ export const leftNavItems = [
         url: '/docs/integrations/webhooks/',
       },
       {
-        name: 'Connected Accounts',
-        url: '/docs/integrations/connected-accounts/'
+        name: 'Connected Apps',
+        url: '/docs/integrations/connected-apps/'
       },
       {
         name: 'CI Integrations',
