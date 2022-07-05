@@ -114,4 +114,4 @@ An admin must remove users from their Postman team to prevent access to shared r
 
 To learn more about the end user experience, see [Logging in to an SSO team](/docs/administration/sso/user-sso/).
 
-If your team is on a Postman Enterprise plan, check out the [SCIM provisioning overview](/docs/administration/scim-provisioning/scim-provisioning-overview/).
+If your team is on a Postman Enterprise plan, check out [SCIM provisioning](/docs/administration/scim-provisioning/scim-provisioning-overview/).
