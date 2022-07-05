@@ -20,7 +20,7 @@ contextual_links:
 warning: false
 ---
 
-[Collection-based monitors](/docs/monitoring-your-api/setting-up-monitor/) continuously track the health and performance of your APIs. With Postman, you can stay up to date on what's happening across all collection-based monitors in your workspace, or dive into individual monitors to examine test results and performance over time.
+[Collection-based monitors](/docs/monitoring-your-api/setting-up-monitor/) continuously track the health and performance of your APIs. With Postman, you can stay up to date on what's happening across all collection-based monitors in your workspace. Or you can dive into individual monitors to examine test results and performance over time.
 
 ## Contents
 
@@ -66,7 +66,7 @@ You can view your collection-based monitors in Postman by navigating to your wor
 
 You can use the **Monitor Summary** to understand how your APIs have performed over time. Each monitor run is represented by a bar in the graph.
 
-The upper section charts your monitor's average response time for each run, while the lower section visualizes the number of failed tests for each run across all regions. To view the exact response time and failed percent, you can hover over each run individually.
+The upper section charts your monitor's average response time for each run, while the lower section visualizes the number of failed tests for each run across all regions. To view the exact values for failed percentage and response time, hover over each run individually.
 
 ![Monitor summary](https://assets.postman.com/postman-docs/monitor-summary-with-hover.jpg)
 
@@ -102,7 +102,7 @@ Each run is labeled based on its result:
 
 * **Successful** - Your monitor completed the run with no issues and passed all tests.
 * **Failure** - Your monitor completed the run, however one or more tests failed.
-* **Error** - Your monitor was unable to complete its run due to an error. An error can occur if there is a syntax error in the code you've written, a network error, or for various other reasons. If you encounter one, your [Console Log](#console-log) will help you identify what caused it.
+* **Error** - Your monitor was unable to complete its run due to an error. An error can occur if there is a syntax error in the code you've written, a network error, or for various other reasons. If you get an error, your [Console Log](#console-log) will help you identify what caused it.
 * **Abort** - Your monitor didn't complete its run within the allotted 10 minutes (Postman Free plans) or 15 minutes (Postman Basic, Professional, and Enterprise plans) and timed out.
 
 You can filter by run result to compare how your runs with the same result have differed. Select **Run result: All**, then select one or more types of run results to view.
@@ -111,7 +111,7 @@ You can filter by run result to compare how your runs with the same result have 
 
 You can filter by [region](/docs/monitoring-your-api/setting-up-monitor/#adding-regions) to compare how runs within different regions have varied. Select **All Regions**, then select a region to view.
 
-> This feature is only available if you selected multiple regions when you created or last edited your monitor. To learn more about regions, see [Adding regions](/docs/monitoring-your-api/setting-up-monitor/#adding-regions).
+> This feature is available if you selected multiple regions when you created or last edited your monitor. To learn more about regions, see [Adding regions](/docs/monitoring-your-api/setting-up-monitor/#adding-regions).
 
 #### Filtering by formula
 
