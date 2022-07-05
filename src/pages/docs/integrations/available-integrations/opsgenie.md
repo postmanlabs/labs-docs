@@ -23,6 +23,10 @@ contextual_links:
 
 ---
 
+[Opsgenie](https://www.atlassian.com/software/opsgenie) is an incident management and alerting tool that lets you manage alerts. It has several communication features such as SMS, phone calls, and iOS & Android push notifications, and collaboration features such as escalations and schedules.
+
+The Postman to Opsgenie integration lets you configure [Postman Monitors](/docs/monitoring-your-api/intro-monitors/) to trigger alerts on Opsgenie whenever your monitor fails. Alerts automatically close after a successful run.
+
 ## Contents
 
 * [Get the Opsgenie API Key](#get-the-opsgenie-api-key)
@@ -31,31 +35,19 @@ contextual_links:
 
 * [Alerts on Opsgenie](#alerts-on-opsgenie)
 
-[Opsgenie](https://www.atlassian.com/software/opsgenie) is an incident management and alerting tool that lets you effectively manage alerts across the infrastructure. It has several communication features such as SMS, phone calls, and iOS & Android push notifications, and collaboration features such as escalations and schedules.
-
-This integration with Opsgenie triggers an alert in Opsgenie whenever there is an alert in Postman Monitor. The alert will then automatically close after the first successful run.
-
-This integration lets you configure [Postman Monitors](/docs/monitoring-your-api/intro-monitors/) to trigger alerts on Opsgenie whenever your monitor fails.
-
 ## Get the Opsgenie API key
 
-Sign in to your Opsgenie account and go to the **Teams** tab and select the team you will add an integration to.
+To integrate with Opsgenie, get your Opsgenie API key:
 
-![sign in to Opsgenie](https://assets.postman.com/postman-docs/opsgenie-teams-select-bb.jpg)
+1. Sign in to your Opsgenie account.
+1. Select the **Teams** tab.
+1. Select the team that will own the integration and receive alert notifications.
+1. Select **Integrations** > **Add integration**.
+1. From the list of integrations, select the [**API integration**](https://support.atlassian.com/opsgenie/docs/what-is-a-default-api-integration/) option.
+1. On the configuration page, fill in your information and select **Save Integration**.
+1. Copy your API Key and save it for later.
 
-From the left nav, select **Integrations** > **Add integration**.
-
-![Add Opsgenie integration](https://assets.postman.com/postman-docs/opsgenie-teams-add-integration-bb.jpg)
-
-From the list of integrations, select the [**API integration**](https://support.atlassian.com/opsgenie/docs/what-is-a-default-api-integration/) option.
-
-![select API integration option](https://assets.postman.com/postman-docs/opsgenie-search-select-api.jpg)
-
-On the configuration page, fill in your information and select **Save Integration**.
-
-Copy your API Key and save it for later.
-
-![Save Opsgenie API key](https://assets.postman.com/postman-docs/opsgenie-save-integration.jpg)
+For more information, refer [Create an API integration](https://support.atlassian.com/opsgenie/docs/create-a-default-api-integration/) in the Opsgenie documentation.
 
 ## Configuring Postman integration
 
