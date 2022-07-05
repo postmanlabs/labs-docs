@@ -2,7 +2,7 @@
 title: "Viewing collection-based monitor results"
 order: 90
 page_id: "viewing_monitor_results"
-updated: 2022-2-14
+updated: 2022-07-05
 contextual_links:
   - type: section
     name: "Additional Resources"
@@ -103,7 +103,7 @@ Each run is labeled based on its result:
 * **Successful** - Your monitor completed the run with no issues and passed all tests.
 * **Failure** - Your monitor completed the run, however one or more tests failed.
 * **Error** - Your monitor was unable to complete its run due to an error. An error can occur if there is a syntax error in the code you've written, a network error, or for various other reasons. If you get an error, your [Console Log](#console-log) will help you identify what caused it.
-* **Abort** - Your monitor didn't complete its run within the allotted 10 minutes (Postman Free plans) or 15 minutes (Postman Basic, Professional, and Enterprise plans) and timed out.
+* **Abort** - Your monitor timed out because it didn't complete its run within the allotted 10 minutes (Postman Free plans) or 15 minutes (Postman Basic, Professional, and Enterprise plans).
 
 You can filter by run result to compare how your runs with the same result have differed. Select **Run result: All**, then select one or more types of run results to view.
 
