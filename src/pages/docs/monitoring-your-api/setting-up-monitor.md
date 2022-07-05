@@ -105,15 +105,15 @@ To run a monitor again after a failure or error, select the **Retry if run fails
 
 ### Adding request timeouts
 
-You can choose to **Set request timeout** if you'd like to make sure all of your requests run within a certain amount of time. By default, requests do not have a timeout value, however each monitor run has a timeout of 10 minutes. It's not possible to configure this at the request level.
+You can choose to **Set request timeout** if you'd like to make sure all of your requests run within a certain amount of time. By default, each monitor run has a timeout of 10 minutes (Postman Free plans) or 15 minutes (Postman Basic, Professional, and Enterprise plans). These timeout values apply to the entire monitor run, including all HTTP requests, responses, pre-request scripts, and test scripts.
 
-> Request timeout can't exceed 10 minutes (600000 ms).
+> For Postman Free plans, monitor timeout can't exceed 10 minutes (600000 ms). For Postman Basic, Professional, and Enterprise plans, monitor timeout can't exceed 15 minutes (900000 ms)
 
 ### Adding delays between requests
 
 Enabling the **Set delay between requests** will insert a delay between all requests in your collection. To configure the delay for individual requests, you can add a delay in your [pre-request or test scripts](/docs/writing-scripts/intro-to-scripts/) using `setTimeout()`.
 
-> The delay between requests can't exceed 10 minutes (600000 ms), but note that 10 minutes is also the maximum runtime for a monitor.
+> For Postman Free plans, the delay between requests can't exceed 10 minutes (600000 ms). For Postman Basic, Professional, and Enterprise plans, the delay between requests can't exceed 15 minutes (900000 ms). Note that these values are the same as the maximum allowed runtime for a monitor.
 
 ### Managing redirect behavior
 
