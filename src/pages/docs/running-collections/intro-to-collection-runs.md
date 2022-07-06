@@ -1,8 +1,6 @@
 ---
 title: "Using the Collection Runner"
-order: 55
-updated: 2022-04-20
-page_id: "intro_to_collection_runs"
+updated: 2022-07-05
 search_keyword: "postman.setNextRequest, setNextRequest"
 contextual_links:
   - type: section
@@ -65,7 +63,7 @@ To configure a collection run:
     * **Run collection without using stored cookies** - If your requests use cookies, you can optionally deactivate them for a collection run.
     * **Save cookies after collection run** - Save the cookies used in this session to the cookie manager. Any values affected by requests during the run will remain after it completes.
 
-    <img alt="Collection Runner configuration settings" src="https://assets.postman.com/postman-docs/collection-runner-configuration-v9.jpg" width="800px"/>
+      <img alt="Collection Runner configuration settings" src="https://assets.postman.com/postman-docs/collection-runner-configuration-v9.jpg" width="800px"/>
 
 1. If you want your collection to run against an environment, select it using the environment selector at the top right of Postman. You can also select __Environments__ in the sidebar, then select the environment you want to use.
 1. By default, your requests run in the sequence they're listed in the collection. If you need to change the order of execution, select a request and drag it to move it to its new order. You can also remove an individual request from the run by clearing the checkbox next to its name.
@@ -97,6 +95,31 @@ If your collection has tests, the **View Results** page indicates whether each r
 ### Viewing iterations
 
 If you set an iteration number for the collection run, you can access the overview for each iteration by selecting one from the list on the right.
+
+## Viewing run history
+
+Each collection has a **Run History** tab, which displays collection runs done by Collection Runner or Newman. It shows test counts along with metrics such as duration and average response times.
+
+![Collection Run History tab](https://assets.postman.com/postman-docs/collection-run-history-tab.jpg)
+
+Above the run display are the controls to select how many collection runs to view, and limit the displayed runs to view only collection runs from Collection Runner or Newman.
+
+The following are displayed for each collection run:
+
+* A select box for each run and a select all box. Select one or more collection runs and select **Delete** to remove them.
+* The start time of the collection run.
+* A warning icon if the run failed.
+* The run source, duration, number of iterations, tests, passed tests, failed tests, skipped tests, and the average response time.
+
+Select any of the items above to sort the table by that item. Select again to change the sort order.
+
+Hover over an item to show the following controls:
+
+* **View details** action - Select to open the **Test Results** tab for the collection run, as described in [viewing test results](#viewing-test-results).
+* **Share** action - Select to share the results with another team member. This provides a link you can give to other team members so they can view details of this run. Note that this does not work in personal workspaces.
+
+For more information on how to add Newman collection runs to Postman, see [Sending Newman run data to Postman](/docs/running-collections/using-newman-cli/installing-running-newman/#sending-newman-run-data-to-postman).
+
 
 ## Sharing collection runs
 
