@@ -136,7 +136,7 @@ Postman shows earlier collection runs in the **Run History** tab of a collection
 
 To ingest Newman runs into Postman:
 
-1. Make sure you have Newman version 5.3.2 or greater and a NodeJS version 14 or greater. You can verify this with `newman -v` and `node -v`.
+1. Make sure you have Newman version 5.3.2 or greater and Node.js version 14 or greater. You can verify this with `newman -v` and `node -v`.
 1. Get a Postman API Key. For more details, see [Generating a Postman API key](/docs/developer/intro-api/#generating-a-postman-api-key).
 1. Select <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px"> on the Workspace overview page and copy your Workspace ID.
 1. Select <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px"> on the Collection overview page and copy the Collection's ID.
