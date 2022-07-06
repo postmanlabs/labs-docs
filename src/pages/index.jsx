@@ -17,6 +17,14 @@ const heroBackground = {
 };
 
 class IndexPage extends React.Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      sortedUpcomingEvents: upcomingEvents,
+    };
+  }
+
   componentDidMount() {
     const pix = document.createElement('script');
     pix.language = 'JavaScript1.1';
@@ -50,7 +58,8 @@ class IndexPage extends React.Component {
       'Nov',
       'Dec',
     ];
-    const sortedUpcomingEvents = upcomingEvents;
+    const { state } = this;
+    const { sortedUpcomingEvents } = state;
 
     return (
       <Layout>
