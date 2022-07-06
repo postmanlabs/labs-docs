@@ -60,7 +60,7 @@ For more information, refer to [Create an API integration](https://support.atlas
 
 1. On the **[Add integration - Configure](https://postman.postman.co/integrations/service/opsgenie/add/monitor_run_opsgenie)** page, configure your integration:
     * Give the integration a nickname.
-    * Select your monitor's workspace.
+    * Select the workspace your monitor belongs to.
     * Select your monitor.
     * Add tags to your Opsgenie alert.
     * Assign a priority to your Opsgenie alert.
