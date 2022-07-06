@@ -1,9 +1,6 @@
 ---
 title: "Opsgenie"
-order: 176
-updated: 2021-03-10
-page_id: "Opsgenie"
-warning: false
+updated: 2022-07-06
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -61,13 +58,13 @@ For more information, refer to [Create an API integration](https://support.atlas
 
 1. On the **[Add integration - Authenticate](https://postman.postman.co/integrations/service/opsgenie/add/monitor_run_opsgenie)** page, enter the Opsgenie API key you saved from your Opsgenie console. Select the [**Opsgenie site region** for your Opsgenie account](https://support.atlassian.com/opsgenie/docs/opsgenie-data-residency/).
 
-1. On the **[Add integration - Configure](https://postman.postman.co/integrations/service/opsgenie/add/monitor_run_opsgenie)** page, configure your integration: 
+1. On the **[Add integration - Configure](https://postman.postman.co/integrations/service/opsgenie/add/monitor_run_opsgenie)** page, configure your integration:
     * Give the integration a nickname.
     * Select your monitor's workspace.
     * Select your monitor.
     * Add tags to your Opsgenie alert.
-    * Assign a priority to your Opsgenie alert. 
-    
+    * Assign a priority to your Opsgenie alert.
+
 1. Select **Add Integration**.
 
     <img src="https://assets.postman.com/postman-docs/opsgenie-save-configuration-b.jpg" alt="Save opsgenie configuration" width="500px"/>
