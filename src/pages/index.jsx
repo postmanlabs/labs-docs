@@ -41,6 +41,23 @@ class IndexPage extends React.Component {
       polyfill.async = true;
       document.body.appendChild(polyfill);
     }
+
+    try {
+      window.pm.bff(
+        'events',
+        (d) => {
+          if (d) {
+            const data = JSON.parse(d);
+
+            this.setState({
+              sortedUpcomingEvents: data
+            });
+          }
+        }
+      );
+    } catch (err) {
+      window.pm.log(err);
+    }
   }
 
   render() {
