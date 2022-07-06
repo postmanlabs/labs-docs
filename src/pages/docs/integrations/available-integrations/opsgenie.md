@@ -93,5 +93,3 @@ This integration automatically closes a triggered alert if a later run succeeds.
 When you receive an alert on Postman, you also receive one on your Opsgenie console.
 
 Select the alert in Opsgenie for more information.
-
-![View Opsgenie alert details](https://assets.postman.com/postman-docs/opsgenie-alerts-details.jpg)
