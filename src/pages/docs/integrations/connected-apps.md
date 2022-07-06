@@ -19,32 +19,52 @@ contextual_links:
     url: "https://blog.postman.com/integrations-how-postman-plays-with-some-of-your-favorite-tools/"
 ---
 
-Each time you add a new integration, you need to authenticate with the third-party app or service you want to connect to Postman. _Connected accounts_ streamline this process by enabling all members of a team to use the same stored authentication details when adding an integration.
+Each time you add a new integration, you need to authenticate with the third-party app or service you want to connect to Postman. _Connected accounts_ streamline this process by enabling all members of a team to use the same stored authorization details when adding an integration.
 
-The team admin role is required to set up and manage connected accounts. The admin authenticates with the third-party service, and Postman securely stores the authorization details as a connected account. Any team member can set up a new integration using the connected account, without needing to know or enter the authorization details.
+The Team Admin role is required to set up and manage connected accounts. The Team Admin authenticates with the third-party service, and Postman securely stores the authorization details as a connected account. Any team member can set up a new integration using the connected account, without needing to know or enter the authorization details.
 
 ## Contents
 
 * [Supported integrations](#supported-integrations)
 * [Adding a connected account](#adding-a-connected-account)
 * [Managing connected accounts](#managing-connected-accounts)
-* [Creating integrations using connected accounts](#creating-integrations-using-connected-accounts)
+* [Adding integrations using connected accounts](#adding-integrations-using-connected-accounts)
 
 ## Supported integrations
 
-Connected apps are supported in the following integrations:
+Team Admins can set up connected accounts for the following Postman integrations:
 
-* [Slack](/docs/integrations/available-integrations/slack/) monitor run notifications
+* [Slack](/docs/integrations/available-integrations/slack/) - Post monitoring results
 
 ## Adding a connected account
 
->> procedure to add an app
+You must be a [Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) to add a connected account. You can add an account from the team settings page or when adding a new integration. After you add a connected account, any member of your team can use it add a supported integration.
 
->>two ways: either from the Slack integration page, you select **Add Slack for Team** (what is the flow after that?) or in the **Add integration**, select **Add Slack for your Team**.
+### Adding a connected account from Team Settings
 
->> Added by Admin of team
->> Authenticate Slack bot on Postman
->> Postman stores auth information as connected app
+You can add a new connected account from the [Team Settings](https://app.getpostman.com/dashboard/teams/edit) page.
+
+1. In Postman, select **Team** > **Team Settings**.
+1. Select **Connected accounts**.
+1. Select the third-party app or service you want to add (for example, **Add Slack**).
+1. A browser tab opens asking you to log into the third-party app or service. Follow the onscreen instructions. When you're finished, close the browser tab and return to Postman.
+
+The new connected account appears on the Connected Accounts page in Team Settings.
+
+### Adding a connected account when adding an integration
+
+You can add a new connected account when adding a supported integration.
+
+1. From the Postman **[Home](https://go.postman.co/home)** page, select **[Integrations](https://go.postman.co/integrations)**.
+1. Select **Browse All Integrations**.
+1. Search for and select the app or service you want to connect to (for example, **[Slack](https://go.postman.co/integrations/service/slack)**).
+1. Select **Add Integration** next to the integration you want to add.
+1. Select the checkbox to **Authorize your Postman team** with the application.
+1. Enter any other required information and select **Add Integration**.
+
+The new integration is added, and the authorization details you entered are stored in a new connected account on the [Team Settings](https://app.getpostman.com/dashboard/teams/edit) page.
+
+> For help adding an integration, go to [Available integrations](/docs/integrations/available-integrations/apimatic/) in the Postman Learning Center and select the app you want to integrate with.
 
 ## Managing connected accounts
 
@@ -56,7 +76,7 @@ To view your connected apps, go to **Team > Team Settings > Connected apps**.
 >> delete
 >>      what happens to integrations using the CA when you delete?
 
-## Creating integrations using connected accounts
+## Adding integrations using connected accounts
 
 >> if there already is an added app to this team, there is at the top of the **Add Integration** page a **Connected to...** thing and an option to connect to a different workspace
 
