@@ -132,11 +132,11 @@ newman.run({
 
 ## Sending Newman run data to Postman
 
-Postman shows previous collection runs in the **Run History** tab of a collection. In addition to showing results from Collection Runner, you can also send Newman run data to Postman and also view it in this tab. This is also called _ingesting_ run data.
+Postman shows earlier collection runs in the **Run History** tab of a collection. In addition to showing results from Collection Runner, you can also send Newman run data to Postman and also view it in this tab. This is also called _ingesting_ run data.
 
 To ingest Newman runs to Postman:
 
-1. Ensure you have Newman version 5.3.2 or greater and a NodeJS version 14 or greater. You can verify this with `newman -v` and `node -v`.
+1. Make sure you have Newman version 5.3.2 or greater and a NodeJS version 14 or greater. You can verify this with `newman -v` and `node -v`.
 1. Get a Postman API Key. For more details, see [Generating a Postman API key](/docs/developer/intro-api/#generating-a-postman-api-key).
 1. Select <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px"> on the Workspace overview page and copy your Workspace ID.
 1. Select <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px"> on the Collection overview page and copy the Collection's ID.
