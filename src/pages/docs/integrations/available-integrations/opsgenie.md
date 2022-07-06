@@ -1,9 +1,6 @@
 ---
 title: "Opsgenie"
-order: 176
-updated: 2021-03-10
-page_id: "Opsgenie"
-warning: false
+updated: 2022-07-06
 contextual_links:
   - type: section
     name: "Prerequisites"
