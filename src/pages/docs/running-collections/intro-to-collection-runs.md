@@ -106,12 +106,12 @@ The run display has controls to select how many collection runs to view, and lim
 
 The following are displayed for each collection run:
 
-* A select box for each run and a select all box. Select one or more collection runs and select **Delete** to remove them.
+* A select box for each run and an option to select all runs.
+    * Select one or more collection runs and select **Delete** to remove them.
 * The start time of the collection run.
 * A warning icon if the run failed.
 * The run source, duration, number of iterations, tests, passed tests, failed tests, skipped tests, and the average response time.
-
-Select any of these items to sort the table by that item. Select again to change the sort order.
+    * Select any of these items to sort the table by that item. Select again to change the sort order.
 
 Hover over an item to show the following controls:
 
