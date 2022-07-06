@@ -39,7 +39,7 @@ jobs:
         npm config set //registry.npmjs.org/:_authToken=${{secrets.NPM_TOKEN}}
         npm install
         npm run clean
-        npm run build:dev && node_modules/s3-deploy/bin/s3-deploy './public/**' --cwd './public/' --bucket learning-center-beta-learningcenterbetabucket6ab1-1it2g0ypzbqwu --deleteRemoved --distId $DIST_ID --invalidate '/*'
+        npm run build:dev && node_modules/s3-deploy/bin/s3-deploy './public/**' --cwd './public/' --bucket postman-learning-center-beta --deleteRemoved --distId $DIST_ID --invalidate '/*'
 
     - name: update Algolia with GA Pageviews
       env:
