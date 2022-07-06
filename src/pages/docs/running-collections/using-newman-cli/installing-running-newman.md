@@ -134,7 +134,7 @@ newman.run({
 
 Postman shows earlier collection runs in the **Run History** tab of a collection. In addition to showing results from Collection Runner, you can also send Newman run data to Postman and also view it in this tab. This is also called _ingesting_ run data.
 
-To ingest Newman runs to Postman:
+To ingest Newman runs into Postman:
 
 1. Make sure you have Newman version 5.3.2 or greater and a NodeJS version 14 or greater. You can verify this with `newman -v` and `node -v`.
 1. Get a Postman API Key. For more details, see [Generating a Postman API key](/docs/developer/intro-api/#generating-a-postman-api-key).
