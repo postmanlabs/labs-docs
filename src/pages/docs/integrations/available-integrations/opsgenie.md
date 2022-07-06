@@ -20,7 +20,7 @@ contextual_links:
 
 ---
 
-[Opsgenie](https://www.atlassian.com/software/opsgenie) is an incident management and alerting tool that enables you to manage alerts. It has several communication features such as SMS, phone calls, and iOS & Android push notifications, and collaboration features such as escalations and schedules.
+[Opsgenie](https://www.atlassian.com/software/opsgenie) is an incident management and alerting tool that enables you to manage alerts. It has several communication features such as SMS, phone calls, and mobile push notifications, and collaboration features such as escalations and schedules.
 
 The Postman to Opsgenie integration enables you to configure [Postman Monitors](/docs/monitoring-your-api/intro-monitors/) to trigger alerts on Opsgenie whenever your monitor fails. Alerts automatically close after a successful run.
 
