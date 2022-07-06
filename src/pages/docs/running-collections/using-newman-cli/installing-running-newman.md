@@ -1,6 +1,6 @@
 ---
 title: "Installing and running Newman"
-updated: 2022-05-23
+updated: 2022-07-06
 search_keyword: "newman run"
 contextual_links:
   - type: section
@@ -150,6 +150,6 @@ To ingest Newman runs to Postman:
           "https://api.getpostman.com/collections/<insert-collection-id>?apikey=<insert-key>"
           -r postman-cloud
           --reporter-apiKey "<insert-key>"
-          --reporter-workspaceId  "<insert-workspace-id"
+          --reporter-workspaceId  "<insert-workspace-id>"
 
 After you run the collection, the results will be in the **Run History** tab. For more information, see [viewing run history](/docs/running-collections/intro-to-collection-runs/#viewing-run-history).
