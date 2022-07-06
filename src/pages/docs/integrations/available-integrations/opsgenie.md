@@ -48,7 +48,7 @@ For more information, refer to [Create an API integration](https://support.atlas
 
 ## Configuring Postman integration
 
-1. From the **[Home](https://go.postman.co/home)** page select **[Integrations](https://go.postman.co/integrations)**.
+1. From the **[Home](https://go.postman.co/home)** page, select **[Integrations](https://go.postman.co/integrations)**.
 
     ![home page and integrations](https://assets.postman.com/postman-docs/home-integrations.jpg)
 
