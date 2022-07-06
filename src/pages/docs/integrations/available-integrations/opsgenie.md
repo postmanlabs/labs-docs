@@ -80,9 +80,6 @@ For more information, refer to [Create an API integration](https://support.atlas
 
 An alert on Opsgenie consists of the following information:
 
-* Description of failing tests (failures in your test scripts you have written in Postman)
-* Number of errors (errors occur when Postman is unable to fetch a response from your API)
-
 * Description of failing tests
 * Number of failed tests
 * Number of passed tests
@@ -94,8 +91,6 @@ It will also offer a direct link to the failing monitor.
 This integration automatically closes a triggered alert if a later run succeeds. This integration also groups failures from the same monitor under a single Opsgenie alert.
 
 When you receive an alert on Postman, you also receive one on your Opsgenie console.
-
-![View list of alerts in Opsgenie](https://assets.postman.com/postman-docs/opsgenie-alerts-list-bb.jpg)
 
 Select the alert in Opsgenie for more information.
 
