@@ -120,7 +120,6 @@ Hover over an item to show the following controls:
 
 For more information on how to add Newman collection runs to Postman, see [Sending Newman run data to Postman](/docs/running-collections/using-newman-cli/installing-running-newman/#sending-newman-run-data-to-postman).
 
-
 ## Sharing collection runs
 
 You can share collection run results with others by exporting the results from the Collection Runner.

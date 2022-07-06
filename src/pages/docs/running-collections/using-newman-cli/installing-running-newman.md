@@ -142,14 +142,17 @@ To ingest Newman runs to Postman:
 1. Select <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px"> on the Collection overview page and copy the Collection's ID.
 1. Install the Postman cloud reporter:
 
-       npm install -g newman-reporter-postman-cloud
+    ``` bash
+    npm install -g newman-reporter-postman-cloud
+    ```
 
 1. Run the `newman` command:
 
-        newman run
-          "https://api.getpostman.com/collections/<insert-collection-id>?apikey=<insert-key>"
-          -r postman-cloud
-          --reporter-apiKey "<insert-key>"
-          --reporter-workspaceId  "<insert-workspace-id>"
+    ``` bash
+    newman run "https://api.getpostman.com/collections/<insert-collection-id>?apikey=<insert-key>"
+      -r postman-cloud
+      --reporter-apiKey "<insert-key>"
+      --reporter-workspaceId  "<insert-workspace-id>"
+    ```
 
 After you run the collection, the results will be in the **Run History** tab. For more information, see [viewing run history](/docs/running-collections/intro-to-collection-runs/#viewing-run-history).
