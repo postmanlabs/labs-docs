@@ -23,7 +23,8 @@ function fetchEvents() {
         res.text()
           .then((resp) => {
             if (resp) {
-              const respData = JSON.parse(resp).data || { error: true };
+              const respJson = JSON.parse(resp);
+              const respData = respJson.data || respJson || { error: true };
               if (!respData.error) {
                 fs.writeFile(path.join(
                   'bff-data',
