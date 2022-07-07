@@ -29,6 +29,7 @@ The Team Admin role is required to set up and manage connected accounts. The Tea
 * [Adding a connected account](#adding-a-connected-account)
 * [Managing connected accounts](#managing-connected-accounts)
 * [Adding integrations using connected accounts](#adding-integrations-using-connected-accounts)
+* [Re-authenticating an integration](#re-authenticating-an-integration)
 
 ## Supported integrations
 
@@ -71,31 +72,23 @@ The integration is added, and the new connected account appears on the Connected
 
 You can view all connected account in [Team Settings](https://app.getpostman.com/dashboard/teams/edit).  In Postman, select **Team** > **Team Settings**, and then select **Connected accounts**. You can view the app name, what it's connected to, and who set up the connection.
 
-To delete a connected account, select <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> **Delete Account** next to the connected account.
+To delete a connected account, select <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> **Delete Account** next to the connected account. You must be a [Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) to delete a connected account.
 
-> **Use caution when deleting a connected account.** If you delete a connected account, any integrations created with that connected account will stop working. The affected integrations will need to be deleted and added again using new authorization details.
+> **Use caution when deleting a connected account.** If you delete a connected account, any integrations created with that connected account will stop working. You must [re-authenticate the affected integrations](#re-authenticating-an-integration) for them to continue working.
 
 ## Adding integrations using connected accounts
 
->> if there already is an added app to this team, there is at the top of the **Add Integration** page a **Connected to...** thing and an option to connect to a different workspace
+Any team member can use a connected account when adding a supported integration.
 
-user in team
-choose connected app (and other options)
-postman fetches CA to auth user's integration
+1. From the Postman **[Home](https://go.postman.co/home)** page, select **[Integrations](https://go.postman.co/integrations)**.
+1. Select **Browse All Integrations**.
+1. Search for and select the app or service you want to connect to (for example, **[Slack](https://go.postman.co/integrations/service/slack)**).
+1. Select **Add Integration** next to the integration you want to add.
+1. A message and green checkmark let you know you're authenticated with the app or service by your Team Admin. If you want to authenticate using different credentials, select the link.
+1. Enter any other required information and select **Add Integration**.
 
-notes/trash:
-Connected app/ installed app concept to be surfaced on Team settings page - Anyone in the team can connect/ install the app
-Deletion of the connected / installed app only by the admin
-The row in the connected app shows the list of the integration associated with the app
-Reauth flow stays in the individual create forms to switch the workspace
-Always include the private channel and do a pagination while listing the channel
-If the user does not see the channel in the list, they get a message to add the bot to the. channel and do a reload of the channel list
+> For help adding an integration, go to [Available integrations](/docs/integrations/available-integrations/apimatic/) in the Postman Learning Center and select the app you want to integrate with.
 
+## Re-authenticating an integration
 
-RBAC for connected accounts
-New permission - MANAGE_TEAM_CONNECTED_ACCOUNTS
-Added to Role -  TEAM_ADMIN
-Used by - Connected account create, delete and update APIs
-New permission - VIEW_TEAM_CONNECTED_ACCOUNTS
-Added to Role - TEAM_USER, TEAM_ADMIN, TEAM_BILLING, TEAM_COMMUNITY_MANAGER
-Used by - Connected account GET APIs.
+If your Team Admin deleted a connected account, any integrations you created with that connected account will stop work. You must re-authenticate the affected integrations for them to continue working.
