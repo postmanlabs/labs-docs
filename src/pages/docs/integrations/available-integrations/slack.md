@@ -48,9 +48,9 @@ The Postman to Slack integration enables you to send Postman notifications to a 
 
         ![select Slack integration](https://assets.postman.com/postman-docs/slack-select-integration-v9-19.jpg)
 
-1. After you select the integration type, a browser window asking you to sign in to Slack opens. If you aren't signed in to a Slack workplace, enter your workspace URL and sign in with your email and password or SSO.
+1. After you select the integration type, a browser tab opens asking you to sign in to Slack. If you aren't signed in to a Slack workplace, enter your workspace URL and sign in with your email and password or SSO.
 
-    > This window may be blocked by your pop-up blocker.
+    > If your Team Admin created a [connected account](/docs/integrations/connected-apps/) for Slack, a message and green checkmark let you know you're already authenticated with a Slack workspace. You don't need to sign in or review permissions. If you want to connect to a different Slack workspace, select the link.
 
 1. On the **Permission request** page:
 
@@ -98,17 +98,6 @@ In the Slack column, you can opt in to or out of notifications such as security,
 For the **Post team activity** integration, after allowing Slack permissions, your integration will be configured. Your team's [activity feed](/docs/collaborating-in-postman/using-workspaces/changelog-and-restoring-collections/#accessing-the-activity-feed-from-postman) will send updates to the specified channel, as shown below.
 
 [![configured_slack](https://assets.postman.com/postman-docs/slack-activity-feed.jpg)](https://assets.postman.com/postman-docs/slack-activity-feed.jpg)
-
-<!--
-for connected apps
-a section that talks about getting the ID for a Slack channel
-Brief steps:
-Go to the Slack channel in the app
-Click on the channel name on the top of the screen
-In the about section, you should see the channel ID at the bottom.
-Click the copy icon next to the ID to copy it.
-Note: this doesn’t work for IMs or group IMs.
--->
 
 ## Send uptime monitor notifications to Slack
 
