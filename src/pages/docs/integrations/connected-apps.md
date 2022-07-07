@@ -38,18 +38,18 @@ Team Admins can set up connected accounts for the following Postman integrations
 
 ## Adding a connected account
 
-You must be a [Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) to add a connected account. You can add an account from the team settings page or when adding a new integration. After you add a connected account, any member of your team can use it add a supported integration.
+You must be a [Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) to add a connected account. You can add an account from Team Settings or when adding a new integration. After you add a connected account, any member of your team can use it add a supported integration.
 
 ### Adding a connected account from Team Settings
 
-You can add a new connected account from the [Team Settings](https://app.getpostman.com/dashboard/teams/edit) page.
+You can add a new connected account from [Team Settings](https://app.getpostman.com/dashboard/teams/edit).
 
 1. In Postman, select **Team** > **Team Settings**.
 1. Select **Connected accounts**.
 1. Select the third-party app or service you want to add (for example, **Add Slack**).
-1. A browser tab opens asking you to log into the third-party app or service. Follow the onscreen instructions. When you're finished, close the browser tab and return to Postman.
+1. A browser tab opens asking you to log in to the third-party app or service. Follow the onscreen instructions. When you're finished, close the browser tab and return to Postman.
 
-The new connected account appears on the Connected Accounts page in Team Settings.
+The integration is added, and the new connected account appears on the Connected Accounts page in [Team Settings](https://app.getpostman.com/dashboard/teams/edit).
 
 ### Adding a connected account when adding an integration
 
@@ -59,22 +59,21 @@ You can add a new connected account when adding a supported integration.
 1. Select **Browse All Integrations**.
 1. Search for and select the app or service you want to connect to (for example, **[Slack](https://go.postman.co/integrations/service/slack)**).
 1. Select **Add Integration** next to the integration you want to add.
-1. Select the checkbox to **Authorize your Postman team** with the application.
+1. A browser tab opens asking you to log in to the third-party app or service. Follow the onscreen instructions. When you're finished, close the browser tab and return to Postman.
+1. Select the checkbox to **Authorize your Postman team** with the app you're connecting to.
 1. Enter any other required information and select **Add Integration**.
 
-The new integration is added, and the authorization details you entered are stored in a new connected account on the [Team Settings](https://app.getpostman.com/dashboard/teams/edit) page.
+The integration is added, and the new connected account appears on the Connected Accounts page in [Team Settings](https://app.getpostman.com/dashboard/teams/edit).
 
 > For help adding an integration, go to [Available integrations](/docs/integrations/available-integrations/apimatic/) in the Postman Learning Center and select the app you want to integrate with.
 
 ## Managing connected accounts
 
-To view your connected apps, go to **Team > Team Settings > Connected apps**.
+You can view all connected account in [Team Settings](https://app.getpostman.com/dashboard/teams/edit).  In Postman, select **Team** > **Team Settings**, and then select **Connected accounts**. You can view the app name, what it's connected to, and who set up the connection.
 
->> Service name     Connected to     Setup by
->>  edit
->>      what can you edit?
->> delete
->>      what happens to integrations using the CA when you delete?
+To delete a connected account, select <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> **Delete Account** next to the connected account.
+
+> **Use caution when deleting a connected account.** If you delete a connected account, any integrations created with that connected account will stop working. The affected integrations will need to be deleted and added again using new authorization details.
 
 ## Adding integrations using connected accounts
 
