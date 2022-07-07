@@ -109,6 +109,7 @@ In the about section, you should see the channel ID at the bottom.
 Click the copy icon next to the ID to copy it.
 Note: this doesn’t work for IMs or group IMs.
 -->
+
 ## Send uptime monitor notifications to Slack
 
 1. Enter the following on the **Add integration** window:

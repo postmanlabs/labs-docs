@@ -91,4 +91,11 @@ Any team member can use a connected account when adding a supported integration.
 
 ## Re-authenticating an integration
 
-If your Team Admin deleted a connected account, any integrations you created with that connected account will stop work. You must re-authenticate the affected integrations for them to continue working.
+If your Team Admin deleted a connected account, any integrations you added using the connected account will stop working. You must re-authenticate the affected integrations for them to continue working.
+
+1. From the Postman **[Home](https://go.postman.co/home)** page, select **[Integrations](https://go.postman.co/integrations)**.
+1. Search for and select the type of integration you want to edit. (For example, search for **Slack** and select **Post monitoring results**.)
+1. Select the integration, and then select **Edit Integration**.
+1. A message and red checkmark let you know you're no longer authenticated with the app or service. Select the **Reauthenticate** link.
+1. A browser tab opens asking you to log in to the third-party app or service. Follow the onscreen instructions. When you're finished, close the browser tab and return to Postman.
+1. Select **Save Changes**.
