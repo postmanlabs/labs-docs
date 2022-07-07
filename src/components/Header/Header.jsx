@@ -585,6 +585,14 @@ class Header extends React.Component {
               <li className="nav-item">
                 <Link
                   className="nav-link uber-nav mr-3"
+                  href="/labs/api-client/overview/"
+                >
+                  API Client
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link
+                  className="nav-link uber-nav mr-3"
                   href="/labs/postman-flows/getting-started/flows-overview/"
                 >
                   Flows

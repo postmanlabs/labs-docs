@@ -29,6 +29,11 @@
 
 export const leftNavItems = [
   {
+    name: "Labs Overview",
+    parentSlug: "labs-overview",
+    url: "/labs-overview",
+  },
+  {
     name: "Getting started",
     parentSlug: "getting-started",
     url: "/postman-flows/getting-started/flows-overview/",
