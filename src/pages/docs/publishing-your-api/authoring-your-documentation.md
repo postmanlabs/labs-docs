@@ -1,8 +1,7 @@
 ---
 title: "Authoring your docs"
-order: 102
-page_id: "authoring_your_documentation"
-updated: 2022-06-02
+updated: 2022-07-08
+search_keyword: "images, upload image, uploading images"
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -29,8 +28,6 @@ contextual_links:
   - type: link
     name: "Publishing your docs"
     url: "/docs/publishing-your-api/publishing-your-docs/"
-
-warning: false
 ---
 
 Postman [automatically generates documentation](/docs/publishing-your-api/documenting-your-api/) for every collection you create. The documentation includes all of the requests in your collection, along with examples, authorization details, and example code.
