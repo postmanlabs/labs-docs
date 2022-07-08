@@ -1,9 +1,6 @@
 ---
 title: 'Defining an API Specification'
-order: 81.3
-page_id: 'defining_api_specification'
-updated: 2022-02-17
-warning: false
+updated: 2022-07-08
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -35,9 +32,10 @@ contextual_links:
     url: "/docs/designing-and-developing-your-api/managing-apis/"
 ---
 
-You can define the structure of your API using its specification. You can also generate a collection from a spec.
+You can define the structure of your API using its API specification. This can consist of one or multiple files. You can also generate a collection from an API specification.
 
 * [Editing your schema](#editing-your-schema)
+* [Editing multi-file API definitions](#editing-multi-file-api-definitions)
 * [Generating a collection](#generating-a-collection)
 
 ## Editing your schema
@@ -59,6 +57,61 @@ In the upper right of the schema editor are options to beautify the content, wra
 <img src="https://assets.postman.com/postman-docs/api-builder-definition-options.jpg" alt="API Builder definition options" width="350px">
 
 > Postman will indicate [validation errors](/docs/designing-and-developing-your-api/validating-elements-against-schema/) as you work on your schema.
+
+## Editing multi-file API definitions
+
+<!--TODO:
+Lede change to explain what multi-file means
+Lede mentions specification and spec. Doesn't mention schema or definition.
+First H2 mentions schema
+-->
+
+In addition to creating a single-file API definition, you can also create and import API definitions that span multiple files. Multi-file API definitions are supported in OpenAPI 2 and 3 APIs.
+
+When editing a multi-file schema, there are several terms to be aware of:
+
+* API Definition
+* Folders
+* Files
+* Root file - top level = root file = identified based on content, references (if a file has references to others) limitation = only one root file
+
+UI changes:
+no more definition tab
+definition files and folders are under the version in the left nav
+the old left pane thing with navigation basically shifts to left bar
+
+
+You can import a multi-file API definition. See [importing an API](/docs/designing-and-developing-your-api/importing-an-api/).
+
+import flow is different - shifts to a tab instead of a popup
+shows files in the folder
+you don't select, it just gets everything
+
+this creates one version - if you wanted another, you'd create new version and carr over elements
+
+github/repo import - largely the same, except where you land
+
+ignores non-api stuff in repo - only pulls in api, collection jsons
+
+to convert to multi-file from an imported single file or an old definition (currently broken) there is an action to add a file or a folder, and there is a warning on what doesnt work (like you lose old comments)
+
+There are the following limitations to multi-file API definitions:
+
+* Multi-file definitions are available on the Postman Desktop app v9.14.0 or later and Web app.
+* Existing comments and releases won’t be carried over.
+* Schema-sync integration won’t be supported.
+* Definition can’t be managed using Postman APIs.
+
+
+If you add a yaml, it creates a blank yaml
+
+this is only import flow and the landing screen bit changes, not a brand new
+
+Add file action
+Add folder action
+Rename action
+Delete action
+
 
 ## Generating a collection
 
