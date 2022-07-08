@@ -56,7 +56,9 @@ class IndexPage extends React.Component {
         }
       );
     } catch (err) {
-      window.pm.log(err);
+      if (window.pm && typeof window.pm.log === 'function') {
+        window.pm.log(err);
+      }
     }
   }
 
