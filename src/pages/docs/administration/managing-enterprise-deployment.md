@@ -12,6 +12,9 @@ contextual_links:
   - type: link
     name: "Deploying Postman at Enterprise Scale"
     url: "https://blog.postman.com/deploying-postman-at-enterprise-scale/"
+  - type: link
+    name: "How to Securely Deploy Postman at Scale, Part 2: Information Management"
+    url: "https://blog.postman.com/how-to-securely-deploy-postman-at-scale-part-2-information-management/"
 
 ---
 
