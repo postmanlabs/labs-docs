@@ -1,9 +1,6 @@
 ---
-title: "API schema security warnings"
-order: 116
+title: "API schema issues"
 updated: 2021-09-14
-page_id: "security_warnings"
-warning: false
 contextual_links:
   - type: section
     name: "Additional Resources"
@@ -28,7 +25,7 @@ contextual_links:
 search_keyword: "api security, api schema, security warnings, schema validation, security validation, api security audit, api security scan, api schema vulnerabilities, security audit,openapi 3.0"
 ---
 
-Postman highly recommends that you follow security warnings at the API definition stage of API development. This set of warnings can be used to govern the security posture of any API definition in OpenAPI 3.0 and OpenAPI 2.0 format. A security warning does not mean that your API schema is broken. Instead, it indicates that there are potential security risks to which your API is vulnerable. Postman highlights these security warnings and helps you understand their implications and possible ways to patch the warnings.
+Postman highly recommends that you follow security warnings at the API definition stage of API development. This set of warnings can be used to govern the security posture of any API definition in OpenAPI 3.0 and OpenAPI 2.0 format. A security warning does not mean that your API schema is broken. Instead, it indicates that there are potential security risks to which your API is vulnerable. Postman highlights these security warnings and helps you understand their implications and possible ways to patch the warnings. <!-- TODO: update this content as needed -->
 
 For more information on API Schemas, see [Validating your API Schemas](/docs/designing-and-developing-your-api/validating-elements-against-schema/).
 

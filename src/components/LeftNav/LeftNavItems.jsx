@@ -593,13 +593,13 @@ export const leftNavItems = [
         url: '/docs/api-governance/api-governance-overview/',
       },
       {
-        name: 'API design', <!-- TODO: confirm this heading wording -->
-        subParentSlug: 'api-design', <!-- TODO: does this need to be updated -->
-        slug: '<!-- TODO: URL for overview page -->',
+        name: 'API design',
+        subParentSlug: 'api-design',
+        slug: '/docs/api-governance/api-design/api-schema-issues/',
         subMenuItems2: [
           {
-            name: 'API schema issues', <!-- TODO: confirm this title -->
-            url: '<!-- TODO: URL for overview page -->',
+            name: 'API schema issues',
+            url: '/docs/api-governance/api-design/api-schema-issues/',
           },
           {
             name: 'OpenAPI 3.0 schema issues',

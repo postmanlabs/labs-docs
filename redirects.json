@@ -1841,11 +1841,11 @@
 	},
 	{
 		"from": "/docs/api-security/security-warnings/security-warnings-overview/",
-		"to": "/docs/api-governance/api-design/security-warnings-overview/" <!-- TODO: update this url -->
+		"to": "/docs/api-governance/api-design/api-schema-issues/"
 	},
 	{
 		"from": "/docs/api-security/api-design/",
-		"to": "/docs/api-governance/api-design/security-warnings-overview/" <!-- TODO: update this url -->
+		"to": "/docs/api-governance/api-design/api-schema-issues/"
 	},
 	{
 		"from": "/docs/api-security/token-scanner/",
