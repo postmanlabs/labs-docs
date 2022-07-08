@@ -16,6 +16,9 @@ contextual_links:
   - type: link
     name: "Stay On Top of Your Evolving Collections with Postman’s New Changelog"
     url: "https://blog.postman.com/stay-on-top-of-evolving-collections-postman-new-changelog/"
+  - type: link
+    name: "How We Built Postman’s New Activity Feed System"
+    url: "https://blog.postman.com/how-we-built-postman-activity-feed-system/"
 
 warning: false
 ---
