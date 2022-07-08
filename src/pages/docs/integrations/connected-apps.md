@@ -52,6 +52,8 @@ You can add a new connected account from [Team Settings](https://app.getpostman.
 
 The integration is added, and the new connected account appears on the Connected Accounts page in [Team Settings](https://app.getpostman.com/dashboard/teams/edit).
 
+<img alt="Adding a connected account from Team Settings" src="https://assets.postman.com/postman-docs/connected-accounts-add-from-settings-v9-24.jpg">
+
 ### Adding a connected account when adding an integration
 
 You can add a new connected account when adding a [supported integration](#supported-integrations).
@@ -68,6 +70,8 @@ The integration is added, and the new connected account appears on the Connected
 
 > For help adding an integration, go to [Available integrations](/docs/integrations/available-integrations/apimatic/) in the Postman Learning Center and select the app you want to integrate with.
 
+<img alt="Adding a connected account when adding an integration" src="https://assets.postman.com/postman-docs/connected-accounts-add-from-integration-v9-24.jpg" width="534px">
+
 ## Managing connected accounts
 
 You can view all connected account in [Team Settings](https://app.getpostman.com/dashboard/teams/edit).  In Postman, select **Team** > **Team Settings**, and then select **Connected accounts**. You can view the app name, what it's connected to, and who set up the connection.
@@ -75,6 +79,8 @@ You can view all connected account in [Team Settings](https://app.getpostman.com
 To delete a connected account, select <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> **Delete Account** next to the connected account. You must be a [Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) to delete a connected account.
 
 > **Use caution when deleting a connected account.** If you delete a connected account, any integrations created with that connected account will stop working. You must [re-authenticate the affected integrations](#re-authenticating-an-integration) for them to continue working.
+
+<img alt="Managing connected accounts" src="https://assets.postman.com/postman-docs/connected-accounts-manage-v9-24.jpg">
 
 ## Adding integrations using connected accounts
 
@@ -89,6 +95,8 @@ Any team member can use a connected account when adding a [supported integration
 
 > For help adding an integration, go to [Available integrations](/docs/integrations/available-integrations/apimatic/) in the Postman Learning Center and select the app you want to integrate with.
 
+<img alt="Adding an integration using a connected account" src="https://assets.postman.com/postman-docs/connected-accounts-using-v9-24.jpg" width="534px">
+
 ## Re-authenticating an integration
 
 If your Team Admin deleted a connected account, any integrations you added using the connected account will stop working. You must re-authenticate the affected integrations for them to continue working.
@@ -99,3 +107,5 @@ If your Team Admin deleted a connected account, any integrations you added using
 1. A message and red checkmark let you know you're no longer authenticated with the app or service. Select the **Reauthenticate** link.
 1. A browser tab opens asking you to log in to the third-party app or service. Follow the onscreen instructions. When you're finished, close the browser tab and return to Postman.
 1. Select **Save Changes**.
+
+<img alt="Re-authenticating an integration" src="https://assets.postman.com/postman-docs/connected-accounts-reauthorize-v9-24.jpg" width="534px">
