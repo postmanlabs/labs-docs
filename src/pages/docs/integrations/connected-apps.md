@@ -39,7 +39,7 @@ Team Admins can set up connected accounts for the following Postman integrations
 
 ## Adding a connected account
 
-You must be a [Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) to add a connected account. You can add an account from Team Settings or when adding a new integration. After you add a connected account, any member of your team can use it add a supported integration.
+You must be a [Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) to add a connected account. You can add an account from Team Settings or when adding a new integration. After you add a connected account, any member of your team can use it add a [supported integration](#supported-integrations).
 
 ### Adding a connected account from Team Settings
 
@@ -54,7 +54,7 @@ The integration is added, and the new connected account appears on the Connected
 
 ### Adding a connected account when adding an integration
 
-You can add a new connected account when adding a supported integration.
+You can add a new connected account when adding a [supported integration](#supported-integrations).
 
 1. From the Postman **[Home](https://go.postman.co/home)** page, select **[Integrations](https://go.postman.co/integrations)**.
 1. Select **Browse All Integrations**.
@@ -78,7 +78,7 @@ To delete a connected account, select <img alt="Delete icon" src="https://assets
 
 ## Adding integrations using connected accounts
 
-Any team member can use a connected account when adding a supported integration.
+Any team member can use a connected account when adding a [supported integration](#supported-integrations).
 
 1. From the Postman **[Home](https://go.postman.co/home)** page, select **[Integrations](https://go.postman.co/integrations)**.
 1. Select **Browse All Integrations**.
