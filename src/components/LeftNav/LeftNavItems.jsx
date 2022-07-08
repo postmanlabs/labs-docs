@@ -586,11 +586,11 @@ export const leftNavItems = [
   {
     name: 'API Governance',
     parentSlug: 'api-governance',
-    url: '<!-- TODO: url for overview page -->',
+    url: '/docs/api-governance/api-governance-overview/',
     subMenuItems1: [
       {
-        name: '<!-- TODO: title for overview page -->',
-        url: '<!-- TODO: url for overview page -->',
+        name: 'API governance',
+        url: '/docs/api-governance/api-governance-overview/',
       },
       {
         name: 'API design', <!-- TODO: confirm this heading wording -->
