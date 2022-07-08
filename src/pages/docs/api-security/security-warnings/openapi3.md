@@ -902,19 +902,19 @@ This category of linting rules deals with information about your API. The OpenAP
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| One or more tags in your API schema's [tag object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#tagObject) don't have an accompanying description. | Tag descriptions enable you to provide your users with important context. Add a description for every tag in the tag object. |
+| One or more tags in your API schema's [tags object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#tagObject) don't have an accompanying description. | Tag descriptions enable you to provide your users with important context. Add a description for every tag in the tags object. |
 
 ### Tags object
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| Your API schema doesn't contain a root-level [tag object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#tagObject). | The tag object lists all the tags used in the schema's [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#operationObject), providing users with important context. Add a tag object to your API schema. |
+| Your API schema doesn't contain a root-level [tags object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#tagObject). | The tags object lists all the tags used in the schema's [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#operationObject), providing users with important context. Add a tags object to your API schema. |
 
 ### Tags one
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| Your API schema's [tag object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#tagObject) doesn't contain any tags. | Tags enable you to provide your users with important context. Add at least one tag to your schema's tag object. |
+| Your API schema's [tags object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#tagObject) doesn't contain any tags. | Tags enable you to provide your users with important context. Add at least one tag to your schema's tags object. |
 
 ## Operations
 
