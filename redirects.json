@@ -1833,7 +1833,7 @@
 	},
 	{
 		"from": "/docs/api-security/security-warnings/",
-		"to": "/docs/api-security/security-warnings/security-warnings-overview/"
+		"to": "/docs/api-governance/security-warnings/security-warnings-overview/"
 	},
 	{
 		"from": "/docs/api-security/token-scanner/",
