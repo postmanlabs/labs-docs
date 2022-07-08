@@ -21,10 +21,10 @@ contextual_links:
     name: "Next Steps"
   - type: link
     name: "OpenAPI 3.0 warnings"
-    url: "/docs/api-governance/security-warnings/openapi3/"
+    url: "/docs/api-governance/api-design/openapi3/"
   - type: link
     name: "OpenAPI 2.0 warnings"
-    url: "/docs/api-governance/security-warnings/openapi2/"
+    url: "/docs/api-governance/api-design/openapi2/"
 search_keyword: "api security, api schema, security warnings, schema validation, security validation, api security audit, api security scan, api schema vulnerabilities, security audit,openapi 3.0"
 ---
 
@@ -32,7 +32,7 @@ Postman highly recommends that you follow security warnings at the API definitio
 
 For more information on API Schemas, see [Validating your API Schemas](/docs/designing-and-developing-your-api/validating-elements-against-schema/).
 
-> Security warnings are available for [OpenAPI 3.0](/docs/api-governance/security-warnings/openapi3/) and [OpenAPI 2.0](/docs/api-governance/security-warnings/openapi2/) schemas.
+> Security warnings are available for [OpenAPI 3.0](/docs/api-governance/api-design/openapi3/) and [OpenAPI 2.0](/docs/api-governance/api-design/openapi2/) schemas.
 
 You can use Postman to identify any potential security misses when your API is defined.
 
@@ -42,4 +42,4 @@ Also, for every security warning that Postman supports, you can inspect each war
 
 ## Next steps
 
-For more information on the list of all warnings supported, see [Security warnings for OpenAPI 3.0](/docs/api-governance/security-warnings/openapi3/) and [Security warnings for OpenAPI 2.0](/docs/api-governance/security-warnings/openapi2/).
+For more information on the list of all warnings supported, see [Security warnings for OpenAPI 3.0](/docs/api-governance/api-design/openapi3/) and [Security warnings for OpenAPI 2.0](/docs/api-governance/api-design/openapi2/).

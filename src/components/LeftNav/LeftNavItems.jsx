@@ -594,7 +594,7 @@ export const leftNavItems = [
       },
       {
         name: 'API design', <!-- TODO: confirm this heading wording -->
-        subParentSlug: 'security-warnings', <!-- TODO: does this need to be updated -->
+        subParentSlug: 'api-design', <!-- TODO: does this need to be updated -->
         slug: '<!-- TODO: URL for overview page -->',
         subMenuItems2: [
           {
@@ -603,11 +603,11 @@ export const leftNavItems = [
           },
           {
             name: 'OpenAPI 3.0 schema issues',
-            url: '/docs/api-governance/security-warnings/openapi3/', <!-- TODO: update URL -->
+            url: '/docs/api-governance/api-design/openapi3/', <!-- TODO: update URL -->
           },
           {
             name: 'OpenAPI 2.0 schema issues',
-            url: '/docs/api-governance/security-warnings/openapi2/', <!-- TODO: update URL -->
+            url: '/docs/api-governance/api-design/openapi2/', <!-- TODO: update URL -->
           },
         ],
       },

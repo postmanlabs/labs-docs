@@ -1832,8 +1832,20 @@
 		"to": "/docs/integrations/available-integrations/splunk-on-call/"
 	},
 	{
+		"from": "/docs/api-security/",
+		"to": "/docs/api-governance"
+	},
+	{
 		"from": "/docs/api-security/security-warnings/",
-		"to": "/docs/api-governance/security-warnings/security-warnings-overview/"
+		"to": "/docs/api-governance/api-design/"
+	},
+	{
+		"from": "/docs/api-security/security-warnings/security-warnings-overview/",
+		"to": "/docs/api-governance/api-design/security-warnings-overview/" <!-- TODO: update this url -->
+	},
+	{
+		"from": "/docs/api-security/api-design/",
+		"to": "/docs/api-governance/api-design/security-warnings-overview/" <!-- TODO: update this url -->
 	},
 	{
 		"from": "/docs/api-security/token-scanner/",
