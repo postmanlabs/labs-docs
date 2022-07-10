@@ -54,7 +54,3 @@ The WebSocket protocol provides a way to exchange data between a client and serv
 ### gRPC
 
 [Read more here...](/multi-protocol/gRPC/grpc-overview)
-
-### GraphQL
-
-We are reworking GraphQL support in Postman. More coming soon!
