@@ -38,7 +38,7 @@ After you set up the integration, you can view real-time alerts based on the res
 
    ![generate app key](https://assets.postman.com/postman-docs/bigPanda-generate-app-key-4.jpg)
 
-   The generated App Key displays.
+   BigPanda generates an app key that you will use later.
 
    ![results app key](https://assets.postman.com/postman-docs/bigPanda-app-key-2.jpg)
 
