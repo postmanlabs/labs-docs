@@ -122,7 +122,7 @@ If you are on an Enterprise plan, you must contact your Team Admins to update th
 
 Deleting your account is an irreversible operation. Any data synced to your account will be deleted and no longer be accessible.
 
-You must leave all Postman teams that you're a member of prior to deleting your account. To do so, see [Leaving a team](#leaving-a-team).
+You must leave all Postman teams that you're a member of prior to deleting your account. To do so, see [Leaving a team](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/#leaving-a-team).
 
 If you're a member of an Enterprise team with [SCIM](/docs/administration/scim-provisioning/scim-provisioning-overview/) enabled, you must contact a Team Admin to remove your Postman account from that team.
 
