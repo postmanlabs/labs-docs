@@ -34,7 +34,7 @@ After you set up the integration, you can view real-time alerts based on the res
 
    ![alerts REST API](https://assets.postman.com/postman-docs/58834897.jpg)
 
-1. To generate the App key, enter a name for the integration and select the **Generate App Key**.
+1. To generate the app key, enter a name for the integration and select **Generate App Key**.
 
    ![generate app key](https://assets.postman.com/postman-docs/bigPanda-generate-app-key-4.jpg)
 
