@@ -66,7 +66,7 @@ Postman's team will check your requested domain and update its status to "Verifi
 
 Once your domain has been verified, you can enable it by selecting the switch under **Domain authentication**.
 
-<img alt="Domain authentication confirmation" src="https://assets.postman.com/postman-docs/authentication-domain-manage-accounts-confirm-9.4.jpg" width="500px"/>
+<img alt="Domain authentication confirmation" src="https://assets.postman.com/postman-docs/manage-accts-domain-v9.jpg" width="500px"/>
 
 Select **Confirm** to enable domain capture.
 
