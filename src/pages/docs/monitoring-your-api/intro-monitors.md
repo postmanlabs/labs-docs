@@ -17,8 +17,8 @@ contextual_links:
     name: "API Monitoring | The Exploratory"
     url: "https://youtu.be/tDQzY1Hn2LY"
   - type: link
-    name: "BetterCloud's monitor migration"
-    url: "https://youtu.be/0acChpnbrlQ"
+    name: "API Lifecycle, Part 2: Monitor and Deploy an API | Postman Space Camp"
+    url: "https://youtu.be/voAUfBx8fnE"
   - type: subtitle
     name: "Blog Posts"
   - type: link
