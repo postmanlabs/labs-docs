@@ -612,7 +612,7 @@ export const leftNavItems = [
         ],
       },
       {
-        name: 'API testing', <!-- TODO: confirm this heading wording -->
+        name: 'API testing',
         subParentSlug: 'api-testing',
         slug: '/docs/api-governance/api-testing/api-testing-overview/',
         subMenuItems2: [
