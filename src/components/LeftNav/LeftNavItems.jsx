@@ -603,11 +603,11 @@ export const leftNavItems = [
           },
           {
             name: 'OpenAPI 3.0 schema issues',
-            url: '/docs/api-governance/api-design/openapi3/', <!-- TODO: update URL -->
+            url: '/docs/api-governance/api-design/openapi3/',
           },
           {
             name: 'OpenAPI 2.0 schema issues',
-            url: '/docs/api-governance/api-design/openapi2/', <!-- TODO: update URL -->
+            url: '/docs/api-governance/api-design/openapi2/',
           },
         ],
       },
