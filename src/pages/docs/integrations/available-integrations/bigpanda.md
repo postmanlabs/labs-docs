@@ -42,7 +42,7 @@ After you set up the integration, you can view real-time alerts based on the res
 
    ![results app key](https://assets.postman.com/postman-docs/bigPanda-app-key-2.jpg)
 
-1. Save the generated App key and the API key for use later.
+1. Save the generated app key and the API key to use later.
 
 ## Configuring Postman monitors
 
