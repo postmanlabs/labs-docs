@@ -32,31 +32,31 @@ contextual_links:
     url: "/docs/designing-and-developing-your-api/managing-apis/"
 ---
 
-You can define the structure of your API using its API specification. This can consist of one or multiple files. You can also generate a collection from an API specification.
+You can define the structure of your API using its _API definition_. This can consist of one or multiple files. You can also generate a collection from an API definition.
 
-* [Editing your schema](#editing-your-schema)
+* [Editing your API definition](#editing-your-api-definition)
 * [Editing multi-file API definitions](#editing-multi-file-api-definitions)
 * [Generating a collection](#generating-a-collection)
 
-## Editing your schema
+## Editing your API definition
 
-The __Definition__ tab in each API version page contains an editor for your API specification (either one you imported or a sample Postman added when you created the API).
+The __Definition__ tab in each API version page contains an editor for your API definition (either one you imported or a sample Postman added when you created the API).
 
 The default schema type is OpenAPI 3.0, with YAML as the default format. To use a different schema type or format, choose it from the dropdown list.
 
-The left pane of the schema editor displays an outline of your schema. When you first open the editor, the top level of nodes will be expanded, and the rest of them collapsed. Select nodes to expand or collapse them. Select an element in the outline to jump to it in the editor. You can also select the schema outline icon <img alt="Schema outline icon" src="https://assets.postman.com/postman-docs/icon-schema-outline-v9.jpg#icon" width="16px"/> to hide or show the outline.
+The left pane of the schema editor displays an outline of your API definition. When you first open the editor, the top level of nodes will be expanded, and the rest of them collapsed. Select nodes to expand or collapse them. Select an element in the outline to jump to it in the editor. You can also select the API definition outline icon <img alt="API definition outline icon" src="https://assets.postman.com/postman-docs/icon-schema-outline-v9.jpg#icon" width="16px"/> to hide or show the outline.
 
-![Schema navigation](https://assets.postman.com/postman-docs/v8-api-builder-schema-outline.gif)
+![API definition navigation](https://assets.postman.com/postman-docs/v8-api-builder-schema-outline.gif)
 
-In the schema editor, when you hover over a `#ref` component and press the Command key, a popover displays the first 200 characters of the reference component. When you Command-select the reference component, it will jump to the reference location.
+In the API definition editor, when you hover over a `#ref` component and press the Command key, a popover displays the first 200 characters of the reference component. When you Command-select the reference component, it will jump to the reference location.
 
 ![Schema refs](https://assets.postman.com/postman-docs/v8-api-builder-ref-jump.jpg)
 
-In the upper right of the schema editor are options to beautify the content, wrap text, copy, and search. When you finish editing your schema, select **Save**.
+In the upper right of the API definition editor are options to beautify the content, wrap text, copy, and search. When you finish editing your API definition, select **Save**.
 
 <img src="https://assets.postman.com/postman-docs/api-builder-definition-options.jpg" alt="API Builder definition options" width="350px">
 
-> Postman will indicate [validation errors](/docs/designing-and-developing-your-api/validating-elements-against-schema/) as you work on your schema.
+> Postman will indicate [validation errors](/docs/designing-and-developing-your-api/validating-elements-against-schema/) as you work on your API definition.
 
 ## Editing multi-file API definitions
 
@@ -115,9 +115,9 @@ Delete action
 
 ## Generating a collection
 
-The Postman API Builder supports API-first development by providing the option to create a Postman Collection directly from a schema. Once you have a saved schema, there is a **Generate Collection** option in the upper right of the schema editor.
+The Postman API Builder supports API-first development by providing the option to create a Postman Collection directly from an API definition. Once you have a saved API definition, there is a **Generate Collection** option in the upper right of the API definition editor.
 
-To create a collection based on your schema, select **Generate Collection**. You can add the collection as documentation, a test, a monitor, or a mock server. The collection will appear in __Collections__ in the sidebar. It will be linked to the same version of the API as the schema.
+To create a collection based on your API definition, select **Generate Collection**. You can add the collection as documentation, a test, a monitor, or a mock server. The collection will appear in __Collections__ in the sidebar. It will be linked to the same version of the API as the API definition.
 
 ![Generate Collection](https://assets.postman.com/postman-docs/v8-generate-collection-modal2.jpg)
 
