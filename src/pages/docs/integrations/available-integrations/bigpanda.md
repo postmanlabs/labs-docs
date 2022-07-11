@@ -66,7 +66,6 @@ After you set up the integration, you can view real-time alerts based on the res
     * Enter the BigPanda app key.
     * Enter the API token for the app.
 
-    ![save bigpanda config](https://assets.postman.com/postman-docs/bigpanda-save-config.jpg)
 1. Select **Add Integration**.
 
 You can send the results of multiple monitors to the same BigPanda collection.
