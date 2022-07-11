@@ -36,11 +36,11 @@ After you set up the integration, you can view real-time alerts based on the res
 
 1. To generate the App key, enter a name for the integration and select the **Generate App Key**.
 
-   ![generate app key](https://assets.postman.com/postman-docs/bigPanda_generateAppkey.jpg)
+   ![generate app key](https://assets.postman.com/postman-docs/bigPanda-generate-app-key-4.jpg)
 
    The generated App Key displays.
 
-   ![results app key](https://assets.postman.com/postman-docs/bigPanda-appKey.jpg)
+   ![results app key](https://assets.postman.com/postman-docs/bigPanda-app-key-2.jpg)
 
 1. Save the generated App key and the API key for use later.
 
