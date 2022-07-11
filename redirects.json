@@ -1833,7 +1833,7 @@
 	},
 	{
 		"from": "/docs/api-security/",
-		"to": "/docs/api-governance"
+		"to": "/docs/api-governance/api-governance-overview/"
 	},
 	{
 		"from": "/docs/api-security/security-warnings/",

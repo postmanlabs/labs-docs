@@ -10,9 +10,9 @@ search_keyword: "api security, api schema, security warnings, schema validation,
 
 * [Security misconfiguration](#security-misconfiguration)
     * [CORS misconfiguration](#cors-misconfiguration)
-        * [CORS misconfiguration rule 1](#cors-misconfiguration-rule-1)
-        * [CORS misconfiguration rule 2](#cors-misconfiguration-rule-2)
-        * [CORS misconfiguration rule 3](#cors-misconfiguration-rule-3)
+        * [`Access-Control-Allow-Origin` set as `null`](#access-control-allow-origin-set-as-null)
+        * [`null` origin allowlisted](#null-origin-allowlisted)
+        * [Overly permissive `Access-Control-Allow-Origin`](#overly-permissive-access-control-allow-origin)
     * [Unencrypted communication](#unencrypted-communication)
     * [Cache poisoning](#cache-poisoning)
     * [Cross-site request forgery](#cross-site-request-forgery)
@@ -54,21 +54,21 @@ A security misconfiguration can result from many issues, including:
 
 ### CORS misconfiguration
 
-Cross-origin resource sharing (CORS) is a browser mechanism that enables controlled access to resources located outside of a given domain. It extends and adds flexibility to the same-origin policy ([SOP](https://portswigger.net/web-security/cors/same-origin-policy)). However, if a website's CORS policy is poorly configured and implemented, it also provides the potential for cross-domain attacks. CORS isn't a protection against cross-origin attacks such as cross-site request forgery ([CSRF](https://portswigger.net/web-security/csrf)). <!-- TODO: these individual rules need new titles -->
+Cross-origin resource sharing (CORS) is a browser mechanism that enables controlled access to resources located outside of a given domain. It extends and adds flexibility to the same-origin policy ([SOP](https://portswigger.net/web-security/cors/same-origin-policy)). However, if a website's CORS policy is poorly configured and implemented, it also provides the potential for cross-domain attacks. CORS isn't a protection against cross-origin attacks such as cross-site request forgery ([CSRF](https://portswigger.net/web-security/csrf)).
 
-#### CORS misconfiguration rule 1
+#### `Access-Control-Allow-Origin` set as `null`
 
 Issue description | Possible fix
 --- | ---
 `Access-Control-Allow-Credentials` is set as `true` and `Access-Control-Allow-Origin` is set as `null`. This could allow an attacker to send AJAX queries to a vulnerable website from a malicious page loaded by the victim’s user agent. Even if a website with unauthenticated sensitive content (for example, an intranet website) doesn’t allow authenticated AJAX requests, this misconfiguration still allows attackers to access it. | If a web resource contains sensitive information, you need to properly specify the origin in the `Access-Control-Allow-Origin` header. You should only specify trusted websites that need this resource in this header, with the most secured protocol supported.
 
-#### CORS misconfiguration rule 2
+#### `null` origin allowlisted
 
 Issue description | Possible fix
 --- | ---
 If the `null` origin is allowlisted, an attacker can use various tricks to generate a cross-origin request that contains the value `null` in the [`Origin`](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Origin) header. This will satisfy the allowlist, leading to cross-domain access. | If a web resource contains sensitive information, you need to properly specify the origin in the `Access-Control-Allow-Origin` header. You should only specify trusted websites that need this resource in this header, with the most secured protocol supported.
 
-#### CORS misconfiguration rule 3
+#### Overly permissive `Access-Control-Allow-Origin`
 
 Issue description | Possible fix
 --- | ---

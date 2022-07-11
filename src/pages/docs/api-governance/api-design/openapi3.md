@@ -822,7 +822,7 @@ components:
 
 &nbsp;
 
-## API information
+## API information <!-- TODO: this all needs to be added to ToC -->
 
 This category of linting rules deals with information about your API. The OpenAPI info object provides metadata about the API.  <!-- TODO: reword -->
 
