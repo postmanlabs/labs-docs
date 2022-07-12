@@ -1,8 +1,7 @@
 ---
 title: "Monitoring FAQs"
-order: 95
 page_id: "faqs_monitors"
-updated: 2022-2-14
+updated: 2022-07-05
 search_keyword: "console.log, console.warn"
 warning: false
 ---
@@ -11,7 +10,7 @@ warning: false
 
 ### What can I test with monitors?
 
-You can use uptime monitors to ensure your servers are online and are responding promptly. You also can [write tests](/docs/writing-scripts/test-scripts/) for collection-based monitors to check for proper behavior, business logic, error handling, and so on.
+You can use uptime monitors to make sure your servers are online and are responding as expected. You also can [write tests](/docs/writing-scripts/test-scripts/) for collection-based monitors to check for proper behavior, business logic, and error handling.
 
 ### How many monitors can I create?
 
@@ -23,7 +22,7 @@ For limits on the number of uptime monitors you can create, see [Uptime monitor 
 
 If you are on a paid plan, you can select one or more geographic regions you'd like your monitor to run in, or have Postman automatically select a region for you. If you are on a free plan, Postman always selects a region for you. If you want to manually select specific regions, [upgrade your Postman plan](https://www.postman.com/pricing)
 
-> If you’re interested in a region that’s not currently available when creating a monitor, contact the [Postman support team](https://www.postman.com/support/).
+> If you’re interested in a region that’s not available when creating a monitor, contact the [Postman support team](https://www.postman.com/support/).
 
 ### What time zone is my monitor set to?
 
@@ -31,7 +30,7 @@ Your monitor's time zone is automatically set to the time zone of your computer 
 
 ### How long can a monitor run?
 
-Monitors are limited to a maximum of five minutes for each run, including all HTTP requests, responses, pre-request scripts, and test scripts. For collection-based monitors, this limit applies to all HTTP requests, responses, and test scripts.
+Collection-based monitors are limited to a maximum of 10 minutes (Postman Free plans) or 15 minutes (Postman Basic, Professional, and Enterprise plans) for each run. All HTTP requests, responses, pre-request scripts, and test scripts must complete within the time limit or the monitor will time out.
 
 ### How do I persist variables between monitor runs?
 
@@ -39,7 +38,7 @@ You can't import existing global variables into a monitor, but you can create ne
 
 ### How many HTTP requests can a monitor send?
 
-Uptime monitors can be configured to call a single URL or endpoint. For collection-based monitors, there is no limit to the number of requests, although the total runtime can't exceed five minutes.
+Uptime monitors can be configured to call a single URL or endpoint. For collection-based monitors, there is no limit to the number of requests, but the total runtime can't exceed 10 minutes (Postman Free plans) or 15 minutes (Postman Basic, Professional, and Enterprise plans).
 
 ### Can I run a request multiple times?
 
@@ -47,7 +46,7 @@ Collection-based monitors only run one iteration by default, but you can use `se
 
 ### How much data can a monitor send or receive?
 
-There is no specific limit to the amount of data that can be sent or received per request. However, large requests or responses take longer to send and receive. As a result, be sure that all requests can be completed within the 5 minute time limit.
+There is no specific limit to the amount of data that can be sent or received per request. However, large requests or responses take longer to send and receive. Make sure that all requests can be completed within the time limit of 10 minutes (Postman Free plans) or 15 minutes (Postman Basic, Professional, and Enterprise plans).
 
 ### Can I upload files or attach data files?
 
@@ -83,7 +82,7 @@ You can delete a monitor at any time. Once deleted, all run history for the moni
 
 ### Where do monitors run?
 
-Monitors run on Postman's cloud infrastructure, which is hosted by Amazon Web Services (AWS). More information about the cloud infrastructure is available on the [Security overview](https://www.postman.com/trust/security/).
+Monitors run on Postman's cloud infrastructure, which is hosted by Amazon Web Services (AWS). More information about Postman's cloud infrastructure is available on the [Security overview](https://www.postman.com/trust/security/).
 
 ### Can monitors access private networks?
 
@@ -91,4 +90,4 @@ Because monitors run in the Postman cloud, all URLs must be publicly available o
 
 ### Will monitors impact my API performance?
 
-To limit the impact of monitor activity on your API, you can configure which of your API endpoints are called as well as how often they're called. In addition, Postman restricts each monitor’s total runtime to 5 minutes, to limit the number of requests the monitor can perform.
+To limit the impact of monitor activity on your API, you can configure which of your API endpoints are called as well as how often they're called. Postman also restricts each monitor’s total runtime to 10 minutes (Postman Free plans) or 15 minutes (Postman Basic, Professional, and Enterprise plans). This limits the number of requests the monitor can perform.

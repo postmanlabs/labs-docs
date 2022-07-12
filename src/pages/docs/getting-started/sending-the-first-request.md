@@ -14,11 +14,16 @@ contextual_links:
   - type: subtitle
     name: "Videos"
   - type: link
-    name: "Intro to Postman | Send a Request"
+    name: "Intro to Postman | Part 1: Send a Request"
     url: "https://youtu.be/2oOSnxZ28fA"
   - type: link
-    name: "How to use an API"
-    url:  "https://www.youtube.com/watch?v=jCadnlO9xSQ&list=PLM-7VG-sgbtBBnWb2Jc5kufgtWYEmiMAw"
+    name: "How to use an API? | Intro to APIs Part 2"
+    url:  "https://youtu.be/woRuedXZyi4"
+  - type: subtitle
+    name: "Blog Posts"
+  - type: link
+    name: "First 5 Things to Try If You’re New to Postman"
+    url: "https://blog.postman.com/postman-first-5-things-to-try/"
   - type: subtitle
     name: "Public Workspaces"
   - type: link

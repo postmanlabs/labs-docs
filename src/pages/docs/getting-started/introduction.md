@@ -18,11 +18,11 @@ contextual_links:
   - type: subtitle
     name: "Videos"
   - type: link
-    name: "Intro to APIs"
-    url:  "https://www.youtube.com/watch?v=iFMLyMgCUTs&list=PLM-7VG-sgbtBBnWb2Jc5kufgtWYEmiMAw"
+    name: "Intro to APIs playlist"
+    url:  "https://youtube.com/playlist?list=PLM-7VG-sgbtA-MUiVgE-SwK_RkYgesikH"
   - type: link
-    name: "Postman intro series"
-    url: "https://www.youtube.com/playlist?list=PLM-7VG-sgbtAgGq_pef5y_ruIUBPpUgNJ"
+    name: "Intro to Postman playlist"
+    url: "https://youtube.com/playlist?list=PLM-7VG-sgbtAgGq_pef5y_ruIUBPpUgNJ"
   - type: link
     name: "Postman Space Camp: An Introduction for Developers"
     url: "https://youtu.be/8MOzaTsVRKg"
@@ -36,6 +36,9 @@ contextual_links:
     url:  "https://www.postman.com/postman/workspace/30-days-of-postman-for-developers/overview"
   - type: subtitle
     name: "Blog Posts"
+  - type: link
+    name: "First 5 Things to Try If You’re New to Postman"
+    url: "https://blog.postman.com/postman-first-5-things-to-try/"
   - type: link
     name: "10 Postman Features Everyone Should Know"
     url: "https://blog.postman.com/10-postman-features-everyone-should-know/"

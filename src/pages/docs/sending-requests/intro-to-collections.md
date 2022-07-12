@@ -95,9 +95,14 @@ There are several ways to add existing and new requests to a collection.
 To move an existing request to a different collection:
 
 1. Select the request you want to move.
-1. Drag and drop the request into the desired collection.
+1. Drag the request into the desired collection.
 
 > Alternatively, open the request and select **Save As**, then choose the collection you want to move it to.
+
+To move more than one request to a different collection:
+
+1. Press and hold **⌘** or **Ctrl**, then select the requests you want to move.
+1. Drag the requests into the desired collection.
 
 ### Adding a new request to a collection
 
@@ -167,6 +172,8 @@ To delete a collection:
 
 1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> to the right of the collection name.
 1. Select **Delete**.
+
+You can also select the collection and press **Delete** on your keyboard.
 
 > If a deleted collection is larger than 30 MB, you won't be able to [recover it](#recovering-a-deleted-collection). To avoid this, you can split the collection into smaller pieces before deleting it, or back up the collection first.
 

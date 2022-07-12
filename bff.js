@@ -1,10 +1,10 @@
 const fs = require('fs');
 const sh = require('shelljs');
 const crypto = require('crypto');
-const pingWebHook = require('./scripts/pingWebHook');
-const fetchBlogPosts = require('./scripts/fetchBlogPosts');
-const fetchEvents = require('./scripts/fetchEvents');
-const fetchPmTech = require('./scripts/fetchPmTech');
+const pingWebHook = require('./build/pingWebHook');
+const fetchBlogPosts = require('./build/fetchBlogPosts');
+const fetchEvents = require('./build/fetchEvents');
+const fetchPmTech = require('./build/fetchPmTech');
 const { allow } = require('./package.json');
 
 const { pmTech: allowedPmTech } = allow;
