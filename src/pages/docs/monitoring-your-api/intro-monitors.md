@@ -27,6 +27,9 @@ contextual_links:
   - type: link
     name: "Continuous API Testing with Postman"
     url: "https://blog.postman.com/continuous-api-testing-with-postman/"
+  - type: link
+    name: "Build an Exercise Tracker using Notion API and Postman Monitor"
+    url: "https://blog.postman.com/how-build-daily-habit-counter-notion-api-postman/"
   - type: subtitle
     name: "Case Studies"
   - type: link
