@@ -67,7 +67,7 @@ To download the Postman Enterprise app, open Postman and select **Team** in the 
 
 <img alt="Postman Enterprise app download" src="https://assets.postman.com/postman-docs/enterprise-app-download-9.6.jpg" />
 
-> Reach out to your Postman Account Manager or [contact Postman support](https://www.postman.com/support/) for help with the Postman Enterprise app.
+> Reach out to your Postman Admin or [contact Postman support](https://www.postman.com/support/) for help with the Postman Enterprise app.
 
 ## Installing the Postman Enterprise Windows app
 
