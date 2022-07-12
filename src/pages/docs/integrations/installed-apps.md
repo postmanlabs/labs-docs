@@ -43,20 +43,20 @@ You must be a [Team Admin](/docs/collaborating-in-postman/roles-and-permissions/
 
 ### Adding an installed app from Team Settings
 
-You can add a new connected account from [Team Settings](https://go.postman.co/settings/team/general).
+You can add a new installed app from [Team Settings](https://go.postman.co/settings/team/general).
 
 1. In Postman, select **Team** > **Team Settings**.
-1. Select **Connected accounts**.
+1. Select **Installed apps**.
 1. Select the third-party app or service you want to add (for example, **Add Slack**).
 1. A browser tab opens asking you to log in to the third-party app or service. Follow the onscreen instructions. When you're finished, close the browser tab and return to Postman.
 
-The integration is added, and the new connected account appears on the Connected Accounts page in [Team Settings](https://go.postman.co/settings/team/general).
+The new installed app appears on the Installed Apps page in [Team Settings](https://go.postman.co/settings/team/general).
 
 <img alt="Adding a connected account from Team Settings" src="https://assets.postman.com/postman-docs/connected-accounts-add-from-settings-v9-24.jpg">
 
 ### Adding an installed app when adding an integration
 
-You can add a new connected account when adding a [supported integration](#supported-integrations).
+You can add a new installed app when adding a [supported integration](#supported-integrations).
 
 1. From the Postman **[Home](https://go.postman.co/home)** page, select **[Integrations](https://go.postman.co/integrations)**.
 1. Select **Browse All Integrations**.
@@ -66,7 +66,7 @@ You can add a new connected account when adding a [supported integration](#suppo
 1. Select the checkbox to **Authorize your Postman team** with the app you're connecting to.
 1. Enter any other required information and select **Add Integration**.
 
-The integration is added, and the new connected account appears on the Connected Accounts page in [Team Settings](https://go.postman.co/settings/team/general).
+The integration is added, and the new installed app appears on the Installed Apps page in [Team Settings](https://go.postman.co/settings/team/general).
 
 > For help adding an integration, go to [Available integrations](/docs/integrations/available-integrations/apimatic/) in the Postman Learning Center and select the app you want to integrate with.
 
