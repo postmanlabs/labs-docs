@@ -38,11 +38,11 @@ After you set up the integration, you can view real-time alerts based on the res
 
    ![generate app key](https://assets.postman.com/postman-docs/bigPanda-generate-app-key-v9-24-c.jpg)
 
-   The generated app key displays.
+   BigPanda generates an app key that you will use later.
 
    ![results app key](https://assets.postman.com/postman-docs/bigPanda-appKey-v9-24.jpg)
 
-1. Save the generated app key and the API key for use later.
+1. Save the generated app key and the API key to use later.
 
 ## Configuring Postman monitors
 
@@ -69,6 +69,6 @@ After you set up the integration, you can view real-time alerts based on the res
 1. Select **Add Integration**.
 
 You can send the results of multiple monitors to the same BigPanda collection.
-BigPanda gives you real-time alerts based on the results of your Postman Monitors. If there was a failed test or if an error occurred during the run, an alert is created on BigPanda, which would then alert the user.
+BigPanda gives you real-time alerts based on the results of your Postman Monitors. If a test fails or if there's an error during the run, BigPanda will alert you.
 
 ![view in bigpanda](https://assets.postman.com/postman-docs/bigPanda-monitors-1.jpg)
