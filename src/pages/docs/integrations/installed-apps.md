@@ -1,5 +1,5 @@
 ---
-title: "Using connected accounts in integrations"
+title: "Using installed apps in integrations"
 updated: 2022-07-08
 contextual_links:
   - type: section
