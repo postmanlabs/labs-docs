@@ -26,7 +26,7 @@ Postman provides an API development toolchain aimed at integrating with your wor
 ## Contents
 
 * [Accessing integrations](#accessing-integrations)
-* [Connected accounts](#connected-accounts)
+* [Installed apps](#installed-apps)
 * [Static IP support](#static-ip-support)
 * [CI integrations](#ci-integrations)
 
@@ -44,11 +44,11 @@ Select __Add Integration__ to configure your integration. Enter the required inf
 
 ![Add Integrations](https://assets.postman.com/postman-docs/add-integration-b.jpg)
 
-## Connected accounts
+## Installed apps
 
-Adding an integration requires you to authenticate with the third-party app or service you are connecting to Postman. For supported integrations, Team Admins can store the authorization details in a _connected account_. Team members can then use the connected account to add a new integration, instead of authenticating with their own credentials.
+Adding an integration requires you to authenticate with the third-party app or service you are connecting to Postman. For supported integrations, Team Admins can store the authorization details in an _installed app_. Team members can then use the installed app to add a new integration, instead of authenticating with their own credentials.
 
-Learn more about [adding and using connected accounts in integrations](/docs/integrations/connected-apps/).
+Learn more about [adding and using installed apps in integrations](/docs/integrations/installed-apps/).
 
 ## Static IP support
 

@@ -50,7 +50,7 @@ The Postman to Slack integration enables you to send Postman notifications to a 
 
 1. After you select the integration type, a browser tab opens asking you to sign in to Slack. If you aren't signed in to a Slack workplace, enter your workspace URL and sign in with your email and password or SSO.
 
-    > If your Team Admin created a [connected account](/docs/integrations/connected-apps/) for Slack, a message and green checkmark let you know you're already authenticated with your Slack workspace. You don't need to sign in or review permissions. If you want to connect to a different Slack workspace, select the link.
+    > If your Team Admin created an [installed app](/docs/integrations/installed-apps/) for Slack, a message and green checkmark let you know you're already authenticated with your Slack workspace. You don't need to sign in or review permissions. If you want to connect to a different Slack workspace, select the link.
 
 1. On the **Permission request** page:
 
