@@ -19,42 +19,42 @@ contextual_links:
     url: "https://blog.postman.com/integrations-how-postman-plays-with-some-of-your-favorite-tools/"
 ---
 
-Each time you add a new integration, you need to authenticate with the third-party app or service you want to connect to Postman. _Connected accounts_ streamline this process by enabling all members of a team to use the same stored authorization details when adding an integration.
+Each time you add a new integration, you need to authenticate with the third-party app or service you want to connect to Postman. _Installed apps_ streamline this process by enabling all members of a team to use the same stored authorization details when adding an integration.
 
-The Team Admin role is required to set up and manage connected accounts. The Team Admin authenticates with the third-party service, and Postman securely stores the authorization details as a connected account. Any team member can set up a new integration using the connected account, without needing to know or enter the authorization details.
+The Team Admin role is required to set up and manage installed apps. The Team Admin authenticates with the third-party service, and Postman securely stores the authorization details as an installed app. Any team member can set up a new integration using the installed app, without needing to know or enter the authorization details.
 
 ## Contents
 
 * [Supported integrations](#supported-integrations)
-* [Adding a connected account](#adding-a-connected-account)
-* [Managing connected accounts](#managing-connected-accounts)
-* [Adding integrations using connected accounts](#adding-integrations-using-connected-accounts)
+* [Adding an installed app](#adding-an-installed-app)
+* [Managing installed apps](#managing-installed-apps)
+* [Adding integrations using installed apps](#adding-integrations-using-installed-apps)
 * [Re-authenticating an integration](#re-authenticating-an-integration)
 
 ## Supported integrations
 
-Team Admins can set up connected accounts for the following Postman integrations:
+Team Admins can set up installed apps for the following Postman integrations:
 
 * [Slack](/docs/integrations/available-integrations/slack/) - Post monitoring results
 
-## Adding a connected account
+## Adding an installed app
 
-You must be a [Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) to add a connected account. You can add an account from Team Settings or when adding a new integration. After you add a connected account, any member of your team can use it add a [supported integration](#supported-integrations).
+You must be a [Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) to add an installed app. You can add an installed app from Team Settings or when adding a new integration. After you add an installed app, any member of your team can use it add a [supported integration](#supported-integrations).
 
-### Adding a connected account from Team Settings
+### Adding an installed app from Team Settings
 
-You can add a new connected account from [Team Settings](https://app.getpostman.com/dashboard/teams/edit).
+You can add a new connected account from [Team Settings](https://go.postman.co/settings/team/general).
 
 1. In Postman, select **Team** > **Team Settings**.
 1. Select **Connected accounts**.
 1. Select the third-party app or service you want to add (for example, **Add Slack**).
 1. A browser tab opens asking you to log in to the third-party app or service. Follow the onscreen instructions. When you're finished, close the browser tab and return to Postman.
 
-The integration is added, and the new connected account appears on the Connected Accounts page in [Team Settings](https://app.getpostman.com/dashboard/teams/edit).
+The integration is added, and the new connected account appears on the Connected Accounts page in [Team Settings](https://go.postman.co/settings/team/general).
 
 <img alt="Adding a connected account from Team Settings" src="https://assets.postman.com/postman-docs/connected-accounts-add-from-settings-v9-24.jpg">
 
-### Adding a connected account when adding an integration
+### Adding an installed app when adding an integration
 
 You can add a new connected account when adding a [supported integration](#supported-integrations).
 
@@ -66,25 +66,25 @@ You can add a new connected account when adding a [supported integration](#suppo
 1. Select the checkbox to **Authorize your Postman team** with the app you're connecting to.
 1. Enter any other required information and select **Add Integration**.
 
-The integration is added, and the new connected account appears on the Connected Accounts page in [Team Settings](https://app.getpostman.com/dashboard/teams/edit).
+The integration is added, and the new connected account appears on the Connected Accounts page in [Team Settings](https://go.postman.co/settings/team/general).
 
 > For help adding an integration, go to [Available integrations](/docs/integrations/available-integrations/apimatic/) in the Postman Learning Center and select the app you want to integrate with.
 
 <img alt="Adding a connected account when adding an integration" src="https://assets.postman.com/postman-docs/connected-accounts-add-from-integration-v9-24.jpg" width="534px">
 
-## Managing connected accounts
+## Managing installed apps
 
-You can view all connected account in [Team Settings](https://app.getpostman.com/dashboard/teams/edit).  In Postman, select **Team** > **Team Settings**, and then select **Connected accounts**. You can view the app name, what it's connected to, and who set up the connection.
+You can view all installed apps in [Team Settings](https://go.postman.co/settings/team/general).  In Postman, select **Team** > **Team Settings**, and then select **Installed apps**. You can view the app name, what it's connected to, and who set up the connection.
 
-To delete a connected account, select <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> **Delete Account** next to the connected account. You must be a [Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) to delete a connected account.
+To delete an installed app, select <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> **Delete Account** next to the installed app. You must be a [Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) to delete an installed app.
 
-> **Use caution when deleting a connected account.** If you delete a connected account, any integrations created with that connected account will stop working. You must [re-authenticate the affected integrations](#re-authenticating-an-integration) for them to continue working.
+> **Use caution when deleting an installed app.** If you delete an installed app, any integrations created using the installed app will stop working. You must [re-authenticate the affected integrations](#re-authenticating-an-integration) for them to continue working.
 
 <img alt="Managing connected accounts" src="https://assets.postman.com/postman-docs/connected-accounts-manage-v9-24.jpg">
 
-## Adding integrations using connected accounts
+## Adding integrations using installed apps
 
-Any team member can use a connected account when adding a [supported integration](#supported-integrations).
+Any team member can use an installed app when adding a [supported integration](#supported-integrations).
 
 1. From the Postman **[Home](https://go.postman.co/home)** page, select **[Integrations](https://go.postman.co/integrations)**.
 1. Select **Browse All Integrations**.
@@ -99,7 +99,7 @@ Any team member can use a connected account when adding a [supported integration
 
 ## Re-authenticating an integration
 
-If your Team Admin deleted a connected account, any integrations you added using the connected account will stop working. You must re-authenticate the affected integrations for them to continue working.
+If your Team Admin deleted an installed app, any integrations you added using the installed app will stop working. You must re-authenticate the affected integrations for them to continue working.
 
 1. From the Postman **[Home](https://go.postman.co/home)** page, select **[Integrations](https://go.postman.co/integrations)**.
 1. Search for and select the type of integration you want to edit. (For example, search for **Slack** and select **Post monitoring results**.)
