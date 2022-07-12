@@ -2,7 +2,7 @@
 
 When contributing to this repository, please first discuss the change you wish to make at [Issues](https://github.com/postmanlabs/postman-docs/issues).
 
-Please note there is a [code of conduct](https://www.postman.com/code-of-conduct); please follow it in all your interactions with the project.
+We have a [code of conduct](https://www.postman.com/code-of-conduct) that you're expected to follow in all your interactions with the project.
 
 ## Development process
 
