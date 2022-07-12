@@ -126,8 +126,6 @@ Redirects you to the feedback submission form to let us know what you feel about
 
 Once you invoke a method, the server gives back the appropriate response that shows up in the response area.
 
-![Response pane](https://assets.postman.com/postman-labs-docs/grpc-docs/request-interface/response-sections.jpeg)
-
 <img src="https://assets.postman.com/postman-labs-docs/grpc-docs/request-interface/response-sections.jpeg" alt="Response pane">
 
 ### Response payload
@@ -146,7 +144,7 @@ Metadata returned by the server usually consists of additional information about
 
 This section provides you with key information regarding performance and whether the execution was successful or not. You can assess the performance of the API using the information on how long the execution took. And the status code gives you information on whether the execution was successful or not. Status code `0 OK` signifies successful execution. In case of an error, a gRPC-based implementation returns different status codes for different error scenarios which help you understand the cause and figure out the next set of actions by just hovering on it.
 
-![Status code](https://assets.postman.com/postman-labs-docs/grpc-docs/request-interface/status-code.jpeg)
+<img src="https://assets.postman.com/postman-labs-docs/grpc-docs/request-interface/status-code.jpeg" alt="Status code" width="400px">
 
 ### Wrap text button
 
@@ -156,13 +154,13 @@ Clicking on this button adjusts the width of the response body according to the 
 
 Look for specific things within the response using the 'Search' button.
 
-![Search through response](https://assets.postman.com/postman-labs-docs/grpc-docs/request-interface/search-in-response.jpeg)
+<img src="https://assets.postman.com/postman-labs-docs/grpc-docs/request-interface/search-in-response.jpeg" alt="Search through response" width="400px">
 
 ### Multiple responses
 
 While invoking a streaming method type (client streaming, server streaming or bidirectional streaming), the client-server communication within a single session is recorded in the response area as a series of sent and received messages in a timeline instead of a single response. Learn more about [different method types](postman-api-client/grpc-client/using-grpc-request).
 
-![Response stream](https://assets.postman.com/postman-labs-docs/grpc-docs/request-interface/response-stream.jpeg)
+<img src="https://assets.postman.com/postman-labs-docs/grpc-docs/request-interface/response-stream.jpeg" alt="Response stream" width="400px">
 
 #### Connection status
 
@@ -172,13 +170,13 @@ The connection status shows whether the connection with the server is active i.e
 
 The message stream contains the list of sent, received and informative messages arranged in reverse chronological order (latest appears on the top).
 
-![Message stream](https://assets.postman.com/postman-labs-docs/grpc-docs/request-interface/message-stream.jpeg)
+<img src="https://assets.postman.com/postman-labs-docs/grpc-docs/request-interface/message-stream.jpeg" alt="Message stream">
 
 #### Expand/collapse message
 
 You can take an in-depth look at the message content by expanding it within the message stream.
 
-![Message expanded](https://assets.postman.com/postman-labs-docs/grpc-docs/request-interface/message-expanded.jpeg)
+<img src="https://assets.postman.com/postman-labs-docs/grpc-docs/request-interface/message-expanded.jpeg" alt="Message expanded">
 
 #### Search for messages
 
@@ -188,19 +186,19 @@ You can use the high-level search input to search for particular messages.
 
 Adjust the view based on the type of messages using the message filter. Instead of all messages, you can choose to view only the ones Sent from the client or Received from the server.
 
-![Message filter](https://assets.postman.com/postman-labs-docs/grpc-docs/request-interface/message-filter.jpeg)
+<img src="https://assets.postman.com/postman-labs-docs/grpc-docs/request-interface/message-filter.jpeg" alt="Message filter" width="300px">
 
 #### Clear messages
 
 Using the ‘Clear messages' button hides all the messages exchanged from the view to clean up the response area so that you can focus on the new messages. You can restore the messages using the 'Restore’ button in the hidden view.
 
-![Clear messages](https://assets.postman.com/postman-labs-docs/grpc-docs/request-interface/hide-messages.jpeg)
+<img src="https://assets.postman.com/postman-labs-docs/grpc-docs/request-interface/hide-messages.jpeg" alt="Clear messages">
 
 ## Right sidebar
 
 The right sidebar gives you access to additional tools and information like documentation, commenting and meta information on the request.
 
-![Right sidebar panes](https://assets.postman.com/postman-labs-docs/grpc-docs/request-interface/right-sidebar.jpeg)
+<img src="https://assets.postman.com/postman-labs-docs/grpc-docs/request-interface/right-sidebar.jpeg" alt="Right sidebar panes">
 
 ### Request documentation
 
@@ -213,4 +211,8 @@ Collaborate with your teammates while working on an API using comments. You can 
 ### Request information
 
 The request information pane shows additional details about the request like request ID and when it was created.
+
+## Next step
+
+Now that you understand all the basic interface elements, go ahead and [create a grpc request on Postman](postman-api-client/grpc-client/first-grpc-request).
 
