@@ -39,47 +39,54 @@ export const leftNavItems = [
     url: "/postman-flows/getting-started/flows-overview/",
     subMenuItems1: [
       {
-        name: "Introduction",
-        url: "/postman-flows/getting-started/flows-overview/",
+        name: "Getting Started",
+        subParentSlug: "getting-started",
+        slug: "/postman-flows/getting-started/flows-overview/",
+        subMenuItems2: [
+          {
+            name: "Introduction",
+            url: "/postman-flows/getting-started/flows-overview/",
+          },
+          {
+            name: "The Interface",
+            url: "/postman-flows/getting-started/the-interface/",
+          },
+          {
+            name: "Running requests in sequence",
+            url: "/postman-flows/getting-started/running-requests-in-sequence/",
+          },
+          {
+            name: "Chaining requests with data",
+            url: "/postman-flows/getting-started/chaining-requests-with-data/",
+          },
+          {
+            name: "Working with access tokens - Durables",
+            url: "/postman-flows/getting-started/working-with-access-tokens/",
+          },
+        ],
       },
       {
-        name: "The Interface",
-        url: "/postman-flows/getting-started/the-interface/",
-      },
-      {
-        name: "Running requests in sequence",
-        url: "/postman-flows/getting-started/running-requests-in-sequence/",
-      },
-      {
-        name: "Chaining requests with data",
-        url: "/postman-flows/getting-started/chaining-requests-with-data/",
-      },
-      {
-        name: "Working with access tokens - Durables",
-        url: "/postman-flows/getting-started/working-with-access-tokens/",
-      },
-    ],
-  },
-  {
-    name: "Flows core concepts",
-    parentSlug: "flows-core-concepts",
-    url: "/postman-flows/core-concepts/blocks/",
-    subMenuItems1: [
-      {
-        name: "Blocks",
-        url: "/postman-flows/core-concepts/blocks/",
-      },
-      {
-        name: "Messages",
-        url: "/postman-flows/core-concepts/messages/",
-      },
-      {
-        name: "Connections",
-        url: "/postman-flows/core-concepts/connections/",
-      },
-      {
-        name: "Data Types",
-        url: "/postman-flows/core-concepts/data-types/",
+        name: "Core concepts",
+        subParentSlug: "core-concept",
+        slug: "/postman-flows/core-concepts/blocks/",
+        subMenuItems2: [
+          {
+            name: "Blocks",
+            url: "/postman-flows/core-concepts/blocks/",
+          },
+          {
+            name: "Messages",
+            url: "/postman-flows/core-concepts/messages/",
+          },
+          {
+            name: "Connections",
+            url: "/postman-flows/core-concepts/connections/",
+          },
+          {
+            name: "Data Types",
+            url: "/postman-flows/core-concepts/data-types/",
+          },
+        ],
       },
     ],
   },
@@ -109,7 +116,7 @@ export const leftNavItems = [
         url: "/postman-flows/getting-started/using-service-definition/",
       },
     ],
-  }, 
+  },
   {
     name: "WebSocket Client",
     parentSlug: "websocket-client",
@@ -120,7 +127,7 @@ export const leftNavItems = [
         url: "/postman-api-client/websocket-client/websocket-client-overview/",
       },
     ],
-  }, 
+  },
 ]
 
 // export default parentSlugItems;
