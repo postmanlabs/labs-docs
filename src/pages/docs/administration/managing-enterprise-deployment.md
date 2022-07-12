@@ -53,7 +53,7 @@ Postman app versioning enables you to set a team-wide version of Postman. You ca
 
 To request this change, reach out to your Postman Account Manager or [contact Postman support](https://www.postman.com/support/).
 
-> Check out [Postman's release notes](https://www.postman.com/downloads/release-notes/) to compare app versions, or reach out to your Postman Account Manager for help in selecting your team's version.
+> Check out [Postman's release notes](https://www.postman.com/downloads/release-notes/) to compare app versions, or reach out to your Postman Admin for help in selecting your team's version.
 
 ## Deploying the Postman Enterprise app
 
