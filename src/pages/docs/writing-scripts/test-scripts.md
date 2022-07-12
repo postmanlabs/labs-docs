@@ -73,7 +73,7 @@ To add tests to a request, open the request and enter your code in the **Tests**
 
 ## Writing test scripts
 
-Test scripts can use dynamic variables, carry out test assertions on response data, and pass data between requests. In the __Tests__ tab for a request, enter your JavaScript manually or select __Snippets__ to the right of the code editor.
+Test scripts can use dynamic variables, carry out test assertions on response data, and pass data between requests. In the __Tests__ tab for a request, enter your JavaScript manually or select __Snippets__ next to the code editor.
 
 Tests execute after the response is received. When you select __Send__, Postman runs your test script after the response data returns from the API.
 
@@ -135,7 +135,7 @@ Your scripts can include however many tests you need and will save along with th
 
 ### Using snippets
 
-There's a selection of commonly-used test code excerpts in __Snippets__ to the right of the tests editor. Select one and it will insert it in your editor. Snippets can speed up the process of getting started with your scripts. You can edit snippets after adding them to meet your own testing requirements.
+The **Snippets** section contains a selection of commonly-used test code excerpts. Select one and it will insert it in your editor. Snippets can speed up the process of getting started with your scripts. You can edit snippets after adding them to meet your own testing requirements.
 
 ## Testing collections and folders
 

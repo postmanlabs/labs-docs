@@ -134,21 +134,19 @@ You can review past run results to understand what happened at a particular poin
 
 ### Test results
 
-You can view **Test Results** below the monitor summary to find more detailed information on your tests, including which passed or failed, response codes, and response times.
+Select **Test Results** to get more detailed information on your tests, including which passed or failed, the response codes, and the response times.
 
 [![test results](https://assets.postman.com/postman-docs/monitor-view-test-results0.jpg)](https://assets.postman.com/postman-docs/monitor-view-test-results0.jpg)
 
-> If your monitor is configured to run in multiple regions, you can view the test results for a particular region by selecting that region from the dropdown to the right of the **Test Results**.
+> If your monitor is configured to run in multiple regions, you can view the test results for a particular region by selecting it from **Region**.
 
 ### Console log
 
-You can view the **Console Log** below the monitor summary.
-
-This section logs monitor run details along with the [`console.log`](/docs/sending-requests/troubleshooting-api-requests/) statements that run as part of your pre-request and test scripts. Run details specify the various stages of a monitor run such as preparing run, running, rerunning ([if applicable](/docs/monitoring-your-api/setting-up-monitor/#using-retry-on-failure)), and the run result, along with error and test failure information. Selecting a request in the Console Log will open it in a tab, allowing you to review and edit the request as needed.
+Select **Console Log** to view monitor run details along with the [`console.log`](/docs/sending-requests/troubleshooting-api-requests/) statements that run as part of your pre-request and test scripts. Run details specify the various stages of a monitor run such as preparing run, running, rerunning ([if applicable](/docs/monitoring-your-api/setting-up-monitor/#using-retry-on-failure)), and the run result, along with error and test failure information. Selecting a request in the Console Log will open it in a tab, allowing you to review and edit the request as needed.
 
 [![console log](https://assets.postman.com/postman-docs/monitor-view-console-log0.jpg)](https://assets.postman.com/postman-docs/monitor-view-console-log0.jpg)
 
-> If your monitor is configured to run in multiple regions, you can view the console logs for a particular region by selecting that region from the dropdown to the right of the **Console Log** tab.
+> If your monitor is configured to run in multiple regions, you can view the console logs for a particular region by selecting it from **Region**.
 
 You can use this console to both troubleshoot issues and learn more about an individual run's behavior.
 

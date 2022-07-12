@@ -97,7 +97,7 @@ For collections, APIs, environments, mock servers, and monitors, go to the eleme
 
 <img alt="Invite group to collection" src="https://assets.postman.com/postman-docs/manage-roles-collection-with-user-group-v9.1.jpg"/>
 
-Use the search bar to add the group, then give the group **Editor** or **Viewer** permissions with the dropdown. You can also remove a group by selecting the **X** to the right of it in the list. Select **Update Roles** to confirm changes.
+Use the search bar to add the group, then give the group **Editor** or **Viewer** permissions with the dropdown. To remove a group, select <img alt="Close icon" src="https://assets.postman.com/postman-docs/icon-close.jpg#icon" width="16px"> next to the group name. Select **Update Roles** to confirm changes.
 
 > See [Defining roles](/docs/collaborating-in-postman/roles-and-permissions/) for more information on access control at a team, workspace, API, and collection level.
 

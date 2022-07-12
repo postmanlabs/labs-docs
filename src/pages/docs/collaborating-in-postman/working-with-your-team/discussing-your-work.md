@@ -51,7 +51,7 @@ You can add comments at the [request level](#adding-a-comment-on-a-request), on 
 ### Adding a comment on a request
 
 1. Go to the request you want to leave a comment on.
-2. Switch to **Comment** mode at the top-right of the window.
+2. Select the comment mode icon	<img alt="Comments icon" src="https://assets.postman.com/postman-docs/icon-comments-v9.jpg#icon" width="18px"> in the request page.
 3. Write your comment, then select **Add Comment**.
 
 ![Add comments on collection request](https://assets.postman.com/postman-docs/adding-a-comment-on-a-collection-request-v8.gif)
@@ -63,7 +63,7 @@ You can leave comments on request parameters (query parameters, path parameters,
 > You can only add comments on saved requests.
 
 1. Open the request you would like to comment on.
-2. Switch to **Comment** mode at the top-right of the window.
+2. Select the comment mode icon	<img alt="Comments icon" src="https://assets.postman.com/postman-docs/icon-comments-v9.jpg#icon" width="18px"> in the request page.
 3. Select the key, value, or description.
 4. Enter your comment, and then select **Add Comment**.
 
@@ -74,7 +74,7 @@ You can leave comments on request parameters (query parameters, path parameters,
 You can add a comment on a specific part of a raw body, a pre-request script, or a test script.
 
 1. Open the request you would like to comment on.
-2. Switch to **Comment** mode at the top-right of the window.
+2. Select the comment mode icon	<img alt="Comments icon" src="https://assets.postman.com/postman-docs/icon-comments-v9.jpg#icon" width="18px"> in the request page.
 3. Open the tab where you want to leave a comment.
 4. Highlight the text you want to comment on.
 5. Enter your comment, then select **Add Comment**.
@@ -86,7 +86,7 @@ You can add a comment on a specific part of a raw body, a pre-request script, or
 You can leave comments on folders in Postman.
 
 1. Open the folder you would like to comment on.
-2. Select the comments icon <img alt="Comments icon" src="https://assets.postman.com/postman-docs/icon-comments-v9.jpg#icon" width="18px"> at the top-right of the context bar.
+2. Select the comments icon <img alt="Comments icon" src="https://assets.postman.com/postman-docs/icon-comments-v9.jpg#icon" width="18px"> in the right sidebar.
 3. Enter your comment, then select **Add Comment**.
 
 ![Adding comment on a folder](https://assets.postman.com/postman-docs/commenting-on-a-folder-v8.gif)
@@ -98,7 +98,7 @@ You can read comments made by teammates on requests and request parameters in Po
 You can read comments made on the request and on request parameters from the app.
 
 1. In Postman, open the request that has the comments you want to review.
-2. Switch to **Comment** mode at the top-right of the window.
+2. Select the comment mode icon	<img alt="Comments icon" src="https://assets.postman.com/postman-docs/icon-comments-v9.jpg#icon" width="18px"> in the request page.
    * You can filter inline comments by **Open Comments**, **Resolved Comments**, or both.
 
 ## Editing comments
@@ -115,7 +115,7 @@ You can make changes to comments you've already posted. Other team members can't
 You can resolve comments made on request parameters when you no longer want them to display.
 
 1. Open the collection with the comment or comments you want to resolve.
-2. Switch to **Comment** mode at the top-right of the window.
+2. Select the comment mode icon	<img alt="Comments icon" src="https://assets.postman.com/postman-docs/icon-comments-v9.jpg#icon" width="18px"> in the request page.
 3. Select **Resolve** next to the comment or comments you would like to resolve.
 
 ![Resolve comments](https://assets.postman.com/postman-docs/resolving-a-comment-v8.gif)

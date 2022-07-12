@@ -102,7 +102,7 @@ Items such as updates to your Postman subscription, payment method changes, paym
 
 ### Viewing past invoices
 
-In your [billing dashboard](http://go.postman.co/billing), select **Plan and payments** on the left, then **Invoices**. You can get a copy of your past invoices by selecting the download icon <img alt="Download icon" src="https://assets.postman.com/postman-docs/icon-download-v9.jpg#icon" width="16px"/> to the right of the invoice you would like to retrieve.
+In your [billing dashboard](http://go.postman.co/billing), select **Plan and payments** on the left, then **Invoices**. You can get a copy of your past invoices by selecting the download icon <img alt="Download icon" src="https://assets.postman.com/postman-docs/icon-download-v9.jpg#icon" width="16px"/> for the specific invoice you want to retrieve.
 
 <img alt="Invoices view" src="https://assets.postman.com/postman-docs/billing-invoices-v9.1.jpg" />
 

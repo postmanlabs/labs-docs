@@ -105,7 +105,7 @@ Use the options in the header to customize the appearance of the documentation:
 
 * **Release Tag** - If the documentation has multiple [release tags](/docs/publishing-your-api/documenting-your-api/#documenting-releases), you can select a specific release to view.
 * **Environment** - If an [environment](/docs/publishing-your-api/documenting-your-api/#associating-environments-with-documentation) was published with the documentation, you can select it to populate any variables.
-* **Layout** - **Double column** displays sample code in a column to the right of the documentation. **Single column** displays sample code inline beneath each request.
+* **Layout** - **Double column** displays sample code in a column next to the documentation. **Single column** displays sample code inline beneath each request.
 * **Language** - Select a language to use for sample code.
 * **Language Settings** - Select the language settings icon <img alt="Language settings icon" src="https://assets.postman.com/postman-docs/icon-gear-solid-v9.jpg#icon" width="16px"> to customize settings for any of the available languages.
 

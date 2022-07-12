@@ -92,7 +92,7 @@ When configuring a monitor, you can choose to receive email notifications for mo
 
 > Once the number of consecutive failures exceeds the defined limit, Postman will stop sending failure notifications. The default limit is 3 consecutive failures.
 
-You will receive daily and weekly summaries of your active monitors by email. If you want to opt out of daily or weekly summaries, select your avatar in the upper-right of Postman and select **Notification Preferences**.
+You will receive daily and weekly summaries of your active monitors by email. If you want to opt out of daily or weekly summaries, select your avatar in the Postman header and select **Notification Preferences**.
 
 [![monitor summary](https://assets.postman.com/postman-docs/monitor-summary-email.jpg)](https://assets.postman.com/postman-docs/monitor-summary-email.jpg)
 

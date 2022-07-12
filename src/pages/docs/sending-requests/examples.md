@@ -91,7 +91,7 @@ With a custom example, you can define exactly how both the [request](/docs/sendi
 
 ## Editing an example
 
-Examples are stored in a collection below their associated requests. You can edit an example any time after adding it to remove sensitive tokens, change the status code, or make any other adjustments.
+Examples are stored in a collection with their associated requests. You can edit an example at any time to remove sensitive tokens, change the status code, or make any other adjustments.
 
 1. Select **Collections** in the sidebar.
 1. Select a request, and then select an example to open it.

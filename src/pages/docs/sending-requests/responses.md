@@ -53,7 +53,7 @@ Note that if the response's `Content-Type` header indicates that the response is
 
 The Pretty view formats JSON or XML responses so they're easier to view. Links inside Pretty view are highlighted, and selecting them can load a GET request in Postman with the link URL.
 
-For navigating large responses, select the down arrows on the left of a line to collapse large sections of the response.
+For navigating large responses, select the down arrows next to a line to collapse large sections of the response.
 
 <img alt="Response Pretty view" src="https://assets.postman.com/postman-docs/response-pretty-view.jpg" width="400px"/>
 

@@ -56,6 +56,6 @@ Congratulations! Postman lists all your collections under **Collections** in the
 
 <img alt="Collection sidebar" src="https://assets.postman.com/postman-docs/creating-first-collection-v8.jpg" width="400px"/>
 
-> You can also create a new collection from your workspace's **Overview** tab. Under **In this workspace** on the right of Postman, hover over **Collections** and select the **+** icon.
+> You can also create a new collection from your workspace's **Overview** tab. Under **In this workspace**, hover over **Collections** and select the **+** icon.
 >
 > <img alt="Create new request overview" src="https://assets.postman.com/postman-docs/create-new-collection-v9.jpg" width="300px"/>

@@ -88,7 +88,7 @@ Select __Save__ to save any environment variables you have added.
 
 ### Adding environment variables
 
-You can add variables to an active (currently selected) environment by opening the environment from the left of Postman and editing in the tab that opens.
+You can add variables to an active (currently selected) environment by opening the environment from the sidebar and editing it in the tab that opens.
 
 ![Edit environment](https://assets.postman.com/postman-docs/environment-editor-tab-v9.13.jpg)
 
@@ -105,7 +105,7 @@ Enter a name for your variable, and specify its __Initial__ and __Current__ valu
 * The __Initial Value__ is synced to your account using the Postman servers. It's shared with any collaborators who have access to the environment.
 * The __Current Value__ is used in your local instance of Postman, and is never synced to your account or shared with your team _unless you choose to persist it_.
 
-To update the synced variable with your local value, set the initial value to the current value by selecting the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> to the right of the variable row and choosing __Persist__. To reset your local (current) value with the synced value shared with your workspace / collaborators, select __Reset__. You can persist or reset all values in the environment using __Persist All__ and __Reset All__.
+To update the synced variable with your local value, set the initial value to the current value by selecting the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> and choosing __Persist__. To reset your local (current) value with the synced value shared with your workspace / collaborators, select __Reset__. You can persist or reset all values in the environment using __Persist All__ and __Reset All__.
 
 You can also define environment variables by **Type**. Variables are automatically assigned the default type when created, which is shown as plain text and has no additional properties. You can change sensitive variables to [secret type](/docs/sending-requests/variables/#variable-types), which masks the initial and current values for all workspace members. Secret type can be used to prevent unintentional disclosure of sensitive data, including API secrets, passwords, tokens, and keys.
 
@@ -201,7 +201,7 @@ You can move environments to shared workspaces to collaborate with your team.
 
 In the sidebar, select the environment you want to share, then select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> > **Move**.
 
-Use the search bar to find the workspace you'd like to move the environment to, or filter by workspace visibility by selecting the icon to the right of the search bar.
+Use the search bar to find the workspace you want to move the environment to, or filter by workspace visibility by selecting <img alt="Filter icon" src="https://assets.postman.com/postman-docs/icon-filter.jpg#icon" width="16px">.
 
 You can share environments to personal, private, team, and public workspaces that you have access to. Shared private, team, and public workspaces allow you to collaborate with others.
 
@@ -263,7 +263,7 @@ With the Editor role, you can [configure access for other team members](#managin
 
 You can fork environments to change them without impacting their base versions, or to contribute to their development without having Editor access. To fork an environment:
 
-1. Hover over the environment in the sidebar and select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> to the right of the environment's name.
+1. Hover over the environment in the sidebar and select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px">.
 2. Select **Create a Fork**.
 
 > You can also fork an environment by selecting **Fork** <img alt="Fork icon" src="https://assets.postman.com/postman-docs/icon-fork.jpg#icon" width="14px"> in the environment overview tab.

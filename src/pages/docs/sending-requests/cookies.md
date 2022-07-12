@@ -52,7 +52,7 @@ The **Manage Cookies** window displays a list of domains and the cookies associa
 
 ### Creating cookies
 
-To add a new cookie for a domain, select **+ Add Cookie** below the domain. A pre-generated cookie string compliant with [HTTP State Management standards](https://datatracker.ietf.org/doc/html/rfc6265#section-4.1) is created.
+To add a new cookie for a domain, select **+ Add Cookie**. A pre-generated cookie string compliant with [HTTP State Management standards](https://datatracker.ietf.org/doc/html/rfc6265#section-4.1) is created.
 
 ```js
 <cookieName>=<cookieValue>; path=/; domain=.domain.com; HttpOnly; Secure; Expires=Tue, 19 Jan 2038 03:14:07 GMT;

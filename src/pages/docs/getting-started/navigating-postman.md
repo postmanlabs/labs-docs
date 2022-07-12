@@ -189,7 +189,7 @@ You can also manage your open tabs or open a new tab by right-clicking on an exi
 
 > **Closing unsaved tabs.** You can set whether Postman asks whether you want to save when you close a tab that has changes. Select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> to open **Settings**. Under **Requests**, select **Always ask when closing unsaved tabs** to turn this option on or off.
 
-If you have a lot of tabs open, they might overflow the area of the tab bar. To go to tabs that are outside the viewable area, select the arrows to the left or right of the tab bar.
+If you have a lot of tabs open, they might overflow the area of the tab bar. To go to tabs that are outside the viewable area, select the arrows next to the tab bar.
 
 <img alt="Scroll to view tabs" src="https://assets.postman.com/postman-docs/tab-navigation-scroll.jpg" width="800px"/>
 

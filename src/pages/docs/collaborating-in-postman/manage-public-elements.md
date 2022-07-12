@@ -47,7 +47,7 @@ To access the **Manage public elements** dashboard, select **Team** in the heade
 
 In the dashboard's **Workspaces** tab, you have access to all the public workspaces created by your team. You can also view and respond to requests to make workspaces public. Along with workspace name, the request date and the requester details are displayed.
 
-To respond to the request, select **Respond** to the right of the workspace. Approve the request to convert the workspace into a [public workspace](/docs/collaborating-in-postman/using-workspaces/public-workspaces/).
+To respond to the request, hover over the relevant line, then select **Respond**. Approve the request to convert the workspace into a [public workspace](/docs/collaborating-in-postman/using-workspaces/public-workspaces/).
 
 <img alt="Convert to public workspaces" src="https://assets.postman.com/postman-docs/request-visibility-public-workspace.jpg"/>
 
