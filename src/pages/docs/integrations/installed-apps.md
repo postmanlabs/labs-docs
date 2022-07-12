@@ -21,7 +21,7 @@ contextual_links:
 
 Each time you add a new integration, you need to authenticate with the third-party app or service you want to connect to Postman. _Installed apps_ streamline this process by enabling all members of a team to use the same stored authorization details when adding an integration.
 
-The Team Admin role is required to set up and manage installed apps. The Team Admin authenticates with the third-party service, and Postman securely stores the authorization details as an installed app. Any team member can set up a new integration using the installed app, without needing to know or enter the authorization details.
+The Team Admin role is required to add and manage installed apps. The Team Admin authenticates with the third-party service, and Postman securely stores the authorization details as an installed app. Any team member can add a new integration using the installed app, without needing to know or enter the authorization details.
 
 ## Contents
 
@@ -33,7 +33,7 @@ The Team Admin role is required to set up and manage installed apps. The Team Ad
 
 ## Supported integrations
 
-Team Admins can set up installed apps for the following Postman integrations:
+Team Admins can add installed apps for the following Postman integrations:
 
 * [Slack](/docs/integrations/available-integrations/slack/) - Post monitoring results
 
@@ -63,7 +63,7 @@ You can add a new installed app when adding a [supported integration](#supported
 1. Search for and select the app or service you want to connect to (for example, **[Slack](https://go.postman.co/integrations/service/slack)**).
 1. Select **Add Integration** next to the integration you want to add.
 1. A browser tab opens asking you to log in to the third-party app or service. Follow the onscreen instructions. When you're finished, close the browser tab and return to Postman.
-1. Select the checkbox to **Authorize your Postman team** with the app you're connecting to.
+1. Select the checkbox to add the app for your team.
 1. Enter any other required information and select **Add Integration**.
 
 The integration is added, and the new installed app appears on the Installed Apps page in [Team Settings](https://go.postman.co/settings/team/general).
@@ -104,7 +104,7 @@ If your Team Admin deleted an installed app, any integrations you added using th
 1. From the Postman **[Home](https://go.postman.co/home)** page, select **[Integrations](https://go.postman.co/integrations)**.
 1. Search for and select the type of integration you want to edit. (For example, search for **Slack** and select **Post monitoring results**.)
 1. Select the integration, and then select **Edit Integration**.
-1. A message and red checkmark let you know you're no longer authenticated with the app or service. Select the **Reauthenticate** link.
+1. A message and red warning icon let you know you're no longer authenticated with the app or service. Select the **Reauthenticate** link.
 1. A browser tab opens asking you to log in to the third-party app or service. Follow the onscreen instructions. When you're finished, close the browser tab and return to Postman.
 1. Select **Save Changes**.
 
