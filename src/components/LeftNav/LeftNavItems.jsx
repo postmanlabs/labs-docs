@@ -29,8 +29,13 @@
 
 export const leftNavItems = [
   {
-    name: "Getting started",
-    parentSlug: "getting-started",
+    name: "Labs Overview",
+    parentSlug: "labs-overview",
+    url: "/labs-overview",
+  },
+  {
+    name: "Postman Flows",
+    parentSlug: "postman-flows",
     url: "/postman-flows/getting-started/flows-overview/",
     subMenuItems1: [
       {
@@ -56,8 +61,8 @@ export const leftNavItems = [
     ],
   },
   {
-    name: "Core concepts",
-    parentSlug: "core-concepts",
+    name: "Flows core concepts",
+    parentSlug: "flows-core-concepts",
     url: "/postman-flows/core-concepts/blocks/",
     subMenuItems1: [
       {
@@ -78,6 +83,44 @@ export const leftNavItems = [
       },
     ],
   },
+  {
+    name: "gRPC Client",
+    parentSlug: "grpc-client",
+    url: "/postman-api-client/grpc-client/grpc-client-overview/",
+    subMenuItems1: [
+      {
+        name: "Introduction",
+        url: "/postman-api-client/grpc-client/grpc-client-overview/",
+      },
+      {
+        name: "Request interface",
+        url: "/postman-api-client/grpc-client/grpc-request-interface/",
+      },
+      {
+        name: "Invoking your first gRPC request",
+        url: "/postman-api-client/grpc-client/first-grpc-request/",
+      },
+      {
+        name: "Using gRPC requests",
+        url: "/postman-api-client/grpc-client/using-grpc-request/",
+      },
+      {
+        name: "Working with service definition",
+        url: "/postman-flows/getting-started/using-service-definition/",
+      },
+    ],
+  }, 
+  {
+    name: "WebSocket Client",
+    parentSlug: "websocket-client",
+    url: "/postman-api-client/websocket-client/websocket-client-overview/",
+    subMenuItems1: [
+      {
+        name: "Using WebSocket requests",
+        url: "/postman-api-client/websocket-client/websocket-client-overview/",
+      },
+    ],
+  }, 
 ]
 
 // export default parentSlugItems;
