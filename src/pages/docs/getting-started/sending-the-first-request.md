@@ -58,7 +58,7 @@ A request includes the URL of the API endpoint and an HTTP request method. The m
 
 Ready to send your first request? Open Postman and get started:
 
-1. Select **+** in the main work area to open a new [tab](/docs/getting-started/navigating-postman/#tabs).
+1. Select **+** in the workbench to open a new [tab](/docs/getting-started/navigating-postman/#tabs).
 1. Enter `postman-echo.com/get` for the request URL.
 1. Select **Send**.
 
