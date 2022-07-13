@@ -48,4 +48,4 @@ Get started with the Collection SDK from the [project repo](https://github.com/p
 
 If you're working with the Collection SDK to automate part of your collection run workflow, you might also want to integrate your Collection SDK development with Newman, Postman's command-line collection runner.
 
-- To learn more about integrating your Collection SDK development with Newman, visit [Running collections on the command line with Newman](/docs/running-collections/using-newman-cli/command-line-integration-with-newman/).
+* To learn more about integrating your Collection SDK development with Newman, visit [Running collections on the command line with Newman](/docs/running-collections/using-newman-cli/command-line-integration-with-newman/).

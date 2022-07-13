@@ -67,4 +67,4 @@ Under **Regions**, choose the **Manually select region** option. Select your des
 
 Now that you know how to monitor APIs that are behind a restricted firewall, you might also be interested in setting up an integration with other tools in your development workflow.
 
-- To learn how to set up integrations for your monitor results, see [Integrating with Postman](/docs/integrations/intro-integrations/).
+* To learn how to set up integrations for your monitor results, see [Integrating with Postman](/docs/integrations/intro-integrations/).

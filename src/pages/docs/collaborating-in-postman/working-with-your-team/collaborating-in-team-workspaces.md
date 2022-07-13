@@ -88,5 +88,5 @@ You can also watch specific elements within a team workspace to receive a notifi
 
 Now that you know how to collaborate in team workspaces, you might want more information about managing and working with workspaces:
 
-- To learn more about managing team workspaces, visit [Using and managing workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/).
-- To use comments to aid in collaboration, visit [Discussing your work](/docs/collaborating-in-postman/working-with-your-team/discussing-your-work/).
+* To learn more about managing team workspaces, visit [Using and managing workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/).
+* To use comments to aid in collaboration, visit [Discussing your work](/docs/collaborating-in-postman/working-with-your-team/discussing-your-work/).

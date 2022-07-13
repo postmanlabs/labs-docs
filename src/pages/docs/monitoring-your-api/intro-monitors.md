@@ -95,5 +95,5 @@ Because they run Postman requests and scripts, collection-based monitors can be 
 
 Now that you understand the fundamentals of API monitoring, you can set up a collection-based monitor or an uptime monitor:
 
-- To learn how to set up a new collection-based monitor, visit [Setting up a collection-based monitor](/docs/monitoring-your-api/setting-up-monitor/).
-- To learn how to [start monitoring uptime for an API endpoint, visit [Monitoring API uptime](/docs/monitoring-your-api/uptime-monitors/).
+* To learn how to set up a new collection-based monitor, visit [Setting up a collection-based monitor](/docs/monitoring-your-api/setting-up-monitor/).
+* To learn how to [start monitoring uptime for an API endpoint, visit [Monitoring API uptime](/docs/monitoring-your-api/uptime-monitors/).

@@ -120,4 +120,4 @@ You can also use collection runs in conjunction with other Postman utilities to 
 
 Now that you know the fundamentals of using the Collection Runner, you can extend its functionality with workflows.
 
-- To learn how to use scripts to build workflows with conditional sequences for running the requests in your collections, visit [Building request workflows](/docs/running-collections/building-workflows/).
+* To learn how to use scripts to build workflows with conditional sequences for running the requests in your collections, visit [Building request workflows](/docs/running-collections/building-workflows/).

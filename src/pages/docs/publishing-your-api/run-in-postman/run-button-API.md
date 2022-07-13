@@ -221,5 +221,5 @@ This will return an array of environments:
 
 Now that you know how to create a Run in Postman button, you might want to share your API even more widely by creating documentation in a public workspace.
 
-- To learn how to create API documentation in Postman, visit [Documenting your API](/docs/publishing-your-api/documenting-your-api/).
-- To learn how to add your documentation to your public workspaces, visit [Publishing your docs](/docs/publishing-your-api/publishing-your-docs/).
+* To learn how to create API documentation in Postman, visit [Documenting your API](/docs/publishing-your-api/documenting-your-api/).
+* To learn how to add your documentation to your public workspaces, visit [Publishing your docs](/docs/publishing-your-api/publishing-your-docs/).

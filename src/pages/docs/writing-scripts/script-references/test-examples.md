@@ -615,5 +615,5 @@ tests["Successful POST request"] = responseCode.code === 201 || responseCode.cod
 
 Now that you have seen test script examples for various scenarios, you may be interested in extending your own tests.
 
-- To learn how to use dynamic variables in your test scripts, visit [Dynamic variables](/docs/writing-scripts/script-references/variables-list/).
-- To learn more about how to use the `pm` object, visit the [Postman JavaScript reference](/docs/writing-scripts/script-references/postman-sandbox-api-reference/).
+* To learn how to use dynamic variables in your test scripts, visit [Dynamic variables](/docs/writing-scripts/script-references/variables-list/).
+* To learn more about how to use the `pm` object, visit the [Postman JavaScript reference](/docs/writing-scripts/script-references/postman-sandbox-api-reference/).

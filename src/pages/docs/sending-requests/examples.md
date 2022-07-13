@@ -131,5 +131,5 @@ Examples provide additional details and clarification for your API and help your
 
 Now that you have learned the fundamentals of creating examples in Postman, you can use them to set up a mock server and to enhance your documentation.
 
-- To learn how to use examples to set up a mock server, visit [Setting up mock servers](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/).
-- To learn how to include examples in your API documentation, visit [Documenting your API](/docs/publishing-your-api/documenting-your-api/).
+* To learn how to use examples to set up a mock server, visit [Setting up mock servers](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/).
+* To learn how to include examples in your API documentation, visit [Documenting your API](/docs/publishing-your-api/documenting-your-api/).

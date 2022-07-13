@@ -218,4 +218,4 @@ To delete a workspace:
 
 Now that you understand the fundamentals of managing and using workspaces, you might want to track activities in a workspace:
 
-- To learn about the workspace changelog and how to use it to track recent activity, visit [Viewing workspace activity](/docs/collaborating-in-postman/using-workspaces/changelog-and-restoring-collections/).
+* To learn about the workspace changelog and how to use it to track recent activity, visit [Viewing workspace activity](/docs/collaborating-in-postman/using-workspaces/changelog-and-restoring-collections/).

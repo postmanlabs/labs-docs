@@ -139,5 +139,5 @@ To work with a monitor, select **Monitors** in the sidebar and then select a mon
 
 Now that you've learned to create a collection-based monitor, you can view your monitor results and set up integrations to send monitor data to other platforms:
 
-- To learn how to view the results of your collection-based monitors for detailed information about monitor runs, visit [Viewing collection-based monitor results](/docs/monitoring-your-api/viewing-monitor-results/).
-- To learn how to set up integrations] to send monitor data and notifications to other platforms, visit [Integrating with Postman](/docs/integrations/intro-integrations/).
+* To learn how to view the results of your collection-based monitors for detailed information about monitor runs, visit [Viewing collection-based monitor results](/docs/monitoring-your-api/viewing-monitor-results/).
+* To learn how to set up integrations] to send monitor data and notifications to other platforms, visit [Integrating with Postman](/docs/integrations/intro-integrations/).

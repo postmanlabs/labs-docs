@@ -59,4 +59,4 @@ You can use the Runtime library if you need a detailed configuration of your req
 
 Now that you've gotten started with the Runtime library, you might also want to use the Postman API in your Continuous Integration / Continuous Deployment (CI/CD) workflow.
 
-- To learn more about incorporating Postman into your CI/CD workflow, visit [CI with Postman API](/docs/running-collections/using-newman-cli/continuous-integration/).
+* To learn more about incorporating Postman into your CI/CD workflow, visit [CI with Postman API](/docs/running-collections/using-newman-cli/continuous-integration/).

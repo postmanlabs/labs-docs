@@ -100,4 +100,4 @@ Learn more about [running collections or folders](/docs/running-collections/intr
 
 Now that you know how to build request workflows, you might also be interested in writing scripts:
 
-- To learn more about writing pre-request and test scripts, visit [Scripting in Postman](/docs/writing-scripts/intro-to-scripts/).
+* To learn more about writing pre-request and test scripts, visit [Scripting in Postman](/docs/writing-scripts/intro-to-scripts/).
