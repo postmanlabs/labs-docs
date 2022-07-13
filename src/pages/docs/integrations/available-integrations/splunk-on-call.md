@@ -23,10 +23,10 @@ This integration enables you to configure [Postman Monitors](/docs/monitoring-yo
 ## Get the Splunk On-Call API key
 
 1. Sign in to your Splunk On-Call account and select the **Integrations** tab.
-   [![sign in to Splunk On-Call](https://assets.postman.com/postman-docs/splunk-on-call-integrations-1.jpg)](https://assets.postman.com/postman-docs/splunk-on-call-integrations-1.jpg)
+   [![Sign in to Splunk On-Call](https://assets.postman.com/postman-docs/splunk-on-call-integrations-1.jpg)](https://assets.postman.com/postman-docs/splunk-on-call-integrations-1.jpg)
 1. On the **Integrations** page, search and select the **REST Generic** Integration.
 1. If the integration isn't already enabled, select **Enable Integration**. When the integration is enabled, the page displays a URL containing the API Key.
-   [![view API key](https://assets.postman.com/postman-docs/58843264.png)](https://assets.postman.com/postman-docs/58843264.png)
+   [![View API key](https://assets.postman.com/postman-docs/58843264.png)](https://assets.postman.com/postman-docs/58843264.png)
 1. Copy the API Key and save it for later.
 
 If you are using teams in Splunk On-Call, you can route alerts to specific teams by pairing routing keys with escalation policies. 
@@ -40,7 +40,7 @@ If you are using teams in Splunk On-Call, you can route alerts to specific teams
 
 1. On the **[Home](https://go.postman.co/home)** page, select **[Integrations](https://go.postman.co/integrations)**.
 
-    ![home page and integrations](https://assets.postman.com/postman-docs/home-integrations.jpg)
+    ![Home page and integrations](https://assets.postman.com/postman-docs/home-integrations.jpg)
 
 1. Search and select **Splunk On-Call**.
 1. Select **Add Integration** and enter the following:
@@ -64,4 +64,4 @@ If you are using teams in Splunk On-Call, you can route alerts to specific teams
 
 An incident on Splunk On-Call consists of basic information from a monitor that has failed, including the number of errors and failed tests. It also provides a direct link to the failing monitor. This integration automatically acknowledges a triggered incident if the next run succeeds.
 
-[![victorops view](https://assets.postman.com/postman-docs/58843343.png)](https://assets.postman.com/postman-docs/58843343.png)
+[![Incident info](https://assets.postman.com/postman-docs/58843343.png)](https://assets.postman.com/postman-docs/58843343.png)
