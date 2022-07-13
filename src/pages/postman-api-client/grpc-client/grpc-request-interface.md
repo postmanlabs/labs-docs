@@ -68,13 +68,13 @@ You can compose a message in JSON to send along with the request. As per the bac
 
 Using the Authorization section, you can pass the credentials that the server would use to authorize the connection. Depending on the server requirement you can choose from a list of Auth types that include: API Key, Basic auth and Bearer token.
 
-<img src="https://assets.postman.com/postman-labs-docs/grpc-docs/request-interface/auth-tab.jpeg" alt="Auth configuration" width="800px">
+<img src="https://assets.postman.com/postman-labs-docs/grpc-docs/request-interface/auth-tab.jpeg" alt="Auth configuration">
 
 #### Metadata
 
 You can pass additional metadata along with the request in the form of key-value pairs. Metadata is used by the client to provide “more information“ about the call to the server and vice versa.
 
-<img src="https://assets.postman.com/postman-labs-docs/grpc-docs/request-interface/metadata-tab.jpeg" alt="Metadata configuration" width="800px">
+<img src="https://assets.postman.com/postman-labs-docs/grpc-docs/request-interface/metadata-tab.jpeg" alt="Metadata configuration">
 
 ### Message actions
 
