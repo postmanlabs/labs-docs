@@ -23,16 +23,16 @@ This integration enables you to configure [Postman Monitors](/docs/monitoring-yo
 ## Get the Splunk On-Call API key
 
 1. Sign in to your Splunk On-Call account and select the **Integrations** tab.
-   [![Sign in to Splunk On-Call](https://assets.postman.com/postman-docs/splunk-on-call-integrations-1.jpg)](https://assets.postman.com/postman-docs/splunk-on-call-integrations-1.jpg)
+   [![Sign in to Splunk On-Call](https://assets.postman.com/postman-docs/splunk-on-call-integrations-2.jpg)](https://assets.postman.com/postman-docs/splunk-on-call-integrations-2.jpg)
 1. On the **Integrations** page, search and select the **REST Generic** Integration.
 1. If the integration isn't already enabled, select **Enable Integration**. When the integration is enabled, the page displays a URL containing the API Key.
-   [![View API key](https://assets.postman.com/postman-docs/58843264.png)](https://assets.postman.com/postman-docs/58843264.png)
+   [![View API key](https://assets.postman.com/postman-docs/splunk-on-call-copy-api-key.jpg)](https://assets.postman.com/postman-docs/splunk-on-call-copy-api-key.jpg)
 1. Copy the API Key and save it for later.
 
 If you are using teams in Splunk On-Call, you can route alerts to specific teams by pairing routing keys with escalation policies. 
 
 1. Select the **Settings** tab, then select **Routing Keys**.
-   [![Routing keys](https://assets.postman.com/postman-docs/splunk-on-call-routing-keys.jpg)](https://assets.postman.com/postman-docs/splunk-on-call-routing-keys.jpg)
+   [![Routing keys](https://assets.postman.com/postman-docs/splunk-on-call-routing-keys-1.jpg)](https://assets.postman.com/postman-docs/splunk-on-call-routing-keys-1.jpg)
 1. Select **Add Key**.
 1. Enter the API key you copied from the **Integrations** page and select an escalation policy.
 
@@ -49,7 +49,7 @@ If you are using teams in Splunk On-Call, you can route alerts to specific teams
     * **Monitor** -   Send this monitor's results to Splunk On-Call.
     * **API Key** -  The API key from the Splunk On-Call **Integrations** page.
 1. Select **Advanced Options** if you want to add a Splunk On-Call routing key.
-    > You can send the results of multiple monitors to the same Splunk On-Call collection.
+    > You can send the multiple monitors' results to the same Splunk On-Call collection.
 1. Select **Add Integration**.
 
    ![Splunk On-Call add integration](https://assets.postman.com/postman-docs/splunk-on-call-add-integration-config.jpg)
@@ -64,4 +64,4 @@ If you are using teams in Splunk On-Call, you can route alerts to specific teams
 
 An incident on Splunk On-Call consists of basic information from a monitor that has failed, including the number of errors and failed tests. It also provides a direct link to the failing monitor. This integration automatically acknowledges a triggered incident if the next run succeeds.
 
-[![Incident info](https://assets.postman.com/postman-docs/58843343.png)](https://assets.postman.com/postman-docs/58843343.png)
+[![Incident info](https://assets.postman.com/postman-docs/splunk-on-call-incident-info.jpg)](https://assets.postman.com/postman-docs/splunk-on-call-incident-info.jpg)
