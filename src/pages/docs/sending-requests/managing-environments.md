@@ -64,7 +64,7 @@ An environment is a set of [variables](/docs/sending-requests/variables/) you ca
 
 ## Creating environments
 
-Postman displays the active environment in the environment selector, located in the header.
+Postman displays the active environment in the environment selector, located in the top right of the workbench.
 
 You can access all environments from __Environments__ in the sidebar. Select the set active icon <img alt="Set active icon" src="https://assets.postman.com/postman-docs/icon-checkmark-v9.jpg#icon" width="16px"> next to an environment to make it the active environment.
 
@@ -125,7 +125,7 @@ To view the variables in an environment, select its name. You can edit, add, and
 
 ### Selecting an active environment
 
-To use the variables in an environment, select it from the environment selector at the top right of Postman.
+To use the variables in an environment, select it from the environment selector at the top right of the workbench.
 
 <img src="https://assets.postman.com/postman-docs/environment-selector-v9.13.jpg" alt="Environment selector" width="300px"/>
 
