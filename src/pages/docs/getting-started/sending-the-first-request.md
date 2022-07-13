@@ -82,5 +82,5 @@ You used Postman to send an API request and got a response from the API server. 
 
 Now that you've sent your first request, you're ready to do more with Postman!
 
-- You can send some more requests to the Postman Echo API, a handy tool you can use to test API requests in Postman. To learn more about using the Echo API, visit the [Postman Echo API documentation](/docs/developer/echo-api/).
-- When you're ready to learn more about building and sending requests in Postman, visit [Building requests](/docs/sending-requests/requests/).
+* You can send some more requests to the Postman Echo API, a handy tool you can use to test API requests in Postman. To learn more about using the Echo API, visit the [Postman Echo API documentation](/docs/developer/echo-api/).
+* When you're ready to learn more about building and sending requests in Postman, visit [Building requests](/docs/sending-requests/requests/).
