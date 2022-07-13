@@ -346,7 +346,3 @@ To resolve a merge conflict:
 <img src="https://assets.postman.com/postman-docs/conflicts-pull-changes-v2.jpg" alt="Pull Changes" width="450px"/>
 
 After you resolve the conflicts, select **Pull changes** to [pull the updates](#pulling-updates).
-
-## Next steps
-
-You can also use [version control on APIs](/docs/designing-and-developing-your-api/versioning-an-api/) you design and build in Postman.

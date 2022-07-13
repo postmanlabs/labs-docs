@@ -49,6 +49,7 @@ Select the `GET` method, then select __Send__. The Echo API will return a JSON o
 
 ## Next steps
 
-You can fork the [Echo collection](https://www.postman.com/postman/workspace/published-postman-templates/documentation/631643-f695cab7-6878-eb55-7943-ad88e1ccfd65?ctx=documentation) to use pre-built requests to the API. You can also edit the requests in the forked collection to suit your needs.
+To continue working with the Echo collection, and to find other collections to aid in learning about APIs:
 
-You will also find many other useful collections for learning about Postman and APIs in the [Public API Network](/docs/getting-started/exploring-public-api-network/).
+- You can fork the [Echo collection](https://www.postman.com/postman/workspace/published-postman-templates/documentation/631643-f695cab7-6878-eb55-7943-ad88e1ccfd65?ctx=documentation) to use pre-built requests to the API. You can also edit the requests in the forked collection to suit your needs.
+- You will also find many other useful collections for learning about Postman and APIs in the [Public API Network](/docs/getting-started/exploring-public-api-network/).

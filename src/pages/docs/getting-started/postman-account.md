@@ -180,4 +180,6 @@ For more details on Postman's security policies and standards, visit the Postman
 
 ## Next steps
 
-Now that you have created a Postman account, you're ready to start working! When you are logged into Postman, you are connected to the Postman servers and your work is continuously backed up. Learn more about how Postman syncs your data in the [Syncing your work](/docs/getting-started/syncing/) section.
+Now that you have created a Postman account, you're ready to start working! When you are logged into Postman, you are connected to the Postman servers and your work is continuously backed up.
+
+- To learn more about how Postman syncs your data, visit [Syncing your work](/docs/getting-started/syncing/).

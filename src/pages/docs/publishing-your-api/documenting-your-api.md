@@ -204,4 +204,7 @@ To document a new release of an API version:
 
 ## Next steps
 
-Learn more about [authoring your docs](/docs/publishing-your-api/authoring-your-documentation/) with Postman's built-in editing tools, [publishing your docs](/docs/publishing-your-api/publishing-your-docs/) to make them publicly available, and the various ways to [view documentation](/docs/publishing-your-api/viewing-documentation/).
+Now that you know how to generate API documentation in Postman, you can edit and format the docs and publish them.
+
+- To learn more about editing and formatting your documentation, visit [Authoring your docs](/docs/publishing-your-api/authoring-your-documentation/).
+- To learn how to make your documentation publicly available, visit [Publishing your docs](/docs/publishing-your-api/publishing-your-docs/).

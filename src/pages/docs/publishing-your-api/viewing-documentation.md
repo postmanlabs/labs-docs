@@ -46,7 +46,6 @@ Documentation authors can also choose to [publish their documentation](/docs/pub
 * [Viewing API documentation](#viewing-api-documentation)
 * [Viewing public documentation](#viewing-public-documentation)
 * [Linking to public documentation](#linking-to-public-documentation)
-* [Next steps](#next-steps)
 
 ## Viewing documentation for a collection
 
@@ -120,7 +119,3 @@ Want to share a specific endpoint with someone or bookmark it for later? You can
 To save a link, select a section, folder, or request in the sidebar. Copy the URL in your browser's address bar, or save it as a bookmark. Next time, you can use the URL to link directly to the selected section.
 
 <img alt="Documentation links" src="https://assets.postman.com/postman-docs/documentation-copy-link-v9.jpg" width="773px"/>
-
-## Next steps
-
-Learn more about [collaborating with your team](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/) in Postman.

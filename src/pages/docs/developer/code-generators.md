@@ -25,6 +25,8 @@ The code generator takes a Collection SDK [Request object](http://www.postmanlab
 
 You can install the code generator library from [npm](https://www.npmjs.com/package/postman-code-generators) or by [cloning it from its repo](https://github.com/postmanlabs/postman-code-generators).
 
+To get started using the code generator module, [check out the instructions for installation and usage in the project repo on GitHub](https://github.com/postmanlabs/postman-code-generators).
+
 > You can also generate client code for a request or collection [in Postman](/docs/sending-requests/generate-code-snippets/).
 
 ## Using code generation programmatically
@@ -81,4 +83,4 @@ Since the code generator module is an open-source project, if there is a languag
 
 ## Next steps
 
-To get started using the code generator module, [check out the instructions for installation and usage in the project repo on GitHub](https://github.com/postmanlabs/postman-code-generators). If you're using Postman to work with client applications, you might also find it useful to [capture request data](/docs/sending-requests/capturing-request-data/capturing-http-requests/).
+- If you're using Postman to work with client applications, you might also find it useful to [capture request data](/docs/sending-requests/capturing-request-data/capturing-http-requests/).

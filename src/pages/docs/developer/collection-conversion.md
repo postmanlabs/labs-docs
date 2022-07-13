@@ -35,4 +35,6 @@ Check out the repo for the format you need to convert—the READMEs indicate how
 
 ## Next steps
 
-If you're using converters to automate Postman Collection runs with your development, testing, or deployment pipeline, check out how you can use [Postman API in your CI workflow](/docs/running-collections/using-newman-cli/continuous-integration/).
+Now that you understand the fundamentals of using converters to automate Postman Collection runs with your development, testing, or deployment pipeline, you might also want to use the Postman API in your CI/CD workflow:
+
+- To learn more about accessing collections using the Postman API to run inside your Continuous Integration / Continuous Deployment (CI/CD) environments, visit [CI with Postman API](/docs/running-collections/using-newman-cli/continuous-integration/).

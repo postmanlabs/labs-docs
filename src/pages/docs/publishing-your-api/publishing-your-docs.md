@@ -43,7 +43,6 @@ Public documentation automatically includes details for each request or endpoint
 * [Sharing your public docs](#sharing-your-public-docs)
 * [Changing publication settings](#changing-publication-settings)
 * [Unpublishing your docs](#unpublishing-your-docs)
-* [Next steps](#next-steps)
 
 ## Making your documentation public
 
@@ -119,7 +118,3 @@ If you no long want your documentation to be publicly available, you can unpubli
 If you change your mind, you can [publish your documentation](#making-your-documentation-public) again at any time.
 
 <img alt="Unpublish documentation" src="https://assets.postman.com/postman-docs/documentation-unpublish-v9.jpg" width="737px">
-
-## Next steps
-
-Learn more about [viewing documentation](/docs/publishing-your-api/viewing-documentation/).

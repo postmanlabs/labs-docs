@@ -81,4 +81,7 @@ You can also create a new workspace in the [Workspaces dashboard](https://app.ge
 
 ## Next steps
 
-Check out some tips on how to [use and manage your workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/). You can also use your workspace [activity feed](/docs/collaborating-in-postman/using-workspaces/changelog-and-restoring-collections/) to keep up to date with progress on the projects within it.
+Now that you've learned how to create a workspace, you can use them to collaborate with your team.
+
+- To learn more about what you and your team can do with workspaces, visit [Managing workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/).
+- You can also use your workspace [activity feed](/docs/collaborating-in-postman/using-workspaces/changelog-and-restoring-collections/) to keep up to date with progress on the projects within it.

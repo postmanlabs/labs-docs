@@ -87,8 +87,8 @@ If you have any questions or run into any issues setting up Postman for your tea
 
 ## Next steps
 
-Check out [Security and Compliance: A Shared Responsibility Model](https://www.postman.com/shared-responsibility/) for important security considerations.
+After you follow the steps in this onboarding checklist, there are a few other steps to take to make sure that your team is secure:
 
-Make sure to [configure SSO](/docs/administration/sso/admin-sso/) if you are subscribed to the Professional or Enterprise plan.
-
-Finally, head over to [Managing Your Team](/docs/administration/managing-your-team/managing-your-team/) to learn about managing roles, inviting to workspaces, and how to adjust your team size.
+- For important security considerations, check out [Security and Compliance: A Shared Responsibility Model](https://www.postman.com/shared-responsibility/).
+- If you are subscribed to the Professional or Enterprise plan, make sure to [configure SSO](/docs/administration/sso/admin-sso/).
+- To learn about managing roles, inviting to workspaces, and how to adjust your team size, visit [Managing your team](/docs/administration/managing-your-team/managing-your-team/).

@@ -39,8 +39,6 @@ You must be a [Postman Team Admin](/docs/collaborating-in-postman/roles-and-perm
 
 * [Deleting a group](#deleting-a-group)
 
-* [Next steps](#next-steps)
-
 ## Creating a group
 
 As a Team Admin, you can create a group by selecting **Team** in the upper-right corner > **Manage Team**.
@@ -116,7 +114,3 @@ In Postman, select **Team** in the upper-right corner > **Manage Team**. Under *
 Select **Delete** to delete the group, then **Delete Group** to confirm.
 
 <img alt="Delete group" src="https://assets.postman.com/postman-docs/team-delete-group-v9.1.jpg" width="400px"/>
-
-## Next steps
-
-Learn more about [defining roles](/docs/collaborating-in-postman/roles-and-permissions/) in your team.

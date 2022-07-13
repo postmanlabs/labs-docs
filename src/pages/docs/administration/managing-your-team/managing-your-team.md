@@ -130,6 +130,6 @@ If your team isn't on the latest version of Postman, you can update your team to
 
 ## Next steps
 
-Check out [Postman's integrations](/docs/integrations/intro-integrations/) to incorporate Postman into your existing API development workflows.
+Now that you have set up your Postman team, you can use reports to get insights into your team's API development, including tests, documentation, and monitoring coverage.
 
-If you're on an Enterprise plan, check out [Postman's reporting feature](/docs/reports/reports-overview/), which provides insights into your team's API development, including tests, documentation, and monitoring coverage.
+- To learn more about Postman's reporting feature, visit [Using reports](/docs/reports/reports-overview/). (_Enterprise plans only._)

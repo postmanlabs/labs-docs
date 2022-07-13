@@ -298,6 +298,7 @@ If you have canceled your Postman plan and want to reverse this action, select *
 
 ## Next steps
 
-For information on team management, see [Managing your team](/docs/administration/managing-your-team/managing-your-team/).
+Now that you know how to navigate the billing dashboard, you might also want to learn more about the Billing role.
 
-To learn more about the billing team role, see [Roles and Permissions](/docs/collaborating-in-postman/roles-and-permissions/).
+- To learn more about the Billing team role, visit [Roles and permissions](/docs/collaborating-in-postman/roles-and-permissions/).
+- For information on team management, visit [Managing your team](/docs/administration/managing-your-team/managing-your-team/).

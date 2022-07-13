@@ -26,7 +26,7 @@ You can leave comments on APIs, collections, and requests to collaborate with yo
 * [Resolving comments](#resolving-comments)
 * [Deleting comments](#deleting-comments)
 * [Tagging members in comments](#tagging-members-in-comments)
-* [Next steps](#next-steps)
+* [Using Markdown in comments](#using-markdown-in-comments)
 
 > Postman supports comments on requests and request parameters.
 
@@ -144,6 +144,6 @@ Your teammate will be notified in the app or with an email that they've been tag
 
 <img src="https://assets.postman.com/postman-docs/check-comment-notifications-v8.jpg" alt="Notification bell" width="398px">
 
-## Next steps
+## Using Markdown in comments
 
 Postman comments support Markdown. For more information on formatting using Markdown refer to [Markdown in API Documentation](https://documenter.postman.com/view/33232/markdown-in-api-documentation/JsGc?version=latest).

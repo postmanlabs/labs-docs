@@ -51,7 +51,6 @@ To help your teammates ([or the world](/docs/publishing-your-api/publishing-your
 * [Adding links](#adding-links)
 * [Adding images](#adding-images)
 * [Finding help and inspiration](#finding-help-and-inspiration)
-* [Next steps](#next-steps)
 
 ## Adding descriptions to your documentation
 
@@ -181,7 +180,3 @@ Images liven up your documentation and help your ideas come across more clearly.
 1. Select a team, workspace, API, or collection to access documentation authored by others who are part of the Public API Network.
 
     ![Documentation example](https://assets.postman.com/postman-docs/documentation-docs-example-v8-10.jpg)
-
-## Next steps
-
-To make your documentation publicly available, see [Publishing your docs](/docs/publishing-your-api/publishing-your-docs/).

@@ -105,7 +105,3 @@ Select the **Run in Postman** button to open the page where you can fork the col
 <img alt="Fork collection for run in postman" src="https://assets.postman.com/postman-docs/fork-collection-for-run-in-postman.jpg" height="400px"/>
 
 > Live Run in Postman buttons automatically stay updated with changes in the original collection, so your consumers always get the most recent version of your collection without publishers having to manually update the collection's link.
-
-## Next steps
-
-Read more about the [Run in Postman API](/docs/publishing-your-api/run-in-postman/run-button-API/) and learn how to add and update environments with your button.
