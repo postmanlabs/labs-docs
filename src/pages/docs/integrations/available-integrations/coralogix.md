@@ -48,11 +48,15 @@ Setting up a Coralogix integration requires you to get an API key from Coralogix
 
     ![coralogix integrations page](https://assets.postman.com/postman-docs/coralogix-add-integration.jpg)
 
-   To send your monitor metrics and events to Coralogix:
+1. Enter the following in the **Add integration** window:
 
-    * Select the monitor whose data you would like to send to Coralogix.
-    * Enter a Coralogix private key.
-    * Optionally indicate if you want to send collection or environment details for each run.
+    * **Nickname** - A nickname for your integration.
+    * **Workspace** - The workspace that contains your monitor.
+    * **Monitor** - The collection-based monitor whose logs you would like to send to Coralogix.
+    * **Private key** - Your Coralogix private key.
+    * **Coralogix Site** - Your Coralogix site.
+    * **Region** - The region that hosts your cluster.
+    * **Advanced Options** - Show the Advanced Options to indicate if you want to send collection or environment details for each run.
 
 1. Select **Add Integration** to save the configuration.
 
