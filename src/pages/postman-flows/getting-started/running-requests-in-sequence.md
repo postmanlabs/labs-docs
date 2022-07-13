@@ -25,8 +25,8 @@ If you have a bunch of simple requests that have no dependency on each other but
 
    > **Important**
    >
-   > 1. When a signal connection is made the input become disabled to show that it will get enabled after the previous >blocks get enabled.
-   > 2. The signal connection depict exactly the order in which the blocks will be executed.
+   > 1. When a signal connection is made the input becomes disabled to show that it will get enabled after the previous blocks get enabled.
+   > 2. The signal connection depicts the exact order in which the blocks will be executed.
    > 3. When using signal no data is passed from one block to another.
    > 4. Two or more connections can be made to an input. The block will execute only when all signals have got enabled.
 
