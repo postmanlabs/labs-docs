@@ -141,8 +141,9 @@ All collections in your personal workspace and any workspaces that you have join
 
 > Reach out to [Postman support](https://www.postman.com/support/) if you have any questions or run into any issues setting up Postman for your team.
 
-## Next Steps
+## Next steps
 
-[Configure SSO](/docs/administration/sso/admin-sso/) if you are subscribed to a Postman Professional or Enterprise plan.
+Now that you know how to migrate data between teams, you might also be interested in learning how to manage team roles and set up SSO.
 
-Learn how to [manage your team roles, invite team members to workspaces, and adjust your team size](/docs/administration/managing-your-team/managing-your-team/).
+- To learn how to manage your team roles, invite team members to workspaces, and adjust your team size, visit [Managing your team](/docs/administration/managing-your-team/managing-your-team/).
+- To learn how to set up single sign-on (SSO) for your Postman team, visit [Configure SSO](/docs/administration/sso/admin-sso/). (_Professional and Enterprise plans only_.)

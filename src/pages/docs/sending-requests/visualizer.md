@@ -175,4 +175,7 @@ You can debug a visualization in Postman by right-clicking in the __Visualize__ 
 
 ## Next steps
 
-You can experiment with visualizations using the collections [listed above](#try-it-out) as a starting point and tweak the code to get the results you need for your own data. For more on how Postman provides access to your response data inside scripts, check out the [Test Examples](/docs/writing-scripts/script-references/test-examples/).
+Now that you've learned about visualizing responses in Postman, you can start creating visualizations of your own.
+
+- As a starting point, experiment with visualizations using the collections listed in [Try it out](#try-it-out), then tweak the code to get the results you need for your own data.
+- For more information about how Postman provides access to your response data inside scripts, visit [Test examples](/docs/writing-scripts/script-references/test-examples/).

@@ -83,10 +83,3 @@ You may encounter errors when Postman attempts to read your data file during a c
 2. Confirm your data file is encoded properly, by opening your data file in a text editor and saving the file in a different format.
 
 If the errors persist, [contact the Postman support team](https://support.postman.com/hc/en-us).
-
-## Next steps
-
-To continue learning to leverage collection runs, check out the following resources:
-
-* [Building workflows](/docs/running-collections/building-workflows/)
-* [Command-line integration with Newman](/docs/running-collections/using-newman-cli/command-line-integration-with-newman/)

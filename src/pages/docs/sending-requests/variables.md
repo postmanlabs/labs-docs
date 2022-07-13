@@ -62,7 +62,6 @@ _Variables_ enable you to store and reuse values in Postman. By storing a value 
 * [Using variables](#using-variables)
 * [Sharing and persisting data](#sharing-and-persisting-data)
 * [Fixing unresolved variables](#fixing-unresolved-variables)
-* [Next steps](#next-steps)
 
 ## Variables quick start
 
@@ -437,7 +436,3 @@ If the variable is unresolved because it doesn't exist:
 <img alt="Set an unresolved variable" src="https://assets.postman.com/postman-docs/set-unresolved-variable-v9.jpg" width="300px"/>
 
 > Variables that are [defined programmatically in a script](#defining-variables-in-scripts) are resolved differently depending on the variable scope. This means that unresolved variables will also be handled differently. Local variables that are set programmatically using `pm.variables.set` may appear to be unresolved since they're not stored and are only used at runtime, but if they're set and used correctly the request will still run successfully. Environment, global, and collection variables that are set programmatically are saved for later use, so they will resolve if they're set and used correctly. Depending on how an unresolved variable is used in a script, you may receive a `400 Bad Request` error response from the API, or Postman may be unable to send the request at all. Open the [console](/docs/sending-requests/troubleshooting-api-requests/#debugging-in-the-console) to help identify unresolved variables in your scripts.
-
-## Next steps
-
-For an overview of how you can manage and share variable data sets, see [Managing environments](/docs/sending-requests/managing-environments/). Check out [Intro to scripts](/docs/writing-scripts/intro-to-scripts/) for more on using variables in your request scripting, and [Grouping requests in collections](/docs/sending-requests/intro-to-collections/) for more on how you can use data between requests.

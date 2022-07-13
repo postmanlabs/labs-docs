@@ -102,7 +102,3 @@ Postman supports the following options:
 | Swift | [URLSession](https://developer.apple.com/documentation/foundation/urlsession) |
 
 > To add a new language or setting, you can contribute to [Postman's open-source project](https://github.com/postmanlabs/postman-code-generators).
-
-## Next steps
-
-Learn about [Capturing HTTP requests](/docs/sending-requests/capturing-request-data/capturing-http-requests/) and [Interceptor](/docs/sending-requests/capturing-request-data/interceptor/).

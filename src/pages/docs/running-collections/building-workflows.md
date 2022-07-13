@@ -96,6 +96,8 @@ The scope of `postman.setNextRequest()` is the source of your collection run.
 
 Learn more about [running collections or folders](/docs/running-collections/intro-to-collection-runs/).
 
-## Next Steps
+## Next steps
 
-To learn more about writing pre-request and test scripts, see [Scripting in Postman](/docs/writing-scripts/intro-to-scripts/)
+Now that you know how to build request workflows, you might also be interested in writing scripts:
+
+- To learn more about writing pre-request and test scripts, visit [Scripting in Postman](/docs/writing-scripts/intro-to-scripts/).

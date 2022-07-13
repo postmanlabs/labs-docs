@@ -284,7 +284,7 @@ If you have [Editor access](/docs/collaborating-in-postman/roles-and-permissions
 
 Shared environments allow you to leverage collaboration within Postman. Check out some more resources on how you can work with team members on your API development projects:
 
-* [Collaborating in Postman](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/)
-* [Intro to workspaces](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/)
-* [Managing and sharing APIs](/docs/designing-and-developing-your-api/managing-apis/)
-* [Version control for collections](/docs/collaborating-in-postman/version-control-for-collections/)
+* To learn more about how to use Postman with your team, visit [Collaborating in Postman](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/).
+* To learn more about how create a workspace in Postman, visit [Intro to workspaces](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/).
+* To learn more about how to share access to your APIs, visit [Managing and sharing APIs](/docs/designing-and-developing-your-api/managing-apis/).
+* To learn how to use version control to collaboratively build an API, visit [Using version control](/docs/collaborating-in-postman/version-control-for-collections/).
