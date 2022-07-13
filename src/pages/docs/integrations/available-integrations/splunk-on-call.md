@@ -16,9 +16,9 @@ contextual_links:
     url: "/docs/monitoring-your-api/intro-monitors/"
 ---
 
-Splunk On-Call (formerly VictorOps) is a real-time incident management platform that combines the power of people and data to handle incidents as they occur and prepare for the next one.
+Splunk On-Call (formerly VictorOps) is a real-time incident management platform that handles incidents as they occur and prepares for the next one.
 
-This integration allows you to configure [Postman Monitors](/docs/monitoring-your-api/intro-monitors/) to trigger incidents on Splunk On-Call whenever it fails.
+This integration enables you to configure [Postman Monitors](/docs/monitoring-your-api/intro-monitors/) to trigger incidents on Splunk On-Call whenever it fails.
 
 ## Get the Splunk On-Call API key
 
@@ -31,12 +31,12 @@ This integration allows you to configure [Postman Monitors](/docs/monitoring-you
 
 If you are using teams in Splunk On-Call, you can route alerts to specific teams by pairing routing keys with escalation policies. 
 
-1. Seelct the **Settings** tab, then select **Routing Keys**.
+1. Select the **Settings** tab, then select **Routing Keys**.
    [![Routing keys](https://assets.postman.com/postman-docs/splunk-on-call-routing-keys.jpg)](https://assets.postman.com/postman-docs/splunk-on-call-routing-keys.jpg)
 1. Select **Add Key**.
 1. Enter the API key you copied from the **Integrations** page and select an escalation policy.
 
-## Configuring Postman Monitors
+## Configuring Postman monitors
 
 1. On the **[Home](https://go.postman.co/home)** page, select **[Integrations](https://go.postman.co/integrations)**.
 
@@ -62,6 +62,6 @@ If you are using teams in Splunk On-Call, you can route alerts to specific teams
 
 ## Incidents on Splunk On-Call
 
-An incident on Splunk On-Call consists of basic information from a monitor that has failed, including the number of errors and failed tests. It also provides a direct link to the failing monitor. This integration automatically acknowledges a triggered incident if the subsequent run succeeds.
+An incident on Splunk On-Call consists of basic information from a monitor that has failed, including the number of errors and failed tests. It also provides a direct link to the failing monitor. This integration automatically acknowledges a triggered incident if the next run succeeds.
 
 [![victorops view](https://assets.postman.com/postman-docs/58843343.png)](https://assets.postman.com/postman-docs/58843343.png)
