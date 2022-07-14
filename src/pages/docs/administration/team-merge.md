@@ -16,7 +16,7 @@ contextual_links:
 
 ---
 
-Team migration is required when you consolidate one or more Postman teams into a single (typically company-authorized) account. There are several reasons for having a company-authorized Postman account (or team) including security, the ability for a company to better oversee its intellectual property, and to give users the benefit of a robust paid plan.
+Team migration is required when you merge one or more Postman teams into a single (typically company-authorized) account. There are several reasons for having a company-authorized Postman account (or team) including security, the ability for a company to better oversee its intellectual property, and to give users the benefit of a robust paid plan.
 
 Team migration can occur in different ways depending on your needs and preferred outcomes.
 
@@ -41,7 +41,7 @@ Team migration can occur in different ways depending on your needs and preferred
 ## Before you start migrating
 
 * Make sure you understand [role-based access control](/docs/collaborating-in-postman/roles-and-permissions/) at a [team](/docs/collaborating-in-postman/roles-and-permissions/#team-roles), [workspace](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles), and [collection](/docs/collaborating-in-postman/roles-and-permissions/#collection-roles) level.
-* Determine what type of [export option](#migrating-your-data) is right for your company.
+* Decide what type of [export option](#migrating-your-data) is right for your company.
 * Understand [what data is and isn't exported](#migrating-your-data) in a [data-dump](/docs/getting-started/importing-and-exporting-data/#exporting-data-dumps).
 * [Read the migration FAQs](#migration-faqs).
 

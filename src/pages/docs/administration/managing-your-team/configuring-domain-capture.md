@@ -94,7 +94,7 @@ The next time existing users sign in to Postman, they will get a notification th
 
 <img alt="Domain capture join team notification" src="https://assets.postman.com/postman-docs/domain-capture-join-team-9.4.jpg" width="350px"/>
 
-Existing users who were previously on another Postman team will have their personal workspace data, collections, and environments automatically transferred over. Users won't be able to remain on or join extra Postman teams with their captured accounts.
+Existing users who were on other Postman teams will have their personal workspace data, collections, and environments automatically transferred over. Users won't be able to remain on or join extra Postman teams with their captured accounts.
 
 > If users experience any issues when moving to your Postman team, reach out to [Postman support](https://www.postman.com/support/).
 
@@ -124,7 +124,7 @@ The experience for captured users depends on their prior team status:
     * All existing user sessions are revoked.
     * The next time the user logs in, they will be prompted to leave their existing team.
     * They will need to contact [Postman support](https://www.postman.com/support/) to assign the Admin role to another team member and remove them from the team. The data that solely belongs to them and hasn't been shared will be moved with them.
-    * Once they have been removed from their previous team, they can authenticate using SSO and join your organization's team. Their existing data will be available in their personal workspace.
+    * Once they have been removed from their earlier team, they can authenticate using SSO and join your organization's team. Their existing data will be available in their personal workspace.
 
 ### Can a Team Admin view the list of user accounts that will be captured before enabling domain capture?
 
@@ -132,4 +132,4 @@ Yes, a Team Admin can view the list of the unclaimed Postman accounts that will 
 
 ### Does adding a domain automatically add all the users with the organization’s domain to the organization’s team?
 
-No, after a domain is added, it must be verified by [Postman support](https://www.postman.com/support/). Postman support will contact Team Admins to evaluate and explain the effects of enabling domain capture, then confirm verification of the domain. Any Team Admin will then be able to enable domain capture for your Postman team.
+No, after you add a domain, it must be verified by [Postman support](https://www.postman.com/support/). Postman support will contact Team Admins to evaluate and explain the effects of enabling domain capture, then confirm verification of the domain. Any Team Admin will then be able to enable domain capture for your Postman team.

@@ -67,7 +67,7 @@ You can add your teammates from your [team dashboard](https://go.postman.co/team
 
 ### Check your setup
 
-Before you start work in full, it’s best to check the functionality of Postman within your organization and ensure everything operates as expected. If you do not have access to Postman and a Postman account, find a team member who does to help you test the configuration. Depending on your organization's IT policy you may need to make requests of your IT team in order to get up and running as well.
+Before you start work in full, it’s best to check the functionality of Postman within your organization and ensure everything operates as expected. If you don't have access to Postman and a Postman account, find a team member who does to help you test the configuration. Depending on your organization's IT policy you may need to make requests of your IT team in order to get up and running as well.
 
 Ensure you are connected to your organization's network and test the following:
 
@@ -91,4 +91,4 @@ Check out [Security and Compliance: A Shared Responsibility Model](https://www.p
 
 Make sure to [configure SSO](/docs/administration/sso/admin-sso/) if you are subscribed to the Professional or Enterprise plan.
 
-Finally, head over to [Managing Your Team](/docs/administration/managing-your-team/managing-your-team/) to learn about managing roles, inviting to workspaces, and how to adjust team size.
+Lastly, head over to [Managing Your Team](/docs/administration/managing-your-team/managing-your-team/) to learn about managing roles, inviting to workspaces, and how to adjust team size.

@@ -56,7 +56,7 @@ Select **Request Access** next to a team, then answer the question set by the Te
 
 <img alt="Request to join team" src="https://assets.postman.com/postman-docs/request-to-join-team-team-discovery-v9.2.jpg" width="350px"/>
 
-Once you've verified your account, the Team Admins will receive a notification of your request. Once they approve it, you'll be able to access the team and collaborate on API projects within it.
+Once you've verified your account, the Team Admins will receive a notification of your request. When they approve it, you'll be able to access the team and collaborate on API projects within it.
 
 ## Next steps
 

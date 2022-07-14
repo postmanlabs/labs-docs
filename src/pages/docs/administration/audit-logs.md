@@ -19,7 +19,7 @@ Audit logs display events related to your team, users, and billing. Team Admins 
 * When users were added to, removed from, or invited to your team
 * Which user performed a specific action and when they did so
 
-Postman provides audit logs for 90 days to users on Professional plans, and 180 days to users on Enterprise plans.
+Postman offers audit logs for 90 days to users on Professional plans, and 180 days to users on Enterprise plans.
 
 > Audit logs are visible to all [Team Admins](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) on [Postman Professional and Enterprise teams](https://www.postman.com/pricing), including Super Admins on Enterprise teams.
 
@@ -39,7 +39,7 @@ You can view audit logs in Postman by selecting **Team** in the header, then sel
 
 <img alt="Team menu with audit logs selected" src="https://assets.postman.com/postman-docs/menu-select-audit-logs-v9.13.0.jpg" width="300px"/>
 
-Audit logs provide information about actions taken by members of your team. Each event includes the user, the user's email address, the event name and a description of the event, the user's IP address, and the date and time of the action, including the user's timezone.
+Audit logs offer information about actions taken by members of your team. Each event includes the user, the user's email address, the event name and a description of the event, the user's IP address, and the date and time of the action, including the user's timezone.
 
 <img alt="Audit logs dashboard" src="https://assets.postman.com/postman-docs/audit-logs-dashboard-v9.jpg" width="1000px"/>
 
@@ -134,9 +134,9 @@ Postman logs events related to your [team](#team), [users](#users), and [billing
 | Removed Group Role | A role was removed from a group. |
 | Removed Group Member | A user was removed from a group. |
 | Deleted Group | A user deleted a group. |
-| Successful Login via Password | A user logged in successfully via Password.   |
-| Successful Login via Google | A user logged in successfully via Google. |
-| Successful Login via SSO | A user logged in successfully via SSO. |
+| Successful Login via Password | A user logged in with their password.   |
+| Successful Login via Google | A user logged in through Google. |
+| Successful Login via SSO | A user logged in through SSO. |
 | Reset Password | A user reset their password. |
 | Changed Password | A user changed their password. |
 | User Session Revoked | A user revoked their session. |
@@ -147,7 +147,7 @@ Postman logs events related to your [team](#team), [users](#users), and [billing
 | Action | Description |
 | ------------- | ------------- |
 | Changed Plan | A user changed your team plan. |
-| Increased Team Size | Additional licenses were added to your team.  |
+| Increased Team Size | More licenses were added to your team.  |
 | Decreased Team Size  | Extra licenses were removed from your team. |
 | Updated Monitoring Block Count | A user updated monitoring block count. |
 | Set Instructions for Next Billing Cycle  | Instructions for the next billing cycle were added.|

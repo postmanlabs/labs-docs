@@ -50,7 +50,7 @@ Select **View changes** under an item to view the collection diff. If a diff is 
 
 ## Viewing workspace activity
 
-You can [access the activity feed in Postman](#accessing-the-activity-feed-from-postman). The activity feed will show information on who added or removed collections, environments, or entities from the workspace as well as members joining and leaving the workspace. You can [filter this information](#filtering-the-activity-feed) directly within the activity feed.
+You can [access the activity feed in Postman](#accessing-the-activity-feed-from-postman). The activity feed will show information on who added or removed collections, environments, or elements from the workspace as well as members joining and leaving the workspace. You can [filter this information](#filtering-the-activity-feed) directly within the activity feed.
 
 You can also [view who's active in your workspace](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#seeing-who-is-in-your-workspace).
 
@@ -68,7 +68,7 @@ To reset your search, select **Clear filters** at the right of the activity feed
 
 #### Filtering by user
 
-Filtering by user will only display the actions the specified user carried out.
+Filtering by user will display the actions the specified user carried out.
 To filter by user, select **User** at the top of the activity feed and select the user or users. You can search for a specific user by typing their name in the search field. Once you have selected the user, select **Apply**.
 
 > The user list will only show the users that are part of the workspace, not all team members.
@@ -77,8 +77,8 @@ To filter by user, select **User** at the top of the activity feed and select th
 
 #### Filtering by element
 
-Filtering by element will only display the actions carried out on the selected element type. Available entities are `Workspace`, `API`, `Collection`, and `Environment`.
-To filter by element, select **Entity** at the top of the activity feed and select the element or entities. You can search for a specific element by typing its name in the search field. Once you have selected the element, select **Apply**.
+Filtering by element will display the actions carried out on the selected element type. Available elements are `Workspace`, `API`, `Collection`, and `Environment`.
+To filter by element, select **Entity** at the top of the activity feed and select the element. You can search for a specific element by typing its name in the search field. Once you have selected the element, select **Apply**.
 
 > You can access the changelog of a specific collection by selecting **View Changelog** next to actions on collections.
 

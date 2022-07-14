@@ -27,7 +27,7 @@ contextual_links:
 
 The Postman Token Scanner scans your public workspaces, collections, environments, and documentation to find exposed authentication tokens. This protects your organization and prevents malicious users from exploiting the tokens.
 
-> The Token Scanner is available on all Postman plans. It is turned on by default.
+> The Token Scanner is available on all Postman plans and turned on by default.
 
 ## Contents
 

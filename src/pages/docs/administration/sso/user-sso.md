@@ -16,7 +16,7 @@ contextual_links:
 
 When your [Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) has enabled single sign-on (**SSO**) for Postman, you can sign in to Postman with a [configured Identity provider](/docs/administration/sso/intro-sso/).
 
-Your Team Admin can provide a **Login URL** that was generated during the SSO configuration. The **Login URL** will automatically redirect you to your configured Identity Provider.
+Your Team Admin can share a **Login URL** that was generated during the SSO configuration. The **Login URL** will automatically redirect you to your configured Identity Provider.
 
 To sign into Postman:
 
@@ -30,7 +30,7 @@ When you opt to sign into the desktop version of Postman, your default browser w
 
 <!-- -->
 
-> You must finish signing in within five minutes once you initiate the process from Postman. If you go beyond this time, you must return to Postman and restart the sign in process.
+> You must finish signing in within five minutes once you start the process from Postman. If you go beyond this time, you must return to Postman and restart the sign in process.
 
 Sign into Postman by selecting **Sign in with SSO**.
 
@@ -44,10 +44,10 @@ Enter the team domain and **Continue**.
 
 Postman will redirect you to the configured SSO provider. Enter your SSO details to sign in.
 
-> The first time you sign in to Postman, you may need to carry out additional steps to set up access to your identity provider account. Sign in using SSO and follow your provider's steps to connect the account to Postman.
+> The first time you sign in to Postman, you may need to carry out extra steps to set up access to your identity provider account. Sign in using SSO and follow your provider's steps to connect the account to Postman.
 
 When you sign in, you will get a confirmation in your browser and you will be redirected back to Postman.
 
 <img src="https://assets.postman.com/postman-docs/youre-signed-in-confirmation.jpg" width="350px" alt="Signed in confirmation"/>
 
-> If you're a member of multiple Postman teams with varying authentication methods, you'll be required to sign in to those teams separately. To do so, select your avatar in the upper-right corner, then select the team to proceed.
+> If you're a member of multiple Postman teams with varying authentication methods, you must sign in to those teams separately. To do so, select your avatar in the upper-right corner, then select the team to proceed.

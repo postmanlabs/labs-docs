@@ -65,7 +65,7 @@ You need a valid API Key to send requests to the Postman API. To generate an API
 
 1. Open your [Postman API Keys page](https://go.postman.co/settings/me/api-keys). Select your avatar in the upper-right corner > **Settings**. Then select **Postman API keys**.
 
-1. If you do not have any keys yet you will be prompted to create one. Select __Generate API Key__.
+1. If you don't have any keys yet you'll be prompted to create one. Select __Generate API Key__.
 
    <img alt="Generate API Key" src="https://assets.postman.com/postman-docs/no-api-keys-generate-v9.0.jpg" width="400px"/>
 
@@ -93,7 +93,7 @@ Your API Key provides access to any Postman data you have permissions for.
 
 You can store your API key in a [variable](/docs/sending-requests/variables/). If you name it `postman_api_key`, the Postman API collection will use it automatically
 
-## Rate Limits
+## Rate limits
 
 API access rate limits are applied at a per-key basis in unit time.
 

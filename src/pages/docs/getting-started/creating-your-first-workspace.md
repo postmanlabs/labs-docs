@@ -45,6 +45,8 @@ To create a new workspace:
 
 Postman will switch to your new workspace when you create it. You can move between workspaces at any time by selecting from the dropdown **Workspaces** list in the upper left.
 
+> To learn more, see [Creating workspaces](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/).
+
 ## Next steps
 
 You can start collaborating with other people by [inviting](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#sharing-workspaces) them to join your new workspace.

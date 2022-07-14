@@ -78,7 +78,7 @@ To copy an active invite URL, hover over a row and select the copy icon <img alt
 
 To revoke an active invitation, hover over the invitation and select the delete icon <img alt="Delete link icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px" />.
 
-You can review invite requests team members have submitted in your [team dashboard](https://go.postman.co/settings/team/members) under **Suggestions**. To respond to a request, hover over the individual and select **Invite** or the dismiss suggestion icon <img alt="Close icon" src="https://assets.postman.com/postman-docs/icon-close.jpg#icon" width="16px">. If an invite has already been sent to a suggested user, but they haven't yet joined your team, you'll have the option to resend it, copy the invite link, or dismiss it.
+You can review invite requests team members have submitted in your [team dashboard](https://go.postman.co/settings/team/members) under **Suggestions**. To respond to a request, hover over the individual and select **Invite** or the dismiss suggestion icon <img alt="Close icon" src="https://assets.postman.com/postman-docs/icon-close.jpg#icon" width="16px">. If an invite has been sent to a suggested user, but they haven't yet joined your team, you'll have the option to resend it, copy the invite link, or dismiss it.
 
 ### Removing team members
 
@@ -98,9 +98,9 @@ When you remove a user from your team, you will still retain access to any data 
 
 Each team member must have one or more team roles, which will allow them to perform various actions within your team. Roles can be granted to users individually, or to members of a [group](/docs/administration/managing-your-team/user-groups/).
 
-You can modify the roles of team members by selecting **Team** in the upper right > [**Manage Team**](https://go.postman.co/settings/team/members).
+You can change the roles of team members by selecting **Team** in the upper right > [**Manage Team**](https://go.postman.co/settings/team/members).
 
-Under **Members**, select the roles next to the user you'd like to update. Select the roles you'd like to assign or unassign, then **Update Roles** to confirm your changes.
+Under **Members**, select the roles next to the user you'd like to update. Select the roles you'd like to assign or remove, then **Update Roles** to confirm your changes.
 
 <img alt="Edit team roles" src="https://assets.postman.com/postman-docs/members-and-groups-update-roles-v9.18.jpg" width="650px"/>
 
