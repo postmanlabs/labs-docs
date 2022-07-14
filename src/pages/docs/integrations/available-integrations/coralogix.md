@@ -30,7 +30,7 @@ Setting up a Coralogix integration requires you to get an API key from Coralogix
 
 1. Select **Settings**, and then select the **Send your logs** tab.
 
-    [![Coralogix settings](https://assets.postman.com/postman-docs/Coralogix_Pvtkey1.png)](https://assets.postman.com/postman-docs/Coralogix_Pvtkey1.png)
+    ![Coralogix settings](https://assets.postman.com/postman-docs/Coralogix_Pvtkey1.png)
 
 1. Save the private key to use later.
 
@@ -46,7 +46,7 @@ Setting up a Coralogix integration requires you to get an API key from Coralogix
 
 1. Select **Add Integration** to start configuring the integration for your workspace.
 
-    ![coralogix integrations page](https://assets.postman.com/postman-docs/coralogix-add-integration.jpg)
+    ![Coralogix integrations page](https://assets.postman.com/postman-docs/coralogix-add-integration.jpg)
 
 1. Enter the following in the **Add integration** window:
 
@@ -64,10 +64,10 @@ Setting up a Coralogix integration requires you to get an API key from Coralogix
 
 Once the data starts flowing into Coralogix, you can view and analyze these metrics in the Coralogix dashboard.
 
-[![coralogix dashboard](https://assets.postman.com/postman-docs/coralogix_dashboard1.png)](https://assets.postman.com/postman-docs/coralogix_dashboard1.png)
+![Coralogix dashboard](https://assets.postman.com/postman-docs/coralogix_dashboard1.png)
 
 Select the **Logs** tab to a view a list of all logs. You can filter the services by name. As many services may be running in your system, you can filter by selecting Postman to view all Coralogix logs for Postman. The schema appears, as illustrated below:
 
-[![coralogix logs view](https://assets.postman.com/postman-docs/coralogix_schema1.png)](https://assets.postman.com/postman-docs/coralogix_schema1.png)
+![Coralogix logs view](https://assets.postman.com/postman-docs/coralogix_schema1.png)
 
 For more information, see the [Coralogix documentation](https://coralogix.com/docs/logs-screen/).
