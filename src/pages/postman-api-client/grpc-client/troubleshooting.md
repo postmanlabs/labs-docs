@@ -15,6 +15,7 @@ contextual_links:
 If you're having a problem using Postman's gRPC client, learn more about common issues and how to troubleshoot. Please submit a bug report/feedback for any unresolved issues.
 
 ## Common issues and solutions
+
 ---
 
 ### Service unavailable
@@ -24,7 +25,6 @@ The server you are using is unreachable with the current client settings. If you
 Refer to [**TLS Toggle**](http://localhost:8000/postman-api-client/grpc-client/grpc-request-interface/#tls-toggle) for more information
 
 ![Downloading Postman Agent](https://assets.postman.com/postman-labs-docs/grpc-docs/troubleshooting/gRPC-TLS.gif)
-
 
 ### Server reflection failed
 
@@ -41,7 +41,9 @@ In order to use all of Postman's gRPC features, you must run the Postman Agent o
 [**Learn more about installing the Postman Agent**](https://learning.postman.com/docs/getting-started/installation-and-updates/#installing-the-postman-desktop-agent)
 
 ## Submit a bug report/feedback
----
- - [Open an issue on GitHub](https://github.com/postmanlabs/postman-app-support/issues) 
 
- - [Submit feedback](https://go.pstmn.io/grpc-feedback)
+---
+
+- [Open an issue on GitHub](https://github.com/postmanlabs/postman-app-support/issues)
+
+- [Submit feedback](https://go.pstmn.io/grpc-feedback)
