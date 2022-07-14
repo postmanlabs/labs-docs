@@ -1,12 +1,12 @@
 ---
 title: "OpenAPI 3.0 warnings"
-updated: 2022-02-09
+updated: 2022-07-20
 contextual_links:
   - type: section
     name: "Prerequisites"
   - type: link
-    name: "API schema issues"
-    url: "<!-- TODO: update -->"
+    name: "API definition warnings"
+    url: "https://learning.postman.com/docs/api-governance/api-definition/api-definition-warnings/"
   - type: section
     name: "Additional Resources"
   - type: subtitle

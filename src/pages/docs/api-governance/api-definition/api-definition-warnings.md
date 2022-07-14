@@ -1,6 +1,6 @@
 ---
 title: "API definition warnings"
-updated: 2021-09-14
+updated: 2022-07-20
 contextual_links:
   - type: section
     name: "Additional Resources"
