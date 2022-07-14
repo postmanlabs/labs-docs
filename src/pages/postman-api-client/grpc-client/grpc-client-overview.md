@@ -34,6 +34,8 @@ Additionally, you can use the [Postman API builder](https://learning.postman.com
 
 Learn more about gRPC and how to use Postman for your gRPC needs using this documentation.
 
+<img src="https://assets.postman.com/postman-labs-docs/grpc-docs/grpc-client-overview/grpc-request.jpg" alt="gRPC request interface">
+
 ## Quick start
 
 - [Invoking your first gRPC request](/postman-api-client/grpc-client/first-grpc-request/)
