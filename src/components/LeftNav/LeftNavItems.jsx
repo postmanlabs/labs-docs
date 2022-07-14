@@ -120,7 +120,7 @@ export const leftNavItems = [
         url: "/postman-api-client/grpc-client/understanding-grpc-types/",
       },
       {
-        name: "Collaboration",
+        name: "Collaborating with your teammates",
         url: "/postman-api-client/grpc-client/collaboration/",
       },
       {
