@@ -1,5 +1,5 @@
 ---
-title: "Collaboration"
+title: "Collaborating with your teammates"
 page_id: "collaboration"
 updated: 2022-07-07
 warning: false
