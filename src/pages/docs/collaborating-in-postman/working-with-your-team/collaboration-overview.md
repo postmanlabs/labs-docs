@@ -58,9 +58,16 @@ To create a Postman team:
 
 There are several ways you can join a Postman team:
 
-* **Email invite** - Select **Join Team** in the email invite. Create a new Postman account or sign in to an existing one. Once you've signed in, you'll be redirected to your new team.
-* **Invite link** - Open the link and select **Accept Invite**. Create a new Postman account or sign in to an existing one. Once you've signed in, you'll be redirected to your new team.
-* **Team discovery** - When first join Postman, you can [find teams to join within your organization](/docs/collaborating-in-postman/working-with-your-team/enabling-team-discovery/#finding-teams-within-your-organization).
+* **Email invite** - Select **Join Team** in the email invite. Create a new Postman account or sign in to an existing one. After signing in, you'll be redirected to your new team.
+* **Invite link** - Open the link and select **Accept Invite**. Create a new Postman account or sign in to an existing one. After signing in, you'll be redirected to your new team.
+* **Team discovery** - When first joining Postman, you can [find teams to join within your organization](/docs/collaborating-in-postman/working-with-your-team/enabling-team-discovery/#finding-teams-within-your-organization).
+
+If you are an individual Postman user and join a Postman team, your personal workspaces and the data within them is transferred to the team. When you leave a team, your personal workspaces and the data within them will remain with the team and no longer be accessible to you.
+
+To keep an independent workspace, you can [create a free Postman team](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/#creating-a-team).
+
+* If you create an independent team prior to joining another Postman team, your work will remain with your personal team and you will retain ownership of it.
+* If you are already on a Postman team, you can [export the data](/docs/getting-started/importing-and-exporting-data/#exporting-postman-data) you'd like to retain ownership of and [import that data](/docs/getting-started/importing-and-exporting-data/#importing-data-into-postman) into your independent team's workspaces.
 
 ## Leaving a team
 
