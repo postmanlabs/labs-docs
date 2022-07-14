@@ -27,7 +27,7 @@ contextual_links:
 
 Postman provides a variety of tools to enable and enhance collaboration within your team. You can ease the onboarding process by enabling [team discovery](/docs/collaborating-in-postman/working-with-your-team/enabling-team-discovery/), allowing users in your organization to request to join your Postman team. You can also create [team workspaces](/docs/collaborating-in-postman/working-with-your-team/collaborating-in-team-workspaces/), where team members can share their work and collaborate on API projects. Users can [discuss their work](/docs/collaborating-in-postman/working-with-your-team/discussing-your-work/) directly in Postman by commenting on collections and APIs, including on specific requests, versions, and inline on schemas and scripts.
 
-To get the most out of Postman's collaboration features, [create](#creating-a-team) or [join](#joining-a-team) a team. You can be a member of multiple Postman teams, regardless of if they are Postman Free, Basic, Professional, or Enterprise.
+To get the most out of Postman's collaboration features, [create](#creating-a-team) or [join](#joining-a-team) a team. You can be a member of multiple Postman teams, regardless of if they're Postman Free, Basic, Professional, or Enterprise.
 
 > Note that if an Enterprise team within your organization implements [domain capture](/docs/administration/managing-your-team/configuring-domain-capture/), you won't be able to remain on or join extra Postman teams with your captured accounts.
 
@@ -44,10 +44,10 @@ To get the most out of Postman's collaboration features, [create](#creating-a-te
 To create a Postman team:
 
 1. Select your avatar in the upper-right corner > **Create a team**. If you're already a member of a Postman team, select **+ Create Team**
-2. Select **Edit Team Profile**.
+2. Select **Set Up Your Team**.
 3. (Optional) Provide a team name, URL, and logo, and decide if you'd like to turn on [team discovery](/docs/collaborating-in-postman/working-with-your-team/enabling-team-discovery/).
 4. Select **Continue**.
-5. (Optional) Invite collaborators to your team via email or share an invite link.
+5. (Optional) Invite collaborators to your team by email or share an invite link.
 6. Select **Continue** or **Maybe Later**.
 
 [Postman Free](https://www.postman.com/pricing/) lets teams of up to three work together at no cost. If you'd like to collaborate with more team members, features, and increased usage limits, you can [upgrade](/docs/administration/billing/#changing-your-plan) to a Basic, Professional, or Enterprise plan. To do so, select **Upgrade** in the upper-right corner.
