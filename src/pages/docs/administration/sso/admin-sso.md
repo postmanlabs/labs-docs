@@ -106,4 +106,4 @@ By default, Postman only supports Service Provider initiated logins for Postman 
 
 ### Removing team access
 
-An admin must remove users from their Postman team to prevent access to shared resources.
+You must [remove users from your team in Postman](/docs/administration/managing-your-team/managing-your-team/#removing-team-members) to prevent access to shared resources. When removing a user, you'll have the option to reassign their personal workspaces to a remaining team member so that you don't lose access to their work.
