@@ -60,7 +60,7 @@ There are several ways you can join a Postman team:
 
 * **Email invite** - Select **Join Team** in the email invite. Create a new Postman account or sign in to an existing one. Once you've signed in, you'll be redirected to your new team.
 * **Invite link** - Open the link and select **Accept Invite**. Create a new Postman account or sign in to an existing one. Once you've signed in, you'll be redirected to your new team.
-* **Team discovery** - When signed in to Postman, you can [find teams to join within your organization](/docs/collaborating-in-postman/working-with-your-team/enabling-team-discovery/#finding-teams-within-your-organization).
+* **Team discovery** - When first join Postman, you can [find teams to join within your organization](/docs/collaborating-in-postman/working-with-your-team/enabling-team-discovery/#finding-teams-within-your-organization).
 
 ## Leaving a team
 

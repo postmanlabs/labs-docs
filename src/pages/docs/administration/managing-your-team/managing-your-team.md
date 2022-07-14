@@ -64,7 +64,7 @@ Or, you can invite a user to join your team with a link. To do so, select **Get 
 
 Only Team Admins and [Super Admins](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can send invitations. However, any team member can submit requests to invite collaborators to your team. You can review these requests in your [team dashboard](https://go.postman.co/settings/team/members) and opt to approve or dismiss them. If you approve the request, Postman will send an invitation to the individual.
 
-You can also allow Postman users from your company to request to join your team by [enabling team discovery](/docs/collaborating-in-postman/working-with-your-team/enabling-team-discovery/#enabling-team-discovery).
+You can also allow Postman users from your company to request to join your team by enabling [team discovery](/docs/collaborating-in-postman/working-with-your-team/enabling-team-discovery/#enabling-team-discovery).
 
 > [Postman Enterprise](https://www.postman.com/pricing) teams can enable [SCIM provisioning](/docs/administration/scim-provisioning/scim-provisioning-overview/), which enables you to create, update, and deactivate user accounts at scale through your identity provider.
 
