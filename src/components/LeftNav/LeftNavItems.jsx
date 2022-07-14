@@ -115,6 +115,14 @@ export const leftNavItems = [
         name: "Working with service definition",
         url: "/postman-api-client/grpc-client/using-service-definition/",
       },
+      {
+        name: "Collaboration",
+        url: "/postman-api-client/grpc-client/collaboration/",
+      },
+      {
+        name: "Troubleshooting",
+        url: "/postman-api-client/grpc-client/troubleshooting/",
+      },
     ],
   },
   {
