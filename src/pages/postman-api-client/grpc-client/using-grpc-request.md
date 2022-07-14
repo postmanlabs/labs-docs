@@ -81,6 +81,8 @@ Using Postman, you can add your **Auth credentials** to the request for the serv
 
 <img src="https://assets.postman.com/postman-labs-docs/grpc-docs/using-grpc-request/auth-tab.jpeg" alt="Adding authorization details">
 
+Learn more about [authorizing your requests](https://learning.postman.com/docs/sending-requests/authorization/)
+
 ### Adding metadata
 
 You can add metadata to provide additional information about the execution to the server. Metadata is defined using a bunch of key-value pairs that you can add directly to the **Metadata tab**.

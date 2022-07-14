@@ -65,7 +65,7 @@ class IndexPage extends React.Component {
                 <div className="col-sm-12 col-md-5 col-lg-6 align-self-center">
                   <h1>Postman Labs Docs</h1>
                   <p className="subtitle">
-                    Learn how to use Postman's cutting edge features!
+                    Flows, gRPC, WebSockets! Learn about Postman Labs and the cutting-edge features being brewed in it.
                   </p>
                   <Link
                     to="/labs-overview/"
@@ -149,7 +149,7 @@ class IndexPage extends React.Component {
             <div className="col-lg-4">
               <h2>Testing asynchronous APIs with WebSocket client</h2>
               <p>
-              The WebSocket protocol provides a way to exchange data between a client and server over a persistent connection. Postman provides you with a client interface to work with WebSocket and SocketIO APIs. Go through the documentation to learn how to use Postman's WebSocket client to test your WebSocket API.
+              WebSocket protocol and the SocketIO framework provide a way to exchange data between a client and server over a persistent connection. Postman lets you work with WebSocket and SocketIO APIs using it's API client interface. Go through the documentation to learn how to use Postman's WebSocket client to test your WebSocket API.
               </p>
               <Link
                 to="/postman-api-client/websocket-client/websocket-client-overview/"
