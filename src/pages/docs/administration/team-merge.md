@@ -57,7 +57,7 @@ You can only choose centralized migration with an **Admin** account.
 
 With centralized migration, you will export a large JSON file of collections, environments, globals, and header presets.
 
-You can bulk export your your personal workspaces and the workspaces of any teams you have joined.
+You can bulk export your personal workspaces and the workspaces of any teams you have joined.
 
 Choose centralized migration if the following conditions apply:
 
@@ -75,7 +75,7 @@ See [performing centralized migration](#performing-centralized-migration) to cho
 
 You can carry out distributed migration with any type of Postman account.
 
-You can export your personal workspace and shared workspaces for any teams you have joined and can choose to only export collections from a specific workspace. See [exporting data](/docs/getting-started/importing-and-exporting-data/#exporting-postman-data) for detail.
+You can export your personal workspace and shared workspaces for any teams you have joined, or you can choose to only export data from a specific workspace. See [exporting data](/docs/getting-started/importing-and-exporting-data/#exporting-postman-data) for detail.
 
 If you have an individual account and aren't part of a team yet, but want to keep an independent workspace after joining one, see [Joining a team](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/#joining-a-team). When migrating company data to an authorized team, you can [export specific data](/docs/getting-started/importing-and-exporting-data/#exporting-postman-data) or [export a dump of all data](/docs/getting-started/importing-and-exporting-data/#exporting-data-dumps).
 
