@@ -51,7 +51,7 @@ While testing the services, you can also switch to a different version of the se
 
 If you don’t have the Protobuf API available in your workspace, you can also import a .proto file as a Protobuf API into Postman and use it as a service definition.
 
-In order to import a .proto file: 
+In order to import a .proto file:
 
 1. Go to the **Service definition tab** and click on **Import a .proto file**.
 

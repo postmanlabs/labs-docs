@@ -215,4 +215,3 @@ The request information pane shows additional details about the request like req
 ## Next step
 
 Now that you understand all the basic interface elements, go ahead and [create a grpc request on Postman](postman-api-client/grpc-client/first-grpc-request).
-

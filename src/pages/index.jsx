@@ -65,7 +65,7 @@ class IndexPage extends React.Component {
                 <div className="col-sm-12 col-md-5 col-lg-6 align-self-center">
                   <h1>Postman Labs Docs</h1>
                   <p className="subtitle">
-                    Flows, gRPC, WebSockets! Learn about Postman Labs and the cutting-edge features being brewed in it.
+                    Flows, gRPC, WebSockets! Learn about Postman Labs and the cutting-edge features brewing in it.
                   </p>
                   <Link
                     to="/labs-overview/"

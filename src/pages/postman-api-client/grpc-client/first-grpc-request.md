@@ -20,7 +20,7 @@ gRPC supports 4 types of methods that allow the client and server to interact in
 
 - **Client streaming**: With this interaction, the client sends a series of messages to the server and the server responds back after processing them.
 
-- **Server streaming**: Here, the client needs to make a single request for the server to respond back with a stream of messages. 
+- **Server streaming**: Here, the client needs to make a single request for the server to respond back with a stream of messages.
 
 - **Bidirectional streaming**: With bidirectional streaming, the client and server can communicate with each other asynchronously over a persistent session.
 
