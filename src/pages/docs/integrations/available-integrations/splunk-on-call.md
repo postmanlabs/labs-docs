@@ -29,7 +29,7 @@ This integration enables you to configure [Postman Monitors](/docs/monitoring-yo
    [![View API key](https://assets.postman.com/postman-docs/splunk-on-call-copy-api-key.jpg)](https://assets.postman.com/postman-docs/splunk-on-call-copy-api-key.jpg)
 1. Copy the API Key and save it for later.
 
-If you are using teams in Splunk On-Call, you can route alerts to specific teams by pairing routing keys with escalation policies. 
+If you are using teams in Splunk On-Call, you can route alerts to specific teams by pairing routing keys with escalation policies.
 
 1. Select the **Settings** tab, then select **Routing Keys**.
    [![Routing keys](https://assets.postman.com/postman-docs/splunk-on-call-routing-keys-1.jpg)](https://assets.postman.com/postman-docs/splunk-on-call-routing-keys-1.jpg)
