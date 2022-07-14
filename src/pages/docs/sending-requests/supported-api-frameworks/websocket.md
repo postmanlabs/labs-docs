@@ -86,7 +86,7 @@ To save a message:
 
 1. Compose a message, as described above.
 1. Select **Save Message**.
-1. The message title ("New Message" by default) is now editable. Enter a new title and press Return.
+1. The message title ("New Message" by default) is editable. Enter a new title and press Return.
 
 To load a saved message:
 

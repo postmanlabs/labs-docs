@@ -134,6 +134,8 @@ __Send__ the request in Postman and select the __Visualize__ tab. Postman render
 
 You can load an external stylesheet using `<link>` tags in your HTML template code, using the same technique as adding a stylesheet to a web page. You can also add stylesheets as `<style>` tags. Similarly, you can add interactions using JavaScript code in `<script>` tags inside your template HTML code.
 
+> Visualizer doesn't support interactions that download resources.
+
 ### Using your own libraries
 
 You can use any of the libraries in the [Postman Sandbox](/docs/writing-scripts/script-references/postman-sandbox-api-reference/) to programmatically generate the layout template. To import an additional external JavaScript library, add the URL to a `<script>` tag in the template code, using the same approach you would use to load JavaScript into an HTML file. This lets you render your request data using the visualization tool of your choice (for example D3.js).

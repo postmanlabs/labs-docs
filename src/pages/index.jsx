@@ -5,7 +5,6 @@ import Layout from '../components/layout';
 import SEO from '../components/seo';
 import '../../styles/config/_pm-icons.css';
 import upcomingEvents from '../../bff-data/events.json';
-import HeroImage from '../assets/refresh-hero-image.svg';
 import { LandingCard } from '../components/MarketingPages/Cards';
 import '../../styles/config/normalize.css';
 import '../components/MarketingPages/Buttons.scss';
@@ -17,6 +16,14 @@ const heroBackground = {
 };
 
 class IndexPage extends React.Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      sortedUpcomingEvents: upcomingEvents,
+    };
+  }
+
   componentDidMount() {
     const pix = document.createElement('script');
     pix.language = 'JavaScript1.1';
@@ -32,6 +39,25 @@ class IndexPage extends React.Component {
       polyfill.src = '//polyfill.io/v3/polyfill.min.js?features=default%2CArray.prototype.find%2CArray.prototype.includes%2CPromise%2CObject.assign%2CObject.entries';
       polyfill.async = true;
       document.body.appendChild(polyfill);
+    }
+
+    try {
+      window.pm.bff(
+        'events',
+        (d) => {
+          if (d) {
+            const data = JSON.parse(d);
+
+            this.setState({
+              sortedUpcomingEvents: data
+            });
+          }
+        }
+      );
+    } catch (err) {
+      if (window.pm && typeof window.pm.log === 'function') {
+        window.pm.log(err);
+      }
     }
   }
 
@@ -50,7 +76,8 @@ class IndexPage extends React.Component {
       'Nov',
       'Dec',
     ];
-    const sortedUpcomingEvents = upcomingEvents;
+    const { state } = this;
+    const { sortedUpcomingEvents } = state;
 
     return (
       <Layout>
@@ -73,7 +100,7 @@ class IndexPage extends React.Component {
                 </div>
                 <div className="col-sm-12 col-md-6 col-lg-6 align-self-center">
                   <img
-                    src={HeroImage}
+                    src="https://voyager.postman.com/illustration/postman-learning-center-documentation-illustration.svg"
                     width="637"
                     height="411"
                     className="hero-image img-fluid"
