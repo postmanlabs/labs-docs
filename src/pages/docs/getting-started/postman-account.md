@@ -30,7 +30,7 @@ Having a free Postman account enables you to [sync](/docs/getting-started/syncin
 
 Signing up for a Postman account is optional, and you can use the Postman desktop app without an account if you prefer. If you do want to create a Postman account, continue to the [Signing up for a Postman account](#signing-up-for-a-postman-account) section.
 
-> If you need assistance with your Postman account, you can contact the Postman [support team](https://www.postman.com/support/) or check out the Help Center's [account FAQs](https://support.postman.com/hc/en-us/categories/115000609185-My-Account).
+> If you need help with your Postman account, you can contact the Postman [support team](https://www.postman.com/support/) or check out the Help Center's [account FAQs](https://support.postman.com/hc/en-us/categories/115000609185-My-Account).
 
 ## Contents
 
@@ -51,7 +51,7 @@ Postman prompts you to sign in or sign up. Select __Create Account__. You can si
 * **Email** - Enter your email and create a username and password. Check the box to agree to the __Terms of Use__, which you can view by selecting the link, and select __Create free account__. Postman will send you an email to confirm your account. Follow the instructions in the email to complete your account setup.
 * **Google account** - Select __Sign up with Google__ and follow the instructions.
 
-When you first sign up for a Postman account, you will be prompted to provide some information about yourself, including your name and your role, to help customize the app experience to your needs. Enter your details and select __Continue__.
+When you sign up for a Postman account, you'll be prompted to provide some information about yourself, including your name and role, to help customize your Postman experience. Enter your details and select __Continue__.
 
 Your new Postman profile will be visible to collaborators and anyone viewing resources you share or publish.
 
@@ -68,7 +68,7 @@ During the sign up process, you have the option to create or join a [team](/docs
 
 ## Signing into Postman
 
-You can sign in to Postman by selecting **Sign In** in the upper-right corner of the app or selecting **Home** in the upper-left corner of the app then **Sign In**. You can also go to [Postman's website](https://www.postman.com/) and selecting **Sign In** in the upper-right corner of the page.
+You can sign in to Postman by selecting **Sign In** in the upper-right corner or by selecting **Home** in the upper-left corner, then **Sign In**. You can also go to [Postman's website](https://www.postman.com/) and select **Sign In** in the upper-right corner of the page.
 
 When you sign in using the Postman desktop app, the app will open a new screen that directs you to _Sign in via web browser_. Your default browser will automatically open a webpage asking you to sign into Postman. If your browser doesn't open within a few seconds, select the **open your browser** link in Postman.
 
@@ -80,19 +80,13 @@ Select **Stay signed in for 30 days** if you want to remain signed in after your
 
 After you sign in, you will be redirected back to the Postman desktop app.
 
-If you're a member of multiple Postman teams with varying authentication methods, you'll be required to sign in to those teams separately. To do so, select your avatar in the upper-right corner, then select the team to proceed.
+If you're a member of multiple Postman teams with varying authentication methods, you must sign in to those teams separately. To do so, select your avatar in the upper-right corner, then select the team to proceed.
 
 > You must complete the process of signing in within five minutes once you begin the process in the Postman desktop app. If you go beyond this time, you must return to the Postman desktop app and restart the sign in process.
 
 ### Switching between accounts
 
-You can sign in to multiple accounts at the same time in Postman. Select your user avatar in the top right to switch between accounts or select __+ Add Account__ to sign in with another one.
-
-### Switching between teams
-
-You can sign in to multiple teams at the same time with your Postman account. To switch between teams, select your user avatar in the top right. Select a team to open or select **+ Create Team** to create a new team.
-
-<img alt="Switch teams" src="https://assets.postman.com/postman-docs/team-account-switcher-v9.2.1.jpg" width="350px">
+You can sign in to multiple accounts at the same time in Postman. Select your avatar in the top right to switch between accounts or select __+ Add Account__ to sign in with another one.
 
 ## Updating your account and profile settings
 
@@ -146,7 +140,7 @@ You can update your [notification preferences](https://go.postman.co/settings/me
 
 You can opt in to or out of email or in-app notifications about security, usage, monitors, and comments by selecting or de-selecting the boxes next to each item. Select **Update Preferences** to save changes.
 
-In addition to email and in-app notifications, you can also send many notifications to Slack using the [Slack integration](/docs/integrations/available-integrations/slack/). After you add the Slack integration, you can select notification events from the additional **On Slack** column. These notifications are sent to Slack by the integration.
+In addition to email and in-app notifications, you can also send many notifications to Slack using the [Slack integration](/docs/integrations/available-integrations/slack/). After you add the Slack integration, you can select notification events from the **On Slack** column. These notifications are sent to Slack by the integration.
 
 <img alt="Update notification preferences" src="https://assets.postman.com/postman-docs/notification-preferences-v9-4.jpg">
 
@@ -175,4 +169,4 @@ For more details on Postman's security policies and standards, visit the Postman
 
 ## Next steps
 
-Now that you have created a Postman account, you're ready to start working! When you are logged into Postman, you are connected to the Postman servers and your work is continuously backed up. Learn more about how Postman syncs your data in the [Syncing your work](/docs/getting-started/syncing/) section.
+Now that you have created a Postman account, you're ready to start working! When you're logged into Postman, you're connected to the Postman servers and your work is continuously backed up. Learn more about how Postman syncs your data in the [Syncing your work](/docs/getting-started/syncing/) section.

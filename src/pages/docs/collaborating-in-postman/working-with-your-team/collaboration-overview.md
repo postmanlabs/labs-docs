@@ -35,6 +35,7 @@ To get the most out of Postman's collaboration features, [create](#creating-a-te
 
 * [Creating a team](#creating-a-team)
 * [Joining a team](#joining-a-team)
+* [Switching between teams](#switching-between-teams)
 * [Leaving a team](#leaving-a-team)
 * [Team usage limits](#team-usage-limits)
 * [Next steps](#next-steps)
@@ -68,6 +69,12 @@ To keep an independent workspace, you can [create a free Postman team](/docs/col
 
 * If you create an independent team prior to joining another Postman team, your work will remain with your personal team and you will retain ownership of it.
 * If you are already on a Postman team, you can [export the data](/docs/getting-started/importing-and-exporting-data/#exporting-postman-data) you'd like to retain ownership of and [import that data](/docs/getting-started/importing-and-exporting-data/#importing-data-into-postman) into your independent team's workspaces.
+
+### Switching between teams
+
+You can sign in to multiple teams at the same time with your Postman account. To switch between teams, select your avatar in the top right. Select a team to open or select **+ Create Team** to create a new team.
+
+<img alt="Switch teams" src="https://assets.postman.com/postman-docs/team-account-switcher-v9.2.1.jpg" width="350px">
 
 ## Leaving a team
 
