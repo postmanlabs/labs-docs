@@ -1,9 +1,6 @@
 ---
-title: "OpenAPI 3.0 schema issues"
-order: 117
-page_id: "security_warnings_openapi3.0"
+title: "OpenAPI 3.0 warnings"
 updated: 2022-02-09
-warning: false
 contextual_links:
   - type: section
     name: "Prerequisites"

@@ -1,5 +1,5 @@
 ---
-title: "API schema issues"
+title: "API definition warnings"
 updated: 2021-09-14
 contextual_links:
   - type: section

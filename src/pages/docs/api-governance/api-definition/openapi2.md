@@ -1,9 +1,6 @@
 ---
-title: "OpenAPI 2.0 schema issues"
-order: 118
-page_id: "security_warnings_openapi2.0"
+title: "OpenAPI 2.0 warnings"
 updated: 2022-02-09
-warning: false
 contextual_links:
   - type: section
     name: "Prerequisites"

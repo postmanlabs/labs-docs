@@ -593,36 +593,36 @@ export const leftNavItems = [
         url: '/docs/api-governance/api-governance-overview/',
       },
       {
-        name: 'API design',
-        subParentSlug: 'api-design',
-        slug: '/docs/api-governance/api-design/api-schema-issues/',
+        name: 'API definition',
+        subParentSlug: 'api-definition',
+        slug: '/docs/api-governance/api-definition/api-definition-warnings/',
         subMenuItems2: [
           {
-            name: 'API schema issues',
-            url: '/docs/api-governance/api-design/api-schema-issues/',
+            name: 'API definition warnings',
+            url: '/docs/api-governance/api-definition/api-definition-warnings/',
           },
           {
-            name: 'OpenAPI 3.0 schema issues',
-            url: '/docs/api-governance/api-design/openapi3/',
+            name: 'OpenAPI 3.0 warnings',
+            url: '/docs/api-governance/api-definition/openapi3/',
           },
           {
-            name: 'OpenAPI 2.0 schema issues',
-            url: '/docs/api-governance/api-design/openapi2/',
+            name: 'OpenAPI 2.0 warnings',
+            url: '/docs/api-governance/api-definition/openapi2/',
           },
         ],
       },
       {
         name: 'API testing',
         subParentSlug: 'api-testing',
-        slug: '/docs/api-governance/api-testing/api-testing-overview/',
+        slug: '/docs/api-governance/api-testing/api-testing-warnings/',
         subMenuItems2: [
           {
-            name: 'API testing overview',
-            url: '/docs/api-governance/api-testing/api-testing-overview/',
+            name: 'API testing warnings',
+            url: '/docs/api-governance/api-testing/api-testing-warnings/',
           },
           {
-            name: 'Security issues',
-            url: '/docs/api-governance/api-testing/security-issues/',
+            name: 'Security warnings',
+            url: '/docs/api-governance/api-testing/security-warnings/',
           },
         ],
       },
