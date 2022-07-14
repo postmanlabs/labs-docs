@@ -56,6 +56,6 @@ Postman will send an email notification to the person you selected. Once they ap
 
 ## Approving requests for access
 
-If you're an Editor on a Postman element like a collection, API, environment, mock server, or monitor, you may receive a request to give a teammate access to it.
+If you're an Editor on a Postman element like an API, collection, environment, mock server, or monitor, you may receive a request to give a teammate access to it.
 
 When a teammate requests Editor role access, you will receive an email that details the request. Select **Approve Request** if you want to give your teammate Editor role access to the collection, API, environment, mock server, or monitor. If you don't want to give Editor access, you can ignore the request. The request will expire after 15 days.

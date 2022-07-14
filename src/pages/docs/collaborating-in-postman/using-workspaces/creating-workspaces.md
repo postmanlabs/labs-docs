@@ -53,7 +53,7 @@ Workspaces can also create visibility for the projects within a team, as collect
 
 _Workspace as an element_ represents a whole container where being an Admin gives you full access to the workspace. This concept works like the inheritance property where you will have Editor access to all the elements within that particular workspace.
 
-> For Postman Professional and Enterprise teams, a private workspace is a team workspace that's only visible to the user who created it, plus team members who have been invited to join it. Private workspaces let teams restrict access to APIs,collections, environments, mocks, and monitors that are relevant only to a particular group.
+> For Postman Professional and Enterprise teams, a private workspace is a team workspace that's only visible to the user who created it, plus team members who have been invited to join it. Private workspaces let teams restrict access to APIs, collections, environments, mocks, and monitors that are relevant only to a particular group.
 
 ## Creating a new workspace
 

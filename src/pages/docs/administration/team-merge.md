@@ -75,7 +75,7 @@ See [performing centralized migration](#performing-centralized-migration) to cho
 
 You can carry out distributed migration with any type of Postman account.
 
-You can export your personal workspace and shared workspaces for any teams you have joined, or you can choose to only export data from a specific workspace. See [exporting data](/docs/getting-started/importing-and-exporting-data/#exporting-postman-data) for detail.
+You can export your personal workspace and shared workspaces for any teams you have joined, or you can choose to only export data from a specific workspace. See [exporting data](/docs/getting-started/importing-and-exporting-data/#exporting-postman-data) for more information.
 
 If you have an individual account and aren't part of a team yet, but want to keep an independent workspace after joining one, see [Joining a team](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/#joining-a-team). When migrating company data to an authorized team, you can [export specific data](/docs/getting-started/importing-and-exporting-data/#exporting-postman-data) or [export a dump of all data](/docs/getting-started/importing-and-exporting-data/#exporting-data-dumps).
 
@@ -106,21 +106,21 @@ See [performing distributed migration](#performing-distributed-migration) to cho
     * All collections included in the data dump will be imported into your selected workspace.
 * When your new team is ready for team members to join, the Admin on the new team can send invitations to all other team members. The invite link will prompt them to join the new team. Once they've joined the new team, you can [remove them from the original team](/docs/administration/managing-your-team/managing-your-team/#removing-team-members).
 * At this point, you can [re-share and organize collections into team workspaces](/docs/collaborating-in-postman/working-with-your-team/collaborating-in-team-workspaces/#moving-elements-to-team-workspaces).
-* Once the last team member from your earlier team has migrated to your new one, the team will deactivate and you can begin [collaborating](https://www.youtube.com/watch?v=0hPUzjM-Cc8).
+* Once the last team member from your earlier team has migrated to your new one, the team will deactivate and you can begin [collaborating](https://youtu.be/5lscUV-Exac).
 
 ### Performing distributed migration
 
 * Your team members need to [export](/docs/getting-started/importing-and-exporting-data/#exporting-postman-data) their Postman data prior to moving to your new team. You can use this as an opportunity to clean up and reorganize your workspaces.
 * Team members can [leave the earlier team](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/#leaving-a-team) and [join your new team](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/#joining-a-team). They can then re-import Postman data into their respective team workspaces, creating new workspaces where necessary.
     * By default, the person who imports a collection or environment is automatically assigned the Editor role (learn more about [roles](/docs/collaborating-in-postman/roles-and-permissions/)). Everyone else on the team will be assigned as a Viewer.
-* Once the last team member from your earlier team has migrated to your new one,the team will deactivate and you can begin [collaborating](https://www.youtube.com/watch?v=0hPUzjM-Cc8).
+* Once the last team member from your earlier team has migrated to your new one,the team will deactivate and you can begin [collaborating](https://youtu.be/5lscUV-Exac).
     * If you change your team email to a non-company domain email (for example, Gmail or Yahoo), your original team will continue indefinitely. You can keep a personal account with your current data and use a work email for a work account. Keeping both accounts in use can help when you migrate data.
     * Keep in mind items that will need to be recreated (such as monitors and mocks).
 
 ## Migration FAQs
 
 * **I'm on a free account, what happens to my personal collections when I join a team?**
-If you are an individual Postman user and join a Postman team, your personal workspaces and the data within them is transferred to the team. For more information, see [Joining a team](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/#joining-a-team).
+If you're an individual Postman user and join a Postman team, your personal workspaces and the data within them is transferred to the team. For more information, see [Joining a team](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/#joining-a-team).
 
 > If you experience any issues when joining a new team, [contact Postman support](https://www.postman.com/support/).
 

@@ -74,9 +74,9 @@ When you sign in using the Postman desktop app, the app will open a new screen t
 
 > You can opt out of the sign in process at any time by going back to Postman and selecting **Skip and take me to Postman Desktop App**.
 
-Sign into Postman in your browser by entering your account credentials or signing in with Google. If you are signing in to a Postman Professional or Enterprise team with SSO enabled, opt to **Sign in with SSO**.
+Sign into Postman in your browser by entering your account credentials or signing in with Google. If you're signing in to a Postman Professional or Enterprise team with SSO enabled, opt to **Sign in with SSO**.
 
-Select **Stay signed in for 30 days** if you want to remain signed in after your current session for 30 days before re-authenticating. If you don't want to remain signed in on the computer you are working on, clear this checkbox. Note that Postman will prompt you to sign in again after 30 minutes.
+Select **Stay signed in for 30 days** if you want to remain signed in after your current session for 30 days before re-authenticating. If you don't want to remain signed in on the computer you're working on, clear this checkbox. Note that Postman will prompt you to sign in again after 30 minutes.
 
 After you sign in, you will be redirected back to the Postman desktop app.
 
@@ -98,19 +98,19 @@ You can manage account settings including your email address, password, and work
 
 #### Changing your email address
 
-If you are on a Professional, Basic, or Free plan, you can change the email address associated with your Postman account. Open your [account settings](https://go.postman.co/settings/me/account/) page. Select your avatar in the upper-right corner > **Settings** > **Account**. Edit your email address and select **Update Email** to save changes.
+If you're on a Professional, Basic, or Free plan, you can change the email address associated with your Postman account. Open your [account settings](https://go.postman.co/settings/me/account/) page. Select your avatar in the upper-right corner > **Settings** > **Account**. Edit your email address and select **Update Email** to save changes.
 
-If you are on an Enterprise plan, you must contact your Team Admins to update the email address associated with your Postman account.
+If you're on an Enterprise plan, you must contact your Team Admins to update the email address associated with your Postman account.
 
 #### Resetting your password
 
-If you are on a Professional, Basic, or Free plan, you can reset your password if you are already signed in by navigating to your [account settings](https://go.postman.co/settings/me/account/) page. Select your avatar in the upper-right corner > **Settings** > **Account**. Select **Edit Password**.
+If you're on a Professional, Basic, or Free plan, you can reset your password if you're already signed in by navigating to your [account settings](https://go.postman.co/settings/me/account/) page. Select your avatar in the upper-right corner > **Settings** > **Account**. Select **Edit Password**.
 
 If you aren't signed in to your Postman account, you can recover your username or reset your password from the [**Sign In**](https://identity.getpostman.com/login) page. Select __Trouble signing in?__ Enter your account email, select the __I'm not a robot__ box, and select __Submit__. Postman will send you an email with instructions for recovering access to your account.
 
 > If you still have trouble logging into your Postman account, contact [Postman support](https://support.postman.com/hc/en-us).
 
-If you are on an Enterprise plan, you must contact your Team Admins to update the password associated with your Postman account.
+If you're on an Enterprise plan, you must contact your Team Admins to update the password associated with your Postman account.
 
 #### Deleting your account
 
@@ -140,7 +140,7 @@ You can update your [notification preferences](https://go.postman.co/settings/me
 
 You can opt in to or out of email or in-app notifications about security, usage, monitors, and comments by selecting or de-selecting the boxes next to each item. Select **Update Preferences** to save changes.
 
-In addition to email and in-app notifications, you can also send many notifications to Slack using the [Slack integration](/docs/integrations/available-integrations/slack/). After you add the Slack integration, you can select notification events from the **On Slack** column. These notifications are sent to Slack by the integration.
+In addition to email and in-app notifications, you can also send many notifications to Slack using the [Slack integration](/docs/integrations/available-integrations/slack/). After you add the Slack integration, you can select notification events in the **On Slack** column. These notifications are sent to Slack by the integration.
 
 <img alt="Update notification preferences" src="https://assets.postman.com/postman-docs/notification-preferences-v9-4.jpg">
 
