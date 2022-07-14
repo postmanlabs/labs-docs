@@ -64,4 +64,4 @@ If you are using teams in Splunk On-Call, you can route alerts to specific teams
 
 An incident on Splunk On-Call consists of basic information from a monitor that has failed, including the number of errors and failed tests. It also provides a direct link to the failing monitor. This integration automatically acknowledges a triggered incident if the next run succeeds.
 
-[![Incident info](https://assets.postman.com/postman-docs/splunk-on-call-incident-info.jpg)](https://assets.postman.com/postman-docs/splunk-on-call-incident-info.jpg)
+[![Incident information](https://assets.postman.com/postman-docs/splunk-on-call-incident-info.jpg)](https://assets.postman.com/postman-docs/splunk-on-call-incident-info.jpg)
