@@ -41,6 +41,6 @@ When sending or receiving a gRPC request or response, the messages being sent ba
 
 When composing a message for a gRPC request, you input the data as JSON. However, under the hood, that JSON represents Protocol Buffers data. For example, you can enter a base64 JSON string to represent `bytes` in Protocol Buffers.
 
-Postman uses the [service definition you select](/postman-flows/getting-started/using-service-definition/) to provide rich type information as you compose your message. When you hover your mouse over various JSON fields or values, a tooltip will explain the underlying Protocol Buffers type for that JSON field or value. This can help you remember how to enter certain types of data, or to understand what's going on under the hood.
+Postman uses the [service definition you select](/postman-api-client/grpc-client/using-service-definition/) to provide rich type information as you compose your message. When you hover your mouse over various JSON fields or values, a tooltip will explain the underlying Protocol Buffers type for that JSON field or value. This can help you remember how to enter certain types of data, or to understand what's going on under the hood.
 
 <img src="https://assets.postman.com/postman-labs-docs/grpc-docs/grpc-types/inspecting-types.gif" alt="gRPC Type Inspection">
