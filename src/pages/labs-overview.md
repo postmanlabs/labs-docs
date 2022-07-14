@@ -22,7 +22,7 @@ contextual_links:
     name: "gRPC"
   - type: link
     name: "gRPC Overview"
-    url: ""
+    url: "/postman-api-client/grpc-client/grpc-client-overview/"
   - type: link
     name: "GitHub Issues"
     url: "https://github.com/postmanlabs/postman-app-support/issues"
@@ -30,7 +30,11 @@ contextual_links:
     name: "WebSockets"
   - type: link
     name: "Using WebSocket Requests"
-    url: "https://learning.postman.com/docs/sending-requests/supported-api-frameworks/websocket/"
+    url: "/postman-api-client/websocket-client/websocket-client-overview/"
+  - type: link
+    name: "Github Issues"
+    url: "https://github.com/postmanlabs/postman-app-support/issues"
+
 ---
 
 Welcome to Postman Labs! Labs' focus is on building and testing new technology. We have multiple initiatives we're currently working on, and documentation related to each initiative will be here. What excites us is the ability to truly be on the cutting edge of technology, and in some cases, ahead of it.
@@ -39,7 +43,7 @@ Welcome to Postman Labs! Labs' focus is on building and testing new technology. 
 
 Flows is a visual tool to create API workflows. You can use Flows to chain requests, handle data and create real world workflows right in your Postman workspace.
 
-[Read more here...](/postman-flows/getting-started/flows-overview)
+[Read more here...](/postman-flows/getting-started/flows-overview/)
 
 ## API Client
 
@@ -49,8 +53,10 @@ The API Client team has diligently been working on supporting more protocols wit
 
 The WebSocket protocol provides a way to exchange data between a client and server over a persistent connection. The data can be passed in both directions with low latency and overhead, and without breaking the connection. WebSockets provide a bidirectional, full-duplex communications channel that operates over HTTP through a single TCP socket connection. This means the server can independently send data to the client without the client having to request it, and vice versa.
 
-[Read more here...](https://learning.postman.com/docs/sending-requests/supported-api-frameworks/websocket/)
+[Read more here...](/postman-api-client/websocket-client/websocket-client-overview/)
 
 ### gRPC
 
-[Read more here...](/multi-protocol/gRPC/grpc-overview)
+gRPC is a schema-driven Remote Procedure Call (RPC) framework often used to enable inter-service communication. Being RPC based, it facilitates client-server communication over a function call instead of an HTTP call. gRPC has gained significant popularity because of its easier abstraction than HTTP, support across multiple languages, and high performance. Postman provides you with a client interface to work with gRPC services. Go through the documentation to learn how to use Postman's gRPC client to test your gRPC API.
+
+[Read more here...](/postman-api-client/grpc-client/grpc-client-overview/)

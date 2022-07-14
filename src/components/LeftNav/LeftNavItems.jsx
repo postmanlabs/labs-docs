@@ -116,6 +116,10 @@ export const leftNavItems = [
         url: "/postman-api-client/grpc-client/using-service-definition/",
       },
       {
+        name: "Understanding gRPC types",
+        url: "/postman-api-client/grpc-client/understanding-grpc-types/",
+      },
+      {
         name: "Collaboration",
         url: "/postman-api-client/grpc-client/collaboration/",
       },
