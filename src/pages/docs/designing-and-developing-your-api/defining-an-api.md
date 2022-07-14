@@ -40,11 +40,16 @@ You can define the structure of your API using its _API definition_. This can co
 
 ## Editing your API definition
 
-The __Definition__ tab in each API version page contains an editor for your API definition (either one you imported or a sample Postman added when you created the API).
+<!--
+
+TODO this changes because the definition tab is now gone for everyone. It's only the left nav stuff now.
+-->
+
+For single-file API definitions, the __Definition__ tab in each API version page contains an editor for your API definition (either one you imported or a sample Postman added when you created the API).
 
 The default schema type is OpenAPI 3.0, with YAML as the default format. To use a different schema type or format, choose it from the dropdown list.
 
-The left pane of the schema editor displays an outline of your API definition. When you first open the editor, the top level of nodes will be expanded, and the rest of them collapsed. Select nodes to expand or collapse them. Select an element in the outline to jump to it in the editor. You can also select the API definition outline icon <img alt="API definition outline icon" src="https://assets.postman.com/postman-docs/icon-schema-outline-v9.jpg#icon" width="16px"/> to hide or show the outline.
+The left pane of the API definition editor displays an outline of your API definition. When you first open the editor, the top level of nodes will be expanded, and the rest of them collapsed. Select nodes to expand or collapse them. Select an element in the outline to jump to it in the editor. You can also select the API definition outline icon <img alt="API definition outline icon" src="https://assets.postman.com/postman-docs/icon-schema-outline-v9.jpg#icon" width="16px"/> to hide or show the outline.
 
 ![API definition navigation](https://assets.postman.com/postman-docs/v8-api-builder-schema-outline.gif)
 
@@ -60,13 +65,7 @@ In the upper right of the API definition editor are options to beautify the cont
 
 ## Editing multi-file API definitions
 
-<!--TODO:
-Lede change to explain what multi-file means
-Lede mentions specification and spec. Doesn't mention schema or definition.
-First H2 mentions schema
--->
-
-In addition to creating a single-file API definition, you can also create and import API definitions that span multiple files. Multi-file API definitions are supported in OpenAPI 2 and 3 APIs.
+In addition to creating a single-file API definition, you can also create and import API definitions that span multiple files. This is called a _multi-file API definition_. Multi-file API definitions are supported in and 3 APIs.
 
 When editing a multi-file schema, there are several terms to be aware of:
 
@@ -75,6 +74,7 @@ When editing a multi-file schema, there are several terms to be aware of:
 * Files
 * Root file - top level = root file = identified based on content, references (if a file has references to others) limitation = only one root file
 
+For multi-file API definitions, there is not an API definition tab in the API. Instead, the
 UI changes:
 no more definition tab
 definition files and folders are under the version in the left nav
@@ -95,13 +95,14 @@ ignores non-api stuff in repo - only pulls in api, collection jsons
 
 to convert to multi-file from an imported single file or an old definition (currently broken) there is an action to add a file or a folder, and there is a warning on what doesnt work (like you lose old comments)
 
+the migration flow might change
+
 There are the following limitations to multi-file API definitions:
 
 * Multi-file definitions are available on the Postman Desktop app v9.14.0 or later and Web app.
 * Existing comments and releases won’t be carried over.
 * Schema-sync integration won’t be supported.
 * Definition can’t be managed using Postman APIs.
-
 
 If you add a yaml, it creates a blank yaml
 
