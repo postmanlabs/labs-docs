@@ -213,7 +213,7 @@ The APIs that you add to the Private API Network reflect the latest state of the
 
 ### Publishing specific API versions
 
-All API versions are automatically visible to API Editors and Viewers within a Postman team. However, if you've developed APIs on an earlier version of Postman, you may find API versions that weren't made visible to API Vieweres. To make an existing API version visible to everyone in your team:
+All API versions are automatically visible to API Editors and Viewers within a Postman team. However, if you've developed APIs on an earlier version of Postman, you may find API versions that weren't made visible to API Viewers. To make an existing API version visible to everyone in your team:
 
 1. Select the API version in the sidebar.
 1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px">, then select **Edit**.
