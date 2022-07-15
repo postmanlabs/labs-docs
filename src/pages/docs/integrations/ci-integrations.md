@@ -2,7 +2,7 @@
 title: "CI Integrations"
 order: 164.2
 page_id: "ci-integrations"
-updated: 2022-03-31
+updated: 2022-04-08
 warning: false
 contextual_links:
   - type: section
@@ -20,6 +20,9 @@ contextual_links:
   - type: section
     name: "Next Steps"
   - type: link
+    name: "Bitbucket Pipelines"
+    url: "/docs/integrations/available-integrations/ci-integrations/bitbucket-pipelines/"
+  - type: link
     name: "CircleCI"
     url: "/docs/integrations/available-integrations/ci-integrations/circleci/"
   - type: link
@@ -32,53 +35,30 @@ contextual_links:
 
 Continuous Integration and Continuous Delivery (CI/CD) are a core part of the [API development workflow](/docs/designing-and-developing-your-api/the-api-workflow/). Postman integrates with popular CI tools so you can view details about API builds in the same place where you define and test your API.
 
-After you set up CI integration, you can view the status of builds or kick off a new build, all from within Postman. In addition, with the help of [Newman](/docs/running-collections/using-newman-cli/command-line-integration-with-newman/) and the Postman API, you can run API tests created in Postman as part of your CI pipeline.
+After you set up CI integration, you can view the status of builds or start a new build, all from within Postman. You can also run API tests created in Postman as part of your CI pipeline using [Newman](/docs/running-collections/using-newman-cli/command-line-integration-with-newman/) and the Postman API.
 
 ## Configuring CI integration
 
-To set up CI integration for your API, you’ll need to create an API token in your CI tool and configure your API in Postman. See the instructions for your CI tool:
+To set up CI integration for your API, first set up your CI project and then connect Postman to your CI tool. After you set up CI integration, information for CI build jobs is available in Postman. Open the **Test** tab for your API to view recent build jobs, see the build status, and even start a new build.
 
+To connect your API to your CI project, see the steps for your CI tool:
+
+* [Bitbucket Pipelines](/docs/integrations/available-integrations/ci-integrations/bitbucket-pipelines/)
 * [CircleCI](/docs/integrations/available-integrations/ci-integrations/circleci/)
 * [GitLab CI/CD](/docs/integrations/available-integrations/ci-integrations/gitlab-ci/)
 * [Jenkins](/docs/integrations/available-integrations/ci-integrations/jenkins/)
 * [Travis CI](/docs/integrations/available-integrations/ci-integrations/travis-ci/)
 
-## Viewing build status
-
-After you set up CI integration, status information for CI build jobs is available in Postman. For each build you can view the commit message, the branch the build ran on, the start time and duration, and the build status (success or failed).
-
-To view build jobs, open your API and select the **Test** tab. The most recent jobs are listed under **CI/CD Builds**.
-
-* To view a build in your CI tool, hold the cursor over a build and select **View build details**.
-* To kick off a new build, select **Run Build**. Select or enter a branch name, and then select **Run Build**.
-* To edit or delete the integration, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px">.
-
-<img alt="View CI recent runs" src="https://assets.postman.com/postman-docs/ci-recent-runs-v9-15.jpg">
-
-To view the full list of build jobs, select **View All Builds**. Use the dropdown lists to filter the list of builds by branch or build status. To get the latest build status information, select **Refresh**.
-
-<img alt="View all CI builds" src="https://assets.postman.com/postman-docs/ci-view-builds-v9-15.jpg">
-
 ## Configuring Newman for CI
 
-Running API tests as part of your CI pipeline helps to ensure that expectations between your API producers and consumers stay in sync.
+Running API tests as part of your CI pipeline helps to keep expectations between your API producers and consumers in sync.
 
-To run your API tests along with each build, first generate the required Newman configuration code in Postman. Then add the configuration code to your CI tool. After configuration, each time a CI build runs, Newman uses the Postman API to run the collections that contain your tests. You can view the results of your tests in Postman.
+To run your API tests along with each build, first generate the Newman configuration code in Postman. Then add the configuration code to your CI project. Each time a CI build runs, Newman uses the Postman API to run the collections that contain your tests. You can view the results of your tests in Postman.
 
->Before you begin, make sure you’ve already [set up an integration](#configuring-ci-integration) between your API version and CI tool.
+To configure Newman to run API tests, see the steps for your CI tool:
 
-To generate configuration code for Newman:
-
-1. Open your API version and select the **Test** tab.
-1. Under **CI/CD Builds**, select **View All Builds**.
-1. Select **Configure Newman**.
-1. Select a **Collection** and **Environment** to run during CI builds.
-1. (Optional) Select **+ Add more** to select additional collections to run.
-1. Select **Copy** to copy the Newman configuration, and then select **Finish**.
-1. Add the Newman configuration you copied to the build configuration file in your API repository. See the instructions for your CI tool:
-    * [CircleCI](/docs/integrations/available-integrations/ci-integrations/circleci/#configuring-newman-for-circleci)
-    * [GitLab CI/CD](/docs/integrations/available-integrations/ci-integrations/gitlab-ci/#configuring-newman-for-gitlab-cicd)
-    * [Jenkins](/docs/integrations/available-integrations/ci-integrations/jenkins/#configuring-newman-for-jenkins)
-    * [Travis CI](/docs/integrations/available-integrations/ci-integrations/travis-ci/#configuring-newman-for-travis-ci)
-
-<img alt="Generate Newman configuration for CI" src="https://assets.postman.com/postman-docs/ci-generate-newman-config-v9.jpg" width="543">
+* [Bitbucket Pipelines](/docs/integrations/available-integrations/ci-integrations/bitbucket-pipelines/#configuring-newman-for-bitbucket-pipelines)
+* [CircleCI](/docs/integrations/available-integrations/ci-integrations/circleci/#configuring-newman-for-circleci)
+* [GitLab CI/CD](/docs/integrations/available-integrations/ci-integrations/gitlab-ci/#configuring-newman-for-gitlab-cicd)
+* [Jenkins](/docs/integrations/available-integrations/ci-integrations/jenkins/#configuring-newman-for-jenkins)
+* [Travis CI](/docs/integrations/available-integrations/ci-integrations/travis-ci/#configuring-newman-for-travis-ci)
