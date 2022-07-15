@@ -64,7 +64,7 @@ During the sign up process, you have the option to create or join a [team](/docs
 * **Joining a team** - If you sign up with your company email and your company has a Postman account with team discovery enabled, there will be a list of [teams you can join](/docs/collaborating-in-postman/working-with-your-team/enabling-team-discovery/#finding-teams-within-your-organization).
 * **Creating a team** - To create a team and optionally invite collaborators, select __Collaborate with people in new team__. Enter your team name and URL, then select __Continue__.
 
-> To learn more about joining and creating teams, see [Collaboration overview](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/).
+> To learn more about joining and creating teams, see the [Collaboration overview](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/).
 
 ## Signing into Postman
 
