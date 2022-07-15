@@ -106,7 +106,7 @@ Under **Members**, select the roles next to the user you'd like to update. Selec
 
 > Each team member must have at least one team role assigned to them.
 
-Teams can have two support accounts at no extra cost. Support accounts are defined as members with only Admin or Billing roles. Members with a Super Admin or Developer role will consume a paid slot on your team.
+Teams can have two support accounts at no extra cost. Support accounts are members with only Admin or Billing roles. Members with a Super Admin or Developer role will consume a paid slot on your team.
 
 For full details about the Postman team roles that you can assign as a Team Admin, see [Team roles](/docs/collaborating-in-postman/roles-and-permissions/#team-roles). Some roles are only available for teams with [Postman Professional or Enterprise](https://www.postman.com/pricing) plans.
 
@@ -126,7 +126,7 @@ Team members with the Billing role can upgrade your team plan in the [billing da
 
 ## Updating your team’s Postman version
 
-If your team isn't on the latest version, you can update your team to ensure everyone has access to the complete API development experience that Postman has to offer. To do so, see [Updating your team to the current version of Postman](/docs/administration/updating/).
+If your team isn't on the latest version of the desktop app, you can update your team to ensure everyone has access to the complete API development experience that Postman has to offer. To do so, see [Updating your team to the current version of Postman](/docs/administration/updating/).
 
 ## Next steps
 
