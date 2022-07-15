@@ -45,6 +45,7 @@ To connect your API to your CI project, see the steps for your CI tool:
 
 * [Bitbucket Pipelines](/docs/integrations/available-integrations/ci-integrations/bitbucket-pipelines/)
 * [CircleCI](/docs/integrations/available-integrations/ci-integrations/circleci/)
+* [GitLab CI/CD](/docs/integrations/available-integrations/ci-integrations/gitlab-ci/)
 * [Jenkins](/docs/integrations/available-integrations/ci-integrations/jenkins/)
 * [Travis CI](/docs/integrations/available-integrations/ci-integrations/travis-ci/)
 
