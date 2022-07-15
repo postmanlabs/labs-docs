@@ -22,11 +22,13 @@ contextual_links:
 search_keyword: "api security, api schema, security warnings, schema validation, security validation, api security audit, api security scan, api schema vulnerabilities, security audit,openapi 3.0"
 ---
 
-You can use Postman to identify any potential security misses when defining your API.
+You can use Postman to identify any potential security and formatting issues when defining your API.
+
+> **The format linting feature is in beta.** During the beta period, it may not be available to all Postman users and is subject to potential change.
 
 <img alt="Security warnings for OpenAPI 3.0" src="https://assets.postman.com/postman-docs/security-warnings-openapi-3-v9.jpg"/>
 
-### Security warnings for OpenAPI 3.0
+### Warnings for OpenAPI 3.0
 
 For all APIs defined in OpenAPI 3.0, the following list describes possible warning messages and potential ways to resolve them.
 

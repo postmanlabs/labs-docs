@@ -4,6 +4,8 @@ updated: 2022-07-20
 search_keyword: "api security, api schema, security warnings, schema validation, security validation, api security audit, api security scan, api schema vulnerabilities, security audit"
 ---
 
+> **This feature is in beta.** During the beta period, it may not be available to all Postman users and is subject to potential change. 
+
 <!-- TODO: intro -->
 
 <!-- TODO: screenshot -->
