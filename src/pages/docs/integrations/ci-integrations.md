@@ -39,6 +39,7 @@ After you set up CI integration, you can view the status of builds or kick off a
 To set up CI integration for your API, you’ll need to create an API token in your CI tool and configure your API in Postman. See the instructions for your CI tool:
 
 * [CircleCI](/docs/integrations/available-integrations/ci-integrations/circleci/)
+* [GitLab CI/CD](/docs/integrations/available-integrations/ci-integrations/gitlab-ci/)
 * [Jenkins](/docs/integrations/available-integrations/ci-integrations/jenkins/)
 * [Travis CI](/docs/integrations/available-integrations/ci-integrations/travis-ci/)
 
@@ -76,6 +77,7 @@ To generate configuration code for Newman:
 1. Select **Copy** to copy the Newman configuration, and then select **Finish**.
 1. Add the Newman configuration you copied to the build configuration file in your API repository. See the instructions for your CI tool:
     * [CircleCI](/docs/integrations/available-integrations/ci-integrations/circleci/#configuring-newman-for-circleci)
+    * [GitLab CI/CD](/docs/integrations/available-integrations/ci-integrations/gitlab-ci/#configuring-newman-for-gitlab-cicd)
     * [Jenkins](/docs/integrations/available-integrations/ci-integrations/jenkins/#configuring-newman-for-jenkins)
     * [Travis CI](/docs/integrations/available-integrations/ci-integrations/travis-ci/#configuring-newman-for-travis-ci)
 

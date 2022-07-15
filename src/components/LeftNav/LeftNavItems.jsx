@@ -882,6 +882,10 @@ export const leftNavItems = [
             url: '/docs/integrations/available-integrations/gitlab/',
           },
           {
+            name: 'GitLab CI/CD',
+            url: '/docs/integrations/available-integrations/ci-integrations/gitlab-ci/',
+          },
+          {
             name: 'Jenkins',
             url: '/docs/integrations/available-integrations/ci-integrations/jenkins/',
           },
