@@ -1,5 +1,5 @@
 import React from 'react';
-const qualtrics = require('../../../scripts/qualtrics')
+const qualtrics = require('../../../build/qualtrics')
 class QualtricsScript extends React.Component {
   componentDidMount() {
     if (typeof window !== 'undefined') {

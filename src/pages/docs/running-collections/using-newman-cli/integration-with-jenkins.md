@@ -13,6 +13,9 @@ contextual_links:
   - type: subtitle
     name: "Videos"
   - type: link
+    name: "API Lifecycle, Part 2: Monitor and Deploy an API | Postman Space Camp"
+    url: "https://youtu.be/voAUfBx8fnE"
+  - type: link
     name: "Continuous Testing with Postman | Webinar"
     url: "https://youtu.be/sB2HHrezQOo"
   - type: subtitle
