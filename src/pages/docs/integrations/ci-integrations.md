@@ -57,7 +57,8 @@ To run your API tests along with each build, first generate the Newman configura
 
 To configure Newman to run API tests, see the steps for your CI tool:
 
+* [Bitbucket Pipelines](/docs/integrations/available-integrations/ci-integrations/bitbucket-pipelines/#configuring-newman-for-bitbucket-pipelines)
 * [CircleCI](/docs/integrations/available-integrations/ci-integrations/circleci/#configuring-newman-for-circleci)
+* [GitLab CI/CD](/docs/integrations/available-integrations/ci-integrations/gitlab-ci/#configuring-newman-for-gitlab-cicd)
 * [Jenkins](/docs/integrations/available-integrations/ci-integrations/jenkins/#configuring-newman-for-jenkins)
 * [Travis CI](/docs/integrations/available-integrations/ci-integrations/travis-ci/#configuring-newman-for-travis-ci)
-* [Bitbucket Pipelines](/docs/integrations/available-integrations/ci-integrations/bitbucket-pipelines/#configuring-newman-for-bitbucket-pipelines)
