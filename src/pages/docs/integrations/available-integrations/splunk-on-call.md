@@ -48,7 +48,7 @@ If you are using teams in Splunk On-Call, you can route alerts to specific teams
     * **Workspace** -  The workspace that contains your monitor.
     * **Monitor** -   Send this monitor's results to Splunk On-Call.
     * **API Key** -  The API key from the Splunk On-Call **Integrations** page.
-1. Select **Advanced Options** if you want to add a Splunk On-Call routing key.
+1. Select **Advanced Options** if you want to add a Splunk On-Call routing key. This enables you to direct incidents to a specific team, so they get notified about a particular failure.
     > You can send the multiple monitors' results to the same Splunk On-Call collection.
 1. Select **Add Integration**.
 
