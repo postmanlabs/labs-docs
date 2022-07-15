@@ -29,52 +29,114 @@
 
 export const leftNavItems = [
   {
-    name: "Getting started",
-    parentSlug: "getting-started",
+    name: "Labs Overview",
+    parentSlug: "labs-overview",
+    url: "/labs-overview",
+  },
+  {
+    name: "Postman Flows",
+    parentSlug: "postman-flows",
     url: "/postman-flows/getting-started/flows-overview/",
     subMenuItems1: [
       {
-        name: "Introduction",
-        url: "/postman-flows/getting-started/flows-overview/",
+        name: "Getting Started",
+        subParentSlug: "getting-started",
+        slug: "/postman-flows/getting-started/flows-overview/",
+        subMenuItems2: [
+          {
+            name: "Introduction",
+            url: "/postman-flows/getting-started/flows-overview/",
+          },
+          {
+            name: "The Interface",
+            url: "/postman-flows/getting-started/the-interface/",
+          },
+          {
+            name: "Running requests in sequence",
+            url: "/postman-flows/getting-started/running-requests-in-sequence/",
+          },
+          {
+            name: "Chaining requests with data",
+            url: "/postman-flows/getting-started/chaining-requests-with-data/",
+          },
+          {
+            name: "Working with access tokens - Durables",
+            url: "/postman-flows/getting-started/working-with-access-tokens/",
+          },
+        ],
       },
       {
-        name: "The Interface",
-        url: "/postman-flows/getting-started/the-interface/",
-      },
-      {
-        name: "Running requests in sequence",
-        url: "/postman-flows/getting-started/running-requests-in-sequence/",
-      },
-      {
-        name: "Chaining requests with data",
-        url: "/postman-flows/getting-started/chaining-requests-with-data/",
-      },
-      {
-        name: "Working with access tokens - Durables",
-        url: "/postman-flows/getting-started/working-with-access-tokens/",
+        name: "Core concepts",
+        subParentSlug: "core-concept",
+        slug: "/postman-flows/core-concepts/blocks/",
+        subMenuItems2: [
+          {
+            name: "Blocks",
+            url: "/postman-flows/core-concepts/blocks/",
+          },
+          {
+            name: "Messages",
+            url: "/postman-flows/core-concepts/messages/",
+          },
+          {
+            name: "Connections",
+            url: "/postman-flows/core-concepts/connections/",
+          },
+          {
+            name: "Data Types",
+            url: "/postman-flows/core-concepts/data-types/",
+          },
+        ],
       },
     ],
   },
   {
-    name: "Core concepts",
-    parentSlug: "core-concepts",
-    url: "/postman-flows/core-concepts/blocks/",
+    name: "gRPC Client",
+    parentSlug: "grpc-client",
+    url: "/postman-api-client/grpc-client/grpc-client-overview/",
     subMenuItems1: [
       {
-        name: "Blocks",
-        url: "/postman-flows/core-concepts/blocks/",
+        name: "Introduction",
+        url: "/postman-api-client/grpc-client/grpc-client-overview/",
       },
       {
-        name: "Messages",
-        url: "/postman-flows/core-concepts/messages/",
+        name: "Request interface",
+        url: "/postman-api-client/grpc-client/grpc-request-interface/",
       },
       {
-        name: "Connections",
-        url: "/postman-flows/core-concepts/connections/",
+        name: "Invoking your first gRPC request",
+        url: "/postman-api-client/grpc-client/first-grpc-request/",
       },
       {
-        name: "Data Types",
-        url: "/postman-flows/core-concepts/data-types/",
+        name: "Using gRPC requests",
+        url: "/postman-api-client/grpc-client/using-grpc-request/",
+      },
+      {
+        name: "Working with service definition",
+        url: "/postman-api-client/grpc-client/using-service-definition/",
+      },
+      {
+        name: "Understanding gRPC types",
+        url: "/postman-api-client/grpc-client/understanding-grpc-types/",
+      },
+      {
+        name: "Collaborating with your teammates",
+        url: "/postman-api-client/grpc-client/collaboration/",
+      },
+      {
+        name: "Troubleshooting",
+        url: "/postman-api-client/grpc-client/troubleshooting/",
+      },
+    ],
+  },
+  {
+    name: "WebSocket Client",
+    parentSlug: "websocket-client",
+    url: "/postman-api-client/websocket-client/websocket-client-overview/",
+    subMenuItems1: [
+      {
+        name: "Using WebSocket requests",
+        url: "/postman-api-client/websocket-client/websocket-client-overview/",
       },
     ],
   },

@@ -13,21 +13,24 @@ function PreviousAndNextLinks() {
   // 1. Filter data  / data reference: LeftNavItems.jsx
   const parentLinks = [];
   leftNavItems.forEach((leftNavItem) => {
-    leftNavItem.subMenuItems1.map((subMenuItem1, index) => {
-      // parent - if url matches window.location, push item to array
-      leftNavItem.subMenuItems1[index].url === location && parentLinks.push(leftNavItem.subMenuItems1)
-      // subparent - same logic as above but a level deeper
-      subMenuItem1.subMenuItems2 && subMenuItem1.subMenuItems2.filter(subMenuItem2 =>
-        // push three arrays to parentLinks[last item in previous section, current items, first item in next section]
-        subMenuItem2.url === location && parentLinks.push(
-          [leftNavItem.subMenuItems1[index - 1]],
-          subMenuItem1.subMenuItems2,
-          [leftNavItem.subMenuItems1[index + 1]]
+    if(leftNavItem.subMenuItem1){
+      leftNavItem.subMenuItems1.map((subMenuItem1, index) => {
+        // parent - if url matches window.location, push item to array
+        leftNavItem.subMenuItems1[index].url === location && parentLinks.push(leftNavItem.subMenuItems1)
+        // subparent - same logic as above but a level deeper
+        subMenuItem1.subMenuItems2 && subMenuItem1.subMenuItems2.filter(subMenuItem2 =>
+          // push three arrays to parentLinks[last item in previous section, current items, first item in next section]
+          subMenuItem2.url === location && parentLinks.push(
+            [leftNavItem.subMenuItems1[index - 1]],
+            subMenuItem1.subMenuItems2,
+            [leftNavItem.subMenuItems1[index + 1]]
+          )
         )
+      }
       )
+      return parentLinks;
     }
-    )
-    return parentLinks;
+    return parentLinks
   })
   // 2. Invoke function based on array length and which page the user is on
   let previous;
