@@ -77,7 +77,7 @@ Postman supports the following:
 | C# | [RestSharp](http://restsharp.dev/) |
 | cURL |[cURL](https://curl.se/) |
 | Dart | [Dart](https://dart.dev/) |
-| Go   | [HTTP package](https://pkg.go.dev/net/http) |
+| Go   | [http package](https://pkg.go.dev/net/http) |
 | HTTP | (Raw HTTP request) |
 | Java | [OkHttp](https://github.com/square/okhttp) |
 | Java | [Unirest](https://github.com/Kong/unirest-java) |
@@ -91,11 +91,14 @@ Postman supports the following:
 | Objective-C | [NSURLSession](https://developer.apple.com/documentation/foundation/urlsession) |
 | OCaml | [Cohttp](https://github.com/mirage/ocaml-cohttp) |
 | PHP | [cURL](https://www.php.net/manual/en/ref.curl.php) |
+| PHP | [Guzzle](https://docs.guzzlephp.org/en/stable/)|
 | PHP | [Http_Request2](https://www.php.net/manual/en/reserved.variables.request.php)|
 | PHP | [pecl_http](https://mdref.m6w6.name/http) |
 | PowerShell | [RestMethod](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/invoke-restmethod?view=powershell-7) |
 | Python | [http.client](https://docs.python.org/3/library/http.client.html) (Python 3) |
-| Python | [Requests](https://docs.python-requests.org/en/master/)|
+| Python | [Requests](https://www.w3schools.com/python/module_requests.asp)|
+| R | [httr](https://cran.r-project.org/web/packages/httr/index.html) |
+| R | [RCurl](https://cran.r-project.org/web/packages/RCurl/index.html) |
 | Ruby | [NET::Http](https://docs.ruby-lang.org/en/2.0.0/Net/HTTP.html) |
 | Shell | [Httpie](https://github.com/httpie/httpie) |
 | Shell | [wget](https://www.gnu.org/software/wget/) |
