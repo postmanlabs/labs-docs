@@ -63,7 +63,7 @@ There are several ways you can join a Postman team:
 * **Invite link** - Open the link and select **Accept Invite**. Create a new Postman account or sign in to an existing one. After signing in, you'll be redirected to your new team.
 * **Team discovery** - When first joining Postman, you can [find teams to join within your organization](/docs/collaborating-in-postman/working-with-your-team/enabling-team-discovery/#finding-teams-within-your-organization).
 
-If you're an individual Postman user and join a Postman team, your personal workspaces and the data within them is transferred to the team. When you leave a team, your personal workspaces and the data within them will remain with the team and no longer be accessible to you.
+If you're an individual Postman user and join a Postman team, your personal workspaces and the data within them are transferred to the team. When you leave a team, your personal workspaces and the data within them will remain with the team and no longer be accessible to you.
 
 To keep an independent workspace, you can [create a free Postman team](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/#creating-a-team).
 
