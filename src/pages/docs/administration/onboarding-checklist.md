@@ -29,6 +29,7 @@ When you're getting started using Postman within your organization, you can carr
     * [Invite team members](#invite-team-members)
     * [Check your setup](#check-your-setup)
     * [Enable team discovery](#enable-team-discovery)
+* [Next steps](#next-steps)
 
 ## Setting up Postman
 
