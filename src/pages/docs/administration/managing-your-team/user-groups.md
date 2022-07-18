@@ -17,7 +17,7 @@ contextual_links:
 
 > __[Groups are only available to Postman Enterprise teams.](https://www.postman.com/pricing)__
 
-With Postman groups, you can organize team members into functional groups that mimic your organizational structure. Groups enable you to efficiently manage access control across your team and seamlessly onboard new team members.
+With Postman groups, you can organize team members into groups that reflect your organizational structure. Groups enable you to manage access to your team and onboard new team members.
 
 You must be a [Postman Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) to create, manage, and delete groups.
 
