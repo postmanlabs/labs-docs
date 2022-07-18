@@ -42,9 +42,9 @@ warning: false
 
 ---
 
-Postman can convert an API request into a code snippet in the programming language or framework of your choosing. You can use this generated code snippet in your front-end applications.
+Postman can convert an API request into a code snippet, and you can choose the programming language or framework. You can use this generated code snippet in your front-end applications.
 
-> This guide contains information about generating code snippets from API requests. For information about generating server-side boilerplate code from an API specification, see [Generating server code](/docs/designing-and-developing-your-api/generating-server-code/).
+> This guide has information about generating code snippets from API requests. For information about generating server-side boilerplate code from an API specification, see [Generating server code](/docs/designing-and-developing-your-api/generating-server-code/).
 
 ## Contents
 
@@ -56,20 +56,20 @@ Postman can convert an API request into a code snippet in the programming langua
 
 ## Generating code snippets in Postman
 
-1. With the request you want to use for a code snippet open, select the code icon <img alt="Code icon" src="https://assets.postman.com/postman-docs/icon-code-snippet.jpg#icon" width="16px"> in the right panel.
+1. Open the request you want to use for a code snippet, then select the code icon <img alt="Code icon" src="https://assets.postman.com/postman-docs/icon-code-snippet.jpg#icon" width="16px"> in the right panel.
 
     <img src="https://assets.postman.com/postman-docs/generate-code-right-sidebar-v9.jpg" width="300px" alt="Open code snippets"/>
 
-1. Use the dropdown list to select a [language or framework](#supported-languages-and-frameworks).
+1. Select a [language or framework](#supported-languages-and-frameworks) from the dropdown list.
 1. Select the copy icon <img alt="Copy icon" src="https://assets.postman.com/postman-docs/icon-copy-v9.jpg#icon" width="15px"> to copy the code snippet to your clipboard.
 
     ![Copy code snippet to clipboard](https://assets.postman.com/postman-docs/generate-code-copy-snippet-v9.jpg)
 
-1. For more configuration options, like the indentation type and count, select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> next to the dropdown list. The settings will vary based on the language or framework you chose.
+1. For more configuration options, like the indentation type and count, select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> next to the dropdown list. The settings vary based on the chosen language or framework.
 
 ## Supported languages and frameworks
 
-Postman supports the following options:
+Postman supports the following:
 
 | **Language**  | **Framework** |
 | --- | --- |
@@ -77,7 +77,7 @@ Postman supports the following options:
 | C# | [RestSharp](http://restsharp.dev/) |
 | cURL |[cURL](https://curl.se/) |
 | Dart | [Dart](https://dart.dev/) |
-| Go   | [http package](https://pkg.go.dev/net/http) |
+| Go   | [HTTP package](https://pkg.go.dev/net/http) |
 | HTTP | (Raw HTTP request) |
 | Java | [OkHttp](https://github.com/square/okhttp) |
 | Java | [Unirest](https://github.com/Kong/unirest-java) |
