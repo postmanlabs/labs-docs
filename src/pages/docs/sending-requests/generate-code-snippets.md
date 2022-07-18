@@ -63,7 +63,7 @@ Postman can convert an API request into a code snippet, and you can choose the p
 1. Select a [language or framework](#supported-languages-and-frameworks) from the dropdown list.
 1. Select the copy icon <img alt="Copy icon" src="https://assets.postman.com/postman-docs/icon-copy-v9.jpg#icon" width="15px"> to copy the code snippet to your clipboard.
 
-    ![Copy code snippet to clipboard](https://postman-static-assets.s3.amazonaws.com/postman-docs/code-snippet-copy-icon.jpg)
+    ![Copy code snippet to clipboard](https://assets.postman.com/postman-docs/code-snippet-copy-icon.jpg)
 
 1. For more configuration options, like the indentation type and count, select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> next to the dropdown list. The settings vary based on the chosen language or framework.
 
