@@ -204,6 +204,6 @@ The list of avatars in the Postman header shows you who's active in your workspa
 
 ## Next steps
 
-Once you start working collaboratively in a public workspace, users will fork collections and create pull requests.
+Once you start working collaboratively in a public workspace, users can fork collections and create pull requests.
 
 * To learn more about version control in Postman, visit [Using version control](/docs/collaborating-in-postman/version-control-for-collections/).

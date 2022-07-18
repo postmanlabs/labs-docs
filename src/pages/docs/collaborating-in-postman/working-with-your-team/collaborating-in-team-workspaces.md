@@ -51,7 +51,7 @@ You can move collections, APIs, and environments to shared workspaces to collabo
 
 In the sidebar, select the element you want to share, then select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> > **Move**.
 
-Use the search bar to find the workspace to which you want to move the element, or filter by workspace visibility by selecting <img alt="Filter icon" src="https://assets.postman.com/postman-docs/icon-filter.jpg#icon" width="16px">.
+Use the search bar to find the workspace to which you want to move the element, or filter by workspace visibility by selecting the filter icon <img alt="Filter icon" src="https://assets.postman.com/postman-docs/icon-filter.jpg#icon" width="16px">.
 
 You can share elements to personal, private, team, and public workspaces that you have access to.
 
