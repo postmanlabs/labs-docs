@@ -1,7 +1,7 @@
 ---
 title: "Generating client code"
 order: 29.1
-updated: 2021-02-08
+updated: 2022-07-18
 page_id: "generate_code_snippets"
 contextual_links:
   - type: section
