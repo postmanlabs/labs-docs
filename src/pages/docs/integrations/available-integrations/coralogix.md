@@ -1,7 +1,7 @@
 ---
 title: "Coralogix"
 order: 165
-updated: 2021-02-03
+updated: 2022-07-13
 page_id: "coralogix"
 warning: false
 contextual_links:
@@ -26,15 +26,13 @@ Setting up a Coralogix integration requires you to get an API key from Coralogix
 
 ## Retrieving your Coralogix private key
 
-1. Sign in to [Coralogix](https://dashboard.coralogix.com/#/login). The following screen appears:
+1. Sign in to [Coralogix](https://dashboard.coralogix.com/#/login).
 
-    [![Coralogix settings](https://assets.postman.com/postman-docs/Coralogix_Settings.png)](https://assets.postman.com/postman-docs/Coralogix_Settings.png)
+1. Select **Settings**, and then select the **Send your logs** tab.
 
-1. Select **Settings** to go to the following screen:
+    ![Coralogix settings](https://assets.postman.com/postman-docs/Coralogix_Pvtkey1.png)
 
-    [![Coralogix settings](https://assets.postman.com/postman-docs/Coralogix_Pvtkey1.png)](https://assets.postman.com/postman-docs/Coralogix_Pvtkey1.png)
-
-1. Select the **Send your logs** tab and copy the private key for later use, as illustrated in the above screen (highlighted in the red circle).
+1. Save the private key to use later.
 
 ## Configuring Coralogix integration
 
@@ -42,28 +40,34 @@ Setting up a Coralogix integration requires you to get an API key from Coralogix
 
     ![home page and integrations](https://assets.postman.com/postman-docs/home-integrations.jpg)
 
-    Search and select **Coralogix**.
+1. Select **Browse All Integrations**.
 
-    ![coralogix integrations page](https://assets.postman.com/postman-docs/coralogix-search-all-b.jpg)
+1. Search and select **Coralogix**.
 
 1. Select **Add Integration** to start configuring the integration for your workspace.
 
-    ![coralogix integrations page](https://assets.postman.com/postman-docs/coralogix-add-integration.jpg)
+    ![Coralogix integrations page](https://assets.postman.com/postman-docs/coralogix-add-integration.jpg)
 
-1. To send your monitor metrics and events to Coralogix:
+1. Enter the following in the **Add integration** window:
 
-    * Select the monitor whose data you would like to send to Coralogix.
-    * Enter a Coralogix private key.
-    * Optionally indicate if you want to send collection or environment details for each run.
+    * **Nickname** - A nickname for your integration.
+    * **Workspace** - The workspace that contains your monitor.
+    * **Monitor** - The collection-based monitor whose logs you would like to send to Coralogix.
+    * **Private key** - Your Coralogix private key.
+    * **Coralogix Site** - Your Coralogix site.
+    * **Region** - The region that hosts your cluster.
+    * **Advanced Options** - Show the Advanced Options to indicate if you want to send collection or environment details for each run.
 
-    Select **Add Integration** to save the configuration.
+1. Select **Add Integration** to save the configuration.
 
 ## Analyzing metrics in Coralogix
 
-Once the data starts flowing into Coralogix, you can view and analyze these metrics in the Coralogix dashboard, as illustrated in the screen below:
+Once the data starts flowing into Coralogix, you can view and analyze these metrics in the Coralogix dashboard.
 
-[![coralogix dashboard](https://assets.postman.com/postman-docs/coralogix_dashboard1.png)](https://assets.postman.com/postman-docs/coralogix_dashboard1.png)
+![Coralogix dashboard](https://assets.postman.com/postman-docs/coralogix_dashboard1.png)
 
 Select the **Logs** tab to a view a list of all logs. You can filter the services by name. As many services may be running in your system, you can filter by selecting Postman to view all Coralogix logs for Postman. The schema appears, as illustrated below:
 
-[![coralogix logs view](https://assets.postman.com/postman-docs/coralogix_schema1.png)](https://assets.postman.com/postman-docs/coralogix_schema1.png)
+![Coralogix logs view](https://assets.postman.com/postman-docs/coralogix_schema1.png)
+
+For more information, see the [Coralogix documentation](https://coralogix.com/docs/logs-screen/).
