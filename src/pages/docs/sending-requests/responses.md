@@ -16,9 +16,6 @@ contextual_links:
   - type: link
     name: "How to Inspect API Responses"
     url:  "https://youtu.be/31wBZyBdbgw"
-  - type: link
-    name: "HTTP protocol explained"
-    url:  "https://www.youtube.com/watch?v=FAnuh0_BU4c&list=PLM-7VG-sgbtBBnWb2Jc5kufgtWYEmiMAw"
   - type: section
     name: "Next Steps"
   - type: link
@@ -48,7 +45,7 @@ The Postman response viewer helps you to visualize and check the correctness of 
 
 The Postman **Body** tab gives you several tools to help you understand the response quickly. You can view the body in one of four views: _Pretty_, _Raw_, _Preview_, and _Visualize_.
 
-> **Finding items in responses** - To open the search bar, select the search icon <img alt="Search icon" src="https://assets.postman.com/postman-docs/icon-search-v9.jpg#icon" width="16px"> in the results pane. You can also place your cursor in the response and select **⌘+F** or **Ctrl+F**. This option is not available in a response's Preview or Visualize views.
+> **Finding items in responses** - To open the search bar, select the search icon <img alt="Search icon" src="https://assets.postman.com/postman-docs/icon-search-v9.jpg#icon" width="16px"> in the results pane. You can also place your cursor in the response and select **⌘+F** or **Ctrl+F**. This option isn't available in a response's Preview or Visualize views.
 
 Note that if the response's `Content-Type` header indicates that the response is an image, Postman will detect and render the image automatically.
 

@@ -9,6 +9,13 @@ contextual_links:
     name: "Grouping requests in collections"
     url: "/docs/sending-requests/intro-to-collections/"
   - type: section
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "API Lifecycle, Part 2: Monitor and Deploy an API | Postman Space Camp"
+    url: "https://youtu.be/voAUfBx8fnE"
 ---
 
 New Relic is an application performance management solution to monitor real-time and trending data for your processes or web apps. Using Postman's New Relic integration, you can send [Postman monitor](/docs/monitoring-your-api/intro-monitors/) results to New Relic.

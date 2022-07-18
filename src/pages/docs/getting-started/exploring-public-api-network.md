@@ -21,6 +21,12 @@ contextual_links:
   - type: link
     name: "Discover APIs Easily with New Categories in the Postman API Network"
     url: "https://blog.postman.com/discover-apis-categories-postman-api-network/"
+  - type: link
+    name: "Play with These Gaming APIs in the Postman Public API Network"
+    url: "https://blog.postman.com/gaming-apis-postman-public-api-network/"
+  - type: link
+    name: "Build Software Faster with These Productivity APIs"
+    url: "https://blog.postman.com/build-software-faster-with-productivity-apis/"
   - type: section
     name: "Next Steps"
   - type: link

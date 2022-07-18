@@ -53,7 +53,7 @@ Once Interceptor is running in Chrome, you can start a debug session, which is a
 
 To get started, install Postman Interceptor:
 
-1. [Download](https://go.pstmn.io/interceptor-download) Interceptor in the Chrome Web Store. If you already have the extension, ensure it is version v0.2.26 or later.
+1. [Download](https://go.pstmn.io/interceptor-download) Interceptor in the Chrome Web Store. If you already have the extension, ensure it's version v0.2.26 or later.
 1. Select <img alt="Capture icon" src="https://assets.postman.com/postman-docs/icon-capture.jpg#icon" width="15px"> **Capture requests** in the Postman footer.
 1. On the **Capture requests** window, select the **Via Interceptor** tab.
 
