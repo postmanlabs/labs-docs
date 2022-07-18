@@ -256,7 +256,7 @@ Restoring a collection from the changelog reverts it to the point immediately af
 
 ### Viewing pull requests, forks, and collection details
 
-From the context bar next to the collection overview:
+From the right sidebar:
 
 * To view pull requests for a collection, select the pull request icon <img alt="Pull request icon" src="https://assets.postman.com/postman-docs/icon-pull-request.jpg#icon" width="16px">
 * To view forks created from a collection, select the fork icon <img alt="Fork icon" src="https://assets.postman.com/postman-docs/icon-fork.jpg#icon" width="16px">
