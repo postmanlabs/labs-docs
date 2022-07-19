@@ -36,14 +36,14 @@ Postman provides a variety of tools to enable and enhance collaboration within y
 
 Your team's usage limits are based on your [plan type](https://www.postman.com/pricing/) and any [add-ons](/docs/administration/billing/#purchasing-add-ons) your team has purchased.
 
-The Postman usage menu lets you review your team's limits for APIs, shared requests and history, mocks, monitors, and public documentation.
+Open the Postman usage menu to review your team's limits for custom domains, image and file storage, and integrations.
 
-* **Free users** - Next to your avatar, select the menu to the right of **Upgrade**.
-* **Paid users** - Next to your avatar, select **Team**.
+* **Free users** - In the Postman header, select the menu next to **Upgrade**.
+* **Paid users** - In the Postman header, select **Team**.
 
-For more details and to view your usage period, select **Resource Usage**.
+Select **Resource Usage** to view your usage period and detailed usage of mock servers, monitoring, custom domains, image and file storage, the Postman API, serverless requests, integrations, and the Postman Cloud Agent.
 
-<img src="https://assets.postman.com/postman-docs/team-dropdown-resource-usage-v9.2.jpg" alt="Team resource usage information" width="400px"/>
+<img src="https://assets.postman.com/postman-docs/team-dropdown-resource-usage-v9-25.jpg" alt="Team resource usage information" width="342px"/>
 
 Team members with the [Billing role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can [purchase extra blocks](/docs/administration/billing/#purchasing-add-ons) of monitoring requests, mock server calls, and custom domains in the [billing dashboard](http://go.postman.co/billing).
 

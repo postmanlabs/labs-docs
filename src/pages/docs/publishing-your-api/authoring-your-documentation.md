@@ -186,7 +186,9 @@ You can change an image after uploading or embedding it:
 
 If you are on a [Postman Free plan](https://www.postman.com/pricing/) and aren't part of a team, the total size of your uploaded images is limited to 20 MB. If you are part of a team ([free or paid plans](https://www.postman.com/pricing/)), the total size of your team's uploaded images is limited to 100 MB.
 
-> When you reach 90% of your storage limit and above, you will get a warning each time you try to add an image. To upgrade your available storage, contact [Postman support](https://www.postman.com/support/).
+To check how much storage you're using, go to your [billing dashboard](http://go.postman.co/billing) and select **Resource Usage**. The amount of space used by uploaded images and files appears under **Storage Usage**. To upgrade your available storage, contact [Postman support](https://www.postman.com/support/).
+
+> When you reach 90% of your storage limit and above, you will get a warning each time you try to add an image.
 
 ## Finding help and inspiration
 
