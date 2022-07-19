@@ -31,7 +31,7 @@ To configure a Microsoft Teams integration, you will need to first create a Micr
 
 1. Sign in to your Microsoft Teams account. Create a new channel, or go to an already existing channel, where you want to set up this integration.
 
-    [![select channel](https://assets.postman.com/postman-docs/59031183.jpg)](https://assets.postman.com/postman-docs/59031183.jpg)
+    [![select channel](https://assets.postman.com/postman-docs/microsoft-teams-channel.jpg)](https://assets.postman.com/postman-docs/microsoft-teams-channel.jpg)
 
 1. Select the `...` next to the channel name and select `Connectors` from the dropdown list.
 
@@ -39,11 +39,11 @@ To configure a Microsoft Teams integration, you will need to first create a Micr
 
 1. Enter a name to identify this webhook later. You can also add an image which appears whenever this webhook posts a message. Select **Create**.
 
-    [![enter a name](https://assets.postman.com/postman-docs/59031665.jpg)](https://assets.postman.com/postman-docs/59031665.jpg)
+    [![enter a name](https://assets.postman.com/postman-docs/microsoft-teams-webhook-name.jpg)](https://assets.postman.com/postman-docs/microsoft-teams-webhook-name.jpg)
     
     This generates a webhook URL you can use to post messages to this channel. Copy this webhook and save it for later.
 
-    [![generate webhook URL](https://assets.postman.com/postman-docs/59032020.jpg)](https://assets.postman.com/postman-docs/59032020.jpg)
+    [![generate webhook URL](https://assets.postman.com/postman-docs/microsoft-teams-webhook-url.jpg)](https://assets.postman.com/postman-docs/microsoft-teams-webhook-url.jpg)
 
 ## Configuring Microsoft Teams
 
@@ -73,7 +73,7 @@ To send monitor run results to Microsoft Teams:
 
 1. In the **Monitor Run Results** page, select the monitor whose results you want to send to Microsoft Teams, and enter the notification URL.
 
-    [![ms_teams monRun](https://assets.postman.com/postman-docs/ms-teams-send-mon-run.jpg)](https://assets.postman.com/postman-docs/ms-teams-send-mon-run.jpg)
+    [![ms_teams monRun](https://assets.postman.com/postman-docs/ms-teams-send-mon-run-v9-a.jpg)](https://assets.postman.com/postman-docs/ms-teams-send-mon-run-v9-a.jpg)
 
 1. Select **Add Integration** to access your monitors in the **Configured Integrations** view. You can also select the **Advanced Options** link to indicate if you want notifications on completion of all monitor runs, or if you want notifications for three monitor run failures and then the first successful monitor run.
 
@@ -83,7 +83,7 @@ To send monitor run results to Microsoft Teams:
 
 Monitor run messages summarize the basic details of the run, if the run was successful, or if it failed. Also, it provides direct links to that particular run and to the documentation for the collection.
 
-[![Microsoft teams view](https://assets.postman.com/postman-docs/59034537.jpg)](https://assets.postman.com/postman-docs/59034537.jpg)
+[![Microsoft teams view](https://assets.postman.com/postman-docs/microsoft-teams-messages.jpg)](https://assets.postman.com/postman-docs/microsoft-teams-messages.jpg)
 
 Similarly, the Team Activity message displays updates, who made the change, and what it was.
 
