@@ -54,9 +54,9 @@ You can select a data file to use in a [collection run](/docs/running-collection
 
     ![Collection Run Results](https://assets.postman.com/postman-docs/data-file-collection-run-v8.jpg)
 
-  Any data defined in the requests will be used when the collection runs, and your request data can reference values defined in the data file.
+Any data defined in the requests will be used when the collection runs, and your request data can reference values defined in the data file.
 
-    ![Data File Value](https://assets.postman.com/postman-docs/request-body-data-run-v8.jpg)
+![Data File Value](https://assets.postman.com/postman-docs/request-body-data-run-v8.jpg)
 
 ## Accessing data file values
 
