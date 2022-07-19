@@ -18,7 +18,6 @@ search_keyword: "api security, api schema, security warnings, schema validation,
     * [Unencrypted communication](#unencrypted-communication)
     * [Cache poisoning](#cache-poisoning)
     * [Cross-site request forgery](#cross-site-request-forgery)
-        * [`SameSite` misconfiguration](#samesite-misconfiguration)
         * [`SameSite=None` misconfiguration](#samesitenone-misconfiguration) <!-- TODO: double-check this -->
 * [Broken user authentication](#broken-user-authentication)
     * [Authentication data exposure over unsecured protocol](#authentication-data-exposure-over-unsecured-protocol)
@@ -94,12 +93,6 @@ The `Cache-Control` header is missing or isn’t configured properly. This allow
 ### Cross-site request forgery
 
 Cookies are not sent on normal cross-site subrequests (for example, to load images or frames into a third party site) but they are sent when a user navigates to the origin site (in other words, when they follow a link).
-
-#### `SameSite` misconfiguration
-
-Issue description | Possible fix
---- | ---
-A cookie was set without the `SameSite` attribute. Without this attribute, the cookie can be sent as a result of a cross-site request. The `SameSite` attribute is an effective countermeasure to cross-site request forgery, cross-site script inclusion, and timing attacks. | To have a robust defense against some classes of cross-site request forgery attacks, ensure that the `SameSite` attribute is set to either `lax` (good) or `strict` (ideal) for all cookies.
 
 #### `SameSite=None` misconfiguration
 
