@@ -23,7 +23,6 @@ To configure a Microsoft Teams integration, you will need to first create a Micr
     * [Add a team activity feed to Microsoft Teams](#add-a-team-activity-feed-to-microsoft-teams)
     * [Send monitor run results in Microsoft Teams](#send-monitor-run-results-in-microsoft-teams)
 * [Messages in Microsoft Teams](#messages-in-microsoft-teams)
-* [Next steps](#next-steps)
 
 ## Create a Microsoft Teams webhook URL
 
@@ -86,7 +85,3 @@ Monitor run messages summarize the basic details of the run, if the run was succ
 [![Microsoft teams view](https://assets.postman.com/postman-docs/microsoft-teams-messages.jpg)](https://assets.postman.com/postman-docs/microsoft-teams-messages.jpg)
 
 Similarly, the Team Activity message displays updates, who made the change, and what it was.
-
-## Next steps
-
-Learn more about other Postman integrations, including [custom webhooks](/docs/integrations/webhooks/) and [Slack](/docs/integrations/available-integrations/slack/).
