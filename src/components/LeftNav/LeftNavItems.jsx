@@ -459,11 +459,30 @@ export const leftNavItems = [
             name: 'Deploying an AWS API',
             url: '/docs/designing-and-developing-your-api/deploying-an-api/deploying-an-api-aws/',
           },
+          {
+            name: 'Deploying an Apigee API',
+            url: '/docs/designing-and-developing-your-api/deploying-an-api/deploying-an-api-apigee/',
+          },
         ],
       },
       {
         name: 'Observing an API',
-        url: '/docs/designing-and-developing-your-api/observing-an-api/',
+        subParentSlug: 'observing-an-api',
+        slug: '/docs/designing-and-developing-your-api/observing-an-api/observing-an-api/',
+        subMenuItems2: [
+          {
+            name: 'Observing an API',
+            url: '/docs/designing-and-developing-your-api/observing-an-api/observing-an-api/',
+          },
+          {
+            name: 'Viewing New Relic metrics',
+            url: '/docs/designing-and-developing-your-api/observing-an-api/new-relic-apm/',
+          },
+          {
+            name: 'Viewing Datadog metrics',
+            url: '/docs/designing-and-developing-your-api/observing-an-api/datadog-apm/',
+          },
+        ],
       },
       {
         name: 'Managing and sharing APIs',
@@ -854,6 +873,10 @@ export const leftNavItems = [
             url: '/docs/integrations/available-integrations/bitbucket/',
           },
           {
+            name: 'Bitbucket Pipelines',
+            url: '/docs/integrations/available-integrations/ci-integrations/bitbucket-pipelines/',
+          },
+          {
             name: 'Circle CI',
             url: '/docs/integrations/available-integrations/ci-integrations/circleci/',
           },
@@ -876,6 +899,10 @@ export const leftNavItems = [
           {
             name: 'GitLab',
             url: '/docs/integrations/available-integrations/gitlab/',
+          },
+          {
+            name: 'GitLab CI/CD',
+            url: '/docs/integrations/available-integrations/ci-integrations/gitlab-ci/',
           },
           {
             name: 'Jenkins',

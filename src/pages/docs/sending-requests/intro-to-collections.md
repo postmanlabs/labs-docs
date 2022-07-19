@@ -95,9 +95,14 @@ There are several ways to add existing and new requests to a collection.
 To move an existing request to a different collection:
 
 1. Select the request you want to move.
-1. Drag and drop the request into the desired collection.
+1. Drag the request into the desired collection.
 
 > Alternatively, open the request and select **Save As**, then choose the collection you want to move it to.
+
+To move more than one request to a different collection:
+
+1. Press and hold **⌘** or **Ctrl**, then select the requests you want to move.
+1. Drag the requests into the desired collection.
 
 ### Adding a new request to a collection
 
@@ -168,6 +173,8 @@ To delete a collection:
 1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> to the right of the collection name.
 1. Select **Delete**.
 
+You can also select the collection and press **Delete** on your keyboard.
+
 > If a deleted collection is larger than 30 MB, you won't be able to [recover it](#recovering-a-deleted-collection). To avoid this, you can split the collection into smaller pieces before deleting it, or back up the collection first.
 
 ### Recovering a deleted collection
@@ -181,7 +188,7 @@ To recover a deleted collection:
 
 1. In the Trash page, select the restore icon <img alt="Restore icon" src="https://assets.postman.com/postman-docs/icon-restore-v9.jpg" width="14px"> next to the collection you want to recover.
 
-> Deleted collections that are larger than 30 MB cannot be recovered.
+> Deleted collections that are larger than 30 MB can't be recovered.
 
 Recovery options depend on your Postman plan:
 
@@ -217,7 +224,7 @@ To view notifications about what has changed in a collection you watch:
 
 1. You will also receive an email with the information regarding who made the change, what the change was, and when it was made. Select **View changelog** in the email to access the full changelog in Postman.
 
-> If you create a collection and modify it from the same Postman account, you will not receive notifications for any changes you make to that collection.
+> If you create a collection and modify it from the same Postman account, you won't receive notifications for any changes you make to that collection.
 
 ### Forking a collection
 

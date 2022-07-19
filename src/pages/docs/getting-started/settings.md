@@ -124,7 +124,7 @@ Use the **Proxy** tab to configure proxy settings for connecting to online servi
 
 ## Update
 
-Use the **Update** tab to check for updates to Postman or to enable automatic updating. Learn more about [updating Postman](/docs/getting-started/installation-and-updates/#updating-postman).
+Use the **Update** tab to check for updates to the Postman Desktop App or to enable automatic updating. Learn more about [updating Postman](/docs/getting-started/installation-and-updates/#updating-postman).
 
 ## About
 
