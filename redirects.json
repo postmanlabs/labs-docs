@@ -1946,5 +1946,9 @@
 	{
 		"from": "/docs/collaborating-in-postman/commenting-on-collections/",
 		"to": "/docs/collaborating-in-postman/working-with-your-team/discussing-your-work/"
+	},
+	{
+		"from": "/docs/designing-and-developing-your-api/observing-an-api/",
+		"to": "/docs/designing-and-developing-your-api/observing-an-api/observing-an-api/"
 	}
 ]

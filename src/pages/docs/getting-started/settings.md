@@ -75,6 +75,7 @@ When you send a form-data or binary file with a request body, Postman saves a pa
 
 ### User interface
 
+* **Remove tabs** - _Postman for Web only._ Use tabs in your browser to navigate Postman instead of in-app tabs. For more information, see [Browser tabs in Postman for Web](#/docs/getting-started/navigating-postman/#browser-tabs-in-postman-for-web).
 * **Two-pane view** - By default, Postman displays responses below requests. Turn this on to display the response and request panes side by side.
 * **Show icons with tab names** - Turn this off to hide the icons that appear next to tab names.
 * **Variable autocomplete** - Turn this on to enable autocomplete when typing variable names.
