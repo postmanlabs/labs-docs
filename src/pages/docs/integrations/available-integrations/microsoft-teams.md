@@ -39,7 +39,7 @@ To configure a Microsoft Teams integration, you will need to first create a Micr
 1. Enter a name to identify this webhook later. You can also add an image which appears whenever this webhook posts a message. Select **Create**.
 
     [![enter a name](https://assets.postman.com/postman-docs/microsoft-teams-webhook-name.jpg)](https://assets.postman.com/postman-docs/microsoft-teams-webhook-name.jpg)
-    
+
     This generates a webhook URL you can use to post messages to this channel. Copy this webhook and save it for later.
 
     [![generate webhook URL](https://assets.postman.com/postman-docs/microsoft-teams-webhook-url.jpg)](https://assets.postman.com/postman-docs/microsoft-teams-webhook-url.jpg)
@@ -58,7 +58,7 @@ To add a team activity feed to Microsoft Teams:
 
 1. Select **Add Integration**.
 
-2. Give your integration a nickname and enter your [incoming webhook URL](#create-a-microsoft-teams-webhook-url) as the Notification URL to receive team updates in Microsoft Teams.
+1. Give your integration a nickname and enter your [incoming webhook URL](#create-a-microsoft-teams-webhook-url) as the Notification URL to receive team updates in Microsoft Teams.
 
 1. Select **Add Integration** to access your team's activity feed in the **Configured Integrations** view.
 
