@@ -1,7 +1,7 @@
 ---
 title: "Collaboration overview"
 order: 71
-updated: 2022-06-15
+updated: 2022-07-19
 page_id: "collaboration_overview"
 warning: false
 contextual_links:
