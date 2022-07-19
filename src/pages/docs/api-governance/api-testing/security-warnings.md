@@ -37,7 +37,7 @@ search_keyword: "api security, api schema, security warnings, schema validation,
     * [Sensitive cookie without secure flag](#sensitive-cookie-without-secure-flag)
     * [Clickjacking](#clickjacking)
         * [Improper `frame-ancestors` directive in CSP policy](#improper-frame-ancestors-directive-in-csp-policy)
-        * [`X-Frame-Options`](#x-frame-options) <!-- TODO: double-check this -->
+        * [Misconfigured `X-Frame-Options` header](#misconfigured-x-frame-options-header)
     * [MIME sniffing](#mime-sniffing)
 
 ## Security misconfiguration
@@ -204,7 +204,7 @@ Issue description | Possible fix
 --- | ---
 The HTTP `Content-Security-Policy` (CSP) `frame-ancestors` directive is set to `*`. This allows all websites to load other websites in an iframe. This might make the website vulnerable to clickjacking. | Specify a specific origin to allowlist the trusted origins instead of allowing all origins in [`Content-Security-Policy`](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy).
 
-#### `X-Frame-Options`
+#### Misconfigured `X-Frame-Options` header
 
 Issue description | Possible fix
 --- | ---
