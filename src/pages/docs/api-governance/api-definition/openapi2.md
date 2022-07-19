@@ -24,7 +24,7 @@ search_keyword: "api security, api schema, security warnings, schema validation,
 
 You can use Postman to identify any potential security and formatting issues when defining your API.
 
-> **The format linting feature is in beta.** During the beta period, it may not be available to all Postman users and is subject to potential change.
+> **The format linting feature is in beta.** During the beta period, it may not be available to all Postman users and is subject to potential change.  <!-- TODO: add links -->
 
 <img alt="Security warnings for OpenAPI 2.0" src="https://assets.postman.com/postman-docs/security-warnings-openapi-2-v9.jpg"/>
 
@@ -778,3 +778,5 @@ securityDefinitions:
 ```
 
 &nbsp;
+
+> **The format linting feature is in beta.** During the beta period, it may not be available to all Postman users and is subject to potential change.

@@ -24,7 +24,7 @@ search_keyword: "api security, api schema, security warnings, schema validation,
 
 You can use Postman to identify any potential security and formatting issues when defining your API.
 
-> **The format linting feature is in beta.** During the beta period, it may not be available to all Postman users and is subject to potential change.
+> **The format linting feature is in beta.** During the beta period, it may not be available to all Postman users and is subject to potential change. <!-- TODO: add links -->
 
 <img alt="Security warnings for OpenAPI 3.0" src="https://assets.postman.com/postman-docs/security-warnings-openapi-3-v9.jpg"/>
 
@@ -821,99 +821,242 @@ components:
 
 &nbsp;
 
+> **The format linting feature is in beta.** During the beta period, it may not be available to all Postman users and is subject to potential change.
+
 ## API information <!-- TODO: this all needs to be added to ToC -->
 
 This category of linting rules deals with information about your API. The OpenAPI info object provides metadata about the API.  <!-- TODO: reword -->
 
-### Info contact
+### API must have contact information available
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
 | Your API schema's [info object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#infoObject) doesn't contain a [contact object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#contactObject), which contains contact information including a name and email address. | Although contact information isn't required, including it allows your users to contact you. Add a contact object to your API schema's info object.  |
 
-### Info contact email
+#### Resolution
+
+```json
+info:
+  contact:
+    name: Project Name
+    email: author@company.com
+    url: https://example.com
+```
+
+### API must have a contact email available
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
 | Your API schema's [contact object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#contactObject) doesn't contain an email address for the contact person or organization. | Although contact information isn't required, including it allows your users to communicate with you. Add an email address to your API schema's contact object. |
 
-### Info contact name
+#### Resolution
+
+```json
+info:
+  contact:
+    name: Project Name
+    email: author@company.com
+    url: https://example.com
+```
+
+### API must have a contact name available
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
 | Your API schema's [contact object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#contactObject) doesn't contain a name for the contact person or organization. | Although contact information isn't required, including it allows your users to communicate with you. Add a name to your API schema's contact object. |
 
-### Info contact URL
+#### Resolution
+
+```json
+info:
+  contact:
+    name: Project Name
+    email: author@company.com
+    url: https://example.com
+```
+
+### API must have a contact URL available
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
 | Your API schema's [contact object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#contactObject) doesn't contain a URL for the contact person or organization. | Although contact information isn't required, including it allows your users to communicate with you. Add a URL to your API schema's contact object. |
 
-### Info description
+#### Resolution
+
+```json
+info:
+  contact:
+    name: Project Name
+    email: author@company.com
+    url: https://example.com
+```
+
+### The info object should have a description
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
 | Your API schema's [info object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#infoObject) doesn't contain a description. | Although a description isn't required, including it allows you to provide your users with information about what the API does. Add a description to your API schema's info object. |
 
-### Info license
+#### Resolution
+
+```json
+info:
+  description: Project API description
+```
+
+### The info object should have a license
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
 | Your API schema's [info object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#infoObject) doesn't contain a [license object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#licenseObject), which specifies information about the schema's license. | Although a license object isn't required, including one provides your users with important information. Add a license object to your API schema's info object. |
 
-### Info license URL
+#### Resolution
+
+```json
+info:
+  license:
+    name: Apache 2.0
+    url: https://www.apache.org/licenses/LICENSE-2.0.html
+```
+
+### The info object should have a license URL
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
 | Your API schema's [license object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#licenseObject) doesn't contain a URL to the license used for the API. | Although license information isn't required, including it provides your users with important information. Add a URL to your API schema's license object. |
 
-### Info terms of service
+#### Resolution
+
+```json
+info:
+  license:
+    name: Apache 2.0
+    url: https://www.apache.org/licenses/LICENSE-2.0.html
+```
+
+### The info object should have a terms of service
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
 | Your API schema's [info object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#infoObject) doesn't contain a URL to the Terms of Service for the API. | Although a link to the Terms of Service isn't required, including it provides your users with important information. Add a URL to the API's Terms of Service to your API schema's info object. |
 
-### Info API ID extension
+#### Resolution
+
+```json
+info:
+  termsOfService: http://example.com/terms/
+```
+
+### The info object should have an API ID extension
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
 | Your API schema's [info object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#infoObject) doesn't contain an API ID extension (`x-api-id`), which is a custom header used to pass an API key. | Although an API ID extension isn't required, including it provides your users with important information. Add an API ID extension to your API schema's info object. |
 
-### Info audience extension
+#### Resolution
+
+```json
+info:
+  x-api-id: project-name-identifier
+```
+
+### The info object should have an audience extension
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
 | Your API schema's [info object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#infoObject) doesn't contain an audience extension (`x-audience`), which is a custom header used to describe an API's target audience. | Although an audience extension isn't required, including it provides your users with important information about the API. Add an audience extension to your API schema's info object. |
 
-### No empty paths
+#### Resolution
+
+```json
+info:
+  x-audience: The details about the target audience
+```
+
+### There should be no empty paths
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
 | Your API schema contains one or more empty [path item objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#path-item-object) in the [paths object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#paths-object). <!-- TODO: confirm that this is correct - might be the paths object instead? --> | Although you can leave a path item object empty due to [access-control list (ACL) constraints](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#securityFiltering), this doesn't provide your users with a good experience. Add details for any empty path item objects in your API schema. |
 
-### No trailing slash on paths
+#### Resolution
+
+```json
+paths:
+  '/health_check':
+    get:
+      operationId: health_check
+```
+
+### There should be no trailing slashes on paths
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
 | One or more [path item objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#path-item-object) in your API schema's [paths object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#paths-object) have a trailing slash at the end of the path. | Some tools treat a path that ends with a trailing slash (`/path/`) differently from way that they treat paths without a trailing slash (`/path`). To avoid any ambiguity, remove any trailing slashes from paths in your API schema's paths object. |
 
-### Tags description <!-- TODO: should this be below Tags object -->
+#### Resolution
+
+```json
+paths:
+  '/health_check':
+    get:
+      operationId: health_check
+```
+
+### All tags should have a description <!-- TODO: should this be below Tags object -->
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
 | One or more tags in your API schema's [tags object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#tagObject) don't have an accompanying description. | Tag descriptions enable you to provide your users with important context. Add a description for every tag in the tags object. |
 
-### Tags object
+#### Resolution
+
+```json
+tags:
+  - name: Tag 1
+    description: Tag 1, description explaining the meaning for it.
+  - name: Tag 2
+    description: Tag 2, description explaining the meaning for it.
+```
+
+### There should be a central tags object
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
 | Your API schema doesn't contain a root-level [tags object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#tagObject). | The tags object lists all the tags used in the schema's [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#operationObject), providing users with important context. Add a tags object to your API schema. |
 
-### Tags one
+#### Resolution
+
+```json
+tags:
+  - name: Tag 1
+    description: Tag 1, description explaining the meaning for it.
+  - name: Tag 2
+    description: Tag 2, description explaining the meaning for it.
+...
+paths:
+  '/health_check':
+    get:
+      operationId: health_check
+      tags:
+        - Tag 1
+```
+
+### There should be at least one tag
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
 | Your API schema's [tags object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#tagObject) doesn't contain any tags. | Tags enable you to provide your users with important context. Add at least one tag to your schema's tags object. |
+
+#### Resolution
+
+```json
+tags:
+  - name: Tag 1
+    description: Tag 1, description explaining the meaning for it.
+  - name: Tag 2
+    description: Tag 2, description explaining the meaning for it.
+```
 
 ## Operations
 
