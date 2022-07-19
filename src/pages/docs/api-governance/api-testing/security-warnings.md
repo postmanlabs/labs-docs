@@ -6,7 +6,7 @@ search_keyword: "api security, api schema, security warnings, schema validation,
 
 > **This feature is in beta.** During the beta period, it may not be available to all Postman users and is subject to potential change.
 
-<!-- TODO: intro -->
+These security warnings indicate that there are potential security risks that your API might be vulnerable to.
 
 * [Security misconfiguration](#security-misconfiguration)
     * [CORS misconfiguration](#cors-misconfiguration)
@@ -16,7 +16,7 @@ search_keyword: "api security, api schema, security warnings, schema validation,
     * [Unencrypted communication](#unencrypted-communication)
     * [Cache poisoning](#cache-poisoning)
     * [Cross-site request forgery](#cross-site-request-forgery)
-        * [Sensitive cookie with improper `SameSite` attribute](#sensitive-cookie-with-improper-samesite-attribute)
+        * [Sensitive cookie with improper SameSite attribute](#sensitive-cookie-with-improper-samesite-attribute)
 * [Broken user authentication](#broken-user-authentication)
     * [Authentication data exposure over unsecured protocol](#authentication-data-exposure-over-unsecured-protocol)
     * [No authentication](#no-authentication)
@@ -34,8 +34,8 @@ search_keyword: "api security, api schema, security warnings, schema validation,
     * [Sensitive cookie without HttpOnly flag](#sensitive-cookie-without-httponly-flag)
     * [Sensitive cookie without secure flag](#sensitive-cookie-without-secure-flag)
     * [Clickjacking](#clickjacking)
-        * [Improper `frame-ancestors` directive in CSP policy](#improper-frame-ancestors-directive-in-csp-policy)
-        * [Misconfigured `X-Frame-Options` header](#misconfigured-x-frame-options-header)
+        * [Improper frame-ancestors directive in CSP policy](#improper-frame-ancestors-directive-in-csp-policy)
+        * [Misconfigured X-Frame-Options header](#misconfigured-x-frame-options-header)
     * [MIME sniffing](#mime-sniffing)
 
 ## Security misconfiguration
@@ -92,7 +92,7 @@ The `Cache-Control` header is missing or isn’t configured properly. This allow
 
 Cookies are not sent on normal cross-site subrequests (for example, to load images or frames into a third party site) but they are sent when a user navigates to the origin site (in other words, when they follow a link).
 
-#### Sensitive cookie with improper `SameSite` attribute
+#### Sensitive cookie with improper SameSite attribute
 
 Issue description | Possible fix
 --- | ---
@@ -176,7 +176,7 @@ Cross-Site scripting ([XSS](https://owasp.org/www-community/attacks/xss/)) attac
 
 ### Sensitive cookie without HttpOnly flag
 
-HttpOnly is an additional flag included in a [Set-Cookie HTTP response header](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Set-Cookie). Use the HttpOnly flag when generating a cookie to help mitigate the risk of client-side script accessing the protected cookie.
+`HttpOnly` is an additional flag included in a [Set-Cookie HTTP response header](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Set-Cookie). Use the `HttpOnly` flag when generating a cookie to help mitigate the risk of client-side script accessing the protected cookie.
 
 Issue description | Possible fix
 --- | ---
@@ -196,13 +196,13 @@ A cookie was set without the `Secure` flag. This could allow an attacker to acce
 
 [Clickjacking](https://owasp.org/www-community/attacks/Clickjacking), also known as a "UI redress attack", is when an attacker uses multiple transparent layers to trick a user into clicking on a button or link on another page when they were intending to click on the top-level page. This enables the attacker to hijack clicks meant for one page and route them to another page, most likely owned by another application, domain, or both.
 
-#### Improper `frame-ancestors` directive in CSP policy
+#### Improper frame-ancestors directive in CSP policy
 
 Issue description | Possible fix
 --- | ---
 The HTTP `Content-Security-Policy` (CSP) `frame-ancestors` directive is set to `*`. This allows all websites to load other websites in an iframe. This might make the website vulnerable to clickjacking. | Specify a specific origin to allowlist the trusted origins instead of allowing all origins in [`Content-Security-Policy`](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy).
 
-#### Misconfigured `X-Frame-Options` header
+#### Misconfigured X-Frame-Options header
 
 Issue description | Possible fix
 --- | ---
