@@ -5,34 +5,42 @@ updated: 2022-03-01
 page_id: "introduction_run_button"
 warning: false
 contextual_links:
-    - type: section
-      name: "Prerequisites"
-    - type: link
-      name: "Grouping requests in collections"
-      url: "/docs/sending-requests/intro-to-collections/"
-    - type: section
-      name: "Additional resources"
-    - type: subtitle
-      name: "Videos"
-    - type: link
-      name: "Generate a Run in Postman Button | Postman Level Up"
-      url: "https://youtu.be/r2DGy4jSuUE"
-    - type: link
-      name: "WTD: Postman for API development and docs"
-      url: "https://podcast.writethedocs.org/2018/01/22/postman-for-api-docs-write-the-docs/"
-    - type: subtitle
-      name: "Blog Posts"
-    - type: link
-      name: "How to Dynamically Create Custom Environments with Code"
-      url: "https://blog.postman.com/how-to-dynamically-create-custom-environments-with-code/"
-    - type: link
-      name: "Link Your Docs to a Public Workspace for a Better Developer Experience"
-      url: "https://blog.postman.com/link-docs-to-public-workspace-for-better-developer-experience/"
-    - type: section
-      name: "Next steps"
-    - type: link
-      name: "Creating the Run in Postman button"
-      url: "/docs/publishing-your-api/run-in-postman/creating-run-button/"
+  - type: section
+    name: "Prerequisites"
+  - type: link
+    name: "Grouping requests in collections"
+    url: "/docs/sending-requests/intro-to-collections/"
+  - type: section
+    name: "Additional resources"
+  - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Generate a Run in Postman Button | Postman Level Up"
+    url: "https://youtu.be/r2DGy4jSuUE"
+  - type: link
+    name: "WTD: Postman for API development and docs"
+    url: "https://podcast.writethedocs.org/2018/01/22/postman-for-api-docs-write-the-docs/"
+  - type: subtitle
+    name: "Blog Posts"
+  - type: link
+    name: "How to Dynamically Create Custom Environments with Code"
+    url: "https://blog.postman.com/how-to-dynamically-create-custom-environments-with-code/"
+  - type: link
+    name: "Link Your Docs to a Public Workspace for a Better Developer Experience"
+    url: "https://blog.postman.com/link-docs-to-public-workspace-for-better-developer-experience/"
+  - type: subtitle
+    name: "Case Studies"
+  - type: link
+    name: "Twitter"
+    url:  "https://www.postman.com/case-studies/twitter/"
+  - type: link
+    name: "Box"
+    url:  "https://www.postman.com/case-studies/box/"
+  - type: section
+    name: "Next steps"
+  - type: link
+    name: "Creating the Run in Postman button"
+    url: "/docs/publishing-your-api/run-in-postman/creating-run-button/"
 
 ---
 
