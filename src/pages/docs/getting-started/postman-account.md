@@ -42,6 +42,7 @@ Signing up for a Postman account is optional, and you can use the Postman deskto
 * [Upgrading your account](#upgrading-your-account)
 * [Leaving a team](#leaving-a-team)
 * [Account security policies and standards](#account-security-policies-and-standards)
+* [Next steps](#next-steps)
 
 ## Signing up for a Postman account
 

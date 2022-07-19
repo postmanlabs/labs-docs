@@ -61,6 +61,7 @@ An environment is a set of [variables](/docs/sending-requests/variables/) you ca
     * [Using an environment in Editor role](#using-an-environment-in-editor-role)
     * [Forking environments](#forking-environments)
     * [Viewing pull requests, forks, and environment details](#viewing-pull-requests-forks-and-environment-details)
+* [Next steps](#next-steps)
 
 ## Creating environments
 

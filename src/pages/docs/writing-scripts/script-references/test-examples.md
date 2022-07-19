@@ -73,6 +73,7 @@ Use the **Tests** tab in your requests, folders, and collections to write tests 
 * [Validating response structure](#validating-response-structure)
 * [Sending an asynchronous request](#sending-an-asynchronous-request)
 * [Previous style of writing Postman tests (deprecated)](#previous-style-of-writing-postman-tests-deprecated)
+* [Next steps](#next-steps)
 
 ## Getting started with tests
 
