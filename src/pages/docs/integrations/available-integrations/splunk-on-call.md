@@ -1,7 +1,7 @@
 ---
 title: "Splunk On-Call"
 order: 177.1
-updated: 2021-07-07
+updated: 2022-07-07
 page_id: "splunk-on-call"
 search_keyword: "VictorOps, victorops, splunk oncall"
 warning: false
