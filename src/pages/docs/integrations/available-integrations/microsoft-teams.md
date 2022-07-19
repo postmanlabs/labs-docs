@@ -16,6 +16,15 @@ Microsoft Teams is a chat-based workspace available to all Microsoft Office 365 
 
 To configure a Microsoft Teams integration, you will need to first create a Microsoft Teams webhook URL.
 
+## Contents
+
+* [Create a Microsoft Teams webhook URL](#create-a-microsoft-teams-webhook-url)
+* [Configuring Microsoft Teams](#configuring-microsoft-teams)
+    * [Add a team activity feed to Microsoft Teams](#add-a-team-activity-feed-to-microsoft-teams)
+    * [Send monitor run results in Microsoft Teams](#send-monitor-run-results-in-microsoft-teams)
+* [Messages in Microsoft Teams](#messages-in-microsoft-teams)
+* [Next steps](#next-steps)
+
 ## Create a Microsoft Teams webhook URL
 
 > Note that Microsoft Teams requires certain permissions to [add a connector to a channel](https://docs.microsoft.com/en-us/microsoftteams/office-365-custom-connectors).
@@ -87,3 +96,7 @@ Monitor run messages summarize the basic details of the run, if the run was succ
 Similarly, the Team Activity message displays updates, who made the change and what it was.
 
 [![activity feed](https://assets.postman.com/postman-docs/59034618.jpg)](https://assets.postman.com/postman-docs/59034618.jpg)
+
+## Next steps
+
+Learn more about other Postman integrations, including [custom webhooks](/docs/integrations/webhooks/) and [Slack](/docs/integrations/available-integrations/slack/).
