@@ -12,13 +12,13 @@ contextual_links:
     url: "/docs/sending-requests/intro-to-collections/"
 ---
 
-Microsoft Teams is a chat-based workspace that is available for all Microsoft Office 365 users. This integration allows you to get updates about what is happening in your team directly in Microsoft Teams.
+Microsoft Teams is a chat-based workspace available to all Microsoft Office 365 users. This integration enables you to get updates about your team directly in Microsoft Teams.
 
 To configure a Microsoft Teams integration, you will need to first create a Microsoft Teams webhook URL.
 
 ## Create a Microsoft Teams webhook URL
 
-> Note that certain permissions are required by Microsoft Teams in order to [add a connector to a channel](https://docs.microsoft.com/en-us/microsoftteams/office-365-custom-connectors).
+> Note that Microsoft Teams requires certain permissions to [add a connector to a channel](https://docs.microsoft.com/en-us/microsoftteams/office-365-custom-connectors).
 
 Sign in to your Microsoft Teams account. Create a new channel, or go to an already existing channel, where you want to set up this integration.
 
@@ -32,7 +32,7 @@ Select the `Incoming Webhook` connector from the list of available connectors.
 
 [![select incoming webhook](https://assets.postman.com/postman-docs/59031428.jpg)](https://assets.postman.com/postman-docs/59031428.jpg)
 
-Enter a name to identify this webhook later. You can also add an image which will be visible whenever a message is posted using this webhook. Select **Create**.
+Enter a name to identify this webhook later. You can also add an image which appears whenever this webhook posts a message. Select **Create**.
 
 [![enter a name](https://assets.postman.com/postman-docs/59031665.jpg)](https://assets.postman.com/postman-docs/59031665.jpg)
 
@@ -56,7 +56,7 @@ To add a team activity feed to Microsoft Teams:
 
 Select **Add Integration**.
 
-Give your integration a nickname and provide your [incoming webhook URL](#create-a-microsoft-teams-webhook-url) as the Notification URL to receive team updates in Microsoft Teams.
+Give your integration a nickname and enter your [incoming webhook URL](#create-a-microsoft-teams-webhook-url) as the Notification URL to receive team updates in Microsoft Teams.
 
 [![select ms_teams integration](https://assets.postman.com/postman-docs/msteams-add-team-activities-q.jpg)](https://assets.postman.com/postman-docs/msteams-add-team-activities-q.jpg)
 
@@ -74,7 +74,7 @@ In the **Monitor Run Results** page, select the monitor whose results you want t
 
    [![ms_teams monRun](https://assets.postman.com/postman-docs/ms-teams-send-mon-run.jpg)](https://assets.postman.com/postman-docs/ms-teams-send-mon-run.jpg)
 
-Select **Add Integration** to access your monitors in the "Configured Integrations" view. You can also select the "Advanced Options" link to indicate if you want notifications when all monitor runs are completed, or if you want notifications for three monitor run failures and then the first successful monitor run.
+Select **Add Integration** to access your monitors in the "Configured Integrations" view. You can also select the "Advanced Options" link to indicate if you want notifications on completion of all monitor runs, or if you want notifications for three monitor run failures and then the first successful monitor run.
 
    [![ms_teams monRun](https://assets.postman.com/postman-docs/msteams-monitor-results-add-q.jpg)](https://assets.postman.com/postman-docs/msteams-monitor-results-add-q.jpg)
 
