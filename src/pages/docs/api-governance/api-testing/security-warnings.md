@@ -33,7 +33,7 @@ search_keyword: "api security, api schema, security warnings, schema validation,
 * [Injection](#injection)
     * [SQL injection](#sql-injection)
 * [Cross-site scripting](#cross-site-scripting)
-    * [Sensitive cookie without `HttpOnly` flag](#sensitive-cookie-without-httponly-flag)
+    * [Sensitive cookie without HttpOnly flag](#sensitive-cookie-without-httponly-flag)
     * [Sensitive cookie without secure flag](#sensitive-cookie-without-secure-flag)
     * [Clickjacking](#clickjacking)
         * [CSP policy](#csp-policy)
@@ -176,9 +176,9 @@ The SQL error stack trace is exposed in the response body. This might allow an a
 
 Cross-Site scripting ([XSS](https://owasp.org/www-community/attacks/xss/)) attacks are a type of injection in which a malicious script is injected into a trusted website. XSS attacks occur when an attacker uses a web application to send malicious code, generally in the form of a browser side script, to a different end user.
 
-### Sensitive cookie without `HttpOnly` flag
+### Sensitive cookie without HttpOnly flag
 
-`HttpOnly` is an additional flag included in a [`Set-Cookie` HTTP response header](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Set-Cookie). Use the `HttpOnly` flag when generating a cookie to help mitigate the risk of client-side script accessing the protected cookie.
+HttpOnly is an additional flag included in a [Set-Cookie HTTP response header](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Set-Cookie). Use the HttpOnly flag when generating a cookie to help mitigate the risk of client-side script accessing the protected cookie.
 
 Issue description | Possible fix
 --- | ---
