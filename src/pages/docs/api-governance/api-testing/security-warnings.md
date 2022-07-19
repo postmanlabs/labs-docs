@@ -36,7 +36,7 @@ search_keyword: "api security, api schema, security warnings, schema validation,
     * [Sensitive cookie without HttpOnly flag](#sensitive-cookie-without-httponly-flag)
     * [Sensitive cookie without secure flag](#sensitive-cookie-without-secure-flag)
     * [Clickjacking](#clickjacking)
-        * [CSP policy](#csp-policy)
+        * [Improper `frame-ancestors` directive in CSP policy](#improper-frame-ancestors-directive-in-csp-policy)
         * [`X-Frame-Options`](#x-frame-options) <!-- TODO: double-check this -->
     * [MIME sniffing](#mime-sniffing)
 
@@ -198,7 +198,7 @@ A cookie was set without the `Secure` flag. This could allow an attacker to acce
 
 [Clickjacking](https://owasp.org/www-community/attacks/Clickjacking), also known as a "UI redress attack", is when an attacker uses multiple transparent layers to trick a user into clicking on a button or link on another page when they were intending to click on the top-level page. This enables the attacker to hijack clicks meant for one page and route them to another page, most likely owned by another application, domain, or both.
 
-#### CSP policy
+#### Improper `frame-ancestors` directive in CSP policy
 
 Issue description | Possible fix
 --- | ---
