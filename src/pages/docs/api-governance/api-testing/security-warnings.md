@@ -18,7 +18,7 @@ search_keyword: "api security, api schema, security warnings, schema validation,
     * [Unencrypted communication](#unencrypted-communication)
     * [Cache poisoning](#cache-poisoning)
     * [Cross-site request forgery](#cross-site-request-forgery)
-        * [`SameSite=None` misconfiguration](#samesitenone-misconfiguration) <!-- TODO: double-check this -->
+        * [Sensitive cookie with improper `SameSite` attribute](#sensitive-cookie-with-improper-samesite-attribute)
 * [Broken user authentication](#broken-user-authentication)
     * [Authentication data exposure over unsecured protocol](#authentication-data-exposure-over-unsecured-protocol)
     * [No authentication](#no-authentication)
@@ -94,7 +94,7 @@ The `Cache-Control` header is missing or isn’t configured properly. This allow
 
 Cookies are not sent on normal cross-site subrequests (for example, to load images or frames into a third party site) but they are sent when a user navigates to the origin site (in other words, when they follow a link).
 
-#### `SameSite=None` misconfiguration
+#### Sensitive cookie with improper `SameSite` attribute
 
 Issue description | Possible fix
 --- | ---
