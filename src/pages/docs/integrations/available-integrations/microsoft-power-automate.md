@@ -89,9 +89,9 @@ To send monitor run results to Microsoft Power Automate:
 
 ![Microsoft_mon_runs](https://assets.postman.com/postman-docs/msflows-post-monitoring-res.jpg)
 
-You can also configure advanced options to alert you when a monitor run completes or when three failures occur and the first monitor run after those failures completes successfully.
+You can also configure advanced options to alert you when a monitor run completes or when three failures occur and the first monitor run completes after those failures.
 
-Your integration has been set up successfully. Whenever a monitor runs, you will get a notification on your Microsoft Power Automate mobile app.
+Your integration has been set up. Whenever a monitor runs, you will get a notification on your Microsoft Power Automate mobile app.
 
 ![see notifications](https://assets.postman.com/postman-docs/58858362.jpg)
 
