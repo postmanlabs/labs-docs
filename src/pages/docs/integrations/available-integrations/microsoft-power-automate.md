@@ -40,7 +40,7 @@ You can configure Microsoft Power Automate with Postman to monitor run results, 
 
 ## Add a team activity feed to Microsoft Power Automate
 
-In the activity feed, you can track changes made to your collections and within your team. Integrating with Microsoft Power Automate enables you to connect email services like Outlook, Gmail, or a custom SMTP service. You also have the option to set up Twilio to text you when updates are made to your feed.
+In the Postman activity feed, you can track changes made to your collections and within your team. Integrating with Microsoft Power Automate enables you to send these updates to email services like Outlook, Gmail, or a custom SMTP service. You also have the option to set up Twilio to text you when updates are made to your feed.
 
 To add a team activity feed to Microsoft Power Automate:
 
