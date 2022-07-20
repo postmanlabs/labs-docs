@@ -69,7 +69,7 @@ To back up your Postman Collections in Microsoft Power Automate:
 
 In the activity feed you can view changes your teammates make to your Postman Collection. Integrating with Microsoft Power Automate enables you to connect email services like Outlook, Gmail, or a custom SMTP service. You can also set up Twilio to text you when updates are made to your feed.
 
-To see the collection activity feed in Microsoft Power Automate:
+To see the Postman Collection activity feed in Microsoft Power Automate:
 
 1. Select **Add Integration**.
 2. On the **Team Activity Feed** page, enter the Webhook URL to send team updates to this specific URL.
