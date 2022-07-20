@@ -1,6 +1,12 @@
 ---
 title: "API testing warnings"
 updated: 2022-07-20
+contextual_links:
+  - type: section
+    name: "Next Steps"
+  - type: link
+    name: "Security warnings"
+    url: "/docs/api-governance/api-testing/security-warnings/"
 search_keyword: "api security, security warnings, security validation, api security audit, api security scan, security audit"
 ---
 
