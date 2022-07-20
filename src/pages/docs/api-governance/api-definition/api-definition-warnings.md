@@ -35,4 +35,4 @@ After you [create a new API](/docs/designing-and-developing-your-api/creating-an
 
 ## Next steps
 
-For the list of all the warnings that Postman might show at the API definition phase of develpment, see [OpenAPI 3.0 warnings](/docs/api-governance/api-definition/openapi3/) and [OpenAPI 2.0 warnings](/docs/api-governance/api-definition/openapi2/).
+For the list of all the warnings that Postman might show at the API definition phase of development, see [OpenAPI 3.0 warnings](/docs/api-governance/api-definition/openapi3/) and [OpenAPI 2.0 warnings](/docs/api-governance/api-definition/openapi2/).

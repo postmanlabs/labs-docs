@@ -28,4 +28,4 @@ If it detects any, Postman notifies you using a dot on the security overview ico
 
 ## Next steps
 
-For the list of all the security warnings that Postman might show at the API testing phase of develpment, see [Security warnings](/docs/api-governance/api-testing/security-warnings/).
+For the list of all the security warnings that Postman might show at the API testing phase of development, see [Security warnings](/docs/api-governance/api-testing/security-warnings/).

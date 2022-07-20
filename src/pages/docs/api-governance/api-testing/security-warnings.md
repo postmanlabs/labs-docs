@@ -52,19 +52,19 @@ A security misconfiguration can result from many issues, including:
 
 ### CORS misconfiguration
 
-Cross-origin resource sharing (CORS) is a browser mechanism that enables controlled access to resources located outside of a given domain. It extends and adds flexibility to the same-origin policy ([SOP](https://portswigger.net/web-security/cors/same-origin-policy)). However, if a website's CORS policy is poorly configured and implemented, it also provides the potential for cross-domain attacks. CORS isn't a protection against cross-origin attacks such as cross-site request forgery ([CSRF](https://portswigger.net/web-security/csrf)).
+Cross-origin resource sharing (CORS) is a browser mechanism that enables controlled access to resources located outside of a given domain. It extends and adds flexibility to the same-origin policy ([SOP](https://portswigger.net/web-security/cors/same-origin-policy)). However, if a website's CORS policy isn't configured and implemented correctly, it also provides the potential for cross-domain attacks. CORS isn't a protection against cross-origin attacks such as cross-site request forgery ([CSRF](https://portswigger.net/web-security/csrf)).
 
 #### Allowlisted null origin value with credentials
 
 Issue description | Possible fix
 --- | ---
-`Access-Control-Allow-Credentials` is set as `true` and `Access-Control-Allow-Origin` is set as `null`. This could allow an attacker to send AJAX queries to a vulnerable website from a malicious page loaded by the victim’s user agent. Even if a website with unauthenticated sensitive content (for example, an intranet website) doesn’t allow authenticated AJAX requests, this misconfiguration still allows attackers to access it. | If a web resource contains sensitive information, you need to properly specify the origin in the `Access-Control-Allow-Origin` header. You should only specify trusted websites that need this resource in this header, with the most secured protocol supported.
+`Access-Control-Allow-Credentials` is set as `true` and `Access-Control-Allow-Origin` is set as `null`. This could allow an attacker to send AJAX queries to a vulnerable website from a malicious page loaded by the victim’s user agent. Even if a website with unauthenticated sensitive content (for example, an intranet website) doesn’t allow authenticated AJAX requests, this misconfiguration still allows attackers to access it. | If a web resource contains sensitive information, you need to specify the origin in the `Access-Control-Allow-Origin` header. You should only specify trusted websites that need this resource in this header, with the most secured protocol supported.
 
 #### Allowlisted null origin value
 
 Issue description | Possible fix
 --- | ---
-If the `null` origin is allowlisted, an attacker can use various tricks to generate a cross-origin request that contains the value `null` in the [`Origin`](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Origin) header. This will satisfy the allowlist, leading to cross-domain access. | If a web resource contains sensitive information, you need to properly specify the origin in the `Access-Control-Allow-Origin` header. You should only specify trusted websites that need this resource in this header, with the most secured protocol supported.
+If the `null` origin is allowlisted, an attacker can use various tricks to generate a cross-origin request that contains the value `null` in the [`Origin`](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Origin) header. This will satisfy the allowlist, leading to cross-domain access. | If a web resource contains sensitive information, you need to specify the origin in the `Access-Control-Allow-Origin` header. You should only specify trusted websites that need this resource in this header, with the most secured protocol supported.
 
 #### Allowed all origins using a wildcard value
 
@@ -74,23 +74,23 @@ Issue description | Possible fix
 
 ### Unencrypted communication
 
-If a website accepts a connection through HTTP and redirects to HTTPS, visitors may initially communicate with the non-encrypted version of the site before being redirected, if, for example, the visitor types `www.example.com` or even just `example.com`. This creates an opportunity for a [manipulator-in-the-middle attack](https://owasp.org/www-community/attacks/Manipulator-in-the-middle_attack). The redirect could be exploited to direct visitors to a malicious site instead of the secure version of the original site.
+If a website accepts a connection through HTTP and redirects to HTTPS, visitors may initially communicate with the non-encrypted version of the site before they get redirected, if, for example, the visitor types `www.example.com` or even `example.com`. This creates an opportunity for a [manipulator-in-the-middle attack](https://owasp.org/www-community/attacks/Manipulator-in-the-middle_attack). The redirect could be exploited to direct visitors to a malicious site instead of the secure version of the original site.
 
 Issue description | Possible fix
 --- | ---
-The HTTP `Strict-Transport-Security` header is missing or isn’t configured properly. This header informs browsers that the site should only be accessed using HTTPS and that any future attempts to access it using HTTP should automatically be converted to HTTPS. | Add the [`Strict-Transport-Security`](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Strict-Transport-Security) header so the browser can remember that the site should only be accessed using HTTPS. You should also define the `max-age` property in the header.
+The HTTP `Strict-Transport-Security` header is missing or isn’t configured correctly. This header informs browsers that the site should only be accessed using HTTPS and that any future attempts to access it using HTTP should automatically be converted to HTTPS. | Add the [`Strict-Transport-Security`](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Strict-Transport-Security) header so the browser can remember that the site should only be accessed using HTTPS. You should also define the `max-age` property in the header.
 
 ### Cache poisoning
 
-[Cache poisoning attacks](https://owasp.org/www-community/attacks/Cache_Poisoning) exploit [`Cache-Control`](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cache-Control) behavior so that a harmful response is served to users. The impact of a maliciously constructed response can be magnified if it is cached either by a web cache used by multiple users or even the browser cache of a single user.
+[Cache poisoning attacks](https://owasp.org/www-community/attacks/Cache_Poisoning) exploit [`Cache-Control`](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cache-Control) behavior so that a harmful response is served to users. The impact of a maliciously constructed response can be magnified if it's cached either by a web cache used by multiple users or even the browser cache of a single user.
 
 Issue description | Possible fix
 --- | ---
-The `Cache-Control` header is missing or isn’t configured properly. This allows the browser and proxies to cache content. This might be the intended behavior for static assets like CSS, JavaScript, or image files, but you should review the assets to ensure that sensitive content won’t be cached. | For secure content, make sure the `Cache-Control` header is set with `no-cache`, `no-store`, and `must-revalidate`. If an asset should be cached, consider setting the directives `public`, `max-age`, and `immutable`.
+The `Cache-Control` header is missing or isn’t configured correctly. This allows the browser and proxies to cache content. This might be the intended behavior for static assets like CSS, JavaScript, or image files, but you should review the assets to ensure that sensitive content won’t be cached. | For secure content, make sure the `Cache-Control` header is set with `no-cache`, `no-store`, and `must-revalidate`. If an asset should be cached, consider setting the directives `public`, `max-age`, and `immutable`.
 
 ### Cross-site request forgery
 
-Cookies are not sent on normal cross-site subrequests (for example, to load images or frames into a third party site) but they are sent when a user navigates to the origin site (in other words, when they follow a link).
+Cookies aren't sent on normal cross-site sub-requests (for example, to load images or frames into a third party site) but they're sent when a user navigates to the origin site (in other words, when they follow a link).
 
 #### Sensitive cookie with improper SameSite attribute
 
@@ -122,13 +122,13 @@ Sometimes developers who are looking forward to generic implementations of their
 
 If an API inadvertently discloses sensitive information like the location of the file that produced an unhandled exception, this information can be used to launch further attacks against a web application.
 
-Bad actors might provide invalid inputs to the API to get more information about the underlying system that is being used to power the API. If the invalid inputs aren't handled correctly, the API will return the stack trace of the error, which includes the origin of the error, packages used in the service, the directory path of the server, and information about the underlying technology used to build the API.
+Bad actors might provide invalid inputs to the API to get more information about the underlying system that's being used to power the API. If the invalid inputs aren't handled correctly, the API will return the stack trace of the error, which includes the origin of the error, packages used in the service, the directory path of the server, and information about the underlying technology used to build the API.
 
 #### Stack trace leak
 
 Issue description | Possible fix
 --- | ---
-The stack trace is exposed in the response body. This might reveal the structure of the application and any internal components it relies on. It might also reveal information like server-side file names and SQL code that the application uses, which could allow an attacker to fine-tune a subsequent injection attack. | Send the user a more generic error message that reveals less information. Either suppress the stack trace entirely, or log it only on the server.
+The stack trace is exposed in the response body. This might reveal the structure of the application and any internal components it relies on. It might also reveal information like server-side file names and SQL code that the application uses, which could allow an attacker to fine-tune a later injection attack. | Send the user a more generic error message that reveals less information. Either suppress the stack trace entirely, or log it only on the server.
 
 #### Sensitive data exposure in response body
 
@@ -164,7 +164,7 @@ Injection flaws such as SQL, NoSQL, and [command injection](https://owasp.org/ww
 
 ### SQL injection
 
-SQL injection is a common attack vector that uses malicious SQL code for backend database manipulation to access information that wasn't intended to be displayed. This information might include sensitive information like company data, user lists, or private customer details.
+SQL injection is a common attack vector that uses malicious SQL code for database manipulation to access information that wasn't intended to be displayed. This information might include sensitive information like company data, user lists, or private customer details.
 
 Issue description | Possible fix
 --- | ---
@@ -184,17 +184,17 @@ A cookie was set without the `HttpOnly` flag. This means that the cookie can be 
 
 ### Sensitive cookie without secure flag
 
-The browser will not send a cookie with the [`Secure` attribute](https://owasp.org/www-community/controls/SecureCookieAttribute) set over an unencrypted HTTP request.
+The browser won't send a cookie with the [`Secure` attribute](https://owasp.org/www-community/controls/SecureCookieAttribute) set over an unencrypted HTTP request.
 
 By setting the `Secure` attribute, the browser will prevent the transmission of a cookie over an unencrypted channel.
 
 Issue description | Possible fix
 --- | ---
-A cookie was set without the `Secure` flag. This could allow an attacker to access the cookie using an unencrypted connection. | If a cookie contains sensitive information or is a session token, ensure that it is passed using an encrypted channel and that the `Secure` flag is set.
+A cookie was set without the `Secure` flag. This could allow an attacker to access the cookie using an unencrypted connection. | If a cookie contains sensitive information or is a session token, ensure that it's passed using an encrypted channel and that the `Secure` flag is set.
 
 ### Clickjacking
 
-[Clickjacking](https://owasp.org/www-community/attacks/Clickjacking), also known as a "UI redress attack", is when an attacker uses multiple transparent layers to trick a user into clicking on a button or link on another page when they were intending to click on the top-level page. This enables the attacker to hijack clicks meant for one page and route them to another page, most likely owned by another application, domain, or both.
+[Clickjacking](https://owasp.org/www-community/attacks/Clickjacking), also known as a "UI redress attack," is when an attacker uses multiple transparent layers to trick a user into clicking on a button or link on another page when they were intending to click on the top-level page. This enables the attacker to hijack clicks meant for one page and route them to another page, most likely owned by another application, domain, or both.
 
 #### Improper frame-ancestors directive in CSP policy
 
@@ -212,4 +212,4 @@ The `X-Frame-Options` header is set to `Allow`. This allows all websites to load
 
 Issue description | Possible fix
 --- | ---
-The `X-Content-Type-Options` header isn’t configured properly. This might allow an attacker to successfully upload a HTML file disguised as a different file type that the web server accepts (for example, a JPEG or a .ZIP file). The browser will render the uploaded file as an HTML file, which allows the attacker to execute an XSS attack. | To turn off MIME sniffing in the IE and Chrome browsers, use the `X-Content-Type-Options: nosniff` HTTP header. This requires the browser to use the MIME type sent by the server. Since the browser will no longer analyze the file, the website owner must make sure that they’re sending the appropriate MIME information.
+The `X-Content-Type-Options` header isn’t configured correctly. This might allow an attacker to successfully upload a HTML file disguised as a different file type that the web server accepts (for example, a JPEG or a .ZIP file). The browser will render the uploaded file as an HTML file, which allows the attacker to execute an XSS attack. | To turn off MIME sniffing in the IE and Chrome browsers, use the `X-Content-Type-Options: nosniff` HTTP header. This requires the browser to use the MIME type sent by the server. Since the browser will no longer analyze the file, the website owner must make sure that they’re sending the appropriate MIME information.

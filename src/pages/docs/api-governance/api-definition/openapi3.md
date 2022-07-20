@@ -187,7 +187,7 @@ components:
 
 | Issue description | Possible fix |
 | ----------------- | ------------ |
-| If the global security field isn't defined, the API doesn't require any authentication by default. Anyone can access the API operations that do not have a security field defined. | The security field needs to be defined in the schema. |
+| If the global security field isn't defined, the API doesn't require any authentication by default. Anyone can access the API operations that don't have a security field defined. | The security field needs to be defined in the schema. |
 
 #### Resolution
 
@@ -939,7 +939,7 @@ info:
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| Your API schema's [contact object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#contactObject) doesn't contain a URL for the contact person or organization. | Although contact information isn't required, including it allows your users to communicate with you. Add a URL to your API schema's contact object. |
+| Your API schema's [contact object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#contactObject) doesn't contain the URL of the contact person or organization. | Although contact information isn't required, including it allows your users to communicate with you. Add a URL to your API schema's contact object. |
 
 #### Resolution
 
@@ -1203,7 +1203,7 @@ paths:
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| One or more [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#operation-object) in your API schema does not contain a `tags` array. | Operation tags can be used to create logical groupings of operations in API documentation. Add a `tags` array for each operation object. |
+| One or more [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#operation-object) in your API schema doesn't contain a `tags` array. | Operation tags can be used to create logical groupings of operations in API documentation. Add a `tags` array for each operation object. |
 
 #### Resolution
 
@@ -1222,7 +1222,7 @@ paths:
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| One or more [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#operation-object) in your API schema contains a `tags` array, but the array does not contain any items. | Operation tags can be used to create logical groupings of operations in API documentation. Add at least one tag to the `tags` array for each operation object. |
+| One or more [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#operation-object) in your API schema contains a `tags` array, but the array doesn't contain any items. | Operation tags can be used to create logical groupings of operations in API documentation. Add at least one tag to the `tags` array for each operation object. |
 
 #### Resolution
 
@@ -1368,7 +1368,7 @@ paths:
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| One or more [request body objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#requestBodyObject) in your API schema doesn't contain at least one example. | An example shows your users what is expected when a request body is submitted as part of an API request. Add one or more examples to any body request objects. |
+| One or more [request body objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#requestBodyObject) in your API schema doesn't contain at least one example. | An example shows your users what's expected when a request body is submitted as part of an API request. Add one or more examples to any body request objects. |
 
 #### Resolution
 
@@ -1426,7 +1426,7 @@ paths:
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| One or more DELETE [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#operationObject) in your API schema contains a response body. | Make sure that DELETE methods do not have a response body. |
+| One or more DELETE [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#operationObject) in your API schema contains a response body. | Make sure that DELETE methods don't have a response body. |
 
 #### Resolution
 
