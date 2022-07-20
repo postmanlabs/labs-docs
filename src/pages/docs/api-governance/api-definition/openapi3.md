@@ -1700,6 +1700,8 @@ put:
 
 > **The format linting feature is in beta.** During the beta period, it may not be available to all Postman users and is subject to potential change.
 
+This category of linting rules deals with how to model various data types.
+
 ### Request body examples should only reference components
 
 | Issue description | Possible fix |
