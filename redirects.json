@@ -1837,7 +1837,7 @@
 	},
 	{
 		"from": "/docs/api-security/security-warnings/",
-		"to": "/docs/api-governance/api-definition/"
+		"to": "/docs/api-governance/api-definition/api-definition-warnings/"
 	},
 	{
 		"from": "/docs/api-security/security-warnings/security-warnings-overview/",
