@@ -144,6 +144,8 @@ The HTTP response body contains a private IP address (such as 10.x.x.x, 172.x.x.
 
 ### Information exposure in URL
 
+If information is exposed in a URL, this can allow attackers to access sensitive information like usernames, passwords, and API tokens. 
+
 #### Information exposure in URL query parameters key
 
 Issue description | Possible fix
