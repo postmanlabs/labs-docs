@@ -11,6 +11,7 @@ import Footer from './Footer/Footer';
 import marketo from '../../build/marketo.munchkin';
 import '../../styles/config/normalize.css';
 import './layout.scss';
+import Theme from '../../styles/theme.jsx';
 
 const getCookie = (name) => {
   const value = `; ${document.cookie}`;
@@ -87,10 +88,12 @@ class Layout extends React.Component {
     return (
       <>
         <main>
+          <Theme>
           <Header />
           {children}
           <Footer />
           {marketo()}
+        </Theme>
         </main>
       </>
     );
