@@ -843,6 +843,8 @@ info:
     url: https://example.com
 ```
 
+&nbsp;
+
 ### API must have a contact email available
 
 | Issue description | Possible fix |
@@ -858,6 +860,8 @@ info:
     email: author@company.com
     url: https://example.com
 ```
+
+&nbsp;
 
 ### API must have a contact name available
 
@@ -875,6 +879,8 @@ info:
     url: https://example.com
 ```
 
+&nbsp;
+
 ### API must have a contact URL available
 
 | Issue description | Possible fix |
@@ -891,6 +897,8 @@ info:
     url: https://example.com
 ```
 
+&nbsp;
+
 ### The info object should have a description
 
 | Issue description | Possible fix |
@@ -903,6 +911,8 @@ info:
 info:
   description: Project API description
 ```
+
+&nbsp;
 
 ### The info object should have a license
 
@@ -919,6 +929,8 @@ info:
     url: https://www.apache.org/licenses/LICENSE-2.0.html
 ```
 
+&nbsp;
+
 ### The info object should have a license URL
 
 | Issue description | Possible fix |
@@ -934,6 +946,8 @@ info:
     url: https://www.apache.org/licenses/LICENSE-2.0.html
 ```
 
+&nbsp;
+
 ### The info object should have a terms of service
 
 | Issue description | Possible fix |
@@ -946,6 +960,8 @@ info:
 info:
   termsOfService: http://example.com/terms/
 ```
+
+&nbsp;
 
 ### The info object should have an API ID extension
 
@@ -960,6 +976,8 @@ info:
   x-api-id: project-name-identifier
 ```
 
+&nbsp;
+
 ### The info object should have an audience extension
 
 | Issue description | Possible fix |
@@ -973,11 +991,13 @@ info:
   x-audience: The details about the target audience
 ```
 
+&nbsp;
+
 ### There should be no empty paths
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| Your API schema contains one or more empty [path item objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#path-item-object) in the [paths object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#paths-object). <!-- TODO: confirm that this is correct - might be the paths object instead? --> | Although you can leave a path item object empty due to [access-control list (ACL) constraints](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#securityFiltering), this doesn't provide your users with a good experience. Add details for any empty path item objects in your API schema. |
+| Your API schema contains one or more empty [path item objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#path-item-object) in the [paths object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#paths-object). | Although you can leave a path item object empty due to [access-control list (ACL) constraints](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#securityFiltering), this doesn't provide your users with a good experience. Add details for any empty path item objects in your API schema. |
 
 #### Resolution
 
@@ -986,13 +1006,19 @@ paths:
   '/health_check':
     get:
       operationId: health_check
+      description: health check endpoint
+      responses:
+        default:
+          description: default example
 ```
+
+&nbsp;
 
 ### There should be no trailing slashes on paths
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| One or more [path item objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#path-item-object) in your API schema's [paths object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#paths-object) have a trailing slash at the end of the path. | Some tools treat a path that ends with a trailing slash (`/path/`) differently from way that they treat paths without a trailing slash (`/path`). To avoid any ambiguity, remove any trailing slashes from paths in your API schema's paths object. |
+| One or more [path item objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#path-item-object) in your API schema's [paths object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#paths-object) have a trailing slash at the end of the path. | Some tools treat a path that ends with a trailing slash (`/path/`) differently from the way that they treat paths without a trailing slash (`/path`). To avoid any ambiguity, remove any trailing slashes from paths in your API schema's paths object. |
 
 #### Resolution
 
@@ -1003,21 +1029,7 @@ paths:
       operationId: health_check
 ```
 
-### All tags should have a description <!-- TODO: should this be below Tags object -->
-
-| Issue description | Possible fix |
-| ----------- | ----------- |
-| One or more tags in your API schema's [tags object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#tagObject) don't have an accompanying description. | Tag descriptions enable you to provide your users with important context. Add a description for every tag in the tags object. |
-
-#### Resolution
-
-```json
-tags:
-  - name: Tag 1
-    description: Tag 1, description explaining the meaning for it.
-  - name: Tag 2
-    description: Tag 2, description explaining the meaning for it.
-```
+&nbsp;
 
 ### There should be a central tags object
 
@@ -1033,14 +1045,27 @@ tags:
     description: Tag 1, description explaining the meaning for it.
   - name: Tag 2
     description: Tag 2, description explaining the meaning for it.
-...
-paths:
-  '/health_check':
-    get:
-      operationId: health_check
-      tags:
-        - Tag 1
 ```
+
+&nbsp;
+
+### All tags should have a description
+
+| Issue description | Possible fix |
+| ----------- | ----------- |
+| One or more tags in your API schema's [tags object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#tagObject) don't have an accompanying description. | Tag descriptions enable you to provide your users with important context. Add a description for every tag in the tags object. |
+
+#### Resolution
+
+```json
+tags:
+  - name: Tag 1
+    description: Tag 1, description explaining the meaning for it.
+  - name: Tag 2
+    description: Tag 2, description explaining the meaning for it.
+```
+
+&nbsp;
 
 ### There should be at least one tag
 
@@ -1058,226 +1083,814 @@ tags:
     description: Tag 2, description explaining the meaning for it.
 ```
 
+&nbsp;
+
 ## Operations
 
 This category of linting rules deals with operations on an API path. <!-- TODO: reword -->
 
-### Operations description
+### All operations should have descriptions
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| One or more [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#operation-object) in your API schema doesn't have a description. | A verbose explanation of the operation's behavior provides your users with important context. Add a description for each operation object. |
+| One or more [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#operation-object) in your API schema doesn't have a description. | A verbose explanation of the operation's behavior provides your users with important context. Add a description for each operation object.
 
-### Operations summary
+#### Resolution
+
+```json
+paths:
+  '/health_check':
+    get:
+      ...
+      description: health_check endpoint description.
+```
+
+&nbsp;
+
+### All operations should have summaries
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
 | One or more [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#operation-object) in your API schema doesn't have a summary. | A short summary of what the operation does provides your users with important context. Add a summary for each operation object. |
 
-### Operations summary period none
+#### Resolution
+
+```json
+paths:
+  '/health_check':
+    get:
+      ...
+      summary: health_check endpoint summary
+```
+
+&nbsp;
+
+### Operation summaries shouldn't end with a period
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
 | One or more [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#operation-object) in your API schema contains a summary that ends with a period (`.`). | Remove the final period from all summaries at the operations object level in your API schema. |
 
-### Operations tags
+#### Resolution
+
+```json
+paths:
+  '/health_check':
+    get:
+      ...
+      summary: health_check endpoint summary
+```
+
+&nbsp;
+
+### All operations should have tags
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
 | One or more [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#operation-object) in your API schema does not contain a `tags` array. | Operation tags can be used to create logical groupings of operations in API documentation. Add a `tags` array for each operation object. |
 
-### Operations tags one
+#### Resolution
+
+```json
+paths:
+  '/health_check':
+    get:
+      ...
+      tags:
+        - Tag 1
+```
+
+&nbsp;
+
+### All operations should have at least one tag
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
 | One or more [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#operation-object) in your API schema contains a `tags` array, but the array does not contain any items. | Operation tags can be used to create logical groupings of operations in API documentation. Add at least one tag to the `tags` array for each operation object. |
 
-### Parameters description
+#### Resolution
+
+```json
+paths:
+  '/health_check':
+    get:
+      ...
+      tags:
+        - Tag 1
+```
+
+&nbsp;
+
+### All parameters should have descriptions
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
 | One or more [parameter objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#parameter-object) in an [operations object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#operation-object) in your API schema doesn't contain a `description` field. | A brief description of the parameter provides your users with important context. Add a `description` field for each parameter object. |
 
-### Parameters example
+#### Resolution
+
+```json
+parameters:
+  - in: path
+    name: apiId
+    schema:
+      type: string
+      format: uuid
+    required: true
+    description: Postman API identifier
+    example: 002d9b61-961a-469b-898a-ddcf2f70faf7
+```
+
+&nbsp;
+
+### All parameters should have examples
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
 | One or more [parameter objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#parameter-object) in an [operations object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#operation-object) in your API schema doesn't contain an `example` field. | Add an `example` field to provide your users with an example of the parameter's potential value. |
 
-### Request body on POST
+#### Resolution
+
+```json
+parameters:
+  - in: path
+    name: apiId
+    schema:
+      type: string
+      format: uuid
+    required: true
+    description: Postman API identifier
+    example: 002d9b61-961a-469b-898a-ddcf2f70faf7
+```
+
+&nbsp;
+
+### POST methods should have request bodies
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| One or more POST [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#operationObject) in your API schema doesn't contain a [request body object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#requestBodyObject). |  A request body object contains a brief description of the response body and information about what a valid response body should look like. Add a request body object to any POST operation operation objects. |
+| One or more POST [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#operationObject) in your API schema doesn't contain a [request body object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#requestBodyObject). |  A request body object contains a brief description of the response body and information about what a valid response body should look like. Add a request body object to any POST operation objects. |
 
-### Request body on PUT
+#### Resolution
+
+```json
+paths:
+  '/post_endpoint':
+    post:
+      operationId: post_endpoint
+      description: post endpoint
+      requestBody:
+        required: true
+        content:
+          application/json:
+              schema:
+                type: object
+              example:
+                sample_key: sample_value
+      responses:
+        default:
+          description: post_endpoint example
+```
+
+&nbsp;
+
+### PUT methods should have request bodies
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| One or more PUT [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#operationObject) in your API schema doesn't contain a [request body object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#requestBodyObject). | A request body object contains a brief description of the response body and information about what a valid response body should look like. Add a request body object to any POST operation operation objects. |
+| One or more PUT [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#operationObject) in your API schema doesn't contain a [request body object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#requestBodyObject). | A request body object contains a brief description of the response body and information about what a valid response body should look like. Add a request body object to any POST operation objects. |
 
-### Request body on PATCH
+#### Resolution
+
+```json
+paths:
+  '/put_endpoint':
+    put:
+      operationId: put_endpoint
+      description: put endpoint
+      requestBody:
+        required: true
+        content:
+          application/json:
+              schema:
+                type: object
+      responses:
+        default:
+          description: put_endpoint example
+```
+
+&nbsp;
+
+### PATCH methods should have request bodies
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| One or more PATCH [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#operationObject) in your API schema doesn't contain a [request body object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#requestBodyObject). | A request body object contains a brief description of the response body and information about what a valid response body should look like. Add a request body object to any POST operation operation objects. |
+| One or more PATCH [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#operationObject) in your API schema doesn't contain a [request body object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#requestBodyObject). | A request body object contains a brief description of the response body and information about what a valid response body should look like. Add a request body object to any POST operation objects. |
 
-### Have request body examples <!-- TODO: only 3.0 -->
+#### Resolution
+
+```json
+paths:
+  '/patch_endpoint':
+    patch:
+      operationId: patch_endpoint
+      description: patch endpoint
+      requestBody:
+        required: true
+        content:
+          application/json:
+              schema:
+                type: object
+      responses:
+        default:
+          description: patch_endpoint example
+```
+
+&nbsp;
+
+### All request bodies should have an example <!-- TODO: only 3.0 -->
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
 | One or more [request body objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#requestBodyObject) in your API schema doesn't contain at least one example. | An example shows your users what is expected when a request body is submitted as part of an API request. Add one or more examples to any body request objects. |
 
-### Have responses examples <!-- TODO: only 3.0 -->
+#### Resolution
+
+```json
+paths:
+  '/post_endpoint':
+    post:
+      operationId: post_endpoint
+      description: post endpoint
+      requestBody:
+        required: true
+        content:
+          application/json:
+              schema:
+                type: object
+              example:
+                sample_key: sample_value
+      responses:
+        default:
+          description: post_endpoint example
+```
+
+&nbsp;
+
+### All responses should have an example <!-- TODO: only 3.0 -->
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
 | One or more [response objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#responseObject) in your API schema doesn't contain an example. | An example shows your users the kind of response they can expect from the API. Add an example to any response objects. |
 
-### Response DELETE `204` No Body
+#### Resolution
+
+```json
+paths:
+  '/post_endpoint':
+    post:
+      operationId: post_endpoint
+      description: post endpoint
+      requestBody:
+        required: true
+        content:
+          application/json:
+              schema:
+                type: object
+              example:
+                sample_key: sample_value
+      responses:
+        default:
+          description: post_endpoint example
+```
+
+&nbsp;
+
+### DELETE operations shouldn't have a response body
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
 | One or more DELETE [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#operationObject) in your API schema contains a response body. | Make sure that DELETE methods do not have a response body. |
 
-### Response DELETE `204` status code
+#### Resolution
+
+```json
+delete:
+  ...
+  parameters:
+    - in: path
+      name: entityId
+      schema:
+      type: integer
+      required: true
+      description: entity identifier.
+  responses:
+    '204':
+      description: Deleted successfully
+    '500':
+      description: Something went wrong
+```
+
+&nbsp;
+
+### DELETE operations should have a 204 status code for the response
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
 | The [responses object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#responses-object) for one or more DELETE [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#operationObject) in your API schema doesn't contain the `204` status code. | Make sure that DELETE methods all have a `204` status code response. |
 
-### Response DELETE `500` status code
+#### Resolution
+
+```json
+delete:
+  ...
+  parameters:
+    - in: path
+      name: entityId
+      schema:
+      type: integer
+      required: true
+      description: entity identifier.
+  responses:
+    '204':
+      description: Deleted successfully
+    '500':
+      description: Something went wrong
+```
+
+&nbsp;
+
+### DELETE operations should have a 500 status code for the response
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
 | The [responses object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#responses-object) for one or more DELETE [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#operationObject) in your API schema doesn't contain the `500` status code. | Make sure that DELETE methods all have a `500` status code response. |
 
-### Response GET `200` status code
+#### Resolution
+
+```json
+delete:
+  ...
+  parameters:
+    - in: path
+      name: entityId
+      schema:
+      type: integer
+      required: true
+      description: entity identifier.
+  responses:
+    '204':
+      description: Deleted successfully
+    '500':
+      description: Something went wrong
+```
+
+&nbsp;
+
+### GET operations should have a 200 status code for the response
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
 | The [responses object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#responses-object) for one or more GET [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#operationObject) in your API schema doesn't contain the `200` status code. | Make sure that GET methods all have a `200` status code response. |
 
-### Response GET `500` status code
+#### Resolution
+
+```json
+get:
+  operationId: health_check
+  tags:
+    - General
+  summary: Health-check endpoint
+  description: |-
+    This is a health checkup route, also used by ELB to keep the instance
+    in a group. This will perform all the dependent infra check like
+    db-connection by performing a query.
+  security: []
+  responses:
+    '200':
+      description: Successful response
+      content:
+        application/json:
+          schema:
+            type: object
+    '500':
+      description: Something went wrong
+      content:
+        application/json:
+          schema:
+            type: object
+```
+
+&nbsp;
+
+### GET operations should have a 500 status code for the response
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
 | The [responses object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#responses-object) for one or more GET [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#operationObject) in your API schema doesn't contain the `500` status code. | Make sure that GET methods all have a `500` status code response. |
 
-### Response PATCH `200` status code
+#### Resolution
+
+```json
+'500':
+  description: Unexpected error
+  content:
+    application/json:
+      schema:
+        $ref: '#/components/schemas/ErrorModel'
+```
+
+&nbsp;
+
+### PATCH operations should have a 200 status code for the response
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
 | The [responses object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#responses-object) for one or more PATCH [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#operationObject) in your API schema doesn't contain the `200` status code. | Make sure that PATCH methods all have a `200` status code response. |
 
-### Response PATCH `500` status code
+#### Resolution
+
+```json
+paths:
+  /users/{GUID}:
+    patch:
+      summary: Update a user
+      parameters:
+        - name: GUID
+          in: path
+          required: true
+          type: string
+          format: GUID
+          description: The GUID of a specific user
+        - name: JsonPatch
+          in: body
+          required: true
+          schema:
+            $ref: "#/definitions/PatchRequest"
+      responses:
+        '200':
+          description: Successful response
+          schema:
+            $ref: "#/definitions/User"
+```
+
+&nbsp;
+
+### PATCH operations should have a 500 status code for the response
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
 | The [responses object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#responses-object) for one or more PATCH [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#operationObject) in your API schema doesn't contain the `500` status code. | Make sure that PATCH methods all have a `500` status code response. |
 
-### Response POST `201` status code
+#### Resolution
+
+```json
+'500':
+  description: Unexpected error
+  content:
+    application/json:
+      schema:
+        $ref: '#/components/schemas/ErrorModel'
+```
+
+&nbsp;
+
+### POST operations should have a 201 status code for the response
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
 | The [responses object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#responses-object) for one or more POST [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#operationObject) in your API schema doesn't contain the `201` status code. | Make sure that POST methods all have a `201` status code response. |
 
-### Response POST `500` status code
+#### Resolution
+
+```json
+post:
+  summary: Create a pet
+  operationId: createPets
+  tags:
+      - pets
+  responses:
+      '201':
+          description: Null response
+```
+
+&nbsp;
+
+### POST operations should have a 500 status code for the response
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
 | The [responses object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#responses-object) for one or more POST [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#operationObject) in your API schema doesn't contain the `500` status code. | Make sure that POST methods all have a `500` status code response. |
 
-### Response PUT `200` status code
+#### Resolution
+
+```json
+'500':
+  description: Unexpected error
+  content:
+    application/json:
+      schema:
+        $ref: '#/components/schemas/ErrorModel'
+```
+
+&nbsp;
+
+### PUT operations should have a 200 status code for the response
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
 | The [responses object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#responses-object) for one or more PUT [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#operationObject) in your API schema doesn't contain the `200` status code. | Make sure that PUT methods all have a `200` status code response. |
 
-### Response PUT `500` status code
+#### Resolution
+
+```json
+put:
+  operationId: updatePet
+  requestBody:
+    content:
+      application/json:
+        schema:
+          $ref: "#/components/schemas/Pet"
+  responses:
+    "200":
+      content:
+        application/json:
+          schema:
+            type: boolean
+```
+
+&nbsp;
+
+### PUT operations should have a 500 status code for the response
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
 | The [responses object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#responses-object) for one or more PUT [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#operationObject) in your API schema doesn't contain the `500` status code. | Make sure that PUT methods all have a `500` status code response. |
 
+#### Resolution
+
+```json
+'500':
+  description: Unexpected error
+  content:
+    application/json:
+      schema:
+        $ref: '#/components/schemas/ErrorModel'
+```
+
+&nbsp;
+
 ## Models
 
 <!-- TODO: intro -->
 
-### Request body examples components <!-- TODO: 3.0 only -->
+### Request body examples should only reference components <!-- TODO: 3.0 only -->
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| Multiple [request body objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#requestBodyObject) in your API schema contain examples that should be consolidated into an `examples` section <!-- TODO: or should this be the `requestBodies` section? --> in the [components object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#components-object). | Consolidate all the examples from your request bodies into an `examples` section in the components object. |
+| Multiple [request body objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#requestBodyObject) in your API schema contain examples that should be consolidated into an `examples` section in the [components object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#components-object). | Consolidate all the examples from your request bodies into an `examples` section in the components object. |
 
-### Request body schema components <!-- TODO: 3.0 only -->
+#### Resolution
+
+```json
+description: user to add to the system
+content:
+  'application/json':
+    schema:
+      $ref: '#/components/schemas/User'
+    examples:
+       $ref: '#/components/examples/SampleUser'
+```
+
+&nbsp;
+
+### Request body schema should only reference components <!-- TODO: 3.0 only -->
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
 | Multiple [request body objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#requestBodyObject) in your API schema contain schemas that should be consolidated into a `schemas` section in the [components object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#components-object). | Consolidate all the schemas from your request bodies into a `schemas` section in the components object. |
 
-### Responses examples components <!-- TODO: 3.0 only -->
+#### Resolution
+
+```json
+description: user to add to the system
+content:
+  'application/json':
+    schema:
+      $ref: '#/components/schemas/User'
+```
+
+&nbsp;
+
+### Response examples should only reference components <!-- TODO: 3.0 only -->
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
 | Multiple [response objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#responseObject) in your API schema contain examples that should be consolidated into an `examples` section in the [components object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#components-object). | Consolidate all the examples from your response objects into an `examples` section in the components object. |
 
-### Responses schema components <!-- TODO: 3.0 only -->
+#### Resolution
+
+```json
+description: user to add to the system
+content:
+  'application/json':
+    schema:
+      $ref: '#/components/schemas/User'
+    examples:
+       $ref: '#/components/examples/SampleUser'
+```
+
+&nbsp;
+
+### Response schema should only reference components <!-- TODO: 3.0 only -->
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
 | Multiple [response objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#responseObject) in your API schema contain schemas that should be consolidated into an `schemas` section in the [components object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#components-object). | Consolidate all the schemas from your response objects into a `schemas` section in the components object. |
 
-### Schema description
+#### Resolution
+
+```json
+description: user to add to the system
+content:
+  'application/json':
+    schema:
+      $ref: '#/components/schemas/User'
+```
+
+&nbsp;
+
+### All schemas should have descriptions
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
 | One or more [schema objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#schemaObject) in your API schema's [components object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#components-object) doesn't contain a `description`. | Add a `description` for every schema object in your API schema. |
 
-### Schema properties
+#### Resolution
+
+```json
+components:
+  schemas:
+    GeneralError:
+      type: object
+      description: universal error object
+```
+
+&nbsp;
+
+### All schemas should have properties
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
 | One or more [schema objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#schemaObject) in your API schema's [components object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#components-object) doesn't contain at least one property. | Add a property for every schema object in your API schema. |
 
-### Schema properties allowed integer format
+#### Resolution
+
+```json
+components:
+  schemas:
+    GeneralError:
+      type: object
+      properties:
+        code:
+```
+
+&nbsp;
+
+### Integer format should be int32 or int64
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
 | One or more [schema objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#schemaObject) in your API schema's [components object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#components-object) has an integer type property but doesn't specify `int32` or `int64` format. | Make sure that properties that have integer type in your API schema have a format of `int32` or `int64`. |
 
-### Schema properties allowed number format
+#### Resolution
+
+```json
+components:
+  schemas:
+    GeneralError:
+      type: object
+      properties:
+        code:
+          type: integer
+          format: int32
+```
+
+&nbsp;
+
+### Number format should be decimal32, decimal64, float, double, or decimal128
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
 | One or more [schema objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#schemaObject) in your API schema's [components object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#components-object) has a number type property but doesn't specify `decimal32`, `decimal64`, `float`, `double`, or `decimal128` format. | Make sure that properties that have number type in your API schema have a format of `decimal32`, `decimal64`, `float`, `double`, or `decimal128`. |
 
-### Schema properties define array boundaries
+#### Resolution
+
+```json
+components:
+  schemas:
+    GeneralError:
+      type: object
+      properties:
+        iteration:
+          type: number
+          format: float
+```
+
+&nbsp;
+
+### Arrays must have minItems and maxItems defined
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
 | One or more [schema objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#schemaObject) in your API schema's [components object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#components-object) has an array type property but doesn't define `minItem` or `maxItem`. | Defining the minimum and maximum boundaries for arrays in your API schema prevents this type of property from being overloaded. Make sure that properties that have array type in your API schema  have `minItem` and `maxItem` defined. |
 
-### Schema properties descriptions
+#### Resolution
+
+```json
+type: array
+items:
+  type: integer
+minItems: 1
+maxItems: 10
+```
+
+&nbsp;
+
+### All schema properties should have descriptions
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
 | One or more properties in a [schema object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#schemaObject) in your API schema's [components object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#components-object) doesn't contain a `description`. | A brief description of properties in the API schema provides your users with important context. Add a `description` for every property in your schema objects. |
 
-### Schema properties type
+#### Resolution
+
+```json
+components:
+  schemas:
+    GeneralError:
+      type: object
+      properties:
+        code:
+          type: integer
+          format: int32
+          description: error code for this error
+```
+
+&nbsp;
+
+### All schema properties should have a type property
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
 | One or more properties in a [schema object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#schemaObject) in your API schema's [components object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#components-object) doesn't have a `type` defined. | Add a `type` for every property in your schema objects. |
 
-### Schema required
+#### Resolution
+
+```json
+components:
+  schemas:
+    GeneralError:
+      type: object
+      properties:
+        code:
+          type: integer
+          format: int32
+```
+
+&nbsp;
+
+### All schemas should have a required property
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
 | One or more [schema objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#schemaObject) in your API schema's [components object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#components-object) doesn't have a `required` property defined. | Add a `required` property to every schema object. |
 
-### Schema type
+#### Resolution
+
+```json
+components:
+  schemas:
+    GeneralError:
+      type: object
+      required: false
+```
+
+&nbsp;
+
+### All schemas should have a type property
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
 | One or more [schema objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#schemaObject) in your API schema's [components object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#components-object) doesn't have a `type` property defined. | Add a `type` property to every schema object. |
+
+#### Resolution
+
+```json
+components:
+  schemas:
+    GeneralError:
+      type: object
+```
+
+&nbsp;
