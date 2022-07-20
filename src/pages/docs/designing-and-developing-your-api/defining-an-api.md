@@ -1,6 +1,6 @@
 ---
-title: 'Defining an API Specification'
-updated: 2022-07-08
+title: 'Creating API Definitions'
+updated: 2022-07-31
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -32,7 +32,7 @@ contextual_links:
     url: "/docs/designing-and-developing-your-api/managing-apis/"
 ---
 
-You can define the structure of your API using its _API definition_. This can consist of one or multiple files. You can also generate a collection from an API definition.
+You can create the structure of your API using its _API definition_. This can consist of one or multiple files. You can also generate a collection from an API definition.
 
 * [Editing your API definition](#editing-your-api-definition)
 * [Editing multi-file API definitions](#editing-multi-file-api-definitions)
