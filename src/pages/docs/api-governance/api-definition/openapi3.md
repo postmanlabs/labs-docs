@@ -24,7 +24,7 @@ search_keyword: "api security, api schema, security warnings, schema validation,
 
 You can use Postman to identify any potential security and formatting issues when defining your API.
 
-> **The format linting feature is in beta.** During the beta period, it may not be available to all Postman users and is subject to potential change. <!-- TODO: add links -->
+> **Format linting for [API information](#api-information), [Operations](#operations), and [Models](#models) is in beta.** During the beta period, this feature may not be available to all Postman users and is subject to potential change.
 
 <img alt="Security warnings for OpenAPI 3.0" src="https://assets.postman.com/postman-docs/security-warnings-openapi-3-v9.jpg"/>
 
@@ -73,7 +73,7 @@ For all APIs defined in OpenAPI 3.0, the following list describes possible warni
     * [API must have a contact name available](#api-must-have-a-contact-name-available)
     * [API must have a contact URL available](#api-must-have-a-contact-url-available)
     * [The info object should have a description](#the-info-object-should-have-a-description)
-    * [The info object should have a license](#the info-object-should-have-a-license)
+    * [The info object should have a license](#the-info-object-should-have-a-license)
     * [The info object should have a license URL](#the-info-object-should-have-a-license-url)
     * [The info object should have a terms of service](#the-info-object-should-have-a-terms-of-service)
     * [The info object should have an API ID extension](#the-info-object-should-have-an-api-id-extension)
@@ -875,11 +875,11 @@ components:
 
 &nbsp;
 
-> **The format linting feature is in beta.** During the beta period, it may not be available to all Postman users and is subject to potential change.
-
 ## API information
 
-This category of linting rules deals with information about your API. The OpenAPI info object provides metadata about the API.  <!-- TODO: reword -->
+> **The format linting feature is in beta.** During the beta period, it may not be available to all Postman users and is subject to potential change.
+
+This category of linting rules deals with the OpenAPI info object, which contains metadata about the API.
 
 ### API must have contact information available
 
@@ -1141,7 +1141,9 @@ tags:
 
 ## Operations
 
-This category of linting rules deals with operations on an API path. <!-- TODO: reword -->
+> **The format linting feature is in beta.** During the beta period, it may not be available to all Postman users and is subject to potential change.
+
+This category of linting rules deals with operations on an API path.
 
 ### All operations should have descriptions
 
@@ -1362,7 +1364,7 @@ paths:
 
 &nbsp;
 
-### All request bodies should have an example <!-- TODO: only 3.0 -->
+### All request bodies should have an example
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
@@ -1391,7 +1393,7 @@ paths:
 
 &nbsp;
 
-### All responses should have an example <!-- TODO: only 3.0 -->
+### All responses should have an example
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
@@ -1696,9 +1698,9 @@ put:
 
 ## Models
 
-<!-- TODO: intro -->
+> **The format linting feature is in beta.** During the beta period, it may not be available to all Postman users and is subject to potential change.
 
-### Request body examples should only reference components <!-- TODO: 3.0 only -->
+### Request body examples should only reference components
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
@@ -1718,7 +1720,7 @@ content:
 
 &nbsp;
 
-### Request body schema should only reference components <!-- TODO: 3.0 only -->
+### Request body schema should only reference components
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
@@ -1736,7 +1738,7 @@ content:
 
 &nbsp;
 
-### Response examples should only reference components <!-- TODO: 3.0 only -->
+### Response examples should only reference components
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
@@ -1756,7 +1758,7 @@ content:
 
 &nbsp;
 
-### Response schema should only reference components <!-- TODO: 3.0 only -->
+### Response schema should only reference components
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
