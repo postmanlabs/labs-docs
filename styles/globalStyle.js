@@ -404,12 +404,13 @@ pre {
   color: #212121;
   background-color: #FFF4BE;
   border-color: #FFF4BE;
-}
+
 .modal-backdrop.show {
   opacity: 0.8;
 }
 .modal-backdrop {
   background-color: #212121; /* grey_90 */
+}
 }
 `;
 
