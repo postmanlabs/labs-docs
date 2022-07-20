@@ -1852,10 +1852,6 @@
 		"to": "/docs/api-governance/api-definition/openapi2/"
 	},
 	{
-		"from": "/docs/api-security/api-definition/",
-		"to": "/docs/api-governance/api-definition/api-definition-warnings/"
-	},
-	{
 		"from": "/docs/api-security/token-scanner/",
 		"to": "/docs/administration/token-scanner/"
 	},
