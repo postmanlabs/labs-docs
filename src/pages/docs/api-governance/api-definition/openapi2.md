@@ -117,8 +117,6 @@ For all APIs defined in OpenAPI 2.0, the following list describes possible warni
     * [All schemas should have a required property](#all-schemas-should-have-a-required-property)
     * [All schemas should have a type property](#all-schemas-should-have-a-type-property)
 
-
-
 ## Broken object level authorization
 
 ### Scope for OAuth scheme used in security field is not defined in the securityDefinition declaration
