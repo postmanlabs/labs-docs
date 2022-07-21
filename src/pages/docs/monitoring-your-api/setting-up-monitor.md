@@ -70,9 +70,9 @@ Postman offers several ways to create a new collection-based monitor:
 
 Give your new monitor a **Monitor name** and select the **Collection** you want the monitor to run. (Depending on the method you chose to create the monitor, the collection might already be selected.) If the collection has multiple tags, select the **Collection tag** to use. You can also add an **Environment** if you would like the monitor to use one.
 
-See the following sections for other configuration options you can select for your monitor. When you're finished, select **Create** to create the new monitor.
+See the following sections for other configuration options you can select for your monitor. When you're finished, select **Create Monitor** to create the new monitor.
 
-![Create monitor page](https://assets.postman.com/postman-docs/create-a-monitor-tab-1-v9.jpg)
+![Create monitor page](https://assets.postman.com/postman-docs/create-a-monitor-tab-1-v9-25.jpg)
 
 > Postman maintains limits on various team and user actions, including monitor creation. For more information, see [Monitor activity limits](/docs/monitoring-your-api/monitor-usage/#monitor-activity-limits).
 
@@ -104,7 +104,7 @@ Postman can automatically select a region where your monitor will run, or you ca
 
 ### Using static IPs
 
-Static IPs are available on Postman Professional and Enterprise plans. This option enables you to securely monitor private APIs using a direct channel to Postman. Learn how you can [monitor using static IPs](/docs/monitoring-your-api/using-static-IPs-to-monitor/).
+Static IPs are available on Postman Professional and Enterprise plans when you manually select a region. This option enables you to securely monitor private APIs using a direct channel to Postman. Learn how you can [monitor using static IPs](/docs/monitoring-your-api/using-static-IPs-to-monitor/).
 
 ### Getting monitor notifications
 
