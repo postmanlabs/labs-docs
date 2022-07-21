@@ -26,6 +26,9 @@ contextual_links:
   - type: link
     name: "Power Mocks, Monitors, and CI/CD with Postman"
     url: "https://blog.postman.com/power-mocks-monitors-and-ci-cd-with-postman-webinar-recap-part-3/"
+  - type: link
+    name: "Looping through a Data File in the Postman Collection Runner"
+    url: "https://blog.postman.com/looping-through-a-data-file-in-the-postman-collection-runner/"
 
 
 warning: false
@@ -79,13 +82,13 @@ You can upload a data file to pass Postman sets of values to use during a monito
 
 Data files are limited to 1 MB in size and can be in CSV or JSON format. Use the following structure for your data files:
 
-* **CSV** - The first row of the file must contain the variable names, one variable per column. Each additional row is considered a data row, with values for each variable. Make sure all rows have the same number of columns as the first row. Postman will iterate through the data rows, running the monitored collection once for each data row in the file.
-
-    > The line endings of the CSV file must be in UNIX format.
+* **CSV** - The first row of the file must contain the variable names, one variable per column. Each additional row is considered a data row, with values for each variable. Make sure all rows have the same number of columns and use a UNIX format line ending. Postman will iterate through the data rows, running the monitored collection once for each data row in the file.
 
 * **JSON** - The file must be formatted as an array of key-value pairs. The key corresponds to a variable name, and the value will be used for that variable when running the monitored collection.
 
 To upload a data file, use the **Select File** button to locate and open your CSV or JSON file. Postman will use the data file when running your monitor.
+
+> **How do I use data variables in requests and scripts?** In requests (URLs, parameters, headers, authorization, and body), use double curly braces around your variable name, for example: `{{variable}}`. In pre-request scripts and test scripts, use `pm.iterationData` to access and manipulate variables. Learn more about [using variables](/docs/sending-requests/variables/#using-variables) and [using pm.iterationData methods](/docs/writing-scripts/script-references/postman-sandbox-api-reference/#using-data-variables-in-scripts).
 
 ### Scheduling monitors
 
