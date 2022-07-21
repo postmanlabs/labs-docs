@@ -65,10 +65,10 @@ class IndexPage extends React.Component {
                 <div className="col-sm-12 col-md-5 col-lg-6 align-self-center">
                   <h1>Postman Labs Docs</h1>
                   <p className="subtitle">
-                    Learn how to use Postman's cutting edge features!
+                    Flows, gRPC, WebSockets! Learn about Postman Labs and the cutting-edge features brewing in it.
                   </p>
                   <Link
-                    to="/postman-flows/getting-started/flows-overview/"
+                    to="/labs-overview/"
                     className="btn btn__primary-hollow mb-5"
                   >
                     Explore the docs
@@ -114,6 +114,57 @@ class IndexPage extends React.Component {
                   className="embed-responsive-item "
                   src="https://www.youtube.com/embed/4Yr9CG8Pp14?rel=0&origin=https://learning.postman.com/"
                   title="Low-code Flows in Postman"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                />
+              </div>
+            </div>
+          </section>
+        </div>
+        <div className="container">
+          {/* Youtube Video Section */}
+          <section className="row section align-items-center">
+            <div className="col-lg-4">
+              <h2>Working with gRPC APIs in Postman</h2>
+              <p>
+              gRPC is a schema-driven Remote Procedure Call (RPC) framework often used to enable inter-service communication. Postman provides you with a client interface to work with gRPC services. Go through the documentation to learn how to use Postman's gRPC client to test your gRPC API.
+              </p>
+              <Link
+                to="/postman-api-client/grpc-client/grpc-client-overview"
+                className="btn btn__primary-hollow mb-5"
+              >
+                Explore gRPC client docs
+              </Link>
+            </div>
+            <div className="col-lg-8">
+              <div className="gRPC request interface">
+              <img src="https://assets.postman.com/postman-labs-docs/grpc-docs/grpc-client-overview/grpc-request-homepage.png" alt="gRPC request interface"/>
+              </div>
+            </div>
+          </section>
+        </div>
+        <div className="container">
+          {/* Youtube Video Section */}
+          <section className="row section align-items-center">
+            <div className="col-lg-4">
+              <h2>Testing asynchronous APIs with WebSocket client</h2>
+              <p>
+              WebSocket protocol and the SocketIO framework provide a way to exchange data between a client and server over a persistent connection. Postman lets you work with WebSocket and SocketIO APIs using it's API client interface. Go through the documentation to learn how to use Postman's WebSocket client to test your WebSocket API.
+              </p>
+              <Link
+                to="/postman-api-client/websocket-client/websocket-client-overview/"
+                className="btn btn__primary-hollow mb-5"
+              >
+                Explore WebSocket client docs
+              </Link>
+            </div>
+            <div className="col-lg-8">
+              <div className="embed-responsive embed-responsive-16by9 img-frame">
+                <iframe
+                  loading="lazy"
+                  className="embed-responsive-item "
+                  src="https://www.youtube.com/embed/H-7EZVj9D-k"
+                  title="WebSocket Requests- Postman Level Up"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
                 />
