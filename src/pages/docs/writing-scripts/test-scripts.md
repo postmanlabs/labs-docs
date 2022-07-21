@@ -37,11 +37,11 @@ contextual_links:
   - type: subtitle
     name: "Case Studies"
   - type: link
-    name: "Ping Identity"
-    url: "https://www.postman.com/case-studies/pingidentity/"
+    name: "SEI Novus"
+    url: "https://www.postman.com/case-studies/sei-novus/"
   - type: link
-    name: "iQmetrix"
-    url: "https://www.postman.com/case-studies/iqmetrix/"
+    name: "VTEX"
+    url: "https://www.postman.com/case-studies/vtex/"
   - type: subtitle
     name: "Public Workspaces"
   - type: link

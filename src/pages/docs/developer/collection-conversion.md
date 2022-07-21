@@ -11,6 +11,13 @@ contextual_links:
     name: "Grouping requests in collections"
     url: "/docs/sending-requests/intro-to-collections/"
   - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Case Studies"
+  - type: link
+    name: "Youi"
+    url: "https://www.postman.com/case-studies/youi/"
+  - type: section
     name: "Next Steps"
   - type: link
     name: "Continuous Integration"

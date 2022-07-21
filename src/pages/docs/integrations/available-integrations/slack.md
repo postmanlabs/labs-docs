@@ -26,6 +26,11 @@ contextual_links:
     name: "Enhanced Postman Slack Notifications for Easier Collaboration"
     url: "https://blog.postman.com/enhanced-postman-slack-notifications-for-easier-collaboration/"
   - type: subtitle
+    name: "Case Studies"
+  - type: link
+    name: "Radio-Canada"
+    url: "https://www.postman.com/case-studies/radio-canada/"
+  - type: subtitle
     name: "Public Workspaces"
   - type: link
     name: "Postman Loves Slack"

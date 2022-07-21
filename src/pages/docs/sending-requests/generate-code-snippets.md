@@ -27,8 +27,8 @@ contextual_links:
     name: "Intuit"
     url: "https://www.postman.com/case-studies/intuit/"
   - type: link
-    name: "BigCommerce"
-    url: "https://www.postman.com/case-studies/bigcommerce/"
+    name: "ShipEngine"
+    url: "https://www.postman.com/case-studies/shipengine/"
   - type: section
     name: "Next Steps"
   - type: link
