@@ -534,7 +534,7 @@ class Header extends React.Component {
         <nav className="navbar-v6 navbar navbar-expand-lg navbar-light bg-light nav-secondary blurred-container">
           <Link
             className="navbar-brand"
-            href="/"
+            href="/labs"
           >
             <span id="learning-center-home-link" className="nav-link uber-nav">
               Postman Labs Docs
