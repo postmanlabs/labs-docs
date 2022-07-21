@@ -94,7 +94,7 @@ The next time existing users sign in to Postman, they will get a notification th
 
 <img alt="Domain capture join team notification" src="https://assets.postman.com/postman-docs/domain-capture-join-team-9.4.jpg" width="350px"/>
 
-Existing users who were on other Postman teams will have their personal workspace data, collections, and environments automatically transferred over. Users won't be able to remain on or join extra Postman teams with their captured accounts.
+Existing users who were on other Postman teams will lose access to all data from their previous teams, including personal workspaces. No data will be transferred from their previous teams to their new team. Users won't be able to remain on or join extra Postman teams with their captured accounts.
 
 > If users experience any issues when moving to your Postman team, reach out to [Postman support](https://www.postman.com/support/).
 
@@ -108,23 +108,26 @@ The experience for captured users depends on their prior team status:
 * If a captured user isn't a part of any team:
     * All existing user sessions are revoked.
     * The next time the user logs in, they will be prompted to join your organization's team using SSO.
-    * When the user authenticates into your organization's team using SSO, their existing data will be available in their personal workspace.
+    * When the user authenticates into your organization's team using SSO, their existing data will be transferred to the team.
 * If a captured user is a part of an existing free or paid team:
-    * They're removed from their existing team and the data that solely belongs to them and hasn't been shared will be moved with them.
+    * They're removed from their existing team.
     * All existing user sessions are revoked.
     * The next time the user logs in, they will be prompted to join your organization's team using SSO.
-    * When the user authenticates into your organization's team using SSO, their existing data will be available in their personal workspace.
+    * Users can authenticate into your organization's team using SSO.
+    * They will lose access to all data from their previous teams, including personal workspaces. No data will be transferred from their previous teams to their new team.
 * If a captured user is the last admin of an existing free team:
     * They're removed from the team and the remaining members are assigned the [Admin role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles). The data that solely belongs to them and hasn't been shared will be moved with them.
     * All existing user sessions are revoked.
     * The next time the user logs in, they will be prompted to join your organization's team using SSO.
-    * When the user authenticates into your organization's team using SSO, their existing data will be available in their personal workspace.
+    * Users can authenticate into your organization's team using SSO.
+    * They will lose access to all data from their previous teams, including personal workspaces. No data will be transferred from their previous teams to their new team.
 * If a captured user is the last admin of an existing paid team:
     * Postman support will contact your Team Admins to discuss how to approach this prior to verifying the domain you've added to your team.
     * All existing user sessions are revoked.
     * The next time the user logs in, they will be prompted to leave their existing team.
     * They will need to contact [Postman support](https://www.postman.com/support/) to assign the Admin role to another team member and remove them from the team. The data that solely belongs to them and hasn't been shared will be moved with them.
-    * Once they have been removed from their earlier team, they can authenticate using SSO and join your organization's team. Their existing data will be available in their personal workspace.
+    * Users can authenticate into your organization's team using SSO.
+    * They will lose access to all data from their previous teams, including personal workspaces. No data will be transferred from their previous teams to their new team.
 
 ### Can a Team Admin view the list of user accounts that will be captured before enabling domain capture?
 
