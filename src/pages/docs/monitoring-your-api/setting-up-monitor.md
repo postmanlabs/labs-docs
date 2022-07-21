@@ -40,6 +40,7 @@ Other configuration options enable you to tailor the monitor to your specific AP
 
 * [Creating a collection-based monitor](#creating-a-collection-based-monitor)
 * [Configuring a collection-based monitor](#configuring-a-collection-based-monitor)
+    * [Uploading a data file](#uploading-a-data-file)
     * [Scheduling monitors](#scheduling-monitors)
     * [Adding regions](#adding-regions)
     * [Using static IPs](#using-static-ips)
@@ -71,6 +72,20 @@ See the following sections for other configuration options you can select for yo
 ![Create monitor page](https://assets.postman.com/postman-docs/create-a-monitor-tab-1-v9.jpg)
 
 > Postman maintains limits on various team and user actions, including monitor creation. For more information, see [Monitor activity limits](/docs/monitoring-your-api/monitor-usage/#monitor-activity-limits).
+
+### Uploading a data file
+
+You can upload a data file to pass Postman sets of values to use during a monitor run. Postman will substitute the values for [variables](/docs/sending-requests/variables/) in requests or scripts in the monitored collection. By uploading a data file, you can run your tests with multiple sets of values within a single monitor run.
+
+Data files are limited to 1 MB in size and can be in CSV or JSON format. Use the following structure for your data files:
+
+* **CSV** - The first row of the file must contain the variable names, one variable per column. Each additional row is considered a data row, with values for each variable. Make sure all rows have the same number of columns as the first row. Postman will iterate through the data rows, running the monitored collection once for each data row in the file.
+
+    > The line endings of the CSV file must be in UNIX format.
+
+* **JSON** - The file must be formatted as an array of key-value pairs. The key corresponds to a variable name, and the value will be used for that variable when running the monitored collection.
+
+To upload a data file, use the **Select File** button to locate and open your CSV or JSON file. Postman will use the data file when running your monitor.
 
 ### Scheduling monitors
 
