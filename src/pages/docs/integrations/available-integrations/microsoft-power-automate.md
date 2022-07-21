@@ -21,7 +21,7 @@ You can configure Microsoft Power Automate with Postman to monitor run results, 
 * [Configuring Microsoft Power Automate integration](#configuring-microsoft-power-automate-integration)
 * [Add a team activity feed to Microsoft Power Automate](#add-a-team-activity-feed-to-microsoft-power-automate)
 * [Back up your Postman Collections in Microsoft Power Automate](#back-up-your-postman-collections-in-microsoft-power-automate)
-* [See collection activity feed in Microsoft Power Automate](#see-collection-activity-feed-in-microsoft-power-automate)
+* [See collection activity feed in Microsoft Power Automate](#see-the-collection-activity-feed-in-microsoft-power-automate)
 * [Send Monitor run results in Microsoft Power Automate](#send-monitor-run-results-in-microsoft-power-automate)
 * [Get the Microsoft Power Automate webhook URL](#get-the-microsoft-power-automate-webhook-url)
 * [Example monitor run results](#example-monitor-run-results)
