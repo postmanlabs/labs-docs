@@ -36,7 +36,7 @@ To create a new workspace:
 1. Enter a **Name** and optional **Summary** for your workspace.
 1. Choose the workspace's visibility:
     * A **Personal** workspace is visible only to you.
-    * A **Private** workspace is visible to you and to any team members you invite to join it.
+    * A **Private** workspace is only visible to you and to any team members you invite to it ([Professional and Enterprise plans only](https://www.postman.com/pricing)).
     * A **Team** workspace is visible to everyone on your team.
     * A **Public** workspace is visible to all Postman users.
 1. Select **Create Workspace**.
