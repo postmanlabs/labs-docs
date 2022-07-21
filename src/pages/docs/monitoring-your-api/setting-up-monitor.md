@@ -32,7 +32,9 @@ warning: false
 
 ---
 
-Create a new collection-based monitor to continuously check your API's health, run test suites, or validate critical workflows. When creating a monitor, you select a collection with the requests you want to run and set a schedule for how often Postman runs the collection. Other configuration options enable you to tailor the monitor to your specific API development workflow.
+Create a new collection-based monitor to continuously check your API's health, run test suites, or validate critical workflows. When creating a monitor, you select a collection with the requests you want to run and set a schedule for how often Postman runs the collection.
+
+Other configuration options enable you to tailor the monitor to your specific API development workflow. You can also upload a data file with sets of values to use as variable inputs when running the monitor.
 
 ## Contents
 
