@@ -1,5 +1,5 @@
 ---
-title: 'Creating API Definitions'
+title: 'Editing an API definition'
 updated: 2022-07-31
 contextual_links:
   - type: section

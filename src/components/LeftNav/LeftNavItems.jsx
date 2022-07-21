@@ -431,7 +431,7 @@ export const leftNavItems = [
         ],
       },
       {
-        name: 'Creating an API Definition',
+        name: 'Editing an API definition',
         url: '/docs/designing-and-developing-your-api/defining-an-api/',
       },
       {
