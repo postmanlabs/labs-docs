@@ -61,7 +61,7 @@ Other configuration options enable you to tailor the monitor to your specific AP
 Postman offers several ways to create a new collection-based monitor:
 
 * **Create a monitor from scratch** - Select **Monitors** in the sidebar, and then select **+**. You will select a collection to run when configuring the new monitor.
-* **Create a monitor from a collection** - Select **Collections** in the sidebar, then select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to a collection > **Monitor collection**. The new monitor is automatically configured to run the selected collection.
+* **Create a monitor from a collection** - Select **Collections** in the sidebar, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to a collection, and select **Monitor collection**. The new monitor is automatically configured to run the selected collection.
 * **Create a monitor from an API** - Open an API version from **APIs** in the sidebar and select the **Monitoring** tab. Select **+ Add Monitor**, and then select **Create new monitor**. You can choose to use an existing collection, create a new collection, or generate a collection from your schema.
 
 > You can also create a monitor using the Postman API. To learn how, see the [Postman API documentation](https://documenter.getpostman.com/view/12959542/UV5XjJV8#419dd5ae-5fb8-476b-b070-c05accc3aaba).
@@ -112,7 +112,7 @@ When configuring a monitor, you can choose to receive email notifications for mo
 
 > Once the number of consecutive failures exceeds the defined limit, Postman will stop sending failure notifications. The default limit is 3 consecutive failures.
 
-You will receive daily and weekly summaries of your active monitors by email. If you want to opt out of daily or weekly summaries, select your avatar in the upper-right of Postman and select **Notification Preferences**.
+You will receive daily and weekly summaries of your active monitors by email. If you want to opt out of daily or weekly summaries, select the notifications icon <img alt="Notifications icon" src="https://assets.postman.com/postman-docs/icon-notification-bell-v9.jpg#icon" width="18px"> in the Postman header and select **Manage Preferences**.
 
 [![monitor summary](https://assets.postman.com/postman-docs/monitor-summary-email.jpg)](https://assets.postman.com/postman-docs/monitor-summary-email.jpg)
 
@@ -130,7 +130,7 @@ You can choose to **Set request timeout** if you'd like to make sure all of your
 
 ### Adding delays between requests
 
-Enabling the **Set delay between requests** will insert a delay between all requests in your collection. To configure the delay for individual requests, you can add a delay in your [pre-request or test scripts](/docs/writing-scripts/intro-to-scripts/) using `setTimeout()`.
+Enabling **Set delay between requests** will insert a delay between all requests in your collection. To configure the delay for individual requests, you can add a delay in your [pre-request or test scripts](/docs/writing-scripts/intro-to-scripts/) using `setTimeout()`.
 
 > For Postman Free plans, the delay between requests can't exceed 10 minutes (600000 ms). For Postman Basic, Professional, and Enterprise plans, the delay between requests can't exceed 15 minutes (900000 ms). Note that these values are the same as the maximum runtime for a monitor.
 
@@ -146,14 +146,14 @@ The **Enable SSL validation** option is selected by default. You can turn off SS
 
 To work with a monitor, select **Monitors** in the sidebar and then select a monitor to view its dashboard. From here you can take the following actions:
 
-* **Run a monitor** - A monitor runs automatically at set intervals, determined by the run schedule you select when configuring the monitor. To run a monitor manually at any time, select **Run** at the upper right.
-* **Refresh the dashboard** - To make sure you're viewing the latest monitor results, select **Refresh** at the upper right.
-* **Pause a monitor** - While paused, the monitor no longer makes calls to the specified URL. To pause a monitor, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> at the upper right and select **Pause**. To resume the monitor, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> again and select **Resume**.
-* **Edit a monitor** - Edit an existing monitor to update the name, collection, or any other configuration options. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> at the upper right and select **Edit**. Change any configuration options, and then select **Update Monitor**.
+* **Run a monitor** - A monitor runs automatically at set intervals, determined by the run schedule you select when configuring the monitor. To run a monitor manually at any time, select <img alt="Runner icon" src="https://assets.postman.com/postman-docs/icon-runner-v9.jpg#icon" width="16px"> **Run**.
+* **Refresh the dashboard** - To make sure you're viewing the latest monitor results, select <img alt="Refresh icon" src="https://assets.postman.com/postman-docs/icon-refresh-v9-5.jpg#icon" width="14px"> **Refresh**.
+* **Pause a monitor** - While paused, the monitor no longer makes calls to the specified URL. To pause a monitor, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> and select **Pause**. To resume the monitor, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> again and select **Resume**.
+* **Edit a monitor** - Edit an existing monitor to update the name, collection, or any other configuration options. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> and select **Edit**. Change any configuration options, and then select **Update Monitor**.
 
     > You can rename a monitor without editing it. Select **Monitors** in the sidebar, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to a monitor, and then select **Rename**.
 
-* **Delete a monitor** - Delete a monitor if it's no longer needed. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> at the upper right and select **Delete**.
+* **Delete a monitor** - Delete a monitor if it's no longer needed. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> and select **Delete**.
 
 ## Next steps
 
