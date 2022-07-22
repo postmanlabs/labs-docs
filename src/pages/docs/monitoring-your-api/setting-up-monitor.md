@@ -86,7 +86,7 @@ Data files are limited to 1 MB in size and can be in CSV or JSON format. Use the
 
 * **JSON** - The file must be formatted as an array of key-value pairs. The key corresponds to a variable name, and the value will be used for that variable when running the monitored collection.
 
-To upload a data file, use the **Select File** button to locate and open your CSV or JSON file. Postman will use the data file when running your monitor.
+To upload a data file, select **Select File** to locate and open your CSV or JSON file. Postman will use the data file when running your monitor.
 
 > **How do I use data variables in requests and scripts?** In requests (URLs, parameters, headers, authorization, and body), use double curly braces around your variable name, for example: `{{variable}}`. In pre-request scripts and test scripts, use `pm.iterationData` to access and manipulate variables. Learn more about [using variables](/docs/sending-requests/variables/#using-variables) and [using pm.iterationData methods](/docs/writing-scripts/script-references/postman-sandbox-api-reference/#using-data-variables-in-scripts).
 
