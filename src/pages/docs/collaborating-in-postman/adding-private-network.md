@@ -25,6 +25,11 @@ contextual_links:
   - type: link
     name: "Introducing the API Network Manager Role and Approval Process"
     url: "https://blog.postman.com/introducing-private-api-network-manager-role-and-approval-process/"
+  - type: subtitle
+    name: "Case Studies"
+  - type: link
+    name: "ChargeHub"
+    url: "https://www.postman.com/case-studies/chargehub/"
   - type: section
     name: "Next Steps"
   - type: link

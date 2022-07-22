@@ -29,6 +29,11 @@ contextual_links:
     name: "How to Test JSON Properties in Postman"
     url: "https://blog.postman.com/how-to-test-json-properties-in-postman/"
   - type: subtitle
+    name: "Case Studies"
+  - type: link
+    name: "iQmetrix"
+    url: "https://www.postman.com/case-studies/iqmetrix/"
+  - type: subtitle
     name: "Public Workspaces"
   - type: link
     name: "Test examples in Postman"

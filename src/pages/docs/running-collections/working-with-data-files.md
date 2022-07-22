@@ -21,6 +21,11 @@ contextual_links:
   - type: link
     name: "Looping through a Data File in the Postman Collection Runner"
     url: "https://blog.postman.com/looping-through-a-data-file-in-the-postman-collection-runner/"
+  - type: subtitle
+    name: "Case Studies"
+  - type: link
+    name: "Reputation"
+    url: "https://www.postman.com/case-studies/reputation/"
 
 warning: false
 

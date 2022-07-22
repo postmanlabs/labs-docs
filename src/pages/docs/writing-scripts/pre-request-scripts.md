@@ -30,6 +30,14 @@ contextual_links:
   - type: link
     name: "When and How to Use JSON Serialization in Postman"
     url: "https://blog.postman.com/when-and-how-to-use-json-serialization-in-postman/"
+  - type: subtitle
+    name: "Case Studies"
+  - type: link
+    name: "Twitter"
+    url:  "https://www.postman.com/case-studies/twitter/"
+  - type: link
+    name: "Toast"
+    url:  "https://www.postman.com/case-studies/toast/"
   - type: section
     name: "Next Steps"
   - type: link

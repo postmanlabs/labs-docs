@@ -30,6 +30,11 @@ contextual_links:
   - type: link
     name: "Introducing Postman Mock Call Logs"
     url:  "https://blog.postman.com/introducing-postman-mock-call-logs/"
+  - type: subtitle
+    name: "Case Studies"
+  - type: link
+    name: "Momentive"
+    url: "https://www.postman.com/case-studies/momentive/"
   - type: section
     name: "Next Steps"
   - type: link
