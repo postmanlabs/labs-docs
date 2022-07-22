@@ -21,7 +21,7 @@ contextual_links:
 
 Each time you add a new integration, you need to authenticate with the third-party app or service you want to connect to Postman. _Installed apps_ streamline this process by enabling all members of a team to use the same stored authorization details when adding an integration.
 
-Anyone on your team can add and manage installed apps. When you authenticate with a third-party service, you can choose to have Postman securely store the authorization details as an installed app. Any team member can add a new integration using the installed app, without needing to know or enter the authorization details.
+When you authenticate with a third-party service, you can choose to have Postman securely store the authorization details as an installed app. Any team member can add a new integration using the installed app, without needing to know or enter the authorization details.
 
 ## Contents
 
@@ -33,7 +33,7 @@ Anyone on your team can add and manage installed apps. When you authenticate wit
 
 ## Supported integrations
 
-Team members can add installed apps for the following Postman integrations:
+You can add installed apps for the following Postman integrations:
 
 * [Slack](/docs/integrations/available-integrations/slack/) - Post monitoring results
 
@@ -76,7 +76,7 @@ The integration is added, and the new installed app appears on the Installed App
 
 You can view all installed apps in [Team Settings](https://go.postman.co/settings/team/general).  In Postman, select **Team** > **Team Settings**, and then select **Installed apps**. You can view the app name, what it's connected to, and who set up the connection.
 
-To delete an installed app, select <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> **Delete Account** next to the installed app.
+To delete an installed app, select <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> **Delete Account** next to the installed app. You must be a [Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) to delete an installed app.
 
 > **Use caution when deleting an installed app.** If you delete an installed app, any integrations created using the installed app will stop working. You must [re-authenticate the affected integrations](#re-authenticating-an-integration) for them to continue working.
 

@@ -46,7 +46,7 @@ Select __Add Integration__ to configure your integration. Enter the required inf
 
 ## Installed apps
 
-Adding an integration requires you to authenticate with the third-party app or service you are connecting to Postman. For supported integrations, Team Admins can store the authorization details in an _installed app_. Team members can then use the installed app to add a new integration, instead of authenticating with their own credentials.
+Adding an integration requires you to authenticate with the third-party app or service you are connecting to Postman. For supported integrations, you can store the authorization details in an _installed app_. Anyone on your team can then use the installed app to add a new integration, instead of authenticating with their own credentials.
 
 Learn more about [adding and using installed apps in integrations](/docs/integrations/installed-apps/).
 
