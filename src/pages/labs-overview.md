@@ -1,5 +1,5 @@
 ---
-title: "Introduction to Labs"
+title: "Welcome to Labs!"
 order: 1
 page_id: "introduction-to-labs"
 warning: false
@@ -37,7 +37,7 @@ contextual_links:
 
 ---
 
-Welcome to Postman Labs! Labs' focus is on building and testing new technology. We have multiple initiatives we're currently working on, and documentation related to each initiative will be here. What excites us is the ability to truly be on the cutting edge of technology, and in some cases, ahead of it.
+Labs' focus is to test and build new technologies. We're currently working on multiple initiatives, and documentation related to each initiative will be here. What excites us is the ability to truly be on the cutting edge of technology, and in some cases, ahead of it.
 
 ## Flows
 
