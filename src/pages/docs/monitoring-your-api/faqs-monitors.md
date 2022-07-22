@@ -50,7 +50,7 @@ There is no specific limit to the amount of data that can be sent or received pe
 
 ### Can I upload files or attach data files?
 
-You can't attach files to requests, like you can in the request builder, but you can upload data as a raw request body. Also, you can't attach data files, like you can in the collection runner, but you can access files using APIs such as Google Docs, Google Sheets, and Dropbox.
+Yes, you can upload a data file with sets of values to use as variable inputs when running the monitor. Data files are limited to 1 MB in size and can be in CSV or JSON format. Learn more about [uploading a data file](/docs/monitoring-your-api/setting-up-monitor/#uploading-a-data-file).
 
 ### Are static IP addresses dedicated to individual customers or shared?
 
