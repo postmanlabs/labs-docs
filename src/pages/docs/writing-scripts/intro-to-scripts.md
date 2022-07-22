@@ -40,8 +40,11 @@ contextual_links:
   - type: subtitle
     name: "Case Studies"
   - type: link
-    name: "Giant Machines"
-    url: "https://www.postman.com/case-studies/giant-machines/"
+    name: "Extend"
+    url: "https://www.postman.com/case-studies/extend/"
+  - type: link
+    name: "Paylocity"
+    url: "https://www.postman.com/case-studies/paylocity/"
   - type: subtitle
     name: "Public Workspaces"
   - type: link

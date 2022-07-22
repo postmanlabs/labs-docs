@@ -33,11 +33,11 @@ contextual_links:
   - type: subtitle
     name: "Case Studies"
   - type: link
-    name: "Cisco DevNet"
-    url: "https://www.postman.com/case-studies/cisco-devnet/"
+    name: "SEI Novus"
+    url: "https://www.postman.com/case-studies/sei-novus/"
   - type: link
-    name: "Imgur"
-    url: "https://www.postman.com/case-studies/imgur/"
+    name: "Code for Baltimore"
+    url: "https://www.postman.com/case-studies/code-for-baltimore/"
   - type: section
     name: "Next Steps"
   - type: link
