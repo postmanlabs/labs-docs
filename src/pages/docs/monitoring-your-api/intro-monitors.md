@@ -33,8 +33,11 @@ contextual_links:
   - type: subtitle
     name: "Case Studies"
   - type: link
-    name: "Monetary"
-    url: "https://www.postman.com/case-studies/monetary/"
+    name: "Hathway"
+    url: "https://www.postman.com/case-studies/hathway/"
+  - type: link
+    name: "Momentive"
+    url: "https://www.postman.com/case-studies/momentive/"
   - type: subtitle
     name: "Public Workspaces"
   - type: link

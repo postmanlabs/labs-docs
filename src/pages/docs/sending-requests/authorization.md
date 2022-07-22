@@ -16,11 +16,6 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
-    name: "Case Studies"
-  - type: link
-    name: "Intuit"
-    url: "https://www.postman.com/case-studies/intuit/"
-  - type: subtitle
     name: "Videos"
   - type: link
     name: "Intro to Postman | Authorize a Request"
@@ -28,6 +23,11 @@ contextual_links:
   - type: link
     name: "Inheriting Auth Details | Postman Level Up"
     url: "https://www.youtube.com/watch?v=WFiYsfSkyXE&list=PLM-7VG-sgbtC5tNXxd28cmePSa9BYwqeU&index=2"
+  - type: subtitle
+    name: "Case Studies"
+  - type: link
+    name: "Intuit"
+    url: "https://www.postman.com/case-studies/intuit/"
   - type: subtitle
     name: "Next Steps"
   - type: link
