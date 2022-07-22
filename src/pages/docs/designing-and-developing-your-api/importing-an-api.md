@@ -1,6 +1,6 @@
 ---
 title: 'Importing an API'
-updated: 2022-05-16
+updated: 2022-07-31
 search_keyword: "import, aws, api gateway"
 contextual_links:
   - type: section
@@ -18,7 +18,7 @@ contextual_links:
 
 ---
 
-You can import an existing API schema into your API. API schemas can be imported from a local file or directory, a URL, raw text, a code repository, or an API gateway.
+You can import an existing API definition into your API. API definitions can be imported from a local file or directory, a URL, raw text, a code repository, or an API gateway.
 
 ## Contents
 
