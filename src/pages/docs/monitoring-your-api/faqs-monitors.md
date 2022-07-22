@@ -1,7 +1,7 @@
 ---
 title: "Monitoring FAQs"
 page_id: "faqs_monitors"
-updated: 2022-07-05
+updated: 2022-07-22
 search_keyword: "console.log, console.warn"
 warning: false
 ---
