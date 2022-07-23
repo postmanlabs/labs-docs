@@ -20,11 +20,9 @@ contextual_links:
   - type: link
     name: "How to Integrate with Slack Notifications | Postman"
     url: "https://youtu.be/v6eDhXWDJKE"
-  - type: subtitle
+  - type: dynamic_blog
     name: "Blog Posts"
-  - type: link
-    name: "Enhanced Postman Slack Notifications for Easier Collaboration"
-    url: "https://blog.postman.com/enhanced-postman-slack-notifications-for-easier-collaboration/"
+    blog_tag: "slack"
   - type: subtitle
     name: "Case Studies"
   - type: link
