@@ -48,6 +48,23 @@ When importing into a team workspace, you can also choose to add the APIs to the
 
 [![Import several APIs](https://assets.postman.com/postman-docs/import-export-publish-to-private-api-network-22.jpg)](https://assets.postman.com/postman-docs/import-export-publish-to-private-api-network-22.jpg)
 
+## Importing multi-file API definitions
+
+<!-- TODO - OTHER NOTES
+import flow is different - shifts to a tab instead of a popup
+shows files in the folder
+you don't select, it just gets everything
+
+this creates one version - if you wanted another, you'd create new version and carry over elements
+
+github/repo import - largely the same, except where you land
+
+ignores non-api stuff in repo - only pulls in api, collection jsons
+
+this is only import flow and the landing screen bit changes, not a brand new
+
+-->
+
 ## Importing API schemas from GitHub
 
 > You must sign in to a [Postman account](/docs/getting-started/postman-account/#signing-up-for-a-postman-account) to use this feature.

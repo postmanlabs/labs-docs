@@ -68,7 +68,7 @@ Multi-file API definitions consist of the following components:
 
 * API Definition - the entire definition of the API, combining all files within it.
 * Files - One or more files that specify the API definition.
-* Root file - The top-level file of an API definition. This file contains references to other files in the API definition. There can be only one root file. When you create a new API definition, the first file created is the root file. When importing an API, Postman will determine the root file based on the references across the imported files.
+* Root file - The top-level file that hosts the operations defined by an API. This file contains references to other files in the API definition. There can be only one root file. When you create a new API definition, the first file created is the root file. When importing an API, Postman will determine the root file based on the references across the imported files.
 * Folders - you can create folders within an API definition to organize files. (You can also add folders within folders.)
 
 With multi-file API definitions, when you select **Definition** under the API version, the top level of files and folders are shown. Select a folder to expand or collapse it, or select a file to open it for editing in the workbench.
@@ -84,25 +84,6 @@ There are the following limitations to multi-file API definitions:
 * When converting an existing API definition to multi-file, existing comments and releases won’t be carried over.
 * Schema-sync integration isn't be supported.
 * A multi-file API definition can’t be managed using the Postman API.
-
-<!-- TODO - OTHER NOTES
-import flow is different - shifts to a tab instead of a popup
-shows files in the folder
-you don't select, it just gets everything
-
-this creates one version - if you wanted another, you'd create new version and carry over elements
-
-github/repo import - largely the same, except where you land
-
-ignores non-api stuff in repo - only pulls in api, collection jsons
-
-the migration flow might change
-
-If you add a yaml, it creates a blank yaml
-
-this is only import flow and the landing screen bit changes, not a brand new
-
--->
 
 ## Importing an API definition
 
