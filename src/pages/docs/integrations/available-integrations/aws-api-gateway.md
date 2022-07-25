@@ -40,6 +40,8 @@ You can upload your API schemas directly to AWS API Gateway from Postman with th
 
 ## Uploading API schemas to AWS API Gateway
 
+> **This version of the AWS API Gateway integration for Postman has been deprecated.** You can no longer create new integrations using this version, and existing integrations created with this version will no longer be fully functional. Instead, use the new AWS API Gateway integration to [view your AWS API Gateway deployments](/docs/designing-and-developing-your-api/deploying-an-api/) in the Postman API Builder. You can also [import an API](/docs/designing-and-developing-your-api/importing-an-api/) from AWS API Gateway.
+
 You can directly upload your API schemas from Postman to AWS API Gateway. Once the integration is configured, any new changes to your schema in Postman will also appear in your AWS API Gateway.
 
 ### Configuring an AWS API Gateway integration
