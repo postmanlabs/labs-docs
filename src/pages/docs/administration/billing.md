@@ -144,6 +144,9 @@ To use direct debit as your payment method:
 
 After account verification, Postman will send you a confirmation email. It can take up to four days to withdraw funds from your bank account using direct debit.
 
+> * **Direct debit payment failures** - In the event of a direct debit payment failure, Postman will email you with information about how to fix the issue. The billing dashboard will also contain this information.
+> * **Direct debit disputes** - If you believe there has been an error with your direct debit payment, contact [Postman support](https://www.postman.com/support/) to resolve the issue. If you dispute the payment through your bank, Stripe removes your bank account's verified status and you won't be able to use the account for Postman payments until you [verify it](#setting-up-direct-debit-payments) again.
+
 #### Verifying your bank account manually
 
 You can choose to verify your bank account manually instead of using the automatic process documented in [Setting up direct debit payments](#setting-up-direct-debit-payments). This manual process may take up to two days.
@@ -162,11 +165,6 @@ In one to two business days, Stripe will make a small test deposit into your ban
 > If you don't verify your account within ten days, Postman will delete your bank account information. If you want to add a direct debit payment method later, you will need to re-enter your bank account information.
 
 After your bank account is verified, Postman will send you a confirmation email. It can take up to four days to withdraw funds from your bank account using direct debit.
-
-#### Troubleshooting direct debit payments
-
-* **Direct debit payment failures** - In the event of a direct debit payment failure, Postman will email you with information about how to fix the issue. The billing dashboard will also contain this information.
-* **Direct debit disputes** - If you believe there has been an error with your direct debit payment, contact [Postman support](https://www.postman.com/support/) to resolve the issue. If you dispute the payment through your bank, Stripe removes your bank account's verified status and you won't be able to use the account for Postman payments until you [verify it](#setting-up-direct-debit-payments) again.
 
 ### Using the Pay Now option
 
