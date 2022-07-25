@@ -80,13 +80,13 @@ See the following sections for other configuration options you can select for yo
 
 You can upload a data file to pass Postman sets of values to use during a monitor run. Postman will substitute the values for [variables](/docs/sending-requests/variables/) in requests or scripts in the monitored collection. By uploading a data file, you can run your tests with multiple sets of values within a single monitor run.
 
-Data files are limited to 1 MB in size and can be in CSV or JSON format. Use the following structure for your data files:
+Data files can be in CSV or JSON format and must use the following structure:
 
 * **CSV** - The first row of the file must contain the variable names, one variable per column. Each additional row is considered a data row, with values for each variable. Make sure all rows have the same number of columns and use a UNIX format line ending. Postman will iterate through the data rows, running the monitored collection once for each data row in the file.
 
-* **JSON** - The file must be formatted as an array of key-value pairs. The key corresponds to a variable name, and the value will be used for that variable when running the monitored collection.
+* **JSON** - The file must be formatted as an array of objects containing the key-value pairs you want to use as variables. For each pair, the key corresponds to a variable name, and the value will be used for that variable when running the monitored collection.
 
-To upload a data file, select **Select File** to locate and open your CSV or JSON file. Postman will use the data file when running your monitor.
+To upload a data file, select **Select File** to locate and open your CSV or JSON file. Postman will use the data file when running your monitor. Data files are limited to 1 MB in size and a maximum of 50 data rows (CSV) or 50 objects (JSON).
 
 > **How do I use data variables in requests and scripts?** In requests (URLs, parameters, headers, authorization, and body), use double curly braces around your variable name, for example: `{{variable}}`. In pre-request scripts and test scripts, use `pm.iterationData` to access and manipulate variables. Learn more about [using variables](/docs/sending-requests/variables/#using-variables) and [using pm.iterationData methods](/docs/writing-scripts/script-references/postman-sandbox-api-reference/#using-data-variables-in-scripts).
 
