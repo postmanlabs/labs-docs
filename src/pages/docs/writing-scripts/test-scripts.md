@@ -26,14 +26,9 @@ contextual_links:
   - type: link
     name: "Testing with Snippets | Postman Level Up"
     url: "https://youtu.be/QGNJ0wh5Ry0"
-  - type: subtitle
+  - type: dynamic_blog
     name: "Blog Posts"
-  - type: link
-    name: "The Reimagined API-First Workflow, Part 2: for Testers"
-    url:  "https://blog.postman.com/the-reimagined-api-first-workflow-for-testers/"
-  - type: link
-    name: "A Space Camp Miniseries for Basic to Advanced API Testing Skills"
-    url: "https://blog.postman.com/space-camp-miniseries-basic-advanced-api-testing/"
+    blog_tag: "testing"
   - type: subtitle
     name: "Case Studies"
   - type: link
