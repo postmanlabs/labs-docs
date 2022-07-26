@@ -56,4 +56,4 @@ You can test your SAML configuration by creating a test user in Azure AD and ass
 
 Now that you have set up SSO with Azure AD, you might also be interested in setting up SCIM provisioning:
 
-* To learn more, visit [Configuring SCIM with Azure AD](/docs/administration/scim-provisioning/configuring-scim-with-azure-ad/). (_Enterprise teams only._)
+* To learn more, visit [Configuring SCIM with Azure AD](/docs/administration/scim-provisioning/configuring-scim-with-azure-ad/). (_[Enterprise teams](https://www.postman.com/pricing/) only._)

@@ -55,4 +55,4 @@ Open your OneLogin admin console in a new tab to continue configuring your Postm
 
 Now that you have set up SSO with OneLogin, you might also be interested in setting up SCIM provisioning:
 
-* To learn more, visit [Configuring SCIM with OneLogin](/docs/administration/scim-provisioning/configuring-scim-with-onelogin/). (_Enterprise teams only._)
+* To learn more, visit [Configuring SCIM with OneLogin](/docs/administration/scim-provisioning/configuring-scim-with-onelogin/). (_[Enterprise teams](https://www.postman.com/pricing/) only._)

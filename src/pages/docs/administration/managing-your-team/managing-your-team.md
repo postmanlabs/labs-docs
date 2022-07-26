@@ -132,4 +132,4 @@ If your team isn't on the latest version of Postman, you can update your team to
 
 Now that you have set up your Postman team, you can use reports to get insights into your team's API development, including tests, documentation, and monitoring coverage.
 
-* To learn more about Postman's reporting feature, visit [Using reports](/docs/reports/reports-overview/). (_Enterprise plans only._)
+* To learn more about Postman's reporting feature, visit [Using reports](/docs/reports/reports-overview/). (_[Enterprise teams](https://www.postman.com/pricing/) only._)
