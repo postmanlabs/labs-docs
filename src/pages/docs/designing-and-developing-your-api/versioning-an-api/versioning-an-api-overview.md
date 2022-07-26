@@ -96,6 +96,6 @@ An API status is a text tag which you can change to indicate the current stage o
 
 A status doesn't affect visibility, permissions, or availability of an API. Instead, it's a way to tell others on your team the current state of the API. Statuses aren't automatically changed by any actions or state change in your files. You can change the status at any time.
 
-Statuses are displayed in the upper left of the API tab. To set a new status, choose one from the dropdown list.
+By default, a new API's status is "In Planning". To set a new status, choose one from the dropdown list on the API's overview page.
 
 Learn more about [setting an API status](/docs/designing-and-developing-your-api/versioning-an-api/api-statuses/).

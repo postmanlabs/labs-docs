@@ -36,8 +36,6 @@ You can upload your API schemas directly to AWS API Gateway from Postman with th
 
 * [Tracking API deployments with AWS API Gateway](#tracking-api-deployments-with-aws-api-gateway)
 
-* [Next steps](#next-steps)
-
 ## Uploading API schemas to AWS API Gateway
 
 You can directly upload your API schemas from Postman to AWS API Gateway. Once the integration is configured, any new changes to your schema in Postman will also appear in your AWS API Gateway.
@@ -82,7 +80,3 @@ This integration will be triggered whenever the configured Postman schema is upd
 ## Tracking API deployments with AWS API Gateway
 
 You can also use the **Deployments** tab to track your AWS API Gateway deployments. See [Deploying an API](/docs/designing-and-developing-your-api/deploying-an-api/) for details.
-
-## Next steps
-
-Learn more about other Postman integrations, including [custom webhooks](/docs/integrations/webhooks/) and [Slack](/docs/integrations/available-integrations/slack/).

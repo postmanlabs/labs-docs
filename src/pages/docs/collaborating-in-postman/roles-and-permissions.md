@@ -237,4 +237,6 @@ Update monitor roles | &#x2714; |
 
 ## Next steps
 
-Learn more about [Managing your team](/docs/administration/managing-your-team/managing-your-team/), including managing team roles and inviting collaborators to join your team.
+Now that you understand the roles available to team members, you can manage your team's level of access and control more effectively.
+
+* To learn more about team management, including managing team roles and inviting collaborators to join your team, visit [Managing your team](/docs/administration/managing-your-team/managing-your-team/).

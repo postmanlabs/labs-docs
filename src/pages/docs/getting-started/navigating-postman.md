@@ -44,13 +44,13 @@ Postman has a variety of tools, views, and controls to help you manage your API 
 
 * [Header](#header)
 * [Sidebar](#sidebar)
-* [Main work area](#main-work-area)
+* [Workbench](#workbench)
     * [Tabs](#tabs)
     * [Right sidebar](#right-sidebar)
     * [Environment selector and environment quick look](#environment-selector-and-environment-quick-look)
 * [Footer](#footer)
 
-<img alt="Postman app" src="https://assets.postman.com/postman-docs/navigating-postman-app-overview-v9.19.jpg" width="1200px"/>
+<img alt="Postman app" src="https://assets.postman.com/postman-docs/navigating-postman-app-overview-v9.24.jpg" width="1200px"/>
 
 ## Header
 
@@ -139,9 +139,9 @@ To save request responses in your history, select the more actions icon <img alt
 
 > You can't use the __Save Responses__ option with requests from [Collection Runner](/docs/running-collections/intro-to-collection-runs/).
 
-## Main work area
+## Workbench
 
-Whether you're working with a collection, an API, or another element type, the center section of Postman is where you do the majority of your work. [Tabs](#tabs) enable you to organize your work, while the [right sidebar](#right-sidebar) gives you access to element-specific tools like documentation. The [environment selector and environment quick look](#environment-selector-and-environment-quick-look) enable you to manage variables.
+Whether you're working with a collection, an API, or another element type, the Postman workbench is where you do the majority of your work. [Tabs](#tabs) enable you to organize your work, while the [right sidebar](#right-sidebar) gives you access to element-specific tools like documentation. The [environment selector and environment quick look](#environment-selector-and-environment-quick-look) enable you to manage variables.
 
 ### Tabs
 
@@ -151,7 +151,7 @@ Tabs allow you to organize and work between requests.
 
 #### Opening a new tab
 
-To open a new tab, select __+__ in the middle of the screen.
+To open a new tab, select __+__ in the workbench.
 
 > You can also select **⌘+T** or **Ctrl+T** to open a new tab.
 
@@ -191,7 +191,7 @@ You can also manage your open tabs or open a new tab by right-clicking on an exi
 
 > **Closing unsaved tabs.** You can set whether Postman asks whether you want to save when you close a tab that has changes. Select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> to open **Settings**. Under **Requests**, select **Always ask when closing unsaved tabs** to turn this option on or off.
 
-If you have a lot of tabs open, they might overflow the area of the tab bar. To go to tabs that are outside the viewable area, select the arrows to the left or right of the tab bar.
+If you have a lot of tabs open, they might overflow the area of the tab bar. To go to tabs that are outside the viewable area, select the arrows next to the tab bar.
 
 <img alt="Scroll to view tabs" src="https://assets.postman.com/postman-docs/tab-navigation-scroll.jpg" width="800px"/>
 

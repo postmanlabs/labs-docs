@@ -91,6 +91,6 @@ If you are following along with the number conversion SOAP API example, you need
 
 ![SOAP response data](https://assets.postman.com/postman-docs/soap-response-data-v9.jpg)
 
-## Next steps
+## SOAP request examples
 
-Check out the [Public SOAP APIs](https://www.postman.com/cs-demo/workspace/public-soap-apis/overview) collection for sample requests you can send in Postman.
+For sample requests you can send in Postman, check out the [Public SOAP APIs](https://www.postman.com/cs-demo/workspace/public-soap-apis/overview) collection.

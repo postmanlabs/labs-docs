@@ -55,7 +55,3 @@ When a user comes across the Run in Postman button <img alt="Run in Postman butt
 Run in postman buttons are only available for documentation and embed flows.
 
 > **Security check!** Don't leak sensitive data like access keys in your collection or environment. Read more about [securely using API keys in Postman](https://blog.postman.com/how-to-use-api-keys/).
-
-## Next steps
-
-Create a [Run in Postman button](/docs/publishing-your-api/run-in-postman/creating-run-button/).

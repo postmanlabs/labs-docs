@@ -289,7 +289,7 @@ The report feature makes it easier to govern your internal API landscape through
 
 > **[Reporting is available on Postman Enterprise plans.](https://www.postman.com/pricing/)**
 
-Go to your API and select **Reports** to the right of the API.
+From the API's overview page, select **Reports**.
 
 <img alt="API landscape governance" src="https://assets.postman.com/postman-docs/api-reports-selected-v9.1.jpg" width="400px"/>
 
