@@ -21,6 +21,9 @@ contextual_links:
   - type: subtitle
     name: "Blog Posts"
   - type: link
+    name: "Next-Level Automation Tricks for Newman"
+    url: "https://blog.postman.com/automation-tricks-for-newman/"
+  - type: link
     name: "Newman: run and test your collections from the command line"
     url: "https://blog.postman.com/newman-run-and-test-your-collections-from-the-command-line/"
   - type: subtitle
