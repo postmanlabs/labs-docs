@@ -45,7 +45,6 @@ One way to [share your Postman collections](/docs/collaborating-in-postman/shari
 ## Contents
 
 * [Creating a Run in Postman button](#creating-a-run-in-postman-button)
-* [Next steps](#next-steps)
 
 ## Creating a Run in Postman button
 

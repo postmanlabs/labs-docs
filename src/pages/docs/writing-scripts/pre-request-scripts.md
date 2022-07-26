@@ -99,6 +99,6 @@ To add pre-request scripts to a collection or folder:
 
 ## Next steps
 
-Now that you have learned the basics of writing pre-request test scripts, you may be interested in extending your scripts.
+Now that you have learned the basics of writing pre-request test scripts, you may be interested in extending your scripts:
 
 * To learn more about how to use the `pm` object, visit the [Postman JavaScript reference](/docs/writing-scripts/script-references/postman-sandbox-api-reference/).
