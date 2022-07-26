@@ -34,9 +34,9 @@ During the buying process you will be prompted to supply the following details:
 * Your account email and role (Admin if you're going to be using the paid Postman plan yourself, or Billing if you are only making the purchase).
     * If you choose the Billing role you can also enter an admin email address, which is where your account activation email will be sent so that the administrator can get your Postman plan set up.
 
-Once your plan configuration is in place you can enter your payment details. __Your card will automatically be charged monthly or annually, depending on your billing cycle. Additional charges for your account, such as monitoring overages, will also be made to this card.__
+Once your plan configuration is in place you can enter your payment details. __Your saved payment method will automatically be charged monthly or annually, depending on your billing cycle. Additional charges for your account, such as monitoring overages, will also be made to your saved payment method.__
 
-* For security reasons, Postman doesn't store any credit card data. The data is stored only by payment provider Stripe, who are certified to PCI Service Provider Level 1.
+* For security reasons, Postman doesn't store any payment method data. The data is stored only by payment provider Stripe, who are certified to PCI Service Provider Level 1.
 * Review the details of your plan to ensure they're correct before you submit your payment details.
 * After payment, you'll receive a confirmation with the transaction ID. Use this ID for any communication with Postman.
 * The designated admin will receive an activation link where you can begin inviting your team members. Billing-only users will receive a link to join the team in the Billing role.
