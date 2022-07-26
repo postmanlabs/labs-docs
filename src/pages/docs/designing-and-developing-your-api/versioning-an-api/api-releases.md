@@ -65,7 +65,7 @@ To create a release:
 1. Enter the release name and summary. The summary can be up to 140 characters.
 1. Optionally, enter release notes for the release. Use the editor to enter a long-form description of the release, which can include headings, lists, tables, images, code blocks and other formatting.
 1. If you are using an external Git repo, select a tag in **Git release**.
-1. Select **Make this version available for consumers** if you want the new version to be visible. Otherwise, it's only visible to users with Editor access to the API.
-1. Select **Create Release**. You will be taken to a new page for the release.
+1. Select **Consumers can view this release** if you want the new version to be visible to your API's consumers. Otherwise, it's only visible to users with Editor access to the API.
+1. Select **Create Release**.
 
 You can edit a release name in the Changelog. Next to the release, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px">, then select **Edit**. You can also edit a release's summary and release notes from the release page, either in the edit dialog, or by selecting the description or release notes in the overview.
