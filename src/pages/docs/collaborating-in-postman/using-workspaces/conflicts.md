@@ -43,3 +43,9 @@ You can choose to preserve your local changes, or update your local version to m
 After you choose which version to use, select __Resolve Conflicts__ to update both your local version and the synced version of the projects you're working on. You need to make selections for every collection affected and select __Resolve Conflicts__ to update each one. If you choose your local changes, other devices and team members will get these changes when Postman syncs for them.
 
 If you update the conflict selections and want to revert to the original selections, which will be to use the server changes by default, select __Reset__.
+
+## Next steps
+
+Using Postman's version control features to manage changes within a team can help you avoid conflicts:
+
+* To learn more about version features including forking and creating pull requests, visit [Using version control](/docs/collaborating-in-postman/version-control-for-collections/).
