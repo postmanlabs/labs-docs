@@ -22,14 +22,9 @@ contextual_links:
   - type: link
     name: "API Publishers Series, Part 2: Increase Adoption of your Public API"
     url: "https://youtu.be/52pXP3X4a_8"
-  - type: subtitle
+  - type: dynamic_blog
     name: "Blog Posts"
-  - type: link
-    name: "Introducing The Good Documentation Checklist"
-    url: "https://blog.postman.com/postman-good-documentation-checklist/"
-  - type: link
-    name: "Design Your Own Style Guide with This Public Workspace Linter"
-    url: "https://blog.postman.com/design-your-style-guide-public-workspace-linter/"
+    blog_tag: "documentation"
   - type: subtitle
     name: "Case Studies"
   - type: link
