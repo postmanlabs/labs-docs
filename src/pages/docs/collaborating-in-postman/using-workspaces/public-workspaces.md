@@ -29,8 +29,8 @@ contextual_links:
     name: "Increasing Adoption of an API with a Public Workspace"
     url: "https://blog.postman.com/increasing-adoption-of-an-api-with-a-public-workspace/"
   - type: link
-    name: "Public Workspaces: Why We Created Them and What You Can Do with Them"
-    url: "https://blog.postman.com/public-workspaces-why-we-created-them-what-you-can-do/"
+    name: "Build a More Successful API Program with Postman’s Public API Network"
+    url: "https://blog.postman.com/build-successful-api-program-with-postmans-public-api-network/"
   - type: link
     name: "Supercharge Your API Development with Utility Collections"
     url: "https://blog.postman.com/supercharge-api-development-with-utility-collections/"
