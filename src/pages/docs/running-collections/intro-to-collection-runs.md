@@ -26,6 +26,14 @@ contextual_links:
   - type: dynamic_blog
     name: "Blog Posts"
     blog_tag: "collections"
+  - type: subtitle
+    name: "Case Studies"
+  - type: link
+    name: "Lightspeed"
+    url: "https://www.postman.com/case-studies/lightspeed-commerce/"
+  - type: link
+    name: "iQmetrix"
+    url: "https://www.postman.com/case-studies/iqmetrix/"
 warning: false
 
 ---

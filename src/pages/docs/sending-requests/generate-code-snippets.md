@@ -1,7 +1,7 @@
 ---
 title: "Generating client code"
 order: 29.1
-updated: 2021-02-08
+updated: 2022-07-18
 page_id: "generate_code_snippets"
 contextual_links:
   - type: section
@@ -27,8 +27,8 @@ contextual_links:
     name: "Intuit"
     url: "https://www.postman.com/case-studies/intuit/"
   - type: link
-    name: "BigCommerce"
-    url: "https://www.postman.com/case-studies/bigcommerce/"
+    name: "ShipEngine"
+    url: "https://www.postman.com/case-studies/shipengine/"
   - type: section
     name: "Next Steps"
   - type: link
@@ -42,9 +42,9 @@ warning: false
 
 ---
 
-Postman can convert an API request into a code snippet in the programming language or framework of your choosing. You can use this generated code snippet in your front-end applications.
+Postman can convert an API request into a code snippet, and you can choose the programming language or framework. You can use this generated code snippet in your front-end applications.
 
-> This guide contains information about generating code snippets from API requests. For information about generating server-side boilerplate code from an API specification, see [Generating server code](/docs/designing-and-developing-your-api/generating-server-code/).
+> This guide has information about generating code snippets from API requests. For information about generating server-side boilerplate code from an API specification, see [Generating server code](/docs/designing-and-developing-your-api/generating-server-code/).
 
 ## Contents
 
@@ -56,20 +56,20 @@ Postman can convert an API request into a code snippet in the programming langua
 
 ## Generating code snippets in Postman
 
-1. With the request you want to use for a code snippet open, select the code icon <img alt="Code icon" src="https://assets.postman.com/postman-docs/icon-code-snippet.jpg#icon" width="16px"> in the right panel.
+1. Open the request you want to use for a code snippet, then select the code icon <img alt="Code icon" src="https://assets.postman.com/postman-docs/icon-code-snippet.jpg#icon" width="16px"> in the right panel.
 
     <img src="https://assets.postman.com/postman-docs/generate-code-right-sidebar-v9.jpg" width="300px" alt="Open code snippets"/>
 
-1. Use the dropdown list to select a [language or framework](#supported-languages-and-frameworks).
+1. Select a [language or framework](#supported-languages-and-frameworks) from the dropdown list.
 1. Select the copy icon <img alt="Copy icon" src="https://assets.postman.com/postman-docs/icon-copy-v9.jpg#icon" width="15px"> to copy the code snippet to your clipboard.
 
-    ![Copy code snippet to clipboard](https://assets.postman.com/postman-docs/generate-code-copy-snippet-v9.jpg)
+    ![Copy code snippet to clipboard](https://assets.postman.com/postman-docs/code-snippet-copy-icon.jpg)
 
-1. For more configuration options, like the indentation type and count, select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> next to the dropdown list. The settings will vary based on the language or framework you chose.
+1. For more configuration options, like the indentation type and count, select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> next to the dropdown list. The settings vary based on the chosen language or framework.
 
 ## Supported languages and frameworks
 
-Postman supports the following options:
+Postman supports the following:
 
 | **Language**  | **Framework** |
 | --- | --- |
@@ -91,11 +91,14 @@ Postman supports the following options:
 | Objective-C | [NSURLSession](https://developer.apple.com/documentation/foundation/urlsession) |
 | OCaml | [Cohttp](https://github.com/mirage/ocaml-cohttp) |
 | PHP | [cURL](https://www.php.net/manual/en/ref.curl.php) |
+| PHP | [Guzzle](https://docs.guzzlephp.org/en/stable/)|
 | PHP | [Http_Request2](https://www.php.net/manual/en/reserved.variables.request.php)|
 | PHP | [pecl_http](https://mdref.m6w6.name/http) |
 | PowerShell | [RestMethod](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/invoke-restmethod?view=powershell-7) |
 | Python | [http.client](https://docs.python.org/3/library/http.client.html) (Python 3) |
-| Python | [Requests](https://docs.python-requests.org/en/master/)|
+| Python | [Requests](https://www.w3schools.com/python/module_requests.asp)|
+| R | [httr](https://cran.r-project.org/web/packages/httr/index.html) |
+| R | [RCurl](https://cran.r-project.org/web/packages/RCurl/index.html) |
 | Ruby | [NET::Http](https://docs.ruby-lang.org/en/2.0.0/Net/HTTP.html) |
 | Shell | [Httpie](https://github.com/httpie/httpie) |
 | Shell | [wget](https://www.gnu.org/software/wget/) |

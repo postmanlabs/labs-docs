@@ -1,7 +1,7 @@
 ---
 title: "Collection SDK"
 order: 148
-updated: 2020-07-06
+updated: 2022-07-20
 page_id: "collection_sdk"
 contextual_links:
   - type: section
@@ -19,15 +19,20 @@ warning: false
 
 ---
 
-The Collection SDK is a Node.js utility that allows you to work with Postman [Collections](/docs/sending-requests/intro-to-collections/) and build them dynamically into your API project pipeline.
+The Collection SDK is a Node.js module that allows you to work with Postman [Collections](/docs/sending-requests/intro-to-collections/) and build them dynamically into your API project pipeline.
 
 With the Collection SDK, you can create and manipulate collections, exporting them in a format that you can then integrate with other utilities, including Postman and [Newman](/docs/running-collections/using-newman-cli/command-line-integration-with-newman/), Postman's command-line collection runner.
+
+## Contents
+
+* [Accessing the Collection SDK](#accessing-the-collection-sdk)
+* [Next steps](#next-steps)
 
 ## Accessing the Collection SDK
 
 The Collection SDK is an open-source project. [Visit the repo](https://github.com/postmanlabs/postman-collection) for more detail on using the module in your own projects. The [SDK documentation](http://www.postmanlabs.com/postman-collection/) provides an overview of the available objects and methods within the SDK, as well as an intro to the related [concepts](http://www.postmanlabs.com/postman-collection/tutorial-concepts.html).
 
-You can install the SDK from [NPM](https://www.npmjs.com/package/postman-collection) or direct from the repo. The following excerpt demonstrates using the SDK to read a file and parse it into a collection object in JavaScript:
+You can install the SDK from [npm](https://www.npmjs.com/package/postman-collection) or directly from the repo. The following excerpt demonstrates using the SDK to read a file and parse it into a collection object in JavaScript:
 
 ```js
 var fs = require('fs'),

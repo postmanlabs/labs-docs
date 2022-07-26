@@ -31,6 +31,14 @@ contextual_links:
   - type: link
     name: "Securely Using API Keys in Postman"
     url: "https://blog.postman.com/how-to-use-api-keys/"
+  - type: subtitle
+    name: "Case Studies"
+  - type: link
+    name: "Hathway"
+    url: "https://www.postman.com/case-studies/hathway/"
+  - type: link
+    name: "VideoAmp"
+    url: "https://www.postman.com/case-studies/videoamp/"
   - type: section
     name: "Next Steps"
   - type: link

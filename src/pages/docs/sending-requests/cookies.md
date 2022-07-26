@@ -63,7 +63,7 @@ Postman supports the following attributes:
 * **cookieName**, **cookieValue** - The name of the cookie and the value stored in it.
 * **Domain** - The domain Postman will send the cookie to.
 * **Path** - The URL path that the cookie is restricted to. If the path is `/`, the cookie will be sent to all requests in the specified domain.
-* **HttpOnly** - If present, the cookie won't be accessible to the client-side scripts run on the page (for example, with `document.cookie` in JavaScript). The cookie will only be added to the cookie header in requests that are made. This field does not have an effect on Postman's behavior.
+* **HttpOnly** - If present, the cookie won't be accessible to the client-side scripts run on the page (for example, with `document.cookie` in JavaScript). The cookie will only be added to the cookie header in requests that are made. This field doesn't have an effect on Postman's behavior.
 * **Secure** - If present, the cookie is only sent when the URL begins with `https://` and won't be sent over an insecure connection.
 * **Expires** - The time after which the cookie will expire and not be sent by Postman.
 
@@ -167,9 +167,9 @@ To clear all cookies for a URL, use the `.clear()` function. This function takes
 cookieJar.clear(URL, callback (error));
 ```
 
-### Properties not yet supported
+### Properties not supported
 
-The following properties that are not supported by Postman:
+The following properties aren't supported by Postman:
 
 * `SameSite`
 * Cookie Prefixes:

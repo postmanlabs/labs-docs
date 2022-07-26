@@ -20,6 +20,14 @@ contextual_links:
     name: "Group Requests in Collections | Postman Level Up"
     url: "https://youtu.be/ghHX4FGvVyA"
   - type: subtitle
+    name: "Case Studies"
+  - type: link
+    name: "Twitter"
+    url:  "https://www.postman.com/case-studies/twitter/"
+  - type: link
+    name: "Reputation"
+    url:  "https://www.postman.com/case-studies/reputation/"
+  - type: subtitle
     name: "Public Workspaces"
   - type: link
     name: "30 days of Postman for developers"

@@ -188,7 +188,7 @@ To recover a deleted collection:
 
 1. In the Trash page, select the restore icon <img alt="Restore icon" src="https://assets.postman.com/postman-docs/icon-restore-v9.jpg" width="14px"> next to the collection you want to recover.
 
-> Deleted collections that are larger than 30 MB cannot be recovered.
+> Deleted collections that are larger than 30 MB can't be recovered.
 
 Recovery options depend on your Postman plan:
 
@@ -224,7 +224,7 @@ To view notifications about what has changed in a collection you watch:
 
 1. You will also receive an email with the information regarding who made the change, what the change was, and when it was made. Select **View changelog** in the email to access the full changelog in Postman.
 
-> If you create a collection and modify it from the same Postman account, you will not receive notifications for any changes you make to that collection.
+> If you create a collection and modify it from the same Postman account, you won't receive notifications for any changes you make to that collection.
 
 ### Forking a collection
 

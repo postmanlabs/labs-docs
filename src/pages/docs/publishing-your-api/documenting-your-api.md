@@ -22,22 +22,17 @@ contextual_links:
   - type: link
     name: "API Publishers Series, Part 2: Increase Adoption of your Public API"
     url: "https://youtu.be/52pXP3X4a_8"
-  - type: subtitle
+  - type: dynamic_blog
     name: "Blog Posts"
-  - type: link
-    name: "Introducing The Good Documentation Checklist"
-    url: "https://blog.postman.com/postman-good-documentation-checklist/"
-  - type: link
-    name: "Design Your Own Style Guide with This Public Workspace Linter"
-    url: "https://blog.postman.com/design-your-style-guide-public-workspace-linter/"
+    blog_tag: "documentation"
   - type: subtitle
     name: "Case Studies"
   - type: link
-    name: "Cisco DevNet"
-    url: "https://www.postman.com/case-studies/cisco-devnet/"
+    name: "SEI Novus"
+    url: "https://www.postman.com/case-studies/sei-novus/"
   - type: link
-    name: "Imgur"
-    url: "https://www.postman.com/case-studies/imgur/"
+    name: "Code for Baltimore"
+    url: "https://www.postman.com/case-studies/code-for-baltimore/"
   - type: section
     name: "Next Steps"
   - type: link

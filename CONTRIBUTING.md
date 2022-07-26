@@ -2,7 +2,7 @@
 
 When contributing to this repository, please first discuss the change you wish to make at [Issues](https://github.com/postmanlabs/postman-docs/issues).
 
-Please note we have a [code of conduct](https://www.postman.com/code-of-conduct), please follow it in all your interactions with the project.
+We have a [code of conduct](https://www.postman.com/code-of-conduct) that you're expected to follow in all your interactions with the project.
 
 ## Development process
 
@@ -250,7 +250,7 @@ To use Vale, you must install it. Then you can run Vale to check your work for s
 1. Download the third-party styles. Run this in the root of your `postman-docs` repo:
 
     ```
-    scripts/pm-get-vale-styles
+    build/pm-get-vale-styles
     ```
 
 1. Run `vale ls-config` to make sure everything works. It will output your config as a JSON, or an error.

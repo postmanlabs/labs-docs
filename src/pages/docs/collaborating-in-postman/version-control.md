@@ -25,6 +25,11 @@ contextual_links:
   - type: link
     name: "Streamline the API Development Lifecycle with Postman Version Control"
     url: "https://blog.postman.com/streamline-api-development-lifecycle-with-postman-version-control/"
+  - type: subtitle
+    name: "Case Studies"
+  - type: link
+    name: "Youi"
+    url: "https://www.postman.com/case-studies/youi/"
   - type: section
     name: "Next Steps"
   - type: link

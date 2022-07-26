@@ -30,6 +30,8 @@ Datadog is a monitoring service for cloud-scale applications. It combines data f
 
 Setting up a Datadog integration requires you to get an API key from Datadog and configure your Postman Monitors. After you set up the integration, you can view real-time alerts based on the results of your monitors.
 
+> **You can also view Datadog application performance management (APM) metrics in the Postman API Builder.** Viewing APM metrics is a separate integration from sending monitor results to Datadog. Learn more about [viewing Datadog APM metrics](/docs/designing-and-developing-your-api/observing-an-api/datadog-apm/).
+
 ## Retrieving your Datadog API key
 
 1. Sign in to [Datadog](https://app.datadoghq.com/). Open your Organization Settings page and select [API Keys](https://app.datadoghq.com/organization-settings/api-keys).
