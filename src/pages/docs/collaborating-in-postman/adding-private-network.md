@@ -218,25 +218,12 @@ The APIs that you add to the Private API Network reflect the latest state of the
 
 ### Publishing specific API versions
 
-You can publish specific versions of your APIs to the Private API Network.
+All API versions are automatically visible to API Editors and Viewers within a Postman team. However, if you've developed APIs on an earlier version of Postman, you may find API versions that weren't made visible to API Viewers. To make an existing API version visible to everyone in your team:
 
-To create a new version of an existing API from the [API Builder](/docs/designing-and-developing-your-api/the-api-workflow/):
-
-1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> on the right and select **Create version**.
-1. Select **Consumers can view this version** to show or hide this version in the Public API Network.
-
-    <img alt="Visibility API versions" src="https://assets.postman.com/postman-docs/new-version-visibility-api-v9.jpg"/>
-
-API versions must be visible to consumers before you can add them to the Private API Network. To edit the visibility an existing API version:
-
-1. Select the API version in the **Overview** tab.
-1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px">, then select **Edit** in the upper right.
-1. Select **Consumers can view this version** to show or hide this version in the Public API Network.
-1. Select **Save Changes** when you're done.
-
-    <img alt="Edit API version" src="https://assets.postman.com/postman-docs/edit-version-api-v9.1.jpg" width="350px"/>
-
-To learn more about the visibility of API versions, see [Versioning APIs](/docs/designing-and-developing-your-api/versioning-an-api/).
+1. Select the API version in the sidebar.
+1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px">, then select **Edit**.
+1. Select **Consumers can view this version**.
+1. Select **Save Changes**.
 
 ### Importing APIs from GitHub
 
