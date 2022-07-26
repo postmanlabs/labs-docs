@@ -48,4 +48,3 @@ After you have selected and purchased a paid plan, you can manage your billing, 
 * You can manage your account in your [billing dashboard](http://go.postman.co/billing). For example, you could [change or upgrade](/docs/administration/billing/#team-and-plan-changes) your plan.
 * To learn how to customize many parts of your team's Postman experience, including setting up SSO and SCIM, visit [Managing your team](/docs/administration/managing-your-team/managing-your-team/).
 * To learn more about collaborating with your team, visit [Working with your team](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/).
-*
