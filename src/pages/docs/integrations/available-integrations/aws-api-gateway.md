@@ -38,7 +38,7 @@ contextual_links:
 
 ## Uploading API schemas to AWS API Gateway
 
-> **The legacy Deploy HTTP APIs to AWS API Gateway (v2) integration has been deprecated.** You can no longer create new integrations using this legacy integration. Existing legacy integrations will continue to function, but you should start using the new AWS API Gateway integration as soon as possible. You can use the new integration to [view your AWS API Gateway deployments](/docs/designing-and-developing-your-api/deploying-an-api/deploying-an-api-aws/) in the Postman API Builder. You can also [import an API](/docs/designing-and-developing-your-api/importing-an-api/) from AWS API Gateway.
+> **The legacy Deploy HTTP APIs to AWS API Gateway (v2) integration has been deprecated.** You can no longer create new integrations using this legacy integration. Existing legacy integrations will continue to work, but you should start using the new AWS API Gateway integration as soon as possible. You can use the new integration to [view your AWS API Gateway deployments](/docs/designing-and-developing-your-api/deploying-an-api/deploying-an-api-aws/) in the Postman API Builder. You can also [import an API](/docs/designing-and-developing-your-api/importing-an-api/) from AWS API Gateway.
 
 You can upload your API schemas directly to AWS API Gateway from Postman with this integration. This integration uses version 2 of the AWS API and only supports HTTP APIs with OpenAPI 3.0 schemas. Once the integration is configured, any new changes to your schema in Postman will also appear in your AWS API Gateway.
 
