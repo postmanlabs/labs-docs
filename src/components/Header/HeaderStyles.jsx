@@ -2,9 +2,10 @@ import styled from 'styled-components';
 
 export const HeaderWrapper = styled.div`
 .navbar-v6 {
-  background-color: ${(props) => props.theme.colors.grey_00} !important;;
+  background-color: ${(props) => props.theme.colors.grey_00} !important;
   margin: 0;
   font-family: ${(props) => props.theme.fonts.Inter};
+  font-weight: 400;
 
   &.nav-primary {
     background-color: ${(props) => props.theme.colors.grey_00};
@@ -55,6 +56,7 @@ export const HeaderWrapper = styled.div`
   .navbar-nav .nav-link,
   a {
     font-family: ${(props) => props.theme.fonts.Inter};
+    font-weight: 400;
   }
 
   /* Ul */
@@ -84,8 +86,9 @@ export const HeaderWrapper = styled.div`
   }
   /* Second Nav - Learning Center Link */
   & #learning-center-home-link {
-    color: ${(props) => props.theme.colors.grey_90};
+    color: ${(props) => props.theme.colors.grey_90} !important;
     font-family: ${(props) => props.theme.fonts.Inter};
+    font-weight: 600;
     font-size: 16px;
     letter-spacing: -0.25px;
     line-height: 1.4;
@@ -94,7 +97,7 @@ export const HeaderWrapper = styled.div`
 
     &:hover {
       border: none;
-      color: ${(props) => props.theme.colors.blue_70};
+      color: ${(props) => props.theme.colors.blue_70} !important;
     }
   }
   /* Navbar A tag elements */
@@ -275,8 +278,6 @@ export const HeaderWrapper = styled.div`
       }
     }
   }
-
- 
  
   /* Learning Center Link */
   & .property-context-menu {
@@ -340,20 +341,8 @@ export const HeaderWrapper = styled.div`
       -ms-transition: all 0.2s ease;
       transition: all 0.2s ease;
     }
-  }
-
-  
-  /* Searchbox */
-  
+  }  
 }
-
-
-
-
-
-
-// the result styling is in _search.scss
-
 
 /* Used for Nav Bars (Do not remove) */
 @media screen and (max-width: 992px) {
@@ -400,11 +389,12 @@ export const HeaderWrapper = styled.div`
 
 export const DropdownStyles = styled.div`
      /* Individual Dropdown Item */
+     padding: 16px;
     .dropdown-item {
-    padding: 8px 16px;
-    font-family: ${(props) => props.theme.fonts.Inter};
-    font-weight: 400;
-    font-size: 14px;
+      padding: 8px 16px;
+      font-family: ${(props) => props.theme.fonts.Inter};
+      font-weight: 400;
+      font-size: 14px;
 
     &:focus,
     &:active {
@@ -432,7 +422,6 @@ export const DropdownStyles = styled.div`
       background-color: ${(props) => props.theme.colors.grey_00};
       border-radius: ${(props) => props.theme.borderRadius.small};
       border: 1px solid ${(props) => props.theme.colors.grey_20};
-      padding: 16px;
     }
   }
    .dropdown-col-menu {
@@ -459,8 +448,7 @@ export const DropdownStyles = styled.div`
   }
 `
 
-export const SignButton = styled.div`
-    
+export const CTAButton = styled.div`  
     // Orange Button (Sign Up / Launch Postman)
 a.button__sign-up {
   align-items: center;

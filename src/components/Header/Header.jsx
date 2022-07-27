@@ -1,5 +1,5 @@
 import React from 'react';
-import {HeaderWrapper, DropdownStyles, SignButton, AlgoliaWidgets} from './HeaderStyles.jsx' ;
+import {HeaderWrapper, DropdownStyles, CTAButton, AlgoliaWidgets} from './HeaderStyles.jsx' ;
 import { trackCustomEvent } from 'gatsby-plugin-google-analytics';
 import Dropdown from './Dropdown';
 import $ from 'jquery';
@@ -19,7 +19,7 @@ const LoginCheck = (props) => {
 
   if (!hidden) {
     return (
-      <SignButton>
+      <CTAButton>
         <a
           href={`https://go.postman${beta}.co/build`}
           className={
@@ -59,7 +59,7 @@ const LoginCheck = (props) => {
         >
           Launch Postman
         </a>
-      </SignButton>
+      </CTAButton>
     );
   }
   return <></>;
