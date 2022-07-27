@@ -163,13 +163,13 @@ To change the role of people in a workspace, or to remove someone from a workspa
 
 Watch a workspace to receive an email or in-app notification when a team member modifies anything in the workspace, such as changing the workspace visibility or updating an element in the workspace.
 
-To start watching a workspace, select **Watch** on the upper right of the workspace's **Overview** tab. Select the count next to **Watch** to show how many people are watching the workspace.
+To start watching a workspace, select <img alt="Watch icon" src="https://assets.postman.com/postman-docs/eye.jpg#icon" width="16px"> **Watch** in the workspace's **Overview** tab. Select the count next to **Watch** to access the list of people who are watching the workspace.
 
 <img alt="Watching a workspace" src="https://assets.postman.com/postman-docs/watching-a-workspace-v9.jpg"/>
 
 To access your notifications, select the notification icon <img alt="Bell icon" src="https://assets.postman.com/postman-docs/icon-notification-bell-v9.jpg#icon" width="18px"> in the Postman header. The notification list shows details about changes to workspaces you are watching. You will also receive an email with information about the change, who made it, and when.
 
-To stop watching a workspace, select **Unwatch** on the upper right of the workspace's **Overview** tab.
+To stop watching a workspace, select **Unwatch** in the workspace's **Overview** tab.
 
 > By default, you are a watcher for any workspace you create. You won't receive notifications for changes you make to a workspace you're watching.
 
@@ -216,4 +216,6 @@ To delete a workspace:
 
 ## Next steps
 
-View recent [activity](/docs/collaborating-in-postman/using-workspaces/changelog-and-restoring-collections/) within a workspace to stay up to date with developments on your projects.
+Now that you understand the fundamentals of managing and using workspaces, you might want to track activities in a workspace:
+
+* To learn about the workspace changelog and how to use it to track recent activity, visit [Viewing workspace activity](/docs/collaborating-in-postman/using-workspaces/changelog-and-restoring-collections/).

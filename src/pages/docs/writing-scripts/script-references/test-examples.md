@@ -29,6 +29,11 @@ contextual_links:
     name: "How to Test JSON Properties in Postman"
     url: "https://blog.postman.com/how-to-test-json-properties-in-postman/"
   - type: subtitle
+    name: "Case Studies"
+  - type: link
+    name: "iQmetrix"
+    url: "https://www.postman.com/case-studies/iqmetrix/"
+  - type: subtitle
     name: "Public Workspaces"
   - type: link
     name: "Test examples in Postman"
@@ -73,6 +78,7 @@ Use the **Tests** tab in your requests, folders, and collections to write tests 
 * [Validating response structure](#validating-response-structure)
 * [Sending an asynchronous request](#sending-an-asynchronous-request)
 * [Previous style of writing Postman tests (deprecated)](#previous-style-of-writing-postman-tests-deprecated)
+* [Next steps](#next-steps)
 
 ## Getting started with tests
 
@@ -613,4 +619,7 @@ tests["Successful POST request"] = responseCode.code === 201 || responseCode.cod
 
 ## Next steps
 
-Automate your test runs using the [collection runner](/docs/running-collections/intro-to-collection-runs/).
+Now that you have seen test script examples for various scenarios, you may be interested in extending your own tests:
+
+* To learn how to use dynamic variables in your test scripts, visit [Dynamic variables](/docs/writing-scripts/script-references/variables-list/).
+* To learn more about how to use the `pm` object, visit the [Postman JavaScript reference](/docs/writing-scripts/script-references/postman-sandbox-api-reference/).

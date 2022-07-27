@@ -41,6 +41,7 @@ Signing up for a Postman account is optional, and you can use the Postman deskto
 * [Managing your active sessions](#managing-your-active-sessions)
 * [Upgrading your account](#upgrading-your-account)
 * [Account security policies and standards](#account-security-policies-and-standards)
+* [Next steps](#next-steps)
 
 ## Signing up for a Postman account
 
@@ -169,4 +170,6 @@ For more details on Postman's security policies and standards, visit the Postman
 
 ## Next steps
 
-Now that you have created a Postman account, you're ready to start working! When you're logged into Postman, you're connected to the Postman servers and your work is continuously backed up. Learn more about how Postman syncs your data in the [Syncing your work](/docs/getting-started/syncing/) section.
+Now that you have created a Postman account, you're ready to start working! When you are logged into Postman, you are connected to the Postman servers and your work is continuously backed up.
+
+* To learn more about how Postman syncs your data, visit [Syncing your work](/docs/getting-started/syncing/).

@@ -22,6 +22,11 @@ contextual_links:
   - type: link
     name: "Postman Interceptor: The Next Generation View Source for The API Economy"
     url:  "https://blog.postman.com/postman-interceptor-the-next-generation-view-source-for-the-api-economy/"
+  - type: subtitle
+    name: "Case Studies"
+  - type: link
+    name: "VideoAmp"
+    url: "https://www.postman.com/case-studies/videoamp/"
 
 warning: false
 
@@ -151,7 +156,7 @@ Your installation may include the following options:
 
 ### Troubleshooting tips
 
-You can find the current status of your Interceptor integration by looking at the upper right of the **Capture requests** window:
+You can find the current status of your Interceptor integration by selecting **Capture requests** from the footer, then selecting **Via Interceptor**. Possible statuses are:
 
 * **Connected** - You can proceed with using Interceptor.
 * **Not connected** - Ensure Interceptor is [installed correctly](#installing-interceptor).
@@ -231,7 +236,7 @@ The communication between Interceptor and Postman is automatically encrypted. Yo
 ### Adding a custom encryption key in Postman
 
 1. In Postman, select <img alt="Capture icon" src="https://assets.postman.com/postman-docs/icon-capture.jpg#icon" width="15px"> **Capture requests** in the Postman footer. Then in the **Capture requests** window, select the **Via Interceptor** tab.
-1. To the right of the green **Connected** status, select the lock icon <img alt="Lock icon" src="https://assets.postman.com/postman-docs/icon-lock.jpg#icon" width="11px">.
+1. Select the lock icon <img alt="Lock icon" src="https://assets.postman.com/postman-docs/icon-lock.jpg#icon" width="11px"> next to the green **Connected** status.
 
     <img src="https://assets.postman.com/postman-docs/interceptor-session-key.jpg" width="350px" alt="Set encryption in app"/>
 

@@ -25,6 +25,11 @@ contextual_links:
   - type: link
     name: "Streamline the API Development Lifecycle with Postman Version Control"
     url: "https://blog.postman.com/streamline-api-development-lifecycle-with-postman-version-control/"
+  - type: subtitle
+    name: "Case Studies"
+  - type: link
+    name: "Youi"
+    url: "https://www.postman.com/case-studies/youi/"
   - type: section
     name: "Next Steps"
   - type: link
@@ -346,7 +351,3 @@ To resolve a merge conflict:
 <img src="https://assets.postman.com/postman-docs/conflicts-pull-changes-v2.jpg" alt="Pull Changes" width="450px"/>
 
 After you resolve the conflicts, select **Pull changes** to [pull the updates](#pulling-updates).
-
-## Next steps
-
-You can also use [version control on APIs](/docs/designing-and-developing-your-api/versioning-an-api/) you design and build in Postman.

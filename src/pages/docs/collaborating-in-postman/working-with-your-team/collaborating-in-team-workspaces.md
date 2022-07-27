@@ -51,7 +51,7 @@ You can move collections, APIs, and environments to shared workspaces to collabo
 
 In the sidebar, select the element you want to share, then select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> > **Move**.
 
-Use the search bar to find the workspace to which you want to move the element, or filter by workspace visibility by selecting the icon to the right of the search bar.
+Use the search bar to find the workspace to which you want to move the element, or filter by workspace visibility by selecting the filter icon <img alt="Filter icon" src="https://assets.postman.com/postman-docs/icon-filter.jpg#icon" width="16px">.
 
 You can share elements to personal, private, team, and public workspaces that you have access to.
 
@@ -86,6 +86,7 @@ You can also watch specific elements within a team workspace to receive a notifi
 
 ## Next steps
 
-To learn more about managing team workspaces, see [Using and managing workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/).
+Now that you know how to collaborate in team workspaces, you might want more information about managing and working with workspaces:
 
-To move forward with collaboration, see [Discussing your work](/docs/collaborating-in-postman/working-with-your-team/discussing-your-work/).
+* To learn more about managing team workspaces, visit [Using and managing workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/).
+* To use comments to aid in collaboration, visit [Discussing your work](/docs/collaborating-in-postman/working-with-your-team/discussing-your-work/).

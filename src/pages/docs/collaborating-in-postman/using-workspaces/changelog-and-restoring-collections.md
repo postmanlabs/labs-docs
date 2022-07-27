@@ -64,7 +64,7 @@ To access the activity feed in Postman, select the **Overview** tab. Go to the *
 
 Filtering the activity feed allows you to display the relevant information directly instead of having to scroll through the feed. You can choose to filter by [user](#filtering-by-user) or by [element](#filtering-by-element) (Workspace, API, Collection, Environment).
 
-To reset your search, select **Clear filters** at the right of the activity feed. You can also refresh the results by selecting **Refresh** at the right of the activity feed.
+Select **Reset filters** to remove the filters from the activity feed.
 
 #### Filtering by user
 

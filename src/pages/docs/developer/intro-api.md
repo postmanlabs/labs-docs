@@ -51,7 +51,7 @@ warning: false
 
 The [Postman API](https://www.postman.com/postman/workspace/postman-public-workspace/documentation/12959542-c8142d51-e97c-46b6-bd77-52bb66712c9a) endpoints enable you to integrate Postman within your development toolchain.
 
-You can add new collections, update existing collections, update environments, and add and run monitors directly through the API. This enables you to programmatically access data stored in your Postman account.
+You can add new collections, update existing collections, update environments, and add and run monitors directly through the API. This enables you to programmatically access data stored in your Postman account. You can also [combine the Postman API with Newman](/docs/running-collections/using-newman-cli/continuous-integration/) to integrate Postman with your CI/CD workflow.
 
 You can get started with the API by forking its collection. For more details, see the [Postman API documentation](https://www.postman.com/postman/workspace/postman-public-workspace/documentation/12959542-c8142d51-e97c-46b6-bd77-52bb66712c9a).
 
@@ -108,7 +108,3 @@ Access to the API using a key is limited to **300 requests per minute**. Every A
 ### Free API calls with your Postman account
 
 Your Postman account gives you a limited number of free Postman API calls per month. You can check your usage limits through the [Postman API](https://www.postman.com/postman/workspace/postman-public-workspace/documentation/12959542-c8142d51-e97c-46b6-bd77-52bb66712c9a) itself or the [account usage page](https://go.pstmn.io/postman-account-limits).
-
-## Next steps
-
-You can [combine the Postman API with Newman](/docs/running-collections/using-newman-cli/continuous-integration/) to integrate Postman with your CI/CD workflow.
