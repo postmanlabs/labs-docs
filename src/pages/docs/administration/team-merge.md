@@ -42,7 +42,7 @@ Team migration can occur in different ways depending on your needs and preferred
 
 * Make sure you understand [role-based access control](/docs/collaborating-in-postman/roles-and-permissions/) at a [team](/docs/collaborating-in-postman/roles-and-permissions/#team-roles), [workspace](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles), and [collection](/docs/collaborating-in-postman/roles-and-permissions/#collection-roles) level.
 * Decide what type of [export option](#migrating-your-data) is right for your company.
-* Understand [what data is and isn't exported](#migrating-your-data) in a [data-dump](/docs/getting-started/importing-and-exporting-data/#exporting-data-dumps).
+* Understand [what data is and isn't exported](/docs/administration/team-merge/#migration-faqs) in a [data-dump](/docs/getting-started/importing-and-exporting-data/#exporting-data-dumps).
 * [Read the migration FAQs](#migration-faqs).
 
 ## Migrating your data
@@ -127,19 +127,20 @@ If you're an individual Postman user and join a Postman team, your personal work
 * **Can I be on two teams at once?**
 Yes, each account can be on multiple Postman teams at a time.
 
-* **What happens to published documentation from my earlier team?**
-Your documentation links will break since the earlier team is no longer active. New documentation URLs will need to be generated when collections are [republished from your new team pages](/docs/publishing-your-api/publishing-your-docs/). If you are [publishing to a custom domain](/docs/publishing-your-api/custom-doc-domains/), unpublish and remove the domain from your earlier team in order to add it to your new team and republish.
-
-* **What happens to the earlier team once everyone leaves?**
-When the last person leaves a team it's automatically deactivated. If there is only one Admin remaining on the team, they will automatically inherit all shared and unshared Postman data and can perform the bulk export.
-
 * **Will my monitors / mocks transfer over?**
 No, you will need to [recreate any monitors](/docs/monitoring-your-api/setting-up-monitor/) and [mocks](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/) in your new team.
 
 * **What data is exported in a large JSON file data-dump?**
 All collections in your personal workspace and any workspaces that you have joined, in addition to environments, globals, and header presets, are included when you [export a data-dump](/docs/getting-started/importing-and-exporting-data/#exporting-data-dumps).
 
-* **What data doesn't get exported?** You will need to [reassign roles (workspace, collection, and environment level)](/docs/collaborating-in-postman/roles-and-permissions/), [recreate workspaces](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/#creating-a-new-workspace), [recreate monitors](/docs/monitoring-your-api/setting-up-monitor/), [recreate mocks](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/), [re-import API schemas](/docs/getting-started/importing-and-exporting-data/#importing-api-specifications), and [republish documentation from your new team pages](/docs/publishing-your-api/publishing-your-docs/).
+* **What data doesn't get exported?**
+You will need to [reassign roles (workspace, collection, and environment level)](/docs/collaborating-in-postman/roles-and-permissions/), [recreate workspaces](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/#creating-a-new-workspace), [recreate monitors](/docs/monitoring-your-api/setting-up-monitor/), [recreate mocks](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/), [re-import API schemas](/docs/getting-started/importing-and-exporting-data/#importing-api-specifications), and [republish documentation from your new team pages](/docs/publishing-your-api/publishing-your-docs/).
+
+* **What happens to published documentation from my earlier team?**
+Your documentation links will break since the earlier team is no longer active. New documentation URLs will need to be generated when collections are [republished from your new team pages](/docs/publishing-your-api/publishing-your-docs/). If you are [publishing to a custom domain](/docs/publishing-your-api/custom-doc-domains/), unpublish and remove the domain from your earlier team in order to add it to your new team and republish.
+
+* **What happens to the earlier team once everyone leaves?**
+When the last person leaves a team it's automatically deactivated. If there is only one Admin remaining on the team, they will automatically inherit all shared and unshared Postman data and can perform the bulk export.
 
 > Reach out to [Postman support](https://www.postman.com/support/) if you have any questions or run into any issues setting up Postman for your team.
 
