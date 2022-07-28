@@ -114,7 +114,3 @@ Alternatively, you can apply all changes by selecting **Select all changes**, th
 You can access the updated API element by selecting **View Updated Collection** from the confirmation screen. If you didn't apply all changes, you can also review the remaining issues by selecting **View Remaining Issues**.
 
 > If you've been using this feature, the Postman team would like to hear from you! You can provide feedback on [the community forum](https://community.postman.com/t/user-feedback-updating-api-elements/13308).
-
-## Next steps
-
-In addition to keeping your API elements in sync with a schema, you can [use reports](/docs/reports/reports-overview/) to promote understanding of how your APIs are performing.

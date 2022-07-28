@@ -16,11 +16,6 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
-    name: "Case Studies"
-  - type: link
-    name: "Intuit"
-    url: "https://www.postman.com/case-studies/intuit/"
-  - type: subtitle
     name: "Videos"
   - type: link
     name: "Intro to Postman | Authorize a Request"
@@ -28,6 +23,11 @@ contextual_links:
   - type: link
     name: "Inheriting Auth Details | Postman Level Up"
     url: "https://www.youtube.com/watch?v=WFiYsfSkyXE&list=PLM-7VG-sgbtC5tNXxd28cmePSa9BYwqeU&index=2"
+  - type: subtitle
+    name: "Case Studies"
+  - type: link
+    name: "Intuit"
+    url: "https://www.postman.com/case-studies/intuit/"
   - type: subtitle
     name: "Next Steps"
   - type: link
@@ -65,7 +65,7 @@ You can pass auth details along with any request you send in Postman. Auth data 
     * [NTLM authentication](#ntlm-authentication)
     * [Akamai EdgeGrid](#akamai-edgegrid)
 * [Syncing cookies](#syncing-cookies)
-* [Next steps](#next-steps)
+* [Troubleshooting](#troubleshooting)
 
 ## Specifying authorization details
 
@@ -382,6 +382,6 @@ For information on obtaining your credentials, see [Akamai Developer - Authorize
 
 If you have session cookies in your browser, you can sync them to Postman using the Interceptor. See [Interceptor extension](/docs/sending-requests/capturing-request-data/interceptor/) and [Cookies](/docs/sending-requests/cookies/) for more detail.
 
-## Next steps
+## Troubleshooting
 
 If you're having issues getting a request to authenticate and run successfully, review the tips in [troubleshooting API requests](/docs/sending-requests/troubleshooting-api-requests/). If you still have auth problems, check out the [authentication tag](https://community.postman.com/tags/authentication) on the Postman forum.

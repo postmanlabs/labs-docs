@@ -33,7 +33,6 @@ The [Manage public elements](https://blog.postman.com/govern-your-public-api-col
     * [Workspaces](#workspaces)
     * [Public documentation](#public-documentation)
     * [Collection JSON links](#collection-json-links)
-* [Next steps](#next-steps)
 
 ### Managing public elements
 
@@ -47,11 +46,13 @@ To access the **Manage public elements** dashboard, select **Team** in the heade
 
 In the dashboard's **Workspaces** tab, you have access to all the public workspaces created by your team. You can also view and respond to requests to make workspaces public. Along with workspace name, the request date and the requester details are displayed.
 
-To respond to the request, select **Respond** to the right of the workspace. Approve the request to convert the workspace into a [public workspace](/docs/collaborating-in-postman/using-workspaces/public-workspaces/).
+To respond to the request, hover over the relevant line, then select **Respond**. Approve the request to convert the workspace into a [public workspace](/docs/collaborating-in-postman/using-workspaces/public-workspaces/).
 
 <img alt="Convert to public workspaces" src="https://assets.postman.com/postman-docs/request-visibility-public-workspace.jpg"/>
 
-#### Public Documentation
+> To learn more about workspaces, see [Creating workspaces](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/) and [Managing workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/). For more details on how to create a public workspace, visit [Public workspaces](/docs/collaborating-in-postman/using-workspaces/public-workspaces/).
+
+#### Public documentation
 
 The dashboard's **Documentation** tab displays all the collections with published documentation. Use the search box to filter by the publisher. Along with the collection name and environment name, you can view the date the documentation was published on, who published it, and the documentation URL. Copy the **Documentation URL** and paste it in a browser of your choice, and you will have access to the documentation.
 
@@ -64,7 +65,3 @@ As the Community Manager, you will be able to view, access, or delete the collec
 If you turn off the **Allow sharing collection JSON via public link** option, no new links can be generated and existing links cannot be modified or edited. The previously created JSON links will still remain accessible.
 
 Hover over the **JSON link** corresponding to the collection and select **Copy link to JSON**. Paste the link in a browser of your choice and you will have access to the collection JSON.
-
-## Next steps
-
-To learn more about workspaces, see [Creating workspaces](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/) and [Managing workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/). For more details on how to create a public workspace, visit [Public workspaces](/docs/collaborating-in-postman/using-workspaces/public-workspaces/).

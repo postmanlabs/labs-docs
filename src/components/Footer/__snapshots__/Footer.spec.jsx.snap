@@ -35,16 +35,158 @@ exports[`Footer renders correctly 1`] = `
             <div
               className="col-6 col-md-3 offset-md-1 col-lg-3 offset-lg-2 order-1 order-md-2 mb-5"
             >
-              <nav>
+              <nav
+                aria-labelledby="product"
+              >
                 <h2
                   className="footer-col-title"
+                  id="product"
                 >
-                  Postman Galaxy
+                  Product
                 </h2>
                 <ul
                   className="column"
                 >
-                  
+                  <li
+                    className="column-row"
+                  >
+                    <a
+                      className="column-link"
+                      href="https://www.postman.com/product/what-is-postman/"
+                      id="what-is-postman"
+                      onClick={[Function]}
+                      rel={null}
+                      target={null}
+                    >
+                      What is Postman?
+                    </a>
+                  </li>
+                  <li
+                    className="column-row"
+                  >
+                    <a
+                      className="column-link"
+                      href="https://www.postman.com/product/api-repository/"
+                      id="api-repository"
+                      onClick={[Function]}
+                      rel={null}
+                      target={null}
+                    >
+                      API repository
+                    </a>
+                  </li>
+                  <li
+                    className="column-row"
+                  >
+                    <a
+                      className="column-link"
+                      href="https://www.postman.com/product/tools/"
+                      id="tools"
+                      onClick={[Function]}
+                      rel={null}
+                      target={null}
+                    >
+                      Tools
+                    </a>
+                  </li>
+                  <li
+                    className="column-row"
+                  >
+                    <a
+                      className="column-link"
+                      href="https://www.postman.com/product/intelligence/"
+                      id="intelligence"
+                      onClick={[Function]}
+                      rel={null}
+                      target={null}
+                    >
+                      Intelligence
+                    </a>
+                  </li>
+                  <li
+                    className="column-row"
+                  >
+                    <a
+                      className="column-link"
+                      href="https://www.postman.com/product/workspaces/"
+                      id="workspaces"
+                      onClick={[Function]}
+                      rel={null}
+                      target={null}
+                    >
+                      Workspaces
+                    </a>
+                  </li>
+                  <li
+                    className="column-row"
+                  >
+                    <a
+                      className="column-link"
+                      href="https://www.postman.com/product/integrations/"
+                      id="integrations"
+                      onClick={[Function]}
+                      rel={null}
+                      target={null}
+                    >
+                      Integrations
+                    </a>
+                  </li>
+                  <li
+                    className="column-row"
+                  >
+                    <a
+                      className="column-link"
+                      href="https://www.postman.com/postman-enterprise/"
+                      id="enterprise"
+                      onClick={[Function]}
+                      rel={null}
+                      target={null}
+                    >
+                      Enterprise
+                    </a>
+                  </li>
+                  <li
+                    className="column-row"
+                  >
+                    <a
+                      className="column-link"
+                      href="https://www.postman.com/pricing/"
+                      id="plans-and-pricing"
+                      onClick={[Function]}
+                      rel={null}
+                      target={null}
+                    >
+                      Plans and pricing
+                    </a>
+                  </li>
+                  <li
+                    className="column-row"
+                  >
+                    <a
+                      className="column-link"
+                      href="https://www.postman.com/downloads/"
+                      id="download-the-app"
+                      onClick={[Function]}
+                      rel={null}
+                      target={null}
+                    >
+                      Download the app
+                    </a>
+                  </li>
+                  <li
+                    className="column-row"
+                  >
+                    <a
+                      className="column-link"
+                      href="https://www.postman.com/support/"
+                      id="support-center"
+                      onClick={[Function]}
+                      rel={null}
+                      target={null}
+                    >
+                      Support Center
+                    </a>
+                  </li>
                 </ul>
               </nav>
             </div>
@@ -53,33 +195,133 @@ exports[`Footer renders correctly 1`] = `
             >
               <div>
                 <nav
+                  aria-labelledby="company"
                   className="mb-5"
                 >
                   <h2
                     className="footer-col-title"
+                    id="company"
                   >
-                    Privacy
+                    Company
                   </h2>
                   <ul
                     className="column"
                   >
-                    
+                    <li
+                      className="column-row"
+                    >
+                      <a
+                        className="column-link"
+                        href="https://www.postman.com/company/about-postman/"
+                        id="about"
+                        onClick={[Function]}
+                        rel={null}
+                        target={null}
+                      >
+                        About
+                      </a>
+                    </li>
+                    <li
+                      className="column-row"
+                    >
+                      <a
+                        className="column-link"
+                        href="https://www.postman.com/company/careers/"
+                        id="careers-and-culture"
+                        onClick={[Function]}
+                        rel={null}
+                        target={null}
+                      >
+                        Careers and culture
+                      </a>
+                    </li>
+                    <li
+                      className="column-row"
+                    >
+                      <a
+                        className="column-link"
+                        href="https://www.postman.com/company/contact-us/"
+                        id="contact-us"
+                        onClick={[Function]}
+                        rel={null}
+                        target={null}
+                      >
+                        Contact us
+                      </a>
+                    </li>
+                    <li
+                      className="column-row"
+                    >
+                      <a
+                        className="column-link"
+                        href="https://www.postman.com/company/press-media/"
+                        id="press-and-media"
+                        onClick={[Function]}
+                        rel={null}
+                        target={null}
+                      >
+                        Press and media
+                      </a>
+                    </li>
                   </ul>
                 </nav>
               </div>
               <div>
                 <nav
+                  aria-labelledby="security-and-terms"
                   className="mb-5"
                 >
                   <h2
                     className="footer-col-title"
+                    id="security-and-terms"
                   >
-                    Terms
+                    Security and Legal
                   </h2>
                   <ul
                     className="column"
                   >
-                    
+                    <li
+                      className="column-row"
+                    >
+                      <a
+                        className="column-link"
+                        href="https://www.postman.com/security/"
+                        id="security"
+                        onClick={[Function]}
+                        rel={null}
+                        target={null}
+                      >
+                        Security
+                      </a>
+                    </li>
+                    <li
+                      className="column-row"
+                    >
+                      <a
+                        className="column-link"
+                        href="https://www.postman.com/legal/privacy-policy/"
+                        id="privacy-policy"
+                        onClick={[Function]}
+                        rel={null}
+                        target={null}
+                      >
+                        Privacy policy
+                      </a>
+                    </li>
+                    <li
+                      className="column-row"
+                    >
+                      <a
+                        className="column-link"
+                        href="https://www.postman.com/legal/terms/"
+                        id="terms"
+                        onClick={[Function]}
+                        rel={null}
+                        target={null}
+                      >
+                        Terms
+                      </a>
+                    </li>
                   </ul>
                 </nav>
               </div>
@@ -98,13 +340,165 @@ exports[`Footer renders correctly 1`] = `
                   >
                     <h2
                       className="footer-col-title"
-                    >
-                      Careers
-                    </h2>
+                    />
                     <ul
                       className="column"
                     >
-                      
+                      <li
+                        className="column-row"
+                      >
+                        <a
+                          className="column-link"
+                          href="https://twitter.com/getpostman"
+                          id="twitter"
+                          onClick={[Function]}
+                          rel={null}
+                          target={null}
+                        >
+                          <div
+                            direction="row"
+                            wrap="nowrap"
+                          >
+                            <div
+                              className="d-inline-block align-self-center social-svg"
+                              dangerouslySetInnerHTML={
+                                Object {
+                                  "__html": undefined,
+                                }
+                              }
+                            />
+                            <div
+                              className="d-inline-block align-self-center"
+                            >
+                              Twitter
+                            </div>
+                          </div>
+                        </a>
+                      </li>
+                      <li
+                        className="column-row"
+                      >
+                        <a
+                          className="column-link"
+                          href="https://www.linkedin.com/company/postman-platform"
+                          id="linkedin"
+                          onClick={[Function]}
+                          rel={null}
+                          target={null}
+                        >
+                          <div
+                            direction="row"
+                            wrap="nowrap"
+                          >
+                            <div
+                              className="d-inline-block align-self-center social-svg"
+                              dangerouslySetInnerHTML={
+                                Object {
+                                  "__html": undefined,
+                                }
+                              }
+                            />
+                            <div
+                              className="d-inline-block align-self-center"
+                            >
+                              LinkedIn
+                            </div>
+                          </div>
+                        </a>
+                      </li>
+                      <li
+                        className="column-row"
+                      >
+                        <a
+                          className="column-link"
+                          href="https://github.com/postmanlabs"
+                          id="github"
+                          onClick={[Function]}
+                          rel={null}
+                          target={null}
+                        >
+                          <div
+                            direction="row"
+                            wrap="nowrap"
+                          >
+                            <div
+                              className="d-inline-block align-self-center social-svg"
+                              dangerouslySetInnerHTML={
+                                Object {
+                                  "__html": undefined,
+                                }
+                              }
+                            />
+                            <div
+                              className="d-inline-block align-self-center"
+                            >
+                              GitHub
+                            </div>
+                          </div>
+                        </a>
+                      </li>
+                      <li
+                        className="column-row"
+                      >
+                        <a
+                          className="column-link"
+                          href="https://www.youtube.com/c/Postman"
+                          id="youtube"
+                          onClick={[Function]}
+                          rel={null}
+                          target={null}
+                        >
+                          <div
+                            direction="row"
+                            wrap="nowrap"
+                          >
+                            <div
+                              className="d-inline-block align-self-center social-svg"
+                              dangerouslySetInnerHTML={
+                                Object {
+                                  "__html": undefined,
+                                }
+                              }
+                            />
+                            <div
+                              className="d-inline-block align-self-center"
+                            >
+                              YouTube
+                            </div>
+                          </div>
+                        </a>
+                      </li>
+                      <li
+                        className="column-row"
+                      >
+                        <a
+                          className="column-link"
+                          href="https://www.twitch.tv/getpostman"
+                          id="twitch"
+                          onClick={[Function]}
+                          rel={null}
+                          target={null}
+                        >
+                          <div
+                            direction="row"
+                            wrap="nowrap"
+                          >
+                            <div
+                              className="d-inline-block align-self-center social-svg"
+                              dangerouslySetInnerHTML={
+                                Object {
+                                  "__html": undefined,
+                                }
+                              }
+                            />
+                            <div
+                              className="d-inline-block align-self-center"
+                            >
+                              Twitch
+                            </div>
+                          </div>
+                        </a>
+                      </li>
                     </ul>
                   </nav>
                 </div>

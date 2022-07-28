@@ -137,13 +137,3 @@ What do things look like when a test fails? To find out, make a change in your i
     [![Travis CI error log](https://assets.postman.com/postman-docs/travis-ci-error-log.jpg)](https://assets.postman.com/postman-docs/travis-ci-error-log.jpg)
 
 1. For this example, if you want, you can correct the error in the test in Postman and export the collection again. As before, rename the JSON file, add it to the `tests` folder in your local project, then commit and push. This time your build in Travis CI will be successful.
-
-## Next Steps
-
-For more information about collection runs, see the following topics.
-
-* [Using the Collection Runner](/docs/running-collections/intro-to-collection-runs/)
-* [Importing data files](/docs/running-collections/working-with-data-files/)
-* [Building request workflows](/docs/running-collections/building-workflows/)
-* [Integrating with Jenkins](/docs/running-collections/using-newman-cli/integration-with-jenkins/)
-* [Newman with Docker](/docs/running-collections/using-newman-cli/newman-with-docker/)

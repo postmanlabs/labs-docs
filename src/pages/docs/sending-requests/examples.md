@@ -91,7 +91,7 @@ With a custom example, you can define exactly how both the [request](/docs/sendi
 
 ## Editing an example
 
-Examples are stored in a collection below their associated requests. You can edit an example any time after adding it to remove sensitive tokens, change the status code, or make any other adjustments.
+Examples are stored in a collection with their associated requests. You can edit an example at any time to remove sensitive tokens, change the status code, or make any other adjustments.
 
 1. Select **Collections** in the sidebar.
 1. Select a request, and then select an example to open it.
@@ -129,4 +129,7 @@ Examples provide additional details and clarification for your API and help your
 
 ## Next steps
 
-Use examples to [set up a mock server](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/) or include examples in your [API documentation](/docs/publishing-your-api/documenting-your-api/).
+Now that you have learned the fundamentals of creating examples in Postman, you can use them to set up a mock server and to enhance your documentation.
+
+* To learn how to use examples to set up a mock server, visit [Setting up mock servers](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/).
+* To learn how to include examples in your API documentation, visit [Documenting your API](/docs/publishing-your-api/documenting-your-api/).

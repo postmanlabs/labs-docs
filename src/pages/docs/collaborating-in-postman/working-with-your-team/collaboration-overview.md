@@ -15,11 +15,9 @@ contextual_links:
   - type: link
     name: "Postman Space Camp | Working with Your Team in Postman"
     url: "https://youtu.be/OifhKJCd_-M"
-  - type: subtitle
+  - type: dynamic_blog
     name: "Blog Posts"
-  - type: link
-    name: "Get More Out of Postman by Collaborating with Your Team"
-    url: "https://blog.postman.com/get-more-out-of-postman-by-collaborating-with-your-team/"
+    blog_tag: "collaboration"
 
 ---
 
@@ -38,10 +36,8 @@ Your team's usage limits are based on your [plan type](https://www.postman.com/p
 
 The Postman usage menu lets you review your team's limits for APIs, shared requests and history, mocks, monitors, and public documentation.
 
-* **Free users** - Next to your avatar, select the menu to the right of **Upgrade**.
-* **Paid users** - Next to your avatar, select **Team**.
-
-For more details and to view your usage period, select **Resource Usage**.
+* **Free users** - Next to your avatar, select the dropdown list next to **Upgrade** > **Resource Usage**.
+* **Paid users** - Next to your avatar, select **Team** > **Resource Usage**.
 
 <img src="https://assets.postman.com/postman-docs/team-dropdown-resource-usage-v9.2.jpg" alt="Team resource usage information" width="400px"/>
 
