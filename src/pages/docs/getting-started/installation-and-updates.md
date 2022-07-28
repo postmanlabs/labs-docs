@@ -49,7 +49,6 @@ To get the latest version of the Postman Desktop App, visit the [download page](
     * [Migrating to the native app](#migrating-to-the-native-app)
 * [Using Postman behind a firewall](#using-postman-behind-a-firewall)
 * [Troubleshooting your Postman installation](#troubleshooting-your-postman-installation)
-* [Next steps](#next-steps)
 
 ## Installing Postman on Mac
 
@@ -214,7 +213,7 @@ Postman doesn't have a fixed IP range that can be provided. If necessary, refer 
 
 ## Troubleshooting your Postman installation
 
-If you encounter any issues installing and running Postman, check out the following tips. If these don't help, refer to the installation posts on the [community forum](https://community.postman.com/tags/installation) and create a new post if your issue isn't already covered.
+If you encounter any issues installing and running Postman, check out the following tips. If these don't help, refer to the installation posts on the [community forum](https://community.postman.com/tags/installation) and create a new post if your issue isn't already covered. You can also contact [Postman support](https://www.postman.com/support).
 
 ### Update failed error
 
@@ -238,7 +237,3 @@ Some known errors are as follows:
 ### Update not available
 
 If you are using Postman for Linux, and installed the app with the Ubuntu Software Center or Snap Store, you may not have the __Check for updates__ option. This is because the updates are handled by the store, which automatically updates Postman on a regular cadence.
-
-## Next steps
-
-If you have trouble with installation or updates, reach out for [Postman support](https://www.postman.com/support). If your installation is working as expected, [send your first request](/docs/getting-started/sending-the-first-request/)!

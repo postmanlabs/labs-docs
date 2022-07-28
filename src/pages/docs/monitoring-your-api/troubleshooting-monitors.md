@@ -27,7 +27,7 @@ The [Postman Console log](/docs/monitoring-your-api/viewing-monitor-results/#con
 
 1. Go to your workspace and select **Monitors** in the sidebar.
 1. Select a monitor, and then select a failed monitor run in the performance graph.
-1. Select **Console Log** below the graph to view monitor run details along with any `console.log()` statements you've included in your pre-request and test scripts.
+1. Select **Console Log** to view monitor run details, along with any `console.log()` statements you included in your pre-request and test scripts.
 
 [![Failed monitor run console log](https://assets.postman.com/postman-docs/monitor-console-log-failed-run.jpg)](https://assets.postman.com/postman-docs/monitor-console-log-failed-run.jpg)
 

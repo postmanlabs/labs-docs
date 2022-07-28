@@ -1832,8 +1832,32 @@
 		"to": "/docs/integrations/available-integrations/splunk-on-call/"
 	},
 	{
+		"from": "/docs/api-security/",
+		"to": "/docs/api-governance/api-governance-overview/"
+	},
+	{
 		"from": "/docs/api-security/security-warnings/",
-		"to": "/docs/api-security/security-warnings/security-warnings-overview/"
+		"to": "/docs/api-governance/api-definition/api-definition-warnings/"
+	},
+	{
+		"from": "/docs/api-security/security-warnings/security-warnings-overview/",
+		"to": "/docs/api-governance/api-definition/api-definition-warnings/"
+	},
+	{
+		"from": "/docs/api-security/security-warnings/openapi3/",
+		"to": "/docs/api-governance/api-definition/openapi3/"
+	},
+	{
+		"from": "/docs/api-security/security-warnings/openapi2/",
+		"to": "/docs/api-governance/api-definition/openapi2/"
+	},
+	{
+		"from": "/docs/api-security/token-scanner/",
+		"to": "/docs/administration/token-scanner/"
+	},
+	{
+		"from": "/docs/api-governance/api-testing/",
+		"to": "/docs/api-governance/api-testing/api-testing-warnings/"
 	},
 	{
 		"from": "/docs/designing-and-developing-your-api/watching-an-api/",
