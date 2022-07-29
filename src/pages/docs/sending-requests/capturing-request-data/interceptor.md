@@ -32,7 +32,7 @@ warning: false
 
 ---
 
-Postman Interceptor is a Chrome extension that acts as a browser companion to the Postman Desktop app. Interceptor enables you to capture network requests and cookies directly from a Chrome browser.
+Postman Interceptor is a Chrome extension that acts as a browser companion to the Postman desktop app. Interceptor enables you to capture network requests and cookies directly from a Chrome browser.
 
 Once Interceptor is running in Chrome, you can start a debug session, which is a time-bound session of traffic capture. You can start, pause, and stop an interceptor debug session, then later start another one. Each debug session is logged in the **History** tab, and displays the total session time and all traffic captured. From the logged session, you can send requests and responses to a collection and save cookies to the Postman cookie jar.
 
@@ -54,7 +54,7 @@ Once Interceptor is running in Chrome, you can start a debug session, which is a
 
 ## Installing Interceptor
 
-> You can't use Interceptor with [Postman for Web](/docs/getting-started/installation-and-updates/#web-limitations). Make sure you've installed the [Postman Desktop app](/docs/getting-started/installation-and-updates/).
+> You can't use Interceptor with [Postman for Web](/docs/getting-started/installation-and-updates/#web-limitations). Make sure you've installed the [Postman desktop app](/docs/getting-started/installation-and-updates/).
 
 To get started, install Postman Interceptor:
 

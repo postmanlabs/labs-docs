@@ -26,7 +26,7 @@ To sign into Postman:
 
 <img src="https://assets.postman.com/postman-docs/create-account-or-sign-in.jpg" alt="Create account or sign in"/>
 
-When you opt to sign into the desktop version of Postman, your default browser will automatically open a webpage asking you to sign into Postman.
+When you opt to sign into the Postman desktop app, your default browser will automatically open a webpage asking you to sign into Postman.
 
 > Your browser will open within a few seconds. If it doesn't, select **open your browser** in Postman.
 

@@ -32,7 +32,7 @@ contextual_links:
 
 Postman is available on the web at **[go.postman.co/home](https://go.postman.co/home)** and as a native desktop app for Mac (Intel and M1), Windows (32-bit / 64-bit), and Linux (64-bit) operating systems.
 
-To get the latest version of the Postman Desktop App, visit the [download page](https://www.postman.com/downloads/) and select **Download** for your platform.
+To get the latest version of the Postman desktop app, visit the [download page](https://www.postman.com/downloads/) and select **Download** for your platform.
 
 ## Contents
 
@@ -156,15 +156,15 @@ From Postman for Web, you can select the agent you would like to use for your re
 
 ### Web limitations
 
-Postman for Web is under active development. There are a few features you can currently only access in the desktop app, not in your browser:
+Postman for Web is under active development. There are a few features you can currently only access in the Postman desktop app, not in your browser:
 
-* **Find and replace** - The Postman Desktop App supports [finding and replacing values in a workspace](/docs/getting-started/navigating-postman/#find-and-replace), but this function isn't available on Postman for Web yet.
-* **Certificates and proxy** - The Postman Desktop App enables you to customize [certificates](/docs/sending-requests/certificates/) and [proxy configurations](/docs/getting-started/proxy/#configuring-proxy-settings). On Postman for Web, these take the browser defined value and can't be overridden by Postman.
-* **Postman Interceptor** - [Interceptor](/docs/sending-requests/capturing-request-data/interceptor/) syncs cookies from your browser to the Postman Desktop App and captures network requests directly from the browser. It's not possible to use Interceptor with Postman for Web.
+* **Find and replace** - The Postman desktop app supports [finding and replacing values in a workspace](/docs/getting-started/navigating-postman/#find-and-replace), but this function isn't available on Postman for Web yet.
+* **Certificates and proxy** - The Postman desktop app enables you to customize [certificates](/docs/sending-requests/certificates/) and [proxy configurations](/docs/getting-started/proxy/#configuring-proxy-settings). On Postman for Web, these take the browser defined value and can't be overridden by Postman.
+* **Postman Interceptor** - [Interceptor](/docs/sending-requests/capturing-request-data/interceptor/) syncs cookies from your browser to the Postman desktop app and captures network requests directly from the browser. It's not possible to use Interceptor with Postman for Web.
 
 ## Updating Postman
 
-The Postman Desktop App notifies you when a major update is available. For other updates, there is a dot on the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px">. If the indicator is red instead of orange, it indicates a failed update.
+The Postman desktop app notifies you when a major update is available. For other updates, there is a dot on the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px">. If the indicator is red instead of orange, it indicates a failed update.
 
 ![Update Ready](https://assets.postman.com/postman-docs/update-ready-v86.jpg)
 
@@ -178,7 +178,7 @@ You can configure your preferences to enable automatic download for major update
 
 The Postman Chrome app is deprecated. If you use the Chrome app, you can keep your data when you [switch to using Postman](#migrating-to-the-native-app) either by syncing with your Postman account or by exporting from Chrome and importing into Postman.
 
-The Postman Desktop App is built on [Electron](https://www.electronjs.org/), and [overcomes a number of restrictions](https://blog.postman.com/going-native/) of the Chrome platform.
+The Postman desktop app is built on [Electron](https://www.electronjs.org/), and [overcomes a number of restrictions](https://blog.postman.com/going-native/) of the Chrome platform.
 
 * The native apps let you work with [cookies](/docs/sending-requests/cookies/) directly.
 * Unlike the Chrome app, the [Interceptor](/docs/sending-requests/capturing-request-data/interceptor/) doesn't need a separate extension.

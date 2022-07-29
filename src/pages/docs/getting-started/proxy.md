@@ -25,7 +25,7 @@ A proxy is an intermediary server that sits between a client application (like P
 
 <img alt="Standard web proxy" src="https://assets.postman.com/postman-docs/proxy-standard-flow.jpg">
 
-By default, the Postman Desktop app uses your system's configured proxy to send API requests or access the internet. If needed, you can enter authentication details for the [default proxy](#configuring-the-default-proxy) in the Postman Desktop app. You can also configure Postman to use the [system proxy](#using-the-system-proxy-for-requests) or a [custom proxy](#using-a-custom-proxy-for-requests) when sending requests.
+By default, the Postman desktop app uses your system's configured proxy to send API requests or access the internet. If needed, you can enter authentication details for the [default proxy](#configuring-the-default-proxy) in the Postman desktop app. You can also configure Postman to use the [system proxy](#using-the-system-proxy-for-requests) or a [custom proxy](#using-a-custom-proxy-for-requests) when sending requests.
 
 > The steps below show how to configure Postman to use a proxy server when sending requests or accessing online resources. If you want to configure Postman's built-in proxy to capture API requests, see [Capturing request data overview](/docs/sending-requests/capturing-request-data/capture-overview/).
 
@@ -38,13 +38,13 @@ By default, the Postman Desktop app uses your system's configured proxy to send 
 
 ## Configuring the default proxy
 
-If you have configured a proxy for your local system, the Postman Desktop app uses this proxy by default to send API requests or access any online resources. Learn more about [adding a proxy to your operating system](#i-cant-send-a-request-and-my-network-requires-a-proxy).
+If you have configured a proxy for your local system, the Postman desktop app uses this proxy by default to send API requests or access any online resources. Learn more about [adding a proxy to your operating system](#i-cant-send-a-request-and-my-network-requires-a-proxy).
 
 > You can't configure the default proxy in Postman for Web. Instead, use the [system proxy](#using-the-system-proxy-for-requests) or a [custom proxy](#using-a-custom-proxy-for-requests) for sending requests.
 
-If the proxy server configured for your system requires basic authentication, add the credentials to the Postman Desktop app. Do the following:
+If the proxy server configured for your system requires basic authentication, add the credentials to the Postman desktop app. Do the following:
 
-1. In the Postman Desktop app, select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the header and select **Settings**.
+1. In the Postman desktop app, select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the header and select **Settings**.
 1. Select the **Proxy** tab.
 1. Under **Default Proxy Configuration**, select the checkbox next to **This proxy requires authentication**.
 1. Enter the **Username** and **Password** required by the proxy server.
@@ -112,7 +112,7 @@ In Postman, make sure both the system proxy and custom proxy are turned off:
 If you still can't send requests, the problem might be due to environment variables configured for your operating system. If there are environment variables, Postman will use the system proxy and ignore the proxy settings in Postman. Do one of the following:
 
 * Remove the environment variables `http_proxy`, `https_proxy`, `HTTP_PROXY`, and `HTTPS_PROXY` from your shell profile or operating system configuration.
-* Create an executable file using the code for your operating system below. Run the file to open the Postman Desktop app without any of the proxy environment variables set.
+* Create an executable file using the code for your operating system below. Run the file to open the Postman desktop app without any of the proxy environment variables set.
 
     * **Windows** - Create a `postman.bat` file with the following code:
 
@@ -136,9 +136,9 @@ If you still can't send requests, the problem might be due to environment variab
 
 ### The proxy on my system requires basic authentication
 
-Make sure to [configure basic authentication](#configuring-the-default-proxy) for the default proxy in the Postman Desktop app.
+Make sure to [configure basic authentication](#configuring-the-default-proxy) for the default proxy in the Postman desktop app.
 
-You can also start Postman with the appropriate environment variables. Create an executable file using the code for your operating system below. Run the file to open the Postman Desktop app using your proxy configuration.
+You can also start Postman with the appropriate environment variables. Create an executable file using the code for your operating system below. Run the file to open the Postman desktop app using your proxy configuration.
 
 * **Windows** - Create a `postman.bat` file with the following code:
 
