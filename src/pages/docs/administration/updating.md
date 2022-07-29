@@ -27,7 +27,7 @@ contextual_links:
 ---
 This section describes the steps to migrate your team to the latest version of Postman.
 
-Postman v9 provides a consistent, improved API development experience. The Postman desktop app and [Postman for Web](/docs/getting-started/installation-and-updates/#using-postman-on-the-web) are equally empowering—which one you use is a matter of preference for your workflows.
+Postman v9 provides a consistent, improved API development experience. The Postman desktop app and the [Postman web app](/docs/getting-started/installation-and-updates/#using-postman-on-the-web) are equally empowering—which one you use is a matter of preference for your workflows.
 
 * [Updating to Postman v9](#updating-to-postman-v9)
 * [Updating to Postman v8](#updating-to-postman-v8)

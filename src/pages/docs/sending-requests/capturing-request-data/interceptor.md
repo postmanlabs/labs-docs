@@ -54,7 +54,7 @@ Once Interceptor is running in Chrome, you can start a debug session, which is a
 
 ## Installing Interceptor
 
-> You can't use Interceptor with [Postman for Web](/docs/getting-started/installation-and-updates/#web-limitations). Make sure you've installed the [Postman desktop app](/docs/getting-started/installation-and-updates/).
+> You can't use Interceptor with the [Postman web app](/docs/getting-started/installation-and-updates/#web-limitations). Make sure you've installed the [Postman desktop app](/docs/getting-started/installation-and-updates/).
 
 To get started, install Postman Interceptor:
 

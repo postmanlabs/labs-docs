@@ -150,7 +150,7 @@ Whether you're working with a collection, an API, or another element type, the P
 
 Tabs allow you to organize and work between requests.
 
-> This section describes how tabs work in the Postman desktop app. By default, tabs in Postman for Web work this way as well. You can choose to use browser tabs instead, which enables you to use a different tab for each open Postman element. For more information, see [Browser tabs in Postman for Web](#browser-tabs-in-postman-for-web).
+> This section describes how tabs work in the Postman desktop app. By default, tabs in the Postman web app work this way as well. You can choose to use browser tabs instead, which enables you to use a different tab for each open Postman element. For more information, see [Browser tabs in the Postman web app](#browser-tabs-in-postman-for-web).
 
 #### Opening a new tab
 
@@ -200,7 +200,7 @@ If you have a lot of tabs open, they might overflow the area of the tab bar. To 
 
 #### Browser tabs in Postman for Web
 
-By default, Postman for Web uses in-app tabs like the Postman desktop app does. You can optionally choose to use browser tabs instead. With this setting turned on, there is only one collection overview or request in the main work area at a time, and you can open more Postman elements in new browser tabs. This enables you to work across workspaces or to use different environments in the same workspace.
+By default, the Postman web app uses in-app tabs like the Postman desktop app does. You can optionally choose to use browser tabs instead. With this setting turned on, there is only one collection overview or request in the main work area at a time, and you can open more Postman elements in new browser tabs. This enables you to work across workspaces or to use different environments in the same workspace.
 
 If you've saved changes to a request, when you select a new element Postman will open it in the main work area area. If the request has unsaved changes, Postman will prompt you to save or discard your changes.
 
@@ -208,7 +208,7 @@ To open a workspace, environment, or request in a new browser tab, press and hol
 
 To open an in-app link in a new browser tab, press and hold **⌘** or **Ctrl** and select the link you want to open.
 
-To turn this behavior on or off in Postman for Web, select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the header, then select **Remove tabs** in the **User interface** section.
+To turn this behavior on or off in the Postman web app, select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the header, then select **Remove tabs** in the **User interface** section.
 
 ### Right sidebar
 

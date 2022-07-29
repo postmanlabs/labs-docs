@@ -122,11 +122,11 @@ Categories=Development;
 
 ## Using Postman on the web
 
-You can use Postman in your web browser to carry out your API development and testing tasks in conjunction with the Postman Agent. To access Postman for Web, visit [go.postman.co/home](https://go.postman.co/home).
+You can use Postman in your web browser to carry out your API development and testing tasks in conjunction with the Postman Agent. To access the Postman web app, visit [go.postman.co/home](https://go.postman.co/home).
 
 ### Browser requirements
 
-Postman for Web is optimized for the following browsers:
+The Postman web app is optimized for the following browsers:
 
 * Chrome (78 and higher)
 * Firefox (76 and higher)
@@ -135,15 +135,15 @@ Postman for Web is optimized for the following browsers:
 
 ### Installing the Postman Desktop Agent
 
-If you are using the Postman for Web, you also need to download the Postman Desktop Agent, a micro-application that runs locally on your desktop. The Desktop Agent overcomes the Cross Object Resource Sharing (CORS) limitations of browsers and acts as your agent for making API calls from Postman for Web.
+If you are using the Postman web app, you also need to download the Postman Desktop Agent, a micro-application that runs locally on your desktop. The Desktop Agent overcomes the Cross Object Resource Sharing (CORS) limitations of browsers and acts as your agent for making API calls from the Postman web app.
 
-You will be prompted to download and install the Desktop Agent so that you can make requests from Postman for Web. You can also download the agent directly from [the Postman Agent page](https://www.postman.com/downloads/postman-agent/). Once you have the Desktop Agent installed you will be able to use it with web requests.
+You will be prompted to download and install the Desktop Agent so that you can make requests from the Postman web app. You can also download the agent directly from [the Postman Agent page](https://www.postman.com/downloads/postman-agent/). Once you have the Desktop Agent installed you will be able to use it with web requests.
 
 To learn more about the Postman Desktop Agent, read the [Introducing the Postman Agent](https://blog.postman.com/introducing-the-postman-agent-send-api-requests-from-your-browser-without-limits/) blog post.
 
 ### Selecting the agent for requests
 
-From Postman for Web, you can select the agent you would like to use for your requests:
+From the Postman web app, you can select the agent you would like to use for your requests:
 
 * **Auto-select** - Postman automatically selects the best agent to use for your request.
 * **Cloud** - Manually select this option to send HTTP requests using Postman's cloud servers.
@@ -156,11 +156,11 @@ From Postman for Web, you can select the agent you would like to use for your re
 
 ### Web limitations
 
-Postman for Web is under active development. There are a few features you can currently only access in the Postman desktop app, not in your browser:
+The Postman web app is under active development. There are a few features you can currently only access in the Postman desktop app, not in your browser:
 
-* **Find and replace** - The Postman desktop app supports [finding and replacing values in a workspace](/docs/getting-started/navigating-postman/#find-and-replace), but this function isn't available on Postman for Web yet.
-* **Certificates and proxy** - The Postman desktop app enables you to customize [certificates](/docs/sending-requests/certificates/) and [proxy configurations](/docs/getting-started/proxy/#configuring-proxy-settings). On Postman for Web, these take the browser defined value and can't be overridden by Postman.
-* **Postman Interceptor** - [Interceptor](/docs/sending-requests/capturing-request-data/interceptor/) syncs cookies from your browser to the Postman desktop app and captures network requests directly from the browser. It's not possible to use Interceptor with Postman for Web.
+* **Find and replace** - The Postman desktop app supports [finding and replacing values in a workspace](/docs/getting-started/navigating-postman/#find-and-replace), but this function isn't available on the Postman web app yet.
+* **Certificates and proxy** - The Postman desktop app enables you to customize [certificates](/docs/sending-requests/certificates/) and [proxy configurations](/docs/getting-started/proxy/#configuring-proxy-settings). On the Postman web app, these take the browser defined value and can't be overridden by Postman.
+* **Postman Interceptor** - [Interceptor](/docs/sending-requests/capturing-request-data/interceptor/) syncs cookies from your browser to the Postman desktop app and captures network requests directly from the browser. It's not possible to use Interceptor with the Postman web app.
 
 ## Updating Postman
 
