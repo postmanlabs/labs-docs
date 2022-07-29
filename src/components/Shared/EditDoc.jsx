@@ -41,7 +41,7 @@ class EditDoc extends Component {
             />
           </svg> */}
         </i>
-        Edit this doc
+        Edit this Doc
       </a>
     );
   }
