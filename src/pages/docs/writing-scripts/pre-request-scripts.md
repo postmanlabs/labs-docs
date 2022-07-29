@@ -80,7 +80,7 @@ To include code you want to execute before Postman sends a request:
 
 ## Re-using pre-request scripts
 
-You can add pre-request scripts to entire collections and folders within collections. In both cases, your pre-request script will run before every request in the collection or folder. This allows you to define commonly used pre-processing or debugging steps you need to execute for multiple requests.
+You can add pre-request scripts to entire collections and folders within collections. In both cases, your pre-request script will run before every request in the collection or direct child request in the folder. This allows you to define commonly used pre-processing or debugging steps you need to execute for multiple requests.
 
 > You can define a pre-request script when you first create a collection or folder, or at any time after that.
 
@@ -91,7 +91,7 @@ To add pre-request scripts to a collection or folder:
 
     <img src="https://assets.postman.com/postman-docs/edit-collection-action-v8.jpg" alt="Collection Actions" width="300px"/>
 
-1. Select the __Pre-request Scripts__ tab. Enter code that will run before every request in the collection or folder.
+1. Select the __Pre-request Scripts__ tab. Enter code that will run before every request in the collection or direct child request in the folder.
 
    ![Collection pre-request script](https://assets.postman.com/postman-docs/edit-collection-pre-request-v9.jpg)
 
