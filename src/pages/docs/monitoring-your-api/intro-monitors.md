@@ -27,11 +27,17 @@ contextual_links:
   - type: link
     name: "Continuous API Testing with Postman"
     url: "https://blog.postman.com/continuous-api-testing-with-postman/"
+  - type: link
+    name: "Build an Exercise Tracker using Notion API and Postman Monitor"
+    url: "https://blog.postman.com/how-build-daily-habit-counter-notion-api-postman/"
   - type: subtitle
     name: "Case Studies"
   - type: link
-    name: "Monetary"
-    url: "https://www.postman.com/case-studies/monetary/"
+    name: "Hathway"
+    url: "https://www.postman.com/case-studies/hathway/"
+  - type: link
+    name: "Momentive"
+    url: "https://www.postman.com/case-studies/momentive/"
   - type: subtitle
     name: "Public Workspaces"
   - type: link
@@ -90,4 +96,7 @@ Because they run Postman requests and scripts, collection-based monitors can be 
 
 ## Next steps
 
-Learn how to [set up a new collection-based monitor](/docs/monitoring-your-api/setting-up-monitor/) or [start monitoring uptime for an API endpoint](/docs/monitoring-your-api/uptime-monitors/).
+Now that you understand the fundamentals of API monitoring, you can set up a collection-based monitor or an uptime monitor:
+
+* To learn how to set up a new collection-based monitor, visit [Setting up a collection-based monitor](/docs/monitoring-your-api/setting-up-monitor/).
+* To learn how to start monitoring uptime for an API endpoint, visit [Monitoring API uptime](/docs/monitoring-your-api/uptime-monitors/).

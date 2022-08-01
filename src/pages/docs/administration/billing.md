@@ -1,7 +1,7 @@
 ---
 title: "Billing"
 order: 123
-updated: 2022-03-17
+updated: 2022-07-19
 page_id: "billing"
 tags:
   - "pro"
@@ -80,7 +80,7 @@ The billing overview is your billing dashboard's default view. You can view the 
 
 ### Managing add-ons
 
-In your [billing dashboard](http://go.postman.co/billing), select **Resource usage** on the left to view your team's usage of mock servers, monitoring, custom domains, the Postman API, serverless requests, integrations, and the Postman Cloud Agent.
+In your [billing dashboard](http://go.postman.co/billing), select **Resource usage** on the left to view your team's usage of mock servers, monitoring, custom domains, image and file storage, the Postman API, serverless requests, integrations, and the Postman Cloud Agent.
 
 <img alt="Add-ons usage and purchase" src="https://assets.postman.com/postman-docs/resource-usage-9.13.jpg" />
 
@@ -102,7 +102,7 @@ Items such as updates to your Postman subscription, payment method changes, paym
 
 ### Viewing past invoices
 
-In your [billing dashboard](http://go.postman.co/billing), select **Plan and payments** on the left, then **Invoices**. You can get a copy of your past invoices by selecting the download icon <img alt="Download icon" src="https://assets.postman.com/postman-docs/icon-download-v9.jpg#icon" width="16px"/> to the right of the invoice you would like to retrieve.
+In your [billing dashboard](http://go.postman.co/billing), select **Plan and payments** on the left, then **Invoices**. You can get a copy of your past invoices by selecting the download icon <img alt="Download icon" src="https://assets.postman.com/postman-docs/icon-download-v9.jpg#icon" width="16px"/> for the specific invoice you want to retrieve.
 
 <img alt="Invoices view" src="https://assets.postman.com/postman-docs/billing-invoices-v9.1.jpg" />
 
@@ -176,7 +176,7 @@ In some circumstances, including an overdue or [failed payment](#failed-payments
 
 ### Paying by invoice
 
-> Invoicing is available for Postman Enterprise teams only. If you are a new Enterprise customer, contact the [Postman Sales team](https://www.postman.com/pricing/get-started-postman-plans/) to get started. You will receive a response within three business days. If you are an existing Enterprise customer, submit a request to the [Postman Support team](https://support.postman.com/hc/en-us) to be invoiced instead of automatically charged.
+> Invoicing is available for Postman [Enterprise teams](https://www.postman.com/pricing/) only. If you are a new Enterprise customer, contact the [Postman Sales team](https://www.postman.com/pricing/get-started-postman-plans/) to get started. You will receive a response within three business days. If you are an existing Enterprise customer, submit a request to the [Postman Support team](https://support.postman.com/hc/en-us) to be invoiced instead of automatically charged.
 
 You can pay invoices online, with ACH, or with wire transfer. Postman sends invoices to the billing email address listed in your [billing details](http://go.postman.co/settings/team/billing-details). The invoice includes offline payment instructions. View your pending payments in your [billing dashboard](http://go.postman.co/billing).
 
@@ -298,6 +298,7 @@ If you have canceled your Postman plan and want to reverse this action, select *
 
 ## Next steps
 
-For information on team management, see [Managing your team](/docs/administration/managing-your-team/managing-your-team/).
+Now that you know how to navigate the billing dashboard, you might also want to learn more about the Billing role and managing your team.
 
-To learn more about the billing team role, see [Roles and Permissions](/docs/collaborating-in-postman/roles-and-permissions/).
+* To learn more about the Billing team role, visit [Roles and permissions](/docs/collaborating-in-postman/roles-and-permissions/).
+* For information on team management, visit [Managing your team](/docs/administration/managing-your-team/managing-your-team/).

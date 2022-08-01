@@ -109,7 +109,7 @@ Postman logs events related to your [team](#team), [users](#users), and [billing
 | SCIM User De-provisioned | The SCIM admin de-provisioned a user. |
 | Exported Data | A user requested an export of their data. |
 | Downloaded Exported Data | A user downloaded an export of their data. |
-| Added Custom Alert | A new [custom token alert](/docs/api-security/token-scanner/#custom-alerts) was created for your team. |
+| Added Custom Alert | A new [custom token alert](/docs/administration/token-scanner/#custom-alerts) was created for your team. |
 | Edited Custom Alert | A custom token alert's name or regex pattern was changed, or the alert was turned on or off. |
 | Deleted Custom Token Alert  | A custom token alert was deleted. |
 

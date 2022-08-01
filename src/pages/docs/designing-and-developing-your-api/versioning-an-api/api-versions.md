@@ -51,13 +51,12 @@ To create a new version of an API:
 
 1. Go to the API **Overview** page. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> in the upper right corner and select **Create version**.
 1. Enter a version name.
-1. Select **Make this version available for consumers** if you want the new version to be visible. Otherwise, it's only visible to users with Editor access to the API.
 1. If you want to base this version on existing elements, select **Show more options**. In **Copy elements from a previous version**, choose a previous version of the API. Then select the elements you want to copy to your new API.
     > Copying an element creates a new copy in your workspace. The new element will have the new version number appended to its name, such as `my-docs-2.0.0`. The new elements will be linked to the new version of the API.
 1. Select __Create Version__. Your new version will open in the API Builder.
 
 ## Renaming and deleting versions
 
-You can rename, edit, or delete an API version using the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> in the sidebar. Editing an API enables you to change the name, status, and visibility at once.
+You can rename, edit, or delete an API version using the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> in the sidebar. Editing an API enables you to change the name and status.
 
    > When you delete an API version, the collections, monitors, mocks, and environments linked to it won't be deleted or removed.

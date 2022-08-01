@@ -15,6 +15,12 @@ contextual_links:
   - type: link
     name: "Syncing Your OpenAPI, RAML, and GraphQL Schema to GitHub with Postman"
     url:  "https://blog.postman.com/syncing-your-openapi-raml-and-graphql-schema-to-github-with-postman/"
+  - type: subtitle
+    name: "Case Studies"
+  - type: link
+    name: "Reputation"
+    url: "https://www.postman.com/case-studies/reputation/"
+
 ---
 
 > __[GitHub Enterprise Server integrations are only available on Postman Enterprise plans.](https://www.postman.com/pricing)__
