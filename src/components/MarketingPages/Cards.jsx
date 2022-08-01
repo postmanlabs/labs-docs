@@ -1,12 +1,36 @@
 import React from 'react';
 import { OutboundLink } from 'gatsby-plugin-google-analytics';
-import './Cards.scss';
-import './Buttons';
+import styled from 'styled-components';
+
+const CardWrapper = styled.div`
+  margin-bottom: 32px;
+  text-align: left !important;
+  .landing-card__top {
+    background: transparent;
+    margin: 0;
+  }
+  .landing-card__image {
+    margin-bottom: 16px;
+    width: 50px;
+    & img {
+      max-width: 100%;
+    }
+  }
+  .landing-card__content {
+    &-description {
+      margin-bottom: 25px;
+      font-size: 16px;
+    }
+    a {
+      margin-bottom: 48px;
+    }
+  }
+`
 
 export const LandingCard = ({
   title, description, link, icon, cta,
 }) => (
-  <div className="landing-card h-100">
+  <CardWrapper className="landing-card h-100">
     <div className="landing-card__top">
       <div className="landing-card__image">
         <img src={icon} alt={title} aria-hidden="true"/>
@@ -21,14 +45,14 @@ export const LandingCard = ({
         →
       </a>
     </div>
-  </div>
+  </CardWrapper>
 );
 
 // Landing Card with containing an outbound link
 export const LandingCardWithOutboundLink = ({
   title, description, link, icon, cta,
 }) => (
-  <div className="landing-card h-100">
+  <CardWrapper className="landing-card h-100">
     <div className="landing-card__top">
       <div className="landing-card__image">
         <img src={icon} alt="landing-card icon" />
@@ -39,7 +63,7 @@ export const LandingCardWithOutboundLink = ({
       <p className="landing-card__content-description">{description}</p>
       <OutboundLink href={link} className="btn btn__primary">{cta}</OutboundLink>
     </div>
-  </div>
+  </CardWrapper>
 );
 
 export const SmallCard = ({
