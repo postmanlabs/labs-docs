@@ -23,7 +23,6 @@ gRPC request in Postman packs a variety of tools, views and controls to help you
     * [Method](#method)
     * [Payload](#payload)
     * [Scripts](#scripts)
-    * [Message actions](#message-actions)
     * [TLS Toggle](#tls-toggle)
     * [Invoke button](#invoke-button)
     * [Request name](#request-name)
@@ -66,6 +65,12 @@ A gRPC payload can contain a few things to aid the server in executing the reque
 
 You can compose a message in JSON to send along with the request. As per the backend logic, the server uses this message to perform appropriate actions and gives you a response in return.
 
+**Message actions**
+
+Message actions can be used to shape and aid in message composition.
+
+<img src="https://assets.postman.com/postman-labs-docs/grpc-docs/request-interface/message-actions.jpeg" alt="Message actions" width="300px">
+
 #### Authorization
 
 Using the Authorization section, you can pass the credentials that the server would use to authorize the connection. Depending on the server requirement you can choose from a list of Auth types that include: API Key, Basic auth and Bearer token.
@@ -85,12 +90,6 @@ Postman contains a powerful scripting environment that allows you to add Javascr
 Learn more about [scripting in gRPC request](/postman-api-client/grpc-client/writing-scripts/scripting-in-grpc-request/).
 
 <img src="https://assets.postman.com/postman-labs-docs/grpc-docs/request-interface/scripts.jpeg" alt="Scripts in gRPC request">
-
-### Message actions
-
-Message actions can be used to shape and aid in message composition.
-
-<img src="https://assets.postman.com/postman-labs-docs/grpc-docs/request-interface/message-actions.jpeg" alt="Message actions" width="300px">
 
 #### Beautify
 
