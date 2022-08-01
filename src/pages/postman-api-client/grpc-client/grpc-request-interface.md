@@ -160,7 +160,7 @@ Look for specific things within the response using the 'Search' button.
 
 While invoking a streaming method type (client streaming, server streaming or bidirectional streaming), the client-server communication within a single session is recorded in the response area as a series of sent and received messages in a timeline instead of a single response. Learn more about [different method types](postman-api-client/grpc-client/using-grpc-request).
 
-<img src="https://assets.postman.com/postman-labs-docs/grpc-docs/request-interface/response-stream.jpeg" alt="Response stream" width="400px">
+<img src="https://assets.postman.com/postman-labs-docs/grpc-docs/request-interface/response-stream-sections.jpeg" alt="Response stream">
 
 #### Connection status
 
