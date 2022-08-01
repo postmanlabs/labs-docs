@@ -24,7 +24,7 @@ gRPC supports 4 types of methods that allow the client and server to interact in
 
 - **Bidirectional streaming**: With bidirectional streaming, the client and server can communicate with each other asynchronously over a persistent session.
 
-In this example, we will be creating and executing a unary request which is more commonly used than the rest. To learn about invoking the other method types, head over to [working with requests](postman-api-client/grpc-client/using-grpc-request).
+In this example, we will be creating and executing a unary request which is more commonly used than the rest. To learn about invoking the other method types, head over to [working with requests](/postman-api-client/grpc-client/using-grpc-request/).
 
 Now that we have covered the basics, let’s invoke our first gRPC request!
 
@@ -36,7 +36,7 @@ Open Postman and follow the steps:
 
 1. Enter the URL as: `grpc://grpcb.in:9000`. This is an echo endpoint that allows you to try out various types of services and methods.
 
-1. Click on the **Method selection dropdown** next and browse through all the supported services and methods. When you enter the URL, Postman automatically loads the service definition using server reflection (if supported by the server). If server reflection is disabled on the server, you will have to load the service definition manually. Learn more about [working with service definitions](postman-api-client/grpc-client/using-service-definition).
+1. Click on the **Method selection dropdown** next and browse through all the supported services and methods. When you enter the URL, Postman automatically loads the service definition using server reflection (if supported by the server). If server reflection is disabled on the server, you will have to load the service definition manually. Learn more about [working with service definitions](/postman-api-client/grpc-client/using-service-definition/).
 
 1. Now, from the list of methods, scroll down and select **SayHello**. This is a unary method.
 
@@ -68,4 +68,4 @@ In this example, Postman is acting as the client application and is communicatin
 
 Try invoking some other methods available on the gRPC bin server and see how things act differently.
 
-When you’re done, learn more about [working with requests](postman-api-client/grpc-client/using-grpc-request).
+When you’re done, learn more about [working with requests](/postman-api-client/grpc-client/using-grpc-request/).

@@ -22,6 +22,7 @@ gRPC request in Postman packs a variety of tools, views and controls to help you
     * [Server URL](#server-url)
     * [Method](#method)
     * [Payload](#payload)
+    * [Scripts](#scripts)
     * [Message actions](#message-actions)
     * [TLS Toggle](#tls-toggle)
     * [Invoke button](#invoke-button)
@@ -33,6 +34,7 @@ gRPC request in Postman packs a variety of tools, views and controls to help you
     * [Wrap text button](#wrap-text-button)
     * [Search through response](#search-through-response)
     * [Multiple responses](#multiple-responses)
+    * [Test results](#test-results)
 * [Right sidebar](#right-sidebar)
     * [Request documentation](#request-documentation)
     * [Comments](#comments)
@@ -52,7 +54,7 @@ The server URL is used to define the endpoint where the service is hosted. Being
 
 ### Method
 
-You can select the method you wish to invoke using the method selector dropdown. The list of methods is populated by the service definition which is loaded automatically soon after you enter the URL if the server supports server reflection. Else you will be required to load a service definition manually either by uploading a .proto file or creating a Protobuf API in Postman. Learn more about [working with service definition](postman-api-client/grpc-client/using-service-definition).
+You can select the method you wish to invoke using the method selector dropdown. The list of methods is populated by the service definition which is loaded automatically soon after you enter the URL if the server supports server reflection. Else you will be required to load a service definition manually either by uploading a .proto file or creating a Protobuf API in Postman. Learn more about [working with service definition](/postman-api-client/grpc-client/using-service-definition/).
 
 <img src="https://assets.postman.com/postman-labs-docs/grpc-docs/request-interface/methods-list.jpeg" alt="Method selection dropdown" width="500px">
 
@@ -75,6 +77,14 @@ Using the Authorization section, you can pass the credentials that the server wo
 You can pass additional metadata along with the request in the form of key-value pairs. Metadata is used by the client to provide “more information“ about the call to the server and vice versa.
 
 <img src="https://assets.postman.com/postman-labs-docs/grpc-docs/request-interface/metadata-tab.jpeg" alt="Metadata configuration">
+
+### Scripts
+
+Postman contains a powerful scripting environment that allows you to add Javascript code (a.k.a scripts) in your gRPC requests. You can use scripts to write API tests, debug your requests (by logging to [Postman Console](https://learning.postman.com/docs/sending-requests/troubleshooting-api-requests/)), or even dynamically read/update the values of [variables](http://localhost:8000/postman-api-client/grpc-client/writing-scripts/scripting-in-grpc-request/(https://learning.postman.com/docs/sending-requests/variables/)).
+
+Learn more about [scripting in gRPC request](/postman-api-client/grpc-client/writing-scripts/scripting-in-grpc-request/).
+
+<img src="https://assets.postman.com/postman-labs-docs/grpc-docs/request-interface/scripts.jpeg" alt="Scripts in gRPC request">
 
 ### Message actions
 
@@ -158,7 +168,7 @@ Look for specific things within the response using the 'Search' button.
 
 ### Multiple responses
 
-While invoking a streaming method type (client streaming, server streaming or bidirectional streaming), the client-server communication within a single session is recorded in the response area as a series of sent and received messages in a timeline instead of a single response. Learn more about [different method types](postman-api-client/grpc-client/using-grpc-request).
+While invoking a streaming method type (client streaming, server streaming or bidirectional streaming), the client-server communication within a single session is recorded in the response area as a series of sent and received messages in a timeline instead of a single response. Learn more about [different method types](/postman-api-client/grpc-client/using-grpc-request/).
 
 <img src="https://assets.postman.com/postman-labs-docs/grpc-docs/request-interface/response-stream-sections.jpeg" alt="Response stream">
 
@@ -194,6 +204,14 @@ Using the ‘Clear messages' button hides all the messages exchanged from the vi
 
 <img src="https://assets.postman.com/postman-labs-docs/grpc-docs/request-interface/hide-messages.jpeg" alt="Clear messages">
 
+### Test results
+
+The results for assertions you write in the Scripts section appear here. Based on the test script, the results can be of 3 types: Passed, Failed, and Skipped.
+
+Learn more about [scripting in gRPC request](/postman-api-client/grpc-client/writing-scripts/scripting-in-grpc-request/).
+
+<img src="https://assets.postman.com/postman-labs-docs/grpc-docs/request-interface/test-results.jpeg" alt="gRPC test results">
+
 ## Right sidebar
 
 The right sidebar gives you access to additional tools and information like documentation, commenting and meta information on the request.
@@ -214,4 +232,4 @@ The request information pane shows additional details about the request like req
 
 ## Next step
 
-Now that you understand all the basic interface elements, go ahead and [create a grpc request on Postman](postman-api-client/grpc-client/first-grpc-request).
+Now that you understand all the basic interface elements, go ahead and [create a grpc request on Postman](/postman-api-client/grpc-client/first-grpc-request/).
