@@ -65,7 +65,9 @@ A gRPC payload can contain a few things to aid the server in executing the reque
 
 You can compose a message in JSON to send along with the request. As per the backend logic, the server uses this message to perform appropriate actions and gives you a response in return.
 
-**Message actions:** Message actions can be used to shape and aid in message composition.
+<img src="https://assets.postman.com/postman-labs-docs/grpc-docs/request-interface/compose-message.jpeg" alt="Request pane">
+
+**Message actions:** Message actions can be used to shape and aid in message composition. The **Beautify** button makes the composed JSON message presentable and readable for external users using advanced formatting. And to make your job of composing a message easier, the **Generate example message** button creates a dummy message using the schema once you have selected the method to invoke.
 
 <img src="https://assets.postman.com/postman-labs-docs/grpc-docs/request-interface/message-actions.jpeg" alt="Message actions" width="300px">
 
@@ -88,14 +90,6 @@ Postman contains a powerful scripting environment that allows you to add Javascr
 Learn more about [scripting in gRPC request](/postman-api-client/grpc-client/writing-scripts/scripting-in-grpc-request/).
 
 <img src="https://assets.postman.com/postman-labs-docs/grpc-docs/request-interface/scripts.jpeg" alt="Scripts in gRPC request">
-
-#### Beautify
-
-The 'Beautify' button makes the composed JSON message presentable and readable for external users using advanced formatting.
-
-#### Generate example message
-
-gRPC being a schema-driven framework requires the client to only use the fields and associated datatypes defined in the service definition. So, to make your job of composing a message easier, the 'Generate example message' button creates a dummy message using the schema once you have selected the method to invoke.
 
 ### TLS Toggle
 
