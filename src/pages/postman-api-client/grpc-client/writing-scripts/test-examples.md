@@ -120,19 +120,19 @@ In case of multiple response messages (request with the server or bidirectional 
 
 Also, when writing assertions using `pm.response.messages.to.*` , you will be asserting on an array of message content and not the complete message object mentioned [here](/postman-api-client/grpc-client/writing-scripts/postman-sandbox-api/#pmresponse).
 
-All the below shown assertions can done on request message(s) as well using  `pm.request` object.
+All the below assertions can done on request message(s) as well using `pm.request` object.
 
 ### Testing existence of a message
 
 To test the existence of a response message (strictly)
 
 ```javascript
-pm.test('"Correct user details are received"', () => {
+pm.test('Correct user details are received', () => {
   pm.response.to.have.message({
-    userId: '123'
+    userId: '123',
     name: 'John Doe',
     email: 'john@example.com',
-    phone: '+1-555-555-5555'
+    phone: '+1-555-555-5555',
     age: 30,
     company: 'XYZ'
   });
@@ -144,7 +144,7 @@ pm.test('"Correct user details are received"', () => {
 You can assert that the given object's properties are a subset of any messages received as a response.
 
 ```javascript
-pm.test('"User details are updated successfully"', () => {
+pm.test('User details are updated successfully', () => {
   pm.response.messages.to.include({
     action: 'update-user-details',
     status: 'success'

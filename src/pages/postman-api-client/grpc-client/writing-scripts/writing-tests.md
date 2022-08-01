@@ -9,11 +9,6 @@ contextual_links:
   - type: link
     name: "Scripting in gRPC request"
     url: "/postman-api-client/grpc-client/writing-scripts/scripting-in-grpc-request/"
-  - type: section
-    name: "Blog Posts"
-  - type: link
-    name: "Testing gRPC APIs with Postman"
-    url: "https://blog.postman.com/"
 ---
 
 Tests ensure that your APIs are working as expected and consistently delivering the necessary functionality, performance, reliability, and security. You can write test suites for your gRPC requests using Postman's powerful Javascript-based scripting environment. Tests get executed along with the request and provide you with the results summary at the end.
@@ -42,7 +37,7 @@ Both the execution hooks are available for all gRPC requests irrespective of the
 
 You can use the pre-curated list of commonly used test code snippets to write your tests. **Snippets** are available in the right panel of the script editor. Selecting a snippet adds the required code automatically to your script, helping you get started quickly with your testing. Once added to your script, you can edit the snippets (if needed) to meet your specific testing requirements.
 
-&lt;Add GIF&gt;
+<img src="https://assets.postman.com/postman-labs-docs/grpc-docs/writing-scripts/using-snippets-in-grpc-scripts.gif" alt="Using snippets">
 
 ### Writing your assertions
 
@@ -71,7 +66,7 @@ pm.test("Environment to be production", function () {
 
 The script editor also has a built-in auto-complete feature for Javascript and pm.* APIs that helps you write your assertions faster and accurately.
 
-&lt;Add GIF&gt;
+<img src="https://assets.postman.com/postman-labs-docs/grpc-docs/writing-scripts/grpc-scripts-autocompletion.gif" alt="Autocompletion in scripts">
 
 Check out the comprehensive list of [example tests](/postman-api-client/grpc-client/writing-scripts/examples) to even better understand how to write your own tests for some common scenarios.
 
@@ -89,17 +84,16 @@ To learn more about how to debug your tests, head over to [debugging your tests]
 
 To check the results of your tests, go to the **Test results** tab in the response section. The tab header shows the passed and total executed tests count. You can also filter the result based on the test status (**Passed**, **Skipped**, and **Failed**).
 
-&lt;Add GIF&gt;
+<img src="https://assets.postman.com/postman-labs-docs/grpc-docs/writing-scripts/invoke-grpc-request-with-tests.gif" alt="Checking test results">
 
 ## Debugging your tests
 
 If you are having trouble with your tests,
 
 * Check if there are any errors in your scripts. A red badge will highlight scripts with errors. You can also check the response section for specific errors.
+  <img src="https://assets.postman.com/postman-labs-docs/grpc-docs/writing-scripts/debugging-error-in-grpc-scripts.gif" alt="Debugging error in scripts">
 * Debug your tests using the [log statements](https://learning.postman.com/docs/sending-requests/troubleshooting-api-requests/#using-log-statements) to ensure that you are asserting on correct data.
 * Still facing issues? Do not worry, submit a [bug report/feedback](http://localhost:8000/postman-api-client/grpc-client/troubleshooting/#submit-a-bug-reportfeedback) and we will try our best to help you.
-
-&lt;Add GIF&gt;
 
 ## Next steps
 
