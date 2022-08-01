@@ -65,9 +65,7 @@ A gRPC payload can contain a few things to aid the server in executing the reque
 
 You can compose a message in JSON to send along with the request. As per the backend logic, the server uses this message to perform appropriate actions and gives you a response in return.
 
-**Message actions**
-
-Message actions can be used to shape and aid in message composition.
+**Message actions:** Message actions can be used to shape and aid in message composition.
 
 <img src="https://assets.postman.com/postman-labs-docs/grpc-docs/request-interface/message-actions.jpeg" alt="Message actions" width="300px">
 
