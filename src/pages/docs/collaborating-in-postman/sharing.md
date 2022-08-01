@@ -52,7 +52,7 @@ Collections, APIs, and environments can be shared directly with collaborators, i
 
 <img alt="Share API" src="https://assets.postman.com/postman-docs/share-api-9.4.jpg"/>
 
-If the element is in a private workspace and you aren't a Workspace Admin, you will only be able to share it with team members who already have access to the workspace. If you'd like a team member who's not a part of the private workspace to [request access](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#accessing-private-workspaces), you can open the workspace in the [Postman web app](/docs/getting-started/installation-and-updates/#using-postman-on-the-web), copy the page URL, and send it to them.
+If the element is in a private workspace and you aren't a Workspace Admin, you will only be able to share it with team members who already have access to the workspace. If you'd like a team member who's not a part of the private workspace to [request access](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#accessing-private-workspaces), you can open the workspace in the [Postman web app](/docs/getting-started/installation-and-updates/#using-the-postman-web-app), copy the page URL, and send it to them.
 
 If the element is in a personal workspace, you'll be prompted to either change the workspace visibility to team or create a new team workspace to place the element in.
 

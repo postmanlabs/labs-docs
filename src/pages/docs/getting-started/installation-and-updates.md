@@ -40,7 +40,7 @@ To get the latest version of the Postman desktop app, visit the [download page](
     * [Mac](#installing-postman-on-mac)
     * [Windows](#installing-postman-on-windows)
     * [Linux](#installing-postman-on-linux)
-* [Using Postman on the web](#using-postman-on-the-web)
+* [Using the Postman web app](#using-the-postman-web-app)
     * [Browser requirements](#browser-requirements)
     * [Installing the Postman Desktop Agent](#installing-the-postman-desktop-agent)
     * [Web limitations](#web-limitations)
@@ -120,7 +120,7 @@ Categories=Development;
 >
 > If you are an Ubuntu 18 user, you will also need to install the `libgconf-2-4` package with the command `apt-get install libgconf-2-4`
 
-## Using Postman on the web
+## Using the Postman web app
 
 You can use Postman in your web browser to carry out your API development and testing tasks in conjunction with the Postman Agent. To access the Postman web app, visit [go.postman.co/home](https://go.postman.co/home).
 

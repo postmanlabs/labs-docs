@@ -150,7 +150,7 @@ Whether you're working with a collection, an API, or another element type, the P
 
 Tabs allow you to organize and work between requests.
 
-> This section describes how tabs work in the Postman desktop app. By default, tabs in the Postman web app work this way as well. You can choose to use browser tabs instead, which enables you to use a different tab for each open Postman element. For more information, see [Browser tabs in the Postman web app](#browser-tabs-in-postman-for-web).
+> This section describes how tabs work in the Postman desktop app. By default, tabs in the Postman web app work this way as well. You can choose to use browser tabs instead, which enables you to use a different tab for each open Postman element. For more information, see [Browser tabs in the Postman web app](#browser-tabs-in-the-postman-web-app).
 
 #### Opening a new tab
 
@@ -198,7 +198,7 @@ If you have a lot of tabs open, they might overflow the area of the tab bar. To 
 
 <img alt="Scroll to view tabs" src="https://assets.postman.com/postman-docs/tab-navigation-scroll.jpg" width="800px"/>
 
-#### Browser tabs in Postman for Web
+#### Browser tabs in the Postman web app
 
 By default, the Postman web app uses in-app tabs like the Postman desktop app does. You can optionally choose to use browser tabs instead. With this setting turned on, there is only one collection overview or request in the main work area at a time, and you can open more Postman elements in new browser tabs. This enables you to work across workspaces or to use different environments in the same workspace.
 
