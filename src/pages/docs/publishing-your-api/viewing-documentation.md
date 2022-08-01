@@ -46,7 +46,6 @@ Documentation authors can also choose to [publish their documentation](/docs/pub
 * [Viewing API documentation](#viewing-api-documentation)
 * [Viewing public documentation](#viewing-public-documentation)
 * [Linking to public documentation](#linking-to-public-documentation)
-* [Next steps](#next-steps)
 
 ## Viewing documentation for a collection
 
@@ -105,7 +104,7 @@ Use the options in the header to customize the appearance of the documentation:
 
 * **Release Tag** - If the documentation has multiple [release tags](/docs/publishing-your-api/documenting-your-api/#documenting-releases), you can select a specific release to view.
 * **Environment** - If an [environment](/docs/publishing-your-api/documenting-your-api/#associating-environments-with-documentation) was published with the documentation, you can select it to populate any variables.
-* **Layout** - **Double column** displays sample code in a column to the right of the documentation. **Single column** displays sample code inline beneath each request.
+* **Layout** - **Double column** displays sample code in a column next to the documentation. **Single column** displays sample code inline beneath each request.
 * **Language** - Select a language to use for sample code.
 * **Language Settings** - Select the language settings icon <img alt="Language settings icon" src="https://assets.postman.com/postman-docs/icon-gear-solid-v9.jpg#icon" width="16px"> to customize settings for any of the available languages.
 
@@ -120,7 +119,3 @@ Want to share a specific endpoint with someone or bookmark it for later? You can
 To save a link, select a section, folder, or request in the sidebar. Copy the URL in your browser's address bar, or save it as a bookmark. Next time, you can use the URL to link directly to the selected section.
 
 <img alt="Documentation links" src="https://assets.postman.com/postman-docs/documentation-copy-link-v9.jpg" width="773px"/>
-
-## Next steps
-
-Learn more about [collaborating with your team](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/) in Postman.

@@ -43,7 +43,6 @@ Public documentation automatically includes details for each request or endpoint
 * [Sharing your public docs](#sharing-your-public-docs)
 * [Changing publication settings](#changing-publication-settings)
 * [Unpublishing your docs](#unpublishing-your-docs)
-* [Next steps](#next-steps)
 
 ## Making your documentation public
 
@@ -62,7 +61,7 @@ To publish the documentation for a collection:
     * **Release tag** - Select one or more [release tags](/docs/publishing-your-api/documenting-your-api/#documenting-releases) to publish. Users can view documentation for each selected release.
     * **Environment** - Select an [environment](/docs/publishing-your-api/documenting-your-api/#associating-environments-with-documentation) to publish environment variables with your documentation. *The initial values of all variables are published with your documentation, so make sure they don't contain sensitive information such as passwords or tokens.*
     * **Custom domain** - Select a [custom domain](/docs/publishing-your-api/custom-doc-domains/) where you want to publish your documentation.
-    * **Default layout** - Select a layout style for your documentation. **Double column** displays sample code in a column to the right of the documentation. **Single column** displays sample code inline beneath each request.
+    * **Default layout** - Select a layout style for your documentation. **Double column** displays sample code in a column next to the documentation. **Single column** displays sample code inline beneath each request.
     * **Header background color** - Specify a color (hex format) for the header at the top of the documentation window.
     * **Code background color** - Specify a color (hex format) for sample code blocks.
     * **Highlight color** - Specify a color (hex format) for hyperlinks.
@@ -119,7 +118,3 @@ If you no long want your documentation to be publicly available, you can unpubli
 If you change your mind, you can [publish your documentation](#making-your-documentation-public) again at any time.
 
 <img alt="Unpublish documentation" src="https://assets.postman.com/postman-docs/documentation-unpublish-v9.jpg" width="737px">
-
-## Next steps
-
-Learn more about [viewing documentation](/docs/publishing-your-api/viewing-documentation/).

@@ -58,7 +58,7 @@ You can create a WebSocket request from the sidebar in Postman.
 
     [![New Screen](https://assets.postman.com/postman-docs/new-request-websocket-v91.jpg)](https://assets.postman.com/postman-docs/new-request-websocket-v91.jpg)
 
-1. In the upper left of the request tab, select either **Raw** for a raw WebSocket request, or **Socket.IO** for a Socket.IO request.
+1. Using the dropdown list in the request tab, select either **Raw** for a raw WebSocket request, or **Socket.IO** for a Socket.IO request.
 1. Enter the WebSocket server URL. A WebSocket URL begins with `ws://` or `wss://`.
 
     [![WebSocket server URL](https://assets.postman.com/postman-docs/websocket-server-url-v11.jpg)](https://assets.postman.com/postman-docs/websocket-server-url-v11.jpg)
@@ -80,7 +80,7 @@ When you have finished composing your message, select **Send**. The sent message
 
 ### Saving messages
 
-You can also save composed messages, then re-send them later. To the right of the editor pane is a collapsible pane for **Saved Messages**.
+You can also save composed messages, then re-send them later.
 
 To save a message:
 
@@ -90,7 +90,7 @@ To save a message:
 
 To load a saved message:
 
-1. Open the **Saved Messages** pane to the right of the editor pane.
+1. Open the **Saved Messages** pane next to the editor pane.
 1. Select a saved message. It will be loaded into the editor pane.
 1. You can then send the message, or edit it and select **Save Message** to save the changes. Select **Discard Changes** to remove them.
 
@@ -108,7 +108,7 @@ There is also an **Acknowledgement** option; when selected, the server will ackn
 
 <img src="https://assets.postman.com/postman-docs/socketio-event-name.jpg" alt="Socket.IO event name" width="500px">
 
-You can also add arguments to a Socket.IO connection. In the bottom left of the editor pane, select **+ Arg**. A sidebar will open to the left of the editor pane adding an argument and a new editor pane for the argument's message. Hover over an existing argument and select **x** to delete it. The workflow to inspect each argument's message is similar.
+You can also add arguments to a Socket.IO connection. Select **+ Arg** in the editor pane. This opens a sidebar with a new argument that you can use to add the argument's message. Hover over an existing argument and select **x** to delete it. The workflow to inspect each argument's message is similar.
 
 <img src="https://assets.postman.com/postman-docs/socketio-second-arg.jpg" alt="Socket.IO arguments" width="400px">
 
@@ -120,7 +120,7 @@ At the top of the message pane is a connection details badge. It shows if the co
 
 [![WebSocket messages](https://assets.postman.com/postman-docs/websocket-messages.jpg)](https://assets.postman.com/postman-docs/websocket-messages.jpg)
 
-Above the message display are the following controls:
+The **Messages** pane has the following controls:
 
 * Search control - Enter a search term to display only messages containing the term. Select <img alt="Close icon" src="https://assets.postman.com/postman-docs/icon-close.jpg#icon" width="16px"> to end the search.
 * Message type list - Select if you want to view all messages, or only incoming or outgoing messages.
@@ -148,7 +148,7 @@ In an expanded message:
 
 In Socket.IO, you have the ability to listen to specific events. The **Messages** pane will only display the received events for which you've added listeners. Events will be color-coded by event to make them easier to find.
 
-To the left of the **Messages** pane in a Socket.IO request is a **Listeners** panel of listener events. To listen to a new event, enter the name of an event and select **+** to add it. Select the toggle next to an event to turn listening on or off for that event. If you hover over the toggle, you can delete the event listener.
+The **Listeners** panel shows listener events. To listen to a new event, enter the name of an event and select **+** to add it. Select the toggle next to an event to turn listening on or off for that event. If you hover over the toggle, you can delete the event listener.
 
 [![Socket.IO message body](https://assets.postman.com/postman-docs/socketio-message-body.jpg)](https://assets.postman.com/postman-docs/socketio-message-body.jpg)
 
@@ -156,7 +156,7 @@ Messages will indicate if they have multiple arguments. When you expand the mess
 
 [![WebSocket message body](https://assets.postman.com/postman-docs/socketio-message-with-args.jpg)](https://assets.postman.com/postman-docs/socketio-message-with-args.jpg)
 
-Prior to making a connection, you can also add events in the **Events** tab above the editor pane. This enables you to add a description for each event and select if the event will listen when the connection is made.
+Prior to making a connection, you can also add events in the **Events** tab. This enables you to add a description for each event and select if the event will listen when the connection is made.
 
 ## Using variables in requests and messages
 
@@ -166,7 +166,7 @@ See [Using variables](/docs/sending-requests/variables/) for more information on
 
 ## Adding request details
 
-You can add details to your request, for example to send additional parameters and headers. You can also configure the connection. Select the **Params**, **Headers**, or **Settings** tab above the editor pane to make changes.
+You can add details to your request, for example to send additional parameters and headers. You can also configure the connection. Select the **Params**, **Headers**, or **Settings** tab to make changes.
 
 > You can't change request details while you are connected. You must make any changes before you connect, or select **Disconnect** to stop the current connection.
 
@@ -197,7 +197,7 @@ You can save your WebSocket requests into a collection. This enables you to reus
 
 To save a request:
 
-1. In the upper right of the request tab, select **Save**.
+1. Select **Save** in the request tab.
 1. In **Save request**, under **Save to**, select a collection, or select **Create collection**. (Note that there are limitations to WebSocket requests in collections. Keep reading for more information.)
 1. If you are creating a new collection, enter a name and select **Create**.
 1. Select **Save**.

@@ -863,6 +863,10 @@ export const leftNavItems = [
         url: '/docs/integrations/webhooks/',
       },
       {
+        name: 'Installed Apps',
+        url: '/docs/integrations/installed-apps/'
+      },
+      {
         name: 'CI Integrations',
         url: '/docs/integrations/ci-integrations/',
       },

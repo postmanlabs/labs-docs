@@ -61,7 +61,7 @@ footer {
 
   span {
     border: 1px solid rgb(218, 233, 241);
-    border-radius: 30px;
+    border-radius: $borderRadiusLarge;
     padding: 0 7px 0 4px;
     display: inline-block;
     white-space: pre;

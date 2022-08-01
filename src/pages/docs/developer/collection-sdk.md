@@ -47,8 +47,10 @@ console.log(myCollection.toJSON());
 
 The Collection SDK provides an interface for working with the data structures defined by the [Postman Collection Schema](https://schema.postman.com/). You can use the SDK methods to create and manipulate collection elements, define request detail, variables, authentication, and so on.
 
-## Next steps
-
 Get started with the Collection SDK from the [project repo](https://github.com/postmanlabs/postman-collection), installing it and using the methods to build collections in a way that suits your development or testing project. You can also fork and contribute to the project, or create issues for any problems or feature requests.
 
-If you're working with the Collection SDK to automate part of your collection run workflow, you can integrate your Collection SDK development using [Newman](/docs/running-collections/using-newman-cli/command-line-integration-with-newman/), Postman's command-line collection runner.
+## Next steps
+
+If you're working with the Collection SDK to automate part of your collection run workflow, you might also want to integrate your Collection SDK development with Newman, Postman's command-line collection runner:
+
+* To learn more about integrating your Collection SDK development with Newman, visit [Running collections on the command line with Newman](/docs/running-collections/using-newman-cli/command-line-integration-with-newman/).

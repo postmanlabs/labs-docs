@@ -22,14 +22,9 @@ contextual_links:
   - type: link
     name: "Dynamic Mock Behavior | Postman Level Up"
     url: "https://youtu.be/av7SZo9sZAE"
-  - type: subtitle
+  - type: dynamic_blog
     name: "Blog Posts"
-  - type: link
-    name: "Using Mock Servers throughout the API Lifecycle"
-    url:  "https://blog.postman.com/using-mock-servers-throughout-the-api-lifecycle/"
-  - type: link
-    name: "Introducing Postman Mock Call Logs"
-    url:  "https://blog.postman.com/introducing-postman-mock-call-logs/"
+    blog_tag: "mock-server"
   - type: subtitle
     name: "Case Studies"
   - type: link

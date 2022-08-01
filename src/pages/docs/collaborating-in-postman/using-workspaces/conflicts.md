@@ -46,4 +46,6 @@ If you update the conflict selections and want to revert to the original selecti
 
 ## Next steps
 
-You can use [version control](/docs/collaborating-in-postman/version-control-for-collections/) on your collections to manage changes within a team, for example by creating forks and opening pull requests to merge your changes.
+Using Postman's version control features to manage changes within a team can help you avoid conflicts:
+
+* To learn more about version features including forking and creating pull requests, visit [Using version control](/docs/collaborating-in-postman/version-control-for-collections/).

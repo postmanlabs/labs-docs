@@ -52,8 +52,6 @@ Postman can convert an API request into a code snippet, and you can choose the p
 
 * [Supported languages and frameworks](#supported-languages-and-frameworks)
 
-* [Next steps](#next-steps)
-
 ## Generating code snippets in Postman
 
 1. Open the request you want to use for a code snippet, then select the code icon <img alt="Code icon" src="https://assets.postman.com/postman-docs/icon-code-snippet.jpg#icon" width="16px"> in the right panel.
@@ -105,7 +103,3 @@ Postman supports the following:
 | Swift | [URLSession](https://developer.apple.com/documentation/foundation/urlsession) |
 
 > To add a new language or setting, you can contribute to [Postman's open-source project](https://github.com/postmanlabs/postman-code-generators).
-
-## Next steps
-
-Learn about [Capturing HTTP requests](/docs/sending-requests/capturing-request-data/capturing-http-requests/) and [Interceptor](/docs/sending-requests/capturing-request-data/interceptor/).

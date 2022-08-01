@@ -69,7 +69,7 @@ To create a team workspace, enter the workspace name and summary, then select __
 
 [![Team workspace](https://assets.postman.com/postman-docs/create-workspace-v9.1.jpg)](https://assets.postman.com/postman-docs/create-workspace-v9.1.jpg)
 
-Select **Create Workspace** and Postman will open your new workspace. You can add elements to the workspace. Use __Invite__ in the upper right of Postman to add other users to the workspace.
+Select **Create Workspace** and Postman will open your new workspace. You can add elements to the workspace. Select __Invite__ in the Postman header to add other users to the workspace.
 
 To create a new workspace, you can select __New__ above the sidebar, then select __Workspace__ and follow the same steps.
 
@@ -81,4 +81,7 @@ You can also create a new workspace in the [Workspaces dashboard](https://app.ge
 
 ## Next steps
 
-Check out some tips on how to [use and manage your workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/). You can also use your workspace [activity feed](/docs/collaborating-in-postman/using-workspaces/changelog-and-restoring-collections/) to keep up to date with progress on the projects within it.
+Now that you've learned how to create a workspace, you can use them to collaborate with your team.
+
+* To learn more about what you and your team can do with workspaces, visit [Managing workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/).
+* You can also use your workspace [activity feed](/docs/collaborating-in-postman/using-workspaces/changelog-and-restoring-collections/) to keep up to date with progress on the projects within it.
