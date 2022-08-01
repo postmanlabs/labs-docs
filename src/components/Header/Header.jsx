@@ -1,7 +1,7 @@
 import React from 'react';
 import './Header.scss';
 import { trackCustomEvent } from 'gatsby-plugin-google-analytics';
-// import Dropdown from './Dropdown';
+import Dropdown from './Dropdown';
 import Search from '../search-hooks'
 import $ from 'jquery';
 
@@ -622,8 +622,8 @@ class Header extends React.Component {
                 />
               </svg>
             
-              {/* <Dropdown /> */}
-              <Search />
+              <Dropdown />
+              {/* <Search /> */}
             </div>
           </div>
         </nav>
