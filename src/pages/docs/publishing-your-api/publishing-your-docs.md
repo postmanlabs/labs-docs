@@ -84,7 +84,7 @@ If you have a [Team Admin role](/docs/collaborating-in-postman/roles-and-permiss
 
 ## Sharing your public docs
 
-To share your public documentation, share the published URL with your team members, other users, or the community. If you have forgotten the URL of your published documentation, you get it at any time:
+To share your public documentation, share the published URL with your team members, other users, or the community. If you have forgotten the URL of your published documentation, you can get it at any time:
 
 1. Select **Collections** in the sidebar.
 1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to a collection with published docs, and then select **View Documentation**.
