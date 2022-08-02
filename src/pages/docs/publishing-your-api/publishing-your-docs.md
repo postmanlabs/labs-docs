@@ -80,11 +80,11 @@ To publish the documentation for a collection:
 
 ## Adding a custom logo
 
-If you have a [Team Admin role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles), you can customize your published documentation with a team logo. To add a logo, [edit your team profile](/docs/administration/team-settings/#editing-your-team-profile) in your [team settings](https://go.postman.co/settings/team/general). Your team logo will replace the Postman logo in your team's published documentation. (It may take a few minutes for the new logo to appear.)
+If you have a [Team Admin role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles), you can customize your published documentation with a team logo. To add a logo, [edit your team profile](/docs/administration/team-settings/#editing-your-team-profile) in your [team settings](https://go.postman.co/settings/team/general). Your team logo will replace the Postman logo in your team's published documentation. (It may take several minutes for the new logo to appear.)
 
 ## Sharing your public docs
 
-To share your public documentation, share the published URL with your team members, other users, or the community. If you have forgotten the URL for your published documentation, you get it at any time:
+To share your public documentation, share the published URL with your team members, other users, or the community. If you have forgotten the URL of your published documentation, you get it at any time:
 
 1. Select **Collections** in the sidebar.
 1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to a collection with published docs, and then select **View Documentation**.
