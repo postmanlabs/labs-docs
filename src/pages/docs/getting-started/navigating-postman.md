@@ -22,14 +22,17 @@ contextual_links:
   - type: link
     name: "Universal Search | Postman Level Up"
     url: "https://www.youtube.com/watch?v=1K6Pl6o_tj8"
+  - type: link
+    name: "Find Related Collections | Postman Level Up"
+    url: "https://youtu.be/d7Nq7Vo4nHc"
   - type: subtitle
     name: "Blog Posts"
   - type: link
-    name: "Postman Now Recommends Related Collections in Requests"
-    url: "https://blog.postman.com/postman-now-recommends-collections-in-requests/"
-  - type: link
     name: "How Postman Designers Built the New Universal Search Feature"
     url: "https://blog.postman.com/how-postman-designers-built-the-new-universal-search-feature/"
+  - type: link
+    name: "Introducing Bulk Actions on Postman’s Sidebar"
+    url: "https://blog.postman.com/introducing-sidebar-bulk-actions/"
   - type: section
     name: "Next Steps"
   - type: link

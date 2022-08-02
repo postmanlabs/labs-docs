@@ -2,6 +2,15 @@
 title: "Security warnings"
 updated: 2022-07-20
 search_keyword: "api security, api schema, security warnings, schema validation, security validation, api security audit, api security scan, api schema vulnerabilities, security audit"
+contextual_links:
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Blog Posts"
+  - type: link
+    name: "Postman’s New Warnings Pane for API Testing"
+    url: "https://blog.postman.com/api-testing-warnings/"
+
 ---
 
 > **This feature is in beta.** During the beta period, it may not be available to all Postman users and is subject to potential change.
