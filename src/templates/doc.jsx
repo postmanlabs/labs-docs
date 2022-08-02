@@ -45,8 +45,6 @@ h2, h3, h4 {
     margin-bottom: 0;
   }
 
-  // WIP - need to get ul li markers to move away from text
-  ///////////////////////////////////////////////////////////////////
   ul {
     margin-left: 16px;
     margin-bottom: 24px;
@@ -78,8 +76,6 @@ h2, h3, h4 {
       }
     }
     li::before {
-      // content: "\2726";
-      // color: $orange_30 !important;
       direction: rtl !important;
       margin-left: -28px !important;
       padding-right: 16px !important;
@@ -101,7 +97,7 @@ h2, h3, h4 {
       color: $${(props) => props.theme.colors.grey_70};
     }
   }
-/////////////////////////////////////////////////////////////////////////
+
   a {
     height: 24px;
     color: ${(props) => props.theme.colors.blue_60};
@@ -142,7 +138,6 @@ h2, h3, h4 {
 
 // make left nav full width in mobile view
 .left-nav-re {
-  // z-index: -1;
   padding-left: 0px !important;
   padding-right: 0px !important;
   background-color: ${(props) => props.theme.colors.grey_05};
@@ -198,7 +193,6 @@ thead:first-child:hover tr{
 }
 
 code[class*="language-"] {
-  // word-wrap: unset !important;
   word-break: break-word !important;
   word-wrap: break-word !important;
   overflow-wrap: break-word !important;
@@ -212,7 +206,6 @@ code[class*="language-"] {
   overflow: auto;
   white-space: pre-wrap;
   word-break: break-word;
-  // max-width: 600px;
 
   code[class*="language-"],
   .token.comment, 
