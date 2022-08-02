@@ -1,7 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Footer renders correctly 1`] = `
-<footer>
+<footer
+  className="sc-bczRLJ gVQGGB"
+>
   <section
     className="pb-5 section"
     id="Footer"
@@ -19,7 +21,7 @@ exports[`Footer renders correctly 1`] = `
             className="row"
           >
             <div
-              className="col-6 col-md-3 col-lg-2 order-12 order-md-0 pad-md-right align-self-center"
+              className="sc-dkzDqf ksjPNj col-6 col-md-3 col-lg-2 order-12 order-md-0 pad-md-right align-self-center"
             >
               <img
                 alt="Postman"
@@ -45,7 +47,7 @@ exports[`Footer renders correctly 1`] = `
                   Product
                 </h2>
                 <ul
-                  className="column"
+                  className="sc-gsnTZi hmGxqE column"
                 >
                   <li
                     className="column-row"
@@ -205,7 +207,7 @@ exports[`Footer renders correctly 1`] = `
                     Company
                   </h2>
                   <ul
-                    className="column"
+                    className="sc-gsnTZi hmGxqE column"
                   >
                     <li
                       className="column-row"
@@ -278,7 +280,7 @@ exports[`Footer renders correctly 1`] = `
                     Security and Legal
                   </h2>
                   <ul
-                    className="column"
+                    className="sc-gsnTZi hmGxqE column"
                   >
                     <li
                       className="column-row"
@@ -342,7 +344,7 @@ exports[`Footer renders correctly 1`] = `
                       className="footer-col-title"
                     />
                     <ul
-                      className="column"
+                      className="sc-gsnTZi hmGxqE column"
                     >
                       <li
                         className="column-row"
@@ -360,7 +362,7 @@ exports[`Footer renders correctly 1`] = `
                             wrap="nowrap"
                           >
                             <div
-                              className="d-inline-block align-self-center social-svg"
+                              className="sc-hKMtZM dZiXNm d-inline-block align-self-center social-svg"
                               dangerouslySetInnerHTML={
                                 Object {
                                   "__html": undefined,
@@ -391,7 +393,7 @@ exports[`Footer renders correctly 1`] = `
                             wrap="nowrap"
                           >
                             <div
-                              className="d-inline-block align-self-center social-svg"
+                              className="sc-hKMtZM dZiXNm d-inline-block align-self-center social-svg"
                               dangerouslySetInnerHTML={
                                 Object {
                                   "__html": undefined,
@@ -422,7 +424,7 @@ exports[`Footer renders correctly 1`] = `
                             wrap="nowrap"
                           >
                             <div
-                              className="d-inline-block align-self-center social-svg"
+                              className="sc-hKMtZM dZiXNm d-inline-block align-self-center social-svg"
                               dangerouslySetInnerHTML={
                                 Object {
                                   "__html": undefined,
@@ -453,7 +455,7 @@ exports[`Footer renders correctly 1`] = `
                             wrap="nowrap"
                           >
                             <div
-                              className="d-inline-block align-self-center social-svg"
+                              className="sc-hKMtZM dZiXNm d-inline-block align-self-center social-svg"
                               dangerouslySetInnerHTML={
                                 Object {
                                   "__html": undefined,
@@ -484,7 +486,7 @@ exports[`Footer renders correctly 1`] = `
                             wrap="nowrap"
                           >
                             <div
-                              className="d-inline-block align-self-center social-svg"
+                              className="sc-hKMtZM dZiXNm d-inline-block align-self-center social-svg"
                               dangerouslySetInnerHTML={
                                 Object {
                                   "__html": undefined,
