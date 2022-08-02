@@ -65,13 +65,16 @@ To publish the documentation for a collection:
     * **Header background color** - Specify a color (hex format) for the header at the top of the documentation window.
     * **Code background color** - Specify a color (hex format) for sample code blocks.
     * **Highlight color** - Specify a color (hex format) for hyperlinks.
-    * **Move to public workspace** - (Optional) Select an available [public workspace](/docs/collaborating-in-postman/using-workspaces/public-workspaces/) to move the collection to. This will make the collection discoverable on the [Public API Network](https://www.postman.com/explore), along with its documentation.
 
-1. To understand what your documentation will look like using the current settings, select **Preview Documentation**. The preview automatically updates as you change settings.
+1. To preview your documentation using the current settings, select **Preview Documentation**. The preview automatically updates as you change settings.
 
     > If Postman detects a possibly sensitive token or other secret, a warning appears at the top of the preview window. Postman also highlights the token so you can remove it from the documentation before publishing.
 
-1. When you are finished changing settings, select **Publish Collection**. You can view your public documentation at the provided URL.
+1. When you're finished changing settings, publish your documentation:
+
+* **Postman Free, Basic, and Professional plans** - You can optionally select a [public workspace](/docs/collaborating-in-postman/using-workspaces/public-workspaces/) to move the collection to. This will make the collection discoverable on the [Public API Network](https://www.postman.com/explore). When you're ready, select **Publish**. You can view your public documentation at the provided URL.
+
+* **Postman Enterprise plans** - Your [Community Manager](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) controls the Postman elements your team makes public. Enter a note for your Community Manager and select **Request Publish**. When your request is approved, you will receive an email notification with a link to the public documentation. To retract your publish request, [change the pending publication settings](#changing-publication-settings) and select **Retract request**.
 
 [![Published documentation example](https://assets.postman.com/postman-docs/documentation-published-docs-v9.jpg)](https://assets.postman.com/postman-docs/documentation-published-docs-v9.jpg)
 
