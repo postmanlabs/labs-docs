@@ -40,7 +40,7 @@ Learn more about gRPC and how to use Postman for your gRPC needs using this docu
 
 - [Invoking your first gRPC request](/postman-api-client/grpc-client/first-grpc-request/)
 - [Using gRPC request](/postman-api-client/grpc-client/using-grpc-request/)
-- [Working with service definition](/postman-flows/getting-started/using-service-definition/)
+- [Working with service definition](/postman-api-client/grpc-client/using-service-definition/)
 
 ## Contribute
 
