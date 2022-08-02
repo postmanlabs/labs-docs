@@ -5,13 +5,13 @@ updated: 2022-05-12
 warning: false
 ---
 
-A very common use case is to take data from once response, and pipe that to another request. Let's consider an example where want to create a post and then want to use the id of that post in the next request to update it.
+A very common use case is to take data from one response and pipe that to another request. Let's consider an example where we want to create a post and then want to use the id of that post in the next request to update it.
 
 > Check out the example flow - [Chaining requests](https://www.postman.com/postman/workspace/example-flows/flow/6267fbc38752c1035922de4a)
 
 1. **Add two Send Request blocks**
 
-   Bring two Send Request blocks by clicking on the `+ Block` button on the toolbar. Select the ”Create a Post” for the first request and ”Update Post” request for the second.
+   Bring two Send Request blocks by clicking on the `+ Block` button from the toolbar. Select the ”Create a Post” for the first request and ”Update Post” request for the second.
 
    ![Add two requests](https://assets.postman.com/postman-labs-docs/chaining-requests/chaining-add-two-requests.gif)
 
