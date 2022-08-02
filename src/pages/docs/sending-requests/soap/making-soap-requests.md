@@ -1,7 +1,5 @@
 ---
-title: "Making SOAP requests"
-order: 39
-page_id: "making_soap_requests"
+title: "Using SOAP requests"
 updated: 2021-12-10
 contextual_links:
   - type: section
@@ -29,7 +27,7 @@ warning: false
 
 ---
 
-Postman can make HTTP calls using SOAP, a platform-independent messaging protocol specification, in addition to REST, [GraphQL](/docs/sending-requests/supported-api-frameworks/graphql/), and [WebSocket](/docs/sending-requests/supported-api-frameworks/websocket/) requests.
+Postman can make HTTP calls using SOAP, a platform-independent messaging protocol specification.
 
 The following steps show how to make a SOAP request in Postman.
 
