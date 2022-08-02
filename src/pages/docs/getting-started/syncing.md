@@ -19,7 +19,7 @@ warning: false
 
 ---
 
-Postman automatically syncs changes across all devices that are linked to your account, including edits, updates, additions, or deletions. As long as you're signed into Postman in the desktop app or in the web version, and have a reliable internet connection, your data will sync.
+Postman automatically syncs changes across all devices that are linked to your account, including edits, updates, additions, or deletions. As long as you're signed into Postman, and have a reliable internet connection, your data will sync.
 
 * When you _sign out_, Postman removes your synced data from your local storage.
 * When you _sign back in_, Postman restores your data from the cloud.

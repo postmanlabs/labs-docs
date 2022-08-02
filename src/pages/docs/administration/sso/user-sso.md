@@ -24,7 +24,7 @@ To sign into Postman:
 1. Select **Home** in the upper-left, then select **Sign in**
 1. Open [Postman's website](https://www.postman.com/) and select **Sign In** in the upper-right corner
 
-When you opt to sign into the desktop version of Postman, your default browser will automatically open a webpage asking you to sign into Postman.
+When you opt to sign into the Postman desktop app, your default browser will automatically open a webpage asking you to sign into Postman.
 
 > Your browser will open within a few seconds. If it doesn't, select **open your browser** in Postman. <img src="https://assets.postman.com/postman-docs/sign-in-with-web-browser.jpg" alt="Sign in with web browser"/>
 
