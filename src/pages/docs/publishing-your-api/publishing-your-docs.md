@@ -2,7 +2,7 @@
 title: "Publishing your docs"
 order: 103
 page_id: "publishing_your_docs"
-updated: 2021-09-30
+updated: 2022-08-02
 contextual_links:
   - type: section
     name: "Prerequisites"

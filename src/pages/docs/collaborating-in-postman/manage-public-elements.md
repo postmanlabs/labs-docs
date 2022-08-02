@@ -1,7 +1,7 @@
 ---
 title: "Managing public elements"
 order: 76.1
-updated: 2021-08-23
+updated: 2022-08-02
 page_id: "manage_public_elements"
 warning: false
 contextual_links:
