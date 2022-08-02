@@ -28,7 +28,7 @@ Tests ensure that your APIs are working as expected and consistently delivering 
 You can leverage [scripts](/postman-api-client/grpc-client/writing-scripts/scripting-in-grpc-request/) to write tests for your gRPC requests. To do so:
 
 1. Go to the **Scripts** tab in your gRPC request.
-2. Select the execution hook (**Pre-invoke** or **Response**) to which you want to add a test.
+2. Select the execution hook (**Before invoke** or **After response**) to which you want to add a test.
 3. Use [snippets](#using-snippets) from the right panel to add a test or [write customized assertions](#writing-your-assertions).
 
 Both the execution hooks are available for all gRPC requests irrespective of the method type being unary, client streaming, server streaming, or bidirectional streaming. Your scripts can include however many tests you need and will save along with the rest of your request when you click **Save**.
@@ -66,15 +66,15 @@ pm.test("Environment to be production", function () {
 
 The script editor also has a built-in auto-complete feature for Javascript and pm.* APIs that helps you write your assertions faster and accurately.
 
-<img src="https://assets.postman.com/postman-labs-docs/grpc-docs/writing-scripts/grpc-scripts-autocompletion.gif" alt="Autocompletion in scripts">
+<img src="https://assets.postman.com/postman-labs-docs/grpc-docs/writing-scripts/autocompletion-in-grpc-scripts.gif" alt="Autocompletion in gRPC scripts">
 
 Check out the comprehensive list of [example tests](/postman-api-client/grpc-client/writing-scripts/examples) to even better understand how to write your own tests for some common scenarios.
 
 ## Running your tests
 
-To run your tests, click **Invoke**. Test suites present in the Pre-invoke script will be executed first, followed by the ones in Response script. If you wish to stop the request execution at any point, you can manually click **Cancel**. Doing so will also abort the execution of any scripts further.
+To run your tests, click **Invoke**. Test suites present in the Before invoke script will be executed first, followed by the ones in After response script. If you wish to stop the request execution at any point, you can manually click **Cancel**. Doing so will also abort the execution of any scripts further.
 
-> If there are any errors in your Pre-invoke script, it will abort the request execution.
+> If there are any errors in your Before invoke script, it will abort the request execution.
 
 To learn more about how to debug your tests, head over to [debugging your tests](#debugging-your-tests).
 

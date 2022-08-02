@@ -37,7 +37,7 @@ The `pm` object provides functionality for testing your request and response dat
 
 #### pm.request
 
-The `pm.request` object provides access to the request data inside your scripts. `pm.request` is available in both **Pre-invoke** and **Response** scripts.
+The `pm.request` object provides access to the request data inside your scripts. `pm.request` is available in both **Before invoke** and **After response** scripts.
 
 Following are the properties of the `pm.request` object:
 
@@ -73,7 +73,7 @@ Following are the properties of the `pm.request` object:
 
 #### pm.response
 
-The `pm.response` object provides access to the data returned in the response for the current request execution. `pm.response` is only available in the **Response** scripts.
+The `pm.response` object provides access to the data returned in the response for the current request execution. `pm.response` is only available in the **After response** scripts.
 
 Following are the properties of the `pm.response` object:
 
@@ -116,7 +116,7 @@ Following are the properties of the `pm.info` object:
 
 * The name of execution hook. It will be either `preinvoke` or `response` depending if the script is executing in **Pre-invoke** or **Response** hook respectively.
   
-  ><code>pm.info.eventName: 'preinvoke' | 'response'</code>
+  ><code>pm.info.eventName: 'beforeInvoke' | 'afterResponse'</code>
 
 * A unique ID that identifies the current request inside which the script is running:
   
