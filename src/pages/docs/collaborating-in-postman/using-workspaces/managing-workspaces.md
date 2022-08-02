@@ -103,7 +103,7 @@ To change workspace visibility:
 1. On the workspace's **Overview** tab, select **Workspace Settings**.
 1. Select a **Visibility** for the workspace:
     * **Personal** - Only you can access.
-    * **Private** - Only invited team members can access.
+    * **Private** - Only invited team members can access ([Professional and Enterprise plans only](https://www.postman.com/pricing)).
     * **Team** - All team members can access.
     * **Public** - Everyone can view.
 1. Select **Update**.
@@ -128,7 +128,7 @@ Your ability to share workspaces with teammates depends on your [workspace role]
 
 Individual team members and groups you invite will be notified immediately of your request to collaborate. External users who aren't on your Postman team will receive an invitation to join immediately if you're a [Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles). If you aren't a Team Admin, your request to add external users to your Postman team will be shared with your Team Admins for approval.
 
-You can also invite collaborators by selecting <img alt="Link icon" src="https://assets.postman.com/postman-docs/icon-workspace-link-v9.jpg#icon" width="18px"> **Copy Invite Link** and sharing the link with them outside of Postman. When individuals select the link, they'll be prompted to sign in or sign up. If you are a Team Admin inviting an external user, they'll be automatically added to your team. If you aren't a Team Admin, a request to add them to your Postman team will be shared with your Team Admins for approval.
+You can also invite collaborators by selecting <img alt="Link icon" src="https://assets.postman.com/postman-docs/icon-workspace-link-v9.jpg#icon" width="18px"> **Copy Invite Link** and sharing the link with them outside of Postman. When individuals select the link, Postman will prompt them to sign in or sign up. If you are a Team Admin inviting an external user, they'll be automatically added to your team. If you aren't a Team Admin, a request to add them to your Postman team will be shared with your Team Admins for approval.
 
 ### Approving requests for access to private workspaces
 
@@ -177,7 +177,7 @@ To stop watching a workspace, select **Unwatch** in the workspace's **Overview**
 
 Workspaces can contain elements such as collections, APIs, environments, mock servers, and monitors. A particular element can exist only in a single workspace. If needed, you can move elements to a different workspace.
 
-> Monitors can't be moved. If you move a collection that's being monitored, the associated monitor is paused and stays in the original workspace.
+> Monitors can't be moved. If you move a collection that has an active monitor, the associated monitor is paused and stays in the original workspace.
 
 To move an element to a different workspace:
 

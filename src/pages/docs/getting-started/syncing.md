@@ -19,7 +19,7 @@ warning: false
 
 ---
 
-Postman automatically syncs changes across all devices that are linked to your account, including edits, updates, additions, or deletions. As long as you are signed into Postman in the desktop app or in the web version, and have a reliable internet connection, your data will sync.
+Postman automatically syncs changes across all devices that are linked to your account, including edits, updates, additions, or deletions. As long as you're signed into Postman in the desktop app or in the web version, and have a reliable internet connection, your data will sync.
 
 * When you _sign out_, Postman removes your synced data from your local storage.
 * When you _sign back in_, Postman restores your data from the cloud.
@@ -35,9 +35,9 @@ Postman indicates the sync state of your workspace with the sync icon in the foo
 
 * **Offline** means that you aren't connected to the Postman servers. This may mean that your computer isn't connected to the internet.
 
-    > If you're offline, you will be in the _Scratch Pad_, a space where you can work locally without an internet connection or signing in to Postman. The work that you do in the Scratch Pad won't be synced to Postman, but you can export it and import it into a workspace later. For more information, see [Using the Scratch Pad](/docs/getting-started/using-scratch-pad/).
+    > If you're offline, you'll be in the _Scratch Pad_, a space where you can work locally without an internet connection or signing in to Postman. The work that you do in the Scratch Pad isn't synced to Postman, but you can export it and import it into a workspace later. For more information, see [Using the Scratch Pad](/docs/getting-started/using-scratch-pad/).
 
-* **Online** means that you are connected to the Postman servers and your work is either in the process of syncing or is already synced.
+* **Online** means that you're connected to the Postman servers and your work is either in the process of syncing or is already synced.
 * **Error** means there was a syncing error while connecting to Postman. Hover over the sync state icon to see detailed information on the error.
 
 > You may occasionally experience sync conflicts between Postman and its servers, particularly when you work as part of a team. When this happens, Postman will prompt you to [resolve any conflicts](/docs/collaborating-in-postman/using-workspaces/conflicts/) that occur.
@@ -46,6 +46,6 @@ Postman indicates the sync state of your workspace with the sync icon in the foo
 
 Some organizations have security guidelines that prevent team members from syncing data to the Postman cloud. In this situation, you can use Postman without an account and [manually back up your data locally](/docs/getting-started/importing-and-exporting-data/#exporting-postman-data).
 
-You can delete data that is already synced to Postman by [deleting your account](#deleting-your-postman-account). Note that if you are a part of a Postman team, you must first [leave the team](/docs/getting-started/postman-account/#leaving-a-team) to delete your account.
+You can delete data that's already synced to Postman by [deleting your account](/docs/getting-started/postman-account/#deleting-your-account). Note that you must [leave all Postman teams](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/#leaving-a-team) that you're a member of prior to deleting your account.
 
 > Learn more about [Security at Postman](https://www.postman.com/trust/security/).

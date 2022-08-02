@@ -29,7 +29,7 @@ Setting up a New Relic monitor integration requires you to get an API key (Inges
 If you don't already have a [New Relic account](https://newrelic.com/), you'll need to [create one](https://newrelic.com/signup?utm_source=external_partners&utm_medium=referral&utm_campaign=global-fy22-q3-io-partner&utm_content=postman_qs). Then follow the steps below to retrieve your Ingest License key from New Relic:
 
 1. Sign in to [New Relic](https://login.newrelic.com).
-1. Select your user avatar in the upper right corner, then select **API keys**.
+1. Select your avatar in the upper right corner, then select **API keys**.
 1. Select the three dots next to the **INGEST - LICENSE** key and then select **Copy**.
 
 <img alt="Get a New Relic Ingest key" src="https://assets.postman.com/postman-docs/new-relic-get-ingest-key-v9-6.jpg" width="1109px">
