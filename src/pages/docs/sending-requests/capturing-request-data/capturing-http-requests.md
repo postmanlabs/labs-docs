@@ -68,7 +68,7 @@ In the steps below, you will use the Postman app's proxy to inspect HTTP communi
 
 ### Step 1: Enable the proxy
 
-> You can't use the Postman proxy with [Postman for web](/docs/getting-started/installation-and-updates/#web-limitations). Make sure you've installed the [Postman desktop app](/docs/getting-started/installation-and-updates/).
+> You can't use the Postman proxy with the [Postman web app](/docs/getting-started/installation-and-updates/#web-limitations). Make sure you've installed the [Postman desktop app](/docs/getting-started/installation-and-updates/).
 
 To begin, start the proxy inside Postman:
 

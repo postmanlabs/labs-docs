@@ -73,7 +73,7 @@ To view the workspace ID, select the information icon <img alt="Information icon
 
 > Private workspaces are only available to [Professional and Enterprise](https://www.postman.com/pricing/) teams.
 
-To collaborate in a private workspace, you must be [invited](#sharing-workspaces) by a Workspace Editor or Admin, or request access to it and be approved. If you're using [Postman on the web](/docs/getting-started/installation-and-updates/#using-postman-on-the-web) and navigate to a link a teammate has shared to a private workspace or an element within one, you'll have the option to request access to the workspace.
+To collaborate in a private workspace, you must be [invited](#sharing-workspaces) by a Workspace Editor or Admin, or request access to it and be approved. If you're using the [Postman web app](/docs/getting-started/installation-and-updates/#using-the-postman-web-app) and navigate to a link a teammate has shared to a private workspace or an element within one, you'll have the option to request access to the workspace.
 
 <img alt="Request access to private workspace" src="https://assets.postman.com/postman-docs/user-rfa-private-workspace-v9.16.jpg"/>
 
@@ -121,8 +121,8 @@ You can invite team members, [groups](/docs/administration/managing-your-team/us
 Your ability to share workspaces with teammates depends on your [workspace role](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles):
 
 * **Workspace Admin** - Can invite Postman teammates or external users to personal, private, team, and public workspaces, and assign them a workspace role. If a Workspace Admin invites an external user to a workspace, Postman will share this request with [Team Admins](https://learning.postman.com/docs/collaborating-in-postman/roles-and-permissions/#team-roles). Once approved, an invite to join the team will be sent to the individual.
-* **Workspace Editor** - Can invite external users to team and public workspaces, but can't assign them workspace roles. For private workspaces, Workspace Editors using [Postman on the web](/docs/getting-started/installation-and-updates/#using-postman-on-the-web) can copy and share a link to the workspace with a teammate, who can then [request access to the workspace](#accessing-private-workspaces).
-* **Workspace Viewer** - Can't invite teammates to private, team, or public workspaces. For private workspaces, Workspace Viewers using [Postman on the web](/docs/getting-started/installation-and-updates/#using-postman-on-the-web) can copy and share a link to the workspace with a teammate, who can then [request access to the workspace](#accessing-private-workspaces).
+* **Workspace Editor** - Can invite external users to team and public workspaces, but can't assign them workspace roles. For private workspaces, Workspace Editors using the [Postman web app](/docs/getting-started/installation-and-updates/#using-the-postman-web-app) can copy and share a link to the workspace with a teammate, who can then [request access to the workspace](#accessing-private-workspaces).
+* **Workspace Viewer** - Can't invite teammates to private, team, or public workspaces. For private workspaces, Workspace Viewers using the [Postman web app](/docs/getting-started/installation-and-updates/#using-the-postman-web-app) can copy and share a link to the workspace with a teammate, who can then [request access to the workspace](#accessing-private-workspaces).
 
 > When you invite a collaborator to a personal workspace, it's automatically converted into a team workspace.
 
