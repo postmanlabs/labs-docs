@@ -22,7 +22,7 @@ To create a new uptime monitor, enter the URL and select which team members to n
 
 Use the uptime monitor dashboard to check if the API endpoint is up or down and the average response time. You can also view previous downtime incidents and get insights into the availability of the endpoint over time.
 
-> **The Postman uptime monitors feature is in open beta.** If you have feedback on uptime monitors, visit our [GitHub discussion board](https://github.com/postmanlabs/uptime-monitors/discussions) and tell us about your experience.
+> **The uptime monitors open beta period is over.** You can no longer create new uptime monitors. Your existing uptime monitors will keep working, and you can continue to use them to monitor API uptime. For updates, visit our [GitHub discussion board](https://github.com/postmanlabs/uptime-monitors/discussions).
 
 ## Contents
 
