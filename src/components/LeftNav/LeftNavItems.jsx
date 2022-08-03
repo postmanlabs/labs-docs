@@ -299,6 +299,25 @@ export const leftNavItems = [
     ],
   },
   {
+    name: 'Using the Postman CLI',
+    parentSlug: 'postman-cli',
+    url: '/docs/postman-cli/postman-cli-overview/',
+    subMenuItems1: [
+      {
+        name: 'Postman CLI overview',
+        url: '/docs/postman-cli/postman-cli-overview/',
+      },
+      {
+        name: 'Installing the Postman CLI',
+        url: '/docs/postman-cli/postman-cli-installation/',
+      },
+      {
+        name: 'Postman CLI command options',
+        url: '/docs/postman-cli/postman-cli-options/',
+      },
+    ],
+  },
+  {
     name: 'Collaborating in Postman',
     parentSlug: 'collaborating-in-postman',
     url: '/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/',
