@@ -2,7 +2,7 @@
 title: "Monitoring API uptime"
 order: 88
 page_id: "uptime_monitors"
-updated: 2022-05-24
+updated: 2022-08-03
 contextual_links:
   - type: section
     name: "Additional Resources"
