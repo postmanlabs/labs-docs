@@ -2,7 +2,7 @@
 title: "Monitoring your APIs"
 order: 88
 page_id: "intro_monitors"
-updated: 2022-2-14
+updated: 2022-08-03
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -79,6 +79,8 @@ You can configure your monitors to run as frequently as you would like, dependin
 Get alerted by email if a test fails or errors occur, or [set up integrations](/docs/integrations/intro-integrations/) to be notified over Slack and other channels. All results are recorded on the monitor’s dashboard, so you can view past results or inspect trends over time.
 
 Learn how to [set up a collection-based monitor](/docs/monitoring-your-api/setting-up-monitor/).
+
+> Because monitors run in the cloud, there are some differences compared to sending requests and running collections in Postman. To learn more, see the [Monitoring FAQs](/docs/monitoring-your-api/faqs-monitors/#can-i-upload-files-or-attach-data-files).
 
 ### Use cases
 

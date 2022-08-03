@@ -1,7 +1,7 @@
 ---
 title: "Monitoring FAQs"
 page_id: "faqs_monitors"
-updated: 2022-07-05
+updated: 2022-08-03
 search_keyword: "console.log, console.warn"
 warning: false
 ---
@@ -50,7 +50,11 @@ There is no specific limit to the amount of data that can be sent or received pe
 
 ### Can I upload files or attach data files?
 
-You can't attach files to requests, like you can in the request builder, but you can upload data as a raw request body. Also, you can't attach data files, like you can in the collection runner, but you can access files using APIs such as Google Docs, Google Sheets, and Dropbox.
+Because monitors run in the cloud, there are some differences compared to sending requests and running collections in Postman:
+
+* You can't attach form data or binary files to requests like you can in the [request builder](https://learning.postman.com/docs/sending-requests/requests/#form-data). Instead, you can add [raw data](https://learning.postman.com/docs/sending-requests/requests/#raw-data) on the request's **Body** tab to send JSON or other text data with the request.
+
+* You can't import data files like you can in the [collection runner](/docs/running-collections/working-with-data-files/). Instead, you can use files that can be retrieved by an API from cloud services such as Google Docs or Dropbox.
 
 ### Are static IP addresses dedicated to individual customers or shared?
 
