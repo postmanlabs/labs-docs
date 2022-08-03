@@ -173,23 +173,16 @@ export const leftNavItems = [
         ],
       },
       {
-        name: 'Supported API Frameworks',
-        subParentSlug: 'supported-api-frameworks',
-        slug: '/docs/sending-requests/supported-api-frameworks/graphql/',
-        subMenuItems2: [
-          {
-            name: 'Querying with GraphQL',
-            url: '/docs/sending-requests/supported-api-frameworks/graphql/',
-          },
-          {
-            name: 'Using WebSocket Requests',
-            url: '/docs/sending-requests/supported-api-frameworks/websocket/',
-          },
-          {
-            name: 'Making SOAP Requests',
-            url: '/docs/sending-requests/supported-api-frameworks/making-soap-requests/',
-          },
-        ],
+        name: 'Querying with GraphQL',
+        url: '/docs/sending-requests/graphql/graphql/',
+      },
+      {
+        name: 'Using WebSocket Requests',
+        url: '/docs/sending-requests/websocket/websocket/',
+      },
+      {
+        name: 'Using SOAP Requests',
+        url: '/docs/sending-requests/soap/making-soap-requests/',
       },
     ],
   },
