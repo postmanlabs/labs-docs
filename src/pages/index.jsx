@@ -164,7 +164,7 @@ class IndexPage extends React.Component {
                     Check out the docs and support resources!
                   </p>
                   <a href="/docs/getting-started/introduction/" className="btn btn__primary-hollow mb-5">
-                    Explore the docs
+                    Explore the Docs
                   </a>
                 </div>
                 <div className="col-sm-12 col-md-6 col-lg-6 align-self-center">
