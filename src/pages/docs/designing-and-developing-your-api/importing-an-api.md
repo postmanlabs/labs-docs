@@ -1,6 +1,6 @@
 ---
 title: 'Importing an API'
-updated: 2022-07-31
+updated: 2022-09-15
 search_keyword: "import, aws, api gateway"
 contextual_links:
   - type: section
@@ -23,6 +23,7 @@ You can import an existing API definition into your API. API definitions can be 
 ## Contents
 
 * [Importing API definitions](#importing-api-definitions)
+* [Importing multi-file API definitions](#importing-multi-file-api-definitions)
 * [Importing API definitions from GitHub](#importing-api-definitions-from-github)
 * [Importing API definitions from Bitbucket](#importing-api-definitions-from-bitbucket)
 * [Importing API definitions from Amazon API Gateway](#importing-api-definitions-from-amazon-api-gateway)
@@ -50,20 +51,14 @@ When importing into a team workspace, you can also choose to add the APIs to the
 
 ## Importing multi-file API definitions
 
-<!-- TODO - OTHER NOTES
-import flow is different - shifts to a tab instead of a popup
-shows files in the folder
-you don't select, it just gets everything
+If your API definition consists of multiple files:
 
-this creates one version - if you wanted another, you'd create new version and carry over elements
+1. From the sidebar, select __APIs__, then select **Import**.
+1. Select **Folder**, then select a local folder with your API files.
+1. In the **Import Entities** tab, select the files you want to import for the API definition.
+1. Select **Import** to bring your API definition into Postman.
 
-github/repo import - largely the same, except where you land
-
-ignores non-api stuff in repo - only pulls in api, collection jsons
-
-this is only import flow and the landing screen bit changes, not a brand new
-
--->
+See [Editing multi-file API definitions](/docs/designing-and-developing-your-api/defining-an-api/#editing-multi-file-API-definitions) for more information on multi-file API definitions.
 
 ## Importing API definitions from GitHub
 
