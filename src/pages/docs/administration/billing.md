@@ -152,7 +152,7 @@ After account verification, Postman will send you a confirmation email. It can t
 You can choose to verify your bank account manually instead of using the automatic process documented in [Setting up direct debit payments](#setting-up-direct-debit-payments). This manual process may take up to two days.
 
 1. Select **Add payment method**, then select **ACH Direct Debit**.
-1. Enter your email and your name, then select **Enter your bank account manually instead**.
+1. Enter your email and your name, then select **Enter bank details manually instead**.
 1. Enter your routing number and bank account number. Confirm your account number, then select **Continue**.
 
 In one to two business days, Stripe will make a small test deposit into your bank account that you will use to verify your bank account and will email you with further instructions. To verify your account:
