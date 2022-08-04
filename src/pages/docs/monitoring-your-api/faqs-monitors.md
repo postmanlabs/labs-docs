@@ -56,6 +56,8 @@ Because monitors run in the cloud, there are some differences compared to sendin
 
 * You can't import data files like you can in the [collection runner](/docs/running-collections/working-with-data-files/). Instead, you can use files that can be retrieved by an API from cloud services such as Google Docs or Dropbox.
 
+Yes, you can upload a data file with sets of values to use as variable inputs when running the monitor. Data files are limited to 1 MB in size and a maximum of 50 data rows (CSV) or 50 objects (JSON). Learn more about [uploading a data file](/docs/monitoring-your-api/setting-up-monitor/#uploading-a-data-file).
+
 ### Are static IP addresses dedicated to individual customers or shared?
 
 The provided static IP addresses are fixed to their specified region and shared by all customers who enable this feature, which is available to Postman Professional and Enterprise teams. Static IP addresses aren't available for uptime monitors. For more information, see [Running Postman monitors using static IPs](/docs/monitoring-your-api/using-static-IPs-to-monitor/).
