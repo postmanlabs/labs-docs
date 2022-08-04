@@ -82,7 +82,7 @@ Get alerted by email if a test fails or errors occur, or [set up integrations](/
 
 Learn how to [set up a collection-based monitor](/docs/monitoring-your-api/setting-up-monitor/).
 
-> **How are monitor runs different from collection runs?** Because monitors run in the cloud, there are some differences compared to sending requests and running collections in Postman. To learn more, see the [Monitoring FAQs](/docs/monitoring-your-api/faqs-monitors/#can-i-upload-files-or-attach-data-files).
+> **How are monitor runs different from collection runs?** Because monitors run in the cloud, there are some differences compared to sending requests and running collections in Postman. To learn more, see the [Monitoring FAQs](/docs/monitoring-your-api/faqs-monitors/#can-i-upload-data-files-or-attach-files-to-a-monitor).
 
 ### Use cases
 
