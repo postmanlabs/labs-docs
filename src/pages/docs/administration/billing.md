@@ -116,9 +116,7 @@ Postman offers various payment options dependent on your plan type.
 
 In your [billing dashboard](http://go.postman.co/billing), select **Plan and payments** on the left, then **Payment methods**.
 
-You can pay by credit card or by [direct debit](#setting-up-direct-debit-payments) from a verified bank account.
-
-To add a new payment method, select **Add Payment Method**.
+To add a new payment method, select **Add Payment Method**. Select the payment method you would like to use. Depending on your location, you can pay using credit card, [direct debit](#setting-up-direct-debit-payments), or other payment methods.
 
 To remove a payment method, hover over the payment method in question and select **Delete Payment Method**.
 
@@ -134,7 +132,7 @@ Postman accepts direct debit payments, in which payment funds are taken directly
 
 To use direct debit as your payment method:
 
-1. Select **Add payment method**, then select **Bank direct debit**.
+1. Select **Add payment method**, then select **ACH Direct Debit**.
 1. Enter your email, your name, and either enter or search for your bank name.
 
     > This process will verify your bank account immediately. If you want to use a manual verification process instead, see [Verifying your bank account manually](#verifying-your-bank-account-manually).
@@ -144,14 +142,17 @@ To use direct debit as your payment method:
 1. Select the account you want to use, then select **Link account**. After Stripe verifies the account, select **Done**. Stripe will return you to the Postman billing dashboard.
 1. Select **Add account**.
 
-After your bank account is verified, Postman will send you a confirmation email. It can take up to four days to withdraw funds from your bank account using direct debit.
+After account verification, Postman will send you a confirmation email. It can take up to four days to withdraw funds from your bank account using direct debit.
 
-##### Verifying your bank account manually
+> * **Direct debit payment failures** - In the event of a direct debit payment failure, Postman will email you with information about how to fix the issue. The billing dashboard will also contain this information.
+> * **Direct debit disputes** - If you believe there has been an error with your direct debit payment, contact [Postman support](https://www.postman.com/support/) to resolve the issue. If you dispute the payment through your bank, Stripe removes your bank account's verified status and you won't be able to use the account for Postman payments until you [verify it](#setting-up-direct-debit-payments) again.
+
+#### Verifying your bank account manually
 
 You can choose to verify your bank account manually instead of using the automatic process documented in [Setting up direct debit payments](#setting-up-direct-debit-payments). This manual process may take up to two days.
 
-1. Select **Add payment method**, then select **Bank direct debit**.
-1. Enter your email and your name, then select **Verify your bank account manually**.
+1. Select **Add payment method**, then select **ACH Direct Debit**.
+1. Enter your email and your name, then select **Enter bank details manually instead**.
 1. Enter your routing number and bank account number. Confirm your account number, then select **Continue**.
 
 In one to two business days, Stripe will make a small test deposit into your bank account that you will use to verify your bank account and will email you with further instructions. To verify your account:
@@ -164,11 +165,6 @@ In one to two business days, Stripe will make a small test deposit into your ban
 > If you don't verify your account within ten days, Postman will delete your bank account information. If you want to add a direct debit payment method later, you will need to re-enter your bank account information.
 
 After your bank account is verified, Postman will send you a confirmation email. It can take up to four days to withdraw funds from your bank account using direct debit.
-
-##### Troubleshooting direct debit payments
-
-* **Direct debit payment failures** - In the event of a direct debit payment failure, Postman will email you with information about how to fix the issue. The billing dashboard will also contain this information.
-* **Direct debit disputes** - If you believe there has been an error with your direct debit payment, contact [Postman support](https://www.postman.com/support/) to resolve the issue. If you dispute the payment through your bank, Stripe removes your bank account's verified status and you won't be able to use the account for Postman payments until you [verify it](#setting-up-direct-debit-payments) again.
 
 ### Using the Pay Now option
 
@@ -190,7 +186,7 @@ Add or update your company name, billing email, address, and your VAT ID if appl
 
 ### Failed payments
 
-If you have a payment method on file, Postman will automatically attempt three times to charge it. If this is unsuccessful, team members with billing privileges receive an email notification. Use the link in the email to access and pay for your [invoice](#using-the-pay-now-option).
+If you have a payment method on file, Postman will automatically attempt three times to charge it. If this is unsuccessful, team members with the [Billing role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) receive an email notification. Use the link in the email to access and pay for your [invoice](#using-the-pay-now-option).
 
 <img alt="Failed payment email" src="https://assets.postman.com/postman-docs/billing-email-payment-declined-v9.1.jpg" width="400px"/>
 
