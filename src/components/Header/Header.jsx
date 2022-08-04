@@ -2,7 +2,6 @@ import React from 'react';
 import './Header.scss';
 import { trackCustomEvent } from 'gatsby-plugin-google-analytics';
 import Dropdown from './Dropdown';
-import Search from '../search-hooks'
 import $ from 'jquery';
 
 // Get Cookie for Sign In toggler
