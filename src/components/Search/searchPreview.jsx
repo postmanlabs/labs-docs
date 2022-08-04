@@ -21,12 +21,13 @@ export const SearchWrapper = styled.div`
   list-style: none;
   display: flex;
   flex-direction: row; 
+  
   a {
     padding: 8px 16px;
-    color: $gray-2;
+    color: ${(props) => props.theme.colors.grey_50};
     &:hover {
       color: ${(props) => props.theme.colors.blue_70};
-      background-color: ${(props) => props.theme.colors.grey_10};;
+      background-color: ${(props) => props.theme.colors.grey_10};
       border: none;
     }
   }
@@ -34,10 +35,10 @@ export const SearchWrapper = styled.div`
     display: none;
   }
   .ais-Pagination-link--selected {
-    color: $grey_90;
+    color: ${(props) => props.theme.colors.grey_90};
   }
   .ais-Pagination-item--previousPage > .ais-Pagination-link {
-    color: $gray-2;
+    color: ${(props) => props.theme.colors.grey_10};
   }
 
 }
@@ -93,23 +94,24 @@ ais-highlight-0000000000 {
     font-size: 0.001px;
   }
 
-  ul{ 
+ 
+  .search-title {
+    font-family: ${(props) => props.theme.fonts.Inter};
+    font-weight: 600;
+  }
+  li{ 
     list-style: none;
     padding-top: 20px;
+  }
     a {
-      color: #${(props) => props.theme.colors.grey_50};
+      color: ${(props) => props.theme.colors.grey_50};
     }
     a:hover {
       color: ${(props) => props.theme.colors.blue_70};
       text-decoration: none;
     }
-
-  }
-  .search-title {
-    font-family: ${(props) => props.theme.fonts.Inter};
-    font-weight: 600;
-  }
 `
+
 
 const SearchBox = ({ currentRefinement, refine }) => (
   <div  className="ais-SearchBox">
@@ -139,7 +141,7 @@ const Hits = ({ hits }) => {
       const excerpt = hit._snippetResult && hit._snippetResult.excerpt.value ? hit._snippetResult.excerpt.value : hit.excerpt
       return (
       <li key={hit.title}>
-        <a href={hit.fields.slug}>
+        <a href={hit.fields.slug} className="blue">
           <span className="search-title" dangerouslySetInnerHTML={{ __html: hit._highlightResult.title.value }} />
           <p dangerouslySetInnerHTML={{ __html: excerpt }} />
         </a>
