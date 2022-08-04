@@ -73,7 +73,7 @@ To view the workspace ID, select the information icon <img alt="Information icon
 
 > Private workspaces are only available to [Professional and Enterprise](https://www.postman.com/pricing/) teams.
 
-To collaborate in a private workspace, you must be [invited](#sharing-workspaces) by a Workspace Editor or Admin, or request access to it and be approved. If you're using [Postman on the web](/docs/getting-started/installation-and-updates/#using-postman-on-the-web) and navigate to a link a teammate has shared to a private workspace or an element within one, you'll have the option to request access to the workspace.
+To collaborate in a private workspace, you must be [invited](#sharing-workspaces) by a Workspace Editor or Admin, or request access to it and be approved. If you're using the [Postman web app](/docs/getting-started/installation-and-updates/#using-the-postman-web-app) and navigate to a link a teammate has shared to a private workspace or an element within one, you'll have the option to request access to the workspace.
 
 <img alt="Request access to private workspace" src="https://assets.postman.com/postman-docs/user-rfa-private-workspace-v9.16.jpg"/>
 
@@ -103,7 +103,7 @@ To change workspace visibility:
 1. On the workspace's **Overview** tab, select **Workspace Settings**.
 1. Select a **Visibility** for the workspace:
     * **Personal** - Only you can access.
-    * **Private** - Only invited team members can access.
+    * **Private** - Only invited team members can access ([Professional and Enterprise plans only](https://www.postman.com/pricing)).
     * **Team** - All team members can access.
     * **Public** - Everyone can view.
 1. Select **Update**.
@@ -121,14 +121,14 @@ You can invite team members, [groups](/docs/administration/managing-your-team/us
 Your ability to share workspaces with teammates depends on your [workspace role](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles):
 
 * **Workspace Admin** - Can invite Postman teammates or external users to personal, private, team, and public workspaces, and assign them a workspace role. If a Workspace Admin invites an external user to a workspace, Postman will share this request with [Team Admins](https://learning.postman.com/docs/collaborating-in-postman/roles-and-permissions/#team-roles). Once approved, an invite to join the team will be sent to the individual.
-* **Workspace Editor** - Can invite external users to team and public workspaces, but can't assign them workspace roles. For private workspaces, Workspace Editors using [Postman on the web](/docs/getting-started/installation-and-updates/#using-postman-on-the-web) can copy and share a link to the workspace with a teammate, who can then [request access to the workspace](#accessing-private-workspaces).
-* **Workspace Viewer** - Can't invite teammates to private, team, or public workspaces. For private workspaces, Workspace Viewers using [Postman on the web](/docs/getting-started/installation-and-updates/#using-postman-on-the-web) can copy and share a link to the workspace with a teammate, who can then [request access to the workspace](#accessing-private-workspaces).
+* **Workspace Editor** - Can invite external users to team and public workspaces, but can't assign them workspace roles. For private workspaces, Workspace Editors using the [Postman web app](/docs/getting-started/installation-and-updates/#using-the-postman-web-app) can copy and share a link to the workspace with a teammate, who can then [request access to the workspace](#accessing-private-workspaces).
+* **Workspace Viewer** - Can't invite teammates to private, team, or public workspaces. For private workspaces, Workspace Viewers using the [Postman web app](/docs/getting-started/installation-and-updates/#using-the-postman-web-app) can copy and share a link to the workspace with a teammate, who can then [request access to the workspace](#accessing-private-workspaces).
 
 > When you invite a collaborator to a personal workspace, it's automatically converted into a team workspace.
 
 Individual team members and groups you invite will be notified immediately of your request to collaborate. External users who aren't on your Postman team will receive an invitation to join immediately if you're a [Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles). If you aren't a Team Admin, your request to add external users to your Postman team will be shared with your Team Admins for approval.
 
-You can also invite collaborators by selecting <img alt="Link icon" src="https://assets.postman.com/postman-docs/icon-workspace-link-v9.jpg#icon" width="18px"> **Copy Invite Link** and sharing the link with them outside of Postman. When individuals select the link, they'll be prompted to sign in or sign up. If you are a Team Admin inviting an external user, they'll be automatically added to your team. If you aren't a Team Admin, a request to add them to your Postman team will be shared with your Team Admins for approval.
+You can also invite collaborators by selecting <img alt="Link icon" src="https://assets.postman.com/postman-docs/icon-workspace-link-v9.jpg#icon" width="18px"> **Copy Invite Link** and sharing the link with them outside of Postman. When individuals select the link, Postman will prompt them to sign in or sign up. If you are a Team Admin inviting an external user, they'll be automatically added to your team. If you aren't a Team Admin, a request to add them to your Postman team will be shared with your Team Admins for approval.
 
 ### Approving requests for access to private workspaces
 
@@ -163,13 +163,13 @@ To change the role of people in a workspace, or to remove someone from a workspa
 
 Watch a workspace to receive an email or in-app notification when a team member modifies anything in the workspace, such as changing the workspace visibility or updating an element in the workspace.
 
-To start watching a workspace, select **Watch** on the upper right of the workspace's **Overview** tab. Select the count next to **Watch** to show how many people are watching the workspace.
+To start watching a workspace, select <img alt="Watch icon" src="https://assets.postman.com/postman-docs/eye.jpg#icon" width="16px"> **Watch** in the workspace's **Overview** tab. Select the count next to **Watch** to access the list of people who are watching the workspace.
 
 <img alt="Watching a workspace" src="https://assets.postman.com/postman-docs/watching-a-workspace-v9.jpg"/>
 
 To access your notifications, select the notification icon <img alt="Bell icon" src="https://assets.postman.com/postman-docs/icon-notification-bell-v9.jpg#icon" width="18px"> in the Postman header. The notification list shows details about changes to workspaces you are watching. You will also receive an email with information about the change, who made it, and when.
 
-To stop watching a workspace, select **Unwatch** on the upper right of the workspace's **Overview** tab.
+To stop watching a workspace, select **Unwatch** in the workspace's **Overview** tab.
 
 > By default, you are a watcher for any workspace you create. You won't receive notifications for changes you make to a workspace you're watching.
 
@@ -177,7 +177,7 @@ To stop watching a workspace, select **Unwatch** on the upper right of the works
 
 Workspaces can contain elements such as collections, APIs, environments, mock servers, and monitors. A particular element can exist only in a single workspace. If needed, you can move elements to a different workspace.
 
-> Monitors can't be moved. If you move a collection that's being monitored, the associated monitor is paused and stays in the original workspace.
+> Monitors can't be moved. If you move a collection that has an active monitor, the associated monitor is paused and stays in the original workspace.
 
 To move an element to a different workspace:
 
@@ -216,4 +216,6 @@ To delete a workspace:
 
 ## Next steps
 
-View recent [activity](/docs/collaborating-in-postman/using-workspaces/changelog-and-restoring-collections/) within a workspace to stay up to date with developments on your projects.
+Now that you understand the fundamentals of managing and using workspaces, you might want to track activities in a workspace:
+
+* To learn about the workspace changelog and how to use it to track recent activity, visit [Viewing workspace activity](/docs/collaborating-in-postman/using-workspaces/changelog-and-restoring-collections/).

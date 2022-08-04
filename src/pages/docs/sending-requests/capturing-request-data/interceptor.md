@@ -32,7 +32,7 @@ warning: false
 
 ---
 
-Postman Interceptor is a Chrome extension that acts as a browser companion to the Postman Desktop app. Interceptor enables you to capture network requests and cookies directly from a Chrome browser.
+Postman Interceptor is a Chrome extension that acts as a browser companion to the Postman desktop app. Interceptor enables you to capture network requests and cookies directly from a Chrome browser.
 
 Once Interceptor is running in Chrome, you can start a debug session, which is a time-bound session of traffic capture. You can start, pause, and stop an interceptor debug session, then later start another one. Each debug session is logged in the **History** tab, and displays the total session time and all traffic captured. From the logged session, you can send requests and responses to a collection and save cookies to the Postman cookie jar.
 
@@ -54,7 +54,7 @@ Once Interceptor is running in Chrome, you can start a debug session, which is a
 
 ## Installing Interceptor
 
-> You can't use Interceptor with [Postman for Web](/docs/getting-started/installation-and-updates/#web-limitations). Make sure you've installed the [Postman Desktop app](/docs/getting-started/installation-and-updates/).
+> You can't use Interceptor with the [Postman web app](/docs/getting-started/installation-and-updates/#web-limitations). Make sure you've installed the [Postman desktop app](/docs/getting-started/installation-and-updates/).
 
 To get started, install Postman Interceptor:
 
@@ -156,7 +156,7 @@ Your installation may include the following options:
 
 ### Troubleshooting tips
 
-You can find the current status of your Interceptor integration by looking at the upper right of the **Capture requests** window:
+You can find the current status of your Interceptor integration by selecting **Capture requests** from the footer, then selecting **Via Interceptor**. Possible statuses are:
 
 * **Connected** - You can proceed with using Interceptor.
 * **Not connected** - Ensure Interceptor is [installed correctly](#installing-interceptor).
@@ -236,7 +236,7 @@ The communication between Interceptor and Postman is automatically encrypted. Yo
 ### Adding a custom encryption key in Postman
 
 1. In Postman, select <img alt="Capture icon" src="https://assets.postman.com/postman-docs/icon-capture.jpg#icon" width="15px"> **Capture requests** in the Postman footer. Then in the **Capture requests** window, select the **Via Interceptor** tab.
-1. To the right of the green **Connected** status, select the lock icon <img alt="Lock icon" src="https://assets.postman.com/postman-docs/icon-lock.jpg#icon" width="11px">.
+1. Select the lock icon <img alt="Lock icon" src="https://assets.postman.com/postman-docs/icon-lock.jpg#icon" width="11px"> next to the green **Connected** status.
 
     <img src="https://assets.postman.com/postman-docs/interceptor-session-key.jpg" width="350px" alt="Set encryption in app"/>
 

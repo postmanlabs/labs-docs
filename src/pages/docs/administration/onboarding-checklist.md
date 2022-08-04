@@ -29,10 +29,11 @@ When you're getting started using Postman within your organization, you can carr
     * [Invite team members](#invite-team-members)
     * [Check your setup](#check-your-setup)
     * [Enable team discovery](#enable-team-discovery)
+* [Next steps](#next-steps)
 
 ## Setting up Postman
 
-Postman can be accessed [on the web](/docs/getting-started/installation-and-updates/#using-postman-on-the-web) with the [Postman Desktop Agent](https://www.postman.com/downloads/postman-agent/). Postman is available as a standalone app for Windows, Mac, and Linux. Make sure everyone who would like to use Postman has the latest version by downloading it from [the Postman website](https://www.postman.com/downloads/).
+Postman can be accessed [on the web](/docs/getting-started/installation-and-updates/#using-the-postman-web-app) with the [Postman Desktop Agent](https://www.postman.com/downloads/postman-agent/). Postman is available as a standalone app for Windows, Mac, and Linux. Make sure everyone who would like to use Postman has the latest version by downloading it from [the Postman website](https://www.postman.com/downloads/).
 
 For the Postman web version, you can also manually select the agent for your requests: **Cloud Agent**, **Desktop Agent**, or **Browser Agent**. To learn more about the agent used for your request, select the agent selector from the Postman footer. You can use **Auto-select** to turn the auto-select agent on or off. Once you enable the option for Auto-select, Postman will automatically select the best agent for your requests.
 
@@ -67,7 +68,7 @@ You can add your teammates from your [team dashboard](https://go.postman.co/team
 
 ### Check your setup
 
-Before you start work in full, it’s best to check the functionality of Postman within your organization and ensure everything operates as expected. If you do not have access to Postman and a Postman account, find a team member who does to help you test the configuration. Depending on your organization's IT policy you may need to make requests of your IT team in order to get up and running as well.
+Before you start work in full, it’s best to check the functionality of Postman within your organization and ensure everything operates as expected. If you don't have access to Postman and a Postman account, find a team member who does to help you test the configuration. Depending on your organization's IT policy you may need to make requests of your IT team in order to get up and running as well.
 
 Ensure you are connected to your organization's network and test the following:
 
@@ -87,8 +88,8 @@ If you have any questions or run into any issues setting up Postman for your tea
 
 ## Next steps
 
-Check out [Security and Compliance: A Shared Responsibility Model](https://www.postman.com/shared-responsibility/) for important security considerations.
+After you follow the steps in this onboarding checklist, there are a few other steps to take to make sure that your team is secure:
 
-Make sure to [configure SSO](/docs/administration/sso/admin-sso/) if you are subscribed to the Professional or Enterprise plan.
-
-Finally, head over to [Managing Your Team](/docs/administration/managing-your-team/managing-your-team/) to learn about managing roles, inviting to workspaces, and how to adjust your team size.
+* For important security considerations, check out [Security and Compliance: A Shared Responsibility Model](https://www.postman.com/shared-responsibility/).
+* If you are subscribed to the Professional or Enterprise plan, make sure to [configure SSO](/docs/administration/sso/admin-sso/).
+* To learn about managing roles, inviting to workspaces, and how to adjust your team size, visit [Managing your team](/docs/administration/managing-your-team/managing-your-team/).

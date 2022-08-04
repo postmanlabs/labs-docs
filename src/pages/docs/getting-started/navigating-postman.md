@@ -22,14 +22,17 @@ contextual_links:
   - type: link
     name: "Universal Search | Postman Level Up"
     url: "https://www.youtube.com/watch?v=1K6Pl6o_tj8"
+  - type: link
+    name: "Find Related Collections | Postman Level Up"
+    url: "https://youtu.be/d7Nq7Vo4nHc"
   - type: subtitle
     name: "Blog Posts"
   - type: link
-    name: "Postman Now Recommends Related Collections in Requests"
-    url: "https://blog.postman.com/postman-now-recommends-collections-in-requests/"
-  - type: link
     name: "How Postman Designers Built the New Universal Search Feature"
     url: "https://blog.postman.com/how-postman-designers-built-the-new-universal-search-feature/"
+  - type: link
+    name: "Introducing Bulk Actions on Postman’s Sidebar"
+    url: "https://blog.postman.com/introducing-sidebar-bulk-actions/"
   - type: section
     name: "Next Steps"
   - type: link
@@ -44,13 +47,13 @@ Postman has a variety of tools, views, and controls to help you manage your API 
 
 * [Header](#header)
 * [Sidebar](#sidebar)
-* [Main work area](#main-work-area)
+* [Workbench](#workbench)
     * [Tabs](#tabs)
     * [Right sidebar](#right-sidebar)
     * [Environment selector and environment quick look](#environment-selector-and-environment-quick-look)
 * [Footer](#footer)
 
-<img alt="Postman app" src="https://assets.postman.com/postman-docs/navigating-postman-app-overview-v9.19.jpg" width="1200px"/>
+<img alt="Postman app" src="https://assets.postman.com/postman-docs/navigating-postman-app-overview-v9.24.jpg" width="1200px"/>
 
 ## Header
 
@@ -139,19 +142,19 @@ To save request responses in your history, select the more actions icon <img alt
 
 > You can't use the __Save Responses__ option with requests from [Collection Runner](/docs/running-collections/intro-to-collection-runs/).
 
-## Main work area
+## Workbench
 
-Whether you're working with a collection, an API, or another element type, the center section of Postman is where you do the majority of your work. [Tabs](#tabs) enable you to organize your work, while the [right sidebar](#right-sidebar) gives you access to element-specific tools like documentation. The [environment selector and environment quick look](#environment-selector-and-environment-quick-look) enable you to manage variables.
+Whether you're working with a collection, an API, or another element type, the Postman workbench is where you do the majority of your work. [Tabs](#tabs) enable you to organize your work, while the [right sidebar](#right-sidebar) gives you access to element-specific tools like documentation. The [environment selector and environment quick look](#environment-selector-and-environment-quick-look) enable you to manage variables.
 
 ### Tabs
 
 Tabs allow you to organize and work between requests.
 
-> This section describes how tabs work in the Postman Desktop app. By default, tabs in Postman for Web work this way as well. You can choose to use browser tabs instead, which enables you to use a different tab for each open Postman element. For more information, see [Browser tabs in Postman for Web](#browser-tabs-in-postman-for-web).
+> This section describes how tabs work in the Postman desktop app. By default, tabs in the Postman web app work this way as well. You can choose to use browser tabs instead, which enables you to use a different tab for each open Postman element. For more information, see [Browser tabs in the Postman web app](#browser-tabs-in-the-postman-web-app).
 
 #### Opening a new tab
 
-To open a new tab, select __+__ in the middle of the screen.
+To open a new tab, select __+__ in the workbench.
 
 > You can also select **⌘+T** or **Ctrl+T** to open a new tab.
 
@@ -191,13 +194,13 @@ You can also manage your open tabs or open a new tab by right-clicking on an exi
 
 > **Closing unsaved tabs.** You can set whether Postman asks whether you want to save when you close a tab that has changes. Select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> to open **Settings**. Under **Requests**, select **Always ask when closing unsaved tabs** to turn this option on or off.
 
-If you have a lot of tabs open, they might overflow the area of the tab bar. To go to tabs that are outside the viewable area, select the arrows to the left or right of the tab bar.
+If you have a lot of tabs open, they might overflow the area of the tab bar. To go to tabs that are outside the viewable area, select the arrows next to the tab bar.
 
 <img alt="Scroll to view tabs" src="https://assets.postman.com/postman-docs/tab-navigation-scroll.jpg" width="800px"/>
 
-#### Browser tabs in Postman for Web
+#### Browser tabs in the Postman web app
 
-By default, Postman for Web uses in-app tabs like the Postman Desktop app does. You can optionally choose to use browser tabs instead. With this setting turned on, there is only one collection overview or request in the main work area at a time, and you can open more Postman elements in new browser tabs. This enables you to work across workspaces or to use different environments in the same workspace.
+By default, the Postman web app uses in-app tabs like the Postman desktop app does. You can optionally choose to use browser tabs instead. With this setting turned on, there is only one collection overview or request in the main work area at a time, and you can open more Postman elements in new browser tabs. This enables you to work across workspaces or to use different environments in the same workspace.
 
 If you've saved changes to a request, when you select a new element Postman will open it in the main work area area. If the request has unsaved changes, Postman will prompt you to save or discard your changes.
 
@@ -205,7 +208,7 @@ To open a workspace, environment, or request in a new browser tab, press and hol
 
 To open an in-app link in a new browser tab, press and hold **⌘** or **Ctrl** and select the link you want to open.
 
-To turn this behavior on or off in Postman for Web, select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the header, then select **Remove tabs** in the **User interface** section.
+To turn this behavior on or off in the Postman web app, select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the header, then select **Remove tabs** in the **User interface** section.
 
 ### Right sidebar
 
@@ -241,7 +244,7 @@ The footer on the bottom of Postman enables you to find and replace text, open t
 
 * <img alt="Hide sidebar icon" src="https://assets.postman.com/postman-docs/icon-hide-sidebar-v9.jpg#icon" width="18px"> **Hide sidebar** - Close or reopen the [sidebar](#sidebar).
 * <img alt="Checkmark icon" src="https://assets.postman.com/postman-docs/icon-checkmark-v9.jpg#icon" width="16px"> **Sync status** - See if you are connected to Postman's servers and your data is [syncing](/docs/getting-started/syncing/).
-* <img alt="Search icon" src="https://assets.postman.com/postman-docs/icon-search-v9.jpg#icon" width="16px"> **Find and replace** - _(Postman Desktop app only)_ Search the current workspace. You can also use the shortcuts **⌘+Shift+F** or **Ctrl+Shift+F**. Enter your search string then select **Find**. Limit your search to a specific element type by selecting **Collections**, **Environments**, **Globals**, or **Open tabs**. To replace your search term in a selected element, select **Replace in selected**.
+* <img alt="Search icon" src="https://assets.postman.com/postman-docs/icon-search-v9.jpg#icon" width="16px"> **Find and replace** - _(Postman desktop app only)_ Search the current workspace. You can also use the shortcuts **⌘+Shift+F** or **Ctrl+Shift+F**. Enter your search string then select **Find**. Limit your search to a specific element type by selecting **Collections**, **Environments**, **Globals**, or **Open tabs**. To replace your search term in a selected element, select **Replace in selected**.
 * <img alt="Console icon" src="https://assets.postman.com/postman-docs/icon-console-v9.jpg#icon" width="16px"> **Console** - [Inspect and debug](/docs/sending-requests/troubleshooting-api-requests/#debugging-in-the-console) your Postman requests.
 
 <img alt="Postman footer right view" src="https://assets.postman.com/postman-docs/navigating-postman-footer-right-v9.jpg" width="900px"/>
