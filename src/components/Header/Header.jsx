@@ -622,7 +622,6 @@ class Header extends React.Component {
               </svg>
             
               <Dropdown />
-              {/* <Search /> */}
             </div>
           </div>
         </nav>
