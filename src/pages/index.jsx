@@ -87,6 +87,7 @@ class IndexPage extends React.Component {
             </div>
           </section>
         </div>
+
         <div className="container">
           {/* Youtube Video Section */}
           <section className="row section align-items-center">
@@ -121,6 +122,7 @@ class IndexPage extends React.Component {
             </div>
           </section>
         </div>
+
         <div className="container">
           {/* Youtube Video Section */}
           <section className="row section align-items-center">
@@ -137,12 +139,20 @@ class IndexPage extends React.Component {
               </Link>
             </div>
             <div className="col-lg-8">
-              <div className="gRPC request interface">
-              <img src="https://assets.postman.com/postman-labs-docs/grpc-docs/grpc-client-overview/grpc-request-homepage.png" alt="gRPC request interface"/>
+              <div className="embed-responsive embed-responsive-16by9 img-frame">
+                <iframe
+                  loading="lazy"
+                  className="embed-responsive-item "
+                  src="https://www.youtube.com/embed/gfYGqMb81GQ"
+                  title="gRPC Requests- Postman Level Up"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                />
               </div>
             </div>
           </section>
         </div>
+
         <div className="container">
           {/* Youtube Video Section */}
           <section className="row section align-items-center">
