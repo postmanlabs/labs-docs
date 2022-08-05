@@ -37,12 +37,6 @@ const searchClient = algoliasearch(
 /* Styling
 **********************************************/ 
 const SearchWrapper = styled.div`
-  // margin: 0 100px;
-
-  // @media (max-width: 567px) {
-  //   margin: 0 20px;
-  // }
-
   .ais-SearchBox-form {
     margin: 60 0 60 60px;
     // flex-grow: 2;
