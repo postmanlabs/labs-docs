@@ -101,7 +101,12 @@ module.exports = {
     'gatsby-plugin-meta-redirect',
     'gatsby-plugin-sass',
     'gatsby-plugin-sharp',
-    'gatsby-plugin-sitemap',
+    {
+      resolve: 'gatsby-plugin-sitemap',
+      options: {
+        excludes: ['/search/']
+      }
+    },
     {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
