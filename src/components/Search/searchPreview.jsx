@@ -53,20 +53,19 @@ ais-highlight-0000000000 {
     z-index: 3;
     right: 10px;
     background-color: ${(props) => props.theme.colors.grey_00};
-    border: 1px solid ${(props) => props.theme.colors.grey_05};
+    border: 1px solid ${(props) => props.theme.colors.grey_30};
     background: ${(props) => props.theme.colors.grey_00};
-    border-radius: $${(props) => props.theme.borderRadius.small};
+    border-radius: ${(props) => props.theme.borderRadius.small};
     padding-right: 24px;
     margin-top: 5px;
     display: flex;
     text-align: left;
     max-width: 600px;
-}
-    @media screen and (max-width: 992px){
+
+    @media (max-width: 992px){
       left: 10px;
-      right: 10px;
     }
-  
+  }
 
   .arrow-up {
     width: 0; 
