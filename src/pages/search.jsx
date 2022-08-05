@@ -125,7 +125,7 @@ function Hit({ hit }) {
           <p>
             {/* <Highlight attribute="excerpt" hit={hit} /> */}
             {/* "_snippetResult.description.value" attribute of the JSON answer will only contain the 10 best words of this description. */}
-            <Snippet hit={hit} attribute="excerpt" />
+            <Snippet hit={hit} attribute="excerpt" /> ...
           </p>
         </a>
       </HitStyle>
