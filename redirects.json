@@ -1209,7 +1209,7 @@
 	},
 	{
 		"from": "/docs/postman/sending-api-requests/making-soap-requests/",
-		"to": "/docs/sending-requests/supported-api-frameworks/making-soap-requests/"
+		"to": "/docs/sending-requests/soap/making-soap-requests/"
 	},
 	{
 		"from": "/docs/postman/sending-api-requests/proxy/",
@@ -1281,7 +1281,7 @@
 	},
 	{
 		"from": "/docs/postman/sending_api_requests/making_soap_requests/",
-		"to": "/docs/sending-requests/supported-api-frameworks/making-soap-requests/"
+		"to": "/docs/sending-requests/soap/making-soap-requests/"
 	},
 	{
 		"from": "/docs/postman/sending_api_requests/proxy/",
@@ -1982,5 +1982,9 @@
 	{
 		"from": "/docs/sending-requests/supported-api-frameworks/websocket/",
 		"to": "/docs/sending-requests/websocket/websocket/"
+	},
+	{
+		"from": "/docs/sending-requests/supported-api-frameworks/making-soap-requests/",
+		"to": "/docs/sending-requests/soap/making-soap-requests/"
 	}
 ]
