@@ -22,6 +22,9 @@ A gRPC request in Postman let you work with gRPC APIs. It can be used to invoke 
     * [Adding service definition](#adding-service-definition)
     * [Selecting a method to invoke](#selecting-a-method-to-invoke)
     * [Adding a message](#adding-a-message)
+    * [Adding auth details](#adding-auth-details)
+    * [Adding metadata](#adding-metadata)
+    * [Writing scripts](#writing-scripts)
     * [Using TLS and certificates](#using-tls-and-certificates)
 * [Invoking different types of methods](#invoking-different-types-of-methods)
     * [Invoking a unary method](#invoking-a-unary-method)
@@ -88,6 +91,14 @@ Learn more about [authorizing your requests](https://learning.postman.com/docs/s
 You can add metadata to provide additional information about the execution to the server. Metadata is defined using a bunch of key-value pairs that you can add directly to the **Metadata tab**.
 
 <img src="https://assets.postman.com/postman-labs-docs/grpc-docs/using-grpc-request/metadata-tab.jpeg" alt="Adding metadata">
+
+### Writing scripts
+
+Postman contains a powerful scripting environment that allows you to add Javascript code (a.k.a scripts) in your gRPC requests. You can use scripts to write API tests, debug your requests (by logging to [Postman Console](https://learning.postman.com/docs/sending-requests/troubleshooting-api-requests/)), or even dynamically read/update the values of [variables](http://localhost:8000/postman-api-client/grpc-client/writing-scripts/scripting-in-grpc-request/(https://learning.postman.com/docs/sending-requests/variables/)).
+
+Learn more about [scripting in gRPC request](/postman-api-client/grpc-client/writing-scripts/scripting-in-grpc-request/).
+
+<img src="https://assets.postman.com/postman-labs-docs/grpc-docs/using-grpc-request/scripts.jpeg" alt="Writing scripts">
 
 ### Using TLS and certificates
 
