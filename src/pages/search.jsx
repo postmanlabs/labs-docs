@@ -15,7 +15,12 @@ import {
   Configure
 } from 'react-instantsearch-hooks-web';
 
-import { Divider } from '@postman/aether-marketing';
+const HRStyles = styled.hr`
+  border: 0;
+  border-top: 1px solid #E6E6E6;
+  margin-top: 0;
+  margin-bottom: 0;
+`;
 
 /* URL manipulation
 **********************************************/ 
@@ -129,7 +134,7 @@ function Hit({ hit }) {
           </p>
         </a>
       </HitStyle>
-      <Divider fullWidth />
+      <HRStyles />
     </>
   );
 }
