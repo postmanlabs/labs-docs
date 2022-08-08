@@ -58,11 +58,14 @@ ais-highlight-0000000000 {
     border-radius: ${(props) => props.theme.borderRadius.small};
     padding-right: 24px;
     margin-top: 5px;
+    
     display: flex;
     text-align: left;
     max-width: 600px;
-
+   
+    
     @media (max-width: 992px){
+      
       left: 10px;
     }
   }
@@ -98,9 +101,15 @@ ais-highlight-0000000000 {
     font-family: ${(props) => props.theme.fonts.Inter};
     font-weight: 600;
   }
+
+ 
   li{ 
     list-style: none;
     padding-top: 20px;
+    margin-left: 1.45rem;
+    @media(min-width: 992px) {
+      margin-left: 0;
+    }
   }
     a {
       color: ${(props) => props.theme.colors.grey_50};
@@ -109,6 +118,7 @@ ais-highlight-0000000000 {
       color: ${(props) => props.theme.colors.blue_70};
       text-decoration: none;
     }
+  
 `
 
 

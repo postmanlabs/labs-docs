@@ -92,7 +92,7 @@ const Dropdown = () => {
                 </div>
               </div>
               <div className="row">
-                <div className="col-12">
+                <div className="col-12 ">
                   <Pagination
                     translations={{
                       previous: '← Previous',
