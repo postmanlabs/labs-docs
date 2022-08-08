@@ -138,14 +138,10 @@ function Hit({ hit }) {
 **********************************************/ 
 function NoResultsBoundary({ children, fallback }) {
   const { results } = useInstantSearch();
-  {console.log('fallback', fallback, '-----------------------------')}
-  {console.log('results', results, '-----------------------------' )}
   // The `__isArtificial` flag makes sure to not display the No Results message when no hits have been returned yet.
-  if (!results.__isArtificial && results.nbHits === 0) {
+  if (results && !results.__isArtificial && results.nbHits === 0) {
     return (
       <>
-      {console.log('fallback', fallback, '-----------------------------')}
-      {console.log('results', results, '-----------------------------' )}
         {fallback}
         <div hidden>{children}</div>
       </>
