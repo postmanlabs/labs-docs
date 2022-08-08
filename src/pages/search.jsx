@@ -15,7 +15,12 @@ import {
   Configure
 } from 'react-instantsearch-hooks-web';
 
-import { Divider } from '@postman/aether-marketing';
+const HRStyles = styled.hr`
+  border: 0;
+  border-top: 1px solid #E6E6E6;
+  margin-top: 0;
+  margin-bottom: 0;
+`;
 
 /* URL manipulation
 **********************************************/ 
@@ -129,7 +134,7 @@ function Hit({ hit }) {
           </p>
         </a>
       </HitStyle>
-      <Divider fullWidth />
+      <HRStyles />
     </>
   );
 }
@@ -138,9 +143,8 @@ function Hit({ hit }) {
 **********************************************/ 
 function NoResultsBoundary({ children, fallback }) {
   const { results } = useInstantSearch();
-  // The `__isArtificial` flag makes sure to not display the No Results message
-  // when no hits have been returned yet.
-  if (!results.__isArtificial && results.nbHits === 0) {
+  // The `__isArtificial` flag makes sure to not display the No Results message when no hits have been returned yet.
+  if (results && !results.__isArtificial && results.nbHits === 0) {
     return (
       <>
         {fallback}
