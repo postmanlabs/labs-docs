@@ -278,7 +278,6 @@ export const HeaderWrapper = styled.div`
       }
     }
   }
-  
  
   /* Learning Center Link */
   & .property-context-menu {
@@ -500,7 +499,7 @@ export const DropdownStyles = styled.div`
     @media screen and (max-width: 992px) {
       position: relative;
       bottom: -9px;
-      margin-left: -9px;
+      margin-left: -29px;
       left: 16px;
     }
   }
@@ -527,8 +526,9 @@ export const DropdownStyles = styled.div`
 
 `
 
-export const CTAButton = styled.div`
-  // Orange Button (Sign Up / Launch Postman)
+
+export const CTAButton = styled.div`  
+    // Orange Button (Sign Up / Launch Postman)
 a.button__sign-up {
   align-items: center;
   appearance: none;
@@ -606,17 +606,36 @@ a.button__sign-in {
 }
 `
 
+
 export const AlgoliaWidgets = styled.div`
-  
-// Algolia Search Styling
-// the result styling is in _search.scss
-.searchbox {
+    // Algolia Search Styling
+  .searchbox {
   ::placeholder {
     color:  ${(props) => props.theme.colors.blue_90};
   }
 
-
-
+.ais-Pagination-list {
+  list-style: none;
+  display: flex;
+  flex-direction: row; 
+  a {
+    padding: 8px 16px;
+    color: $gray-2;
+    &:hover {
+      color:  ${(props) => props.theme.colors.blue_70};
+      background-color:  ${(props) => props.theme.colors.grey_10};
+      border: none;
+    }
+  }
+  .ais-Pagination-item--firstPage {
+    display: none;
+  }
+  .ais-Pagination-link--selected {
+    color:  ${(props) => props.theme.colors.grey_90};
+  }
+  .ais-Pagination-item--previousPage > .ais-Pagination-link {
+    color: $gray-2;
+  }
 
 }
  form {
@@ -656,6 +675,13 @@ export const AlgoliaWidgets = styled.div`
     }
   }
   label {
+    }
+    &:-moz-placeholder {
+      /* Firefox 18- */
+      color: ${(props) => props.theme.colors.grey_40};
+    }
+  }
+   label {
     display: flex;
     margin: 0;
   }
@@ -670,6 +696,13 @@ export const AlgoliaWidgets = styled.div`
       bottom: auto;
       margin-left: -9px;
       left: 36px;
+
+    margin-left: 8px;
+    @media screen and (max-width: 992px) {
+      position: relative;
+      bottom: -9px;
+      margin-left: -9px;
+      left: 16px;
     }
   }
   :-webkit-direct-focus {
@@ -677,4 +710,5 @@ export const AlgoliaWidgets = styled.div`
     outline-style: auto;
     outline-width: 0;
   }
+}
 `
