@@ -1,8 +1,7 @@
 ---
 title: "Authoring your docs"
-order: 102
-page_id: "authoring_your_documentation"
-updated: 2022-06-02
+updated: 2022-07-19
+search_keyword: "images, upload image, uploading images"
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -29,13 +28,11 @@ contextual_links:
   - type: link
     name: "Publishing your docs"
     url: "/docs/publishing-your-api/publishing-your-docs/"
-
-warning: false
 ---
 
-Postman [automatically generates documentation](/docs/publishing-your-api/documenting-your-api/) for every collection you create. The documentation includes all of the requests in your collection, along with examples, authorization details, and sample code.
+Postman [automatically generates documentation](/docs/publishing-your-api/documenting-your-api/) for every collection you create. The documentation includes all of the requests in your collection, along with examples, authorization details, and example code.
 
-To help your teammates ([or the world](/docs/publishing-your-api/publishing-your-docs/)) better understand what you're building, add detailed descriptions to your collection and the items in it. Use the Postman editor to see exactly how your content will look as you author it. Or use the classic Markdown editor to structure and format your descriptions using [Markdown syntax](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). All of your descriptions are included in the documentation for your collection.
+To help your teammates ([or the world](/docs/publishing-your-api/publishing-your-docs/)) better understand what you're building, add detailed descriptions to your collection and the items in it. Use the Postman editor to view how your content will look as you author it. Or use the classic Markdown editor to structure and format your descriptions using [Markdown syntax](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). All of your descriptions are included in the documentation for your collection.
 
 > You can also add a description when [creating a new request](/docs/sending-requests/requests/#creating-requests).
 
@@ -71,11 +68,11 @@ To add or edit the description for an existing collection, folder, or request:
 
 ### Authoring descriptions in the Postman editor
 
-To author a description using rich text editing tools, select the **Postman editor** option. The Postman editor enables you to author a description without having to write any Markdown code. Use the tools on the toolbar to work with text and other content, as you would in a typical word processor. Or use common keyboard shortcuts to format text, like **⌘+B** or **Ctrl+B** to make text bold. There's no need to preview your content to see the final appearance—what you see is what you get!
+To author a description using rich text editing tools, select the **Postman editor** option. The Postman editor enables you to author a description without having to write any Markdown code. Use the tools on the toolbar to work with text and other content, as you would in a typical word processor. Or use common keyboard shortcuts to format text, like **⌘+B** or **Ctrl+B** to make text bold.
 
 <img alt="Postman editor" src="https://assets.postman.com/postman-docs/documentation-use-postman-editor-v9-1.jpg" width="560px">
 
-**View the tooltips to get help as you work.** Hold your cursor over an item on the toolbar to see a description of the tool and the associated keyboard shortcut. If all of the tools are not visible on the toolbar, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px">.
+**View the tooltips to get help as you work.** Hold your cursor over an item on the toolbar to see a description of the tool and the associated keyboard shortcut. If all of the tools aren't visible on the toolbar, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px">.
 
 <img alt="Postman editor toolbar" src="https://assets.postman.com/postman-docs/documentation-wysiwyg-toolbar-v9-1.jpg" width="560px">
 
@@ -83,7 +80,7 @@ To author a description using rich text editing tools, select the **Postman edit
 
 <img alt="Postman editor table shortcuts" src="https://assets.postman.com/postman-docs/documentation-wysiwyg-table-tool-v9-1.jpg" width="560px">
 
-**The Postman editor understands Markdown syntax.** If you're comfortable using Markdown, enter any standard [Markdown code](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) to quickly format text. For example, enter `#` followed by a space to start a new heading, or enter `---` to add a horizontal line. To reuse documentation that's already written in Markdown, copy the existing Markdown code and paste it into the editor to instantly format it.
+**The Postman editor understands Markdown syntax.** If you're comfortable using Markdown, enter any standard [Markdown code](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) to format text. For example, enter `#` followed by a space to start a new heading, or enter `---` to add a horizontal line. To reuse documentation that's already written in Markdown, copy the existing Markdown code and paste it into the editor to instantly format it.
 
 > If you copy content from the Postman editor, the content will retain its formatting when you paste it into another application like a word processor or an email.
 
@@ -97,7 +94,7 @@ To author a description using Markdown, select the **Classic Markdown editor** o
 * Format text with bold, emphasis, and blockquotes
 * Add images, links, and code blocks
 
-As you work, select the **Preview** tab to review how your documentation will appear and to make sure it's formatted correctly. To continue editing, select the **Markdown** tab.
+As you work, select the **Preview** tab to review how your documentation will appear and to make sure the formatting is correct. To continue editing, select the **Markdown** tab.
 
 > Leave a blank line before and after [block elements](https://daringfireball.net/projects/markdown/syntax#block) (such as headings, paragraphs, and lists) to avoid any formatting issues.
 
@@ -118,7 +115,7 @@ Add descriptions to parameters and headers to help others understand and use the
 
 The parameter and header descriptions are visible to people who have access to your collection or anyone viewing your [published documentation](/docs/publishing-your-api/publishing-your-docs/). The descriptions appear in the documentation along with the request, next to the parameter or header name.
 
-> All key-value pairs are included in your documentation even if their check boxes are not selected. Use the description to note which parameters and headers are required and which are optional. Anyone using your collection can choose which key-value pairs to include when sending requests or [generating code snippets](/docs/sending-requests/generate-code-snippets/).
+> All key-value pairs are included in your documentation even if their check boxes aren't selected. Use the description to note which parameters and headers are required and which are optional. Anyone using your collection can choose which key-value pairs to include when sending requests or [generating code snippets](/docs/sending-requests/generate-code-snippets/).
 
 ## Including authorization details
 
@@ -130,9 +127,9 @@ If you [specify authorization details](/docs/sending-requests/authorization/#spe
 
 ## Including examples
 
-Examples are paired requests and responses that demonstrate your endpoints in action. Any [examples you add to a collection](/docs/sending-requests/examples/#adding-an-example) are automatically included in the documentation. For each request, your documentation shows the example code snippets as well the example response body and headers.
+Examples are paired requests and responses that show your endpoints in action. Any [examples you add to a collection](/docs/sending-requests/examples/#adding-an-example) are automatically included in the documentation. For each request, your documentation shows the example code snippets as well the example response body and headers.
 
-> Examples are displayed only when you [view the complete documentation](/docs/publishing-your-api/viewing-documentation/#viewing-documentation-for-a-collection) for a collection or when you [view published documentation](/docs/publishing-your-api/viewing-documentation/#viewing-public-documentation).
+> Examples are displayed when you [view the complete documentation](/docs/publishing-your-api/viewing-documentation/#viewing-documentation-for-a-collection) for a collection or when you [view published documentation](/docs/publishing-your-api/viewing-documentation/#viewing-public-documentation).
 
 <img alt="Examples in documentation" src="https://assets.postman.com/postman-docs/documentation-including-examples-v9.jpg" width="663px">
 
@@ -144,7 +141,7 @@ Use links to direct users to your repository, web site, or other online resource
 
     <img alt="Adding a link" src="https://assets.postman.com/postman-docs/documentation-link-tool-v9-1.jpg" width="560px">
 
-* To add a link using Markdown, use the following syntax:
+* To add a link using the Markdown editor, use the following syntax:
 
     ```md
     [link text to display](https://your-link-url.com)
@@ -152,17 +149,45 @@ Use links to direct users to your repository, web site, or other online resource
 
 ## Adding images
 
-Images liven up your documentation and help your ideas come across more clearly. Your image must be hosted online before you can add it to your documentation.
+Images liven up your documentation and help your ideas come across with more clarity. You can upload an image file from your computer or embed an image that's hosted online.
 
-* To add an image using the Postman editor, select the **Image** tool. Paste or enter the image URL, and then select **Add**. (If you need to change the image later, select it and then select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px">.)
+### Uploading an image
 
-    <img alt="Adding an image" src="https://assets.postman.com/postman-docs/documentation-image-tool-v9-1.jpg" width="560px">
+To upload an image using the Postman editor, select the **Image** tool and select **Browse**. Select the image you want to upload and select **Open**. The Postman editor supports GIF, JPG, PNG, and SVG formats. The maximum supported image size is 5 MB.
 
-* To add an image using Markdown, use the following syntax:
+<img alt="Uploading an image" src="https://assets.postman.com/postman-docs/documentation-upload-image-v9-23.jpg" width="542px">
+
+### Embedding an image
+
+Your image must be hosted online (for example, on a website) before you can embed it in your documentation.
+
+* To embed an image using the Postman editor, select the **Image** tool and select **Embed URL**. Paste or enter the URL of the image, and then select **Embed**.
+
+    <img alt="Embedding an image" src="https://assets.postman.com/postman-docs/documentation-embed-image-v9-23.jpg" width="542px">
+
+* To embed an image using the Markdown editor, use the following syntax:
 
     ```md
     ![image alt text](https://your-image-location.com)
     ```
+
+### Editing images
+
+You can change an image after uploading or embedding it:
+
+* To change an uploaded image in the Postman editor, first select it and select the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px">. Then [upload a new image](#uploading-an-image).
+
+* To change an embedded image in the Postman editor, select it and select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px">. Enter the new image URL and select **Edit**.
+
+* To change an image in the Markdown editor, edit the Markdown code as needed.
+
+### Image storage limits
+
+If you are on a [Postman Free plan](https://www.postman.com/pricing/) and aren't part of a team, the total size of your uploaded images is limited to 20 MB. If you are part of a team ([free or paid plans](https://www.postman.com/pricing/)), the total size of your team's uploaded images is limited to 100 MB.
+
+To check how much storage you're using, go to your [billing dashboard](http://go.postman.co/billing) and select **Resource Usage**. The amount of space used by uploaded images and files appears under **Storage Usage**. To upgrade your available storage, contact [Postman support](https://www.postman.com/support/).
+
+> When you reach 90% of your storage limit and above, you will get a warning each time you try to add an image.
 
 ## Finding help and inspiration
 

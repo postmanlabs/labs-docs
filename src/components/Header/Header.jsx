@@ -1,5 +1,5 @@
 import React from 'react';
-import './Header.scss';
+import {HeaderWrapper, DropdownStyles, CTAButton, AlgoliaWidgets} from './HeaderStyles.jsx' ;
 import { trackCustomEvent } from 'gatsby-plugin-google-analytics';
 import Dropdown from './Dropdown';
 import $ from 'jquery';
@@ -19,7 +19,7 @@ const LoginCheck = (props) => {
 
   if (!hidden) {
     return (
-      <>
+      <CTAButton>
         <a
           href={`https://go.postman${beta}.co/build`}
           className={
@@ -59,7 +59,7 @@ const LoginCheck = (props) => {
         >
           Launch Postman
         </a>
-      </>
+      </CTAButton>
     );
   }
   return <></>;
@@ -208,7 +208,7 @@ class Header extends React.Component {
       beta, visibleHelloBar, cookie, hidden,
     } = this.state;
     return (
-      <>
+      <HeaderWrapper>
         <nav className="navbar-v6 navbar navbar-expand-lg navbar-light bg-light nav-primary">
           <a className="navbar-brand" href="https://www.postman.com">
             <div className="navbar-logo-container">
@@ -271,7 +271,7 @@ class Header extends React.Component {
                     </g>
                   </svg>
                 </a>
-                <div
+                <DropdownStyles
                   className="dropdown-menu"
                   aria-labelledby="navbarDropdownMenuLink"
                 >
@@ -317,7 +317,7 @@ class Header extends React.Component {
                   >
                     Get started free →
                   </a>
-                </div>
+                </DropdownStyles>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="https://www.postman.com/pricing/">
@@ -346,7 +346,7 @@ class Header extends React.Component {
                     </g>
                   </svg>
                 </a>
-                <div
+                <DropdownStyles
                   className="dropdown-menu"
                   aria-labelledby="navbarDropdownMenuLink"
                 >
@@ -368,7 +368,7 @@ class Header extends React.Component {
                   >
                     Contact sales
                   </a>
-                </div>
+                </DropdownStyles>
               </li>
               <li className="nav-item dropdown">
                 <a
@@ -392,7 +392,7 @@ class Header extends React.Component {
                     </g>
                   </svg>
                 </a>
-                <div
+                <DropdownStyles
                   className="dropdown-menu"
                   aria-labelledby="navbarDropdownMenuLink"
                 >
@@ -519,7 +519,7 @@ class Header extends React.Component {
                       </a>
                     </div>
                   </div>
-                </div>
+                </DropdownStyles>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="https://www.postman.com/explore">
@@ -605,7 +605,7 @@ class Header extends React.Component {
               </li>
             </ul>
             {/* Aloglia Widgets */}
-            <div className="form-inline header__search">
+            <AlgoliaWidgets className="form-inline header__search">
               <svg
                 className="nav-search__icon"
                 width="16"
@@ -622,10 +622,10 @@ class Header extends React.Component {
               </svg>
             
               <Dropdown />
-            </div>
+            </AlgoliaWidgets>
           </div>
         </nav>
-      </>
+        </HeaderWrapper>
     );
   }
 }

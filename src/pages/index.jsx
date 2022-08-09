@@ -9,12 +9,75 @@ import upcomingEvents from '../../bff-data/events.json';
 import { LandingCard } from '../components/MarketingPages/Cards';
 import '../../styles/config/normalize.css';
 import '../components/MarketingPages/Buttons.scss';
-import './index.scss';
+import styled from 'styled-components';
 
-const heroBackground = {
-  backgroundColor: '#f9f9f9',
-  padding: '48px 80px',
-};
+const EventsWrapper = styled.div`
+.events__alert {
+    border: 4px dashed ${(props) => props.theme.colors.blue_10};
+    border-radius: ${(props) => props.theme.borderRadius.medium};
+    padding: .75rem 1.25rem;
+    /* color: #0C5460; */
+    color: ${(props) => props.theme.colors.blue_80};
+}
+// Upcoming Event Section styles
+.event-wrapper {
+    @media (min-width: 992px) {
+        padding-left: 48px;
+    }
+}
+.event-single-wrapper {
+    margin-bottom: 48px;
+}
+.event-date {
+    font-family: ${(props) => props.theme.fonts.degular};
+    font-weight: 400;
+    font-size: 28px;
+    text-transform: uppercase;
+    @media (max-width: 992px) {
+      justify-content:initial;
+      margin-top: 8px;
+    }
+}
+.event-location {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: ${(props) => props.theme.colors.orange_50};
+    padding-bottom: 16px;
+}
+.event-description-wrapper {
+    @media (min-width: 992px) {
+        padding-left: 48px !important;
+    }
+}
+.event-month {
+    @media screen and (max-width: 576px){
+        font-size: 16px;
+    }
+}
+`
+const HeroWrapper = styled.section`
+  background-color: ${(props) => props.theme.colors.grey_05};
+  padding: 48px 80px;
+    @media (max-width: 991px) {
+        padding: 40px !important;
+      }
+    .hero-image {
+        margin: 0px;
+    }
+    .img-frame {
+        border-radius: ${(props) => props.theme.borderRadius.medium};
+        border: 8px solid ${(props) => props.theme.colors.grey_20};// $grey_20
+        box-shadow: 8px 8px 0 rgba(0, 0, 0, 0.32);
+    }
+`
+
+const HRStyles = styled.hr`
+  border: 0;
+  margin-top: 0;
+  border-top: 1px solid ${(props) => props.theme.colors.grey_30};
+  margin-bottom: 0;
+`;
 
 const months = [
   'Jan',
@@ -41,7 +104,7 @@ function getEvents(sortedUpcomingEvents) {
       const eventDate = `${eventMonth}/${eventDay}/${eventYear}`;
       const eventInformation = `${event.location} - ${eventDate} ${event.time}`;
       return (
-        <div className={`col-12 col-lg-10 offset-lg-1 event-single-wrapper`} key={uuidv4()}>
+        <EventsWrapper className={`col-12 col-lg-10 offset-lg-1 event-single-wrapper`} key={uuidv4()}>
           <div className="row">
             <div className="col-12 col-lg-3 event-date event-month">
               {/* <span className="event-month"> */}
@@ -64,7 +127,7 @@ function getEvents(sortedUpcomingEvents) {
               </OutboundLink>
             </div>
           </div>
-        </div>
+        </EventsWrapper>
       );
     })
   ) || (
@@ -72,7 +135,7 @@ function getEvents(sortedUpcomingEvents) {
       {/* If there are no events, and events.json is an object
         where development eq true */}
       {!Array.isArray(upcomingEvents) && upcomingEvents.development ? (
-        <div className="events__alert" role="alert">
+        <EventsWrapper className="events__alert" role="alert">
           <p>
             You are currently in develop mode. Dynamic events will not be displayed
             locally.
@@ -87,7 +150,7 @@ function getEvents(sortedUpcomingEvents) {
             </a>
             .
           </p>
-        </div>
+        </EventsWrapper>
       ) : (
         <>
           {/* else we know we have 0 upcoming events, and we are not
@@ -152,7 +215,7 @@ class IndexPage extends React.Component {
       <Layout>
         <SEO title="Learning Center" slug="/" />
         <div className="container-fluid">
-          <section className="row section align-items-center hero" style={heroBackground}>
+          <HeroWrapper className="row section align-items-center hero" >
             <div className="container">
               <div className="row">
                 <div className="col-sm-12 col-md-5 col-lg-6 align-self-center">
@@ -178,7 +241,7 @@ class IndexPage extends React.Component {
                 </div>
               </div>
             </div>
-          </section>
+          </HeroWrapper>
         </div>
         <div className="container">
           <section className="row section">
@@ -243,7 +306,7 @@ class IndexPage extends React.Component {
             </div>
           </section>
           <div className="container-fluid" >
-            <hr/>
+            <HRStyles/>
           </div>
           {/* Youtube Video Section */}
           <section className="row section align-items-center">
@@ -268,7 +331,7 @@ class IndexPage extends React.Component {
             </div>
           </section>
           <div className="container-fluid" >
-            <hr/>
+            <HRStyles/>
           </div>
           {/* Events Section */}
           <section className="row section">
@@ -306,7 +369,7 @@ class IndexPage extends React.Component {
             </div>
           </section>
           <div className="container-fluid" >
-            <hr/>
+            <HRStyles/>
           </div>
           <section className="row section">
             <div className="col-sm-6 col-lg-3 mb-sm-4 mb-md-0 pr-md-5">
