@@ -893,7 +893,7 @@ export const leftNavItems = [
             url: '/docs/integrations/available-integrations/ci-integrations/bitbucket-pipelines/',
           },
           {
-            name: 'Circle CI',
+            name: 'CircleCI',
             url: '/docs/integrations/available-integrations/ci-integrations/circleci/',
           },
           {
