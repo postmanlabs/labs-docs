@@ -440,7 +440,7 @@ export const DropdownStyles = styled.div`
   .dropdown-header {
     color: ${(props) => props.theme.colors.grey_50};
     font-size: 16px;
-    font-family: $Inter;
+    font-family: ${(props) => props.theme.fonts.Inter};
     letter-spacing: -0.24px;
     line-height: 1.4;
     font-weight: 600;
@@ -458,34 +458,34 @@ export const DropdownStyles = styled.div`
 
   & input[type="search"] {
     background-color: transparent;
-    border-color: rgba(0, 0, 0, 0.24);
+    border-color: ${(props) => props.theme.colors.grey_90};;
     border-width: 1px;
     font-size: 13px;
     padding: 4px 24px 4px 28px;
     height: 32px;
     margin: 0;
     width: 256px;
-    border-radius: $borderRadiusSmall;
+    border-radius: ${(props) => props.theme.borderRadius.small};
     &:focus {
-      border: 1px solid #74aef6;
-      box-shadow: 0 0 0 2px #74aef6;
+      border: 1px solid ${(props) => props.theme.colors.blue_30};
+      box-shadow: 0 0 0 2px ${(props) => props.theme.colors.blue_30};
       outline: none;
     }
     &::-webkit-input-placeholder {
       /* Chrome/Opera/Safari */
-      color: $grey_40;
+      color: ${(props) => props.theme.colors.grey_40};
     }
     &::-moz-placeholder {
       /* Firefox 19+ */
-      color: $grey_40;
+      color: ${(props) => props.theme.colors.grey_40};
     }
     &:-ms-input-placeholder {
       /* IE 10+ */
-      color: $grey_40;
+      color: ${(props) => props.theme.colors.grey_40};
     }
     &:-moz-placeholder {
       /* Firefox 18- */
-      color: $grey_40;
+      color: ${(props) => props.theme.colors.grey_40};
     }
   }
   & label {
@@ -511,7 +511,24 @@ export const DropdownStyles = styled.div`
   }
 
 
-// Orange Button (Sign Up / Launch Postman)
+
+   /* Used for Learning Center Nav */
+  body.menu-open:after {
+    content: '';
+    display: block;
+    position: fixed;
+    top: 0; bottom: 0; left: 0; right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    background: rgba(0,0,0,0.7);
+  }
+  
+
+`
+
+export const CTAButton = styled.div`
+  // Orange Button (Sign Up / Launch Postman)
 a.button__sign-up {
   align-items: center;
   appearance: none;
@@ -587,43 +604,19 @@ a.button__sign-in {
     margin-left: 16px;
   }
 }
+`
 
-
-
-
+export const AlgoliaWidgets = styled.div`
+  
 // Algolia Search Styling
 // the result styling is in _search.scss
 .searchbox {
   ::placeholder {
-    color: #1c272b;
+    color:  ${(props) => props.theme.colors.blue_90};
   }
-  .ais-SearchBox-submit, .ais-SearchBox-reset {
-    display: none;
-  }
-}
 
-.ais-Pagination-list {
-  list-style: none;
-  display: flex;
-  flex-direction: row; 
-  a {
-    padding: 8px 16px;
-    color: $gray-2;
-    &:hover {
-      color:  ${(props) => props.theme.colors.blue_70};
-      background-color:  ${(props) => props.theme.colors.grey_10};
-      border: none;
-    }
-  }
-  .ais-Pagination-item--firstPage {
-    display: none;
-  }
-  .ais-Pagination-link--selected {
-    color:  ${(props) => props.theme.colors.grey_90};
-  }
-  .ais-Pagination-item--previousPage > .ais-Pagination-link {
-    color: $gray-2;
-  }
+
+
 
 }
  form {
@@ -662,18 +655,7 @@ a.button__sign-in {
       color: ${(props) => props.theme.colors.grey_40};
     }
   }
-   /* Used for Learning Center Nav */
-  body.menu-open:after {
-    content: '';
-    display: block;
-    position: fixed;
-    top: 0; bottom: 0; left: 0; right: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 10;
-    background: rgba(0,0,0,0.7);
-  }
-   label {
+  label {
     display: flex;
     margin: 0;
   }
@@ -681,12 +663,13 @@ a.button__sign-in {
   svg.nav-search__icon {
     position: absolute;
     bottom: auto;
-    margin-left: 8px;
+    margin-top: -12px;
+    margin-left: 28px;
     @media screen and (max-width: 992px) {
       position: relative;
-      bottom: -9px;
+      bottom: auto;
       margin-left: -9px;
-      left: 16px;
+      left: 36px;
     }
   }
   :-webkit-direct-focus {
@@ -694,5 +677,4 @@ a.button__sign-in {
     outline-style: auto;
     outline-width: 0;
   }
-
 `
