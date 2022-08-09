@@ -445,12 +445,13 @@
   & svg.nav-search__icon {
     position: absolute;
     bottom: auto;
-    margin-left: 8px;
+    margin-top: -10px;
+    margin-left: 28px;
     @media screen and (max-width: 992px) {
       position: relative;
-      bottom: -9px;
-      margin-left: -9px;
-      left: 16px;
+      bottom: -6px;
+      margin-left: -6px;
+      left: 40px;
     }
   }
   :-webkit-direct-focus {
@@ -542,41 +543,8 @@ a.button__sign-in {
 
 // Algolia Search Styling
 // the result styling is in _search.scss
-.searchbox {
-  ::placeholder {
-    color: #1c272b;
-  }
-  .ais-SearchBox-submit, .ais-SearchBox-reset {
-    display: none;
-  }
-}
 
-.ais-Pagination-list {
-  list-style: none;
-  display: flex;
-  flex-direction: row; 
-  a {
-    padding: 8px 16px;
-    color: $gray-2;
-    &:hover {
-      color: $blue_70;
-      background-color: $grey_10;
-      border: none;
-    }
-  }
-  .ais-Pagination-item--firstPage {
-    display: none;
-  }
-  .ais-Pagination-link--selected {
-    color: $grey_90;
-  }
-  .ais-Pagination-item--previousPage > .ais-Pagination-link {
-    color: $gray-2;
-  }
-
-}
-
-/* Used for Nav Bars (Do not remove) */
+// /* Used for Nav Bars (Do not remove) */
 @media screen and (max-width: 992px) {
   /* Used for Global Nav */
   body {
