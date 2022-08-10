@@ -36,25 +36,38 @@ Postman Enterprise gives you access to advanced identity management features, in
 
 ### API security and governance features
 
-Postman Enterprise provides you with access to API security features to keep your data secure. You can [create a custom token scanner](/docs/administration/token-scanner/#custom-alerts) to proactively check for security leaks. You can also set oversight on which workspaces your team can [share publicly](/docs/collaborating-in-postman/manage-public-elements/).
+Postman Enterprise provides you with access to API security features to keep your data secure.
 
-You also get access to API governance features, including formatting and security warnings, that enable you to apply standards consistently throughout your API development process's [design](/docs/api-governance/api-definition/api-definition-warnings/) and [testing phases](/docs/api-governance/api-testing/api-testing-warnings/).
+* **Custom token scanner** - Create a [custom token scanner](/docs/administration/token-scanner/#custom-alerts) to proactively check for security leaks.
+* **Public link governance** - View and manage elements like workspaces, documentation, and collection links that your team [makes public](/docs/collaborating-in-postman/manage-public-elements/).
+* **Audit logs** - Once you set up Postman Enterprise, you can use [audit logs](/docs/administration/audit-logs/) to understand how your team members are using it.
+* **Formatting and security warnings** - Postman Enterprise also include advanced API governance features, including formatting and security warnings, that enable you to apply standards consistently throughout your API development process's [design](/docs/api-governance/api-definition/api-definition-warnings/) and [testing phases](/docs/api-governance/api-testing/api-testing-warnings/).
 
 ### Administration
 
-You can [deploy Postman Enterprise](/docs/administration/managing-enterprise-deployment/) to your team at scale, including choosing which version of the app they use. Once you set up Postman Enterprise, you can use [audit logs](/docs/administration/audit-logs/) to understand how your team members are using it.
+After you purchase a Postman Enterprise plan, you can customize it to meet your organization's needs:
 
-Some integrations, including [Azure DevOps](/docs/integrations/available-integrations/azure-devops/), [GitHub Enterprise Server](/docs/integrations/available-integrations/github/), and [GitLab Self-Managed](/docs/integrations/available-integrations/gitlab/), are only available with an Enterprise plan.
+* **Postman Enterprise app** - The Postman Enterprise app is a variant of the Postman desktop app that offers greater control to administrators. After you purchase a Postman Enterprise plan, you can start using the Enterprise app if it meets your organization's needs.
+* **App versioning** - Set a team-wide version of the Postman desktop app for your organization. To learn more about app versioning, see [Managing Postman app versioning](/docs/administration/managing-enterprise-deployment/#managing-postman-app-versioning).
+* **Enterprise integrations** - Some integrations, including [Azure DevOps](/docs/integrations/available-integrations/azure-devops/), [GitHub Enterprise Server](/docs/integrations/available-integrations/github/), and [GitLab Self-Managed](/docs/integrations/available-integrations/gitlab/), are only available with an Enterprise plan.
+
+## Collaboration
+
+Partner workspaces
+
+Private API Network
 
 ## Postman Enterprise trial
 
-If you're interested in trying out Postman Enterprise for your organization, you can evaluate the service during a free 30 day trial. During the 30 day trial, you will be able to access the full range of features available in Postman Enterprise.
+If you're interested in trying out Postman Enterprise for your organization, you can evaluate the service during a free 30 day trial.
+
+During the 30 day trial, you will have access to the full range of Enterprise features available in the Postman app. However, you won't be able to use the Postman Enterprise app, a variant of the Postman desktop app that offers greater control to administrators.
 
 If you have an existing Postman account, you can start a trial from the [Postman website](https://www.postman.com/postman-enterprise/) or from the Postman app. You must have an [Admin role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) to start a trial. If you have a [Billing role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) in addition to your Admin role, you can start the trial from the [Billing dashboard](http://go.postman.co/billing).
 
 To start the trial, select **Start a trial** and accept the terms and conditions. <!-- TODO: is this true, look at figma -->
 
-> If you don't already have a Postman account, you need to [sign up for Postman](/docs/getting-started/postman-account/#signing-up-for-a-postman-account) and [create a team](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/#creating-a-team) before you can start a trial of Postman Enterprise.
+> If you don't have a Postman account, you will be prompted to [sign up for Postman](/docs/getting-started/postman-account/#signing-up-for-a-postman-account) and [create a team](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/#creating-a-team) before you can start a trial of Postman Enterprise.
 
 If you decide to upgrade to Postman Enterprise during or after your trial, contact the [Postman sales team](https://www.postman.com/company/contact-sales/) to get started. <!-- TODO: is there a url + utm to use here? -->
 
@@ -66,6 +79,6 @@ To purchase a Postman Enterprise plan, contact the [Postman sales team](https://
 
 ## Next steps
 
-After you purchase a Postman Enterprise plan, you can customize it to meet your organization's needs:
+
 
 * To learn how to manage Postman app versioning and deploy the Postman Enterprise app to your organization, see [Managing Enterprise deployment](/docs/administration/managing-enterprise-deployment/).
