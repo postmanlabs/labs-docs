@@ -2,7 +2,7 @@
 title: "Monitoring API uptime"
 order: 88
 page_id: "uptime_monitors"
-updated: 2022-05-24
+updated: 2022-08-03
 contextual_links:
   - type: section
     name: "Additional Resources"
@@ -16,13 +16,13 @@ warning: false
 
 ---
 
-Uptime monitors (open beta) continuously check the availability of a single API endpoint, website, or other URL. You'll get an email notification whenever downtime occurs, typically within one to two minutes. You can also set up an integration to get downtime notifications in Slack.
+Uptime monitors continuously check the availability of a single API endpoint, website, or other URL. You'll get an email notification whenever downtime occurs, typically within one to two minutes. You can also set up an integration to get downtime notifications in Slack.
 
 To create a new uptime monitor, enter the URL and select which team members to notify in the event of a system outage. You can customize how often the monitor checks the availability of the URL. You can also configure the monitor to run in multiple regions (paid plans).
 
 Use the uptime monitor dashboard to check if the API endpoint is up or down and the average response time. You can also view previous downtime incidents and get insights into the availability of the endpoint over time.
 
-> **The Postman uptime monitors feature is in open beta.** If you have feedback on uptime monitors, visit our [GitHub discussion board](https://github.com/postmanlabs/uptime-monitors/discussions) and tell us about your experience.
+> **The uptime monitors open beta period is over.** You can no longer create new uptime monitors. Your existing uptime monitors will keep working, and you can continue to use them to monitor API uptime. For updates, visit our [GitHub discussion board](https://github.com/postmanlabs/uptime-monitors/discussions).
 
 ## Contents
 
