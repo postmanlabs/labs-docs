@@ -22,7 +22,7 @@ Postman Enterprise has features for reporting, identity management, API security
 
 ### Reports
 
-Postman Enterprise enables you to access reports about API activities like creation, collection execution, and test runs. Reports also have information about your team's API consumption, performance, security posture, and SLA adherence. To learn more about reports, see [Using reports](/docs/reports/reports-overview/).
+Postman Enterprise enables you to access reports that give you insights into the state of your APIs, including API creation, collection execution, and test runs. Reports also have information about your team's API consumption, performance, security posture, and SLA adherence. To learn more about reports, see [Using reports](/docs/reports/reports-overview/).
 
 ### Advanced identity management
 
