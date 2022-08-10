@@ -35,7 +35,7 @@ Postman Enterprise gives you access to advanced identity management features, in
 
 ### API security and governance features
 
-Postman Enterprise provides you with access to API security features to keep your data secure.
+Postman Enterprise provides you with advanced API security and governance features:
 
 * **Custom token scanner** - Create a [custom token scanner](/docs/administration/token-scanner/#custom-alerts) to proactively check for security leaks.
 * **Public link governance** - View and manage elements like workspaces, documentation, and collection links that your team [makes public](/docs/collaborating-in-postman/manage-public-elements/).
@@ -44,10 +44,10 @@ Postman Enterprise provides you with access to API security features to keep you
 
 ## Collaboration
 
-X and Y with Postman Enterprise.
+Postman Enterprise enables your organization to collaborate internally and with partners:
 
-* **Partner workspaces** -
-* **Private API Network** -
+* **Private API Network** - <!-- TODO: need more info here. afaik, this feature isn't just for Enterprise users? -->
+* **Partner workspaces** - Your organization can invite partners to a shared workspace to collaborate and build products and services with your APIs. To learn more about partner workspaces, see [](). <!-- TODO: this url doesn't exist yet -->
 
 ### Administration
 
