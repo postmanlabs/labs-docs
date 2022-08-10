@@ -9,7 +9,7 @@ The Postman Enterprise plan is for organizations that need advanced management, 
 
 * [Enterprise features](#enterprise-features)
     * [Reports](#reports)
-    * [Identity management](#identity-management)
+    * [Advanced identity management](#advanced-identity-management)
     * [API security and governance features](#api-security-and-governance-features)
     * [Administration](#administration)
 * [Postman Enterprise trial](#postman-enterprise-trial)
@@ -24,14 +24,15 @@ Postman Enterprise has features for reporting, identity management, API security
 
 Postman Enterprise enables you to access reports about API activities like creation, collection execution, and test runs. Reports also have information about your team's API consumption, performance, security posture, and SLA adherence. To learn more about reports, see [Using reports](/docs/reports/reports-overview/).
 
-### Identity management
+### Advanced identity management
 
 Postman Enterprise gives you access to advanced identity management features, including:
 
 * **Role-based access control (RBAC)** - Postman Enterprise RBAC features help you give the right members of your team access to the right tools and data. To learn more about the team-level roles available to Enterprise teams, see [Defining roles](/docs/collaborating-in-postman/roles-and-permissions/#team-roles).
 * **User groups** - An Enterprise plan enables you to organize members of your team into groups, then assign roles and permissions according to each group's function. To learn more about user groups, see [Managing user groups](/docs/administration/managing-your-team/user-groups/).
-* **Single sign-on (SSO)** - You can enable your team members to sign in to Postman Enterprise using your organization's SSO provider. To learn more about setting up SSO for your team, see [Single sign-on](/docs/administration/sso/intro-sso/).
+* **Single sign-on (SSO)** - You can enable your team members to sign in to Postman Enterprise using your organization's identity provider. To learn more about setting up SSO for your team, see [Single sign-on](/docs/administration/sso/intro-sso/).
 * **System for cross-domain identity management (SCIM)** - Setting up SCIM enables you to automatically provision and de-provision team members. To learn more about enabling SCIM for your team, see [SCIM provisioning](/docs/administration/scim-provisioning/scim-provisioning-overview/).
+* **Domain capture** - Domain capture enables you to consolidate all your organization's users into a single Postman team and ensure that any new users who sign up for Postman with your domain are automatically added. To learn more about setting up domain capture, see [Configuring domain capture](/docs/administration/managing-your-team/configuring-domain-capture/).
 
 ### API security and governance features
 
