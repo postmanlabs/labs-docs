@@ -33,6 +33,8 @@ In the Postman API Builder, you can develop your API by linking it to documentat
 
 > When you add documentation, tests, mocks, monitors, and environments, Postman lists the elements in the current workspace in the selection dropdown list.
 
+## Contents
+
 * [Adding documentation](#adding-documentation)
     * [Creating new documentation](#creating-new-documentation)
     * [Adding existing documentation](#adding-existing-documentation)

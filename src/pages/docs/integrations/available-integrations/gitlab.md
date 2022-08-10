@@ -75,7 +75,7 @@ Every change that is saved to your Postman Collection automatically commits chan
 
     Contact your IT team to allowlist the following static IP in your firewall to enable collection backups to GitLab:
 
-   * US East: 3.212.102.200
+   * US East: `3.212.102.200`
 
    Once you allowlist this IP address, calls for this integration will be able to connect to your network and allow the integration to work as expected.
 

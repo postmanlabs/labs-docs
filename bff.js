@@ -75,38 +75,47 @@ const prefetch = async () => {
     });
   }
 
-  /* eslint-disable */
+  const UACode = 'UA-43979731-18';
+  const GTMCode = 'GTM-M42M5N';
+  const googleTagManager = `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','${GTMCode}');`;
+
   const script = (process.env.PM_TECH
       && `
 ${pmTech}
-if (typeof window.pm.scalp !== 'function') {
-  window.pm.setScalp({
-    property: 'postman-docs'
-  });
-}
-window.pm.driveCampaignId();
-function isPmTechAllowed(documentLocationPathname) {
-  return ${allowedPmTech[0] === '*' ||
-    allowedPmTech.indexOf(documentLocationPathname) !== -1};
-}
-var d = 1000, int;
-var int = setInterval(function(){
-  if (document.body) {
+setTimeout(function(){
+  var propertyName = 'postman-docs';
+  if (typeof window.pm.scalp !== 'function') {
+    window.pm.setScalp({
+      property: propertyName
+    });
     window.pm.scalp(
       'pm-analytics',
       'load',
       document.location.pathname
     );
     window.pm.trackClicks();
-
-    clearInterval(int);
+    var dnt = (parseInt(navigator.doNotTrack) === 1 || parseInt(window.doNotTrack) === 1 || parseInt(navigator.msDoNotTrack) === 1 || navigator.doNotTrack === "yes");
+    window.pm.log('navigator.doNotTrack: ' + dnt);
+    if(!dnt) {
+      ${googleTagManager}
+      window.pm.log('attached googletagmanager: ' + '${GTMCode}');
+      var sitename = document.location.hostname;
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      window.pm.ga('create', '${UACode}', sitename);
+      window.pm.log('initialized GA: ' + sitename);
+    }
   }
-}, d);
-    `)
-    || `
-      console.info('Postman OSS');
-    `;
-  /* eslint-enable */
+}, 1000);
+`)
+|| `
+  console.info('Postman OSS');
+`;
 
   fs.writeFile('bff.json', JSON.stringify({ script }), (err) => {
     if (err) {
