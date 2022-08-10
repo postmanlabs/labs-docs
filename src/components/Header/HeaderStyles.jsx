@@ -344,26 +344,6 @@ export const HeaderWrapper = styled.div`
   }  
 }
 
-/* Used for Nav Bars (Do not remove) */
-@media screen and (max-width: 992px) {
-  /* Used for Global Nav */
-  body {
-    &.lock {
-      position:fixed;
-    }
-  }
-   /* Used for Learning Center Nav */
-  body.menu-open:after {
-    content: '';
-    display: block;
-    position: fixed;
-    top: 0; bottom: 0; left: 0; right: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 10;
-    background: rgba(0,0,0,0.7);
-  }
-}
 
 #icon-wrap-two {
   margin-top: 6px;
@@ -385,6 +365,27 @@ export const HeaderWrapper = styled.div`
       transition: 0.3s ease-in;
   }
 }
+/* Used for Nav Bars (Do not remove) */
+@media screen and (max-width: 992px) {
+  /* Used for Global Nav */
+  body {
+    &.lock {
+      position:fixed;
+    }
+  }
+   /* Used for Learning Center Nav */
+  body .menu-open:after {
+    content: '';
+    display: block;
+    position: fixed;
+    top: 0; bottom: 0; left: 0; right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    background: rgba(0,0,0,0.7);
+  }
+}
+
 `
 
 export const DropdownStyles = styled.div`
@@ -622,10 +623,10 @@ export const AlgoliaWidgets = styled.div`
   /* Search Icon */
   svg.nav-search__icon {
     position: absolute;
-    bottom: auto;
+    bottom: 28px;
     margin-left: 8px;
     @media screen and (max-width: 992px) {
-      /* bottom: -7px; */
+      bottom: -2px;
       left: 16px;
       margin-left: -9px;
       position: relative;
