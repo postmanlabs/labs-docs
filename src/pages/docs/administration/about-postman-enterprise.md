@@ -44,15 +44,16 @@ Postman Enterprise provides you with access to API security features to keep you
 
 ## Collaboration
 
-Partner workspaces
+X and Y with Postman Enterprise.
 
-Private API Network
+* **Partner workspaces** -
+* **Private API Network** -
 
 ### Administration
 
 After you purchase a Postman Enterprise plan, you can customize it to meet your organization's needs:
 
-* **Postman Enterprise app** - The Postman Enterprise app is a variant of the Postman desktop app that offers greater control to administrators. After you purchase a Postman Enterprise plan, you can start using the Enterprise app if it meets your organization's needs.
+* **Postman Enterprise app** - The Postman Enterprise app is a version of the Postman desktop app that offers greater control to administrators. After you purchase a Postman Enterprise plan, you can start using the Enterprise app if it meets your organization's needs.
 * **App versioning** - Set a team-wide version of the Postman desktop app for your organization. To learn more about app versioning, see [Managing Postman app versioning](/docs/administration/managing-enterprise-deployment/#managing-postman-app-versioning).
 * **Enterprise integrations** - Some integrations, including [Azure DevOps](/docs/integrations/available-integrations/azure-devops/), [GitHub Enterprise Server](/docs/integrations/available-integrations/github/), and [GitLab Self-Managed](/docs/integrations/available-integrations/gitlab/), are only available with an Enterprise plan.
 
@@ -60,7 +61,7 @@ After you purchase a Postman Enterprise plan, you can customize it to meet your 
 
 If you're interested in trying out Postman Enterprise for your organization, you can evaluate the service during a free 30 day trial.
 
-During the 30 day trial, you will have access to the full range of Enterprise features available in the Postman app. However, you won't be able to use the Postman Enterprise app, a variant of the Postman desktop app that offers greater control to administrators.
+During the 30 day trial, you will have access to the full range of Enterprise features available in the Postman app. However, you won't be able to use the Postman Enterprise app, a version of the Postman desktop app that offers greater control to administrators.
 
 If you have an existing Postman account, you can start a trial from the [Postman website](https://www.postman.com/postman-enterprise/) or from the Postman app. You must have an [Admin role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) to start a trial. If you have a [Billing role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) in addition to your Admin role, you can start the trial from the [Billing dashboard](http://go.postman.co/billing).
 
