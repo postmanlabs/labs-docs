@@ -90,7 +90,7 @@ pm.variables.set(variableName:String, variableValue:*):function
 pm.variables.replaceIn(variableName:String):function: → *
 ```
 
-> For example:
+For example:
 
 ```js
 const stringWithVars = pm.variables.replaceIn("Hi, my name is {{$randomFirstName}}");
@@ -168,7 +168,7 @@ pm.environment.set(variableName:String, variableValue:*):function
 pm.environment.replaceIn(variableName:String):function → *
 ```
 
-> For example:
+For example:
 
 ```js
 //environment has vars firstName and age
@@ -224,7 +224,7 @@ pm.collectionVariables.set(variableName:String, variableValue:*):function
 pm.collectionVariables.replaceIn(variableName:String):function → *
 ```
 
-> For example:
+For example:
 
 ```js
 //collection has vars firstName and age
@@ -278,7 +278,7 @@ pm.globals.set(variableName:String, variableValue:*):function
 pm.globals.replaceIn(variableName:String):function → String
 ```
 
-> For example:
+For example:
 
 ```js
 //globals include vars firstName and age

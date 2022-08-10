@@ -35,6 +35,8 @@ contextual_links:
 
 You can create the structure of your API using its _API definition_. This can consist of one or multiple files. You can also generate a collection from an API definition.
 
+## Contents
+
 * [Editing your API definition](#editing-your-api-definition)
 * [Importing an API definition](#importing-an-api-definition)
 * [Generating a collection](#generating-a-collection)

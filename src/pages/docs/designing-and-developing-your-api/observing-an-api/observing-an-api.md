@@ -28,6 +28,8 @@ You can use Postman monitors to observe the performance and availability of your
 
 Monitor integrations enable you to send the results of collection-based monitors to Slack, Splunk, and other channels. You can also view application performance management (APM) metrics from New Relic or Datadog within Postman.
 
+## Contents
+
 * [Linking collection-based monitors](#linking-collection-based-monitors)
 * [Linking uptime monitors](#linking-uptime-monitors)
 * [Connecting to monitor integrations](#connecting-to-monitor-integrations)
