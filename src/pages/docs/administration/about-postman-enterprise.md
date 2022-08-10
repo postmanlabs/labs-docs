@@ -74,4 +74,4 @@ If you decide not to upgrade after your trial period is over, you will return to
 
 ## Purchasing a Postman Enterprise plan
 
-To purchase a Postman Enterprise plan, contact the [Postman sales team](https://www.postman.com/company/contact-sales/). The sales team will evaluate your organization's needs, including the number of team member slots and any [add-ons](/docs/administration/billing/#managing-add-ons). To learn more, see [Purchasing Postman](/docs/administration/buying/).
+To purchase a Postman Enterprise plan, contact the [Postman sales team](https://www.postman.com/company/contact-sales/). The sales team will evaluate your organization's needs, including the number of team member slots and any [add-ons](/docs/administration/billing/#managing-add-ons). To learn more, see [Purchasing Postman](/docs/administration/buying/). Afterwards, a member of the Postman team will help set up Postman Enterprise for your organization.
