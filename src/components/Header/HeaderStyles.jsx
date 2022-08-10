@@ -446,69 +446,7 @@ export const DropdownStyles = styled.div`
     margin-bottom: 0px;
     padding: 12px;
   }
-  /* Searchbox */
-  & form {
-    @media screen and (max-width: 992px) {
-      display: inline-block;
-      margin-top: 16px;
-      margin-left: -8px;
-    }
-  }
-
-  & input[type="search"] {
-    background-color: transparent;
-    border-color: ${(props) => props.theme.colors.grey_90};;
-    border-width: 1px;
-    font-size: 13px;
-    padding: 4px 24px 4px 28px;
-    height: 32px;
-    margin: 0;
-    width: 256px;
-    border-radius: ${(props) => props.theme.borderRadius.small};
-    &:focus {
-      border: 1px solid ${(props) => props.theme.colors.blue_30};
-      box-shadow: 0 0 0 2px ${(props) => props.theme.colors.blue_30};
-      outline: none;
-    }
-    &::-webkit-input-placeholder {
-      /* Chrome/Opera/Safari */
-      color: ${(props) => props.theme.colors.grey_40};
-    }
-    &::-moz-placeholder {
-      /* Firefox 19+ */
-      color: ${(props) => props.theme.colors.grey_40};
-    }
-    &:-ms-input-placeholder {
-      /* IE 10+ */
-      color: ${(props) => props.theme.colors.grey_40};
-    }
-    &:-moz-placeholder {
-      /* Firefox 18- */
-      color: ${(props) => props.theme.colors.grey_40};
-    }
-  }
-  & label {
-    display: flex;
-    margin: 0;
-  }
-  /* Search Icon */
-  & svg.nav-search__icon {
-    position: absolute;
-    bottom: auto;
-    margin-left: 8px;
-    @media screen and (max-width: 992px) {
-      position: relative;
-      bottom: -9px;
-      margin-left: -29px;
-      left: 16px;
-    }
-  }
-  :-webkit-direct-focus {
-    outline-color: none;
-    outline-style: auto;
-    outline-width: 0;
-  }
-
+  
 
 
    /* Used for Learning Center Nav */
@@ -609,10 +547,7 @@ a.button__sign-in {
 
 export const AlgoliaWidgets = styled.div`
     // Algolia Search Styling
-  .searchbox {
-  ::placeholder {
-    color:  ${(props) => props.theme.colors.blue_90};
-  }
+  
 
 .ais-Pagination-list {
   list-style: none;
@@ -620,7 +555,7 @@ export const AlgoliaWidgets = styled.div`
   flex-direction: row; 
   a {
     padding: 8px 16px;
-    color: $gray-2;
+    color: ${(props) => props.theme.colors.grey_50};
     &:hover {
       color:  ${(props) => props.theme.colors.blue_70};
       background-color:  ${(props) => props.theme.colors.grey_10};
@@ -634,7 +569,7 @@ export const AlgoliaWidgets = styled.div`
     color:  ${(props) => props.theme.colors.grey_90};
   }
   .ais-Pagination-item--previousPage > .ais-Pagination-link {
-    color: $gray-2;
+    color:  ${(props) => props.theme.colors.grey_50};
   }
 
 }
@@ -646,7 +581,7 @@ export const AlgoliaWidgets = styled.div`
     }
   }
 
-  & input[type="search"] {
+  input[type="search"] {
     background-color: transparent;
     border-color: rgba(0, 0, 0, 0.24);
     border-width: 1px;
@@ -675,34 +610,25 @@ export const AlgoliaWidgets = styled.div`
     }
   }
   label {
-    }
+    display: flex;
+    margin: 0;
     &:-moz-placeholder {
       /* Firefox 18- */
       color: ${(props) => props.theme.colors.grey_40};
     }
   }
-   label {
-    display: flex;
-    margin: 0;
-  }
+   
+  
   /* Search Icon */
   svg.nav-search__icon {
     position: absolute;
     bottom: auto;
-    margin-top: -12px;
-    margin-left: 28px;
-    @media screen and (max-width: 992px) {
-      position: relative;
-      bottom: auto;
-      margin-left: -9px;
-      left: 36px;
-
     margin-left: 8px;
     @media screen and (max-width: 992px) {
-      position: relative;
-      bottom: -9px;
-      margin-left: -9px;
+      /* bottom: -7px; */
       left: 16px;
+      margin-left: -9px;
+      position: relative;
     }
   }
   :-webkit-direct-focus {
@@ -710,5 +636,5 @@ export const AlgoliaWidgets = styled.div`
     outline-style: auto;
     outline-width: 0;
   }
-}
+
 `

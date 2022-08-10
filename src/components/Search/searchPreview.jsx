@@ -5,6 +5,7 @@ import { connectSearchBox, connectHits } from 'react-instantsearch-dom';
 import styled from 'styled-components';
 
 export const SearchWrapper = styled.ul`
+  margin-left: 0;
   ais-highlight-0000000000 {
     color: ${(props) => props.theme.colors.grey_90};
     background-color: ${(props) => props.theme.colors.yellow_20};
@@ -99,7 +100,7 @@ export const SearchWrapper = styled.ul`
   list-style: none;
   display: flex;
   flex-direction: row; 
-  flex-wrap: wrap;
+  
   @media(min-width: 992px) {
     flex-wrap: nowrap;
   }
