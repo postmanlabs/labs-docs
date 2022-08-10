@@ -85,7 +85,9 @@ You can also import a schema manually. When you [create or import a GraphQL sche
 1. Choose either **JSON** or **GraphQL SDL** from the **Schema Format** dropdown list.
     > You can optionally select the **Import** tab to import an API specification directly from either a local file or a GitHub or Bitbucket repo. If you don't import a schema, Postman will populate your API with a sample specification you can edit at any time.
 1. Select **Create API**.
+
     <img src="https://assets.postman.com/postman-docs/graphql-create-schema.jpg" alt="Create a new API" width="500px"/>
+
 1. Open the new API's version page and select the **Definition** tab. Enter your GraphQL schema in the editor and save it.
 
     ![Edit the API schema](https://assets.postman.com/postman-docs/graphql-schema-definition.jpg)
