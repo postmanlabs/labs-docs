@@ -16,7 +16,7 @@ warning: false
 
 ---
 
-Uptime monitors (open beta) continuously check the availability of a single API endpoint, website, or other URL. You'll get an email notification whenever downtime occurs, typically within one to two minutes. You can also set up an integration to get downtime notifications in Slack.
+Uptime monitors continuously check the availability of a single API endpoint, website, or other URL. You'll get an email notification whenever downtime occurs, typically within one to two minutes. You can also set up an integration to get downtime notifications in Slack.
 
 To create a new uptime monitor, enter the URL and select which team members to notify in the event of a system outage. You can customize how often the monitor checks the availability of the URL. You can also configure the monitor to run in multiple regions (paid plans).
 
