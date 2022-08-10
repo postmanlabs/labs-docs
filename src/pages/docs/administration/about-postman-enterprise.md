@@ -28,7 +28,7 @@ Postman Enterprise enables you to access reports that give you insights into the
 
 Postman Enterprise gives you access to advanced identity management features, including:
 
-* **Role-based access control (RBAC)** - Postman Enterprise RBAC features help you give the right members of your team access to the right tools and data. To learn more about the team-level roles available to Enterprise teams, see [Defining roles](/docs/collaborating-in-postman/roles-and-permissions/#team-roles).
+* **Role-based access control (RBAC)** - Postman Enterprise RBAC features help you give the right members of your team access to the right tools and data. To learn more about the team-level roles available to Enterprise teams, including Super Admin, Community Manager, and API Network Manager, see [Defining roles](/docs/collaborating-in-postman/roles-and-permissions/#team-roles).
 * **User groups** - An Enterprise plan enables you to organize members of your team into groups, then assign roles and permissions according to each group's function. To learn more about user groups, see [Managing user groups](/docs/administration/managing-your-team/user-groups/).
 * **Single sign-on (SSO)** - You can enable your team members to sign in to Postman Enterprise using your organization's identity provider. To learn more about setting up SSO for your team, see [Single sign-on](/docs/administration/sso/intro-sso/).
 * **System for cross-domain identity management (SCIM)** - Setting up SCIM enables you to automatically provision and de-provision team members. To learn more about enabling SCIM for your team, see [SCIM provisioning](/docs/administration/scim-provisioning/scim-provisioning-overview/).
