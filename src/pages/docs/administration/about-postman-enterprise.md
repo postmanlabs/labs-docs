@@ -14,7 +14,6 @@ The Postman Enterprise plan is for organizations that need advanced identity man
     * [Administration](#administration)
 * [Postman Enterprise trial](#postman-enterprise-trial)
 * [Purchasing a Postman Enterprise plan](#purchasing-a-postman-enterprise-plan)
-* [Next steps](#next-steps)
 
 ## Enterprise features
 
@@ -43,6 +42,12 @@ Postman Enterprise provides you with access to API security features to keep you
 * **Audit logs** - Once you set up Postman Enterprise, you can use [audit logs](/docs/administration/audit-logs/) to understand how your team members are using it.
 * **Formatting and security warnings** - Postman Enterprise also include advanced API governance features, including formatting and security warnings, that enable you to apply standards consistently throughout your API development process's [design](/docs/api-governance/api-definition/api-definition-warnings/) and [testing phases](/docs/api-governance/api-testing/api-testing-warnings/).
 
+## Collaboration
+
+Partner workspaces
+
+Private API Network
+
 ### Administration
 
 After you purchase a Postman Enterprise plan, you can customize it to meet your organization's needs:
@@ -50,12 +55,6 @@ After you purchase a Postman Enterprise plan, you can customize it to meet your 
 * **Postman Enterprise app** - The Postman Enterprise app is a variant of the Postman desktop app that offers greater control to administrators. After you purchase a Postman Enterprise plan, you can start using the Enterprise app if it meets your organization's needs.
 * **App versioning** - Set a team-wide version of the Postman desktop app for your organization. To learn more about app versioning, see [Managing Postman app versioning](/docs/administration/managing-enterprise-deployment/#managing-postman-app-versioning).
 * **Enterprise integrations** - Some integrations, including [Azure DevOps](/docs/integrations/available-integrations/azure-devops/), [GitHub Enterprise Server](/docs/integrations/available-integrations/github/), and [GitLab Self-Managed](/docs/integrations/available-integrations/gitlab/), are only available with an Enterprise plan.
-
-## Collaboration
-
-Partner workspaces
-
-Private API Network
 
 ## Postman Enterprise trial
 
@@ -76,9 +75,3 @@ If you decide not to upgrade after your trial period is over, you will return to
 ## Purchasing a Postman Enterprise plan
 
 To purchase a Postman Enterprise plan, contact the [Postman sales team](https://www.postman.com/company/contact-sales/). The sales team will evaluate your organization's needs, including the number of team member slots and any [add-ons](/docs/administration/billing/#managing-add-ons). To learn more, see [Purchasing Postman](/docs/administration/buying/).
-
-## Next steps
-
-
-
-* To learn how to manage Postman app versioning and deploy the Postman Enterprise app to your organization, see [Managing Enterprise deployment](/docs/administration/managing-enterprise-deployment/).
