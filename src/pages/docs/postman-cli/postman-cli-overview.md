@@ -19,14 +19,6 @@ contextual_links:
     name: "API governance"
     url: "/docs/api-governance/api-governance-overview/"
   - type: subtitle
-    name: "Videos"
-  - type: link
-    name: "TBD"
-    url: "TBD"
-  - type: link
-    name: "TBD"
-    url: "TBD"
-  - type: subtitle
     name: "Blog Posts"
   - type: link
     name: "TBD"
@@ -49,10 +41,10 @@ warning: false
 
 Postman CLI is a secure command-line companion for Postman. Postman CLI enables you to:
 
-* Run collections and API tests from your terminal.
-* Automate collection runs, API testing, and CI/CD pipelines.
+* Run collections from your terminal.
+* Automate collection runs and CI/CD pipelines.
 
-  Postman CLI is similar to Newman, Postman's open-source command-line companion, but Postman CLI is secured and supported by Postman. Also,Postman CLI has these features:
+Postman CLI is similar to [Newman](/docs/running-collections/using-newman-cli/command-line-integration-with-newman/), but Postman CLI is secured and supported by Postman. Also,Postman CLI has these features:
 
 * Log into Postman from the command line
 * Run a collection with its collection ID
@@ -74,10 +66,11 @@ The table below shows some high-level differences between Postman CLI and Newman
 | Supported by Postman | Supported by community contributions |
 | Supports collection runs| Supports collection runs  |
 | Closed-source | Open-source |
-| Automatically ingests collection run results to Postman by default | Supports ingesting run results to Postman using a reporter |
+| Automatically sends collection run results to Postman by default | Supports ingesting run results to Postman using a reporter |
 | Package is signed by Postman | Package isn't signed by Postman |
-| Has a log in/log out feature | Must include Postman API key with requests |
+| Has a log in/log out command | Must include Postman API key with requests |
 | Distributed as a downloadable package | Distributed on npm |
+| Downloadable programmatically | Downloadable programmatically
 | Not available as a library | Available as a library
 
 ### Deciding which command-line companion to use
@@ -86,4 +79,4 @@ Both Postman CLI and Newman enable you to run and test collections directly from
 
 For example, assume you already provide your own security for open-source software, and you want to run collections from a script. Also assume you want visibility into any software you build into your CI/CD pipeline. Newman would be a good fit for this use case because Newman's repository is public and Newman is not signed or secured by Postman.
 
-Alternatively, assume you don't already support or secure any open-source software, and you want any software you use to be signed and secured by its developer. Postman CLI would be a good fit for this use case because Postman CLI is signed and secured by Postman, and supports running tests in APIs.
+Alternatively, assume you don't already support or secure any open-source software, and you want any software you use to be signed and secured by its developer. Postman CLI would be a good fit for this use case because Postman CLI is signed and secured by Postman.

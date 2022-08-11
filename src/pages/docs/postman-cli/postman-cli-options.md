@@ -30,11 +30,11 @@ contextual_links:
 
 warning: false
 tags:
-  - "newman"
+  - "Postman CLI"
 
 ---
 
-Newman provides a rich set of options to customize a run. You can retrieve a list of options by running Newman with the ``-h`` flag.
+Postman CLI provides a rich set of options to customize a run. You can retrieve a list of options by running Postman with the ``-h`` flag.
 
 ```bash
 $ newman run -h
