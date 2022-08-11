@@ -45,6 +45,7 @@ To connect your API to your CI project, see the steps for your CI tool:
 
 * [Bitbucket Pipelines](/docs/integrations/available-integrations/ci-integrations/bitbucket-pipelines/)
 * [CircleCI](/docs/integrations/available-integrations/ci-integrations/circleci/)
+* [GitHub Actions](/docs/integrations/available-integrations/ci-integrations/github-actions/)
 * [GitLab CI/CD](/docs/integrations/available-integrations/ci-integrations/gitlab-ci/)
 * [Jenkins](/docs/integrations/available-integrations/ci-integrations/jenkins/)
 * [Travis CI](/docs/integrations/available-integrations/ci-integrations/travis-ci/)
@@ -59,6 +60,7 @@ To configure Newman to run API tests, see the steps for your CI tool:
 
 * [Bitbucket Pipelines](/docs/integrations/available-integrations/ci-integrations/bitbucket-pipelines/#configuring-newman-for-bitbucket-pipelines)
 * [CircleCI](/docs/integrations/available-integrations/ci-integrations/circleci/#configuring-newman-for-circleci)
+* [GitHub Actions](/docs/integrations/available-integrations/ci-integrations/github-actions/#configuring-newman-for-github-actions)
 * [GitLab CI/CD](/docs/integrations/available-integrations/ci-integrations/gitlab-ci/#configuring-newman-for-gitlab-cicd)
 * [Jenkins](/docs/integrations/available-integrations/ci-integrations/jenkins/#configuring-newman-for-jenkins)
 * [Travis CI](/docs/integrations/available-integrations/ci-integrations/travis-ci/#configuring-newman-for-travis-ci)

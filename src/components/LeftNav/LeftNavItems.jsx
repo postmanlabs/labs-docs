@@ -913,6 +913,10 @@ export const leftNavItems = [
             url: '/docs/integrations/available-integrations/github/',
           },
           {
+            name: 'GitHub Actions',
+            url: '/docs/integrations/available-integrations/ci-integrations/github-actions/',
+          },
+          {
             name: 'GitLab',
             url: '/docs/integrations/available-integrations/gitlab/',
           },
