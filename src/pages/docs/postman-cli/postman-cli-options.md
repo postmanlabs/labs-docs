@@ -5,28 +5,11 @@ contextual_links:
   - type: section
     name: "Prerequisites"
   - type: link
-    name: "Using the Collection Runner"
-    url: "/docs/running-collections/intro-to-collection-runs/"
-  - type: section
-    name: "Additional Resources"
-  - type: subtitle
-    name: "Videos"
+    name: "Postman CLI overview"
+    url: "/docs/postman-cli/postman-cli-overview/"
   - type: link
-    name: "Run Collections with Newman | Postman Level Up"
-    url: "https://www.youtube.com/watch?v=SQlwGZj97Y4"
-  - type: link
-    name: "Using Custom Reporters with Newman"
-    url: "https://youtu.be/Nxdxx-VaYno"
-  - type: subtitle
-    name: "Blog Posts"
-  - type: link
-    name: "Newman: run and test your collections from the command line"
-    url: "https://blog.postman.com/newman-run-and-test-your-collections-from-the-command-line/"
-  - type: section
-    name: "Next Steps"
-  - type: link
-    name: "Intro to the Postman API"
-    url: "/docs/developer/intro-api/"
+    name: "Installing Postman CLI"
+    url: "/docs/postman-cli/postman-cli-installation/"
 
 warning: false
 tags:
@@ -37,25 +20,26 @@ tags:
 Postman CLI provides a rich set of options to customize a run. You can retrieve a list of options by running Postman with the ``-h`` flag.
 
 ```bash
-$ newman run -h
+$ postman -h
 ```
 
 ## Contents
 
-* [Basic options](#basic-options)
-* [Setup](#setup)
-* [Request options](#request-options)
-* [Miscellaneous options](#miscellaneous-options)
-* [Exit status](#exit-status)
+* [Download](#download)
+* [Basic](#basic)
+* [Login/logout](#login-logout)
+* [Run a Postman collection](#run-a-Postman-collection)
+* [Lint](#lint)
+* [Custom reporters](#custom-reporters)
 
-## Basic options
+## Download
 
 | Option | Details |
 |:--|:--|
 | `-h`, `--help` | Output usage information |
 | `-v`, `--version` | Output the version number |
 
-## Setup
+## Basic
 
 | Option | Details |
 |:--|:--|
@@ -70,7 +54,7 @@ $ newman run -h
 | `--export-globals [path]` | The path to the file where Newman will output the final global variables file before completing a run. |
 | `--export-collection [path]` | The path to the file where Newman will output the final collection file before completing a run. |
 
-## Request options
+## Login/logout
 
 | Option | Details |
 |:--|:--|
@@ -79,7 +63,7 @@ $ newman run -h
 | `--timeout-request [number]` | Specify a request timeout (in milliseconds) for a request. |
 | `--timeout-script [number]` | Specify the time (in milliseconds) to wait for scripts to complete execution. |
 
-## Miscellaneous options
+## Run a Postman collection
 
 | Option | Details |
 |:--|:--|
@@ -96,49 +80,14 @@ $ newman run -h
 | `--global-var "[global-variable-name]=[global-variable-value]"` | Specifies global variables on the command line, in a key=value format. Multiple global variables can be added by using `--global-var` multiple times, for example, `--global-var "this=that" --global-var "alpha=beta".` |
 | `--env-var "[environment-variable-name]=[environment-variable-value]"` | Allows you to set environment variables in a key=value format on the command line. You can add multiple environment variables using `--env-var` multiple times, for example: `--env-var "key1=value1" --env-var "key2=value2"`. |
 
-## Exit status
+## Lint
 
-Newman, by default, exits with a status code of 0 if everything runs well, such as without any exceptions.
+| Heading | Heading |
+|:--|:--|
+| Row | Row |
 
-Continuous integration tools respond to these exit codes and correspondingly pass or fail a build.
+## Custom reporters
 
-You can use `-x` or `--suppress-exit-code` to override the default exit code for the current run.
-
-You can use the `--bail` flag to tell Newman to halt on a test case error with a status code of 1, which can then be picked up by a CI tool or build system.
-
-```bash
-$ newman run PostmanCollection.json -e environment.json --bail
-```
-
-## Data file example
-
-To provide a different set of data, such as variables for each iteration, you can use the `-d` flag to specify a JSON or CSV file.
-
-For example, a data file such as the one shown below runs _two_ iterations, with each iteration using a set of variables.
-
-```json
-[{
-    "url": "http://127.0.0.1:5000",
-    "user_id": "1",
-    "id": "1",
-    "token_id": "123123",
-},
-{
-    "url": "http://postman-echo.com",
-    "user_id": "2",
-    "id": "2",
-    "token_id": "899899",
-}]
-```
-
-```bash
-$ newman run mycollection.json -d data.json
-```
-
-Here's an example of the CSV file for the above set of variables:
-
-```bash
-url, user_id, id, token_id
-http://127.0.0.1:5000, 1, 1, 123123123
-http://postman-echo.com, 2, 2, 899899
-```
+| Heading | Heading |
+|:--|:--|
+| Row | Row |

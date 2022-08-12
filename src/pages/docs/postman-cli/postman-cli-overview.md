@@ -8,34 +8,10 @@ contextual_links:
     name: "Using the Collection Runner"
     url: "/docs/running-collections/intro-to-collection-runs/"
   - type: section
-    name: "Additional Resources"
-  - type: link
-    name: "Postman API key"
-    url: "/docs/developer/intro-api/"
-  - type: link
-    name: "Validating APIs"
-    url: "/docs/designing-and-developing-your-api/validating-elements-against-schema/"
-  - type: link
-    name: "API governance"
-    url: "/docs/api-governance/api-governance-overview/"
-  - type: subtitle
-    name: "Blog Posts"
-  - type: link
-    name: "TBD"
-    url: "TBD"
-  - type: link
-    name: "TBD"
-    url: "TBD"
-  - type: subtitle
-    name: "Case Studies"
-  - type: link
-    name: "TBD"
-    url:  "TBD"
-  - type: section
     name: "Next Steps"
   - type: link
-    name: "TBD"
-    url: "TBD"
+    name: "Installing Postman CLI"
+    url: "/docs/postman-cli/postman-cli-installation/"
 warning: false
 ---
 
@@ -44,7 +20,7 @@ Postman CLI is a secure command-line companion for Postman. Postman CLI enables 
 * Run collections from your terminal.
 * Automate collection runs and CI/CD pipelines.
 
-Postman CLI is similar to [Newman](/docs/running-collections/using-newman-cli/command-line-integration-with-newman/), but Postman CLI is secured and supported by Postman. Also,Postman CLI has these features:
+Postman CLI is similar to [Newman](/docs/running-collections/using-newman-cli/command-line-integration-with-newman/), but Postman CLI is secured and supported by Postman. Also, Postman CLI has these extra features:
 
 * Log into Postman from the command line
 * Run a collection with its collection ID
