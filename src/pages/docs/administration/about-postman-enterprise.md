@@ -27,9 +27,9 @@ Postman Enterprise enables you to access reports that give you insights into the
 
 Postman Enterprise gives you access to advanced identity management features, including:
 
-* **Role-based access control (RBAC)** - Postman Enterprise RBAC features help you give the right members of your team access to the right tools and data. To learn more about the team-level roles available to Enterprise teams, including Super Admin, Community Manager, and API Network Manager, see [Defining roles](/docs/collaborating-in-postman/roles-and-permissions/#team-roles).
+* **Role-based access control (RBAC)** - Postman Enterprise RBAC enables you to give the right members of your team access to the right tools and data. To learn more about the team-level roles available to Enterprise teams, including Super Admin, Community Manager, and API Network Manager, see [Defining roles](/docs/collaborating-in-postman/roles-and-permissions/#team-roles).
 * **User groups** - An Enterprise plan enables you to organize members of your team into groups, then assign roles and permissions according to each group's function. To learn more about user groups, see [Managing user groups](/docs/administration/managing-your-team/user-groups/).
-* **Single sign-on (SSO)** - You can enable your team members to sign in to Postman Enterprise using your organization's [identity provider](/docs/administration/sso/intro-sso/#identity-providers-supported). To learn more about setting up SSO for your team, see [Single sign-on](/docs/administration/sso/intro-sso/).
+* **Single sign-on (SSO)** - You can enable your team members to sign in to Postman Enterprise using your organization's [identity provider](/docs/administration/sso/intro-sso/#identity-providers-supported). To learn more about setting up SSO for your team, see [Intro to SSO](/docs/administration/sso/intro-sso/).
 * **System for cross-domain identity management (SCIM)** - Setting up SCIM enables you to automatically provision and de-provision team members and organize them into [user groups](/docs/administration/managing-your-team/user-groups/). To learn more about enabling SCIM for your team, see [SCIM provisioning](/docs/administration/scim-provisioning/scim-provisioning-overview/).
 * **Domain capture** - Domain capture enables you to consolidate all your organization's users into a single Postman team and ensure that any new users who sign up for Postman with your domain are automatically added. To learn more about setting up domain capture, see [Configuring domain capture](/docs/administration/managing-your-team/configuring-domain-capture/).
 
@@ -39,8 +39,8 @@ Postman Enterprise provides you with advanced API security and governance featur
 
 * **Custom token scanner** - Create a [custom token scanner](/docs/administration/token-scanner/#custom-alerts) to proactively check for security leaks.
 * **Public link governance** - View and manage elements like workspaces, documentation, and collection links that your team [makes public](/docs/collaborating-in-postman/manage-public-elements/).
-* **Audit logs** - Once you set up Postman Enterprise, you can use [audit logs](/docs/administration/audit-logs/) to understand how your team members are using it.
-* **Formatting and security warnings** - Postman Enterprise also include advanced API governance features, including formatting and security warnings, that enable you to apply standards consistently throughout your API development process's [design](/docs/api-governance/api-definition/api-definition-warnings/) and [testing phases](/docs/api-governance/api-testing/api-testing-warnings/).
+* **Audit logs** - Use [audit logs](/docs/administration/audit-logs/) to understand how your team members are using Postman.
+* **Formatting and security warnings** - Make use of formatting and security warnings that enable you to apply standards consistently throughout your API development process's [design](/docs/api-governance/api-definition/api-definition-warnings/) and [testing](/docs/api-governance/api-testing/api-testing-warnings/) phases.
 
 ## Collaboration
 
@@ -53,7 +53,7 @@ Postman Enterprise enables your organization to collaborate internally and with 
 
 After you purchase a Postman Enterprise plan, you can customize it to meet your organization's needs:
 
-* **Postman Enterprise app** - The Postman Enterprise app is a version of the Postman desktop app that offers greater control to administrators. After you purchase a Postman Enterprise plan, you can start using the Enterprise app if it meets your organization's needs.
+* **Postman Enterprise app** - The [Postman Enterprise app](/docs/administration/managing-enterprise-deployment/) is a version of the Postman desktop app that offers greater control to administrators. After you purchase a Postman Enterprise plan, you can use the Enterprise app to manage deployment and installations within your organization.
 * **App versioning** - Set a team-wide version of the Postman desktop app for your organization. To learn more about app versioning, see [Managing Postman app versioning](/docs/administration/managing-enterprise-deployment/#managing-postman-app-versioning).
 * **Enterprise integrations** - Some integrations, including [Azure DevOps](/docs/integrations/available-integrations/azure-devops/), [GitHub Enterprise Server](/docs/integrations/available-integrations/github/), and [GitLab Self-Managed](/docs/integrations/available-integrations/gitlab/), are only available with an Enterprise plan.
 
@@ -61,7 +61,7 @@ After you purchase a Postman Enterprise plan, you can customize it to meet your 
 
 If you're interested in trying out Postman Enterprise for your organization, you can evaluate the service during a free 30 day trial.
 
-During the 30 day trial, you will have access to the full range of Enterprise features available in the Postman app. However, you won't be able to use the Postman Enterprise app, a version of the Postman desktop app that offers greater control to administrators.
+During the 30 day trial, you will have access to the full range of Enterprise features Postman offers. However, you won't be able to use the Postman Enterprise app, a version of the Postman desktop app that offers greater control to administrators.
 
 If you have an existing Postman account, you can start a trial from the [Postman website](https://www.postman.com/postman-enterprise/) or from the Postman app. You must have an [Admin role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) to start a trial. If you have a [Billing role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) in addition to your Admin role, you can start the trial from the [Billing dashboard](http://go.postman.co/billing).
 
