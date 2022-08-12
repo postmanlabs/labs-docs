@@ -65,7 +65,7 @@ Select **View All Builds** to view the full list of build jobs. From here you ca
 
 Using Newman, you can run Postman collections with your API tests as part of a GitHub pipeline. The Postman cloud reporter can send details about the collection runs back to Postman.
 
-To view details for collections that were run as part of a build, first [configure Newman for GitHub](#configuring-newman-for-github-actions) and then start a new build in GitHub. To learn more about starting builds, see [the GitHub Actions documentation](https://docs.github.com/en/actions/using-workflows/about-workflows). After the build is complete, use the arrows to expand a build and expand **Collection Runs**. Then expand a collection to view details about a collection run.
+To view details for collections that were run as part of a build, first [configure Newman for GitHub](#configuring-newman-for-github-actions) and then start a new build in GitHub. To learn more about starting builds, see [the GitHub Actions documentation](https://docs.github.com/en/actions/managing-workflow-runs/manually-running-a-workflow). After the build is complete, use the arrows to expand a build and expand **Collection Runs**. Then expand a collection to view details about a collection run.
 
 <img alt="View GitHub Actions collection runs" src="https://assets.postman.com/postman-docs/gitlab-collection-runs-v9-19.jpg">
 
