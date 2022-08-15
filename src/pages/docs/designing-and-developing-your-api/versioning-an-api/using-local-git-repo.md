@@ -5,26 +5,27 @@ contextual_links:
   - type: section
     name: "Prerequisites"
   - type: link
-    name: "Using the API Builder"
+    name: "API development overview"
     url: "/docs/designing-and-developing-your-api/the-api-workflow/"
-  - type: link
-    name: "Streamline the API Development Lifecycle with Postman Version Control"
-    url: "https://blog.postman.com/streamline-api-development-lifecycle-with-postman-version-control/"
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Blog Posts"
   - type: link
     name: "Better Practices for Git Version Control in Postman"
     url: "https://blog.postman.com/better-practices-for-git-version-control-in-postman/"
   - type: section
     name: "Next Steps"
   - type: link
-    name: "Validating elements against schema"
-    url: "/docs/designing-and-developing-your-api/validating-elements-against-schema/"
+    name: "Managing changes using Git"
+    url: "/docs/designing-and-developing-your-api/versioning-an-api/managing-git-changes/"
 ---
 
 You can connect an API in Postman to a Git repository on your local development system. Postman supports connecting to GitHub, Bitbucket, GitLab, GitLab Self-Managed, or Azure DevOps repositories.
 
 After connecting to a local repository, you can complete your local API development workflow using Postman. Create branches to work on new features, pull the latest changes, and resolve any conflicts. Use your collections, environments, and other resources on your local system to help implement and test your endpoints. Once you've verified the new features locally, commit and push your changes to the remote repository and create a pull request.
 
-> **You must connect your API to a remote Git repository before you can connect to a local repository.** The remote repository must be the origin of the local repository you are connecting to. Learn more about [connecting to a remote Git repository](/docs/designing-and-developing-your-api/versioning-an-api/using-external-git-repo/).
+> **You must connect your API to a remote Git repository before you can connect to a local repository.** The remote repository must be the origin of the local repository you're connecting to. Learn more about [connecting to a remote Git repository](/docs/designing-and-developing-your-api/versioning-an-api/using-external-git-repo/).
 
 ## Contents
 
@@ -46,7 +47,7 @@ You can connect an API in Postman to a Git repository on your local system. Afte
 
 ## Disconnecting a local repository
 
-After you disconnect a local repository, you can no longer work with your local files in Postman. The connection to your remote repository won't be affected.
+After you disconnect a local repository, you can no longer work with your local files in Postman. The connection to your remote repository isn't affected.
 
 <!-- TO DO: VERIFY STEPS, ADD SCREENSHOT -->
 
@@ -55,10 +56,10 @@ After you disconnect a local repository, you can no longer work with your local 
 
 ## Next steps
 
-Now that you've connected a local repository to your API, you can:
+After you've connected a local repository to your API, you can:
 
 <!-- TO DO: ADD LINKs -->
 
-* Work with branches, push and pull changes, and create pull requests. Learn more about managing changes.
+* Work with branches, push and pull changes, and create pull requests. Learn more about [managing changes using Git](/docs/designing-and-developing-your-api/versioning-an-api/managing-git-changes/).
 * Publish an API version to a workspace or the Private API Network. Learn more about publishing an API version.
 * Sync your changes to a Postman workspace. Learn more about syncing your API with Postman.
