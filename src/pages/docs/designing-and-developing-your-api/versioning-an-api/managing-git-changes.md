@@ -21,13 +21,13 @@ contextual_links:
     url: "/docs/designing-and-developing-your-api/syncing-an-api/"
 ---
 
-After you connect to a remote or local repo, you can work on changes in Postman. Changes always happen on a branch. You can work on the default branch, or you can create a new feature branch to collaborate with others.
+After you connect to a remote or local Git repository, you can use Postman to make changes to your API and collaborate with others. Any changes you make to your API definition, collections, or other linked elements always happen a branch. You can work on your repository's default branch, or you can create a new feature branch.
 
-If you've configured a local repo, changes go to your local working branch. From there you can push changes to the corresponding remote branch in your repo. You can then create a PR to merge the changes to the remote default branch.
+If you've configured a local repository, any changes you make in Postman are saved to your local working branch. From there, you can push the changes to the corresponding branch in your remote repository. You can then create a pull request to merge the changes into the remote default branch.
 
-If you haven't configured a local repo, Postman stores your changes locally as you work on them. When ready, you can push your changes to the remote default branch.
+If you haven't configured a local repository, Postman stores your changes locally in your Postman user account as you work on them. When you're ready to share your work, you can push your changes to the remote default branch.
 
-> For cloud-hosted repos, changes are automatically synced from the remote default branch to the Postman workspace in the cloud where consumers can see them. For self-hosted repos, you must manually sync changes to the remote repo. Learn more about syncing to a Postman workspace.
+> For cloud-hosted repositories, changes are automatically synced from the remote default branch to the Postman workspace where consumers can see them. For self-hosted repositories, you must manually sync changes to the remote repository before the changes are available to consumers. Learn more about syncing to a Postman workspace.
 
 ## Contents
 
@@ -41,7 +41,7 @@ You can work on any branch in your repo, or create a new branch...
 
 ### Creating a new branch
 
-You can create a new branch...
+You can create a new feature branch. This lets you work on changes without affecting the default branch until you're ready to merge.
 
 ### Switching branches
 
