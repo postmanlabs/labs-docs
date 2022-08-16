@@ -23,33 +23,41 @@ contextual_links:
 
 After you connect to a remote or local Git repository, you can use Postman to make changes to your API and collaborate with others. Any changes you make to your API definition, collections, or other linked elements always happen on a branch. You can work on your repository's default branch, or you can create a new feature branch for your changes.
 
-If you've configured a local repository, any changes you make in Postman are saved to your active local branch. From there, you can push the changes to the corresponding origin branch in your remote repository. To make your changes available to your API's consumers, push them or merge them into your remote repository's default branch.
+If you've [configured a local repository](/docs/designing-and-developing-your-api/versioning-an-api/using-local-git-repo/), any changes you make in Postman are saved to your active local branch. From there, you can push the changes to the remote repository, where the changes will be available to the others.
 
-If you haven't configured a local repository, Postman stores your changes in a local cache as you work on them. When you're ready to share your work with others, you can push your changes to the default branch in your remote repository.
+If you've [configured a remote repository](/docs/designing-and-developing-your-api/versioning-an-api/using-external-git-repo/) but haven't configured a local repository, Postman stores your changes in a local cache. When you're ready to share your work with others, push your changes to the remote repository.
 
 ## Contents
 
 * [Working with branches](#working-with-branches)
 * [Pushing and pulling changes](#pushing-and-pulling-changes)
-* [Making changes available to consumers](#making-changes-available-to-consumers)
+* [Making your changes available to others](#making-your-changes-available-to-others)
 
 ## Working with branches
 
-As a producer, you must always work on a branch. You can work on any branch in your repo, or create a new branch. Switch to a branch to make it active. You can also switch to a consumer view (read only).
+Git branches help you organize your work and collaborate with others. As an API producer, you always work on a branch. You can switch to any branch in your repository, or you can create a new branch.
 
 ### Switching branches
 
-Switch the active branch. Postman reflects the active branch (schema, collections).
+If your Git repository has multiple branches (such as `main`, `develop`, and feature branches) you can switch between branches in Postman. Switching to a branch makes it the active branch.
 
-If your Git repo has multiple feature branches, you can switch branches in Postman from the development branch to a different feature branch. This enables you to view and make changes when you use a Git workflow where developers work in different feature branches.
+To switch branches, select the branch dropdown menu next to the API's name in the sidebar, then select the branch you want to make active. After switching to a branch, you can use Postman to make changes to your API's definition, tests, documentation, environments, mocks, and monitors. Any changes you make are stored in the active branch.
 
-To switch to a different branch, select **Switch Branch** from the repo dropdown list, then choose a branch from the list. Note that the **Switch Branch** list is only available if your repo has more than one branch, in addition to the main branch.
+<!-- TO DO: VERIFY STEPS, ADD SCREENSHOT -->
 
-When you aren't in the configured develop branch, you can only edit the API schema and collections. Commit and push your changes to the feature branch, then in your Git repo, you can make a pull request, review changes, and merge back to your develop branch.
+> If you are working in a local branch, you won't be able to run mocks and monitors until you [push your changes](#committing-and-pushing-changes) to the remote repository. After pushing to the remote repository, you'll also be able to view CI integrations and run builds from Postman.
 
 ### Creating a new branch
 
-You can create a new feature branch. This lets you work on changes without affecting the default branch until you're ready to merge.
+Feature branches enable to work on changes to your API without affecting the default branch in your repository. When you create a new branch, Postman automatically makes it the active branch.
+
+To create a new branch:
+
+1.
+
+<!-- TO DO: ADD STEPS, ADD SCREENSHOT -->
+
+> You can also create a branch when [committing changes](#committing-and-pushing-changes) to a local repository.
 
 ## Pushing and pulling changes
 
@@ -89,8 +97,12 @@ If conflicts occur...
 
 Can resolve conflicts for elements Postman understands within Postman.
 
-## Making changes available to consumers
+## Making your changes available to others
+
+Any branches and changes you push to your remote repository are visible to other API producers on your team.
 
 To make your changes available to your API's consumers, push the changes to your remote repository's default branch. If your changes are on a feature branch, use your team's standard workflow to merge the changes into your remote repository's default branch. For example, you can use your preferred Git client to create a pull request to merge your feature branch into the default branch.
 
-For cloud-hosted repositories, updates to the remote default branch are automatically synced to your Postman workspace where your API's consumers can view them. <!-- TO DO: ADD LINK --> For self-hosted repositories, you must manually sync your local repository to your Postman workspace before the changes are available to consumers. Learn more about syncing to a Postman workspace. <!-- TO DO: ADD LINK -->
+For cloud-hosted repositories, updates to the remote default branch are automatically synced to your Postman workspace. For enterprise self-hosted repositories, you must manually sync your local repository to your Postman workspace. Learn more about syncing to a Postman workspace. <!-- TO DO: ADD LINK TO SYNCING PAGE -->
+
+Once your changes are synced to your Postman workspace, you can publish a new version of your API to make it available to consumers. Learn more about publishing an API. <!-- TO DO: ADD LINK TO PUBLISHING PAGE -->
