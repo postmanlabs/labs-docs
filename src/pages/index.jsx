@@ -11,6 +11,7 @@ import '../../styles/config/normalize.css';
 import '../components/MarketingPages/Buttons.scss';
 import styled from 'styled-components';
 
+
 const EventsWrapper = styled.div`
 .events__alert {
     border: 4px dashed ${(props) => props.theme.colors.blue_10};

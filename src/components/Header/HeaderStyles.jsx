@@ -374,7 +374,7 @@ export const HeaderWrapper = styled.div`
     }
   }
    /* Used for Learning Center Nav */
-  body .menu-open:after {
+  body .menu-open::after{
     content: '';
     display: block;
     position: fixed;
@@ -451,16 +451,7 @@ export const DropdownStyles = styled.div`
 
 
    /* Used for Learning Center Nav */
-  body.menu-open:after {
-    content: '';
-    display: block;
-    position: fixed;
-    top: 0; bottom: 0; left: 0; right: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 10;
-    background: rgba(0,0,0,0.7);
-  }
+  
   
 
 `
@@ -531,7 +522,7 @@ a.button__sign-in {
   margin: 0 8px 0 0;
   &:hover,
   &:active {
-    background-color: $white;
+    background-color: ${(props) => props.theme.colors.grey_00};
     box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, .64)  inset  !important;;
     text-decoration: none;
   }
@@ -548,8 +539,7 @@ a.button__sign-in {
 
 export const AlgoliaWidgets = styled.div`
     // Algolia Search Styling
-  
-
+  height: 32px;
 .ais-Pagination-list {
   list-style: none;
   display: flex;
@@ -619,11 +609,32 @@ export const AlgoliaWidgets = styled.div`
     }
   }
    
-  
+  .input-empty {
+  display: none;
+}
+
+.input-value {
+  position: absolute;
+  z-index: 3;
+  right: 10px;
+  background-color: ${(props) => props.theme.colors.grey_00};
+  border: 1px solid ${(props) => props.theme.colors.grey_30};
+  background: ${(props) => props.theme.colors.grey_00}; 
+  border-radius: ${(props) => props.theme.borderRadius.small};
+  padding-right: 24px;
+  display: flex;
+  text-align: left;
+  max-width: 600px;
+
+  @media screen and (max-width: 992px){
+    left: 10px;
+    right: 10px;
+  }
+}
   /* Search Icon */
   svg.nav-search__icon {
     position: absolute;
-    bottom: 28px;
+    bottom: 18px;
     margin-left: 8px;
     @media screen and (max-width: 992px) {
       bottom: -2px;
