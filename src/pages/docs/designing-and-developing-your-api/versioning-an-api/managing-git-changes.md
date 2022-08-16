@@ -23,9 +23,9 @@ contextual_links:
 
 After you connect to a remote or local Git repository, you can use Postman to make changes to your API and collaborate with others. Any changes you make to your API definition, collections, or other linked elements always happen on a branch. You can work on your repository's default branch, or you can create a new feature branch for your changes.
 
-If you've [configured a local repository](/docs/designing-and-developing-your-api/versioning-an-api/using-local-git-repo/), any changes you make in Postman are saved to your active local branch. From there, you can push the changes to the remote repository, where the changes will be available to the others.
+If you [configured a local repository](/docs/designing-and-developing-your-api/versioning-an-api/using-local-git-repo/), any changes you make in Postman are saved to your active local branch. From there, you can push the changes to the remote repository, where the changes will be available to the others.
 
-If you've [configured a remote repository](/docs/designing-and-developing-your-api/versioning-an-api/using-external-git-repo/) but haven't configured a local repository, Postman stores your changes in a local cache. When you're ready to share your work with others, push your changes to the remote repository.
+If you [configured a remote repository](/docs/designing-and-developing-your-api/versioning-an-api/using-external-git-repo/) but haven't configured a local repository, Postman stores your changes in a local cache. When you're ready to share your work with others, push your changes to the remote repository.
 
 ## Contents
 
@@ -61,48 +61,68 @@ To create a new branch:
 
 ## Pushing and pulling changes
 
-When you are connected to an external Git repo, the repo dropdown list displays your current develop branch and indicates if your API changes in Postman are ahead of or behind the files in your external repo. It shows links to the connected branch and repo, and a date when changes were last pulled to Postman or pushed to the Git repo. It also contains commands to pull, commit and push, switch branches, and delete the integration.
+As you work on your API, Postman tracks the changes you make to the active branch. Use the **Source Control** pane to view and manage your change history. You can commit and push your changes to the remote repository to make your work available to others. You can also pull changes to keep your working files up to date with the remote repository.
 
-<img src="https://assets.postman.com/postman-docs/api-builder-git-integration-dropdown-v9-17.jpg" alt="API Builder source control" width="250px" />
-
-Select the refresh icon <img alt="Refresh icon" src="https://assets.postman.com/postman-docs/icon-refresh-v9-5.jpg#icon" width="14px"> next to the repo dropdown list to check the remote repo for relevant changes.
+<!-- TO DO: ADD SCREENSHOT OF SOURCE CONTROL PANE -->
 
 ### Committing and pushing changes
 
-If there’s no local repo linked, the “commit and push” actions are combined.
+If there are uncommitted changes in your active branch, an icon displays next to the branch dropdown menu indicating the number of changes.
 
-If a local repo has been linked, users can commit and push independently. The commit/push actions done from outside Postman (CLI or IDE, for example) also reflect in Postman.
+To commit and push the changes to the remote repository:
 
-Once a change is pushed, any other producer can switch to that branch, pull changes, and see the updates you made.
+1. Select <!-- TO DO: ADD SOURCE CONTROL ICON --> **Source Control** in the right sidebar.
+1. If there are unstaged changes, you can add them by selecting **+ Stage**. If you want to review the changes before adding them, select **View Diff**.
+1. To commit the changes to the active branch, enter a commit message and select **Commit changes**. If you want to commit the changes to a new feature branch instead of the active branch, select **Create a new branch for this commit** and enter a branch name before committing.
 
-To add your local changes to the external repo, select **Commit and push** from the repo dropdown list. You will be shown a list of files modified. Enter a commit message, and select **Commit and Push Changes**.
+    > If you configured a remote repository but haven't configured a local repository, you do not need to commit your files before pushing.
 
-If there have been changes on the remote repo, you will be asked to pull changes first.
+1. Select **Push** next to a commit to push the changes to the remote repository. If there are changes in the remote repository, you'll be prompted to [pull the changes](#pulling-changes) before pushing.
+
+<!-- TO DO: VALIDATE STEPS, ADD SCREENSHOT -->
+
+After you push a change, other producers on your team can switch to the branch, pull the changes, and view the updates you made.
+
+> You can also commit and pull changes using your preferred Git client. The Git change history will be reflected in Postman.
 
 ### Pulling changes
 
-To get changes from the remote repo, select **Pull** from the repo dropdown list. This syncs any changes from the develop branch of the remote repo to Postman.
+Pulling brings changes from the remote (origin) branch into your active branch. You need to pull any changes from the remote branch before you can push changes to it.
 
-If you have a local change that conflicts with the remote copy, you will be shown a link to the latest Git commit, and the conflicting files.
+To pull changes from the remote branch:
 
-![](https://assets.postman.com/postman-docs/api-builder-pull-changes-conflict.jpg)
+1. Select <!-- TO DO: ADD SOURCE CONTROL ICON --> **Source Control** in the right sidebar. An icon with a down arrow indicates the number of commits your active branch is behind the remote branch.
 
-To resolve the conflict, next to each file, select either **Keep remote file** or **Keep local file**, then select **Pull Changes**.
+1. Select the pull icon to bring the changes into your active branch.
 
-The first time you pull changes from the remote repo, if the remote schema directory already contains schema files, you will be prompted to select which schema to use in Postman.
+<!-- TO DO: VALIDATE STEPS, ADD SCREENSHOT -->
+
+If there are any conflicts, you'll need to [resolve the conflicts](#resolving-conflicts) before you can finish pulling the changes.
 
 ### Resolving conflicts
 
-If conflicts occur...
+If a change in your active branch conflicts with a change in the remote (origin) branch, you must resolve the conflict before you can pull changes.
 
-Can resolve conflicts for elements Postman understands within Postman.
+To resolve a conflict:
+
+1. Select the link to review the affected files.
+1. Next to each file, select either **Keep remote file** or **Keep local file**.
+1. When you're finished, select **Pull Changes**.
+
+<!-- TO DO: VALIDATE STEPS, ADD SCREENSHOT -->
+
+![](https://assets.postman.com/postman-docs/api-builder-pull-changes-conflict.jpg)
+
+> If the file with the conflict is not in a format Postman supports, you'll need to resolve the conflict in your preferred Git client.
 
 ## Making your changes available to others
 
 Any branches and changes you push to your remote repository are visible to other API producers on your team.
 
-To make your changes available to your API's consumers, push the changes to your remote repository's default branch. If your changes are on a feature branch, use your team's standard workflow to merge the changes into your remote repository's default branch. For example, you can use your preferred Git client to create a pull request to merge your feature branch into the default branch.
+To make your changes available to your API's consumers, use the following workflow:
 
-For cloud-hosted repositories, updates to the remote default branch are automatically synced to your Postman workspace. For enterprise self-hosted repositories, you must manually sync your local repository to your Postman workspace. Learn more about syncing to a Postman workspace. <!-- TO DO: ADD LINK TO SYNCING PAGE -->
+1. **Push the changes to your remote repository's default branch.** If your changes are on a feature branch, use your team's standard workflow to merge the changes into your remote repository's default branch. For example, you can use your preferred Git client to create a pull request to merge your feature branch into the default branch.
 
-Once your changes are synced to your Postman workspace, you can publish a new version of your API to make it available to consumers. Learn more about publishing an API. <!-- TO DO: ADD LINK TO PUBLISHING PAGE -->
+1. **Sync the changes to your Postman workspace.** For cloud-hosted repositories, updates to the remote default branch are automatically synced to your Postman workspace. For enterprise self-hosted repositories, you must manually sync your local repository to your Postman workspace. Learn more about syncing to a Postman workspace. <!-- TO DO: ADD LINK TO SYNCING PAGE -->
+
+1. **Publish a new API version.** Once your changes are synced to your Postman workspace, you can publish a new version of your API to make it available to consumers. Learn more about publishing an API. <!-- TO DO: ADD LINK TO PUBLISHING PAGE -->
