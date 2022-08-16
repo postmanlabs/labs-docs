@@ -3,7 +3,6 @@ import { connectSearchBox, connectHits } from 'react-instantsearch-dom';
 import styled from 'styled-components';
 
 export const SearchWrapper = styled.ul`
-margin-left: 0;
 
 ais-highlight-0000000000 {
     color: ${(props) => props.theme.colors.grey_90};
@@ -20,7 +19,8 @@ ais-highlight-0000000000 {
 
 .style {
   list-style: none;
-  padding-top: 20px;
+  padding-top: 22px;
+
   a {
     color: ${(props) => props.theme.colors.grey_50};
   }
@@ -29,7 +29,9 @@ ais-highlight-0000000000 {
     text-decoration: none;
   }
 }
-
+.ais-SearchBox {
+  margin-left: -24px;
+}
 .search-title {
   font-family:${(props) => props.theme.fonts.Inter};
   font-weight: 600;

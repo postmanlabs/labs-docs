@@ -622,12 +622,13 @@ export const AlgoliaWidgets = styled.div`
   background: ${(props) => props.theme.colors.grey_00}; 
   border-radius: ${(props) => props.theme.borderRadius.small};
   padding-right: 24px;
+  margin-top: 5px;
   display: flex;
   text-align: left;
   max-width: 600px;
 
   @media screen and (max-width: 992px){
-    left: 10px;
+    left: 12px;
     right: 10px;
   }
 }
