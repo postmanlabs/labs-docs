@@ -75,7 +75,7 @@ To commit and push the changes to the remote repository:
 1. If there are unstaged changes, you can add them by selecting **+ Stage**. If you want to review the changes before adding them, select **View Diff**.
 1. To commit the changes to the active branch, enter a commit message and select **Commit changes**. If you want to commit the changes to a new feature branch instead of the active branch, select **Create a new branch for this commit** and enter a branch name before committing.
 
-    > If you configured a remote repository but haven't configured a local repository, you do not need to commit your files before pushing.
+    > If you configured a remote repository but haven't configured a local repository, you don't need to commit your files before pushing.
 
 1. Select **Push** next to a commit to push the changes to the remote repository. If there are changes in the remote repository, you'll be prompted to [pull the changes](#pulling-changes) before pushing.
 
@@ -113,7 +113,7 @@ To resolve a conflict:
 
 ![](https://assets.postman.com/postman-docs/api-builder-pull-changes-conflict.jpg)
 
-> If the file with the conflict is not in a format Postman supports, you'll need to resolve the conflict in your preferred Git client.
+> If the file with the conflict isn't in a format Postman supports, you'll need to resolve the conflict in your preferred Git client.
 
 ## Making your changes available to others
 
