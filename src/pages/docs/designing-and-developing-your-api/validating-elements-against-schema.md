@@ -29,6 +29,8 @@ contextual_links:
 
 You can validate your API schema in Postman, and validate your elements (documentation, tests, mock servers, and monitors) against your schema. This helps keep your API well-defined and ensures that your elements are in sync with your schema. If there is a validation error on the schema or elements don't match it, Postman will present a list of issues that have been found, as well as fixes for these issues. You can then apply fixes to the API elements and revalidate them.
 
+## Contents
+
 * [Validating schemas](#validating-schemas)
 * [Validating elements](#validating-elements)
     * [Validating requests](#validating-requests)

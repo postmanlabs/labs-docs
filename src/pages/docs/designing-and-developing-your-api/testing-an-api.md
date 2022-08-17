@@ -45,6 +45,8 @@ contextual_links:
 
 Testing is a critical part of the API development process. You can create a collection that contains your API tests and link it to a specific version of your API. You can also integrate your API with supported Continuous Integration (CI) tools.
 
+## Contents
+
 * [Adding tests](#adding-tests)
 * [Adding CI integration](#adding-ci-integration)
 

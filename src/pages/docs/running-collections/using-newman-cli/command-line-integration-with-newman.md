@@ -42,7 +42,7 @@ Newman is a command-line Collection Runner for Postman. It enables you to run an
 
 Newman maintains feature parity with Postman and allows you to run collections the way they're executed inside the collection runner in Postman.
 
-Newman resides in the [NPM registry](https://www.npmjs.com/package/newman) and on [GitHub](https://github.com/postmanlabs/newman).
+Newman resides in the [npm registry](https://www.npmjs.com/package/newman) and on [GitHub](https://github.com/postmanlabs/newman).
 
 [![Running Newman](https://assets.postman.com/postman-docs/newman-running-in-terminal.gif)](https://assets.postman.com/postman-docs/newman-running-in-terminal.gif)
 

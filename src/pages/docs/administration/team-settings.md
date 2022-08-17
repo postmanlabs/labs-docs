@@ -28,7 +28,7 @@ contextual_links:
 
 ---
 
-Your [Team Settings](https://go.postman.co/settings/team/general) allow you to manage items such as your team's profile, discoverability, custom domains, billing details, authentication, and active invite links.
+Your [Team Settings](https://go.postman.co/settings/team/general) enable you to manage items such as your team's profile, discoverability, custom domains, billing details, authentication, and active invite links.
 
 ## Contents
 
@@ -55,8 +55,8 @@ When you select **Team Settings**, you will be automatically directed to **Team 
 **Customize your team's look.** Keep in mind the following when uploading a logo, cover photo, or favicon:
 
 * Logos and cover photos must be 500 KB or less in size and must be in **.jpg**, **.jpeg**, or **.png** format.
-* Logos must have a 1:1 aspect ratio (height:width), and cover photos must have a 1:7.5 aspect ratio. If your image has a different aspect ratio, Postman prompts you to select a portion of your image to display.
-* Favicons must be in **.ico** format, no larger than 32x32 pixels, and 500 KB or less in size. Your favicon is displayed on the browser tab of your team's published documentation site.
+* Logos must have a 1:1 aspect ratio (height:width), and cover photos must have a 1:7.5 aspect ratio. If your image has a different aspect ratio, Postman prompts you to select a part of your image to display.
+* Favicons must be in **.ico** format, no larger than 32x32 pixels, and 500 KB or less in size. Your favicon appears on the browser tab of your team's published documentation site.
 
 **Make your team discoverable.** If you enable your team's public profile, your team will be visible on Postman's [API Network](/docs/collaborating-in-postman/adding-private-network/), along with any [APIs](/docs/collaborating-in-postman/adding-private-network/#adding-your-apis), [collections](/docs/publishing-your-api/publishing-your-docs/), and [workspaces](/docs/collaborating-in-postman/using-workspaces/public-workspaces/) your team has published. You can also add an **About your team** section, a link to your website, and links to social media accounts to your team's public profile.
 
@@ -65,8 +65,6 @@ When you select **Team Settings**, you will be automatically directed to **Team 
 You can select **Team Discovery** from the left-hand menu to view your options for making your team discoverable to other Postman users with email addresses from your team's domain.
 
 See [Team Discovery](/docs/collaborating-in-postman/working-with-your-team/enabling-team-discovery/) for more information on this feature and the admin and user experience it provides.
-
-<img alt="Edit team profile" src="https://assets.postman.com/postman-docs/team-discovery-enable-v9.1.0.jpg"/>
 
 ## Adding custom domains
 
@@ -82,8 +80,6 @@ Select **Billing Details** from the left-hand menu to add to or update your team
 
 View [Adding custom information to invoices](/docs/administration/billing/#adding-custom-information-to-invoices) for information on modifying new and existing invoices.
 
-<img alt="Updating billing details" src="https://assets.postman.com/postman-docs/ts-billing-details.jpg" width="500px"/>
-
 ## Editing authentication methods
 
 > SSO is available on Postman Professional and Enterprise plans.
@@ -92,12 +88,10 @@ Select **Authentication** from the left-hand menu to configure or reconfigure yo
 
 See [Configuring SSO for a team](/docs/administration/sso/admin-sso/) for details on how to configure your team's custom SSO setup and manage user accounts.
 
-<img alt="Editing authentication methods" src="https://assets.postman.com/postman-docs/ts-authentication.jpg"/>
-
 ## Understanding roles and permissions
 
 Select **Roles and Permissions** from the left-hand menu to view a complete list of permissions for team members' roles at a team, collection, workspace, API, and mock server level.
 
-View [Defining roles](/docs/collaborating-in-postman/roles-and-permissions/) for more information on roles you can assign to members of your team and [Managing your team](/docs/administration/managing-your-team/managing-your-team/) for an overview of managing roles and users within your Postman team.
+View [Defining roles](/docs/collaborating-in-postman/roles-and-permissions/) for more information on roles you can assign to members of your team. Then, check out [Managing your team](/docs/administration/managing-your-team/managing-your-team/) for an overview of managing roles and users within your Postman team.
 
 <img alt="Roles and permissions descriptions" src="https://assets.postman.com/postman-docs/dashboard-view-roles-and-permissions-v9.1.jpg"/>
