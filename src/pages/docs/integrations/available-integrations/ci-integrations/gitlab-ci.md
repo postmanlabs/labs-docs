@@ -49,7 +49,7 @@ For GitLab self-managed, do the following:
 
 ## Viewing build status
 
-After you set up a GitLab integration, information for build jobs is available in Postman. For each build you can view the branch, start time, and status (successful or failed). You can also view the results of collection runs that are [configured in your pipeline using Newman](#viewing-collection-run-details).
+After you set up a GitLab integration, information for build jobs is available in Postman. For each build you can view the branch, start time, and status (`Successful` or `Failed`). You can also view the results of collection runs that are [configured in your pipeline using Newman](#viewing-collection-run-details).
 
 To view build jobs, open an API version and select the **Test** tab. The most recent jobs are listed under **CI/CD Builds**.
 

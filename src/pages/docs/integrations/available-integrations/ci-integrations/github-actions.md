@@ -45,7 +45,7 @@ To configure a GitHub Actions integration:
 
 ## Viewing build status
 
-After you set up a GitHub Actions integration, information for build jobs is available in Postman. For each build you can view the branch, start time, and status (`Success` or `Failed`). You can also view the results of collection runs that are [configured in your pipeline using Newman](#viewing-collection-run-details).
+After you set up a GitHub Actions integration, information for build jobs is available in Postman. For each build you can view the branch, start time, and status (`Success` or `Failure`). You can also view the results of collection runs that are [configured in your pipeline using Newman](#viewing-collection-run-details).
 
 To view build jobs, open an API version and select the **Test** tab. The most recent jobs are listed under **CI/CD Builds**.
 
@@ -98,7 +98,8 @@ To add the Newman configuration to your GitHub pipeline:
 1. Edit the YAML file in the `.github/workflows` directory in your GitHub repository.
 1. Add the Newman configuration you copied from Postman to the YAML file:
     * Replace all instances of `$POSTMAN_API_KEY` with a valid [Postman API Key](/docs/developer/intro-api/#generating-a-postman-api-key).
-1. Commit and push the changes to your remote repository. This will automatically start a build in GitHub.
+1. Commit and push the changes to your remote repository.
+1. In GitHub, open the repository from the dashboard. Then start a new build.
 1. To view the test results in Postman, open your API and select the **Test** tab. Learn more about [Viewing collection run details](#viewing-collection-run-details).
 
 ### Example file in the .github/workflows directory

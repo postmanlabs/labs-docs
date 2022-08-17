@@ -44,7 +44,7 @@ To set up CircleCI integration for your API, first create an API token in Circle
 
 ## Viewing build status
 
-After you set up a CircleCI integration, status information for build jobs is available in Postman. For each build you can view the commit message, the branch the build ran on, the start time and duration, and the build status (success or failed).
+After you set up a CircleCI integration, status information for build jobs is available in Postman. For each build you can view the commit message, the branch the build ran on, the start time and duration, and the build status (`Success` or `Failed`).
 
 To view build jobs, open an API version and select the **Test** tab. The most recent jobs are listed under **CI/CD Builds**.
 

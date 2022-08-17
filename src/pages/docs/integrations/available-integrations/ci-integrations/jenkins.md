@@ -51,7 +51,7 @@ To set up a Jenkins integration for your API, first create an API token in Jenki
 
 ## Viewing build status
 
-After you set up a Jenkins integration, information for build jobs is available in Postman. For each build you can view the start time, duration, and build status (success or failed). You can also view the results of collection runs that are [configured in your pipeline using Newman](#configuring-newman-for-jenkins).
+After you set up a Jenkins integration, information for build jobs is available in Postman. For each build you can view the start time, duration, and build status (`Success` or `Failed`). You can also view the results of collection runs that are [configured in your pipeline using Newman](#configuring-newman-for-jenkins).
 
 To view build jobs, open an API version and select the **Test** tab. The most recent jobs are listed under **CI/CD Builds**.
 
