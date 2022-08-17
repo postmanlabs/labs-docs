@@ -49,7 +49,7 @@ To switch branches, select the branch dropdown menu next to the API's name in th
 
 ### Creating a new branch
 
-Feature branches enable to work on changes to your API without affecting the default branch in your repository. When you create a new branch, Postman automatically makes it the active branch.
+Feature branches enable you to work on changes to your API without affecting the default branch in your repository. When you create a new branch, Postman automatically makes it the active branch.
 
 To create a new branch:
 
@@ -72,12 +72,11 @@ If there are uncommitted changes in your active branch, an icon displays next to
 To commit and push the changes to the remote repository:
 
 1. Select <!-- TO DO: ADD SOURCE CONTROL ICON --> **Source Control** in the right sidebar.
-1. If there are unstaged changes, you can add them by selecting **+ Stage**. If you want to review the changes before adding them, select **View Diff**.
-1. To commit the changes to the active branch, enter a commit message and select **Commit changes**. If you want to commit the changes to a new feature branch instead of the active branch, select **Create a new branch for this commit** and enter a branch name before committing.
+1. If there are unstaged changes, you can add them by selecting **+** next to a changed file. If you want to review the changes before adding them, select the diff icon <!-- TO DO: ADD DIFF ICON -->.
+1. To commit the staged changes to the active branch, enter a commit message and select **Commit changes**. If you want to commit the changes to a new feature branch instead of the active branch, select **Create a new branch for this commit** and enter a branch name before committing.
+1. The push icon <!-- TO DO: ADD SOURCE CONTROL ICON --> indicates the number of commits your active branch is ahead of the remote branch.Select the push icon to push the changes to the remote repository. If there are changes in the remote repository, you'll be prompted to [pull the changes](#pulling-changes) before pushing.
 
-    > If you configured a remote repository but haven't configured a local repository, you don't need to commit your files before pushing.
-
-1. Select **Push** next to a commit to push the changes to the remote repository. If there are changes in the remote repository, you'll be prompted to [pull the changes](#pulling-changes) before pushing.
+    > If you configured a remote repository but haven't configured a local repository, you don't need to stage or commit your files before pushing. Just enter a commit message and select **Commit and Push**.
 
 <!-- TO DO: VALIDATE STEPS, ADD SCREENSHOT -->
 
@@ -91,8 +90,8 @@ Pulling brings changes from the remote (origin) branch into your active branch. 
 
 To pull changes from the remote branch:
 
-1. Select <!-- TO DO: ADD SOURCE CONTROL ICON --> **Source Control** in the right sidebar. An icon with a down arrow indicates the number of commits your active branch is behind the remote branch.
-
+1. Select the refresh icon <img alt="Refresh icon" src="https://assets.postman.com/postman-docs/icon-refresh-v9-5.jpg#icon" width="14px"> to get the latest changes from the remote branch.
+1. Select <!-- TO DO: ADD SOURCE CONTROL ICON --> **Source Control** in the right sidebar. The pull icon <!-- TO DO: ADD SOURCE CONTROL ICON --> indicates the number of commits your active branch is behind the remote branch.
 1. Select the pull icon to bring the changes into your active branch.
 
 <!-- TO DO: VALIDATE STEPS, ADD SCREENSHOT -->
