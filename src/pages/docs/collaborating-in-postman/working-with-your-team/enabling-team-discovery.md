@@ -34,7 +34,7 @@ To enable team discovery:
 * Free users: Next to your avatar, select the dropdown list next to **Upgrade** > **Manage Team**.
 * Paid users: Next to your avatar, select **Team** > **Manage Team**.
 
-On your Team Settings page, select **Team discovery** on the left, then select **Enable team discovery**. This will enable anyone from your domain to find and request to join your team.
+In [Team Settings](https://go.postman.co/settings/team/general), select **Team discovery** on the left, then select **Enable team discovery**. This will enable anyone from your domain to find and request to join your team.
 
 [![Enable team discovery](https://assets.postman.com/postman-docs/team-discovery-enable-v9.7.0.jpg)](https://assets.postman.com/postman-docs/team-discovery-enable-v9.7.0.jpg)
 
@@ -48,15 +48,15 @@ All [Team Admins](/docs/collaborating-in-postman/roles-and-permissions/#team-rol
 
 ## Finding teams within your organization
 
-When you sign into Postman using a verified email address for your organization, you can find available teams to join by selecting your avatar > **Your Team**. Postman will also offer a list of available teams when you first sign into your Postman account with a verified address.
+When you first join Postman using an email address with your company's domain, Postman provides you with a list of available teams you can join within your organization.
 
-[![Choose Team](https://assets.postman.com/postman-docs/join-team-from-list.jpg)](https://assets.postman.com/postman-docs/join-team-from-list.jpg)
+<img alt="Join a team from your organization" src="https://assets.postman.com/postman-docs/join-team-discovery-v9.2.jpg"/>
 
-Select a team from the list of the available teams within your organization. Answer the question set by the Team Admin, if there is one. You can also add an optional note. Select **Request to join**.
+Select **Request Access** next to a team, then answer the question set by the Team Admin, if there is one. You can also add an optional note. Select **Request to Join**.
 
-<img alt="Team Join Question" src="https://assets.postman.com/postman-docs/team-join-question-v9.7.0.jpg" width="400px"/>
+<img alt="Request to join team" src="https://assets.postman.com/postman-docs/request-to-join-team-team-discovery-v9.2.jpg" width="350px"/>
 
-Team Admins will receive a notification when you ask to join the team. Once they approve your request, you'll be able to access the team and collaborate on API projects within it.
+Once you've verified your account, the Team Admins will receive a notification of your request. When they approve it, you'll be able to access the team and collaborate on API projects within it.
 
 ## Next steps
 
