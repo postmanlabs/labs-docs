@@ -177,6 +177,61 @@ export const leftNavItems = [
         url: '/docs/sending-requests/graphql/graphql/',
       },
       {
+        name: 'Using gRPC Requests',
+        subParentSlug: 'grpc',
+        slug: '/docs/sending-requests/grpc/grpc-client-overview/',
+        subMenuItems2: [
+          {
+            name: 'gRPC overview',
+            url: '/docs/sending-requests/grpc/grpc-client-overview/',
+          },
+          {
+            name: 'About the gRPC request interface',
+            url: '/docs/sending-requests/grpc/grpc-request-interface/',
+          },
+          {
+            name: 'Invoking your first gRPC request',
+            url: '/docs/sending-requests/grpc/first-grpc-request/',
+          },
+          {
+            name: 'Using gRPC requests',
+            url: '/docs/sending-requests/grpc/using-grpc-request/',
+          },
+          {
+            name: 'Working with service definitions',
+            url: '/docs/sending-requests/grpc/using-service-definition/',
+          },
+          {
+            name: 'Scripting in gRPC requests',
+            url: '/docs/sending-requests/grpc/scripting-in-grpc-request/',
+          },
+          {
+            name: 'Writing tests',
+            url: '/docs/sending-requests/grpc/writing-tests/',
+          },
+          {
+            name: 'Test examples',
+            url: '/docs/sending-requests/grpc/test-examples/',
+          },
+          {
+            name: 'Postman Sandbox API',
+            url: '/docs/sending-requests/grpc/postman-sandbox-api/',
+          },
+          {
+            name: 'Understanding gRPC types',
+            url: '/docs/sending-requests/grpc/understanding-grpc-types/',
+          },
+          {
+            name: 'Collaborating with your teammates',
+            url: '/docs/sending-requests/grpc/collaboration/',
+          },
+          {
+            name: 'Troubleshooting',
+            url: '/docs/sending-requests/grpc/troubleshooting/',
+          },
+        ],
+      },
+      {
         name: 'Using WebSocket Requests',
         url: '/docs/sending-requests/websocket/websocket/',
       },
