@@ -13,6 +13,9 @@ contextual_links:
     name: "Postman | How to Connect to Your Git Repository"
     url: "https://youtu.be/8jJHXLVYOh0"
   - type: link
+    name: "Integrating GitLab in Postman's API Builder"
+    url: "https://youtu.be/ecAQv9gZEKk"
+  - type: link
     name: "Generate a Collection From a Specification | Postman Level Up"
     url: "https://youtu.be/gljWt9tDKOY"
   - type: subtitle
