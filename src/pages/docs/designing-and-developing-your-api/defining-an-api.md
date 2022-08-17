@@ -37,6 +37,8 @@ contextual_links:
 
 You can define the structure of your API using its specification. You can also generate a collection from a spec.
 
+## Contents
+
 * [Editing your schema](#editing-your-schema)
 * [Generating a collection](#generating-a-collection)
 
