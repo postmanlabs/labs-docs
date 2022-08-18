@@ -35,8 +35,6 @@ Commands and options for using Postman CLI.
 | [**`postman`**](#postman) | The base command, usually used with other commands like `login` or `collection`. |
 | `--help` | Return information about Postman CLI commands and options. |
 | `--version` | Return the version number for Postman CLI.  |
-| [**`postman login`**](#postman-login) | Log into Postman with an API key. |
-| [**`postman logout`**](#postman-logout) | Log out of Postman. |
 | [**`postman collection run`**](#postman-collection-run-uuid-or-file-name) | Run a collection with a UUID or a local file. |
 | `--disable-cli-reporter` | Disable reporting results to the CLI. **(more TBD)** |
 | `--disable-default-reporters cli` | Disable reporting to Postman **(more TBD)** |
@@ -99,26 +97,6 @@ Returns information about Postman CLI commands and options.
 #### --version, -v
 
 Returns the version number for Postman CLI.
-
----
-
-## postman login
-
-Login programmatically with your Postman API key.
-
-### Example
-
-    postman login --with-api-key <api-key>
-
----
-
-## postman logout
-
-Log out of Postman.
-
-### Example
-
-    postman logout
 
 ---
 
