@@ -15,8 +15,11 @@ contextual_links:
   - type: subtitle
     name: "Videos"
   - type: link
-    name: "How to Version APIs | Postman"
-    url: "https://youtu.be/LzJEKsccQ70"
+    name: "Postman | How to Connect to Your Git Repository"
+    url: "https://youtu.be/8jJHXLVYOh0"
+  - type: link
+    name: "Integrating GitLab in Postman's API Builder"
+    url: "https://youtu.be/ecAQv9gZEKk"
   - type: subtitle
     name: "Blog Posts"
   - type: link

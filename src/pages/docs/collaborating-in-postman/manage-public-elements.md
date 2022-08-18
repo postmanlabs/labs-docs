@@ -10,6 +10,9 @@ contextual_links:
   - type: subtitle
     name: "Blog Posts"
   - type: link
+    name: "Introducing Public Workspace Summary Emails"
+    url: "https://blog.postman.com/introducing-public-workspace-summary-emails/"
+  - type: link
     name: "How to Securely Deploy Postman at Scale, Part 2: Information Management"
     url: "https://blog.postman.com/how-to-securely-deploy-postman-at-scale-part-2-information-management/"
   - type: link
