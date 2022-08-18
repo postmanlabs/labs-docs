@@ -70,6 +70,7 @@ For all APIs defined in OpenAPI 2.0, the following list describes possible warni
     * [OAuth authentication uses the deprecated password flow](#oauth-authentication-uses-the-deprecated-password-flow)
 * [API information](#api-information)
     * [API must have contact information available](#api-must-have-contact-information-available)
+    * [API must have a contact URL or email available](#api-must-have-a-contact-url-or-email-available)
     * [API must have a contact email available](#api-must-have-a-contact-email-available)
     * [API must have a contact name available](#api-must-have-a-contact-name-available)
     * [API must have a contact URL available](#api-must-have-a-contact-url-available)
@@ -85,18 +86,18 @@ For all APIs defined in OpenAPI 2.0, the following list describes possible warni
     * [All tags should have a description](#all-tags-should-have-a-description)
     * [There should be at least one tag](#there-should-be-at-least-one-tag)
 * [Operations](#operations)
-    * [All operations should have descriptions](#all-operations-should-have-descriptions)
-    * [All operations should have summaries](#all-operations-should-have-summaries)
-    * [Operation summaries shouldn't end with a period](#operation-summaries-shouldnt-end-with-a-period)
+    * [Your operations all need descriptions](#your-operations-all-need-descriptions)
+    * [All your operations need summaries](#all-your-operations-need-summaries)
+    * [Your operation summaries shouldn't end with a period](#your-operation-summaries-shouldnt-end-with-a-period)
     * [All operations should have tags](#all-operations-should-have-tags)
     * [All operations should have at least one tag](#all-operations-should-have-at-least-one-tag)
-    * [All parameters should have descriptions](#all-parameters-should-have-descriptions)
+    * [Your parameters all need descriptions](#your-parameters-all-need-descriptions)
     * [All parameters should have examples](#all-parameters-should-have-examples)
     * [POST methods should have request bodies](#post-methods-should-have-request-bodies)
     * [PUT methods should have request bodies](#put-methods-should-have-request-bodies)
     * [PATCH methods should have request bodies](#patch-methods-should-have-request-bodies)
     * [DELETE operations shouldn't have a response body](#delete-operations-shouldnt-have-a-response-body)
-    * [DELETE operations should have a 204 status code for the response](#delete-operations-should-have-a-204-status-code-for-the-response)
+    * [A 204 No Content response can't have a body](#a-204-no-content-response-cant-have-a-body)
     * [DELETE operations should have a 500 status code for the response](#delete-operations-should-have-a-500-status-code-for-the-response)
     * [GET operations should have a 200 status code for the response](#get-operations-should-have-a-200-status-code-for-the-response)
     * [GET operations should have a 500 status code for the response](#get-operations-should-have-a-500-status-code-for-the-response)
@@ -837,15 +838,46 @@ This category of linting rules deals with the OpenAPI info object, which contain
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| Your API schema's [info object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#infoObject) doesn't contain a [contact object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#contactObject), which contains contact information including a name and email address. | Although contact information isn't required, including it allows your API's consumers to contact you. Add a contact object to your API schema's info object.  |
+| Your API schema's [info object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#infoObject) doesn't contain a [contact object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#contactObject), which contains contact information including a name and email address. The contact data may be used directly by your API's consumers, or through an API portal or catalog. Defining contact information helps ensure there is a designated owner for each of your organization's APIs. | Add a contact object to your API schema's info object.  |
 
 #### Resolution
 
 ```json
+swagger: "2.0"
 info:
+  title: An API name
+  version: '1.0'
   contact:
-    name: Project Name
-    email: author@company.com
+    name: A contact name
+```
+
+&nbsp;
+
+### API must have a contact URL or email available
+
+| Issue description | Possible fix |
+| ----------- | ----------- |
+| Your API schema's [contact object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#contactObject) doesn't contain a contact URL or email address. Although a contact URL or email aren't required, just a contact name is often not enough information for your API's consumers. Including a contact URL, an email address, or both gives them a way to contact your organization. | Add a contact URL, an email address, or both to your API schema's contact object. |
+
+#### Resolution
+
+```json
+swagger: "2.0"
+info:
+  title: An API name
+  version: '1.0'
+  contact:
+    name: A contact name
+    email: contact@example.com
+```
+
+```json
+swagger: "2.0"
+info:
+  title: An API name
+  version: '1.0'
+  contact:
+    name: A contact name
     url: https://example.com
 ```
 
@@ -855,16 +887,18 @@ info:
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| Your API schema's [contact object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#contactObject) doesn't contain an email address for the contact person or organization. | Although contact information isn't required, including it allows your API's consumers to communicate with you. Add an email address to your API schema's contact object. |
+| Your API schema's [contact object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#contactObject) doesn't contain an email address. Although an email isn't required, just a contact name is often not enough information for your API's consumers. Including a contact email gives them a way to contact your organization. | Add an email address to your API schema's contact object. |
 
 #### Resolution
 
 ```json
+swagger: "2.0"
 info:
+  title: An API name
+  version: '1.0'
   contact:
-    name: Project Name
-    email: author@company.com
-    url: https://example.com
+    name: A contact name
+    email: contact@example.com
 ```
 
 &nbsp;
@@ -873,16 +907,18 @@ info:
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| Your API schema's [contact object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#contactObject) doesn't contain a name for the contact person or organization. | Although contact information isn't required, including it allows your API's consumers to communicate with you. Add a name to your API schema's contact object. |
+| Your API schema's [contact object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#contactObject) doesn't contain a contact name. Although a contact name isn't required, it helps your API's consumers understand who owns the API. It also makes your organization consider the API's ownership. | Add a name to your API schema's contact object. |
 
 #### Resolution
 
 ```json
+swagger: "2.0"
 info:
+  title: An API name
+  version: '1.0'
   contact:
-    name: Project Name
-    email: author@company.com
-    url: https://example.com
+    name: A contact name
+    url: https://example.com/support
 ```
 
 &nbsp;
@@ -891,15 +927,17 @@ info:
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| Your API schema's [contact object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#contactObject) doesn't contain the URL of the contact person or organization. | Although contact information isn't required, including it allows your API's consumers to communicate with you. Add a URL to your API schema's contact object. |
+| Your API schema's [contact object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#contactObject) doesn't contain a contact URL. Although a contact URL isn't required, just a contact name is often not enough information for your API's consumers. Including a contact URL gives them a way to contact your organization. | Add a URL to your API schema's contact object. |
 
 #### Resolution
 
 ```json
+swagger: "2.0"
 info:
+  title: An API name
+  version: '1.0'
   contact:
-    name: Project Name
-    email: author@company.com
+    name: A contact name
     url: https://example.com
 ```
 
@@ -909,12 +947,15 @@ info:
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| Your API schema's [info object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#infoObject) doesn't contain a description. | Although a description isn't required, including it allows you to provide your API's consumers with information about what the API does. Add a description to your API schema's info object. |
+| Your API schema's [info object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#infoObject) doesn't contain a description. Although a description isn't required, including one allows you to provide your API's consumers with information about what the API does and how to use it. This can be anything from a short description to a long explanation of possible uses cases. For your organization, defining the API's description during the design phase can help set the boundaries of the API. | Add a description to your API schema's info object. |
 
 #### Resolution
 
 ```json
+swagger: "2.0"
 info:
+  title: An API name
+  version: '1.0'
   description: Project API description
 ```
 
@@ -924,15 +965,19 @@ info:
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| Your API schema's [info object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#infoObject) doesn't contain a [license object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#licenseObject), which specifies information about the schema's license. | Although a license object isn't required, including one provides your API's consumers with important information. Add a license object to your API schema's info object. |
+| Your API schema's [info object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#infoObject) doesn't contain a [license object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#licenseObject), which helps your API's consumers know how the API can be copied and used.| Add a license object to your API schema's info object. |
 
 #### Resolution
 
 ```json
+swagger: "2.0"
 info:
+  title: An API name
+  version: '1.0'
+  description: An API description
   license:
     name: Apache 2.0
-    url: https://www.apache.org/licenses/LICENSE-2.0.html
+    url: https://opensource.org/licenses/Apache-2.0
 ```
 
 &nbsp;
@@ -941,15 +986,19 @@ info:
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| Your API schema's [license object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#licenseObject) doesn't contain a URL to the license used for the API. | Although license information isn't required, including it provides your API's consumers with important information. Add a URL to your API schema's license object. |
+| Your API schema's [license object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#licenseObject) doesn't contain a license URL, which provides a link to a web page that describes the license. Although a license URL isn't required, just a license name may not be not enough information for your API's consumers, especially when you use a custom license. | Add a URL to your API schema's license object. |
 
 #### Resolution
 
 ```json
+swagger: "2.0"
 info:
+  title: An API name
+  version: '1.0'
+  description: An API description
   license:
     name: Apache 2.0
-    url: https://www.apache.org/licenses/LICENSE-2.0.html
+    url: https://opensource.org/licenses/Apache-2.0
 ```
 
 &nbsp;
@@ -958,13 +1007,16 @@ info:
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| Your API schema's [info object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#infoObject) doesn't contain a URL to the Terms of Service for the API. | Although a link to the Terms of Service isn't required, including it provides your API's consumers with important information. Add a URL to the API's Terms of Service to your API schema's info object. |
+| Your API schema's [info object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#infoObject) doesn't contain a URL for the Terms of Service for the API. A terms of service is often mandatory for public APIs. It's also recommended that private APIs provide a link to a Terms and Conditions web page. | Add a URL to the API's Terms of Service to your API schema's info object. |
 
 #### Resolution
 
 ```json
+swagger: "2.0"
 info:
-  termsOfService: http://example.com/terms/
+  title: An API name
+  version: '1.0'
+  termsOfService: https://example.com/tos
 ```
 
 &nbsp;
@@ -1024,11 +1076,15 @@ paths:
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| One or more [path item objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#path-item-object) in your API schema's [paths object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#paths-object) have a trailing slash at the end of the path. | Some tools treat a path that ends with a trailing slash (`/path/`) differently from the way that they treat paths without a trailing slash (`/path`). To avoid any ambiguity, remove any trailing slashes from paths in your API schema's paths object. |
+| One or more [path item objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#path-item-object) in your API schema's [paths object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#paths-object) have a trailing slash at the end of the path. Some tools treat a path that ends with a trailing slash (`/path/`) differently from the way that they treat paths without a trailing slash (`/path`), which can lead to problems that require long hours of debugging. |  Remove any trailing slashes from paths in your API schema's paths object. |
 
 #### Resolution
 
 ```json
+swagger: "2.0"
+info:
+ title: An API name
+ version: '1.0'
 paths:
   '/health_check':
     get:
@@ -1097,56 +1153,74 @@ tags:
 
 This category of linting rules deals with operations on an API path.
 
-### All operations should have descriptions
+### Your operations all need descriptions
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| One or more [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#operation-object) in your API schema doesn't have a description. | A verbose explanation of the operation's behavior provides your API's consumers with important context. Add a description for each operation object.
+| One or more [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#operation-object) in your API schema doesn't have a description. When the resource path, HTTP method, and summary don't provide enough context for your API's consumers, a description can provide them with useful information about the API operation and its behavior. | Add a description for each operation object. |
 
 #### Resolution
 
 ```json
+swagger: "2.0"
+info:
+  title: An API title
+  version: "1.0"
 paths:
-  '/health_check':
+  /resources:
     get:
-      ...
-      description: health_check endpoint description.
+      description: A GET operation description
+      responses:
+        default:
+          description: A default response
 ```
 
 &nbsp;
 
-### All operations should have summaries
+### All your operations need summaries
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| One or more [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#operation-object) in your API schema doesn't have a summary. | A short summary of what the operation does provides your API's consumers with important context. Add a summary for each operation object. |
+| One or more [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#operation-object) in your API schema doesn't have a summary. A summary of what the operation does provides your API's consumers with important context that the HTTP method and path don't provide on their own. Many organizations use the API operation description that they create during the define phase of the API development process as the summary. | Add a summary for each operation object. |
 
 #### Resolution
 
 ```json
+openapi: "3.1.0"
+info:
+  title: An API title
+  version: "1.0"
 paths:
-  '/health_check':
+  /resources:
     get:
-      ...
-      summary: health_check endpoint summary
+      summary: A GET operation summary
+      responses:
+        default:
+          description: A default response
 ```
 
 &nbsp;
 
-### Operation summaries shouldn't end with a period
+### Your operation summaries shouldn't end with a period
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| One or more [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#operation-object) in your API schema contains a summary that ends with a period (`.`). | Remove the final period from all summaries at the operations object level in your API schema. |
+| One or more [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#operation-object) in your API schema contains a summary that ends with a period (`.`). API documentation tools use the summary as a title, so it shouldn't end with a period. | Remove the final period from all summaries at the operations object level in your API schema. |
 
 #### Resolution
 
 ```json
+swagger: "2.0"
+info:
+  title: An API title
+  version: "1.0"
 paths:
-  '/health_check':
+  /resources:
     get:
-      ...
-      summary: health_check endpoint summary
+      summary: A GET operation summary
+      responses:
+        default:
+          description: A default response
 ```
 
 &nbsp;
@@ -1189,24 +1263,31 @@ paths:
 
 &nbsp;
 
-### All parameters should have descriptions
+### Your parameters all need descriptions
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| One or more [parameter objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#parameter-object) in an [operations object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#operation-object) in your API schema doesn't contain a `description` field. | A brief description of the parameter provides your API's consumers with important context. Add a `description` field for each parameter object. |
+| One or more [parameter objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#parameter-object) in an [operations object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#operation-object) in your API schema doesn't contain a `description` field. When the API name and context don't provide enough information for your API's consumers, a description can provide them with useful information about the parameter. | Add a `description` field for each parameter object. |
 
 #### Resolution
 
 ```json
-parameters:
-  - in: path
-    name: apiId
-    schema:
-      type: string
-      format: uuid
-    required: true
-    description: Postman API identifier
-    example: 002d9b61-961a-469b-898a-ddcf2f70faf7
+swagger: "2.0"
+info:
+  title: An API title
+  version: "1.0"
+paths:
+  /resources:
+    get:
+      parameters:
+        - name: status
+          description: Filters resources on their status
+          in: query
+          schema:
+            type: string
+      responses:
+        '200':
+          description: A GET success response
 ```
 
 &nbsp;
@@ -1343,11 +1424,11 @@ delete:
 
 &nbsp;
 
-### DELETE operations should have a 204 status code for the response
+### A 204 No Content response can't have a body
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| The [responses object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#responses-object) for one or more DELETE [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#operationObject) in your API schema doesn't contain the `204` status code. | Make sure that DELETE methods all have a `204` status code response. |
+| The [responses object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#responses-object) for one or more DELETE [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#operationObject) has a `204` HTTP status code but also defines a response body. A `204` status means "no content", so there shouldn't be a response body defined. | Make sure that DELETE methods with a `204` status code don't have a response body. |
 
 #### Resolution
 
