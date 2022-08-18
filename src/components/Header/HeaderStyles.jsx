@@ -373,8 +373,9 @@ export const HeaderWrapper = styled.div`
       position:fixed;
     }
   }
+  
    /* Used for Learning Center Nav */
-  body .menu-open::after{
+   body.menu-open:after {
     content: '';
     display: block;
     position: fixed;
@@ -384,8 +385,8 @@ export const HeaderWrapper = styled.div`
     z-index: 10;
     background: rgba(0,0,0,0.7);
   }
+  
 }
-
 `
 
 export const DropdownStyles = styled.div`
@@ -651,3 +652,4 @@ export const AlgoliaWidgets = styled.div`
   }
 
 `
+
