@@ -82,12 +82,6 @@ function PreviousAndNextLinks() {
       <div id="previousNextLinks" className="d-flex flex-row mt-3 pagination" role="navigation">
         {prevLink && (
           <div className="mr-auto">
-            <span
-              className="font-weight-bold mr-3"
-              aria-hidden="true"
-            >
-              &#171;
-            </span>
             <a
               className="prevDoc"
               rel="prev"
@@ -95,7 +89,7 @@ function PreviousAndNextLinks() {
               title={`Go to the previous page: ${prevLink.name}`}
               aria-label={`Go to the previous page: ${prevLink.name}`}
             >
-              {prevLink.name}
+              &#8592; {prevLink.name}
             </a>
           </div>
         )}
@@ -108,14 +102,8 @@ function PreviousAndNextLinks() {
               title={`Go to the next page: ${nextLink.name}`}
               aria-label={`Go to the next page: ${nextLink.name}`}
             >
-              {nextLink.name}
+              {nextLink.name} &#8594;
             </a>
-            <span
-              className="font-weight-bold ml-3"
-              aria-hidden="true"
-            >
-              &#187;
-            </span>
           </div>
         )}
       </div>
