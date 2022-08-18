@@ -100,13 +100,10 @@ For all APIs defined in OpenAPI 3.0, the following list describes possible warni
     * [DELETE operations shouldn't have a response body](#delete-operations-shouldnt-have-a-response-body)
     * [A 204 No Content response can't have a body](#a-204-no-content-response-cant-have-a-body)
     * [DELETE operations should have a 500 status code for the response](#delete-operations-should-have-a-500-status-code-for-the-response)
-    * [GET operations should have a 200 status code for the response](#get-operations-should-have-a-200-status-code-for-the-response)
+    * [Operation should return a 2xx HTTP status code](#operation-should-return-a-2xx-http-status-code)
     * [GET operations should have a 500 status code for the response](#get-operations-should-have-a-500-status-code-for-the-response)
-    * [PATCH operations should have a 200 status code for the response](#patch-operations-should-have-a-200-status-code-for-the-response)
     * [PATCH operations should have a 500 status code for the response](#patch-operations-should-have-a-500-status-code-for-the-response)
-    * [POST operations should have a 201 status code for the response](#post-operations-should-have-a-201-status-code-for-the-response)
     * [POST operations should have a 500 status code for the response](#post-operations-should-have-a-500-status-code-for-the-response)
-    * [PUT operations should have a 200 status code for the response](#put-operations-should-have-a-200-status-code-for-the-response)
     * [PUT operations should have a 500 status code for the response](#put-operations-should-have-a-500-status-code-for-the-response)
 * [Models](#models)
     * [Request body examples should only reference components](#request-body-examples-should-only-reference-components)
@@ -1584,38 +1581,25 @@ delete:
 
 &nbsp;
 
-### GET operations should have a 200 status code for the response
+### Operation should return a 2xx HTTP status code
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| The [responses object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#responses-object) for one or more GET [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#operationObject) in your API schema doesn't contain the `200` status code. | Make sure that GET methods all have a `200` status code response. |
+| The [responses object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#responses-object) for one or more [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#operationObject) in your API schema doesn't contain the `2xx` status code. Operations are expected to succeed and should return a `2xx` success HTTP status code. It's rare for an operation to return a different code, such as when a `3xx` redirect code should be used instead. | Make sure that operations return a `2xx` success status code. |
 
 #### Resolution
 
 ```json
-get:
-  operationId: health_check
-  tags:
-    - General
-  summary: Health-check endpoint
-  description: |-
-    This is a health checkup route, also used by ELB to keep the instance
-    in a group. This will perform all the dependent infra check like
-    db-connection by performing a query.
-  security: []
-  responses:
-    '200':
-      description: Successful response
-      content:
-        application/json:
-          schema:
-            type: object
-    '500':
-      description: Something went wrong
-      content:
-        application/json:
-          schema:
-            type: object
+openapi: "3.1.0"
+info:
+  title: An API title
+  version: "1.0"
+paths:
+  /resources:
+    get:
+      responses:
+        '226':
+          description: A success response
 ```
 
 &nbsp;
@@ -1639,40 +1623,6 @@ get:
 
 &nbsp;
 
-### PATCH operations should have a 200 status code for the response
-
-| Issue description | Possible fix |
-| ----------- | ----------- |
-| The [responses object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#responses-object) for one or more PATCH [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#operationObject) in your API schema doesn't contain the `200` status code. | Make sure that PATCH methods all have a `200` status code response. |
-
-#### Resolution
-
-```json
-paths:
-  /users/{GUID}:
-    patch:
-      summary: Update a user
-      parameters:
-        - name: GUID
-          in: path
-          required: true
-          type: string
-          format: GUID
-          description: The GUID of a specific user
-        - name: JsonPatch
-          in: body
-          required: true
-          schema:
-            $ref: "#/definitions/PatchRequest"
-      responses:
-        '200':
-          description: Successful response
-          schema:
-            $ref: "#/definitions/User"
-```
-
-&nbsp;
-
 ### PATCH operations should have a 500 status code for the response
 
 | Issue description | Possible fix |
@@ -1692,27 +1642,6 @@ paths:
 
 &nbsp;
 
-### POST operations should have a 201 status code for the response
-
-| Issue description | Possible fix |
-| ----------- | ----------- |
-| The [responses object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#responses-object) for one or more POST [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#operationObject) in your API schema doesn't contain the `201` status code. | Make sure that POST methods all have a `201` status code response. |
-
-#### Resolution
-
-```json
-post:
-  summary: Create a pet
-  operationId: createPets
-  tags:
-      - pets
-  responses:
-      '201':
-          description: Null response
-```
-
-&nbsp;
-
 ### POST operations should have a 500 status code for the response
 
 | Issue description | Possible fix |
@@ -1728,32 +1657,6 @@ post:
     application/json:
       schema:
         $ref: '#/components/schemas/ErrorModel'
-```
-
-&nbsp;
-
-### PUT operations should have a 200 status code for the response
-
-| Issue description | Possible fix |
-| ----------- | ----------- |
-| The [responses object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#responses-object) for one or more PUT [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#operationObject) in your API schema doesn't contain the `200` status code. | Make sure that PUT methods all have a `200` status code response. |
-
-#### Resolution
-
-```json
-put:
-  operationId: updatePet
-  requestBody:
-    content:
-      application/json:
-        schema:
-          $ref: "#/components/schemas/Pet"
-  responses:
-    "200":
-      content:
-        application/json:
-          schema:
-            type: boolean
 ```
 
 &nbsp;
