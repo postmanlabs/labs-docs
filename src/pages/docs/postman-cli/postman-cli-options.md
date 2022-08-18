@@ -40,11 +40,11 @@ Commands and options for using Postman CLI.
 | `--color` | Turn off colored output (auto\|on\|off) (default: "auto") |
 | `--cookie-jar` | Specify the file path for a JSON Cookie Jar. Uses `tough-cookie` to deserialize the file. |
 | `--delay-request` | Specify a delay (in milliseconds) between requests [number]. |
-<!--TODO - Add more description to whichever disable reporter command is decided on and delete the other(s).-->
-| `--disable-cli-reporter` | Disable reporting results to the CLI. **(more TBD)** |
-| `--disable-default-reporters cli` | Disable reporting to Postman **(more TBD)** |
-| `--disable-default-reporters postman` | Disable reporting to Postman. **(more TBD)** |
-| `--disable-postman-reporter` | Disable reporting to the Postman cloud. **(more TBD)** |
+<!--TODO - Add more description to whichever `disable reporter` command is decided on and delete the other.-->
+| `--disable-cli-reporter` | Disable reporting results to the CLI. |
+| `--disable-default-reporters cli` | Disable reporting to Postman |
+| `--disable-default-reporters postman` | Disable reporting to Postman. |
+| `--disable-postman-reporter` | Disable reporting to the Postman cloud. |
 | `--disable-unicode` | Force the unicode disable option. When supplied, all symbols in the output will be replaced by their plain text equivalents. |
 | `--env-var` | Set environment variables in a key=value format on the command line. |
 | `--environment` | Specify a Postman environment as a JSON [file]. |
@@ -207,6 +207,8 @@ Run a collection with a custom reporter.
 ## postman api lint <UUID or file-name>
 
 Run validation checks for governance and security rules against the api definition provided in the Postman config file, a local file, or a UUID. You can only lint single-file definitions. Shows a warning if unable to find `<api-id>` to send data back to Postman.
+
+> Supports APIs that are stored on Postman and are not linked to Git.
 
 ### Example
 
