@@ -84,7 +84,7 @@ Keep in mind the following when connecting to a repository:
 
 To connect a GitHub, Bitbucket, GitLab, or Azure DevOps repository hosted in the cloud:
 
-1. Select **APIs** in the sidebar and then select an API.
+1. Select **APIs** in the sidebar and select an API.
 1. Select **Connect Repository** and select the type of repository you want to connect to.
 1. A browser tab opens asking you to log in to your repository. Follow the onscreen instructions. When you're finished, close the browser tab and return to Postman.
 1. On the **Connect your repository** page, enter the **Organization** and **Repository** where the API will be stored. (For GitLab, **Organization** refers to a **Group**, and **Repository** refers to a **Project**.)
@@ -98,7 +98,7 @@ To connect a GitHub, Bitbucket, GitLab, or Azure DevOps repository hosted in the
 
 To connect an GitHub Enterprise Server, GitLab Self-Managed, or Azure DevOps Server repository hosted on-premises:
 
-1. Select **APIs** in the sidebar and then select an API.
+1. Select **APIs** in the sidebar and select an API.
 1. Select **Connect Repository** and select the type of repository you want to connect to.
 1. On the **Connect your repository** page, enter the **Domain URL** of your repository.
 1. Under **Local File System**, select **Select Folder**. Select the root folder of your local Git repository and select **Open**.

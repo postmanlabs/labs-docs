@@ -40,7 +40,7 @@ You can connect an API in Postman to a Git repository on your local system. Afte
 <!-- TO DO: VERIFY STEPS, ADD SCREENSHOT -->
 
 1. If you haven't done so already, [connect your API to a remote repository](/docs/designing-and-developing-your-api/versioning-an-api/using-external-git-repo/). Make sure the remote repository is the origin of the local repository you want to connect to.
-1. Select **APIs** in the sidebar and then select an API.
+1. Select **APIs** in the sidebar and select an API.
 1. Under **Connect Repository**, select the branch dropdown menu and select **Create Local Git**.
 1. Select the root folder of your local Git repository and select **Open**.
 1. Select **Connect** to link the local repository to your API.
@@ -51,7 +51,7 @@ After you disconnect a local repository, you can no longer work with your local 
 
 <!-- TO DO: VERIFY STEPS, ADD SCREENSHOT -->
 
-1. Select **APIs** in the sidebar and then select an API.
+1. Select **APIs** in the sidebar and select an API.
 1. Under **Connect Repository**, select the branch dropdown menu and select **Delete Local Git**.
 
 ## Next steps
