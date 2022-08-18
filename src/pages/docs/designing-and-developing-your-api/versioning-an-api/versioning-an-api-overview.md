@@ -1,5 +1,5 @@
 ---
-title: 'Versioning an API overview'
+title: 'API version control overview'
 updated: 2022-05-09
 contextual_links:
   - type: section

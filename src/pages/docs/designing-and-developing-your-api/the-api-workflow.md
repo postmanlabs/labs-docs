@@ -1,7 +1,6 @@
 ---
-title: 'API Development Overview'
+title: 'API development overview'
 updated: 2021-09-15
-warning: false
 contextual_links:
   - type: section
     name: "Additional Resources"

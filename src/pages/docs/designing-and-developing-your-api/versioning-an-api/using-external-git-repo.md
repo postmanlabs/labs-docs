@@ -1,5 +1,5 @@
 ---
-title: 'Using an external Git repository'
+title: 'Using a remote Git repository'
 updated: 2022-09-15
 contextual_links:
   - type: section

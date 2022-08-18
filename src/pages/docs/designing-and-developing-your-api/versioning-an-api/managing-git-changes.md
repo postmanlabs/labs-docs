@@ -53,7 +53,7 @@ Feature branches enable you to work on changes to your API without affecting the
 
 To create a new branch:
 
-1.
+1. Steps...
 
 <!-- TO DO: ADD STEPS, ADD SCREENSHOT -->
 

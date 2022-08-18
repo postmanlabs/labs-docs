@@ -1,7 +1,5 @@
 ---
-title: "Documenting your API"
-order: 101
-page_id: "documenting_your_api"
+title: "Generating API documentation"
 updated: 2022-1-24
 contextual_links:
   - type: section
@@ -44,9 +42,6 @@ contextual_links:
   - type: link
     name: "Viewing documentation"
     url: "/docs/publishing-your-api/viewing-documentation/"
-
-warning: false
-
 ---
 
 Documentation is an important part of any collection or API. Good documentation helps the people who use your collection to understand what it does and how each request works. And comprehensive API documentation lets your consumers know what endpoints are available and how to successfully interact with them.

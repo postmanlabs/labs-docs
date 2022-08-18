@@ -1986,5 +1986,25 @@
 	{
 		"from": "/docs/sending-requests/supported-api-frameworks/making-soap-requests/",
 		"to": "/docs/sending-requests/soap/making-soap-requests/"
+	},
+	{
+		"from": "/docs/designing-and-developing-your-api/versioning-an-api/api-statuses/",
+		"to": "/docs/designing-and-developing-your-api/developing-an-api/api-statuses/"
+	},
+	{
+		"from": "/docs/designing-and-developing-your-api/defining-an-api/",
+		"to": "/docs/designing-and-developing-your-api/developing-an-api/defining-an-api/"
+	},
+	{
+		"from": "/docs/designing-and-developing-your-api/developing-an-api/",
+		"to": "/docs/designing-and-developing-your-api/developing-an-api/adding-api-elements/"
+	},
+	{
+		"from": "/docs/designing-and-developing-your-api/generating-server-code/",
+		"to": "/docs/designing-and-developing-your-api/developing-an-api/generating-server-code/"
+	},
+	{
+		"from": "/docs/designing-and-developing-your-api/versioning-an-api/api-releases/",
+		"to": "/docs/designing-and-developing-your-api/versioning-an-api/api-versions/"
 	}
 ]
