@@ -47,7 +47,7 @@ exports[`Footer renders correctly 1`] = `
                   Product
                 </h2>
                 <ul
-                  className="sc-gsnTZi hmGxqE column"
+                  className="sc-gsnTZi kIEZAF column"
                 >
                   <li
                     className="column-row"
@@ -207,7 +207,7 @@ exports[`Footer renders correctly 1`] = `
                     Company
                   </h2>
                   <ul
-                    className="sc-gsnTZi hmGxqE column"
+                    className="sc-gsnTZi kIEZAF column"
                   >
                     <li
                       className="column-row"
@@ -280,7 +280,7 @@ exports[`Footer renders correctly 1`] = `
                     Security and Legal
                   </h2>
                   <ul
-                    className="sc-gsnTZi hmGxqE column"
+                    className="sc-gsnTZi kIEZAF column"
                   >
                     <li
                       className="column-row"
@@ -344,7 +344,7 @@ exports[`Footer renders correctly 1`] = `
                       className="footer-col-title"
                     />
                     <ul
-                      className="sc-gsnTZi hmGxqE column"
+                      className="sc-gsnTZi kIEZAF column"
                     >
                       <li
                         className="column-row"

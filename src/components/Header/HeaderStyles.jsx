@@ -21,7 +21,7 @@ export const HeaderWrapper = styled.div`
   &.nav-secondary {
     backdrop-filter: blur(64px);
     position: sticky;
-    padding: 4px 16px;
+    padding: 4px 15px;
     top: 0;
     z-index: 1020;
     border-bottom: 1px solid ${(props) => props.theme.colors.grey_30};
@@ -335,7 +335,7 @@ export const HeaderWrapper = styled.div`
       width: 100%;
       top: 52px;
       background-color: ${(props) => props.theme.colors.grey_00};
-      padding: 0 16px 16px 16px;
+      padding: 0 16px 32px 16px;
       -webkit-transition: all 0.2s ease;
       -o-transition: all 0.2s ease;
       -ms-transition: all 0.2s ease;
@@ -366,27 +366,7 @@ export const HeaderWrapper = styled.div`
   }
 }
 /* Used for Nav Bars (Do not remove) */
-@media screen and (max-width: 992px) {
-  /* Used for Global Nav */
-  body {
-    &.lock {
-      position:fixed;
-    }
-  }
-  
-   /* Used for Learning Center Nav */
-   body.menu-open:after {
-    content: '';
-    display: block;
-    position: fixed;
-    top: 0; bottom: 0; left: 0; right: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 10;
-    background: rgba(0,0,0,0.7);
-  }
-  
-}
+
 `
 
 export const DropdownStyles = styled.div`
@@ -569,7 +549,7 @@ export const AlgoliaWidgets = styled.div`
     @media screen and (max-width: 992px) {
       display: inline-block;
       margin-top: 16px;
-      margin-left: -8px;
+      margin-left: -7px;
     }
   }
 
@@ -639,7 +619,7 @@ export const AlgoliaWidgets = styled.div`
     bottom: 18px;
     margin-left: 8px;
     @media screen and (max-width: 992px) {
-      bottom: -2px;
+      bottom: -1px;
       left: 16px;
       margin-left: -9px;
       position: relative;

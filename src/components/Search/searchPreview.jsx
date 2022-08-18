@@ -54,6 +54,7 @@ ais-highlight-0000000000 {
   font-size: 0.001px;
 }
 `
+
 const SearchBox = ({ currentRefinement, refine }) => (
   <div className="ais-SearchBox">
     <form noValidate action="" role="search" className="ais-SearchBox-form">

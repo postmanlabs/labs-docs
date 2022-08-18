@@ -20,7 +20,27 @@ body {
   text-rendering: geometricPrecision;
   letter-spacing: -0.16px;
 }
-
+@media screen and (max-width: 992px) {
+  /* Used for Global Nav */
+  body {
+    &.lock {
+      position:fixed;
+    }
+  }
+  
+   /* Used for Learning Center Nav */
+   body.menu-open:after {
+    content: '';
+    display: block;
+    position: fixed;
+    top: 0; bottom: 0; left: 0; right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    background: rgba(0,0,0,0.7);
+  }
+  
+}
 code {
  font-family: 'IBM Plex Mono', SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace !important;
 }
