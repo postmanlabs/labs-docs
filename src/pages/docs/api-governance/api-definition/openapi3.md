@@ -101,10 +101,7 @@ For all APIs defined in OpenAPI 3.0, the following list describes possible warni
     * [A 204 No Content response can't have a body](#a-204-no-content-response-cant-have-a-body)
     * [DELETE operations should have a 500 status code for the response](#delete-operations-should-have-a-500-status-code-for-the-response)
     * [Operation should return a 2xx HTTP status code](#operation-should-return-a-2xx-http-status-code)
-    * [GET operations should have a 500 status code for the response](#get-operations-should-have-a-500-status-code-for-the-response)
-    * [PATCH operations should have a 500 status code for the response](#patch-operations-should-have-a-500-status-code-for-the-response)
-    * [POST operations should have a 500 status code for the response](#post-operations-should-have-a-500-status-code-for-the-response)
-    * [PUT operations should have a 500 status code for the response](#put-operations-should-have-a-500-status-code-for-the-response)
+    * [Operation should return a 5xx HTTP status code](#operation-should-return-a-5xx-http-status-code)
 * [Models](#models)
     * [Request body examples should only reference components](#request-body-examples-should-only-reference-components)
     * [Request body schema should only reference components](#request-body-schema-should-only-reference-components)
@@ -1604,78 +1601,25 @@ paths:
 
 &nbsp;
 
-### GET operations should have a 500 status code for the response
+### Operation should return a 5xx HTTP status code
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| The [responses object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#responses-object) for one or more GET [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#operationObject) in your API schema doesn't contain the `500` status code. | Make sure that GET methods all have a `500` status code response. |
+| The [responses object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#responses-object) for one or more [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#operationObject) in your API schema doesn't contain the `5xx` status code. Since operations may fail unexpectedly, they should return a `5xx` server error HTTP status code. | Make sure that all operations return a `5xx` status code. |
 
 #### Resolution
 
 ```json
-'500':
-  description: Unexpected error
-  content:
-    application/json:
-      schema:
-        $ref: '#/components/schemas/ErrorModel'
-```
-
-&nbsp;
-
-### PATCH operations should have a 500 status code for the response
-
-| Issue description | Possible fix |
-| ----------- | ----------- |
-| The [responses object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#responses-object) for one or more PATCH [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#operationObject) in your API schema doesn't contain the `500` status code. | Make sure that PATCH methods all have a `500` status code response. |
-
-#### Resolution
-
-```json
-'500':
-  description: Unexpected error
-  content:
-    application/json:
-      schema:
-        $ref: '#/components/schemas/ErrorModel'
-```
-
-&nbsp;
-
-### POST operations should have a 500 status code for the response
-
-| Issue description | Possible fix |
-| ----------- | ----------- |
-| The [responses object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#responses-object) for one or more POST [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#operationObject) in your API schema doesn't contain the `500` status code. | Make sure that POST methods all have a `500` status code response. |
-
-#### Resolution
-
-```json
-'500':
-  description: Unexpected error
-  content:
-    application/json:
-      schema:
-        $ref: '#/components/schemas/ErrorModel'
-```
-
-&nbsp;
-
-### PUT operations should have a 500 status code for the response
-
-| Issue description | Possible fix |
-| ----------- | ----------- |
-| The [responses object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#responses-object) for one or more PUT [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#operationObject) in your API schema doesn't contain the `500` status code. | Make sure that PUT methods all have a `500` status code response. |
-
-#### Resolution
-
-```json
-'500':
-  description: Unexpected error
-  content:
-    application/json:
-      schema:
-        $ref: '#/components/schemas/ErrorModel'
+swagger: "2.0"
+info:
+  title: An API title
+  version: "1.0"
+paths:
+  /resources:
+    get:
+      responses:
+        '511':
+          description: A server error response
 ```
 
 &nbsp;
