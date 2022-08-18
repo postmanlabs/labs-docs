@@ -1,14 +1,11 @@
 ---
 title: 'Validating APIs'
-order: 83
 updated: 2022-02-04
-page_id: 'validating-elements-against-schema'
-warning: false
 contextual_links:
   - type: section
     name: "Prerequisites"
   - type: link
-    name: "Using the API Builder"
+    name: "API development overview"
     url: "/docs/designing-and-developing-your-api/the-api-workflow/"
   - type: link
     name: "Managing and sharing APIs"
@@ -41,7 +38,7 @@ You can validate your API schema in Postman, and validate your elements (documen
 
 > Schema validation is available for OpenAPI 2.0, 3.0, and 3.1 and WSDL 1.1 and 2.0 schemas.
 
-Postman indicates validation errors on your API schema as you edit it in the **Definition** tab on the API version page. Errors can include missing required fields, malformed field names, incorrect data types, incorrect nesting, or other API schema validation issues.
+Postman indicates validation errors on your API schema as you [edit your API definition](/docs/designing-and-developing-your-api/developing-an-api/defining-an-api/). Errors can include missing required fields, malformed field names, incorrect data types, incorrect nesting, or other API schema validation issues.
 
 The pane below the schema editing area displays issues. You can hide and show the error view as you work.
 
@@ -61,7 +58,13 @@ If there are no errors, Postman will indicate in the lower pane that your schema
 
 You can compare your API schemas against documentation, mock servers, tests, and monitors associated with it to determine if the elements need changes to stay in sync. For example, if you add a new method to your API schema, validation will indicate you need to add the method to your associated documentation. Or when you add a new element to an API, you can run a validation to check the element against the current API schema for issues.
 
-Each element has a **Validate** column next to where it's located in the API page. (Documentation and Mock servers are on the API **Overview** tab; tests are on the **Test** tab; monitors are on the **Monitor** tab.)
+Each element has a **Validate** column next to it. Open your API from the sidebar and locate the element:
+
+<!-- CHECK LOCATION OF VALIDATE BUTTON FOR DOCUMENTATION AND MOCK SERVERS, NOT CURRENTLY SEEING IN BETA -->
+
+* Documentation and mock servers are on the API **Overview**.
+* To view tests, select **Test and Automation** (under **Power up your API**).
+* To view monitors, select **API Performance** (under **Power up your API**).
 
 To validate a new element, select **Validate** in the validate column next to the element. To re-validate an element, select the status, then select **Validate Again**.
 
@@ -77,8 +80,6 @@ A collection is linked to an API if you [generate it from a schema](/docs/design
 
 Postman validates a request when it's sent. If there are issues with the request, Postman displays a warning message showing the number of issues next to the name of the request.
 
-> Validation is version-specific, and will be performed against the schema of the particular version of the API linked with the collection. If one version of a collection is linked to more than one version of an API, Postman will select the schema from the latest created version of API for validation.
-
 ## Accessing issues
 
 You can review the issues found during validation to fix issues in your collections or schemas.
@@ -87,7 +88,13 @@ If an issue arises when you run a request, select the warning message next to th
 
 > You can select a specific issue to access the relevant request component.
 
-If your issue relates to another element, open your API by selecting **APIs** in the sidebar, then select an API version from the list. Open the tab containing the element you want to inspect issues for (either **Overview**, **Test**, or **Monitoring**).
+If your issue relates to another element, open your API from the sidebar and locate the element:
+
+<!-- CHECK LOCATION OF VALIDATE BUTTON FOR DOCUMENTATION AND MOCK SERVERS, NOT CURRENTLY SEEING IN BETA -->
+
+* Documentation and mock servers are on the API **Overview**.
+* To view tests, select **Test and Automation** (under **Power up your API**).
+* To view monitors, select **API Performance** (under **Power up your API**).
 
 If Postman finds any issues during validation, view them by selecting **Issues found** > **View issues**. This will take you to a page summarizing validation issues.
 

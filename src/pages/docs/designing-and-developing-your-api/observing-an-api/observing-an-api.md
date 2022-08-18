@@ -19,7 +19,7 @@ contextual_links:
   - type: section
     name: "Next Steps"
   - type: link
-    name: "Managing APIs"
+    name: "Managing and sharing APIs"
     url: "/docs/designing-and-developing-your-api/managing-apis/"
 ---
 
