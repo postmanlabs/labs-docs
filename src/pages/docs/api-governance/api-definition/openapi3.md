@@ -86,7 +86,7 @@ For all APIs defined in OpenAPI 3.0, the following list describes possible warni
     * [There should be at least one tag](#there-should-be-at-least-one-tag)
 * [Operations](#operations)
     * [Your operations all need descriptions](#your-operations-all-need-descriptions)
-    * [All your operations need summaries](#all-your-operations-need-summaries)
+    * [Your operations all need summaries](#your-operations-all-need-summaries)
     * [Your operation summaries shouldn't end with a period](#your-operation-summaries-shouldnt-end-with-a-period)
     * [All operations should have tags](#all-operations-should-have-tags)
     * [All operations should have at least one tag](#all-operations-should-have-at-least-one-tag)
@@ -1219,7 +1219,7 @@ paths:
 
 &nbsp;
 
-### All your operations need summaries
+### Your operations all need summaries
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
