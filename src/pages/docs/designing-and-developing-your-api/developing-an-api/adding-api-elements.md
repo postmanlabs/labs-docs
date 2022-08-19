@@ -26,74 +26,64 @@ contextual_links:
     url: "/docs/designing-and-developing-your-api/managing-apis/"
 ---
 
-In the Postman API Builder, you can develop your API by linking it to documentation, environments, and mock servers.
+Your API in Postman can include more than an API definition. You can add elements such as collections and environments to help you document and test your API.
 
-> When you add documentation, tests, mocks, monitors, and environments, Postman lists the elements in the current workspace in the selection dropdown list.
+To add an element, it must be in the same workspace as your API. The element will inherit the [roles and permissions](/docs/collaborating-in-postman/roles-and-permissions/) of the API you are adding it to.
+
+> After you add a collection or environment, it's exclusive to the API and will no longer appear under **Collections** or **Environments** in the sidebar. If you move or delete an API, any collections or environments linked to the API are moved or deleted with it.
 
 ## Contents
 
-* [Adding documentation](#adding-documentation)
-    * [Creating new documentation](#creating-new-documentation)
-    * [Adding existing documentation](#adding-existing-documentation)
+* [Adding a collection](#adding-a-collection)
 * [Adding an environment](#adding-an-environment)
-* [Adding a mock server](#adding-a-mock-server)
-    * [Creating a new mock server](#creating-a-new-mock-server)
-    * [Adding an existing mock server](#adding-an-existing-mock-server)
 * [Removing elements from an API](#removing-elements-from-an-api)
 
-## Adding documentation
+## Adding a collection
 
-You can link the documentation generated from your collections to specific versions of an API.
+Add a collection to document your API or help others test your API's endpoints. You can add an existing collection or generate a new collection from your API definition.
 
-### Creating new documentation
+> You can also add a test suite to your API. Learn more about [testing an API](/docs/designing-and-developing-your-api/testing-an-api/).
 
-To create a new collection and generate an API's documentation from your schema:
+### Adding an existing collection
 
-1. In the API version **Overview** tab, next to **Documentation**, select **+** and choose **Create new documentation**.
+To add an existing collection to your API:
 
-1. Specify a name, configure how to generate the collection by selecting **Show advanced settings**, and select **Create Documentation**.
+1. Select **APIs** in the sidebar and select an API.
+1. Next to **Collections** select **+ Add a collection**.
+1. Select an available collection and select **Submit**.
 
-### Adding existing documentation
+The linked collection displays on your API's overview and under your API in the sidebar. To view documentation for the collection, expand the collection and select **View full documentation**.
 
-1. In the API version **Overview** tab, next to **Documentation**, select **+** and choose **Add existing documentation**.
+### Generating a collection
 
-1. Select the collection with the documentation you want to link and select **Add Documentation**. Only the available collections are in this list.
+To generate a new collection from your API definition:
 
-### Viewing documentation
+1. Select **APIs** in the sidebar and select an API.
+1. Next to **Definition** select **Generate Collection**.
+1. Change any settings to customize the new collection.
+1. Select **Generate Collection**.
 
-You can view the documentation for your API from within API Builder. Select any of the documentation listed under the **Documentation** heading to open it in a new window.
-
-You can also view the documentation in the **Documentation** tab. Use the dropdown list in the upper left of the tab to choose which collection to show, and to add or generate another documentation collection.
-
-Select **View Collection** from the **Documentation** tab to access the documentation's collection.
+The linked collection displays on your API's overview and under your API in the sidebar. To view documentation for the collection, expand the collection and select **View full documentation**.
 
 ## Adding an environment
 
-You can link specific environments in your workspaces to specific versions of an API.
+An environment is a set of related variables you can use in Postman requests. Add an environment to resolve any variables used in the collections linked to your API.
 
-1. In the API version **Overview** tab, next to **Environments**, select **+**.
+To add an environment to your API:
 
-1. Select an environment from the list and select **Add environment**. Only the available environments are in this list.
+1. Select **Environments** in the sidebar.
+1. In the sidebar, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to an environment and select **Add to API**.
 
-## Adding a mock server
-
-You can link mock servers for a collection to an API, by creating a new mock server, or adding an existing one.
-
-### Creating a new mock server
-
-1. In the API version **Overview** tab, next to **Mock Servers**, select **+** and choose **Create new mock server**.
-1. Select a collection and configure the mock server, as outlined in [Creating a mock from an API](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/#creating-a-mock-from-an-api).
-
-### Adding an existing mock server
-
-1. In the API version **Overview** tab, next to **Mock Servers**, select **+** and choose **Add existing mock server**.
-
-1. Choose a mock server from your workspace and select **Add Mock Server**. Only the available mocks are in this list. Postman adds your mock server to the API.
+The linked environment displays under your API in the sidebar. Select the environment to view or add variables. Learn more about [managing environments](/docs/sending-requests/managing-environments/).
 
 ## Removing elements from an API
 
-You can remove an associated documentation collection, environment, or mock server collection from an API.
+You can remove a linked collection or environment from your API.
 
-In the API version **Overview** tab, hover over the element and select the remove icon <img alt="Remove icon" src="https://assets.postman.com/postman-docs/icon-remove-api-element-v9.jpg#icon" width="16px">.
+1. Select **APIs** in the sidebar and select an API.
+1. In the sidebar, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to a collection or environment and select **Remove from API**.
+1. Select **Remove**.
 
-This will only remove the association between the element and the API version. It won't delete the element or remove it from your workspace.
+The collection or environment is removed from the API and is returned to the workspace. You can view it by selecting **Collections** or **Environments** in the sidebar.
+
+> You can also remove a collection by selecting the remove icon <img alt="Remove icon" src="https://assets.postman.com/postman-docs/icon-remove-api-element-v9.jpg#icon" width="16px"> next to a collection on the API's overview.
