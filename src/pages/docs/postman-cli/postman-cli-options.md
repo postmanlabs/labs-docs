@@ -79,11 +79,11 @@ Use the URLs below in your script to download the Postman CLI installation packa
 
 ### Linux
 
-    https://dl-cli.pstmn.io/download/latest/osx_64
+    https://dl-cli.pstmn.io/download/latest/linux64
 
 ### Mac
 
-    https://dl-cli.pstmn.io/download/latest/linux64
+    https://dl-cli.pstmn.io/download/latest/osx_64
 
 ### Windows
 
