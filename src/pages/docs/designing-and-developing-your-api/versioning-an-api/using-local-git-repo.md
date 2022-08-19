@@ -21,7 +21,7 @@ contextual_links:
     url: "/docs/designing-and-developing-your-api/versioning-an-api/managing-git-changes/"
 ---
 
-You can connect an API in Postman to a Git repository on your local development system. Postman supports connecting to GitHub, Bitbucket, GitLab, GitLab Self-Managed, or Azure DevOps repositories.
+With the Postman desktop app, you can connect an API to a Git repository on your local development system. The Postman desktop app supports connecting to GitHub, Bitbucket, GitLab, GitLab Self-Managed, or Azure DevOps repositories.
 
 After connecting to a local repository, you can complete your local API development workflow using Postman. Create branches to work on new features, pull the latest changes, and resolve any conflicts. Use your collections, environments, and other resources on your local system to help implement and test your endpoints. Once you've verified the new features locally, commit and push your changes to the remote repository.
 
@@ -35,13 +35,18 @@ After connecting to a local repository, you can complete your local API developm
 
 ## Connecting to a local repository
 
-You can connect an API in Postman to a Git repository on your local system. After connecting, you can use Postman to switch branches, push and pull changes, and resolve conflicts.
+You can connect an API in the Postman desktop app to a Git repository on your local system. After connecting, you can use the Postman desktop app to switch branches, push and pull changes, and resolve conflicts.
+
+> Use the [Postman desktop app](/docs/getting-started/installation-and-updates/) to connect to a local Git repository. You can't use the [Postman web app](https://learning.postman.com/docs/getting-started/installation-and-updates/#using-the-postman-web-app).
 
 <!-- TO DO: VERIFY STEPS, ADD SCREENSHOT -->
 
 1. If you haven't done so already, [connect your API to a remote repository](/docs/designing-and-developing-your-api/versioning-an-api/using-external-git-repo/). Make sure the remote repository is the origin of the local repository you want to connect to.
 1. Select **APIs** in the sidebar and select an API.
 1. Under **Connect Repository**, select the branch dropdown menu and select **Create Local Git**.
+
+    > If there are changes on your active branch, you must push them to the remote branch before you can connect a local Git repository.
+
 1. Select the root folder of your local Git repository and select **Open**.
 1. Select **Connect** to link the local repository to your API.
 
