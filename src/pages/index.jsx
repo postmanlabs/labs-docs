@@ -9,7 +9,7 @@ import { LandingCard } from '../components/MarketingPages/Cards';
 import '../../styles/config/normalize.css';
 import '../components/MarketingPages/Buttons.scss';
 import styled from 'styled-components';
-
+import '../../styles/config/_pm-icons.css';
 
 const EventsWrapper = styled.div`
 .events__alert {
