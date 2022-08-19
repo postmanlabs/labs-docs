@@ -525,6 +525,8 @@ export const AlgoliaWidgets = styled.div`
   list-style: none;
   display: flex;
   flex-direction: row; 
+  margin-bottom: 1rem;
+  
   a {
     padding: 8px 16px;
     color: ${(props) => props.theme.colors.grey_50};
