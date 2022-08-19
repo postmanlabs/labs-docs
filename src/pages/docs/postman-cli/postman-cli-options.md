@@ -45,7 +45,7 @@ Commands and options for using Postman CLI.
 | `--disable-default-reporters cli` | Disable reporting to Postman |
 | `--disable-default-reporters postman` | Disable reporting to Postman. |
 | `--disable-postman-reporter` | Disable reporting to the Postman cloud. |
-| `--disable-unicode` | Force the unicode disable option. When supplied, all symbols in the output will be replaced by their plain text equivalents. |
+| `--disable-unicode` | Force the unicode disable option. When supplied, replaces all symbols in the output with their plain text equivalents. |
 | `--env-var` | Set environment variables in a key=value format on the command line. |
 | `--environment` | Specify a Postman environment as a JSON [file]. |
 | `--export-collection` | The path to the file where Postman outputs the final collection file before completing a run. |
@@ -69,7 +69,7 @@ Commands and options for using Postman CLI.
 | `--working-dir` |Set the path of the working directory to use while reading files with relative paths. |
 | `-r` | Run a collection with a custom reporter. |
 | [**`postman api lint`**](#postman-api-lint-uuid-or-file-name)| Run validation checks for governance and security rules against the api definition provided in the Postman config file. |
-| `--disable-postman-reporter` | Do not upload data to Postman after linting. |
+| `--disable-postman-reporter` | Don't upload data to Postman after linting. |
 | `--exclude-governance-rules` | Ignore governance rules at the time of linting. |
 | `--exclude-security-rules` | Ignore security rules at the time of linting. |
 
@@ -207,7 +207,7 @@ Run a collection with a custom reporter.
 
 Run validation checks for governance and security rules against the api definition provided in the Postman config file, a local file, or a UUID. You can only lint single-file definitions. Shows a warning if unable to find `<api-id>` to send data back to Postman.
 
-> Supports APIs that are stored on Postman and are not linked to Git.
+> Supports APIs that are stored on Postman and aren't linked to Git.
 
 ### Example
 
@@ -217,7 +217,7 @@ Run validation checks for governance and security rules against the api definiti
 
 #### --disable-postman-reporter
 
-Do not upload data to Postman after linting.
+Don't upload data to Postman after linting.
 
 #### --exclude-governance-rules
 
