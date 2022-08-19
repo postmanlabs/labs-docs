@@ -21,7 +21,7 @@ export const HeaderWrapper = styled.div`
   &.nav-secondary {
     backdrop-filter: blur(64px);
     position: sticky;
-    padding: 4px 15px;
+    padding: 4px 16px;
     top: 0;
     z-index: 1020;
     border-bottom: 1px solid ${(props) => props.theme.colors.grey_30};
