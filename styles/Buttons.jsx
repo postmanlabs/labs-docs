@@ -1,43 +1,40 @@
-@import '../Shared/variables';
+import styled from 'styled-components';
 
+
+export const ButtonStyles = styled.div`
 // Base button styles
 .btn {
-  appearance: none; // Corrects inability to style clickable `input` types in iOS.
+  appearance: none; // Corrects inability to style clickable "input" types in iOS.
   border: 1px solid transparent;
-  border-radius: $borderRadiusSmall;
+  border-radius: ${(props) => props.theme.borderRadius.small};
   cursor: pointer;
   display: inline-block;
   vertical-align: middle;
   font-size: 16px;
-  font-family: $Inter;
+  font-family: ${(props) => props.theme.fonts.Inter};
   font-weight: 600 !important;
   line-height: 1.5;
   margin: 0 0 16px 0;
   position: relative;
   transition: 0.2s ease-in-out;
   user-select: none;
-  // box-shadow: 0 5px 8px rgba(0, 0, 0, 0.15);
-
-  // @include for-phone-only {
-  //   display: block;
-  // }
-
+}
   // Primary Hollow Button
-  &.btn__primary-hollow {
-    color: $grey_70 !important;
+  .btn.primary-hollow {
+    color: ${(props) => props.theme.colors.grey_70};
     background-color: transparent !important;
-    border: 1px solid $grey_40 !important;
+    border: 1px solid ${(props) => props.theme.colors.grey_40};
     padding: 8px 16px;
     text-align: center;
     white-space: nowrap;
-    &:hover {
-      border: 1px solid $grey_60 !important;
+    :hover {
+      border: 1px solid ${(props) => props.theme.colors.grey_60};
       text-decoration: none !important;
     }
   
 
-    &:disabled,
-    &.isDisabled {
+    :disabled,
+    .isDisabled {
       color: #666666 !important;
       cursor: not-allowed;
       background-image: none !important;
@@ -48,9 +45,9 @@
 
   // Primary Button
   &.btn__primary {
-    color: #fff !important;
-    background-color: #FF6C37 !important;
-    border-color: #FF6C37 !important;
+    color: ${(props) => props.theme.colors.grey_00};
+    background-color: ${(props) => props.theme.colors.orange_50};
+    border-color: ${(props) => props.theme.colors.orange_50};
     padding: 13px 32px;
     text-align: center;
     white-space: nowrap;
@@ -72,10 +69,10 @@
   // Secondary Button (Light)
   &.btn__secondary-light {
     color: #1C272B;
-    background-color: #fff;
+    background-color: ${(props) => props.theme.colors.grey_00};
     background-image: none;
-    border: 1px solid #fff;
-    border-radius: $borderRadiusSmall;
+    border: 1px solid ${(props) => props.theme.colors.grey_00};
+    border-radius: ${(props) => props.theme.borderRadius.small};
     outline: 0;
     padding: 13px 24px;
     text-align: center;
@@ -120,7 +117,7 @@
   &:disabled,
   &.isDisabled {
     cursor: default;
-    // Repeat `background-position` because `:hover`
+    // Repeat background-position because :hover
     background-position: 0 0;
   }
 
@@ -130,25 +127,24 @@
   }
 
   // ICONS
-  // class starting with `pm-icon-` get styled by _pm-icons.scss file.
+  // class starting with "pm-icon-" get styled by _pm-icons.scss file.
   // class .glyphicon gets styled by bootstrap.css file.
   i {
     margin-right: 8px;
     // gets rid of weird background bug with our icons. We need to redo these.
     background: 0 0;
   }
-}
 
-a {
-  &.link-style {
+`
+export const LinkStyle = styled.a`
     height: 24px;
-    color: #0265D2;
+    color: ${(props) => props.theme.colors.blue_60};
     text-decoration: none;
-
 
     &:hover {
       text-decoration: none;
-      border-bottom: 1px solid #0265D2
+      border-bottom: 1px solid ${(props) => props.theme.colors.blue_60};
     }
-  }
-}
+
+`
+

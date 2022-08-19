@@ -7,10 +7,13 @@ import SEO from '../components/seo';
 import upcomingEvents from '../../bff-data/events.json';
 import { LandingCard } from '../components/MarketingPages/Cards';
 import '../../styles/config/normalize.css';
-import '../components/MarketingPages/Buttons.scss';
 
+// import { ButtonStyles } from '../components/MarketingPages/Buttons';
 import '../../styles/config/_pm-icons.css';
 import styled from 'styled-components';
+import { LinkStyle, ButtonStyles } from '../../styles/Buttons';
+
+
 
 const EventsWrapper = styled.div`
 .events__alert {
@@ -55,6 +58,11 @@ const EventsWrapper = styled.div`
     @media screen and (max-width: 576px){
         font-size: 16px;
     }
+}
+.link-style{
+    height: 24px;
+    color: ${(props) => props.theme.colors.blue_60};
+    text-decoration: none;
 }
 `
 const HeroWrapper = styled.section`
@@ -140,7 +148,7 @@ function getEvents(sortedUpcomingEvents) {
           <p>
             You are currently in develop mode. Dynamic events will not be displayed
             locally.
-            <a
+            <LinkStyle
               className="link-style"
               style={{ fontSize: 'inherit' }}
               href="https://github.com/postmanlabs/postman-docs/blob/develop/CONTRIBUTING.md"
@@ -148,7 +156,7 @@ function getEvents(sortedUpcomingEvents) {
               rel="noopener"
             >
               See Contributing doc for details
-            </a>
+            </LinkStyle>
             .
           </p>
         </EventsWrapper>
@@ -227,9 +235,11 @@ class IndexPage extends React.Component {
                     <br />
                     Check out the docs and support resources!
                   </p>
-                  <a href="/docs/getting-started/introduction/" className="btn btn__primary-hollow mb-5">
+                  <ButtonStyles>
+                  <a href="/docs/getting-started/introduction/" className="btn primary-hollow mb-5">
                     Explore the Docs
                   </a>
+                  </ButtonStyles>
                 </div>
                 <div className="col-sm-12 col-md-6 col-lg-6 align-self-center">
                   <img
@@ -340,24 +350,24 @@ class IndexPage extends React.Component {
               <div className="sticky-top" style={{ top: '75px', zIndex: '0' }}>
                 <h2 id="upcoming-events">Upcoming Postman Events</h2>
                 <p>
-                  <a 
+                  <LinkStyle 
                     className="link-style" 
                     href="https://www.twitch.tv/getpostman" 
                     target="_blank" 
                     rel="noopener">
                     Follow us
-                  </a>
+                  </LinkStyle>
                   {' '}
                   on Twitch or
                   {' '}
-                  <a
+                  <LinkStyle
                     className="link-style"
                     href="https://www.youtube.com/channel/UCocudCGVb3MmhWQ1aoIgUQw"
                     target="_blank"
                     rel="noopener"
                   >
                     subscribe
-                  </a>
+                  </LinkStyle>
                   {' '}
                   to our YouTube channel so you don’t miss when we go live.
                 </p>

@@ -215,7 +215,7 @@ strong,
 .section {
   padding: 40px 0;
   margin-bottom: 0;
-
+  font-size: 14px;
   @media (min-width: 768px) {
     padding: 80px 0;
   }

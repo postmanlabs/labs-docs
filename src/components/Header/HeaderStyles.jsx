@@ -31,6 +31,7 @@ export const HeaderWrapper = styled.div`
       z-index: 99;
       width: 100%;
     }
+
     &.sticky {
       position: sticky;
       top: 0;
@@ -385,6 +386,7 @@ export const HeaderWrapper = styled.div`
       transition: 0.3s ease-in;
   }
 }
+
 `
 
 export const DropdownStyles = styled.div`

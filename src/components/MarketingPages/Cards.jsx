@@ -1,6 +1,7 @@
 import React from 'react';
 import { OutboundLink } from 'gatsby-plugin-google-analytics';
 import styled from 'styled-components';
+import { LinkStyle } from '../../../styles/Buttons';
 
 const CardWrapper = styled.div`
   margin-bottom: 32px;
@@ -39,11 +40,11 @@ export const LandingCard = ({
     <div className="landing-card__content text-left">
       <h3 className="landing-card__content-title h4">{title}</h3>
       <p className="landing-card__content-description">{description}</p>
-      <a href={link} className="link-style">
+      <LinkStyle href={link} className="link-style">
         {cta}
         {' '}
         →
-      </a>
+      </LinkStyle>
     </div>
   </CardWrapper>
 );
