@@ -31,7 +31,7 @@ You can leverage [scripts](/postman-api-client/grpc-client/writing-scripts/scrip
 2. Select the execution hook (**Before invoke** or **After response**) to which you want to add a test.
 3. Use [snippets](#using-snippets) from the right panel to add a test or [write customized assertions](#writing-your-assertions).
 
-Both the execution hooks are available for all gRPC requests irrespective of the method type being unary, client streaming, server streaming, or bidirectional streaming. Your scripts can include however many tests you need and will save along with the rest of your request when you click **Save**.
+Both the execution hooks are available for all gRPC requests irrespective of the method type being unary, client streaming, server streaming, or bidirectional streaming. Your scripts can include however many tests you need and will save along with the rest of your request when you select **Save**.
 
 ### Using snippets
 
@@ -64,7 +64,7 @@ pm.test("Environment to be production", function () {
 });
 ```
 
-The script editor also has a built-in auto-complete feature for Javascript and pm.* APIs that helps you write your assertions faster and accurately.
+The script editor also has a built-in auto-complete feature for JavaScript and `pm.*` APIs that helps you write your assertions faster and accurately.
 
 <img src="https://assets.postman.com/postman-labs-docs/grpc-docs/writing-scripts/autocompletion-in-grpc-scripts.gif" alt="Autocompletion in gRPC scripts">
 
@@ -93,7 +93,6 @@ If you are having trouble with your tests,
 * Check if there are any errors in your scripts. A red badge will highlight scripts with errors. You can also check the response section for specific errors.
   <img src="https://assets.postman.com/postman-labs-docs/grpc-docs/writing-scripts/debugging-error-in-grpc-scripts.gif" alt="Debugging error in scripts">
 * Debug your tests using the [log statements](https://learning.postman.com/docs/sending-requests/troubleshooting-api-requests/#using-log-statements) to ensure that you are asserting on correct data.
-* Still facing issues? Do not worry, submit a [bug report/feedback](http://localhost:8000/postman-api-client/grpc-client/troubleshooting/#submit-a-bug-reportfeedback) and we will try our best to help you.
 
 ## Next steps
 

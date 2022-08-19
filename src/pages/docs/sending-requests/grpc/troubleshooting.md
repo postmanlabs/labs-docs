@@ -27,7 +27,7 @@ Refer to [using TLS and certificates](/docs/sending-requests/grpc/using-grpc-req
 
 - Check if server reflection is supported by the server.
 - Check the TLS settings of the request.
-- Retry server reflection — **Service definition > Use server reflection > Try again**.
+- Retry server reflection by using **Service definition > Use server reflection > Try again**.
 
 ### Switch to Postman Desktop Agent to connect with a gRPC server
 
@@ -37,8 +37,3 @@ In order to use all of Postman's gRPC features, you must run the Postman Agent o
 
 Learn more about [installing the Postman Agent](https://learning.postman.com/docs/getting-started/installation-and-updates/#installing-the-postman-desktop-agent)
 
-## Submit a bug report/feedback
-
-- [Open an issue on GitHub](https://github.com/postmanlabs/postman-app-support/issues)
-
-- [Submit feedback](https://go.pstmn.io/grpc-feedback)

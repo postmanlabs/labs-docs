@@ -44,7 +44,7 @@ The request section includes the required configurations to connect to the serve
 
 ### Server URL
 
-The server URL is used to define the endpoint where the service is hosted. Being a protocol of its own, a gRPC URL often starts with `grpc://` instead of `http://` or `https://`. While creating a new request, you can also browse through previously used URLs by clicking on the URL field. This helps you in creating the request faster if you’re testing out multiple methods on the same endpoint.
+The server URL is used to define the endpoint where the service is hosted. Being a protocol of its own, a gRPC URL often starts with `grpc://` instead of `http://` or `https://`. While creating a new request, you can also browse through previously used URLs by selecting the URL field. This helps you in creating the request faster if you’re testing out multiple methods on the same endpoint.
 
 ### Method
 
@@ -70,7 +70,7 @@ You can pass additional metadata along with the request in the form of key-value
 
 ### Scripts
 
-Postman contains a powerful scripting environment that allows you to add Javascript code (a.k.a scripts) in your gRPC requests. You can use scripts to write API tests, debug your requests (by logging to [Postman Console](/docs/sending-requests/troubleshooting-api-requests/)), or even dynamically read/update the values of [variables](/docs/sending-requests/variables/).
+Postman contains a powerful scripting environment that allows you to add JavaScript code (scripts) in your gRPC requests. You can use scripts to write API tests, debug your requests (by logging to [Postman Console](/docs/sending-requests/troubleshooting-api-requests/)), or even dynamically read/update the values of [variables](/docs/sending-requests/variables/).
 
 Learn more about [scripting in gRPC request](/docs/sending-requests/grpc/writing-scripts/scripting-in-grpc-request/).
 
@@ -138,7 +138,7 @@ While invoking a streaming method type (client streaming, server streaming or bi
 
 #### Connection status
 
-The connection status shows whether the connection with the server is active, that is if messages are being streamed or not (idle).
+The connection status shows if the connection with the server is active and if messages are being streamed.
 
 #### Message stream
 

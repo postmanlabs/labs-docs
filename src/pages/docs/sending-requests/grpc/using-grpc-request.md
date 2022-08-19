@@ -103,7 +103,7 @@ Unlike HTTP which defines if a call is going to be executed over a secured or un
 
 <img src="https://assets.postman.com/postman-labs-docs/grpc-docs/using-grpc-request/tls-toggle.jpeg" alt="Enabling TLS" width="300px">
 
-You can configure additional client certificates needed for an mTLS connection by clicking on **Configure additional CA and client certificates** in the **Enable TLS** pop-over.
+You can configure additional client certificates needed for an mTLS connection by selecting **Configure additional CA and client certificates** in the **Enable TLS** pop-over.
 
 <img src="https://assets.postman.com/postman-labs-docs/grpc-docs/using-grpc-request/certificates-modal.jpeg" alt="Adding certificates">
 
@@ -123,7 +123,7 @@ gRPC allows four different types of client-server communication patterns that ca
 
 Unary is the traditional request-response communication pattern that you may have seen in HTTP as well. Here the client invokes a request with all the details and the server gives back a single response.
 
-To invoke a unary request, you select the method from the **Method selection dropdown**, add the details and hit **Invoke**. The server processes the sent information and gives back a response.
+To invoke a unary request, you select the method from the **Method selection dropdown**, add the details and select **Invoke**. The server processes the sent information and gives back a response.
 
 <img src="https://assets.postman.com/postman-labs-docs/grpc-docs/using-grpc-request/unary.gif" alt="Invoking a unary method">
 
@@ -131,7 +131,7 @@ To invoke a unary request, you select the method from the **Method selection dro
 
 With the client streaming method type, you send multiple message payloads from the client and the server responds back with a single response.
 
-To invoke a client streaming method, select the method from the **Method selection dropdown**, enter the details and hit **Invoke**. This puts gRPC requests in a persistent ‘Streaming' state where you can send multiple messages and once you’re done, hit **End streaming**. The server then processes all the information passed and gives back a response.
+To invoke a client streaming method, select the method from the **Method selection dropdown**, enter the details and select **Invoke**. This puts gRPC requests in a persistent ‘Streaming' state where you can send multiple messages and once you’re done, select **End streaming**. The server then processes all the information passed and gives back a response.
 
 <img src="https://assets.postman.com/postman-labs-docs/grpc-docs/using-grpc-request/client-streaming.gif" alt="Invoking a client streaming method">
 

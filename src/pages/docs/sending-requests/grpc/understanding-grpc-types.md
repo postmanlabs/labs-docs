@@ -17,7 +17,7 @@ contextual_links:
     url: "https://grpc.io/docs/what-is-grpc/introduction/"
 ---
 
-When sending or receiving a gRPC request or response, the messages being sent back and forth are transmitted in a format called [Protocol Buffers](https://developers.google.com/protocol-buffers) (also called "Protobuf", or simply "proto"). Unlike other data formats such as JSON or XML, which are text-based, Protocol Buffers is a _binary format_. Binary formats are not meant to be read by humans, so Postman provides a **JSON interface** that enables you to easily read and write data when using gRPC.
+When sending or receiving a gRPC request or response, the messages being sent back and forth are transmitted in a format called [Protocol Buffers](https://developers.google.com/protocol-buffers) (also called "protobuf" or simply "proto"). Unlike other data formats such as JSON or XML, which are text-based, Protocol Buffers is a _binary format_. Binary formats aren't meant to be read by humans, so Postman provides a **JSON interface** that enables you to read and write data when using gRPC.
 
 ## JSON interface
 
