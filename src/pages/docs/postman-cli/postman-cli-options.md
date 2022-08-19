@@ -72,7 +72,6 @@ Commands and options for using Postman CLI.
 | `--disable-postman-reporter` | Do not upload data to Postman after linting. |
 | `--exclude-governance-rules` | Ignore governance rules at the time of linting. |
 | `--exclude-security-rules` | Ignore security rules at the time of linting. |
-| **`postman install`** | Install a custom reporter. |
 
 ## Downloading the installation package
 
@@ -222,15 +221,10 @@ Do not upload data to Postman after linting.
 
 #### --exclude-governance-rules
 
-Ignore gobernance rules at the time of linting.
+Ignore governance rules at the time of linting.
 
 #### --exclude-security-rules
 
 Ignore security rules at the time of linting.
 
 ---
-<!--Custom reporters may be de-scoped.-->
-
-## postman install
-
-Install a custom reporter.
