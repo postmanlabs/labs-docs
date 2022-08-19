@@ -222,10 +222,6 @@ export const leftNavItems = [
             url: '/docs/sending-requests/grpc/understanding-grpc-types/',
           },
           {
-            name: 'Collaborating with your teammates',
-            url: '/docs/sending-requests/grpc/collaboration/',
-          },
-          {
             name: 'Troubleshooting',
             url: '/docs/sending-requests/grpc/troubleshooting/',
           },

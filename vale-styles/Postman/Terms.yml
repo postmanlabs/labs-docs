@@ -1,5 +1,5 @@
 extends: substitution
-message: "Prefer '%s' over '%s'."
+message: "Use '%s' instead of '%s'."
 level: warning
 ignorecase: true
 action:
@@ -29,6 +29,8 @@ swap:
   bps: bps
   caap: CaaP
   conversation-as-a-platform: conversation as a platform
+  click: select
+  hit: select
   eb: EB
   gb: GB
   gbps: Gbps

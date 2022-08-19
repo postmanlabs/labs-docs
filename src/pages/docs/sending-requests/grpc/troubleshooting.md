@@ -19,7 +19,7 @@ If you're having a problem using Postman's gRPC client, learn more about common 
 
 The server you are using is unreachable with the current client settings. If you have confirmed the server is working properly, check the TLS settings in the client. By default, TLS is disabled.
 
-Refer to [using TLS and certificates](/postman-api-client/grpc-client/using-grpc-request/#using-tls-and-certificates) for more information
+Refer to [using TLS and certificates](/docs/sending-requests/grpc/using-grpc-request/#using-tls-and-certificates) for more information
 
 ![Downloading Postman Agent](https://assets.postman.com/postman-labs-docs/grpc-docs/troubleshooting/gRPC-TLS.gif)
 

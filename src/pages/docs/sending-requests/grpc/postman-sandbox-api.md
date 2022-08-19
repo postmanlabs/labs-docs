@@ -8,7 +8,7 @@ contextual_links:
     name: "Prerequisites"
   - type: link
     name: "Scripting in gRPC request"
-    url: "/postman-api-client/grpc-client/writing-scripts/writing-tests/#scripting-in-grpc-request"
+    url: "/docs/sending-requests/grpc/writing-tests/#scripting-in-grpc-request"
   - type: link
     name: "Using variables"
     url: "https://learning.postman.com/docs/sending-requests/variables/"
@@ -42,19 +42,19 @@ The `pm.request` object provides access to the request data inside your scripts.
 Following are the properties of the `pm.request` object:
 
 * The request URL:
-  
+
   ><code>pm.request.url: <a href='https://www.postmanlabs.com/postman-collection/Url.html' target='_blank'>Url</a></code>
 
 * The package, service and method name in the format `packageName.serviceName.methodName`:
-  
+
   ><code>pm.request.methodPath: <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#string_type' target='_blank'>string</a></code>
 
 * Authentication details:
-  
+
   ><code>pm.request.auth: <a href='https://www.postmanlabs.com/postman-collection/RequestAuth.html' target='_blank'>Auth</a></code>
 
 * The list of metadata sent with the request:
-  
+
   ><code>pm.request.metadata: <a href='https://www.postmanlabs.com/postman-collection/PropertyList.html' target='_blank'>PropertyList&lt;{ key: string, value: string }&gt;</a></code>
 
   An individual metadata item is an object with properties `key` and `value`.
@@ -66,7 +66,7 @@ Following are the properties of the `pm.request` object:
   An individual message is an object with properties:
     * `data`: the sent message content, and
     * `timestamp`: time at which the message was sent (<a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date' target='_blank'>Date</a>) object).
-  
+
   For requests with unary and server streaming methods, `pm.request.messages` will contain only one message at index 0 which can be accessed as `pm.request.messages.idx(0)`.
 
 > Note: Request mutation is not supported yet via the `pm` object.
@@ -82,19 +82,19 @@ Following are the properties of the `pm.response` object:
   ><code>pm.response.statusCode: <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#number_type' target='_blank'>number</a></code>
 
 * Response time (in milliseconds):
-  
+
   ><code>pm.response.responseTime: <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#number_type' target='_blank'>number</a></code>
 
   For requests with streaming methods, `responseTime` denotes the total duration for that request execution.
 
 * The list of metadata received with the response:
-  
+
   ><code>pm.response.metadata: <a href='https://www.postmanlabs.com/postman-collection/PropertyList.html' target='_blank'>PropertyList&lt;{ key: string, value: string }&gt;</a></code>
 
   An individual metadata item is an object with properties `key` and `value`.
 
 * The list of trailers received with the response:
-  
+
   ><code>pm.response.trailers: <a href='https://www.postmanlabs.com/postman-collection/PropertyList.html' target='_blank'>PropertyList&lt;{ key: string, value: string }&gt;</a></code>
 
   An individual trailer item is an object with properties `key` and `value`.
@@ -115,15 +115,15 @@ The `pm.info` object provides meta information related to the request and the sc
 Following are the properties of the `pm.info` object:
 
 * The name of execution hook. It will be either `preinvoke` or `response` depending if the script is executing in **Pre-invoke** or **Response** hook respectively.
-  
+
   ><code>pm.info.eventName: 'beforeInvoke' | 'afterResponse'</code>
 
 * A unique ID that identifies the current request inside which the script is running:
-  
+
   ><code>pm.info.requestId: <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#string_type' target='_blank'>string</a></code>
 
 * The request name:
-  
+
   ><code>pm.info.requestName: <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#string_type' target='_blank'>string</a></code>
 
 ### Writing assertions
@@ -191,11 +191,11 @@ pm.response.to.have.statusCode(0);
 pm.expect(pm.response.responseTime).to.be.below(200);
 ```
 
-Check out the [examples](/postman-api-client/grpc-client/writing-scripts/test-examples) section for more assertions.
+Check out the [examples](/docs/sending-requests/grpc/test-examples) section for more assertions.
 
 ### Using variables in scripts
 
-Head over to our comprehensive guide [here](https://learning.postman.com/docs/writing-scripts/script-references/postman-sandbox-api-reference/#using-variables-in-scripts) to learn about using variables in scripts.
+Head over to our comprehensive guide [here](/docs/writing-scripts/script-references/postman-sandbox-api-reference/#using-variables-in-scripts) to learn about using variables in scripts.
 
 ## Using external libraries
 

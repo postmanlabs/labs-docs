@@ -8,10 +8,10 @@ contextual_links:
     name: "Prerequisites"
   - type: link
     name: "Writing tests"
-    url: "/postman-api-client/grpc-client/writing-scripts/writing-tests/"
+    url: "/docs/sending-requests/grpc/writing-tests/"
 ---
 
-You can [write tests](/postman-api-client/grpc-client/writing-scripts/writing-tests/) for your gRPC request using [scripts](/postman-api-client/grpc-client/writing-scripts/scripting-in-grpc-request/). Depending on the logic and how you want to get the results, there are various ways in which the test assertions can be structured. This section will cover some of the most common ways to write assertions, along with an extensive list of examples explaining how to use [pm.* APIs](/postman-api-client/grpc-client/writing-scripts/postman-sandbox-api/) to write tests.
+You can [write tests](/docs/sending-requests/grpc/writing-tests/) for your gRPC request using [scripts](/docs/sending-requests/grpc/scripting-in-grpc-request/). Depending on the logic and how you want to get the results, there are various ways in which the test assertions can be structured. This section will cover some of the most common ways to write assertions, along with an extensive list of examples explaining how to use [pm.* APIs](/docs/sending-requests/grpcpostman-sandbox-api/) to write tests.
 
 ## Contents
 
@@ -28,7 +28,7 @@ You can [write tests](/postman-api-client/grpc-client/writing-scripts/writing-te
 
 ## Testing status code
 
- You can use the `statusCode` property available over [pm.response](/postman-api-client/grpc-client/writing-scripts/postman-sandbox-api/#pmresponse) to test the status code of the response.
+ You can use the `statusCode` property available over [pm.response](/docs/sending-requests/grpcpostman-sandbox-api/#pmresponse) to test the status code of the response.
 
 ```javascript
 pm.test('Status code is 0', () => {
@@ -36,7 +36,7 @@ pm.test('Status code is 0', () => {
 });
 ```
 
-You can also assert the same using the [pm.expect](/postman-api-client/grpc-client/writing-scripts/postman-sandbox-api/#pmexpect) method
+You can also assert the same using the [pm.expect](/docs/sending-requests/grpc/postman-sandbox-api/#pmexpect) method
 
 ```javascript
 pm.test('Status code is 0', () => {
@@ -56,7 +56,7 @@ pm.test('Response time is below 200ms', () => {
 
   // or
   pm.response.to.have.responseTime.not.above(200);
-  
+
   // Using pm.expect
   pm.expect(pm.response.responseTime).to.be.below(300);
 });
@@ -88,7 +88,7 @@ pm.test('"content-type" response metadata is "application/grpc"', () => {
 });
 ```
 
-Similar assertions can be written for request metadata using the [pm.request](/postman-api-client/grpc-client/writing-scripts/postman-sandbox-api/#pmrequest) object.
+Similar assertions can be written for request metadata using the [pm.request](/docs/sending-requests/grpc/postman-sandbox-api/#pmrequest) object.
 
 ## Testing response trailers
 
@@ -118,7 +118,7 @@ pm.test('"grpc-status-details-bin" response trailer is "dummy-value"', () => {
 
 In case of multiple response messages (request with the server or bidirectional streaming method), the below tests will check all the messages for the given assertion. While, for a request with unary or client streaming method, where there is only one response message, the assertion will be done on that single message only.
 
-Also, when writing assertions using `pm.response.messages.to.*` , you will be asserting on an array of message content and not the complete message object mentioned [here](/postman-api-client/grpc-client/writing-scripts/postman-sandbox-api/#pmresponse).
+Also, when writing assertions using `pm.response.messages.to.*` , you will be asserting on an array of message content and not the complete message object mentioned [here](/docs/sending-requests/grpc/postman-sandbox-api/#pmresponse).
 
 All the below assertions can done on request message(s) as well using `pm.request` object.
 
@@ -188,7 +188,7 @@ const schema = {
     }
   }
 };
-  
+
 pm.test('All response messages have correct username', () => {
   pm.response.messages.to.have.jsonSchema(schema);
 });

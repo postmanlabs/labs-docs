@@ -6,10 +6,10 @@ contextual_links:
     name: "Prerequisites"
   - type: link
     name: "Invoke your first gRPC request"
-    url: "/postman-api-client/grpc-client/first-grpc-request/"
+    url: "/docs/sending-requests/grpc/first-grpc-request/"
 ---
 
-A gRPC request in Postman let you work with gRPC APIs. It can be used to invoke different services and methods supported by the server. Using Postman, you can pass messages, authorization details, metadata etc. along with the request. When you invoke a request, the server processes this information and returns a response notifying the status of the communication. This response can be used to examine and when required, troubleshoot the gRPC service.
+A gRPC request in Postman lets you work with gRPC APIs. It can be used to invoke different services and methods supported by the server. Using Postman, you can pass messages, authorization details, and metadata along with the request. When you invoke a request, the server processes this information and returns a response notifying the status of the communication. This response can be used to examine and when required, troubleshoot the gRPC service.
 
 ## Contents
 
@@ -31,19 +31,19 @@ A gRPC request in Postman let you work with gRPC APIs. It can be used to invoke 
 
 ## Creating a new request
 
-You can create a new gRPC request by clicking on the **New** button in the left sidebar which brings up the ‘Create new’ modal. Select gRPC request from the list to open a blank **gRPC request** in a new tab.
+Create a new gRPC request by selecting the **New** button in the left sidebar which brings up the ‘Create new’ modal. Select gRPC request from the list to open a blank **gRPC request** in a new tab.
 
 <img src="https://assets.postman.com/postman-labs-docs/grpc-docs/using-grpc-request/new-modal.jpeg" alt="Create new element in Postman">
 
 ## Adding details
 
-Before invoking a request, there are a few things you must account for; all the requests should have a server URL, a service definition and a selected method in order to be invoked. Additionally, based on the API requirements, you may have to pass message payloads, metadata and authorization details along with it. You may also have to configure TLS and additional certificates based on the requirements.
+Requests need a server URL, a service definition and a selected method in order to be invoked. Additionally, based on the API requirements, you may have to pass message payloads, metadata and authorization details along with it. You may also have to configure TLS and additional certificates based on the requirements.
 
 <img src="https://assets.postman.com/postman-labs-docs/grpc-docs/using-grpc-request/request-details.jpeg" alt="Adding details">
 
 ### Adding server URL
 
-The server URL specifies the endpoint where the gRPC services are hosted. You can make calls to this endpoint to test the services. Server URL for gRPC APIs usually start with `grpc://`.
+The server URL specifies the endpoint where the gRPC services are hosted. You can make calls to this endpoint to test the services. Server URLs for gRPC APIs typically start with `grpc://`.
 
 ### Adding service definition
 
@@ -55,51 +55,51 @@ Postman provides you with a bunch of different options to use a service definiti
 
 #### Use server reflection
 
-If enabled by the server, server reflection can be the easiest way to add the service definition to the client. It fetches the latest information available in the schema from the server without you having to manually load a `.proto` file or create a Protobuf schema. You just have to enter the URL and Postman loads the service definition automatically.
+If enabled by the server, server reflection can be the easiest way to add the service definition to the client. It fetches the latest information available in the schema from the server without you having to manually load a `.proto` file or create a protobuf schema. When you enter the URL, Postman loads the service definition automatically.
 
-#### Use a Protobuf API
+#### Use a protobuf API
 
-If server reflection is not enabled by the server, you can import a `.proto` file from your local system or from a URL as a Protobuf API definition into Postman to use it in the request. If the Protobuf API is already available in your workspace, you can just go ahead and select it from the list of available APIs. Otherwise, you can also create a Protobuf API from scratch by using [Postman’s API builder](https://learning.postman.com/docs/designing-and-developing-your-api/the-api-workflow/) by clicking on 'Create a new API'
+If server reflection isn't enabled by the server, you can import a `.proto` file from your local system or from a URL as a ;protobuf API definition into Postman to use it in the request. If the protobuf API is already available in your workspace, you can select it from the list of available APIs. Otherwise, you can also create a protobuf API by using [Postman’s API Builder](/docs/designing-and-developing-your-api/the-api-workflow/) by selecting **Create a new API**.
 
-To learn more about how to use service definition in a request and to understand how you can use each of the options mentioned above, head over to [working with service definitions](/postman-api-client/grpc-client/using-service-definition/).
+To learn more about how to use service definition in a request and to understand how you can use each of the options mentioned above, head over to [working with service definitions](/doc/sending-requests/grpc/using-service-definition/).
 
 ### Selecting a method to invoke
 
-Once you have selected your service definition, you can use the method selection dropdown to browse through the available services and methods. The ‘header’ in the dropdown represents the Service and the ‘list items’ under the service are the Methods that can be invoked. The icon on the left of each method signifies the Method type. We will talk more about the method types in the [invoking different types of methods](#invoking-different-types-of-methods) section below.
+Once you have selected your service definition, you can use the method selection dropdown to browse through the available services and methods. The ‘header’ in the dropdown represents the Service and the ‘list items’ under the service are the Methods that can be invoked. The icon on the left of each method signifies the Method type. Method types are described in detail in the [invoking different types of methods](#invoking-different-types-of-methods) section below.
 
 <img src="https://assets.postman.com/postman-labs-docs/grpc-docs/using-grpc-request/method-selection-dropdown.jpeg" alt="Selecting a method to invoke">
 
 ### Adding a message
 
-You can write messages in JSON to send along with the request. You can add a message inside the **Message** tab under the **URL bar**. Postman also gives you the ability to generate a dummy message using the service definition to make things easier and also to reduce the possibility of an error. Just select the method you want to invoke and click on **Generate example message**. This creates an example message for you and you can just go ahead and replace the dummy data with the actual one.
+You can write messages in JSON to send along with the request. Add a message inside the **Message** tab under the **URL bar**. Postman also gives you the ability to generate a sample message using the service definition to make things easier and also to reduce the possibility of an error. Select the method you want to invoke and select **Generate example message**. You can then replace the sample data with actual data.
 
 <img src="https://assets.postman.com/postman-labs-docs/grpc-docs/using-grpc-request/generate-example-message.gif" alt="Generating example message">
 
 ### Adding auth details
 
-Using Postman, you can add your **Auth credentials** to the request for the server to authorize the communication. Based on the API requirement, you can use different types of Auth that currently include: API Key, Basic Auth, and Bearer Token.
+You can add your **Auth credentials** to the request for the server to authorize the communication. Based on the API requirement, you can use different types of auth, such as API Key, Basic Auth, and Bearer Token.
 
 <img src="https://assets.postman.com/postman-labs-docs/grpc-docs/using-grpc-request/auth-tab.jpeg" alt="Adding authorization details">
 
-Learn more about [authorizing your requests](https://learning.postman.com/docs/sending-requests/authorization/)
+Learn more about [authorizing your requests](/docs/sending-requests/authorization/)
 
 ### Adding metadata
 
-You can add metadata to provide additional information about the execution to the server. Metadata is defined using a bunch of key-value pairs that you can add directly to the **Metadata tab**.
+You can add metadata to provide additional information about the execution to the server. Metadata is defined using key-value pairs that you can add directly to the **Metadata tab**.
 
 <img src="https://assets.postman.com/postman-labs-docs/grpc-docs/using-grpc-request/metadata-tab.jpeg" alt="Adding metadata">
 
 ### Writing scripts
 
-Postman contains a powerful scripting environment that allows you to add Javascript code (a.k.a scripts) in your gRPC requests. You can use scripts to write API tests, debug your requests (by logging to [Postman Console](https://learning.postman.com/docs/sending-requests/troubleshooting-api-requests/)), or even dynamically read/update the values of [variables](http://localhost:8000/postman-api-client/grpc-client/writing-scripts/scripting-in-grpc-request/(https://learning.postman.com/docs/sending-requests/variables/)).
+Postman contains a powerful scripting environment that allows you to add JavaScript code (scripts) in your gRPC requests. You can use scripts to write API tests, debug your requests (by logging to [Postman Console](/docs/sending-requests/troubleshooting-api-requests/), or even dynamically read/update the values of [variables](/docs/sending-requests/variables/).
 
-Learn more about [scripting in gRPC request](/postman-api-client/grpc-client/writing-scripts/scripting-in-grpc-request/).
+Learn more about [scripting in gRPC request](/docs/sending-requests/grpc/scripting-in-grpc-request/).
 
 <img src="https://assets.postman.com/postman-labs-docs/grpc-docs/using-grpc-request/scripts.jpeg" alt="Writing scripts">
 
 ### Using TLS and certificates
 
-Unlike HTTP which defines whether the call is going to be executed over a secured or unsecured connection using the URL structure only (`http://` for unsecured, `https://` for secured), with gRPC, the client needs to configure it manually. Based on the API requirement, you can choose whether to invoke the method over a secured or an unsecured connection using the 'Lock' button before the URL.
+Unlike HTTP which defines if a call is going to be executed over a secured or unsecured connection using the URL structure only (`http://` for unsecured, `https://` for secured), with gRPC, the client needs to configure it manually. Based on the API requirement, you can choose whether to invoke the method over a secured or an unsecured connection using the 'Lock' button before the URL.
 
 <img src="https://assets.postman.com/postman-labs-docs/grpc-docs/using-grpc-request/tls-toggle.jpeg" alt="Enabling TLS" width="300px">
 
@@ -109,7 +109,7 @@ You can configure additional client certificates needed for an mTLS connection b
 
 ## Invoking different types of methods
 
-gRPC allows 4 different types of client-server communication patterns that can be used for different use cases:
+gRPC allows four different types of client-server communication patterns that can be used for different use cases:
 
 * <img alt="Unary method icon" src="https://assets.postman.com/postman-labs-docs/grpc-docs/using-grpc-request/icon-unary.png" width="16px"> Unary
 
@@ -139,7 +139,7 @@ To invoke a client streaming method, select the method from the **Method selecti
 
 With the server streaming method type, when a client invokes a method with all the details, the server can respond back with multiple messages.
 
-To invoke a server streaming method, select the method from the **Method selection dropdown**, enter the details and hit **Invoke**. Soon after that, the request goes into a persistent 'Streaming' state and the responses from the server start appearing at the bottom in the response area. Depending on the use case, the stream closes automatically after the server has streamed all the messages or you can manually end the stream by clicking on **Cancel** next to the **URL bar**.
+To invoke a server streaming method, select the method from the **Method selection dropdown**, enter the details, and select **Invoke**. The request goes into a persistent 'Streaming' state and the responses from the server start appearing at the bottom in the response area. Depending on the use case, the stream closes automatically after the server has streamed all the messages. You can manually end the stream by selecting **Cancel** next to the **URL bar**.
 
 <img src="https://assets.postman.com/postman-labs-docs/grpc-docs/using-grpc-request/server-streaming.gif" alt="Invoking a server streaming method">
 
@@ -147,6 +147,6 @@ To invoke a server streaming method, select the method from the **Method selecti
 
 In the case of bidirectional streaming, the client and the server can communicate with each other asynchronously.
 
-To invoke a bidirectional streaming method, you can select the method from the **Method selection dropdown** and hit **Invoke**. This puts the request in a ‘Streaming' state and you can start sending messages to the server. The server can also respond back freely within the same session. Once you’re done, you can hit **End streaming** which will end the session.
+To invoke a bidirectional streaming method, you can select the method from the **Method selection dropdown** and select **Invoke**. This puts the request in a ‘Streaming' state and you can start sending messages to the server. The server can also respond back freely within the same session. Once you’re done, select **End streaming**, which will end the session.
 
 <img src="https://assets.postman.com/postman-labs-docs/grpc-docs/using-grpc-request/bidirectional-streaming.gif" alt="Invoking a bidirectional streaming method">
