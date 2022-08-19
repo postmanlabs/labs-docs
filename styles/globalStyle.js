@@ -103,7 +103,7 @@ h3,
 
   @media (max-width: 576px) {
     font-size: 24px;
-    letter-spacing: -0.64px;
+    letter-spacing: 0.64px;
     line-height: 1.5;
   }
 }
