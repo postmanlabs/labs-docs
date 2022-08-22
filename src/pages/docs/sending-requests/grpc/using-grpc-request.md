@@ -28,6 +28,7 @@ A gRPC request in Postman lets you work with gRPC APIs. It can be used to invoke
     * [Invoking a client streaming method](#invoking-a-client-streaming-method)
     * [Invoking a server streaming method](#invoking-a-server-streaming-method)
     * [Invoking a bidirectional streaming method](#invoking-a-bidirectional-streaming-method)
+* [Saving requests](#saving-requests)
 
 ## Creating a new request
 
@@ -150,3 +151,22 @@ In the case of bidirectional streaming, the client and the server can communicat
 To invoke a bidirectional streaming method, you can select the method from the **Method selection dropdown** and select **Invoke**. This puts the request in a ‘Streaming' state and you can start sending messages to the server. The server can also respond back freely within the same session. Once you’re done, select **End streaming**, which will end the session.
 
 <img src="https://assets.postman.com/postman-labs-docs/grpc-docs/using-grpc-request/bidirectional-streaming.gif" alt="Invoking a bidirectional streaming method">
+
+## Saving requests
+
+You can save your gRPC requests into a collection. This enables you to reuse requests, share them with other team members, and add documentation or comments to the collection of requests.
+
+To save a request:
+
+1. Select **Save** in the request tab.
+1. In **Save request**, under **Save to**, select a collection, or select **Create collection**. (Note that there are limitations to gRPC requests in collections. Keep reading for more information.)
+1. If you are creating a new collection, enter a name and select **Create**.
+1. Select **Save**.
+
+Postman will display your collection and saved request in **Collections** in the sidebar:
+
+<img alt="Collection sidebar" src="https://assets.postman.com/postman-docs/websocket-collection-v2.jpg" width="400px"/>
+
+Because WebSocket and gRPC requests have different features than HTTP requests, when they're added to a collection, it causes the collection to be in a “beta” state with certain limitations.
+
+When in this state, a collection can only contain WebSocket or gRPC requests. It can't contain HTTP requests. Some features related to collections aren't supported, such as collaboration, version control, or scripting.
