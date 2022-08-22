@@ -221,10 +221,6 @@ export const leftNavItems = [
             name: 'Understanding gRPC types',
             url: '/docs/sending-requests/grpc/understanding-grpc-types/',
           },
-          {
-            name: 'Troubleshooting',
-            url: '/docs/sending-requests/grpc/troubleshooting/',
-          },
         ],
       },
       {

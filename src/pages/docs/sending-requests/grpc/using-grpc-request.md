@@ -29,6 +29,7 @@ A gRPC request in Postman lets you work with gRPC APIs. It can be used to invoke
     * [Invoking a server streaming method](#invoking-a-server-streaming-method)
     * [Invoking a bidirectional streaming method](#invoking-a-bidirectional-streaming-method)
 * [Saving requests](#saving-requests)
+* [Troubleshooting](#troubleshooting)
 
 ## Creating a new request
 
@@ -170,3 +171,27 @@ Postman will display your collection and saved request in **Collections** in the
 Because WebSocket and gRPC requests have different features than HTTP requests, when they're added to a collection, it causes the collection to be in a “beta” state with certain limitations.
 
 When in this state, a collection can only contain WebSocket or gRPC requests. It can't contain HTTP requests. Some features related to collections aren't supported, such as collaboration, version control, or scripting.
+
+## Troubleshooting
+
+If you're having a problem using Postman's gRPC client, learn more about common issues and how to troubleshoot them.
+
+For more troubleshooting information, see [Troubleshooting app issues](/docs/getting-started/troubleshooting-inapp/) and [Troubleshooting requests](/docs/sending-requests/troubleshooting-api-requests/).
+
+### Service unavailable
+
+The server you are using is unreachable with the current client settings. If you have confirmed the server is working properly, check the TLS settings in the client. By default, TLS is disabled.
+
+Refer to [using TLS and certificates](/docs/sending-requests/grpc/using-grpc-request/#using-tls-and-certificates) for more information
+
+### Server reflection failed
+
+* Check if server reflection is supported by the server.
+* Check the TLS settings of the request.
+* Retry server reflection by using **Service definition > Use server reflection > Try again**.
+
+### Switch to Postman Desktop Agent to connect with a gRPC server
+
+In order to use all of Postman's gRPC features, you must run the Postman Agent on your desktop.
+
+Learn more about [installing the Postman Agent](https://learning.postman.com/docs/getting-started/installation-and-updates/#installing-the-postman-desktop-agent)
