@@ -9,7 +9,6 @@ To get started with gRPC, create a request and invoke it using an echo endpoint.
 
 * [About API requests](#about-api-requests)
 * [Creating and invoking a request](#creating-and-invoking-a-request)
-* [What happened?](#what-happened)
 * [Next steps](#next-steps)
 
 ## About API requests
@@ -20,13 +19,13 @@ A gRPC request consists of the server URL where the service is hosted, the metho
 
 gRPC supports four types of methods that allow the client and server to interact in different ways as per the required use case:
 
-- **Unary**: This is the traditional request-response communication pattern also seen in HTTP where the client makes a request and the server responds back with a response.
+- **Unary** - The traditional request-response communication pattern also seen in HTTP where the client makes a request and the server responds back with a response.
 
-- **Client streaming**: With this interaction, the client sends a series of messages to the server and the server responds back after processing them.
+- **Client streaming** - The client sends a series of messages to the server and the server responds back after processing them.
 
-- **Server streaming**: Here, the client needs to make a single request for the server to respond back with a stream of messages.
+- **Server streaming** - The client needs to make a single request for the server to respond back with a stream of messages.
 
-- **Bidirectional streaming**: With bidirectional streaming, the client and server can communicate with each other asynchronously over a persistent session.
+- **Bidirectional streaming** - The client and server can communicate with each other asynchronously over a persistent session.
 
 This example will create and execute a unary request. To learn about invoking the other method types, see [using gRPC requests](/docs/sending-requests/grpc/using-grpc-request/).
 
@@ -36,9 +35,9 @@ This example will create and execute a unary request. To learn about invoking th
 
 1. In Postman, select  __New__ &gt; __gRPC Request__ to open a request in a new tab. (In the Postman desktop app, you can also select **⌘+N** or **Ctrl+N**, then select __gRPC Request__)
 
-1. Enter the URL as: `grpc://grpcb.in:9000`. This is an echo endpoint that allows you to try out various types of services and methods.
+1. Enter the URL as: `grpc://grpcb.in:9000`. This is an echo endpoint that enables you to try out various types of services and methods.
 
-1. Select the **Method selection dropdown** and browse through the supported services and methods. When you enter the URL, Postman automatically loads the service definition using server reflection (if supported by the server). If server reflection isn't supported on the server, you will have to load the service definition manually. Learn more about [working with service definitions](/docs/sending-requests/grpc/using-service-definition/).
+1. Select the **Method selection** dropdown and browse through the supported services and methods. When you enter the URL, Postman automatically loads the service definition using server reflection (if supported by the server). If server reflection isn't supported on the server, you will have to load the service definition manually. Learn more about [working with service definitions](/docs/sending-requests/grpc/using-service-definition/).
 
 1. From the list of methods, scroll down and select **SayHello**. This is a unary method.
 
@@ -46,17 +45,7 @@ This example will create and execute a unary request. To learn about invoking th
 
 1. Replace the sample string data with **Your name** and select **Invoke**.
 
-1. Once the method is invoked, the server processes the information passed and gives back a response.
-
-## What happened?
-
-In this example, Postman is acting as the client application and is communicating with an API server. Here's what happened when you selected **Invoke**:
-
-1. Postman sent all the information you input to the 'gRPC bin server’ located at `grpcb.in:9000`.
-
-1. The server used this information to invoke the `SayHello` method and returned a response.
-
-1. Postman received the response and displayed it in the **Response** pane.
+Once the method is invoked, the server processes the information passed and gives back a response.
 
 ## Next steps
 

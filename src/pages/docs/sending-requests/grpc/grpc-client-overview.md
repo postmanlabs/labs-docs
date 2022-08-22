@@ -31,7 +31,7 @@ You can use the [Postman API Builder](/docs/designing-and-developing-your-api/th
 
 ## Next steps
 
-To get started with gRPC:
+To get started with gRPC, see the following topics:
 
 - [Invoking your first gRPC request](/docs/sending-requests/grpc/first-grpc-request/)
 - [Using gRPC requests](/docs/sending-requests/grpc/using-grpc-request/)
