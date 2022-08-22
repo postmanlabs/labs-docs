@@ -1,9 +1,6 @@
 ---
 title: 'Generating server code'
-order: 81.55
-page_id: 'server_codegen'
-updated: 2021-09-15
-warning: false
+updated: 2022-09-15
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -29,38 +26,41 @@ contextual_links:
     url: "/docs/designing-and-developing-your-api/managing-apis/"
 ---
 
-With server code generation, you can generate server-side boilerplate code from your OpenAPI 3 specification. This enables an API-first development approach, where you can download a running server based on your API specification and use it as a starting point for development of your business logic.
+With server code generation, you can generate server-side boilerplate code from your OpenAPI 3 specification. This enables you to run a server based on your API specification and use it as a starting point for developing your business logic.
 
 Supported languages and frameworks include:
 
-* Go - Chi server
-* NodeJS - express
-* Java - JAX-RS
-* Python - Flask
+* **Go** - Chi server
+* **NodeJS** - express
+* **Java** - JAX-RS
+* **Python** - Flask
 
 ## Generating server code
 
-To generate server side boilerplate from your OpenAPI 3 spec:
+To generate server-side boilerplate from your OpenAPI 3.0 definition:
 
-1. Open the **API** tab.
-1. Select an API containing an OpenAPI 3 specification.
+1. Select **APIs** in the sidebar and select an API with an OpenAPI 3.0 definition.
 1. In the right sidebar, select the code generation icon <img alt="Code snippet icon" src="https://assets.postman.com/postman-docs/icon-code-snippet.jpg#icon" width="16px">.
-   <img alt="Edit API" src="https://assets.postman.com/postman-docs/api-codegen.jpg" width="350px"/>
-1. In the **Code Generation** panel, choose the language and framework for which you want to generate boilerplate and select **Generate Code**.
 
-The generated code will automatically be downloaded as a zip archive. You may need to open the Downloads option of your browser to find the archive. The name of the file includes the name of the API the code is generated from as well as the language and framework selected.
+   <img alt="Edit API" src="https://assets.postman.com/postman-docs/api-codegen.jpg" width="350px"/>
+
+1. In the **Code Generation** pane, select the language and framework for the boilerplate code.
+1. (Optional) Select **Only generate routes and interfaces** to reduce the number of files that are generated. Learn more about [generating only routes and interfaces](#generating-only-routes-and-interfaces).
+1. Select **Generate Code**.
+
+The generated code is automatically downloaded as a ZIP archive. The file name includes the name of the API and the language and framework selected.
 
 ## Using the generated code
 
-The generated code structure will depend on which language you choose. All of the supported languages will cover some of the major features from your OpenAPI 3.0 specification. Here are some features that you can expect from the generated code:
+The generated code structure depends on the language you select. Each of the supported languages covers some of the major features from your OpenAPI 3.0 specification. Here are some features that you can expect from the generated code:
 
-* All operations will be generated as routes in your server boilerplate with a stubbed section of code for each endpoint where you can add your business logic. This stub may include a default response, usually taken from the API definition **Response** section of the associated endpoint.
+* All operations are generated as routes in your server boilerplate with a stubbed section of code for each endpoint where you can add your business logic. This stub may include a default response taken from the API definition **Response** section of the associated endpoint.
 * You can access request bodies, parameters, path parameters, and headers in each of these routes when applicable and use them in your business logic.
-* You can start a server from this generated code. There will be a `README.md` file describing prerequisites and instructions to start the server.
+* You can start a server from the generated code. There is a `README.md` file describing prerequisites and instructions to start the server.
 * Read the framework's relevant documentation for more details on configuring or customizing the generated code.
 
 ## Generating only routes and interfaces
 
-Apart from code generated for configuring the routes and stubs for the implementation of each endpoint, the generated code will also include other files like the `README.md`, a list of dependencies, server setup code, and other items required by the specific framework selected. These generated files will most likely be edited and customized by you after code generation.
+Along with code generated for configuring the routes and stubs for the implementation of each endpoint, the generated code also includes other files like `README.md`, a list of dependencies, server setup code, and other items required by the selected framework. These files are often edited and customized after code generation.
 
-You can select the **Only generate routes and interfaces** option when you download generated code. This will only generate code relevant to the paths and components in the OpenAPI schema and leave out all other files. This will enable you to update only files relevant to new or changed endpoints, and avoid overwriting your customized files with generated boilerplate code.
+You can select the **Only generate routes and interfaces** option when generating code. This will generate code relevant to the paths and components in the OpenAPI schema and leave out other files. This enables you to update files relevant to new or changed endpoints, and avoid overwriting your customized files with generated boilerplate code.

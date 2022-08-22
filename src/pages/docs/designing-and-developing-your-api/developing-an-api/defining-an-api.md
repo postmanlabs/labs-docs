@@ -81,6 +81,8 @@ A multi-file API definition consists of the following components:
 
 > Multi-file API definitions don't support the schema sync integration. Instead, use [API version control](/docs/designing-and-developing-your-api/versioning-an-api/versioning-an-api-overview/) to sync with a repository.
 
+<!-- -->
+
 > You can't manage a multi-file API definition using the Postman API.
 
 ### Editing a multi-file API definition

@@ -1,6 +1,6 @@
 ---
 title: 'Setting an API status'
-updated: 2022-05-09
+updated: 2022-09-15
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -41,10 +41,8 @@ contextual_links:
     url: "/docs/designing-and-developing-your-api/validating-elements-against-schema/"
 ---
 
-> __[GitHub Enterprise Server, GitLab Self-Managed, and Azure DevOps Server (hosted on-premises) integrations are only available on Postman Enterprise plans.](https://www.postman.com/pricing)__
-
-An *API status* is a text tag which you can change to indicate the current stage of the API version within your development cycle. For example, you can select a status such as "In Design," "Security Review," or "In Production." You can set different statuses for each version of an API.
+An *API status* is a text tag which you can change to indicate the current stage of the API within your development cycle. For example, you can select a status such as `In Design`, `Security Review`, or `In Production`.
 
 A status doesn't affect visibility, permissions, or availability of an API. Instead, it's a way to tell others on your team the current state of the API. Statuses aren't automatically changed by any actions or state change in your files. You can change the status at any time.
 
-By default, a new API's status is "In Planning". To set a new status, choose one from the dropdown list on the API's overview page.
+By default, a new API's status is `In Planning`. To set a new status, select **APIs** in the sidebar and select an API. On the API's overview, select a new status from the dropdown list.
