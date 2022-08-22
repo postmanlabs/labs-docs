@@ -19,13 +19,13 @@ A gRPC request consists of the server URL where the service is hosted, the metho
 
 gRPC supports four types of methods that allow the client and server to interact in different ways as per the required use case:
 
-- **Unary** - The traditional request-response communication pattern also seen in HTTP where the client makes a request and the server responds back with a response.
+* **Unary** - The traditional request-response communication pattern also seen in HTTP where the client makes a request and the server responds back with a response.
 
-- **Client streaming** - The client sends a series of messages to the server and the server responds back after processing them.
+* **Client streaming** - The client sends a series of messages to the server and the server responds back after processing them.
 
-- **Server streaming** - The client needs to make a single request for the server to respond back with a stream of messages.
+* **Server streaming** - The client needs to make a single request for the server to respond back with a stream of messages.
 
-- **Bidirectional streaming** - The client and server can communicate with each other asynchronously over a persistent session.
+* **Bidirectional streaming** - The client and server can communicate with each other asynchronously over a persistent session.
 
 This example will create and execute a unary request. To learn about invoking the other method types, see [using gRPC requests](/docs/sending-requests/grpc/using-grpc-request/).
 

@@ -20,10 +20,17 @@ While creating a new request, if the service definition isn't configured, Postma
 
 <img src="https://assets.postman.com/postman-labs-docs/grpc-docs/using-service-definition/method-selection-dropdown.jpeg" alt="Configure service definition from method selection dropdown">
 
-In order to load a service definition to the request, Postman provides you with a couple of ways:
+In order to load a service definition to the request, you can either use server reflection to load the service definition, or use a protobuf API as the service definition.
 
-- Using server reflection to load the service definition
-- Using a protobuf API as the service definition
+## Contents
+
+* [Using server reflection](#using-server-reflection)
+* [Using a protobuf API](#using-a-protobuf-api)
+    * [Selecting an existing protobuf API from the workspace](#selecting-an-existing-protobuf-api-from-the-workspace)
+    * [Importing a .proto file](#importing-a-proto-file)
+    * [Adding import paths](#adding-import-paths)
+    * [Creating a new protobuf API](#creating-a-new-protobuf-api)
+* [Next steps](#next-steps)
 
 ## Using server reflection
 
@@ -59,7 +66,7 @@ To import a `.proto` file:
 
 1. Give your new API a name, add a version name, and select Import as an API.
 
-1. This will create a new protobuf API from the `.proto` file and use it in the request as a service definition.
+This will create a new protobuf API from the `.proto` file and use it in the request as a service definition.
 
 > You can also import the `.proto` file as an update to an existing API. While on the **Import as API** interface, you can select an API from the list of available APIs in the workspace and add the `.proto` file as a new version. You can also replace it with an existing version by selecting an existing version from the list.
 
@@ -71,7 +78,7 @@ Instead of importing a `.proto` file from your local system, you can also fetch 
 
 > Postman supports importing of multi-file schemas. You can import `.proto` files containing `import` directives referring to other files.
 
-#### Adding import paths
+### Adding import paths
 
 Sometimes, gRPC APIs can depend on specific services that are shared by multiple APIs. These common services are defined in a separate schema that's referred to by other APIs through `import` directives. For such a scenario, you can add this common `.proto` file (schema) to the request using the **Import paths option** in the **Import flow** after you select the file to import.
 

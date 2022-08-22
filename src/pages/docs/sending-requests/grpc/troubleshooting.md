@@ -36,4 +36,3 @@ In order to use all of Postman's gRPC features, you must run the Postman Agent o
 ![Downloading Postman Agent](https://assets.postman.com/postman-labs-docs/grpc-docs/troubleshooting/gRPC-Agent-Download.gif)
 
 Learn more about [installing the Postman Agent](https://learning.postman.com/docs/getting-started/installation-and-updates/#installing-the-postman-desktop-agent)
-

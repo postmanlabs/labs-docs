@@ -36,4 +36,3 @@ To get started with gRPC, see the following topics:
 - [Invoking your first gRPC request](/docs/sending-requests/grpc/first-grpc-request/)
 - [Using gRPC requests](/docs/sending-requests/grpc/using-grpc-request/)
 - [Working with service definitions](/docs/sending-requests/grpc/using-service-definition/)
-
