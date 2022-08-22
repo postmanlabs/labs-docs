@@ -93,11 +93,11 @@ To edit a multi-file API definition, select an API in the sidebar to expand it, 
 
 ### Adding files and folders
 
-You can add files and folders to an API definition. In the sidebar, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to **Definition**, then select **Add file** or **Add folder**.
+You can add files and folders to a multi-file API definition. In the sidebar, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to **Definition**, then select **Add file** or **Add folder**.
 
 To add a file to a folder, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to a folder, then select **Add file**. You rearrange files and folders by dragging them in the sidebar. You can also rename or delete a file or folder by selecting the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px">.
 
-> When you add a file to a single-file API definition, it will be converted to a multi-file API definition. The existing definition file will become the root file.
+> When you add a file to a single-file Open API 3.0 definition, it's converted to a multi-file API definition. The existing definition file becomes the root file.
 
 ## Importing an API definition
 

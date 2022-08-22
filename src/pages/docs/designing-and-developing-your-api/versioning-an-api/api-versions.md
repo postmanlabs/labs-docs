@@ -22,6 +22,11 @@ To publish a version, you must connect your API to a [remote or local Git reposi
 
 > **How are versions and releases different in Postman v10?** In Postman v9, versions were major iterations of your API you could work on at the same time. In Postman v10, versions are static representations of your API that consumers can reference (like releases in Postman v9). If you need to work on more than one major iteration of your API in Postman v10, create multiple APIs.
 
+## Contents
+
+* [Publishing a new API version](#publishing-a-new-api-version)
+* [Viewing a published API version](#viewing-a-published-api-version)
+
 ## Publishing a new API version
 
 Publish a new version to share the current state of your API with consumers. You can select the linked elements (collections and environments) to include with your published API.

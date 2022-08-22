@@ -33,6 +33,8 @@ contextual_links:
 
 To start using the API Builder, you can create a new API in your workspace. You can also rename or delete existing APIs.
 
+<!-- Add note: If you want to create a new major iteration of your API with breaking changes, but still plan to maintain the original API, create a new API. -->
+
 ## Creating an API
 
 1. From the sidebar, select __APIs__. You can open and edit any existing APIs from here.

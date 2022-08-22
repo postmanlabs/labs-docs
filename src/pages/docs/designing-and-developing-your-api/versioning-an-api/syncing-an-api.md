@@ -5,8 +5,8 @@ contextual_links:
   - type: section
     name: "Prerequisites"
   - type: link
-    name: "Using a remote Git repository"
-    url: "/docs/designing-and-developing-your-api/the-api-workflow/"
+    name: "API version control overview"
+    url: "/docs/designing-and-developing-your-api/versioning-an-api/
   - type: section
     name: "Additional Resources"
   - type: subtitle

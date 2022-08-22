@@ -1,15 +1,12 @@
 ---
 title: 'API version control overview'
-updated: 2022-05-09
+updated: 2022-09-15
 contextual_links:
   - type: section
     name: "Prerequisites"
   - type: link
-    name: "Using the API Builder"
+    name: "API development overview"
     url: "/docs/designing-and-developing-your-api/the-api-workflow/"
-  - type: link
-    name: "Managing and sharing APIs"
-    url: "/docs/designing-and-developing-your-api/managing-apis/"
   - type: section
     name: "Additional Resources"
   - type: subtitle
@@ -43,59 +40,60 @@ contextual_links:
 
 > __[GitHub Enterprise Server, GitLab Self-Managed, and Azure DevOps Server (hosted on-premises) integrations are only available on Postman Enterprise plans.](https://www.postman.com/pricing)__
 
-You can manage multiple versions of any APIs you create in Postman. You can then associate mocks, monitors, and documentation to specific versions of APIs.
+Postman enables you to use Git-based version control for developing and managing changes to your API. You can connect your API to a remote GitHub, Bitbucket, GitLab, or Azure DevOps repository. The remote repository can be hosted in the cloud or on-premises. You can also connect to a repository on your local file system to enable local development and testing.
 
-> API versioning is different than using version control for collections. For information on how to use version control for collections, see [Using version control](/docs/collaborating-in-postman/version-control-for-collections/).
+Once your API is connected to a repository, you can switch branches, pull changes from the repository, and push changes to the repository, all from within Postman. When you're ready to share your changes with consumers, you can publish a version of your API to the Private API Network.
+
+> API version control with Git is different than using version control for collections in Postman. Learn more about [using version control for collections](/docs/collaborating-in-postman/version-control-for-collections/).
 
 ## Contents
 
-* [Versioning concepts](#versioning-concepts)
+* [API version control workflow](#api-version-control-workflow)
 * [Using an external Git repository](#using-an-external-git-repository)
-* [Working with API versions](#working-with-api-versions)
-* [Working with API releases](#working-with-api-releases)
-* [Setting an API status](#setting-an-api-status)
+* [Using a local Git repository](#using-a-local-git-repository)
+* [Managing changes using Git](#managing-changes-using-git)
+* [Publishing an API version](#publishing-an-api-version)
 
-## Versioning concepts
+## API version control workflow
 
-Each API in Postman has one or more versions, and versions have multiple releases. Each version also has a status.
+Here's a typical workflow for API-first development with a connected repository:
 
-* A _version_ defines a major variant of an API and its associated elements, such as documentation, tests, mock servers, and monitors.
-* A _release_ is a periodic incremental change to a version of an API. The Changelog lists released and unreleased changes, and you can create new releases there. Changes include edits to the API schema or any related elements. Releases can be mapped to Git release tags when you are connected to an external Git repo.
-* A _status_ is a text tag which you can change to indicate the current development stage of the API version.
+1. Create an API in Postman.
+1. Connect the API to a remote repository and optionally to a local repository.
+1. In Postman, select an active branch. Make changes to the API definition and associated collections, then commit and push the changes to the remote repository.
 
-You can create any number of versions in parallel. For example, you can create a new 2.0 version of an API that introduces new breaking changes and work on it internally, but keep adding changes to the 1.0 version that's currently public.
+    > You can also make changes in the Git repository using other tools or editors. For example, developers can follow a Git workflow by working on feature branches, then creating pull requests to merge them into the default branch.
 
-A typical workflow for API-first development:
+1. Periodically pull from the remote repository to bring changes others have made into Postman, and resolve conflicts if there are any issues.
+1. Review changes on your active branch, then merge them into the default branch in the remote repository.
+1. In Postman, publish a new version to make the changes available to your API's consumers.
 
-1. Create an initial version of an API. Set the version's status to indicate it's in progress, such as "Planning" or "In Development."
-1. Make changes to the schema and associated collections.
-1. Review changes in the Changelog. You can set the version's status in Postman to "Code Review" or "Security Review" during this stage.
-1. Go to the Changelog and select **Release changes**. Name the release, add a release note, and create the release. Then change the status to "In Production."
+## Using a remote Git repository
 
-## Using an external Git repository
-
-You can connect a GitHub, Bitbucket, GitLab, GitLab Self-Managed, or Azure DevOps repo to your API, and sync your API specifications and associated collections with the repo. You can continuously make changes synced between Postman and a develop branch in Git.
+You can connect your API to a GitHub, Bitbucket, GitLab, or Azure DevOps repository. Once connected, you can sync your API definition and associated collections in Postman with the remote repository.
 
 Learn more about [using an external Git repository](/docs/designing-and-developing-your-api/versioning-an-api/using-external-git-repo/).
 
-## Working with API versions
+## Using a local Git repository
 
-When you create a new API in Postman, it also creates the initial version you entered during the API creation. You can create new versions from scratch or based on an existing version. Each API version has its own **API version** page, which you can find on the API Overview page or in the sidebar.
+You can use the Postman desktop app to connect an API to a GitHub, Bitbucket, GitLab, or Azure DevOps repository on your local development system. With local Git support, you can use the collections, environments, and other resources on your local system to implement and test your API.
 
-Learn more about [working with API versions](/docs/designing-and-developing-your-api/versioning-an-api/api-versions/).
+Learn more about [using a local Git repository](/docs/designing-and-developing-your-api/versioning-an-api/using-local-git-repo/).
 
-## Working with API releases
+## Managing changes using Git
 
-A _release_ is a periodic incremental change to a version of an API. You regularly create a release to put out changes that have been made to the API. When you are connected to an external Git repo, releases can be mapped to the Git release tags.
+After you've connected your API to a remote or local repository, you can perform common Git actions from within Postman. You can work on multiple branches, and Postman tracks the changes you make to your API definition and associated collections. At any time you can push your changes to the repository, or pull changes into Postman.
 
-Learn more about [working with API releases](/docs/designing-and-developing-your-api/versioning-an-api/api-releases/).
+Learn more about [managing changes using Git](/docs/designing-and-developing-your-api/versioning-an-api/managing-git-changes/).
 
-## Setting an API status
+## Syncing an API
 
-An API status is a text tag which you can change to indicate the current stage of the API version within your development cycle. For example, you can select a status such as "In Design," "Security Review," or "In Production." You can set different statuses for each version of an API.
+When you're connected to a cloud-based repository, changes you make in Postman are automatically synced to the Postman workspace where your API is located. If you're connected to a repository hosted on-premises, you'll need to manually sync your local changes with the Postman workspace.
 
-A status doesn't affect visibility, permissions, or availability of an API. Instead, it's a way to tell others on your team the current state of the API. Statuses aren't automatically changed by any actions or state change in your files. You can change the status at any time.
+Learn more about [syncing an API](/docs/designing-and-developing-your-api/versioning-an-api/syncing-an-api/).
 
-By default, a new API's status is "In Planning". To set a new status, choose one from the dropdown list on the API's overview page.
+## Publishing an API version
 
-Learn more about [setting an API status](/docs/designing-and-developing-your-api/versioning-an-api/api-statuses/).
+When you're ready to share the latest changes to your API with consumers, you can publish a version. Publishing a version creates a static representation of your API that consumers can view on the Private API Network.
+
+Learn more about [publishing an API version](/docs/designing-and-developing-your-api/versioning-an-api/api-versions/).

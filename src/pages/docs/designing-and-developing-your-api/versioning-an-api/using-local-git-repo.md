@@ -5,8 +5,8 @@ contextual_links:
   - type: section
     name: "Prerequisites"
   - type: link
-    name: "API development overview"
-    url: "/docs/designing-and-developing-your-api/the-api-workflow/"
+    name: "API version control overview"
+    url: "/docs/designing-and-developing-your-api/versioning-an-api/
   - type: section
     name: "Additional Resources"
   - type: subtitle
@@ -54,17 +54,15 @@ You can connect an API in the Postman desktop app to a Git repository on your lo
 
 After you disconnect a local repository, you can no longer work with your local files in Postman. The connection to your remote repository isn't affected.
 
-<!-- TO DO: VERIFY STEPS, ADD SCREENSHOT -->
+<!-- TO DO: VERIFY STEPS -->
 
 1. Select **APIs** in the sidebar and select an API.
-1. Under **Connect Repository**, select the branch dropdown menu and select **Delete Local Git**.
+1. Under **Connected Repository**, select the branch dropdown menu and select **Delete Local Git**.
 
 ## Next steps
 
 After you've connected a local repository to your API, you can:
 
-<!-- TO DO: ADD LINKs -->
-
 * Work with branches, push and pull changes, and resolve conflicts. Learn more about [managing changes using Git](/docs/designing-and-developing-your-api/versioning-an-api/managing-git-changes/).
-* Publish an API version to a workspace or the Private API Network. Learn more about publishing an API version.
-* Sync your changes to a Postman workspace. Learn more about syncing your API with Postman.
+* Publish an API version to a workspace or the Private API Network. Learn more about [publishing an API version](/docs/designing-and-developing-your-api/versioning-an-api/api-versions/).
+* Sync your changes to a Postman workspace. Learn more about [syncing your API with Postman](/docs/designing-and-developing-your-api/versioning-an-api/syncing-an-api/).
