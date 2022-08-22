@@ -36,6 +36,9 @@ To configure a GitHub Actions integration:
 1. Select the **Test** tab.
 1. Under **Connect to CI/CD Builds**, select **GitHub**.
 1. You'll be prompted to allow Postman to access your GitHub account. After you grant access, you can close the browser tab and return to Postman.
+
+    > **There's a limit of ten auth tokens per user per application imposed by GitHub.** If you create more than ten connections with the same user, the additional tokens will be revoked in the order that they were created. Teams can use other Postman accounts to create more than ten integrations.
+
 1. Enter a **Nickname** to help you recognize the integration later.
 1. Select the GitHub **Organization** with your API repository.
 1. Select the **Repository** used for your API.
