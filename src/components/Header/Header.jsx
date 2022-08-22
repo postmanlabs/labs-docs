@@ -1,9 +1,9 @@
 import React from 'react';
-import {HeaderWrapper, DropdownStyles, CTAButton, AlgoliaWidgets} from './HeaderStyles.jsx' ;
 import { trackCustomEvent } from 'gatsby-plugin-google-analytics';
 import Dropdown from './Dropdown';
 import $ from 'jquery';
-
+import {HeaderWrapper, DropdownStyles, CTAButton} from './HeaderStyles.jsx' ;
+import { SearchWrapperStyling } from '../Search/searchStyles.jsx';
 // Get Cookie for Sign In toggler
 const getCookie = (a) => {
   if (typeof document !== 'undefined') {
@@ -605,7 +605,7 @@ class Header extends React.Component {
               </li>
             </ul>
             {/* Aloglia Widgets */}
-            <AlgoliaWidgets className="form-inline header__search">
+            <SearchWrapperStyling className="form-inline header__search">
               <svg
                 className="nav-search__icon"
                 width="16"
@@ -622,7 +622,7 @@ class Header extends React.Component {
               </svg>
             
               <Dropdown />
-            </AlgoliaWidgets>
+            </SearchWrapperStyling>
           </div>
         </nav>
         </HeaderWrapper>

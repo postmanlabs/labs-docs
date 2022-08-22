@@ -10,8 +10,9 @@ import {
   Configure,
   Pagination,
 } from 'react-instantsearch-dom';
+import { SearchWrapperStyling } from '../Search/searchStyles.jsx';
+import { CustomHits } from '../Search/SearchPreview.jsx';
 
-import {SearchWrapper, CustomHits } from '../Search/SearchPreview.jsx'
   const searchOnlyKey = process.env.NODE_ENV === 'development' ? '003daeb8de202d4a917c2395628d75a8' : '69f2c5376f1a90912c6c3b6b772c25bc';
   const algoliaIndex = process.env.NODE_ENV === 'development' ? 'dev_docs' : 'docs';
 
@@ -60,7 +61,7 @@ const Dropdown = () => {
   }, [hasInput]);
 
   return (
-    <SearchWrapper className="form-inline header__search">
+    <SearchWrapperStyling className="form-inline header__search">
       <div className="wrapper" ref={ref}>
         <InstantSearch
           searchClient={searchClient}
@@ -110,7 +111,7 @@ const Dropdown = () => {
           </div>
         </InstantSearch>
       </div>
-    </SearchWrapper>
+    </SearchWrapperStyling>
   );
 }
 
