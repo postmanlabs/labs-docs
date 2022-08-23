@@ -108,9 +108,9 @@ export const theme = {
     all: 'all 0.2s ease-in-out'
   },
   borderRadius: {
-    small: '4px',
-    medium: '8px',
-    large: '16px'
+    small: '5px',
+    medium: '10px',
+    large: '20px'
   }
 };
 

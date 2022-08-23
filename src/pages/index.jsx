@@ -11,9 +11,7 @@ import '../../styles/config/normalize.css';
 // import { ButtonStyles } from '../components/MarketingPages/Buttons';
 import '../../styles/config/_pm-icons.css';
 import styled from 'styled-components';
-import { LinkStyle, ButtonStyles } from '../../styles/Buttons';
-
-
+import '../../styles/config/_pm-icons.css';
 
 const EventsWrapper = styled.div`
 .events__alert {
