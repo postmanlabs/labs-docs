@@ -85,17 +85,7 @@ export const theme = {
     content_color_tertiary: `${(props) => props.theme.colors.grey_50}`
   },
 
-  fonts: {
-    // Degular Display lineup (headers)
-    Degular:
-      "'Degular-Display-Semibold', system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica, Arial, sans-serif;",
-    // Inter
-    Inter:
-      "Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', Helvetica, Arial, sans-serif",
-    // PlexMono for <code>
-    PlexMono:
-      "'IBM Plex Mono', Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', Helvetica, Arial, sans-serif"
-  },
+  
   shadows: {
     // mostly used on Cards
     card_shadow: '0 8px 16px -4px rgba(0, 0, 0, 0.08)',

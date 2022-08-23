@@ -9,7 +9,6 @@ const FooterWrapper = styled.footer`
   background-color: ${(props) => props.theme.colors.grey_00};
   font-size: 14px;
   color: ${(props) => props.theme.colors.grey_50};
-  font-family: ${(props) => props.theme.fonts.Inter};
 .copyright {
   font-size: 12px
 }
@@ -17,7 +16,6 @@ const FooterWrapper = styled.footer`
   margin-left: 0px;
 }
 .footer-col-title {
-  font-family: ${(props) => props.theme.fonts.Inter};
   font-size: 16px !important;
   font-weight: 600;
   line-height: 1.4;

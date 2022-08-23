@@ -8,7 +8,7 @@ import upcomingEvents from '../../bff-data/events.json';
 import { LandingCard } from '../components/MarketingPages/Cards';
 import '../../styles/config/normalize.css';
 
-// import { ButtonStyles } from '../components/MarketingPages/Buttons';
+import { ButtonStyles, LinkStyles } from '../../styles/Buttons';
 import '../../styles/config/_pm-icons.css';
 import styled from 'styled-components';
 import '../../styles/config/_pm-icons.css';
@@ -146,7 +146,7 @@ function getEvents(sortedUpcomingEvents) {
           <p>
             You are currently in develop mode. Dynamic events will not be displayed
             locally.
-            <LinkStyle
+            <LinkStyles
               className="link-style"
               style={{ fontSize: 'inherit' }}
               href="https://github.com/postmanlabs/postman-docs/blob/develop/CONTRIBUTING.md"
@@ -154,7 +154,7 @@ function getEvents(sortedUpcomingEvents) {
               rel="noopener"
             >
               See Contributing doc for details
-            </LinkStyle>
+            </LinkStyles>
             .
           </p>
         </EventsWrapper>
@@ -348,24 +348,24 @@ class IndexPage extends React.Component {
               <div className="sticky-top" style={{ top: '75px', zIndex: '0' }}>
                 <h2 id="upcoming-events">Upcoming Postman Events</h2>
                 <p>
-                  <LinkStyle 
+                  <LinkStyles 
                     className="link-style" 
                     href="https://www.twitch.tv/getpostman" 
                     target="_blank" 
                     rel="noopener">
                     Follow us
-                  </LinkStyle>
+                  </LinkStyles>
                   {' '}
                   on Twitch or
                   {' '}
-                  <LinkStyle
+                  <LinkStyles
                     className="link-style"
                     href="https://www.youtube.com/channel/UCocudCGVb3MmhWQ1aoIgUQw"
                     target="_blank"
                     rel="noopener"
                   >
                     subscribe
-                  </LinkStyle>
+                  </LinkStyles>
                   {' '}
                   to our YouTube channel so you don’t miss when we go live.
                 </p>

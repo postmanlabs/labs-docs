@@ -9,7 +9,7 @@ import { leftNavItems } from '../components/LeftNav/LeftNavItems';
 import LeftNav from '../components/LeftNav/LeftNav';
 import SEO from '../components/seo';
 const { v4: uuidv4 } = require('uuid');
-
+import {ButtonStyles} from '../../styles/Buttons'
 import styled from 'styled-components';
 import 'prismjs/themes/prism-tomorrow.css';
 import { useModal } from '../components/modules/Modal';
@@ -18,10 +18,40 @@ import BreadCrumbsLinks from '../components/modules/BreadCrumbsLinks';
 import LoadQualtrics from '../components/modules/loadQualtrics';
 
 const DocWrapper = styled.div`
-  /* Used for Deeplinking */ 
+  /* Used for Deeplinking */   
 h2, h3, h4 {
   scroll-margin-top: 2em;
 }
+a {
+    color: ${(props) => props.theme.colors.blue_60};
+    text-decoration: none;
+    &:hover {
+      text-decoration: none;
+      border-bottom: 1px solid ${(props) => props.theme.colors.blue_60};
+      & img {
+        border: none !important;
+        display: block;
+      }
+
+    }
+
+    &.anchor.before {
+      top: .2em;
+      padding-right: 8px;
+      
+      & svg {
+        width: auto;
+        height: .9em;
+        display: block;
+      }
+    }
+
+    &.anchor:hover {
+        border: none !important;
+        display: block;
+    }
+  
+  }
 .doc-page {
   padding-left: 40px !important;
   padding-top: 40px;
@@ -82,7 +112,7 @@ h2, h3, h4 {
       width: 28px !important;
     }
 
-    list-style-type: '\2726';
+    list-style-type: '✦';
 
     li::marker {
       color: ${(props) => props.theme.colors.orange_30};
@@ -96,39 +126,7 @@ h2, h3, h4 {
     li::marker {
       color: $${(props) => props.theme.colors.grey_70};
     }
-  }
-
-  a {
-    height: 24px;
-    color: ${(props) => props.theme.colors.blue_60};
-    text-decoration: none;
-
-    &:hover {
-      text-decoration: none;
-      border-bottom: 1px solid ${(props) => props.theme.colors.blue_60};
-      & img {
-        border: none !important;
-        display: block;
-      }
-
-    }
-
-    &.anchor.before {
-      top: .2em;
-      padding-right: 8px;
-      
-      & svg {
-        width: auto;
-        height: .9em;
-        display: block;
-      }
-    }
-
-    &.anchor:hover {
-        border: none !important;
-        display: block;
-    }
-  }
+  } 
 
   @media (max-width: 765px) {
     padding-left: 30px !important;
@@ -255,30 +253,30 @@ code[class*="language-"] {
 }
 }
 `
-const EditBtnWrapper = styled.div`
-  .edit-button {
-  padding-top: 40px;
+// const EditBtnWrapper = styled.div`
+// /*  
+//   padding-top: 40px;
 
-  @media (min-width:992px) {
-    padding-top: 0;
-  }
-  svg {
-    overflow: hidden;
-    vertical-align: middle;
-    margin-bottom: 4px;
-  }
-}
+//   /* @media (min-width:992px) {
+//     padding-top: 0;
+//   } */ */
+//   svg {
+//     overflow: hidden;
+//     vertical-align: middle;
+//     margin-bottom: 4px;
+//   }
 
-.btn {
-  border: 1px solid ${(props) => props.theme.colors.grey_40}; 
-  border-radius: ${(props) => props.theme.borderRadius.medium};
-  padding: 8px 16px !important;
-  &:hover {
-    border: 1px solid ${(props) => props.theme.colors.grey_70};
-    background-color: transparent !important;
-  }
-}
-`
+// /* 
+// .btn {
+//   border: 1px solid ${(props) => props.theme.colors.grey_40}; 
+//   border-radius: ${(props) => props.theme.borderRadius.medium};
+//   padding: 8px 16px !important;
+//   &:hover {
+//     border: 1px solid ${(props) => props.theme.colors.grey_70};
+//     background-color: transparent !important;
+//   }
+// } */
+// `
 
 const RightColumnWrapper = styled.aside`
   margin-top: 0px;
@@ -377,9 +375,9 @@ const DocPage = ({ data }) => {
               </main>
               <RightColumnWrapper className="col-sm-12 col-md-12 col-lg-3 offset-lg-0 col-xl-3 offset-xl-1 right-column">
                 <hr className="d-block d-lg-none" />
-                <EditBtnWrapper className="edit-button">
-                  <EditDoc className="btn btn__small btn__secondary-light " />
-                </EditBtnWrapper>
+                <ButtonStyles >
+                  <EditDoc  className="btn primary-hollow h-0"/>
+                </ButtonStyles>
                 <DisplayContextualLinks data={data} />
                 <figure className="sticky posmanaut-dab">
                   <img src="https://voyager.postman.com/illustration/postmanaut-posing-dancing-postman-illustration.svg" alt="Posmanaut dancing. Illustration." className="img-fluid" />

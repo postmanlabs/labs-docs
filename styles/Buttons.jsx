@@ -6,12 +6,11 @@ export const ButtonStyles = styled.div`
 .btn {
   appearance: none; // Corrects inability to style clickable "input" types in iOS.
   border: 1px solid transparent;
-  border-radius: ${(props) => props.theme.borderRadius.small};
+  border-radius: ${(props) => props.theme.borderRadius.medium};
   cursor: pointer;
   display: inline-block;
   vertical-align: middle;
   font-size: 16px;
-  font-family: ${(props) => props.theme.fonts.Inter};
   font-weight: 600 !important;
   line-height: 1.5;
   margin: 0 0 16px 0;
@@ -27,6 +26,7 @@ export const ButtonStyles = styled.div`
     padding: 8px 16px;
     text-align: center;
     white-space: nowrap;
+    font-size: 14px;
     :hover {
       border: 1px solid ${(props) => props.theme.colors.grey_60};
       text-decoration: none !important;
@@ -136,9 +136,9 @@ export const ButtonStyles = styled.div`
   }
 
 `
-export const LinkStyle = styled.a`
+export const LinkStyles = styled.a`
     height: 24px;
-    color: ${(props) => props.theme.colors.blue_60};
+    color: ${(props) => props.theme.colors.blue_60} !important;
     text-decoration: none;
 
     &:hover {

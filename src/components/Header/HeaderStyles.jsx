@@ -54,7 +54,6 @@ export const NavStyles = styled.div`
 
    .navbar-nav .nav-link,
    a {
-     font-family: ${(props) => props.theme.fonts.Inter};
      font-weight: 400;
    } */
 
@@ -86,7 +85,6 @@ export const NavStyles = styled.div`
    /* Second Nav - Learning Center Link */
    & #learning-center-home-link {
      color: ${(props) => props.theme.colors.grey_90} !important;
-     font-family: ${(props) => props.theme.fonts.Inter};
      font-weight: 600;
      font-size: 16px;
      letter-spacing: -0.25px;
@@ -104,7 +102,6 @@ export const NavStyles = styled.div`
      letter-spacing: normal;
      color: ${(props) => props.theme.colors.grey_50} !important;
      font-size: 14px;
-     font-family: ${(props) => props.theme.fonts.Inter};
      font-weight: 600;
      transition: color 0.2s ease-in-out;
      -webkit-transition: color 0.2s ease-in-out;
@@ -122,7 +119,6 @@ export const NavStyles = styled.div`
 
      &:link,
      &:active {
-       font-family: ${(props) => props.theme.fonts.Inter};
        font-weight: 600;
        padding: 6px 6px 6px 16px;
        /* Learning Center Nav Positioning */
@@ -282,7 +278,6 @@ export const NavStyles = styled.div`
    & .property-context-menu {
      & .nav-link:link,
      .nav-link:active {
-       font-family: ${(props) => props.theme.fonts.Inter};
        font-weight: 400 !important;
      }
    }
@@ -374,7 +369,6 @@ export const DropdownStyles = styled.div`
      padding: 16px;
     .dropdown-item {
       padding: 8px 16px;
-      font-family: ${(props) => props.theme.fonts.Inter};
       font-weight: 400;
       font-size: 14px;
 
@@ -387,7 +381,6 @@ export const DropdownStyles = styled.div`
     /* Get Started for Free link */
     &.app-cta {
       color: ${(props) => props.theme.colors.blue_60};
-      font-family: ${(props) => props.theme.fonts.Inter};
       font-weight: 600;
     }
   }
@@ -421,7 +414,6 @@ export const DropdownStyles = styled.div`
   .dropdown-header {
     color: ${(props) => props.theme.colors.grey_50};
     font-size: 16px;
-    font-family: ${(props) => props.theme.fonts.Inter};
     letter-spacing: -0.24px;
     line-height: 1.4;
     font-weight: 600;
@@ -447,7 +439,6 @@ a.button__sign-up {
   cursor: pointer;
   display: inline-flex;
   font-size: 14px;
-  font-family: ${(props) => props.theme.fonts.Inter};
   font-weight: 600;
   line-height: 1.75;
   padding: 4px 12px !important;
@@ -488,7 +479,6 @@ a.button__sign-in {
   cursor: pointer;
   display: inline-flex;
   font-size: 14px !important;
-  font-family: ${(props) => props.theme.fonts.Inter};
   font-weight: 600;
   line-height: 1.75;
   padding: 4px 12px !important;

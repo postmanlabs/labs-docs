@@ -53,7 +53,6 @@ ais-highlight-0000000000 {
 }
 
 .search-title {
-  font-family: ${(props) => props.theme.fonts.Inter};
   font-weight: 600;
 }
 

@@ -9,7 +9,6 @@ const ContextualStyles = styled.div`
     margin-top: 24px;
     margin-bottom: 8px;
     font-size: 16px;
-    font-family: ${(props) => props.theme.fonts.Inter};
     font-weight: 600;
     color: ${(props) => props.theme.colors.grey_80};
   }
@@ -38,7 +37,6 @@ const ContextualStyles = styled.div`
   .contextual-links__subtitle {
     color: ${(props) => props.theme.colors.grey_60};
     font-size: 15px;
-    font-family: ${(props) => props.theme.fonts.Inter};
     font-weight: 600;
     margin-top: 1rem;
     margin-bottom: .7rem;

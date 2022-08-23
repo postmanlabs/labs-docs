@@ -12,7 +12,6 @@ const NavWrapper = styled.div`
   padding: 0px 24px 8px 4px; 
   background-color: ${(props) => props.theme.colors.grey_05};
   font-size: 14px;
-  font-family: ${(props) => props.theme.fonts.Inter};
   :first-child {
     padding: 32px 24px 8px 4px; 
   }
@@ -84,7 +83,6 @@ const ChildItemsWrapper = styled.div`
     color:${(props) => props.theme.colors.grey_50};
 
     &.currentUrl{
-      font-family: ${(props) => props.theme.fonts.Inter};
       font-weight: 600;
 
       > * {
