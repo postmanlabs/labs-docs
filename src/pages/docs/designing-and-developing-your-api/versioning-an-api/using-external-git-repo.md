@@ -85,26 +85,26 @@ To connect a GitHub, Bitbucket, GitLab, or Azure DevOps repository hosted in the
 1. Select an **API schema directory** and **Collection directory** where schemas and collections will be stored in the repository. If you leave these blank, a `postman/schemas` or `postman/collections` directory will be created in the root of the repository. If you select a directory already containing schemas, you will be asked which schema to use in Postman the first time you pull changes.
 1. Select **Connect Repository**.
 
-<!-- TO DO: VERIFY STEPS, ADD SCREENSHOT -->
+<!-- TO DO: ADD SCREENSHOT OF CONNECT REPO DIALOG -->
 
 ### Connecting to an on-premises repository
+
+> Use the [Postman desktop app](/docs/getting-started/installation-and-updates/) to connect to a local Git repository. You can't use the [Postman web app](https://learning.postman.com/docs/getting-started/installation-and-updates/#using-the-postman-web-app).
 
 To connect an GitHub Enterprise Server, GitLab Self-Managed, or Azure DevOps Server repository hosted on-premises:
 
 1. Select **APIs** in the sidebar and select an API.
 1. Select **Connect Repository** and select the type of repository you want to connect to.
-1. On the **Connect your repository** page, enter the **Domain URL** of your repository.
-1. Under **Local File System**, select **Select Folder**. Select the root folder of your local Git repository and select **Open**.
+1. On the **Connect your repository** page, enter the **Domain URL** of your repository. Just enter the base URL for your enterprise server, for example: `https://my-git-server.example.com`
+1. Under **Select local file system**, select the root folder of your local Git repository and select **Open**.
 1. Select an **API schema directory** and **Collection directory** where schemas and collections will be stored in the repository. If you leave these blank, a `postman/schemas` or `postman/collections` directory will be created in the root of the repository. If you select a directory already containing schemas, you will be asked which schema to use in Postman the first time you pull changes.
 1. Select **Connect Repository**.
 
-<!-- TO DO: VERIFY STEPS, ADD SCREENSHOT -->
+<!-- TO DO: ADD SCREENSHOT OF CONNECT REPO DIALOG -->
 
 ## Disconnecting a remote repository
 
 After you disconnect a remote repository, you can no longer sync changes between Postman and the repository.
-
-<!-- TO DO: VERIFY STEPS -->
 
 1. Select **APIs** in the sidebar and select an API.
 1. Under **Connected Repository**, select the branch dropdown menu and select **Delete Integration**.

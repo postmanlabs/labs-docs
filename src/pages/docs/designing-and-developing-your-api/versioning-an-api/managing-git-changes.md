@@ -35,18 +35,20 @@ If you [configured a remote repository](/docs/designing-and-developing-your-api/
 
 ## Working with branches
 
-Git branches help you organize your work and collaborate with others. As an API producer, you always work on a branch. You can switch to any branch in your repository, or you can create a new branch.
+Git branches help you organize your work and collaborate with others. As an API producer, you always work on a branch. <!-- You can switch to any branch in your repository, or you can create a new branch. -->
 
+<!--
 ### Switching branches
-
+-->
 If your Git repository has multiple branches (such as `main`, `develop`, and feature branches) you can switch between branches in Postman. Switching to a branch makes it the active branch.
 
 To switch branches, select the branch dropdown menu next to the API's name in the sidebar, then select the branch you want to make active. After switching to a branch, you can use Postman to make changes to your API's definition, tests, documentation, environments, mocks, and monitors. Any changes you make are stored in the active branch.
 
-<!-- TO DO: VERIFY STEPS, ADD SCREENSHOT -->
+<!-- TO DO: ADD SCREENSHOT OF BRANCH MENU -->
 
 > If you are working in a local branch, you won't be able to run mocks and monitors until you [push your changes](#committing-and-pushing-changes) to the remote repository. After pushing to the remote repository, you'll also be able to view CI integrations and run builds from Postman.
 
+<!--
 ### Creating a new branch
 
 Feature branches enable you to work on changes to your API without affecting the default branch in your repository. When you create a new branch, Postman automatically makes it the active branch.
@@ -54,8 +56,7 @@ Feature branches enable you to work on changes to your API without affecting the
 To create a new branch:
 
 1. Steps...
-
-<!-- TO DO: ADD STEPS, ADD SCREENSHOT -->
+-->
 
 > You can also create a branch when [committing changes](#committing-and-pushing-changes) to a local repository.
 
@@ -67,18 +68,18 @@ As you work on your API, Postman tracks the changes you make to the active branc
 
 ### Committing and pushing changes
 
-If there are uncommitted changes in your active branch, an icon displays next to the branch dropdown menu indicating the number of changes.
+The **Source Control** pane displays the number of changes in the active branch in Postman. To commit and push the changes to the remote repository:
 
-To commit and push the changes to the remote repository:
+1. Select **APIs** in the sidebar and select an API.
+1. Select the source control icon <img alt="Source control icon" src="https://assets.postman.com/postman-docs/icon-source-control.jpg#icon" width="16px"/> in the right sidebar.
+1. If there are unstaged changes, you can stage them by selecting **+** next to a changed file. If you want to review the changes before staging them, select the diff icon <img alt="Diff icon" src="https://assets.postman.com/postman-docs/icon-diff.jpg#icon" width="16px"/>.
 
-1. Select <!-- TO DO: ADD SOURCE CONTROL ICON --> **Source Control** in the right sidebar.
-1. If there are unstaged changes, you can add them by selecting **+** next to a changed file. If you want to review the changes before adding them, select the diff icon <!-- TO DO: ADD DIFF ICON -->.
-1. To commit the staged changes to the active branch, enter a commit message and select **Commit changes**. If you want to commit the changes to a new feature branch instead of the active branch, select **Create a new branch for this commit** and enter a branch name before committing.
-1. The push icon <!-- TO DO: ADD SOURCE CONTROL ICON --> indicates the number of commits your active branch is ahead of the remote branch. Select the push icon to push the changes to the remote repository. If there are changes in the remote repository, you'll be prompted to [pull the changes](#pulling-changes) before pushing.
+    > You can unstage a file by select **-** next to a file.
+
+1. To commit the staged changes to the active branch, enter a commit message and select **Commit**. <!-- If you want to commit the changes to a new feature branch instead of the active branch, select **Create a new branch for this commit** and enter a branch name before committing. -->
+1. The push icon <img alt="Push icon" src="https://assets.postman.com/postman-docs/icon-push.jpg#icon" width="36px"/> indicates the number of commits your active branch is ahead of the remote branch. Select the push icon to push the changes to the remote repository. If there are changes in the remote repository, you'll be prompted to [pull the changes](#pulling-changes) before pushing.
 
     > If you configured a remote repository but haven't configured a local repository, you don't need to stage or commit your files before pushing. Just enter a commit message and select **Commit and Push**.
-
-<!-- TO DO: VALIDATE STEPS, ADD SCREENSHOT -->
 
 After you push a change, other producers on your team can switch to the branch, pull the changes, and view the updates you made.
 
@@ -90,11 +91,10 @@ Pulling brings changes from the remote (origin) branch into your active branch. 
 
 To pull changes from the remote branch:
 
-1. Select the refresh icon <img alt="Refresh icon" src="https://assets.postman.com/postman-docs/icon-refresh-v9-5.jpg#icon" width="14px"> to get the latest changes from the remote branch.
-1. Select <!-- TO DO: ADD SOURCE CONTROL ICON --> **Source Control** in the right sidebar. The pull icon <!-- TO DO: ADD SOURCE CONTROL ICON --> indicates the number of commits your active branch is behind the remote branch.
+1. Select **APIs** in the sidebar and select an API.
+1. Select the refresh icon <img alt="Refresh icon" src="https://assets.postman.com/postman-docs/icon-refresh-v9-5.jpg#icon" width="14px"> under **Connected repository** to get the latest changes from the remote branch.
+1. Select the source control icon <img alt="Source control icon" src="https://assets.postman.com/postman-docs/icon-source-control.jpg#icon" width="16px"/> in the right sidebar. The pull icon <img alt="Pull icon" src="https://assets.postman.com/postman-docs/icon-pull.jpg#icon" width="36px"/> indicates the number of commits your active branch is behind the remote branch.
 1. Select the pull icon to bring the changes into your active branch.
-
-<!-- TO DO: VALIDATE STEPS, ADD SCREENSHOT -->
 
 If there are any conflicts, you'll need to [resolve the conflicts](#resolving-conflicts) before you can finish pulling the changes.
 
@@ -125,4 +125,3 @@ To make your changes available to your API's consumers, use the following workfl
 1. **Sync the changes to your Postman workspace.** For cloud-hosted repositories, updates to the remote default branch are automatically synced to your Postman workspace. For enterprise self-hosted repositories, you must manually sync your local repository to your Postman workspace. Learn more about [syncing your API with Postman](/docs/designing-and-developing-your-api/versioning-an-api/syncing-an-api/).
 
 1. **Publish a new API version.** Once your changes are synced to your Postman workspace, you can publish a new version of your API to make it available to consumers. Learn more about [publishing an API version](/docs/designing-and-developing-your-api/versioning-an-api/api-versions/).
-

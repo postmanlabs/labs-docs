@@ -39,8 +39,6 @@ You can connect an API in the Postman desktop app to a Git repository on your lo
 
 > Use the [Postman desktop app](/docs/getting-started/installation-and-updates/) to connect to a local Git repository. You can't use the [Postman web app](https://learning.postman.com/docs/getting-started/installation-and-updates/#using-the-postman-web-app).
 
-<!-- TO DO: VERIFY STEPS, ADD SCREENSHOT -->
-
 1. If you haven't done so already, [connect your API to a remote repository](/docs/designing-and-developing-your-api/versioning-an-api/using-external-git-repo/). Make sure the remote repository is the origin of the local repository you want to connect to.
 1. Select **APIs** in the sidebar and select an API.
 1. Under **Connect Repository**, select the branch dropdown menu and select **Create Local Git**.
@@ -50,11 +48,11 @@ You can connect an API in the Postman desktop app to a Git repository on your lo
 1. Select the root folder of your local Git repository and select **Open**.
 1. Select **Connect** to link the local repository to your API.
 
+<!-- TO DO: ADD SCREENSHOT OF CONNECT TO REPO DIALOG -->
+
 ## Disconnecting a local repository
 
 After you disconnect a local repository, you can no longer work with your local files in Postman. The connection to your remote repository isn't affected.
-
-<!-- TO DO: VERIFY STEPS -->
 
 1. Select **APIs** in the sidebar and select an API.
 1. Under **Connected Repository**, select the branch dropdown menu and select **Delete Local Git**.
