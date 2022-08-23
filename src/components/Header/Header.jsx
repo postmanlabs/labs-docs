@@ -2,7 +2,7 @@ import React from 'react';
 import { trackCustomEvent } from 'gatsby-plugin-google-analytics';
 import Dropdown from './Dropdown';
 import $ from 'jquery';
-import {HeaderWrapper, DropdownStyles, CTAButton} from './HeaderStyles.jsx' ;
+import {PrimaryNavbarV6, SecondaryNavbarV6, NavStyles, DropdownStyles, CTAButton} from './HeaderStyles.jsx' ;
 import { SearchWrapperStyling } from '../Search/searchStyles.jsx';
 // Get Cookie for Sign In toggler
 const getCookie = (a) => {
@@ -208,8 +208,9 @@ class Header extends React.Component {
       beta, visibleHelloBar, cookie, hidden,
     } = this.state;
     return (
-      <HeaderWrapper>
-        <nav className="navbar-v6 navbar navbar-expand-lg navbar-light bg-light nav-primary">
+      <>
+        <PrimaryNavbarV6 className="navbar-v6 ">
+          <NavStyles className="navbar navbar-expand-lg navbar-light nav-primary">
           <a className="navbar-brand" href="https://www.postman.com">
             <div className="navbar-logo-container">
               <img src="https://voyager.postman.com/logo/postman-logo-icon-orange.svg" alt="Postman" width="32" height="32" />
@@ -248,7 +249,7 @@ class Header extends React.Component {
             className={`collapse navbar-collapse${!visibleHelloBar ? ' noBar' : ''
               }`}
           >
-            <ul className="navbar-nav mr-auto">
+            <ul className="navbar-nav mr-auto ml-0">
               <li className="nav-item dropdown">
                 <a
                   className="nav-link dropdown-toggle"
@@ -537,8 +538,10 @@ class Header extends React.Component {
               />
             </div>
           </div>
-        </nav>
-        <nav className="navbar-v6 navbar navbar-expand-lg navbar-light bg-light nav-secondary blurred-container">
+          </NavStyles>
+        </PrimaryNavbarV6>
+        <SecondaryNavbarV6 className="navbar-v6 sticky ">
+          <NavStyles  className="navbar navbar-expand-lg navbar-light nav-secondary blurred-container">
           <a
             className="navbar-brand"
             href="/docs/getting-started/introduction/"
@@ -624,8 +627,9 @@ class Header extends React.Component {
               <Dropdown />
             </SearchWrapperStyling>
           </div>
-        </nav>
-        </HeaderWrapper>
+          </NavStyles>
+        </SecondaryNavbarV6>
+        </>
     );
   }
 }
