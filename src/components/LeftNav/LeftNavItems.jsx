@@ -448,6 +448,10 @@ export const leftNavItems = [
             name: 'Generating server code',
             url: '/docs/designing-and-developing-your-api/developing-an-api/generating-server-code/',
           },
+          {
+            name: 'Validating APIs',
+            url: '/docs/designing-and-developing-your-api/developing-an-api/validating-elements-against-schema/',
+          },
         ],
       },
       {
@@ -495,10 +499,6 @@ export const leftNavItems = [
       {
         name: 'Managing and sharing APIs',
         url: '/docs/designing-and-developing-your-api/managing-apis/',
-      },
-      {
-        name: 'Validating APIs',
-        url: '/docs/designing-and-developing-your-api/validating-elements-against-schema/',
       },
       {
         name: 'Mocking an API',

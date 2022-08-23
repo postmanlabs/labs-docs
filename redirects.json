@@ -2006,5 +2006,9 @@
 	{
 		"from": "/docs/designing-and-developing-your-api/versioning-an-api/api-releases/",
 		"to": "/docs/designing-and-developing-your-api/versioning-an-api/api-versions/"
+	},
+	{
+		"from": "/docs/designing-and-developing-your-api/validating-elements-against-schema/",
+		"to": "/docs/designing-and-developing-your-api/developing-an-api/validating-elements-against-schema/"
 	}
 ]
