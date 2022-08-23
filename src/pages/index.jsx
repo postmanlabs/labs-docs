@@ -11,6 +11,7 @@ import '../components/MarketingPages/Buttons.scss';
 
 import '../../styles/config/_pm-icons.css';
 import styled from 'styled-components';
+import '../../styles/config/_pm-icons.css';
 
 const EventsWrapper = styled.div`
 .events__alert {

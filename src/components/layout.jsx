@@ -10,7 +10,7 @@ import Header from './Header/Header';
 import Footer from './Footer/Footer';
 import marketo from '../../build/marketo.munchkin';
 import '../../styles/config/normalize.css';
-import GlobalStyle  from '../../styles/GlobalStyle.js';
+import GlobalStyle  from '../../styles/globalStyle.js';
 import Theme from '../../styles/theme.jsx';
 
 const getCookie = (name) => {
