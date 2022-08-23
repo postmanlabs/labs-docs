@@ -81,7 +81,7 @@ Select **Stay signed in for 30 days** if you want to remain signed in after your
 
 If you've set up [two-factor authentication](#setting-up-two-factor-authentication), Postman will prompt you to enter the verification code from your authenticator app and select **Verify**.
 
-> If you've lost access to your device and can't access your authenticator app, select **Use a recovery code**. If you've lost your recovery codes, contact [Postman support](https://support.postman.com/hc/en-us) for help.
+> If you've lost access to your device and can't access your authenticator app, select **Use a recovery code**.  If you've lost your recovery codes, [email Postman support](mailto:help@postman.com) from a registered email address for help.
 
 After you sign in, you will be redirected back to the Postman desktop app.
 
@@ -119,7 +119,7 @@ If you're on an Enterprise plan, you must contact your Team Admins to update the
 
 #### Setting up two-factor authentication
 
-If you don't sign into Postman through SSO or Google authentication, you can set up two-factor authentication for your account:
+If you sign into Postman using a username/email and password, you can set up two-factor authentication for your account:
 
 1. Open your [account settings](https://go.postman.co/settings/me/account/) page by selecting your avatar in the upper-right corner > **Settings** > **Account**.
 1. Select **Enable 2FA**.
@@ -137,7 +137,7 @@ Once you've enabled two-factor authentication, you must provide both your passwo
 
 If you're signed in to Postman and would like to regenerate your recovery codes, open your [account settings](https://go.postman.co/settings/me/account/) and select **Regenerate recovery codes**.
 
-> If you lose access to your device and can't access your authenticator app, select **Use a recovery code** when signing into Postman. If you've lost your recovery codes, contact [Postman support](https://support.postman.com/hc/en-us) for help.
+> If you lose access to your device and can't access your authenticator app, select **Use a recovery code** when signing into Postman. If you've lost your recovery codes, [email Postman support](mailto:help@postman.com) from a registered email address for help.
 
 #### Turning off two-factor authentication
 
