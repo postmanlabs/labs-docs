@@ -49,9 +49,10 @@ Once your API is connected to a repository, you can switch branches, pull change
 ## Contents
 
 * [API version control workflow](#api-version-control-workflow)
-* [Using an external Git repository](#using-an-external-git-repository)
+* [Using a remote Git repository](#using-a-remote-git-repository)
 * [Using a local Git repository](#using-a-local-git-repository)
 * [Managing changes using Git](#managing-changes-using-git)
+* [Syncing an API](#syncing-an-api)
 * [Publishing an API version](#publishing-an-api-version)
 
 ## API version control workflow
@@ -72,7 +73,7 @@ Here's a typical workflow for API-first development with a connected repository:
 
 You can connect your API to a GitHub, Bitbucket, GitLab, or Azure DevOps repository. Once connected, you can sync your API definition and associated collections in Postman with the remote repository.
 
-Learn more about [using an external Git repository](/docs/designing-and-developing-your-api/versioning-an-api/using-external-git-repo/).
+Learn more about [using a remote Git repository](/docs/designing-and-developing-your-api/versioning-an-api/using-external-git-repo/).
 
 ## Using a local Git repository
 

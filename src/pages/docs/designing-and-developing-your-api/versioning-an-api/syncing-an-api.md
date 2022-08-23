@@ -6,7 +6,7 @@ contextual_links:
     name: "Prerequisites"
   - type: link
     name: "API version control overview"
-    url: "/docs/designing-and-developing-your-api/versioning-an-api/
+    url: "/docs/designing-and-developing-your-api/versioning-an-api/versioning-an-api-overview/"
   - type: section
     name: "Additional Resources"
   - type: subtitle
