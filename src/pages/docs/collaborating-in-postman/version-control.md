@@ -190,7 +190,7 @@ To set merge checks for pull requests on a specific collection:
 
 <img alt="Merge Check" src="https://assets.postman.com/postman-docs/manage-roles-set-merge-checks.jpg" width="800px"/>
 
-If the merge conditions for a pull request aren't met, the option to **Merge** it into the parent collection will be active.
+If the merge conditions for a pull request aren't met, the option to **Merge** it into the parent collection will be inactive.
 
 <img alt="Merge option isn't active" src="https://assets.postman.com/postman-docs/view-merge-conditions-v9.12.jpg" width="300px"/>
 
