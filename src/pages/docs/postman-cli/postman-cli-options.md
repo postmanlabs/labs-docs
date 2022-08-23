@@ -91,7 +91,7 @@ Use the URLs below in your script to download the Postman CLI installation packa
 
 ### Example - programmatic download
 
-    curl https://dl-cli.pstmn-beta.io/download/latest/linux/postman-cli.zip -o postman-cli.zip
+    curl https://dl-cli.pstmn.io/download/latest/linux/postman-cli.zip -o postman-cli.zip
 
 ---
 

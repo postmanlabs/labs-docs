@@ -32,7 +32,7 @@ You can install Postman CLI on Linux by manually downloading it, or with a curl 
 
 To install manually:
 
-1. [download](https://www.postman.com/downloads/) the .zip file.
+1. [Download](https://www.postman.com/downloads/) the .zip file.
 
 1. Extract the .zip file.
 
@@ -52,7 +52,7 @@ You can install Postman CLI on Mac by manually downloading it, or with a curl co
 
 To install manually:
 
-1. [download](https://www.postman.com/downloads/) and unzip the app, for example into the `Downloads` directory.
+1. [Download](https://www.postman.com/downloads/) and unzip the app, for example into the `Downloads` directory.
 
 1. Extract the .zip file.
 
@@ -68,7 +68,7 @@ You can install Postman CLI on Windows by manually downloading it, or with a cur
 
 To install manually:
 
-1. [download](https://www.postman.com/downloads/) and unzip the app, for example into the `Downloads` directory.
+1. [Download](https://www.postman.com/downloads/) and unzip the app, for example into the `Downloads` directory.
 
 1. Extract the .zip file.
 
