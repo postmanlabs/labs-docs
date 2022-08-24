@@ -15,8 +15,11 @@ contextual_links:
   - type: subtitle
     name: "Videos"
   - type: link
-    name: "How to Version APIs | Postman"
-    url: "https://youtu.be/LzJEKsccQ70"
+    name: "Postman | How to Connect to Your Git Repository"
+    url: "https://youtu.be/8jJHXLVYOh0"
+  - type: link
+    name: "Integrating GitLab in Postman's API Builder"
+    url: "https://youtu.be/ecAQv9gZEKk"
   - type: subtitle
     name: "Blog Posts"
   - type: link
@@ -80,7 +83,7 @@ To connect a repository, do the following:
 
    > This pop-up window may be hidden by your browser. Make sure to enable pop-ups from this site.
 
-1. On the **Connect your repository page**, enter the information for your repo.
+1. On the **Connect your repository** page, enter the information for your repo.
 1. Enter the Git **Organization** and **Repository** where the API will be stored. (For GitLab, **Organization** refers to a **Group**, and **Repository** refers to a **Project**.)
 
    > Note that you can only connect one Postman API per repo. Multiple APIs require multiple repos.
@@ -120,7 +123,7 @@ If there have been changes on the remote repo, you will be asked to pull changes
 
 If your Git repo has multiple feature branches, you can switch branches in Postman from the development branch to a different feature branch. This enables you to view and make changes when you use a Git workflow where developers work in different feature branches.
 
-To switch to a different branch, select **Switch Branch** the repo dropdown list, then choose a branch from the list. Note that the **Switch Branch** list is only available if your repo has more than one branch, in addition to the main branch.
+To switch to a different branch, select **Switch Branch** from the repo dropdown list, then choose a branch from the list. Note that the **Switch Branch** list is only available if your repo has more than one branch, in addition to the main branch.
 
 When you aren't in the configured develop branch, you can only edit the API schema and collections. Commit and push your changes to the feature branch, then in your Git repo, you can make a pull request, review changes, and merge back to your develop branch.
 

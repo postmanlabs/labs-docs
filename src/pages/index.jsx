@@ -4,12 +4,12 @@ import { OutboundLink } from 'gatsby-plugin-google-analytics';
 import { v4 as uuidv4 } from 'uuid';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
-import '../../styles/config/_pm-icons.css';
 import upcomingEvents from '../../bff-data/events.json';
 import { LandingCard } from '../components/MarketingPages/Cards';
 import '../../styles/config/normalize.css';
 import '../components/MarketingPages/Buttons.scss';
 import './index.scss';
+import '../../styles/config/_pm-icons.css';
 
 const heroBackground = {
   backgroundColor: '#f9f9f9',
