@@ -2,14 +2,14 @@ import React from 'react';
 
 import { leftNavItems } from '../LeftNav/LeftNavItems';
 import styled from 'styled-components';
+import {theme} from '../../../styles/theme';
 // Example: Home / Getting Started /
 // a list of links separated by / to aid in navigation
 const BreadCrumbStyles = styled.nav`
-  .breadcrumb-wrapper {
     & a:link,
     a:visited,
     span {
-        color: $grey_50;
+        color: ${theme.colors.grey_50};
         transition: all 0.2s ease-in-out;
         border-bottom: 1px transparent;
     }
@@ -17,10 +17,10 @@ const BreadCrumbStyles = styled.nav`
     a:active {
         transition: all 0.2s ease-in-out;
         text-decoration: none;
-        color: $blue_60;
+        color: ${theme.colors.blue_60};
         border-bottom: 1px solid;
     }
-}
+
 ol.lc-breadcrumbs {
     margin: 0;
     li {
@@ -68,7 +68,7 @@ class BreadCrumbsLinks extends React.Component {
   render() {
     const { parentLink, subParentLink } = this.state;
     return (
-      <BreadCrumbStyles className="breadcrumb-wrapper mb-3" aria-label="breadcrumbs">
+      <BreadCrumbStyles className=" mb-3" aria-label="breadcrumbs">
         <ol className="lc-breadcrumbs">
           <li>
             <a href="/" className="small breadcrumb-home-link" title="Learning Center">Home</a>

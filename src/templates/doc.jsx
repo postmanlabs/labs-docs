@@ -22,19 +22,12 @@ const DocWrapper = styled.div`
 h2, h3, h4 {
   scroll-margin-top: 2em;
 }
-a {
-    color: ${(props) => props.theme.colors.blue_60};
+a{
+  color: ${(props) => props.theme.colors.blue_60};
+  :hover {
+    border-bottom: 1px solid ${(props) => props.theme.colors.blue_60};
     text-decoration: none;
-    &:hover {
-      text-decoration: none;
-      border-bottom: 1px solid ${(props) => props.theme.colors.blue_60};
-      & img {
-        border: none !important;
-        display: block;
-      }
-
-    }
-
+  }
     &.anchor.before {
       top: .2em;
       padding-right: 8px;
@@ -50,8 +43,7 @@ a {
         border: none !important;
         display: block;
     }
-  
-  }
+}
 .doc-page {
   padding-left: 40px !important;
   padding-top: 40px;
@@ -132,24 +124,7 @@ a {
     padding-left: 30px !important;
     padding-right: 30px !important;
   }
-}
-
-// make left nav full width in mobile view
-.left-nav-re {
-  padding-left: 0px !important;
-  padding-right: 0px !important;
-  background-color: ${(props) => props.theme.colors.grey_05};
-  
-  @media screen and (min-width: 768px) {
-    max-width: 350px;
-  }
-
-  & li {
-    &:hover {
-      cursor: pointer;
-    }
-  }
-}
+} 
 
 /* Blockquotes */
 blockquote {
@@ -176,12 +151,19 @@ thead:first-child:hover tr{
   background-color: ${(props) => props.theme.colors.grey_00};
 }
 
-
+.edit-button-styles {
+  border: 1px solid ${(props) => props.theme.colors.grey_40};
+  border-radius: ${(props) => props.theme.borderRadius.medium};
+  padding: 8px 16px !important;
+  &:hover {
+    border: 1px solid ${(props) => props.theme.colors.grey_70};
+    background-color: transparent !important;
+  }
+}
 /**
 * add syntax highlighting
 */
 :not(pre) > code[class*="language-"] {
-  font-family: $ibm;
   background-color: ${(props) => props.theme.colors.grey_05};
   color: ${(props) => props.theme.colors.grey_90};
   padding: 1px 4px 2px !important;
@@ -252,31 +234,34 @@ code[class*="language-"] {
   justify-content: space-between;
 }
 }
+.left-nav-re {
+  padding: 32px 0px 8px 0px;
+  background-color: ${(props) => props.theme.colors.grey_05};
+  font-size: 14px;
+
+  & ul {
+    margin-left: 0;
+    & ul {
+      margin-left: 32px;
+      margin-top: 8px;
+      & ul {
+        margin-left: 32px;
+        margin-top: 12px;
+      }
+    }
+  }
+  @media screen and (min-width: 768px) {
+    max-width: 350px;
+  }
+
+  & li {
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+}
 `
-// const EditBtnWrapper = styled.div`
-// /*  
-//   padding-top: 40px;
-
-//   /* @media (min-width:992px) {
-//     padding-top: 0;
-//   } */ */
-//   svg {
-//     overflow: hidden;
-//     vertical-align: middle;
-//     margin-bottom: 4px;
-//   }
-
-// /* 
-// .btn {
-//   border: 1px solid ${(props) => props.theme.colors.grey_40}; 
-//   border-radius: ${(props) => props.theme.borderRadius.medium};
-//   padding: 8px 16px !important;
-//   &:hover {
-//     border: 1px solid ${(props) => props.theme.colors.grey_70};
-//     background-color: transparent !important;
-//   }
-// } */
-// `
 
 const RightColumnWrapper = styled.aside`
   margin-top: 0px;
@@ -376,7 +361,7 @@ const DocPage = ({ data }) => {
               <RightColumnWrapper className="col-sm-12 col-md-12 col-lg-3 offset-lg-0 col-xl-3 offset-xl-1 right-column">
                 <hr className="d-block d-lg-none" />
                 <ButtonStyles >
-                  <EditDoc  className="btn primary-hollow h-0"/>
+                  <EditDoc  className="btn primary-hollow edit-button-styles"/>
                 </ButtonStyles>
                 <DisplayContextualLinks data={data} />
                 <figure className="sticky posmanaut-dab">

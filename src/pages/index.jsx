@@ -31,7 +31,7 @@ const EventsWrapper = styled.div`
     margin-bottom: 48px;
 }
 .event-date {
-    font-family: ${(props) => props.theme.fonts.degular};
+    font-family: 'Degular-Display-Semibold', system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica, Arial, sans-serif;
     font-weight: 400;
     font-size: 28px;
     text-transform: uppercase;

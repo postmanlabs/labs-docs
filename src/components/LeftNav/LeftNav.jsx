@@ -8,12 +8,14 @@ const sectionHandler = (e) => {
   document.location.href = e.target.getAttribute('data-section');
 };
 
-const NavWrapper = styled.div`
-  padding: 0px 24px 8px 4px; 
+const NavWrapper = styled.ul`
+  margin-left: 0;
+  padding: 0px 24px 0px 0px; 
   background-color: ${(props) => props.theme.colors.grey_05};
   font-size: 14px;
+  
   :first-child {
-    padding: 32px 24px 8px 4px; 
+    padding: 0px 24px 0px 0px; 
   }
   & ul {
     margin-left: 0;
@@ -71,7 +73,7 @@ const NavWrapper = styled.div`
 
   
 `
-const ChildItemsWrapper = styled.div`
+const ChildItemsWrapper = styled.ul`
       margin-left: 32px;
       margin-top: 8px;
 // Child ---------------
@@ -94,7 +96,9 @@ const ChildItemsWrapper = styled.div`
         border-radius: ${(props) => props.theme.borderRadius.small};
       }
     }
-    
+    a:hover {
+      border: none;
+    }
     a:link, a:visited {
       display: block;
       text-decoration: none;
