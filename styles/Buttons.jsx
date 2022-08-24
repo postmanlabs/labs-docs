@@ -134,6 +134,11 @@ export const ButtonStyles = styled.div`
     // gets rid of weird background bug with our icons. We need to redo these.
     background: 0 0;
   }
+  svg.button-icon--left {
+    margin-bottom: 4px;
+    overflow: hidden;
+    vertical-align: middle;
+  }
 
 `
 export const LinkStyles = styled.a`

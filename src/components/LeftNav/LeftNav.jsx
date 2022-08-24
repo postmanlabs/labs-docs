@@ -91,7 +91,7 @@ const ChildItemsWrapper = styled.ul`
         vertical-align: middle;
       }
       a:link, a:visited {
-        background-color: ${(props) => props.theme.colors.grey_05};
+        background-color: ${(props) => props.theme.colors.grey_10};
         color: ${(props) => props.theme.colors.grey_90};
         border-radius: ${(props) => props.theme.borderRadius.small};
       }
