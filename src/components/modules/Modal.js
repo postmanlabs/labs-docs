@@ -1,5 +1,3 @@
-import { ModalWrapper } from "./ModalStyles";
-
 /* Used on doc.jsx */
 export function useModal(parsedHtml, e) {
   let images = parsedHtml.querySelectorAll('img');
