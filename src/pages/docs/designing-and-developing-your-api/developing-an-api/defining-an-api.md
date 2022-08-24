@@ -37,10 +37,26 @@ You create the structure of your API using the _API definition_. The API definit
 
 ## Contents
 
+* [Generating an API definition](#generating-an-api-definition)
+* [Importing an API definition](#importing-an-api-definition)
 * [Editing an API definition file](#editing-an-api-definition-file)
 * [Working with multi-file API definitions](#working-with-multi-file-api-definitions)
-* [Importing an API definition](#importing-an-api-definition)
-* [Generating an API definition](#generating-an-api-definition)
+
+## Generating an API definition
+
+If your API doesn't have a definition, you can generate an example definition that you can edit.
+
+1. Select **APIs** in the sidebar and select an API.
+1. On the API's overview, under **Definition**, select **Create definition**.
+1. Select the **Using Boilerplate** option, then select a definition type and format.
+
+    > Postman supports OpenAPI (versions 1.0, 2.0, 3.0, and 3.1), RAML (0.8 and 1.0), GraphQL, or WSDL (1.1 and 2.0) definitions. OpenAPI definitions can be in JSON or YAML. RAML definitions must be YAML. GraphQL definitions can be JSON or GraphQL SDL. WSDL definitions must be XML.
+
+1. Select **Create Definition**.
+
+## Importing an API definition
+
+You can import an existing API definition into your API. You can import a single-file definition or a multi-file definition. For more details, see [importing an API](/docs/designing-and-developing-your-api/importing-an-api/).
 
 ## Editing an API definition file
 
@@ -98,16 +114,3 @@ You can add files and folders to a multi-file API definition. In the sidebar, se
 To add a file to a folder, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to a folder, then select **Add file**. You rearrange files and folders by dragging them in the sidebar. You can also rename or delete a file or folder by selecting the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px">.
 
 > When you add a file to a single-file Open API 3.0 definition, it's converted to a multi-file API definition. The existing definition file becomes the root file.
-
-## Importing an API definition
-
-You can import an existing API definition into your API. You can import a single-file definition or a multi-file definition. For more details, see [importing an API](/docs/designing-and-developing-your-api/importing-an-api/).
-
-## Generating an API definition
-
-If your API doesn't have a definition, you can generate an example definition that you can edit.
-
-1. Select **APIs** in the sidebar and select an API.
-1. On the API's overview, under **Definition**, select **Create definition**.
-1. Select the **Using Boilerplate** option, then select a definition type and format.
-1. Select **Create Definition**.
