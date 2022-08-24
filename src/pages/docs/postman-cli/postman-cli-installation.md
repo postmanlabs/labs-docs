@@ -1,5 +1,5 @@
 ---
-title: "Installing Postman CLI"
+title: "Installing the Postman CLI"
 updated: 2022-09-15
 contextual_links:
   - type: section
@@ -16,7 +16,7 @@ contextual_links:
 warning: false
 ---
 
-To download and install Postman CLI, follow the steps below.
+To download and install the Postman CLI, follow the steps below.
 
 1. Download the zip file for your platform from the [download page](https://www.postman.com/downloads/) or from the links below:
 
@@ -24,52 +24,44 @@ To download and install Postman CLI, follow the steps below.
     * [Mac](https://dl-cli.pstmn.io/download/latest/osx_64/postman-cli.zip)
     * [Windows](https://dl-cli.pstmn.io/download/latest/windows/postman-cli.zip)
 
-## Installing Postman on Linux
+## Installing the Postman CLI on Linux
 
-You can install Postman CLI on Linux by manually downloading it, or with a curl command:
+You can install the Postman CLI on Linux by downloading it manually or with curl:
 
     curl https://dl-cli.pstmn.io/download/latest/linux/postman-cli.zip -o postman-cli.zip
 
-To install manually:
+To install manually, run the following commands:
 
 1. [Download](https://www.postman.com/downloads/) the .zip file.
 
-1. Extract the .zip file.
+1. Extract the .zip file to `/usr/local/bin/postman`.
 
-1. Run the executable.
-
-> Postman CLI supports the same distributions as Postman:
+> The Postman CLI supports the same distributions as Postman:
 >
 > * Ubuntu 14.04 and newer
 > * Fedora 24
 > * Debian 8 and newer
 >
-## Installing Postman CLI on Mac
+## Installing the Postman CLI on Mac
 
-You can install Postman CLI on Mac by manually downloading it, or with a curl command:
+You can install the Postman CLI on Mac by downloading it manually or with curl:
 
-    curl https://dl-cli.pstmn.io/download/latest/osx_64/postman-cli.zip -o postman-cli.zip
+    curl https://dl-cli.pstmn-beta.io/download/latest/osx_64/postman-cli.zip -o postman-cli.zip
 
 To install manually:
 
-1. [Download](https://www.postman.com/downloads/) and unzip the app, for example into the `Downloads` directory.
+1. [Download](https://www.postman.com/downloads/) the .zip file.
 
-1. Extract the .zip file.
+1. Extract the .zip file to `/usr/local/bin/postman`.
 
-1. Double-click the Postman CLI file to install it.
+## Installing the Postman CLI on Windows
 
-1. When prompted, move the file to your Applications folder.
-
-## Installing Postman on Windows
-
-You can install Postman CLI on Windows by manually downloading it, or with a curl command:
+You can install the Postman CLI on Windows by downloading it manually or with curl:
 
     curl https://dl-cli.pstmn.io/download/latest/windows/postman-cli.zip -o postman-cli.zip
 
 To install manually:
 
-1. [Download](https://www.postman.com/downloads/) and unzip the app, for example into the `Downloads` directory.
+1. [Download](https://www.postman.com/downloads/) the .zip file.
 
-1. Extract the .zip file.
-
-1. Double-click the `.exe` file to install it.
+1. Extract the .zip file to `\AppData\Local\Postman`.

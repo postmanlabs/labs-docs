@@ -8,7 +8,7 @@ contextual_links:
     name: "Postman CLI overview"
     url: "/docs/postman-cli/postman-cli-overview/"
   - type: link
-    name: "Installing Postman CLI"
+    name: "Installing the Postman CLI"
     url: "/docs/postman-cli/postman-cli-installation/"
 
 warning: false
@@ -17,7 +17,7 @@ tags:
 
 ---
 
-Commands and options for using Postman CLI.
+Commands and options for using the Postman CLI.
 
 ## Contents
 
@@ -34,7 +34,7 @@ Commands and options for using Postman CLI.
 |:--|:--|
 | [**`postman`**](#postman) | The base command, usually used with other commands like `login` or `collection`. |
 | `--help` | Return information about Postman CLI commands and options. |
-| `--version` | Return the version number for Postman CLI.  |
+| `--version` | Return the version number for the Postman CLI.  |
 | [**`postman collection run`**](#postman-collection-run-uuid-or-file-name) | Run a collection with a UUID or a local file. |
 | `--bail` | Stop the runner when a test case fails. |
 | `--color` | Turn off colored output (auto\|on\|off) (default: "auto") |
@@ -111,7 +111,7 @@ Returns information about Postman CLI commands and options.
 
 #### --version, -v
 
-Returns the version number for Postman CLI.
+Returns the version number for the Postman CLI.
 
 ---
 
