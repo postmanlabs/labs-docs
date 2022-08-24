@@ -1,7 +1,7 @@
 import React from 'react';
 import { OutboundLink } from 'gatsby-plugin-google-analytics';
 import styled from 'styled-components';
-import { LinkStyles } from '../../../styles/Buttons';
+import { LinkStyles } from '../../../styles/ButtonStyles';
 
 const CardWrapper = styled.div`
   margin-bottom: 32px;

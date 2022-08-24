@@ -246,7 +246,8 @@ strong,
   margin-bottom: 24px;
 }
 
-
+/*Modal Styles */
+/*Modal is extracted out of DOM and placed under body tag. which means styles need to live in Global Styles*/
 .modal-link {
   cursor: pointer;
 }  

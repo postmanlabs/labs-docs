@@ -6,7 +6,7 @@ export const ButtonStyles = styled.div`
 .btn {
   appearance: none; // Corrects inability to style clickable "input" types in iOS.
   border: 1px solid transparent;
-  border-radius: ${(props) => props.theme.borderRadius.medium};
+  border-radius: ${(props) => props.theme.borderRadius.small};
   cursor: pointer;
   display: inline-block;
   vertical-align: middle;
@@ -26,7 +26,7 @@ export const ButtonStyles = styled.div`
     padding: 8px 16px;
     text-align: center;
     white-space: nowrap;
-    font-size: 14px;
+   
     :hover {
       border: 1px solid ${(props) => props.theme.colors.grey_60};
       text-decoration: none !important;
@@ -35,14 +35,24 @@ export const ButtonStyles = styled.div`
 
     :disabled,
     .isDisabled {
-      color: #666666 !important;
+      color: ${(props) => props.theme.colors.grey_50};
       cursor: not-allowed;
       background-image: none !important;
-      background: #F4F4F4 !important;
+      background: ${(props) => props.theme.colors.grey_20};
       border-color: transparent;
     }
   }
 
+  .edit-button-styles {
+  border: 1px solid ${(props) => props.theme.colors.grey_40};
+  border-radius: ${(props) => props.theme.borderRadius.medium} !important;
+  font-size: 14px;
+  padding: 8px 16px !important;
+  &:hover {
+    border: 1px solid ${(props) => props.theme.colors.grey_70};
+    background-color: transparent !important;
+  }
+}
   // Primary Button
   &.btn__primary {
     color: ${(props) => props.theme.colors.grey_00};
@@ -58,17 +68,17 @@ export const ButtonStyles = styled.div`
 
     &:disabled,
     &.isDisabled {
-      color: #666666 !important;
+      color: ${(props) => props.theme.colors.grey_50};
       cursor: not-allowed;
       background-image: none !important;
-      background: #F4F4F4 !important;
+      background: ${(props) => props.theme.colors.grey_20};
       border-color: transparent;
     }
   }
 
   // Secondary Button (Light)
   &.btn__secondary-light {
-    color: #1C272B;
+    color: ${(props) => props.theme.colors.blue_95};
     background-color: ${(props) => props.theme.colors.grey_00};
     background-image: none;
     border: 1px solid ${(props) => props.theme.colors.grey_00};
@@ -80,27 +90,27 @@ export const ButtonStyles = styled.div`
     &:hover,
     &:active,
     &.selected {
-      border-color: #F4F4F4;
-      color: #1C272B;
-      background-color: #F4F4F4;
+      border-color: ${(props) => props.theme.colors.grey_20};
+      color: ${(props) => props.theme.colors.blue_95};
+      background-color: ${(props) => props.theme.colors.grey_20};
     }
 
     &:focus {
-      border-color: #1C272B;
+      border-color: ${(props) => props.theme.colors.blue_95};
       box-shadow: 0 0 0 0.2em rgba(#1C272B, 0.3);
     }
 
     &:disabled,
     &.isDisabled {
-      background-color: #F4F4F4;
-      border-color: #F4F4F4;
-      color: #666666;
+      background-color:${(props) => props.theme.colors.grey_20};
+      border-color: ${(props) => props.theme.colors.grey_20};
+      color: ${(props) => props.theme.colors.grey_50};
       cursor: not-allowed;
     }
   }
 
   &.btn__small {
-    font-size: 14px;
+  
     padding: 12px 16px;
     text-align: center;
   }

@@ -8,7 +8,7 @@ import upcomingEvents from '../../bff-data/events.json';
 import { LandingCard } from '../components/MarketingPages/Cards';
 import '../../styles/config/normalize.css';
 
-import { ButtonStyles, LinkStyles } from '../../styles/Buttons';
+import { ButtonStyles, LinkStyles } from '../../styles/ButtonStyles';
 import '../../styles/config/_pm-icons.css';
 import styled from 'styled-components';
 import '../../styles/config/_pm-icons.css';

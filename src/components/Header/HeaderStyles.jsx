@@ -70,8 +70,6 @@ export const NavStyles = styled.div`
 
    /* Postman Logo and Home Logo switching */
    & .navbar-brand {
-     /* align-items: center; */
-     /* display: flex; */
      margin-bottom: 0;
      margin-right: 10px !important;
      /* Container */
@@ -420,13 +418,6 @@ export const DropdownStyles = styled.div`
     margin-bottom: 0px;
     padding: 12px;
   }
-  
-
-
-   /* Used for Learning Center Nav */
-  
-  
-
 `
 
 

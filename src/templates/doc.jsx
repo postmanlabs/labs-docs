@@ -9,7 +9,7 @@ import { leftNavItems } from '../components/LeftNav/LeftNavItems';
 import LeftNav from '../components/LeftNav/LeftNav';
 import SEO from '../components/seo';
 const { v4: uuidv4 } = require('uuid');
-import {ButtonStyles} from '../../styles/Buttons'
+import {ButtonStyles} from '../../styles/ButtonStyles'
 import styled from 'styled-components';
 import 'prismjs/themes/prism-tomorrow.css';
 import { useModal } from '../components/modules/Modal';
@@ -151,15 +151,7 @@ thead:first-child:hover tr{
   background-color: ${(props) => props.theme.colors.grey_00};
 }
 
-.edit-button-styles {
-  border: 1px solid ${(props) => props.theme.colors.grey_40};
-  border-radius: ${(props) => props.theme.borderRadius.medium};
-  padding: 8px 16px !important;
-  &:hover {
-    border: 1px solid ${(props) => props.theme.colors.grey_70};
-    background-color: transparent !important;
-  }
-}
+
 /**
 * add syntax highlighting
 */
@@ -361,7 +353,7 @@ const DocPage = ({ data }) => {
               <RightColumnWrapper className="col-sm-12 col-md-12 col-lg-3 offset-lg-0 col-xl-3 offset-xl-1 right-column">
                 <hr className="d-block d-lg-none" />
                 <ButtonStyles >
-                  <EditDoc  className="btn primary-hollow edit-button-styles"/>
+                  <EditDoc  className="btn edit-button-styles primary-hollow "/>
                 </ButtonStyles>
                 <DisplayContextualLinks data={data} />
                 <figure className="sticky posmanaut-dab">
