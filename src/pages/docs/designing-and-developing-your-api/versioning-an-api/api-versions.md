@@ -31,6 +31,10 @@ To publish a version, you must connect your API to a [remote or local Git reposi
 
 Publish a new version to share the current state of your API with consumers. You can select the linked elements (collections and environments) to include with your published API.
 
+> When you publish a version, the API's definition and linked elements (collections and environments) are synced to the Postman cloud.
+
+To publish an API version:
+
 1. Select **APIs** in the sidebar and select an API.
 1. Make sure the branch you want to publish is the active branch. Select the branch dropdown menu next to the API's name in the sidebar, then select the branch you want to make active
 

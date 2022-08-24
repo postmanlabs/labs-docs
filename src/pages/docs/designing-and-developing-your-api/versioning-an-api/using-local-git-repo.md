@@ -63,4 +63,3 @@ After you've connected a local repository to your API, you can:
 
 * Work with branches, push and pull changes, and resolve conflicts. Learn more about [managing changes using Git](/docs/designing-and-developing-your-api/versioning-an-api/managing-git-changes/).
 * Publish an API version to a workspace or the Private API Network. Learn more about [publishing an API version](/docs/designing-and-developing-your-api/versioning-an-api/api-versions/).
-* Sync your changes to a Postman workspace. Learn more about [syncing your API with Postman](/docs/designing-and-developing-your-api/versioning-an-api/syncing-an-api/).

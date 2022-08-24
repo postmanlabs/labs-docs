@@ -418,10 +418,6 @@ export const leftNavItems = [
             url: '/docs/designing-and-developing-your-api/versioning-an-api/managing-git-changes/',
           },
           {
-            name: 'Syncing an API',
-            url: '/docs/designing-and-developing-your-api/versioning-an-api/syncing-an-api/',
-          },
-          {
             name: 'Publishing an API version',
             url: '/docs/designing-and-developing-your-api/versioning-an-api/api-versions/',
           },

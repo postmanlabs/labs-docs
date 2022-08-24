@@ -57,7 +57,7 @@ After connecting, you can push and pull changes between Postman and branches in 
 
 ## Connecting to a repository
 
-You can connect an API in Postman to your remote Git-based repository. This enables you to synchronize changes between the repository and Postman.
+You can connect an API in Postman to your remote Git-based repository. This enables you to sync changes between the repository and Postman.
 
 Keep in mind the following when connecting to a repository:
 
@@ -118,4 +118,3 @@ After you've connected a remote repository to your API, you can:
 * Connect to a Git repository on your local development system. Learn more about [using a local Git repository](/docs/designing-and-developing-your-api/versioning-an-api/using-local-git-repo/).
 * Work with branches, push and pull changes, and resolve conflicts. Learn more about [managing changes using Git](/docs/designing-and-developing-your-api/versioning-an-api/managing-git-changes/).
 * Publish an API version to a workspace or the Private API Network. Learn more about [publishing an API version](/docs/designing-and-developing-your-api/versioning-an-api/api-versions/).
-* Sync your changes to a Postman workspace. Learn more about [syncing your API with Postman](/docs/designing-and-developing-your-api/versioning-an-api/syncing-an-api/).

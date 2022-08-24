@@ -52,7 +52,6 @@ Once your API is connected to a repository, you can switch branches, pull change
 * [Using a remote Git repository](#using-a-remote-git-repository)
 * [Using a local Git repository](#using-a-local-git-repository)
 * [Managing changes using Git](#managing-changes-using-git)
-* [Syncing an API](#syncing-an-api)
 * [Publishing an API version](#publishing-an-api-version)
 
 ## API version control workflow
@@ -86,12 +85,6 @@ Learn more about [using a local Git repository](/docs/designing-and-developing-y
 After you've connected your API to a remote or local repository, you can perform common Git actions from within Postman. You can work on multiple branches, and Postman tracks the changes you make to your API definition and associated collections. At any time you can push your changes to the repository, or pull changes into Postman.
 
 Learn more about [managing changes using Git](/docs/designing-and-developing-your-api/versioning-an-api/managing-git-changes/).
-
-## Syncing an API
-
-When you're connected to a cloud-based repository, changes you make in Postman are automatically synced to the Postman workspace where your API is located. If you're connected to a repository hosted on-premises, you'll need to manually sync your local changes with the Postman workspace.
-
-Learn more about [syncing an API](/docs/designing-and-developing-your-api/versioning-an-api/syncing-an-api/).
 
 ## Publishing an API version
 

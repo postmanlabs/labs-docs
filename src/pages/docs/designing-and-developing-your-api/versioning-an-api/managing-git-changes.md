@@ -15,10 +15,6 @@ contextual_links:
     name: "Better Practices for Git Version Control in Postman"
     url: "https://blog.postman.com/better-practices-for-git-version-control-in-postman/"
   - type: section
-    name: "Next Steps"
-  - type: link
-    name: "Syncing to a Postman workspace"
-    url: "/docs/designing-and-developing-your-api/syncing-an-api/"
 ---
 
 After you connect to a remote or local Git repository, you can use Postman to make changes to your API and collaborate with others. Any changes you make to your API definition, collections, or other linked elements always happen on a branch. You can work on your repository's default branch, or you can create a new feature branch for your changes.
@@ -118,10 +114,4 @@ To resolve a conflict:
 
 Any branches and changes you push to your remote repository are visible to other API producers on your team.
 
-To make your changes available to your API's consumers, use the following workflow:
-
-1. **Push the changes to your remote repository's default branch.** If your changes are on a feature branch, use your team's standard workflow to merge the changes into your remote repository's default branch. For example, you can use your preferred Git client to create a pull request to merge your feature branch into the default branch.
-
-1. **Sync the changes to your Postman workspace.** For cloud-hosted repositories, updates to the remote default branch are automatically synced to your Postman workspace. For enterprise self-hosted repositories, you must manually sync your local repository to your Postman workspace. Learn more about [syncing your API with Postman](/docs/designing-and-developing-your-api/versioning-an-api/syncing-an-api/).
-
-1. **Publish a new API version.** Once your changes are synced to your Postman workspace, you can publish a new version of your API to make it available to consumers. Learn more about [publishing an API version](/docs/designing-and-developing-your-api/versioning-an-api/api-versions/).
+To make your changes available to your API's consumers, publish a new version of your API. Learn more about [publishing an API version](/docs/designing-and-developing-your-api/versioning-an-api/api-versions/).
