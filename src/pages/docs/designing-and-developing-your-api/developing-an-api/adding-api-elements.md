@@ -50,7 +50,7 @@ To add an existing collection to your API:
 
 1. Select **APIs** in the sidebar and select an API.
 1. Next to **Collections** select **+ Add a collection**.
-1. Select an available collection and select **Submit**.
+1. Select an available collection and select **Add Collection**.
 
 The linked collection displays on your API's overview and under your API in the sidebar. To view documentation for the collection, expand the collection and select **View full documentation**.
 
