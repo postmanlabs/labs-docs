@@ -23,21 +23,20 @@ contextual_links:
     url: "/docs/designing-and-developing-your-api/managing-apis/"
 ---
 
-You can use Postman monitors to observe the performance and availability of your APIs. After you link a collection-based monitor, you can view monitor results in the API Builder.
+You can use Postman monitors to observe the performance and availability of your APIs. <!-- After you link a collection-based monitor, you can view monitor results in the API Builder. -->
 
 Monitor integrations enable you to send the results of collection-based monitors to Slack, Splunk, and other channels. You can also view application performance management (APM) metrics from New Relic or Datadog within Postman.
 
 ## Contents
 
-* [Linking collection-based monitors](#linking-collection-based-monitors)
+<!-- * [Linking collection-based monitors](#linking-collection-based-monitors) -->
 * [Connecting to monitor integrations](#connecting-to-monitor-integrations)
 * [Viewing APM metrics](#viewing-apm-metrics)
 
+<!-- COMMENTING OUT AS THIS FEATURE IS NOT INITIALLY AVAILABLE IN V10
 ## Linking collection-based monitors
 
 You can link [collection-based monitors](/docs/monitoring-your-api/setting-up-monitor/) in your current workspace to an API. This enables you to check an API's performance and response times at scheduled intervals. When linking a monitor, you can [create a new monitor](#creating-a-new-monitor) or [add an existing monitor](#adding-an-existing-monitor).
-
-<!-- TO DO: UPDATE SCREENSHOT (JUST CROP TOP OF UI OFF) -->
 
 <img alt="API monitor integrations" src="https://assets.postman.com/postman-docs/api-builder-api-monitor-v9-19.jpg">
 
@@ -74,22 +73,23 @@ To add an existing monitor to your API:
 1. Select a collection-based monitor from the list and select **Add Monitor**. (The list shows monitors available in your current workspace.)
 
 For more about creating a monitor, see [Setting up a collection-based monitor](/docs/monitoring-your-api/setting-up-monitor/).
+-->
 
 ## Connecting to monitor integrations
 
 Postman integrations enable you to send the results of collection-based monitors to a variety of applications and channels, such as Slack, Microsoft Teams, Datadog, or Splunk. You can also send monitor results to a custom webhook to integrate Postman monitors with your specific workflow.
 
-The **Monitoring** view in the API Builder provides one place to manage all your API's integrations for collection-based monitors. You can set up a new integration, track results, and view your configured monitor integrations.
+<!-- The **Monitoring** view in the API Builder provides one place to manage all your API's integrations for collection-based monitors. You can set up a new integration, track results, and view your configured monitor integrations. -->
 
-<!-- TO DO: UPDATE SCREENSHOT (JUST CROP TOP OF UI OFF) -->
+<!-- TO DO: UPDATE SCREENSHOT -->
 
 <img alt="API monitor integrations" src="https://assets.postman.com/postman-docs/observe-api-integrations-v9-19.jpg">
 
 ### Adding a monitor integration
 
-Connect an API to one or more monitoring integrations to send collection-based monitor results to other applications that are part of your API development workflow. When you add a monitor integration, the monitor is automatically [linked to the API](#linking-monitors).
+Connect Postman to one or more monitoring integrations to send collection-based monitor results to other applications that are part of your API development workflow. <!-- When you add a monitor integration, the monitor is automatically [linked to the API](#linking-monitors). -->
 
-1. If you haven't done so already, [create the collection-based monitor](/docs/monitoring-your-api/intro-monitors/) you want to connect to your API.
+1. If you haven't done so already, [create the collection-based monitor](/docs/monitoring-your-api/intro-monitors/) you want to use for monitoring.
 1. Select **APIs** in the sidebar and select an API.
 1. Under **Power up your API**, select **API Performance**.
 1. Under **Connect Postman to your monitoring workflows**, select a monitor integration.
@@ -99,6 +99,7 @@ Connect an API to one or more monitoring integrations to send collection-based m
 
 > You can configure multiple integrations for a collection-based monitor, or even have more than one instance of the same integration. For example, you can configure two Slack integrations for a monitor that send the monitor's results to two different Slack channels.
 
+<!--
 ### Working with monitor integrations
 
 Once you've added a monitor integration to an API, you can take the following actions on the **Monitoring** view:
@@ -115,6 +116,7 @@ Once you've added a monitor integration to an API, you can take the following ac
 
 * Hover over a monitor and select **Run** to immediately run the monitor.
 * Hover over a monitor and select the remove icon <img alt="Remove icon" src="https://assets.postman.com/postman-docs/icon-remove-api-element-v9.jpg#icon" width="16px"> to remove the monitor from the API. (The monitor and its associated integrations aren't deleted.)
+-->
 
 ## Viewing APM metrics
 
