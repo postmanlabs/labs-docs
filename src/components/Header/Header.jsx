@@ -8,7 +8,7 @@ import { SearchWrapperStyling } from '../Search/searchStyles.jsx';
 const getCookie = (a) => {
   if (typeof document !== 'undefined') {
     const b = document.cookie.match(`(^|;)\\s*${a}\\s*=\\s*([^;]+)`);
-    return b ? b.pop() : '';
+    return b ? b.pop() : ''; 
   }
   return false;
 };
@@ -65,6 +65,7 @@ const LoginCheck = (props) => {
   return <></>;
 };
 class Header extends React.Component {
+  
   constructor(props) {
     super(props);
 
@@ -92,7 +93,7 @@ class Header extends React.Component {
     }, waitBeforeShow);
 
     /* Applies styling for sticky nav */
-    $('#secondaryNav').on('click', () => {
+    $('#primaryNav').on('click', () => {
       $('body').toggleClass('menu-open');
       $('.nav-primary').toggleClass('activeMenu');
       $('.nav-secondary').toggleClass('activeMenu');
@@ -140,7 +141,7 @@ class Header extends React.Component {
       // Add lock CSS to body to disable scroll
       body.classList.add('lock');
       // Flip up dropdown icon
-      icon1.classList.add('open');
+      icon1.classList.remove('open');
     }
     // Hellobar
     const messageBarAlertTop = document.getElementById(
@@ -170,7 +171,7 @@ class Header extends React.Component {
       // Remove lock CSS to body to disable scroll
       body.classList.remove('lock');
       // Flip down dropdown icon
-      icon1.classList.remove('open');
+      icon1.classList.add('open');
     }
     const icon2 = document.getElementById('navbar-chevron-icons');
     const togglerSecondary = document
@@ -210,7 +211,7 @@ class Header extends React.Component {
     return (
       <>
         <PrimaryNavbarV6 className="navbar-v6 ">
-          <NavStyles className="navbar navbar-expand-lg navbar-light nav-primary">
+          <NavStyles className="navbar navbar-expand-lg navbar-light nav-primary ">
           <a className="navbar-brand" href="https://www.postman.com">
             <div className="navbar-logo-container">
               <img src="https://voyager.postman.com/logo/postman-logo-icon-orange.svg" alt="Postman" width="32" height="32" />

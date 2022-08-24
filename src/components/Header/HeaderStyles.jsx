@@ -3,7 +3,6 @@ import styled from 'styled-components';
 export const PrimaryNavbarV6 = styled.nav`
     background-color: ${(props) => props.theme.colors.grey_00};
     z-index: 2147483647;
-    /* padding: 6px 16px; */
     border-bottom: 1px solid ${(props) => props.theme.colors.grey_30};
     &.activeMenu {
       background-color: ${(props) => props.theme.colors.grey_00};
@@ -12,7 +11,7 @@ export const PrimaryNavbarV6 = styled.nav`
     }
     .navbar {
       padding: 6px 16px;
-    }
+  }
   `
   export const SecondaryNavbarV6 = styled.nav`
 
@@ -459,6 +458,7 @@ a.button__sign-up {
 
   @media (max-width: 480px) {
     display: block;
+    margin: 8px 16px;
   }
 };
 
