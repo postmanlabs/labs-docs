@@ -194,10 +194,7 @@ Exporting an HTTP API schema makes it available in the connected Amazon API Gate
 1. Select **APIs** in the sidebar and select an API.
 1. Under **Power up your API**, select **Deployments**.
 1. Select **Deploy API**.
-
-    You can also export and deploy your API from the Changelog. Select the changelog icon <img alt="Changelog icon" src="https://assets.postman.com/postman-docs/icon-changelog-v9.jpg#icon" width="18px"> in the right context bar, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to a release, and then select **Deploy Schema**.
-
-1. Select the version, branch, or release to deploy.
+1. Select the branch or version to deploy. <!-- TO DO: UPDATE THIS STEP TO MATCH NEW SCREENSHOT BELOW -->
 1. (Optional) If you would like to deploy the schema to a stage after exporting, select **Deploy on a stage**. Select the AWS stage to deploy the schema to, and enter a brief description.
 
     > To deploy your schema, your gateway must have at least one route with a configured integration.
@@ -206,6 +203,7 @@ Exporting an HTTP API schema makes it available in the connected Amazon API Gate
 
     > If you have a problem exporting or deploying, make sure you've assigned both the PUT and POST permissions [in your IAM policy](#authenticating-with-an-aws-iam-role).
 
+<!-- TO DO: UPDATE SCREENSHOT -->
 <img alt="Deploying an API" src="https://assets.postman.com/postman-docs/deploy-api-schema-on-aws-v9-8.jpg" width="502px"/>
 
 > [API Gateway extensions to Open API](https://docs.aws.amazon.com/apigateway/latest/developerguide/api-gateway-swagger-extensions.html) (vendor extensions) are preserved when pushing and deploying a schema from Postman. Postman merges any extensions present in the API Gateway into the schema before pushing the merged schema to the API Gateway.

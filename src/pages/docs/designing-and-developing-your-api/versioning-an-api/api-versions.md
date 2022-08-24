@@ -31,7 +31,7 @@ To publish a version, you must connect your API to a [remote or local Git reposi
 
 Publish a new version to share the current state of your API with consumers. You can select the linked elements (collections and environments) to include with your published API.
 
-> When you publish a version, the API's definition and linked elements (collections and environments) are synced to the Postman cloud.
+> When you publish a version, the API's definition and linked elements (collections and environments) are synced to the Postman cloud. You can then use the published elements in monitors, mock servers, and CI integrations.
 
 To publish an API version:
 

@@ -437,10 +437,6 @@ export const leftNavItems = [
             url: '/docs/designing-and-developing-your-api/developing-an-api/adding-api-elements/',
           },
           {
-            name: 'Setting an API status',
-            url: '/docs/designing-and-developing-your-api/developing-an-api/api-statuses/',
-          },
-          {
             name: 'Generating server code',
             url: '/docs/designing-and-developing-your-api/developing-an-api/generating-server-code/',
           },

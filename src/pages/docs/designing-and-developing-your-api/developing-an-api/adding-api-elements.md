@@ -73,6 +73,7 @@ To add an environment to your API:
 
 1. Select **Environments** in the sidebar.
 1. In the sidebar, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to an environment and select **Add to API**.
+1. Select the **API** you want to add the environment to, then select **Add environment**.
 
 The linked environment displays under your API in the sidebar. Select the environment to view or add variables. Learn more about [managing environments](/docs/sending-requests/managing-environments/).
 

@@ -33,16 +33,13 @@ If you [configured a remote repository](/docs/designing-and-developing-your-api/
 
 Git branches help you organize your work and collaborate with others. As an API producer, you always work on a branch. <!-- You can switch to any branch in your repository, or you can create a new branch. -->
 
-<!--
 ### Switching branches
--->
+
 If your Git repository has multiple branches (such as `main`, `develop`, and feature branches) you can switch between branches in Postman. Switching to a branch makes it the active branch.
 
-To switch branches, select the branch dropdown menu next to the API's name in the sidebar, then select the branch you want to make active. After switching to a branch, you can use Postman to make changes to your API's definition, tests, documentation, environments, mocks, and monitors. Any changes you make are stored in the active branch.
+To switch branches, select the branch dropdown menu next to the API's name in the sidebar, then select the branch you want to make active. After switching to a branch, you can use Postman to make changes to your API's definition and linked collections and environments. Any changes you make are stored in the active branch.
 
 <!-- TO DO: ADD SCREENSHOT OF BRANCH MENU -->
-
-> If you are working in a local branch, you won't be able to run mocks and monitors until you [push your changes](#committing-and-pushing-changes) to the remote repository. After pushing to the remote repository, you'll also be able to view CI integrations and run builds from Postman.
 
 <!--
 ### Creating a new branch
@@ -52,9 +49,9 @@ Feature branches enable you to work on changes to your API without affecting the
 To create a new branch:
 
 1. Steps...
--->
 
 > You can also create a branch when [committing changes](#committing-and-pushing-changes) to a local repository.
+-->
 
 ## Pushing and pulling changes
 

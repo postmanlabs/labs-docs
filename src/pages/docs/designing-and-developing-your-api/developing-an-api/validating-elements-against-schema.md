@@ -24,7 +24,7 @@ contextual_links:
     url: "/docs/reports/reports-overview/"
 ---
 
-You can validate your API schema in Postman, and validate your elements (documentation, tests, mock servers, and monitors) against your schema. This helps keep your API well-defined and ensures that your elements are in sync with your schema. If there is a validation error on the schema or elements don't match it, Postman will present a list of issues that have been found, as well as fixes for these issues. You can then apply fixes to the API elements and revalidate them.
+You can validate your API schema in Postman, and validate your elements (collections and tests) against your schema. This helps keep your API well-defined and ensures that your elements are in sync with your schema. If there is a validation error on the schema or elements don't match it, Postman will present a list of issues that have been found, as well as fixes for these issues. You can then apply fixes to the API elements and revalidate them.
 
 ## Contents
 
@@ -56,15 +56,12 @@ If there are no errors, Postman will indicate in the lower pane that your schema
 
 > Element validation is available for OpenAPI 3.0 and WSDL 1.1 and 2.0 schemas.
 
-You can compare your API schemas against documentation, mock servers, tests, and monitors associated with it to determine if the elements need changes to stay in sync. For example, if you add a new method to your API schema, validation will indicate you need to add the method to your associated documentation. Or when you add a new element to an API, you can run a validation to check the element against the current API schema for issues.
+You can compare your API schemas against documentation collections and tests  associated with it to determine if the elements need changes to stay in sync. For example, if you add a new method to your API schema, validation will indicate you need to add the method to your associated documentation. Or when you add a new element to an API, you can run a validation to check the element against the current API schema for issues.
 
 Each element has a **Validate** column next to it. Open your API from the sidebar and locate the element:
 
-<!-- CHECK LOCATION OF VALIDATE BUTTON FOR DOCUMENTATION AND MOCK SERVERS, NOT CURRENTLY SEEING IN BETA -->
-
-* Documentation and mock servers are on the API **Overview**.
+* Documentation collections are on the API **Overview**.
 * To view tests, select **Test and Automation** (under **Power up your API**).
-* To view monitors, select **API Performance** (under **Power up your API**).
 
 To validate a new element, select **Validate** in the validate column next to the element. To re-validate an element, select the status, then select **Validate Again**.
 
@@ -90,11 +87,8 @@ If an issue arises when you run a request, select the warning message next to th
 
 If your issue relates to another element, open your API from the sidebar and locate the element:
 
-<!-- CHECK LOCATION OF VALIDATE BUTTON FOR DOCUMENTATION AND MOCK SERVERS, NOT CURRENTLY SEEING IN BETA -->
-
-* Documentation and mock servers are on the API **Overview**.
+* Documentation and collections are on the API **Overview**.
 * To view tests, select **Test and Automation** (under **Power up your API**).
-* To view monitors, select **API Performance** (under **Power up your API**).
 
 If Postman finds any issues during validation, view them by selecting **Issues found** > **View issues**. This will take you to a page summarizing validation issues.
 

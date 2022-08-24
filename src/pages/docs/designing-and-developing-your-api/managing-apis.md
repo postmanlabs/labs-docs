@@ -59,7 +59,7 @@ You can move APIs to personal, private, team, and public workspaces that you hav
 
 > Refer to [Roles and permissions](/docs/collaborating-in-postman/roles-and-permissions/) for information on workspace access control within your team.
 
-Select the workspace, then **Move** **API**. Collections, documentation, monitors, mock servers, and environments of the API will automatically move with the API to the new workspace.
+Select the workspace, then select **Move API**. Collections and environments linked to the API will automatically move with the API to the new workspace.
 
 <img alt="Move API" src="https://assets.postman.com/postman-docs/move-api-v9.1.jpg" width="400px"/>
 
@@ -68,10 +68,11 @@ Select the workspace, then **Move** **API**. Collections, documentation, monitor
 You can discuss your APIs with collaborators in Postman, keeping the conversation in context and available to other stakeholders. Anyone with access to the API can comment.
 
 To leave a comment on an API, select __APIs__ in the sidebar, then select the API you want to comment on. Switch to comment mode, enter your comment, and **Add comment** to publish it.
+You can leave inline comments on the API schema by highlighting what you want to comment on.
+
+> You can't add comments to APIs with [multi-file API definitions](/docs/designing-and-developing-your-api/developing-an-api/defining-an-api/#working-with-multi-file-api-definitions).
 
 [![API comment app](https://assets.postman.com/postman-docs/api-builder-add-comment-v9.jpg)](https://assets.postman.com/postman-docs/api-builder-add-comment-v9.jpg)
-
-> You can leave inline comments on the API schema by highlighting what you want to comment on.
 
 ### Formatting comments
 
