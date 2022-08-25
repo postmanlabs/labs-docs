@@ -52,7 +52,7 @@ If your API doesn't have a definition, you can generate an example definition th
 
 <!-- TO DO: ADD SCREENSHOT -->
 
-    > Postman supports OpenAPI (versions 1.0, 2.0, 3.0, and 3.1), RAML (0.8 and 1.0), GraphQL, or WSDL (1.1 and 2.0) definitions. OpenAPI definitions can be in JSON or YAML. RAML definitions must be YAML. GraphQL definitions can be JSON or GraphQL SDL. WSDL definitions must be XML.
+    > Postman supports OpenAPI (versions 1.0, 2.0, 3.0, and 3.1), RAML (0.8 and 1.0), Protobuf (2.0 and 3.0), GraphQL, or WSDL (1.1 and 2.0) definitions. OpenAPI definitions can be in JSON or YAML. RAML definitions must be YAML. Protobug definitions are proto files. GraphQL definitions can be JSON or GraphQL SDL. WSDL definitions must be XML.
 
 1. Select **Create Definition**.
 
@@ -84,7 +84,7 @@ In the upper right of the API definition editor are options to beautify the cont
 
 ## Working with multi-file API definitions
 
-Your API definition can span multiple files and folders. This is called a _multi-file API definition_. Multi-file API definitions are supported in OpenAPI 3.0 APIs.
+Your API definition can span multiple files and folders. This is called a _multi-file API definition_. Multi-file API definitions are supported in OpenAPI 3.0 and Protobug 2.0 and 3.0 APIs.
 
 A multi-file API definition consists of the following components:
 
