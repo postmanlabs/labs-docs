@@ -3,6 +3,11 @@ title: 'Creating an API'
 updated: 2022-09-15
 contextual_links:
   - type: section
+    name: "Prerequisites"
+  - type: link
+    name: "API development overview"
+    url: "/docs/designing-and-developing-your-api/the-api-workflow/"
+  - type: section
     name: "Additional Resources"
   - type: subtitle
     name: "Videos"
@@ -36,12 +41,11 @@ To start using the API Builder, you can create a new API in your workspace. You 
 
 To create a new API:
 
-1. Select **APIs** in the sidebar and select **+**.
+1. Select **APIs** in the sidebar and select **+**. Postman creates a new API and opens the API's overview.
 
-<!-- UPDATE SCREENSHOT -->
+    <!-- UPDATE SCREENSHOT -->
     <img alt="Create API" src="https://assets.postman.com/postman-docs/v8-create-new-api2.jpg"/>
 
-1. Select **Create from scratch**. Postman creates a new API and opens the API's overview.
 1. To change the default name, hover over the API's name. Select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px"> and enter a new name.
 
 To start working on your API, [create a new definition](/docs/designing-and-developing-your-api/developing-an-api/defining-an-api/#generating-an-api-definition). You can also [import an existing API definition](/docs/designing-and-developing-your-api/importing-an-api/) from a file, a code repository, or an API gateway.
@@ -75,4 +79,4 @@ To delete an API from the workspace:
 <!-- UPDATE SCREENSHOT -->
 <img alt="Edit API" src="https://assets.postman.com/postman-docs/v8-more-actions2.jpg"/>
 
-> When you delete an API, any collections or environments linked to the API are deleted with it. Monitors and configured integrations aren't affected.
+> When you delete an API, any collections or environments linked to the API are deleted with it. Other elements and configured integrations aren't affected.

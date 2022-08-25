@@ -6,8 +6,8 @@ contextual_links:
   - type: section
     name: "Prerequisites"
   - type: link
-    name: "Developing an API"
-    url: "/docs/designing-and-developing-your-api/developing-an-api/"
+    name: "API development overview"
+    url: "/docs/designing-and-developing-your-api/the-api-workflow/"
   - type: section
     name: "Additional Resources"
   - type: subtitle
@@ -30,7 +30,7 @@ You can import an existing API definition into your API. API definitions can be 
 
 To import your API definitions into Postman:
 
-1. From the sidebar, select __APIs__, then select **Import**.
+1. Select **APIs** in the sidebar, then select **Import**.
 1. Select a file or folder, enter a link to the API, or paste your raw text.
 
     > You can also import an API definition from a code repository. Learn more about [importing and exporting](/docs/getting-started/importing-and-exporting-data/).
@@ -50,7 +50,7 @@ When importing into a team workspace, you can also choose to add the APIs to the
 
 If your API definition consists of multiple files:
 
-1. From the sidebar, select __APIs__, then select **Import**.
+1. Select **APIs** in the sidebar, then select **Import**.
 1. Select **Folder**, then select a local folder with your API files.
 1. In the **Import Entities** tab, select the files you want to import for the API definition.
 1. Select **Import** to bring your API definition into Postman.

@@ -21,7 +21,7 @@ contextual_links:
     url: "/docs/designing-and-developing-your-api/versioning-an-api/managing-git-changes/"
 ---
 
-With the Postman desktop app, you can connect an API to a Git repository on your local development system. The Postman desktop app supports connecting to GitHub, Bitbucket, GitLab, GitLab Self-Managed, or Azure DevOps repositories.
+With the Postman desktop app, you can connect an API to a Git repository on your local development system. The Postman desktop app supports connecting to GitHub, Bitbucket, GitLab, or Azure DevOps repositories.
 
 After connecting to a local repository, you can complete your local API development workflow using Postman. Create branches to work on new features, pull the latest changes, and resolve any conflicts. Use your collections, environments, and other resources on your local system to help implement and test your endpoints. Once you've verified the new features locally, commit and push your changes to the remote repository.
 

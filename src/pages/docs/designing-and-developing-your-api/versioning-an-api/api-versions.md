@@ -45,7 +45,7 @@ To publish an API version:
 1. Select the elements you want to publish with this version (API definition, collections, or environments).
 1. Select **Publish API**.
 
-<!-- ADD SCREENSHOT OF PUBLISH MODAL  -->
+<!-- ADD SCREENSHOT OF PUBLISH DIALOG BOX  -->
 
 ## Viewing a published API version
 

@@ -45,7 +45,7 @@ contextual_links:
 
 You can connect a GitHub, Bitbucket, GitLab, or Azure DevOps repository to your API to sync your API definitions and collections between Postman and the repository.
 
-After connecting, you can push and pull changes between Postman and branches in the remote repository. When it's time to release, merge your changes to the default branch in the remote repository. You can then publish an API version to make your changes available to consumers.
+After connecting, you can push and pull changes between Postman and branches in the remote repository. When it's time to release, you can publish an API version to make your changes available to consumers.
 
 ## Contents
 
@@ -61,7 +61,7 @@ You can connect an API in Postman to your remote Git-based repository. This enab
 
 Keep in mind the following when connecting to a repository:
 
-* **The user account used for authentication requires full access to repositories.** You may want to create a service account with limited permissions specifically for this integration.
+* **The user account used for authentication requires full access to repositories.** You may want to create a service account with limited permissions for this integration.
 
 * **You can connect an API to one remote repository.** You can't connect an API to more than one repository, and you can't connect more than one API to the same repository.
 
@@ -95,7 +95,7 @@ To connect an GitHub Enterprise Server, GitLab Self-Managed, or Azure DevOps Ser
 
 1. Select **APIs** in the sidebar and select an API.
 1. Select **Connect Repository** and select the type of repository you want to connect to.
-1. On the **Connect your repository** page, enter the **Domain URL** of your repository. Just enter the base URL for your enterprise server, for example: `https://my-git-server.example.com`
+1. On the **Connect your repository** page, enter the **Domain URL** of your repository. Use the base URL of your enterprise server, for example: `https://my-git-server.example.com`
 1. Under **Select local file system**, select the root folder of your local Git repository and select **Open**.
 1. Select an **API schema directory** and **Collection directory** where schemas and collections will be stored in the repository. If you leave these blank, a `postman/schemas` or `postman/collections` directory will be created in the root of the repository. If you select a directory already containing schemas, you will be asked which schema to use in Postman the first time you pull changes.
 1. Select **Connect Repository**.

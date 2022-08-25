@@ -65,7 +65,6 @@ Here's a typical workflow for API-first development with a connected repository:
     > You can also make changes in the Git repository using other tools or editors. For example, developers can follow a Git workflow by working on feature branches, then creating pull requests to merge them into the default branch.
 
 1. Periodically pull from the remote repository to bring changes others have made into Postman, and resolve conflicts if there are any issues.
-1. Review changes on your active branch, then merge them into the default branch in the remote repository.
 1. In Postman, publish a new version to make the changes available to your API's consumers.
 
 ## Using a remote Git repository
@@ -82,7 +81,7 @@ Learn more about [using a local Git repository](/docs/designing-and-developing-y
 
 ## Managing changes using Git
 
-After you've connected your API to a remote or local repository, you can perform common Git actions from within Postman. You can work on multiple branches, and Postman tracks the changes you make to your API definition and associated collections. At any time you can push your changes to the repository, or pull changes into Postman.
+After you've connected your API to a remote or local repository, you can perform common Git actions from within Postman. You can work on multiple branches, and Postman tracks the changes you make to your API definition and associated collections. At any time you can push your changes to the repository or pull changes into Postman.
 
 Learn more about [managing changes using Git](/docs/designing-and-developing-your-api/versioning-an-api/managing-git-changes/).
 

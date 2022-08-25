@@ -50,6 +50,8 @@ If your API doesn't have a definition, you can generate an example definition th
 1. On the API's overview, under **Definition**, select **Create definition**.
 1. Select the **Using Boilerplate** option, then select a definition type and format.
 
+<!-- TO DO: ADD SCREENSHOT -->
+
     > Postman supports OpenAPI (versions 1.0, 2.0, 3.0, and 3.1), RAML (0.8 and 1.0), GraphQL, or WSDL (1.1 and 2.0) definitions. OpenAPI definitions can be in JSON or YAML. RAML definitions must be YAML. GraphQL definitions can be JSON or GraphQL SDL. WSDL definitions must be XML.
 
 1. Select **Create Definition**.
@@ -64,12 +66,9 @@ To edit an API definition, select an API in the sidebar to expand it, then selec
 
 > You can also edit your definition from your API's overview. Under **Definition**, select **View files**.
 
-<!-- TO DO: ADD SCREENSHOT -->
-
 The left pane of the editor displays an outline of your API definition. When you first open the editor, the top level nodes are expanded, and you can select a node to expand or collapse it. Select an element in the outline to jump to it in the editor. You can also select the API definition outline icon <img alt="API definition outline icon" src="https://assets.postman.com/postman-docs/icon-schema-outline-v9.jpg#icon" width="16px"/> to hide or show the outline.
 
-<!-- TO DO: UPDATE SCREENSHOT -->
-
+<!-- TO DO: UPDATE SCREENSHOT - USE A JPG RATHER THAN GIF -->
 ![API definition navigation](https://assets.postman.com/postman-docs/v8-api-builder-schema-outline.gif)
 
 In the API definition editor, when you hover over a `#ref` component and press **⌘** or **Ctrl**, a popup window displays the first 200 characters of the reference component. Select the component while pressing **⌘** or **Ctrl** to jump to the reference location.
@@ -79,7 +78,6 @@ In the API definition editor, when you hover over a `#ref` component and press *
 In the upper right of the API definition editor are options to beautify the content, wrap text, copy, change the file format, and search. When you finish editing your API definition, select **Save**.
 
 <!-- TO DO: UPDATE SCREENSHOT -->
-
 <img src="https://assets.postman.com/postman-docs/api-builder-definition-options.jpg" alt="API Builder definition options" width="350px">
 
 > Postman will indicate any [validation errors](/docs/designing-and-developing-your-api/validating-elements-against-schema/) as you work on your API definition.
@@ -105,12 +103,12 @@ A multi-file API definition consists of the following components:
 
 To edit a multi-file API definition, select an API in the sidebar to expand it, then select **Definition**. If your definition contains folders, select a folder in the sidebar to expand it and see its contents. Select a file to open it for editing.
 
-<!-- TO DO: ADD SCREENSHOT -->
+<!-- TO DO: ADD SCREENSHOT SHOWING SIDEBAR FOR MULTI-FILE API -->
 
 ### Adding files and folders
 
 You can add files and folders to a multi-file API definition. In the sidebar, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to **Definition**, then select **Add file** or **Add folder**.
 
-To add a file to a folder, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to a folder, then select **Add file**. You rearrange files and folders by dragging them in the sidebar. You can also rename or delete a file or folder by selecting the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px">.
+To add a file to a folder, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to a folder, then select **Add file**. You can rearrange files and folders by dragging them in the sidebar. You can also rename or delete a file or folder by selecting the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px">.
 
 > When you add a file to a single-file Open API 3.0 definition, it's converted to a multi-file API definition. The existing definition file becomes the root file.
