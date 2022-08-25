@@ -46,7 +46,7 @@ To set up Postman provisioning with Azure AD:
 1. In the **Provisioning Mode** menu, select **Automatic**.
 1. In the **Tenant URL** field, enter the Postman SCIM endpoint: `https://api.getpostman.com/scim/v2/`
 1. In the **Secret Token** field, enter your [SCIM API key](/docs/administration/scim-provisioning/scim-provisioning-overview/#generating-scim-api-key).
-1. Select **Test Connection** to have Azure AD attempt to connect to the Postman SCIM endpoint. If the attempt fails, you will see an error message. If the attempt is successful, the response is `HTTP 200 OK` with an empty SCIM `ListResponse` message.
+1. Select **Test Connection** to have Azure AD attempt to connect to the Postman SCIM endpoint. There will be an error message if the attempt fails. If the attempt is successful, the response is `HTTP 200 OK` with an empty SCIM `ListResponse` message.
 1. Select **Save** to save the admin credentials.
 
 Next, you will configure the Azure AD integration.
@@ -55,10 +55,17 @@ Next, you will configure the Azure AD integration.
 
 After you set up SCIM in Azure AD, you can configure the integration with Postman:
 
-1. In the Azure AD **Mappings** section, enable **Provision Azure Active Directory Users**. This is the set of attribute mappings for user objects. Select it to review the attributes that are synchronized from Azure Active Directory to Postman. **Provision Azure Active Directory Groups** needs to be turned off.
+1. In the Azure AD **Mappings** section, enable **Provision Azure Active Directory Users**. This is the set of attribute mappings for user objects. Select it to review the attributes that are synchronized from Azure Active Directory to Postman.
 
     > The attributes you select as **Matching** properties are used to match the users in Postman for update operations.
 
+1. (Optional) Enable **Provision Azure Active Directory Groups** by selecting **Yes**.
+1. (Optional) Under **Target Object Actions**, enable **Create**, **Update**, and **Delete**.
+1. (Optional) Under **Attribute Mappings**, select **Add New Mapping** to map the following attributes:
+    | Azure Active Directory Attribute | customappsso Attribute |
+    | ----------- | ----------- |
+    | displayName | displayName |
+    | members | members |
 1. Select **Save** to commit any changes.
 1. Under **Settings**, the **Scope** field defines which users are synchronized. Select **Sync only assigned users and groups** to only sync users assigned in the **Users and groups** tab.
 1. Once your configuration is complete, set the **Provisioning Status** to **On**.

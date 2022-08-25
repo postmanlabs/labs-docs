@@ -20,7 +20,7 @@ Setting up a GitLab integration requires you to get a GitLab Personal Access Tok
 
 ## API sync with GitLab
 
-Postman 9.0 introduced the ability to connect a git repository to an API. Instead of using an integration, you can directly connect a GitLab repo to an API in the API Builder. This provides two-way sync of schemas and associated collections, plus adds powerful new features for syncing branches and release tags between Postman and your repo. For more information on the new repo sync feature, see [Versioning APIs](/docs/designing-and-developing-your-api/versioning-an-api/).
+Postman 9.0 introduced the ability to connect a git repository to an API. Instead of using an integration, you can directly connect a GitLab repo to an API in the API Builder. This provides two-way sync of schemas and associated collections, plus adds features for syncing branches and release tags between Postman and your repo. For more information on the repo sync feature, see [Versioning APIs](/docs/designing-and-developing-your-api/versioning-an-api/).
 
 ## Generating a GitLab Personal Access Token
 
@@ -40,7 +40,7 @@ Postman 9.0 introduced the ability to connect a git repository to an API. Instea
 
 1. Search and select **GitLab**.
 
-1. You can select **View** or **View All** to see all integrations created by your team.
+1. You can select **View** or **View All** for a list of all the integrations created by your team.
 
    ![gitlab add integration](https://assets.postman.com/postman-docs/gitlab-add-integration.jpg)
 
@@ -75,7 +75,7 @@ Every change that is saved to your Postman Collection automatically commits chan
 
     Contact your IT team to allowlist the following static IP in your firewall to enable collection backups to GitLab:
 
-   * US East: 3.212.102.200
+   * US East: `3.212.102.200`
 
    Once you allowlist this IP address, calls for this integration will be able to connect to your network and allow the integration to work as expected.
 

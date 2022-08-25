@@ -16,7 +16,7 @@ contextual_links:
 
 ---
 
-Team migration is required when you consolidate one or more Postman teams into a single (typically company-authorized) account. There are several reasons for having a company-authorized Postman account (or team) including security, the ability for a company to better oversee its intellectual property, and to give users the benefit of a robust paid plan.
+Team migration is required when you merge one or more Postman teams into a single (typically company-authorized) account. There are several reasons for having a company-authorized Postman account (or team) including security, the ability for a company to better oversee its intellectual property, and to give users the benefit of a robust paid plan.
 
 Team migration can occur in different ways depending on your needs and preferred outcomes.
 
@@ -41,8 +41,8 @@ Team migration can occur in different ways depending on your needs and preferred
 ## Before you start migrating
 
 * Make sure you understand [role-based access control](/docs/collaborating-in-postman/roles-and-permissions/) at a [team](/docs/collaborating-in-postman/roles-and-permissions/#team-roles), [workspace](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles), and [collection](/docs/collaborating-in-postman/roles-and-permissions/#collection-roles) level.
-* Determine what type of [export option](#migrating-your-data) is right for your company.
-* Understand [what data is and is not exported](#migrating-your-data) in a [data-dump](/docs/getting-started/importing-and-exporting-data/#exporting-data-dumps).
+* Decide what type of [export option](#migrating-your-data) is right for your company.
+* Understand [what data is and isn't exported](/docs/administration/team-merge/#migration-faqs) in a [data-dump](/docs/getting-started/importing-and-exporting-data/#exporting-data-dumps).
 * [Read the migration FAQs](#migration-faqs).
 
 ## Migrating your data
@@ -57,7 +57,7 @@ You can only choose centralized migration with an **Admin** account.
 
 With centralized migration, you will export a large JSON file of collections, environments, globals, and header presets.
 
-You can bulk export your admin personal workspaces or your personal workspaces plus the workspaces of any team you have joined.
+You can bulk export your personal workspaces and the workspaces of any teams you have joined.
 
 Choose centralized migration if the following conditions apply:
 
@@ -75,9 +75,9 @@ See [performing centralized migration](#performing-centralized-migration) to cho
 
 You can carry out distributed migration with any type of Postman account.
 
-You can export your personal workspace and shared workspaces for any team you have joined and can choose to only export collections from a specific workspace. See [exporting data](/docs/getting-started/importing-and-exporting-data/#exporting-postman-data) for detail.
+You can export your personal workspace and shared workspaces for any teams you have joined, or you can choose to only export data from a specific workspace. See [exporting data](/docs/getting-started/importing-and-exporting-data/#exporting-postman-data) for more information.
 
-If you have an individual account and are not part of a team, but want to maintain your current account while migrating company data to an authorized team, you can [export specific data](/docs/getting-started/importing-and-exporting-data/#exporting-postman-data) or [export a dump of all data](/docs/getting-started/importing-and-exporting-data/#exporting-data-dumps).
+If you have an individual account and aren't part of a team yet, but want to keep an independent workspace after joining one, see [Joining a team](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/#joining-a-team). When migrating company data to an authorized team, you can [export specific data](/docs/getting-started/importing-and-exporting-data/#exporting-postman-data) or [export a dump of all data](/docs/getting-started/importing-and-exporting-data/#exporting-data-dumps).
 
 If you have a personal account and want to deactivate it and join an authorized team, you can accept the team invite and all personal Postman data will be transferred to your new team automatically.
 
@@ -85,7 +85,7 @@ Choose distributed migration if the following conditions apply:
 
 * Your organization has workspaces that have dedicated [Workspace Admins](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles) with many collections.
     * Workspace Admins can export any relevant collections and environments into the new team workspace.
-* You are a single user and want to deactivate your existing account or move company data from personal account to the authorized team.
+* You are a single user and want to deactivate your existing account or move company data from your personal account to the authorized team.
 
 > Recreating mocks, monitors, and documentation on the new team may be carried out by those who are responsible for maintaining it.
 
@@ -98,38 +98,34 @@ See [performing distributed migration](#performing-distributed-migration) to cho
 
 ### Performing centralized migration
 
-* The appointed admin on the previous team will inherit ownership of all shared collections. To do this they can [access the existing workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#accessing-workspaces).
-    * Data from team workspaces you have not joined will not be present in the export.
-    * By default, the person who imports a collection or environment is automatically assigned the Editor role (see more about [roles](/docs/collaborating-in-postman/roles-and-permissions/)). Everyone else on the team will be assigned as Viewer.
-* [Export all data](/docs/getting-started/importing-and-exporting-data/#exporting-postman-data) at once via a [JSON data dump](/docs/getting-started/importing-and-exporting-data/#exporting-data-dumps).
-* The appointed admin can then [re-import into the new team](/docs/getting-started/importing-and-exporting-data/#importing-data-into-postman).
-    * All collections included in the data dump will be imported into your currently selected workspace.
-* When your new team is ready for team members to join, the admin on the new team can send invitations to all other team members. The invite link will prompt them to leave their current team to join the new team.
-* At this point, you can [re-share and organize collections into team workspaces](/docs/collaborating-in-postman/sharing/#moving-postman-entities-to-collaborative-workspaces) as you see fit.
-* Once the last team member and data from your previous team have migrated to your new one, the previous team will deactivate and you can begin [collaborating](https://www.youtube.com/watch?v=0hPUzjM-Cc8).
+* The appointed Admin on the original team will inherit ownership of all shared and unshared data. To do this they can [access the existing workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#accessing-workspaces).
+    * Data from team workspaces you haven't joined won't be present in the export.
+    * By default, the person who imports a collection or environment is automatically assigned the Editor role (learn more about [roles](/docs/collaborating-in-postman/roles-and-permissions/)). Everyone else on the team will be assigned as Viewer.
+* [Export all data](/docs/getting-started/importing-and-exporting-data/#exporting-postman-data) at once with a [JSON data dump](/docs/getting-started/importing-and-exporting-data/#exporting-data-dumps).
+* The appointed Admin can then [re-import into the new team](/docs/getting-started/importing-and-exporting-data/#importing-data-into-postman).
+    * All collections included in the data dump will be imported into your selected workspace.
+* When your new team is ready for team members to join, the Admin on the new team can send invitations to all other team members. The invite link will prompt them to join the new team. Once they've joined the new team, you can [remove them from the original team](/docs/administration/managing-your-team/managing-your-team/#removing-team-members).
+* At this point, you can [re-share and organize collections into team workspaces](/docs/collaborating-in-postman/working-with-your-team/collaborating-in-team-workspaces/#moving-elements-to-team-workspaces).
+* Once the last team member from your earlier team has migrated to your new one, the original team will be deleted along with all of the data within it. You can then begin [collaborating](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/) in your new team. To learn more about collaborating in Postman, watch [Working with your team in Postman](https://youtu.be/5lscUV-Exac).
 
 ### Performing distributed migration
 
-* Your team members need to export their collections and environments prior to moving to your new team. You can use this as an opportunity to clean up and reorganize your workspaces.
-* Team members can join your new team and re-import collections and environments into their respective team workspaces, creating new workspaces where necessary.
-    * By default, the person who imports a collection or environment is automatically assigned the Editor role (see more about [roles](/docs/collaborating-in-postman/roles-and-permissions/)). Everyone else on the team will be assigned as a Viewer.
-* Once the last team member and data from your previous team have migrated to your new one, the previous team will automatically deactivate and you can begin [collaborating](https://www.youtube.com/watch?v=0hPUzjM-Cc8).
-    * If you change your previous team email to a non-company domain email (for example, Gmail or Yahoo), your previous team will continue indefinitely. You can keep a personal account with your current data and use a work email for a work account. Keeping both accounts in use can help when you migrate data.
+* Your team members need to [export](/docs/getting-started/importing-and-exporting-data/#exporting-postman-data) their Postman data prior to moving to your new team. You can use this as an opportunity to clean up and reorganize your workspaces.
+* Team members can [leave the earlier team](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/#leaving-a-team) and [join your new team](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/#joining-a-team). They can then re-import Postman data into their respective team workspaces, creating new workspaces where necessary.
+    * By default, the person who imports a collection or environment is automatically assigned the Editor role (learn more about [roles](/docs/collaborating-in-postman/roles-and-permissions/)). Everyone else on the team will be assigned as a Viewer.
+* Once the last team member from your earlier team has migrated to your new one, the original team will be deleted along with all of the data within it. You can then begin [collaborating](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/) in your new team. To learn more about collaborating in Postman, watch [Working with your team in Postman](https://youtu.be/5lscUV-Exac).
+    * If you change your team email to a non-company domain email (for example, Gmail or Yahoo), your original team will continue indefinitely. You can keep a personal account with your current data and use a work email for a work account. Keeping both accounts in use can help when you migrate data.
     * Keep in mind items that will need to be recreated (such as monitors and mocks).
 
 ## Migration FAQs
 
-* **I'm on a free account, what happens to my personal collections once I join a new team?**
-As long as you are synced to the Postman cloud, the organizational structure of your personal workspace (collections and environments) will be carried over into the new team. Anything that has been shared to a team workspace will remain with the previous team after you leave, meaning you will lose access to it. If you experience any issues when joining a new team [contact Postman support](https://www.postman.com/support/).
+* **I'm on a free account, what happens to my personal collections when I join a team?**
+If you're an individual Postman user and join a Postman team, your personal workspaces and the data within them is transferred to the team. For more information, see [Joining a team](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/#joining-a-team).
+
+> If you experience any issues when joining a new team, [contact Postman support](https://www.postman.com/support/).
 
 * **Can I be on two teams at once?**
-No, each account can be on one Postman team at a time. Multi-team collaboration and guest accounts are on [Postman's roadmap](https://github.com/postmanlabs/postman-app-support/projects/45?fullscreen=true).
-
-* **What happens to published documentation from my previous team?**
-Your documentation links will break since the previous team is no longer active. New documentation URLs will need to be generated when collections are [republished from your new team pages](/docs/publishing-your-api/publishing-your-docs/). If you are [publishing to a custom domain](/docs/publishing-your-api/custom-doc-domains/), unpublish and remove the domain from your original team in order to add it to your new team and republish.
-
-* **What happens to the previous team once everyone leaves?**
-Once the last person has left, the team is automatically deactivated. If there is only one admin remaining on the team, they will automatically inherit all the team workspaces data (collections and environments) and can perform the bulk export.
+Yes, each account can be on multiple Postman teams at a time.
 
 * **Will my monitors / mocks transfer over?**
 No, you will need to [recreate any monitors](/docs/monitoring-your-api/setting-up-monitor/) and [mocks](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/) in your new team.
@@ -137,12 +133,20 @@ No, you will need to [recreate any monitors](/docs/monitoring-your-api/setting-u
 * **What data is exported in a large JSON file data-dump?**
 All collections in your personal workspace and any workspaces that you have joined, in addition to environments, globals, and header presets, are included when you [export a data-dump](/docs/getting-started/importing-and-exporting-data/#exporting-data-dumps).
 
-* **What data does NOT get exported?** You will need to [reassign roles (workspace, collection, and environment level)](/docs/collaborating-in-postman/roles-and-permissions/), [recreate workspaces](/docs/collaborating-in-postman/collaboration-intro/#creating-a-new-workspace-from-the-menu), [recreate monitors](/docs/monitoring-your-api/setting-up-monitor/), [recreate mocks](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/), [re-import API schemas](/docs/getting-started/importing-and-exporting-data/#importing-api-specifications), and [republish documentation from your new team pages](/docs/publishing-your-api/publishing-your-docs/).
+* **What data doesn't get exported?**
+You will need to [reassign roles (workspace, collection, and environment level)](/docs/collaborating-in-postman/roles-and-permissions/), [recreate workspaces](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/#creating-a-new-workspace), [recreate monitors](/docs/monitoring-your-api/setting-up-monitor/), [recreate mocks](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/), [re-import API schemas](/docs/getting-started/importing-and-exporting-data/#importing-api-specifications), and [republish documentation from your new team pages](/docs/publishing-your-api/publishing-your-docs/).
+
+* **What happens to published documentation from my earlier team?**
+Your documentation links will break since the earlier team is no longer active. New documentation URLs will need to be generated when collections are [republished from your new team pages](/docs/publishing-your-api/publishing-your-docs/). If you are [publishing to a custom domain](/docs/publishing-your-api/custom-doc-domains/), unpublish and remove the domain from your earlier team in order to add it to your new team and republish.
+
+* **What happens to the earlier team once everyone leaves?**
+When the last person leaves a team it's automatically deactivated. If there is only one Admin remaining on the team, they will automatically inherit all shared and unshared Postman data and can perform the bulk export.
 
 > Reach out to [Postman support](https://www.postman.com/support/) if you have any questions or run into any issues setting up Postman for your team.
 
-## Next Steps
+## Next steps
 
-[Configure SSO](/docs/administration/sso/admin-sso/) if you are subscribed to a Postman Professional or Enterprise plan.
+Now that you know how to migrate data between teams, you might also be interested in learning how to manage team roles and set up SSO:
 
-Learn how to [manage your team roles, invite team members to workspaces, and adjust your team size](/docs/administration/managing-your-team/managing-your-team/).
+* To learn how to manage your team roles, invite team members to workspaces, and adjust your team size, visit [Managing your team](/docs/administration/managing-your-team/managing-your-team/).
+* To learn how to set up single sign-on (SSO) for your Postman team, visit [Configure SSO](/docs/administration/sso/admin-sso/). (_Professional and Enterprise plans only_.)

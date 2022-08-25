@@ -38,7 +38,7 @@ warning: false
 
 You can group your Postman requests and examples into collections to keep your workspace organized, to collaborate with teammates, to generate API documentation and API tests, and to automate request runs.
 
-Select **Collections** in the sidebar to see the list of collections in a workspace.
+Select **Collections** in the sidebar for the list of collections in a workspace.
 
 <img alt="" src="https://assets.postman.com/postman-docs/collections-overview.jpg" width="300px"/>
 
@@ -95,9 +95,14 @@ There are several ways to add existing and new requests to a collection.
 To move an existing request to a different collection:
 
 1. Select the request you want to move.
-1. Drag and drop the request into the desired collection.
+1. Drag the request into the desired collection.
 
 > Alternatively, open the request and select **Save As**, then choose the collection you want to move it to.
+
+To move more than one request to a different collection:
+
+1. Press and hold **⌘** or **Ctrl**, then select the requests you want to move.
+1. Drag the requests into the desired collection.
 
 ### Adding a new request to a collection
 
@@ -147,7 +152,7 @@ To save a request from your history:
 From the list of collections in your workspace, you can:
 
 * Select a collection to open its overview in a tab.
-* Open and close collection content by selecting the arrow to the left of the collection name.
+* Open and close collection content by selecting the arrow next to the collection name.
 * Hover over a collection name and select the star icon &#9733; to move that collection to the top of the list.
 * Use the collection search bar to filter through your collections.
 * Reorder the requests, folders, and examples inside a collection by dragging and dropping them.
@@ -156,7 +161,7 @@ From the list of collections in your workspace, you can:
 
 To add a folder to your collection:
 
-1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> to the right of the collection name.
+1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the collection name.
 1. Select **Add folder**.
 
 You can also add sub-folders to create extra levels of nesting for the collection's requests and examples.
@@ -165,8 +170,10 @@ You can also add sub-folders to create extra levels of nesting for the collectio
 
 To delete a collection:
 
-1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> to the right of the collection name.
+1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the collection name.
 1. Select **Delete**.
+
+You can also select the collection and press **Delete** on your keyboard.
 
 > If a deleted collection is larger than 30 MB, you won't be able to [recover it](#recovering-a-deleted-collection). To avoid this, you can split the collection into smaller pieces before deleting it, or back up the collection first.
 
@@ -181,7 +188,7 @@ To recover a deleted collection:
 
 1. In the Trash page, select the restore icon <img alt="Restore icon" src="https://assets.postman.com/postman-docs/icon-restore-v9.jpg" width="14px"> next to the collection you want to recover.
 
-> Deleted collections that are larger than 30 MB cannot be recovered.
+> Deleted collections that are larger than 30 MB can't be recovered.
 
 Recovery options depend on your Postman plan:
 
@@ -189,7 +196,7 @@ Recovery options depend on your Postman plan:
 * Postman Basic: Recover collections for up to 30 days.
 * Postman Professional and Enterprise: Recover collections for up to 90 days.
 
-> If you do not see a collection that you expected to see in the Trash page, it may have been removed from a workspace rather than deleted. If the collection appears in another workspace, you can move it by selecting **Share**.
+> If a collection that you expected to be in the Trash isn't there, it may have been removed from a workspace rather than deleted. If the collection appears in another workspace, you can move it by selecting **Share**.
 
 ### Sharing a collection
 
@@ -197,7 +204,7 @@ To share your collections with other users, you can:
 
 * Publish a [Run in Postman](/docs/publishing-your-api/run-in-postman/creating-run-button/) button.
 * Invite others to collaborate by selecting the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the collection name, then selecting **Share**. Learn more about [sharing elements in Postman](/docs/collaborating-in-postman/sharing/#sharing-postman-entities).
-* Move the collection to a shared workspace by selecting the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the collection name, then selecting **Move**. Learn more about [moving Postman elements](/docs/collaborating-in-postman/sharing/#moving-postman-entities-to-collaborative-workspaces).
+* Move the collection to a shared workspace by selecting the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the collection name, then selecting **Move**. Learn more about [moving Postman elements](/docs/collaborating-in-postman/working-with-your-team/collaborating-in-team-workspaces/#moving-elements-to-team-workspaces).
 
 ### Watching a collection
 
@@ -213,17 +220,17 @@ To view notifications about what has changed in a collection you watch:
 
 1. Select the notifications icon <img alt="Notification icon" src="https://assets.postman.com/postman-docs/icon-notification-bell-v9.jpg#icon" width="18px"> in the Postman header to view the notification. Select **View changelog** to view the collection's changelog.
 
-    <img alt="Notification Collection Watching" src="https://assets.postman.com/postman-docs/collection-watch-notification-v9.jpg" width="500px"/>
+    <img alt="Notification Collection Watching" src="https://assets.postman.com/postman-docs/collection-watch-notification-v9.19.jpg" width="500px"/>
 
 1. You will also receive an email with the information regarding who made the change, what the change was, and when it was made. Select **View changelog** in the email to access the full changelog in Postman.
 
-> If you create a collection and modify it from the same Postman account, you will not receive notifications for any changes you make to that collection.
+> If you create a collection and modify it from the same Postman account, you won't receive notifications for any changes you make to that collection.
 
 ### Forking a collection
 
 You can fork collections in your own workspace to [develop collection versions](/docs/collaborating-in-postman/version-control-for-collections/). To fork a collection:
 
-1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> to the right of the collection name.
+1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the collection name.
 1. Select **Fork**.
 
 > Alternatively, select the fork icon <img alt="Fork icon" src="https://assets.postman.com/postman-docs/icon-fork.jpg#icon" width="14px"> from the collection overview.
@@ -232,21 +239,24 @@ You can fork collections in your own workspace to [develop collection versions](
 
 To add a comment at the collection level:
 
-1. Select the comment icon <img alt="Comments icon" src="https://assets.postman.com/postman-docs/icon-comments-v9.jpg#icon" width="18px"> from the right of the collection overview.
+1. Select the comment icon <img alt="Comments icon" src="https://assets.postman.com/postman-docs/icon-comments-v9.jpg#icon" width="18px"> from the right sidebar.
 1. Write your comment, then select **Add Comment**.
 
 ### Reverting collection changes
 
 To revert your collection to a previous state:
 
-1. Select the changelog icon <img alt="Changelog icon" src="https://assets.postman.com/postman-docs/icon-changelog-v9.jpg#icon" width="18px"> from the right of the collection overview.
-1. Select **Restore** for the state to which you want to revert the collection.
+1. Select the changelog icon <img alt="Changelog icon" src="https://assets.postman.com/postman-docs/icon-changelog-v9.jpg#icon" width="18px"> on the right.
+2. Select a session to expand it.
+3. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the change you'd like to restore your collection to, then select **Restore to this change**.
 
-    <img alt="Revert collection to a previous state with the changelog" src="https://assets.postman.com/postman-docs/collection-changelog.jpg" width="300px"/>
+    <img alt="Restore from changelog" src="https://assets.postman.com/postman-docs/changelog-restore-v9.16.jpg" width="350px"/>
+
+Restoring a collection from the changelog reverts it to the point immediately after your selected change occurred.
 
 ### Viewing pull requests, forks, and collection details
 
-From the context bar to the right of the collection overview:
+From the right sidebar:
 
 * To view pull requests for a collection, select the pull request icon <img alt="Pull request icon" src="https://assets.postman.com/postman-docs/icon-pull-request.jpg#icon" width="16px">
 * To view forks created from a collection, select the fork icon <img alt="Fork icon" src="https://assets.postman.com/postman-docs/icon-fork.jpg#icon" width="16px">

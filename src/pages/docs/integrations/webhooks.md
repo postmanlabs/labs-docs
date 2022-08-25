@@ -19,13 +19,18 @@ contextual_links:
     name: "Building a Slack Bot with the Twitch API and Postman"
     url: "https://blog.postman.com/building-slack-bot-with-twitch-api-and-postman/"
   - type: subtitle
+    name: "Case Studies"
+  - type: link
+    name: "Paylocity"
+    url: "https://www.postman.com/case-studies/paylocity/"
+  - type: subtitle
     name: "Public Workspaces"
   - type: link
     name: "Postman Loves Slack"
     url:  "https://www.postman.com/postman/workspace/4be86d9c-6576-4369-b74f-43991df7a4bd"
 ---
 
-Postman's custom webhook integration enables you to automate workflows between your favorite apps and services to get notifications, synchronize files, collect data, and more. It offers services with predefined flows available for easy implementation.
+Postman's custom webhook integration enables you to automate workflows between your favorite apps and services to get notifications, synchronize files, collect data, and more. It offers services with predefined flows that you can implement.
 
 You can configure a custom webhook with Postman to send events such as monitor results or team and collection-specific activity feeds, or to back up your Postman Collections.
 
@@ -59,7 +64,7 @@ Once you allowlist this IP address, calls for the custom webhook will be able to
 
 2. Select __Add Integration__ next to a webhook type to configure your integration. Perform the steps in the related section below for the webhook type you are adding.
 
-Once the integration has been created, you can view the integration you just created in addition to the other active integrations created by your team:
+Once the integration has been created, you can view the integration you created in addition to the other active integrations created by your team:
 
 [![configured integrations](https://assets.postman.com/postman-docs/view-webhooks-all.jpg)](https://assets.postman.com/postman-docs/view-webhooks-all.jpg)
 

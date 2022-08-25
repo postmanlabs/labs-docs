@@ -37,6 +37,8 @@ contextual_links:
 
 You can define the structure of your API using its specification. You can also generate a collection from a spec.
 
+## Contents
+
 * [Editing your schema](#editing-your-schema)
 * [Generating a collection](#generating-a-collection)
 
@@ -54,7 +56,7 @@ In the schema editor, when you hover over a `#ref` component and press the Comma
 
 ![Schema refs](https://assets.postman.com/postman-docs/v8-api-builder-ref-jump.jpg)
 
-In the upper right of the schema editor are options to beautify the content, wrap text, copy, and search. When you finish editing your schema, select **Save**.
+Next to the format dropdown list, there are options to beautify the content, wrap text, copy, and search. When you finish editing your schema, select **Save**.
 
 <img src="https://assets.postman.com/postman-docs/api-builder-definition-options.jpg" alt="API Builder definition options" width="350px">
 
@@ -62,9 +64,9 @@ In the upper right of the schema editor are options to beautify the content, wra
 
 ## Generating a collection
 
-The Postman API Builder supports API-first development by providing the option to create a Postman Collection directly from a schema. Once you have a saved schema, you will see a **Generate Collection** option in the upper right of the schema editor.
+The Postman API Builder supports API-first development by providing the option to create a Postman Collection directly from a schema.
 
-To create a collection based on your schema, select **Generate Collection**. You can add the collection as documentation, a test, a monitor, or a mock server. The collection will appear in __Collections__ in the sidebar. It will be linked to the same version of the API as the schema.
+To create a collection based on your saved schema, select **Generate Collection**. You can add the collection as documentation, a test, a monitor, or a mock server. The collection will appear in __Collections__ in the sidebar. It will be linked to the same version of the API as the schema.
 
 ![Generate Collection](https://assets.postman.com/postman-docs/v8-generate-collection-modal2.jpg)
 

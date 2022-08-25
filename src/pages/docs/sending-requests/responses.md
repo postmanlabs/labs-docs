@@ -16,9 +16,6 @@ contextual_links:
   - type: link
     name: "How to Inspect API Responses"
     url:  "https://youtu.be/31wBZyBdbgw"
-  - type: link
-    name: "HTTP protocol explained"
-    url:  "https://www.youtube.com/watch?v=FAnuh0_BU4c&list=PLM-7VG-sgbtBBnWb2Jc5kufgtWYEmiMAw"
   - type: section
     name: "Next Steps"
   - type: link
@@ -48,7 +45,7 @@ The Postman response viewer helps you to visualize and check the correctness of 
 
 The Postman **Body** tab gives you several tools to help you understand the response quickly. You can view the body in one of four views: _Pretty_, _Raw_, _Preview_, and _Visualize_.
 
-> **Finding items in responses** - To open the search bar, select the search icon <img alt="Search icon" src="https://assets.postman.com/postman-docs/icon-search-v9.jpg#icon" width="16px"> in the results pane. You can also place your cursor in the response and select **⌘+F** or **Ctrl+F**. This option is not available in a response's Preview or Visualize views.
+> **Finding items in responses** - To open the search bar, select the search icon <img alt="Search icon" src="https://assets.postman.com/postman-docs/icon-search-v9.jpg#icon" width="16px"> in the results pane. You can also place your cursor in the response and select **⌘+F** or **Ctrl+F**. This option isn't available in a response's Preview or Visualize views.
 
 Note that if the response's `Content-Type` header indicates that the response is an image, Postman will detect and render the image automatically.
 
@@ -56,7 +53,7 @@ Note that if the response's `Content-Type` header indicates that the response is
 
 The Pretty view formats JSON or XML responses so they're easier to view. Links inside Pretty view are highlighted, and selecting them can load a GET request in Postman with the link URL.
 
-For navigating large responses, select the down arrows on the left of a line to collapse large sections of the response.
+For navigating large responses, select the down arrows next to a line to collapse large sections of the response.
 
 <img alt="Response Pretty view" src="https://assets.postman.com/postman-docs/response-pretty-view.jpg" width="400px"/>
 
@@ -84,13 +81,13 @@ The Visualize view renders the data in the API response according to visualizati
 
 ## Cookies
 
-You can see cookies sent by the server in the **Cookies** tab. A cookie's entry includes its name, value, the associated domain and path, and other information about the cookie.
+You can inspect cookies sent by the server in the **Cookies** tab. A cookie's entry includes its name, value, the associated domain and path, and other information about the cookie.
 
 To learn more about working with cookies in Postman, see  [Using cookies](/docs/sending-requests/cookies/).
 
 ## Headers
 
-Headers are displayed as key-value pairs under the **Headers** tab. Hover over the information icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px"> next to the header name to see a description of the header according to the HTTP specification.
+Headers are displayed as key-value pairs under the **Headers** tab. Hover over the information icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px"> next to the header name to get a description of the header according to the HTTP specification.
 
 > If you send a HEAD request, Postman will show the **Headers** tab by default instead of the **Body** tab.
 
@@ -102,17 +99,17 @@ To learn more about running tests against API requests in Postman, see [Writing 
 
 ## Network information
 
-Postman displays network information when your API returns a response. Hover over the network icon <img alt="Network information icon" src="https://assets.postman.com/postman-docs/icon-uptime-globe.jpg#icon" width="14px"> to see the local and remote IP addresses for the request you sent.
+Postman displays network information when your API returns a response. Hover over the network icon <img alt="Network information icon" src="https://assets.postman.com/postman-docs/icon-uptime-globe.jpg#icon" width="14px"> to get the local and remote IP addresses for the request you sent.
 
 When you make an `https` request, the network icon includes a padlock. When you hover over the icon, the network information will show additional information including [certificate verification](/docs/sending-requests/certificates/) details.
 
-<img alt="Hover over the network icon to see network information" src="https://assets.postman.com/postman-docs/https-network-info-response.jpg" width="300px"/>
+<img alt="Hover over the network icon for network information" src="https://assets.postman.com/postman-docs/https-network-info-response.jpg" width="300px"/>
 
 ### SSL verification errors
 
 If you have SSL verification enabled in Postman's global settings and verification fails, the response area will display an error message. Select the link in the error message to turn off verification globally and immediately run the request again.
 
-If SSL is turned off globally but turned on for your request, you will see the error and a link to open the console.
+If SSL is turned off globally but turned on for your request, Postman displays the error and gives you a link to open the console.
 
 <img alt="Verification error" src="https://assets.postman.com/postman-docs/response-error-disable-ssl.jpg" width="300px"/>
 
@@ -122,29 +119,29 @@ If SSL is turned off globally but turned on for your request, you will see the e
 
 > To enable SSL verification for only the current request, select the **Settings** tab in the request, and then select **Enable SSL certificate verification**.
 
-If you have **SSL verification** turned off and your request returns a certificate verification error, you will see the details in the network information pop-up.
+If you have **SSL verification** turned off and your request returns a certificate verification error, you can hover over the network information for details about the error.
 
 <img alt="Certificate error" src="https://assets.postman.com/postman-docs/certificate-error-in-network-info.jpg" width="400px"/>
 
-For requests that return data successfully but with a certificate verification failure, the [console](/docs/sending-requests/troubleshooting-api-requests/) will display a warning.
+For requests that return data successfully but with a certificate verification failure, the [console](/docs/sending-requests/troubleshooting-api-requests/) displays a warning.
 
 ## Response code
 
-Postman displays the response code returned by the API. Hover over the response code to see a short description of the code and what it means.
+Postman displays the response code returned by the API. Hover over the response code to get a short description of the code and what it means.
 
-<img alt="Hover over the response code to see a description" src="https://assets.postman.com/postman-docs/response-code.jpg" width="300px"/>
+<img alt="Hover over the response code to get a description" src="https://assets.postman.com/postman-docs/response-code.jpg" width="300px"/>
 
 Some API responses also contain custom messages that can help you understand response codes. For example, if you receive a `401 Unauthorized` response, the message might advise you to check the token you used in the request. If custom messages are returned, they're displayed in the **Body** of the response.
 
 ## Response time
 
-Postman automatically calculates the time in milliseconds it took for the response to arrive from the server. This information can be useful for some preliminary performance testing. Hover over the response time to see a graph with information on how long each event in the process took.
+Postman automatically calculates the time in milliseconds it took for the response to arrive from the server. This information can be useful for some preliminary performance testing. Hover over the response time for a graph with information on how long each event in the process took.
 
-<img alt="Hover over the response code to see a description" src="https://assets.postman.com/postman-docs/response-time.jpg" width="400px"/>
+<img alt="Hover over the response code for a description" src="https://assets.postman.com/postman-docs/response-time.jpg" width="400px"/>
 
 ## Response size
 
-Postman displays the approximate size of the reponse. Hover over the response size to see a breakdown by body and header sizes.
+Postman displays the approximate size of the response. Hover over the response size to get a breakdown by body and header sizes.
 
 ## Saving responses
 

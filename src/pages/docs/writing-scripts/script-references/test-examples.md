@@ -25,6 +25,14 @@ contextual_links:
   - type: link
     name: "Continuous API testing with Postman"
     url: "https://blog.postman.com/continuous-api-testing-with-postman/"
+  - type: link
+    name: "How to Test JSON Properties in Postman"
+    url: "https://blog.postman.com/how-to-test-json-properties-in-postman/"
+  - type: subtitle
+    name: "Case Studies"
+  - type: link
+    name: "iQmetrix"
+    url: "https://www.postman.com/case-studies/iqmetrix/"
   - type: subtitle
     name: "Public Workspaces"
   - type: link
@@ -69,7 +77,8 @@ Use the **Tests** tab in your requests, folders, and collections to write tests 
     * [Test not failing](#test-not-failing)
 * [Validating response structure](#validating-response-structure)
 * [Sending an asynchronous request](#sending-an-asynchronous-request)
-* [Older style of writing Postman tests (deprecated)](#older-style-of-writing-postman-tests-deprecated)
+* [Previous style of writing Postman tests (deprecated)](#previous-style-of-writing-postman-tests-deprecated)
+* [Next steps](#next-steps)
 
 ## Getting started with tests
 
@@ -87,7 +96,7 @@ This test checks the response code returned by the API. If the response code is 
 
 [![Test output](https://assets.postman.com/postman-docs/example-test-assertion-result-v9.jpg)](https://assets.postman.com/postman-docs/example-test-assertion-result-v9.jpg)
 
-To see what test results look like when they pass or fail, change the status code in the assertion code and send the request again.
+To learn what test results look like when they pass or fail, change the status code in the assertion code and send the request again.
 
 Structure your test assertions in a variety of ways to suit your logic and preference in terms of how you want the results to output. The following code is an alternative way of achieving the same test as the one above using the `expect` syntax:
 
@@ -133,7 +142,7 @@ const responseJson = xml2Json(pm.response.text());
 
 > If you're dealing with complex XML responses you may find [console logging](/docs/sending-requests/troubleshooting-api-requests/#using-the-console) useful.
 
-To parse CSV, use the [CSV parse](https://github.com/adaltas/node-csv-parse) utility:
+To parse CSV, use the [CSV parse](https://github.com/adaltas/node-csv/tree/master/packages/csv-parse) utility:
 
 ```js
 const parse = require('csv-parse/lib/sync');
@@ -343,7 +352,7 @@ pm.test("Test array properties", () => {
 });
 ```
 
-> The order in `.members` does'nt affect the test.
+> The order in `.members` doesn't affect the test.
 
 ### Asserting object properties
 
@@ -472,7 +481,7 @@ You may encounter the `AssertionError: expected undefined to deeply equal..` iss
 pm.expect(jsonData.name).to.eql("John");
 ```
 
-In the above example, if you see `AssertionError: expected undefined to deeply equal 'John'`, this indicates that the `name` property isn't defined in the `jsonData` object.
+In the above example, if you get the error `AssertionError: expected undefined to deeply equal 'John'`, this indicates that the `name` property isn't defined in the `jsonData` object.
 
 ### Test not failing
 
@@ -533,7 +542,7 @@ pm.sendRequest("https://postman-echo.com/get", function (err, response) {
 
 ## Previous style of writing Postman tests (deprecated)
 
-> **This section refers to deprecated script syntax used in previous versions of Postman. If you are writing scripts now, use the current syntax described above.**
+> **This section refers to deprecated script syntax used in previous versions of Postman. If you are writing new scripts, use the syntax described above.**
 
 The previous style of writing Postman tests relies on setting values for the `tests` object. Set a descriptive key for an element in the object and then assert if it's true or false. For example, the following will check if the response body contains the `user_id` string:
 
@@ -610,4 +619,7 @@ tests["Successful POST request"] = responseCode.code === 201 || responseCode.cod
 
 ## Next steps
 
-Automate your test runs using the [collection runner](/docs/running-collections/intro-to-collection-runs/).
+Now that you have seen test script examples for various scenarios, you may be interested in extending your own tests:
+
+* To learn how to use dynamic variables in your test scripts, visit [Dynamic variables](/docs/writing-scripts/script-references/variables-list/).
+* To learn more about how to use the `pm` object, visit the [Postman JavaScript reference](/docs/writing-scripts/script-references/postman-sandbox-api-reference/).

@@ -104,7 +104,7 @@ In the example below, Postman sent the certificate because the request used `htt
 
 ### Viewing certificate details
 
-You can view more certificate details in the response pane below the request. The network icon <img alt="Network information locked icon" src="https://assets.postman.com/postman-docs/icon-globe-locked.jpg#icon" width="16px"> includes a padlock if a request was sent using HTTPS. Hover over the network icon to view information about the certificate that was sent with the request, and any warnings or errors such as self-signed or expired certificates.
+You can view more certificate details in the response pane. The network icon <img alt="Network information locked icon" src="https://assets.postman.com/postman-docs/icon-globe-locked.jpg#icon" width="16px"> includes a padlock if a request was sent using HTTPS. Hover over the network icon to view information about the certificate that was sent with the request, and any warnings or errors such as self-signed or expired certificates.
 
 [![Network details](https://assets.postman.com/postman-docs/certificates-network-details-v9-14.jpg)](https://assets.postman.com/postman-docs/certificates-network-details-v9-14.jpg)
 
@@ -122,7 +122,7 @@ To fix the error, turn off SSL verification for the request:
 
 > You can turn off SSL verification globally in the [Postman settings](/docs/getting-started/settings/) on the **General** tab.
 
-If SSL verification is turned off, you can hover over the network icon <img alt="Network information error icon" src="https://assets.postman.com/postman-docs/icon-globe-error.jpg#icon" width="16px"> in the response pane to see details about any certificate errors or warnings.
+If SSL verification is turned off, you can hover over the network icon <img alt="Network information error icon" src="https://assets.postman.com/postman-docs/icon-globe-error.jpg#icon" width="16px"> in the response pane to get details about any certificate errors or warnings.
 
 [![Network information error](https://assets.postman.com/postman-docs/certificates-network-error-v9-14.jpg)](https://assets.postman.com/postman-docs/certificates-network-error-v9-14.jpg)
 

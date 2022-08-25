@@ -1,9 +1,6 @@
 ---
 title: "Integrating with Postman"
-order: 161
-page_id: "intro_integrations"
-updated: 2022-02-08
-warning: false
+updated: 2022-04-29
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -29,6 +26,7 @@ Postman provides an API development toolchain aimed at integrating with your wor
 ## Contents
 
 * [Accessing integrations](#accessing-integrations)
+* [Installed apps](#installed-apps)
 * [Static IP support](#static-ip-support)
 * [CI integrations](#ci-integrations)
 
@@ -46,6 +44,12 @@ Select __Add Integration__ to configure your integration. Enter the required inf
 
 ![Add Integrations](https://assets.postman.com/postman-docs/add-integration-b.jpg)
 
+## Installed apps
+
+Adding an integration requires you to authenticate with the third-party app or service you are connecting to Postman. For supported integrations, you can store the authorization details in an _installed app_. Anyone on your team can then use the installed app to add a new integration, instead of authenticating with their own credentials.
+
+Learn more about [adding and using installed apps in integrations](/docs/integrations/installed-apps/).
+
 ## Static IP support
 
 You can use static IP addresses to enable integrations and custom webhooks for Postman Collection backups that need to access hosted (private) networks behind firewalls that require IP addresses from an allowlist.
@@ -56,7 +60,7 @@ Contact your IT team to allowlist the following static IP in your firewall to en
 
 Once you allowlist this IP address, calls for the integrations and webhooks will be able to connect to your network and allow the integrations and webhooks to work as expected.
 
-> DNS records use the public IP address for instances which are behind a firewall or not accessible via the internet.
+> DNS records use the public IP address for instances that are behind a firewall or that can't be accessed on the internet.
 
 Postman supports implementing static IP addresses for the following integrations and webhooks:
 

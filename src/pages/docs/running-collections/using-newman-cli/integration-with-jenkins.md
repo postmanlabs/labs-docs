@@ -13,6 +13,9 @@ contextual_links:
   - type: subtitle
     name: "Videos"
   - type: link
+    name: "API Lifecycle, Part 2: Monitor and Deploy an API | Postman Space Camp"
+    url: "https://youtu.be/voAUfBx8fnE"
+  - type: link
     name: "Continuous Testing with Postman | Webinar"
     url: "https://youtu.be/sB2HHrezQOo"
   - type: subtitle
@@ -90,7 +93,7 @@ After you've created the collection, [export it as a JSON file](/docs/getting-st
 
    Jenkins indicates that the build has failed with a red cross next to the build in the build history. This is because of the intentionally failed tests in the collection.
 
-1. Select the build in the history list, then select **Console Output** to see what Newman returned.
+1. Select the build in the history list, then select **Console Output** to inspect what Newman returned.
 
 1. Fix these tests inside your collection. Export it and then run the build again.
 
@@ -105,7 +108,7 @@ To set the frequency with which Jenkins runs Newman:
 1. Go to **Build Triggers** and select **Build periodically**.
 1. Enter a schedule. The syntax for setting the frequency to every 30 minutes is `H/(30) * * * *`.
 
-    > Select the help icon next to **Schedule** to see information on how to specify the build frequency.
+    > Select the help icon next to **Schedule** to learn how to specify the build frequency.
 1. Select **Save**.
 
 Jenkins will now run Newman at your desired frequency and will tell you if the build failed or succeeded.

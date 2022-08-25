@@ -33,7 +33,7 @@ contextual_links:
 warning: false
 ---
 
-Examples show your API endpoints in action and provide additional details on exactly how requests and responses work. You can quickly add an example to a request just by saving a response, or create an example with a custom response to illustrate a specific use case. Once you've created examples, you can use them to set up a mock server or add more detail to your API documentation.
+Examples show your API endpoints in action and provide additional details on exactly how requests and responses work. You can add an example to a request by saving a response, or you can create an example with a custom response to illustrate a specific use case. Once you've created examples, you can use them to set up a mock server or add more detail to your API documentation.
 
 ## Contents
 
@@ -91,7 +91,7 @@ With a custom example, you can define exactly how both the [request](/docs/sendi
 
 ## Editing an example
 
-Examples are stored in a collection below their associated requests. You can edit an example any time after adding it to remove sensitive tokens, change the status code, or make any other adjustments.
+Examples are stored in a collection with their associated requests. You can edit an example at any time to remove sensitive tokens, change the status code, or make any other adjustments.
 
 1. Select **Collections** in the sidebar.
 1. Select a request, and then select an example to open it.
@@ -129,4 +129,7 @@ Examples provide additional details and clarification for your API and help your
 
 ## Next steps
 
-Use examples to [set up a mock server](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/) or include examples in your [API documentation](/docs/publishing-your-api/documenting-your-api/).
+Now that you have learned the fundamentals of creating examples in Postman, you can use them to set up a mock server and to enhance your documentation.
+
+* To learn how to use examples to set up a mock server, visit [Setting up mock servers](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/).
+* To learn how to include examples in your API documentation, visit [Documenting your API](/docs/publishing-your-api/documenting-your-api/).

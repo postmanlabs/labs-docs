@@ -1,22 +1,113 @@
 import React from 'react';
+import ReactDOMServer from 'react-dom/server';
 import { OutboundLink } from 'gatsby-plugin-google-analytics';
 import { v4 as uuidv4 } from 'uuid';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
-import '../../styles/config/_pm-icons.css';
 import upcomingEvents from '../../bff-data/events.json';
-import HeroImage from '../assets/refresh-hero-image.svg';
 import { LandingCard } from '../components/MarketingPages/Cards';
 import '../../styles/config/normalize.css';
 import '../components/MarketingPages/Buttons.scss';
 import './index.scss';
+import '../../styles/config/_pm-icons.css';
 
 const heroBackground = {
   backgroundColor: '#f9f9f9',
   padding: '48px 80px',
 };
 
+const months = [
+  'Jan',
+  'Feb',
+  'Mar',
+  'Apr',
+  'May',
+  'Jun',
+  'Jul',
+  'Aug',
+  'Sep',
+  'Oct',
+  'Nov',
+  'Dec',
+];
+
+function getEvents(sortedUpcomingEvents) {
+  return sortedUpcomingEvents.length > 0 && ( // If there are events in the events.json array
+    sortedUpcomingEvents.map((event) => {
+      const eventYear = event.date.match(/20[0-9][0-9]/)[0];
+      const eventMonth = parseInt(event.date.split(/20[0-9][0-9]-/).pop().split('-').shift(), 10);
+      const eventMonthIndex = eventMonth - 1;
+      const eventDay = parseInt(event.date.split(/20[0-9][0-9]-[0-9][0-9]-/).pop().split('T').shift(), 10);
+      const eventDate = `${eventMonth}/${eventDay}/${eventYear}`;
+      const eventInformation = `${event.location} - ${eventDate} ${event.time}`;
+      return (
+        <div className={`col-12 col-lg-10 offset-lg-1 event-single-wrapper`} key={uuidv4()}>
+          <div className="row">
+            <div className="col-12 col-lg-3 event-date event-month">
+              {/* <span className="event-month"> */}
+              {`${months[eventMonthIndex]}`}
+              {/* </span> */}
+              {' '}
+              {`${eventDay}`}
+            </div>
+            <div className="col-12 col-lg-9 event-description-wrapper">
+              <p className="mb-1 event-location">{`${eventInformation}`}</p>
+              <h4 className="event-title">{event.title}</h4>
+              <p>{event.description}</p>
+              <OutboundLink
+                className="event-link-wrapper link-style"
+                href={event.link}
+                target="_blank"
+                rel="noopener"
+              >
+                <span>See details →</span>
+              </OutboundLink>
+            </div>
+          </div>
+        </div>
+      );
+    })
+  ) || (
+    <>
+      {/* If there are no events, and events.json is an object
+        where development eq true */}
+      {!Array.isArray(upcomingEvents) && upcomingEvents.development ? (
+        <div className="events__alert" role="alert">
+          <p>
+            You are currently in develop mode. Dynamic events will not be displayed
+            locally.
+            <a
+              className="link-style"
+              style={{ fontSize: 'inherit' }}
+              href="https://github.com/postmanlabs/postman-docs/blob/develop/CONTRIBUTING.md"
+              target="_blank"
+              rel="noopener"
+            >
+              See Contributing doc for details
+            </a>
+            .
+          </p>
+        </div>
+      ) : (
+        <>
+          {/* else we know we have 0 upcoming events, and we are not
+            in development mode */}
+          <p>We currently have no upcoming events...check back later.</p>
+        </>
+      )}
+    </>
+  )
+}
+
 class IndexPage extends React.Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      sortedUpcomingEvents: upcomingEvents,
+    };
+  }
+
   componentDidMount() {
     const pix = document.createElement('script');
     pix.language = 'JavaScript1.1';
@@ -33,24 +124,29 @@ class IndexPage extends React.Component {
       polyfill.async = true;
       document.body.appendChild(polyfill);
     }
+
+    try {
+      window.pm.bff(
+        'events',
+        (d) => {
+          if (d) {
+            const data = JSON.parse(d);
+            const sortedUpcomingEvents = document.getElementById('sorted-upcoming-events');
+
+            sortedUpcomingEvents.innerHTML = ReactDOMServer.renderToString(getEvents(data));
+          }
+        }
+      );
+    } catch (err) {
+      if (window.pm && typeof window.pm.log === 'function') {
+        window.pm.log(err);
+      }
+    }
   }
 
   render() {
-    const months = [
-      'Jan',
-      'Feb',
-      'Mar',
-      'Apr',
-      'May',
-      'Jun',
-      'Jul',
-      'Aug',
-      'Sep',
-      'Oct',
-      'Nov',
-      'Dec',
-    ];
-    const sortedUpcomingEvents = upcomingEvents;
+    const { state } = this;
+    const { sortedUpcomingEvents } = state;
 
     return (
       <Layout>
@@ -68,12 +164,12 @@ class IndexPage extends React.Component {
                     Check out the docs and support resources!
                   </p>
                   <a href="/docs/getting-started/introduction/" className="btn btn__primary-hollow mb-5">
-                    Explore the docs
+                    Explore the Docs
                   </a>
                 </div>
                 <div className="col-sm-12 col-md-6 col-lg-6 align-self-center">
                   <img
-                    src={HeroImage}
+                    src="https://voyager.postman.com/illustration/postman-learning-center-documentation-illustration.svg"
                     width="637"
                     height="411"
                     className="hero-image img-fluid"
@@ -204,78 +300,8 @@ class IndexPage extends React.Component {
               </div>
             </div>
             <div className="col-12 col-lg-8 justify-content-center d-flex align-items-stretch event-wrapper">
-              <div className="row">
-                {/* If there are events in the events.json array */}
-                {sortedUpcomingEvents.length > 0 ? (
-                  // Map over, get the appropriate values and render event.
-                  sortedUpcomingEvents.map((event) => {
-                    // Used for Left side of events (Example: JAN 1)
-                    const dateObject = new Date(event.date);
-                    // Used for Right Side of events
-                    const today = new Date(event.date);
-                    const date = `${today.getMonth() + 1}/${today.getDate()}/${today.getFullYear()}`;
-                    // Combine platform, date and time of the event
-                    // Example: Livestream - 01/01/2000 4PM PST
-                    const eventInformation = `${event.location} - ${date} ${event.time}`;
-                    // added parathensis to remove linter error
-                    const isStale = new Date(event.expirationDate) < ((new Date()) && ' d-none') || '';
-                    return (
-                      <div className={`col-12 col-lg-10 offset-lg-1 ${isStale} event-single-wrapper`} key={uuidv4()}>
-                        <div className="row">
-                          <div className="col-12 col-lg-3 event-date event-month">
-                            {/* <span className="event-month"> */}
-                            {`${months[dateObject.getUTCMonth()]}`}
-                            {/* </span> */}
-                            {' '}
-                            {`${dateObject.getDate()}`}
-                          </div>
-                          <div className="col-12 col-lg-9 event-description-wrapper">
-                            <p className="mb-1 event-location">{`${eventInformation}`}</p>
-                            <h4 className="event-title">{event.title}</h4>
-                            <p>{event.description}</p>
-                            <OutboundLink
-                              className="event-link-wrapper link-style"
-                              href={event.link}
-                              target="_blank"
-                              rel="noopener"
-                            >
-                              <span>See details →</span>
-                            </OutboundLink>
-                          </div>
-                        </div>
-                      </div>
-                    );
-                  })
-                ) : (
-                  <>
-                    {/* If there are no events, and events.json is an object
-                      where development eq true */}
-                    {!Array.isArray(upcomingEvents) && upcomingEvents.development ? (
-                      <div className="events__alert" role="alert">
-                        <p>
-                          You are currently in develop mode. Dynamic events will not be displayed
-                          locally.
-                          <a
-                            className="link-style"
-                            style={{ fontSize: 'inherit' }}
-                            href="https://github.com/postmanlabs/postman-docs/blob/develop/CONTRIBUTING.md"
-                            target="_blank"
-                            rel="noopener"
-                          >
-                            See Contributing doc for details
-                          </a>
-                          .
-                        </p>
-                      </div>
-                    ) : (
-                      <>
-                        {/* else we know we have 0 upcoming events, and we are not
-                          in development mode */}
-                        <p>We currently have no upcoming events...check back later.</p>
-                      </>
-                    )}
-                  </>
-                )}
+              <div id="sorted-upcoming-events" className="row">
+                {getEvents(sortedUpcomingEvents)}
               </div>
             </div>
           </section>

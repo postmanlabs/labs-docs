@@ -1,7 +1,7 @@
 ---
 title: "Defining roles"
 order: 72
-updated: 2022-02-10
+updated: 2022-05-11
 page_id: "roles_and_permissions"
 warning: false
 contextual_links:
@@ -9,7 +9,7 @@ contextual_links:
     name: "Prerequisites"
   - type: link
     name: "Working with your team"
-    url: "/docs/collaborating-in-postman/collaboration-intro/"
+    url: "/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/"
   - type: section
     name: "Additional Resources"
   - type: subtitle
@@ -31,9 +31,9 @@ contextual_links:
 
 ---
 
-> Certain team options are only available on **[Postman Basic, Professional, and Enterprise plans](https://www.postman.com/pricing)**. To see which roles are available on your plan, go to your **[web dashboard](https://go.postman.co/settings/team/roles)**.
+> Certain team options are only available on **[Postman Basic, Professional, and Enterprise plans](https://www.postman.com/pricing)**. To learn which roles are available on your plan, go to your **[web dashboard](https://go.postman.co/settings/team/roles)**.
 
-Roles determine user permissions within a Postman team and a user's level of access to a Postman element, like a collection or an API.
+Roles define user permissions within a Postman team and a user's level of access to a Postman element, like a collection or an API.
 
 ## Contents
 
@@ -59,43 +59,47 @@ Roles determine user permissions within a Postman team and a user's level of acc
 
 ## Team roles
 
-With the [Admin role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles), you have the power to define Postman access at the team level. You can use Postman's role-based access control system to limit visibility of team resources, define your development workflow, and provide access to administrative and billing personnel. Each user on a team must have at least one role attached to them, and can hold multiple roles simultaneously.
+With the [Admin role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles), you have the power to define Postman access at the team level. You can use Postman's role-based access control system to limit visibility of team resources, define your development workflow, and give access to administrative and billing personnel. Each user on a team must have at least one role attached to them, and can hold multiple roles simultaneously.
 
-You can [assign](/docs/administration/managing-your-team/managing-your-team/) one or more role types to your team members, based on the functions those team members require:
+You can [assign](/docs/administration/managing-your-team/managing-your-team/) one or more role types to team members, based on the functions those team members require:
 
-* **Super Admin**: Manages everything within a team, including team settings, members, roles, and resources in [public, team, or private workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#changing-workspace-visibility). Team members with this role can perform all actions that Admin, Billing, Community Manager, and Developer roles can perform ([Enterprise plans only](https://www.postman.com/pricing)).
-* **Admin**: Manages team members and team settings.
-* **Billing**: Manages team plan and payments. Billing roles can be granted by a Super Admin, by a fellow team member with a Billing role, or by an Admin when inviting a new team member. If this is not possible, contact our [Support Center](https://support.postman.com/hc/en-us).
-* **Developer**: Has access to all team resources and workspaces.
-* **Community Manager**: Manages the public visibility of workspaces and team profile ([Professional and Enterprise plans only](https://www.postman.com/pricing)).
+* **Super Admin** - Manages everything within a team, including team settings, members, roles, and resources in [public, team, or private workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#changing-workspace-visibility). Team members with this role can perform all actions that Admin, Billing, Community Manager, API Network Manager, and Developer roles can perform ([Enterprise plans only](https://www.postman.com/pricing)).
+* **Admin** - Manages team members and team settings.
+* **Billing** - Manages team plan and payments. Billing roles can be granted by a Super Admin, by a fellow team member with a Billing role, or by an Admin when inviting a new team member. If this isn't possible, contact the [Support Center](https://support.postman.com/hc/en-us).
+* **Developer** - Has access to all team resources and workspaces.
+* **Community Manager** - Manages the public visibility of workspaces and team profile ([Professional and Enterprise plans only](https://www.postman.com/pricing)).
+* **API Network Manager** - Manages a team's [Private API Network](/docs/collaborating-in-postman/adding-private-network/), including adding APIs and reviewing requests to add APIs. A Super Admin or another team member with the API Network Manager role can grant this role to a user ([Enterprise plans only](https://www.postman.com/pricing)).
 
 > If you are on a [Postman Enterprise plan](https://www.postman.com/pricing), you can also assign roles at the [group level](/docs/administration/managing-your-team/user-groups/).
 
-Team roles provide high-level access control:
+Team roles offer high-level access control:
 
-| Permission | Super Admin | Admin | Billing | Developer | Community Manager |
-| --- |:---:| --- | --- | --- | --- |
-| Add users | &#x2714; | &#x2714; | | |
-| Remove users | &#x2714; | &#x2714; | | |
-| Manage Team Admins and Developers | &#x2714; | &#x2714; | | |
-| Manage SSO | &#x2714; | &#x2714; || |
-| Manage custom domains  | &#x2714; | &#x2714; | | |
-| View audit logs  | &#x2714; | &#x2714; | | | &#x2714;
-| View usage data | &#x2714; | &#x2714; | &#x2714; | &#x2714; | &#x2714;
-| Manage Billing members | &#x2714; | | &#x2714; | |
-| Manage payment | &#x2714; | | &#x2714; | | |
-| Change plan  | &#x2714; | | &#x2714; | |
-| View shared APIs, collections, environments, mock servers and monitors | &#x2714; | | | &#x2714; | &#x2714;
-| View and create team workspaces | &#x2714; | | | &#x2714; | &#x2714;
-| Change visibility of workspaces to team or public | &#x2714; | | | &#x2714;&ast; | &#x2714;
-| Approve requests to change workspace visibility&ast;&ast; | &#x2714; | | | | &#x2714;
-| Enable public team profile | &#x2714; | &#x2714; | | | &#x2714;
+| Permission | Super Admin | Admin | Billing | Developer | Community Manager | API Network Manager |
+| --- |:---:| --- | --- | --- | --- | --- |
+| Add users | &#x2714; | &#x2714; | | | |
+| Remove users | &#x2714; | &#x2714; | | | |
+| Manage team Admins and Developers | &#x2714; | &#x2714; | | | |
+| Manage SSO | &#x2714; | &#x2714; || | |
+| Manage custom domains  | &#x2714; | &#x2714; | | | |
+| View audit logs  | &#x2714; | &#x2714; | | | &#x2714; |
+| View usage data | &#x2714; | &#x2714; | &#x2714; | &#x2714; | &#x2714; |
+| Manage Billing members | &#x2714; | | &#x2714; | | |
+| Manage payment | &#x2714; | | &#x2714; | | | |
+| Change plan  | &#x2714; | | &#x2714; | | |
+| View shared APIs, collections, environments, mock servers and monitors | &#x2714; | | | &#x2714; | &#x2714; |
+| View and create team workspaces | &#x2714; | | | &#x2714; | &#x2714; |
+| Change visibility of workspaces to team or public | &#x2714; | | | &#x2714;&ast; | &#x2714; |
+| Approve requests to change workspace visibility&ast;&ast; | &#x2714; | | | | &#x2714; |
+| Enable public team profile | &#x2714; | &#x2714; | | | &#x2714; |
+| Manage a team's Private API Network&ast;&ast;&ast; | | | | | | &#x2714; |
 
-&ast; On Postman Basic and Free plans, any developer can change visibility of workspaces
+&ast; On Postman Basic and Free plans, any developer can change visibility of workspaces.
 
-&ast;&ast; Enterprise and Professional plans only
+&ast;&ast; Enterprise and Professional plans only.
 
-> **Postman support users**. Members with a Developer or Super Admin role consume a paid slot on your team. Team members who have only Admin or Billing roles become support users and don’t consume paid slots. Your team can have two support users.
+&ast;&ast;&ast; Enterprise plans only. Teams that don't use the [optional approval process workflow](/docs/collaborating-in-postman/adding-private-network/#using-the-approval-process-workflow) for the Private API Network can allow users with [an API Editor role](/docs/collaborating-in-postman/roles-and-permissions/#element-based-roles) to add APIs to the Private API Network instead.
+
+> **Postman support users**. Members with a Developer or Super Admin role consume a paid slot on your team. Team members who have only Admin or Billing roles become support users and don’t consume paid slots. Each team can have two support users.
 
 ### Managing team roles
 
@@ -128,14 +132,14 @@ The following roles control access at a workspace level:
 
 ## Element-based roles
 
-At the element level, you can assign roles to team members that determine their level of access to Postman [collections](#collection-roles), [APIs](#api-roles), [mock servers](#mock-server-roles), and [monitors](#monitor-roles).
+At the element level, you can assign roles to team members that decide their level of access to Postman [collections](#collection-roles), [APIs](#api-roles), [mock servers](#mock-server-roles), and [monitors](#monitor-roles).
 
 ### Collection roles
 
 You can [assign](/docs/administration/managing-your-team/managing-your-team/) two role types in Postman collections: **Editor** and **Viewer**.
 
-* **Editor**: Can edit collections directly
-* **Viewer**: Can view, fork, and export collections
+* **Editor** - Can edit collections directly
+* **Viewer** - Can view, fork, and export collections
 
 The following roles control access at a collection level:
 
@@ -156,8 +160,8 @@ The following roles control access at a collection level:
 
 You can [assign](/docs/administration/managing-your-team/managing-your-team/) two role types in Postman APIs: **Editor** and **Viewer**.
 
-* **Editor**: Can edit APIs directly
-* **Viewer**: Can view and export APIs
+* **Editor** - Can edit APIs directly
+* **Viewer** - Can view and export APIs
 
 The following roles control access at an API level:
 
@@ -169,20 +173,20 @@ The following roles control access at an API level:
 | Comment on APIs |   &#x2714;   | &#x2714;   |
 | Create new API versions |  &#x2714;   |    |
 | Update schema |  &#x2714;   |    |
-| Generate collections from the schema |   &#x2714;  | &#x2714;   |
+| Generate collections from the schema |   &#x2714;  |    |
 | View reports for APIs |   &#x2714;  | &#x2714;   |
-| Add and remove API environments |   &#x2714;  | &#x2714;   |
-| Add and remove API documentation |   &#x2714;  | &#x2714;   |
-| Add and remove API tests |   &#x2714;  | &#x2714;   |
-| Add and remove API monitors |   &#x2714;  | &#x2714;   |
-| Add and remove API mock servers |   &#x2714;  | &#x2714;   |
+| Add and remove API environments |   &#x2714;  |    |
+| Add and remove API documentation |   &#x2714;  |   |
+| Add and remove API tests |   &#x2714;  |   |
+| Add and remove API monitors |   &#x2714;  |    |
+| Add and remove API mock servers |   &#x2714;  |    |
 
 ## Environment roles
 
 You can [assign](/docs/administration/managing-your-team/managing-your-team/) two role types for Postman environments: **Editor** and **Viewer**.
 
-* **Editor**: Can edit and manage environments
-* **Viewer**: Can view and use environments
+* **Editor** - Can edit and manage environments
+* **Viewer** - Can view and use environments
 
 The following roles control access at the mock server level:
 
@@ -199,8 +203,8 @@ Move environment | &#x2714; |
 
 You can [assign](/docs/administration/managing-your-team/managing-your-team/) two role types for Postman mock servers: **Editor** and **Viewer**.
 
-* **Editor**: Can edit and manage mock servers
-* **Viewer**: Can view mock servers and associated metadata
+* **Editor** - Can edit and manage mock servers
+* **Viewer** - Can view mock servers and associated metadata
 
 The following roles control access at the mock server level:
 
@@ -217,8 +221,8 @@ Move mock server | &#x2714; |
 
 You can [assign](/docs/administration/managing-your-team/managing-your-team/) two role types for Postman monitors: **Editor** and **Viewer**.
 
-* **Editor**: Can view monitor metadata, metrics, jobs, and runs. Can run, update, delete, pause, and resume the monitor.
-* **Viewer**: Can view monitor metadata, metrics, jobs, and runs.
+* **Editor** - Can view monitor metadata, metrics, jobs, and runs. Can run, update, delete, pause, and resume the monitor.
+* **Viewer** - Can view monitor metadata, metrics, jobs, and runs.
 
 Monitor server | Editor | Viewer
 --- | --- | ---
@@ -233,4 +237,6 @@ Update monitor roles | &#x2714; |
 
 ## Next steps
 
-Learn more about [Managing your team](/docs/administration/managing-your-team/managing-your-team/), including managing team roles and inviting collaborators to join your team.
+Now that you understand the roles available to team members, you can manage your team's level of access and control more effectively.
+
+* To learn more about team management, including managing team roles and inviting collaborators to join your team, visit [Managing your team](/docs/administration/managing-your-team/managing-your-team/).

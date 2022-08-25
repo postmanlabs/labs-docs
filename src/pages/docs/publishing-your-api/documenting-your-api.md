@@ -22,22 +22,17 @@ contextual_links:
   - type: link
     name: "API Publishers Series, Part 2: Increase Adoption of your Public API"
     url: "https://youtu.be/52pXP3X4a_8"
-  - type: subtitle
+  - type: dynamic_blog
     name: "Blog Posts"
-  - type: link
-    name: "Introducing The Good Documentation Checklist"
-    url: "https://blog.postman.com/postman-good-documentation-checklist/"
-  - type: link
-    name: "Design Your Own Style Guide with This Public Workspace Linter"
-    url: "https://blog.postman.com/design-your-style-guide-public-workspace-linter/"
+    blog_tag: "documentation"
   - type: subtitle
     name: "Case Studies"
   - type: link
-    name: "Cisco DevNet"
-    url: "https://www.postman.com/case-studies/cisco-devnet/"
+    name: "SEI Novus"
+    url: "https://www.postman.com/case-studies/sei-novus/"
   - type: link
-    name: "Imgur"
-    url: "https://www.postman.com/case-studies/imgur/"
+    name: "Code for Baltimore"
+    url: "https://www.postman.com/case-studies/code-for-baltimore/"
   - type: section
     name: "Next Steps"
   - type: link
@@ -56,7 +51,7 @@ warning: false
 
 Documentation is an important part of any collection or API. Good documentation helps the people who use your collection to understand what it does and how each request works. And comprehensive API documentation lets your consumers know what endpoints are available and how to successfully interact with them.
 
-Once you've generated documentation for your collection or API, users can [view the documentation](/docs/publishing-your-api/viewing-documentation/) in Postman. By default your documentation is private, so only people you share a collection or API with will be able to see it. If you're creating a public API, you can [publish your documentation](/docs/publishing-your-api/publishing-your-docs/) to make it publicly available to anyone with a web browser.
+Once you've generated documentation for your collection or API, users can [view the documentation](/docs/publishing-your-api/viewing-documentation/) in Postman. By default your documentation is private, so only people you share a collection or API with will be able to access it. If you're creating a public API, you can [publish your documentation](/docs/publishing-your-api/publishing-your-docs/) to make it publicly available to anyone with a web browser.
 
 ## Contents
 
@@ -73,7 +68,7 @@ Once you've generated documentation for your collection or API, users can [view 
 
 ## Documenting a collection
 
-Postman automatically generates basic documentation for any collection you create. [View the documentation](/docs/publishing-your-api/viewing-documentation/) to see details for all of the requests in your collection, along with sample code in various client languages. Request details include the method, authorization type, URL, headers, request and response structures, and examples. In addition, the documentation displays all key-value pairs for request parameters, headers, and bodies.
+Postman automatically generates basic documentation for any collection you create. [View the documentation](/docs/publishing-your-api/viewing-documentation/) for details about all of the requests in your collection, along with sample code in various client languages. Request details include the method, authorization type, URL, headers, request and response structures, and examples. In addition, the documentation displays all key-value pairs for request parameters, headers, and bodies.
 
 To make your documentation even more valuable to users, [add descriptions](/docs/publishing-your-api/authoring-your-documentation/) to the items in your collection. Any descriptions you add are automatically included in the documentation for your collection.
 
@@ -116,7 +111,7 @@ To generate a new collection for API documentation:
 1. Select the **Overview** tab.
 1. Select the **+** next to **Documentation**, and then select **Create new documentation**.
 1. Enter a name for the new collection. (Make it something you'll easily associate with this version of your API.)
-1. (Optional) Select **Show advanced settings** and change any settings as needed. See the description for each setting to learn more.
+1. (Optional) Select **Show advanced settings** and change any settings as needed. Read the description for each setting to learn more.
 1. Select **Create Documentation**. The new API documentation is displayed in the **Documentation** tab.
 
 <img alt="Generating new API documentation" src="https://assets.postman.com/postman-docs/documentation-generate-api-docs-v9.jpg" width="702px">
@@ -177,18 +172,18 @@ To use an environment variable in your documentation:
 
 ## Versioning your docs
 
-A [version](/docs/designing-and-developing-your-api/versioning-an-api/#versioning-concepts) is a set of features and functionality that your API delivers to consumers. A collection that contains API documentation can be linked to only one version of an API. That means, when you create a new version of your API, you'll also need to create a new documentation collection. You can then use the new collection to author documentation for the new API version.
+A [version](/docs/designing-and-developing-your-api/versioning-an-api/versioning-an-api-overview/#versioning-concepts) is a set of features and functionality that your API delivers to consumers. A collection that contains API documentation can be linked to only one version of an API. That means, when you create a new version of your API, you'll also need to create a new documentation collection. You can then use the new collection to author documentation for the new API version.
 
 There are several ways to create a documentation collection for a new version of your API:
 
-* **Carry over documentation when creating an API version** - When you [create a new API version](/docs/designing-and-developing-your-api/versioning-an-api/#creating-versions), you have the option to copy elements from a previous API version into the new version. Select the **Documentation** element, and then select **Create Version**. This will create a new documentation collection based on the previous collection, with the new version name appended to the collection name.
+* **Carry over documentation when creating an API version** - When you [create a new API version](/docs/designing-and-developing-your-api/versioning-an-api/api-versions/), you have the option to copy elements from a previous API version into the new version. Select the **Documentation** element, and then select **Create Version**. This will create a new documentation collection based on the previous collection, with the new version name appended to the collection name.
 
     <img alt="Creating a new version" src="https://assets.postman.com/postman-docs/documentation-new-version-v9.jpg" width="482px">
 
 * **Generate a collection from the new API version** - Open the new API version and select the **Overview** tab. Select the **+** next to **Documentation**, and then select **Create new documentation**.
 * **Add an existing to collection to the new API version** - Open the new API version and select the **Overview** tab. Select the **+** next to **Documentation**, and then select **Add existing documentation**.
 
-> Postman automatically generates schema documentation for each version of your API, based on that version's API definition. Once you've versioned your API, you'll see a new version of the schema documentation in the **Documentation** tab.
+> Postman automatically generates schema documentation for each version of your API, based on that version's API definition. Once you've versioned your API, you can access the new version of the schema documentation in the **Documentation** tab.
 
 ### Documenting releases
 
@@ -197,11 +192,14 @@ There are several ways to create a documentation collection for a new version of
 To document a new release of an API version:
 
 1. Before creating the release, [edit the API documentation](#editing-api-documentation) as needed.
-2. [Create a new release](/docs/designing-and-developing-your-api/versioning-an-api/#creating-a-release) of the API version.
+2. [Create a new release](/docs/designing-and-developing-your-api/versioning-an-api/api-releases/#creating-a-release) of the API version.
 3. If the documentation is public, [edit the publishing settings](/docs/publishing-your-api/publishing-your-docs/#changing-publication-settings) to include the new release.
 
 [![Viewing a release](https://assets.postman.com/postman-docs/documentation-view-release-v9.jpg)](https://assets.postman.com/postman-docs/documentation-view-release-v9.jpg)
 
 ## Next steps
 
-Learn more about [authoring your docs](/docs/publishing-your-api/authoring-your-documentation/) with Postman's built-in editing tools, [publishing your docs](/docs/publishing-your-api/publishing-your-docs/) to make them publicly available, and the various ways to [view documentation](/docs/publishing-your-api/viewing-documentation/).
+Now that you know how to generate API documentation in Postman, you can edit and format the docs and publish them.
+
+* To learn more about editing and formatting your documentation, visit [Authoring your docs](/docs/publishing-your-api/authoring-your-documentation/).
+* To learn how to make your documentation publicly available, visit [Publishing your docs](/docs/publishing-your-api/publishing-your-docs/).

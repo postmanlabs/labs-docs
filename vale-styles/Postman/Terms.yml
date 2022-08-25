@@ -1,5 +1,5 @@
 extends: substitution
-message: "Prefer '%s' over '%s'."
+message: "Use '%s' instead of '%s'."
 level: warning
 ignorecase: true
 action:
@@ -40,3 +40,6 @@ swap:
   zb: ZB
   viz: namely
   ergo: therefore
+  entity: element
+  trash icon: trash
+  trash can: trash

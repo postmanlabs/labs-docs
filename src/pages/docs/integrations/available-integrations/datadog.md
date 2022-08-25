@@ -30,6 +30,8 @@ Datadog is a monitoring service for cloud-scale applications. It combines data f
 
 Setting up a Datadog integration requires you to get an API key from Datadog and configure your Postman Monitors. After you set up the integration, you can view real-time alerts based on the results of your monitors.
 
+> **You can also view Datadog application performance management (APM) metrics in the Postman API Builder.** Viewing APM metrics is a separate integration from sending monitor results to Datadog. Learn more about [viewing Datadog APM metrics](/docs/designing-and-developing-your-api/observing-an-api/datadog-apm/).
+
 ## Retrieving your Datadog API key
 
 1. Sign in to [Datadog](https://app.datadoghq.com/). Open your Organization Settings page and select [API Keys](https://app.datadoghq.com/organization-settings/api-keys).
@@ -45,7 +47,7 @@ Setting up a Datadog integration requires you to get an API key from Datadog and
     ![home page and integrations](https://assets.postman.com/postman-docs/home-integrations.jpg)
 
 1. Search and select **Datadog**.
-1. You can select **View All** to see all integrations already created by your team.
+1. You can select **View All** for a list of all the integrations already created by your team.
 1. Select **Add Integration** to start the configuration process.
 
     [![datadog integrations page](https://assets.postman.com/postman-docs/datadog-details.jpg)](https://assets.postman.com/postman-docs/datadog-details.jpg)
@@ -62,7 +64,7 @@ Setting up a Datadog integration requires you to get an API key from Datadog and
 
 ## Viewing data in Datadog
 
-As soon as your monitor runs, the data will start flowing into Datadog.
+When your monitor runs, the data starts flowing into Datadog.
 
 [![view in datadog](https://assets.postman.com/postman-docs/datadog-monitor-alerts.jpg)](https://assets.postman.com/postman-docs/datadog-monitor-alerts.jpg)
 
@@ -107,7 +109,7 @@ Postman sends tags to Datadog along with each metric and event. Tags enable you 
 
 Postman is now a Datadog Technology Partner. Postman’s Integration is listed on Datadog’s Integrations page. To enable the partnership, the metrics being emitted by Postman have been renamed as described above.
 
-If you have previously created any integrations, you must update them to take the advantage of the integration listing on Datadog. To update existing integrations to the new format:
+If you have previously created any integrations, you must update them to take the advantage of the integration listing on Datadog. To update existing integrations:
 
 1. Go to the [Post monitoring results](https://go.postman.co/integrations/service/datadog/monitor_run_datadog) page.
 
@@ -121,6 +123,6 @@ If you have previously created any integrations, you must update them to take th
 
 The updated integration has the following benefits:
 
-* The Postman metrics for the new integration are no longer treated as [Custom Metrics](https://docs.datadoghq.com/metrics/) in Datadog, which means they're free. (Custom metrics on Datadog are [charged](https://docs.datadoghq.com/account_management/billing/custom_metrics/?tab=countrategauge).)
+* The Postman metrics for the integration are no longer treated as [Custom Metrics](https://docs.datadoghq.com/metrics/) in Datadog, which means they're free. (Custom metrics on Datadog are [charged](https://docs.datadoghq.com/account_management/billing/custom_metrics/?tab=countrategauge).)
 * Datadog provides a default dashboard that you can use to observe the monitor. Change the `monitor_name` variable to the monitor for which you want to observe the dashboard.
   [![Datadog dashboard](https://assets.postman.com/postman-docs/datadog-dashboard.jpg)](https://assets.postman.com/postman-docs/datadog-dashboard.jpg)

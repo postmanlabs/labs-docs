@@ -18,11 +18,11 @@ contextual_links:
   - type: subtitle
     name: "Videos"
   - type: link
-    name: "Intro to APIs"
-    url:  "https://www.youtube.com/watch?v=iFMLyMgCUTs&list=PLM-7VG-sgbtBBnWb2Jc5kufgtWYEmiMAw"
+    name: "Intro to APIs playlist"
+    url:  "https://youtube.com/playlist?list=PLM-7VG-sgbtA-MUiVgE-SwK_RkYgesikH"
   - type: link
-    name: "Postman intro series"
-    url: "https://www.youtube.com/playlist?list=PLM-7VG-sgbtAgGq_pef5y_ruIUBPpUgNJ"
+    name: "Intro to Postman playlist"
+    url: "https://youtube.com/playlist?list=PLM-7VG-sgbtAgGq_pef5y_ruIUBPpUgNJ"
   - type: link
     name: "Postman Space Camp: An Introduction for Developers"
     url: "https://youtu.be/8MOzaTsVRKg"
@@ -37,6 +37,9 @@ contextual_links:
   - type: subtitle
     name: "Blog Posts"
   - type: link
+    name: "First 5 Things to Try If You’re New to Postman"
+    url: "https://blog.postman.com/postman-first-5-things-to-try/"
+  - type: link
     name: "10 Postman Features Everyone Should Know"
     url: "https://blog.postman.com/10-postman-features-everyone-should-know/"
 
@@ -44,9 +47,9 @@ contextual_links:
 
 Welcome to the Postman docs! This is the place to find official information on how to use Postman in your API projects.
 
-[![Postman full view](https://assets.postman.com/postman-docs/intro-postman-request-selected-v9.8.3.jpg)](https://assets.postman.com/postman-docs/intro-postman-request-selected-v9.8.3.jpg)
+<img alt="Postman full view" src="https://assets.postman.com/postman-docs/intro-postman-request-selected-v9.19.2.jpg" width="1200px"/>
 
-If you're just starting to learn about APIs and Postman, you can use a variety of channels both in and outside Postman:
+If you're starting to learn about APIs and Postman, you can use a variety of channels both in and outside Postman:
 
 * [__Send your first request!__](/docs/getting-started/sending-the-first-request/)
 * Use the Bootcamp to work through lessons inside Postman. Open it by selecting <img alt="Bootcamp icon" src="https://assets.postman.com/postman-docs/icon-bootcamp-v9.jpg#icon" width="16px"> **Bootcamp** from the Postman footer.
@@ -68,7 +71,7 @@ If you're learning to carry out a specific task or workflow in Postman, check ou
 
 ### Making requests
 
-If you're building a client app or just need to connect to an API, check out some Postman essentials:
+If you're building a client app or want to connect to an API, check out some Postman essentials:
 
 * [Connecting to APIs](/docs/sending-requests/requests/)
 * [Authorizing requests](/docs/sending-requests/authorization/)
@@ -105,7 +108,7 @@ If you're exposing an API for public use, Postman can support developer onboardi
 
 If you're using Postman in your company or team, check out these guides to maximize your collaboration:
 
-* [Collaborating in Postman](/docs/collaborating-in-postman/collaboration-intro/)
+* [Collaborating in Postman](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/)
 * [Creating workspaces](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/)
 * [Managing Postman for an organization](/docs/administration/managing-your-team/managing-your-team/)
 * [Onboarding your team](/docs/administration/onboarding-checklist/)

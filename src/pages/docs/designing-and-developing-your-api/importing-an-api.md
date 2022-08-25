@@ -1,6 +1,6 @@
 ---
 title: 'Importing an API'
-updated: 2022-04-15
+updated: 2022-05-16
 search_keyword: "import, aws, api gateway"
 contextual_links:
   - type: section
@@ -35,7 +35,7 @@ To import your API specifications into Postman:
 1. From the sidebar, select __APIs__, then select **Import**.
 1. Select a file or folder, enter a link to the API, or paste your raw text.
 
-    > You can also import from a code repository or API gateway. See below for details.
+    > You can also import from a code repository or API gateway. Keep reading for more details.
 
 1. Confirm the name, format, and what you would like your data to import as.
 1. Select **Import** to bring your data into Postman.
@@ -66,7 +66,7 @@ You can import API schemas from a GitHub repository.
 
    ![Confirm import from GitHub](https://assets.postman.com/postman-docs/import-export-github-files-confirm.jpg)
 
-You will receive a confirmation once the import has completed. You can now view your newly imported API schemas and generated collections in Postman.
+You will receive a confirmation once the import is complete and you can view your imported API schemas and generated collections in Postman.
 
 ## Importing API schemas from Bitbucket
 
@@ -84,7 +84,7 @@ You can import API schemas from a Bitbucket repository.
 
 1. Postman shows a preview of the API schemas to import into your workspace. Select **Import** to confirm and complete the import.
 
-You will receive a confirmation once the import has completed. You can now view your newly imported API schemas and generated collections in Postman.
+You will receive a confirmation once the import is complete and you can view your imported API schemas and generated collections in Postman.
 
 ## Importing API schemas from Amazon API Gateway
 
@@ -120,7 +120,7 @@ Next, create an IAM role for Postman in AWS:
     > For more information, refer to the [AWS IAM guide on using external IDs](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_create_for-user_externalid.html).
 
 1. Select **Next: Permissions**.
-1. Select an existing IAM policy or select **Create policy**. If you are creating a policy, use the following JSON:
+1. Select an existing IAM policy or select **Create policy**. If you are creating a policy, use the following JSON code:
 
     ```json
     {
@@ -131,6 +131,8 @@ Next, create an IAM role for Postman in AWS:
                 "Effect": "Allow",
                 "Action": [
                     "apigateway:GET",
+                    "apigateway:PUT",
+                    "apigateway:POST",
                     "cloudwatch:GetMetricData"
                 ],
                 "Resource": [
@@ -140,6 +142,14 @@ Next, create an IAM role for Postman in AWS:
         ]
     }
     ```
+
+    This policy will enable exporting and deploying for HTTP API schemas. (Exporting and deploying aren't supported for REST API schemas.) You can customize the `Action` section in the IAM policy based on your needs:
+
+    * `"apigateway:GET"` - (Required) Enables viewing API Gateway deployments for HTTP and REST APIs in Postman.
+    * `"apigateway:PUT"` - Enables [exporting](/docs/designing-and-developing-your-api/deploying-an-api/deploying-an-api-aws/#exporting-and-deploying-your-api) HTTP API schemas to the API Gateway.
+    * `"apigateway:POST"` - Enables [deploying](/docs/designing-and-developing-your-api/deploying-an-api/deploying-an-api-aws/#exporting-and-deploying-your-api) HTTP API schemas to a stage on the API Gateway.
+    * `"apigateway:*"` - Assigns all GET, PUT, POST, PATCH, DELETE permissions to the IAM role.
+    * `"cloudwatch:GetMetricData"` - Enables [viewing CloudWatch metrics](/docs/designing-and-developing-your-api/deploying-an-api/deploying-an-api-aws/#viewing-cloudwatch-metrics) in Postman.
 
 1. Select **Next: Tags**.
 1. Select **Next: Review**.
@@ -160,7 +170,7 @@ Next, enter information about the connection:
 * Enter the **AWS Region** where the API Gateway is located and select the **API Gateway**.
 * Enter an **API Name** for the imported API.
 
-When you're ready, select **Import**.
+When you're ready, select **Import**. After importing your API schema, you can [view API deployments in Postman](/docs/designing-and-developing-your-api/deploying-an-api/deploying-an-api-aws/).
 
 ## Supported API schema formats
 

@@ -29,15 +29,13 @@ You can back up your team's Postman Collections with Postman's Bitbucket integra
 
     * [Configuring a Bitbucket integration](#configuring-a-bitbucket-integration)
 
-* [Next steps](#next-steps)
-
 ## API sync with Bitbucket
 
-Postman 9.0 introduced the ability to connect a git repository to an API. Instead of using an integration, you can directly connect a Bitbucket repo to an API in the API Builder. This provides two-way sync of schemas and associated collections, plus adds powerful new features for syncing branches and release tags between Postman and your repo. For more information on the new repo sync feature, see [Versioning APIs](/docs/designing-and-developing-your-api/versioning-an-api/).
+Postman 9.0 introduced the ability to connect a git repository to an API. Instead of using an integration, you can directly connect a Bitbucket repo to an API in the API Builder. This provides two-way sync of schemas and associated collections, plus adds features for syncing branches and release tags between Postman and your repo. For more information on the repo sync feature, see [Versioning APIs](/docs/designing-and-developing-your-api/versioning-an-api/).
 
 ## Backing up collections on Bitbucket
 
-You can back up your Postman Collections to your Bitbucket repository. Once the integration is configured, any new changes to your collection in Postman will also appear in Bitbucket.
+You can back up your Postman Collections to your Bitbucket repository. Once the integration is configured, any changes to your collection in Postman will also appear in Bitbucket.
 
 ### Configuring a Bitbucket integration
 
@@ -74,7 +72,3 @@ To confirm this integration, go to your [Bitbucket dashboard](https://bitbucket.
 You can select a commit to view your stored collection in JSON format.
 
 ![Bitbucket collection](https://assets.postman.com/postman-docs/bitbucket-collection.jpg)
-
-## Next steps
-
-Learn more about other Postman integrations, including [custom webhooks](/docs/integrations/webhooks/) and [Slack](/docs/integrations/available-integrations/slack/).
