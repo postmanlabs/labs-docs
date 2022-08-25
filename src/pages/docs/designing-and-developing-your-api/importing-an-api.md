@@ -55,7 +55,7 @@ If your API definition consists of multiple files:
 1. In the **Import Entities** tab, select the files you want to import for the API definition.
 1. Select **Import** to bring your API definition into Postman.
 
-To learn more about working with multi-file API definitions, see [Editing an API definition](/docs/designing-and-developing-your-api/defining-an-api/#editing-multi-file-API-definitions).
+To learn more about working with multi-file API definitions, see [Editing an API definition](/docs/designing-and-developing-your-api/developing-an-api/defining-an-api/#editing-multi-file-API-definitions).
 
 ## Importing API definitions from Amazon API Gateway
 
