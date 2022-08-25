@@ -96,7 +96,7 @@ After adding a client certificate, you don't have to perform any extra steps to 
 
 ### Confirming a certificate was sent
 
-You can confirm that a certificate was sent using the [Postman console](/docs/sending-requests/troubleshooting-api-requests/). Open the Postman console by selecting **Console** in the Postman footer, and then send a request.
+You can confirm that a certificate was sent using the [Postman Console](/docs/sending-requests/troubleshooting-api-requests/). Open the Postman Console by selecting **Console** in the Postman footer, and then send a request.
 
 In the example below, Postman sent the certificate because the request used `https://`. You can expand the request to view details about the certificate that was sent with the request.
 
@@ -104,7 +104,7 @@ In the example below, Postman sent the certificate because the request used `htt
 
 ### Viewing certificate details
 
-You can view more certificate details in the response pane below the request. The network icon <img alt="Network information locked icon" src="https://assets.postman.com/postman-docs/icon-globe-locked.jpg#icon" width="16px"> includes a padlock if a request was sent using HTTPS. Hover over the network icon to view information about the certificate that was sent with the request, and any warnings or errors such as self-signed or expired certificates.
+You can view more certificate details in the response pane. The network icon <img alt="Network information locked icon" src="https://assets.postman.com/postman-docs/icon-globe-locked.jpg#icon" width="16px"> includes a padlock if a request was sent using HTTPS. Hover over the network icon to view information about the certificate that was sent with the request, and any warnings or errors such as self-signed or expired certificates.
 
 [![Network details](https://assets.postman.com/postman-docs/certificates-network-details-v9-14.jpg)](https://assets.postman.com/postman-docs/certificates-network-details-v9-14.jpg)
 
@@ -115,17 +115,17 @@ If certificate verification fails when sending a request, Postman displays an er
 To fix the error, turn off SSL verification for the request:
 
 1. Open the request and select the **Settings** tab.
-1. Turn off the toggle next to **Enable SSL certificate verification**.
+1. Select **Enable SSL certificate verification** to turn off this setting.
 1. Send the request again.
 
 [![SSL certificate verification](https://assets.postman.com/postman-docs/certificates-ssl-verification-v9-14.jpg)](https://assets.postman.com/postman-docs/certificates-ssl-verification-v9-14.jpg)
 
 > You can turn off SSL verification globally in the [Postman settings](/docs/getting-started/settings/) on the **General** tab.
 
-If SSL verification is turned off, you can hover over the network icon <img alt="Network information error icon" src="https://assets.postman.com/postman-docs/icon-globe-error.jpg#icon" width="16px"> in the response pane to see details about any certificate errors or warnings.
+If SSL verification is turned off, you can hover over the network icon <img alt="Network information error icon" src="https://assets.postman.com/postman-docs/icon-globe-error.jpg#icon" width="16px"> in the response pane to get details about any certificate errors or warnings.
 
 [![Network information error](https://assets.postman.com/postman-docs/certificates-network-error-v9-14.jpg)](https://assets.postman.com/postman-docs/certificates-network-error-v9-14.jpg)
 
-You can also find more information about certificate errors in the [Postman console](/docs/sending-requests/troubleshooting-api-requests/).
+You can also find more information about certificate errors in the [Postman Console](/docs/sending-requests/troubleshooting-api-requests/).
 
 [![Console certificate error](https://assets.postman.com/postman-docs/certificates-console-error-v9-14.jpg)](https://assets.postman.com/postman-docs/certificates-console-error-v9-14.jpg)

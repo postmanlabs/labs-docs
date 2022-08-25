@@ -35,7 +35,7 @@ The Monitoring Usage Details dashboard shows your team's current billing period,
 
 [![monitoring usage details](https://assets.postman.com/postman-docs/monitoring-usage-details2.jpg)](https://assets.postman.com/postman-docs/monitoring-usage-details2.jpg)
 
-> **Concerned about overages?** Use the [Monitoring Usage Details dashboard](https://go.postman.co/usage/monitors) to see all of your team's active monitors in one place. You'll also find information to help you and your team make informed decisions on things like monitoring frequency. Learn more about [monitor overages](#allowing-monitor-overages).
+> **Concerned about overages?** Go to your [Monitoring Usage Details dashboard](https://go.postman.co/usage/monitors) for a list of all of your team's active monitors in one place. You'll also find information to help you and your team make informed decisions on things like monitoring frequency. Learn more about [monitor overages](#allowing-monitor-overages).
 
 ## How Postman calculates monitor usage
 
@@ -71,7 +71,7 @@ To purchase additional monitoring call blocks:
 
 ## Monitor activity limits
 
-Postman maintains default limits on various team and user actions to ensure the overall performance and availability of monitoring. Postman will notify team admins by email if your team encounters these limits. In addition, team members will see an alert in Postman.
+Postman maintains default limits on various team and user actions to ensure the overall performance and availability of monitoring. Postman will email your Team Admins if your team encounters these limits. In addition, team members will get an alert in Postman.
 
 Postman maintains the following monitoring limits per team:
 

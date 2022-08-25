@@ -1,4 +1,3 @@
-[Aa]gent
 ACH
 ACS
 ADFS
@@ -79,8 +78,6 @@ PFX
 PKCE
 PKG
 Postman
-Postman Interceptor
-Postman Professional
 RAML
 Red Hat Enterprise Linux
 repo
@@ -129,3 +126,6 @@ parsable
 datetime
 boolean
 config
+Vale
+Params
+strikethrough

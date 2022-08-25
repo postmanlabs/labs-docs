@@ -49,13 +49,13 @@ warning: false
 
 ## Creating a mock server
 
-The steps below walk you through the process of creating a mock server in Postman. First, you'll set up some basics that are required for mock servers to work. Once your mock server is up and running, you'll send requests to it and see how your examples are used to return data.
+The steps below walk you through the process of creating a mock server in Postman. First, you'll set up some basics that are required for mock servers to work. Once your mock server is up and running, you'll send requests to it and understand how your examples are used to return data.
 
 ### Step 1: Send a request
 
 In Postman, open a new request by selecting **+** or by selecting **New > HTTP Request**. Leave `GET` as the method, and for the request URL enter `https://postman-echo.com/get?test=123`. When ready, select **Send**.
 
-This request calls the [Postman Echo](https://docs.postman-echo.com/#078883ea-ac9e-842e-8f41-784b59a33722) service which you can use to test REST or SOAP clients and make sample API calls. The resulting response displays in the response pane below the request.
+This request calls the [Postman Echo](https://docs.postman-echo.com/#078883ea-ac9e-842e-8f41-784b59a33722) service which you can use to test REST or SOAP clients and make sample API calls. The resulting response displays in the response pane.
 
 <img alt="Send a request" src="https://assets.postman.com/postman-docs/mock-examples-step1-v9-1.jpg" width="808px">
 
@@ -139,7 +139,7 @@ Finally, repeat step 5 above, but this time add the path `/test` to the end of t
 
 ## Generating random data with dynamic variables
 
-As you've seen in this demonstration, you define the data to be returned by the mock server in your examples. However, there may be cases when you want the mock server to return a response containing random data.
+In this demonstration, you defined the data to be returned by the mock server in your examples. However, there may be cases when you want the mock server to return a response containing random data.
 
 To have your mock server return random data, use [dynamic variables](/docs/writing-scripts/script-references/variables-list/) in your example's response body. Dynamic variables are resolved as part of the mock server response and replaced with random data. Dynamic variables are useful for generating random data when mocking an API, and you can use them for exploratory testing and writing rich, data-driven tests.
 
@@ -156,7 +156,7 @@ For instance, your example's response body might contain dynamic variables as fo
 }
 ```
 
-When you call the mock server endpoint, you'll see the response data change to something like:
+When you call the mock server endpoint, the response data will change to something like:
 
 ```json
 {

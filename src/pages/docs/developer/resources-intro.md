@@ -1,7 +1,7 @@
 ---
 title: "Developing with Postman utilities"
 order: 145
-updated: 2020-07-06
+updated: 2022-07-20
 page_id: "resources_intro"
 search_keyword: "postman-api-key, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset"
 contextual_links:
@@ -41,7 +41,7 @@ Check out the pages in this section for an intro to developer resources that all
     * The Runtime library powers Postman request sending functionality.
 * [**Code generators**](/docs/developer/code-generators/)
     * Postman uses the code generators SDK to create client snippets from your requests.
-* [**Postman collection converters**](/docs/developer/collection-conversion/)
-    * The converters allow you to transform OpenAPI, Swagger, RAML, and GraphQL specs to Postman collection format.
+* [**Postman Collection converters**](/docs/developer/collection-conversion/)
+    * The converters allow you to transform OpenAPI, Swagger, RAML, and GraphQL specs to Postman Collection format.
 
-> You can use the __Postman CLI [Newman](/docs/running-collections/using-newman-cli/command-line-integration-with-newman/)__ in conjunction with other utilities to build collection runs into your development pipeline. Newman is also an [open-source project](https://github.com/postmanlabs/newman) that you can use and contribute to.
+> You can use [Newman](/docs/running-collections/using-newman-cli/command-line-integration-with-newman/), Postman's command-line collection runner, in conjunction with other utilities to build collection runs into your development pipeline. Newman is also an [open-source project](https://github.com/postmanlabs/newman) that you can use and contribute to.

@@ -2,7 +2,7 @@
 title: "Viewing collection-based monitor results"
 order: 90
 page_id: "viewing_monitor_results"
-updated: 2022-2-14
+updated: 2022-07-05
 contextual_links:
   - type: section
     name: "Additional Resources"
@@ -20,7 +20,7 @@ contextual_links:
 warning: false
 ---
 
-[Collection-based monitors](/docs/monitoring-your-api/setting-up-monitor/) continuously track the health and performance of your APIs. With Postman, you can stay up to date on what's happening across all collection-based monitors in your workspace, or dive into individual monitors to examine test results and performance over time.
+[Collection-based monitors](/docs/monitoring-your-api/setting-up-monitor/) continuously track the health and performance of your APIs. With Postman, you can stay up to date on what's happening across all collection-based monitors in your workspace. Or you can dive into individual monitors to examine test results and performance over time.
 
 ## Contents
 
@@ -52,7 +52,7 @@ warning: false
 
     * [Monitor details](#monitor-details)
 
-* [Next steps](#next-steps)
+* [Troubleshooting](#troubleshooting)
 
 ## Viewing monitors in Postman
 
@@ -64,9 +64,9 @@ You can view your collection-based monitors in Postman by navigating to your wor
 
 ### Monitor summary
 
-You can use the **Monitor Summary** to see how your APIs have performed over time. Each monitor run is represented by a bar in the graph.
+You can use the **Monitor Summary** to understand how your APIs have performed over time. Each monitor run is represented by a bar in the graph.
 
-The upper section charts your monitor's average response time for each run, while the lower section visualizes the number of failed tests for each run across all regions. To view the exact response time and failed percent, you can hover over each run individually.
+The upper section charts your monitor's average response time for each run, while the lower section visualizes the number of failed tests for each run across all regions. To view the exact values for failed percentage and response time, hover over each run individually.
 
 ![Monitor summary](https://assets.postman.com/postman-docs/monitor-summary-with-hover.jpg)
 
@@ -102,8 +102,8 @@ Each run is labeled based on its result:
 
 * **Successful** - Your monitor completed the run with no issues and passed all tests.
 * **Failure** - Your monitor completed the run, however one or more tests failed.
-* **Error** - Your monitor was unable to complete its run due to an error. An error can occur if there is a syntax error in the code you've written, a network error, or for various other reasons. If you encounter one, your [Console Log](#console-log) will help you identify what caused it.
-* **Abort** - Your monitor was unable to complete its run within the allotted five minutes, at which point it timed out.
+* **Error** - Your monitor was unable to complete its run due to an error. An error can occur if there is a syntax error in the code you've written, a network error, or for various other reasons. If you get an error, your [Console Log](#console-log) will help you identify what caused it.
+* **Abort** - Your monitor timed out because it didn't complete its run within the allotted 10 minutes (Postman Free plans) or 15 minutes (Postman Basic, Professional, and Enterprise plans).
 
 You can filter by run result to compare how your runs with the same result have differed. Select **Run result: All**, then select one or more types of run results to view.
 
@@ -111,7 +111,7 @@ You can filter by run result to compare how your runs with the same result have 
 
 You can filter by [region](/docs/monitoring-your-api/setting-up-monitor/#adding-regions) to compare how runs within different regions have varied. Select **All Regions**, then select a region to view.
 
-> This feature is only available if you selected multiple regions when you created or last edited your monitor. To learn more about regions, see [Adding regions](/docs/monitoring-your-api/setting-up-monitor/#adding-regions).
+> This feature is available if you selected multiple regions when you created or last edited your monitor. To learn more about regions, see [Adding regions](/docs/monitoring-your-api/setting-up-monitor/#adding-regions).
 
 #### Filtering by formula
 
@@ -122,11 +122,11 @@ You can filter by mathematical formula to view the average, sum, minimum, and ma
 * **Minimum** - The minimum total response time for a run across all regions.
 * **Maximum** - The maximum total response time for a run across all regions.
 
-Select **Average** to open the menu, then select an option. To view the newly calculated response time value, you can hover over each run individually.
+Select **Average** to open the menu, then select an option. To view the calculated response time value, you can hover over each run individually.
 
 ### Time traverse
 
-You can review past run results to see what happened at a particular point in time. To do so, select **Go to** in the upper-left corner of the monitor summary or request split graph. Select the time and date, then select **Apply** to view a specific run.
+You can review past run results to understand what happened at a particular point in time. To do so, select **Go to** in the upper-left corner of the monitor summary or request split graph. Select the time and date, then select **Apply** to view a specific run.
 
 ![Time traverse](https://assets.postman.com/postman-docs/monitors-time-traverse20.jpg)
 
@@ -134,21 +134,19 @@ You can review past run results to see what happened at a particular point in ti
 
 ### Test results
 
-You can view **Test Results** below the monitor summary to find more detailed information on your tests, including which passed or failed, response codes, and response times.
+Select **Test Results** to get more detailed information on your tests, including which passed or failed, the response codes, and the response times.
 
 [![test results](https://assets.postman.com/postman-docs/monitor-view-test-results0.jpg)](https://assets.postman.com/postman-docs/monitor-view-test-results0.jpg)
 
-> If your monitor is configured to run in multiple regions, you can view the test results for a particular region by selecting that region from the dropdown to the right of the **Test Results**.
+> If your monitor is configured to run in multiple regions, you can view the test results for a particular region by selecting it from **Region**.
 
 ### Console log
 
-You can view the **Console Log** below the monitor summary.
-
-This section logs monitor run details along with the [`console.log`](/docs/sending-requests/troubleshooting-api-requests/) statements that run as part of your pre-request and test scripts. Run details specify the various stages of a monitor run such as preparing run, running, rerunning ([if applicable](/docs/monitoring-your-api/setting-up-monitor/#using-retry-on-failure)), and the run result, along with error and test failure information. Selecting a request in the Console Log will open it in a tab, allowing you to review and edit the request as needed.
+Select **Console Log** to view monitor run details along with the [`console.log`](/docs/sending-requests/troubleshooting-api-requests/) statements that run as part of your pre-request and test scripts. Run details specify the various stages of a monitor run such as preparing run, running, rerunning ([if applicable](/docs/monitoring-your-api/setting-up-monitor/#using-retry-on-failure)), and the run result, along with error and test failure information. Selecting a request in the Console Log will open it in a tab, allowing you to review and edit the request as needed.
 
 [![console log](https://assets.postman.com/postman-docs/monitor-view-console-log0.jpg)](https://assets.postman.com/postman-docs/monitor-view-console-log0.jpg)
 
-> If your monitor is configured to run in multiple regions, you can view the console logs for a particular region by selecting that region from the dropdown to the right of the **Console Log** tab.
+> If your monitor is configured to run in multiple regions, you can view the console logs for a particular region by selecting it from **Region**.
 
 You can use this console to both troubleshoot issues and learn more about an individual run's behavior.
 
@@ -166,6 +164,6 @@ You can view details about a monitor by selecting the information icon <img alt=
 
 <img src="https://assets.postman.com/postman-docs/monitor-information10.jpg" width="400px" alt="Monitor details"/>
 
-## Next steps
+## Troubleshooting
 
 Learn how to [troubleshoot your monitors](/docs/monitoring-your-api/troubleshooting-monitors/) and check out [Postman monitoring FAQs](/docs/monitoring-your-api/faqs-monitors/).

@@ -21,6 +21,12 @@ contextual_links:
   - type: link
     name: "Discover APIs Easily with New Categories in the Postman API Network"
     url: "https://blog.postman.com/discover-apis-categories-postman-api-network/"
+  - type: link
+    name: "Play with These Gaming APIs in the Postman Public API Network"
+    url: "https://blog.postman.com/gaming-apis-postman-public-api-network/"
+  - type: link
+    name: "Build Software Faster with These Productivity APIs"
+    url: "https://blog.postman.com/build-software-faster-with-productivity-apis/"
   - type: section
     name: "Next Steps"
   - type: link
@@ -32,7 +38,7 @@ warning: false
 
 The Postman Public API Network is the largest network of APIs, workspaces, and collections by developers across the planet. Many of the teams and companies responsible for leading-edge APIs and technologies have public workspaces you can explore. Popular third-party APIs are also published, along with examples you can use as a starting point when writing your own APIs or collections.
 
-To access the Public API Network, visit [postman.com/explore](https://www.postman.com/explore) or select **Explore** at the top left of Postman.
+To access the Public API Network, visit [postman.com/explore](https://www.postman.com/explore) or select **Explore** in the header.
 
 [![Postman Public API Network](https://assets.postman.com/postman-docs/public-api-network-v9.5.jpg)](https://assets.postman.com/postman-docs/public-api-network-v9.5.jpg)
 
@@ -42,8 +48,8 @@ There are a variety of ways to find APIs, workspaces, teams, and collections:
 * **In the spotlight** highlights the latest exciting, useful, and noteworthy contributions to the Public API Network, handpicked by the experts at Postman.
 * **Trending workspaces, collections, and APIs** shows entities that are the most popular in the Public API Network, based on the number of people viewing or creating forks of them.
 * The **Search Postman** box at the top of the page searches all Postman teams, workspaces, collections, and APIs by default, but you can also use the search controls to limit a search to the Public API Network.
-* Under **Browse**, you can select to view **Teams**, **Workspaces**, **APIs**, and **Collections**. You can sort results using the **Featured**, **Most Viewed**, and **Latest** tabs just below the header.
-    * You can also sort Collections and Workspaces by category using the filters below the header.
+* Under **Browse**, you can select to view **Teams**, **Workspaces**, **APIs**, and **Collections**. You can sort results by **Featured**, **Most Viewed**, and **Latest** using the **Sort by** dropdown list.
+    * You can also filter Collections, APIs, and Workspaces using the categories listed on their results pages.
 
 To import a collection from a public workspace to your workspace, create a fork of it. See [creating a fork](/docs/collaborating-in-postman/version-control-for-collections/#creating-a-fork).
 
@@ -53,5 +59,5 @@ Check out some useful collections for getting started learning about APIs, reque
 * [API Learner](https://www.postman.com/apilearningresources/workspace/api-learning-resources/collection/1841124-369362dc-c11e-44f1-a7a9-ffe591cc2156?ctx=documentation)
 * [Public REST APIs](https://www.postman.com/cs-demo/workspace/public-rest-apis/overview)
 * [Intro to writing tests](https://www.postman.com/postman/workspace/postman-team-collections/collection/1559645-13bd44c4-94ec-420a-8390-8ff44b60f14d?ctx=documentation)
-* [How to use the Postman console](https://www.postman.com/postman/workspace/postman-team-collections/collection/1559645-9349429e-3744-467b-a127-e3881f0dffc8?ctx=documentation)
+* [How to use the Postman Console](https://www.postman.com/postman/workspace/postman-team-collections/collection/1559645-9349429e-3744-467b-a127-e3881f0dffc8?ctx=documentation)
 * [Postman Echo](https://www.postman.com/postman/workspace/published-postman-templates/documentation/631643-f695cab7-6878-eb55-7943-ad88e1ccfd65?ctx=documentation)

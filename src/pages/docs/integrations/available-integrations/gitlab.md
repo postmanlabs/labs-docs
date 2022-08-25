@@ -20,7 +20,7 @@ Setting up a GitLab integration requires you to get a GitLab Personal Access Tok
 
 ## API sync with GitLab
 
-Postman 9.0 introduced the ability to connect a git repository to an API. Instead of using an integration, you can directly connect a GitLab repo to an API in the API Builder. This provides two-way sync of schemas and associated collections, plus adds powerful new features for syncing branches and release tags between Postman and your repo. For more information on the new repo sync feature, see [Versioning APIs](/docs/designing-and-developing-your-api/versioning-an-api/).
+Postman 9.0 introduced the ability to connect a git repository to an API. Instead of using an integration, you can directly connect a GitLab repo to an API in the API Builder. This provides two-way sync of schemas and associated collections, plus adds features for syncing branches and release tags between Postman and your repo. For more information on the repo sync feature, see [Versioning APIs](/docs/designing-and-developing-your-api/versioning-an-api/).
 
 ## Generating a GitLab Personal Access Token
 
@@ -40,7 +40,7 @@ Postman 9.0 introduced the ability to connect a git repository to an API. Instea
 
 1. Search and select **GitLab**.
 
-1. You can select **View** or **View All** to see all integrations created by your team.
+1. You can select **View** or **View All** for a list of all the integrations created by your team.
 
    ![gitlab add integration](https://assets.postman.com/postman-docs/gitlab-add-integration.jpg)
 
@@ -57,7 +57,7 @@ The above screen provides you the following two options:
 
 1. Enter your GitLab Personal Access Token and select **Authenticate and Proceed**.
 
-1. Choose an existing Postman collection and your GitLab Project, and enter a filename for your backup.
+1. Choose an existing Postman Collection and your GitLab Project, and enter a filename for your backup.
 
 1. In **Advanced Options** you can enter a custom directory name or leave `Postman Collections` as the default. You can specify a branch for commit or the default branch of the repository will be used.
 
@@ -67,7 +67,7 @@ The above screen provides you the following two options:
 
 Your collection is pushed to your GitLab project under the filename that you specified and saved as a single JSON file.
 
-Every change that is saved to your Postman collection automatically commits changes to your GitLab project in real time. Your collections and code can exist in the same repository.
+Every change that is saved to your Postman Collection automatically commits changes to your GitLab project in real time. Your collections and code can exist in the same repository.
 
 ## Back up your Postman Collections to GitLab on a custom domain
 
@@ -75,7 +75,7 @@ Every change that is saved to your Postman collection automatically commits chan
 
     Contact your IT team to allowlist the following static IP in your firewall to enable collection backups to GitLab:
 
-   * US East: 3.212.102.200
+   * US East: `3.212.102.200`
 
    Once you allowlist this IP address, calls for this integration will be able to connect to your network and allow the integration to work as expected.
 

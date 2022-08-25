@@ -15,8 +15,16 @@ contextual_links:
   - type: subtitle
     name: "Videos"
   - type: link
+    name: "Use External Libraries | Postman Level Up"
+    url: "https://youtu.be/515xUz1rSNQ"
+  - type: link
     name: "Data Encryption with CryptoJS"
     url: "https://youtu.be/W_Gj1Q0lEOU"
+  - type: subtitle
+    name: "Blog Posts"
+  - type: link
+    name: "Adding External Libraries in Postman"
+    url: "https://blog.postman.com/adding-external-libraries-in-postman/"
   - type: section
     name: "Next Steps"
   - type: link
@@ -41,8 +49,8 @@ Postman provides JavaScript APIs that you can use in your request scripts. The `
         * [Cookies](#scripting-with-request-cookies)
     * [Sending requests from scripts](#sending-requests-from-scripts)
 * [Scripting workflows](#scripting-workflows)
-* [Scripting visualizations](#scripting-visualizations)
-* [Building response data into visualizations](#building-response-data-into-visualizations)
+* [Scripting Postman Visualizations](#scripting-postman-visualizations)
+* [Building response data into Postman Visualizations](#building-response-data-into-postman-visualizations)
 * [Writing test assertions](#writing-test-assertions)
 * [Using external libraries](#using-external-libraries)
 
@@ -82,7 +90,7 @@ pm.variables.set(variableName:String, variableValue:*):function
 pm.variables.replaceIn(variableName:String):function: → *
 ```
 
-> For example:
+For example:
 
 ```js
 const stringWithVars = pm.variables.replaceIn("Hi, my name is {{$randomFirstName}}");
@@ -124,7 +132,7 @@ console.log(pm.variables.get('score'));//outputs 2
 
 > See the [Postman Collection SDK Variables reference](https://www.postmanlabs.com/postman-collection/Variable.html) for more detail.
 
-You can also access variables defined in the individual scopes via [pm.environment](#using-environment-variables-in-scripts), [pm.collectionVariables](#using-collection-variables-in-scripts), and [pm.globals](#using-global-variables-in-scripts).
+You can also access variables defined in the individual scopes with [pm.environment](#using-environment-variables-in-scripts), [pm.collectionVariables](#using-collection-variables-in-scripts), and [pm.globals](#using-global-variables-in-scripts).
 
 #### Using environment variables in scripts
 
@@ -160,7 +168,7 @@ pm.environment.set(variableName:String, variableValue:*):function
 pm.environment.replaceIn(variableName:String):function → *
 ```
 
-> For example:
+For example:
 
 ```js
 //environment has vars firstName and age
@@ -216,7 +224,7 @@ pm.collectionVariables.set(variableName:String, variableValue:*):function
 pm.collectionVariables.replaceIn(variableName:String):function → *
 ```
 
-> For example:
+For example:
 
 ```js
 //collection has vars firstName and age
@@ -270,7 +278,7 @@ pm.globals.set(variableName:String, variableValue:*):function
 pm.globals.replaceIn(variableName:String):function → String
 ```
 
-> For example:
+For example:
 
 ```js
 //globals include vars firstName and age
@@ -511,7 +519,7 @@ pm.cookies.toObject():Function → Object
 
 You can also use `pm.cookies.jar` to specify a domain for access to request cookies.
 
-To enable programmatic access via the `pm.cookies.jar` methods, first add the cookie URL to the [allowlist](/docs/sending-requests/cookies/).
+To enable programmatic access using the `pm.cookies.jar` methods, first add the cookie URL to the [allowlist](/docs/sending-requests/cookies/).
 
 * Access the cookie jar object:
 
@@ -654,9 +662,9 @@ For example:
 postman.setNextRequest(pm.environment.get('next'));
 ```
 
-## Scripting visualizations
+## Scripting Postman Visualizations
 
-Use `pm.visualizer.set` to specify a template to [display response data in the visualizer](/docs/sending-requests/visualizer/).
+Use `pm.visualizer.set` to specify a template to [display response data in the Postman Visualizer](/docs/sending-requests/visualizer/).
 
 ```js
 pm.visualizer.set(layout:String, data:Object, options:Object):Function
@@ -678,9 +686,9 @@ pm.visualizer.set(template, {
 });
 ```
 
-### Building response data into visualizations
+### Building response data into Postman Visualizations
 
-Use `pm.getData` to retrieve response data inside a visualization template string.
+Use `pm.getData` to retrieve response data inside a Postman Visualizer template string.
 
 ```js
 pm.getData(callback):Function
@@ -691,7 +699,7 @@ The callback function accepts two parameters:
 * `error`
     * Any error detail
 * `data`
-    * Data [passed to the template](#scripting-visualizations) by `pm.visualizer.set`
+    * Data [passed to the template](#scripting-postman-visualizations) by `pm.visualizer.set`
 
 Example usage:
 

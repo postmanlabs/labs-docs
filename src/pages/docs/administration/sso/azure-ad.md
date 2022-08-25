@@ -48,10 +48,12 @@ Open your Azure AD management portal in a new tab to continue configuring your S
 
 9. Select **Save Authentication** in Postman.
 
-You can test your SAML configuration by creating a test user in Azure AD and assigning them the Postman app. If you've opted to [automatically add new users](/docs/administration/sso/admin-sso/#automatically-adding-new-users) when configuring SAML, you'll be able to immediately sign in Postman with the test user's credentials to confirm the process works as expected. If you haven't opted to automatically add new users, you can manually [invite the test user](/docs/administration/managing-your-team/managing-your-team/#inviting-to-a-team) to your Postman team and then sign in to Postman with the test user's credentials.
+You can test your SAML configuration by creating a test user in Azure AD and assigning them the Postman app. If you've opted to [automatically add new users](/docs/administration/sso/admin-sso/#automatically-adding-new-users) when configuring SAML, you'll be able to immediately sign in Postman with the test user's credentials to confirm the process works as expected. If you haven't opted to automatically add new users, you can manually [invite the test user](/docs/administration/managing-your-team/managing-your-team/#inviting-users) to your Postman team and then sign in to Postman with the test user's credentials.
 
 > If you encounter any issues, confirm you've added and saved the correct configuration values on both Postman and Azure AD. [Contact Postman support](https://www.postman.com/support/) for further help.
 
 ## Next steps
 
-Postman Enterprise teams can continue by [configuring SCIM with Azure AD](/docs/administration/scim-provisioning/configuring-scim-with-azure-ad/).
+Now that you have set up SSO with Azure AD, you might also be interested in setting up SCIM provisioning:
+
+* To learn more, visit [Configuring SCIM with Azure AD](/docs/administration/scim-provisioning/configuring-scim-with-azure-ad/). (_[Enterprise teams](https://www.postman.com/pricing/) only._)

@@ -1,6 +1,5 @@
 import { useStaticQuery, graphql } from 'gatsby';
 import React from 'react';
-// import { trackCustomEvent } from 'gatsby-plugin-google-analytics';
 import './Footer.scss';
 import { v4 as uuidv4 } from 'uuid';
 
@@ -55,11 +54,6 @@ class FooterComponent extends React.Component {
                 <div className="row">
                   {/* First column */}
                   <div className="col-6 col-md-3 col-lg-2 order-12 order-md-0 pad-md-right align-self-center">
-                    {/* <img
-                      className="img-fluid col-12 col-sm-9 col-md-12 mb-5 d-block footer-img"
-                      src={data.src}
-                      alt={data.alt}
-                    /> */}
                     <img className="footer-img" src='https://voyager.postman.com/illustration/postman-footer-rocket-launch.svg' alt="Postman" />
                     <span className="col-12 d-none d-md-block copyright">
                       {data.copyright}
@@ -220,7 +214,6 @@ class FooterComponent extends React.Component {
                                             __html: link.svg,
                                           }}
                                         />
-                                        {/* <div className="d-inline-block align-text-middle"><img src={link.svg} /></div> */}
                                         {link.span ? (
                                           <>
                                             {link.title}

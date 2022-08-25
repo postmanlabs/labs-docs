@@ -17,8 +17,11 @@ contextual_links:
   - type: link
     name: "Public Workspaces | The Exploratory"
     url: "https://youtu.be/DjGbMdqnY64"
+  - type: link
+    name: "Workspace Linter Using a Style Guide | Postman Level Up"
+    url: "https://youtu.be/6MSS8YgvFVA"
   - type: subtitle
-    name: "Related Blog Posts"
+    name: "Blog Posts"
   - type: link
     name: "How to Set Up Your First Public Workspace in 5 Easy Steps"
     url: "https://blog.postman.com/how-to-set-up-public-workspaces/"
@@ -26,11 +29,8 @@ contextual_links:
     name: "Increasing Adoption of an API with a Public Workspace"
     url: "https://blog.postman.com/increasing-adoption-of-an-api-with-a-public-workspace/"
   - type: link
-    name: "Public Workspaces: Why We Created Them and What You Can Do with Them"
-    url: "https://blog.postman.com/public-workspaces-why-we-created-them-what-you-can-do/"
-  - type: link
-    name: "Workspace Linter Using a Style Guide | Postman Level Up"
-    url: "https://youtu.be/6MSS8YgvFVA"
+    name: "Introducing Public Workspace Summary Emails"
+    url: "https://blog.postman.com/introducing-public-workspace-summary-emails/"
 
 ---
 
@@ -59,7 +59,7 @@ To make your [team profile](https://go.postman.co/settings/team/general) public:
 
 1. In the upper-right corner of Postman next to your avatar, select **Team** > **Team settings**.
 1. Select **Team profile**.
-1. Select the toggle next to **Make team profile public** to set the profile to public.
+1. Select **Make team profile public** to set the profile to public.
 
 An informative and inviting public profile can help increase adoption of your API. Consider adding more information and assets to your team profile:
 
@@ -77,7 +77,7 @@ To create a new public workspace:
 
 1. Select **Workspaces** from the header, then select **Create Workspace**.
 
-    <img alt="Workspace menu" src="https://assets.postman.com/postman-docs/workspace-switcher-v9.1.jpg" width="400px"/>
+    <img alt="Workspace menu" src="https://assets.postman.com/postman-docs/workspace-switcher-v9.19.jpg" width="300px"/>
 
 1. Specify a workspace **Name** and **Summary**.
 1. Under **Visibility**, select **Public**.
@@ -178,7 +178,7 @@ To delete a public workspace, you must change its visibility first. You must hav
 
 ### Managing public workspace users and roles
 
-If you have a [team Admin role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles), you can manage collaborators and user roles in a public workspace:
+If you're a [Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles), you can manage collaborators and user roles in a public workspace:
 
 * **Invite team members, groups, and external users to collaborate in a public workspace.** To learn more about inviting users to work with you in your public workspace, see [Sharing workspaces](https://learning.postman.com/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#sharing-workspaces).
 * **Assign access to elements within a workspace.** Workspace roles control access to elements. You can assign workspace roles to an individual user or to a user group. To learn more about assigning workspace roles or removing a user from a workspace, see [Managing workspace roles](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#managing-workspace-roles).
@@ -191,16 +191,16 @@ To collaborate with someone else in their public workspace, select **Workspaces*
 
 For **collections** and **environments**, [create a fork](/docs/collaborating-in-postman/version-control-for-collections/#forking-a-collection) and request to merge changes using a [pull request](/docs/collaborating-in-postman/version-control-for-collections/#creating-pull-requests).
 
-For **APIs**, select the API and version. Select the **Definition** tab and then select **Request Access** to request an editor role.
+For **APIs**, select the API and version. Select the **Definition** tab and then select **Request Access** to request an Editor role.
 
 You can access public workspaces using the Postman Explore page's [**Workspaces** category](https://www.postman.com/explore/workspaces). You can also access the public workspaces that you own or are a member of using **Workspaces** in the header.
 
-![Access public workspaces](https://assets.postman.com/postman-docs/accessing-public-workspaces.jpg)
+The list of avatars in the Postman header shows you who's active in your workspace. This list will include all active users with [public profiles](/docs/getting-started/postman-account/#making-your-profile-public) as well as users who've chosen to remain anonymous by not enabling their public profile.
 
-You can view who's active in a public workspace via the list of avatars in the Postman header. This list will include all active users with [public profiles](/docs/getting-started/postman-account/#making-your-profile-public) as well as users who've chosen to remain anonymous by not enabling their public profile.
-
-<img alt="Active users in public workspace" src="https://assets.postman.com/postman-docs/presence-public-workspace-v9.15.jpg" width="250px"/>
+<img alt="Active users in public workspace" src="https://assets.postman.com/postman-docs/presence-public-workspace-v9.19.jpg" width="250px"/>
 
 ## Next steps
 
-When you're working collaboratively in a public workspace, users will fork collections and create pull requests. To learn more about version control in Postman, see [Using version control](/docs/collaborating-in-postman/version-control-for-collections/).
+Once you start working collaboratively in a public workspace, users can fork collections and create pull requests.
+
+* To learn more about version control in Postman, visit [Using version control](/docs/collaborating-in-postman/version-control-for-collections/).

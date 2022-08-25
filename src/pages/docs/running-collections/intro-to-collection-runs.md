@@ -26,6 +26,14 @@ contextual_links:
   - type: dynamic_blog
     name: "Blog Posts"
     blog_tag: "collections"
+  - type: subtitle
+    name: "Case Studies"
+  - type: link
+    name: "Lightspeed"
+    url: "https://www.postman.com/case-studies/lightspeed-commerce/"
+  - type: link
+    name: "iQmetrix"
+    url: "https://www.postman.com/case-studies/iqmetrix/"
 warning: false
 
 ---
@@ -67,7 +75,7 @@ To configure a collection run:
 
     <img alt="Collection Runner configuration settings" src="https://assets.postman.com/postman-docs/collection-runner-configuration-v9.jpg" width="800px"/>
 
-1. If you want your collection to run against an environment, select it using the environment selector at the top right of Postman. You can also select __Environments__ in the sidebar, then select the environment you want to use.
+1. If you want your collection to run against an environment, select it using the environment selector at the top right of the workbench. You can also select __Environments__ in the sidebar, then select the environment you want to use.
 1. By default, your requests run in the sequence they're listed in the collection. If you need to change the order of execution, select a request and drag it to move it to its new order. You can also remove an individual request from the run by clearing the checkbox next to its name.
 
     > You can alter the flow of execution from your request scripts using `setNextRequest` to [create workflows](/docs/running-collections/building-workflows/).
@@ -82,7 +90,7 @@ Postman displays your request executions and test results in real time. To acces
 
 To view more details, including any log statements used in your collection, select <img alt="Console icon" src="https://assets.postman.com/postman-docs/icon-console-v9.jpg#icon" width="16px"> __Console__ from the footer.
 
-To view details about the run, select __View Summary__. The summary also lists a column for each iteration of your collection run so you can see test output for the whole run at a glance.
+To view details about the run, select __View Summary__. The summary also has a column for each iteration of your collection run so you can review test output for the whole run.
 
 [![Runner result summary](https://assets.postman.com/postman-docs/run-overview-v8.jpg)](https://assets.postman.com/postman-docs/run-overview-v8.jpg)
 
@@ -90,13 +98,13 @@ To return to the overview of the run, select __View Results__.
 
 ### Viewing test results
 
-If your collection has tests, you will see whether each request passed or failed. You can also filter on each using the __Passed__ and __Failed__ tabs at the top. If any tests in a request script fail during the collection run, the whole request fails.
+If your collection has tests, the **View Results** page indicates whether each request passed or failed. You can also filter on each using the __Passed__ and __Failed__ tabs at the top. If any tests in a request script fail during the collection run, the whole request fails.
 
-> If you select __Save responses__ when you start a collection run, you will see the responses in the run results.
+> If you select __Save responses__ when you start a collection run, Postman displays the responses in the run results.
 
 ### Viewing iterations
 
-If you set an iteration number for the collection run, you can see the overview for each iteration by selecting one from the list on the right.
+If you set an iteration number for the collection run, you can access the overview for each iteration by selecting one from the list on the right.
 
 ## Sharing collection runs
 
@@ -118,4 +126,6 @@ You can also use collection runs in conjunction with other Postman utilities to 
 
 ## Next steps
 
-You can use scripts to [build workflows](/docs/running-collections/building-workflows/) specifying conditional sequences for running the requests in your collections.
+Now that you know the fundamentals of using the Collection Runner, you can extend its functionality with workflows.
+
+* To learn how to use scripts to build workflows with conditional sequences for running the requests in your collections, visit [Building request workflows](/docs/running-collections/building-workflows/).

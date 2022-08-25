@@ -28,13 +28,13 @@ warning: false
 
 ---
 
-Capturing HTTP traffic is an important tool for API development and testing. When you enable request capturing in Postman, you can see the requests passing between client applications and your API and save them to a collection. You can then use the saved request information to understand how your API is behaving and to assist with debugging.
+Capturing HTTP traffic is an important tool for API development and testing. When you enable request capturing in Postman, you can inspect the requests passing between client applications and your API and save them to a collection. You can then use the saved request information to understand how your API is behaving and to assist with debugging.
 
 Postman's built-in proxy and Postman Interceptor provide two ways to capture HTTP and HTTPS traffic. You can also use the proxy or Interceptor to capture and sync cookies to the Postman cookie jar.
 
 To capture traffic, first start the proxy or Interceptor, and then begin a debug session. A session represents a specific time frame during which you want to capture traffic (for example, while a client application is sending a series of requests that you want to observe or debug).
 
-After you begin a debug session, you can pause and resume capturing, or clear any captured traffic, without stopping the proxy or Interceptor. Use Postman's search and filtering capabilities to narrow down the requests you see based on the criteria you choose.
+After you begin a debug session, you can pause and resume capturing, or clear any captured traffic, without stopping the proxy or Interceptor. Use Postman's search and filtering capabilities to narrow down the requests based on the criteria you choose.
 
 ## Contents
 

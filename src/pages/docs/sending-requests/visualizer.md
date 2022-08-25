@@ -1,8 +1,6 @@
 ---
 title: "Visualizing responses"
-order: 26
 updated: 2021-02-17
-page_id: "visualizer"
 search_keyword: "pm.visualizer.set, visualizer.set, pm.response.json, response.json, pm.getData, getData"
 contextual_links:
   - type: section
@@ -18,10 +16,10 @@ contextual_links:
   - type: subtitle
     name: "Videos"
   - type: link
-    name: "Learn about Visualizer"
+    name: "Learn about Postman Visualizer"
     url: "https://www.youtube.com/watch?v=nQNbdfKKQfc"
   - type: link
-    name: "Visualizer demo"
+    name: "PostmanVisualizer demo"
     url: "https://www.youtube.com/watch?v=i1jU-kivApg"
   - type: link
     name: "Create a Custom OneSignal Dashboard Using Postman Visualizer"
@@ -37,25 +35,14 @@ contextual_links:
   - type: link
     name: "More Visualizer Examples"
     url: "https://www.postman.com/postman/workspace/more-visualizer-examples/overview"
-  - type: subtitle
-    name: "Templates"
-  - type: link
-    name: "Visualizer D3 heatmap demo"
-    url: "https://www.postman.com/postman/workspace/postman-team-collections/collection/4946945-db597015-0800-45ce-9824-02114848f47f?ctx=documentation"
-  - type: link
-    name: "Visualizer table"
-    url: "https://www.postman.com/postman/workspace/postman-team-collections/collection/4946945-0a9bcc54-e796-4de0-abbf-8a7880101cfe?ctx=documentation"
-  - type: link
-    name: "Visualizer D3 examples"
-    url: "https://www.postman.com/DTHb3DSmtDah2RD/workspace/codebase-visualizer-templates/collection/2897506-d2486b17-0fc6-4ff3-8045-800623e5c02b?ctx=documentation"
 
 ---
 
-Postman provides a programmable way to visually represent your request [responses](/docs/sending-requests/responses/). Visualization code added to the __Tests__ for a request will render in the __Visualize__ tab for the response body, alongside the Pretty, Raw, and Preview options.
+The _Postman Visualizer_ provides a programmable way to visually represent your request [responses](/docs/sending-requests/responses/). Visualization code added to the __Tests__ for a request will render in the __Visualize__ tab for the response body, alongside the Pretty, Raw, and Preview options.
 
 [![Visualizer rendering](https://assets.postman.com/postman-docs/visualizer-v8.jpg)](https://assets.postman.com/postman-docs/visualizer-v8.jpg)
 
-Visualizers let you present your response data in ways that help to make sense of it. You can use visualizers to model and highlight the information that's relevant to your project, instead of having to read through raw response data. When you [share a Postman collection](/docs/collaborating-in-postman/sharing/), other people on your team can also see your visualizations within the context of each request.
+Visualizers let you present your response data in ways that help to make sense of it. You can use visualizers to model and highlight the information that's relevant to your project, instead of having to read through raw response data. When you [share a Postman Collection](/docs/collaborating-in-postman/sharing/), other people on your team can also understand your visualizations within the context of each request.
 
 ## Contents
 
@@ -85,7 +72,7 @@ The `pm.visualizer.set()` method accepts a [Handlebars](https://handlebarsjs.com
 
 ### Rendering HTML
 
-To see a basic visualizer in action, open the following request in Postman:
+For an example of a basic visualizer in action, open the following request in Postman:
 
 [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/4e3ee3d03f6e2e7fc250)
 
@@ -139,15 +126,15 @@ The `template` variable is the template string created earlier. The second argum
 
 ### Viewing visualizations
 
-__Send__ the request in Postman and select the __Visualize__ tab to see the table.
+__Send__ the request in Postman and select the __Visualize__ tab. Postman renders the table as HTML, as it would be in a web browser.
 
 [![Visualizer table rendering](https://assets.postman.com/postman-docs/visualizer-table-v8.jpg)](https://assets.postman.com/postman-docs/visualizer-table-v8.jpg)
-
-The table is rendered as HTML as it would be in a web browser.
 
 ### Adding styling and interaction to visualizations
 
 You can load an external stylesheet using `<link>` tags in your HTML template code, using the same technique as adding a stylesheet to a web page. You can also add stylesheets as `<style>` tags. Similarly, you can add interactions using JavaScript code in `<script>` tags inside your template HTML code.
+
+> Visualizer doesn't support interactions that download resources.
 
 ### Using your own libraries
 
@@ -161,7 +148,7 @@ The `pm.getData(callback)` method takes a callback function as its parameter. Th
 
 ## Try it out
 
-See more visualizer code working by importing any of the following collections. Use the __Run in Postman__ buttons to import from the documentation for each one. Import the collection, then open a request from __Collections__ in the sidebar. Select __Send__ to run it. You'll see the rendered data in __Visualize__.
+For more examples of visualizer code in action, import any of the following collections. Use the __Run in Postman__ buttons to import from the documentation for each one. Import the collection, then open a request from __Collections__ in the sidebar. Select __Send__ to run it. Postman will display the rendered data in __Visualize__.
 
 * [DIY collection that renders a bar chart using ChartJS](https://documenter.postman.com/view/4946945/SVzz4KxB?version=latest)
 ![Bar Chart](https://assets.postman.com/postman-docs/visualizer-example-v8.jpg)
@@ -178,7 +165,7 @@ You can access visualizers from the [Postman API](/docs/writing-scripts/script-r
 * `data` (optional): The second parameter is data that you can bind to the template. The properties of this object can be accessed in the template.
 * `options` (optional): The third argument is an `options` object for [`Handlebars.compile()`](https://handlebarsjs.com/api-reference/). You can use this to control how Handlebars compiles the template.
 
-Postman uses the information you pass to `pm.visualizer.set()` to render an HTML page in the sandbox for the visualizer. You will see this rendered HTML page in the __Visualize__ tab. The `layout` string is inserted into the `<body>` of the rendered page, including any JavaScript, CSS, and HTML that the template contains.
+Postman uses the information you pass to `pm.visualizer.set()` to render an HTML page in the sandbox for the visualizer. Select the __Visualize__ tab for the rendered HTML page. The `layout` string is inserted into the `<body>` of the rendered page, including any JavaScript, CSS, and HTML that the template contains.
 
 ## Debugging visualizers
 
@@ -188,4 +175,7 @@ You can debug a visualization in Postman by right-clicking in the __Visualize__ 
 
 ## Next steps
 
-You can experiment with visualizations using the collections [listed above](#try-it-out) as a starting point and tweak the code to get the results you need for your own data. For more on how Postman provides access to your response data inside scripts, check out the [Test Examples](/docs/writing-scripts/script-references/test-examples/).
+Now that you've learned about visualizing responses in Postman, you can start creating visualizations of your own.
+
+* To get started, you can experiment with the [More visualizer examples](https://www.postman.com/postman/workspace/e9bb1adb-2f2e-4ace-a482-38c570d65275/overview) workspace. Run the example requests, then adjust the code to get the results you need for your own data.
+* For more information about how Postman provides access to your response data inside scripts, visit [Test examples](/docs/writing-scripts/script-references/test-examples/).

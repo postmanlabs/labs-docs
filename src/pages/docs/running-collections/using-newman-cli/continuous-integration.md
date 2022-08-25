@@ -1,8 +1,6 @@
 ---
 title: "CI with Postman API"
-order: 62
-updated: 2021-09-01
-page_id: "continuous_integration"
+updated: 2022-05-23
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -38,7 +36,7 @@ warning: false
 
 Continuous Integration (CI) is a development practice that requires developers to regularly merge code updates into a shared repository. It involves the process of automating the build and testing of code every time a developer commits code updates.
 
-Let's access collections using the Postman API to run inside your Continuous Integration / Continuous Deployment (CI/CD) environments.
+You can access collections using the Postman API to run inside your Continuous Integration / Continuous Deployment (CI/CD) environments.
 
 Before you get started:
 

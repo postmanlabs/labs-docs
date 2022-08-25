@@ -21,7 +21,7 @@ contextual_links:
 
 ---
 
-If you're just getting started using Postman within your organization, you can carry out the following preparation steps to set your team up for success.
+When you're getting started using Postman within your organization, you can carry out the following preparation steps to set your team up for success.
 
 ## Contents
 
@@ -29,12 +29,13 @@ If you're just getting started using Postman within your organization, you can c
     * [Invite team members](#invite-team-members)
     * [Check your setup](#check-your-setup)
     * [Enable team discovery](#enable-team-discovery)
+* [Next steps](#next-steps)
 
 ## Setting up Postman
 
-Postman can be accessed [on the web](/docs/getting-started/installation-and-updates/#using-postman-on-the-web) with a [desktop agent](https://www.postman.com/downloads/postman-agent/). Postman is available as a standalone app for Windows, Mac, and Linux. Make sure everyone who would like to use Postman has the latest version by downloading it from [the Postman website](https://www.postman.com/downloads/).
+Postman can be accessed [on the web](/docs/getting-started/installation-and-updates/#using-the-postman-web-app) with the [Postman Desktop Agent](https://www.postman.com/downloads/postman-agent/). Postman is available as a standalone app for Windows, Mac, and Linux. Make sure everyone who would like to use Postman has the latest version by downloading it from [the Postman website](https://www.postman.com/downloads/).
 
-For the Postman web version, you can also manually select the agent for your requests: **Cloud Agent**, **Desktop Agent**, or **Browser Agent**. To learn more about the agent used for your request, select the agent selector from the Postman footer. You can use the toggle option in **Auto-select** to turn on or off the auto-select agent. Once you enable the option for Auto-select, Postman will automatically select the best agent for your requests.
+For the Postman web version, you can also manually select the agent for your requests: **Cloud Agent**, **Desktop Agent**, or **Browser Agent**. To learn more about the agent used for your request, select the agent selector from the Postman footer. You can use **Auto-select** to turn the auto-select agent on or off. Once you enable the option for Auto-select, Postman will automatically select the best agent for your requests.
 
 <img alt="Auto-select agent" src="https://assets.postman.com/postman-docs/auto-select-agent.jpg" width="350px">
 
@@ -43,6 +44,7 @@ You can either enable **Auto-select** option or manually select the agent (**Clo
 You may want to contact your IT team to establish what the procedure is for adding a new piece of software. This varies from organization to organization, however, the following points are common:
 
 * Your IT team may need to add an exception to device policy allowing for Postman to be installed on employee workstations. Provide a [Postman download link​](https://www.postman.com/downloads/) to the IT team to help establish this exception.
+    * If you are on a [Postman Enterprise plan](https://www.postman.com/pricing), your IT team can opt to deploy the Postman Enterprise app across your organization. For more information, see [Managing Enterprise deployment](/docs/administration/managing-enterprise-deployment/).
 * If your organization's network connection is facilitated behind a proxy, you may need to configure Postman appropriately. Retrieve proxy connection details from your IT team and [​set them up within Postman](/docs/getting-started/proxy/)​.
 * It's recommended that your IT team allowlists Postman’s domains to ensure Postman data is synced with the cloud and all functionality works as expected. By default, WebSocket connections use the same ports as HTTP (80) and HTTPS (443). Ensure your network firewall allows WebSocket connections for Postman's services by allowlisting the following domains:
 
@@ -58,7 +60,7 @@ You may want to contact your IT team to establish what the procedure is for addi
 
 ### Invite team members
 
-Depending on the size of your team you can send invites to your team now or [Check Your Setup](#check-your-setup) with a few volunteers before you rollout Postman to your entire organization.
+Depending on the size of your team, you can either send invites to your team immediately or [check your setup](#check-your-setup) with a few volunteers before you roll out Postman to your entire organization.
 
 You can add your teammates from your [team dashboard](https://go.postman.co/team) by generating a shareable link or by inviting them through a direct email. See [Managing Your Team](/docs/administration/managing-your-team/managing-your-team/) for more detail.
 
@@ -66,7 +68,7 @@ You can add your teammates from your [team dashboard](https://go.postman.co/team
 
 ### Check your setup
 
-Before you start work in full, it’s best to check the functionality of Postman within your organization and ensure everything operates as expected. If you do not have access to Postman and a Postman account, find a team member who does to help you test the configuration. Depending on your organization's IT policy you may need to make requests of your IT team in order to get up and running as well.
+Before you start work in full, it’s best to check the functionality of Postman within your organization and ensure everything operates as expected. If you don't have access to Postman and a Postman account, find a team member who does to help you test the configuration. Depending on your organization's IT policy you may need to make requests of your IT team in order to get up and running as well.
 
 Ensure you are connected to your organization's network and test the following:
 
@@ -78,16 +80,16 @@ Repeat these checks on a colleague’s workstation. If everything worked, your w
 
 ### Enable team discovery
 
-Team discovery makes Postman’s collaboration features more discoverable to users, and allows your team participation to scale up along with your successful API projects. When team discovery is enabled, users in your organization can see teams to join when they access their Postman accounts. Anyone signing in with a company email address is presented with available teams and can make a request to join each one. Administrators will receive a notification and can approve or deny access from there. See [Team Discovery](/docs/collaborating-in-postman/collaboration-intro/#team-discovery) for more info.
+Team discovery makes Postman’s collaboration features more discoverable to users, and allows your team participation to scale up along with your successful API projects. When team discovery is enabled, Postman displays a list of teams to join when users in your organization access their Postman accounts. Anyone signing in with a company email address is presented with available teams and can make a request to join each one. Administrators will receive a notification and can approve or deny access from there. See [Team Discovery](/docs/collaborating-in-postman/working-with-your-team/enabling-team-discovery/) for more info.
 
 ### Questions?
 
-If you have any questions or run into any issues setting up Postman for your team be sure and check to see if the question has already been answered by the [Postman Community](https://community.postman.com/). You can also find a number of support resources on the [support page](https://www.postman.com/support).
+If you have any questions or run into any issues setting up Postman for your team, check the [Postman Community](https://community.postman.com/). Other users might have the same question! You can also find a number of support resources on the [support page](https://www.postman.com/support).
 
 ## Next steps
 
-Check out [Security and Compliance: A Shared Responsibility Model](https://www.postman.com/shared-responsibility/) for important security considerations.
+After you follow the steps in this onboarding checklist, there are a few other steps to take to make sure that your team is secure:
 
-Make sure to [configure SSO](/docs/administration/sso/admin-sso/) if you are subscribed to the Professional or Enterprise plan.
-
-Finally, head over to [Managing Your Team](/docs/administration/managing-your-team/managing-your-team/) to learn about managing roles, inviting to workspaces, and how to adjust your team size.
+* For important security considerations, check out [Security and Compliance: A Shared Responsibility Model](https://www.postman.com/shared-responsibility/).
+* If you are subscribed to the Professional or Enterprise plan, make sure to [configure SSO](/docs/administration/sso/admin-sso/).
+* To learn about managing roles, inviting to workspaces, and how to adjust your team size, visit [Managing your team](/docs/administration/managing-your-team/managing-your-team/).

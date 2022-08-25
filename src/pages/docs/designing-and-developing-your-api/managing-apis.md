@@ -29,6 +29,8 @@ contextual_links:
 
 When you [define your APIs](/docs/designing-and-developing-your-api/the-api-workflow/) in Postman using the API Builder, each API is associated with a workspace. You can share access to your APIs, discuss them in comments, and view schema activity.
 
+## Contents
+
 - [Sharing APIs](#sharing-apis)
 - [Collaborating on APIs](#collaborating-on-apis)
 - [Watching APIs](#watching-apis)
@@ -47,11 +49,11 @@ For more details, see [Sharing Postman entities](/docs/collaborating-in-postman/
 
 You can move APIs to shared workspaces to collaborate with your team.
 
-> You must be an editor on an API or the workspace admin to move the API to another workspace.
+> You must be an Editor on an API or the Workspace Admin to move the API to another workspace. To learn more about roles and permissions, see [Defining roles](/docs/collaborating-in-postman/roles-and-permissions/).
 
 In the sidebar, select the API you want to share, then select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> > **Move**.
 
-Use the search bar to find the workspace you'd like to move the API to, or filter by workspace visibility by selecting the icon to the right of the search bar.
+Use the search bar to find the workspace you'd like to move the API to, or filter by workspace visibility by selecting the filter icon <img alt="Filter icon" src="https://assets.postman.com/postman-docs/icon-filter.jpg#icon" width="16px">.
 
 You can share APIs to personal, private, team, and public workspaces that you have access to. Shared private, team, and public workspaces allow you to collaborate with others.
 
@@ -67,7 +69,7 @@ Select the workspace, then **Move** **API**.
 
 Note that collections, documentation, monitors, mock servers, and environments of the API will not move with the API to the new workspace automatically.
 
-Collections and environments must be [moved separately](/docs/collaborating-in-postman/sharing/#moving-postman-entities-to-collaborative-workspaces). Documentation, monitors, and mock servers must be re-configured in the new workspace.
+Collections and environments must be [moved separately](/docs/collaborating-in-postman/working-with-your-team/collaborating-in-team-workspaces/#moving-elements-to-team-workspaces). Documentation, monitors, and mock servers must be re-configured in the new workspace.
 
 ## Watching APIs
 
@@ -77,13 +79,11 @@ Select __Watch__ to start watching the API.
 
 <img src="https://assets.postman.com/postman-docs/watch-button-v9.jpg" alt="Watch Option" width="350px"/>
 
-Select the notifications icon <img alt="Notifications icon" src="https://assets.postman.com/postman-docs/icon-notification-bell-v9.jpg#icon" width="18px"> in the Postman header. The popup will indicate further information about the change that was made to the API.
+For more information about the changes to the API, select the notifications icon <img alt="Notifications icon" src="https://assets.postman.com/postman-docs/icon-notification-bell-v9.jpg#icon" width="18px"> in the Postman header.
 
-![Notification Watch API](https://assets.postman.com/postman-docs/v8-watch-notification2.jpg)
+You will also receive an email with the information regarding who made the change, what the change was, and when it was made.
 
-You will also receive an email with the information regarding who has made the change, what the change was, and when it was made.
-
-> You will not receive notifications for changes made by yourself.
+> You will not receive notifications for changes that you made.
 
 ## Commenting on APIs
 
@@ -103,7 +103,7 @@ If you want to call the attention of a collaborator in comment, you can tag them
 
 ### Editing, deleting, or linking to a comment
 
-To edit, delete, or link to one of your comments, go to the comment section and hover over the comment you wish to manage. Select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px"> to edit the comment, the trash icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> to delete, or the anchor icon <img alt="Link icon" src="https://assets.postman.com/postman-docs/icon-workspace-link-v9.jpg#icon" width="18px"> to get a direct link to the comment.
+To edit, delete, or link to one of your comments, go to the comment section and hover over the comment you wish to manage. Select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px"> to edit the comment, the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> to delete, or the anchor icon <img alt="Link icon" src="https://assets.postman.com/postman-docs/icon-workspace-link-v9.jpg#icon" width="18px"> to get a direct link to the comment.
 
 [![API comment manage](https://assets.postman.com/postman-docs/v8-managing-comment-actions2.jpg)](https://assets.postman.com/postman-docs/v8-managing-comment-actions2.jpg)
 
@@ -113,11 +113,11 @@ To edit, delete, or link to one of your comments, go to the comment section and 
 
 You can view a changelog of your API schemas and all linked collections in the context bar. You can also create releases of an API from the changelog.
 
-To see the changelog, open an API version, then select the changelog icon <img alt="Changelog icon" src="https://assets.postman.com/postman-docs/icon-changelog.jpg" width="25px" style="vertical-align:middle;margin-bottom:0px">.
+To access the changelog, open an API version, then select the changelog icon <img alt="Changelog icon" src="https://assets.postman.com/postman-docs/icon-changelog.jpg" width="25px" style="vertical-align:middle;margin-bottom:0px">.
 
-You will see a list of changes made to the schema and associated elements. Each release is shown, and the top of the list will show any unreleased changes. Select each entry to see more details.
+The changelog shows a list of changes made to the schema and associated elements. Each release is shown, and the top of the list will show any unreleased changes. Select each entry for more details.
 
-Select **+ Release changes** at the top of the list to create a release from unreleased changes. For more information, see [Working with API releases](/docs/designing-and-developing-your-api/versioning-an-api/#working-with-api-releases).
+Select **+ Release changes** at the top of the list to create a release from unreleased changes. For more information, see [Working with API releases](/docs/designing-and-developing-your-api/versioning-an-api/api-releases/).
 
 <img src="https://assets.postman.com/postman-docs/api-builder-changelog-v9.jpg" alt="Changelog" width="350px" />
 

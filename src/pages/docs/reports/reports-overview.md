@@ -1,20 +1,12 @@
 ---
 title: "Reports overview"
-updated: 2021-10-19
+updated: 2022-05-19
 warning: false
 contextual_links:
   - type: section
-    name: "Prerequisites"
-  - type: link
-    name: "Using the API Builder"
-    url: "/docs/designing-and-developing-your-api/the-api-workflow/"
-  - type: link
-    name: "Managing and sharing APIs"
-    url: "/docs/designing-and-developing-your-api/managing-apis/"
-  - type: section
     name: "Additional Resources"
   - type: subtitle
-    name: "Related Blog Posts"
+    name: "Blog Posts"
   - type: link
     name: "Introducing New Postman Reports for Enterprises"
     url: "https://blog.postman.com/introducing-new-postman-reports-for-enterprises/"
@@ -27,41 +19,60 @@ contextual_links:
 
 > [__Reports are available on all Postman Enterprise plans.__](https://www.postman.com/pricing)
 
-Postman generates reports that enable you to visualize data for team metrics and usage, and for API activities such as creation, collection execution, and test runs. Use reports to get insights on performance, troubleshooting, and SLA adherence. You can access API reports in your [Postman dashboard](https://go.postman.co/reports/summary).
+Postman generates reports that enable you to visualize data for how your team uses Postman. These reports give you insights into the state of your APIs, including tests, documentation, and monitoring coverage. They also enable you to track performance and SLA adherence.
 
-[![reports summary](https://assets.postman.com/postman-docs/reports-overview.jpg)](https://assets.postman.com/postman-docs/reports-overview.jpg)
+Access your reports in your [Postman reports dashboard](https://go.postman.co/reports/summary).
+
+<img alt="The Postman reports dashboard" src="https://assets.postman.com/postman-docs/dashboard-reports-overview.jpg" width="1200px"/>
 
 * [Getting started with reports](#getting-started-with-reports)
+    * [Report availability](#report-availability)
+    * [Report permissions](#report-permissions)
+* [Exploring reports and report data](#exploring-reports-and-report-data)
 * [Troubleshooting](#troubleshooting)
-* [Next Steps](#next-steps)
 
 ## Getting started with reports
 
-To see API reports in Postman, make sure to do all of the following:
+Reports give information about activity in Postman, including [sharing your API](/docs/designing-and-developing-your-api/managing-apis/), [adding a collection to the API](/docs/designing-and-developing-your-api/defining-an-api/#generating-a-collection), and [sending a request](/docs/sending-requests/requests/) from the collection.
 
-* [Share your API](/docs/designing-and-developing-your-api/managing-apis/).
-* [Add a collection to the API](/docs/designing-and-developing-your-api/defining-an-api/#generating-a-collection).
-* Select __History__ in the sidebar and enable the [__Save Responses__ option](/docs/getting-started/navigating-postman/#history).
-* [Send a request](/docs/sending-requests/requests/) from the collection.
+To view your reports dashboard:
 
-To view reports:
+* Select **Home** in the Postman header, then select **Reports** from the team information section on the left.
 
-* Select **Reports** in the Postman header to see all reports.
-* To see a report for a specific API, [go to the overview page for the API](/docs/designing-and-developing-your-api/the-api-workflow/#navigating-the-api-builder) and select **Reports**.
+To access a specific API's report:
 
-Reports are generated periodically but not in real time. You may experience a delay of a few minutes or up to 24 hours before report data is available. The last update time is shown at the bottom of the left sidebar.
+1. On the report dashboard, select **All APIs** > **View Report by API**.
+1. Search for the API name, or scroll through the list to find it.
 
-> You can only see report data that is visible to you based on your [role](/docs/collaborating-in-postman/roles-and-permissions/).
+    > You can also access the report for a specific API by going to the [API's overview page](/docs/designing-and-developing-your-api/the-api-workflow/#navigating-the-api-builder) and select **Reports**.
 
-To explore reports and report data:
+### Report availability
 
-* Select items in the left sidebar to see each report.
-* Some report items have a link that opens another related report. For example, on the **Uptime** chart in the **Summary** report, there is a link to open the **Team APIs** report.
+Postman generates reports periodically but not in real time. You might experience a delay of four to six hours before report data is available. Postman displays the last update time at the bottom of the report dashboard sidebar.
+
+### Report permissions
+
+In a given report, you can only access report data that's available to you based on the level of access you have for the relevant collection, API, element, mock server, or monitor. For more information about element-based roles, see [Defining roles](/docs/collaborating-in-postman/roles-and-permissions/#element-based-roles).
+
+If you don't have permission to access an element, aggregate visualizations will still display the correct number of entities but won't provide you with the element name or other relevant information for the specific element.
+
+![Report message that restricted data is hidden](https://assets.postman.com/postman-docs/reports-restricted-data-v9.jpg)
+
+## Exploring reports and report data
+
+To explore reports:
+
+* Select items in the report dashboard sidebar.
+
+    > Some report items have a link that opens another related report. For example, on the **Uptime** chart in the **Summary** report, there is a link to open the **Team APIs** report.
+
+To explore data in a report:
+
 * Hover over a data point to show the data point's value.
 
     <img src="https://assets.postman.com/postman-docs/reports-datapoint-hover.jpg" alt="reports data point" width="100px" />
 
-* Select a data point to drill down and view more details. Sort the table by selecting a column heading. Hover over a table row and select the arrow to go to a related report or entity.
+* Select a data point to drill down and view more details. Sort the table by selecting a column heading. Hover over a table row and select the arrow to go to a related report or element.
 
     <img src="https://assets.postman.com/postman-docs/reports-drilldown.jpg" alt="reports drill down" />
 
@@ -69,18 +80,13 @@ To explore reports and report data:
 
 Reports have the following limitations:
 
-* You cannot download or export your reports.
-* Postman reports track data sent only through the request builder, and not through Newman, collection runs, or monitors. However, failed test runs generate reports using collection runs.
-* You cannot view the details of entities you do not have access to.
+* You can't download or export your reports.
+* Postman reports only track data sent through the request builder, and not data sent through [Newman](/docs/running-collections/using-newman-cli/command-line-integration-with-newman/), [collection runs](/docs/running-collections/intro-to-collection-runs/), or [monitors](/docs/monitoring-your-api/intro-monitors/). However, failed test runs do generate reports using collection runs.
+* You can't view the details of entities you don't have access to.
 
-If you don't see any data in your reports, or your data is incomplete (for example, you have empty response times or sizes) this may be due to one of the following reasons:
+If there isn't any data in your reports, or your data is incomplete (for example, you have empty response times or sizes) this may be due to one of the following reasons:
 
-* It's too early to check. The data refreshes every four hours.
-* You may not have linked a collection to your API.
-* You may not have sent a request, or you may have executed requests from monitoring, collection runs, or Newman, but not from the request builder in Postman.
-* You may not have enabled __Save Responses__ in the __History__ tab in Postman.
-* Sync is not successfully communicating with the Postman servers. Check your network connection, and visit the [Postman Status Page](https://status.postman.com) to see if there is a current outage.
-
-## Next steps
-
-You can use [monitors](/docs/monitoring-your-api/intro-monitors/) to gain detailed insight into your APIs.
+* The data hasn't refreshed yet. Check after four to six hours.
+* You might not have linked a collection to your API.
+* You might not have sent a request. Or you might have executed requests from [monitoring](/docs/monitoring-your-api/intro-monitors/), [collection runs](/docs/running-collections/intro-to-collection-runs/), or [Newman](/docs/running-collections/using-newman-cli/command-line-integration-with-newman/), but not from the request builder in Postman.
+* Postman isn't syncing. Check your network connection and visit the [Postman Status Page](https://status.postman.com) to learn whether there's an outage.

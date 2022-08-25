@@ -1,7 +1,5 @@
 ---
 title: "Troubleshooting requests"
-order: 29.2
-page_id: "troubleshooting_api_requests"
 updated: 2021-12-22
 contextual_links:
   - type: section
@@ -30,7 +28,7 @@ contextual_links:
 warning: false
 ---
 
-If your API request isn't behaving as expected, there can be many possible reasons. To find out what the problem is, you can use the Postman console to troubleshoot your request. This guide also lists common issues and their causes.
+If your API request isn't behaving as expected, there can be many possible reasons. To find out what the problem is, you can use the Postman Console to troubleshoot your request. This guide also lists common issues and their causes.
 
 > This guide specifically discusses troubleshooting API requests. To troubleshoot issues with the Postman app, see [Troubleshooting app issues](/docs/getting-started/troubleshooting-inapp/). To troubleshoot issues with Postman monitors, see [Troubleshooting monitors](/docs/monitoring-your-api/troubleshooting-monitors/).
 
@@ -42,9 +40,9 @@ If your API request isn't behaving as expected, there can be many possible reaso
 
 ## Debugging in the console
 
-Every request sent by Postman is logged in the console, so you can view the detail of what happened when you sent a request. This means you can use the Postman console to help debug your requests when an API isn't behaving as you expect. Keeping the console open while you work will increase the visibility of your network calls and log messages while debugging.
+Every request sent by Postman is logged in the console, so you can view the detail of what happened when you sent a request. This means you can use the Postman Console to help debug your requests when an API isn't behaving as you expect. Keeping the console open while you work will increase the visibility of your network calls and log messages while debugging.
 
-The Postman console logs the following information:
+The Postman Console logs the following information:
 
 * The primary request that was sent, including all underlying request headers, variable values, and redirects
 * The proxy configuration and certificates used for the request
@@ -56,23 +54,23 @@ The Postman console logs the following information:
 
 ### Opening the console
 
-Open the console by selecting <img alt="Console icon" src="https://assets.postman.com/postman-docs/icon-console-v9.jpg#icon" width="16px"> **Console** in the Postman footer. In the Postman Desktop app, you can also select **⌘+Option+C** or **Ctrl+Alt+C**.
+Open the console by selecting <img alt="Console icon" src="https://assets.postman.com/postman-docs/icon-console-v9.jpg#icon" width="16px"> **Console** in the Postman footer. In the Postman desktop app, you can also select **⌘+Option+C** or **Ctrl+Alt+C**.
 
 <img alt="Open the console" src="https://assets.postman.com/postman-docs/console-pane-button.jpg" width="350px"/>
 
 ### Viewing request errors from the console
 
-You will see an error message if Postman isn't able to send your request, or if it doesn't receive a response from the API you sent the request to. This message will include an overview of the issue and a link to the console, where you can access detailed information about the request.
+You will get an error message if Postman isn't able to send your request, or if it doesn't receive a response from the API you sent the request to. This message will include an overview of the issue and a link to the console, where you can access detailed information about the request.
 
 ![Request not sent](https://assets.postman.com/postman-docs/response-error-console-link-v8.jpg)
 
-Select __View in Console__ to see the request detail in the console and find out more about what went wrong.
+Select __View in Console__ to inspect the request details in the console and find out more about what went wrong.
 
 ![Error in Console](https://assets.postman.com/postman-docs/console-pane-opened-from-response-v8.jpg)
 
 ### Navigating the console
 
-In the console, you will see network information, request and response headers and body for each request, together with any console output messages coming from your scripts.
+The console displays network information and the request and response headers and body for each request, together with any console output messages coming from your scripts.
 
 Filter by log message type under **All Logs**. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> to turn timestamps and network information on or off.
 
@@ -99,8 +97,8 @@ Issue | Resolving the issue
 --- | ---
 **Connectivity** | If Postman fails to send your request, you may be experiencing connectivity issues. Check your connection by attempting to open a page in your web browser.
 **Firewalls** | Some firewalls may be configured to block non-browser connections. If this happens you will need to contact your network administrators for Postman to work.
-**Proxy configuration** | If you are using a proxy server to make requests, check your configuration. By default, Postman uses the proxy settings configured in your operating system's network settings. The [Postman console](#debugging-in-the-console) will provide debugging information regarding proxy servers.
-**SSL certificates** | You may experience issues using HTTPS connections. You can turn off SSL certificate verification in [Settings](/docs/getting-started/settings/) by selecting the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> > **Settings** > **General**. If that does't help, your server might be using a client-side SSL connection, which you can configure by selecting the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> > **Settings > Certificates**. Use the [Postman console](#debugging-in-the-console) to ensure that the correct SSL certificate is being sent to the server.
+**Proxy configuration** | If you are using a proxy server to make requests, check your configuration. By default, Postman uses the proxy settings configured in your operating system's network settings. The [Postman Console](#debugging-in-the-console) will provide debugging information regarding proxy servers.
+**SSL certificates** | You may experience issues using HTTPS connections. You can turn off SSL certificate verification in [Settings](/docs/getting-started/settings/) by selecting the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> > **Settings** > **General**. If that does't help, your server might be using a client-side SSL connection, which you can configure by selecting the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> > **Settings > Certificates**. Use the [Postman Console](#debugging-in-the-console) to ensure that the correct SSL certificate is being sent to the server.
 **Client certificates** | Client certificates may be required for your API server. You can [add a client certificate](/docs/sending-requests/certificates/) in [Settings](/docs/getting-started/settings/) by selecting the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> > **Settings** > **Certificates**.
 **Incorrect request URLs** | If you are using variables or path parameters with your request, make sure the final address is structure correctly by opening the [console](#debugging-in-the-console), which will display the URL your request was sent to when it executed. Unresolved request variables can result in invalid server addresses.
 **Incorrect protocol** | Check if you're using `https://` instead of `http://` in your URL (or the opposite).

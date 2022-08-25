@@ -12,12 +12,15 @@ contextual_links:
   - type: link
     name: "Deploying Postman at Enterprise Scale"
     url: "https://blog.postman.com/deploying-postman-at-enterprise-scale/"
+  - type: link
+    name: "How to Securely Deploy Postman at Scale, Part 2: Information Management"
+    url: "https://blog.postman.com/how-to-securely-deploy-postman-at-scale-part-2-information-management/"
 
 ---
 
 > __[Postman app versioning and the Postman Enterprise App (currently in beta) are only available to Postman Enterprise teams.](https://www.postman.com/pricing)__
 
-Postman Enterprise offers greater control to administrators looking to deploy and manage Postman at scale. Team admins can choose to [manage Postman app versioning](#managing-postman-app-versioning) via Postman support, or [deploy the Postman Enterprise app](#deploying-the-postman-enterprise-app) to their organization.
+Postman Enterprise offers greater control to administrators looking to deploy and manage Postman at scale. Team Admins can choose to [manage Postman app versioning](#managing-postman-app-versioning) with Postman support, or [deploy the Postman Enterprise app](#deploying-the-postman-enterprise-app) to their organization.
 
 ## Contents
 
@@ -46,11 +49,11 @@ Postman Enterprise offers greater control to administrators looking to deploy an
 
 ## Managing Postman app versioning
 
-Postman app versioning allows you to set a team-wide version of Postman. You can choose to set Postman v8 or Postman v9 as your team's version. App versioning is a back-end operation and must be requested by a [Postman team admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles).
+Postman app versioning enables you to set a team-wide version of Postman. You can choose to set Postman v8 or Postman v9 as your team's version. App versioning is a back-end operation and must be requested by a [Postman Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles).
 
 To request this change, reach out to your Postman Account Manager or [contact Postman support](https://www.postman.com/support/).
 
-> Check out [Postman's release notes](https://www.postman.com/downloads/release-notes/) to compare app versions, or reach out to your Postman Account Manager for assistance in selecting your team's version.
+> Check out [Postman's release notes](https://www.postman.com/downloads/release-notes/) to compare app versions, or reach out to your Postman Admin for help in selecting your team's version.
 
 ## Deploying the Postman Enterprise app
 
@@ -58,13 +61,13 @@ Postman's Enterprise app is a variant of Postman’s Desktop app that offers gre
 
 ## Downloading the Postman Enterprise app
 
-You must be a [Postman team admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) to access the Postman Enterprise app package.
+You must be a [Postman Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) to access the Postman Enterprise app package.
 
 To download the Postman Enterprise app, open Postman and select **Team** in the upper right, then **Team Settings** > **Enterprise Application**.
 
 <img alt="Postman Enterprise app download" src="https://assets.postman.com/postman-docs/enterprise-app-download-9.6.jpg" />
 
-> Reach out to your Postman Account Manager or [contact Postman support](https://www.postman.com/support/) for assistance with the Postman Enterprise app.
+> Reach out to your Postman Admin or [contact Postman support](https://www.postman.com/support/) for help with the Postman Enterprise app.
 
 ## Installing the Postman Enterprise Windows app
 
@@ -144,7 +147,7 @@ For example, if you first installed Postman Enterprise with the following you mu
 INSTALLDIR=C:\custom and MSIINSTALLPERUSER=1
 ```
 
-> Downgrading the Postman Enterprise app isn't supported and attempts to do so will result in an error message. You can force a downgrade by manually removing the current version and then installing a previous version of Postman Enterprise.
+> Downgrading the Postman Enterprise app isn't supported and attempts to do so will result in an error message. You can force a downgrade by manually removing the current version and then installing an earlier version of Postman Enterprise.
 
 ### Uninstalling the Postman Enterprise Windows app
 
@@ -158,7 +161,7 @@ The app can also be removed from the Add/Remove Programs section in system setti
 
 ## Installing the Postman Enterprise macOS app
 
-macOS supports a flexible installer technology called PKG that can be easily installed without user intervention in scripting or enterprise deployment scenarios.
+macOS supports a flexible installer technology called PKG that can be installed without user intervention in scripting or enterprise deployment scenarios.
 
 PKG installer packages have the following capabilities:
 
@@ -207,7 +210,7 @@ pkgutil --volume "$HOME" --files <the bundle id>
 
 You can proceed to remove the PKG by deleting the files printed out by the above commands relative to `$HOME` depending on if the PKG was installed system-wide or per-user.
 
-Finally, you must notify macOS that the PKG was removed:
+After removal, you must notify macOS that the PKG was removed:
 
 ``` shell
 # For system-wide PKGs

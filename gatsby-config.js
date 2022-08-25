@@ -19,31 +19,6 @@ module.exports = {
   },
   trailingSlash: 'always',
   plugins: [
-    {
-      resolve: 'gatsby-plugin-google-analytics',
-      options: {
-        // The property ID; the tracking code won't be generated without it
-        trackingId: 'UA-43979731-4',
-        // eslint-disable-next-line max-len
-        // Defines where to place the tracking script - `true` in the head and `false` in the body
-        head: true,
-        // Setting this parameter is optional
-        anonymize: true,
-        // Setting this parameter is also optional
-        respectDNT: true,
-        // Delays sending pageview hits on route update (in milliseconds)
-        pageTransitionDelay: 1000,
-        // Defers execution of google analytics script after page load
-        defer: true,
-      },
-    },
-    {
-      resolve: 'gatsby-plugin-google-tagmanager',
-      options: {
-        id: 'GTM-M42M5N',
-        includeInDevelopment: true,
-      },
-    },
     'gatsby-plugin-react-helmet',
     {
       resolve: 'gatsby-source-filesystem',
@@ -101,7 +76,12 @@ module.exports = {
     'gatsby-plugin-meta-redirect',
     'gatsby-plugin-sass',
     'gatsby-plugin-sharp',
-    'gatsby-plugin-sitemap',
+    {
+      resolve: 'gatsby-plugin-sitemap',
+      options: {
+        excludes: ['/search/']
+      }
+    },
     {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
@@ -166,31 +146,6 @@ module.exports = {
         enablePartialUpdates: true, // only index new, changed, deleted records
         matchFields: ['excerpt', 'contextual_links', 'search_keyword', 'headings', 'fields', 'modified'],
         concurrentQueries: false,
-      },
-    },
-    
-    {
-      resolve: 'gatsby-plugin-purgecss',
-      options: {
-        printRejected: true, // Print removed selectors and processed file names
-        develop: true, // Enable while using `gatsby develop`
-        // tailwind: true, // Enable tailwindcss support
-        ignore: [
-          '/prism-tomorrow.css',
-          '/doc.scss',
-          '/print.css',
-        ], // Ignore files/folders
-        // purgeOnly : ['components/', '/main.css', 'bootstrap/'], // Purge only these files/folders
-
-        purgeCSSOptions: {
-          // https://purgecss.com/configuration.html#options
-          safelist: [
-            'collapsing',
-            'gatsby-resp-iframe-wrapper',
-            /^ais-/,
-          ], // Don't remove this selector. Put regex last.
-          // safelist: ['code', 'blockquote', ':not(pre)>code[class*=language-]'], // Don't remove this selector
-        },
       },
     },
   ],

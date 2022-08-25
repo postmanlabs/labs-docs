@@ -23,11 +23,11 @@ If you encounter a problem with a collection-based monitor, the following troubl
 
 ## Viewing failed monitors
 
-The [Postman console log](/docs/monitoring-your-api/viewing-monitor-results/#console-log) can help you debug issues you might encounter with your collection-based monitors. To view the log:
+The [Postman Console log](/docs/monitoring-your-api/viewing-monitor-results/#console-log) can help you debug issues you might encounter with your collection-based monitors. To view the log:
 
 1. Go to your workspace and select **Monitors** in the sidebar.
 1. Select a monitor, and then select a failed monitor run in the performance graph.
-1. Select **Console Log** below the graph to view monitor run details along with any `console.log()` statements you've included in your pre-request and test scripts.
+1. Select **Console Log** to view monitor run details, along with any `console.log()` statements you included in your pre-request and test scripts.
 
 [![Failed monitor run console log](https://assets.postman.com/postman-docs/monitor-console-log-failed-run.jpg)](https://assets.postman.com/postman-docs/monitor-console-log-failed-run.jpg)
 
@@ -36,9 +36,9 @@ For more information on debugging with console logs, see [Troubleshooting API re
 ## Debugging local run attempts
 
 * Run the failing monitor's collection with its environment in Postman or [Newman](/docs/running-collections/using-newman-cli/command-line-integration-with-newman/) to see if it works correctly.
-* If a local run passes, check that [sync](/docs/getting-started/syncing/) is working properly by looking for the green sync symbol in Postman's header. This will ensure any local changes persist.
+* If a local run passes, check that [sync](/docs/getting-started/syncing/) is working by looking for the sync symbol on the left side of Postman's footer. This will ensure any local changes persist.
 
-<img alt="Sync working header" src="https://assets.postman.com/postman-docs/header-sync-working-2.jpg"/>
+<img alt="In sync" src="https://assets.postman.com/postman-docs/syncing-understanding-sync-states-v9.19.jpg" width="250px"/>
 
 ## Debugging variable issues
 
