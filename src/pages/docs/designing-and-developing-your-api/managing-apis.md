@@ -53,7 +53,7 @@ Use the search bar to find the workspace you'd like to move the API to, or filte
 
 You can move APIs to personal, private, team, and public workspaces that you have access to. Shared private, team, and public workspaces allow you to collaborate with others.
 
-> You cannot move APIs from team, private, or public workspaces to a personal workspace.
+> You can't move APIs from team, private, or public workspaces to a personal workspace.
 
 <!-- -->
 
@@ -86,7 +86,7 @@ To edit, delete, or link to one of your comments, go to the comment section and 
 
 [![API comment manage](https://assets.postman.com/postman-docs/v8-managing-comment-actions2.jpg)](https://assets.postman.com/postman-docs/v8-managing-comment-actions2.jpg)
 
-> With Admin permissions you can delete comments made by any contributor, but you cannot update or modify comments.
+> With Admin permissions you can delete comments made by any contributor, but you can't update or modify comments.
 
 ## Using the Changelog
 

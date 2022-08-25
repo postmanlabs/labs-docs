@@ -82,7 +82,6 @@ Postman integrations enable you to send the results of collection-based monitors
 <!-- The **Monitoring** view in the API Builder provides one place to manage all your API's integrations for collection-based monitors. You can set up a new integration, track results, and view your configured monitor integrations. -->
 
 <!-- TO DO: UPDATE SCREENSHOT -->
-
 <img alt="API monitor integrations" src="https://assets.postman.com/postman-docs/observe-api-integrations-v9-19.jpg">
 
 ### Adding a monitor integration

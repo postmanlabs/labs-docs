@@ -42,7 +42,7 @@ To generate server-side boilerplate from your OpenAPI 3.0 definition:
 1. Select **APIs** in the sidebar and select an API with an OpenAPI 3.0 definition.
 1. In the right sidebar, select the code generation icon <img alt="Code snippet icon" src="https://assets.postman.com/postman-docs/icon-code-snippet.jpg#icon" width="16px">.
 
-   <img alt="Edit API" src="https://assets.postman.com/postman-docs/api-codegen.jpg" width="350px"/>
+   <img alt="Edit API" src="https://assets.postman.com/postman-docs/api-codegen.jpg" width="400px"/>
 
 1. In the **Code Generation** pane, select the language and framework for the boilerplate code.
 1. (Optional) Select **Only generate routes and interfaces** to reduce the number of files that are generated. Learn more about [generating only routes and interfaces](#generating-only-routes-and-interfaces).

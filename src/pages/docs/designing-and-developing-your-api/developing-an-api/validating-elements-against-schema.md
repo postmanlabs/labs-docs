@@ -48,7 +48,7 @@ Each error will indicate the type, the line on which it occurs, and details of t
 
 > Note that sometimes a single error in your schema will cause more than one issue to appear in the list. As you fix your errors, the validation issues disappear.
 
-Postman will display a warning if there is an issue with your schema JSON or YAML syntax. Look for errors indicated in the editor and hover over them for more detail. Postman will only be able to validate your schema elements if the JSON or YAML is itself well-formed.
+Postman will display a warning if there is an issue with your schema JSON or YAML syntax. Look for errors indicated in the editor and hover over them for more detail. For Postman to be able to validate your schema elements, the JSON or YAML must be well formed.
 
 If there are no errors, Postman will indicate in the lower pane that your schema is valid.
 
@@ -60,7 +60,7 @@ You can compare your API schemas against documentation collections and tests  as
 
 Each element has a **Validate** column next to it. Open your API from the sidebar and locate the element:
 
-* Documentation collections are on the API **Overview**.
+* Documentation collections are on the API **Overview**. <!-- VERIFY THIS STEP -->
 * To view tests, select **Test and Automation** (under **Power up your API**).
 
 To validate a new element, select **Validate** in the validate column next to the element. To re-validate an element, select the status, then select **Validate Again**.
@@ -87,7 +87,7 @@ If an issue arises when you run a request, select the warning message next to th
 
 If your issue relates to another element, open your API from the sidebar and locate the element:
 
-* Documentation and collections are on the API **Overview**.
+* Documentation and collections are on the API **Overview**. <!-- VERIFY THIS STEP -->
 * To view tests, select **Test and Automation** (under **Power up your API**).
 
 If Postman finds any issues during validation, view them by selecting **Issues found** > **View issues**. This will take you to a page summarizing validation issues.
@@ -112,7 +112,7 @@ You can individually select the changes to be applied to the API element as you 
 
 When you're done selecting the changes to apply, select **Confirm Changes to Collection**.
 
-Alternatively, you can apply all changes by selecting **Select all changes**, then **Confirm Changes to Collection**.
+You can also apply all changes by selecting **Select all changes**, then **Confirm Changes to Collection**.
 
 You can access the updated API element by selecting **View Updated Collection** from the confirmation screen. If you didn't apply all changes, you can also review the remaining issues by selecting **View Remaining Issues**.
 

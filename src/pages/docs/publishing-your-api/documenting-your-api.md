@@ -44,9 +44,9 @@ contextual_links:
     url: "/docs/publishing-your-api/viewing-documentation/"
 ---
 
-Documentation is an important part of any collection or API. Good documentation helps the people who use your collection to understand what it does and how each request works. And comprehensive API documentation lets your consumers know what endpoints are available and how to successfully interact with them.
+Documentation is an important part of any collection or API. Good documentation helps the people who use your collection to understand what it does and how each request works. And comprehensive API documentation lets your consumers know what endpoints are available and how to interact with them.
 
-Once you've generated documentation for your collection or API, users can [view the documentation](/docs/publishing-your-api/viewing-documentation/) in Postman. By default your documentation is private, so only people you share a collection or API with will be able to access it. If you're creating a public API, you can [publish your documentation](/docs/publishing-your-api/publishing-your-docs/) to make it publicly available to anyone with a web browser.
+Once you've generated documentation for your collection or API, users can [view the documentation](/docs/publishing-your-api/viewing-documentation/) in Postman. By default your documentation is private, so you must share a collection or API with others before they can access it. If you're creating a public API, you can [publish your documentation](/docs/publishing-your-api/publishing-your-docs/) to make it publicly available to anyone with a web browser.
 
 ## Contents
 
@@ -128,7 +128,7 @@ You can add to your API documentation collections from the API Builder.
 1. On the API's overview, expand a collection and select **View full documentation**.
 1. Select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px"> next to any description and use [the built-in editing tools](/docs/publishing-your-api/authoring-your-documentation/) to author content.
 
-> Schema documentation cannot be edited directly. Instead, [edit your API's definition](/docs/designing-and-developing-your-api/developing-an-api/defining-an-api/) and then select **Save**. Postman automatically updates the API docs to reflect the latest changes to your definition.
+> Schema documentation can't be edited directly. Instead, [edit your API's definition](/docs/designing-and-developing-your-api/developing-an-api/defining-an-api/) and then select **Save**. Postman automatically updates the API docs to reflect the latest changes to your definition.
 
 <!-- TO DO: UPDATE SCREENSHOT -->
 <img alt="Editing API documentation" src="https://assets.postman.com/postman-docs/documentation-editing-api-docs-v9-12.jpg" width="1106px">
@@ -141,13 +141,13 @@ To remove a linked documentation collection from an API:
 1. On the API's overview, select the remove icon the remove icon <img alt="Remove icon" src="https://assets.postman.com/postman-docs/icon-remove-api-element-v9.jpg#icon" width="16px"> next to a collection.
 1. Select **Remove Collection**.
 
-> Removing documentation only removes the link between the collection and the API. The collection itself is not deleted and can be accessed by selecting **Collections** in the sidebar.
+> Removing documentation removes the link between the collection and the API. The collection itself isn't deleted and can be accessed by selecting **Collections** in the sidebar.
 
 ## Associating environments with documentation
 
 An [environment](/docs/sending-requests/managing-environments/) is a set of related [variables](/docs/sending-requests/variables/) you can use in Postman requests. You can also refer to variables when [authoring descriptions](/docs/publishing-your-api/authoring-your-documentation/) in a collection. In each case, the initial value of the variable is automatically populated in the documentation.
 
-Anyone using your collection will only be able to view the variables in the documentation if the associated environment is also shared with them. For public documentation, you can select an environment during the [publishing process](/docs/publishing-your-api/publishing-your-docs/). Publishing an environment makes it available to anyone [viewing public documentation](/docs/publishing-your-api/viewing-documentation/).
+Anyone using your collection will be able to view the variables in the documentation if the associated environment is also shared with them. For public documentation, you can select an environment during the [publishing process](/docs/publishing-your-api/publishing-your-docs/). Publishing an environment makes it available to anyone [viewing public documentation](/docs/publishing-your-api/viewing-documentation/).
 
 To use an environment variable in your documentation:
 
@@ -162,7 +162,7 @@ To use an environment variable in your documentation:
 
 ## Next steps
 
-Now that you know how to generate API documentation in Postman, you can edit and format the docs and publish them.
+After generating API documentation in Postman, you can edit and format the docs and publish them.
 
 * To learn more about editing and formatting your documentation, visit [Authoring your docs](/docs/publishing-your-api/authoring-your-documentation/).
 * To learn how to make your documentation publicly available, visit [Publishing your docs](/docs/publishing-your-api/publishing-your-docs/).
