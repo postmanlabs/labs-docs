@@ -206,10 +206,6 @@ export const leftNavItems = [
             url: '/docs/sending-requests/grpc/scripting-in-grpc-request/',
           },
           {
-            name: 'Writing tests',
-            url: '/docs/sending-requests/grpc/writing-tests/',
-          },
-          {
             name: 'Test examples',
             url: '/docs/sending-requests/grpc/test-examples/',
           },

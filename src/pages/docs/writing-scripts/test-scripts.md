@@ -2,7 +2,7 @@
 title: "Writing tests"
 order: 43
 page_id: "test_scripts"
-updated: 2021-11-15
+updated: 2022-08-31
 search_keyword: "pm.response, pm.test, pm.expect"
 contextual_links:
   - type: section
@@ -60,11 +60,39 @@ warning: false
 
 Tests confirm that your API is working as expected, that integrations between services are functioning reliably, and that any changes haven't broken existing functionality. You can write test scripts for your Postman API requests in JavaScript. You can also use test code to aid the debugging process when something goes wrong with your API project. For example, you might write a test to validate your API's error handling by sending a request with incomplete data or wrong parameters.
 
+## Contents
+
+* [Adding tests](#adding-tests)
+    * [Adding tests to gRPC requests](#adding-tests-to-grpc-requests)
+* [Writing test scripts](#writing-test-scripts)
+    * [Validating responses](#validating-responses)
+    * [Formatting test result messages with pm.expect](#formatting-test-result-messages-with-pmexpect)
+    * [Using snippets](#using-snippets)
+* [Testing collections and folders](#testing-collections-and-folders)
+* [Debugging your steps](#debugging-your-tests)
+* [Next steps](#next-steps)
+
+## Adding tests
+
 You can add tests to individual [requests](/docs/sending-requests/requests/), [collections](/docs/sending-requests/intro-to-collections/), and folders in a collection. Postman includes code snippets you add and then change to suit your test logic.
 
 To add tests to a request, open the request and enter your code in the **Tests** tab. Tests will execute after the request runs. The output is in the response's __Test Results__ tab.
 
 ![Request Test Tab](https://assets.postman.com/postman-docs/request-test-tab-v9.jpg)
+
+### Adding tests to gRPC requests
+
+To add tests to gRPC requests:
+
+1. Go to the **Scripts** tab in your gRPC request.
+2. Select the execution hook (**Before invoke** or **After response**) to which you want to add a test.
+3. Use [snippets](#using-snippets) from the right panel to add a test or [write customized assertions](#writing-your-assertions).
+
+Both the execution hooks are available for all gRPC requests irrespective of the method type being unary, client streaming, server streaming, or bidirectional streaming. Your scripts can include however many tests you need and will save along with the rest of your request when you select **Save**.
+
+Tests are run when you select **Invoke**, either before or after the request is invoked. If you select **Cancel**, the request execution and any further script execution.
+
+> If there are any errors in your Before invoke script, it will stop the request execution.
 
 ## Writing test scripts
 
@@ -130,7 +158,7 @@ Your scripts can include however many tests you need and will save along with th
 
 ### Using snippets
 
-The **Snippets** section has a selection of commonly-used test code excerpts. Select one and it will insert it in your editor. Snippets can speed up the process of getting started with your scripts. You can edit snippets after adding them to meet your own testing requirements.
+You can use a curated list of commonly-used test code snippets to write your tests. **Snippets** are available in the right panel of the script editor. Selecting a snippet adds the required code automatically to your script, helping you get started quickly with your testing. Once added to your script, you can edit the snippets to meet your specific testing requirements.
 
 ## Testing collections and folders
 
@@ -145,6 +173,13 @@ When you [run a collection](/docs/running-collections/intro-to-collection-runs/)
 ![Collection Tests](https://assets.postman.com/postman-docs/collection-tests-run-v9.jpg)
 
 You can write scripts to control the order in which your requests run using [branching and looping](/docs/running-collections/building-workflows/).
+
+## Debugging your tests
+
+If you are having trouble with your tests:
+
+* Check if there are any errors in your scripts. A red badge will highlight scripts with errors. You can also check the response section for specific errors.
+* Debug your tests using the [log statements](/docs/sending-requests/troubleshooting-api-requests/#using-log-statements) to ensure that you are asserting on correct data.
 
 ## Next steps
 
