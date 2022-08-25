@@ -11,6 +11,7 @@ The Postman Enterprise plan is for organizations that need advanced identity man
     * [Reports](#reports)
     * [Advanced identity management](#advanced-identity-management)
     * [API security and governance features](#api-security-and-governance-features)
+    * [Collaboration](#collaboration)
     * [Administration](#administration)
 * [Postman Enterprise trial](#postman-enterprise-trial)
 * [Purchasing a Postman Enterprise plan](#purchasing-a-postman-enterprise-plan)
@@ -42,7 +43,7 @@ Postman Enterprise provides you with advanced API security and governance featur
 * **Audit logs** - Use [audit logs](/docs/administration/audit-logs/) to understand how your team members are using Postman.
 * **Formatting and security warnings** - Make use of formatting and security warnings that enable you to apply standards consistently throughout your API development process's [design](/docs/api-governance/api-definition/api-definition-warnings/) and [testing](/docs/api-governance/api-testing/api-testing-warnings/) phases.
 
-## Collaboration
+### Collaboration
 
 Postman Enterprise enables your organization to collaborate internally and with partners:
 
