@@ -36,7 +36,7 @@ The following are the high-level steps involved when creating and using APIs:
 * [Developing an API](/docs/designing-and-developing-your-api/developing-an-api/) - Add [a mock server](/docs/designing-and-developing-your-api/developing-an-api/#adding-a-mock-server) and [documentation](/docs/designing-and-developing-your-api/developing-an-api/#adding-documentation) to your API.
 * [Generating server code](/docs/designing-and-developing-your-api/generating-server-code/) - Generate server-side boilerplate code from your OpenAPI 3 specification, which you can run and extend to include your business logic.
 * [Testing an API](/docs/designing-and-developing-your-api/testing-an-api/) - [Add tests](/docs/designing-and-developing-your-api/testing-an-api/#adding-tests) to your API, and use [CI integration](/docs/designing-and-developing-your-api/testing-an-api/#adding-ci-integration) to build and automate testing.
-* [Deploying an API](/docs/designing-and-developing-your-api/deploying-an-api/deploying-an-api-overview/) - Connect your API deployment service to have greater visibility within Postman.
+* [Deploying an API](/docs/designing-and-developing-your-api/deploying-an-api/) - Connect your API deployment service to have greater visibility within Postman.
 * [Observing an API](/docs/designing-and-developing-your-api/observing-an-api/) - Add monitors to observe your API.
 * [Managing and sharing APIs](/docs/designing-and-developing-your-api/managing-apis/) - Share your API with other team members, add comments, view the changelog, and watch for changes.
 * [Using API reports](/docs/reports/reports-overview/) - Use reports to view statistics on how APIs are being used, developed, and improved by your team.

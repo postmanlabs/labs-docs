@@ -38,6 +38,8 @@ This integration supports OpenAPI 3.0 schemas for HTTP and REST APIs. You can im
 
 To connect to Amazon API Gateway in Postman, select **APIs** in the sidebar, and then select the API and version you want to connect. Select the **Deployments** tab, and then select **AWS API Gateway**.
 
+<img alt="Connecting to an API Gateway" src="https://assets.postman.com/postman-docs/deployments-api-gateway-v9-11.jpg" width="916px"/>
+
 When setting up the connection to API Gateway, you can choose to authenticate by [creating an AWS IAM role](#authenticating-with-an-aws-iam-role) or by [using an AWS access key](#authenticating-with-an-aws-access-key). Follow the steps for your chosen method below. After setting up the connection, you can choose to import a schema from the API Gateway.
 
 > When you delete an API or remove it from a workspace, any configured integrations aren't deleted or removed. On the Postman **Home** page, select **Integrations** and search for "AWS API Gateway" to view the list of [AWS API gateway integrations](https://go.postman.co/integrations/service/api_gateway_aws/api_gateway_aws). To delete an integration, select it and then select **Delete Integration**.
