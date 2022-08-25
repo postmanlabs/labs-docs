@@ -1,7 +1,7 @@
 ---
 title: 'Deploying to Azure API Management'
 page_id: 'deploying_an_api_azure'
-updated: 2022-04-13
+updated: 2022-09-15
 search_keyword: "deploy, azure, api management"
 warning: false
 contextual_links:
@@ -26,18 +26,15 @@ contextual_links:
 
 To connect to Azure API Management in Postman:
 
-1. Select **APIs** in the sidebar, and then select the API and version you want to connect.
-1. Select the **Deployments** tab, and then select **Azure API Management**.
-
-    <img alt="Connecting to Azure API Management" src="https://assets.postman.com/postman-docs/deployments-aws-api-gateway-v9-15.jpg"/>
-
+1. Select **APIs** in the sidebar and select an API.
+1. Under **Power up your API**, select **Deployments**, and then select **Azure API Management**.
 1. You'll be prompted to authorize Postman to access your Microsoft Azure account. After you grant access, you can close the browser tab and return to Postman.
 1. Enter information about the Azure API Management service you want to connect to your API:
 
     * **Subscription** - The [subscription](https://docs.microsoft.com/en-us/azure/api-management/api-management-subscriptions) where the service was created.
     * **Resource Group** - The [resource group](https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/manage-resource-groups-portal) that contains the service.
     * **Service** - The Azure API Management [service instance](https://docs.microsoft.com/en-us/azure/api-management/api-management-key-concepts) used for deploying your API.
-    * **Azure API Version** - The Azure API [version](https://docs.microsoft.com/en-us/azure/api-management/api-management-versions) that corresponds to your API version in Postman.
+    * **Azure API Version** - The Azure API [version](https://docs.microsoft.com/en-us/azure/api-management/api-management-versions) that corresponds to your API in Postman.
 
 1. To connect more Azure API Management services, select **+ Add Service**. To remove a service, select **Remove**.
 1. When you're finished adding services, select **Connect**.
@@ -55,11 +52,11 @@ To connect to Azure API Management in Postman:
 
 ## Viewing Azure API deployments
 
-After connecting to Azure API Management, you can view the deployment status and history for your API schemas in Postman. Select **APIs** in the sidebar, select an API and version, and then select the **Deployments** tab.
+After connecting to Azure API Management, you can view the deployment status and history for your API schemas in Postman. Select **APIs** in the sidebar and select an API. Under **Power up your API**, select **Deployments**.
 
 For each connected API Management service instance, you can view the resource group, location, subscription, and virtual IP address (VIP).
 
-<img alt="Viewing Azure API Management services" src="https://assets.postman.com/postman-docs/azure-apim-deployments-tab-v9-17.jpg"/>
+<img alt="Viewing Azure API Management services" src="https://assets.postman.com/postman-docs/azure-apim-deployments-tab-v10.jpg"/>
 
 Select a service to view more details about the connected Azure API version.
 
@@ -70,7 +67,7 @@ Select a service to view more details about the connected Azure API version.
 
 * **Changelog** - The changelog shows the deployment history for your API. Each time you make a revision current, Postman adds an entry to the changelog, including the date created, the date last updated, and a description of the change.
 
-* **Export History** - The export history lists all exports from Postman for this API version. For each export, you can view the date created, the Azure revision, and the Postman source.
+* **Export History** - The export history lists all exports from Postman for this API. For each export, you can view the date created, the Azure revision, and the Postman source.
 
 <img alt="Viewing a service instance" src="https://assets.postman.com/postman-docs/azure-apim-view-a-service-v9-17.jpg"/>
 
@@ -88,7 +85,8 @@ From the service details view, you can take the following actions:
 
 You can import a schema from a connected Azure API Management service to your API in Postman. _Importing a schema will replace your current API schema or add a new schema if one doesn't exist._
 
-1. Select **APIs** in the sidebar, select an API and version, and then select the **Deployments** tab.
+1. Select **APIs** in the sidebar and select an API.
+1. Under **Power up your API**, select **Deployments**, and then select **Azure API Management**.
 1. Select a connected service in the list, and then select **Import Schema**.
 1. Select the **Schema type** (OpenAPI 2.0 or OpenAPI 3.0).
 1. Select the **Azure service** to import the schema from.
@@ -100,9 +98,10 @@ You can import a schema from a connected Azure API Management service to your AP
 
 Exporting an OpenAPI schema makes it available in the connected Azure API Management service. OpenAPI 2.0 and 3.0.x schemas are supported. You can export the schema to an existing revision or to a new revision.
 
-1. Select **APIs** in the sidebar, select an API and version, and then select the **Deployments** tab.
+1. Select **APIs** in the sidebar and select an API.
+1. Under **Power up your API**, select **Deployments**, and then select **Azure API Management**.
 1. Select the service you want to export to, and then select **Export API**.
-1. Select the version, branch, or release to export. Learn more about [versioning an API](/docs/designing-and-developing-your-api/versioning-an-api/) and [creating a release](/docs/designing-and-developing-your-api/versioning-an-api/#creating-a-release).
+1. Select the branch or version to export.
 1. Enter a brief description for the export.
 1. (Optional) If you want to export the schema to an existing revision, select the check box. Select the **Revision ID** of the revision you want to update.
 
