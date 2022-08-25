@@ -50,7 +50,7 @@ If your API doesn't have a definition, you can generate an example definition th
 1. On the API's overview, under **Definition**, select **Create definition**.
 1. Select the **Using Boilerplate** option, then select a definition type and format.
 
-<!-- TO DO: ADD SCREENSHOT -->
+    <!-- TO DO: ADD SCREENSHOT -->
 
     > Postman supports OpenAPI (versions 1.0, 2.0, 3.0, and 3.1), RAML (0.8 and 1.0), Protobuf (2.0 and 3.0), GraphQL, or WSDL (1.1 and 2.0) definitions. OpenAPI definitions can be in JSON or YAML. RAML definitions must be YAML. Protobug definitions are proto files. GraphQL definitions can be JSON or GraphQL SDL. WSDL definitions must be XML.
 
