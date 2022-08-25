@@ -66,7 +66,7 @@ Select **View All Builds** to view the full list of build jobs. From here you ca
 
 ## Viewing collection run details
 
-Using Newman, you can run Postman collections with your API tests as part of a GitHub pipeline. The Postman cloud reporter can send details about the collection runs back to Postman.
+Using Newman, you can run Postman collections with your API tests as part of a GitHub Actions pipeline. The Postman cloud reporter can send details about the collection runs back to Postman.
 
 To view details for collections that were run as part of a build, first [configure Newman for GitHub](#configuring-newman-for-github-actions) and then start a new build in GitHub. To learn more about starting builds, see [the GitHub Actions documentation](https://docs.github.com/en/actions/managing-workflow-runs/manually-running-a-workflow). After the build is complete, use the arrows to expand a build and expand **Collection Runs**. Then expand a collection to view details about a collection run.
 
@@ -76,7 +76,7 @@ To view details for collections that were run as part of a build, first [configu
 
 ## Configuring Newman for GitHub Actions
 
-With the help of Newman and the Postman API, you can run API tests created in Postman as part of your GitHub pipeline. First generate the Newman configuration code in Postman. Then add the configuration code to the YAML file in the `.github/workflows` directory in your GitHub repository.
+With the help of Newman and the Postman API, you can run API tests created in Postman as part of your GitHub pipeline. First generate the Newman configuration code in Postman. Then add the configuration code to a YAML file in the `.github/workflows` directory in your GitHub repository.
 
 Each time the pipeline runs, Newman runs the collections that contain your tests. You can view the results of your tests in Postman. You an also configure the [Postman cloud reporter](https://www.npmjs.com/package/newman-reporter-postman-cloud) to send detailed collection run information back to Postman.
 
@@ -98,14 +98,13 @@ To generate configuration code for Newman:
 
 To add the Newman configuration to your GitHub pipeline:
 
-1. Edit the YAML file in the `.github/workflows` directory in your GitHub repository.
+1. Create a new YAML file in the `.github/workflows` directory in your GitHub repository, and then edit the file.
 1. Add the Newman configuration you copied from Postman to the YAML file:
     * Replace all instances of `$POSTMAN_API_KEY` with a valid [Postman API Key](/docs/developer/intro-api/#generating-a-postman-api-key).
-1. Commit and push the changes to your remote repository.
-1. In GitHub, open the repository from the dashboard. Then start a new build.
+1. Commit and push the changes to your remote repository. This will automatically start a build in GitHub.
 1. To view the test results in Postman, open your API and select the **Test** tab. Learn more about [Viewing collection run details](#viewing-collection-run-details).
 
-### Example file in the .github/workflows directory
+### Example YAML file in the .github/workflows directory
 
 ```yaml
 stages:
