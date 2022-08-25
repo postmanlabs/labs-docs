@@ -51,7 +51,7 @@ The server URL specifies the endpoint where the gRPC services are hosted. You ca
 
 gRPC is a schema-driven framework, which means, that both the client and the server must adhere to a common agreement (schema) while invoking and processing a request. This is enabled by a service definition. A service definition makes the client aware of all the services and methods supported by the server and also message payload structure, supported fields and data types. While creating a gRPC request, you need to add a service definition to the request that not only helps you in browsing through the list of services and methods beforehand but also tells the client how to serialize the data in the runtime.
 
-Postman provides you with a bunch of different options to use a service definition in a request. You can access all these options in the service definition tab.
+Postman provides you with several different options to use a service definition in a request. You can access all these options in the service definition tab.
 
 <img src="https://assets.postman.com/postman-labs-docs/grpc-docs/using-grpc-request/service-definition-tab.jpeg" alt="Adding service definition">
 
