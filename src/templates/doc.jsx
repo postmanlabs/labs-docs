@@ -258,6 +258,13 @@ code[class*="language-"] {
   }
 
 }
+.events__alert {
+    border: 4px dashed ${(props) => props.theme.colors.blue_10};
+    border-radius: ${(props) => props.theme.borderRadius.medium};
+    padding: .75rem 1.25rem;
+    /* color: #0C5460; */
+    color: ${(props) => props.theme.colors.blue_80};
+}
 `
 
 const RightColumnWrapper = styled.aside`

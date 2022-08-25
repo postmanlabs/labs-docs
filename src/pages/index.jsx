@@ -18,20 +18,16 @@ margin-bottom: 48px;
 @media (min-width: 992px) {
         padding-left: 48px;
     }
+    
 .events__alert {
     border: 4px dashed ${(props) => props.theme.colors.blue_10};
     border-radius: ${(props) => props.theme.borderRadius.medium};
     padding: .75rem 1.25rem;
-    /* color: #0C5460; */
+    color: #0C5460;
     color: ${(props) => props.theme.colors.blue_80};
 }
 // Upcoming Event Section styles
-/* .event-wrapper {
-    
-} */
-/* .event-single-wrapper {
-    margin-bottom: 48px !important;
-} */
+
 .event-date {
     font-family: 'Degular-Display-Semibold', system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica, Arial, sans-serif;
     font-weight: 400;
