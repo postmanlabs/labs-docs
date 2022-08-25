@@ -1,8 +1,8 @@
 ---
 title: 'Deploying an API overview'
 page_id: 'deploying_an_api_overview'
-updated: 2022-04-13
-search_keyword: "deploy, aws, api gateway, apgiee, azure, api management"
+updated: 2022-09-15
+search_keyword: "deploy, aws, apigee, api gateway, azure, api management"
 warning: false
 contextual_links:
   - type: section
