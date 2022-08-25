@@ -2,7 +2,7 @@
 
 exports[`Footer renders correctly 1`] = `
 <footer
-  className="sc-bczRLJ lgfnuS"
+  className="sc-bczRLJ iKEWEy"
 >
   <section
     className="pb-5 section"

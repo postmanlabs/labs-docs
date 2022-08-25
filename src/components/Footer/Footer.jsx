@@ -5,7 +5,6 @@ import styled from 'styled-components';
 
 const FooterWrapper = styled.footer`
   border-top: 1px solid ${(props) => props.theme.colors.grey_30};
-  padding-top: 80px;
   background-color: ${(props) => props.theme.colors.grey_00};
   font-size: 14px;
   color: ${(props) => props.theme.colors.grey_50};

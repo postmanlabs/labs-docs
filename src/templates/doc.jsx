@@ -155,8 +155,12 @@ thead:first-child:hover tr{
 /**
 * add syntax highlighting
 */
+.language-text {
+  background-color: ${(props) => props.theme.colors.grey_10};
+  color: ${(props) => props.theme.colors.grey_90};
+}
 :not(pre) > code[class*="language-"] {
-  background-color: ${(props) => props.theme.colors.grey_05};
+  background-color: ${(props) => props.theme.colors.grey_10};
   color: ${(props) => props.theme.colors.grey_90};
   padding: 1px 4px 2px !important;
   font-size: 15px !important;
@@ -168,6 +172,7 @@ code[class*="language-"] {
   word-break: break-word !important;
   word-wrap: break-word !important;
   overflow-wrap: break-word !important;
+  
 }
 
 .gatsby-highlight {
@@ -195,7 +200,7 @@ code[class*="language-"] {
   .token.attr-value,
   .token.tag,
   .token.punctuation {
-    font-family: $ibm;
+    font-family: 'IBM Plex Mono';
     white-space: pre-wrap;
     word-break: break-word;
     line-height: 1.666rem;
@@ -209,7 +214,7 @@ code[class*="language-"] {
   * 3. Adjust the position of the line numbers
   */
   pre[class*="language-"] {
-    font-family: $ibm;
+    font-family: 'IBM Plex Mono';
     background-color: transparent;
     margin: 0;
     padding: 0;

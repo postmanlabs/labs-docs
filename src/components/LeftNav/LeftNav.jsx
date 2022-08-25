@@ -13,7 +13,9 @@ const NavWrapper = styled.ul`
   padding: 0px 24px 0px 0px; 
   background-color: ${(props) => props.theme.colors.grey_05};
   font-size: 14px;
-  
+  .caret-sibling {
+    padding-left: 0;
+  }
   :first-child {
     padding: 0px 24px 0px 0px; 
   }
@@ -67,7 +69,6 @@ const NavWrapper = styled.ul`
   }
   // sub Parent ----------------------
   .sub-parent {
-    // margin-left: 32px;
     margin-top: 8px;
   } 
 
@@ -83,7 +84,7 @@ const ChildItemsWrapper = styled.ul`
     margin-bottom: 0px;
     list-style-type: none;
     color:${(props) => props.theme.colors.grey_50};
-
+    width: 98%;    
     &.currentUrl{
       font-weight: 600;
 
@@ -139,9 +140,7 @@ const CaretWrapper = styled.div`
     }
   }
 
-  .caret-sibling {
-    padding-left: 0;
-  }
+  
 `
 
 const renderTwoLevelList = (item, runtime) => {
