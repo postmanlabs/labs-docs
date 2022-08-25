@@ -605,6 +605,10 @@ export const leftNavItems = [
         url: '/docs/api-governance/api-governance-overview/',
       },
       {
+        name: 'API security admin panel',
+        url: '/docs/api-governance/api-security-admin-panel/'
+      },
+      {
         name: 'API definition',
         subParentSlug: 'api-definition',
         slug: '/docs/api-governance/api-definition/api-definition-warnings/',
