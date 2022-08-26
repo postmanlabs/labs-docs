@@ -11,7 +11,6 @@ const FooterJson = require('./src/components/Footer/Footer.data.json');
 const { execSync } = require("child_process")
 const ignorePaths = [];
 
-// const { google } = require('googleapis');
 
 exports.onCreateNode = ({ node, getNode, actions }) => {
   const { createNodeField } = actions;
