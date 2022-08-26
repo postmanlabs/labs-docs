@@ -17,7 +17,7 @@ contextual_links:
     url: "https://grpc.io/docs/what-is-grpc/introduction/"
 ---
 
-When sending or receiving a gRPC request or response, the messages being sent back and forth are transmitted in a format called [Protocol Buffers](https://developers.google.com/protocol-buffers) (also called "protobuf" or simply "proto"). Unlike other data formats such as JSON or XML, which are text-based, Protocol Buffers is a _binary format_. Binary formats aren't meant to be read by humans, so Postman provides a **JSON interface** that enables you to read and write data when using gRPC.
+When sending or receiving a gRPC request or response, the messages being sent back and forth are transmitted in a format called [Protocol Buffers](https://developers.google.com/protocol-buffers) (also called "protobuf" or simply "proto"). Unlike other data formats such as JSON or XML, which are text-based, Protocol Buffers use a _binary format_. Binary formats aren't meant to be read by humans, so Postman provides a **JSON interface** that enables you to read and write data when using gRPC.
 
 ## JSON interface
 
@@ -36,8 +36,8 @@ When sending or receiving a gRPC request or response, the messages being sent ba
 
 ## Inspecting fields and types
 
-When composing a message for a gRPC request, you input the data as JSON. However, under the hood, that JSON represents Protocol Buffers data. For example, you can enter a base64 JSON string to represent `bytes` in Protocol Buffers.
+When composing a message for a gRPC request, you input the data as JSON. Internally, that JSON represents Protocol Buffers data. For example, you can enter a base64 JSON string to represent `bytes` in Protocol Buffers.
 
-Postman uses the [service definition you select](/docs/sending-requests/grpc/using-service-definition/) to provide rich type information as you compose your message. When you hover your mouse over various JSON fields or values, a tooltip will explain the underlying Protocol Buffers type for that JSON field or value. This can help you remember how to enter certain types of data, or to understand what's going on under the hood.
+Postman uses the [service definition you select](/docs/sending-requests/grpc/using-service-definition/) to provide rich type information as you compose your message. When you hover your mouse over various JSON fields or values, a tooltip will explain the underlying Protocol Buffers type for that JSON field or value. This can help you remember how to enter certain types of data, or to understand what's going on internally.
 
 <img src="https://assets.postman.com/postman-labs-docs/grpc-docs/grpc-types/inspecting-types.gif" alt="gRPC Type Inspection">

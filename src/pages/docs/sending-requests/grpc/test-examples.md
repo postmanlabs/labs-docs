@@ -1,8 +1,6 @@
 ---
-title: "Test examples"
-page_id: "test-examples"
-warning: false
-updated: 2022-07-22
+title: "gRPC Test examples"
+updated: 2022-08-31
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -11,7 +9,7 @@ contextual_links:
     url: "/docs/sending-requests/grpc/writing-tests/"
 ---
 
-You can [write tests](/docs/sending-requests/grpc/writing-tests/) for your gRPC request using [scripts](/docs/sending-requests/grpc/scripting-in-grpc-request/). Depending on the logic and how you want to get the results, there are various ways in which the test assertions can be structured. This section will cover some of the most common ways to write assertions, along with an extensive list of examples explaining how to use [pm.* APIs](/docs/sending-requests/grpcpostman-sandbox-api/) to write tests.
+You can write tests for your gRPC request using [scripts](/docs/sending-requests/grpc/scripting-in-grpc-request/). Depending on the logic and how you want to get the results, there are various ways in which the test assertions can be structured. This section will cover some of the most common ways to write assertions, along with an extensive list of examples explaining how to use [pm.* APIs](/docs/sending-requests/grpc/postman-sandbox-api/) to write tests.
 
 ## Contents
 
@@ -19,16 +17,16 @@ You can [write tests](/docs/sending-requests/grpc/writing-tests/) for your gRPC 
 * [Testing response time](#testing-response-time)
 * [Testing metadata](#testing-metadata)
 * [Testing response trailers](#testing-response-trailers)
-* [Testing response](#testing-response)
+* [Testing responses](#testing-responses)
     * [Testing existence of a message](#testing-existence-of-a-message)
     * [Testing for a message with specific property](#testing-for-a-message-with-specific-property)
     * [Testing for a common property across all messages](#testing-for-a-common-property-across-all-messages)
-    * [Testing message(s) against a JSON schema](#testing-messages-against-a-json-schema)
+    * [Testing messages against a JSON schema](#testing-messages-against-a-json-schema)
 * [Working with a stream of messages](#working-with-a-stream-of-messages)
 
 ## Testing status code
 
- You can use the `statusCode` property available over [pm.response](/docs/sending-requests/grpcpostman-sandbox-api/#pmresponse) to test the status code of the response.
+ You can use the `statusCode` property available over [pm.response](/docs/sending-requests/grpc/postman-sandbox-api/#pmresponse) to test the status code of the response.
 
 ```javascript
 pm.test('Status code is 0', () => {
@@ -44,11 +42,11 @@ pm.test('Status code is 0', () => {
 });
 ```
 
->Pro tip: You can use the `pm.response.to.be.ok` as a shorthand to test if the status code is 0.
+> You can use the `pm.response.to.be.ok` as a shorthand to test if the status code is 0.
 
 ## Testing response time
 
-For a request with unary method, you can assert the response time as follows:
+For a request with unary method, you can assert the response time:
 
 ```javascript
 pm.test('Response time is below 200ms', () => {
@@ -114,17 +112,17 @@ pm.test('"grpc-status-details-bin" response trailer is "dummy-value"', () => {
 });
 ```
 
-## Testing response
+## Testing responses
 
-In case of multiple response messages (request with the server or bidirectional streaming method), the below tests will check all the messages for the given assertion. While, for a request with unary or client streaming method, where there is only one response message, the assertion will be done on that single message only.
+In case of multiple response messages (request with the server or bidirectional streaming method), the below tests will check all the messages for the given assertion. For a request with unary or client streaming method where there is only one response message, the assertion will be done on that single message only.
 
 Also, when writing assertions using `pm.response.messages.to.*` , you will be asserting on an array of message content and not the complete message object mentioned [here](/docs/sending-requests/grpc/postman-sandbox-api/#pmresponse).
 
-All the below assertions can done on request message(s) as well using `pm.request` object.
+The below assertions can done on request messages as well using `pm.request` object.
 
 ### Testing existence of a message
 
-To test the existence of a response message (strictly)
+To test the existence of a response message (strictly):
 
 ```javascript
 pm.test('Correct user details are received', () => {
@@ -141,7 +139,7 @@ pm.test('Correct user details are received', () => {
 
 ### Testing for a message with specific property
 
-You can assert that the given object's properties are a subset of any messages received as a response.
+You can assert that the given object's properties are a subset of any messages received as a response:
 
 ```javascript
 pm.test('User details are updated successfully', () => {
@@ -152,7 +150,7 @@ pm.test('User details are updated successfully', () => {
 });
 ```
 
-> By default, pm.response.messages.to.include() has `.deep` applied on it
+> By default, pm.response.messages.to.include() has `.deep` applied to it.
 
 ### Testing for a common property across all messages
 
@@ -172,9 +170,9 @@ pm.test('All users are in same company', () => {
 });
 ```
 
->By default, `pm.response.messages.to.have.property()` has `.deep` and `.nested` applied on it
+> By default, `pm.response.messages.to.have.property()` has `.deep` and `.nested` applied to it.
 
-### Testing message(s) against a JSON schema
+### Testing messages against a JSON schema
 
 You can assert that the received messages match the given JSON schema:
 
@@ -200,7 +198,7 @@ pm.test('Assert on a specific message', () => {
 
 ## Working with a stream of messages
 
-Check out the below examples to understand how to work with a stream of messages and write assertions on them.
+The examples below show how to work with a stream of messages and write assertions on them.
 
 ```javascript
 pm.test('Should receive keep-alive message roughly every 5 seconds', () => {
