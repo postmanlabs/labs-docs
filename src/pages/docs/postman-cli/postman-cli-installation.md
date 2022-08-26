@@ -64,4 +64,6 @@ To install manually:
 
 1. [Download](https://www.postman.com/downloads/) the .zip file.
 
-1. Extract the .zip file to `\AppData\Local\Postman`.
+1. Extract the .zip file. This creates a new folder called `postman-cli`.
+
+1. Add the `postman-cli` folder's path to the [system environment variables](https://support.microsoft.com/en-us/topic/how-to-manage-environment-variables-in-windows-xp-5bf6725b-655e-151c-0b55-9a8c9c7f747d).

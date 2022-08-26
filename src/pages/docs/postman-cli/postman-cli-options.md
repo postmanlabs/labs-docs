@@ -35,16 +35,13 @@ Commands and options for using the Postman CLI.
 | [**`postman`**](#postman) | The base command, usually used with other commands like `login` or `collection`. |
 | `--help` | Return information about Postman CLI commands and options. |
 | `--version` | Return the version number for the Postman CLI.  |
+| [**`postman login`**](#postman-login---with-api-key-api-key) | Log into Postman. |
+| [**`postman logout`**](#postman-logout) | Log out of Postman. |
 | [**`postman collection run`**](#postman-collection-run-uuid-or-file-name) | Run a collection with a UUID or a local file. |
 | `--bail` | Stop the runner when a test case fails. |
 | `--color` | Turn off colored output (auto\|on\|off) (default: "auto") |
 | `--cookie-jar` | Specify the file path for a JSON Cookie Jar. Uses `tough-cookie` to deserialize the file. |
 | `--delay-request` | Specify a delay (in milliseconds) between requests [number]. |
-<!--TODO - Add more description to whichever `disable reporter` command is decided on and delete the other.-->
-| `--disable-cli-reporter` | Disable reporting results to the CLI. |
-| `--disable-default-reporters cli` | Disable reporting to Postman |
-| `--disable-default-reporters postman` | Disable reporting to Postman. |
-| `--disable-postman-reporter` | Disable reporting to the Postman cloud. |
 | `--disable-unicode` | Force the unicode disable option. When supplied, replaces all symbols in the output with their plain text equivalents. |
 | `--env-var` | Set environment variables in a key=value format on the command line. |
 | `--environment` | Specify a Postman environment as a JSON [file]. |
@@ -70,8 +67,8 @@ Commands and options for using the Postman CLI.
 | `-r` | Run a collection with a custom reporter. |
 | [**`postman api lint`**](#postman-api-lint-uuid-or-file-name)| Run validation checks for governance and security rules against the api definition provided in the Postman config file. |
 | `--disable-postman-reporter` | Don't upload data to Postman after linting. |
-| `--exclude-governance-rules` | Ignore governance rules at the time of linting. |
-| `--exclude-security-rules` | Ignore security rules at the time of linting. |
+| `--only-governance-rules` | Only use governance rules at the time of linting. |
+| `--only-security-rules` | Only use security rules at the time of linting. |
 
 ## Downloading the installation package
 
@@ -115,13 +112,33 @@ Returns the version number for the Postman CLI.
 
 ---
 
-## postman collection run <UUID or file-name>
+## postman login --with-api-key <api-key>
 
-Run a collection with options. Specify the collection with its UUID or file name.
+Log in with your Postman API key.
 
 ### Example
 
-    postman collection run --folder myCollectionFolderName myCollectionFile.json
+    postman login --with-api-key <api-key>
+
+---
+
+## postman logout
+
+Log out of Postman.
+
+### Example
+
+    postman logout
+
+---
+
+## postman collection run <collection-uid> or <file-path>
+
+Run a collection with options. Specify the collection with its uid or file path.
+
+### Example
+
+    postman collection run --folder /myCollectionFolderName/myCollectionFile.json
 
 ### Options
 
@@ -145,6 +162,10 @@ Specify a delay (in milliseconds) between requests [number].
 
 Force the unicode disable option. When supplied, all symbols in the output will be replaced by their plain text equivalents.
 
+#### --environment <uid> or <file-path>
+
+Specify an environment file path or UID.
+
 #### --env-var "[environment-variable-name]=[environment-variable-value]"
 
 Set environment variables in a key=value format on the command line. You can add multiple environment variables using `--env-var` multiple times, for example:
@@ -161,6 +182,26 @@ Specifies global variables on the command line, in a key=value format. Multiple 
 
     `--global-var "this=that" --global-var "alpha=beta".`
 
+#### --globals <file-path>
+
+Specify the file path for global variables.
+
+#### --iteration <file-path> or <URL>
+
+Specify a data source file (JSON or CSV) to be used for iteration as a path to a file or as a URL.
+
+#### --iteration-count <number>
+
+Specifies the number of times the collection has to be run when used in conjunction with the iteration data file.
+
+#### -i <requestUID> or <folderUID>
+
+Run only the specified folder UID or request UID from the collection.
+
+#### -i <requestName> or <folderName>
+
+Run only the specified folder name or request name from the collection. If there are duplicate names, the Postman CLI will run the folder or request that appears first.
+
 #### --ignore-redirects
 
 Turn off automatic following of `3XX` responses.
@@ -168,6 +209,26 @@ Turn off automatic following of `3XX` responses.
 #### --insecure, -k
 
 Turn off strict SSL.
+
+#### --no-insecure-file-reads
+
+Prevent reading of files situated outside of the working directory.
+
+#### --override-request-order
+
+Used with `-i`. Runs a collection with the specified order of the requests or folders. For example:
+
+    postman collection run <collectionUID> -i <folder1UID> -i <folder2UID> --override-request-order
+
+#### --reporter <myReporter>
+
+Run a collection with a custom reporter.
+
+    Install custom reporters with `npm install <custom-reporter-name>`
+
+#### --reporter-myreporter-<option-name> <option-value>
+
+Run a collection with custom reporter options. Multiple options can be added.
 
 #### --silent
 
@@ -193,17 +254,13 @@ Specify the time (in milliseconds) to wait for scripts to complete execution.
 
 Show detailed information of collection run and each request sent.
 
-#### --working-directory
+#### --working-dir <path>
 
-Specify the path to the working directory.
-
-#### -r
-
-Run a collection with a custom reporter.
+Set the path of the working directory to use while reading files with relative paths. Default to current directory.
 
 ---
 
-## postman api lint <UUID or file-name>
+## postman api lint <api-id> or <file-name>
 
 Run validation checks for governance and security rules against the api definition provided in the Postman config file, a local file, or a UUID. You can only lint single-file definitions. Shows a warning if unable to find `<api-id>` to send data back to Postman.
 
@@ -215,16 +272,12 @@ Run validation checks for governance and security rules against the api definiti
 
 ### Options
 
-#### --disable-postman-reporter
+#### --only-governance-rules
 
-Don't upload data to Postman after linting.
+Only use governance rules at the time of linting.
 
-#### --exclude-governance-rules
+#### --only-security-rules
 
-Ignore governance rules at the time of linting.
-
-#### --exclude-security-rules
-
-Ignore security rules at the time of linting.
+Only use security rules at the time of linting
 
 ---
