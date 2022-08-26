@@ -14,7 +14,7 @@ contextual_links:
     url: "https://learning.postman.com/docs/sending-requests/variables/"
 ---
 
-Postman provides JavaScript APIs via the `pm` object that you can use in your gRPC request scripts, executed in [Postman Sandbox](https://github.com/postmanlabs/postman-sandbox).
+Postman provides JavaScript APIs with the `pm` object that you can use in your gRPC request scripts, executed in [Postman Sandbox](https://github.com/postmanlabs/postman-sandbox).
 
 ## Contents
 
@@ -69,7 +69,7 @@ Following are the properties of the `pm.request` object:
 
   For requests with unary and server streaming methods, `pm.request.messages` will contain only one message at index 0 which can be accessed as `pm.request.messages.idx(0)`.
 
-> Note: Request mutation is not supported yet via the `pm` object.
+> Note: Request mutation isn't supported in the `pm` object.
 
 #### pm.response
 
@@ -195,7 +195,7 @@ Check out the [examples](/docs/sending-requests/grpc/test-examples) section for 
 
 ### Using variables in scripts
 
-Head over to our comprehensive guide [here](/docs/writing-scripts/script-references/postman-sandbox-api-reference/#using-variables-in-scripts) to learn about using variables in scripts.
+Head over to the comprehensive guide [here](/docs/writing-scripts/script-references/postman-sandbox-api-reference/#using-variables-in-scripts) to learn about using variables in scripts.
 
 ## Using external libraries
 

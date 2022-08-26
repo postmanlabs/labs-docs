@@ -147,7 +147,7 @@ For more troubleshooting information, see [Troubleshooting app issues](/docs/get
 
 ### Service unavailable
 
-The server you are using is unreachable with the current client settings. If you have confirmed the server is working properly, check the TLS settings in the client. By default, TLS is disabled.
+The server you are using is unreachable with the current client settings. If you have confirmed the server is working properly, check the TLS settings in the client. By default, TLS is turned off.
 
 ### Server reflection failed
 
