@@ -36,17 +36,23 @@ You can set security rules that Postman runs during the design and testing phase
 
 <!-- TODO: screenshot -->
 
+### Turning security rules off and on
+
+> You must have an [Admin or Developer](/docs/collaborating-in-postman/roles-and-permissions/) role for your team to turn security rules off and on.
+
 All the available security rules turned on by default. Your team can configure individual security rules to meet your development needs. If you turn a rule off, you and your team members won't see warnings for this rule if it's violated in your API's definition or when you send an API request.
 
-To turn a security rule off, select the toggle next to the rule name. To turn the rule back on, select the toggle again. <!-- TODO: permissions?? -->
+To turn a security rule off, select the toggle next to the rule name. To turn the rule back on, select the toggle again.
 
 <!-- TODO: screenshot -->
 
 ## Creating custom security rules
 
 > Creating custom security rules is only available for **API definitions**.
+<!--  -->
+> You must have an [Admin or Developer](/docs/collaborating-in-postman/roles-and-permissions/) role for your team to create custom governance rules.
 
-You can create new custom security rules for Postman to evaluate your API's definition with at the design phase of the API development process. The new rules you create must adhere to [Spectral guidelines for custom rules](https://meta.stoplight.io/docs/spectral/e5b9616d6d50c-custom-rulesets). <!-- TODO: permissions?? -->
+You can create new custom security rules for Postman to evaluate your API's definition with at the design phase of the API development process. The new rules you create must adhere to [Spectral guidelines for custom rules](https://meta.stoplight.io/docs/spectral/e5b9616d6d50c-custom-rulesets).
 
 1. Select **API definitions**.
 1. Select **Create new rule**.
@@ -60,6 +66,8 @@ You can create new custom security rules for Postman to evaluate your API's defi
 <!-- TODO: screenshot -->
 
 You can also select **Upload file(s)** to upload a new rule in valid YAML or JSON format.
+
+You can't create a custom rule that duplicates an existing rule. 
 
 ### Turning off custom security rules
 
