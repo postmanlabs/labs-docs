@@ -18,7 +18,7 @@ The Postman Enterprise plan is for organizations that need advanced identity man
 
 ## Enterprise features
 
-Postman Enterprise has features for reporting, identity management, API security and governance, and administration. This list isn't comprehensive, since we often add new features to Postman Enterprise and update existing ones.
+Postman Enterprise has features for reporting, advanced identity management, API security and governance, collaboration, and administration.
 
 ### Reports
 
