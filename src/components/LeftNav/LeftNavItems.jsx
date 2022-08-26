@@ -315,6 +315,10 @@ export const leftNavItems = [
         name: 'Postman CLI command options',
         url: '/docs/postman-cli/postman-cli-options/',
       },
+      {
+        name: 'Running a collection with the Postman CLI',
+        url: '/docs/postman-cli/postman-cli-run-collection/',
+      },
     ],
   },
   {
