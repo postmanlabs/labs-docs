@@ -38,7 +38,7 @@ You can set security rules that Postman runs during the design and testing phase
 
 All the available security rules turned on by default. Your team can configure individual security rules to meet your development needs. If you turn a rule off, you and your team members won't see warnings for this rule if it's violated in your API's definition or when you send an API request.
 
-To turn a security rule off, select the toggle next to the rule name. To turn the rule back on, select the toggle again.
+To turn a security rule off, select the toggle next to the rule name. To turn the rule back on, select the toggle again. <!-- TODO: permissions?? -->
 
 <!-- TODO: screenshot -->
 
@@ -46,7 +46,7 @@ To turn a security rule off, select the toggle next to the rule name. To turn th
 
 > Creating custom security rules is only available for **API definitions**.
 
-You can create new custom security rules for Postman to evaluate your API's definition with at the design phase of the API development process:
+You can create new custom security rules for Postman to evaluate your API's definition with at the design phase of the API development process. The new rules you create must adhere to [Spectral guidelines for custom rules](https://meta.stoplight.io/docs/spectral/e5b9616d6d50c-custom-rulesets). <!-- TODO: permissions?? -->
 
 1. Select **API definitions**.
 1. Select **Create new rule**.
@@ -67,4 +67,4 @@ To turn a custom security rule off, select the toggle next to the rule name.
 
 ### Deleting custom security rules
 
-To delete a custom rule, select the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> next to its name. If you delete a custom security rule, you will need to add it back into Postman if you want to use it again.
+You must be a [Team Admin](/docs/collaborating-in-postman/roles-and-permissions/) to delete a custom rule. To delete a custom rule, select the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> next to its name. If you delete a custom security rule, you will need to add it back into Postman if you want to use it again.

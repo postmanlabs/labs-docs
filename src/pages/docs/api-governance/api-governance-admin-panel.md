@@ -17,3 +17,45 @@ The _API governance admin panel_ enables you to customize the governance rules t
 * [Creating custom governance rules](#creating-custom-governance-rules)
     * [Turning off custom governance rules](#turning-off-custom-governance-rules)
     * [Deleting custom governance rules](#deleting-custom-governance-rules)
+
+## Accessing the API governance admin panel
+
+To access the API governance panel, go to the [Postman home screen](https://go.postman.co/), then select **API Governance** from the team information panel.
+
+> Access to the API governance admin panel is only available for users who have both an Admin and a Developer role assigned to them. If you don't see the **API Governance** link from the Postman home page, you might not have the correct permissions. Talk to your Team Admin to discuss your [assigned roles](/docs/collaborating-in-postman/roles-and-permissions/).
+
+## Configuring governance rules for your team
+
+You can set governance rules that Postman runs during the design phase of the API development process.
+
+<!-- TODO: screenshot -->
+
+All the available governance rules turned on by default. Your team can configure individual governance rules to meet your development needs. If you turn a rule off, you and your team members won't see warnings for this rule if it's violated in your API's definition.
+
+To turn a governance rule off, select the toggle next to the rule name. To turn the rule back on, select the toggle again. <!-- TODO: permissions?? -->
+
+<!-- TODO: screenshot -->
+
+## Creating custom governance rules
+
+You can create new custom governance rules for Postman to evaluate your API's definition. The new rules you create must adhere to [Spectral guidelines for custom rules](https://meta.stoplight.io/docs/spectral/e5b9616d6d50c-custom-rulesets). <!-- TODO: permissions?? -->
+
+1. Select **Create new rule**.
+1. Define the rule in the editor.
+    <!-- TODO: screenshot -->
+1. The rule must be valid YAML or JSON. Use the dropdown list to choose the correct syntax.
+1. Select OpenAPI 2.0 or OpenAPI 3.0 to specify which syntax your new rule is valid for.
+1. Select **Create**.
+1. In the API governance admin panel, find your new rule under **Custom rules** and turn it on.
+
+<!-- TODO: screenshot -->
+
+You can also select **Upload file(s)** to upload a new rule in valid YAML or JSON format.
+
+### Turning off custom governance rules
+
+To turn a custom governance rule off, select the toggle next to the rule name.
+
+### Deleting custom governance rules
+
+You must be a [Team Admin](/docs/collaborating-in-postman/roles-and-permissions/) to delete a custom rule. To delete a custom rule, select the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> next to its name. If you delete a custom governance rule, you will need to add it back into Postman if you want to use it again.
