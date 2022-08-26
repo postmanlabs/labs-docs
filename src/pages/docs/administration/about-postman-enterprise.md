@@ -14,6 +14,8 @@ The Postman Enterprise plan is for organizations that need advanced identity man
     * [Collaboration](#collaboration)
     * [Administration](#administration)
 * [Postman Enterprise trial](#postman-enterprise-trial)
+    * [Accessing Postman features during the trial](#accessing-postman-features-during-the-trial)
+    * [Upgrading to Postman Enterprise during or after your trial](#upgrading-to-postman-enterprise-during-or-after-your-trial)
 * [Purchasing a Postman Enterprise plan](#purchasing-a-postman-enterprise-plan)
 
 ## Enterprise features
@@ -41,14 +43,14 @@ Postman Enterprise provides you with advanced API security and governance featur
 * **Custom token scanner** - Create a [custom token scanner](/docs/administration/token-scanner/#custom-alerts) to proactively check for security leaks.
 * **Public link governance** - View and manage elements like workspaces, documentation, and collection links that your team [makes public](/docs/collaborating-in-postman/manage-public-elements/).
 * **Audit logs** - Use [audit logs](/docs/administration/audit-logs/) to understand how your team members are using Postman.
-* **Formatting and security warnings** - Make use of formatting and security warnings that enable you to apply standards consistently throughout your API development process's [design](/docs/api-governance/api-definition/api-definition-warnings/) and [testing](/docs/api-governance/api-testing/api-testing-warnings/) phases.
+* **Governance and security warnings** - Make use of governance and security warnings that enable you to apply standards consistently throughout your API development process's [design](/docs/api-governance/api-definition/api-definition-warnings/) and [testing](/docs/api-governance/api-testing/api-testing-warnings/) phases.
 
 ### Collaboration
 
 Postman Enterprise enables your organization to collaborate internally and with partners:
 
 * **Private API Network** - <!-- TODO: need more info here. afaik, this feature isn't just for Enterprise users? -->
-* **Partner workspaces** - Your organization can invite partners to a shared workspace to collaborate and build products and services with your APIs. To learn more about partner workspaces, see [](). <!-- TODO: this url doesn't exist yet -->
+* **Partner workspaces** - Your organization can invite partners to a shared workspace to collaborate and build products and services with your APIs. To learn more about partner workspaces, see [TODO this URL doesn't exist yet](#TODO).
 
 ### Administration
 
@@ -60,15 +62,19 @@ After you purchase a Postman Enterprise plan, you can customize it to meet your 
 
 ## Postman Enterprise trial
 
-If you're interested in trying out Postman Enterprise for your organization, you can evaluate the service during a free 30 day trial.
+If you're interested in trying out Postman Enterprise for your organization, you can evaluate the platform through a free trial.
 
-During the 30 day trial, you will have access to the full range of Enterprise features Postman offers. However, you won't be able to use the Postman Enterprise app, a version of the Postman desktop app that offers greater control to administrators.
+To start the trial, you must have an [Admin role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) on your team. Select **Start Enterprise Trial**. <!-- TODO: since the CTA will be available in a lot of different spots, rolled out at different times, it may not make sense to include this at all -->
 
-If you have an existing Postman account, you can start a trial from the [Postman website](https://www.postman.com/postman-enterprise/) or from the Postman app. You must have an [Admin role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) to start a trial. If you have a [Billing role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) in addition to your Admin role, you can start the trial from the [Billing dashboard](http://go.postman.co/billing).
+If you don't have a Postman account, you will be prompted to [sign up for Postman](/docs/getting-started/postman-account/#signing-up-for-a-postman-account) and [create a team](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/#creating-a-team) before you can start a trial of Postman Enterprise.
 
-To start the trial, select **Start a trial** and accept the terms and conditions. <!-- TODO: is this true, look at figma -->
+### Accessing Postman features during the trial
 
-> If you don't have a Postman account, you will be prompted to [sign up for Postman](/docs/getting-started/postman-account/#signing-up-for-a-postman-account) and [create a team](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/#creating-a-team) before you can start a trial of Postman Enterprise.
+During the trial, you'll have access to the full range of Enterprise features Postman offers. See the [Enterprise features](#enterprise-features) section for more information about Enterprise-only capabilities.
+
+> During the trial, you won't be able to use the Postman Enterprise app. The Postman Enterprise app is a version of the Postman desktop app that offers greater control to administrators.
+
+### Upgrading to Postman Enterprise during or after your trial
 
 If you decide to upgrade to Postman Enterprise during or after your trial, contact the [Postman sales team](https://www.postman.com/company/contact-sales/) to get started. <!-- TODO: is there a url + utm to use here? -->
 
