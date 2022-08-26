@@ -6,7 +6,12 @@ search_keyword: "api security, security warnings, schema validation, security va
 
 > [Configurable security rules are only available to Postman Enterprise teams.](https://www.postman.com/pricing) If you don't have an Enterprise account, you'll be able to see the API security admin panel, but you won't be able to turn rules on or off or add new rules.
 
-<!-- TODO: intro -->
+The _API security admin panel_ enables you to customize the rules that Postman applies to your API at both the design phase and the testing phase of API development:
+
+**API design** - Postman applies governance rules to your [API definition](/docs/designing-and-developing-your-api/defining-an-api/) and shows warnings about your definition's format and security posture.
+**API testing** - Postman applies governance rules to your [API requests](https://learning.postman.com/docs/api-governance/api-testing/api-testing-warnings/) and shows warnings about issues that might impact their security posture.
+
+<!-- TODO: screenshot -->
 
 ## Contents
 
@@ -20,7 +25,7 @@ search_keyword: "api security, security warnings, schema validation, security va
 
 To access the API security panel, go to the [Postman home screen](https://go.postman.co/), then select **API Security** from the team information panel.
 
-> Access to the API security admin panel is only available for users who have both an Admin and a Developer role assigned to them. If you do not see the **API Security** link from the Postman home page, you might not have the correct permissions. Talk to your Team Admin to discuss your [assigned roles](/docs/collaborating-in-postman/roles-and-permissions/).
+> Access to the API security admin panel is only available for users who have both an Admin and a Developer role assigned to them. If you don't see the **API Security** link from the Postman home page, you might not have the correct permissions. Talk to your Team Admin to discuss your [assigned roles](/docs/collaborating-in-postman/roles-and-permissions/).
 
 ## Configuring security rules for your team
 
@@ -31,7 +36,7 @@ You can set security rules that Postman runs during the design and testing phase
 
 <!-- TODO: screenshot -->
 
-All rules are turned on by default for all teams. Individual security rules are configured at the team level. If you turn a rule off, you and your team members won't see warnings for this rule if it's violated in your API's definition or when you send an API request.
+All the available security rules turned on by default. Your team can configure individual security rules to meet your development needs. If you turn a rule off, you and your team members won't see warnings for this rule if it's violated in your API's definition or when you send an API request.
 
 To turn a security rule off, select the toggle next to the rule name. To turn the rule back on, select the toggle again.
 
@@ -41,7 +46,7 @@ To turn a security rule off, select the toggle next to the rule name. To turn th
 
 > Creating custom security rules is only available for **API definitions**.
 
-You can create new custom security rules for Postman to run against your API's definition at the design phase of the API development process:
+You can create new custom security rules for Postman to evaluate your API's definition with at the design phase of the API development process:
 
 1. Select **API definitions**.
 1. Select **Create new rule**.
