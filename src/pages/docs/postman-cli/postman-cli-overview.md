@@ -51,6 +51,6 @@ The table below shows some high-level differences between the Postman CLI and Ne
 
 Both the Postman CLI and Newman enable you to run and test collections directly from the command line, but one may be a better fit than the other, depending on your use case or preferences.
 
-For example, assume you already provide your own security for open-source software, and you want to run collections from a script. Also assume you want visibility into any software you build into your CI/CD pipeline. Newman would be a good fit for this use case because Newman's repository is public and Newman is not signed or secured by Postman.
+For example, assume you already manage your own security for open-source software, and you want to run collections from a script. Also assume you want visibility into any software you build into your CI/CD pipeline. Newman would be a good fit for this use case because Newman's repository is public and Newman isn't signed or secured by Postman.
 
-Alternatively, assume you don't already support or secure any open-source software, and you want any software you use to be signed and secured by its developer. The Postman CLI would be a good fit for this use case because the Postman CLI is signed and secured by Postman.
+Here's another example. Assume you don't already support or secure any open-source software, and you want any software you use to be signed and secured by its developer. The Postman CLI would be a good fit for this use case because the Postman CLI is signed and secured by Postman.

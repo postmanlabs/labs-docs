@@ -32,7 +32,7 @@ Commands and options for using the Postman CLI.
 
 | Command/Option | Description |
 |:--|:--|
-| [**`postman`**](#postman) | The base command, usually used with other commands like `login` or `collection`. |
+| [**`postman`**](#postman) | The base command, commonly used with other commands like `login` or `collection`. |
 | `--help` | Return information about Postman CLI commands and options. |
 | `--version` | Return the version number for the Postman CLI.  |
 | [**`postman login`**](#postman-login---with-api-key-api-key) | Log into Postman. |

@@ -36,11 +36,9 @@ warning: false
 
 1. Check the results.
 
- > The above command uses your collection's **collection id** to run the collection. You could also export your collection file and run it by including the collection file path and name on your command.
-
 ## Running a collection in CI/CD
 
-When your collections run successfully, copy the commands into your CI/CD scripts to make them a part of your workflows. To do this, follow the steps below:
+When the collections run to your satisfaction, copy the commands into your CI/CD scripts to make them a part of your workflows. To do this, follow the steps below:
 
 1. Select **Configure command** under the **Run in the CI/CD** menu.
 
