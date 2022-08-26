@@ -42,7 +42,7 @@ To turn a governance rule off, select the toggle next to the rule name. To turn 
 
 ### Importing governance rules from the library
 
-Select Import from library. To see more details about a particular rule, select the expand icon > next to the rule name. Select the rules in the library you want to add, then select Import selected. If you want to import all the rules, select Import all.  Once you import new rules from the library, you need to turn them on in the Governance dashboard.
+Select Import from library. To see more details about a particular rule, select the expand icon > next to the rule name. Select the rules in the library you want to add, then select Import selected. If you want to import all the rules, select Import all. Once you import new rules from the library, you need to turn them on in the Governance dashboard.
 
 ### Removing governance rules
 
@@ -68,7 +68,7 @@ You can create new custom governance rules for Postman to evaluate your API's de
 
 You can also select **Upload file(s)** to upload a new rule in valid YAML or JSON format.
 
-You can't create a custom rule that duplicates an existing rule. 
+You can't create a custom rule that duplicates an existing rule.
 
 ### Turning off custom governance rules
 
