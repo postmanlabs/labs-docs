@@ -53,7 +53,7 @@ You can create new custom security rules for Postman to evaluate your API's defi
 1. Define the rule in the editor.
     <!-- TODO: screenshot -->
 1. The rule must be valid YAML or JSON. Use the dropdown list to choose the correct syntax.
-1. Select OpenAPI 2.0 or OpenAPI 3.0 to specify which syntax your new rule is valid for.
+1. Select OpenAPI 2.0 or OpenAPI 3.0 to choose which specification your new rule is valid for.
 1. Select **Create**.
 1. In the API security admin panel, find your new rule under **Custom rules** and turn it on.
 
