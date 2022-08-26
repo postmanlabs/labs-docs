@@ -80,7 +80,7 @@ During the trial, you'll have access to the full range of Enterprise features Po
 
 ### Upgrading to Postman Enterprise during or after your trial
 
-If you decide to upgrade to Postman Enterprise during or after your trial, contact the [Postman sales team](https://www.postman.com/company/contact-sales/) to get started. <!-- TODO: is there a url + utm to use here? -->
+If you decide to upgrade to Postman Enterprise or a different paid plan during or after your trial, contact the [Postman sales team](https://www.postman.com/company/contact-sales/) to get started. <!-- TODO: is there a url + utm to use here? -->
 
 If you decide not to upgrade after your trial period is over, you will return to your original plan. If you didn't already have a Postman account before starting the trial, your plan will switch to a [Free plan](https://www.postman.com/pricing/).
 
