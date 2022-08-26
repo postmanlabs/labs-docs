@@ -44,7 +44,7 @@ You can import several API specification files at once. Select the workspace you
 
 When importing into a team workspace, you can also choose to add the APIs to the [Private API Network](/docs/collaborating-in-postman/adding-private-network/).
 
-<img alt="Importing an API" src="https://assets.postman.com/postman-docs/import-export-publish-to-private-api-network-22.jpg" width="500px"/>
+<img alt="Importing an API confirmation" src="https://assets.postman.com/postman-docs/v10/api-builder-import-and-publish-v10.jpg"/>
 
 ## Importing multi-file API definitions
 

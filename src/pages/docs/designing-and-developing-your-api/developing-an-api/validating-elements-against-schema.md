@@ -60,7 +60,7 @@ You can compare your API schemas against documentation collections and tests  as
 
 Each element has a **Validate** column next to it. Open your API from the sidebar and locate the element:
 
-* Documentation collections are on the API **Overview**. <!-- VERIFY THIS STEP -->
+* Documentation collections are on the API's overview. <!-- VERIFY THIS STEP -->
 * To view tests, select **Test and Automation** (under **Power up your API**).
 
 To validate a new element, select **Validate** in the validate column next to the element. To re-validate an element, select the status, then select **Validate Again**.
@@ -87,7 +87,7 @@ If an issue arises when you run a request, select the warning message next to th
 
 If your issue relates to another element, open your API from the sidebar and locate the element:
 
-* Documentation and collections are on the API **Overview**. <!-- VERIFY THIS STEP -->
+* Documentation and collections are on the API's overview. <!-- VERIFY THIS STEP -->
 * To view tests, select **Test and Automation** (under **Power up your API**).
 
 If Postman finds any issues during validation, view them by selecting **Issues found** > **View issues**. This will take you to a page summarizing validation issues.

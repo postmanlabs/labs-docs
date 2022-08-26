@@ -40,12 +40,13 @@ To publish an API version:
 
     > You must be in sync with the remote repository to publish an API version. [Push or pull any changes](/docs/designing-and-developing-your-api/versioning-an-api/managing-git-changes/#pushing-and-pulling-changes) as needed.
 
-1. Under **Make your APIs discoverable**, select **Publish API**.
-1. Enter a **Version Label** and, if you want, add a **Note** describing this version.
-1. Select the elements you want to publish with this version (API definition, collections, or environments).
+1. On the API's overview, under **Make your APIs discoverable**, select **Publish API**.
+1. Enter a **Version label** and, if you want, add any **Notes** describing this version.
+1. Select the elements you want to publish with this version (API definition, collections, and environments).
+1. To make this version available on the Private API Network, select **Add to Private API Network**. You can select a folder to place the API version in, or create a new folder.
 1. Select **Publish API**.
 
-<!-- ADD SCREENSHOT OF PUBLISH DIALOG BOX  -->
+    <img alt="Publishing an API version" src="https://assets.postman.com/postman-docs/v10/api-builder-publish-v10.jpg" width="442px" />
 
 ## Viewing a published API version
 

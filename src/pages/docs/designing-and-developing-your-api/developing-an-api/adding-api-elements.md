@@ -49,7 +49,7 @@ Add a collection to document your API or help others test your API's endpoints. 
 To add an existing collection to your API:
 
 1. Select **APIs** in the sidebar and select an API.
-1. Next to **Collections** select **+ Add a collection**.
+1. On the API's overview, next to **Collections** select **+ Add a collection**.
 1. Select an available collection and select **Add Collection**.
 
 The linked collection displays on your API's overview and under your API in the sidebar. To view documentation for the collection, expand the collection and select **View full documentation**.
@@ -59,7 +59,7 @@ The linked collection displays on your API's overview and under your API in the 
 To generate a new collection from your API definition:
 
 1. Select **APIs** in the sidebar and select an API.
-1. Next to **Definition** select **Generate Collection**.
+1. On the API's overview, next to **Definition** select **Generate Collection**.
 1. Change any settings to customize the new collection.
 1. Select **Generate Collection**.
 
