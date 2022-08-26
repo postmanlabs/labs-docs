@@ -43,13 +43,13 @@ The request section includes the required configurations to connect to the serve
 
     * **Message actions** - The **Beautify** button makes the composed JSON message presentable and readable for external users using advanced formatting. The **Generate example message** button creates an example message using the schema once you have selected the method to invoke.
 
-    * **Authorization** - Pass credentials that the server would use to authorize the connection here. You can choose from a list of Auth types including API Key, Basic auth, and Bearer token. Learn more about [authorizing your requests](/docs/sending-requests/authorization/).
+    * **Authorization** - Pass credentials that the server would use to authorize the connection here. You can choose from a list of Auth types including API Key, Basic auth, and Bearer token. Learn more about [authorizing requests](/docs/sending-requests/authorization/).
 
     * **Metadata** - Pass additional metadata along with the request in the form of key-value pairs. Metadata is used by the client to provide more information about the call to the server.
 
     * **Service definition** -  A service definition makes the client aware of all the services and methods supported by the server and also message payload structure, supported fields and data types. A service definition is loaded automatically after you enter the URL if the server supports server reflection. Otherwise, you will be required to load a service definition manually either by uploading a `.proto` file or creating a protobuf API in Postman. Learn more about [working with service definitions](/docs/sending-requests/grpc/using-service-definition/).
 
-* **Scripts** - Postman contains a powerful scripting environment that allows you to add JavaScript code (scripts) in your gRPC requests. You can use scripts to write API tests, debug your requests by logging to [Postman Console](/docs/sending-requests/troubleshooting-api-requests/), or dynamically read or update the values of [variables](/docs/sending-requests/variables/). Learn more about [scripting in gRPC request](/docs/sending-requests/grpc/writing-scripts/scripting-in-grpc-request/).
+* **Scripts** - Postman contains a powerful scripting environment that allows you to add JavaScript code (scripts) in your gRPC requests. You can use scripts to write API tests, debug your requests by logging to [Postman Console](/docs/sending-requests/troubleshooting-api-requests/), or dynamically read or update the values of [variables](/docs/sending-requests/variables/). Learn more about [scripting in gRPC requests](/docs/sending-requests/grpc/scripting-in-grpc-request/).
 
 * **TLS Toggle** - Unlike HTTP which defines if the call is going to be executed over a secured or unsecured connection using the URL structure (`http://` for unsecured, `https://` for secured), with gRPC, the client needs to configure it manually. Based on the server requirement, you can choose to invoke the method over a secured or an unsecured connection using the Lock icon <img alt="Lock icon" src="https://assets.postman.com/postman-docs/icon-lock.jpg#icon" width="11px"> before the URL.
 
