@@ -186,16 +186,12 @@ export const leftNavItems = [
             url: '/docs/sending-requests/grpc/grpc-client-overview/',
           },
           {
-            name: 'About the gRPC request interface',
+            name: 'Using the gRPC request interface',
             url: '/docs/sending-requests/grpc/grpc-request-interface/',
           },
           {
             name: 'Invoking your first gRPC request',
             url: '/docs/sending-requests/grpc/first-grpc-request/',
-          },
-          {
-            name: 'Using gRPC requests',
-            url: '/docs/sending-requests/grpc/using-grpc-request/',
           },
           {
             name: 'Working with service definitions',

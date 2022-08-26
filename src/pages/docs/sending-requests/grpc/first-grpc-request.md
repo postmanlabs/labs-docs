@@ -27,7 +27,7 @@ gRPC supports four types of methods that allow the client and server to interact
 
 * **Bidirectional streaming** - The client and server can communicate with each other asynchronously over a persistent session.
 
-This example will create and execute a unary request. To learn about invoking the other method types, see [using gRPC requests](/docs/sending-requests/grpc/using-grpc-request/).
+This example will create and execute a unary request. To learn about invoking the other method types, see [Using the gRPC request interface](/docs/sending-requests/grpc/grpc-request-interface/).
 
 ## Creating and invoking a request
 
@@ -51,4 +51,4 @@ Once the method is invoked, the server processes the information passed and give
 
 Try invoking some other methods available on the gRPC bin server and see how things act differently.
 
-When you’re done, learn more about [using gRPC requests](/docs/sending-requests/grpc/using-grpc-request/).
+When you’re done, learn more about [Using the gRPC request interface](/docs/sending-requests/grpc/grpc-request-interface/).
