@@ -23,7 +23,7 @@ Before creating a gRPC mock server, you must have an API definition. This can ei
 
 To create the gRPC mock server:
 
-1. Create a new gRPC request. See [Creating a new request](s/docs/sending-requests/grpc/grpc-request-interface/#creating-a-new-request) for more information.
+1. Create a new gRPC request. See [Creating a new request](/docs/sending-requests/grpc/grpc-request-interface/#creating-a-new-request) for more information.
 1. Select **Enter server URL**.
 1. Select **Select a Protobuf API**.
 1. Enter the protobuf API to use in one of the following ways:
