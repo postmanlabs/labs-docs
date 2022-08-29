@@ -18,7 +18,7 @@ gRPC requests in Postman include a variety of tools, views, and controls to help
 * [Creating a new request](#creating-a-new-request)
 * [The request section](#the-request-section)
 * [Invoking different types of methods](#invoking-different-types-of-methods)
-* [The response section](#response)
+* [The response section](#the-response-section)
 * [The sidebar](#the-sidebar)
 * [Troubleshooting](#troubleshooting)
 * [Next steps](#next-steps)
