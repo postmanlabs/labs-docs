@@ -111,7 +111,7 @@ Once you invoke a method, the server gives back the appropriate response that ap
 
 * **Search through response** - Look for specific things within the response using the **Search** button.
 
-* **Multiple responses** - While invoking a streaming method type (client streaming, server streaming or bidirectional streaming), the client-server communication within a single session is recorded in the response area as a series of sent and received messages in a timeline instead of a single response.
+* **Multiple responses** - While invoking a streaming method type (client streaming, server streaming, or bidirectional streaming), the client-server communication within a single session is recorded in the response area as a series of sent and received messages in a timeline instead of a single response.
 
     * **Connection status** - The connection status shows if the connection with the server is active and if messages are being streamed.
 
