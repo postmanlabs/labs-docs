@@ -34,7 +34,7 @@ pm.test('Status code is 0', () => {
 });
 ```
 
-You can also assert the same using the [pm.expect](/docs/sending-requests/grpc/postman-sandbox-api/#pmexpect) method
+You can also assert the same using the [pm.expect](/docs/sending-requests/grpc/postman-sandbox-api/#pmexpect) method.
 
 ```javascript
 pm.test('Status code is 0', () => {
