@@ -12,7 +12,7 @@ contextual_links:
 
 gRPC is a schema-driven framework. This means the client and server must adhere to a standard agreement (schema) while invoking and executing a request. A service definition enables this. On the client side, a service definition makes the client aware of all the services and methods the server supports and message payload structure, supported fields and data types. Anything that doesn’t follow the regulations enforced by the service definition would result in an error. During the execution of the request, the service definition is used to serialize the information exchanged between both parties.
 
-gRPC uses [Protocol Buffers (protobuf)](https://developers.google.com/protocol-buffers/docs/overview) as the Interface Definition Language (IDL) to define the service definition. While creating a gRPC request, you will need to add the appropriate service definition to the request in order to choose a method that you want to invoke. You can configure the service definition by heading to the **Service definition tab** in a gRPC request.
+gRPC uses [Protocol Buffers (protobuf)](https://developers.google.com/protocol-buffers/docs/overview) as the Interface Definition Language (IDL) to define the service definition. While creating a gRPC request, you will need to add the appropriate service definition to the request in order to choose a method that you want to invoke. You can configure the service definition by heading to the **Service definition** tab in a gRPC request.
 
 <img src="https://assets.postman.com/postman-labs-docs/grpc-docs/using-service-definition/service-definition-tab.jpeg" alt="Service definition tab">
 
