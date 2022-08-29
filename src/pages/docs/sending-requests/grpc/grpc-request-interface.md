@@ -105,7 +105,7 @@ Once you invoke a method, the server gives back the appropriate response that ap
 
     * **Metadata (Initial) and Trailing metadata** - Metadata returned by the server typically consists of additional information about the execution.
 
-* **Additional information** - This section provides you with key information regarding performance and if the execution was successful. You can assess the performance of the API using the information on how long the execution took. The status code gives you information on if the execution was successful. The status code `0 OK` signifies successful execution. In case of an error, a gRPC-based implementation returns different status codes for different error scenarios which help you understand the cause and figure out the next set of actions by hovering on it.
+* **Additional information** - This section provides you with key information regarding performance and if the execution was successful. You can assess the performance of the API using the information on how long the execution took. The status code gives you information explaining whether the execution was successful. The status code `0 OK` signifies successful execution. In case of an error, a gRPC-based implementation returns different status codes for different error scenarios which help you understand the cause and figure out the next set of actions by hovering on it.
 
 * **Wrap text button** - Selecting this button adjusts the width of the response body according to the width of the response area, making it easier to read longer responses without scrolling.
 
