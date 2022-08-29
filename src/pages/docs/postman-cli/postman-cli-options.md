@@ -237,7 +237,7 @@ Turn off terminal output.
 
 #### --suppress-exit-code, -x
 
-Continue running tests even after a failure, but exit with `code=0`
+Continue running tests even after a failure, but exit with `code=0`.
 
 #### --timeout [number]
 
