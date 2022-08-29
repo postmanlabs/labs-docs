@@ -85,7 +85,7 @@ To invoke a unary request, select the method from the **Method selection** dropd
 
 With the client streaming method type, you send multiple message payloads from the client and the server responds back with a single response.
 
-To invoke a client streaming method, select the method from the **Method selection dropdown**, enter the details and select **Invoke**. This puts gRPC requests in a persistent ‘Streaming' state where you can send multiple messages and once you’re done, select **End streaming**. The server then processes all the information passed and gives back a response.
+To invoke a client streaming method, select the method from the **Method selection** dropdown, enter the details and select **Invoke**. This puts gRPC requests in a persistent streaming state where you can send multiple messages. When you're done, select **End streaming**. The server then processes all the information passed and gives back a response.
 
 ### Invoking a server streaming method
 
