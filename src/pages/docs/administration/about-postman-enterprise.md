@@ -43,9 +43,7 @@ Postman Enterprise provides you with advanced API security and governance featur
 * **Custom token scanner** - Create a [custom token scanner](/docs/administration/token-scanner/#custom-alerts) to proactively check for security leaks.
 * **Public link governance** - View and manage elements like workspaces, documentation, and collection links that your team [makes public](/docs/collaborating-in-postman/manage-public-elements/).
 * **Audit logs** - Use [audit logs](/docs/administration/audit-logs/) to understand how your team members are using Postman.
-* **Governance and security warnings** - Make use of governance and security warnings that enable you to apply standards consistently throughout your API development process's [design](/docs/api-governance/api-definition/api-definition-warnings/) and [testing](/docs/api-governance/api-testing/api-testing-warnings/) phases.
-* **Postman CLI** - Automate your tests and see the results of API security and governance rules in Postman CLI [TODO this URL doesn't exist yet](#TODO).
-
+* **API governance and API security warnings** - Make use of governance and security warnings that enable you to apply standards consistently throughout your API development process's [design](/docs/api-governance/api-definition/api-definition-warnings/) and [testing](/docs/api-governance/api-testing/api-testing-warnings/) phases. You can also use the [Postman CLI](/docs/postman-cli/postman-cli-overview/) to return governance and security warnings.
 ### Collaboration
 
 Postman Enterprise enables your organization to collaborate internally and with partners:
