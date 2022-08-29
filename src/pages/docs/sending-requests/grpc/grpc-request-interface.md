@@ -115,7 +115,7 @@ Once you invoke a method, the server gives back the appropriate response that ap
 
     * **Connection status** - The connection status shows if the connection with the server is active and if messages are being streamed.
 
-    * **Message stream** - The message stream contains the list of sent, received and informative messages arranged in reverse chronological order (latest appears on the top).
+    * **Message stream** - The message stream contains the list of sent, received, and informative messages arranged in reverse chronological order (latest appears on the top).
 
     * **Expand/collapse message** - You can take an in-depth look at the message content by expanding it within the message stream.
 
