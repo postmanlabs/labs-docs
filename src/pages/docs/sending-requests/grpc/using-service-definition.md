@@ -86,7 +86,7 @@ Sometimes, gRPC APIs can depend on specific services that are shared by multiple
 
 ### Creating a new protobuf API
 
-Go to the **Service definition tab** and select **Create a new API**. This brings up the create new API flow where you will have to name the new API and the version and select the type of API you want to create. Postman supports creating a protobuf API in _protobuf 2_ and _protobuf 3_. Once you’re done, select **Create new API**. This opens the API in the Postman API Builder in a new tab.
+Go to the **Service definition** tab and select **Create a new API**. This brings up the create new API flow where you will have to name the new API and the version and select the type of API you want to create. Postman supports creating a protobuf API in _protobuf 2_ and _protobuf 3_. Once you’re done, select **Create new API**. This opens the API in the Postman API Builder in a new tab.
 
 <img src="https://assets.postman.com/postman-labs-docs/grpc-docs/using-service-definition/create-new-api.jpeg" alt="Creating a new API">
 
