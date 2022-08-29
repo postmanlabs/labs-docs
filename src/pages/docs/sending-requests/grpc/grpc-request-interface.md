@@ -25,7 +25,7 @@ gRPC requests in Postman include a variety of tools, views, and controls to help
 
 ## Creating a new request
 
-Create a new gRPC request by selecting the **New** button in the left sidebar which brings up the ‘Create new’ modal. Select gRPC request from the list to open a blank **gRPC request** in a new tab.
+Create a new gRPC request by selecting the **New** button in the left sidebar which brings up the **Create new** dialog. Select gRPC request from the list to open a blank **gRPC request** in a new tab.
 
 ## The request section
 
@@ -33,7 +33,7 @@ The request section includes the required configurations to connect to the serve
 
 <img src="https://assets.postman.com/postman-labs-docs/grpc-docs/request-interface/request-sections.jpeg" alt="Request pane">
 
-* **Server URL** - Defines the endpoint where the service is hosted. A gRPC URL often starts with `grpc://` instead of `http://` or `https://`. While creating a new request, you can also browse through previously used URLs by selecting the URL field. This helps you in creating the request faster if you’re testing out multiple methods on the same endpoint.
+* **Server URL** - Defines the endpoint where the service is hosted. A gRPC URL often starts with `grpc://` instead of `http://` or `https://`. While creating a new request, you can also browse through previously used URLs by selecting the URL field. This helps you create the request faster if you’re testing multiple methods on the same endpoint.
 
 * **Method** - Select the method you wish to invoke using the method selector dropdown. The list of methods is populated by the service definition. Method types are described in detail in the [invoking different types of methods](#invoking-different-types-of-methods) section below.
 
@@ -43,7 +43,7 @@ The request section includes the required configurations to connect to the serve
 
     * **Message actions** - The **Beautify** button makes the composed JSON message presentable and readable for external users using advanced formatting. The **Generate example message** button creates an example message using the schema once you have selected the method to invoke.
 
-    * **Authorization** - Pass credentials that the server would use to authorize the connection here. You can choose from a list of Auth types including API Key, Basic auth, and Bearer token. Learn more about [authorizing requests](/docs/sending-requests/authorization/).
+    * **Authorization** - Pass credentials that the server would use to authorize the connection here. You can choose from a list of auth types including API Key, Basic auth, and Bearer token. Learn more about [authorizing requests](/docs/sending-requests/authorization/).
 
     * **Metadata** - Pass additional metadata along with the request in the form of key-value pairs. Metadata is used by the client to provide more information about the call to the server.
 
@@ -51,7 +51,7 @@ The request section includes the required configurations to connect to the serve
 
 * **Scripts** - Postman contains a powerful scripting environment that allows you to add JavaScript code (scripts) in your gRPC requests. You can use scripts to write API tests, debug your requests by logging to [Postman Console](/docs/sending-requests/troubleshooting-api-requests/), or dynamically read or update the values of [variables](/docs/sending-requests/variables/). Learn more about [scripting in gRPC requests](/docs/sending-requests/grpc/scripting-in-grpc-request/).
 
-* **TLS Toggle** - Unlike HTTP which defines if the call is going to be executed over a secured or unsecured connection using the URL structure (`http://` for unsecured, `https://` for secured), with gRPC, the client needs to configure it manually. Based on the server requirement, you can choose to invoke the method over a secured or an unsecured connection using the Lock icon <img alt="Lock icon" src="https://assets.postman.com/postman-docs/icon-lock.jpg#icon" width="11px"> before the URL.
+* **TLS Toggle** - Unlike HTTP which defines if the call is going to be executed over a secured or unsecured connection using the URL structure (`http://` for unsecured, `https://` for secured), with gRPC, the client needs to configure it manually. Based on the server requirement, you can choose to invoke the method over a secured or an unsecured connection using the lock icon <img alt="Lock icon" src="https://assets.postman.com/postman-docs/icon-lock.jpg#icon" width="11px"> before the URL.
 
 * **Invoke button** - Once you have entered the server URL, selected the method to invoke, and defined the payload, select **Invoke** to invoke the request and get a response from the server.
 
