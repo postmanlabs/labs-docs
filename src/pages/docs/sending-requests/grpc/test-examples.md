@@ -150,7 +150,7 @@ pm.test('User details are updated successfully', () => {
 });
 ```
 
-> By default, pm.response.messages.to.include() has `.deep` applied to it.
+> By default, `pm.response.messages.to.include()` has `.deep` applied to it.
 
 ### Testing for a common property across all messages
 
