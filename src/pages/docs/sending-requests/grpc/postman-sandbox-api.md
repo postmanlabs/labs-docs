@@ -161,7 +161,7 @@ You can add test specifications and assertions to your scripts using the [pm.tes
   });
   ```
 
-  You can also include multiple assertions to group the related ones in a single test.
+  You can also include multiple assertions to group the related ones in a single test:
 
   ```javascript
   pm.test("Should receive update events for both users", function () {
