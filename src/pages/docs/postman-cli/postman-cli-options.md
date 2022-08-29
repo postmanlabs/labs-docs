@@ -171,7 +171,7 @@ Specify an environment file path or UID.
 
 Set environment variables in a key=value format on the command line. You can add multiple environment variables using `--env-var` multiple times, for example:
 
-    `--env-var "key1=value1" --env-var "key2=value2"`.
+    --env-var "key1=value1" --env-var "key2=value2"
 
 #### --export-cookie-jar [path]
 
