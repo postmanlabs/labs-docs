@@ -58,7 +58,7 @@ If you don’t have the protobuf API available in your workspace, you can also i
 
 To import a `.proto` file:
 
-1. Go to the **Service definition tab** and select **Import a .proto file**.
+1. Go to the **Service definition** tab and select **Import a .proto file**.
 
 1. You can drag and drop a `.proto` file from your local system or select **Choose a file** to open the file explorer.
 
