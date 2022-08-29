@@ -45,7 +45,7 @@ Following are the properties of the `pm.request` object:
 
   ><code>pm.request.url: <a href='https://www.postmanlabs.com/postman-collection/Url.html' target='_blank'>Url</a></code>
 
-* The package, service and method name in the format `packageName.serviceName.methodName`:
+* The package, service, and method name in the format `packageName.serviceName.methodName`:
 
   ><code>pm.request.methodPath: <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#string_type' target='_blank'>string</a></code>
 
