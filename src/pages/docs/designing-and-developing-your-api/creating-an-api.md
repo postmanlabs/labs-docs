@@ -37,15 +37,27 @@ To start using the API Builder, you can create a new API in your workspace. You 
 
 > You must be signed in to your Postman account to create an API.
 
+## Contents
+
+* [Creating an API](#creating-an-api)
+* [Updating an API](#updating-an-api)
+* [Renaming an API](#renaming-an-api)
+* [Deleting an API](#deleting-an-api)
+
 ## Creating an API
 
 To create a new API:
 
-1. Select **APIs** in the sidebar and select **+**. Postman creates a new API and opens the API's overview.
+1. Select **APIs** in the sidebar and select **+**.
 
     <img alt="Create a new API" src="https://assets.postman.com/postman-docs/v10/api-builder-create-v10.jpg" width ="382px"/>
 
-1. To change the default name, hover over the API's name. Select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px"> and enter a new name.
+1. Enter a name for your new API.
+1. Select an option for creating your API:
+
+    * **Create from scratch** - Creates an empty API where you can create an API definition and add collections.
+    * **Connect repository** - Connect to a Git repository and import your API definitions and collections into Postman. Learn more about [connecting to a repository](/docs/designing-and-developing-your-api/versioning-an-api/using-external-git-repo/).
+    * **Start with collections** - Use a collection as a starting point for your API.
 
 To start working on your API, [create a new definition](/docs/designing-and-developing-your-api/developing-an-api/defining-an-api/#generating-an-api-definition). You can also [import an existing API definition](/docs/designing-and-developing-your-api/importing-an-api/) from a file, a code repository, or an API gateway.
 
@@ -67,6 +79,10 @@ There are some differences in the way API versions work in Postman v10 compared 
 * In Postman v9, versions were major iterations of your API you could work on at the same time. In Postman v10, [published versions](/docs/designing-and-developing-your-api/versioning-an-api/api-versions/) are static representations of your API that consumers can reference (like releases in Postman v9).
 * If you need to work on more than one major iteration of your API in Postman v10, create separate APIs.
 * If an API created in Postman v9 had multiple versions, each version will appear as a separate API in Postman v10.
+
+## Renaming an API
+
+To change the name of an API, select **APIs** in the sidebar. Select the more actions <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> icon next to an API and select **Rename**.
 
 ## Deleting an API
 
