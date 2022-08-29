@@ -265,7 +265,7 @@ Set the path of the working directory to use while reading files with relative p
 
 Run validation checks for governance and security rules against the api definition provided in the Postman config file, a local file, or a UUID. You can only lint single-file definitions. Shows a warning if unable to find `<api-id>` to send data back to Postman.
 
-> Supports APIs that are stored on Postman and aren't linked to Git.
+> This command supports APIs that are stored on Postman and aren't linked to Git.
 
 ### Example
 
