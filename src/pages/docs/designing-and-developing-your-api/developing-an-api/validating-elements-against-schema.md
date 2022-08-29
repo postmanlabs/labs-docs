@@ -1,6 +1,6 @@
 ---
 title: 'Validating APIs'
-updated: 2022-02-04
+updated: 2022-09-15
 contextual_links:
   - type: section
     name: "Prerequisites"

@@ -1,6 +1,6 @@
 ---
 title: 'Viewing Datadog metrics'
-updated: 2022-06-16
+updated: 2022-09-15
 warning: false
 contextual_links:
   - type: section

@@ -35,6 +35,12 @@ Supported languages and frameworks include:
 * **Java** - JAX-RS
 * **Python** - Flask
 
+## Contents
+
+* [Generating server code](#generating-server-code)
+* [Using the generated code](#using-the-generated-code)
+* [Generating only routes and interfaces](#generating-only-routes-and-interfaces)
+
 ## Generating server code
 
 To generate server-side boilerplate from your OpenAPI 3.0 definition:
