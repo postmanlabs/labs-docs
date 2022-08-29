@@ -171,7 +171,7 @@ Specify an environment file path or UID.
 
 Set environment variables in a key=value format on the command line. You can add multiple environment variables using `--env-var` multiple times, for example:
 
-    `--env-var "key1=value1" --env-var "key2=value2"`.
+    --env-var "key1=value1" --env-var "key2=value2"
 
 #### --export-cookie-jar [path]
 
@@ -237,7 +237,7 @@ Turn off terminal output.
 
 #### --suppress-exit-code, -x
 
-Continue running tests even after a failure, but exit with `code=0`
+Continue running tests even after a failure, but exit with `code=0`.
 
 #### --timeout [number]
 
@@ -265,7 +265,7 @@ Set the path of the working directory to use while reading files with relative p
 
 Run validation checks for governance and security rules against the api definition provided in the Postman config file, a local file, or a UUID. You can only lint single-file definitions. Shows a warning if unable to find `<api-id>` to send data back to Postman.
 
-> Supports APIs that are stored on Postman and aren't linked to Git.
+> This command supports APIs that are stored on Postman and aren't linked to Git.
 
 ### Example
 
