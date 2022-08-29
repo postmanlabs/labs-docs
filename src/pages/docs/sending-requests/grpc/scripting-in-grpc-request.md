@@ -20,4 +20,4 @@ You can use scripts to write API tests, debug your requests (by logging to [Post
 
 This is all powered by the [Postman Sandbox](/docs/sending-requests/grpc/postman-sandbox-api/), a JavaScript execution environment available to you while writing your **Before invoke** and **After response** scripts. Whatever code you write in these scripts is executed in the sandbox.
 
-To learn more about writing tests, see [writing tests](/docs/writing-scripts/test-scripts.md).
+To learn more about writing tests, see [writing tests](/docs/writing-scripts/test-scripts/).

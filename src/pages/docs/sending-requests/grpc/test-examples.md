@@ -1,12 +1,12 @@
 ---
-title: "gRPC Test examples"
+title: "gRPC test examples"
 updated: 2022-08-31
 contextual_links:
   - type: section
     name: "Prerequisites"
   - type: link
-    name: "Writing tests"
-    url: "/docs/sending-requests/grpc/writing-tests/"
+    name: "Scripting in gRPC requests"
+    url: "/docs/sending-requests/grpc/scripting-in-grpc-request/"
 ---
 
 You can write tests for your gRPC request using [scripts](/docs/sending-requests/grpc/scripting-in-grpc-request/). Depending on the logic and how you want to get the results, there are various ways in which the test assertions can be structured. This section will cover some of the most common ways to write assertions, along with an extensive list of examples explaining how to use [pm.* APIs](/docs/sending-requests/grpc/postman-sandbox-api/) to write tests.

@@ -202,12 +202,16 @@ export const leftNavItems = [
             url: '/docs/sending-requests/grpc/scripting-in-grpc-request/',
           },
           {
-            name: 'Test examples',
+            name: 'gRPC test examples',
             url: '/docs/sending-requests/grpc/test-examples/',
           },
           {
             name: 'Postman Sandbox API',
             url: '/docs/sending-requests/grpc/postman-sandbox-api/',
+          },
+          {
+            name: 'Using gRPC mock servers',
+            url: '/docs/sending-requests/grpc/using-grpc-mock/',
           },
           {
             name: 'Understanding gRPC types',
