@@ -91,7 +91,7 @@ To invoke a client streaming method, select the method from the **Method selecti
 
 With the server streaming method type, when a client invokes a method with all the details, the server can respond back with multiple messages.
 
-To invoke a server streaming method, select the method from the **Method selection dropdown**, enter the details, and select **Invoke**. The request goes into a persistent 'Streaming' state and the responses from the server start appearing at the bottom in the response area. Depending on the use case, the stream closes automatically after the server has streamed all the messages. You can manually end the stream by selecting **Cancel** next to the **URL bar**.
+To invoke a server streaming method, select the method from the **Method selection** dropdown, enter the details, and select **Invoke**. The request goes into a persistent 'Streaming' state and the responses from the server start appearing at the bottom in the response area. Depending on the use case, the stream closes automatically after the server has streamed all the messages. You can manually end the stream by selecting **Cancel** next to the **URL bar**.
 
 ## The response section
 
