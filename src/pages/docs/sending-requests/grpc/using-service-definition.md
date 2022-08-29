@@ -16,7 +16,7 @@ gRPC uses [Protocol Buffers (protobuf)](https://developers.google.com/protocol-b
 
 <img src="https://assets.postman.com/postman-labs-docs/grpc-docs/using-service-definition/service-definition-tab.jpeg" alt="Service definition tab">
 
-While creating a new request, if the service definition isn't configured, Postman prompts you to configure it when you select the Method selection dropdown. This interface serves as a quick way to add your service definition and move on to invoking your request. From this menu, you can select a protobuf API available in your workspace or import a new one by dragging a `.proto` file from your local system and dropping it into Postman.
+While creating a new request, if the service definition isn't configured, Postman prompts you to configure it when you select the **Method selection** dropdown. This interface serves as a quick way to add your service definition and move on to invoking your request. From this menu, you can select a protobuf API available in your workspace or import a new one by dragging a `.proto` file from your local system and dropping it into Postman.
 
 <img src="https://assets.postman.com/postman-labs-docs/grpc-docs/using-service-definition/method-selection-dropdown.jpeg" alt="Configure service definition from method selection dropdown">
 
