@@ -4,11 +4,13 @@ export const PrimaryNavbarV6 = styled.nav`
     background-color: ${(props) => props.theme.colors.grey_00};
     z-index: 2147483647;
     border-bottom: 1px solid ${(props) => props.theme.colors.grey_30};
-    &.activeMenu {
+    .activeMenu {
       background-color: ${(props) => props.theme.colors.grey_00};
       position: relative;
+      border-bottom: 1px solid ${(props) => props.theme.colors.grey_30};
       z-index: 2147483647;
     }
+
     .navbar {
       padding: 6px 16px;
   }
@@ -20,10 +22,11 @@ export const PrimaryNavbarV6 = styled.nav`
     z-index: 1020;
     border-bottom: 1px solid ${(props) => props.theme.colors.grey_30};
   
-    &.activeMenu {
+    .activeMenu {
       background-color: ${(props) => props.theme.colors.grey_00};
       z-index: 99;
       width: 100%;
+      margin-top:-1px;
     }
     
     &.sticky {

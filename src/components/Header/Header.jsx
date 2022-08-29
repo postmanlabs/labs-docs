@@ -93,7 +93,7 @@ class Header extends React.Component {
     }, waitBeforeShow);
 
     /* Applies styling for sticky nav */
-    $('#primaryNav').on('click', () => {
+    $('#secondaryNav').on('click', () => {
       $('body').toggleClass('menu-open');
       $('.nav-primary').toggleClass('activeMenu');
       $('.nav-secondary').toggleClass('activeMenu');
