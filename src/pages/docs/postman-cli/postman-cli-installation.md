@@ -16,7 +16,7 @@ contextual_links:
 warning: false
 ---
 
-To download and install the Postman CLI, follow the steps below.
+To download and install the Postman CLI, follow the steps below:
 
 1. Download the zip file for your platform from the [download page](https://www.postman.com/downloads/) or from the links below:
 
