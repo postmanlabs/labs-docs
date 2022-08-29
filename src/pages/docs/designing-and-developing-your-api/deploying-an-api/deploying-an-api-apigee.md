@@ -107,9 +107,7 @@ After connecting to Apigee X, you can view the deployment status and history for
 * For each proxy endpoint, you can view the name and base paths.
 * For each Apigee environment, you can view the description, date last updated, status, deployed revision, and deployment date.
 
-<!-- TO DO: UPDATE SCREENSHOT (JUST CROP TOP OF UI OFF) -->
-
-<img alt="Viewing API deployments" src="https://assets.postman.com/postman-docs/apigee-viewing-deployments-v9-13.jpg" width="956px"/>
+<img alt="Viewing API deployments" src="https://assets.postman.com/postman-docs/v10/apigee-viewing-deployments-v10.jpg" width="956px"/>
 
 From the **Deployments** view, you can take the following actions:
 

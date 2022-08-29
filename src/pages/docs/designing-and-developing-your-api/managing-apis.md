@@ -96,6 +96,4 @@ You can view a history of changes to your API schemas and all linked collections
 
 The Changelog shows a list of changes made to the schema and associated elements. Select each entry for more details.
 
-<!-- UPDATE SCREENSHOT, JUST CROP OFF BOTTOM HALF  -->
-
-<img src="https://assets.postman.com/postman-docs/api-builder-changelog-v9.jpg" alt="Changelog" width="350px" />
+<img src="https://assets.postman.com/postman-docs/v10/api-builder-changelog-v10.jpg" alt="API Builder changelog" width="443px" />

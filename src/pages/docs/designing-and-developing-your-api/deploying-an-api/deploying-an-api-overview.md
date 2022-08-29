@@ -35,9 +35,7 @@ To connect to an API gateway in Postman, select **APIs** in the sidebar and sele
 
 Enter the required information to configure the API gateway integration. For detailed steps, see [Deploying to an Amazon API Gateway](/docs/designing-and-developing-your-api/deploying-an-api/deploying-an-api-aws/) or [Deploying to an Apigee API gateway](/docs/designing-and-developing-your-api/deploying-an-api/deploying-an-api-apigee/).
 
-<!-- TO DO: UPDATE SCREENSHOT -->
-
-<img alt="Connecting to an API Gateway" src="https://assets.postman.com/postman-docs/deployments-api-gateway-v9-11.jpg" width="916px"/>
+<img alt="Connecting to an API Gateway" src="https://assets.postman.com/postman-docs/v10/api-builder-connect-deployments-v10.jpg" />
 
 ## Viewing API deployments in Postman
 
