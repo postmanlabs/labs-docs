@@ -21,12 +21,13 @@ Commands and options for using the Postman CLI.
 
 ## Contents
 
-* [Download](#download)
-* [Basic](#basic)
-* [Login/logout](#login-logout)
-* [Run a Postman collection](#run-a-Postman-collection)
-* [Lint](#lint)
-* [Custom reporters](#custom-reporters)
+* [Commands](#commands)
+* [Downloading the installation package](#downloading-the-installation-package)
+* [postman](#postman)
+* [postman login](#postman-login---with-api-key-api-key)
+* [postman logout](#postman-logout))
+* [postman collection run](#postman-api-lint-api-id-or-file-name(#postman-collection-run-collection-uid-or-file-path)
+* [postman api lint](#postman-api-lint-api-id-or-file-name)
 
 ## Commands
 
