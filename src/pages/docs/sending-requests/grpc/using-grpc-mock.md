@@ -29,7 +29,7 @@ To create the gRPC mock server:
 1. Enter the protobuf API to use in one of the following ways:
     * **Use an API from this workspace** - Select an existing protobuf API in the current workspace.
     * **Import a .proto file** - Add a new protobuf API from a `.proto` file.
-    * **Create a new API** - open the Postman API Builder and create a new protobuf API.
+    * **Create a new API** - Open the Postman API Builder and create a new protobuf API.
 1. After you have selected an API, select **Enter server URL** again, and select **Use Mock URL**.
 
 The request URL will be a server name beginning with a random name and ending in `.srv.pstmn.io`. Select methods, then select **Invoke**, and your request will receive responses with random values.
