@@ -23,21 +23,21 @@ Commands and options for using the Postman CLI.
 
 * [Commands](#commands)
 * [Downloading the installation package](#downloading-the-installation-package)
+* [login](#login---with-api-key-api-key)
+* [logout](#logout)
 * [postman](#postman)
-* [postman login](#postman-login---with-api-key-api-key)
-* [postman logout](#postman-logout))
-* [postman collection run](#postman-api-lint-api-id-or-file-name(#postman-collection-run-collection-uid-or-file-path)
+* [postman collection run](#postman-collection-run-collection-uid-or-file-path)
 * [postman api lint](#postman-api-lint-api-id-or-file-name)
 
 ## Commands
 
 | Command/Option | Description |
 |:--|:--|
-| [**`postman`**](#postman) | The base command, commonly used with other commands like `login` or `collection`. |
+| [**`login`**](#postman-login---with-api-key-api-key) | Log into Postman. |
+| [**`logout`**](#postman-logout) | Log out of Postman. |
+| [**`postman`**](#postman) | The base command. |
 | `--help` | Return information about Postman CLI commands and options. |
 | `--version` | Return the version number for the Postman CLI.  |
-| [**`postman login`**](#postman-login---with-api-key-api-key) | Log into Postman. |
-| [**`postman logout`**](#postman-logout) | Log out of Postman. |
 | [**`postman collection run`**](#postman-collection-run-uuid-or-file-name) | Run a collection with a UUID or a local file. |
 | `--bail` | Stop the runner when a test case fails. |
 | `--color` | Turn off colored output (auto\|on\|off) (default: "auto") |
@@ -93,6 +93,25 @@ Use the URLs below in your script to download the Postman CLI installation packa
 
 ---
 
+## login --with-api-key <api-key>
+
+Log in with your Postman API key.
+
+### Example
+
+    login --with-api-key <api-key>
+
+---
+## logout
+
+Log out of Postman.
+
+### Example
+
+    logout
+
+---
+
 ## postman
 
 The base command.
@@ -110,26 +129,6 @@ Returns information about Postman CLI commands and options.
 #### --version, -v
 
 Returns the version number for the Postman CLI.
-
----
-
-## postman login --with-api-key <api-key>
-
-Log in with your Postman API key.
-
-### Example
-
-    postman login --with-api-key <api-key>
-
----
-
-## postman logout
-
-Log out of Postman.
-
-### Example
-
-    postman logout
 
 ---
 
