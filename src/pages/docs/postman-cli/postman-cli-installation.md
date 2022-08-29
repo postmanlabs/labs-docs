@@ -46,7 +46,7 @@ To install manually, run the following commands:
 
 You can install the Postman CLI on Mac by downloading it manually or with curl:
 
-    curl https://dl-cli.pstmn-beta.io/download/latest/osx_64/postman-cli.zip -o postman-cli.zip
+    curl https://dl-cli.pstmn.io/download/latest/osx_64/postman-cli.zip -o postman-cli.zip
 
 To install manually:
 
