@@ -44,7 +44,7 @@ If server reflection isn't enabled by the server, you can use a protobuf API as 
 
 ### Selecting an existing protobuf API from the workspace
 
-Go to the **Service definition tab** and select **Select a protobuf API from this workspace**. This opens the **API selection dropdown** where you can browse through the available APIs and select the one you want to use.
+Go to the **Service definition** tab and select **Select a protobuf API from this workspace**. This opens the **API selection** dropdown where you can browse through the available APIs and select the one you want to use.
 
 <img src="https://assets.postman.com/postman-labs-docs/grpc-docs/using-service-definition/using-api-from-workspace.gif" alt="Using a protobuf API from the workspace">
 
