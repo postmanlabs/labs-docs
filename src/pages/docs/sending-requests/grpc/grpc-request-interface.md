@@ -79,7 +79,7 @@ gRPC allows four different types of client-server communication patterns that ca
 
 Unary is the traditional request-response communication pattern also used in HTTP. The client invokes a request with all the details and the server gives back a single response.
 
-To invoke a unary request, select the method from the **Method selection dropdown**, add the details and select **Invoke**. The server processes the sent information and gives back a response.
+To invoke a unary request, select the method from the **Method selection** dropdown, add the details and select **Invoke**. The server processes the sent information and gives back a response.
 
 ### Invoking a client streaming method
 
