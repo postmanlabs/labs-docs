@@ -49,4 +49,4 @@ To pass seed data:
 
 ## Next steps
 
-The mock servers in gPRC are independent of the mock server feature in Postman. See [setting up mock servers](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock.md) for more information about using mock servers for your other APIs.
+The mock servers in gPRC are independent of the mock server feature in Postman. See [setting up mock servers](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/) for more information about using mock servers for your other APIs.
