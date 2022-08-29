@@ -43,8 +43,8 @@ Each time you make a request against the mock server, different random data will
 To pass seed data:
 
 1. Make a gRPC request to a mock server.
-1. In the **Metadata** pane of the response, find the value of the key-value pair named 'seed'.
-1. In the **Metadata** pane of the request, set a key-value pair for 'seed' with the value of the seed above.
+1. In the **Metadata** pane of the response, find the value of the key-value pair named `seed`.
+1. In the **Metadata** pane of the request, set a key-value pair for `seed` with the value of the seed above.
 1. Invoke the request again.
 
 ## Next steps

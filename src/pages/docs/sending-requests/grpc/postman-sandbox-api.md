@@ -65,7 +65,7 @@ Following are the properties of the `pm.request` object:
 
   An individual message is an object with properties:
     * `data`: the sent message content, and
-    * `timestamp`: time at which the message was sent (<a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date' target='_blank'>Date</a>) object).
+    * `timestamp`: time at which the message was sent, represented as a <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date' target='_blank'>Date</a> object.
 
   For requests with unary and server streaming methods, `pm.request.messages` will contain only one message at index 0 which can be accessed as `pm.request.messages.idx(0)`.
 
