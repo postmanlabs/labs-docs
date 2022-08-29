@@ -33,7 +33,7 @@ This example will create and execute a unary request. To learn about invoking th
 
 > If you are using Postman for Web, you must use the Postman Desktop Agent. See [Using the Postman web app](/docs/getting-started/installation-and-updates/#using-the-postman-web-app) for more information.
 
-1. In Postman, select  __New__ &gt; __gRPC Request__ to open a request in a new tab. (In the Postman desktop app, you can also select **⌘+N** or **Ctrl+N**, then select __gRPC Request__)
+1. In Postman, select  __New__ &gt; __gRPC Request__ to open a request in a new tab. (In the Postman desktop app, you can also select **⌘+N** or **Ctrl+N**, then select __gRPC Request__.)
 
 1. Enter the URL as: `grpc://grpcb.in:9000`. This is an echo endpoint that enables you to try out various types of services and methods.
 
