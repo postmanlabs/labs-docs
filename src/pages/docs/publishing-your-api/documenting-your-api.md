@@ -1,6 +1,6 @@
 ---
 title: "Generating API documentation"
-updated: 2022-1-24
+updated: 2022-09-15
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -90,8 +90,7 @@ To view the documentation for an OpenAPI 3.0 API:
 1. Select **APIs** in the sidebar and select an API.
 1. On the API's overview, under **Definition**, select **View schema documentation**.
 
-<!-- TO DO: UPDATE SCREENSHOT -->
-<img alt="Viewing schema documentation" src="https://assets.postman.com/postman-docs/documentation-view-schema-docs-v9-12.jpg" width="1106px">
+<img alt="Viewing schema documentation" src="https://assets.postman.com/postman-docs/v10/documentation-view-schema-docs-v10.jpg" />
 
 ### Creating new documentation for an API
 
@@ -104,8 +103,7 @@ To generate a new collection for API documentation:
 
 The linked collection displays on your API's overview and under your API in the sidebar. To view documentation for the collection, expand the collection and select **View full documentation**.
 
-<!-- TO DO: UPDATE SCREENSHOT -->
-<img alt="Generating new API documentation" src="https://assets.postman.com/postman-docs/documentation-generate-api-docs-v9.jpg" width="702px">
+<img alt="Generating new API documentation" src="https://assets.postman.com/postman-docs/v10/documentation-generate-api-docs-v10.jpg" />
 
 ### Adding existing documentation to an API
 
@@ -117,8 +115,7 @@ To use an existing collection for API documentation:
 
 The linked collection displays on your API's overview and under your API in the sidebar. To view documentation for the collection, expand the collection and select **View full documentation**.
 
-<!-- TO DO: UPDATE SCREENSHOT -->
-<img alt="Adding existing API documentation" src="https://assets.postman.com/postman-docs/documentation-add-api-docs-v9.jpg" width="402px">
+<img alt="Adding existing API documentation" src="https://assets.postman.com/postman-docs/v10/documentation-add-api-docs-v10.jpg" />
 
 ### Editing API documentation
 
@@ -130,8 +127,7 @@ You can add to your API documentation collections from the API Builder.
 
 > Schema documentation can't be edited directly. Instead, [edit your API's definition](/docs/designing-and-developing-your-api/developing-an-api/defining-an-api/) and then select **Save**. Postman automatically updates the API docs to reflect the latest changes to your definition.
 
-<!-- TO DO: UPDATE SCREENSHOT -->
-<img alt="Editing API documentation" src="https://assets.postman.com/postman-docs/documentation-editing-api-docs-v9-12.jpg" width="1106px">
+<img alt="Editing API documentation" src="https://assets.postman.com/postman-docs/v10/documentation-editing-api-docs-v10.jpg" />
 
 ### Removing API documentation
 
