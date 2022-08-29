@@ -35,16 +35,17 @@ contextual_links:
     url: "/docs/designing-and-developing-your-api/managing-apis/"
 ---
 
-You can define the structure of your API using its specification. You can also generate a collection from a spec.
+You can define the structure of your API using its specification. You can also generate a collection from a specification.
 
 ## Contents
 
-* [Editing your schema](#editing-your-schema)
+* [Editing your API definition](#editing-your-api-definition)
+* [Linting your API definition](#linting-your-api-definition)
 * [Generating a collection](#generating-a-collection)
 
-## Editing your schema
+## Editing your API definition
 
-The __Definition__ tab in each API version page contains an editor for your API specification (either one you imported or a sample Postman added when you created the API).
+The __Definition__ tab in each API version page contains an editor for your API definition. This can either be one you imported, or the sample definition that Postman adds when you create an API.
 
 The default schema type is OpenAPI 3.0, with YAML as the default format. To use a different schema type or format, choose it from the dropdown list.
 
@@ -61,6 +62,25 @@ Next to the format dropdown list, there are options to beautify the content, wra
 <img src="https://assets.postman.com/postman-docs/api-builder-definition-options.jpg" alt="API Builder definition options" width="350px">
 
 > Postman will indicate [validation errors](/docs/designing-and-developing-your-api/validating-elements-against-schema/) as you work on your schema.
+
+## Linting your API definition
+
+As you create your API definition in the schema editor, Postman automatically lints it using API governance and API security rules. If the linting finds any problems, Postman displays warnings below the schema editor.
+
+**API governance** - Postman lints your definition using a predefined set of [OpenAPI 3.0](/docs/api-governance/api-definition/openapi3/) and [OpenAPI 2.0](/docs/api-governance/api-definition/openapi2/) governance rules.
+**API security** - Postman lints your API definition using a pre-defined set of [security rules](/docs/api-governance/api-testing/api-testing-warnings/).
+
+> [Enterprise teams](https://www.postman.com/pricing/) can also customize the rules that Postman uses to lint and create custom rules using the [API governance admin panel](/docs/api-governance/api-governance-admin-panel/) and the [API security admin panel](/docs/api-governance/api-security-admin-panel/).
+
+To see any linting errors, select **Rule** next to **Violations found in schema**. Postman displays each warning on its own line, with a brief description of the issue, the type of issue (governance or security), and the line and file the where the issue occurs. When you select a warning, Postman highlights the section of the definition that triggered the warning. If the issue occurs more than once, the warning line indicates how many times. You can scroll through each occurrence.
+
+To learn more about the issue and get information about how to fix it, select **Possible fix**, which will open the relevant Learning Center page.
+
+To hide the warning for the API definition, select **Hide**. Select a reason that you want to hide the warning, then select **Hide** again. This will hide the error for your entire team. If you want to use the warning later, select **Unhide**. <!-- TODO: find what this actually is - I think it's a message bar that indicates how many rules are hidden? -->
+
+To hide a warning globally, use the either the [API governance admin panel](/docs/api-governance/api-governance-admin-panel/) or the [API security admin panel](/docs/api-governance/api-security-admin-panel/) ([Enterprise teams only](https://www.postman.com/pricing/)).
+
+When you make updates to your API definition, Postman re-checks it. If your changes resolve the issue, Postman resolves the warning from the list.
 
 ## Generating a collection
 
