@@ -48,7 +48,7 @@ Go to the **Service definition tab** and select **Select a protobuf API from thi
 
 <img src="https://assets.postman.com/postman-labs-docs/grpc-docs/using-service-definition/using-api-from-workspace.gif" alt="Using a protobuf API from the workspace">
 
-While testing the services, you can also switch to a different version of the selected API by selecting the Version selector next to the API name.
+While testing the services, you can also switch to a different version of the selected API by selecting the **Version** selector next to the API name.
 
 <img src="https://assets.postman.com/postman-labs-docs/grpc-docs/using-service-definition/version-selector.jpeg" alt="Changing an API version in the request">
 
