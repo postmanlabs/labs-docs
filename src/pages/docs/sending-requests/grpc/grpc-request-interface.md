@@ -45,7 +45,7 @@ The request section includes the required configurations to connect to the serve
 
     * **Authorization** - Pass credentials that the server would use to authorize the connection here. You can choose from a list of auth types including API Key, Basic auth, and Bearer token. Learn more about [authorizing requests](/docs/sending-requests/authorization/).
 
-    * **Metadata** - Pass additional metadata along with the request in the form of key-value pairs. Metadata is used by the client to provide more information about the call to the server.
+    * **Metadata** - Pass additional metadata with the request in the form of key-value pairs. The client uses this metadata to provide more information about the call to the server.
 
     * **Service definition** -  A service definition makes the client aware of all the services and methods supported by the server and also message payload structure, supported fields and data types. A service definition is loaded automatically after you enter the URL if the server supports server reflection. Otherwise, you will be required to load a service definition manually either by uploading a `.proto` file or creating a protobuf API in Postman. Learn more about [working with service definitions](/docs/sending-requests/grpc/using-service-definition/).
 
@@ -123,17 +123,17 @@ Once you invoke a method, the server gives back the appropriate response that ap
 
     * **Message filter** - Adjust the view based on the type of messages using the message filter. Instead of all messages, you can choose to view only the ones Sent from the client or Received from the server.
 
-    * **Clear messages** - Using the ‘Clear messages' button hides all the messages exchanged from the view to clean up the response area so that you can focus on the new messages. You can restore the messages using the 'Restore’ button in the hidden view.
+    * **Clear messages** - The **Clear messages** button hides all the messages exchanged from the view, cleaning up the response area so that you can focus on the new messages. You can restore the messages using the **Restore** button in the hidden view.
 
 * **Test results** - The results for assertions you write in the Scripts section appear here. Based on the test script, the results can be one of three types: Passed, Failed, and Skipped. Learn more about [scripting in gRPC requests](/docs/sending-requests/grpc/scripting-in-grpc-request/).
 
 ## The sidebar
 
-The sidebar gives you access to additional tools and information like documentation, commenting and meta information on the request.
+The sidebar gives you access to additional tools and information like documentation, commenting, and meta information on the request.
 
 <img src="https://assets.postman.com/postman-labs-docs/grpc-docs/request-interface/right-sidebar.jpeg" alt="Sidebar panes">
 
-* **Request documentation** - Use the documentation pane to write documentation of your request to make it easier for others to consume it. When you select a method, Postman automatically generates documentation for the payload fields and data types using the Protobuf definition. You can add additional descriptions using markdown to make it better.
+* **Request documentation** - Use the documentation pane to write documentation of your request, making it easier for others to consume it. When you select a method, Postman automatically generates documentation for the payload fields and data types using the Protobuf definition. You can add additional descriptions using markdown to make it better.
 
 * **Comments** - Collaborate with your teammates while working on an API using comments. You can tag others to notify them about your question or feedback and have discussions in the comment thread to figure things out together.
 

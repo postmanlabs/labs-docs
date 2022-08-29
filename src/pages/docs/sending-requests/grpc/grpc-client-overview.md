@@ -10,10 +10,10 @@ contextual_links:
   - type: section
     name: "Additional resources"
   - type: link
-    name: "Postman now supports gRPC"
+    name: "Postman Now Supports gRPC"
     url: "https://blog.postman.com/postman-now-supports-grpc/"
   - type: link
-    name: "Latest advancements to Postman's gRPC support"
+    name: "Latest Advancements to Postman’s gRPC Support"
     url: "https://blog.postman.com/latest-advancements-to-postmans-grpc-support/"
 ---
 
