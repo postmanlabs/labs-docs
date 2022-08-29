@@ -109,7 +109,7 @@ Once you invoke a method, the server gives back the appropriate response that ap
 
 * **Wrap text button** - Selecting this button adjusts the width of the response body according to the width of the response area, making it easier to read longer responses without scrolling.
 
-* **Search through response** - Look for specific things within the response using the 'Search' button.
+* **Search through response** - Look for specific things within the response using the **Search** button.
 
 * **Multiple responses** - While invoking a streaming method type (client streaming, server streaming or bidirectional streaming), the client-server communication within a single session is recorded in the response area as a series of sent and received messages in a timeline instead of a single response.
 
