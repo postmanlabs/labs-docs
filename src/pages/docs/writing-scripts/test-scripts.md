@@ -86,7 +86,7 @@ To add tests to gRPC requests:
 
 1. Go to the **Scripts** tab in your gRPC request.
 2. Select the execution hook (**Before invoke** or **After response**) to which you want to add a test.
-3. Use [snippets](#using-snippets) from the right panel to add a test or [write customized assertions](#writing-your-assertions).
+3. Use [snippets](#using-snippets) from the right panel to add a test or write customized assertion.
 
 Both the execution hooks are available for all gRPC requests regardless of the method type being unary, client streaming, server streaming, or bidirectional streaming. Your scripts can include however many tests you need and will save along with the rest of your request when you select **Save**.
 
