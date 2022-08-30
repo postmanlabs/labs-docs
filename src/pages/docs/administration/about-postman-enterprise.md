@@ -65,7 +65,7 @@ After you purchase a Postman Enterprise plan, you can customize it to meet your 
 
 ## Postman Enterprise trial
 
-If you're interested in trying out Postman Enterprise for your organization, you can evaluate the platform through a free trial.
+If you're interested in trying out Postman Enterprise for your organization, you can evaluate the platform through a free trial. During the trial, you can use Enterprise-only [reporting](#reports), [advanced identity management](#advanced-identity-management), [API Governance and API Security](#api-governance-and-api-security-features), [collaboration](#collaboration), and [administration](#administration) features.
 
 To start the trial, you must have an [Admin role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) on your team. Select **Start Enterprise Trial**. <!-- TODO: since the CTA will be available in a lot of different spots, rolled out at different times, it may not make sense to include this at all -->
 
