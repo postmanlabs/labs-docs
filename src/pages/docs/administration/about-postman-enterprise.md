@@ -10,7 +10,7 @@ The Postman Enterprise plan is for organizations that need advanced identity man
 * [Enterprise features](#enterprise-features)
     * [Reports](#reports)
     * [Advanced identity management](#advanced-identity-management)
-    * [API security and governance features](#api-security-and-governance-features)
+    * [API Governance and API Security features](#apigovernance-and-api-security-features)
     * [Collaboration](#collaboration)
     * [Administration](#administration)
 * [Postman Enterprise trial](#postman-enterprise-trial)
@@ -20,7 +20,7 @@ The Postman Enterprise plan is for organizations that need advanced identity man
 
 ## Enterprise features
 
-Postman Enterprise has features for reporting, advanced identity management, API security and governance, collaboration, and administration.
+Postman Enterprise has features for reporting, advanced identity management, API Governance and API Security, collaboration, and administration.
 
 ### Reports
 
@@ -36,14 +36,14 @@ Postman Enterprise gives you access to advanced identity management features, in
 * **System for cross-domain identity management (SCIM)** - Setting up SCIM enables you to automatically provision and de-provision team members and organize them into [user groups](/docs/administration/managing-your-team/user-groups/). To learn more about enabling SCIM for your team, see [SCIM provisioning](/docs/administration/scim-provisioning/scim-provisioning-overview/).
 * **Domain capture** - Domain capture enables you to consolidate all your organization's users into a single Postman team and ensure that any new users who sign up for Postman with your domain are automatically added. To learn more about setting up domain capture, see [Configuring domain capture](/docs/administration/managing-your-team/configuring-domain-capture/).
 
-### API security and governance features
+### API Governance and API Security features
 
-Postman Enterprise provides you with advanced API security and governance features:
+Postman Enterprise provides you with advanced API Governance and API Security features:
 
 * **Custom token scanner** - Create a [custom token scanner](/docs/administration/token-scanner/#custom-alerts) to proactively check for security leaks.
 * **Public link governance** - View and manage elements like workspaces, documentation, and collection links that your team [makes public](/docs/collaborating-in-postman/manage-public-elements/).
 * **Audit logs** - Use [audit logs](/docs/administration/audit-logs/) to understand how your team members are using Postman.
-* **API governance and API security warnings** - Make use of governance and security warnings that enable you to apply standards consistently throughout your API development process's [design](/docs/api-governance/api-definition/api-definition-warnings/) and [testing](/docs/api-governance/api-testing/api-testing-warnings/) phases. You can also use the [Postman CLI](/docs/postman-cli/postman-cli-overview/) to return governance and security warnings.
+* **API Governance and API Security warnings** - Customizable API Governance and API Security warnings enable you to apply standards consistently throughout your API development process's [design](/docs/api-governance/api-definition/api-definition-warnings/) and [testing](/docs/api-governance/api-testing/api-testing-warnings/) phases. You can also use the [Postman CLI](/docs/postman-cli/postman-cli-overview/) to return API Governance and API Security warnings.
 
 ### Collaboration
 
