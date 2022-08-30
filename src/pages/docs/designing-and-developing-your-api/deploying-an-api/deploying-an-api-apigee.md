@@ -77,7 +77,7 @@ Your browser will automatically download a JSON file that has values for `client
 
 ## Connecting to Apigee X
 
-To connect to Amazon API Gateway in Postman, select **APIs** in the sidebar and select an API. Under **Power up your API**, select **Deployments**, and then select **Apigee X**.
+To connect to Apigee X in Postman, select **APIs** in the sidebar and select an API. Under **Power up your API**, select **Deployments**, and then select **Apigee X**.
 
 First, authenticate with Apigee X:
 
