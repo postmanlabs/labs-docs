@@ -31,7 +31,7 @@ Postman recommends that you follow security and format warnings at the API defin
 
 After you [create a new API](/docs/designing-and-developing-your-api/creating-an-api/), select the **Definition** tab on the API version page to inspect the issues found in the API definition, if any. Under **Warnings**, select **Possible fix** next to the warning to learn more about possible ways to fix the underlying problem.
 
-> For more information about API definitions, see [Validating your API schemas](/docs/designing-and-developing-your-api/validating-elements-against-schema/).
+> For more information about API definitions, see [Validating your API schemas](/docs/designing-and-developing-your-api/developing-an-api/validating-elements-against-schema/).
 
 ## Next steps
 

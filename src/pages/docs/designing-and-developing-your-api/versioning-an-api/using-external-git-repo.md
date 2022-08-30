@@ -38,7 +38,7 @@ contextual_links:
     url: "/docs/reports/reports-overview/"
   - type: link
     name: "Validating elements against schema"
-    url: "/docs/designing-and-developing-your-api/validating-elements-against-schema/"
+    url: "/docs/designing-and-developing-your-api/developing-an-api/validating-elements-against-schema/"
 ---
 
 > __[GitHub Enterprise Server, GitLab Self-Managed, and Azure DevOps Server (hosted on-premises) integrations are only available on Postman Enterprise plans.](https://www.postman.com/pricing)__

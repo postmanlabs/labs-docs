@@ -91,7 +91,7 @@ In the upper right of the API definition editor are options to beautify the cont
 
 <img alt="API Builder editing options" src="https://assets.postman.com/postman-docs/v10/api-builder-edit-options-v10.jpg"/>
 
-> Postman will indicate any [validation errors](/docs/designing-and-developing-your-api/validating-elements-against-schema/) as you work on your API definition.
+> Postman will indicate any [validation errors](/docs/designing-and-developing-your-api/developing-an-api/validating-elements-against-schema/) as you work on your API definition.
 
 ## Working with multi-file API definitions
 

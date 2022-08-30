@@ -73,7 +73,7 @@ Once the validation is complete, a checkmark will appear next to the element if 
 
 If you want your requests to be validated, your collection must be linked to an API.
 
-A collection is linked to an API if you [generate it from a schema](/docs/designing-and-developing-your-api/defining-an-api/#generating-a-collection) or [add it as a relation to an existing API](/docs/designing-and-developing-your-api/developing-an-api/).
+A collection is linked to an API if you [generate it from a schema](/docs/designing-and-developing-your-api/developing-an-api/defining-an-api/#generating-an-api-definition) or [add it as a relation to an existing API](/docs/designing-and-developing-your-api/developing-an-api/adding-api-elements/#adding-a-collection).
 
 Postman validates a request when it's sent. If there are issues with the request, Postman displays a warning message showing the number of issues next to the name of the request.
 

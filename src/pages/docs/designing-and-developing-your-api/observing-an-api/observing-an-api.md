@@ -103,7 +103,7 @@ Connect Postman to one or more monitoring integrations to send collection-based 
 Once you've added a monitor integration to an API, you can take the following actions on the **Monitoring** view:
 
 * Select a monitor's name to open its dashboard in a new tab.
-* Select **Validate** next to a monitor to validate it against the API schema (OpenAPI 3.0 schemas). If validation isn't successful, select **Issues found** and then select **Review issues**. Learn more about [validating APIs](/docs/designing-and-developing-your-api/validating-elements-against-schema/).
+* Select **Validate** next to a monitor to validate it against the API schema (OpenAPI 3.0 schemas). If validation isn't successful, select **Issues found** and then select **Review issues**. Learn more about [validating APIs](/docs/designing-and-developing-your-api/developing-an-api/validating-elements-against-schema/).
 * Hover over a bar in the graph to view metrics for a monitor run.
 
   <img alt="API monitor results" src="https://assets.postman.com/postman-docs/observe-api-integrations-results-v9-10.jpg" width="332px">

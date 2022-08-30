@@ -70,7 +70,7 @@ You can discuss your APIs with collaborators in Postman, keeping the conversatio
 To leave a comment on an API, select __APIs__ in the sidebar, then select the API you want to comment on. Switch to comment mode, enter your comment, and **Add comment** to publish it.
 You can leave inline comments on the API schema by highlighting what you want to comment on.
 
-> You can't add comments to APIs with [multi-file API definitions](/docs/designing-and-developing-your-api/developing-an-api/defining-an-api/#working-with-multi-file-api-definitions).
+> You can't add comments to APIs with [multi-file API definitions](/docs/designing-and-developing-your-api/developing-an-api/defining-an-api/#working-with-multi-file-api-definitions). (All OpenAPI 3.0 APIs are considered multi-file APIs even when containing a single file.)
 
 [![API comment app](https://assets.postman.com/postman-docs/api-builder-add-comment-v9.jpg)](https://assets.postman.com/postman-docs/api-builder-add-comment-v9.jpg)
 
