@@ -60,7 +60,7 @@ APIs in the Private API Network are visible to logged-in users who are a part of
     * [API Network Manager: Reviewing requests to add APIs](#api-network-manager-reviewing-requests-to-add-apis)
 * [Adding your APIs](#adding-your-apis)
     * [Publishing specific API versions](#publishing-specific-api-versions)
-    * [Importing APIs from GitHub](#importing-apis-from-github)
+    * [Importing APIs from a code repository](#importing-apis-from-a-code-repository)
 * [Managing the Private API Network](#managing-the-private-api-network)
     * [Organizing with folders](#organizing-with-folders)
     * [Editing API listings](#editing-api-listings)
