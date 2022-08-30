@@ -1,28 +1,28 @@
 ---
-title: "API governance admin panel"
+title: "API Governance admin panel"
 updated: 2022-09-15
 search_keyword: "api governance, schema validation, api schema vulnerabilities"
 ---
 
-> [Configurable governance rules are only available to Postman Enterprise teams.](https://www.postman.com/pricing) If you don't have an Enterprise account, you'll be able to see the API governance admin panel, but you won't be able to turn rules on or off or add new rules.
+> [Configurable governance rules are only available to Postman Enterprise teams.](https://www.postman.com/pricing) If you don't have an Enterprise account, you'll be able to see the API Governance admin panel, but you won't be able to turn rules on or off or add new rules.
 
-The _API governance admin panel_ enables you to customize the governance rules that Postman applies to your API at the design phase. Postman applies governance rules to your [API definition](/docs/designing-and-developing-your-api/defining-an-api/) and shows warnings about your definition to help you keep your API consistent and consumable.
+The _API Governance admin panel_ enables you to customize the governance rules that Postman applies to your API at the design phase. Postman applies governance rules to your [API definition](/docs/designing-and-developing-your-api/defining-an-api/) and shows warnings about your definition to help you keep your API consistent and consumable.
 
 <!-- TODO: screenshot -->
 
 ## Contents
 
-* [Accessing the API governance admin panel](#accessing-the-api-governance-admin-panel)
+* [Accessing the API Governance admin panel](#accessing-the-api-governance-admin-panel)
 * [Configuring governance rules for your team](#configuring-governance-rules-for-your-team)
 * [Creating custom governance rules](#creating-custom-governance-rules)
     * [Turning off custom governance rules](#turning-off-custom-governance-rules)
     * [Deleting custom governance rules](#deleting-custom-governance-rules)
 
-## Accessing the API governance admin panel
+## Accessing the API Governance admin panel
 
-To access the API governance panel, go to the [Postman home screen](https://go.postman.co/), then select **API Governance** from the team information panel.
+To access the API Governance panel, go to the [Postman home screen](https://go.postman.co/), then select **API Governance** from the team information panel.
 
-> Access to the API governance admin panel is only available for users who have both an Admin and a Developer role assigned to them. If you don't see the **API Governance** link from the Postman home page, you might not have the correct permissions. Talk to your Team Admin to discuss your [assigned roles](/docs/collaborating-in-postman/roles-and-permissions/).
+> Access to the API Governance admin panel is only available for users who have both an Admin and a Developer role assigned to them. If you don't see the **API Governance** link from the Postman home page, you might not have the correct permissions. Talk to your Team Admin to discuss your [assigned roles](/docs/collaborating-in-postman/roles-and-permissions/).
 
 ## Configuring governance rules for your team
 
@@ -46,7 +46,7 @@ Select Import from library. To see more details about a particular rule, select 
 
 ### Removing governance rules
 
-To remove a governance rule from the API governance admin panel, select the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> next to its name. You can re-import from the rule library by selecting **Import from library**.
+To remove a governance rule from the API Governance admin panel, select the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> next to its name. You can re-import from the rule library by selecting **Import from library**.
 
 <!-- TODO: screenshot -->
 
@@ -62,7 +62,7 @@ You can create new custom governance rules for Postman to evaluate your API's de
 1. The rule must be valid YAML or JSON. Use the dropdown list to choose the correct syntax.
 1. Select OpenAPI 2.0 or OpenAPI 3.0 to choose which specification your new rule is valid for.
 1. Select **Create**.
-1. In the API governance admin panel, find your new rule under **Custom rules** and turn it on.
+1. In the API Governance admin panel, find your new rule under **Custom rules** and turn it on.
 
 <!-- TODO: screenshot -->
 
