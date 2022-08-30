@@ -102,6 +102,7 @@ Log in with your Postman API key.
     login --with-api-key <api-key>
 
 ---
+
 ## logout
 
 Log out of Postman.
