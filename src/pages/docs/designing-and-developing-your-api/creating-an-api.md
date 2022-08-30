@@ -81,7 +81,7 @@ There are some differences in the way API versions work in Postman v10 compared 
 
 ## Renaming an API
 
-To change the name of an API, select **APIs** in the sidebar. Select the more actions <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> icon next to an API and select **Rename**.
+To change the name of an API, select **APIs** in the sidebar. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to an API and select **Rename**.
 
 ## Deleting an API
 
