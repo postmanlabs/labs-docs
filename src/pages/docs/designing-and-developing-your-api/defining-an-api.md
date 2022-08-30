@@ -65,16 +65,16 @@ Next to the format dropdown list, there are options to beautify the content, wra
 
 ## Linting your API definition
 
-As you create your API definition in the schema editor, Postman automatically lints it using API governance and API security rules. If the linter finds any problems, Postman displays warnings below the schema editor.
+As you create your API definition in the schema editor, Postman automatically lints it using API Governance and API Security rules. If the linter finds any problems, Postman displays warnings below the schema editor.
 
 <!-- TODO: screenshot -->
 
-**API governance** - Postman lints your definition using a predefined set of [OpenAPI 3.0](/docs/api-governance/api-definition/openapi3/) and [OpenAPI 2.0](/docs/api-governance/api-definition/openapi2/) governance rules.
-**API security** - Postman lints your API definition using a pre-defined set of [security rules](/docs/api-governance/api-testing/api-testing-warnings/).
+**API Governance** - Postman lints your definition using a predefined set of [OpenAPI 3.0](/docs/api-governance/api-definition/openapi3/) and [OpenAPI 2.0](/docs/api-governance/api-definition/openapi2/) governance rules.
+**API Security** - Postman lints your API definition using a pre-defined set of [security rules](/docs/api-governance/api-testing/api-testing-warnings/).
 
-> [Enterprise teams](https://www.postman.com/pricing/) can also customize the rules that Postman uses to lint and create custom rules using the [API governance admin panel](/docs/api-governance/api-governance-admin-panel/) and the [API security admin panel](/docs/api-governance/api-security-admin-panel/).
+> [Enterprise teams](https://www.postman.com/pricing/) can also customize the rules that Postman uses to lint and create custom rules using the [API Governance admin panel](/docs/api-governance/api-governance-admin-panel/) and the [API Security admin panel](/docs/api-governance/api-security-admin-panel/).
 
-To see any linting errors, select **Rule** next to **Violations found in schema**. Postman displays each warning on its own line, with a brief description of the issue, the type of issue (governance or security), and the line and file the where the issue occurs. When you select a warning, Postman highlights the section of the definition that triggered the warning. If the issue occurs more than once, the warning line indicates how many times. You can scroll through each occurrence.
+To see any linting warnings, select **Rule** next to **Violations found in schema**. Postman displays each warning on its own line, with a brief description of the issue, the type of issue (governance or security), and the line and file the where the issue occurs. When you select a warning, Postman highlights the section of the definition that triggered the warning. If the issue occurs more than once, the warning line indicates how many times. You can scroll through each occurrence.
 
 <!-- TODO: screenshot -->
 
@@ -82,7 +82,7 @@ To learn more about the issue and get information about how to fix it, select **
 
 To hide the warning for the API definition, select **Hide**. Select a reason that you want to hide the warning, then select **Hide** again. This will hide the warning for your entire team on the current API.
 
-> To hide a warning globally, use the either the [API governance admin panel](/docs/api-governance/api-governance-admin-panel/) or the [API security admin panel](/docs/api-governance/api-security-admin-panel/) ([Enterprise teams only](https://www.postman.com/pricing/)), depending on the warning type.
+> To hide a warning globally, use the either the [API Governance admin panel](/docs/api-governance/api-governance-admin-panel/) or the [API Security admin panel](/docs/api-governance/api-security-admin-panel/) ([Enterprise teams only](https://www.postman.com/pricing/)), depending on the warning type.
 
 <!-- TODO: screenshot -->
 
