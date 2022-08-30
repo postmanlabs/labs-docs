@@ -304,3 +304,23 @@ code[class*="language-"] {
   display: flex;
   justify-content: space-between;
 }
+
+.experimental-alert {
+  background-color: rgba(238, 210, 2, .3);
+  height: 40px;
+  width: 100%;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+svg {
+  height: 20px;
+  width: 20px;
+  margin: 0 10px;
+}
