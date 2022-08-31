@@ -13,9 +13,6 @@ The Postman Enterprise plan is for organizations that need advanced identity man
     * [API Governance and API Security features](#apigovernance-and-api-security-features)
     * [Collaboration](#collaboration)
     * [Administration](#administration)
-* [Postman Enterprise trial](#postman-enterprise-trial)
-    * [Accessing Postman features during the trial](#accessing-postman-features-during-the-trial)
-    * [Upgrading to Postman Enterprise during or after your trial](#upgrading-to-postman-enterprise-during-or-after-your-trial)
 * [Purchasing a Postman Enterprise plan](#purchasing-a-postman-enterprise-plan)
 
 ## Enterprise features
@@ -63,26 +60,6 @@ After you purchase a Postman Enterprise plan, you can customize it to meet your 
 * **App versioning** - Set a team-wide version of the Postman desktop app for your organization. To learn more about app versioning, see [Managing Postman app versioning](/docs/administration/managing-enterprise-deployment/#managing-postman-app-versioning).
 * **Enterprise integrations** - Some integrations, including [Azure DevOps](/docs/integrations/available-integrations/azure-devops/), [GitHub Enterprise Server](/docs/integrations/available-integrations/github/), and [GitLab Self-Managed](/docs/integrations/available-integrations/gitlab/), are only available with an Enterprise plan.
 
-## Postman Enterprise trial
-
-If you're interested in trying out Postman Enterprise for your organization, you can evaluate the platform through a free trial. During the trial, you can use Enterprise-only [reporting](#reports), [advanced identity management](#advanced-identity-management), [API Governance and API Security](#api-governance-and-api-security-features), [collaboration](#collaboration), and [administration](#administration) features.
-
-To start the trial, you must have an [Admin role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) on your team. Select **Start Enterprise Trial**. <!-- TODO: since the CTA will be available in a lot of different spots, rolled out at different times, it may not make sense to include this at all -->
-
-If you don't have a Postman account, you will be prompted to [sign up for Postman](/docs/getting-started/postman-account/#signing-up-for-a-postman-account) and [create a team](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/#creating-a-team) before you can start a trial of Postman Enterprise.
-
-### Accessing Postman features during the trial
-
-During the trial, you'll have access to the full range of Enterprise features Postman offers. See the [Enterprise features](#enterprise-features) section for more information about Enterprise-only capabilities.
-
-> During the trial, you won't be able to use the Postman Enterprise app. The Postman Enterprise app is a version of the Postman desktop app that offers greater control to administrators.
-
-### Upgrading to Postman Enterprise during or after your trial
-
-If you decide to upgrade to Postman Enterprise or a different paid plan during or after your trial, contact the [Postman sales team](https://www.postman.com/company/contact-sales/) to get started. <!-- TODO: is there a url + utm to use here? -->
-
-If you decide not to upgrade after your trial period is over, you will return to your original plan. If you didn't already have a Postman account before starting the trial, your plan will switch to a [Free plan](https://www.postman.com/pricing/).
-
 ## Purchasing a Postman Enterprise plan
 
-To purchase a Postman Enterprise plan, contact the [Postman sales team](https://www.postman.com/company/contact-sales/). The sales team will evaluate your organization's needs, including the number of team member slots and any [add-ons](/docs/administration/billing/#managing-add-ons). To learn more, see [Purchasing Postman](/docs/administration/buying/). Afterwards, a member of the Postman team will help set up Postman Enterprise for your organization.
+To purchase a Postman Enterprise plan, contact the [Postman sales team](https://www.postman.com/company/contact-sales/). To learn more, see [Purchasing Postman](/docs/administration/buying/). Afterward you purchase your plan, a member of the Postman team will help set up Postman Enterprise for your organization.
