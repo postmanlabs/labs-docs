@@ -16,12 +16,20 @@ contextual_links:
 warning: false
 ---
 
+
+
+## Contents
+
+* TBD
+* TBD
+
 To download and install the Postman CLI, follow the steps below:
 
 1. Download the zip file for your platform from the [download page](https://www.postman.com/downloads/) or from the links below:
 
     * [Linux](https://dl-cli.pstmn.io/download/latest/linux/postman-cli.zip)
-    * [Mac](https://dl-cli.pstmn.io/download/latest/osx_64/postman-cli.zip)
+    * [Mac - Apple chip](Link to Mac OS - Apple chip)
+    * [Mac - Intel chip](Link to Mac OS - Intel chip)
     * [Windows](https://dl-cli.pstmn.io/download/latest/windows/postman-cli.zip)
 
 ## Installing the Postman CLI on Linux
