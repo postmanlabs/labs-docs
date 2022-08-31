@@ -18,8 +18,8 @@ warning: false
 
 You can download the Postman CLI in the following ways:
 
-* Click the download link on the Runner screen.
-* 
+* Click the download link on the Runner screen
+* Click the download link on the API builder's configure postman CLI screen.
 * Get the Postman CLI from http://postman.com/downloads.
 
 ## Contents
