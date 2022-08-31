@@ -35,17 +35,16 @@ contextual_links:
     url: "/docs/designing-and-developing-your-api/managing-apis/"
 ---
 
-You can define the structure of your API using its specification. You can also generate a collection from a specification.
+You can define the structure of your API using its specification. You can also generate a collection from a spec.
 
 ## Contents
 
-* [Editing your API definition](#editing-your-api-definition)
-* [Linting your API definition](#linting-your-api-definition)
+* [Editing your schema](#editing-your-schema)
 * [Generating a collection](#generating-a-collection)
 
-## Editing your API definition
+## Editing your schema
 
-The __Definition__ tab in each API version page contains an editor for your API definition. This can either be one you imported, or the sample definition that Postman adds when you create an API.
+The __Definition__ tab in each API version page contains an editor for your API specification (either one you imported or a sample Postman added when you created the API).
 
 The default schema type is OpenAPI 3.0, with YAML as the default format. To use a different schema type or format, choose it from the dropdown list.
 
