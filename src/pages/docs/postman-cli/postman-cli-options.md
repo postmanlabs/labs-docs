@@ -34,7 +34,7 @@ Commands and options for using the Postman CLI.
 |:--|:--|
 | [**`login`**](#login---with-api-key-api-key) | Log into Postman. |
 | [**`logout`**](#logout) | Log out of Postman. |
-| [**`postman collection run`**](#postman-collection-run-collection-uid-or-file-path) | Run a collection with a UUID or a local file. |
+| [**`postman collection run`**](#postman-collection-run) | Run a collection with a UUID or a local file. |
 | `--bail` | Stop the runner when a test case fails. |
 | `--color` | Turn off colored output (auto\|on\|off) (default: "auto") |
 | `--cookie-jar` | Specify the file path for a JSON Cookie Jar. Uses `tough-cookie` to deserialize the file. |

@@ -16,7 +16,11 @@ contextual_links:
 warning: false
 ---
 
+You can download the Postman CLI in the following ways:
 
+* Click the download link on the Runner screen.
+* 
+* Get the Postman CLI from http://postman.com/downloads.
 
 ## Contents
 
