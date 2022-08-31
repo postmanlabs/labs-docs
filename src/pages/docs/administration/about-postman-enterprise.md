@@ -1,6 +1,6 @@
 ---
 title: "About Postman Enterprise"
-updated: 2022-09-05
+updated: 2022-09-15
 ---
 
 The Postman Enterprise plan is for organizations that need advanced identity management, security, and governance features as they design, build, test, and deploy APIs. Postman Enterprise enables you to deploy Postman at scale, manage your team, and streamline your organization's API development process.
