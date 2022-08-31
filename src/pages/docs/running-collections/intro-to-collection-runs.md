@@ -1,6 +1,6 @@
 ---
 title: "Using the Collection Runner"
-updated: 2022-07-06
+updated: 2022-09-15
 search_keyword: "postman.setNextRequest, setNextRequest"
 contextual_links:
   - type: section
@@ -38,7 +38,7 @@ warning: false
 
 The _Collection Runner_ enables you to run the API requests in a collection in a specified sequence. It logs your request [test results](/docs/writing-scripts/test-scripts/) and can use [scripts](/docs/writing-scripts/intro-to-scripts/) to pass data between requests and alter the request workflow.
 
-You can configure the Collection Runner to meet your development needs. You can run collections using a specific environment, and can pass data files into a run. Collection runs enable you to automate your API testing, and you can schedule runs using [monitors](/docs/monitoring-your-api/intro-monitors/). You can also integrate collection runs with your CI/CD pipeline using [Newman](/docs/running-collections/using-newman-cli/command-line-integration-with-newman/), a Postman tool that enables you to run and test collections directly from the command line.
+You can configure the Collection Runner to meet your development needs. You can run collections using a specific environment, and can pass data files into a run. Collection runs enable you to automate your API testing, and you can schedule runs using [monitors](/docs/monitoring-your-api/intro-monitors/). You can also integrate collection runs with your CI/CD pipeline using [the Postman CLI](/docs/postman-cli/postman-cli-overview/), a Postman tool that enables you to run and test collections directly from the command line.
 
 ![Collection Runner results page overview](https://assets.postman.com/postman-docs/collection-runner-overview-v9.jpg)
 
@@ -107,11 +107,11 @@ If you set an iteration number for the collection run, you can access the overvi
 
 ## Viewing run history
 
-Each collection has a **Run History** tab, which displays collection runs done by Collection Runner or Newman. It shows test counts along with metrics such as duration and average response times.
+Each collection has a **Runs** tab, which displays collection runs done by Collection Runner or the Postman CLI. It shows test counts along with metrics such as duration and average response times.
 
-![Collection Run History tab](https://assets.postman.com/postman-docs/collection-run-history-tab.jpg)
+![Collection Run History tab](https://assets.postman.com/postman-docs/collection-run-history-tab.jpg)<!--TODO: change-->
 
-The run display has controls to select how many collection runs to view, and limit the displayed runs to view only collection runs from Collection Runner or Newman.
+The Runs tab has controls to select how many collection runs to view, and limit the displayed runs to view only collection runs from selected users, a selected status, and either from the Collection Runner or the Postman CLI.
 
 The following are displayed for each collection run:
 
@@ -119,15 +119,13 @@ The following are displayed for each collection run:
     * Select one or more collection runs and select **Delete** to remove them.
 * The start time of the collection run.
 * A warning icon if the run failed.
-* The run source, duration, number of iterations, tests, passed tests, failed tests, skipped tests, and the average response time.
+* The run source, duration, all tests, passed tests, failed tests, skipped tests, and the average response time.
     * Select any of these items to sort the table by that item. Select again to change the sort order.
 
 Hover over an item to show the following controls:
 
 * **View details** action - Select to open the **Test Results** tab for the collection run, as described in [viewing test results](#viewing-test-results).
 * **Share** action - Select to share the results with another team member. This provides a link you can give to other team members so they can view details of this run. Note that this doesn't work in personal workspaces.
-
-For more information on how to add Newman collection runs to Postman, see [Sending Newman run data to Postman](/docs/running-collections/using-newman-cli/installing-running-newman/#sending-newman-run-data-to-postman).
 
 ## Sharing collection runs
 
