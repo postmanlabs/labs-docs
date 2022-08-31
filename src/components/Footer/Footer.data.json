@@ -114,6 +114,14 @@
           "target": ""
         },
         {
+          "title": "Press and media",
+          "url": "https://www.postman.com/company/press-media/",
+          "category": "global-footer",
+          "label": "press-and-media",
+          "id": "press-and-media",
+          "target": ""
+        },
+        {
           "title": "Contact us",
           "url": "https://www.postman.com/company/contact-us/",
           "category": "global-footer",
@@ -122,11 +130,11 @@
           "target": ""
         },
         {
-          "title": "Press and media",
-          "url": "https://www.postman.com/company/press-media/",
+          "title": "Partner program",
+          "url": "https://www.postman.com/partner-program/",
           "category": "global-footer",
-          "label": "press-and-media",
-          "id": "press-and-media",
+          "label": "partner-program",
+          "id": "partner-program",
           "target": ""
         }
       ]
