@@ -1,6 +1,6 @@
 ---
 title: "Installing and running Newman"
-updated: 2022-07-06
+updated: 2022-05-23
 search_keyword: "newman run"
 contextual_links:
   - type: section
@@ -129,30 +129,3 @@ newman.run({
     console.log('collection run complete!');
 });
 ```
-
-## Sending Newman run data to Postman
-
-Postman shows earlier collection runs in the **Run History** tab of a collection. In addition to showing results from Collection Runner, you can also send Newman run data to Postman and also view it in this tab. This is also called _ingesting_ run data.
-
-To ingest Newman runs into Postman:
-
-1. Make sure you have Newman version 5.3.2 or greater and Node.js version 14 or greater. You can verify this with `newman -v` and `node -v`.
-1. Get a Postman API Key. For more details, see [Generating a Postman API key](/docs/developer/intro-api/#generating-a-postman-api-key).
-1. Select <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px"> on the Workspace overview page and copy your Workspace ID.
-1. Select <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px"> on the Collection overview page and copy the Collection's ID.
-1. Install the Postman cloud reporter:
-
-    ``` bash
-    npm install -g newman-reporter-postman-cloud
-    ```
-
-1. Run the `newman` command:
-
-    ``` bash
-    newman run "https://api.getpostman.com/collections/<insert-collection-id>?apikey=<insert-key>"
-      -r postman-cloud
-      --reporter-apiKey "<insert-key>"
-      --reporter-workspaceId  "<insert-workspace-id>"
-    ```
-
-After you run the collection, the results will be in the **Run History** tab. For more information, see [viewing run history](/docs/running-collections/intro-to-collection-runs/#viewing-run-history).
