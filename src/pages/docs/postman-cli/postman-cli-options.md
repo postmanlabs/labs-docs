@@ -68,7 +68,6 @@ Commands and options for using the Postman CLI.
 | `--help` | Return information about Postman CLI commands and options. |
 | `--version` | Return the version number for the Postman CLI.  |
 
-
 ## Downloading and installing
 
 You can download the Postman CLI manually or programmatically.
@@ -237,7 +236,7 @@ Basic command line options
 
 The base command.
 
-#### Example
+### Example
 
 `postman -v`
 
