@@ -20,18 +20,161 @@ contextual_links:
 
 ---
 
-test
+> **[Partner workspaces are only available to Postman Enterprise teams.](https://www.postman.com/pricing)**
+
+Partner workspaces enable you collaborate with partners directly in Postman. You can use partner workspaces to help your partners consume your team's APIs and work together on API projects in real time. With partner workspaces, you can build a single source of truth and seamlessly integrate your partner projects into your Postman team, setting the foundation for an efficient and productive partnership.
 
 ## Contents
 
-* [Enabling your team profile](#enabling-your-team-profile)
-* [Creating a public workspace](#creating-a-public-workspace)
-* [Inviting collaboration on a public workspace](#inviting-collaboration-on-a-public-workspace)
-    * [Sharing a public workspace](#sharing-a-public-workspace)
-* [Managing a public workspace](#managing-a-public-workspace)
-    * [Editing public workspace details](#editing-public-workspace-details)
-* [Next steps](#next-steps)
+* [Creating a partner workspace](#creating-a-partner-workspace)
+* [Setting up a partner workspace](#setting-up-a-partner-workspace)
+    * [Moving elements to a partner workspace](#moving-elements-to-a-partner-workspace)
+    * [Removing elements from a partner workspace](#removing-elements-from-a-partner-workspace)
+* [Inviting collaborators to a partner workspace](#inviting-collaborators-to-a-partner-workspace)
+* [Managing a partner workspace](#managing-a-partner-workspace)
+    * [Managing users and roles](#managing-users-and-roles)
+    * [Managing workspace elements](#managing-workspace-elements)
+* [Editing workspace details](#editing-workspace-details)
+* [Deleting a partner workspace](#deleting-a-partner-workspace)
+<!-- * [Collaborating in a partner workspace](#collaborating-in-a-partner-workspace)
+    * [Collaborating as a team member](#collaborating-as-a-team-member)
+    * [Collaborating as a partner](#collaborating-as-a-partner)
+* [Next steps](#next-steps) -->
 
-##
+## Creating a partner workspace
+
+To create a partner workspace:
+
+1. Select **Workspaces** from the header, then select **Create Workspace**.
+
+    <img alt="Workspace menu" src="https://assets.postman.com/postman-docs/workspace-switcher-v9.19.jpg" width="300px"/>
+
+1. Define a workspace **Name** and **Summary**.
+1. Under **Visibility**, select **Partner**.
+1. Select **Create workspace**.
+
+    <img alt="Create partner workspace" src="https://assets.postman.com/postman-docs/v10/create-partner-workspace-v10.jpg" width="400px"/>
+
+Anyone with permissions to create workspaces can request to create a partner workspace, but it must be approved by the [Partner Manager](#managing-users-and-roles). If you're not a Super Admin or Partner Manager, Postman will mention this when creating the workspace and you can add an optional note. Postman will notify you when a Partner Manager reviews your request and approves or denies it.
+
+<img alt="Create partner workspace approval" src="https://assets.postman.com/postman-docs/v10/partner-workspace-approval-warning-v10.jpg" width="450px" />
+
+To convert an existing workspace to a partner workspace:
+
+1. Open the workspace. In the **Overview** tab, select **Workspace Settings** in the upper right.
+1. Under **Visibility**, select **Partner**.
+1. Select **Update**.
+
+Anyone with permissions to change workspace visibility can request to convert a workspace into a partner workspace, but it must be approved by the [Partner Manager](#managing-users-and-roles). If you're not a Super Admin or Partner Manager, Postman will mention this and you can add an optional note. Postman will notify you when a Partner Manager reviews your request and approves or denies it.
+
+> When a workspace converts to a partner workspace, Postman sends in-app and email notifications to all workspace members.
+
+## Setting up a partner workspace
+
+Before sharing a partner workspace with external collaborators, you can set your partnership up for success by moving relevant APIs, collections, and environments into it.
+
+### Moving elements to a partner workspace
+
+You must be an Editor on an API, collection, or environment, the Workspace Admin, or a Super Admin to move an element to a partner workspace. To move an element:
+
+1. Select the element you want to share in the sidebar, then select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> > **Move**.
+
+1. Use the search bar to find the workspace you'd like to move the element to, or filter by workspace visibility by selecting the filter icon <img alt="Filter icon" src="https://assets.postman.com/postman-docs/icon-filter.jpg#icon" width="16px">.
+
+    > You can share elements to partner workspaces that you have access to.
+
+1. Select the workspace, then **Move** (**Collection**, **API**, or **Environment**).
+
+    <img alt="Move element partner workspace" src="https://assets.postman.com/postman-docs/v10/move-collection-to-partner-workspace-v10.jpg" width="400px"/>
+
+Note that items related to what you're moving won't move with the element automatically:
+
+* **Collections** - Monitors will pause and stay in the current workspace.
+
+* **APIs** - Collections, documentation, monitors, mock servers, and environments of the API will stay in the current workspace.
+
+* **Environments** - Monitors, mock servers, and integrations using the environment may no longer work.
+
+You must move these items separately or re-configure them in the new workspace.
+
+If you'd like to keep certain elements in other workspaces, you can [fork them into partner workspaces](/docs/collaborating-in-postman/version-control/#creating-a-fork) to help [keep them up to date](/docs/collaborating-in-postman/version-control/#pulling-updates) with any changes to the parent element.
+
+### Removing elements from a partner workspace
+
+You must be an Editor on an API, collection, or environment, the Workspace Admin, or a Super Admin to remove an element from a partner workspace. To remove an element by moving it to another workspace:
+
+1. Select the element you want to share in the sidebar, then select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> > **Move**.
+
+1. Use the search bar to find the workspace you'd like to move the element to, or filter by workspace visibility by selecting the filter icon <img alt="Filter icon" src="https://assets.postman.com/postman-docs/icon-filter.jpg#icon" width="16px">.
+
+    > You can share elements to workspaces that you have access to.
+
+1. Select the workspace, then **Move** (**Collection**, **API**, or **Environment**).
+
+It's not recommended, but you can opt to delete an element entirely. To do so, select the element in the sidebar, then select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> > **Delete**.
+
+> Deleted APIs and environments aren't recoverable. You can recover collections smaller than 30 MB for up to 90 days on an Enterprise plan by selecting <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> **Trash** from the Postman footer.
+
+## Inviting collaborators to a partner workspace
+
+Workspace Admins, Partner Managers, and Partner Leads can invite partners to partner workspaces.
+
+> For more information on partner roles, see [Managing users and roles](#managing-users-and-roles).
+
+To invite partners to a partner workspace:
+
+1. Open the workspace and select **Invite** in the upper-right corner.
+1. (Workspace Admins and Partner Managers only) Select **Partners**, then **Continue**.
+1. Enter the name, email, or group name of the partners.
+1. Set their [workspace role](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles).
+1. (Workspace Admins and Partner Managers only) Select **Make them Partner Lead** if you'd like them to also be able to manage and invite partners within the workspace.
+1. Select **Invite Partners**.
+
+Workspace Admins and Partner Managers can invite team members to partner workspaces.
+
+To invite team members to a partner workspace:
+
+1. Open the workspace and select **Invite** in the upper-right corner.
+1. Select **Team members**, then **Continue**.
+1. Enter the name, email, or group name of the team members.
+1. Set their [workspace role](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles).
+1. Select **Send Invites**.
+
+## Managing a partner workspace
+
+Workspace Admins and Partner Managers manage workspace settings, members, and roles within a partner workspace. Partner Leads also manage members and roles in partner workspaces.
+
+### Managing users and roles
+
+You can assign partner roles based on the functions team members and partners require.
+
+* Team level:
+    * **Partner Manager** - Manages all partner workspaces within an organization. Controls partner workspace settings and visibility, and can send invites to partners.
+    * **Partner** - All partners are automatically granted the Partner role at the team level. Partners can only access the partner workspaces they've been invited to.
+* Workspace level:
+    * **Partner Lead** - Can invite other partners from their organization to join a partner workspace.
+
+All partners are assigned Workspace Editor or Viewer roles when invited to a partner workspace. To learn more about workspace level permissions, see [Workspace Roles](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles).
+
+### Managing workspace elements
+
+To move additional elements to a partner workspace, see [Moving elements to a partner workspace](#moving-elements-to-a-partner-workspace).
+
+To remove elements from a partner workspace, see [Removing elements from a partner workspace](#removing-elements-from-a-partner-workspace).
+
+## Editing workspace details
+
+Workspace Admins and Partner Managers can edit partner workspace details. On the workspace's Overview tab, select the workspace name, summary, or description to edit it. You can add Markdown to the description—select **Save** when you're done.
+
+## Deleting a partner workspace
+
+Workspace Admins and Partner Managers can delete partner workspaces. To delete a partner workspace:
+
+1. On the workspace's **Overview** tab, select **Workspace Settings**.
+1. Select the role next to each partner in the workspace, then select **Remove from workspace**.
+1. Once all partners have been removed, [change the visibility of a partner workspace](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#changing-workspace-visibility) to **Team** or **Private**.
+1. Select **Delete Workspace**.
+
+> Postman notifies all workspace members when a partner workspace is deleted.
 
 ## Next steps
