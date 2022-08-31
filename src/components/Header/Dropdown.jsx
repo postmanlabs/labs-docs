@@ -10,7 +10,7 @@ import {
   Configure,
   Pagination,
 } from 'react-instantsearch-dom';
-import { SearchWrapperStyling } from '../Search/searchStyles.jsx';
+import { SearchWrapperStyling } from '../Search/SearchStyles.jsx';
 import { CustomHits } from '../Search/SearchPreview.jsx';
 
   const searchOnlyKey = process.env.NODE_ENV === 'development' ? '003daeb8de202d4a917c2395628d75a8' : '69f2c5376f1a90912c6c3b6b772c25bc';
