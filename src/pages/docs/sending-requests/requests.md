@@ -15,11 +15,11 @@ contextual_links:
   - type: subtitle
     name: "Videos"
   - type: link
-    name: "How to Send API Requests"
-    url: "https://youtu.be/8mBmLDbpIH8"
-  - type: link
     name: "Intro to Postman | Part 1: Send a Request"
     url: "https://youtu.be/2oOSnxZ28fA"
+  - type: link
+    name: "How to use an API? | Intro to APIs Part 2"
+    url:  "https://youtu.be/woRuedXZyi4"
   - type: link
     name: "Upload a File via POST Request | Postman Level Up"
     url: "https://youtu.be/S7bwkys6D0E"
@@ -211,7 +211,7 @@ You can use __binary__ data to send information you can't enter manually in the 
 
 You can send GraphQL queries with your Postman requests by selecting the __GraphQL__ tab in the request __Body__. Enter your code in the __Query__ area and any variables in the __GraphQL Variables__ section.
 
-Check out [Using GraphQL](/docs/sending-requests/supported-api-frameworks/graphql/) section for more information on GraphQL, including how to enable __Autocomplete__ powered by Postman API schemas.
+Check out [Using GraphQL](/docs/sending-requests/graphql/graphql/) for more information on GraphQL, including how to enable __Autocomplete__ powered by Postman API schemas.
 
 ### Authenticating requests
 

@@ -1,7 +1,7 @@
 ---
 title: "Microsoft Teams"
 order: 173
-updated: 2021-06-04
+updated: 2022-07-19
 page_id: "microsoft_teams"
 warning: false
 contextual_links:
@@ -12,78 +12,76 @@ contextual_links:
     url: "/docs/sending-requests/intro-to-collections/"
 ---
 
-Microsoft Teams is a chat-based workspace that is available for all Microsoft Office 365 users. This integration allows you to get updates about what is happening in your team directly in Microsoft Teams.
+Microsoft Teams is a chat-based workspace available to all Microsoft Office 365 users. This integration enables you to get updates about your Postman team directly in Microsoft Teams.
 
 To configure a Microsoft Teams integration, you will need to first create a Microsoft Teams webhook URL.
 
+## Contents
+
+* [Create a Microsoft Teams webhook URL](#create-a-microsoft-teams-webhook-url)
+* [Configuring Microsoft Teams](#configuring-microsoft-teams)
+    * [Add a team activity feed to Microsoft Teams](#add-a-team-activity-feed-to-microsoft-teams)
+    * [Send monitor run results in Microsoft Teams](#send-monitor-run-results-in-microsoft-teams)
+* [Messages in Microsoft Teams](#messages-in-microsoft-teams)
+
 ## Create a Microsoft Teams webhook URL
 
-> Note that certain permissions are required by Microsoft Teams in order to [add a connector to a channel](https://docs.microsoft.com/en-us/microsoftteams/office-365-custom-connectors).
+> Note that Microsoft Teams requires certain permissions to [add a connector to a channel](https://docs.microsoft.com/en-us/microsoftteams/office-365-custom-connectors).
 
-Sign in to your Microsoft Teams account. Create a new channel, or go to an already existing channel, where you want to set up this integration.
+1. Sign in to your Microsoft Teams account. Create a new channel, or go to an already existing channel, where you want to set up this integration.
 
-[![select channel](https://assets.postman.com/postman-docs/59031183.jpg)](https://assets.postman.com/postman-docs/59031183.jpg)
+    [![select channel](https://assets.postman.com/postman-docs/microsoft-teams-channel.jpg)](https://assets.postman.com/postman-docs/microsoft-teams-channel.jpg)
 
-Select the `...` on the right side of the channel name and select `Connectors` from the dropdown list.
+1. Select the `...` next to the channel name and select `Connectors` from the dropdown list.
 
-[![select connectors](https://assets.postman.com/postman-docs/59031299.jpg)](https://assets.postman.com/postman-docs/59031299.jpg)
+1. Select the `Incoming Webhook` connector from the list of available connectors.
 
-Select the `Incoming Webhook` connector from the list of available connectors.
+1. Enter a name to identify this webhook later. You can also add an image which appears whenever this webhook posts a message. Select **Create**.
 
-[![select incoming webhook](https://assets.postman.com/postman-docs/59031428.jpg)](https://assets.postman.com/postman-docs/59031428.jpg)
+    [![enter a name](https://assets.postman.com/postman-docs/microsoft-teams-webhook-name.jpg)](https://assets.postman.com/postman-docs/microsoft-teams-webhook-name.jpg)
 
-Enter a name to identify this webhook later. You can also add an image which will be visible whenever a message is posted using this webhook. Select **Create**.
+    This generates a webhook URL you can use to post messages to this channel. Copy this webhook and save it for later.
 
-[![enter a name](https://assets.postman.com/postman-docs/59031665.jpg)](https://assets.postman.com/postman-docs/59031665.jpg)
-
-This will generate a webhook URL which can then be used to post messages to this channel. Copy this webhook and save it for later.
-
-[![generate webhook URL](https://assets.postman.com/postman-docs/59032020.jpg)](https://assets.postman.com/postman-docs/59032020.jpg)
+    [![generate webhook URL](https://assets.postman.com/postman-docs/microsoft-teams-webhook-url.jpg)](https://assets.postman.com/postman-docs/microsoft-teams-webhook-url.jpg)
 
 ## Configuring Microsoft Teams
 
-From the **[Home](https://go.postman.co/home)** page select **[Integrations](https://go.postman.co/integrations)**.
+1. From the **[Home](https://go.postman.co/home)** page select **[Integrations](https://go.postman.co/integrations)**.
 
-![home page and integrations](https://assets.postman.com/postman-docs/home-integrations.jpg)
+    ![home page and integrations](https://assets.postman.com/postman-docs/home-integrations.jpg)
 
-Search and select **Microsoft Teams**.
-
-[![select ms_teams integration](https://assets.postman.com/postman-docs/msteams-search-all-q.jpg)](https://assets.postman.com/postman-docs/msteams-search-all-q.jpg)
+1. Search and select **Microsoft Teams**.
 
 ### Add a team activity feed to Microsoft Teams
 
 To add a team activity feed to Microsoft Teams:
 
-Select **Add Integration**.
+1. Select **Add Integration**.
 
-Give your integration a nickname and provide your [incoming webhook URL](#create-a-microsoft-teams-webhook-url) as the Notification URL to receive team updates in Microsoft Teams.
+1. Give your integration a nickname and enter your [incoming webhook URL](#create-a-microsoft-teams-webhook-url) as the Notification URL to receive team updates in Microsoft Teams.
 
-[![select ms_teams integration](https://assets.postman.com/postman-docs/msteams-add-team-activities-q.jpg)](https://assets.postman.com/postman-docs/msteams-add-team-activities-q.jpg)
+1. Select **Add Integration** to access your team's activity feed in the **Configured Integrations** view.
 
-Select **Add Integration** to access your team's activity feed in the "Configured Integrations" view.
-
-   [![ms_teams configInt](https://assets.postman.com/postman-docs/msteams-team-activities-show-all-q.jpg)](https://assets.postman.com/postman-docs/msteams-team-activities-show-all-q.jpg)
+    [![ms_teams configInt](https://assets.postman.com/postman-docs/msteams-team-activities-show-all-q.jpg)](https://assets.postman.com/postman-docs/msteams-team-activities-show-all-q.jpg)
 
 ### Send monitor run results in Microsoft Teams
 
 To send monitor run results to Microsoft Teams:
 
-Select **Add Integration**.
+1. Select **Add Integration**.
 
-In the **Monitor Run Results** page, select the monitor whose results you want to send to Microsoft Teams, and enter the notification URL.
+1. In the **Monitor Run Results** page, select the monitor whose results you want to send to Microsoft Teams, and enter the notification URL.
 
-   [![ms_teams monRun](https://assets.postman.com/postman-docs/ms-teams-send-mon-run.jpg)](https://assets.postman.com/postman-docs/ms-teams-send-mon-run.jpg)
+    [![ms_teams monRun](https://assets.postman.com/postman-docs/ms-teams-send-mon-run-v9-a.jpg)](https://assets.postman.com/postman-docs/ms-teams-send-mon-run-v9-a.jpg)
 
-Select **Add Integration** to access your monitors in the "Configured Integrations" view. You can also select the "Advanced Options" link to indicate if you want notifications when all monitor runs are completed, or if you want notifications for three monitor run failures and then the first successful monitor run.
+1. Select **Add Integration** to access your monitors in the **Configured Integrations** view. You can also select the **Advanced Options** link to indicate if you want notifications on completion of all monitor runs, or if you want notifications for three monitor run failures and then the first successful monitor run.
 
-   [![ms_teams monRun](https://assets.postman.com/postman-docs/msteams-monitor-results-add-q.jpg)](https://assets.postman.com/postman-docs/msteams-monitor-results-add-q.jpg)
+    [![ms_teams monRun](https://assets.postman.com/postman-docs/msteams-monitor-results-add-q.jpg)](https://assets.postman.com/postman-docs/msteams-monitor-results-add-q.jpg)
 
 ## Messages in Microsoft Teams
 
-Monitor run messages summarize the basic details of the run, if the run was successful or if it failed. Also, it provides direct links to that particular run and to the documentation for the collection.
+Monitor run messages summarize the basic details of the run, if the run was successful, or if it failed. Also, it provides direct links to that particular run and to the documentation for the collection.
 
-[![Microsoft teams view](https://assets.postman.com/postman-docs/59034537.jpg)](https://assets.postman.com/postman-docs/59034537.jpg)
+[![Microsoft teams view](https://assets.postman.com/postman-docs/microsoft-teams-messages.jpg)](https://assets.postman.com/postman-docs/microsoft-teams-messages.jpg)
 
-Similarly, the Team Activity message displays updates, who made the change and what it was.
-
-[![activity feed](https://assets.postman.com/postman-docs/59034618.jpg)](https://assets.postman.com/postman-docs/59034618.jpg)
+Similarly, the Team Activity message displays updates, who made the change, and what it was.

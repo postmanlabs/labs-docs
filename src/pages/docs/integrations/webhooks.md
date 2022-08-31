@@ -19,6 +19,11 @@ contextual_links:
     name: "Building a Slack Bot with the Twitch API and Postman"
     url: "https://blog.postman.com/building-slack-bot-with-twitch-api-and-postman/"
   - type: subtitle
+    name: "Case Studies"
+  - type: link
+    name: "Paylocity"
+    url: "https://www.postman.com/case-studies/paylocity/"
+  - type: subtitle
     name: "Public Workspaces"
   - type: link
     name: "Postman Loves Slack"

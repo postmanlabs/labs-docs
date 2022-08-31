@@ -1,22 +1,181 @@
 import React from 'react';
+import ReactDOMServer from 'react-dom/server';
 import { OutboundLink } from 'gatsby-plugin-google-analytics';
 import { v4 as uuidv4 } from 'uuid';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
-import '../../styles/config/_pm-icons.css';
 import upcomingEvents from '../../bff-data/events.json';
-import HeroImage from '../assets/refresh-hero-image.svg';
 import { LandingCard } from '../components/MarketingPages/Cards';
 import '../../styles/config/normalize.css';
-import '../components/MarketingPages/Buttons.scss';
-import './index.scss';
 
-const heroBackground = {
-  backgroundColor: '#f9f9f9',
-  padding: '48px 80px',
-};
+import { ButtonStyles, LinkStyles } from '../../styles/ButtonStyles';
+import '../../styles/config/_pm-icons.css';
+import styled from 'styled-components';
+import '../../styles/config/_pm-icons.css';
+
+const EventsWrapper = styled.div`
+margin-bottom: 48px;
+@media (min-width: 992px) {
+        padding-left: 48px;
+    }
+    
+.events__alert {
+    border: 4px dashed ${(props) => props.theme.colors.blue_10};
+    border-radius: ${(props) => props.theme.borderRadius.medium};
+    padding: .75rem 1.25rem;
+    color: #0C5460;
+    color: ${(props) => props.theme.colors.blue_80};
+}
+// Upcoming Event Section styles
+
+.event-date {
+    font-family: 'Degular-Display-Semibold', system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    text-transform: uppercase;
+    @media (max-width: 992px) {
+      justify-content:initial;
+      margin-top: 8px;
+    }
+}
+.event-location {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: ${(props) => props.theme.colors.orange_40};
+    padding-bottom: 16px;
+}
+.event-description-wrapper {
+    @media (min-width: 992px) {
+        padding-left: 48px !important;
+    }
+}
+.event-month {
+    @media screen and (max-width: 576px){
+        font-size: 16px;
+    }
+}
+.link-style{
+    height: 24px;
+    color: ${(props) => props.theme.colors.blue_60};
+    text-decoration: none;
+}
+`
+const HeroWrapper = styled.section`
+  background-color: ${(props) => props.theme.colors.grey_05};
+  padding: 48px 80px;
+    @media (max-width: 991px) {
+        padding: 40px !important;
+      }
+    .hero-image {
+        margin: 0px;
+    }
+    .img-frame {
+        border-radius: ${(props) => props.theme.borderRadius.medium};
+        border: 8px solid ${(props) => props.theme.colors.grey_20};// $grey_20
+        box-shadow: 8px 8px 0 rgba(0, 0, 0, 0.32);
+    }
+`
+
+const HRStyles = styled.hr`
+  border: 0;
+  margin-top: 0;
+  border-top: 1px solid ${(props) => props.theme.colors.grey_30};
+  margin-bottom: 0;
+`;
+
+const months = [
+  'Jan',
+  'Feb',
+  'Mar',
+  'Apr',
+  'May',
+  'Jun',
+  'Jul',
+  'Aug',
+  'Sep',
+  'Oct',
+  'Nov',
+  'Dec',
+];
+
+function getEvents(sortedUpcomingEvents) {
+  return sortedUpcomingEvents.length > 0 && ( // If there are events in the events.json array
+    sortedUpcomingEvents.map((event) => {
+      const eventYear = event.date.match(/20[0-9][0-9]/)[0];
+      const eventMonth = parseInt(event.date.split(/20[0-9][0-9]-/).pop().split('-').shift(), 10);
+      const eventMonthIndex = eventMonth - 1;
+      const eventDay = parseInt(event.date.split(/20[0-9][0-9]-[0-9][0-9]-/).pop().split('T').shift(), 10);
+      const eventDate = `${eventMonth}/${eventDay}/${eventYear}`;
+      const eventInformation = `${event.location} - ${eventDate} ${event.time}`;
+      return (
+        <EventsWrapper className="col-12 col-lg-10 offset-lg-1 " key={uuidv4()}>
+          <div className="row ">
+            <div className="col-12 col-lg-3 event-date event-month">
+              {/* <span className="event-month"> */}
+              {`${months[eventMonthIndex]}`}
+              {/* </span> */}
+              {' '}
+              {`${eventDay}`}
+            </div>
+            <div className="col-12 col-lg-9 event-description-wrapper">
+              <p className="mb-1 event-location">{`${eventInformation}`}</p>
+              <h4 className="event-title">{event.title}</h4>
+              <p>{event.description}</p>
+              <OutboundLink
+                className="event-link-wrapper link-style"
+                href={event.link}
+                target="_blank"
+                rel="noopener"
+              >
+                <span>See details →</span>
+              </OutboundLink>
+            </div>
+          </div>
+        </EventsWrapper>
+      );
+    })
+  ) || (
+    <>
+      {/* If there are no events, and events.json is an object
+        where development eq true */}
+      {!Array.isArray(upcomingEvents) && upcomingEvents.development ? (
+        <EventsWrapper className="events__alert" role="alert">
+          <p>
+            You are currently in develop mode. Dynamic events will not be displayed
+            locally.
+            <LinkStyles
+              className="link-style"
+              style={{ fontSize: 'inherit' }}
+              href="https://github.com/postmanlabs/postman-docs/blob/develop/CONTRIBUTING.md"
+              target="_blank"
+              rel="noopener"
+            >
+              See Contributing doc for details
+            </LinkStyles>
+            .
+          </p>
+        </EventsWrapper>
+      ) : (
+        <>
+          {/* else we know we have 0 upcoming events, and we are not
+            in development mode */}
+          <p>We currently have no upcoming events...check back later.</p>
+        </>
+      )}
+    </>
+  )
+}
 
 class IndexPage extends React.Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      sortedUpcomingEvents: upcomingEvents,
+    };
+  }
+
   componentDidMount() {
     const pix = document.createElement('script');
     pix.language = 'JavaScript1.1';
@@ -33,30 +192,35 @@ class IndexPage extends React.Component {
       polyfill.async = true;
       document.body.appendChild(polyfill);
     }
+
+    try {
+      window.pm.bff(
+        'events',
+        (d) => {
+          if (d) {
+            const data = JSON.parse(d);
+            const sortedUpcomingEvents = document.getElementById('sorted-upcoming-events');
+
+            sortedUpcomingEvents.innerHTML = ReactDOMServer.renderToString(getEvents(data));
+          }
+        }
+      );
+    } catch (err) {
+      if (window.pm && typeof window.pm.log === 'function') {
+        window.pm.log(err);
+      }
+    }
   }
 
   render() {
-    const months = [
-      'Jan',
-      'Feb',
-      'Mar',
-      'Apr',
-      'May',
-      'Jun',
-      'Jul',
-      'Aug',
-      'Sep',
-      'Oct',
-      'Nov',
-      'Dec',
-    ];
-    const sortedUpcomingEvents = upcomingEvents;
+    const { state } = this;
+    const { sortedUpcomingEvents } = state;
 
     return (
       <Layout>
         <SEO title="Learning Center" slug="/" />
         <div className="container-fluid">
-          <section className="row section align-items-center hero" style={heroBackground}>
+          <HeroWrapper className="row section align-items-center hero" >
             <div className="container">
               <div className="row">
                 <div className="col-sm-12 col-md-5 col-lg-6 align-self-center">
@@ -67,13 +231,15 @@ class IndexPage extends React.Component {
                     <br />
                     Check out the docs and support resources!
                   </p>
-                  <a href="/docs/getting-started/introduction/" className="btn btn__primary-hollow mb-5">
-                    Explore the docs
+                  <ButtonStyles>
+                  <a href="/docs/getting-started/introduction/" className="btn primary-hollow mb-5">
+                    Explore the Docs
                   </a>
+                  </ButtonStyles>
                 </div>
                 <div className="col-sm-12 col-md-6 col-lg-6 align-self-center">
                   <img
-                    src={HeroImage}
+                    src="https://voyager.postman.com/illustration/postman-learning-center-documentation-illustration.svg"
                     width="637"
                     height="411"
                     className="hero-image img-fluid"
@@ -82,7 +248,7 @@ class IndexPage extends React.Component {
                 </div>
               </div>
             </div>
-          </section>
+          </HeroWrapper>
         </div>
         <div className="container">
           <section className="row section">
@@ -147,7 +313,7 @@ class IndexPage extends React.Component {
             </div>
           </section>
           <div className="container-fluid" >
-            <hr/>
+            <HRStyles/>
           </div>
           {/* Youtube Video Section */}
           <section className="row section align-items-center">
@@ -172,7 +338,7 @@ class IndexPage extends React.Component {
             </div>
           </section>
           <div className="container-fluid" >
-            <hr/>
+            <HRStyles/>
           </div>
           {/* Events Section */}
           <section className="row section">
@@ -180,107 +346,37 @@ class IndexPage extends React.Component {
               <div className="sticky-top" style={{ top: '75px', zIndex: '0' }}>
                 <h2 id="upcoming-events">Upcoming Postman Events</h2>
                 <p>
-                  <a 
+                  <LinkStyles 
                     className="link-style" 
                     href="https://www.twitch.tv/getpostman" 
                     target="_blank" 
                     rel="noopener">
                     Follow us
-                  </a>
+                  </LinkStyles>
                   {' '}
                   on Twitch or
                   {' '}
-                  <a
+                  <LinkStyles
                     className="link-style"
                     href="https://www.youtube.com/channel/UCocudCGVb3MmhWQ1aoIgUQw"
                     target="_blank"
                     rel="noopener"
                   >
                     subscribe
-                  </a>
+                  </LinkStyles>
                   {' '}
                   to our YouTube channel so you don’t miss when we go live.
                 </p>
               </div>
             </div>
             <div className="col-12 col-lg-8 justify-content-center d-flex align-items-stretch event-wrapper">
-              <div className="row">
-                {/* If there are events in the events.json array */}
-                {sortedUpcomingEvents.length > 0 ? (
-                  // Map over, get the appropriate values and render event.
-                  sortedUpcomingEvents.map((event) => {
-                    // Used for Left side of events (Example: JAN 1)
-                    const dateObject = new Date(event.date);
-                    // Used for Right Side of events
-                    const today = new Date(event.date);
-                    const date = `${today.getMonth() + 1}/${today.getDate()}/${today.getFullYear()}`;
-                    // Combine platform, date and time of the event
-                    // Example: Livestream - 01/01/2000 4PM PST
-                    const eventInformation = `${event.location} - ${date} ${event.time}`;
-                    // added parathensis to remove linter error
-                    const isStale = new Date(event.expirationDate) < ((new Date()) && ' d-none') || '';
-                    return (
-                      <div className={`col-12 col-lg-10 offset-lg-1 ${isStale} event-single-wrapper`} key={uuidv4()}>
-                        <div className="row">
-                          <div className="col-12 col-lg-3 event-date event-month">
-                            {/* <span className="event-month"> */}
-                            {`${months[dateObject.getUTCMonth()]}`}
-                            {/* </span> */}
-                            {' '}
-                            {`${dateObject.getDate()}`}
-                          </div>
-                          <div className="col-12 col-lg-9 event-description-wrapper">
-                            <p className="mb-1 event-location">{`${eventInformation}`}</p>
-                            <h4 className="event-title">{event.title}</h4>
-                            <p>{event.description}</p>
-                            <OutboundLink
-                              className="event-link-wrapper link-style"
-                              href={event.link}
-                              target="_blank"
-                              rel="noopener"
-                            >
-                              <span>See details →</span>
-                            </OutboundLink>
-                          </div>
-                        </div>
-                      </div>
-                    );
-                  })
-                ) : (
-                  <>
-                    {/* If there are no events, and events.json is an object
-                      where development eq true */}
-                    {!Array.isArray(upcomingEvents) && upcomingEvents.development ? (
-                      <div className="events__alert" role="alert">
-                        <p>
-                          You are currently in develop mode. Dynamic events will not be displayed
-                          locally.
-                          <a
-                            className="link-style"
-                            style={{ fontSize: 'inherit' }}
-                            href="https://github.com/postmanlabs/postman-docs/blob/develop/CONTRIBUTING.md"
-                            target="_blank"
-                            rel="noopener"
-                          >
-                            See Contributing doc for details
-                          </a>
-                          .
-                        </p>
-                      </div>
-                    ) : (
-                      <>
-                        {/* else we know we have 0 upcoming events, and we are not
-                          in development mode */}
-                        <p>We currently have no upcoming events...check back later.</p>
-                      </>
-                    )}
-                  </>
-                )}
+              <div id="sorted-upcoming-events" className="row">
+                {getEvents(sortedUpcomingEvents)}
               </div>
             </div>
           </section>
           <div className="container-fluid" >
-            <hr/>
+            <HRStyles/>
           </div>
           <section className="row section">
             <div className="col-sm-6 col-lg-3 mb-sm-4 mb-md-0 pr-md-5">

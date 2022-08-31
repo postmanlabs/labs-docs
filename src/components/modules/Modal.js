@@ -1,5 +1,3 @@
-import './Modal.scss';
-
 /* Used on doc.jsx */
 export function useModal(parsedHtml, e) {
   let images = parsedHtml.querySelectorAll('img');
@@ -22,7 +20,8 @@ const Modal = (create_id, images, i) => {
   return (
     `
     ${images[i].width === 0 ? (
-      `<a data-target=#${create_id} class="modal-link" data-toggle="modal">
+      `<ModalWrapper>
+      <a data-target=#${create_id} class="modal-link" data-toggle="modal">
       <img src=${images[i].src || ''} alt="${images[i].alt || ''}" width=${images[i].width || ''}></img>
     </a>
     <div id=${create_id} class="modal modal-link fade" tabindex="-1" role="dialog">
@@ -54,6 +53,7 @@ const Modal = (create_id, images, i) => {
         </div>   
       </div>
     </div>
+    </ModalWrapper>
     `
     )
       : (`

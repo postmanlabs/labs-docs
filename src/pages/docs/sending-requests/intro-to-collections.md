@@ -152,7 +152,7 @@ To save a request from your history:
 From the list of collections in your workspace, you can:
 
 * Select a collection to open its overview in a tab.
-* Open and close collection content by selecting the arrow to the left of the collection name.
+* Open and close collection content by selecting the arrow next to the collection name.
 * Hover over a collection name and select the star icon &#9733; to move that collection to the top of the list.
 * Use the collection search bar to filter through your collections.
 * Reorder the requests, folders, and examples inside a collection by dragging and dropping them.
@@ -161,7 +161,7 @@ From the list of collections in your workspace, you can:
 
 To add a folder to your collection:
 
-1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> to the right of the collection name.
+1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the collection name.
 1. Select **Add folder**.
 
 You can also add sub-folders to create extra levels of nesting for the collection's requests and examples.
@@ -170,7 +170,7 @@ You can also add sub-folders to create extra levels of nesting for the collectio
 
 To delete a collection:
 
-1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> to the right of the collection name.
+1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the collection name.
 1. Select **Delete**.
 
 You can also select the collection and press **Delete** on your keyboard.
@@ -188,7 +188,7 @@ To recover a deleted collection:
 
 1. In the Trash page, select the restore icon <img alt="Restore icon" src="https://assets.postman.com/postman-docs/icon-restore-v9.jpg" width="14px"> next to the collection you want to recover.
 
-> Deleted collections that are larger than 30 MB cannot be recovered.
+> Deleted collections that are larger than 30 MB can't be recovered.
 
 Recovery options depend on your Postman plan:
 
@@ -224,13 +224,13 @@ To view notifications about what has changed in a collection you watch:
 
 1. You will also receive an email with the information regarding who made the change, what the change was, and when it was made. Select **View changelog** in the email to access the full changelog in Postman.
 
-> If you create a collection and modify it from the same Postman account, you will not receive notifications for any changes you make to that collection.
+> If you create a collection and modify it from the same Postman account, you won't receive notifications for any changes you make to that collection.
 
 ### Forking a collection
 
 You can fork collections in your own workspace to [develop collection versions](/docs/collaborating-in-postman/version-control-for-collections/). To fork a collection:
 
-1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> to the right of the collection name.
+1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the collection name.
 1. Select **Fork**.
 
 > Alternatively, select the fork icon <img alt="Fork icon" src="https://assets.postman.com/postman-docs/icon-fork.jpg#icon" width="14px"> from the collection overview.
@@ -239,7 +239,7 @@ You can fork collections in your own workspace to [develop collection versions](
 
 To add a comment at the collection level:
 
-1. Select the comment icon <img alt="Comments icon" src="https://assets.postman.com/postman-docs/icon-comments-v9.jpg#icon" width="18px"> from the right of the collection overview.
+1. Select the comment icon <img alt="Comments icon" src="https://assets.postman.com/postman-docs/icon-comments-v9.jpg#icon" width="18px"> from the right sidebar.
 1. Write your comment, then select **Add Comment**.
 
 ### Reverting collection changes
@@ -256,7 +256,7 @@ Restoring a collection from the changelog reverts it to the point immediately af
 
 ### Viewing pull requests, forks, and collection details
 
-From the context bar to the right of the collection overview:
+From the right sidebar:
 
 * To view pull requests for a collection, select the pull request icon <img alt="Pull request icon" src="https://assets.postman.com/postman-docs/icon-pull-request.jpg#icon" width="16px">
 * To view forks created from a collection, select the fork icon <img alt="Fork icon" src="https://assets.postman.com/postman-docs/icon-fork.jpg#icon" width="16px">

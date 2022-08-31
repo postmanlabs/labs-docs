@@ -1193,7 +1193,7 @@
 	},
 	{
 		"from": "/docs/postman/sending-api-requests/graphql/",
-		"to": "/docs/sending-requests/supported-api-frameworks/graphql/"
+		"to": "/docs/sending-requests/graphql/graphql/"
 	},
 	{
 		"from": "/docs/postman/sending-api-requests/history/",
@@ -1209,7 +1209,7 @@
 	},
 	{
 		"from": "/docs/postman/sending-api-requests/making-soap-requests/",
-		"to": "/docs/sending-requests/supported-api-frameworks/making-soap-requests/"
+		"to": "/docs/sending-requests/soap/making-soap-requests/"
 	},
 	{
 		"from": "/docs/postman/sending-api-requests/proxy/",
@@ -1265,7 +1265,7 @@
 	},
 	{
 		"from": "/docs/postman/sending_api_requests/graphql/",
-		"to": "/docs/sending-requests/supported-api-frameworks/graphql/"
+		"to": "/docs/sending-requests/graphql/graphql/"
 	},
 	{
 		"from": "/docs/postman/sending_api_requests/history/",
@@ -1281,7 +1281,7 @@
 	},
 	{
 		"from": "/docs/postman/sending_api_requests/making_soap_requests/",
-		"to": "/docs/sending-requests/supported-api-frameworks/making-soap-requests/"
+		"to": "/docs/sending-requests/soap/making-soap-requests/"
 	},
 	{
 		"from": "/docs/postman/sending_api_requests/proxy/",
@@ -1745,7 +1745,7 @@
 	},
 	{
 		"from": "/docs/sending-requests/supported-api-frameworks/",
-		"to": "/docs/sending-requests/supported-api-frameworks/graphql/"
+		"to": "/docs/sending-requests/graphql/graphql/"
 	},
 	{
 		"from": "/docs/sending_and_viewing_responses/responses/",
@@ -1761,7 +1761,7 @@
 	},
 	{
 		"from": "/docs/sending_requests/supported_api_frameworks/",
-		"to": "/docs/sending-requests/supported-api-frameworks/graphql/"
+		"to": "/docs/sending-requests/graphql/graphql/"
 	},
 	{
 		"from": "/docs/writing-scripts/",
@@ -1832,8 +1832,32 @@
 		"to": "/docs/integrations/available-integrations/splunk-on-call/"
 	},
 	{
+		"from": "/docs/api-security/",
+		"to": "/docs/api-governance/api-governance-overview/"
+	},
+	{
 		"from": "/docs/api-security/security-warnings/",
-		"to": "/docs/api-security/security-warnings/security-warnings-overview/"
+		"to": "/docs/api-governance/api-definition/api-definition-warnings/"
+	},
+	{
+		"from": "/docs/api-security/security-warnings/security-warnings-overview/",
+		"to": "/docs/api-governance/api-definition/api-definition-warnings/"
+	},
+	{
+		"from": "/docs/api-security/security-warnings/openapi3/",
+		"to": "/docs/api-governance/api-definition/openapi3/"
+	},
+	{
+		"from": "/docs/api-security/security-warnings/openapi2/",
+		"to": "/docs/api-governance/api-definition/openapi2/"
+	},
+	{
+		"from": "/docs/api-security/token-scanner/",
+		"to": "/docs/administration/token-scanner/"
+	},
+	{
+		"from": "/docs/api-governance/api-testing/",
+		"to": "/docs/api-governance/api-testing/api-testing-warnings/"
 	},
 	{
 		"from": "/docs/designing-and-developing-your-api/watching-an-api/",
@@ -1946,5 +1970,21 @@
 	{
 		"from": "/docs/collaborating-in-postman/commenting-on-collections/",
 		"to": "/docs/collaborating-in-postman/working-with-your-team/discussing-your-work/"
+	},
+	{
+		"from": "/docs/designing-and-developing-your-api/observing-an-api/",
+		"to": "/docs/designing-and-developing-your-api/observing-an-api/observing-an-api/"
+	},
+	{
+		"from": "/docs/sending-requests/supported-api-frameworks/graphql/",
+		"to": "/docs/sending-requests/graphql/graphql/"
+	},
+	{
+		"from": "/docs/sending-requests/supported-api-frameworks/websocket/",
+		"to": "/docs/sending-requests/websocket/websocket/"
+	},
+	{
+		"from": "/docs/sending-requests/supported-api-frameworks/making-soap-requests/",
+		"to": "/docs/sending-requests/soap/making-soap-requests/"
 	}
 ]

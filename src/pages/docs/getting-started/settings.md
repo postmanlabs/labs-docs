@@ -32,7 +32,7 @@ warning: false
 
 Postman automatically chooses default values for some settings so you can get right to work. Make changes to settings at any time based on your use case or to customize your Postman experience.
 
-To change settings in Postman, select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the header and then select **Settings**. In the Postman Desktop app, you can also select **⌘+Comma (,)** or **Ctrl+Comma (,)**.
+To change settings in Postman, select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the header and then select **Settings**. In the Postman desktop app, you can also select **⌘+Comma (,)** or **Ctrl+Comma (,)**.
 
 ## General
 
@@ -61,7 +61,7 @@ When you send a form-data or binary file with a request body, Postman saves a pa
 
 **The working directory is also used by Newman.** Store files you want to upload to Newman in the working directory path saved in the collection. Learn more about [file uploads in Newman](/docs/running-collections/using-newman-cli/newman-file-uploads/).
 
-**You can't change the working directory in Postman for Web.** When you upload a file, Postman for Web creates a new folder with a random name in the `~/Postman/files` directory. Postman stores the uploaded file in the new folder so you can use it when sending requests. To automatically sync files you upload to Postman for Web with your local working directory, make sure you are using the [Postman Desktop Agent](/docs/getting-started/installation-and-updates/#using-postman-on-the-web).
+**You can't change the working directory in the Postman web app.** When you upload a file, the Postman web app creates a new folder with a random name in the `~/Postman/files` directory. Postman stores the uploaded file in the new folder so you can use it when sending requests. To automatically sync files you upload to the Postman web app with your local working directory, make sure you are using the [Postman Desktop Agent](/docs/getting-started/installation-and-updates/#using-the-postman-web-app).
 
 **Use caution with files located outside your working directory.** To use files located outside your working directory when sending requests, turn on **Allow reading files outside working directory**. This option gives third-party collections the ability to read any file on your system. Use caution, and make sure you trust all third-party collections you are using before enabling this option.
 
@@ -75,6 +75,7 @@ When you send a form-data or binary file with a request body, Postman saves a pa
 
 ### User interface
 
+* **Remove tabs** - _Postman web app only._ Use tabs in your browser to navigate Postman instead of in-app tabs. For more information, see [Browser tabs in the Postman web app](/docs/getting-started/navigating-postman/#browser-tabs-in-the-postman-web-app).
 * **Two-pane view** - By default, Postman displays responses below requests. Turn this on to display the response and request panes side by side.
 * **Show icons with tab names** - Turn this off to hide the icons that appear next to tab names.
 * **Variable autocomplete** - Turn this on to enable autocomplete when typing variable names.
@@ -101,7 +102,7 @@ Pick your pleasure: select a light or dark theme for Postman.
 
 The **Shortcuts** tab displays all the keyboard shortcuts available in Postman. To turn off keyboard shortcuts, select the **Shortcuts** toggle.
 
-Some shortcuts aren't available in Postman for Web. Also, shortcut modifier keys in Postman may differ depending on your operating system. For example, to open a new tab select **⌘+T** on macOS or **Ctrl+T** on Windows or Linux.
+Some shortcuts aren't available in the Postman web app. Also, shortcut modifier keys in Postman may differ depending on your operating system. For example, to open a new tab select **⌘+T** on macOS or **Ctrl+T** on Windows or Linux.
 
 ## Data
 
@@ -123,7 +124,7 @@ Use the **Proxy** tab to configure proxy settings for connecting to online servi
 
 ## Update
 
-Use the **Update** tab to check for updates to Postman or to enable automatic updating. Learn more about [updating Postman](/docs/getting-started/installation-and-updates/#updating-postman).
+Use the **Update** tab to check for updates to the Postman desktop app or to enable automatic updating. Learn more about [updating Postman](/docs/getting-started/installation-and-updates/#updating-postman).
 
 ## About
 

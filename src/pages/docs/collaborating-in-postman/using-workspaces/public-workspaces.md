@@ -29,11 +29,8 @@ contextual_links:
     name: "Increasing Adoption of an API with a Public Workspace"
     url: "https://blog.postman.com/increasing-adoption-of-an-api-with-a-public-workspace/"
   - type: link
-    name: "Public Workspaces: Why We Created Them and What You Can Do with Them"
-    url: "https://blog.postman.com/public-workspaces-why-we-created-them-what-you-can-do/"
-  - type: link
-    name: "Supercharge Your API Development with Utility Collections"
-    url: "https://blog.postman.com/supercharge-api-development-with-utility-collections/"
+    name: "Introducing Public Workspace Summary Emails"
+    url: "https://blog.postman.com/introducing-public-workspace-summary-emails/"
 
 ---
 
@@ -204,4 +201,6 @@ The list of avatars in the Postman header shows you who's active in your workspa
 
 ## Next steps
 
-When you're working collaboratively in a public workspace, users will fork collections and create pull requests. To learn more about version control in Postman, see [Using version control](/docs/collaborating-in-postman/version-control-for-collections/).
+Once you start working collaboratively in a public workspace, users can fork collections and create pull requests.
+
+* To learn more about version control in Postman, visit [Using version control](/docs/collaborating-in-postman/version-control-for-collections/).

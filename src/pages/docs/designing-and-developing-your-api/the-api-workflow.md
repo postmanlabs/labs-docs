@@ -12,23 +12,9 @@ contextual_links:
   - type: link
     name: "The Reimagined API-First Workflow | The Exploratory"
     url: "https://youtu.be/rTTAVlUxfDc"
-  - type: subtitle
+  - type: dynamic_blog
     name: "Blog Posts"
-  - type: link
-    name: "The Reimagined API-First Workflow, Part 1: for Developers"
-    url: "https://blog.postman.com/the-reimagined-api-first-workflow-for-developers/"
-  - type: link
-    name: "Redefining API Management for the API-First World"
-    url: "https://blog.postman.com/new-postman-api-platform-redefining-api-management-for-api-first-world/"
-  - type: link
-    name: "Introducing Powerful Integrations"
-    url: "https://blog.postman.com/the-new-postman-api-platform/"
-  - type: link
-    name: "Announcing 6 Key Platform Improvements"
-    url: "https://blog.postman.com/announcing-new-postman-api-platform/"
-  - type: link
-    name: "The 8-Point API Lifecycle Blueprint"
-    url: "https://blog.postman.com/api-lifecycle-blueprint/"
+    blog_tag: "api-first"
   - type: section
     name: "Next Steps"
   - type: link
@@ -69,6 +55,6 @@ Select an API version to open its **API version** page. The version page contain
 
 <img src="https://assets.postman.com/postman-docs/api-builder-version-page.jpg" alt="API Builder version page" width="550px" />
 
-There's a also right sidebar with several icons, depending on the current page open. For example, on the **API version** page, there are icons to view comments, generate boilerplate server code from your schema, and view the API's changelog. From the changelog, you can also view and create new releases.
+There's also a right sidebar with several icons, depending on the current page open. For example, on the **API version** page, there are icons to view comments, generate boilerplate server code from your schema, and view the API's changelog. From the changelog, you can also view and create new releases.
 
 <img src="https://assets.postman.com/postman-docs/api-builder-right-sidebar.jpg" alt="API Builder version page" width="300px" />

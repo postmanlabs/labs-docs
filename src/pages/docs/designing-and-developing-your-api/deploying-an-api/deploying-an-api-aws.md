@@ -38,7 +38,7 @@ This integration supports OpenAPI 3.0 schemas for HTTP and REST APIs. You can im
 
 To connect to Amazon API Gateway in Postman, select **APIs** in the sidebar, and then select the API and version you want to connect. Select the **Deployments** tab, and then select **AWS API Gateway**.
 
-<img alt="Connecting to an API Gateway" src="https://assets.postman.com/postman-docs/deployments-aws-api-gateway-v9-5.jpg" width="915px"/>
+<img alt="Connecting to an API Gateway" src="https://assets.postman.com/postman-docs/deployments-api-gateway-v9-11.jpg" width="916px"/>
 
 When setting up the connection to API Gateway, you can choose to authenticate by [creating an AWS IAM role](#authenticating-with-an-aws-iam-role) or by [using an AWS access key](#authenticating-with-an-aws-access-key). Follow the steps for your chosen method below. After setting up the connection, you can choose to import a schema from the API Gateway.
 
@@ -151,7 +151,7 @@ From the **Deployments** tab, you can take the following actions:
 From the **Deployments** tab, select the name of a stage to view the CloudWatch dashboard for that stage. The graphs on the dashboard display metrics for latency, integration latency, `4xx` and `5xx` error rates, and count.
 
 * Hover over a data point on a graph to view detailed metrics data.
-* Hover over the information icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px"> above a graph to learn more about the metrics in that graph.
+* Hover over the information icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px"> for a specific graph to learn more about the metrics.
 
 <img alt="Viewing CloudWatch metrics" src="https://assets.postman.com/postman-docs/api-gateway-cloudwatch-metrics-v9-15.jpg"/>
 

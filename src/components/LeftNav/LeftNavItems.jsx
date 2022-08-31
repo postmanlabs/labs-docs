@@ -173,23 +173,16 @@ export const leftNavItems = [
         ],
       },
       {
-        name: 'Supported API Frameworks',
-        subParentSlug: 'supported-api-frameworks',
-        slug: '/docs/sending-requests/supported-api-frameworks/graphql/',
-        subMenuItems2: [
-          {
-            name: 'Querying with GraphQL',
-            url: '/docs/sending-requests/supported-api-frameworks/graphql/',
-          },
-          {
-            name: 'Using WebSocket Requests',
-            url: '/docs/sending-requests/supported-api-frameworks/websocket/',
-          },
-          {
-            name: 'Making SOAP Requests',
-            url: '/docs/sending-requests/supported-api-frameworks/making-soap-requests/',
-          },
-        ],
+        name: 'Querying with GraphQL',
+        url: '/docs/sending-requests/graphql/graphql/',
+      },
+      {
+        name: 'Using WebSocket Requests',
+        url: '/docs/sending-requests/websocket/websocket/',
+      },
+      {
+        name: 'Using SOAP Requests',
+        url: '/docs/sending-requests/soap/making-soap-requests/',
       },
     ],
   },
@@ -459,11 +452,30 @@ export const leftNavItems = [
             name: 'Deploying an AWS API',
             url: '/docs/designing-and-developing-your-api/deploying-an-api/deploying-an-api-aws/',
           },
+          {
+            name: 'Deploying an Apigee API',
+            url: '/docs/designing-and-developing-your-api/deploying-an-api/deploying-an-api-apigee/',
+          },
         ],
       },
       {
         name: 'Observing an API',
-        url: '/docs/designing-and-developing-your-api/observing-an-api/',
+        subParentSlug: 'observing-an-api',
+        slug: '/docs/designing-and-developing-your-api/observing-an-api/observing-an-api/',
+        subMenuItems2: [
+          {
+            name: 'Observing an API',
+            url: '/docs/designing-and-developing-your-api/observing-an-api/observing-an-api/',
+          },
+          {
+            name: 'Viewing New Relic metrics',
+            url: '/docs/designing-and-developing-your-api/observing-an-api/new-relic-apm/',
+          },
+          {
+            name: 'Viewing Datadog metrics',
+            url: '/docs/designing-and-developing-your-api/observing-an-api/datadog-apm/',
+          },
+        ],
       },
       {
         name: 'Managing and sharing APIs',
@@ -584,30 +596,45 @@ export const leftNavItems = [
     ],
   },
   {
-    name: 'API Security',
-    parentSlug: 'api-security',
-    url: '/docs/api-security/token-scanner/',
+    name: 'API Governance',
+    parentSlug: 'api-governance',
+    url: '/docs/api-governance/api-governance-overview/',
     subMenuItems1: [
       {
-        name: 'Token Scanner',
-        url: '/docs/api-security/token-scanner/',
+        name: 'API governance',
+        url: '/docs/api-governance/api-governance-overview/',
       },
       {
-        name: 'Security Warnings',
-        subParentSlug: 'security-warnings',
-        slug: '/docs/api-security/security-warnings/security-warnings-overview/',
+        name: 'API definition',
+        subParentSlug: 'api-definition',
+        slug: '/docs/api-governance/api-definition/api-definition-warnings/',
         subMenuItems2: [
           {
-            name: 'API schema security warnings',
-            url: '/docs/api-security/security-warnings/security-warnings-overview/',
+            name: 'API definition warnings',
+            url: '/docs/api-governance/api-definition/api-definition-warnings/',
           },
           {
             name: 'OpenAPI 3.0 warnings',
-            url: '/docs/api-security/security-warnings/openapi3/',
+            url: '/docs/api-governance/api-definition/openapi3/',
           },
           {
             name: 'OpenAPI 2.0 warnings',
-            url: '/docs/api-security/security-warnings/openapi2/',
+            url: '/docs/api-governance/api-definition/openapi2/',
+          },
+        ],
+      },
+      {
+        name: 'API testing',
+        subParentSlug: 'api-testing',
+        slug: '/docs/api-governance/api-testing/api-testing-warnings/',
+        subMenuItems2: [
+          {
+            name: 'API testing warnings',
+            url: '/docs/api-governance/api-testing/api-testing-warnings/',
+          },
+          {
+            name: 'Security warnings',
+            url: '/docs/api-governance/api-testing/security-warnings/',
           },
         ],
       },
@@ -652,6 +679,10 @@ export const leftNavItems = [
       {
         name: 'Utilizing audit logs',
         url: '/docs/administration/audit-logs/',
+      },
+      {
+        name: 'Token Scanner',
+        url: '/docs/administration/token-scanner/',
       },
       {
         name: 'Onboarding checklist',
@@ -825,6 +856,10 @@ export const leftNavItems = [
         url: '/docs/integrations/webhooks/',
       },
       {
+        name: 'Installed Apps',
+        url: '/docs/integrations/installed-apps/'
+      },
+      {
         name: 'CI Integrations',
         url: '/docs/integrations/ci-integrations/',
       },
@@ -854,7 +889,11 @@ export const leftNavItems = [
             url: '/docs/integrations/available-integrations/bitbucket/',
           },
           {
-            name: 'Circle CI',
+            name: 'Bitbucket Pipelines',
+            url: '/docs/integrations/available-integrations/ci-integrations/bitbucket-pipelines/',
+          },
+          {
+            name: 'CircleCI',
             url: '/docs/integrations/available-integrations/ci-integrations/circleci/',
           },
           {
@@ -876,6 +915,10 @@ export const leftNavItems = [
           {
             name: 'GitLab',
             url: '/docs/integrations/available-integrations/gitlab/',
+          },
+          {
+            name: 'GitLab CI/CD',
+            url: '/docs/integrations/available-integrations/ci-integrations/gitlab-ci/',
           },
           {
             name: 'Jenkins',

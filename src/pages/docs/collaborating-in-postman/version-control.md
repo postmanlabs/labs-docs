@@ -25,6 +25,11 @@ contextual_links:
   - type: link
     name: "Streamline the API Development Lifecycle with Postman Version Control"
     url: "https://blog.postman.com/streamline-api-development-lifecycle-with-postman-version-control/"
+  - type: subtitle
+    name: "Case Studies"
+  - type: link
+    name: "Youi"
+    url: "https://www.postman.com/case-studies/youi/"
   - type: section
     name: "Next Steps"
   - type: link
@@ -185,7 +190,7 @@ To set merge checks for pull requests on a specific collection:
 
 <img alt="Merge Check" src="https://assets.postman.com/postman-docs/manage-roles-set-merge-checks.jpg" width="800px"/>
 
-If the merge conditions for a pull request aren't met, the option to **Merge** it into the parent collection will be active.
+If the merge conditions for a pull request aren't met, the option to **Merge** it into the parent collection will be inactive.
 
 <img alt="Merge option isn't active" src="https://assets.postman.com/postman-docs/view-merge-conditions-v9.12.jpg" width="300px"/>
 
@@ -346,7 +351,3 @@ To resolve a merge conflict:
 <img src="https://assets.postman.com/postman-docs/conflicts-pull-changes-v2.jpg" alt="Pull Changes" width="450px"/>
 
 After you resolve the conflicts, select **Pull changes** to [pull the updates](#pulling-updates).
-
-## Next steps
-
-You can also use [version control on APIs](/docs/designing-and-developing-your-api/versioning-an-api/) you design and build in Postman.

@@ -22,14 +22,14 @@ contextual_links:
   - type: link
     name: "Dynamic Mock Behavior | Postman Level Up"
     url: "https://youtu.be/av7SZo9sZAE"
-  - type: subtitle
+  - type: dynamic_blog
     name: "Blog Posts"
+    blog_tag: "mock-server"
+  - type: subtitle
+    name: "Case Studies"
   - type: link
-    name: "Using Mock Servers throughout the API Lifecycle"
-    url:  "https://blog.postman.com/using-mock-servers-throughout-the-api-lifecycle/"
-  - type: link
-    name: "Introducing Postman Mock Call Logs"
-    url:  "https://blog.postman.com/introducing-postman-mock-call-logs/"
+    name: "Momentive"
+    url: "https://www.postman.com/case-studies/momentive/"
   - type: section
     name: "Next Steps"
   - type: link
@@ -178,7 +178,7 @@ The mock URL includes the mock's ID and the path for the request with a saved ex
 
 If you save your mock URL to a variable, you can reference it across requests—for example if you have a production server and a mock server, you could have an [environment](/docs/sending-requests/managing-environments/) for each one with the same variable name in each for the mock URL. With your requests using the variable, you can then switch between the two environments.
 
-> You can also retrieve your mock ID from the [Postman API](https://documenter.postman.com/view/631643/JsLs/?version=latest#018b5d62-f6fc-f752-597e-c1eb4bb98d24)
+> You can also retrieve your mock ID from the [Postman API](https://documenter.postman.com/view/631643/JsLs/?version=latest#018b5d62-f6fc-f752-597e-c1eb4bb98d24).
 
 When you **Send** a request to your mock server URL it will send back one of the examples you added to the request with the same path and method. ([You can provide multiple examples](/docs/designing-and-developing-your-api/mocking-data/mocking-with-examples/) and Postman will return the one that matches your request configuration most closely).
 

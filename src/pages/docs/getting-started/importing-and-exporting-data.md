@@ -13,6 +13,9 @@ contextual_links:
     name: "Postman | How to Connect to Your Git Repository"
     url: "https://youtu.be/8jJHXLVYOh0"
   - type: link
+    name: "Integrating GitLab in Postman's API Builder"
+    url: "https://youtu.be/ecAQv9gZEKk"
+  - type: link
     name: "Generate a Collection From a Specification | Postman Level Up"
     url: "https://youtu.be/gljWt9tDKOY"
   - type: subtitle
@@ -59,8 +62,6 @@ Postman can import and export Postman data, including collections, environments,
     * [Exporting environments](#exporting-environments)
 
     * [Exporting data dumps](#exporting-data-dumps)
-
-* [Next steps](#next-steps)
 
 ## Importing data into Postman
 
@@ -200,9 +201,9 @@ You can export your Postman data, including collections, environments, data dump
 
 You can also export your environments from Postman.
 
-1. Select the **Environments** tab from the left navigation menu.
+1. Select **Environments** from the sidebar.
 1. Select an environment to export.
-1. In the main work area, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px">, then select **Export** to download your newly generated JSON file.
+1. In the workbench, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px">, then select **Export** to download your newly generated JSON file.
 
 ### Exporting data dumps
 
@@ -232,7 +233,3 @@ The [Export page](http://go.postman.co/me/export) shows information about your e
 When the export is ready, you will receive an email with link to download a zipped file with the data dump. You can also download the file from the Export page using **Download**.
 
 > Data exports from the Scratch Pad are downloaded directly instead of being emailed to you. See [Exporting data from the Scratch Pad](/docs/getting-started/using-scratch-pad/#exporting-data-from-the-scratch-pad) for more details.
-
-## Next steps
-
-You can collaborate on collections by [sharing](/docs/collaborating-in-postman/sharing/) and [commenting](/docs/collaborating-in-postman/working-with-your-team/discussing-your-work/) to discuss your API projects with team members. Learn more about [Postman's API workflow](/docs/designing-and-developing-your-api/the-api-workflow/).

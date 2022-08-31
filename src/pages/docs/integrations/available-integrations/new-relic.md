@@ -9,20 +9,27 @@ contextual_links:
     name: "Grouping requests in collections"
     url: "/docs/sending-requests/intro-to-collections/"
   - type: section
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "API Lifecycle, Part 2: Monitor and Deploy an API | Postman Space Camp"
+    url: "https://youtu.be/voAUfBx8fnE"
 ---
 
 New Relic is an application performance management solution to monitor real-time and trending data for your processes or web apps. Using Postman's New Relic integration, you can send [Postman monitor](/docs/monitoring-your-api/intro-monitors/) results to New Relic.
 
 Setting up a New Relic monitor integration requires you to get an API key (Ingest License key) from New Relic and configure your Postman monitors. After you set up the integration, you can view real-time alerts based on the results of your monitors.
 
-> **You can also view New Relic application performance management (APM) metrics in the Postman API Builder.** Note that viewing APM metrics is a separate integration from sending monitor results to New Relic and uses a different New Relic API key. Learn more about [viewing New Relic APM metrics](/docs/designing-and-developing-your-api/observing-an-api/#viewing-new-relic-apm-metrics).
+> **You can also view New Relic application performance management (APM) metrics in the Postman API Builder.** Viewing APM metrics is a separate integration from sending monitor results to New Relic and uses a different New Relic API key. Learn more about [viewing New Relic APM metrics](/docs/designing-and-developing-your-api/observing-an-api/new-relic-apm/).
 
 ## Retrieving your New Relic API key
 
 If you don't already have a [New Relic account](https://newrelic.com/), you'll need to [create one](https://newrelic.com/signup?utm_source=external_partners&utm_medium=referral&utm_campaign=global-fy22-q3-io-partner&utm_content=postman_qs). Then follow the steps below to retrieve your Ingest License key from New Relic:
 
 1. Sign in to [New Relic](https://login.newrelic.com).
-1. Select your user avatar in the upper right corner, then select **API keys**.
+1. Select your avatar in the upper right corner, then select **API keys**.
 1. Select the three dots next to the **INGEST - LICENSE** key and then select **Copy**.
 
 <img alt="Get a New Relic Ingest key" src="https://assets.postman.com/postman-docs/new-relic-get-ingest-key-v9-6.jpg" width="1109px">

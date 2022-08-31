@@ -32,7 +32,7 @@ Postman enables you to capture and sync cookies from a browser or client applica
 
 Once configured, Postman continuously captures cookies from the browser or client applications. For the domains you specify, captured cookies are automatically synced to your Postman cookie jar. You can then [use the cookies](/docs/sending-requests/cookies/) when sending requests from Postman.
 
-> You can't sync cookies with [Postman for web](/docs/getting-started/installation-and-updates/#web-limitations). Make sure you've installed the [Postman desktop app](/docs/getting-started/installation-and-updates/).
+> You can't sync cookies with the [Postman web app](/docs/getting-started/installation-and-updates/#web-limitations). Make sure you've installed the [Postman desktop app](/docs/getting-started/installation-and-updates/).
 
 <!-- -->
 
@@ -97,7 +97,3 @@ Postman is ready to capture and sync cookies using the proxy.
 * To start syncing cookies, configure one or more clients to use the Postman proxy. Learn more about [configuring the proxy on a client device](/docs/sending-requests/capturing-request-data/capturing-http-requests/#step-3-configure-the-proxy-on-a-client-device).
 * To stop syncing cookies for a domain, select <img alt="Close icon" src="https://assets.postman.com/postman-docs/icon-close.jpg#icon" width="16px"> next to the domain name.
 * To stop capturing and syncing all cookies, select **Stop Syncing**.
-
-## Next steps
-
-Learn more about [managing and using cookies](/docs/sending-requests/cookies/) in Postman.

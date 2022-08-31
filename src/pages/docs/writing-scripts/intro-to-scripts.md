@@ -40,8 +40,11 @@ contextual_links:
   - type: subtitle
     name: "Case Studies"
   - type: link
-    name: "Giant Machines"
-    url: "https://www.postman.com/case-studies/giant-machines/"
+    name: "Extend"
+    url: "https://www.postman.com/case-studies/extend/"
+  - type: link
+    name: "Paylocity"
+    url: "https://www.postman.com/case-studies/paylocity/"
   - type: subtitle
     name: "Public Workspaces"
   - type: link
@@ -58,7 +61,7 @@ warning: false
 
 ## Scripts in Postman
 
-Postman contains a powerful runtime based on Node.js that allows you to add dynamic behavior to requests and collections. This allows you to write API tests, build requests that can contain dynamic parameters, pass data between requests, and a lot more. You can add JavaScript code to execute during 2 events in the flow:
+Postman has a powerful runtime based on Node.js that allows you to add dynamic behavior to requests and collections. This allows you to write API tests, build requests that can contain dynamic parameters, pass data between requests, and a lot more. You can add JavaScript code to execute during two events in the flow:
 
   1. Before a request is sent to the server, as a [pre-request script](/docs/writing-scripts/pre-request-scripts/) under the **Pre-request Script** tab.
   1. After a response is received, as a [test script](/docs/writing-scripts/test-scripts/) under the **Tests** tab.
@@ -81,9 +84,9 @@ In Postman, the script execution order for a single request looks like this:
 For every request in a collection, scripts will execute in the following order:
 
 * A pre-request script associated with a collection will run prior to every request in the collection.
-* A pre-request script associated with a folder will run prior to every request in the folder.
+* A pre-request script associated with a folder will run prior to every direct child request in the folder.
 * A test script associated with a collection will run after every request in the collection.
-* A test script associated with a folder will run after every request in the folder.
+* A test script associated with a folder will run after every direct child request in the folder.
 
 [![workflow for request in collection](https://assets.postman.com/postman-docs/execOrder.jpg)](https://assets.postman.com/postman-docs/execOrder.jpg)
 

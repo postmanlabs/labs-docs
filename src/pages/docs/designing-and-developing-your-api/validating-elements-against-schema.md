@@ -29,6 +29,8 @@ contextual_links:
 
 You can validate your API schema in Postman, and validate your elements (documentation, tests, mock servers, and monitors) against your schema. This helps keep your API well-defined and ensures that your elements are in sync with your schema. If there is a validation error on the schema or elements don't match it, Postman will present a list of issues that have been found, as well as fixes for these issues. You can then apply fixes to the API elements and revalidate them.
 
+## Contents
+
 * [Validating schemas](#validating-schemas)
 * [Validating elements](#validating-elements)
     * [Validating requests](#validating-requests)
@@ -114,7 +116,3 @@ Alternatively, you can apply all changes by selecting **Select all changes**, th
 You can access the updated API element by selecting **View Updated Collection** from the confirmation screen. If you didn't apply all changes, you can also review the remaining issues by selecting **View Remaining Issues**.
 
 > If you've been using this feature, the Postman team would like to hear from you! You can provide feedback on [the community forum](https://community.postman.com/t/user-feedback-updating-api-elements/13308).
-
-## Next steps
-
-In addition to keeping your API elements in sync with a schema, you can [use reports](/docs/reports/reports-overview/) to promote understanding of how your APIs are performing.

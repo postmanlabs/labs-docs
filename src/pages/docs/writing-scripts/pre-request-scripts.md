@@ -1,7 +1,7 @@
 ---
 title: "Writing pre-request scripts"
 order: 42
-updated: 2021-01-27
+updated: 2022-07-20
 page_id: "pre_request_scripts"
 contextual_links:
   - type: section
@@ -30,6 +30,14 @@ contextual_links:
   - type: link
     name: "When and How to Use JSON Serialization in Postman"
     url: "https://blog.postman.com/when-and-how-to-use-json-serialization-in-postman/"
+  - type: subtitle
+    name: "Case Studies"
+  - type: link
+    name: "Twitter"
+    url:  "https://www.postman.com/case-studies/twitter/"
+  - type: link
+    name: "Toast"
+    url:  "https://www.postman.com/case-studies/toast/"
   - type: section
     name: "Next Steps"
   - type: link
@@ -42,6 +50,15 @@ warning: false
 
 You can use pre-request scripts in Postman to execute JavaScript before a request runs. By including code in the __Pre-request Script__ tab for a request, collection, or folder, you can carry out pre-processing such as setting variable values, parameters, headers, and body data. You can also use pre-request scripts for debugging code, for example by logging output to the console.
 
+## Contents
+
+* [Pre-request scripting example](#pre-request-scripting-example)
+* [Scripting before your request runs](#scripting-before-your-request-runs)
+* [Re-using pre-request scripts](#re-using-pre-request-scripts)
+* [Next steps](#next-steps)
+
+## Pre-request scripting example
+
 An example usage of pre-request scripting could be as follows:
 
 * You have a series of requests in a collection and are running them in a sequence, such as when using the [collection runner](/docs/running-collections/intro-to-collection-runs/).
@@ -52,26 +69,36 @@ An example usage of pre-request scripting could be as follows:
 
 ## Scripting before your request runs
 
-To include code you want to execute before Postman sends a request, open the request and select the __Pre-request Script__ tab. Enter the JavaScript you need to process before the request runs.
+To include code you want to execute before Postman sends a request:
 
-![Pre Request Code](https://assets.postman.com/postman-docs/pre-request-script-v8.jpg)
+1. Select __Collections__ in the sidebar.
+1. Open the request, then select the __Pre-request Script__ tab.
+1. Enter the JavaScript you need to process before the request runs, then select __Save__.
+1. Select __Send__ to send the request. The code will execute before Postman sends the request to the API.
 
-When you select __Send__, the code will execute before Postman sends the request to the API.
+    ![Pre-Request Code](https://assets.postman.com/postman-docs/pre-request-script-v8.jpg)
 
 ## Re-using pre-request scripts
 
-You can add pre-request scripts to entire collections as well as to folders within collections. In both cases, your pre-request script will run before every request in the collection or folder. This allows you to define commonly used pre-processing or debugging steps you need to execute for multiple requests.
-
-To add pre-processing to a group of requests, locate the collection or folder in __Collections__ in the sidebar. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px">, then select __Edit__.
-
-<img src="https://assets.postman.com/postman-docs/edit-collection-action-v8.jpg" alt="Collection Actions" width="300px"/>
-
-Open __Pre-request Scripts__ to enter code that will run before every request in the collection or folder.
-
-![Collection pre request script](https://assets.postman.com/postman-docs/edit-collection-pre-request-v8.jpg)
+You can add pre-request scripts to entire collections and folders within collections. In both cases, your pre-request script will run before every request in the collection or direct child request in the folder. This allows you to define commonly used pre-processing or debugging steps you need to execute for multiple requests.
 
 > You can define a pre-request script when you first create a collection or folder, or at any time after that.
 
+To add pre-request scripts to a collection or folder:
+
+1. Select __Collections__ in the sidebar.
+1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px">, then select __Edit__.
+
+    <img src="https://assets.postman.com/postman-docs/edit-collection-action-v8.jpg" alt="Collection Actions" width="300px"/>
+
+1. Select the __Pre-request Scripts__ tab. Enter code that will run before every request in the collection or direct child request in the folder.
+
+   ![Collection pre-request script](https://assets.postman.com/postman-docs/edit-collection-pre-request-v9.jpg)
+
+1. Select __Save__.
+
 ## Next steps
 
-For more detail on what you can do in your pre-request scripts, check out [Test Scripts](/docs/writing-scripts/test-scripts/) and the [Postman Sandbox](/docs/writing-scripts/script-references/postman-sandbox-api-reference/).
+Now that you have learned the basics of writing pre-request test scripts, you may be interested in extending your scripts:
+
+* To learn more about how to use the `pm` object, visit the [Postman JavaScript reference](/docs/writing-scripts/script-references/postman-sandbox-api-reference/).

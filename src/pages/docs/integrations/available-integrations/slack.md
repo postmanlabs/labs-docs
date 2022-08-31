@@ -1,9 +1,6 @@
 ---
 title: "Slack"
-order: 178
-page_id: "slack"
 updated: 2022-05-26
-warning: false
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -20,11 +17,14 @@ contextual_links:
   - type: link
     name: "How to Integrate with Slack Notifications | Postman"
     url: "https://youtu.be/v6eDhXWDJKE"
-  - type: subtitle
+  - type: dynamic_blog
     name: "Blog Posts"
+    blog_tag: "slack"
+  - type: subtitle
+    name: "Case Studies"
   - type: link
-    name: "Enhanced Postman Slack Notifications for Easier Collaboration"
-    url: "https://blog.postman.com/enhanced-postman-slack-notifications-for-easier-collaboration/"
+    name: "Radio-Canada"
+    url: "https://www.postman.com/case-studies/radio-canada/"
   - type: subtitle
     name: "Public Workspaces"
   - type: link
@@ -51,9 +51,9 @@ The Postman to Slack integration enables you to send Postman notifications to a 
 
         ![select Slack integration](https://assets.postman.com/postman-docs/slack-select-integration-v9-19.jpg)
 
-1. After you select the integration type, a browser window asking you to sign in to Slack opens. If you aren't signed in to a Slack workplace, enter your workspace URL and sign in with your email and password or SSO.
+1. After you select the integration type, a browser tab opens asking you to sign in to Slack. If you aren't signed in to a Slack workplace, enter your workspace URL and sign in with your email and password or SSO.
 
-    > This window may be blocked by your pop-up blocker.
+    > If someone on your team created an [installed app](/docs/integrations/installed-apps/) for Slack, a message and green checkmark let you know you're already authenticated with your Slack workspace. You don't need to sign in or review permissions. If you want to connect to a different Slack workspace, select the link.
 
 1. On the **Permission request** page:
 

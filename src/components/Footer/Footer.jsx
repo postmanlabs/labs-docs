@@ -1,8 +1,75 @@
 import { useStaticQuery, graphql } from 'gatsby';
 import React from 'react';
-// import { trackCustomEvent } from 'gatsby-plugin-google-analytics';
-import './Footer.scss';
 import { v4 as uuidv4 } from 'uuid';
+import styled from 'styled-components';
+
+const FooterWrapper = styled.footer`
+  border-top: 1px solid ${(props) => props.theme.colors.grey_30};
+  background-color: ${(props) => props.theme.colors.grey_00};
+  font-size: 14px;
+  color: ${(props) => props.theme.colors.grey_50};
+.copyright {
+  font-size: 12px
+}
+.column {
+  margin-left: 0px;
+}
+.footer-col-title {
+  font-size: 16px !important;
+  font-weight: 600;
+  line-height: 1.4;
+  margin-bottom: 8px; 
+}
+`
+
+const ColumnWrapper = styled.ul`
+  li {
+    list-style-type: none;
+    margin-bottom: 0;
+  }
+  
+a {
+  color: ${(props) => props.theme.colors.grey_50};
+  text-transform: none;
+  font-weight: 400;
+  display: block;
+  line-height: 1.7;
+  padding: 5px 0;
+  &:hover {
+    color: ${(props) => props.theme.colors.blue_50};
+    text-decoration: none;
+  }
+  span {
+    border: 1px solid ${(props) => props.theme.colors.blue_10};
+    border-radius: ${(props) => props.theme.borderRadius.medium};
+    padding: 0 7px 0 4px;
+    display: inline-block;
+    white-space: pre;
+    margin-left: 6px;
+  }
+}
+`
+
+const FooterImgWrapper = styled.div`
+  @media (min-width: 768px) {
+    filter: grayscale(100%);
+    transition: ${(props) => props.theme.transitions.all};
+    &:hover {
+      filter: grayscale(0);
+      transition: all 0.2s ease-in-out;
+    }
+  }
+`
+const SocialSVGWrapper = styled.div`
+  display: inline-block;
+  margin-right: 8px;
+  width: 16px;
+  height: 16px;
+  & svg {
+    max-height: 100%;
+    width: auto;
+  }
+`
 
 const triggerGA = (category, label) => (
   category
@@ -47,24 +114,19 @@ class FooterComponent extends React.Component {
     const columns = data.items.splice(0, 4);
 
     return (
-      <footer>
+      <FooterWrapper>
         <section id="Footer" className="pb-5 section">
           <div className="container">
             <div className="row">
               <div className="col-sm-8 offset-sm-2 col-md-12 offset-md-0">
                 <div className="row">
                   {/* First column */}
-                  <div className="col-6 col-md-3 col-lg-2 order-12 order-md-0 pad-md-right align-self-center">
-                    {/* <img
-                      className="img-fluid col-12 col-sm-9 col-md-12 mb-5 d-block footer-img"
-                      src={data.src}
-                      alt={data.alt}
-                    /> */}
+                  <FooterImgWrapper className="col-6 col-md-3 col-lg-2 order-12 order-md-0 pad-md-right align-self-center">
                     <img className="footer-img" src='https://voyager.postman.com/illustration/postman-footer-rocket-launch.svg' alt="Postman" />
                     <span className="col-12 d-none d-md-block copyright">
                       {data.copyright}
                     </span>
-                  </div>
+                  </FooterImgWrapper>
                   {/* Second column */}
                   <div className="col-6 col-md-3 offset-md-1 col-lg-3 offset-lg-2 order-1 order-md-2 mb-5">
                     {columns.slice(0, 1).map((item) => (
@@ -72,7 +134,7 @@ class FooterComponent extends React.Component {
                         <h2 className="footer-col-title" id={item.arialabelledby}>
                           {item.title}
                         </h2>
-                        <ul className="column">
+                        <ColumnWrapper className="column">
                           {(item.items
                             && item.items.map((link) => (
                               <li className="column-row" key={uuidv4()}>
@@ -98,7 +160,7 @@ class FooterComponent extends React.Component {
                               </li>
                             )))
                             || ''}
-                        </ul>
+                        </ColumnWrapper>
                       </nav>
                     ))}
                   </div>
@@ -113,7 +175,7 @@ class FooterComponent extends React.Component {
                           <h2 className="footer-col-title" id={item.arialabelledby}>
                             {item.title}
                           </h2>
-                          <ul className="column">
+                          <ColumnWrapper className="column">
                             {(item.items
                               && item.items.map((link) => (
                                 <li className="column-row" key={uuidv4()}>
@@ -139,7 +201,7 @@ class FooterComponent extends React.Component {
                                 </li>
                               )))
                               || ''}
-                          </ul>
+                          </ColumnWrapper>
                         </nav>
                       </div>
                     ))}
@@ -153,7 +215,7 @@ class FooterComponent extends React.Component {
                           <h2 className="footer-col-title" id={item.arialabelledby}>
                             {item.title}
                           </h2>
-                          <ul className="column">
+                          <ColumnWrapper className="column">
                             {(item.items
                               && item.items.map((link) => (
                                 <li className="column-row" key={uuidv4()}>
@@ -179,7 +241,7 @@ class FooterComponent extends React.Component {
                                 </li>
                               )))
                               || ''}
-                          </ul>
+                          </ColumnWrapper>
                         </nav>
                       </div>
                     ))}
@@ -196,7 +258,7 @@ class FooterComponent extends React.Component {
                             <h2 className="footer-col-title" id={item.arialabelledby}>
                               {item.title}
                             </h2>
-                            <ul className="column">
+                            <ColumnWrapper className="column">
                               {(item.items
                                 && item.items.map((link) => (
                                   <li className="column-row" key={uuidv4()}>
@@ -213,14 +275,13 @@ class FooterComponent extends React.Component {
                                       }}
                                     >
                                       <div direction="row" wrap="nowrap">
-                                        <div
+                                        <SocialSVGWrapper
                                           className="d-inline-block align-self-center social-svg"
                                           // eslint-disable-next-line react/no-danger
                                           dangerouslySetInnerHTML={{
                                             __html: link.svg,
                                           }}
                                         />
-                                        {/* <div className="d-inline-block align-text-middle"><img src={link.svg} /></div> */}
                                         {link.span ? (
                                           <>
                                             {link.title}
@@ -238,7 +299,7 @@ class FooterComponent extends React.Component {
                                   </li>
                                 )))
                                 || ''}
-                            </ul>
+                            </ColumnWrapper>
                           </nav>
                         </div>
                       ))}
@@ -253,7 +314,7 @@ class FooterComponent extends React.Component {
             {/*  eslint-enable */}
           </div>
         </section>
-      </footer>
+      </FooterWrapper>
     );
   }
 }

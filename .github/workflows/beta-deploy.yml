@@ -1,0 +1,69 @@
+name: Deploy to Beta
+
+permissions:
+  id-token: write
+  contents: read
+
+on:
+  push:
+    branches:
+    - 'develop'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    environment: Beta
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Setup Node
+        uses: actions/setup-node@master
+        with:
+          node-version: '14'
+
+      - name: Configure AWS Credentials
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-region: ${{ secrets.AWS_REGION }}
+          aws-access-key-id: ${{ secrets.BETA_AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.BETA_AWS_SECRET_ACCESS_KEY }}
+          
+      - name: set keys and deploy
+        env:
+          GATSBY_ALGOLIA_APP_ID: ${{ secrets.GATSBY_ALGOLIA_APP_ID}}
+          GATSBY_ALGOLIA_DEV_KEY: ${{secrets.GATSBY_ALGOLIA_DEV_KEY}}
+          ALGOLIA_ADMIN_KEY: ${{secrets.ALGOLIA_ADMIN_KEY}}
+          DIST_ID: ${{secrets.BETA_DIST_ID}}
+          MUNCHKIN_ID: ${{ secrets.MUNCHKIN_ID}}
+          BFF_BLOG_URL: ${{ secrets.BFF_BLOG_URL }}
+          BFF_EVENTS_URL: ${{ secrets.BFF_EVENTS_URL }}
+          BFF_PING_WEBHOOK_URL: $ {{ secrets.BFF_PING_WEBHOOK_URL }}
+          RELIC_ACCOUNT_ID: ${{ secrets.RELIC_ACCOUNT_ID }}
+          RELIC_TRUST_KEY: ${{ secrets.RELIC_TRUST_KEY }}
+          RELIC_LICENSE_KEY: ${{ secrets.RELIC_LICENSE_KEY }}
+          RELIC_PRODUCTION_AGENT_ID: ${{ secrets.RELIC_PRODUCTION_AGENT_ID }}
+          RELIC_PRODUCTION_APPLICATION_ID: ${{ secrets.RELIC_PRODUCTION_APPLICATION_ID }}
+          PM_TECH: ${{secrets.PM_TECH}}
+          SITE_URL: ${{secrets.SITE_URL_BETA}}
+        run: |
+            npm config set //registry.npmjs.org/:_authToken=${{secrets.NPM_TOKEN}}
+            npm install
+            npm run clean
+            npm run build:dev
+            aws s3 sync ./public/ s3://${{secrets.BETA_BUCKET_NAME}}/ --delete
+        
+      - name: invalidate the CDN
+        uses: chetan/invalidate-cloudfront-action@v2
+        env:
+          PATHS: '/*'
+          AWS_REGION: '${{ secrets.AWS_REGION }}'
+          DISTRIBUTION: ${{ secrets.BETA_DIST_ID }}
+          AWS_ACCESS_KEY_ID: ${{ secrets.BETA_AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.BETA_AWS_SECRET_ACCESS_KEY }}
+
+
+
+
+
+
