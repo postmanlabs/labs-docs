@@ -64,7 +64,7 @@ Next to the format dropdown list, there are options to beautify the content, wra
 
 ## Linting your API definition
 
-As you create your API definition in the editor, Postman automatically lints it using API Governance and API Security rules. If the linter finds any problems, Postman displays warnings below the editor.
+As you create your API definition in the editor, Postman automatically checks it against API Governance and API Security rules using a built-in linter. If the linter finds any problems, Postman displays warnings below the editor.
 
 <!-- TODO: screenshot -->
 
