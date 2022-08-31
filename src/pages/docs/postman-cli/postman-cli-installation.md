@@ -28,13 +28,13 @@ To download and install the Postman CLI, follow the steps below:
 
 You can install the Postman CLI on Linux by downloading it manually or with curl:
 
-    curl https://dl-cli.pstmn.io/download/latest/linux/postman-cli.zip -o postman-cli.zip
+```curl https://dl-cli.pstmn.io/download/latest/linux/postman-cli.zip -o postman-cli.zip```
 
 To install manually, run the following commands:
 
-1. [Download](https://www.postman.com/downloads/) the .zip file.
+1. [Download](https://www.postman.com/downloads/) the `.zip` file.
 
-1. Extract the .zip file to `/usr/local/bin/postman`.
+1. Extract the `.zip` file to `/usr/local/bin/postman`.
 
 > The Postman CLI supports the same distributions as Postman:
 >
@@ -46,24 +46,24 @@ To install manually, run the following commands:
 
 You can install the Postman CLI on Mac by downloading it manually or with curl:
 
-    curl https://dl-cli.pstmn.io/download/latest/osx_64/postman-cli.zip -o postman-cli.zip
+```curl https://dl-cli.pstmn.io/download/latest/osx_64/postman-cli.zip -o postman-cli.zip```
 
 To install manually:
 
-1. [Download](https://www.postman.com/downloads/) the .zip file.
+1. [Download](https://www.postman.com/downloads/) the `.zip` file.
 
-1. Extract the .zip file to `/usr/local/bin/postman`.
+1. Extract the `.zip` file to `/usr/local/bin/postman`.
 
 ## Installing the Postman CLI on Windows
 
 You can install the Postman CLI on Windows by downloading it manually or with curl:
 
-    curl https://dl-cli.pstmn.io/download/latest/windows/postman-cli.zip -o postman-cli.zip
+```curl https://dl-cli.pstmn.io/download/latest/windows/postman-cli.zip -o postman-cli.zip```
 
 To install manually:
 
-1. [Download](https://www.postman.com/downloads/) the .zip file.
+1. [Download](https://www.postman.com/downloads/) the `.zip` file.
 
-1. Extract the .zip file. This creates a new folder called `postman-cli`.
+1. Extract the `.zip` file. This creates a new folder called `postman-cli`.
 
 1. Add the `postman-cli` folder's path to the [system environment variables](https://support.microsoft.com/en-us/topic/how-to-manage-environment-variables-in-windows-xp-5bf6725b-655e-151c-0b55-9a8c9c7f747d).
