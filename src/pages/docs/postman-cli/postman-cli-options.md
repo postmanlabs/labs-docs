@@ -21,7 +21,7 @@ Commands and options for using the Postman CLI.
 
 ## Contents
 
-* [Commands and options - quick reference](#commands)
+* [Commands and options - quick reference](#commands-and-options---quick-reference)
 * [Downloading and installing](#downloading-and-installing)
 * [Logging and and logging out](#logging-in-and-logging-out)
 * [Automation testing](#automation-testing)
@@ -32,7 +32,7 @@ Commands and options for using the Postman CLI.
 
 | Command/Option | Details |
 |:--|:--|
-| [**`login`**](#login---with-api-key-api-key) | Log into Postman. |
+| [**`login`**](#login) | Log into Postman. |
 | [**`logout`**](#logout) | Log out of Postman. |
 | [**`postman collection run`**](#postman-collection-run) | Run a collection with a UUID or a local file. |
 | `--bail` | Stop the runner when a test case fails. |
@@ -58,7 +58,7 @@ Commands and options for using the Postman CLI.
 | `--timeout-script` | Specify the time (in milliseconds) to wait for scripts to complete execution. |
 | `--verbose` | Show the details of the collection run and its data ingestion to Postman. |
 | `--working-dir` |Set the path of the working directory to use while reading files with relative paths. |
-| [**`postman api lint`**](#postman-api-lint-file-name-or-api-id)| Run validation checks for governance and security rules against the api definition provided in the Postman config file. |
+| [**`postman api lint`**](#postman-api-lint)| Run validation checks for governance and security rules against the api definition provided in the Postman config file. |
 | [**`postman`**](#postman) | The base command. |
 | `--help` | Return information about Postman CLI commands and options. |
 | `--version` | Return the version number for the Postman CLI.  |
