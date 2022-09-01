@@ -295,7 +295,7 @@ img.modal-responsive {
   button {
     border: none;
     padding: 0.5rem;
-    border-radius: 4px;
+    border-radius: 5px;
   }
 }
 
