@@ -185,28 +185,28 @@ postman collection run 12345678-12345ab-1234-1ab2-1ab2-ab1234112a12
 
 | Option | Details |
 |:--|:--|
-| `--bail` | Stops the runner when a test case fails. |
-| `--color [value]` | Turns off colored output (auto\|on\|off) (default: "auto") |
+| `--bail [optional modifiers]` | Specifes whether or not to stop a collection run on encountering the first test script error. `--bail` can optionally accept two modifiers: `--folder` and `--failure`. `--folder` skips the entire collection run if there are any errors. If a test fails, `--failure` gracefully stops the collection run after completing the current test script. |
+| `--color [value]` | Controls colored CLI output. Accepts `on`, `off`, and `auto`. Default is `auto`. With `auto`, Postman CLI attempts to automatically turn color on or off based on the color support in the terminal. This behavior can be modified by using the on or off value accordingly.|
 | `--cookie-jar [path]` | Specifies the file path for a JSON cookie jar. Uses `tough-cookie` to deserialize the file. |
-| `--delay-request [number]` | Specifies a delay (in milliseconds) between requests [number]. |
+| `--delay-request [number]` | Specifies a delay (in milliseconds) between requests. |
 | `--disable-unicode` | Forces the unicode disable option. When supplied, all symbols in the output are replaced by their plain text equivalents. |
 | `--environment [uid] or [file-path]`, `-e` | Specifies an environment file path or UID. |
 | `--env-var "[environment-variable-name]=[environment-variable-value]"` | Sets environment variables in a key=value format on the command line. You can add multiple environment variables using `--env-var` multiple times, for example: `--env-var "key1=value1" --env-var "key2=value2"` |
-| `--export-cookie-jar [path]` | The path to the file where Postman CLI will output the final cookie jar file before completing a run. Uses `tough-cookie` to serialize the file. |
-| `--global-var "[global-variable-name]=[global-variable-value]"`, `-g` | Specifies global variables on the command line, in a key=value format. Multiple global variables can be added by using `--global-var` multiple times, for example: `--global-var "this=that" --global-var "alpha=beta".`|
-| `--globals [file-path]` | Specifies the file path for global variables. |
-| `--iteration [file-path] or [URL]` | Specifies a data source file (JSON or CSV) to be used for iteration as a path to a file or as a URL.|
-| `--iteration-count [number]` | Specifies the number of times the collection will run when used in conjunction with the iteration data file. |
+| `--export-cookie-jar [path]` | Specifies the path where Postman CLI will output the final cookie jar file before completing a run. Uses `tough-cookie` to serialize the file. |
+| `--global-var "[global-variable-name]=[global-variable-value]"` | Specifies global variables on the command line, in a key=value format. Multiple global variables can be added by using `--global-var` multiple times, for example: `--global-var "this=that" --global-var "alpha=beta".`|
+| `--globals [file-path]`, `-g` | Specifies the file path for global variables. Global variables are similar to environment variables but have lower precedence and can be overridden by environment variables having the same name. |
+| `--iteration-data [file-path] or [URL]`, `-d` | Specifies a data source file (JSON or CSV) to be used for iteration as a path to a file or as a URL.|
+| `--iteration-count [number]`, `-n` | Specifies the number of times the collection will run when used in conjunction with the iteration data file. |
 |  `-i [requestUID] or [folderUID]` | Runs only the specified folder UID or request UID from the collection. |
 | `-i [requestName] or [folderName]` | Runs only the specified folder name or request name from the collection. If there are duplicate names, the Postman CLI runs the folder or request that appears first.|
-| `--ignore-redirects` | Turns off automatic following of `3XX` responses.|
-| `--insecure`, `-k` | Turns off strict SSL. |
-| `--no-insecure-file-reads` | Prevents reading of files situated outside of the working directory.|
+| `--ignore-redirects` | Prevents the Postman CLI from automatically following 3XX redirect responses.|
+| `--insecure`, `-k` | Turns off SSL verification checks and allows self-signed SSL certificates. |
+| `--no-insecure-file-read` | Prevents reading of files situated outside of the working directory.|
 | `--override-request-order` | Used with `-i`. Runs a collection with the specified order of the requests or folders. For example: `postman collection run [collectionUID] -i [folder1UID] -i [folder2UID] --override-request-order`|
 | `--silent` | Turns off terminal output.|
-| `--suppress-exit-code`, `-x`| Continues running tests even after a failure, but exit with `code=0`.|
+| `--suppress-exit-code`, `-x`| Specify whether or not to override the default exit code for the current run.|
 | `--timeout [number]`| Specifies the time (in milliseconds) to wait for the entire collection run to complete execution.|
-| `--timeout-request [number]`| Specifies a request timeout (in milliseconds) for a request.|
+| `--timeout-request [number]`| Specifies a time (in milliseconds) to wait for requests to return a response.|
 | `--timeout-script [number]`| Specifies the time (in milliseconds) to wait for scripts to complete execution.|
 | `--verbose` | Shows detailed information of collection run and each request sent.|
 | `--working-dir [path]`| Sets the path of the working directory to use while reading files with relative paths. Defaults to current directory.
