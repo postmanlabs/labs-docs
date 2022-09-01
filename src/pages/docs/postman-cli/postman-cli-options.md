@@ -24,7 +24,7 @@ Commands and options for using the Postman CLI.
 * [Commands and options - quick reference](#commands-and-options---quick-reference)
 * [Downloading and installing](#downloading-and-installing)
 * [Logging and and logging out](#logging-in-and-logging-out)
-* [Automation testing](#automation-testing)
+* [Running collections](#running-collections)
 * [Governance and security](#governance-and-security)
 * [Basic command line options](#basic-command-line-options)
 
@@ -64,6 +64,8 @@ Commands and options for using the Postman CLI.
 | `--version` | Return the version number for the Postman CLI.  |
 
 ## Downloading and installing
+
+<!-- The installation experience is changing, check in with Malvika and the Slack channel.
 
 You can download the Postman CLI manually or with a script (programmatically).
 
@@ -128,16 +130,16 @@ $client.DownloadFile("https://dl-cli.pstmn.io/download/latest/win64", "$cliPath\
 cd $cliPath
 Expand-Archive .\postman-cli.zip .
 ```
-
+-->
 ---
 
 ## Logging in and logging out
 
-You can use the Postman CLI to log in and out of Postman using your Postman API key.
+You can use the Postman CLI to log in and out of Postman with the `login` and `logout` commands, described below:
 
 ### login
 
-This command authenticates the user and stores the API key with an alias or as default. `login` has one option, `--with-api-key`, that accepts the API key.
+This command authenticates the user and stores the API key in your filesystem. `login` requires one option, `--with-api-key`, that accepts an API key.
 
 #### Example
 
@@ -155,20 +157,27 @@ This command logs you out of Postman and deletes the stored API key.
 logout
 ```
 
+#### Options
+
+ Option | Details |
+|:--|:--|
+| `--with-api-key [api-key]` | Authenticate the user with the given API key. |
+
 ---
 
-## Automation Testing
+## Running collections
 
-You can run your collections with the commands below:
+You can run your collections with the `postman collection run` command:
 
 ### **postman collection run**
 
-Run a collection with options. Specify the collection with its uid or file path.
+This command runs a collection and sends all run results and responses to Postman servers. You can specify the collection with its UID or file path.
 
-#### Example
+#### Examples
 
 ```
 postman collection run /myCollectionFolderName/myCollectionFile.json
+
 postman collection run 12345678-12345ab-1234-1ab2-1ab2-ab1234112a12
 ```
 
@@ -176,31 +185,31 @@ postman collection run 12345678-12345ab-1234-1ab2-1ab2-ab1234112a12
 
 | Option | Details |
 |:--|:--|
-| `--bail` | Stop the runner when a test case fails. |
-| `--color [value]` | Turn off colored output (auto\|on\|off) (default: "auto") |
-| `--cookie-jar [path]` | Specify the file path for a JSON Cookie Jar. Uses `tough-cookie` to deserialize the file. |
-| `--delay-request [number]` | Specify a delay (in milliseconds) between requests [number]. |
-| `--disable-unicode` | Force the unicode disable option. When supplied, all symbols in the output will be replaced by their plain text equivalents. |
-| `--environment [uid] or [file-path]` | Specify an environment file path or UID. |
-| `--env-var "[environment-variable-name]=[environment-variable-value]"` | Set environment variables in a key=value format on the command line. You can add multiple environment variables using `--env-var` multiple times, for example: `--env-var "key1=value1" --env-var "key2=value2"` |
+| `--bail` | Stops the runner when a test case fails. |
+| `--color [value]` | Turns off colored output (auto\|on\|off) (default: "auto") |
+| `--cookie-jar [path]` | Specifies the file path for a JSON cookie jar. Uses `tough-cookie` to deserialize the file. |
+| `--delay-request [number]` | Specifies a delay (in milliseconds) between requests [number]. |
+| `--disable-unicode` | Forces the unicode disable option. When supplied, all symbols in the output are replaced by their plain text equivalents. |
+| `--environment [uid] or [file-path]`, `-e` | Specifies an environment file path or UID. |
+| `--env-var "[environment-variable-name]=[environment-variable-value]"` | Sets environment variables in a key=value format on the command line. You can add multiple environment variables using `--env-var` multiple times, for example: `--env-var "key1=value1" --env-var "key2=value2"` |
 | `--export-cookie-jar [path]` | The path to the file where Postman CLI will output the final cookie jar file before completing a run. Uses `tough-cookie` to serialize the file. |
-| `--global-var "[global-variable-name]=[global-variable-value]"` | Specifies global variables on the command line, in a key=value format. Multiple global variables can be added by using `--global-var` multiple times, for example: `--global-var "this=that" --global-var "alpha=beta".`|
-| `--globals [file-path]` | Specify the file path for global variables. |
-| `--iteration [file-path] or [URL]` | Specify a data source file (JSON or CSV) to be used for iteration as a path to a file or as a URL.|
-| `--iteration-count [number]` | Specifies the number of times the collection has to be run when used in conjunction with the iteration data file. |
-|  `-i [requestUID] or [folderUID]` | Run only the specified folder UID or request UID from the collection. |
-| `-i [requestName] or [folderName]` | Run only the specified folder name or request name from the collection. If there are duplicate names, the Postman CLI will run the folder or request that appears first.|
-| `--ignore-redirects` | Turn off automatic following of `3XX` responses.|
-| `--insecure`, `-k` | Turn off strict SSL. |
-| `--no-insecure-file-reads` | Prevent reading of files situated outside of the working directory.|
+| `--global-var "[global-variable-name]=[global-variable-value]"`, `-g` | Specifies global variables on the command line, in a key=value format. Multiple global variables can be added by using `--global-var` multiple times, for example: `--global-var "this=that" --global-var "alpha=beta".`|
+| `--globals [file-path]` | Specifies the file path for global variables. |
+| `--iteration [file-path] or [URL]` | Specifies a data source file (JSON or CSV) to be used for iteration as a path to a file or as a URL.|
+| `--iteration-count [number]` | Specifies the number of times the collection will run when used in conjunction with the iteration data file. |
+|  `-i [requestUID] or [folderUID]` | Runs only the specified folder UID or request UID from the collection. |
+| `-i [requestName] or [folderName]` | Runs only the specified folder name or request name from the collection. If there are duplicate names, the Postman CLI runs the folder or request that appears first.|
+| `--ignore-redirects` | Turns off automatic following of `3XX` responses.|
+| `--insecure`, `-k` | Turns off strict SSL. |
+| `--no-insecure-file-reads` | Prevents reading of files situated outside of the working directory.|
 | `--override-request-order` | Used with `-i`. Runs a collection with the specified order of the requests or folders. For example: `postman collection run [collectionUID] -i [folder1UID] -i [folder2UID] --override-request-order`|
-| `--silent` | Turn off terminal output.|
-| `--suppress-exit-code`, `-x`| Continue running tests even after a failure, but exit with `code=0`.|
-| `--timeout [number]`| Specify the time (in milliseconds) to wait for the entire collection run to complete execution.|
-| `--timeout-request [number]`| Specify a request timeout (in milliseconds) for a request.|
-| `--timeout-script [number]`| Specify the time (in milliseconds) to wait for scripts to complete execution.|
-| `--verbose` | Show detailed information of collection run and each request sent.|
-| `--working-dir [path]`| Set the path of the working directory to use while reading files with relative paths. Default to current directory.
+| `--silent` | Turns off terminal output.|
+| `--suppress-exit-code`, `-x`| Continues running tests even after a failure, but exit with `code=0`.|
+| `--timeout [number]`| Specifies the time (in milliseconds) to wait for the entire collection run to complete execution.|
+| `--timeout-request [number]`| Specifies a request timeout (in milliseconds) for a request.|
+| `--timeout-script [number]`| Specifies the time (in milliseconds) to wait for scripts to complete execution.|
+| `--verbose` | Shows detailed information of collection run and each request sent.|
+| `--working-dir [path]`| Sets the path of the working directory to use while reading files with relative paths. Defaults to current directory.
 
 ---
 
