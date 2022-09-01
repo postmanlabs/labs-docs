@@ -100,20 +100,20 @@ rm postman-cli.zip
 mv postman-cli /usr/local/bin/postman
 ```
 
-#### Mac (Intel chip)
+#### Mac OS (Intel chip)
 
 ```
 curl [link_mac_intel] -o postman-cli.zip
-unzip postman-cli.zip
+ditto postman-cli.zip
 rm postman-cli.zip
 mv postman-cli /usr/local/bin/postman
 ```
 
-#### Mac (Apple chip)
+#### Mac OS (Apple chip)
 
 ````
 curl [link_mac_apple] -o postman-cli.zip
-unzip postman-cli.zip
+ditto postman-cli.zip
 rm postman-cli.zip
 mv postman-cli /usr/local/bin/postman
 ````
@@ -133,7 +133,7 @@ Expand-Archive .\postman-cli.zip .
 
 ## Logging in and logging out
 
-You can use the Postman CLI to log in and out of Postman.
+You can use the Postman CLI to log in and out of Postman using your Postman API key.
 
 ### login
 
@@ -169,7 +169,7 @@ Run a collection with options. Specify the collection with its uid or file path.
 
 ```
 postman collection run /myCollectionFolderName/myCollectionFile.json
-postman collectioon run 12345678-12345ab-1234-1ab2-1ab2-ab1234112a12
+postman collection run 12345678-12345ab-1234-1ab2-1ab2-ab1234112a12
 ```
 
 #### Options
