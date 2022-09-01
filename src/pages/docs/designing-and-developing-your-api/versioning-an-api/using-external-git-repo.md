@@ -65,8 +65,6 @@ Keep in mind the following when connecting to a repository:
 
 * **You can connect an API to one remote repository.** You can't connect an API to more than one repository, and you can't connect more than one API to the same repository.
 
-* **Enterprise repositories hosted on-premises require setting up local Git integration.** With local Git integration, you develop and test your API locally. When you're ready to share your work, push your changes to the remote repository. Learn more about [using a local Git repository](/docs/designing-and-developing-your-api/versioning-an-api/using-local-git-repo/).
-
 * **For Azure DevOps connections, make sure to enable third-party application access for your organization.** If you don't enable third-party access, Postman won't be able to connect to your repository. In Azure DevOps, go to your [organization settings](https://docs.microsoft.com/en-us/azure/devops/organizations/accounts/change-application-access-policies?view=azure-devops), select **Policies**, and turn on the toggle next to **Third-party application access via OAuth**.
 
 * **For GitHub connections, there's a limit of ten auth tokens per user per application imposed by GitHub.** If you create more than ten connections with the same user, the additional tokens will be revoked in the order that they were created. Teams can use other Postman accounts to create more than ten integrations.
@@ -89,7 +87,7 @@ To connect a GitHub, Bitbucket, GitLab, or Azure DevOps repository hosted in the
 
 ### Connecting to an on-premises repository
 
-> Use the [Postman desktop app](/docs/getting-started/installation-and-updates/) to connect to a local Git repository. You can't use the [Postman web app](https://learning.postman.com/docs/getting-started/installation-and-updates/#using-the-postman-web-app).
+> Use the [Postman desktop app](/docs/getting-started/installation-and-updates/) to connect to an on-premises Git repository. You can't use the [Postman web app](https://learning.postman.com/docs/getting-started/installation-and-updates/#using-the-postman-web-app).
 
 To connect an GitHub Enterprise Server, GitLab Self-Managed, or Azure DevOps Server repository hosted on-premises:
 
@@ -109,12 +107,9 @@ After you disconnect a remote repository, you can no longer sync changes between
 1. Select **APIs** in the sidebar and select an API.
 1. Under **Connected Repository**, select the branch dropdown menu and select **Delete Integration**.
 
-> If the API was also connected to a local repository, the local Git integration will stop working. To use the local Git integration again, you must reconnect to the remote repository.
-
 ## Next steps
 
 After you've connected a remote repository to your API, you can:
 
-* Connect to a Git repository on your local development system. Learn more about [using a local Git repository](/docs/designing-and-developing-your-api/versioning-an-api/using-local-git-repo/).
 * Work with branches, push and pull changes, and resolve conflicts. Learn more about [managing changes using Git](/docs/designing-and-developing-your-api/versioning-an-api/managing-git-changes/).
 * Publish an API version to a workspace or the Private API Network. Learn more about [publishing an API version](/docs/designing-and-developing-your-api/versioning-an-api/api-versions/).

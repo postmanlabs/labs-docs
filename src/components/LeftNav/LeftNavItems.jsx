@@ -410,10 +410,6 @@ export const leftNavItems = [
             url: '/docs/designing-and-developing-your-api/versioning-an-api/using-external-git-repo/',
           },
           {
-            name: 'Using a local Git repository',
-            url: '/docs/designing-and-developing-your-api/versioning-an-api/using-local-git-repo/',
-          },
-          {
             name: 'Managing changes using Git',
             url: '/docs/designing-and-developing-your-api/versioning-an-api/managing-git-changes/',
           },

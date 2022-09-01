@@ -18,7 +18,7 @@ contextual_links:
 
 When you're ready to share the latest changes to your API with consumers, you can publish a _version_. Publishing a version creates a static representation of your API that consumers can view on the [Private API Network](/docs/collaborating-in-postman/adding-private-network/). You can select the elements to publish with your API definition, including documentation and environments, to help consumers test and evaluate your API.
 
-To publish a version, you must connect your API to a [remote or local Git repository](/docs/designing-and-developing-your-api/versioning-an-api/versioning-an-api-overview/). After you publish a version, you can keep working on your API and make more changes. Your consumers will continue to see the published version of your API until you publish a new version.
+To publish a version, you must connect your API to a [remote Git repository](/docs/designing-and-developing-your-api/versioning-an-api/versioning-an-api-overview/). After you publish a version, you can keep working on your API and make more changes. Your consumers will continue to see the published version of your API until you publish a new version.
 
 > **How are versions and releases different in Postman v10?** In Postman v9, versions were major iterations of your API you could work on at the same time. In Postman v10, published versions are static representations of your API that consumers can reference (like releases in Postman v9). If you need to work on more than one major iteration of your API in Postman v10, create separate APIs.
 
