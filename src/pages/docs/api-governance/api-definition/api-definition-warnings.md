@@ -29,9 +29,25 @@ Postman recommends that you follow security and format warnings at the API defin
 
 <img alt="Security warnings for OpenAPI 3.0" src="https://assets.postman.com/postman-docs/security-warnings-openapi-3-v9.jpg"/>
 
+## Contents
+
+* [Viewing governance and security warnings for the API definition](#viewing-governance-and-security-warnings-for-the-API-definition)
+* [Governance and security linting with the Postman CLI](#governance-and-security-linting-with-the-postman-cli)
+* [Next steps](#next-steps)
+
+## Viewing governance and security warnings for the API definition
+
 After you [create a new API](/docs/designing-and-developing-your-api/creating-an-api/), select the **Definition** tab on the API version page to inspect the issues found in the API definition, if any. Under **Warnings**, select **Possible fix** next to the warning to learn more about possible ways to fix the underlying problem.
 
 > For more information about API definitions, see [Validating your API schemas](/docs/designing-and-developing-your-api/validating-elements-against-schema/).
+
+## Governance and security linting with the Postman CLI
+
+> [The Postman CLI is only available to Postman Enterprise teams.](https://www.postman.com/pricing)
+
+You can set your API Governance and API Security rules to run during your CI/CD builds using the [Postman CLI](/docs/postman-cli/postman-cli-overview/). On the Postman CLI configuration page, select **Run governance rules** and **Run security rules**. This will generate the correct Postman CLI command, which you can copy and paste in the command line. To see the results, go to the build page and select the desired build. Next, select the schema to expand it and see the build’s results and any rule violations, if applicable.
+
+<!-- TODO: screenshot -->
 
 ## Next steps
 
