@@ -16,15 +16,11 @@ Postman recommends that you follow common security best practices at the API tes
 
 ## Viewing security warnings during API testing
 
-When you [send a request](/docs/sending-requests/requests/), Postman scans it for potential security risks.
+When you [send an API request](/docs/sending-requests/requests/), Postman scans it for potential security risks.  During the testing phase of API development, finding these issues helps you to create more secure APIs. If Postman detects any security issues, it notifies you using a dot on the security overview icon <img alt="Security overview icon" src="https://assets.postman.com/postman-docs/icon-lock.jpg#icon" width="11px"> in the right sidebar.
 
-If it detects any, Postman notifies you using a dot on the security overview icon <img alt="Security overview icon" src="https://assets.postman.com/postman-docs/icon-lock.jpg#icon" width="11px"> in the right sidebar.
+<!-- TODO: screenshot -->
 
-1. Select the icon to view the warnings.
-1. For more details, select a warning to expand it.
-1. Select **Possible fix** to learn about possible ways to fix the underlying problem.
-
-<img alt="Viewing security warnings in the right sidebar" src="https://assets.postman.com/postman-docs/api-governance-testing-warnings-beta.jpg" width="400px"/>
+To learn how to use API security warnings in your API testing process and to hide issues that aren't relevant to your team, see [Viewing security warnings](/docs/sending-requests/responses/#viewing-security-warnings).
 
 ## Next steps
 

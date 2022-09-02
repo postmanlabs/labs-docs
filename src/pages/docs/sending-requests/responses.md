@@ -40,6 +40,7 @@ The Postman response viewer helps you to visualize and check the correctness of 
 * [Response time](#response-time)
 * [Response size](#response-size)
 * [Saving responses](#saving-responses)
+* [Viewing security warnings](#viewing-security-warnings)
 
 ## Response body
 
@@ -151,3 +152,25 @@ If a request has been saved in a collection, you can save responses for that req
 * Select **Save to a file** to save the response as a JSON file.
 
 <img alt="Save an API response as an example or file" src="https://assets.postman.com/postman-docs/save-response.jpg" width="300px"/>
+
+## Viewing security warnings
+
+Postman scans requests that you send for potential API security issues. A security warning indicates that there are potential security risks the API might be vulnerable to, but they don't mean the API is broken.
+
+> Postman API Security warnings are applied during the testing phase of API development. To learn more about API Security at Postman, see [API testing warnings](/docs/api-governance/api-testing/api-testing-warnings/). To view specific security issues that Postman applies to all requests, see [Security warnings](/docs/api-governance/api-testing/security-warnings/).
+
+If Postman detects any API security issues when you send an API request, it notifies you using a dot on the warnings icon <img alt="Warnings icon" src="https://assets.postman.com/postman-docs/icon-lock.jpg#icon" width="11px"> in the right sidebar.
+
+1. Select the icon to view the warnings.
+1. For more details, select a warning to expand it.
+1. Select **Possible fix** to learn about possible ways to fix the underlying problem.
+
+<img alt="Viewing security warnings in the right sidebar" src="https://assets.postman.com/postman-docs/api-governance-testing-warnings-beta.jpg" width="400px"/> <!-- TODO: update screenshot -->
+
+### Hiding security issues during API testing
+
+To turn the issue off for this request so that it doesn't create warnings, select **Hide issue**. Choose a reason for hiding the issue, then select **Hide**. This will turn the issue warning off for all members of your team, but only for this request. To turn issues off globally for your team, use the [API security admin panel](/docs/api-governance/api-security-admin-panel/) (available for [Enterprise teams only](https://www.postman.com/pricing/)).
+
+<!-- TODO: screenshot -->
+
+If you or a member of your team wants to turn this issue back on later, select **Review**. Review your hidden issues and, if you want to turn the issue back on, select the eye icon <img alt="Eye icon" src="https://assets.postman.com/postman-docs/eye.jpg#icon" width="16px">.
