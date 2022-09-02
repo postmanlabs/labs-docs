@@ -37,20 +37,21 @@ Commands and options for using the Postman CLI.
 | [**`postman collection run`**](#postman-collection-run) | Run a collection with a UUID or a local file. |
 | `--bail` | Stop the runner when a test case fails. |
 | `--color` | Turn off colored output (auto\|on\|off) (default: "auto") |
-| `--cookie-jar` | Specify the file path for a JSON Cookie Jar. Uses `tough-cookie` to deserialize the file. |
+| `--cookie-jar` | Specify the file path for a `JSON` Cookie Jar. Uses `tough-cookie` to deserialize the file. |
 | `--delay-request` | Specify a delay (in milliseconds) between requests [number]. |
 | `--disable-unicode` | Force the unicode disable option. When supplied, replaces all symbols in the output with their plain text equivalents. |
 | `--env-var` | Set environment variables in a key=value format on the command line. |
-| `--environment` | Specify a Postman environment as a JSON [file]. |
+| `--environment` | Specify a Postman environment as a `JSON` [file]. |
 | `--export-cookie-jar` | The path to the file where Postman CLI will output the final cookie jar file before completing a run. Uses `tough-cookie` to serialize the file. |
-| `--folder` | Specify a single folder to run from a collection. |
 | `--global-var` | Specify global variables on the command line, in a key=value format. |
-| `--globals` | Specify a Postman globals file as JSON [file]. |
-| `--ignore-redirects` | Turn off automatic following of `3XX` responses. |
-| `--insecure` | Turn off strict SSL. |
+| `--globals` | Specify a Postman globals file as `JSON` [file]. |
 | `--iteration-count` | Define the number of iterations to run. |
-| `--iteration-data` | Specify a data file to use, either JSON or CSV. |
-| `--no-insecure-file-read` | Prevent reading files situated outside the working directory. |
+| `--iteration-data` | Specify a data file to use, either `JSON` or `CSV`. |
+| `-i [UID]` | Runs only the specified folder UID or request UID from the collection. |
+| `-i [name` | Runs only the specified folder name or request name from the collection. If there are duplicate names, the Postman CLI runs the folder or request that appears first.|
+| `--ignore-redirects` | Prevents the Postman CLI from automatically following 3XX redirect responses.|
+| `--insecure`, `-k` | Turns off SSL verification checks and allows self-signed SSL certificates. |
+| `--no-insecure-file-read` | Prevents reading of files situated outside of the working directory.|
 | `--silent` | Turn off terminal output. |
 | `--suppress-exit-code` | Continue running tests even after a failure, but exit with `code=0` |
 | `--timeout` | Specify the time (in milliseconds) to wait for the entire collection run to complete execution. |
@@ -65,72 +66,159 @@ Commands and options for using the Postman CLI.
 
 ## Downloading and installing
 
-<!-- The installation experience is changing, check in with Malvika and the Slack channel.
+You can download the Postman CLI installation script manually or programmatically (from the command line or a script).
 
-You can download the Postman CLI manually or with a script (programmatically).
+### Downloading manually
 
-### Manual download
-
-To download manually, use the links below:
+To download manually, use the commands below:
 
 #### Linux
 
-`https://dl-cli.pstmn.io/download/latest/linux64`
+`curl -o- "https://[CDN link TBD]/install.linux64.sh" | bash`
 
 #### Mac (Intel chip)
 
-`[link mac intel]`
+`curl -o- "https://[CDN link TBD]/install.osx_64.sh" | bash`
 
 #### Mac (Apple chip)
 
-`[link mac apple]`
+`curl -o- "https://[CDN link TBD]/install.osx_arm64.sh" | bash`
 
 #### Windows
 
 `https://dl-cli.pstmn.io/download/latest/win64`
 
-### Programmatic download
+### Downloading programmatically
 
 To download programmatically, use the commands below:
 
 #### Linux
 
 ```
-curl [link_linux] -o postman-cli.zip
-unzip postman-cli.zip
-rm postman-cli.zip
-mv postman-cli /usr/local/bin/postman
+#!/bin/bash
+curl "https://dl-cli.pstmn.io/download/latest/linux64" -o postman-cli.zip
+tar -xf postman-cli.tar.gz
+rm postman-cli.tar.gz
+echo "Please provide permission to write to /usr/local/bin/:"
+sudo mkdir -p /usr/local/bin/
+sudo mv postman-cli /usr/local/bin/postman
+
 ```
 
 #### Mac OS (Intel chip)
 
 ```
-curl [link_mac_intel] -o postman-cli.zip
-ditto postman-cli.zip
+#!/bin/bash
+curl "https://dl-cli.pstmn.io/download/latest/osx_64" -o postman-cli.zip
+ditto -x -k postman-cli.zip ./
 rm postman-cli.zip
-mv postman-cli /usr/local/bin/postman
+echo "Please provide permission to write to /usr/local/bin/:"
+sudo mkdir -p /usr/local/bin/
+sudo mv postman-cli /usr/local/bin/postman
 ```
 
 #### Mac OS (Apple chip)
 
 ````
-curl [link_mac_apple] -o postman-cli.zip
-ditto postman-cli.zip
+#!/bin/bash
+curl "https://dl-cli.pstmn.io/download/latest/osx_arm64" -o postman-cli.zip
+ditto -x -k postman-cli.zip ./
 rm postman-cli.zip
-mv postman-cli /usr/local/bin/postman
+echo "Please provide permission to write to /usr/local/bin/:"
+sudo mkdir -p /usr/local/bin/
+sudo mv postman-cli /usr/local/bin/postman
 ````
 
 #### Windows
 
 ```
-$cliPath = "C:\Postman CLI"
-New-Item -type directory -path $cliPath -Force
+# create dir
+$POSTMAN_CLI_PATH = "$Env:USERPROFILE\AppData\Local\Postman CLI"
+New-Item -type directory -path $POSTMAN_CLI_PATH -Force
+
+# download file
 $client = new-object System.Net.WebClient
-$client.DownloadFile("https://dl-cli.pstmn.io/download/latest/win64", "$cliPath\postman-cli.zip")
-cd $cliPath
-Expand-Archive .\postman-cli.zip .
+$client.DownloadFile("https://dl-cli.pstmn.io/download/latest/win64", "$POSTMAN_CLI_PATH\postman-cli.zip")
+
+# extract archive
+Expand-Archive "$POSTMAN_CLI_PATH\postman-cli.zip" $POSTMAN_CLI_PATH
+
+echo "You can find your executable in $POSTMAN_CLI_PATH"
+
+# set current session path
+$Env:PATH = "$Env:PATH;$POSTMAN_CLI_PATH""
 ```
--->
+
+#### nix
+
+```
+#!/bin/bash
+
+OS=$(uname -s); shopt -s failglob
+ARCH=$(uname -m)
+EXTENSION=zip
+FOLDER=/usr/local/bin/
+PACKAGE_LINK=''
+
+if [[ "$OS" == "Linux" ]]; then
+  EXTENSION=tar.gz
+  PACKAGE_LINK="linux64"
+elif [[ "$OS" == "Darwin" ]]; then
+  PACKAGE_LINK="osx_$ARCH"
+fi
+
+
+CLI_URL="https://dl-cli.pstmn.io/download/latest/$PACKAGE_LINK"
+
+pstmn_extract() {
+  if [[ "$OS" = "Linux" ]]; then
+    tar -xf "$1" ./
+  else
+    ditto -x -k "$1" ./
+  fi
+}
+
+has_dep() {
+  type "$1" > /dev/null 2>&1
+}
+
+pstmn_echo() {
+  command printf %s\\n "$*" 2>/dev/null
+}
+
+download() {
+  if has_dep "curl"; then
+    curl --fail --compressed -q "$@"
+  elif has_dep "wget"; then
+    ARGS=$(pstmn_echo "$@" | command sed -e 's/--progress-bar /--progress=bar /' \
+                            -e 's/--compressed //' \
+                            -e 's/--fail //' \
+                            -e 's/-L //' \
+                            -e 's/-I /--server-response /' \
+                            -e 's/-s /-q /' \
+                            -e 's/-sS /-nv /' \
+                            -e 's/-o /-O /' \
+                            -e 's/-C - /-c /')
+    # shellcheck disable=SC2086
+    eval wget $ARGS
+  fi
+}
+
+echo $CLI_URL
+
+download -s "$CLI_URL" -o postman-cli.$EXTENSION || {
+  pstmn_echo >&2 "Failed to download from $CLI_URL"
+  exit 1
+}
+
+pstmn_extract postman-cli.$EXTENSION
+
+rm postman-cli.$EXTENSION
+pstmn_echo "Please provide permission to write to ${FOLDER}:"
+sudo mkdir -p $FOLDER
+sudo mv postman-cli ${FOLDER}/postman
+```
+
 ---
 
 ## Logging in and logging out
@@ -187,7 +275,7 @@ postman collection run 12345678-12345ab-1234-1ab2-1ab2-ab1234112a12
 |:--|:--|
 | `--bail [optional modifiers]` | Specifes whether or not to stop a collection run on encountering the first test script error. `--bail` can optionally accept two modifiers: `--folder` and `--failure`. `--folder` skips the entire collection run if there are any errors. If a test fails, `--failure` gracefully stops the collection run after completing the current test script. |
 | `--color [value]` | Controls colored CLI output. Accepts `on`, `off`, and `auto`. Default is `auto`. With `auto`, Postman CLI attempts to automatically turn color on or off based on the color support in the terminal. This behavior can be modified by using the on or off value accordingly.|
-| `--cookie-jar [path]` | Specifies the file path for a JSON cookie jar. Uses `tough-cookie` to deserialize the file. |
+| `--cookie-jar [path]` | Specifies the file path for a `JSON` cookie jar. Uses `tough-cookie` to deserialize the file. |
 | `--delay-request [number]` | Specifies a delay (in milliseconds) between requests. |
 | `--disable-unicode` | Replaces all symbols in the output with their plain text equivalents. |
 | `--environment [uid] or [file-path]`, `-e` | Specifies an environment file path or UID. |
@@ -195,8 +283,8 @@ postman collection run 12345678-12345ab-1234-1ab2-1ab2-ab1234112a12
 | `--export-cookie-jar [path]` | Specifies the path where Postman CLI will output the final cookie jar file before completing a run. Uses `tough-cookie` to serialize the file. |
 | `--global-var "[global-variable-name]=[global-variable-value]"` | Specifies global variables via the command line, in a `key=value` format. Multiple CLI global variables can be added by using `--global-var` multiple times, for example: `--global-var "this=that" --global-var "alpha=beta".`|
 | `--globals [file-path]`, `-g` | Specifies the file path for global variables. Global variables are similar to environment variables but have lower precedence and can be overridden by environment variables having the same name. |
-| `--iteration-data [file-path] or [URL]`, `-d` | Specifies a data source file (JSON or CSV) to be used for iteration as a path to a file or as a URL.|
 | `--iteration-count [number]`, `-n` | Specifies the number of times the collection will run when used in conjunction with the iteration data file. |
+| `--iteration-data [file-path] or [URL]`, `-d` | Specifies a data source file (`JSON` or `CSV`) to be used for iteration as a path to a file or as a URL.|
 |  `-i [requestUID] or [folderUID]` | Runs only the specified folder UID or request UID from the collection. |
 | `-i [requestName] or [folderName]` | Runs only the specified folder name or request name from the collection. If there are duplicate names, the Postman CLI runs the folder or request that appears first.|
 | `--ignore-redirects` | Prevents the Postman CLI from automatically following 3XX redirect responses.|
@@ -214,7 +302,7 @@ postman collection run 12345678-12345ab-1234-1ab2-1ab2-ab1234112a12
 
 ## Governance and security
 
-TBD
+API governance is the practice of applying a defined set of standards consistently across your API design and testing phases of your development process. The Postman CLI includes an api linting command, described below.
 
 ### postman api lint
 

@@ -30,32 +30,32 @@ You can download and install the Postman CLI manually or programmatically (with 
     **Linux**
 
     ```
-    curl -o- "https://<CDN link>/install.linux64.sh" | bash)
+    curl -o- "https://[CDN link TBD]/install.linux64.sh" | bash)
     ```
 
     **Mac - Intel chip**
 
     ```
-    curl -o- "https://<CDN link TBD>/install.osx_64.sh" | bash
+    curl -o- "https://[CDN link TBD]/install.osx_64.sh" | bash
     ```
 
     **Mac - Apple chip**
 
     ```
-    curl -o- "https://<CDN link TBD>/install.osx_arm64.sh" | bash)
+    curl -o- "https://[CDN link TBD]/install.osx_arm64.sh" | bash)
     ```
 
     **Windows - Powershell**
 
     ```
-    Set-ExecutionPolicy AllSigned -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://<CDN link TBD>/install.win64.ps1')))
+    Set-ExecutionPolicy AllSigned -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://[CDN link TBD]/install.win64.ps1')))
     ```
 
     **Windows - cmd.exe**
 
     ```
     @"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy AllSigned -Command "[System.Net.ServicePointManager]::SecurityProtocol = 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://<CDN link>/install.win64.ps1'))" && SET "PATH=%PATH%;C:\Postman CLI\")
-    * [nix](curl -o- "https://<CDN link TBD>/install.nix.sh" | bash
+    * [nix](curl -o- "https://[CDN link TBD]/install.nix.sh" | bash
 
     ```
 
@@ -82,7 +82,7 @@ sudo mv postman-cli /usr/local/bin/postman
 > * Ubuntu 14.04 and newer
 > * Fedora 24
 > * Debian 8 and newer
->
+
 ## Mac installation commands (Intel chip)
 
 ```
