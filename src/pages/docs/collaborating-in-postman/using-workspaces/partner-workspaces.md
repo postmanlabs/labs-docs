@@ -55,7 +55,7 @@ To create a partner workspace:
 
     <img alt="Create partner workspace" src="https://assets.postman.com/postman-docs/v10/create-partner-workspace-v10.jpg" width="400px"/>
 
-Anyone with permissions to create workspaces can request to create a partner workspace, but it must be approved by the [Partner Manager](#managing-users-and-roles). If you're not a Super Admin or Partner Manager, Postman will mention this when creating the workspace and you can add an optional note. Postman will notify you when a Partner Manager reviews your request and approves or denies it.
+Anyone with permissions to create workspaces can request to create a partner workspace, but it must be approved by a [Partner Manager](#managing-users-and-roles). If you're not a [Super Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) or Partner Manager, Postman will mention this when creating the workspace and you can add an optional note to your request. Postman will notify you when a Partner Manager reviews your request and approves or denies it.
 
 <img alt="Create partner workspace approval" src="https://assets.postman.com/postman-docs/v10/partner-workspace-approval-warning-v10.jpg" width="450px" />
 
@@ -65,9 +65,9 @@ To convert an existing workspace to a partner workspace:
 1. Under **Visibility**, select **Partner**.
 1. Select **Update**.
 
-Anyone with permissions to change workspace visibility can request to convert a workspace into a partner workspace, but it must be approved by the [Partner Manager](#managing-users-and-roles). If you're not a Super Admin or Partner Manager, Postman will mention this and you can add an optional note. Postman will notify you when a Partner Manager reviews your request and approves or denies it.
+Anyone with permissions to change workspace visibility can request to convert a workspace into a partner workspace, but it must be approved by a [Partner Manager](#managing-users-and-roles). If you're not a [Super Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) or Partner Manager, Postman will mention this and you can add an optional note to your request. Postman will notify you when a Partner Manager reviews your request and approves or denies it.
 
-> When a workspace converts to a partner workspace, Postman sends in-app and email notifications to all workspace members.
+> When a workspace is converted to a partner workspace, Postman sends in-app and email notifications to all workspace members.
 
 ## Setting up a partner workspace
 
@@ -77,13 +77,13 @@ Before sharing a partner workspace with external collaborators, you can set your
 
 You must be an Editor on an API, collection, or environment, the Workspace Admin, or a Super Admin to move an element to a partner workspace. To move an element:
 
-1. Select the element you want to share in the sidebar, then select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> > **Move**.
+1. In the sidebar, select the element you want to move. Then select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> > **Move**.
 
 1. Use the search bar to find the workspace you'd like to move the element to, or filter by workspace visibility by selecting the filter icon <img alt="Filter icon" src="https://assets.postman.com/postman-docs/icon-filter.jpg#icon" width="16px">.
 
     > You can share elements to partner workspaces that you have access to.
 
-1. Select the workspace, then **Move** (**Collection**, **API**, or **Environment**).
+1. Select the workspace, then select **Move** (**Collection**, **API**, or **Environment**).
 
     <img alt="Move element partner workspace" src="https://assets.postman.com/postman-docs/v10/move-collection-to-partner-workspace-v10.jpg" width="400px"/>
 
@@ -91,7 +91,7 @@ Note that items related to what you're moving won't move with the element automa
 
 * **Collections** - Monitors will pause and stay in the current workspace.
 
-* **APIs** - Collections, documentation, monitors, mock servers, and environments of the API will stay in the current workspace.
+* **APIs** - Collections and environments linked to the API will automatically move with the API to the new workspace. Mocks and monitors will not move to the new workspace.
 
 * **Environments** - Monitors, mock servers, and integrations using the environment may no longer work.
 
@@ -103,7 +103,7 @@ If you'd like to keep certain elements in other workspaces, you can [fork them i
 
 You must be an Editor on an API, collection, or environment, the Workspace Admin, or a Super Admin to remove an element from a partner workspace. To remove an element by moving it to another workspace:
 
-1. Select the element you want to share in the sidebar, then select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> > **Move**.
+1. In the sidebar, select the element you want to move, then select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> > **Move**.
 
 1. Use the search bar to find the workspace you'd like to move the element to, or filter by workspace visibility by selecting the filter icon <img alt="Filter icon" src="https://assets.postman.com/postman-docs/icon-filter.jpg#icon" width="16px">.
 
@@ -111,9 +111,9 @@ You must be an Editor on an API, collection, or environment, the Workspace Admin
 
 1. Select the workspace, then **Move** (**Collection**, **API**, or **Environment**).
 
-It's not recommended, but you can opt to delete an element entirely. To do so, select the element in the sidebar, then select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> > **Delete**.
+It's not recommended, but you can choose to delete an element entirely. To do so, select the element in the sidebar, then select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> > **Delete**.
 
-> Deleted APIs and environments aren't recoverable. You can recover collections smaller than 30 MB for up to 90 days on an Enterprise plan by selecting <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> **Trash** from the Postman footer.
+> Deleted APIs and environments aren't recoverable. You can recover collections smaller than 30 MB for up to 90 days on an Enterprise plan. To do so, select <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> **Trash** from the Postman footer.
 
 ## Inviting collaborators to a partner workspace
 
@@ -175,6 +175,6 @@ Workspace Admins and Partner Managers can delete partner workspaces. To delete a
 1. Once all partners have been removed, [change the visibility of a partner workspace](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#changing-workspace-visibility) to **Team** or **Private**.
 1. Select **Delete Workspace**.
 
-> Postman notifies all workspace members when a partner workspace is deleted.
+> Postman notifies all workspace members in-app and by email when a partner workspace is deleted.
 
 ## Next steps
