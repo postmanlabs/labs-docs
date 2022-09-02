@@ -36,6 +36,7 @@ Partner workspaces enable you collaborate with partners directly in Postman. You
     * [Managing workspace elements](#managing-workspace-elements)
 * [Editing workspace details](#editing-workspace-details)
 * [Deleting a partner workspace](#deleting-a-partner-workspace)
+
 <!-- * [Collaborating in a partner workspace](#collaborating-in-a-partner-workspace)
     * [Collaborating as a team member](#collaborating-as-a-team-member)
     * [Collaborating as a partner](#collaborating-as-a-partner)
