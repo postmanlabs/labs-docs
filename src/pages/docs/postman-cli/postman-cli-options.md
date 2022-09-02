@@ -202,7 +202,6 @@ postman collection run 12345678-12345ab-1234-1ab2-1ab2-ab1234112a12
 | `--ignore-redirects` | Prevents the Postman CLI from automatically following 3XX redirect responses.|
 | `--insecure`, `-k` | Turns off SSL verification checks and allows self-signed SSL certificates. |
 | `--no-insecure-file-read` | Prevents reading of files situated outside of the working directory.|
-| `--override-request-order` | Used with `-i`. Runs a collection with the specified order of the requests or folders. For example: `postman collection run [collectionUID] -i [folder1UID] -i [folder2UID] --override-request-order`|
 | `--silent` | Turns off terminal output.|
 | `--suppress-exit-code`, `-x`| Specify whether or not to override the default exit code for the current run.|
 | `--timeout [number]`| Specifies the time (in milliseconds) to wait for the entire collection run to complete execution.|

@@ -16,66 +16,172 @@ contextual_links:
 warning: false
 ---
 
-You can download the Postman CLI in the following ways:
-
-* Click the download link on the Runner screen
-* Click the download link on the API builder's configure postman CLI screen.
-* Get the Postman CLI from http://postman.com/downloads.
+You can download and install the Postman CLI manually or programmatically (with a script or the command line).
 
 ## Contents
 
-* TBD
-* TBD
+* Downloading and installing Postman CLI manually
+* Downloading and installing Postman CLI programmatically
 
-To download and install the Postman CLI, follow the steps below:
+## Downloading and installing Postman CLI manually
 
-1. Download the zip file for your platform from the [download page](https://www.postman.com/downloads/) or from the links below:
+1. Download the installation script for your platform from the [download page](https://www.postman.com/downloads/) or with the appropriate link below:
 
-    * [Linux](https://dl-cli.pstmn.io/download/latest/linux/postman-cli.zip)
-    * [Mac - Apple chip](Link to Mac OS - Apple chip)
-    * [Mac - Intel chip](Link to Mac OS - Intel chip)
-    * [Windows](https://dl-cli.pstmn.io/download/latest/windows/postman-cli.zip)
+    **Linux**
+    ```
+    curl -o- "https://<CDN link>/install.linux64.sh" | bash)
+    ```
+    **Mac - Intel chip**
+    ```
+    curl -o- "https://<CDN link TBD>/install.osx_64.sh" | bash
+    ```
+    **Mac - Apple chip**
+    ```
+    curl -o- "https://<CDN link TBD>/install.osx_arm64.sh" | bash)
+    ```
+    **Windows - Powershell**
+    ```
+    Set-ExecutionPolicy AllSigned -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://<CDN link TBD>/install.win64.ps1')))
+    ```
+    **Windows - cmd.exe**
+    ```
+    @"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy AllSigned -Command "[System.Net.ServicePointManager]::SecurityProtocol = 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://<CDN link>/install.win64.ps1'))" && SET "PATH=%PATH%;C:\Postman CLI\")
+    * [nix](curl -o- "https://<CDN link TBD>/install.nix.sh" | bash
+    ```
+1. Run the downloaded script file to install the Postman CLI.
 
-## Installing the Postman CLI on Linux
+## Downloading and installing Postman CLI programmatically
 
-You can install the Postman CLI on Linux by downloading it manually or with curl:
+To download and install the Postman CLI programmatically, add the appropriate code snippet to your CI script:
 
-```curl https://dl-cli.pstmn.io/download/latest/linux/postman-cli.zip -o postman-cli.zip```
+### Linux installation commands
 
-To install manually, run the following commands:
+```
+#!/bin/bash
+curl "https://dl-cli.pstmn.io/download/latest/linux64" -o postman-cli.zip
+tar -xf postman-cli.tar.gz
+rm postman-cli.tar.gz
+echo "Please provide permission to write to /usr/local/bin/:"
+sudo mkdir -p /usr/local/bin/
+sudo mv postman-cli /usr/local/bin/postman
+```
 
-1. [Download](https://www.postman.com/downloads/) the `.zip` file.
-
-1. Extract the `.zip` file to `/usr/local/bin/postman`.
-
-> The Postman CLI supports the same distributions as Postman:
+> The Postman CLI supports the same Linux distributions as Postman:
 >
 > * Ubuntu 14.04 and newer
 > * Fedora 24
 > * Debian 8 and newer
 >
-## Installing the Postman CLI on Mac
+## Mac installation commands (Intel chip)
 
-You can install the Postman CLI on Mac by downloading it manually or with curl:
+```
+#!/bin/bash
+curl "https://dl-cli.pstmn.io/download/latest/osx_64" -o postman-cli.zip
+ditto -x -k postman-cli.zip ./
+rm postman-cli.zip
+echo "Please provide permission to write to /usr/local/bin/:"
+sudo mkdir -p /usr/local/bin/
+sudo mv postman-cli /usr/local/bin/postman
+```
 
-```curl https://dl-cli.pstmn.io/download/latest/osx_64/postman-cli.zip -o postman-cli.zip```
+## Mac installation commands (Apple chip)
 
-To install manually:
+```
+#!/bin/bash
+curl "https://dl-cli.pstmn.io/download/latest/osx_arm64" -o postman-cli.zip
+ditto -x -k postman-cli.zip ./
+rm postman-cli.zip
+echo "Please provide permission to write to /usr/local/bin/:"
+sudo mkdir -p /usr/local/bin/
+sudo mv postman-cli /usr/local/bin/postman
+```
 
-1. [Download](https://www.postman.com/downloads/) the `.zip` file.
+## Windows installation commands
 
-1. Extract the `.zip` file to `/usr/local/bin/postman`.
+```
+# create dir
+$POSTMAN_CLI_PATH = "$Env:USERPROFILE\AppData\Local\Postman CLI"
+New-Item -type directory -path $POSTMAN_CLI_PATH -Force
 
-## Installing the Postman CLI on Windows
+# download file
+$client = new-object System.Net.WebClient
+$client.DownloadFile("https://dl-cli.pstmn.io/download/latest/win64", "$POSTMAN_CLI_PATH\postman-cli.zip")
 
-You can install the Postman CLI on Windows by downloading it manually or with curl:
+# extract archive
+Expand-Archive "$POSTMAN_CLI_PATH\postman-cli.zip" $POSTMAN_CLI_PATH
 
-```curl https://dl-cli.pstmn.io/download/latest/windows/postman-cli.zip -o postman-cli.zip```
+echo "You can find your executable in $POSTMAN_CLI_PATH"
 
-To install manually:
+# set current session path
+$Env:PATH = "$Env:PATH;$POSTMAN_CLI_PATH""
+```
 
-1. [Download](https://www.postman.com/downloads/) the `.zip` file.
+## nix installation commands
 
-1. Extract the `.zip` file. This creates a new folder called `postman-cli`.
+```
+#!/bin/bash
 
-1. Add the `postman-cli` folder's path to the [system environment variables](https://support.microsoft.com/en-us/topic/how-to-manage-environment-variables-in-windows-xp-5bf6725b-655e-151c-0b55-9a8c9c7f747d).
+OS=$(uname -s); shopt -s failglob
+ARCH=$(uname -m)
+EXTENSION=zip
+FOLDER=/usr/local/bin/
+PACKAGE_LINK=''
+
+if [[ "$OS" == "Linux" ]]; then
+  EXTENSION=tar.gz
+  PACKAGE_LINK="linux64"
+elif [[ "$OS" == "Darwin" ]]; then
+  PACKAGE_LINK="osx_$ARCH"
+fi
+
+
+CLI_URL="https://dl-cli.pstmn.io/download/latest/$PACKAGE_LINK"
+
+pstmn_extract() {
+  if [[ "$OS" = "Linux" ]]; then
+    tar -xf "$1" ./
+  else
+    ditto -x -k "$1" ./
+  fi
+}
+
+has_dep() {
+  type "$1" > /dev/null 2>&1
+}
+
+pstmn_echo() {
+  command printf %s\\n "$*" 2>/dev/null
+}
+
+download() {
+  if has_dep "curl"; then
+    curl --fail --compressed -q "$@"
+  elif has_dep "wget"; then
+    ARGS=$(pstmn_echo "$@" | command sed -e 's/--progress-bar /--progress=bar /' \
+                            -e 's/--compressed //' \
+                            -e 's/--fail //' \
+                            -e 's/-L //' \
+                            -e 's/-I /--server-response /' \
+                            -e 's/-s /-q /' \
+                            -e 's/-sS /-nv /' \
+                            -e 's/-o /-O /' \
+                            -e 's/-C - /-c /')
+    # shellcheck disable=SC2086
+    eval wget $ARGS
+  fi
+}
+
+echo $CLI_URL
+
+download -s "$CLI_URL" -o postman-cli.$EXTENSION || {
+  pstmn_echo >&2 "Failed to download from $CLI_URL"
+  exit 1
+}
+
+pstmn_extract postman-cli.$EXTENSION
+
+rm postman-cli.$EXTENSION
+pstmn_echo "Please provide permission to write to ${FOLDER}:"
+sudo mkdir -p $FOLDER
+sudo mv postman-cli ${FOLDER}/postman
+```
