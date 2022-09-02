@@ -16,7 +16,7 @@ export const PrimaryNavbarV6 = styled.nav`
   }
   `
   export const SecondaryNavbarV6 = styled.nav`
-
+    background-color: ${(props) => props.theme.colors.grey_00};
     backdrop-filter: blur(64px);
     top: 100;
     z-index: 1020;
