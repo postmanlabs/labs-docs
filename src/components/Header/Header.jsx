@@ -2,8 +2,9 @@ import React from 'react';
 import { trackCustomEvent } from 'gatsby-plugin-google-analytics';
 import Dropdown from './Dropdown';
 import $ from 'jquery';
-import { PrimaryNavbarV6, SecondaryNavbarV6, NavStyles, DropdownStyles, CTAButton } from './HeaderStyles.jsx';
+import {PrimaryNavbarV6, SecondaryNavbarV6, NavStyles, DropdownStyles, CTAButton} from './HeaderStyles.jsx' ;
 import { SearchWrapperStyling } from '../Search/searchStyles.jsx';
+
 // Get Cookie for Sign In toggler
 const getCookie = (a) => {
   if (typeof document !== 'undefined') {
