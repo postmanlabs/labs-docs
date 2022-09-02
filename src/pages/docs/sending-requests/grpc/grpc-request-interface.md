@@ -41,7 +41,7 @@ The request section includes the required configurations to connect to the serve
 
     * **Message** - Compose a message in JSON here to send along with the request. The server uses this message to perform appropriate actions and gives you a response in return.
 
-    * **Message actions** - The **Beautify** button makes the composed JSON message presentable and readable for external users using advanced formatting. The **Generate example message** button creates an example message using the schema once you have selected the method to invoke.
+    * **Message actions** - The **Beautify** button (`{ }`) makes the composed JSON message presentable and readable for external users using advanced formatting. The **Generate example message** button creates an example message using the schema once you have selected the method to invoke.
 
     * **Authorization** - Pass credentials that the server would use to authorize the connection here. You can choose from a list of auth types including API Key, Basic auth, and Bearer token. Learn more about [authorizing requests](/docs/sending-requests/authorization/).
 
