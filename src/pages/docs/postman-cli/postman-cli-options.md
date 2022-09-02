@@ -38,7 +38,7 @@ Commands and options for using the Postman CLI.
 | `--bail` | Stop the runner when a test case fails. |
 | `--color` | Turn off colored output (auto\|on\|off) (default: "auto") |
 | `--cookie-jar` | Specify the file path for a `JSON` Cookie Jar. Uses `tough-cookie` to deserialize the file. |
-| `--delay-request` | Specify a delay (in milliseconds) between requests [number]. |
+| `--delay-request` | Specify a delay (in milliseconds) between requests. |
 | `--disable-unicode` | Force the unicode disable option. When supplied, replaces all symbols in the output with their plain text equivalents. |
 | `--env-var` | Set environment variables in a key=value format on the command line. |
 | `--environment` | Specify a Postman environment as a `JSON` [file]. |
@@ -53,7 +53,7 @@ Commands and options for using the Postman CLI.
 | `--insecure`, `-k` | Turns off SSL verification checks and allows self-signed SSL certificates. |
 | `--no-insecure-file-read` | Prevents reading of files situated outside of the working directory.|
 | `--silent` | Turn off terminal output. |
-| `--suppress-exit-code` | Continue running tests even after a failure, but exit with `code=0` |
+| `--suppress-exit-code` | Continue running tests even after a failure, but exit with `code=0`. |
 | `--timeout` | Specify the time (in milliseconds) to wait for the entire collection run to complete execution. |
 | `--timeout-request` | Specify a request timeout (in milliseconds) for a request. |
 | `--timeout-script` | Specify the time (in milliseconds) to wait for scripts to complete execution. |
@@ -70,7 +70,7 @@ You can download the Postman CLI installation script manually or programmaticall
 
 ### Downloading manually
 
-To download manually, use the commands below:
+To download manually, use the commands and links below:
 
 #### Linux
 
@@ -84,9 +84,17 @@ To download manually, use the commands below:
 
 `curl -o- "https://[CDN link TBD]/install.osx_arm64.sh" | bash`
 
-#### Windows
+#### Windows (Powershell)
 
-`https://dl-cli.pstmn.io/download/latest/win64`
+```
+Set-ExecutionPolicy AllSigned -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://<CDN link>/install.win64.ps1'))
+```
+
+#### Windows (cmd.exe)
+
+```
+@"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy AllSigned -Command "[System.Net.ServicePointManager]::SecurityProtocol = 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://<CDN link>/install.win64.ps1'))" && SET "PATH=%PATH%;C:\Postman CLI\"
+```
 
 ### Downloading programmatically
 

@@ -20,8 +20,8 @@ You can download and install the Postman CLI manually or programmatically (with 
 
 ## Contents
 
-* Downloading and installing Postman CLI manually
-* Downloading and installing Postman CLI programmatically
+* [Downloading and installing Postman CLI manually](#downloading-and-installing-postman-cli-manually)
+* [Downloading and installing Postman CLI programmatically](#downloading-and-installing-postman-cli-programmatically)
 
 ## Downloading and installing Postman CLI manually
 

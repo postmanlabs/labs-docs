@@ -16,6 +16,8 @@ contextual_links:
 warning: false
 ---
 
+
+
 ## Running a collection locally with the Postman CLI
 
 1. Select **Collections** in the sidebar and select the collection you want to run.
@@ -49,21 +51,3 @@ When the collections run to your satisfaction, copy the commands into your CI/CD
 1. Generate an API Key in Postman and add it to the variables section of your CI/CD Provider.
 
 1. Trigger a build or deployment and check the results of your collection run.
-
-## Running collections on local or remote Git branches
-
-With Postman’s latest version 10 release, you can create and use Git branches in Postman. You can update, add, and remove tests and assertions to specific branches. You can also run tests in your CI/CD systems for specific branches.
-
-To automate your API Testing with an integrated Git repository:
-
-1. In Postman, select **Test & Automation**.
-
-1. Select **Configure Postman CLI on Local** or **Configure on CI/CD** for the respective flows.
-
-1. Select your environments and your CI/CD OS configuration.
-
-1. Copy the generated snippet.
-
-1. Paste the snippet into your build configuration or YAML files.
-
-1. Run your builds and check the results.
