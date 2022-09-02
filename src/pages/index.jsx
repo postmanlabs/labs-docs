@@ -2,16 +2,15 @@ import React from 'react';
 import ReactDOMServer from 'react-dom/server';
 import { OutboundLink } from 'gatsby-plugin-google-analytics';
 import { v4 as uuidv4 } from 'uuid';
+import styled from 'styled-components';
+import '../../styles/config/normalize.css';
+import { theme } from '../../styles/theme';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 import upcomingEvents from '../../bff-data/events.json';
 import { LandingCard } from '../components/MarketingPages/Cards';
-import '../../styles/config/normalize.css';
-
+import '../../styles/config/_pm-icons.css';
 import { ButtonStyles, LinkStyles } from '../../styles/ButtonStyles';
-import '../../styles/config/_pm-icons.css';
-import styled from 'styled-components';
-import '../../styles/config/_pm-icons.css';
 
 const EventsWrapper = styled.div`
 margin-bottom: 48px;
@@ -20,11 +19,11 @@ margin-bottom: 48px;
     }
     
 .events__alert {
-    border: 4px dashed ${(props) => props.theme.colors.blue_10};
-    border-radius: ${(props) => props.theme.borderRadius.medium};
+    border: 4px dashed ${theme.colors.blue_10};
+    border-radius: ${theme.borderRadius.medium};
     padding: .75rem 1.25rem;
     color: #0C5460;
-    color: ${(props) => props.theme.colors.blue_80};
+    color: ${theme.colors.blue_80};
 }
 // Upcoming Event Section styles
 
@@ -42,7 +41,7 @@ margin-bottom: 48px;
     font-size: 16px;
     text-transform: uppercase;
     font-weight: bold;
-    color: ${(props) => props.theme.colors.orange_40};
+    color: ${theme.colors.orange_40};
     padding-bottom: 16px;
 }
 .event-description-wrapper {
@@ -57,7 +56,7 @@ margin-bottom: 48px;
 }
 .link-style{
     height: 24px;
-    color: ${(props) => props.theme.colors.blue_60};
+    color: ${theme.colors.blue_60};
     text-decoration: none;
 }
 `
