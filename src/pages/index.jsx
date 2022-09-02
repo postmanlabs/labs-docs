@@ -2,17 +2,15 @@ import React from 'react';
 import ReactDOMServer from 'react-dom/server';
 import { OutboundLink } from 'gatsby-plugin-google-analytics';
 import { v4 as uuidv4 } from 'uuid';
+import styled from 'styled-components';
+import '../../styles/config/normalize.css';
+import { theme } from '../../styles/theme';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 import upcomingEvents from '../../bff-data/events.json';
 import { LandingCard } from '../components/MarketingPages/Cards';
-import '../../styles/config/normalize.css';
-
+import '../../styles/config/_pm-icons.css';
 import { ButtonStyles, LinkStyles } from '../../styles/ButtonStyles';
-import '../../styles/config/_pm-icons.css';
-import styled from 'styled-components';
-import '../../styles/config/_pm-icons.css';
-import theme from '../../styles/theme.jsx';
 
 const EventsWrapper = styled.div`
 margin-bottom: 48px;
