@@ -52,7 +52,7 @@ When the collections run to your satisfaction, copy the commands into your CI/CD
 
 ## Running collections on local or remote Git branches
 
-With Postman’s latest version 10 release, you can create and use Git branches in Postman. These branches can be local (synced with your filesystem) or remote (synced with your Git repositories). You can update, add, and remove tests and assertions to specific branches. You can also run tests in your CI/CD systems for specific branches.
+With Postman’s latest version 10 release, you can create and use Git branches in Postman. You can update, add, and remove tests and assertions to specific branches. You can also run tests in your CI/CD systems for specific branches.
 
 To automate your API Testing with an integrated Git repository:
 
