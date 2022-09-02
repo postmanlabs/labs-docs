@@ -28,26 +28,37 @@ You can download and install the Postman CLI manually or programmatically (with 
 1. Download the installation script for your platform from the [download page](https://www.postman.com/downloads/) or with the appropriate link below:
 
     **Linux**
+
     ```
     curl -o- "https://<CDN link>/install.linux64.sh" | bash)
     ```
+
     **Mac - Intel chip**
+
     ```
     curl -o- "https://<CDN link TBD>/install.osx_64.sh" | bash
     ```
+
     **Mac - Apple chip**
+
     ```
     curl -o- "https://<CDN link TBD>/install.osx_arm64.sh" | bash)
     ```
+
     **Windows - Powershell**
+
     ```
     Set-ExecutionPolicy AllSigned -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://<CDN link TBD>/install.win64.ps1')))
     ```
+
     **Windows - cmd.exe**
+
     ```
     @"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy AllSigned -Command "[System.Net.ServicePointManager]::SecurityProtocol = 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://<CDN link>/install.win64.ps1'))" && SET "PATH=%PATH%;C:\Postman CLI\")
     * [nix](curl -o- "https://<CDN link TBD>/install.nix.sh" | bash
+
     ```
+
 1. Run the downloaded script file to install the Postman CLI.
 
 ## Downloading and installing Postman CLI programmatically
