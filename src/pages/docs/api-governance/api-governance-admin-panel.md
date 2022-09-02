@@ -34,7 +34,7 @@ You can set governance rules that Postman runs during the design phase of the AP
 
 > You must have an [Admin or Developer](/docs/collaborating-in-postman/roles-and-permissions/) role for your team to turn governance rules off and on.
 
-All the available governance rules turned on by default. Your team can configure individual governance rules to meet your development needs. If you turn a rule off, you and your team members won't see warnings for this rule if it's violated in your API's definition.
+All the available governance rules are turned on by default. Your team can configure individual governance rules to meet your development needs. If you turn a rule off, you and your team members won't see warnings for this rule if it's violated in your API's definition.
 
 To turn a governance rule off, select the toggle next to the rule name. To turn the rule back on, select the toggle again.
 
@@ -42,7 +42,7 @@ To turn a governance rule off, select the toggle next to the rule name. To turn 
 
 ### Importing governance rules from the library
 
-Select Import from library. To see more details about a particular rule, select the expand icon > next to the rule name. Select the rules in the library you want to add, then select Import selected. If you want to import all the rules, select Import all. Once you import new rules from the library, you need to turn them on in the Governance dashboard.
+Select **Import from library**. To see more details about a particular rule, select the expand icon **>** next to the rule name. Select the rules in the library you want to add, then select **Import selected**. If you want to import all the rules, select **Import all**. Once you import new rules from the library, you need to turn them on in the Governance dashboard.
 
 ### Removing governance rules
 

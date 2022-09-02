@@ -8,8 +8,8 @@ search_keyword: "api security, security warnings, schema validation, security va
 
 The _API Security admin panel_ enables you to customize the rules that Postman applies to your API at both the design phase and the testing phase of API development:
 
-**API design** - Postman applies governance rules to your [API definition](/docs/designing-and-developing-your-api/defining-an-api/) and shows warnings about your definition's format and security posture.
-**API testing** - Postman applies governance rules to your [API requests](https://learning.postman.com/docs/api-governance/api-testing/api-testing-warnings/) and shows warnings about issues that might impact their security posture.
+* **API design** - Postman applies governance rules to your [API definition](/docs/designing-and-developing-your-api/defining-an-api/) and shows warnings about your definition's format and security posture.
+* **API testing** - Postman applies governance rules to your [API requests](https://learning.postman.com/docs/api-governance/api-testing/api-testing-warnings/) and shows warnings about issues that might impact their security posture.
 
 <!-- TODO: screenshot -->
 
@@ -40,7 +40,7 @@ You can set security rules that Postman runs during the design and testing phase
 
 > You must have an [Admin or Developer](/docs/collaborating-in-postman/roles-and-permissions/) role for your team to turn security rules off and on.
 
-All the available security rules turned on by default. Your team can configure individual security rules to meet your development needs. If you turn a rule off, you and your team members won't see warnings for this rule if it's violated in your API's definition or when you send an API request.
+All the available security rules are turned on by default. Your team can configure individual security rules to meet your development needs. If you turn a rule off, you and your team members won't see warnings for this rule if it's violated in your API's definition or when you send an API request.
 
 To turn a security rule off, select the toggle next to the rule name. To turn the rule back on, select the toggle again.
 
