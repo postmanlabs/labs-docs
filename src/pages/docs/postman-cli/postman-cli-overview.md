@@ -23,7 +23,7 @@ The Postman CLI is a secure command-line companion for Postman. The Postman CLI 
 The Postman CLI is similar to [Newman](/docs/running-collections/using-newman-cli/command-line-integration-with-newman/), but the Postman CLI is secured and supported by Postman. The Postman CLI also has these features:
 
 * Run a collection with its collection ID
-* Send run results to Postman by default
+* Send run results to Postman by default.
 
 ## Contents
 
