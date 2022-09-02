@@ -52,7 +52,9 @@ To turn a security rule off, select the toggle next to the rule name. To turn th
 <!--  -->
 > You must have an [Admin or Developer](/docs/collaborating-in-postman/roles-and-permissions/) role for your team to create custom governance rules.
 
-You can create new custom security rules for Postman to evaluate your API's definition with at the design phase of the API development process. The new rules you create must adhere to [Spectral guidelines for custom rules](https://meta.stoplight.io/docs/spectral/e5b9616d6d50c-custom-rulesets).
+You can create new custom security rules for Postman to evaluate your API's definition with at the design phase of the API development process.
+
+The new rules you create must adhere to [Spectral guidelines for custom rules](https://meta.stoplight.io/docs/spectral/e5b9616d6d50c-custom-rulesets). However, they can't include [Spectral custom functions](https://meta.stoplight.io/docs/spectral/ZG9jOjI1MTkw-custom-functions).
 
 1. Select **API definitions**.
 1. Select **Create new rule**.

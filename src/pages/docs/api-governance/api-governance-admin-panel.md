@@ -54,7 +54,9 @@ To remove a governance rule from the API Governance admin panel, select the dele
 
 > You must have an [Admin or Developer](/docs/collaborating-in-postman/roles-and-permissions/) role for your team to create custom governance rules.
 
-You can create new custom governance rules for Postman to evaluate your API's definition. The new rules you create must adhere to [Spectral guidelines for custom rules](https://meta.stoplight.io/docs/spectral/e5b9616d6d50c-custom-rulesets).
+You can create new custom governance rules for Postman to evaluate your API's definition.
+
+The new rules you create must adhere to [Spectral guidelines for custom rules](https://meta.stoplight.io/docs/spectral/e5b9616d6d50c-custom-rulesets). However, they can't include [Spectral custom functions](https://meta.stoplight.io/docs/spectral/ZG9jOjI1MTkw-custom-functions).
 
 1. Select **Create new rule**.
 1. Define the rule in the editor.
