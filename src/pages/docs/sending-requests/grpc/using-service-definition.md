@@ -64,7 +64,7 @@ To import a `.proto` file:
 
 1. Once you have selected the file, select **Next**. This takes you to the **Import as API** interface.
 
-1. Give your new API a name, add a version name, and select Import as an API.
+1. Give your new API a name, add a version name, and select **Import as API**.
 
 This will create a new protobuf API from the `.proto` file and use it in the request as a service definition.
 
