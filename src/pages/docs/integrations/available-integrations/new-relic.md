@@ -18,7 +18,7 @@ contextual_links:
     url: "https://youtu.be/voAUfBx8fnE"
 ---
 
-New Relic is an application performance management solution to monitor real-time and trending data for your processes or web apps. Using Postman's New Relic integration, you can send [Postman monitor](/docs/monitoring-your-api/intro-monitors/) results to New Relic.
+New Relic is an application performance management solution to monitor real-time and trending data for your processes or web apps. Using Postman's [New Relic integration](https://newrelic.com/instant-observability/postman/d465bf08-b737-4bc5-b5ad-dd5be272967b), you can send [Postman monitor](/docs/monitoring-your-api/intro-monitors/) results to New Relic.
 
 Setting up a New Relic monitor integration requires you to get an API key (Ingest License key) from New Relic and configure your Postman monitors. After you set up the integration, you can view real-time alerts based on the results of your monitors.
 
