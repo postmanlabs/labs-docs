@@ -95,11 +95,9 @@ To invoke a server streaming method, select the method from the **Method selecti
 
 ## The response section
 
-Once you invoke a method, the server gives back the appropriate response that appears in the response area.
+Once you invoke a method, the server gives back the appropriate response that appears in the response area. The response section contains the following items:
 
-<img src="https://assets.postman.com/postman-labs-docs/grpc-docs/request-interface/response-sections.jpeg" alt="Response pane">
-
-* **Response payload** - A response payload contains three types of information:
+* **Response** - A response payload contains three types of information:
 
     * **Response body** - The primary information returned by the server after the successful execution of a request.
 
@@ -109,7 +107,7 @@ Once you invoke a method, the server gives back the appropriate response that ap
 
 * **Wrap text button** - Selecting this button adjusts the width of the response body according to the width of the response area, making it easier to read longer responses without scrolling.
 
-* **Search through response** - Look for specific things within the response using the **Search** button.
+* **Search** - Look for specific things within the response using the **Search** button.
 
 * **Multiple responses** - While invoking a streaming method type (client streaming, server streaming, or bidirectional streaming), the client-server communication within a single session is recorded in the response area as a series of sent and received messages in a timeline instead of a single response.
 
@@ -130,8 +128,6 @@ Once you invoke a method, the server gives back the appropriate response that ap
 ## The sidebar
 
 The sidebar gives you access to additional tools and information like documentation, commenting, and meta information on the request.
-
-<img src="https://assets.postman.com/postman-labs-docs/grpc-docs/request-interface/right-sidebar.jpeg" alt="Sidebar panes">
 
 * **Request documentation** - Use the documentation pane to write documentation of your request, making it easier for others to consume it. When you select a method, Postman automatically generates documentation for the payload fields and data types using the Protobuf definition. You can add additional descriptions using markdown to make it better.
 
