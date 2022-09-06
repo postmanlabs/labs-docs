@@ -29,31 +29,31 @@ You can download and install the Postman CLI manually or programmatically (with 
 
     **Linux**
 
-    ```
-    curl -o- "https://[CDN link TBD]/install.linux64.sh" | bash)
+    ``` bash
+    curl -o- "https://[CDN link TBD]/install.linux64.sh" | bash
     ```
 
     **Mac - Intel chip**
 
-    ```
+    ``` bash
     curl -o- "https://[CDN link TBD]/install.osx_64.sh" | bash
     ```
 
     **Mac - Apple chip**
 
-    ```
-    curl -o- "https://[CDN link TBD]/install.osx_arm64.sh" | bash)
+    ``` bash
+    curl -o- "https://[CDN link TBD]/install.osx_arm64.sh" | bash
     ```
 
     **Windows - Powershell**
 
-    ```
+    ``` bash
     Set-ExecutionPolicy AllSigned -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://[CDN link TBD]/install.win64.ps1')))
     ```
 
     **Windows - cmd.exe**
 
-    ```
+    ``` bash
     @"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy AllSigned -Command "[System.Net.ServicePointManager]::SecurityProtocol = 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://<CDN link>/install.win64.ps1'))" && SET "PATH=%PATH%;C:\Postman CLI\")
     * [nix](curl -o- "https://[CDN link TBD]/install.nix.sh" | bash
 
@@ -67,7 +67,7 @@ To download and install the Postman CLI programmatically, add the appropriate co
 
 ### Linux installation commands
 
-```
+``` bash
 #!/bin/bash
 curl "https://dl-cli.pstmn.io/download/latest/linux64" -o postman-cli.zip
 tar -xf postman-cli.tar.gz
@@ -85,7 +85,7 @@ sudo mv postman-cli /usr/local/bin/postman
 
 ## Mac installation commands (Intel chip)
 
-```
+``` bash
 #!/bin/bash
 curl "https://dl-cli.pstmn.io/download/latest/osx_64" -o postman-cli.zip
 ditto -x -k postman-cli.zip ./
@@ -97,7 +97,7 @@ sudo mv postman-cli /usr/local/bin/postman
 
 ## Mac installation commands (Apple chip)
 
-```
+``` bash
 #!/bin/bash
 curl "https://dl-cli.pstmn.io/download/latest/osx_arm64" -o postman-cli.zip
 ditto -x -k postman-cli.zip ./
@@ -109,7 +109,7 @@ sudo mv postman-cli /usr/local/bin/postman
 
 ## Windows installation commands
 
-```
+``` bash
 # create dir
 $POSTMAN_CLI_PATH = "$Env:USERPROFILE\AppData\Local\Postman CLI"
 New-Item -type directory -path $POSTMAN_CLI_PATH -Force
@@ -129,7 +129,7 @@ $Env:PATH = "$Env:PATH;$POSTMAN_CLI_PATH""
 
 ## nix installation commands
 
-```
+``` bash
 #!/bin/bash
 
 OS=$(uname -s); shopt -s failglob

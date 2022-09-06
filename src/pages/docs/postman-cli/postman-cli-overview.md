@@ -47,7 +47,7 @@ The table below shows some high-level differences between the Postman CLI and Ne
 | Downloadable programmatically | Downloadable programmatically
 | Not available as a library | Available as a library
 
-### Deciding which command-line companion to use
+## Deciding which command-line companion to use
 
 Both the Postman CLI and Newman enable you to run and test collections directly from the command line, but one may be a better fit than the other, depending on your use case or preferences.
 

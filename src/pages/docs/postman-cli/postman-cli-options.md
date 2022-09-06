@@ -40,10 +40,10 @@ Commands and options for using the Postman CLI.
 | `--cookie-jar` | Specify the file path for a `JSON` Cookie Jar. Uses `tough-cookie` to deserialize the file. |
 | `--delay-request` | Specify a delay (in milliseconds) between requests. |
 | `--disable-unicode` | Force the unicode disable option. When supplied, replaces all symbols in the output with their plain text equivalents. |
-| `--env-var` | Set environment variables in a key=value format on the command line. |
+| `--env-var` | Set environment variables in a `key=value` format on the command line. |
 | `--environment` | Specify a Postman environment as a `JSON` [file]. |
 | `--export-cookie-jar` | The path to the file where Postman CLI will output the final cookie jar file before completing a run. Uses `tough-cookie` to serialize the file. |
-| `--global-var` | Specify global variables on the command line, in a key=value format. |
+| `--global-var` | Specify global variables on the command line, in a `key=value` format. |
 | `--globals` | Specify a Postman globals file as `JSON` [file]. |
 | `--iteration-count` | Define the number of iterations to run. |
 | `--iteration-data` | Specify a data file to use, either `JSON` or `CSV`. |
@@ -86,13 +86,13 @@ To download manually, use the commands and links below:
 
 #### Windows (Powershell)
 
-```
+``` bash
 Set-ExecutionPolicy AllSigned -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://<CDN link>/install.win64.ps1'))
 ```
 
 #### Windows (cmd.exe)
 
-```
+``` bash
 @"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy AllSigned -Command "[System.Net.ServicePointManager]::SecurityProtocol = 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://<CDN link>/install.win64.ps1'))" && SET "PATH=%PATH%;C:\Postman CLI\"
 ```
 
@@ -102,7 +102,7 @@ To download programmatically, use the commands below:
 
 #### Linux
 
-```
+``` bash
 #!/bin/bash
 curl "https://dl-cli.pstmn.io/download/latest/linux64" -o postman-cli.zip
 tar -xf postman-cli.tar.gz
@@ -115,7 +115,7 @@ sudo mv postman-cli /usr/local/bin/postman
 
 #### Mac OS (Intel chip)
 
-```
+``` bash
 #!/bin/bash
 curl "https://dl-cli.pstmn.io/download/latest/osx_64" -o postman-cli.zip
 ditto -x -k postman-cli.zip ./
@@ -127,7 +127,7 @@ sudo mv postman-cli /usr/local/bin/postman
 
 #### Mac OS (Apple chip)
 
-````
+``` bash
 #!/bin/bash
 curl "https://dl-cli.pstmn.io/download/latest/osx_arm64" -o postman-cli.zip
 ditto -x -k postman-cli.zip ./
@@ -135,11 +135,11 @@ rm postman-cli.zip
 echo "Please provide permission to write to /usr/local/bin/:"
 sudo mkdir -p /usr/local/bin/
 sudo mv postman-cli /usr/local/bin/postman
-````
+```
 
 #### Windows
 
-```
+``` bash
 # create dir
 $POSTMAN_CLI_PATH = "$Env:USERPROFILE\AppData\Local\Postman CLI"
 New-Item -type directory -path $POSTMAN_CLI_PATH -Force
@@ -159,7 +159,7 @@ $Env:PATH = "$Env:PATH;$POSTMAN_CLI_PATH""
 
 #### nix
 
-```
+``` bash
 #!/bin/bash
 
 OS=$(uname -s); shopt -s failglob
@@ -239,7 +239,7 @@ This command authenticates the user and stores the API key in your filesystem. `
 
 #### Example
 
-```
+``` bash
 login --with-api-key ABCD-1234-1234-1234-1234-1234
 ```
 
@@ -249,7 +249,7 @@ This command logs you out of Postman and deletes the stored API key.
 
 #### Example
 
-```
+``` bash
 logout
 ```
 
@@ -271,7 +271,7 @@ This command runs a collection and sends all run results and responses to Postma
 
 #### Examples
 
-```
+``` bash
 postman collection run /myCollectionFolderName/myCollectionFile.json
 
 postman collection run 12345678-12345ab-1234-1ab2-1ab2-ab1234112a12
@@ -286,7 +286,7 @@ postman collection run 12345678-12345ab-1234-1ab2-1ab2-ab1234112a12
 | `--cookie-jar [path]` | Specifies the file path for a `JSON` cookie jar. Uses `tough-cookie` to deserialize the file. |
 | `--delay-request [number]` | Specifies a delay (in milliseconds) between requests. |
 | `--disable-unicode` | Replaces all symbols in the output with their plain text equivalents. |
-| `--environment [uid] or [file-path]`, `-e` | Specifies an environment file path or UID. |
+| `--environment [UID] or [file-path]`, `-e` | Specifies an environment file path or UID. |
 | `--env-var "[environment-variable-name]=[environment-variable-value]"` | Specifies environment variables via the command line, in a `key=value` format. Multiple CLI environment variables can be added by using `--env-var` multiple times, for example: `--env-var "this=that" --env-var "alpha=beta".`|
 | `--export-cookie-jar [path]` | Specifies the path where Postman CLI will output the final cookie jar file before completing a run. Uses `tough-cookie` to serialize the file. |
 | `--global-var "[global-variable-name]=[global-variable-value]"` | Specifies global variables via the command line, in a `key=value` format. Multiple CLI global variables can be added by using `--global-var` multiple times, for example: `--global-var "this=that" --global-var "alpha=beta".`|
@@ -314,13 +314,13 @@ API governance is the practice of applying a defined set of standards consistent
 
 ### postman api lint
 
-This command runs validation checks for governance and security rules against the api definition provided in the Postman config file, a local file, or a UUID. You can only lint single-file definitions. `api lint` shows a warning if unable to find `[api-id]` to send data back to Postman.
+This command runs validation checks for governance and security rules against the api definition provided in the Postman config file, a local file, or a UUID. You can only lint single-file definitions. `api lint` shows a warning if unable to find the API ID to send data back to Postman.
 
 > This command supports APIs that are stored on Postman and aren't linked to Git.
 
 #### Example
 
-```
+``` bash
 postman api lint my-definition-file.json
 postman api lint 8854915-bb7236b2-536e-4bdc-bfa2-fbe2fe1941eb
 ```
@@ -335,7 +335,7 @@ This is the base command, usually combined with `collection run` or `api lint`.
 
 #### Example
 
-```
+``` bash
 postman -v
 ```
 
