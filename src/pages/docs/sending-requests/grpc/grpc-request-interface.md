@@ -95,6 +95,12 @@ With the server streaming method type, when a client invokes a method with all t
 
 To invoke a server streaming method, select the method from the **Method selection** dropdown, enter the details, and select **Invoke**. The request goes into a persistent 'Streaming' state and the responses from the server start appearing at the bottom in the response area. Depending on the use case, the stream closes automatically after the server has streamed all the messages. You can manually end the stream by selecting **Cancel** next to the **URL bar**.
 
+### Invoking a bidirectional streaming method
+
+In the case of bidirectional streaming, the client and the server can communicate with each other asynchronously.
+
+To invoke a bidirectional streaming method, select the method from the **Method selection** dropdown and select **Invoke**. This puts the request in a ‘Streaming' state and you can start sending messages to the server. The server can also respond back freely within the same session. Once you’re done, select **End streaming** to end the session.
+
 ## The response section
 
 Once you invoke a method, the server gives back the appropriate response that appears in the response area. The response section contains the following items:
