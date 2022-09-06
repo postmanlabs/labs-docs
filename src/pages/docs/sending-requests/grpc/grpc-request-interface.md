@@ -27,11 +27,13 @@ gRPC requests in Postman include a variety of tools, views, and controls to help
 
 Create a new gRPC request by selecting the **New** button in the left sidebar which brings up the **Create new** dialog. Select gRPC request from the list to open a blank **gRPC request** in a new tab.
 
+<img src="https://assets.postman.com/postman-docs/v10/grpc-new-request.gif" alt="New gRPC request" />
+
 ## The request section
 
 The request section includes the required configurations to connect to the server and execute the selected method. Requests need a server URL, a service definition and a selected method in order to be invoked. Additionally, based on the API requirements, you may have to pass message payloads, metadata and authorization details along with it. You may also have to configure TLS and additional certificates based on the requirements.
 
-<img src="https://assets.postman.com/postman-labs-docs/grpc-docs/request-interface/request-sections.jpeg" alt="Request pane">
+<img src="https://assets.postman.com/postman-labs-docs/grpc-docs/request-interface/request-sections.jpeg" alt="Request pane" />
 
 * **Server URL** - Defines the endpoint where the service is hosted. A gRPC URL often starts with `grpc://` instead of `http://` or `https://`. While creating a new request, you can also browse through previously used URLs by selecting the URL field. This helps you create the request faster if you’re testing multiple methods on the same endpoint.
 
