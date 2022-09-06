@@ -40,7 +40,7 @@ If enabled by the server, server reflection can be the easiest way to add the se
 
 ## Using a protobuf API
 
-If server reflection isn't enabled by the server, you can use a protobuf API as a service definition for the request. For this, you can either select an existing protobuf API in your workspace or import a `.proto` file as protobuf API into Postman. You can also create a new protobuf API using the Postman API Builder.
+If server reflection isn't enabled by the server, you can use a protobuf API as a service definition for the request. For this, you can either select an existing protobuf API in your workspace or import a `.proto` file as a protobuf API into Postman. You can also create a new protobuf API using the Postman API Builder.
 
 ### Selecting an existing protobuf API from the workspace
 
