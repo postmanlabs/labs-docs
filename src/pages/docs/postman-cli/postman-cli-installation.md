@@ -23,52 +23,33 @@ You can download and install the Postman CLI manually or programmatically (with 
 
 ## Contents
 
-* [Downloading and installing Postman CLI manually](#downloading-and-installing-postman-cli-manually)
-* [Downloading and installing Postman CLI programmatically](#downloading-and-installing-postman-cli-programmatically)
+* [System requirements](#system-requirements)
+* [Linux installation](#linux-installation)
+* [Mac (Apple chip) installation](#mac-apple-chip-installation)
+* [Mac (Intel) installation](#mac-intel-installation)
+* [Windows installation](#windows-installation)
 
-## Downloading and installing Postman CLI manually
+## System requirements
+
+The Postman CLI supports the same operating system requirements as the Postman desktop app. For a complete list of system requirements, see [Installing and updating Postman](/docs/getting-started/installation-and-updates/).
+
+## Linux installation
+
+Use the following commands to install the Postman CLI for Linux.
+
+### Manual installation
 
 1. Download the installation script for your platform from the [download page](https://www.postman.com/downloads/) or with the appropriate link below:
 
-    **Linux**
-
     ``` bash
-    curl -o- "https://[CDN link TBD]/install.linux64.sh" | bash
-    ```
-
-    **Mac - Intel chip**
-
-    ``` bash
-    curl -o- "https://[CDN link TBD]/install.osx_64.sh" | bash
-    ```
-
-    **Mac - Apple chip**
-
-    ``` bash
-    curl -o- "https://[CDN link TBD]/install.osx_arm64.sh" | bash
-    ```
-
-    **Windows - Powershell**
-
-    ``` bash
-    Set-ExecutionPolicy AllSigned -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://[CDN link TBD]/install.win64.ps1')))
-    ```
-
-    **Windows - cmd.exe**
-
-    ``` bash
-    @"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy AllSigned -Command "[System.Net.ServicePointManager]::SecurityProtocol = 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://<CDN link>/install.win64.ps1'))" && SET "PATH=%PATH%;C:\Postman CLI\")
-    * [nix](curl -o- "https://[CDN link TBD]/install.nix.sh" | bash
-
+    curl -o- "https://dl-cli.pstmn.io/install.linux64.sh" | bash
     ```
 
 1. Run the downloaded script file to install the Postman CLI.
 
-## Downloading and installing Postman CLI programmatically
+### Programmatic installation
 
 To download and install the Postman CLI programmatically, add the appropriate code snippet to your CI script:
-
-### Linux installation commands
 
 ``` bash
 #!/bin/bash
@@ -80,25 +61,25 @@ sudo mkdir -p /usr/local/bin/
 sudo mv postman-cli /usr/local/bin/postman
 ```
 
-> The Postman CLI supports the same Linux distributions as Postman:
->
-> * Ubuntu 14.04 and newer
-> * Fedora 24
-> * Debian 8 and newer
+## Mac (Apple chip) installation
 
-## Mac installation commands (Intel chip)
+Use the following commands to install the Postman CLI for Macs with Apple M1/M2 chips.
 
-``` bash
-#!/bin/bash
-curl "https://dl-cli.pstmn.io/download/latest/osx_64" -o postman-cli.zip
-ditto -x -k postman-cli.zip ./
-rm postman-cli.zip
-echo "Please provide permission to write to /usr/local/bin/:"
-sudo mkdir -p /usr/local/bin/
-sudo mv postman-cli /usr/local/bin/postman
-```
+### Manual installation
 
-## Mac installation commands (Apple chip)
+1. Download the installation script for your platform from the [download page](https://www.postman.com/downloads/) or with the appropriate link below:
+
+    **Mac - Apple chip**
+
+    ``` bash
+    curl -o- "https://dl-cli.pstmn.io/download/latest/install.osx_arm64.sh" | bash
+    ```
+
+1. Run the downloaded script file to install the Postman CLI.
+
+### Programmatic installation
+
+To download and install the Postman CLI programmatically, add the appropriate code snippet to your CI script:
 
 ``` bash
 #!/bin/bash
@@ -110,7 +91,60 @@ sudo mkdir -p /usr/local/bin/
 sudo mv postman-cli /usr/local/bin/postman
 ```
 
-## Windows installation commands
+## Mac (Intel) installation
+
+Use the following commands to install the Postman CLI for Macs with Intel chips.
+
+### Manual installation
+
+1. Download the installation script for your platform from the [download page](https://www.postman.com/downloads/) or with the appropriate link below:
+
+    ``` bash
+    curl -o- "https://dl-cli.pstmn.io/download/latest/install.osx_64.sh" | bash
+    ```
+
+1. Run the downloaded script file to install the Postman CLI.
+
+### Programmatic installation
+
+To download and install the Postman CLI programmatically, add the appropriate code snippet to your CI script:
+
+``` bash
+#!/bin/bash
+curl "https://dl-cli.pstmn.io/download/latest/osx_64" -o postman-cli.zip
+ditto -x -k postman-cli.zip ./
+rm postman-cli.zip
+echo "Please provide permission to write to /usr/local/bin/:"
+sudo mkdir -p /usr/local/bin/
+sudo mv postman-cli /usr/local/bin/postman
+```
+
+## Windows installation
+
+Use the following commands to install the Postman CLI for Windows.
+
+### Manual installation
+
+1. Download the installation script for your platform from the [download page](https://www.postman.com/downloads/) or with the appropriate link below:
+
+    **Windows - Powershell**
+
+    ``` bash
+    Set-ExecutionPolicy AllSigned -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://dl-cli.pstmn.io/download/latest/install.win64.ps1')))
+    ```
+
+    **Windows - cmd.exe**
+
+    ``` bash
+    @"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy AllSigned -Command "[System.Net.ServicePointManager]::SecurityProtocol = 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://dl-cli.pstmn.io/download/latest/install.win64.ps1'))" && SET "PATH=%PATH%;C:\Postman CLI\")
+    * [nix](curl -o- "https://dl-cli.pstmn.io/download/latest/win64" | bash
+    ```
+
+1. Run the downloaded script file to install the Postman CLI.
+
+### Programmatic installation
+
+To download and install the Postman CLI programmatically, add the appropriate code snippet to your CI script:
 
 ``` bash
 # create dir
@@ -128,74 +162,4 @@ echo "You can find your executable in $POSTMAN_CLI_PATH"
 
 # set current session path
 $Env:PATH = "$Env:PATH;$POSTMAN_CLI_PATH""
-```
-
-## nix installation commands
-
-``` bash
-#!/bin/bash
-
-OS=$(uname -s); shopt -s failglob
-ARCH=$(uname -m)
-EXTENSION=zip
-FOLDER=/usr/local/bin/
-PACKAGE_LINK=''
-
-if [[ "$OS" == "Linux" ]]; then
-  EXTENSION=tar.gz
-  PACKAGE_LINK="linux64"
-elif [[ "$OS" == "Darwin" ]]; then
-  PACKAGE_LINK="osx_$ARCH"
-fi
-
-
-CLI_URL="https://dl-cli.pstmn.io/download/latest/$PACKAGE_LINK"
-
-pstmn_extract() {
-  if [[ "$OS" = "Linux" ]]; then
-    tar -xf "$1" ./
-  else
-    ditto -x -k "$1" ./
-  fi
-}
-
-has_dep() {
-  type "$1" > /dev/null 2>&1
-}
-
-pstmn_echo() {
-  command printf %s\\n "$*" 2>/dev/null
-}
-
-download() {
-  if has_dep "curl"; then
-    curl --fail --compressed -q "$@"
-  elif has_dep "wget"; then
-    ARGS=$(pstmn_echo "$@" | command sed -e 's/--progress-bar /--progress=bar /' \
-                            -e 's/--compressed //' \
-                            -e 's/--fail //' \
-                            -e 's/-L //' \
-                            -e 's/-I /--server-response /' \
-                            -e 's/-s /-q /' \
-                            -e 's/-sS /-nv /' \
-                            -e 's/-o /-O /' \
-                            -e 's/-C - /-c /')
-    # shellcheck disable=SC2086
-    eval wget $ARGS
-  fi
-}
-
-echo $CLI_URL
-
-download -s "$CLI_URL" -o postman-cli.$EXTENSION || {
-  pstmn_echo >&2 "Failed to download from $CLI_URL"
-  exit 1
-}
-
-pstmn_extract postman-cli.$EXTENSION
-
-rm postman-cli.$EXTENSION
-pstmn_echo "Please provide permission to write to ${FOLDER}:"
-sudo mkdir -p $FOLDER
-sudo mv postman-cli ${FOLDER}/postman
 ```

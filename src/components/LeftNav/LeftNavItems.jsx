@@ -39,7 +39,7 @@ export const leftNavItems = [
         url: '/docs/getting-started/introduction/',
       },
       {
-        name: 'Installing and Updating',
+        name: 'Installing and Updating Postman',
         url: '/docs/getting-started/installation-and-updates/',
       },
       {
