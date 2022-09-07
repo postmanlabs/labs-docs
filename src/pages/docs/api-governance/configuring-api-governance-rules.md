@@ -4,7 +4,7 @@ updated: 2022-09-15
 search_keyword: "api governance, schema validation, api schema vulnerabilities"
 ---
 
-> [Configurable governance rules are only available to Postman Enterprise teams.](https://www.postman.com/pricing) If you don't have an Enterprise account, you'll be able to see the API Governance admin panel, but you won't be able to turn rules on or off or add new rules.
+> [Configurable governance rules are only available to Postman Enterprise teams.](https://www.postman.com/pricing) If you don't have an Enterprise account, you'll be able to see the API Governance dashboard, but you won't be able to turn rules on or off or add new rules.
 
 You can use the _API Governance dashboard_ to customize the governance rules that Postman applies to your [API definition](/docs/designing-and-developing-your-api/defining-an-api/). Postman lints your API definition and shows you any rule violations. Adhering to these API Governance rules enables you keep your API consistent and consumable.
 
@@ -12,17 +12,17 @@ You can use the _API Governance dashboard_ to customize the governance rules tha
 
 ## Contents
 
-* [Accessing the API Governance admin panel](#accessing-the-api-governance-admin-panel)
+* [Accessing the API Governance dashboard](#accessing-the-api-governance-dashboard)
 * [Configuring governance rules for your team](#configuring-governance-rules-for-your-team)
 * [Creating custom governance rules](#creating-custom-governance-rules)
     * [Turning off custom governance rules](#turning-off-custom-governance-rules)
     * [Deleting custom governance rules](#deleting-custom-governance-rules)
 
-## Accessing the API Governance admin panel
+## Accessing the API Governance dashboard
 
 To access the API Governance panel, go to the [Postman home screen](https://go.postman.co/), then select **API Governance** from the team information panel.
 
-> Access to the API Governance admin panel is only available for users who have both an Admin and a Developer role assigned to them. If you don't see the **API Governance** link from the Postman home page, you might not have the correct permissions. Talk to your Team Admin to discuss your [assigned roles](/docs/collaborating-in-postman/roles-and-permissions/).
+> Access to the API Governance dashboard is only available for users who have both an Admin and a Developer role assigned to them. If you don't see the **API Governance** link from the Postman home page, you might not have the correct permissions. Talk to your Team Admin to discuss your [assigned roles](/docs/collaborating-in-postman/roles-and-permissions/).
 
 ## Configuring governance rules for your team
 
@@ -46,7 +46,7 @@ Select **Import from library**. To see more details about a particular rule, sel
 
 ### Removing governance rules
 
-To remove a governance rule from the API Governance admin panel, select the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> next to its name. You can re-import from the rule library by selecting **Import from library**.
+To remove a governance rule from the API Governance dashboard, select the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> next to its name. You can re-import from the rule library by selecting **Import from library**.
 
 <!-- TODO: screenshot -->
 
@@ -64,7 +64,7 @@ The new rules you create must adhere to [Spectral guidelines for custom rules](h
 1. The rule must be valid YAML or JSON. Use the dropdown list to choose the correct syntax.
 1. Select OpenAPI 2.0 or OpenAPI 3.0 to choose which specification your new rule is valid for.
 1. Select **Create**.
-1. In the API Governance admin panel, find your new rule under **Custom rules** and turn it on.
+1. In the API Governance dashboard, find your new rule under **Custom rules** and turn it on.
 
 <!-- TODO: screenshot -->
 

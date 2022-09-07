@@ -4,7 +4,7 @@ updated: 2022-09-15
 search_keyword: "api security, security warnings, schema validation, security validation, api security audit, api security scan, api schema vulnerabilities, security audit"
 ---
 
-> [Configurable security rules are only available to Postman Enterprise teams.](https://www.postman.com/pricing) If you don't have an Enterprise account, you'll be able to see the API Security admin panel, but you won't be able to turn rules on or off or add new rules.
+> [Configurable security rules are only available to Postman Enterprise teams.](https://www.postman.com/pricing) If you don't have an Enterprise account, you'll be able to see the API Security dashboard, but you won't be able to turn rules on or off or add new rules.
 
 You can use the _API Security dashboard_ to configure the rules that Postman applies to your API at both the design phase and the testing phase of API development:
 
@@ -15,24 +15,24 @@ You can use the _API Security dashboard_ to configure the rules that Postman app
 
 ## Contents
 
-* [Accessing the API Security admin panel](#accessing-the-api-security-admin-panel)
+* [Accessing the API Security dashboard](#accessing-the-api-security-dashboard)
 * [Configuring security rules for your team](#configuring-security-rules-for-your-team)
 * [Creating custom security rules](#creating-custom-security-rules)
     * [Turning off custom security rules](#turning-off-custom-security-rules)
     * [Deleting custom security rules](#deleting-custom-security-rules)
 
-## Accessing the API Security admin panel
+## Accessing the API Security dashboard
 
 To access the API Security panel, go to the [Postman home screen](https://go.postman.co/), then select **API Security** from the team information panel.
 
-> Access to the API Security admin panel is only available for users who have both an Admin and a Developer role assigned to them. If you don't see the **API Security** link from the Postman home page, you might not have the correct permissions. Talk to your Team Admin to discuss your [assigned roles](/docs/collaborating-in-postman/roles-and-permissions/).
+> Access to the API Security dashboard is only available for users who have both an Admin and a Developer role assigned to them. If you don't see the **API Security** link from the Postman home page, you might not have the correct permissions. Talk to your Team Admin to discuss your [assigned roles](/docs/collaborating-in-postman/roles-and-permissions/).
 
 ## Configuring security rules for your team
 
 You can set security rules that Postman runs during the design and testing phases of the API development process:
 
 * To configure the security rules that Postman runs during the design phase of API development, select **API definitions**.
-* To configure the security rules that Postman runs during the testing phase of API development, select **Requests**.
+* To configure the sdashboardty rules that Postman runs during the testing phase of API development, select **Requests**.
 
 <!-- TODO: screenshot -->
 
@@ -63,7 +63,7 @@ The new rules you create must adhere to [Spectral guidelines for custom rules](h
 1. The rule must be valid YAML or JSON. Use the dropdown list to choose the correct syntax.
 1. Select OpenAPI 2.0 or OpenAPI 3.0 to choose which specification your new rule is valid for.
 1. Select **Create**.
-1. In the API Security admin panel, find your new rule under **Custom rules** and turn it on.
+1. In the API Security dashboard, find your new rule under **Custom rules** and turn it on.
 
 <!-- TODO: screenshot -->
 
