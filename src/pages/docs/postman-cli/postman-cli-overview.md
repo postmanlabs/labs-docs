@@ -10,7 +10,7 @@ contextual_links:
   - type: section
     name: "Next Steps"
   - type: link
-    name: "Installing Postman CLI"
+    name: "Installing the Postman CLI"
     url: "/docs/postman-cli/postman-cli-installation/"
 warning: false
 ---

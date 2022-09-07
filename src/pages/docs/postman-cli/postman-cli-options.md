@@ -10,7 +10,11 @@ contextual_links:
   - type: link
     name: "Installing the Postman CLI"
     url: "/docs/postman-cli/postman-cli-installation/"
-
+  - type: section
+    name: "Next steps"
+  - type: link
+    name: "Running a collection with the Postman CLI"
+    url: "/docs/postman-cli/postman-cli-run-collection/"
 warning: false
 tags:
   - "Postman CLI"
@@ -74,15 +78,21 @@ To download manually, use the commands and links below:
 
 #### Linux
 
-`curl -o- "https://[CDN link TBD]/install.linux64.sh" | bash`
+``` bash
+curl -o- "https://[CDN link TBD]/install.linux64.sh" | bash
+```
 
 #### Mac (Intel chip)
 
-`curl -o- "https://[CDN link TBD]/install.osx_64.sh" | bash`
+``` bash
+curl -o- "https://[CDN link TBD]/install.osx_64.sh" | bash
+```
 
 #### Mac (Apple chip)
 
-`curl -o- "https://[CDN link TBD]/install.osx_arm64.sh" | bash`
+``` bash
+curl -o- "https://[CDN link TBD]/install.osx_arm64.sh" | bash
+```
 
 #### Windows (Powershell)
 
@@ -267,7 +277,7 @@ You can run your collections with the `postman collection run` command:
 
 ### **postman collection run**
 
-This command runs a collection and sends all run results and responses to Postman servers. You can specify the collection with its UID or file path.
+This command runs a collection and sends all run results and responses to Postman servers. You can specify the collection with its file path or UID.
 
 #### Examples
 

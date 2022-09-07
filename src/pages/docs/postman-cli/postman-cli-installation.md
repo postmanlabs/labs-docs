@@ -12,6 +12,9 @@ contextual_links:
   - type: link
     name: "Postman CLI command options"
     url: "/docs/postman-cli/postman-cli-options/"
+  - type: link
+    name: "Running a collection with the Postman CLI"
+    url: "/docs/postman-cli/postman-cli-run-collection/"
 
 warning: false
 ---

@@ -5,19 +5,26 @@ contextual_links:
   - type: section
     name: "Prerequisites"
   - type: link
-    name: "Postman CLI Overview"
-    url: "/docs/postman-cli/overview/"
+    name: "Postman CLI overview"
+    url: "/docs/postman-cli/postman-cli-overview/"
   - type: link
-    name: "/docs/postman-cli/installation"
-  - type: section
-    name: "Next Steps"
-  - type: link
-    name: "Installing Postman CLI"
+    name: "Installing the Postman CLI"
     url: "/docs/postman-cli/postman-cli-installation/"
+  - type: link
+    name: "Postman CLI command options"
+    url: "/docs/postman-cli/postman-cli-options/"
 warning: false
+tags:
+  - "Postman CLI"
+
 ---
 
 You can use the Postman API Platform to manually validate your APIs. With Postman CLI, you can also script these manual validations into tests and assertions which you can then run with the Postman Collection Runner.
+
+## Contents
+
+* [Running a collection locally with the Postman CLI](#running-a-collection-locally-with-the-postman-cli)
+* [Running a collection in CI/CD](#running-a-collection-in-cicd)
 
 ## Running a collection locally with the Postman CLI
 
@@ -55,7 +62,7 @@ When the collections run to your satisfaction, you can copy the commands into yo
 
 1. Select a collection and environment. To add collections and environments, select `+ Add More`.
 
-1. Select a CI/CD Provider.
+1. Select a CI/CD provider.
 
 1. Select an operating system.
 
