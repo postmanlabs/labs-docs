@@ -37,8 +37,6 @@ The Postman CLI supports the same operating system requirements as the Postman d
 
 Use the following commands to install the Postman CLI for Linux.
 
-### Manual installation
-
 1. Download the installation script for your platform from the [download page](https://www.postman.com/downloads/) or using the following curl command:
 
     ``` bash
@@ -47,25 +45,9 @@ Use the following commands to install the Postman CLI for Linux.
 
 1. Run the downloaded script file to install the Postman CLI.
 
-### Programmatic installation
-
-To download and install the Postman CLI programmatically, add the appropriate code snippet to your CI script:
-
-``` bash
-#!/bin/bash
-curl "https://dl-cli.pstmn.io/download/latest/linux64" -o postman-cli.zip
-tar -xf postman-cli.tar.gz
-rm postman-cli.tar.gz
-echo "Please provide permission to write to /usr/local/bin/:"
-sudo mkdir -p /usr/local/bin/
-sudo mv postman-cli /usr/local/bin/postman
-```
-
 ## Mac (Apple chip) installation
 
 Use the following commands to install the Postman CLI for Macs with Apple M1/M2 chips.
-
-### Manual installation
 
 1. Download the installation script for your platform from the [download page](https://www.postman.com/downloads/) or using the following curl command:
 
@@ -77,25 +59,9 @@ Use the following commands to install the Postman CLI for Macs with Apple M1/M2 
 
 1. Run the downloaded script file to install the Postman CLI.
 
-### Programmatic installation
-
-To download and install the Postman CLI programmatically, add the appropriate script to your CI script:
-
-``` bash
-#!/bin/bash
-curl "https://dl-cli.pstmn.io/download/latest/osx_arm64" -o postman-cli.zip
-ditto -x -k postman-cli.zip ./
-rm postman-cli.zip
-echo "Please provide permission to write to /usr/local/bin/:"
-sudo mkdir -p /usr/local/bin/
-sudo mv postman-cli /usr/local/bin/postman
-```
-
 ## Mac (Intel) installation
 
 Use the following commands to install the Postman CLI for Macs with Intel chips.
-
-### Manual installation
 
 1. Download the installation script for your platform from the [download page](https://www.postman.com/downloads/) or using the following curl command:
 
@@ -105,25 +71,9 @@ Use the following commands to install the Postman CLI for Macs with Intel chips.
 
 1. Run the downloaded script file to install the Postman CLI.
 
-### Programmatic installation
-
-To download and install the Postman CLI programmatically, add the appropriate script to your CI script:
-
-``` bash
-#!/bin/bash
-curl "https://dl-cli.pstmn.io/download/latest/osx_64" -o postman-cli.zip
-ditto -x -k postman-cli.zip ./
-rm postman-cli.zip
-echo "Please provide permission to write to /usr/local/bin/:"
-sudo mkdir -p /usr/local/bin/
-sudo mv postman-cli /usr/local/bin/postman
-```
-
 ## Windows installation
 
 Use the following commands to install the Postman CLI for Windows.
-
-### Manual installation
 
 1. Download the installation script for your platform from the [download page](https://www.postman.com/downloads/) or with the appropriate script below:
 
@@ -141,25 +91,3 @@ Use the following commands to install the Postman CLI for Windows.
     ```
 
 1. Run the downloaded script file to install the Postman CLI.
-
-### Programmatic installation
-
-To download and install the Postman CLI programmatically, add the appropriate script to your CI script:
-
-``` bash
-# create dir
-$POSTMAN_CLI_PATH = "$Env:USERPROFILE\AppData\Local\Postman CLI"
-New-Item -type directory -path $POSTMAN_CLI_PATH -Force
-
-# download file
-$client = new-object System.Net.WebClient
-$client.DownloadFile("https://dl-cli.pstmn.io/download/latest/win64", "$POSTMAN_CLI_PATH\postman-cli.zip")
-
-# extract archive
-Expand-Archive "$POSTMAN_CLI_PATH\postman-cli.zip" $POSTMAN_CLI_PATH
-
-echo "You can find your executable in $POSTMAN_CLI_PATH"
-
-# set current session path
-$Env:PATH = "$Env:PATH;$POSTMAN_CLI_PATH""
-```

@@ -70,11 +70,7 @@ Commands and options for using the Postman CLI.
 
 ## Downloading and installing
 
-You can download the Postman CLI installation script manually or programmatically (from the command line or a script).
-
-### Downloading manually
-
-To download manually, use the commands and links below:
+You can download the Postman CLI installation script with the following commands:
 
 #### Linux
 
@@ -98,67 +94,6 @@ curl -o- "https://dl-cli.pstmn.io/install/osx_arm64.sh" | bash
 
 ``` bash
 powershell.exe -NoProfile -InputFormat None -ExecutionPolicy AllSigned -Command "[System.Net.ServicePointManager]::SecurityProtocol = 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://dl-cli.pstmn.io/install/win64.ps1'))" && SET "PATH=%PATH%;C:\Postman CLI\"
-```
-
-### Downloading programmatically
-
-To download programmatically, use the commands below:
-
-#### Linux
-
-``` bash
-#!/bin/bash
-curl "https://dl-cli.pstmn.io/download/latest/linux64" -o postman-cli.zip
-tar -xf postman-cli.tar.gz
-rm postman-cli.tar.gz
-echo "Please provide permission to write to /usr/local/bin/:"
-sudo mkdir -p /usr/local/bin/
-sudo mv postman-cli /usr/local/bin/postman
-
-```
-
-#### Mac OS (Intel chip)
-
-``` bash
-#!/bin/bash
-curl "https://dl-cli.pstmn.io/download/latest/osx_64" -o postman-cli.zip
-ditto -x -k postman-cli.zip ./
-rm postman-cli.zip
-echo "Please provide permission to write to /usr/local/bin/:"
-sudo mkdir -p /usr/local/bin/
-sudo mv postman-cli /usr/local/bin/postman
-```
-
-#### Mac OS (Apple chip)
-
-``` bash
-#!/bin/bash
-curl "https://dl-cli.pstmn.io/download/latest/osx_arm64" -o postman-cli.zip
-ditto -x -k postman-cli.zip ./
-rm postman-cli.zip
-echo "Please provide permission to write to /usr/local/bin/:"
-sudo mkdir -p /usr/local/bin/
-sudo mv postman-cli /usr/local/bin/postman
-```
-
-#### Windows
-
-``` bash
-# create dir
-$POSTMAN_CLI_PATH = "$Env:USERPROFILE\AppData\Local\Postman CLI"
-New-Item -type directory -path $POSTMAN_CLI_PATH -Force
-
-# download file
-$client = new-object System.Net.WebClient
-$client.DownloadFile("https://dl-cli.pstmn.io/download/latest/win64", "$POSTMAN_CLI_PATH\postman-cli.zip")
-
-# extract archive
-Expand-Archive "$POSTMAN_CLI_PATH\postman-cli.zip" $POSTMAN_CLI_PATH
-
-echo "You can find your executable in $POSTMAN_CLI_PATH"
-
-# set current session path
-$Env:PATH = "$Env:PATH;$POSTMAN_CLI_PATH""
 ```
 
 ---
