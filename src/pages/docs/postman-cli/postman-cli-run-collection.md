@@ -28,13 +28,15 @@ You can use the Postman API Platform to manually validate your APIs. With Postma
 
 ## Running a collection locally with the Postman CLI
 
+1. [Install Postman CLI](/docs/postman-cli/postman-cli-installation).
+
 1. Select **Collections** in the sidebar and select the collection you want to run.
 
 1. On the Overview tab, select <img alt="Runner icon" src="https://assets.postman.com/postman-docs/icon-runner-v9.jpg#icon" width="16px"> **Run**.
 
 1. On the Collection Runner, select **Automate runs via CLI**.
 
-    <img alt="Automate runs via CLI" src="https://assets.postman.com/postman-docs/automate-cli-v10.jpg" style="border: 1px solid #4a4a4a">
+    <img alt="Automate runs via CLI" src="https://assets.postman.com/postman-docs/PCLI-automate-cli-v10.jpg" style="border: 1px solid #4a4a4a">
 
 1. In the **Postman CLI command** window, select **Add API Key**.
 
@@ -52,7 +54,7 @@ You can use the Postman API Platform to manually validate your APIs. With Postma
 
 1. Paste and run the commands in your terminal.
 
-1. After running the commands, the Postman CLI generates a link. Follow the link to check your results.
+1. After running the commands, the Postman CLI generates a link. Follow the link to check the results on Postman.
 
 ## Running a collection in CI/CD
 
@@ -60,14 +62,16 @@ When the collections run to your satisfaction, you can copy the commands into yo
 
 1. Under **Automate Run**, select **Configure Command**. The **Generate Postman CLI Configuration** page appears.
 
-1. Select a collection and environment. To add collections and environments, select `+ Add More`.
+    <img alt="Automate runs via CLI" src="https://assets.postman.com/postman-docs/PCLI-configure-command-3-v10.jpg" style="border: 1px solid #4a4a4a">
 
-1. Select a CI/CD provider.
+1. Select a **Collection** and **Environment**. To add collections and environments, select `+ Add More`.
 
-1. Select an operating system.
+1. Select a **CI/CD Provider**.
+
+1. Select an **Operating system for CI/CD**.
 
 1. In the **Postman CLI Config** window, select **Copy**.
 
-1. Paste the copied code into your CI/CD script.
+1. Paste the copied code into your CI/CD script and add the Postman API key to your CI/CD variables. You can use an existing Postman API key or [generate a new one](/docs/developer/intro-api#generating-a-postman-api-key).
 
 1. Select **Back** when you are done.
