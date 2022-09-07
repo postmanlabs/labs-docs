@@ -1,12 +1,12 @@
 ---
-title: "API Security admin panel"
+title: "Configuring API Security rules"
 updated: 2022-09-15
 search_keyword: "api security, security warnings, schema validation, security validation, api security audit, api security scan, api schema vulnerabilities, security audit"
 ---
 
 > [Configurable security rules are only available to Postman Enterprise teams.](https://www.postman.com/pricing) If you don't have an Enterprise account, you'll be able to see the API Security admin panel, but you won't be able to turn rules on or off or add new rules.
 
-The _API Security admin panel_ enables you to customize the rules that Postman applies to your API at both the design phase and the testing phase of API development:
+You can use the _API Security dashboard_ to configure the rules that Postman applies to your API at both the design phase and the testing phase of API development:
 
 * **API design** - Postman applies governance rules to your [API definition](/docs/designing-and-developing-your-api/defining-an-api/) and shows warnings about your definition's format and security posture.
 * **API testing** - Postman applies governance rules to your [API requests](https://learning.postman.com/docs/api-governance/api-testing/api-testing-warnings/) and shows warnings about issues that might impact their security posture.
