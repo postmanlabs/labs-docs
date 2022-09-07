@@ -72,25 +72,25 @@ Commands and options for using the Postman CLI.
 
 You can download the Postman CLI installation script with the following commands:
 
-#### Linux
+### Linux
 
 ``` bash
 curl -o- "https://dl-cli.pstmn.io/install/linux64.sh" | bash
 ```
 
-#### Mac (Intel chip)
+### Mac (Intel chip)
 
 ``` bash
 curl -o- "https://dl-cli.pstmn.io/install/osx_64.sh" | bash
 ```
 
-#### Mac (Apple chip)
+### Mac (Apple chip)
 
 ``` bash
 curl -o- "https://dl-cli.pstmn.io/install/osx_arm64.sh" | bash
 ```
 
-#### Windows
+### Windows
 
 ``` bash
 powershell.exe -NoProfile -InputFormat None -ExecutionPolicy AllSigned -Command "[System.Net.ServicePointManager]::SecurityProtocol = 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://dl-cli.pstmn.io/install/win64.ps1'))" && SET "PATH=%PATH%;C:\Postman CLI\"
