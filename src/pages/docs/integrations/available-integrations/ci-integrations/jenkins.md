@@ -1,7 +1,7 @@
 ---
 title: "Jenkins"
 page_id: "jenkins"
-updated: 2022-04-08
+updated: 2022-09-15
 warning: false
 contextual_links:
   - type: section
@@ -21,9 +21,9 @@ contextual_links:
 [Jenkins](https://www.jenkins.io/) is an open source automation server that can act as a continuous integration (CI) server or a continuous delivery (CD) hub. With hundreds of available plug-ins, teams can use Jenkins to build, deploy, and automate almost any project.
 
 To set up a Jenkins integration for your API, first create an API token in Jenkins and then configure your API in Postman. After you set up the integration, you can view the status of builds or start a new build, all from within Postman.
-
-> If your Jenkins pipeline is configured to run API tests using [Newman](/docs/running-collections/using-newman-cli/command-line-integration-with-newman/), you can [configure the  Postman cloud reporter](#configuring-newman-for-jenkins) to send collection run information back to Postman.
-
+<!--
+> If your Jenkins pipeline is configured to run API tests using [Newman](/docs/running-collections/using-newman-cli/command-line-integration-with-newman/), you can [configure the Postman cloud reporter](#configuring-newman-for-jenkins) to send collection run information back to Postman.
+-->
 ## Creating a Jenkins API token
 
 1. Sign in to Jenkins.
@@ -51,7 +51,7 @@ To set up a Jenkins integration for your API, first create an API token in Jenki
 
 ## Viewing build status
 
-After you set up a Jenkins integration, information for build jobs is available in Postman. For each build you can view the start time, duration, and build status (success or failed). You can also view the results of collection runs that are [configured in your pipeline using Newman](#configuring-newman-for-jenkins).
+After you set up a Jenkins integration, information for build jobs is available in Postman. For each build you can view the start time, duration, and build status (success or failed). You can also view the results of collection runs that are [configured in your pipeline using the Postman CLI](#configuring-the-postman-cli-for-jenkins).
 
 To view build jobs, open an API version and select the **Test** tab. The most recent jobs are listed under **CI/CD Builds**.
 
@@ -67,40 +67,38 @@ Select **View Builds** to view the full list of build jobs. From here you can ta
 
 ## Viewing collection run details
 
-Using Newman, you can run Postman collections with your API tests as part of a Jenkins pipeline. The Postman cloud reporter can send details about the collection runs back to Postman.
+Using the Postman CLI, you can run Postman collections with your API tests as part of a Jenkins pipeline.<!-- The Postman cloud reporter can send details about the collection runs back to Postman.-->
 
-To view details for collections that were run as part of a build, first [configure Newman for Jenkins](#configuring-newman-for-jenkins) and then [start a new build](#viewing-build-status). After the build is complete, use the arrows to expand a build and expand **Collection Runs**. Then expand a collection to view details about a collection run.
+To view details for collections that were run as part of a build, first [configure the Postman CLI for Jenkins](#configuring-the-postman-cli-for-jenkins) and then [start a new build](#viewing-build-status). After the build is complete, use the arrows to expand a build and expand **Collection Runs**. Then expand a collection to view details about a collection run.
 
 <img alt="View collection runs" src="https://assets.postman.com/postman-docs/jenkins-collection-runs-v9-14.jpg">
 
 > Select **View Report** to view a collection run report in the Postman **History**. Learn more about using the [Collection Runner](/docs/running-collections/intro-to-collection-runs/).
 
-## Configuring Newman for Jenkins
+## Configuring the Postman CLI for Jenkins
 
-With the help of Newman and the Postman API, you can run API tests created in Postman as part of your Jenkins pipeline. First generate the Newman configuration code in Postman. Then add the configuration code to your Jenkins pipeline.
+With the help of the Postman CLI and the Postman API, you can run API tests created in Postman as part of your Jenkins pipeline. First generate the Postman CLI configuration code in Postman. Then add the configuration code to your Jenkins pipeline.
 
-Each time a build runs, Newman runs the collections that contain your tests. You can view the results of your tests in Postman. You an also configure the  [Postman cloud reporter](https://www.npmjs.com/package/newman-reporter-postman-cloud) to send detailed collection run information back to Postman.
+Each time a build runs, the Postman CLI runs the collections that contain your tests. You can view the results of your tests in Postman.<!-- You an also configure the [Postman cloud reporter](https://www.npmjs.com/package/newman-reporter-postman-cloud) to send detailed collection run information back to Postman.-->
 
 > Before you begin, make sure you’ve already [set up an integration](#configuring-jenkins-integration) between your API version and Jenkins.
 
-To generate configuration code for Newman:
+To generate configuration code for the Postman CLI:
 
 1. Open your API version and select the **Test** tab.
 1. Under **CI/CD Builds**, select **View Builds**.
-1. Select **Configure Newman**.
+1. Select **Configure Postman CLI**.
 1. Select a **Collection** to run during pipeline builds. To be available in the dropdown list, you must first [add the collection as a test suite](/docs/designing-and-developing-your-api/testing-an-api/#adding-tests) to your API. You can also select an **Environment** to use.
+1. (Optional) Select the check box to test the API's schema against configured governance and security rules.
+1. Select the **Operating system** for your CI/CD pipeline.
+1. Select <img alt="Copy icon" src="https://assets.postman.com/postman-docs/icon-copy-v9.jpg#icon" width="15px"> **Copy** to copy the Postman CLI configuration, and then select **Finish**.
 
-    > If needed, select **+ Add More** to select other collections to run.
+<img alt="Generate the Postman CLI configuration" src="https://assets.postman.com/postman-docs/v10/generate-postman-cli-v10.jpg" width="548px">
 
-1. (Optional) Select the check box to use the Postman cloud reporter to send detailed collection run information back to Postman. You can view the collection run details in the Postman **History** and on the API version **Test** tab.
-1. Select **Copy** to copy the Newman configuration, and then select **Finish**.
-
-<img alt="Generate Newman configuration" src="https://assets.postman.com/postman-docs/jenkins-generate-newman-v9-14.jpg" width="546px">
-
-To add the Newman configuration to your Jenkins pipeline:
+To add the Postman CLI configuration to your Jenkins pipeline:
 
 1. Open your pipeline project in Jenkins and select **Configure**.
-1. Paste the Newman configuration you copied from Postman into the **Pipeline script**:
+1. Paste the Postman CLI configuration you copied from Postman into the **Pipeline script**:
     * Replace `your_nodejs_configured_tool_name` with the name of your Node.js tool, for example, `node`.
     * Replace all instances of `$POSTMAN_API_KEY` with a valid [Postman API Key](/docs/developer/intro-api/#generating-a-postman-api-key).
 1. Select **Save** and then run the pipeline using the new configuration.
@@ -115,21 +113,31 @@ pipeline {
   tools {nodejs "{your_nodejs_configured_tool_name}"}
 
   stages {
-    stage('Install Newman') {
+    stage('Install Postman CLI') {
       steps {
-        sh 'npm install -g newman'
+        sh'curl https://dl-cli.pstmn.io/install/linux64 -o postman-cli.tar.gz'
+        sh'tar -zxvf postman-cli.tar.gz'
+        sh'mv postman-cli /usr/bin/postman'
+        sh'rm postman-cli.tar.gz'
+        sh'export POSTMAN_API_BASE_URL="https://api.getpostman.com"
       }
     }
 
-    stage ('Install Postman Cloud Reporter') {
-      steps {
-        sh 'npm install -g newman-reporter-postman-cloud'
-      }
+    stage('Postman CLI Login') {
+steps {
+        sh 'postman login --with-api-key $POSTMAN_API_KEY'
+              }
     }
 
     stage('Running collection') {
       steps {
-        sh 'newman run "https://api.getpostman.com/collections/4946945-3673316a-9a35-4b0d-a148-3566b490798d?apikey=$POSTMAN_API_KEY" -r postman-cloud --reporter-apiKey "$POSTMAN_API_KEY" --reporter-workspaceId "34f3a42c-18a7-4ad6-83fb-2c05767d63a7" --reporter-integrationIdentifier "107267-${JOB_NAME}${BUILD_NUMBER}"'
+        sh 'postman collection run "${WORKSPACE}/postman/collections/Postman CLI Collection Test_4946945-3673316a-9a35-4b0d-a148-3566b490798d.json"'
+      }
+    }
+
+    stage('Running api linting') {
+      steps {
+        sh 'postman api lint'
       }
     }
   }

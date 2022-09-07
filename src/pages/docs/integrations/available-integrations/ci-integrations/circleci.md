@@ -2,7 +2,7 @@
 title: "CircleCI"
 order: 164.3
 page_id: "circleci"
-updated: 2022-04-08
+updated: 2022-09-15
 warning: false
 contextual_links:
   - type: section
@@ -58,29 +58,28 @@ Select **View All Builds** to view the full list of build jobs. From here you ca
 
 <img alt="View all CircleCI builds" src="https://assets.postman.com/postman-docs/ci-view-builds-v9-15.jpg">
 
-## Configuring Newman for CircleCI
+## Configuring the Postman CLI for CircleCI
 
-With the help of Newman and the Postman API, you can run API tests created in Postman as part of your CircleCI pipeline. First generate the Newman configuration code in Postman. Then add the configuration code to the `config.yml` file in your CircleCI project.
+With the help of the Postman CLI and the Postman API, you can run API tests created in Postman as part of your CircleCI pipeline. First generate the Postman CLI configuration code in Postman. Then add the configuration code to the `config.yml` file in your CircleCI project.
 
-To generate configuration code for Newman:
+To generate configuration code for the Postman CLI:
 
 1. Open your API version and select the **Test** tab.
 1. Under **CI/CD Builds**, select **View All Builds**.
-1. Select **Configure Newman**.
+1. Select **Configure Postman CLI**.
 1. Select a **Collection** to run during pipeline builds. To be available in the dropdown list, you must first [add the collection as a test suite](/docs/designing-and-developing-your-api/testing-an-api/#adding-tests) to your API. You can also select an **Environment** to use.
+1. (Optional) Select the check box to test the API's schema against configured governance and security rules.
+1. Select the **Operating system** for your CI/CD pipeline.
+1. Select <img alt="Copy icon" src="https://assets.postman.com/postman-docs/icon-copy-v9.jpg#icon" width="15px"> **Copy** to copy the Postman CLI configuration, and then select **Finish**.
 
-    > If needed, select **+ Add More** to select other collections to run.
+<img alt="Generate the Postman CLI configuration" src="https://assets.postman.com/postman-docs/v10/generate-postman-cli-v10.jpg" width="548px">
 
-1. Select **Copy** to copy the Newman configuration, and then select **Finish**.
-
-<img alt="Generate Newman configuration" src="https://assets.postman.com/postman-docs/ci-generate-newman-config-v9-21.jpg" width="543">
-
-To add the Newman configuration to your CircleCI project:
+To add the Postman CLI configuration to your CircleCI project:
 
 1. Open your project in CircleCI, select a branch, and then select **Edit Config**.
-1. Paste the Newman configuration you copied from Postman:
+1. Paste the Postman CLI configuration you copied from Postman:
     * Replace all instances of `$POSTMAN_API_KEY` with a valid [Postman API Key](/docs/developer/intro-api/#generating-a-postman-api-key).
-    * Make sure to add the `newman-collection-run` job to a new or existing workflow.
+    * Make sure to add the `postman-automated-runs` job to a new or existing workflow.
 1. Select **Save and Run** to run the pipeline using the new configuration.
 1. To view the test results in Postman, open your API and select the **Test** tab.
 
@@ -89,22 +88,31 @@ To add the Newman configuration to your CircleCI project:
 ```yaml
 version: 2.1
 
-orbs:
-  newman: postman/newman@0.0.2
-
 jobs:
-  newman-collection-run:
-    executor: newman/postman-newman-docker
+  postman-automated-runs:
+    docker:
+      - image: cimg/base:2021.04
     steps:
       - checkout
-
-      - newman/newman-run:
-        collection: https://api.getpostman.com/collections/4946945-3673316a-9a35-4b0d-a148-3566b490798d?apikey=$POSTMAN_API_KEY
-        environment: https://api.getpostman.com/environments/16724969-8e6c6119-ed57-4665-b4f9-f648c5637484?apikey=$POSTMAN_API_KEY
+      - run:
+          name: Install Postman CLI
+          command: |
+            curl https://dl-cli.pstmn.io/install/linux64 -o postman-cli.tar.gz
+            tar -zxvf postman-cli.tar.gz
+            sudo mv postman-cli /usr/bin/postman
+            rm postman-cli.tar.gz
+      - run:
+          name: Login using your API key
+          command: postman login --with-api-key $POSTMAN_API_KEY
+      - run: |
+            export POSTMAN_API_BASE_URL='https://api.getpostman.com'
+            postman collection run "${CIRCLE_WORKING_DIRECTORY}/postman/collections/Postman CLI Collection Test_4946945-3673316a-9a35-4b0d-a148-3566b490798d.json"
 
 workflows:
-  example-workflow:
+  version: 2
+  automated-api-tests:
     jobs:
-      - newman-collection-run
-
+      - postman-automated-runs
+          # Run your API using Postman CLI
+            postman api lint
 ```

@@ -1,7 +1,7 @@
 ---
 title: "Bitbucket Pipelines"
 page_id: "bitbucket-pipelines"
-updated: 2022-04-08
+updated: 2022-09-15
 warning: false
 contextual_links:
   - type: section
@@ -15,7 +15,9 @@ contextual_links:
 
 To set up a Bitbucket Pipelines integration for your API, first create a pipeline in Bitbucket and then configure your API in Postman. After you set up the integration, you can view the status of builds or start a new build, all from within Postman.
 
+<!--
 > If your Bitbucket pipeline is configured to run API tests using [Newman](/docs/running-collections/using-newman-cli/command-line-integration-with-newman/), you can [configure the Postman cloud reporter](#configuring-newman-for-bitbucket-pipelines) to send collection run information back to Postman.
+-->
 
 ## Creating a pipeline in Bitbucket
 
@@ -36,7 +38,7 @@ If you haven't already, create a pipeline in the Bitbucket repository you use fo
 
 ## Viewing build status
 
-After you set up a Bitbucket Pipelines integration, information for build jobs is available in Postman. For each build you can view the branch, start time, duration, and status (successful or failed). You can also view the results of collection runs that are [configured in your pipeline using Newman](#viewing-collection-run-details).
+After you set up a Bitbucket Pipelines integration, information for build jobs is available in Postman. For each build you can view the branch, start time, duration, and status (successful or failed). You can also view the results of collection runs that are [configured in your pipeline using the Postman CLI](#viewing-collection-run-details).
 
 To view build jobs, open an API version and select the **Test** tab. The most recent jobs are listed under **CI/CD Builds**.
 
@@ -53,40 +55,38 @@ Select **View All Builds** to view the full list of build jobs. From here you ca
 
 ## Viewing collection run details
 
-Using Newman, you can run Postman collections with your API tests as part of a Bitbucket pipeline. The Postman cloud reporter can send details about the collection runs back to Postman.
+Using the Postman CLI, you can run Postman collections with your API tests as part of a Bitbucket pipeline.<!-- The Postman cloud reporter can send details about the collection runs back to Postman.-->
 
-To view details for collections that were run as part of a build, first [configure Newman for Bitbucket Pipelines](#configuring-newman-for-bitbucket-pipelines) and then [start a new build](#viewing-build-status). After the build is complete, use the arrows to expand a build and expand **Collection Runs**. Then expand a collection to view details about a collection run.
+To view details for collections that were run as part of a build, first [configure the Postman CLI for Bitbucket Pipelines](#configuring-the-postman-cli-for-bitbucket-pipelines) and then [start a new build](#viewing-build-status). After the build is complete, use the arrows to expand a build and expand **Collection Runs**. Then expand a collection to view details about a collection run.
 
 <img alt="View collection runs" src="https://assets.postman.com/postman-docs/bitbucket-pipelines-collection-runs-v9-19.jpg">
 
 > Select **View Report** to view a collection run report in the Postman **History**. Learn more about using the [Collection Runner](/docs/running-collections/intro-to-collection-runs/).
 
-## Configuring Newman for Bitbucket Pipelines
+## Configuring the Postman CLI for Bitbucket Pipelines
 
-With the help of Newman and the Postman API, you can run API tests created in Postman as part of your Bitbucket pipeline. First generate the Newman configuration code in Postman. Then add the configuration code to the `bitbucket-pipelines.yml` file in your Bitbucket repository.
+With the help of the Postman CLI and the Postman API, you can run API tests created in Postman as part of your Bitbucket pipeline. First generate the Postman CLI configuration code in Postman. Then add the configuration code to the `bitbucket-pipelines.yml` file in your Bitbucket repository.
 
-Each time the pipeline runs, Newman runs the collections that contain your tests. You can view the results of your tests in Postman. You an also configure the [Postman cloud reporter](https://www.npmjs.com/package/newman-reporter-postman-cloud) to send detailed collection run information back to Postman.
+Each time the pipeline runs, the Postman CLI runs the collections that contain your tests. You can view the results of your tests in Postman.<!-- You an also configure the [Postman cloud reporter](https://www.npmjs.com/package/newman-reporter-postman-cloud) to send detailed collection run information back to Postman.-->
 
 > Before you begin, make sure you’ve already [set up an integration](#configuring-bitbucket-pipelines-integration) between your API version and Bitbucket Pipelines.
 
-To generate configuration code for Newman:
+To generate configuration code for the Postman CLI:
 
 1. Open your API version and select the **Test** tab.
 1. Under **CI/CD Builds**, select **View All Builds**.
-1. Select **Configure Newman**.
-1. Select a **Collection** to run during pipeline builds. To be available in the dropdown list, you must first [add the collection as a test suite](/docs/designing-and-developing-your-api/testing-an-api/#adding-tests) to your API. You can also select an **Environment** to use.
+1. Select **Configure Postman CLI**.
+1. Select a **Collection** to run during pipeline builds. To be available in the list, you must first [add the collection as a test suite](/docs/designing-and-developing-your-api/testing-an-api/#adding-tests) to your API. You can also select an **Environment** to use.
+1. (Optional) Select the check box to test the API's schema against configured governance and security rules.
+1. Select the **Operating system** for your CI/CD pipeline.
+1. Select <img alt="Copy icon" src="https://assets.postman.com/postman-docs/icon-copy-v9.jpg#icon" width="15px"> **Copy** to copy the Postman CLI configuration, and then select **Finish**.
 
-    > If needed, select **+ Add More** to select other collections to run.
+<img alt="Generate the Postman CLI configuration" src="https://assets.postman.com/postman-docs/v10/generate-postman-cli-v10.jpg" width="548px">
 
-1. (Optional) Select the check box to use the Postman cloud reporter to send collection run information back to Postman. You can view the collection run details in the Postman **History** and on the API version **Test** tab.
-1. Select **Copy** to copy the Newman configuration, and then select **Finish**.
-
-<img alt="Generate Newman configuration" src="https://assets.postman.com/postman-docs/bitbucket-pipelines-generate-newman-v9-19.jpg" width="548px">
-
-To add the Newman configuration to your Bitbucket pipeline:
+To add the Postman CLI configuration to your Bitbucket pipeline:
 
 1. Edit the `bitbucket-pipelines.yml` file at the root of your Bitbucket repository.
-1. Add the Newman configuration you copied from Postman to the `bitbucket-pipelines.yml` file:
+1. Add the Postman CLI configuration you copied from Postman to the `bitbucket-pipelines.yml` file:
     * Replace all instances of `$POSTMAN_API_KEY` with a valid [Postman API Key](/docs/developer/intro-api/#generating-a-postman-api-key).
 1. Commit and push the changes to your remote repository. This will automatically start a build in Bitbucket Pipelines.
 1. To view the test results in Postman, open your API and select the **Test** tab. Learn more about [Viewing collection run details](#viewing-collection-run-details).
@@ -94,14 +94,23 @@ To add the Newman configuration to your Bitbucket pipeline:
 ### Example bitbucket-pipelines.yml file
 
 ```yaml
-image: node:16
+image: atlassian/default-image:3
 
 pipelines:
   default:
     - step:
-        name: Run collection via newman
+        name: Run collection via Postman CLI
         script:
-          - 'npm i -g newman'
-          - 'npm i -g newman-reporter-postman-cloud'
-          - newman run "https://api.getpostman.com/collections/4946945-3673316a-9a35-4b0d-a148-3566b490798d?apikey=$POSTMAN_API_KEY" -r postman-cloud --reporter-apiKey "$POSTMAN_API_KEY" --reporter-workspaceId "34f3a42c-18a7-4ad6-83fb-2c05767d63a7" --reporter-integrationIdentifier "46689-${BITBUCKET_PIPELINE_UUID}"
+          # Install Postman CLI
+          - curl https://dl-cli.pstmn.io/install/linux64 -o postman-cli.tar.gz
+          - tar -zxvf postman-cli.tar.gz
+          - mv postman-cli /usr/bin/postman
+          - rm postman-cli.tar.gz
+          - export POSTMAN_API_BASE_URL='https://api.getpostman.com'
+          # Login using your API Key
+          - postman login --with-api-key $POSTMAN_API_KEY
+          # Run your collection using Postman CLI
+          - postman collection run "${BITBUCKET_CLONE_DIR}/postman/collections/Postman CLI Collection Test_4946945-3673316a-9a35-4b0d-a148-3566b490798d.json"
+          # Run your API using Postman CLI
+          - postman api lint
 ```
