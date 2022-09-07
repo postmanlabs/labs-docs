@@ -36,7 +36,7 @@ You can use the Postman API Platform to manually validate your APIs. With Postma
 
     <img alt="Automate runs via CLI" src="https://assets.postman.com/postman-docs/automate-cli-v10.jpg" style="border: 1px solid #4a4a4a">
 
-1. Select **Add API Key**.
+1. In the **Postman CLI command** window, select **Add API Key**.
 
 1. Select **Generate Key** (or **Use Existing Key** to enter an existing API key and skip to step #9).
 
@@ -48,7 +48,7 @@ You can use the Postman API Platform to manually validate your APIs. With Postma
 
 1. Select **Insert Key**.
 
-1. In the **Postman CLI command** window, select **Copy**.
+1. Select <img alt="Copy icon" src="https://assets.postman.com/postman-docs/icon-copy-v9.jpg#icon" width="15px"> **Copy**.
 
 1. Paste and run the commands in your terminal.
 
