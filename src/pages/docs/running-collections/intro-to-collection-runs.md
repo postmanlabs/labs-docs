@@ -61,7 +61,11 @@ To configure a collection run:
 
     > You can also select <img alt="Runner icon" src="https://assets.postman.com/postman-docs/icon-runner-v9.jpg#icon" width="16px"> __Runner__ from the Postman footer and drag a collection from __Collections__ or __History__ in the sidebar.
 
-1. Before you start a collection run, you can choose optional configuration parameters:
+1. Select **Run manually** to run the collection now, or **Automate runs via CLI** to generate a code snippet to run the collection with the Postman CLI. <!--TODO: link explaining this -->
+
+1. If you want your collection to run with an environment, select it using the environment selector at the top right of Postman. You can also select __Environments__ in the sidebar, then select the environment you want to use.
+
+1. If you select **Run manually**, choose any optional configuration parameters:
 
     * **Iterations** - The number of iterations for your collection run. You can also run collections multiple times with different data sets to [build workflows](/docs/running-collections/building-workflows/).
     * **Delay** - An interval delay in milliseconds between each request.
@@ -71,27 +75,27 @@ To configure a collection run:
     * **Run collection without using stored cookies** - If your requests use cookies, you can optionally deactivate them for a collection run.
     * **Save cookies after collection run** - Save the cookies used in this session to the cookie manager. Any values changed by requests during the run will remain after it completes.
 
-      <img alt="Collection Runner configuration settings" src="https://assets.postman.com/postman-docs/collection-runner-configuration-v9.jpg" width="800px"/>
+      <img alt="Collection Runner configuration settings" src="https://assets.postman.com/postman-docs/collection-runner-configuration-v9.jpg" width="800px"/> <!--TODO: replace image-->
 
-1. If you want your collection to run with an environment, select it using the environment selector at the top right of Postman. You can also select __Environments__ in the sidebar, then select the environment you want to use.
+1. If you select **Automate runs via CLI**, a code snippet is shown which you can run with the Postman CLI to run the collection from the command line. Select **Add API Key** to add an existing API key or generate a new API key and add it to the snippet. There's also a link to add the CLI configuration to a CI/CD integration. <!--TODO: links-->
 
 1. By default, your requests run in the sequence they're listed in the collection. If you need to change the order of execution, select a request and drag it to move it to its new order. You can also remove an individual request from the run by clearing the checkbox next to its name.
 
     > You can alter the flow of execution from your request scripts using `setNextRequest` to [create workflows](/docs/running-collections/building-workflows/).
 
-1. When you have completed your configuration, select **Start Run**.
+1. For manual runs, when you have completed your configuration, select **Run**.
 
 ## Running your collections
 
-Postman displays your request executions and test results in real time. To access more data about what happened when a request executed, select its name from the list of results.
+When running collections manually, Postman displays your request executions and test results in real time. To access more data about what happened when a request executed, select its name from the list of results.
 
-![Collection Runner results](https://assets.postman.com/postman-docs/collection-runner-run-results-v9.jpg)
+![Collection Runner results](https://assets.postman.com/postman-docs/collection-runner-run-results-v9.jpg)<!--TODO: replace image-->
 
 To view more details, including any log statements used in your collection, select <img alt="Console icon" src="https://assets.postman.com/postman-docs/icon-console-v9.jpg#icon" width="16px"> __Console__ from the footer.
 
 To view details about the run, select __View Summary__. The summary also has a column for each iteration of your collection run so you can review test output for the whole run.
 
-[![Runner result summary](https://assets.postman.com/postman-docs/run-overview-v8.jpg)](https://assets.postman.com/postman-docs/run-overview-v8.jpg)
+[![Runner result summary](https://assets.postman.com/postman-docs/run-overview-v8.jpg)](https://assets.postman.com/postman-docs/run-overview-v8.jpg) <!--TODO: replace -->
 
 To return to the overview of the run, select __View Results__.
 
@@ -141,7 +145,8 @@ To export a collection run:
 
 You can also use collection runs in conjunction with other Postman utilities to build automation into your API projects.
 
-* [Newman](/docs/running-collections/using-newman-cli/command-line-integration-with-newman/), the Postman command-line interface, enables you to run collections and build them into your development pipeline, responding to test outcomes to support your API performance.
+* [The Postman CLI](/docs/postman-cli/postman-cli-overview/) command-line interface enables you to run collections and build them into your development pipeline, responding to test outcomes to support your API performance.
+* The [Newman](/docs/running-collections/using-newman-cli/command-line-integration-with-newman/) interface also enables you to run collections from the command line.
 * Adding a [monitor](/docs/monitoring-your-api/intro-monitors/) to your collection lets you schedule collection runs and stay informed of any issues.
 * You can also set up a [collection webhook](/docs/running-collections/collection-webhooks/) to trigger a collection run at a specific time with your own custom payload.
 
