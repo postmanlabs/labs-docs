@@ -18,7 +18,7 @@ contextual_links:
     url: "https://youtu.be/voAUfBx8fnE"
 ---
 
-New Relic is an application performance management solution to monitor real-time and trending data for your processes or web apps. Using Postman's New Relic integration, you can send [Postman monitor](/docs/monitoring-your-api/intro-monitors/) results to New Relic.
+New Relic is an application performance management solution to monitor real-time and trending data for your processes or web apps. Using Postman's [New Relic integration](https://newrelic.com/instant-observability/postman/d465bf08-b737-4bc5-b5ad-dd5be272967b), you can send [Postman monitor](/docs/monitoring-your-api/intro-monitors/) results to New Relic.
 
 Setting up a New Relic monitor integration requires you to get an API key (Ingest License key) from New Relic and configure your Postman monitors. After you set up the integration, you can view real-time alerts based on the results of your monitors.
 
@@ -29,7 +29,7 @@ Setting up a New Relic monitor integration requires you to get an API key (Inges
 If you don't already have a [New Relic account](https://newrelic.com/), you'll need to [create one](https://newrelic.com/signup?utm_source=external_partners&utm_medium=referral&utm_campaign=global-fy22-q3-io-partner&utm_content=postman_qs). Then follow the steps below to retrieve your Ingest License key from New Relic:
 
 1. Sign in to [New Relic](https://login.newrelic.com).
-1. Select your user avatar in the upper right corner, then select **API keys**.
+1. Select your avatar in the upper right corner, then select **API keys**.
 1. Select the three dots next to the **INGEST - LICENSE** key and then select **Copy**.
 
 <img alt="Get a New Relic Ingest key" src="https://assets.postman.com/postman-docs/new-relic-get-ingest-key-v9-6.jpg" width="1109px">
