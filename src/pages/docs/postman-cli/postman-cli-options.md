@@ -79,31 +79,25 @@ To download manually, use the commands and links below:
 #### Linux
 
 ``` bash
-curl -o- "https://[CDN link TBD]/install.linux64.sh" | bash
+curl -o- "https://dl-cli.pstmn.io/install/linux64.sh" | bash
 ```
 
 #### Mac (Intel chip)
 
 ``` bash
-curl -o- "https://[CDN link TBD]/install.osx_64.sh" | bash
+curl -o- "https://dl-cli.pstmn.io/install/osx_64.sh" | bash
 ```
 
 #### Mac (Apple chip)
 
 ``` bash
-curl -o- "https://[CDN link TBD]/install.osx_arm64.sh" | bash
+curl -o- "https://dl-cli.pstmn.io/install/osx_arm64.sh" | bash
 ```
 
-#### Windows (Powershell)
+#### Windows
 
 ``` bash
-Set-ExecutionPolicy AllSigned -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://<CDN link>/install.win64.ps1'))
-```
-
-#### Windows (cmd.exe)
-
-``` bash
-@"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy AllSigned -Command "[System.Net.ServicePointManager]::SecurityProtocol = 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://<CDN link>/install.win64.ps1'))" && SET "PATH=%PATH%;C:\Postman CLI\"
+powershell.exe -NoProfile -InputFormat None -ExecutionPolicy AllSigned -Command "[System.Net.ServicePointManager]::SecurityProtocol = 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://dl-cli.pstmn.io/install/win64.ps1'))" && SET "PATH=%PATH%;C:\Postman CLI\"
 ```
 
 ### Downloading programmatically
@@ -167,76 +161,6 @@ echo "You can find your executable in $POSTMAN_CLI_PATH"
 $Env:PATH = "$Env:PATH;$POSTMAN_CLI_PATH""
 ```
 
-#### nix
-
-``` bash
-#!/bin/bash
-
-OS=$(uname -s); shopt -s failglob
-ARCH=$(uname -m)
-EXTENSION=zip
-FOLDER=/usr/local/bin/
-PACKAGE_LINK=''
-
-if [[ "$OS" == "Linux" ]]; then
-  EXTENSION=tar.gz
-  PACKAGE_LINK="linux64"
-elif [[ "$OS" == "Darwin" ]]; then
-  PACKAGE_LINK="osx_$ARCH"
-fi
-
-
-CLI_URL="https://dl-cli.pstmn.io/download/latest/$PACKAGE_LINK"
-
-pstmn_extract() {
-  if [[ "$OS" = "Linux" ]]; then
-    tar -xf "$1" ./
-  else
-    ditto -x -k "$1" ./
-  fi
-}
-
-has_dep() {
-  type "$1" > /dev/null 2>&1
-}
-
-pstmn_echo() {
-  command printf %s\\n "$*" 2>/dev/null
-}
-
-download() {
-  if has_dep "curl"; then
-    curl --fail --compressed -q "$@"
-  elif has_dep "wget"; then
-    ARGS=$(pstmn_echo "$@" | command sed -e 's/--progress-bar /--progress=bar /' \
-                            -e 's/--compressed //' \
-                            -e 's/--fail //' \
-                            -e 's/-L //' \
-                            -e 's/-I /--server-response /' \
-                            -e 's/-s /-q /' \
-                            -e 's/-sS /-nv /' \
-                            -e 's/-o /-O /' \
-                            -e 's/-C - /-c /')
-    # shellcheck disable=SC2086
-    eval wget $ARGS
-  fi
-}
-
-echo $CLI_URL
-
-download -s "$CLI_URL" -o postman-cli.$EXTENSION || {
-  pstmn_echo >&2 "Failed to download from $CLI_URL"
-  exit 1
-}
-
-pstmn_extract postman-cli.$EXTENSION
-
-rm postman-cli.$EXTENSION
-pstmn_echo "Please provide permission to write to ${FOLDER}:"
-sudo mkdir -p $FOLDER
-sudo mv postman-cli ${FOLDER}/postman
-```
-
 ---
 
 ## Logging in and logging out
@@ -245,7 +169,7 @@ You can use the Postman CLI to log in and out of Postman with the `login` and `l
 
 ### login
 
-This command authenticates the user and stores the API key in your filesystem. `login` requires one option, `--with-api-key`, that accepts an API key.
+This command authenticates the user and stores the API key in your filesystem. `login` requires one option, `--with-api-key`, that accepts an API key. The `login` command is required only once per session. Once you've logged in, you remain logged in until you use the `logout` command.
 
 #### Example
 

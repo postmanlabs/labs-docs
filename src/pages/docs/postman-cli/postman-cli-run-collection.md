@@ -52,7 +52,7 @@ You can use the Postman API Platform to manually validate your APIs. With Postma
 
 1. Paste and run the commands in your terminal.
 
-1. Check the results.
+1. After running the commands, the Postman CLI generates a link. Follow the link to check your results.
 
 ## Running a collection in CI/CD
 
