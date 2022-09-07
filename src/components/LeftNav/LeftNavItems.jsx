@@ -601,16 +601,16 @@ export const leftNavItems = [
     url: '/docs/api-governance/api-governance-overview/',
     subMenuItems1: [
       {
-        name: 'API governance',
+        name: 'API Governance and API Security at Postman',
         url: '/docs/api-governance/api-governance-overview/',
       },
       {
-        name: 'API governance admin panel',
-        url: '/docs/api-governance/api-governance-admin-panel/'
+        name: 'Configuring API Governance rules',
+        url: '/docs/api-governance/configuring-api-governance-rules/'
       },
       {
-        name: 'API security admin panel',
-        url: '/docs/api-governance/api-security-admin-panel/'
+        name: 'Configuring API Security rules',
+        url: '/docs/api-governance/configuring-api-security-rules/'
       },
       {
         name: 'API definition',
