@@ -17,6 +17,7 @@ To set up a GitLab CI/CD integration for your API, first create a pipeline in Gi
 <!--
 > If your GitLab pipeline is configured to run API tests using [Newman](/docs/running-collections/using-newman-cli/command-line-integration-with-newman/), you can [configure the Postman cloud reporter](#configuring-newman-for-gitlab-cicd) to send collection run information back to Postman.
 -->
+
 ## Creating a pipeline in GitLab
 
 If you haven't already, create a pipeline in the GitLab repository you use for your API. To create a pipeline, add a `.gitlab-ci.yml` file in the root of your repository. You define your pipeline in this YAML file. To learn more, see [the GitLab CI/CD documentation](https://docs.gitlab.com/ee/ci/).
