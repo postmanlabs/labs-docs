@@ -64,7 +64,7 @@ To create a new API:
 
 ## Updating an API
 
-Postman v10 can display APIs created in prior versions of Postman. To work with the API in Postman v10, you need to update it
+Postman v10 can display APIs created in prior versions of Postman. To work with the API in Postman v10, you need to update it.
 
 To update an API:
 
