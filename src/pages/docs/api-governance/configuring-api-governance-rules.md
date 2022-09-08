@@ -25,7 +25,7 @@ To access the configurable API Governance rules, go to the [Postman home screen]
 
 ## Adding rules to your API Governance configuration
 
-In addition to the rules turned on by default in Postman, you can add additional rules to your API Governance configuration from the Postman library, or you can create your own custom rules.
+In addition to the rules turned on by default in Postman, you can add other rules to your API Governance configuration from the Postman library. You can also create your own custom rules.
 
 ### Importing rules from the Postman library
 

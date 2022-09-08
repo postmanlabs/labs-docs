@@ -16,7 +16,7 @@ You can customize the API Security rules that Postman applies to your [API defin
     * [Turning configured rules on and off](#turning-configured-rules-on-and-off)
     * [Adding custom rules](#adding-custom-rules)
     * [Removing custom rules](#removing-custom-rules)
-* [Requests](#requests)
+* [Configuring rules for requests](#configuring-rules-for-requests)
     * [Turning configured rules on and off](#turning-configured-rules-on-and-off)
 
 ## Configuring rules for API definitions
@@ -29,6 +29,8 @@ To access the configuration page for API definitions:
 1. Select **API Security** from the team information panel.
     <!-- TODO: screenshot -->
 1. Make sure that **API definitions** is selected.
+
+<!-- TODO: screenshot -->
 
 ### Turning configured rules on and off
 
@@ -85,6 +87,8 @@ To access the configuration page for requests:
 1. Select **API Security** from the team information panel.
     <!-- TODO: screenshot -->
 1. Select **Requests**.
+
+<!-- TODO: screenshot -->
 
 ### Turning configured rules on and off
 
