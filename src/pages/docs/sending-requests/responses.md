@@ -169,14 +169,14 @@ If it finds any, Postman adds the number of warnings to the **Security** tab in 
 
 <!-- TODO: screenshot -->
 
-### Hiding security issues during API testing
+### Hiding security issues
 
-To turn a warning off for the current request:
+To turn a warning off for the current API response:
 
 1. Select **Hide warning**.
 1. Choose a reason for hiding it, then select **Hide**.
 
-This will turn the warning off for all members of your team, but only for this request.
+This will turn the warning off for all members of your team, but only for this response.
 
 > To turn a warning off globally for your team, you can [configure your API Security rules](/docs/api-governance/configuring-api-security-rules/) (available for [Enterprise teams only](https://www.postman.com/pricing/)).
 
