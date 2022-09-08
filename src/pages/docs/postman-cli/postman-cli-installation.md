@@ -37,25 +37,25 @@ The Postman CLI supports the same operating system requirements as the Postman d
 
 Run the following command to install the Postman CLI for Linux. This will download an install script and run it. The install script creates a `/usr/local/bin` directory if it does not exist yet, then installs a `postman` binary there.
 
-    ``` bash
-    curl -o- "https://dl-cli.pstmn.io/install/linux64.sh" | bash
-    ```
+``` bash
+curl -o- "https://dl-cli.pstmn.io/install/linux64.sh" | bash
+```
 
 ## Mac (Apple chip) installation
 
 Run the following command to install the Postman CLI for Macs with Apple M1/M2 chips. This will download an install script and run it. The install script creates a `/usr/local/bin` directory if it does not exist yet, then installs a `postman` binary there.
 
-    ``` bash
-    curl -o- "https://dl-cli.pstmn.io/install/osx_arm64.sh" | bash
-    ```
+``` bash
+curl -o- "https://dl-cli.pstmn.io/install/osx_arm64.sh" | bash
+```
 
 ## Mac (Intel) installation
 
 Run the following command to install the Postman CLI for Macs with Intel chips. This will download an install script and run it. The install script creates a `/usr/local/bin` directory if it does not exist yet, then installs a `postman` binary there.
 
-    ``` bash
-    curl -o- "https://dl-cli.pstmn.io/install/osx_64.sh" | bash
-    ```
+``` bash
+curl -o- "https://dl-cli.pstmn.io/install/osx_64.sh" | bash
+```
 
 ## Windows installation
 
@@ -65,13 +65,13 @@ Download and run the installation script for your platform from the [download pa
 
 ### Windows - Powershell
 
-    ``` bash
-    Set-ExecutionPolicy AllSigned -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://dl-cli.pstmn.io/install/win64.ps1')))
-    ```
+``` bash
+Set-ExecutionPolicy AllSigned -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://dl-cli.pstmn.io/install/win64.ps1')))
+```
 
 ### Windows - cmd.exe
 
-    ``` bash
-    @"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy AllSigned -Command "[System.Net.ServicePointManager]::SecurityProtocol = 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://dl-cli.pstmn.io/download/latest/install.win64.ps1'))" && SET "PATH=%PATH%;C:\Postman CLI\")
-    * [nix](curl -o- "https://dl-cli.pstmn.io/install/win64" | bash
-    ```
+``` bash
+@"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy AllSigned -Command "[System.Net.ServicePointManager]::SecurityProtocol = 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://dl-cli.pstmn.io/download/latest/install.win64.ps1'))" && SET "PATH=%PATH%;C:\Postman CLI\")
+* [nix](curl -o- "https://dl-cli.pstmn.io/install/win64" | bash
+```
