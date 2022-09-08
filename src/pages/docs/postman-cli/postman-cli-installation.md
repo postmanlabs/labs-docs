@@ -61,19 +61,17 @@ Run the following command to install the Postman CLI for Macs with Intel chips. 
 
 Run the following commands to install the Postman CLI for Windows.
 
-1. Download the installation script for your platform from the [download page](https://www.postman.com/downloads/) or with the appropriate script below:
+Download and run the installation script for your platform from the [download page](https://www.postman.com/downloads/) or with the appropriate script below:
 
-    **Windows - Powershell**
+### Windows - Powershell
 
     ``` bash
     Set-ExecutionPolicy AllSigned -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://dl-cli.pstmn.io/install/win64.ps1')))
     ```
 
-    **Windows - cmd.exe**
+### Windows - cmd.exe
 
     ``` bash
     @"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy AllSigned -Command "[System.Net.ServicePointManager]::SecurityProtocol = 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://dl-cli.pstmn.io/download/latest/install.win64.ps1'))" && SET "PATH=%PATH%;C:\Postman CLI\")
     * [nix](curl -o- "https://dl-cli.pstmn.io/install/win64" | bash
     ```
-
-1. Run the downloaded script file to install the Postman CLI.
