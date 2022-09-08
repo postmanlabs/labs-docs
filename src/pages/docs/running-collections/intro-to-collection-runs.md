@@ -40,7 +40,7 @@ The _Collection Runner_ enables you to run the API requests in a collection in a
 
 You can configure the Collection Runner to meet your development needs. You can run collections using a specific environment, and can pass data files into a run. Collection runs enable you to automate your API testing, and you can schedule runs using [monitors](/docs/monitoring-your-api/intro-monitors/). You can also integrate collection runs with your CI/CD pipeline using [the Postman CLI](/docs/postman-cli/postman-cli-overview/), a Postman tool that enables you to run and test collections directly from the command line.
 
-![Collection Runner results page overview](https://assets.postman.com/postman-docs/collection-runner-overview-v9.jpg)
+![Collection Runner results page overview](https://assets.postman.com/postman-docs/v10/collection-runner-overview.jpg)
 
 ## Contents
 
@@ -57,7 +57,7 @@ To configure a collection run:
 1. Select **Collections** in the sidebar and select the collection you want to run.
 1. On the overview tab, select <img alt="Runner icon" src="https://assets.postman.com/postman-docs/icon-runner-v9.jpg#icon" width="16px"> **Run**.
 
-    <img alt="Select Run from the collection overview" src="https://assets.postman.com/postman-docs/collection-runner-select-run-v9.jpg" width="350px"/>
+    <img alt="Select Run from the collection overview" src="https://assets.postman.com/postman-docs/v10/collection-runner-button.jpg" width="350px"/>
 
     > You can also select <img alt="Runner icon" src="https://assets.postman.com/postman-docs/icon-runner-v9.jpg#icon" width="16px"> __Runner__ from the Postman footer and drag a collection from __Collections__ or __History__ in the sidebar.
 
@@ -75,7 +75,7 @@ To configure a collection run:
     * **Run collection without using stored cookies** - If your requests use cookies, you can optionally deactivate them for a collection run.
     * **Save cookies after collection run** - Save the cookies used in this session to the cookie manager. Any values changed by requests during the run will remain after it completes.
 
-      <img alt="Collection Runner configuration settings" src="https://assets.postman.com/postman-docs/collection-runner-configuration-v9.jpg" width="800px"/> <!--TODO: replace image-->
+      <img alt="Collection Runner configuration settings" src="https://assets.postman.com/postman-docs/v10/collection-runner-configuration-manually.jpg" width="800px"/>
 
 1. If you select **Automate runs via CLI**, a code snippet is shown which you can run with the Postman CLI to run the collection from the command line. Select **Add API Key** to add an existing API key or generate a new API key and add it to the snippet. There's also a link to add the CLI configuration to a CI/CD integration. <!--TODO: links-->
 
@@ -89,13 +89,11 @@ To configure a collection run:
 
 When running collections manually, Postman displays your request executions and test results in real time. To access more data about what happened when a request executed, select its name from the list of results.
 
-![Collection Runner results](https://assets.postman.com/postman-docs/collection-runner-run-results-v9.jpg)<!--TODO: replace image-->
+![Collection Runner results](https://assets.postman.com/postman-docs/v10/collection-runner-run-results.jpg)
 
 To view more details, including any log statements used in your collection, select <img alt="Console icon" src="https://assets.postman.com/postman-docs/icon-console-v9.jpg#icon" width="16px"> __Console__ from the footer.
 
 To view details about the run, select __View Summary__. The summary also has a column for each iteration of your collection run so you can review test output for the whole run.
-
-[![Runner result summary](https://assets.postman.com/postman-docs/run-overview-v8.jpg)](https://assets.postman.com/postman-docs/run-overview-v8.jpg) <!--TODO: replace -->
 
 To return to the overview of the run, select __View Results__.
 
@@ -113,7 +111,7 @@ If you set an iteration number for the collection run, you can access the overvi
 
 Each collection has a **Runs** tab, which displays collection runs done by Collection Runner or the Postman CLI. It shows test counts along with metrics such as duration and average response times.
 
-![Collection Run History tab](https://assets.postman.com/postman-docs/collection-run-history-tab.jpg)<!--TODO: change-->
+![Collection Run History tab](https://assets.postman.com/postman-docs/v10/collection-run-tab.jpg)<!--TODO: change-->
 
 The Runs tab has controls to select how many collection runs to view, and limit the displayed runs to view only collection runs from selected users, a selected status, and either from the Collection Runner or the Postman CLI.
 
@@ -122,9 +120,7 @@ The following are displayed for each collection run:
 * A select box for each run and an option to select all runs.
     * Select one or more collection runs and select **Delete** to remove them.
 * The start time of the collection run.
-* A warning icon if the run failed.
-* The run source, duration, all tests, passed tests, failed tests, skipped tests, and the average response time.
-    * Select any of these items to sort the table by that item. Select again to change the sort order.
+* The run source, duration, all tests, passed tests, failed tests, skipped tests, and the average response time.Select any of these items to sort the table by that item. Select again to change the sort order.
 
 Hover over an item to show the following controls:
 
