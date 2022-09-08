@@ -42,11 +42,11 @@ contextual_links:
 
 ---
 
-The _Private API Network_ provides a central directory of all the APIs your team uses internally. Your team can access these APIs and start using them right away.
+The _Private API Network_ provides a central directory of workspaces, collections, and APIs your team uses internally. Your Postman team can access these resources and start using them right away. By utilizing the Private API Network, you can enable developers across your organization to discover, consume, and track API development in one place.
 
-APIs in the Private API Network are visible to logged-in users who are a part of your Postman team. Users who aren't a part of your team can't find or access these APIs.
+Workspaces, collections, and APIs in the Private API Network are visible to logged-in users who are on your Postman team. Users who aren't on your team can't find or access these resources.
 
-> As a quality control measure, Enterprise teams can turn on an [optional approval process workflow](#using-the-approval-process-workflow) in which only designated users with the [API Network Manager role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can add APIs to the Private API Network. If your team doesn't use the optional approval process workflow, any user who has an Editor role for an API can [add it to the Private API Network](#adding-your-apis).
+> As a quality control measure, Enterprise teams can turn on an [optional approval process workflow](#using-the-approval-process-workflow) in which only designated users with the [API Network Manager role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can add workspaces, collections, and APIs to the Private API Network. If your team doesn't use the optional approval process workflow, any user who has an Editor role for a workspace, collection, or API can [add it to the Private API Network](#adding-your-apis).
 
 <img alt="Private API Network overview" src="https://assets.postman.com/postman-docs/private-api-network-overview-v9.jpg" width="1400px"/>
 
