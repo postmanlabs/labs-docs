@@ -34,9 +34,9 @@ To set up a Jenkins integration for your API, first create an API token in Jenki
 
 ## Configuring a Jenkins integration
 
-1. Open your API by selecting **APIs** in the sidebar, and then selecting an API and a version. *Each API version can be linked to one CI project*.
-1. Select the **Test** tab.
-1. Under **Connect to CI/CD Builds**, select **Jenkins**.
+1. Open your API by selecting **APIs** in the sidebar. *Each API can be linked to one CI project*.
+1. Select **Test and Automation**.
+1. Under **Automate**, select **Jenkins**.
 1. Enter a **Nickname** to help you recognize the integration later.
 1. Enter the **URL** of your Jenkins server.
 
@@ -53,7 +53,7 @@ To set up a Jenkins integration for your API, first create an API token in Jenki
 
 After you set up a Jenkins integration, information for build jobs is available in Postman. For each build you can view the start time, duration, and build status (`Success` or `Failed`). You can also view the results of collection runs that are [configured in your pipeline using Newman](#configuring-newman-for-jenkins).
 
-To view build jobs, open an API version and select the **Test** tab. The most recent jobs are listed under **CI/CD Builds**.
+To view build jobs, open an API and select **Test and Automation**. The most recent jobs are listed under the repository name.
 
 Select **View Builds** to view the full list of build jobs. From here you can take the following actions:
 
@@ -85,8 +85,8 @@ Each time a build runs, Newman runs the collections that contain your tests. You
 
 To generate configuration code for Newman:
 
-1. Open your API version and select the **Test** tab.
-1. Under **CI/CD Builds**, select **View Builds**.
+1. Open your API and select **Test and Automation**.
+1. Under the repository name, select **View All Builds**.
 1. Select **Configure Newman**.
 1. Select a **Collection** to run during pipeline builds. To be available in the dropdown list, you must first [add the collection as a test suite](/docs/designing-and-developing-your-api/testing-an-api/#adding-tests) to your API. You can also select an **Environment** to use.
 
@@ -104,7 +104,7 @@ To add the Newman configuration to your Jenkins pipeline:
     * Replace `your_nodejs_configured_tool_name` with the name of your Node.js tool, for example, `node`.
     * Replace all instances of `$POSTMAN_API_KEY` with a valid [Postman API Key](/docs/developer/intro-api/#generating-a-postman-api-key).
 1. Select **Save** and then run the pipeline using the new configuration.
-1. To view the test results in Postman, open your API version and select the **Tests** tab. For more help, see [Viewing collection run details](#viewing-collection-run-details).
+1. To view the test results in Postman, open your API and select **Test and Automation**. For more help, see [Viewing collection run details](#viewing-collection-run-details).
 
 ### Example Jenkins pipeline script
 
