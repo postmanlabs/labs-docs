@@ -9,4 +9,4 @@ Postman’s _API Governance_ and _API Security_ features offer you guidance for 
 Postman applies API Governance and API Security rules at the following phases of API development:
 
 * **API definition** - Postman applies governance and security rules to your [API definition](/docs/api-governance/api-definition/api-definition-warnings/) and shows rule violations that might impact your definition's governance and security postures.
-* **Requests** - Postman applies security rules to your [API requests](/docs/api-governance/api-testing/api-testing-warnings/) and shows rule violations that might impact your API's security posture.
+* **Requests** - Postman applies security rules configured for your [API requests](/docs/api-governance/api-testing/api-testing-warnings/) when you send requests to any API using either the Postman web app or the Postman desktop app.

@@ -4,77 +4,93 @@ updated: 2022-09-15
 search_keyword: "api security, security warnings, schema validation, security validation, api security audit, api security scan, api schema vulnerabilities, security audit"
 ---
 
-> [Configurable security rules are only available to Postman Enterprise teams.](https://www.postman.com/pricing) If you don't have an Enterprise account, you'll be able to see the API Security dashboard, but you won't be able to turn rules on or off or add new rules.
+> [Configurable security rules are only available to Postman Enterprise teams.](https://www.postman.com/pricing) If you don't have an Enterprise account, you'll be able to see the API Security page, but you won't be able to turn rules on or off or add new rules.
 
-You can use the _API Security dashboard_ to configure the rules that Postman applies to your API at both the design phase and the testing phase of API development:
-
-* **API design** - Postman applies governance rules to your [API definition](/docs/designing-and-developing-your-api/defining-an-api/) and shows warnings about your definition's format and security posture.
-* **API testing** - Postman applies governance rules to your [API requests](https://learning.postman.com/docs/api-governance/api-testing/api-testing-warnings/) and shows warnings about issues that might impact their security posture.
+You can customize the API Security rules that Postman applies to your [API definition](/docs/designing-and-developing-your-api/defining-an-api/) and [requests](https://learning.postman.com/docs/api-governance/api-testing/api-testing-warnings/). Adhering to these API Security rules enables you keep your API secure and consistent.
 
 <!-- TODO: screenshot -->
 
 ## Contents
 
-* [Accessing the API Security dashboard](#accessing-the-api-security-dashboard)
-* [Configuring security rules for your team](#configuring-security-rules-for-your-team)
-* [Creating custom security rules](#creating-custom-security-rules)
-    * [Turning off custom security rules](#turning-off-custom-security-rules)
-    * [Deleting custom security rules](#deleting-custom-security-rules)
+* [Configuring rules for API definitions](#configuring-rules-for-api-definitions)
+    * [Turning configured rules on and off](#turning-configured-rules-on-and-off)
+    * [Adding custom rules](#adding-custom-rules)
+    * [Removing custom rules](#removing-custom-rules)
+* [Requests](#requests)
+    * [Turning configured rules on and off](#turning-configured-rules-on-and-off)
 
-## Accessing the API Security dashboard
+## Configuring rules for API definitions
 
-To access the API Security panel, go to the [Postman home screen](https://go.postman.co/), then select **API Security** from the team information panel.
+Postman applies security rules to your [API definition](/docs/api-governance/api-definition/api-definition-warnings/) and shows rule violations that might impact your definition's security posture. In addition to the rules turned on by default in Postman, you can [create and apply your own custom rules](#adding-custom-rules).
 
-> Access to the API Security dashboard is only available for users who have both an Admin and a Developer role assigned to them. If you don't see the **API Security** link from the Postman home page, you might not have the correct permissions. Talk to your Team Admin to discuss your [assigned roles](/docs/collaborating-in-postman/roles-and-permissions/).
+To access the configuration page for API definitions:
 
-## Configuring security rules for your team
+1. Go to the [Postman home screen](https://go.postman.co/).
+1. Select **API Security** from the team information panel.
+    <!-- TODO: screenshot -->
+1. Make sure that **API definitions** is selected.
 
-You can set security rules that Postman runs during the design and testing phases of the API development process:
+### Turning configured rules on and off
 
-* To configure the security rules that Postman runs during the design phase of API development, select **API definitions**.
-* To configure the sdashboardty rules that Postman runs during the testing phase of API development, select **Requests**.
+> Only Team Admins with a [Developer role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can turn configured API Security rules off and on.
 
-<!-- TODO: screenshot -->
+Your team can turn individual security rules on or off to meet your development needs:
 
-### Turning security rules off and on
-
-> You must have an [Admin or Developer](/docs/collaborating-in-postman/roles-and-permissions/) role for your team to turn security rules off and on.
-
-All the available security rules are turned on by default. Your team can configure individual security rules to meet your development needs. If you turn a rule off, you and your team members won't see warnings for this rule if it's violated in your API's definition or when you send an API request.
-
-To turn a security rule off, select the toggle next to the rule name. To turn the rule back on, select the toggle again.
+* To turn a security rule on, select the toggle next to the rule name. You and your team members will see violations for this rule in your API's definition.
+* To turn a security rule off, select the toggle next to the rule name. You and your team members won't see violations for this rule in your API's definition.
 
 <!-- TODO: screenshot -->
 
-## Creating custom security rules
+### Adding custom rules
 
-> Creating custom security rules is only available for **API definitions**.
-<!--  -->
-> You must have an [Admin or Developer](/docs/collaborating-in-postman/roles-and-permissions/) role for your team to create custom governance rules.
+> Only Team Admins with a [Developer role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can create custom API Security rules.
 
-You can create new custom security rules for Postman to evaluate your API's definition with at the design phase of the API development process.
-
-The new rules you create must adhere to [Spectral guidelines for custom rules](https://meta.stoplight.io/docs/spectral/e5b9616d6d50c-custom-rulesets). However, they can't include [Spectral custom functions](https://meta.stoplight.io/docs/spectral/ZG9jOjI1MTkw-custom-functions).
+You can create new custom security rules that Postman can use to evaluate your API's definition.
 
 1. Select **API definitions**.
 1. Select **Create new rule**.
-1. Define the rule in the editor.
+1. Define the rule in the editor. It must adhere to [custom rule guidelines](#custom-rule-guidelines).
     <!-- TODO: screenshot -->
 1. The rule must be valid YAML or JSON. Use the dropdown list to choose the correct syntax.
 1. Select OpenAPI 2.0 or OpenAPI 3.0 to choose which specification your new rule is valid for.
 1. Select **Create**.
-1. In the API Security dashboard, find your new rule under **Custom rules** and turn it on.
+1. Find your new rule under **Custom rules** and turn it on.
 
 <!-- TODO: screenshot -->
 
 You can also select **Upload file(s)** to upload a new rule in valid YAML or JSON format.
 
-You can't create a custom rule that duplicates an existing rule.
+#### Custom rule guidelines
 
-### Turning off custom security rules
+Postman uses [Spectral v6](https://github.com/stoplightio/spectral/releases/) to define custom rules, and any new rules you create must adhere to Spectral v6 [guidelines for custom rules](https://github.com/stoplightio/spectral#1-create-a-local-ruleset).
 
-To turn a custom security rule off, select the toggle next to the rule name.
+* Custom rules can't contain Spectral custom functions.
+* You can't create a custom rule that duplicates an existing rule.
 
-### Deleting custom security rules
+### Removing custom rules
 
-You must be a [Team Admin](/docs/collaborating-in-postman/roles-and-permissions/) to delete a custom rule. To delete a custom rule, select the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> next to its name. If you delete a custom security rule, you will need to add it back into Postman if you want to use it again.
+> You must be a Team Admin with a [Developer role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) to delete a custom security rule.
+
+To delete a custom rule, select the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> next to its name. If you delete a custom rule, you'll need to add it back into Postman if you want to use it again.
+
+## Configuring rules for requests
+
+> Only Team Admins with a [Developer role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can turn configured API Security rules off and on.
+
+Postman applies security rules configured for your [API requests](/docs/api-governance/api-testing/api-testing-warnings/) when you send requests to any API using either the Postman web app or the Postman desktop app.
+
+To access the configuration page for requests:
+
+1. Go to the [Postman home screen](https://go.postman.co/).
+1. Select **API Security** from the team information panel.
+    <!-- TODO: screenshot -->
+1. Select **Requests**.
+
+### Turning configured rules on and off
+
+Your team can turn individual security rules on or off to meet your development needs:
+
+* To turn a security rule on, select the toggle next to the rule name. You and your team members will see violations for this rule in your API's definition.
+* To turn a security rule off, select the toggle next to the rule name. You and your team members won't see violations for this rule in your API's definition.
+
+<!-- TODO: screenshot -->
