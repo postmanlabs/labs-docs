@@ -2,7 +2,7 @@ import React from 'react';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 import styled from "styled-components";
-
+import { Divider } from 'aether-marketing';
 import algoliasearch from 'algoliasearch/lite';
 import { 
   InstantSearch,
@@ -15,12 +15,6 @@ import {
   Configure
 } from 'react-instantsearch-hooks-web';
 
-const HRStyles = styled.hr`
-  border: 0;
-  border-top: 1px solid #E6E6E6;
-  margin-top: 0;
-  margin-bottom: 0;
-`;
 
 /* URL manipulation
 **********************************************/ 
@@ -159,7 +153,7 @@ function Hit({ hit }) {
           </p>
         </a>
       </HitStyle>
-      <HRStyles />
+      <Divider fullWidth/>
     </>
   );
 }

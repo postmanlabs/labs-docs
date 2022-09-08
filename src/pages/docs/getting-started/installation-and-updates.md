@@ -1,9 +1,6 @@
 ---
 title: "Installing and updating"
-order: 2
-page_id: "installation_and_updates"
-warning: false
-updated: 2022-02-16
+updated: 2022-09-02
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -30,7 +27,7 @@ contextual_links:
 
 ---
 
-Postman is available on the web at **[go.postman.co/home](https://go.postman.co/home)** and as a native desktop app for Mac (Intel and M1), Windows (32-bit / 64-bit), and Linux (64-bit) operating systems.
+Postman is available on the web at **[go.postman.co/home](https://go.postman.co/home)** and as a native desktop app for Mac (Intel and Apple), Windows (32-bit / 64-bit), and Linux (64-bit) operating systems.
 
 To get the latest version of the Postman desktop app, visit the [download page](https://www.postman.com/downloads/) and select **Download** for your platform.
 
@@ -56,7 +53,7 @@ Postman is available for macOS 10.11 (El Capitan) and later.
 
 1. [Download](https://www.postman.com/downloads/) the latest Postman version.
 
-    > Make sure to download the **Mac Apple Chip** version if you have a Mac with the M1 processor.
+    > Make sure to download the **Mac Apple Chip** version if you have a Mac with the M1 or M2 processor.
 
 1. If your browser downloads the file as a ZIP file, find the file in the **Downloads** folder and unzip it.
 1. In the **Downloads** folder, double-click the `Postman` file to install it.
@@ -156,7 +153,7 @@ From the Postman web app, you can select the agent you would like to use for you
 
 ### Web limitations
 
-The Postman web app is under active development. There are a few features you can currently only access in the Postman desktop app, not in your browser:
+The Postman web app is under active development. There are features you can only access in the Postman desktop app, not in your browser:
 
 * **Find and replace** - The Postman desktop app supports [finding and replacing values in a workspace](/docs/getting-started/navigating-postman/#find-and-replace), but this function isn't available on the Postman web app yet.
 * **Certificates and proxy** - The Postman desktop app enables you to customize [certificates](/docs/sending-requests/certificates/) and [proxy configurations](/docs/getting-started/proxy/#configuring-proxy-settings). On the Postman web app, these take the browser defined value and can't be overridden by Postman.
@@ -219,7 +216,7 @@ If you encounter any issues installing and running Postman, check out the follow
 
 If you get an __Update Failed__ notification in Postman, you can use the DevTools to investigate.
 
-![update-error-dialog](https://assets.postman.com/postman-docs/update-error-dialog.png)
+![update-error-dialog](https://assets.postman.com/postman-docs/v10/update-error-dialog.jpg)
 
 Open the DevTools using __View__ &gt; __Developer__ &gt; __Show DevTools (Current View)__.
 
