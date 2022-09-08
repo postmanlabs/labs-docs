@@ -103,7 +103,7 @@ Use the following links to download the latest Postman v9 version for your platf
 * [Download Postman v9 for macOS 64-bit](https://go.pstmn.io/dl-macos64-v9-latest)
 * [Download Postman v9 for Windows 64-bit](https://go.pstmn.io/dl-win64-v9-latest)
 * [Download Postman v9 for Windows 32-bit](https://go.pstmn.io/dl-win32-v9-latest)
-* [Download Postman v9 for Linux 64-bit](https://go.pstmn.io/dl-linux64-v89-latest)
+* [Download Postman v9 for Linux 64-bit](https://go.pstmn.io/dl-linux64-v9-latest)
 
 If you're using Postman for Linux, and had installed the app through 'Ubuntu Software Center' or 'Snap Store', use the following commands to switch to Postman v9.
 
