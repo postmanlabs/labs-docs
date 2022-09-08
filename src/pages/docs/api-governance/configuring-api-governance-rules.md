@@ -71,8 +71,8 @@ Your team can turn individual governance rules on or off to meet your developmen
 
 ## Removing rules from your API Governance configuration
 
+> You must be a Team Admin with a [Developer role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) to delete a custom governance rule. If you delete a custom rule, you'll need to add it back into Postman if you want to use it again.
+
 To remove an API Governance rule, select the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> next to its name. You can re-import from the rule library by selecting **Import from library**.
 
 <!-- TODO: screenshot -->
-
-> You must be a Team Admin with a [Developer role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) to delete a custom governance rule. If you delete a custom rule, you'll need to add it back into Postman if you want to use it again.
