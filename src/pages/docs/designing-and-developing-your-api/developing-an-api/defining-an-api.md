@@ -101,7 +101,7 @@ A multi-file API definition consists of the following components:
 
 * **API Definition** - The entire definition of the API, combining all files within it.
 * **Files** - One or more files that specify the API definition.
-* **Root file** - The top-level file that hosts the operations defined by the API. This file contains references to other files in the API definition. There can be a single root file. When you [create a new API definition](/docs/designing-and-developing-your-api/creating-an-api/), the first file created is the root file. When [importing an API](/docs/designing-and-developing-your-api/importing-an-api/), Postman will determine the root file based on the references across the imported files.
+* **Root file** - The top-level file that hosts the operations defined by the API. See below for more information on root files.
 * **Folders** - You can create folders within an API definition to organize files. (You can also add folders within folders.)
 
 > Multi-file API definitions don't support the schema sync integration. Instead, use [API version control](/docs/designing-and-developing-your-api/versioning-an-api/versioning-an-api-overview/) to sync with a repository.
@@ -109,6 +109,14 @@ A multi-file API definition consists of the following components:
 <!-- -->
 
 > You can't manage a multi-file API definition using the Postman API.
+
+### About root files
+
+An API definition's root file contains references to other files in the API definition. If you made a tree diagram of the relationships between all files in an API definition, the root file would be the file at the top of the tree. When you [create a new API definition](/docs/designing-and-developing-your-api/creating-an-api/) or [import an API](/docs/designing-and-developing-your-api/importing-an-api/), Postman will intelligently determine the root file based on the references across the files.
+
+For OpenAPI 3.0 API definitions, Postman detects root files intelligently based on the content and references within files while importing or creating an API definition. You can't set a file as root for OpenAPI 3.0. OpenAPI can only have one root file. If you delete the root file, Postman will recalculate the next candidate for the root file automatically.
+
+For Protobuf API definitions, while importing the API, Postman detects all files which have service definitions present in them and marks one as the root. You can set another file as root if there's more than one candidate for root file. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to a Protobuf file in the sidebar and select **Mark as root**.
 
 ### Editing a multi-file API definition
 
