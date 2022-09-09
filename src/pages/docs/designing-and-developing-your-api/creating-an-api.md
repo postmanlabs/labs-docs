@@ -54,11 +54,14 @@ To create a new API:
 
 1. Enter a name for your new API.
 1. Select an option for creating your API:
+    * Connect to a Git repository and import your API definitions and collections into Postman. Learn more about [connecting to a repository](/docs/designing-and-developing-your-api/versioning-an-api/using-external-git-repo/).
+    * Continue without a repository.
+1. To start working with your new API:
 
-    * **Create from scratch** - Creates an empty API. To start working on your API, [create a new definition](/docs/designing-and-developing-your-api/developing-an-api/defining-an-api/#generating-an-api-definition). You can also [import an existing API definition](/docs/designing-and-developing-your-api/importing-an-api/) from a file, a code repository, or an API gateway.
-    * **Connect Repository** - Connect to a Git repository and import your API definitions and collections into Postman. Learn more about [connecting to a repository](/docs/designing-and-developing-your-api/versioning-an-api/using-external-git-repo/).
-    * **Start with collections** - Use a collection as a starting point for your API. Select the collection you want to use and select **Add Collection**. The collection will be moved to the new API.
-    * **Import from API Gateways** - Import an API definition from an API gateway and view deployments in Postman. Learn more about [importing an API](http://localhost:8000/docs/designing-and-developing-your-api/importing-an-api/).
+    * [Create a new API definition](/docs/designing-and-developing-your-api/developing-an-api/defining-an-api/#generating-an-api-definition) for your API.
+    * You can also [import an existing API definition](/docs/designing-and-developing-your-api/importing-an-api/) from a file, a code repository, or an API gateway.
+    * [Use a collection as a starting point for your API](/docs/designing-and-developing-your-api/developing-an-api/adding-api-elements/). Select the collection in your workspace you want to use and make a copy of it into your API.
+    * Import an API definition from an API gateway and view deployments in Postman. Learn more about [importing an API](/docs/designing-and-developing-your-api/importing-an-api/).
 
 > Postman supports OpenAPI (versions 1.0, 2.0, 3.0, and 3.1), RAML (0.8 and 1.0), Protobuf (2.0 and 3.0), GraphQL, or WSDL (1.1 and 2.0) definitions. OpenAPI definitions can be in JSON or YAML. RAML definitions must be YAML. Protobuf definitions are proto files. GraphQL definitions can be JSON or GraphQL SDL. WSDL definitions must be XML.
 
@@ -81,7 +84,7 @@ There are some differences in the way API versions work in Postman v10 compared 
 
 ## Renaming an API
 
-To change the name of an API, select **APIs** in the sidebar. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to an API and select **Rename**.
+To change the name of an API, select **APIs** in the sidebar. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to an API and select **Rename**. You can also select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px"> next to the API name in the overview tab and enter a new name.
 
 ## Deleting an API
 

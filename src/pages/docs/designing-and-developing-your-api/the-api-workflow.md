@@ -47,6 +47,8 @@ When you select an API in the sidebar, the workbench displays an overview of the
 
 <img src="https://assets.postman.com/postman-docs/v10/api-builder-overview-v10.jpg" alt="API Builder overview" />
 
-The right sidebar offers more options for working with your API. You can view comments, generate server code from your API definition, and view the API's changelog. For API's connected to the Git repository, the changelog is replaced by the **Source Control** pane, which you can use to sync your changes with a remote Git repository.
+The right sidebar offers more options for working with your API. You can view comments, generate server code from your API definition, and view the API's changelog.
 
 <img src="https://assets.postman.com/postman-docs/v10/api-builder-changelog-v10.jpg" alt="API Builder changelog" width="443px" />
+
+For API's connected to the Git repository, the changelog is replaced by the **Source Control** pane, which you can use to sync your changes with a remote Git repository.
