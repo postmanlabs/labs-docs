@@ -72,7 +72,7 @@ As you create your API definition in the editor, Postman automatically checks it
 
 To learn more about the supported API description formats, the rules preconfigured in Postman, and how to create new rules, see [API definition warnings](/docs/api-governance/api-definition/api-definition-warnings/).
 
-To see any rule violations, select **Rule** next to **Violations found in schema**. Postman displays each rule violation on its own line, with a brief description of the issue, the rule type (governance or security), and the line and file the where the rule violation occurs. When you select a rule violations, Postman highlights the section of the definition that triggered it.
+To see any rule violations, select **Rule** next to **Violations found in schema**. Postman displays each rule violation on its own line, with a brief description of the issue, the rule type (**Governance** or **Security**), and the line and file the where the rule violation occurs. When you select a rule violations, Postman highlights the section of the definition that triggered it.
 
 If the rule violation occurs more than once, the line indicates how many times. You can scroll through each occurrence.
 
