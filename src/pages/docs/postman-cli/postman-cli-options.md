@@ -164,7 +164,7 @@ postman collection run 12345678-12345ab-1234-1ab2-1ab2-ab1234112a12
 | `--globals [file-path]`, `-g` | Specifies the file path for global variables. Global variables are similar to environment variables but have lower precedence and can be overridden by environment variables having the same name. |
 | `--iteration-count [number]`, `-n` | Specifies the number of times the collection will run when used in conjunction with the iteration data file. |
 | `--iteration-data [file-path] or [URL]`, `-d` | Specifies a data source file (`JSON` or `CSV`) to be used for iteration as a path to a file or as a URL.|
-|  `-i [requestUID] or [folderUID]` | Runs only the specified folder UID or request UID from the collection. |
+|  `-i [requestUID] or [folderUID]` | Runs only the specified folder UID or request UID from the collection. Multiple items can be run in order by specifying `-i` multiple times, for example: `postman collection run collectionUID -i folder1UID -i folder2UID`|
 | `-i [requestName] or [folderName]` | Runs only the specified folder name or request name from the collection. If there are duplicate names, the Postman CLI runs the folder or request that appears first.|
 | `--ignore-redirects` | Prevents the Postman CLI from automatically following 3XX redirect responses.|
 | `--insecure`, `-k` | Turns off SSL verification checks and allows self-signed SSL certificates. |
