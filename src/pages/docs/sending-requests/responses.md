@@ -169,7 +169,7 @@ If it finds any, Postman adds the number of warnings to the **Security** tab in 
 
 <!-- TODO: screenshot -->
 
-### Hiding security issues
+### Hiding security warnings
 
 To turn a warning off for the current API response:
 
