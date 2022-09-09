@@ -31,7 +31,7 @@ Stay on top of your API deployments in Postman by connecting to an API gateway. 
 
 ## Connecting to an API gateway
 
-To connect to an API gateway in Postman, select **APIs** in the sidebar and select an API. Under **Power up your API**, select **Deployments**, and then select **AWS API Gateway** or **Apigee X**.
+To connect to an API gateway in Postman, select **APIs** in the sidebar and select an API. Select **Deployments**, and then select **AWS API Gateway** or **Apigee X**.
 
 Enter the required information to configure the API gateway integration. For detailed steps, see [Deploying to an Amazon API Gateway](/docs/designing-and-developing-your-api/deploying-an-api/deploying-an-api-aws/) or [Deploying to an Apigee API gateway](/docs/designing-and-developing-your-api/deploying-an-api/deploying-an-api-apigee/).
 
@@ -39,7 +39,7 @@ Enter the required information to configure the API gateway integration. For det
 
 ## Viewing API deployments in Postman
 
-After connecting to an API gateway, you can view the deployment history for your API schemas in Postman. Select **APIs** in the sidebar and select an API. Under **Power up your API**, select **Deployments**.
+After connecting to an API gateway, you can view the deployment history for your API schemas in Postman. Select **APIs** in the sidebar and select an API. Select **Deployments**.
 
 * **Amazon API Gateway** - View the active deployment for each stage, recent exports from Postman, and details about each deployment. You can also export or deploy your HTTP API schema from Postman to your gateway. Learn more about [Viewing Amazon API gateway deployments](/docs/designing-and-developing-your-api/deploying-an-api/deploying-an-api-aws/#viewing-amazon-api-gateway-deployments).
 * **Apigee X** - View details about your Apigee API proxy and proxy endpoints. You can also view details about your Apigee environments. Learn more about [Viewing Apigee X deployments](/docs/designing-and-developing-your-api/deploying-an-api/deploying-an-api-apigee/#viewing-apigee-x-deployments).

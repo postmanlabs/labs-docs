@@ -28,7 +28,7 @@ Before you begin, you must configure your application to send traces to Datadog.
 To connect an API to Datadog APM:
 
 1. Select **APIs** in the sidebar and select an API.
-1. Under **Power up your API**, select **API Performance**.
+1. Select **API Performance**.
 1. Under **Connect Postman to your monitoring workflows**, select **Datadog**.
 1. Select your Datadog region (**US** or **EU**).
 1. Enter your **Datadog API Key** and **Datadog Application Key**. To learn more, see the Datadog documentation for [adding API and application keys](https://docs.datadoghq.com/account_management/api-app-keys/).
@@ -42,7 +42,7 @@ To connect an API to Datadog APM:
 
 ## Viewing Datadog APM metrics
 
-After connecting to Datadog APM, you can view metrics for your Datadog services in Postman. Select **APIs** in the sidebar and select an API. Under **Power up your API**, select **API Performance**.
+After connecting to Datadog APM, you can view metrics for your Datadog services in Postman. Select **APIs** in the sidebar and select an API. Select **API Performance**.
 
 For each Datadog service, you can view the environment, latency, throughput, error rate, and apdex (application performance index). You can also view Datadog monitor notifications, for example `Alert`, `Warn`, and `No Data`.
 

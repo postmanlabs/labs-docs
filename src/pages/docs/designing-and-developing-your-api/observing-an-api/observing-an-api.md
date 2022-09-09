@@ -45,7 +45,7 @@ You can link [collection-based monitors](/docs/monitoring-your-api/setting-up-mo
 To add a new monitor to your API:
 
 1. Select **APIs** in the sidebar and select an API.
-1. Under **Power up your API**, select **API Performance**.
+1. Select **API Performance**.
 1. Next to **Collection-based Monitors**, select **Add Monitor** and choose **Create new monitor**.
 
 You can choose between generating a collection from your API schema, using an existing collection, or creating a new collection:
@@ -68,7 +68,7 @@ Next, configure the new monitor. For details, see [Configuring a collection-base
 To add an existing monitor to your API:
 
 1. Select **APIs** in the sidebar and select an API.
-1. Under **Power up your API**, select **API Performance**.
+1. Select **API Performance**.
 1. Next to **Collection-based Monitors**, select **Add Monitor** and choose **Add existing monitor**.
 1. Select a collection-based monitor from the list and select **Add Monitor**. (The list shows monitors available in your current workspace.)
 
@@ -89,7 +89,7 @@ Connect Postman to one or more monitoring integrations to send collection-based 
 
 1. If you haven't done so already, [create the collection-based monitor](/docs/monitoring-your-api/intro-monitors/) you want to use for monitoring.
 1. Select **APIs** in the sidebar and select an API.
-1. Under **Power up your API**, select **API Performance**.
+1. Select **API Performance**.
 1. Under **Connect Postman to your monitoring workflows**, select a monitor integration.
 1. Enter a **Nickname** for the integration and choose a monitor. Postman will send the results of this monitor to the application you're integrating with.
 1. Finish entering the requested information. This information varies depending on the application you're integrating with, and typically includes an API key. For more help with a specific application, see [Integrating with Postman](/docs/integrations/intro-integrations/) and select [Available integrations](/docs/integrations/available-integrations/apimatic/) in the left navigation pane.

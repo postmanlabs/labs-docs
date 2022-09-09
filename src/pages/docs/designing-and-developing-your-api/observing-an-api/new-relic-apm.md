@@ -40,7 +40,7 @@ Before you begin, you must set up APM services for each deployment of your API. 
 To connect an API to New Relic APM:
 
 1. Select **APIs** in the sidebar and select an API.
-1. Under **Power up your API**, select **API Performance**.
+1. Select **API Performance**.
 1. Under **Connect Postman to your monitoring workflows**, select **New Relic APM**.
 1. Enter your **New Relic API Key** (User Key).
 
@@ -56,7 +56,7 @@ To connect an API to New Relic APM:
 
 ## Viewing New Relic APM metrics
 
-After connecting to New Relic APM, you can view metrics for your New Relic services in Postman. Select **APIs** in the sidebar and select an API. Under **Power up your API**, select **API Performance**.
+After connecting to New Relic APM, you can view metrics for your New Relic services in Postman. Select **APIs** in the sidebar and select an API. Select **API Performance**.
 
 For each New Relic service, you can view the latency, error rate, and apdex (application performance index). You can also view the service's health status, for example `Healthy`, `Warning`, and `Critical`. Health status is based on violations of alert conditions in New Relic. To learn more, see the New Relic documentation for [viewing alert violations](https://docs.newrelic.com/docs/alerts-applied-intelligence/new-relic-alerts/alert-violations/view-alert-violations-our-products/).
 

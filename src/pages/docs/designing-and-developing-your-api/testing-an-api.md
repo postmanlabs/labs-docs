@@ -54,7 +54,7 @@ You can connect a test collection to an API you have defined in the Postman API 
 To add tests to an API:
 
 1. Select **APIs** in the sidebar and select an API.
-1. Under **Power up your API**, select **Test and Automation**.
+1. Select **Test and Automation**.
 1. Next to **Tests**, select **Add Test Suite**.
 1. Add a new or existing test:
 
@@ -70,7 +70,7 @@ Postman integrates with some of the most widely used Continuous Integration and 
 To set up a CI integration:
 
 1. Select **APIs** in the sidebar and select an API.
-1. Under **Power up your API**, select **Test and Automation**.
+1. Select **Test and Automation**.
 1. Under **Connect to CI/CD Builds**, select the integration you want to add.
 
 To learn more about how CI integrations work, and for detailed configuration steps, see [CI integrations](/docs/integrations/ci-integrations/).
