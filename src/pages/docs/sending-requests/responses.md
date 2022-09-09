@@ -159,9 +159,11 @@ Postman applies security rules configured for your [API requests](/docs/api-gove
 
 To view the specific security warnings that Postman applies to all requests, see [Security warnings](/docs/api-governance/api-testing/security-warnings/).
 
-If it finds any, Postman adds the number of warnings to the **Security** tab in the response.
+If it finds any potential security risks, Postman adds the number of warnings to the **Security** tab in the response.
 
 <!-- TODO: screenshot -->
+
+To view the list of security warnings and to get more information about specific warnings: 
 
 1. Select **Security** to view the warnings.
 1. For more details, select a warning to expand it.
