@@ -1,4 +1,4 @@
----
+API definition---
 title: "OpenAPI 3.0 warnings"
 updated: 2022-07-20
 contextual_links:
@@ -79,18 +79,18 @@ For all APIs defined in OpenAPI 3.0, the following list describes possible warni
     * [The info object should have a terms of service](#the-info-object-should-have-a-terms-of-service)
     * [There should be no trailing slashes on paths](#there-should-be-no-trailing-slashes-on-paths)
 * [Operations](#operations)
-    * [Your operations all need descriptions](#your-operations-all-need-descriptions)
-    * [Your operations all need summaries](#your-operations-all-need-summaries)
-    * [Your operation summaries shouldn't end with a period](#your-operation-summaries-shouldnt-end-with-a-period)
+    * [All operations should have descriptions](#all-operations-should-have-descriptions)
+    * [All operations should have summaries](#all-operations-should-have-summaries)
+    * [Operation summaries shouldn't end with a period](#operation-summaries-shouldnt-end-with-a-period)
     * [All operations should have at least one tag](#all-operations-should-have-at-least-one-tag)
-    * [Your parameters all need descriptions](#your-parameters-all-need-descriptions)
-    * [Your parameters all need examples](#your-parameters-all-need-examples)
-    * [Your POST methods should have request bodies](#your-post-methods-should-have-request-bodies)
-    * [Your PUT methods should have request bodies](#your-put-methods-should-have-request-bodies)
-    * [Your PATCH methods should have request bodies](#your-patch-methods-should-have-request-bodies)
-    * [Your request bodies all need examples](#your-request-bodies-all-need-examples)
-    * [Your responses all need examples](#your-responses-all-need-examples)
-    * [A 204 No Content response can't have a body](#a-204-no-content-response-cant-have-a-body)
+    * [All parameters should have descriptions](#all-parameters-should-have-descriptions)
+    * [All parameters should have examples](#all-parameters-should-have-examples)
+    * [POST methods should have request bodies](#post-methods-should-have-request-bodies)
+    * [PUT methods should have request bodies](#put-methods-should-have-request-bodies)
+    * [PATCH methods should have request bodies](#patch-methods-should-have-request-bodies)
+    * [All request bodies should have examples](#all-request-bodies-should-have-examples)
+    * [All responses should have examples](#all-responses-should-have-examples)
+    * [A 204 response can't have a body](#a-204-response-cant-have-a-body)
     * [Operation should return a 2xx HTTP status code](#operation-should-return-a-2xx-http-status-code)
     * [Operation should return a 5xx HTTP status code](#operation-should-return-a-5xx-http-status-code)
 * [Models](#models)
@@ -868,7 +868,7 @@ This category of linting rules deals with the OpenAPI info object, which contain
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| Your API schema's [info object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#infoObject) doesn't contain a [contact object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#contactObject), which contains contact information including a name and email address. The contact data may be used directly by your API's consumers, or through an API portal or catalog. Defining contact information helps ensure there is a designated owner for each of your organization's APIs. | Add a contact object to your API schema's info object.  |
+| Your API definition's [info object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#infoObject) doesn't contain a [contact object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#contactObject), which contains contact information including a name and email address. The contact data may be used directly by your API's consumers, or through an API portal or catalog. Defining contact information helps ensure there is a designated owner for each of your organization's APIs. | Add a contact object to your API definition's info object.  |
 
 #### Resolution
 
@@ -887,7 +887,7 @@ info:
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| Your API schema's [contact object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#contactObject) doesn't contain a contact URL or email address. Although a contact URL or email aren't required, just a contact name is often not enough information for your API's consumers. Including a contact URL, an email address, or both gives them a way to contact your organization. | Add a contact URL, an email address, or both to your API schema's contact object. |
+| Your API definition's [contact object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#contactObject) doesn't contain a contact URL or email address. Although a contact URL or email aren't required, including one or both gives your API's consumers a way to contact your organization or the API owner. | Add a contact URL, an email address, or both to your API definition's contact object. |
 
 #### Resolution
 
@@ -897,7 +897,6 @@ info:
   title: An API name
   version: '1.0'
   contact:
-    name: A contact name
     email: contact@example.com
 ```
 
@@ -907,7 +906,6 @@ info:
   title: An API name
   version: '1.0'
   contact:
-    name: A contact name
     url: https://example.com
 ```
 
@@ -917,7 +915,7 @@ info:
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| Your API schema's [contact object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#contactObject) doesn't contain an email address. Although an email isn't required, just a contact name is often not enough information for your API's consumers. Including a contact email gives them a way to contact your organization. | Add an email address to your API schema's contact object. |
+| Your API definition's [contact object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#contactObject) doesn't contain an email address. Although a contact email isn't required, including one gives your API's consumers a way to contact your organization or the API owner. | Add an email address to your API definition's contact object. |
 
 #### Resolution
 
@@ -937,7 +935,7 @@ info:
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| Your API schema's [contact object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#contactObject) doesn't contain a contact name. Although a contact name isn't required, it helps your API's consumers understand who owns the API. It also makes your organization consider the API's ownership. | Add a name to your API schema's contact object. |
+| Your API definition's [contact object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#contactObject) doesn't contain a contact name. Although a contact name isn't required, it helps your API's consumers understand who owns the API. It also makes your organization consider the API's ownership. | Add a name to your API definition's contact object. |
 
 #### Resolution
 
@@ -957,7 +955,7 @@ info:
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| Your API schema's [contact object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#contactObject) doesn't contain a contact URL. Although a contact URL isn't required, just a contact name is often not enough information for your API's consumers. Including a contact URL gives them a way to contact your organization. | Add a URL to your API schema's contact object. |
+| Your API definition's [contact object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#contactObject) doesn't contain a contact URL. Although a contact URL isn't required, including one gives your API's consumers a way to contact your organization or the API owner. | Add a URL to your API definition's contact object. |
 
 #### Resolution
 
@@ -977,7 +975,7 @@ info:
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| Your API schema's [info object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#infoObject) doesn't contain a description. Although a description isn't required, including one allows you to provide your API's consumers with information about what the API does and how to use it. This can be anything from a short description to a long explanation of possible uses cases. For your organization, defining the API's description during the design phase can help set the boundaries of the API. | Add a description to your API schema's info object. |
+| Your API definition's [info object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#infoObject) doesn't contain a description. Although a description isn't required, including one allows you to provide your API's consumers with information about what the API does and how to use it. This can be anything from a short description to a long explanation of possible uses cases. For your organization, defining the API's description during the design phase can help set the boundaries of the API. | Add a description to your API definition's info object. |
 
 #### Resolution
 
@@ -995,7 +993,7 @@ info:
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| Your API schema's [info object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#infoObject) doesn't contain a [license object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#licenseObject), which helps your API's consumers know how the API can be copied and used.| Add a license object to your API schema's info object. |
+| Your API definition's [info object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#infoObject) doesn't contain a [license object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#licenseObject), which helps your API's consumers know how the API can be copied and used.| Add a license object to your API definition's info object. |
 
 #### Resolution
 
@@ -1016,7 +1014,7 @@ info:
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| Your API schema's [license object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#licenseObject) doesn't contain a license URL, which provides a link to a web page that describes the license. Although a license URL isn't required, just a license name may not be not enough information for your API's consumers, especially when you use a custom license. | Add a URL to your API schema's license object. |
+| Your API definition's [license object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#licenseObject) doesn't contain a license URL, which provides a link to a web page that describes the license. Although a license URL isn't required, just a license name may not be not enough information for your API's consumers, especially when you use a custom license. | Add a URL to your API definition's license object. |
 
 #### Resolution
 
@@ -1037,7 +1035,7 @@ info:
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| Your API schema's [info object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#infoObject) doesn't contain a URL for the Terms of Service for the API. A terms of service is often mandatory for public APIs. It's also recommended that private APIs provide a link to a Terms and Conditions web page. | Add a URL to the API's Terms of Service to your API schema's info object. |
+| Your API definition's [info object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#infoObject) doesn't contain a URL for the Terms of Service for the API. A terms of service is often mandatory for public APIs. It's also recommended that private APIs provide a link to a Terms and Conditions web page. | Add a URL to the API's Terms of Service to your API definition's info object. |
 
 #### Resolution
 
@@ -1055,7 +1053,7 @@ info:
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| One or more [path item objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#path-item-object) in your API schema's [paths object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#paths-object) have a trailing slash at the end of the path. Some tools treat a path that ends with a trailing slash (`/path/`) differently from the way that they treat paths without a trailing slash (`/path`), which can lead to problems that require long hours of debugging. |  Remove any trailing slashes from paths in your API schema's paths object. |
+| One or more [path item objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#path-item-object) in your API definition's [paths object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#paths-object) have a trailing slash at the end of the path. Some tools treat a path that ends with a trailing slash (`/path/`) differently from the way that they treat paths without a trailing slash (`/path`), which can lead to problems that require long hours of debugging. |  Remove any trailing slashes from paths in your API definition's paths object. |
 
 #### Resolution
 
@@ -1065,7 +1063,7 @@ info:
  title: An API name
  version: '1.0'
 paths:
-  '/health_check':
+  '/resources':
     get:
       operationId: health_check
 ```
@@ -1078,11 +1076,11 @@ paths:
 
 This category of linting rules deals with operations on an API path.
 
-### Your operations all need descriptions
+### All operations should have descriptions
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| One or more [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#operation-object) in your API schema doesn't have a description. When the resource path, HTTP method, and summary don't provide enough context for your API's consumers, a description can provide them with useful information about the API operation and its behavior. | Add a description for each operation object. |
+| One or more [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#operation-object) in your API definition doesn't have a description. When the resource path, HTTP method, and summary don't provide enough context for your API's consumers, a description can provide them with useful information about the API operation and its behavior. | Add a description for each operation object. |
 
 #### Resolution
 
@@ -1102,11 +1100,11 @@ paths:
 
 &nbsp;
 
-### Your operations all need summaries
+### All operations should have summaries
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| One or more [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#operation-object) in your API schema doesn't have a summary. A summary of what the operation does provides your API's consumers with important context that the HTTP method and path don't provide on their own. Many organizations use the API operation description that they create during the define phase of the API development process as the summary. | Add a summary for each operation object. |
+| One or more [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#operation-object) in your API definition doesn't have a summary. A summary of what the operation does provides your API's consumers with important context that the HTTP method and path don't provide on their own. Many organizations use the API operation description that they create during the define phase of the API development process as the summary. | Add a summary for each operation object. |
 
 #### Resolution
 
@@ -1126,11 +1124,11 @@ paths:
 
 &nbsp;
 
-### Your operation summaries shouldn't end with a period
+### Operation summaries shouldn't end with a period
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| One or more [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#operation-object) in your API schema contains a summary that ends with a period (`.`). API documentation tools use the summary as a title, so it shouldn't end with a period. | Remove the final period from all summaries at the operations object level in your API schema. |
+| One or more [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#operation-object) in your API definition contains a summary that ends with a period (`.`). API documentation tools use the summary as a title, so it shouldn't end with a period. | Remove the final period from all summaries at the operations object level in your API definition. |
 
 #### Resolution
 
@@ -1154,13 +1152,13 @@ paths:
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| One or more [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#operation-object) in your API schema contains a `tags` array, but the array doesn't contain any items. | Operation tags can be used to create logical groupings of operations in API documentation. Add at least one tag to the `tags` array for each operation object. |
+| One or more [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#operation-object) in your API definition contains a `tags` array, but the array doesn't contain any items. | Operation tags can be used to create logical groupings of operations in API documentation. Add at least one tag to the `tags` array for each operation object. |
 
 #### Resolution
 
 ```json
 paths:
-  '/health_check':
+  '/resources':
     get:
       ...
       tags:
@@ -1169,11 +1167,11 @@ paths:
 
 &nbsp;
 
-### Your parameters all need descriptions
+### All parameters should have descriptions
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| One or more [parameter objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#parameter-object) in an [operations object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#operation-object) in your API schema doesn't contain a `description` field. When the API name and context don't provide enough information for your API's consumers, a description can provide them with useful information about the parameter. | Add a `description` field for each parameter object. |
+| One or more [parameter objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#parameter-object) in an [operations object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#operation-object) in your API definition doesn't contain a `description` field. When the API name and context don't provide enough information for your API's consumers, a description can provide them with useful information about the parameter. | Add a `description` field for each parameter object. |
 
 #### Resolution
 
@@ -1198,11 +1196,11 @@ paths:
 
 &nbsp;
 
-### Your parameters all need examples
+### All parameters should have examples
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| One or more [parameter objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#parameter-object) in an [operations object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#operation-object) in your API schema doesn't contain an `example` or `examples` field. It's important to provide undocumented examples (using the `example` property) or documented examples (using the `examples` property) to help your API's consumers understand what data to provide. It may also help them to generate [mock servers](/docs/designing-and-developing-your-api/mocking-data/) or a [collection](/docs/getting-started/creating-the-first-collection/). | Add an `example` or `examples` field to provide your API's consumers with an example of the parameter's potential value. |
+| One or more [parameter objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#parameter-object) in an [operations object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#operation-object) in your API definition doesn't contain an `example` or `examples` field. It's important to provide undocumented examples (using the `example` property) or documented examples (using the `examples` property) to help your API's consumers understand what data to provide. It may also help them to generate [mock servers](/docs/designing-and-developing-your-api/mocking-data/) or a [collection](/docs/getting-started/creating-the-first-collection/). | Add an `example` or `examples` field to provide your API's consumers with an example of the parameter's potential value. |
 
 #### Resolution
 
@@ -1232,11 +1230,11 @@ paths:
 
 &nbsp;
 
-### Your POST methods should have request bodies
+### POST methods should have request bodies
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| One or more POST [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#operationObject) in your API schema doesn't contain a [request body object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#requestBodyObject). Even though the HTTP protocol allows POST requests without a body, this often hides a design problem. | Add a request body object to any POST operation objects. |
+| One or more POST [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#operationObject) in your API definition doesn't contain a [request body object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#requestBodyObject). Even though the HTTP protocol allows POST requests without a body, this often hides a design problem. | Add a request body object to any POST operation objects. |
 
 #### Resolution
 
@@ -1260,11 +1258,11 @@ paths:
 
 &nbsp;
 
-### Your PUT methods should have request bodies
+### PUT methods should have request bodies
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| One or more PUT [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#operationObject) in your API schema doesn't contain a [request body object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#requestBodyObject). Since a PUT operation is often used to replace or create something, not having a request body might be an error. However, this use might make sense in some cases (for example, to link two resources with a PUT, like `/resource-ones/id1/other-resources/id2`). | Add a request body object to any POST operation objects. |
+| One or more PUT [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#operationObject) in your API definition doesn't contain a [request body object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#requestBodyObject). Since a PUT operation is often used to replace or create something, not having a request body might be an error. However, this use might make sense in some cases (for example, to link two resources with a PUT, like `/resource-ones/id1/other-resources/id2`). | Add a request body object to any POST operation objects. |
 
 #### Resolution
 
@@ -1288,11 +1286,11 @@ paths:
 
 &nbsp;
 
-### Your PATCH methods should have request bodies
+### PATCH methods should have request bodies
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| One or more PATCH [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#operationObject) in your API schema doesn't contain a [request body object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#requestBodyObject). Since PATCH operations are used to make partial updates, a PATCH method needs to include a request body. | Add a request body object to any PATCH operation objects. |
+| One or more PATCH [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#operationObject) in your API definition doesn't contain a [request body object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#requestBodyObject). Since PATCH operations are used to make partial updates, a PATCH method needs to include a request body. | Add a request body object to any PATCH operation objects. |
 
 #### Resolution
 
@@ -1316,13 +1314,13 @@ paths:
 
 &nbsp;
 
-### Your request bodies all need examples
+### All request bodies should have examples
 
 <!-- TODO: confirm message wording is okay -->
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| One or more [request body objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#requestBodyObject) in your API schema doesn't contain an example. It's important to provide undocumented examples (using the `example` property) or documented examples (using the `examples` property) to help your API's consumers understand what data they'll receive. It may also help them to generate [mock servers](/docs/designing-and-developing-your-api/mocking-data/) or a [collection](/docs/getting-started/creating-the-first-collection/). | Add an `example` or `examples` field to all request body objects. |
+| One or more [request body objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#requestBodyObject) in your API definition doesn't contain an example. It's important to provide undocumented examples (using the `example` property) or documented examples (using the `examples` property) to help your API's consumers understand what data they'll receive. It may also help them to generate [mock servers](/docs/designing-and-developing-your-api/mocking-data/) or a [collection](/docs/getting-started/creating-the-first-collection/). | Add an `example` or `examples` field to all request body objects. |
 
 #### Resolution
 
@@ -1352,13 +1350,13 @@ paths:
 
 &nbsp;
 
-### Your responses all need examples
+### All responses should have examples
 
 <!-- TODO: confirm message wording is okay -->
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| One or more [response objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#responseObject) in your API schema doesn't contain an example. It's important to provide undocumented examples (using the `example` property) or documented examples (using the `examples` property) to help your API's consumers understand what data they'll receive. It may also help them to generate [mock servers](/docs/designing-and-developing-your-api/mocking-data/) or a [collection](/docs/getting-started/creating-the-first-collection/). | Add an `example` or `examples` field to all response objects. |
+| One or more [response objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#responseObject) in your API definition doesn't contain an example. It's important to provide undocumented examples (using the `example` property) or documented examples (using the `examples` property) to help your API's consumers understand what data they'll receive. It may also help them to generate [mock servers](/docs/designing-and-developing-your-api/mocking-data/) or a [collection](/docs/getting-started/creating-the-first-collection/). | Add an `example` or `examples` field to all response objects. |
 
 #### Resolution
 
@@ -1383,7 +1381,7 @@ paths:
 
 &nbsp;
 
-### A 204 No Content response can't have a body
+### A 204 response can't have a body
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
@@ -1414,7 +1412,7 @@ delete:
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| The [responses object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#responses-object) for one or more [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#operationObject) in your API schema doesn't contain the `2xx` status code. Operations are expected to succeed and should return a `2xx` success HTTP status code. It's rare for an operation to return a different code, such as when a `3xx` redirect code should be used instead. | Make sure that operations return a `2xx` success status code. |
+| The [responses object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#responses-object) for one or more [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#operationObject) in your API definition doesn't contain the `2xx` status code. Operations are expected to succeed and should return a `2xx` success HTTP status code. It's rare for an operation to return a different code, such as when a `3xx` redirect code should be used instead. | Make sure that operations return a `2xx` success status code. |
 
 #### Resolution
 
@@ -1437,7 +1435,7 @@ paths:
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| The [responses object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#responses-object) for one or more [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#operationObject) in your API schema doesn't contain the `5xx` status code. Since operations may fail unexpectedly, they should return a `5xx` server error HTTP status code. | Make sure that all operations return a `5xx` status code. |
+| The [responses object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#responses-object) for one or more [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#operationObject) in your API definition doesn't contain the `5xx` status code. Since operations may fail unexpectedly, they should return a `5xx` server error HTTP status code. | Make sure that all operations return a `5xx` status code. |
 
 #### Resolution
 
@@ -1466,7 +1464,7 @@ This category of linting rules deals with how to model various data types.
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| Multiple [request body objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#requestBodyObject) in your API schema contain examples that should be consolidated into an `examples` section in the [components object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#components-object). | Consolidate all the examples from your request bodies into an `examples` section in the components object. |
+| Multiple [request body objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#requestBodyObject) in your API definition contain examples that should be consolidated into an `examples` section in the [components object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#components-object). | Consolidate all the examples from your request bodies into an `examples` section in the components object. |
 
 #### Resolution
 
@@ -1486,7 +1484,7 @@ content:
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| Multiple [request body objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#requestBodyObject) in your API schema contain schemas that should be consolidated into a `schemas` section in the [components object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#components-object). | Consolidate all the schemas from your request bodies into a `schemas` section in the components object. |
+| Multiple [request body objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#requestBodyObject) in your API definition contain schemas that should be consolidated into a `schemas` section in the [components object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#components-object). | Consolidate all the schemas from your request bodies into a `schemas` section in the components object. |
 
 #### Resolution
 
@@ -1504,7 +1502,7 @@ content:
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| Multiple [response objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#responseObject) in your API schema contain examples that should be consolidated into an `examples` section in the [components object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#components-object). | Consolidate all the examples from your response objects into an `examples` section in the components object. |
+| Multiple [response objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#responseObject) in your API definition contain examples that should be consolidated into an `examples` section in the [components object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#components-object). | Consolidate all the examples from your response objects into an `examples` section in the components object. |
 
 #### Resolution
 
@@ -1557,7 +1555,7 @@ components:
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| One or more [schema objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#schemaObject) in the [components object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#components-object) doesn't contain a `description`. When the schema name and context don't provide enough information for your API's designers and consumers, a description can provide them with useful information about the reusable schema. | Add a `description` for every reusable schema in your API schema. |
+| One or more [schema objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#schemaObject) in the [components object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#components-object) doesn't contain a `description`. When the schema name and context don't provide enough information for your API's designers and consumers, a description can provide them with useful information about the reusable schema. | Add a `description` for every reusable schema in your API definition. |
 
 #### Resolution
 
@@ -1580,7 +1578,7 @@ components:
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| One or more [schema objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#schemaObject) in your API schema's [components object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#components-object) has an array type property but doesn't define `minItem` or `maxItem`. Consumers and providers can't handle an infinite number of elements. Setting the minimum and maximum boundaries helps in defining limits and enabling pagination. | Make sure that properties that have array type in your API schema  have `minItem` and `maxItem` defined. |
+| One or more [schema objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#schemaObject) in your API definition's [components object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#components-object) has an array type property but doesn't define `minItem` or `maxItem`. Consumers and providers can't handle an infinite number of elements. Setting the minimum and maximum boundaries helps in defining limits and enabling pagination. | Make sure that properties that have array type in your API definition  have `minItem` and `maxItem` defined. |
 
 #### Resolution
 
@@ -1608,7 +1606,7 @@ components:
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| One or more properties in a [schema object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#schemaObject) in your API schema's [components object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#components-object) doesn't contain a `description`. When the schema name and context don't provide enough information for your API's consumers, a description can provide them with useful information about the element. A complicated description may indicate a problem in the API's definition or design, so spending the time to create a description can be clarifying. | Add a `description` for every property in your schema object. |
+| One or more properties in a [schema object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#schemaObject) in your API definition's [components object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#components-object) doesn't contain a `description`. When the schema name and context don't provide enough information for your API's consumers, a description can provide them with useful information about the element. A complicated description may indicate a problem in the API's definition or design, so spending the time to create a description can be clarifying. | Add a `description` for every property in your schema object. |
 
 #### Resolution
 
@@ -1638,7 +1636,7 @@ paths:
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| One or more properties in a [schema object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#schemaObject) in your API schema's [components object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#components-object) doesn't have a `type` defined. | Add a `type` for every property in your schema objects. |
+| One or more properties in a [schema object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#schemaObject) in your API definition's [components object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#components-object) doesn't have a `type` defined. | Add a `type` for every property in your schema objects. |
 
 #### Resolution
 
@@ -1659,7 +1657,7 @@ components:
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| One or more [schema objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#schemaObject) in your API schema's [components object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#components-object) doesn't have a `required` property defined. | Add a `required` property to every schema object. |
+| One or more [schema objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#schemaObject) in your API definition's [components object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#components-object) doesn't have a `required` property defined. | Add a `required` property to every schema object. |
 
 #### Resolution
 
@@ -1677,7 +1675,7 @@ components:
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| One or more [schema objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#schemaObject) in your API schema's [components object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#components-object) doesn't have a `type` property defined. | Add a `type` property to every schema object. |
+| One or more [schema objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#schemaObject) in your API definition's [components object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#components-object) doesn't have a `type` property defined. | Add a `type` property to every schema object. |
 
 #### Resolution
 
