@@ -77,7 +77,7 @@ Your browser will automatically download a JSON file that has values for `client
 
 ## Connecting to Apigee X
 
-To connect to Apigee X in Postman, select **APIs** in the sidebar and select an API. Under **Power up your API**, select **Deployments**, and then select **Apigee X**.
+To connect to Apigee X in Postman, select **APIs** in the sidebar and select an API. Select **Deployments**, and then select **Apigee X**.
 
 First, authenticate with Apigee X:
 
@@ -101,7 +101,7 @@ Next, set up the connection to Apigee X:
 
 ## Viewing Apigee X deployments
 
-After connecting to Apigee X, you can view the deployment status and history for your API schemas in Postman. Select **APIs** in the sidebar and select an API. Under **Power up your API**, select **Deployments**.
+After connecting to Apigee X, you can view the deployment status and history for your API schemas in Postman. Select **APIs** in the sidebar and select an API. Select **Deployments**.
 
 * For your API proxy, you can view the latest revision, source, creation date, and date last updated.
 * For each proxy endpoint, you can view the name and base paths.

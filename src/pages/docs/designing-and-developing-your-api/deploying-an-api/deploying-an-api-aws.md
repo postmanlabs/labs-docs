@@ -33,7 +33,7 @@ This integration supports OpenAPI 3.0 schemas for HTTP and REST APIs. You can im
 
 ## Connecting to Amazon API Gateway
 
-To connect to Amazon API Gateway in Postman, select **APIs** in the sidebar and select an API. Under **Power up your API**, select **Deployments**, and then select **AWS API Gateway**.
+To connect to Amazon API Gateway in Postman, select **APIs** in the sidebar and select an API. Select **Deployments**, and then select **AWS API Gateway**.
 
 When setting up the connection to API Gateway, you can choose to authenticate by [creating an AWS IAM role](#authenticating-with-an-aws-iam-role) or by [using an AWS access key](#authenticating-with-an-aws-access-key). Follow the steps for your chosen method below. After setting up the connection, you can choose to import a schema from the API Gateway.
 
@@ -120,7 +120,7 @@ After setting up the connection, you can choose to import an HTTP or REST schema
 
 ## Viewing Amazon API Gateway deployments
 
-After connecting to Amazon API Gateway, you can view the export and deployment history for your API schemas in Postman. Select **APIs** in the sidebar and select an API. Under **Power up your API**, select **Deployments**.
+After connecting to Amazon API Gateway, you can view the export and deployment history for your API schemas in Postman. Select **APIs** in the sidebar and select an API. Select **Deployments**.
 
 * For each stage you can view the active deployment and the date last updated. You can also view CloudWatch metrics for the last week, such as average latency and the number of `4xx` and `5xx` errors.
     * Select the arrow next to a stage to view more details, including the invoke URL and stage description (from AWS).
@@ -176,7 +176,7 @@ The Amazon API Gateway integration supports viewing CloudWatch metrics in Postma
 You can import an HTTP or REST schema from a connected Amazon API Gateway to your API in Postman. _Importing a schema will replace your current API schema or add a new schema if one doesn't exist._
 
 1. Select **APIs** in the sidebar and select an API.
-1. Under **Power up your API**, select **Deployments**.
+1. Select **Deployments**.
 1. Select **Import Schema**.
 1. Select the **AWS stage** to import the schema from.
 1. Select **Import**.
@@ -190,7 +190,7 @@ Exporting an HTTP API schema makes it available in the connected Amazon API Gate
 > HTTP API schemas can be exported and deployed from Postman. To deploy a REST API schema, use the AWS console.
 
 1. Select **APIs** in the sidebar and select an API.
-1. Under **Power up your API**, select **Deployments**.
+1. Select **Deployments**.
 1. Select **Deploy API**.
 1. Select the branch or version to deploy. <!-- TO DO: UPDATE THIS STEP TO MATCH NEW SCREENSHOT BELOW -->
 1. (Optional) If you would like to deploy the schema to a stage after exporting, select **Deploy on a stage**. Select the AWS stage to deploy the schema to, and enter a brief description.
