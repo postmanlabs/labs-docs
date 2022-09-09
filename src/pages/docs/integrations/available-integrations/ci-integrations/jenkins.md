@@ -21,9 +21,6 @@ contextual_links:
 [Jenkins](https://www.jenkins.io/) is an open source automation server that can act as a continuous integration (CI) server or a continuous delivery (CD) hub. With hundreds of available plug-ins, teams can use Jenkins to build, deploy, and automate almost any project.
 
 To set up a Jenkins integration for your API, first create an API token in Jenkins and then configure your API in Postman. After you set up the integration, you can view the status of builds or start a new build, all from within Postman.
-<!--
-> If your Jenkins pipeline is configured to run API tests using [Newman](/docs/running-collections/using-newman-cli/command-line-integration-with-newman/), you can [configure the Postman cloud reporter](#configuring-newman-for-jenkins) to send collection run information back to Postman.
--->
 
 ## Creating a Jenkins API token
 
@@ -68,7 +65,7 @@ Select **View Builds** to view the full list of build jobs. From here you can ta
 
 ## Viewing collection run details
 
-Using the Postman CLI, you can run Postman collections with your API tests as part of a Jenkins pipeline.<!-- The Postman cloud reporter can send details about the collection runs back to Postman.-->
+Using the Postman CLI, you can run Postman collections with your API tests as part of a Jenkins pipeline.
 
 To view details for collections that were run as part of a build, first [configure the Postman CLI for Jenkins](#configuring-the-postman-cli-for-jenkins) and then [start a new build](#viewing-build-status). After the build is complete, use the arrows to expand a build and expand **Collection Runs**. Then expand a collection to view details about a collection run.
 
@@ -80,7 +77,7 @@ To view details for collections that were run as part of a build, first [configu
 
 With the help of the Postman CLI and the Postman API, you can run API tests created in Postman as part of your Jenkins pipeline. First generate the Postman CLI configuration code in Postman. Then add the configuration code to your Jenkins pipeline.
 
-Each time a build runs, the Postman CLI runs the collections that contain your tests. You can view the results of your tests in Postman.<!-- You an also configure the [Postman cloud reporter](https://www.npmjs.com/package/newman-reporter-postman-cloud) to send detailed collection run information back to Postman.-->
+Each time a build runs, the Postman CLI runs the collections that contain your tests. You can view the results of your tests in Postman. You an also enforce [API Governance and API Security rules each time the pipeline runs](/docs/api-governance/api-definition/api-definition-warnings/#tracking-governance-and-security-rule-violations-in-cicd). <!-- TODO: this is a new URL, must validate before merging to develop -->
 
 > Before you begin, make sure you’ve already [set up an integration](#configuring-jenkins-integration) between your API version and Jenkins.
 
@@ -90,11 +87,11 @@ To generate configuration code for the Postman CLI:
 1. Under **CI/CD Builds**, select **View Builds**.
 1. Select **Configure Postman CLI**.
 1. Select a **Collection** to run during pipeline builds. To be available in the dropdown list, you must first [add the collection as a test suite](/docs/designing-and-developing-your-api/testing-an-api/#adding-tests) to your API. You can also select an **Environment** to use.
-1. (Optional) Select the check box to test the API's schema against configured governance and security rules.
+1. (Optional) Select the checkbox to enforce API Governance and API Security rules each time the CI/CD pipeline runs. To review rule violations, go to the API's overview page and select **View files** under **Definition**.
 1. Select the **Operating system** for your CI/CD pipeline.
-1. Select <img alt="Copy icon" src="https://assets.postman.com/postman-docs/icon-copy-v9.jpg#icon" width="15px"> **Copy** to copy the Postman CLI configuration, and then select **Finish**.
+1. Select **Copy Postman CLI Command** to copy the Postman CLI configuration.
 
-<img alt="Generate the Postman CLI configuration" src="https://assets.postman.com/postman-docs/v10/generate-postman-cli-v10.jpg" width="548px">
+<img alt="Generate the Postman CLI configuration" src="https://assets.postman.com/postman-docs/v10/generate-postman-cli-v10-b.jpg" width="548px">
 
 To add the Postman CLI configuration to your Jenkins pipeline:
 
