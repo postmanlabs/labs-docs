@@ -77,7 +77,7 @@ There are some differences in the way API versions work in Postman v10 compared 
 
 * In Postman v9, versions were major iterations of your API you could work on at the same time. In Postman v10, [published versions](/docs/designing-and-developing-your-api/versioning-an-api/api-versions/) are static representations of your API that consumers can reference (like releases in Postman v9).
 * If you need to work on more than one major iteration of your API in Postman v10, create separate APIs.
-* If an API created in Postman v9 had multiple versions, each version will appear as a separate API in Postman v10.
+* If an API created in Postman v9 had multiple versions, each version will appear as a separate API in Postman v10. For example, if you had an API named `sample-api` with two versions `v1` and `v2`, they would appear as `sample-api:v1` and `sample-api:v2`.
 
 ## Renaming an API
 
