@@ -44,11 +44,11 @@ You can move from Postman v8 or v9 to Postman v10 by navigating to **Settings** 
 
 If you are using Postman v9.13 or later, Postman automatically downloads updates.
 
-<img alt="Settings Update" src ="https://assets.postman.com/postman-docs/settings-update-v8-to-v9.jpg"/>
+<img alt="Settings Update" src ="https://assets.postman.com/postman-docs/v10/settings-update-v9-to-v10.jpg"/>
 
 You will need to restart Postman to install the update. Select __Restart and Install Update__.
 
-<img alt="Restart and install modal" src ="https://assets.postman.com/postman-docs/restart-and-install-update-v8.jpg" width="450px"/>
+<img alt="Restart and install" src ="https://assets.postman.com/postman-docs/v10/restart-and-install-update-v9-to-v10.jpg"/>
 
 You can start using Postman v10 once the update is completed.
 
