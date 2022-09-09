@@ -165,9 +165,9 @@ The Postman desktop app notifies you when a major update is available. For other
 
 ![Update Ready](https://assets.postman.com/postman-docs/update-ready-v86.jpg)
 
-Select the update option to download or install the latest update. Postman notifies you when the download is complete and prompts you to restart Postman to apply the updates. If you don't want to update yet, choose __Later__ to auto-update the next time you open Postman.
+Select the update option to download or install the latest update. Postman notifies you when the download is complete and prompts you to restart Postman to apply the updates.
 
-You can configure your preferences to enable automatic download for major updates in __Settings__ &gt; __Update__. Postman automatically downloads minor updates and bug fixes.
+You can configure your preferences to enable automatic download for major updates in __Settings__ &gt; __Update__ (Enterprise plan only). Postman automatically downloads major and minor updates and bug fixes.
 
 <img alt="Check for updates" src="https://assets.postman.com/postman-docs/settings-updates-v9.jpg"/>
 
