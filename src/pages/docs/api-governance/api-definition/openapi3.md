@@ -77,18 +77,11 @@ For all APIs defined in OpenAPI 3.0, the following list describes possible warni
     * [The info object should have a license](#the-info-object-should-have-a-license)
     * [The info object should have a license URL](#the-info-object-should-have-a-license-url)
     * [The info object should have a terms of service](#the-info-object-should-have-a-terms-of-service)
-    * [The info object should have an API ID extension](#the-info-object-should-have-an-api-id-extension)
-    * [The info object should have an audience extension](#the-info-object-should-have-an-audience-extension)
-    * [There should be no empty paths](#there-should-be-no-empty-paths)
     * [There should be no trailing slashes on paths](#there-should-be-no-trailing-slashes-on-paths)
-    * [There should be a central tags object](#there-should-be-a-central-tags-object)
-    * [All tags should have a description](#all-tags-should-have-a-description)
-    * [There should be at least one tag](#there-should-be-at-least-one-tag)
 * [Operations](#operations)
     * [Your operations all need descriptions](#your-operations-all-need-descriptions)
     * [Your operations all need summaries](#your-operations-all-need-summaries)
     * [Your operation summaries shouldn't end with a period](#your-operation-summaries-shouldnt-end-with-a-period)
-    * [All operations should have tags](#all-operations-should-have-tags)
     * [All operations should have at least one tag](#all-operations-should-have-at-least-one-tag)
     * [Your parameters all need descriptions](#your-parameters-all-need-descriptions)
     * [Your parameters all need examples](#your-parameters-all-need-examples)
@@ -97,9 +90,7 @@ For all APIs defined in OpenAPI 3.0, the following list describes possible warni
     * [Your PATCH methods should have request bodies](#your-patch-methods-should-have-request-bodies)
     * [Your request bodies all need examples](#your-request-bodies-all-need-examples)
     * [Your responses all need examples](#your-responses-all-need-examples)
-    * [DELETE operations shouldn't have a response body](#delete-operations-shouldnt-have-a-response-body)
     * [A 204 No Content response can't have a body](#a-204-no-content-response-cant-have-a-body)
-    * [DELETE operations should have a 500 status code for the response](#delete-operations-should-have-a-500-status-code-for-the-response)
     * [Operation should return a 2xx HTTP status code](#operation-should-return-a-2xx-http-status-code)
     * [Operation should return a 5xx HTTP status code](#operation-should-return-a-5xx-http-status-code)
 * [Models](#models)
@@ -108,9 +99,6 @@ For all APIs defined in OpenAPI 3.0, the following list describes possible warni
     * [Response examples should only reference components](#response-examples-should-only-reference-components)
     * [A schema property should reference a reusable schema](#a-schema-property-should-reference-a-reusable-schema)
     * [All reusable schemas should have descriptions](#all-reusable-schemas-should-have-descriptions)
-    * [All schemas should have properties](#all-schemas-should-have-properties)
-    * [Integer format should be int32 or int64](#integer-format-should-be-int32-or-int64)
-    * [Number format should be decimal32, decimal64, float, double, or decimal128](#number-format-should-be-decimal32-decimal64-float-double-or-decimal128)
     * [Arrays must have minItems and maxItems defined](#arrays-must-have-minitems-and-maxitems-defined)
     * [All schema properties should have descriptions](#all-schema-properties-should-have-descriptions)
     * [All schema properties should have a type property](#all-schema-properties-should-have-a-type-property)
@@ -1063,57 +1051,6 @@ info:
 
 &nbsp;
 
-### The info object should have an API ID extension
-
-| Issue description | Possible fix |
-| ----------- | ----------- |
-| Your API schema's [info object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#infoObject) doesn't contain an API ID extension (`x-api-id`), which is a custom header used to pass an API key. | Although an API ID extension isn't required, including it provides your API's consumers with important information. Add an API ID extension to your API schema's info object. |
-
-#### Resolution
-
-```json
-info:
-  x-api-id: project-name-identifier
-```
-
-&nbsp;
-
-### The info object should have an audience extension
-
-| Issue description | Possible fix |
-| ----------- | ----------- |
-| Your API schema's [info object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#infoObject) doesn't contain an audience extension (`x-audience`), which is a custom header used to describe an API's target audience. | Although an audience extension isn't required, including it provides your API's consumers with important information about the API. Add an audience extension to your API schema's info object. |
-
-#### Resolution
-
-```json
-info:
-  x-audience: The details about the target audience
-```
-
-&nbsp;
-
-### There should be no empty paths
-
-| Issue description | Possible fix |
-| ----------- | ----------- |
-| Your API schema contains one or more empty [path item objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#path-item-object) in the [paths object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#paths-object). | Although you can leave a path item object empty due to [access-control list (ACL) constraints](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#securityFiltering), this doesn't provide your API's consumers with a good experience. Add details for any empty path item objects in your API schema. |
-
-#### Resolution
-
-```json
-paths:
-  '/health_check':
-    get:
-      operationId: health_check
-      description: health check endpoint
-      responses:
-        default:
-          description: default example
-```
-
-&nbsp;
-
 ### There should be no trailing slashes on paths
 
 | Issue description | Possible fix |
@@ -1131,60 +1068,6 @@ paths:
   '/health_check':
     get:
       operationId: health_check
-```
-
-&nbsp;
-
-### There should be a central tags object
-
-| Issue description | Possible fix |
-| ----------- | ----------- |
-| Your API schema doesn't contain a root-level [tags object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#tagObject). | The tags object lists all the tags used in the schema's [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#operationObject), providing users with important context. Add a tags object to your API schema. |
-
-#### Resolution
-
-```json
-tags:
-  - name: Tag 1
-    description: Tag 1, description explaining the meaning for it.
-  - name: Tag 2
-    description: Tag 2, description explaining the meaning for it.
-```
-
-&nbsp;
-
-### All tags should have a description
-
-| Issue description | Possible fix |
-| ----------- | ----------- |
-| One or more tags in your API schema's [tags object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#tagObject) don't have an accompanying description. | Tag descriptions enable you to provide your API's consumers with important context. Add a description for every tag in the tags object. |
-
-#### Resolution
-
-```json
-tags:
-  - name: Tag 1
-    description: Tag 1, description explaining the meaning for it.
-  - name: Tag 2
-    description: Tag 2, description explaining the meaning for it.
-```
-
-&nbsp;
-
-### There should be at least one tag
-
-| Issue description | Possible fix |
-| ----------- | ----------- |
-| Your API schema's [tags object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#tagObject) doesn't contain any tags. | Tags enable you to provide your API's consumers with important context. Add at least one tag to your schema's tags object. |
-
-#### Resolution
-
-```json
-tags:
-  - name: Tag 1
-    description: Tag 1, description explaining the meaning for it.
-  - name: Tag 2
-    description: Tag 2, description explaining the meaning for it.
 ```
 
 &nbsp;
@@ -1263,25 +1146,6 @@ paths:
       responses:
         default:
           description: A default response
-```
-
-&nbsp;
-
-### All operations should have tags
-
-| Issue description | Possible fix |
-| ----------- | ----------- |
-| One or more [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#operation-object) in your API schema doesn't contain a `tags` array. | Operation tags can be used to create logical groupings of operations in API documentation. Add a `tags` array for each operation object. |
-
-#### Resolution
-
-```json
-paths:
-  '/health_check':
-    get:
-      ...
-      tags:
-        - Tag 1
 ```
 
 &nbsp;
@@ -1519,65 +1383,11 @@ paths:
 
 &nbsp;
 
-### DELETE operations shouldn't have a response body
-
-| Issue description | Possible fix |
-| ----------- | ----------- |
-| One or more DELETE [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#operationObject) in your API schema contains a response body. | Make sure that DELETE methods don't have a response body. |
-
-#### Resolution
-
-```json
-delete:
-  ...
-  parameters:
-    - in: path
-      name: entityId
-      schema:
-      type: integer
-      required: true
-      description: entity identifier.
-  responses:
-    '204':
-      description: Deleted successfully
-    '500':
-      description: Something went wrong
-```
-
-&nbsp;
-
 ### A 204 No Content response can't have a body
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
 | The [responses object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#responses-object) for one or more DELETE [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#operationObject) has a `204` HTTP status code but also defines a response body. A `204` status means "no content", so there shouldn't be a response body defined. | Make sure that DELETE methods with a `204` status code don't have a response body. |
-
-#### Resolution
-
-```json
-delete:
-  ...
-  parameters:
-    - in: path
-      name: entityId
-      schema:
-      type: integer
-      required: true
-      description: entity identifier.
-  responses:
-    '204':
-      description: Deleted successfully
-    '500':
-      description: Something went wrong
-```
-
-&nbsp;
-
-### DELETE operations should have a 500 status code for the response
-
-| Issue description | Possible fix |
-| ----------- | ----------- |
-| The [responses object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#responses-object) for one or more DELETE [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#operationObject) in your API schema doesn't contain the `500` status code. | Make sure that DELETE methods all have a `500` status code response. |
 
 #### Resolution
 
@@ -1762,67 +1572,6 @@ components:
     aReusableSchema:
       description: A reusable schema description
       type: object
-```
-
-&nbsp;
-
-### All schemas should have properties
-
-| Issue description | Possible fix |
-| ----------- | ----------- |
-| One or more [schema objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#schemaObject) in your API schema's [components object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#components-object) doesn't contain at least one property. | Add a property for every schema object in your API schema. |
-
-#### Resolution
-
-```json
-components:
-  schemas:
-    GeneralError:
-      type: object
-      properties:
-        code:
-```
-
-&nbsp;
-
-### Integer format should be int32 or int64
-
-| Issue description | Possible fix |
-| ----------- | ----------- |
-| One or more [schema objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#schemaObject) in your API schema's [components object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#components-object) has an integer type property but doesn't specify `int32` or `int64` format. | Make sure that properties that have integer type in your API schema have a format of `int32` or `int64`. |
-
-#### Resolution
-
-```json
-components:
-  schemas:
-    GeneralError:
-      type: object
-      properties:
-        code:
-          type: integer
-          format: int32
-```
-
-&nbsp;
-
-### Number format should be decimal32, decimal64, float, double, or decimal128
-
-| Issue description | Possible fix |
-| ----------- | ----------- |
-| One or more [schema objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#schemaObject) in your API schema's [components object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#components-object) has a number type property but doesn't specify `decimal32`, `decimal64`, `float`, `double`, or `decimal128` format. | Make sure that properties that have number type in your API schema have a format of `decimal32`, `decimal64`, `float`, `double`, or `decimal128`. |
-
-#### Resolution
-
-```json
-components:
-  schemas:
-    GeneralError:
-      type: object
-      properties:
-        iteration:
-          type: number
-          format: float
 ```
 
 &nbsp;
