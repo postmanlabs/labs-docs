@@ -14,11 +14,6 @@ search_keyword: "api security, security warnings, security validation, api secur
 
 Postman recommends that you follow common security best practices at the API testing phase of API development. A security warning doesn't mean that your API is broken! Instead, it indicates that there are potential security risks that your API might be vulnerable to. Postman highlights these security warnings and helps you understand their implications and possible ways to patch the warnings.
 
-## Contents
-
-* [Viewing security warnings during API testing](#viewing-security-warnings-during-api-testing)
-* [Next steps](#next-steps)
-
 ## Viewing security warnings during API testing
 
 When you [send a request](/docs/sending-requests/requests/), Postman scans it for potential security risks.
