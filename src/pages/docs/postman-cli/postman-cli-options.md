@@ -136,7 +136,9 @@ You can run your collections with the `postman collection run` command:
 
 ### **postman collection run**
 
-This command runs a collection and sends all run results and responses to Postman servers. You can specify the collection with its file path or UID.
+This command runs a collection and sends all run results and responses to Postman servers. You can specify the collection with its file path or Collection ID.
+
+> You can find the collection ID in Postman. First, select **Collections** in the sidebar and select a collection. Then select the information icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px"> in the right context bar to access the collection ID.
 
 #### Examples
 
@@ -150,7 +152,7 @@ postman collection run 12345678-12345ab-1234-1ab2-1ab2-ab1234112a12
 
 | Option | Details |
 |:--|:--|
-| `--bail [optional modifiers]` | Specifes whether or not to stop a collection run on encountering the first test script error. `--bail` can optionally accept two modifiers: `--folder` and `--failure`. `--folder` skips the entire collection run if there are any errors. If a test fails, `--failure` gracefully stops the collection run after completing the current test script. |
+| `--bail [optional modifiers]` | Specifies whether or not to stop a collection run on encountering the first test script error. `--bail` can optionally accept two modifiers: `--folder` and `--failure`. `--folder` skips the entire collection run if there are any errors. If a test fails, `--failure` gracefully stops the collection run after completing the current test script. |
 | `--color [value]` | Controls colored CLI output. Accepts `on`, `off`, and `auto`. Default is `auto`. With `auto`, Postman CLI attempts to automatically turn color on or off based on the color support in the terminal. This behavior can be modified by using the on or off value accordingly.|
 | `--cookie-jar [path]` | Specifies the file path for a `JSON` cookie jar. Uses `tough-cookie` to deserialize the file. |
 | `--delay-request [number]` | Specifies a delay (in milliseconds) between requests. |
@@ -183,7 +185,7 @@ API governance is the practice of applying a defined set of standards consistent
 
 ### postman api lint
 
-This command runs validation checks for governance and security rules against the api definition provided in the Postman config file, a local file, or a UUID. You can only lint single-file definitions. `api lint` shows a warning if unable to find the API ID to send data back to Postman.
+This command runs validation checks for governance and security rules against the API definition provided in the Postman config file, a local file, or a UUID. You can only lint single-file definitions. `api lint` shows a warning if unable to find the API ID to send data back to Postman.
 
 > This command supports APIs that are stored on Postman and aren't linked to Git.
 

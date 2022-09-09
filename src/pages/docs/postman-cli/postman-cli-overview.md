@@ -24,6 +24,7 @@ The Postman CLI is similar to [Newman](/docs/running-collections/using-newman-cl
 
 * Run a collection with its collection ID.
 * Send run results to Postman by default.
+* Lint an API and run validation checks for governance and security rules.
 
 ## Contents
 
