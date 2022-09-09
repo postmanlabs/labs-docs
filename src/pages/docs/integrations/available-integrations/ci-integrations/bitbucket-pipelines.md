@@ -67,7 +67,7 @@ With the help of Newman and the Postman API, you can run API tests created in Po
 
 Each time the pipeline runs, Newman runs the collections that contain your tests. You can view the results of your tests in Postman. You an also configure the [Postman cloud reporter](https://www.npmjs.com/package/newman-reporter-postman-cloud) to send detailed collection run information back to Postman.
 
-> Before you begin, make sure you’ve already [set up an integration](#configuring-bitbucket-pipelines-integration) between your API version and Bitbucket Pipelines.
+> Before you begin, make sure you’ve already [set up an integration](#configuring-bitbucket-pipelines-integration) between your API and Bitbucket Pipelines.
 
 To generate configuration code for Newman:
 

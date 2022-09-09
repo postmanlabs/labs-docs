@@ -32,12 +32,12 @@ To configure a GitLab CI/CD integration for Gitlab SaaS or GitLab self-managed:
 
 For GitLab SaaS, do the following:
 
-1. Enter a **Nickname** to help you recognize the integration later. Postman pre-fills a nickname in the format `GitLab-{API_NAME}-{API_VERSION_NAME}`, and you can edit it if you want.
+1. Enter a **Nickname** to help you recognize the integration later. Postman pre-fills a nickname in the format `GitLab-{API_NAME}`, and you can edit it if you want.
 1. Select the GitLab **Workspace** with your API repository.
 1. Select the **CI project** used for your API.
 1. Select **Connect**.
 
-<img alt="Connect to GitLab CI/CD" src="https://assets.postman.com/postman-docs/gitlab-saas-connect-ci-cd-v9-19.jpg" width="571px" />
+<img alt="Connect to GitLab CI/CD" src="https://assets.postman.com/postman-docs/v10/gitlab-saas-connect-ci-cd-v10.jpg" width="571px" />
 
 For GitLab self-managed, do the following:
 
@@ -80,7 +80,7 @@ With the help of Newman and the Postman API, you can run API tests created in Po
 
 Each time the pipeline runs, Newman runs the collections that contain your tests. You can view the results of your tests in Postman. You an also configure the [Postman cloud reporter](https://www.npmjs.com/package/newman-reporter-postman-cloud) to send detailed collection run information back to Postman.
 
-> Before you begin, make sure you’ve already [set up an integration](#configuring-a-gitlab-cicd-integration) between your API version and GitLab CI/CD.
+> Before you begin, make sure you’ve already [set up an integration](#configuring-a-gitlab-cicd-integration) between your API and GitLab CI/CD.
 
 To generate configuration code for Newman:
 
