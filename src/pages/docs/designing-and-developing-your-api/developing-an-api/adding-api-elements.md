@@ -30,7 +30,7 @@ Your API in Postman can include more than an API definition. You can add element
 
 To add an element, it must be in the same workspace as your API. The element will inherit the [roles and permissions](/docs/collaborating-in-postman/roles-and-permissions/) of the API you are adding it to.
 
-> After you add a collection or environment, it's exclusive to the API and will no longer appear under **Collections** or **Environments** in the sidebar. If you move or delete an API, any collections or environments linked to the API are moved or deleted with it.
+> When you add a collection or environment, an independent copy of it is added to the API. The copy in the API will no longer be in sync with the original. If you move or delete an API, any collections or environments linked to the API are moved or deleted with it.
 
 ## Contents
 
@@ -49,17 +49,17 @@ Add a collection to document your API or help others test your API's endpoints. 
 To add an existing collection to your API:
 
 1. Select **APIs** in the sidebar and select an API.
-1. On the API's overview, next to **Collections** select **+ Add a collection**.
-1. Select an available collection and select **Add Collection**.
+1. On the API's overview, below **Collections** select **+ Add Collection**.
+1. Select an available collection and select **Copy Collection**.
 
-The linked collection displays on your API's overview and under your API in the sidebar. To view documentation for the collection, expand the collection and select **View full documentation**.
+The copy of the collection displays on your API's overview and under your API in the sidebar. To view documentation for the collection, expand the collection and select **View full documentation**.
 
 ### Generating a collection
 
 To generate a new collection from your API definition:
 
 1. Select **APIs** in the sidebar and select an API.
-1. On the API's overview, next to **Definition** select **Generate Collection**.
+1. On the API's overview, below **Definition** select **+** and choose **Generate from API definition**.
 1. Change any settings to customize the new collection.
 1. Select **Generate Collection**.
 
@@ -79,12 +79,11 @@ This makes a copy of the environment in your API. The environment displays under
 
 ## Removing elements from an API
 
-You can remove a linked collection or environment from your API.
+You can delete a collection or environment from your API.
 
 1. Select **APIs** in the sidebar and select an API.
-1. In the sidebar, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to a collection or environment and select **Remove from API**.
-1. Select **Remove**.
+1. In the sidebar, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to a collection or environment and select **Delete**.
 
-The collection or environment is removed from the API and is returned to the workspace. You can view it by selecting **Collections** or **Environments** in the sidebar.
+The collection or environment is deleted from the API.
 
-> You can also remove a collection by selecting the remove icon <img alt="Remove icon" src="https://assets.postman.com/postman-docs/icon-remove-api-element-v9.jpg#icon" width="16px"> next to a collection on the API's overview.
+> You can also delete a collection by selecting the remove icon <img alt="Remove icon" src="https://assets.postman.com/postman-docs/icon-remove-api-element-v9.jpg#icon" width="16px"> next to a collection on the API's overview.
