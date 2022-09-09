@@ -62,34 +62,40 @@ Next to the format dropdown list, there are options to beautify the content, wra
 
 > Postman will indicate [validation errors](/docs/designing-and-developing-your-api/validating-elements-against-schema/) as you work on your schema.
 
-## Linting your API definition
+## Viewing rule violations in your API definition
 
-As you create your API definition in the editor, Postman automatically checks it against API Governance and API Security rules using a built-in linter. If the linter finds any problems, Postman displays warnings below the editor.
+> [This feature is only available to Postman Enterprise teams.](https://www.postman.com/pricing)
 
-<!-- TODO: screenshot -->
-
-**API Governance** - Postman lints your definition using a predefined set of [OpenAPI 3.0](/docs/api-governance/api-definition/openapi3/) and [OpenAPI 2.0](/docs/api-governance/api-definition/openapi2/) governance rules.
-**API Security** - Postman lints your API definition using a pre-defined set of [security rules](/docs/api-governance/api-testing/api-testing-warnings/).
-
-> [Enterprise teams](https://www.postman.com/pricing/) can also customize the rules that Postman uses to lint and create custom rules using the [API Governance admin panel](/docs/api-governance/api-governance-admin-panel/) and the [API Security admin panel](/docs/api-governance/api-security-admin-panel/).
-
-To see any linting warnings, select **Rule** next to **Violations found in schema**. Postman displays each warning on its own line, with a brief description of the issue, the type of issue (governance or security), and the line and file the where the issue occurs. When you select a warning, Postman highlights the section of the definition that triggered the warning. If the issue occurs more than once, the warning line indicates how many times. You can scroll through each occurrence.
+As you create your API definition in the editor, Postman automatically checks it against [API Governance and API Security](/docs/api-governance/api-governance-overview/) rules configured for your team. Postman displays any rule violations below the editor. Resolving these issues enables you improve your API definition.
 
 <!-- TODO: screenshot -->
 
-To learn more about the issue and get information about how to fix it, select **Possible fix**, which will open the relevant Learning Center page.
+To learn more about the supported API description formats, the rules preconfigured in Postman, and how to create new rules, see [API definition warnings](/docs/api-governance/api-definition/api-definition-warnings/).
 
-To hide the warning for the API definition, select **Hide**. Select a reason that you want to hide the warning, then select **Hide** again. This will hide the warning for your entire team on the current API.
+To see any rule violations, select **Rule** next to **Violations found in schema**. Postman displays each rule violation on its own line, with a brief description of the issue, the rule type (governance or security), and the line and file the where the rule violation occurs. When you select a rule violations, Postman highlights the section of the definition that triggered it.
 
-> To hide a warning globally, use the either the [API Governance admin panel](/docs/api-governance/api-governance-admin-panel/) or the [API Security admin panel](/docs/api-governance/api-security-admin-panel/) ([Enterprise teams only](https://www.postman.com/pricing/)), depending on the warning type.
-
-<!-- TODO: screenshot -->
-
-If you want to use the warning later, select **Unhide**. <!-- TODO: find what this actually is - I think it's a message bar that indicates how many rules are hidden? -->
+If the rule violation occurs more than once, the line indicates how many times. You can scroll through each occurrence.
 
 <!-- TODO: screenshot -->
 
-When you make updates to your API definition, Postman re-checks it. If your changes resolve the issue, Postman removes the warning from the list.
+To learn more about the rule violation and get information about how to fix it, select **Possible fix**, which will open the relevant Learning Center page.
+
+When you make updates to your API definition, Postman re-checks it. If your changes resolve the issue, Postman removes the rule violation from the list.
+
+### Hiding rule violations
+
+To hide a rule violation for the API definition, select **Hide** next to the rule. Select a reason that you want to hide the rule, then select **Hide** again. This will hide the rule for your entire team on the current API.
+
+> To hide a rule violation globally, you can use either the [configurable API Governance rules](/docs/api-governance/configuring-api-governance-rules/) or the [configurable API Security rules](/docs/api-governance/configuring-api-security-rules/) ([Enterprise teams only](https://www.postman.com/pricing/)), depending on the rule type.
+
+<!-- TODO: screenshot -->
+
+When you or another member of your team has hidden a rule violation, Postman shows a message in the editor's **Rule** tab to indicate how many are hidden. To turn a rule back on later:
+
+1. Select **Review**.
+1. Review your hidden rules and select the eye icon <img alt="Eye icon" src="https://assets.postman.com/postman-docs/eye.jpg#icon" width="16px"> next to the one you want to turn back on.
+
+<!-- TODO: screenshot -->
 
 ## Generating a collection
 
