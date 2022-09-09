@@ -64,7 +64,7 @@ Next to the format dropdown list, there are options to beautify the content, wra
 
 ## Viewing rule violations in your API definition
 
-> [This feature is only available to Postman Enterprise teams.](https://www.postman.com/pricing)
+> [This feature is only available for Postman Enterprise teams.](https://www.postman.com/pricing)
 
 As you create your API definition in the editor, Postman automatically checks it against [API Governance and API Security](/docs/api-governance/api-governance-overview/) rules configured for your team. Postman displays any rule violations below the editor. Resolving these issues enables you improve your API definition.
 
