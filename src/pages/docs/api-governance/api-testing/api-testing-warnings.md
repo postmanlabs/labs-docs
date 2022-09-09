@@ -17,7 +17,6 @@ Postman recommends that you follow common security best practices at the API tes
 ## Contents
 
 * [Viewing security warnings during API testing](#viewing-security-warnings-during-api-testing)
-* [Security linting with the Postman CLI](#security-linting-with-the-postman-cli)
 * [Next steps](#next-steps)
 
 ## Viewing security warnings during API testing
@@ -31,14 +30,6 @@ If it detects any, Postman notifies you using a dot on the security overview ico
 1. Select **Possible fix** to learn about possible ways to fix the underlying problem.
 
 <img alt="Viewing security warnings in the right sidebar" src="https://assets.postman.com/postman-docs/api-governance-testing-warnings-beta.jpg" width="400px"/>
-
-## Security linting with the Postman CLI
-
-> [The Postman CLI is only available to Postman Enterprise teams.](https://www.postman.com/pricing)
-
-You can set your API Security rules to run during your CI/CD builds using the [Postman CLI](/docs/postman-cli/postman-cli-overview/). On the Postman CLI configuration page, select **Run security rules**. This will generate the correct Postman CLI command, which you can copy and paste in the command line. To see the results, go to the build page and select the desired build. Next, select the schema to expand it and see the build’s results and any rule violations, if applicable.
-
-<!-- TODO: screenshot -->
 
 ## Next steps
 
