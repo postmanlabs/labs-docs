@@ -31,7 +31,7 @@ Postman recommends that you follow API Governance and API Security rules when yo
 
 ## Contents
 
-* [Viewing governance and security rule violations in the API definition](#viewing-governance-and-security-rule-violations-in-the-API-definition)
+* [Viewing governance and security rule violations in the API definition](#viewing-governance-and-security-rule-violations-in-the-api-definition)
 * [Tracking governance and security rule violations in CI/CD](#tracking-governance-and-security-rule-violations-in-cicd)
 * [Next steps](#next-steps)
 
