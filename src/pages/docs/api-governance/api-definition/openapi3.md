@@ -1,4 +1,4 @@
-API definition---
+---
 title: "OpenAPI 3.0 warnings"
 updated: 2022-07-20
 contextual_links:
