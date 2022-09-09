@@ -93,4 +93,4 @@ To delete an API from the workspace:
 1. Select **APIs** in the sidebar.
 1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to an API and select **Delete**.
 
-> When you delete an API, any collections or environments linked to the API are deleted with it. Other elements and configured integrations aren't affected.
+> When you delete an API, any API definitions, collections or environments contained in the API are deleted with it. Other elements and configured integrations aren't affected.
