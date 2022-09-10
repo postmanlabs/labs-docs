@@ -30,14 +30,6 @@ contextual_links:
   - type: link
     name: "ChargeHub"
     url: "https://www.postman.com/case-studies/chargehub/"
-  - type: section
-    name: "Next Steps"
-  - type: link
-    name: "Documenting your API"
-    url: "/docs/publishing-your-api/documenting-your-api/"
-  - type: link
-    name: "Generating collections from the API"
-    url: "/docs/designing-and-developing-your-api/the-api-workflow/"
     search_keyword: "Private API Network, API sharing, folders, network listing, filtering apis, publish versions, github import, private apis, adding apis"
 
 ---
@@ -50,7 +42,7 @@ Workspaces, collections, and APIs in the Private API Network are visible to logg
 
 > As a quality control measure, your team can turn on an [optional approval process workflow](#using-the-approval-process-workflow). The approval workflow ensures that only designated users with the [API Network Manager role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can add elements to your Private API Network. If your team doesn't use the optional approval process workflow, any user who has an Editor role for a workspace, collection, or API can [add it to the Private API Network](#adding-elements-to-the-private-api-network).
 
-<img alt="Private API Network overview" src="https://assets.postman.com/postman-docs/private-api-network-overview-v9.jpg" width="1400px"/>
+<img alt="Private API Network overview" src="https://assets.postman.com/postman-docs/v10/private-api-network-overview1-v10.jpg"/>
 
 ## Contents
 
@@ -72,7 +64,7 @@ Workspaces, collections, and APIs in the Private API Network are visible to logg
 
 ## Navigating the Private API Network
 
-The Private API Network is a good place to learn about APIs shared within your team. Under your team name, you can browse a directory of elements shared within your team.
+The Private API Network is a good place to learn about workspaces, collections, and APIs shared within your team. Under your team name, you can browse a directory of elements shared within your team.
 
 There are two ways to access the Private API Network:
 
@@ -81,11 +73,9 @@ There are two ways to access the Private API Network:
 
 In the Private API Network, you can filter elements by name using the search box. Select **Added by** to filter based on the person who added the element. Select **Type** to filter by the type of element. Select **Sort by** to sort elements based on name and date added. You can also filter folders, sub-folders, and elements based on name and date added.
 
-<img alt="Private API List" src="https://assets.postman.com/postman-docs/private-api-network-list-v9.jpg"/>
+<img alt="Private API List" src="https://assets.postman.com/postman-docs/v10/private-api-network-list-v10.jpg"/>
 
 To review information about an element, select it from the list. You can view the element's description and the editors who have worked on it. For workspaces, you can view all of the collections and APIs that reside in them. For collections, you can view available documentation. For APIs, you can view definitions and associated collections.
-
-<img alt="API page in private network" src="https://assets.postman.com/postman-docs/private-network-api-view-v9.1.jpg"/>
 
 To watch workspace, collection, or API and get notified about any changes, select **Watch** in the upper right corner.
 
@@ -136,7 +126,7 @@ To turn on the approval process workflow:
 1. Select **Private API Network**.
 1. Turn on the approval process.
 
-<img alt="Turn on the Private API Network approval process" src="https://assets.postman.com/postman-docs/private-api-network-turn-on-approval-process-v9.jpg" width="600px"/>
+<img alt="Turn on the Private API Network approval process" src="https://assets.postman.com/postman-docs/v10/private-api-network-approval-process-v10.jpg"/>
 
 Once you have turned on the approval process, any team member with the Editor role for an element can [request to add it to the Private API Network](#editor-requesting-to-add-an-element).
 
@@ -174,13 +164,13 @@ When you submit a request, Postman notifies the [API Network Manager](/docs/coll
 
 ### API Network Manager: Reviewing requests to add elements
 
-When an Editor requests to add an element to your team's Private API Network, Postman will send you an email and an in-app notification. For the list of all the pending requests, open the [Private API Network](https://go.postman.co/network/private) and select **View Pending Requests**.
+When an Editor requests to add an element to your team's Private API Network, Postman will send you an email and an in-app notification. For the list of all the pending requests, open the [Private API Network](https://go.postman.co/network/private) and select **Pending Requests**.
 
-<img alt="View pending requests" src="https://assets.postman.com/postman-docs/private-api-network-pending-requests-v9.jpg" width="300px"/>
+<img alt="View pending requests" src="https://assets.postman.com/postman-docs/v10/private-api-network-pending-requests-v10.jpg" width="250px"/>
 
 Pending requests include the user who submitted the request, the date they submitted it on, a link to view the element, and an optional note from the requesting user.
 
-<img alt="Approve or deny a request" src="https://assets.postman.com/postman-docs/private-api-network-approve-or-deny-v9.jpg" width="700px"/>
+<img alt="Approve or deny a request" src="https://assets.postman.com/postman-docs/v10/private-api-network-pending-requests-1-v10.jpg"/>
 
 To approve a request:
 
@@ -280,13 +270,11 @@ All API versions are automatically visible to API Editors and Viewers within a P
 1. Select **Consumers can view this version**.
 1. Select **Save Changes**.
 
-#### Importing APIs from GitHub
+#### Importing APIs from code repositories
 
-You can make all your existing APIs discoverable on the Private API Network when you import from GitHub. When you create an API, switch over to the **Import** tab to view the options to import from a code repository.
+You can make all your existing APIs discoverable on the Private API Network when you import from a code repository. To learn more, see [Importing from code repositories](/docs/getting-started/importing-and-exporting-data/#importing-data-into-postman).
 
-<img alt="GitHub import" src="https://assets.postman.com/postman-docs/github-import-v9.jpg" width="450px"/>
-
-To import from Github, see [Importing from GitHub repositories](/docs/getting-started/importing-and-exporting-data/#importing-from-github-repositories).
+<img alt="Import from code repository options" src="https://assets.postman.com/postman-docs/v10/import-api-options-v10.jpg" width="450px"/>
 
 ## Managing the Private API Network
 
@@ -299,14 +287,14 @@ Once you've added elements to your Private API Network, you can manage them by o
 
 The sidebar navigation displays the folder structure for your Private API Network. You can drag elements and sub-folders into different folders. You can also add descriptions to folders to describe elements within the folders.
 
+<img alt="Create new folder in Private Network" src="https://assets.postman.com/postman-docs/v10/private-api-network-create-folder-in-sidebar-v10.jpg" width="300px"/>
+
 To create a new folder from the Private API Network view:
 
 1. Select __Create Folder__ from the sidebar.
 1. Give the folder a name.
 1. (Optional) Give a description.
 1. Select **Save**.
-
-<img alt="New folder in Private Network" src="https://assets.postman.com/postman-docs/add-new-folder-api-network-left-navigation-v9.jpg" width="350px"/>
 
 To create a new folder from the Private API Network overview page:
 
@@ -317,15 +305,13 @@ To create a new folder from the Private API Network overview page:
 
 You can also use **Create folder** to create sub-folders inside a folder.
 
-![New folder in Private Network](https://assets.postman.com/postman-docs/add-new-folder-api-network-overview-v9.jpg)
-
-You can use **Search elements and folders** to search across folders, sub-folders, and elements in your Private API Network.
+Use **Search elements and folders** to search across folders, sub-folders, and elements in your Private API Network.
 
 ### Editing element listings
 
-Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the API you would like to edit from the network, then select **Edit element** to change the location of the element. Select **Edit** to save your changes.
+Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the element you would like to edit from the network, then select **Edit element** to change its location. Select **Edit** to save your changes.
 
-<img alt="Edit API listing" src="https://assets.postman.com/postman-docs/private-api-network-edit-listing.jpg" width="400px"/>
+<img alt="Edit API listing" src="https://assets.postman.com/postman-docs/v10/private-api-network-edit-element-v10.jpg" width="450px"/>
 
 ### Removing elements from the Private API Network
 
@@ -336,9 +322,9 @@ To remove elements from your Private API Network:
 1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the element you want to remove from network.
 1. Select **Remove**.
 
-After you remove the element, your team members won't have access to it through the Private API Network.
+    <img alt="Remove element from Network" src="https://assets.postman.com/postman-docs/v10/private-api-network-remove-element-v10.jpg" width="250px"/>
 
-<img alt="Remove element from Network" src="https://assets.postman.com/postman-docs/edit-remove-from-private-network-v9.gif"/>
+After you remove the element, your team members won't have access to it through the Private API Network.
 
 ## Private API Network reports
 
@@ -346,9 +332,7 @@ The report feature makes it easier to govern your internal API landscape through
 
 Select [**Home**](https://go.postman.co/) from the Postman header, then select **Reports** on the left side.
 
-<img alt="API landscape governance" src="https://assets.postman.com/postman-docs/api-reports-selected-v9.1.jpg" width="400px"/>
-
-The API report provides the following information:
+API reports provide the following information:
 
 * **API name** is the name of the API published to the Private API Network
 * **API created by** is the name of person who created the API
@@ -359,4 +343,4 @@ The API report provides the following information:
 * **Average response time** is the average response time in milliseconds for requests over a time frame
 * **API response codes** is a graph showing different response codes for API requests plotted vs the number of API requests
 
-<img alt="API landscape governance" src="https://assets.postman.com/postman-docs/api-landscape-governance-v9.jpg"/>
+To learn more about reports, see the [Reports overview](/docs/reports/reports-overview/).
