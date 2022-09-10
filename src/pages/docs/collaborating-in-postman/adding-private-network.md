@@ -48,7 +48,7 @@ The _Private API Network_ provides a central directory of workspaces, collection
 
 Workspaces, collections, and APIs in the Private API Network are visible to logged-in users who are on your Postman team. Users who aren't on your team can't find or access these resources.
 
-> As a quality control measure, Enterprise teams can turn on an [optional approval process workflow](#using-the-approval-process-workflow) in which only designated users with the [API Network Manager role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can add workspaces, collections, and APIs to the Private API Network. If your team doesn't use the optional approval process workflow, any user who has an Editor role for a workspace, collection, or API can [add it to the Private API Network](#adding-elements-to-the-private-api-network).
+> As a quality control measure, your team can turn on an [optional approval process workflow](#using-the-approval-process-workflow). The approval workflow ensures that only designated users with the [API Network Manager role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can add elements to your Private API Network. If your team doesn't use the optional approval process workflow, any user who has an Editor role for a workspace, collection, or API can [add it to the Private API Network](#adding-elements-to-the-private-api-network).
 
 <img alt="Private API Network overview" src="https://assets.postman.com/postman-docs/private-api-network-overview-v9.jpg" width="1400px"/>
 
@@ -95,7 +95,7 @@ To watch workspace, collection, or API and get notified about any changes, selec
 
 > **[The approval process workflow is available on Postman Enterprise plans.](https://www.postman.com/pricing/)**
 
-As a quality control measure, your team can turn on an optional approval process workflow in which only designated users with the [API Network Manager role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can add elements to your Private API Network.
+As a quality control measure, your team can turn on an [optional approval process workflow](#using-the-approval-process-workflow). The approval workflow ensures that only designated users with the [API Network Manager role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can add elements to your Private API Network.
 
 To use this approval process for your team, you need to complete two steps first:
 
@@ -142,7 +142,7 @@ Once you have turned on the approval process, any team member with the Editor ro
 
 ### Editor: Requesting to add an element
 
-Once the optional approval process is turned on, users with an Editor role for an element can request to add it to the Private API Network.
+When you enable the [optional approval process](#using-the-approval-process-workflow), users with an Editor role for an element can request to add it to the Private API Network.
 
 When you submit a request, Postman notifies the [API Network Manager](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) who will review your request and either approve or deny it. Postman will notify you of the API Network Manager's decision. If they deny your request, the notification will include a comment with their reason.
 
@@ -159,7 +159,7 @@ When you submit a request, Postman notifies the [API Network Manager](/docs/coll
 1. Open the collection you want to add to the Private API Network.
 1. Select the information icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px">, then select **Request to Add to API Network**.
 1. (Optional) Add a brief summary about the collection.
-1. (Optional) Select **Select Environments** to ensure users have access to environment variables.
+1. (Optional) Select **Select Environments** to make sure users have access to environment variables.
 1. (Optional) Select a folder or create one to keep elements organized.
 1. (Optional) Select **Add comment** to add a note for the API Network Manager.
 1. Select **Request to Add to API Network**.
@@ -232,7 +232,7 @@ To add a collection to the Private API Network from the API Builder:
 1. Open the collection you want to add to the Private API Network.
 1. Select the information icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px">, then select **Add to API Network**.
 1. (Optional) Add a brief summary about the collection.
-1. (Optional) Select **Select Environments** to ensure users have access to environment variables.
+1. (Optional) Select **Select Environments** to make sure users have access to environment variables.
 1. (Optional) Select a folder or create one to keep elements organized.
 1. Select **Add**.
 
@@ -303,7 +303,7 @@ To create a new folder from the Private API Network view:
 
 1. Select __Create Folder__ from the sidebar.
 1. Give the folder a name.
-1. (Optional) Provide a description.
+1. (Optional) Give a description.
 1. Select **Save**.
 
 <img alt="New folder in Private Network" src="https://assets.postman.com/postman-docs/add-new-folder-api-network-left-navigation-v9.jpg" width="350px"/>
@@ -312,7 +312,7 @@ To create a new folder from the Private API Network overview page:
 
 1. Select **Create Folder** on the right.
 1. Give the folder a name.
-1. (Optional) Provide a description.
+1. (Optional) Give a description.
 1. Select **Save**.
 
 You can also use **Create folder** to create sub-folders inside a folder.
