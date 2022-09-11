@@ -75,7 +75,7 @@ In the Private API Network, you can filter elements by name using the search box
 
 To review information about an element, select it from the list. You can view the element's description and the editors who have worked on it. For workspaces, you can view all of the collections and APIs that reside in them. For collections, you can view available documentation. For APIs, you can view definitions and associated collections.
 
-To watch workspace, collection, or API and get notified about any changes, select **Watch** in the upper right corner.
+To watch a workspace, collection, or API and get notified about any changes, select **Watch** in the upper right corner.
 
 > To learn more about watch notifications, see [Watching a workspace](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#watching-a-workspace), [Watching a collection](/docs/sending-requests/intro-to-collections/#watching-a-collection), and [Watching an API](/docs/designing-and-developing-your-api/managing-apis/#watching-apis).
 
@@ -192,7 +192,7 @@ To add an element to the Private API Network, it must be in the [API Builder](/d
 
 ### Adding workspaces
 
-If your team uses the [optional approval process](#using-the-approval-process-workflow), only an API Network Manager can add workspaces directly to the Private API Network. Workspace Editors must [request to add an workspace](#requesting-to-add-an-api). If your team doesn't use the approval process, any user with Editor access for the workspace can add it to the Private API Network.
+If your team uses the [optional approval process](#using-the-approval-process-workflow), only an API Network Manager can add workspaces directly to the Private API Network. Workspace Editors must [request to add a workspace](#requesting-to-add-an-api). If your team doesn't use the approval process, any user with Editor access for the workspace can add it to the Private API Network.
 
 To add a workspace to the Private API Network from the API Builder:
 
