@@ -34,8 +34,6 @@ contextual_links:
 
 ---
 
-> **[The Private API Network is available to Postman Enterprise plans only.](https://www.postman.com/pricing/)**
-
 The _Private API Network_ provides a central directory of workspaces, collections, and APIs your team uses internally. Your Postman team can access these resources and start using them right away. By utilizing the Private API Network, you can enable developers across your organization to discover, consume, and track API development in one place.
 
 Workspaces, collections, and APIs in the Private API Network are visible to logged-in users who are on your Postman team. Users who aren't on your team can't find or access these resources.
