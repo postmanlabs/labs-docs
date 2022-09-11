@@ -4,43 +4,28 @@ order: 76
 page_id: "partner_workspaces"
 updated: 2022-08-29
 warning: false
-contextual_links:
-  - type: section
-    name: "Additional Resources"
-  - type: subtitle
-    name: "Videos"
-  - type: link
-    name: ""
-    url: ""
-  - type: subtitle
-    name: "Blog Posts"
-  - type: link
-    name: ""
-    url: ""
 
 ---
 
 > **[Partner workspaces are only available to Postman Enterprise teams.](https://www.postman.com/pricing)**
 
-Partner workspaces enable you collaborate with partners directly in Postman. You can use partner workspaces to help your partners consume your team's APIs and work together on API projects in real time. With partner workspaces, you can build a single source of truth and seamlessly integrate your partner projects into your Postman team, setting the foundation for an efficient and productive partnership.
+Partner workspaces enable you collaborate with external partners directly in Postman. You can use partner workspaces to help your partners consume your team's APIs and work together on API projects in real time. With partner workspaces, you can build a single source of truth and seamlessly integrate your partner projects into your Postman team, setting the foundation for an efficient and productive partnership.
 
 ## Contents
 
 * [Creating a partner workspace](#creating-a-partner-workspace)
 * [Setting up a partner workspace](#setting-up-a-partner-workspace)
     * [Moving elements to a partner workspace](#moving-elements-to-a-partner-workspace)
-    * [Removing elements from a partner workspace](#removing-elements-from-a-partner-workspace)
 * [Inviting collaborators to a partner workspace](#inviting-collaborators-to-a-partner-workspace)
+* [Collaborating in a partner workspace](#collaborating-in-a-partner-workspace)
+    * [Collaborating as a team member](#collaborating-as-a-team-member)
+    * [Collaborating as a partner](#collaborating-as-a-partner)
 * [Managing a partner workspace](#managing-a-partner-workspace)
     * [Managing users and roles](#managing-users-and-roles)
     * [Managing workspace elements](#managing-workspace-elements)
-* [Editing workspace details](#editing-workspace-details)
+    * [Editing workspace details](#editing-workspace-details)
+* [Removing elements from a partner workspace](#removing-elements-from-a-partner-workspace)
 * [Deleting a partner workspace](#deleting-a-partner-workspace)
-
-<!-- * [Collaborating in a partner workspace](#collaborating-in-a-partner-workspace)
-    * [Collaborating as a team member](#collaborating-as-a-team-member)
-    * [Collaborating as a partner](#collaborating-as-a-partner)
-* [Next steps](#next-steps) -->
 
 ## Creating a partner workspace
 
@@ -72,7 +57,7 @@ Anyone with permissions to change workspace visibility can request to convert a 
 
 ## Setting up a partner workspace
 
-Before sharing a partner workspace with external collaborators, you can set your partnership up for success by moving relevant APIs, collections, and environments into it.
+Before sharing a partner workspace with external collaborators, you can set your partnership up for success by moving or forking relevant elements into it.
 
 ### Moving elements to a partner workspace
 
@@ -88,33 +73,9 @@ You must be an Editor on an API, collection, or environment, the Workspace Admin
 
     <img alt="Move element partner workspace" src="https://assets.postman.com/postman-docs/v10/move-collection-to-partner-workspace-v10.jpg" width="400px"/>
 
-Note that items related to what you're moving won't move with the element automatically:
-
-* **Collections** - Monitors will pause and stay in the current workspace.
-
-* **APIs** - Collections and environments linked to the API will automatically move with the API to the new workspace. Mocks and monitors will not move to the new workspace.
-
-* **Environments** - Monitors, mock servers, and integrations using the environment may no longer work.
-
-You must move these items separately or re-configure them in the new workspace.
+Note that items related to what you're moving, such as monitors and mock servers, won't move with the element automatically. For more information, see [Moving elements to team workspaces](/docs/collaborating-in-postman/working-with-your-team/collaborating-in-team-workspaces/#moving-elements-to-team-workspaces).
 
 If you'd like to keep certain elements in other workspaces, you can [fork them into partner workspaces](/docs/collaborating-in-postman/version-control/#creating-a-fork) to help [keep them up to date](/docs/collaborating-in-postman/version-control/#pulling-updates) with any changes to the parent element.
-
-### Removing elements from a partner workspace
-
-You must be an Editor on an API, collection, or environment, the Workspace Admin, or a Super Admin to remove an element from a partner workspace. To remove an element by moving it to another workspace:
-
-1. In the sidebar, select the element you want to move, then select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> > **Move**.
-
-1. Use the search bar to find the workspace you'd like to move the element to, or filter by workspace visibility by selecting the filter icon <img alt="Filter icon" src="https://assets.postman.com/postman-docs/icon-filter.jpg#icon" width="16px">.
-
-    > You can share elements to workspaces that you have access to.
-
-1. Select the workspace, then **Move** (**Collection**, **API**, or **Environment**).
-
-It's not recommended, but you can choose to delete an element entirely. To do so, select the element in the sidebar, then select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> > **Delete**.
-
-> Deleted APIs and environments aren't recoverable. You can recover collections smaller than 30 MB for up to 90 days on an Enterprise plan. To do so, select <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> **Trash** from the Postman footer.
 
 ## Inviting collaborators to a partner workspace
 
@@ -141,11 +102,35 @@ To invite team members to a partner workspace:
 1. Set their [workspace role](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles).
 1. Select **Send Invites**.
 
+## Collaborating in a partner workspace
+
+The collaborative experience that partner workspaces offer depends on your role and status as a team member or external partner.
+
+### Collaborating as a team member
+
+Partner workspaces are only visible to invited team members, similar to [private workspaces](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/). Once invited, you can access partner workspaces just as you would access any other workspace. To open one, select **Workspaces** in the Postman header, and then select the partner workspace.
+
+Within a partner workspace, team members can be assigned different workspace roles: Admin, Editor, and Viewer. To learn more, see [Workspace roles](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles).
+
+Team members can also be assigned the team level Partner Manager role. Partner Managers can view all partner workspaces within an organization, and can control their settings, visibility, and partner invites. To learn more, see [Managing users and roles](#managing-users-and-roles).
+
+### Collaborating as a partner
+
+When an external partner is invited to a partner workspace by a team they're working with, they only have access to that partner workspace and can't access any other workspaces or resources within the team. Partners don't have personal or team workspaces within the team they're partnering with.
+
+Within a partner workspace, partners can [import and export](/docs/getting-started/importing-and-exporting-data/) elements. They can also [fork elements](/docs/collaborating-in-postman/version-control/#forking-postman-entities) from the partner workspace to another workspace, even if it's outside of your team.
+
+At the team level, all external partners are assigned the Partner role. At the workspace level, all partners are assigned [Workspace Editor or Viewer](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles) roles when invited to a partner workspace. Partners can also be assigned the Partner Lead role, which allows them to invite other partners from their organization to join the partner workspace.
+
+> To learn more about partner roles and permissions, see [Partner Roles]().
+
 ## Managing a partner workspace
 
 Workspace Admins and Partner Managers manage workspace settings, members, and roles within a partner workspace. Partner Leads also manage members and roles in partner workspaces.
 
 ### Managing users and roles
+
+move ish maybe table too
 
 You can assign partner roles based on the functions team members and partners require.
 
@@ -163,9 +148,27 @@ To move additional elements to a partner workspace, see [Moving elements to a pa
 
 To remove elements from a partner workspace, see [Removing elements from a partner workspace](#removing-elements-from-a-partner-workspace).
 
-## Editing workspace details
+### Editing workspace details
 
 Workspace Admins and Partner Managers can edit partner workspace details. On the workspace's Overview tab, select the workspace name, summary, or description to edit it. You can add Markdown to the description—select **Save** when you're done.
+
+## Removing elements from a partner workspace
+
+You must be an Editor on an API, collection, or environment, the Workspace Admin, or a Super Admin to remove an element from a partner workspace.
+
+To remove an element by moving it to another workspace:
+
+1. In the sidebar, select the element you want to move, then select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> > **Move**.
+
+1. Use the search bar to find the workspace you'd like to move the element to, or filter by workspace visibility by selecting the filter icon <img alt="Filter icon" src="https://assets.postman.com/postman-docs/icon-filter.jpg#icon" width="16px">.
+
+    > You can share elements to workspaces that you have access to.
+
+1. Select the workspace, then **Move** (**Collection**, **API**, or **Environment**).
+
+It's not recommended, but you can choose to delete an element entirely. To do so, select the element in the sidebar, then select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> > **Delete**.
+
+> Deleted APIs and environments aren't recoverable. You can recover collections smaller than 30 MB for up to 90 days on an Enterprise plan. To do so, select <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> **Trash** from the Postman footer.
 
 ## Deleting a partner workspace
 
