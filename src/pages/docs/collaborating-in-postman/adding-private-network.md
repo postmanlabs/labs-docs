@@ -332,7 +332,7 @@ The report feature makes it easier to govern your internal API landscape through
 
 Select [**Home**](https://go.postman.co/) from the Postman header, then select **Reports** on the left side.
 
-API reports provide the following information:
+API reports offer the following information:
 
 * **API name** is the name of the API published to the Private API Network
 * **API created by** is the name of person who created the API
