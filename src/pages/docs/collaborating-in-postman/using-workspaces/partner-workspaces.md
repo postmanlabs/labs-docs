@@ -108,9 +108,9 @@ The collaborative experience that partner workspaces offer depends on your role 
 
 ### Collaborating as a team member
 
-Partner workspaces are only visible to invited team members, similar to [private workspaces](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/). Once invited, you can access partner workspaces just as you would access any other workspace. To open one, select **Workspaces** in the Postman header, and then select the partner workspace.
+Partner workspaces are only visible to invited team members, similar to [private workspaces](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/). Once invited, you can access partner workspaces as you would access any other workspace. To open one, select **Workspaces** in the Postman header, and then select the partner workspace.
 
-Within a partner workspace, team members can be assigned different workspace roles: Admin, Editor, and Viewer. To learn more, see [Workspace roles](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles).
+Within a partner workspace, team members can have different workspace roles: Admin, Editor, and Viewer. To learn more, see [Workspace roles](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles).
 
 Team members can also be assigned the team level Partner Manager role. Partner Managers can view all partner workspaces within an organization, and can control their settings, visibility, and partner invites. To learn more, see [Managing users and roles](#managing-users-and-roles).
 
@@ -120,7 +120,7 @@ When an external partner is invited to a partner workspace by a team they're wor
 
 Within a partner workspace, partners can [import and export](/docs/getting-started/importing-and-exporting-data/) elements. They can also [fork elements](/docs/collaborating-in-postman/version-control/#forking-postman-entities) from the partner workspace to another workspace, even if it's outside of your team.
 
-At the team level, all external partners are assigned the Partner role. At the workspace level, all partners are assigned [Workspace Editor or Viewer](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles) roles when invited to a partner workspace. Partners can also be assigned the Partner Lead role, which allows them to invite other partners from their organization to join the partner workspace.
+At the team level, all external partners are automatically assigned the Partner role. At the workspace level, all partners are assigned [Workspace Editor or Viewer](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles) roles when invited to a partner workspace. Partners can also be assigned the Partner Lead role, which enables them to invite other individuals from their organization to the partner workspace.
 
 > To learn more about partner roles and permissions, see [Partner Roles]().
 
@@ -129,8 +129,6 @@ At the team level, all external partners are assigned the Partner role. At the w
 Workspace Admins and Partner Managers manage workspace settings, members, and roles within a partner workspace. Partner Leads also manage members and roles in partner workspaces.
 
 ### Managing users and roles
-
-move ish maybe table too
 
 You can assign partner roles based on the functions team members and partners require.
 
@@ -144,7 +142,7 @@ All partners are assigned Workspace Editor or Viewer roles when invited to a par
 
 ### Managing workspace elements
 
-To move additional elements to a partner workspace, see [Moving elements to a partner workspace](#moving-elements-to-a-partner-workspace).
+To move elements to a partner workspace, see [Moving elements to a partner workspace](#moving-elements-to-a-partner-workspace).
 
 To remove elements from a partner workspace, see [Removing elements from a partner workspace](#removing-elements-from-a-partner-workspace).
 
@@ -176,9 +174,7 @@ Workspace Admins and Partner Managers can delete partner workspaces. To delete a
 
 1. On the workspace's **Overview** tab, select **Workspace Settings**.
 1. Select the role next to each partner in the workspace, then select **Remove from workspace**.
-1. Once all partners have been removed, [change the visibility of a partner workspace](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#changing-workspace-visibility) to **Team** or **Private**.
+1. Once you've removed all partners from the workspace, [change the visibility of the workspace](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#changing-workspace-visibility) to **Team** or **Private**.
 1. Select **Delete Workspace**.
 
-> Postman notifies all workspace members in-app and by email when a partner workspace is deleted.
-
-## Next steps
+> Postman notifies all workspace members in-app and by email when you delete a partner workspace.
