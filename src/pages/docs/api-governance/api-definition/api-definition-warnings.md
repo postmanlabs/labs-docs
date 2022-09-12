@@ -27,7 +27,7 @@ search_keyword: "api security, api schema, security warnings, schema validation,
 
 Postman recommends that you follow API Governance and API Security rules when you create your API definition. A rule violation doesn't mean that your API definition is broken! Instead, it indicates that there are potential security risks that your API might be vulnerable to, or potential design issues that might impact its usability. Postman highlights these rule violations and helps you understand their implications and possible ways to fix them. Postman supports API Governance and API Security rules for API definitions in [OpenAPI 3.0](/docs/api-governance/api-definition/openapi3/) and [OpenAPI 2.0](/docs/api-governance/api-definition/openapi2/) format.
 
-> **Rule customization**. You can also customize the rules that Postman applies to your API definition ([Enterprise teams only](https://www.postman.com/pricing/)). For more information, see [Configuring API Governance rules](/docs/api-governance/configuring-api-governance-rules/) and [Configuring API Security rules](/docs/api-governance/configuring-api-security-rules/). 
+> **Rule customization**. You can also customize the rules that Postman applies to your API definition ([Enterprise teams only](https://www.postman.com/pricing/)). For more information, see [Configuring API Governance rules](/docs/api-governance/configuring-api-governance-rules/) and [Configuring API Security rules](/docs/api-governance/configuring-api-security-rules/).
 
 <img alt="Security warnings for OpenAPI 3.0" src="https://assets.postman.com/postman-docs/security-warnings-openapi-3-v9.jpg"/>
 
