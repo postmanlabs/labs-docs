@@ -2,7 +2,7 @@
 title: "Postman Sandbox API"
 page_id: "postman-sandbox-api"
 warning: false
-updated: 2022-08-31
+updated: 2022-09-15
 contextual_links:
   - type: section
     name: "Prerequisites"

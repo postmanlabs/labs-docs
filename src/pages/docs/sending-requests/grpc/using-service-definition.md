@@ -1,7 +1,7 @@
 ---
 title: "Working with service definitions"
 warning: false
-updated: 2022-08-31
+updated: 2022-09-15
 contextual_links:
   - type: section
     name: "Additional resources"
