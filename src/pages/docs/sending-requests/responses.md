@@ -40,6 +40,7 @@ The Postman response viewer helps you to visualize and check the correctness of 
 * [Response time](#response-time)
 * [Response size](#response-size)
 * [Saving responses](#saving-responses)
+* [Viewing security warnings](#viewing-security-warnings)
 
 ## Response body
 
@@ -151,3 +152,41 @@ If a request has been saved in a collection, you can save responses for that req
 * Select **Save to a file** to save the response as a JSON file.
 
 <img alt="Save an API response as an example or file" src="https://assets.postman.com/postman-docs/save-response.jpg" width="300px"/>
+
+## Viewing security warnings
+
+Postman applies security rules configured for your [API requests](/docs/api-governance/api-testing/api-testing-warnings/) when you send requests to any API using either the Postman web app or the Postman desktop app. A security warning indicates that there are potential security risks the API might be vulnerable to, but they don't mean the API is broken.
+
+To view the specific security warnings that Postman applies to all requests, see [Security warnings](/docs/api-governance/api-testing/security-warnings/).
+
+If it finds any potential security risks, Postman adds the number of warnings to the **Security** tab in the response.
+
+<!-- TODO: screenshot -->
+
+To view the list of security warnings and to get more information about specific warnings: 
+
+1. Select **Security** to view the warnings.
+1. For more details, select a warning to expand it.
+1. Select **Possible fix** to learn about possible ways to fix the underlying problem.
+
+<!-- TODO: screenshot -->
+
+### Hiding security warnings
+
+To turn a warning off for the current API response:
+
+1. Select **Hide warning**.
+1. Choose a reason for hiding it, then select **Hide**.
+
+This will turn the warning off for all members of your team, but only for this response.
+
+> To turn a warning off globally for your team, you can [configure your API Security rules](/docs/api-governance/configuring-api-security-rules/) (available for [Enterprise teams only](https://www.postman.com/pricing/)).
+
+<!-- TODO: screenshot -->
+
+When you or another member of your team has hidden a warning, Postman shows a message in the **Security** tab to indicate how many are hidden. To turn this warning back on later:
+
+1. Select **Review**.
+1. Review your hidden warnings and select the eye icon <img alt="Eye icon" src="https://assets.postman.com/postman-docs/eye.jpg#icon" width="16px"> next to the one you want to turn back on.
+
+<!-- TODO: screenshot -->
