@@ -77,7 +77,7 @@ To configure a collection run:
 
       <img alt="Collection Runner configuration settings" src="https://assets.postman.com/postman-docs/v10/collection-runner-configuration-manually.jpg" width="800px"/>
 
-1. If you select **Automate runs via CLI**, a code snippet is shown which you can run with the Postman CLI to run the collection from the command line. Select **Add API Key** to add an existing API key or generate a new API key and add it to the snippet. There's also a link to add the CLI configuration to a CI/CD integration. <!--TODO: links-->
+1. If you select **Automate runs via CLI**, a code snippet is shown which you can run with the Postman CLI to run the collection from the command line. Select **Add API Key** to add an existing API key or generate a new API key and add it to the snippet. There's also a link to add the CLI configuration to a CI/CD integration. See [running a collection with the Postman CLI](/docs/postman-cli/postman-cli-run-collection/) for more information.
 
 1. By default, your requests run in the sequence they're listed in the collection. If you need to change the order of execution, select a request and drag it to move it to its new order. You can also remove an individual request from the run by clearing the checkbox next to its name.
 

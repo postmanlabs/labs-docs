@@ -25,6 +25,7 @@ You can use the Postman API Platform to manually validate your APIs. With Postma
 
 * [Running a collection locally with the Postman CLI](#running-a-collection-locally-with-the-postman-cli)
 * [Running a collection in CI/CD](#running-a-collection-in-cicd)
+* [Running a collection in a specific order](#running-a-collection-in-a-specific-order)
 
 ## Running a collection locally with the Postman CLI
 
@@ -59,3 +60,13 @@ You can use the Postman API Platform to manually validate your APIs. With Postma
 ## Running a collection in CI/CD
 
 When the collections run to your satisfaction, you can copy the commands into your CI/CD scripts to integrate them into your workflows. To learn more, see [Configuring the Postman CLI for CI](/docs/integrations/ci-integrations/#configuring-the-postman-cli-for-ci).
+
+## Running a collection in a specific order
+
+By default, when you generate the command to run a collection from the Collection Runner, a single Collection ID for the collection is specified. This will run the folders and requests in that collection in the sequence they're listed in the collection.
+
+If you need to change the order of execution, select a request in the Collection Runner and drag it to move it to its new order. You can also remove an individual request from the run by clearing the checkbox next to its name.
+
+When you change the folder and request sequence and **Automate runs via CLI** is selected, the command in the **Postman CLI command** window will also change. In addition to the Collection ID, the generated command will specify a number of folder and request UIDs with the `-i` option. This will run each of the folders or requests in that specified order.
+
+
