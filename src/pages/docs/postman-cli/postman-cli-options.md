@@ -63,7 +63,7 @@ Commands and options for using the Postman CLI.
 | `--timeout-script` | Specify the time (in milliseconds) to wait for scripts to complete execution. |
 | `--verbose` | Show the details of the collection run and its data ingestion to Postman. |
 | `--working-dir` |Set the path of the working directory to use while reading files with relative paths. |
-| [**`postman api lint`**](#postman-api-lint)| Run validation checks for governance and security rules against the api definition provided in the Postman config file. |
+| [**`postman api lint`**](#postman-api-lint)| Run validation checks for governance and security rules against the API Definition provided in the Postman config file. ([Enterprise teams only](https://www.postman.com/pricing/)).|
 | [**`postman`**](#postman) | The base command. |
 | `--help` | Return information about Postman CLI commands and options. |
 | `--version` | Return the version number for the Postman CLI.  |
@@ -181,7 +181,7 @@ postman collection run 12345678-12345ab-1234-1ab2-1ab2-ab1234112a12
 
 ## Governance and security
 
-API governance is the practice of applying a defined set of standards consistently across your API design and testing phases of your development process. The Postman CLI includes an API linting command, described below.
+API governance is the practice of applying a defined set of standards consistently across your API design and testing phases of your development process. The Postman CLI includes an API linting command, described below. (This feature is available for [Enterprise teams only](https://www.postman.com/pricing/)).
 
 ### postman api lint
 
