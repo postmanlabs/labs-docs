@@ -67,7 +67,7 @@ You must be an Editor on an API, collection, or environment, the Workspace Admin
 
 1. Use the search bar to find the workspace you'd like to move the element to, or filter by workspace visibility by selecting the filter icon <img alt="Filter icon" src="https://assets.postman.com/postman-docs/icon-filter.jpg#icon" width="16px">.
 
-    > You can share elements to Partner Workspaces that you have access to.
+    > You can move elements to Partner Workspaces that you have access to.
 
 1. Select the workspace, then select **Move** (**Collection**, **API**, or **Environment**).
 
@@ -81,7 +81,7 @@ If you'd like to keep certain elements in other workspaces, you can [fork them i
 
 Workspace Admins, Partner Managers, and Partner Leads can invite partners to Partner Workspaces. Your team can invite 5 partners at no extra cost. To purchase more partner licenses, contact your Postman Account Manager or [contact Postman support](https://www.postman.com/support/).
 
-> For more information on partner roles, see [Managing users and roles](#managing-users-and-roles).
+> For more information on partner roles, see [Partner roles](/docs/collaborating-in-postman/roles-and-permissions/#partner-roles).
 
 To invite partners to a Partner Workspace:
 
@@ -92,7 +92,7 @@ To invite partners to a Partner Workspace:
 1. (Workspace Admins and Partner Managers only) Select **Make them Partner Lead** if you'd like them to also be able to manage and invite partners within the workspace.
 1. Select **Invite Partners**.
 
-Partner invites must be accepted by the email ID you provide when inviting the individual. If the partner would like to use a different email ID, or if an invite was mistakenly sent, you can [revoke the invite](/docs/administration/managing-your-team/managing-your-team/#managing-invitations) and send a new one.
+Partner invites must be accepted by the email ID you provide when inviting the individual. If a partner would like to use a different email ID, or if an invite was mistakenly sent, you can [revoke the invite](/docs/administration/managing-your-team/managing-your-team/#managing-invitations) and send a new one.
 
 > Partners will sign in to your team with a Postman password, even if your team is restricted to signing in with [SSO](/docs/administration/sso/intro-sso/).
 
@@ -112,7 +112,7 @@ The collaborative experience that Partner Workspaces offer depends on your role 
 
 ### Collaborating as a team member
 
-Partner Workspaces are only visible to invited team members, similar to [private workspaces](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/). Once invited, you can access Partner Workspaces as you would access any other workspace. To open one, select **Workspaces** in the Postman header, and then select the Partner Workspace.
+Partner Workspaces are only visible to invited team members, similar to [private workspaces](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/). Once invited, you can access Partner Workspaces as you would access any other workspace. To open one, select **Workspaces** in the Postman header, then select the Partner Workspace.
 
 Within a Partner Workspace, team members can have different workspace roles: Admin, Editor, and Viewer. To learn more, see [Workspace roles](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles).
 
@@ -167,7 +167,7 @@ To remove an element by moving it to another workspace:
 
 1. Use the search bar to find the workspace you'd like to move the element to, or filter by workspace visibility by selecting the filter icon <img alt="Filter icon" src="https://assets.postman.com/postman-docs/icon-filter.jpg#icon" width="16px">.
 
-    > You can share elements to workspaces that you have access to.
+    > You can move elements to workspaces that you have access to.
 
 1. Select the workspace, then **Move** (**Collection**, **API**, or **Environment**).
 

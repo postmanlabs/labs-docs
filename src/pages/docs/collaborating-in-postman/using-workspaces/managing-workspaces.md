@@ -131,7 +131,7 @@ Individual team members and groups you invite will be notified immediately of yo
 
 You can also invite collaborators by selecting <img alt="Link icon" src="https://assets.postman.com/postman-docs/icon-workspace-link-v9.jpg#icon" width="18px"> **Copy Invite Link** and sharing the link with them outside of Postman. When individuals select the link, Postman will prompt them to sign in or sign up. If you are a Team Admin inviting an external user, they'll be automatically added to your team. If you aren't a Team Admin, a request to add them to your Postman team will be shared with your Team Admins for approval.
 
-> Inviting collaborators to [Partner Workspaces](/docs/collaborating-in-postman/using-workspaces/partner-workspaces/) is different than inviting them to other types of workspaces. To learn more, see [Inviting collaborators to a Partner Workspace](/docs/collaborating-in-postman/using-workspaces/partner-workspaces/#inviting-collaborators-to-a-partner-workspace)
+> Inviting collaborators to [Partner Workspaces](/docs/collaborating-in-postman/using-workspaces/partner-workspaces/) is different than inviting them to other types of workspaces. To learn more, see [Inviting collaborators to a Partner Workspace](/docs/collaborating-in-postman/using-workspaces/partner-workspaces/#inviting-collaborators-to-a-partner-workspace).
 
 ### Approving requests for access to private workspaces
 
