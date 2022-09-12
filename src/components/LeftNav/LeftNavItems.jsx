@@ -624,12 +624,12 @@ export const leftNavItems = [
         ],
       },
       {
-        name: 'API testing',
+        name: 'Requests',
         subParentSlug: 'api-testing',
         slug: '/docs/api-governance/api-testing/api-testing-warnings/',
         subMenuItems2: [
           {
-            name: 'API testing warnings',
+            name: 'Warnings in API requests',
             url: '/docs/api-governance/api-testing/api-testing-warnings/',
           },
           {

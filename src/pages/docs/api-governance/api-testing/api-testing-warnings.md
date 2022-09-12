@@ -1,5 +1,5 @@
 ---
-title: "API testing warnings"
+title: "Warnings in API requests"
 updated: 2022-07-20
 contextual_links:
   - type: section
@@ -10,9 +10,9 @@ contextual_links:
 search_keyword: "api security, security warnings, security validation, api security audit, api security scan, security audit"
 ---
 
-Postman recommends that you follow common security best practices at the API testing phase of API development. A security warning doesn't mean that your API is broken! Instead, it indicates that there are potential security risks that your API might be vulnerable to. Postman highlights these security warnings and helps you understand their implications and possible ways to patch the warnings.
+Postman applies security rules configured for your [API requests](/docs/api-governance/api-testing/api-testing-warnings/) when you send requests to any API using either the Postman web app or the Postman desktop app. A security warning doesn't mean that your API is broken! Instead, it indicates that there are potential security risks that your API might be vulnerable to. Postman highlights these security warnings and helps you understand their implications and possible ways to patch the warnings.
 
-## Viewing security warnings for API responses
+## Viewing security warnings for API requests
 
 When you [send an API request](/docs/sending-requests/requests/), Postman scans it for potential security risks.  If it finds any, Postman adds the number of warnings to the **Security** tab in the response.
 
@@ -20,4 +20,4 @@ When you [send an API request](/docs/sending-requests/requests/), Postman scans 
 
 To learn about API security warnings and how to hide warnings that aren't relevant to your team, see [Viewing security warnings](/docs/sending-requests/responses/#viewing-security-warnings).
 
-For the list of all the security warnings that Postman might show for API responses, see [Security warnings](/docs/api-governance/api-testing/security-warnings/).
+For the list of all the security warnings that Postman might show for API requests, see [Security warnings](/docs/api-governance/api-testing/security-warnings/).
