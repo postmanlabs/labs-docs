@@ -24,8 +24,6 @@ search_keyword: "api security, api schema, security warnings, schema validation,
 
 You can use Postman to identify any potential security and formatting issues when defining your API.
 
-> **Format linting for [API information](#api-information), [Operations](#operations), and [Models](#models) is in beta.** During the beta period, this feature may not be available to all Postman users and is subject to potential change.
-
 <img alt="Security warnings for OpenAPI 3.0" src="https://assets.postman.com/postman-docs/security-warnings-openapi-3-v9.jpg"/>
 
 ### Warnings for OpenAPI 3.0
@@ -947,7 +945,6 @@ info:
   title: An API name
   version: '1.0'
   contact:
-    name: A contact name
     email: support@example.com
     url: https://example.com/support
 ```
@@ -1398,11 +1395,7 @@ This rule category deals with how to model various data types.
 
 ### A schema property should reference a reusable schema
 
-<!-- TODO: confirm message wording is okay -->
-
-| Issue description | Possible fix |
-| ----------- | ----------- |
-| A schema property in one or more [response objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.0.3.md#responseObject) doesn't reference a reusable schema. A schema reference (`$ref`) that targets [`components.schemas`](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.0.3.md#components-object) helps ensure consistency in design, OpenAPI document and API documentation readability, and facilitates maintainability by avoiding duplication of models. | Consolidate all the schemas from your response objects into the `schemas` property in the components object. |
+| A schema property in one or more [response objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#responseObject) or [body parameter objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#parameterObject) doesn't reference a reusable schema. A schema reference (`$ref`) that targets reusable schemas in `definitions` helps ensure consistency in design, OpenAPI document and API documentation readability, and facilitates maintainability by avoiding duplication of models. | Consolidate all your responses and body parameter schemas into `definitions`. |
 
 #### Resolution
 

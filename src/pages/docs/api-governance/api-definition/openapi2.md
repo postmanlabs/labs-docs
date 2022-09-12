@@ -24,8 +24,6 @@ search_keyword: "api security, api schema, security warnings, schema validation,
 
 You can use Postman to identify any potential security and formatting issues when defining your API.
 
-> **Format linting for [API information](#api-information), [Operations](#operations), and [Models](#models) is in beta.** During the beta period, this feature may not be available to all Postman users and is subject to potential change.
-
 <img alt="Security warnings for OpenAPI 2.0" src="https://assets.postman.com/postman-docs/security-warnings-openapi-2-v9.jpg"/>
 
 ### Warnings for OpenAPI 2.0
@@ -823,9 +821,9 @@ This rule category deals with the OpenAPI info object, which contains metadata a
 ```json
 swagger: "2.0"
 info:
-title: An API name
-version: '1.0'
-description: Project API description
+  title: An API name
+  version: '1.0'
+  description: Project API description
 ```
 
 &nbsp;
@@ -1301,20 +1299,14 @@ paths:
 #### Resolution
 
 ```json
-delete:
-  ...
-  parameters:
-    - in: path
-      name: entityId
-      schema:
-      type: integer
-      required: true
-      description: entity identifier.
-  responses:
-    '204':
-      description: Deleted successfully
-    '500':
-      description: Something went wrong
+swagger: "2.0"
+#...
+paths:
+  /resources:
+    delete:
+      responses:
+        '204':
+          description: a success response
 ```
 
 &nbsp;
@@ -1327,7 +1319,7 @@ This rule category deals with how to model various data types.
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| A schema property in one or more [response objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#responseObject) doesn't reference a reusable schema. A schema reference (`$ref`) that targets reusable schemas in definitions helps ensure consistency in design, OpenAPI document and API documentation readability, and facilitates maintainability by avoiding duplication of models. | Consolidate all the schemas from your response objects into the `schemas` property in the components object. |
+| A schema property in one or more [response objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#responseObject) or [body parameter objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#parameterObject) doesn't reference a reusable schema. A schema reference (`$ref`) that targets reusable schemas in `definitions` helps ensure consistency in design, OpenAPI document and API documentation readability, and facilitates maintainability by avoiding duplication of models. | Consolidate all your responses and body parameter schemas into `definitions`. |
 
 #### Resolution
 
@@ -1360,7 +1352,7 @@ definitions:
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| One or more [schema objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#schemaObject) in the [components object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#components-object) doesn't contain a `description`. When the schema name and context don't provide enough information for your API's designers and consumers, a description can provide them with useful information about the reusable schema. | Add a `description` for every reusable schema in your API definition. |
+| One or more [schema objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#schemaObject) in the [definitions object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#definitions-object) doesn't contain a `description`. When the schema name and context don't provide enough information for your API's designers and consumers, a description can provide them with useful information about the reusable schema. | Add a `description` for every reusable schema in your API definition. |
 
 #### Resolution
 
