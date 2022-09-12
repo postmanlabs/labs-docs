@@ -62,6 +62,41 @@ Next to the format dropdown list, there are options to beautify the content, wra
 
 > Postman will indicate [validation errors](/docs/designing-and-developing-your-api/validating-elements-against-schema/) as you work on your schema.
 
+## Viewing rule violations in your API definition
+
+> [This feature is only available for Postman Enterprise teams.](https://www.postman.com/pricing)
+
+As you create your API definition in the editor, Postman automatically checks it against [API Governance and API Security](/docs/api-governance/api-governance-overview/) rules configured for your team. Postman displays any rule violations below the editor. Resolving these issues enables you improve your API definition.
+
+<!-- TODO: screenshot -->
+
+To learn more about the supported API description formats, the rules preconfigured in Postman, and how to create new rules, see [API definition warnings](/docs/api-governance/api-definition/api-definition-warnings/).
+
+To see any rule violations, select **Rule** next to **Violations found in schema**. Postman displays each rule violation on its own line, with a brief description of the issue, the rule type (**Governance** or **Security**), and the line and file the where the rule violation occurs. When you select a rule violations, Postman highlights the section of the definition that triggered it.
+
+If the rule violation occurs more than once, the line indicates how many times. You can scroll through each occurrence.
+
+<!-- TODO: screenshot -->
+
+To learn more about the rule violation and get information about how to fix it, select **Possible fix**, which will open the relevant Learning Center page.
+
+When you make updates to your API definition, Postman re-checks it. If your changes resolve the issue, Postman removes the rule violation from the list.
+
+### Hiding rule violations
+
+To hide a rule violation for the API definition, select **Hide** next to the rule. Select a reason that you want to hide the rule, then select **Hide** again. This will hide the rule for your entire team on the current API.
+
+> To hide a rule violation globally, you can use either [configurable API Governance rules](/docs/api-governance/configuring-api-governance-rules/) or [configurable API Security rules](/docs/api-governance/configuring-api-security-rules/).
+
+<!-- TODO: screenshot -->
+
+When you or another member of your team has hidden a rule violation, Postman shows a message in the editor's **Rule** tab to indicate how many are hidden. To turn a rule back on later:
+
+1. Select **Review**.
+1. Review your hidden rules and select the eye icon <img alt="Eye icon" src="https://assets.postman.com/postman-docs/eye.jpg#icon" width="16px"> next to the one you want to turn back on.
+
+<!-- TODO: screenshot -->
+
 ## Generating a collection
 
 The Postman API Builder supports API-first development by providing the option to create a Postman Collection directly from a schema.
