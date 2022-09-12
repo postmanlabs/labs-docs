@@ -63,7 +63,7 @@ To view details for collections that were run as part of a build, first [configu
 
 With the help of the Postman CLI and the Postman API, you can run API tests created in Postman as part of your Bitbucket pipeline. First generate the Postman CLI configuration code in Postman. Then add the configuration code to the `bitbucket-pipelines.yml` file in your Bitbucket repository.
 
-Each time the pipeline runs, the Postman CLI runs the collections that contain your tests. You can view the results of your tests in Postman. You an also enforce [API Governance and API Security rules each time the pipeline runs](/docs/api-governance/api-definition/api-definition-warnings/#tracking-governance-and-security-rule-violations-in-cicd). <!-- TODO: this is a new URL, must validate before merging to develop -->
+Each time the pipeline runs, the Postman CLI runs the collections that contain your tests. You can view the results of your tests in Postman. You an also enforce [API Governance and API Security rules each time the pipeline runs](/docs/api-governance/api-definition/api-definition-warnings/#tracking-governance-and-security-rule-violations-in-cicd) ([Enterprise teams only](https://www.postman.com/pricing/)). <!-- TODO: this is a new URL, must validate before merging to develop -->
 
 > Before you begin, make sure you’ve already [set up an integration](#configuring-bitbucket-pipelines-integration) between your API version and Bitbucket Pipelines.
 
