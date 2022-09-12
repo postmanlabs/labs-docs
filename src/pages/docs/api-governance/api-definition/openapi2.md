@@ -97,9 +97,6 @@ For all APIs defined in OpenAPI 2.0, the following list describes possible warni
     * [All reusable schemas should have descriptions](#all-reusable-schemas-should-have-descriptions)
     * [All schema properties should have descriptions](#all-schema-properties-should-have-descriptions)
     * [Arrays must have minItems and maxItems defined](#arrays-must-have-minitems-and-maxitems-defined)
-    * [All schema properties should have a type property](#all-schema-properties-should-have-a-type-property)
-    * [All schemas should have a required property](#all-schemas-should-have-a-required-property)
-    * [All schemas should have a type property](#all-schemas-should-have-a-type-property)
 
 ## Broken object level authorization
 
@@ -1324,7 +1321,7 @@ delete:
 
 ## Models
 
-This category of rule deals with how to model various data types.
+This rule category deals with how to model various data types.
 
 ### A schema property should reference a reusable schema
 
@@ -1378,30 +1375,6 @@ definitions:
 
 &nbsp;
 
-### Arrays must have minItems and maxItems defined
-
-| Issue description | Possible fix |
-| ----------- | ----------- |
-| One or more [schema objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#schemaObject) in your API definition's [components object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#components-object) has an array type property but doesn't define `minItem` or `maxItem`. Consumers and providers can't handle an infinite number of elements. Setting the minimum and maximum boundaries helps in defining limits and enabling pagination. | Make sure that properties that have array type in your API definition  have `minItem` and `maxItem` defined. |
-
-#### Resolution
-
-```json
-swagger: "2.0"
-# ...
-definitions:
-  anObject:
-    properties:
-      aList:
-        type: array
-        minItems: 1
-        maxItems: 100
-        items:
-          type: object
-```
-
-&nbsp;
-
 ### All schema properties should have descriptions
 
 | Issue description | Possible fix |
@@ -1428,58 +1401,26 @@ paths:
 
 &nbsp;
 
-### All schema properties should have a type property
+### Arrays must have minItems and maxItems defined
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| One or more properties in a [schema object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#schemaObject) in your API definition's [components object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#components-object) doesn't have a `type` defined. | Add a `type` for every property in your schema objects. |
+| One or more [schema objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#schemaObject) in your API definition's [components object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#components-object) has an array type property but doesn't define `minItem` or `maxItem`. Consumers and providers can't handle an infinite number of elements. Setting the minimum and maximum boundaries helps in defining limits and enabling pagination. | Make sure that properties that have array type in your API definition  have `minItem` and `maxItem` defined. |
 
 #### Resolution
 
 ```json
-components:
-  schemas:
-    GeneralError:
-      type: object
-      properties:
-        code:
-          type: integer
-          format: int32
-```
-
-&nbsp;
-
-### All schemas should have a required property
-
-| Issue description | Possible fix |
-| ----------- | ----------- |
-| One or more [schema objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#schemaObject) in your API definition's [components object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#components-object) doesn't have a `required` property defined. | Add a `required` property to every schema object. |
-
-#### Resolution
-
-```json
-components:
-  schemas:
-    GeneralError:
-      type: object
-      required: false
-```
-
-&nbsp;
-
-### All schemas should have a type property
-
-| Issue description | Possible fix |
-| ----------- | ----------- |
-| One or more [schema objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#schemaObject) in your API definition's [components object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#components-object) doesn't have a `type` property defined. | Add a `type` property to every schema object. |
-
-#### Resolution
-
-```json
-components:
-  schemas:
-    GeneralError:
-      type: object
+swagger: "2.0"
+# ...
+definitions:
+  anObject:
+    properties:
+      aList:
+        type: array
+        minItems: 1
+        maxItems: 100
+        items:
+          type: object
 ```
 
 &nbsp;
