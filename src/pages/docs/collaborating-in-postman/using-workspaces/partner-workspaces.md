@@ -79,7 +79,7 @@ If you'd like to keep certain elements in other workspaces, you can [fork them i
 
 ## Inviting collaborators to a Partner Workspace
 
-Workspace Admins, Partner Managers, and Partner Leads can invite partners to Partner Workspaces. Your team can invite 5 partners at no additional cost. To purchase additional partner licenses, contact your Postman Account Manager or [contact Postman support](https://www.postman.com/support/).
+Workspace Admins, Partner Managers, and Partner Leads can invite partners to Partner Workspaces. Your team can invite 5 partners at no extra cost. To purchase more partner licenses, contact your Postman Account Manager or [contact Postman support](https://www.postman.com/support/).
 
 > For more information on partner roles, see [Managing users and roles](#managing-users-and-roles).
 
