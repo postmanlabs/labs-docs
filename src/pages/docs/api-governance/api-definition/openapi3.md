@@ -1211,9 +1211,6 @@ paths:
           'application/json':
             schema:
               type: object
-      responses:
-        '201':
-          description: A success response
 ```
 
 &nbsp;
@@ -1239,9 +1236,6 @@ paths:
           'application/json':
             schema:
               type: object
-      responses:
-        '201':
-          description: A success response
 ```
 
 &nbsp;
@@ -1267,9 +1261,6 @@ paths:
           'application/json':
             schema:
               type: object
-      responses:
-        '201':
-          description: A success response
 ```
 
 &nbsp;
@@ -1294,7 +1285,7 @@ paths:
         content:
           'application/json':
             schema:
-              type: object
+              # ...
             examples:
               anExample:
                 summary: An example
@@ -1309,7 +1300,7 @@ paths:
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| The [responses object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.0.3.md#responses-object) for one or more [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.0.3.md#operationObject) in your API definition doesn't contain the `2xx` status code. Operations are expected to succeed and should return a `2xx` success HTTP status code. It's rare for an operation to return a different code, such as when a `3xx` redirect code should be used instead. | Make sure that operations return a `2xx` success status code. |
+| The [responses object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.0.3.md#responses-object) for one or more [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.0.3.md#operationObject) in your API definition doesn't contain a `2xx` class status code. Operations are expected to succeed and should return a `2xx` success HTTP status code. It's rare for an operation to return a different code, such as when a `3xx` redirect code should be used instead. | Make sure that operations return a `2xx` success status code. |
 
 #### Resolution
 
@@ -1332,7 +1323,7 @@ paths:
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| The [responses object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.0.3.md#responses-object) for one or more [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.0.3.md#operationObject) in your API definition doesn't contain the `5xx` status code. Since operations may fail unexpectedly, they should return a `5xx` server error HTTP status code. | Make sure that all operations return a `5xx` status code. |
+| The [responses object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.0.3.md#responses-object) for one or more [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.0.3.md#operationObject) in your API definition doesn't contain a `5xx` class status code. Since operations may fail unexpectedly, they should return a `5xx` server error HTTP status code. | Make sure that all operations return a `5xx` status code. |
 
 #### Resolution
 
@@ -1352,8 +1343,6 @@ paths:
 &nbsp;
 
 ### All responses should have examples
-
-<!-- TODO: confirm message wording is okay -->
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
@@ -1375,7 +1364,7 @@ paths:
           content:
             'application/json':
               schema:
-                type: object
+                # ...
               example:
                 aProperty: example
 ```
@@ -1391,20 +1380,14 @@ paths:
 #### Resolution
 
 ```json
-delete:
-  ...
-  parameters:
-    - in: path
-      name: entityId
-      schema:
-      type: integer
-      required: true
-      description: entity identifier.
-  responses:
-    '204':
-      description: Deleted successfully
-    '500':
-      description: Something went wrong
+openapi: "3.0.3"
+#...
+paths:
+  /resources:
+    delete:
+      responses:
+        '204':
+          description: a success response
 ```
 
 &nbsp;
@@ -1455,11 +1438,8 @@ components:
 #### Resolution
 
 ```json
-swagger: "2.0"
-info:
-  title: An API title
-  version: "1.0"
-paths: {}
+openapi: "3.0.3"
+# ...
 components:
   schemas:
     aReusableSchema:
@@ -1473,16 +1453,13 @@ components:
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| One or more [schema objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.0.3.md#schemaObject) in your API definition's [components object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.0.3.md#components-object) has an array type property but doesn't define `minItem` or `maxItem`. Consumers and providers can't handle an infinite number of elements. Setting the minimum and maximum boundaries helps in defining limits and enabling pagination. | Make sure that properties that have array type in your API definition  have `minItem` and `maxItem` defined. |
+| One or more [schema objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.0.3.md#schemaObject) in your API definition has an array type property but doesn't define `minItem` or `maxItem`. Consumers and providers can't handle an infinite number of elements. Setting the minimum and maximum boundaries helps in defining limits and enabling pagination. | Make sure that properties that have array type in your API definition  have `minItem` and `maxItem` defined. |
 
 #### Resolution
 
 ```json
 openapi: "3.0.3"
-info:
-  title: An API title
-  version: "1.0"
-paths: {}
+# ...
 components:
   schemas:
     anObject:
@@ -1501,7 +1478,7 @@ components:
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| One or more properties in a [schema object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.0.3.md#schemaObject) in your API definition's [components object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.0.3.md#components-object) doesn't contain a `description`. When the schema name and context don't provide enough information for your API's consumers, a description can provide them with useful information about the element. A complicated description may indicate a problem in the API's definition or design, so spending the time to create a description can be clarifying. | Add a `description` for every property in your schema object. |
+| One or more properties in a [schema object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.0.3.md#schemaObject) in your API definition doesn't contain a `description`. When the schema name and context don't provide enough information for your API's consumers, a description can provide them with useful information about the element. A complicated description may indicate a problem in the API's definition or design, so spending the time to create a description can be clarifying. | Add a `description` for every property in your schema object. |
 
 #### Resolution
 

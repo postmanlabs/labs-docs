@@ -1224,7 +1224,7 @@ paths:
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| The [responses object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#responses-object) for one or more [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#operationObject) in your API definition doesn't contain the `2xx` status code. Operations are expected to succeed and should return a `2xx` success HTTP status code. It's rare for an operation to return a different code, such as when a `3xx` redirect code should be used instead. | Make sure that all operations return a `2xx` success status code. |
+| The [responses object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#responses-object) for one or more [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#operationObject) in your API definition doesn't contain a `2xx` class status code. Operations are expected to succeed and should return a `2xx` success HTTP status code. It's rare for an operation to return a different code, such as when a `3xx` redirect code should be used instead. | Make sure that all operations return a `2xx` success status code. |
 
 #### Resolution
 
@@ -1247,7 +1247,7 @@ paths:
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| The [responses object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#responses-object) for one or more [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#operationObject) in your API definition doesn't contain the `5xx` status code. Since operations may fail unexpectedly, they should return a `5xx` server error HTTP status code. | Make sure that all operations return a `5xx` status code. |
+| The [responses object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#responses-object) for one or more [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#operationObject) in your API definition doesn't contain a `5xx` class status code. Since operations may fail unexpectedly, they should return a `5xx` server error HTTP status code. | Make sure that all operations return a `5xx` status code. |
 
 #### Resolution
 
@@ -1379,7 +1379,7 @@ definitions:
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| One or more properties in a [schema object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#schemaObject) in your API definition's [components object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#components-object) doesn't contain a `description`. When the schema name and context don't provide enough information for your API's consumers, a description can provide them with useful information about the element. A complicated description may indicate a problem in the API's definition or design, so spending the time to create a description can be clarifying. | Add a `description` for every property in your schema object. |
+| One or more properties in a [schema object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#schemaObject) in your API definition doesn't contain a `description`. When the schema name and context don't provide enough information for your API's consumers, a description can provide them with useful information about the element. A complicated description may indicate a problem in the API's definition or design, so spending the time to create a description can be clarifying. | Add a `description` for every property in your schema object. |
 
 #### Resolution
 
@@ -1405,7 +1405,7 @@ paths:
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| One or more [schema objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#schemaObject) in your API definition's [components object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#components-object) has an array type property but doesn't define `minItem` or `maxItem`. Consumers and providers can't handle an infinite number of elements. Setting the minimum and maximum boundaries helps in defining limits and enabling pagination. | Make sure that properties that have array type in your API definition  have `minItem` and `maxItem` defined. |
+| One or more [schema objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#schemaObject) in your API definition has an array type property but doesn't define `minItem` or `maxItem`. Consumers and providers can't handle an infinite number of elements. Setting the minimum and maximum boundaries helps in defining limits and enabling pagination. | Make sure that properties that have array type in your API definition  have `minItem` and `maxItem` defined. |
 
 #### Resolution
 
