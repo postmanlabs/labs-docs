@@ -610,15 +610,15 @@ export const leftNavItems = [
         slug: '/docs/api-governance/api-definition/api-definition-warnings/',
         subMenuItems2: [
           {
-            name: 'API definition warnings',
+            name: 'Rule violations in the API definition',
             url: '/docs/api-governance/api-definition/api-definition-warnings/',
           },
           {
-            name: 'OpenAPI 3.0 warnings',
+            name: 'OpenAPI 3.0 rules',
             url: '/docs/api-governance/api-definition/openapi3/',
           },
           {
-            name: 'OpenAPI 2.0 warnings',
+            name: 'OpenAPI 2.0 rules',
             url: '/docs/api-governance/api-definition/openapi2/',
           },
         ],

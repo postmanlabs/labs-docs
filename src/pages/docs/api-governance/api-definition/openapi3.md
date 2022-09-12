@@ -1,5 +1,5 @@
 ---
-title: "OpenAPI 3.0 warnings"
+title: "OpenAPI 3.0 rules"
 updated: 2022-07-20
 contextual_links:
   - type: section
