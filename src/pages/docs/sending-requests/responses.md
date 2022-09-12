@@ -163,7 +163,7 @@ If it finds any potential security risks, Postman adds the number of warnings to
 
 <!-- TODO: screenshot -->
 
-To view the list of security warnings and to get more information about specific warnings: 
+To view the list of security warnings and to get more information about specific warnings:
 
 1. Select **Security** to view the warnings.
 1. For more details, select a warning to expand it.
