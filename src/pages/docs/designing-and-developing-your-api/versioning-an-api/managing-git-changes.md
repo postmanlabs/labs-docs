@@ -35,7 +35,7 @@ Git branches help you organize your work and collaborate with others. As an API 
 
 If your Git repository has multiple branches (such as `main`, `develop`, and feature branches) you can switch between branches in Postman. Switching to a branch makes it the active branch.
 
-To switch branches, select the branch dropdown menu in the Postman footer, then select the branch you want to make active. After switching to a branch, you can use Postman to make changes to your API's definition and linked collections and environments. Any changes you make are stored in the active branch.
+To switch branches, select the Git branch dropdown menu in the Postman footer, then select the branch you want to make active. After switching to a branch, you can use Postman to make changes to your API's definition and linked collections and environments. Any changes you make are stored in the active branch.
 
 <img alt="Switching branches" src="https://assets.postman.com/postman-docs/v10/api-builder-switch-branches-footer-v10.jpg" width="382px" />
 
@@ -83,7 +83,6 @@ Pulling brings changes from the remote (origin) branch into your active branch.
 To pull changes from the remote branch:
 
 1. Select **APIs** in the sidebar and select an API.
-1. Select the refresh icon <img alt="Refresh icon" src="https://assets.postman.com/postman-docs/icon-refresh-v9-5.jpg#icon" width="14px"> under **Connected repository** to get the latest changes from the remote branch.
 1. Select the source control icon <img alt="Source control icon" src="https://assets.postman.com/postman-docs/icon-source-control.jpg#icon" width="16px"/> in the right sidebar. The pull icon <img alt="Pull icon" src="https://assets.postman.com/postman-docs/icon-pull.jpg#icon" width="36px"/> indicates the number of commits your active branch is behind the remote branch.
 1. Select the pull icon to bring the changes into your active branch.
 
