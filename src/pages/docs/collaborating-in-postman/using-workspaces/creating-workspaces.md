@@ -62,17 +62,11 @@ To create a new workspace, select **Workspaces** in the header, then select **Cr
 
 <img alt="Create new workspace" src="https://assets.postman.com/postman-docs/workspace-switcher-v9.19.jpg" width="300px"/>
 
-Use the visibility dropdown to choose a __Personal__, __Team__, __Private__, or __Public__ workspace.
+Use the visibility menu to choose a __Personal__, __Private__, __Team__, __Partner__, or __Public__ workspace.
 
 > Note that you can only move elements from one workspace to another.
 
-To create a personal workspace, enter the workspace name and summary, then select __Personal__ under **Visibility**.
-
-<img alt="Create personal workspace" src="https://assets.postman.com/postman-docs/create-personal-workspace-v9.1.jpg"/>
-
-To create a team workspace, enter the workspace name and summary, then select __Team__ under **Visibility**.
-
-[![Team workspace](https://assets.postman.com/postman-docs/create-workspace-v9.1.jpg)](https://assets.postman.com/postman-docs/create-workspace-v9.1.jpg)
+[![Create workspace](https://assets.postman.com/postman-docs/v10/create-workspace-v10.jpg)](https://assets.postman.com/postman-docs/v10/create-workspace-v10.jpg)
 
 Select **Create Workspace** and Postman will open your new workspace. You can add elements to the workspace. Select __Invite__ in the Postman header to add other users to the workspace.
 
