@@ -58,20 +58,4 @@ You can use the Postman API Platform to manually validate your APIs. With Postma
 
 ## Running a collection in CI/CD
 
-When the collections run to your satisfaction, you can copy the commands into your CI/CD scripts to integrate them into your workflows. To do this, follow the steps below:
-
-1. Under **Automate Run**, select **Configure Command**. The **Generate Postman CLI Configuration** page appears.
-
-    <img alt="Automate runs via CLI" src="https://assets.postman.com/postman-docs/PCLI-configure-command-3-v10.jpg" style="border: 1px solid #4a4a4a">
-
-1. Select a **Collection** and **Environment**. To add collections and environments, select `+ Add More`.
-
-1. Select a **CI/CD Provider**.
-
-1. Select an **Operating system for CI/CD**.
-
-1. In the **Postman CLI Config** window, select **Copy**.
-
-1. Paste the copied code into your CI/CD script and add the Postman API key to your CI/CD variables. You can use an existing Postman API key or [generate a new one](/docs/developer/intro-api#generating-a-postman-api-key).
-
-1. Select **Back** when you are done.
+When the collections run to your satisfaction, you can copy the commands into your CI/CD scripts to integrate them into your workflows. To learn more, see [Configuring the Postman CLI for CI](/docs/integrations/ci-integrations/#configuring-the-postman-cli-for-ci).
