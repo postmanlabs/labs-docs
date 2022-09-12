@@ -1112,9 +1112,6 @@ paths:
   /resources:
     get:
       summary: A GET operation summary
-      responses:
-        default:
-          description: A default response
 ```
 
 &nbsp;
@@ -1136,9 +1133,6 @@ paths:
   /resources:
     get:
       summary: A GET operation summary
-      responses:
-        default:
-          description: A default response
 ```
 
 &nbsp;
@@ -1292,8 +1286,6 @@ paths:
 
 ### All request bodies should have examples
 
-<!-- TODO: confirm message wording is okay -->
-
 | Issue description | Possible fix |
 | ----------- | ----------- |
 | One or more [request body objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#requestBodyObject) in your API definition doesn't contain an example. It's important to provide undocumented examples (using the `example` property) or documented examples (using the `examples` property) to help your API's consumers understand what data they'll receive. It may also help them to generate [mock servers](/docs/designing-and-developing-your-api/mocking-data/) or a [collection](/docs/getting-started/creating-the-first-collection/). | Add an `example` or `examples` field to all request body objects. |
@@ -1319,9 +1311,6 @@ paths:
                 description: This is an example description
                 value:
                   aProperty: example value
-      responses:
-        201:
-          description: A success post response
 ```
 
 &nbsp;
@@ -1401,7 +1390,7 @@ paths:
   /resources:
     get:
       responses:
-        '226':
+        '200':
           description: A success response
 ```
 
@@ -1424,7 +1413,7 @@ paths:
   /resources:
     get:
       responses:
-        '511':
+        '500':
           description: A server error response
 ```
 

@@ -1066,9 +1066,6 @@ paths:
   /resources:
     get:
       summary: A GET operation summary
-      responses:
-        default:
-          description: A default response
 ```
 
 &nbsp;
@@ -1090,9 +1087,6 @@ paths:
   /resources:
     get:
       summary: A GET operation summary
-      responses:
-        default:
-          description: A default response
 ```
 
 &nbsp;
@@ -1115,13 +1109,9 @@ paths:
     get:
       parameters:
         - name: status
-          description: Filters resources on their status
-          in: query
-          schema:
-            type: string
-      responses:
-        '200':
-          description: A GET success response
+        description: filters resources on their status
+        in: query
+        type: string
 ```
 
 &nbsp;
@@ -1214,7 +1204,7 @@ paths:
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| One or more body parameter object [schema](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#schemaObject) in your API definition doesn't contain an example. It's important to provide an example of the request body to help your API's consumers understand what data they'll receive. It may also help them to generate [mock servers](/docs/designing-and-developing-your-api/mocking-data/) or a [collection](/docs/getting-started/creating-the-first-collection/). | Add an `example` field to the schema of all body parameters |
+| One or more body parameter object [schema](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#schemaObject) in your API definition doesn't contain an example. It's important to provide an example of the request body to help your API's consumers understand what data they'll receive. It may also help them to generate [mock servers](/docs/designing-and-developing-your-api/mocking-data/) or a [collection](/docs/getting-started/creating-the-first-collection/). | Add an `example` field to the schema of all body parameters. |
 
 #### Resolution
 
@@ -1233,9 +1223,6 @@ paths:
             type: object
             example:
               aProperty: example value
-      responses:
-        201:
-          description: A success post response
 ```
 
 &nbsp;
@@ -1310,7 +1297,7 @@ paths:
   /resources:
     get:
       responses:
-        '226':
+        '200':
           description: A success response
 ```
 
@@ -1333,7 +1320,7 @@ paths:
   /resources:
     get:
       responses:
-        '511':
+        '500':
           description: A server error response
 ```
 
@@ -1344,9 +1331,6 @@ paths:
 This category of rule deals with how to model various data types.
 
 ### A schema property should reference a reusable schema
-
-<!-- TODO: confirm message wording is okay -->
-<!-- TODO: confirm that details are right for openapi2 -->
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
@@ -1361,18 +1345,22 @@ info:
   version: "1.0"
 paths:
   /resources:
-    get:
+    post:
+      parameters:
+        - name: a resource to create
+        in: body
+        schema:
+          $ref: '#/definitions/ResourceCreate'
       responses:
-        '200':
-          description: a success response
-          content:
-            'application/json':
-              schema:
-                $ref: '#/components/schemas/Resources'
-components:
-  schemas:
-    Resources:
-      type: object
+        '201':
+          description: a post success response
+          schema:
+            $ref: '#/definitions/Resource'
+definitions:
+  ResourceCreate:
+    type: object
+  Resource:
+    type: object
 ```
 
 ### All reusable schemas should have descriptions
@@ -1384,16 +1372,12 @@ components:
 #### Resolution
 
 ```json
-openapi: "3.0.3"
-info:
-  title: An API title
-  version: "1.0"
-paths: {}
-components:
-  schemas:
-    aReusableSchema:
-      description: A reusable schema description
-      type: object
+swagger: "2.0"
+# ...
+definitions:
+  aReusableSchema:
+    description: a reusable schema description
+    type: object
 ```
 
 &nbsp;
@@ -1408,20 +1392,16 @@ components:
 
 ```json
 swagger: "2.0"
-info:
-  title: An API title
-  version: "1.0"
-paths: {}
-components:
-  schemas:
-    anObject:
-      properties:
-        aList:
-          type: array
-          minItems: 1
-          maxItems: 100
-          items:
-            type: object
+# ...
+definitions:
+  anObject:
+    properties:
+      aList:
+        type: array
+        minItems: 1
+        maxItems: 100
+        items:
+          type: object
 ```
 
 &nbsp;
