@@ -907,7 +907,7 @@ info:
   title: An API name
   version: '1.0'
   contact:
-    url: https://example.com
+    url: https://example.com/support
 ```
 
 &nbsp;
@@ -926,7 +926,6 @@ info:
   title: An API name
   version: '1.0'
   contact:
-    name: A contact name
     email: support@example.com
 ```
 
@@ -947,7 +946,6 @@ info:
   version: '1.0'
   contact:
     name: A contact name
-    url: https://example.com/support
 ```
 
 &nbsp;
@@ -966,7 +964,6 @@ info:
   title: An API name
   version: '1.0'
   contact:
-    name: A contact name
     url: https://example.com
 ```
 
@@ -1094,9 +1091,6 @@ paths:
   /resources:
     get:
       description: A GET operation description
-      responses:
-        default:
-          description: A default response
 ```
 
 &nbsp;
