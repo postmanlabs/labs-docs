@@ -192,7 +192,7 @@ Exporting an HTTP API schema makes it available in the connected Amazon API Gate
 1. Select **APIs** in the sidebar and select an API.
 1. Select **Deployments**.
 1. Select **Deploy API**.
-1. Select the branch or version to deploy. <!-- TO DO: UPDATE THIS STEP TO MATCH NEW SCREENSHOT BELOW -->
+1. Select the source to deploy. <!-- TO DO: UPDATE THIS STEP TO MATCH NEW SCREENSHOT BELOW -->
 1. (Optional) If you would like to deploy the schema to a stage after exporting, select **Deploy on a stage**. Select the AWS stage to deploy the schema to, and enter a brief description.
 
     > To deploy your schema, your gateway must have at least one route with a configured integration.
