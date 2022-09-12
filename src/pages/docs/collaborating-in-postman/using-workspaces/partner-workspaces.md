@@ -79,7 +79,7 @@ If you'd like to keep certain elements in other workspaces, you can [fork them i
 
 ## Inviting collaborators to a Partner Workspace
 
-Workspace Admins, Partner Managers, and Partner Leads can invite partners to Partner Workspaces.
+Workspace Admins, Partner Managers, and Partner Leads can invite partners to Partner Workspaces. Your team can invite 5 partners at no additional cost. To purchase additional partner licenses, contact your Postman Account Manager or [contact Postman support](https://www.postman.com/support/).
 
 > For more information on partner roles, see [Managing users and roles](#managing-users-and-roles).
 
@@ -91,6 +91,10 @@ To invite partners to a Partner Workspace:
 1. Set their [workspace role](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles).
 1. (Workspace Admins and Partner Managers only) Select **Make them Partner Lead** if you'd like them to also be able to manage and invite partners within the workspace.
 1. Select **Invite Partners**.
+
+Partner invites must be accepted by the email ID you provide when inviting the individual. If the partner would like to use a different email ID, or if an invite was mistakenly sent, you can [revoke the invite](/docs/administration/managing-your-team/managing-your-team/#managing-invitations) and send a new one.
+
+> Partners will sign in to your team with a Postman password, even if your team is restricted to signing in with [SSO](/docs/administration/sso/intro-sso/).
 
 Workspace Admins and Partner Managers can invite team members to Partner Workspaces.
 
