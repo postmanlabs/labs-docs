@@ -9,7 +9,7 @@ warning: false
 
 > **[Partner Workspaces are only available to Postman Enterprise teams.](https://www.postman.com/pricing)**
 
-Partner Workspaces enable you collaborate with external partners directly in Postman. You can use Partner Workspaces to help your partners consume your team's APIs and work together on API projects in real time. With Partner Workspaces, you can build a single source of truth and seamlessly integrate your partner projects into your Postman team, setting the foundation for an efficient and productive partnership.
+Partner Workspaces enable you collaborate with external partners directly in Postman. You can use Partner Workspaces to help your partners consume your team's APIs and work together on API projects. With Partner Workspaces, you can build a single source of truth and integrate your partner projects into your Postman team, setting the foundation for an efficient and productive partnership.
 
 ## Contents
 
@@ -41,7 +41,7 @@ To create a Partner Workspace:
 
     <img alt="Create Partner Workspace" src="https://assets.postman.com/postman-docs/v10/create-partner-workspace-v10.jpg" width="400px"/>
 
-Anyone with permissions to create workspaces can request to create a Partner Workspace, but it must be approved by a [Partner Manager](#managing-users-and-roles). If you're not a [Super Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) or Partner Manager, Postman will mention this when creating the workspace and you can add an optional note to your request. Postman will notify you when a Partner Manager reviews your request and approves or denies it.
+Anyone with permissions to create workspaces can request to create a Partner Workspace, but it must be approved by a [Partner Manager](#managing-users-and-roles). If you're not a [Super Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) or Partner Manager, you must submit your request for approval. You can also add an optional note to your request. Postman will notify you when a Partner Manager reviews your request and approves or denies it.
 
 <img alt="Create Partner Workspace approval" src="https://assets.postman.com/postman-docs/v10/partner-workspace-approval-warning-v10.jpg" width="450px" />
 
@@ -79,7 +79,7 @@ If you'd like to keep certain elements in other workspaces, you can [fork them i
 
 ## Inviting collaborators to a Partner Workspace
 
-Workspace Admins, Partner Managers, and Partner Leads can invite partners to Partner Workspaces. Your team can invite 5 partners at no extra cost. To purchase more partner licenses, contact your Postman Account Manager or [contact Postman support](https://www.postman.com/support/).
+Workspace Admins, Partner Managers, and Partner Leads can invite partners to Partner Workspaces. Your team can invite five partners at no extra cost. To purchase more partner licenses, contact your Postman Account Manager or [contact Postman support](https://www.postman.com/support/).
 
 > For more information on partner roles, see [Partner roles](/docs/collaborating-in-postman/roles-and-permissions/#partner-roles).
 
@@ -116,7 +116,7 @@ Partner Workspaces are only visible to invited team members, similar to [private
 
 Within a Partner Workspace, team members can have different workspace roles: Admin, Editor, and Viewer. To learn more, see [Workspace roles](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles).
 
-Team members can also be assigned the team level Partner Manager role. Partner Managers can view all Partner Workspaces within an organization, and can control their settings, visibility, and partner invites. To learn more, see [Managing users and roles](#managing-users-and-roles).
+Team members can also be assigned the team-level Partner Manager role. Partner Managers can view all Partner Workspaces within an organization, and can control their settings, visibility, and partner invites. To learn more, see [Managing users and roles](#managing-users-and-roles).
 
 ### Collaborating as a partner
 
@@ -167,7 +167,7 @@ To remove an element by moving it to another workspace:
 
 1. Use the search bar to find the workspace you'd like to move the element to, or filter by workspace visibility by selecting the filter icon <img alt="Filter icon" src="https://assets.postman.com/postman-docs/icon-filter.jpg#icon" width="16px">.
 
-    > You can move elements to workspaces that you have access to.
+    > You can only move elements to workspaces that you have access to.
 
 1. Select the workspace, then **Move** (**Collection**, **API**, or **Environment**).
 
