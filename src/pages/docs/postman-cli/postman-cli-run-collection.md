@@ -29,7 +29,7 @@ You can use the Postman API Platform to manually validate your APIs. With Postma
 
 ## Running a collection locally with the Postman CLI
 
-1. [Install Postman CLI](/docs/postman-cli/postman-cli-installation).
+1. [Install the Postman CLI](/docs/postman-cli/postman-cli-installation).
 
 1. Select **Collections** in the sidebar and select the collection you want to run.
 
@@ -59,7 +59,7 @@ You can use the Postman API Platform to manually validate your APIs. With Postma
 
 ## Running a collection in CI/CD
 
-When the collections run to your satisfaction, you can copy the commands into your CI/CD scripts to integrate them into your workflows. To learn more, see [Configuring the Postman CLI for CI](/docs/integrations/ci-integrations/#configuring-the-postman-cli-for-ci).
+When the collections run to your satisfaction, you can copy the commands into your CI/CD scripts to integrate them into your workflows. When adding the command to your CI/CD script, you may want to replace the API key with a variable. To learn more, see [Configuring the Postman CLI for CI](/docs/integrations/ci-integrations/#configuring-the-postman-cli-for-ci).
 
 ## Running a collection in a specific order
 
