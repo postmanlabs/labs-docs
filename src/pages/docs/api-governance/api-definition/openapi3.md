@@ -68,41 +68,35 @@ For all APIs defined in OpenAPI 3.0, the following list describes possible warni
     * [OAuth authentication uses the deprecated implicit flow](#oauth-authentication-uses-the-deprecated-implicit-flow)
     * [OAuth authentication uses the deprecated password flow](#oauth-authentication-uses-the-deprecated-password-flow)
 * [API information](#api-information)
-    * [API must have contact information available](#api-must-have-contact-information-available)
-    * [API must have a contact URL or email available](#api-must-have-a-contact-url-or-email-available)
-    * [API must have a contact email available](#api-must-have-a-contact-email-available)
-    * [API must have a contact name available](#api-must-have-a-contact-name-available)
-    * [API must have a contact URL available](#api-must-have-a-contact-url-available)
     * [The info object should have a description](#the-info-object-should-have-a-description)
     * [The info object should have a license](#the-info-object-should-have-a-license)
     * [The info object should have a license URL](#the-info-object-should-have-a-license-url)
     * [The info object should have a terms of service](#the-info-object-should-have-a-terms-of-service)
-    * [There should be no trailing slashes on paths](#there-should-be-no-trailing-slashes-on-paths)
+    * [API must have contact information available](#api-must-have-contact-information-available)
+    * [API must have a contact name available](#api-must-have-a-contact-name-available)
+    * [API must have a contact URL or email available](#api-must-have-a-contact-url-or-email-available)
+    * [API must have a contact email available](#api-must-have-a-contact-email-available)
+    * [API must have a contact URL available](#api-must-have-a-contact-url-available)
 * [Operations](#operations)
-    * [All operations should have descriptions](#all-operations-should-have-descriptions)
+    * [There should be no trailing slashes on paths](#there-should-be-no-trailing-slashes-on-paths)
     * [All operations should have summaries](#all-operations-should-have-summaries)
     * [Operation summaries shouldn't end with a period](#operation-summaries-shouldnt-end-with-a-period)
+    * [All operations should have descriptions](#all-operations-should-have-descriptions)
     * [All parameters should have descriptions](#all-parameters-should-have-descriptions)
     * [All parameters should have examples](#all-parameters-should-have-examples)
     * [POST methods should have request bodies](#post-methods-should-have-request-bodies)
     * [PUT methods should have request bodies](#put-methods-should-have-request-bodies)
     * [PATCH methods should have request bodies](#patch-methods-should-have-request-bodies)
     * [All request bodies should have examples](#all-request-bodies-should-have-examples)
-    * [All responses should have examples](#all-responses-should-have-examples)
-    * [A 204 response can't have a body](#a-204-response-cant-have-a-body)
     * [Operation should return a 2xx HTTP status code](#operation-should-return-a-2xx-http-status-code)
     * [Operation should return a 5xx HTTP status code](#operation-should-return-a-5xx-http-status-code)
+    * [All responses should have examples](#all-responses-should-have-examples)
+    * [A 204 response can't have a body](#a-204-response-cant-have-a-body)
 * [Models](#models)
-    * [Request body examples should only reference components](#request-body-examples-should-only-reference-components)
-    * [Request body schema should only reference components](#request-body-schema-should-only-reference-components)
-    * [Response examples should only reference components](#response-examples-should-only-reference-components)
     * [A schema property should reference a reusable schema](#a-schema-property-should-reference-a-reusable-schema)
     * [All reusable schemas should have descriptions](#all-reusable-schemas-should-have-descriptions)
-    * [Arrays must have minItems and maxItems defined](#arrays-must-have-minitems-and-maxitems-defined)
     * [All schema properties should have descriptions](#all-schema-properties-should-have-descriptions)
-    * [All schema properties should have a type property](#all-schema-properties-should-have-a-type-property)
-    * [All schemas should have a required property](#all-schemas-should-have-a-required-property)
-    * [All schemas should have a type property](#all-schemas-should-have-a-type-property)
+    * [Arrays must have minItems and maxItems defined](#arrays-must-have-minitems-and-maxitems-defined)
 
 ## Broken object level authorization
 
@@ -859,115 +853,7 @@ components:
 
 ## API information
 
-> **The format linting feature is in beta.** During the beta period, it may not be available to all Postman users and is subject to potential change.
-
-This category of linting rules deals with the OpenAPI info object, which contains metadata about the API.
-
-### API must have contact information available
-
-| Issue description | Possible fix |
-| ----------- | ----------- |
-| Your API definition's [info object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#infoObject) doesn't contain a [contact object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#contactObject), which contains contact information like a name, email address, or URL. The contact data may be used directly by your API's consumers, or through an API portal or catalog. Defining contact information helps ensure there is a designated owner for each of your organization's APIs. | Add a contact object to your API definition's info object.  |
-
-#### Resolution
-
-```json
-openapi: "3.1.0"
-info:
-  title: An API name
-  version: '1.0'
-  contact:
-    name: A contact name
-    email: support@example.com
-    url: https://example.com/support
-```
-
-&nbsp;
-
-### API must have a contact URL or email available
-
-| Issue description | Possible fix |
-| ----------- | ----------- |
-| Your API definition's [contact object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#contactObject) doesn't contain a contact URL or email address. Although a contact URL or email aren't required, including one or both gives your API's consumers a way to contact your organization or the API owner. | Add a contact URL, an email address, or both to your API definition's contact object. |
-
-#### Resolution
-
-```json
-openapi: "3.1.0"
-info:
-  title: An API name
-  version: '1.0'
-  contact:
-    email: contact@example.com
-```
-
-```json
-openapi: "3.1.0"
-info:
-  title: An API name
-  version: '1.0'
-  contact:
-    url: https://example.com/support
-```
-
-&nbsp;
-
-### API must have a contact email available
-
-| Issue description | Possible fix |
-| ----------- | ----------- |
-| Your API definition's [contact object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#contactObject) doesn't contain an email address. Although a contact email isn't required, including one gives your API's consumers a way to contact your organization or the API owner. | Add an email address to your API definition's contact object. |
-
-#### Resolution
-
-```json
-openapi: "3.1.0"
-info:
-  title: An API name
-  version: '1.0'
-  contact:
-    email: support@example.com
-```
-
-&nbsp;
-
-### API must have a contact name available
-
-| Issue description | Possible fix |
-| ----------- | ----------- |
-| Your API definition's [contact object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#contactObject) doesn't contain a contact name. Although a contact name isn't required, it helps your API's consumers understand who owns the API. It also makes your organization consider the API's ownership. | Add a name to your API definition's contact object. |
-
-#### Resolution
-
-```json
-openapi: "3.1.0"
-info:
-  title: An API name
-  version: '1.0'
-  contact:
-    name: A contact name
-```
-
-&nbsp;
-
-### API must have a contact URL available
-
-| Issue description | Possible fix |
-| ----------- | ----------- |
-| Your API definition's [contact object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#contactObject) doesn't contain a contact URL. Although a contact URL isn't required, including one gives your API's consumers a way to contact your organization or the API owner. | Add a URL to your API definition's contact object. |
-
-#### Resolution
-
-```json
-openapi: "3.1.0"
-info:
-  title: An API name
-  version: '1.0'
-  contact:
-    url: https://example.com
-```
-
-&nbsp;
+This rule category deals with the OpenAPI info object, which contains metadata about the API.
 
 ### The info object should have a description
 
@@ -1047,6 +933,116 @@ info:
 
 &nbsp;
 
+### API must have contact information available
+
+| Issue description | Possible fix |
+| ----------- | ----------- |
+| Your API definition's [info object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#infoObject) doesn't contain a [contact object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#contactObject), which contains contact information like a name, email address, or URL. The contact data may be used directly by your API's consumers, or through an API portal or catalog. Defining contact information helps ensure there is a designated owner for each of your organization's APIs. | Add a contact object to your API definition's info object.  |
+
+#### Resolution
+
+```json
+openapi: "3.1.0"
+info:
+  title: An API name
+  version: '1.0'
+  contact:
+    name: A contact name
+    email: support@example.com
+    url: https://example.com/support
+```
+
+&nbsp;
+
+### API must have a contact name available
+
+| Issue description | Possible fix |
+| ----------- | ----------- |
+| Your API definition's [contact object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#contactObject) doesn't contain a contact name. Although a contact name isn't required, it helps your API's consumers understand who owns the API. It also makes your organization consider the API's ownership. | Add a name to your API definition's contact object. |
+
+#### Resolution
+
+```json
+openapi: "3.1.0"
+info:
+  title: An API name
+  version: '1.0'
+  contact:
+    name: A contact name
+```
+
+&nbsp;
+
+### API must have a contact URL or email available
+
+| Issue description | Possible fix |
+| ----------- | ----------- |
+| Your API definition's [contact object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#contactObject) doesn't contain a contact URL or email address. Although a contact URL or email aren't required, including one or both gives your API's consumers a way to contact your organization or the API owner. | Add a contact URL, an email address, or both to your API definition's contact object. |
+
+#### Resolution
+
+```json
+openapi: "3.1.0"
+info:
+  title: An API name
+  version: '1.0'
+  contact:
+    email: contact@example.com
+```
+
+```json
+openapi: "3.1.0"
+info:
+  title: An API name
+  version: '1.0'
+  contact:
+    url: https://example.com/support
+```
+
+&nbsp;
+
+### API must have a contact email available
+
+| Issue description | Possible fix |
+| ----------- | ----------- |
+| Your API definition's [contact object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#contactObject) doesn't contain an email address. Although a contact email isn't required, including one gives your API's consumers a way to contact your organization or the API owner. | Add an email address to your API definition's contact object. |
+
+#### Resolution
+
+```json
+openapi: "3.1.0"
+info:
+  title: An API name
+  version: '1.0'
+  contact:
+    email: support@example.com
+```
+
+&nbsp;
+
+### API must have a contact URL available
+
+| Issue description | Possible fix |
+| ----------- | ----------- |
+| Your API definition's [contact object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#contactObject) doesn't contain a contact URL. Although a contact URL isn't required, including one gives your API's consumers a way to contact your organization or the API owner. | Add a URL to your API definition's contact object. |
+
+#### Resolution
+
+```json
+openapi: "3.1.0"
+info:
+  title: An API name
+  version: '1.0'
+  contact:
+    url: https://example.com
+```
+
+&nbsp;
+
+## Operations
+
+This rule category deals with operations on an API path.
+
 ### There should be no trailing slashes on paths
 
 | Issue description | Possible fix |
@@ -1064,33 +1060,6 @@ paths:
   '/resources':
     get:
       operationId: health_check
-```
-
-&nbsp;
-
-## Operations
-
-> **The format linting feature is in beta.** During the beta period, it may not be available to all Postman users and is subject to potential change.
-
-This category of linting rules deals with operations on an API path.
-
-### All operations should have descriptions
-
-| Issue description | Possible fix |
-| ----------- | ----------- |
-| One or more [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#operation-object) in your API definition doesn't have a description. When the resource path, HTTP method, and summary don't provide enough context for your API's consumers, a description can provide them with useful information about the API operation and its behavior. | Add a description for each operation object. |
-
-#### Resolution
-
-```json
-openapi: "3.1.0"
-info:
-  title: An API title
-  version: "1.0"
-paths:
-  /resources:
-    get:
-      description: A GET operation description
 ```
 
 &nbsp;
@@ -1133,6 +1102,27 @@ paths:
   /resources:
     get:
       summary: A GET operation summary
+```
+
+&nbsp;
+
+### All operations should have descriptions
+
+| Issue description | Possible fix |
+| ----------- | ----------- |
+| One or more [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#operation-object) in your API definition doesn't have a description. When the resource path, HTTP method, and summary don't provide enough context for your API's consumers, a description can provide them with useful information about the API operation and its behavior. | Add a description for each operation object. |
+
+#### Resolution
+
+```json
+openapi: "3.1.0"
+info:
+  title: An API title
+  version: "1.0"
+paths:
+  /resources:
+    get:
+      description: A GET operation description
 ```
 
 &nbsp;
@@ -1315,6 +1305,52 @@ paths:
 
 &nbsp;
 
+### Operation should return a 2xx HTTP status code
+
+| Issue description | Possible fix |
+| ----------- | ----------- |
+| The [responses object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#responses-object) for one or more [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#operationObject) in your API definition doesn't contain the `2xx` status code. Operations are expected to succeed and should return a `2xx` success HTTP status code. It's rare for an operation to return a different code, such as when a `3xx` redirect code should be used instead. | Make sure that operations return a `2xx` success status code. |
+
+#### Resolution
+
+```json
+openapi: "3.1.0"
+info:
+  title: An API title
+  version: "1.0"
+paths:
+  /resources:
+    get:
+      responses:
+        '200':
+          description: A success response
+```
+
+&nbsp;
+
+### Operation should return a 5xx HTTP status code
+
+| Issue description | Possible fix |
+| ----------- | ----------- |
+| The [responses object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#responses-object) for one or more [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#operationObject) in your API definition doesn't contain the `5xx` status code. Since operations may fail unexpectedly, they should return a `5xx` server error HTTP status code. | Make sure that all operations return a `5xx` status code. |
+
+#### Resolution
+
+```json
+swagger: "2.0"
+info:
+  title: An API title
+  version: "1.0"
+paths:
+  /resources:
+    get:
+      responses:
+        '500':
+          description: A server error response
+```
+
+&nbsp;
+
 ### All responses should have examples
 
 <!-- TODO: confirm message wording is okay -->
@@ -1373,115 +1409,9 @@ delete:
 
 &nbsp;
 
-### Operation should return a 2xx HTTP status code
-
-| Issue description | Possible fix |
-| ----------- | ----------- |
-| The [responses object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#responses-object) for one or more [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#operationObject) in your API definition doesn't contain the `2xx` status code. Operations are expected to succeed and should return a `2xx` success HTTP status code. It's rare for an operation to return a different code, such as when a `3xx` redirect code should be used instead. | Make sure that operations return a `2xx` success status code. |
-
-#### Resolution
-
-```json
-openapi: "3.1.0"
-info:
-  title: An API title
-  version: "1.0"
-paths:
-  /resources:
-    get:
-      responses:
-        '200':
-          description: A success response
-```
-
-&nbsp;
-
-### Operation should return a 5xx HTTP status code
-
-| Issue description | Possible fix |
-| ----------- | ----------- |
-| The [responses object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#responses-object) for one or more [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#operationObject) in your API definition doesn't contain the `5xx` status code. Since operations may fail unexpectedly, they should return a `5xx` server error HTTP status code. | Make sure that all operations return a `5xx` status code. |
-
-#### Resolution
-
-```json
-swagger: "2.0"
-info:
-  title: An API title
-  version: "1.0"
-paths:
-  /resources:
-    get:
-      responses:
-        '500':
-          description: A server error response
-```
-
-&nbsp;
-
 ## Models
 
-> **The format linting feature is in beta.** During the beta period, it may not be available to all Postman users and is subject to potential change.
-
-This category of linting rules deals with how to model various data types.
-
-### Request body examples should only reference components
-
-| Issue description | Possible fix |
-| ----------- | ----------- |
-| Multiple [request body objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#requestBodyObject) in your API definition contain examples that should be consolidated into an `examples` section in the [components object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#components-object). | Consolidate all the examples from your request bodies into an `examples` section in the components object. |
-
-#### Resolution
-
-```json
-description: user to add to the system
-content:
-  'application/json':
-    schema:
-      $ref: '#/components/schemas/User'
-    examples:
-       $ref: '#/components/examples/SampleUser'
-```
-
-&nbsp;
-
-### Request body schema should only reference components
-
-| Issue description | Possible fix |
-| ----------- | ----------- |
-| Multiple [request body objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#requestBodyObject) in your API definition contain schemas that should be consolidated into a `schemas` section in the [components object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#components-object). | Consolidate all the schemas from your request bodies into a `schemas` section in the components object. |
-
-#### Resolution
-
-```json
-description: user to add to the system
-content:
-  'application/json':
-    schema:
-      $ref: '#/components/schemas/User'
-```
-
-&nbsp;
-
-### Response examples should only reference components
-
-| Issue description | Possible fix |
-| ----------- | ----------- |
-| Multiple [response objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#responseObject) in your API definition contain examples that should be consolidated into an `examples` section in the [components object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#components-object). | Consolidate all the examples from your response objects into an `examples` section in the components object. |
-
-#### Resolution
-
-```json
-description: user to add to the system
-content:
-  'application/json':
-    schema:
-      $ref: '#/components/schemas/User'
-    examples:
-       $ref: '#/components/examples/SampleUser'
-```
-
-&nbsp;
+This rule category deals with how to model various data types.
 
 ### A schema property should reference a reusable schema
 
@@ -1593,62 +1523,6 @@ paths:
                   aProperty:
                     description: A property description
                     type: string
-```
-
-&nbsp;
-
-### All schema properties should have a type property
-
-| Issue description | Possible fix |
-| ----------- | ----------- |
-| One or more properties in a [schema object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#schemaObject) in your API definition's [components object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#components-object) doesn't have a `type` defined. | Add a `type` for every property in your schema objects. |
-
-#### Resolution
-
-```json
-components:
-  schemas:
-    GeneralError:
-      type: object
-      properties:
-        code:
-          type: integer
-          format: int32
-```
-
-&nbsp;
-
-### All schemas should have a required property
-
-| Issue description | Possible fix |
-| ----------- | ----------- |
-| One or more [schema objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#schemaObject) in your API definition's [components object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#components-object) doesn't have a `required` property defined. | Add a `required` property to every schema object. |
-
-#### Resolution
-
-```json
-components:
-  schemas:
-    GeneralError:
-      type: object
-      required: false
-```
-
-&nbsp;
-
-### All schemas should have a type property
-
-| Issue description | Possible fix |
-| ----------- | ----------- |
-| One or more [schema objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#schemaObject) in your API definition's [components object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#components-object) doesn't have a `type` property defined. | Add a `type` property to every schema object. |
-
-#### Resolution
-
-```json
-components:
-  schemas:
-    GeneralError:
-      type: object
 ```
 
 &nbsp;
