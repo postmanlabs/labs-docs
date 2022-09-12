@@ -82,7 +82,6 @@ For all APIs defined in OpenAPI 3.0, the following list describes possible warni
     * [All operations should have descriptions](#all-operations-should-have-descriptions)
     * [All operations should have summaries](#all-operations-should-have-summaries)
     * [Operation summaries shouldn't end with a period](#operation-summaries-shouldnt-end-with-a-period)
-    * [All operations should have at least one tag](#all-operations-should-have-at-least-one-tag)
     * [All parameters should have descriptions](#all-parameters-should-have-descriptions)
     * [All parameters should have examples](#all-parameters-should-have-examples)
     * [POST methods should have request bodies](#post-methods-should-have-request-bodies)
@@ -1144,25 +1143,6 @@ paths:
       responses:
         default:
           description: A default response
-```
-
-&nbsp;
-
-### All operations should have at least one tag
-
-| Issue description | Possible fix |
-| ----------- | ----------- |
-| One or more [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.1.0.md#operation-object) in your API definition contains a `tags` array, but the array doesn't contain any items. | Operation tags can be used to create logical groupings of operations in API documentation. Add at least one tag to the `tags` array for each operation object. |
-
-#### Resolution
-
-```json
-paths:
-  '/resources':
-    get:
-      ...
-      tags:
-        - Tag 1
 ```
 
 &nbsp;
