@@ -38,23 +38,15 @@ Roles define user permissions within a Postman team and a user's level of access
 ## Contents
 
 * [Team roles](#team-roles)
-
     * [Managing team roles](#managing-team-roles)
-
 * [Workspace roles](#workspace-roles)
-
 * [Element-based roles](#element-based-roles)
-
     * [Collection roles](#collection-roles)
-
     * [API roles](#api-roles)
-
     * [Environment roles](#environment-roles)
-
     * [Mock server roles](#mock-server-roles)
-
     * [Monitor roles](#monitor-roles)
-
+* [Partner roles](#partner-roles)
 * [Next steps](#next-steps)
 
 ## Team roles
@@ -234,6 +226,28 @@ Edit and delete monitor | &#x2714; |
 Run, pause, and resume monitor | &#x2714; |
 Move monitor | &#x2714; |
 Update monitor roles | &#x2714; |
+
+## Partner roles
+
+> **[Partner roles are only available to Postman Enterprise teams.](https://www.postman.com/pricing)**
+
+Partner roles relate to [Partner Workspaces](/docs/collaborating-in-postman/using-workspaces/partner-workspaces/) and are at the team and workspace level. There are different partner roles you can assign to team members and external partners:
+
+|  | For team members | For partners |
+| --- |:---:| --- |
+| **Team level** | Partner Manager | Partner |
+| **Workspace level** | Admin, Viewer, Editor | Viewer, Editor <br> Partner Lead (optional) |
+
+You can [assign](/docs/administration/managing-your-team/managing-your-team/) partner roles at the team level:
+
+* **Partner Manager** (Internal) - Manages all Partner Workspaces within an organization. Controls Partner Workspace settings and visibility, and can send invites to partners.
+* **Partner** (External) - All partners are automatically granted the Partner role at the team level. Partners can only access the Partner Workspaces they've been invited to.
+
+You can also [assign](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#managing-workspace-roles) partner roles at the workspace level:
+
+* **Partner Lead** (External) - Can invite other partners from their organization to join a Partner Workspace.
+
+All partners are assigned Workspace Editor or Viewer roles when invited to a Partner Workspace. To learn more about workspace level permissions, see [Workspace roles](#workspace-roles).
 
 ## Next steps
 

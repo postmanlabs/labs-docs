@@ -122,7 +122,7 @@ Within a Partner Workspace, partners can [import and export](/docs/getting-start
 
 At the team level, all external partners are automatically assigned the Partner role. At the workspace level, all partners are assigned [Workspace Editor or Viewer](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles) roles when invited to a Partner Workspace. Partners can also be assigned the Partner Lead role, which enables them to invite other individuals from their organization to the Partner Workspace.
 
-> To learn more about partner roles and permissions, see [Partner Roles]().
+> To learn more about partner roles and permissions, see [Partner Roles](/docs/collaborating-in-postman/roles-and-permissions/#partner-roles).
 
 ## Managing a Partner Workspace
 
@@ -130,15 +130,18 @@ Workspace Admins and Partner Managers manage workspace settings, members, and ro
 
 ### Managing users and roles
 
-You can assign partner roles based on the functions team members and partners require.
+You can assign partner roles based on the functions team members and partners require. You can [assign](/docs/administration/managing-your-team/managing-your-team/) partner roles at the team level:
 
-* Team level:
-    * **Partner Manager** - Manages all Partner Workspaces within an organization. Controls Partner Workspace settings and visibility, and can send invites to partners.
-    * **Partner** - All partners are automatically granted the Partner role at the team level. Partners can only access the Partner Workspaces they've been invited to.
-* Workspace level:
-    * **Partner Lead** - Can invite other partners from their organization to join a Partner Workspace.
+* **Partner Manager** (Internal) - Manages all Partner Workspaces within an organization. Controls Partner Workspace settings and visibility, and can send invites to partners.
+* **Partner** (External) - All partners are automatically granted the Partner role at the team level. Partners can only access the Partner Workspaces they've been invited to.
 
-All partners are assigned Workspace Editor or Viewer roles when invited to a Partner Workspace. To learn more about workspace level permissions, see [Workspace Roles](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles).
+You can also [assign](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#managing-workspace-roles) partner roles at the workspace level:
+
+* **Partner Lead** (External) - Can invite other partners from their organization to join a Partner Workspace.
+
+All partners are assigned Workspace Editor or Viewer roles when invited to a Partner Workspace.
+
+To learn more about partner roles, see [Partner roles](/docs/collaborating-in-postman/roles-and-permissions/#partner-roles).
 
 ### Managing workspace elements
 
