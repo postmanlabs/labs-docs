@@ -821,7 +821,7 @@ This category of linting rules deals with the OpenAPI info object, which contain
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| Your API definition's [info object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#info-object) doesn't contain a [contact object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#contact-object), which contains contact information including a name and email address. The contact data may be used directly by your API's consumers, or through an API portal or catalog. Defining contact information helps ensure there is a designated owner for each of your organization's APIs. | Add a contact object to your API definition's info object.  |
+| Your API definition's [info object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#info-object) doesn't contain a [contact object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#contact-object), which contains contact information like a name, email address, or URL. The contact data may be used directly by your API's consumers, or through an API portal or catalog. Defining contact information helps ensure there is a designated owner for each of your organization's APIs. | Add a contact object to your API definition's info object.  |
 
 #### Resolution
 
