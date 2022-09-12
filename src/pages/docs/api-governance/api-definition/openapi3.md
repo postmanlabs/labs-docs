@@ -878,6 +878,8 @@ info:
   version: '1.0'
   contact:
     name: A contact name
+    email: support@example.com
+    url: https://example.com/support
 ```
 
 &nbsp;
