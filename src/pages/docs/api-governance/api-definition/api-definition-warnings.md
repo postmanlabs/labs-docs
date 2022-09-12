@@ -25,13 +25,40 @@ contextual_links:
 search_keyword: "api security, api schema, security warnings, schema validation, security validation, api security audit, api security scan, api schema vulnerabilities, security audit,openapi 3.0"
 ---
 
-Postman recommends that you follow security and format warnings at the API definition phase of API development. A warning doesn't mean that your API schema is broken! Instead, it indicates that there are potential security risks that your API might be vulnerable to, or potential design issues that might impact its usability. Postman highlights these warnings and helps you understand their implications and possible ways to address the warnings. Postman supports warnings for API definitions in [OpenAPI 3.0](/docs/api-governance/api-definition/openapi3/) and [OpenAPI 2.0](/docs/api-governance/api-definition/openapi2/) format.
+Postman recommends that you follow API Governance and API Security rules when you create your API definition. A rule violation doesn't mean that your API definition is broken! Instead, it indicates that there are potential security risks that your API might be vulnerable to, or potential design issues that might impact its usability. Postman highlights these rule violations and helps you understand their implications and possible ways to fix them. Postman supports API Governance and API Security rules for API definitions in [OpenAPI 3.0](/docs/api-governance/api-definition/openapi3/) and [OpenAPI 2.0](/docs/api-governance/api-definition/openapi2/) format.
 
 <img alt="Security warnings for OpenAPI 3.0" src="https://assets.postman.com/postman-docs/security-warnings-openapi-3-v9.jpg"/>
 
-After you [create a new API](/docs/designing-and-developing-your-api/creating-an-api/), select the **Definition** tab on the API version page to inspect the issues found in the API definition, if any. Under **Warnings**, select **Possible fix** next to the warning to learn more about possible ways to fix the underlying problem.
+## Contents
 
-> For more information about API definitions, see [Validating your API schemas](/docs/designing-and-developing-your-api/validating-elements-against-schema/).
+* [Viewing governance and security rule violations in the API definition](#viewing-governance-and-security-rule-violations-in-the-api-definition)
+* [Tracking governance and security rule violations in CI/CD](#tracking-governance-and-security-rule-violations-in-cicd)
+* [Next steps](#next-steps)
+
+## Viewing governance and security rule violations in the API definition
+
+To inspect any API Governance or API Security rule violations that Postman finds in an API's definition:
+
+1. Select **APIs** in the sidebar, and then select the API you want to review.
+1. From the API overview page, select **View files** in the **Definition** section.
+
+    > You can also select **APIs** in the sidebar, then select the API definition file directly.
+
+1. Select **Rule** to see the list of rule violations.    
+
+To learn more about how rule violations can help you create consistent and secure API definitions, see [Viewing rule violations in your API definition](/docs/designing-and-developing-your-api/developing-an-api/defining-an-api/#viewing-rule-violations-in-your-API-definition). <!-- TODO: this is a new URL, must validate before merging to develop -->
+
+## Tracking governance and security rule violations in CI/CD
+
+> [This feature is only available for Postman Enterprise teams.](https://www.postman.com/pricing)
+
+You can configure your CI/CD pipelines to enforce the [API Governance](/docs/api-governance/configuring-api-governance-rules/) and [API Security](/docs/api-governance/configuring-api-security-rules/) rules configured for your team with the help of [Postman CLI](/docs/postman-cli/postman-cli-overview/).
+
+On the Postman CLI configuration page, select **Run governance and security rules on the schema of this API**. This will generate the Postman CLI configuration that you can paste in your CI/CD configuration to enforce the API Governance and API Security rules each time the CI/CD pipeline runs.
+
+To see the results, go to the build page and use the arrows to expand the desired build. Next, expand the API definition to see the build’s results and any rule violations, if applicable.
+
+<!-- TODO: screenshot -->
 
 ## Next steps
 
