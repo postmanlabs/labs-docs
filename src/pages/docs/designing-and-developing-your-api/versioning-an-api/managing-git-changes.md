@@ -35,9 +35,9 @@ Git branches help you organize your work and collaborate with others. As an API 
 
 If your Git repository has multiple branches (such as `main`, `develop`, and feature branches) you can switch between branches in Postman. Switching to a branch makes it the active branch.
 
-To switch branches, select the branch dropdown menu next to the API's name in the sidebar, then select the branch you want to make active. After switching to a branch, you can use Postman to make changes to your API's definition and linked collections and environments. Any changes you make are stored in the active branch.
+To switch branches, select the branch dropdown menu in the Postman footer, then select the branch you want to make active. After switching to a branch, you can use Postman to make changes to your API's definition and linked collections and environments. Any changes you make are stored in the active branch.
 
-<img alt="Switching branches" src="https://assets.postman.com/postman-docs/v10/api-builder-switch-branches-v10.jpg" width="382px" />
+<img alt="Switching branches" src="https://assets.postman.com/postman-docs/v10/api-builder-switch-branches-footer-v10.jpg" width="382px" />
 
 <!--
 ### Creating a new branch
@@ -55,7 +55,7 @@ To create a new branch:
 
 As you work on your API, Postman tracks the changes you make to the active branch. Use the **Source Control** pane to view and manage your change history. You can commit and push your changes to the remote repository to make your work available to others. You can also pull changes to keep your working files up to date with the remote repository.
 
-<img alt="Source control pane" src="https://assets.postman.com/postman-docs/v10/api-builder-source-control-v10.jpg" width="443px" />
+<img alt="Source control pane" src="https://assets.postman.com/postman-docs/v10/api-builder-source-control-remote-v10.jpg" width="443px" />
 
 ### Committing and pushing changes
 
@@ -63,18 +63,18 @@ The **Source Control** pane displays the number of changes in the active branch 
 
 1. Select **APIs** in the sidebar and select an API.
 1. Select the source control icon <img alt="Source control icon" src="https://assets.postman.com/postman-docs/icon-source-control.jpg#icon" width="16px"/> in the right sidebar.
-1. If there are unstaged changes, you can stage them by selecting **+** next to a changed file. If you want to review the changes before staging them, select the diff icon <img alt="Diff icon" src="https://assets.postman.com/postman-docs/icon-diff.jpg#icon" width="16px"/>.
+1. If you want to review the changes before staging them, select the diff icon <img alt="Diff icon" src="https://assets.postman.com/postman-docs/icon-diff.jpg#icon" width="16px"/>.
 
-    > You can unstage a file by selecting **-** next to a file.
+    > You can discard changes in a file by selecting <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> next to it.
 
-1. To commit the staged changes to the active branch, enter a commit message and select **Commit**. <!-- If you want to commit the changes to a new feature branch instead of the active branch, select **Create a new branch for this commit** and enter a branch name before committing. -->
-1. The push icon <img alt="Push icon" src="https://assets.postman.com/postman-docs/icon-push.jpg#icon" width="36px"/> indicates the number of commits your active branch is ahead of the remote branch. Select the push icon to push the changes to the remote repository.
+1. To commit the staged changes to the active branch, enter a commit message and select **Commit and Push**. <!-- If you want to commit the changes to a new feature branch instead of the active branch, select **Create a new branch for this commit** and enter a branch name before committing. -->
+<!-- 1. The push icon <img alt="Push icon" src="https://assets.postman.com/postman-docs/icon-push.jpg#icon" width="36px"/> indicates the number of commits your active branch is ahead of the remote branch. Select the push icon to push the changes to the remote repository. -->
 
-    > You don't need to stage or commit your files before pushing. You also don't need to pull changes first. Enter a commit message and select **Commit and Push**.
+> You don't need to stage or commit your files before pushing. You also don't need to pull changes first. Enter a commit message and select **Commit and Push**.
 
 After you push a change, other producers on your team can switch to the branch, pull the changes, and view the updates you made.
 
-> You can also commit and pull changes using your preferred Git client. The Git change history will be reflected in Postman.
+<!-- >> You can also commit and pull changes using your preferred Git client. The Git change history will be reflected in Postman.-->
 
 ### Pulling changes
 
