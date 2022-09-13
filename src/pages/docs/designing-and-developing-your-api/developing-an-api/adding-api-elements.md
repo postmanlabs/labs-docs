@@ -30,7 +30,7 @@ Your API in Postman can include more than an API definition. You can add element
 
 To add an element, it must be in the same workspace as your API. The element will inherit the [roles and permissions](/docs/collaborating-in-postman/roles-and-permissions/) of the API you are adding it to.
 
-> When you add a collection or environment, an independent copy of it is added to the API. The copy in the API will no longer be in sync with the original. If you move or delete an API, any collections or environments linked to the API are moved or deleted with it.
+> When you add a collection or environment, an independent copy of it is added to the API. The copy in the API will no longer be in sync with the original. If you move or delete an API, any collections or environments contained within the API are moved or deleted with it.
 
 ## Contents
 
@@ -63,7 +63,7 @@ To generate a new collection from your API definition:
 1. Change any settings to customize the new collection.
 1. Select **Generate Collection**.
 
-The linked collection displays on your API's overview and under your API in the sidebar. To view documentation for the collection, expand the collection and select **View full documentation**.
+The collection displays on your API's overview and under your API in the sidebar. To view documentation for the collection, expand the collection and select **View full documentation**.
 
 ## Adding an environment
 
@@ -75,7 +75,7 @@ To add an environment to your API:
 1. In the sidebar, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to an environment and select **Add to API**.
 1. Select the **API** you want to add the environment to, then select **Add environment**.
 
-This makes a copy of the environment in your API. The environment displays under your API in the sidebar. Select the environment to view or add variables. Learn more about [managing environments](/docs/sending-requests/managing-environments/).
+This makes a copy of the environment in your API, which is not synced with the original. The environment displays under your API in the sidebar. Select the environment to view or add variables. Learn more about [managing environments](/docs/sending-requests/managing-environments/).
 
 ## Removing elements from an API
 
