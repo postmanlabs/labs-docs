@@ -27,7 +27,7 @@ search_keyword: "api security, api schema, security warnings, schema validation,
 
 Postman recommends that you follow security and format warnings at the API definition phase of API development. A warning doesn't mean that your API schema is broken! Instead, it indicates that there are potential security risks that your API might be vulnerable to, or potential design issues that might impact its usability. Postman highlights these warnings and helps you understand their implications and possible ways to address the warnings. Postman supports warnings for API definitions in [OpenAPI 3.0](/docs/api-governance/api-definition/openapi3/) and [OpenAPI 2.0](/docs/api-governance/api-definition/openapi2/) format.
 
-<img alt="Security warnings for OpenAPI 3.0" src="https://assets.postman.com/postman-docs/security-warnings-openapi-3-v9.jpg"/>
+<img alt="OpenAPI 3.0 rule violations" src="https://assets.postman.com/postman-docs/v10/api-definition-rule-violations-openapi3-v10.jpg" width="800px"/>
 
 After you [create a new API](/docs/designing-and-developing-your-api/creating-an-api/), select the **Definition** tab on the API version page to inspect the issues found in the API definition, if any. Under **Warnings**, select **Possible fix** next to the warning to learn more about possible ways to fix the underlying problem.
 
