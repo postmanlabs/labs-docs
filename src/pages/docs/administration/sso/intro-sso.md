@@ -38,12 +38,21 @@ An example of SSO is Google's sign-in implementation for products like Gmail, Yo
 
 ### Identity Providers Supported
 
-* [Okta](https://www.okta.com/)
-* [OneLogin](https://www.onelogin.com/)
-* [Duo](https://duo.com/)
-* [Ping Identity](https://www.pingidentity.com/en.html)
-* [AD FS](https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc755226(v=ws.11))
-* [GSuite](https://workspace.google.com/products/admin/)
+Professional plans:
+
+* [Google Workspace](/docs/administration/sso/google-workspace/)
+
+> Professional plans purchased prior to September 14, 2022 can also use SSO with Okta, OneLogin, Duo, Ping Identity, Microsoft AD FS, Azure AD, and custom SAML.
+
+Enterprise plans:
+
+* [Google Workspace](/docs/administration/sso/google-workspace/)
+* [Okta](/docs/administration/sso/okta/)
+* [OneLogin](/docs/administration/sso/onelogin/)
+* [Duo](/docs/administration/sso/duo/)
+* [Ping Identity](/docs/administration/sso/ping-identity/)
+* [Microsoft AD FS](/docs/administration/sso/microsoft-adfs/)
+* [Azure AD](/docs/administration/sso/azure-ad/)
 * [Custom SAML](/docs/administration/sso/admin-sso/)
 
 ### SSO setup for SAML 2.0 compliant IdPs

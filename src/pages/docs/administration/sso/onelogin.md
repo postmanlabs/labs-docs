@@ -12,6 +12,8 @@ contextual_links:
     url: "/docs/administration/sso/admin-sso/"
 ---
 
+> __[SSO with OneLogin is available on Postman Enterprise plans.](https://www.postman.com/pricing)__
+
 To configure SSO with OneLogin, you can use the available Postman app. You must be an administrator in both OneLogin and Postman to configure SSO for your team.
 
 ## Contents
