@@ -100,37 +100,6 @@ To add the Postman CLI configuration to your GitHub pipeline:
 1. Create a new YAML file in the `.github/workflows` directory in your GitHub repository, and then edit the file.
 1. Add the Postman CLI configuration you copied from Postman to the YAML file:
     * Replace all instances of `$POSTMAN_API_KEY` with a valid [Postman API Key](/docs/developer/intro-api/#generating-a-postman-api-key).
+    > Postman recommends that you store your Postman API key as a secret in GitHub to keep it secure. To learn more about secrets, see the [GitHub documentation](https://docs.github.com/en/actions/security-guides/encrypted-secrets).
 1. Commit and push the changes to your remote repository. This will automatically start a build in GitHub.
 1. To view the test results in Postman, open your API and select **Test and Automation**. Learn more about [Viewing collection run details](#viewing-collection-run-details).
-
-### Example YAML file in the .github/workflows directory
-
-```yaml
-name: Automated API tests using Postman CLI
-
-on: push
-
-jobs:
-  automated-api-tests:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - name: Install Postman CLI
-        run: |
-          curl https://dl-cli.pstmn.io/download/latest/linux/ -o postman-cli.tar.gz
-          tar -zxvf postman-cli.tar.gz
-          sudo mv postman-cli /usr/bin/postman
-          rm postman-cli.tar.gz
-      - name: Login to Postman CLI
-        env:
-          POSTMAN_API_KEY: ${{ secrets.POSTMAN_API_KEY }}
-        run: postman login --with-api-key $POSTMAN_API_KEY
-      - name: Run API tests
-        env:
-          GITHUB_WORKSPACE: ${{ github.workspace }}
-          GITHUB_RUN_ID: ${{ github.run_id }}
-        run: |
-          postman collection run "4946945-3673316a-9a35-4b0d-a148-3566b490798d"
-          # Run your API using Postman CLI
-          postman api lint
-```
