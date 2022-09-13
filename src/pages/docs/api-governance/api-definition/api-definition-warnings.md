@@ -56,7 +56,7 @@ To learn more about how rule violations can help you create consistent and secur
 
 You can configure your CI/CD pipelines to enforce the [API Governance](/docs/api-governance/configuring-api-governance-rules/) and [API Security](/docs/api-governance/configuring-api-security-rules/) rules configured for your team with the help of [Postman CLI](/docs/postman-cli/postman-cli-overview/).
 
-On the Postman CLI configuration page, select **Run governance and security rules on the schema of this API**. This will generate the Postman CLI configuration that you can paste in your CI/CD configuration to enforce the API Governance and API Security rules each time the CI/CD pipeline runs.
+On the Postman CLI configuration page, select **Run Governance and Security rules**. This will generate the Postman CLI configuration that you can paste in your CI/CD configuration to enforce the API Governance and API Security rules each time the CI/CD pipeline runs.
 
 To see the results, go to the build page and use the arrows to expand the desired build. Next, expand the API definition to see the build’s results and any rule violations, if applicable.
 
