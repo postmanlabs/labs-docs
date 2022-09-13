@@ -111,23 +111,26 @@ name: Automated API tests using Postman CLI
 on: push
 
 jobs:
-  build:
+  automated-api-tests:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
       - name: Install Postman CLI
         run: |
-          curl https://dl-cli.pstmn.io/install/linux64 -o postman-cli.tar.gz
+          curl https://dl-cli.pstmn.io/download/latest/linux/ -o postman-cli.tar.gz
           tar -zxvf postman-cli.tar.gz
           sudo mv postman-cli /usr/bin/postman
           rm postman-cli.tar.gz
-      # Runs a single command using the runners shell
       - name: Login to Postman CLI
+        env:
+          POSTMAN_API_KEY: ${{ secrets.POSTMAN_API_KEY }}
         run: postman login --with-api-key $POSTMAN_API_KEY
       - name: Run API tests
+        env:
+          GITHUB_WORKSPACE: ${{ github.workspace }}
+          GITHUB_RUN_ID: ${{ github.run_id }}
         run: |
-          export POSTMAN_API_BASE_URL='https://api.getpostman.com'
-          postman collection run "${GITHUB_ACTION_PATH}/postman/collections/Postman CLI Collection Test_4946945-3673316a-9a35-4b0d-a148-3566b490798d.json"
+          postman collection run "4946945-3673316a-9a35-4b0d-a148-3566b490798d"
           # Run your API using Postman CLI
           postman api lint
 ```
