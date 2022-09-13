@@ -99,26 +99,3 @@ To add the Postman CLI configuration to your GitLab pipeline:
     * Replace all instances of `$POSTMAN_API_KEY` with a valid [Postman API Key](/docs/developer/intro-api/#generating-a-postman-api-key).
 1. Commit and push the changes to your remote repository. This will automatically start a build in GitLab.
 1. To view the test results in Postman, open your API and select the **Test** tab. Learn more about [Viewing collection run details](#viewing-collection-run-details).
-
-### Example .gitlab-ci.yml file
-
-```yaml
-stages:
-  - automated-api-tests
-
-automated-api-tests:
-  stage: automated-api-tests
-  image: cimg/base:2021.04
-  before_script:
-    # Installing Postman CLI
-    - curl https://dl-cli.pstmn.io/download/latest/linux/ -o postman-cli.tar.gz
-    - sudo tar -zxvf postman-cli.tar.gz
-    - mkdir -p /usr/local/bin/
-    - sudo mv postman-cli /usr/local/bin/postman
-    - rm postman-cli.tar.gz
-  script:
-    - postman login --with-api-key $POSTMAN_API_KEY
-    - postman collection run "4946945-3673316a-9a35-4b0d-a148-3566b490798d"
-    # Run your API using Postman CLI
-    - postman api lint
-```

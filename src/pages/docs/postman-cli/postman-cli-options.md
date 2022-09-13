@@ -25,103 +25,52 @@ Commands and options for using the Postman CLI.
 
 ## Contents
 
-* [Commands and options - quick reference](#commands-and-options---quick-reference)
-* [Downloading and installing](#downloading-and-installing)
+* [Basic command line options](#basic-command-line-options)
 * [Logging and and logging out](#logging-in-and-logging-out)
 * [Running collections](#running-collections)
 * [Governance and security](#governance-and-security)
-* [Basic command line options](#basic-command-line-options)
 
-## Commands and options - quick reference
+## Basic command line options
 
-| Command/Option | Details |
+### postman
+
+This is the base command, usually combined with `collection run` or `api lint`.
+
+#### Example
+
+```plaintext
+postman -v
+```
+
+#### Options
+
+| Option | Details |
 |:--|:--|
-| [**`login`**](#login) | Log into Postman. |
-| [**`logout`**](#logout) | Log out of Postman. |
-| [**`postman collection run`**](#postman-collection-run) | Run a collection with a UUID or a local file. |
-| `--bail` | Stop the runner when a test case fails. |
-| `--color` | Turn off colored output (auto\|on\|off) (default: "auto") |
-| `--cookie-jar` | Specify the file path for a `JSON` Cookie Jar. Uses `tough-cookie` to deserialize the file. |
-| `--delay-request` | Specify a delay (in milliseconds) between requests. |
-| `--disable-unicode` | Force the unicode disable option. When supplied, replaces all symbols in the output with their plain text equivalents. |
-| `--env-var` | Set environment variables in a `key=value` format on the command line. |
-| `--environment` | Specify a Postman environment as a `JSON` [file]. |
-| `--export-cookie-jar` | The path to the file where Postman CLI will output the final cookie jar file before completing a run. Uses `tough-cookie` to serialize the file. |
-| `--global-var` | Specify global variables on the command line, in a `key=value` format. |
-| `--globals` | Specify a Postman globals file as `JSON` [file]. |
-| `--iteration-count` | Define the number of iterations to run. |
-| `--iteration-data` | Specify a data file to use, either `JSON` or `CSV`. |
-| `-i [UID]` | Runs only the specified folder UID or request UID from the collection. |
-| `-i [name` | Runs only the specified folder name or request name from the collection. If there are duplicate names, the Postman CLI runs the folder or request that appears first.|
-| `--ignore-redirects` | Prevents the Postman CLI from automatically following 3XX redirect responses.|
-| `--insecure`, `-k` | Turns off SSL verification checks and allows self-signed SSL certificates. |
-| `--no-insecure-file-read` | Prevents reading of files situated outside of the working directory.|
-| `--silent` | Turn off terminal output. |
-| `--suppress-exit-code` | Continue running tests even after a failure, but exit with `code=0`. |
-| `--timeout` | Specify the time (in milliseconds) to wait for the entire collection run to complete execution. |
-| `--timeout-request` | Specify a request timeout (in milliseconds) for a request. |
-| `--timeout-script` | Specify the time (in milliseconds) to wait for scripts to complete execution. |
-| `--verbose` | Show the details of the collection run and its data ingestion to Postman. |
-| `--working-dir` |Set the path of the working directory to use while reading files with relative paths. |
-| [**`postman api lint`**](#postman-api-lint)| Run validation checks for governance and security rules against the API Definition provided in the Postman config file. ([Enterprise teams only](https://www.postman.com/pricing/)).|
-| [**`postman`**](#postman) | The base command. |
-| `--help` | Return information about Postman CLI commands and options. |
-| `--version` | Return the version number for the Postman CLI.  |
-
-## Downloading and installing
-
-You can download the Postman CLI installation script with the following commands:
-
-### Linux
-
-``` bash
-curl -o- "https://dl-cli.pstmn.io/install/linux64.sh" | bash
-```
-
-### Mac (Intel chip)
-
-``` bash
-curl -o- "https://dl-cli.pstmn.io/install/osx_64.sh" | bash
-```
-
-<!--
-### Mac (Apple chip)
-
-``` bash
-curl -o- "https://dl-cli.pstmn.io/install/osx_arm64.sh" | bash
-```
--->
-
-### Windows
-
-``` bash
-powershell.exe -NoProfile -InputFormat None -ExecutionPolicy AllSigned -Command "[System.Net.ServicePointManager]::SecurityProtocol = 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://dl-cli.pstmn.io/install/win64.ps1'))" && SET "PATH=%PATH%;C:\Postman CLI\"
-```
-
----
+| `--help`, `-h` | Returns information about Postman CLI commands and options.|
+| `--version`, `-v`| Returns the version number for the Postman CLI.|
 
 ## Logging in and logging out
 
 You can use the Postman CLI to log in and out of Postman with the `login` and `logout` commands, described below:
 
-### login
+### postman login
 
-This command authenticates the user and stores the [Postman API key](/docs/developer/intro-api#generating-a-postman-api-key) in your filesystem. `login` requires one option, `--with-api-key`, that accepts the Postman API key. The `login` command is required only once per session. Once you've logged in, you remain logged in until you use the `logout` command.
+This command authenticates the user and locally caches the [Postman API key](/docs/developer/intro-api#generating-a-postman-api-key). `login` requires one option, `--with-api-key`, that accepts the Postman API key. The `login` command is required only once per session. Once you've logged in, you remain logged in until you use the `logout` command or your Postman API key expires.
 
 #### Example
 
-``` bash
-login --with-api-key ABCD-1234-1234-1234-1234-1234
+```plaintext
+postman login --with-api-key ABCD-1234-1234-1234-1234-1234
 ```
 
-### logout
+### postman logout
 
 This command logs you out of Postman and deletes the stored API key.
 
 #### Example
 
-``` bash
-logout
+```plaintext
+postman logout
 ```
 
 #### Options
@@ -129,8 +78,6 @@ logout
  Option | Details |
 |:--|:--|
 | `--with-api-key [api-key]` | Authenticate the user with the given API key. |
-
----
 
 ## Running collections
 
@@ -144,7 +91,7 @@ This command runs a collection and sends all run results and responses to Postma
 
 #### Examples
 
-``` bash
+```plaintext
 postman collection run /myCollectionFolderName/myCollectionFile.json
 
 postman collection run 12345678-12345ab-1234-1ab2-1ab2-ab1234112a12
@@ -179,8 +126,6 @@ postman collection run 12345678-12345ab-1234-1ab2-1ab2-ab1234112a12
 | `--verbose` | Shows detailed information of collection run and each request sent.|
 | `--working-dir [path]`| Sets the path of the working directory to use while reading files with relative paths. Defaults to current directory.
 
----
-
 ## Governance and security
 
 API governance is the practice of applying a defined set of standards consistently across your API design and testing phases of your development process. The Postman CLI includes an API linting command, described below. (This feature is available for [Enterprise teams only](https://www.postman.com/pricing/)).
@@ -193,30 +138,8 @@ This command runs validation checks for governance and security rules against th
 
 #### Example
 
-``` bash
+```plaintext
 postman api lint my-definition-file.json
 postman api lint 8854915-bb7236b2-536e-4bdc-bfa2-fbe2fe1941eb
 ```
 
----
-
-## Basic command line options
-
-### postman
-
-This is the base command, usually combined with `collection run` or `api lint`.
-
-#### Example
-
-``` bash
-postman -v
-```
-
-#### Options
-
-| Option | Details |
-|:--|:--|
-| --help, -h | Returns information about Postman CLI commands and options.|
-| --version, -v| Returns the version number for the Postman CLI.|
-
----

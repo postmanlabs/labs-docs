@@ -86,26 +86,3 @@ To add the Postman CLI configuration to your Bitbucket pipeline:
     * Replace all instances of `$POSTMAN_API_KEY` with a valid [Postman API Key](/docs/developer/intro-api/#generating-a-postman-api-key).
 1. Commit and push the changes to your remote repository. This will automatically start a build in Bitbucket Pipelines.
 1. To view the test results in Postman, open your API and select the **Test** tab. Learn more about [Viewing collection run details](#viewing-collection-run-details).
-
-### Example bitbucket-pipelines.yml file
-
-```yaml
-image: atlassian/default-image:3
-
-pipelines:
-  default:
-    - step:
-        name: Run collection via Postman CLI
-        script:
-          # Install Postman CLI
-          - curl https://dl-cli.pstmn.io/download/latest/linux/ -o postman-cli.tar.gz
-          - tar -zxvf postman-cli.tar.gz
-          - mv postman-cli /usr/bin/postman
-          - rm postman-cli.tar.gz
-          # Login using your API Key
-          - postman login --with-api-key $POSTMAN_API_KEY
-          # Run your collection using Postman CLI
-          - postman collection run "4946945-3673316a-9a35-4b0d-a148-3566b490798d"
-          # Run your API using Postman CLI
-          - postman api lint
-```

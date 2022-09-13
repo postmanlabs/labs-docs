@@ -19,7 +19,7 @@ tags:
 
 ---
 
-You can use the Postman API Platform to manually validate your APIs. With Postman CLI, you can also script these manual validations into tests and assertions which you can then run with the Postman Collection Runner.
+You can use the Postman CLI to manually run and test collections. You can also use the Postman CLI to automate collection runs on CI/CD pipelines. You can run collections with its collection ID or path.
 
 ## Contents
 
@@ -29,7 +29,7 @@ You can use the Postman API Platform to manually validate your APIs. With Postma
 
 ## Running a collection locally with the Postman CLI
 
-1. [Install the Postman CLI](/docs/postman-cli/postman-cli-installation).
+1. [Download and install the Postman CLI](/docs/postman-cli/postman-cli-installation).
 
 1. Select **Collections** in the sidebar and select the collection you want to run.
 
@@ -37,7 +37,7 @@ You can use the Postman API Platform to manually validate your APIs. With Postma
 
 1. On the Collection Runner, select **Automate runs via CLI**.
 
-    <img alt="Automate runs via CLI" src="https://assets.postman.com/postman-docs/PCLI-automate-cli-v10.jpg" style="border: 1px solid #4a4a4a">
+    <img alt="Automate runs using Postman CLI" src="https://assets.postman.com/postman-docs/v10/pcli-automate-cli-v10-2.jpg">
 
 1. In the **Postman CLI command** window, select **Add API Key**.
 
@@ -59,7 +59,29 @@ You can use the Postman API Platform to manually validate your APIs. With Postma
 
 ## Running a collection in CI/CD
 
-When the collections run to your satisfaction, you can copy the commands into your CI/CD scripts to integrate them into your workflows. When adding the command to your CI/CD script, you may want to replace the API key with a variable. To learn more, see [Configuring the Postman CLI for CI](/docs/integrations/ci-integrations/#configuring-the-postman-cli-for-ci).
+When the collections run to your satisfaction, you can copy the commands into your CI/CD scripts to integrate them into your workflows. When adding the command to your CI/CD script, you may want to replace the API key with a variable.
+
+1. Select **Collections** in the sidebar and select the collection you want to run.
+
+1. On the Overview tab, select <img alt="Runner icon" src="https://assets.postman.com/postman-docs/icon-runner-v9.jpg#icon" width="16px"> **Run**.
+
+1. On the Collection Runner, select **Automate runs via CLI**.
+
+    <img alt="Automate runs using Postman CLI" src="https://assets.postman.com/postman-docs/v10/pcli-automate-cli-v10-2.jpg">
+
+1. Under **Run on CI/CD**, select **Configure command**.
+
+1. Select a **Collection** to run during pipeline builds. You can also select an **Environment** to use.
+
+    > If needed, select **+ Add More** to select other collections to run.
+
+1. Select the **CI/CD Provider** for your CI/CD pipeline.
+
+1. Select the **Operating system** for your CI/CD pipeline.
+
+1. Select the  copy icon <img alt="Copy icon" src="https://assets.postman.com/postman-docs/icon-copy-v9.jpg#icon" width="15px"> to copy the Postman CLI configuration.
+
+<img alt="Generate Postman CLI" src="https://assets.postman.com/postman-docs/v10/generate-postman-cli-collections-v10.jpg">
 
 ## Running a collection in a specific order
 

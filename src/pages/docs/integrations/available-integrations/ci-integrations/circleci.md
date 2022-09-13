@@ -84,36 +84,3 @@ To add the Postman CLI configuration to your CircleCI project:
     * Make sure to add the `postman-automated-runs` job to a new or existing workflow.
 1. Select **Save and Run** to run the pipeline using the new configuration.
 1. To view the test results in Postman, open your API and select the **Test** tab.
-
-### Example CircleCI config.yml
-
-```yaml
-version: 2.1
-
-jobs:
-  postman-automated-runs:
-    docker:
-      - image: cimg/base:2021.04
-    steps:
-      - checkout
-      - run:
-          name: Install Postman CLI
-          command: |
-            curl https://dl-cli.pstmn.io/download/latest/linux/ -o postman-cli.tar.gz
-            tar -zxvf postman-cli.tar.gz
-            sudo mv postman-cli /usr/bin/postman
-            rm postman-cli.tar.gz
-      - run:
-          name: Login using your API key
-          command: postman login --with-api-key $POSTMAN_API_KEY
-      - run: |
-            postman collection run "4946945-3673316a-9a35-4b0d-a148-3566b490798d"
-
-workflows:
-  version: 2
-  automated-api-tests:
-    jobs:
-      - postman-automated-runs
-          # Run your API using Postman CLI
-            postman api lint
-```

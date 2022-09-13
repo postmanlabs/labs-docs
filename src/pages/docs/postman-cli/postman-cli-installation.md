@@ -34,7 +34,7 @@ The Postman CLI supports the same operating system requirements as the Postman d
 
 ## Linux installation
 
-Run the following command to install the Postman CLI for Linux. This will download an install script and run it. The install script creates a `/usr/local/bin` directory if it does not exist yet, then installs a `postman` binary there.
+Run the following command to install the Postman CLI for the latest Linux version. This will download an install script and run it. The install script creates a `/usr/local/bin` directory if it does not exist yet, then installs a `postman` binary there.
 
 ``` bash
 curl -o- "https://dl-cli.pstmn.io/install/linux64.sh" | bash
@@ -60,7 +60,7 @@ curl -o- "https://dl-cli.pstmn.io/install/osx_64.sh" | bash
 
 ## Windows installation
 
-Run the following commands to install the Postman CLI for Windows.
+Run the following commands to install the Postman CLI for Windows. This will download an install script and run it. The install script creates a `C:\Postman CLI` directory if it does not exist yet, then installs a `postman` binary there. The install script also adds `C:\Postman CLI` to the `PATH` environment variable.
 
 Download and run the installation script for your platform from the [download page](https://www.postman.com/downloads/) or with the appropriate script below:
 
