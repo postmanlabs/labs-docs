@@ -308,7 +308,7 @@ Use **Search elements and folders** to search across folders, sub-folders, and e
 
 ### Editing element listings
 
-Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the element you would like to edit from the network, then select **Edit element** to change its location. Select **Edit** to save your changes.
+Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the element you would like to edit from the network, then select **Edit element**. You can change an element's summary, location, and associated environments. Select **Edit** to save your changes.
 
 <img alt="Edit API listing" src="https://assets.postman.com/postman-docs/v10/private-api-network-edit-element-v10.jpg" width="450px"/>
 
