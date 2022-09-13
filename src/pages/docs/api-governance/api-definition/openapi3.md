@@ -935,7 +935,7 @@ info:
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| Your API definition's [info object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.0.3.md#infoObject) doesn't contain a [contact object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.0.3.md#contactObject), which contains contact information like a name, email address, or URL. The contact data may be used directly by your API's consumers, or through an API portal or catalog. Defining contact information helps ensure there is a designated owner for each of your organization's APIs. | Add a contact object to your API definition's info object.  |
+| Your API definition's [info object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.0.3.md#infoObject) doesn't contain a [contact object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.0.3.md#contactObject), which contains contact information like a name, email address, or URL. Contact information defines a designated owner for each of your organization's APIs. The contact data may be used directly by your API's consumers, or through an API portal or catalog. | Add a contact object to your API definition's info object.  |
 
 #### Resolution
 
@@ -1325,7 +1325,7 @@ paths:
 #### Resolution
 
 ```json
-swagger: "2.0"
+openapi: "3.0.3"
 info:
   title: An API title
   version: "1.0"
@@ -1372,7 +1372,7 @@ paths:
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| The [responses object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.0.3.md#responses-object) for one or more DELETE [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.0.3.md#operationObject) has a `204` HTTP status code but also defines a response body. A `204` status means "no content", so there shouldn't be a response body defined. | Make sure that DELETE methods with a `204` status code don't have a response body. |
+| The [responses object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.0.3.md#responses-object) for one or more DELETE [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.0.3.md#operationObject) has a `204` HTTP status code but also defines a response body. A `204` status means "no content," so there shouldn't be a response body defined. | Make sure that DELETE methods with a `204` status code don't have a response body. |
 
 #### Resolution
 
@@ -1395,7 +1395,9 @@ This rule category deals with how to model various data types.
 
 ### A schema property should reference a reusable schema
 
-| A schema property in one or more [response objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#responseObject) or [body parameter objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#parameterObject) doesn't reference a reusable schema. A schema reference (`$ref`) that targets reusable schemas in `definitions` helps ensure consistency in design, OpenAPI document and API documentation readability, and facilitates maintainability by avoiding duplication of models. | Consolidate all your responses and body parameter schemas into `definitions`. |
+| Issue description | Possible fix |
+| ----------- | ----------- |
+| A schema property in one or more [response objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.0.3.md#responseObject) or [body parameter objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.0.3.md#parameterObject) doesn't reference a reusable schema. A schema reference (`$ref`) that targets reusable schemas in `definitions` helps maintain design consistency and OpenAPI document and API documentation readability, and facilitates maintainability by avoiding duplication of models. | Consolidate all your responses and body parameter schemas into `definitions`. |
 
 #### Resolution
 
