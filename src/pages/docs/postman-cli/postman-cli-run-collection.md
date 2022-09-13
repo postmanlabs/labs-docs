@@ -57,6 +57,12 @@ You can use the Postman CLI to manually run and test collections. You can also u
 
 1. After running the commands, the Postman CLI generates a link. Follow the link to check the results on Postman.
 
+    <img alt="Postman CLI generated link" src="https://assets.postman.com/postman-docs/v10/postman-cli-generated-link-v10.jpg">
+
+1. The collection run results display in the browser.
+
+    <img alt="Postman CLI view collection run results" src="https://assets.postman.com/postman-docs/v10/postman-cli-view-run-data-v10.jpg">
+
 ## Running a collection in CI/CD
 
 When the collections run to your satisfaction, you can copy the commands into your CI/CD scripts to integrate them into your workflows. When adding the command to your CI/CD script, you may want to replace the API key with a variable.
