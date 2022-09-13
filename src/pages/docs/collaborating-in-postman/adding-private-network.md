@@ -73,7 +73,7 @@ In the Private API Network, you can filter elements by name using the search box
 
 <img alt="Private API List" src="https://assets.postman.com/postman-docs/v10/private-api-network-list-v10.jpg"/>
 
-To review information about an element, select it from the list. You can view the element's description and the editors who have worked on it. For workspaces, you can view all of the collections and APIs that reside in them. For collections, you can view available documentation. For APIs, you can view definitions and associated collections.
+To review information about an element, select it from the list. You can view the element's description and the editors who have worked on it. For workspaces, you can view all of the collections and APIs inside them. For collections, you can view available documentation. For APIs, you can view definitions and associated collections.
 
 To watch a workspace, collection, or API and get notified about any changes, select **Watch** in the upper right corner.
 
@@ -201,7 +201,7 @@ To add a workspace to the Private API Network from the API Builder:
 1. (Optional) Select a folder or create one to keep elements organized.
 1. Select **Add**.
 
-You can also add a workspace while in your team's Private API Network:
+You can also add a workspace from inside your team's Private API Network:
 
 1. Open your [Private API Network](https://go.postman.co/network/private).
 1. Select **Add to network**
