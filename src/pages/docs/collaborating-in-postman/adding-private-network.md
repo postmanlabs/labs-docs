@@ -224,9 +224,7 @@ API consumers can view the latest published version on the Private API Network. 
 
 ### Importing APIs from a code repository
 
-You can make all your existing APIs discoverable on the Private API Network when you import from a code repository. When you create an API, switch over to the **Import** tab to view the options to import from a code repository. Learn more about [importing an API](/docs/getting-started/importing-and-exporting-data/).
-
-<img alt="GitHub import" src="https://assets.postman.com/postman-docs/github-import-v9.jpg" width="450px"/>
+You can make all your existing APIs discoverable on the Private API Network after you import them from a code repository. Learn more about [importing an API](/docs/designing-and-developing-your-api/importing-an-api/).
 
 ## Managing the Private API Network
 
