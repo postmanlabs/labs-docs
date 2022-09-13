@@ -37,7 +37,6 @@ This example will create and execute a unary request. To learn about invoking th
 
     <img src="https://assets.postman.com/postman-docs/v10/grpc-new-request.gif" alt="New gRPC request" />
 
-1. Enter the URL as: `echo-grpc.postman.com:50051`. This is an echo endpoint that enables you to try out various types of services and methods.
 
 1. Select the **Method selection** dropdown and browse through the supported services and methods. When you enter the URL, Postman automatically loads the service definition using server reflection (if supported by the server). If server reflection isn't supported on the server, you will have to load the service definition manually. Learn more about [working with service definitions](/docs/sending-requests/grpc/using-service-definition/).
 
