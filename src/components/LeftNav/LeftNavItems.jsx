@@ -605,14 +605,6 @@ export const leftNavItems = [
         url: '/docs/api-governance/api-governance-overview/',
       },
       {
-        name: 'Configuring API Governance rules',
-        url: '/docs/api-governance/configuring-api-governance-rules/'
-      },
-      {
-        name: 'Configuring API Security rules',
-        url: '/docs/api-governance/configuring-api-security-rules/'
-      },
-      {
         name: 'API definition',
         subParentSlug: 'api-definition',
         slug: '/docs/api-governance/api-definition/api-definition-warnings/',
@@ -645,6 +637,29 @@ export const leftNavItems = [
             url: '/docs/api-governance/api-testing/security-warnings/',
           },
         ],
+      },
+      {
+        name: 'Configurable rules',
+        subParentSlug: 'configurable-rules',
+        slug: '/docs/api-governance/configurable-rules/configurable-rules-overview/',
+        subMenuItems2: [
+          {
+            name: 'Configurable rules overview',
+            url: '/docs/api-governance/configurable-rules/configurable-rules-overview/'
+          },
+          {
+            name: 'Configuring API Governance rules',
+            url: '/docs/api-governance/configurable-rules/configuring-api-governance-rules/'
+          },
+          {
+            name: 'Configuring API Security rules',
+            url: '/docs/api-governance/configurable-rules/configuring-api-security-rules/'
+          },
+          {
+            name: 'Using Spectral in Postman',
+            url: '/docs/api-governance/configurable-rules/spectral/'
+          },
+        ]
       },
     ],
   },
