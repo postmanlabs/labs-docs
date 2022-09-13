@@ -814,7 +814,7 @@ This rule category deals with the OpenAPI info object, which contains metadata a
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| Your API definition's [info object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#info-object) doesn't contain a description. Although a description isn't required, including one allows you to provide your API's consumers with information about what the API does and how to use it. This can be anything from a short description to a long explanation of possible uses cases. For your organization, defining the API's description during the design phase can help set the boundaries of the API. | Add a description to your API definition's info object. |
+| Your API definition's [info object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#info-object) doesn't contain a description. Although a description isn't required, including one enables you to provide your API's consumers with information about what the API does and how to use it. This can be anything from a short description to a long explanation of possible uses cases. For your organization, defining the API's description during the design phase can help set the boundaries of the API. | Add a description to your API definition's info object. |
 
 #### Resolution
 
@@ -1139,7 +1139,7 @@ paths:
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| One or more PUT [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#operationObject) in your API definition doesn't contain a [request body object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#requestBodyObject). Since a PUT operation is often used to replace or create something, not having a request body might be an error. However, this use might make sense in some cases (for example, to link two resources with a PUT, like `/resource-ones/id1/other-resources/id2`). | Add a request body object to any POST operation objects. |
+| One or more PUT [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#operationObject) in your API definition don't contain a [request body object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#requestBodyObject). Since a PUT operation is often used to replace or create something, not having a request body might be an error. However, this use might make sense in some cases (for example, to link two resources with a PUT, like `/resource-ones/id1/other-resources/id2`). | Add a request body object to any POST operation objects. |
 
 #### Resolution
 
