@@ -111,15 +111,14 @@ automated-api-tests:
   image: cimg/base:2021.04
   before_script:
     # Installing Postman CLI
-    - curl https://dl-cli.pstmn.io/install/linux64 -o postman-cli.tar.gz
+    - curl https://dl-cli.pstmn.io/download/latest/linux/ -o postman-cli.tar.gz
     - sudo tar -zxvf postman-cli.tar.gz
     - mkdir -p /usr/local/bin/
     - sudo mv postman-cli /usr/local/bin/postman
     - rm postman-cli.tar.gz
   script:
-    - export POSTMAN_API_BASE_URL='https://api.getpostman.com'
     - postman login --with-api-key $POSTMAN_API_KEY
-    - postman collection run "${CI_PROJECT_DIR}/postman/collections/Postman CLI Collection Test_4946945-3673316a-9a35-4b0d-a148-3566b490798d.json"
+    - postman collection run "4946945-3673316a-9a35-4b0d-a148-3566b490798d"
     # Run your API using Postman CLI
     - postman api lint
 ```

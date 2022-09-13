@@ -98,15 +98,14 @@ pipelines:
         name: Run collection via Postman CLI
         script:
           # Install Postman CLI
-          - curl https://dl-cli.pstmn.io/install/linux64 -o postman-cli.tar.gz
+          - curl https://dl-cli.pstmn.io/download/latest/linux/ -o postman-cli.tar.gz
           - tar -zxvf postman-cli.tar.gz
           - mv postman-cli /usr/bin/postman
           - rm postman-cli.tar.gz
-          - export POSTMAN_API_BASE_URL='https://api.getpostman.com'
           # Login using your API Key
           - postman login --with-api-key $POSTMAN_API_KEY
           # Run your collection using Postman CLI
-          - postman collection run "${BITBUCKET_CLONE_DIR}/postman/collections/Postman CLI Collection Test_4946945-3673316a-9a35-4b0d-a148-3566b490798d.json"
+          - postman collection run "4946945-3673316a-9a35-4b0d-a148-3566b490798d"
           # Run your API using Postman CLI
           - postman api lint
 ```

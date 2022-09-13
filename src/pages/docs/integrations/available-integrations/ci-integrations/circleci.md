@@ -99,7 +99,7 @@ jobs:
       - run:
           name: Install Postman CLI
           command: |
-            curl https://dl-cli.pstmn.io/install/linux64 -o postman-cli.tar.gz
+            curl https://dl-cli.pstmn.io/download/latest/linux/ -o postman-cli.tar.gz
             tar -zxvf postman-cli.tar.gz
             sudo mv postman-cli /usr/bin/postman
             rm postman-cli.tar.gz
@@ -107,8 +107,7 @@ jobs:
           name: Login using your API key
           command: postman login --with-api-key $POSTMAN_API_KEY
       - run: |
-            export POSTMAN_API_BASE_URL='https://api.getpostman.com'
-            postman collection run "${CIRCLE_WORKING_DIRECTORY}/postman/collections/Postman CLI Collection Test_4946945-3673316a-9a35-4b0d-a148-3566b490798d.json"
+            postman collection run "4946945-3673316a-9a35-4b0d-a148-3566b490798d"
 
 workflows:
   version: 2
