@@ -243,7 +243,8 @@ If your team uses the [optional approval process](#using-the-approval-process-wo
 To add an API to the Private API Network from the API Builder:
 
 1. Open the API you want to add to the Private API Network.
-1. In the API overview, select **Add to API Network**.
+1. In the API overview, select **Publish API**.
+1. Select **Request to add to Private API Network**.
 1. (Optional) Select a folder or create one to keep elements organized.
 1. Select **Add**.
 
@@ -268,11 +269,9 @@ All API versions are automatically visible to API Editors and Viewers within a P
 1. Select **Consumers can view this version**.
 1. Select **Save Changes**.
 
-#### Importing APIs from code repositories
+#### Importing APIs from a code repository
 
-You can make all your existing APIs discoverable on the Private API Network when you import from a code repository. To learn more, see [Importing from code repositories](/docs/getting-started/importing-and-exporting-data/#importing-data-into-postman).
-
-<img alt="Import from code repository options" src="https://assets.postman.com/postman-docs/v10/import-api-options-v10.jpg" width="450px"/>
+You can make all your existing APIs discoverable on the Private API Network after you import them from a code repository. Learn more about [importing an API](/docs/designing-and-developing-your-api/importing-an-api/).
 
 ## Managing the Private API Network
 
