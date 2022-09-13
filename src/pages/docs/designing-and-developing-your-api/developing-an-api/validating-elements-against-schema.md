@@ -44,7 +44,7 @@ The pane below the schema editing area displays issues. You can hide and show th
 
 Each error will indicate the type, the line on which it occurs, and details of the issue. To get more information as you type, you can also hover over the error inline in the editor.
 
-[![Schema error](https://assets.postman.com/postman-docs/schema-validation-error-open-v9.jpg)](https://assets.postman.com/postman-docs/schema-validation-error-open-v9.jpg)
+![Schema error](https://assets.postman.com/postman-docs/v10/schema-validation-error-open-v10.jpg)
 
 > Note that sometimes a single error in your schema will cause more than one issue to appear in the list. As you fix your errors, the validation issues disappear.
 
