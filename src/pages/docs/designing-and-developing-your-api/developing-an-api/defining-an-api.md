@@ -136,4 +136,4 @@ To add a file to a folder, select the more actions icon <img alt="More actions i
 
 To delete a file or folder, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the item and select **Delete**.
 
-> If you delete the last remaining file in an API definition, the API will no longer have a Definition unless you create it again. Any information in the file's info pane including the Definition ID will be lost. You cannot restore a Definition after it is deleted.
+> If you delete the last remaining file in an API definition, the API will no longer have a Definition unless you create it again. The schema documentation and any information in the file's info pane including the Definition ID will be lost. You cannot restore a Definition after it is deleted.
