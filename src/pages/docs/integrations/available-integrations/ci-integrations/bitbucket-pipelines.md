@@ -24,6 +24,7 @@ If you haven't already, create a pipeline in the Bitbucket repository you use fo
 ## Configuring a Bitbucket Pipelines integration
 
 1. Open your API by selecting **APIs** in the sidebar. *Each API can be linked to one CI project*.
+    > **Tip:** If you've already authenticated with Bitbucket to connect a Git repo for source control, you can use the same authentication. To automatically create the integration, under **Test and Automation**, select **Connect to Bitbucket Pipelines**.
 1. Select **Test and Automation**.
 1. Under **Automate**, select **Bitbucket**.
 1. You'll be prompted to authorize Postman to access your Bitbucket account. After you grant access, you can close the browser tab and return to Postman.
