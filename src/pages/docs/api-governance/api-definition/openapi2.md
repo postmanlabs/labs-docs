@@ -1023,7 +1023,7 @@ paths:
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| One or more [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#operation-object) in your API definition doesn't have a summary. A summary of what the operation does provides your API's consumers with important context that the HTTP method and path don't provide on their own. Many organizations use the API operation description that they create during the define phase of the API development process as the summary. | Add a summary for each operation object. |
+| One or more [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#operation-object) in your API definition don't have a summary. A summary of what the operation does provides your API's consumers with important context that the HTTP method and path don't provide on their own. Many organizations use the API operation description that they create during the define phase of the API development process as the summary. | Add a summary for each operation object. |
 
 #### Resolution
 
@@ -1065,7 +1065,7 @@ paths:
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| One or more [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#operation-object) in your API definition doesn't have a description. When the resource path, HTTP method, and summary don't provide enough context for your API's consumers, a description can provide them with useful information about the API operation and its behavior. | Add a description for each operation object. |
+| One or more [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#operation-object) in your API definition don't have a description. When the resource path, HTTP method, and summary don't provide enough context for your API's consumers, a description can provide them with useful information about the API operation and its behavior. | Add a description for each operation object. |
 
 #### Resolution
 
@@ -1086,7 +1086,7 @@ paths:
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| One or more [parameter objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#parameter-object) in an [operations object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#operation-object) in your API definition doesn't contain a `description` field. When the API name and context don't provide enough information for your API's consumers, a description can provide them with useful information about the parameter. | Add a `description` field for each parameter object. |
+| One or more [parameter objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#parameter-object) in an [operations object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#operation-object) in your API definition don't contain a `description` field. When the API name and context don't provide enough information for your API's consumers, a description can provide them with useful information about the parameter. | Add a `description` field for each parameter object. |
 
 #### Resolution
 
@@ -1111,7 +1111,7 @@ paths:
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| One or more POST [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#operationObject) in your API definition doesn't contain a [request body object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#requestBodyObject). Even though the HTTP protocol allows POST requests without a body, this often hides a design problem. | Add a request body object to any POST operation objects. |
+| One or more POST [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#operationObject) in your API definition don't contain a [request body object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#requestBodyObject). Even though the HTTP protocol allows POST requests without a body, this often hides a design problem. | Add a request body object to any POST operation objects. |
 
 #### Resolution
 
@@ -1167,7 +1167,7 @@ paths:
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| One or more PATCH [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#operationObject) in your API definition doesn't contain a [request body object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#requestBodyObject). Since PATCH operations are used to make partial updates, a PATCH method needs to include a request body. | Add a request body object to any PATCH operation objects. |
+| One or more PATCH [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#operationObject) in your API definition don't contain a [request body object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#requestBodyObject). Since PATCH operations are used to make partial updates, a PATCH method needs to include a request body. | Add a request body object to any PATCH operation objects. |
 
 #### Resolution
 
@@ -1195,7 +1195,7 @@ paths:
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| One or more body parameter object [schema](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#schemaObject) in your API definition doesn't contain an example. It's important to provide an example of the request body to help your API's consumers understand what data they'll receive. It may also help them to generate [mock servers](/docs/designing-and-developing-your-api/mocking-data/) or a [collection](/docs/getting-started/creating-the-first-collection/). | Add an `example` field to the schema of all body parameters. |
+| One or more body parameter object [`schema`](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#schemaObject) in your API definition don't contain an example. It's important to provide an example of the request body to help your API's consumers understand what data they'll receive. It may also help them to generate [mock servers](/docs/designing-and-developing-your-api/mocking-data/) or a [collection](/docs/getting-started/creating-the-first-collection/). | Add an `example` field to the schema of all body parameters. |
 
 #### Resolution
 
@@ -1268,7 +1268,7 @@ paths:
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| One or more [response objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#response-object) in your API definition doesn't contain an example. It's important to provide an example of the response to help your API's consumers understand what data they'll receive. It may also help them to generate [mock servers](/docs/designing-and-developing-your-api/mocking-data/) or a [collection](/docs/getting-started/creating-the-first-collection/). | Add an `examples` field to all response objects. |
+| One or more [response objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#response-object) in your API definition don't contain an example. It's important to provide an example of the response to help your API's consumers understand what data they'll receive. It may also help them to generate [mock servers](/docs/designing-and-developing-your-api/mocking-data/) or a [collection](/docs/getting-started/creating-the-first-collection/). | Add an `examples` field to all response objects. |
 
 #### Resolution
 
@@ -1352,7 +1352,7 @@ definitions:
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| One or more [schema objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#schemaObject) in the [definitions object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#definitions-object) doesn't contain a `description`. When the schema name and context don't provide enough information for your API's designers and consumers, a description can provide them with useful information about the reusable schema. | Add a `description` for every reusable schema in your API definition. |
+| One or more [schema objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#schemaObject) in the [definitions object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#definitions-object) don't contain a `description`. When the schema name and context don't provide enough information for your API's designers and consumers, a description can provide them with useful information about the reusable schema. | Add a `description` for every reusable schema in your API definition. |
 
 #### Resolution
 
@@ -1371,7 +1371,7 @@ definitions:
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| One or more properties in a [schema object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#schemaObject) in your API definition doesn't contain a `description`. When the schema name and context don't provide enough information for your API's consumers, a description can provide them with useful information about the element. A complicated description may indicate a problem in the API's definition or design, so spending the time to create a description can be clarifying. | Add a `description` for every property in your schema object. |
+| One or more properties in a [schema object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#schemaObject) in your API definition don't contain a `description`. When the schema name and context don't provide enough information for your API's consumers, a description can provide them with useful information about the element. A complicated description may indicate a problem in the API's definition or design, so spending the time to create a description can be clarifying. | Add a `description` for every property in your schema object. |
 
 #### Resolution
 
@@ -1397,7 +1397,7 @@ paths:
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| One or more [schema objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#schemaObject) in your API definition has an array type property but doesn't define `minItem` or `maxItem`. Consumers and providers can't handle an infinite number of elements. Setting the minimum and maximum boundaries helps in defining limits and enabling pagination. | Make sure that properties that have array type in your API definition  have `minItem` and `maxItem` defined. |
+| One or more [schema objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#schemaObject) in your API definition have an array type property but don't define `minItem` or `maxItem`. Consumers and providers can't handle an infinite number of elements. Setting the minimum and maximum boundaries helps in defining limits and enabling pagination. | Make sure that properties that have array type in your API definition  have `minItem` and `maxItem` defined. |
 
 #### Resolution
 
