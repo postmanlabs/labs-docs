@@ -142,4 +142,3 @@ This command runs validation checks for governance and security rules against th
 postman api lint my-definition-file.json
 postman api lint 8854915-bb7236b2-536e-4bdc-bfa2-fbe2fe1941eb
 ```
-
