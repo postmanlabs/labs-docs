@@ -90,7 +90,7 @@ To view the documentation for an OpenAPI 3.0 API:
 1. Select **APIs** in the sidebar and select an API.
 1. On the API's overview, under **Definition**, select **View schema documentation**.
 
-<img alt="Viewing schema documentation" src="https://assets.postman.com/postman-docs/v10/documentation-view-schema-docs-v10.jpg" />
+<img alt="Viewing schema documentation" src="https://assets.postman.com/postman-docs/v10/documentation-view-schema-docs-v10a.jpg" />
 
 ### Creating new documentation for an API
 
