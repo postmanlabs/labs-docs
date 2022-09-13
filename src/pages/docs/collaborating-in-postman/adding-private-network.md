@@ -206,7 +206,7 @@ To add a workspace to the Private API Network from the API Builder:
 You can also add a workspace from inside your team's Private API Network:
 
 1. Open your [Private API Network](https://go.postman.co/network/private).
-1. Select **Add to network**
+1. Select **Add to network**.
 1. Search for and select the workspace you want to add.
 1. (Optional) Select a folder or create one to keep elements organized.
 1. Select **Add**.
