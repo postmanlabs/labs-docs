@@ -87,7 +87,7 @@ If an issue arises when you run a request, select the warning message next to th
 
 If your issue relates to another element, open your API from the sidebar and locate the element:
 
-* Documentation and collections are on the API's overview. <!-- VERIFY THIS STEP -->
+* Documentation and collections are on the API's overview.
 * To view tests, select **Test and Automation**.
 
 If Postman finds any issues during validation, view them by selecting **Issues found** > **View issues**. This will take you to a page summarizing validation issues.
