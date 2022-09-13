@@ -161,7 +161,7 @@ To view the specific security warnings that Postman applies to all requests, see
 
 If it finds any potential security risks, Postman adds the number of warnings to the **Security** tab in the response.
 
-<!-- TODO: screenshot -->
+<img alt="Security tab showing one warning" src="https://assets.postman.com/postman-docs/v10/api-response-security-tab-v10.jpg" width="900px"/>
 
 To view the list of security warnings and to get more information about specific warnings:
 
@@ -169,7 +169,7 @@ To view the list of security warnings and to get more information about specific
 1. For more details, select a warning to expand it.
 1. Select **Possible fix** to learn about possible ways to fix the underlying problem.
 
-<!-- TODO: screenshot -->
+<img alt="Select Possible fix in a security warning" src="https://assets.postman.com/postman-docs/v10/api-response-security-tab-possible-fix-v10.jpg" width="900px"/>
 
 ### Hiding security warnings
 
@@ -182,11 +182,11 @@ This will turn the warning off for all members of your team, but only for this r
 
 > To turn a warning off globally for your team, you can [configure your API Security rules](/docs/api-governance/configuring-api-security-rules/) (available for [Enterprise teams only](https://www.postman.com/pricing/)).
 
-<!-- TODO: screenshot -->
+<img alt="Select Hide warning in a security warning" src="https://assets.postman.com/postman-docs/v10/api-response-security-tab-hide-warning-v10.jpg" width="900px"/>
 
 When you or another member of your team has hidden a warning, Postman shows a message in the **Security** tab to indicate how many are hidden. To turn this warning back on later:
 
 1. Select **Review**.
 1. Review your hidden warnings and select the eye icon <img alt="Eye icon" src="https://assets.postman.com/postman-docs/eye.jpg#icon" width="16px"> next to the one you want to turn back on.
 
-<!-- TODO: screenshot -->
+<img alt="Review hidden security warnings" src="https://assets.postman.com/postman-docs/v10/api-response-security-tab-review-hidden-warnings-v10.jpg" width="900px"/>
