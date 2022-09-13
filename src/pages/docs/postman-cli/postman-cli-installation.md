@@ -24,8 +24,7 @@ You can download and install the Postman CLI manually or programmatically (with 
 ## Contents
 
 * [System requirements](#system-requirements)
-* [Linux installation](#linux-installation)
-* [Mac (Apple chip) installation](#mac-apple-chip-installation)
+* [Linux installation](#linux-installation)<!-- * [Mac (Apple chip) installation](#mac-apple-chip-installation)-->
 * [Mac (Intel) installation](#mac-intel-installation)
 * [Windows installation](#windows-installation)
 
@@ -41,6 +40,7 @@ Run the following command to install the Postman CLI for Linux. This will downlo
 curl -o- "https://dl-cli.pstmn.io/install/linux64.sh" | bash
 ```
 
+<!--
 ## Mac (Apple chip) installation
 
 Run the following command to install the Postman CLI for Macs with Apple M1/M2 chips. This will download an install script and run it. The install script creates a `/usr/local/bin` directory if it does not exist yet, then installs a `postman` binary there.
@@ -48,6 +48,7 @@ Run the following command to install the Postman CLI for Macs with Apple M1/M2 c
 ``` bash
 curl -o- "https://dl-cli.pstmn.io/install/osx_arm64.sh" | bash
 ```
+-->
 
 ## Mac (Intel) installation
 

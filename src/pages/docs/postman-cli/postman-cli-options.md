@@ -84,11 +84,13 @@ curl -o- "https://dl-cli.pstmn.io/install/linux64.sh" | bash
 curl -o- "https://dl-cli.pstmn.io/install/osx_64.sh" | bash
 ```
 
+<!--
 ### Mac (Apple chip)
 
 ``` bash
 curl -o- "https://dl-cli.pstmn.io/install/osx_arm64.sh" | bash
 ```
+-->
 
 ### Windows
 
