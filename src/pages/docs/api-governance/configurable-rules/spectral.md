@@ -82,7 +82,7 @@ You will find each rule defined in `rules` in the **Custom Rules** section in th
 
 ## Spectral rule properties
 
-Property | Description
+|<div style="width:110px">Property</div> | Description
 --- | ---
 `description` | An optional description of the rule. If you provide one, it will be shown in the configurable rules page for either API Governance or API Security.
 `message` | If the rule is triggered, the list of rule violations will contain the `message`, used in Postman as the name of the rule. This message aims to help users solve the problem. Keep it as short and meaningful as possible. It can contain optional placeholders: <br><ul><li>`{{error}}` - The error message returned by `function`.</li><li>`{{description}}` - The description of the rule.</li><li>`{{path}}` - The path of the error (the last element is the `property` below).</li><li>`{{property}}` - The name of the property causing the error. This is useful when `given` returns many different property names or when `then` is a list that uses multiple `fields`).</li><li>`{{value}}` - The value causing the error.</li></ul><br> If `message` isn't provided, the `description` is used instead. And if `description` isn't available, the rule's key (in `rules`) is used.
