@@ -113,4 +113,7 @@ You can also apply all changes by selecting **Select all changes**, then **Confi
 
 You can access the updated API element by selecting **View Updated Collection** from the confirmation screen. If you didn't apply all changes, you can also review the remaining issues by selecting **View Remaining Issues**.
 -->
-> If you've been using this feature, the Postman team would like to hear from you! You can provide feedback on [the community forum](https://community.postman.com/t/user-feedback-updating-api-elements/13308).
+
+## Validating elements
+
+The ability to compare your API definitions against documentation and test collections to determine if the elements need changes to stay in sync is no longer supported in Postman v10. If you've been using this feature, you can provide feedback on [the community forum](https://community.postman.com/t/user-feedback-updating-api-elements/13308).

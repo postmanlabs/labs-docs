@@ -35,7 +35,6 @@ To add an element, it must be in the same workspace as your API. The element wil
 ## Contents
 
 * [Adding a collection](#adding-a-collection)
-* [Adding an environment](#adding-an-environment)
 * [Removing elements from an API](#removing-elements-from-an-api)
 
 ## Adding a collection
@@ -75,7 +74,7 @@ To generate a new collection from your API definition:
 The collection displays on your API's overview and under your API in the sidebar. To view documentation for the collection, expand the collection and select **View full documentation**.
 
 > You can also generate a collection when you import an API. For more information, see [importing an API](/docs/designing-and-developing-your-api/importing-an-api/).
-
+<!--
 ## Adding an environment
 
 An environment is a set of related variables you can use in Postman requests. Add an environment to resolve any variables used in the collections linked to your API.
@@ -86,7 +85,7 @@ To add an environment to your API:
 1. In the sidebar, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to an environment and select **Add to API**.
 1. Select the **API** you want to add the environment to, then select **Add environment**.
 
-This makes a copy of the environment in your API, which is not synced with the original. The environment displays under your API in the sidebar. Select the environment to view or add variables. Learn more about [managing environments](/docs/sending-requests/managing-environments/).
+This makes a copy of the environment in your API, which is not synced with the original. The environment displays under your API in the sidebar. Select the environment to view or add variables. Learn more about [managing environments](/docs/sending-requests/managing-environments/). -->
 
 ## Removing elements from an API
 
