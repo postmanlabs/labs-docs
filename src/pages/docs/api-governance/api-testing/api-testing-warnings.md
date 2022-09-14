@@ -10,7 +10,7 @@ contextual_links:
 search_keyword: "api security, security warnings, security validation, api security audit, api security scan, security audit"
 ---
 
-Postman applies security rules configured for your [API requests](/docs/api-governance/api-testing/api-testing-warnings/) when you send requests to any API using either the Postman web app or the Postman desktop app. A security warning doesn't mean that your API is broken! Instead, it indicates that there are potential security risks that your API might be vulnerable to. Postman highlights these security warnings and helps you understand their implications and possible ways to patch the warnings.
+Postman applies security rules configured for your API requests when you send requests to any API using either the Postman web app or the Postman desktop app. A security warning doesn't mean that your API is broken! Instead, it indicates that there are potential security risks that your API might be vulnerable to. Postman highlights these security warnings and helps you understand their implications and possible ways to patch the warnings.
 
 > **Rule customization**. You can also customize the rules that Postman applies to your API requests ([Enterprise teams only](https://www.postman.com/pricing/)). For more information, see [Configuring API Security rules](/docs/api-governance/configurable-rules/configuring-api-security-rules/).
 
