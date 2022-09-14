@@ -41,6 +41,7 @@ Postman Enterprise provides you with advanced API Governance and API Security fe
 * **Public link governance** - View and manage elements like workspaces, documentation, and collection links that your team [makes public](/docs/collaborating-in-postman/manage-public-elements/).
 * **Audit logs** - Use [audit logs](/docs/administration/audit-logs/) to understand how your team members are using Postman.
 * **API Governance and API Security warnings** - Customizable API Governance and API Security warnings enable you to apply standards consistently throughout your API development process's [design](/docs/api-governance/api-definition/api-definition-warnings/) and [testing](/docs/api-governance/api-testing/api-testing-warnings/) phases. You can also use the [Postman CLI](/docs/postman-cli/postman-cli-overview/) to return API Governance and API Security warnings.
+* **Static IP monitoring** - Use collection-based monitors to monitor APIs that are behind a restricted firewall. To learn more about static IP monitoring, see [Running monitors using static IPs](/docs/monitoring-your-api/using-static-IPs-to-monitor/).
 
 ### Collaboration
 
@@ -49,7 +50,6 @@ Postman Enterprise enables your organization to collaborate internally and with 
 * **Private API Network** - Users with the Enterprise-only API Network Manager role can approve which APIs to add to your Private API Network. For more information, see [Using the approval process workflow](/docs/collaborating-in-postman/adding-private-network/#using-the-approval-process-workflow).
 * **Partner workspaces** - Your organization can invite partners to a shared workspace to collaborate and build products and services with your APIs. To learn more about partner workspaces, see [Partner workspaces](/docs/collaborating-in-postman/using-workspaces/partner-workspaces/).
 * **Advanced version control** - Manage permissions for reviewers and assign merge checks for forks on Postman elements. For more details, see [Pull request settings](/docs/collaborating-in-postman/version-control/#pull-request-settings).
-* **Static IP monitoring** - Use collection-based monitors to monitor APIs that are behind a restricted firewall. To learn more about static IP monitoring, see [Running monitors using static IPs](/docs/monitoring-your-api/using-static-IPs-to-monitor/).
 
 ### Administration
 
