@@ -645,21 +645,21 @@ export const leftNavItems = [
         subMenuItems2: [
           {
             name: 'Configurable rules overview',
-            url: '/docs/api-governance/configurable-rules/configurable-rules-overview/'
+            url: '/docs/api-governance/configurable-rules/configurable-rules-overview/',
           },
           {
             name: 'Configuring API Governance rules',
-            url: '/docs/api-governance/configurable-rules/configuring-api-governance-rules/'
+            url: '/docs/api-governance/configurable-rules/configuring-api-governance-rules/',
           },
           {
             name: 'Configuring API Security rules',
-            url: '/docs/api-governance/configurable-rules/configuring-api-security-rules/'
+            url: '/docs/api-governance/configurable-rules/configuring-api-security-rules/',
           },
           {
             name: 'Using Spectral in Postman',
-            url: '/docs/api-governance/configurable-rules/spectral/'
+            url: '/docs/api-governance/configurable-rules/spectral/',
           },
-        ]
+        ],
       },
     ],
   },
