@@ -52,7 +52,7 @@ You can create new custom security rules that Postman can use to evaluate your A
 1. The rule must be valid YAML or JSON. Use the dropdown list to choose the correct syntax.
 1. Select OpenAPI 2.0 or OpenAPI 3.0 to choose which specification your new rule is valid for.
 1. Select **Create**.
-    <!-- TODO: screenshot -->
+    <img alt="Create a custom API Security rule" src="https://assets.postman.com/postman-docs/v10/api-security-create-new-custom-rule-v10.jpg" width="800px"/>
 1. Find your new rule under **Custom Rules** and turn it on.
 
 You can also select **Upload file(s)** to upload a new rule in valid YAML or JSON format.

@@ -31,7 +31,11 @@ In addition to the rules turned on by default in Postman, you can add other rule
 
 > Only Team Admins with a [Developer role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can import API Governance rules from the Postman library.
 
-Select **Import From Library**. To see more details about a particular rule, select the expand icon **>** next to the rule name. Select the rules in the library you want to add, then select **Import selected**. If you want to import all the rules, select **Import all**. Once you import new rules from the library, you need to turn them on in the Governance dashboard.
+Select **Import From Library**. To see more details about a particular rule, select the expand icon **>** next to the rule name. Select the rules in the library you want to add, then select **Import selected**. If you want to import all the rules, select **Import all**.
+
+<img alt="Import API Governance rule from Postman library" src="https://assets.postman.com/postman-docs/v10/api-governance-import-from-library-v10.jpg" width="800px"/>
+
+Once you import new rules from the library, you need to turn them on in the Governance dashboard.
 
 ### Adding custom rules
 
@@ -44,7 +48,7 @@ You can create new custom governance rules for Postman to evaluate your API's de
 1. The rule must be valid YAML or JSON. Use the dropdown list to choose the correct syntax.
 1. Select OpenAPI 2.0 or OpenAPI 3.0 to choose which specification your new rule is valid for.
 1. Select **Create**.
-    <!-- TODO: screenshot -->
+    <img alt="Create a custom API Governance rule" src="https://assets.postman.com/postman-docs/v10/api-governance-create-custom-rule-v10.jpg" width="800px"/>
 1. Find your new rule under **Custom Rules** and turn it on.
 
 You can also select **Upload file(s)** to upload a new rule in valid YAML or JSON format.
