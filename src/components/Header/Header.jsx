@@ -411,12 +411,7 @@ class Header extends React.Component {
                         >
                           Docs
                         </a>
-                        <a
-                          className="dropdown-item"
-                          href="https://www.postman.com/webinars/"
-                        >
-                          Webinars
-                        </a>
+                        
                         <a
                           className="dropdown-item"
                           href="https://www.postman.com/events/breaking-changes/"
@@ -440,6 +435,12 @@ class Header extends React.Component {
                           href="https://www.postman.com/state-of-api/"
                         >
                           State of the API
+                        </a>
+                        <a
+                          className="dropdown-item"
+                          href="https://www.postman.com/api-first/"
+                        >
+                          Guide to API-First
                         </a>
                       </div>
                       <div className="col-sm-6 col-md-4 dropdown-col">
@@ -467,12 +468,6 @@ class Header extends React.Component {
                           href="https://www.postman.com/company/student-program/student-summit/"
                         >
                           Student Summit
-                        </a>
-                        <a
-                          className="dropdown-item"
-                          href="https://www.postman.com/postman-galaxy/"
-                        >
-                          Postman Galaxy
                         </a>
                         <a
                           className="dropdown-item"
