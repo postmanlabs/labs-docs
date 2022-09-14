@@ -60,7 +60,7 @@ curl -o- "https://dl-cli.pstmn.io/install/osx_64.sh" | bash
 
 ## Windows installation
 
-Run the following commands to install the Postman CLI for Windows. This will download an install script and run it. The install script creates a `C:\Postman CLI` directory if it does not exist yet, then installs a `postman` binary there. The install script also adds `C:\Postman CLI` to the `PATH` environment variable.
+Run the following commands to install the Postman CLI for Windows. This will download an install script and run it. The install script creates a `%USERPROFILE%\AppData\Local\Postman CLI` directory if it does not exist yet, then installs a `postman` binary there. The install script also adds `%USERPROFILE%\AppData\Local\Postman CLI` to the `PATH` environment variable.
 
 Download and run the installation script for your platform from the [download page](https://www.postman.com/downloads/) or with the appropriate script below:
 
