@@ -34,7 +34,7 @@ rules:
           notMatch: /\b(api)\b/i
 ```
 
-First, the rule targets the `title` property of the `info` object located at the root (`$`) of the document with the [JSON Path Plus expression](#json-path-and-json-path-plus) `$.info.title`. In `then`, the function named `pattern` checks whether the value of the `title` property doesn't match (`functionOptions.notMatch`) the regular expression looking for the word "api" in any case (`/\b(api)\b/i`).
+First, the rule targets the `title` property of the `info` object located at the root (`$`) of the document with the [JSON Path Plus expression](#json-path-and-json-path-plus) `$.info.title`. In `then`, the `function` named `pattern` checks whether the value of the `title` property doesn't match (`functionOptions.notMatch`) the regular expression looking for the word "api" in any case (`/\b(api)\b/i`).
 
 ### Rulesets in Spectral documents
 
