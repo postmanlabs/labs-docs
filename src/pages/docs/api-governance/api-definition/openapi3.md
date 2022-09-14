@@ -426,7 +426,7 @@ components:
    type: openIdConnect
    openIdConnectUrl: https://example.com/connect
 paths:
- "/pets":
+ '/pets':
   post:
    operationId: addPet
    servers:
@@ -552,7 +552,7 @@ components:
     OAuth2:
       type: oauth2
 paths:
-  "/pets":
+  '/pets':
     post:
       operationId: addPet
       servers:
@@ -577,7 +577,7 @@ components:
       type: openIdConnect
       openIdConnectUrl: https://my.api.openidconnect.example.com/
 paths:
-  "/pets":
+  '/pets':
     post:
       operationId: addPet
       servers:
@@ -597,7 +597,7 @@ paths:
 
 ```json
 paths:
-  "/pets":
+  '/pets':
     post:
       servers:
       - url: https://example.com/
@@ -625,7 +625,7 @@ security:
 
 ```json
 paths:
-  "/pets":
+  '/pets':
     post:
       servers:
       - url: https://example.com/
@@ -659,7 +659,7 @@ components:
    type: http
    scheme: basic
 paths:
- "/pets":
+ '/pets':
   post:
    operationId: addPet
    servers:
@@ -884,7 +884,6 @@ openapi: '3.0.3'
 info:
   title: An API name
   version: '1.0'
-  description: An API description
   license:
     name: Apache 2.0
     url: https://opensource.org/licenses/Apache-2.0
@@ -905,7 +904,6 @@ openapi: '3.0.3'
 info:
   title: An API name
   version: '1.0'
-  description: An API description
   license:
     name: Apache 2.0
     url: https://opensource.org/licenses/Apache-2.0
@@ -1053,8 +1051,6 @@ openapi: '3.0.3'
 # ...
 paths:
   '/resources':
-    get:
-      operationId: health_check
 ```
 
 &nbsp;

@@ -1008,8 +1008,6 @@ swagger: '2.0'
 # ...
 paths:
   '/resources':
-    get:
-      operationId: health_check
 ```
 
 &nbsp;
@@ -1109,13 +1107,10 @@ paths:
   /resources:
     post:
       parameters:
-        - in: formData
+        - in: body
           name: body
           schema:
             type: object
-      responses:
-        '201':
-          description: A success response
 ```
 
 &nbsp;
@@ -1135,13 +1130,10 @@ paths:
   /resources:
     put:
       parameters:
-        - in: formData
+        - in: body
           name: body
           schema:
             type: object
-      responses:
-        '201':
-          description: A success response
 ```
 
 &nbsp;
@@ -1161,13 +1153,10 @@ paths:
   /resources:
     patch:
       parameters:
-        - in: formData
+        - in: body
           name: body
           schema:
             type: object
-      responses:
-        '201':
-          description: A success response
 ```
 
 &nbsp;
@@ -1258,7 +1247,7 @@ paths:
           description: A success response
           examples:
             'application/json':
-              value: example
+              aProperty: example value
 ```
 
 &nbsp;
