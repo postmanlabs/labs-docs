@@ -211,7 +211,7 @@ You can also add a workspace from inside your team's Private API Network:
 1. (Optional) Select a folder or create one to keep elements organized.
 1. Select **Add**.
 
-When you add a workspace to the [Private API Network](https://go.postman.co/network/private), it's visible to your Postman team, but isn't visible to [partners](/docs/collaborating-in-postman/using-workspaces/partner-workspaces/).
+When you add a workspace to the [Private API Network](https://go.postman.co/network/private), it's visible to your Postman team.
 
 ### Adding collections
 
@@ -234,7 +234,7 @@ You can also add a collection while in your team's Private API Network:
 1. (Optional) Select a folder or create one to keep elements organized.
 1. Select **Add**.
 
-When you add a collection to the [Private API Network](https://go.postman.co/network/private), it's visible to your Postman team, but isn't visible to [partners](/docs/collaborating-in-postman/using-workspaces/partner-workspaces/).
+When you add a collection to the [Private API Network](https://go.postman.co/network/private), it's visible to your Postman team.
 
 The collections that you add to the Private API Network reflect the latest state of the collection in your team workspace. In other words, changes made to the collection in the workspace are reflected in the network in real time.
 
@@ -258,7 +258,7 @@ You can also add an API while in your team's Private API Network:
 1. (Optional) Select a folder or create one to keep elements organized.
 1. Select **Add**.
 
-When you add an API to the [Private API Network](https://go.postman.co/network/private), it's visible to your Postman team, but isn't visible to [partners](/docs/collaborating-in-postman/using-workspaces/partner-workspaces/).
+When you add an API to the [Private API Network](https://go.postman.co/network/private), it's visible to your Postman team.
 
 The APIs that you add to the Private API Network reflect the latest state of the API in your team workspace. In other words, changes made to the API in the workspace are reflected in the network in real time.
 
