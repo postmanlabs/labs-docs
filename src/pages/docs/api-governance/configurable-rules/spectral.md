@@ -24,7 +24,7 @@ A Spectral rule targets a given location using a [JSON Path Plus expression](#js
 
 This example shows how to check that the name of an API doesn't contain the word "API," regardless of case (for instance, "api" or "Api").
 
-```
+```json
 rules:
   api-name-doesnt-contain-api:
     given: $.info.title
@@ -40,7 +40,7 @@ First, the rule targets the `title` property of the `info` object located at the
 
 A Spectral document (often called a ruleset) contains a `rules` property that can have one or more rules.
 
-```
+```json
 rules:
 api-name-doesnt-contain-api:
 # ...
@@ -56,7 +56,7 @@ Postman supports many of Spectral's features, though not all.
 
 Whether it's created within Postman or imported from another source, a Spectral document needs to contain the properties shown in the example below:
 
-```
+```json
 rules:
   api-name-doesnt-contain-api:
     description: The API name must not contain the word API
@@ -117,7 +117,7 @@ These examples show the typical JSON Path Plus features you'll need to create ru
 
 The following rule is supposed to check that there's a description of the API. Unfortunately, it will never return a rule violation when the `description` isn't present in the `info` object.
 
-```
+```json
 # this approach won't work!
 
 rules:
@@ -129,7 +129,7 @@ rules:
 
 If the `given` path doesn't find any value, the `then` checks won't be executed. This means you can't use the path `$.info.description` to check that the API description is defined in the OpenAPI document. This verification must be done using the path `$.info`, which will return the `info` object and the `field`  value set with the name of the field you're looking for (in this example, `description`).
 
-```
+```json
 # this approach will work
 
 rules:

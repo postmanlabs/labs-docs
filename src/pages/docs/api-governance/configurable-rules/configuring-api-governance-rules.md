@@ -6,7 +6,7 @@ search_keyword: "api governance, schema validation, api schema vulnerabilities"
 
 > [Configurable governance rules are only available to Postman Enterprise teams.](https://www.postman.com/pricing) If you don't have an Enterprise account, you'll be able to see the API Governance page, but you won't be able to turn rules on or off or add new rules.
 
-You can customize the API Governance rules that Postman applies to your [API definitions](/docs/designing-and-developing-your-api/defining-an-api/). Adhering to these API Governance rules early in the API lifecycle keeps your API consistent without requiring additional work at later stages, which can prevent unnecessary delays for your organization.
+You can customize the API Governance rules that Postman applies to your [API definitions](/docs/api-governance/api-definition/api-definition-warnings/). Adhering to these API Governance rules early in the API lifecycle keeps your API consistent without requiring additional work at later stages, which can prevent unnecessary delays for your organization.
 
 <img alt="API Governance configuration page" src="https://assets.postman.com/postman-docs/v10/api-governance-configuration-home-v10.jpg" width="900px"/>
 
@@ -21,7 +21,10 @@ You can customize the API Governance rules that Postman applies to your [API def
 
 ## Accessing the configurable API Governance rules
 
-To access the configurable API Governance rules, go to the [Postman home screen](https://go.postman.co/), then select **API Governance** from the team information panel.
+To access the configurable API Governance rules:
+
+1. Go to the [Postman home screen](https://go.postman.co/).
+1. Select **API Governance** from the team information panel.
 
 ## Adding rules to your API Governance configuration
 
@@ -72,4 +75,4 @@ Your team can turn individual governance rules on or off to meet your developmen
 
 To remove an API Governance rule, select the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> next to its name. You can re-import from the rule library by selecting **Import from library**.
 
-> **Removing custom rules**. If you remove a custom rule using the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px">, you'll need to add it back into Postman using **Create New Rule** if you want to use it again.
+If you remove a custom rule using the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px">, you'll need to add it back into Postman using **Create New Rule** if you want to use it again.

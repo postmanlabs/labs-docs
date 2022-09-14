@@ -6,7 +6,7 @@ search_keyword: "api security, security warnings, schema validation, security va
 
 > [Configurable security rules are only available to Postman Enterprise teams.](https://www.postman.com/pricing) If you don't have an Enterprise account, you'll be able to see the API Security page, but you won't be able to turn rules on or off or add new rules.
 
-You can customize the API Security rules that Postman applies to your [API definition](/docs/designing-and-developing-your-api/defining-an-api/) and [requests](https://learning.postman.com/docs/api-governance/api-testing/api-testing-warnings/). Adhering to these API Security rules enables you keep your API secure and consistent.
+You can customize the API Security rules that Postman applies to your [API definition](/docs/api-governance/api-definition/api-definition-warnings/) and [requests](/docs/api-governance/api-testing/api-testing-warnings/). Adhering to these API Security rules enables you keep your API secure and consistent.
 
 <img alt="API Security configuration page" src="https://assets.postman.com/postman-docs/v10/api-security-configuration-home-v10.jpg" width="900px"/>
 
@@ -63,7 +63,7 @@ You can also select **Upload file(s)** to upload a new rule in valid YAML or JSO
 
 > You must be a Team Admin with a [Developer role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) to delete a custom security rule.
 
-To delete a custom rule, select the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> next to its name. If you delete a custom rule, you'll need to add it back into Postman if you want to use it again.
+To delete a custom rule, select the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> next to its name. If you delete a custom rule, you'll need to add it back into Postman using **Create New Rule** if you want to use it again.
 
 ## Configuring rules for requests
 
