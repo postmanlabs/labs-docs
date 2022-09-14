@@ -138,7 +138,7 @@ securityDefinitions:
 swagger: '2.0'
 #...
 paths:
-  "/user":
+  '/user':
     get:
       summary: 'Sample endpoint: Returns details about a particular user'
       operationId: listUser
@@ -460,7 +460,7 @@ swagger: '2.0'
 #...
 host: 'example.com'
 paths:
-  "/user":
+  '/user':
     get:
       summary: 'Sample endpoint: Returns details about a particular user'
       schemes:
@@ -491,7 +491,7 @@ swagger: '2.0'
 #...
 host: 'example.com'
 paths:
-  "/user":
+  '/user':
     get:
       summary: 'Sample endpoint: Returns details about a particular user'
       schemes:
@@ -521,7 +521,7 @@ swagger: '2.0'
 #...
 host: 'example.com'
 paths:
-  "/user":
+  '/user':
     get:
       summary: 'Sample endpoint: Returns details about a particular user'
       schemes:
@@ -549,7 +549,7 @@ swagger: '2.0'
 #...
 host: 'example.com'
 paths:
-  "/user":
+  '/user':
     get:
       summary: 'Sample endpoint: Returns details about a particular user'
       schemes:
@@ -819,7 +819,7 @@ This rule category deals with the OpenAPI info object, which contains metadata a
 #### Resolution
 
 ```json
-swagger: "2.0"
+swagger: '2.0'
 info:
   title: An API name
   version: '1.0'
@@ -837,7 +837,7 @@ info:
 #### Resolution
 
 ```json
-swagger: "2.0"
+swagger: '2.0'
 info:
   title: An API name
   version: '1.0'
@@ -857,7 +857,7 @@ info:
 #### Resolution
 
 ```json
-swagger: "2.0"
+swagger: '2.0'
 info:
   title: An API name
   version: '1.0'
@@ -877,7 +877,7 @@ info:
 #### Resolution
 
 ```json
-swagger: "2.0"
+swagger: '2.0'
 info:
   title: An API name
   version: '1.0'
@@ -895,7 +895,7 @@ info:
 #### Resolution
 
 ```json
-swagger: "2.0"
+swagger: '2.0'
 info:
   title: An API name
   version: '1.0'
