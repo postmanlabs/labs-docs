@@ -61,7 +61,7 @@ To configure a collection run:
 
     > You can also select <img alt="Runner icon" src="https://assets.postman.com/postman-docs/icon-runner-v9.jpg#icon" width="16px"> __Runner__ from the Postman footer and drag a collection from __Collections__ or __History__ in the sidebar.
 
-1. Select **Run manually** to run the collection now, or **Automate runs via CLI** to generate a code snippet to run the collection with the Postman CLI. <!--TODO: link explaining this -->
+1. Select **Run manually** to run the collection now, or **Automate runs via CLI** to generate a code snippet to run the collection with the Postman CLI.
 
 1. If you want your collection to run with an environment, select it using the environment selector at the top right of Postman. You can also select __Environments__ in the sidebar, then select the environment you want to use.
 
