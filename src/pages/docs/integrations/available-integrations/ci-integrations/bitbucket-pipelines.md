@@ -45,7 +45,6 @@ Select **View All Builds** to view the full list of build jobs. From here you ca
 * To start a new build, select **Run Build**. Select or enter the name of the branch to use and select **Run Build**. To cancel a running build, select **Cancel** next to the build.
 * To get the latest build status information, select <img alt="Refresh icon" src="https://assets.postman.com/postman-docs/icon-refresh-v9-5.jpg#icon" width="14px"> **Refresh**.
 * To edit or delete the integration, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px">.
-* To view more details for a build, use the arrows to expand a build and expand **Build Steps**. For each build step you can view the name, duration, and status.
 
 <img alt="View all Bitbucket Pipelines builds" src="https://assets.postman.com/postman-docs/bitbucket-pipelines-builds-v9-19.jpg">
 
@@ -53,7 +52,7 @@ Select **View All Builds** to view the full list of build jobs. From here you ca
 
 Using the Postman CLI, you can run Postman collections with your API tests as part of a Bitbucket pipeline.
 
-To view details for collections that were run as part of a build, first [configure the Postman CLI for Bitbucket Pipelines](#configuring-the-postman-cli-for-bitbucket-pipelines) and then [start a new build](#viewing-build-status). After the build is complete, use the arrows to expand a build and expand **Collection Runs**. Then expand a collection to view details about a collection run.
+To view details for collections that were run as part of a build, first [configure the Postman CLI for Bitbucket Pipelines](#configuring-the-postman-cli-for-bitbucket-pipelines) and then [start a new build](#viewing-build-status). After the build is complete, use the arrows to expand a build and expand a collection to view details about a collection run.
 
 <img alt="View collection runs" src="https://assets.postman.com/postman-docs/bitbucket-pipelines-collection-runs-v9-19.jpg">
 

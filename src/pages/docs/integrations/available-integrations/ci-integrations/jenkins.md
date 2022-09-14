@@ -67,7 +67,7 @@ Select **View Builds** to view the full list of build jobs. From here you can ta
 
 Using the Postman CLI, you can run Postman collections with your API tests as part of a Jenkins pipeline.
 
-To view details for collections that were run as part of a build, first [configure the Postman CLI for Jenkins](#configuring-the-postman-cli-for-jenkins) and then [start a new build](#viewing-build-status). After the build is complete, use the arrows to expand a build and expand **Collection Runs**. Then expand a collection to view details about a collection run.
+To view details for collections that were run as part of a build, first [configure the Postman CLI for Jenkins](#configuring-the-postman-cli-for-jenkins) and then [start a new build](#viewing-build-status). After the build is complete, use the arrows to expand a build and expand a collection to view details about a collection run.
 
 <img alt="View collection runs" src="https://assets.postman.com/postman-docs/jenkins-collection-runs-v9-14.jpg">
 
