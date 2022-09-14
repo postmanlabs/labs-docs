@@ -110,7 +110,7 @@ A multi-file API definition consists of the following components:
 
 ### About root files
 
-An API definition's root file contains references to other files in the API definition. If you made a tree diagram of the relationships between all files in an API definition, the root file would be the file at the top of the tree. When you [create a new API definition](/docs/designing-and-developing-your-api/creating-an-api/) or [import an API](/docs/designing-and-developing-your-api/importing-an-api/), Postman will intelligently determine the root file based on the references across the files.
+An API definition's root file contains references to other files in the API definition. If you made a tree diagram of the relationships between all files in an API definition, the root file would be the file at the top of the tree. When you [create a new API definition](/docs/designing-and-developing-your-api/creating-an-api/) or [import an API](/docs/designing-and-developing-your-api/importing-an-api/), Postman will intelligently determine the root file based on the references across the files. API definitions don't support references which are external links or present within a separate API.
 
 For OpenAPI 3.0 API definitions, Postman detects root files intelligently based on the content and references within files while importing or creating an API definition. You can't set a file as root for OpenAPI 3.0. OpenAPI can only have one root file. If you delete the root file, Postman will recalculate the next candidate for the root file automatically.
 
