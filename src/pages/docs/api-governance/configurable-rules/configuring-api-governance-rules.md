@@ -8,7 +8,7 @@ search_keyword: "api governance, schema validation, api schema vulnerabilities"
 
 You can customize the API Governance rules that Postman applies to your [API definitions](/docs/designing-and-developing-your-api/defining-an-api/). Adhering to these API Governance rules enables you keep your API consistent and consumable.
 
-<!-- TODO: screenshot -->
+<img alt="" src="https://assets.postman.com/postman-docs/v10/api-governance-configuration-home-v10.jpg" width="800px"/>
 
 ## Contents
 
@@ -29,7 +29,7 @@ In addition to the rules turned on by default in Postman, you can add other rule
 
 ### Importing rules from the Postman library
 
-Select **Import from library**. To see more details about a particular rule, select the expand icon **>** next to the rule name. Select the rules in the library you want to add, then select **Import selected**. If you want to import all the rules, select **Import all**. Once you import new rules from the library, you need to turn them on in the Governance dashboard.
+Select **Import From Library**. To see more details about a particular rule, select the expand icon **>** next to the rule name. Select the rules in the library you want to add, then select **Import selected**. If you want to import all the rules, select **Import all**. Once you import new rules from the library, you need to turn them on in the Governance dashboard.
 
 ### Adding custom rules
 
@@ -37,13 +37,13 @@ Select **Import from library**. To see more details about a particular rule, sel
 
 You can create new custom governance rules for Postman to evaluate your API's definition.
 
-1. Select **Create new rule**.
+1. Select **Create New Rule**.
 1. Define the rule in the editor. It must adhere to [custom rule guidelines](/docs/api-governance/configurable-rules/spectral/).
     <!-- TODO: screenshot -->
 1. The rule must be valid YAML or JSON. Use the dropdown list to choose the correct syntax.
 1. Select OpenAPI 2.0 or OpenAPI 3.0 to choose which specification your new rule is valid for.
 1. Select **Create**.
-1. Find your new rule under **Custom rules** and turn it on.
+1. Find your new rule under **Custom Rules** and turn it on.
 
 <!-- TODO: screenshot -->
 

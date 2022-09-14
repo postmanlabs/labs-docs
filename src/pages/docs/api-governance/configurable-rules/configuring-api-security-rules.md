@@ -28,7 +28,7 @@ To access the configuration page for API definitions:
 1. Go to the [Postman home screen](https://go.postman.co/).
 1. Select **API Security** from the team information panel.
     <!-- TODO: screenshot -->
-1. Make sure that **API definitions** is selected.
+1. Make sure that **API Definitions** is selected.
 
 <!-- TODO: screenshot -->
 
@@ -49,14 +49,14 @@ Your team can turn individual security rules on or off to meet your development 
 
 You can create new custom security rules that Postman can use to evaluate your API's definition.
 
-1. Select **API definitions**.
-1. Select **Create new rule**.
+1. Select **API Definitions**.
+1. Select **Create New Rule**.
 1. Define the rule in the editor. It must adhere to [custom rule guidelines](/docs/api-governance/configurable-rules/spectral/).
     <!-- TODO: screenshot -->
 1. The rule must be valid YAML or JSON. Use the dropdown list to choose the correct syntax.
 1. Select OpenAPI 2.0 or OpenAPI 3.0 to choose which specification your new rule is valid for.
 1. Select **Create**.
-1. Find your new rule under **Custom rules** and turn it on.
+1. Find your new rule under **Custom Rules** and turn it on.
 
 <!-- TODO: screenshot -->
 
