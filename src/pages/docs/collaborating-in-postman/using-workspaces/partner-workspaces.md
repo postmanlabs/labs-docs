@@ -43,7 +43,7 @@ To create a Partner Workspace:
 
 Anyone with permissions to create workspaces can request to create a Partner Workspace, but it must be approved by a [Partner Manager](#managing-users-and-roles). If you're not a [Super Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) or Partner Manager, you must submit your request for approval. You can also add an optional note to your request. The workspace's visibility will be set to [private](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#changing-workspace-visibility) until your request is approved. Postman will notify you when a Partner Manager reviews your request and approves or denies it.
 
-<img alt="Create Partner Workspace approval" src="https://assets.postman.com/postman-docs/v10/partner-workspace-approval-warning-v10.jpg" width="450px" />
+<img alt="Create Partner Workspace approval" src="https://assets.postman.com/postman-docs/v10/partner-workspaces-visibility-request-v10.jpg" width="450px" />
 
 To convert an existing workspace to a Partner Workspace:
 
@@ -61,7 +61,7 @@ Before sharing a Partner Workspace with external collaborators, you can set your
 
 ### Moving elements to a Partner Workspace
 
-You must be an Editor on an API, collection, or environment, the Workspace Admin, or a Super Admin to move an element to a Partner Workspace. To move an element:
+You must be an Editor on an API, collection, or environment, the Workspace Admin, Partner Manager, or a Super Admin to move an element to a Partner Workspace. To move an element:
 
 1. In the sidebar, select the element you want to move. Then select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> > **Move**.
 
@@ -94,7 +94,7 @@ To invite partners to a Partner Workspace:
 
 Partner invites must be accepted by the email ID you provide when inviting the individual. If a partner would like to use a different email ID, or if an invite was mistakenly sent, you can [revoke the invite](/docs/administration/managing-your-team/managing-your-team/#managing-invitations) and send a new one.
 
-> Partners will sign in to your team with a Postman password, even if your team is restricted to signing in with [SSO](/docs/administration/sso/intro-sso/).
+> Partners will sign in to your team with a Postman username and password, even if your team is restricted to signing in with [SSO](/docs/administration/sso/intro-sso/).
 
 Workspace Admins and Partner Managers can invite team members to Partner Workspaces.
 
@@ -122,7 +122,7 @@ Team members can also be assigned the team-level Partner Manager role. Partner M
 
 When an external partner is invited to a Partner Workspace by a team they're working with, they only have access to that Partner Workspace and can't access any other workspaces or resources within the team. Partners don't have personal or team workspaces within the team they're partnering with.
 
-Within a Partner Workspace, partners can [import and export](/docs/getting-started/importing-and-exporting-data/) elements. They can also [fork elements](/docs/collaborating-in-postman/version-control/#forking-postman-entities) from the Partner Workspace to another workspace, even if it's outside of your team.
+Within a Partner Workspace, partners with the Workspace Editor role can [import and export](/docs/getting-started/importing-and-exporting-data/) elements. They can also [fork elements](/docs/collaborating-in-postman/version-control/#forking-postman-entities) within the same Partner Workspace or to another Partner Workspace within the same team. They can't fork elements outside the team.
 
 At the team level, all external partners are automatically assigned the Partner role. At the workspace level, all partners are assigned [Workspace Editor or Viewer](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles) roles when invited to a Partner Workspace. Partners can also be assigned the Partner Lead role, which enables them to invite other individuals from their organization to the Partner Workspace.
 
@@ -130,7 +130,7 @@ At the team level, all external partners are automatically assigned the Partner 
 
 ## Managing a Partner Workspace
 
-Workspace Admins and Partner Managers manage workspace settings, members, and roles within a Partner Workspace. Partner Leads also manage members and roles in Partner Workspaces.
+Workspace Admins and Partner Managers manage workspace settings, members, and roles within a Partner Workspace. Partner Leads also manage members and roles of partners in Partner Workspaces.
 
 ### Managing users and roles
 
@@ -159,7 +159,7 @@ Workspace Admins and Partner Managers can edit Partner Workspace details. On the
 
 ## Removing elements from a Partner Workspace
 
-You must be an Editor on an API, collection, or environment, the Workspace Admin, or a Super Admin to remove an element from a Partner Workspace.
+You must be an Editor on an API, collection, or environment, the Workspace Admin, Partner Manager, or a Super Admin to remove an element from a Partner Workspace.
 
 To remove an element by moving it to another workspace:
 
@@ -180,8 +180,8 @@ It's not recommended, but you can choose to delete an element entirely. To do so
 Workspace Admins and Partner Managers can delete Partner Workspaces. To delete a Partner Workspace:
 
 1. On the workspace's **Overview** tab, select **Workspace Settings**.
-1. Select the role next to each partner in the workspace, then select **Remove from workspace**.
-1. Once you've removed all partners from the workspace, [change the visibility of the workspace](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#changing-workspace-visibility) to **Team** or **Private**.
+1. [Change the visibility of the workspace](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#changing-workspace-visibility) to **Private**.
+1. Select **Remove all partners**, then select **Update**.
 1. Select **Delete Workspace**.
 
 > Postman notifies all workspace members in-app and by email when you delete a Partner Workspace.
