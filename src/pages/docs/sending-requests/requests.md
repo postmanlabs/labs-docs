@@ -85,7 +85,7 @@ Your requests can include multiple details determining the data Postman will sen
 
 You can create a new request from the Postman home screen, by using __New__ &gt; __HTTP Request__, or by selecting __+__ to open a new tab.
 
-[![New Screen](https://assets.postman.com/postman-docs/new-request-v9.jpg)](https://assets.postman.com/postman-docs/new-request-v9.jpg)
+![Create New Screen](https://assets.postman.com/postman-docs/v10/new-request-v10.jpg)
 
 Select __Save__ to create your request. You can give your request a name and description, and choose or create a collection to save it in.
 
