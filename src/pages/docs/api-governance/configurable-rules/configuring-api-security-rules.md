@@ -8,7 +8,7 @@ search_keyword: "api security, security warnings, schema validation, security va
 
 You can customize the API Security rules that Postman applies to your [API definition](/docs/designing-and-developing-your-api/defining-an-api/) and [requests](https://learning.postman.com/docs/api-governance/api-testing/api-testing-warnings/). Adhering to these API Security rules enables you keep your API secure and consistent.
 
-<!-- TODO: screenshot -->
+<img alt="API Security configuration page" src="https://assets.postman.com/postman-docs/v10/api-security-configuration-home-v10.jpg" width="900px"/>
 
 ## Contents
 
@@ -27,10 +27,7 @@ To access the configuration page for API definitions:
 
 1. Go to the [Postman home screen](https://go.postman.co/).
 1. Select **API Security** from the team information panel.
-    <!-- TODO: screenshot -->
 1. Make sure that **API Definitions** is selected.
-
-<!-- TODO: screenshot -->
 
 ### Turning configured rules on and off
 
@@ -41,7 +38,7 @@ Your team can turn individual security rules on or off to meet your development 
 * To turn a security rule on, select the toggle next to the rule name. You and your team members will see violations for this rule in your API's definition.
 * To turn a security rule off, select the toggle next to the rule name. You and your team members won't see violations for this rule in your API's definition.
 
-<!-- TODO: screenshot -->
+<img alt="Turn individual rules on and off" src="https://assets.postman.com/postman-docs/v10/api-security-configuration-turn-rules-off-v10.jpg" width="800px"/>
 
 ### Adding custom rules
 
@@ -52,13 +49,11 @@ You can create new custom security rules that Postman can use to evaluate your A
 1. Select **API Definitions**.
 1. Select **Create New Rule**.
 1. Define the rule in the editor. It must adhere to [custom rule guidelines](/docs/api-governance/configurable-rules/spectral/).
-    <!-- TODO: screenshot -->
 1. The rule must be valid YAML or JSON. Use the dropdown list to choose the correct syntax.
 1. Select OpenAPI 2.0 or OpenAPI 3.0 to choose which specification your new rule is valid for.
 1. Select **Create**.
+    <!-- TODO: screenshot -->
 1. Find your new rule under **Custom Rules** and turn it on.
-
-<!-- TODO: screenshot -->
 
 You can also select **Upload file(s)** to upload a new rule in valid YAML or JSON format.
 
@@ -80,10 +75,7 @@ To access the configuration page for requests:
 
 1. Go to the [Postman home screen](https://go.postman.co/).
 1. Select **API Security** from the team information panel.
-    <!-- TODO: screenshot -->
 1. Select **Requests**.
-
-<!-- TODO: screenshot -->
 
 ### Turning configured rules on and off
 
@@ -92,4 +84,4 @@ Your team can turn individual security rules on or off to meet your development 
 * To turn a security rule on, select the toggle next to the rule name. You and your team members will see violations for this rule in your API's definition.
 * To turn a security rule off, select the toggle next to the rule name. You and your team members won't see violations for this rule in your API's definition.
 
-<!-- TODO: screenshot -->
+<img alt="Turn individual rules on and off" src="https://assets.postman.com/postman-docs/v10/api-security-configuration-requests-turn-rules-off-v10.jpg" width="800px"/>
