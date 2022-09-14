@@ -26,7 +26,6 @@ You can download and install the Postman CLI manually or programmatically (with 
 * [System requirements](#system-requirements)
 * [Linux installation](#linux-installation)<!-- * [Mac (Apple chip) installation](#mac-apple-chip-installation)-->
 * [Mac (Intel) installation](#mac-intel-installation)
-* [Windows installation](#windows-installation)
 
 ## System requirements
 
@@ -58,6 +57,7 @@ Run the following command to install the Postman CLI for Macs with Intel chips. 
 curl -o- "https://dl-cli.pstmn.io/install/osx_64.sh" | bash
 ```
 
+<!--
 ## Windows installation
 
 Run the following commands to install the Postman CLI for Windows. This will download an install script and run it. The install script creates a `%USERPROFILE%\AppData\Local\Postman CLI` directory if it does not exist yet, then installs a `postman` binary there. The install script also adds `%USERPROFILE%\AppData\Local\Postman CLI` to the `PATH` environment variable.
@@ -67,3 +67,4 @@ Download and run the installation script for your platform from the [download pa
 ```powershell
 powershell.exe -NoProfile -InputFormat None -ExecutionPolicy Unrestricted -Command "[System.Net.ServicePointManager]::SecurityProtocol = 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://dl-cli.pstmn.io/install/win64.ps1'))" && SET "PATH=%PATH%;%USERPROFILE%\AppData\Local\Postman CLI"
 ```
+-->
