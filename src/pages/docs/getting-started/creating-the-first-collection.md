@@ -47,9 +47,11 @@ Postman Collections are a group of saved requests. Every request you send in Pos
 
 To create a new collection, you can start by creating a new request first:
 
-You can create a new request from the sidebar in Postman. Select __New__ &gt; __HTTP Request__.
+You can create a new request from the sidebar in Postman.
 
-<img alt="Create new request sidebar" src="https://assets.postman.com/postman-docs/create-new-request-sidebar-v9.jpg"/>
+1. Select __New__ &gt; __HTTP Request__.
+
+    <img alt="Create new request" src="https://assets.postman.com/postman-docs/v10/new-request-v10.jpg"/>
 
 1. Enter a request in the request builder and select **Save**.
 1. Create a new collection by selecting **New Collection**. Enter a collection name, and then select **Create**.
