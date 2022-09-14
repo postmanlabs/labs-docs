@@ -56,13 +56,13 @@ Select **View All Builds** to view the full list of build jobs. From here you ca
 * To get the latest build status information, select <img alt="Refresh icon" src="https://assets.postman.com/postman-docs/icon-refresh-v9-5.jpg#icon" width="14px"> **Refresh**.
 * To edit or delete the integration, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px">.
 
-<img alt="View all CircleCI builds" src="https://assets.postman.com/postman-docs/ci-view-builds-v9-15.jpg">
+<img alt="View all CircleCI builds" src="https://assets.postman.com/postman-docs/v10/collection-runs-v10-2.jpg">
 
 ## Configuring the Postman CLI for CircleCI
 
 With the help of the Postman CLI and the Postman API, you can run API tests created in Postman as part of your CircleCI pipeline. First generate the Postman CLI configuration code in Postman. Then add the configuration code to the `config.yml` file in your CircleCI project.
 
-You an also enforce [API Governance and API Security rules each time the pipeline runs](/docs/api-governance/api-definition/api-definition-warnings/#tracking-governance-and-security-rule-violations-in-cicd) ([Enterprise teams only](https://www.postman.com/pricing/)). <!-- TODO: this is a new URL, must validate before merging to develop -->
+You an also enforce [API Governance and API Security rules each time the pipeline runs](/docs/api-governance/api-definition/api-definition-warnings/#tracking-governance-and-security-rule-violations-in-cicd) ([Enterprise teams only](https://www.postman.com/pricing/)).
 
 To generate configuration code for the Postman CLI:
 
