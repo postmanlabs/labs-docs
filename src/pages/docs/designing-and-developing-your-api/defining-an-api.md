@@ -86,7 +86,7 @@ When you make updates to your API definition, Postman re-checks it. If your chan
 
 To hide a rule violation for the API definition, select **Hide** next to the rule. Select a reason that you want to hide the rule, then select **Hide** again. This will hide the rule for your entire team on the current API.
 
-> To hide a rule violation globally, you can use either [configurable API Governance rules](/docs/api-governance/configuring-api-governance-rules/) or [configurable API Security rules](/docs/api-governance/configuring-api-security-rules/).
+> To hide a rule violation globally, you can use either [configurable API Governance rules](/docs/api-governance/configurable-rules/configuring-api-governance-rules/) or [configurable API Security rules](/docs/api-governance/configurable-rules/configuring-api-security-rules/).
 
 <!-- TODO: screenshot -->
 

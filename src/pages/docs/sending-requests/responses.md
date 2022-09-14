@@ -180,7 +180,7 @@ To turn a warning off for the current API response:
 
 This will turn the warning off for all members of your team, but only for this response.
 
-> To turn a warning off globally for your team, you can [configure your API Security rules](/docs/api-governance/configuring-api-security-rules/) (available for [Enterprise teams only](https://www.postman.com/pricing/)).
+> To turn a warning off globally for your team, you can [configure your API Security rules](/docs/api-governance/configurable-rules/configuring-api-security-rules/) (available for [Enterprise teams only](https://www.postman.com/pricing/)).
 
 <img alt="Select Hide warning in a security warning" src="https://assets.postman.com/postman-docs/v10/api-response-security-tab-hide-warning-v10.jpg" width="900px"/>
 
