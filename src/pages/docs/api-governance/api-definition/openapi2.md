@@ -823,7 +823,7 @@ swagger: "2.0"
 info:
   title: An API name
   version: '1.0'
-  description: Project API description
+  description: An API description
 ```
 
 &nbsp;
@@ -841,7 +841,6 @@ swagger: "2.0"
 info:
   title: An API name
   version: '1.0'
-  description: An API description
   license:
     name: Apache 2.0
     url: https://opensource.org/licenses/Apache-2.0
@@ -862,7 +861,6 @@ swagger: "2.0"
 info:
   title: An API name
   version: '1.0'
-  description: An API description
   license:
     name: Apache 2.0
     url: https://opensource.org/licenses/Apache-2.0
@@ -902,7 +900,6 @@ info:
   title: An API name
   version: '1.0'
   contact:
-    name: A contact name
     email: support@example.com
     url: https://example.com/support
 ```
@@ -918,7 +915,7 @@ info:
 #### Resolution
 
 ```json
-swagger: "2.0"
+swagger: '2.0'
 info:
   title: An API name
   version: '1.0'
@@ -937,7 +934,7 @@ info:
 #### Resolution
 
 ```json
-swagger: "2.0"
+swagger: '2.0'
 info:
   title: An API name
   version: '1.0'
@@ -946,7 +943,7 @@ info:
 ```
 
 ```json
-swagger: "2.0"
+swagger: '2.0'
 info:
   title: An API name
   version: '1.0'
@@ -965,7 +962,7 @@ info:
 #### Resolution
 
 ```json
-swagger: "2.0"
+swagger: '2.0'
 info:
   title: An API name
   version: '1.0'
@@ -984,12 +981,12 @@ info:
 #### Resolution
 
 ```json
-swagger: "2.0"
+swagger: '2.0'
 info:
   title: An API name
   version: '1.0'
   contact:
-    url: https://example.com
+    url: https://example.com/support
 ```
 
 &nbsp;
@@ -1007,10 +1004,8 @@ This rule category deals with operations on an API path.
 #### Resolution
 
 ```json
-swagger: "2.0"
-info:
- title: An API name
- version: '1.0'
+swagger: '2.0'
+# ...
 paths:
   '/resources':
     get:
@@ -1028,10 +1023,8 @@ paths:
 #### Resolution
 
 ```json
-swagger: "2.0"
-info:
-  title: An API title
-  version: "1.0"
+swagger: '2.0'
+# ...
 paths:
   /resources:
     get:
@@ -1049,10 +1042,8 @@ paths:
 #### Resolution
 
 ```json
-swagger: "2.0"
-info:
-  title: An API title
-  version: "1.0"
+swagger: '2.0'
+# ...
 paths:
   /resources:
     get:
@@ -1070,10 +1061,8 @@ paths:
 #### Resolution
 
 ```json
-swagger: "2.0"
-info:
-  title: An API title
-  version: "1.0"
+swagger: '2.0'
+# ...
 paths:
   /resources:
     get:
@@ -1091,10 +1080,8 @@ paths:
 #### Resolution
 
 ```json
-swagger: "2.0"
-info:
-  title: An API title
-  version: "1.0"
+swagger: '2.0'
+# ...
 paths:
   /resources:
     get:
@@ -1116,10 +1103,8 @@ paths:
 #### Resolution
 
 ```json
-swagger: "2.0"
-info:
-  title: An API title
-  version: "1.0"
+swagger: '2.0'
+# ...
 paths:
   /resources:
     post:
@@ -1144,10 +1129,8 @@ paths:
 #### Resolution
 
 ```json
-swagger: "2.0"
-info:
-  title: An API title
-  version: "1.0"
+swagger: '2.0'
+# ...
 paths:
   /resources:
     put:
@@ -1172,10 +1155,8 @@ paths:
 #### Resolution
 
 ```json
-swagger: "2.0"
-info:
-  title: An API title
-  version: "1.0"
+swagger: '2.0'
+# ...
 paths:
   /resources:
     patch:
@@ -1200,10 +1181,8 @@ paths:
 #### Resolution
 
 ```json
-swagger: "2.0"
-info:
-  title: An API title
-  version: "1.0"
+swagger: '2.0'
+# ...
 paths:
   /resources:
     post:
@@ -1227,10 +1206,8 @@ paths:
 #### Resolution
 
 ```json
-swagger: "2.0"
-info:
-  title: An API title
-  version: "1.0"
+swagger: '2.0'
+# ...
 paths:
   /resources:
     get:
@@ -1250,10 +1227,8 @@ paths:
 #### Resolution
 
 ```json
-swagger: "2.0"
-info:
-  title: An API title
-  version: "1.0"
+swagger: '2.0'
+# ...
 paths:
   /resources:
     get:
@@ -1273,10 +1248,8 @@ paths:
 #### Resolution
 
 ```json
-swagger: "2.0"
-info:
-  title: An API title
-  version: "1.0"
+swagger: '2.0'
+# ...
 paths:
   /resources:
     get:
@@ -1294,12 +1267,12 @@ paths:
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| The [responses object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#responses-object) for one or more DELETE [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#operationObject) has a `204` HTTP status code but also defines a response body. A `204` status means "no content," so there shouldn't be a response body defined. | Make sure that DELETE methods with a `204` status code don't have a response body. |
+| The [responses object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#responses-object) for one or more DELETE [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#operationObject) has a `204` HTTP status code but also defines a response body. A `204` status means 'no content,' so there shouldn't be a response body defined. | Make sure that DELETE methods with a `204` status code don't have a response body. |
 
 #### Resolution
 
 ```json
-swagger: "2.0"
+swagger: '2.0'
 #...
 paths:
   /resources:
@@ -1324,10 +1297,8 @@ This rule category deals with how to model various data types.
 #### Resolution
 
 ```json
-swagger: "2.0"
-info:
-  title: an API title
-  version: "1.0"
+swagger: '2.0'
+# ...
 paths:
   /resources:
     post:
@@ -1357,7 +1328,7 @@ definitions:
 #### Resolution
 
 ```json
-swagger: "2.0"
+swagger: '2.0'
 # ...
 definitions:
   aReusableSchema:
@@ -1376,7 +1347,7 @@ definitions:
 #### Resolution
 
 ```json
-swagger: "2.0"
+swagger: '2.0'
 #...
 paths:
   /resources:
@@ -1402,7 +1373,7 @@ paths:
 #### Resolution
 
 ```json
-swagger: "2.0"
+swagger: '2.0'
 # ...
 definitions:
   anObject:

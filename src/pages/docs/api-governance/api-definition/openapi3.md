@@ -134,7 +134,7 @@ components:
 
 ```json
 paths:
-  "/user":
+  /user:
     get:
       summary: 'Sample endpoint: Returns details about a particular user'
       operationId: listUser
@@ -862,11 +862,11 @@ This rule category deals with the OpenAPI info object, which contains metadata a
 #### Resolution
 
 ```json
-openapi: "3.0.3"
+openapi: '3.0.3'
 info:
   title: An API name
   version: '1.0'
-  description: Project API description
+  description: An API description
 ```
 
 &nbsp;
@@ -880,7 +880,7 @@ info:
 #### Resolution
 
 ```json
-openapi: "3.0.3"
+openapi: '3.0.3'
 info:
   title: An API name
   version: '1.0'
@@ -901,7 +901,7 @@ info:
 #### Resolution
 
 ```json
-openapi: "3.0.3"
+openapi: '3.0.3'
 info:
   title: An API name
   version: '1.0'
@@ -922,7 +922,7 @@ info:
 #### Resolution
 
 ```json
-openapi: "3.0.3"
+openapi: '3.0.3'
 info:
   title: An API name
   version: '1.0'
@@ -940,7 +940,7 @@ info:
 #### Resolution
 
 ```json
-openapi: "3.0.3"
+openapi: '3.0.3'
 info:
   title: An API name
   version: '1.0'
@@ -960,7 +960,7 @@ info:
 #### Resolution
 
 ```json
-openapi: "3.0.3"
+openapi: '3.0.3'
 info:
   title: An API name
   version: '1.0'
@@ -979,7 +979,7 @@ info:
 #### Resolution
 
 ```json
-openapi: "3.0.3"
+openapi: '3.0.3'
 info:
   title: An API name
   version: '1.0'
@@ -988,7 +988,7 @@ info:
 ```
 
 ```json
-openapi: "3.0.3"
+openapi: '3.0.3'
 info:
   title: An API name
   version: '1.0'
@@ -1007,7 +1007,7 @@ info:
 #### Resolution
 
 ```json
-openapi: "3.0.3"
+openapi: '3.0.3'
 info:
   title: An API name
   version: '1.0'
@@ -1026,12 +1026,12 @@ info:
 #### Resolution
 
 ```json
-openapi: "3.0.3"
+openapi: '3.0.3'
 info:
   title: An API name
   version: '1.0'
   contact:
-    url: https://example.com
+    url: https://example.com/support
 ```
 
 &nbsp;
@@ -1049,10 +1049,8 @@ This rule category deals with operations on an API path.
 #### Resolution
 
 ```json
-openapi: "3.0.3"
-info:
- title: An API name
- version: '1.0'
+openapi: '3.0.3'
+# ...
 paths:
   '/resources':
     get:
@@ -1070,10 +1068,8 @@ paths:
 #### Resolution
 
 ```json
-openapi: "3.0.3"
-info:
-  title: An API title
-  version: "1.0"
+openapi: '3.0.3'
+# ...
 paths:
   /resources:
     get:
@@ -1091,10 +1087,8 @@ paths:
 #### Resolution
 
 ```json
-openapi: "3.0.3"
-info:
-  title: An API title
-  version: "1.0"
+openapi: '3.0.3'
+# ...
 paths:
   /resources:
     get:
@@ -1112,10 +1106,8 @@ paths:
 #### Resolution
 
 ```json
-openapi: "3.0.3"
-info:
-  title: An API title
-  version: "1.0"
+openapi: '3.0.3'
+# ...
 paths:
   /resources:
     get:
@@ -1133,10 +1125,8 @@ paths:
 #### Resolution
 
 ```json
-openapi: "3.0.3"
-info:
-  title: An API title
-  version: "1.0"
+openapi: '3.0.3'
+# ...
 paths:
   /resources:
     get:
@@ -1146,9 +1136,6 @@ paths:
           in: query
           schema:
             type: string
-      responses:
-        '200':
-          description: A GET success response
 ```
 
 &nbsp;
@@ -1162,10 +1149,23 @@ paths:
 #### Resolution
 
 ```json
-openapi: "3.0.3"
-info:
-  title: An API title
-  version: "1.0"
+openapi: '3.0.3'
+# ...
+paths:
+  /resources:
+    get:
+      parameters:
+        - name: status
+          description: Filters resources on their status
+          in: query
+          example: done
+          schema:
+            type: string
+```
+
+```json
+openapi: '3.0.3'
+# ...
 paths:
   /resources:
     get:
@@ -1180,9 +1180,6 @@ paths:
               value: done
           schema:
             type: string
-      responses:
-        '200':
-          description: A GET success response
 ```
 
 &nbsp;
@@ -1196,10 +1193,8 @@ paths:
 #### Resolution
 
 ```json
-openapi: "3.0.3"
-info:
-  title: An API title
-  version: "1.0"
+openapi: '3.0.3'
+# ...
 paths:
   /resources:
     post:
@@ -1221,10 +1216,8 @@ paths:
 #### Resolution
 
 ```json
-openapi: "3.0.3"
-info:
-  title: An API title
-  version: "1.0"
+openapi: '3.0.3'
+# ...
 paths:
   /resources:
     put:
@@ -1246,10 +1239,8 @@ paths:
 #### Resolution
 
 ```json
-openapi: "3.0.3"
-info:
-  title: An API title
-  version: "1.0"
+openapi: '3.0.3'
+# ...
 paths:
   /resources:
     patch:
@@ -1271,10 +1262,23 @@ paths:
 #### Resolution
 
 ```json
-openapi: "3.0.3"
-info:
-  title: An API title
-  version: "1.0"
+openapi: '3.0.3'
+# ...
+paths:
+  /resources:
+    post:
+      requestBody:
+        content:
+          'application/json':
+            schema:
+              # ...
+            example:
+              aProperty: example value
+```
+
+```json
+openapi: '3.0.3'
+# ...
 paths:
   /resources:
     post:
@@ -1302,10 +1306,8 @@ paths:
 #### Resolution
 
 ```json
-openapi: "3.0.3"
-info:
-  title: An API title
-  version: "1.0"
+openapi: '3.0.3'
+# ...
 paths:
   /resources:
     get:
@@ -1325,10 +1327,8 @@ paths:
 #### Resolution
 
 ```json
-openapi: "3.0.3"
-info:
-  title: An API title
-  version: "1.0"
+openapi: '3.0.3'
+# ...
 paths:
   /resources:
     get:
@@ -1348,10 +1348,8 @@ paths:
 #### Resolution
 
 ```json
-openapi: "3.0.3"
-info:
-  title: An API title
-  version: "1.0"
+openapi: '3.0.3'
+# ...
 paths:
   /resources:
     get:
@@ -1366,6 +1364,27 @@ paths:
                 aProperty: example
 ```
 
+```json
+openapi: '3.0.3'
+# ...
+paths:
+  /resources:
+    get:
+      responses:
+        '200':
+          description: A success response
+          content:
+            'application/json':
+              schema:
+                # ...
+              examples:
+                anExample:
+                  summary: An example
+                  description: This is an example description
+                  value:
+                    aProperty: example value
+```
+
 &nbsp;
 
 ### A 204 response can't have a body
@@ -1377,7 +1396,7 @@ paths:
 #### Resolution
 
 ```json
-openapi: "3.0.3"
+openapi: '3.0.3'
 #...
 paths:
   /resources:
@@ -1402,10 +1421,8 @@ This rule category deals with how to model various data types.
 #### Resolution
 
 ```json
-openapi: "3.0.3"
-info:
-  title: an API title
-  version: "1.0"
+openapi: '3.0.3'
+# ...
 paths:
   /resources:
     get:
@@ -1433,38 +1450,13 @@ components:
 #### Resolution
 
 ```json
-openapi: "3.0.3"
+openapi: '3.0.3'
 # ...
 components:
   schemas:
     aReusableSchema:
       description: A reusable schema description
       type: object
-```
-
-&nbsp;
-
-### Arrays must have minItems and maxItems defined
-
-| Issue description | Possible fix |
-| ----------- | ----------- |
-| One or more [schema objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.0.3.md#schemaObject) in your API definition have an array type property but don't define `minItem` or `maxItem`. Consumers and providers can't handle an infinite number of elements. Setting the minimum and maximum boundaries helps in defining limits and enabling pagination. | Make sure that properties that have array type in your API definition  have `minItem` and `maxItem` defined. |
-
-#### Resolution
-
-```json
-openapi: "3.0.3"
-# ...
-components:
-  schemas:
-    anObject:
-      properties:
-        aList:
-          type: array
-          minItems: 1
-          maxItems: 100
-          items:
-            type: object
 ```
 
 &nbsp;
@@ -1478,10 +1470,8 @@ components:
 #### Resolution
 
 ```json
-openapi: "3.0.3"
-info:
-  title: An API title
-  version: "1.0"
+openapi: '3.0.3'
+# ...
 paths:
   /resources:
     get:
@@ -1495,6 +1485,31 @@ paths:
                   aProperty:
                     description: A property description
                     type: string
+```
+
+&nbsp;
+
+### Arrays must have minItems and maxItems defined
+
+| Issue description | Possible fix |
+| ----------- | ----------- |
+| One or more [schema objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/3.0.3.md#schemaObject) in your API definition have an array type property but don't define `minItem` or `maxItem`. Consumers and providers can't handle an infinite number of elements. Setting the minimum and maximum boundaries helps in defining limits and enabling pagination. | Make sure that properties that have array type in your API definition  have `minItem` and `maxItem` defined. |
+
+#### Resolution
+
+```json
+openapi: '3.0.3'
+# ...
+components:
+  schemas:
+    anObject:
+      properties:
+        aList:
+          type: array
+          minItems: 1
+          maxItems: 100
+          items:
+            type: object
 ```
 
 &nbsp;
