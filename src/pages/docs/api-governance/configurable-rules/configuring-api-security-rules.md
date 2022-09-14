@@ -21,7 +21,7 @@ You can customize the API Security rules that Postman applies to your [API defin
 
 ## Configuring rules for API definitions
 
-Postman applies security rules to your [API definition](/docs/api-governance/api-definition/api-definition-warnings/) and shows warnings about issues that might impact your definition's security posture. In addition to the rules turned on by default in Postman, you can [create and apply your own custom rules](#adding-custom-rules).
+Postman applies security rules to your [API definition](/docs/api-governance/api-definition/api-definition-warnings/) and shows rule violations that might impact your definition's security posture. In addition to the rules turned on by default in Postman, you can [create and apply your own custom rules](#adding-custom-rules).
 
 To access the configuration page for API definitions:
 

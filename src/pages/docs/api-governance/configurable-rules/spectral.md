@@ -3,9 +3,7 @@ title: "Using Spectral in Postman"
 updated: 2022-09-15
 ---
 
-Spectral is a linting engine that helps you define custom rules and enforce them on JSON and YAML files. Postman supports Spectral v6 rules for the configured [API Governance](/docs/api-governance/configurable-rules/configuring-api-governance-rules/) and [API Security](/docs/api-governance/configurable-rules/configuring-api-security-rules/) rules for your team.
-
-[Team Admins](/docs/collaborating-in-postman/roles-and-permissions/) can define rules according to Spectral guidelines, then import them into Postman as custom rules.
+Spectral is a linting engine that helps you define custom rules and enforce them on JSON and YAML files. Postman supports Spectral v6 rules for the configured [API Governance](/docs/api-governance/configurable-rules/configuring-api-governance-rules/#adding-custom-rules) and [API Security](/docs/api-governance/configurable-rules/configuring-api-security-rules/#adding-custom-rules) rules for your team.
 
 ## Contents
 
@@ -20,7 +18,7 @@ Spectral is a linting engine that helps you define custom rules and enforce them
 
 ## How Spectral works
 
-Spectral is a linter that checks whether a JSON or YAML document conforms to a set of defined rules. It's used to check that the APIs defined in OpenAPI documents conform to API design guidelines specified in the context of API governance policies. For example, with Spectral you can check that all properties of all data models are in camel case, or that all operations have a summary.
+Spectral checks that the APIs defined in OpenAPI documents conform to API design guidelines using a specific set of rules. For example, with Spectral you can check that all properties of all data models are in camel case, or that all operations have a summary.
 
 A Spectral rule targets a given location using a [JSON Path Plus expression](#json-path-and-json-path-plus), then tests the values it finds with a `function`. It returns an error if the values don't conform to the rule.
 
@@ -56,7 +54,7 @@ Spectral identifies each rule with a key, which can be any JSON-compatible strin
 
 Postman supports many of Spectral's features, though not all.
 
-Whether it's created within Postman or imported from another source, a Spectral document needs to contain the following properties:
+Whether it's created within Postman or imported from another source, a Spectral document needs to contain the properties shown in the example below:
 
 ```
 rules:
@@ -86,7 +84,7 @@ You will find each rule defined in `rules` in the **Custom Rules** section in th
 
 Property | Description
 --- | ---
-`description` | An optional description of the rule. It will be shown in the API governance settings you provide one.
+`description` | An optional description of the rule. If you provide one, it will be shown in the configurable rules page for either API Governance or API Security.
 `message` | If the rule is triggered, the list of rule violations will contain the `message`, used in Postman as the name of the rule. This message aims to help users solve the problem. Keep it as short and meaningful as possible. It can contain optional placeholders: <br><ul><li>`{{error}}` - The error message returned by `function`.</li><li>`{{description}}` - The description of the rule.</li><li>`{{path}}` - The path of the error (the last element is the `property` below).</li><li>`{{property}}` - The name of the property causing the error. This is useful when `given` returns many different property names or when `then` is a list that uses multiple `fields`).</li><li>`{{value}}` - The value causing the error.</li></ul><br> If `message` isn't provided, the `description` is used instead. And if `description` isn't available, the rule's key (in `rules`) is used.
 `severity` | The severity of the problem detected by the rule. The possible values are `error`, `warn` (default), `info`, and `hint`. These values can be used as follows: <br><ul><li>`error` - An obvious error that must be fixed. Something is going against guidelines.</li><li>`warn` - A possible error. If it's an error, it must be fixed. Some deviation on specific rules may be tolerated, like a `POST` without a body.</li><li>`info`: Something that could possibly be improved. An optional pattern defined in the guidelines could be applied.</li><li>`hint` - Something to be discussed during an API design review.</li></ul>
 `formats` | The list of document formats to which the rule will be applied. The accepted values are: <br><ul><li>`oas2` - Targets OpenAPI (Swagger) documents</li><li>`oas3` - Targets OpenAPI 3.x documents (3.0 and 3.1)</li><li>`oas3_0` - Targets OpenAPI 3.0 documents</li><li>`oas3_1` - Targets OpenAPI 3.1 documents</li></ul><br> By default, a rule will target all versions 2 and 3.x (the default value is `[oas2,oas3]`).
