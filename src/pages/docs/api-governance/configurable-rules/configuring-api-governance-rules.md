@@ -13,7 +13,7 @@ You can customize the API Governance rules that Postman applies to your [API def
 ## Contents
 
 * [Accessing the configurable API Governance rules](#accessing-the-configurable-api-governance-rules)
-* [Adding rules to your API Governance configuration](#adding-rules-to-your-API-governance-configuration)
+* [Adding rules to your API Governance configuration](#adding-rules-to-your-api-governance-configuration)
     * [Importing rules from the Postman library](#importing-rules-from-the-postman-library)
     * [Adding custom rules](#adding-custom-rules)
 * [Turning configured rules on and off](#turning-configured-rules-on-and-off)
