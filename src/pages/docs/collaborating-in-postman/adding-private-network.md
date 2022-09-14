@@ -260,7 +260,7 @@ You can also add an API while in your team's Private API Network:
 
 When you add an API to the [Private API Network](https://go.postman.co/network/private), it's visible to your Postman team, but isn't visible to [partners](/docs/collaborating-in-postman/using-workspaces/partner-workspaces/).
 
-The APIs that you add to the Private API Network reflect the latest state of the API in your team workspace. In other words, changes made to the API in the workspace are reflected in the network in real time.
+The APIs that you publish to the Private API Network reflect the latest state of the API in your team workspace. In other words, published changes made to the API in the workspace are reflected in the network in real time.
 
 #### Publishing specific API versions
 
