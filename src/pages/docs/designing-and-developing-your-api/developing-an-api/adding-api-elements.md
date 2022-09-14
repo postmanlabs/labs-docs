@@ -44,12 +44,21 @@ Add a collection to document your API or help others test your API's endpoints. 
 
 > You can also add a test suite to your API. Learn more about [testing an API](/docs/designing-and-developing-your-api/testing-an-api/).
 
+### Adding a new collection
+
+To add a new collection to your API:
+
+1. Select **APIs** in the sidebar and select an API.
+1. On the API's overview, below **Collections** select **+** and choose **Add new collection**.
+1. Enter a new name for the collection.
+
 ### Adding an existing collection
 
 To add an existing collection to your API:
 
 1. Select **APIs** in the sidebar and select an API.
-1. On the API's overview, below **Collections** select **+ Add Collection**.
+1. On the API's overview, below **Collections** select **+** and choose **Copy existing collection**.
+    > If there are no collections in the API, you can alternately select the **Add Collection**.
 1. Select an available collection and select **Copy Collection**.
 
 The copy of the collection displays on your API's overview and under your API in the sidebar. To view documentation for the collection, expand the collection and select **View full documentation**.
@@ -64,6 +73,8 @@ To generate a new collection from your API definition:
 1. Select **Generate Collection**.
 
 The collection displays on your API's overview and under your API in the sidebar. To view documentation for the collection, expand the collection and select **View full documentation**.
+
+> You can also generate a collection when you import an API. For more information, see [importing an API](/docs/designing-and-developing-your-api/importing-an-api/).
 
 ## Adding an environment
 
@@ -86,4 +97,4 @@ You can delete a collection or environment from your API.
 
 The collection or environment is deleted from the API.
 
-> You can also delete a collection by selecting the remove icon <img alt="Remove icon" src="https://assets.postman.com/postman-docs/icon-remove-api-element-v9.jpg#icon" width="16px"> next to a collection on the API's overview.
+> You can also delete a collection by selecting the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> next to a collection on the API's overview.

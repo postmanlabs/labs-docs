@@ -36,6 +36,7 @@ To import your API definitions into Postman:
     > You can also import an API definition from a code repository. Learn more about [importing and exporting](/docs/getting-started/importing-and-exporting-data/).
 
 1. Confirm the name, format, and what you would like your data to import as.
+1. Select **Generate collection from this API** if you want to automatically generate a collection from an API definition and add it to the API.
 1. Select **Import** to bring your data into Postman.
 
 > You can configure your **Import Settings**, which will differ depending on your API specification.
@@ -53,6 +54,7 @@ If your API definition consists of multiple files:
 1. Select **APIs** in the sidebar, then select **Import**.
 1. Select **Folder**, then select a local folder with your API files.
 1. In the **Import Entities** tab, select the files you want to import for the API definition.
+1. Under each file, select **Generate collection from this API** or specify advanced options, if needed.
 1. Select **Import** to bring your API definition into Postman.
 
 To learn more about working with multi-file API definitions, see [Editing an API definition](/docs/designing-and-developing-your-api/developing-an-api/defining-an-api/#working-with-multi-file-api-definitions).

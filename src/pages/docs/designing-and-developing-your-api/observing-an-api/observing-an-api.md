@@ -79,9 +79,9 @@ For more about creating a monitor, see [Setting up a collection-based monitor](/
 
 Postman integrations enable you to send the results of collection-based monitors to a variety of applications and channels, such as Slack, Microsoft Teams, Datadog, or Splunk. You can also send monitor results to a custom webhook to integrate Postman monitors with your specific workflow.
 
-<!-- The **Monitoring** view in the API Builder provides one place to manage all your API's integrations for collection-based monitors. You can set up a new integration, track results, and view your configured monitor integrations. -->
+<!-- The **Monitoring** view in the API Builder provides one place to manage all your API's integrations for collection-based monitors. You can set up a new integration, track results, and view your configured monitor integrations.
 
-<img alt="API monitor integrations" src="https://assets.postman.com/postman-docs/v10/observe-api-integrations-v10.jpg">
+<img alt="API monitor integrations" src="https://assets.postman.com/postman-docs/v10/observe-api-integrations-v10.jpg">-->
 
 ### Adding a monitor integration
 
