@@ -48,7 +48,7 @@ To inspect any API Governance or API Security rule violations that Postman finds
 
 1. Select **Rule** to see the list of rule violations.
 
-To learn more about how rule violations can help you create consistent and secure API definitions, see [Viewing rule violations in your API definition](/docs/designing-and-developing-your-api/developing-an-api/defining-an-api/#viewing-rule-violations-in-your-API-definition). <!-- TODO: this is a new URL, must validate before merging to develop -->
+To learn more about how rule violations can help you create consistent and secure API definitions, see [Viewing rule violations in your API definition](/docs/designing-and-developing-your-api/developing-an-api/defining-an-api/#viewing-rule-violations-in-your-api-definition). <!-- TODO: this is a new URL, must validate before merging to develop -->
 
 ## Tracking governance and security rule violations in CI/CD
 
