@@ -3,15 +3,17 @@ title: "Using Spectral in Postman"
 updated: 2022-09-15
 ---
 
-Spectral is a linting engine that helps you define custom rules and enforce them on JSON and YAML files. Postman supports Spectral rules for the configured API Governance and API security rules for your team. Team Admins can define rules according to Spectral guidelines, then import them into Postman as custom rules.
+Spectral is a linting engine that helps you define custom rules and enforce them on JSON and YAML files. Postman supports Spectral rules for the configured [API Governance](/docs/api-governance/configurable-rules/configuring-api-governance-rules/) and [API Security](/docs/api-governance/configurable-rules/configuring-api-security-rules/) rules for your team. [Team Admins](/docs/collaborating-in-postman/roles-and-permissions/) can define rules according to Spectral guidelines, then import them into Postman as custom rules.
+
+<!-- Postman uses [Spectral v6](https://github.com/stoplightio/spectral/releases/) to define custom rules, and any new rules you create must adhere to Spectral v6 [guidelines for custom rules](https://github.com/stoplightio/spectral#1-create-a-local-ruleset). -->
 
 ## How Spectral works
 
-Spectral is a linter that checks a JSON or a YAML document conforms to out-of-the-box or user-defined rules. It is widely used to check that the APIs defined in OpenAPI documents conform to API design guidelines specified in the context of API governance policies. For instance, with Spectral, you can check that all properties of all data models are in camel case or that all operations have a summary.
+Spectral is a linter that checks a JSON or a YAML document conforms to out-of-the-box or user-defined rules. It's widely used to check that the APIs defined in OpenAPI documents conform to API design guidelines specified in the context of API governance policies. For instance, with Spectral, you can check that all properties of all data models are in camel case or that all operations have a summary.
 
-A Spectral rule targets a given location using a [JSON Path Plus expression](#json-path-and-json-path-plus) and then tests the values it finds with a `function`. It returns an error if the values doesn't comply with what is expected.
+A Spectral rule targets a given location using a [JSON Path Plus expression](#json-path-and-json-path-plus) and then tests the values it finds with a `function`. It returns an error if the values don't conform to the rule.
 
-This example shows how to check that the name of an API does not contain the word "API", regardless of case (for instance, "api" or "Api").
+This example shows how to check that the name of an API doesn't contain the word "API," regardless of case (for instance, "api" or "Api").
 
 ```
 rules:
@@ -23,13 +25,13 @@ rules:
           notMatch: /\b(api)\b/i
 ```
 
-First, the rule targets the `title` property of the `info` object located at the root (`$`) of the document with the [JSON Path Plus expression](#json-path-and-json-path-plus) `$.info.title`. In `then`, the function named `pattern` checks whether the value of the title property does not match (`functionOptions.notMatch`) the regular expression looking for the word "api" in any case (`/\b(api)\b/i`).
+First, the rule targets the `title` property of the `info` object located at the root (`$`) of the document with the [JSON Path Plus expression](#json-path-and-json-path-plus) `$.info.title`. In `then`, the function named `pattern` checks whether the value of the title property doesn't match (`functionOptions.notMatch`) the regular expression looking for the word "api" in any case (`/\b(api)\b/i`).
 
 ## Spectral support in Postman
 
 Postman supports many of Spectral's features, though not all.
 
-Whether it's created within Postman or imported from another source, a Spectral document should contain the following properties:
+Whether it's created within Postman or imported from another source, a Spectral document needs to contain the following properties:
 
 ```
 rules:
@@ -73,7 +75,7 @@ Property | Description
 --- | ---
 `description` | An optional description of the rule. It will be shown in the API governance settings if provided.
 `message` | If the rule is triggered, the list of rule violations will contain the `message`, used in Postman as the name of the rule. This message aims to help users solve the problem. Keep it as short and meaningful as possible. It may contain optional placeholders: <br><ul><li>`{{error}}` - The error message returned by `function`.</li><li>`{{description}}` - The description of the rule.</li><li>`{{path}}` - The path of the error (the last element is the `property` below).</li><li>`{{property}}` - The name of the property causing the error. This is useful when `given` returns many different property names or when `then` is a list that uses multiple `fields`).</li><li>{{value}} - The value causing the error.</li></ul><br> If `message` isn't provided, the `description` is used instead. And if `description` isn't available, the rule's key (in `rules`) is used.
-`severity` | The severity of the problem detected by the rule. The possible values are `error`, `warn` (default), `info`, and `hint`. These values can be used as follow: <br><ul><li>`error` - An obvious error that must be fixed. Something is going against guidelines.</li><li>`warn` - A possible error. If it is an error, it must be fixed. Some deviation on specific rules may be tolerated, like a `POST` without a body.</li><li>`info`: Something that could possibly be improved. An optional pattern defined in the guidelines could be applied.</li><li>`hint` - Something to be discussed during an API design review.</li></ul>
+`severity` | The severity of the problem detected by the rule. The possible values are `error`, `warn` (default), `info`, and `hint`. These values can be used as follow: <br><ul><li>`error` - An obvious error that must be fixed. Something is going against guidelines.</li><li>`warn` - A possible error. If it's an error, it must be fixed. Some deviation on specific rules may be tolerated, like a `POST` without a body.</li><li>`info`: Something that could possibly be improved. An optional pattern defined in the guidelines could be applied.</li><li>`hint` - Something to be discussed during an API design review.</li></ul>
 `formats` | The list of document formats to which the rule will be applied. The accepted values are: <br><ul><li>`oas2` - Target OpenAPI (Swagger) documents</li><li>`oas3` - Targets OpenAPI 3.x documents (3.0 and 3.1)</li><li>`oas3_0` - Targets OpenAPI 3.0 documents</li><li>`oas3_1` - Targets OpenAPI 3.1 documents</li></ul><br> By default, a rule will target all versions 2 and 3.x (the default value is `[oas2,oas3]`).
 `given` | **Required**. It can be a list (with at least one element) or a single element. Each value is a JSON Path Plus expression that may return zero, one, or more elements.<br>If `given` paths don't find any value, the `then` controls won't execute.
 `then` | **Required**. This can be a list with at least one element or a single element. If the given JSON Path Plus expressions return values, the functions will be applied to all of them.
@@ -85,7 +87,7 @@ Property | Description
 
 A JSON Path (or JSON Path Plus) expression aims to represent the path to some elements in a JSON or YAML document. For example, `$.info.title` represents the title property of the info object located at the document's root.
 
-Initially, JSON Path was created to be [XPath for JSON](https://goessner.net/articles/JsonPath/) and aimed to represent the path to some element in an XML document. [JSON Path Plus](https://jsonpath-plus.github.io/JSONPath/docs/ts/) is an extension of JSON Path, which add some additional operators and makes some behaviors of the original specification explicit.
+Initially, JSON Path was created to be [XPath for JSON](https://goessner.net/articles/JsonPath/) and aimed to represent the path to some element in an XML document. [JSON Path Plus](https://jsonpath-plus.github.io/JSONPath/docs/ts/) is an extension of JSON Path. It adds more operators and makes some behaviors of the original specification explicit.
 
 ### Building and testing JSON Path Plus expressions
 
@@ -93,16 +95,16 @@ You can use the official JSON Path Plus [documentation](https://jsonpath-plus.gi
 
 ### JSON Path Plus examples
 
-These examples demonstrate the typical JSON Path Plus features you'll need to create rules in Postman:
+These examples show the typical JSON Path Plus features you'll need to create rules in Postman:
 
 * `$.info.title` - The title property inside the info object, which is located at the document's root (`$`).
 * `$.paths.*.*.responses` - All responses of all operations of all paths. `*` gets all elements inside an object or an array.
 * `$.paths.*[post,patch,put]` - All POST, PATCH, and PUT operations across all paths. `[ ]` can be used to filter elements.
-* `$..properties` - All properties of all schema objects wherever they are located (for example, in parameters, responses, or reusable components). `..` gets all elements in the path tree.
+* `$..properties` - All properties of all schema objects wherever they're located (for example, in parameters, responses, or reusable components). `..` gets all elements in the path tree.
 
 ## Example: Checking for the presence of a property
 
-The following rule is supposed to check that there's a description of the API. Unfortunately, it will never return a rule violation when the description is not present in the info object.
+The following rule is supposed to check that there's a description of the API. Unfortunately, it will never return a rule violation when the description isn't present in the info object.
 
 ```
 # this approach won't work!

@@ -51,7 +51,7 @@ You can create new custom security rules that Postman can use to evaluate your A
 
 1. Select **API definitions**.
 1. Select **Create new rule**.
-1. Define the rule in the editor. It must adhere to [custom rule guidelines](#custom-rule-guidelines).
+1. Define the rule in the editor. It must adhere to [custom rule guidelines](/docs/api-governance/configurable-rules/spectral/).
     <!-- TODO: screenshot -->
 1. The rule must be valid YAML or JSON. Use the dropdown list to choose the correct syntax.
 1. Select OpenAPI 2.0 or OpenAPI 3.0 to choose which specification your new rule is valid for.
@@ -62,12 +62,7 @@ You can create new custom security rules that Postman can use to evaluate your A
 
 You can also select **Upload file(s)** to upload a new rule in valid YAML or JSON format.
 
-#### Custom rule guidelines
-
-Postman uses [Spectral v6](https://github.com/stoplightio/spectral/releases/) to define custom rules, and any new rules you create must adhere to Spectral v6 [guidelines for custom rules](https://github.com/stoplightio/spectral#1-create-a-local-ruleset).
-
-* Custom rules can't contain Spectral custom functions.
-* You can't create a custom rule that duplicates an existing rule.
+> You can't create a custom rule that duplicates an existing rule.
 
 ### Removing custom rules
 
