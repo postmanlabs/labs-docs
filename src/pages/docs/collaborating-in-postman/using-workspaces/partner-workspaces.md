@@ -41,7 +41,7 @@ To create a Partner Workspace:
 
     <img alt="Create Partner Workspace" src="https://assets.postman.com/postman-docs/v10/create-partner-workspace-v10.jpg" width="400px"/>
 
-Anyone with permissions to create workspaces can request to create a Partner Workspace, but it must be approved by a [Partner Manager](#managing-users-and-roles). If you're not a [Super Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) or Partner Manager, you must submit your request for approval. You can also add an optional note to your request. Postman will notify you when a Partner Manager reviews your request and approves or denies it.
+Anyone with permissions to create workspaces can request to create a Partner Workspace, but it must be approved by a [Partner Manager](#managing-users-and-roles). If you're not a [Super Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) or Partner Manager, you must submit your request for approval. You can also add an optional note to your request. The workspace's visibility will be set to [private](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#changing-workspace-visibility) until your request is approved. Postman will notify you when a Partner Manager reviews your request and approves or denies it.
 
 <img alt="Create Partner Workspace approval" src="https://assets.postman.com/postman-docs/v10/partner-workspace-approval-warning-v10.jpg" width="450px" />
 
