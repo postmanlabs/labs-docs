@@ -100,9 +100,9 @@ If you'd like to downgrade to Postman v9 or below to continue working with a tea
 
 Use the following links to download the latest Postman v9 version for your platform.
 
-* [Download Postman v9 for macOS 64-bit](https://go.pstmn.io/dl-macos64-v9-latest)
+* [Download Postman v9 for macOS (Intel chip) 64-bit](https://go.pstmn.io/dl-osx64-v9-latest)
+* [Download Postman v9 for macOS (Apple chip) 64-bit](https://go.pstmn.io/dl-osxarm64-v9-latest)
 * [Download Postman v9 for Windows 64-bit](https://go.pstmn.io/dl-win64-v9-latest)
-* [Download Postman v9 for Windows 32-bit](https://go.pstmn.io/dl-win32-v9-latest)
 * [Download Postman v9 for Linux 64-bit](https://go.pstmn.io/dl-linux64-v9-latest)
 
 If you're using Postman for Linux, and had installed the app through 'Ubuntu Software Center' or 'Snap Store', use the following commands to switch to Postman v9.
