@@ -60,7 +60,7 @@ On the Postman CLI configuration page, select **Run Governance and Security rule
 
 <img alt="Generate the Postman CLI configuration" src="https://assets.postman.com/postman-docs/v10/generate-postman-cli-v10-2.jpg" width="548px">
 
-To see the results, go to the build page and use the arrows to expand the desired build. Next, expand the API definition to see the build’s results and any rule violations, if applicable.
+To see the results, go to the build run page and use the arrows to expand the desired build. Next, expand the API definition to see the build’s results and any rule violations, if applicable.
 
 ## Next steps
 
