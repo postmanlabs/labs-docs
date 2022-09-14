@@ -39,6 +39,10 @@ To switch branches, select the Git branch dropdown menu in the Postman footer, t
 
 <img alt="Switching branches" src="https://assets.postman.com/postman-docs/v10/api-builder-switch-branches-footer-v10.jpg" width="382px" />
 
+Postman only fetches a limited set of branches in the list. If a branch is not listed, type a branch name into the **Search** section of the dropdown and select **Switch to** to switch to that branch.
+
+If you type a branch name and it does not exist in the remote repo, select **Create branch** and a new branch based from the active branch will be created.
+
 <!--
 ### Creating a new branch
 
