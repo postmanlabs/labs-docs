@@ -33,7 +33,7 @@ contextual_links:
     url: "/docs/designing-and-developing-your-api/managing-apis/"
 ---
 
-You create the structure of your API using the _API definition_. The API definition can consist of one or multiple files. If your API doesn't have a definition, you can import a definition or generate an example definition.
+You create the structure of your API using the _API definition_. The API definition can consist of one or multiple files. If your API doesn't have a definition, you can import a definition or start with a boilerplate sample definition.
 
 ## Contents
 
@@ -58,18 +58,16 @@ If your API doesn't have a definition, you can generate an example definition th
 
 ## Importing an API definition
 
-If your API doesn't have a definition, you can import an API definition file that you can edit.
+You can import files into your API definition to define your API.
+
+> Postman supports OpenAPI (versions 1.0, 2.0, 3.0, and 3.1), RAML (0.8 and 1.0), Protobuf (2.0 and 3.0), GraphQL, or WSDL (1.1 and 2.0) definitions. OpenAPI definitions can be in JSON or YAML. RAML definitions must be YAML. Protobuf definitions are proto files. GraphQL definitions can be JSON or GraphQL SDL. WSDL definitions must be XML.
+
+To import an API definition:
 
 1. Select **APIs** in the sidebar and select an API.
 1. On the API's overview, under **Definition**, select **Create Definition**.
-1. Select the **Import file** option and select **Add file**.
-1. Select the file you want to import and select **Open**.
-
-    > Postman supports OpenAPI (versions 1.0, 2.0, 3.0, and 3.1), RAML (0.8 and 1.0), Protobuf (2.0 and 3.0), GraphQL, or WSDL (1.1 and 2.0) definitions. OpenAPI definitions can be in JSON or YAML. RAML definitions must be YAML. Protobuf definitions are proto files. GraphQL definitions can be JSON or GraphQL SDL. WSDL definitions must be XML.
-
-1. Select **Create Definition**.
-
-    <img alt="Importing an API definition" src="https://assets.postman.com/postman-docs/v10/api-builder-import-file-v10.jpg" width="439px"/>
+1. Select **Import Definition**.
+1. Select the file you want to import.
 
 > You can also import an API from a folder, a link, a code repository, or an API gateway. Learn more about [importing an API](/docs/designing-and-developing-your-api/importing-an-api/).
 
@@ -136,4 +134,4 @@ To add a file to a folder, select the more actions icon <img alt="More actions i
 
 To delete a file or folder, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the item and select **Delete**.
 
-> If you delete the last remaining file in an API definition, the API will no longer have a Definition unless you create it again. The schema documentation and any information in the file's info pane including the Definition ID will be lost. You cannot restore a Definition after it is deleted.
+> If you delete the last remaining file in an API definition, the API will no longer have a Definition unless you create it again. The schema documentation and any information in the file's info pane including the Definition ID will be lost. Other components of the API will remain intact. For example, collections in the API won't be deleted. You cannot restore a Definition after it is deleted.

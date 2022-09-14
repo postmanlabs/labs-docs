@@ -105,7 +105,9 @@ To connect an GitHub Enterprise Server, GitLab Self-Managed, or Azure DevOps Ser
 After you disconnect a remote repository, you can no longer sync changes between Postman and the repository.
 
 1. Select **APIs** in the sidebar and select an API.
-1. Under **Connected Repository**, select the branch dropdown menu and select **Delete Integration**.
+1. Select <img alt="Git branch icon" src="https://assets.postman.com/postman-docs/icon-source-control.jpg#icon" width="16px"/> in the sidebar to open the **Source Control** pane.
+1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> and select **Disconnect repository from Postman**.
+1. Enter the name of the repository to confirm, then select **Disconnect**.
 
 ## Next steps
 

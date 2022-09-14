@@ -63,11 +63,11 @@ The **Source Control** pane displays the number of changes in the active branch 
 
 1. Select **APIs** in the sidebar and select an API.
 1. Select the source control icon <img alt="Source control icon" src="https://assets.postman.com/postman-docs/icon-source-control.jpg#icon" width="16px"/> in the right sidebar.
-1. If you want to review the changes before staging them, select the diff icon <img alt="Diff icon" src="https://assets.postman.com/postman-docs/icon-diff.jpg#icon" width="16px"/>.
+1. If you want to review the changes before committing and pushing them, select the diff icon <img alt="Diff icon" src="https://assets.postman.com/postman-docs/icon-diff.jpg#icon" width="16px"/>.
 
     > You can discard changes in a file by selecting <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> next to it.
 
-1. To commit the staged changes to the active branch, enter a commit message and select **Commit and Push**. <!-- If you want to commit the changes to a new feature branch instead of the active branch, select **Create a new branch for this commit** and enter a branch name before committing. -->
+1. To commit the saved changes to the active branch, enter a commit message and select **Commit and Push**. <!-- If you want to commit the changes to a new feature branch instead of the active branch, select **Create a new branch for this commit** and enter a branch name before committing. -->
 <!-- 1. The push icon <img alt="Push icon" src="https://assets.postman.com/postman-docs/icon-push.jpg#icon" width="36px"/> indicates the number of commits your active branch is ahead of the remote branch. Select the push icon to push the changes to the remote repository. -->
 
 > You don't need to stage or commit your files before pushing. You also don't need to pull changes first. Enter a commit message and select **Commit and Push**.
