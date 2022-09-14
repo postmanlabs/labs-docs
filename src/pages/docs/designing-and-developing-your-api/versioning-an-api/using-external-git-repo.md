@@ -86,6 +86,7 @@ To connect a GitHub, Bitbucket, GitLab, or Azure DevOps repository hosted in the
 <img alt="Connecting to a cloud-hosted repo" src="https://assets.postman.com/postman-docs/v10/api-builder-remote-repo-v10.jpg" width ="562px"/>
 
 ### Connecting to an on-premises repository
+
 <!--
 > Use the [Postman desktop app](/docs/getting-started/installation-and-updates/) to connect to an on-premises Git repository. You can't use the [Postman web app](https://learning.postman.com/docs/getting-started/installation-and-updates/#using-the-postman-web-app).-->
 
