@@ -44,7 +44,7 @@ warning: false
 
 Postman can convert an API request into a code snippet, and you can choose the programming language or framework. You can use this generated code snippet in your front-end applications.
 
-> This guide has information about generating code snippets from API requests. For information about generating server-side boilerplate code from an API specification, see [Generating server code](/docs/designing-and-developing-your-api/generating-server-code/).
+> This guide has information about generating code snippets from API requests. For information about generating server-side boilerplate code from an API specification, see [Generating server code](/docs/designing-and-developing-your-api/developing-an-api/generating-server-code/).
 
 ## Contents
 

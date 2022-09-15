@@ -1,13 +1,13 @@
 ---
 title: 'Importing an API'
-updated: 2022-05-16
+updated: 2022-09-15
 search_keyword: "import, aws, api gateway"
 contextual_links:
   - type: section
     name: "Prerequisites"
   - type: link
-    name: "Developing an API"
-    url: "/docs/designing-and-developing-your-api/developing-an-api/"
+    name: "API development overview"
+    url: "/docs/designing-and-developing-your-api/the-api-workflow/"
   - type: section
     name: "Additional Resources"
   - type: subtitle
@@ -15,29 +15,28 @@ contextual_links:
   - type: link
     name: "Stay on Top of Your API Deployments: AWS API Gateway Integration"
     url: "https://blog.postman.com/deployments-aws-api-gateway-integration/"
-
 ---
 
-You can import an existing API schema into your API. API schemas can be imported from a local file or directory, a URL, raw text, a code repository, or an API gateway.
+You can import an existing API definition into your API. API definitions can be imported from a local file or directory, a URL, raw text, a code repository, or an API gateway.
 
 ## Contents
 
-* [Importing API schemas](#importing-api-schemas)
-* [Importing API schemas from GitHub](#importing-api-schemas-from-github)
-* [Importing API schemas from Bitbucket](#importing-api-schemas-from-bitbucket)
-* [Importing API schemas from Amazon API Gateway](#importing-api-schemas-from-amazon-api-gateway)
-* [Supported API schema formats](#supported-api-schema-formats)
+* [Importing API definitions](#importing-api-definitions)
+* [Importing multi-file API definitions](#importing-multi-file-api-definitions)
+* [Importing API definitions from Amazon API Gateway](#importing-api-definitions-from-amazon-api-gateway)
+* [Supported API definitions formats](#supported-api-definitions-formats)
 
-## Importing API schemas
+## Importing API definitions
 
-To import your API specifications into Postman:
+To import your API definitions into Postman:
 
-1. From the sidebar, select __APIs__, then select **Import**.
+1. Select **APIs** in the sidebar, then select **Import**.
 1. Select a file or folder, enter a link to the API, or paste your raw text.
 
-    > You can also import from a code repository or API gateway. Keep reading for more details.
+    > You can also import an API definition from a code repository. Learn more about [importing and exporting](/docs/getting-started/importing-and-exporting-data/).
 
 1. Confirm the name, format, and what you would like your data to import as.
+1. Select **Generate collection from this API** if you want to automatically generate a collection from an API definition and add it to the API.
 1. Select **Import** to bring your data into Postman.
 
 > You can configure your **Import Settings**, which will differ depending on your API specification.
@@ -46,47 +45,21 @@ You can import several API specification files at once. Select the workspace you
 
 When importing into a team workspace, you can also choose to add the APIs to the [Private API Network](/docs/collaborating-in-postman/adding-private-network/).
 
-[![Import several APIs](https://assets.postman.com/postman-docs/import-export-publish-to-private-api-network-22.jpg)](https://assets.postman.com/postman-docs/import-export-publish-to-private-api-network-22.jpg)
+<img alt="Importing an API confirmation" src="https://assets.postman.com/postman-docs/v10/api-builder-import-and-publish-v10.jpg"/>
 
-## Importing API schemas from GitHub
+## Importing multi-file API definitions
 
-> You must sign in to a [Postman account](/docs/getting-started/postman-account/#signing-up-for-a-postman-account) to use this feature.
+If your API definition consists of multiple files:
 
-You can import API schemas from a GitHub repository.
+1. Select **APIs** in the sidebar, then select **Import**.
+1. Select **Folder**, then select a local folder with your API files.
+1. In the **Import Entities** tab, select the files you want to import for the API definition.
+1. Under each file, select **Generate collection from this API** or specify advanced options, if needed.
+1. Select **Import** to bring your API definition into Postman.
 
-1. From the sidebar, select __APIs__, then select **Import**.
+To learn more about working with multi-file API definitions, see [Editing an API definition](/docs/designing-and-developing-your-api/developing-an-api/defining-an-api/#working-with-multi-file-api-definitions).
 
-1. Select **Code repository**, then select **GitHub**.
-
-1. Confirm your GitHub account and **Authorize postmanlabs** to access your repositories.
-
-1. In Postman, select your GitHub organization, repository, and branch, then select **Continue**.
-
-1. Confirm the API schemas you would like to import into Postman. You can also select **Generate collection from imported APIs** and select what you would like to link this collection as. Select **Show advanced settings** to control how Postman will generate collections based on your file types, then select **Import**.
-
-   ![Confirm import from GitHub](https://assets.postman.com/postman-docs/import-export-github-files-confirm.jpg)
-
-You will receive a confirmation once the import is complete and you can view your imported API schemas and generated collections in Postman.
-
-## Importing API schemas from Bitbucket
-
-> You must sign in to a [Postman account](/docs/getting-started/postman-account/#signing-up-for-a-postman-account) to use this feature.
-
-You can import API schemas from a Bitbucket repository.
-
-1. From the sidebar, select __APIs__, then select **Import**.
-
-1. Select **Code repository**, then select **Bitbucket**.
-
-1. Confirm your Bitbucket account and **Authorize Postman** to access your repositories.
-
-1. In Postman, select your Bitbucket workspace, repository, and branch, then select **Continue**.
-
-1. Postman shows a preview of the API schemas to import into your workspace. Select **Import** to confirm and complete the import.
-
-You will receive a confirmation once the import is complete and you can view your imported API schemas and generated collections in Postman.
-
-## Importing API schemas from Amazon API Gateway
+## Importing API definitions from Amazon API Gateway
 
 [Amazon API Gateway](https://aws.amazon.com/api-gateway/) enables developers to publish and manage APIs that access AWS as well as other web services and data sources. You can import APIs directly from AWS Gateway to Postman. This creates an integration with API Gateway. Once connected, you can view your API deployment status and history from within Postman. You can also view [Amazon CloudWatch](https://aws.amazon.com/cloudwatch/) metrics for each stage to get operational insight into your API.
 
@@ -172,7 +145,7 @@ Next, enter information about the connection:
 
 When you're ready, select **Import**. After importing your API schema, you can [view API deployments in Postman](/docs/designing-and-developing-your-api/deploying-an-api/deploying-an-api-aws/).
 
-## Supported API schema formats
+## Supported API definitions formats
 
 Postman directly supports importing the following formats:
 

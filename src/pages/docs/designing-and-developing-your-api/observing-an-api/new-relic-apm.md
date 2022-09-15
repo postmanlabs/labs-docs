@@ -1,7 +1,6 @@
 ---
 title: 'Viewing New Relic metrics'
-updated: 2022-06-16
-warning: false
+updated: 2022-09-15
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -25,7 +24,7 @@ contextual_links:
 
 New Relic is an application performance management (APM) solution to monitor real-time and trending data for your processes or web apps. The API Builder has a New Relic integration that enables you to access New Relic APM metrics from within Postman.
 
-With this integration, you can link a version of your API in Postman to multiple services from New Relic. Each New Relic service corresponds to an API instance, such as `beta`, `prod1`, or `prod2`. You can also link multiple dashboards from New Relic to your API in Postman.
+With this integration, you can link your API in Postman to multiple services from New Relic. Each New Relic service corresponds to an API instance, such as `beta`, `prod1`, or `prod2`. You can also link multiple dashboards from New Relic to your API in Postman.
 
 > **Want to send Postman monitor results to New Relic?** Sending monitor results to New Relic is a separate integration from viewing APM metrics in Postman and uses a different New Relic API key. The integration in the API Builder has two tabs that cover both integrations. Learn more about [configuring a Postman monitor integration with New Relic](/docs/integrations/available-integrations/new-relic/).
 
@@ -40,7 +39,8 @@ Before you begin, you must set up APM services for each deployment of your API. 
 
 To connect an API to New Relic APM:
 
-1. Open an API version and select the **Monitoring** tab.
+1. Select **APIs** in the sidebar and select an API.
+1. Select **API Performance**.
 1. Under **Connect Postman to your monitoring workflows**, select **New Relic APM**.
 1. Enter your **New Relic API Key** (User Key).
 
@@ -56,13 +56,13 @@ To connect an API to New Relic APM:
 
 ## Viewing New Relic APM metrics
 
-After connecting to New Relic APM, you can view metrics for your New Relic services in Postman. Select **APIs** in the sidebar, select an API and version, and then select the **Monitoring** tab.
+After connecting to New Relic APM, you can view metrics for your New Relic services in Postman. Select **APIs** in the sidebar and select an API. Select **API Performance**.
 
 For each New Relic service, you can view the latency, error rate, and apdex (application performance index). You can also view the service's health status, for example `Healthy`, `Warning`, and `Critical`. Health status is based on violations of alert conditions in New Relic. To learn more, see the New Relic documentation for [viewing alert violations](https://docs.newrelic.com/docs/alerts-applied-intelligence/new-relic-alerts/alert-violations/view-alert-violations-our-products/).
 
 If you linked dashboards when connecting to New Relic, you can view them by selecting **Dashboard Quicklinks** and selecting a dashboard.
 
-<img alt="Viewing Datadog APM metrics" src="https://assets.postman.com/postman-docs/new-relic-apm-view-metrics-v9-22.jpg">
+<img alt="Viewing Datadog APM metrics" src="https://assets.postman.com/postman-docs/v10/new-relic-apm-view-metrics-v10.jpg">
 
 Select the name of a New Relic service to view APM graphs for that service. The graphs display metrics for web transaction time, throughput, error rate, and apdex score. Hover over a data point on a graph to view more details. The tables below the graphs list violation events, slowest transactions by time, and deployments.
 
