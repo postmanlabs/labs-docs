@@ -44,6 +44,8 @@ Newman maintains feature parity with Postman and allows you to run collections t
 
 Newman resides in the [npm registry](https://www.npmjs.com/package/newman) and on [GitHub](https://github.com/postmanlabs/newman).
 
+You can also run collections from the command line using the [Postman CLI](/docs/postman-cli/postman-cli-overview/). For more information on the differences between Newman and the Postman CLI, see [deciding which command-line companion to use](/docs/postman-cli/postman-cli-overview/#deciding-which-command-line-companion-to-use).
+
 [![Running Newman](https://assets.postman.com/postman-docs/newman-running-in-terminal.gif)](https://assets.postman.com/postman-docs/newman-running-in-terminal.gif)
 
 ## Contents

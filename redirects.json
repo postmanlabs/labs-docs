@@ -769,7 +769,7 @@
 	},
 	{
 		"from": "/docs/postman/design-and-develop-apis/validating-elements-against-schema/",
-		"to": "/docs/designing-and-developing-your-api/validating-elements-against-schema/"
+		"to": "/docs/designing-and-developing-your-api/developing-an-api/validating-elements-against-schema/"
 	},
 	{
 		"from": "/docs/postman/design-and-develop-apis/versioning-an-api/",
@@ -801,7 +801,7 @@
 	},
 	{
 		"from": "/docs/postman/design_and_develop_apis/validating_elements_against_schema/",
-		"to": "/docs/designing-and-developing-your-api/validating-elements-against-schema/"
+		"to": "/docs/designing-and-developing-your-api/developing-an-api/validating-elements-against-schema/"
 	},
 	{
 		"from": "/docs/postman/design_and_develop_apis/versioning_an_api/",
@@ -1229,7 +1229,7 @@
 	},
 	{
 		"from": "/docs/postman/sending-api-requests/validating-requests-against-schema/",
-		"to": "/docs/designing-and-developing-your-api/validating-elements-against-schema/"
+		"to": "/docs/designing-and-developing-your-api/developing-an-api/validating-elements-against-schema/"
 	},
 	{
 		"from": "/docs/postman/sending-api-requests/visualizer/",
@@ -1301,7 +1301,7 @@
 	},
 	{
 		"from": "/docs/postman/sending_api_requests/validating_requests_against_schema/",
-		"to": "/docs/designing-and-developing-your-api/validating-elements-against-schema/"
+		"to": "/docs/designing-and-developing-your-api/developing-an-api/validating-elements-against-schema/"
 	},
 	{
 		"from": "/docs/postman/sending_api_requests/visualizer/",
@@ -1986,5 +1986,29 @@
 	{
 		"from": "/docs/sending-requests/supported-api-frameworks/making-soap-requests/",
 		"to": "/docs/sending-requests/soap/making-soap-requests/"
+	},
+	{
+		"from": "/docs/designing-and-developing-your-api/versioning-an-api/api-statuses/",
+		"to": "/docs/designing-and-developing-your-api/versioning-an-api/versioning-an-api-overview/"
+	},
+	{
+		"from": "/docs/designing-and-developing-your-api/defining-an-api/",
+		"to": "/docs/designing-and-developing-your-api/developing-an-api/defining-an-api/"
+	},
+	{
+		"from": "/docs/designing-and-developing-your-api/developing-an-api/",
+		"to": "/docs/designing-and-developing-your-api/developing-an-api/adding-api-elements/"
+	},
+	{
+		"from": "/docs/designing-and-developing-your-api/generating-server-code/",
+		"to": "/docs/designing-and-developing-your-api/developing-an-api/generating-server-code/"
+	},
+	{
+		"from": "/docs/designing-and-developing-your-api/versioning-an-api/api-releases/",
+		"to": "/docs/designing-and-developing-your-api/versioning-an-api/api-versions/"
+	},
+	{
+		"from": "/docs/designing-and-developing-your-api/validating-elements-against-schema/",
+		"to": "/docs/designing-and-developing-your-api/developing-an-api/validating-elements-against-schema/"
 	}
 ]
