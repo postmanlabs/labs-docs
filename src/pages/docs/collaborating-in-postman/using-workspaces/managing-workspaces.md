@@ -46,6 +46,7 @@ Use workspaces to organize your work in Postman and collaborate with teammates (
     * [Changing workspace visibility](#changing-workspace-visibility)
 * [Sharing workspaces](#sharing-workspaces)
     * [Approving requests for access to private workspaces](#approving-requests-for-access-to-private-workspaces)
+    * [Adding workspaces to the Private API Network](#adding-workspaces-to-the-private-api-network)
 * [Managing workspace roles](#managing-workspace-roles)
 * [Watching a workspace](#watching-a-workspace)
 * [Moving elements to workspaces](#moving-elements-to-workspaces)
@@ -144,6 +145,10 @@ Team members can [request access to a private workspace](#accessing-private-work
 You can assign a [workspace role](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles) to define a user's permissions within the workspace, then select **Approve** to grant them access. You can also choose to reject a request for access by selecting **Deny**. Team members who have requested access will be notified of your decision in Postman and by email.
 
 > Requests for access to private workspaces expire if they aren't reviewed within 15 days. If this occurs, Postman will notify the affected users to resubmit their request for access.
+
+### Adding workspaces to the Private API Network
+
+You can also share workspaces with your teammates by adding them to your team's [Private API Network](/docs/collaborating-in-postman/adding-private-network/). To learn more, see [Adding workspaces](/docs/collaborating-in-postman/adding-private-network/#adding-workspaces).
 
 ## Managing workspace roles
 
