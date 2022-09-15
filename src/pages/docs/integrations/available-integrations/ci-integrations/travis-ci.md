@@ -2,7 +2,7 @@
 title: "Travis CI"
 order: 164.4
 page_id: "travisci"
-updated: 2022-04-08
+updated: 2022-09-15
 warning: false
 contextual_links:
   - type: section
@@ -54,50 +54,31 @@ Select **View All Builds** to view the full list of build jobs. From here you ca
 * To get the latest build status information, select <img alt="Refresh icon" src="https://assets.postman.com/postman-docs/icon-refresh-v9-5.jpg#icon" width="14px"> **Refresh**.
 * To edit or delete the integration, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px">.
 
-<img alt="View all Travis CI builds" src="https://assets.postman.com/postman-docs/travis-ci-view-builds-v9-15.jpg">
+<img alt="View all Travis CI builds" src="https://assets.postman.com/postman-docs/v10/collection-runs-v10-2.jpg">
 
-## Configuring Newman for Travis CI
+## Configuring the Postman CLI for Travis CI
 
-With the help of Newman and the Postman API, you can run API tests created in Postman as part of your Travis CI pipeline. First generate the Newman configuration code in Postman. Then add the configuration code to the `.travis.yml` file in your Travis CI project.
+With the help of the Postman CLI and the Postman API, you can run API tests created in Postman as part of your Travis CI pipeline. First generate the Postman CLI configuration code in Postman. Then add the configuration code to the `.travis.yml` file in your Travis CI project.
 
-To generate configuration code for Newman:
+You an also enforce [API Governance and API Security rules each time the pipeline runs](/docs/api-governance/api-definition/api-definition-warnings/#tracking-governance-and-security-rule-violations-in-cicd) ([Enterprise teams only](https://www.postman.com/pricing/)).
+
+To generate configuration code for the Postman CLI:
 
 1. Open your API version and select the **Test** tab.
 1. Under **CI/CD Builds**, select **View All Builds**.
-1. Select **Configure Newman**.
+1. Select **Configure Postman CLI**.
 1. Select a **Collection** to run during pipeline builds. To be available in the dropdown list, you must first [add the collection as a test suite](/docs/designing-and-developing-your-api/testing-an-api/#adding-tests) to your API. You can also select an **Environment** to use.
+1. (Optional) Select the checkbox to enforce API Governance and API Security rules each time the CI/CD pipeline runs ([Enterprise teams only](https://www.postman.com/pricing/)). To review rule violations, go to the API's overview page and select **View files** under **Definition**.
+1. Select the **Operating system** for your CI/CD pipeline.
+1. Select **Copy Postman CLI Command** to copy the Postman CLI configuration.
 
-    > If needed, select **+ Add More** to select other collections to run.
+<img alt="Generate the Postman CLI configuration" src="https://assets.postman.com/postman-docs/v10/generate-postman-cli-v10-2.jpg" width="548px">
 
-1. Select **Copy** to copy the Newman configuration, and then select **Finish**.
-
-<img alt="Generate Newman configuration" src="https://assets.postman.com/postman-docs/travis-ci-generate-newman-v9-21.jpg" width="562">
-
-To add the Newman configuration to your Travis CI project:
+To add the Postman CLI configuration to your Travis CI project:
 
 1. Create a file named **.travis.yml** at the root of your project repository.
-1. Add the Newman configuration you copied from Postman to the **.travis.yml** file:
-    * Replace all instances of `$KEY` with a valid [Postman API Key](/docs/developer/intro-api/#generating-a-postman-api-key).
+1. Add the Postman CLI configuration you copied from Postman to the **.travis.yml** file:
+    * Replace all instances of `$POSTMAN_API_KEY` with a valid [Postman API Key](/docs/developer/intro-api/#generating-a-postman-api-key).
 1. Commit and push the changes to your remote repository.
 1. In Travis CI, open the repository from the dashboard. Then select **More options > Trigger build**.
 1. To view the test results in Postman, open your API and select the **Tests** tab.
-
-### Example Travis CI .travis.yml
-
-```yaml
-language: node_js
-node_js:
-- "12.18.3"
-
-install:
-- npm install newman
-
-before_script:
-- node --version
-- npm --version
-- node_modules/.bin/newman --version
-
-script:
-- node_modules/.bin/newman run https://api.getpostman.com/collections/4946945-3673316a-9a35-4b0d-a148-3566b490798d?apikey=$KEY --environment https://api.getpostman.com/environments/16724969-8e6c6119-ed57-4665-b4f9-f648c5637484?apikey=$KEY
-
-```

@@ -39,7 +39,7 @@ export const leftNavItems = [
         url: '/docs/getting-started/introduction/',
       },
       {
-        name: 'Installing and Updating',
+        name: 'Installing and Updating Postman',
         url: '/docs/getting-started/installation-and-updates/',
       },
       {
@@ -338,6 +338,29 @@ export const leftNavItems = [
             url: '/docs/running-collections/using-newman-cli/integration-with-jenkins/',
           },
         ],
+      },
+    ],
+  },
+  {
+    name: 'Using the Postman CLI',
+    parentSlug: 'postman-cli',
+    url: '/docs/postman-cli/postman-cli-overview/',
+    subMenuItems1: [
+      {
+        name: 'Postman CLI overview',
+        url: '/docs/postman-cli/postman-cli-overview/',
+      },
+      {
+        name: 'Installing the Postman CLI',
+        url: '/docs/postman-cli/postman-cli-installation/',
+      },
+      {
+        name: 'Postman CLI command options',
+        url: '/docs/postman-cli/postman-cli-options/',
+      },
+      {
+        name: 'Running a collection with the Postman CLI',
+        url: '/docs/postman-cli/postman-cli-run-collection/',
       },
     ],
   },
