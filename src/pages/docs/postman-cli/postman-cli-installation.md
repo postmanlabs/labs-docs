@@ -65,4 +65,5 @@ Run the following commands to install the Postman CLI for Windows. This will dow
 Download and run the installation script for your platform from the [download page](https://www.postman.com/downloads/) or with the appropriate script below:
 
 ```powershell
-powershell.exe -NoProfile -InputFormat None -ExecutionPolicy Unrestricted -Command "[System.Net.ServicePointManager]::SecurityProtocol = 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://dl-cli.pstmn.io/install/win64.ps1'))"
+powershell.exe -NoProfile -InputFormat None -ExecutionPolicy AllSigned -Command "[System.Net.ServicePointManager]::SecurityProtocol = 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://dl-cli.pstmn.io/install/win64.ps1'))"
+```
