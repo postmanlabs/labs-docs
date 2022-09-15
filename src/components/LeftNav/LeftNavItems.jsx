@@ -644,7 +644,7 @@ export const leftNavItems = [
     url: '/docs/api-governance/api-governance-overview/',
     subMenuItems1: [
       {
-        name: 'API Governance and API Security at Postman',
+        name: 'API Governance and API Security in Postman',
         url: '/docs/api-governance/api-governance-overview/',
       },
       {
