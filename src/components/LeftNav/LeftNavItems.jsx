@@ -177,6 +177,49 @@ export const leftNavItems = [
         url: '/docs/sending-requests/graphql/graphql/',
       },
       {
+        name: 'Using gRPC Requests',
+        subParentSlug: 'grpc',
+        slug: '/docs/sending-requests/grpc/grpc-client-overview/',
+        subMenuItems2: [
+          {
+            name: 'gRPC overview',
+            url: '/docs/sending-requests/grpc/grpc-client-overview/',
+          },
+          {
+            name: 'Using the gRPC request interface',
+            url: '/docs/sending-requests/grpc/grpc-request-interface/',
+          },
+          {
+            name: 'Invoking your first gRPC request',
+            url: '/docs/sending-requests/grpc/first-grpc-request/',
+          },
+          {
+            name: 'Working with service definitions',
+            url: '/docs/sending-requests/grpc/using-service-definition/',
+          },
+          {
+            name: 'Scripting in gRPC requests',
+            url: '/docs/sending-requests/grpc/scripting-in-grpc-request/',
+          },
+          {
+            name: 'gRPC test examples',
+            url: '/docs/sending-requests/grpc/test-examples/',
+          },
+          {
+            name: 'Postman Sandbox API',
+            url: '/docs/sending-requests/grpc/postman-sandbox-api/',
+          },
+          {
+            name: 'Using gRPC mock servers',
+            url: '/docs/sending-requests/grpc/using-grpc-mock/',
+          },
+          {
+            name: 'Understanding gRPC types',
+            url: '/docs/sending-requests/grpc/understanding-grpc-types/',
+          },
+        ],
+      },
+      {
         name: 'Using WebSocket Requests',
         url: '/docs/sending-requests/websocket/websocket/',
       },
@@ -403,12 +446,12 @@ export const leftNavItems = [
     ],
   },
   {
-    name: 'Designing and Developing your API',
+    name: 'Designing and Developing Your API',
     parentSlug: 'designing-and-developing-your-api',
     url: '/docs/designing-and-developing-your-api/the-api-workflow/',
     subMenuItems1: [
       {
-        name: 'API Development Overview',
+        name: 'API development overview',
         url: '/docs/designing-and-developing-your-api/the-api-workflow/',
       },
       {
@@ -420,43 +463,50 @@ export const leftNavItems = [
         url: '/docs/designing-and-developing-your-api/importing-an-api/',
       },
       {
-        name: 'Versioning an API',
+        name: 'Using API Version Control',
         subParentSlug: 'versioning-an-api',
         slug: '/docs/designing-and-developing-your-api/versioning-an-api/versioning-an-api-overview/',
         subMenuItems2: [
           {
-            name: 'Versioning an API overview',
+            name: 'API version control overview',
             url: '/docs/designing-and-developing-your-api/versioning-an-api/versioning-an-api-overview/',
           },
           {
-            name: 'Using an external Git repository',
+            name: 'Using a remote Git repository',
             url: '/docs/designing-and-developing-your-api/versioning-an-api/using-external-git-repo/',
           },
           {
-            name: 'Working with API versions',
+            name: 'Managing changes using Git',
+            url: '/docs/designing-and-developing-your-api/versioning-an-api/managing-git-changes/',
+          },
+          {
+            name: 'Publishing an API version',
             url: '/docs/designing-and-developing-your-api/versioning-an-api/api-versions/',
-          },
-          {
-            name: 'Working with API releases',
-            url: '/docs/designing-and-developing-your-api/versioning-an-api/api-releases/',
-          },
-          {
-            name: 'Setting an API status',
-            url: '/docs/designing-and-developing-your-api/versioning-an-api/api-statuses/',
           },
         ],
       },
       {
-        name: 'Defining an API Specification',
-        url: '/docs/designing-and-developing-your-api/defining-an-api/',
-      },
-      {
         name: 'Developing an API',
-        url: '/docs/designing-and-developing-your-api/developing-an-api/',
-      },
-      {
-        name: 'Generating server code',
-        url: '/docs/designing-and-developing-your-api/generating-server-code/',
+        subParentSlug: 'developing-an-api',
+        slug: '/docs/designing-and-developing-your-api/developing-an-api/defining-an-api/',
+        subMenuItems2: [
+          {
+            name: 'Editing an API definition',
+            url: '/docs/designing-and-developing-your-api/developing-an-api/defining-an-api/',
+          },
+          {
+            name: 'Adding elements to an API',
+            url: '/docs/designing-and-developing-your-api/developing-an-api/adding-api-elements/',
+          },
+          {
+            name: 'Generating server code',
+            url: '/docs/designing-and-developing-your-api/developing-an-api/generating-server-code/',
+          },
+          {
+            name: 'Validating APIs',
+            url: '/docs/designing-and-developing-your-api/developing-an-api/validating-elements-against-schema/',
+          },
+        ],
       },
       {
         name: 'Testing an API',
@@ -505,11 +555,7 @@ export const leftNavItems = [
         url: '/docs/designing-and-developing-your-api/managing-apis/',
       },
       {
-        name: 'Validating APIs',
-        url: '/docs/designing-and-developing-your-api/validating-elements-against-schema/',
-      },
-      {
-        name: 'Mocking Data',
+        name: 'Mocking an API',
         subParentSlug: 'mocking-data',
         slug: '/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/',
         subMenuItems2: [
@@ -534,12 +580,12 @@ export const leftNavItems = [
     ],
   },
   {
-    name: 'Publishing Your API',
+    name: 'Documenting Your API',
     parentSlug: 'publishing-your-api',
     url: '/docs/publishing-your-api/documenting-your-api/',
     subMenuItems1: [
       {
-        name: 'Documenting your API',
+        name: 'Generating API documentation',
         url: '/docs/publishing-your-api/documenting-your-api/',
       },
       {
