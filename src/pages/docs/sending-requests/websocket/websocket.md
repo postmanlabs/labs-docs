@@ -208,9 +208,7 @@ Postman will display your collection and saved request in **Collections** in the
 
 Because WebSocket requests have different features than HTTP requests, when they're added to a collection, it causes the collection to be in a “beta” state with certain limitations.
 
-When in this state, a collection can only contain WebSocket requests. It can't contain folders or HTTP requests, and you can't move requests into or out of such a collection.
-
-Collections containing WebSocket requests support the use of documentation and variables. Other features related to collections aren't supported, such as collaboration, version control, or scripting.
+When in this state, a collection can only contain WebSocket or gRPC requests. It can't contain HTTP requests. Some features related to collections aren't supported, such as collaboration, version control, or scripting.
 
 ## Documenting collections and requests
 
