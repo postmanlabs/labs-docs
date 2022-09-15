@@ -769,6 +769,10 @@ export const leftNavItems = [
         url: '/docs/administration/billing/',
       },
       {
+        name: 'About Postman Enterprise',
+        url: '/docs/administration/about-postman-enterprise/'
+      },
+      {
         name: 'Configuring team settings',
         url: '/docs/administration/team-settings/',
       },
