@@ -35,6 +35,7 @@ Postman provides a variety of options to customize your team's experience, from 
         * [Managing invitations](#managing-invitations)
     * [Removing team members](#removing-team-members)
     * [Managing team roles](#managing-team-roles)
+    * [Managing partners](#managing-partners)
 * [Managing your team’s Postman plan](#managing-your-teams-postman-plan)
     * [Changing team size](#changing-team-size)
     * [Upgrading your plan](#upgrading-your-plan)
@@ -100,13 +101,19 @@ You can change the roles of team members by selecting **Team** in the upper righ
 
 Under **Members**, select the roles next to the user you'd like to update. Select the roles you'd like to assign or remove, then **Update Roles** to confirm your changes.
 
-<img alt="Edit team roles" src="https://assets.postman.com/postman-docs/members-and-groups-update-roles-v9.18.jpg" width="650px"/>
+<img alt="Edit team roles" src="https://assets.postman.com/postman-docs/v10/members-edit-roles-v10.jpg"/>
 
 > Each team member must have at least one team role assigned to them.
 
 Teams can have two support accounts at no extra cost. Support accounts are members with only Admin or Billing roles. Members with a Super Admin or Developer role will consume a paid slot on your team.
 
 For full details about the Postman team roles that you can assign as a Team Admin, see [Team roles](/docs/collaborating-in-postman/roles-and-permissions/#team-roles). Some roles are only available for teams with [Postman Professional or Enterprise](https://www.postman.com/pricing) plans.
+
+### Managing partners
+
+> **[Partners are only available to Postman Enterprise teams.](https://www.postman.com/pricing)**
+
+You can manage external partners similarly to internal team members. To learn more, see [Partner Workspaces](/docs/collaborating-in-postman/using-workspaces/partner-workspaces/).
 
 ## Managing your team’s Postman plan
 

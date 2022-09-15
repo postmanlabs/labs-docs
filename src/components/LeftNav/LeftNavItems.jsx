@@ -39,7 +39,7 @@ export const leftNavItems = [
         url: '/docs/getting-started/introduction/',
       },
       {
-        name: 'Installing and Updating',
+        name: 'Installing and Updating Postman',
         url: '/docs/getting-started/installation-and-updates/',
       },
       {
@@ -342,6 +342,29 @@ export const leftNavItems = [
     ],
   },
   {
+    name: 'Using the Postman CLI',
+    parentSlug: 'postman-cli',
+    url: '/docs/postman-cli/postman-cli-overview/',
+    subMenuItems1: [
+      {
+        name: 'Postman CLI overview',
+        url: '/docs/postman-cli/postman-cli-overview/',
+      },
+      {
+        name: 'Installing the Postman CLI',
+        url: '/docs/postman-cli/postman-cli-installation/',
+      },
+      {
+        name: 'Postman CLI command options',
+        url: '/docs/postman-cli/postman-cli-options/',
+      },
+      {
+        name: 'Running a collection with the Postman CLI',
+        url: '/docs/postman-cli/postman-cli-run-collection/',
+      },
+    ],
+  },
+  {
     name: 'Collaborating in Postman',
     parentSlug: 'collaborating-in-postman',
     url: '/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/',
@@ -407,6 +430,10 @@ export const leftNavItems = [
             url: '/docs/collaborating-in-postman/using-workspaces/managing-workspaces/',
           },
           {
+            name: 'Partner workspaces',
+            url: '/docs/collaborating-in-postman/using-workspaces/partner-workspaces/'
+          },
+          {
             name: 'Public workspaces',
             url: '/docs/collaborating-in-postman/using-workspaces/public-workspaces/'
           },
@@ -423,12 +450,12 @@ export const leftNavItems = [
     ],
   },
   {
-    name: 'Designing and Developing your API',
+    name: 'Designing and Developing Your API',
     parentSlug: 'designing-and-developing-your-api',
     url: '/docs/designing-and-developing-your-api/the-api-workflow/',
     subMenuItems1: [
       {
-        name: 'API Development Overview',
+        name: 'API development overview',
         url: '/docs/designing-and-developing-your-api/the-api-workflow/',
       },
       {
@@ -440,43 +467,50 @@ export const leftNavItems = [
         url: '/docs/designing-and-developing-your-api/importing-an-api/',
       },
       {
-        name: 'Versioning an API',
+        name: 'Using API Version Control',
         subParentSlug: 'versioning-an-api',
         slug: '/docs/designing-and-developing-your-api/versioning-an-api/versioning-an-api-overview/',
         subMenuItems2: [
           {
-            name: 'Versioning an API overview',
+            name: 'API version control overview',
             url: '/docs/designing-and-developing-your-api/versioning-an-api/versioning-an-api-overview/',
           },
           {
-            name: 'Using an external Git repository',
+            name: 'Using a remote Git repository',
             url: '/docs/designing-and-developing-your-api/versioning-an-api/using-external-git-repo/',
           },
           {
-            name: 'Working with API versions',
+            name: 'Managing changes using Git',
+            url: '/docs/designing-and-developing-your-api/versioning-an-api/managing-git-changes/',
+          },
+          {
+            name: 'Publishing an API version',
             url: '/docs/designing-and-developing-your-api/versioning-an-api/api-versions/',
-          },
-          {
-            name: 'Working with API releases',
-            url: '/docs/designing-and-developing-your-api/versioning-an-api/api-releases/',
-          },
-          {
-            name: 'Setting an API status',
-            url: '/docs/designing-and-developing-your-api/versioning-an-api/api-statuses/',
           },
         ],
       },
       {
-        name: 'Defining an API Specification',
-        url: '/docs/designing-and-developing-your-api/defining-an-api/',
-      },
-      {
         name: 'Developing an API',
-        url: '/docs/designing-and-developing-your-api/developing-an-api/',
-      },
-      {
-        name: 'Generating server code',
-        url: '/docs/designing-and-developing-your-api/generating-server-code/',
+        subParentSlug: 'developing-an-api',
+        slug: '/docs/designing-and-developing-your-api/developing-an-api/defining-an-api/',
+        subMenuItems2: [
+          {
+            name: 'Editing an API definition',
+            url: '/docs/designing-and-developing-your-api/developing-an-api/defining-an-api/',
+          },
+          {
+            name: 'Adding elements to an API',
+            url: '/docs/designing-and-developing-your-api/developing-an-api/adding-api-elements/',
+          },
+          {
+            name: 'Generating server code',
+            url: '/docs/designing-and-developing-your-api/developing-an-api/generating-server-code/',
+          },
+          {
+            name: 'Validating APIs',
+            url: '/docs/designing-and-developing-your-api/developing-an-api/validating-elements-against-schema/',
+          },
+        ],
       },
       {
         name: 'Testing an API',
@@ -525,11 +559,7 @@ export const leftNavItems = [
         url: '/docs/designing-and-developing-your-api/managing-apis/',
       },
       {
-        name: 'Validating APIs',
-        url: '/docs/designing-and-developing-your-api/validating-elements-against-schema/',
-      },
-      {
-        name: 'Mocking Data',
+        name: 'Mocking an API',
         subParentSlug: 'mocking-data',
         slug: '/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/',
         subMenuItems2: [
@@ -554,12 +584,12 @@ export const leftNavItems = [
     ],
   },
   {
-    name: 'Publishing Your API',
+    name: 'Documenting Your API',
     parentSlug: 'publishing-your-api',
     url: '/docs/publishing-your-api/documenting-your-api/',
     subMenuItems1: [
       {
-        name: 'Documenting your API',
+        name: 'Generating API documentation',
         url: '/docs/publishing-your-api/documenting-your-api/',
       },
       {
@@ -977,6 +1007,10 @@ export const leftNavItems = [
           {
             name: 'GitHub',
             url: '/docs/integrations/available-integrations/github/',
+          },
+          {
+            name: 'GitHub Actions',
+            url: '/docs/integrations/available-integrations/ci-integrations/github-actions/',
           },
           {
             name: 'GitLab',
