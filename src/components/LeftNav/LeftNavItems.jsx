@@ -93,13 +93,7 @@ export const leftNavItems = [
   {
     name: "gRPC Client",
     parentSlug: "grpc-client",
-    url: "/postman-api-client/grpc-client/grpc-client-overview/",
-    subMenuItems1: [
-      {
-        name: "We've moved!",
-        url: "/postman-api-client/grpc-client/grpc-client-overview/",
-      }
-    ],
+    url: "https://learning.postman.com/docs/sending-requests/grpc/grpc-client-overview/"
   },
   {
     name: "WebSocket Client",
