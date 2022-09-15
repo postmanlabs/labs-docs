@@ -96,60 +96,9 @@ export const leftNavItems = [
     url: "/postman-api-client/grpc-client/grpc-client-overview/",
     subMenuItems1: [
       {
-        name: "Introduction",
+        name: "We've moved!",
         url: "/postman-api-client/grpc-client/grpc-client-overview/",
-      },
-      {
-        name: "Request interface",
-        url: "/postman-api-client/grpc-client/grpc-request-interface/",
-      },
-      {
-        name: "Invoking your first gRPC request",
-        url: "/postman-api-client/grpc-client/first-grpc-request/",
-      },
-      {
-        name: "Using gRPC requests",
-        url: "/postman-api-client/grpc-client/using-grpc-request/",
-      },
-      {
-        name: "Working with service definition",
-        url: "/postman-api-client/grpc-client/using-service-definition/",
-      },
-      {
-        name: "Writing scripts",
-        subParentSlug: "writing-scripts",
-        slug: "/postman-api-client/grpc-client/writing-scripts/scripting-in-grpc-request/",
-        subMenuItems2: [
-          {
-            name: 'Scripting in gRPC request',
-            url: "/postman-api-client/grpc-client/writing-scripts/scripting-in-grpc-request/",
-          },
-          {
-            name: 'Writing tests',
-            url: "/postman-api-client/grpc-client/writing-scripts/writing-tests/",
-          },
-          {
-            name: 'Test examples',
-            url: "/postman-api-client/grpc-client/writing-scripts/test-examples/",
-          },
-          {
-            name: 'Postman Sandbox API',
-            url: "/postman-api-client/grpc-client/writing-scripts/postman-sandbox-api/",
-          }
-        ]
-      },
-      {
-        name: "Understanding gRPC types",
-        url: "/postman-api-client/grpc-client/understanding-grpc-types/",
-      },
-      {
-        name: "Collaborating with your teammates",
-        url: "/postman-api-client/grpc-client/collaboration/",
-      },
-      {
-        name: "Troubleshooting",
-        url: "/postman-api-client/grpc-client/troubleshooting/",
-      },
+      }
     ],
   },
   {
