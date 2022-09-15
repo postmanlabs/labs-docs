@@ -674,7 +674,7 @@ export const leftNavItems = [
     url: '/docs/api-governance/api-governance-overview/',
     subMenuItems1: [
       {
-        name: 'API governance',
+        name: 'API Governance and API Security in Postman',
         url: '/docs/api-governance/api-governance-overview/',
       },
       {
@@ -683,31 +683,54 @@ export const leftNavItems = [
         slug: '/docs/api-governance/api-definition/api-definition-warnings/',
         subMenuItems2: [
           {
-            name: 'API definition warnings',
+            name: 'Rule violations in the API definition',
             url: '/docs/api-governance/api-definition/api-definition-warnings/',
           },
           {
-            name: 'OpenAPI 3.0 warnings',
+            name: 'OpenAPI 3.0 rules',
             url: '/docs/api-governance/api-definition/openapi3/',
           },
           {
-            name: 'OpenAPI 2.0 warnings',
+            name: 'OpenAPI 2.0 rules',
             url: '/docs/api-governance/api-definition/openapi2/',
           },
         ],
       },
       {
-        name: 'API testing',
+        name: 'Requests',
         subParentSlug: 'api-testing',
         slug: '/docs/api-governance/api-testing/api-testing-warnings/',
         subMenuItems2: [
           {
-            name: 'API testing warnings',
+            name: 'Warnings in API requests',
             url: '/docs/api-governance/api-testing/api-testing-warnings/',
           },
           {
             name: 'Security warnings',
             url: '/docs/api-governance/api-testing/security-warnings/',
+          },
+        ],
+      },
+      {
+        name: 'Configurable rules',
+        subParentSlug: 'configurable-rules',
+        slug: '/docs/api-governance/configurable-rules/configurable-rules-overview/',
+        subMenuItems2: [
+          {
+            name: 'Configurable rules overview',
+            url: '/docs/api-governance/configurable-rules/configurable-rules-overview/',
+          },
+          {
+            name: 'Configuring API Governance rules',
+            url: '/docs/api-governance/configurable-rules/configuring-api-governance-rules/',
+          },
+          {
+            name: 'Configuring API Security rules',
+            url: '/docs/api-governance/configurable-rules/configuring-api-security-rules/',
+          },
+          {
+            name: 'Using Spectral in Postman',
+            url: '/docs/api-governance/configurable-rules/spectral/',
           },
         ],
       },
