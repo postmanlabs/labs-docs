@@ -5,7 +5,7 @@ contextual_links:
   - type: section
     name: "Prerequisites"
   - type: link
-    name: "API definition warnings"
+    name: "Rule violations in the API definition"
     url: "https://learning.postman.com/docs/api-governance/api-definition/api-definition-warnings/"
   - type: section
     name: "Additional Resources"

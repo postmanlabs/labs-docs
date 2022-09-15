@@ -17,10 +17,10 @@ contextual_links:
   - type: section
     name: "Next Steps"
   - type: link
-    name: "OpenAPI 3.0 warnings"
+    name: "OpenAPI 3.0 rules"
     url: "/docs/api-governance/api-definition/openapi3/"
   - type: link
-    name: "OpenAPI 2.0 warnings"
+    name: "OpenAPI 2.0 rules"
     url: "/docs/api-governance/api-definition/openapi2/"
 search_keyword: "api security, api schema, security warnings, schema validation, security validation, api security audit, api security scan, api schema vulnerabilities, security audit,openapi 3.0"
 ---
