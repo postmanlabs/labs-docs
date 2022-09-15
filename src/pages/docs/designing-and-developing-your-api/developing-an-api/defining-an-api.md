@@ -41,6 +41,7 @@ You create the structure of your API using the _API definition_. The API definit
 * [Importing an API definition](#importing-an-api-definition)
 * [Editing an API definition file](#editing-an-api-definition-file)
 * [Working with multi-file API definitions](#working-with-multi-file-api-definitions)
+* [Viewing rule violations in your API definition](#viewing-rule-violations-in-your-api-definition)
 
 ## Generating an API definition
 
@@ -136,3 +137,38 @@ To add a file to a folder, select the more actions icon <img alt="More actions i
 To delete a file or folder, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the item and select **Delete**.
 
 > If you delete the last remaining file in an API definition, the API will no longer have a Definition unless you create it again. The schema documentation and any information in the file's info pane including the Definition ID will be lost. Other components of the API will remain intact. For example, collections in the API won't be deleted. You cannot restore a Definition after it is deleted.
+
+## Viewing rule violations in your API definition
+
+> [This feature is only available for Postman Enterprise teams.](https://www.postman.com/pricing)
+
+As you create your API definition in the editor, Postman automatically checks it against [API Governance and API Security](/docs/api-governance/api-governance-overview/) rules configured for your team. Postman displays any rule violations below the editor. Resolving these issues enables you improve your API definition.
+
+<img alt="OpenAPI 3.0 rule violations" src="https://assets.postman.com/postman-docs/v10/api-definition-rule-violations-openapi3-v10.jpg" width="800px"/>
+
+To learn more about the supported API description formats, the rules preconfigured in Postman, and how to create new rules, see [Rule violations in the API definition](/docs/api-governance/api-definition/api-definition-warnings/).
+
+To see any rule violations, select **Rule** next to **Violations found in definition**. Postman displays each rule violation on its own line, with a brief description of the issue, the rule type (**Governance** or **Security**), and the line and file the where the rule violation occurs. When you select a rule violations, Postman highlights the section of the definition that triggered it.
+
+If the rule violation occurs more than once, the line indicates how many times. You can scroll through each occurrence.
+
+<img alt="Multiple occurrences of the same rule violation" src="https://assets.postman.com/postman-docs/v10/api-definition-multiple-violations-v10.jpg" width="800px"/>
+
+To learn more about the rule violation and get information about how to fix it, select **Possible fix**, which will open the relevant Learning Center page.
+
+When you make updates to your API definition, Postman re-checks it. If your changes resolve the issue, Postman removes the rule violation from the list.
+
+### Hiding rule violations
+
+To hide a rule violation for the API definition, select **Hide** next to the rule. Select a reason that you want to hide the rule, then select **Hide** again. This will hide the rule for your entire team on the current API.
+
+> To hide a rule violation globally, you can use either [configurable API Governance rules](/docs/api-governance/configurable-rules/configuring-api-governance-rules/) or [configurable API Security rules](/docs/api-governance/configurable-rules/configuring-api-security-rules/).
+
+<img alt="Hide a rule violation in your API definition" src="https://assets.postman.com/postman-docs/v10/api-definition-hide-rule-violation-v10.jpg" width="800px"/>
+
+When you or another member of your team has hidden a rule violation, Postman shows a message in the editor's **Rule** tab to indicate how many are hidden. To turn a rule back on later:
+
+1. Select **Review**.
+1. Review your hidden rules and select the eye icon <img alt="Eye icon" src="https://assets.postman.com/postman-docs/eye.jpg#icon" width="16px"> next to the one you want to turn back on.
+
+<img alt="Review hidden rules for your API definition" src="https://assets.postman.com/postman-docs/v10/api-definition-review-hidden-warnings-v10.jpg" width="800px"/>
