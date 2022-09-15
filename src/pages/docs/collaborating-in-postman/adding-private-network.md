@@ -30,25 +30,19 @@ contextual_links:
   - type: link
     name: "ChargeHub"
     url: "https://www.postman.com/case-studies/chargehub/"
-  - type: section
-    name: "Next Steps"
-  - type: link
-    name: "Documenting your API"
-    url: "/docs/publishing-your-api/documenting-your-api/"
-  - type: link
-    name: "Generating collections from the API"
-    url: "/docs/designing-and-developing-your-api/the-api-workflow/"
     search_keyword: "Private API Network, API sharing, folders, network listing, filtering apis, publish versions, github import, private apis, adding apis"
 
 ---
 
-The _Private API Network_ provides a central directory of all the APIs your team uses internally. Your team can access these APIs and start using them right away.
+> __[The Private API Network is only available on Postman Enterprise plans.](https://www.postman.com/pricing)__
 
-APIs in the Private API Network are visible to logged-in users who are a part of your Postman team. Users who aren't a part of your team can't find or access these APIs.
+The _Private API Network_ provides a central directory of workspaces, collections, and APIs your team uses internally. Your Postman team can access these resources and start using them right away. By utilizing the Private API Network, you can enable developers across your organization to discover, consume, and track API development in one place.
 
-> As a quality control measure, Enterprise teams can turn on an [optional approval process workflow](#using-the-approval-process-workflow) in which only designated users with the [API Network Manager role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can add APIs to the Private API Network. If your team doesn't use the optional approval process workflow, any user who has an Editor role for an API can [add it to the Private API Network](#adding-your-apis).
+Workspaces, collections, and APIs in the Private API Network are visible to logged-in users who are on your Postman team. Users who aren't on your team can't find or access these resources.
 
-<img alt="Private API Network overview" src="https://assets.postman.com/postman-docs/private-api-network-overview-v9.jpg" width="1400px"/>
+> As a quality control measure, your team can turn on an [optional approval process workflow](#using-the-approval-process-workflow). The approval workflow ensures that only designated users with the [API Network Manager role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can add elements to your Private API Network. If your team doesn't use the optional approval process workflow, any user who has an Editor role for a workspace, collection, or API can [add it to the Private API Network](#adding-elements-to-the-private-api-network).
+
+<img alt="Private API Network overview" src="https://assets.postman.com/postman-docs/v10/private-api-network-overview1-v10.jpg"/>
 
 ## Contents
 
@@ -56,59 +50,55 @@ APIs in the Private API Network are visible to logged-in users who are a part of
 * [Using the approval process workflow](#using-the-approval-process-workflow)
     * [Assign the API Network Manager role](#assign-the-api-network-manager-role)
     * [Turn on the approval process](#turn-on-the-approval-process)
-    * [Editor: Requesting to add an API](#editor-requesting-to-add-an-api)
-    * [API Network Manager: Reviewing requests to add APIs](#api-network-manager-reviewing-requests-to-add-apis)
-* [Adding your APIs](#adding-your-apis)
-    * [Publishing specific API versions](#publishing-specific-api-versions)
-    * [Importing APIs from GitHub](#importing-apis-from-github)
+    * [Editor: Requesting to add an element](#editor-requesting-to-add-an-element)
+    * [API Network Manager: Reviewing requests to add elements](#api-network-manager-reviewing-requests-to-add-elements)
+* [Adding elements to the Private API Network](#adding-elements-to-the-private-api-network)
+    * [Adding workspaces](#adding-workspaces)
+    * [Adding collections](#adding-collections)
+    * [Adding APIs](#adding-apis)
 * [Managing the Private API Network](#managing-the-private-api-network)
     * [Organizing with folders](#organizing-with-folders)
-    * [Editing API listings](#editing-api-listings)
-    * [Removing APIs from the Private API Network](#removing-apis-from-the-private-api-network)
+    * [Editing element listings](#editing-element-listings)
+    * [Removing elements from the Private API Network](#removing-elements-from-the-private-api-network)
 * [Private API Network reports](#private-api-network-reports)
-* [Next steps](#next-steps)
 
 ## Navigating the Private API Network
 
-The Private API Network is a good place to learn about APIs shared within your team. Under your team name, you can browse a directory of APIs shared within your team.
+The Private API Network is a good place to learn about workspaces, collections, and APIs shared within your team. Under your team name, you can browse a directory of elements shared within your team.
 
 There are two ways to access the Private API Network:
 
 * Select **Home** from the Postman header, then select **Private API Network** in your team information on the left side.
 * Select **API Network** from the Postman header, then select **Private API Network**.
 
-In the Private API Network, you can filter the APIs by name using the search box. Use the **Added by** menu to filter based on the person who added the API. Use the **Sort by** option to sort the APIs based on name and date added. You can also filter folders, sub-folders, and APIs based on name and date added.
+In the Private API Network, you can filter elements by name using the search box. Select **Added by** to filter based on the person who added the element. Select **Type** to filter by the type of element. Select **Sort by** to sort elements based on name and date added. You can also filter folders, sub-folders, and elements based on name and date added.
 
-<img alt="Private API List" src="https://assets.postman.com/postman-docs/private-api-network-list-v9.jpg"/>
+<img alt="Private API List" src="https://assets.postman.com/postman-docs/v10/private-api-network-list-v10.jpg"/>
 
-To review information about an API, select it from the list. You can view the API description, the editors who have worked on the API, and the workspace in which it exists.
+To review information about an element, select it from the list. You can view the element's description and the editors who have worked on it. For workspaces, you can view all of the collections and APIs inside them. For collections, you can view available documentation. For APIs, you can view definitions and associated collections.
 
-<img alt="API page in private network" src="https://assets.postman.com/postman-docs/private-network-api-view-v9.1.jpg"/>
+To watch a workspace, collection, or API and get notified about any changes, select **Watch** in the upper right corner.
 
-To review version-level details, select **View** next to the API version. If you have an Editor role for the API, you can edit the schema or make changes to the API directly.
-
- <img alt="View an API version" src="https://assets.postman.com/postman-docs/private-api-network-view-version-v9.jpg" width="500px"/>
-
-To watch the API and get notified about any changes, select **Watch** in the upper right corner. To learn more about watch notifications, see [Watching an API](/docs/designing-and-developing-your-api/managing-apis/#watching-apis).
+> To learn more about watch notifications, see [Watching a workspace](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#watching-a-workspace), [Watching a collection](/docs/sending-requests/intro-to-collections/#watching-a-collection), and [Watching an API](/docs/designing-and-developing-your-api/managing-apis/#watching-apis).
 
 ## Using the approval process workflow
 
 > **[The approval process workflow is available on Postman Enterprise plans.](https://www.postman.com/pricing/)**
 
-As a quality control measure, your team can turn on an optional approval process workflow in which only designated users with the [API Network Manager role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can add APIs to your Private API Network.
+As a quality control measure, your team can turn on an [optional approval process workflow](#using-the-approval-process-workflow). The approval workflow ensures that only designated users with the [API Network Manager role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can add elements to your Private API Network.
 
 To use this approval process for your team, you need to complete two steps first:
 
 1. [Assign the API Network Manager role to a user](#assign-the-api-network-manager-role)
 1. [Turn on the approval process in Team Settings](#turn-on-the-approval-process)
 
-Once these steps are complete, users with an Editor role for an API will need to [request to add the API](#editor-requesting-to-add-an-api) to the Private API Network. The API Network Manager will be able to [review requests](#api-network-manager-reviewing-requests-to-add-apis) to add an API to the Private API Network, [add APIs](#adding-your-apis), and [create and edit folders](#organizing-with-folders).
+Once these steps are complete, users with an Editor role for an element will need to [request to add the API](#editor-requesting-to-add-an-element) to the Private API Network. The API Network Manager will be able to [review requests](#api-network-manager-reviewing-requests-to-add-elements) to add elements to the Private API Network, [add elements](#adding-elements-to-the-private-api-network), and [create and edit folders](#organizing-with-folders).
 
 ### Assign the API Network Manager role
 
 An [API Network Manager](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can:
 
-* Add any API to the team's Private API Network
+* Add any element to the team's Private API Network
 * Create and edit folders
 * Assign this role to other team members
 
@@ -126,7 +116,7 @@ Postman will send an email to new API Network Managers about their updated role.
 
 ### Turn on the approval process
 
-The approval process enables an API Network Manager to control the process of adding APIs to their team's Private API Network.
+The approval process enables an API Network Manager to control the process of adding elements to their team's Private API Network.
 
 > You must have either [the Super Admin role or the API Network Manager role](/docs/administration/managing-your-team/managing-your-team/#managing-team-roles) to turn on the approval process.
 
@@ -134,166 +124,211 @@ To turn on the approval process workflow:
 
 1. In the Postman header, select **Team** > **Team Settings**.
 1. Select **Private API Network**.
-1. Turn on the API approval process.
+1. Turn on the approval process.
 
-<img alt="Turn on the Private API Network approval process" src="https://assets.postman.com/postman-docs/private-api-network-turn-on-approval-process-v9.jpg" width="600px"/>
+<img alt="Turn on the Private API Network approval process" src="https://assets.postman.com/postman-docs/v10/private-api-network-approval-process-v10.jpg"/>
 
-Once you have turned on the approval process, any team member with the Editor role for an API can [request to add it to the Private API Network](#editor-requesting-to-add-an-api).
+Once you have turned on the approval process, any team member with the Editor role for an element can [request to add it to the Private API Network](#editor-requesting-to-add-an-element).
 
-### Editor: Requesting to add an API
+### Editor: Requesting to add an element
 
-Once the optional approval process is turned on, users with an Editor role for an API can request to add an API to the Private API Network.
+When you enable the [optional approval process](#using-the-approval-process-workflow), users with an Editor role for an element can request to add it to the Private API Network.
 
-1. Select the API you want added to the Private API Network.
-1. On the right side of the API overview, select **Request to add API**.
-1. Under **Comments**, add a note for the API Network Manager.
-1. Select **Request to add API**.
+When you submit a request, Postman notifies the [API Network Manager](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) who will review your request and either approve or deny it. Postman will notify you of the API Network Manager's decision. If they deny your request, the notification will include a comment with their reason.
 
-<img alt="" src="https://assets.postman.com/postman-docs/private-api-network-editor-request-to-add-v9.jpg" width="300px"/>
+#### Requesting to add a workspace
 
-Postman notifies the API Network Manager about your request, who will review it and either approve or deny your request. Postman will notify you of the API Network Manager's decision. If they deny your request, the notification will include a comment with their reason.
+1. Open the workspace you want to add to the Private API Network.
+1. In the workspace overview, select **Request to Add to API Network**.
+1. (Optional) Select a folder or create one to keep elements organized.
+1. (Optional) Select **Add comment** to add a note for the API Network Manager.
+1. Select **Request to Add to API Network**.
 
-### API Network Manager: Reviewing requests to add APIs
+#### Requesting to add a collection
 
-When an API Editor requests to add an API to your Private API Network, Postman will send you an email and an in-app notification. For the list of all the pending requests, go to **Private API Network** and select **Pending API requests**.
+1. Open the collection you want to add to the Private API Network.
+1. Select the information icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px">, then select **Request to Add to API Network**.
+1. (Optional) Add a brief summary about the collection.
+1. (Optional) Select **Select Environments** to make sure users have access to environment variables.
+1. (Optional) Select a folder or create one to keep elements organized.
+1. (Optional) Select **Add comment** to add a note for the API Network Manager.
+1. Select **Request to Add to API Network**.
 
-<img alt="View pending requests" src="https://assets.postman.com/postman-docs/private-api-network-pending-requests-v9.jpg" width="300px"/>
+#### Requesting to add an API
 
-The pending request includes the user who submitted the request, the API's version, the note the requesting user added, and a link to view the API.
+1. Open the API you want to add to the Private API Network.
+1. In the API overview, select **Request to Add to API Network**.
+1. (Optional) Select a folder or create one to keep elements organized.
+1. (Optional) Select **Add comment** to add a note for the API Network Manager.
+1. Select **Request to Add to API Network**.
 
-<img alt="Approve or deny a request" src="https://assets.postman.com/postman-docs/private-api-network-approve-or-deny-v9.jpg" width="700px"/>
+### API Network Manager: Reviewing requests to add elements
+
+When an Editor requests to add an element to your team's Private API Network, Postman will send you an email and an in-app notification. For the list of all the pending requests, open the [Private API Network](https://go.postman.co/network/private) and select **Pending Requests**.
+
+<img alt="View pending requests" src="https://assets.postman.com/postman-docs/v10/private-api-network-pending-requests-v10.jpg" width="250px"/>
+
+Pending requests include the user who submitted the request, the date they submitted it on, a link to view the element, and an optional note from the requesting user.
+
+<img alt="Approve or deny a request" src="https://assets.postman.com/postman-docs/v10/private-api-network-pending-requests-1-v10.jpg"/>
 
 To approve a request:
 
 1. Select **Approve**.
-1. Optionally, you can add the API to a folder. To create a new folder to add the API to, select **Create folder**.
-1. Select **Approve request**.
+1. (Collections)(Optional) Edit the provided summary.
+1. (Optional) Select a folder or create one to keep elements organized.
+1. Select **Approve Request**.
 
 To deny a request:
 
 1. Select **Deny**.
-1. Write a note for the API Editor who submitted the request with details about why you are denying the request.
+1. Write a note for the Editor who submitted the request with details about why you are denying their request.
 1. Select **Deny request**.
 
-You can also review a request directly in an API's overview:
+## Adding elements to the Private API Network
 
-1. Select **APIs** from the sidebar, then select the API with the pending review.
-1. View details about the request, including comments from the user who submitted it, on the right side of the overview.
-1. Select **Approve** or **Deny**.
+To add an element to the Private API Network, it must be in the [API Builder](/docs/designing-and-developing-your-api/creating-an-api/) in a team or public workspace. You can't add an element to the Private API Network unless all team members have at least view access to the element. Learn more about team [roles and permissions](/docs/collaborating-in-postman/roles-and-permissions/).
 
-<img alt="Approve or deny a request in the API overview" src="https://assets.postman.com/postman-docs/private-api-network-view-request-in-api-overview-v9.jpg" width="300px"/>
+* **If your team uses the [optional approval process](#using-the-approval-process-workflow)**, users with the Editor role must [submit a request](#editor-requesting-to-add-an-element) to add an element to the Private API Network and an API Network Manager must [approve the request](#api-network-manager-reviewing-requests-to-add-elements). API Network Managers can add elements directly to the Private API Network.
+* **If your team doesn't use the optional approval process**, any user with an Editor role for an element can add it to the Private API Network.
 
-## Adding your APIs
+### Adding workspaces
 
-To add an API to the Private API Network, it must be in the [API Builder](/docs/designing-and-developing-your-api/creating-an-api/) in a team or public workspace. You can't add an API to the Private API Network unless all team members have at least view access to the API. Learn more about team [roles and permissions](/docs/collaborating-in-postman/roles-and-permissions/).
+If your team uses the [optional approval process](#using-the-approval-process-workflow), only an API Network Manager can add workspaces directly to the Private API Network. Workspace Editors must [request to add a workspace](#requesting-to-add-an-api). If your team doesn't use the approval process, any user with Editor access for the workspace can add it to the Private API Network.
 
-* **If your team uses the [optional approval process](#using-the-approval-process-workflow)**, users with an Editor role must [submit a request](#editor-requesting-to-add-an-api) to add an API to the Private API Network and an API Network Manager must [approve the request](#api-network-manager-reviewing-requests-to-add-apis). API Network Managers can add APIs directly to the Private API Network following the instructions here.
-* **If your team doesn't use the optional approval process**, any user with an Editor role for an API can add it to the Private API Network following the instructions here.
+To add a workspace to the Private API Network from the API Builder:
 
-To add an API to your team's Private API Network, [sign in](https://go.postman.co) and select **Private API Network** in the left navigation bar. The default view is your team's [Private API Network](https://go.postman.co/network/private).
+1. Open the workspace you want to add to the Private API Network.
+1. In the workspace overview, select **Add to API Network**.
+1. (Optional) Select a folder or create one to keep elements organized.
+1. Select **Add**.
 
-<img alt="Private API Network left navigation bar" src="https://assets.postman.com/postman-docs/homepage-left-sidebar-v9.1.0.jpg" width="350px"/>
+You can also add a workspace from inside your team's Private API Network:
 
-To add an API to your team's Private API Network:
+1. Open your [Private API Network](https://go.postman.co/network/private).
+1. Select **Add to network**.
+1. Search for and select the workspace you want to add.
+1. (Optional) Select a folder or create one to keep elements organized.
+1. Select **Add**.
 
-1. From the Private API Network page, select **Add APIs** in the left navigation bar.
-1. Select one or more APIs you want to add to the network. Optionally, you can add the API into an existing [folder](#organizing-with-folders), or create a new folder.
-1. Select **Add API**.
+When you add a workspace to the [Private API Network](https://go.postman.co/network/private), it's visible to your Postman team, but isn't visible to [partners](/docs/collaborating-in-postman/using-workspaces/partner-workspaces/).
 
-    <img alt="Add API" src="https://assets.postman.com/postman-docs/add-to-private-api-network-v9.jpg" width="400px"/>
+### Adding collections
 
-You can also add an API to your team's Private API Network from the [API Builder](/docs/designing-and-developing-your-api/the-api-workflow/):
+If your team uses the [optional approval process](#using-the-approval-process-workflow), only an API Network Manager can add collections directly to the Private API Network. Collection Editors must [request to add a collection](#requesting-to-add-an-api). If your team doesn't use the approval process, any user with Editor access for the collection can add it to the Private API Network.
 
-1. Select **APIs** in the sidebar.
-1. Select an API. Postman will open the API overview. From the overview page:
+To add a collection to the Private API Network from the API Builder:
 
-    * **If your team uses the [optional approval process](#using-the-approval-process-workflow)**, you can [request to add the API](#editor-requesting-to-add-an-api) by selecting **Request to add to Private API Network** in the upper right corner of the overview page.
-    * **If your team doesn't use the approval process**, any user with Editor access for the API can select **Add API to Private API Network** in the upper right corner of the overview page.
+1. Open the collection you want to add to the Private API Network.
+1. Select the information icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px">, then select **Add to API Network**.
+1. (Optional) Add a brief summary about the collection.
+1. (Optional) Select **Select Environments** to make sure users have access to environment variables.
+1. (Optional) Select a folder or create one to keep elements organized.
+1. Select **Add**.
 
-    <img alt="Add to Private API Network" src="https://assets.postman.com/postman-docs/add-api-to-private-network-v9.1.jpg" width="400px">
+You can also add a collection while in your team's Private API Network:
 
-After you have added the API, it will be visible in your team's [Private API Network](https://go.postman.co/network/private).
+1. Open your [Private API Network](https://go.postman.co/network/private).
+1. Select **Add to network**
+1. Search for and select the collection you want to add.
+1. (Optional) Select a folder or create one to keep elements organized.
+1. Select **Add**.
 
-The APIs that you add to the Private API Network reflect the latest state of the API in your team workspace. In other words, changes made to the API in the workspace are reflected in the network in real time. Additionally, all API versions that are visible to consumers are available on the Private API Network. Read more about [publishing specific API versions](#publishing-specific-api-versions).
+When you add a collection to the [Private API Network](https://go.postman.co/network/private), it's visible to your Postman team, but isn't visible to [partners](/docs/collaborating-in-postman/using-workspaces/partner-workspaces/).
 
-### Publishing specific API versions
+The collections that you add to the Private API Network reflect the latest state of the collection in your team workspace. In other words, changes made to the collection in the workspace are reflected in the network in real time.
 
-All API versions are automatically visible to API Editors and Viewers within a Postman team. However, if you've developed APIs on an earlier version of Postman, you may find API versions that weren't made visible to API Viewers. To make an existing API version visible to everyone in your team:
+### Adding APIs
 
-1. Select the API version in the sidebar.
-1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px">, then select **Edit**.
-1. Select **Consumers can view this version**.
-1. Select **Save Changes**.
+If your team uses the [optional approval process](#using-the-approval-process-workflow), only an API Network Manager can add APIs directly to the Private API Network. API Editors must [request to add an API](#requesting-to-add-an-api). If your team doesn't use the approval process, any user with Editor access for the API can add it to the Private API Network.
 
-### Importing APIs from GitHub
+To add an API to the Private API Network from the API Builder:
 
-You can make all your existing APIs discoverable on the Private API Network when you import from GitHub. When you create an API, switch over to the **Import** tab to view the options to import from a code repository.
+1. Open the API you want to add to the Private API Network.
+1. In the API overview, select **Publish API**.
+1. Select **Request to add to Private API Network**.
+1. (Optional) Select a folder or create one to keep elements organized.
+1. Select **Add**.
 
-<img alt="GitHub import" src="https://assets.postman.com/postman-docs/github-import-v9.jpg" width="450px"/>
+You can also add an API while in your team's Private API Network:
 
-To import from Github, see [Importing from GitHub repositories](/docs/getting-started/importing-and-exporting-data/#importing-from-github-repositories).
+1. Open your [Private API Network](https://go.postman.co/network/private).
+1. Select **Add to network**
+1. Search for and select the API you want to add.
+1. (Optional) Select a folder or create one to keep elements organized.
+1. Select **Add**.
+
+When you add an API to the [Private API Network](https://go.postman.co/network/private), it's visible to your Postman team, but isn't visible to [partners](/docs/collaborating-in-postman/using-workspaces/partner-workspaces/).
+
+The APIs that you publish to the Private API Network reflect the latest state of the API in your team workspace. In other words, published changes made to the API in the workspace are reflected in the network in real time.
+
+#### Publishing specific API versions
+
+If your API is connected to a Git repository, you need to publish an API version to update your team workspace with the latest changes. When you publish a version, the API's definition and linked elements (collections and environments) are synced to the Postman cloud.
+
+API consumers can view the latest published version on the Private API Network. Learn more about [publishing an API version](/docs/designing-and-developing-your-api/versioning-an-api/api-versions/).
+
+#### Importing APIs from a code repository
+
+You can make all your existing APIs discoverable on the Private API Network after you import them from a code repository. Learn more about [importing an API](/docs/designing-and-developing-your-api/importing-an-api/).
 
 ## Managing the Private API Network
 
-Once you have added APIs to your Private API Network, you can manage them by organizing them in folders, editing their listings, and removing them from the Private API Network.
+Once you've added elements to your Private API Network, you can manage them by organizing them in folders, editing their listings, and removing them from the Private API Network.
 
 * **If your team uses the [optional approval process](#using-the-approval-process-workflow)**, a user with the API Network Manager can complete these tasks.
 * **If your team doesn't use the optional approval process**, any user with an Editor role can complete these tasks.
 
 ### Organizing with folders
 
-The sidebar navigation displays the folder structure for your Private API Network. You can drag the APIs and sub-folders into different folders. You can add descriptions to folders to explain about the APIs within the folders, if required.
+The sidebar navigation displays the folder structure for your Private API Network. You can drag elements and sub-folders into different folders. You can also add descriptions to folders to describe elements within the folders.
+
+<img alt="Create new folder in Private Network" src="https://assets.postman.com/postman-docs/v10/private-api-network-create-folder-in-sidebar-v10.jpg" width="300px"/>
 
 To create a new folder from the Private API Network view:
 
 1. Select __Create Folder__ from the sidebar.
-1. Give the folder a name and a summary.
+1. Give the folder a name.
+1. (Optional) Give a description.
 1. Select **Save**.
-
-<img alt="New folder in Private Network" src="https://assets.postman.com/postman-docs/add-new-folder-api-network-left-navigation-v9.jpg" width="350px"/>
 
 To create a new folder from the Private API Network overview page:
 
 1. Select **Create Folder** on the right.
-1. Give the folder a name and a summary.
+1. Give the folder a name.
+1. (Optional) Give a description.
 1. Select **Save**.
 
 You can also use **Create folder** to create sub-folders inside a folder.
 
-![New folder in Private Network](https://assets.postman.com/postman-docs/add-new-folder-api-network-overview-v9.jpg)
+Use **Search elements and folders** to search across folders, sub-folders, and elements in your Private API Network.
 
-You can use **Search APIs and folders** to search across folders, sub-folders, and APIs in your Private API Network.
+### Editing element listings
 
-### Editing API listings
+Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the element you would like to edit from the network, then select **Edit element**. You can change an element's summary, location, and associated environments. Select **Edit** to save your changes.
 
-Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the API you would like to edit from the network, then select __Edit API listing__ to change the location of the API. Select **Update** to save your changes.
+<img alt="Edit API listing" src="https://assets.postman.com/postman-docs/v10/private-api-network-edit-element-v10.jpg" width="450px"/>
 
-<img alt="Edit API listing" src="https://assets.postman.com/postman-docs/private-api-network-edit-listing.jpg" width="400px"/>
+### Removing elements from the Private API Network
 
-### Removing APIs from the Private API Network
+> If your team uses the [optional approval process](#using-the-approval-process-workflow), only an API Network Manager can remove an element from the Private API Network. If your team doesn't use the approval process, any user who has an Editor role for the element can remove it.
 
-> If your team uses the [optional approval process](#using-the-approval-process-workflow), only an API Network Manager can remove an API from the Private API Network. If your team doesn't use the approval process, any user who has an Editor role for the API can remove it.
+To remove elements from your Private API Network:
 
-You can also remove APIs from your Private API Network:
-
-1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the API you want to remove from network.
+1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the element you want to remove from network.
 1. Select **Remove**.
 
-After you remove the API, your team members won't have access to the API through the Private API Network.
+    <img alt="Remove element from Network" src="https://assets.postman.com/postman-docs/v10/private-api-network-remove-element-v10.jpg" width="250px"/>
 
-<img alt="Remove API from Network" src="https://assets.postman.com/postman-docs/edit-remove-from-private-network-v9.gif"/>
+After you remove the element, your team members won't have access to it through the Private API Network.
 
 ## Private API Network reports
 
 The report feature makes it easier to govern your internal API landscape through deeper insights into APIs in your Private API Network.
 
-> **[Reporting is available on Postman Enterprise plans.](https://www.postman.com/pricing/)**
+Select [**Home**](https://go.postman.co/) from the Postman header, then select **Reports** on the left side.
 
-From the API's overview page, select **Reports**.
-
-<img alt="API landscape governance" src="https://assets.postman.com/postman-docs/api-reports-selected-v9.1.jpg" width="400px"/>
-
-The API report provides the following information:
+API reports offer the following information:
 
 * **API name** is the name of the API published to the Private API Network
 * **API created by** is the name of person who created the API
@@ -304,4 +339,4 @@ The API report provides the following information:
 * **Average response time** is the average response time in milliseconds for requests over a time frame
 * **API response codes** is a graph showing different response codes for API requests plotted vs the number of API requests
 
-<img alt="API landscape governance" src="https://assets.postman.com/postman-docs/api-landscape-governance-v9.jpg"/>
+To learn more about reports, see the [Reports overview](/docs/reports/reports-overview/).
