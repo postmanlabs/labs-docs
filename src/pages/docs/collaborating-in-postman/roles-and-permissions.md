@@ -38,23 +38,15 @@ Roles define user permissions within a Postman team and a user's level of access
 ## Contents
 
 * [Team roles](#team-roles)
-
     * [Managing team roles](#managing-team-roles)
-
 * [Workspace roles](#workspace-roles)
-
 * [Element-based roles](#element-based-roles)
-
     * [Collection roles](#collection-roles)
-
     * [API roles](#api-roles)
-
     * [Environment roles](#environment-roles)
-
     * [Mock server roles](#mock-server-roles)
-
     * [Monitor roles](#monitor-roles)
-
+* [Partner roles](#partner-roles)
 * [Next steps](#next-steps)
 
 ## Team roles
@@ -69,6 +61,8 @@ You can [assign](/docs/administration/managing-your-team/managing-your-team/) on
 * **Developer** - Has access to all team resources and workspaces.
 * **Community Manager** - Manages the public visibility of workspaces and team profile ([Professional and Enterprise plans only](https://www.postman.com/pricing)).
 * **API Network Manager** - Manages a team's [Private API Network](/docs/collaborating-in-postman/adding-private-network/), including adding APIs and reviewing requests to add APIs. A Super Admin or another team member with the API Network Manager role can grant this role to a user ([Enterprise plans only](https://www.postman.com/pricing)).
+* **Partner Manager** (Internal, [Enterprise plans only](https://www.postman.com/pricing)) - Manages all [Partner Workspaces](/docs/collaborating-in-postman/using-workspaces/partner-workspaces/) within an organization. Controls Partner Workspace settings and visibility, and can send invites to partners. To learn more, see [Partner roles](#partner-roles).
+* **Partner** (External, [Enterprise plans only](https://www.postman.com/pricing)) - All partners are automatically granted the Partner role at the team level. Partners can only access the [Partner Workspaces](/docs/collaborating-in-postman/using-workspaces/partner-workspaces/) they've been invited to. To learn more, see [Partner roles](#partner-roles).
 
 > If you are on a [Postman Enterprise plan](https://www.postman.com/pricing), you can also assign roles at the [group level](/docs/administration/managing-your-team/user-groups/).
 
@@ -107,11 +101,12 @@ To learn how to manage team roles in Postman, see [Managing your team](/docs/adm
 
 ## Workspace roles
 
-You can [assign](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#managing-workspace-roles) three role types in Postman workspaces: **Admin**, **Editor**, and **Viewer**.
+You can [assign](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#managing-workspace-roles) three role types in Postman workspaces: **Admin**, **Editor**, and **Viewer**. Partner Workspaces offer an additional role type: **Partner Lead**.
 
 * **Admin** - Can manage workspace resources and settings
 * **Editor** - Can create and edit workspace resources
 * **Viewer** - Can view, fork, and export workspace resources
+* **Partner Lead** (External, [Enterprise plans only](https://www.postman.com/pricing)) - Can invite other partners from their organization to join a [Partner Workspace](/docs/collaborating-in-postman/using-workspaces/partner-workspaces/). To learn more, see [Partner roles](#partner-roles).
 
 The following roles control access at a workspace level:
 
@@ -234,6 +229,28 @@ Edit and delete monitor | &#x2714; |
 Run, pause, and resume monitor | &#x2714; |
 Move monitor | &#x2714; |
 Update monitor roles | &#x2714; |
+
+## Partner roles
+
+> **[Partner roles are only available to Postman Enterprise teams.](https://www.postman.com/pricing)**
+
+Partner roles relate to [Partner Workspaces](/docs/collaborating-in-postman/using-workspaces/partner-workspaces/) and are applied at the team and workspace level. There are different partner roles you can assign to team members and external partners:
+
+|  | For team members | For partners |
+| --- |:---:| --- |
+| **Team level** | Partner Manager | Partner |
+| **Workspace level** | Admin, Viewer, Editor | Viewer, Editor <br> Partner Lead (optional) |
+
+You can [assign](/docs/administration/managing-your-team/managing-your-team/) partner roles at the team level:
+
+* **Partner Manager** (Internal) - Manages all Partner Workspaces within an organization. Controls Partner Workspace settings and visibility, and can send invites to partners.
+* **Partner** (External) - All partners are automatically granted the Partner role at the team level. Partners can only access the Partner Workspaces they've been invited to.
+
+You can also [assign](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#managing-workspace-roles) partner roles at the workspace level:
+
+* **Partner Lead** (External) - Can invite other partners from their organization to join a Partner Workspace.
+
+All partners are assigned Workspace Editor or Viewer roles when invited to a Partner Workspace. To learn more about workspace level permissions, see [Workspace roles](#workspace-roles).
 
 ## Next steps
 
