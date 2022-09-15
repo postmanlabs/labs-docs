@@ -39,12 +39,13 @@ After you set up CI integration, you can view the status of builds or start a ne
 
 ## Configuring CI integration
 
-To set up CI integration for your API, first set up your CI project and then connect Postman to your CI tool. After you set up CI integration, information for CI build jobs is available in Postman. Open the **Test** tab for your API to view recent build jobs, see the build status, and even start a new build.
+To set up CI integration for your API, first set up your CI project and then connect Postman to your CI tool. After you set up CI integration, information for CI build jobs is available in Postman. Select **Test and Automation** for your API to view recent build jobs, see the build status, and even start a new build.
 
 To connect your API to your CI project, see the steps for your CI tool:
 
 * [Bitbucket Pipelines](/docs/integrations/available-integrations/ci-integrations/bitbucket-pipelines/)
 * [CircleCI](/docs/integrations/available-integrations/ci-integrations/circleci/)
+* [GitHub Actions](/docs/integrations/available-integrations/ci-integrations/github-actions/)
 * [GitLab CI/CD](/docs/integrations/available-integrations/ci-integrations/gitlab-ci/)
 * [Jenkins](/docs/integrations/available-integrations/ci-integrations/jenkins/)
 * [Travis CI](/docs/integrations/available-integrations/ci-integrations/travis-ci/)
@@ -57,8 +58,9 @@ To run your API tests along with each build, first generate the Postman CLI conf
 
 To configure the Postman CLI to run API tests, see the steps for your CI tool:
 
-* [Bitbucket Pipelines](/docs/integrations/available-integrations/ci-integrations/bitbucket-pipelines/#configuring-the-postman-cli-for-bitbucket-pipelines)
-* [CircleCI](/docs/integrations/available-integrations/ci-integrations/circleci/#configuring-the-postman-cli-for-circleci)
-* [GitLab CI/CD](/docs/integrations/available-integrations/ci-integrations/gitlab-ci/#configuring-the-postman-cli-for-gitlab-cicd)
-* [Jenkins](/docs/integrations/available-integrations/ci-integrations/jenkins/#configuring-the-postman-cli-for-jenkins)
-* [Travis CI](/docs/integrations/available-integrations/ci-integrations/travis-ci/#configuring-the-postman-cli-for-travis-ci)
+* [Bitbucket Pipelines](/docs/integrations/available-integrations/ci-integrations/bitbucket-pipelines/#configuring-newman-for-bitbucket-pipelines)
+* [CircleCI](/docs/integrations/available-integrations/ci-integrations/circleci/#configuring-newman-for-circleci)
+* [GitHub Actions](/docs/integrations/available-integrations/ci-integrations/github-actions/#configuring-the-postman-cli-for-github-actions)
+* [GitLab CI/CD](/docs/integrations/available-integrations/ci-integrations/gitlab-ci/#configuring-newman-for-gitlab-cicd)
+* [Jenkins](/docs/integrations/available-integrations/ci-integrations/jenkins/#configuring-newman-for-jenkins)
+* [Travis CI](/docs/integrations/available-integrations/ci-integrations/travis-ci/#configuring-newman-for-travis-ci)

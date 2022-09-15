@@ -30,9 +30,9 @@ To set up Travis CI integration for your API, first create an API token in Travi
 
 ## Configuring a Travis CI integration
 
-1. Open your API by selecting **APIs** in the sidebar, and then selecting an API and a version. *Each API version can be linked to one CI project*.
-1. Select the **Test** tab.
-1. Under **Connect to CI/CD Builds**, select **Travis CI**.
+1. Open your API by selecting **APIs** in the sidebar. *Each API can be linked to one CI project*.
+1. Select **Test and Automation**.
+1. Under **Automate**, select **Travis CI**.
 1. For **API Key**, enter your Travis CI token.
 1. Enter a **Nickname** to help you recognize the integration later.
 1. Select the **CI project** used for your API.
@@ -42,9 +42,9 @@ To set up Travis CI integration for your API, first create an API token in Travi
 
 ## Viewing build status
 
-After you set up a Travis CI integration, status information for build jobs is available in Postman. For each build you can view the commit message, the branch the build ran on, the start time and duration, and the build status (passed or failed).
+After you set up a Travis CI integration, status information for build jobs is available in Postman. For each build you can view the commit message, the branch the build ran on, the start time and duration, and the build status (`Passed` or `Failed`).
 
-To view build jobs, open an API version and select the **Test** tab. The most recent jobs are listed under **CI/CD Builds**.
+To view build jobs, open an API and select **Test and Automation**. The most recent jobs are listed under the repository name.
 
 Select **View All Builds** to view the full list of build jobs. From here you can take the following actions:
 
@@ -64,7 +64,7 @@ You an also enforce [API Governance and API Security rules each time the pipelin
 
 To generate configuration code for the Postman CLI:
 
-1. Open your API version and select the **Test** tab.
+1. Open your API version and select **Test and Automation**.
 1. Under **CI/CD Builds**, select **View All Builds**.
 1. Select **Configure Postman CLI**.
 1. Select a **Collection** to run during pipeline builds. To be available in the dropdown list, you must first [add the collection as a test suite](/docs/designing-and-developing-your-api/testing-an-api/#adding-tests) to your API. You can also select an **Environment** to use.
@@ -81,4 +81,4 @@ To add the Postman CLI configuration to your Travis CI project:
     * Replace all instances of `$POSTMAN_API_KEY` with a valid [Postman API Key](/docs/developer/intro-api/#generating-a-postman-api-key).
 1. Commit and push the changes to your remote repository.
 1. In Travis CI, open the repository from the dashboard. Then select **More options > Trigger build**.
-1. To view the test results in Postman, open your API and select the **Tests** tab.
+1. To view the test results in Postman, open your API and select **Test and Automation**.

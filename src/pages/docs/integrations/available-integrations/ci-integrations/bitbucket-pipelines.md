@@ -21,9 +21,10 @@ If you haven't already, create a pipeline in the Bitbucket repository you use fo
 
 ## Configuring a Bitbucket Pipelines integration
 
-1. Open your API by selecting **APIs** in the sidebar, and then selecting an API and a version. *Each API version can be linked to one CI project*.
-1. Select the **Test** tab.
-1. Under **Connect to CI/CD Builds**, select **Bitbucket**.
+1. Open your API by selecting **APIs** in the sidebar. *Each API can be linked to one CI project*.
+    > **Tip:** If you've already authenticated with Bitbucket to connect a Git repo for source control, you can use the same authentication. To automatically create the integration, under **Test and Automation**, select **Connect to Bitbucket Pipelines**.
+1. Select **Test and Automation**.
+1. Under **Automate**, select **Bitbucket**.
 1. You'll be prompted to authorize Postman to access your Bitbucket account. After you grant access, you can close the browser tab and return to Postman.
 1. Enter a **Nickname** to help you recognize the integration later.
 1. Select the Bitbucket **Workspace** with your API repository.
@@ -34,9 +35,9 @@ If you haven't already, create a pipeline in the Bitbucket repository you use fo
 
 ## Viewing build status
 
-After you set up a Bitbucket Pipelines integration, information for build jobs is available in Postman. For each build you can view the branch, start time, duration, and status (successful or failed). You can also view the results of collection runs that are [configured in your pipeline using the Postman CLI](#viewing-collection-run-details).
+After you set up a Bitbucket Pipelines integration, information for build jobs is available in Postman. For each build you can view the branch, start time, duration, and status (`Successful` or `Failed`). You can also view the results of collection runs that are [configured in your pipeline using the Postman CLI](#viewing-collection-run-details).
 
-To view build jobs, open an API version and select the **Test** tab. The most recent jobs are listed under **CI/CD Builds**.
+To view build jobs, open an API and select **Test and Automation**. The most recent jobs are listed under the repository name.
 
 Select **View All Builds** to view the full list of build jobs. From here you can take the following actions:
 
@@ -64,7 +65,7 @@ With the help of the Postman CLI and the Postman API, you can run API tests crea
 
 Each time the pipeline runs, the Postman CLI runs the collections that contain your tests. You can view the results of your tests in Postman. You an also enforce [API Governance and API Security rules each time the pipeline runs](/docs/api-governance/api-definition/api-definition-warnings/#tracking-governance-and-security-rule-violations-in-cicd) ([Enterprise teams only](https://www.postman.com/pricing/)).
 
-> Before you begin, make sure you’ve already [set up an integration](#configuring-bitbucket-pipelines-integration) between your API version and Bitbucket Pipelines.
+> Before you begin, make sure you’ve already [set up an integration](#configuring-bitbucket-pipelines-integration) between your API and Bitbucket Pipelines.
 
 To generate configuration code for the Postman CLI:
 
@@ -84,4 +85,4 @@ To add the Postman CLI configuration to your Bitbucket pipeline:
 1. Add the Postman CLI configuration you copied from Postman to the `bitbucket-pipelines.yml` file:
     * Replace all instances of `$POSTMAN_API_KEY` with a valid [Postman API Key](/docs/developer/intro-api/#generating-a-postman-api-key).
 1. Commit and push the changes to your remote repository. This will automatically start a build in Bitbucket Pipelines.
-1. To view the test results in Postman, open your API and select the **Test** tab. Learn more about [Viewing collection run details](#viewing-collection-run-details).
+1. To view the test results in Postman, open your API and select **Test and Automation**. Learn more about [Viewing collection run details](#viewing-collection-run-details).

@@ -32,9 +32,9 @@ To set up a Jenkins integration for your API, first create an API token in Jenki
 
 ## Configuring a Jenkins integration
 
-1. Open your API by selecting **APIs** in the sidebar, and then selecting an API and a version. *Each API version can be linked to one CI project*.
-1. Select the **Test** tab.
-1. Under **Connect to CI/CD Builds**, select **Jenkins**.
+1. Open your API by selecting **APIs** in the sidebar. *Each API can be linked to one CI project*.
+1. Select **Test and Automation**.
+1. Under **Automate**, select **Jenkins**.
 1. Enter a **Nickname** to help you recognize the integration later.
 1. Enter the **URL** of your Jenkins server.
 
@@ -49,9 +49,9 @@ To set up a Jenkins integration for your API, first create an API token in Jenki
 
 ## Viewing build status
 
-After you set up a Jenkins integration, information for build jobs is available in Postman. For each build you can view the start time, duration, and build status (success or failed). You can also view the results of collection runs that are [configured in your pipeline using the Postman CLI](#configuring-the-postman-cli-for-jenkins).
+After you set up a Jenkins integration, information for build jobs is available in Postman. For each build you can view the start time, duration, and build status (`Success` or `Failed`). You can also view the results of collection runs that are [configured in your pipeline using the Postman CLI](#configuring-the-postman-cli-for-jenkins).
 
-To view build jobs, open an API version and select the **Test** tab. The most recent jobs are listed under **CI/CD Builds**.
+To view build jobs, open an API and select **Test and Automation**. The most recent jobs are listed under the repository name.
 
 Select **View Builds** to view the full list of build jobs. From here you can take the following actions:
 
@@ -79,11 +79,11 @@ With the help of the Postman CLI and the Postman API, you can run API tests crea
 
 Each time a build runs, the Postman CLI runs the collections that contain your tests. You can view the results of your tests in Postman. You an also enforce [API Governance and API Security rules each time the pipeline runs](/docs/api-governance/api-definition/api-definition-warnings/#tracking-governance-and-security-rule-violations-in-cicd) ([Enterprise teams only](https://www.postman.com/pricing/)).
 
-> Before you begin, make sure you’ve already [set up an integration](#configuring-jenkins-integration) between your API version and Jenkins.
+> Before you begin, make sure you’ve already [set up an integration](#configuring-jenkins-integration) between your API and Jenkins.
 
 To generate configuration code for the Postman CLI:
 
-1. Open your API version and select the **Test** tab.
+1. Open your API version and select **Test and Automation**.
 1. Under **CI/CD Builds**, select **View Builds**.
 1. Select **Configure Postman CLI**.
 1. Select a **Collection** to run during pipeline builds. To be available in the dropdown list, you must first [add the collection as a test suite](/docs/designing-and-developing-your-api/testing-an-api/#adding-tests) to your API. You can also select an **Environment** to use.
@@ -100,4 +100,4 @@ To add the Postman CLI configuration to your Jenkins pipeline:
     * Replace `your_nodejs_configured_tool_name` with the name of your Node.js tool, for example, `node`.
     * Replace all instances of `$POSTMAN_API_KEY` with a valid [Postman API Key](/docs/developer/intro-api/#generating-a-postman-api-key).
 1. Select **Save** and then run the pipeline using the new configuration.
-1. To view the test results in Postman, open your API version and select the **Tests** tab. For more help, see [Viewing collection run details](#viewing-collection-run-details).
+1. To view the test results in Postman, open your API version and select **Test and Automation**. For more help, see [Viewing collection run details](#viewing-collection-run-details).

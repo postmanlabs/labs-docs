@@ -23,19 +23,20 @@ If you haven't already, create a pipeline in the GitLab repository you use for y
 
 To configure a GitLab CI/CD integration for Gitlab SaaS or GitLab self-managed:
 
-1. Open your API by selecting **APIs** in the sidebar, and then selecting an API and a version. *Each API version can be linked to one CI project*.
-1. Select the **Test** tab.
-1. Under **Connect to CI/CD Builds**, select **GitLab SaaS** or **GitLab self-managed**.
+1. Open your API by selecting **APIs** in the sidebar. *Each API can be linked to one CI project*.
+    > **Tip:** If you've already authenticated with GitLab to connect a Git repo for source control, you can use the same authentication. To automatically create the integration, under **Test and Automation**, select **Connect to GitLab**.
+1. Select **Test and Automation**.
+1. Under **Automate**, select **GitLab SaaS** or **GitLab self-managed**.
 1. You'll be prompted to authorize Postman to access your GitLab account. After you grant access, you can close the browser tab and return to Postman.
 
 For GitLab SaaS, do the following:
 
-1. Enter a **Nickname** to help you recognize the integration later. Postman pre-fills a nickname in the format `GitLab-{API_NAME}-{API_VERSION_NAME}`, and you can edit it if you want.
+1. Enter a **Nickname** to help you recognize the integration later. Postman pre-fills a nickname in the format `GitLab-{API_NAME}`, and you can edit it if you want.
 1. Select the GitLab **Workspace** with your API repository.
 1. Select the **CI project** used for your API.
 1. Select **Connect**.
 
-<img alt="Connect to GitLab CI/CD" src="https://assets.postman.com/postman-docs/gitlab-saas-connect-ci-cd-v9-19.jpg" width="571px" />
+<img alt="Connect to GitLab CI/CD" src="https://assets.postman.com/postman-docs/v10/gitlab-saas-connect-ci-cd-v10.jpg" width="571px" />
 
 For GitLab self-managed, do the following:
 
@@ -47,9 +48,9 @@ For GitLab self-managed, do the following:
 
 ## Viewing build status
 
-After you set up a GitLab integration, information for build jobs is available in Postman. For each build you can view the branch, start time, and status (successful or failed). You can also view the results of collection runs that are [configured in your pipeline using the Postman CLI](#viewing-collection-run-details).
+After you set up a GitLab integration, information for build jobs is available in Postman. For each build you can view the branch, start time, and status (`Successful` or `Failed`). You can also view the results of collection runs that are [configured in your pipeline using the Postman CLI](#viewing-collection-run-details).
 
-To view build jobs, open an API version and select the **Test** tab. The most recent jobs are listed under **CI/CD Builds**.
+To view build jobs, open an API and select **Test and Automation**. The most recent jobs are listed under the repository name.
 
 Select **View All Builds** to view the full list of build jobs. From here you can take the following actions:
 
@@ -77,11 +78,11 @@ With the help of the Postman CLI and the Postman API, you can run API tests crea
 
 Each time the pipeline runs, the Postman CLI runs the collections that contain your tests. You can view the results of your tests in Postman. You an also enforce [API Governance and API Security rules each time the pipeline runs](/docs/api-governance/api-definition/api-definition-warnings/#tracking-governance-and-security-rule-violations-in-cicd) ([Enterprise teams only](https://www.postman.com/pricing/)).
 
-> Before you begin, make sure you’ve already [set up an integration](#configuring-a-gitlab-cicd-integration) between your API version and GitLab CI/CD.
+> Before you begin, make sure you’ve already [set up an integration](#configuring-a-gitlab-cicd-integration) between your API and GitLab CI/CD.
 
 To generate configuration code for the Postman CLI:
 
-1. Open your API version and select the **Test** tab.
+1. Open your API version and select **Test and Automation**.
 1. Under **CI/CD Builds**, select **View All Builds**.
 1. Select **Configure Postman CLI**.
 1. Select a **Collection** to run during pipeline builds. To be available in the dropdown list, you must first [add the collection as a test suite](/docs/designing-and-developing-your-api/testing-an-api/#adding-tests) to your API. You can also select an **Environment** to use.
@@ -97,4 +98,4 @@ To add the Postman CLI configuration to your GitLab pipeline:
 1. Add the Postman CLI configuration you copied from Postman to the `.gitlab-ci.yml` file:
     * Replace all instances of `$POSTMAN_API_KEY` with a valid [Postman API Key](/docs/developer/intro-api/#generating-a-postman-api-key).
 1. Commit and push the changes to your remote repository. This will automatically start a build in GitLab.
-1. To view the test results in Postman, open your API and select the **Test** tab. Learn more about [Viewing collection run details](#viewing-collection-run-details).
+1. To view the test results in Postman, open your API and select **Test and Automation**. Learn more about [Viewing collection run details](#viewing-collection-run-details).
