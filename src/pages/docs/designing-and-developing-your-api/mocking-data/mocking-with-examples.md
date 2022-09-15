@@ -92,7 +92,6 @@ Now that you've added an example to your collection, you're ready to set up a mo
 For **Mock server name**, enter `M1`. You can also specify other details for your mock server as needed:
 
 * **Collection** is already set to `C1`, as you chose to mock this collection.
-* If your collection has [multiple release tags](/docs/designing-and-developing-your-api/versioning-an-api/), you can select the **Tag** to use. Since this is a new collection, you can only select **Current**.
 * If your saved example uses [environment variables](/docs/sending-requests/managing-environments/) (like `{{base_url}}/my/path`), you must select the corresponding **Environment** or the mock server won't work. In this case, the example doesn't use any variables, so you can select **No Environment**.
 * By default, mock servers are publicly accessible. If you select the **Make mock server private** check box, the mock server will no longer be public. You can share it with team members and [provide permission](/docs/collaborating-in-postman/roles-and-permissions/) to edit or view. For now, do not select this check box.
 
