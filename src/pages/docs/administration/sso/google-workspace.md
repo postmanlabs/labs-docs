@@ -12,6 +12,8 @@ contextual_links:
     url: "/docs/administration/sso/intro-sso/"
 ---
 
+> __[SSO with Google Workspace is available on Postman Professional and Enterprise plans.](https://www.postman.com/pricing)__
+
 *Note: An admin of your GSuite organization must create the SAML application.*
 
 ### Setting up a custom SAML application in GSuite
