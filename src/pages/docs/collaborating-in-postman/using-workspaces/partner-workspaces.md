@@ -2,7 +2,7 @@
 title: "Partner workspaces"
 order: 76
 page_id: "partner_workspaces"
-updated: 2022-08-29
+updated: 2022-09-15
 warning: false
 
 ---
