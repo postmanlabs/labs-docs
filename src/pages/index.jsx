@@ -132,7 +132,7 @@ class IndexPage extends React.Component {
               gRPC is a schema-driven Remote Procedure Call (RPC) framework often used to enable inter-service communication. Postman provides you with a client interface to work with gRPC services. Go through the documentation to learn how to use Postman's gRPC client to test your gRPC API.
               </p>
               <Link
-                to="/postman-api-client/grpc-client/grpc-client-overview"
+                to="https://learning.postman.com/docs/sending-requests/grpc/grpc-client-overview/"
                 className="btn btn__primary-hollow mb-5"
               >
                 Explore gRPC client docs
