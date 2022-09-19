@@ -100,6 +100,8 @@ If you'd like to downgrade to Postman v9 or below to continue working with a tea
 
 Use the following links to download the latest Postman v9 version for your platform.
 
+> If the Postman desktop app has automatic major updates enabled, the app will be automatically updated to the latest major version.
+
 * [Download Postman v9 for macOS (Intel chip) 64-bit](https://go.pstmn.io/dl-osx64-v9-latest)
 * [Download Postman v9 for macOS (Apple chip) 64-bit](https://go.pstmn.io/dl-osxarm64-v9-latest)
 * [Download Postman v9 for Windows 64-bit](https://go.pstmn.io/dl-win64-v9-latest)
