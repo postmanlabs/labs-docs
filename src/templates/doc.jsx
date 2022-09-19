@@ -317,12 +317,12 @@ const DocPage = ({ data }) => {
     useEffect(() => {
       const { data } = props;
       const { html } = data;
-      const parser = new DOMParser();
-      const parsedHtml = parser.parseFromString(html, 'text/html');
+      // const parser = new DOMParser();
+      // const parsedHtml = parser.parseFromString(html, 'text/html');
   
       // allows images to display as modal when clicked
-      useModal(parsedHtml);
-      setHTML(parsedHtml.body.innerHTML)
+      // useModal(parsedHtml);
+      setHTML(html)
     }, []);
   
     return (
