@@ -9,7 +9,7 @@ import { leftNavItems } from '../components/LeftNav/LeftNavItems';
 import LeftNav from '../components/LeftNav/LeftNav';
 import SEO from '../components/seo';
 const { v4: uuidv4 } = require('uuid');
-import {ButtonStyles} from '../../styles/ButtonStyles'
+import { ButtonStyles } from '../../styles/ButtonStyles'
 import styled from 'styled-components';
 import 'prismjs/themes/prism-tomorrow.css';
 import { useModal } from '../components/modules/Modal';
@@ -290,14 +290,15 @@ const RightColumnWrapper = styled.aside`
 `
 
 const DocPage = ({ data }) => {
+  const [useHTML, setHTML] = useState(data.markdownRemark)
   const post = data.markdownRemark;
-    // Last modified date - displaed at bottom of docs
-    // Last modified time - meta data for SEO
-  const {lastModifiedDate, lastModifiedTime } = data.markdownRemark.fields;
+  // Last modified date - displaed at bottom of docs
+  // Last modified time - meta data for SEO
+  const { lastModifiedDate, lastModifiedTime } = data.markdownRemark.fields;
   // Breadcrumbs (top of page) & Previous and Next Links (bottom of page) 
   const { parentLink, subParentLink, previous, next } = data;
 
-  let excerptLength = data.markdownRemark.excerpt.length; 
+  let excerptLength = data.markdownRemark.excerpt.length;
   let excerptCount = process.env.GATSBY_EXCERPT_COUNT;
   let overIndexLimit = excerptLength > 6700 ? (excerptLength - 6700) : 0;
 
@@ -310,26 +311,20 @@ const DocPage = ({ data }) => {
       doc.frontmatter.contextual_links && <ContextualLinks key={uuidv4()} links={doc.frontmatter.contextual_links} />
     )
   }
+  (function CreateModalImages() {
 
-  const CreateDoc = (props) => {
-    const [useHTML, setHTML] = useState({ ...props })
-  
     useEffect(() => {
-      const { data } = props;
-      const { html } = data;
-      // const parser = new DOMParser();
-      // const parsedHtml = parser.parseFromString(html, 'text/html');
-  
+      const parser = new DOMParser();
+      const ModifiedHTML = parser.parseFromString(useHTML.html, 'text/html');
       // allows images to display as modal when clicked
-      // useModal(parsedHtml);
-      setHTML(html)
+      useModal(ModifiedHTML);
+      setHTML(ModifiedHTML.body.innerHTML)
     }, []);
-  
-    return (
-      <span dangerouslySetInnerHTML={{ __html: useHTML }} />
-    );
-  }
 
+    return (
+      null
+    );
+  })()
   return (
     <Layout>
       <SEO title={post.frontmatter.title} slug={post.fields.slug} lastModifiedTime={lastModifiedTime} />
@@ -343,17 +338,17 @@ const DocPage = ({ data }) => {
               <main className="col-sm-12 col-md-12 col-lg-9 offset-lg-0 col-xl-7 doc-page ml-xl-5">
                 <BreadCrumbsLinks data={{ parentLink, subParentLink }} />
                 <h1>{post.frontmatter.title}</h1>
-                <CreateDoc data={data.markdownRemark} />
+                <span dangerouslySetInnerHTML={{ __html: useHTML.html }} />
                 {
-                  excerptCount ? 
+                  excerptCount ?
                     <div className='events__alert mb-3'>
                       <p>
                         <small>Development Notification</small>
-                      <br />
+                        <br />
                         <small>{`Character count: ${excerptLength} and therefore ${overIndexLimit} characters too long to be indexed by Algolia`}</small>
                       </p>
-                    </div> 
-                  : null
+                    </div>
+                    : null
                 }
                 <p>
                   <small className="font-italic">Last modified: {lastModifiedDate}</small>
@@ -365,7 +360,7 @@ const DocPage = ({ data }) => {
               <RightColumnWrapper className="col-sm-12 col-md-12 col-lg-3 offset-lg-0 col-xl-3 offset-xl-1 right-column">
                 <hr className="d-block d-lg-none" />
                 <ButtonStyles >
-                  <EditDoc  className="btn edit-button-styles primary-hollow "/>
+                  <EditDoc className="btn edit-button-styles primary-hollow " />
                 </ButtonStyles>
                 <DisplayContextualLinks data={data} />
                 <figure className="sticky posmanaut-dab">
