@@ -292,8 +292,8 @@ const RightColumnWrapper = styled.aside`
 const DocPage = ({ data }) => {
   const [modalData] = useState(data.markdownRemark)
   const post = data.markdownRemark;
-  // Last modified date - displaed at bottom of docs
-  // Last modified time - meta data for SEO
+  // Last modified date - bottom
+  // Last modified time - top 
   const { lastModifiedDate, lastModifiedTime } = data.markdownRemark.fields;
   // Breadcrumbs (top of page) & Previous and Next Links (bottom of page) 
   const { parentLink, subParentLink, previous, next } = data;
@@ -302,22 +302,22 @@ const DocPage = ({ data }) => {
   let excerptCount = process.env.GATSBY_EXCERPT_COUNT;
   let overIndexLimit = excerptLength > 6700 ? (excerptLength - 6700) : 0;
 
-  /* Right side links */
+  // Right side links 
   const DisplayContextualLinks = (props) => {
     const { data } = props;
-    /* Single post data */
     const doc = data.markdownRemark;
     return (
       doc.frontmatter.contextual_links && <ContextualLinks key={uuidv4()} links={doc.frontmatter.contextual_links} />
     )
   }
-( function CreateModalImages() {
+  // updates HTML to enable clickable images to display modal
+( function ModifyHTML() {
     useEffect(() => {
       const parser = new DOMParser();
-      const ModifiedHTML = parser.parseFromString(modalData.html, 'text/html');
+      const parsedHTML = parser.parseFromString(modalData.html, 'text/html');
       // allows images to display as modal when clicked
-      useModal(ModifiedHTML);
-      document.getElementById("LoadDoc").innerHTML = ModifiedHTML.body.innerHTML;   
+      useModal(parsedHTML);
+      document.getElementById("LoadDoc").innerHTML = parsedHTML.body.innerHTML;   
     }, []);
 
     return (
