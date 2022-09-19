@@ -290,7 +290,7 @@ const RightColumnWrapper = styled.aside`
 `
 
 const DocPage = ({ data }) => {
-  const [useHTML, setHTML] = useState(data.markdownRemark)
+  const [modalData] = useState(data.markdownRemark)
   const post = data.markdownRemark;
   // Last modified date - displaed at bottom of docs
   // Last modified time - meta data for SEO
@@ -311,14 +311,13 @@ const DocPage = ({ data }) => {
       doc.frontmatter.contextual_links && <ContextualLinks key={uuidv4()} links={doc.frontmatter.contextual_links} />
     )
   }
-  (function CreateModalImages() {
-
+( function CreateModalImages() {
     useEffect(() => {
       const parser = new DOMParser();
-      const ModifiedHTML = parser.parseFromString(useHTML.html, 'text/html');
+      const ModifiedHTML = parser.parseFromString(modalData.html, 'text/html');
       // allows images to display as modal when clicked
       useModal(ModifiedHTML);
-      setHTML(ModifiedHTML.body.innerHTML)
+      document.getElementById("LoadDoc").innerHTML = ModifiedHTML.body.innerHTML;   
     }, []);
 
     return (
@@ -338,7 +337,7 @@ const DocPage = ({ data }) => {
               <main className="col-sm-12 col-md-12 col-lg-9 offset-lg-0 col-xl-7 doc-page ml-xl-5">
                 <BreadCrumbsLinks data={{ parentLink, subParentLink }} />
                 <h1>{post.frontmatter.title}</h1>
-                <span dangerouslySetInnerHTML={{ __html: useHTML.html }} />
+                <div id="LoadDoc" />
                 {
                   excerptCount ?
                     <div className='events__alert mb-3'>
