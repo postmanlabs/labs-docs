@@ -22,7 +22,7 @@ contextual_links:
     name: "gRPC"
   - type: link
     name: "gRPC Overview"
-    url: "/postman-api-client/grpc-client/grpc-client-overview/"
+    url: "https://learning.postman.com/docs/sending-requests/grpc/grpc-client-overview/"
   - type: link
     name: "GitHub Issues"
     url: "https://github.com/postmanlabs/postman-app-support/issues"
@@ -34,7 +34,6 @@ contextual_links:
   - type: link
     name: "Github Issues"
     url: "https://github.com/postmanlabs/postman-app-support/issues"
-
 ---
 
 Labs' focus is to test and build new technologies. We're currently working on multiple initiatives, and documentation related to each initiative will be here. What excites us is the ability to truly be on the cutting edge of technology, and in some cases, ahead of it.
@@ -59,4 +58,4 @@ The WebSocket protocol provides a way to exchange data between a client and serv
 
 gRPC is a schema-driven Remote Procedure Call (RPC) framework often used to enable inter-service communication. Being RPC based, it facilitates client-server communication over a function call instead of an HTTP call. gRPC has gained significant popularity because of its easier abstraction than HTTP, support across multiple languages, and high performance. Postman provides you with a client interface to work with gRPC services. Go through the documentation to learn how to use Postman's gRPC client to test your gRPC API.
 
-[Read more here...](/postman-api-client/grpc-client/grpc-client-overview/)
+[Read more here...](https://learning.postman.com/docs/sending-requests/grpc/grpc-client-overview/)
