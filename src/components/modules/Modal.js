@@ -16,7 +16,7 @@ export function useModal(parsedHtml, e) {
     }
   }
 }
-const Modal = (create_id, images, i) => {
+function Modal (create_id, images, i) {
   return (
     `
     ${images[i].width === 0 ? (
