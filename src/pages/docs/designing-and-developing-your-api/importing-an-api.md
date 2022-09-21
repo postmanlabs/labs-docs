@@ -31,7 +31,7 @@ You can import an existing API definition into your API. API definitions can be 
 To import your API definitions into Postman:
 
 1. Select **APIs** in the sidebar, then select **Import**.
-1. Select a file or folder, enter a link to the API, or paste your raw text.
+1. Select one or more files, select a folder, enter a link to the API, or paste your raw text.
 
     > You can also import an API definition from a code repository. Learn more about [importing and exporting](/docs/getting-started/importing-and-exporting-data/).
 
@@ -39,9 +39,7 @@ To import your API definitions into Postman:
 1. Select **Generate collection from this API** if you want to automatically generate a collection from an API definition and add it to the API.
 1. Select **Import** to bring your data into Postman.
 
-> You can configure your **Import Settings**, which will differ depending on your API specification.
-
-You can import several API specification files at once. Select the workspace you'd like to import the APIs into, choose whether you want to generate collections from the APIs, configure the details, and select **Import**.
+    > Select **Show advanced settings** for more configuration options. These options will differ depending on your API specification.
 
 When importing into a team workspace, you can also choose to add the APIs to the [Private API Network](/docs/collaborating-in-postman/adding-private-network/).
 
@@ -151,6 +149,7 @@ Postman directly supports importing the following formats:
 
 * [OpenAPI 3.0 and 3.1](https://github.com/postmanlabs/openapi-to-postman)
 * Swagger [1.2](https://github.com/postmanlabs/swagger1-to-postman) and [2.0](https://github.com/postmanlabs/swagger2-postman2-lambda)
+* Protobuf 2 and 3
 * [GraphQL](https://github.com/postmanlabs/graphql-to-postman)
 * [cURL](https://github.com/postmanlabs/curl-to-postman)
 * RAML [0.8](https://github.com/postmanlabs/raml-to-postman) and [1.0](https://github.com/postmanlabs/raml1-to-postman)
