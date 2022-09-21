@@ -1,7 +1,7 @@
 ---
 title: "Creating Run in Postman buttons"
 order: 109
-updated: 2022-03-01
+updated: 2022-09-21
 page_id: "creating_run_button"
 warning: false
 contextual_links:
@@ -30,7 +30,7 @@ contextual_links:
   - type: section
     name: "Next Steps"
   - type: link
-    name: "Documenting your API"
+    name: "Generating API documentation"
     url: "/docs/publishing-your-api/documenting-your-api/"
   - type: link
     name: "Managing environments"
@@ -38,13 +38,16 @@ contextual_links:
 
 ---
 
-One way to [share your Postman collections](/docs/collaborating-in-postman/sharing/) is to create a stand-alone Run in Postman button. The Run in Postman button <img alt="Run in Postman button" src="https://assets.postman.com/postman-docs/run-in-postman-button-icon.jpg" width="100px"/> allows users to fork the collections. You can embed the button in your website or a README to let developers interact with your API more quickly.
+One way to [share your Postman collections](/docs/collaborating-in-postman/sharing/) is to create a stand-alone **Run in Postman** button. The **Run in Postman** button <img alt="Run in Postman button" src="https://assets.postman.com/postman-docs/run-in-postman-button-icon.jpg" width="100px"/> allows users to fork the collections. You can embed the button in your website or a README to let developers interact with your API more quickly.
 
 > Being a user, you can still create the **Run in Postman** button from API specification formats like OpenAPI and RAML. To create a button for the standard you use, first convert the file to a collection by [importing it into Postman](/docs/getting-started/importing-and-exporting-data/) or by [authoring your specification in Postman](/docs/designing-and-developing-your-api/the-api-workflow/) to generate a collection.
 
 ## Contents
 
 * [Creating a Run in Postman button](#creating-a-run-in-postman-button)
+    * [Sample Markdown snippet](#sample-markdown-snippet)
+    * [Sample HTML snippet](#sample-html-snippet)
+* [Using a Run in Postman Button](#using-a-run-in-postman-button)
 
 ## Creating a Run in Postman button
 
@@ -52,24 +55,28 @@ Make sure you're signed in to your Postman account, and that you have a collecti
 
 > Note: If the collection is present in a public workspace, you can directly embed the copied code where you would like the button to be displayed. If the collection is present in a team or a personal workspace, [share the collection to a public workspace](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#changing-workspace-visibility) to create the **Run in Postman** button.
 
-* In Postman, open the collection you want to share.
-* Next to the collection name, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> to expand the collection details and select **Share collection** to open a modal.
+1. Select **Collections** in the sidebar and select the collection you want to share.
+1. Next to the collection name, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> and then select **Share**.
 
-* Tab over to **Via Run in Postman**.
-* Choose a live or static button:
+1. Select the **Via Run in Postman** tab.
+1. Choose a live or static button:
 
     * **Live button** - This button uses JavaScript, HTML, and CSS, so you can customize the button for a website. You can also access the [Run in Postman API](/docs/publishing-your-api/run-in-postman/run-button-API/) to dynamically create and update environments.
     > To create a live button, you need to share the collection to a public workspace. If you don't have a public workspace to share to, you can create a new one using the modal. For users on Enterprise plans, you need to have a [community manager](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) role to [create a new public workspace](/docs/collaborating-in-postman/using-workspaces/public-workspaces/).
     * **Static button** - This button uses Markdown, so you can display it in a README, blog, or other Markdown document.
 
-* You can optionally include an environment to embed with your collection. Select the **Add an environment** dropdown list and choose the environment.
-* Select <img alt="Copy icon" src="https://assets.postman.com/postman-docs/icon-copy-v9.jpg#icon" width="15px"> **Copy Code**.
+1. You can optionally include an environment to embed with your collection. Select the **Add an environment** dropdown list and choose the environment.
+1. Select <img alt="Copy icon" src="https://assets.postman.com/postman-docs/icon-copy-v9.jpg#icon" width="15px"> **Copy Code**.
 
-![Create a Run in Postman button modal](https://assets.postman.com/postman-docs/run-in-postman-9.14.jpg)
+    ![Create a Run in Postman button modal](https://assets.postman.com/postman-docs/run-in-postman-9.14.jpg)
 
-Your embed code will include your collection's ID. In the examples below, **:collection_id** is a placeholder for that ID and **:collection_url** is a placeholder for url. If you choose to include an environment in your button, the code will also have the environment parameter.
+    Your embed code will include your collection's ID. In the examples below, **:collection_id** is a placeholder for that ID and **:collection_url** is a placeholder for url. If you choose to include an environment in your button, the code will also have the environment parameter.
 
-### Sample markdown snippet
+1. Embed the code where you would like the button to display.
+
+    ![Run in postman](https://assets.postman.com/postman-docs/new-run-in-postman-button.gif)
+
+### Sample Markdown snippet
 
 ```markdown
 [![Run in Postman](https://run.pstmn.io/button.svg)](https://god.gw.postman.com/run-collection/:collection_id)
@@ -93,14 +100,10 @@ data-postman-collection-url=":collection_url"></div>
 </script>
 ```
 
-* Embed the code where you would like the button to be displayed.
+## Using a Run in Postman Button
 
-![Run in postman](https://assets.postman.com/postman-docs/new-run-in-postman-button.gif)
-
-> You can include an environment along with a collection in your Run in Postman button. The live button gives you access to the [Run in Postman API](/docs/publishing-your-api/run-in-postman/run-button-API/) to create and modify environments.
-
-Select the **Run in Postman** button to open the page where you can fork the collection to your workspace. [Forking the collection](/docs/collaborating-in-postman/version-control-for-collections/) into your workspace will enable you to contribute to the source collection using pull requests. You can also view the collection in a public workspace if you like and even import a copy of the collection using the links present on the screen. All collections shared with the new Run in postman buttons come with [Fork counts](/docs/collaborating-in-postman/version-control-for-collections/#forking-information), that help you and your consumers understand how the API is being used.
+Select the **Run in Postman** button to open the page where you can fork the collection to your workspace. [Forking the collection](/docs/collaborating-in-postman/version-control/#forking-postman-entities) into your workspace will enable you to contribute to the source collection using pull requests. You can also view the collection in a public workspace if you like and even import a copy of the collection using the links present on the screen. All collections shared with the new **Run in Postman** buttons come with [Fork counts](/docs/collaborating-in-postman/version-control/#viewing-fork-information), that help you and your consumers understand how the API is being used.
 
 <img alt="Fork collection for run in postman" src="https://assets.postman.com/postman-docs/fork-collection-for-run-in-postman.jpg" height="400px"/>
 
-> Live Run in Postman buttons automatically stay updated with changes in the original collection, so your consumers always get the most recent version of your collection without publishers having to manually update the collection's link.
+> Live **Run in Postman** buttons automatically stay updated with changes in the original collection, so your consumers always get the most recent version of your collection without publishers having to manually update the collection's link.
