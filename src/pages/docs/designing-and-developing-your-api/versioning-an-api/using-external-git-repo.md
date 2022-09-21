@@ -76,11 +76,17 @@ Keep in mind the following when connecting to a repository:
 To connect a GitHub, Bitbucket, GitLab, or Azure DevOps repository hosted in the cloud:
 
 1. Select **APIs** in the sidebar and select an API.
-1. On the API's overview, select **Connect Repository** and select the type of repository you want to connect to.
+1. Under **Connect repository**, select **Connect** and select the type of repository you want to connect to.
 1. A browser tab opens asking you to log in to your repository. Follow the onscreen instructions. When you're finished, close the browser tab and return to Postman.
 1. On the **Connect your repository** page, enter the **Organization** or **Workspace** and the **Repository** where the API will be stored. (For GitLab, **Organization** refers to a **Group**, and **Repository** refers to a **Project**.)
 1. Select the **Active branch** for the API. Any changes you make in Postman are stored in the active branch. (You can switch to another branch to make it the active branch at any time.)
-1. Select an **API schema directory** and **Collection directory** where schemas and collections will be stored in the repository. If you leave these blank, a `postman/schemas` or `postman/collections` directory will be created in the root of the repository. If you select a directory already containing schemas, you will be asked which schema to use in Postman the first time you pull changes.
+1. Select an **API schema directory** and **Collection directory** where schemas and collections will be stored in the repository. Keep in mind the following:
+
+
+    * If you leave these fields blank, a `postman/schemas` or `postman/collections` directory will be created in the root of the repository.
+    * If you select a directory already containing schemas, you will be asked which schema to use in Postman the first time you pull changes.
+    * The collection directory can't be a parent or the child of the schema directory.
+
 1. Select **Connect Repository**.
 
 <img alt="Connecting to a cloud-hosted repo" src="https://assets.postman.com/postman-docs/v10/api-builder-remote-repo-v10.jpg" width ="562px"/>
@@ -90,16 +96,21 @@ To connect a GitHub, Bitbucket, GitLab, or Azure DevOps repository hosted in the
 <!--
 > Use the [Postman desktop app](/docs/getting-started/installation-and-updates/) to connect to an on-premises Git repository. You can't use the [Postman web app](https://learning.postman.com/docs/getting-started/installation-and-updates/#using-the-postman-web-app).-->
 
-> Your repository must be able to reach the IP number mentioned in [static IP support](/docs/integrations/intro-integrations/#static-ip-support). Contact your IT team to allowlist the appropriate IP number.
+> Your repository must be able to reach the IP address mentioned in [static IP support](/docs/integrations/intro-integrations/#static-ip-support). Contact your IT team to allowlist the appropriate IP address.
 
 To connect an GitHub Enterprise Server, GitLab Self-Managed, or Azure DevOps Server repository hosted on-premises:
 
 1. Select **APIs** in the sidebar and select an API.
-1. Select **Connect Repository** and select the type of repository you want to connect to.
+1. Under **Connect repository**, select **Connect** and select the type of repository you want to connect to.
 1. Enter the **Domain URL** of your repository. Use the base URL of your enterprise server, for example: `https://my-git-server.example.com`
 1. Enter a **Personal access token** to access the repository. Ensure that the token has the required permissions as specified on the **Connect repository** page.
 1. Select **Authenticate**.
-1. Select an **API schema directory** and **Collection directory** where schemas and collections will be stored in the repository. If you leave these blank, a `postman/schemas` or `postman/collections` directory will be created in the root of the repository. If you select a directory already containing schemas, you will be asked which schema to use in Postman the first time you pull changes.
+1. Select an **API schema directory** and **Collection directory** where schemas and collections will be stored in the repository. Keep in mind the following:
+
+    * If you leave these fields blank, a `postman/schemas` or `postman/collections` directory will be created in the root of the repository.
+    * If you select a directory already containing schemas, you will be asked which schema to use in Postman the first time you pull changes.
+    * The collection directory can't be a parent or the child of the schema directory.
+
 1. Select **Connect Repository**.
 
 ## Disconnecting a remote repository
@@ -107,9 +118,9 @@ To connect an GitHub Enterprise Server, GitLab Self-Managed, or Azure DevOps Ser
 After you disconnect a remote repository, you can no longer sync changes between Postman and the repository.
 
 1. Select **APIs** in the sidebar and select an API.
-1. Select <img alt="Git branch icon" src="https://assets.postman.com/postman-docs/icon-source-control.jpg#icon" width="16px"/> in the sidebar to open the **Source Control** pane.
-1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> and select **Disconnect repository from Postman**.
-1. Enter the name of the repository to confirm, then select **Disconnect**.
+1. Select the source control icon <img alt="Git branch icon" src="https://assets.postman.com/postman-docs/icon-source-control.jpg#icon" width="16px"/> in the right sidebar.
+1. In the **Source Control** pane, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> and select **Disconnect repository from Postman**.
+1. Enter the name of the API to confirm, then select **Disconnect**.
 
 ## Next steps
 
