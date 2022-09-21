@@ -11,7 +11,7 @@ contextual_links:
 
 gRPC requests in Postman include a variety of tools, views, and controls to help you use and test your gRPC services effectively and efficiently. This topic highlights the parts of the request interface and how to use it.
 
-<img src="https://assets.postman.com/postman-docs/v10/grpc-request-callouts-v10.jpg" alt="gRPC request interface" /><!--TODO: replace with Postman echo service shown -->
+<img src="https://assets.postman.com/postman-docs/v10/grpc-request-callouts-v10.jpg" alt="gRPC request interface" />
 
 ## Contents
 
