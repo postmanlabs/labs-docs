@@ -70,7 +70,7 @@ If you send the request, you'll receive an authentication error. To [authenticat
 
 Select **Send** to send the `GET All Collections` request. The response pane displays a list of all your collections. Search for the `testAPI` collection and locate the `uid` value. You will use this collection ID in the next step.
 
-<img alt="Getting the collection ID" src="https://assets.postman.com/postman-docs/mock-api-collection-id-v9-14.jpg" width="893px">
+<img alt="Getting the collection ID" src="https://assets.postman.com/postman-docs/v10/mock-api-get-collection-id-v10.jpg" width="750px">
 
 > You can also find the collection ID in Postman. First, select **Collections** in the sidebar and select the `testAPI` collection. Then select the information icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px"> in the right context bar to access the collection ID.
 
@@ -80,7 +80,7 @@ Create a new request in Postman, leave `GET` selected for the method, and enter 
 
 Make sure to add an `x-api-key` header with your Postman API Key, and then select **Send**. The response pane displays a list of all your environments. Search for the `testAPIenv` environment and locate the `uid` value.
 
-<img alt="Getting the environment ID" src="https://assets.postman.com/postman-docs/mock-api-environment-id-v9-14.jpg" width="893px">
+<img alt="Getting the environment ID" src="https://assets.postman.com/postman-docs/v10/mock-api-environment-id-v10.jpg" width="750px">
 
 > You can also find the environment ID in Postman. First, select **Environments** in the sidebar and select the `testAPIenv` environment. Then select the information icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px"> in the right context bar to access the environment ID.
 
@@ -106,7 +106,7 @@ Next, add the following **raw** JSON code to the **Body** tab of the request, su
 
 As always, make sure to add an `x-api-key` header with your Postman API Key. When ready, select **Send** to send the request to the Postman API and create the mock server.
 
-<img alt="Creating a mock server" src="https://assets.postman.com/postman-docs/mock-api-create-mock-v9-14.jpg" width="893px">
+<img alt="Creating a mock server" src="https://assets.postman.com/postman-docs/v10/mock-api-create-mock-v10.jpg" width="750px">
 
 ## Step 4: Get the mock server URL
 
@@ -114,7 +114,7 @@ To send a request to your mock server, you need to know the mock server URL. You
 
 Add an `x-api-key` header with your Postman API Key, and then select **Send**. The response pane displays a list of all your mock servers. Search for the `testAPImock` mock server and locate the `mockUrl` value. You'll use this URL to send a request to the mock server.
 
-<img alt="Getting the mock server URL" src="https://assets.postman.com/postman-docs/mock-api-mock-url-v9-14.jpg" width="893px">
+<img alt="Getting the mock server URL" src="https://assets.postman.com/postman-docs/v10/mock-api-mock-url-v10.jpg" width="750px">
 
 > You can also find the mock server URL in Postman. Select **Mock Servers** in the sidebar, select the `testAPI` mock server, and then select **Copy URL**.
 
@@ -128,7 +128,7 @@ Try this yourself by simulating `Request 1` in the `testAPI` collection. Create 
 
 There's no need to add an `x-api-key` header, as the mock server is public, so select **Send** to send the request. The response pane shows the response from the mock server.
 
-<img alt="Sending a request to the mock server" src="https://assets.postman.com/postman-docs/mock-api-mock-response-v9-14.jpg" width="893px">
+<img alt="Sending a request to the mock server" src="https://assets.postman.com/postman-docs/v10/mock-api-mock-response-v10.jpg" width="750px">
 
 Notice that the response is identical to the example you saved for `Request 1`. That's because the mock server uses the example to create a response. If you added more requests and examples to the collection, send them to the mock server using the mock server URL and the request path.
 
