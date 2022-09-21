@@ -52,9 +52,9 @@ To connect your API to your CI project, see the steps for your CI tool:
 
 ## Configuring the Postman CLI for CI
 
-Running API tests as part of your CI pipeline helps to keep expectations between your API producers and consumers in sync. The Postman CLI can also perform [API Governance and API Security checks](/docs/api-governance/api-governance-overview/) as part of your CI pipeline.
+Running API tests as part of your CI pipeline helps to keep expectations between your API producers and consumers in sync. The Postman CLI can also perform [API Governance and API Security checks](/docs/api-governance/api-governance-overview/) as part of your CI pipeline ([Enterprise teams only](https://www.postman.com/pricing/)).
 
-To run your API tests and API Governance and API Security checks along with each build, first generate the Postman CLI configuration code in Postman. Then add the configuration code to your CI project. Each time a CI build runs, the Postman CLI uses the Postman API to run the collections that contain your tests. You can view the results of your tests in Postman.
+To run your API tests along with each build and, optionally, your API Governance and API Security checks, first generate the Postman CLI configuration code in Postman. Then add the configuration code to your CI project. Each time a CI build runs, the Postman CLI uses the Postman API to run the collections that contain your tests. You can view the results of your tests in Postman.
 
 To configure the Postman CLI to run API tests, see the steps for your CI tool:
 
