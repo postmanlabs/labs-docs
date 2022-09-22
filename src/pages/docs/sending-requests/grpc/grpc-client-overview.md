@@ -28,8 +28,6 @@ contextual_links:
   - type: link
     name: "Understanding Asynchronous APIs"
     url: "https://blog.postman.com/understanding-asynchronous-apis/"
-
-
 ---
 
 _gRPC_ is a schema-driven Remote Procedure Call (RPC) framework often used to enable inter-service communication. Being RPC-based, it facilitates client-server communication over a function call instead of an HTTP call. gRPC has gained significant popularity because of its easier abstraction than HTTP, support across multiple languages, and high performance.
