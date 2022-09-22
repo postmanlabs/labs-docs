@@ -25,7 +25,7 @@ contextual_links:
 
 Postman provides a variety of tools to enable and enhance collaboration within your team. You can ease the onboarding process by enabling [team discovery](/docs/collaborating-in-postman/working-with-your-team/enabling-team-discovery/), allowing users in your organization to request to join your Postman team. You can also create [team workspaces](/docs/collaborating-in-postman/working-with-your-team/collaborating-in-team-workspaces/), where team members can share their work and collaborate on API projects. Users can [discuss their work](/docs/collaborating-in-postman/working-with-your-team/discussing-your-work/) directly in Postman by commenting on collections and APIs, including on specific requests, versions, and inline on schemas and scripts.
 
-To get the most out of Postman's collaboration features, [create](#creating-a-team) or [join](#joining-a-team) a team. You can be a member of multiple Postman teams, regardless of if they're Postman Free, Basic, Professional, or Enterprise.
+To get the most out of Postman's collaboration features, [create](#creating-a-team) or [join](#joining-a-team) a team. You can be a member of up to five Postman teams, regardless of if they're Postman Free, Basic, Professional, or Enterprise.
 
 > Note that if an Enterprise team within your organization implements [domain capture](/docs/administration/managing-your-team/configuring-domain-capture/), you won't be able to remain on or join extra Postman teams with your captured accounts.
 
@@ -65,6 +65,8 @@ There are several ways you can join a Postman team:
 * **SSO automatic provisioning** - If a team in your organization has [automatic provisioning](/docs/administration/sso/admin-sso/#automatically-adding-new-users) enabled in their SSO configuration, you can join the team by [signing in to Postman with SSO](/docs/administration/sso/user-sso/).
 * **SCIM provisioning** - If your organization has enabled [SCIM provisioning](/docs/administration/scim-provisioning/scim-provisioning-overview/), you may be added to your organization's Postman team and receive an email invite. Select **Join Team** in the email and [sign in to Postman with SSO](/docs/administration/sso/user-sso/).
 * **Domain capture** - If your organization has configured [domain capture](/docs/administration/managing-your-team/configuring-domain-capture/) and you use or create an account associated with a verified domain, Postman will [notify](/docs/administration/managing-your-team/configuring-domain-capture/#user-experience) you when you next sign in that your account is managed by your organization.
+
+You can be a member of up to five Postman teams, regardless of if they're Postman Free, Basic, Professional, or Enterprise. However, if an Enterprise team within your organization implements domain capture, you won't be able to remain on or join extra Postman teams with your captured accounts.
 
 If you're an individual Postman user and join a Postman team, your personal workspaces and the data within them are transferred to the team. When you leave a team, your personal workspaces and the data within them will remain with the team and no longer be accessible to you.
 
