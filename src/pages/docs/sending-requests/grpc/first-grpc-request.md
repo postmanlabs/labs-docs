@@ -1,6 +1,14 @@
 ---
 title: "Invoking your first gRPC request"
 updated: 2022-09-15
+contextual_links:
+  - type: section
+    name: "Additional resources"
+  - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "gRPC Requests | Postman Level Up"
+    url: "https://youtu.be/gfYGqMb81GQ"
 ---
 
 To get started with gRPC, create a request and invoke it using an echo endpoint.
