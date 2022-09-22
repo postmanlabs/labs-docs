@@ -82,7 +82,6 @@ To connect a GitHub, Bitbucket, GitLab, or Azure DevOps repository hosted in the
 1. Select the **Active branch** for the API. Any changes you make in Postman are stored in the active branch. (You can switch to another branch to make it the active branch at any time.)
 1. Select an **API schema directory** and **Collection directory** where schemas and collections will be stored in the repository. Keep in mind the following:
 
-
     * If you leave these fields blank, a `postman/schemas` or `postman/collections` directory will be created in the root of the repository.
     * If you select a directory already containing schemas, you will be asked which schema to use in Postman the first time you pull changes.
     * The collection directory can't be a parent or the child of the schema directory.
