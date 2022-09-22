@@ -58,9 +58,9 @@ To run your API tests along with each build and, optionally, your API Governance
 
 To configure the Postman CLI to run API tests, see the steps for your CI tool:
 
-* [Bitbucket Pipelines](/docs/integrations/available-integrations/ci-integrations/bitbucket-pipelines/#configuring-newman-for-bitbucket-pipelines)
-* [CircleCI](/docs/integrations/available-integrations/ci-integrations/circleci/#configuring-newman-for-circleci)
+* [Bitbucket Pipelines](/docs/integrations/available-integrations/ci-integrations/bitbucket-pipelines/#configuring-the-postman-cli-for-bitbucket-pipelines)
+* [CircleCI](/docs/integrations/available-integrations/ci-integrations/circleci/#configuring-the-postman-cli-for-circleci)
 * [GitHub Actions](/docs/integrations/available-integrations/ci-integrations/github-actions/#configuring-the-postman-cli-for-github-actions)
-* [GitLab CI/CD](/docs/integrations/available-integrations/ci-integrations/gitlab-ci/#configuring-newman-for-gitlab-cicd)
-* [Jenkins](/docs/integrations/available-integrations/ci-integrations/jenkins/#configuring-newman-for-jenkins)
-* [Travis CI](/docs/integrations/available-integrations/ci-integrations/travis-ci/#configuring-newman-for-travis-ci)
+* [GitLab CI/CD](/docs/integrations/available-integrations/ci-integrations/gitlab-ci/#configuring-the-postman-cli-for-gitlab-cicd)
+* [Jenkins](/docs/integrations/available-integrations/ci-integrations/jenkins/#configuring-the-postman-cli-for-jenkins)
+* [Travis CI](/docs/integrations/available-integrations/ci-integrations/travis-ci/#configuring-the-postman-cli-for-travis-ci)
