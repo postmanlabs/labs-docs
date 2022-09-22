@@ -35,7 +35,7 @@ To add an element, it must be in the same workspace as your API. The element wil
 ## Contents
 
 * [Adding a collection](#adding-a-collection)
-* [Removing elements from an API](#removing-elements-from-an-api)
+* [Deleting elements from an API](#deleting-elements-from-an-api)
 
 ## Adding a collection
 
@@ -48,7 +48,7 @@ Add a collection to document your API or help others test your API's endpoints. 
 To add a new collection to your API:
 
 1. Select **APIs** in the sidebar and select an API.
-1. On the API's overview, under **Collections**, select **+** and select **Add new collection**.
+1. On the API's overview, next to **Collections**, select **+** and select **Add new collection**.
 1. Enter a new name for the collection.
 
 ### Adding an existing collection
@@ -56,7 +56,7 @@ To add a new collection to your API:
 To add an existing collection to your API:
 
 1. Select **APIs** in the sidebar and select an API.
-1. On the API's overview, under **Collections**, select **+** and select **Copy existing collection**.
+1. On the API's overview, next to **Collections**, select **+** and select **Copy existing collection**.
 1. Select an available collection and select **Copy Collection**.
 
 The copy of the collection displays on your API's overview and under your API in the sidebar. To view documentation for the collection, expand the collection and select **View full documentation**.
@@ -66,7 +66,7 @@ The copy of the collection displays on your API's overview and under your API in
 To generate a new collection from your API definition:
 
 1. Select **APIs** in the sidebar and select an API.
-1. On the API's overview, under **Definition**, select **+** and select **Generate from API definition**.
+1. On the API's overview, next to **Collections**, select **+** and select **Generate from API definition**.
 1. Change any settings to customize the new collection.
 1. Select **Generate Collection**.
 
@@ -86,7 +86,7 @@ To add an environment to your API:
 
 This makes a copy of the environment in your API, which is not synced with the original. The environment displays under your API in the sidebar. Select the environment to view or add variables. Learn more about [managing environments](/docs/sending-requests/managing-environments/). -->
 
-## Removing elements from an API
+## Deleting elements from an API
 
 You can delete a collection from your API.
 
