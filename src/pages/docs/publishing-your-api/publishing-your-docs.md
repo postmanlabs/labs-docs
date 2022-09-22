@@ -21,6 +21,9 @@ contextual_links:
   - type: link
     name: "Postman Public API Network Is Now the World’s Largest Public API Hub"
     url: "https://blog.postman.com/postman-public-api-network-is-now-the-worlds-largest-public-api-hub/"
+  - type: link
+    name: "Introducing Governance for Publishing Collection Documentation"
+    url: "https://blog.postman.com/introducing-governance-publishing-collection-documentation/"
   - type: subtitle
     name: "Case Studies"
   - type: link
