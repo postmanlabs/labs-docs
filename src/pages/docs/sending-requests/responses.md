@@ -56,7 +56,7 @@ The Pretty view formats JSON or XML responses so they're easier to view. Links i
 
 For navigating large responses, select the down arrows next to a line to collapse large sections of the response.
 
-<img alt="Response Pretty view" src="https://assets.postman.com/postman-docs/response-pretty-view.jpg" width="400px"/>
+<img alt="Response Pretty view" src="https://assets.postman.com/postman-docs/v10/request-response-pretty-view-v10.jpg" width="400px"/>
 
 > **Forcing JSON formatting**. For Postman to automatically format the body, the response must have the appropriate `Content-Type` header. If you receive a response with a different `Content-Type` header, you can force formatting through JSON. In the Postman header, select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px">, then select **Settings**. In the **General** tab, select **JSON** from the **Language detection** dropdown.
 
