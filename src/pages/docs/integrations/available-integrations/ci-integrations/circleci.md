@@ -58,6 +58,14 @@ Select **View All Builds** to view the full list of build jobs. From here you ca
 
 <img alt="View all CircleCI builds" src="https://assets.postman.com/postman-docs/v10/collection-runs-v10-2.jpg">
 
+## Viewing API linting results
+
+Using the Postman CLI, you can enforce [API Governance and API Security rules each time the pipeline runs](/docs/api-governance/api-definition/api-definition-warnings/#tracking-governance-and-security-rule-violations-in-cicd) using the [API linting command](/docs/postman-cli/postman-cli-options/#governance-and-security) ([Enterprise teams only](https://www.postman.com/pricing/)).
+
+To view API linting results that were run as part of the build, first [configure the Postman CLI for CircleCI](#configuring-the-postman-cli-for-circleci) and then [start a new build](#viewing-build-status). After the build is complete, use the arrows to expand a build and expand an API definition to view API linting results.
+
+<img alt="View API linting results" src="https://assets.postman.com/postman-docs/v10/collection-runs-v10-2.jpg">
+
 ## Configuring the Postman CLI for CircleCI
 
 With the help of the Postman CLI and the Postman API, you can run API tests created in Postman as part of your CircleCI pipeline. First generate the Postman CLI configuration code in Postman. Then add the configuration code to the `config.yml` file in your CircleCI project.
@@ -70,7 +78,7 @@ To generate configuration code for the Postman CLI:
 1. Under **CI/CD Builds**, select **View All Builds**.
 1. Select **Configure Postman CLI**.
 1. Select a **Collection** to run during pipeline builds. To be available in the dropdown list, you must first [add the collection as a test suite](/docs/designing-and-developing-your-api/testing-an-api/#adding-tests) to your API. You can also select an **Environment** to use.
-1. (Optional) Select the checkbox to enforce API Governance and API Security rules each time the CI/CD pipeline runs ([Enterprise teams only](https://www.postman.com/pricing/)). To review rule violations, go to the API's overview page and select **View files** under **Definition**.
+1. (Optional) Select the checkbox to enforce API Governance and API Security rules each time the CI/CD pipeline runs ([Enterprise teams only](https://www.postman.com/pricing/)).
 1. Select the **Operating system** for your CI/CD pipeline.
 1. Select **Copy Postman CLI Command** to copy the Postman CLI configuration.
 
