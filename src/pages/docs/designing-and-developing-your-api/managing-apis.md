@@ -39,7 +39,7 @@ You can share your APIs with collaborators by navigating to the API you want to 
 
 <img alt="Share API" src="https://assets.postman.com/postman-docs/share-api-9.4.jpg"/>
 
-For more details, see [Sharing your work](/docs/collaborating-in-postman/sharing/#sharing-postman-entities).
+For more details, see [Sharing Postman elements](/docs/collaborating-in-postman/sharing/#sharing-postman-elements).
 
 ## Collaborating on APIs
 

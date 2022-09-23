@@ -69,7 +69,7 @@ Keep in mind the following when connecting to a repository:
 
 * **For GitHub connections, there's a limit of ten auth tokens per user per application imposed by GitHub.** If you create more than ten connections with the same user, the additional tokens will be revoked in the order that they were created. Teams can use other Postman accounts to create more than ten integrations.
 
-    > If you used the earlier standalone GitHub integration for two-way sync of an API schema, you must delete the previous integration to connect a repository to your API. An existing integration will continue to function, but you can't add new integrations for two-way sync to an API schema.
+    > If you used the earlier standalone GitHub integration for two-way sync of an API definition, you must delete the previous integration to connect a repository to your API. An existing integration will continue to function, but you can't add new integrations for two-way sync to an API definition.
 
 ### Connecting to a cloud-hosted repository
 
@@ -80,10 +80,10 @@ To connect a GitHub, Bitbucket, GitLab, or Azure DevOps repository hosted in the
 1. A browser tab opens asking you to log in to your repository. Follow the onscreen instructions. When you're finished, close the browser tab and return to Postman.
 1. On the **Connect your repository** page, enter the **Organization** or **Workspace** and the **Repository** where the API will be stored. (For GitLab, **Organization** refers to a **Group**, and **Repository** refers to a **Project**.)
 1. Select the **Active branch** for the API. Any changes you make in Postman are stored in the active branch. (You can switch to another branch to make it the active branch at any time.)
-1. Select an **API schema directory** and **Collection directory** where schemas and collections will be stored in the repository. Keep in mind the following:
+1. Select an **API schema directory** and **Collection directory** where API definitions and collections will be stored in the repository. Keep in mind the following:
 
     * If you leave these fields blank, a `postman/schemas` or `postman/collections` directory will be created in the root of the repository.
-    * If you select a directory already containing schemas, you will be asked which schema to use in Postman the first time you pull changes.
+    * If you select a directory already containing API definitions, you will be asked which definition to use in Postman the first time you pull changes.
     * The collection directory can't be a parent or the child of the schema directory.
 
 1. Select **Connect Repository**.
@@ -104,10 +104,10 @@ To connect an GitHub Enterprise Server, GitLab Self-Managed, or Azure DevOps Ser
 1. Enter the **Domain URL** of your repository. Use the base URL of your enterprise server, for example: `https://my-git-server.example.com`
 1. Enter a **Personal access token** to access the repository. Ensure that the token has the required permissions as specified on the **Connect repository** page.
 1. Select **Authenticate**.
-1. Select an **API schema directory** and **Collection directory** where schemas and collections will be stored in the repository. Keep in mind the following:
+1. Select an **API schema directory** and **Collection directory** where API definitions and collections will be stored in the repository. Keep in mind the following:
 
     * If you leave these fields blank, a `postman/schemas` or `postman/collections` directory will be created in the root of the repository.
-    * If you select a directory already containing schemas, you will be asked which schema to use in Postman the first time you pull changes.
+    * If you select a directory already containing API definitions, you will be asked which definition to use in Postman the first time you pull changes.
     * The collection directory can't be a parent or the child of the schema directory.
 
 1. Select **Connect Repository**.

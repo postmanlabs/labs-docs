@@ -58,6 +58,7 @@ To add a test collection to an API:
 
     * **Add new collection** - This option creates a new empty collection in the API. You can add your tests to the **Tests** tab.
     * **Copy existing collection** - Select an available collection from the list. A copy of the collection is added to the API.
+    * **Generate from API definition** - Change any settings to customize the new collection and select **Generate Collection**.
 
 <img alt="Adding a new collection" src="https://assets.postman.com/postman-docs/v10/api-builder-add-new-collection-v10.jpg" />
 
