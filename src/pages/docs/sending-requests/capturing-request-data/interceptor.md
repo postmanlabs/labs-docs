@@ -66,7 +66,7 @@ To get started, install Postman Interceptor:
 
 1. Select **Install Interceptor Bridge** to download the Bridge, an independent executable that facilitates communication with the Interceptor.
 
-    > If you're on Windows or Linux, Postman will take care of everything for you. If you're on macOS, you'll be prompted to install NodeJS if it's not already installed on your computer.
+    > If you're on Windows or Linux, Postman will take care of everything for you. If you're on macOS, you'll be prompted to install NodeJS if it's not already installed on your computer. If for some reason the option to download does not appear, you can manually download and install via the following links: [macOS](https://go.pstmn.io/interceptor-bridge-macos), [Linux](https://go.pstmn.io/interceptor-bridge-linux), or [Windows](https://go.pstmn.io/interceptor-bridge-windows).
 
 1. Confirm Interceptor is ready to use by checking that the **Connected** status in the upper right is green. You can now capture requests from your browser and cookies from any domain to use in Postman.
 
