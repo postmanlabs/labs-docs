@@ -79,7 +79,7 @@ Using the Postman CLI, you can enforce [API Governance and API Security rules ea
 
 To view the results of API Governance and API Security checks that ran as part of the build, first [configure the Postman CLI for Jenkins](#configuring-the-postman-cli-for-jenkins) and then [start a new build](#viewing-build-status). After the build is complete, use the arrows to expand a build and expand an API definition to view any rule violations.
 
-<img alt="View API linting" src="https://assets.postman.com/postman-docs/v10/collection-runs-v10-2.jpg">
+<img alt="View API Governance and API Security results" src="https://assets.postman.com/postman-docs/v10/api-governance-and-security-results-v10.jpg">
 
 ## Configuring the Postman CLI for Jenkins
 
