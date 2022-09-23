@@ -24,7 +24,13 @@ If you [configured a remote repository](/docs/designing-and-developing-your-api/
 ## Contents
 
 * [Working with branches](#working-with-branches)
+    * [Switching branches](#switching-branches)
+    * [Creating a new branch](#creating-a-new-branch)
 * [Pushing and pulling changes](#pushing-and-pulling-changes)
+    * [Committing and pushing changes](#committing-and-pushing-changes)
+    * [Pulling changes](#pulling-changes)
+    * [Resolving conflicts](#resolving-conflicts)
+    * [Creating a pull request](#creating-a-pull-request)
 * [Making your changes available to others](#making-your-changes-available-to-others)
 
 ## Working with branches
@@ -47,6 +53,7 @@ Feature branches enable you to work on changes to your API without affecting the
 
 To create a new branch in the remote repository:
 
+1. Select **APIs** in the sidebar and select an API.
 1. Select the Git branch dropdown menu in the Postman footer.
 1. Enter the name of the new branch in the **Search** box.
 1. Select **Create branch from current branch**.
@@ -55,7 +62,9 @@ To create a new branch in the remote repository:
 
 As you work on your API, Postman tracks the changes you make to the active branch. Use the **Source Control** pane to view and manage your change history. You can commit and push your changes to the remote repository to make your work available to others. You can also pull changes to keep your working files up to date with the remote repository.
 
-<img alt="Source control pane" src="https://assets.postman.com/postman-docs/v10/api-builder-source-control-remote-v10.jpg" width="443px" />
+To view the commit history, select **Commits**. Expand a commit to see details about the changes. Use the dropdown menu to show file history or show all commits.
+
+<img alt="Source control pane" src="https://assets.postman.com/postman-docs/v10/api-builder-source-control-remote-v10a.jpg" width="443px" />
 
 ### Committing and pushing changes
 
@@ -97,14 +106,26 @@ To resolve a conflict:
 1. Next to each affected file, select either **Keep remote file** or **Keep local file**.
 1. When you're finished, select **Pull Changes**.
 
-<!-- TO DO: VERIFY STEPS, UPDATE SCREENSHOT -->
-
 ![](https://assets.postman.com/postman-docs/api-builder-pull-changes-conflict.jpg)
 
 > If the file with the conflict isn't in a format Postman supports, you'll need to resolve the conflict in your preferred Git client.
 
+### Creating a pull request
+
+After you push changes to a branch, you can create a pull request (PR) to merge your changes into another branch. For example, if you are working on a feature branch, you can create a pull request to merge your changes into the repository's main branch.
+
+To create a pull request:
+
+1. Select **APIs** in the sidebar and select an API.
+1. Select the source control icon <img alt="Source control icon" src="https://assets.postman.com/postman-docs/icon-source-control.jpg#icon" width="16px"/> in the right sidebar.
+1. Select **Create a PR**. A browser tab opens where you can finish creating the PR.
+
+After the PR is merged, make sure to [switch to the branch](#switching-branches) you merged the changes into and [pull the changes](#pulling-changes).
+
+<img alt="Source control pane" src="https://assets.postman.com/postman-docs/v10/api-builder-create-pr-v10.jpg" width="443px" />
+
 ## Making your changes available to others
 
-Any branches and changes you push to your remote repository are visible to other API producers on your team.
+Any branches and changes you push to your remote repository are visible to other API producers on your team. You can also [create a pull request](#creating-a-pull-request) to ask others on your team to review your changes.
 
 To make your changes available to your API's consumers, publish a new version of your API. When you publish a version, the API's definition and collections are synced to your workspace in the Postman cloud. Learn more about [publishing an API version](/docs/designing-and-developing-your-api/versioning-an-api/api-versions/).
