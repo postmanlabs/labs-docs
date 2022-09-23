@@ -62,7 +62,7 @@ To create a new branch in the remote repository:
 
 As you work on your API, Postman tracks the changes you make to the active branch. Use the **Source Control** pane to view and manage your change history. You can commit and push your changes to the remote repository to make your work available to others. You can also pull changes to keep your working files up to date with the remote repository.
 
-To show or hide the commit history, select **Commits**. Expand a commit to see details about the changes. Use the dropdown menu next to **Commits** to show file history or show all commits.
+To show or hide the commit history, select **Commits**. Expand a commit to see details about the changes. If there are multiple changed files, you can use the dropdown menu next to **Commits** to show file history or show all commits.
 
 <img alt="Source control pane" src="https://assets.postman.com/postman-docs/v10/api-builder-source-control-remote-v10a.jpg" width="443px" />
 
