@@ -26,6 +26,9 @@ contextual_links:
   - type: link
     name: "The Reimagined API-First Workflow, Part 1: for Developers"
     url: "https://blog.postman.com/the-reimagined-api-first-workflow-for-developers/"
+  - type: link
+    name: "Shifting Left with Postman"
+    url: "https://blog.postman.com/shifting-left-with-postman/"
   - type: section
     name: "Next Steps"
   - type: link
