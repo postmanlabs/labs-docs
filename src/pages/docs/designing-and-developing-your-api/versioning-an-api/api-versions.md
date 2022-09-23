@@ -32,7 +32,7 @@ After you publish a version, you can keep working on your API and make more chan
 
 Publish an API version to share the current state of your API with consumers. You can select the elements (definition and collections) to include with your published API.
 
-> When you publish an API version, the selected elements (definition and collections) are synced to your workspace in the Postman cloud. You can then use the published elements in monitors, mock servers, and CI integrations.
+> If your API is connected to a Git repository, publishing a version syncs the selected elements (definition and collections) to your workspace in the Postman cloud. You can then use the published elements in monitors, mock servers, and CI integrations.
 
 To publish an API version:
 
