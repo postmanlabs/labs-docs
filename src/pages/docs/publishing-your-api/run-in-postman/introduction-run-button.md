@@ -44,15 +44,11 @@ contextual_links:
 
 ---
 
-The **Run in Postman** button <img alt="Run in Postman button" src="https://assets.postman.com/postman-docs/run-in-postman-button-icon.jpg" width="100px"/> is a way to share a Postman Collection (and optional environment) with your users.
-
-Live **Run in Postman** buttons automatically stay updated with changes to your collection, providing consumers with its most recent version. You can also attach an environment to your live button to help onboard new users to your API quickly and efficiently.
+The **Run in Postman** button <img alt="Run in Postman button" src="https://assets.postman.com/postman-docs/run-in-postman-button-icon.jpg#icon" width="100px"/> is a way to share a Postman Collection (and optional environment) with your users. Live **Run in Postman** buttons automatically stay updated with changes to your collection, providing consumers with its most recent version. You can also attach an environment to your live button to help onboard new users to your API quickly and efficiently.
 
 ## User interaction with your button
 
-When a user comes across the **Run in Postman** button <img alt="Run in Postman button" src="https://assets.postman.com/postman-docs/run-in-postman-button-icon.jpg" width="100px"/> they can choose to fork the collection to their workspace, view the collection in the public workspace, or import the collection into Postman. Then, they can begin interacting with your API.
-
-The **Run in Postman** button allows the consumers to fork your collection, which creates a copy of the collection while maintaining a link to the parent.
+When a user comes across the **Run in Postman** button <img alt="Run in Postman button" src="https://assets.postman.com/postman-docs/run-in-postman-button-icon.jpg#icon" width="100px"/> they can choose to fork the collection to their workspace, view the collection in the public workspace, or import the collection into Postman. Then, they can begin interacting with your API. The **Run in Postman** button allows the consumers to fork your collection, which creates a copy of the collection while maintaining a link to the parent.
 
 <img alt="Fork collection for run in postman" src="https://assets.postman.com/postman-docs/fork-collection-for-run-in-postman.jpg" height="350px"/>
 
