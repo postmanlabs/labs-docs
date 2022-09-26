@@ -1,6 +1,6 @@
 ---
 title: "Understanding example matching"
-updated: 2022-05-19
+updated: 2022-09-26
 search_keyword: "x-mock-response-name, x-mock-response-id, x-mock-response-code, requestMethod, mockPath"
 contextual_links:
   - type: section
@@ -16,7 +16,7 @@ contextual_links:
     url: "/docs/sending-requests/intro-to-collections/"
 ---
 
-Using Postman's [mock servers](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/) requires a collection with requests and saved request examples. You can save as many examples to a collection as you want, and the mock server will return these examples predictably. Postman uses a matching algorithm to determine which examples to return.
+Using Postman's [mock servers](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/) requires a collection with requests and saved request examples. You can save as many examples to a collection as you want, and the mock server will return these examples predictably. Postman uses a matching algorithm to decide which examples to return.
 
 ## Contents
 
@@ -26,7 +26,7 @@ Using Postman's [mock servers](/docs/designing-and-developing-your-api/mocking-d
 
 ## Mock server elements
 
-When you create a mock server using Postman or the Postman API, a call is made to the Postman servers that associates a particular collection (and environment if you choose one) with the newly created mock server. In the example below, the collection `C1` was mocked and is now associated with the new mock server `M1`.
+When you create a mock server, Postman associates a particular collection (and optionally an environment) with the new mock server. In the example below, the collection `C1` is associated with the new mock server `M1`.
 
 [![create mock diagram](https://assets.postman.com/postman-docs/create-mock-v9.jpg)](https://assets.postman.com/postman-docs/create-mock-v9.jpg)
 
@@ -67,7 +67,7 @@ Here's an example of how the algorithm filters by URL:
 * Use lowercase for the input path and the example path. The threshold is reduced by a greater value, `n + m`.
 * Strip out alphanumeric IDs from the input path and the example path. The threshold is reduced further, `n + 2m`.
 * If all steps fail, this saved example isn't an eligible response.
-* Parameters (such as `{{url}}/path?status=pass`) are also considered when matching the URLs and can be used to determine which example to surface.
+* Parameters (such as `{{url}}/path?status=pass`) are also considered when matching the URLs and can be used to decide which example to surface.
 
 ### 4. Wildcards
 
@@ -82,7 +82,7 @@ For example, you can mock an endpoint that returns a user profile by ID. The end
 }
 ```
 
-To match a request like this in your mock server, you can use a variable in the request URL of your example. You don't need to hard-code values in the example. Instead, you can match any request sent to your mock server that matches the pattern `GET /users/<userId>`. To do this, you just need to replace the dynamic segments.
+To match a request like this in your mock server, you can use a variable in the request URL of your example. You don't need to hard-code values in the example. Instead, you can match any request sent to your mock server that matches the pattern `GET /users/<userId>`. To do this, replace the dynamic segments.
 
 Wildcard matching applies to entire URL path segments. The same example, `GET {{url}}/users/{{userId}}`, can serve `GET /users/1`, `GET /users/100`, or even `GET /users/carol`. But this example won't match `GET /users/another/segment`.
 
@@ -111,6 +111,6 @@ Sort the remaining filtered responses in descending order and return the respons
 
 If the mock server isn't returning the example you expect for a request, try the following:
 
-* **Add different path variables to your examples.** Two examples with the same path variables will be assigned the same threshold value. In this case, Postman will return one of the examples. To ensure more than one example isn't assigned the same threshold value, use different path variables for each of your examples.
-* **Use optional headers to return a specific example.** You can ensure the mock server returns a specific example by using the the `x-mock-response-name` or `x-mock-response-id` header in your request. Postman will return the example with the matching name or UID.
+* **Add different path variables to your examples.** Two examples with the same path variables will be assigned the same threshold value. In this case, Postman will return one of the examples. To make sure more than one example isn't assigned the same threshold value, use different path variables for each of your examples.
+* **Use optional headers to return a specific example.** You can make sure the mock server returns a specific example by using the `x-mock-response-name` or `x-mock-response-id` header in your request. Postman will return the example with the matching name or UID.
 * **Filter out examples by response code.** You can use the `x-mock-response-code` header in your request to specify the response code you want. Any examples that don't have the matching response code are removed from the matching process.
