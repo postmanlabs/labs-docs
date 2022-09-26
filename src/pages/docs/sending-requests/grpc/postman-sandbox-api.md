@@ -12,6 +12,18 @@ contextual_links:
   - type: link
     name: "Using variables"
     url: "https://learning.postman.com/docs/sending-requests/variables/"
+  - type: section
+    name: "Additional resources"
+  - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Test gRPC APIs | Postman Level Up"
+    url: "https://youtu.be/35OzMtDBvUw"
+  - type: subtitle
+    name: "Blog Posts"
+  - type: link
+    name: "Testing gRPC APIs with Postman"
+    url: "https://blog.postman.com/testing-grpc-apis-with-postman/"
 ---
 
 Postman provides JavaScript APIs with the `pm` object that you can use in your gRPC request scripts, executed in [Postman Sandbox](https://github.com/postmanlabs/postman-sandbox).

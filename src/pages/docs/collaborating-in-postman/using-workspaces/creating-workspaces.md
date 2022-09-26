@@ -19,8 +19,8 @@ contextual_links:
   - type: subtitle
     name: "Blog Posts"
   - type: link
-    name: "How to Set Up Your First Public Workspace in 5 Easy Steps"
-    url: "https://blog.postman.com/how-to-set-up-public-workspaces/"
+    name: "Solving Problems Together with Postman Workspaces"
+    url: "https://blog.postman.com/solving-problems-together-with-postman-workspaces/"
   - type: subtitle
     name: "Case Studies"
   - type: link
