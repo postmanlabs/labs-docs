@@ -74,7 +74,7 @@ Make sure you're signed in to your Postman account, and that you have a collecti
 
 1. Embed the code where you would like the button to display.
 
-    ![Run in postman](https://assets.postman.com/postman-docs/v10/run-in-postman-button-v10.gif)
+    ![Run in postman](https://assets.postman.com/postman-docs/v10/run-in-postman-button-v10-b.gif)
 
 ### Sample Markdown snippet
 
