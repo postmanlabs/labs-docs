@@ -18,6 +18,12 @@ contextual_links:
 
 Using Postman's [mock servers](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/) requires a collection with requests and saved request examples. You can save as many examples to a collection as you want, and the mock server will return these examples predictably. Postman uses a matching algorithm to determine which examples to return.
 
+## Contents
+
+* [Mock server elements](#mock-server-elements)
+* [How the matching algorithm works](#how-the-matching-algorithm-works)
+* [Troubleshooting mock server responses](#troubleshooting-mock-server-responses)
+
 ## Mock server elements
 
 When you create a mock server using Postman or the Postman API, a call is made to the Postman servers that associates a particular collection (and environment if you choose one) with the newly created mock server. In the example below, the collection `C1` was mocked and is now associated with the new mock server `M1`.
@@ -99,4 +105,12 @@ If the `x-mock-response-code` header is provided, the algorithm filters out all 
 
 ### 6. Highest threshold value
 
-Sort the remaining filtered responses in descending order and return the response with the highest threshold value. This is how the mock service finds and returns the most appropriate response to a mock request.
+Sort the remaining filtered responses in descending order and return the response with the highest threshold value. If more than one example has the same threshold value, Postman returns one of the examples.
+
+## Troubleshooting mock server responses
+
+If the mock server isn't returning the example you expect for a request, try the following:
+
+* **Add different path variables to your examples.** Two examples with the same path variables will be assigned the same threshold value. In this case, Postman will return one of the examples. To ensure more than one example isn't assigned the same threshold value, use different path variables for each of your examples.
+* **Use optional headers to return a specific example.** You can ensure the mock server returns a specific example by using the the `x-mock-response-name` or `x-mock-response-id` header in your request. Postman will return the example with the matching name or UID.
+* **Filter out examples by response code.** You can use the `x-mock-response-code` header in your request to specify the response code you want. Any examples that don't have the matching response code are removed from the matching process.
