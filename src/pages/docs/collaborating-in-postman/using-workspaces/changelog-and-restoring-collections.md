@@ -91,15 +91,15 @@ You can review your team's activity with a Postman Basic, Professional, or Enter
 
 ## Hiding diffs in the changelog
 
-If you have an [Editor role](/docs/collaborating-in-postman/roles-and-permissions/#collection-roles) for a collection, you can hide specific actions in its [changelog](#viewing-the-collection-changelog). When you hide a diff, users who don’t have Editor permissions on the collection won’t be able to view that entry in the changelog. This enables you to protect sensitive data in a public collection.
+If you have an [Editor role](/docs/collaborating-in-postman/roles-and-permissions/#collection-roles) for a collection, you can hide specific actions in its [changelog](#viewing-the-collection-changelog). When you hide a changelog entry's diff, users who don’t have Editor permissions on the collection can't view that diff in the changelog. This enables you to protect sensitive data in a public collection.
 
-Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> then select **Hide diff for this change**.
+Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> for the changelog entry, then select **Hide diff for this change**.
 
 <img alt="Hide a diff in the changelog" src="https://assets.postman.com/postman-docs/v10/changelog-hide-diff-v10.jpg" width="425px"/>
 
-To restore the diff to the changelog, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> then select  **Show diff to all users**. Once you restore the diff, all users will be able to view it in the changelog.
+To unhide the diff, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> for the changelog entry, then select  **Show diff to all users**. Once you unhide the diff, all users will be able to view it in the changelog.
 
-<img alt="Restore a diff to the changelog" src="https://assets.postman.com/postman-docs/v10/changelog-unhide-diff-v10.jpg" width="425px"/>
+<img alt="Unhide a diff in the changelog" src="https://assets.postman.com/postman-docs/v10/changelog-unhide-diff-v10.jpg" width="425px"/>
 
 ## Restoring collections
 
