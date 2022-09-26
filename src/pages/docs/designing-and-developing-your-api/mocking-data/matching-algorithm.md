@@ -44,7 +44,7 @@ To match an incoming request with the closest matching example, Postman uses the
 
 ### 1. Expected response format
 
-Any responses that aren't in the expected format are removed from the matching process.
+The mock service fetches the examples and converts them into Postman response objects using the [Postman Collection SDK](/docs/developer/collection-sdk/). If the conversion process fails for an example, resulting in a response that isn't in the expected format, the example is removed from the matching process.
 
 ### 2. HTTP method
 
