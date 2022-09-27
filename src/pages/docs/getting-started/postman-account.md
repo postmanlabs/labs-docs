@@ -36,7 +36,15 @@ Signing up for a Postman account is optional, and you can use the Postman deskto
 
 * [Signing up for a Postman account](#signing-up-for-a-postman-account)
 * [Signing into Postman](#signing-into-postman)
-* [Updating your account and profile settings](#updating-your-account-and-profile-settings)
+* [Updating your account settings](#updating-your-account-settings)
+    * [Changing your email address](#changing-your-email-address)
+    * [Resetting your password](#resetting-your-password)
+    * [Deleting your account](#deleting-your-account)
+* [Updating your profile settings](#updating-your-profile-settings)
+    * [Updating your username](#updating-your-username)
+    * [Updating your About Me section](#updating-your-about-me-section)
+    * [Pinning elements to your profile](#pinning-elements-to-your-profile)
+    * [Making your profile public](#making-your-profile-public)
 * [Updating your notification preferences](#updating-your-notification-preferences)
 * [Managing your active sessions](#managing-your-active-sessions)
 * [Upgrading your account](#upgrading-your-account)
@@ -56,7 +64,7 @@ When you sign up for a Postman account, you'll be prompted to provide some infor
 
 Your new Postman profile will be visible to collaborators and anyone viewing resources you share or publish.
 
-> You can [update your account and profile settings](#updating-your-account-and-profile-settings) at any time.
+> You can update your [account settings](#updating-your-account-settings) and [profile settings](#updating-your-profile-settings) at any time.
 
 ### Creating or joining a team
 
@@ -89,21 +97,17 @@ If you're a member of multiple Postman teams with varying authentication methods
 
 You can sign in to multiple accounts at the same time in Postman. Select your avatar in the top right to switch between accounts or select __+ Add Account__ to sign in with another one.
 
-## Updating your account and profile settings
-
-You can manage your account and profile settings on your [account settings](https://go.postman.co/settings/me/) page. Account settings include your email address and password, and profile settings include your username, bio, and profile photo.
-
-### Updating your account settings
+## Updating your account settings
 
 You can manage account settings including your email address, password, and workspace data on your [account settings](https://go.postman.co/settings/me/account/) page.
 
-#### Changing your email address
+### Changing your email address
 
 If you're on a Professional, Basic, or Free plan, you can change the email address associated with your Postman account. Open your [account settings](https://go.postman.co/settings/me/account/) page. Select your avatar in the upper-right corner > **Settings** > **Account**. Edit your email address and select **Update Email** to save changes.
 
 If you're on an Enterprise plan, you must contact your Team Admins to update the email address associated with your Postman account.
 
-#### Resetting your password
+### Resetting your password
 
 If you're on a Professional, Basic, or Free plan, you can reset your password if you're already signed in by navigating to your [account settings](https://go.postman.co/settings/me/account/) page. Select your avatar in the upper-right corner > **Settings** > **Account**. Select **Edit Password**.
 
@@ -113,7 +117,7 @@ If you aren't signed in to your Postman account, you can recover your username o
 
 If you're on an Enterprise plan, you must contact your Team Admins to update the password associated with your Postman account.
 
-#### Deleting your account
+### Deleting your account
 
 Deleting your account is an irreversible operation. Any data synced to your account will be deleted and no longer be accessible.
 
@@ -123,15 +127,25 @@ If you're a member of an Enterprise team with [SCIM](/docs/administration/scim-p
 
 Once you're no longer a member of any Postman team, you can permanently delete your Postman account in your [account settings](https://go.postman.co/settings/me/account/). Select your avatar in the upper-right corner > **Settings** > **Account**. Select **Delete Account**. Before deleting your account, Postman will prompt you to sign in again to confirm that you own the account.
 
-### Updating your profile
+## Updating your profile
 
 You can update your Postman profile and add more details about you on your [profile settings](https://go.postman.co/settings/me/) page.
 
-#### Updating your username
+Your profile includes an About Me section, an activity feed, pinned elements, the lists elements you have forked and are watching, and a list of the workspaces, collections, and APIs you have contributed in Postman.
+
+<!-- TODO: screenshot -->
+
+### Updating your username
 
 You can update your username at any time by navigating to your [profile settings](https://go.postman.co/settings/me/). Select your avatar in the upper-right corner > **Settings**. Edit your username and select **Update Profile** to save changes.
 
-#### Making your profile public
+### Updating your About Me section
+
+supports markdown. add information about you, your work, interests, and contributions - anything you want people looking at your profile to know!
+
+### Pinning elements to your profile
+
+### Making your profile public
 
 Your Postman profile is visible to your Postman team, and you can choose to make your profile public to the Postman community. You can turn your public profile on or off at any time in your [profile settings](https://go.postman.co/settings/me/). Select your avatar in the upper-right corner > **Settings** > **Profile**. Select **Make profile public**, then select **Update Profile** to save your changes.
 
