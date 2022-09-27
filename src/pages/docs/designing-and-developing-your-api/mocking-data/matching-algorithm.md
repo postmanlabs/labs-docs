@@ -26,7 +26,7 @@ Using Postman's [mock servers](/docs/designing-and-developing-your-api/mocking-d
 
 ## Mock server elements
 
-When you create a mock server, Postman associates a particular collection (and optionally an environment) with the new mock server. In the example below, the collection `C1` is associated with the new mock server `M1`.
+When you create a mock server, Postman associates a particular collection (and optionally an environment) with the new mock server. In the scenario below, the collection `C1` is associated with the new mock server `M1`.
 
 [![create mock diagram](https://assets.postman.com/postman-docs/create-mock-v9.jpg)](https://assets.postman.com/postman-docs/create-mock-v9.jpg)
 
