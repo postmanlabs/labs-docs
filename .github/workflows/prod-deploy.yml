@@ -34,10 +34,10 @@ jobs:
         RELIC_PRODUCTION_APPLICATION_ID: ${{ secrets.RELIC_PRODUCTION_APPLICATION_ID }}
         PM_TECH: ${{secrets.PM_TECH}}
         SITE_URL: ${{secrets.SITE_URL_PROD}}
+        WORKER: ${{secrets.WORKER}}
 
       run: |
         npm config set //registry.npmjs.org/:_authToken=${{secrets.NPM_TOKEN}}
         npm install
         npm run clean
         npm run build:prod && node_modules/s3-deploy/bin/s3-deploy './public/**' --cwd './public/' --bucket postman-learning-center-prod --deleteRemoved --distId $DIST_ID --invalidate '/*'
-
