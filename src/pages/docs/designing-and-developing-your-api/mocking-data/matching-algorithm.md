@@ -105,7 +105,9 @@ If the `x-mock-response-code` header is provided, the algorithm filters out all 
 
 ### 6. Highest threshold value
 
-Sort the remaining filtered responses in descending order and return the response with the highest threshold value. If more than one example has the same threshold value, Postman returns one of the examples.
+Sort the remaining filtered responses by ID in descending order and return the response with the highest threshold value.
+
+> If more than one example has the same threshold value, Postman returns the example that comes first in the sorted list.
 
 ## Troubleshooting mock server responses
 
