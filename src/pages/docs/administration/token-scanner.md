@@ -61,6 +61,7 @@ The Token Scanner will scan a variety of tokens by default. You can also add you
 By default, the Token Scanner scans tokens issued by the following service providers:
 
 * Airtable API Key
+* Akamai API Key
 * Amazon MWS Token
 * Basic Auth
 * Bearer Token
@@ -73,6 +74,7 @@ By default, the Token Scanner scans tokens issued by the following service provi
 * Google API Key
 * Google OAuth Token
 * Microsoft Outlook Team Webhook URL
+* New Relic User Key
 * OpenSSH Private Key
 * PGP Private Key
 * Postman API Key
@@ -88,6 +90,9 @@ By default, the Token Scanner scans tokens issued by the following service provi
 * Stripe Secret Key
 * Telegram Bot Access Token
 * Twilio API Key
+* Twitter Bearer Token
+* Typeform API Key
+* Zapier Webhook URL
 
 ### Custom alerts
 
