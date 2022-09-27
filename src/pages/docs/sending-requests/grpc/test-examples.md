@@ -7,6 +7,18 @@ contextual_links:
   - type: link
     name: "Scripting in gRPC requests"
     url: "/docs/sending-requests/grpc/scripting-in-grpc-request/"
+  - type: section
+    name: "Additional resources"
+  - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Test gRPC APIs | Postman Level Up"
+    url: "https://youtu.be/35OzMtDBvUw"
+  - type: subtitle
+    name: "Blog Posts"
+  - type: link
+    name: "Testing gRPC APIs with Postman"
+    url: "https://blog.postman.com/testing-grpc-apis-with-postman/"
 ---
 
 You can write tests for your gRPC request using [scripts](/docs/sending-requests/grpc/scripting-in-grpc-request/). Depending on the logic and how you want to get the results, there are various ways in which the test assertions can be structured. This section will cover some of the most common ways to write assertions, along with an extensive list of examples explaining how to use [pm.* APIs](/docs/sending-requests/grpc/postman-sandbox-api/) to write tests.
