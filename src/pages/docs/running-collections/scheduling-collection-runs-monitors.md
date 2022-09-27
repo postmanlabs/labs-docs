@@ -1,8 +1,8 @@
 ---
-title: "Scheduling collection runs"
+title: "Scheduling collection runs with monitors"
 order: 56.1
 updated: 2021-02-16
-page_id: "scheduling_collection_runs"
+page_id: "scheduling_collection_runs_with_monitors"
 contextual_links:
   - type: section
     name: "Prerequisites"

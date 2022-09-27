@@ -281,8 +281,12 @@ export const leftNavItems = [
         url: '/docs/running-collections/intro-to-collection-runs/',
       },
       {
-        name: 'Scheduling runs with monitors',
+        name: 'Scheduling collection runs',
         url: '/docs/running-collections/scheduling-collection-runs/',
+      },
+      {
+        name: 'Scheduling collection runs with monitors',
+        url: '/docs/running-collections/scheduling-collection-runs-monitors/',
       },
       {
         name: 'Triggering runs with webhooks',
