@@ -12,7 +12,7 @@ contextual_links:
   - type: section
     name: "Next Steps"
   - type: link
-    name: "Creating your Postman profile"
+    name: "Customizing your Postman profile"
     url: "/docs/getting-started/postman-profile/"
 
 warning: false
@@ -50,7 +50,7 @@ Postman prompts you to sign in or sign up. Select __Create Account__. You can si
 
 When you sign up for a Postman account, you'll be prompted to provide some information about yourself, including your name and role, to help customize your Postman experience. Enter your details and select __Continue__.
 
-Your new Postman profile will be visible to collaborators and anyone viewing resources you share or publish. To learn more about your Postman profile and how to customize it, see [Creating your Postman profile](/docs/getting-started/postman-profile/).
+Your new Postman profile will be visible to collaborators and anyone viewing resources you share or publish. To learn more about your Postman profile and how to customize it, see [Customizing your Postman profile](/docs/getting-started/postman-profile/).
 
 ### Creating or joining a team
 

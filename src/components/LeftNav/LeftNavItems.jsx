@@ -55,7 +55,7 @@ export const leftNavItems = [
         url: '/docs/getting-started/postman-account/',
       },
       {
-        name: 'Creating your Postman profile',
+        name: 'Customizing your Postman profile',
         url: '/docs/getting-started/postman-profile/',
       },
       {
