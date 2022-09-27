@@ -12,7 +12,13 @@ contextual_links:
   - type: link
     name: "Defining roles"
     url: "/docs/collaborating-in-postman/roles-and-permissions/"
-
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Requesting Edit Access | Postman Level Up"
+    url: "https://youtu.be/H-93OfONSsg"
 warning: false
 
 ---

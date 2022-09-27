@@ -7,6 +7,13 @@ contextual_links:
   - type: link
     name: "Navigating Postman"
     url: "https://learning.postman.com/docs/getting-started/navigating-postman/"
+  - type: section
+    name: "Additional resources"
+  - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "gRPC Requests | Postman Level Up"
+    url: "https://youtu.be/gfYGqMb81GQ"
 ---
 
 gRPC requests in Postman include a variety of tools, views, and controls to help you use and test your gRPC services effectively and efficiently. This topic highlights the parts of the request interface and how to use it.
