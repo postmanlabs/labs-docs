@@ -1,8 +1,6 @@
 ---
 title: "Publishing your docs"
-order: 103
-page_id: "publishing_your_docs"
-updated: 2022-08-02
+updated: 2022-09-27
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -29,8 +27,6 @@ contextual_links:
   - type: link
     name: "Imgur"
     url: "https://www.postman.com/resources/case-studies/imgur/"
-
-warning: false
 ---
 
 Publishing your documentation makes it publicly available to anyone with the link to the documentation and a web browser. Publish your documentation to help people around the world learn how to use your collection or interact with your Public API.
@@ -50,6 +46,8 @@ Public documentation automatically includes details for each request or endpoint
 ## Making your documentation public
 
 To publish [documentation](/docs/publishing-your-api/documenting-your-api/), it must be part of a collection. You can publish documentation for any collections that you created or have permission to edit.
+
+> You can't publish a collection that has been added to an API. Instead, you can [publish a version of the API](/docs/designing-and-developing-your-api/versioning-an-api/api-versions/). A published version includes the API's definition and collections.
 
 To publish the documentation for a collection:
 
