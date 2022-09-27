@@ -56,7 +56,7 @@ To create a new branch in the remote repository:
 1. Select **APIs** in the sidebar and select an API.
 1. Select the Git branch dropdown menu in the Postman footer.
 1. Enter the name of the new branch in the **Search** box.
-1. Select **Create branch from current branch**.
+1. Select **Create branch from current branch**. Postman creates the new branch based on the current active branch.
 
 ## Pushing and pulling changes
 
@@ -128,4 +128,4 @@ After the PR is merged, make sure to [switch to the branch](#switching-branches)
 
 Any branches and changes you push to your remote repository are visible to other API producers on your team. You can also [create a pull request](#creating-a-pull-request) to ask others on your team to review your changes.
 
-To make your changes available to your API's consumers, publish a new version of your API. When you publish a version, the API's definition and collections are synced to your workspace in the Postman cloud. Learn more about [publishing an API version](/docs/designing-and-developing-your-api/versioning-an-api/api-versions/).
+To make your changes available to your API's consumers, publish a new version of your API. When you publish a version, the API's definition and collections are synced to your workspace in the Postman cloud. Consumers can view the version in your workspace. You can also choose to add the version to your Private API Network. Learn more about [publishing an API version](/docs/designing-and-developing-your-api/versioning-an-api/api-versions/).

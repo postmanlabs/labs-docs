@@ -28,13 +28,14 @@ contextual_links:
 
 Your API in Postman can include more than an API definition. You can add elements such as collections to help you document and test your API.
 
-To add an element, it must be in the same workspace as your API. The element will inherit the [roles and permissions](/docs/collaborating-in-postman/roles-and-permissions/) of the API you are adding it to.
+<!-- To add an element, it must be in the same workspace as your API. The element will inherit the [roles and permissions](/docs/collaborating-in-postman/roles-and-permissions/) of the API you are adding it to. -->
 
 > When you add a collection, an independent copy of the collection is added to the API. The copy in the API will no longer be in sync with the original. If you move or delete an API, any collections contained in the API are moved or deleted with it.
 
 ## Contents
 
 * [Adding a collection](#adding-a-collection)
+* [Forking a collection](#forking-a-collection)
 * [Deleting elements from an API](#deleting-elements-from-an-api)
 
 ## Adding a collection
@@ -85,6 +86,18 @@ To add an environment to your API:
 1. Select the **API** you want to add the environment to, then select **Add environment**.
 
 This makes a copy of the environment in your API, which is not synced with the original. The environment displays under your API in the sidebar. Select the environment to view or add variables. Learn more about [managing environments](/docs/sending-requests/managing-environments/). -->
+
+## Forking a collection
+
+Collections added to an API can't be used with monitors, mock servers, or CI integrations. To use a collection in an API with these features, you must fork the collection.
+
+To fork a collection from an API:
+
+1. Select **APIs** in the sidebar and select an API.
+1. Select the collection in the sidebar.
+1. Select the fork icon <img alt="Fork icon" src="https://assets.postman.com/postman-docs/icon-fork.jpg#icon" width="14px"> at the upper right.
+
+> Learn more about [forking elements](https://learning.postman.com/docs/collaborating-in-postman/version-control/#forking-postman-entities) in Postman.
 
 ## Deleting elements from an API
 

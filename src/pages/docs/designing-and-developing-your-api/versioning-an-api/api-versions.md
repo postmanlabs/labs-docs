@@ -16,9 +16,9 @@ contextual_links:
     url: "/docs/designing-and-developing-your-api/managing-apis/"
 ---
 
-When you're ready to share the latest changes to your API with consumers, you can publish a _version_. Publishing a version creates a static representation of your API that consumers can view on the [Private API Network](/docs/collaborating-in-postman/adding-private-network/). You can select the elements to publish with your API, such as the definition and collections, to help consumers test and evaluate your API.
+When you're ready to share the latest changes to your API with consumers, you can publish a _version_. Publishing a version creates a static representation of your API's current state. Consumers can view the API version in your workspace. You can also choose to add the version to your [Private API Network](/docs/collaborating-in-postman/adding-private-network/).
 
-After you publish a version, you can keep working on your API and make more changes. Your consumers will continue to see the published version of your API until you publish a new version.
+You can select the elements to publish with your API, such as the definition and collections, to help consumers test and evaluate your API. After you publish a version, you can keep working on your API and make more changes. Your consumers will continue to see the published version of your API until you publish a new version.
 
 > **How are versions and releases different in Postman v10?** In Postman v9, versions were major iterations of your API you could work on at the same time. In Postman v10, published versions are static representations of your API that consumers can reference (like releases in Postman v9). If you need to work on more than one major iteration of your API in Postman v10, create separate APIs.
 
@@ -32,7 +32,7 @@ After you publish a version, you can keep working on your API and make more chan
 
 Publish an API version to share the current state of your API with consumers. You can select the elements (definition and collections) to include with your published API.
 
-> If your API is connected to a Git repository, publishing a version syncs the selected elements (definition and collections) to your workspace in the Postman cloud. You can then use the published elements in monitors, mock servers, and CI integrations.
+> If your API is connected to a Git repository, publishing a version syncs the selected elements (definition and collections) to your workspace in the Postman cloud.
 
 To publish an API version:
 
@@ -57,6 +57,19 @@ You can edit and delete an API version using the more actions icon <img alt="Mor
 
 ## Viewing a published API version
 
-Consumers can view the latest version of your API on the Private API Network. They can also view other published versions. When viewing an API, consumers can view any elements published with the API, including the API's definition and collections.
+Consumers can view the latest published version of your API in your workspace. If you added the version to the Private API Network, consumers can also view the version there. Consumers can view any elements published with the API, including the API's definition and collections.
 
-To view a published version of an API, select **API Network** in the Postman header, then select **Private API Network**. You can search or browse for an API. Select an API to view the available versions. Learn more about viewing APIs on the [Private API Network](/docs/collaborating-in-postman/adding-private-network/).
+To view an API version in a workspace:
+
+1. Select **APIs** in the sidebar and select an API.
+1. Under **Published Versions**, select a version.
+1. To view another version, select it in the version dropdown list next to the API's name.
+
+> To return to the API Builder, select the version dropdown list next to the API's name, then select **Switch to editor** or **Switch to branch**.
+
+To view an API version on the Private API Network:
+
+1. Select **API Network** in the Postman header, then select **Private API Network**.
+1. Search or browse for an API, then select an API to view the available versions.
+
+> Learn more about viewing APIs on the [Private API Network](/docs/collaborating-in-postman/adding-private-network/).
