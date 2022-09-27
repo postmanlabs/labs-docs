@@ -10,17 +10,10 @@ contextual_links:
     name: "Download and Install"
     url: "https://www.postman.com/downloads/"
   - type: section
-    name: "Additional Resources"
-  - type: subtitle
-    name: "Videos"
-  - type: link
-    name: "Public Profiles | Postman Level Up"
-    url:  "https://youtu.be/w-EgqQ8Anvw"
-  - type: section
     name: "Next Steps"
   - type: link
-    name: "Syncing your work"
-    url: "/docs/getting-started/syncing/"
+    name: "Creating your Postman profile"
+    url: "/docs/getting-started/postman-profile/"
 
 warning: false
 
@@ -40,11 +33,6 @@ Signing up for a Postman account is optional, and you can use the Postman deskto
     * [Changing your email address](#changing-your-email-address)
     * [Resetting your password](#resetting-your-password)
     * [Deleting your account](#deleting-your-account)
-* [Updating your profile settings](#updating-your-profile-settings)
-    * [Updating your username](#updating-your-username)
-    * [Updating your About Me section](#updating-your-about-me-section)
-    * [Pinning elements to your profile](#pinning-elements-to-your-profile)
-    * [Making your profile public](#making-your-profile-public)
 * [Updating your notification preferences](#updating-your-notification-preferences)
 * [Managing your active sessions](#managing-your-active-sessions)
 * [Upgrading your account](#upgrading-your-account)
@@ -62,9 +50,7 @@ Postman prompts you to sign in or sign up. Select __Create Account__. You can si
 
 When you sign up for a Postman account, you'll be prompted to provide some information about yourself, including your name and role, to help customize your Postman experience. Enter your details and select __Continue__.
 
-Your new Postman profile will be visible to collaborators and anyone viewing resources you share or publish.
-
-> You can update your [account settings](#updating-your-account-settings) and [profile settings](#updating-your-profile-settings) at any time.
+Your new Postman profile will be visible to collaborators and anyone viewing resources you share or publish. To learn more about your Postman profile and how to customize it, see [Creating your Postman profile](/docs/getting-started/postman-profile/).
 
 ### Creating or joining a team
 
@@ -126,28 +112,6 @@ You must leave all Postman teams that you're a member of prior to deleting your 
 If you're a member of an Enterprise team with [SCIM](/docs/administration/scim-provisioning/scim-provisioning-overview/) enabled, you must contact a Team Admin to remove your Postman account from that team.
 
 Once you're no longer a member of any Postman team, you can permanently delete your Postman account in your [account settings](https://go.postman.co/settings/me/account/). Select your avatar in the upper-right corner > **Settings** > **Account**. Select **Delete Account**. Before deleting your account, Postman will prompt you to sign in again to confirm that you own the account.
-
-## Updating your profile
-
-You can update your Postman profile and add more details about you on your [profile settings](https://go.postman.co/settings/me/) page.
-
-Your profile includes an About Me section, an activity feed, pinned elements, the lists elements you have forked and are watching, and a list of the workspaces, collections, and APIs you have contributed in Postman.
-
-<!-- TODO: screenshot -->
-
-### Updating your username
-
-You can update your username at any time by navigating to your [profile settings](https://go.postman.co/settings/me/). Select your avatar in the upper-right corner > **Settings**. Edit your username and select **Update Profile** to save changes.
-
-### Updating your About Me section
-
-supports markdown. add information about you, your work, interests, and contributions - anything you want people looking at your profile to know!
-
-### Pinning elements to your profile
-
-### Making your profile public
-
-Your Postman profile is visible to your Postman team, and you can choose to make your profile public to the Postman community. You can turn your public profile on or off at any time in your [profile settings](https://go.postman.co/settings/me/). Select your avatar in the upper-right corner > **Settings** > **Profile**. Select **Make profile public**, then select **Update Profile** to save your changes.
 
 ## Updating your notification preferences
 
