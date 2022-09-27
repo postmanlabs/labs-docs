@@ -23,6 +23,11 @@ contextual_links:
   - type: link
     name: "Dynamic Mock Behavior | Postman Level Up"
     url: "https://youtu.be/av7SZo9sZAE"
+  - type: subtitle
+    name: "Blog Posts"
+  - type: link
+    name: "Shifting Left with Postman"
+    url: "https://blog.postman.com/shifting-left-with-postman/"
   - type: section
     name: "Next Steps"
   - type: link

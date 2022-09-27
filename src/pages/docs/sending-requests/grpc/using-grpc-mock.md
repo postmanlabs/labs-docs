@@ -7,6 +7,18 @@ contextual_links:
   - type: link
     name: "Invoke your first gRPC request"
     url: "/docs/sending-requests/grpc/first-grpc-request/"
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Automatic Mock Servers for gRPC | Postman Level Up"
+    url: "https://youtu.be/Y-PMb8nECgI"
+  - type: subtitle
+    name: "Blog Posts"
+  - type: link
+    name: "Postman Now Has Mocking Magic for gRPC"
+    url: "https://blog.postman.com/postman-mocking-magic-for-grpcs/"
 ---
 
 In an API-first design lifecycle, you may be designing a new feature that depends on new API endpoints, but another team is responsible for implementing those endpoints, and aren't finished yet. Instead of being blocked by this, you can use a mock server, which will return sample data for requests to the API's endpoints, simulating the behavior of a real API. You can then use the mock server to test your API, before it's even implemented by the other team.

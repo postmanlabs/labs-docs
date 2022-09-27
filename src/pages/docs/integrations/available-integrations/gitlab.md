@@ -10,6 +10,13 @@ contextual_links:
   - type: link
     name: "Grouping requests in collections"
     url: "/docs/sending-requests/intro-to-collections/"
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Back up a Postman Collection Using GitLab"
+    url: "https://youtu.be/BL8DFOPncMc"
 ---
 
 > __[GitLab Self-Managed integrations are only available on Postman Enterprise plans.](https://www.postman.com/pricing)__
