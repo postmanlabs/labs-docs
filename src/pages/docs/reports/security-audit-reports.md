@@ -14,7 +14,7 @@ contextual_links:
     name: "Next Steps"
   - type: link
     name: "Validating APIs against schema"
-    url: "/docs/designing-and-developing-your-api/validating-elements-against-schema/"
+    url: "/docs/designing-and-developing-your-api/developing-an-api/validating-elements-against-schema/"
 ---
 
 > [__Reports are available on all Postman Enterprise plans.__](https://www.postman.com/pricing)

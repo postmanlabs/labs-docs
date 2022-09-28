@@ -2,7 +2,7 @@ import React from 'react';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 import styled from "styled-components";
-
+import { Divider } from 'aether-marketing';
 import algoliasearch from 'algoliasearch/lite';
 import { 
   InstantSearch,
@@ -15,12 +15,6 @@ import {
   Configure
 } from 'react-instantsearch-hooks-web';
 
-const HRStyles = styled.hr`
-  border: 0;
-  border-top: 1px solid #E6E6E6;
-  margin-top: 0;
-  margin-bottom: 0;
-`;
 
 /* URL manipulation
 **********************************************/ 
@@ -49,7 +43,7 @@ const SearchWrapper = styled.div`
     
   }
   .ais-SearchBox-input {
-    border: 1px solid #d9d9d9;
+    border: 1px solid ${(props) => props.theme.colors.grey_30};
     border-radius: 5px;
     text-align: left;
     width: 100%;
@@ -57,8 +51,8 @@ const SearchWrapper = styled.div`
     margin-bottom: 25px;
   }
   .ais-Highlight-highlighted {
-    background-color: #fff4be;
-    color: #212121;
+    background-color: ${(props) => props.theme.colors.yellow_20};
+    color: ${(props) => props.theme.colors.grey_90};
     padding: 0;
   }
   ol.ais-Hits-list {
@@ -75,16 +69,41 @@ const SearchWrapper = styled.div`
   }
 
   .ais-Snippet-highlighted {
-    background-color: #fff4be;
-    color: #212121;
+    background-color: ${(props) => props.theme.colors.yellow_20};
+    color: ${(props) => props.theme.colors.grey_90};
   }
 
   a {
-    color:#212121;
+    color:${(props) => props.theme.colors.grey_90};
   }
   a:hover {
-    color: #0053B8;
+    color: ${(props) => props.theme.colors.blue_70};
     text-decoration: none;
+  }
+  .ais-Pagination-list {
+    list-style: none;
+    display: flex;
+    flex-direction: row; 
+  
+    a {
+      padding: 8px 16px;
+      color: ${(props) => props.theme.colors.grey_50};
+  
+      &:hover {
+        color:  ${(props) => props.theme.colors.blue_70};
+        background-color:  ${(props) => props.theme.colors.grey_10};
+        border: none;
+      }
+    }
+    .ais-Pagination-item--firstPage {
+      display: none;
+    }
+    .ais-Pagination-link--selected {
+      color:  ${(props) => props.theme.colors.grey_90};
+    }
+    .ais-Pagination-item--previousPage > .ais-Pagination-link {
+      color: ${(props) => props.theme.colors.grey_50};
+    }
   }
 `
 const Breadcrumbs = styled.p`
@@ -134,7 +153,7 @@ function Hit({ hit }) {
           </p>
         </a>
       </HitStyle>
-      <HRStyles />
+      <Divider fullWidth/>
     </>
   );
 }

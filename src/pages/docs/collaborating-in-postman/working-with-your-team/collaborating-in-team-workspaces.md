@@ -17,6 +17,9 @@ contextual_links:
   - type: subtitle
     name: "Blog Posts"
   - type: link
+    name: "Solving Problems Together with Postman Workspaces"
+    url: "https://blog.postman.com/solving-problems-together-with-postman-workspaces/"
+  - type: link
     name: "Get More Out of Postman by Collaborating with Your Team"
     url: "https://blog.postman.com/get-more-out-of-postman-by-collaborating-with-your-team/"
 ---
@@ -69,7 +72,7 @@ Note that items related to what you're moving won't move with the element automa
 
 * **Collections** - Monitors will pause and stay in the current workspace.
 
-* **APIs** - Collections, documentation, monitors, mock servers, and environments of the API will stay in the current workspace.
+* **APIs** - The API's collections will move with the API to the new workspace.
 
 * **Environments** - Monitors, mock servers, and integrations using the environment may no longer work.
 

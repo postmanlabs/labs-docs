@@ -13,8 +13,6 @@ contextual_links:
 
 ---
 
-> **This feature is in beta.** During the beta period, it may not be available to all Postman users and is subject to potential change.
-
 These security warnings indicate that there are potential security risks that your API might be vulnerable to.
 
 * [Security misconfiguration](#security-misconfiguration)
