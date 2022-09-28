@@ -101,7 +101,7 @@ Next, set up the connection to Apigee X:
 
 ## Viewing Apigee X deployments
 
-After connecting to Apigee X, you can view the deployment status and history for your API schemas in Postman. Select **APIs** in the sidebar and select an API. Select **Deployments**.
+After connecting to Apigee X, you can view the deployment status and history for your API definitions in Postman. Select **APIs** in the sidebar and select an API. Select **Deployments**.
 
 * For your API proxy, you can view the latest revision, source, creation date, and date last updated.
 * For each proxy endpoint, you can view the name and base paths.

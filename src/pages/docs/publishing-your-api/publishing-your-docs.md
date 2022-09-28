@@ -1,8 +1,6 @@
 ---
 title: "Publishing your docs"
-order: 103
-page_id: "publishing_your_docs"
-updated: 2022-08-02
+updated: 2022-09-27
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -29,8 +27,6 @@ contextual_links:
   - type: link
     name: "Imgur"
     url: "https://www.postman.com/resources/case-studies/imgur/"
-
-warning: false
 ---
 
 Publishing your documentation makes it publicly available to anyone with the link to the documentation and a web browser. Publish your documentation to help people around the world learn how to use your collection or interact with your Public API.
@@ -51,6 +47,8 @@ Public documentation automatically includes details for each request or endpoint
 
 To publish [documentation](/docs/publishing-your-api/documenting-your-api/), it must be part of a collection. You can publish documentation for any collections that you created or have permission to edit.
 
+> You can't publish a collection that has been added to an API. Instead, you can [publish a version of the API](/docs/designing-and-developing-your-api/versioning-an-api/api-versions/). A published version includes the API's definition and collections.
+
 To publish the documentation for a collection:
 
 1. Select **Collections** in the sidebar.
@@ -61,7 +59,7 @@ To publish the documentation for a collection:
 
 1. Change any publication settings as needed:
 
-    * **Release tag** - Select one or more [release tags](/docs/publishing-your-api/documenting-your-api/#documenting-releases) to publish. Users can view documentation for each selected release.
+    * **Version** - If the collection has multiple versions, select the versions to publish. (You can no longer create versions or releases for collections in Postman v10, but you can [publish versions of an API](/docs/designing-and-developing-your-api/versioning-an-api/api-versions/).)
     * **Environment** - Select an [environment](/docs/publishing-your-api/documenting-your-api/#associating-environments-with-documentation) to publish environment variables with your documentation. *The initial values of all variables are published with your documentation, so make sure they don't contain sensitive information such as passwords or tokens.*
     * **Custom domain** - Select a [custom domain](/docs/publishing-your-api/custom-doc-domains/) where you want to publish your documentation.
     * **Default layout** - Select a layout style for your documentation. **Double column** displays sample code in a column next to the documentation. **Single column** displays sample code inline beneath each request.
@@ -101,7 +99,7 @@ If your collection is in a public workspace, others can search for and find your
 
 ## Changing publication settings
 
-Change the publication settings for your documentation to add a release, update your documentation's look, or make your collection public. You can change the publication settings at any time after publishing your documentation:
+Change the publication settings for your documentation to update your documentation's look or make your collection public. You can change the publication settings at any time after publishing your documentation:
 
 1. Select **Collections** in the sidebar.
 1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to a collection with published docs, and then select **View Documentation**.

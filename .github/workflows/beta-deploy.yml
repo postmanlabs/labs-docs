@@ -46,6 +46,7 @@ jobs:
           RELIC_PRODUCTION_APPLICATION_ID: ${{ secrets.RELIC_PRODUCTION_APPLICATION_ID }}
           PM_TECH: ${{secrets.PM_TECH}}
           SITE_URL: ${{secrets.SITE_URL_BETA}}
+          WORKER: ${{secrets.WORKER}}
         run: |
             npm config set //registry.npmjs.org/:_authToken=${{secrets.NPM_TOKEN}}
             npm install
@@ -61,7 +62,6 @@ jobs:
           DISTRIBUTION: ${{ secrets.BETA_DIST_ID }}
           AWS_ACCESS_KEY_ID: ${{ secrets.BETA_AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.BETA_AWS_SECRET_ACCESS_KEY }}
-
 
 
 

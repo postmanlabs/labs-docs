@@ -1,8 +1,7 @@
 ---
 title: "Grouping requests in collections"
-order: 23.1
-page_id: "intro_to_collections"
 updated: 2022-02-03
+search_keyword: "collections, new collection, create collection, creating collections, delete collection, rename collection, about collections"
 contextual_links:
   - type: section
     name: "Prerequisites"
