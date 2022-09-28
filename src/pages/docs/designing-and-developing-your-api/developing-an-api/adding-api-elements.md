@@ -26,16 +26,17 @@ contextual_links:
     url: "/docs/designing-and-developing-your-api/managing-apis/"
 ---
 
-Your API in Postman can include more than an API definition. You can add elements such as collections and environments to help you document and test your API.
+Your API in Postman can include more than an API definition. You can add elements such as collections to help you document and test your API.
 
-To add an element, it must be in the same workspace as your API. The element will inherit the [roles and permissions](/docs/collaborating-in-postman/roles-and-permissions/) of the API you are adding it to.
+<!-- To add an element, it must be in the same workspace as your API. The element will inherit the [roles and permissions](/docs/collaborating-in-postman/roles-and-permissions/) of the API you are adding it to. -->
 
-> When you add a collection or environment, an independent copy of it is added to the API. The copy in the API will no longer be in sync with the original. If you move or delete an API, any collections or environments contained within the API are moved or deleted with it.
+> When you add a collection, an independent copy of the collection is added to the API. The copy in the API will no longer be in sync with the original. If you move or delete an API, any collections contained in the API are moved or deleted with it.
 
 ## Contents
 
 * [Adding a collection](#adding-a-collection)
-* [Removing elements from an API](#removing-elements-from-an-api)
+* [Forking a collection](#forking-a-collection)
+* [Deleting elements from an API](#deleting-elements-from-an-api)
 
 ## Adding a collection
 
@@ -48,7 +49,7 @@ Add a collection to document your API or help others test your API's endpoints. 
 To add a new collection to your API:
 
 1. Select **APIs** in the sidebar and select an API.
-1. On the API's overview, below **Collections** select **+** and choose **Add new collection**.
+1. On the API's overview, next to **Collections**, select **+** and select **Add new collection**.
 1. Enter a new name for the collection.
 
 ### Adding an existing collection
@@ -56,8 +57,7 @@ To add a new collection to your API:
 To add an existing collection to your API:
 
 1. Select **APIs** in the sidebar and select an API.
-1. On the API's overview, below **Collections** select **+** and choose **Copy existing collection**.
-    > If there are no collections in the API, you can alternately select the **Add Collection**.
+1. On the API's overview, next to **Collections**, select **+** and select **Copy existing collection**.
 1. Select an available collection and select **Copy Collection**.
 
 The copy of the collection displays on your API's overview and under your API in the sidebar. To view documentation for the collection, expand the collection and select **View full documentation**.
@@ -67,7 +67,7 @@ The copy of the collection displays on your API's overview and under your API in
 To generate a new collection from your API definition:
 
 1. Select **APIs** in the sidebar and select an API.
-1. On the API's overview, below **Definition** select **+** and choose **Generate from API definition**.
+1. On the API's overview, next to **Collections**, select **+** and select **Generate from API definition**.
 1. Change any settings to customize the new collection.
 1. Select **Generate Collection**.
 
@@ -87,13 +87,23 @@ To add an environment to your API:
 
 This makes a copy of the environment in your API, which is not synced with the original. The environment displays under your API in the sidebar. Select the environment to view or add variables. Learn more about [managing environments](/docs/sending-requests/managing-environments/). -->
 
-## Removing elements from an API
+## Forking a collection
 
-You can delete a collection or environment from your API.
+Collections added to an API can't be used with monitors, mock servers, or CI integrations. To use a collection in an API with these features, you must fork the collection.
+
+To fork a collection from an API:
 
 1. Select **APIs** in the sidebar and select an API.
-1. In the sidebar, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to a collection or environment and select **Delete**.
+1. Select the collection in the sidebar.
+1. Select the fork icon <img alt="Fork icon" src="https://assets.postman.com/postman-docs/icon-fork.jpg#icon" width="14px"> at the upper right.
 
-The collection or environment is deleted from the API.
+> Learn more about [forking elements](https://learning.postman.com/docs/collaborating-in-postman/version-control/#forking-postman-entities) in Postman.
+
+## Deleting elements from an API
+
+You can delete a collection from your API.
+
+1. Select **APIs** in the sidebar and select an API.
+1. In the sidebar, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to a collection and select **Delete**.
 
 > You can also delete a collection by selecting the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> next to a collection on the API's overview.

@@ -72,7 +72,7 @@ Note that items related to what you're moving won't move with the element automa
 
 * **Collections** - Monitors will pause and stay in the current workspace.
 
-* **APIs** - Collections and environments linked to the API will automatically move with the API to the new workspace.
+* **APIs** - The API's collections will move with the API to the new workspace.
 
 * **Environments** - Monitors, mock servers, and integrations using the environment may no longer work.
 

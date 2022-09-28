@@ -158,7 +158,7 @@ The Postman element that you move to the public workspace will no longer exist i
 
 <!-- -->
 
-> Collections and environments linked to an API will automatically move with the API to the new workspace.
+> The API's collections will move with the API to the new workspace.
 
 ### Deleting elements from a public workspace
 
