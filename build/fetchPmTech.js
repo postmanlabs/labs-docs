@@ -18,16 +18,14 @@ async function compress(t) {
   return result;
 }
 
-const host = process.env.WORKER || '';
+const host = process.env.PM_TECH_RT || '';
 
 const fetchPmTech = () => new Promise((resolve) => {
   fetch(host, requestOptions).then((resp) => {
     if (resp) {
       resp.json().then((data) => {
-        const pmTech = JSON.parse(data.pmTech);
-        const tag = pmTech['postman-docs'];
-        const script = base64.decode(pmTech.version[tag]);
-
+        const tag = data['postman-docs'];
+        const script = base64.decode(data.version[tag]);
         compress(script).then((compressed) => {
           sh.exec('mkdir -p bff-data');
           sh.exec('touch bff-data/pmTech.js');
