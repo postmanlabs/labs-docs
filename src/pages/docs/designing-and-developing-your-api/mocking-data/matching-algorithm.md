@@ -1,7 +1,7 @@
 ---
 title: "Understanding example matching"
 updated: 2022-09-26
-search_keyword: "x-mock-response-name, x-mock-response-id, x-mock-response-code, requestMethod, mockPath"
+search_keyword: "x-mock-response-name, x-mock-response-id, x-mock-response-code, requestMethod, requestPath"
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -38,7 +38,7 @@ After the mock service has all the saved examples for the collection, it iterati
 
 [![use mock diagram](https://assets.postman.com/postman-docs/use-mock-v9.jpg)](https://assets.postman.com/postman-docs/use-mock-v9.jpg)
 
-The incoming request can have several configurable variables, such as `requestMethod` and `mockPath`. The `requestMethod` variable corresponds to any valid HTTP request method (such as `GET`, `POST`,`PUT`, `PATCH`, or `DELETE`), and the `mockPath` refers to any valid string path (such as `/`, `/test`, `/test/path`, or `/test/path/1`).
+The incoming request can have several configurable variables, such as `requestMethod`, `requestPath`,  `requestHeaders`, `requestBody`, and `requestParams`. The `requestMethod` variable corresponds to any valid HTTP request method (such as `GET`, `POST`,`PUT`, `PATCH`, or `DELETE`), and the `requestPath` refers to any valid string path (such as `/`, `/test`, `/test/path`, or `/test/path/1`).
 
 Other optional headers like `x-mock-response-name` or `x-mock-response-id` enable you to further specify the example to be returned based on the name or the UID of the saved example. You can get the example response UID by using the Postman API to [GET a Single Collection](https://documenter.getpostman.com/view/12959542/UV5XjJV8#a6a282df-907e-438b-8fe6-e5efaa60b8bf) and searching for your example in the response. The UID has the syntax `<user_id>-<response_id>`.
 
@@ -58,7 +58,7 @@ Any responses that aren't the same HTTP method type are removed from the matchin
 
 ### 3. Filter by URL
 
-The matching process examines each saved example and iterates over every possibility. The algorithm compares the `mockPath` of the input URL with that of the saved example. If the input URL was `https://M1.mock.pstmn.io/test` and the example being examined has a URL of `https://google.com/help`, the mock service will compare `/test` with `/help`. While comparing URLs, a step-by-step matching process is performed. Each completed step reduces the matching threshold of the current example response.
+The matching process examines each saved example and iterates over every possibility. The algorithm compares the `path` of the request with the `path` of the example. If the request's URL is `https://M1.mock.pstmn.io/test` and the example's URL is `https://google.com/help`, the algorithm compares `/test` with `/help`. In this case the paths do not match, so the corresponding example is removed from the matching, and the algorithm moves to the next example. While comparing URLs, a step-by-step matching process is performed. Each completed step reduces the matching threshold of the current example response.
 
 Here's an example of how the algorithm filters by URL:
 
