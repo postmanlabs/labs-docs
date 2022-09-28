@@ -46,7 +46,6 @@ A scan starts whenever team members do any of the following actions:
 * Share a collection or environment to a public workspace.
 * Make changes to a collection or environment that's present in a public workspace.
 * Write new documentation for a Postman Collection and make it public.
-* Make any changes to publicly available Postman documentation.
 
 Postman delivers the scan results in the [Security audit reports](/docs/reports/security-audit-reports/) section of the [**Reports** dashboard](/docs/reports/reports-overview/).
 
