@@ -274,8 +274,12 @@ export const leftNavItems = [
   {
     name: 'Running Collections',
     parentSlug: 'running-collections',
-    url: '/docs/running-collections/intro-to-collection-runs/',
+    url: '/docs/running-collections/running-collections-overview/',
     subMenuItems1: [
+      {
+        name: 'Running collections overview',
+        url: '/docs/running-collections/running-collections-overview/',
+      },
       {
         name: 'Using the Collection Runner',
         url: '/docs/running-collections/intro-to-collection-runs/',

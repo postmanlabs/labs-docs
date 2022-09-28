@@ -23,20 +23,40 @@ contextual_links:
 warning: false
 ---
 
-You can automate [collection runs](/docs/running-collections/intro-to-collection-runs/) using [monitors](/docs/monitoring-your-api/intro-monitors/) to schedule runs and receive reports on your request test results.
+You can create schedules to [run collections](/docs/running-collections/intro-to-collection-runs/) at specified times. You can review, edit, and delete the schedules you create. You can also pause and resume schedules.
 
-To add or access monitors for a particular collection, select __Monitors__ in the sidebar.
+Schedules share permissions with collections. For example, if you have permissions to edit a collection, you'll be able to edit that collection's schedules.
 
-<img alt="Monitors v8" src="https://assets.postman.com/postman-docs/create-a-monitor-v8.jpg" height="400px"/>
+If you import or export a collection, its schedules do not import/export.
 
-Any monitors already attached to your collection will appear. Select __Create a monitor__ to add one (or __+ Create a new Monitor__ if you already have one on the collection).
+If you delete a collection, its schedules are deleted also.
 
-You can also add a monitor from a collection. Select the collection you want to add a monitor to, then select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> > __Monitor collection__.
+Scheduled collection runs are limited to personal, private, and team workspaces.
 
-Give your monitor a name, select a collection to use, choose a version tag, and an optional environment for your scheduled collection runs to reference. Enter the frequency you want your monitor to run on, and select a region. Select __Create__ and your monitor will run on the schedule you entered.
+Locally hosted APIs can't be tested as these are run on Postman cloud. Scheduled runs are made on the Postman cloud and its usage is limited by your Postman account.
 
-[![Add new monitor to collection](https://assets.postman.com/postman-docs/create-new-monitor-overview-v8.jpg)](https://assets.postman.com/postman-docs/create-new-monitor-overview-v8.jpg)
+Scheduled collection runs are not included in workspace history.
 
-Your new monitor will appear in the monitor overview. You can open the monitor overview tab to [view your monitor results](/docs/monitoring-your-api/viewing-monitor-results/) at any time.
+Run order can't be customized for scheduled runs in the cloud.
 
-<img alt ="New monitor created" src="https://assets.postman.com/postman-docs/new-monitor-created-v8.jpg" height ="400px"/>
+1. Select **Collections** in the sidebar and select the collection you want to run.
+
+1. On the Overview tab, select <img alt="Runner icon" src="https://assets.postman.com/postman-docs/icon-runner-v9.jpg#icon" width="16px"> **Run**.
+
+1. On the Collection Runner, select **Schedule runs**.
+
+1. Enter the following:
+    * The schedule's name
+    * The schedule's frequency
+    * An environment associated with the collection (optional)
+    * The number of iterations you want the schedule to run
+    * A data file (`JSON` or `CSV`). Data files can be used to test multiple variatioons of your API behavior.
+    * Notification recipients. Recipients will be notified about test failures and errors in the runs.
+    * Advanced settings
+      * Retry if run fails
+      * Set request timeout
+      * Set delay between requests
+      * Follow redirects
+      * Enable SSL validation
+
+1. Select the `Schedule Run` button.
