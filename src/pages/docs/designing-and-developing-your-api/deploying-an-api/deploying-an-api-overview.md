@@ -41,7 +41,6 @@ Enter the required information to configure the API gateway integration. For mor
 
 <img alt="Connecting to an API Gateway" src="https://assets.postman.com/postman-docs/v10/api-builder-connect-deployments-v10.jpg" />
 
-
 ## Viewing API deployments in Postman
 
 After connecting to an API gateway, you can view the deployment history for your API definitions in Postman. Select **APIs** in the sidebar and select an API, then select **Deployments**.
