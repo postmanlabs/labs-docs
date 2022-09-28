@@ -1,14 +1,11 @@
 ---
 title: 'Managing and sharing APIs'
-order: 82
-page_id: 'managing_apis'
 updated: 2021-09-15
-warning: false
 contextual_links:
   - type: section
     name: "Prerequisites"
   - type: link
-    name: "Using the API Builder"
+    name: "API development overview"
     url: "/docs/designing-and-developing-your-api/the-api-workflow/"
   - type: section
     name: "Additional Resources"
@@ -20,7 +17,7 @@ contextual_links:
   - type: section
     name: "Next Steps"
   - type: link
-    name: "Versioning APIs"
+    name: "Using API version control"
     url: "/docs/designing-and-developing-your-api/versioning-an-api/"
   - type: link
     name: "Reports overview"
@@ -33,7 +30,6 @@ When you [define your APIs](/docs/designing-and-developing-your-api/the-api-work
 
 - [Sharing APIs](#sharing-apis)
 - [Collaborating on APIs](#collaborating-on-apis)
-- [Watching APIs](#watching-apis)
 - [Commenting on APIs](#commenting-on-apis)
 - [Using the Changelog](#using-the-changelog)
 
@@ -43,7 +39,7 @@ You can share your APIs with collaborators by navigating to the API you want to 
 
 <img alt="Share API" src="https://assets.postman.com/postman-docs/share-api-9.4.jpg"/>
 
-For more details, see [Sharing Postman entities](/docs/collaborating-in-postman/sharing/#sharing-postman-entities).
+For more details, see [Sharing Postman elements](/docs/collaborating-in-postman/sharing/#sharing-postman-elements).
 
 ## Collaborating on APIs
 
@@ -55,45 +51,27 @@ In the sidebar, select the API you want to share, then select the more actions i
 
 Use the search bar to find the workspace you'd like to move the API to, or filter by workspace visibility by selecting the filter icon <img alt="Filter icon" src="https://assets.postman.com/postman-docs/icon-filter.jpg#icon" width="16px">.
 
-You can share APIs to personal, private, team, and public workspaces that you have access to. Shared private, team, and public workspaces allow you to collaborate with others.
+You can move APIs to personal, private, team, and public workspaces that you have access to. Shared private, team, and public workspaces allow you to collaborate with others.
 
-> You cannot move APIs from team, private, or public workspaces to a personal workspace.
+> You can't move APIs from team, private, or public workspaces to a personal workspace.
 
 <!-- -->
 
 > Refer to [Roles and permissions](/docs/collaborating-in-postman/roles-and-permissions/) for information on workspace access control within your team.
 
-Select the workspace, then **Move** **API**.
+Select the workspace, then select **Move API**. Any collections in the API will move with the API to the new workspace.
 
 <img alt="Move API" src="https://assets.postman.com/postman-docs/move-api-v9.1.jpg" width="400px"/>
-
-Note that collections, documentation, monitors, mock servers, and environments of the API will not move with the API to the new workspace automatically.
-
-Collections and environments must be [moved separately](/docs/collaborating-in-postman/working-with-your-team/collaborating-in-team-workspaces/#moving-elements-to-team-workspaces). Documentation, monitors, and mock servers must be re-configured in the new workspace.
-
-## Watching APIs
-
-The watch option enables you to receive an email or in-app notification when a team member belonging to the same workspace modifies the API, for example updating the schema, attaching an element to the API, adding a comment to the API and so on.
-
-Select __Watch__ to start watching the API.
-
-<img src="https://assets.postman.com/postman-docs/watch-button-v9.jpg" alt="Watch Option" width="350px"/>
-
-For more information about the changes to the API, select the notifications icon <img alt="Notifications icon" src="https://assets.postman.com/postman-docs/icon-notification-bell-v9.jpg#icon" width="18px"> in the Postman header.
-
-You will also receive an email with the information regarding who made the change, what the change was, and when it was made.
-
-> You will not receive notifications for changes that you made.
 
 ## Commenting on APIs
 
 You can discuss your APIs with collaborators in Postman, keeping the conversation in context and available to other stakeholders. Anyone with access to the API can comment.
 
-To leave a comment on an API, select __APIs__ in the sidebar, then select the API version you want to comment on. Switch to comment mode, enter your comment, and **Add comment** to publish it.
+To leave a comment on an API, select an API in the sidebar to expand it, then select **Definition**. Select an API definition file in the sidebar to open it, then switch to comment mode by selecting the comment icon <img alt="Comments icon" src="https://assets.postman.com/postman-docs/icon-comments-v9.jpg#icon" width="18px"> above the editor. To leave an inline comment, highlight part of the definition, enter your comment, and select **Add Comment**.
 
-[![API comment app](https://assets.postman.com/postman-docs/api-builder-add-comment-v9.jpg)](https://assets.postman.com/postman-docs/api-builder-add-comment-v9.jpg)
+> You can't add comments to APIs with [multi-file API definitions](/docs/designing-and-developing-your-api/developing-an-api/defining-an-api/#working-with-multi-file-api-definitions). (All OpenAPI 3.0 and Protobuf 2 and 3 APIs are considered multi-file APIs, even when containing a single file.)
 
-> You can leave inline comments on the API schema by highlighting what you want to comment on.
+<img alt="Commenting on an API" src="https://assets.postman.com/postman-docs/v10/api-builder-add-comment-v10.jpg" />
 
 ### Formatting comments
 
@@ -107,23 +85,14 @@ To edit, delete, or link to one of your comments, go to the comment section and 
 
 [![API comment manage](https://assets.postman.com/postman-docs/v8-managing-comment-actions2.jpg)](https://assets.postman.com/postman-docs/v8-managing-comment-actions2.jpg)
 
-> With Admin permissions you can delete comments made by any contributor, but you cannot update or modify comments.
+> With Admin permissions you can delete comments made by any contributor, but you can't update or modify comments.
 
 ## Using the Changelog
 
-You can view a changelog of your API schemas and all linked collections in the context bar. You can also create releases of an API from the changelog.
+You can view a history of changes to your API schemas and all linked collections. To access the Changelog, open an API, then select the changelog icon <img alt="Changelog icon" src="https://assets.postman.com/postman-docs/icon-changelog.jpg" width="25px" style="vertical-align:middle;margin-bottom:0px"> in the right sidebar.
 
-To access the changelog, open an API version, then select the changelog icon <img alt="Changelog icon" src="https://assets.postman.com/postman-docs/icon-changelog.jpg" width="25px" style="vertical-align:middle;margin-bottom:0px">.
+> If you connect your API to a Git repository, the changelog is replaced by the **Source Control** pane. Learn more about [API version control](/docs/designing-and-developing-your-api/versioning-an-api/versioning-an-api-overview/).
 
-The changelog shows a list of changes made to the schema and associated elements. Each release is shown, and the top of the list will show any unreleased changes. Select each entry for more details.
+The Changelog shows a list of changes made to the schema and associated elements. Select each entry for more details.
 
-Select **+ Release changes** at the top of the list to create a release from unreleased changes. For more information, see [Working with API releases](/docs/designing-and-developing-your-api/versioning-an-api/api-releases/).
-
-<img src="https://assets.postman.com/postman-docs/api-builder-changelog-v9.jpg" alt="Changelog" width="350px" />
-
-## Next steps
-
-For more info on working with the API Builder in Postman, check out the following resources:
-
-- [Versioning APIs](/docs/designing-and-developing-your-api/versioning-an-api/)
-- [Using reports](/docs/reports/reports-overview/)
+<img src="https://assets.postman.com/postman-docs/v10/api-builder-changelog-v10.jpg" alt="API Builder changelog" width="443px" />

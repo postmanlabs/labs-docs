@@ -156,6 +156,10 @@ The Postman element that you move to the public workspace will no longer exist i
 
 > If there are monitors, mock servers, or integrations associated with the moved element, they remain in the original workspace.
 
+<!-- -->
+
+> The API's collections will move with the API to the new workspace.
+
 ### Deleting elements from a public workspace
 
 You can delete Postman elements from a public workspace for which you have an [Admin or Editor role](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles):
