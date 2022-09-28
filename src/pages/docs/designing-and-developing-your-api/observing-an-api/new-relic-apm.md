@@ -41,7 +41,7 @@ To connect an API to New Relic APM:
 
 1. Select **APIs** in the sidebar and select an API.
 1. Select **API Performance**.
-1. Under **Connect Postman to your monitoring workflows**, select **New Relic APM**.
+1. Under **Connect Postman to your monitoring workflows**, select **New Relic**.
 1. Enter your **New Relic API Key** (User Key).
 
     > There are multiple types of API keys in New Relic. Make sure to use a **User Key** for connecting an API to New Relic. To learn more, see the [New Relic API keys documentation](https://docs.newrelic.com/docs/apis/intro-apis/new-relic-api-keys/).
@@ -72,6 +72,6 @@ From here you can take the following actions:
 
 * To view graphs for a different service, select the service in the dropdown list.
 * To view the service in New Relic, select **View on New Relic**.
-* To view metrics for a different time range, select the time range in the dropown list.
+* To view metrics for a different time range, select the time range in the dropdown list.
 * To view the latest metrics, select <img alt="Refresh icon" src="https://assets.postman.com/postman-docs/icon-refresh-v9-5.jpg#icon" width="14px"> **Refresh**.
 * To edit or delete the integration, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> .

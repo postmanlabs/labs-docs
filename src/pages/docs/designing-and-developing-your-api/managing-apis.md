@@ -39,7 +39,7 @@ You can share your APIs with collaborators by navigating to the API you want to 
 
 <img alt="Share API" src="https://assets.postman.com/postman-docs/share-api-9.4.jpg"/>
 
-For more details, see [Sharing Postman entities](/docs/collaborating-in-postman/sharing/#sharing-postman-entities).
+For more details, see [Sharing Postman elements](/docs/collaborating-in-postman/sharing/#sharing-postman-elements).
 
 ## Collaborating on APIs
 
@@ -59,7 +59,7 @@ You can move APIs to personal, private, team, and public workspaces that you hav
 
 > Refer to [Roles and permissions](/docs/collaborating-in-postman/roles-and-permissions/) for information on workspace access control within your team.
 
-Select the workspace, then select **Move API**. Collections and environments linked to the API will automatically move with the API to the new workspace.
+Select the workspace, then select **Move API**. Any collections in the API will move with the API to the new workspace.
 
 <img alt="Move API" src="https://assets.postman.com/postman-docs/move-api-v9.1.jpg" width="400px"/>
 
@@ -69,7 +69,7 @@ You can discuss your APIs with collaborators in Postman, keeping the conversatio
 
 To leave a comment on an API, select an API in the sidebar to expand it, then select **Definition**. Select an API definition file in the sidebar to open it, then switch to comment mode by selecting the comment icon <img alt="Comments icon" src="https://assets.postman.com/postman-docs/icon-comments-v9.jpg#icon" width="18px"> above the editor. To leave an inline comment, highlight part of the definition, enter your comment, and select **Add Comment**.
 
-> You can't add comments to APIs with [multi-file API definitions](/docs/designing-and-developing-your-api/developing-an-api/defining-an-api/#working-with-multi-file-api-definitions). (All OpenAPI 3.0 APIs are considered multi-file APIs even when containing a single file.)
+> You can't add comments to APIs with [multi-file API definitions](/docs/designing-and-developing-your-api/developing-an-api/defining-an-api/#working-with-multi-file-api-definitions). (All OpenAPI 3.0 and Protobuf 2 and 3 APIs are considered multi-file APIs, even when containing a single file.)
 
 <img alt="Commenting on an API" src="https://assets.postman.com/postman-docs/v10/api-builder-add-comment-v10.jpg" />
 
