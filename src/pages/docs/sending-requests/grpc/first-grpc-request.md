@@ -1,6 +1,14 @@
 ---
 title: "Invoking your first gRPC request"
 updated: 2022-09-15
+contextual_links:
+  - type: section
+    name: "Additional resources"
+  - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "gRPC Requests | Postman Level Up"
+    url: "https://youtu.be/gfYGqMb81GQ"
 ---
 
 To get started with gRPC, create a request and invoke it using an echo endpoint.
@@ -36,6 +44,8 @@ This example will create and execute a unary request. To learn about invoking th
 1. In Postman, select  __New__ &gt; __gRPC Request__ to open a request in a new tab. (In the Postman desktop app, you can also select **⌘+N** or **Ctrl+N**, then select __gRPC Request__.)
 
     <img src="https://assets.postman.com/postman-docs/v10/grpc-new-request.gif" alt="New gRPC request" />
+
+1. Enter a URL into **Server URL**. For this example, use the Postman gRPC echo service, which is `grpc.postman-echo.com`.
 
 1. Select the **Method selection** dropdown and browse through the supported services and methods. When you enter the URL, Postman automatically loads the service definition using server reflection (if supported by the server). If server reflection isn't supported on the server, you will have to load the service definition manually. Learn more about [working with service definitions](/docs/sending-requests/grpc/using-service-definition/).
 

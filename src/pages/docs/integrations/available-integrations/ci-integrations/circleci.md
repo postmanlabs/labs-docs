@@ -15,6 +15,9 @@ contextual_links:
   - type: subtitle
     name: "Videos"
   - type: link
+    name: "Integrate CircleCI in Postman"
+    url: "https://youtu.be/9a0t9rhauAQ"
+  - type: link
     name: "Building Continuous Delivery Pipelines in CircleCI With Newman"
     url: "https://youtu.be/xyu7CG3msQY"
 ---

@@ -31,7 +31,7 @@ You can import an existing API definition into your API. API definitions can be 
 To import your API definitions into Postman:
 
 1. Select **APIs** in the sidebar, then select **Import**.
-1. Select a file or folder, enter a link to the API, or paste your raw text.
+1. Select one or more files, select a folder, enter a link to the API, or paste your raw text.
 
     > You can also import an API definition from a code repository. Learn more about [importing and exporting](/docs/getting-started/importing-and-exporting-data/).
 
@@ -39,9 +39,7 @@ To import your API definitions into Postman:
 1. Select **Generate collection from this API** if you want to automatically generate a collection from an API definition and add it to the API.
 1. Select **Import** to bring your data into Postman.
 
-> You can configure your **Import Settings**, which will differ depending on your API specification.
-
-You can import several API specification files at once. Select the workspace you'd like to import the APIs into, choose whether you want to generate collections from the APIs, configure the details, and select **Import**.
+    > Select **Show advanced settings** for more configuration options. These options will differ depending on your API specification.
 
 When importing into a team workspace, you can also choose to add the APIs to the [Private API Network](/docs/collaborating-in-postman/adding-private-network/).
 
@@ -63,7 +61,7 @@ To learn more about working with multi-file API definitions, see [Editing an API
 
 [Amazon API Gateway](https://aws.amazon.com/api-gateway/) enables developers to publish and manage APIs that access AWS as well as other web services and data sources. You can import APIs directly from AWS Gateway to Postman. This creates an integration with API Gateway. Once connected, you can view your API deployment status and history from within Postman. You can also view [Amazon CloudWatch](https://aws.amazon.com/cloudwatch/) metrics for each stage to get operational insight into your API.
 
-This integration supports importing OpenAPI 3.0 schemas for both HTTP and REST APIs. Importing will create a new API in Postman, with the API name set as the name of the API Gateway, and the default API version set as the name of the stage or environment. The new API will also have the AWS API Gateway integration added to it.
+This integration supports importing OpenAPI 3.0 definitions for both HTTP and REST APIs. Importing will create a new API in Postman, with the API name set as the name of the API Gateway, and the default API version set as the name of the stage or environment. The new API will also have the AWS API Gateway integration added to it.
 
 To import an API from AWS API Gateway:
 
@@ -116,11 +114,11 @@ Next, create an IAM role for Postman in AWS:
     }
     ```
 
-    This policy will enable exporting and deploying for HTTP API schemas. (Exporting and deploying aren't supported for REST API schemas.) You can customize the `Action` section in the IAM policy based on your needs:
+    This policy will enable exporting and deploying for HTTP API definitions. (Exporting and deploying aren't supported for REST API definitions.) You can customize the `Action` section in the IAM policy based on your needs:
 
     * `"apigateway:GET"` - (Required) Enables viewing API Gateway deployments for HTTP and REST APIs in Postman.
-    * `"apigateway:PUT"` - Enables [exporting](/docs/designing-and-developing-your-api/deploying-an-api/deploying-an-api-aws/#exporting-and-deploying-your-api) HTTP API schemas to the API Gateway.
-    * `"apigateway:POST"` - Enables [deploying](/docs/designing-and-developing-your-api/deploying-an-api/deploying-an-api-aws/#exporting-and-deploying-your-api) HTTP API schemas to a stage on the API Gateway.
+    * `"apigateway:PUT"` - Enables [exporting](/docs/designing-and-developing-your-api/deploying-an-api/deploying-an-api-aws/#exporting-and-deploying-your-api) HTTP API definitions to the API Gateway.
+    * `"apigateway:POST"` - Enables [deploying](/docs/designing-and-developing-your-api/deploying-an-api/deploying-an-api-aws/#exporting-and-deploying-your-api) HTTP API definitions to a stage on the API Gateway.
     * `"apigateway:*"` - Assigns all GET, PUT, POST, PATCH, DELETE permissions to the IAM role.
     * `"cloudwatch:GetMetricData"` - Enables [viewing CloudWatch metrics](/docs/designing-and-developing-your-api/deploying-an-api/deploying-an-api-aws/#viewing-cloudwatch-metrics) in Postman.
 
@@ -143,7 +141,7 @@ Next, enter information about the connection:
 * Enter the **AWS Region** where the API Gateway is located and select the **API Gateway**.
 * Enter an **API Name** for the imported API.
 
-When you're ready, select **Import**. After importing your API schema, you can [view API deployments in Postman](/docs/designing-and-developing-your-api/deploying-an-api/deploying-an-api-aws/).
+When you're ready, select **Import**. After importing your API definition, you can [view API deployments in Postman](/docs/designing-and-developing-your-api/deploying-an-api/deploying-an-api-aws/).
 
 ## Supported API definitions formats
 
@@ -151,6 +149,7 @@ Postman directly supports importing the following formats:
 
 * [OpenAPI 3.0 and 3.1](https://github.com/postmanlabs/openapi-to-postman)
 * Swagger [1.2](https://github.com/postmanlabs/swagger1-to-postman) and [2.0](https://github.com/postmanlabs/swagger2-postman2-lambda)
+* Protobuf 2 and 3
 * [GraphQL](https://github.com/postmanlabs/graphql-to-postman)
 * [cURL](https://github.com/postmanlabs/curl-to-postman)
 * RAML [0.8](https://github.com/postmanlabs/raml-to-postman) and [1.0](https://github.com/postmanlabs/raml1-to-postman)

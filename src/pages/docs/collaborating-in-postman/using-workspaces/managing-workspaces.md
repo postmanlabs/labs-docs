@@ -185,7 +185,7 @@ To stop watching a workspace, select **Unwatch** in the workspace's **Overview**
 
 Workspaces can contain elements such as collections, APIs, environments, mock servers, and monitors. A particular element can exist only in a single workspace. If needed, you can move elements to a different workspace.
 
-> Collections and environments linked to an API will automatically move with the API to the new workspace.
+> The API's collections will move with the API to the new workspace.
 
 <!-- -->
 

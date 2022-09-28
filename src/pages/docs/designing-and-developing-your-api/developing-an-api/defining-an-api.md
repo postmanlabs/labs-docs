@@ -26,6 +26,9 @@ contextual_links:
   - type: link
     name: "The Reimagined API-First Workflow, Part 1: for Developers"
     url: "https://blog.postman.com/the-reimagined-api-first-workflow-for-developers/"
+  - type: link
+    name: "Shifting Left with Postman"
+    url: "https://blog.postman.com/shifting-left-with-postman/"
   - type: section
     name: "Next Steps"
   - type: link
@@ -34,6 +37,8 @@ contextual_links:
 ---
 
 You create the structure of your API using the _API definition_. The API definition can consist of one or multiple files. If your API doesn't have a definition, you can import a definition or start with a boilerplate sample definition.
+
+> Postman supports OpenAPI (versions 1.0, 2.0, 3.0, and 3.1), RAML (0.8 and 1.0), Protobuf (2 and 3), GraphQL, or WSDL (1.0 and 2.0) definitions. OpenAPI definitions can be JSON or YAML. RAML definitions must be YAML. Protobuf definitions are PROTO files. GraphQL definitions can be JSON or GraphQL SDL. WSDL definitions must be XML.
 
 ## Contents
 
@@ -48,11 +53,10 @@ You create the structure of your API using the _API definition_. The API definit
 If your API doesn't have a definition, you can generate an example definition that you can edit.
 
 1. Select **APIs** in the sidebar and select an API.
-1. On the API's overview, under **Definition**, select **Author Definition from scratch**.
+1. On the API's overview, under **Definition**, select **Create Definition**.
+1. Select **Author Definition from scratch**.
 1. Select a definition type and format.
 1. Select the **Use a Boilerplate in this Definition** option if you want to start with a sample definition.
-
-    > Postman supports OpenAPI (versions 1.0, 2.0, 3.0, and 3.1), RAML (0.8 and 1.0), Protobuf (2.0 and 3.0), GraphQL, or WSDL (1.1 and 2.0) definitions. OpenAPI definitions can be in JSON or YAML. RAML definitions must be YAML. Protobuf definitions are proto files. GraphQL definitions can be JSON or GraphQL SDL. WDL definitions must be XML.
 
     <img alt="Generating an API definition" src="https://assets.postman.com/postman-docs/v10/api-builder-author-definition-v10.jpg" width="323px"/>
 
@@ -60,9 +64,7 @@ If your API doesn't have a definition, you can generate an example definition th
 
 ## Importing an API definition
 
-You can import files into your API definition to define your API.
-
-> Postman supports OpenAPI (versions 1.0, 2.0, 3.0, and 3.1), RAML (0.8 and 1.0), Protobuf (2.0 and 3.0), GraphQL, or WSDL (1.1 and 2.0) definitions. OpenAPI definitions can be in JSON or YAML. RAML definitions must be YAML. Protobuf definitions are proto files. GraphQL definitions can be JSON or GraphQL SDL. WSDL definitions must be XML.
+You can import a file into your API to define your API.
 
 To import an API definition:
 
@@ -70,6 +72,7 @@ To import an API definition:
 1. On the API's overview, under **Definition**, select **Create Definition**.
 1. Select **Import Definition**.
 1. Select the file you want to import.
+1. Select **Use this Definition** next to the API definition you want to use.
 
 > You can also import an API from a folder, a link, a code repository, or an API gateway. Learn more about [importing an API](/docs/designing-and-developing-your-api/importing-an-api/).
 
@@ -112,9 +115,9 @@ A multi-file API definition consists of the following components:
 
 ### About root files
 
-An API definition's root file contains references to other files in the API definition. If you made a tree diagram of the relationships between all files in an API definition, the root file would be the file at the top of the tree. When you [create a new API definition](/docs/designing-and-developing-your-api/creating-an-api/) or [import an API](/docs/designing-and-developing-your-api/importing-an-api/), Postman will intelligently determine the root file based on the references across the files. API definitions don't support references which are external links or present within a separate API.
+An API definition's root file contains references to other files in the API definition. If you made a tree diagram of the relationships between all files in an API definition, the root file would be the file at the top of the tree. When you [create a new API definition](/docs/designing-and-developing-your-api/creating-an-api/) or [import an API](/docs/designing-and-developing-your-api/importing-an-api/), Postman determines the root file based on the references across the files. API definitions don't support references which are external links or present within a separate API.
 
-For OpenAPI 3.0 API definitions, Postman detects root files intelligently based on the content and references within files while importing or creating an API definition. You can't set a file as root for OpenAPI 3.0. OpenAPI can only have one root file. If you delete the root file, Postman will recalculate the next candidate for the root file automatically.
+For OpenAPI 3.0 API definitions, Postman detects root files based on the content and references within files while importing or creating an API definition. You can't set a file as root for OpenAPI 3.0. OpenAPI can have one root file. If you delete the root file, Postman will recalculate the next candidate for the root file automatically.
 
 For Protobuf API definitions, while importing the API, Postman detects all files which have service definitions present in them and marks one as the root. You can set another file as root if there's more than one candidate for root file. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to a Protobuf file in the sidebar and select **Mark as root**.
 
@@ -136,7 +139,7 @@ To add a file to a folder, select the more actions icon <img alt="More actions i
 
 To delete a file or folder, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the item and select **Delete**.
 
-> If you delete the last remaining file in an API definition, the API will no longer have a Definition unless you create it again. The schema documentation and any information in the file's info pane including the Definition ID will be lost. Other components of the API will remain intact. For example, collections in the API won't be deleted. You cannot restore a Definition after it is deleted.
+> If you delete the last remaining file in an API definition, the API will no longer have a definition unless you create it again. The schema documentation and any information in the file's info pane including the definition ID will be lost. Other components of the API will remain intact. For example, collections in the API won't be deleted. You can't restore a definition after it's deleted.
 
 ## Viewing rule violations in your API definition
 
@@ -148,7 +151,7 @@ As you create your API definition in the editor, Postman automatically checks it
 
 To learn more about the supported API description formats, the rules preconfigured in Postman, and how to create new rules, see [Rule violations in the API definition](/docs/api-governance/api-definition/api-definition-warnings/).
 
-To see any rule violations, select **Rule** next to **Violations found in definition**. Postman displays each rule violation on its own line, with a brief description of the issue, the rule type (**Governance** or **Security**), and the line and file the where the rule violation occurs. When you select a rule violations, Postman highlights the section of the definition that triggered it.
+To see any rule violations, select **Rule** next to **Violations found in definition**. Postman displays each rule violation on its own line, with a brief description of the issue, the rule type (**Governance** or **Security**), and the line and file the where the rule violation occurs. When you select a rule violation, Postman highlights the section of the definition that triggered it.
 
 If the rule violation occurs more than once, the line indicates how many times. You can scroll through each occurrence.
 

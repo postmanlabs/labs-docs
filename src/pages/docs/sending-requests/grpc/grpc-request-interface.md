@@ -7,11 +7,18 @@ contextual_links:
   - type: link
     name: "Navigating Postman"
     url: "https://learning.postman.com/docs/getting-started/navigating-postman/"
+  - type: section
+    name: "Additional resources"
+  - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "gRPC Requests | Postman Level Up"
+    url: "https://youtu.be/gfYGqMb81GQ"
 ---
 
 gRPC requests in Postman include a variety of tools, views, and controls to help you use and test your gRPC services effectively and efficiently. This topic highlights the parts of the request interface and how to use it.
 
-<img src="https://assets.postman.com/postman-docs/v10/grpc-request-callouts.jpg" alt="gRPC request interface" /><!--TODO: replace with Postman echo service shown -->
+<img src="https://assets.postman.com/postman-docs/v10/grpc-request-callouts-v10.jpg" alt="gRPC request interface" />
 
 ## Contents
 
@@ -33,7 +40,7 @@ Create a new gRPC request by selecting the **New** button in the left sidebar wh
 
 The request section includes the required configurations to connect to the server and execute the selected method. Requests need a server URL, a service definition and a selected method in order to be invoked. Additionally, based on the API requirements, you may have to pass message payloads, metadata and authorization details along with it. You may also have to configure TLS and additional certificates based on the requirements.
 
-<!-- <img src="https://assets.postman.com/postman-labs-docs/grpc-docs/request-interface/request-sections.jpeg" alt="Request pane" />TODO: replace with Postman echo service shown -->
+<img src="https://assets.postman.com/postman-docs/v10/grpc-request-sections.jpg" alt="Request pane" />
 
 * **Server URL** - Defines the endpoint where the service is hosted. A gRPC URL often starts with `grpc://` instead of `http://` or `https://`. While creating a new request, you can also browse through previously used URLs by selecting the URL field. This helps you create the request faster if you’re testing multiple methods on the same endpoint.
 
