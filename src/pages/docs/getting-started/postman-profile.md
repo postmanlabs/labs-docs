@@ -16,17 +16,17 @@ contextual_links:
     url: "/docs/getting-started/syncing/"
 ---
 
-<!-- TODO: intro -->
-
 After you create a Postman account, you can customize your Postman profile. Your Postman profile gives you a way to share important information about yourself with other Postman users.
 
 Your profile includes:
 
-* Links to relevant resources like your GitHub profile
+* A profile picture
+* A short bio
+* Social media links like your GitHub profile
 * Links to any teams you are a part of
-* An About Me section
-* A Highlights section with pinned elements
-* An Activity feed with a chronological list of your recent activity in the public API network
+* An **About Me** section
+* A **Highlights** section with pinned elements
+* An **Activity** feed with a chronological list of your public activities
 
 <!-- TODO: screenshot -->
 
@@ -63,19 +63,31 @@ S. Select **Update Profile** to save changes.
 Your **About Me** section contains information about, well, YOU! You can add information about your work, interests, and contributions&mdash;anything you want people looking at your profile to know. Update your **About Me** section at any time in your [profile settings](https://go.postman.co/settings/me/):
 
 1. Select your avatar in the Postman header > **Settings**.
-1. Select **Profile** from the list of options.
-1. ????? <!-- TODO: what the heck -->
+1. Select **View your profile**.
+1. Select **View public profile**. <!-- TODO: is this the final workflow? -->
 1. Under **About Me**, select **Edit**. The editor supports Markdown, or you can use the built-in text formatting tools.
 1. Select **Save**.
 
+<!-- TODO: screenshot -->
+
 ## Updating your About Me section
 
-If you have already created an About Me section, you can edit it by selecting the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px">. Make your changes, then select **Save**.
+If you have already created an [**About Me** section](#adding-an-about-me-section), you can edit it by selecting the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px">. Make your changes, then select **Save**.
 
 ## Pinning elements to your Highlights
 
-All elements must be available on the public API network???
+> Every element in your Highlights section must be publicly available.
 
-if you don't choose any elements to pin to your profile, Postman will select the most popular elements (what criteria?) for this section.
+Your **Highlights** section lets you show off your work to other Postman users. If you don't choose any elements to pin to this section, Postman displays the most popular elements that you've worked on. <!-- TODO: what's the criteria for "popular"? -->
 
-To edit the elements in the Highlights section, select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px">. To remove elements, select the close icon <img alt="Close icon" src="https://assets.postman.com/postman-docs/icon-close.jpg#icon" width="16px"> next to the element name. To add an element to your Highlights section, select it from the list. Select **Save**.
+Update your **Highlights** section at any time in your [profile settings](https://go.postman.co/settings/me/):
+
+1. Select your avatar in the Postman header > **Settings**.
+1. Select **View your profile**.
+1. Select **View public profile**. <!-- TODO: is this the final workflow? -->
+1. Under **Highlights**, select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px">.
+1. To remove elements from the section, select the close icon <img alt="Close icon" src="https://assets.postman.com/postman-docs/icon-close.jpg#icon" width="16px"> next to the element name under **Selected works in highlight**.
+1. To add an element to the section, select the element type, then select the element from the list.
+1. After you have added or removed elements, select **Save**.
+
+<!-- TODO: screenshot -->
