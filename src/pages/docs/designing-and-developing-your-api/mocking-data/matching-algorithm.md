@@ -58,7 +58,7 @@ Any responses that aren't the same HTTP method type are removed from the matchin
 
 ### 3. Filter by URL
 
-The matching process examines each saved example and iterates over every possibility. The algorithm compares the `path` of the request with the `path` of the example. If the request's URL is `https://M1.mock.pstmn.io/test` and the example's URL is `https://google.com/help`, the algorithm compares `/test` with `/help`. In this case the paths do not match, so the corresponding example is removed from the matching, and the algorithm moves to the next example. While comparing URLs, a step-by-step matching process is performed. Each completed step reduces the matching threshold of the current example response.
+The matching process examines each saved example and iterates over every possibility. The algorithm compares the `path` of the request with the `path` of the example. If the request's URL is `https://M1.mock.pstmn.io/test` and the example's URL is `https://google.com/help`, the algorithm compares `/test` with `/help`. In this case the paths don't match, so the corresponding example is removed from the matching, and the algorithm moves to the next example. While comparing URLs, a step-by-step matching process is performed. Each completed step reduces the matching threshold of the current example response.
 
 Here's an example of how the algorithm filters by URL:
 
