@@ -59,15 +59,14 @@ To create a new API:
 1. To start working with your new API:
 
     * [Create a new API definition](/docs/designing-and-developing-your-api/developing-an-api/defining-an-api/#generating-an-api-definition) for your API.
-    * You can also [import an existing API definition](/docs/designing-and-developing-your-api/importing-an-api/) from a file, a code repository, or an API gateway.
-    * [Use a collection as a starting point for your API](/docs/designing-and-developing-your-api/developing-an-api/adding-api-elements/). Select a collection in your workspace you want to use and make a copy of it into your API. You can also create new collections in your API.
-    * Import an API definition from an API gateway and view deployments in Postman. Learn more about [importing an API](/docs/designing-and-developing-your-api/importing-an-api/).
+    * [Use a collection as a starting point for your API](/docs/designing-and-developing-your-api/developing-an-api/adding-api-elements/). Select a collection in your workspace you want to use and add a copy of it to your API. You can also create new collections in your API.
+    * [Import an existing API definition](/docs/designing-and-developing-your-api/importing-an-api/) from a file, a folder, a code repository, or an API gateway.
 
-> Postman supports OpenAPI (versions 1.0, 2.0, 3.0, and 3.1), RAML (0.8 and 1.0), Protobuf (2.0 and 3.0), GraphQL, or WSDL (1.1 and 2.0) definitions. OpenAPI definitions can be in JSON or YAML. RAML definitions must be YAML. Protobuf definitions are proto files. GraphQL definitions can be JSON or GraphQL SDL. WSDL definitions must be XML.
+> Postman supports OpenAPI (versions 1.0, 2.0, 3.0, and 3.1), RAML (0.8 and 1.0), Protobuf (2 and 3), GraphQL, or WSDL (1.0 and 2.0) definitions. OpenAPI definitions can be JSON or YAML. RAML definitions must be YAML. Protobuf definitions are PROTO files. GraphQL definitions can be JSON or GraphQL SDL. WSDL definitions must be XML.
 
 ## Updating an API
 
-Postman v10 can display APIs created in prior versions of Postman. To work with the API in Postman v10, you will be asked to to update it.
+Postman v10 can display APIs created in prior versions of Postman. To work with the API in Postman v10, you will be asked to update it.
 
 There are some differences in the way API versions work in Postman v10 compared to v9:
 
@@ -86,4 +85,4 @@ To delete an API from the workspace:
 1. Select **APIs** in the sidebar.
 1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to an API and select **Delete**.
 
-> When you delete an API, any API definitions, collections or environments contained in the API are deleted with it. Configured integrations are also deleted.
+> When you delete an API, any API definitions or collections contained in the API are deleted with it. Configured integrations are also deleted.
