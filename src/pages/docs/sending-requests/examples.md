@@ -69,7 +69,7 @@ When saving a [response](/docs/sending-requests/responses/) in Postman, you have
 1. Open a request and select **Send**.
 1. In the response pane, select **Save Response** and then select **Save as example**.
 
-<img alt="Save a response as an example" src="https://assets.postman.com/postman-docs/examples-save-response-v9-1.jpg" width="809px">
+<img alt="Save a response as an example" src="https://assets.postman.com/postman-docs/v10/examples-save-response-v10.jpg" width="750px">
 
 ### Adding a custom example
 

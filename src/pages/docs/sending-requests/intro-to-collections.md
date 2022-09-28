@@ -1,8 +1,7 @@
 ---
 title: "Grouping requests in collections"
-order: 23.1
-page_id: "intro_to_collections"
 updated: 2022-02-03
+search_keyword: "collections, new collection, create collection, creating collections, delete collection, rename collection, about collections"
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -200,11 +199,12 @@ Recovery options depend on your Postman plan:
 
 ### Sharing a collection
 
-To share your collections with other users, you can:
+To share a collection with other users, you can:
 
 * Publish a [Run in Postman](/docs/publishing-your-api/run-in-postman/creating-run-button/) button.
 * Invite others to collaborate by selecting the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the collection name, then selecting **Share**. Learn more about [sharing elements in Postman](/docs/collaborating-in-postman/sharing/#sharing-postman-entities).
 * Move the collection to a shared workspace by selecting the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the collection name, then selecting **Move**. Learn more about [moving Postman elements](/docs/collaborating-in-postman/working-with-your-team/collaborating-in-team-workspaces/#moving-elements-to-team-workspaces).
+* ([Enterprise](https://www.postman.com/pricing/)) Add the collection to your team's [Private API Network](/docs/collaborating-in-postman/adding-private-network/#adding-collections).
 
 ### Watching a collection
 

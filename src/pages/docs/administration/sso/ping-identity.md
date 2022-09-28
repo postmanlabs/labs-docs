@@ -12,6 +12,8 @@ contextual_links:
     url: "/docs/administration/sso/intro-sso/"
 ---
 
+> __[SSO with Ping Identity is available on Postman Enterprise plans.](https://www.postman.com/pricing)__
+
 *Note: only an admin of your Ping Identity organization can create the application.*
 
 ## Setting up a custom SAML application in Ping Identity

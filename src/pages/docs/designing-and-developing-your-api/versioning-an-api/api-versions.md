@@ -1,62 +1,75 @@
 ---
-title: 'Working with API versions'
-updated: 2022-05-09
+title: 'Publishing an API version'
+updated: 2022-09-15
 contextual_links:
   - type: section
     name: "Prerequisites"
   - type: link
-    name: "Using the API Builder"
-    url: "/docs/designing-and-developing-your-api/the-api-workflow/"
-  - type: link
-    name: "Managing and sharing APIs"
-    url: "/docs/designing-and-developing-your-api/managing-apis/"
+    name: "API version control overview"
+    url: "/docs/designing-and-developing-your-api/versioning-an-api/versioning-an-api-overview/"
   - type: section
     name: "Additional Resources"
   - type: subtitle
-    name: "Videos"
-  - type: link
-    name: "How to Version APIs | Postman"
-    url: "https://youtu.be/LzJEKsccQ70"
-  - type: subtitle
-    name: "Blog Posts"
-  - type: link
-    name: "Redefining API Management for the API-First World"
-    url: "https://blog.postman.com/new-postman-api-platform-redefining-api-management-for-api-first-world"
-  - type: link
-    name: "Streamline the API Development Lifecycle with Postman Version Control"
-    url: "https://blog.postman.com/streamline-api-development-lifecycle-with-postman-version-control/"
-  - type: link
-    name: "Better Practices for Git Version Control in Postman"
-    url: "https://blog.postman.com/better-practices-for-git-version-control-in-postman/"
-  - type: link
-    name: "Syncing Your Specs with Collections"
-    url: "https://blog.postman.com/latest-updates-to-syncing-your-specs-with-collections/"
-  - type: section
     name: "Next Steps"
   - type: link
-    name: "Reports overview"
-    url: "/docs/reports/reports-overview/"
-  - type: link
-    name: "Validating elements against schema"
-    url: "/docs/designing-and-developing-your-api/validating-elements-against-schema/"
+    name: "Managing and sharing APIs"
+    url: "/docs/designing-and-developing-your-api/managing-apis/"
 ---
 
-> __[GitHub Enterprise Server, GitLab Self-Managed, and Azure DevOps Server (hosted on-premises) integrations are only available on Postman Enterprise plans.](https://www.postman.com/pricing)__
+When you're ready to share the latest changes to your API with consumers, you can publish a _version_. Publishing a version creates a static representation of your API's current state. Consumers can view the API version in your workspace. You can also choose to add the version to your [Private API Network](/docs/collaborating-in-postman/adding-private-network/).
 
-When you create a new API in Postman, it also creates the initial version you entered during the API creation. You can create new versions from scratch or based on an existing version. Each API version has its own **API version** page, which you can find on the API Overview page or in the sidebar.
+You can select the elements to publish with your API, such as the definition and collections, to help consumers test and evaluate your API. After you publish a version, you can keep working on your API and make more changes. Your consumers will continue to see the published version of your API until you publish a new version.
 
-## Creating versions
+> **How are versions and releases different in Postman v10?** In Postman v9, versions were major iterations of your API you could work on at the same time. In Postman v10, published versions are static representations of your API that consumers can reference (like releases in Postman v9). If you need to work on more than one major iteration of your API in Postman v10, create separate APIs.
 
-To create a new version of an API:
+## Contents
 
-1. Go to the API **Overview** page. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> in the upper right corner and select **Create version**.
-1. Enter a version name.
-1. If you want to base this version on existing elements, select **Show more options**. In **Copy elements from a previous version**, choose a previous version of the API. Then select the elements you want to copy to your new API.
-    > Copying an element creates a new copy in your workspace. The new element will have the new version number appended to its name, such as `my-docs-2.0.0`. The new elements will be linked to the new version of the API.
-1. Select __Create Version__. Your new version will open in the API Builder.
+* [Publishing an API to consumers](#publishing-an-api-to-consumers)
+* [Editing and deleting an API version](#editing-and-deleting-an-api-version)
+* [Viewing a published API version](#viewing-a-published-api-version)
 
-## Renaming and deleting versions
+## Publishing an API to consumers
 
-You can rename, edit, or delete an API version using the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> in the sidebar. Editing an API enables you to change the name and status.
+Publish an API version to share the current state of your API with consumers. You can select the elements (definition and collections) to include with your published API.
 
-   > When you delete an API version, the collections, monitors, mocks, and environments linked to it won't be deleted or removed.
+> If your API is connected to a Git repository, publishing a version syncs the selected elements (definition and collections) to your workspace in the Postman cloud.
+
+To publish an API version:
+
+1. Select **APIs** in the sidebar and select an API.
+1. If you connected your API to a Git repository, make sure the branch you want to publish is the active branch. Select the branch menu from the Postman footer, then select the branch you want to make active.
+
+    > You must be in sync with the remote repository to publish an API version. [Push or pull any changes](/docs/designing-and-developing-your-api/versioning-an-api/managing-git-changes/#pushing-and-pulling-changes) as needed.
+
+1. On the API's overview, under **Publish your API to consumers**, select **Publish API**. (If you've published a version before, select **Publish** under **Published Versions**.)
+1. Enter a **Version label** and, if you want, add any **Release notes** describing this version.
+1. Select the elements you want to publish with this version (API definition and collections).
+1. To make this version available on the Private API Network, select **Add to Private API Network**. You can select a folder to place the API version in, or create a new folder.
+1. Select **Publish API**.
+
+    <img alt="Publishing an API version" src="https://assets.postman.com/postman-docs/v10/api-builder-publish-v10.jpg" width="442px" />
+
+## Editing and deleting an API version
+
+You can edit and delete an API version using the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the published version. Editing an API version enables you to change the version label and release notes.
+
+<img alt="Edit and delete an API version" src="https://assets.postman.com/postman-docs/v10/published-api-version-actions-v10.jpg" width="442px" />
+
+## Viewing a published API version
+
+Consumers can view the latest published version of your API in your workspace. If you added the version to the Private API Network, consumers can also view the version there. Consumers can view any elements published with the API, including the API's definition and collections.
+
+To view an API version in a workspace:
+
+1. Select **APIs** in the sidebar and select an API.
+1. Under **Published Versions**, select a version.
+1. To view another version, select it in the version dropdown list next to the API's name.
+
+> To return to the API Builder, select the version dropdown list next to the API's name, then select **Switch to editor** or **Switch to branch**.
+
+To view an API version on the Private API Network:
+
+1. Select **API Network** in the Postman header, then select **Private API Network**.
+1. Search or browse for an API, then select an API to view the available versions.
+
+> Learn more about viewing APIs on the [Private API Network](/docs/collaborating-in-postman/adding-private-network/).

@@ -20,8 +20,8 @@ contextual_links:
   - type: subtitle
     name: "Blog Posts"
   - type: link
-    name: "How to Make Money Using Postman: Chaining Requests"
-    url: "https://blog.postman.com/how-to-make-money-using-postman-chaining-requests/"
+    name: "3 Ways to Build Workflows in Postman"
+    url: "https://blog.postman.com/3-ways-to-build-workflows-in-postman/"
 
 warning: false
 

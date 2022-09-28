@@ -58,7 +58,7 @@ For example, if you're building a client application (such as a mobile or web ap
 
 When you send a request, Postman displays the response received from the API server in a way that lets you examine, visualize, and if necessary troubleshoot it.
 
-[![Request Sent](https://assets.postman.com/postman-docs/sent-request-v9.jpg)](https://assets.postman.com/postman-docs/sent-request-v9.jpg)
+<img alt="Request builder with a successful response" src="https://assets.postman.com/postman-docs/v10/postman-request-builder-v10.jpg" width="750px"/>
 
 If you have never sent a request before, check out [sending your first request](/docs/getting-started/sending-the-first-request/) before you continue.
 
@@ -85,7 +85,7 @@ Your requests can include multiple details determining the data Postman will sen
 
 You can create a new request from the Postman home screen, by using __New__ &gt; __HTTP Request__, or by selecting __+__ to open a new tab.
 
-[![New Screen](https://assets.postman.com/postman-docs/new-request-v9.jpg)](https://assets.postman.com/postman-docs/new-request-v9.jpg)
+![Create New Screen](https://assets.postman.com/postman-docs/v10/new-request-v10.jpg)
 
 Select __Save__ to create your request. You can give your request a name and description, and choose or create a collection to save it in.
 
