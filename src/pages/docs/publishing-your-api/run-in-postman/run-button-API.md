@@ -1,7 +1,7 @@
 ---
 title: "Coding with Run in Postman"
 order: 110
-updated: 2022-03-17
+updated: 2022-09-21
 page_id: "run_button_API"
 warning: false
 contextual_links:
@@ -29,9 +29,9 @@ contextual_links:
     url: "/docs/writing-scripts/intro-to-scripts/"
 ---
 
-Some API publishers use Run in Postman buttons alongside their own API documentation. If users input data in a developer portal, for example, the Run in Postman API can dynamically inject this provided information as environment variable values into the embedded Run in Postman button.
+Some API publishers use **Run in Postman** buttons alongside their own API documentation. If users input data in a developer portal, for example, the Run in Postman API can dynamically inject this provided information as environment variable values into the embedded **Run in Postman** button.
 
-The Run in Postman API uses the `_pm()` method to create or update environments in your website's client-side code through existing dynamic Run in Postman buttons.
+The Run in Postman API uses the `_pm()` method to create or update environments in your website's client-side code through existing dynamic **Run in Postman** buttons.
 
 As another example, you can use the API to pass login credentials to Postman:
 
@@ -84,7 +84,7 @@ function () {
 }
 ```
 
-The `env.create` action will return the total number of environments associated with Run in Postman buttons on the page on success and `false` on failure.
+The `env.create` action will return the total number of environments associated with **Run in Postman** buttons on the page on success and `false` on failure.
 
 ## Editing an existing environment
 
@@ -94,7 +94,7 @@ Use the `env.assign` method to update an environment:
 _pm('env.assign', 'environment_name', {key: new_value, new_key: value}, preventOveride, runButtonIndex)
 ```
 
-> The `env.assign` method works for environments that you included in the Run in Postman button when you created it, or environments that you added using the `env.create` method.
+> The `env.assign` method works for environments that you included in the **Run in Postman** button when you created it, or environments that you added using the `env.create` method.
 > You can't use `env.assign` to create new environments. Calls made using `env.assign` will fail if an environment doesn't already exist.
 
 Update an environment's API keys:
@@ -219,7 +219,7 @@ This will return an array of environments:
 
 ## Next steps
 
-Now that you know how to create a Run in Postman button, you might want to share your API even more widely by creating documentation in a public workspace.
+Now that you know how to create a **Run in Postman** button, you might want to share your API even more widely by creating documentation in a public workspace.
 
 * To learn how to create API documentation in Postman, visit [Documenting your API](/docs/publishing-your-api/documenting-your-api/).
 * To learn how to add your documentation to your public workspaces, visit [Publishing your docs](/docs/publishing-your-api/publishing-your-docs/).
