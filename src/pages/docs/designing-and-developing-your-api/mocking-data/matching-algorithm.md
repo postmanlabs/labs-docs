@@ -1,105 +1,118 @@
 ---
 title: "Understanding example matching"
-order: 87
-updated: 2021-09-28
-page_id: "matching_algorithm"
-search_keyword: "x-mock-response-name, x-mock-response-id, requestMethod, mockPath"
+updated: 2022-09-26
+search_keyword: "x-mock-response-name, x-mock-response-id, x-mock-response-code, requestMethod, requestPath"
 contextual_links:
   - type: section
     name: "Prerequisites"
+  - type: link
+    name: "Mock servers overview"
+    url: "/docs/designing-and-developing-your-api/mocking-data/mock-servers-overview/"
   - type: link
     name: "Sending requests"
     url: "/docs/sending-requests/requests/"
   - type: link
     name: "Grouping requests in collections"
     url: "/docs/sending-requests/intro-to-collections/"
-
-warning: false
 ---
 
-Using the Postman mock service requires the following: a collection with requests, a mock server, and saved request examples. You can save as many examples to a collection as you want, and the mock server will return these examples predictably. But how exactly does the mock decide which example to return?
+Using Postman's [mock servers](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/) requires a collection with requests and saved request examples. You can save as many examples to a collection as you want, and the mock server will return these examples predictably. Postman uses a matching algorithm to decide which examples to return.
 
-## Matching algorithm for mocks
+## Contents
 
-To begin, let’s start with an example.
+* [Mock server elements](#mock-server-elements)
+* [How the matching algorithm works](#how-the-matching-algorithm-works)
+* [Troubleshooting mock server responses](#troubleshooting-mock-server-responses)
+
+## Mock server elements
+
+When you create a mock server, Postman associates a particular collection (and optionally an environment) with the new mock server. In the scenario below, the collection `C1` is associated with the new mock server `M1`.
 
 [![create mock diagram](https://assets.postman.com/postman-docs/create-mock-v9.jpg)](https://assets.postman.com/postman-docs/create-mock-v9.jpg)
 
-When a mock is created using either Postman or the Postman API, a call is made to the Postman servers that associates a particular collection (and environment if you choose one) with a newly created mock. In this example, the collection `C1` is associated with the new mock `M1`.
+When you call the mock server `M1` using the mock server URL `https://M1.mock.pstmn.io`, the mock service retrieves all saved examples for the associated collection before it begins the matching process.
 
 [![show mock diagram](https://assets.postman.com/postman-docs/show-mock-v9.jpg)](https://assets.postman.com/postman-docs/show-mock-v9.jpg)
 
-When you use the mock URL `https://M1.mock.pstmn.io` to access the mock `M1` in Postman, the mock service will retrieve all saved examples from the Postman servers for that particular collection before it begins the matching process.
+After the mock service has all the saved examples for the collection, it iteratively pairs the incoming request with the closest matching example.
 
 [![use mock diagram](https://assets.postman.com/postman-docs/use-mock-v9.jpg)](https://assets.postman.com/postman-docs/use-mock-v9.jpg)
 
-Now that the mock service has all the saved examples for the current collection, it will now iteratively pair the incoming request with the closest matching example.
+The incoming request can have several configurable variables, such as `requestMethod`, `requestPath`,  `requestHeaders`, `requestBody`, and `requestParams`. The `requestMethod` variable corresponds to any valid HTTP request method (such as `GET`, `POST`,`PUT`, `PATCH`, or `DELETE`), and the `requestPath` refers to any valid string path (such as `/`, `/test`, `/test/path`, or `/test/path/1`).
 
-The incoming request can have several configurable variables, such as `requestMethod` and `mockPath`. The `requestMethod` variable corresponds to any valid HTTP request method (such as `GET`, `POST`,`PUT`, `PATCH`, or `DELETE`), and the `mockPath` refers to any valid string path (`/`, `/test`, `/test/path`, `/test/path/1`).
+Other optional headers like `x-mock-response-name` or `x-mock-response-id` enable you to further specify the example to be returned based on the name or the UID of the saved example. You can get the example response UID by using the Postman API to [GET a Single Collection](https://documenter.getpostman.com/view/12959542/UV5XjJV8#a6a282df-907e-438b-8fe6-e5efaa60b8bf) and searching for your example in the response. The UID has the syntax `<user_id>-<response_id>`.
 
-Other optional headers like `x-mock-response-name` or `x-mock-response-id` allow you to further specify the example to be returned by the name or by the UID of the saved example respectively. You can get the example response UID by using the Postman API to [GET a Single Collection](https://docs.api.getpostman.com/#647806d5-492a-eded-1df6-6529b5dc685c) and searching for your example in the response. The UID has the syntax `<user_id>-<response_id>`.
+<img alt="Mock request configurable elements" src="https://assets.postman.com/postman-docs/mock-configurable-elements-v9-19.jpg"/>
 
-[![mock configurable](https://assets.postman.com/postman-docs/mock_configurable.png)](https://assets.postman.com/postman-docs/mock_configurable.png)
+## How the matching algorithm works
 
-Keeping these various configurable elements in mind, let’s take a look at the matching algorithm logic.
+To match an incoming request with the closest matching example, Postman uses the following algorithm.
 
-1. **Properly formatted responses**
+### 1. Expected response format
 
-   Any responses that are not in the expected format are removed from the matching process.
+The mock service fetches the examples and converts them into Postman response objects using the [Postman Collection SDK](/docs/developer/collection-sdk/). If the conversion process fails for an example, resulting in a response that isn't in the expected format, the example is removed from the matching process.
 
-2. **HTTP method**
+### 2. HTTP method
 
-   Any responses that are not the same HTTP method type are removed from the matching process. For example: if the mock request you sent was `POST` to `https://M1.mock.pstmn.io/test`, all saved examples whose method type is not `POST` will be disregarded.
+Any responses that aren't the same HTTP method type are removed from the matching process. For example, if the mock request you sent was `POST` to `https://M1.mock.pstmn.io/test`, all saved examples for which the method type isn't `POST` are disregarded.
 
-3. **Filter by URL**
+### 3. Filter by URL
 
-   The matching process will examine each saved example, and iterate over every possibility. Compare the `mockPath` of the input URL with that of the saved example. If the input URL was `https://M1.mock.pstmn.io/test` and the example currently being examined had a URL of `https://google.com/help`, the mock service would compare `/test` with `/help`. While comparing URLs, a step-by-step matching is conducted. Each consecutive step that the matching algorithm traverses reduces the matching threshold of the current example response.
+The matching process examines each saved example and iterates over every possibility. The algorithm compares the `path` of the request with the `path` of the example. If the request's URL is `https://M1.mock.pstmn.io/test` and the example's URL is `https://google.com/help`, the algorithm compares `/test` with `/help`. In this case the paths don't match, so the corresponding example is removed from the matching, and the algorithm moves to the next example. While comparing URLs, a step-by-step matching process is performed. Each completed step reduces the matching threshold of the current example response.
 
-   For example:
+Here's an example of how the algorithm filters by URL:
 
-   * Match the input path with the example path exactly as it is. The max value is set as the matching threshold.
-   * Strip trailing slashes and match the input path with the example path. The threshold is reduced by a certain value, `n`.
-   * Use lowercase for the input path and the example path. The threshold is reduced by a greater value, `n + m`.
-   * Strip out alphanumeric IDs from the input path and the example path. The threshold is reduced further, `n + 2m`.
-   * If all steps fail, this saved example is not an eligible response.
-   * Parameters (such as `{{url}}/path?status=pass`) are also considered when matching the URLs and can be used to determine which example to surface.
+* Match the input path with the example path. The highest value is set as the matching threshold.
+* Strip trailing slashes and match the input path with the example path. The threshold is reduced by a certain value, `n`.
+* Use lowercase for the input path and the example path. The threshold is reduced by a greater value, `n + m`.
+* Strip out alphanumeric IDs from the input path and the example path. The threshold is reduced further, `n + 2m`.
+* If all steps fail, this saved example isn't an eligible response.
+* Parameters (such as `{{url}}/path?status=pass`) are also considered when matching the URLs and can be used to decide which example to surface.
 
-4. **Wildcards**
+### 4. Wildcards
 
-    All unresolved variables in an example’s requests, that don’t exist in the mock server’s associated environment, are treated as  wildcard variables. Wildcard variables act as capture groups for dynamic URL segments. You will find this useful if some segments of the API’s URL map to resource identifiers, like user IDs, usernames, or filename.
+All unresolved variables in an example’s request, which don’t exist in the mock server’s associated environment, are treated as  wildcard variables. Wildcard variables act as capture groups for dynamic URL segments. This is useful if some segments of the API’s URL map to resource identifiers, like user IDs, user names, or file names.
 
-    For example, let’s say you are mocking an endpoint that returns a user profile by ID. It takes in the user ID from the URL and returns the user ID in the response as well. So, on calling `GET {{url}}/users/{{userId}}`, the endpoint is supposed to return:
+For example, you can mock an endpoint that returns a user profile by ID. The endpoint takes in the user ID from the URL and returns the user ID in the response. On calling `GET {{url}}/users/{{userId}}`, the endpoint returns:
 
-    ```json
-    {
-      "id": 2,
-      "name": "Carol"
-    }
-    ```
+```json
+{
+  "id": 2,
+  "name": "Carol"
+}
+```
 
-    To match a request like this in your mock, you can use a variable in the request URL of your example. You do not need to hard code values in the example. Instead, you can match any request sent to your mock server that match the pattern `GET /users/<userId>`. To do this, you need to replace the dynamic segments.
+To match a request like this in your mock server, you can use a variable in the request URL of your example. You don't need to hard-code values in the example. Instead, you can match any request sent to your mock server that matches the pattern `GET /users/<userId>`. To do this, replace the dynamic segments.
 
-    Wildcard matching is only applicable to entire URL path segments. So, the same example, `GET {{url}}/users/{{userId}}` can serve `GET /users/1`, `GET /users/100` or even `GET /users/carol`. But, it will not match `GET /users/foo/bar`.
+Wildcard matching applies to entire URL path segments. The same example, `GET {{url}}/users/{{userId}}`, can serve `GET /users/1`, `GET /users/100`, or even `GET /users/carol`. But this example won't match `GET /users/another/segment`.
 
-    You can use the same variables in the example’s response to use their captured values. Taking the same example, you can add a request body for the same example like this:
+You can place the same variables in the example’s response to use their captured values. In this case, you can add a request body for the same example as follows:
 
-    ```js
-    {
-      "id": {{userId}},
-      "name": "Carol"
-    }
-    ```
+```js
+{
+  "id": {{userId}},
+  "name": "Carol"
+}
+```
 
-    This will pass the value captured from the wildcard segment with the same variable name into the response.
+This will pass the value captured from the wildcard segment to the same variable name into the response.
 
-    > Wildcards in response bodies are not part of the matching algorithm.
+> Wildcards in response bodies aren't part of the matching algorithm.
 
-5. **Response code**
+### 5. Response code
 
-   If the `x-mock-response-code` header is explicitly provided, filter out all examples that do not have a matching response code.
+If the `x-mock-response-code` header is provided, the algorithm filters out all examples that don't have a matching response code.
 
-6. **Highest threshold value**
+### 6. Highest threshold value
 
-   Sort the remaining filtered responses in descending order and return the response with the highest threshold value.
+Sort the remaining filtered responses by ID in descending order and return the response with the highest threshold value.
 
-This is how the mock service finds and returns the appropriate response to a mock request.
+> If more than one example has the same threshold value, Postman returns the example that comes first in the sorted list.
+
+## Troubleshooting mock server responses
+
+If the mock server isn't returning the example you expect for a request, try the following:
+
+* **Add different path variables to your examples.** Two examples with the same path variables will be assigned the same threshold value. In this case, Postman will return one of the examples. To make sure more than one example isn't assigned the same threshold value, use different path variables for each of your examples.
+* **Use optional headers to return a specific example.** You can make sure the mock server returns a specific example by using the `x-mock-response-name` or `x-mock-response-id` header in your request. Postman will return the example with the matching name or UID.
+* **Filter out examples by response code.** You can use the `x-mock-response-code` header in your request to specify the response code you want. Any examples that don't have the matching response code are removed from the matching process.
