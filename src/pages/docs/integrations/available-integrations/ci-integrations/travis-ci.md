@@ -33,12 +33,12 @@ To set up Travis CI integration for your API, first create an API token in Travi
 1. Open your API by selecting **APIs** in the sidebar. *Each API can be linked to one CI project*.
 1. Select **Test and Automation**.
 1. Under **Automate**, select **Travis CI**.
-1. For **API Key**, enter your Travis CI token.
 1. Enter a **Nickname** to help you recognize the integration later.
+1. For **API Key**, enter your Travis CI token.
 1. Select the **CI project** used for your API.
 1. Select **Connect**.
 
-<img alt="Connect to Travis CI" src="https://assets.postman.com/postman-docs/travis-ci-connect-project-v9-15.jpg" width="522px">
+<img alt="Connect to Travis CI" src="https://assets.postman.com/postman-docs/v10/travis-ci-connect-project-v10.jpg" width="522px">
 
 ## Viewing build status
 
