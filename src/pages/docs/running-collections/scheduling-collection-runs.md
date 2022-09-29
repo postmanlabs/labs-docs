@@ -22,7 +22,7 @@ contextual_links:
 
 warning: false
 ---
-
+<!--TODO Update this overview content with more details after using the new UI/UX -->
 You can use schedules to [run collections](/docs/running-collections/intro-to-collection-runs/) at specified times. You can view, edit, and delete the schedules you create. You can also pause and resume schedules.
 
 Schedules share permissions with collections. For example, if you have permissions to edit a collection, you'll be able to edit that collection's schedules.
@@ -33,7 +33,7 @@ Schedules share permissions with collections. For example, if you have permissio
 > * Scheduled runs are processed on the Postman cloud. Use of the Postman cloud is limited by  your Postman account.
 > * Scheduled collection runs are not included in workspace history.
 > * Run order can't be customized for scheduled runs in the cloud.
-> * If you import or export a collection, its schedules do not import/export with it. However,  if you delete a collection, its schedules are deleted also.
+> * If you import or export a collection, its schedules do not import/export with it. However, if you delete a collection, its schedules are deleted also.
 
 ## Creating a schedule for a collection
 
