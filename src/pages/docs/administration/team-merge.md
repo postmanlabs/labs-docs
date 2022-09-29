@@ -79,7 +79,7 @@ You can export your personal workspace and shared workspaces for any teams you h
 
 If you have an individual account and aren't part of a team yet, but want to keep an independent workspace after joining one, see [Joining a team](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/#joining-a-team). When migrating company data to an authorized team, you can [export specific data](/docs/getting-started/importing-and-exporting-data/#exporting-postman-data) or [export a dump of all data](/docs/getting-started/importing-and-exporting-data/#exporting-data-dumps).
 
-If you have a personal account and want to deactivate it and join an authorized team, you can accept the team invite and all personal Postman data will be transferred to your new team automatically.
+If you have a personal account and want to deactivate it and join an authorized team, you can accept the team invite and choose to transfer your personal Postman data to your new team.
 
 Choose distributed migration if the following conditions apply:
 
@@ -120,7 +120,9 @@ See [performing distributed migration](#performing-distributed-migration) to cho
 ## Migration FAQs
 
 * **I'm on a free account, what happens to my personal collections when I join a team?**
-If you're an individual Postman user and join a Postman team, your personal workspaces and the data within them is transferred to the team. For more information, see [Joining a team](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/#joining-a-team).
+If you're an individual Postman user and join a Postman team, you can choose to transfer your personal workspaces and the data within them to the team or keep them separate. If the team has [SCIM provisioning](/docs/administration/scim-provisioning/scim-provisioning-overview/) or [domain capture](/docs/administration/managing-your-team/configuring-domain-capture/) enabled, your personal workspaces and the data within them are automatically transferred to the team.
+
+For more information, see [Joining a team](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/#joining-a-team).
 
 > If you experience any issues when joining a new team, [contact Postman support](https://www.postman.com/support/).
 
