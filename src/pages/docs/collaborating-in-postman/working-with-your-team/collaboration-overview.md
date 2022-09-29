@@ -68,7 +68,11 @@ There are several ways you can join a Postman team:
 
 You can be a member of up to five Postman teams, regardless of if they're Postman Free, Basic, Professional, or Enterprise. However, if an Enterprise team within your organization implements domain capture, you won't be able to remain on or join extra Postman teams with your captured accounts.
 
-If you're an individual Postman user and join a Postman team, you can choose to transfer your personal workspaces and the data within them to the team or keep them separate. If the team has [SCIM provisioning](/docs/administration/scim-provisioning/scim-provisioning-overview/) or [domain capture](/docs/administration/managing-your-team/configuring-domain-capture/) enabled, your personal workspaces and the data within them are automatically transferred to the team.
+If you're an individual Postman user and join a team, you can choose to transfer your personal workspaces and the data within them to the team or keep them separate. In certain cases, your personal workspaces and the data within them automatically transfer when you join a team:
+
+* If you [request to join a team](/docs/collaborating-in-postman/working-with-your-team/enabling-team-discovery/#finding-teams-within-your-organization) and are approved by a Team Admin.
+* If the team has [SCIM provisioning](/docs/administration/scim-provisioning/scim-provisioning-overview/) enabled.
+* If the team has [domain capture](/docs/administration/managing-your-team/configuring-domain-capture/) enabled.
 
 When you leave a team, your personal workspaces within the team and their data will remain with the team and no longer be accessible to you.
 
