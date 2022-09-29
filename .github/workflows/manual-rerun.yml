@@ -13,7 +13,7 @@ jobs:
         node-version: '14'
     - name: lint all markdownfiles
       env:
-        PM_TECH: ${{secrets.PM_TECH}}
+        PM_TECH_RT: ${{secrets.PM_TECH_RT}}
       run: |
         npm config set //registry.npmjs.org/:_authToken=${{secrets.NPM_TOKEN}}
         npm install
@@ -27,7 +27,7 @@ jobs:
         fi
     - name: running unit tests
       env:
-        PM_TECH: ${{secrets.PM_TECH}}
+        PM_TECH_RT: ${{secrets.PM_TECH_RT}}
       run: |
         npm config set //registry.npmjs.org/:_authToken=${{secrets.NPM_TOKEN}}
         npm install

@@ -34,8 +34,8 @@ To get the latest version of the Postman desktop app, visit the [download page](
 ## Contents
 
 * Installing Postman on the desktop
-    * [Mac](#installing-postman-on-mac)
     * [Windows](#installing-postman-on-windows)
+    * [Mac](#installing-postman-on-mac)
     * [Linux](#installing-postman-on-linux)
 * [Using the Postman web app](#using-the-postman-web-app)
     * [Browser requirements](#browser-requirements)
@@ -46,6 +46,15 @@ To get the latest version of the Postman desktop app, visit the [download page](
     * [Migrating to the native app](#migrating-to-the-native-app)
 * [Using Postman behind a firewall](#using-postman-behind-a-firewall)
 * [Troubleshooting your Postman installation](#troubleshooting-your-postman-installation)
+
+## Installing Postman on Windows
+
+Postman is available for Windows 7 and later.
+
+1. [Download](https://www.postman.com/downloads/) the latest Postman version.
+1. Select and run the `.exe` file to install Postman.
+
+> Postman v9.4 is the last version of Postman that supports both 32-bit and 64-bit Windows. All versions of Postman following v9.4 will only work on 64-bit Windows. You can continue to use Postman v9.4 and earlier on 32-bit Windows.
 
 ## Installing Postman on Mac
 
@@ -66,15 +75,6 @@ You can also install Postman using the [Homebrew](https://brew.sh/) package mana
 ```sh
 brew install --cask postman
 ```
-
-## Installing Postman on Windows
-
-Postman is available for Windows 7 and later.
-
-1. [Download](https://www.postman.com/downloads/) the latest Postman version.
-1. Select and run the `.exe` file to install Postman.
-
-> Postman v9.4 is the last version of Postman that supports both 32-bit and 64-bit Windows. All versions of Postman following v9.4 will only work on 64-bit Windows. You can continue to use Postman v9.4 and earlier on 32-bit Windows.
 
 ## Installing Postman on Linux
 

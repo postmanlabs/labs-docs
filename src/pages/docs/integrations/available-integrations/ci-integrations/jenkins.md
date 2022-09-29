@@ -73,6 +73,14 @@ To view details for collections that were run as part of a build, first [configu
 
 > Select **View Report** to view a collection run report in the Postman **History**. Learn more about using the [Collection Runner](/docs/running-collections/intro-to-collection-runs/).
 
+## Viewing API Governance and API Security rule violations
+
+Using the Postman CLI, you can enforce [API Governance and API Security rules each time the pipeline runs](/docs/api-governance/api-definition/api-definition-warnings/#tracking-governance-and-security-rule-violations-in-cicd) using the [`api lint` command](/docs/postman-cli/postman-cli-options/#governance-and-security) ([Enterprise teams only](https://www.postman.com/pricing/)).
+
+To view the results of API Governance and API Security checks that ran as part of the build, first [configure the Postman CLI for Jenkins](#configuring-the-postman-cli-for-jenkins) and then [start a new build](#viewing-build-status). After the build is complete, use the arrows to expand a build and expand an API definition to view any rule violations.
+
+<img alt="View API Governance and API Security results" src="https://assets.postman.com/postman-docs/v10/api-governance-and-security-results-v10.jpg">
+
 ## Configuring the Postman CLI for Jenkins
 
 With the help of the Postman CLI and the Postman API, you can run API tests created in Postman as part of your Jenkins pipeline. First generate the Postman CLI configuration code in Postman. Then add the configuration code to your Jenkins pipeline.
@@ -87,7 +95,7 @@ To generate configuration code for the Postman CLI:
 1. Under **CI/CD Builds**, select **View Builds**.
 1. Select **Configure Postman CLI**.
 1. Select a **Collection** to run during pipeline builds. To be available in the dropdown list, you must first [add the collection as a test suite](/docs/designing-and-developing-your-api/testing-an-api/#adding-tests) to your API. You can also select an **Environment** to use.
-1. (Optional) Select the checkbox to enforce API Governance and API Security rules each time the CI/CD pipeline runs ([Enterprise teams only](https://www.postman.com/pricing/)). To review rule violations, go to the API's overview page and select **View files** under **Definition**.
+1. (Optional) Select the checkbox to enforce API Governance and API Security rules each time the CI/CD pipeline runs ([Enterprise teams only](https://www.postman.com/pricing/)).
 1. Select the **Operating system** for your CI/CD pipeline.
 1. Select **Copy Postman CLI Command** to copy the Postman CLI configuration.
 
