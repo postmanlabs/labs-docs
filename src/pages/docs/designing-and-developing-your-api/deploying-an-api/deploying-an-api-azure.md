@@ -13,13 +13,13 @@ contextual_links:
 
 ---
 
-[Azure API Management](https://azure.microsoft.com/en-us/services/api-management/) enables developers to deploy API gateways for APIs hosted in Microsoft Azure, other cloud platforms, or on-premises. Once connected to Azure API Management, you can view your API deployment status and history from within Postman. You can also export your OpenAPI schema from Postman to Azure API Management, or import a schema from Azure to use it in Postman.
+[Azure API Management](https://azure.microsoft.com/en-us/services/api-management/) enables developers to deploy API gateways for APIs hosted in Microsoft Azure, other cloud platforms, or on-premises. Once connected to Azure API Management, you can view your API deployment status and history from within Postman. You can also export your OpenAPI definition from Postman to Azure API Management, or import a definition from Azure to use it in Postman.
 
 ## Contents
 
 * [Connecting to Azure API Management](#connecting-to-azure-api-management)
 * [Viewing Azure API deployments](#viewing-azure-api-deployments)
-* [Importing a schema from Azure](#importing-a-schema-from-azure)
+* [Importing a definition from Azure](#importing-a-definition-from-azure)
 * [Exporting your API to Azure API Management](#exporting-your-api-to-azure-api-management)
 
 ## Connecting to Azure API Management
@@ -27,7 +27,7 @@ contextual_links:
 To connect to Azure API Management in Postman:
 
 1. Select **APIs** in the sidebar and select an API.
-1. Under **Power up your API**, select **Deployments**, and then select **Azure API Management**.
+1. Select **Deployments**, and then select **Microsoft Azure**.
 1. You'll be prompted to authorize Postman to access your Microsoft Azure account. After you grant access, you can close the browser tab and return to Postman.
 1. Enter information about the Azure API Management service you want to connect to your API:
 
@@ -41,10 +41,10 @@ To connect to Azure API Management in Postman:
 
     <img alt="Azure API Management setup" src="https://assets.postman.com/postman-docs/azure-apim-setup-v9-17.jpg" width="518"/>
 
-1. If you want, you can choose to import a schema from Azure API Management:
+1. If you want, you can choose to import a definition from Azure API Management:
 
-    * To import a schema, select the **Schema type** (OpenAPI 2.0 or OpenAPI 3.0). Then select the **Azure service** to import the schema from and select **Import**. _Importing a schema will replace your current API schema or add a new schema if one doesn't exist._
-    * If you don't want to import a schema, select **Maybe later**. You can [import a schema](#importing-a-schema-from-azure) at any time after connecting to Azure API Management.
+    * To import a definition, select the **Schema type** (OpenAPI 2.0 or OpenAPI 3.0). Then select the **Azure service** to import the definition from and select **Import**. _Importing a definition will replace your current API definition or add a new definition if one doesn't exist._
+    * If you don't want to import a definition, select **Maybe later**. You can [import a definition](#importing-a-definition-from-azure) at any time after connecting to Azure API Management.
 
     <img alt="Azure API Management setup" src="https://assets.postman.com/postman-docs/azure-apim-setup-import-v9-16.jpg" width="518px"/>
 
@@ -52,7 +52,7 @@ To connect to Azure API Management in Postman:
 
 ## Viewing Azure API deployments
 
-After connecting to Azure API Management, you can view the deployment status and history for your API schemas in Postman. Select **APIs** in the sidebar and select an API. Under **Power up your API**, select **Deployments**.
+After connecting to Azure API Management, you can view the deployment status and history for your API definition in Postman. Select **APIs** in the sidebar and select an API, then select **Deployments**.
 
 For each connected API Management service instance, you can view the resource group, location, subscription, and virtual IP address (VIP).
 
@@ -74,36 +74,36 @@ Select a service to view more details about the connected Azure API version.
 From the service details view, you can take the following actions:
 
 * Use the dropdown list to view a different Azure API Management service instance.
-* To export your schema to Azure, select **Export API**. Learn more about [exporting your API](#exporting-your-api-to-azure-api-management).
-* To import a schema from Azure, select **Import Schema**. Learn more about [importing a schema](#importing-a-schema-from-azure).
+* To export your definition to Azure, select **Export API**. Learn more about [exporting your API](#exporting-your-api-to-azure-api-management).
+* To import a definition from Azure, select **Import Schema**. Learn more about [importing a definition](#importing-a-definition-from-azure).
 * To see the latest deployment status, select the refresh icon <img alt="Refresh icon" src="https://assets.postman.com/postman-docs/icon-refresh-v9-5.jpg#icon" width="14px">.
 * To edit or delete the connection to Azure API management, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px">.
 * To open the gateway URL of the API management service, select the **Gateway URL** link.
 * To open the developer portal for the API management service, select **View Developer Portal**.
 
-## Importing a schema from Azure
+## Importing a definition from Azure
 
-You can import a schema from a connected Azure API Management service to your API in Postman. _Importing a schema will replace your current API schema or add a new schema if one doesn't exist._
+You can import a definition from a connected Azure API Management service to your API in Postman. _Importing a definition will replace your current API definition or add a new definition if one doesn't exist._
 
 1. Select **APIs** in the sidebar and select an API.
-1. Under **Power up your API**, select **Deployments**, and then select **Azure API Management**.
+1. Select **Deployments**, and then select **Microsoft Azure**.
 1. Select a connected service in the list, and then select **Import Schema**.
 1. Select the **Schema type** (OpenAPI 2.0 or OpenAPI 3.0).
-1. Select the **Azure service** to import the schema from.
+1. Select the **Azure service** to import the definition from.
 1. Select **Import**.
 
-<img alt="Importing a schema" src="https://assets.postman.com/postman-docs/azure-apim-import-schema-v9-16.jpg" width="651px"/>
+<img alt="Importing a definition" src="https://assets.postman.com/postman-docs/azure-apim-import-schema-v9-16.jpg" width="651px"/>
 
 ## Exporting your API to Azure API Management
 
-Exporting an OpenAPI schema makes it available in the connected Azure API Management service. OpenAPI 2.0 and 3.0.x schemas are supported. You can export the schema to an existing revision or to a new revision.
+Exporting an OpenAPI definition makes it available in the connected Azure API Management service. OpenAPI 2.0 and 3.0.x definition are supported. You can export the definition to an existing revision or to a new revision.
 
 1. Select **APIs** in the sidebar and select an API.
-1. Under **Power up your API**, select **Deployments**, and then select **Azure API Management**.
+1. Select **Deployments**, and then select **Microsoft Azure**.
 1. Select the service you want to export to, and then select **Export API**.
-1. Select the branch or version to export.
+1. Select the branch or version to export. <!--Verify this step -->
 1. Enter a brief description for the export.
-1. (Optional) If you want to export the schema to an existing revision, select the check box. Select the **Revision ID** of the revision you want to update.
+1. (Optional) If you want to export the definition to an existing revision, select the check box. Select the **Revision ID** of the revision you want to update.
 
     > If you don't select the checkbox, Postman exports the API to a new revision.
 
@@ -115,8 +115,8 @@ After exporting, you can use the **Current** toggle to make the new or updated r
 
 ### Troubleshooting export issues
 
-If you have problems exporting your schema, check the following:
+If you have problems exporting your definition, check the following:
 
-* Some schema fields (such as name, description, and protocols) must be updated on the current revision and can't be updated on other revisions. To update these fields on revisions that aren't the current revision, perform a manual merge instead.
+* Some definition fields (such as name, description, and protocols) must be updated on the current revision and can't be updated on other revisions. To update these fields on revisions that aren't the current revision, perform a manual merge instead.
 
 * Some properties of the OpenAPI specification aren't supported by Azure API Management. For more information, see the Microsoft help article [API import restrictions and known issues](https://docs.microsoft.com/en-us/azure/api-management/api-management-api-import-restrictions).
