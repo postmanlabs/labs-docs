@@ -39,12 +39,12 @@ Enter the required information to configure the API gateway integration. For mor
 * [Deploying to an Apigee API gateway](/docs/designing-and-developing-your-api/deploying-an-api/deploying-an-api-apigee/)
 * [Deploying to Azure API Management](/docs/designing-and-developing-your-api/deploying-an-api/deploying-an-api-azure/)
 
-<img alt="Connecting to an API Gateway" src="https://assets.postman.com/postman-docs/v10/api-builder-connect-deployments-v10.jpg" />
+<img alt="Connecting to an API Gateway" src="https://assets.postman.com/postman-docs/v10/api-builder-connect-deployments-v10-0-13.jpg" />
 
 ## Viewing API deployments in Postman
 
 After connecting to an API gateway, you can view the deployment history for your API definitions in Postman. Select **APIs** in the sidebar and select an API, then select **Deployments**.
 
-* **Amazon API Gateway** - View the active deployment for each stage, recent exports from Postman, and details about each deployment. You can also export or deploy your HTTP API schema from Postman to your gateway. Learn more about [Viewing Amazon API gateway deployments](/docs/designing-and-developing-your-api/deploying-an-api/deploying-an-api-aws/#viewing-amazon-api-gateway-deployments).
+* **Amazon API Gateway** - View the active deployment for each stage, recent exports from Postman, and details about each deployment. You can also export or deploy your HTTP API definition from Postman to your gateway. Learn more about [Viewing Amazon API gateway deployments](/docs/designing-and-developing-your-api/deploying-an-api/deploying-an-api-aws/#viewing-amazon-api-gateway-deployments).
 * **Apigee X** - View details about your Apigee API proxy and proxy endpoints. You can also view details about your Apigee environments. Learn more about [Viewing Apigee X deployments](/docs/designing-and-developing-your-api/deploying-an-api/deploying-an-api-apigee/#viewing-apigee-x-deployments).
-* **Azure API Management** View deployments for each of your Azure API Management services. You can view the revision history, changelog, and export history. You can also export your API schema from Postman to Azure API Management. Learn more about [Viewing Azure API deployments](/docs/designing-and-developing-your-api/deploying-an-api/deploying-an-api-azure/#viewing-azure-api-deployments).
+* **Azure API Management** View deployments for each of your Azure API Management services. You can view the revision history, changelog, and export history. You can also export your API definition from Postman to Azure API Management. Learn more about [Viewing Azure API deployments](/docs/designing-and-developing-your-api/deploying-an-api/deploying-an-api-azure/#viewing-azure-api-deployments).
