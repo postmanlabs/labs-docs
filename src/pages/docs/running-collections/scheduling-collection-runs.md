@@ -39,6 +39,8 @@ Scheduled collection runs are not included in workspace history.
 
 Run order can't be customized for scheduled runs in the cloud.
 
+## Creating a schedule for a collection
+
 1. Select **Collections** in the sidebar and select the collection you want to run.
 
 1. On the Overview tab, select <img alt="Runner icon" src="https://assets.postman.com/postman-docs/icon-runner-v9.jpg#icon" width="16px"> **Run**.
@@ -60,3 +62,30 @@ Run order can't be customized for scheduled runs in the cloud.
       * Enable SSL validation
 
 1. Select the `Schedule Run` button.
+
+<!-- TODO: Update the `viewing, editing, and deleting schedules` content below based as the Scheduled Collection Runs UI evolves. The content below is placeholder based on the design doc and existing v10 UI. -->
+## Viewing a schedule
+
+1. Select **Collections** in the sidebar and select the collection whose schedule you want to edit.
+
+1. Select the **Runs** tab. A list of past and scheduled collection runs appears.
+
+1. Select a scheduled run to view its schedule.
+
+## Editing a schedule
+
+1. Select **Collections** in the sidebar and select the collection whose schedule you want to edit.
+
+1. Select the **Runs** tab. A list of past and scheduled collection runs appears.
+
+1. Select a scheduled run to edit its schedule.
+
+## Deleting a schedule
+
+1. Select **Collections** in the sidebar and select the collection whose schedule you want to edit.
+
+1. Select the **Runs** tab. A list of past and scheduled collection runs appears.
+
+1. Select the checkbox next to the scheduled collection run you want to delete.
+
+1. Select the **Delete** button.
