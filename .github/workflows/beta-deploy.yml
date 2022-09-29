@@ -31,6 +31,7 @@ jobs:
           
       - name: set keys and deploy
         env:
+          AWS_MAX_ATTEMPTS: 10
           GATSBY_ALGOLIA_APP_ID: ${{ secrets.GATSBY_ALGOLIA_APP_ID}}
           GATSBY_ALGOLIA_DEV_KEY: ${{secrets.GATSBY_ALGOLIA_DEV_KEY}}
           ALGOLIA_ADMIN_KEY: ${{secrets.ALGOLIA_ADMIN_KEY}}
