@@ -96,9 +96,9 @@ You can import a definition from a connected Azure API Management service to you
 Exporting an OpenAPI definition makes it available in the connected Azure API Management service. OpenAPI 2.0 and 3.0.x definition are supported. You can export the definition to an existing revision or to a new revision.
 
 1. Select **APIs** in the sidebar and select an API.
-1. Select **Deployments**, and then select **Microsoft Azure**.
+1. Select **Deployments**.
 1. Select the service you want to export to, and then select **Export API**.
-1. Select the branch or version to export. <!--Verify this step -->
+1. Select the source of the definition you want to export. You can select the current definition or any [published version](/docs/designing-and-developing-your-api/versioning-an-api/api-versions/) of the definition.
 1. Enter a brief description for the export.
 1. (Optional) If you want to export the definition to an existing revision, select the check box. Select the **Revision ID** of the revision you want to update.
 
@@ -106,7 +106,7 @@ Exporting an OpenAPI definition makes it available in the connected Azure API Ma
 
 1. Select **Export**.
 
-<img alt="Exporting an API" src="https://assets.postman.com/postman-docs/azure-apim-export-v9-15.jpg" width="520px"/>
+<img alt="Exporting an API" src="https://assets.postman.com/postman-docs/v10/azure-apim-export-v10.jpg" width="526px"/>
 
 After exporting, you can use the **Current** toggle to make the new or updated revision the current revision.
 
