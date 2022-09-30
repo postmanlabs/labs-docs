@@ -192,7 +192,7 @@ Exporting an HTTP API definition makes it available in the connected Amazon API 
 1. Select **APIs** in the sidebar and select an API.
 1. Select **Deployments**.
 1. Select **Deploy API**.
-1. Select the definition source to deploy. The definition source can be a branch, API version, or API definition.
+1. Select the source of the definition you want to deploy. You can select the current definition or any [published version](/docs/designing-and-developing-your-api/versioning-an-api/api-versions/) of the definition.
 1. (Optional) If you would like to deploy the definition to a stage after exporting, select **Deploy on a stage**. Select the AWS stage to deploy the definition to, and enter a brief description.
 
     > To deploy your definition, your gateway must have at least one route with a configured integration.
