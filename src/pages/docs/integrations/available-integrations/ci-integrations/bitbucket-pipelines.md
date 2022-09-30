@@ -31,7 +31,7 @@ If you haven't already, create a pipeline in the Bitbucket repository you use fo
 1. Select the **CI project** used for your API.
 1. Select **Connect**.
 
-<img alt="Connect to Bitbucket Pipelines" src="https://assets.postman.com/postman-docs/bitbucket-pipelines-connect-project-v9-15.jpg" width="518px">
+<img alt="Connect to Bitbucket Pipelines" src="https://assets.postman.com/postman-docs/v10/bitbucket-pipelines-connect-project-v10.jpg" width="518px">
 
 ## Viewing build status
 
