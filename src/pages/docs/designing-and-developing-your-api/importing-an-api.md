@@ -62,7 +62,7 @@ To learn more about working with multi-file API definitions, see [Editing an API
 
 [Amazon API Gateway](https://aws.amazon.com/api-gateway/) enables developers to publish and manage APIs that access AWS and other web services and data sources. You can import APIs directly from AWS Gateway to Postman. This creates an integration with API Gateway. Once connected, you can view your API deployment status and history from within Postman. You can also view [Amazon CloudWatch](https://aws.amazon.com/cloudwatch/) metrics for each stage to get operational insight into your API.
 
-This integration supports importing OpenAPI 3.0 definitions for both HTTP and REST APIs. Importing will create a new API in Postman, with the API name set as the name of the API Gateway. The new API will also have the AWS API Gateway integration added to it.
+This integration supports importing OpenAPI 3.0 definitions for both HTTP and REST APIs. Importing a definition will create a new API in Postman and will also configure an integration with AWS API Gateway.
 
 To import an API from AWS API Gateway:
 
