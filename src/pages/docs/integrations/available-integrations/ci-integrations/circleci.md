@@ -38,12 +38,12 @@ To set up CircleCI integration for your API, first create an API token in Circle
 1. Open your API by selecting **APIs** in the sidebar. *Each API can be linked to one CI project*.
 1. Select **Test and Automation**.
 1. Under **Automate**, select **CircleCI**.
-1. For **API Key**, enter your CircleCI token.
 1. Enter a **Nickname** to help you recognize the integration later.
+1. For **API Key**, enter your CircleCI token.
 1. Select the **CI project** used for your API.
 1. Select **Connect**.
 
-<img alt="Connect to CircleCI" src="https://assets.postman.com/postman-docs/circleci-connect-project-v9-15.jpg" width="512px">
+<img alt="Connect to CircleCI" src="https://assets.postman.com/postman-docs/v10/circleci-connect-project-v10.jpg" width="512px">
 
 ## Viewing build status
 
