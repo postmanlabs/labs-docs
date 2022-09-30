@@ -39,16 +39,14 @@ To connect to Azure API Management in Postman:
 1. To connect more Azure API Management services, select **+ Add Service**. To remove a service, select **Remove**.
 1. When you're finished adding services, select **Connect**.
 
-    <img alt="Azure API Management setup" src="https://assets.postman.com/postman-docs/azure-apim-setup-v9-17.jpg" width="518"/>
+    <img alt="Azure API Management setup" src="https://assets.postman.com/postman-docs/v10/azure-apim-setup-v10.jpg" width="513"/>
 
 1. If you want, you can choose to import a definition from Azure API Management:
 
-    * To import a definition, select the **Schema type** (OpenAPI 2.0 or OpenAPI 3.0). Then select the **Azure service** to import the definition from and select **Import**. _Importing a definition will replace your current API definition or add a new definition if one doesn't exist._
+    * To import a definition, select the **Definition type** (OpenAPI 2.0 or OpenAPI 3.0). Then select the **Azure service** to import the definition from and select **Import**. _Importing a definition will replace your current API definition or add a new definition if one doesn't exist._
     * If you don't want to import a definition, select **Maybe later**. You can [import a definition](#importing-a-definition-from-azure) at any time after connecting to Azure API Management.
 
-    <img alt="Azure API Management setup" src="https://assets.postman.com/postman-docs/azure-apim-setup-import-v9-16.jpg" width="518px"/>
-
-> When you delete an API or remove it from a workspace, any configured integrations aren't deleted or removed. On the Postman **Home** page, select **Integrations** and search for "Microsoft Azure" to view the list of [Azure API Management integrations](https://go.postman.co/integrations/service/api_management_azure/api_management_azure). To delete an integration, select it and then select **Delete Integration**.
+    <img alt="Azure API Management import definition during setup" src="https://assets.postman.com/postman-docs/v10/azure-apim-setup-import-v10.jpg" width="513px"/>
 
 ## Viewing Azure API deployments
 
@@ -56,7 +54,7 @@ After connecting to Azure API Management, you can view the deployment status and
 
 For each connected API Management service instance, you can view the resource group, location, subscription, and virtual IP address (VIP).
 
-<img alt="Viewing Azure API Management services" src="https://assets.postman.com/postman-docs/azure-apim-deployments-tab-v10.jpg"/>
+<img alt="Viewing Azure API Management services" src="https://assets.postman.com/postman-docs/v10/azure-apim-deployments-v10.jpg"/>
 
 Select a service to view more details about the connected Azure API version.
 
@@ -69,13 +67,13 @@ Select a service to view more details about the connected Azure API version.
 
 * **Export History** - The export history lists all exports from Postman for this API. For each export, you can view the date created, the Azure revision, and the Postman source.
 
-<img alt="Viewing a service instance" src="https://assets.postman.com/postman-docs/azure-apim-view-a-service-v9-17.jpg"/>
+<img alt="Viewing a service instance" src="https://assets.postman.com/postman-docs/v10/azure-apim-view-a-service-v10.jpg"/>
 
 From the service details view, you can take the following actions:
 
 * Use the dropdown list to view a different Azure API Management service instance.
 * To export your definition to Azure, select **Export API**. Learn more about [exporting your API](#exporting-your-api-to-azure-api-management).
-* To import a definition from Azure, select **Import Schema**. Learn more about [importing a definition](#importing-a-definition-from-azure).
+* To import a definition from Azure, select **Import Definition**. Learn more about [importing a definition](#importing-a-definition-from-azure).
 * To see the latest deployment status, select the refresh icon <img alt="Refresh icon" src="https://assets.postman.com/postman-docs/icon-refresh-v9-5.jpg#icon" width="14px">.
 * To edit or delete the connection to Azure API management, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px">.
 * To open the gateway URL of the API management service, select the **Gateway URL** link.
@@ -86,13 +84,12 @@ From the service details view, you can take the following actions:
 You can import a definition from a connected Azure API Management service to your API in Postman. _Importing a definition will replace your current API definition or add a new definition if one doesn't exist._
 
 1. Select **APIs** in the sidebar and select an API.
-1. Select **Deployments**, and then select **Microsoft Azure**.
-1. Select a connected service in the list, and then select **Import Schema**.
-1. Select the **Schema type** (OpenAPI 2.0 or OpenAPI 3.0).
+1. Select **Deployments**, and then select **Import Definition**.
+1. Select the **Definition type** (OpenAPI 2.0 or OpenAPI 3.0).
 1. Select the **Azure service** to import the definition from.
 1. Select **Import**.
 
-<img alt="Importing a definition" src="https://assets.postman.com/postman-docs/azure-apim-import-schema-v9-16.jpg" width="651px"/>
+<img alt="Importing a definition" src="https://assets.postman.com/postman-docs/v10/azure-apim-import-schema-v10.jpg" width="651px"/>
 
 ## Exporting your API to Azure API Management
 
