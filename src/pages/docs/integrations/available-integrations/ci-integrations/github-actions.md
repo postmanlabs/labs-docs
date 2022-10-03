@@ -22,6 +22,7 @@ To set up a GitHub Actions integration for your API, first create a pipeline in 
 * [Configuring a GitHub Actions integration](#configuring-a-github-actions-integration)
 * [Viewing build status](#viewing-build-status)
 * [Viewing collection run details](#viewing-collection-run-details)
+* [Viewing API Governance and API Security rule violations](#viewing-api-governance-and-api-security-rule-violations)
 * [Configuring the Postman CLI for GitHub Actions](#configuring-the-postman-cli-for-github-actions)
 
 ## Creating a pipeline in GitHub
@@ -62,7 +63,7 @@ Select **View All Builds** to view the full list of build jobs. From here you ca
 * To get the latest build status information, select <img alt="Refresh icon" src="https://assets.postman.com/postman-docs/icon-refresh-v9-5.jpg#icon" width="14px"> **Refresh**.
 * To edit or delete the integration, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px">.
 
-<img alt="View all GitHub builds" src="https://assets.postman.com/postman-docs/v10/collection-runs-v10-2.jpg">
+<img alt="View all GitHub builds" src="https://assets.postman.com/postman-docs/v10/github-actions-collection-runs-v10.jpg">
 
 ## Viewing collection run details
 
@@ -70,9 +71,17 @@ Using the Postman CLI, you can run Postman collections with your API tests as pa
 
 To view details for collections that were run as part of a build, first [configure the Postman CLI for GitHub](#configuring-the-postman-cli-for-github-actions) and then start a new build in GitHub. To learn more about starting builds, see [the GitHub Actions documentation](https://docs.github.com/en/actions/managing-workflow-runs/manually-running-a-workflow). After the build is complete, use the arrows to expand a build and expand a collection to view details about a collection run.
 
-<img alt="View GitHub Actions collection runs" src="https://assets.postman.com/postman-docs/v10/collection-runs-v10-2.jpg">
+<img alt="View GitHub Actions collection runs" src="https://assets.postman.com/postman-docs/v10/github-actions-collection-runs-v10.jpg">
 
 > Select **View Report** to view a collection run report in the Postman **History**. Learn more about using the [Collection Runner](/docs/running-collections/intro-to-collection-runs/).
+
+## Viewing API Governance and API Security rule violations
+
+Using the Postman CLI, you can enforce [API Governance and API Security rules each time the pipeline runs](/docs/api-governance/api-definition/api-definition-warnings/#tracking-governance-and-security-rule-violations-in-cicd) using the [`api lint` command](/docs/postman-cli/postman-cli-options/#governance-and-security) ([Enterprise teams only](https://www.postman.com/pricing/)).
+
+To view the results of API Governance and API Security checks that ran as part of the build, first [configure the Postman CLI for GitHub Actions](#configuring-the-postman-cli-for-github-actions) and then start a new build on GitHub. After the build is complete, use the arrows to expand a build and expand an API definition to view any rule violations.
+
+<img alt="View API Governance and API Security results" src="https://assets.postman.com/postman-docs/v10/github-actions-api-governance-and-security-results-v10.jpg">
 
 ## Configuring the Postman CLI for GitHub Actions
 
@@ -88,7 +97,7 @@ To generate configuration code for the Postman CLI:
 1. Under the repository name, select **View All Builds**.
 1. Select **Configure Postman CLI**.
 1. Select a **Collection** to run during pipeline builds. To be available in the list, you must first [add the collection as a test suite](/docs/designing-and-developing-your-api/testing-an-api/#adding-tests) to your API. You can also select an **Environment** to use.
-1. (Optional) Select the checkbox to enforce API Governance and API Security rules each time the CI/CD pipeline runs ([Enterprise teams only](https://www.postman.com/pricing/)). To review rule violations, go to the API's overview page and select **View files** under **Definition**.
+1. (Optional) Select the checkbox to enforce API Governance and API Security rules each time the CI/CD pipeline runs ([Enterprise teams only](https://www.postman.com/pricing/)).
 1. Select the **Operating system** for your CI/CD pipeline.
 1. Select **Copy Postman CLI Command** to copy the Postman CLI configuration.
 

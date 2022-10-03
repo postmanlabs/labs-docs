@@ -56,7 +56,7 @@ Once you've generated documentation for your collection or API, users can [view 
     * [Creating new documentation for an API](#creating-new-documentation-for-an-api)
     * [Adding existing documentation to an API](#adding-existing-documentation-to-an-api)
     * [Editing API documentation](#editing-api-documentation)
-    * [Removing API documentation](#removing-api-documentation)
+    * [Deleting API documentation](#deleting-api-documentation)
 * [Associating environments with documentation](#associating-environments-with-documentation)
 * [Next steps](#next-steps)
 
@@ -77,7 +77,7 @@ To make your documentation even more valuable to users, [add descriptions](/docs
 
 ## Generating API documentation
 
-The API Builder provides one place to view, create, and manage all of your API's documentation. Postman automatically generates API docs for any OpenAPI 3.0 definition. You can also add detailed documentation to any API by generating a collection from the API or by linking to an existing collection.
+The API Builder provides one place to view, create, and manage all of your API's documentation. Postman automatically generates API docs for any OpenAPI 3.0 definition. You can also add detailed documentation to any API by generating a collection from the API or by adding a copy of an existing collection.
 
 ### Viewing schema documentation
 
@@ -97,25 +97,27 @@ To view the documentation for an OpenAPI 3.0 API:
 To generate a new collection for API documentation:
 
 1. Select **APIs** in the sidebar and select an API.
-1. Next to **Definition** select **Generate Collection**.
+1. On the API's overview, next to **Collections**, select **+** and select **Generate from API definition**.
 1. Change any settings to customize the new collection.
 1. Select **Generate Collection**.
 
-The linked collection displays on your API's overview and under your API in the sidebar. To view documentation for the collection, expand the collection and select **View full documentation**.
+The new collection displays on your API's overview and under your API in the sidebar. To view documentation for the collection, expand the collection and select **View full documentation**.
 
-<img alt="Generating new API documentation" src="https://assets.postman.com/postman-docs/v10/documentation-generate-api-docs-v10.jpg" />
+<img alt="Generating new API documentation" src="https://assets.postman.com/postman-docs/v10/documentation-generate-api-docs-v10-0-5.jpg" />
 
 ### Adding existing documentation to an API
 
 To use an existing collection for API documentation:
 
 1. Select **APIs** in the sidebar and select an API.
-1. Next to **Collections** select **+ Add a collection**.
-1. Select an available collection and select **Add Collection**.
+1. On the API's overview, next to **Collections**, select **+** and select **Copy existing collection**.
+1. Select an available collection and select **Copy Collection**.
 
-The linked collection displays on your API's overview and under your API in the sidebar. To view documentation for the collection, expand the collection and select **View full documentation**.
+The copy of the collection displays on your API's overview and under your API in the sidebar. To view documentation for the collection, expand the collection and select **View full documentation**.
 
-<img alt="Adding existing API documentation" src="https://assets.postman.com/postman-docs/v10/documentation-add-api-docs-v10.jpg" />
+<img alt="Adding existing API documentation" src="https://assets.postman.com/postman-docs/v10/documentation-add-api-docs-v10-0-5.jpg" />
+
+> When you add a collection, an independent copy of the collection is added to the API. The copy in the API will no longer be in sync with the original. If you move or delete an API, any collections contained in the API are moved or deleted with it.
 
 ### Editing API documentation
 
@@ -129,15 +131,13 @@ You can add to your API documentation collections from the API Builder.
 
 <img alt="Editing API documentation" src="https://assets.postman.com/postman-docs/v10/documentation-editing-api-docs-v10.jpg" />
 
-### Removing API documentation
+### Deleting API documentation
 
-To remove a linked documentation collection from an API:
+To delete a documentation collection from an API:
 
 1. Select **APIs** in the sidebar and select an API.
-1. On the API's overview, select the remove icon the remove icon <img alt="Remove icon" src="https://assets.postman.com/postman-docs/icon-remove-api-element-v9.jpg#icon" width="16px"> next to a collection.
-1. Select **Remove Collection**.
-
-> Removing documentation removes the link between the collection and the API. The collection itself isn't deleted and can be accessed by selecting **Collections** in the sidebar.
+1. On the API's overview, hover over a collection and select the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px">.
+1. Select **Delete**.
 
 ## Associating environments with documentation
 

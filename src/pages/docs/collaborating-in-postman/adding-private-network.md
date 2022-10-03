@@ -264,9 +264,9 @@ The APIs that you publish to the Private API Network reflect the latest state of
 
 #### Publishing specific API versions
 
-If your API is connected to a Git repository, you need to publish an API version to update your team workspace with the latest changes. When you publish a version, the API's definition and linked elements (collections and environments) are synced to the Postman cloud.
+Publishing a version creates a static representation of your API that consumers can view on the Private API Network. If your API is connected to a Git repository, you need to publish an API version to update your team workspace with the latest changes. When you publish a version, the API's definition and collections are synced to the Postman cloud.
 
-API consumers can view the latest published version on the Private API Network. Learn more about [publishing an API version](/docs/designing-and-developing-your-api/versioning-an-api/api-versions/).
+Learn more about [publishing an API version](/docs/designing-and-developing-your-api/versioning-an-api/api-versions/).
 
 #### Importing APIs from a code repository
 
