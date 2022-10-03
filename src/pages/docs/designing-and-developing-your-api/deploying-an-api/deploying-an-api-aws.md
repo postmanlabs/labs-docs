@@ -201,6 +201,6 @@ Exporting an HTTP API definition makes it available in the connected Amazon API 
 
     > If you have a problem exporting or deploying, make sure you've assigned both the PUT and POST permissions [in your IAM policy](#authenticating-with-an-aws-iam-role).
 
-<img alt="Deploying an API" src="https://assets.postman.com/postman-docs/v10/deploy-api-definition-on-aws-v10.jpg" width="502px"/>
+<img alt="Deploying an API" src="https://assets.postman.com/postman-docs/v10/deploy-api-definition-on-aws-v10-0-15.jpg" width="516px"/>
 
 > [API Gateway extensions to Open API](https://docs.aws.amazon.com/apigateway/latest/developerguide/api-gateway-swagger-extensions.html) (vendor extensions) are preserved when pushing and deploying a definition from Postman. Postman merges any extensions present in the API Gateway into the definition before pushing the merged definition to the API Gateway.
