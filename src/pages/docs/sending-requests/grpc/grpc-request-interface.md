@@ -146,9 +146,11 @@ The response section has the following items:
 
 ## The right sidebar
 
-The right sidebar gives you access to more tools and information like documentation, commenting, and request details.
+The right sidebar gives you access to more tools and information like documentation, commenting, and request details. Open a gRPC request, and then select an option in the right sidebar:
 
 * **Request documentation** - Select the documentation icon <img alt="Documentation icon" src="https://assets.postman.com/postman-docs/documentation-icon-v8-10.jpg#icon" width="16px"> to view documentation for a request. When you select a method, Postman automatically generates documentation for the payload fields and data types using the Protobuf definition. You can also add a description to help users understand and use the request. Select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px"> next to the description, then write content using Postman's [built-in editing tools](/docs/publishing-your-api/authoring-your-documentation/).
+
+    > You can also add a description to your collection. Select the collection in the sidebar. Then, on the **Overview** tab, select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px"> next to the description.
 
 * **Comments** - Select the comments icon <img alt="Comments icon" src="https://assets.postman.com/postman-docs/icon-comments-v9.jpg#icon" width="18px"> to collaborate with your teammates as you work on an API. You can use `@` to tag others to ask a question, give feedback, and discuss your API.
 
