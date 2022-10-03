@@ -25,6 +25,8 @@ warning: false
 
 You can automate [collection runs](/docs/running-collections/intro-to-collection-runs/) using [monitors](/docs/monitoring-your-api/intro-monitors/) to schedule runs and receive reports on your request test results.
 
+> Note: Starting with version 10, you can also schedule collection runs with the **Collection runner**.
+
 To add or access monitors for a particular collection, select __Monitors__ in the sidebar.
 
 <img alt="Monitors v8" src="https://assets.postman.com/postman-docs/create-a-monitor-v8.jpg" height="400px"/>
