@@ -56,7 +56,7 @@ Update your _profile picture_, _display name_, _Postman username_, _display bio_
 1. Select your avatar in the Postman header > **Settings**.
 1. Select **Profile** from the list of options.
 1. Edit the fields you want to update.
-S. Select **Update Profile** to save changes.
+1. Select **Update Profile** to save changes.
 
 ## Adding an About Me section
 
