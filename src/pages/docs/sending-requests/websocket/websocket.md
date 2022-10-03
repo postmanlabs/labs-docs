@@ -30,7 +30,7 @@ warning: false
 
 ---
 
-The WebSocket protocol provides a way to exchange data between a client and server over a persistent connection. The data can be passed in both directions with low latency and overhead, and without breaking the connection. WebSockets provide a bidirectional, full-duplex communications channel that operates over HTTP through a single TCP socket connection. This means the server can independently send data to the client without the client having to request it, and vice versa.
+The WebSocket protocol provides a way to exchange data between a client and server over a persistent connection. The data can be passed in both directions with low latency and overhead, and without breaking the connection. WebSockets offers a bidirectional, full-duplex communications channel that operates over HTTP through a single TCP socket connection. This means the server can independently send data to the client without the client having to request it, and vice versa.
 
 In Postman you can create a WebSocket request with a server, and use it to send and receive messages across the WebSocket connection.
 
@@ -46,7 +46,7 @@ In addition to raw WebSocket connections, Postman also supports Socket.IO connec
 * [Using variables in requests and messages](#using-variables-in-requests-and-messages)
 * [Adding request details](#adding-request-details)
 * [Saving requests](#saving-requests)
-* [Documenting collections and requests](#documenting-collections-and-requests)
+* [Documenting requests](#documenting-requests)
 * [Other Socket.IO Notes](#other-socketio-notes)
 * [Troubleshooting WebSocket Requests](#troubleshooting-websocket-requests)
 
@@ -84,7 +84,7 @@ You can also save composed messages, then re-send them later.
 
 To save a message:
 
-1. Compose a message, as described above.
+1. Compose a message (see [Sending messages](#sending-messages)).
 1. Select **Save Message**.
 1. The message title ("New Message" by default) is editable. Enter a new title and press Return.
 
@@ -100,11 +100,11 @@ To rename, duplicate, or delete a saved message, select the more actions icon <i
 
 ### Adding Socket.IO event names and arguments
 
-Sending events with a Socket.IO connection includes the ability to add event names and arguments. This enables you to listen to only specific events.
+Sending events with a Socket.IO connection includes the ability to add event names and arguments. This enables you to listen to specific events.
 
 For a Socket.IO connection, you can enter an event name to publish next to **Send**. If you select **Send** without entering a name, the default name `message` will be used.
 
-There is also an **Acknowledgement** option; when selected, the server will acknowledge that it has received the message.
+If the **Acknowledgement** option is selected, the server will acknowledge that it has received the message.
 
 <img src="https://assets.postman.com/postman-docs/socketio-event-name.jpg" alt="Socket.IO event name" width="500px">
 
@@ -122,8 +122,8 @@ At the top of the message pane is a connection details badge. It shows if the co
 
 The **Messages** pane has the following controls:
 
-* Search control - Enter a search term to display only messages containing the term. Select <img alt="Close icon" src="https://assets.postman.com/postman-docs/icon-close.jpg#icon" width="16px"> to end the search.
-* Message type list - Select if you want to view all messages, or only incoming or outgoing messages.
+* Search control - Enter a search term to display messages containing the term. Select <img alt="Close icon" src="https://assets.postman.com/postman-docs/icon-close.jpg#icon" width="16px"> to end the search.
+* Message type list - Select if you want to view all messages, or incoming or outgoing messages.
 * Trash - Select the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> to clear all messages.
 
 The following are displayed for each message:
@@ -146,7 +146,7 @@ In an expanded message:
 
 ### Event listening in Socket.IO
 
-In Socket.IO, you have the ability to listen to specific events. The **Messages** pane will only display the received events for which you've added listeners. Events will be color-coded by event to make them easier to find.
+In Socket.IO, you have the ability to listen to specific events. The **Messages** pane will display the received events for which you've added listeners. Events will be color-coded by event to make them easier to find.
 
 The **Listeners** panel shows listener events. To listen to a new event, enter the name of an event and select **+** to add it. Select the toggle next to an event to turn listening on or off for that event. If you hover over the toggle, you can delete the event listener.
 
@@ -166,7 +166,7 @@ See [Using variables](/docs/sending-requests/variables/) for more information on
 
 ## Adding request details
 
-You can add details to your request, for example to send additional parameters and headers. You can also configure the connection. Select the **Params**, **Headers**, or **Settings** tab to make changes.
+You can add details to your request, for example to send more parameters and headers. You can also configure the connection. Select the **Params**, **Headers**, or **Settings** tab to make changes.
 
 > You can't change request details while you are connected. You must make any changes before you connect, or select **Disconnect** to stop the current connection.
 
@@ -184,12 +184,12 @@ The following settings can be configured for your WebSocket request:
 
 | Setting | Description |
 |-----|-----|
-| Client version  | The Socket.IO client version to be used to connect with the server. (Socket.IO only)|
-| Handshake path | The server-side path that will be captured. (Socket.IO only)  |
+| Client version  | The Socket.IO client version to be used to connect with the server. (Socket.IO)|
+| Handshake path | The server-side path that will be captured. (Socket.IO)  |
 | Handshake request timeout | How long the handshake request will wait before timing out, in milliseconds. This is reset after every redirection. |
 | Reconnection attempts | The maximum number of reconnection attempts before disconnecting. |
 | Reconnection intervals | The period in milliseconds between reconnection attempts. |
-| Maximum message size | The maximum allowed message size, in megabytes. To receive messages of any size, set this to 0. (Raw WebSocket only)|
+| Maximum message size | The maximum allowed message size, in megabytes. To receive messages of any size, set this to 0. (Raw WebSocket)|
 
 ## Saving requests
 
@@ -206,23 +206,23 @@ Postman will display your collection and saved request in **Collections** in the
 
 <img alt="Collection sidebar" src="https://assets.postman.com/postman-docs/websocket-collection-v2.jpg" width="400px"/>
 
-Because WebSocket requests have different features than HTTP requests, when they're added to a collection, it causes the collection to be in a “beta” state with certain limitations.
+Because WebSocket requests have different features than HTTP requests, when they're added to a collection, it causes the collection to be in a beta state with certain limitations.
 
-When in this state, a collection can only contain WebSocket or gRPC requests. It can't contain HTTP requests. Some features related to collections aren't supported, such as collaboration, version control, or scripting.
+When in this state, a collection can contain WebSocket or gRPC requests. It can't contain HTTP requests. Some features related to collections aren't supported, such as collaboration, version control, or scripting.
 
-## Documenting collections and requests
+## Documenting requests
 
-You can add documentation to your collection or requests to give it a summary, and add any notes or details you want to share with others. Documentation will also be automatically included for the request's URL, parameters, settings, and all saved messages.
+Postman automatically generates documentation for each of your requests. The documentation includes the request's URL, parameters, settings, and any saved messages. You can also add a description to help users understand and use the request.
 
-To document a WebSocket request:
+To view and edit documentation for a WebSocket request:
 
 1. Open the request.
-1. Select the documentation icon <img alt="Documentation icon" src="https://assets.postman.com/postman-docs/documentation-icon-v8-10.jpg#icon" width="16px"> in the context bar.
+1. Select the documentation icon <img alt="Documentation icon" src="https://assets.postman.com/postman-docs/documentation-icon-v8-10.jpg#icon" width="16px"> in the right sidebar.
 1. Select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px"> next to the description.
-1. Author your description using [Markdown](/docs/publishing-your-api/authoring-your-documentation/#authoring-descriptions-in-markdown).
+1. Write your content using Postman's [built-in editing tools](/docs/publishing-your-api/authoring-your-documentation/).
 1. When you're finished, select **Save** to save your documentation. If you ever need to make changes, you can edit the description again.
 
-Documenting a collection is similar, but the description is on the **Overview** tab of the collection. Select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px"> next to the description, write a summary, and select **Save**.
+> You can also add a description to your collection. Select the collection in the sidebar. Then, on the **Overview** tab, select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px"> next to the description.
 
 ## Other Socket.IO notes
 
