@@ -133,7 +133,7 @@ Copy the **Role ARN** from AWS and paste it in Postman under **Step 2: Enter rol
 
 To set up a connection to Amazon API Gateway using an AWS access key, select **Access Key** under **AWS Authentication Mechanism**.
 
-<img alt="Connecting with AWS access key" src="https://assets.postman.com/postman-docs/import-from-api-gateway-with-access-key.jpg" width="483" />
+<img alt="Connecting with AWS access key" src="https://assets.postman.com/postman-docs/import-from-api-gateway-with-access-key.jpg" width="483px" />
 
 Next, enter information about the connection:
 
