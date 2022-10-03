@@ -60,7 +60,7 @@ Update your _profile picture_, _display name_, _Postman username_, _display bio_
 
 ## Adding an About Me section
 
-Your **About Me** section contains information about, well, YOU! You can add information about your work, interests, and contributions&mdash;anything you want people looking at your profile to know. Update your **About Me** section at any time in your [profile settings](https://go.postman.co/settings/me/):
+Your **About Me** section contains information about your work, interests, and contributions. Update your **About Me** section at any time in your [profile settings](https://go.postman.co/settings/me/):
 
 1. Select your avatar in the Postman header > **Settings**.
 1. Select **View your profile**.
