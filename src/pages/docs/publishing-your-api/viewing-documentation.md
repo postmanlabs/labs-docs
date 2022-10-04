@@ -1,6 +1,6 @@
 ---
 title: "Viewing documentation"
-updated: 2022-09-15
+updated: 2022-10-04
 contextual_links:
   - type: section
     name: "Prerequisites"

@@ -1,7 +1,5 @@
 ---
 title: "Using WebSocket Requests"
-order: 38
-updated: 2022-10-04
 page_id: "websocket"
 search_keyword: "WebSocket, websockets, WebSocket requests, Socket.IO"
 contextual_links:
@@ -25,9 +23,6 @@ contextual_links:
   - type: link
     name: "Postman Supports Socket.IO"
     url: "https://blog.postman.com/postman-now-supports-socket-io/"
-
-warning: false
-
 ---
 
 The WebSocket protocol provides a way to exchange data between a client and server over a persistent connection. The data can be passed in both directions with low latency and overhead, and without breaking the connection. WebSockets offers a bidirectional, full-duplex communications channel that operates over HTTP through a single TCP socket connection. This means the server can independently send data to the client without the client having to request it, and vice versa.
@@ -223,7 +218,6 @@ To view and edit documentation for a WebSocket request:
 1. When you're finished, select **Save** to save your documentation. If you ever need to make changes, you can edit the description again.
 
 > You can also add a description to your collection's overview or a folder in your collection. Select the collection or folder in the sidebar, then select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px"> next to the description.
-
 
 ## Other Socket.IO notes
 

@@ -1,6 +1,6 @@
 ---
 title: "Authoring your docs"
-updated: 2022-07-19
+updated: 2022-10-04
 search_keyword: "images, upload image, uploading images"
 contextual_links:
   - type: section

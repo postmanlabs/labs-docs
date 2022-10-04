@@ -1,6 +1,6 @@
 ---
 title: "Publishing your docs"
-updated: 2022-09-27
+updated: 2022-10-04
 contextual_links:
   - type: section
     name: "Prerequisites"

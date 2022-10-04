@@ -1,8 +1,6 @@
 ---
 title: "Specifying examples"
-order: 27
-page_id: "examples"
-updated: 2021-11-03
+updated: 2022-10-04
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -29,8 +27,6 @@ contextual_links:
   - type: link
     name: "Setting up mock servers"
     url: "/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/"
-
-warning: false
 ---
 
 Examples show your API endpoints in action and provide additional details on exactly how requests and responses work. You can add an example to a request by saving a response, or you can create an example with a custom response to illustrate a specific use case. Once you've created examples, you can use them to set up a mock server or add more detail to your API documentation.
@@ -70,6 +66,8 @@ When saving a [response](/docs/sending-requests/responses/) in Postman, you have
 1. In the response pane, select **Save Response** and then select **Save as example**.
 
 <img alt="Save a response as an example" src="https://assets.postman.com/postman-docs/v10/examples-save-response-v10.jpg" width="750px">
+
+> You can't add examples to gRPC or WebSocket requests. For WebSocket requests, you can [save messages](/docs/sending-requests/websocket/websocket/#saving-messages) with the request.
 
 ### Adding a custom example
 
