@@ -65,7 +65,7 @@ Or, you can invite a user to join your team with a link. To do so, select **Get 
 
 Team Admins and [Super Admins](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can send invitations for any role type. Additionally, users with the Developer role can invite other Developers, without the need for approval by a Team Admin.
 
-Any team member can submit requests to invite collaborators to your team. You can review these requests in your [team dashboard](https://go.postman.co/settings/team/members) and opt to approve or dismiss them. If you approve the request, Postman will send an invitation to the individual.
+Any team member can submit requests to invite collaborators to your team. You can review these requests in your [team dashboard](https://go.postman.co/settings/team/members) and choose to approve or dismiss them. If you approve the request, Postman will send an invitation to the individual.
 
 You can also allow Postman users from your company to request to join your team by enabling [team discovery](/docs/collaborating-in-postman/working-with-your-team/enabling-team-discovery/#enabling-team-discovery).
 
