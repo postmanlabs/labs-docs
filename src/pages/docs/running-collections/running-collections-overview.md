@@ -27,6 +27,6 @@ Postman enables you to run collections in several ways. You can:
 
 * [Run collections manually](/docs/running-collections/intro-to-collection-runs/), with the Collection Runner.
 * Run collections on a schedule, with [scheduled collection runs](/docs/running-collections/scheduling-collection-runs) or [monitors](/docs/running-collections/scheduling-collection-runs-monitors).
-* Trigger collections with [webhooks](/docs/running-collections/collection-webhooks/).
+* Trigger collection runs with [webhooks](/docs/running-collections/collection-webhooks/).
 * Run collections with [data files](/docs/running-collections/working-with-data-files/).
 * Customize a collection's run order with [request workflows](/docs/running-collections/building-workflows/).

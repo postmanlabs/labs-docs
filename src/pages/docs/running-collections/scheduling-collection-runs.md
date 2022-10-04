@@ -35,6 +35,13 @@ Schedules share permissions with their collections. For example, if you have per
 > * Run order can't be customized for scheduled runs in the cloud.
 > * If you import or export a collection, its schedules do not import/export with it. However, if you delete a collection, its schedules are deleted also.
 
+## Contents
+
+* [Scheduling a collection run](#scheduling-a-collection-run)
+* [Pausing or resuming a schedule](#pausing-or-resuming-a-schedule)
+* [Editing a schedule](#editing-a-schedule)
+* [Deleting a schedule](#deleting-a-schedule)
+
 ## Scheduling a collection run
 
 1. Select **Collections** in the sidebar and select the collection you want to schedule.
@@ -45,13 +52,15 @@ Schedules share permissions with their collections. For example, if you have per
 
 1. On the Collection Runner, select **Schedule runs**.
 
+    ![Schedule runs](https://assets.postman.com/postman-docs/schedule-runs-v10.jpg)
+
 1. Enter the following:
     * The schedule's name
     * The schedule's frequency
     * An environment associated with the collection (optional)
-    * How many times you want the schedule to run (iteration)
-    * A `JSON` or `CSV` data file (optional). Data files can be used to test multiple variations of your API behavior.
-    * Notification recipients (optional). Recipients will be notified about test failures and errors in the runs.
+    * How many times you want the collection to run (iterations)
+    * A `JSON` or `CSV` data file (optional).
+    * Notification recipients (optional).
     * Advanced settings (optional)
       * Retry if run fails
       * Set request timeout
@@ -66,6 +75,7 @@ Schedules share permissions with their collections. For example, if you have per
 1. Select **Collections** in the sidebar and select the collection with the scheduled run you want to delete.
 
 1. Select the **Runs** tab. A list of past and scheduled collection runs appears.
+    ![Runs tab](https://assets.postman.com/postman-docs/runs-tab-v10.jpg)
 
 1. Select the **Scheduled runs** tab. A list of scheduled runs appears.
 
