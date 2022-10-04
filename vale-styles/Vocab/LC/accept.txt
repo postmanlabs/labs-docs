@@ -147,3 +147,18 @@ GitHub Actions
 API Builder
 Postman Collection
 Interceptor
+macOS
+Ubuntu
+Postman Visualizations
+iOS
+Mozilla Firefox
+Public Workspace
+Team Workspace
+Markdown
+Run in Postman
+Postman Monitor
+Bitbucket Pipelines
+Postman Desktop Agent
+API Governance
+API Security
+jQuery
