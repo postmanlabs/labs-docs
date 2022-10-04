@@ -23,14 +23,14 @@ contextual_links:
 warning: false
 ---
 
-Many Postman users run collections at specific times each day or week. For example, you may want to test your API's endpoints every week to observe availability, performance, or reliability. Prior to version 10, you could use monitors to automatically run collections at specific times. Now you can also schedule collection runs using the **Collection Runner**, described below.
+Many Postman users run collections at specific times each day or week. For example, you may want to test your API's endpoints every week to observe availability, performance, or reliability. Prior to version 10, you could only use monitors to automatically run collections at specific times. Now you can also schedule collection runs using the **Collection Runner**.
 
-When you schedule a run using the **Collection Runner**, the schedule becomes a property of the collection. You can create, pause, edit, and delete schedules.
+When you schedule a run using the **Collection Runner**, the schedule becomes a property of the collection. You can create, pause, edit, and delete scheduled collection runs.
 
 Schedules share permissions with their collections. For example, if you have permissions to edit a collection, you'll you'll be able to edit that collection's schedules.
 
 > * Only personal, private, and team workspaces support schedules.
-> * Scheduled runs are processed on the Postman cloud. Use of the Postman cloud is limited by  your Postman account.
+> * Scheduled runs are processed on the Postman cloud. Use of the Postman cloud is limited by your Postman account.
 > * Scheduled collection runs are not included in workspace history.
 > * Run order can't be customized for scheduled runs in the cloud.
 > * If you import or export a collection, its schedules do not import/export with it. However, if you delete a collection, its schedules are deleted also.
@@ -41,6 +41,8 @@ Schedules share permissions with their collections. For example, if you have per
 
 1. On the Overview tab, select <img alt="Runner icon" src="https://assets.postman.com/postman-docs/icon-runner-v9.jpg#icon" width="16px"> **Run**.
 
+    > You can also select <img alt="Runner icon" src="https://assets.postman.com/postman-docs/icon-runner-v9.jpg#icon" width="16px"> __Runner__ from the Postman footer and drag a collection from __Collections__ or __History__ in the sidebar.
+
 1. On the Collection Runner, select **Schedule runs**.
 
 1. Enter the following:
@@ -48,9 +50,9 @@ Schedules share permissions with their collections. For example, if you have per
     * The schedule's frequency
     * An environment associated with the collection (optional)
     * How many times you want the schedule to run (iteration)
-    * A data file (`JSON` or `CSV`). Data files can be used to test multiple variations of your API behavior.
-    * Notification recipients. Recipients will be notified about test failures and errors in the runs.
-    * Advanced settings
+    * A `JSON` or `CSV` data file (optional). Data files can be used to test multiple variations of your API behavior.
+    * Notification recipients (optional). Recipients will be notified about test failures and errors in the runs.
+    * Advanced settings (optional)
       * Retry if run fails
       * Set request timeout
       * Set delay between requests
