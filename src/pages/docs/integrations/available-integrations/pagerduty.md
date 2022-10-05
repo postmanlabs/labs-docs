@@ -1,9 +1,6 @@
 ---
 title: "PagerDuty"
-order: 177
-updated: 2021-04-16
-page_id: "pagerduty"
-warning: false
+updated: 2022-10-05
 contextual_links:
   - type: section
     name: "Prerequisites"
