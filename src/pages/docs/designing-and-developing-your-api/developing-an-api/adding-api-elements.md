@@ -67,7 +67,7 @@ The copy of the collection displays on your API's overview and under your API in
 To generate a new collection from your API definition:
 
 1. Select **APIs** in the sidebar and select an API.
-1. On the API's overview, next to **Collections**, select **+** and select **Generate from API definition**.
+1. On the API's overview, next to **Collections**, select **+** and select **Generate from definition**.
 1. Change any settings to customize the new collection.
 1. Select **Generate Collection**.
 
