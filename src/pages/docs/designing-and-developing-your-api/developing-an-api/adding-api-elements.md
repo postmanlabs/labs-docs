@@ -1,6 +1,6 @@
 ---
 title: 'Adding elements to an API'
-updated: 2021-09-15
+updated: 2022-09-15
 contextual_links:
   - type: section
     name: "Prerequisites"

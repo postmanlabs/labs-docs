@@ -1,6 +1,6 @@
 ---
 title: 'Testing an API'
-updated: 2021-09-15
+updated: 2022-10-05
 contextual_links:
   - type: section
     name: "Prerequisites"
