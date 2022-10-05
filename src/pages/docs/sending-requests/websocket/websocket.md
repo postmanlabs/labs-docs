@@ -179,12 +179,12 @@ The following settings can be configured for your WebSocket request:
 
 | Setting | Description |
 |-----|-----|
-| Client version  | The Socket.IO client version to be used to connect with the server. (Socket.IO)|
-| Handshake path | The server-side path that will be captured. (Socket.IO)  |
+| Client version  | The Socket.IO client version to be used to connect with the server. (Socket.IO only)|
+| Handshake path | The server-side path that will be captured. (Socket.IO only)  |
 | Handshake request timeout | How long the handshake request will wait before timing out, in milliseconds. This is reset after every redirection. |
 | Reconnection attempts | The maximum number of reconnection attempts before disconnecting. |
 | Reconnection intervals | The period in milliseconds between reconnection attempts. |
-| Maximum message size | The maximum allowed message size, in megabytes. To receive messages of any size, set this to 0. (Raw WebSocket)|
+| Maximum message size | The maximum allowed message size, in megabytes. To receive messages of any size, set this to 0. (Raw WebSocket only)|
 
 ## Saving requests
 

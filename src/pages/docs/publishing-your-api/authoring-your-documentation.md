@@ -54,7 +54,7 @@ To help your teammates ([or the world](/docs/publishing-your-api/publishing-your
 
 ## Adding descriptions to your documentation
 
-Use descriptions to tell people who use your collection more about what your collection does and the purpose of each of request. Structure your descriptions with headings and add content such as text, tables, images, and links.
+Use descriptions to tell people who use your collection more about what your collection does and the purpose of each request. Structure your descriptions with headings and add content such as text, tables, images, and links.
 
 To add or edit the description for an existing collection, folder, or request:
 
