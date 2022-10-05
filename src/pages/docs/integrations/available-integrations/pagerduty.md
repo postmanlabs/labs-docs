@@ -23,53 +23,40 @@ contextual_links:
 
 ---
 
-PagerDuty is a popular incident management solution that integrates with monitoring stacks for alerting, on-call scheduling, and automatic escalation of critical incidents.
+PagerDuty is an incident management solution that integrates with monitoring stacks for alerting, on-call scheduling, and automatic escalation of critical incidents.
 
-You can configure this service to deliver alerts by text, email, call, or through iOS and Android apps.
+This integration triggers incidents in PagerDuty based on your [Postman monitor results](/docs/monitoring-your-api/viewing-monitor-results/) so that your team can investigate and resolve collection run failures.
 
-You can use this integration to trigger incidents in PagerDuty based on your Postman Monitor results, helping your team investigate and resolve Collection run failures quickly.
+## Contents
 
-## Retrieving your PagerDuty Integration Key
+* [Retrieving your PagerDuty integration key](#retrieving-your-pagerduty-integration-key)
+* [Configuring Postman with PagerDuty](#configuring-postman-with-pagerduty)
+* [Viewing PagerDuty results](#viewing-pagerduty-results)
 
-Create an account or use a preexisting one to sign in to [PagerDuty](https://app.pagerduty.com/).
-In the header toolbar, select **Services**. If you are creating a new service for this integration, select **Services** and then **+ New Service**.
+## Retrieving your PagerDuty integration key
 
-![pagerduty menu](https://assets.postman.com/postman-docs/pagerduty-new-service.jpg)
-
-Enter your Service Name and choose Postman as the Integration Type.
-
-Select the **Add Service** link at the bottom of the page to create a new service.
-
-![pagerduty menu](https://assets.postman.com/postman-docs/pagerduty-config-service.jpg)
-
-Save the PagerDuty Integration Key to use later.
-
-![pagerduty menu](https://assets.postman.com/postman-docs/pagerduty-integrations-key.jpg)
+1. Sign in to [PagerDuty](https://app.pagerduty.com/).
+1. In PagerDuty, select **Services**. If you're creating a new service for this integration, select **Services** and then **+ New Service**.
+1. Enter a **Service Name**.
+1. Using the **Integrations** dropdown menu, search and select **Postman**.
+1. Select the **Add Service** link at the bottom of the page to create a new service.
+1. Copy and save the PagerDuty integration key to use later.
 
 ## Configuring Postman with PagerDuty
 
-From the **[Home](https://go.postman.co/home)** page select **[Integrations](https://go.postman.co/integrations)**.
+1. Select **[Integrations](https://go.postman.co/integrations)** from Postman's **[Home](https://go.postman.co/home)** page.
 
-![home page and integrations](https://assets.postman.com/postman-docs/home-integrations.jpg)
+    <img alt="Navigate to Integrations" src="https://assets.postman.com/postman-docs/v10/select-integrations-from-home-v10.jpg" width="250px"/>
 
-Search and select **PagerDuty**.
+1. Search and select **PagerDuty**.
+1. Select **Add Integration**.
 
-![pagerduty menu](https://assets.postman.com/postman-docs/pagerduty-search-all.jpg)
+    <img alt="Add an integration" src="https://assets.postman.com/postman-docs/v10/integrations-add-new-integration-v10.jpg" width="900px"/>
 
-Select **View All** for a list of all PagerDuty integrations created by your team.
+1. Enter the name of the integration, workspace, monitor, and your PagerDuty integration key, then select **Add Integration**.
 
-![pagerduty menu](https://assets.postman.com/postman-docs/pagerduty-all-integrations.jpg)
-
-To create your own integration, select **Add Integration**.
-
-![pagerduty menu](https://assets.postman.com/postman-docs/pagerduty-view-all.jpg)
-
-Enter the name of the integration, workspace, monitor, and your PagerDuty Integration Key. Select **Add Integration** to start configuring the integration.
-
-![pagerduty menu](https://assets.postman.com/postman-docs/pagerduty-add-integration-configuration.jpg)
+    <img alt="Create a new PagerDuty integration" src="https://assets.postman.com/postman-docs/v10/integrations-create-new-pagerduty-v10.jpg" width="500px"/>
 
 ## Viewing PagerDuty results
 
-The PagerDuty console will continuously update to display any incidents that result from your Postman Monitors. If the selected Monitor fails, you’ll receive notifications on PagerDuty according to the formatting and business rules you’ve already set.
-
-[![pagerduty results](https://assets.postman.com/postman-docs/pagerduty_results.png)](https://assets.postman.com/postman-docs/pagerduty_results.png)
+The PagerDuty console updates continuously to display any incidents that result from your Postman monitors. If the selected monitor fails, PagerDuty notifies you according to the formatting and business rules you set.
