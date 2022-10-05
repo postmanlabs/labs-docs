@@ -35,10 +35,10 @@ This integration triggers incidents in PagerDuty based on your [Postman monitor 
 
 ## Retrieving your PagerDuty Integration Key
 
-1. Create an account or use a preexisting one to sign in to [PagerDuty](https://app.pagerduty.com/).
-1. In PagerDuty, select **Services**. If you are creating a new service for this integration, select **Services** and then **+ New Service**.
+1. Create an account or use an existing account to sign in to [PagerDuty](https://app.pagerduty.com/).
+1. In PagerDuty, select **Services**. If you're creating a new service for this integration, select **Services** and then **+ New Service**.
 1. Enter a **Service Name**.
-1. Using the **Integrations** dropdown, search and select **Postman**.
+1. Using the **Integrations** dropdown menu, search and select **Postman**.
 1. Select the **Add Service** link at the bottom of the page to create a new service.
 1. Save the PagerDuty **Integration Key** to use later.
 
@@ -53,7 +53,7 @@ This integration triggers incidents in PagerDuty based on your [Postman monitor 
 
     <img alt="Add an integration" src="https://assets.postman.com/postman-docs/v10/integrations-add-new-integration-v10.jpg" width="900px"/>
 
-1. Enter the name of the integration, workspace, monitor, and your PagerDuty Integration Key, then select **Add Integration**.
+1. Enter the name of the integration, workspace, monitor, and your PagerDuty integration key, then select **Add Integration**.
 
     <img alt="Create a new PagerDuty integration" src="https://assets.postman.com/postman-docs/v10/integrations-create-new-pagerduty-v10.jpg" width="500px"/>
 
