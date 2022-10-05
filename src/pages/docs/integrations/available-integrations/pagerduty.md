@@ -29,18 +29,18 @@ This integration triggers incidents in PagerDuty based on your [Postman monitor 
 
 ## Contents
 
-* [Retrieving your PagerDuty Integration Key](#retrieving-your-pagerduty-integration-key)
+* [Retrieving your PagerDuty integration key](#retrieving-your-pagerduty-integration-key)
 * [Configuring Postman with PagerDuty](#configuring-postman-with-pagerduty)
 * [Viewing PagerDuty results](#viewing-pagerduty-results)
 
-## Retrieving your PagerDuty Integration Key
+## Retrieving your PagerDuty integration key
 
-1. Create an account or use an existing account to sign in to [PagerDuty](https://app.pagerduty.com/).
+1. Sign in to [PagerDuty](https://app.pagerduty.com/).
 1. In PagerDuty, select **Services**. If you're creating a new service for this integration, select **Services** and then **+ New Service**.
 1. Enter a **Service Name**.
 1. Using the **Integrations** dropdown menu, search and select **Postman**.
 1. Select the **Add Service** link at the bottom of the page to create a new service.
-1. Save the PagerDuty **Integration Key** to use later.
+1. Copy and save the PagerDuty integration key to use later.
 
 ## Configuring Postman with PagerDuty
 
