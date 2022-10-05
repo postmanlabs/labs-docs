@@ -24,7 +24,7 @@ contextual_links:
     name: "Intro to Postman playlist"
     url: "https://youtube.com/playlist?list=PLM-7VG-sgbtAgGq_pef5y_ruIUBPpUgNJ"
   - type: link
-    name: "Postman Space Camp: An Introduction for Developers"
+    name: "Postman Intergalactic: An Introduction for Developers"
     url: "https://youtu.be/8MOzaTsVRKg"
   - type: link
     name: "Postman Community Forum | Postman Level Up"
