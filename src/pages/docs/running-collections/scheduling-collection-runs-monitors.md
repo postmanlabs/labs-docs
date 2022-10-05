@@ -25,6 +25,7 @@ warning: false
 
 You can automate [collection runs](/docs/running-collections/intro-to-collection-runs/) using [monitors](/docs/monitoring-your-api/intro-monitors/) to schedule runs and receive reports on your request test results.
 
+<!--TODO: Add language that says the scheduled collection run method is preferable.-->
 > Note: Starting with version 10, you can also schedule collection runs with the [**Collection runner**](/docs/running-collections/scheduling-collection-runs/).
 
 To add or access monitors for a particular collection, select __Monitors__ in the sidebar.

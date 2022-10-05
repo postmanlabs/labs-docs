@@ -129,7 +129,7 @@ Hover over an item to show the following controls:
 ## Sharing collection runs
 
 You can share collection run results with others by exporting the results from the Collection Runner.
-
+<!--TODO: Add a note saying the Export Results button is available in the app, but not on the web-->
 To export a collection run:
 
 1. Open the collection run in the __Runner__. You can also access the collection run using __History__ in the sidebar if you don't have the run open.
