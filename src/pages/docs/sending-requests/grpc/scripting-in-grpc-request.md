@@ -9,7 +9,7 @@ contextual_links:
     url: "/docs/sending-requests/grpc/grpc-request-interface/"
 ---
 
-Postman contains a powerful scripting environment that allows you to add Javascript code (scripts) in your gRPC requests. You can define scripts for two hooks available during the request execution lifecycle:
+Postman contains a powerful scripting environment that allows you to add JavaScript code (scripts) in your gRPC requests. You can define scripts for two hooks available during the request execution lifecycle:
 
 1. Before invoking the method and establishing a connection with the server, under the **Before invoke** tab.
 2. After closing the connection with the server, under the **After response** tab.
