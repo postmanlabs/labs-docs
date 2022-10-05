@@ -36,11 +36,11 @@ warning: false
 
 ---
 
-The _Collection Runner_ enables you to run the API requests in a collection in a specified sequence. It logs your request [test results](/docs/writing-scripts/test-scripts/) and can use [scripts](/docs/writing-scripts/intro-to-scripts/) to pass data between requests and alter the request workflow.
+The _Collection Runner_ enables you to run a collection's requests in a specified sequence. It logs your request [test results](/docs/writing-scripts/test-scripts/) and can use [scripts](/docs/writing-scripts/intro-to-scripts/) to pass data between requests and alter the request workflow.
 
 You can configure the Collection Runner to meet your development needs. You can run collections using a specific environment, and can pass data files into a run. Collection runs enable you to automate your API testing, and you can schedule runs with the [collection runner](/docs/running-collections/scheduling-collection-runs/) or with [monitors](/docs/running-collections/scheduling-collection-runs-monitors/). You can also integrate collection runs with your CI/CD pipeline using [the Postman CLI](/docs/postman-cli/postman-cli-overview/), a Postman tool that enables you to run and test collections directly from the command line.
 
-![Collection Runner results page overview](https://assets.postman.com/postman-docs/v10/collection-runner-overview.jpg)
+![Collection Runner results page overview](https://assets.postman.com/postman-docs/v10/collection-runner-overview-1-v10.jpg)
 
 ## Contents
 
@@ -61,11 +61,12 @@ To configure a collection run:
 
     > You can also select <img alt="Runner icon" src="https://assets.postman.com/postman-docs/icon-runner-v9.jpg#icon" width="16px"> __Runner__ from the Postman footer and drag a collection from __Collections__ or __History__ in the sidebar.
 
-1. Select **Run manually** to run the collection now, or **Automate runs via CLI** to generate a code snippet to run the collection with the Postman CLI.
+1. Select **Run manually**.
+    > You can also [schedule runs](/docs/running-collections/scheduling-collection-runs/) and [automate runs via CLI](/docs/postman-cli/postman-cli-run-collection/).
 
 1. If you want your collection to run with an environment, select it using the environment selector at the top right of Postman. You can also select __Environments__ in the sidebar, then select the environment you want to use.
 
-1. If you select **Run manually**, choose any optional configuration parameters:
+1. Choose any optional configuration parameters:
 
     * **Iterations** - The number of iterations for your collection run. You can also run collections multiple times with different data sets to [build workflows](/docs/running-collections/building-workflows/).
     * **Delay** - An interval delay in milliseconds between each request.
@@ -75,15 +76,13 @@ To configure a collection run:
     * **Run collection without using stored cookies** - If your requests use cookies, you can optionally deactivate them for a collection run.
     * **Save cookies after collection run** - Save the cookies used in this session to the cookie manager. Any values changed by requests during the run will remain after it completes.
 
-      <img alt="Collection Runner configuration settings" src="https://assets.postman.com/postman-docs/v10/collection-runner-configuration-manually.jpg" width="800px"/>
+      <img alt="Collection Runner configuration settings" src="https://assets.postman.com/postman-docs/v10/collection-runner-configuration-manually-v10.jpg" width="800px"/>
 
-1. If you select **Automate runs via CLI**, a code snippet is shown which you can run with the Postman CLI to run the collection from the command line. Select **Add API Key** to add an existing API key or generate a new API key and add it to the snippet. There's also a link to add the CLI configuration to a CI/CD integration. See [running a collection with the Postman CLI](/docs/postman-cli/postman-cli-run-collection/) for more information.
-
-1. By default, your requests run in the sequence they're listed in the collection. If you need to change the order of execution, select a request and drag it to move it to its new order. You can also remove an individual request from the run by clearing the checkbox next to its name.
+1. By default, your requests run in the sequence they're listed in the collection. If you need to change the order of execution, select and drag a request to its new location in the order. You can also remove an individual request from the run by clearing the checkbox next to its name.
 
     > You can alter the flow of execution from your request scripts using `setNextRequest` to [create workflows](/docs/running-collections/building-workflows/).
 
-1. For manual runs, when you have completed your configuration, select **Run**.
+1. When you have completed your configuration, select **Run**.
 
 ## Running your collections
 
@@ -109,9 +108,9 @@ If you set an iteration number for the collection run, you can access the overvi
 
 ## Viewing run history
 
-Each collection has a **Runs** tab, which displays collection runs done by Collection Runner or the Postman CLI. It shows test counts along with metrics such as duration and average response times.
+Each collection has a **Runs** tab, which displays completed and scheduled collection runs. The **Runs** tab also shows test counts and metrics like duration and average response times.
 
-![Collection Run History tab](https://assets.postman.com/postman-docs/v10/collection-run-tab.jpg)<!--TODO: change-->
+![Collection Run History tab](https://assets.postman.com/postman-docs/v10/collection-run-tab-v10.jpg)
 
 The Runs tab has controls to select how many collection runs to view, and limit the displayed runs to view only collection runs from selected users, a selected status, and either from the Collection Runner or the Postman CLI.
 
@@ -120,12 +119,12 @@ The following are displayed for each collection run:
 * A select box for each run and an option to select all runs.
     * Select one or more collection runs and select **Delete** to remove them.
 * The start time of the collection run.
-* The run source, duration, all tests, passed tests, failed tests, skipped tests, and the average response time.Select any of these items to sort the table by that item. Select again to change the sort order.
+* The run source, duration, all tests, passed tests, failed tests, skipped tests, and the average response time. Select any of these items to sort the table by that item. Select again to change the sort order.
 
 Hover over an item to show the following controls:
 
-* **View details** action - Select to open the **Test Results** tab for the collection run, as described in [viewing test results](#viewing-test-results).
-* **Share** action - Select to share the results with another team member. This provides a link you can give to other team members so they can view details of this run. Note that this doesn't work in personal workspaces.
+* **View report** - Select to open the **Test Results** tab for the collection run, as described in [viewing test results](#viewing-test-results).
+* **Share** - Select to share the results with another team member. This provides a link you can give to other team members so they can view details of this run. Note that this doesn't work in personal workspaces.
 
 ## Sharing collection runs
 
