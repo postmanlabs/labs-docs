@@ -1,6 +1,6 @@
 ---
 title: "Postman CLI command options"
-updated: 2022-09-15
+updated: 2022-10-12
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -142,3 +142,10 @@ This command runs validation checks for governance and security rules against th
 postman api lint my-definition-file.json
 postman api lint 8854915-bb7236b2-536e-4bdc-bfa2-fbe2fe1941eb
 ```
+
+#### Options
+
+Option | Details
+--- | ---
+`--fail-severity [severity]`, `-F` | Specifies the severity level at which to trigger a failure exit code. The options, in order of lowest to highest severity, are `HINT`, `INFO`, `WARN`, and `ERROR` (default).
+`--suppress-exit-code`, `-x`| Specifies whether to override the default exit code for the current run.
