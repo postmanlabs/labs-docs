@@ -1,8 +1,6 @@
 ---
 title: "Billing"
-order: 123
-updated: 2022-07-19
-page_id: "billing"
+updated: 2022-10-06
 tags:
   - "pro"
 warning: false
@@ -187,8 +185,6 @@ Add or update your company name, billing email, address, and your VAT ID if appl
 ### Failed payments
 
 If you have a payment method on file, Postman will automatically attempt three times to charge it. If this is unsuccessful, team members with the [Billing role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) receive an email notification. Use the link in the email to access and pay for your [invoice](#using-the-pay-now-option).
-
-<img alt="Failed payment email" src="https://assets.postman.com/postman-docs/billing-email-payment-declined-v9.1.jpg" width="400px"/>
 
 If payment is unsuccessful, Postman offers a grace period of 21 days to avoid service disruption. For invoice-based teams, this means 21 days following the due date listed on the invoice.
 
