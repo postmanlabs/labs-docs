@@ -38,7 +38,7 @@ warning: false
 
 The _Collection Runner_ enables you to run a collection's requests in a specified sequence. It logs your request [test results](/docs/writing-scripts/test-scripts/) and can use [scripts](/docs/writing-scripts/intro-to-scripts/) to pass data between requests and alter the request workflow.
 
-You can configure the Collection Runner to meet your development needs. You can run collections using a specific environment, and can pass data files into a run. Collection runs enable you to automate your API testing, and you can schedule runs with the [collection runner](/docs/running-collections/scheduling-collection-runs/) or with [monitors](/docs/running-collections/scheduling-collection-runs-monitors/). You can also integrate collection runs with your CI/CD pipeline using [the Postman CLI](/docs/postman-cli/postman-cli-overview/), a Postman tool that enables you to run and test collections directly from the command line.
+You can configure the Collection Runner to meet your development needs. You can run collections using a specific environment, and can pass data files into a run. Collection runs enable you to automate your API testing, and you can schedule runs with the [Collection Runner](/docs/running-collections/scheduling-collection-runs/) or with [monitors](/docs/running-collections/scheduling-collection-runs-monitors/). You can also integrate collection runs with your CI/CD pipeline using [the Postman CLI](/docs/postman-cli/postman-cli-overview/), a Postman tool that enables you to run and test collections directly from the command line.
 
 ![Collection Runner results page overview](https://assets.postman.com/postman-docs/v10/collection-runner-overview-1-v10.jpg)
 
@@ -71,10 +71,11 @@ To configure a collection run:
     * **Iterations** - The number of iterations for your collection run. You can also run collections multiple times with different data sets to [build workflows](/docs/running-collections/building-workflows/).
     * **Delay** - An interval delay in milliseconds between each request.
     * **Data** - A [data file](/docs/running-collections/working-with-data-files/) for the collection run.
-    * **Save responses** - Save response headers and bodies to the log to review them later. For large collection runs, this setting can affect performance.
-    * **Keep variable values** - Persist the variables used in the run, so that any variables updated by the run will remain changed after it completes. If you don't persist variables, changes aren't saved after the run completes. _Note that persisting variables in the collection run will update the current value only._
-    * **Run collection without using stored cookies** - If your requests use cookies, you can optionally deactivate them for a collection run.
-    * **Save cookies after collection run** - Save the cookies used in this session to the cookie manager. Any values changed by requests during the run will remain after it completes.
+    * **Advanced settings**
+      * **Save responses** - Save response headers and bodies to the log to review them later. For large collection runs, this setting can affect performance.
+      * **Keep variable values** - Persist the variables used in the run, so that any variables updated by the run will remain changed after it completes. If you don't persist variables, changes aren't saved after the run completes. _Note that persisting variables in the collection run will update the current value only._
+      * **Run collection without using stored cookies** - If your requests use cookies, you can optionally deactivate them for a collection run.
+      * **Save cookies after collection run** - Save the cookies used in this session to the cookie manager. Any values changed by requests during the run will remain after it completes.
 
       <img alt="Collection Runner configuration settings" src="https://assets.postman.com/postman-docs/v10/collection-runner-configuration-manually-v10.jpg" width="800px"/>
 
@@ -82,7 +83,7 @@ To configure a collection run:
 
     > You can alter the flow of execution from your request scripts using `setNextRequest` to [create workflows](/docs/running-collections/building-workflows/).
 
-1. When you have completed your configuration, select **Run**.
+1. When you have completed your configuration, select **Run (collection name)**.
 
 ## Running your collections
 
@@ -108,11 +109,11 @@ If you set an iteration number for the collection run, you can access the overvi
 
 ## Viewing run history
 
-Each collection has a **Runs** tab, which displays completed and scheduled collection runs. The **Runs** tab also shows test counts and metrics like duration and average response times.
+Each collection has a **Runs** tab, which displays past and scheduled collection runs. The **Runs** tab also shows test counts and metrics like duration and average response times.
 
 ![Collection Run History tab](https://assets.postman.com/postman-docs/v10/collection-run-tab-v10.jpg)
 
-The Runs tab has controls to select how many collection runs to view, and limit the displayed runs to view only collection runs from selected users, a selected status, and either from the Collection Runner or the Postman CLI.
+The **Runs** tab has controls to select how many collection runs to view, and limit the displayed runs to view only collection runs from selected users, a selected status, and either from the Collection Runner or the Postman CLI.
 
 The following are displayed for each collection run:
 
@@ -129,7 +130,9 @@ Hover over an item to show the following controls:
 ## Sharing collection runs
 
 You can share collection run results with others by exporting the results from the Collection Runner.
-<!--TODO: Add a note saying the Export Results button is available in the app, but not on the web-->
+
+> The **Export Results** button is available in the Postman desktop app but not in the web version. <!-- TODO: Add procedure for sharing results in web version-->
+
 To export a collection run:
 
 1. Open the collection run in the __Runner__. You can also access the collection run using __History__ in the sidebar if you don't have the run open.
@@ -138,7 +141,7 @@ To export a collection run:
 
 ## Automating collection runs
 
-You can also use collection runs in conjunction with other Postman utilities to build automation into your API projects.
+In addition to running collections manually, the Collection Runner enables you to [schedule collections](/docs/running-collections/scheduling-collection-runs/) to run automatically at specified times. You can also use collection runs in conjunction with other Postman utilities to build automation into your API projects.
 
 * [The Postman CLI](/docs/postman-cli/postman-cli-overview/) command-line interface enables you to run collections and build them into your development pipeline, responding to test outcomes to support your API performance.
 * The [Newman](/docs/running-collections/using-newman-cli/command-line-integration-with-newman/) interface also enables you to run collections from the command line.

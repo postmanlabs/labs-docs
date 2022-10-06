@@ -29,7 +29,6 @@ When you schedule a run using the Collection Runner, the schedule becomes a prop
 
 Schedules share permissions with their collections. For example, if you have permissions to edit a collection, you'll you'll be able to edit that collection's schedules.
 
-<!--TODO: Mention any limitations or plan requirements-->
 > * Only personal, private, and team workspaces support schedules.
 > * Scheduled runs are processed on the Postman cloud. Use of the Postman cloud is limited by your Postman account.
 > * Scheduled collection runs are not included in workspace history.
@@ -60,8 +59,8 @@ Schedules share permissions with their collections. For example, if you have per
     * The schedule's frequency
     * An environment associated with the collection (optional)
     * How many times you want the collection to run (iterations)
-    * A `JSON` or `CSV` data file (optional).
-    * Notification recipients (optional).
+    * A `JSON` or `CSV` data file (optional)
+    * Notification recipients (optional)
     * Advanced settings (optional)
       * Retry if run fails
       * Set request timeout
@@ -69,13 +68,13 @@ Schedules share permissions with their collections. For example, if you have per
       * Follow redirects
       * Enable SSL validation
 
-1. Select the **Schedule Run** button. The **Runs** page appears, where you can view and edit past and upcoming scheduled collection runs.
+1. Select the **Schedule Run** button. The **Runs** page appears, where you can view and edit past and scheduled collection runs.
 
 ## Pausing or resuming a schedule
 
-1. Select **Collections** in the sidebar and select the collection with the scheduled run you want to delete.
+1. Select **Collections** in the sidebar and select the collection with the scheduled run you want to pause or resume.
 
-1. Select the **Runs** tab. A list of past and scheduled collection runs appears.
+1. Select the **Runs** tab.
     ![Runs tab](https://assets.postman.com/postman-docs/runs-tab-v10.jpg)
 
 1. Select the **Scheduled runs** tab. A list of scheduled runs appears.
