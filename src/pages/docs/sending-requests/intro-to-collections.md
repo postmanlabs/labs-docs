@@ -62,6 +62,7 @@ Select **Collections** in the sidebar for the list of collections in a workspace
     * [Reverting collection changes](#reverting-collection-changes)
     * [Viewing pull requests, forks, and collection details](#viewing-pull-requests-forks-and-collection-details)
 * [Using collections in development workflows](#using-collections-in-development-workflows)
+* [About multi-protocol request collections](#about-multi-protocol-request-collections)
 
 ## Creating collections
 
@@ -271,3 +272,11 @@ Collections can power various parts of your API development, testing, and publis
 * Attaching a [monitor](/docs/monitoring-your-api/intro-monitors/) to a collection lets you schedule collection runs. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the collection name, and then select **Monitor collection**.
 * You can use [mock servers](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/) to return sample data during testing and development. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the collection name, and then select **Mock collection**.
 * Generate collections from API specifications using the [Postman API Builder](/docs/designing-and-developing-your-api/the-api-workflow/).
+
+## About multi-protocol request collections
+
+You can also save multi-protocol requests, such as [WebSocket](/docs/sending-requests/websocket/websocket/) and [gRPC](/docs/sending-requests/grpc/grpc-client-overview/) requests, into collections.
+
+Because multi-protocol requests have different features than HTTP requests, when they're saved to a collection, it causes the collection to be in a “beta” state with certain limitations.
+
+When in this state, a collection can only contain WebSocket or gRPC requests, and not HTTP requests. Some features related to collections also aren't supported.
