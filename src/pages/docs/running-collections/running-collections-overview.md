@@ -1,8 +1,6 @@
 ---
 title: "Running collections - overview"
-order: 56.1
 updated: 2021-02-16
-page_id: "running_collections_overview"
 contextual_links:
   - type: section
     name: "Prerequisites"
