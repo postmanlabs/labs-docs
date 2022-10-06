@@ -164,11 +164,11 @@ The Postman web app is under active development. There are features you can only
 
 The Postman desktop app notifies you when a major update is available. For other updates, there is a dot on the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px">. If the indicator is red instead of orange, it indicates a failed update.
 
-![Update Ready](https://assets.postman.com/postman-docs/update-ready-v86.jpg)
+<img alt="Update Ready" src="https://assets.postman.com/postman-docs/v10/update-ready-v10.jpg" width="300px"/>
 
 Select the update option to download or install the latest update. If you are using Postman v9.13 or later, Postman automatically downloads updates. Postman notifies you when the download is complete and prompts you to restart Postman to apply the updates.
 
-<img alt="Check for updates" src="https://assets.postman.com/postman-docs/settings-updates-v9.jpg"/>
+<img alt="Check for updates" src="https://assets.postman.com/postman-docs/v10/settings-update-v10.jpg"/>
 
 ## Postman Chrome app (deprecated)
 
