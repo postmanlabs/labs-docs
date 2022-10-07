@@ -16,10 +16,13 @@ contextual_links:
   - type: subtitle
     name: "Videos"
   - type: link
-    name: "Test-driving the Latest Postman Release: v9 and Flows"
-    url: "https://youtu.be/j-fkJLbOpjk"
+    name: "Test-driving Postman v10"
+    url:  "https://youtu.be/9cZlAS-QTuc"
   - type: subtitle
     name: "Blog Posts"
+  - type: link
+    name: "Announcing Postman v10: The API Platform for an API-First World"
+    url: "https://blog.postman.com/announcing-postman-v10/"
   - type: link
     name: "The New Postman API Platform: Redefining API Management for the API-First World"
     url: "https://blog.postman.com/new-postman-api-platform-redefining-api-management-for-api-first-world/"

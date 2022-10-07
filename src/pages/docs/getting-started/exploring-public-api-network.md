@@ -19,6 +19,9 @@ contextual_links:
   - type: link
     name: "Discovering API Categories | Postman Level Up"
     url: "https://youtu.be/sIVjJBWqhPc"
+  - type: link
+    name: "Exploring the Public APIs and the Public API Network"
+    url: "https://youtu.be/azJnjF9hqAw"
   - type: subtitle
     name: "Blog Posts"
   - type: link

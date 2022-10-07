@@ -12,10 +12,16 @@ contextual_links:
   - type: subtitle
     name: "Videos"
   - type: link
+    name: "Test-driving Postman v10"
+    url:  "https://youtu.be/9cZlAS-QTuc"
+  - type: link
     name: "Agent for the Postman Web Client | Postman Level Up"
     url:  "https://www.youtube.com/watch?v=6xlJUx2ZMy4&list=PLM-7VG-sgbtC5tNXxd28cmePSa9BYwqeU&index=3"
   - type: subtitle
     name: "Blog Posts"
+  - type: link
+    name: "Announcing Postman v10: The API Platform for an API-First World"
+    url: "https://blog.postman.com/announcing-postman-v10/"
   - type: link
     name: "Introducing the Postman Agent: Send API Requests from Your Browser without Limits"
     url: "https://blog.postman.com/introducing-the-postman-agent-send-api-requests-from-your-browser-without-limits/"

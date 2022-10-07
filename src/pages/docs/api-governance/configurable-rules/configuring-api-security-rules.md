@@ -2,6 +2,15 @@
 title: "Configuring API Security rules"
 updated: 2022-09-15
 search_keyword: "api security, security warnings, schema validation, security validation, api security audit, api security scan, api schema vulnerabilities, security audit"
+contextual_links:
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Blog Posts"
+  - type: link
+    name: "Introducing API Security in Postman v10"
+    url: "https://blog.postman.com/introducing-api-security-in-postman-v10/"
+
 ---
 
 > [Configurable security rules are only available to Postman Enterprise teams.](https://www.postman.com/pricing) If you don't have an Enterprise account, you'll be able to see the API Security page, but you won't be able to turn rules on or off or add new rules.

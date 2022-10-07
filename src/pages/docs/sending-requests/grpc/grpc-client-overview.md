@@ -20,11 +20,8 @@ contextual_links:
   - type: subtitle
     name: "Blog Posts"
   - type: link
-    name: "Postman Now Supports gRPC"
-    url: "https://blog.postman.com/postman-now-supports-grpc/"
-  - type: link
-    name: "Latest Advancements to Postman’s gRPC Support"
-    url: "https://blog.postman.com/latest-advancements-to-postmans-grpc-support/"
+    name: "Postman v10 and gRPC: What You Can Do"
+    url: "https://blog.postman.com/postman-v10-and-grpc-what-you-can-do/"
   - type: link
     name: "Understanding Asynchronous APIs"
     url: "https://blog.postman.com/understanding-asynchronous-apis/"

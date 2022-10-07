@@ -8,9 +8,8 @@ contextual_links:
   - type: subtitle
     name: "Blog Posts"
   - type: link
-    name: "Postman’s New Warnings Pane for API Testing"
-    url: "https://blog.postman.com/api-testing-warnings/"
-
+    name: "Introducing API Security in Postman v10"
+    url: "https://blog.postman.com/introducing-api-security-in-postman-v10/"
 ---
 
 These security warnings indicate that there are potential security risks that your API might be vulnerable to.
