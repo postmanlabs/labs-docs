@@ -22,14 +22,14 @@ contextual_links:
     name: "Discover APIs Easily with New Categories in the Postman API Network"
     url: "https://blog.postman.com/discover-apis-categories-postman-api-network/"
   - type: link
-    name: "Play with These Gaming APIs in the Postman Public API Network"
-    url: "https://blog.postman.com/gaming-apis-postman-public-api-network/"
+    name: "The Most Popular Collection in the Postman API Network"
+    url: "https://blog.postman.com/the-most-popular-collection-in-the-postman-api-network/"
+  - type: link
+    name: "Empower Your Business with These Payments APIs"
+    url: "https://blog.postman.com/empower-your-business-with-these-payments-apis/"
   - type: link
     name: "Build Software Faster with These Productivity APIs"
     url: "https://blog.postman.com/build-software-faster-with-productivity-apis/"
-  - type: link
-    name: "Add Same-Day Delivery to Your Business Using DoorDash’s Drive API"
-    url: "https://blog.postman.com/add-same-day-delivery-to-your-business-doordash-drive-api/"
   - type: section
     name: "Next Steps"
   - type: link
