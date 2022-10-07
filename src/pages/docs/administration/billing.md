@@ -186,7 +186,7 @@ If you have a payment method on file, Postman will automatically attempt three t
 
 If payment is unsuccessful, Postman offers a grace period of 21 days to avoid service disruption. For invoice-based teams, this means 21 days following the due date listed on the invoice.
 
-In the event of non-payment and service deactivation, Postman sends an email notification to Billing team members.
+In the event of non-payment and service deactivation, Postman sends an email notification to the billing email address listed in your [billing details](http://go.postman.co/settings/team/billing-details).
 
 ## Team and plan changes
 
@@ -198,7 +198,7 @@ To change your plan right away, open your [billing dashboard](https://go.postman
 
 <img alt="Edit plan page" src="https://assets.postman.com/postman-docs/billing-edit-plan-v9.1.jpg"/>
 
-You can opt to apply changes right away or on renewal. You can adjust your team size, billing frequency, and plan type. Select **Next** to adjust your team's add-ons, including monitoring blocks, mock server blocks, and custom domains. Select **Next** to then **Confirm Changes**. Postman will send an email notification about the plan change to Billing team members.
+You can opt to apply changes right away or on renewal. You can adjust your team size, billing frequency, and plan type. Select **Next** to adjust your team's add-ons, including monitoring blocks, mock server blocks, and custom domains. Select **Next** to then **Confirm Changes**. Postman will send an email notification about the plan change to the billing email address listed in your [billing details](http://go.postman.co/settings/team/billing-details).
 
 The cost of your new plan and any new seats, if applicable, are prorated based on the time left in your team's billing cycle.
 
@@ -212,7 +212,7 @@ The cost of your new plan and any new seats, if applicable, are prorated based o
 
 Monthly teams can switch to an annual plan at any time by navigating to the [billing dashboard](https://go.postman.co/billing/overview) and selecting **Edit Plan** on the right.
 
-Select to pay **Monthly** or **Annual** and confirm your changes. Note that annual teams can only switch to a monthly plan at the end of their current billing cycle. You can find the end date of your current billing cycle under **Overview**. Postman will send an email notification about the billing cycle change to Billing team members.
+Select to pay **Monthly** or **Annual** and confirm your changes. Note that annual teams can only switch to a monthly plan at the end of their current billing cycle. You can find the end date of your current billing cycle under **Overview**. Postman will send an email notification about the billing cycle change to the billing email address listed in your [billing details](http://go.postman.co/settings/team/billing-details).
 
 <img alt="Edit plan billing frequency" src="https://assets.postman.com/postman-docs/billing-dashboard-edit-plan-billing-frequency-v9.1.jpg" width="400px"/>
 
@@ -230,7 +230,7 @@ Update the number of monitoring blocks, mock server blocks, and custom domains y
 
 [Auto-Flex](https://learning.postman.com/auto-flex-policy/) is a flexible billing feature available to Postman teams. With Auto-Flex enabled, your Team Admins can add users without having to pay in advance for more seats, then opt to retain or remove them before being [billed](#billing-for-auto-flex).
 
-Auto-Flex is automatically enabled for all Postman Free, Basic, and Professional plans.
+Auto-Flex is automatically enabled for all [Postman Basic and Professional plans](https://www.postman.com/pricing).
 
 #### Billing for Auto-Flex
 
