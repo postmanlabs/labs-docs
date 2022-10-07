@@ -14,7 +14,7 @@ contextual_links:
   - type: subtitle
     name: "Videos"
   - type: link
-    name: "API Lifecycle, Part 1: Build and Test an API | Postman Space Camp"
+    name: "API Lifecycle, Part 1: Build and Test an API | Postman Intergalactic"
     url: "https://youtu.be/RfYWIOocPfM"
   - type: subtitle
     name: "Blog Posts"
@@ -25,7 +25,7 @@ contextual_links:
     name: "Syncing Your OpenAPI, RAML, and GraphQL Schema to GitHub with Postman"
     url: "https://blog.postman.com/syncing-your-openapi-raml-and-graphql-schema-to-github-with-postman/"
   - type: link
-    name: "Getting Started with OpenAPI in Postman | Postman Space Camp"
+    name: "Getting Started with OpenAPI in Postman | Postman Intergalactic"
     url: "https://youtu.be/YRzpziA35Mg"
 warning: false
 ---

@@ -15,7 +15,7 @@ contextual_links:
   - type: subtitle
     name: "Videos"
   - type: link
-    name: "Postman Space Camp | Design and Prototype an API in Postman"
+    name: "Postman Intergalactic | Design and Prototype an API in Postman"
     url: "https://youtu.be/r4kb3jOSsmk"
   - type: section
     name: "Next Steps"
