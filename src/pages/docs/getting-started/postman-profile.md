@@ -28,7 +28,7 @@ Your profile includes:
 * A **Highlights** section with pinned elements
 * An **Activity** feed with a chronological list of your public activities
 
-<!-- TODO: screenshot -->
+<img alt="A Postman user's public profile" src="https://assets.postman.com/postman-docs/v10/public-profile-overview-v10.jpg" width="1000px"/>
 
 ## Contents
 
@@ -64,11 +64,11 @@ Your **About Me** section contains information about your work, interests, and c
 
 1. Select your avatar in the Postman header > **Settings**.
 1. Select **View your profile**.
-1. Select **View public profile**. <!-- TODO: is this the final workflow? -->
+1. Select **View public profile**.
 1. Under **About Me**, select **Edit**. The editor supports Markdown, or you can use the built-in text formatting tools.
 1. Select **Save**.
 
-<!-- TODO: screenshot -->
+<img alt="Editing the About Me section" src="https://assets.postman.com/postman-docs/v10/public-profile-about-me-section-v10.jpg" width="700px"/>
 
 ## Updating your About Me section
 
@@ -84,10 +84,10 @@ Update your **Highlights** section at any time in your [profile settings](https:
 
 1. Select your avatar in the Postman header > **Settings**.
 1. Select **View your profile**.
-1. Select **View public profile**. <!-- TODO: is this the final workflow? -->
+1. Select **View public profile**.
 1. Under **Highlights**, select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px">.
 1. To remove elements from the section, select the close icon <img alt="Close icon" src="https://assets.postman.com/postman-docs/icon-close.jpg#icon" width="16px"> next to the element name under **Selected works in highlight**.
 1. To add an element to the section, select the element type, then select the element from the list.
 1. After you have added or removed elements, select **Save**.
 
-<!-- TODO: screenshot -->
+<img alt="Pinning elements to the Highlights section" src="https://assets.postman.com/postman-docs/v10/public-profile-update-highlights-section-v10.jpg" width="400px"/>
