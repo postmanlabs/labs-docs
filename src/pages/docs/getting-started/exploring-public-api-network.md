@@ -16,11 +16,11 @@ contextual_links:
   - type: link
     name: "Public API Network | The Exploratory"
     url: "https://youtu.be/2LDR93X0WIc"
+  - type: link
+    name: "Discovering API Categories | Postman Level Up"
+    url: "https://youtu.be/sIVjJBWqhPc"
   - type: subtitle
     name: "Blog Posts"
-  - type: link
-    name: "Discover APIs Easily with New Categories in the Postman API Network"
-    url: "https://blog.postman.com/discover-apis-categories-postman-api-network/"
   - type: link
     name: "The Most Popular Collection in the Postman API Network"
     url: "https://blog.postman.com/the-most-popular-collection-in-the-postman-api-network/"
