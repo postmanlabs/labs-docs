@@ -10,7 +10,6 @@ contextual_links:
   - type: link
     name: "Introducing API Security in Postman v10"
     url: "https://blog.postman.com/introducing-api-security-in-postman-v10/"
-
 ---
 
 > [Configurable security rules are only available to Postman Enterprise teams.](https://www.postman.com/pricing) If you don't have an Enterprise account, you'll be able to see the API Security page, but you won't be able to turn rules on or off or add new rules.
