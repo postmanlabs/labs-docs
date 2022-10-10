@@ -167,6 +167,18 @@ To clear all cookies for a URL, use the `.clear()` function. This function takes
 cookieJar.clear(URL, callback (error));
 ```
 
+### Deleting and then setting cookies in sequence
+
+To clear all cookies for a URL `.clear()` and then place a cookie into a cookie jar `.set()`, use a callback function.
+
+Function calls execute asynchronously. Use a callback function to ensure functions execute in sequence:
+
+```js
+cookieJar.clear(URL, (error) => {
+    jar.set(URL, cookie name, cookie value, callback(error, cookie));
+});
+```
+
 ### Properties not supported
 
 The following properties aren't supported by Postman:
