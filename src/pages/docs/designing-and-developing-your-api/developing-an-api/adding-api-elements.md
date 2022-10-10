@@ -12,7 +12,7 @@ contextual_links:
   - type: subtitle
     name: "Videos"
   - type: link
-    name: "Postman Space Camp | Advanced API Debugging"
+    name: "Postman Intergalactic | Advanced API Debugging"
     url: "https://youtu.be/9xGp6d7VFgU"
   - type: subtitle
     name: "Blog Posts"
