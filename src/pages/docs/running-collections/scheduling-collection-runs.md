@@ -21,24 +21,27 @@ contextual_links:
 warning: false
 ---
 
-Many Postman users run collections at specific times each day or week. For example, you may want to test your API's endpoints every week to observe availability, performance, or reliability. Prior to version 10, you could only [use monitors](/docs/running-collections/scheduling-collection-runs-monitors/) to automatically run collections at specific times. Now you can also schedule collection runs using the Collection Runner.
+Many Postman users run collections at specific times each day or week. For example, you may want to test your API's endpoints every week to observe availability, performance, or reliability. Now you can also schedule collection runs using the Collection Runner. You can still schedule collection runs using [monitors](/docs/running-collections/scheduling-collection-runs-monitors/) as well.
 
-When you schedule a run using the Collection Runner, the schedule becomes a property of the collection. You can create, pause, edit, and delete scheduled collection runs.
+When you schedule a collection run with the Collection Runner, the scheduled run is added to the collection's **Runs** tab. You can pause, edit, and delete scheduled collection runs from the collection's **Runs** tab. These scheduled runs execute in the Postman cloud.
 
 Schedules share permissions with their collections. For example, if you have permissions to edit a collection, you'll you'll be able to edit that collection's schedules.
 
-> * Only personal, private, and team workspaces support schedules.
-> * Scheduled runs are processed on the Postman cloud. Use of the Postman cloud is limited by your Postman account.
+> * Scheduled collection runs support [custom run orders](/docs/running-collections/building-workflows/).
+> * Only personal, private, and team workspaces support scheduling collection runs.
+> * Scheduled runs are executed in the Postman cloud. Use of the Postman cloud is limited by your Postman account.
 > * Scheduled collection runs are not included in workspace history.
-> * Run order can't be customized for scheduled runs in the cloud.
 > * If you import or export a collection, its schedules do not import/export with it. However, if you delete a collection, its schedules are deleted also.
 
 ## Contents
 
 * [Scheduling a collection run](#scheduling-a-collection-run)
-* [Pausing or resuming a schedule](#pausing-or-resuming-a-schedule)
-* [Editing a schedule](#editing-a-schedule)
-* [Deleting a schedule](#deleting-a-schedule)
+* [Viewing your scheduled run](#viewing-your-scheduled-run)
+* [Manually running your scheduled run](#manually-running-your-scheduled-run)
+* [Pausing or resuming a scheduled run](#pausing-or-resuming-a-scheduled-run)
+* [Editing a scheduled run](#editing-a-scheduled-run)
+* [Deleting a scheduled run](#deleting-a-scheduled-run)
+* [Check usage for your run]
 
 ## Scheduling a collection run
 
@@ -57,7 +60,7 @@ Schedules share permissions with their collections. For example, if you have per
     * The schedule's frequency
     * An environment associated with the collection (optional)
     * How many times you want the collection to run (iterations)
-    * A `JSON` or `CSV` data file (optional)
+    * A `JSON` or `CSV` [data file](/docs/running-collections/working-with-data-files/) (optional)
     * Notification recipients (optional)
     * Advanced settings (optional)
       * Retry if run fails
@@ -66,9 +69,29 @@ Schedules share permissions with their collections. For example, if you have per
       * Follow redirects
       * Enable SSL validation
 
-1. Select the **Schedule Run** button. The **Runs** page appears, where you can view and edit past and scheduled collection runs.
+1. Select the **Schedule Run** button. The **Runs** page appears, where you can view and edit scheduled collection runs.
 
-## Pausing or resuming a schedule
+## Viewing your scheduled run
+
+1. Select **Collections** in the sidebar and select the collection with the scheduled run you want to view.
+
+1. Select the **Runs** tab.
+
+1. Select the **Scheduled runs** tab. A list of your scheduled runs appears.
+
+## Manually running your scheduled run
+
+1. Select **Collections** in the sidebar and select the collection with the scheduled run you want to view.
+
+1. Select the **Runs** tab.
+
+1. Select the **Scheduled runs** tab. A list of your scheduled runs appears.
+
+1. Select the **Scheduled run** link. The **Scheduled run** tab opens.
+
+1. On the **Scheduled run** tab, select the **Run** button.
+
+## Pausing or resuming a scheduled run
 
 1. Select **Collections** in the sidebar and select the collection with the scheduled run you want to pause or resume.
 
@@ -81,7 +104,7 @@ Schedules share permissions with their collections. For example, if you have per
 
 1. Select **Pause schedule** or **Resume**. Paused runs appear under the **Paused** heading on the **Runs** tab.
 
-## Editing a schedule
+## Editing a scheduled run
 
 1. Select **Collections** in the sidebar and select the collection whose schedule you want to edit.
 
@@ -95,7 +118,7 @@ Schedules share permissions with their collections. For example, if you have per
 
 1. Select **Save changes** when you're finished editing.
 
-## Deleting a schedule
+## Deleting a scheduled run
 
 1. Select **Collections** in the sidebar and select the collection with the scheduled run you want to delete.
 
