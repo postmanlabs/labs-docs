@@ -21,16 +21,17 @@ contextual_links:
 warning: false
 ---
 
-Many Postman users run collections at specific times each day or week. For example, you may want to test your API's endpoints every week to observe availability, performance, or reliability. Now you can also schedule collection runs using the Collection Runner. You can still schedule collection runs using [monitors](/docs/running-collections/scheduling-collection-runs-monitors/) as well.
+Many Postman users run collections at specific times each day or week. For example, you may want to test your API's endpoints every week to observe availability, performance, or reliability. You can schedule collection runs using the Collection Runner. You can also schedule collection runs using [monitors](/docs/running-collections/scheduling-collection-runs-monitors/).
 
-When you schedule a collection run with the Collection Runner, the scheduled run is added to the collection's **Runs** tab. You can pause, edit, and delete scheduled collection runs from the collection's **Runs** tab. These scheduled runs execute in the Postman cloud.
+When you schedule a collection run with the Collection Runner, the scheduled run is added to the collection's **Runs** tab. You can view, pause, edit, and delete scheduled collection runs from the collection's **Runs** tab. These scheduled runs execute in the Postman cloud.
 
-Schedules share permissions with their collections. For example, if you have permissions to edit a collection, you'll you'll be able to edit that collection's schedules.
+<img alt="Runs tab v10" src="https://assets.postman.com/postman-docs/v10/scheduled-runs-v10.jpg"/>
 
+> * Schedules share permissions with their collections. For example, if you have permissions to edit a collection, you'll you'll be able to edit that collection's schedules.
 > * Scheduled collection runs support [custom run orders](/docs/running-collections/building-workflows/).
 > * Only personal, private, and team workspaces support scheduling collection runs.
 > * Scheduled runs are executed in the Postman cloud. Use of the Postman cloud is limited by your Postman account.
-> * Scheduled collection runs are not included in workspace history.
+> * Scheduled collection runs are not included in a workspace's history.
 > * If you import or export a collection, its schedules do not import/export with it. However, if you delete a collection, its schedules are deleted also.
 
 ## Contents
@@ -41,7 +42,9 @@ Schedules share permissions with their collections. For example, if you have per
 * [Pausing or resuming a scheduled run](#pausing-or-resuming-a-scheduled-run)
 * [Editing a scheduled run](#editing-a-scheduled-run)
 * [Deleting a scheduled run](#deleting-a-scheduled-run)
-* [Check usage for your run]
+
+<!-- * [Check usage for your run]()
+TODO: Add this content. More info needed; awaiting response to question in review draft docs. -->
 
 ## Scheduling a collection run
 
@@ -53,7 +56,7 @@ Schedules share permissions with their collections. For example, if you have per
 
 1. On the Collection Runner, select **Schedule runs**.
 
-    ![Schedule runs](https://assets.postman.com/postman-docs/schedule-runs-v10.jpg)
+    ![Schedule runs](https://assets.postman.com/postman-docs/v10/schedule-runs-1-v10.jpg)
 
 1. Enter the following:
     * The schedule's name
@@ -77,7 +80,11 @@ Schedules share permissions with their collections. For example, if you have per
 
 1. Select the **Runs** tab.
 
+    ![Scheduled runs tab v10](https://assets.postman.com/postman-docs/v10/scheduled-runs-tab-v10.jpg)
+
 1. Select the **Scheduled runs** tab. A list of your scheduled runs appears.
+
+1. Select **View** next to your scheduled run.
 
 ## Manually running your scheduled run
 
@@ -85,30 +92,35 @@ Schedules share permissions with their collections. For example, if you have per
 
 1. Select the **Runs** tab.
 
+    ![Scheduled runs tab v10](https://assets.postman.com/postman-docs/v10/scheduled-runs-tab-v10.jpg)
+
 1. Select the **Scheduled runs** tab. A list of your scheduled runs appears.
 
-1. Select the **Scheduled run** link. The **Scheduled run** tab opens.
+1. Select **View** next to your scheduled run. The scheduled run's results appear.
 
-1. On the **Scheduled run** tab, select the **Run** button.
+1. Select the **Run** button.
 
 ## Pausing or resuming a scheduled run
 
 1. Select **Collections** in the sidebar and select the collection with the scheduled run you want to pause or resume.
 
 1. Select the **Runs** tab.
-    ![Runs tab](https://assets.postman.com/postman-docs/runs-tab-v10.jpg)
+
+    ![Scheduled runs tab v10](https://assets.postman.com/postman-docs/v10/scheduled-runs-tab-v10.jpg)
 
 1. Select the **Scheduled runs** tab. A list of scheduled runs appears.
 
 1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the scheduled run you want to delete.
 
-1. Select **Pause schedule** or **Resume**. Paused runs appear under the **Paused** heading on the **Runs** tab.
+1. Select **Pause** or **Resume**. Paused runs appear under the **Paused** heading on the **Runs** tab.
 
 ## Editing a scheduled run
 
 1. Select **Collections** in the sidebar and select the collection whose schedule you want to edit.
 
 1. Select the **Runs** tab.
+
+    ![Scheduled runs tab v10](https://assets.postman.com/postman-docs/v10/scheduled-runs-tab-v10.jpg)
 
 1. Select the **Scheduled runs** tab. A list of scheduled runs appears.
 
@@ -124,8 +136,12 @@ Schedules share permissions with their collections. For example, if you have per
 
 1. Select the **Runs** tab. A list of past and scheduled collection runs appears.
 
+    ![Scheduled runs tab v10](https://assets.postman.com/postman-docs/v10/scheduled-runs-tab-v10.jpg)
+
 1. Select the **Scheduled runs** tab. A list of scheduled runs appears.
 
 1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the scheduled run you want to delete.
 
-1. Select **Delete schedule**.
+1. Select **Delete schedule**. A "Delete scheduled collection" window appears.
+
+1. In the "Delete scheduled collection" window, select **Delete**.
