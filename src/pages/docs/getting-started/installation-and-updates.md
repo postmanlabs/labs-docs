@@ -12,10 +12,16 @@ contextual_links:
   - type: subtitle
     name: "Videos"
   - type: link
+    name: "Test-driving Postman v10"
+    url:  "https://youtu.be/9cZlAS-QTuc"
+  - type: link
     name: "Agent for the Postman Web Client | Postman Level Up"
     url:  "https://www.youtube.com/watch?v=6xlJUx2ZMy4&list=PLM-7VG-sgbtC5tNXxd28cmePSa9BYwqeU&index=3"
   - type: subtitle
     name: "Blog Posts"
+  - type: link
+    name: "Announcing Postman v10: The API Platform for an API-First World"
+    url: "https://blog.postman.com/announcing-postman-v10/"
   - type: link
     name: "Introducing the Postman Agent: Send API Requests from Your Browser without Limits"
     url: "https://blog.postman.com/introducing-the-postman-agent-send-api-requests-from-your-browser-without-limits/"
@@ -164,11 +170,11 @@ The Postman web app is under active development. There are features you can only
 
 The Postman desktop app notifies you when a major update is available. For other updates, there is a dot on the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px">. If the indicator is red instead of orange, it indicates a failed update.
 
-![Update Ready](https://assets.postman.com/postman-docs/update-ready-v86.jpg)
+<img alt="Update Ready" src="https://assets.postman.com/postman-docs/v10/update-ready-v10.jpg" width="300px"/>
 
 Select the update option to download or install the latest update. If you are using Postman v9.13 or later, Postman automatically downloads updates. Postman notifies you when the download is complete and prompts you to restart Postman to apply the updates.
 
-<img alt="Check for updates" src="https://assets.postman.com/postman-docs/settings-updates-v9.jpg"/>
+<img alt="Check for updates" src="https://assets.postman.com/postman-docs/v10/settings-update-v10.jpg"/>
 
 ## Postman Chrome app (deprecated)
 

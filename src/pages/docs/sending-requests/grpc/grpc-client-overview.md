@@ -20,14 +20,16 @@ contextual_links:
   - type: subtitle
     name: "Blog Posts"
   - type: link
-    name: "Postman Now Supports gRPC"
-    url: "https://blog.postman.com/postman-now-supports-grpc/"
-  - type: link
-    name: "Latest Advancements to Postman’s gRPC Support"
-    url: "https://blog.postman.com/latest-advancements-to-postmans-grpc-support/"
+    name: "Postman v10 and gRPC: What You Can Do"
+    url: "https://blog.postman.com/postman-v10-and-grpc-what-you-can-do/"
   - type: link
     name: "Understanding Asynchronous APIs"
     url: "https://blog.postman.com/understanding-asynchronous-apis/"
+  - type: subtitle
+    name: "Public Workspaces"
+  - type: link
+    name: "Public gRPC APIs"
+    url:  "https://www.postman.com/devrel/workspace/public-grpc-apis"
 ---
 
 _gRPC_ is a schema-driven Remote Procedure Call (RPC) framework often used to enable inter-service communication. Being RPC-based, it facilitates client-server communication over a function call instead of an HTTP call. gRPC has gained significant popularity because of its easier abstraction than HTTP, support across multiple languages, and high performance.

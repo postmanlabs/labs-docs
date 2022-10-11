@@ -19,8 +19,8 @@ contextual_links:
     name: "Introducing Postman’s WYSIWYG Editing Experience"
     url: "https://blog.postman.com/introducing-postmans-wysiwyg-editing-experience/"
   - type: link
-    name: "Postman Editor Now Supports Uploading Images"
-    url: "https://blog.postman.com/postman-editor-now-supports-uploading-images/"
+    name: "Introducing New Image Support: Drag-and-Drop, Resize, and Add Captions in Postman Editor"
+    url: "https://blog.postman.com/resize-images-add-captions-in-postman-editor/"
   - type: subtitle
     name: "Case Studies"
   - type: link

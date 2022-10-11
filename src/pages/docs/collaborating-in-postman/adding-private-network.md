@@ -20,8 +20,8 @@ contextual_links:
   - type: subtitle
     name: "Blog Posts"
   - type: link
-    name: "Introducing the New Private API Network for Easier Discovery"
-    url: "https://blog.postman.com/new-private-api-network-for-easier-discovery/"
+    name: "Improved Internal API Discovery with the Redesigned Private API Network"
+    url: "https://blog.postman.com/improving-api-discovery-with-the-redesigned-private-api-network/"
   - type: link
     name: "Introducing the API Network Manager Role and Approval Process"
     url: "https://blog.postman.com/introducing-private-api-network-manager-role-and-approval-process/"

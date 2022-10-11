@@ -7,8 +7,8 @@ contextual_links:
   - type: subtitle
     name: "Blog Posts"
   - type: link
-    name: "Introducing Security Warnings During API Validation"
-    url: "https://blog.postman.com/security-warnings-during-api-validation/"
+    name: "Introducing API Security in Postman v10"
+    url: "https://blog.postman.com/introducing-api-security-in-postman-v10/"
   - type: subtitle
     name: "Public Workspaces"
   - type: link
