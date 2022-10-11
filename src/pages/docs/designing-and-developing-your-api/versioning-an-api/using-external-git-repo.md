@@ -20,11 +20,8 @@ contextual_links:
   - type: subtitle
     name: "Blog Posts"
   - type: link
-    name: "Redefining API Management for the API-First World"
-    url: "https://blog.postman.com/new-postman-api-platform-redefining-api-management-for-api-first-world"
-  - type: link
-    name: "Streamline the API Development Lifecycle with Postman Version Control"
-    url: "https://blog.postman.com/streamline-api-development-lifecycle-with-postman-version-control/"
+    name: "Announcing Postman’s Redesigned API Builder with Native Git Support"
+    url: "https://blog.postman.com/announcing-postmans-redesigned-api-builder-with-native-git-support/"
   - type: link
     name: "Better Practices for Git Version Control in Postman"
     url: "https://blog.postman.com/better-practices-for-git-version-control-in-postman/"
