@@ -12,7 +12,7 @@ contextual_links:
     name: "Working With Your Team in Postman | The Exploratory"
     url: "https://youtu.be/5lscUV-Exac"
   - type: link
-    name: "Postman Space Camp | Working with Your Team in Postman"
+    name: "Postman Intergalactic | Working with Your Team in Postman"
     url: "https://youtu.be/OifhKJCd_-M"
   - type: subtitle
     name: "Blog Posts"
