@@ -9,6 +9,11 @@ contextual_links:
   - type: link
     name: "gRPC Requests | Postman Level Up"
     url: "https://youtu.be/gfYGqMb81GQ"
+  - type: subtitle
+    name: "Public Workspaces"
+  - type: link
+    name: "Public gRPC APIs"
+    url:  "https://www.postman.com/devrel/workspace/public-grpc-apis"
 ---
 
 To get started with gRPC, create a request and invoke it using an echo endpoint.

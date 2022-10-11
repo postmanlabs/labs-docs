@@ -16,20 +16,23 @@ contextual_links:
   - type: link
     name: "Public API Network | The Exploratory"
     url: "https://youtu.be/2LDR93X0WIc"
+  - type: link
+    name: "Discovering API Categories | Postman Level Up"
+    url: "https://youtu.be/sIVjJBWqhPc"
+  - type: link
+    name: "Exploring the Public APIs and the Public API Network"
+    url: "https://youtu.be/azJnjF9hqAw"
   - type: subtitle
     name: "Blog Posts"
   - type: link
-    name: "Discover APIs Easily with New Categories in the Postman API Network"
-    url: "https://blog.postman.com/discover-apis-categories-postman-api-network/"
+    name: "The Most Popular Collection in the Postman API Network"
+    url: "https://blog.postman.com/the-most-popular-collection-in-the-postman-api-network/"
   - type: link
-    name: "Play with These Gaming APIs in the Postman Public API Network"
-    url: "https://blog.postman.com/gaming-apis-postman-public-api-network/"
+    name: "Empower Your Business with These Payments APIs"
+    url: "https://blog.postman.com/empower-your-business-with-these-payments-apis/"
   - type: link
     name: "Build Software Faster with These Productivity APIs"
     url: "https://blog.postman.com/build-software-faster-with-productivity-apis/"
-  - type: link
-    name: "Add Same-Day Delivery to Your Business Using DoorDash’s Drive API"
-    url: "https://blog.postman.com/add-same-day-delivery-to-your-business-doordash-drive-api/"
   - type: section
     name: "Next Steps"
   - type: link
@@ -43,11 +46,11 @@ The Postman Public API Network is the largest network of APIs, workspaces, and c
 
 To access the Public API Network, visit [postman.com/explore](https://www.postman.com/explore) or select **Explore** in the header.
 
-[![Postman Public API Network](https://assets.postman.com/postman-docs/public-api-network-v9.5.jpg)](https://assets.postman.com/postman-docs/public-api-network-v9.5.jpg)
+<img alt="Postman Public API Network" src="https://assets.postman.com/postman-docs/v10/public-api-network-v10.jpg" width="1000px"/>
 
 There are a variety of ways to find APIs, workspaces, teams, and collections:
 
-* **Categories** showcases popular API categories in the Public API Network including Communication, Data Analytics, and Financial Services.
+* **Categories** showcases popular API categories in the Public API Network: [Artificial Intelligence](https://www.postman.com/category/artificial-intelligence), [Communication](https://www.postman.com/category/communication), [Data Analytics](https://www.postman.com/category/data-analytics), [Developer Productivity](https://www.postman.com/category/developer-productivity), [DevOps](https://www.postman.com/category/devops), [Financial Services](https://www.postman.com/category/financial-services), and [Payments](https://www.postman.com/category/payments).
 * **In the spotlight** highlights the latest exciting, useful, and noteworthy contributions to the Public API Network, handpicked by the experts at Postman.
 * **Trending workspaces, collections, and APIs** shows entities that are the most popular in the Public API Network, based on the number of people viewing or creating forks of them.
 * The **Search Postman** box at the top of the page searches all Postman teams, workspaces, collections, and APIs by default, but you can also use the search controls to limit a search to the Public API Network.
