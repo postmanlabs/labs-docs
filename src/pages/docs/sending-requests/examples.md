@@ -45,7 +45,7 @@ Examples show your API endpoints in action and give more details on how requests
 
 ## Understanding examples
 
-In Postman, an example is a pairing made up of a request and a related response. Each example includes a request part (method, URL, parameters, headers, and body) and a response part (status code, body, and headers). You create examples by adding them to requests in collections, and one request can have multiple examples.
+In Postman, an example is a pairing made up of a _request_ and a related _response_. Each example includes a request part (method, URL, parameters, headers, and body) and a response part (status code, body, and headers). You create examples by adding them to requests in collections, and one request can have multiple examples.
 
 Having multiple examples for one request is useful for illustrating the different ways an endpoint can respond to a request. You might have examples that respond with different status codes (such as 200 or 404) or that return different data (or no data at all).
 
