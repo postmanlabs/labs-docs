@@ -93,7 +93,7 @@ You can import a definition from a connected Azure API Management service to you
 
 ## Exporting your API to Azure API Management
 
-Exporting an OpenAPI definition makes it available in the connected Azure API Management service. OpenAPI 2.0 and 3.0.x definitions are supported. You can export the definition to an existing revision or to a new revision.
+Exporting an OpenAPI definition makes it available in the connected Azure API Management service. OpenAPI 2.0 and 3.0 definitions are supported. You can export the definition to an existing revision or to a new revision.
 
 1. Select **APIs** in the sidebar and select an API.
 1. Select **Deployments**.
