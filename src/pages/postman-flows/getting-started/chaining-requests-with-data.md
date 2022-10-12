@@ -46,7 +46,7 @@ A very common use case is to take data from once response, and pipe that to anot
 
 4. **Use message in Request variables**
 
-   For the sake of simplicity, Flows flattens complex objects to simple key-value pairs in the Send Request block. So the above message gets converted to the following, and you will be able to use the values of complext objects in your requests via the variable syntax of `{{body.id}}`.
+   For the sake of simplicity, Flows flattens complex objects to simple key-value pairs in the Send Request block. So the above message gets converted to the following, and you will be able to use the values of complex objects in your requests via the variable syntax of `{{body.id}}`.
 
    ```
    body.id: 1
