@@ -1,6 +1,6 @@
 ---
 title: "Publishing your docs"
-updated: 2022-09-27
+updated: 2022-10-04
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -47,7 +47,7 @@ Public documentation automatically includes details for each request or endpoint
 
 To publish [documentation](/docs/publishing-your-api/documenting-your-api/), it must be part of a collection. You can publish documentation for any collections that you created or have permission to edit.
 
-> You can't publish a collection that has been added to an API. Instead, you can [publish a version of the API](/docs/designing-and-developing-your-api/versioning-an-api/api-versions/). A published version includes the API's definition and collections.
+> You can't publish a collection that has [gRPC requests](/docs/sending-requests/grpc/grpc-request-interface/#the-right-sidebar) or [WebSocket requests](/docs/sending-requests/websocket/websocket/#documenting-requests). Also, you can't publish a collection that has been added to an API. Instead, you can [publish a version of the API](/docs/designing-and-developing-your-api/versioning-an-api/api-versions/). A published version includes the API's definition and collections.
 
 To publish the documentation for a collection:
 
