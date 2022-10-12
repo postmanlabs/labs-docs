@@ -23,14 +23,14 @@ warning: false
 
 Many Postman users run collections at specific times each day or week. For example, you may want to test your API's endpoints every week to observe availability, performance, or reliability. You can schedule collection runs using the Collection Runner. You can also schedule collection runs using [monitors](/docs/running-collections/scheduling-collection-runs-monitors/).
 
-When you schedule a collection run with the Collection Runner, the scheduled run is added to the collection's **Runs** tab. You can view, pause, edit, and delete scheduled collection runs from the collection's **Runs** tab. These scheduled runs execute in the Postman cloud.
+When you schedule a collection run with the Collection Runner, the scheduled run is added to the collection's **Runs** tab. You can view, pause, edit, and delete scheduled collection runs from the collection's **Runs** tab. These scheduled runs execute in the Postman Cloud.
 
 <img alt="Runs tab v10" src="https://assets.postman.com/postman-docs/v10/scheduled-runs-v10.jpg"/>
 
 > * Schedules share permissions with their collections. For example, if you have permissions to edit a collection, you'll you'll be able to edit that collection's schedules.
 > * Scheduled collection runs support [custom run orders](/docs/running-collections/building-workflows/).
 > * Only personal, private, and team workspaces support scheduling collection runs.
-> * Scheduled runs are executed in the Postman cloud. Use of the Postman cloud is limited by your Postman account.
+> * Scheduled runs are executed in the Postman Cloud. Use of the Postman Cloud is limited by your Postman account.
 > * Scheduled collection runs are not included in a workspace's history.
 > * If you import or export a collection, its schedules do not import/export with it. However, if you delete a collection, its schedules are deleted also.
 
