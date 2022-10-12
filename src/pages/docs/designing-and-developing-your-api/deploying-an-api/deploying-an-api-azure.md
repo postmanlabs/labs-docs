@@ -34,19 +34,19 @@ To connect to Azure API Management in Postman:
     * **Subscription** - The [subscription](https://docs.microsoft.com/en-us/azure/api-management/api-management-subscriptions) where the service was created.
     * **Resource Group** - The [resource group](https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/manage-resource-groups-portal) that contains the service.
     * **Service** - The Azure API Management [service instance](https://docs.microsoft.com/en-us/azure/api-management/api-management-key-concepts) used for deploying your API.
-    * **Azure API Version** - The Azure API [version](https://docs.microsoft.com/en-us/azure/api-management/api-management-versions) that corresponds to your API in Postman.
+    * **API Version** - The Azure API [version](https://docs.microsoft.com/en-us/azure/api-management/api-management-versions) that corresponds to your API in Postman.
 
 1. To connect more Azure API Management services, select **+ Add Service**. To remove a service, select **Remove**.
 1. When you're finished adding services, select **Connect**.
 
-    <img alt="Azure API Management setup" src="https://assets.postman.com/postman-docs/v10/azure-apim-setup-v10.jpg" width="513px"/>
+    <img alt="Azure API Management setup" src="https://assets.postman.com/postman-docs/v10/azure-apim-setup-v10-0-25.jpg" width="513px"/>
 
 1. If you want, you can choose to import a definition from Azure API Management:
 
     * To import a definition, select the **Definition type** (OpenAPI 2.0 or OpenAPI 3.0). Then select the **Azure service** to import the definition from and select **Import**. _Importing a definition will replace your current API definition or add a new definition if one doesn't exist._
     * If you don't want to import a definition, select **Maybe later**. You can [import a definition](#importing-a-definition-from-azure) at any time after connecting to Azure API Management.
 
-    <img alt="Azure API Management import definition during setup" src="https://assets.postman.com/postman-docs/v10/azure-apim-setup-import-v10.jpg" width="513px"/>
+    <img alt="Azure API Management import definition during setup" src="https://assets.postman.com/postman-docs/v10/azure-apim-setup-import-v10-0-25.jpg" width="513px"/>
 
 ## Viewing Azure API deployments
 
@@ -54,7 +54,7 @@ After connecting to Azure API Management, you can view the deployment status and
 
 For each connected API Management service instance, you can view the resource group, location, subscription, and virtual IP address (VIP).
 
-<img alt="Viewing Azure API Management services" src="https://assets.postman.com/postman-docs/v10/azure-apim-deployments-v10.jpg"/>
+<img alt="Viewing Azure API Management services" src="https://assets.postman.com/postman-docs/v10/azure-apim-deployments-v10-0-25.jpg"/>
 
 Select a service to view more details about the connected Azure API version.
 
