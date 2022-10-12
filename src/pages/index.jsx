@@ -286,7 +286,7 @@ class IndexPage extends React.Component {
                     title="Postman Intergalactic"
                     description="See previous and upcoming educational webinars."
                     cta="See webinars"
-                    link="https://www.postman.com/events/postman-space-camp/"
+                    link="https://www.postman.com/events/intergalactic/"
                     icon="https://voyager.postman.com/icon/camp-tent-icon-postman.svg"
                   />
                 </div>
