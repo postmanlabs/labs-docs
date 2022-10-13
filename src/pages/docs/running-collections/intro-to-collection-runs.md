@@ -117,7 +117,7 @@ The **Runs** tab has controls to select how many collection runs to view, and li
 
 The following are displayed for each collection run:
 
-* A select box for each run and an option to select all runs.
+* A checkbox for each run and an option to select all runs.
     * Select one or more collection runs and select **Delete** to remove them.
 * The start time of the collection run.
 * The run source, duration, all tests, passed tests, failed tests, skipped tests, and the average response time. Select any of these items to sort the table by that item. Select again to change the sort order.
