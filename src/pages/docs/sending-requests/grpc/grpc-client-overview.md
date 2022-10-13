@@ -25,6 +25,9 @@ contextual_links:
   - type: link
     name: "Understanding Asynchronous APIs"
     url: "https://blog.postman.com/understanding-asynchronous-apis/"
+  - type: link
+    name: "How to Choose HTTP or gRPC for Your Next API"
+    url: "https://blog.postman.com/how-to-choose-http-or-grpc-for-your-next-api/"
   - type: subtitle
     name: "Public Workspaces"
   - type: link
