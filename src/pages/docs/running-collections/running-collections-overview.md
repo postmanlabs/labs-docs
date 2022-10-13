@@ -1,6 +1,6 @@
 ---
 title: "Running collections - overview"
-updated: 2021-02-16
+updated: 2022-10-19
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -21,9 +21,9 @@ contextual_links:
 warning: false
 ---
 
-Postman enables you to run collections in several ways. You can:
+In Postman, a [collection](/docs/getting-started/creating-the-first-collection/) can be a group of saved [requests](/docs/getting-started/sending-the-first-request/), or a [workflow](/docs/running-collections/building-workflows/), or a [test suite](/docs/writing-scripts/test-scripts/). You might run a collection to send requests to your new API's endpoints, or to retrieve data from a data source, or to test an API's functionality. Postman enables you to run collections in several ways:
 
-* [Run collections manually](/docs/running-collections/intro-to-collection-runs/), with the Collection Runner.
-* Run collections on a schedule, with [scheduled collection runs](/docs/running-collections/scheduling-collection-runs) or [monitors](/docs/running-collections/scheduling-collection-runs-monitors).
-* Automate collection runs with the [Postman CLI](/docs/postman-cli/postman-cli-overview/) and [Newman](/docs/running-collections/using-newman-cli/command-line-integration-with-newman/).
-* Trigger collection runs with [webhooks](/docs/running-collections/collection-webhooks/).
+* You can [run collections manually](/docs/running-collections/intro-to-collection-runs/), with the Collection Runner. This is useful when you're sending a small number of requests and you don't need to repeat them many times.
+* You can run collections on a schedule, using scheduled collection runs or monitors. [Scheduled collection runs](/docs/running-collections/scheduling-collection-runs) are useful for automating testing, and [monitors](/docs/running-collections/scheduling-collection-runs-monitors) are useful for checking performance, availability, and reliability.
+* You can automate collection runs in your CI/CD with the [Postman CLI](/docs/postman-cli/postman-cli-overview/) or [Newman](/docs/running-collections/using-newman-cli/command-line-integration-with-newman/).
+* You can use [webhooks](/docs/running-collections/collection-webhooks/) to trigger collection runs at certain times or when a specific event happens in your application.

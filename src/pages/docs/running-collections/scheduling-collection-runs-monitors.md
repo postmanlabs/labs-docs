@@ -1,6 +1,6 @@
 ---
 title: "Scheduling collection runs with monitors"
-updated: 2021-02-16
+updated: 2022-10-19
 contextual_links:
   - type: section
     name: "Prerequisites"

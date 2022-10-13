@@ -1,6 +1,6 @@
 ---
 title: "Scheduling collection runs"
-updated: 2021-02-16
+updated: 2022-10-19
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -84,7 +84,7 @@ TODO: Add this content. More info needed; awaiting response to question in revie
 
 1. Select the **Scheduled runs** tab. A list of your scheduled runs appears.
 
-1. Select **View** next to your scheduled run.
+1. Hover over your scheduled run and Select **View**.
 
 ## Manually running your scheduled run
 
