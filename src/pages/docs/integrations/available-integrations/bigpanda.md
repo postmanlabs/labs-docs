@@ -35,7 +35,7 @@ After you set up the integration, you can view real-time alerts based on the res
 
 1. Sign in to your [BigPanda](https://www.bigpanda.io/) account and select **Integrations** in the header toolbar, then select **New Integration**.
 
-1. Select **Alerts REST API** and then select the **Integrate**.
+1. Select **Alerts REST API** and then select **Integrate**.
 
    ![alerts REST API](https://assets.postman.com/postman-docs/58834897.jpg)
 
