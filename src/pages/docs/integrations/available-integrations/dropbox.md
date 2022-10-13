@@ -25,7 +25,7 @@ Back up and synchronize your Postman Collections on Dropbox for file sharing, st
 
     ![integrations page](https://assets.postman.com/postman-docs/home-integrations.jpg)
 
-1. Select **Browse All Integrations**.
+1. Select **[Browse All Integrations](https://go.postman.co/integrations/browse?category=all)**.
 
 1. Search and select **Dropbox**.
 
