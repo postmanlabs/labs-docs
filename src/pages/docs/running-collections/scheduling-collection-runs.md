@@ -32,7 +32,7 @@ When you schedule a collection run with the Collection Runner, the scheduled run
 > * Only personal, private, and team workspaces support scheduling collection runs.
 > * Scheduled runs are executed in the Postman Cloud. Use of the Postman Cloud is limited by your Postman account.
 > * Scheduled collection runs are not included in a workspace's history.
-> * If you import or export a collection, its schedules do not import/export with it. However, if you delete a collection, its schedules are deleted also.
+> * If you import or export a collection, its schedules do not import or export with it. However, if you delete a collection, its schedules are deleted also.
 
 ## Contents
 
