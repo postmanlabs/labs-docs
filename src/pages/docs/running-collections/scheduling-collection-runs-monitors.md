@@ -28,7 +28,7 @@ You can automate [collection runs](/docs/running-collections/intro-to-collection
 
 1. To add or access monitors for a particular collection, select __Monitors__ in the sidebar.
 
-    <img alt="Monitors v10" src="https://assets.postman.com/postman-docs/v10/create-a-monitor-v10.jpg" height="400px"/>
+    <img alt="Monitors v10" src="https://assets.postman.com/postman-docs/v10/create-a-monitor-v10.jpg" height="341px"/>
 
     Any monitors already attached to your collection will appear. Select __Create a monitor__ to add one (or __+ Create a new Monitor__ if you already have one on the collection).
 
