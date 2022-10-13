@@ -144,4 +144,4 @@ TODO: Add this content. More info needed; awaiting response to question in revie
 
 1. Select **Delete schedule**.
 
-1. In the "Delete scheduled collection" window, select **Delete**.
+1. Select **Delete** to confirm.
