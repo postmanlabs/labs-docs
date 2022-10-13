@@ -1,7 +1,7 @@
 ---
 title: "Dropbox"
 order: 167
-updated: 2021-06-16
+updated: 2022-10-12
 page_id: "dropbox"
 warning: false
 contextual_links:
@@ -12,56 +12,42 @@ contextual_links:
     url: "/docs/sending-requests/intro-to-collections/"
 ---
 
-Back up and synchronize your Postman Collections on Dropbox for file sharing, storage, and collaboration. The Postman to Dropbox integration seamlessly complements your existing workflows and allows you to store your Postman Collections and other project files in one place.
+Back up and synchronize your Postman Collections on Dropbox for file sharing, storage, and collaboration. The Postman to Dropbox integration complements your existing workflows and allows you to store your Postman Collections and other project files in one place.
 
-## Configuring Dropbox Integration
+## Contents
 
-1. Select **[Home](https://go.postman.co/home)**.
+* [Configuring Dropbox integration](#configuring-dropbox-integration)
+* [Accessing your Postman Collections on Dropbox](#accessing-your-postman-collections-on-dropbox)
 
-    ![postman home page](https://assets.postman.com/postman-docs/dropbox-home.jpg)
+## Configuring Dropbox integration
 
-1. Select **[Integrations](https://go.postman.co/integrations)**.
+1. From the **[Home](https://go.postman.co/home)** page, select **[Integrations](https://go.postman.co/integrations)**.
 
-    ![integrations page](https://assets.postman.com/postman-docs/dropbox-integrations.jpg)
+    ![integrations page](https://assets.postman.com/postman-docs/home-integrations.jpg)
 
 1. Select **[Browse All Integrations](https://go.postman.co/integrations/browse?category=all)**.
 
-    ![dropbox search all](https://assets.postman.com/postman-docs/dropbox-search-all.jpg)
-
 1. Search and select **Dropbox**.
 
-    ![integrations page](https://assets.postman.com/postman-docs/dropbox-integrations.jpg)
-
-1. Select **Add Integration** to authorize a backup of your Postman collections.
+1. Select **Add Integration** to authorize a backup of your Postman collection. Your collection is saved as a single JSON file and uploaded to Dropbox.
 
     ![dropbox add integration](https://assets.postman.com/postman-docs/dropbox-add-integration.jpg)
 
-1. Select **Continue**.
+1. You'll be prompted to allow Postman to access its own folder inside your Dropbox account. After you grant access, you can close the browser tab and return to Postman.
 
-    ![authorize to go to dropbox sign in page](https://assets.postman.com/postman-docs/dropbox-warning.jpg)
+1. Enter the following in the **Add integration** window:
 
-1. Sign in to your Dropbox account.
+    * **Nickname** - A nickname for your integration.
+    * **Workspace** - The workspace that contains your collection.
+    * **Collection** - The collection you would like uploaded to Dropbox.
+    * **Filename** - The name of the JSON file in Dropbox.
 
-    ![Sign in to Dropbox](https://assets.postman.com/postman-docs/dropbox-login.jpg)
-
-1. Select **Allow** so Postman can access its own folder inside your Dropbox.
-
-    ![allow postman access](https://assets.postman.com/postman-docs/dropbox-allow.jpg)
-
-1. Close the browser tab.
-
-    ![dropbox integration config](https://assets.postman.com/postman-docs/dropbox-authorized.jpg)
-
-1. Enter your Dropbox integration configuration. Select the collection you want to back up and enter a file name for the Dropbox file.
-
-    ![dropbox integration config](https://assets.postman.com/postman-docs/dropbox-save-config.jpg)
-
-1. Select **Add Integration**. Your collection is saved as a single JSON file and uploaded to Dropbox.
+1. Select **Add Integration** to save the configuration.
 
 ## Accessing your Postman Collections on Dropbox
 
-You can find your backups on Dropbox > Apps > Postman.
+Once you've backed up your collection in Dropbox, you can find your backups at **Dropbox > Apps > Postman Pro**.
 
-  ![view in dropbox](https://assets.postman.com/postman-docs/dropbox_view.jpg)
+  ![view in dropbox](https://assets.postman.com/postman-docs/v10/dropbox-view-v10.jpg)
 
-From now on, every change saved to your Postman Collection will automatically upload changes to Dropbox in real time. Complement your team's existing workflows and back up your Postman Collections to Dropbox.
+Going forward, every change saved to your Postman Collection will automatically upload to Dropbox.
