@@ -88,7 +88,7 @@ TODO: Add this content. More info needed; awaiting response to question in revie
 
 ## Manually running your scheduled run
 
-1. Select **Collections** in the sidebar and select the collection with the scheduled run you want to view.
+1. Select **Collections** in the sidebar and select the collection with the scheduled run you want to run.
 
 1. Select the **Runs** tab.
 
