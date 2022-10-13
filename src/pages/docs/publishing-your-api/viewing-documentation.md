@@ -1,6 +1,6 @@
 ---
 title: "Viewing documentation"
-updated: 2022-09-15
+updated: 2022-10-04
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -58,6 +58,8 @@ To view documentation for a collection:
 1. To view all of the documentation for the collection, select **View complete collection documentation**.
 
 <img alt="View complete documentation" src="https://assets.postman.com/postman-docs/documentation-view-complete-v9.jpg" width="566px"/>
+
+> If your collection has [gRPC requests](/docs/sending-requests/grpc/grpc-request-interface/#the-right-sidebar) or [WebSocket requests](/docs/sending-requests/websocket/websocket/#documenting-requests), the documentation icon <img alt="Documentation icon" src="https://assets.postman.com/postman-docs/documentation-icon-v8-10.jpg#icon" width="16px"> isn't available for collections or folders. Select a collection or folder in the sidebar to view its description. You can't view complete collection documentation for collections with gRPC or WebSocket requests.
 
 The documentation includes a [description](/docs/publishing-your-api/authoring-your-documentation/#adding-descriptions-to-your-documentation) of each request, as well as details such as the method and URL, the required authorization type, and any headers or parameters. For each request, you can view sample code in various client languages, together with example response bodies and headers.
 

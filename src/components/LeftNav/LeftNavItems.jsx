@@ -541,6 +541,10 @@ export const leftNavItems = [
             name: 'Deploying an Apigee API',
             url: '/docs/designing-and-developing-your-api/deploying-an-api/deploying-an-api-apigee/',
           },
+          {
+            name: 'Deploying an Azure API',
+            url: '/docs/designing-and-developing-your-api/deploying-an-api/deploying-an-api-azure/',
+          },
         ],
       },
       {

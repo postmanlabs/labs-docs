@@ -420,7 +420,7 @@ class Header extends React.Component {
                         </a>
                         <a
                           className="dropdown-item"
-                          href="https://www.postman.com/events/postman-space-camp/"
+                          href="https://www.postman.com/events/intergalactic/"
                         >
                           Postman Intergalactic
                         </a>
