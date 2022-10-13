@@ -1,7 +1,7 @@
 ---
 title: "BigPanda"
 order: 164
-updated: 2021-07-12
+updated: 2022-10-13
 page_id: "bigpanda"
 warning: false
 contextual_links:
@@ -26,6 +26,11 @@ Setting up a BigPanda integration requires you to get an API key and configure P
 
 After you set up the integration, you can view real-time alerts based on the results of your Postman monitors.
 
+## Contents
+
+* [Retrieving the BigPanda API key](#retrieving-the-bigpanda-api-key)
+* [Configuring Postman monitors](#configuring-postman-monitors)
+
 ## Retrieving the BigPanda API key
 
 1. Sign in to your [BigPanda](https://www.bigpanda.io/) account and select **Integrations** in the header toolbar, then select **New Integration**.
@@ -42,27 +47,23 @@ After you set up the integration, you can view real-time alerts based on the res
 
 ## Configuring Postman monitors
 
-1. Select **[Home](https://go.postman.co/home)**.
+1. From the **[Home](https://go.postman.co/home)** page, select **[Integrations](https://go.postman.co/integrations)**.
 
-    ![postman home page](https://assets.postman.com/postman-docs/bigpanda-home.jpg)
-1. Select **[Integrations](https://go.postman.co/integrations)**.
+    ![select integrations](https://assets.postman.com/postman-docs/home-integrations.jpg)
 
-    ![select integrations](https://assets.postman.com/postman-docs/bigpanda-integrations.jpg)
 1. Select **[Browse All Integrations](https://go.postman.co/integrations/browse?category=all)**.
 1. Search and select **BigPanda**.
-
-    ![bigpanda search all](https://assets.postman.com/postman-docs/bigpanda-search-all.jpg)
 1. Select **Add Integration**.
 
     ![add bigpanda configuration](https://assets.postman.com/postman-docs/bigpanda-add-integration.jpg)
-1. Enter your BigPanda configuration:
+1. Enter the following in the **Add Integration** window:
     * **Nickname** -   A nickname for your integration.
     * **Workspace** -  The workspace that contains your monitor.
-    * **Monitor** -   The collection-based monitor which will send its results to Slack.
+    * **Monitor** -   The collection-based monitor which will send its results to BigPanda.
     * **App Key** -  Enter the BigPanda app key.
     * **API Token** -  Enter BigPanda API token.
 
-1. Select **Add Integration**.
+1. Select **Add Integration** to save the integration.
 
 BigPanda gives you real-time alerts based on the results of your Postman Monitors. If a test fails or if there's an error during the run, BigPanda will alert you.
 
