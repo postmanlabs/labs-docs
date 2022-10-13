@@ -54,4 +54,4 @@ You can automate [collection runs](/docs/running-collections/intro-to-collection
 
     Your new monitor will appear in the monitor overview. You can open the monitor overview tab to [view your monitor results](/docs/monitoring-your-api/viewing-monitor-results/) at any time.
 
-    <img alt ="New monitor created" src="https://assets.postman.com/postman-docs/v10/new-monitor-created-v10.jpg" height ="400px"/>
+    <img alt ="New monitor created" src="https://assets.postman.com/postman-docs/v10/new-monitor-created-v10.jpg" height ="338px"/>
