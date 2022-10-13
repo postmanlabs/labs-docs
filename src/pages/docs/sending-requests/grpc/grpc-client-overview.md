@@ -12,8 +12,11 @@ contextual_links:
   - type: subtitle
     name: "Videos"
   - type: link
-    name: "gRPC Requests | Postman Level Up"
-    url: "https://youtu.be/gfYGqMb81GQ"
+    name: "Working with gRPC | The Exploratory"
+    url: "https://youtu.be/RbHOs2xchGE"
+  - type: link
+    name: "From Zero to Proto -- Design and Test a gRPC API"
+    url: "https://youtu.be/EA4eCY0tkpA"
   - type: link
     name: "How We Built It: gRPC support"
     url: "https://youtu.be/XaryQIjm4h0"

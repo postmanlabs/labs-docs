@@ -13,6 +13,9 @@ contextual_links:
   - type: link
     name: "Introducing API Security in Postman v10"
     url: "https://blog.postman.com/introducing-api-security-in-postman-v10/"
+  - type: link
+    name: "Staying Relevant with an Iterative API Governance Strategy"
+    url: "https://blog.postman.com/iterative-api-governance-strategy-postman/"
 ---
 
 Postman’s _API Governance_ and _API Security_ features offer you guidance for APIs as you design your API definition and send requests. Applying standards consistently helps you to develop high-quality APIs and streamlines collaboration across all parts of the API development lifecycle. By identifying possible inconsistencies or weak points and pointing out possible fixes or improvements, Postman enables you to create better and more secure APIs that follow industry best practices.
