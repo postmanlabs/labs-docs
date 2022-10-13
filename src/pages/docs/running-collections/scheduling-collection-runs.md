@@ -142,6 +142,6 @@ TODO: Add this content. More info needed; awaiting response to question in revie
 
 1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the scheduled run you want to delete.
 
-1. Select **Delete schedule**. A "Delete scheduled collection" window appears.
+1. Select **Delete schedule**.
 
 1. In the "Delete scheduled collection" window, select **Delete**.
