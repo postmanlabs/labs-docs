@@ -24,11 +24,11 @@ warning: false
 You can automate [collection runs](/docs/running-collections/intro-to-collection-runs/) using [monitors](/docs/monitoring-your-api/intro-monitors/) to schedule runs and receive reports on your request test results.
 
 <!--TODO: Add language that says the scheduled collection run method is preferable. Key off marketing language or a blog post.-->
-> Starting with version 10, you can also schedule collection runs with the [**Collection Runner**](/docs/running-collections/scheduling-collection-runs/).
+> Starting with Postman v10, you can also schedule collection runs with the [**Collection Runner**](/docs/running-collections/scheduling-collection-runs/).
 
 1. To add or access monitors for a particular collection, select __Monitors__ in the sidebar.
 
-    <img alt="Monitors v10" src="https://assets.postman.com/postman-docs/v10/create-a-monitor-v10.jpg" height="400px"/>
+    <img alt="Monitors v10" src="https://assets.postman.com/postman-docs/v10/create-a-monitor-v10.jpg" height="341px"/>
 
     Any monitors already attached to your collection will appear. Select __Create a monitor__ to add one (or __+ Create a new Monitor__ if you already have one on the collection).
 
@@ -54,4 +54,4 @@ You can automate [collection runs](/docs/running-collections/intro-to-collection
 
     Your new monitor will appear in the monitor overview. You can open the monitor overview tab to [view your monitor results](/docs/monitoring-your-api/viewing-monitor-results/) at any time.
 
-    <img alt ="New monitor created" src="https://assets.postman.com/postman-docs/v10/new-monitor-created-v10.jpg" height ="400px"/>
+    <img alt ="New monitor created" src="https://assets.postman.com/postman-docs/v10/new-monitor-created-v10.jpg" height ="338px"/>

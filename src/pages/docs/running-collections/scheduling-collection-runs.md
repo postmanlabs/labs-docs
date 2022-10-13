@@ -32,7 +32,7 @@ When you schedule a collection run with the Collection Runner, the scheduled run
 > * Only personal, private, and team workspaces support scheduling collection runs.
 > * Scheduled runs are executed in the Postman Cloud. Use of the Postman Cloud is limited by your Postman account.
 > * Scheduled collection runs are not included in a workspace's history.
-> * If you import or export a collection, its schedules do not import/export with it. However, if you delete a collection, its schedules are deleted also.
+> * If you import or export a collection, its schedules do not import or export with it. However, if you delete a collection, its schedules are deleted also.
 
 ## Contents
 
@@ -88,7 +88,7 @@ TODO: Add this content. More info needed; awaiting response to question in revie
 
 ## Manually running your scheduled run
 
-1. Select **Collections** in the sidebar and select the collection with the scheduled run you want to view.
+1. Select **Collections** in the sidebar and select the collection with the scheduled run you want to run.
 
 1. Select the **Runs** tab.
 
@@ -142,6 +142,6 @@ TODO: Add this content. More info needed; awaiting response to question in revie
 
 1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the scheduled run you want to delete.
 
-1. Select **Delete schedule**. A "Delete scheduled collection" window appears.
+1. Select **Delete schedule**.
 
-1. In the "Delete scheduled collection" window, select **Delete**.
+1. Select **Delete** to confirm.

@@ -66,7 +66,7 @@ To configure a collection run:
 
 1. If you want your collection to run with an environment, select it using the environment selector at the top right of Postman. You can also select __Environments__ in the sidebar, then select the environment you want to use.
 
-1. Choose any optional configuration parameters:
+1. Choose any configuration options:
 
     * **Iterations** - The number of iterations for your collection run. You can also run collections multiple times with different data sets to [build workflows](/docs/running-collections/building-workflows/).
     * **Delay** - An interval delay in milliseconds between each request.
@@ -83,7 +83,7 @@ To configure a collection run:
 
     > You can alter the flow of execution from your request scripts using `setNextRequest` to [create workflows](/docs/running-collections/building-workflows/).
 
-1. When you have completed your configuration, select **Run (collection name)**.
+1. When you've completed your configuration, select **Run (collection name)**.
 
 ## Running your collections
 
@@ -117,7 +117,7 @@ The **Runs** tab has controls to select how many collection runs to view, and li
 
 The following are displayed for each collection run:
 
-* A select box for each run and an option to select all runs.
+* A checkbox for each run and an option to select all runs.
     * Select one or more collection runs and select **Delete** to remove them.
 * The start time of the collection run.
 * The run source, duration, all tests, passed tests, failed tests, skipped tests, and the average response time. Select any of these items to sort the table by that item. Select again to change the sort order.
