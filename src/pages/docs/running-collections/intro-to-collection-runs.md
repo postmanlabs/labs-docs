@@ -83,7 +83,7 @@ To configure a collection run:
 
     > You can alter the flow of execution from your request scripts using `setNextRequest` to [create workflows](/docs/running-collections/building-workflows/).
 
-1. When you have completed your configuration, select **Run (collection name)**.
+1. When you've completed your configuration, select **Run (collection name)**.
 
 ## Running your collections
 
