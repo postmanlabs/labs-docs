@@ -15,7 +15,7 @@ contextual_links:
     name: "Working with gRPC | The Exploratory"
     url: "https://youtu.be/RbHOs2xchGE"
   - type: link
-    name: "From Zero to Proto -- Design and Test a gRPC API"
+    name: "From Zero to Proto - Design and Test a gRPC API"
     url: "https://youtu.be/EA4eCY0tkpA"
   - type: link
     name: "How We Built It: gRPC support"
