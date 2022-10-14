@@ -35,7 +35,7 @@ contextual_links:
     url: "/docs/writing-scripts/test-scripts/"
 ---
 
-You can make requests that return mock data defined within Postman if you do not have a production API ready, or you do not want to run your requests against real data yet. By adding a mock server to your collection and adding examples to your requests, you can simulate the behavior of a real API.
+You can make requests that return mock data defined within Postman if you do not have a production API ready, or you do not want to run your requests against real data yet. By adding a mock server to your [collection](/docs/sending-requests/intro-to-collections/) and adding [examples](/docs/sending-requests/examples/) to your requests, you can simulate the behavior of a real API.
 
 When you send a request to a mock server, Postman will match the request configuration to the examples you have saved for the request and respond with the data you added to the example. To view existing mocks in your workspace, select **Mock Servers** in the sidebar.
 
@@ -43,17 +43,17 @@ When you send a request to a mock server, Postman will match the request configu
 
 ## Contents
 
-* [Mocks quick start](#mocks-quick-start)
+* [Mock server quick start](#mock-server-quick-start)
 * [Creating mock servers](#creating-mock-servers)
 * [Configuring mock server details](#configuring-mock-server-details)
     * [Editing the mock server configuration](#editing-the-mock-server-configuration)
     * [Matching request body and headers](#matching-request-body-and-headers)
-* [Making requests to mocks](#making-requests-to-mocks)
+* [Making requests to mock servers](#making-requests-to-mock-servers)
     * [Using HTTP access control for a mock](#using-http-access-control-for-a-mock)
 * [Viewing mock calls](#viewing-mock-calls)
     * [Troubleshooting mock calls](#troubleshooting-mock-calls)
 
-## Mocks quick start
+## Mock server quick start
 
 To test using a mock server, carry out the following steps:
 
@@ -155,15 +155,15 @@ To use body or header matching with a mock server:
 
 <img alt="Matching body and headers" src="https://assets.postman.com/postman-docs/v10/mock-server-header-body-matching-v10.jpg" width="466px" />
 
-## Making requests to mocks
+## Making requests to mock servers
 
-With your mock URL, you can start making requests right away. Make sure the request you want to mock has at least one [example](/docs/sending-requests/examples/) added to it.
+Use the mock server's URL to make calls to the mock server. Select **Mock Servers** in the sidebar, select a mock server, and select **Copy Mock URL**.
 
-<img alt="Add example" src="https://assets.postman.com/postman-docs/add-example-v8.jpg" width="300px"/>
+Make sure the request you want to mock has at least one saved [example](/docs/sending-requests/examples/). To add an example to a request, select **Send**. Then, in the response pane, select **Save Response > Save as example**.
 
-[![Example added](https://assets.postman.com/postman-docs/example-added-v8.jpg)](https://assets.postman.com/postman-docs/example-added-v8.jpg)
+<img alt="Adding an example" src="https://assets.postman.com/postman-docs/v10/examples-save-response-v10.jpg" />
 
-Open a tab (or edit the address in an existing tab) and add the mock URL:
+Open a new request tab (or edit the address in an existing tab) and add the mock URL:
 
 ```shell
 https://<mock-id>.mock.pstmn.io/<request-path>
@@ -172,30 +172,28 @@ https://<mock-id>.mock.pstmn.io/<request-path>
 For example:
 
 ```shell
-https://3589dfde-f398-45cd-88eb-b0fa0192fc3f.mock.pstmn.io/matches
+https://4bb57fc2-219e-421e-86b4-4ffda6bf1b3b.mock.pstmn.io/matches
 ```
 
-The mock URL includes the mock's ID and the path for the request with a saved example.
+The mock URL includes the mock server's ID and the path for the request you want to mock. Select **Send** to send the request to the mock server.
 
-[![Mock example](https://assets.postman.com/postman-docs/mock-example-v8.jpg)](https://assets.postman.com/postman-docs/mock-example-v8.jpg)
+<img alt="Sending a mock request" src="https://assets.postman.com/postman-docs/v10/mock-server-send-request-v10.jpg" />
 
-If you save your mock URL to a variable, you can reference it across requests—for example if you have a production server and a mock server, you could have an [environment](/docs/sending-requests/managing-environments/) for each one with the same variable name in each for the mock URL. With your requests using the variable, you can then switch between the two environments.
+> If you save the mock URL to a [variable](/docs/sending-requests/variables/), you can reference it across requests. For example, if you have a production server and a mock server, you can have an [environment](/docs/sending-requests/managing-environments/) for each server. Create a variable with the same name in each environment for the mock URL. By using the variable in your requests, you can switch between the two environments to call the production server or the mock server.
 
-> You can also retrieve your mock ID from the [Postman API](https://documenter.postman.com/view/631643/JsLs/?version=latest#018b5d62-f6fc-f752-597e-c1eb4bb98d24).
+When you send a request to the mock server URL, the mock server sends back a response based on one of the examples you added to the request with the same path and method. [You can provide multiple examples](/docs/designing-and-developing-your-api/mocking-data/mocking-with-examples/), and Postman will return the one that matches your request most closely.
 
-When you **Send** a request to your mock server URL it will send back one of the examples you added to the request with the same path and method. ([You can provide multiple examples](/docs/designing-and-developing-your-api/mocking-data/mocking-with-examples/) and Postman will return the one that matches your request configuration most closely).
-
-If you configured a delay for your mock server, Postman will wait the specified period of time before sending the response.
+If you configured a delay for your mock server, Postman waits the specified period of time before sending the response.
 
 > Your Postman account gives you a limited number of free mock server calls per month. Check your [usage limits](https://go.postman.co/usage).
 
 ### Using HTTP access control for a mock
 
-In addition to using Postman to make requests to mock endpoints, you can also make those requests in a browser.
+In addition to using Postman to make requests to mock endpoints, you can also make those requests in a web browser.
 
-A web browser makes a cross-origin HTTP request when it requests a resource from a domain, protocol, or port that's different from its own. [Cross-Origin Resource Sharing (CORS)](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) is a standard that defines a way in which a browser and server can interact securely, in this case referring to how a web browser interacts with the mock endpoints hosted on the Postman server.
+A web browser makes a cross-origin HTTP request when it requests a resource from a domain, protocol, or port that's different from its own. [Cross-Origin Resource Sharing (CORS)](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) is a standard that defines a way in which a browser and server can interact securely. In this case, CORS refers to how a web browser interacts with the mock endpoints hosted on the Postman mock server.
 
-CORS is enabled for Postman mock servers. As a result, you can stub your web apps with mocked data using the mock endpoints. Development or production web apps can then make requests to your Postman mock endpoint and receive example responses.
+CORS is enabled for Postman mock servers, so you can stub your web apps with mocked data using the mock endpoints. Development or production web apps can then make requests to your Postman mock endpoint and receive example responses.
 
 ## Viewing mock calls
 
