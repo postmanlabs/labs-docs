@@ -289,6 +289,10 @@ export const leftNavItems = [
         url: '/docs/running-collections/scheduling-collection-runs/',
       },
       {
+        name: 'Viewing scheduled collection runs',
+        url: '/docs/running-collections/viewing-scheduled-collection-runs/',
+      },
+      {
         name: 'Scheduling collection runs with monitors',
         url: '/docs/running-collections/scheduling-collection-runs-monitors/',
       },
