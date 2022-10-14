@@ -121,21 +121,3 @@ Select **Console Log** to view scheduled collection run details along with the [
 [![console log](https://assets.postman.com/postman-docs/v10/scr-view-console-log-v10.jpg)](https://assets.postman.com/postman-docs/v10/scr-view-console-log-v10.jpg)
 
 You can use this console to both troubleshoot issues and learn more about an individual run's behavior.
-
-### Activity log
-
-You can view a monitor's activity logs by selecting the changelog icon <img alt="Changelog icon" src="https://assets.postman.com/postman-docs/icon-changelog-v9.jpg#icon" width="18px"> in the upper-right corner > **View activity logs**.
-
-<img src="https://assets.postman.com/postman-docs/monitor-activity-log20.jpg" width="400px" alt="Activity log"/>
-
-You can check these logs to learn when a monitor was created, edited, paused, or resumed running, and which team member performed each action.
-
-### Monitor details
-
-You can view details about a monitor by selecting the information icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px"> in the upper-right corner. Here you can view a monitor's ID, creator, creation date and time, collection, environment, and integration options.
-
-<img src="https://assets.postman.com/postman-docs/monitor-information10.jpg" width="400px" alt="Monitor details"/>
-
-## Troubleshooting
-
-Learn how to [troubleshoot your monitors](/docs/monitoring-your-api/troubleshooting-monitors/) and check out [Postman monitoring FAQs](/docs/monitoring-your-api/faqs-monitors/).
