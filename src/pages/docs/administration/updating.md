@@ -17,7 +17,7 @@ contextual_links:
     name: "Videos"
   - type: link
     name: "Unboxing What’s New in Postman v10 | Postman Intergalactic"
-    url:  "https://youtu.be/LmEl7rHYhxU"
+    url: "https://youtu.be/LmEl7rHYhxU"
   - type: subtitle
     name: "Blog Posts"
   - type: link
