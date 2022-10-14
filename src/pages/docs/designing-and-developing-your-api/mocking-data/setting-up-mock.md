@@ -197,29 +197,27 @@ CORS is enabled for Postman mock servers, so you can stub your web apps with moc
 
 ## Viewing mock calls
 
-You can view and search the details of calls to your mock servers using the mock call log. Open a mock from __Mock Servers__ in the sidebar. Your mock overview and call log will open.
+You can view and search the details of calls to your mock servers using the mock call log. To view the call log, select **Mock Servers** in the sidebar and select a mock server.
 
-[![Mock Call](https://assets.postman.com/postman-docs/mock-calls-v8.jpg)](https://assets.postman.com/postman-docs/mock-calls-v8.jpg)
+<img alt="Viewing mock calls" src="https://assets.postman.com/postman-docs/v10/mock-server-call-log-v10.jpg" />
 
-The mock call log lists an overview of calls made to the mock url, together with request and response details you can drill down into.
+The call log displays a list of calls made to the mock server URL. Each entry shows the time the request was sent, the request method and path, and a response overview. Select an entry for more details about the request headers and body or the response headers and body.
 
-Mock call log entries indicate the time a request was sent, the request method and path, and a response overview. Select an entry for more details about the request headers and body, or response headers and body.
-
-Use the search field to find particular calls. Use the refresh icon <img alt="Refresh icon" src="https://assets.postman.com/postman-docs/icon-refresh-v9-5.jpg#icon" width="14px"> at the top of the list to view up to date requests.
+You can use the search box to find particular calls. Select the refresh icon <img alt="Refresh icon" src="https://assets.postman.com/postman-docs/icon-refresh-v9-5.jpg#icon" width="14px"> to view the most recent requests.
 
 ### Troubleshooting mock calls
 
 You can use the mock call log to troubleshoot your requests to mock servers.
 
-[![Mock Call Error](https://assets.postman.com/postman-docs/mock-not-found-v8.jpg)](https://assets.postman.com/postman-docs/mock-not-found-v8.jpg)
+If the **Response** column contains `No matching requests`, this might mean that your mock server is not set up correctly. Make sure there is an [example saved for the request](/docs/designing-and-developing-your-api/mocking-data/mocking-with-examples/) in the collection you are mocking.
 
-If the __Response__ column contains `No matching requests`, this may mean that your mock server is not setup correctly. Make sure [you have an example saved for the request](/docs/designing-and-developing-your-api/mocking-data/mocking-with-examples/) in the collection you have the mock connected to.
+<img alt="Troubleshooting mock calls" src="https://assets.postman.com/postman-docs/v10/mock-server-no-match-v10.jpg" />
 
-In the case of a service outage, you will get a `502`, `503`, or `504` response. Check the Postman [status page](https://status.postman.com/) for updates if you encounter this.
+In the case of a service outage, you will get a `502`, `503`, or `504` response. Check the Postman [status page](https://status.postman.com/) for updates.
 
 ## Next steps
 
-For more information about mock servers, read the following resources:
+To learn more about mock servers, see the following resources:
 
 * [Mocking with examples](/docs/designing-and-developing-your-api/mocking-data/mocking-with-examples/)
 * [Mocking with the Postman API](/docs/designing-and-developing-your-api/mocking-data/mock-with-api/)
