@@ -13,11 +13,11 @@ contextual_links:
   - type: subtitle
     name: "Videos"
   - type: link
-    name: "Postman Intergalactic | Design and Prototype an API in Postman"
-    url: "https://youtu.be/r4kb3jOSsmk"
+    name: "Set up an API Definition"
+    url: "https://youtu.be/LQT_9-oasJg"
   - type: link
-    name: "API Builder | The Exploratory"
-    url: "https://youtu.be/BUZiRtGRHj0"
+    name: "Develop an API Definition"
+    url: "https://youtu.be/-2bMT1EntD8"
   - type: link
     name: "API Fest 2022 | Workshop by Kin Lane on Designing API Schemas"
     url: "https://youtu.be/gGOB3oM2cE4"
