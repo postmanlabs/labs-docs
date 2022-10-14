@@ -103,35 +103,35 @@ Configure your [mock server details](#configuring-mock-server-details).
 
 You can build a mock server based on requests from your Postman history. Select **History** in the sidebar, then select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to a request and select **Mock Request**. (You can also mock all the requests for particular date.)
 
-<img alt="Creating a mock server from History" src="https://assets.postman.com/postman-docs/v10/mock-server-create-from-history-v10.jpg" width="382px"/>
+<img alt="Creating a mock server from History" src="https://assets.postman.com/postman-docs/v10/mock-server-create-from-history-v10.jpg" width="382px" />
 
 Configure your [mock server details](#configuring-mock-server-details).
 
 ## Configuring mock server details
 
-When you create a mock server you will give it a name, choose an optional environment to run the mock against, and configure a delay before the server sends your mock responses (choosing to simulate 2G/3G networks or specify a custom delay in milliseconds).
+To configure your new mock server, give it a name. You can select an optional environment to have your mock sever use environment variables. You can also configure a delay before the mock server sends responses to simulate network delays.
 
-If you choose to make your mock server private, you will need to add a [Postman API key](/docs/developer/intro-api/) in the request header: `x-api-key:<Your-Postman-API-key>`. You can [share the collection](/docs/collaborating-in-postman/sharing/) and your collaborators can use their Postman API keys to consume the mock.
+> You can save the mock URL to an [environment variable](/docs/sending-requests/variables/) in a new environment. You can then reference the variable in your requests by making the new environment active before sending the request.
 
-> Not all configuration options may be available, depending on the method you used to create the mock server.
+If you choose to make your mock server private, you need to add a [Postman API key](/docs/developer/intro-api/) in the request header when sending requests to the mock server: `x-api-key:<Your-Postman-API-key>`. If you [share the collection](/docs/collaborating-in-postman/sharing/), others can use their Postman API keys to make calls to the mock server.
 
-[![New mock](https://assets.postman.com/postman-docs/mock-config-v9.jpg)](https://assets.postman.com/postman-docs/mock-config-v9.jpg)
+> Not all configuration options will be available, depending on the method you used to create the mock server.
 
-With your details in place, select **Create Mock Server**.
+<img alt="Configuring mock server details" src="https://assets.postman.com/postman-docs/v10/mock-server-configure-details-v10.jpg" />
 
-> You can also opt to save the mock URL to an [environment variable](/docs/sending-requests/variables/) which you can then reference in your requests by making the environment active before sending.
+After you finish selecting configuration options, select **Create Mock Server**. Postman displays the details you need to use the mock server. (You can get these details at any time by selecting **Mock Servers** in the sidebar and selecting the mock server.)
 
-Postman will display the details you'll need to use the mock (you can also get these from the collection at any time).
+<img alt="Getting the mock server URL" src="https://assets.postman.com/postman-docs/v10/mock-server-get-url-v10.jpg" />
 
-[![Mock detail](https://assets.postman.com/postman-docs/mock-detail-v8.jpg)](https://assets.postman.com/postman-docs/mock-detail-v8.jpg)
+Select **Copy Mock URL** to begin making requests to your mock server.
 
-Select **Copy Mock URL** to begin making requests to your mock.
-
-> To delete a mock, select **Mock Servers** in the sidebar, then select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the mock's name.
+> To delete a mock server, select **Mock Servers** in the sidebar. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the mock server's name and select **Delete**.
 
 ### Editing the mock server configuration
 
 You can change the configuration for a mock server at any time. Select **Mock Servers** in the sidebar, select a mock server, and select <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> **Edit Configuration**.
+
+<img alt="Editing mock server configuration" src="https://assets.postman.com/postman-docs/v10/mock-server-edit-configuration-v10.jpg" />
 
 You can change the mock server's name, environment, network delay, and privacy setting. You can also [specify options for response matching](#matching-request-body-and-headers). When you are done changing the configuration settings, select **Update Mock Server**.
 
@@ -149,9 +149,11 @@ To use body or header matching with a mock server:
 1. Under **Response Matching**, select the matching options you want to use:
 
     * **Request body** - The mock server will match the request's body to the body of the saved examples.
-    * **Headers** - The mock server will match the request's headers to the headers of the saved examples.
+    * **Headers** - The mock server will match the request's headers to the headers of the saved examples. In the box, add the header keys that you want to match, using commas to separate the keys. Header matching isn't case-sensitive.
 
 1. Select **Update Mock Server**.
+
+<img alt="Matching body and headers" src="https://assets.postman.com/postman-docs/v10/mock-server-header-body-matching-v10.jpg" width="466px" />
 
 ## Making requests to mocks
 
