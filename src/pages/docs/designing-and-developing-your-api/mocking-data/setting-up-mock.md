@@ -35,9 +35,9 @@ contextual_links:
     url: "/docs/writing-scripts/test-scripts/"
 ---
 
-You can make requests that return mock data defined within Postman if you do not have a production API ready, or you do not want to run your requests against real data yet. By adding a mock server to your [collection](/docs/sending-requests/intro-to-collections/) and adding [examples](/docs/sending-requests/examples/) to your requests, you can simulate the behavior of a real API.
+Postman enables you to create _mock servers_ to assist with API development and testing. A mock server simulates the behavior of a real API server by accepting requests and returning responses. By adding a mock server to your [collection](/docs/sending-requests/intro-to-collections/) and adding [examples](/docs/sending-requests/examples/) to your requests, you can simulate the behavior of a real API.
 
-When you send a request to a mock server, Postman will match the request configuration to the examples you have saved for the request and respond with the data you added to the example. To view existing mocks in your workspace, select **Mock Servers** in the sidebar.
+When you send a request to a mock server, Postman matches the request to a saved example in your collection. Postman then responds with the data you added to the example. To view existing mock servers in your workspace, select **Mock Servers** in the sidebar.
 
 > You need to be signed into a Postman account to create a mock server.
 
@@ -52,6 +52,7 @@ When you send a request to a mock server, Postman will match the request configu
     * [Using HTTP access control for a mock](#using-http-access-control-for-a-mock)
 * [Viewing mock calls](#viewing-mock-calls)
     * [Troubleshooting mock calls](#troubleshooting-mock-calls)
+* [Next steps](#next-steps)
 
 ## Mock server quick start
 
@@ -181,7 +182,7 @@ The mock URL includes the mock server's ID and the path for the request you want
 
 > If you save the mock URL to a [variable](/docs/sending-requests/variables/), you can reference it across requests. For example, if you have a production server and a mock server, you can have an [environment](/docs/sending-requests/managing-environments/) for each server. Create a variable with the same name in each environment for the mock URL. By using the variable in your requests, you can switch between the two environments to call the production server or the mock server.
 
-When you send a request to the mock server URL, the mock server sends back a response based on one of the examples you added to the request with the same path and method. [You can provide multiple examples](/docs/designing-and-developing-your-api/mocking-data/mocking-with-examples/), and Postman will return the one that matches your request most closely.
+When you send a request to the mock server, the mock server sends back a response based on an example with the same path and method. [You can provide multiple examples](/docs/designing-and-developing-your-api/mocking-data/mocking-with-examples/), and Postman will return the one that [best matches your request](/docs/designing-and-developing-your-api/mocking-data/matching-algorithm/).
 
 If you configured a delay for your mock server, Postman waits the specified period of time before sending the response.
 
@@ -209,7 +210,7 @@ You can use the search box to find particular calls. Select the refresh icon <im
 
 You can use the mock call log to troubleshoot your requests to mock servers.
 
-If the **Response** column contains `No matching requests`, this might mean that your mock server is not set up correctly. Make sure there is an [example saved for the request](/docs/designing-and-developing-your-api/mocking-data/mocking-with-examples/) in the collection you are mocking.
+If `No matching requests` displays in the **Response** column, this might mean there is a problem with your mock server configuration. Make sure there is an [example saved for the request](/docs/designing-and-developing-your-api/mocking-data/mocking-with-examples/) in the collection you are mocking.
 
 <img alt="Troubleshooting mock calls" src="https://assets.postman.com/postman-docs/v10/mock-server-no-match-v10.jpg" />
 
