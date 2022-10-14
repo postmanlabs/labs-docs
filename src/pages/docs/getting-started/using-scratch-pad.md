@@ -22,6 +22,8 @@ The _Scratch Pad_ is a space where you can work if you're not connected to Postm
 
 All your work in the Scratch Pad is stored locally and isn't synced online with Postman. After working in the Scratch Pad, you can later move your work into a workspace once you sign in.
 
+> The Scratch Pad is only available in the Postman desktop app.
+
 ## Entering the Scratch Pad
 
 If you sign out or your connection to Postman breaks, Postman displays a global banner at the top of the screen indicating that you're already in the Scratch Pad.
