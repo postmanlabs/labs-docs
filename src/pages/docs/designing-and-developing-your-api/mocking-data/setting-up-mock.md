@@ -56,15 +56,15 @@ When you send a request to a mock server, Postman matches the request to a saved
 
 ## Mock server quick start
 
-To test using a mock server, carry out the following steps:
+To test using a mock server, do the following steps:
 
-* In Postman, send a request to any API. Your request must be saved to a collection.
-* In the response pane, select **Save Response > Save as example**. Postman automatically populates the example with the response you received when you sent the request.
-* Open the collection where the request was saved and select the information icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px"> in the right sidebar. Next to **Mock servers**, select **+ New**.
-* Give your mock a name and leave the other settings at their defaults. Select **Create Mock Server**.
-* Copy the mock URL and go back into your request. Replace the base part of the URL with the mock server URL (everything before the path, for example up to `/customers`).
-* Select **Send**. Postman returns the example response you saved for the request, this time from the mock server.
-* Open the example and change the mock response JSON, then save it and send the request again. Postman returns your edited mock response.
+1. In Postman, send a request to any API. Your request must be saved to a collection.
+1. In the response pane, select **Save Response > Save as example**. Postman automatically populates the example with the response you received when you sent the request.
+1. Open the collection where the request was saved and select the information icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px"> in the right sidebar. Next to **Mock servers**, select **+ New**.
+1. Give your mock a name and leave the other settings at their defaults. Select **Create Mock Server**.
+1. Copy the mock URL and go back into your request. Replace the base part of the URL with the mock server URL (everything before the path, for example up to `/customers`).
+1. Select **Send**. Postman returns the example response you saved for the request, this time from the mock server.
+1. Open the example and change the mock response JSON, then save it and send the request again. Postman returns your edited mock response.
 
 ## Creating mock servers
 
