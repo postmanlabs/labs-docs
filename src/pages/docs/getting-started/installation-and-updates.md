@@ -12,8 +12,8 @@ contextual_links:
   - type: subtitle
     name: "Videos"
   - type: link
-    name: "Test-driving Postman v10"
-    url:  "https://youtu.be/9cZlAS-QTuc"
+    name: "Unboxing What’s New in Postman v10 | Postman Intergalactic"
+    url:  "https://youtu.be/LmEl7rHYhxU"
   - type: link
     name: "Agent for the Postman Web Client | Postman Level Up"
     url:  "https://www.youtube.com/watch?v=6xlJUx2ZMy4&list=PLM-7VG-sgbtC5tNXxd28cmePSa9BYwqeU&index=3"

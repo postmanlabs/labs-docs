@@ -10,6 +10,11 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Git Workflows in Postman | The Exploratory"
+    url: "https://youtu.be/cB7mCuYeuAU"
+  - type: subtitle
     name: "Blog Posts"
   - type: link
     name: "Better Practices for Git Version Control in Postman"

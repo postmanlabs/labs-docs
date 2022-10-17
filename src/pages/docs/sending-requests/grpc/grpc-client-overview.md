@@ -12,8 +12,11 @@ contextual_links:
   - type: subtitle
     name: "Videos"
   - type: link
-    name: "gRPC Requests | Postman Level Up"
-    url: "https://youtu.be/gfYGqMb81GQ"
+    name: "Working with gRPC | The Exploratory"
+    url: "https://youtu.be/RbHOs2xchGE"
+  - type: link
+    name: "From Zero to Proto - Design and Test a gRPC API"
+    url: "https://youtu.be/EA4eCY0tkpA"
   - type: link
     name: "How We Built It: gRPC support"
     url: "https://youtu.be/XaryQIjm4h0"
@@ -25,6 +28,9 @@ contextual_links:
   - type: link
     name: "Understanding Asynchronous APIs"
     url: "https://blog.postman.com/understanding-asynchronous-apis/"
+  - type: link
+    name: "How to Choose HTTP or gRPC for Your Next API"
+    url: "https://blog.postman.com/how-to-choose-http-or-grpc-for-your-next-api/"
   - type: subtitle
     name: "Public Workspaces"
   - type: link

@@ -106,7 +106,8 @@ OpenSSL is already installed for macOS and is typically installed for Linux. For
     [![Select System keychains](https://assets.postman.com/postman-docs/mac-install-new-crt-v9-1.jpg)](https://assets.postman.com/postman-docs/mac-install-new-crt-v9-1.jpg)
 
 1. Expand the **Trust** section. Select the option to **Always Trust** when using this certificate, and make sure **Always Trust** is selected for **Secure Sockets Layer(SSL)**.
-    [![Select always trust for Postman keychain](https://assets.postman.com/postman-docs/mac-install-crt-always-trust-v9-1.jpg)](https://assets.postman.com/postman-docs/mac-install-crt-always-trust-v9-1.jpg)
+
+    ![Select always trust for Postman keychain](https://assets.postman.com/postman-docs/v10/mac-install-crt-always-trust-v10.jpg)
 
 1. Close the certificate window. Enter your system password to update the settings.
 
