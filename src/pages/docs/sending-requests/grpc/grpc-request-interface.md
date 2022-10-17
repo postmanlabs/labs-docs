@@ -12,6 +12,9 @@ contextual_links:
   - type: subtitle
     name: "Videos"
   - type: link
+    name: "Working with gRPC | The Exploratory"
+    url: "https://youtu.be/RbHOs2xchGE"
+  - type: link
     name: "gRPC Requests | Postman Level Up"
     url: "https://youtu.be/gfYGqMb81GQ"
 ---

@@ -14,6 +14,9 @@ contextual_links:
   - type: link
     name: "Automatic Mock Servers for gRPC | Postman Level Up"
     url: "https://youtu.be/Y-PMb8nECgI"
+  - type: link
+    name: "Working with gRPC | The Exploratory"
+    url: "https://youtu.be/RbHOs2xchGE"
   - type: subtitle
     name: "Blog Posts"
   - type: link
