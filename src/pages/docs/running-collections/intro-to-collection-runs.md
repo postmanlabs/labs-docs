@@ -113,7 +113,11 @@ Each collection has a **Runs** tab, which displays past and scheduled collection
 
 ![Collection Run History tab](https://assets.postman.com/postman-docs/v10/collection-run-tab-v10.jpg)
 
-The **Runs** tab has controls to select how many collection runs to view, and limit the displayed runs to view only collection runs from selected users, a selected status, and either from the Collection Runner or the Postman CLI.
+The **Runs** tab includes two additional tabs: **Past runs** and **Scheduled runs**.
+
+### The Past runs tab
+
+The **Past runs** tab has controls to select how many collection runs to view, and limit the displayed runs to view only collection runs from selected users, a selected status, and either from the Collection Runner or the Postman CLI.
 
 The following are displayed for each collection run:
 
@@ -126,6 +130,19 @@ Hover over an item to show the following controls:
 
 * **View report** - Select to open the **Test Results** tab for the collection run, as described in [viewing test results](#viewing-test-results).
 * **Share** - Select to share the results with another team member. This provides a link you can give to other team members so they can view details of this run. Note that this doesn't work in personal workspaces.
+
+## The Scheduled runs tab
+
+The **Scheduled runs** tab shows all the scheduled runs for the current collection. The following are displayed for each scheduled run:
+
+* The upcoming run's scheduled time
+* The name of the scheduled run
+* The environment associated with the scheduled run (if any)
+
+Hover over an item to show the following controls:
+
+* **View** - Select to open a page detailing the scheduled collection run's latest results.
+* The **more actions icon** <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> - Select to [pause, resume, edit, or delete](/docs/running-collections/scheduling-collection-runs/#pausing-or-resuming-a-scheduled-run) the schedule.
 
 ## Sharing collection runs
 
