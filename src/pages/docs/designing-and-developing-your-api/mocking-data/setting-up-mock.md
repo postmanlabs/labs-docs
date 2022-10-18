@@ -61,11 +61,11 @@ To test using a mock server, do the following steps:
 
 1. In Postman, send a request to any API. Your request must be saved to a collection.
 1. In the response pane, select **Save Response > Save as example**. Postman automatically populates the example with the response you received when you sent the request.
-1. Open the collection where the request was saved and select the information icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px"> in the right sidebar. Next to **Mock servers**, select **+ New**.
+1. Select **Collections** in the sidebar. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the collection where the request was saved and select **Mock collection**.
 1. Give your mock a name and leave the other settings at their defaults. Select **Create Mock Server**.
 1. Copy the mock URL and go back into your request. Replace the base part of the URL with the mock server URL (everything before the path, for example up to `/customers`).
 1. Select **Send**. Postman returns the example response you saved for the request, this time from the mock server.
-1. Open the example and change the mock response JSON, then save it and send the request again. Postman returns your edited mock response.
+1. Open the example and change the response, then save the example and send the request again. Postman returns your edited mock response.
 
 ## Creating mock servers
 
@@ -85,9 +85,9 @@ Configure your [mock server details](#configuring-mock-server-details).
 
 ### Creating a mock from a collection
 
-Open a collection in Postman and select the information icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px"> in the right sidebar. Next to **Mock servers**, select **+ New**.
+Select **Collections** in the sidebar. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the collection you want to mock and select **Mock collection**.
 
-<img alt="Mocking a collection" src="https://assets.postman.com/postman-docs/v10/mock-server-create-from-collection-v10.jpg" />
+<img alt="Mocking a collection" src="https://assets.postman.com/postman-docs/v10/mock-server-mock-collection-v10.jpg" width="373px" />
 
 Configure your [mock server details](#configuring-mock-server-details).
 
@@ -151,7 +151,7 @@ To use body or header matching with a mock server:
 1. Under **Response Matching**, select the matching options you want to use:
 
     * **Request body** - The mock server will match the request's body to the body of the saved examples.
-    * **Headers** - The mock server will match the request's headers to the headers of the saved examples. In the box, add the header keys that you want to match, using commas to separate the keys. Header matching isn't case-sensitive.
+    * **Headers** - The mock server will match the request's headers to the headers of the saved examples. In the box, add the header keys that you want the mock server to match, using commas to separate the keys. Header matching isn't case-sensitive.
 
 1. Select **Update Mock Server**.
 
@@ -161,9 +161,7 @@ To use body or header matching with a mock server:
 
 Use the mock server's URL to make calls to the mock server. Select **Mock Servers** in the sidebar, select a mock server, and select **Copy Mock URL**.
 
-Make sure the request you want to mock has at least one saved [example](/docs/sending-requests/examples/). To add an example to a request, select **Send**. Then, in the response pane, select **Save Response > Save as example**.
-
-<img alt="Adding an example" src="https://assets.postman.com/postman-docs/v10/examples-save-response-v10.jpg" />
+Make sure the request you want to mock has at least one saved example. You can send a request and save the response as an example. You can also define a custom example. Learn more about [adding examples to a request](/docs/sending-requests/examples/#adding-an-example).
 
 Open a new request tab (or edit the address in an existing tab) and add the mock URL:
 
@@ -196,7 +194,7 @@ Postman mock servers support [environment variables](/docs/sending-requests/vari
 * To use environment variables, select the environment in the [mock server's configuration](#editing-the-mock-server-configuration).
 * To use collection variables, define them on the **Variables** tab in the [collection you are mocking](/docs/sending-requests/variables/#defining-collection-variables).
 
-When you use an environment or collection variable in a saved example, the mock server resolves the variable and replaces it with the current value. If an environment variable and a collection variable have the same name, Postman uses the environment variable. Learn more about [variable scopes](/docs/sending-requests/variables/#variable-scopes).
+When you use an environment or collection variable in a saved example, the mock server resolves the variable and replaces it with the variable's initial value. If an environment variable and a collection variable have the same name, Postman uses the environment variable. Learn more about [variable scopes](/docs/sending-requests/variables/#variable-scopes).
 
 <img alt="Using variables with mock servers" src="https://assets.postman.com/postman-docs/v10/mock-server-using-variables-v10.jpg" width="467px" />
 
