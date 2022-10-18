@@ -26,11 +26,11 @@ contextual_links:
   - type: subtitle
     name: "Case Studies"
   - type: link
+    name: "WhatsApp"
+    url:  "https://www.postman.com/case-studies/whatsapp/"
+  - type: link
     name: "SEI Novus"
     url: "https://www.postman.com/case-studies/sei-novus/"
-  - type: link
-    name: "Code for Baltimore"
-    url: "https://www.postman.com/case-studies/code-for-baltimore/"
   - type: section
     name: "Next Steps"
   - type: link

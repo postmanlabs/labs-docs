@@ -27,8 +27,11 @@ contextual_links:
   - type: subtitle
     name: "Case Studies"
   - type: link
-    name: "Momentive"
-    url: "https://www.postman.com/case-studies/momentive/"
+    name: "The Trevor Project"
+    url: "https://www.postman.com/case-studies/the-trevor-project/"
+  - type: link
+    name: "OVO"
+    url: "https://www.postman.com/case-studies/ovo/"
   - type: section
     name: "Next Steps"
   - type: link
