@@ -46,7 +46,7 @@ gRPC uses [Protocol Buffers (protobuf)](https://developers.google.com/protocol-b
 
 Postman has a client interface to work with gRPC services and the API Builder interface to create and manage your protobuf definitions. Using a gRPC request, you can view supported services and methods (with a service definition), invoke the method of your interest, send a message payload, and view the response from the server, all without entering commands in the terminal or writing any code. You can save these requests into a collection to reuse them later, share them with your teammates, or publish them to the community on [Postman's public API network](/docs/getting-started/exploring-public-api-network/).
 
-You can use the [Postman API Builder](/docs/designing-and-developing-your-api/the-api-workflow/) to create the service definition using protobuf IDL and maintain it as a single source of truth for your API project.
+You can use the [Postman API Builder](/docs/designing-and-developing-your-api/the-api-workflow/) to create the service definition using protobuf IDL and keep it as a single source of truth for your API project.
 
 <img src="https://assets.postman.com/postman-docs/v10/grpc-echo-request.jpg" alt="gRPC request interface">
 
