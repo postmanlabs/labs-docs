@@ -138,7 +138,7 @@ You can load an external stylesheet using `<link>` tags in your HTML template co
 
 ### Using your own libraries
 
-You can use any of the libraries in the [Postman Sandbox](/docs/writing-scripts/script-references/postman-sandbox-api-reference/) to programmatically generate the layout template. To import an additional external JavaScript library, add the URL to a `<script>` tag in the template code, using the same approach you would use to load JavaScript into an HTML file. This lets you render your request data using the visualization tool of your choice (for example D3.js).
+You can use any of the libraries in the [Postman Sandbox](/docs/writing-scripts/script-references/postman-sandbox-api-reference/) to programmatically generate the layout template. To import another external JavaScript library, add the URL to a `<script>` tag in the template code, using the same approach you would use to load JavaScript into an HTML file. This lets you render your request data using the visualization tool of your choice (for example D3.js).
 
 ### Accessing data inside the template
 
@@ -165,7 +165,7 @@ You can access visualizers from the [Postman API](/docs/writing-scripts/script-r
 * `data` (optional): The second parameter is data that you can bind to the template. The properties of this object can be accessed in the template.
 * `options` (optional): The third argument is an `options` object for [`Handlebars.compile()`](https://handlebarsjs.com/api-reference/). You can use this to control how Handlebars compiles the template.
 
-Postman uses the information you pass to `pm.visualizer.set()` to render an HTML page in the sandbox for the visualizer. Select the __Visualize__ tab for the rendered HTML page. The `layout` string is inserted into the `<body>` of the rendered page, including any JavaScript, CSS, and HTML that the template contains.
+Postman uses the information you pass to `pm.visualizer.set()` to render an HTML page in the sandbox for the visualizer. Select the __Visualize__ tab for the rendered HTML page. The `layout` string is inserted into the `<body>` of the rendered page, including any JavaScript, CSS, and HTML that the template has.
 
 ## Debugging visualizers
 

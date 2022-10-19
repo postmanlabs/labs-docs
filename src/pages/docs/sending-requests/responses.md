@@ -102,7 +102,7 @@ To learn more about running tests against API requests in Postman, see [Writing 
 
 Postman displays network information when your API returns a response. Hover over the network icon <img alt="Network information icon" src="https://assets.postman.com/postman-docs/icon-uptime-globe.jpg#icon" width="14px"> to get the local and remote IP addresses for the request you sent.
 
-When you make an `https` request, the network icon includes a padlock. When you hover over the icon, the network information will show additional information including [certificate verification](/docs/sending-requests/certificates/) details.
+When you make an `https` request, the network icon includes a padlock. When you hover over the icon, the network information will show more information including [certificate verification](/docs/sending-requests/certificates/) details.
 
 <img alt="Hover over the network icon for network information" src="https://assets.postman.com/postman-docs/https-network-info-response.jpg" width="300px"/>
 
@@ -132,7 +132,7 @@ Postman displays the response code returned by the API. Hover over the response 
 
 <img alt="Hover over the response code to get a description" src="https://assets.postman.com/postman-docs/response-code.jpg" width="300px"/>
 
-Some API responses also contain custom messages that can help you understand response codes. For example, if you receive a `401 Unauthorized` response, the message might advise you to check the token you used in the request. If custom messages are returned, they're displayed in the **Body** of the response.
+Some API responses also contain custom messages that can help you understand response codes. For example, if you receive a `401 Unauthorized` response, the message might tell you to check the token you used in the request. If custom messages are returned, they're displayed in the **Body** of the response.
 
 ## Response time
 
