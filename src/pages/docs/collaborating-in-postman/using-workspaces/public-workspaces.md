@@ -31,6 +31,11 @@ contextual_links:
   - type: link
     name: "Introducing Public Workspace Summary Emails"
     url: "https://blog.postman.com/introducing-public-workspace-summary-emails/"
+  - type: subtitle
+    name: "Case Studies"
+  - type: link
+    name: "WhatsApp"
+    url:  "https://www.postman.com/case-studies/whatsapp/"
 
 ---
 
