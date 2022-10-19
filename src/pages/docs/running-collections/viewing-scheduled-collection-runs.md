@@ -7,18 +7,9 @@ contextual_links:
   - type: link
     name: "Using the Collection Runner"
     url: "/docs/running-collections/intro-to-collection-runs/"
-  - type: section
-    name: "Additional resources"
-  - type: subtitle
-    name: "Videos"
-  - type: link
-    name: "API Monitoring | The Exploratory"
-    url: "https://youtu.be/tDQzY1Hn2LY"
-  - type: dynamic_blog
-    name: "Blog Posts"
-    blog_tag: "monitors"
 
 warning: false
+
 ---
 
 Many Postman users run collections at specific times each day or week. For example, you may want to run a collection that tests your API every day. You can use the Collection Runner to [schedule collection runs](/docs/running-collections/scheduling-collection-runs/) to execute automatically at specified dates and times.
@@ -61,7 +52,7 @@ You can view your scheduled collection runs in Postman by navigating to your wor
 
 <img src="https://assets.postman.com/postman-docs/v10/scheduled-runs-tab-2-v10.jpg" alt="View monitor in tab"/>
 
-Hover over your scheduled run and select **View** to open a page detailing the scheduled collection run's latest results.
+Hover over your scheduled run and select **View** to see the scheduled collection run's latest results.
 
 <img src="https://assets.postman.com/postman-docs/view-monitor-in-tab3.jpg" alt="View monitor in tab"/>
 
@@ -79,7 +70,7 @@ The upper section charts your scheduled collection run's average response time f
 
 ### Filters
 
-You can use filters to identify recurring patterns in your monitoring runs by selecting particular run types and results.
+You can use filters to identify recurring patterns in your scheduled collection runs by selecting particular run types and results.
 
 > You can **Clear Filters** to return to your original dashboard view.
 
@@ -110,14 +101,14 @@ You can review past run results to understand what happened at a particular poin
 
 ### Test results
 
-Select **Test Results** to get more detailed information on your tests, including which passed or failed, the response codes, and the response times.
+Select a bar in the graph and select **Test Results** to get more detailed information on that run's tests, including which passed or failed, the response codes, and the response times.
 
 [![test results](https://assets.postman.com/postman-docs/v10/scr-view-test-results-v10.jpg)](https://assets.postman.com/postman-docs/monitor-view-test-results0.jpg)
 
 ### Console log
 
-Select **Console Log** to view scheduled collection run details along with the [`console.log`](/docs/sending-requests/troubleshooting-api-requests/) statements that run as part of your pre-request and test scripts. Run details specify the various stages of a scheduled collection run such as preparing run, running, rerunning, and the run result, along with error and test failure information. Selecting a request in the Console Log will open it in a tab, allowing you to review and edit the request as needed.
+Select a bar in the graph and select **Console Log** to view details about the run and the [`console.log`](/docs/sending-requests/troubleshooting-api-requests/) statements that run as part of your pre-request and test scripts. Run details specify the various stages of a collection run such as preparing run, running, rerunning, and the run result, along with error and test failure information. Selecting a request in the Console Log will open it in a tab, allowing you to review and edit the request as needed.
 
 [![console log](https://assets.postman.com/postman-docs/v10/scr-view-console-log-v10.jpg)](https://assets.postman.com/postman-docs/v10/scr-view-console-log-v10.jpg)
 
-You can use this console to both troubleshoot issues and learn more about an individual run's behavior.
+You can use this console to troubleshoot issues and learn more about an individual run's behavior.

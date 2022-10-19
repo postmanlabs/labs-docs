@@ -19,6 +19,7 @@ contextual_links:
     blog_tag: "monitors"
 
 warning: false
+
 ---
 
 In Postman, a [collection](/docs/getting-started/creating-the-first-collection/) can be a group of saved [requests](/docs/getting-started/sending-the-first-request/), or a [workflow](/docs/running-collections/building-workflows/), or a [test suite](/docs/writing-scripts/test-scripts/). You might run a collection to send requests to your new API's endpoints, or to retrieve data from a data source, or to test an API's functionality. Postman enables you to run collections in several ways:

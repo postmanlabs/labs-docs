@@ -7,23 +7,14 @@ contextual_links:
   - type: link
     name: "Using the Collection Runner"
     url: "/docs/running-collections/intro-to-collection-runs/"
-  - type: section
-    name: "Additional resources"
-  - type: subtitle
-    name: "Videos"
-  - type: link
-    name: "API Monitoring | The Exploratory"
-    url: "https://youtu.be/tDQzY1Hn2LY"
-  - type: dynamic_blog
-    name: "Blog Posts"
-    blog_tag: "monitors"
 
 warning: false
+
 ---
 
 Many Postman users run collections at specific times each day or week. For example, you may want to run a collection that tests your API every day. You can use the Collection Runner to schedule collection runs to execute automatically at specified dates and times.
 
-> You can also schedule collection runs using [monitors](/docs/running-collections/scheduling-collection-runs-monitors/). Monitors are typically used to schedule runs when you want to set up alerts like triggering on-call upon failure. Users typically use the Collection Runner to schedule runs for all other use cases.
+> You can also schedule collection runs using [monitors](/docs/running-collections/scheduling-collection-runs-monitors/). Monitors are typically used to schedule runs when you want to set up alerts like triggering on-call upon failure. Users typically choose the Collection Runner to schedule runs for all other use cases.
 
 When you schedule a collection run with the Collection Runner, the scheduled run is added to the collection's **Runs** tab. You can view, pause, edit, and delete scheduled collection runs from the collection's **Runs** tab. These scheduled runs execute in the Postman Cloud.
 
@@ -116,7 +107,7 @@ When you schedule a collection run with the Collection Runner, the scheduled run
 
 1. Select the **Scheduled runs** tab.
 
-1. Hover over your scheduled run and select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the scheduled run you want to delete.
+1. Hover over the scheduled run you want to delete and select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px">.
 
 1. Select **Pause** or **Resume**. Paused runs appear under the **Paused** heading on the **Runs** tab.
 
@@ -130,7 +121,7 @@ When you schedule a collection run with the Collection Runner, the scheduled run
 
 1. Select the **Scheduled runs** tab.
 
-1. Hover over your scheduled run and select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the scheduled run you want to edit.
+1. Hover over the scheduled run you want to edit and select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px">.
 
 1. Select **Edit schedule** and edit the scheduled run's settings.
 
@@ -146,7 +137,7 @@ When you schedule a collection run with the Collection Runner, the scheduled run
 
 1. Select the **Scheduled runs** tab.
 
-1. Hover over your scheduled run and select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the scheduled run you want to delete.
+1. Hover over the scheduled run you want to delete and select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px">.
 
 1. Select **Delete schedule**.
 

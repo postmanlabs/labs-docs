@@ -19,11 +19,12 @@ contextual_links:
     blog_tag: "monitors"
 
 warning: false
+
 ---
 
 You can automate [collection runs](/docs/running-collections/intro-to-collection-runs/) using [monitors](/docs/monitoring-your-api/intro-monitors/) to schedule runs and receive reports on your request test results.
 
-> You can also schedule collection runs with the [**Collection Runner**](/docs/running-collections/scheduling-collection-runs/). Monitors are typically used to schedule runs when you want to set up alerts like triggering on-call upon failure. Users typically use the Collection Runner to schedule runs for all other use cases.
+> You can also schedule collection runs with the [**Collection Runner**](/docs/running-collections/scheduling-collection-runs/). Monitors are typically used to schedule runs when you want to set up alerts like triggering on-call upon failure. Users typically choose the Collection Runner to schedule runs for all other use cases.
 
 1. To add or access monitors for a particular collection, select __Monitors__ in the sidebar.
 
