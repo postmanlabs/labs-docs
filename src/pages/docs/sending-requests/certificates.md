@@ -90,7 +90,7 @@ Remove a certificate if you no longer need it to send requests from Postman.
 
 ## Using a certificate
 
-After adding a client certificate, you don't have to perform any extra steps to use the certificate in Postman. When you make an HTTPS request to a configured domain, Postman automatically sends the client certificate with the request. The certificate is sent using OpenSSL handling, and Postman doesn't modify the certificate.
+After adding a client certificate, you don't have to perform any extra steps to use the certificate in Postman. When you make an HTTPS request to a configured domain, Postman automatically sends the client certificate with the request. The certificate is sent using OpenSSL handling, and Postman doesn't change the certificate.
 
 > Postman won't send the certificate if you make an HTTP request.
 

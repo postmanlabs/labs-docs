@@ -44,7 +44,7 @@ As an example, use the following endpoint URL:
 https://www.dataaccess.com/webservicesserver/NumberConversion.wso
 ```
 
-This SOAP endpoint changes numeric values into their text equivalents, for example changing the value "500" into "five hundred".
+This SOAP endpoint changes numeric values into their text equivalents, for example changing the value `500` into `five hundred`.
 
 > If you want to inspect more SOAP request examples, head to the [Public SOAP APIs](https://www.postman.com/cs-demo/workspace/public-soap-apis/overview) collection.
 
@@ -72,7 +72,7 @@ Your request body must include the SOAP `Envelope`, `Header`, and `Body` tags as
 
 ## Setting your request headers
 
-When you select an XML body type, Postman automatically adds a content type header of `application/xml`. But depending on your service provider, you may need `text/xml` for some SOAP requests. Check with your SOAP service to determine which header is appropriate. If you need the `text/xml` header, you will need to override the default setting added by Postman.
+When you select an XML body type, Postman automatically adds a content type header of `application/xml`. But depending on your service provider, you may need `text/xml` for some SOAP requests. Check with your SOAP service to decide which header is appropriate. If you need the `text/xml` header, you will need to override the default setting added by Postman.
 
 If you are following along with the number conversion SOAP API example, you need to change the content type header to `text/xml`.
 

@@ -49,7 +49,7 @@ The request section includes the required configurations to connect to the serve
 
 * **Method** - Select the method you wish to invoke using the method selector dropdown. The list of methods is populated by the service definition. Method types are described in detail in the [invoking different types of methods](#invoking-different-types-of-methods) section below.
 
-* **Payload** - A gRPC payload contains items to aid the server in executing the request:
+* **Payload** - A gRPC payload has items to aid the server in executing the request:
 
     * **Message** - Compose a message in JSON here to send along with the request. The server uses this message to perform appropriate actions and gives you a response in return.
 
@@ -135,7 +135,7 @@ The response section has the following items:
 
     * **Connection status** - The connection status shows if the connection with the server is active and if messages are being streamed.
 
-    * **Message stream** - The message stream contains the list of sent, received, and informative messages arranged in reverse chronological order (latest appears on the top).
+    * **Message stream** - The message stream has the list of sent, received, and informative messages arranged in reverse chronological order (latest appears on the top).
 
     * **Expand/collapse message** - You can take an in-depth look at the message content by expanding it within the message stream.
 

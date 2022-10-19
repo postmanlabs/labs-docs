@@ -66,9 +66,9 @@ To get started, install Postman Interceptor:
 
 1. Select **Install Interceptor Bridge** to download the Bridge, an independent executable that facilitates communication with the Interceptor.
 
-    > If you're on Windows or Linux, Postman will take care of everything for you. If you're on macOS, you'll be prompted to install NodeJS if it's not already installed on your computer. If the option to download does not appear, you can manually download and install with the following links: [macOS](https://go.pstmn.io/interceptor-bridge-macos/), [Linux](https://go.pstmn.io/interceptor-bridge-linux/), or [Windows](https://go.pstmn.io/interceptor-bridge-windows/).
+    > If you're on Windows or Linux, Postman will take care of everything for you. If you're on macOS, you'll be prompted to install NodeJS if it's not already installed on your computer. If the option to download doesn't appear, you can manually download and install with the following links: [macOS](https://go.pstmn.io/interceptor-bridge-macos/), [Linux](https://go.pstmn.io/interceptor-bridge-linux/), or [Windows](https://go.pstmn.io/interceptor-bridge-windows/).
 
-1. Confirm Interceptor is ready to use by checking that the **Connected** status in the upper right is green. You can now capture requests from your browser and cookies from any domain to use in Postman.
+1. Confirm Interceptor is ready to use by checking that the **Connected** status in the upper right is green. You can capture requests from your browser and cookies from any domain to use in Postman.
 
 ## Using Interceptor
 
@@ -99,7 +99,7 @@ While your Interceptor session is running, the **Interceptor Debug Session** win
 There are several controls you can use to limit, organize, and investigate traffic as it's captured:
 
 * Select the name **Interceptor debug session** and enter another name to change the window name.
-* The **Configure incoming requests** controls at the top of the window enable you to limit captured traffic. Select items from **Methods** and **URL** to limit the traffic. These controls are similar to the ones you set initially, but they limit what is being captured instead of what is going through Interceptor.
+* The **Configure incoming requests** controls at the top of the window enable you to limit captured traffic. Select items from **Methods** and **URL** to limit the traffic. These controls are similar to the ones you set initially, but they limit what's being captured instead of what's going through Interceptor.
 * Select **Capture Cookies** to collect cookies and sync them to the Interceptor session.
 * Select the **Requests** tab to get information about incoming requests and responses, or **Cookies** to get information about captured cookies.
 * Use the search box to find specific requests.
@@ -194,7 +194,7 @@ If you are unable to use the integration after completing the guided installatio
     * If this is missing, delete the following directory and restart the [installation process](#installing-interceptor):
         * **macOS / Linux** - `$HOME/.postman`
         * **Windows** - `%USERPROFILE%\.postman\`
-* **Executable** - The executable that the manifest points to exists and is approximately 40MB for Windows/Linux or 33KB for macOS.
+* **Executable** - The executable that the manifest points to exists and is about 40MB for Windows/Linux or 33KB for macOS.
     * If this is missing, delete the following directory and restart the [installation process](#installing-interceptor):
         * **macOS / Linux** - `$HOME/.postman`
         * **Windows** - `%USERPROFILE%\.postman\`
@@ -203,9 +203,9 @@ For macOS, the NodeJS downloader is saved to your `~/Downloads` directory.
 
 For Windows, if you get an installation error in Postman, close Chrome and retry before repeating the installation process.
 
-If the aforementioned troubleshooting steps do not fix the problem, you may need to remove all of Interceptor's dependencies (such as the manifest file, Interceptor Bridge, and for Windows users, the registry key). To do so, open Postman and select **View** > **Developer** > **Show DevTools (Current View)**. Enter `pm.interceptorInstaller.reset()` to remove all present Interceptor dependencies. You can then [continue installation from step 3](#installing-interceptor).
+If the aforementioned troubleshooting steps don't fix the problem, you may need to remove all of Interceptor's dependencies (such as the manifest file, Interceptor Bridge, and for Windows users, the registry key). To do so, open Postman and select **View** > **Developer** > **Show DevTools (Current View)**. Enter `pm.interceptorInstaller.reset()` to remove all present Interceptor dependencies. You can then [continue installation from step 3](#installing-interceptor).
 
-> If any dependencies cannot be removed due to permission issues, you’ll be prompted to delete them manually.
+> If any dependencies can't be removed due to permission issues, you’ll be prompted to delete them manually.
 
 If you are unable to resolve an ``INTERNET_CONNECTIVITY`` error, you can manually install Interceptor:
 
@@ -227,7 +227,7 @@ If you are unable to resolve an ``INTERNET_CONNECTIVITY`` error, you can manuall
         2. Check in this path `HKEY_CURRENT_USER\SOFTWARE\Google\Chrome\NativeMessagingHosts` that the manifest file ``com.postman.postmanapp.json`` exists with the correct extension ID ``aicmkgpgakddgnaphhhpliifpcfhicfo`` and the correct path ``%USERPROFILE%\.postman\`` to the executable file ``InterceptorBridge.exe``.
 
 > * To run the script depending on your OS, you may need to double-click or execute the installer script in a shell. Users on macOS or Windows may get a security warning. For example, to override the security on macOS, you may need to right-click the file and select **Open**.
-> * If you have installed Postman with snap (on Linux machines), Interceptor will not connect and you must reinstall Postman outside of snap.
+> * If you have installed Postman with snap (on Linux machines), Interceptor won't connect and you must reinstall Postman outside of snap.
 
 ## Security
 
@@ -247,7 +247,7 @@ The communication between Interceptor and Postman is automatically encrypted. Yo
 
 You can also update the default encryption key by utilizing the [pm API](/docs/writing-scripts/script-references/postman-sandbox-api-reference/#the-pm-object). To do so, open Postman and select **View** > **Developer** > **Show DevTools (Current View)** > **Console**, then enter `pm.interceptorBridge.setKey("<your key here>")`.
 
-For the Interceptor extension, first enable **Developer mode** in [Chrome extensions](chrome://extensions/). You can then right-click on the Interceptor icon in your browser, select **Inspect Popup** > **Console**. Enter the command `pm.interceptorBridge.setKey("<your key here>")` again here. All communication through this channel will now be encrypted using your own key.
+For the Interceptor extension, first enable **Developer mode** in [Chrome extensions](chrome://extensions/). You can then right-click on the Interceptor icon in your browser, select **Inspect Popup** > **Console**. Enter the command `pm.interceptorBridge.setKey("<your key here>")` again here. All communication through this channel will be encrypted using your own key.
 
 ## Updating Interceptor
 

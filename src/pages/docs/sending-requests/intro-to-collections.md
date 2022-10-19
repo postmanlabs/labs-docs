@@ -225,7 +225,7 @@ To view notifications about what has changed in a collection you watch:
 
 1. You will also receive an email with the information regarding who made the change, what the change was, and when it was made. Select **View changelog** in the email to access the full changelog in Postman.
 
-> If you create a collection and modify it from the same Postman account, you won't receive notifications for any changes you make to that collection.
+> If you create a collection and change it from the same Postman account, you won't receive notifications for any changes you make to that collection.
 
 ### Forking a collection
 
@@ -245,7 +245,7 @@ To add a comment at the collection level:
 
 ### Reverting collection changes
 
-To revert your collection to a previous state:
+To revert your collection to an earlier state:
 
 1. Select the changelog icon <img alt="Changelog icon" src="https://assets.postman.com/postman-docs/icon-changelog-v9.jpg#icon" width="18px"> on the right.
 2. Select a session to expand it.
@@ -261,7 +261,7 @@ From the right sidebar:
 
 * To view pull requests for a collection, select the pull request icon <img alt="Pull request icon" src="https://assets.postman.com/postman-docs/icon-pull-request.jpg#icon" width="16px">
 * To view forks created from a collection, select the fork icon <img alt="Fork icon" src="https://assets.postman.com/postman-docs/icon-fork.jpg#icon" width="16px">
-* To view additional information about the collection, including mock servers, monitors, and integrations, select the information icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px">
+* To view more information about the collection, including mock servers, monitors, and integrations, select the information icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px">
 
 ## Using collections in development workflows
 
