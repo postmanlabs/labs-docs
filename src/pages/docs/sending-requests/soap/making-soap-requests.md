@@ -44,7 +44,7 @@ As an example, use the following endpoint URL:
 https://www.dataaccess.com/webservicesserver/NumberConversion.wso
 ```
 
-This SOAP endpoint changes numeric values into their text equivalents, for example changing the value "500" into "five hundred."
+This SOAP endpoint changes numeric values into their text equivalents, for example changing the value `500` into `five hundred`.
 
 > If you want to inspect more SOAP request examples, head to the [Public SOAP APIs](https://www.postman.com/cs-demo/workspace/public-soap-apis/overview) collection.
 
