@@ -1,6 +1,6 @@
 ---
 title: "Billing"
-updated: 2022-10-06
+updated: 2022-10-21
 tags:
   - "pro"
 warning: false
@@ -10,11 +10,6 @@ contextual_links:
   - type: link
     name: "Postman Pricing"
     url: "https://www.postman.com/pricing/"
-  - type: subtitle
-    name: "Blog Posts"
-  - type: link
-    name: "Announcing 2021 Postman Plans and Pricing Updates"
-    url: "https://blog.postman.com/announcing-postman-plans-and-pricing-2021/"
 
 ---
 
