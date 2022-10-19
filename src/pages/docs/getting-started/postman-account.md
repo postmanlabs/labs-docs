@@ -137,13 +137,13 @@ Your Postman profile is visible to your Postman team, and you can choose to make
 
 ## Updating your notification preferences
 
-You can update your [notification preferences](https://go.postman.co/settings/me/notifications/) by selecting your avatar in the upper-right corner > **Notification Preferences**.
+You can update your [notification preferences](https://go.postman.co/settings/me/notifications/) by selecting your avatar in the upper-right corner > **Settings** > **Notifications**.
 
 You can opt in to or out of email or in-app notifications about security, usage, monitors, and comments by selecting or de-selecting the boxes next to each item. Select **Update Preferences** to save changes.
 
 In addition to email and in-app notifications, you can also send many notifications to Slack using the [Slack integration](/docs/integrations/available-integrations/slack/). After you add the Slack integration, you can select notification events in the **On Slack** column. These notifications are sent to Slack by the integration.
 
-<img alt="Update notification preferences" src="https://assets.postman.com/postman-docs/notification-preferences-v9-4.jpg">
+<img alt="Update notification preferences" src="https://assets.postman.com/postman-docs/v10/notification-preferences-v10.jpg">
 
 ## Managing your active sessions
 
