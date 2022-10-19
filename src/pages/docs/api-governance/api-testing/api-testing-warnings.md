@@ -16,7 +16,7 @@ Postman applies security rules configured for your API requests when you send re
 
 ## Viewing security warnings for API requests
 
-When you [send an API request](/docs/sending-requests/requests/), Postman scans it for potential security risks.  If it finds any, Postman adds the number of warnings to the **Security** tab in the response.
+When you [send an API request](/docs/sending-requests/requests/), Postman scans it for potential security risks. If it finds any, Postman adds the number of warnings to the **Security** tab in the response.
 
 <img alt="Security tab showing one warning" src="https://assets.postman.com/postman-docs/v10/api-response-security-tab-v10.jpg" width="900px"/>
 

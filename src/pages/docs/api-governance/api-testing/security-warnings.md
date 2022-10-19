@@ -58,13 +58,13 @@ A security misconfiguration can result from many issues, including:
 
 ### CORS misconfiguration
 
-Cross-origin resource sharing (CORS) is a browser mechanism that enables controlled access to resources located outside of a given domain. It extends and adds flexibility to the same-origin policy ([SOP](https://portswigger.net/web-security/cors/same-origin-policy)). However, if a website's CORS policy isn't configured and implemented correctly, it also provides the potential for cross-domain attacks. CORS isn't a protection against cross-origin attacks such as cross-site request forgery ([CSRF](https://portswigger.net/web-security/csrf)).
+Cross-origin resource sharing (CORS) is a browser mechanism that enables controlled access to resources located outside of a given domain. It extends and adds flexibility to the same-origin policy ([SOP](https://portswigger.net/web-security/cors/same-origin-policy)). However, if a website's CORS policy isn't configured and implemented correctly, it also provides the potential for cross-domain attacks. CORS doesn't protect from cross-origin attacks such as cross-site request forgery ([CSRF](https://portswigger.net/web-security/csrf)).
 
 #### Allowlisted null origin value with credentials
 
 Issue description | Possible fix
 --- | ---
-`Access-Control-Allow-Credentials` is set as `true` and `Access-Control-Allow-Origin` is set as `null`. This could allow an attacker to send AJAX queries to a vulnerable website from a malicious page loaded by the victim’s user agent. Even if a website with unauthenticated sensitive content (for example, an intranet website) doesn’t allow authenticated AJAX requests, this misconfiguration still allows attackers to access it. | If a web resource contains sensitive information, you need to specify the origin in the `Access-Control-Allow-Origin` header. You should only specify trusted websites that need this resource in this header, with the most secured protocol supported.
+`Access-Control-Allow-Credentials` is set as `true` and `Access-Control-Allow-Origin` is set as `null`. With this configuration, an attacker could send AJAX queries to a vulnerable website from a malicious page loaded by the victim’s user agent. Even if a website with unauthenticated sensitive content (for example, an intranet website) doesn’t allow authenticated AJAX requests, this misconfiguration still lets attackers access it. | If a web resource contains sensitive information, you need to specify the origin in the `Access-Control-Allow-Origin` header. You should only specify trusted websites that need this resource in this header, with the most secured protocol supported.
 
 #### Allowlisted null origin value
 

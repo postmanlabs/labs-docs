@@ -185,7 +185,7 @@ security:
 
 | Issue description | Possible fix |
 | ----------------- | ------------ |
-| If the security field contains an empty array, no security scheme is applied to the operations by default. | The security field needs to contain at least one item in the array. |
+| If the security field has an empty array, no security scheme is applied to the operations by default. | The security field needs to have at least one item in the array. |
 
 #### Resolution
 
@@ -205,7 +205,7 @@ security:
 
 | Issue description | Possible fix |
 | ----------------- | ------------ |
-| An empty object in the security field deactivates the authentication completely. Without security fields defined for each operation, anyone can access the API operations without any authentication. | Security field array items can't contain an empty object. |
+| An empty object in the security field deactivates the authentication. Without security fields defined for each operation, anyone can access the API operations without any authentication. | Security field array items can't have an empty object. |
 
 #### Resolution
 
@@ -243,7 +243,7 @@ securityDefinitions:
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| An empty object in the reusable security definition means that no authentication scheme is defined for each operation, anyone can access the API operations without any authentication. | Security definitions need to contain at least one item in the object. |
+| An empty object in the reusable security definition means that no authentication scheme is defined for each operation, anyone can access the API operations without any authentication. | Security definitions need to have at least one item in the object. |
 
 #### Resolution
 
@@ -281,7 +281,7 @@ security:
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| No security scheme is applied to the API operation by default. | The security field in any operation needs to contain at least one item in the array. |
+| No security scheme is applied to the API operation by default. | The security field in any operation needs to have at least one item in the array. |
 
 #### Resolution
 
@@ -306,7 +306,7 @@ securityDefinitions:
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| An empty object in the security field deactivates the authentication completely for the operation. Anyone can access the API operation without any authentication. | Specify at least one security requirement in the operation. |
+| An empty object in the security field deactivates the authentication for the operation. Anyone can access the API operation without any authentication. | Specify at least one security requirement in the operation. |
 
 #### Resolution
 
@@ -605,7 +605,7 @@ securityDefinitions:
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| If the global `produces` field isn't defined, the API could potentially return any form of data.  | The `produces` field needs to be defined in the schema.|
+| If the global `produces` field isn't defined, the API could return any form of data. | The `produces` field needs to be defined in the schema.|
 
 #### Resolution
 
@@ -624,7 +624,7 @@ produces:
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| If the `produces` field contains an empty array, the API can return any type of data by default. | The global `produces` field needs to contain at least one item with a valid MIME type in the array. |
+| If the `produces` field has an empty array, the API can return any type of data by default. | The global `produces` field needs at least one item with a valid MIME type in the array. |
 
 #### Resolution
 
@@ -642,7 +642,7 @@ produces:
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| No `produces` field in the operation means that API can return any type of data by default.| The `produces` field in any operation needs to contain at least one item in the array.|
+| No `produces` field in the operation means that API can return any type of data by default.| The `produces` field in any operation needs to have at least one item in the array.|
 
 #### Resolution
 
@@ -684,7 +684,7 @@ paths:
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| If the global `consumes` field isn't defined, the API could potentially accept any form of data as input. This could open your API to any number of potential attacks, like buffer overflow, decoding errors, or SQL injection attacks. | The `consumes` field needs to be defined in the schema. |
+| If the global `consumes` field isn't defined, the API could accept any form of data as input. This could open your API to any number of potential attacks, like buffer overflow, decoding errors, or SQL injection attacks. | The `consumes` field needs to be defined in the schema. |
 
 #### Resolution
 
@@ -701,7 +701,7 @@ consumes:
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| If the `consumes` field contains an empty array, the API can accept any type of input by default. | The global `consumes` field needs to contain at least one item with valid MIME type in the array.  |
+| If the `consumes` field has an empty array, the API can accept any type of input by default. | The global `consumes` field needs at least one item with valid MIME type in the array.  |
 
 #### Resolution
 
@@ -719,7 +719,7 @@ consumes:
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| No `consumes` field in the operation means that API can accept any type of input by default. | The `consumes` field in `PUT`/`PATCH`/`POST` operations needs to contain at least one item in the array. |
+| No `consumes` field in the operation means that API can accept any type of input by default. | The `consumes` field in `PUT`/`PATCH`/`POST` operations needs to have at least one item in the array. |
 
 #### Resolution
 
@@ -808,13 +808,13 @@ securityDefinitions:
 
 ## API information
 
-This rule category deals with the OpenAPI info object, which contains metadata about the API.
+This rule category deals with the OpenAPI info object, which has metadata about the API.
 
 ### The info object should have a description
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| Your API definition's [info object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#info-object) doesn't contain a description. Although a description isn't required, including one enables you to provide your API's consumers with information about what the API does and how to use it. This can be anything from a short description to a long explanation of possible uses cases. For your organization, defining the API's description during the design phase can help set the boundaries of the API. | Add a description to your API definition's info object. |
+| Your API definition's [info object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#info-object) doesn't have a description. Although a description isn't required, including one enables you to provide your API's consumers with information about what the API does and how to use it. This can be anything from a short description to a long explanation of possible uses cases. For your organization, defining the API's description during the design phase can help set the boundaries of the API. | Add a description to your API definition's info object. |
 
 #### Resolution
 
@@ -832,7 +832,7 @@ info:
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| Your API definition's [info object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#info-object) doesn't contain a [license object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#license-object), which helps your API's consumers know how the API can be copied and used.| Add a license object to your API definition's info object. |
+| Your API definition's [info object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#info-object) doesn't have a [license object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#license-object), which helps your API's consumers know how the API can be copied and used.| Add a license object to your API definition's info object. |
 
 #### Resolution
 
@@ -852,7 +852,7 @@ info:
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| Your API definition's [license object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#license-object) doesn't contain a license URL, which provides a link to a web page that describes the license. Although a license URL isn't required, just a license name may not be not enough information for your API's consumers, especially when you use a custom license. | Add a URL to your API definition's license object. |
+| Your API definition's [license object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#license-object) doesn't have a license URL, which provides a link to a web page that describes the license. Although a license URL isn't required, a license name alone may not be not enough information for your API's consumers, especially when you use a custom license. | Add a URL to your API definition's license object. |
 
 #### Resolution
 
@@ -872,7 +872,7 @@ info:
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| Your API definition's [info object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#info-object) doesn't contain a URL for the Terms of Service for the API. A terms of service is often mandatory for public APIs. It's also recommended that private APIs provide a link to a Terms and Conditions web page. | Add a URL to the API's Terms of Service to your API definition's info object. |
+| Your API definition's [info object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#info-object) doesn't have the URL of the API's Terms of Service. A terms of service is often mandatory for public APIs. It's also recommended that private APIs provide a link to a Terms and Conditions web page. | Add the URL of the API's Terms of Service to your API definition's info object. |
 
 #### Resolution
 
@@ -890,7 +890,7 @@ info:
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| Your API definition's [info object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#info-object) doesn't contain a [contact object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#contact-object), which contains contact information like a name, email address, or URL. Contact information defines a designated owner for each of your organization's APIs. The contact data may be used directly by your API's consumers, or through an API portal or catalog. | Add a contact object to your API definition's info object.  |
+| Your API definition's [info object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#info-object) doesn't have a [contact object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#contact-object), which has contact information like a name, email address, or URL. Contact information defines a designated owner for each of your organization's APIs. The contact data may be used directly by your API's consumers, or through an API portal or catalog. | Add a contact object to your API definition's info object.  |
 
 #### Resolution
 
@@ -910,7 +910,7 @@ info:
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| Your API definition's [contact object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#contact-object) doesn't contain a contact name. Although a contact name isn't required, it helps your API's consumers understand who owns the API. It also makes your organization consider the API's ownership. | Add a name to your API definition's contact object. |
+| Your API definition's [contact object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#contact-object) doesn't have a contact name. Although a contact name isn't required, it helps your API's consumers understand who owns the API. It also makes your organization consider the API's ownership. | Add a name to your API definition's contact object. |
 
 #### Resolution
 
@@ -929,7 +929,7 @@ info:
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| Your API definition's [contact object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#contact-object) doesn't contain a contact URL or email address. Although a contact URL or email aren't required, including one or both gives your API's consumers a way to contact your organization or the API owner. | Add a contact URL, an email address, or both to your API definition's contact object. |
+| Your API definition's [contact object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#contact-object) doesn't have a contact URL or email address. Although a contact URL or email aren't required, including one or both gives your API's consumers a way to contact your organization or the API owner. | Add a contact URL, an email address, or both to your API definition's contact object. |
 
 #### Resolution
 
@@ -957,7 +957,7 @@ info:
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| Your API definition's [contact object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#contact-object) doesn't contain an email address. Although a contact email isn't required, including one gives your API's consumers a way to contact your organization or the API owner. | Add an email address to your API definition's contact object. |
+| Your API definition's [contact object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#contact-object) doesn't have an email address. Although a contact email isn't required, including one gives your API's consumers a way to contact your organization or the API owner. | Add an email address to your API definition's contact object. |
 
 #### Resolution
 
@@ -976,7 +976,7 @@ info:
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| Your API definition's [contact object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#contact-object) doesn't contain a contact URL. Although a contact URL isn't required, including one gives your API's consumers a way to contact your organization or the API owner. | Add a URL to your API definition's contact object. |
+| Your API definition's [contact object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#contact-object) doesn't have a contact URL. Although a contact URL isn't required, including one gives your API's consumers a way to contact your organization or the API owner. | Add a URL to your API definition's contact object. |
 
 #### Resolution
 
@@ -1035,7 +1035,7 @@ paths:
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| One or more [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#operation-object) in your API definition contains a summary that ends with a period (`.`). API documentation tools use the summary as a title, so it shouldn't end with a period. | Remove the final period from all summaries at the operations object level in your API definition. |
+| One or more [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#operation-object) in your API definition has a summary that ends with a period (`.`). API documentation tools use the summary as a title, so don't end it with a period. | Remove the final period from all summaries at the operations object level in your API definition. |
 
 #### Resolution
 
@@ -1073,7 +1073,7 @@ paths:
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| One or more [parameter objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#parameter-object) in an [operations object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#operation-object) in your API definition don't contain a `description` field. When the API name and context don't provide enough information for your API's consumers, a description can provide them with useful information about the parameter. | Add a `description` field for each parameter object. |
+| One or more [parameter objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#parameter-object) in an [operations object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#operation-object) in your API definition don't have a `description` field. When the API name and context don't provide enough information for your API's consumers, a description can provide them with useful information about the parameter. | Add a `description` field for each parameter object. |
 
 #### Resolution
 
@@ -1096,7 +1096,7 @@ paths:
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| One or more POST [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#operationObject) in your API definition don't contain a request body. Even though the HTTP protocol allows POST requests without a body, this often hides a design problem. | Add a request body to any POST operation objects. |
+| One or more POST [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#operationObject) in your API definition don't have a request body. Even though the HTTP protocol allows POST requests without a body, this often hides a design problem. | Add a request body to any POST operation objects. |
 
 #### Resolution
 
@@ -1119,7 +1119,7 @@ paths:
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| One or more PUT [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#operationObject) in your API definition don't contain a request body. Since a PUT operation is often used to replace or create something, not having a request body might be an error. However, this use might make sense in some cases (for example, to link two resources with a PUT, like `/resource-ones/id1/other-resources/id2`). | Add a request body to any POST operation objects. |
+| One or more PUT [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#operationObject) in your API definition don't have a request body. Since a PUT operation is often used to replace or create something, not having a request body might be an error. However, this use might make sense in some cases (for example, to link two resources with a PUT, like `/resource-ones/id1/other-resources/id2`). | Add a request body to any POST operation objects. |
 
 #### Resolution
 
@@ -1142,7 +1142,7 @@ paths:
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| One or more PATCH [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#operationObject) in your API definition don't contain a request body. Since PATCH operations are used to make partial updates, a PATCH method needs to include a request body. | Add a request body to any PATCH operation objects. |
+| One or more PATCH [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#operationObject) in your API definition don't have a request body. Since PATCH operations are used to make partial updates, a PATCH method needs to include a request body. | Add a request body to any PATCH operation objects. |
 
 #### Resolution
 
@@ -1165,7 +1165,7 @@ paths:
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| A [schema object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#schemaObject) in one or more [body parameter objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#parameterObject) in your API definition don't contain an example. It's important to provide an example of the request body to help your API's consumers understand what data they'll receive. It may also help them to generate [mock servers](/docs/designing-and-developing-your-api/mocking-data/) or a [collection](/docs/getting-started/creating-the-first-collection/). | Add an `example` field to the schema of all body parameters. |
+| A [schema object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#schemaObject) in one or more [body parameter objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#parameterObject) in your API definition don't have an example. It's important to provide an example of the request body to help your API's consumers understand what data they'll receive. It may also help them to generate [mock servers](/docs/designing-and-developing-your-api/mocking-data/) or a [collection](/docs/getting-started/creating-the-first-collection/). | Add an `example` field to the schema of all body parameters. |
 
 #### Resolution
 
@@ -1190,7 +1190,7 @@ paths:
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| The [responses object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#responses-object) for one or more [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#operationObject) in your API definition doesn't contain a `2xx` class status code. Operations are expected to succeed and should return a `2xx` success HTTP status code. It's rare for an operation to return a different code, such as when a `3xx` redirect code should be used instead. | Make sure that all operations return a `2xx` success status code. |
+| The [responses object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#responses-object) for one or more [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#operationObject) in your API definition doesn't have a `2xx` class status code. Operations are expected to succeed and return a `2xx` success HTTP status code. It's rare for an operation to return a different code, such as a `3xx` redirect code, instead. | Make sure that all operations return a `2xx` success status code. |
 
 #### Resolution
 
@@ -1211,7 +1211,7 @@ paths:
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| The [responses object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#responses-object) for one or more [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#operationObject) in your API definition doesn't contain a `5xx` class status code. Since operations may fail unexpectedly, they should return a `5xx` server error HTTP status code. | Make sure that all operations return a `5xx` status code. |
+| The [responses object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#responses-object) for one or more [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#operationObject) in your API definition doesn't have a `5xx` class status code. Since operations may fail, they need to return a `5xx` server error HTTP status code. | Make sure that all operations return a `5xx` status code. |
 
 #### Resolution
 
@@ -1232,7 +1232,7 @@ paths:
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| One or more [response objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#response-object) in your API definition don't contain an example. It's important to provide an example of the response to help your API's consumers understand what data they'll receive. It may also help them to generate [mock servers](/docs/designing-and-developing-your-api/mocking-data/) or a [collection](/docs/getting-started/creating-the-first-collection/). | Add an `examples` field to all response objects. |
+| One or more [response objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#response-object) in your API definition don't have an example. It's important to provide an example of the response to help your API's consumers understand what data they'll receive. It may also help them to generate [mock servers](/docs/designing-and-developing-your-api/mocking-data/) or a [collection](/docs/getting-started/creating-the-first-collection/). | Add an `examples` field to all response objects. |
 
 #### Resolution
 
@@ -1281,7 +1281,7 @@ This rule category deals with how to model various data types.
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| A schema property in one or more [response objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#responseObject) or [body parameter objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#parameterObject) doesn't reference a reusable schema. A schema reference (`$ref`) that targets reusable schemas in `definitions` helps maintain design consistency and OpenAPI document and API documentation readability, and facilitates maintainability by avoiding duplication of models. | Consolidate all your responses and body parameter schemas into `definitions`. |
+| A schema property in one or more [response objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#responseObject) or [body parameter objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#parameterObject) doesn't reference a reusable schema. A schema reference (`$ref`) that targets reusable schemas in `definitions` supports design consistency and OpenAPI document and API documentation readability, and facilitates maintainability by avoiding duplication of models. | Consolidate all your responses and body parameter schemas into `definitions`. |
 
 #### Resolution
 
@@ -1312,7 +1312,7 @@ definitions:
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| One or more [schema objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#schemaObject) in the [definitions object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#definitions-object) don't contain a `description`. When the schema name and context don't provide enough information for your API's designers and consumers, a description can provide them with useful information about the reusable schema. | Add a `description` for every reusable schema in your API definition. |
+| One or more [schema objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#schemaObject) in the [definitions object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#definitions-object) don't have a `description`. When the schema name and context don't provide enough information for your API's designers and consumers, a description can provide them with useful information about the reusable schema. | Add a `description` for every reusable schema in your API definition. |
 
 #### Resolution
 
@@ -1331,7 +1331,7 @@ definitions:
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| One or more properties in a [schema object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#schemaObject) in your API definition don't contain a `description`. When the schema name and context don't provide enough information for your API's consumers, a description can provide them with useful information about the element. A complicated description may indicate a problem in the API's definition or design, so spending the time to create a description can be clarifying. | Add a `description` for every property in your schema object. |
+| One or more properties in a [schema object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#schemaObject) in your API definition don't have a `description`. When the schema name and context don't provide enough information for your API's consumers, a description can provide them with useful information about the element. A complicated description may indicate a problem in the API's definition or design, so spending the time to create a description can be clarifying. | Add a `description` for every property in your schema object. |
 
 #### Resolution
 
