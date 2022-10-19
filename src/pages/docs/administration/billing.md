@@ -223,9 +223,9 @@ Update the number of monitoring blocks, mock server blocks, and custom domains y
 
 ### Utilizing Auto-Flex
 
-[Auto-Flex](https://learning.postman.com/auto-flex-policy/) is a flexible billing feature available to Postman teams. With Auto-Flex enabled, your Team Admins can add users without having to pay in advance for more seats, then opt to retain or remove them before being [billed](#billing-for-auto-flex).
+[Auto-Flex](https://learning.postman.com/auto-flex-policy/) is a flexible billing feature available to Postman teams. With Auto-Flex enabled, your team can add users without having to pay in advance for more seats, then opt to retain or remove them before being [billed](#billing-for-auto-flex).
 
-Auto-Flex is automatically enabled for all [Postman Basic and Professional plans](https://www.postman.com/pricing).
+All [Postman Basic and Professional plans](https://www.postman.com/pricing) have Auto-Flex enabled automatically.
 
 #### Billing for Auto-Flex
 
@@ -235,7 +235,7 @@ Your Auto-Flex billing cycle is dependent on your team's plan:
 
 * Annual plans are charged for newly added users on a quarterly basis.
 
-At any time during your Auto-Flex billing cycle, [Team Admins](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can add users to your team regardless of available seats.
+At any time during your Auto-Flex billing cycle, your team can add users regardless of available seats.
 
 Before your Auto-Flex billing cycle renews, all Billing and Admin team members receive a notification about any new users you added during that time period.
 

@@ -123,7 +123,10 @@ You can manage your team size or upgrade your plan at any time during your team'
 
 ### Changing team size
 
-Team members with the Billing role can change your team's number of paid slots in the [billing dashboard](https://go.postman.co/billing/overview). Team Admins can invite more users without having to pay in advance for more seats with [Auto-Flex](/docs/administration/billing/#utilizing-auto-flex).
+If you want to change your team's size, you have two different options:
+
+* **Change the number of paid slots** - Team members with the Billing role can change your team's number of paid slots in the [billing dashboard](https://go.postman.co/billing/overview).
+* **Enable Auto-Flex** - Your team can invite more users without having to pay in advance for more seats with [Auto-Flex](/docs/administration/billing/#utilizing-auto-flex).
 
 For more information, see [Team and plan changes](/docs/administration/billing/#team-and-plan-changes).
 
