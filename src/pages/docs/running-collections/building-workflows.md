@@ -22,6 +22,11 @@ contextual_links:
   - type: link
     name: "3 Ways to Build Workflows in Postman"
     url: "https://blog.postman.com/3-ways-to-build-workflows-in-postman/"
+  - type: subtitle
+    name: "Case Studies"
+  - type: link
+    name: "WhatsApp"
+    url:  "https://www.postman.com/case-studies/whatsapp/"
 
 warning: false
 
