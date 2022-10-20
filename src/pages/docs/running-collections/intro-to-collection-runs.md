@@ -88,15 +88,21 @@ To configure a collection run:
 
 ## Running your collections
 
-When running collections manually, Postman displays your request executions and test results in real time. To access more data about what happened when a request executed, select its name from the list of results.
+When running collections manually, Postman displays a summary of your request executions and test results in real time.
 
-![Collection Runner results](https://assets.postman.com/postman-docs/v10/collection-runner-run-results.jpg)
+![Collection Runner results](https://assets.postman.com/postman-docs/v10/collection-run-results-summary-v10.jpg)
 
-To view more details, including any log statements used in your collection, select <img alt="Console icon" src="https://assets.postman.com/postman-docs/icon-console-v9.jpg#icon" width="16px"> __Console__ from the footer.
+To access more data about what happened when a request executed:
 
-To view details about the run, select __View Summary__. The summary also has a column for each iteration of your collection run so you can review test output for the whole run.
+1. Select **View Results**.
 
-To return to the overview of the run, select __View Results__.
+1. Select the request's name from the list of results.
+
+    ![Collection Runner results](https://assets.postman.com/postman-docs/v10/collection-runner-run-results-v10.jpg)
+
+1. To view more details, including any log statements used in your collection, select <img alt="Console icon" src="https://assets.postman.com/postman-docs/icon-console-v9.jpg#icon" width="16px"> __Console__ from the footer.
+
+1. To return to the summary of the run, select __View Results__.
 
 ### Viewing test results
 
