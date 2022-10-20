@@ -30,6 +30,8 @@ You can use Postman to identify any potential security and formatting issues whe
 
 For all APIs defined in OpenAPI 2.0, the following list describes possible warning messages and potential ways to resolve them.
 
+<!-- vale off -->
+
 * [Broken object level authorization](#broken-object-level-authorization)
     * [Scope for OAuth scheme used in security field is not defined in the securityDefinition declaration](#scope-for-oauth-scheme-used-in-security-field-is-not-defined-in-the-securitydefinition-declaration)
     * [Scope for OAuth scheme used is not defined in the securityDefinition declaration](#scope-for-oauth-scheme-used-is-not-defined-in-the-securitydefinition-declaration)
@@ -52,7 +54,7 @@ For all APIs defined in OpenAPI 2.0, the following list describes possible warni
     * [Operation accepts API key in plain text](#operation-accepts-api-key-in-plain-text)
     * [Operation accepts basic authentication credentials in plain text](#operation-accepts-basic-authentication-credentials-in-plain-text)
     * [Schemes of the operation have HTTP scheme defined](#schemes-of-the-operation-have-http-scheme-defined)
-    * [Authorization URL uses HTTP protocol. Credentials will be transferred as plain text](#authorization-url-uses-http-protocol-credentials-will-be-transferred-as-plain-text)
+    * [Authorization URL uses HTTP protocol; credentials will be transferred as plain text](#authorization-url-uses-http-protocol-credentials-will-be-transferred-as-plain-text)
     * [Token URL uses HTTP protocol](#token-url-uses-http-protocol)
     * [Produces field is not defined](#produces-field-is-not-defined)
     * [Produces field does not contain any item](#produces-field-does-not-contain-any-item)
@@ -94,9 +96,14 @@ For all APIs defined in OpenAPI 2.0, the following list describes possible warni
     * [A schema property should reference a reusable schema](#a-schema-property-should-reference-a-reusable-schema)
     * [All reusable schemas should have descriptions](#all-reusable-schemas-should-have-descriptions)
     * [All schema properties should have descriptions](#all-schema-properties-should-have-descriptions)
-    * [Arrays must have minItems and maxItems defined](#arrays-must-have-minitems-and-maxitems-defined)
+    * [Arrays must have `minItems` and `maxItems` defined](#arrays-must-have-minitems-and-maxitems-defined)
+
+<!-- vale on -->
 
 ## Broken object level authorization
+
+<!-- vale Postman.Uncertainty = NO -->
+<!-- vale Microsoft.Contractions = NO -->
 
 ### Scope for OAuth scheme used in security field is not defined in the securityDefinition declaration
 
@@ -559,7 +566,7 @@ paths:
 
 &nbsp;
 
-### Authorization URL uses HTTP protocol. Credentials will be transferred as plain text
+### Authorization URL uses HTTP protocol; credentials will be transferred as plain text
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
@@ -735,6 +742,8 @@ paths:
 &nbsp;
 
 ### Operation does not contain consumes field
+
+<!-- vale Microsoft.Contractions = YES -->
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
@@ -1353,7 +1362,7 @@ paths:
 
 &nbsp;
 
-### Arrays must have minItems and maxItems defined
+### Arrays must have `minItems` and `maxItems` defined
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
