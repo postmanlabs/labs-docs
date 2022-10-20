@@ -81,7 +81,7 @@ To begin, start the proxy inside Postman:
 1. Enter a port number. By default, it's set to port `5555`. Make a note of the port number you've used; you will use it later when configuring clients.
 1. Select **Enable Proxy**.
 
-The proxy is now running, but it will not capture traffic until you start a proxy debug session.
+The proxy is running, but it won't capture traffic until you start a proxy debug session.
 
 ### Step 2: Start the proxy debug session
 
@@ -92,7 +92,7 @@ After the proxy is running, you can start a proxy debug session. This is a time-
 1. Go to the **Via Proxy** tab of the **Capture requests** window.
 1. Select **Save Responses for Requests** to save each request's responses. They will be saved along with the captured requests.
 
-    > In responses with a `content-type` that contains images, audio, or video, the content is intercepted but not captured. The only information captured is response headers, time taken, and the status code.
+    > In responses with a `content-type` that has images, audio, or video, the content is intercepted but not captured. The only information captured is response headers, time taken, and the status code.
 
 1. Select **Capture Cookies** if you want to capture cookies in addition to requests during the debug session.
 
@@ -100,7 +100,7 @@ After the proxy is running, you can start a proxy debug session. This is a time-
 
 1. Requests will be saved in a debug session in the **History** tab in the sidebar. Select **Save requests to a collection** and select a collection from the list to also save the requests there.
 1. If you save requests and responses to a collection, they're added chronologically by default. You can alternately group them in folders organized by domain name or endpoints. Under **Organize requests by**, select **Domain name**, **Endpoints**, or both. Your requests and responses are then organized in folders in the selected collection.
-1. Under **Configure Incoming Requests**, there are additional options you can use to limit the requests and responses captured:
+1. Under **Configure Incoming Requests**, there are more options you can use to limit the requests and responses captured:
 
     * **URL must contain** - Only capture URLs containing the specified string or regular expression.
     * **URL cannot contain** - Don't capture URLs containing the specified string or regular expression.
@@ -109,7 +109,7 @@ After the proxy is running, you can start a proxy debug session. This is a time-
 
 1. Select **Start Capture**.
 
-The proxy debug session is now started, but it won't capture anything until a device is configured with the proxy.
+The proxy debug session is started, but it won't capture anything until a device is configured with the proxy.
 
 ### Step 3: Configure the proxy on a client device
 
@@ -144,11 +144,11 @@ The broader development community has published some useful tutorials for settin
 
 While your capture session is running, the **Proxy Debug Session** window will show captured traffic as you use the browser or apps on the client device.
 
-There are several controls you can use to limit, organize, and investigate traffic as it is captured:
+There are several controls you can use to limit, organize, and investigate traffic as it's captured:
 
 * Select the name **Proxy debug session** and enter another name to change the window name.
-* The **Configure incoming requests** controls at the top of the window enable you to limit captured traffic. Select items from **Methods**, **Status Codes**, **Resources**, and **URL** to limit the traffic. These controls are similar to the ones you set initially in Step 2 above, but they limit what is being captured, instead of what is going through the proxy.
-* Select or unselect **Save Responses for Requests** and **Capture Cookies** to choose whether to collect responses or cookies.
+* The **Configure incoming requests** controls at the top of the window enable you to limit captured traffic. Select items from **Methods**, **Status Codes**, **Resources**, and **URL** to limit the traffic. These controls are similar to the ones you set initially in Step 2 above, but they limit what's being captured, instead of what's going through the proxy.
+* Select or deselect **Save Responses for Requests** and **Capture Cookies** to choose whether to collect responses or cookies.
 * Select the **Requests** tab to get information about incoming requests and responses, or **Cookies** to get information about captured cookies.
 * Use the search box to find specific requests.
 * Select **>** next to a request to expand it for more details.

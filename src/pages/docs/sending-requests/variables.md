@@ -123,7 +123,7 @@ In order from broadest to narrowest, these scopes are: _global_, _collection_, _
 
 Beyond scope, global and environment variables can also be defined by type. The two variable types that you can configure for global and environment variables are:
 
-* **Default type** is automatically assigned to variables. This type is shown as plain text and has no additional properties.
+* **Default type** is automatically assigned to variables. This type is shown as plain text and doesn't have extra properties.
 * **Secret type** masks the [initial and current values](#specifying-variable-detail) for all workspace members and can be used to prevent unintentional disclosure of sensitive data, including API secrets, passwords, tokens, and keys.
 
 Users with [Editor](/docs/collaborating-in-postman/roles-and-permissions/) access on a workspace (for global variables) or environment (for environment variables) can opt to change these variables from default to secret type.
