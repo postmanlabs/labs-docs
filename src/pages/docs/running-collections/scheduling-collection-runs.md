@@ -16,10 +16,11 @@ Many Postman users run collections at specific times each day or week. For examp
 
 > You can also schedule collection runs using [monitors](/docs/running-collections/scheduling-collection-runs-monitors/). Monitors are typically used to schedule runs when you want to set up alerts like triggering on-call upon failure. Users typically choose the Collection Runner to schedule runs for all other use cases.
 
-When you schedule a collection run with the Collection Runner, the scheduled run is added to the collection's **Runs** tab. You can view, pause, edit, and delete scheduled collection runs from the collection's **Runs** tab. These scheduled runs execute in the Postman Cloud.
+When you schedule a collection run with the Collection Runner, the scheduled run is added to the collection's **Runs** tab. You can view, pause, edit, and delete scheduled collection runs from the collection's **Runs** tab.
 
-<img alt="Runs tab v10" src="https://assets.postman.com/postman-docs/v10/scheduled-runs-1-v10.jpg"/>
+<img alt="Runs tab v10" src="https://assets.postman.com/postman-docs/v10/scheduled-runs-3-v10.jpg"/>
 
+> * Scheduled runs execute in the Postman Cloud.
 > * Schedules share permissions with their collections. For example, if you have permissions to edit a collection, you'll you'll be able to edit that collection's schedules.
 > * Scheduled collection runs support [custom run orders](/docs/running-collections/building-workflows/).
 > * Only personal, private, and team workspaces support scheduling collection runs.
@@ -73,7 +74,7 @@ When you schedule a collection run with the Collection Runner, the scheduled run
 
 1. Select the **Runs** tab.
 
-    ![Scheduled runs tab v10](https://assets.postman.com/postman-docs/v10/scheduled-runs-tab-v10.jpg)
+    ![Scheduled runs tab v10](https://assets.postman.com/postman-docs/v10/scheduled-runs-tab-3-v10.jpg)
 
 1. Select the **Scheduled runs** tab.
 
@@ -89,11 +90,11 @@ When you schedule a collection run with the Collection Runner, the scheduled run
 
 1. Select the **Runs** tab.
 
-    ![Scheduled runs tab v10](https://assets.postman.com/postman-docs/v10/scheduled-runs-tab-v10.jpg)
+    ![Scheduled runs tab v10](https://assets.postman.com/postman-docs/v10/scheduled-runs-tab-3-v10.jpg)
 
 1. Select the **Scheduled runs** tab.
 
-1. Select **View** next to your scheduled run.
+1. Hover over your scheduled run and select **View**.
 
 1. Select the **Run** button.
 
@@ -103,11 +104,11 @@ When you schedule a collection run with the Collection Runner, the scheduled run
 
 1. Select the **Runs** tab.
 
-    ![Scheduled runs tab v10](https://assets.postman.com/postman-docs/v10/scheduled-runs-tab-v10.jpg)
+    ![Scheduled runs tab v10](https://assets.postman.com/postman-docs/v10/scheduled-runs-tab-3-v10.jpg)
 
 1. Select the **Scheduled runs** tab.
 
-1. Hover over the scheduled run you want to delete and select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px">.
+1. Hover over the scheduled run you want to pause or resume and select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px">.
 
 1. Select **Pause** or **Resume**. Paused runs appear under the **Paused** heading on the **Runs** tab.
 
@@ -117,7 +118,7 @@ When you schedule a collection run with the Collection Runner, the scheduled run
 
 1. Select the **Runs** tab.
 
-    ![Scheduled runs tab v10](https://assets.postman.com/postman-docs/v10/scheduled-runs-tab-v10.jpg)
+    ![Scheduled runs tab v10](https://assets.postman.com/postman-docs/v10/scheduled-runs-tab-3-v10.jpg)
 
 1. Select the **Scheduled runs** tab.
 
@@ -133,7 +134,7 @@ When you schedule a collection run with the Collection Runner, the scheduled run
 
 1. Select the **Runs** tab.
 
-    ![Scheduled runs tab v10](https://assets.postman.com/postman-docs/v10/scheduled-runs-tab-v10.jpg)
+    ![Scheduled runs tab v10](https://assets.postman.com/postman-docs/v10/scheduled-runs-tab-3-v10.jpg)
 
 1. Select the **Scheduled runs** tab.
 

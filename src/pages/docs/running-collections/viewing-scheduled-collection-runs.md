@@ -16,23 +16,15 @@ Many Postman users run collections at specific times each day or week. For examp
 
 ## Contents
 
-* [Viewing scheduled collection runs in Postman](#viewing-monitors-in-postman)
+* [Viewing scheduled collection runs in Postman](#viewing-scheduled-collection-runs-in-postman)
 
-    * [Monitor summary](#monitor-summary)
-
-    * [Individual requests](#individual-requests)
+    * [Scheduled collection run summary](#scheduled-collection-run-summary)
 
     * [Filters](#filters)
-
-        * [Filtering by request](#filtering-by-request)
 
         * [Filtering by type](#filtering-by-type)
 
         * [Filtering by run result](#filtering-by-run-result)
-
-        * [Filtering by region](#filtering-by-region)
-
-        * [Filtering by formula](#filtering-by-formula)
 
     * [Time traverse](#time-traverse)
 
@@ -40,19 +32,13 @@ Many Postman users run collections at specific times each day or week. For examp
 
     * [Console log](#console-log)
 
-    * [Activity log](#activity-log)
-
-    * [Monitor details](#monitor-details)
-
-* [Troubleshooting](#troubleshooting)
-
 ## Viewing scheduled collection runs in Postman
 
 You can view your scheduled collection runs in Postman by navigating to your workspace and selecting **Collections > Your collection > Runs > Scheduled runs**.
 
 <img src="https://assets.postman.com/postman-docs/v10/scheduled-runs-tab-2-v10.jpg" alt="View monitor in tab"/>
 
-Hover over your scheduled run and select **View** to see the scheduled collection run's latest results.
+Hover over your scheduled collection run and select **View** to see the run's latest results.
 
 <img src="https://assets.postman.com/postman-docs/view-monitor-in-tab3.jpg" alt="View monitor in tab"/>
 
