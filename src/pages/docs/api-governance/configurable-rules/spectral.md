@@ -22,7 +22,11 @@ Spectral checks that the APIs defined in OpenAPI documents conform to API design
 
 A Spectral rule targets a given location using a [JSON Path Plus expression](#json-path-and-json-path-plus), then tests the values it finds with a `function`. It returns an error if the values don't conform to the rule.
 
+<!-- vale Postman.Spelling = NO -->
+
 This example shows how to check that the name of an API doesn't contain the word "API," regardless of case (for instance, "api" or "Api").
+
+<!-- vale Postman.Spelling = YES -->
 
 ```json
 rules:
@@ -34,11 +38,15 @@ rules:
           notMatch: /\b(api)\b/i
 ```
 
+<!-- vale Postman.Spelling = NO -->
+
 First, the rule targets the `title` property of the `info` object located at the root (`$`) of the document with the [JSON Path Plus expression](#json-path-and-json-path-plus) `$.info.title`. In `then`, the `function` named `pattern` checks whether the value of the `title` property doesn't match (`functionOptions.notMatch`) the regular expression looking for the word "api" in any case (`/\b(api)\b/i`).
+
+<!-- vale Postman.Spelling = YES -->
 
 ### Rulesets in Spectral documents
 
-A Spectral document (often called a ruleset) contains a `rules` property that can have one or more rules.
+A Spectral document (often called a ruleset) has a `rules` property that can have one or more rules.
 
 ```json
 rules:
@@ -90,21 +98,33 @@ You will find each rule defined in `rules` in the **Custom Rules** section in th
 `formats` | The list of document formats to which the rule will be applied. The accepted values are: <br><ul><li>`oas2` - Targets OpenAPI (Swagger) documents</li><li>`oas3` - Targets OpenAPI 3.x documents (3.0 and 3.1)</li><li>`oas3_0` - Targets OpenAPI 3.0 documents</li><li>`oas3_1` - Targets OpenAPI 3.1 documents</li></ul><br> By default, a rule will target all versions 2 and 3.x (the default value is `[oas2,oas3]`).
 `given` | **Required**. This can be a list with at least one element or a single element. Each value is a [JSON Path Plus expression](#json-path-and-json-path-plus) that may return zero, one, or more elements.<br>If `given` paths don't find any value, the `then` controls won't execute.
 `then` | **Required**. This can be a list with at least one element or a single element. If the given [JSON Path Plus expressions](#json-path-and-json-path-plus) return values, the functions will be applied to all of them.
-`then.field` | This optional name can be used if the value returned by the `given` paths is an object to target a specific field inside it. This value can only be a name and can't hold a [JSON Path Plus expression](#json-path-and-json-path-plus). <br>The keyword `@key` can be used to check all keys of an object returned by the `given` paths.
+`then.field` | This optional name can be used if the value returned by the `given` paths is an object to target a specific field inside it. This value must be a name and can't hold a [JSON Path Plus expression](#json-path-and-json-path-plus). <br>The keyword `@key` can be used to check all keys of an object returned by the `given` paths.
 `then.function` | **Required**. The name of the function to use. You can use all Spectral core functions in Postman, but custom functions aren't supported. For more information, see the [Spectral documentation](https://github.com/stoplightio/spectral/blob/develop/docs/reference/functions.md).
 `then.functionOptions` | **May be required depending on the function**. The options of the function. You can use all Spectral core functions in Postman, but custom functions aren't supported. For more information, see the [Spectral documentation](https://github.com/stoplightio/spectral/blob/develop/docs/reference/functions.md).
 
+<!-- vale Microsoft.Headings = NO -->
+
 ## JSON Path and JSON Path Plus
+
+<!-- vale Microsoft.Headings = YES -->
 
 A JSON Path (or JSON Path Plus) expression aims to represent the path to some elements in a JSON or YAML document. For example, `$.info.title` represents the `title` property of the `info` object located at the document's root (`$`).
 
 Initially, JSON Path was created to be [XPath for JSON](https://goessner.net/articles/JsonPath/) and aimed to represent the path to some element in an XML document. [JSON Path Plus](https://jsonpath-plus.github.io/JSONPath/docs/ts/) is an extension of JSON Path. It adds more operators and makes some behaviors of the original specification explicit.
 
+<!-- vale Microsoft.Headings = NO -->
+
 ### Building and testing JSON Path Plus expressions
+
+<!-- vale Microsoft.Headings = YES -->
 
 You can use the official JSON Path Plus [documentation](https://jsonpath-plus.github.io/JSONPath/docs/ts/) to build and test your rules' given paths. [Syntax Through Examples](https://jsonpath-plus.github.io/JSONPath/docs/ts/#syntax-through-examples)) and the [JSON Path Plus demo](https://jsonpath-plus.github.io/JSONPath/demo/) are both useful.
 
+<!-- vale Microsoft.Headings = NO -->
+
 ### JSON Path Plus examples
+
+<!-- vale Microsoft.Headings = YES -->
 
 These examples show the typical JSON Path Plus features you'll need to create rules in Postman:
 
