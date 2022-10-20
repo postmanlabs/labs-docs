@@ -64,13 +64,13 @@ Cross-origin resource sharing (CORS) is a browser mechanism that enables control
 
 Issue description | Possible fix
 --- | ---
-`Access-Control-Allow-Credentials` is set as `true` and `Access-Control-Allow-Origin` is set as `null`. With this configuration, an attacker could send AJAX queries to a vulnerable website from a malicious page loaded by the victim’s user agent. Even if a website with unauthenticated sensitive content (for example, an intranet website) doesn’t allow authenticated AJAX requests, this misconfiguration still lets attackers access it. | If a web resource contains sensitive information, you need to specify the origin in the `Access-Control-Allow-Origin` header. You should only specify trusted websites that need this resource in this header, with the most secured protocol supported.
+`Access-Control-Allow-Credentials` is set as `true` and `Access-Control-Allow-Origin` is set as `null`. With this configuration, an attacker could send AJAX queries to a vulnerable website from a malicious page loaded by the victim’s user agent. Even if a website with unauthenticated sensitive content (for example, an intranet website) doesn’t allow authenticated AJAX requests, this misconfiguration still lets attackers access it. | If a web resource has sensitive information, you need to specify the origin in the `Access-Control-Allow-Origin` header. Specify trusted websites that need this resource in this header, with the most secured protocol supported.
 
 #### Allowlisted null origin value
 
 Issue description | Possible fix
 --- | ---
-If the `null` origin is allowlisted, an attacker can use various tricks to generate a cross-origin request that contains the value `null` in the [`Origin`](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Origin) header. This will satisfy the allowlist, leading to cross-domain access. | If a web resource contains sensitive information, you need to specify the origin in the `Access-Control-Allow-Origin` header. You should only specify trusted websites that need this resource in this header, with the most secured protocol supported.
+If the `null` origin is allowlisted, an attacker can use various tricks to generate a cross-origin request with the value `null` in the [`Origin`](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Origin) header. This will satisfy the allowlist, leading to cross-domain access. | If a web resource has sensitive information, you need to specify the origin in the `Access-Control-Allow-Origin` header. Specify trusted websites that need this resource in this header, with the most secured protocol supported.
 
 #### Allowed all origins using a wildcard value
 
@@ -84,7 +84,7 @@ If a website accepts a connection through HTTP and redirects to HTTPS, visitors 
 
 Issue description | Possible fix
 --- | ---
-The HTTP `Strict-Transport-Security` header is missing or isn’t configured correctly. This header informs browsers that the site should only be accessed using HTTPS and that any future attempts to access it using HTTP should automatically be converted to HTTPS. | Add the [`Strict-Transport-Security`](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Strict-Transport-Security) header so the browser can remember that the site should only be accessed using HTTPS. You should also define the `max-age` property in the header.
+The HTTP `Strict-Transport-Security` header is missing or isn’t configured correctly. This header informs browsers to access the site using HTTPS and that any future attempts to access it using HTTP will automatically be converted to HTTPS. | Add the [`Strict-Transport-Security`](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Strict-Transport-Security) header so the browser can remember to access the site using HTTPS, and define the `max-age` property in the header.
 
 ### Cache poisoning
 
@@ -92,7 +92,7 @@ The HTTP `Strict-Transport-Security` header is missing or isn’t configured cor
 
 Issue description | Possible fix
 --- | ---
-The `Cache-Control` header is missing or isn’t configured correctly. This allows the browser and proxies to cache content. This might be the intended behavior for static assets like CSS, JavaScript, or image files, but you should review the assets to ensure that sensitive content won’t be cached. | For secure content, make sure the `Cache-Control` header is set with `no-cache`, `no-store`, and `must-revalidate`. If an asset should be cached, consider setting the directives `public`, `max-age`, and `immutable`.
+The `Cache-Control` header is missing or isn’t configured correctly. This allows the browser and proxies to cache content. This might be the intended behavior for static assets like CSS, JavaScript, or image files, but you need to review the assets to ensure that sensitive content won’t be cached. | For secure content, make sure the `Cache-Control` header is set with `no-cache`, `no-store`, and `must-revalidate`. If an asset needs to be cached, consider setting the directives `public`, `max-age`, and `immutable`.
 
 ### Cross-site request forgery
 
@@ -140,13 +140,13 @@ The stack trace is exposed in the response body. This might reveal the structure
 
 Issue description | Possible fix
 --- | ---
-The response body looks like it contains sensitive information. An attacker could use this information to steal other users’ identities or perform fraudulent financial transactions. This also violates payment card industry (PCI) security standards and most organizational compliance policies. | Trim sensitive information from the response.
+The response body looks like it has sensitive information. An attacker could use this information to steal other users’ identities or perform fraudulent financial transactions. This also violates payment card industry (PCI) security standards and most organizational compliance policies. | Trim sensitive information from the response.
 
 ### Private IP exposure
 
 Issue description | Possible fix
 --- | ---
-The HTTP response body contains a private IP address (such as 10.x.x.x, 172.x.x.x, 192.168.x.x). An attacker could use this information to target internal systems. | Remove the private IP address from the HTTP response body. For comments, use JSP, ASP, or PHP comments instead of HTML or JavaScript comments, which can be seen by client browsers.
+There is a private IP address (such as `10.x.x.x`, `172.x.x.x`, `192.168.x.x`) in the HTTP response body. An attacker could use this information to target internal systems. | Remove the private IP address from the HTTP response body. For comments, use JSP, ASP, or PHP comments instead of HTML or JavaScript comments, which can be seen by client browsers.
 
 ### Information exposure in URL
 
@@ -156,13 +156,13 @@ If information is exposed in a URL, this can allow attackers to access sensitive
 
 Issue description | Possible fix
 --- | ---
-This request looks like it contains sensitive information in the URL. An attacker could exploit this sensitive information. | Avoid using sensitive information (like API keys, access tokens, auth credentials, usernames, and passwords) in URLs since they can be captured in web server logs. Use body and headers for this information.
+This request looks like it has sensitive information in the URL. An attacker could exploit this sensitive information. | Avoid using sensitive information (like API keys, access tokens, auth credentials, usernames, and passwords) in URLs since they can be captured in web server logs. Use body and headers for this information.
 
 #### Sensitive data exposure in URL
 
 Issue description | Possible fix
 --- | ---
-This request looks like it contains sensitive information in the URL. An attacker could exploit this sensitive information. | Avoid using sensitive information (like API keys, access tokens, auth credentials, usernames, and passwords) in URLs since they can be captured in web server logs. Use body and headers for this information.
+This request looks like it has sensitive information in the URL. An attacker could exploit this sensitive information. | Avoid using sensitive information (like API keys, access tokens, auth credentials, usernames, and passwords) in URLs since they can be captured in web server logs. Use body and headers for this information.
 
 ## Injection
 
@@ -196,7 +196,7 @@ By setting the `Secure` attribute, the browser will prevent the transmission of 
 
 Issue description | Possible fix
 --- | ---
-A cookie was set without the `Secure` flag. This could allow an attacker to access the cookie using an unencrypted connection. | If a cookie contains sensitive information or is a session token, ensure that it's passed using an encrypted channel and that the `Secure` flag is set.
+A cookie was set without the `Secure` flag. This could allow an attacker to access the cookie using an unencrypted connection. | If there is sensitive information in a cookie or the cookie is a session token, ensure that it's passed using an encrypted channel and that the `Secure` flag is set.
 
 ### Clickjacking
 
