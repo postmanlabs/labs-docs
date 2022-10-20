@@ -36,11 +36,11 @@ Many Postman users run collections at specific times each day or week. For examp
 
 You can view your scheduled collection runs in Postman by navigating to your workspace and selecting **Collections > Your collection > Runs > Scheduled runs**.
 
-<img src="https://assets.postman.com/postman-docs/v10/scheduled-runs-tab-2-v10.jpg" alt="View monitor in tab"/>
+<img src="https://assets.postman.com/postman-docs/v10/scheduled-runs-tab-3-v10.jpg" alt="View scheduled collection run in tab"/>
 
-Hover over your scheduled collection run and select **View** to see the run's latest results.
+Hover over your scheduled collection run and select **View**.
 
-<img src="https://assets.postman.com/postman-docs/view-monitor-in-tab3.jpg" alt="View monitor in tab"/>
+![Scheduled runs view results v10](https://assets.postman.com/postman-docs/v10/scr-hover-select-view-1-v10.jpg)
 
 > Scheduled collection runs in team workspaces are visible to all members of the workspace.
 
@@ -50,9 +50,9 @@ You can use the graph to understand how your APIs have performed over time. Each
 
 The upper section charts your scheduled collection run's average response time for each run, while the lower section visualizes the number of failed tests for each run across all regions. To view the exact values for failed percentage and response time, hover over each run individually.
 
-![Scheduled runs view results v10](https://assets.postman.com/postman-docs/v10/view-scheduled-run-results-v10.jpg)
+![Scheduled runs view results v10](https://assets.postman.com/postman-docs/v10/view-scheduled-run-results-1-v10.jpg)
 
-> A red bar indicates that either tests failed or errors occurred during the run. For more information, view your [Console Log](/docs/monitoring-your-api/viewing-monitor-results/#console-log).
+> A red bar indicates that either tests failed or errors occurred during the run. For more information, view your [Console Log](#console-log).
 
 ### Filters
 
@@ -89,7 +89,7 @@ You can review past run results to understand what happened at a particular poin
 
 Select a bar in the graph and select **Test Results** to get more detailed information on that run's tests, including which passed or failed, the response codes, and the response times.
 
-[![test results](https://assets.postman.com/postman-docs/v10/scr-view-test-results-v10.jpg)](https://assets.postman.com/postman-docs/monitor-view-test-results0.jpg)
+[![test results](https://assets.postman.com/postman-docs/v10/scr-view-test-results-v10.jpg)](https://assets.postman.com/postman-docs/scr-view-test-results-v10.jpg)
 
 ### Console log
 
