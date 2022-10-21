@@ -859,9 +859,13 @@ info:
 
 ### The info object should have a license URL
 
+<!-- vale Postman.Weasel = NO -->
+
 | Issue description | Possible fix |
 | ----------- | ----------- |
 | Your API definition's [license object](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#license-object) doesn't have a license URL, which provides a link to a web page that describes the license. Although a license URL isn't required, a license name alone may not be not enough information for your API's consumers, especially when you use a custom license. | Add a URL to your API definition's license object. |
+
+<!-- vale Postman.Weasel = YES -->
 
 #### Resolution
 
@@ -1105,7 +1109,7 @@ paths:
 
 | Issue description | Possible fix |
 | ----------- | ----------- |
-| One or more POST [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#operationObject) in your API definition don't have a request body. Even though the HTTP protocol allows POST requests without a body, this often hides a design problem. | Add a request body to any POST operation objects. |
+| One or more POST [operation objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#operationObject) in your API definition don't have a request body. Even though the HTTP protocol permits POST requests without a body, this often hides a design problem. | Add a request body to any POST operation objects. |
 
 #### Resolution
 
@@ -1288,9 +1292,13 @@ This rule category deals with how to model various data types.
 
 ### A schema property should reference a reusable schema
 
+<!-- vale Postman.ComplexWords = NO -->
+
 | Issue description | Possible fix |
 | ----------- | ----------- |
 | A schema property in one or more [response objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#responseObject) or [body parameter objects](https://github.com/OAI/OpenAPI-Specification/blob/main/versions/2.0.md#parameterObject) doesn't reference a reusable schema. A schema reference (`$ref`) that targets reusable schemas in `definitions` supports design consistency and OpenAPI document and API documentation readability, and facilitates maintainability by avoiding duplication of models. | Consolidate all your responses and body parameter schemas into `definitions`. |
+
+<!-- vale Postman.ComplexWords = YES -->
 
 #### Resolution
 

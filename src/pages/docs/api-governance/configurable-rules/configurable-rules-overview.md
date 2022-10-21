@@ -3,7 +3,7 @@ title: "Configurable rules overview"
 updated: 2022-09-15
 ---
 
-> [Configurable API Governance and API Security rules are only available to Postman Enterprise teams.](https://www.postman.com/pricing)
+> [Configurable API Governance and API Security rules are available to Postman Enterprise teams.](https://www.postman.com/pricing)
 
 You can choose and configure the API Governance and API Security rules that you want to enforce for your team.
 

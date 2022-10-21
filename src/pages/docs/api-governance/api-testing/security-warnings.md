@@ -156,7 +156,7 @@ Bad actors might provide invalid inputs to the API to get more information about
 
 Issue description | Possible fix
 --- | ---
-The stack trace is exposed in the response body. This might reveal the structure of the application and any internal components it relies on. It might also reveal information like server-side file names and SQL code that the application uses, which means an attacker could fine-tune a later injection attack. | Send the user a more generic error message that reveals less information. Either suppress the stack trace entirely, or log it only on the server.
+The stack trace is exposed in the response body. This might reveal the structure of the application and any internal components it relies on. It might also reveal information like server-side file names and SQL code that the application uses, which means an attacker could fine-tune a later injection attack. | Send the user a more generic error message that reveals less information. Either suppress the stack trace entirely, or log it specifically to the server.
 
 <!-- vale Postman.Weasel = YES -->
 
