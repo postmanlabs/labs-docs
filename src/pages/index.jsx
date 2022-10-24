@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOMServer from 'react-dom/server';
-import { OutboundLink } from 'gatsby-plugin-google-analytics';
+// import { OutboundLink } from 'gatsby-plugin-google-analytics';
 import { v4 as uuidv4 } from 'uuid';
 import styled from 'styled-components';
 import '../../styles/config/normalize.css';
@@ -10,7 +10,7 @@ import SEO from '../components/seo';
 import upcomingEvents from '../../bff-data/events.json';
 import { LandingCard } from '../components/MarketingPages/Cards';
 import '../../styles/config/_pm-icons.css';
-import { ButtonStyles, LinkStyles } from '../../styles/ButtonStyles';
+import { ButtonStyles } from '../../styles/ButtonStyles';
 import { BaseLink } from 'aether-marketing';
 
 const EventsWrapper = styled.div`
