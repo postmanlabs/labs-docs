@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOMServer from 'react-dom/server';
-// import { OutboundLink } from 'gatsby-plugin-google-analytics';
+import { OutboundLink } from 'gatsby-plugin-google-analytics';
 import { v4 as uuidv4 } from 'uuid';
 import styled from 'styled-components';
 import '../../styles/config/normalize.css';
@@ -11,9 +11,13 @@ import upcomingEvents from '../../bff-data/events.json';
 import { LandingCard } from '../components/MarketingPages/Cards';
 import '../../styles/config/_pm-icons.css';
 import { ButtonStyles } from '../../styles/ButtonStyles';
-import { BaseLink } from 'aether-marketing';
+import { BaseLink, BaseLinkStyles } from 'aether-marketing';
 
 const EventsWrapper = styled.div`
+a {
+  ${BaseLinkStyles.componentStyle.rules}
+}
+
 margin-bottom: 48px;
 @media (min-width: 992px) {
         padding-left: 48px;
@@ -122,13 +126,14 @@ function getEvents(sortedUpcomingEvents) {
               <p className="mb-1 event-location">{`${eventInformation}`}</p>
               <h4 className="event-title">{event.title}</h4>
               <p>{event.description}</p>
-              <BaseLink
+              <OutboundLink
+                className="event-link-wrapper"
                 href={event.link}
-                target="new-tab-external-company"
-                linkType="arrowLink"
+                target="_blank"
+                rel="noopener"
               >
-                See details
-              </BaseLink>
+                <span>See details →</span>
+              </OutboundLink>
             </div>
           </div>
         </EventsWrapper>
@@ -143,15 +148,14 @@ function getEvents(sortedUpcomingEvents) {
           <p>
             You are currently in develop mode. Dynamic events will not be displayed
             locally.
-            <LinkStyles
-              className="link-style"
+            <BaseLink
               style={{ fontSize: 'inherit' }}
               href="https://github.com/postmanlabs/postman-docs/blob/develop/CONTRIBUTING.md"
-              target="_blank"
-              rel="noopener"
+              target="same-tab"
+              linkType="arrowLink"
             >
               See Contributing doc for details
-            </LinkStyles>
+            </BaseLink>
             .
           </p>
         </EventsWrapper>
