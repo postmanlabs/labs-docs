@@ -106,7 +106,7 @@ To access more data about what happened when a request executed:
 
 ### Viewing test results
 
-If your collection has tests, the **View Results** page indicates whether each request passed or failed. You can also filter on each using the __Passed__ and __Failed__ tabs at the top. If any tests in a request script fail during the collection run, the whole request fails.
+If your collection has tests, the **View Results** page indicates whether each request passed, failed, or was skipped. You can also filter on each using the __Passed__, __Failed__, and __Skipped__ tabs at the top. If any tests in a request script fail during the collection run, the whole request fails.
 
 > If you select __Save responses__ when you start a collection run, Postman displays the responses in the run results.
 
