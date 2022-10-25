@@ -52,7 +52,7 @@ To publish an API version:
 1. To make this version available on the Private API Network, select **Add to Private API Network**. You can select a folder to place the API version in, or create a new folder.
 1. Select **Publish API**.
 
-    <img alt="Publishing an API version" src="https://assets.postman.com/postman-docs/v10/api-builder-publish-v10.jpg" width="442px" />
+    <img alt="Publishing an API version" src="https://assets.postman.com/postman-docs/v10/api-builder-publish-3-v10.jpg" width="442px" />
 
 ## Editing and deleting an API version
 
