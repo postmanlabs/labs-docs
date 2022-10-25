@@ -1,6 +1,6 @@
 ---
 title: "Customizing your Postman profile"
-updated: 2022-10-05
+updated: 2022-10-25
 contextual_links:
   - type: section
     name: "Additional Resources"
@@ -27,6 +27,7 @@ Your profile includes:
 * An **About Me** section
 * A **Highlights** section with pinned elements
 * An **Activity** feed with a chronological list of your public activities
+* All the public APIs, collections, and workspaces you've created, across all your teams
 
 <img alt="A Postman user's public profile" src="https://assets.postman.com/postman-docs/v10/public-profile-overview-v10.jpg" width="1000px"/>
 
