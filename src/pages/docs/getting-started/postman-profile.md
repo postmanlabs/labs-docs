@@ -79,7 +79,7 @@ If you have already created an [**About Me** section](#adding-an-about-me-sectio
 
 > Every element in your Highlights section must be publicly available.
 
-Your **Highlights** section lets you show off your work to other Postman users. If you don't choose any elements to pin to this section, Postman displays the most popular elements that you've worked on. <!-- TODO: what's the criteria for "popular"? -->
+Your **Highlights** section lets you show off your work to other Postman users. If you don't choose any elements to pin to this section, Postman displays the most popular elements that you've worked on.
 
 Update your **Highlights** section at any time in your [profile settings](https://go.postman.co/settings/me/):
 
