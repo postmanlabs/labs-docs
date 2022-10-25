@@ -41,11 +41,11 @@ You can select a data file to use in a [collection run](/docs/running-collection
 1. Select your collection and drag it into the **Run Order** work area.
 1. Select your data file with the __Select File__ button.
 
-    <img alt="Data File Select" src="https://assets.postman.com/postman-docs/select-data-file-v8.jpg" height="350px"/>
+    <img alt="Data File Select" src="https://assets.postman.com/postman-docs/v10/select-data-file-v10.jpg" height="350px"/>
 
 1. After you select your data file, you can select **Preview** to inspect the data in the file before you start the run.
 
-    ![Data File Preview](https://assets.postman.com/postman-docs/preview-data-file.jpg)
+    ![Data File Preview](https://assets.postman.com/postman-docs/v10/preview-data-file-1-v10.jpg)
 
 1. Select __Run using data files__ to begin the run with the values from the file. The Collection Runner runs the collection requests for each iteration in the data file. The output indicates the results for any tests you defined in your collection requests.
 
