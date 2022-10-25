@@ -4,7 +4,7 @@ updated: 2022-09-15
 search_keyword: "api governance, schema validation, api schema vulnerabilities"
 ---
 
-> [Configurable governance rules are available to Postman Enterprise teams.](https://www.postman.com/pricing) If you don't have an Enterprise account, you'll be able to see the API Governance page, but you won't be able to turn rules on or off or add new rules.
+> [Configurable governance rules are only available to Postman Enterprise teams.](https://www.postman.com/pricing) If you don't have an Enterprise account, you'll be able to see the API Governance page, but you won't be able to turn rules on or off or add new rules.
 
 You can customize the API Governance rules that Postman applies to your [API definitions](/docs/api-governance/api-definition/api-definition-warnings/). Adhering to these API Governance rules at the start of the API lifecycle keeps your API consistent without requiring extra work at later stages. This can prevent unnecessary delays for your organization.
 
@@ -32,7 +32,7 @@ In addition to the rules turned on by default in Postman, you can add other rule
 
 ### Importing rules from the Postman library
 
-> Team Admins with a [Developer role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can import API Governance rules from the Postman library.
+> Only Team Admins with a [Developer role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can import API Governance rules from the Postman library.
 
 Select **Import From Library**. To see more details about a particular rule, select the expand icon **>** next to the rule name. Select the rules in the library you want to add, then select **Import selected**. If you want to import all the rules, select **Import all**.
 
@@ -42,7 +42,7 @@ Once you import new rules from the library, you need to turn them on in the Gove
 
 ### Adding custom rules
 
-> Team Admins with a [Developer role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can create custom API Governance rules.
+> Only Team Admins with a [Developer role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can create custom API Governance rules.
 
 You can create new custom governance rules for Postman to evaluate your API's definition.
 
@@ -60,7 +60,7 @@ You can also select **Upload file(s)** to upload a new rule in valid YAML or JSO
 
 ## Turning configured rules on and off
 
-> Team Admins with a [Developer role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can turn configured API Governance rules on and off.
+> Only Team Admins with a [Developer role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can turn configured API Governance rules on and off.
 
 Your team can turn individual governance rules on or off to meet your development needs:
 

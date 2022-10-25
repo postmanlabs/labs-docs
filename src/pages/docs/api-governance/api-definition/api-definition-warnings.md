@@ -52,7 +52,7 @@ To learn more about how rule violations can help you create consistent and secur
 
 ## Tracking governance and security rule violations in CI/CD
 
-> [This feature is available for Postman Enterprise teams.](https://www.postman.com/pricing)
+> [This feature is only available for Postman Enterprise teams.](https://www.postman.com/pricing)
 
 You can configure your CI/CD pipelines to enforce the [API Governance](/docs/api-governance/configurable-rules/configuring-api-governance-rules/) and [API Security](/docs/api-governance/configurable-rules/configuring-api-security-rules/) rules configured for your team with the help of [Postman CLI](/docs/postman-cli/postman-cli-overview/).
 

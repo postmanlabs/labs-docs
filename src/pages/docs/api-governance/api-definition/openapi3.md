@@ -817,7 +817,7 @@ components:
 
 #### Resolution
 
-```jsonhave
+```json
 components:
   securitySchemes:
     OauthFlow:

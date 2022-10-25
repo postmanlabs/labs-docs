@@ -78,7 +78,7 @@ Issue description | Possible fix
 
 Issue description | Possible fix
 --- | ---
-If the `null` origin is allowlisted, an attacker can use various tricks to generate a cross-origin request with the value `null` in the [`Origin`](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Origin) header. This will satisfy the allowlist, leading to cross-domain access. | If a web resource has sensitive information, you need to specify the origin in the `Access-Control-Allow-Origin` header. Specify trusted websites that need this resource in this header, with the most secured protocol supported.
+If the `null` origin is allowlisted, an attacker can use various tricks to generate a cross-origin request with the value `null` in the [`Origin`](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Origin) header. This will satisfy the allowlist, leading to cross-domain access. | If a web resource has sensitive information, you need to specify the origin in the `Access-Control-Allow-Origin` header. You should only specify trusted websites that need this resource in this header, with the most secured protocol supported.
 
 #### Allowed all origins using a wildcard value
 
