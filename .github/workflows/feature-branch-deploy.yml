@@ -45,13 +45,13 @@ jobs:
           RELIC_PRODUCTION_APPLICATION_ID: ${{ secrets.RELIC_PRODUCTION_APPLICATION_ID }}
           PM_TECH_RT: ${{secrets.PM_TECH_RT}}
           SITE_URL: ${{secrets.SITE_URL_BETA}}
+          BRANCH: ${{ GITHUB_REF_NAME }}
         run: |
             npm config set //registry.npmjs.org/:_authToken=${{secrets.NPM_TOKEN}}
             npm install
             npm run clean
             npm run build:dev
-            echo ${{steps.extract_branch.outputs.branch}}
-            aws s3 sync ./public/ s3://${{secrets.BETA_BUCKET_NAME}}/${{ GITHUB_REF_NAME }}/ --delete
+            aws s3 sync ./public/ s3://${{secrets.BETA_BUCKET_NAME}}/${{ env.BRANCH }}/ --delete
         
       - name: invalidate the CDN
         uses: chetan/invalidate-cloudfront-action@v2
