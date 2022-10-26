@@ -10,17 +10,10 @@ contextual_links:
     name: "Download and Install"
     url: "https://www.postman.com/downloads/"
   - type: section
-    name: "Additional Resources"
-  - type: subtitle
-    name: "Videos"
-  - type: link
-    name: "Public Profiles | Postman Level Up"
-    url:  "https://youtu.be/w-EgqQ8Anvw"
-  - type: section
     name: "Next Steps"
   - type: link
-    name: "Syncing your work"
-    url: "/docs/getting-started/syncing/"
+    name: "Customizing your Postman profile"
+    url: "/docs/getting-started/postman-profile/"
 
 warning: false
 
@@ -36,7 +29,10 @@ Signing up for a Postman account is optional, and you can use the Postman deskto
 
 * [Signing up for a Postman account](#signing-up-for-a-postman-account)
 * [Signing into Postman](#signing-into-postman)
-* [Updating your account and profile settings](#updating-your-account-and-profile-settings)
+* [Updating your account settings](#updating-your-account-settings)
+    * [Changing your email address](#changing-your-email-address)
+    * [Resetting your password](#resetting-your-password)
+    * [Deleting your account](#deleting-your-account)
 * [Updating your notification preferences](#updating-your-notification-preferences)
 * [Managing your active sessions](#managing-your-active-sessions)
 * [Upgrading your account](#upgrading-your-account)
@@ -54,9 +50,7 @@ Postman prompts you to sign in or sign up. Select __Create Account__. You can si
 
 When you sign up for a Postman account, you'll be prompted to provide some information about yourself, including your name and role, to help customize your Postman experience. Enter your details and select __Continue__.
 
-Your new Postman profile will be visible to collaborators and anyone viewing resources you share or publish.
-
-> You can [update your account and profile settings](#updating-your-account-and-profile-settings) at any time.
+Your new Postman profile will be visible to collaborators and anyone viewing resources you share or publish. To learn more about your Postman profile and how to customize it, see [Customizing your Postman profile](/docs/getting-started/postman-profile/).
 
 ### Creating or joining a team
 
@@ -89,21 +83,17 @@ If you're a member of multiple Postman teams with varying authentication methods
 
 You can sign in to multiple accounts at the same time in Postman. Select your avatar in the top right to switch between accounts or select __+ Add Account__ to sign in with another one.
 
-## Updating your account and profile settings
-
-You can manage your account and profile settings on your [account settings](https://go.postman.co/settings/me/) page. Account settings include your email address and password, and profile settings include your username, bio, and profile photo.
-
-### Updating your account settings
+## Updating your account settings
 
 You can manage account settings including your email address, password, and workspace data on your [account settings](https://go.postman.co/settings/me/account/) page.
 
-#### Changing your email address
+### Changing your email address
 
 If you're on a Professional, Basic, or Free plan, you can change the email address associated with your Postman account. Open your [account settings](https://go.postman.co/settings/me/account/) page. Select your avatar in the upper-right corner > **Settings** > **Account**. Edit your email address and select **Update Email** to save changes.
 
 If you're on an Enterprise plan, you must contact your Team Admins to update the email address associated with your Postman account.
 
-#### Resetting your password
+### Resetting your password
 
 If you're on a Professional, Basic, or Free plan, you can reset your password if you're already signed in by navigating to your [account settings](https://go.postman.co/settings/me/account/) page. Select your avatar in the upper-right corner > **Settings** > **Account**. Select **Edit Password**.
 
@@ -113,7 +103,7 @@ If you aren't signed in to your Postman account, you can recover your username o
 
 If you're on an Enterprise plan, you must contact your Team Admins to update the password associated with your Postman account.
 
-#### Deleting your account
+### Deleting your account
 
 Deleting your account is an irreversible operation. Any data synced to your account will be deleted and no longer be accessible.
 
@@ -123,27 +113,15 @@ If you're a member of an Enterprise team with [SCIM](/docs/administration/scim-p
 
 Once you're no longer a member of any Postman team, you can permanently delete your Postman account in your [account settings](https://go.postman.co/settings/me/account/). Select your avatar in the upper-right corner > **Settings** > **Account**. Select **Delete Account**. Before deleting your account, Postman will prompt you to sign in again to confirm that you own the account.
 
-### Updating your profile
-
-You can update your Postman profile and add more details about you on your [profile settings](https://go.postman.co/settings/me/) page.
-
-#### Updating your username
-
-You can update your username at any time by navigating to your [profile settings](https://go.postman.co/settings/me/). Select your avatar in the upper-right corner > **Settings**. Edit your username and select **Update Profile** to save changes.
-
-#### Making your profile public
-
-Your Postman profile is visible to your Postman team, and you can choose to make your profile public to the Postman community. You can turn your public profile on or off at any time in your [profile settings](https://go.postman.co/settings/me/). Select your avatar in the upper-right corner > **Settings** > **Profile**. Select **Make profile public**, then select **Update Profile** to save your changes.
-
 ## Updating your notification preferences
 
-You can update your [notification preferences](https://go.postman.co/settings/me/notifications/) by selecting your avatar in the upper-right corner > **Notification Preferences**.
+You can update your [notification preferences](https://go.postman.co/settings/me/notifications/) by selecting your avatar in the upper-right corner > **Settings** > **Notifications**.
 
 You can opt in to or out of email or in-app notifications about security, usage, monitors, and comments by selecting or de-selecting the boxes next to each item. Select **Update Preferences** to save changes.
 
 In addition to email and in-app notifications, you can also send many notifications to Slack using the [Slack integration](/docs/integrations/available-integrations/slack/). After you add the Slack integration, you can select notification events in the **On Slack** column. These notifications are sent to Slack by the integration.
 
-<img alt="Update notification preferences" src="https://assets.postman.com/postman-docs/notification-preferences-v9-4.jpg">
+<img alt="Update notification preferences" src="https://assets.postman.com/postman-docs/v10/notification-preferences-v10.jpg">
 
 ## Managing your active sessions
 

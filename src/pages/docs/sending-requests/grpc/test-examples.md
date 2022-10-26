@@ -14,6 +14,9 @@ contextual_links:
   - type: link
     name: "Test gRPC APIs | Postman Level Up"
     url: "https://youtu.be/35OzMtDBvUw"
+  - type: link
+    name: "Working with gRPC | The Exploratory"
+    url: "https://youtu.be/RbHOs2xchGE"
   - type: subtitle
     name: "Blog Posts"
   - type: link

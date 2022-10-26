@@ -10,6 +10,11 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Publish an API Version"
+    url: "https://youtu.be/DirFZZ7_wRI"
+  - type: subtitle
     name: "Next Steps"
   - type: link
     name: "Managing and sharing APIs"

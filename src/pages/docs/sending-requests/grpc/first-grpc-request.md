@@ -9,6 +9,9 @@ contextual_links:
   - type: link
     name: "gRPC Requests | Postman Level Up"
     url: "https://youtu.be/gfYGqMb81GQ"
+  - type: link
+    name: "Working with gRPC | The Exploratory"
+    url: "https://youtu.be/RbHOs2xchGE"
   - type: subtitle
     name: "Public Workspaces"
   - type: link
@@ -28,7 +31,7 @@ To get started with gRPC, create a request and invoke it using an echo endpoint.
 
 APIs provide a structured way for one application to access the capabilities of another application. Typically, this communication happens over the internet by way of an API server. A client application (like a mobile app) sends a request to the server, and after the request processes, the server returns a response to the client.
 
-A gRPC request consists of the server URL where the service is hosted, the method to be invoked on the server, and a request payload that contains the message and required information on how the request will be executed. Since gRPC is a schema-driven framework, the request also needs to have a service definition (schema) reference that contains information on the services, methods, message fields, and data types supported by the server. The client must follow the service definition in order to avoid errors.
+A gRPC request consists of the server URL where the service is hosted, the method to be invoked on the server, and a request payload that has the message and required information on how the request will be executed. Since gRPC is a schema-driven framework, the request also needs to have a service definition (schema) reference that has information on the services, methods, message fields, and data types supported by the server. The client must follow the service definition in order to avoid errors.
 
 gRPC supports four types of methods that allow the client and server to interact in different ways as per the required use case:
 

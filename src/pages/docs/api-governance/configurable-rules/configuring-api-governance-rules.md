@@ -6,7 +6,7 @@ search_keyword: "api governance, schema validation, api schema vulnerabilities"
 
 > [Configurable governance rules are only available to Postman Enterprise teams.](https://www.postman.com/pricing) If you don't have an Enterprise account, you'll be able to see the API Governance page, but you won't be able to turn rules on or off or add new rules.
 
-You can customize the API Governance rules that Postman applies to your [API definitions](/docs/api-governance/api-definition/api-definition-warnings/). Adhering to these API Governance rules early in the API lifecycle keeps your API consistent without requiring additional work at later stages, which can prevent unnecessary delays for your organization.
+You can customize the API Governance rules that Postman applies to your [API definitions](/docs/api-governance/api-definition/api-definition-warnings/). Adhering to these API Governance rules at the start of the API lifecycle keeps your API consistent without requiring extra work at later stages. This can prevent unnecessary delays for your organization.
 
 <img alt="API Governance configuration page" src="https://assets.postman.com/postman-docs/v10/api-governance-configuration-home-v10.jpg" width="900px"/>
 

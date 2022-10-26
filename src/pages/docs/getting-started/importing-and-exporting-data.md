@@ -21,6 +21,9 @@ contextual_links:
   - type: subtitle
     name: "Blog Posts"
   - type: link
+    name: "Postman Essentials: Exploring the Collection Format"
+    url: "https://blog.postman.com/postman-essentials-exploring-the-collection-format/"
+  - type: link
     name: "Latest Updates to Syncing Your Specs with Collections"
     url: "https://blog.postman.com/latest-updates-to-syncing-your-specs-with-collections/"
   - type: link
