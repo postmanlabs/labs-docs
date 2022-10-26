@@ -42,6 +42,7 @@ You can select a data file to use in a [collection run](/docs/running-collection
 1. Select your data file with the __Select File__ button.
 
     <img alt="Data File Select" src="https://assets.postman.com/postman-docs/v10/select-data-file-v10.jpg" height="350px"/>
+    <!-- Note this image will likely need updating when scheduled collection runs ships -->
 
 1. After you select your data file, you can select **Preview** to inspect the data in the file before you start the run.
 
