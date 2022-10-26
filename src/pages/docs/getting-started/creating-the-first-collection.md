@@ -45,9 +45,7 @@ Postman Collections are a group of saved requests. Every request you send in Pos
 
 ## Creating your first collection
 
-To create a new collection, you can start by creating a new request first:
-
-You can create a new request from the sidebar in Postman.
+To create a new collection, you can start by creating a new request first. You can create a new request from the sidebar in Postman.
 
 1. Select __New__ &gt; __HTTP Request__.
 
