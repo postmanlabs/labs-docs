@@ -56,8 +56,6 @@ Once Interceptor is running in Chrome, you can start a debug session, which is a
 
 > You can't use Interceptor with the [Postman web app](/docs/getting-started/installation-and-updates/#web-limitations). Make sure you've installed the [Postman desktop app](/docs/getting-started/installation-and-updates/).
 
-To get started, install Postman Interceptor:
-
 1. [Download](https://go.pstmn.io/interceptor-download) Interceptor in the Chrome Web Store. If you already have the extension, ensure it's version v0.2.26 or later.
 1. Select <img alt="Capture icon" src="https://assets.postman.com/postman-docs/icon-capture.jpg#icon" width="15px"> **Capture requests** in the Postman footer.
 1. On the **Capture requests** window, select the **Via Interceptor** tab.
@@ -251,8 +249,6 @@ For the Interceptor extension, first enable **Developer mode** in [Chrome extens
 
 ## Updating Interceptor
 
-To update Interceptor:
-
 1. View your existing Chrome extensions by selecting the menu icon at the top right of the Chrome app > **More Tools** > **Extensions.**
 
 2. Select to turn on developer mode in the top-right corner.
@@ -269,7 +265,7 @@ You can filter requests according to the URL by selecting the Interceptor icon i
 
 You can use Interceptor to create a Postman Collection for a web app or to debug your APIs. You can also use the Postman Chrome app in tandem with Interceptor to make and capture requests.
 
-To use Interceptor with Postman Chrome:
+To use Interceptor with Postman Chrome, do the following:
 
 1. [Install Postman](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop?) from the Chrome Web Store.
 2. Install [Interceptor](https://chrome.google.com/webstore/detail/postman-interceptor/aicmkgpgakddgnaphhhpliifpcfhicfo/) from the Chrome Web Store.

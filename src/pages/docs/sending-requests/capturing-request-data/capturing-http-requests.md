@@ -70,7 +70,7 @@ In the steps below, you will use the Postman app's proxy to inspect HTTP communi
 
 > You can't use the Postman proxy with the [Postman web app](/docs/getting-started/installation-and-updates/#web-limitations). Make sure you've installed the [Postman desktop app](/docs/getting-started/installation-and-updates/).
 
-To begin, start the proxy inside Postman:
+To start the proxy inside Postman, do the following:
 
 1. Select <img alt="Capture icon" src="https://assets.postman.com/postman-docs/icon-capture.jpg#icon" width="15px"> **Capture requests** in the Postman footer.
 1. In the **Capture requests** window, select the **Via Proxy** tab.
