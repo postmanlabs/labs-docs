@@ -29,7 +29,7 @@ jobs:
           
       - name: Extract branch name
         shell: bash
-        run: echo "{branch}={${GITHUB_REF#refs/heads/}}" >> $GITHUB_OUTPUT
+        run: echo "{branch}={$(echo ${GITHUB_REF_NAME})}" >> $GITHUB_OUTPUT
         id: extract_branch
           
       - name: set keys and deploy
@@ -55,7 +55,7 @@ jobs:
             npm install
             npm run clean
             npm run build:dev
-            aws s3 sync ./public/ s3://${{secrets.BETA_BUCKET_NAME}}/${{ env.branch }}/ --delete
+            aws s3 sync ./public/ s3://${{secrets.BETA_BUCKET_NAME}}/${{env.branch}}/ --delete
         
       - name: invalidate the CDN
         uses: chetan/invalidate-cloudfront-action@v2
