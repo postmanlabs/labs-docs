@@ -36,8 +36,6 @@ Partner Workspaces enable you to collaborate with external partners directly in 
 
 ## Creating a Partner Workspace
 
-To create a Partner Workspace:
-
 1. Select **Workspaces** from the header, then select **Create Workspace**.
 
     <img alt="Workspace menu" src="https://assets.postman.com/postman-docs/workspace-switcher-v9.19.jpg" width="300px"/>
@@ -52,7 +50,7 @@ Anyone with permissions to create workspaces can request to create a Partner Wor
 
 <img alt="Create Partner Workspace approval" src="https://assets.postman.com/postman-docs/v10/partner-workspaces-visibility-request-v10.jpg" width="450px" />
 
-To convert an existing workspace to a Partner Workspace:
+To convert an existing workspace to a Partner Workspace, do the following:
 
 1. Open the workspace. In the **Overview** tab, select **Workspace Settings** in the upper right.
 1. Under **Visibility**, select **Partner**.
@@ -68,7 +66,7 @@ Before sharing a Partner Workspace with external collaborators, you can set your
 
 ### Moving elements to a Partner Workspace
 
-You must be an Editor on an API, collection, or environment, the Workspace Admin, Partner Manager, or a Super Admin to move an element to a Partner Workspace. To move an element:
+You must be an Editor on an API, collection, or environment, the Workspace Admin, Partner Manager, or a Super Admin to move an element to a Partner Workspace.
 
 1. In the sidebar, select the element you want to move. Then select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> > **Move**.
 
@@ -90,7 +88,7 @@ Workspace Admins, Partner Managers, and Partner Leads can invite partners to Par
 
 > For more information on partner roles, see [Partner roles](/docs/collaborating-in-postman/roles-and-permissions/#partner-roles).
 
-To invite partners to a Partner Workspace:
+To invite partners to a Partner Workspace, do the following:
 
 1. Open the workspace and select **Invite** in the upper-right corner.
 1. (Workspace Admins and Partner Managers only) Select **Partners**, then **Continue**.
@@ -105,7 +103,7 @@ Partner invites must be accepted by the email ID you provide when inviting the i
 
 Workspace Admins and Partner Managers can invite team members to Partner Workspaces.
 
-To invite team members to a Partner Workspace:
+To invite team members to a Partner Workspace, do the following:
 
 1. Open the workspace and select **Invite** in the upper-right corner.
 1. Select **Team members**, then **Continue**.
@@ -168,7 +166,7 @@ Workspace Admins and Partner Managers can edit Partner Workspace details. On the
 
 You must be an Editor on an API, collection, or environment, the Workspace Admin, Partner Manager, or a Super Admin to remove an element from a Partner Workspace.
 
-To remove an element by moving it to another workspace:
+To remove an element by moving it to another workspace, do the following:
 
 1. In the sidebar, select the element you want to move, then select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> > **Move**.
 
@@ -184,7 +182,7 @@ It's not recommended, but you can choose to delete an element entirely. To do so
 
 ## Deleting a Partner Workspace
 
-Workspace Admins and Partner Managers can delete Partner Workspaces. To delete a Partner Workspace:
+Workspace Admins and Partner Managers can delete Partner Workspaces.
 
 1. On the workspace's **Overview** tab, select **Workspace Settings**.
 1. [Change the visibility of the workspace](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#changing-workspace-visibility) to **Private**.

@@ -67,7 +67,7 @@ A _fork_ is a new instance of an element that you can change without making any 
 
 When you fork a Postman Collection, environment, or flow, you create a copy of it in a different workspace. You must sign in to Postman to create a fork.
 
-To fork an element:
+To fork an element, do the following:
 
 1. Select the element in the sidebar.
 2. In the overview tab that appears, select **Fork** <img alt="Fork icon" src="https://assets.postman.com/postman-docs/icon-fork.jpg#icon" width="14px"> in the upper right.
@@ -89,13 +89,13 @@ If there are any [mocks](/docs/designing-and-developing-your-api/mocking-data/se
 
 Fork information shows details about forks and the users who have created them. You will be able to identify the users who are actively consuming and contributing to your APIs.
 
-To access the list of users who have forked a collection, environment, or flow:
+To access the list of users who have forked a collection, environment, or flow, do the following:
 
 1. Select the number next to the fork icon <img alt="Fork icon" src="https://assets.postman.com/postman-docs/icon-fork.jpg#icon" width="14px"> to reveal the list of users who have active forks.
 
     <img alt="View the fork information count" src="https://assets.postman.com/postman-docs/fork-information-count-v9.12.jpg" width="400px"/>
 
-To access the list of forks for a collection, environment, or flow:
+To access the list of forks for a collection, environment, or flow, do the following:
 
 1. Select the fork icon <img alt="Fork icon" src="https://assets.postman.com/postman-docs/icon-fork.jpg#icon" width="14px"> in the context bar.
 1. Select the fork name under **Forks**.
@@ -109,8 +109,6 @@ To access the list of forks for a collection, environment, or flow:
 > The pull request process isn't available for flows.
 
 When you have made the changes that you want to a forked collection or environment, you can create a _pull request_. Creating a pull request means that you want to merge the changes you made in the forked element (the _source_) into the parent element (the _destination_). As part of the pull request process, you will request that reviewers look at your changes. Reviewers can make comments on your changes and will decide whether to approve them and merge them into the parent element.
-
-To create a pull request:
 
 1. Hover over the element in the sidebar.
 1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to its name.
@@ -181,7 +179,7 @@ There are two different types of checks that you can enable for a pull request:
 * **Approved once** - You need at least one approval to merge the pull request.
 * **Approved by a collection editor** - You need the approval of a user who has [Editor access for the collection](/docs/collaborating-in-postman/roles-and-permissions/#collection-roles) to merge the pull request.
 
-To set merge checks for pull requests on a specific collection:
+To set merge checks for pull requests on a specific collection, do the following:
 
 1. Hover over the collection in the sidebar.
 1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to its name.
@@ -202,8 +200,6 @@ For information about the pull request's merge conditions, select **View Merge C
 
 The watch option enables you to receive an in-app notification when a team member modifies the pull request. If you watch a pull request, you will get notifications about actions such as adding a new comment, approving or removing approval, merging, and editing or declining a pull request.
 
-To watch a pull request:
-
 1. Select **Watch**.
 
 <img alt="Watch a pull request" src="https://assets.postman.com/postman-docs/watching-a-pull-request-v9.12.jpg" width="300px"/>
@@ -215,7 +211,7 @@ To change your watching notification settings:
 
 <img alt="Conditions for watch notifications" src="https://assets.postman.com/postman-docs/watching-conditions-notifications-v9.jpg" width="350px"/>
 
-To view notifications for a watched pull request:
+To view notifications for a watched pull request, do the following:
 
 1. Select the notifications icon <img alt="Notifications icon" src="https://assets.postman.com/postman-docs/icon-notification-bell-v9.jpg#icon" width="18px"> in the Postman header. The popup indicates further information about the changes  to the pull request.
 
@@ -225,7 +221,7 @@ To view notifications for a watched pull request:
 
 If you're tagged as a reviewer on a pull request, you can view the changes, comment, approve or decline the request, and merge the forked collection or environment into the parent element.
 
-To access the list of pull requests:
+To access the list of pull requests, do the following:
 
 1. Go to the element and select the pull requests icon <img alt="Pull request icon" src="https://assets.postman.com/postman-docs/icon-pull-request.jpg#icon" width="16px"> in the context bar.
 
@@ -237,8 +233,6 @@ Each item shows the pull request's status, which will be `OPEN` for any that hav
 
 When you review a pull request, it's important to understand the changes that the pull request will introduce into the parent collection or environment. The difference between the fork and the parent element is called the _diff_.
 
-To view the diff:
-
 1. In the pull request, view the diff under the **Changes** heading.
 
 <img alt="View diff when reviewing pull request" src="https://assets.postman.com/postman-docs/pull-request-review-view-diff-v9.12.jpg" width="450px"/>
@@ -249,7 +243,7 @@ The diff will tell you whether a change is an addition, a deletion, or a modific
 
 Adding comments as a reviewer is an important part of the pull request process, facilitating meaningful conversations and allowing stakeholders to have a voice in the process.
 
-To add a comment to a pull request:
+To add a comment to a pull request, do the following:
 
 1. Select the comment icon <img alt="Comments icon" src="https://assets.postman.com/postman-docs/icon-comments-v9.jpg#icon" width="18px"> next to the change that you want to comment on.
 1. Once you've written your comment, select **Add Comment**.
@@ -264,13 +258,13 @@ You can edit a pull request's details before approving it, or you can decline it
 
 <img alt="Refresh, edit, or decline a pull request" src="https://assets.postman.com/postman-docs/refresh-edit-decline-pull-request.jpg" width="350px"/>
 
-To edit the pull request details:
+To edit the pull request details, do the following:
 
 1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> at the upper right and select **Edit**.
 1. Make any changes to the pull request's title, description, and list of reviewers.
 1. Select **Save Changes**.
 
-If you don't want to merge the pull request into the parent element, you can decline it. You can't reopen a pull request that you have declined, so if you want to request edits or offer feedback, [add a comment](#adding-comments) instead. To decline the pull request:
+If you don't want to merge the pull request into the parent element, you can decline it. You can't reopen a pull request that you have declined, so if you want to request edits or offer feedback, [add a comment](#adding-comments) instead. To decline the pull request, do the following:
 
 1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> at the upper right and select **Decline**.
 1. Select **Decline Pull Request**.
@@ -325,7 +319,7 @@ After the requested reviewer approves a pull request, you can merge it into the 
 
 If you have Editor access on the element, you can merge a fork into the parent element without going through the [pull request process](#creating-pull-requests). For example, if you’re using forks in a personal workspace to organize your work, you can merge changes in a fork directly back into the parent element. If you are collaborating with others, though, merging directly lacks the safeguards built into the pull request process. Many teams require pull requests as part of their version control workflow.
 
-To merge changes from a fork without opening a pull request:
+To merge changes from a fork without opening a pull request, do the following:
 
 1. Hover over the fork in the sidebar.
 1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to its name.
@@ -343,7 +337,7 @@ A merge conflict happens when you try to merge changes into an updated parent el
 
 > Merge conflicts can involve changes in more than one workspace.
 
-To resolve a merge conflict:
+To resolve a merge conflict, do the following:
 
 1. Look at the differences between the two entities. The **Source** line shows the changes on your fork, and the **Destination** line shows the changes on the parent element.
 1. Select **Use this** next to the version you want to include when you merge.
