@@ -5,9 +5,10 @@ permissions:
   contents: read
 
 on:
+  workflow_dispatch:
   push:
-    branches:
-    - 'develop'
+      branches:
+      - 'develop'
 
 jobs:
   build:
@@ -42,7 +43,7 @@ jobs:
           npm install
           npm run clean
           npm run build:dev
-          aws s3 sync ./public/ s3://${{secrets.BETA_BUCKET_NAME}}/labs --delete
+          aws s3 sync ./public/ s3://${{secrets.BETA_BUCKET_NAME}}/${{ github.ref_name }}/labs --delete
       
       - name: invalidate
         uses: chetan/invalidate-cloudfront-action@v2
