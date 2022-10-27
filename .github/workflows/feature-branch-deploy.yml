@@ -27,11 +27,6 @@ jobs:
           aws-access-key-id: ${{ secrets.BETA_AWS_ACCESS_KEY_ID }}
           aws-secret-access-key: ${{ secrets.BETA_AWS_SECRET_ACCESS_KEY }}
           
-      - name: Extract branch name
-        shell: bash
-        run: echo "##[set-output name=branch;]$(echo ${GITHUB_REF#refs/heads/})"
-        id: extract_branch
-          
       - name: set keys and deploy
         env:
           AWS_MAX_ATTEMPTS: 10
@@ -55,7 +50,7 @@ jobs:
             npm install
             npm run clean
             npm run build:dev
-            aws s3 sync ./public/ s3://${{secrets.BETA_BUCKET_NAME}}/${{ steps.extract_branch.outputs.branch }}/ --delete
+            aws s3 sync ./public/ s3://${{secrets.BETA_BUCKET_NAME}}/${{ github.ref_name }}/ --delete
         
       - name: invalidate the CDN
         uses: chetan/invalidate-cloudfront-action@v2
