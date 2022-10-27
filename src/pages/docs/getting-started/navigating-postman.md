@@ -168,6 +168,16 @@ You can set whether Postman opens requests in new tabs. Select the settings icon
 
 If a tab has unsaved changes, Postman displays a dot next to the tab name. Select <img alt="Save icon" src="https://assets.postman.com/postman-docs/icon-save.jpg#icon" width="16px"> **Save** to save the changes. To close the tab and discard changes, select the close icon <img alt="Close icon" src="https://assets.postman.com/postman-docs/icon-close.jpg#icon" width="16px"> then select **Don't save**.
 
+#### Renaming and linking elements
+
+To rename most elements, hover over the element's name in the workbench to display the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px">. Select the edit icon and enter a new name.
+
+<img alt="Rename elements" src="https://assets.postman.com/postman-docs/v10/rename-element-v10.jpg" width="300px"/>
+
+To copy a link to most elements, hover over the element's name in the workbench to display the link icon <img alt="Link icon" src="https://assets.postman.com/postman-docs/icon-workspace-link-v9.jpg#icon" width="18px">. Select the link icon to copy the element's URL to your clipboard.
+
+<img alt="Copy link to elements" src="https://assets.postman.com/postman-docs/v10/copy-link-to-element-v10.jpg" width="300px"/>
+
 #### Viewing conflicts
 
 A tab will alert you to a conflict if you or a collaborator changes its contents in another tab or workspace. Postman prompts you to resolve any conflicts that happen.
