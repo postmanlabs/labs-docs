@@ -38,7 +38,6 @@ You can select the elements to publish with your API, such as the definition and
 Publish an API version to share the current state of your API with consumers. You can select the elements (definition and collections) to include with your published API.
 
 > If your API is connected to a Git repository, publishing a version syncs the selected elements (definition and collections) to your workspace in the Postman cloud.
-
 > You can only add APIs to the network from team or public workspaces.
 
 To publish an API version:
