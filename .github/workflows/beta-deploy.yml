@@ -6,8 +6,9 @@ permissions:
 
 on:
   push:
-    branches:
-    - 'develop'
+      branches:
+      - 'develop'
+  workflow_dispatch
 
 jobs:
   build:
@@ -52,18 +53,13 @@ jobs:
             npm install
             npm run clean
             npm run build:dev
-            aws s3 sync ./public/ s3://${{secrets.BETA_BUCKET_NAME}}/ --delete
+            aws s3 sync ./public/ s3://${{secrets.BETA_BUCKET_NAME}}/${{ github.ref_name }}/ --delete
         
       - name: invalidate the CDN
         uses: chetan/invalidate-cloudfront-action@v2
         env:
-          PATHS: '/*'
+          PATHS: '/${{ github.ref_name }}/*'
           AWS_REGION: '${{ secrets.AWS_REGION }}'
           DISTRIBUTION: ${{ secrets.BETA_DIST_ID }}
           AWS_ACCESS_KEY_ID: ${{ secrets.BETA_AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.BETA_AWS_SECRET_ACCESS_KEY }}
-
-
-
-
-
