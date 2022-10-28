@@ -94,6 +94,7 @@
     "dev": "npm run bff && gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "reset": "rm -rf package-lock.json; rm -rf node_modules; npm i; ./node_modules/.bin/gatsby clean;",
+    "sanitize-branch": "node sanitize-branch.js",
     "start": "npm run develop",
     "serve": "gatsby serve",
     "test": "npm run bff && GATSBY_ACTIVE_ENV=development && jest",

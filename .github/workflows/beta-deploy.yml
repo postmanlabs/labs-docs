@@ -56,6 +56,7 @@ jobs:
             npm install
             npm run clean
             npm run build:dev
+            npm run sanitize-branch
             aws s3 sync ./public/ s3://${{secrets.BETA_BUCKET_NAME}}/$(echo $BRANCH)/ --delete
         
       - name: invalidate the CDN
