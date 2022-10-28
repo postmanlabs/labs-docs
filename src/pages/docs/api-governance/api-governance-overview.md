@@ -18,9 +18,13 @@ contextual_links:
     url: "https://blog.postman.com/iterative-api-governance-strategy-postman/"
 ---
 
-API governance is the application of rules that promote consistent API behaviors across your organization's API landscape. API security is the application of rules that promote security-first API behaviors. The _Postman API Governance_ and _Postman API Security_ features can identify inconsistencies or weaknesses in your APIs, then recommend possible fixes or improvements. These features can enable you to create better and more secure APIs that follow industry best practices.
+API governance is the practice of defining and applying development rules that promote consistent API behaviors across your organization's API landscape. And a robust API security posture means that your organization has development rules that promote security-first API behaviors. The _Postman API Governance_ and _Postman API Security_ features can identify inconsistencies or weaknesses in your APIs, then recommend possible fixes or improvements. These features can enable you to create better and more secure APIs that follow industry best practices.
 
-By automatically applying Postman API Governance and API Security rules at the beginning of API development, you can automate your governance and security review processes instead of relying on manual reviews. Consistently enforcing Postman API Governance and API Security standards enables you to develop high-quality APIs and streamlines collaboration across all parts of the API development lifecycle.  
+Postman automatically checks your API definition and requests using predefined API Governance and API Security rules.
+
+> [Enterprise teams](https://www.postman.com/pricing/) can also create custom rules. See the [Configurable rules overview](/docs/api-governance/configurable-rules/configurable-rules-overview/) for more details.
+
+By checking your API at the beginning of the development process, you can automate your organization's governance and security review processes instead of relying on manual reviews. Consistently enforcing Postman API Governance and API Security standards enables you to develop high-quality APIs and streamlines collaboration across all parts of the API development lifecycle.
 
 Postman applies API Governance and API Security rules at the following phases of API development:
 
