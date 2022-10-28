@@ -11,7 +11,7 @@ on:
       - 'develop'
 
 env:
-  LOWERCASE_BRANCH: '$(echo "${{ github.ref_name }}" | tr "/" "-" | tr "[:upper:]" "[:lower:]")'
+  LOWERCASE_BRANCH: $(echo 'console.log("${{ github.ref_name }}".toLowerCase().replace("/","-"))' | node -)
 
 jobs:
   build:
