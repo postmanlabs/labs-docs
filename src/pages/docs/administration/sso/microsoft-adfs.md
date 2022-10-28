@@ -60,8 +60,6 @@ After creating the scheme, collect the values for these fields in the [Team](htt
 
 Relying Party Trust (RPT) defines the connection between AD FS and Postman.
 
-To add a Relying Party Trust:
-
 1. Select the **Relying Party Trusts** folder from AD FS Management.
 1. On the Actions sidebar, select **Add Relying Party Trust** to start the configuration wizard for a new trust.
 1. Select **Claims aware** in the Welcome screen and then select **Start**.
@@ -102,8 +100,6 @@ After you create the relying party trust, you can create the claim rules.
 
 [![claim rules](https://assets.postman.com/postman-docs/ENT-claim-rules.jpeg)](https://assets.postman.com/postman-docs/ENT-claim-rules.jpeg)
 
-To create a new rule:
-
 1. Select **Add Rule**. Then create a **Send LDAP Attributes as Claims** rule.
 
     [![add rule](https://assets.postman.com/postman-docs/ENT-Add-Rule.jpeg)](https://assets.postman.com/postman-docs/ENT-Add-Rule.jpeg)
@@ -132,8 +128,6 @@ To create a new rule:
 [![edit claim issuance](https://assets.postman.com/postman-docs/ENT-Edit-Claim-Issuance-Policy.jpeg)](https://assets.postman.com/postman-docs/ENT-Edit-Claim-Issuance-Policy.jpeg)
 
 ### Step 4: Adjust the trust settings
-
-To adjust the trust settings:
 
 1. In the Actions sidebar, Select **RPT** and then select **Properties**.
 1. In the Advanced tab, specify **SHA-1** as the secure hash algorithm.

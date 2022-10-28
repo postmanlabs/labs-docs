@@ -28,7 +28,7 @@ Before configuring a SAML application in Azure AD, you must [configure SSO in Po
 
 <img alt="Configure identity provider details in Postman" src="https://assets.postman.com/postman-docs/configure-identity-provider-details-v9.14.jpg"/>
 
-Open your Azure AD management portal in a new tab to continue configuring your SAML application:
+Open your Azure AD management portal in a new tab to continue configuring your SAML application.
 
 1. Go to **Enterprise applications** and select **+ New application**.
 2. Search for "Postman" and select the Postman app from the results > **Create**. Or, you can **+ Create your own application**.

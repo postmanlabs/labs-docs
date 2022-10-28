@@ -33,7 +33,7 @@ You must be a [Postman Team Admin](/docs/collaborating-in-postman/roles-and-perm
 
 Postman can be connected to Azure Active Directory using the "non-gallery application" feature in the Azure AD application gallery. Once connected, Azure AD queries the Postman SCIM endpoint every 40 minutes for assigned users, and creates or modifies them according to the assignment details you set.
 
-To set up Postman provisioning with Azure AD:
+To set up Postman provisioning with Azure AD, do the following:
 
 1. In Postman, [enable SCIM](/docs/administration/scim-provisioning/scim-provisioning-overview/#enabling-scim-in-postman) and [generate a SCIM API key](/docs/administration/scim-provisioning/scim-provisioning-overview/#generating-scim-api-key).
 1. Sign in to the [Azure Active Directory portal](https://aad.portal.azure.com/).
@@ -53,7 +53,7 @@ Next, you will configure the Azure AD integration.
 
 ## Configuring the Azure AD SCIM integration
 
-After you set up SCIM in Azure AD, you can configure the integration with Postman:
+After you set up SCIM in Azure AD, you can configure the integration with Postman.
 
 1. In the Azure AD **Mappings** section, enable **Provision Azure Active Directory Users**. This is the set of attribute mappings for user objects. Select it to review the attributes that are synchronized from Azure Active Directory to Postman.
 
