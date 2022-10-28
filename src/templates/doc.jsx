@@ -16,34 +16,17 @@ import { useModal } from '../components/modules/Modal';
 import PreviousAndNextLinks from '../components/modules/PreviousAndNextLinks';
 import BreadCrumbsLinks from '../components/modules/BreadCrumbsLinks';
 import LoadQualtrics from '../components/modules/loadQualtrics';
+import { BaseLinkStyles } from 'aether-marketing';
 
 const DocWrapper = styled.div`
   /* Used for Deeplinking */   
 h2, h3, h4 {
   scroll-margin-top: 2em;
 }
-a{
-  color: ${(props) => props.theme.colors.blue_60};
-  :hover {
-    border-bottom: 1px solid ${(props) => props.theme.colors.blue_60};
-    text-decoration: none;
-  }
-    &.anchor.before {
-      top: .2em;
-      padding-right: 8px;
-      
-      & svg {
-        width: auto;
-        height: .9em;
-        display: block;
-      }
-    }
-
-    &.anchor:hover {
-        border: none !important;
-        display: block;
-    }
+a {
+  ${BaseLinkStyles.componentStyle.rules}
 }
+
 .doc-page {
   padding-left: 40px !important;
   padding-top: 40px;

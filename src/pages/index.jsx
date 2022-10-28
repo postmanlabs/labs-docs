@@ -10,9 +10,14 @@ import SEO from '../components/seo';
 import upcomingEvents from '../../bff-data/events.json';
 import { LandingCard } from '../components/MarketingPages/Cards';
 import '../../styles/config/_pm-icons.css';
-import { ButtonStyles, LinkStyles } from '../../styles/ButtonStyles';
+import { ButtonStyles } from '../../styles/ButtonStyles';
+import { BaseLink, BaseLinkStyles } from 'aether-marketing';
 
 const EventsWrapper = styled.div`
+a {
+  ${BaseLinkStyles.componentStyle.rules}
+}
+
 margin-bottom: 48px;
 @media (min-width: 992px) {
         padding-left: 48px;
@@ -122,7 +127,7 @@ function getEvents(sortedUpcomingEvents) {
               <h4 className="event-title">{event.title}</h4>
               <p>{event.description}</p>
               <OutboundLink
-                className="event-link-wrapper link-style"
+                className="event-link-wrapper"
                 href={event.link}
                 target="_blank"
                 rel="noopener"
@@ -143,15 +148,14 @@ function getEvents(sortedUpcomingEvents) {
           <p>
             You are currently in develop mode. Dynamic events will not be displayed
             locally.
-            <LinkStyles
-              className="link-style"
+            <BaseLink
               style={{ fontSize: 'inherit' }}
               href="https://github.com/postmanlabs/postman-docs/blob/develop/CONTRIBUTING.md"
-              target="_blank"
-              rel="noopener"
+              target="same-tab"
+              linkType="arrowLink"
             >
               See Contributing doc for details
-            </LinkStyles>
+            </BaseLink>
             .
           </p>
         </EventsWrapper>
@@ -345,24 +349,21 @@ class IndexPage extends React.Component {
               <div className="sticky-top" style={{ top: '75px', zIndex: '0' }}>
                 <h2 id="upcoming-events">Upcoming Postman Events</h2>
                 <p>
-                  <LinkStyles 
-                    className="link-style" 
+                  <BaseLink 
                     href="https://www.twitch.tv/getpostman" 
-                    target="_blank" 
-                    rel="noopener">
+                    target="new-tab-external-nofollow"
+                    >
                     Follow us
-                  </LinkStyles>
+                  </BaseLink>
                   {' '}
                   on Twitch or
                   {' '}
-                  <LinkStyles
-                    className="link-style"
+                  <BaseLink
                     href="https://www.youtube.com/channel/UCocudCGVb3MmhWQ1aoIgUQw"
-                    target="_blank"
-                    rel="noopener"
+                    target="new-tab-external-nofollow"
                   >
                     subscribe
-                  </LinkStyles>
+                  </BaseLink>
                   {' '}
                   to our YouTube channel so you don’t miss when we go live.
                 </p>
