@@ -10,6 +10,9 @@ on:
       branches:
       - 'develop'
 
+env:
+  LOWERCASE_BRANCH: $(echo "${{ github.ref_name }}" | tr "/" "-" | tr "[:upper:]" "[:lower:]")
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -53,12 +56,12 @@ jobs:
             npm install
             npm run clean
             npm run build:dev
-            aws s3 sync ./public/ s3://${{secrets.BETA_BUCKET_NAME}}/${{ github.ref_name }}/ --delete
+            aws s3 sync ./public/ s3://${{secrets.BETA_BUCKET_NAME}}/$(echo $LOWERCASE_BRANCH)/ --delete
         
       - name: invalidate the CDN
         uses: chetan/invalidate-cloudfront-action@v2
         env:
-          PATHS: '/${{ github.ref_name }}/*'
+          PATHS: '/$(echo $LOWERCASE_BRANCH)/*'
           AWS_REGION: '${{ secrets.AWS_REGION }}'
           DISTRIBUTION: ${{ secrets.BETA_DIST_ID }}
           AWS_ACCESS_KEY_ID: ${{ secrets.BETA_AWS_ACCESS_KEY_ID }}
