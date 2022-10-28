@@ -48,8 +48,6 @@ You can view the documentation for any collection that you created or for collec
 
 > Postman teammates with the Viewer role can view documentation, while teammates with the Editor role can also create and update documentation. Learn more about [roles and permissions](/docs/collaborating-in-postman/roles-and-permissions/).
 
-To view documentation for a collection:
-
 1. Select **Collections** in the sidebar, and then select a collection, folder, or request.
 
     > You can also search for collections on the [Public API Network](https://www.postman.com/explore/collections).
@@ -76,8 +74,6 @@ Use the following options to customize the appearance of the documentation:
 ## Viewing API documentation
 
 Postman automatically generates API docs for any OpenAPI 3.0 schema [defined in the API Builder](/docs/designing-and-developing-your-api/developing-an-api/defining-an-api/). API developers can also [create detailed documentation](/docs/publishing-your-api/documenting-your-api/#generating-api-documentation) for any API to help consumers understand and interact with their API's endpoints.
-
-To view documentation for an API:
 
 1. Select **APIs** in the sidebar, then select an API.
 
