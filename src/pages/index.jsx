@@ -10,7 +10,7 @@ import SEO from '../components/seo';
 import upcomingEvents from '../../bff-data/events.json';
 import { LandingCard } from '../components/MarketingPages/Cards';
 import '../../styles/config/_pm-icons.css';
-import { BaseLink, BaseLinkStyles } from 'aether-marketing';
+import { BaseLink, BaseLinkStyles, BaseButton } from 'aether-marketing';
 
 const EventsWrapper = styled.div`
 a {
@@ -147,6 +147,7 @@ function getEvents(sortedUpcomingEvents) {
           <p>
             You are currently in develop mode. Dynamic events will not be displayed
             locally.
+            {' '}
             <BaseLink
               style={{ fontSize: 'inherit' }}
               href="https://github.com/postmanlabs/postman-docs/blob/develop/CONTRIBUTING.md"
