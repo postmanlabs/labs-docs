@@ -73,7 +73,7 @@ Keep in mind the following when connecting to a repository:
 
 ### Connecting to a cloud-hosted repository
 
-To connect a GitHub, Bitbucket, GitLab, or Azure DevOps repository hosted in the cloud:
+To connect a GitHub, Bitbucket, GitLab, or Azure DevOps repository hosted in the cloud, do the following:
 
 1. Select **APIs** in the sidebar and select an API.
 1. Under **Connect repository**, select **Connect** and select the type of repository you want to connect to.
@@ -97,7 +97,7 @@ To connect a GitHub, Bitbucket, GitLab, or Azure DevOps repository hosted in the
 
 > Your repository must be able to reach the IP address mentioned in [static IP support](/docs/integrations/intro-integrations/#static-ip-support). Contact your IT team to allowlist the appropriate IP address.
 
-To connect an GitHub Enterprise Server, GitLab Self-Managed, or Azure DevOps Server repository hosted on-premises:
+To connect an GitHub Enterprise Server, GitLab Self-Managed, or Azure DevOps Server repository hosted on-premises, do the following:
 
 1. Select **APIs** in the sidebar and select an API.
 1. Under **Connect repository**, select **Connect** and select the type of repository you want to connect to.

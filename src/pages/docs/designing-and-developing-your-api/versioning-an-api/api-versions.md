@@ -39,8 +39,6 @@ Publish an API version to share the current state of your API with consumers. Yo
 
 > If your API is connected to a Git repository, publishing a version syncs the selected elements (definition and collections) to your workspace in the Postman cloud.
 
-To publish an API version:
-
 1. Select **APIs** in the sidebar and select an API.
 1. If you connected your API to a Git repository, make sure the branch you want to publish is the active branch. Select the branch menu from the Postman footer, then select the branch you want to make active.
 
@@ -64,7 +62,7 @@ You can edit and delete an API version using the more actions icon <img alt="Mor
 
 Consumers can view the latest published version of your API in your workspace. If you added the version to the Private API Network, consumers can also view the version there. Consumers can view any elements published with the API, including the API's definition and collections.
 
-To view an API version in a workspace:
+To view an API version in a workspace, do the following:
 
 1. Select **APIs** in the sidebar and select an API.
 1. Under **Published Versions**, select a version.
@@ -72,7 +70,7 @@ To view an API version in a workspace:
 
 > To return to the API Builder, select the version dropdown list next to the API's name, then select **Switch to editor** or **Switch to branch**.
 
-To view an API version on the Private API Network:
+To view an API version on the Private API Network, do the following:
 
 1. Select **API Network** in the Postman header, then select **Private API Network**.
 1. Search or browse for an API, then select an API to view the available versions.

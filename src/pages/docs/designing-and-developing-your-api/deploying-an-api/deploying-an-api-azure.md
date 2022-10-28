@@ -24,8 +24,6 @@ contextual_links:
 
 ## Connecting to Azure API Management
 
-To connect to Azure API Management in Postman:
-
 1. Select **APIs** in the sidebar and select an API.
 1. Select **Deployments**, and then select **Microsoft Azure**.
 1. You'll be prompted to authorize Postman to access your Microsoft Azure account. After you grant access, you can close the browser tab and return to Postman.
@@ -82,6 +80,8 @@ From the service details view, you can take the following actions:
 ## Importing a definition from Azure
 
 You can import a definition from a connected Azure API Management service to your API in Postman. _Importing a definition will replace your current API definition or add a new definition if one doesn't exist._
+
+To import a definition from a connected Azure API Management service to your API, do the following:
 
 1. Select **APIs** in the sidebar and select an API.
 1. Select **Deployments**, and then select **Import Definition**.

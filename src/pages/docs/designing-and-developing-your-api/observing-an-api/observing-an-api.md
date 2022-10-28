@@ -87,6 +87,8 @@ Postman integrations enable you to send the results of collection-based monitors
 
 Connect Postman to one or more monitoring integrations to send collection-based monitor results to other applications that are part of your API development workflow. <!-- When you add a monitor integration, the monitor is automatically [linked to the API](#linking-monitors). -->
 
+To add a monitor integration to an API, do the following:
+
 1. If you haven't done so already, [create the collection-based monitor](/docs/monitoring-your-api/intro-monitors/) you want to use for monitoring.
 1. Select **APIs** in the sidebar and select an API.
 1. Select **API Performance**.

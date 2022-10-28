@@ -46,8 +46,6 @@ To start using the API Builder, you can create a new API in your workspace. You 
 
 ## Creating an API
 
-To create a new API:
-
 1. Select **APIs** in the sidebar and select **+**.
 
     <img alt="Create a new API" src="https://assets.postman.com/postman-docs/v10/api-builder-create-v10.jpg" width ="382px"/>
@@ -79,8 +77,6 @@ There are some differences in the way API versions work in Postman v10 compared 
 To change the name of an API, select **APIs** in the sidebar. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to an API and select **Rename**. You can also select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px"> next to the API name in the overview tab and enter a new name.
 
 ## Deleting an API
-
-To delete an API from the workspace:
 
 1. Select **APIs** in the sidebar.
 1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to an API and select **Delete**.
