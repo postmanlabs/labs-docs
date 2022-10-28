@@ -61,7 +61,7 @@ jobs:
       - name: invalidate the CDN
         uses: chetan/invalidate-cloudfront-action@v2
         env:
-          PATHS: '/$(echo $BRANCH)/*'
+          PATHS: '/${{env.BRANCH}}/*'
           AWS_REGION: '${{ secrets.AWS_REGION }}'
           DISTRIBUTION: ${{ secrets.BETA_DIST_ID }}
           AWS_ACCESS_KEY_ID: ${{ secrets.BETA_AWS_ACCESS_KEY_ID }}
