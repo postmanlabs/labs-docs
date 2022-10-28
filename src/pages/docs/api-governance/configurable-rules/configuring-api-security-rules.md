@@ -31,7 +31,7 @@ You can customize the API Security rules that Postman applies to your [API defin
 
 Postman applies security rules to your [API definition](/docs/api-governance/api-definition/api-definition-warnings/) and shows rule violations that might impact your definition's security posture. In addition to the rules turned on by default in Postman, you can [create and apply your own custom rules](#adding-custom-rules).
 
-To access the configuration page for API definitions:
+To access the configuration page for API definitions, do the following:
 
 1. Go to the [Postman home screen](https://go.postman.co/).
 1. Select **API Security** from the team information panel.
@@ -79,7 +79,7 @@ To delete a custom rule, select the delete icon <img alt="Delete icon" src="http
 
 Postman applies security rules configured for your [API requests](/docs/api-governance/api-testing/api-testing-warnings/) when you send requests to any API using either the Postman web app or the Postman desktop app.
 
-To access the configuration page for requests:
+To access the configuration page for requests, do the following:
 
 1. Go to the [Postman home screen](https://go.postman.co/).
 1. Select **API Security** from the team information panel.
