@@ -1,7 +1,7 @@
 import React from 'react';
 import { OutboundLink } from 'gatsby-plugin-google-analytics';
 import styled from 'styled-components';
-import { LinkStyles } from '../../../styles/ButtonStyles';
+import { BaseLink } from 'aether-marketing'
 
 const CardWrapper = styled.div`
   margin-bottom: 32px;
@@ -40,11 +40,13 @@ export const LandingCard = ({
     <div className="landing-card__content text-left">
       <h3 className="landing-card__content-title h4">{title}</h3>
       <p className="landing-card__content-description">{description}</p>
-      <LinkStyles href={link} className="link-style">
+      <BaseLink 
+        href={link} 
+        linkType="arrowLink"
+        target="same-tab"
+      >
         {cta}
-        {' '}
-        →
-      </LinkStyles>
+      </BaseLink>
     </div>
   </CardWrapper>
 );
