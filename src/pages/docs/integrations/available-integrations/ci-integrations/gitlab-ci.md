@@ -21,7 +21,7 @@ If you haven't already, create a pipeline in the GitLab repository you use for y
 
 ## Configuring a GitLab CI/CD integration
 
-To configure a GitLab CI/CD integration for Gitlab SaaS or GitLab self-managed:
+To configure a GitLab CI/CD integration for Gitlab SaaS or GitLab self-managed, do the following:
 
 1. Open your API by selecting **APIs** in the sidebar. *Each API can be linked to one CI project*.
     > **Tip:** If you've already authenticated with GitLab to connect a Git repo for source control, you can use the same authentication. To automatically create the integration, under **Test and Automation**, select **Connect to GitLab**.
@@ -88,7 +88,7 @@ Each time the pipeline runs, the Postman CLI runs the collections that contain y
 
 > Before you begin, make sure you’ve already [set up an integration](#configuring-a-gitlab-cicd-integration) between your API and GitLab CI/CD.
 
-To generate configuration code for the Postman CLI:
+To generate configuration code for the Postman CLI, do the following:
 
 1. Open your API version and select **Test and Automation**.
 1. Under **CI/CD Builds**, select **View All Builds**.
@@ -100,7 +100,7 @@ To generate configuration code for the Postman CLI:
 
    <img alt="Generate the Postman CLI configuration" src="https://assets.postman.com/postman-docs/v10/generate-postman-cli-v10-2.jpg" width="548px" />
 
-To add the Postman CLI configuration to your GitLab pipeline:
+To add the Postman CLI configuration to your GitLab pipeline, do the following:
 
 1. Edit the `.gitlab-ci.yml` file at the root of your Gitlab repository.
 1. Add the Postman CLI configuration you copied from Postman to the `.gitlab-ci.yml` file:
