@@ -63,7 +63,7 @@ To configure a collection run:
     > You can also select <img alt="Runner icon" src="https://assets.postman.com/postman-docs/icon-runner-v9.jpg#icon" width="16px"> __Runner__ from the Postman footer and drag a collection from __Collections__ or __History__ in the sidebar.
 
 1. Select **Run manually**.
-    > You can also [schedule runs](/docs/running-collections/scheduling-collection-runs/) and [automate runs via CLI](/docs/postman-cli/postman-cli-run-collection/).
+    > You can also [schedule runs](/docs/running-collections/scheduling-collection-runs/) and [automate runs with the CLI](/docs/postman-cli/postman-cli-run-collection/).
 
 1. If you want your collection to run with an environment, select it using the environment selector at the top right of Postman. You can also select __Environments__ in the sidebar, then select the environment you want to use.
 
@@ -120,11 +120,11 @@ Each collection has a **Runs** tab, which displays past and scheduled collection
 
 ![Collection Run History tab](https://assets.postman.com/postman-docs/v10/collection-run-tab-v10.jpg)
 
-The **Runs** tab includes two additional tabs: **Past runs** and **Scheduled runs**.
+The **Runs** tab includes two more tabs: **Past runs** and **Scheduled runs**.
 
 ### The Past runs tab
 
-The **Past runs** tab has controls to select how many collection runs to view, and limit the displayed runs to view only collection runs from selected users, a selected status, and either from the Collection Runner or the Postman CLI.
+The **Past runs** tab has controls to select how many collection runs to view, and limit the displayed runs to those from selected users, of a selected status, and either from the Collection Runner or the Postman CLI.
 
 The following are displayed for each collection run:
 
@@ -174,6 +174,6 @@ In addition to running collections manually, the Collection Runner enables you t
 
 ## Next steps
 
-Now that you know the fundamentals of using the Collection Runner, you can extend its functionality with workflows.
+Use the Collection Runner fundamentals you've learned to extend its functionality with workflows.
 
 * To learn how to use scripts to build workflows with conditional sequences for running the requests in your collections, visit [Building request workflows](/docs/running-collections/building-workflows/).

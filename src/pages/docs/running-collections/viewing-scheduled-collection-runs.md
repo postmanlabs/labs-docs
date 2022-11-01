@@ -48,7 +48,7 @@ Hover over your scheduled collection run and select **View**.
 
 You can use the graph to understand how your APIs have performed over time. Each bar in the graph represents a collection run iteration.
 
-The upper section charts your scheduled collection run's average response time for each run, while the lower section visualizes the number of failed tests for each run across all regions. To view the exact values for failed percentage and response time, hover over each run individually.
+The upper section charts your scheduled collection run's average response time for each run. The lower section visualizes the number of failed tests for each run across all regions. To view the exact values for failed percentage and response time, hover over each run individually.
 
 ![Scheduled runs view results v10](https://assets.postman.com/postman-docs/v10/view-scheduled-run-results-1-v10.jpg)
 
@@ -87,7 +87,7 @@ You can review past run results to understand what happened at a particular poin
 
 ### Test results
 
-Select a bar in the graph and select **Test Results** to get more detailed information on that run's tests, including which passed or failed, the response codes, and the response times.
+Select a bar in the graph and select **Test Results** to get more detailed information on that run's tests. Details include which tests passed or failed, the response codes, and the response times.
 
 [![test results](https://assets.postman.com/postman-docs/v10/scr-view-test-results-v10.jpg)](https://assets.postman.com/postman-docs/scr-view-test-results-v10.jpg)
 

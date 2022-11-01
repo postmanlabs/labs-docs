@@ -23,10 +23,10 @@ When you schedule a collection run with the Collection Runner, the scheduled run
 > * Scheduled runs execute in the Postman Cloud.
 > * Schedules share permissions with their collections. For example, if you have permissions to edit a collection, you'll be able to edit that collection's schedules.
 > * Scheduled collection runs support [custom run orders](/docs/running-collections/building-workflows/).
-> * Only personal, private, and team workspaces support scheduling collection runs.
+> * Personal, private, and team workspaces support scheduling collection runs.
 > * Scheduled runs are executed in the Postman Cloud.
-> * Scheduled collection runs are not included in a workspace's history.
-> * If you import or export a collection, its schedules do not import or export with it. However, if you delete a collection, its schedules are deleted also.
+> * Scheduled collection runs aren't included in a workspace's history.
+> * If you import or export a collection, its schedules don't import or export with it. However, if you delete a collection, its schedules are deleted also.
 > * Scheduled collection runs have the same [usage limits as monitors](/docs/monitoring-your-api/monitor-usage/).
 
 ## Contents
