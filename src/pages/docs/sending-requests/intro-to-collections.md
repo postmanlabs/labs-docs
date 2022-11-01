@@ -229,7 +229,7 @@ To view notifications about what has changed in a collection you watch:
 
 ### Forking a collection
 
-You can fork collections in your own workspace to [develop collection versions](/docs/collaborating-in-postman/version-control-for-collections/). To fork a collection:
+You can fork collections in your own workspace to [develop collection versions](/docs/collaborating-in-postman/version-control/). To fork a collection:
 
 1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the collection name.
 1. Select **Fork**.
