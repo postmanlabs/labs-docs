@@ -48,15 +48,25 @@ Other optional headers like `x-mock-response-name` or `x-mock-response-id` enabl
 
 To match an incoming request with the closest matching example, Postman uses the following algorithm.
 
-### 1. Expected response format
+### 1. Fetch all examples
 
-The mock service fetches the examples and converts them into Postman response objects using the [Postman Collection SDK](/docs/developer/collection-sdk/). If the conversion process fails for an example, resulting in a response that isn't in the expected format, the example is removed from the matching process.
+The mock service fetches all examples in the mocked collection and converts them into Postman response objects using the [Postman Collection SDK](/docs/developer/collection-sdk/). If the conversion process fails for an example, resulting in a response that isn't in the expected format, the example is removed from the matching process.
 
-### 2. HTTP method
+The mock service also fetches the environment associated with the mock server (if there is one). Collection variables and environment variables in the examples are then populated with data.
 
-Any responses that aren't the same HTTP method type are removed from the matching process. For example, if the mock request you sent was `POST` to `https://M1.mock.pstmn.io/test`, all saved examples for which the method type isn't `POST` are disregarded.
+### 2. Filter by HTTP method
 
-### 3. Filter by URL
+Any responses that aren't the same HTTP method type as the incoming request are removed from the matching process. For example, if the mock request was `POST` to `https://M1.mock.pstmn.io/test`, all saved examples for which the method type isn't `POST` are disregarded.
+
+### 3. Filter by custom header
+
+The matching algorithm checks any custom headers passed in the request in the following order:
+
+* If the `x-mock-response-code` header is provided, the algorithm filters out all examples that don't have a matching response status code.
+* If the `x-mock-response-id` header is provided, the algorithm filters out all examples that don't have a matching response ID. If no example is found matching the ID, an error is returned.
+* If the `x-mock-response-name` header is provided, the algorithm filters out all examples that don't have a matching name. If more than one example has the same name, Postman sorts the examples by ID and returns the example that comes first in the list.
+
+### 4. Filter by URL
 
 The matching process examines each saved example and iterates over every possibility. The algorithm compares the `path` of the request with the `path` of the example. If the request's URL is `https://M1.mock.pstmn.io/test` and the example's URL is `https://google.com/help`, the algorithm compares `/test` with `/help`. In this case the paths don't match, so the corresponding example is removed from the matching, and the algorithm moves to the next example. While comparing URLs, a step-by-step matching process is performed. Each completed step reduces the matching threshold of the current example response.
 
@@ -69,7 +79,7 @@ Here's an example of how the algorithm filters by URL:
 * If all steps fail, this saved example isn't an eligible response.
 * Parameters (such as `{{url}}/path?status=pass`) are also considered when matching the URLs and can be used to decide which example to surface.
 
-### 4. Wildcards
+### 5. Wildcards
 
 All unresolved variables in an example’s request, which don’t exist in the mock server’s associated environment, are treated as  wildcard variables. Wildcard variables act as capture groups for dynamic URL segments. This is useful if some segments of the API’s URL map to resource identifiers, like user IDs, user names, or file names.
 
@@ -98,10 +108,6 @@ You can place the same variables in the example’s response to use their captur
 This will pass the value captured from the wildcard segment to the same variable name into the response.
 
 > Wildcards in response bodies aren't part of the matching algorithm.
-
-### 5. Response code
-
-If the `x-mock-response-code` header is provided, the algorithm filters out all examples that don't have a matching response code.
 
 ### 6. Highest threshold value
 
