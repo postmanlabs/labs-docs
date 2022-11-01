@@ -26,7 +26,9 @@ Setting up a New Relic monitor integration requires you to get an API key (Inges
 
 ## Retrieving your New Relic API key
 
-If you don't already have a [New Relic account](https://newrelic.com/), you'll need to [create one](https://newrelic.com/signup?utm_source=external_partners&utm_medium=referral&utm_campaign=global-fy22-q3-io-partner&utm_content=postman_qs). Then follow the steps below to retrieve your Ingest License key from New Relic:
+If you don't already have a [New Relic account](https://newrelic.com/), you'll need to [create one](https://newrelic.com/signup?utm_source=external_partners&utm_medium=referral&utm_campaign=global-fy22-q3-io-partner&utm_content=postman_qs).
+
+To retrieve your Ingest License key from New Relic, do the following:
 
 1. Sign in to [New Relic](https://login.newrelic.com).
 1. Select your avatar in the upper right corner, then select **API keys**.
@@ -55,14 +57,12 @@ If you don't already have a [New Relic account](https://newrelic.com/), you'll n
 
 New Relic I/O ([Instant Observability](http://newrelic.com/instant-observability)) has integrations and quickstarts that bundle observability tools to help you get started with monitoring your stack. The Postman quickstart provides you with an out-of-the-box dashboard with a suggested view for API monitoring.
 
-To use the Postman quickstart:
-
 1. Go to the [Postman quickstart](https://newrelic.com/instant-observability/postman/d465bf08-b737-4bc5-b5ad-dd5be272967b?utm_source=external_partners&utm_medium=referral&utm_campaign=global-ever-green-io-partner) in New Relic I/O, and select **+ Install quickstart**.
 1. If you don't have a New Relic account, follow the sign up instructions to get started for free. Check your email for a link to continue to the next step.
 1. Select an account and select **Begin installation**.
 1. Under **Postman (manual install)** select **Done** if you have already completed the steps in the [Configuring New Relic Integration](#configuring-new-relic-integration) section.
 1. Select **See your data**.
-1. That’s it! Now you can visualize your Postman API data on the New Relic dashboard.
+1. Now you can visualize your Postman API data on the New Relic dashboard.
 ![](https://assets.postman.com/postman-docs/newrelic-dashboard-visualize.jpg)
 
 ## Manually view and query data in New Relic

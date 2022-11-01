@@ -44,21 +44,25 @@ Make sure to create your Statuspage account and create a page and components bef
 1. On your Home page, go to **Integrations**, select **Browse All Integrations**, and select **Statuspage** in the list of third-party integrations.
 1. Select **Add Integration**.
 1. In the **Authenticate** tab, enter the Statuspage API key you copied above.
-![Statuspage add integration](https://assets.postman.com/postman-docs/add-integration-statuspage.jpg)
+
+    ![Statuspage add integration](https://assets.postman.com/postman-docs/add-integration-statuspage.jpg)
+
 1. Select **Authenticate and Proceed**. The **Configure** tab is shown.
 1. Enter a nickname for the integration.
 1. Select a workspace from the list which contains the monitor you would like to use.
 1. Select the monitor you wish to use from the list.
 1. Select a Statuspage page where the monitor updates will be sent. This list will be populated with the pages you have created in Statuspage.
 1. Select one or both Statuspage actions. See [Link monitor to component](#link-monitor-to-component) and [Create incident when monitoring run fails](#create-incident-when-monitoring-run-fails) for information on how to fill in these sections.
-![Configure Statuspage](https://assets.postman.com/postman-docs/configure-statuspage.jpg)
+
+    ![Configure Statuspage](https://assets.postman.com/postman-docs/configure-statuspage.jpg)
+
 1. Select **Add Integration**.
 
 ### Link monitor to component
 
 When this action is configured, if the specified monitor fails a test run, it will change the status of the linked component.
 
-If you select the **Link a monitor to a component** action, enter the following:
+If you select the **Link a monitor to a component** action, do the following:
 
 1. Select a component from the list. The list will be populated with the components you have created in Statuspage.
 1. Select a component success status from the list. This status will be displayed in Statuspage when the linked monitor is running as expected.
@@ -75,7 +79,7 @@ When a component's status is changed due to a failed test run, it will remain in
 
 When this action is configured, if the specified monitor fails a test run, a Statuspage incident is created. The incident provides context to customers on why the failure happened, and what will be done to address it.
 
-If you select the **Create incident when monitoring run fails** action, enter the following:
+If you select the **Create incident when monitoring run fails** action, do the following:
 
 1. Enter a name for the incident name. This is the text shown to customers when they see the incident.
 1. Select an Incident status from the list.

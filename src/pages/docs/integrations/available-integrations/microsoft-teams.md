@@ -54,8 +54,6 @@ To configure a Microsoft Teams integration, you will need to first create a Micr
 
 ### Add a team activity feed to Microsoft Teams
 
-To add a team activity feed to Microsoft Teams:
-
 1. Select **Add Integration**.
 
 1. Give your integration a nickname and enter your [incoming webhook URL](#create-a-microsoft-teams-webhook-url) as the Notification URL to receive team updates in Microsoft Teams.
@@ -65,8 +63,6 @@ To add a team activity feed to Microsoft Teams:
     [![ms_teams configInt](https://assets.postman.com/postman-docs/msteams-team-activities-show-all-q.jpg)](https://assets.postman.com/postman-docs/msteams-team-activities-show-all-q.jpg)
 
 ### Send monitor run results in Microsoft Teams
-
-To send monitor run results to Microsoft Teams:
 
 1. Select **Add Integration**.
 

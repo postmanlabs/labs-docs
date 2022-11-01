@@ -109,7 +109,7 @@ Postman sends tags to Datadog along with each metric and event. Tags enable you 
 
 Postman is now a Datadog Technology Partner. Postman’s Integration is listed on Datadog’s Integrations page. To enable the partnership, the metrics being emitted by Postman have been renamed as described above.
 
-If you have previously created any integrations, you must update them to take the advantage of the integration listing on Datadog. To update existing integrations:
+If you have previously created any integrations, you must update them to take the advantage of the integration listing on Datadog.
 
 1. Go to the [Post monitoring results](https://go.postman.co/integrations/service/datadog/monitor_run_datadog) page.
 
