@@ -109,7 +109,16 @@ This will pass the value captured from the wildcard segment to the same variable
 
 > Wildcards in response bodies aren't part of the matching algorithm.
 
-### 6. Highest threshold value
+### 6. Check for header and body matching
+
+You can [turn on header and body matching](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/#matching-request-body-and-headers) in the mock server configuration. When these settings are turned on:
+
+* The algorithm first filters out all examples that don't match the specified request headers. Header matching is case insensitive.
+* The algorithm then filters out all examples that don't match the request body.
+
+> You can also enable header and body matching by passing the custom header `x-mock-match-request-body` or `x-mock-match-request-headers` with the request. These custom headers have higher precedence than header or body matching values specified in the mock server configuration.
+
+### 7. Highest threshold value
 
 Sort the remaining filtered responses by ID in descending order and return the response with the highest threshold value.
 
