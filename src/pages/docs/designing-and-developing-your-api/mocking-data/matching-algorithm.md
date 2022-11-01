@@ -107,7 +107,7 @@ The matching algorithm sorts the remaining filtered responses by ID in descendin
 
 > If more than one example has the same matching score, Postman returns the example that comes first in the sorted list.
 
-##  Using wildcard variables
+## Using wildcard variables
 
 All unresolved variables in an example’s request, which don’t exist in the mock server’s associated collection or environment, are treated as  wildcard variables. Wildcard variables act as capture groups for dynamic URL segments. This is useful if some segments of the API’s URL map to resource identifiers, like user IDs, user names, or file names.
 
