@@ -22,8 +22,8 @@ Using Postman's [mock servers](/docs/designing-and-developing-your-api/mocking-d
 
 * [Mock server elements](#mock-server-elements)
 * [How the matching algorithm works](#how-the-matching-algorithm-works)
-* [Troubleshooting mock server responses](#troubleshooting-mock-server-responses)
 * [Using wildcard variables](#using-wildcard-variables)
+* [Troubleshooting mock server responses](#troubleshooting-mock-server-responses)
 
 ## Mock server elements
 
