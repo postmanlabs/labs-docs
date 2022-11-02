@@ -48,11 +48,11 @@ When you schedule a collection run with the Collection Runner, the scheduled run
 
 1. On the Collection Runner, select **Schedule runs**.
 
-    ![Schedule runs](https://assets.postman.com/postman-docs/v10/schedule-runs-1-v10.jpg)
+    ![Schedule runs](https://assets.postman.com/postman-docs/v10/schedule-runs-3-v10.jpg)
 
 1. Choose any configuration options:
     * The schedule's name
-    * The schedule's frequency
+    * The run's frequency
     * An environment associated with the collection (optional)
     * How many times you want the collection to run (iterations)
     * A `JSON` or `CSV` [data file](/docs/running-collections/working-with-data-files/) (optional)
