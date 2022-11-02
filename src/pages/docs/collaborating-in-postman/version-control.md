@@ -89,7 +89,9 @@ If there are any [mocks](/docs/designing-and-developing-your-api/mocking-data/se
 
 ### Pulling updates from a parent element
 
-To pull updates from a parent element into your fork, do the following:
+You can pull updates from a parent element into a fork without going through the [pull request process](#creating-pull-requests).
+
+To pull updates from a parent element without opening a pull request, do the following:
 
 1. Hover over the fork in the sidebar.
 1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to its name.
@@ -100,7 +102,7 @@ To pull updates from a parent element during the pull request process, see [Pull
 
 ### Merging changes from a fork
 
-If you have Editor access on the element, you can merge a fork into the parent element without going through the [pull request process](#creating-pull-requests). For example, if you’re using forks in a personal workspace to organize your work, you can merge changes in a fork directly back into the parent element. If you are collaborating with others, though, merging directly lacks the safeguards built into the pull request process. Many teams require pull requests as part of their version control workflow. To merge changes during the pull request process, see [Merging changes from a pull request](#merging-changes-from-a-pull-request).
+If you have Editor access on the element, you can merge a fork into the parent element without going through the [pull request process](#creating-pull-requests). For example, if you’re using forks in a personal workspace to organize your work, you can merge changes in a fork directly back into the parent element. If you're collaborating with others, though, merging directly lacks the safeguards built into the pull request process. Many teams require pull requests as part of their version control workflow. To merge changes during the pull request process, see [Merging changes from a pull request](#merging-changes-from-a-pull-request).
 
 To merge changes from a fork without opening a pull request:
 
@@ -335,7 +337,7 @@ To pull updates from a parent element without opening a pull request, see [Pulli
 
 ### Merging changes
 
-When you are ready to add the changes from a pull request or fork, you will _merge_ them into the parent collection or environment.
+When you're ready to add the changes from a pull request, you'll _merge_ them into the parent collection or environment.
 
 #### Merging changes from a pull request
 
