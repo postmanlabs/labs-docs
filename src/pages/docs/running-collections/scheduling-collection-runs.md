@@ -80,7 +80,7 @@ When you schedule a collection run with the Collection Runner, the scheduled run
 
 1. Hover over your scheduled run and Select **View**.
 
-    ![Scheduled runs view results v10](https://assets.postman.com/postman-docs/v10/view-scheduled-run-results-v10.jpg)
+    ![Scheduled runs view results v10](https://assets.postman.com/postman-docs/v10/view-scheduled-run-results-2-v10.jpg)
 
 1. Each column in the graph represents an iteration of your scheduled run. Select a column to see test results and the console log for that iteration. For more information see [Viewing scheduled collection runs](/docs/running-collections/viewing-scheduled-collection-runs/).
 
