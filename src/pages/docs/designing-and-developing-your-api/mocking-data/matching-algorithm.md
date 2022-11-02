@@ -109,7 +109,7 @@ The matching algorithm sorts the remaining filtered responses by ID in descendin
 
 ## Using wildcard variables
 
-All unresolved variables in an example’s request, which don’t exist in the mock server’s associated collection or environment, are treated as  wildcard variables. Wildcard variables act as capture groups for dynamic URL segments. This is useful if some segments of the API’s URL map to resource identifiers, like user IDs, user names, or file names.
+All unresolved variables in an example’s request, which don’t exist in the mock server’s associated collection or environment, are treated as wildcard variables. Wildcard variables act as capture groups for dynamic URL segments. This is useful if some segments of the API’s URL map to resource identifiers, like user IDs, user names, or file names.
 
 For example, you can mock an endpoint that returns a user profile by ID. The endpoint takes in the user ID from the URL and returns the user ID in the response. On calling `GET {{url}}/users/{{userId}}`, the endpoint returns:
 
