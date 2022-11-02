@@ -41,7 +41,7 @@ After the mock service has all the saved examples for the collection, it iterati
 
 The incoming request can have several configurable variables, such as `requestMethod`, `requestPath`,  `requestHeaders`, `requestBody`, and `requestParams`. The `requestMethod` variable corresponds to any valid HTTP request method (such as `GET`, `POST`,`PUT`, `PATCH`, or `DELETE`), and the `requestPath` refers to any valid string path (such as `/`, `/test`, `/test/path`, or `/test/path/1`).
 
-Other optional headers like `x-mock-response-name` or `x-mock-response-id` enable you to further specify the example to be returned based on the name or the UID of the saved example. You can get the example response UID by using the Postman API to [GET a Single Collection](https://documenter.getpostman.com/view/12959542/UV5XjJV8#a6a282df-907e-438b-8fe6-e5efaa60b8bf) and searching for your example in the response. The UID has the syntax `<user_id>-<response_id>`.
+Other optional headers like `x-mock-response-name` or `x-mock-response-id` enable you to further specify the example to be returned based on the name or the UID of the saved example. You can get the example UID by using the Postman API to [GET a Single Collection](https://documenter.getpostman.com/view/12959542/UV5XjJV8#a6a282df-907e-438b-8fe6-e5efaa60b8bf) and searching for your example in the response. The UID has the syntax `<user_id>-<response_id>`.
 
 <img alt="Mock request configurable elements" src="https://assets.postman.com/postman-docs/mock-configurable-elements-v9-19.jpg"/>
 
@@ -63,17 +63,17 @@ Any responses that aren't the same HTTP method type as the incoming request are 
 
 The matching algorithm checks any custom headers passed in the request in the following order:
 
-* If the `x-mock-response-code` header is provided, the algorithm filters out all examples that don't have a matching response status code.
-* If the `x-mock-response-id` header is provided, the algorithm filters out all examples that don't have a matching response ID. If no example is found matching the ID, an error is returned.
-* If the `x-mock-response-name` header is provided, the algorithm filters out all examples that don't have a matching name. If more than one example has the same name, Postman sorts the examples by ID and returns the example that comes first in the list.
+1. If the `x-mock-response-code` header is provided, the algorithm filters out all examples that don't have a matching response status code.
+1. If the `x-mock-response-id` header is provided, the algorithm filters out all examples that don't have a matching response ID. If no example is found with a matching ID, an error is returned.
+1. If the `x-mock-response-name` header is provided, the algorithm filters out all examples that don't have a matching name. If more than one example has the same name, Postman sorts the examples by ID and returns the example that comes first in the list.
 
 ### 4. Filter by URL and parameters
 
-The matching algorithm examines each saved example and iterates over every possibility. The algorithm compares the `path` of the request with the `path` of the example. If the request's URL is `https://M1.mock.pstmn.io/test` and the example's URL is `https://google.com/help`, the algorithm compares `/test` with `/help`. In this case the paths don't match, so the corresponding example is removed from the matching process, and the algorithm moves to the next example.
+For each saved example, the matching algorithm compares the `path` of the request with the `path` of the example. If the request's URL is `https://M1.mock.pstmn.io/test` and the example's URL is `https://google.com/help`, the algorithm compares `/test` with `/help`. In this case the paths don't match, so the corresponding example is removed from the matching process, and the algorithm moves to the next example.
 
-When comparing URLs, the matching algorithm assigns a matching score to each example response. Each example starts with a score of 100, and the score is adjusted based on which URL matching scenario is true. If none of the matching scenarios are true, the example is removed from the matching process.
+The matching algorithm assigns a score to each matching example. An example starts with a score of 100, and the score is adjusted based on how closely the request and example URLs match. The algorithm goes through the following steps in order and stops when a match is made. The score is then adjusted based on the step that resulted in a match. If a match can't be made after the last step, the example is removed from the matching process.
 
-| URL matching scenario | Matching score adjustment |
+| URL matching step | Matching score adjustment |
 | ----------- | ----------- |
 | URL match is perfect | No adjustment |
 | URLs match after removing trailing slashes (`/`) | Reduced by 5 |
@@ -82,11 +82,11 @@ When comparing URLs, the matching algorithm assigns a matching score to each exa
 | URLs match after removing [wildcard variables](#using-wildcard-variables) | Reduced by 20 |
 | URLs match after removing alphanumeric IDs | Reduced by 21 |
 | URLs match after removing trailing slashes (`/`) and alphanumeric IDs | Reduced by 25 |
-| URLs match based on a document distance algorithm | Reduced by 30 |
+| URLs match based on a [document distance algorithm](https://www.npmjs.com/package/levenshtein) | Reduced by 30 |
 
-The matching algorithm also considers parameters (such as `{{url}}/path?status=pass`) when matching the URLs. The matching score is adjusted based on which parameter matching scenario is true.
+After matching URLs, the algorithm examines the parameters for each example (such as `{{url}}/path?status=pass`). The matching score is further adjusted based on how closely the request and example parameters match.
 
-| Parameter matching scenario | Matching score adjustment |
+| Parameter matching step | Matching score adjustment |
 | ----------- | ----------- |
 | Parameter match is perfect | Increased by 10 |
 | Parameter match is case insensitive | Increased by 5 |
