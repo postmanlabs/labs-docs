@@ -42,7 +42,7 @@ If you have configured a proxy for your local system, the Postman desktop app us
 
 > You can't configure the default proxy in the Postman web app. Instead, use the [system proxy](#using-the-system-proxy-for-requests) or a [custom proxy](#using-a-custom-proxy-for-requests) for sending requests.
 
-If the proxy server configured for your system requires basic authentication, add the credentials to the Postman desktop app. To add the credentials, do the following:
+If the proxy server configured for your system requires basic authentication, add the credentials to the Postman desktop app.
 
 1. In the Postman desktop app, select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the header and select **Settings**.
 1. Select the **Proxy** tab.
