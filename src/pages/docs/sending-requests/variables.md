@@ -432,7 +432,7 @@ To check if the variable is available and in scope for the request, do the follo
 1. Turn on or make the necessary changes to the value of the variable.
 1. Select <img alt="Save icon" src="https://assets.postman.com/postman-docs/icon-save.jpg#icon" width="16px"> **Save** to confirm your changes.
 
-To set an unresolved variable that doesn't exist, do the following:
+To set a variable that's unresolved because it doesn't exist, do the following:
 
 1. Select **Add new variable**.
 1. Enter a **Name**, set a **Value** for the variable, and select the appropriate **Scope** (global, collection, or environment) from the dropdown.
