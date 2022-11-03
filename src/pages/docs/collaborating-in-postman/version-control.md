@@ -204,7 +204,7 @@ The watch option enables you to receive an in-app notification when a team membe
 
 <img alt="Watch a pull request" src="https://assets.postman.com/postman-docs/watching-a-pull-request-v9.12.jpg" width="300px"/>
 
-To change your watching notification settings:
+To change your watching notification settings, do the following:
 
 1. Select **Watching**.
 1. Select or clear the desired notification options.
