@@ -254,7 +254,7 @@ class Header extends React.Component {
               className={`collapse navbar-collapse${!visibleHelloBar ? ' noBar' : ''
                 }`}
             >
-              <ul className="navbar-nav mr-auto ml-0">
+              <ul className="navbar-nav mr-auto">
                 <li className="nav-item dropdown">
                   <a
                     className="nav-link dropdown-toggle"

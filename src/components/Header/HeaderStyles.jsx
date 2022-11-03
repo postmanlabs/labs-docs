@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const PrimaryNavbarV6 = styled.nav`
+export const PrimaryNavbarV6 = styled.div`
     background-color: ${(props) => props.theme.colors.grey_00};
     z-index: 2147483647;
     border-bottom: 1px solid ${(props) => props.theme.colors.grey_30};
@@ -12,16 +12,18 @@ export const PrimaryNavbarV6 = styled.nav`
     }
 
     .navbar {
-      padding: 6px 16px;
-  }
+      padding: 8px 16px;
+      font-family: Inter;
+    }
   `
-  export const SecondaryNavbarV6 = styled.nav`
+  export const SecondaryNavbarV6 = styled.div`
     background-color: ${(props) => props.theme.colors.grey_00};
     backdrop-filter: blur(64px);
     top: 100;
     z-index: 1020;
     border-bottom: 1px solid ${(props) => props.theme.colors.grey_30};
-  
+    
+
     .activeMenu {
       background-color: ${(props) => props.theme.colors.grey_00};
       z-index: 99;
@@ -29,10 +31,12 @@ export const PrimaryNavbarV6 = styled.nav`
       margin-top:-1px;
     }
     
-    &.sticky {
+    &.sticky { 
       position: sticky;
-      top: 0;
+      top: -1px;
       z-index: 1020;
+      margin: 0px;
+      // transform: translate(0px, -1%);
     }
 
     @supports ((-webkit-backdrop-filter: none) or (backdrop-filter: none)) {
@@ -52,12 +56,13 @@ export const PrimaryNavbarV6 = styled.nav`
     }
   
   `
-export const NavStyles = styled.div`
+export const NavStyles = styled.nav`
 
    .navbar-nav .nav-link,
    a {
-     font-weight: 400;
-   } */
+     font-weight: 600;
+    //  padding: 6px 6px 6px 16px;
+   } 
 
    /* Ul */
    & .navbar-nav {
@@ -100,7 +105,7 @@ export const NavStyles = styled.div`
    /* Navbar A tag elements */
    & .nav-link {
      letter-spacing: normal;
-     color: ${(props) => props.theme.colors.grey_50} !important;
+     color: ${(props) => props.theme.forms.text} !important;
      font-size: 14px;
      font-weight: 600;
      transition: color 0.2s ease-in-out;
@@ -365,8 +370,13 @@ export const NavStyles = styled.div`
 
 export const DropdownStyles = styled.div`
      /* Individual Dropdown Item */
-     z-index:2147483650;
+
+     z-index: 2147483650;
      padding: 16px;
+     border-radius: ${(props) => props.theme.borderRadius.medium};
+     border: 1px solid ${(props) => props.theme.colors.grey_20};
+     box-shadow: 0 16px 24px -8px rgb(0 0 0 / 24%);
+
     .dropdown-item {
       padding: 8px 16px;
       font-weight: 400;
@@ -385,24 +395,25 @@ export const DropdownStyles = styled.div`
     }
   }
   .dropdown-menu {
+
     /* Mobile Dropdown */
     background-color: ${(props) => props.theme.colors.grey_00};
     border: none;
     padding: 0 0 16px 24px;
     line-height: 20px;
-    font-size: 14px;
+    font-size: 1.4rem;
+
     /* Web Dropdown */
     @media screen and (min-width: 992px) {
-      box-shadow: 0 16px 24px -8px rgba(0, 0, 0 , 0.24);
       background-color: ${(props) => props.theme.colors.grey_00};
-      border-radius: ${(props) => props.theme.borderRadius.small};
-      border: 1px solid ${(props) => props.theme.colors.grey_20};
+      border-radius: ${(props) => props.theme.borderRadius.medium};
+      padding: 16px
     }
   }
    .dropdown-col-menu {
     width: 100%;
     @media screen and (min-width: 992px) {
-      width: 38rem;
+      width: 64rem;
     }
   }
    .dropdown-col {
@@ -412,13 +423,13 @@ export const DropdownStyles = styled.div`
   }
 
   .dropdown-header {
-    color: ${(props) => props.theme.colors.grey_50};
-    font-size: 16px;
+    color: #5b5b5b;
+    font-size: 1.6rem;
     letter-spacing: -0.24px;
     line-height: 1.4;
     font-weight: 600;
     margin-bottom: 0px;
-    padding: 12px;
+    // padding: 12px;
   }
 `
 
