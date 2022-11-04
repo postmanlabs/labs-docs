@@ -59,7 +59,51 @@ Imagine you have the following JSON data returned by an endpoint:
 | `$replace(payments[0].description,"recurring", "renewing", 1)` | `"renewing subscription"` | Replaces the instances of `recurring` in the first parameter string and replaces it with renewing and limited to the first instance found (optionally specified with the `1`). Using a regex instead of `renewing` is also supported. |
 | `payments.description.$replace("recurring", "renewing")` | `["renewing subscription","one time purchase","renewing subscription","renewing subscription deluxe"]` | `$replace()` can also be used like this to change multiple string values in an array. | 
 | `$eval('$string(2)')` | "2" | Evaluates the expression passed in using JSON and/or FQL syntax | 
+| `$base64encode('some data here')` | `"c29tZSBkYXRhIGhlcmU="` |  |
+| `$base64decode("c29tZSBkYXRhIGhlcmU=")` | `"some data here"` |  |
+| `$encodeUrlComponent("?city=melbourne")` | `"%3Fcity%3Dmelbourne"` | Encodes a component such as a query parameter  |
+| `$encodeUrl('https://faketranslatewebsite.com/?phrase=こんにちは')` | `"https://faketranslatewebsite.com/?phrase=%E3%81%93%E3%82%93%E3%81%AB%E3%81%A1%E3%81%AF"` | Encodes an entire url | 
+| `$decodeUrlComponent("%3Fcity%3Dmelbourne")` | `"?city=melbourne"` |  |
+| `$decodeUrl("https://faketranslatewebsite.com/?phrase=%E3%81%93%E3%82%93%E3%81%AB%E3%81%A1%E3%81%AF")` | `"https://faketranslatewebsite.com/?phrase=こんにちは"` |  |
 
 
+
+
+
+
+Time and Date parsing
+
+
+| Syntax  | Result | Notes |
+| ------------- | ------------- | ------------- |
+| `$now()` | `"2022-11-04T22:36:57.094Z"` | Will return the ISO 8601 result for the current time |
+| `$millis()` | `1667601477254` | Same as the above but time since the Unix epoch | 
+| `$toMillis('10/12/2018 11:39 PM', '[M]/[D]/[Y] [h]:[m] [P]')` | `1539387540000` | Converts the specified date format into milliseconds since Unix epoch |
+| `$fromMillis(1539387540000, '[Y]-[M]-[D] [H]:[m]:[s] [z]')` | `"2018-10-12 23:39:00 GMT+00:00"` | Converts the milliseconds since the Unix epoch into the specified date format |
+
+
+
+Time and Date formatting
+
+
+| Character  | Meaning |
+| ------------- | ------------- |
+| Y	| year |
+| M	| month as a numerical value |
+| D	| day in month |
+| d	| day in year |
+| F	| day of week |
+| W	| week in year |
+| w	| week in month	|
+| H	| hour (24 hours) |
+| h	| hour (12 hours) |
+| P	| am/pm marker |
+| m	| minute |
+| s	| second |
+| f	| fractional seconds |
+| Z	| timezone |
+| z	| timezone but modified where to include a prefix as a time offset using GMT |
+| C	| calendar: the name or abbreviation of a calendar name |
+| E	| era: the name of a baseline for the numbering of years, for example the reign of a monarch |
 
 
