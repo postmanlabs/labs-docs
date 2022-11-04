@@ -12,19 +12,18 @@ warning: false
 
 ---
 
-Many Postman users run collections at specific times each day or week. For example, you may want to run a collection that tests your API every day. You can use the Collection Runner to schedule collection runs to execute automatically at specified dates and times.
+Many Postman users run collections at specific times each day or week. For example, you may want to run a collection that tests your API every day. You can use the Collection Runner to schedule collection runs to execute automatically at specified days and times.
 
 > You can also schedule collection runs using [monitors](/docs/running-collections/scheduling-collection-runs-monitors/). Monitors are typically used to schedule runs when you want to set up alerts like triggering on-call upon failure. Users typically choose the Collection Runner to schedule runs for all other use cases.
 
 When you schedule a collection run with the Collection Runner, the scheduled run is added to the collection's **Runs** tab. You can view, pause, edit, and delete scheduled collection runs from the collection's **Runs** tab.
 
-<img alt="Runs tab v10" src="https://assets.postman.com/postman-docs/v10/scheduled-runs-tab-3-v10.jpg"/>
+<img alt="Runs tab v10" src="https://assets.postman.com/postman-docs/v10/scheduled-runs-tab-5-v10.jpg"/>
 
-> * Scheduled runs execute in the Postman Cloud.
+> * Scheduled runs execute in the [Postman Cloud](/docs/getting-started/syncing/).
 > * Schedules share permissions with their collections. For example, if you have permissions to edit a collection, you'll be able to edit that collection's schedules.
 > * Scheduled collection runs support [custom run orders](/docs/running-collections/building-workflows/).
 > * Personal, private, and team workspaces support scheduling collection runs.
-> * Scheduled runs are executed in the Postman Cloud.
 > * Scheduled collection runs aren't included in a workspace's history.
 > * If you import or export a collection, its schedules don't import or export with it. However, if you delete a collection, its schedules are deleted also.
 > * Scheduled collection runs have the same [usage limits as monitors](/docs/monitoring-your-api/monitor-usage/).
