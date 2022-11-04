@@ -72,9 +72,11 @@ When you schedule a collection run with the Collection Runner, the scheduled run
 
 1. Select the **Runs** tab.
 
-    ![Scheduled runs tab v10](https://assets.postman.com/postman-docs/v10/scheduled-runs-tab-3-v10.jpg)
+    ![Scheduled runs tab v10](https://assets.postman.com/postman-docs/v10/scheduled-runs-tab-5-v10.jpg)
 
 1. Select the **Scheduled runs** tab.
+
+    ![Hover and select View v10](https://assets.postman.com/postman-docs/v10/scr-hover-select-view-v10.gif)
 
 1. Hover over your scheduled run and Select **View**.
 
@@ -90,9 +92,11 @@ When a scheduled run is triggered manually, it runs in the Postman Cloud.
 
 1. Select the **Runs** tab.
 
-    ![Scheduled runs tab v10](https://assets.postman.com/postman-docs/v10/scheduled-runs-tab-3-v10.jpg)
+    ![Scheduled runs tab v10](https://assets.postman.com/postman-docs/v10/scheduled-runs-tab-5-v10.jpg)
 
 1. Select the **Scheduled runs** tab.
+
+    ![Hover and select View v10](https://assets.postman.com/postman-docs/v10/scr-hover-select-view-v10.gif)
 
 1. Hover over your scheduled run and select **View**.
 
@@ -104,9 +108,11 @@ When a scheduled run is triggered manually, it runs in the Postman Cloud.
 
 1. Select the **Runs** tab.
 
-    ![Scheduled runs tab v10](https://assets.postman.com/postman-docs/v10/scheduled-runs-tab-3-v10.jpg)
+    ![Scheduled runs tab v10](https://assets.postman.com/postman-docs/v10/scheduled-runs-tab-5-v10.jpg)
 
 1. Select the **Scheduled runs** tab.
+
+    ![Hover and select More actions v10](https://assets.postman.com/postman-docs/v10/scr-hover-select-more-v10.gif)
 
 1. Hover over the scheduled run you want to pause or resume and select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px">.
 
@@ -118,9 +124,11 @@ When a scheduled run is triggered manually, it runs in the Postman Cloud.
 
 1. Select the **Runs** tab.
 
-    ![Scheduled runs tab v10](https://assets.postman.com/postman-docs/v10/scheduled-runs-tab-3-v10.jpg)
+    ![Scheduled runs tab v10](https://assets.postman.com/postman-docs/v10/scheduled-runs-tab-5-v10.jpg)
 
 1. Select the **Scheduled runs** tab.
+
+    ![Hover and select More actions v10](https://assets.postman.com/postman-docs/v10/scr-hover-select-more-v10.gif)
 
 1. Hover over the scheduled run you want to edit and select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px">.
 
@@ -134,9 +142,11 @@ When a scheduled run is triggered manually, it runs in the Postman Cloud.
 
 1. Select the **Runs** tab.
 
-    ![Scheduled runs tab v10](https://assets.postman.com/postman-docs/v10/scheduled-runs-tab-3-v10.jpg)
+    ![Scheduled runs tab v10](https://assets.postman.com/postman-docs/v10/scheduled-runs-tab-5-v10.jpg)
 
 1. Select the **Scheduled runs** tab.
+
+    ![Hover and select More actions v10](https://assets.postman.com/postman-docs/v10/scr-hover-select-more-v10.gif)
 
 1. Hover over the scheduled run you want to delete and select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px">.
 
