@@ -24,7 +24,6 @@ When you schedule a collection run with the Collection Runner, the scheduled run
 > * Schedules share permissions with their collections. For example, if you have permissions to edit a collection, you'll be able to edit that collection's schedules.
 > * Scheduled collection runs support [custom run orders](/docs/running-collections/building-workflows/).
 > * Personal, private, and team workspaces support scheduling collection runs.
-> * Scheduled collection runs aren't included in a workspace's history.
 > * If you import or export a collection, its schedules don't import or export with it. However, if you delete a collection, its schedules are deleted also.
 > * Scheduled collection runs have the same [usage limits as monitors](/docs/monitoring-your-api/monitor-usage/).
 
@@ -81,9 +80,11 @@ When you schedule a collection run with the Collection Runner, the scheduled run
 
     ![Scheduled runs view results v10](https://assets.postman.com/postman-docs/v10/view-scheduled-run-results-2-v10.jpg)
 
-1. Each column in the graph represents an iteration of your scheduled run. Select a column to see test results and the console log for that iteration. For more information see [Viewing scheduled collection runs](/docs/running-collections/viewing-scheduled-collection-runs/).
+1. Each column in the graph represents an individual run. Select a column to see test results and the console log for that run. For more information see [Viewing scheduled collection runs](/docs/running-collections/viewing-scheduled-collection-runs/).
 
 ## Manually running your scheduled run
+
+When a scheduled run is triggered manually, it runs in the Postman Cloud.
 
 1. Select **Collections** in the sidebar and select the collection with the scheduled run you want to run.
 
