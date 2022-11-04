@@ -175,7 +175,11 @@ Postman notifies the reviewers you selected about your pull request. You will re
 To create a pull request on a public collection or environment, you must fork the parent element into a public workspace so that the users you ask to [review it](#reviewing-pull-requests) have access to it.
 
 1. Begin the pull request process described in [Creating pull requests](#creating-pull-requests). A note tells you to move the source element to a public workspace.
-1. Select the public workspace where you want to move the element.
+1. Select **Move Collection** or **Move Environment**.
+
+    <img src="https://assets.postman.com/postman-docs/make-source-collection-public-v9.jpg" alt="Make the source collection public" width="400px"/>
+
+1. Select the public workspace where you want to move the fork.
 1. Select **Move Collection** or **Move Environment**.
 
     <img src="https://assets.postman.com/postman-docs/make-source-collection-public-v9.jpg" alt="Make the source collection public" width="400px"/>
@@ -235,13 +239,13 @@ The watch option enables you to receive an in-app notification when a team membe
 
 To watch a pull request:
 
-1. Select **Watch**.
+1. Select the watch icon <img alt="Watch icon" src="https://assets.postman.com/postman-docs/eye.jpg#icon" width="16px">.
 
 <img alt="Watch a pull request" src="https://assets.postman.com/postman-docs/watching-a-pull-request-v9.12.jpg" width="300px"/>
 
 To change your watching notification settings:
 
-1. Select **Watching**.
+1. Select the watch icon <img alt="Watch icon" src="https://assets.postman.com/postman-docs/eye.jpg#icon" width="16px">.
 1. Select or clear the desired notification options.
 
 <img alt="Conditions for watch notifications" src="https://assets.postman.com/postman-docs/watching-conditions-notifications-v9.jpg" width="350px"/>
@@ -310,13 +314,13 @@ If you don't want to merge the pull request into the parent element, you can dec
 
 If you're tagged as a reviewer on a pull request you can approve the pull request.
 
-To approve a pull request, select **Approve**.
+To approve a pull request, select the checkmark icon <img alt="Checkmark icon" src="https://assets.postman.com/postman-docs/icon-checkmark-v9.jpg#icon" width="16px">.
 
 > If you need to revoke your approval, select **Unapprove**.
 
 <img alt="Approve a pull request" src="https://assets.postman.com/postman-docs/pull-request-approve-v9.12.jpg" width="300px"/>
 
-After you approve the pull request, its status in the list of pull requests is **Approved**.
+After you approve the pull request, its status in the list of pull requests is `APPROVED`.
 
 <img src="https://assets.postman.com/postman-docs/pull-request-list-approved-v9.12.jpg" alt="Approved pull request" width="350px"/>
 
@@ -368,9 +372,15 @@ A merge conflict happens when you try to merge changes into an updated parent el
 
 To resolve a merge conflict:
 
-1. Look at the differences between the two entities. The **Source** line shows the changes on your fork, and the **Destination** line shows the changes on the parent element.
-1. Select **Use this** next to the version you want to include when you merge.
+1. Look at the differences between the two entities. The changes marked with **S** (Source) are the changes on your fork, and the changes marked with **D** (Destination) are the changes on the parent element.
 
-<img src="https://assets.postman.com/postman-docs/conflicts-pull-changes-v2.jpg" alt="Pull Changes" width="450px"/>
+    <img src="https://assets.postman.com/postman-docs/conflicts-pull-changes-v2.jpg" alt="Pull Changes" width="450px"/>
+
+1. Select **Pull the changes**.
+1. For each conflict, choose the version you want to include when you merge. Select **Keep Source** to keep the change on your fork. Select **Keep Destination** to keep the change on the parent element.
+
+    <img src="https://assets.postman.com/postman-docs/conflicts-pull-changes-v2.jpg" alt="Pull Changes" width="450px"/>
+
+> To keep all changes on your fork, select **Keep all changes to source**. To keep all changes on the parent element, select **Keep all changes to destination**.
 
 After you resolve the conflicts, select **Pull changes** to [pull the updates](#pulling-updates).
