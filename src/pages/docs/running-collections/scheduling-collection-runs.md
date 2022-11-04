@@ -22,7 +22,6 @@ When you schedule a collection run with the Collection Runner, the scheduled run
 
 > * Scheduled runs execute in the [Postman Cloud](/docs/getting-started/syncing/).
 > * Schedules share permissions with their collections. For example, if you have permissions to edit a collection, you'll be able to edit that collection's schedules.
-> * Scheduled collection runs support [custom run orders](/docs/running-collections/building-workflows/).
 > * Personal, private, and team workspaces support scheduling collection runs.
 > * If you import or export a collection, its schedules don't import or export with it. However, if you delete a collection, its schedules are deleted also.
 > * Scheduled collection runs have the same [usage limits as monitors](/docs/monitoring-your-api/monitor-usage/).
@@ -65,6 +64,8 @@ When you schedule a collection run with the Collection Runner, the scheduled run
 1. By default, your requests run in the sequence they're listed in the collection. If you need to change the order of execution, select and drag a request to its new location in the order. You can also remove an individual request from the run by clearing the checkbox next to its name.
 
 1. Select the **Schedule Run** button.
+
+> API calls made by scheduled collection runs are deducted from your maximum number of monitoring API calls. For more information about checking your monitor usage, see [Managing monitor usage](/docs/monitoring-your-api/monitor-usage/).
 
 ## Viewing a scheduled run
 
