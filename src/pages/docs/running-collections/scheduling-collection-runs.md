@@ -30,8 +30,8 @@ When you schedule a collection run with the Collection Runner, the scheduled run
 ## Contents
 
 * [Scheduling a collection run](#scheduling-a-collection-run)
-* [Viewing your scheduled run](#viewing-your-scheduled-run)
-* [Manually running your scheduled run](#manually-running-your-scheduled-run)
+* [Viewing a scheduled run](#viewing-your-scheduled-run)
+* [Manually running a scheduled run](#manually-running-your-scheduled-run)
 * [Pausing or resuming a scheduled run](#pausing-or-resuming-a-scheduled-run)
 * [Editing a scheduled run](#editing-a-scheduled-run)
 * [Deleting a scheduled run](#deleting-a-scheduled-run)
@@ -66,7 +66,7 @@ When you schedule a collection run with the Collection Runner, the scheduled run
 
 1. Select the **Schedule Run** button.
 
-## Viewing your scheduled run
+## Viewing a scheduled run
 
 1. Select **Collections** in the sidebar and select the collection with the scheduled run you want to view.
 
@@ -84,7 +84,7 @@ When you schedule a collection run with the Collection Runner, the scheduled run
 
 1. Each column in the graph represents an individual run. Select a column to see test results and the console log for that run. For more information see [Viewing scheduled collection runs](/docs/running-collections/viewing-scheduled-collection-runs/).
 
-## Manually running your scheduled run
+## Manually running a scheduled run
 
 When a scheduled run is triggered manually, it runs in the Postman Cloud.
 
