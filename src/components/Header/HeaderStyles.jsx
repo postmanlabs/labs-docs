@@ -369,6 +369,7 @@ export const NavStyles = styled.nav`
 export const DropdownStyles = styled.div`
      /* Individual Dropdown Item */
 
+     line-height: 20px;
      z-index: 2147483650;
      padding: 16px;
      border-radius: ${(props) => props.theme.borderRadius.medium};
@@ -393,7 +394,6 @@ export const DropdownStyles = styled.div`
     }
   }
   .dropdown-menu {
-
     /* Mobile Dropdown */
     background-color: ${(props) => props.theme.colors.grey_00};
     border: none;
@@ -415,19 +415,20 @@ export const DropdownStyles = styled.div`
     }
   }
    .dropdown-col {
+    padding: 0 12px;
     @media screen and (max-width: 991px) {
       margin-bottom: 2rem;
     }
   }
 
   .dropdown-header {
+    padding: 5px 15px;
     color: ${(props) => props.theme.forms.text};
     font-size: 1.6rem;
     letter-spacing: -0.24px;
     line-height: 1.4;
     font-weight: 600;
     margin-bottom: 0px;
-    // padding: 12px;
   }
 `
 

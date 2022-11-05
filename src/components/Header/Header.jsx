@@ -301,9 +301,9 @@ class Header extends React.Component {
                     </a>
                     <a
                       className="dropdown-item"
-                      href="https://www.postman.com/product/intelligence/"
+                      href="https://www.postman.com/product/governance/"
                     >
-                      Intelligence
+                      Governance
                     </a>
                     <a
                       className="dropdown-item"
