@@ -33,10 +33,9 @@ export const PrimaryNavbarV6 = styled.div`
     
     &.sticky { 
       position: sticky;
-      top: -1px;
+      top: -0.1px;
       z-index: 1020;
       margin: 0px;
-      // transform: translate(0px, -1%);
     }
 
     @supports ((-webkit-backdrop-filter: none) or (backdrop-filter: none)) {
@@ -61,7 +60,6 @@ export const NavStyles = styled.nav`
    .navbar-nav .nav-link,
    a {
      font-weight: 600;
-    //  padding: 6px 6px 6px 16px;
    } 
 
    /* Ul */

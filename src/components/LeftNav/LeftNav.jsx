@@ -13,6 +13,9 @@ const NavWrapper = styled.ul`
   padding: 0px 24px 0px 0px; 
   background-color: ${(props) => props.theme.colors.grey_05};
   font-size: 14px;
+  line-height: 1.5;
+
+
   .caret-sibling {
     padding-left: 0;
   }
@@ -22,6 +25,7 @@ const NavWrapper = styled.ul`
   & ul {
     margin-left: 0;
     padding-top:0;
+    margin-bottom: 1.45rem;
       
       & ul {
         margin-left: 32px;
@@ -77,7 +81,10 @@ const NavWrapper = styled.ul`
 const ChildItemsWrapper = styled.ul`
       margin-left: 32px;
       margin-top: 8px;
-// Child ---------------
+      margin-bottom: 1.45rem;
+
+  // Child ---------------
+
   .child {
     margin-left: 16px;
     margin-right:16px;
