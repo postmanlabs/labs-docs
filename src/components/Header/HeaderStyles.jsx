@@ -421,7 +421,7 @@ export const DropdownStyles = styled.div`
   }
 
   .dropdown-header {
-    color: #5b5b5b;
+    color: ${(props) => props.theme.forms.text};
     font-size: 1.6rem;
     letter-spacing: -0.24px;
     line-height: 1.4;
