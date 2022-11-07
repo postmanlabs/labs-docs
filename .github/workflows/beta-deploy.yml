@@ -5,9 +5,13 @@ permissions:
   contents: read
 
 on:
+  workflow_dispatch:
   push:
-    branches:
-    - 'develop'
+      branches:
+      - 'develop'
+
+env:
+  BRANCH: ${{github.ref_name}}
 
 jobs:
   build:
@@ -28,6 +32,11 @@ jobs:
           aws-region: ${{ secrets.AWS_REGION }}
           aws-access-key-id: ${{ secrets.BETA_AWS_ACCESS_KEY_ID }}
           aws-secret-access-key: ${{ secrets.BETA_AWS_SECRET_ACCESS_KEY }}
+
+      - name: Sanitize Branch Name
+        id: sanitized-branch
+        run: |
+          echo "SANITIZED_BRANCH="$(echo "${{env.BRANCH}}" | tr "/" "-" | tr "[:upper:]" "[:lower:]")"" >> $GITHUB_OUTPUT   
           
       - name: set keys and deploy
         env:
@@ -52,7 +61,7 @@ jobs:
             npm install
             npm run clean
             npm run build:dev
-            aws s3 sync ./public/ s3://${{secrets.BETA_BUCKET_NAME}}/ --delete
+            aws s3 sync ./public/ s3://${{secrets.BETA_BUCKET_NAME}}/${{ steps.sanitized-branch.outputs.SANITIZED_BRANCH}}/ --delete
         
       - name: invalidate the CDN
         uses: chetan/invalidate-cloudfront-action@v2
@@ -62,8 +71,3 @@ jobs:
           DISTRIBUTION: ${{ secrets.BETA_DIST_ID }}
           AWS_ACCESS_KEY_ID: ${{ secrets.BETA_AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.BETA_AWS_SECRET_ACCESS_KEY }}
-
-
-
-
-

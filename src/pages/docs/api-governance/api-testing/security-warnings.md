@@ -142,7 +142,7 @@ Sometimes developers expose all object properties without considering their sens
 
 ### Information exposure
 
-Sometimes an API can inadvertently discloses sensitive information like the location of the file that produced an unhandled exception. This information can be used to launch more attacks on a web application.
+Sometimes an API can inadvertently disclose sensitive information like the location of the file that produced an unhandled exception. This information can be used to launch more attacks on a web application.
 
 <!-- vale Postman.Weasel = NO -->
 
