@@ -330,7 +330,7 @@ export const NavStyles = styled.nav`
        right: 0;
        left: 0;
        width: 100%;
-       top: 52px;
+       top: 49px;
        background-color: ${(props) => props.theme.colors.grey_00};
        padding: 0 16px 32px 16px;
        -webkit-transition: all 0.2s ease;
