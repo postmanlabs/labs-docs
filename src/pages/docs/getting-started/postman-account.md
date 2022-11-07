@@ -149,7 +149,7 @@ You can turn off two-factor authentication at any time:
 
 You can [enable two-factor authentication](#setting-up-two-factor-authentication) again at any time in your account settings.
 
-#### Deleting your account
+### Deleting your account
 
 Deleting your account is an irreversible operation. Any data synced to your account will be deleted and no longer be accessible.
 
