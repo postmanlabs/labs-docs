@@ -75,19 +75,17 @@ When you schedule a collection run with the Collection Runner, the scheduled run
 
     ![Scheduled runs tab v10](https://assets.postman.com/postman-docs/v10/scheduled-runs-tab-5-v10.jpg)
 
-1. Select the **Scheduled runs** tab.
+1. Select the **Scheduled runs** tab, hover over your scheduled run, and Select **View**.
 
     ![Hover and select View v10](https://assets.postman.com/postman-docs/v10/scr-hover-select-view-v10.gif)
 
-1. Hover over your scheduled run and Select **View**.
+1. Each column in the graph represents an individual run. Select a column to see test results and the console log for that run. For more information see [Viewing scheduled collection runs](/docs/running-collections/viewing-scheduled-collection-runs/).
 
     ![Scheduled runs view results v10](https://assets.postman.com/postman-docs/v10/view-scheduled-run-results-2-v10.jpg)
 
-1. Each column in the graph represents an individual run. Select a column to see test results and the console log for that run. For more information see [Viewing scheduled collection runs](/docs/running-collections/viewing-scheduled-collection-runs/).
-
 ## Manually running a scheduled run
 
-When a scheduled run is triggered manually, it runs in the Postman Cloud.
+When a scheduled run is triggered manually, it runs in the Postman Cloud. Running scheduled runs manually is useful when you are fixing bugs or reproducing issues.
 
 1. Select **Collections** in the sidebar and select the collection with the scheduled run you want to run.
 
@@ -117,7 +115,9 @@ When a scheduled run is triggered manually, it runs in the Postman Cloud.
 
 1. Hover over the scheduled run you want to pause or resume and select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px">.
 
-1. Select **Pause** or **Resume**. Paused runs appear under the **Paused** heading on the **Runs** tab.
+1. Select **Pause** or **Resume**.
+
+    ![Hover and select More actions v10](https://assets.postman.com/postman-docs/v10/scr-paused-run-v10.gif)
 
 ## Editing a scheduled run
 
