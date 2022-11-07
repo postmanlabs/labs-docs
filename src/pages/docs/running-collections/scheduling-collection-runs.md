@@ -140,7 +140,15 @@ When a scheduled run is triggered manually, it runs in the Postman Cloud. Runnin
 
 ## Changing run order
 
+1. Under **Schedule Runs on the Collection Runner**, change the order by dragging and dropping requests or skipping requests.
 
+Step 2: Select the environment and other configurations as required and click Schedule:
+
+Step 3: Check results and see the custom run order that is being executed in the results:
+
+You can edit this order at any point by clicking the Edit schedule menu option. If a new request is added or deleted from the underlying collection, it will be indicated for your schedule. You can then choose to ignore these requests or add them to your run executions. In the below example, a new request was added:
+
+Please note that the number of requests you can run as part of scheduled runs is rate limited and the usage is counted towards your Monitoring Usage.
 
 ## Deleting a scheduled run
 
