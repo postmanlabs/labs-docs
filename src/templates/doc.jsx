@@ -9,42 +9,24 @@ import { leftNavItems } from '../components/LeftNav/LeftNavItems';
 import LeftNav from '../components/LeftNav/LeftNav';
 import SEO from '../components/seo';
 const { v4: uuidv4 } = require('uuid');
-import { ButtonStyles } from '../../styles/ButtonStyles'
 import styled from 'styled-components';
 import 'prismjs/themes/prism-tomorrow.css';
 import { useModal } from '../components/modules/Modal';
 import PreviousAndNextLinks from '../components/modules/PreviousAndNextLinks';
 import BreadCrumbsLinks from '../components/modules/BreadCrumbsLinks';
 import LoadQualtrics from '../components/modules/loadQualtrics';
+import { BaseLinkStyles  } from 'aether-marketing';
 
 const DocWrapper = styled.div`
   /* Used for Deeplinking */   
 h2, h3, h4 {
   scroll-margin-top: 2em;
 }
-a{
-  color: ${(props) => props.theme.colors.blue_60};
-  :hover {
-    border-bottom: 1px solid ${(props) => props.theme.colors.blue_60};
-    text-decoration: none;
-  }
-    &.anchor.before {
-      top: .2em;
-      padding-right: 8px;
-      
-      & svg {
-        width: auto;
-        height: .9em;
-        display: block;
-      }
-    }
 
-    &.anchor:hover {
-        border: none !important;
-        display: block;
-    }
-}
 .doc-page {
+  a {
+    ${BaseLinkStyles.componentStyle.rules}
+  }
   padding-left: 40px !important;
   padding-top: 40px;
   padding-bottom: 40px;
@@ -290,7 +272,7 @@ const RightColumnWrapper = styled.aside`
 `
 
 const DocPage = ({ data }) => {
-  const [modalData] = useState(data.markdownRemark)
+  const [modalData] = useState(data.markdownRemark);
   const post = data.markdownRemark;
   // Last modified date - bottom
   // Last modified time - top 
@@ -358,9 +340,7 @@ const DocPage = ({ data }) => {
               </main>
               <RightColumnWrapper className="col-sm-12 col-md-12 col-lg-3 offset-lg-0 col-xl-3 offset-xl-1 right-column">
                 <hr className="d-block d-lg-none" />
-                <ButtonStyles >
-                  <EditDoc className="btn edit-button-styles primary-hollow " />
-                </ButtonStyles>
+                <EditDoc />
                 <DisplayContextualLinks data={data} />
                 <figure className="sticky posmanaut-dab">
                   <img src="https://voyager.postman.com/illustration/postmanaut-posing-dancing-postman-illustration.svg" alt="Posmanaut dancing. Illustration." className="img-fluid" />

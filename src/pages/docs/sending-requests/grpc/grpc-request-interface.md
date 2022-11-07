@@ -1,6 +1,6 @@
 ---
 title: "Using the gRPC request interface"
-updated: 2022-09-15
+updated: 2022-10-04
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -11,6 +11,9 @@ contextual_links:
     name: "Additional resources"
   - type: subtitle
     name: "Videos"
+  - type: link
+    name: "Working with gRPC | The Exploratory"
+    url: "https://youtu.be/RbHOs2xchGE"
   - type: link
     name: "gRPC Requests | Postman Level Up"
     url: "https://youtu.be/gfYGqMb81GQ"
@@ -26,27 +29,27 @@ gRPC requests in Postman include a variety of tools, views, and controls to help
 * [The request section](#the-request-section)
 * [Invoking different types of methods](#invoking-different-types-of-methods)
 * [The response section](#the-response-section)
-* [The sidebar](#the-sidebar)
+* [The right sidebar](#the-right-sidebar)
 * [Troubleshooting](#troubleshooting)
 * [Next steps](#next-steps)
 
 ## Creating a new request
 
-Create a new gRPC request by selecting the **New** button in the left sidebar which brings up the **Create new** dialog. Select gRPC request from the list to open a blank **gRPC request** in a new tab.
+Create a new gRPC request by selecting the **New** button in the sidebar which brings up the **Create new** dialog. Select gRPC request from the list to open a blank **gRPC request** in a new tab.
 
 <img src="https://assets.postman.com/postman-docs/v10/grpc-new-request.gif" alt="New gRPC request" />
 
 ## The request section
 
-The request section includes the required configurations to connect to the server and execute the selected method. Requests need a server URL, a service definition and a selected method in order to be invoked. Additionally, based on the API requirements, you may have to pass message payloads, metadata and authorization details along with it. You may also have to configure TLS and additional certificates based on the requirements.
+The request section includes the required configurations to connect to the server and execute the selected method. Requests need a server URL, a service definition, and a selected method in order to be invoked. Based on the API requirements, you may have to pass message payloads, metadata, and authorization details along with the request. You may also have to configure TLS and other certificates based on the requirements.
 
 <img src="https://assets.postman.com/postman-docs/v10/grpc-request-sections.jpg" alt="Request pane" />
 
-* **Server URL** - Defines the endpoint where the service is hosted. A gRPC URL often starts with `grpc://` instead of `http://` or `https://`. While creating a new request, you can also browse through previously used URLs by selecting the URL field. This helps you create the request faster if you’re testing multiple methods on the same endpoint.
+* **Server URL** - Defines the endpoint where the service is hosted. A gRPC URL often starts with `grpc://` instead of `http://` or `https://`. While creating a new request, you can also browse through URLs you've used by selecting the URL field. This helps you create the request faster if you’re testing multiple methods on the same endpoint.
 
 * **Method** - Select the method you wish to invoke using the method selector dropdown. The list of methods is populated by the service definition. Method types are described in detail in the [invoking different types of methods](#invoking-different-types-of-methods) section below.
 
-* **Payload** - A gRPC payload contains items to aid the server in executing the request:
+* **Payload** - A gRPC payload has items to aid the server in executing the request:
 
     * **Message** - Compose a message in JSON here to send along with the request. The server uses this message to perform appropriate actions and gives you a response in return.
 
@@ -54,11 +57,11 @@ The request section includes the required configurations to connect to the serve
 
     * **Authorization** - Pass credentials that the server would use to authorize the connection here. You can choose from a list of auth types including API Key, Basic auth, and Bearer token. Learn more about [authorizing requests](/docs/sending-requests/authorization/).
 
-    * **Metadata** - Pass additional metadata with the request in the form of key-value pairs. The client uses this metadata to provide more information about the call to the server.
+    * **Metadata** - Pass other metadata with the request in the form of key-value pairs. The client uses this metadata to provide more information about the call to the server.
 
     * **Service definition** -  A service definition makes the client aware of all the services and methods supported by the server and also message payload structure, supported fields and data types. A service definition is loaded automatically after you enter the URL if the server supports server reflection. Otherwise, you will be required to load a service definition manually either by uploading a `.proto` file or creating a protobuf API in Postman. Learn more about [working with service definitions](/docs/sending-requests/grpc/using-service-definition/).
 
-* **Scripts** - Postman contains a powerful scripting environment that allows you to add JavaScript code (scripts) in your gRPC requests. You can use scripts to write API tests, debug your requests by logging to [Postman Console](/docs/sending-requests/troubleshooting-api-requests/), or dynamically read or update the values of [variables](/docs/sending-requests/variables/). Learn more about [scripting in gRPC requests](/docs/sending-requests/grpc/scripting-in-grpc-request/).
+* **Scripts** - Postman has a powerful scripting environment that allows you to add JavaScript code (scripts) in your gRPC requests. You can use scripts to write API tests, debug your requests by logging to [Postman Console](/docs/sending-requests/troubleshooting-api-requests/), or dynamically read or update the values of [variables](/docs/sending-requests/variables/). Learn more about [scripting in gRPC requests](/docs/sending-requests/grpc/scripting-in-grpc-request/).
 
 * **TLS Toggle** - Unlike HTTP which defines if the call is going to be executed over a secured or unsecured connection using the URL structure (`http://` for unsecured, `https://` for secured), with gRPC, the client needs to configure it manually. Based on the server requirement, you can choose to invoke the method over a secured or an unsecured connection using the lock icon <img alt="Lock icon" src="https://assets.postman.com/postman-docs/icon-lock.jpg#icon" width="11px"> before the URL.
 
@@ -66,9 +69,9 @@ The request section includes the required configurations to connect to the serve
 
 * **Request name** - If you want to test multiple requests with different configurations, you can name each of them individually and save them into a collection. Saving into a collection lets you reuse the requests later and share them with others.
 
-* **Request actions** - Request actions provide you with options on what you can do with the request:
+* **Request actions** - Request actions offer options on what you can do with the request:
 
-    * **Save** - Saves the request into a collection so that you can reuse it later or share it with others. Because WebSocket and gRPC requests have different features than HTTP requests, when they're added to a collection, it causes the collection to be in a “beta” state with certain limitations. When in this state, a collection can only contain WebSocket or gRPC requests. It can't contain HTTP requests. Some features related to collections also aren't supported.
+    * **Save** - Saves the request into a collection so that you can reuse it later or share it with others. Because WebSocket and gRPC requests have different features than HTTP requests, when they're added to a collection, it causes the collection to be in a “beta” state with certain limitations. When in this state, a collection can contain WebSocket or gRPC requests but can't contain HTTP requests. Some features related to collections also aren't supported.
 
     * **Delete** - Deletes an existing request from the collection.
 
@@ -106,7 +109,7 @@ To invoke a server streaming method, select the method from the **Method selecti
 
 In the case of bidirectional streaming, the client and the server can communicate with each other asynchronously.
 
-To invoke a bidirectional streaming method, select the method from the **Method selection** dropdown and select **Invoke**. This puts the request in a ‘Streaming' state and you can start sending messages to the server. The server can also respond back freely within the same session. Once you’re done, select **End streaming** to end the session.
+To invoke a bidirectional streaming method, select the method from the **Method selection** dropdown and select **Invoke**. This puts the request in a ‘Streaming' state and you can start sending messages to the server. The server can also respond back within the same session. Once you’re done, select **End streaming** to end the session.
 
 ## The response section
 
@@ -114,15 +117,15 @@ Once you invoke a method, the server gives back the appropriate response that ap
 
 <!--TODO: image with callouts, with Postman echo service shown -->
 
-The response section contains the following items:
+The response section has the following items:
 
-* **Response** - A response payload contains three types of information:
+* **Response** - A response payload has three types of information:
 
     * **Response body** - The primary information returned by the server after the successful execution of a request.
 
-    * **Metadata (Initial) and Trailing metadata** - Metadata returned by the server typically consists of additional information about the execution.
+    * **Metadata (Initial) and Trailing metadata** - Metadata returned by the server typically consists of information about the execution.
 
-* **Additional information** - This section provides you with key information regarding performance and if the execution was successful. You can assess the performance of the API using the information on how long the execution took. The status code gives you information explaining whether the execution was successful. The status code `0 OK` signifies successful execution. In case of an error, a gRPC-based implementation returns different status codes for different error scenarios which help you understand the cause and figure out the next set of actions by hovering on it.
+* **More information** - This section gives you key information regarding performance and if the execution was successful. You can assess the performance of the API using the information on how long the execution took. The status code gives you information explaining whether the execution was successful. The status code `0 OK` signifies successful execution. In case of an error, a gRPC-based implementation returns different status codes for different error scenarios which help you understand the cause and figure out the next set of actions by hovering on it.
 
 * **Wrap text button** - Selecting this button adjusts the width of the response body according to the width of the response area, making it easier to read longer responses without scrolling.
 
@@ -132,27 +135,29 @@ The response section contains the following items:
 
     * **Connection status** - The connection status shows if the connection with the server is active and if messages are being streamed.
 
-    * **Message stream** - The message stream contains the list of sent, received, and informative messages arranged in reverse chronological order (latest appears on the top).
+    * **Message stream** - The message stream has the list of sent, received, and informative messages arranged in reverse chronological order (latest appears on the top).
 
     * **Expand/collapse message** - You can take an in-depth look at the message content by expanding it within the message stream.
 
     * **Search for messages** - You can use the high-level search input to search for particular messages.
 
-    * **Message filter** - Adjust the view based on the type of messages using the message filter. Instead of all messages, you can choose to view only the ones Sent from the client or Received from the server.
+    * **Message filter** - Adjust the view based on the type of messages using the message filter. Instead of all messages, you can choose to view the ones Sent from the client or Received from the server.
 
     * **Clear messages** - The **Clear messages** button hides all the messages exchanged from the view, cleaning up the response area so that you can focus on the new messages. You can restore the messages using the **Restore** button in the hidden view.
 
 * **Test results** - The results for assertions you write in the Scripts section appear here. Based on the test script, the results can be one of three types: Passed, Failed, and Skipped. Learn more about [scripting in gRPC requests](/docs/sending-requests/grpc/scripting-in-grpc-request/).
 
-## The sidebar
+## The right sidebar
 
-The sidebar gives you access to additional tools and information like documentation, commenting, and meta information on the request.
+The right sidebar gives you access to more tools and information like documentation, commenting, and request details. Open a gRPC request, and then select an option in the right sidebar:
 
-* **Request documentation** - Use the documentation pane to write documentation of your request, making it easier for others to consume it. When you select a method, Postman automatically generates documentation for the payload fields and data types using the Protobuf definition. You can add additional descriptions using markdown to make it better.
+* **Request documentation** - Select the documentation icon <img alt="Documentation icon" src="https://assets.postman.com/postman-docs/documentation-icon-v8-10.jpg#icon" width="16px"> to view documentation for a request. When you select a method, Postman automatically generates documentation for the payload fields and data types using the Protobuf definition. You can also add a description to help users understand and use the request. Select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px"> next to the description, then write your content using Postman's [built-in editing tools](/docs/publishing-your-api/authoring-your-documentation/).
 
-* **Comments** - Collaborate with your teammates while working on an API using comments. You can tag others to notify them about your question or feedback and have discussions in the comment thread to figure things out together.
+    > You can also add a description to your collection's overview or a folder in your collection. Select the collection or folder in the sidebar, then select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px"> next to the description.
 
-* **Request information** - The request information pane shows additional details about the request, like request ID and when it was created.
+* **Comments** - Select the comments icon <img alt="Comments icon" src="https://assets.postman.com/postman-docs/icon-comments-v9.jpg#icon" width="18px"> to collaborate with your teammates as you work on an API. You can use `@` to tag others to ask a question, give feedback, and discuss your API.
+
+* **Request information** - Select the information icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px"> to view more details about a request, like the request ID and creation date.
 
 ## Troubleshooting
 
@@ -162,7 +167,7 @@ For more troubleshooting information, see [Troubleshooting app issues](/docs/get
 
 ### Service unavailable
 
-The server you are using is unreachable with the current client settings. If you have confirmed the server is working properly, check the TLS settings in the client. By default, TLS is turned off.
+The server you are using is unreachable with the current client settings. If you have confirmed the server is working, check the TLS settings in the client. By default, TLS is turned off.
 
 ### Server reflection failed
 

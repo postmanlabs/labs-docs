@@ -1,7 +1,7 @@
 ---
 title: "Postman API"
 order: 146
-updated: 2021-10-26
+updated: 2022-10-12
 page_id: "intro_api"
 search_keyword: "postman-api-key, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset"
 contextual_links:
@@ -63,25 +63,25 @@ You will need an [API key](#generating-a-postman-api-key) to access the Postman 
 
 You need a valid API Key to send requests to the Postman API. To generate an API key:
 
-1. Open your [Postman API Keys page](https://go.postman.co/settings/me/api-keys). Select your avatar in the upper-right corner > **Settings**. Then select **Postman API keys**.
+1. Open your [API Keys page](https://go.postman.co/settings/me/api-keys). Select your avatar in the upper-right corner > **Settings**. Then select **API keys**.
 
 1. If you don't have any keys yet you'll be prompted to create one. Select __Generate API Key__.
 
-   <img alt="Generate API Key" src="https://assets.postman.com/postman-docs/no-api-keys-generate-v9.0.jpg" width="400px"/>
+   <img alt="Generate API Key" src="https://assets.postman.com/postman-docs/v10/no-api-keys-generate-v10.jpg" width="600px"/>
 
 1. Enter a name for your key and select __Generate API Key__.
 
-1. Copy your key, then __Close__.
+1. Copy your key.
 
-<img src="https://assets.postman.com/postman-docs/copy-your-api-key-v9.jpg" alt="Copy your API key" width="600px"/>
+    <img src="https://assets.postman.com/postman-docs/v10/copy-your-api-key-v10.jpg" alt="Copy your API key" width="600px"/>
 
-Once you have API keys generated you can manage them within your workspace. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to a key to regenerate or delete it.
+Once you have API keys generated you can manage them within your workspace. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to a key to regenerate, rename, or delete it.
 
-<img src="https://assets.postman.com/postman-docs/api-keys-regenerate-delete-v9.jpg" alt="View your API keys"/>
+<img src="https://assets.postman.com/postman-docs/v10/api-keys-regenerate-rename-delete-v10.jpg" alt="View your API keys"/>
 
-Use __API Key Settings__ to specify expiration periods for your keys.
+Use __API key settings__ to specify expiration periods for your keys.
 
-<img src="https://assets.postman.com/postman-docs/postman-api-key-settings.jpg" width="400px" alt="API key settings"/>
+<img src="https://assets.postman.com/postman-docs/v10/postman-api-key-settings-v10.jpg" width="600px" alt="API key settings"/>
 
 ### Authentication
 
@@ -107,4 +107,4 @@ Access to the API using a key is limited to **300 requests per minute**. Every A
 
 ### Free API calls with your Postman account
 
-Your Postman account gives you a limited number of free Postman API calls per month. You can check your usage limits through the [Postman API](https://www.postman.com/postman/workspace/postman-public-workspace/documentation/12959542-c8142d51-e97c-46b6-bd77-52bb66712c9a) itself or the [account usage page](https://go.pstmn.io/postman-account-limits).
+Your Postman account gives you a limited number of free Postman API calls per month. You can check your usage limits through the [Postman API](https://www.postman.com/postman/workspace/postman-public-workspace/documentation/12959542-c8142d51-e97c-46b6-bd77-52bb66712c9a) itself or the [resource usage page](https://go.postman.co/billing/add-ons/overview).

@@ -24,16 +24,11 @@ contextual_links:
     name: "Intro to Postman playlist"
     url: "https://youtube.com/playlist?list=PLM-7VG-sgbtAgGq_pef5y_ruIUBPpUgNJ"
   - type: link
-    name: "Postman Space Camp: An Introduction for Developers"
+    name: "Postman Intergalactic: An Introduction for Developers"
     url: "https://youtu.be/8MOzaTsVRKg"
   - type: link
     name: "Postman Community Forum | Postman Level Up"
     url:  "https://youtu.be/Ks_4H58eCQc"
-  - type: subtitle
-    name: "Public Workspaces"
-  - type: link
-    name: "30 days of Postman for developers"
-    url:  "https://www.postman.com/postman/workspace/30-days-of-postman-for-developers/overview"
   - type: subtitle
     name: "Blog Posts"
   - type: link
@@ -42,7 +37,14 @@ contextual_links:
   - type: link
     name: "10 Postman Features Everyone Should Know"
     url: "https://blog.postman.com/10-postman-features-everyone-should-know/"
-
+  - type: link
+    name: "What Do 37,000 Developers Say About Postman? 3 Key Things"
+    url: "https://blog.postman.com/what-developers-say-about-postman/"
+  - type: subtitle
+    name: "Public Workspaces"
+  - type: link
+    name: "30 days of Postman for developers"
+    url:  "https://www.postman.com/postman/workspace/30-days-of-postman-for-developers/overview"
 ---
 
 Welcome to the Postman docs! This is the place to find official information on how to use Postman in your API projects.

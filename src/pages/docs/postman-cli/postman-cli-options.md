@@ -1,6 +1,6 @@
 ---
 title: "Postman CLI command options"
-updated: 2022-09-15
+updated: 2022-10-18
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -128,11 +128,11 @@ postman collection run 12345678-12345ab-1234-1ab2-1ab2-ab1234112a12
 
 ## Governance and security
 
-API governance is the practice of applying a defined set of standards consistently across your API design and testing phases of your development process. The Postman CLI includes an API linting command, described below. (This feature is available for [Enterprise teams only](https://www.postman.com/pricing/)).
+API governance is the practice of applying a defined set of standards consistently across your API design and testing phases of your development process. The Postman CLI includes a command that checks your API definitions against your team's configured API Governance and API Security rules. (This feature is available for [Enterprise teams only](https://www.postman.com/pricing/)).
 
 ### postman api lint
 
-This command runs validation checks for governance and security rules against the API definition provided in the Postman config file, a local file, or a UUID. You can only lint single-file definitions. `api lint` shows a warning if unable to find the API ID to send data back to Postman.
+This command runs validation checks for governance and security rules against the API definition provided in the Postman config file, a local file, or a UUID. `api lint` shows a warning if unable to find the API ID to send data back to Postman.
 
 > This command supports APIs that are stored on Postman and aren't linked to Git.
 
@@ -142,3 +142,10 @@ This command runs validation checks for governance and security rules against th
 postman api lint my-definition-file.json
 postman api lint 8854915-bb7236b2-536e-4bdc-bfa2-fbe2fe1941eb
 ```
+
+#### Options
+
+Option | Details
+--- | ---
+`--fail-severity [severity]`, `-f` | Triggers an exit failure code for rule violations at or above the specified severity level. The options, in order of lowest to highest severity, are `HINT`, `INFO`, `WARN`, and `ERROR` (default).
+`--suppress-exit-code`, `-x`| Specifies whether to override the default exit code for the current run.

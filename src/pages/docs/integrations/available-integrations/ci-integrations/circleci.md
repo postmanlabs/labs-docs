@@ -38,12 +38,12 @@ To set up CircleCI integration for your API, first create an API token in Circle
 1. Open your API by selecting **APIs** in the sidebar. *Each API can be linked to one CI project*.
 1. Select **Test and Automation**.
 1. Under **Automate**, select **CircleCI**.
-1. For **API Key**, enter your CircleCI token.
 1. Enter a **Nickname** to help you recognize the integration later.
+1. For **API Key**, enter your CircleCI token.
 1. Select the **CI project** used for your API.
 1. Select **Connect**.
 
-<img alt="Connect to CircleCI" src="https://assets.postman.com/postman-docs/circleci-connect-project-v9-15.jpg" width="512px">
+<img alt="Connect to CircleCI" src="https://assets.postman.com/postman-docs/v10/circleci-connect-project-v10.jpg" width="512px">
 
 ## Viewing build status
 
@@ -61,6 +61,14 @@ Select **View All Builds** to view the full list of build jobs. From here you ca
 
 <img alt="View all CircleCI builds" src="https://assets.postman.com/postman-docs/v10/collection-runs-v10-2.jpg">
 
+## Viewing API Governance and API Security rule violations
+
+Using the Postman CLI, you can enforce [API Governance and API Security rules each time the pipeline runs](/docs/api-governance/api-definition/api-definition-warnings/#tracking-governance-and-security-rule-violations-in-cicd) using the [`api lint` command](/docs/postman-cli/postman-cli-options/#governance-and-security) ([Enterprise teams only](https://www.postman.com/pricing/)).
+
+To view the results of API Governance and API Security checks that ran as part of the build, first [configure the Postman CLI for CircleCI](#configuring-the-postman-cli-for-circleci) and then [start a new build](#viewing-build-status). After the build is complete, use the arrows to expand a build and expand an API definition to view any rule violations.
+
+<img alt="View API Governance and API Security results" src="https://assets.postman.com/postman-docs/v10/api-governance-and-security-results-v10.jpg">
+
 ## Configuring the Postman CLI for CircleCI
 
 With the help of the Postman CLI and the Postman API, you can run API tests created in Postman as part of your CircleCI pipeline. First generate the Postman CLI configuration code in Postman. Then add the configuration code to the `config.yml` file in your CircleCI project.
@@ -73,7 +81,7 @@ To generate configuration code for the Postman CLI:
 1. Under **CI/CD Builds**, select **View All Builds**.
 1. Select **Configure Postman CLI**.
 1. Select a **Collection** to run during pipeline builds. To be available in the dropdown list, you must first [add the collection as a test suite](/docs/designing-and-developing-your-api/testing-an-api/#adding-tests) to your API. You can also select an **Environment** to use.
-1. (Optional) Select the checkbox to enforce API Governance and API Security rules each time the CI/CD pipeline runs ([Enterprise teams only](https://www.postman.com/pricing/)). To review rule violations, go to the API's overview page and select **View files** under **Definition**.
+1. (Optional) Select the checkbox to enforce API Governance and API Security rules each time the CI/CD pipeline runs ([Enterprise teams only](https://www.postman.com/pricing/)).
 1. Select the **Operating system** for your CI/CD pipeline.
 1. Select **Copy Postman CLI Command** to copy the Postman CLI configuration.
 

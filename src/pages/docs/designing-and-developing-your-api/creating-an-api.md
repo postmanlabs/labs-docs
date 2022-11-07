@@ -12,7 +12,7 @@ contextual_links:
   - type: subtitle
     name: "Videos"
   - type: link
-    name: "Postman Space Camp | Design and Prototype an API in Postman"
+    name: "Postman Intergalactic | Design and Prototype an API in Postman"
     url: "https://youtu.be/r4kb3jOSsmk"
   - type: link
     name: "API Builder | The Exploratory"
@@ -24,7 +24,7 @@ contextual_links:
     name: "API Fest 2022 | Workshop on Coding an API using an API Schema"
     url: "https://youtu.be/RMiG9tzw5tg"
   - type: link
-    name: "Getting Started with OpenAPI in Postman | Postman Space Camp"
+    name: "Getting Started with OpenAPI in Postman | Postman Intergalactic"
     url: "https://youtu.be/YRzpziA35Mg"
   - type: section
     name: "Next Steps"

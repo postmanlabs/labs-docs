@@ -12,10 +12,16 @@ contextual_links:
   - type: subtitle
     name: "Videos"
   - type: link
+    name: "Unboxing What’s New in Postman v10 | Postman Intergalactic"
+    url:  "https://youtu.be/LmEl7rHYhxU"
+  - type: link
     name: "Agent for the Postman Web Client | Postman Level Up"
     url:  "https://www.youtube.com/watch?v=6xlJUx2ZMy4&list=PLM-7VG-sgbtC5tNXxd28cmePSa9BYwqeU&index=3"
   - type: subtitle
     name: "Blog Posts"
+  - type: link
+    name: "Announcing Postman v10: The API Platform for an API-First World"
+    url: "https://blog.postman.com/announcing-postman-v10/"
   - type: link
     name: "Introducing the Postman Agent: Send API Requests from Your Browser without Limits"
     url: "https://blog.postman.com/introducing-the-postman-agent-send-api-requests-from-your-browser-without-limits/"
@@ -158,16 +164,17 @@ The Postman web app is under active development. There are features you can only
 * **Find and replace** - The Postman desktop app supports [finding and replacing values in a workspace](/docs/getting-started/navigating-postman/#find-and-replace), but this function isn't available on the Postman web app yet.
 * **Certificates and proxy** - The Postman desktop app enables you to customize [certificates](/docs/sending-requests/certificates/) and [proxy configurations](/docs/getting-started/proxy/#configuring-proxy-settings). On the Postman web app, these take the browser defined value and can't be overridden by Postman.
 * **Postman Interceptor** - [Interceptor](/docs/sending-requests/capturing-request-data/interceptor/) syncs cookies from your browser to the Postman desktop app and captures network requests directly from the browser. It's not possible to use Interceptor with the Postman web app.
+* **Scratch Pad** - The Postman desktop app supports working in Postman offline using the [Scratch Pad](/docs/getting-started/using-scratch-pad/).
 
 ## Updating Postman
 
 The Postman desktop app notifies you when a major update is available. For other updates, there is a dot on the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px">. If the indicator is red instead of orange, it indicates a failed update.
 
-![Update Ready](https://assets.postman.com/postman-docs/update-ready-v86.jpg)
+<img alt="Update Ready" src="https://assets.postman.com/postman-docs/v10/update-ready-v10.jpg" width="300px"/>
 
 Select the update option to download or install the latest update. If you are using Postman v9.13 or later, Postman automatically downloads updates. Postman notifies you when the download is complete and prompts you to restart Postman to apply the updates.
 
-<img alt="Check for updates" src="https://assets.postman.com/postman-docs/settings-updates-v9.jpg"/>
+<img alt="Check for updates" src="https://assets.postman.com/postman-docs/v10/settings-update-v10.jpg"/>
 
 ## Postman Chrome app (deprecated)
 

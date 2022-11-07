@@ -1,6 +1,6 @@
 ---
 title: 'Adding elements to an API'
-updated: 2021-09-15
+updated: 2022-09-15
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -12,7 +12,7 @@ contextual_links:
   - type: subtitle
     name: "Videos"
   - type: link
-    name: "Postman Space Camp | Advanced API Debugging"
+    name: "Postman Intergalactic | Advanced API Debugging"
     url: "https://youtu.be/9xGp6d7VFgU"
   - type: subtitle
     name: "Blog Posts"
@@ -67,7 +67,7 @@ The copy of the collection displays on your API's overview and under your API in
 To generate a new collection from your API definition:
 
 1. Select **APIs** in the sidebar and select an API.
-1. On the API's overview, next to **Collections**, select **+** and select **Generate from API definition**.
+1. On the API's overview, next to **Collections**, select **+** and select **Generate from definition**.
 1. Change any settings to customize the new collection.
 1. Select **Generate Collection**.
 

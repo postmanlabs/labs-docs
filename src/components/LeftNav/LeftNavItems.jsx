@@ -55,6 +55,10 @@ export const leftNavItems = [
         url: '/docs/getting-started/postman-account/',
       },
       {
+        name: 'Customizing your Postman profile',
+        url: '/docs/getting-started/postman-profile/',
+      },
+      {
         name: 'Syncing your work',
         url: '/docs/getting-started/syncing/',
       },
@@ -532,6 +536,10 @@ export const leftNavItems = [
           {
             name: 'Deploying an Apigee API',
             url: '/docs/designing-and-developing-your-api/deploying-an-api/deploying-an-api-apigee/',
+          },
+          {
+            name: 'Deploying an Azure API',
+            url: '/docs/designing-and-developing-your-api/deploying-an-api/deploying-an-api-azure/',
           },
         ],
       },

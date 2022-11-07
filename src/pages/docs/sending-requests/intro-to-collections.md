@@ -62,6 +62,7 @@ Select **Collections** in the sidebar for the list of collections in a workspace
     * [Reverting collection changes](#reverting-collection-changes)
     * [Viewing pull requests, forks, and collection details](#viewing-pull-requests-forks-and-collection-details)
 * [Using collections in development workflows](#using-collections-in-development-workflows)
+* [About multi-protocol request collections](#about-multi-protocol-request-collections)
 
 ## Creating collections
 
@@ -224,7 +225,7 @@ To view notifications about what has changed in a collection you watch:
 
 1. You will also receive an email with the information regarding who made the change, what the change was, and when it was made. Select **View changelog** in the email to access the full changelog in Postman.
 
-> If you create a collection and modify it from the same Postman account, you won't receive notifications for any changes you make to that collection.
+> If you create a collection and change it from the same Postman account, you won't receive notifications for any changes you make to that collection.
 
 ### Forking a collection
 
@@ -244,7 +245,7 @@ To add a comment at the collection level:
 
 ### Reverting collection changes
 
-To revert your collection to a previous state:
+To revert your collection to an earlier state:
 
 1. Select the changelog icon <img alt="Changelog icon" src="https://assets.postman.com/postman-docs/icon-changelog-v9.jpg#icon" width="18px"> on the right.
 2. Select a session to expand it.
@@ -260,7 +261,7 @@ From the right sidebar:
 
 * To view pull requests for a collection, select the pull request icon <img alt="Pull request icon" src="https://assets.postman.com/postman-docs/icon-pull-request.jpg#icon" width="16px">
 * To view forks created from a collection, select the fork icon <img alt="Fork icon" src="https://assets.postman.com/postman-docs/icon-fork.jpg#icon" width="16px">
-* To view additional information about the collection, including mock servers, monitors, and integrations, select the information icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px">
+* To view more information about the collection, including mock servers, monitors, and integrations, select the information icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px">
 
 ## Using collections in development workflows
 
@@ -271,3 +272,11 @@ Collections can power various parts of your API development, testing, and publis
 * Attaching a [monitor](/docs/monitoring-your-api/intro-monitors/) to a collection lets you schedule collection runs. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the collection name, and then select **Monitor collection**.
 * You can use [mock servers](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/) to return sample data during testing and development. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the collection name, and then select **Mock collection**.
 * Generate collections from API specifications using the [Postman API Builder](/docs/designing-and-developing-your-api/the-api-workflow/).
+
+## About multi-protocol request collections
+
+You can also save multi-protocol requests, such as [WebSocket](/docs/sending-requests/websocket/websocket/) and [gRPC](/docs/sending-requests/grpc/grpc-client-overview/) requests, into collections.
+
+Because multi-protocol requests have different features than HTTP requests, when they're saved to a collection, it causes the collection to be in a “beta” state with certain limitations.
+
+When in this state, a collection can only contain WebSocket or gRPC requests, and not HTTP requests. Some features related to collections also aren't supported.

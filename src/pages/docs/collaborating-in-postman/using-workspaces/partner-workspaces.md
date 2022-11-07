@@ -4,7 +4,14 @@ order: 76
 page_id: "partner_workspaces"
 updated: 2022-09-15
 warning: false
-
+contextual_links:
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Blog Posts"
+  - type: link
+    name: "Introducing Partner Workspaces: An Exclusive Space to Collaborate with Your API Partners"
+    url: "https://blog.postman.com/introducing-partner-workspaces/"
 ---
 
 > **[Partner Workspaces are only available to Postman Enterprise teams.](https://www.postman.com/pricing)**

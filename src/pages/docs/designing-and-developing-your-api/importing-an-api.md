@@ -24,6 +24,7 @@ You can import an existing API definition into your API. API definitions can be 
 * [Importing API definitions](#importing-api-definitions)
 * [Importing multi-file API definitions](#importing-multi-file-api-definitions)
 * [Importing API definitions from Amazon API Gateway](#importing-api-definitions-from-amazon-api-gateway)
+* [Importing API definitions from Azure API Management](#importing-api-definitions-from-azure-api-management)
 * [Supported API definitions formats](#supported-api-definitions-formats)
 
 ## Importing API definitions
@@ -59,9 +60,9 @@ To learn more about working with multi-file API definitions, see [Editing an API
 
 ## Importing API definitions from Amazon API Gateway
 
-[Amazon API Gateway](https://aws.amazon.com/api-gateway/) enables developers to publish and manage APIs that access AWS as well as other web services and data sources. You can import APIs directly from AWS Gateway to Postman. This creates an integration with API Gateway. Once connected, you can view your API deployment status and history from within Postman. You can also view [Amazon CloudWatch](https://aws.amazon.com/cloudwatch/) metrics for each stage to get operational insight into your API.
+[Amazon API Gateway](https://aws.amazon.com/api-gateway/) enables developers to publish and manage APIs that access AWS and other web services and data sources. You can import APIs directly from AWS Gateway to Postman. This creates an integration with API Gateway. Once connected, you can view your API deployment status and history from within Postman. You can also view [Amazon CloudWatch](https://aws.amazon.com/cloudwatch/) metrics for each stage to get operational insight into your API.
 
-This integration supports importing OpenAPI 3.0 definitions for both HTTP and REST APIs. Importing will create a new API in Postman, with the API name set as the name of the API Gateway, and the default API version set as the name of the stage or environment. The new API will also have the AWS API Gateway integration added to it.
+This integration supports importing OpenAPI 3.0 definitions for both HTTP and REST APIs. Importing a definition will create a new API in Postman and will also configure an integration with AWS API Gateway.
 
 To import an API from AWS API Gateway:
 
@@ -77,7 +78,7 @@ To set up a connection to Amazon API Gateway using an AWS IAM role:
 
 1. Select **IAM** under **AWS Authentication Mechanism**.
 
-    <img alt="Connecting with AWS IAM role" src="https://assets.postman.com/postman-docs/import-from-api-gateway-with-iam-role-v9.jpg" />
+    <img alt="Connecting with AWS IAM role" src="https://assets.postman.com/postman-docs/import-from-api-gateway-with-iam-role-v9.jpg" width="484px" />
 
 1. Select the **AWS API Type** (HTTP or REST).
 
@@ -132,7 +133,7 @@ Copy the **Role ARN** from AWS and paste it in Postman under **Step 2: Enter rol
 
 To set up a connection to Amazon API Gateway using an AWS access key, select **Access Key** under **AWS Authentication Mechanism**.
 
-<img alt="Connecting with AWS access key" src="https://assets.postman.com/postman-docs/import-from-api-gateway-with-access-key.jpg" />
+<img alt="Connecting with AWS access key" src="https://assets.postman.com/postman-docs/import-from-api-gateway-with-access-key.jpg" width="483px" />
 
 Next, enter information about the connection:
 
@@ -142,6 +143,28 @@ Next, enter information about the connection:
 * Enter an **API Name** for the imported API.
 
 When you're ready, select **Import**. After importing your API definition, you can [view API deployments in Postman](/docs/designing-and-developing-your-api/deploying-an-api/deploying-an-api-aws/).
+
+## Importing API definitions from Azure API Management
+
+You can import a definition from a connected Azure API Management service to an API in Postman. Importing a definition will create a new API in Postman and will also configure an integration with Azure API Management. Learn more about [integrating with Azure API Management](/docs/designing-and-developing-your-api/deploying-an-api/deploying-an-api-azure/).
+
+To import an API definition from Azure API Management:
+
+1. From the sidebar, select **APIs**, then select **Import**.
+1. Select **API Gateway**, then select **Azure API Management**.
+1. You'll be prompted to authorize Postman to access your Microsoft Azure account. After you grant access, you can close the browser tab and return to Postman.
+1. Enter information about the Azure API Management service you want to import a definition from:
+
+    * **Subscription** - The [subscription](https://docs.microsoft.com/en-us/azure/api-management/api-management-subscriptions) where the service was created.
+    * **Resource Group** - The [resource group](https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/manage-resource-groups-portal) that contains the service.
+    * **Service** - The Azure API Management [service instance](https://docs.microsoft.com/en-us/azure/api-management/api-management-key-concepts) used for deploying your API.
+    * **Azure API Version** - The Azure API [version](https://docs.microsoft.com/en-us/azure/api-management/api-management-versions) you want to import.
+    * **Definition type** - Select the specification for the definition you want to import (OpenAPI 2.0 or OpenAPI 3.0).
+    * **API name** - The name to use for the new API that will be created in Postman using the imported definition.
+
+1. Select **Import**.
+
+    <img alt="Importing an API definition from Azure API Management" src="https://assets.postman.com/postman-docs/v10/import-definition-from-azure-apim-v10-0-25.jpg" width="523px"/>
 
 ## Supported API definitions formats
 

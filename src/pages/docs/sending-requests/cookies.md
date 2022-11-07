@@ -38,7 +38,7 @@ Postman's cookie manager enables you to view and edit cookies that are associate
 
 A computer _cookie_ is more formally known as an HTTP cookie, a web cookie, an Internet cookie, or a browser cookie. The name is a shorter version of “magic cookie,” which is a term for a packet of data that a computer receives and then sends back without changing or altering it.
 
-A cookie typically contains two pieces of data: a unique ID for each user and a site name. Cookies enable websites to retrieve this information when you revisit them, so that they can remember you and your preferences and tailor page content for you based on this information. Without cookies, you’d have to sign in again after you leave a site or rebuild your shopping cart if you accidentally closed a web page. This makes cookies an important a part of the internet experience.
+A cookie typically has two pieces of data: a unique ID for each user and a site name. Cookies enable websites to retrieve this information when you revisit them, so that they can remember you and your preferences and tailor page content for you based on this information. Without cookies, you’d have to sign in again after you leave a site or rebuild your shopping cart if you closed a web page. This makes cookies an important a part of the internet experience.
 
 ## Using the cookie manager
 
@@ -165,6 +165,18 @@ To clear all cookies for a URL, use the `.clear()` function. This function takes
 ```js
 // delete the set cookies
 cookieJar.clear(URL, callback (error));
+```
+
+### Deleting and then setting cookies in sequence
+
+To clear all cookies for a URL `.clear()` and then place a cookie into a cookie jar `.set()`, use a callback function.
+
+Function calls execute asynchronously. Use a callback function to ensure functions execute in sequence:
+
+```js
+cookieJar.clear(URL, (error) => {
+    jar.set(URL, cookie name, cookie value, callback(error, cookie));
+});
 ```
 
 ### Properties not supported

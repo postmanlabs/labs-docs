@@ -63,7 +63,9 @@ You can invite users to your Postman team by navigating to [Manage Team](https:/
 
 Or, you can invite a user to join your team with a link. To do so, select **Get Link**.
 
-Only Team Admins and [Super Admins](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can send invitations. However, any team member can submit requests to invite collaborators to your team. You can review these requests in your [team dashboard](https://go.postman.co/settings/team/members) and opt to approve or dismiss them. If you approve the request, Postman will send an invitation to the individual.
+Team Admins and [Super Admins](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can send invitations for any role type. On Free, Basic, and Professional plans, users with the Developer role can invite external users as Developers automatically, without the need for approval by a Team Admin.
+
+If users aren't a Team Admin or a Developer inviting another Developer on a Free, Basic, or Professional plan, their request to add external users to your Postman team will be shared with you for approval. You can review these requests in your [team dashboard](https://go.postman.co/settings/team/members) and choose to approve or dismiss them. If you approve the request, Postman will send an invitation to the individual.
 
 You can also allow Postman users from your company to request to join your team by enabling [team discovery](/docs/collaborating-in-postman/working-with-your-team/enabling-team-discovery/#enabling-team-discovery).
 
@@ -85,7 +87,7 @@ You can review invite requests team members have submitted in your [team dashboa
 
 To remove a member from your team, go to your [team dashboard](https://go.postman.co/settings/team/members). Select the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> next to the team member's name.
 
-![Removing a team member](https://assets.postman.com/postman-docs/remove-team-member-v9.19.jpg)
+![Removing a team member](https://assets.postman.com/postman-docs/v10/remove-team-member-v10.jpg)
 
 When you remove a user from your team, you will still retain access to any data they have shared with the team. Reassign their personal workspaces to another team member to ensure the team continues to have access to any unshared work done by the user being removed. Then to confirm, select **Remove Member**.
 
@@ -99,9 +101,9 @@ Each team member must have one or more team roles, which will allow them to perf
 
 You can change the roles of team members by selecting **Team** in the upper right > [**Manage Team**](https://go.postman.co/settings/team/members).
 
-Under **Members**, select the roles next to the user you'd like to update. Select the roles you'd like to assign or remove, then **Update Roles** to confirm your changes.
+Search for a specific user by typing their name or email in the search field. You can also filter users by role type. Select the roles next to the user you'd like to update, then select the roles you'd like to assign or remove. Select **Update Roles** to confirm your changes.
 
-<img alt="Edit team roles" src="https://assets.postman.com/postman-docs/v10/members-edit-roles-v10.jpg"/>
+<img alt="Edit team roles" src="https://assets.postman.com/postman-docs/v10/update-team-roles-v10.1.jpg"/>
 
 > Each team member must have at least one team role assigned to them.
 
@@ -121,7 +123,10 @@ You can manage your team size or upgrade your plan at any time during your team'
 
 ### Changing team size
 
-Team members with the Billing role can change your team's number of paid slots in the [billing dashboard](https://go.postman.co/billing/overview). Team Admins can invite more users without having to pay in advance for more seats with [Auto-Flex](/docs/administration/billing/#utilizing-auto-flex).
+If you want to change your team's size, you have two different options:
+
+* **Change the number of paid slots** - Team members with the Billing role can change your team's number of paid slots in the [billing dashboard](https://go.postman.co/billing/overview).
+* **Enable Auto-Flex** - Your team can invite more users without having to pay in advance for more seats with [Auto-Flex](/docs/administration/billing/#utilizing-auto-flex).
 
 For more information, see [Team and plan changes](/docs/administration/billing/#team-and-plan-changes).
 

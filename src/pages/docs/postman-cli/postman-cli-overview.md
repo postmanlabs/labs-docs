@@ -8,6 +8,13 @@ contextual_links:
     name: "Using the Collection Runner"
     url: "/docs/running-collections/intro-to-collection-runs/"
   - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Blog Posts"
+  - type: link
+    name: "Introducing the New Postman CLI to Automate Your API Testing"
+    url: "https://blog.postman.com/introducing-the-postman-cli-to-automate-your-api-testing/"
+  - type: section
     name: "Next Steps"
   - type: link
     name: "Installing the Postman CLI"
@@ -20,7 +27,7 @@ The Postman CLI is a secure command-line companion for Postman. It is secured an
 * Run a collection with its collection ID or path.
 * Send run results to Postman by default.
 * Supports log in and log out.
-* Lint an API and run validation checks for governance and security rules.
+* Check API definitions against configured API Governance and API Security rules
 
 ## Contents
 
@@ -34,7 +41,7 @@ The table below shows some high-level differences between the Postman CLI and Ne
 | Postman CLI  | Newman  |
 |---|---|
 | Created by Postman | Created by Postman |
-| Closed source; supported by Postman | Open source; supported by community contributions |
+| Maintained and supported by Postman | Open source; supported by community contributions |
 | Supports collection runs| Supports collection runs  |
 | Automatically sends collection run results to Postman by default | Supports ingesting run results to Postman using a reporter |
 | Package is signed by Postman | Package isn't signed by Postman |
@@ -42,7 +49,7 @@ The table below shows some high-level differences between the Postman CLI and Ne
 | Downloadable programmatically | Downloadable programmatically
 | Not available as a library | Available as a library
 | Supports log in and log out | Doesn't support log in and log out |
-| Supports API linting | Doesn't support API linting |
+| Checks API definition against configured API Governance and API Security rules | Doesn't check API definition against configured API Governance and API Security rules |
 
 ## Deciding which command-line companion to use
 

@@ -56,7 +56,7 @@ Postman uses **OpenSSL** to generate certificate-key pairs. For Postman to be ab
 
 OpenSSL is already installed for macOS and is typically installed for Linux. For Windows systems, you must install OpenSSL manually:
 
-1. Download and install the [OpenSSL v1.1.1 installer](https://slproweb.com/products/Win32OpenSSL.html) for your operating system version. OpenSSL v1.x is required to generate certificates. Later versions of OpenSSL are not supported at this time.
+1. Download and install the [OpenSSL v1.1.1 installer](https://slproweb.com/products/Win32OpenSSL.html) for your operating system version. OpenSSL v1.x is required to generate certificates. Later versions of OpenSSL aren't supported at this time.
 
     > During installation, make sure to select the option to copy the OpenSSL DLLs to the **OpenSSL binaries (/bin) directory**.
 
@@ -106,7 +106,8 @@ OpenSSL is already installed for macOS and is typically installed for Linux. For
     [![Select System keychains](https://assets.postman.com/postman-docs/mac-install-new-crt-v9-1.jpg)](https://assets.postman.com/postman-docs/mac-install-new-crt-v9-1.jpg)
 
 1. Expand the **Trust** section. Select the option to **Always Trust** when using this certificate, and make sure **Always Trust** is selected for **Secure Sockets Layer(SSL)**.
-    [![Select always trust for Postman keychain](https://assets.postman.com/postman-docs/mac-install-crt-always-trust-v9-1.jpg)](https://assets.postman.com/postman-docs/mac-install-crt-always-trust-v9-1.jpg)
+
+    ![Select always trust for Postman keychain](https://assets.postman.com/postman-docs/v10/mac-install-crt-always-trust-v10.jpg)
 
 1. Close the certificate window. Enter your system password to update the settings.
 
@@ -194,7 +195,7 @@ OpenSSL is already installed for macOS and is typically installed for Linux. For
 
 ## Troubleshooting certificate issues
 
-If you are unable to correctly install the `postman-proxy-ca.crt` certificate, or if the certificate is not allowing you to capture traffic, regenerate and reinstall the certificate.
+If you are unable to correctly install the `postman-proxy-ca.crt` certificate, or if the certificate isn't allowing you to capture traffic, regenerate and reinstall the certificate.
 
 1. Make sure you are running Postman version 9.1 or later. See [Updating Postman](/docs/getting-started/installation-and-updates/#updating-postman).
 1. On the computer where Postman is installed, delete the `/Postman/Proxy` folder. You can find the folder in the following location:

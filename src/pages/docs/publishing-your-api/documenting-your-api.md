@@ -1,6 +1,6 @@
 ---
 title: "Generating API documentation"
-updated: 2022-09-15
+updated: 2022-10-04
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -26,11 +26,11 @@ contextual_links:
   - type: subtitle
     name: "Case Studies"
   - type: link
+    name: "WhatsApp"
+    url:  "https://www.postman.com/case-studies/whatsapp/"
+  - type: link
     name: "SEI Novus"
     url: "https://www.postman.com/case-studies/sei-novus/"
-  - type: link
-    name: "Code for Baltimore"
-    url: "https://www.postman.com/case-studies/code-for-baltimore/"
   - type: section
     name: "Next Steps"
   - type: link
@@ -51,6 +51,7 @@ Once you've generated documentation for your collection or API, users can [view 
 ## Contents
 
 * [Documenting a collection](#documenting-a-collection)
+    * [Documenting gRPC and WebSocket collections](#documenting-grpc-and-websocket-collections)
 * [Generating API documentation](#generating-api-documentation)
     * [Viewing schema documentation](#viewing-schema-documentation)
     * [Creating new documentation for an API](#creating-new-documentation-for-an-api)
@@ -67,13 +68,17 @@ Postman automatically generates basic documentation for any collection you creat
 To make your documentation even more valuable to users, [add descriptions](/docs/publishing-your-api/authoring-your-documentation/) to the items in your collection. Any descriptions you add are automatically included in the documentation for your collection.
 
 1. Select **Collections** in the sidebar, and then select a collection, folder, or request.
-1. Select the documentation icon <img alt="Documentation icon" src="https://assets.postman.com/postman-docs/documentation-icon-v8-10.jpg#icon" width="16px"> in the context bar.
+1. Select the documentation icon <img alt="Documentation icon" src="https://assets.postman.com/postman-docs/documentation-icon-v8-10.jpg#icon" width="16px"> in the right sidebar.
 1. Select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px"> next to the description.
 1. Compose your new content, and then select **Save**. To learn more about using Postman's built-in editing tools, see [Authoring your docs](/docs/publishing-your-api/authoring-your-documentation/).
 
 <img alt="Documentation pane" src="https://assets.postman.com/postman-docs/documentation-pane-v9.jpg" width="566px">
 
 > You can also edit descriptions when viewing the complete documentation for a collection. Select **View complete collection documentation** at the bottom of the **Documentation** pane, and then edit the descriptions as usual.
+
+### Documenting gRPC and WebSocket collections
+
+Collections with gRPC or WebSocket requests use a different format than collections with HTTP requests. You can view documentation and add descriptions for gRPC or WebSocket requests. You can also add a description on the collection's **Overview** tab, but you can't view or edit documentation for the full collection. Learn more about [documenting gRPC requests](/docs/sending-requests/grpc/grpc-request-interface/#the-right-sidebar) or [documenting WebSocket requests](/docs/sending-requests/websocket/websocket/#documenting-requests).
 
 ## Generating API documentation
 
