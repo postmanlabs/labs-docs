@@ -178,6 +178,10 @@ To copy a link to most elements, hover over the element's name in the workbench 
 
 <img alt="Copy link to elements" src="https://assets.postman.com/postman-docs/v10/copy-link-to-element-v10.jpg" width="300px"/>
 
+If the element is in a workspace that no one can access, a popup window will display when you select the link icon. The popup window enables you to invite people your the workspace before sharing the link. To invite people to your workspace, select **Invite People**. To learn more about inviting people to collaborate in a workspace, see [Sharing workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#sharing-workspaces).
+
+<img alt="Invite people before sharing link to element" src="https://assets.postman.com/postman-docs/v10/copy-link-to-element-invite-v10.jpg" width="300px"/>
+
 #### Viewing conflicts
 
 A tab will alert you to a conflict if you or a collaborator changes its contents in another tab or workspace. Postman prompts you to resolve any conflicts that happen.
