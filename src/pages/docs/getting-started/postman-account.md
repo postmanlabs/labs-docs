@@ -32,6 +32,8 @@ Signing up for a Postman account is optional, and you can use the Postman deskto
 * [Updating your account settings](#updating-your-account-settings)
     * [Changing your email address](#changing-your-email-address)
     * [Resetting your password](#resetting-your-password)
+    * [Setting up two-factor authentication](#setting-up-two-factor-authentication)
+    * [Turning off two-factor authentication](#turning-off-two-factor-authentication)
     * [Deleting your account](#deleting-your-account)
 * [Updating your notification preferences](#updating-your-notification-preferences)
 * [Managing your active sessions](#managing-your-active-sessions)
@@ -107,7 +109,7 @@ If you aren't signed in to your Postman account, you can recover your username o
 
 If you're on an Enterprise plan, you must contact your Team Admins to update the password associated with your Postman account.
 
-#### Setting up two-factor authentication
+### Setting up two-factor authentication
 
 If you sign into Postman using a username/email and password, you can set up two-factor authentication for your account:
 
@@ -129,7 +131,7 @@ If you're signed in to Postman and would like to regenerate your recovery codes,
 
 > If you lose access to your device and can't access your authenticator app, select **Use a recovery code** when signing into Postman. If you've lost your recovery codes, [email Postman support](mailto:help@postman.com) from a registered email address for help.
 
-#### Turning off two-factor authentication
+### Turning off two-factor authentication
 
 You can turn off two-factor authentication at any time:
 
