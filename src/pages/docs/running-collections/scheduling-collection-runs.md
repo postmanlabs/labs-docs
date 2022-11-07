@@ -40,7 +40,7 @@ When you schedule a collection run with the Collection Runner, the scheduled run
 
 1. Select **Collections** in the sidebar and select the collection you want to schedule.
 
-1. On the Overview tab, select <img alt="Runner icon" src="https://assets.postman.com/postman-docs/icon-runner-v9.jpg#icon" width="16px"> **Run**.
+1. On the Overview tab, select <img alt="Runner icon" src="https://assets.postman.com/postman-docs/icon-runner-v9.jpg#icon" width="16px"> **Runs**.
 
     > You can also select <img alt="Runner icon" src="https://assets.postman.com/postman-docs/icon-runner-v9.jpg#icon" width="16px"> __Runner__ from the Postman footer and drag a collection from __Collections__ or __History__ in the sidebar.
 
@@ -62,7 +62,7 @@ When you schedule a collection run with the Collection Runner, the scheduled run
       * Follow redirects
       * Enable SSL validation
 
-1. By default, your requests run in the sequence they're listed in the collection. If you need to change the order of execution, select and drag a request to its new location in the order. You can also remove an individual request from the run by clearing the checkbox next to its name.
+1. By default, your requests run in the sequence they're listed in the collection. If you need to change the order of execution, select and drag a request to its new location in the order. You can also remove an individual request from the run by clearing the checkbox next to its name. For more information, see [Changing run order](#changing-run-order).
 
 1. Select the **Schedule Run** button.
 
@@ -140,15 +140,31 @@ When a scheduled run is triggered manually, it runs in the Postman Cloud. Runnin
 
 ## Changing run order
 
-1. Under **Schedule Runs on the Collection Runner**, change the order by dragging and dropping requests or skipping requests.
+Many Postman users use collections as repositories of requests, which they run in different sequences to represent different workflows or different variations of the same workflow. The Collection Runner already enables you to change the order of your requests and skip requests before running them. Similarly, when scheduling your collection runs, you can re-order your requests and save this custom order to be run on a schedule. This enables you to use the same collection to automate multiple test scenarios.
 
-Step 2: Select the environment and other configurations as required and click Schedule:
+To change the request order in a scheduled run:
 
-Step 3: Check results and see the custom run order that is being executed in the results:
+1. Select **Collections** in the sidebar and select the collection you want to reorder.
 
-You can edit this order at any point by clicking the Edit schedule menu option. If a new request is added or deleted from the underlying collection, it will be indicated for your schedule. You can then choose to ignore these requests or add them to your run executions. In the below example, a new request was added:
+1. On the Overview tab, select <img alt="Runner icon" src="https://assets.postman.com/postman-docs/icon-runner-v9.jpg#icon" width="16px"> **Runs**.
 
-Please note that the number of requests you can run as part of scheduled runs is rate limited and the usage is counted towards your Monitoring Usage.
+    > You can also select <img alt="Runner icon" src="https://assets.postman.com/postman-docs/icon-runner-v9.jpg#icon" width="16px"> __Runner__ from the Postman footer and drag a collection from __Collections__ or __History__ in the sidebar.
+
+1. Hover over the scheduled run you want to edit and select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px">.
+
+1. Select **Edit schedule** and edit the scheduled run's settings.
+
+1. Under **RUN ORDER**, change the order by dragging and dropping requests. Skip a request by unchecking its checkbox.
+
+    ![Custom run order v10](https://assets.postman.com/postman-docs/v10/scr-custom-order-v10.gif)
+
+1. Select the **Save Changes** button.
+
+    When a new request is added or deleted from a scheduled run's collection, the scheduled run has a **Review Changes** link next to it under **Runs > Scheduled runs**. Click the link to review and edit the changes. In the example below, a new request was added:
+
+    ![Schedule runs](https://assets.postman.com/postman-docs/v10/scr-review-custom-order-v10.gif)
+
+    > Requests run as part of a scheduled run are rate limited and usage is deducted from your maximum Monitoring Usage. For more information about checking your monitor usage, see [Managing monitor usage](/docs/monitoring-your-api/monitor-usage/).
 
 ## Deleting a scheduled run
 
