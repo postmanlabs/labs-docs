@@ -29,15 +29,15 @@ Using Postman's [mock servers](/docs/designing-and-developing-your-api/mocking-d
 
 When you create a mock server, Postman associates a particular collection (and optionally an environment) with the new mock server. In the scenario below, the collection `C1` is associated with the new mock server `M1`.
 
-[![create mock diagram](https://assets.postman.com/postman-docs/create-mock-v9.jpg)](https://assets.postman.com/postman-docs/create-mock-v9.jpg)
+![create mock diagram](https://assets.postman.com/postman-docs/v10/create-mock-v10.jpg)
 
 When you call the mock server `M1` using the mock server URL `https://M1.mock.pstmn.io`, the mock service retrieves all saved examples for the associated collection before it begins the matching process.
 
-[![show mock diagram](https://assets.postman.com/postman-docs/show-mock-v9.jpg)](https://assets.postman.com/postman-docs/show-mock-v9.jpg)
+![show mock diagram](https://assets.postman.com/postman-docs/v10/show-mock-v10.jpg)
 
 After the mock service has all the saved examples for the collection, it iteratively pairs the incoming request with the closest matching example.
 
-[![use mock diagram](https://assets.postman.com/postman-docs/use-mock-v9.jpg)](https://assets.postman.com/postman-docs/use-mock-v9.jpg)
+![use mock diagram](https://assets.postman.com/postman-docs/v10/use-mock-v10.jpg)
 
 The incoming request can have several configurable variables, such as `requestMethod`, `requestPath`,  `requestHeaders`, `requestBody`, and `requestParams`. The `requestMethod` variable corresponds to any valid HTTP request method (such as `GET`, `POST`,`PUT`, `PATCH`, or `DELETE`), and the `requestPath` refers to any valid string path (such as `/`, `/test`, `/test/path`, or `/test/path/1`).
 
@@ -61,17 +61,17 @@ Any responses that aren't the same HTTP method type as the incoming request are 
 
 ### 3. Filter by custom headers
 
-The matching algorithm checks any custom headers passed in the request in the following order:
+The matching algorithm checks any custom headers passed in the incoming request in the following order:
 
 1. If the `x-mock-response-code` header is provided, the algorithm filters out all examples that don't have a matching response status code.
-1. If the `x-mock-response-id` header is provided, the algorithm filters out all examples that don't have a matching response ID. If no example is found with a matching ID, an error is returned.
-1. If the `x-mock-response-name` header is provided, the algorithm filters out all examples that don't have a matching name. If more than one example has the same name, Postman sorts the examples by ID and returns the example that comes first in the list.
+1. If the `x-mock-response-id` header is provided, the algorithm selects the example with the matching response ID and returns the example as the response. An error is returned if no example is found with a matching ID.
+1. If the `x-mock-response-name` header is provided, the algorithm selects the example with the matching name and returns the example as the response. If more than one example has the same name, Postman sorts the examples by ID and returns the example that comes first in the list. An error is returned if no example is found with a matching name.
 
-### 4. Filter by URL and parameters
+### 4. Filter by URL
 
-For each saved example, the matching algorithm compares the `path` of the request with the `path` of the example. If the request's URL is `https://M1.mock.pstmn.io/test` and the example's URL is `https://google.com/help`, the algorithm compares `/test` with `/help`. In this case the paths don't match, so the corresponding example is removed from the matching process, and the algorithm moves to the next example.
+The matching algorithm compares the `/path` of the incoming request with the `/path` of each saved example. The algorithm then assigns a score to each example based on how closely the paths match.
 
-The matching algorithm assigns a score to each matching example. An example starts with a score of 100, and the score is adjusted based on how closely the request and example URLs match. The algorithm goes through the following steps in order and stops when a match is made. The score is then adjusted based on the step that resulted in a match. If a match can't be made after the last step, the example is removed from the matching process.
+An example starts with a score of 100. The algorithm goes through the following steps in order and stops when a match is made. The score is then adjusted based on the step that resulted in a match. If a match can't be made, the example is removed from the matching process.
 
 | URL matching step | Matching score adjustment |
 | ----------- | ----------- |
@@ -84,6 +84,10 @@ The matching algorithm assigns a score to each matching example. An example star
 | URLs match after removing trailing slashes (`/`) and alphanumeric IDs | Reduced by 25 |
 | URLs match based on a [document distance algorithm](https://www.npmjs.com/package/levenshtein) | Reduced by 30 |
 
+> For example, if the request's URL is `https://M1.mock.pstmn.io/test` and the example's URL is `https://postman.com/about`, the algorithm compares `/test` with `/about`. In this case the paths don't match, so the corresponding example is skipped, and the algorithm moves to the next example.
+
+### 5. Filter by parameters
+
 After matching URLs, the algorithm examines the parameters for each example (such as `{{url}}/path?status=pass`). The matching score is further adjusted based on how closely the request and example parameters match.
 
 | Parameter matching step | Matching score adjustment |
@@ -92,7 +96,7 @@ After matching URLs, the algorithm examines the parameters for each example (suc
 | Parameter match is case insensitive | Increased by 5 |
 | Parameters don't match | Reduced by 10 |
 
-### 5. Check for header and body matching
+### 6. Check for header and body matching
 
 You can [turn on header and body matching](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/#matching-request-body-and-headers) in the mock server configuration. When these settings are turned on:
 
@@ -101,9 +105,9 @@ You can [turn on header and body matching](/docs/designing-and-developing-your-a
 
 > You can also enable header and body matching by passing the custom header `x-mock-match-request-body` or `x-mock-match-request-headers` with the request. These custom headers have higher precedence than header or body matching values specified in the mock server configuration.
 
-### 6. Select the highest matching score
+### 7. Select the highest matching score
 
-The matching algorithm sorts the remaining filtered responses by ID in descending order and returns the response with the highest matching score.
+The matching algorithm sorts the remaining filtered responses by matching scores in descending order and returns the response with the highest score.
 
 > If more than one example has the same matching score, Postman returns the example that comes first in the sorted list.
 
