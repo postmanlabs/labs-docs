@@ -20,7 +20,7 @@ When you schedule a collection run with the Collection Runner, the scheduled run
 
 <img alt="Runs tab v10" src="https://assets.postman.com/postman-docs/v10/scheduled-runs-tab-5-v10.jpg"/>
 
-> * Scheduled runs execute in the [Postman Cloud](/docs/getting-started/syncing/).
+> * Scheduled runs execute in the Postman Cloud.
 > * Schedules share permissions with their collections. For example, if you have permissions to edit a collection, you'll be able to edit that collection's schedules.
 > * Personal, private, and team workspaces support scheduling collection runs.
 > * If you import or export a collection, its schedules don't import or export with it. However, if you delete a collection, its schedules are deleted also.
@@ -29,8 +29,8 @@ When you schedule a collection run with the Collection Runner, the scheduled run
 ## Contents
 
 * [Scheduling a collection run](#scheduling-a-collection-run)
-* [Viewing a scheduled run](#viewing-your-scheduled-run)
-* [Manually running a scheduled run](#manually-running-your-scheduled-run)
+* [Viewing a scheduled run](#viewing-a-scheduled-run)
+* [Manually running a scheduled run](#manually-running-a-scheduled-run)
 * [Pausing or resuming a scheduled run](#pausing-or-resuming-a-scheduled-run)
 * [Editing a scheduled run](#editing-a-scheduled-run)
 * [Deleting a scheduled run](#deleting-a-scheduled-run)
