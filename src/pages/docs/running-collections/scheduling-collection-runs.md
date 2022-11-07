@@ -33,6 +33,7 @@ When you schedule a collection run with the Collection Runner, the scheduled run
 * [Manually running a scheduled run](#manually-running-a-scheduled-run)
 * [Pausing or resuming a scheduled run](#pausing-or-resuming-a-scheduled-run)
 * [Editing a scheduled run](#editing-a-scheduled-run)
+* [Changing run order](#changing-run-order)
 * [Deleting a scheduled run](#deleting-a-scheduled-run)
 
 ## Scheduling a collection run
@@ -136,6 +137,10 @@ When a scheduled run is triggered manually, it runs in the Postman Cloud. Runnin
 1. Select **Edit schedule** and edit the scheduled run's settings.
 
 1. Select **Save changes** when you're finished editing.
+
+## Changing run order
+
+
 
 ## Deleting a scheduled run
 
