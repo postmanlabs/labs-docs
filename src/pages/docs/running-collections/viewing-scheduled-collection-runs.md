@@ -12,7 +12,7 @@ warning: false
 
 ---
 
-Many Postman users run collections at specific times each day or week. For example, you may want to run a collection that tests your API every day. You can use the Collection Runner to [schedule collection runs](/docs/running-collections/scheduling-collection-runs/) to execute automatically at specified dates and times.
+You can run collections at specific times each day or week. For example, you may want to run a collection that tests your API every day. You can use the Collection Runner to [schedule collection runs](/docs/running-collections/scheduling-collection-runs/) to execute automatically at specified dates and times.
 
 ## Contents
 
