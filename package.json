@@ -58,7 +58,7 @@
     "react-instantsearch-hooks-web": "6.30.3",
     "react-typography": "0.16.20",
     "s3-deploy": "1.4.0",
-    "sass": "1.44.0",
+    "sass": "1.32.0",
     "shelljs": "0.8.5",
     "styled-components": "5.3.5",
     "terser": "5.15.1",

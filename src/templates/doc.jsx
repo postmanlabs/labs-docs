@@ -220,6 +220,7 @@ code[class*="language-"] {
 
   & ul {
     margin-left: 0;
+    margin-bottom: 1.6rem !important;
     & ul {
       margin-left: 32px;
       margin-top: 8px;
@@ -238,8 +239,8 @@ code[class*="language-"] {
       cursor: pointer;
     }
   }
-
 }
+
 .events__alert {
     border: 4px dashed ${(props) => props.theme.colors.blue_10};
     border-radius: ${(props) => props.theme.borderRadius.medium};
