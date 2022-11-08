@@ -57,7 +57,7 @@ After connecting, you can push and pull changes between Postman and branches in 
 
 ## Connecting to a repository
 
-You can connect an API in Postman to your remote Git-based repository. This enables you to sync changes between the repository and Postman.
+You can connect an API in Postman to your remote Git-based repository. This enables you to sync changes between the repository and Postman. You can connect to a [cloud-hosted repository](#connecting-to-a-cloud-hosted-repository) or to an [on-premises repository](#connecting-to-an-on-premises-repository).
 
 Keep in mind the following when connecting to a repository:
 
@@ -95,14 +95,21 @@ To connect a GitHub, Bitbucket, GitLab, or Azure DevOps repository hosted in the
 <!--
 > Use the [Postman desktop app](/docs/getting-started/installation-and-updates/) to connect to an on-premises Git repository. You can't use the [Postman web app](https://learning.postman.com/docs/getting-started/installation-and-updates/#using-the-postman-web-app).-->
 
-> Your repository must be able to reach the IP address mentioned in [static IP support](/docs/integrations/intro-integrations/#static-ip-support). Contact your IT team to allowlist the appropriate IP address.
+> **Some on-premises repositories require static IP support.** For GitLab Self-Managed and Azure DevOps Server, your repository must be able to reach the IP address mentioned in [static IP support](/docs/integrations/intro-integrations/#static-ip-support). Contact your IT team to allowlist the appropriate IP address. Static IP support isn't required for GitHub Enterprise Server.
 
-To connect an GitHub Enterprise Server, GitLab Self-Managed, or Azure DevOps Server repository hosted on-premises:
+<!-- -->
+
+> **Use the Postman desktop app to connect to GitHub Enterprise Server.** You can't use the Postman web app to connect to an on-premises GitHub repository.
+
+To connect to a GitHub Enterprise Server, GitLab Self-Managed, or Azure DevOps Server repository hosted on-premises:
 
 1. Select **APIs** in the sidebar and select an API.
 1. Under **Connect repository**, select **Connect** and select the type of repository you want to connect to.
 1. Enter the **Domain URL** of your repository. Use the base URL of your enterprise server, for example: `https://my-git-server.example.com`
 1. Enter a **Personal access token** to access the repository. Ensure that the token has the required permissions as specified on the **Connect repository** page.
+
+    > **For GitHub Enterprise Server, you can use a classic token or a fine-grained token.** If using a [fine-grained token](https://github.blog/2022-10-18-introducing-fine-grained-personal-access-tokens-for-github/), ensure the token has access to the repository and has the following repository permissions: `Contents (Read and write)` and `Metadata (Read-only)`.
+
 1. Select **Authenticate**.
 1. Select an **API schema directory** and **Collection directory** where API definitions and collections will be stored in the repository. Keep in mind the following:
 
