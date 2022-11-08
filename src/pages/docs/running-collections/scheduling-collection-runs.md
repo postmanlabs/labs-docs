@@ -14,7 +14,7 @@ warning: false
 
 Many Postman users run collections at specific times each day or week. For example, you may want to run a collection that tests your API every day. You can use the Collection Runner to schedule collection runs to execute automatically at specified days and times.
 
-> You can also schedule collection runs using [monitors](/docs/running-collections/scheduling-collection-runs-monitors/). Monitors are typically used to schedule runs when you want to set up alerts like triggering on-call upon failure. Users typically choose the Collection Runner to schedule runs for all other use cases.
+> You can also schedule collection runs using [monitors](/docs/running-collections/scheduling-collection-runs-monitors/). Monitors are typically used to schedule runs when you want to set up alerts like triggering on-call upon failure. Choose the Collection Runner to schedule runs for all other use cases.
 
 When you schedule a collection run with the Collection Runner, the scheduled run is added to the collection's **Runs** tab. You can view, pause, edit, and delete scheduled collection runs from the collection's **Runs** tab.
 
