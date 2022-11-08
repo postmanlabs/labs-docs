@@ -3,7 +3,7 @@ name: Bug report
 about: Report typos, broken links, or other documentation errors
 title: ''
 labels: bug
-assignees: jkonrath-postman
+assignees: SterlingChin
 
 ---
 
