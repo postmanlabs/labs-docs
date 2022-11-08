@@ -88,12 +88,35 @@ export const leftNavItems = [
           },
         ],
       },
+      {
+        name: "Flow Query Language",
+        subParentSlug: "flows-query-language",
+        slug: "/postman-flows/flows-query-language/conditional-data-selection/",
+        subMenuItems2: [
+          {
+            name: "Conditional data selection",
+            url: "/postman-flows/flows-query-language/conditional-data-selection/",
+          },
+          {
+            name: "Data Manipulation",
+            url: "/postman-flows/flows-query-language/data-manipulation/",
+          },
+          {
+            name: "Getting Basic Values",
+            url: "/postman-flows/flows-query-language/getting-basic-values/",
+          },
+          {
+            name: "Returning Structured Results",
+            url: "/postman-flows/flows-query-language/returning-structured-results/",
+          },
+        ],
+      },
     ],
   },
   {
     name: "gRPC Client",
     parentSlug: "grpc-client",
-    url: "https://learning.postman.com/docs/sending-requests/grpc/grpc-client-overview/"
+    url: "https://learning.postman.com/docs/sending-requests/grpc/grpc-client-overview/",
   },
   {
     name: "WebSocket Client",
