@@ -254,7 +254,7 @@ class Header extends React.Component {
               className={`collapse navbar-collapse${!visibleHelloBar ? ' noBar' : ''
                 }`}
             >
-              <ul className="navbar-nav mr-auto ml-0">
+              <ul className="navbar-nav mr-auto">
                 <li className="nav-item dropdown">
                   <a
                     className="nav-link dropdown-toggle"
@@ -301,9 +301,9 @@ class Header extends React.Component {
                     </a>
                     <a
                       className="dropdown-item"
-                      href="https://www.postman.com/product/intelligence/"
+                      href="https://www.postman.com/product/governance/"
                     >
-                      Intelligence
+                      Governance
                     </a>
                     <a
                       className="dropdown-item"
