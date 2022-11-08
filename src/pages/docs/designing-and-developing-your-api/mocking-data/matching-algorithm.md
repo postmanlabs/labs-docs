@@ -107,9 +107,9 @@ You can [turn on header and body matching](/docs/designing-and-developing-your-a
 
 ### 7. Select the highest matching score
 
-The matching algorithm sorts the remaining filtered responses by matching scores in descending order and returns the response with the highest score.
+The matching algorithm checks the matching scores of the remaining examples and returns the example with the highest score.
 
-> If more than one example has the same matching score, Postman returns the example that comes first in the sorted list.
+> If more than one example has the same matching score, the algorithm returns the example that comes last in lexicographical order by ID.
 
 ## Using wildcard variables
 
