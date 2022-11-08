@@ -105,10 +105,10 @@ To connect to a GitHub Enterprise Server, GitLab Self-Managed, or Azure DevOps S
 
 1. Select **APIs** in the sidebar and select an API.
 1. Under **Connect repository**, select **Connect** and select the type of repository you want to connect to.
-1. Enter the **Domain URL** of your repository. Use the base URL of your enterprise server, for example: `https://my-git-server.example.com`
+1. Enter the **Domain URL** of your repository. You can enter a new domain or select a domain you've used before from the list. Use the base URL of your enterprise server, for example: `https://my-git-server.example.com`
 1. Enter a **Personal access token** to access the repository. Ensure that the token has the required permissions as specified on the **Connect repository** page.
 
-    > **For GitHub Enterprise Server, you can use a classic token or a fine-grained token.** If using a [fine-grained token](https://github.blog/2022-10-18-introducing-fine-grained-personal-access-tokens-for-github/), ensure the token has access to the repository and has the following repository permissions: `Contents (Read and write)` and `Metadata (Read-only)`.
+    > **For GitHub Enterprise Server, you can use a classic token or a fine-grained token.** If using a [fine-grained token](https://github.blog/2022-10-18-introducing-fine-grained-personal-access-tokens-for-github/), ensure the token has access to the repository and has the following Repository permissions: `Contents (Read and write)` and `Metadata (Read-only)`.
 
 1. Select **Authenticate**.
 1. Select an **API schema directory** and **Collection directory** where API definitions and collections will be stored in the repository. Keep in mind the following:
@@ -118,6 +118,10 @@ To connect to a GitHub Enterprise Server, GitLab Self-Managed, or Azure DevOps S
     * The collection directory can't be a parent or the child of the schema directory.
 
 1. Select **Connect Repository**.
+
+After you connect an API to a repository, other editors of the API must enter their own personal access token to be able to push changes to or pull changes from the connected repository. Postman will prompt editors to enter their token the next time they open the API. If an editor does not have access to the connected repository, they will be able to view the API and switch branches but won't be able to make changes to the API.
+
+Postman securely stores your personal access token. After connecting to one repository, you can connect to other repositories using the same domain URL without having to re-enter your token. To manage your saved tokens, see [Connected accounts](/docs/getting-started/settings/#connected-accounts).
 
 ## Disconnecting a remote repository
 
