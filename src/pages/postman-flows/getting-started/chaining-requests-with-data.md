@@ -5,30 +5,30 @@ updated: 2022-05-12
 warning: false
 ---
 
-A very common use case is to take data from once response, and pipe that to another request. Let's consider an example where want to create a post and then want to use the id of that post in the next request to update it.
+A very common use case is to take data from once response, and pipe that to another request. Let's consider an example where we want to create a post then use the ID of that post in the next request to update it.
 
 > Check out the example flow - [Chaining requests](https://www.postman.com/postman/workspace/example-flows/flow/6267fbc38752c1035922de4a)
 
 1. **Add two Send Request blocks**
 
-   Bring two Send Request blocks by clicking on the `+ Block` button on the toolbar. Select the ”Create a Post” for the first request and ”Update Post” request for the second.
+   Create two Send Request blocks by clicking on the `+ Block` button on the toolbar. Select “Create a Post” for the first request and “Update Post” for the second.
 
    ![Add two requests](https://assets.postman.com/postman-labs-docs/chaining-requests/chaining-add-two-requests.gif)
 
 2. **Pipe the message from output to input**
 
-   Now we need to tell the flow how the [message](/postman-flows/core-concepts/messages/) should *flow*. To do that, connect the `response` output of the first block to the `variables` input of the second block.
+   We need to tell the flow how the [message](/postman-flows/core-concepts/messages/) should *flow*. To do that, connect the `response` output of the first block to the `variables` input of the second block.
 
    ![Pipe data](https://assets.postman.com/postman-labs-docs/chaining-requests/chaining-pipe-data.gif)
 
    > 1. On flow execution, the output message from the source block is passed over to the input of the target block using the pipe connection.
-   > 2. When using pipes to connect blocks, signal connections are **optional**. Flows automatically decides the order in which the blocks should execute based on connections. (Signal can be used explicitly to manually override the order of execution)
+   > 2. When using pipes to connect blocks, signal connections are **optional**. Flows automatically decides the order in which the blocks should execute based on connections. (Signal can be used explicitly to manually override the order of execution.)
 
-3. Check the output in the terminal
+3. **Check the output in the terminal**
 
-   At this point we don't really know what the output of the ”Send Request” looks like. So let's add the ”Terminal” block to see the output.
+   At this point, we don't really know what the output of the “Send Request” looks like. So let's add the “Terminal” block to see the output.
 
-   ![CHeck the terminal](https://assets.postman.com/postman-labs-docs/chaining-requests/chaining-check-in-terminal.gif)
+   ![Check the terminal](https://assets.postman.com/postman-labs-docs/chaining-requests/chaining-check-in-terminal.gif)
 
    The output has the following structure and the `id` is present in the body.
 
@@ -46,7 +46,8 @@ A very common use case is to take data from once response, and pipe that to anot
 
 4. **Use message in Request variables**
 
-   For the sake of simplicity, Flows flattens complex objects to simple key-value pairs in the Send Request block. So the above message gets converted to the following, and you will be able to use the values of complex objects in your requests via the variable syntax of `{{body.id}}`.
+
+   For the sake of simplicity, Flows flattens complex objects to simple key-value pairs in the Send Request block. The above message gets converted to the following, which you will be able to use the values of complex objects in your requests via the variable syntax of `{{body.id}}`.
 
    ```
    body.id: 1
@@ -77,7 +78,7 @@ A very common use case is to take data from once response, and pipe that to anot
 
    ![Start the flow](https://assets.postman.com/postman-labs-docs/chaining-requests/chaining-start-flow.gif)
 
-   You can observe that the request sent has the path param set to `1` which we obtained from the `body.id`
+   You can observe that the request sent has the path param set to `1`, which we obtained from the `body.id`.
 
 <!-- ---
 
