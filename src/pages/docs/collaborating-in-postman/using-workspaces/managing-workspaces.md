@@ -72,7 +72,7 @@ To view the workspace ID, select the information icon <img alt="Information icon
 
 ### Accessing private workspaces
 
-> Private workspaces are available on [Professional and Enterprise](https://www.postman.com/pricing/) plans.
+> **[Private workspaces are available on Postman Professional and Enterprise plans.](https://www.postman.com/pricing/)**
 
 To collaborate in a private workspace, you must be [invited](#sharing-workspaces) by a Workspace Editor or Admin, or request access to it and be approved. If you're using the [Postman web app](/docs/getting-started/installation-and-updates/#using-the-postman-web-app) and navigate to a link a teammate has shared to a private workspace or an element within one, you'll have the option to request access to the workspace.
 
