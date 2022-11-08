@@ -46,7 +46,6 @@ A very common use case is to take data from once response, and pipe that to anot
 
 4. **Use message in Request variables**
 
-
    For the sake of simplicity, Flows flattens complex objects to simple key-value pairs in the Send Request block. The above message gets converted to the following, which you will be able to use the values of complex objects in your requests via the variable syntax of `{{body.id}}`.
 
    ```
@@ -62,7 +61,7 @@ A very common use case is to take data from once response, and pipe that to anot
    ![Set variable](https://assets.postman.com/postman-labs-docs/chaining-requests/chaining-set-variable.gif)
 
    Objects and values in lists and arrays can also be accessed via an index. For the following body, `{{body.types.0}}` would return `User`
-   
+
    ```
    body:
      id: 1
