@@ -3,7 +3,7 @@ title: "Using version control"
 order: 75
 page_id: "version_control"
 warning: false
-updated: 2022-03-23
+updated: 2022-11-08
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -72,14 +72,14 @@ When you fork a Postman Collection, environment, or flow, you create a copy of i
 To fork an element:
 
 1. Select the element in the sidebar.
-2. In the overview tab that appears, select **Fork** <img alt="Fork icon" src="https://assets.postman.com/postman-docs/icon-fork.jpg#icon" width="14px"> in the upper right.
+2. In the overview tab that appears, select <img alt="Fork icon" src="https://assets.postman.com/postman-docs/icon-fork.jpg#icon" width="14px"> **Fork** in the upper right.
 
     > You can also create a fork by hovering over the element in the sidebar and selecting the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to its name, then **Create a Fork**.
 
 3. Enter a label for your fork, and select a workspace to save it to.
 4. Select **Fork Collection**, **Fork Environment**, or **Fork Flow**.
 
-    <img src="https://assets.postman.com/postman-docs/fork-collection-v9.1.jpg" alt="Create fork tab" width="400px"/>
+    <img src="https://assets.postman.com/postman-docs/v10/fork-collection-v10.jpg" alt="Create fork tab" width="400px"/>
 
 Postman creates your fork in the selected workspace.
 
@@ -98,6 +98,8 @@ To pull updates from a parent element without opening a pull request, do the fol
 1. Select **Pull changes**.
 1. Review the diff and select **Pull changes**.
 
+    <img alt="Pull changes into fork" src="https://assets.postman.com/postman-docs/v10/pull-changes-v10.jpg"/>
+
 To pull updates from a parent element during the pull request process, see [Pulling updates](#pulling-updates).
 
 ### Merging changes from a fork
@@ -112,7 +114,7 @@ To merge changes from a fork without opening a pull request:
 1. Select **Merge changes**.
 1. Review the diff and select **Merge all changes**.
 
-    ![Merge Fork](https://assets.postman.com/postman-docs/merge-fork-collection-change-v2.jpg)
+    ![Merge Fork](https://assets.postman.com/postman-docs/v10/merge-fork-collection-change-v10.jpg)
 
 1. Proceed with the merge process described in [Merging changes from a pull request](#merging-changes-from-a-pull-request).
 
@@ -120,20 +122,16 @@ To merge changes from a fork without opening a pull request:
 
 Fork information shows details about forks and the users who have created them. You will be able to identify the users who are actively consuming and contributing to your APIs.
 
-To access the list of users who have forked a collection, environment, or flow:
+To access the fork information for a collection, environment, or flow, select the fork icon <img alt="Fork icon" src="https://assets.postman.com/postman-docs/icon-fork.jpg#icon" width="14px"> in the context bar:
 
-1. Select the number next to the fork icon <img alt="Fork icon" src="https://assets.postman.com/postman-docs/icon-fork.jpg#icon" width="14px"> to reveal the list of users who have active forks.
+* To view the fork, select the fork name.
+* To view the user's public profile, select the user's avatar.
 
-    <img alt="View the fork information count" src="https://assets.postman.com/postman-docs/fork-information-count-v9.12.jpg" width="400px"/>
+<img alt="View the list of forks" src="https://assets.postman.com/postman-docs/fork-information-list-v9.12.jpg" width="350px"/>
 
-To access the list of forks for a collection, environment, or flow:
+You can also select the number next to the fork icon <img alt="Fork icon" src="https://assets.postman.com/postman-docs/icon-fork.jpg#icon" width="14px"> to reveal the fork information.
 
-1. Select the fork icon <img alt="Fork icon" src="https://assets.postman.com/postman-docs/icon-fork.jpg#icon" width="14px"> in the context bar.
-1. Select the fork name under **Forks**.
-
-    > You can also select the user's avatar under **Forks** to view the user's public profile.
-
-    <img alt="View the list of forks" src="https://assets.postman.com/postman-docs/fork-information-list-v9.12.jpg" width="350px"/>
+<img alt="View the fork information count" src="https://assets.postman.com/postman-docs/fork-information-count-v9.12.jpg" width="400px"/>
 
 ## Creating pull requests
 
@@ -148,11 +146,11 @@ To create a pull request:
 
 1. Select **Create pull request**.
 
-    <img alt="Create Pull Request" src="https://assets.postman.com/postman-docs/create-pull-request.jpg" width="250px"/>
+    <img alt="Create Pull Request" src="https://assets.postman.com/postman-docs/v10/create-pull-request-v10.jpg" width="300px"/>
 
 1. Select **Changes** to review the changes in the pull request.
 
-    ![Pull Request Changes](https://assets.postman.com/postman-docs/pull-request-changes.jpg)
+    ![Pull Request Changes](https://assets.postman.com/postman-docs/v10/pull-request-changes-v10.jpg)
 
     * If the parent element has any changes since you last updated your fork, you can [pull those changes](#pulling-updates) into your fork before merging.
 
@@ -162,7 +160,7 @@ To create a pull request:
 1. Enter a title and description for your pull request, and select up to 50 reviewers from the dropdown list. Reviewers must have [Editor access](/docs/collaborating-in-postman/roles-and-permissions/#element-based-roles) on the element to merge your changes.
 1. Select **Create Pull Request**.
 
-    <img alt="Create Pull Request" src="https://assets.postman.com/postman-docs/pull-request-overview.jpg" width="350px"/>
+    <img alt="Create Pull Request" src="https://assets.postman.com/postman-docs/v10/pull-request-overview-v10.jpg" width="350px"/>
 
 Postman notifies the reviewers you selected about your pull request. You will receive a notification if the reviewers [comment on](#adding-comments), [approve](#approving-a-pull-request), or [merge](#merging-changes-from-a-pull-request) the pull request.
 
@@ -177,12 +175,12 @@ To create a pull request on a public collection or environment, you must fork th
 1. Begin the pull request process described in [Creating pull requests](#creating-pull-requests). A note tells you to move the source element to a public workspace.
 1. Select **Move Collection** or **Move Environment**.
 
-    <img src="https://assets.postman.com/postman-docs/make-source-collection-public-v9.jpg" alt="Make the source collection public" width="400px"/>
+    <img src="https://assets.postman.com/postman-docs/v10/make-source-collection-public-v10.jpg" alt="Make the source collection public"/>
 
 1. Select the public workspace where you want to move the fork.
 1. Select **Move Collection** or **Move Environment**.
 
-    <img src="https://assets.postman.com/postman-docs/make-source-collection-public-v9.jpg" alt="Make the source collection public" width="400px"/>
+    <img src="https://assets.postman.com/postman-docs/v10/move-source-collection-v10.jpg" alt="Move the source collection" width="400px"/>
 
 1. After you move the fork to a public workspace, proceed with the workflow in [Creating pull requests](#creating-pull-requests).
 
@@ -239,13 +237,13 @@ The watch option enables you to receive an in-app notification when a team membe
 
 To watch a pull request:
 
-1. Select the watch icon <img alt="Watch icon" src="https://assets.postman.com/postman-docs/eye.jpg#icon" width="16px">.
+1. Select **Watch**.
 
 <img alt="Watch a pull request" src="https://assets.postman.com/postman-docs/watching-a-pull-request-v9.12.jpg" width="300px"/>
 
 To change your watching notification settings:
 
-1. Select the watch icon <img alt="Watch icon" src="https://assets.postman.com/postman-docs/eye.jpg#icon" width="16px">.
+1. Select **Watching**.
 1. Select or clear the desired notification options.
 
 <img alt="Conditions for watch notifications" src="https://assets.postman.com/postman-docs/watching-conditions-notifications-v9.jpg" width="350px"/>
@@ -264,7 +262,7 @@ To access the list of pull requests:
 
 1. Go to the element and select the pull requests icon <img alt="Pull request icon" src="https://assets.postman.com/postman-docs/icon-pull-request.jpg#icon" width="16px"> in the context bar.
 
-<img src="https://assets.postman.com/postman-docs/open-pull-request-list-v9.12.jpg" alt="Pull request list" width="350px"/>
+<img src="https://assets.postman.com/postman-docs/v10/open-pull-request-list-v10.jpg" alt="Pull request list" width="350px"/>
 
 Each item shows the pull request's status, which will be `OPEN` for any that haven't been merged or declined. Select a pull request's name to open it.
 
@@ -276,9 +274,9 @@ To view the diff:
 
 1. In the pull request, view the diff under the **Changes** heading.
 
-<img alt="View diff when reviewing pull request" src="https://assets.postman.com/postman-docs/pull-request-review-view-diff-v9.12.jpg" width="450px"/>
+<img alt="View diff when reviewing pull request" src="https://assets.postman.com/postman-docs/v10/pull-request-review-view-diff-v10.jpg"/>
 
-The diff will tell you whether a change is an addition, a deletion, or a modification. You can use the **Jump to** pane on the right side of the pull request to open the folders and API requests included in the pull request.
+The diff will tell you whether a change is an addition, a deletion, or a modification.
 
 ### Adding comments
 
@@ -289,7 +287,7 @@ To add a comment to a pull request:
 1. Select the comment icon <img alt="Comments icon" src="https://assets.postman.com/postman-docs/icon-comments-v9.jpg#icon" width="18px"> next to the change that you want to comment on.
 1. Once you've written your comment, select **Add Comment**.
 
-<img alt="Add a comment to a pull review" src="https://assets.postman.com/postman-docs/pr-add-comment-v9.12.jpg" width="450px"/>
+<img alt="Add a comment to a pull review" src="https://assets.postman.com/postman-docs/v10/pr-add-comment-v10.jpg"/>
 
 > To tag another user in your comment, use the **@** symbol before their username.
 
@@ -297,7 +295,7 @@ To add a comment to a pull request:
 
 You can edit a pull request's details before approving it, or you can decline it.
 
-<img alt="Refresh, edit, or decline a pull request" src="https://assets.postman.com/postman-docs/refresh-edit-decline-pull-request.jpg" width="350px"/>
+<img alt="Refresh, edit, or decline a pull request" src="https://assets.postman.com/postman-docs/v10/refresh-edit-decline-pull-request-v10.jpg" width="350px"/>
 
 To edit the pull request details:
 
@@ -314,7 +312,7 @@ If you don't want to merge the pull request into the parent element, you can dec
 
 If you're tagged as a reviewer on a pull request you can approve the pull request.
 
-To approve a pull request, select the checkmark icon <img alt="Checkmark icon" src="https://assets.postman.com/postman-docs/icon-checkmark-v9.jpg#icon" width="16px">.
+To approve a pull request, select **Approve**.
 
 > If you need to revoke your approval, select **Unapprove**.
 
@@ -322,7 +320,7 @@ To approve a pull request, select the checkmark icon <img alt="Checkmark icon" s
 
 After you approve the pull request, its status in the list of pull requests is `APPROVED`.
 
-<img src="https://assets.postman.com/postman-docs/pull-request-list-approved-v9.12.jpg" alt="Approved pull request" width="350px"/>
+<img src="https://assets.postman.com/postman-docs/v10/pull-request-list-approved-v10.jpg" alt="Approved pull request" width="350px"/>
 
 ### Pulling updates
 
@@ -333,9 +331,11 @@ To pull updates from a parent element during the pull request process, do the fo
 1. [Open the pull request.](#creating-pull-requests) Postman will warn you that the parent element has changed since you last updated it.
 1. Select **Pull Changes** to update your fork with the changes to the parent element.
 
-    ![Pull recent changes](https://assets.postman.com/postman-docs/pr-pull-changes-v9.12.jpg)
+    ![Pull recent changes](https://assets.postman.com/postman-docs/v10/pr-pull-changes-v10.jpg)
 
 1. Review the diff and select **Pull changes**.
+
+    <img alt="Pull changes into fork" src="https://assets.postman.com/postman-docs/v10/pull-changes-v10.jpg"/>
 
 To pull updates from a parent element without opening a pull request, see [Pulling updates from a parent element](#pulling-updates-from-a-parent-element).
 
@@ -349,7 +349,7 @@ After the requested reviewer approves a pull request, you can merge it into the 
 
 1. From the approved pull request, select **Merge**.
 
-    ![Merge a pull request](https://assets.postman.com/postman-docs/pull-request-merge-fork-v9.12.jpg)
+    ![Merge a pull request](https://assets.postman.com/postman-docs/v10/pull-request-merge-fork-v10.jpg)
 
     > If the parent element has any changes since you last updated your fork, you can [pull those changes](#pulling-updates) before merging.
 
@@ -372,14 +372,14 @@ A merge conflict happens when you try to merge changes into an updated parent el
 
 To resolve a merge conflict:
 
-1. Look at the differences between the two entities. The changes marked with **S** (Source) are the changes on your fork, and the changes marked with **D** (Destination) are the changes on the parent element.
+1. Look at the differences between the two entities. The **S** (source) content shows changes on your fork, and the **D** (destination) content shows changes on the parent element.
 
-    <img src="https://assets.postman.com/postman-docs/conflicts-pull-changes-v2.jpg" alt="Pull Changes" width="450px"/>
+    <img src="https://assets.postman.com/postman-docs/v10/conflicts-pull-changes-v10.jpg" alt="Pull Changes"/>
 
-1. Select **Pull the changes**.
-1. For each conflict, choose the version you want to include when you merge. Select **Keep Source** to keep the change on your fork. Select **Keep Destination** to keep the change on the parent element.
+1. Select **Pull the changes** for any change.
+1. For each conflict, choose the version you want to include when you merge. Select **Keep Source** or the source content to keep the change on your fork. Select **Keep Destination** or the destination content to keep the change on the parent element.
 
-    <img src="https://assets.postman.com/postman-docs/conflicts-pull-changes-v2.jpg" alt="Pull Changes" width="450px"/>
+    <img src="https://assets.postman.com/postman-docs/v10/conflicts-keep-source-or-destination-v10.jpg" alt="Pull Changes"/>
 
 > To keep all changes on your fork, select **Keep all changes to source**. To keep all changes on the parent element, select **Keep all changes to destination**.
 
