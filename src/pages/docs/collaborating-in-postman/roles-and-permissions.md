@@ -232,7 +232,7 @@ Update monitor roles | &#x2714; |
 
 ## Partner roles
 
-> **[Partner roles are only available to Postman Enterprise teams.](https://www.postman.com/pricing)**
+> **[Partner roles are available on Postman Enterprise plans.](https://www.postman.com/pricing)**
 
 Partner roles relate to [Partner Workspaces](/docs/collaborating-in-postman/using-workspaces/partner-workspaces/) and are applied at the team and workspace level. There are different partner roles you can assign to team members and external partners:
 
