@@ -108,6 +108,11 @@ h2, h3, h4 {
   }
 } 
 
+table {
+  font-size: 16px !important;
+  line-height: 1.625;
+}
+
 /* Blockquotes */
 blockquote {
   box-sizing: border-box;
@@ -138,6 +143,7 @@ thead:first-child:hover tr{
 * add syntax highlighting
 */
 .language-text {
+  font-size: 14px;
   background-color: ${(props) => props.theme.colors.grey_10};
   color: ${(props) => props.theme.colors.grey_90};
 }
