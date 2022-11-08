@@ -1,6 +1,6 @@
 ---
 title: "Using the Collection Runner"
-updated: 2022-10-19
+updated: 2022-11-09
 search_keyword: "postman.setNextRequest, setNextRequest"
 contextual_links:
   - type: section

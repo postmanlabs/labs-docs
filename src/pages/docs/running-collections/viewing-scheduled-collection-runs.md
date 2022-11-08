@@ -1,6 +1,6 @@
 ---
 title: "Viewing scheduled collection runs"
-updated: 2022-10-16
+updated: 2022-11-09
 contextual_links:
   - type: section
     name: "Prerequisites"
