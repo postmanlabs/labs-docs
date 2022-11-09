@@ -160,7 +160,7 @@ To change the request order in a scheduled run:
 
 1. Select the **Schedule Run** button.
 
-When a new request is added or deleted from a scheduled run's collection, the scheduled run has a **Review Changes** link next to it under **Runs > Scheduled runs**. Click the link to review and edit the changes. In the example below, a new request was added:
+When a new request is added or deleted from a scheduled run's collection, the scheduled run has a **Review Changes** link next to it under **Runs > Scheduled runs**. Select the link to review and edit the changes. In the example below, a new request was added:
 
 ![Schedule runs](https://assets.postman.com/postman-docs/v10/scr-review-custom-order-v10.gif)
 
