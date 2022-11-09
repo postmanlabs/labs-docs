@@ -1,7 +1,6 @@
 ---
 title: "Setting up a collection-based monitor"
-page_id: "setting_up_monitor"
-updated: 2022-07-22
+updated: 2022-11-09
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -29,10 +28,6 @@ contextual_links:
   - type: link
     name: "Looping through a Data File in the Postman Collection Runner"
     url: "https://blog.postman.com/looping-through-a-data-file-in-the-postman-collection-runner/"
-
-
-warning: false
-
 ---
 
 Create a new collection-based monitor to continuously check your API's health, run test suites, or validate critical workflows. When creating a monitor, you select a collection with the requests you want to run and set a schedule for how often Postman runs the collection.
@@ -58,11 +53,15 @@ Other configuration options enable you to tailor the monitor to your specific AP
 
 ## Creating a collection-based monitor
 
-Postman offers several ways to create a new collection-based monitor:
+You can create a new monitor from scratch or select a collection to monitor:
 
-* **Create a monitor from scratch** - Select **Monitors** in the sidebar, and then select **+**. You will select a collection to run when configuring the new monitor.
-* **Create a monitor from a collection** - Select **Collections** in the sidebar, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to a collection, and select **Monitor collection**. The new monitor is automatically configured to run the selected collection.
-* **Create a monitor from an API** - Open an API version from **APIs** in the sidebar and select the **Monitoring** tab. Select **+ Add Monitor**, and then select **Create new monitor**. You can choose to use an existing collection, create a new collection, or generate a collection from your schema.
+* To create a monitor from scratch, select **Monitors** in the sidebar, and then select **+**. You will select a collection to run when configuring the new monitor.
+
+    <img alt="Create a new monitor" src="https://assets.postman.com/postman-docs/v10/create-new-monitor-v10.jpg" width="382px">
+
+* To create a monitor from a collection, select **Collections** in the sidebar. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to a collection and select **Monitor collection**. The new monitor is automatically configured to run the selected collection.
+
+    <img alt="Monitor a collection" src="https://assets.postman.com/postman-docs/v10/monitor-collection-v10.jpg" width="382px">
 
 > You can also create a monitor using the Postman API. To learn how, see the [Postman API documentation](https://documenter.getpostman.com/view/12959542/UV5XjJV8#419dd5ae-5fb8-476b-b070-c05accc3aaba).
 
@@ -72,7 +71,7 @@ Give your new monitor a **Monitor name** and select the **Collection** you want 
 
 See the following sections for other configuration options you can select for your monitor. When you're finished, select **Create Monitor** to create the new monitor.
 
-![Create monitor page](https://assets.postman.com/postman-docs/create-a-monitor-tab-1-v9-25.jpg)
+![Create monitor page](https://assets.postman.com/postman-docs/v10/create-a-monitor-tab-1-v10.jpg)
 
 > Postman maintains limits on various team and user actions, including monitor creation. For more information, see [Monitor activity limits](/docs/monitoring-your-api/monitor-usage/#monitor-activity-limits).
 
@@ -108,7 +107,7 @@ Static IPs are available on Postman Professional and Enterprise plans when you m
 
 ### Getting monitor notifications
 
-When configuring a monitor, you can choose to receive email notifications for monitor run failures and errors. You can also add other email recipients to receive notifications
+When configuring a monitor, you can choose to receive email notifications for monitor run failures and errors. You can add up to five email recipients to receive notifications
 
 > Once the number of consecutive failures exceeds the defined limit, Postman will stop sending failure notifications. The default limit is 3 consecutive failures.
 
