@@ -40,7 +40,7 @@ When you schedule a collection run with the Collection Runner, the scheduled run
 
 1. Select **Collections** in the sidebar and select the collection you want to schedule.
 
-1. On the Overview tab, select <img alt="Runner icon" src="https://assets.postman.com/postman-docs/icon-runner-v9.jpg#icon" width="16px"> **Runs**.
+1. Select <img alt="Runner icon" src="https://assets.postman.com/postman-docs/icon-runner-v9.jpg#icon" width="16px"> **Run**.
 
     > You can also select <img alt="Runner icon" src="https://assets.postman.com/postman-docs/icon-runner-v9.jpg#icon" width="16px"> __Runner__ from the Postman footer and drag a collection from __Collections__ or __History__ in the sidebar.
 
@@ -144,27 +144,27 @@ Many Postman users use collections as repositories of requests, which they run i
 
 To change the request order in a scheduled run:
 
-1. Select **Collections** in the sidebar and select the collection you want to reorder.
+1. Select **Collections** in the sidebar and select the collection you want to schedule.
 
-1. On the Overview tab, select <img alt="Runner icon" src="https://assets.postman.com/postman-docs/icon-runner-v9.jpg#icon" width="16px"> **Runs**.
+1. Select <img alt="Runner icon" src="https://assets.postman.com/postman-docs/icon-runner-v9.jpg#icon" width="16px"> **Run**.
 
     > You can also select <img alt="Runner icon" src="https://assets.postman.com/postman-docs/icon-runner-v9.jpg#icon" width="16px"> __Runner__ from the Postman footer and drag a collection from __Collections__ or __History__ in the sidebar.
 
-1. Hover over the scheduled run you want to edit and select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px">.
+1. On the Collection Runner, select **Schedule runs**.
 
-1. Select **Edit schedule** and edit the scheduled run's settings.
+    ![Schedule runs](https://assets.postman.com/postman-docs/v10/schedule-runs-3-v10.jpg)
 
 1. Under **RUN ORDER**, change the order by dragging and dropping requests. Skip a request by unchecking its checkbox.
 
     ![Custom run order v10](https://assets.postman.com/postman-docs/v10/scr-custom-order-v10.gif)
 
-1. Select the **Save Changes** button.
+1. Select the **Schedule Run** button.
 
-    When a new request is added or deleted from a scheduled run's collection, the scheduled run has a **Review Changes** link next to it under **Runs > Scheduled runs**. Click the link to review and edit the changes. In the example below, a new request was added:
+When a new request is added or deleted from a scheduled run's collection, the scheduled run has a **Review Changes** link next to it under **Runs > Scheduled runs**. Click the link to review and edit the changes. In the example below, a new request was added:
 
-    ![Schedule runs](https://assets.postman.com/postman-docs/v10/scr-review-custom-order-v10.gif)
+![Schedule runs](https://assets.postman.com/postman-docs/v10/scr-review-custom-order-v10.gif)
 
-    > Requests run as part of a scheduled run are rate limited and usage is deducted from your maximum Monitoring Usage. For more information about checking your monitor usage, see [Managing monitor usage](/docs/monitoring-your-api/monitor-usage/).
+> Requests run as part of a scheduled run are rate limited and usage is deducted from your maximum Monitoring Usage. For more information about checking your monitor usage, see [Managing monitor usage](/docs/monitoring-your-api/monitor-usage/).
 
 ## Deleting a scheduled run
 
