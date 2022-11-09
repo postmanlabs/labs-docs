@@ -1,4 +1,10 @@
-# Structuring how your data is returned
+---
+title: "Structuring how your data is returned"
+page_id: "structuring-how-your-data-is-returned"
+updated: 2022-11-08
+order: 3
+warning: false
+---
 
 *Imagine you have the following JSON data returned by an endpoint:*
 
@@ -34,7 +40,7 @@
         },
         {
             "type": "Cell",
-            "number": "888-777-5555" 
+            "number": "888-777-5555"
         },
         {
             "type": "work",
@@ -44,9 +50,87 @@
 }
 ```
 
-| Syntax  | Result | Notes |
-| ------------- | ------------- | ------------- |
-| `[physical_address, work_address, mailing_address]` | `[{"street": "123 Park Avenue","city": "Atlanta","state": "GA","zip": "12345"},{"street": "583 W. Island Drive","city": "Maimi","state": "FL","zip": "44456" },{"street": "232 Ravensburg Road","city": "Durham","state": "NC","zip": "03948"}]` | *You can list the elements you want and put them into an array* | 
-| `[physical_address, work_address, mailing_address].city` | `["Atlanta","Maimi","Durham"]` | *If the field name is the same you can put only a single shared field name into an array to group the data* | 
-| `phones.{type: number}` | `[{"Home": "123-456-7890"},{"Cell": "098-765-4321"},{"Cell": "888-777-5555"},{"work": "314-265-9078"}]` | *You can collapse the structure into a single key:value pair* | 
-| `phones{type: number[]}` | `{"Home": ["123-456-7890"],"Cell": ["098-765-4321","888-777-5555"],"work": ["314-265-9078"]}` | *You can also group the numbers by a type into an array* | 
+### Returning multiple objects as an array
+
+#### FQL
+
+``` javascript
+[physical_address, work_address, mailing_address]
+```
+
+<br>
+
+#### Result
+
+``` json
+[
+    {"street": "123 Park Avenue","city": "Atlanta","state": "GA","zip": "12345"},
+    {"street": "583 W. Island Drive","city": "Maimi","state": "FL","zip": "44456" },
+    {"street": "232 Ravensburg Road","city": "Durham","state": "NC","zip": "03948"}
+]
+```
+
+---
+
+### Return an array of a single field from multiple objects
+
+#### FQL
+
+``` javascript
+[physical_address, work_address, mailing_address].city
+```
+
+<br>
+
+#### Result
+
+``` json
+["Atlanta","Maimi","Durham"]
+```
+
+---
+
+### Collapse multiple objects into a single key:value pair
+
+#### FQL
+
+``` javascript
+phones.{type: number}
+```
+
+<br>
+
+#### Result
+
+``` json
+[
+    {"Home": "123-456-7890"},
+    {"Cell": "098-765-4321"},
+    {"Cell": "888-777-5555"},
+    {"work": "314-265-9078"}
+]
+```
+
+---
+
+### header
+
+#### FQL
+
+``` javascript
+phones{type: number[]}
+```
+
+<br>
+
+#### Collapse and group results by a shared field value
+
+``` json
+{
+    "Home": ["123-456-7890"],
+    "Cell": ["098-765-4321","888-777-5555"],
+    "work": ["314-265-9078"]
+}
+```
+
+---

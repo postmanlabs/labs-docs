@@ -1,4 +1,10 @@
-# How to modify data to get the values you need
+---
+title: "Data manipulation"
+page_id: "data-manipulation"
+updated: 2022-11-08
+order: 4
+warning: false
+---
 
 *Imagine you have the following JSON data returned by an endpoint:*
 
