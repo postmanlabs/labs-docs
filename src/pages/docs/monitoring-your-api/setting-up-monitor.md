@@ -81,7 +81,7 @@ You can upload a data file to pass Postman sets of values to use during a monito
 
 Data files can be in CSV or JSON format and must use the following structure:
 
-* **CSV** - The first row of the file must contain the variable names, one variable per column. Each additional row is considered a data row, with values for each variable. Make sure all rows have the same number of columns and use a UNIX format line ending. Postman will iterate through the data rows, running the monitored collection once for each data row in the file.
+* **CSV** - The first row of the file must contain the variable names, one variable per column. Each following row is considered a data row, with values for each variable. Make sure all rows have the same number of columns and use a UNIX format line ending. Postman will iterate through the data rows, running the monitored collection once for each data row in the file.
 
 * **JSON** - The file must be formatted as an array of objects containing the key-value pairs you want to use as variables. For each pair, the key corresponds to a variable name, and the value will be used for that variable when running the monitored collection.
 
@@ -156,7 +156,7 @@ To work with a monitor, select **Monitors** in the sidebar and then select a mon
 
 ## Next steps
 
-Now that you've learned to create a collection-based monitor, you can view your monitor results and set up integrations to send monitor data to other platforms:
+After creating a collection-based monitor, you can view your monitor results and set up integrations to send monitor data to other platforms:
 
 * To learn how to view the results of your collection-based monitors for detailed information about monitor runs, visit [Viewing collection-based monitor results](/docs/monitoring-your-api/viewing-monitor-results/).
 * To learn how to set up integrations to send monitor data and notifications to other platforms, visit [Integrating with Postman](/docs/integrations/intro-integrations/).
