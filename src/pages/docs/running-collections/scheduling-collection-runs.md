@@ -164,7 +164,7 @@ When a new request is added or deleted from a scheduled run's collection, the sc
 
 ![Schedule runs](https://assets.postman.com/postman-docs/v10/scr-review-custom-order-v10.gif)
 
-> Requests run as part of a scheduled run are rate limited and usage is deducted from your maximum Monitoring Usage. For more information about checking your monitor usage, see [Managing monitor usage](/docs/monitoring-your-api/monitor-usage/).
+> Requests run as part of a scheduled run are rate limited and usage is deducted from your maximum monitor usage. For more information about checking your monitor usage, see [Managing monitor usage](/docs/monitoring-your-api/monitor-usage/).
 
 ## Deleting a scheduled run
 
