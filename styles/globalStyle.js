@@ -43,7 +43,6 @@ body, p {
   font-size: 16px;
   font-weight: 400;
   text-rendering: geometricPrecision;
-  letter-spacing: -0.16px;
   font-family: 'Inter-400', system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica, Arial, sans-serif;
   text-rendering: geometricPrecision;
 }
