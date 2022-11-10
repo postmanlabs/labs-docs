@@ -5,7 +5,7 @@ updated: 2022-05-12
 warning: false
 ---
 
-A very common use case is to take data from once response, and pipe that to another request. Let's consider an example where we want to create a post then use the ID of that post in the next request to update it.
+A very common use case is to take data from one response, and pipe that to another request. Let's consider an example where we want to create a post then use the ID of that post in the next request to update it.
 
 > Check out the example flow - [Chaining requests](https://www.postman.com/postman/workspace/example-flows/flow/6267fbc38752c1035922de4a)
 
