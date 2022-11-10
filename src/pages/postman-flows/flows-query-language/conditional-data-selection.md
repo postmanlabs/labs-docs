@@ -6,6 +6,14 @@ order: 2
 warning: false
 ---
 
+### Topics in this section:
+- [Filter for just a customer's recurring subscription payments](#filter-for-just-a-customers-recurring-subscription-payments)
+- [Filter for just the invoice numbers of recurring payments](#filter-for-just-the-invoice-numbers-of-recurring-payments)
+- [When your filter matches only one record](#when-your-filter-matches-only-one-record)
+- [Filtering an array based on a regex](#filtering-an-array-based-on-a-regex)
+- [Date filtering](#date-filtering)
+- [Checking if a field contains a value](#checking-if-a-field-contains-a-value)
+
 *Imagine you have the following JSON data returned by an endpoint:*
 
 ``` json
@@ -96,7 +104,9 @@ payments[description='recurring subscription']
 
 ---
 
-### When your filter matches only one record, it returns just a quoted result not an array
+### When your filter matches only one record
+
+It returns just a single record, not an array.
 
 #### FQL
 
@@ -132,7 +142,9 @@ payments[description='recurring subscription']
 
 ---
 
-### Date filtering (see data manipulation for more formats)
+### Date filtering
+
+See [Data manipulation](/postman-flows/flows-query-language/data-manipulation#time-and-date-parsing) for more formats.
 
 #### FQL
 

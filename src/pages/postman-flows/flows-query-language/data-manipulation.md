@@ -6,6 +6,34 @@ order: 4
 warning: false
 ---
 
+### Topics in this section:
+- [Sum numerical values and add a dollar sign](#sum-numerical-values-and-add-a-dollar-sign)
+- [Modify strings and group and sum by description](#modify-strings-and-group-and-sum-by-description)
+- [Cast a string into a number](#cast-a-string-into-a-number)
+- [Convert a number into a string](#convert-a-number-into-a-string)
+- [Return the length of a string](#return-the-length-of-a-string)
+- [Return part of a string using substring](#return-part-of-a-string-using-substring)
+- [Get the string before the first occurance of a pattern](#get-the-string-before-the-first-occurance-of-a-pattern)
+- [Get the string after the first occurance of a pattern](#get-the-string-after-the-first-occurance-of-a-pattern)
+- [Transform a string to all uppercase](#transform-a-string-to-all-uppercase)
+- [Transform a string to all lowercase](#transform-a-string-to-all-lowercase)
+- [Trim a string](#trim-a-string)
+- [Pad a string](#pad-a-string)
+- [Split a string into an array of components](#split-a-string-into-an-array-of-components)
+- [Join an array of strings into a single string](#join-an-array-of-strings-into-a-single-string)
+- [Match against a regex](#match-against-a-regex)
+- [Replace string with another](#replace-string-with-another)
+- [Replace multiple strings in an array](#replace-multiple-strings-in-an-array)
+- [Evaluate an expression](#evaluate-an-expression)
+- [Base64 encode a string](#base64-encode-a-string)
+- [Base64 decode a string](#base64-decode-a-string)
+- [Encode a url component](#encode-a-url-component)
+- [Decode a url component](#decode-a-url-component)
+- [Encode an entire url](#encode-an-entire-url)
+- [Decode entire url](#decode-entire-url)
+- [Time and Date parsing](#time-and-date-parsing)
+- [Time and Date formatting](#time-and-date-formatting)
+
 *Imagine you have the following JSON data returned by an endpoint:*
 
 ``` json
@@ -83,24 +111,6 @@ payments.{description & ' annual cost' : amount*12}
     {"recurring subscription annual cost": 1325.76},
     {"recurring subscription deluxe annual cost": 426.72}
 ]
-```
-
----
-
-### header
-
-#### FQL
-
-``` javascript
-
-```
-
-<br>
-
-#### Result
-
-``` json
-
 ```
 
 ---
@@ -199,7 +209,7 @@ $substringBefore(payments[0].description, 'subscription')
 
 ---
 
-### Get the string before the after occurance of a pattern
+### Get the string after the first occurance of a pattern
 
 #### FQL
 
@@ -409,7 +419,7 @@ $eval('$string(2)')
 
 ---
 
-### base64 encode a string
+### Base64 encode a string
 
 #### FQL
 

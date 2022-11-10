@@ -16,7 +16,7 @@ The body response of the send block can be passed into the evaluate block and in
 
 ## All the things you can do with FQL:
 
-- [Getting basic values](./getting-basic-values.md)
-- [Conditional data selection](./conditional-data-selection.md)
-- [Returning structured data](./returning-structured-results.md)
-- [Data manipulation](./data-manipulation.md)
+- [Getting basic values](/postman-flows/flows-query-language/getting-basic-values/)
+- [Conditional data selection](/postman-flows/flows-query-language/conditional-data-selection/)
+- [Returning structured data](/postman-flows/flows-query-language/returning-structured-results/)
+- [Data manipulation](/postman-flows/flows-query-language/data-manipulation/)

@@ -6,6 +6,12 @@ order: 3
 warning: false
 ---
 
+### Topics in this section:
+- [Returning multiple objects as an array](#returning-multiple-objects-as-an-array)
+- [Return an array of a single field from multiple objects](#return-an-array-of-a-single-field-from-multiple-objects)
+- [Collapse multiple objects into a single key:value pair](#collapse-multiple-objects-into-a-single-keyvalue-pair)
+- [Collapse and group results by a shared field value](#collapse-and-group-results-by-a-shared-field-value)
+
 *Imagine you have the following JSON data returned by an endpoint:*
 
 ``` json
@@ -113,7 +119,7 @@ phones.{type: number}
 
 ---
 
-### header
+### Collapse and group results by a shared field value
 
 #### FQL
 
@@ -123,7 +129,7 @@ phones{type: number[]}
 
 <br>
 
-#### Collapse and group results by a shared field value
+#### Result
 
 ``` json
 {
