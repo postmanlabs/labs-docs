@@ -72,9 +72,9 @@ The collection run will stop after Postman completes the current request.
 
 Keep the following tips in mind when using the `postman.setNextRequest()` function.
 
-### setNextRequest() only works in Collection Runner
+### setNextRequest() only works when you run an entire collection
 
-The `postman.setNextRequest()` function has no effect when you run a request using **Send** and is only used when you run a collection.
+The `postman.setNextRequest()` function has no effect when you run a request using **Send** and is only used when you run a collection using the Collection Runner, Postman CLI, or Newman.
 
 ### Use setNextRequest() in pre-request or test scripts
 
