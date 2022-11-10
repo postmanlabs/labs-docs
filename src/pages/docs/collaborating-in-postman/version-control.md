@@ -229,7 +229,7 @@ If the merge conditions for a pull request aren't met, the option to **Merge** i
 
 For information about the pull request's merge conditions, select **View Merge Conditions**.
 
-<img alt="Merge Condition" src="https://assets.postman.com/postman-docs/merge-conditions.jpg" width="400px"/>
+<img alt="Merge Condition" src="https://assets.postman.com/postman-docs/v10/merge-conditions-v10.jpg" width="400px"/>
 
 ## Watching a pull request
 
@@ -366,21 +366,39 @@ To merge changes from a fork without opening a pull request, see [Merging change
 
 ## Resolving conflicts
 
-A merge conflict happens when you try to merge changes into an updated parent element and Postman isn't able to automatically resolve the differences between the two. If there's a conflict when you try to merge a fork, you will need to decide how you want to resolve them before continuing.
+A merge conflict happens when you try to merge changes into an updated parent element and Postman isn't able to automatically resolve the differences between the two. If there's a conflict when you try to merge a pull request or fork, you'll need to decide how you want to resolve them before continuing.
 
 > Merge conflicts can involve changes in more than one workspace.
 
-To resolve a merge conflict:
+### Resolving conflicts from a pull request
 
-1. Look at the differences between the two entities. The **S** (source) content shows changes on your fork, and the **D** (destination) content shows changes on the parent element.
+1. Begin the pull request process described in [Creating pull requests](#creating-pull-requests).
+1. Select **Changes** to review the changes in the merge conflict.
+1. Select **Resolve Conflicts** to resolve merge conflicts between the fork and parent element.
 
-    <img src="https://assets.postman.com/postman-docs/v10/conflicts-pull-changes-v10.jpg" alt="Pull Changes"/>
+    > You can also select **Pull the changes** for any change.
 
-1. Select **Pull the changes** for any change.
-1. For each conflict, choose the version you want to include when you merge. Select **Keep Source** or the source content to keep the change on your fork. Select **Keep Destination** or the destination content to keep the change on the parent element.
+    <img src="https://assets.postman.com/postman-docs/v10/resolve-conflicts-v10.jpg" alt="Resolve conflicts"/>
+
+1. For each conflict, choose the version you want to include when you merge. Select **Keep Source** to keep the change on the parent element. Select **Keep Destination** to keep the change on your fork. You can also select the version you want to keep.
 
     <img src="https://assets.postman.com/postman-docs/v10/conflicts-keep-source-or-destination-v10.jpg" alt="Pull Changes"/>
 
 > To keep all changes on your fork, select **Keep all changes to source**. To keep all changes on the parent element, select **Keep all changes to destination**.
 
 After you resolve the conflicts, select **Pull changes** to [pull the updates](#pulling-updates).
+
+### Resolving conflicts from a fork
+
+1. Begin the merge process described in [Merging changes from a fork](#merging-changes-from-a-fork).
+1. Select **Pull the changes** for any change.
+
+    <img src="https://assets.postman.com/postman-docs/v10/conflicts-pull-changes-v10.jpg" alt="Pull Changes"/>
+
+1. For each conflict, choose the version you want to include when you merge. Select **Keep Source** to keep the change on the parent element. Select **Keep Destination** to keep the change on your fork. You can also select the version you want to keep.
+
+    <img src="https://assets.postman.com/postman-docs/v10/conflicts-keep-source-or-destination-v10.jpg" alt="Pull Changes"/>
+
+> To keep all changes on your fork, select **Keep all changes to source**. To keep all changes on the parent element, select **Keep all changes to destination**.
+
+After you resolve the conflicts, select **Pull changes** to [pull the updates](#pulling-updates-from-a-parent-element).
