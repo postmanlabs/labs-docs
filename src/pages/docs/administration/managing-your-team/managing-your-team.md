@@ -23,7 +23,7 @@ contextual_links:
 
 ---
 
-> **[Certain team options are only available on Postman Basic, Professional, and Enterprise plans.](https://www.postman.com/pricing)**
+> **[Certain team options are only available on Postman Professional and Enterprise plans.](https://www.postman.com/pricing)**
 
 Postman provides a variety of options to customize your team's experience, from the initial setup to ongoing team and plan management. As a Team Admin, you can streamline the onboarding process for your team, manage access control, and keep your team up to date with the latest version of Postman.
 
@@ -113,7 +113,7 @@ For full details about the Postman team roles that you can assign as a Team Admi
 
 ### Managing partners
 
-> **[Partners are only available to Postman Enterprise teams.](https://www.postman.com/pricing)**
+> **[Partners are available on Postman Enterprise plans.](https://www.postman.com/pricing)**
 
 You can manage external partners similarly to internal team members. To learn more, see [Partner Workspaces](/docs/collaborating-in-postman/using-workspaces/partner-workspaces/).
 

@@ -12,7 +12,7 @@ contextual_links:
     url: "/docs/administration/sso/intro-sso/"
 ---
 
-> __[SSO with Okta is available on Postman Enterprise plans.](https://www.postman.com/pricing)__
+> **[SSO with Okta is available on Postman Enterprise plans.](https://www.postman.com/pricing)**
 
 You must be an admin of your Okta organization in order to create this custom SAML application. You can set up your custom SAML application by using the available Postman app in Okta or by configuring it directly in Okta.
 
