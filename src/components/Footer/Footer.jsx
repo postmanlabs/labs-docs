@@ -1,7 +1,7 @@
 import React from 'react';
 import { v4 as uuidv4 } from 'uuid';
 import styled from 'styled-components';
-import footerData from '../../../bff-data/footer.json';
+import footerData from '../../../bff-data/footerDev.json';
 
 const FooterWrapper = styled.footer`
   border-top: 1px solid ${(props) => props.theme.colors.grey_30};
@@ -102,7 +102,6 @@ function targetStringGenerator(target) {
 const Footer = () => {
 
     const data = footerData;
-    console.log('DATA => ', data)
     const columns = data.items.splice(0, 4);
 
     return (
