@@ -1,7 +1,7 @@
 import React from 'react';
 import { v4 as uuidv4 } from 'uuid';
 import styled from 'styled-components';
-import footerData from '../../../bff-data/footerDev.json';
+import footerData from '../../../build/footerDev.json';
 
 const FooterWrapper = styled.footer`
   border-top: 1px solid ${(props) => props.theme.colors.grey_30};
