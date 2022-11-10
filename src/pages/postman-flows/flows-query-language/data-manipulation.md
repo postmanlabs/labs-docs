@@ -7,6 +7,7 @@ warning: false
 ---
 
 ### Topics in this section:
+
 - [Sum numerical values and add a dollar sign](#sum-numerical-values-and-add-a-dollar-sign)
 - [Modify strings and group and sum by description](#modify-strings-and-group-and-sum-by-description)
 - [Cast a string into a number](#cast-a-string-into-a-number)

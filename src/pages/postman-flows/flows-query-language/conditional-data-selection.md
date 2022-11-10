@@ -7,6 +7,7 @@ warning: false
 ---
 
 ### Topics in this section:
+
 - [Filter for just a customer's recurring subscription payments](#filter-for-just-a-customers-recurring-subscription-payments)
 - [Filter for just the invoice numbers of recurring payments](#filter-for-just-the-invoice-numbers-of-recurring-payments)
 - [When your filter matches only one record](#when-your-filter-matches-only-one-record)

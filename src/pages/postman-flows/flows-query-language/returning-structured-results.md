@@ -7,6 +7,7 @@ warning: false
 ---
 
 ### Topics in this section:
+
 - [Returning multiple objects as an array](#returning-multiple-objects-as-an-array)
 - [Return an array of a single field from multiple objects](#return-an-array-of-a-single-field-from-multiple-objects)
 - [Collapse multiple objects into a single key:value pair](#collapse-multiple-objects-into-a-single-keyvalue-pair)

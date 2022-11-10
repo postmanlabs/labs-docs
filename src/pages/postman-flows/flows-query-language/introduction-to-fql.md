@@ -8,7 +8,7 @@ warning: false
 
 Flows' Query Language (FQL) can be used to easily parse and transform JSON data to get the fields and structure you want.
 
-## The evaluate block:
+## The Evaluate Block:
 
 ![](https://assets.postman.com/postman-labs-docs/flows-query-language/evaluate-block-example.png)
 
