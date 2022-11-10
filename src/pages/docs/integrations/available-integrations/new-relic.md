@@ -1,6 +1,6 @@
 ---
 title: "New Relic"
-updated: 2022-05-25
+updated: 2022-11-10
 warning: false
 contextual_links:
   - type: section
@@ -20,9 +20,7 @@ contextual_links:
 
 New Relic is an application performance management solution to monitor real-time and trending data for your processes or web apps. Using Postman's [New Relic integration](https://newrelic.com/instant-observability/postman?utm_source=external_partners&utm_medium=referral&utm_campaign=global-ever-green-io-partner), you can send [Postman monitor](/docs/monitoring-your-api/intro-monitors/) results to New Relic.
 
-Setting up a New Relic monitor integration requires you to get an API key (Ingest License key) from New Relic and configure your Postman monitors. After you set up the integration, you can view real-time alerts based on the results of your monitors. See how it works in the video below:
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/c9GPsYc7mKY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Setting up a New Relic monitor integration requires you to get an API key (Ingest License key) from New Relic and configure your Postman monitors. After you set up the integration, you can view real-time alerts based on the results of your monitors.
 
 > **You can also view New Relic application performance management (APM) metrics in the Postman API Builder.** Viewing APM metrics is a separate integration from sending monitor results to New Relic and uses a different New Relic API key. Learn more about [viewing New Relic APM metrics](/docs/designing-and-developing-your-api/observing-an-api/new-relic-apm/).
 
@@ -64,7 +62,7 @@ To use the Postman quickstart:
 1. Select an account and select **Begin installation**.
 1. Under **Postman (manual install)** select **Done** if you have already completed the steps in the [Configuring New Relic Integration](#configuring-new-relic-integration) section.
 1. Select **See your data**.
-1. That’s it! Now you can visualize your Postman API data on the New Relic dashboard.
+1. You can visualize your Postman API data on the New Relic dashboard.
 ![](https://assets.postman.com/postman-docs/newrelic-dashboard-visualize.jpg)
 
 ## Manually view and query data in New Relic
