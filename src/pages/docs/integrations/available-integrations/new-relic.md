@@ -18,9 +18,11 @@ contextual_links:
     url: "https://youtu.be/voAUfBx8fnE"
 ---
 
-New Relic is an application performance management solution to monitor real-time and trending data for your processes or web apps. Using Postman's [New Relic integration](https://newrelic.com/instant-observability/postman/d465bf08-b737-4bc5-b5ad-dd5be272967b), you can send [Postman monitor](/docs/monitoring-your-api/intro-monitors/) results to New Relic.
+New Relic is an application performance management solution to monitor real-time and trending data for your processes or web apps. Using Postman's [New Relic integration](https://newrelic.com/instant-observability/postman?utm_source=external_partners&utm_medium=referral&utm_campaign=global-ever-green-io-partner), you can send [Postman monitor](/docs/monitoring-your-api/intro-monitors/) results to New Relic.
 
-Setting up a New Relic monitor integration requires you to get an API key (Ingest License key) from New Relic and configure your Postman monitors. After you set up the integration, you can view real-time alerts based on the results of your monitors.
+Setting up a New Relic monitor integration requires you to get an API key (Ingest License key) from New Relic and configure your Postman monitors. After you set up the integration, you can view real-time alerts based on the results of your monitors. See how it works in the video below:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/c9GPsYc7mKY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 > **You can also view New Relic application performance management (APM) metrics in the Postman API Builder.** Viewing APM metrics is a separate integration from sending monitor results to New Relic and uses a different New Relic API key. Learn more about [viewing New Relic APM metrics](/docs/designing-and-developing-your-api/observing-an-api/new-relic-apm/).
 
@@ -57,7 +59,7 @@ New Relic I/O ([Instant Observability](http://newrelic.com/instant-observability
 
 To use the Postman quickstart:
 
-1. Go to the [Postman quickstart](https://newrelic.com/instant-observability/postman/d465bf08-b737-4bc5-b5ad-dd5be272967b?utm_source=external_partners&utm_medium=referral&utm_campaign=global-ever-green-io-partner) in New Relic I/O, and select **+ Install quickstart**.
+1. Go to the [Postman quickstart](https://newrelic.com/instant-observability/postman?utm_source=external_partners&utm_medium=referral&utm_campaign=global-ever-green-io-partner) in New Relic I/O, and select **+ Install quickstart**.
 1. If you don't have a New Relic account, follow the sign up instructions to get started for free. Check your email for a link to continue to the next step.
 1. Select an account and select **Begin installation**.
 1. Under **Postman (manual install)** select **Done** if you have already completed the steps in the [Configuring New Relic Integration](#configuring-new-relic-integration) section.
@@ -69,7 +71,7 @@ To use the Postman quickstart:
 
 When your monitor runs, Postman starts sending metrics data to New Relic. Once the data is present in New Relic, you can query and display metrics.
 
-In New Relic, select **Browse data** and then select **Metrics**. To view Postman monitor results, search for metrics that begin with `postman`. You can create queries to customize the graph displayed. New Relic also has a query builder to help you construct advanced searches.
+In New Relic, select **[Metrics and Events](https://one.newrelic.com/data-explorer/explorer)** and then select **Metrics**. To view Postman monitor results, search for metrics that begin with `postman`. You can create queries to customize the graph displayed. New Relic also has a query builder to help you construct advanced searches.
 
 <img alt="View data in New Relic" src="https://assets.postman.com/postman-docs/new-relic-metrics.jpg" width="351px">
 
