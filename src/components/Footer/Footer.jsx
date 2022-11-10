@@ -1,7 +1,7 @@
-import { useStaticQuery, graphql } from 'gatsby';
 import React from 'react';
 import { v4 as uuidv4 } from 'uuid';
 import styled from 'styled-components';
+import footerData from '../../../bff-data/footer.json';
 
 const FooterWrapper = styled.footer`
   border-top: 1px solid ${(props) => props.theme.colors.grey_30};
@@ -99,18 +99,10 @@ function targetStringGenerator(target) {
   return null;
 }
 
-class FooterComponent extends React.Component {
-  constructor(props) {
-    super(props);
-    const { data } = this.props;
+const Footer = () => {
 
-    this.state = {
-      data: JSON.parse(data),
-    };
-  }
-
-  render() {
-    const { data } = this.state;
+    const data = footerData;
+    console.log('DATA => ', data)
     const columns = data.items.splice(0, 4);
 
     return (
@@ -316,19 +308,6 @@ class FooterComponent extends React.Component {
         </section>
       </FooterWrapper>
     );
-  }
-}
-
-const Footer = () => {
-  const data = useStaticQuery(graphql`
-  query {
-    footerLinks {
-      value
-    }
-  }`);
-  return (
-    <FooterComponent data={data.footerLinks.value} />
-  );
 };
 
 
