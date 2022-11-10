@@ -91,7 +91,7 @@ export const leftNavItems = [
       {
         name: "Flow Query Language",
         subParentSlug: "flows-query-language",
-        slug: "/postman-flows/flows-query-language/getting-basic-values/",
+        slug: "/postman-flows/flows-query-language/introduction-to-fql/",
         subMenuItems2: [
           {
             name: "Getting Basic Values",
