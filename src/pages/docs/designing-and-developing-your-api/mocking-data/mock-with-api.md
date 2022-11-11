@@ -98,7 +98,7 @@ Next, add the following **raw** JSON code to the **Body** tab of the request, su
 }
 ```
 
-> By default, mock servers are public and can receive requests from anyone. If you don't want the mock server to be public, add the line `"private": true` to the request body.
+> By default, mock servers are public and can receive requests from anyone and anywhere (such as a browser, application code, or a `curl` command). If you don't want the mock server to be public, add the line `"private": true` to the request body.
 
 As always, make sure to add an `x-api-key` header with your Postman API Key. When ready, select **Send** to send the request to the Postman API and create the mock server.
 
@@ -156,6 +156,6 @@ Use the headers `x-mock-match-request-body` or `x-mock-match-request-headers` to
 
 ### Setting a custom response delay
 
-Use the header `x-mock-response-delay` to add a delay to the response from the mock server. You can specify a value from `0` to `180000` milliseconds. After receiving the request, the mock server waits the specified period of time before sending the response.
+Use the header `x-mock-response-delay` to add a delay to the response from the mock server. You can specify a value from `1` to `180000` milliseconds. After receiving the request, the mock server waits the specified period of time before sending the response.
 
 > You can also specify a delay in the [mock server configuration](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/#editing-the-mock-server-configuration). The delay value set by the `x-mock-response-delay` header takes precedence over the value set in the mock server configuration.
