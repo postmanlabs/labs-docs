@@ -18,7 +18,7 @@ contextual_links:
 
 ---
 
-> __[Postman app versioning and the Postman Enterprise App (currently in beta) are only available to Postman Enterprise teams.](https://www.postman.com/pricing)__
+> **[Postman app versioning and the Postman Enterprise App (currently in beta) are available on Postman Enterprise plans.](https://www.postman.com/pricing)**
 
 Postman Enterprise offers greater control to administrators looking to deploy and manage Postman at scale. Team Admins can choose to [manage Postman app versioning](#managing-postman-app-versioning) with Postman support, or [deploy the Postman Enterprise app](#deploying-the-postman-enterprise-app) to their organization.
 

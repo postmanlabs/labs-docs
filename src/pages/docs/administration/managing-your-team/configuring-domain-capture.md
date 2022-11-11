@@ -15,7 +15,7 @@ contextual_links:
 
 ---
 
-> __[Domain capture is only available to Postman Enterprise teams.](https://www.postman.com/pricing)__
+> **[Domain capture is available on Postman Enterprise plans.](https://www.postman.com/pricing)**
 
 Domain capture allows you to identify and manage all user accounts in Postman that have been created with your organization’s domains and subdomains. With this feature, you can consolidate all of your organization's Postman users into a single Postman team and ensure that any new users who sign up for Postman with your domain are automatically added.
 
