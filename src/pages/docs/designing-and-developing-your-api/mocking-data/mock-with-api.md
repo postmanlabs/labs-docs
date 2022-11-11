@@ -1,9 +1,7 @@
 ---
 title: "Mocking with the Postman API"
-order: 86
-updated: 2022-02-16
-page_id: "mock_with_api"
-search_keyword: "x-mock-response-code, x-mock-response-name, x-mock-response-id, x-mock-match-request-body, x-mock-match-request-headers"
+updated: 2022-11-10
+search_keyword: "x-mock-response-code, x-mock-response-name, x-mock-response-id, x-mock-match-request-body, x-mock-match-request-headers, x-mock-response-delay"
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -31,8 +29,6 @@ contextual_links:
   - type: link
     name: "Giant Machines"
     url: "https://www.postman.com/case-studies/giant-machines/"
-
-warning: false
 ---
 
 Setting up a [mock server](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/) enables you to simulate the behavior of a real API for development or testing purposes. In Postman, you [mock a collection](/docs/designing-and-developing-your-api/mocking-data/mocking-with-examples/) by adding examples and creating a mock server. You can also automate the process of setting up a mock server using the [Postman API](https://www.postman.com/postman/workspace/postman-public-workspace/documentation/12959542-c8142d51-e97c-46b6-bd77-52bb66712c9a). Follow the steps below to get a hands-on demonstration of how to mock a collection with the Postman API.
@@ -86,7 +82,7 @@ Make sure to add an `x-api-key` header with your Postman API Key, and then selec
 
 ## Step 3: Create a mock server with the Postman API
 
-Now that you have the collection ID (and optionally the environment ID), you can use the [POST Create Mock](https://documenter.getpostman.com/view/12959542/UV5XjJV8?_ga=2.100201950.1771040895.1644854022-1154140310.1627600155#296628ed-d49b-4206-b4a7-d622e693945c) endpoint to create a mock server.
+After getting the collection ID (and optionally the environment ID), you can use the [POST Create Mock](https://documenter.getpostman.com/view/12959542/UV5XjJV8?_ga=2.100201950.1771040895.1644854022-1154140310.1627600155#296628ed-d49b-4206-b4a7-d622e693945c) endpoint to create a mock server.
 
 First, create a new request in Postman, select `POST` for the method, and enter the following URL: `https://api.getpostman.com/mocks`
 
@@ -102,7 +98,7 @@ Next, add the following **raw** JSON code to the **Body** tab of the request, su
 }
 ```
 
-> By default, mock servers are publicly accessible. If you don't want the mock server to be public, add the line `"private": true` to the request body.
+> By default, mock servers are public and can receive requests from anyone and anywhere (such as a browser, application code, or a `curl` command). If you don't want the mock server to be public, add the line `"private": true` to the request body.
 
 As always, make sure to add an `x-api-key` header with your Postman API Key. When ready, select **Send** to send the request to the Postman API and create the mock server.
 
@@ -120,7 +116,7 @@ Add an `x-api-key` header with your Postman API Key, and then select **Send**. T
 
 ## Step 5: Send a request to the mock server
 
-You are now ready to simulate requests using your collection. To send a request to the mock server, use the mock server URL and append the request path: `{{mockURL}}/path`
+You are ready to simulate requests using your collection. To send a request to the mock server, use the mock server URL and append the request path: `{{mockURL}}/path`
 
 Try this yourself by simulating `Request 1` in the `testAPI` collection. Create a new request in Postman, leaving `GET` selected for the method. For the request URL, enter your mock server URL and append the path from the request:
 
@@ -130,11 +126,15 @@ There's no need to add an `x-api-key` header, as the mock server is public, so s
 
 <img alt="Sending a request to the mock server" src="https://assets.postman.com/postman-docs/v10/mock-api-mock-response-v10.jpg" width="750px">
 
-Notice that the response is identical to the example you saved for `Request 1`. That's because the mock server uses the example to create a response. If you added more requests and examples to the collection, send them to the mock server using the mock server URL and the request path.
+Notice that the response is the same as the example you saved for `Request 1`. That's because the mock server uses the example to create a response. If you added more requests and examples to the collection, send them to the mock server using the mock server URL and the request path.
 
 ## Adding optional request headers
 
 Postman mock servers accept optional headers you can use to customize how the mock server responds to requests. Using these headers, you can specify which saved examples the mock server will return. Without these headers, the mock server will follow a [matching algorithm](/docs/designing-and-developing-your-api/mocking-data/matching-algorithm/) to decide which example to return in a response.
+
+To add a custom header to a request, open the request and select the **Headers** tab. Enter the custom header in the **KEY** field and then enter a **VALUE** for the header. You can type `x-mock` in the **KEY** field to see a list of the available mock server headers.
+
+<img alt="Sending a request to the mock server" src="https://assets.postman.com/postman-docs/v10/mock-server-custom-headers-v10.jpg" />
 
 ### Matching a response code
 
@@ -150,4 +150,12 @@ Use the headers `x-mock-match-request-body` or `x-mock-match-request-headers` to
 
 * To enable request body matching, set the value of `x-mock-match-request-body` to `true`.
 
-* To enable request header matching, include the header `x-mock-match-request-headers` and set its value to a comma-separated string of header keys that you want to match against the saved examples. Header matching isn't case-sensitive.
+* To enable request header matching, include the header `x-mock-match-request-headers` and set its value to a comma-separated string of header keys that you want to match in the saved examples. Header matching isn't case-sensitive.
+
+> You can also enable body and header matching in the [mock server configuration](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/#matching-request-body-and-headers).
+
+### Setting a custom response delay
+
+Use the header `x-mock-response-delay` to add a delay to the response from the mock server. You can specify a value from `1` to `180000` milliseconds. After receiving the request, the mock server waits the specified period of time before sending the response.
+
+> You can also specify a delay in the [mock server configuration](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/#editing-the-mock-server-configuration). The delay value set by the `x-mock-response-delay` header takes precedence over the value set in the mock server configuration.
