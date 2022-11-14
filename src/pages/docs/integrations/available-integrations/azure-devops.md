@@ -12,7 +12,7 @@ contextual_links:
     url: "/docs/sending-requests/intro-to-collections/"
 ---
 
-> __[Azure DevOps Server (hosted on-premises) integrations are only available on Postman Enterprise plans.](https://www.postman.com/pricing)__
+> **[Azure DevOps Server (hosted on-premises) integrations are available on Postman Enterprise plans.](https://www.postman.com/pricing)**
 
 Postman enables you to sync your Postman APIs to Microsoft Azure DevOps, an open-source Git repository manager, with the Postman to Azure DevOps integration.
 

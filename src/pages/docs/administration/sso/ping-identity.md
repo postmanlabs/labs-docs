@@ -12,7 +12,7 @@ contextual_links:
     url: "/docs/administration/sso/intro-sso/"
 ---
 
-> __[SSO with Ping Identity is available on Postman Enterprise plans.](https://www.postman.com/pricing)__
+> **[SSO with Ping Identity is available on Postman Enterprise plans.](https://www.postman.com/pricing)**
 
 *Note: only an admin of your Ping Identity organization can create the application.*
 

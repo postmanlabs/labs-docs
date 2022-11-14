@@ -12,7 +12,7 @@ contextual_links:
     url: "/docs/administration/sso/intro-sso/"
 ---
 
-> __[SSO with Duo is available on Postman Enterprise plans.](https://www.postman.com/pricing)__
+> **[SSO with Duo is available on Postman Enterprise plans.](https://www.postman.com/pricing)**
 
 *Note: An admin of your Duo organization must create the SAML application.*
 
