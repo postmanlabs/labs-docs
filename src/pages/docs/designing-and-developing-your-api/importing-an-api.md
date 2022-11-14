@@ -76,7 +76,7 @@ To set up a connection to Amazon API Gateway using an AWS IAM role, do the follo
 
 1. Select the **AWS API Type** (HTTP or REST).
 
-Next, to create an IAM role for Postman in AWS, do the following:
+To create an IAM role for Postman in AWS, do the following:
 
 1. Open the [AWS IAM console](https://console.aws.amazon.com/iam/home#/roles) and select **Create role**.
 1. Under **Select type of trusted entity**, select **Another AWS account**.

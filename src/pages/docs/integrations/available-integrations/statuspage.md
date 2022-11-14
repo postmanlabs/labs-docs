@@ -60,9 +60,7 @@ Make sure to create your Statuspage account and create a page and components bef
 
 ### Link monitor to component
 
-When this action is configured, if the specified monitor fails a test run, it will change the status of the linked component.
-
-If you select the **Link a monitor to a component** action, do the following:
+When the **Link a monitor to a component** action is configured, if the specified monitor fails a test run, it will change the status of the linked component.
 
 1. Select a component from the list. The list will be populated with the components you have created in Statuspage.
 1. Select a component success status from the list. This status will be displayed in Statuspage when the linked monitor is running as expected.
@@ -77,9 +75,7 @@ When a component's status is changed due to a failed test run, it will remain in
 
 ### Create incident when monitoring run fails
 
-When this action is configured, if the specified monitor fails a test run, a Statuspage incident is created. The incident provides context to customers on why the failure happened, and what will be done to address it.
-
-If you select the **Create incident when monitoring run fails** action, do the following:
+When the **Create incident when monitoring run fails** action is configured, if the specified monitor fails a test run, a Statuspage incident is created. The incident provides context to customers on why the failure happened, and what will be done to address it.
 
 1. Enter a name for the incident name. This is the text shown to customers when they see the incident.
 1. Select an Incident status from the list.

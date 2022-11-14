@@ -47,7 +47,7 @@ To set up a connection to Amazon API Gateway using an AWS IAM role, select **IAM
 
 Enter a **Nickname** for this integration and select the **AWS API Type** (HTTP or REST).
 
-Next, to create an IAM role for Postman in AWS, do the following:
+To create an IAM role for Postman in AWS, do the following:
 
 1. Open the [AWS IAM console](https://console.aws.amazon.com/iam/home#/roles) and select **Create role**.
 2. Under **Select type of trusted entity**, select **Another AWS account**.
@@ -174,8 +174,6 @@ The Amazon API Gateway integration supports viewing CloudWatch metrics in Postma
 ## Importing a definition from Amazon API Gateway
 
 You can import an HTTP or REST definition from a connected Amazon API Gateway to your API in Postman. _Importing a definition will replace your current API definition or add a new definition if one doesn't exist._
-
-To import a definition from a connected Amazon API Gateway to your API, do the following:
 
 1. Select **APIs** in the sidebar and select an API.
 1. Select **Deployments**.

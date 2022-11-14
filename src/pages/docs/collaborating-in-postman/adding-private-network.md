@@ -89,8 +89,8 @@ As a quality control measure, your team can turn on an [optional approval proces
 
 To use this approval process for your team, you need to complete two steps first:
 
-1. [Assign the API Network Manager role to a user](#assign-the-api-network-manager-role)
-1. [Turn on the approval process in Team Settings](#turn-on-the-approval-process)
+* [Assign the API Network Manager role to a user](#assign-the-api-network-manager-role)
+* [Turn on the approval process in Team Settings](#turn-on-the-approval-process)
 
 Once these steps are complete, users with an Editor role for an element will need to [request to add the API](#editor-requesting-to-add-an-element) to the Private API Network. The API Network Manager will be able to [review requests](#api-network-manager-reviewing-requests-to-add-elements) to add elements to the Private API Network, [add elements](#adding-elements-to-the-private-api-network), and [create and edit folders](#organizing-with-folders).
 
@@ -117,8 +117,6 @@ Postman will send an email to new API Network Managers about their updated role.
 The approval process enables an API Network Manager to control the process of adding elements to their team's Private API Network.
 
 > You must have either [the Super Admin role or the API Network Manager role](/docs/administration/managing-your-team/managing-your-team/#managing-team-roles) to turn on the approval process.
-
-To turn on the approval process workflow, do the following:
 
 1. In the Postman header, select **Team** > **Team Settings**.
 1. Select **Private API Network**.

@@ -57,8 +57,6 @@ To retrieve your Ingest License key from New Relic, do the following:
 
 New Relic I/O ([Instant Observability](http://newrelic.com/instant-observability)) has integrations and quickstarts that bundle observability tools to help you get started with monitoring your stack. The Postman quickstart provides you with an out-of-the-box dashboard with a suggested view for API monitoring.
 
-To use the Postman quickstart:
-
 1. Go to the [Postman quickstart](https://newrelic.com/instant-observability/postman?utm_source=external_partners&utm_medium=referral&utm_campaign=global-ever-green-io-partner) in New Relic I/O, and select **+ Install quickstart**.
 1. If you don't have a New Relic account, follow the sign up instructions to get started for free. Check your email for a link to continue to the next step.
 1. Select an account and select **Begin installation**.

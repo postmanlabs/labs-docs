@@ -29,8 +29,6 @@ Postman is available as an app in OneLogin, allowing you to enable user provisio
 
 Before enabling SCIM, you must [configure SSO with OneLogin](/docs/administration/sso/onelogin/) for your Postman team.
 
-To set up provisioning with the Postman OneLogin app, do the following:
-
 1. [Enable SCIM in Postman](/docs/administration/scim-provisioning/scim-provisioning-overview/#enabling-scim-in-postman) and [generate a SCIM API key](/docs/administration/scim-provisioning/scim-provisioning-overview/#generating-scim-api-key).
 
 2. In OneLogin, go to the Postman app and select **Configuration**. Paste the generated SCIM API key under **API Connection** and select **Enable**.

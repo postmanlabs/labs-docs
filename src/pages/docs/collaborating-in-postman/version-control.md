@@ -200,6 +200,8 @@ For information about the pull request's merge conditions, select **View Merge C
 
 The watch option enables you to receive an in-app notification when a team member modifies the pull request. If you watch a pull request, you will get notifications about actions such as adding a new comment, approving or removing approval, merging, and editing or declining a pull request.
 
+To watch a pull request, do the following:
+
 1. Select **Watch**.
 
 <img alt="Watch a pull request" src="https://assets.postman.com/postman-docs/watching-a-pull-request-v9.12.jpg" width="300px"/>

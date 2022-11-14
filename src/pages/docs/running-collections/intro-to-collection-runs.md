@@ -155,7 +155,7 @@ You can share collection run results with others by exporting the results from t
 
 > The **Export Results** button is available in the Postman desktop app but not in the web version. <!-- TODO: Add procedure for sharing results in web version-->
 
-To export a collection run:
+To export a collection run, do the following:
 
 1. Open the collection run in the __Runner__. You can also access the collection run using __History__ in the sidebar if you don't have the run open.
 1. Select __Export Results__ at the top right to download the run.

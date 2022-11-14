@@ -81,8 +81,6 @@ From the service details view, you can take the following actions:
 
 You can import a definition from a connected Azure API Management service to your API in Postman. _Importing a definition will replace your current API definition or add a new definition if one doesn't exist._
 
-To import a definition from a connected Azure API Management service to your API, do the following:
-
 1. Select **APIs** in the sidebar and select an API.
 1. Select **Deployments**, and then select **Import Definition**.
 1. Select the **Definition type** (OpenAPI 2.0 or OpenAPI 3.0).
