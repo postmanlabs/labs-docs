@@ -38,6 +38,7 @@ You can select the elements to publish with your API, such as the definition and
 Publish an API version to share the current state of your API with consumers. You can select the elements (definition and collections) to include with your published API.
 
 > If your API is connected to a Git repository, publishing a version syncs the selected elements (definition and collections) to your workspace in the Postman cloud.
+> You can only add APIs to the network from team or public workspaces.
 
 To publish an API version:
 
@@ -49,10 +50,12 @@ To publish an API version:
 1. On the API's overview, under **Publish your API to consumers**, select **Publish API**. (If you've published a version before, select **Publish** under **Published Versions**.)
 1. Enter a **Version label** and, if you want, add any **Release notes** describing this version.
 1. Select the elements you want to publish with this version (API definition and collections).
-1. To make this version available on the Private API Network, select **Add to Private API Network**. You can select a folder to place the API version in, or create a new folder.
+1. To make this version available on the Private API Network, select **Add to Private API Network** (or **Request to add to Private API Network**, depending on your [role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles)). You can select a folder to place the API version in, or create a new folder.
 1. Select **Publish API**.
 
-    <img alt="Publishing an API version" src="https://assets.postman.com/postman-docs/v10/api-builder-publish-v10.jpg" width="442px" />
+    <img alt="Publishing an API version" src="https://assets.postman.com/postman-docs/v10/api-builder-publish-3-v10.jpg" width="442px" />
+
+> If your team has enabled the [approval process](/docs/collaborating-in-postman/adding-private-network/#turn-on-the-approval-process) for the Private API network, you can request to add the published API to the Private API Network. Your team's API Network Manager will approve the request.
 
 ## Editing and deleting an API version
 
