@@ -107,7 +107,7 @@ Static IPs are available on Postman Professional and Enterprise plans when you m
 
 ### Getting monitor notifications
 
-When configuring a monitor, you can choose to receive email notifications for monitor run failures and errors. You can add up to five email recipients to receive notifications
+When configuring a monitor, you can choose to receive email notifications for monitor run failures and errors. You can add up to five email recipients to receive notifications.
 
 > Once the number of consecutive failures exceeds the defined limit, Postman will stop sending failure notifications. The default limit is 3 consecutive failures.
 
