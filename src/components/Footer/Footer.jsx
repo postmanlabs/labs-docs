@@ -2,7 +2,10 @@ import React from 'react';
 import { v4 as uuidv4 } from 'uuid';
 import styled from 'styled-components';
 import footerDataLocal from '../../../build/footerDev.json';
-import footerData from '../../../bff-data/footer.json';
+// import footerData from '../../../bff-data/footer.json';
+import { useEffect } from 'react';
+import { useState } from 'react';
+import { setActivityStatusText } from 'gatsby-cli/lib/reporter/redux/actions';
 
 const FooterWrapper = styled.footer`
   border-top: 1px solid ${(props) => props.theme.colors.grey_30};
@@ -100,9 +103,41 @@ function targetStringGenerator(target) {
   return null;
 }
 
+// const runtime = typeof document === 'object';
 const Footer = () => {
-  let data;
-  process.env.NODE_ENV === 'development' ? data = footerDataLocal : data = footerData
+  // const data = (process.env.NODE_ENV === 'development') && footerDataLocal;
+
+  let data = footerDataLocal;
+  // (process.env.NODE_ENV === 'development') ? data = footerDataLocal : data = footerData;
+
+  // const [data, setData] = useState(footerDataLocal)
+
+  // // useState to update data / signals component to rerender
+  // // asynchronous bff call to get data
+
+  // useEffect(() => {
+  //   if (process.env.NODE_ENV === 'production') { 
+  //     setData(footerData)
+  //   }
+    // if (process.env.NODE_ENV === 'production') { 
+    //   try { 
+    //     window.pm.bff(
+    //       'footer',
+    //       (d) => {
+    //         setData(JSON.parse(d))
+    //       }
+    //     )
+    //   } catch (err) {
+    //     if (window.pm && typeof window.pm.log === 'function') {
+    //       window.pm.log(err);
+    //     }
+    //   }
+    // }
+  // }, []) /* <-- add this to mimic component mounted behaviour and fire only once on first render*/
+
+
+  // console.log('THIS IS MY CALL DATA', data) 
+
   const columns = data.items.splice(0, 4);
    
   return (
@@ -113,6 +148,8 @@ const Footer = () => {
             <div className="col-sm-8 offset-sm-2 col-md-12 offset-md-0">
               <div className="row">
                 {/* First column */}
+                {/* {console.log('DATA IN FOOTER', data)} */}
+               
                 <FooterImgWrapper className="col-6 col-md-3 col-lg-2 order-12 order-md-0 pad-md-right align-self-center">
                   <img className="footer-img" src='https://voyager.postman.com/illustration/postman-footer-rocket-launch.svg' alt="Postman" />
                   <span className="col-12 d-none d-md-block copyright">
