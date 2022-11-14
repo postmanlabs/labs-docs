@@ -115,8 +115,6 @@ const Footer = () => {
 
   const [data, setData] = useState(footerDataLocal)
 
-  
-
   useEffect(() => {
     if (process.env.NODE_ENV === 'production') { 
       setData(footerData)
