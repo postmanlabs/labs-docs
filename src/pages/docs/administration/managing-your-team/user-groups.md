@@ -15,7 +15,7 @@ contextual_links:
 
 ---
 
-> __[Groups are only available to Postman Enterprise teams.](https://www.postman.com/pricing)__
+> **[Groups are available on Postman Enterprise plans.](https://www.postman.com/pricing)**
 
 With Postman groups, you can organize team members into groups that reflect your organizational structure. Groups enable you to manage access to your team and onboard new team members.
 

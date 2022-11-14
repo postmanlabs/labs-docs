@@ -12,7 +12,7 @@ contextual_links:
     url: "/docs/administration/sso/intro-sso/"
 ---
 
-> __[SSO is available on Postman Professional and Enterprise plans.](https://www.postman.com/pricing)__
+> **[SSO is available on Postman Professional and Enterprise plans.](https://www.postman.com/pricing)**
 
 When your [Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) has enabled single sign-on (**SSO**) for Postman, you can sign in to Postman with a [configured Identity provider](/docs/administration/sso/intro-sso/).
 

@@ -14,7 +14,7 @@ contextual_links:
     url: "https://blog.postman.com/introducing-partner-workspaces/"
 ---
 
-> **[Partner Workspaces are only available to Postman Enterprise teams.](https://www.postman.com/pricing)**
+> **[Partner Workspaces are available on Postman Enterprise plans.](https://www.postman.com/pricing)**
 
 Partner Workspaces enable you to collaborate with external partners directly in Postman. You can use Partner Workspaces to help your partners consume your team's APIs and work together on API projects. With Partner Workspaces, you can build a single source of truth and integrate your partner projects into your Postman team, setting the foundation for an efficient and productive partnership.
 
