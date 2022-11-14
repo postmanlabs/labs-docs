@@ -38,6 +38,7 @@ Postman provides JavaScript APIs with the `pm` object that you can use in your g
     * [Writing assertions](#writing-assertions)
         * [pm.test](#pmtest)
         * [pm.expect](#pmexpect)
+    * [Sending HTTP request from scripts](#sending-http-request-from-scripts)
     * [Using variables in scripts](#using-variables-in-scripts)
 * [Using external libraries](#using-external-libraries)
 
@@ -208,6 +209,60 @@ Check out the [examples](/docs/sending-requests/grpc/test-examples) section for 
 ### Using variables in scripts
 
 Head over to the comprehensive guide [here](/docs/writing-scripts/script-references/postman-sandbox-api-reference/#using-variables-in-scripts) to learn about using variables in scripts.
+
+### Sending HTTP request from scripts
+
+You can use the `pm.sendRequest` method to send HTTP requests asynchronously from both **Before invoke** and **After response** scripts.
+
+><code>pm.sendRequest: (request: <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#string_type' target='_blank'>string</a> | <a href='https://www.postmanlabs.com/postman-collection/Request.html#.definition' target='_blank'>RequestDefinition</a>, callback?: (error: any, response: <a href='https://www.postmanlabs.com/postman-collection/Response.html' target='_blank'>Response</a>)) => void</code>
+
+You can pass the `pm.sendRequest` method a URL string, or a complete request definition object including headers, method, body, and <a href='https://www.postmanlabs.com/postman-collection/Request.html#.definition' target='_blank'>more</a>.
+
+```javascript
+// Example with a plain string URL
+pm.sendRequest('https://postman-echo.com/get', (error, response) => {
+  if (error) {
+    console.error(error);
+  } else {
+    console.log(response.json());
+  }
+});
+```
+
+```javascript
+// Example with a full-fledged request
+const request = {
+  url: 'https://postman-echo.com/post',
+  method: 'POST',
+  header: {
+    'Content-Type': 'application/json',
+    'X-Foo': 'bar'
+  },
+  body: {
+    mode: 'raw',
+    raw: JSON.stringify({ key: 'this is json' })
+  }
+};
+
+pm.sendRequest(request, (error, response) => {
+  console.log(error ? error : response.json());
+});
+```
+
+```javascript
+// Example containing a test
+pm.sendRequest('https://postman-echo.com/get', (error, response) => {
+  if (error) {
+    console.log(error);
+  }
+
+  pm.test('Response is OK', () => {
+    pm.expect(error).to.equal(null);
+    pm.expect(response).to.have.property('code', 200);
+    pm.expect(response).to.have.property('status', 'OK');
+  });
+});
+```
 
 ## Using external libraries
 

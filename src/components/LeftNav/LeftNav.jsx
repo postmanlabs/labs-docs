@@ -13,6 +13,9 @@ const NavWrapper = styled.ul`
   padding: 0px 24px 0px 0px; 
   background-color: ${(props) => props.theme.colors.grey_05};
   font-size: 14px;
+  line-height: 1.5;
+
+
   .caret-sibling {
     padding-left: 0;
   }
@@ -22,6 +25,7 @@ const NavWrapper = styled.ul`
   & ul {
     margin-left: 0;
     padding-top:0;
+    margin-bottom: 1.45rem;
       
       & ul {
         margin-left: 32px;
@@ -77,7 +81,10 @@ const NavWrapper = styled.ul`
 const ChildItemsWrapper = styled.ul`
       margin-left: 32px;
       margin-top: 8px;
-// Child ---------------
+      margin-bottom: 1.45rem;
+
+  // Child ---------------
+
   .child {
     margin-left: 16px;
     margin-right:16px;
@@ -115,7 +122,7 @@ const ChildItemsWrapper = styled.ul`
 
 `
 
-const CaretWrapper = styled.div`
+const CaretWrapper = styled.a`
    .caret-wrapper {
       width: 24px;
     &:hover {
@@ -151,7 +158,7 @@ const renderTwoLevelList = (item, runtime) => {
         <li className="parent">
           <div className="container">
             <div className="row">
-              <CaretWrapper className="caret-wrapper">
+              <CaretWrapper className="caret-wrapper" href={item.url}>
                 {runtime && <svg className={`caret${active ? ' active-caret' : ''}`} xmlns="http://www.w3.org/2000/svg" fill="none" height="24" viewBox="0 0 24 24" width="24"><path clipRule="evenodd" d="m16.5303 8.96967c.2929.29289.2929.76777 0 1.06063l-4 4c-.2929.2929-.7677.2929-1.0606 0l-4.00003-4c-.29289-.29286-.29289-.76774 0-1.06063s.76777-.29289 1.06066 0l3.46967 3.46963 3.4697-3.46963c.2929-.29289.7677-.29289 1.0606 0z" fill="#707070" fillRule="evenodd" /></svg>}
               </CaretWrapper>
               <div className="col caret-sibling first-parent">
@@ -180,7 +187,7 @@ const renderTwoLevelList = (item, runtime) => {
                     >
                       <div className="container">
                         <div className="row">
-                          <CaretWrapper className="caret-wrapper">
+                          <CaretWrapper className="caret-wrapper" href={sItem.slug}>
                             <svg className={`caret${(document.location.pathname.match(sItem.subParentSlug)) ? 'active-caret' : ''}`} xmlns="http://www.w3.org/2000/svg" fill="none" height="24" viewBox="0 0 24 24" width="24"><path clipRule="evenodd" d="m16.5303 8.96967c.2929.29289.2929.76777 0 1.06063l-4 4c-.2929.2929-.7677.2929-1.0606 0l-4.00003-4c-.29289-.29286-.29289-.76774 0-1.06063s.76777-.29289 1.06066 0l3.46967 3.46963 3.4697-3.46963c.2929-.29289.7677-.29289 1.0606 0z" fill="#707070" fillRule="evenodd" /></svg>
                           </CaretWrapper>
                           <div className="col caret-sibling second-parent">

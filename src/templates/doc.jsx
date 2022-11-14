@@ -108,6 +108,7 @@ h2, h3, h4 {
   }
 } 
 
+
 /* Blockquotes */
 blockquote {
   box-sizing: border-box;
@@ -123,10 +124,13 @@ blockquote code.language-text {
 }
 
 
+table {
+  font-size: 16px !important;
+  line-height: 1.5;
+}
 
-th:first-child,
-td:first-child {
- padding-left:10px;
+td {
+  padding: 10px;
 }
 
 thead:first-child:hover tr{
@@ -138,6 +142,7 @@ thead:first-child:hover tr{
 * add syntax highlighting
 */
 .language-text {
+
   background-color: ${(props) => props.theme.colors.grey_10};
   color: ${(props) => props.theme.colors.grey_90};
 }
@@ -145,14 +150,13 @@ thead:first-child:hover tr{
   background-color: ${(props) => props.theme.colors.grey_10};
   color: ${(props) => props.theme.colors.grey_90};
   padding: 1px 4px 2px !important;
-  font-size: 15px !important;
+  font-size: 1.5rem !important;
   box-shadow: inset 0 0 0 1px ${(props) => props.theme.colors.grey_30};
   border-radius: ${(props) => props.theme.borderRadius.medium};
 }
 
 code[class*="language-"] {
   word-break: break-word !important;
-  word-wrap: break-word !important;
   overflow-wrap: break-word !important;
   
 }
@@ -220,6 +224,7 @@ code[class*="language-"] {
 
   & ul {
     margin-left: 0;
+    margin-bottom: 1.6rem !important;
     & ul {
       margin-left: 32px;
       margin-top: 8px;
@@ -238,8 +243,8 @@ code[class*="language-"] {
       cursor: pointer;
     }
   }
-
 }
+
 .events__alert {
     border: 4px dashed ${(props) => props.theme.colors.blue_10};
     border-radius: ${(props) => props.theme.borderRadius.medium};

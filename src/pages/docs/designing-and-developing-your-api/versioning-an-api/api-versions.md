@@ -55,7 +55,7 @@ To publish an API version:
 
     <img alt="Publishing an API version" src="https://assets.postman.com/postman-docs/v10/api-builder-publish-3-v10.jpg" width="442px" />
 
-> If your team has enabled the [approval process](/docs/collaborating-in-postman/adding-private-network/#turn-on-the-approval-process) for the Private API network, you can request to add the published API to the Private API Network. Your teams API Network Manager will approve the request.
+> If your team has enabled the [approval process](/docs/collaborating-in-postman/adding-private-network/#turn-on-the-approval-process) for the Private API network, you can request to add the published API to the Private API Network. Your team's API Network Manager will approve the request.
 
 ## Editing and deleting an API version
 

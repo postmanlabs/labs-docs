@@ -12,7 +12,7 @@ contextual_links:
     url: "/docs/administration/sso/intro-sso/"
 ---
 
-> __[SSO with Microsoft AD FS is available on Postman Enterprise plans.](https://www.postman.com/pricing)__
+> **[SSO with Microsoft AD FS is available on Postman Enterprise plans.](https://www.postman.com/pricing)**
 
 You can configure [Microsoft Active Directory Federation Services](https://docs.microsoft.com/en-gb/windows-server/identity/active-directory-federation-services) (AD FS) to work with Postman single sign-on (SSO).
 
