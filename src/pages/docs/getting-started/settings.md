@@ -128,6 +128,8 @@ You can manage your saved tokens on the **Connected accounts** tab:
 * To edit a saved token, select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px">. For example, if a token expired, you can edit it and enter a new valid token.
 * To remove a saved token, select the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px">. Any integrations that use the token will stop working until you reauthorize them.
 
+![Connected accounts](https://assets.postman.com/postman-docs/v10/settings-connected-accounts-v10.jpg)
+
 ## Proxy
 
 Use the **Proxy** tab to configure proxy settings for connecting to online services and sending API requests. Learn more about [configuring a proxy](/docs/getting-started/proxy/).
