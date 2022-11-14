@@ -278,15 +278,27 @@ export const leftNavItems = [
   {
     name: 'Running Collections',
     parentSlug: 'running-collections',
-    url: '/docs/running-collections/intro-to-collection-runs/',
+    url: '/docs/running-collections/running-collections-overview/',
     subMenuItems1: [
+      {
+        name: 'Running collections overview',
+        url: '/docs/running-collections/running-collections-overview/',
+      },
       {
         name: 'Using the Collection Runner',
         url: '/docs/running-collections/intro-to-collection-runs/',
       },
       {
-        name: 'Scheduling runs with monitors',
+        name: 'Scheduling collection runs',
         url: '/docs/running-collections/scheduling-collection-runs/',
+      },
+      {
+        name: 'Viewing scheduled collection runs',
+        url: '/docs/running-collections/viewing-scheduled-collection-runs/',
+      },
+      {
+        name: 'Scheduling collection runs with monitors',
+        url: '/docs/running-collections/scheduling-collection-runs-monitors/',
       },
       {
         name: 'Triggering runs with webhooks',

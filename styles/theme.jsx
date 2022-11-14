@@ -85,6 +85,10 @@ export const theme = {
     content_color_tertiary: `${(props) => props.theme.colors.grey_50}`
   },
 
+  forms: {
+    border: '#969696',
+    text: '#6B6B6B'
+  },
   
   shadows: {
     // mostly used on Cards

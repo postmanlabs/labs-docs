@@ -49,7 +49,7 @@ A scan starts whenever team members do any of the following actions:
 
 Postman delivers the scan results in the [Security audit reports](/docs/reports/security-audit-reports/) section of the [**Reports** dashboard](/docs/reports/reports-overview/).
 
-> **[Security Audit Reports are available on Postman Enterprise plans only.](https://www.postman.com/pricing/)**
+> **[Security Audit Reports are available on Postman Enterprise plans.](https://www.postman.com/pricing/)**
 
 ## Supported tokens
 
@@ -97,7 +97,7 @@ By default, the Token Scanner scans tokens issued by the following service provi
 
 You can use custom alerts to scan your team's proprietary tokens and any third-party app tokens that aren't scanned by default.
 
-> **[Custom alerts are available on Postman Enterprise plans only](https://www.postman.com/pricing/)**.
+> **[Custom alerts are available on Postman Enterprise plans.](https://www.postman.com/pricing/)**
 
 Your team can add a total of five alerts. You must be a **Community Manager** or member with both **Developer** and **Admin** roles to add custom alerts.
 

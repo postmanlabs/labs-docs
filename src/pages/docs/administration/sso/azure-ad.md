@@ -12,7 +12,7 @@ contextual_links:
     url: "/docs/administration/sso/admin-sso/"
 ---
 
-> __[SSO with Azure AD is available on Postman Enterprise plans.](https://www.postman.com/pricing)__
+> **[SSO with Azure AD is available on Postman Enterprise plans.](https://www.postman.com/pricing)**
 
 To configure SSO with Azure Active Directory (AD), you can use the available Postman app in Azure AD or create a custom SAML application. You must be an administrator in both Azure AD and Postman to configure SSO for your team.
 

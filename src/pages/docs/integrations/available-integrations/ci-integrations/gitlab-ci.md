@@ -9,7 +9,7 @@ contextual_links:
     url: "/docs/integrations/ci-integrations/"
 ---
 
-> __[GitLab Self-Managed integrations are only available on Postman Enterprise plans.](https://www.postman.com/pricing)__
+> **[GitLab Self-Managed integrations are available on Postman Enterprise plans.](https://www.postman.com/pricing)**
 
 [GitLab CI/CD](https://docs.gitlab.com/ee/ci/) is a continuous integration (CI) and continuous delivery (CD) service that's integrated with GitLab SaaS and GitLab self-managed. Software development teams can use GitLab CI/CD to automatically build, test, and deploy code in GitLab.
 

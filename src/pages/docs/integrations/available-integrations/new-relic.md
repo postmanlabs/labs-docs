@@ -1,6 +1,6 @@
 ---
 title: "New Relic"
-updated: 2022-05-25
+updated: 2022-11-10
 warning: false
 contextual_links:
   - type: section
@@ -18,7 +18,7 @@ contextual_links:
     url: "https://youtu.be/voAUfBx8fnE"
 ---
 
-New Relic is an application performance management solution to monitor real-time and trending data for your processes or web apps. Using Postman's [New Relic integration](https://newrelic.com/instant-observability/postman/d465bf08-b737-4bc5-b5ad-dd5be272967b), you can send [Postman monitor](/docs/monitoring-your-api/intro-monitors/) results to New Relic.
+New Relic is an application performance management solution to monitor real-time and trending data for your processes or web apps. Using Postman's [New Relic integration](https://newrelic.com/instant-observability/postman?utm_source=external_partners&utm_medium=referral&utm_campaign=global-ever-green-io-partner), you can send [Postman monitor](/docs/monitoring-your-api/intro-monitors/) results to New Relic.
 
 Setting up a New Relic monitor integration requires you to get an API key (Ingest License key) from New Relic and configure your Postman monitors. After you set up the integration, you can view real-time alerts based on the results of your monitors.
 
@@ -57,19 +57,21 @@ To retrieve your Ingest License key from New Relic, do the following:
 
 New Relic I/O ([Instant Observability](http://newrelic.com/instant-observability)) has integrations and quickstarts that bundle observability tools to help you get started with monitoring your stack. The Postman quickstart provides you with an out-of-the-box dashboard with a suggested view for API monitoring.
 
-1. Go to the [Postman quickstart](https://newrelic.com/instant-observability/postman/d465bf08-b737-4bc5-b5ad-dd5be272967b?utm_source=external_partners&utm_medium=referral&utm_campaign=global-ever-green-io-partner) in New Relic I/O, and select **+ Install quickstart**.
+To use the Postman quickstart:
+
+1. Go to the [Postman quickstart](https://newrelic.com/instant-observability/postman?utm_source=external_partners&utm_medium=referral&utm_campaign=global-ever-green-io-partner) in New Relic I/O, and select **+ Install quickstart**.
 1. If you don't have a New Relic account, follow the sign up instructions to get started for free. Check your email for a link to continue to the next step.
 1. Select an account and select **Begin installation**.
 1. Under **Postman (manual install)** select **Done** if you have already completed the steps in the [Configuring New Relic Integration](#configuring-new-relic-integration) section.
 1. Select **See your data**.
-1. Now you can visualize your Postman API data on the New Relic dashboard.
+1. You can visualize your Postman API data on the New Relic dashboard.
 ![](https://assets.postman.com/postman-docs/newrelic-dashboard-visualize.jpg)
 
 ## Manually view and query data in New Relic
 
 When your monitor runs, Postman starts sending metrics data to New Relic. Once the data is present in New Relic, you can query and display metrics.
 
-In New Relic, select **Browse data** and then select **Metrics**. To view Postman monitor results, search for metrics that begin with `postman`. You can create queries to customize the graph displayed. New Relic also has a query builder to help you construct advanced searches.
+In New Relic, select **[Metrics and Events](https://one.newrelic.com/data-explorer/explorer)** and then select **Metrics**. To view Postman monitor results, search for metrics that begin with `postman`. You can create queries to customize the graph displayed. New Relic also has a query builder to help you construct advanced searches.
 
 <img alt="View data in New Relic" src="https://assets.postman.com/postman-docs/new-relic-metrics.jpg" width="351px">
 

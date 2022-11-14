@@ -15,7 +15,7 @@ contextual_links:
 
 ---
 
-> __[SSO is available on Postman Professional and Enterprise plans.](https://www.postman.com/pricing)__
+> **[SSO is available on Postman Professional and Enterprise plans.](https://www.postman.com/pricing)**
 
 ## What is SSO?
 

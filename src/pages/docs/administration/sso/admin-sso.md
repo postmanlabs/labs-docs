@@ -19,7 +19,7 @@ contextual_links:
     url: "https://youtu.be/d6pw-0Yy5fs"
 ---
 
-> __[SSO is available on Postman Professional and Enterprise plans.](https://www.postman.com/pricing)__
+> **[SSO is available on Postman Professional and Enterprise plans.](https://www.postman.com/pricing)**
 
 ## Configuring single sign-on
 

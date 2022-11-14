@@ -10,7 +10,7 @@ contextual_links:
     url: "/docs/integrations/ci-integrations/"
 ---
 
-> __[GitHub Actions self-hosted runners are only available on Postman Enterprise plans.](https://www.postman.com/pricing)__
+> **[GitHub Actions self-hosted runners are available on Postman Enterprise plans.](https://www.postman.com/pricing)**
 
 [GitHub Actions](https://docs.github.com/en/actions) is a continuous integration (CI) and continuous delivery (CD) service that's integrated with GitHub. Software development teams can use GitHub Actions to automatically build, test, and deploy code in GitHub.
 
