@@ -1,14 +1,14 @@
 ---
 title: "Data manipulation"
 page_id: "data-manipulation"
-updated: 2022-11-08
+updated: 2022-11-14
 order: 4
 warning: false
 ---
 
 ### Topics in this section:
 
-- [Sum numerical values and add a dollar sign](#sum-numerical-values-and-add-a-dollar-sign)
+- [Sum numerical values](#sum-numerical-values)
 - [Modify strings and group and sum by description](#modify-strings-and-group-and-sum-by-description)
 - [Cast a string into a number](#cast-a-string-into-a-number)
 - [Convert a number into a string](#convert-a-number-into-a-string)
@@ -22,16 +22,14 @@ warning: false
 - [Pad a string](#pad-a-string)
 - [Split a string into an array of components](#split-a-string-into-an-array-of-components)
 - [Join an array of strings into a single string](#join-an-array-of-strings-into-a-single-string)
-- [Match against a regex](#match-against-a-regex)
 - [Replace string with another](#replace-string-with-another)
-- [Replace multiple strings in an array](#replace-multiple-strings-in-an-array)
-- [Evaluate an expression](#evaluate-an-expression)
 - [Base64 encode a string](#base64-encode-a-string)
 - [Base64 decode a string](#base64-decode-a-string)
 - [Encode a url component](#encode-a-url-component)
 - [Decode a url component](#decode-a-url-component)
 - [Encode an entire url](#encode-an-entire-url)
 - [Decode entire url](#decode-entire-url)
+- [Append to an array](#append-to-an-array)
 - [Time and Date parsing](#time-and-date-parsing)
 - [Time and Date formatting](#time-and-date-formatting)
 
@@ -75,12 +73,12 @@ warning: false
 
 ```
 
-### Sum numerical values and add a dollar sign
+### Sum numerical values
 
 #### FQL
 
 ``` javascript
-'$' & $sum(payments.amount)
+$sum(payments.amount)
 ```
 
 <br>
@@ -342,26 +340,6 @@ $join(customer_info.associated_usernames)
 
 ---
 
-### Match against a regex
-
-`match` returns the string found, `index` it's position and `groups` and array of captured groups (what's inside the paratheses). The final parameter is the limit, in this case limiting it to just one match
-
-#### FQL
-
-``` javascript
-$match(payments[0].description,/r(e+)/,1)
-```
-
-<br>
-
-#### Result
-
-``` json
-{"match": "re","index": 0,"groups": ["e"]}
-```
-
----
-
 ### Replace string with another
 
 Replaces the instances of `recurring` in the first parameter string and replaces it with renewing and limited to the first instance found (optionally specified with the `1`). Using a regex instead of `renewing` is also supported
@@ -378,44 +356,6 @@ $replace(payments[0].description,"recurring", "renewing", 1)
 
 ``` json
 "renewing subscription"
-```
-
----
-
-### Replace multiple strings in an array
-
-#### FQL
-
-``` javascript
-payments.description.$replace("recurring", "renewing")
-```
-
-<br>
-
-#### Result
-
-``` json
-["renewing subscription","one time purchase","renewing subscription","renewing subscription deluxe"]
-```
-
----
-
-### Evaluate an expression
-
-Evaluates the expression passed in using JSON and/or FQL syntax
-
-#### FQL
-
-``` javascript
-$eval('$string(2)')
-```
-
-<br>
-
-#### Result
-
-``` json
-"2"
 ```
 
 ---
@@ -524,6 +464,26 @@ $decodeUrl("https://faketranslatewebsite.com/?phrase=%E3%81%93%E3%82%93%E3%81%AB
 
 ``` json
 "https://faketranslatewebsite.com/?phrase=こんにちは"
+```
+
+---
+
+### Append to an array
+
+Can combine two arrays, an array and a single value, or two strings into an array
+
+#### FQL
+
+``` javascript
+$append([1,2,3], [4,5,6])
+```
+
+<br>
+
+#### Result
+
+``` json
+[1,2,3,4,5,6]
 ```
 
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Conditional data selection"
 page_id: "conditional-data-selection"
-updated: 2022-11-08
+updated: 2022-11-14
 order: 2
 warning: false
 ---
@@ -11,8 +11,6 @@ warning: false
 - [Filter for just a customer's recurring subscription payments](#filter-for-just-a-customers-recurring-subscription-payments)
 - [Filter for just the invoice numbers of recurring payments](#filter-for-just-the-invoice-numbers-of-recurring-payments)
 - [When your filter matches only one record](#when-your-filter-matches-only-one-record)
-- [Filtering an array based on a regex](#filtering-an-array-based-on-a-regex)
-- [Date filtering](#date-filtering)
 - [Checking if a field contains a value](#checking-if-a-field-contains-a-value)
 
 *Imagine you have the following JSON data returned by an endpoint:*
@@ -121,57 +119,6 @@ It returns just a single record, not an array.
 
 ``` json
 "101304"
-```
-
----
-
-### Filtering an array based on a regex
-
-#### FQL
-
- ``` javascript
- payments[description ~> /recurring subscription/i].invoice_number
- ```
-
-<br>
-
-#### Result
-
-``` json
-["101301","101303","101304"]
-```
-
----
-
-### Date filtering
-
-See [Data manipulation](/postman-flows/flows-query-language/data-manipulation#time-and-date-parsing) for more formats.
-
-#### FQL
-
- ``` javascript
- payments[$toMillis(date) > $toMillis('10/01/2022', '[M]/[D]/[Y]')]
- ```
-
-<br>
-
-#### Result
-
-``` json
-[
-    {
-        "invoice_number": "101303",
-        "date": "2022-10-11T16:12:34.683Z",
-        "description": "recurring subscription",
-        "amount": 110.48
-    },
-    {
-        "invoice_number": "101304",
-        "date": "2022-10-12T11:45:22.182Z",
-        "description": "recurring subscription deluxe",
-        "amount": 35.56
-    }
-]
 ```
 
 ---
