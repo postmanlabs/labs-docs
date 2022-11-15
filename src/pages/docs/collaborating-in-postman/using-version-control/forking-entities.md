@@ -1,0 +1,137 @@
+---
+title: "Forking Postman entities"
+order: 75
+page_id: "version_control"
+warning: false
+updated: 2022-11-08
+contextual_links:
+  - type: section
+    name: "Prerequisites"
+  - type: link
+    name: "Grouping requests in Collections"
+    url: "/docs/sending-requests/intro-to-collections/"
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Version Control for Collections | Postman Level Up"
+    url: "https://www.youtube.com/watch?v=QKxukXJWRPI&list=PLM-7VG-sgbtC5tNXxd28cmePSa9BYwqeU&index=7"
+  - type: subtitle
+    name: "Blog Posts"
+  - type: link
+    name: "Introducing Environment Forking and Pull Requests"
+    url: "https://blog.postman.com/introducing-environment-forking-and-pull-requests/"
+  - type: link
+    name: "Streamline the API Development Lifecycle with Postman Version Control"
+    url: "https://blog.postman.com/streamline-api-development-lifecycle-with-postman-version-control/"
+  - type: subtitle
+    name: "Case Studies"
+  - type: link
+    name: "Youi"
+    url: "https://www.postman.com/case-studies/youi/"
+  - type: section
+    name: "Next Steps"
+  - type: link
+    name: "Versioning APIs"
+    url: "/docs/designing-and-developing-your-api/versioning-an-api/"
+---
+
+A _fork_ is a new instance of an element that you can change without making any changes to the parent element. In Postman, you can fork collections, environments, and flows. Forking enables you to contribute to an element without having [Editor access](/docs/collaborating-in-postman/roles-and-permissions/#element-based-roles) for that element.
+
+## Contents
+
+* [Creating a fork](#creating-a-fork)
+* [Viewing fork information](#viewing-fork-information)
+* [Pulling updates from a parent element](#pulling-updates-from-a-parent-element)
+* [Merging changes from a fork](#merging-changes-from-a-fork)
+* [Resolving conflicts from a fork](#resolving-conflicts-from-a-fork)
+
+## Creating a fork
+
+> To fork a collection, environment, or flow within a public workspace, you must enable your public profile in your [profile settings](https://go.postman.co/settings/me). For more information on making your profile public, see [Managing your account](/docs/getting-started/postman-account/#making-your-profile-public).
+
+When you fork a Postman Collection, environment, or flow, you create a copy of it in a different workspace. You must sign in to Postman to create a fork.
+
+To fork an element:
+
+1. Select the element in the sidebar.
+2. In the overview tab that appears, select <img alt="Fork icon" src="https://assets.postman.com/postman-docs/icon-fork.jpg#icon" width="14px"> **Fork** in the upper right.
+
+    > You can also create a fork by hovering over the element in the sidebar and selecting the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to its name, then **Create a Fork**.
+
+3. Enter a label for your fork, and select a workspace to save it to.
+4. Select **Fork Collection**, **Fork Environment**, or **Fork Flow**.
+
+    <img src="https://assets.postman.com/postman-docs/v10/fork-collection-v10.jpg" alt="Create fork tab" width="400px"/>
+
+Postman creates your fork in the selected workspace.
+
+If there are any [mocks](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/) or [monitors](/docs/monitoring-your-api/intro-monitors/) associated with the parent element, they aren't linked to the forked element. You must create mocks and monitors specifically for the fork if you need them.
+
+> If a collection is in a public workspace that you aren't a member of, you won't be able to send a request within that workspace. To send requests or make changes to a collection, you must fork the collection into a personal workspace or a team workspace that you belong to.
+
+## Viewing fork information
+
+Fork information shows details about forks and the users who have created them. You will be able to identify the users who are actively consuming and contributing to your APIs.
+
+To access the fork information for a collection, environment, or flow, select the fork icon <img alt="Fork icon" src="https://assets.postman.com/postman-docs/icon-fork.jpg#icon" width="14px"> in the context bar:
+
+* To view the fork, select the fork name.
+* To view the user's public profile, select the user's avatar.
+
+<img alt="View the list of forks" src="https://assets.postman.com/postman-docs/fork-information-list-v9.12.jpg" width="350px"/>
+
+You can also select the number next to the fork icon <img alt="Fork icon" src="https://assets.postman.com/postman-docs/icon-fork.jpg#icon" width="14px"> to reveal the fork information.
+
+<img alt="View the fork information count" src="https://assets.postman.com/postman-docs/fork-information-count-v9.12.jpg" width="400px"/>
+
+## Pulling updates from a parent element
+
+You can pull updates from a parent element into a fork without going through the [pull request process](/docs/collaborating-in-postman/using-version-control/creating-pull-requests/).
+
+To pull updates from a parent element without opening a pull request, do the following:
+
+1. Hover over the fork in the sidebar.
+1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to its name.
+1. Select **Pull changes**.
+1. Review the diff and select **Pull changes**.
+
+    <img alt="Pull changes into fork" src="https://assets.postman.com/postman-docs/v10/pull-changes-v10.jpg"/>
+
+To pull updates from a parent element during the pull request process, see [Pulling updates](#pulling-updates).
+
+## Merging changes from a fork
+
+If you have Editor access on the element, you can merge a fork into the parent element without going through the [pull request process](#creating-pull-requests). For example, if you’re using forks in a personal workspace to organize your work, you can merge changes in a fork directly back into the parent element. If you're collaborating with others, though, merging directly lacks the safeguards built into the pull request process. Many teams require pull requests as part of their version control workflow. To merge changes during the pull request process, see [Merging changes from a pull request](#merging-changes-from-a-pull-request).
+
+To merge changes from a fork without opening a pull request:
+
+1. Hover over the fork in the sidebar.
+1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to its name.
+
+1. Select **Merge changes**.
+1. Review the diff and select **Merge all changes**.
+
+    ![Merge Fork](https://assets.postman.com/postman-docs/v10/merge-fork-collection-change-v10.jpg)
+
+1. Proceed with the merge process described in [Merging changes from a pull request](#merging-changes-from-a-pull-request).
+
+## Resolving conflicts from a fork
+
+A merge conflict happens when you try to merge changes into an updated parent element and Postman isn't able to automatically resolve the differences between the two. If there's a conflict when you try to merge a fork, you'll need to decide how you want to resolve them before continuing.
+
+> Merge conflicts can involve changes in more than one workspace.
+
+1. Begin the merge process described in [Merging changes from a fork](#merging-changes-from-a-fork).
+1. Select **Pull the changes** for any change.
+
+    <img src="https://assets.postman.com/postman-docs/v10/conflicts-pull-changes-v10.jpg" alt="Pull Changes"/>
+
+1. For each conflict, choose the version you want to include when you merge. Select **Keep Source** to keep the change on the parent element. Select **Keep Destination** to keep the change on your fork. You can also select the version you want to keep.
+
+    <img src="https://assets.postman.com/postman-docs/v10/conflicts-keep-source-or-destination-v10.jpg" alt="Pull Changes"/>
+
+> To keep all changes on your fork, select **Keep all changes to source**. To keep all changes on the parent element, select **Keep all changes to destination**.
+
+After you resolve the conflicts, select **Pull changes** to [pull the updates](#pulling-updates-from-a-parent-element).

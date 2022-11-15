@@ -426,7 +426,30 @@ export const leftNavItems = [
       },
       {
         name: 'Using version control',
-        url: '/docs/collaborating-in-postman/version-control/',
+        subParentSlug: 'using-version-control',
+        slug: '/docs/collaborating-in-postman/using-version-control/version-control-overview/',
+        subMenuItems2: [
+          {
+            name: 'Version control overview',
+            url: '/docs/collaborating-in-postman/using-version-control/version-control-overview/',
+          },
+          {
+            name: 'Forking Postman entities',
+            url: '/docs/collaborating-in-postman/using-version-control/forking-entities/',
+          },
+          {
+            name: 'Creating pull requests',
+            url: '/docs/collaborating-in-postman/using-version-control/creating-pull-requests/',
+          },
+          {
+            name: 'Reviewing pull requests',
+            url: '/docs/collaborating-in-postman/using-version-control/reviewing-pull-requests/',
+          },
+          {
+            name: 'Watching pull requests',
+            url: '/docs/collaborating-in-postman/using-version-control/watching-pull-requests/',
+          },
+        ],
       },
       {
         name: 'Managing public elements',

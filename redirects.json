@@ -1949,7 +1949,11 @@
 	},
 	{
 		"from": "/docs/collaborating-in-postman/version-control-for-collections/",
-		"to": "/docs/collaborating-in-postman/version-control/"
+		"to": "/docs/collaborating-in-postman/using-version-control/version-control-overview/"
+	},
+	{
+		"from": "/docs/collaborating-in-postman/version-control/",
+		"to": "/docs/collaborating-in-postman/version-control/version-control-overview/"
 	},
 	{
 		"from": "/docs/designing-and-developing-your-api/view-and-analyze-api-reports/",
