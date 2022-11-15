@@ -199,6 +199,8 @@ To share a collection with other users, you can:
 
 When you watch a collection, Postman notifies you when a workspace team member makes changes to the collection, including adding a new request, modifying the existing requests, adding or updating variables, editing pre-request scripts or tests, and adding or deleting a folder. You can watch a collection that you own, as well as collections in any public workspace.
 
+To watch a collection, do the following:
+
 1. Select the watch icon <img alt="Watch icon" src="https://assets.postman.com/postman-docs/eye.jpg#icon" width="16px"> to start watching the collection.
 
 ![Collection watching](https://assets.postman.com/postman-docs/collection-watching-overview-v9.12.jpg)
@@ -216,6 +218,8 @@ To view notifications about what has changed in a collection you watch, do the f
 ### Forking a collection
 
 You can fork collections in your own workspace to [develop collection versions](/docs/collaborating-in-postman/version-control-for-collections/).
+
+To fork a collection, do the following:
 
 1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the collection name.
 1. Select **Fork**.

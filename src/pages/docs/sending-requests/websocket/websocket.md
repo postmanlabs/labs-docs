@@ -77,6 +77,8 @@ When you have finished composing your message, select **Send**. The sent message
 
 You can also save composed messages, then re-send them later.
 
+To save a message, do the following:
+
 1. Compose a message (see [Sending messages](#sending-messages)).
 1. Select **Save Message**.
 1. The message title ("New Message" by default) is editable. Enter a new title and press Return.
@@ -187,6 +189,8 @@ The following settings can be configured for your WebSocket request:
 ## Saving requests
 
 You can save your WebSocket requests into a collection. This enables you to reuse requests, share them with other team members, and add documentation to the collection of requests.
+
+To save a request, do the following:
 
 1. Select **Save** in the request tab.
 1. In **Save request**, under **Save to**, select a collection, or select **Create collection**. (Note that there are limitations to WebSocket requests in collections. Keep reading for more information.)
