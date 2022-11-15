@@ -2,6 +2,7 @@
 title: "Onboarding checklist"
 order: 127
 updated: 2022-02-16
+search_keyword: "whitelist, whitelist IP"
 page_id: "onboarding_checklist"
 warning: false
 contextual_links:
