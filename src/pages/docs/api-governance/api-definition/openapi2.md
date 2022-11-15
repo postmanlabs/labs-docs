@@ -19,7 +19,6 @@ contextual_links:
   - type: link
     name: "Postman Security"
     url:  "https://www.postman.com/postman/workspace/62d58d93-7e0c-45bf-9daa-cc8e531fc344"
-search_keyword: "api security, api schema, security warnings, schema validation, security validation, api security audit, api security scan, api schema vulnerabilities, security audit, openapi 2.0"
 ---
 
 You can use Postman to identify any potential security and formatting issues when defining your API.

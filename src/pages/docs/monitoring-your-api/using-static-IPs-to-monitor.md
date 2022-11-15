@@ -2,6 +2,7 @@
 title: Running monitors using static IPs
 order: 93
 page_id: "using_static_IPs_to_monitor"
+search_keyword: "whitelist, whitelist IP"
 updated: 2022-2-14
 warning: false
 contextual_links:

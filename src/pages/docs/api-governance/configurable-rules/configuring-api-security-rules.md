@@ -1,7 +1,6 @@
 ---
 title: "Configuring API Security rules"
 updated: 2022-09-15
-search_keyword: "api security, security warnings, schema validation, security validation, api security audit, api security scan, api schema vulnerabilities, security audit"
 contextual_links:
   - type: section
     name: "Additional Resources"
