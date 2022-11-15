@@ -67,7 +67,7 @@ Postman automatically generates basic documentation for any collection you creat
 
 To make your documentation even more valuable to users, [add descriptions](/docs/publishing-your-api/authoring-your-documentation/) to the items in your collection. Any descriptions you add are automatically included in the documentation for your collection.
 
-To add documentation to a collection, folder, or request, do the following:
+To add a description, do the following:
 
 1. Select **Collections** in the sidebar, and then select a collection, folder, or request.
 1. Select the documentation icon <img alt="Documentation icon" src="https://assets.postman.com/postman-docs/documentation-icon-v8-10.jpg#icon" width="16px"> in the right sidebar.

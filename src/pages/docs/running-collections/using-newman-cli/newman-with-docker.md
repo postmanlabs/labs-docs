@@ -35,7 +35,7 @@ This topic describes how to use [Newman](https://github.com/postmanlabs/newman) 
 
 ## macOS and Ubuntu
 
-To use Newman with Docker, do the following:
+To use Newman with Docker for macOS and Ubuntu, do the following:
 
 1\. In the [Docker Hub](https://hub.docker.com/r/postman/newman/), download your copy.
 
