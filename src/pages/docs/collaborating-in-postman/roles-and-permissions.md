@@ -57,7 +57,7 @@ You can [assign](/docs/administration/managing-your-team/managing-your-team/) on
 
 * **Super Admin** - Manages everything within a team, including team settings, members, roles, and resources in [public, team, or private workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#changing-workspace-visibility). Team members with this role can perform all actions that Admin, Billing, Community Manager, API Network Manager, and Developer roles can perform ([Enterprise plans only](https://www.postman.com/pricing)).
 * **Admin** - Manages team members and team settings.
-* **Billing** - Manages team plan and payments. Billing roles can be granted by a Super Admin, by a fellow team member with a Billing role, or by an Admin when inviting a new team member. If this isn't possible, contact the [Support Center](https://support.postman.com/hc/en-us).
+* **Billing** - Manages team plan and payments. Billing roles can be granted by a Super Admin, Team Admin, or by a fellow team member with a Billing role.
 * **Developer** - Has access to all team resources and workspaces.
 * **Community Manager** - Manages the public visibility of workspaces and team profile ([Professional and Enterprise plans only](https://www.postman.com/pricing)).
 * **API Network Manager** - Manages a team's [Private API Network](/docs/collaborating-in-postman/adding-private-network/), including adding APIs and reviewing requests to add APIs. A Super Admin or another team member with the API Network Manager role can grant this role to a user ([Enterprise plans only](https://www.postman.com/pricing)).
@@ -77,7 +77,7 @@ Team roles offer high-level access control:
 | Manage custom domains  | &#x2714; | &#x2714; | | | |
 | View audit logs  | &#x2714; | &#x2714; | | | &#x2714; |
 | View usage data | &#x2714; | &#x2714; | &#x2714; | &#x2714; | &#x2714; |
-| Manage Billing members | &#x2714; | | &#x2714; | | |
+| Manage Billing members | &#x2714; | &#x2714; | &#x2714; | | |
 | Manage payment | &#x2714; | | &#x2714; | | | |
 | Change plan  | &#x2714; | | &#x2714; | | |
 | View shared APIs, collections, environments, mock servers and monitors | &#x2714; | | | &#x2714; | &#x2714; |
