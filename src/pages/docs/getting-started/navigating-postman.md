@@ -2,7 +2,7 @@
 title: "Navigating Postman"
 order: 3
 page_id: "navigating_postman"
-updated: 2021-04-06
+updated: 2022-11-16
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -246,9 +246,9 @@ Tool | Available for | Description
 
 The environment selector enables you to choose which [environment](/docs/sending-requests/managing-environments/) to use in your work. Select an environment from the menu to set it as the active environment, which gives you access to the variables in that environment.
 
-<img src="https://assets.postman.com/postman-docs/environment-selector-v9.13.jpg" alt="Environment selector" width="300">
+<img src="https://assets.postman.com/postman-docs/v10/environment-selector-v10.jpg" alt="Environment selector" width="200px">
 
-To check a variable value at a glance, use the quick look icon <img alt="Quick Look icon" src="https://assets.postman.com/postman-docs/eye.jpg#icon" width="16px">.
+To check a variable value at a glance, use the environment quick look icon <img alt="Environment quick look icon" src="https://assets.postman.com/postman-docs/icon-environment-quick-look.jpg#icon" width="16px">.
 
 ## Footer
 
