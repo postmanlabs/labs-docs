@@ -67,4 +67,3 @@ The context bar is where you'll see more information about your flow and it's cu
 - **Flow Information**
 
   You can see the flow ID and add a summary for your flow in the "Info" section.
-
