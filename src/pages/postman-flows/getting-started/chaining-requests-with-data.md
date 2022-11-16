@@ -62,7 +62,7 @@ To chain requests:
 
    ![Set variable](https://assets.postman.com/postman-labs-docs/chaining-requests/chaining-set-variable.gif)
 
-   Objects and values in lists and arrays can also be accessed by an index. For the following body, `{{body.types.0}}` would return `User`
+   Objects and values in lists and arrays can also be accessed by an index. For the following body, `{{body.types.0}}` would return `User`.
 
    ```
    body:

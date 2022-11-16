@@ -1,5 +1,5 @@
 ---
-title: "Running Requests in sequence"
+title: "Running requests in sequence"
 page_id: "running-requests-in-sequence"
 updated: 2022-11-16
 warning: false
@@ -25,7 +25,7 @@ If you have several simple requests that have no dependency on each other but ha
 
    > **Important**
    >
-   > 1. When a signal connection is made the input become disabled to show that it will get enabled after the previous >blocks get enabled.
+   > 1. When a signal connection is made the input become disabled to show that it will get enabled after the previous blocks get enabled.
    > 2. The signal connection depict exactly the order in which the blocks will be executed.
    > 3. When using signal no data is passed from one block to another.
    > 4. Two or more connections can be made to an input. The block will execute only when all signals have got enabled.
@@ -36,4 +36,4 @@ If you have several simple requests that have no dependency on each other but ha
 
    ![Start the flow](https://assets.postman.com/postman-labs-docs/running-requests/running-run-with-signals.gif)
 
-If you want to use data from one request in another request, you can learn how to do so in [Chaining Requests with data](/postman-flows/getting-started/chaining-requests-with-data/).
+If you want to use data from one request in another request, you can learn how to do so in [Chaining requests with data](/postman-flows/getting-started/chaining-requests-with-data/).
