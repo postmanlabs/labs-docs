@@ -1,27 +1,29 @@
 ---
 title: "Chaining requests with data"
 page_id: "Chaining-requests-with-data"
-updated: 2022-05-12
+updated: 2022-11-16
 warning: false
 ---
 
-A very common use case is to take data from one response, and pipe that to another request. Let's consider an example where we want to create a post then use the ID of that post in the next request to update it.
+A common Postman Flows use case is to take data from one response, and pipe that to another request. Consider an example of creating a post then using the ID of that post in the next request to update it.
 
-> Check out the example flow - [Chaining requests](https://www.postman.com/postman/workspace/example-flows/flow/6267fbc38752c1035922de4a)
+> Check out an example flow: [Chaining requests](https://www.postman.com/postman/workspace/example-flows/flow/6267fbc38752c1035922de4a)
+
+To chain requests:
 
 1. **Add two Send Request blocks**
 
-   Create two Send Request blocks by clicking on the `+ Block` button on the toolbar. Select “Create a Post” for the first request and “Update Post” for the second.
+   Create two **Send Request** blocks by selecting `+ Block` on the toolbar. Select **Create a Post** for the first request and **Update Post** for the second request.
 
    ![Add two requests](https://assets.postman.com/postman-labs-docs/chaining-requests/chaining-add-two-requests.gif)
 
 2. **Pipe the message from output to input**
 
-   We need to tell the flow how the [message](/postman-flows/core-concepts/messages/) should *flow*. To do that, connect the `response` output of the first block to the `variables` input of the second block.
+   Next, tell the flow how the [message](/postman-flows/core-concepts/messages/) will *flow*. Connect the `response` output of the first block to the `variables` input of the second block.
 
    ![Pipe data](https://assets.postman.com/postman-labs-docs/chaining-requests/chaining-pipe-data.gif)
 
-   > 1. On flow execution, the output message from the source block is passed over to the input of the target block using the pipe connection.
+   > 1. On flow execution, the output message from the source block is passed to the input of the target block using the pipe connection.
    > 2. When using pipes to connect blocks, signal connections are **optional**. Flows automatically decides the order in which the blocks should execute based on connections. (Signal can be used explicitly to manually override the order of execution.)
 
 3. **Check the output in the terminal**
