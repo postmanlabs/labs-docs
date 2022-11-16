@@ -15,7 +15,7 @@ The following examples describe how to use FQL to get basic values from JSON dat
 * [Get a nested field](#get-a-nested-field)
 * [Get an entire object](#get-an-entire-object)
 * [Select a specific index in an array](#select-a-specific-index-in-an-array)
-* [Select an entire array](#select-a-whole-array)
+* [Select an entire array](#select-an-entire-array)
 * [Return one field of every object in an array](#return-one-field-of-every-object-in-an-array)
 * [Return fields that contain special characters in the key name](#return-fields-that-contain-special-characters-in-the-key-name)
 
@@ -62,7 +62,7 @@ name
 "John Smith"
 ```
 
----
+## Getting a nested field
 
 ## Get a nested field
 
@@ -80,7 +80,7 @@ address.city
 "Atlanta"
 ```
 
----
+## Getting an entire object
 
 ## Get an entire object
 
@@ -103,7 +103,7 @@ address
 }
 ```
 
----
+## Selecting a specific index in an array
 
 ## Select a specific index in an array
 
@@ -121,7 +121,7 @@ phones[0].number
 "123-456-7890"
 ```
 
----
+## Selecting a whole array
 
 ## Select an entire array
 
@@ -148,7 +148,7 @@ phones
 ]
 ```
 
----
+## Return just one field of every object in an array
 
 ## Return one field of every object in an array
 
@@ -166,7 +166,7 @@ phones.number
 ["123-456-7890","098-765-4321"]
 ```
 
----
+## Returning fields that contain special characters in the key name
 
 ## Return fields that contain special characters in the key name
 
@@ -183,5 +183,3 @@ phones.number
 ``` json
 "myuser123"
 ```
-
----

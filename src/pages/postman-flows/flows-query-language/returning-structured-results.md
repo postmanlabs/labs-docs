@@ -100,7 +100,7 @@ The following examples use the following JSON data returned by an endpoint:
 ["Atlanta","Maimi","Durham"]
 ```
 
----
+## Collapse multiple objects into a single key:value pair
 
 ## Collapse multiple objects into a single key:value pair
 
@@ -123,7 +123,7 @@ phones.{type: number}
 ]
 ```
 
----
+## Collapse and group results by a shared field value
 
 ## Collapse and group results by a shared field value
 
@@ -144,5 +144,3 @@ phones{type: number[]}
     "work": ["314-265-9078"]
 }
 ```
-
----

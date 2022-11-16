@@ -1,37 +1,30 @@
 ---
 title: "Data types"
 page_id: "data-types"
-updated: 2022-05-04
+updated: 2022-11-16
 warning: false
 ---
 
-Postman Flows is a "dataflow language" in its heart, which means that Flows
-understands all kinds of values and associates a type to data. It should also be
-noted that Flows in a hybrid typed language, which means that it perform static
-type checking to provide features like auto-complete and early warning, and it
-also performs some dynamic type checking during execution. Our intention, in the long run, is to move Flows towards being a strictly typed language over a period of time.
+Postman Flows is a dataflow language, which means Flows understands all kinds of values and associates types with data. Flows is a hybrid typed language, so it performs static type checking to provide features like auto-complete and early warning. Flows also performs some dynamic type checking during execution. Eventually Flows will be a strictly typed language.
 
-We are assuming most flow programmers would either be coming from a
-javascript/typescript background, or it might be their first time programming in
-an API-First language; therefore we have tried to keep the vocabulary of the
-types close to javascript/typescript.
+Since most flow programmers have a JavaScript or typescript background, or are programming in an API-First language for the first time, the vocabulary of the types closely resembles JavaScript and typescript.
 
-## Primitive Values
+## Primitive values
 
-| type                 | What it accepts                                           | Example                   |
+| Type                 | What it accepts                                           | Example                   |
 | -------------------- | --------------------------------------------------------- | ------------------------- |
 | bool                 | **true** or **false**                                     | `true`                    |
-| string               | utf-8 encoded characters                                  | `foo 😎 bar`              |
-| number               | double precision 64-bit values or 64bit unsigned integers | `3.14` <br> `4294967295`  |
-| timestamp            | string containing RFC3339 timestamp                       | `1985-04-12T23:20:50.52Z` |
+| string               | UTF-8 encoded characters                                  | `example 😎 example`      |
+| number               | Double precision 64-bit values or 64bit unsigned integers | `3.14` <br> `4294967295`  |
+| timestamp            | A string containing RFC3339 timestamp                     | `1985-04-12T23:20:50.52Z` |
 | null                 | Exactly one value **null**                                | `null`                    |
 | regex                | A regular expression                                      | `/ab+c/`                  |
-| symbol               | Symbol of various type                                    | `string` <br> `null`      |
+| symbol               | Symbol of various type                                    | `string`<br> `null`       |
 | range (pre-proposal) | A range value                                             | `0..10`                   |
 
 ### Boolean
 
-The boolean value can contain two symbols `true` or `false` as with any programming language. The Boolean type is represented by the symbol `bool`.
+The boolean value can contain two symbols `true` or `false`. The boolean type is represented by the symbol `bool`.
 
 The _boolean_ value gets automatically converted to a _number_ or a _string_ if required.
 
@@ -42,15 +35,15 @@ The _boolean_ value gets automatically converted to a _number_ or a _string_ if 
 
 ### String
 
-The String type is used to represent textual data. It is a utf-8 encoded list of characters. Just like javascript, string in Flows are also immutable, i.e once a string is created, it cannot be modified. But you can always create new strings out of existing string using operators like _concat_ or _substring_.
+The string type is used to represent textual data. It is a utf-8 encoded list of characters. Just like JavaScript, strings in Flows are also immutable. For example, once a string is created, it cannot be modified. But you can create new strings out of existing strings using operators like _concat_ or _substring_.
 
-> 💡 Tip: JSON values are of type string. To make sense of that data they serialize needs perform step called parsing to can generate a complex data-structure of primitive types. The `Send Request` block performs the parsing automatically if the `content-type` header hints at a JSON body. In cases where this automatic parsing does not take place, one will need to parse the string using the `JSON Parse` block.
+A _string_ value cannot be converted automatically to any other type.
 
-A _string_ value cannot get converted automatically to any other type.
+> JSON values are of type string. The `Send Request` block automatically parses the data if the `content-type` header indicates a JSON body. In cases where automatic parsing doesn't happen, you will need to parse the string using the `JSON Parse` block.
 
 ### Number
 
-The number type in Flows can represent all kinds of numerical values, like Integers, Decimals, etc. Temporarily, the number internally are stored as javascript numbers, but this is going to change account for 64-bit integers and providing a unified number type.
+The number type can represent all kinds of numerical values, like integers and decimals for example. Currently, numbers are stored internally as JavaScript numbers, but this will change in the future to account for 64-bit integers and to provide a unified number type.
 
 A _number_ value gets automatically converted to a _string_ or _boolean_ if required.
 
@@ -61,9 +54,9 @@ A _number_ value gets automatically converted to a _string_ or _boolean_ if requ
 
 ### Timestamp
 
-Unlike javascript, Flows consider dates are first-class type and provide a data type for storing dates. Dates are stored in-accordance to [RFC 3339](https://datatracker.ietf.org/doc/html/rfc3339).
+Unlike JavaScript, Flows views dates as a first-class type and provides a data type for storing dates. Dates are stored in accordance with [RFC 3339](https://datatracker.ietf.org/doc/html/rfc3339).
 
-A _timestamp_ value gets automatically converted to a _string_ or _number_ if required.
+A _timestamp_ value is automatically converted to a _string_ or _number_ if required.
 
 | value                     | string                      | number         |
 | ------------------------- | --------------------------- | -------------- |
@@ -71,9 +64,9 @@ A _timestamp_ value gets automatically converted to a _string_ or _number_ if re
 
 ### Null
 
-A _null_ value represent a reference to non-existent values. Generally, any datatype could contain a null value instead of their actual value. In an API-First world it is very common to find this occurrence. The only possible value for the null type is `null`.
+A _null_ value represents a reference to a non-existent value. Generally, any data type could contain a null value instead of its actual value. This is a common occurrence in an API-First world. The only possible value for the null type is `null`.
 
-Because this is so common, in order to prevent null pointer exceptions, Flow performs some deterministic automatic conversion for null value.
+Because this is so common, in order to prevent null pointer exceptions, Flow performs some deterministic automatic conversion for null values.
 
 | value  | boolean | string | number | regex  | timestamp              |
 | ------ | ------- | ------ | ------ | ------ | ---------------------- |
@@ -81,52 +74,43 @@ Because this is so common, in order to prevent null pointer exceptions, Flow per
 
 ### Regex
 
-Regular expressions are patterns which can be used to match character combinations in strings. Flows borrows Javascript regular expression implementation. [Read More on MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions).
+Regular expressions are patterns which can be used to match character combinations in strings. Flows borrows JavaScript regular expression implementation. [Read More on MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions).
 
-A _regex_ value gets automatically converted to a _string_ if required.
+A _regex_ value is automatically converted to a _string_ if required.
 
 | value  | string   |
 | ------ | -------- |
 | `/$^/` | `'/$^/'` |
 
-## Abstract Types
+## Abstract types
 
-> All complex/abstract data-types in Flows are built over the concept of [Streams](<https://en.wikipedia.org/wiki/Stream_(computing)>) internally.
+> All complex and abstract data types in Flows are built on the concept of [Streams](<https://en.wikipedia.org/wiki/Stream_(computing)>) internally.
 
 ### List
 
-The list data-type represents a stream of ordered values, where values of the same type
-may occur more than once. You might be familiar with Arrays in javascript, Lists are like
-arrays but with the constraint that all elements present in the list are of same type.
+The list data type represents a stream of ordered values, where values of the same type may occur more than once. Lists are like arrays in JavaScript but all elements present in the list must be of the same type.
 
-A typescript equivalent of List would be
+Below is a typescript equivalent of a list.
 
 ```ts
 const list: number[] = [1, 2, 3, 4, 5]
 ```
 
-A stream of values where all values have the same type
-
 ### Tuple
 
-The tuple data-type represent an ordered sequence of finite elements. The values for each
-element of the tuple can be of different type. Unlike Lists, tuples cannot be an infinite stream,
-they are of fixed size and their size must be known before hand.
+The tuple data type represent an ordered sequence of finite elements. The values for each element of the tuple can be of different types. Unlike Lists, tuples can't be an infinite stream. Tuples have a fixed size and their size must be known beforehand.
 
-A typescript equivalent of Tuple would be
+Below is a typescript equivalent of a tuple.
 
 ```ts
 const list: [string, number, boolean] = ["flows", 20, true]
 ```
 
-A fixed stream of values where values have same or different types
-
 ### Record
 
-A record is a collection of fields(key-value pair) where the key is of string type and the values
-can be of different types. These field are fixed in number and follow a particular sequence. If you have some knowledge of C, you will know these are `struct`.
+A record is a collection of fields (key-value pairs) where the key is of string type and the values can be of different types. These fields are fixed in number and follow a particular sequence. If you have some knowledge of C, records are like `struct`.
 
-A typescript equivalent of Record would be
+Below is a typescript equivalent of a record.
 
 ```ts
 interface Box {
@@ -138,18 +122,13 @@ interface Box {
 }
 ```
 
-A stream of fields(key:value) where key is string and values have same or different types
-
-### Map / Dictionary
+### Map
 
 A map is a collection of fields where the key can be a value of a primitive type and
-corresponding value can be of any data-type. The constraint here being that all fields
-must have keys and values of same type.
+corresponding value can be of any data type. All map fields must have keys and values of same type.
 
-A typescript equivalent of Map would be
+Below is a typescript equivalent of a map.
 
 ```ts
 type map: {[key: string]: number} = {'a': 1, 'b': 2, 'c': 3};
 ```
-
-A stream of fields(key:value) where keys are of same type and values are of same type
