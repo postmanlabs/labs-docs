@@ -80,6 +80,8 @@ You can import your data from files, folders, links, raw text, or code repositor
 
 You can import Postman data you exported earlier, including collections, environments, data dumps, and globals.
 
+To import Postman data, do the following:
+
 1. Select **Import** in the left navigation menu.
 1. Select your file or folder, input your link, paste your raw text, or [import from GitHub](#importing-from-github-repositories). Postman will automatically recognize Postman data, confirming the name, format, and what the file will import as.
    ![Import collection and environment](https://assets.postman.com/postman-docs/import-export-github-files-confirm.jpg)
@@ -89,6 +91,8 @@ You can import Postman data you exported earlier, including collections, environ
 ### Converting Postman collections from v1 to v2
 
 Postman no longer supports the collection v1 format and will return an error if you import a collection in this format. You can convert your collection's format from v1 to v2 to import it into Postman.
+
+To convert your collection's format from v1 to v2, do the following:
 
 1. In the terminal of your choice, enter the following command to install the Postman Collection Transformer.
 
@@ -204,6 +208,8 @@ You can export your Postman data, including collections, environments, data dump
 
 You can also export your environments from Postman.
 
+To export an environment, do the following:
+
 1. Select **Environments** from the sidebar.
 1. Select an environment to export.
 1. In the workbench, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px">, then select **Export** to download your newly generated JSON file.
@@ -211,6 +217,8 @@ You can also export your environments from Postman.
 ### Exporting data dumps
 
 You can export a data dump of all your collections, environments, globals, and header presets in Postman.
+
+To export a data dump, do the following:
 
 1. Select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the header, then select **Settings**.
 

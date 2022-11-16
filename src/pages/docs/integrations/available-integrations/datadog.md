@@ -111,6 +111,8 @@ Postman is now a Datadog Technology Partner. Postman’s Integration is listed o
 
 If you have previously created any integrations, you must update them to take the advantage of the integration listing on Datadog.
 
+To update existing integrations, do the following:
+
 1. Go to the [Post monitoring results](https://go.postman.co/integrations/service/datadog/monitor_run_datadog) page.
 
 1. Select the integration you want to upgrade.

@@ -44,6 +44,8 @@ If you have configured a proxy for your local system, the Postman desktop app us
 
 If the proxy server configured for your system requires basic authentication, add the credentials to the Postman desktop app.
 
+To configure the default proxy, do the following:
+
 1. In the Postman desktop app, select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the header and select **Settings**.
 1. Select the **Proxy** tab.
 1. Under **Default Proxy Configuration**, select the checkbox next to **This proxy requires authentication**.
@@ -104,6 +106,8 @@ Enable the [system proxy option](#using-the-system-proxy-for-requests) in Postma
 ### I can't send a request and my network doesn't require a proxy
 
 In Postman, make sure both the system proxy and custom proxy are turned off.
+
+To turn off the system proxy and custom proxy, do the following:
 
 1. Select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the header and select **Settings**.
 1. Select the **Proxy** tab.

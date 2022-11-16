@@ -56,6 +56,8 @@ Postman uses **OpenSSL** to generate certificate-key pairs. For Postman to be ab
 
 OpenSSL is already installed for macOS and is typically installed for Linux. For Windows systems, you must install OpenSSL manually.
 
+To install OpenSSL manually for Windows systems, do the following:
+
 1. Download and install the [OpenSSL v1.1.1 installer](https://slproweb.com/products/Win32OpenSSL.html) for your operating system version. OpenSSL v1.x is required to generate certificates. Later versions of OpenSSL aren't supported at this time.
 
     > During installation, make sure to select the option to copy the OpenSSL DLLs to the **OpenSSL binaries (/bin) directory**.

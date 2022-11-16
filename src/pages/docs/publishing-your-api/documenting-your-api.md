@@ -130,6 +130,8 @@ The copy of the collection displays on your API's overview and under your API in
 
 You can add to your API documentation collections from the API Builder.
 
+To edit a documentation collection for an API, do the following:
+
 1. Select **APIs** in the sidebar and select an API.
 1. On the API's overview, expand a collection and select **View full documentation**.
 1. Select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px"> next to any description and use [the built-in editing tools](/docs/publishing-your-api/authoring-your-documentation/) to author content.

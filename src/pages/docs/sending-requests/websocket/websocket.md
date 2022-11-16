@@ -49,6 +49,8 @@ In addition to raw WebSocket connections, Postman also supports Socket.IO connec
 
 You can create a WebSocket request from the sidebar in Postman.
 
+To create a WebSocket request, do the following:
+
 1. Select  __New__ &gt; __WebSocket Request__ to open a new tab. (In the Postman desktop app, you can also select **⌘+N** or **Ctrl+N**.)
 
     [![New Screen](https://assets.postman.com/postman-docs/new-request-websocket-v91.jpg)](https://assets.postman.com/postman-docs/new-request-websocket-v91.jpg)
@@ -83,7 +85,7 @@ To save a message, do the following:
 1. Select **Save Message**.
 1. The message title ("New Message" by default) is editable. Enter a new title and press Return.
 
-To load a saved message:
+To load a saved message, do the following:
 
 1. Open the **Saved Messages** pane next to the editor pane.
 1. Select a saved message. It will be loaded into the editor pane.

@@ -59,7 +59,9 @@ $ docker pull postman/newman;
 $ docker run -t postman/newman run "https://www.getpostman.com/collections/0d0350a9a89d39fb6361"
 ```
 
-The URL is a shareable public link to your collection. To get this link, do the following:
+The URL is a shareable public link to your collection.
+
+To get the public link, do the following:
 
 1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the collection name.
 1. Select **Share collection**.

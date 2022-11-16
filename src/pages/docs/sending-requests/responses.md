@@ -184,7 +184,9 @@ This will turn the warning off for all members of your team, but only for this r
 
 <img alt="Select Hide warning in a security warning" src="https://assets.postman.com/postman-docs/v10/api-response-security-tab-hide-warning-v10.jpg" width="900px"/>
 
-When you or another member of your team has hidden a warning, Postman shows a message in the **Security** tab to indicate how many are hidden. To turn this warning back on later, do the following:
+When you or another member of your team has hidden a warning, Postman shows a message in the **Security** tab to indicate how many are hidden.
+
+To turn this warning back on later, do the following:
 
 1. Select **Review**.
 1. Review your hidden warnings and select the eye icon <img alt="Eye icon" src="https://assets.postman.com/postman-docs/eye.jpg#icon" width="16px"> next to the one you want to turn back on.

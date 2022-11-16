@@ -51,10 +51,10 @@ If you are using APIs to build client-side applications like mobile apps, websit
 
 The Postman app has a built-in proxy that can capture HTTP and HTTPS traffic. Here's how it works:
 
-1. The Postman app listens for any calls made by a client app or device using the proxy.
-1. The Postman proxy captures the request and forwards it to the server.
-1. The server returns a response to the Postman proxy, where it can also be saved.
-1. The response is returned back to the client.
+* The Postman app listens for any calls made by a client app or device using the proxy.
+* The Postman proxy captures the request and forwards it to the server.
+* The server returns a response to the Postman proxy, where it can also be saved.
+* The response is returned back to the client.
 
 [![postman capture proxy](https://assets.postman.com/postman-docs/proxymobile-aa.jpeg)](https://assets.postman.com/postman-docs/proxymobile-aa.jpeg)
 
@@ -88,6 +88,8 @@ The proxy is running, but it won't capture traffic until you start a proxy debug
 After the proxy is running, you can start a proxy debug session. This is a time-bound session where captured traffic is saved in an entry in the **History** tab, and optionally into a collection. Once a proxy debug session is started, you can then pause, restart, or stop it. Before you start the session, you can select what traffic you want to go into it.
 
 > You can only have a single proxy or interceptor debug session running at the same time.
+
+To start a proxy debug session, do the following:
 
 1. Go to the **Via Proxy** tab of the **Capture requests** window.
 1. Select **Save Responses for Requests** to save each request's responses. They will be saved along with the captured requests.
