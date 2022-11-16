@@ -8,7 +8,7 @@ warning: false
 
 You can use [Flows' Query Language](/docs/src/pages/postman-flows/flows-query-language/introduction-to-fql/) (FQL) to return values from your responses. Sample data and FQL examples are below.
 
-### Contents
+## Contents
 
 - [Getting a top level field](#getting-a-top-level-field)
 - [Getting a nested field](#getting-a-nested-field)
@@ -43,43 +43,43 @@ You can use [Flows' Query Language](/docs/src/pages/postman-flows/flows-query-la
 }
 ```
 
-### Getting a top level field
+## Getting a top level field
 
-#### FQL
+### FQL
 
 ``` javascript
 name
 ```
 
-#### Result
+### Result
 
 ``` json
 "John Smith"
 ```
 
-### Getting a nested field
+## Getting a nested field
 
-#### FQL
+### FQL
 
 ``` javascript
 address.city
 ```
 
-#### Result
+### Result
 
 ``` json
 "Atlanta"
 ```
 
-### Getting an entire object
+## Getting an entire object
 
-#### FQL
+### FQL
 
 ``` javascript
 address
 ```
 
-#### Result
+### Result
 
 ``` json
 {
@@ -90,29 +90,29 @@ address
 }
 ```
 
-### Selecting a specific index in an array
+## Selecting a specific index in an array
 
-#### FQL
+### FQL
 
 ``` javascript
 phones[0].number
 ```
 
-#### Result
+### Result
 
 ``` json
 "123-456-7890"
 ```
 
-### Selecting a whole array
+## Selecting a whole array
 
-#### FQL
+### FQL
 
 ``` javascript
 phones
 ```
 
-#### Result
+### Result
 
 ``` json
 [
@@ -127,29 +127,29 @@ phones
 ]
 ```
 
-### Return just one field of every object in an array
+## Return just one field of every object in an array
 
-#### FQL
+### FQL
 
 ``` javascript
 phones.number
 ```
 
-#### Result
+### Result
 
 ``` json
 ["123-456-7890","098-765-4321"]
 ```
 
-### Returning fields that contain special characters in the key name
+## Returning fields that contain special characters in the key name
 
-#### FQL
+### FQL
 
 ``` javascript
 `display name`
 ```
 
-#### Result
+### Result
 
 ``` json
 "myuser123"

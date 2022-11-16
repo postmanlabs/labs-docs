@@ -9,7 +9,7 @@ warning: false
 
 ## Connections
 
-**Connections** link blocks together and send [messages](#message) from one block to another. Blocks can be connected to many other blocks to create more complex flows.
+**Connections** link blocks together and send [messages](#messages) from one block to another. Blocks can be connected to many other blocks to create more complex flows.
 
 > Important
 >

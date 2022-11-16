@@ -8,7 +8,7 @@ warning: false
 
 You can use [Flows' Query Language](/docs/src/pages/postman-flows/flows-query-language/introduction-to-fql/) (FQL) to structure returned data in several ways. Sample data and FQL examples are below.
 
-### Contents
+## Contents
 
 - [Returning multiple objects as an array](#returning-multiple-objects-as-an-array)
 - [Return an array of a single field from multiple objects](#return-an-array-of-a-single-field-from-multiple-objects)
@@ -59,15 +59,15 @@ You can use [Flows' Query Language](/docs/src/pages/postman-flows/flows-query-la
 }
 ```
 
-### Returning multiple objects as an array
+## Returning multiple objects as an array
 
-#### FQL
+### FQL
 
 ``` javascript
 [physical_address, work_address, mailing_address]
 ```
 
-#### Result
+### Result
 
 ``` json
 [
@@ -79,29 +79,29 @@ You can use [Flows' Query Language](/docs/src/pages/postman-flows/flows-query-la
 
 ---
 
-### Return an array of a single field from multiple objects
+## Return an array of a single field from multiple objects
 
-#### FQL
+### FQL
 
 ``` javascript
 [physical_address, work_address, mailing_address].city
 ```
 
-#### Result
+### Result
 
 ``` json
 ["Atlanta","Maimi","Durham"]
 ```
 
-### Collapse multiple objects into a single key:value pair
+## Collapse multiple objects into a single key:value pair
 
-#### FQL
+### FQL
 
 ``` javascript
 phones.{type: number}
 ```
 
-#### Result
+### Result
 
 ``` json
 [
@@ -112,15 +112,15 @@ phones.{type: number}
 ]
 ```
 
-### Collapse and group results by a shared field value
+## Collapse and group results by a shared field value
 
-#### FQL
+### FQL
 
 ``` javascript
 phones{type: number[]}
 ```
 
-#### Result
+### Result
 
 ``` json
 {
