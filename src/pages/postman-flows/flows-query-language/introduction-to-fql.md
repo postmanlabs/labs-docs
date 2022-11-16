@@ -12,7 +12,7 @@ _Flows Query Language_ (FQL) can be used to parse and transform JSON data to get
 
 ![](https://assets.postman.com/postman-labs-docs/flows-query-language/evaluate-block-example.png)
 
-A Data block holds JSON-formatted key-value pairs. In the above example, the Evaluate block's variable `data_field` has a value of `input` (this can be selected as a value when creating the variable), which enables the Data block's JSON to be passed into the Evaluate block and queried. In this case, `customer_field` is a value in the Data block. FQL can be executed in the Evaluate block in order to print the value of `customer_field`.
+The static data block holds JSON formatted key-value pairs. The variable data_field has a value of input (input can be selected as a value when creating the variable), which allows the JSON to be passed into the evaluate block and queried. In this case, customer_field is a value in the static data block. FQL can  be executed in the evaluate block in order to print out the value of customer_field.
 
 ## Things you can do with FQL
 

@@ -1,7 +1,7 @@
 ---
 title: "Messages"
 page_id: "Messages"
-updated: 2022-05-12
+updated: 2022-11-15
 warning: false
 ---
 
@@ -11,9 +11,3 @@ Data structures like Lists can also be converted to Streams which can be process
 
 > Geek's Note
 > When message flow from one block another, the actual data does not move but a pointer to the message is passed along.
-
-## Durables
-
-Durables are messages that are never destroyed in the flow chain and hence every block down the chain can use it.
-
-Head on to [Working with access tokens - Durables](/postman-flows/getting-started/working-with-access-tokens/) to understand more about durables with an example.
