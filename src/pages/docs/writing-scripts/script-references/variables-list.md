@@ -136,7 +136,7 @@ The following is a list of dynamic variables whose values are randomly generated
 |**`$randomBankAccountName`**| A random bank account name                    | `Home Loan Account`, `Checking Account`, `Savings Account`. `Auto Loan Account` |
 | **`$randomCreditCardMask`**| A random masked credit card number            | `3622`, `5815`, `6257`                                                          |
 | **`$randomBankAccountBic`**| A random BIC (Bank Identifier Code)           | `EZIAUGJ1`, `KXCUTVJ1`, `DIVIPLL1`                                              |
-|**`$randomBankAccountIban`**| A random 15–31 character IBAN (International Bank Account Number) | `MU20ZPUN3039684000618086155TKZ`                            |
+|**`$randomBankAccountIban`**| A random 15-31 character IBAN (International Bank Account Number) | `MU20ZPUN3039684000618086155TKZ`                            |
 |                            |                                               | `BR7580569810060080800805730W2`                                                 |
 |                            |                                               | `XK241602002200395017`                                                          |
 | **`$randomTransactionType`**| A random transaction type                    | `invoice`, `payment`, `deposit`                                                 |
