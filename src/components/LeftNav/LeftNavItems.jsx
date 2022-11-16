@@ -103,6 +103,17 @@ export const leftNavItems = [
           },
         ],
       },
+      {
+        name: "Cloud Execution",
+        subParentSlug: "cloud-execution",
+        slug: "/postman-flows/cloud-execution/cloud-execution/",
+        subMenuItems2: [
+          {
+            name: "Cloud Execution",
+            url: "/postman-flows/cloud-execution/cloud-execution/",
+          },
+        ]
+      },
     ],
   },
   {
