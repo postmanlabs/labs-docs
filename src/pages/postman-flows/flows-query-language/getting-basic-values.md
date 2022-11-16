@@ -10,6 +10,7 @@ The following examples describe how to use FQL to get basic values from JSON dat
 
 ## Contents
 
+* [Example JSON](#example-json)
 * [Get a top-level field](#get-a-top-level-field)
 * [Get a nested field](#get-a-nested-field)
 * [Get an entire object](#get-an-entire-object)
@@ -113,6 +114,7 @@ phones[0].number
 ``` javascript
 phones
 ```
+
 ### Result
 
 ``` json
