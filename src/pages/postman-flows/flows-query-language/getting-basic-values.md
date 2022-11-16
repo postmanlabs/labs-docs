@@ -6,6 +6,8 @@ updated: 2022-11-08
 warning: false
 ---
 
+You can use [Flows' Query Language](/docs/src/pages/postman-flows/flows-query-language/introduction-to-fql/) (FQL) to return values from your responses. Sample data and FQL examples are below.
+
 ### Contents
 
 - [Getting a top level field](#getting-a-top-level-field)

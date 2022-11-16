@@ -6,6 +6,8 @@ order: 4
 warning: false
 ---
 
+You can use [Flows' Query Language](/docs/src/pages/postman-flows/flows-query-language/introduction-to-fql/) (FQL) to perform math functions, manipulate strings and arrays, and interact with the data in your responses in several ways. Sample data and FQL examples are below.
+
 ### Contents
 
 - [Sum numerical values](#sum-numerical-values)

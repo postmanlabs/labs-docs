@@ -6,6 +6,8 @@ order: 3
 warning: false
 ---
 
+You can use [Flows' Query Language](/docs/src/pages/postman-flows/flows-query-language/introduction-to-fql/) (FQL) to structure returned data in several ways. Sample data and FQL examples are below.
+
 ### Contents
 
 - [Returning multiple objects as an array](#returning-multiple-objects-as-an-array)
@@ -65,8 +67,6 @@ warning: false
 [physical_address, work_address, mailing_address]
 ```
 
-<br>
-
 #### Result
 
 ``` json
@@ -87,15 +87,11 @@ warning: false
 [physical_address, work_address, mailing_address].city
 ```
 
-<br>
-
 #### Result
 
 ``` json
 ["Atlanta","Maimi","Durham"]
 ```
-
----
 
 ### Collapse multiple objects into a single key:value pair
 
@@ -104,8 +100,6 @@ warning: false
 ``` javascript
 phones.{type: number}
 ```
-
-<br>
 
 #### Result
 
@@ -118,8 +112,6 @@ phones.{type: number}
 ]
 ```
 
----
-
 ### Collapse and group results by a shared field value
 
 #### FQL
@@ -127,8 +119,6 @@ phones.{type: number}
 ``` javascript
 phones{type: number[]}
 ```
-
-<br>
 
 #### Result
 
@@ -139,5 +129,3 @@ phones{type: number[]}
     "work": ["314-265-9078"]
 }
 ```
-
----
