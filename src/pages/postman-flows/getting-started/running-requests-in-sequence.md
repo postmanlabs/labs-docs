@@ -1,23 +1,23 @@
 ---
 title: "Running Requests in sequence"
 page_id: "running-requests-in-sequence"
-updated: 2022-05-12
+updated: 2022-11-16
 warning: false
 ---
 
-If you have a bunch of simple requests that have no dependency on each other but they have to be executed in a particular order, you can do so by using [signals](/postman-flows/core-concepts/connections/#signals) to connect your [blocks](/postman-flows/core-concepts/blocks/)
+If you have several simple requests that have no dependency on each other but have to be executed in a particular order, you can do this by using [signals](/postman-flows/core-concepts/connections/#signals) to connect your [blocks](/postman-flows/core-concepts/blocks/).
 
-> Check out the example flow - [Running requests](https://www.postman.com/postman/workspace/example-flows/flow/6267f9315d367a64e7ba06e5)
+> Check out the example flow: [Running requests](https://www.postman.com/postman/workspace/example-flows/flow/6267f9315d367a64e7ba06e5)
 
 1. **Add the "Send Request" block**
 
-   Click on the `+ Block` button on the toolbar and select the "Send Request" block from the list to add to your canvas, then select the request. Repeat this setup until all the requests are added to the canvas.
+   Select `+ Block` button on the toolbar and select the "Send Request" block from the list to add to your canvas, then select the request. Repeat this setup until all the requests are added to the canvas.
 
    ![running requests add](https://assets.postman.com/postman-labs-docs/running-requests/running-add-requests.gif)
 
 2. **Connect the signals**
 
-   Click on the grey dot (signal output) of the source block and connect it to signal input of the target block in the order you want the requests to execute.
+   Select the grey dot (signal output) of the source block and connect it to signal input of the target block in the order you want the requests to execute.
 
    ![Connect signals](https://assets.postman.com/postman-labs-docs/running-requests/running-connect-signals.gif)
 
@@ -32,8 +32,8 @@ If you have a bunch of simple requests that have no dependency on each other but
 
 3. **Start the Flow**
 
-   Start the flow see them run in the order they are configured!
+   Start the flow see them run in the order they are configured:
 
    ![Start the flow](https://assets.postman.com/postman-labs-docs/running-requests/running-run-with-signals.gif)
 
-If you want to use data from one request in another request, you can learn how to do so in [Chaining Requests with data](/postman-flows/getting-started/chaining-requests-with-data/)
+If you want to use data from one request in another request, you can learn how to do so in [Chaining Requests with data](/postman-flows/getting-started/chaining-requests-with-data/).

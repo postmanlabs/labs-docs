@@ -24,15 +24,15 @@ To chain requests:
    ![Pipe data](https://assets.postman.com/postman-labs-docs/chaining-requests/chaining-pipe-data.gif)
 
    > 1. On flow execution, the output message from the source block is passed to the input of the target block using the pipe connection.
-   > 2. When using pipes to connect blocks, signal connections are **optional**. Flows automatically decides the order in which the blocks should execute based on connections. (Signal can be used explicitly to manually override the order of execution.)
+   > 2. When using pipes to connect blocks, signal connections are optional. Flows automatically decides the order in which the blocks execute based on connections. (Signal can be used explicitly to manually override the order of execution.)
 
 3. **Check the output in the terminal**
 
-   At this point, we don't really know what the output of the “Send Request” looks like. So let's add the “Terminal” block to see the output.
+   At this point, we don't know what the output of the “Send Request” looks like. Add the **Terminal** block to see the output.
 
    ![Check the terminal](https://assets.postman.com/postman-labs-docs/chaining-requests/chaining-check-in-terminal.gif)
 
-   The output has the following structure and the `id` is present in the body.
+   The output has the following structure and the `id` is present in the body:
 
    ```
    body:
@@ -48,7 +48,7 @@ To chain requests:
 
 4. **Use message in Request variables**
 
-   For the sake of simplicity, Flows flattens complex objects to simple key-value pairs in the Send Request block. The above message gets converted to the following, which you will be able to use the values of complex objects in your requests via the variable syntax of `{{body.id}}`.
+   Flows flattens complex objects to simple key-value pairs in the Send Request block. The above message is converted to the following, which you will be able to use the values of complex objects in your requests with the variable syntax of `{{body.id}}`.
 
    ```
    body.id: 1
@@ -62,7 +62,7 @@ To chain requests:
 
    ![Set variable](https://assets.postman.com/postman-labs-docs/chaining-requests/chaining-set-variable.gif)
 
-   Objects and values in lists and arrays can also be accessed via an index. For the following body, `{{body.types.0}}` would return `User`
+   Objects and values in lists and arrays can also be accessed by an index. For the following body, `{{body.types.0}}` would return `User`
 
    ```
    body:
@@ -79,7 +79,7 @@ To chain requests:
 
    ![Start the flow](https://assets.postman.com/postman-labs-docs/chaining-requests/chaining-start-flow.gif)
 
-   You can observe that the request sent has the path param set to `1`, which we obtained from the `body.id`.
+   The request sent has the path param set to `1`, which was obtained from the `body.id`.
 
 <!-- ---
 
