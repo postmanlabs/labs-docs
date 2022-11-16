@@ -16,7 +16,7 @@ javascript/typescript background, or it might be their first time programming in
 an API-First language; therefore we have tried to keep the vocabulary of the
 types close to javascript/typescript.
 
-## Primitive Values
+## Primitive values
 
 | type                 | What it accepts                                           | Example                   |
 | -------------------- | --------------------------------------------------------- | ------------------------- |
@@ -89,7 +89,7 @@ A _regex_ value gets automatically converted to a _string_ if required.
 | ------ | -------- |
 | `/$^/` | `'/$^/'` |
 
-## Abstract Types
+## Abstract types
 
 > All complex/abstract data-types in Flows are built over the concept of [Streams](<https://en.wikipedia.org/wiki/Stream_(computing)>) internally.
 

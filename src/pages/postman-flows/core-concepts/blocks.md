@@ -5,7 +5,7 @@ updated: 2022-05-04
 warning: false
 ---
 
-Blocks are the atomic pieces used to create a flow. Every block has a specific purpose and does the heavy lifting by performing tasks, creating data, transforming data and much more.
+Blocks are the atomic pieces used to create a flow. Every block has a specific purpose and does the heavy lifting by performing tasks, creating data, transforming data, and much more.
 
 - [Fundamentals](#fundamentals)
 - [Block Anatomy](#block-anatomy)
@@ -13,7 +13,7 @@ Blocks are the atomic pieces used to create a flow. Every block has a specific p
 
 ## Fundamentals
 
-Every block has an input and output. You can pass/pipe a message packet (see "[messages](./messages.md)") from one block to another. Blocks can perform tasks, have value, or run an operation (see "[Types of Blocks](#types-of-blocks))
+Every block has an input and output. You can pass/pipe a message packet (see [messages](./messages.md)) from one block to another. Blocks can perform tasks, have value, or run an operation (see [Types of Blocks](#types-of-blocks))
 
 > **Important**
 >
@@ -21,7 +21,7 @@ Every block has an input and output. You can pass/pipe a message packet (see "[m
 > - A block starts running when a message packet becomes available in all of its connected inputs.
 > - A block is not a function but a process
 
-## Block Anatomy
+## Block anatomy
 
 ![](https://assets.postman.com/postman-labs-docs/block/block-anatomy.svg)
 
@@ -45,7 +45,7 @@ Every block has an input and output. You can pass/pipe a message packet (see "[m
 
 10. **Signal Output** - Similar to "Signal Input", the signal output port that emits a high signal when the block completes its processing. (see also [connections](./connections.md))
 
-## Types of Blocks
+## Types of blocks
 
 There are 3 types of blocks:
 
