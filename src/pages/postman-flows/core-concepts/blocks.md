@@ -17,9 +17,9 @@ Every block has an input and output. You can pass/pipe a message packet (see [me
 
 > **Important**
 >
-> - A block becomes executable when all of its **_required_** inputs are connected.
-> - A block starts running when a message packet becomes available in all of its connected inputs.
-> - A block is not a function but a process
+> - A block becomes executable when all its **_required_** inputs are connected.
+> - A block starts running when a message packet becomes available in all its connected inputs.
+> - A block isn't a function, it's a process.
 
 ## Block anatomy
 
@@ -31,7 +31,7 @@ Every block has an input and output. You can pass/pipe a message packet (see [me
 
 3. **Expand** - Expands the block to view more configurations and information.
 
-4. **Options Menu** - Contains additional options for the block.
+4. **Options Menu** - Has more options for the block.
 
 5. **Required Input Port** - Required input ports are colored dark blue. Needs a connection from another block to be executable. (see also [connections](./connections.md))
 
@@ -43,7 +43,7 @@ Every block has an input and output. You can pass/pipe a message packet (see [me
 
 9. **Signal Input** - Once connected, the execution of a given block is prevented until the signal port turns high. (see also [connections](./connections.md))
 
-10. **Signal Output** - Similar to "Signal Input", the signal output port that emits a high signal when the block completes its processing. (see also [connections](./connections.md))
+10. **Signal Output** - Similar to **Signal Input**, the signal output port emits a high signal when the block completes its processing. (See also [connections](./connections.md))
 
 ## Types of blocks
 
