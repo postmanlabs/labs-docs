@@ -54,8 +54,6 @@ warning: false
     }
 ```
 
----
-
 ### Filter for just a customer's recurring subscription payments
 
 #### FQL
@@ -83,8 +81,6 @@ payments[description='recurring subscription']
 ]
 ```
 
----
-
 ### Filter for just the invoice numbers of recurring payments
 
 #### FQL
@@ -98,8 +94,6 @@ payments[description='recurring subscription']
  ```json
  ["101301","101303"]
  ```
-
----
 
 ### When your filter matches only one record
 
@@ -116,8 +110,6 @@ It returns just a single record, not an array.
 ``` json
 "101304"
 ```
-
----
 
 ### Checking if a field contains a value
 
