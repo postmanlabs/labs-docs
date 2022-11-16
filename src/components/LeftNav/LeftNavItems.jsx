@@ -104,13 +104,13 @@ export const leftNavItems = [
         ],
       },
       {
-        name: "Cloud Execution",
-        subParentSlug: "cloud-execution",
-        slug: "/postman-flows/cloud-execution/cloud-execution/",
+        name: "Remote Execution",
+        subParentSlug: "webhooks",
+        slug: "/postman-flows/remote-execution/webhooks/",
         subMenuItems2: [
           {
-            name: "Cloud Execution",
-            url: "/postman-flows/cloud-execution/cloud-execution/",
+            name: "Webhooks",
+            url: "/postman-flows/remote-execution/webhooks/",
           },
         ]
       },
