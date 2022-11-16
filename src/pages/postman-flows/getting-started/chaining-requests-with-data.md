@@ -1,17 +1,17 @@
 ---
 title: "Chaining requests with data"
 page_id: "Chaining-requests-with-data"
-updated: 2022-11-15
+updated: 2022-11-16
 warning: false
 ---
 
-A very common use case is to take data from one response, and pipe that to another request. Let's consider an example where we want to create a post then use the ID of that post in the next request to update it.
+A common Postman Flows use case is to take data from one response, and pipe that to another request. Consider an example of creating a post then using the ID of that post in the next request to update it.
 
 > Check out the example flow - [Pass data from requests](https://www.postman.com/postman/workspace/example-flows/flow/62fdd3360a222e16840ce44b)
 
 1. **Add two Send Request blocks**
 
-   Create two Send Request blocks by clicking on the `+ Block` button on the toolbar. Select “Create a Post” for the first request and “Update Post” for the second.
+   Create two **Send Request** blocks by selecting `+ Block` on the toolbar. Select **Create a Post** for the first request and **Update Post** for the second request.
 
    ![Add two requests](https://assets.postman.com/postman-labs-docs/chaining-requests/updated-chaining-add-two-requests.gif)
 
@@ -23,7 +23,7 @@ A very common use case is to take data from one response, and pipe that to anoth
 
    > 1. On flow execution, the success event from the source block is passed over to the send and variable ports of the target block using the pipe connection.
    > 2. The data being passed into the variable will automatically populate the structure and allow you quick access to select the data if you have a saved example response in your collection.
-  
+
 3. **Manually print out the response JSON data**
 
    At this point, (if we don't have a saved example) we don't really know what the output of the “Send Request” looks like. So let's add the “Log” block to see the output.

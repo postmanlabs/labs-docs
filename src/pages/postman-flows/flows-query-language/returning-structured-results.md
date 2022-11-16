@@ -1,19 +1,24 @@
 ---
 title: "Structuring how your data is returned"
 page_id: "structuring-how-your-data-is-returned"
-updated: 2022-11-08
+updated: 2022-11-14
 order: 3
 warning: false
 ---
 
-### Topics in this section:
+The following examples describe how to use FQL to return structured data from JSON data.
 
-- [Returning multiple objects as an array](#returning-multiple-objects-as-an-array)
-- [Return an array of a single field from multiple objects](#return-an-array-of-a-single-field-from-multiple-objects)
-- [Collapse multiple objects into a single key:value pair](#collapse-multiple-objects-into-a-single-keyvalue-pair)
-- [Collapse and group results by a shared field value](#collapse-and-group-results-by-a-shared-field-value)
+## Contents
 
-*Imagine you have the following JSON data returned by an endpoint:*
+* [Example JSON](#example-json)
+* [Return multiple objects as an array](#return-multiple-objects-as-an-array)
+* [Return an array of a single field from multiple objects](#return-an-array-of-a-single-field-from-multiple-objects)
+* [Collapse multiple objects into a single key:value pair](#collapse-multiple-objects-into-a-single-keyvalue-pair)
+* [Collapse and group results by a shared field value](#collapse-and-group-results-by-a-shared-field-value)
+
+## Example JSON
+
+The following examples use the following JSON data returned by an endpoint:
 
 ``` json
 {
@@ -57,17 +62,17 @@ warning: false
 }
 ```
 
-### Returning multiple objects as an array
+## Return multiple objects as an array
 
-#### FQL
+### FQL
 
 ``` javascript
 [physical_address, work_address, mailing_address]
 ```
 
-<br>
+<br/>
 
-#### Result
+### Result
 
 ``` json
 [
@@ -79,17 +84,17 @@ warning: false
 
 ---
 
-### Return an array of a single field from multiple objects
+## Return an array of a single field from multiple objects
 
-#### FQL
+### FQL
 
 ``` javascript
 [physical_address, work_address, mailing_address].city
 ```
 
-<br>
+<br/>
 
-#### Result
+### Result
 
 ``` json
 ["Atlanta","Maimi","Durham"]
@@ -97,17 +102,17 @@ warning: false
 
 ---
 
-### Collapse multiple objects into a single key:value pair
+## Collapse multiple objects into a single key:value pair
 
-#### FQL
+### FQL
 
 ``` javascript
 phones.{type: number}
 ```
 
-<br>
+<br/>
 
-#### Result
+### Result
 
 ``` json
 [
@@ -120,17 +125,17 @@ phones.{type: number}
 
 ---
 
-### Collapse and group results by a shared field value
+## Collapse and group results by a shared field value
 
-#### FQL
+### FQL
 
 ``` javascript
 phones{type: number[]}
 ```
 
-<br>
+<br/>
 
-#### Result
+### Result
 
 ``` json
 {
