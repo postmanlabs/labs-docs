@@ -6,7 +6,7 @@ order: 2
 warning: false
 ---
 
-### Topics in this section:
+### Contents
 
 - [Filter for just a customer's recurring subscription payments](#filter-for-just-a-customers-recurring-subscription-payments)
 - [Filter for just the invoice numbers of recurring payments](#filter-for-just-the-invoice-numbers-of-recurring-payments)

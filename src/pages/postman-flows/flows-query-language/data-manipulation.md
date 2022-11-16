@@ -6,7 +6,7 @@ order: 4
 warning: false
 ---
 
-### Topics in this section:
+### Contents
 
 - [Sum numerical values](#sum-numerical-values)
 - [Modify strings and group and sum by description](#modify-strings-and-group-and-sum-by-description)

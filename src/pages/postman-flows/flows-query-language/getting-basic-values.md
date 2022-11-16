@@ -6,7 +6,7 @@ updated: 2022-11-08
 warning: false
 ---
 
-### Topics in this section
+### Contents
 
 - [Getting a top level field](#getting-a-top-level-field)
 - [Getting a nested field](#getting-a-nested-field)

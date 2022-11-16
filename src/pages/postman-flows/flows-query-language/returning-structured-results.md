@@ -6,7 +6,7 @@ order: 3
 warning: false
 ---
 
-### Topics in this section:
+### Contents
 
 - [Returning multiple objects as an array](#returning-multiple-objects-as-an-array)
 - [Return an array of a single field from multiple objects](#return-an-array-of-a-single-field-from-multiple-objects)
