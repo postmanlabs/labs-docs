@@ -1,7 +1,7 @@
 ---
 title: "Data types"
 page_id: "data-types"
-updated: 2022-05-04
+updated: 2022-11-16
 warning: false
 ---
 
