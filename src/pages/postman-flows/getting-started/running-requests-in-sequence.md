@@ -1,5 +1,5 @@
 ---
-title: "Running Requests in sequence"
+title: "Running requests in sequence"
 page_id: "running-requests-in-sequence"
 updated: 2022-11-15
 warning: false
@@ -11,7 +11,7 @@ If you have a bunch of simple requests that have no dependency on each other but
 
 1. **Add the "Send Request" block**
 
-   Click on the `+ Block` button on the toolbar and select the "Send Request" block from the list to add to your canvas, then select the request. Repeat this setup until all the requests are added to the canvas.
+   Select `+ Block` button on the toolbar and select the "Send Request" block from the list to add to your canvas, then select the request. Repeat this setup until all the requests are added to the canvas.
 
    ![running requests add](https://assets.postman.com/postman-labs-docs/running-requests/updated-running-add-requests.gif)
 
@@ -31,8 +31,8 @@ If you have a bunch of simple requests that have no dependency on each other but
 
 3. **Start the Flow**
 
-   Start the flow see them run in the order they are configured!
+   Start the flow see them run in the order they are configured:
 
    ![Start the flow](https://assets.postman.com/postman-labs-docs/running-requests/updated-running-run-with-send-events.gif)
 
-If you want to use data from one request in another request, you can learn how to do so in [Chaining Requests with data](/postman-flows/getting-started/chaining-requests-with-data/)
+If you want to use data from one request in another request, you can learn how to do so in [Chaining requests with data](/postman-flows/getting-started/chaining-requests-with-data/).

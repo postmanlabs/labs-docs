@@ -5,7 +5,7 @@ updated: 2022-11-15
 warning: false
 ---
 
-Blocks are the atomic pieces used to create a flow. Every block has a specific purpose and does the heavy lifting by performing tasks, creating data, transforming data and much more.
+Blocks are the atomic pieces used to create a flow. Every block has a specific purpose and does the heavy lifting by performing tasks, creating data, transforming data, and much more.
 
 - [Fundamentals](#fundamentals)
 - [Block Anatomy](#block-anatomy)
@@ -13,13 +13,13 @@ Blocks are the atomic pieces used to create a flow. Every block has a specific p
 
 ## Fundamentals
 
-Every block has either an input, output, or both. You can pass/pipe a message packet from one block to another. Blocks can perform tasks, have value, or run an operation (see "[Types of Blocks](#types-of-blocks))
+Every block has either an input, output, or both. You can pass/pipe a message packet from one block to another. Blocks can perform tasks, have value, or run an operation (see [Types of Blocks](#types-of-blocks))
 
 > **Important**
 >
 > - A block is not a function but a process
 
-## Block Anatomy
+## Block anatomy
 
 ![](https://assets.postman.com/postman-labs-docs/block/updated-block-anatomy.png)
 
@@ -39,9 +39,9 @@ Every block has either an input, output, or both. You can pass/pipe a message pa
 
 8. **Failure** - When the block returns an unsuccessful status code it emits the response data.
 
-## Types of Blocks
+## Types of blocks
 
-There are 3 types of blocks:
+There are three types of blocks:
 
 - **Task blocks** - perform a particular asynchronous task.
 - **Data blocks** - create data of a specific.

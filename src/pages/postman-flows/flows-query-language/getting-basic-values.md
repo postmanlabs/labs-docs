@@ -2,21 +2,26 @@
 title: "Getting basic values"
 page_id: "getting-basic-values"
 order: 1
-updated: 2022-11-08
+updated: 2022-11-16
 warning: false
 ---
 
-### Topics in this section
+The following examples describe how to use FQL to get basic values from JSON data.
 
-- [Getting a top level field](#getting-a-top-level-field)
-- [Getting a nested field](#getting-a-nested-field)
-- [Getting an entire object](#getting-an-entire-object)
-- [Selecting a specific index in an array](#selecting-a-specific-index-in-an-array)
-- [Selecting a whole array](#selecting-a-whole-array)
-- [Return just one field of every object in an array](#return-just-one-field-of-every-object-in-an-array)
-- [Returning fields that contain special characters in the key name](#returning-fields-that-contain-special-characters-in-the-key-name)
+## Contents
 
-*Imagine you have the following JSON data returned by an endpoint:*
+* [Example JSON](#example-json)
+* [Get a top-level field](#get-a-top-level-field)
+* [Get a nested field](#get-a-nested-field)
+* [Get an entire object](#get-an-entire-object)
+* [Select a specific index in an array](#select-a-specific-index-in-an-array)
+* [Select an entire array](#select-an-entire-array)
+* [Return one field of every object in an array](#return-one-field-of-every-object-in-an-array)
+* [Return fields that contain special characters in the key name](#return-fields-that-contain-special-characters-in-the-key-name)
+
+## Example JSON
+
+The following examples use the following JSON data returned by an endpoint:
 
 ``` json
 {
@@ -41,55 +46,53 @@ warning: false
 }
 ```
 
----
+## Get a top-level field
 
-### Getting a top level field
-
-#### FQL
+### FQL
 
 ``` javascript
 name
 ```
 
-<br>
+<br/>
 
-#### Result
+### Result
 
 ``` json
 "John Smith"
 ```
 
----
+## Getting a nested field
 
-### Getting a nested field
+## Get a nested field
 
-#### FQL
+### FQL
 
 ``` javascript
 address.city
 ```
 
-<br>
+<br/>
 
-#### Result
+### Result
 
 ``` json
 "Atlanta"
 ```
 
----
+## Getting an entire object
 
-### Getting an entire object
+## Get an entire object
 
-#### FQL
+### FQL
 
 ``` javascript
 address
 ```
 
-<br>
+<br/>
 
-#### Result
+### Result
 
 ``` json
 {
@@ -100,37 +103,37 @@ address
 }
 ```
 
----
+## Selecting a specific index in an array
 
-### Selecting a specific index in an array
+## Select a specific index in an array
 
-#### FQL
+### FQL
 
 ``` javascript
 phones[0].number
 ```
 
-<br>
+<br/>
 
-#### Result
+### Result
 
 ``` json
 "123-456-7890"
 ```
 
----
+## Selecting a whole array
 
-### Selecting a whole array
+## Select an entire array
 
-#### FQL
+### FQL
 
 ``` javascript
 phones
 ```
 
-<br>
+<br/>
 
-#### Result
+### Result
 
 ``` json
 [
@@ -145,40 +148,38 @@ phones
 ]
 ```
 
----
+## Return just one field of every object in an array
 
-### Return just one field of every object in an array
+## Return one field of every object in an array
 
-#### FQL
+### FQL
 
 ``` javascript
 phones.number
 ```
 
-<br>
+<br/>
 
-#### Result
+### Result
 
 ``` json
 ["123-456-7890","098-765-4321"]
 ```
 
----
+## Returning fields that contain special characters in the key name
 
-### Returning fields that contain special characters in the key name
+## Return fields that contain special characters in the key name
 
-#### FQL
+### FQL
 
 ``` javascript
 `display name`
 ```
 
-<br>
+<br/>
 
-#### Result
+### Result
 
 ``` json
 "myuser123"
 ```
-
----

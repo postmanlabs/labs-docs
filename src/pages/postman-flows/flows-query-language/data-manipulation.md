@@ -1,12 +1,14 @@
 ---
 title: "Data manipulation"
 page_id: "data-manipulation"
-updated: 2022-11-14
+updated: 2022-11-16
 order: 4
 warning: false
 ---
 
-### Topics in this section:
+You can use [Flows' Query Language](/docs/src/pages/postman-flows/flows-query-language/introduction-to-fql/) (FQL) to perform math functions, manipulate strings and arrays, and interact with the data in your responses in several ways. Sample data and FQL examples are below.
+
+## Contents
 
 - [Sum numerical values](#sum-numerical-values)
 - [Modify strings and group and sum by description](#modify-strings-and-group-and-sum-by-description)
@@ -30,7 +32,7 @@ warning: false
 - [Encode an entire url](#encode-an-entire-url)
 - [Decode entire url](#decode-entire-url)
 - [Append to an array](#append-to-an-array)
-- [Time and Date parsing](#time-and-date-parsing)
+<!-- - [Time and Date parsing](#time-and-date-parsing) This link's anchor is commented out for now. -->
 - [Time and Date formatting](#time-and-date-formatting)
 
 *Imagine you have the following JSON data returned by an endpoint:*
@@ -73,35 +75,29 @@ warning: false
 
 ```
 
-### Sum numerical values
+## Sum numerical values
 
-#### FQL
+### FQL
 
 ``` javascript
 $sum(payments.amount)
 ```
 
-<br>
-
-#### Result
+### Result
 
 ``` json
 "$281.01"
 ```
 
----
+## Modify strings and group and sum by description
 
-### Modify strings and group and sum by description
-
-#### FQL
+### FQL
 
 ``` javascript
 payments.{description & ' annual cost' : amount*12}
 ```
 
-<br>
-
-#### Result
+### Result
 
 ``` json
 [
@@ -112,461 +108,363 @@ payments.{description & ' annual cost' : amount*12}
 ]
 ```
 
----
+## Cast a string into a number
 
-### Cast a string into a number
-
-#### FQL
+### FQL
 
 ``` javascript
 $number(customer_info.total_value)
 ```
 
-<br>
-
-#### Result
+### Result
 
 ``` json
 281.01
 ```
 
----
+## Convert a number into a string
 
-### Convert a number into a string
-
-#### FQL
+### FQL
 
 ``` javascript
 $string(payments[0].amount)
 ```
 
-<br>
-
-#### Result
+### Result
 
 ``` json
 "110.48"
 ```
 
----
+## Return the length of a string
 
-### Return the length of a string
-
-#### FQL
+### FQL
 
 ``` javascript
 $length(payments[0].description)
 ```
 
-<br>
-
-#### Result
+### Result
 
 ``` json
 22
 ```
 
----
-
-### Return part of a string using substring
+## Return part of a string using substring
 
 The first number is optional and specifies the offset, the second is the number of characters you are selecting, negative numbers can also be used for the offest
 
-#### FQL
+### FQL
 
 ``` javascript
 $substring(payments[0].description, 3, 6)
 ```
 
-<br>
-
-#### Result
+### Result
 
 ``` json
 "urring"
 ```
 
----
-
-### Get the string before the first occurance of a pattern
+## Get the string before the first occurance of a pattern
 
 Returns the substring before the specified occurance of `subscription` . If `subscription` was not found it would return the whole string
 
-#### FQL
+### FQL
 
 ``` javascript
 $substringBefore(payments[0].description, 'subscription')
 ```
 
-<br>
-
-#### Result
+### Result
 
 ``` json
 "recurring "
 ```
 
----
+## Get the string after the first occurance of a pattern
 
-### Get the string after the first occurance of a pattern
-
-#### FQL
+### FQL
 
 ``` javascript
 $substringAfter(payments[0].description, 'recurring')
 ```
 
-<br>
-
-#### Result
+### Result
 
 ``` json
 " subscription"
 ```
 
----
+## Transform a string to all uppercase
 
-### Transform a string to all uppercase
-
-#### FQL
+### FQL
 
 ``` javascript
 $uppercase(payments[0].description)
 ```
 
-<br>
-
-#### Result
+### Result
 
 ``` json
 "RECURRING SUBSCRIPTION"
 ```
 
----
+## Transform a string to all lowercase
 
-### Transform a string to all lowercase
-
-#### FQL
+### FQL
 
 ``` javascript
 $lowercase(customer_info.'customer field')
 ```
 
-<br>
-
-#### Result
+### Result
 
 ``` json
 "customer data"
 ```
 
----
-
-### Trim a string
+## Trim a string
 
 Removes excess leading and trailing spaces, converts newline, carriage return, line feeds, and tabs into a single space character, and reduces consecutive spaces into a single space character
 
-#### FQL
+### FQL
 
 ``` javascript
 $trim(customer_info.unformated_customer_field)
 ```
 
-<br>
-
-#### Result
+### Result
 
 ``` json
 "customer stuff"
 ```
 
----
-
-### Pad a string
+## Pad a string
 
 If the second parameter is a positive number it pads the string with the third parameter, if the second parameter is negative it pads the front of the string with the character(s) optionally specified (third parameter character(s) will default to space if left blank)
 
-#### FQL
+### FQL
 
 ``` javascript
 $pad(customer_info.'customer field', 15, '#')
 ```
 
-<br>
-
-#### Result
+### Result
 
 ``` json
 "Customer data##"
 ```
 
----
-
-### Split a string into an array of components
+## Split a string into an array of components
 
 Returns the string split on the seporater specified in the second parameter and optionally limited by the third parameter. A regex can also be used instead of a string
 
-#### FQL
+### FQL
 
 ``` javascript
 $split(payments[1].description, " ", 2)
 ```
 
-<br>
-
-#### Result
+### Result
 
 ``` json
 ["one","time"]
 ```
 
----
+## Join an array of strings into a single string
 
-### Join an array of strings into a single string
-
-#### FQL
+### FQL
 
 ``` javascript
 $join(customer_info.associated_usernames)
 ```
 
-<br>
-
-#### Result
+### Result
 
 ``` json
 "user1, myuser, online_user"
 ```
 
----
-
-### Replace string with another
+## Replace string with another
 
 Replaces the instances of `recurring` in the first parameter string and replaces it with renewing and limited to the first instance found (optionally specified with the `1`). Using a regex instead of `renewing` is also supported
 
-#### FQL
+### FQL
 
 ``` javascript
 $replace(payments[0].description,"recurring", "renewing", 1)
 ```
 
-<br>
-
-#### Result
+### Result
 
 ``` json
 "renewing subscription"
 ```
 
----
+## Base64 encode a string
 
-### Base64 encode a string
-
-#### FQL
+### FQL
 
 ``` javascript
 $base64encode('some data here')
 ```
 
-<br>
-
-#### Result
+### Result
 
 ``` json
 "c29tZSBkYXRhIGhlcmU="
 ```
 
----
+## Base64 decode a string
 
-### Base64 decode a string
-
-#### FQL
+### FQL
 
 ``` javascript
 $base64decode("c29tZSBkYXRhIGhlcmU=")
 ```
 
-<br>
-
-#### Result
+### Result
 
 ``` json
 "some data here"
 ```
 
----
+## Encode a url component
 
-### Encode a url component
-
-#### FQL
+### FQL
 
 ``` javascript
 $encodeUrlComponent("?city=melbourne")
 ```
 
-<br>
-
-#### Result
+### Result
 
 ``` json
 "%3Fcity%3Dmelbourne
 ```
 
----
+## Decode a url component
 
-### Decode a url component
-
-#### FQL
+### FQL
 
 ``` javascript
 $decodeUrlComponent("%3Fcity%3Dmelbourne")
 ```
 
-<br>
-
-#### Result
+### Result
 
 ``` json
 "?city=melbourne"
 ```
 
----
+## Encode an entire url
 
-### Encode an entire url
-
-#### FQL
+### FQL
 
 ``` javascript
 $encodeUrl('https://faketranslatewebsite.com/?phrase=こんにちは')
 ```
 
-<br>
-
-#### Result
+### Result
 
 ``` json
 "https://faketranslatewebsite.com/?phrase=%E3%81%93%E3%82%93%E3%81%AB%E3%81%A1%E3%81%AF"
 ```
 
----
+## Decode entire url
 
-### Decode entire url
-
-#### FQL
+### FQL
 
 ``` javascript
 $decodeUrl("https://faketranslatewebsite.com/?phrase=%E3%81%93%E3%82%93%E3%81%AB%E3%81%A1%E3%81%AF")
 ```
 
-<br>
-
-#### Result
+### Result
 
 ``` json
 "https://faketranslatewebsite.com/?phrase=こんにちは"
 ```
 
----
-
-### Append to an array
+## Append to an array
 
 Can combine two arrays, an array and a single value, or two strings into an array
 
-#### FQL
+### FQL
 
 ``` javascript
 $append([1,2,3], [4,5,6])
 ```
 
-<br>
-
-#### Result
+### Result
 
 ``` json
 [1,2,3,4,5,6]
 ```
+<!-- ## Time and date parsing -->
+<!-- TODO: Technically this 'Time and date parsing' H2 should be an H1. Deleting for now. Maybe break this doc into two docs in the future.-->
 
----
+## Get the current time in ISO 8601 format
 
-## Time and Date parsing
-
-### Get the current time in ISO 8601 format
-
-#### FQL
+### FQL
 
 ``` javascript
 $now()
 ```
 
-<br>
-
-#### Result
+### Result
 
 ``` json
 "2022-11-04T22:36:57.094Z"
 ```
 
----
+## Get the current time in Unix milliseconds since the epoch
 
-### Get the current time in Unix milliseconds since the epoch
-
-#### FQL
+### FQL
 
 ``` javascript
 $millis()
 ```
 
-<br>
-
-#### Result
+### Result
 
 ``` json
 1667601477254
 ```
 
----
-
-### Convert from a specific date format into Unix epoch time
+## Convert from a specific date format into Unix epoch time
 
 See the formatting section below for details on date formatting
 
-#### FQL
+### FQL
 
 ``` javascript
 $toMillis('10/12/2018 11:39 PM', '[M]/[D]/[Y] [h]:[m] [P]')
 ```
 
-<br>
-
-#### Result
+### Result
 
 ``` json
 1539387540000
 ```
 
----
-
-### Convert from Unix epoch time into a specific date format
+## Convert from Unix epoch time into a specific date format
 
 See the formatting section below for details on date formatting
 
-#### FQL
+### FQL
 
 ``` javascript
 $fromMillis(1539387540000, '[Y]-[M]-[D] [H]:[m]:[s] [z]')
 ```
 
-<br>
-
-#### Result
+### Result
 
 ``` json
 "2018-10-12 23:39:00 GMT+00:00"
 ```
 
----
-
-### Time and Date formatting
+## Time and Date formatting
 
 | Character  | Meaning |
 | ------------- | ------------- |
