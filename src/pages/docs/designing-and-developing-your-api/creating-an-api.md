@@ -33,7 +33,7 @@ contextual_links:
     url: "/docs/designing-and-developing-your-api/managing-apis/"
 ---
 
-To start using the API Builder, you can create a new API in your workspace. You can also update or delete existing APIs.
+To start using the API Builder, you can create a new API in your workspace. You can also upgrade, rename, or delete existing APIs.
 
 > You must be signed in to your Postman account to create an API.
 
@@ -64,7 +64,7 @@ To start using the API Builder, you can create a new API in your workspace. You 
 
 ## Updating an API
 
-Postman v10 can display APIs created in prior versions of Postman. To work with the API in Postman v10, you will be asked to update it.
+Postman v10 can display APIs created in prior versions of Postman. To work with the API in Postman v10, you'll be asked to upgrade the API when you make changes to it. For example, adding a collection, adding a definition file, and working with a connected Git repository.
 
 There are some differences in the way API versions work in Postman v10 compared to v9:
 
