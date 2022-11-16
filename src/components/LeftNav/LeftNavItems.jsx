@@ -59,10 +59,6 @@ export const leftNavItems = [
             name: "Chaining requests with data",
             url: "/postman-flows/getting-started/chaining-requests-with-data/",
           },
-          {
-            name: "Working with access tokens - Durables",
-            url: "/postman-flows/getting-started/working-with-access-tokens/",
-          },
         ],
       },
       {
@@ -77,10 +73,6 @@ export const leftNavItems = [
           {
             name: "Messages",
             url: "/postman-flows/core-concepts/messages/",
-          },
-          {
-            name: "Connections",
-            url: "/postman-flows/core-concepts/connections/",
           },
           {
             name: "Data Types",
@@ -110,6 +102,17 @@ export const leftNavItems = [
             url: "/postman-flows/flows-query-language/data-manipulation/",
           },
         ],
+      },
+      {
+        name: "Cloud Execution",
+        subParentSlug: "cloud-execution",
+        slug: "/postman-flows/cloud-execution/cloud-execution/",
+        subMenuItems2: [
+          {
+            name: "Cloud Execution",
+            url: "/postman-flows/cloud-execution/cloud-execution/",
+          },
+        ]
       },
     ],
   },

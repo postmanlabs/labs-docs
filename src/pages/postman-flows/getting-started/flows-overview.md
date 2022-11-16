@@ -3,7 +3,7 @@ title: "Introduction"
 order: 1
 page_id: "introduction"
 warning: false
-updated: 2022-05-12
+updated: 2022-11-16
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -22,13 +22,11 @@ Whether you're just starting out with Flows or want to learn more about its core
 
 - [Running requests in sequence](/postman-flows/getting-started/running-requests-in-sequence/)
 - [Chaining requests with data](/postman-flows/getting-started/chaining-requests-with-data/)
-- [Working with access tokens](/postman-flows/getting-started/working-with-access-tokens/)
 
 ## Core Concepts
 
 - [Blocks](/postman-flows/core-concepts/blocks/)
 - [Messages](/postman-flows/core-concepts/messages/)
-- [Connections](/postman-flows/core-concepts/connections/)
 - [Data Types](/postman-flows/core-concepts/data-types/)
 
 ## **Contribute**
