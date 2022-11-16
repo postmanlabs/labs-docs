@@ -1,9 +1,8 @@
 import React from 'react';
 import { v4 as uuidv4 } from 'uuid';
 import styled from 'styled-components';
-import footerDataLocal from '../../../build/footerDev.json';
 import footerData from '../../../bff-data/footer.json';
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 
 
 const FooterWrapper = styled.footer`
@@ -102,37 +101,9 @@ function targetStringGenerator(target) {
   return null;
 }
 
-// const runtime = typeof document === 'object';
-
-// useState to update data / signals component to rerender
-// asynchronous bff call to get data
 const Footer = () => {
-  // const data = (process.env.NODE_ENV === 'development') && footerDataLocal;
 
-  // let data = footerDataLocal;
-  // (process.env.NODE_ENV === 'development') ? data = footerDataLocal : data = footerData;
-
-  const [data, setData] = useState(footerDataLocal)
-
-  useEffect(() => {
-    if (process.env.NODE_ENV === 'production') { 
-      setData(footerData)
-    }
-    // if (process.env.NODE_ENV === 'production') { 
-    //   try { 
-    //     window.pm.bff(
-    //       'footer',
-    //       (d) => {
-    //         setData(JSON.parse(d))
-    //       }
-    //     )
-    //   } catch (err) {
-    //     if (window.pm && typeof window.pm.log === 'function') {
-    //       window.pm.log(err);
-    //     }
-    //   }
-    // }
-  }, []) /* <-- add this to mimic component mounted behaviour and fire only once on first render*/
+  const [data] = useState(footerData)
 
   const columns = data.items.splice(0, 4);
    
