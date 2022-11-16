@@ -24,10 +24,8 @@ types close to javascript/typescript.
 | string               | utf-8 encoded characters                                  | `foo 😎 bar`              |
 | number               | double precision 64-bit values or 64bit unsigned integers | `3.14` <br> `4294967295`  |
 | timestamp            | string containing RFC3339 timestamp                       | `1985-04-12T23:20:50.52Z` |
-| null                 | Exactly one value **null**                                | `null`                    |
 | regex                | A regular expression                                      | `/ab+c/`                  |
-| symbol               | Symbol of various type                                    | `string` <br> `null`      |
-| range (pre-proposal) | A range value                                             | `0..10`                   |
+| symbol               | Symbol of various type                                    | `now` <br> `null`      |
 
 ### Boolean
 
@@ -68,16 +66,6 @@ A _timestamp_ value gets automatically converted to a _string_ or _number_ if re
 | value                     | string                      | number         |
 | ------------------------- | --------------------------- | -------------- |
 | `1985-04-12T23:20:50.52Z` | `'1985-04-12T23:20:50.52Z'` | `482196050520` |
-
-### Null
-
-A _null_ value represent a reference to non-existent values. Generally, any datatype could contain a null value instead of their actual value. In an API-First world it is very common to find this occurrence. The only possible value for the null type is `null`.
-
-Because this is so common, in order to prevent null pointer exceptions, Flow performs some deterministic automatic conversion for null value.
-
-| value  | boolean | string | number | regex  | timestamp              |
-| ------ | ------- | ------ | ------ | ------ | ---------------------- |
-| `null` | `false` | `''`   | `0`    | `/$^/` | `0000-00-00T00:00:00Z` |
 
 ### Regex
 
