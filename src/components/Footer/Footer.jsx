@@ -1,8 +1,9 @@
 import React from 'react';
 import { v4 as uuidv4 } from 'uuid';
 import styled from 'styled-components';
+import footerDataLocal from '../../../build/footerDev.json';
 import footerData from '../../../bff-data/footer.json';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 
 const FooterWrapper = styled.footer`
@@ -103,7 +104,14 @@ function targetStringGenerator(target) {
 
 const Footer = () => {
 
-  const [data] = useState(footerData)
+  const [data, setData] = useState(footerDataLocal)
+
+  useEffect(() => {
+    if (process.env.NODE_ENV === 'production') { 
+      setData(footerData)
+    }
+
+  }, []) /* <-- add this to mimic component mounted behaviour and fire only once on first render*/
 
   const columns = data.items.splice(0, 4);
    
