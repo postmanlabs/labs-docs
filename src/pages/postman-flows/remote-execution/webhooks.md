@@ -21,7 +21,7 @@ Once you hit the "Release" button and give your release a meaingful name, it is 
 
 > **Important**
 >
-> Every time you release, it saves a snapshot of your Collections and Environments. If you make or need to make any changes to these, you will need to release again. 
+> Every time you release, it saves a snapshot of your Collections and Environments. If you make or need to make any changes to these, you will need to release again.
 
 ![Release to cloud](https://assets.postman.com/postman-labs-docs/cloud-execution/cloud-execution-create-release.gif)
 
@@ -30,4 +30,3 @@ Once you hit the "Release" button and give your release a meaingful name, it is 
 Make a POST request to trigger the webhook endpoint and your flow is now running in the cloud.
 
 ![Trigger the Endpoint](https://assets.postman.com/postman-labs-docs/cloud-execution/cloud-execution-running-in-cloud.gif)
-

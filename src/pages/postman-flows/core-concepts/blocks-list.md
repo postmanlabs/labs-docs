@@ -23,7 +23,7 @@ All of the blocks availabel in Flows are below:
 
   Emits an event when the Flow starts to fire the sequence of blocks.
 
-- **Webhook Endpoint** 
+- **Webhook Endpoint**
 
   Allows you to trigger a Flow on the Postman servers remotely.
 
@@ -37,13 +37,13 @@ All of the blocks availabel in Flows are below:
 
 - **Collect**
 
-  Collects the results of a for loop outputs a list and an event when it has finished. 
+  Collects the results of a for loop outputs a list and an event when it has finished.
 
 - **For**
 
   Loops over each item in a list.
 
-- **Repeat** 
+- **Repeat**
 
   Performs a loop a specified number of times.
 
@@ -53,7 +53,7 @@ All of the blocks availabel in Flows are below:
 
 - **String**
 
-  A block that emits the string that you enter. 
+  A block that emits the string that you enter.
 
 - **Bool**
 
@@ -79,7 +79,7 @@ All of the blocks availabel in Flows are below:
 
   Emits the current date and time.
 
-- **Date** 
+- **Date**
 
   Emits the specified date.
 
@@ -99,10 +99,11 @@ All of the blocks availabel in Flows are below:
 
   Allows a value to be assigned to a variable that can then be accessed with get variable anywhere in the Flow.
 
-- **Get Variable** 
+- **Get Variable**
 
   Retrives the value of a previously assigned variable.
 
 - **Template**
 
   Allows the free-hand structuring of data.
+  

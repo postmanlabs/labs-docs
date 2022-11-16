@@ -7,7 +7,7 @@ warning: false
 
 For your first Flow, this guide will walk you through calling the Pokemon API and printing out the list to the console. The pokemon API returns over a thousand results so this Flow will print just two-hundred at a time to the console.
 
-## Creating your API request 
+## Creating your API request
 
 For this Flow, there is just one required request to prepare which is a GET call. After creating a new Collection and making your request, run it once with the url `https://pokeapi.co/api/v2/pokemon?limit=200` and save the request as an example so that Flows can automatically detect the structure for easier access later.
 
@@ -45,7 +45,7 @@ If `has_next` was not null, then there is another set of Pokemon to get which me
 
 ## Watching it run
 
-If the above steps were followed, now the Flow will run and log all the Pokemon to the console. 
+If the above steps were followed, now the Flow will run and log all the Pokemon to the console.
 
 ![Watching it run](https://assets.postman.com/postman-labs-docs/building-your-first-flow/watching-flow-run.gif)
 
