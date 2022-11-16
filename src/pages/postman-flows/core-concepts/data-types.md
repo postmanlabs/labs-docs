@@ -14,7 +14,7 @@ Since most flow programmers have a javascript or typescript background, or they 
 | type                 | What it accepts                                           | Example                   |
 | -------------------- | --------------------------------------------------------- | ------------------------- |
 | bool                 | **true** or **false**                                     | `true`                    |
-| string               | utf-8 encoded characters                                  | `foo 😎 bar`              |
+| string               | utf-8 encoded characters                                  | `example 😎 example`       |
 | number               | double precision 64-bit values or 64bit unsigned integers | `3.14` <br> `4294967295`  |
 | timestamp            | string containing RFC3339 timestamp                       | `1985-04-12T23:20:50.52Z` |
 | null                 | Exactly one value **null**                                | `null`                    |
@@ -24,7 +24,7 @@ Since most flow programmers have a javascript or typescript background, or they 
 
 ### Boolean
 
-The boolean value can contain two symbols `true` or `false` as with any programming language. The Boolean type is represented by the symbol `bool`.
+The boolean value can contain two symbols `true` or `false`. The boolean type is represented by the symbol `bool`.
 
 The _boolean_ value gets automatically converted to a _number_ or a _string_ if required.
 
@@ -35,7 +35,7 @@ The _boolean_ value gets automatically converted to a _number_ or a _string_ if 
 
 ### String
 
-The String type is used to represent textual data. It is a utf-8 encoded list of characters. Just like javascript, string in Flows are also immutable, i.e once a string is created, it cannot be modified. But you can always create new strings out of existing string using operators like _concat_ or _substring_.
+The string type is used to represent textual data. It is a utf-8 encoded list of characters. Just like javascript, string in Flows are also immutable, i.e once a string is created, it cannot be modified. But you can always create new strings out of existing string using operators like _concat_ or _substring_.
 
 > 💡 Tip: JSON values are of type string. To make sense of that data they serialize needs perform step called parsing to can generate a complex data-structure of primitive types. The `Send Request` block performs the parsing automatically if the `content-type` header hints at a JSON body. In cases where this automatic parsing does not take place, one will need to parse the string using the `JSON Parse` block.
 

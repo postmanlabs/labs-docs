@@ -13,8 +13,8 @@ warning: false
 
 > Important
 >
-> 1. Connections don't store data, they just send data.
-> 2. If a given input has an existing message, it will not accept new messages until the given block has completed its process.
+> 1. Connections don't store data, they just send and receive data.
+> 2. If a given input has an existing message, it won't accept new messages until the given block has completed its process.
 > 3. When two connections are connected to the same output, duplicate messages are sent to each connected input.
 > 4. When two connections are connected to the same input and both have messages, they don't get merged, the block processes each message in a round-robbin fashion.
 
