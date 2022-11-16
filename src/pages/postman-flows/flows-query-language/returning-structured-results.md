@@ -1,21 +1,24 @@
 ---
 title: "Structuring how your data is returned"
 page_id: "structuring-how-your-data-is-returned"
-updated: 2022-11-16
+updated: 2022-11-14
 order: 3
 warning: false
 ---
 
-You can use [Flows' Query Language](/docs/src/pages/postman-flows/flows-query-language/introduction-to-fql/) (FQL) to structure returned data in several ways. Sample data and FQL examples are below.
+The following examples describe how to use FQL to return structured data from JSON data.
 
 ## Contents
 
-- [Returning multiple objects as an array](#returning-multiple-objects-as-an-array)
-- [Return an array of a single field from multiple objects](#return-an-array-of-a-single-field-from-multiple-objects)
-- [Collapse multiple objects into a single key:value pair](#collapse-multiple-objects-into-a-single-keyvalue-pair)
-- [Collapse and group results by a shared field value](#collapse-and-group-results-by-a-shared-field-value)
+* [Example JSON](#example-json)
+* [Return multiple objects as an array](#return-multiple-objects-as-an-array)
+* [Return an array of a single field from multiple objects](#return-an-array-of-a-single-field-from-multiple-objects)
+* [Collapse multiple objects into a single key:value pair](#collapse-multiple-objects-into-a-single-keyvalue-pair)
+* [Collapse and group results by a shared field value](#collapse-and-group-results-by-a-shared-field-value)
 
-*Imagine you have the following JSON data returned by an endpoint:*
+## Example JSON
+
+The following examples use the following JSON data returned by an endpoint:
 
 ``` json
 {
@@ -59,13 +62,15 @@ You can use [Flows' Query Language](/docs/src/pages/postman-flows/flows-query-la
 }
 ```
 
-## Returning multiple objects as an array
+## Return multiple objects as an array
 
 ### FQL
 
 ``` javascript
 [physical_address, work_address, mailing_address]
 ```
+
+<br/>
 
 ### Result
 
@@ -87,6 +92,8 @@ You can use [Flows' Query Language](/docs/src/pages/postman-flows/flows-query-la
 [physical_address, work_address, mailing_address].city
 ```
 
+<br/>
+
 ### Result
 
 ``` json
@@ -95,11 +102,15 @@ You can use [Flows' Query Language](/docs/src/pages/postman-flows/flows-query-la
 
 ## Collapse multiple objects into a single key:value pair
 
+## Collapse multiple objects into a single key:value pair
+
 ### FQL
 
 ``` javascript
 phones.{type: number}
 ```
+
+<br/>
 
 ### Result
 
@@ -114,11 +125,15 @@ phones.{type: number}
 
 ## Collapse and group results by a shared field value
 
+## Collapse and group results by a shared field value
+
 ### FQL
 
 ``` javascript
 phones{type: number[]}
 ```
+
+<br/>
 
 ### Result
 

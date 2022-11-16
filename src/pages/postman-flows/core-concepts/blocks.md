@@ -1,7 +1,7 @@
 ---
 title: "The Block"
 page_id: "block"
-updated: 2022-11-16
+updated: 2022-11-15
 warning: false
 ---
 
@@ -13,42 +13,36 @@ Blocks are the atomic pieces used to create a flow. Every block has a specific p
 
 ## Fundamentals
 
-Every block has an input and an output. You can pass a message packet (see [messages](./messages.md)) from one block to another. Blocks can perform tasks, have value, or run an operation (see [Types of Blocks](#types-of-blocks)).
+Every block has either an input, output, or both. You can pass/pipe a message packet from one block to another. Blocks can perform tasks, have value, or run an operation (see [Types of Blocks](#types-of-blocks))
 
 > **Important**
 >
-> - A block becomes executable when all its **_required_** inputs are connected.
-> - A block starts running when a message packet becomes available in all its connected inputs.
-> - A block isn't a function, it's a process.
+> - A block is not a function but a process
 
 ## Block anatomy
 
-![](https://assets.postman.com/postman-labs-docs/block/block-anatomy.svg)
+![](https://assets.postman.com/postman-labs-docs/block/updated-block-anatomy.png)
 
 1. **Name** - Name of the block.
 
-2. **Run State** - Indicator showing the state of the block: default, running, ran successfully or ran unsuccessfully.
+2. **Request to run** - Which request from your collection is going to be run.
 
-3. **Expand** - Expands the block to view more configurations and information.
+3. **Send event input** - Starts running the block when this port receives an input.
 
-4. **Options Menu** - Has more options for the block.
+4. **Environment** - Which Postman Environment to use.
 
-5. **Required Input Port** - Required input ports are colored dark blue and need a connection from another block to be executable. (See also [connections](./connections/))
+5. **Body Type** - Schema the request uses.
 
-6. **Optional Input Port** - Option input ports are colored light blue and execute even if there is no connection to the port. (See also [connections](./connections/))
+6. **Variables** - The variables that are either provided in the Flow or from the Environment.
 
-7. **Output Port** - Emits results of the block process. (See also [connections](./connections/))
+7. **Success** - When the block returns a successful status code it emits the response data.
 
-8. **Configuration** - These are the quick configurations for a block. Some available configurations may not be shown here.
-
-9. **Signal Input** - Once connected, the execution of a given block is prevented until the signal port turns high. (See also [connections](./connections/))
-
-10. **Signal Output** - Like **Signal Input**, the signal output port emits a high signal when the block completes its processing. (See also [connections](./connections/))
+8. **Failure** - When the block returns an unsuccessful status code it emits the response data.
 
 ## Types of blocks
 
 There are three types of blocks:
 
-- **Task blocks** perform a particular asynchronous task.
-- **Value blocks** create data of a specific type.
-- **Operation blocks** transform data synchronously.
+- **Task blocks** - perform a particular asynchronous task.
+- **Data blocks** - create data of a specific.
+- **Logic blocks** - perform actions on data to transform them. These are synchronous in nature.

@@ -1,7 +1,7 @@
 ---
 title: "Messages"
 page_id: "Messages"
-updated: 2022-11-16
+updated: 2022-11-15
 warning: false
 ---
 
@@ -9,10 +9,5 @@ A **Message** is a single packet of data. A message could be a simple string o
 
 Data structures like lists can also be converted to streams which can be processed by blocks asynchronously.
 
-> When messages flow from one block to another, the actual data does not move but a pointer to the message is passed along.
-
-## Durables
-
-Durables are messages that are never destroyed in the flow chain and so every block down the chain can use them.
-
-See [Working with access tokens - Durables](/postman-flows/getting-started/working-with-access-tokens/) to learn more about durables.
+> Geek's Note
+> When message flow from one block another, the actual data does not move but a pointer to the message is passed along.

@@ -6,19 +6,22 @@ updated: 2022-11-16
 warning: false
 ---
 
-You can use [Flows' Query Language](/docs/src/pages/postman-flows/flows-query-language/introduction-to-fql/) (FQL) to return values from your responses. Sample data and FQL examples are below.
+The following examples describe how to use FQL to get basic values from JSON data.
 
 ## Contents
 
-- [Getting a top level field](#getting-a-top-level-field)
-- [Getting a nested field](#getting-a-nested-field)
-- [Getting an entire object](#getting-an-entire-object)
-- [Selecting a specific index in an array](#selecting-a-specific-index-in-an-array)
-- [Selecting a whole array](#selecting-a-whole-array)
-- [Return just one field of every object in an array](#return-just-one-field-of-every-object-in-an-array)
-- [Returning fields that contain special characters in the key name](#returning-fields-that-contain-special-characters-in-the-key-name)
+* [Example JSON](#example-json)
+* [Get a top-level field](#get-a-top-level-field)
+* [Get a nested field](#get-a-nested-field)
+* [Get an entire object](#get-an-entire-object)
+* [Select a specific index in an array](#select-a-specific-index-in-an-array)
+* [Select an entire array](#select-a-whole-array)
+* [Return one field of every object in an array](#return-one-field-of-every-object-in-an-array)
+* [Return fields that contain special characters in the key name](#return-fields-that-contain-special-characters-in-the-key-name)
 
-*Imagine you have the following JSON data returned by an endpoint:*
+## Example JSON
+
+The following examples use the following JSON data returned by an endpoint:
 
 ``` json
 {
@@ -43,13 +46,15 @@ You can use [Flows' Query Language](/docs/src/pages/postman-flows/flows-query-la
 }
 ```
 
-## Getting a top level field
+## Get a top-level field
 
 ### FQL
 
 ``` javascript
 name
 ```
+
+<br/>
 
 ### Result
 
@@ -59,11 +64,15 @@ name
 
 ## Getting a nested field
 
+## Get a nested field
+
 ### FQL
 
 ``` javascript
 address.city
 ```
+
+<br/>
 
 ### Result
 
@@ -73,11 +82,15 @@ address.city
 
 ## Getting an entire object
 
+## Get an entire object
+
 ### FQL
 
 ``` javascript
 address
 ```
+
+<br/>
 
 ### Result
 
@@ -92,11 +105,15 @@ address
 
 ## Selecting a specific index in an array
 
+## Select a specific index in an array
+
 ### FQL
 
 ``` javascript
 phones[0].number
 ```
+
+<br/>
 
 ### Result
 
@@ -106,11 +123,15 @@ phones[0].number
 
 ## Selecting a whole array
 
+## Select an entire array
+
 ### FQL
 
 ``` javascript
 phones
 ```
+
+<br/>
 
 ### Result
 
@@ -129,11 +150,15 @@ phones
 
 ## Return just one field of every object in an array
 
+## Return one field of every object in an array
+
 ### FQL
 
 ``` javascript
 phones.number
 ```
+
+<br/>
 
 ### Result
 
@@ -143,11 +168,15 @@ phones.number
 
 ## Returning fields that contain special characters in the key name
 
+## Return fields that contain special characters in the key name
+
 ### FQL
 
 ``` javascript
 `display name`
 ```
+
+<br/>
 
 ### Result
 

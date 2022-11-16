@@ -1,0 +1,22 @@
+extends: substitution
+message: "Use '%s' instead of '%s'."
+level: warning
+ignorecase: true
+action:
+  name: replace
+swap:
+  apologise: apologize
+  behaviour: behavior
+  cancelled: canceled
+  colour: color
+  centre: center
+  flavour: flavor
+  grey: gray
+  labour: labor
+  licence: license
+  neighbour: neighbor
+  organise: organize
+  organisation: organization
+  specialise: specialize
+  specialisation: specialization
+  characterise: characterize
