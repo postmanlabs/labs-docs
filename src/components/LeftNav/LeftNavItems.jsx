@@ -52,6 +52,10 @@ export const leftNavItems = [
             url: "/postman-flows/getting-started/the-interface/",
           },
           {
+            name: "Building your first Flow",
+            url: "/postman-flows/gettingstarted/building-your-first-flow/",
+          },
+          {
             name: "Running requests in sequence",
             url: "/postman-flows/getting-started/running-requests-in-sequence/",
           },
@@ -77,6 +81,10 @@ export const leftNavItems = [
           {
             name: "Data Types",
             url: "/postman-flows/core-concepts/data-types/",
+          },
+          {
+            name: "List of Blocks",
+            url: "/postman-flows/core-concepts/blocks-list/",
           },
         ],
       },
