@@ -142,6 +142,8 @@ When you're ready, select **Import**. After importing your API definition, you c
 
 You can import a definition from a connected Azure API Management service to an API in Postman. Importing a definition will create a new API in Postman and will also configure an integration with Azure API Management. Learn more about [integrating with Azure API Management](/docs/designing-and-developing-your-api/deploying-an-api/deploying-an-api-azure/).
 
+To import an API definition from Azure API Management, do the following:
+
 1. From the sidebar, select **APIs**, then select **Import**.
 1. Select **API Gateway**, then select **Azure API Management**.
 1. You'll be prompted to authorize Postman to access your Microsoft Azure account. After you grant access, you can close the browser tab and return to Postman.

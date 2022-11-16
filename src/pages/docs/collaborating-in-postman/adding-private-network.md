@@ -104,6 +104,8 @@ An [API Network Manager](/docs/collaborating-in-postman/roles-and-permissions/#t
 
 > You must have either [the Super Admin role or the API Network Manager role](/docs/administration/managing-your-team/managing-your-team/#managing-team-roles) to assign this role to a user.
 
+To assign the API Network Manager role, do the following:
+
 1. On the Team Settings page, select **Members and groups**.
 1. Select the user you want to assign the API Network Manager role to.
 1. In the **Roles** dropdown list next to their name, select **API Network Manager**, then select **Update Roles**. For more information about assigning team roles to individual users, see [Managing roles](/docs/administration/managing-your-team/managing-your-team/#managing-team-roles).
@@ -117,6 +119,8 @@ Postman will send an email to new API Network Managers about their updated role.
 The approval process enables an API Network Manager to control the process of adding elements to their team's Private API Network.
 
 > You must have either [the Super Admin role or the API Network Manager role](/docs/administration/managing-your-team/managing-your-team/#managing-team-roles) to turn on the approval process.
+
+To turn on the approval process workflow, do the following:
 
 1. In the Postman header, select **Team** > **Team Settings**.
 1. Select **Private API Network**.
@@ -308,6 +312,8 @@ Select the more actions icon <img alt="More actions icon" src="https://assets.po
 ### Removing elements from the Private API Network
 
 > If your team uses the [optional approval process](#using-the-approval-process-workflow), only an API Network Manager can remove an element from the Private API Network. If your team doesn't use the approval process, any user who has an Editor role for the element can remove it.
+
+To remove elements from your Private API Network, do the following:
 
 1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the element you want to remove from network.
 1. Select **Remove**.

@@ -37,6 +37,8 @@ With this integration, you can link your API in Postman to multiple services fro
 
 Before you begin, you must set up APM services for each deployment of your API. See the [New Relic APM documentation](https://docs.newrelic.com/docs/apm/) for more details.
 
+To connect an API to New Relic APM, do the following:
+
 1. Select **APIs** in the sidebar and select an API.
 1. Select **API Performance**.
 1. Under **Connect Postman to your monitoring workflows**, select **New Relic**.

@@ -110,6 +110,8 @@ To access the list of forks for a collection, environment, or flow, do the follo
 
 When you have made the changes that you want to a forked collection or environment, you can create a _pull request_. Creating a pull request means that you want to merge the changes you made in the forked element (the _source_) into the parent element (the _destination_). As part of the pull request process, you will request that reviewers look at your changes. Reviewers can make comments on your changes and will decide whether to approve them and merge them into the parent element.
 
+To create a pull request, do the following:
+
 1. Hover over the element in the sidebar.
 1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to its name.
 
@@ -140,6 +142,8 @@ Postman notifies the reviewers you selected about your pull request. You will re
 ### Creating public pull requests
 
 To create a pull request on a public collection or environment, you must fork the parent element into a public workspace so that the users you ask to [review it](#reviewing-pull-requests) have access to it.
+
+To create a public pull request, do the following:
 
 1. Begin the pull request process described in [Creating pull requests](#creating-pull-requests). A note tells you to move the source element to a public workspace.
 1. Select the public workspace where you want to move the element.
@@ -235,6 +239,8 @@ Each item shows the pull request's status, which will be `OPEN` for any that hav
 
 When you review a pull request, it's important to understand the changes that the pull request will introduce into the parent collection or environment. The difference between the fork and the parent element is called the _diff_.
 
+To view the diff, do the following:
+
 1. In the pull request, view the diff under the **Changes** heading.
 
 <img alt="View diff when reviewing pull request" src="https://assets.postman.com/postman-docs/pull-request-review-view-diff-v9.12.jpg" width="450px"/>
@@ -289,6 +295,8 @@ After you approve the pull request, its status in the list of pull requests is *
 
 You can keep your forked collections and environments up to date with any changes to the parent element, for example if another team member has merged changes into the parent element.
 
+To pull updates, do the following:
+
 1. Open the pull request. Postman will warn you that the parent element has changed since you last updated it.
 1. Select **Pull Changes** to update your fork with the changes to the parent element.
 
@@ -301,6 +309,8 @@ When you are ready to add the changes from a pull request or fork, you will _mer
 #### Merging changes from a pull request
 
 After the requested reviewer approves a pull request, you can merge it into the parent element.
+
+To merge changes from a pull request, do the following:
 
 1. From the approved pull request, select **Merge**.
 

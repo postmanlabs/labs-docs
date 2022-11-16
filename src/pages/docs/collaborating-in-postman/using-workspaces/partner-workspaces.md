@@ -68,6 +68,8 @@ Before sharing a Partner Workspace with external collaborators, you can set your
 
 You must be an Editor on an API, collection, or environment, the Workspace Admin, Partner Manager, or a Super Admin to move an element to a Partner Workspace.
 
+To move an element to a different workspace, do the following:
+
 1. In the sidebar, select the element you want to move. Then select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> > **Move**.
 
 1. Use the search bar to find the workspace you'd like to move the element to, or filter by workspace visibility by selecting the filter icon <img alt="Filter icon" src="https://assets.postman.com/postman-docs/icon-filter.jpg#icon" width="16px">.
@@ -183,6 +185,8 @@ It's not recommended, but you can choose to delete an element entirely. To do so
 ## Deleting a Partner Workspace
 
 Workspace Admins and Partner Managers can delete Partner Workspaces.
+
+To delete a workspace, do the following:
 
 1. On the workspace's **Overview** tab, select **Workspace Settings**.
 1. [Change the visibility of the workspace](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#changing-workspace-visibility) to **Private**.

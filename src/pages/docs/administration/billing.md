@@ -121,6 +121,8 @@ To set a payment method as your primary, hover over it and select **Set as Prima
 
 Postman accepts direct debit payments, in which payment funds are taken directly from a linked bank account using ACH.
 
+To use direct debit as your payment method, do the following:
+
 1. Select **Add payment method**, then select **ACH Direct Debit**.
 1. Enter your email, your name, and either enter or search for your bank name.
 
@@ -140,11 +142,15 @@ After account verification, Postman will send you a confirmation email. It can t
 
 You can choose to verify your bank account manually instead of using the automatic process documented in [Setting up direct debit payments](#setting-up-direct-debit-payments). This manual process may take up to two days.
 
+To verify your bank account manually, do the following:
+
 1. Select **Add payment method**, then select **ACH Direct Debit**.
 1. Enter your email and your name, then select **Enter bank details manually instead**.
 1. Enter your routing number and bank account number. Confirm your account number, then select **Continue**.
 
 In one to two business days, Stripe will make a small test deposit into your bank account that you will use to verify your bank account and will email you with further instructions.
+
+To verify your bank account using the test deposit, do the following:
 
 1. After the test deposit arrives in your bank account, go back to the Postman billing dashboard. Select **Plans and payments** > **Payment methods**.
 1. Hover over the bank account and select **Verify**.

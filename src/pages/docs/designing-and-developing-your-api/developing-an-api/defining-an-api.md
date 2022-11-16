@@ -52,6 +52,8 @@ You create the structure of your API using the _API definition_. The API definit
 
 If your API doesn't have a definition, you can generate an example definition that you can edit.
 
+To generate an API definition, do the following:
+
 1. Select **APIs** in the sidebar and select an API.
 1. On the API's overview, under **Definition**, select **Create Definition**.
 1. Select **Author Definition from scratch**.
@@ -65,6 +67,8 @@ If your API doesn't have a definition, you can generate an example definition th
 ## Importing an API definition
 
 You can import a file into your API to define your API.
+
+To import an API definition, do the following:
 
 1. Select **APIs** in the sidebar and select an API.
 1. On the API's overview, under **Definition**, select **Create Definition**.
@@ -167,7 +171,9 @@ To hide a rule violation for the API definition, select **Hide** next to the rul
 
 <img alt="Hide a rule violation in your API definition" src="https://assets.postman.com/postman-docs/v10/api-definition-hide-rule-violation-v10.jpg" width="800px"/>
 
-When you or another member of your team has hidden a rule violation, Postman shows a message in the editor's **Rule** tab to indicate how many are hidden. To turn a rule back on later, do the following:
+When you or another member of your team has hidden a rule violation, Postman shows a message in the editor's **Rule** tab to indicate how many are hidden.
+
+To turn a rule back on later, do the following:
 
 1. Select **Review**.
 1. Review your hidden rules and select the eye icon <img alt="Eye icon" src="https://assets.postman.com/postman-docs/eye.jpg#icon" width="16px"> next to the one you want to turn back on.

@@ -76,6 +76,8 @@ Keep in mind the following when connecting to a repository:
 
 You can connect to a GitHub, Bitbucket, GitLab, or Azure DevOps repository hosted in the cloud.
 
+To connect a repository hosted in the cloud, do the following:
+
 1. Select **APIs** in the sidebar and select an API.
 1. Under **Connect repository**, select **Connect** and select the type of repository you want to connect to.
 1. A browser tab opens asking you to log in to your repository. Follow the onscreen instructions. When you're finished, close the browser tab and return to Postman.
@@ -100,6 +102,8 @@ You can connect to a GitHub, Bitbucket, GitLab, or Azure DevOps repository hoste
 
 You can connect to a GitHub Enterprise Server, GitLab Self-Managed, or Azure DevOps Server repository hosted on-premises.
 
+To connect a repository hosted on-premises, do the following:
+
 1. Select **APIs** in the sidebar and select an API.
 1. Under **Connect repository**, select **Connect** and select the type of repository you want to connect to.
 1. Enter the **Domain URL** of your repository. Use the base URL of your enterprise server, for example: `https://my-git-server.example.com`
@@ -116,6 +120,8 @@ You can connect to a GitHub Enterprise Server, GitLab Self-Managed, or Azure Dev
 ## Disconnecting a remote repository
 
 After you disconnect a remote repository, you can no longer sync changes between Postman and the repository.
+
+To disconnect a remote repository, do the following:
 
 1. Select **APIs** in the sidebar and select an API.
 1. Select the source control icon <img alt="Git branch icon" src="https://assets.postman.com/postman-docs/icon-source-control.jpg#icon" width="16px"/> in the right sidebar.

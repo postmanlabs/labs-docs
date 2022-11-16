@@ -73,7 +73,9 @@ To show or hide the commit history, select **Commits**. Expand a commit to see d
 
 ### Committing and pushing changes
 
-The **Source Control** pane displays the number of changes in the active branch in Postman. To commit and push the changes to the remote repository, do the following:
+The **Source Control** pane displays the number of changes in the active branch in Postman.
+
+To commit and push the changes to the remote repository, do the following:
 
 1. Select **APIs** in the sidebar and select an API.
 1. Select the source control icon <img alt="Source control icon" src="https://assets.postman.com/postman-docs/icon-source-control.jpg#icon" width="16px"/> in the right sidebar.
@@ -106,6 +108,8 @@ If there are any conflicts, you'll need to [resolve the conflicts](#resolving-co
 
 If a change in your active branch conflicts with a change in the remote (origin) branch, you must resolve the conflict before you can pull changes.
 
+To resolve a conflict, do the following:
+
 1. Next to each affected file, select either **Keep remote file** or **Keep local file**.
 1. When you're finished, select **Pull Changes**.
 
@@ -116,6 +120,8 @@ If a change in your active branch conflicts with a change in the remote (origin)
 ### Creating a pull request
 
 After you push changes to a branch, you can create a pull request (PR) to merge your changes into another branch. For example, if you are working on a feature branch, you can create a pull request to merge your changes into the repository's main branch.
+
+To create a pull request, do the following:
 
 1. Select **APIs** in the sidebar and select an API.
 1. Select the source control icon <img alt="Source control icon" src="https://assets.postman.com/postman-docs/icon-source-control.jpg#icon" width="16px"/> in the right sidebar.

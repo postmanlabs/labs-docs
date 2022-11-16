@@ -30,6 +30,8 @@ Before configuring the Postman app in OneLogin, you must [configure SSO in Postm
 
 Open your OneLogin admin console in a new tab to continue configuring your Postman app.
 
+To continue configuring your Postman app, do the following:
+
 1. Go to **Applications** and select **Add App**.
 2. Search for "Postman" and select the Postman app from the results.
 3. Select **Configuration** on the left.
