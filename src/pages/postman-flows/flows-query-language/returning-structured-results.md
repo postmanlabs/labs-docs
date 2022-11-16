@@ -70,6 +70,8 @@ The following examples use the following JSON data returned by an endpoint:
 [physical_address, work_address, mailing_address]
 ```
 
+<br/>
+
 ### Result
 
 ``` json
@@ -80,6 +82,8 @@ The following examples use the following JSON data returned by an endpoint:
 ]
 ```
 
+---
+
 ## Return an array of a single field from multiple objects
 
 ### FQL
@@ -88,11 +92,15 @@ The following examples use the following JSON data returned by an endpoint:
 [physical_address, work_address, mailing_address].city
 ```
 
+<br/>
+
 ### Result
 
 ``` json
 ["Atlanta","Maimi","Durham"]
 ```
+
+---
 
 ## Collapse multiple objects into a single key:value pair
 
@@ -101,6 +109,8 @@ The following examples use the following JSON data returned by an endpoint:
 ``` javascript
 phones.{type: number}
 ```
+
+<br/>
 
 ### Result
 
@@ -113,6 +123,8 @@ phones.{type: number}
 ]
 ```
 
+---
+
 ## Collapse and group results by a shared field value
 
 ### FQL
@@ -120,6 +132,8 @@ phones.{type: number}
 ``` javascript
 phones{type: number[]}
 ```
+
+<br/>
 
 ### Result
 
@@ -130,3 +144,5 @@ phones{type: number[]}
     "work": ["314-265-9078"]
 }
 ```
+
+---

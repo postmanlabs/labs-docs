@@ -54,11 +54,15 @@ The following examples use the following JSON data returned by an endpoint:
 name
 ```
 
+<br/>
+
 ### Result
 
 ``` json
 "John Smith"
 ```
+
+---
 
 ## Get a nested field
 
@@ -68,11 +72,15 @@ name
 address.city
 ```
 
+<br/>
+
 ### Result
 
 ``` json
 "Atlanta"
 ```
+
+---
 
 ## Get an entire object
 
@@ -81,6 +89,8 @@ address.city
 ``` javascript
 address
 ```
+
+<br/>
 
 ### Result
 
@@ -93,6 +103,8 @@ address
 }
 ```
 
+---
+
 ## Select a specific index in an array
 
 ### FQL
@@ -101,11 +113,15 @@ address
 phones[0].number
 ```
 
+<br/>
+
 ### Result
 
 ``` json
 "123-456-7890"
 ```
+
+---
 
 ## Select an entire array
 
@@ -114,6 +130,8 @@ phones[0].number
 ``` javascript
 phones
 ```
+
+<br/>
 
 ### Result
 
@@ -130,6 +148,8 @@ phones
 ]
 ```
 
+---
+
 ## Return one field of every object in an array
 
 ### FQL
@@ -138,11 +158,15 @@ phones
 phones.number
 ```
 
+<br/>
+
 ### Result
 
 ``` json
 ["123-456-7890","098-765-4321"]
 ```
+
+---
 
 ## Return fields that contain special characters in the key name
 
@@ -152,8 +176,12 @@ phones.number
 `display name`
 ```
 
+<br/>
+
 ### Result
 
 ``` json
 "myuser123"
 ```
+
+---
