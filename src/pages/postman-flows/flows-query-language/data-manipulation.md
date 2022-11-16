@@ -1,7 +1,7 @@
 ---
 title: "Data manipulation"
 page_id: "data-manipulation"
-updated: 2022-11-14
+updated: 2022-11-16
 order: 4
 warning: false
 ---

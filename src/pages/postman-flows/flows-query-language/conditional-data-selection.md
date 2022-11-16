@@ -1,14 +1,14 @@
 ---
 title: "Conditional data selection"
 page_id: "conditional-data-selection"
-updated: 2022-11-14
+updated: 2022-11-16
 order: 2
 warning: false
 ---
 
 You can use [Flows' Query Language](/docs/src/pages/postman-flows/flows-query-language/introduction-to-fql/) (FQL) to filter for specific data in your responses. Sample data and FQL examples are below.
 
-### Contents
+## Contents
 
 - [Filter for just a customer's recurring subscription payments](#filter-for-just-a-customers-recurring-subscription-payments)
 - [Filter for just the invoice numbers of recurring payments](#filter-for-just-the-invoice-numbers-of-recurring-payments)
@@ -54,15 +54,15 @@ You can use [Flows' Query Language](/docs/src/pages/postman-flows/flows-query-la
     }
 ```
 
-### Filter for just a customer's recurring subscription payments
+## Filter for just a customer's recurring subscription payments
 
-#### FQL
+### FQL
 
 ``` javascript
 payments[description='recurring subscription']
 ```
 
-#### Result
+### Result
 
  ``` json
  [
@@ -81,45 +81,45 @@ payments[description='recurring subscription']
 ]
 ```
 
-### Filter for just the invoice numbers of recurring payments
+## Filter for just the invoice numbers of recurring payments
 
-#### FQL
+### FQL
 
  ``` javascript
  payments[description='recurring subscription'].invoice_number
  ```
 
-#### Result
+### Result
 
  ```json
  ["101301","101303"]
  ```
 
-### When your filter matches only one record
+## When your filter matches only one record
 
 It returns just a single record, not an array.
 
-#### FQL
+### FQL
 
  ``` javascript
  payments[description='recurring subscription deluxe'].invoice_number
  ```
 
-#### Result
+### Result
 
 ``` json
 "101304"
 ```
 
-### Checking if a field contains a value
+## Checking if a field contains a value
 
-#### FQL
+### FQL
 
 ``` javascript
 $contains(payments[0].description, 'recurring')
 ```
 
-#### Result
+### Result
 
 ``` json
 true

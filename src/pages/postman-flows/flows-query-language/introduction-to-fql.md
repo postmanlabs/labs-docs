@@ -1,7 +1,7 @@
 ---
 title: "Introduction to FQL"
 page_id: "introduction-to-fql"
-updated: 2022-11-14
+updated: 2022-11-16
 order: 0
 warning: false
 ---

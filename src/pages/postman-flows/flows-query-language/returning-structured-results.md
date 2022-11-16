@@ -1,7 +1,7 @@
 ---
 title: "Structuring how your data is returned"
 page_id: "structuring-how-your-data-is-returned"
-updated: 2022-11-08
+updated: 2022-11-16
 order: 3
 warning: false
 ---

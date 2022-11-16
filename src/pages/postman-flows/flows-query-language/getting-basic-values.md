@@ -2,7 +2,7 @@
 title: "Getting basic values"
 page_id: "getting-basic-values"
 order: 1
-updated: 2022-11-08
+updated: 2022-11-16
 warning: false
 ---
 

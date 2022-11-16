@@ -13,7 +13,7 @@ Blocks are the atomic pieces used to create a flow. Every block has a specific p
 
 ## Fundamentals
 
-Every block has an input and output. You can pass/pipe a message packet (see [messages](./messages.md)) from one block to another. Blocks can perform tasks, have value, or run an operation (see [Types of Blocks](#types-of-blocks))
+Every block has an input and an output. You can pass a message packet (see [messages](./messages.md)) from one block to another. Blocks can perform tasks, have value, or run an operation (see [Types of Blocks](#types-of-blocks)).
 
 > **Important**
 >
@@ -27,28 +27,28 @@ Every block has an input and output. You can pass/pipe a message packet (see [me
 
 1. **Name** - Name of the block.
 
-2. **Run State** - Indicator telling the state of the block: default, running, ran successfully or ran unsuccessfully.
+2. **Run State** - Indicator showing the state of the block: default, running, ran successfully or ran unsuccessfully.
 
 3. **Expand** - Expands the block to view more configurations and information.
 
 4. **Options Menu** - Has more options for the block.
 
-5. **Required Input Port** - Required input ports are colored dark blue. Needs a connection from another block to be executable. (see also [connections](./connections.md))
+5. **Required Input Port** - Required input ports are colored dark blue and need a connection from another block to be executable. (See also [connections](./connections/))
 
-6. **Optional Input Port** - Option input ports are colored light blue. The block executes even if there is no connection to the port. (see also [connections](./connections.md))
+6. **Optional Input Port** - Option input ports are colored light blue and execute even if there is no connection to the port. (See also [connections](./connections/))
 
-7. **Output Port** - Where results of the block process is emitted. (see also [connections](./connections.md))
+7. **Output Port** - Emits results of the block process. (See also [connections](./connections/))
 
 8. **Configuration** - These are the quick configurations for a block. Some available configurations may not be shown here.
 
-9. **Signal Input** - Once connected, the execution of a given block is prevented until the signal port turns high. (see also [connections](./connections.md))
+9. **Signal Input** - Once connected, the execution of a given block is prevented until the signal port turns high. (See also [connections](./connections/))
 
-10. **Signal Output** - Similar to **Signal Input**, the signal output port emits a high signal when the block completes its processing. (See also [connections](./connections.md))
+10. **Signal Output** - Like **Signal Input**, the signal output port emits a high signal when the block completes its processing. (See also [connections](./connections/))
 
 ## Types of blocks
 
-There are 3 types of blocks:
+There are three types of blocks:
 
-- **Task blocks** - perform a particular asynchronous task.
-- **Value blocks** - create data of a specific.
-- **Operation blocks** - perform actions on data to transform them. These are synchronous in nature.
+- **Task blocks** perform a particular asynchronous task.
+- **Value blocks** create data of a specific type.
+- **Operation blocks** transform data synchronously.
