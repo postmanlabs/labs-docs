@@ -15,7 +15,7 @@ The following examples describe how to use FQL to get basic values from JSON dat
 * [Get a nested field](#get-a-nested-field)
 * [Get an entire object](#get-an-entire-object)
 * [Select a specific index in an array](#select-a-specific-index-in-an-array)
-* [Select an entire array](#select-a-whole-array)
+* [Select an entire array](#select-an-entire-array)
 * [Return one field of every object in an array](#return-one-field-of-every-object-in-an-array)
 * [Return fields that contain special characters in the key name](#return-fields-that-contain-special-characters-in-the-key-name)
 
