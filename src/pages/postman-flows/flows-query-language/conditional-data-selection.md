@@ -6,6 +6,8 @@ order: 2
 warning: false
 ---
 
+
+
 ### Contents
 
 - [Filter for just a customer's recurring subscription payments](#filter-for-just-a-customers-recurring-subscription-payments)
@@ -62,8 +64,6 @@ warning: false
 payments[description='recurring subscription']
 ```
 
-<br>
-
 #### Result
 
  ``` json
@@ -91,9 +91,7 @@ payments[description='recurring subscription']
 
  ``` javascript
  payments[description='recurring subscription'].invoice_number
- ```  
-
-<br>
+ ```
 
 #### Result
 
@@ -111,9 +109,7 @@ It returns just a single record, not an array.
 
  ``` javascript
  payments[description='recurring subscription deluxe'].invoice_number
- ```  
-
-<br>
+ ```
 
 #### Result
 
@@ -130,8 +126,6 @@ It returns just a single record, not an array.
 ``` javascript
 $contains(payments[0].description, 'recurring')
 ```
-
-<br>
 
 #### Result
 

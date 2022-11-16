@@ -41,8 +41,6 @@ warning: false
 }
 ```
 
----
-
 ### Getting a top level field
 
 #### FQL
@@ -51,15 +49,11 @@ warning: false
 name
 ```
 
-<br>
-
 #### Result
 
 ``` json
 "John Smith"
 ```
-
----
 
 ### Getting a nested field
 
@@ -69,15 +63,11 @@ name
 address.city
 ```
 
-<br>
-
 #### Result
 
 ``` json
 "Atlanta"
 ```
-
----
 
 ### Getting an entire object
 
@@ -86,8 +76,6 @@ address.city
 ``` javascript
 address
 ```
-
-<br>
 
 #### Result
 
@@ -100,8 +88,6 @@ address
 }
 ```
 
----
-
 ### Selecting a specific index in an array
 
 #### FQL
@@ -110,15 +96,11 @@ address
 phones[0].number
 ```
 
-<br>
-
 #### Result
 
 ``` json
 "123-456-7890"
 ```
-
----
 
 ### Selecting a whole array
 
@@ -127,8 +109,6 @@ phones[0].number
 ``` javascript
 phones
 ```
-
-<br>
 
 #### Result
 
@@ -145,8 +125,6 @@ phones
 ]
 ```
 
----
-
 ### Return just one field of every object in an array
 
 #### FQL
@@ -155,15 +133,11 @@ phones
 phones.number
 ```
 
-<br>
-
 #### Result
 
 ``` json
 ["123-456-7890","098-765-4321"]
 ```
-
----
 
 ### Returning fields that contain special characters in the key name
 
@@ -173,12 +147,8 @@ phones.number
 `display name`
 ```
 
-<br>
-
 #### Result
 
 ``` json
 "myuser123"
 ```
-
----
