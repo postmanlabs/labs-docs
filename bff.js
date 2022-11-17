@@ -4,6 +4,7 @@ const crypto = require('crypto');
 const pingWebHook = require('./build/pingWebHook');
 const fetchBlogPosts = require('./build/fetchBlogPosts');
 const fetchEvents = require('./build/fetchEvents');
+const fetchFooter = require('./build/fetchFooter');
 const fetchPmTech = require('./build/fetchPmTech');
 const { allow } = require('./package.json');
 
@@ -42,6 +43,7 @@ const prefetch = async () => {
   await pingWebHook();
   fetchBlogPosts();
   fetchEvents();
+  fetchFooter();
 
   let pmTech = '';
 

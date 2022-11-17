@@ -48,6 +48,7 @@ jobs:
           MUNCHKIN_ID: ${{ secrets.MUNCHKIN_ID}}
           BFF_BLOG_URL: ${{ secrets.BFF_BLOG_URL }}
           BFF_EVENTS_URL: ${{ secrets.BFF_EVENTS_URL }}
+          BFF_FOOTER_URL: ${{ secrets.BFF_FOOTER_URL }}
           BFF_PING_WEBHOOK_URL: $ {{ secrets.BFF_PING_WEBHOOK_URL }}
           RELIC_ACCOUNT_ID: ${{ secrets.RELIC_ACCOUNT_ID }}
           RELIC_TRUST_KEY: ${{ secrets.RELIC_TRUST_KEY }}
