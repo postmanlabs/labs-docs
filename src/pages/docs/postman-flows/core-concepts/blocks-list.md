@@ -13,7 +13,7 @@ Blocks available in Flows are detailed below.
 
 - **Send Request**
 
-  Invokes a request in your collection. Has a send event trigger to start the request and emits an events when it completes that includes the data.
+  Invokes a request in your collection. Has a send event trigger to start the request and emits an event when it completes that includes the data.
 
 - **Delay**
 
