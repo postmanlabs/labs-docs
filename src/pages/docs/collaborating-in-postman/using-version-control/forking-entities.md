@@ -75,16 +75,20 @@ If there are any [mocks](/docs/designing-and-developing-your-api/mocking-data/se
 
 Fork information shows details about forks and the users who have created them. You will be able to identify the users who are actively consuming and contributing to your APIs.
 
-To access the fork information for a collection, environment, or flow, select the fork icon <img alt="Fork icon" src="https://assets.postman.com/postman-docs/icon-fork.jpg#icon" width="14px"> in the context bar:
+To access the list of users who have forked a collection, environment, or flow, do the following:
 
-* To view the fork, select the fork name.
-* To view the user's public profile, select the user's avatar.
+1. Select the number next to the fork icon <img alt="Fork icon" src="https://assets.postman.com/postman-docs/icon-fork.jpg#icon" width="14px"> to reveal the list of users who have active forks.
 
-<img alt="View the list of forks" src="https://assets.postman.com/postman-docs/fork-information-list-v9.12.jpg" width="350px"/>
+    <img alt="View the fork information count" src="https://assets.postman.com/postman-docs/v10/fork-information-count-v10.jpg" width="500px"/>
 
-You can also select the number next to the fork icon <img alt="Fork icon" src="https://assets.postman.com/postman-docs/icon-fork.jpg#icon" width="14px"> to reveal the fork information.
+To access the list of forks for a collection, environment, or flow, do the following:
 
-<img alt="View the fork information count" src="https://assets.postman.com/postman-docs/fork-information-count-v9.12.jpg" width="400px"/>
+1. Select the fork icon <img alt="Fork icon" src="https://assets.postman.com/postman-docs/icon-fork.jpg#icon" width="14px"> in the context bar.
+1. Select the fork name under **Forks**.
+
+    > You can also select the user's avatar under **Forks** to view the user's public profile.
+
+    <img alt="View the list of forks" src="https://assets.postman.com/postman-docs/v10/fork-information-list-v10.jpg" width="350px"/>
 
 ## Pulling updates from a parent element
 
