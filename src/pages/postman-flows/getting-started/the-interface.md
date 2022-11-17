@@ -10,7 +10,7 @@ warning: false
 ## Toolbar
 
 The toolbar gives you access to tools you can use to manipulate the canvas.
-![toolbar](https://assets.postman.com/postman-labs-docs/interface/interface-tool-bar.png)
+![toolbar](https://assets.postman.com/postman-labs-docs/interface/updated-interface-tool-bar.png)
 
 - **Zoom controls**
 

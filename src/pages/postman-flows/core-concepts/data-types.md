@@ -14,13 +14,11 @@ Since most flow programmers have a JavaScript or typescript background, or are p
 | Type                 | What it accepts                                           | Example                   |
 | -------------------- | --------------------------------------------------------- | ------------------------- |
 | bool                 | **true** or **false**                                     | `true`                    |
-| string               | UTF-8 encoded characters                                  | `example 😎 example`      |
-| number               | Double precision 64-bit values or 64bit unsigned integers | `3.14` <br> `4294967295`  |
-| timestamp            | A string containing RFC3339 timestamp                     | `1985-04-12T23:20:50.52Z` |
-| null                 | Exactly one value **null**                                | `null`                    |
+| string               | utf-8 encoded characters                                  | `foo 😎 bar`              |
+| number               | double precision 64-bit values or 64bit unsigned integers | `3.14` <br> `4294967295`  |
+| timestamp            | string containing RFC3339 timestamp                       | `1985-04-12T23:20:50.52Z` |
 | regex                | A regular expression                                      | `/ab+c/`                  |
-| symbol               | Symbol of various type                                    | `string`<br> `null`       |
-| range (pre-proposal) | A range value                                             | `0..10`                   |
+| symbol               | Symbol of various type                                    | `now` <br> `null`      |
 
 ### Boolean
 
@@ -61,16 +59,6 @@ A _timestamp_ value is automatically converted to a _string_ or _number_ if requ
 | value                     | string                      | number         |
 | ------------------------- | --------------------------- | -------------- |
 | `1985-04-12T23:20:50.52Z` | `'1985-04-12T23:20:50.52Z'` | `482196050520` |
-
-### Null
-
-A _null_ value represents a reference to a non-existent value. Generally, any data type could contain a null value instead of its actual value. This is a common occurrence in an API-First world. The only possible value for the null type is `null`.
-
-Because this is so common, in order to prevent null pointer exceptions, Flow performs some deterministic automatic conversion for null values.
-
-| value  | boolean | string | number | regex  | timestamp              |
-| ------ | ------- | ------ | ------ | ------ | ---------------------- |
-| `null` | `false` | `''`   | `0`    | `/$^/` | `0000-00-00T00:00:00Z` |
 
 ### Regex
 

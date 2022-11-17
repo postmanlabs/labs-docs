@@ -14,12 +14,11 @@ contextual_links:
 
 Welcome to _Postman Flows_, a visual tool to create API workflows. You can use Flows to chain requests, handle data, and create real world workflows in your Postman workspace.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4Yr9CG8Pp14" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 The following topics will help you get started or learn about core concepts of Flows.
 
 ## Quick start
 
+- [Step by step guide to building your first Flow](/postman-flows/getting-started/building-your-first-flow/)
 - [Running requests in sequence](/postman-flows/getting-started/running-requests-in-sequence/)
 - [Chaining requests with data](/postman-flows/getting-started/chaining-requests-with-data/)
 

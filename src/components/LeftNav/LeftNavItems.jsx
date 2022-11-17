@@ -52,6 +52,10 @@ export const leftNavItems = [
             url: "/postman-flows/getting-started/the-interface/",
           },
           {
+            name: "Building your first Flow",
+            url: "/postman-flows/getting-started/building-your-first-flow/",
+          },
+          {
             name: "Running requests in sequence",
             url: "/postman-flows/getting-started/running-requests-in-sequence/",
           },
@@ -77,6 +81,10 @@ export const leftNavItems = [
           {
             name: "Data Types",
             url: "/postman-flows/core-concepts/data-types/",
+          },
+          {
+            name: "List of Blocks",
+            url: "/postman-flows/core-concepts/blocks-list/",
           },
         ],
       },
@@ -104,13 +112,13 @@ export const leftNavItems = [
         ],
       },
       {
-        name: "Cloud Execution",
-        subParentSlug: "cloud-execution",
-        slug: "/postman-flows/cloud-execution/cloud-execution/",
+        name: "Remote Execution",
+        subParentSlug: "webhooks",
+        slug: "/postman-flows/remote-execution/webhooks/",
         subMenuItems2: [
           {
-            name: "Cloud Execution",
-            url: "/postman-flows/cloud-execution/cloud-execution/",
+            name: "Webhooks",
+            url: "/postman-flows/remote-execution/webhooks/",
           },
         ]
       },
