@@ -1,5 +1,5 @@
 ---
-title: "About Messages"
+title: "About messages"
 updated: 2022-11-17
 warning: false
 ---
