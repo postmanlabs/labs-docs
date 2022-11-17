@@ -33,4 +33,4 @@ If you have several requests that have no dependency on each other but have to b
 
    ![Start the flow](https://assets.postman.com/postman-labs-docs/running-requests/updated-running-run-with-send-events.gif)
 
-If you want to use data from one request in another request, you can learn how to do so in [Chaining requests with data](/docs/postman-flows/flows-getting-started/chaining-requests-with-data/).
+If you want to use data from one request in another request, you can learn how to do so in [Chaining requests with data](/docs/postman-flows/flows-intro/chaining-requests-with-data/).

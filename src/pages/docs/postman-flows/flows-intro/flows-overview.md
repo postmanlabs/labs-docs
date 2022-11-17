@@ -15,9 +15,9 @@ The following topics will help you get started or learn about core concepts of F
 
 ## Quick start
 
-- [Step-by-step guide to building your first Flow](/docs/postman-flows/flows-getting-started/building-your-first-flow/)
-- [Running requests in sequence](/docs/postman-flows/flows-getting-started/running-requests-in-sequence/)
-- [Chaining requests with data](/docs/postman-flows/flows-getting-started/chaining-requests-with-data/)
+- [Step-by-step guide to building your first Flow](/docs/postman-flows/flows-intro/building-your-first-flow/)
+- [Running requests in sequence](/docs/postman-flows/flows-intro/running-requests-in-sequence/)
+- [Chaining requests with data](/docs/postman-flows/flows-intro/chaining-requests-with-data/)
 
 ## Core concepts
 
