@@ -49,8 +49,6 @@ When you have made the changes that you want to a forked collection or environme
 
 > The pull request process isn't available for flows.
 
-To create a pull request:
-
 1. Hover over the element in the sidebar.
 1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to its name.
 
@@ -81,6 +79,8 @@ Postman notifies the reviewers you selected about your pull request. You will re
 ## Creating public pull requests
 
 To create a pull request on a public collection or environment, you must fork the parent element into a public workspace so that the users you ask to [review it](/docs/collaborating-in-postman/using-version-control/reviewing-pull-requests/) have access to it.
+
+To create a public pull request, do the following:
 
 1. Begin the pull request process described in [Creating pull requests](#creating-pull-requests). A note tells you to move the source element to a public workspace.
 1. Select **Move Collection** or **Move Environment**.
@@ -124,7 +124,7 @@ There are two different types of checks that you can enable for a pull request:
 * **Approved once** - You need at least one approval to merge the pull request.
 * **Approved by a collection editor** - You need the approval of a user who has [Editor access for the collection](/docs/collaborating-in-postman/roles-and-permissions/#collection-roles) to merge the pull request.
 
-To set merge checks for pull requests on a specific collection:
+To set merge checks for pull requests on a specific collection, do the following:
 
 1. Hover over the collection in the sidebar.
 1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to its name.

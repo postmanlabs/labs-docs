@@ -53,7 +53,7 @@ A _fork_ is a new instance of an element that you can change without making any 
 
 When you fork a Postman Collection, environment, or flow, you create a copy of it in a different workspace. You must sign in to Postman to create a fork.
 
-To fork an element:
+To fork an element, do the following:
 
 1. Select the element in the sidebar.
 2. In the overview tab that appears, select <img alt="Fork icon" src="https://assets.postman.com/postman-docs/icon-fork.jpg#icon" width="14px"> **Fork** in the upper right.
@@ -105,7 +105,7 @@ To pull updates from a parent element during the pull request process, see [Pull
 
 If you have Editor access on the element, you can merge a fork into the parent element without going through the [pull request process](/docs/collaborating-in-postman/using-version-control/creating-pull-requests/). For example, if you’re using forks in a personal workspace to organize your work, you can merge changes in a fork directly back into the parent element. If you're collaborating with others, though, merging directly lacks the safeguards built into the pull request process. Many teams require pull requests as part of their version control workflow. To merge changes during the pull request process, see [Merging changes from a pull request](/docs/collaborating-in-postman/using-version-control/reviewing-pull-requests/#merging-changes-from-a-pull-request).
 
-To merge changes from a fork without opening a pull request:
+To merge changes from a fork without opening a pull request, do the following:
 
 1. Hover over the fork in the sidebar.
 1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to its name.
@@ -122,6 +122,8 @@ To merge changes from a fork without opening a pull request:
 A merge conflict happens when you try to merge changes into an updated parent element and Postman isn't able to automatically resolve the differences between the two. If there's a conflict when you try to merge a fork, you'll need to decide how you want to resolve them before continuing.
 
 > Merge conflicts can involve changes in more than one workspace.
+
+To resolve a merge conflict from a fork, do the following:
 
 1. Begin the merge process described in [Merging changes from a fork](#merging-changes-from-a-fork).
 1. Select **Pull the changes** for any change.

@@ -62,7 +62,7 @@ Each item shows the pull request's status, which will be `OPEN` for any that hav
 
 When you review a pull request, it's important to understand the changes that the pull request will introduce into the parent collection or environment. The difference between the fork and the parent element is called the _diff_.
 
-To view the diff:
+To view the diff, do the following:
 
 1. In the pull request, view the diff under the **Changes** heading.
 
@@ -74,7 +74,7 @@ The diff will tell you whether a change is an addition, a deletion, or a modific
 
 Adding comments as a reviewer is an important part of the pull request process, facilitating meaningful conversations and allowing stakeholders to have a voice in the process.
 
-To add a comment to a pull request:
+To add a comment to a pull request, do the following:
 
 1. Select the comment icon <img alt="Comments icon" src="https://assets.postman.com/postman-docs/icon-comments-v9.jpg#icon" width="18px"> next to the change that you want to comment on.
 1. Once you've written your comment, select **Add Comment**.
@@ -89,13 +89,15 @@ You can edit a pull request's details before approving it, or you can decline it
 
 <img alt="Refresh, edit, or decline a pull request" src="https://assets.postman.com/postman-docs/v10/refresh-edit-decline-pull-request-v10.jpg" width="350px"/>
 
-To edit the pull request details:
+To edit the pull request details, do the following:
 
 1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> at the upper right and select **Edit**.
 1. Make any changes to the pull request's title, description, and list of reviewers.
 1. Select **Save Changes**.
 
-If you don't want to merge the pull request into the parent element, you can decline it. You can't reopen a pull request that you have declined, so if you want to request edits or offer feedback, [add a comment](#adding-comments) instead. To decline the pull request:
+If you don't want to merge the pull request into the parent element, you can decline it. You can't reopen a pull request that you have declined, so if you want to request edits or offer feedback, [add a comment](#adding-comments) instead.
+
+To decline the pull request, do the following:
 
 1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> at the upper right and select **Decline**.
 1. Select **Decline Pull Request**.
@@ -103,6 +105,8 @@ If you don't want to merge the pull request into the parent element, you can dec
 ## Approving a pull request
 
 If you're tagged as a reviewer on a pull request you can approve the pull request.
+
+To approve a pull request, do the following:
 
 To approve a pull request, select **Approve**.
 
@@ -135,6 +139,8 @@ To pull updates from a parent element without opening a pull request, see [Pulli
 
 When you're ready to add the changes from a pull request, you'll _merge_ them into the parent collection or environment. After the requested reviewer approves a pull request, you can merge it into the parent element.
 
+To merge changes from a pull request, do the following:
+
 1. From the approved pull request, select **Merge**.
 
     ![Merge a pull request](https://assets.postman.com/postman-docs/v10/pull-request-merge-fork-v10.jpg)
@@ -158,6 +164,8 @@ A merge conflict happens when you try to merge changes into an updated parent el
 
 > Merge conflicts can involve changes in more than one workspace.
 
+To resolve a merge conflict from a pull request, do the following:
+
 1. Begin the pull request process described in [Creating pull requests](/docs/collaborating-in-postman/using-version-control/creating-pull-requests/#creating-pull-requests).
 1. Select **Changes** to review the changes in the merge conflict.
 1. Select **Resolve Conflicts** to resolve merge conflicts between the fork and parent element.
@@ -172,4 +180,4 @@ A merge conflict happens when you try to merge changes into an updated parent el
 
 > To keep all changes on your fork, select **Keep all changes to source**. To keep all changes on the parent element, select **Keep all changes to destination**.
 
-After you resolve the conflicts, select **Pull changes** to [pull the updates](#pulling-updates).
+After you resolve the conflicts, select **Pull changes** to [pull the updates](#pulling-updates-during-a-pull-request).
