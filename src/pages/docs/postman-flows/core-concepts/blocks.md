@@ -43,4 +43,4 @@ There are three types of blocks:
 
 - **Task blocks** - Perform a particular asynchronous task.
 - **Data blocks** -Create data of a specific type.
-- **Logic blocks** - perform actions on data to transform them. These are synchronous in nature.
+- **Logic blocks** - Perform actions on data to transform them. These are synchronous in nature.
