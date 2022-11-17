@@ -99,8 +99,6 @@ The following examples use the following JSON data returned by an endpoint:
 
 ## Collapse multiple objects into a single key:value pair
 
-## Collapse multiple objects into a single key:value pair
-
 ### FQL
 
 ``` javascript
@@ -119,8 +117,6 @@ phones.{type: number}
     {"work": "314-265-9078"}
 ]
 ```
-
-## Collapse and group results by a shared field value
 
 ## Collapse and group results by a shared field value
 

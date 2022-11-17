@@ -59,8 +59,6 @@ name
 "John Smith"
 ```
 
-## Getting a nested field
-
 ## Get a nested field
 
 ### FQL
@@ -76,8 +74,6 @@ address.city
 ``` json
 "Atlanta"
 ```
-
-## Getting an entire object
 
 ## Get an entire object
 
@@ -100,8 +96,6 @@ address
 }
 ```
 
-## Selecting a specific index in an array
-
 ## Select a specific index in an array
 
 ### FQL
@@ -117,8 +111,6 @@ phones[0].number
 ``` json
 "123-456-7890"
 ```
-
-## Selecting a whole array
 
 ## Select an entire array
 
@@ -145,8 +137,6 @@ phones
 ]
 ```
 
-## Return just one field of every object in an array
-
 ## Return one field of every object in an array
 
 ### FQL
@@ -162,8 +152,6 @@ phones.number
 ``` json
 ["123-456-7890","098-765-4321"]
 ```
-
-## Returning fields that contain special characters in the key name
 
 ## Return fields that contain special characters in the key name
 
