@@ -1,9 +1,6 @@
 ---
 title: "Getting basic values"
-page_id: "getting-basic-values"
-order: 1
-updated: 2022-11-16
-warning: false
+updated: 2022-11-17
 ---
 
 The following examples describe how to use FQL to get basic values from JSON data.

@@ -1,23 +1,21 @@
 ---
 title: "Data manipulation"
-page_id: "data-manipulation"
-updated: 2022-11-16
-order: 4
-warning: false
+updated: 2022-11-17
 ---
 
-You can use [Flows' Query Language](/postman-flows/flows-query-language/introduction-to-fql/) (FQL) to perform math functions, manipulate strings and arrays, and interact with the data in your responses in several ways. Sample data and FQL examples are below.
+You can use the [Flows Query Language](/docs/postman-flows/flows-query-language/introduction-to-fql/) (FQL) to perform math functions, manipulate strings and arrays, and interact with the data in your responses in several ways. Sample data and FQL examples are below.
 
 ## Contents
 
+- [Example JSON](#example-json)
 - [Sum numerical values](#sum-numerical-values)
 - [Modify strings and group and sum by description](#modify-strings-and-group-and-sum-by-description)
 - [Cast a string into a number](#cast-a-string-into-a-number)
 - [Convert a number into a string](#convert-a-number-into-a-string)
 - [Return the length of a string](#return-the-length-of-a-string)
 - [Return part of a string using substring](#return-part-of-a-string-using-substring)
-- [Get the string before the first occurance of a pattern](#get-the-string-before-the-first-occurance-of-a-pattern)
-- [Get the string after the first occurance of a pattern](#get-the-string-after-the-first-occurance-of-a-pattern)
+- [Get the string before the first occurrence of a pattern](#get-the-string-before-the-first-occurrence-of-a-pattern)
+- [Get the string after the first occurrence of a pattern](#get-the-string-after-the-first-occurrence-of-a-pattern)
 - [Transform a string to all uppercase](#transform-a-string-to-all-uppercase)
 - [Transform a string to all lowercase](#transform-a-string-to-all-lowercase)
 - [Trim a string](#trim-a-string)
@@ -34,13 +32,15 @@ You can use [Flows' Query Language](/postman-flows/flows-query-language/introduc
 - [Append to an array](#append-to-an-array)
 - [Time and Date formatting](#time-and-date-formatting)
 
-*Imagine you have the following JSON data returned by an endpoint:*
+## Example JSON
+
+The following examples use the following JSON data returned by an endpoint:
 
 ``` json
     {
         "customer_info": {
             "customer field": "Customer data",
-            "unformated_customer_field": " customer \n stuff ",
+            "unformatted_customer_field": " customer \n stuff ",
             "total_value": "281.01",
             "associated_usernames": ["user1, myuser, online_user"]
         },
@@ -151,7 +151,7 @@ $length(payments[0].description)
 
 ## Return part of a string using substring
 
-The first number is optional and specifies the offset, the second is the number of characters you are selecting, negative numbers can also be used for the offest
+The first number is optional and specifies the offset, the second is the number of characters you are selecting, negative numbers can also be used for the offest.
 
 ### FQL
 
@@ -165,9 +165,9 @@ $substring(payments[0].description, 3, 6)
 "urring"
 ```
 
-## Get the string before the first occurance of a pattern
+## Get the string before the first occurrence of a pattern
 
-Returns the substring before the specified occurance of `subscription` . If `subscription` was not found it would return the whole string
+Returns the substring before the specified occurrence of `subscription` . If `subscription` is not found it returns the entire string.
 
 ### FQL
 
@@ -181,7 +181,7 @@ $substringBefore(payments[0].description, 'subscription')
 "recurring "
 ```
 
-## Get the string after the first occurance of a pattern
+## Get the string after the first occurrence of a pattern
 
 ### FQL
 
@@ -230,7 +230,7 @@ Removes excess leading and trailing spaces, converts newline, carriage return, l
 ### FQL
 
 ``` javascript
-$trim(customer_info.unformated_customer_field)
+$trim(customer_info.unformatted_customer_field)
 ```
 
 ### Result
@@ -241,7 +241,7 @@ $trim(customer_info.unformated_customer_field)
 
 ## Pad a string
 
-If the second parameter is a positive number it pads the string with the third parameter, if the second parameter is negative it pads the front of the string with the character(s) optionally specified (third parameter character(s) will default to space if left blank)
+If the second parameter is a positive number it pads the string with the third parameter, if the second parameter is negative it pads the front of the string with the character(s) optionally specified (third parameter characters will default to space if left blank)
 
 ### FQL
 
@@ -257,7 +257,7 @@ $pad(customer_info.'customer field', 15, '#')
 
 ## Split a string into an array of components
 
-Returns the string split on the seporater specified in the second parameter and optionally limited by the third parameter. A regex can also be used instead of a string
+Returns the string split on the separator specified in the second parameter and optionally limited by the third parameter. A regex can also be used instead of a string.
 
 ### FQL
 

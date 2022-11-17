@@ -372,7 +372,7 @@ export const leftNavItems = [
             url: "/docs/postman-flows/getting-started/flows-overview/",
           },
           {
-            name: "The Interface",
+            name: "The Postman Flows interface",
             url: "/docs/postman-flows/getting-started/the-interface/",
           },
           {
@@ -418,7 +418,11 @@ export const leftNavItems = [
         slug: "/docs/postman-flows/flows-query-language/introduction-to-fql/",
         subMenuItems2: [
           {
-            name: "Getting Basic Values",
+            name: "Introduction to FQL",
+            url: "/docs/postman-flows/flows-query-language/introduction-to-fql/",
+          },
+          {
+            name: "Getting basic values",
             url: "/docs/postman-flows/flows-query-language/getting-basic-values/",
           },
           {
@@ -426,11 +430,11 @@ export const leftNavItems = [
             url: "/docs/postman-flows/flows-query-language/conditional-data-selection/",
           },
           {
-            name: "Returning Structured Results",
+            name: "Returning structured data",
             url: "/docs/postman-flows/flows-query-language/returning-structured-results/",
           },
           {
-            name: "Data Manipulation",
+            name: "Data manipulation",
             url: "/docs/postman-flows/flows-query-language/data-manipulation/",
           },
         ],
@@ -441,7 +445,7 @@ export const leftNavItems = [
         slug: "/docs/postman-flows/remote-execution/webhooks/",
         subMenuItems2: [
           {
-            name: "Webhooks",
+            name: "Using Flows webhooks",
             url: "/docs/postman-flows/remote-execution/webhooks/",
           },
         ]

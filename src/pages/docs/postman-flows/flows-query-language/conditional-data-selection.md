@@ -1,22 +1,21 @@
 ---
 title: "Conditional data selection"
-page_id: "conditional-data-selection"
 updated: 2022-11-16
-order: 2
-warning: false
 ---
 
 You can use [Flows' Query Language](/postman-flows/flows-query-language/introduction-to-fql/) (FQL) to filter for specific data in your responses. Sample data and FQL examples are below.
 
 ## Contents
 
+- [Example JSON](#example-json)
 - [Filter for just a customer's recurring subscription payments](#filter-for-just-a-customers-recurring-subscription-payments)
 - [Filter for just the invoice numbers of recurring payments](#filter-for-just-the-invoice-numbers-of-recurring-payments)
 - [When your filter matches only one record](#when-your-filter-matches-only-one-record)
 - [Checking if a field contains a value](#checking-if-a-field-contains-a-value)
 
-*Imagine you have the following JSON data returned by an endpoint:*
+## Example JSON
 
+The following examples use the following JSON data returned by an endpoint:
 ``` json
     {
         "customer info": {
