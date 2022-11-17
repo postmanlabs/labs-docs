@@ -97,7 +97,7 @@ Blocks available in Flows are detailed below.
 
 - **Create Variable**
 
-  Assigns a value to a variable that can then be accessed with the Get Variable block anywhere in the Flow.
+  Assigns a value to a variable that can then be accessed with the **Get Variable** block anywhere in the Flow.
 
 - **Get Variable**
 
