@@ -1,6 +1,7 @@
 ---
 title: 'Using a remote Git repository'
 updated: 2022-09-15
+search_keyword: "whitelist, whitelist IP"
 contextual_links:
   - type: section
     name: "Prerequisites"
