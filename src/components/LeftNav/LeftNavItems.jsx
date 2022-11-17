@@ -358,6 +358,97 @@ export const leftNavItems = [
     ],
   },
   {
+    name: "Postman Flows",
+    parentSlug: "postman-flows",
+    url: "/docs/postman-flows/getting-started/flows-overview/",
+    subMenuItems1: [
+      {
+        name: "Getting Started",
+        subParentSlug: "getting-started",
+        slug: "/docs/postman-flows/getting-started/flows-overview/",
+        subMenuItems2: [
+          {
+            name: "Introduction",
+            url: "/docs/postman-flows/getting-started/flows-overview/",
+          },
+          {
+            name: "The Interface",
+            url: "/docs/postman-flows/getting-started/the-interface/",
+          },
+          {
+            name: "Building your first Flow",
+            url: "/docs/postman-flows/getting-started/building-your-first-flow/",
+          },
+          {
+            name: "Running requests in sequence",
+            url: "/docs/postman-flows/getting-started/running-requests-in-sequence/",
+          },
+          {
+            name: "Chaining requests with data",
+            url: "/docs/postman-flows/getting-started/chaining-requests-with-data/",
+          },
+        ],
+      },
+      {
+        name: "Core concepts",
+        subParentSlug: "core-concept",
+        slug: "/docs/postman-flows/core-concepts/blocks/",
+        subMenuItems2: [
+          {
+            name: "Blocks",
+            url: "/docs/postman-flows/core-concepts/blocks/",
+          },
+          {
+            name: "Messages",
+            url: "/docs/postman-flows/core-concepts/messages/",
+          },
+          {
+            name: "Data Types",
+            url: "/docs/postman-flows/core-concepts/data-types/",
+          },
+          {
+            name: "List of Blocks",
+            url: "/docs/postman-flows/core-concepts/blocks-list/",
+          },
+        ],
+      },
+      {
+        name: "Flow Query Language",
+        subParentSlug: "flows-query-language",
+        slug: "/docs/postman-flows/flows-query-language/introduction-to-fql/",
+        subMenuItems2: [
+          {
+            name: "Getting Basic Values",
+            url: "/docs/postman-flows/flows-query-language/getting-basic-values/",
+          },
+          {
+            name: "Conditional data selection",
+            url: "/docs/postman-flows/flows-query-language/conditional-data-selection/",
+          },
+          {
+            name: "Returning Structured Results",
+            url: "/docs/postman-flows/flows-query-language/returning-structured-results/",
+          },
+          {
+            name: "Data Manipulation",
+            url: "/docs/postman-flows/flows-query-language/data-manipulation/",
+          },
+        ],
+      },
+      {
+        name: "Remote Execution",
+        subParentSlug: "webhooks",
+        slug: "/docs/postman-flows/remote-execution/webhooks/",
+        subMenuItems2: [
+          {
+            name: "Webhooks",
+            url: "/docs/postman-flows/remote-execution/webhooks/",
+          },
+        ]
+      },
+    ],
+  },
+  {
     name: 'Using the Postman CLI',
     parentSlug: 'postman-cli',
     url: '/docs/postman-cli/postman-cli-overview/',
