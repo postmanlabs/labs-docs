@@ -29,4 +29,4 @@ Once you hit the "Release" button and give your release a meaingful name, it is 
 
 Make a POST request to trigger the webhook endpoint and your flow is now running in the cloud.
 
-![Trigger the Endpoint](https://assets.postman.com/postman-labs-docs/cloud-execution/cloud-execution-running-in-cloud.gif)
+![Trigger the Endpoint](https://assets.postman.com/postman-labs-docs/cloud-execution/remote-execution-running-in-cloud.gif)
