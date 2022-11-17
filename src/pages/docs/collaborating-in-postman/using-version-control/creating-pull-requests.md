@@ -1,9 +1,6 @@
 ---
 title: "Creating pull requests"
-order: 75
-page_id: "version_control"
-warning: false
-updated: 2022-11-08
+updated: 2022-11-17
 contextual_links:
   - type: section
     name: "Prerequisites"

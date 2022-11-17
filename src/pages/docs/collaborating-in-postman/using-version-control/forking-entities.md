@@ -1,8 +1,5 @@
 ---
 title: "Forking Postman entities"
-order: 75
-page_id: "version_control"
-warning: false
 updated: 2022-11-08
 contextual_links:
   - type: section
