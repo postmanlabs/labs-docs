@@ -113,7 +113,7 @@ interface Box {
 A map is a collection of fields where the key can be a value of a primitive type and
 corresponding value can be of any data type. All map fields must have keys and values of same type.
 
-This is a typescript equivalent of a map:
+This is a TypeScript equivalent of a map:
 
 ```ts
 type map: {[key: string]: number} = {'a': 1, 'b': 2, 'c': 3};
