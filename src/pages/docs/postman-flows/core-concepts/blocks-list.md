@@ -37,7 +37,7 @@ Blocks available in Flows are detailed below.
 
 - **Collect**
 
-  Collects the results of a for loop outputs a list and an event when it has finished.
+  Collects the results of a for loop, and outputs a list and an event when it has finished.
 
 - **For**
 
