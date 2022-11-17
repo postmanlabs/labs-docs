@@ -76,7 +76,7 @@ A _regex_ value is automatically converted to a _string_ if required.
 
 The list data type represents a stream of ordered values, where values of the same type may occur more than once. Lists are like arrays in JavaScript but all elements present in the list must be of the same type.
 
-This is a typescript equivalent of a list:
+This is a TypeScript equivalent of a list:
 
 ```ts
 const list: number[] = [1, 2, 3, 4, 5]
