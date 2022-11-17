@@ -23,7 +23,7 @@ contextual_links:
 
 You can use Postman to identify any potential security and formatting issues when defining your API.
 
-<img alt="OpenAPI 2.0 rule violations" src="https://assets.postman.com/postman-docs/v10/api-definition-rule-violations-openapi2-v10.jpg" width="800px"/>
+<img alt="OpenAPI 2.0 rule violations" src="https://assets.postman.com/postman-docs/v10/api-definition-rule-violations-openapi2-v10.1.jpg" width="800px"/>
 
 ### Warnings for OpenAPI 2.0
 
