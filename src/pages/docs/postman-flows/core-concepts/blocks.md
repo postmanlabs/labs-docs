@@ -15,7 +15,7 @@ Every block has either an input, output, or both. You can pass a message packet 
 
 > **Important**
 >
-> - A block is not a function but a process.
+> - A block isn't a function but a process.
 
 ## Block anatomy
 

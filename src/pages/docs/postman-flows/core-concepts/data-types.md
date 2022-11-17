@@ -31,9 +31,9 @@ The _boolean_ value gets automatically converted to a _number_ or a _string_ if 
 
 ### String
 
-The string type is used to represent textual data. It is a UTF-8 encoded list of characters. Just like JavaScript, strings in Flows are also immutable. For example, once a string is created, it cannot be modified. But you can create new strings out of existing strings using operators like _concat_ or _substring_.
+The string type is used to represent textual data. It's a UTF-8 encoded list of characters. Like JavaScript, strings in Flows are also immutable. For example, once a string is created, it can't be modified. But you can create new strings out of existing strings using operators like _concat_ or _substring_.
 
-A _string_ value cannot be converted automatically to any other type.
+A _string_ value can't be converted automatically to any other type.
 
 > JSON values are of type string. The **Send Request** block automatically parses the data if the `content-type` header indicates a JSON body. In cases where automatic parsing doesn't happen, you'll need to parse the string using the `JSON Parse` block.
 

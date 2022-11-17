@@ -23,13 +23,13 @@ If you have several requests that have no dependency on each other but have to b
 
    > **Important**
    >
-   > 1. When a send event connection is made, the input become disabled to show that it will get enabled after the previous blocks get enabled.
-   > 2. The send event connection depicts exactly the order in which the blocks will be executed.
+   > 1. When a send event connection is made, the input becomes deactivated to show that it will get enabled after the previous blocks get enabled.
+   > 2. The send event connection depicts the order in which the blocks will be executed.
    > 3. When using send event, no data is passed from one block to another.
 
 3. **Start the Flow**
 
-   Start the Flow see them run in the order they are configured:
+   Start the Flow and see the requests run in the order they're configured:
 
    ![Start the flow](https://assets.postman.com/postman-labs-docs/running-requests/updated-running-run-with-send-events.gif)
 

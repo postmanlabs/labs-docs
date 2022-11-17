@@ -25,7 +25,7 @@ A common Postman Flows use case is to take data from one response, and pipe that
 
 3. **Manually print out the response JSON data**
 
-   At this point, (if we don't have a saved example) we don't really know what the output of the **Send Request** looks like. So let's add the **Log** block to see the output.
+   At this point, (if we don't have a saved example) we don't really know what the output of the **Send Request** looks like. Let's add the **Log** block to see the output.
 
    ![Connect the log block](https://assets.postman.com/postman-labs-docs/chaining-requests/updated-chaining-check-in-log.gif)
 

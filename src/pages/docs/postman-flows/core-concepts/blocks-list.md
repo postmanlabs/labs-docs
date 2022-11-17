@@ -101,7 +101,7 @@ Blocks available in Flows are detailed below.
 
 - **Get Variable**
 
-  Retrieves the value of a previously assigned variable.
+  Retrieves the value of a previously-assigned variable.
 
 - **Template**
 
