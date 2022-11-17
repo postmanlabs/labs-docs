@@ -103,7 +103,7 @@ To pull updates from a parent element during the pull request process, see [Pull
 
 ## Merging changes from a fork
 
-If you have Editor access on the element, you can merge a fork into the parent element without going through the [pull request process](/docs/collaborating-in-postman/using-version-control/creating-pull-requests/). For example, if you’re using forks in a personal workspace to organize your work, you can merge changes in a fork directly back into the parent element. If you're collaborating with others, though, merging directly lacks the safeguards built into the pull request process. Many teams require pull requests as part of their version control workflow. To merge changes during the pull request process, see [Merging changes from a pull request](/docs/collaborating-in-postman/using-version-control/reviewing-pull-requests/#merging-changes-from-a-pull-request).
+If you have Editor access on the element, you can _merge_ a fork into the parent element without going through the [pull request process](/docs/collaborating-in-postman/using-version-control/creating-pull-requests/). For example, if you’re using forks in a personal workspace to organize your work, you can merge changes in a fork directly back into the parent element. If you're collaborating with others, though, merging directly lacks the safeguards built into the pull request process. Many teams require pull requests as part of their version control workflow.
 
 To merge changes from a fork without opening a pull request, do the following:
 
@@ -115,7 +115,15 @@ To merge changes from a fork without opening a pull request, do the following:
 
     ![Merge Fork](https://assets.postman.com/postman-docs/v10/merge-fork-collection-change-v10.jpg)
 
-1. Proceed with the merge process described in [Merging changes from a pull request](/docs/collaborating-in-postman/using-version-control/reviewing-pull-requests/#merging-changes-from-a-pull-request).
+1. Select one of the following merge options:
+    * **Merge changes** - Merge the changes into the parent element. This doesn't make any changes to the fork. You must have Editor access to the parent element.
+    * **Merge changes and update source** - Merge the changes into the parent element. Any differences in the parent element are also made to the fork. You must have Editor access to both the parent and forked entities.
+    * **Merge changes and delete source** - Merge the changes into the parent element. After the merge process is complete, Postman deletes the fork. You must have Editor access to both the parent and forked entities.
+
+    <img src="https://assets.postman.com/postman-docs/merge-fork-options-v9.12.jpg" alt="Merge Fork Options" width="400px"/>
+1. Select **Merge**.
+
+To merge changes during the pull request process, see [Merging changes from a pull request](/docs/collaborating-in-postman/using-version-control/reviewing-pull-requests/#merging-changes-from-a-pull-request).
 
 ## Resolving conflicts from a fork
 
