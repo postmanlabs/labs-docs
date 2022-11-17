@@ -56,7 +56,7 @@ You can create a WebSocket request from the sidebar in Postman.
 1. Using the dropdown list in the request tab, select either **Raw** for a raw WebSocket request, or **Socket.IO** for a Socket.IO request.
 1. Enter the WebSocket server URL. A WebSocket URL begins with `ws://` or `wss://`.
 
-    [![WebSocket server URL](https://assets.postman.com/postman-docs/websocket-server-url-v11.jpg)](https://assets.postman.com/postman-docs/websocket-server-url-v11.jpg)
+    <img alt="WebSocket URL" src="https://assets.postman.com/postman-docs/v10/websocket-server-url-v10.jpg" width="600px"/>
 
 1. Select **Connect**.
 1. To disconnect your WebSocket request's connection, select **Disconnect**.
