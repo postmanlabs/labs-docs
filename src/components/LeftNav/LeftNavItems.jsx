@@ -413,7 +413,7 @@ export const leftNavItems = [
         ],
       },
       {
-        name: 'Flow Query Language',
+        name: 'Flows Query Language',
         subParentSlug: 'flows-query-language',
         slug: '/docs/postman-flows/flows-query-language/introduction-to-fql/',
         subMenuItems2: [

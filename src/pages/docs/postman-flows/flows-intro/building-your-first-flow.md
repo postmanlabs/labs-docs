@@ -13,7 +13,7 @@ For this Flow, there is one required request to prepare, which is a GET call. Af
 
 ![Building your Request](https://assets.postman.com/postman-labs-docs/building-your-first-flow/first-api-request.gif)
 
-## Making your first Send Request
+## Making your first send request
 
 Connect the start block to the send request block, then select the request that was created earlier and add a string block to connect to the URL variable.
 
@@ -31,7 +31,7 @@ Create another select block and this time enter `/body/next` which will give us 
 
 ![Evaluate has_next](https://assets.postman.com/postman-labs-docs/building-your-first-flow/first-check-for-next-result.gif)
 
-## Using an If block to branch based on has_next being null
+## Using an if block to branch based on has_next being null
 
 The evaluate block outputs if `has_next` is null; now that has to change the behavior of the Flow. The output of evaluate is either true or false, which determines which branch the if block uses. Another connection from the select block will allow the URL of the next set of Pokémon which will be needed in the next step.
 

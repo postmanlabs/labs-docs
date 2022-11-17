@@ -10,7 +10,7 @@ A common Postman Flows use case is to take data from one response, and pipe that
 
 1. **Add two Send Request blocks**
 
-   Create two **Send Request** blocks by selecting `+ Block` on the toolbar. Select **Create a Post** for the first request and **Update Post** for the second request.
+   Create two **Send Request** blocks by selecting **+ Block** on the toolbar. Select **Create a Post** for the first request and **Update Post** for the second request.
 
    ![Add two requests](https://assets.postman.com/postman-labs-docs/chaining-requests/updated-chaining-add-two-requests.gif)
 
@@ -25,7 +25,7 @@ A common Postman Flows use case is to take data from one response, and pipe that
 
 3. **Manually print out the response JSON data**
 
-   At this point, (if we don't have a saved example) we don't really know what the output of the “Send Request” looks like. So let's add the “Log” block to see the output.
+   At this point, (if we don't have a saved example) we don't really know what the output of the **Send Request** looks like. So let's add the **Log** block to see the output.
 
    ![Connect the log block](https://assets.postman.com/postman-labs-docs/chaining-requests/updated-chaining-check-in-log.gif)
 
@@ -48,13 +48,13 @@ A common Postman Flows use case is to take data from one response, and pipe that
 
 4. **Use the response in Request variables**
 
-   For the sake of simplicity, Flows flattens complex objects to simple key-value pairs in the Send Request block. The above message gets converted to the following, which you will be able to use the values of complex objects in your requests via the variable syntax of `/body/resource_id`.
+   For the sake of simplicity, Flows flattens complex objects to simple key-value pairs in the **Send Request** block. The above message gets converted to the following, and you will be able to use the values of complex objects in your requests using the variable syntax of `/body/resource_id`.
 
-   Variables are set in your saved collection and will then auto-populate as fields when selected in the send request block.
+   Variables are set in your saved collection and will then auto-populate as fields when selected in the **Send Request** block.
 
    ![Set variable](https://assets.postman.com/postman-labs-docs/chaining-requests/updated-chaining-set-variable.png)
 
-   Objects and values in lists and arrays can also be accessed via an index. For the following body, `/body/types/0` would return `User`
+   Objects and values in lists and arrays can also be accessed using an index. For the following body, `/body/types/0` would return `User`.
 
    ```
    body:
