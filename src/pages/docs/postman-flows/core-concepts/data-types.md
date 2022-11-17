@@ -16,7 +16,7 @@ Since most Flow programmers have a JavaScript or TypeScript background, or are p
 | number               | double precision 64-bit values or 64-bit unsigned integers | `3.14` <br> `4294967295`  |
 | timestamp            | string containing RFC3339 timestamp                       | `1985-04-12T23:20:50.52Z` |
 | regex                | A regular expression                                      | `/ab+c/`                  |
-| symbol               | Symbol of various type                                    | `now` <br> `null`      |
+| symbol               | Symbol of various types                                    | `now` <br> `null`      |
 
 ### Boolean
 
