@@ -5,7 +5,7 @@ updated: 2022-11-17
 
 Postman Flows is a dataflow language, which means Flows understands all kinds of values and associates types with data. Flows is a hybrid typed language, so it performs static type checking to provide features like auto-complete and early warning. Flows also performs some dynamic type checking during execution.
 
-Since most Flow programmers have a JavaScript or typescript background, or are programming in an API-First language for the first time, the vocabulary of the types closely resembles JavaScript and typescript.
+Since most Flow programmers have a JavaScript or TypeScript background, or are programming in an API-First language for the first time, the vocabulary of the types closely resembles JavaScript and TypeScript.
 
 ## Primitive values
 
