@@ -108,7 +108,7 @@ const Footer = () => {
 
   useEffect(() => {
     if (process.env.NODE_ENV === 'production') { 
-      setData(footerData);
+      setData(footerDataLocal); // change this to 'footerData' once fifth column is approved
     }
 
   }, []) /* <-- add this to mimic component mounted behaviour and fire only once on first render*/
