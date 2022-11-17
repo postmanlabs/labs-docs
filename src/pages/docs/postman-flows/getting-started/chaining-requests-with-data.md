@@ -16,7 +16,7 @@ A common Postman Flows use case is to take data from one response, and pipe that
 
 2. **Pipe the event from output to input**
 
-   We need to tell the Flow how the [message](/postman-flows/core-concepts/messages/) should *flow*. To do that, connect the `success` output of the first block to the `send` and `variable` input of the second block.
+   We need to tell the Flow how the [message](/docs/postman-flows/core-concepts/messages/) should *flow*. To do that, connect the `success` output of the first block to the `send` and `variable` input of the second block.
 
    ![Pipe data](https://assets.postman.com/postman-labs-docs/chaining-requests/updated-chaining-pipe-data.gif)
 

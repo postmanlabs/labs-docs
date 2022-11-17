@@ -3,7 +3,7 @@ title: "Running requests in sequence"
 updated: 2022-11-17
 ---
 
-If you have several requests that have no dependency on each other but have to be executed in a particular order, you can use send events to connect your [blocks](/postman-flows/core-concepts/blocks/).
+If you have several requests that have no dependency on each other but have to be executed in a particular order, you can use send events to connect your [blocks](/docs/postman-flows/core-concepts/blocks/).
 
 > Check out the example flow: [Chaining requests](https://www.postman.com/postman/workspace/example-flows/flow/6267f9315d367a64e7ba06e5)
 
@@ -33,4 +33,4 @@ If you have several requests that have no dependency on each other but have to b
 
    ![Start the flow](https://assets.postman.com/postman-labs-docs/running-requests/updated-running-run-with-send-events.gif)
 
-If you want to use data from one request in another request, you can learn how to do so in [Chaining requests with data](/postman-flows/getting-started/chaining-requests-with-data/).
+If you want to use data from one request in another request, you can learn how to do so in [Chaining requests with data](/docs/postman-flows/getting-started/chaining-requests-with-data/).

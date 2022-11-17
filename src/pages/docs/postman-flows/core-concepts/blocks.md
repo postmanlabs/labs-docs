@@ -3,7 +3,7 @@ title: "About Blocks"
 updated: 2022-11-15
 ---
 
-Blocks are the atomic pieces used to create a flow. Every block has a specific purpose and does the heavy lifting by performing tasks, creating data, transforming data, and much more.
+Blocks are the atomic pieces used to create a flow. Every block has a specific purpose, such as performing tasks, creating data, transforming data, and much more.
 
 - [Fundamentals](#fundamentals)
 - [Block Anatomy](#block-anatomy)
