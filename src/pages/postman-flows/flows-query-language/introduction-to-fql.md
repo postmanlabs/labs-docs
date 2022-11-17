@@ -18,7 +18,7 @@ The record block holds formatted key-value pairs. The variable data_field has a 
 
 The following sections show examples of things you can do with FQL:
 
-- [Getting basic values](/postman-flows/flows-query-language/get-basic-values/)
+- [Getting basic values](/postman-flows/flows-query-language/getting-basic-values/)
 - [Conditional data selection](/postman-flows/flows-query-language/conditional-data-selection/)
 - [Returning structured data](/postman-flows/flows-query-language/returning-structured-results/)
 - [Data manipulation](/postman-flows/flows-query-language/data-manipulation/)

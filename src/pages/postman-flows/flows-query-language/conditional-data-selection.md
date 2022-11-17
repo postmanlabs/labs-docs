@@ -6,7 +6,7 @@ order: 2
 warning: false
 ---
 
-You can use [Flows' Query Language](/docs/src/pages/postman-flows/flows-query-language/introduction-to-fql/) (FQL) to filter for specific data in your responses. Sample data and FQL examples are below.
+You can use [Flows' Query Language](/postman-flows/flows-query-language/introduction-to-fql/) (FQL) to filter for specific data in your responses. Sample data and FQL examples are below.
 
 ## Contents
 

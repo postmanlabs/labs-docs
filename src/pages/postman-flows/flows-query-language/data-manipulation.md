@@ -6,7 +6,7 @@ order: 4
 warning: false
 ---
 
-You can use [Flows' Query Language](/docs/src/pages/postman-flows/flows-query-language/introduction-to-fql/) (FQL) to perform math functions, manipulate strings and arrays, and interact with the data in your responses in several ways. Sample data and FQL examples are below.
+You can use [Flows' Query Language](/postman-flows/flows-query-language/introduction-to-fql/) (FQL) to perform math functions, manipulate strings and arrays, and interact with the data in your responses in several ways. Sample data and FQL examples are below.
 
 ## Contents
 
@@ -32,7 +32,6 @@ You can use [Flows' Query Language](/docs/src/pages/postman-flows/flows-query-la
 - [Encode an entire url](#encode-an-entire-url)
 - [Decode entire url](#decode-entire-url)
 - [Append to an array](#append-to-an-array)
-<!-- - [Time and Date parsing](#time-and-date-parsing) This link's anchor is commented out for now. -->
 - [Time and Date formatting](#time-and-date-formatting)
 
 *Imagine you have the following JSON data returned by an endpoint:*
