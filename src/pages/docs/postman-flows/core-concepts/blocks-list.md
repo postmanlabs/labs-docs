@@ -1,23 +1,23 @@
 ---
-title: "Blocks List"
-page_id: "blocks-list"
-updated: 2022-11-16
-warning: false
+title: "List of blocks"
+updated: 2022-11-17
 ---
 
-All of the blocks availabel in Flows are below:
+Blocks available in Flows are detailed below:
 
 ![All the Blocks](https://assets.postman.com/postman-labs-docs/all-blocks/updated-all-blocks.png)
 
-## Header
+<!--TODO: restructure this as headings, add Contents section -->
+
+## Blocks
 
 - **Send Request**
 
-  Allows you to invoke a request in your collection. Has a send event trigger to start it and emits an events when it complets that includes the data.
+  Invokes a request in your collection. Has a send event trigger to start the request and emits an events when it completes that includes the data.
 
 - **Delay**
 
-  Wait the specified amount of time before allowing data through.
+  Waits the specified amount of time before allowing data through.
 
 - **Start**
 
@@ -25,11 +25,11 @@ All of the blocks availabel in Flows are below:
 
 - **Webhook Endpoint**
 
-  Allows you to trigger a Flow on the Postman servers remotely.
+  Triggers a Flow on the Postman servers remotely.
 
 - **If**
 
-  Takes an input bool and some data and depending on whether the boolean is true or false, allows for a different branch to be taken.
+  Takes an input boolean and data, and takes a different branch depending on the result.
 
 - **Evaluate**
 
@@ -53,7 +53,7 @@ All of the blocks availabel in Flows are below:
 
 - **String**
 
-  A block that emits the string that you enter.
+  Emits the string that you enter.
 
 - **Bool**
 
@@ -73,7 +73,7 @@ All of the blocks availabel in Flows are below:
 
 - **Select**
 
-  Parse a data stream to select a subset of the data available.
+  Parses a data stream to select a subset of the data available.
 
 - **Now**
 
@@ -97,12 +97,12 @@ All of the blocks availabel in Flows are below:
 
 - **Create Variable**
 
-  Allows a value to be assigned to a variable that can then be accessed with get variable anywhere in the Flow.
+  Assigns a value to a variable that can then be accessed with the Get Variable block anywhere in the Flow.
 
 - **Get Variable**
 
-  Retrives the value of a previously assigned variable.
+  Retrieves the value of a previously assigned variable.
 
 - **Template**
 
-  Allows the free-hand structuring of data.
+  Enables the free-hand structuring of data.

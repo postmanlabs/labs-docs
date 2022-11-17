@@ -1,20 +1,18 @@
 ---
-title: "Data types"
-page_id: "data-types"
-updated: 2022-11-16
-warning: false
+title: "About data types"
+updated: 2022-11-17
 ---
 
-Postman Flows is a dataflow language, which means Flows understands all kinds of values and associates types with data. Flows is a hybrid typed language, so it performs static type checking to provide features like auto-complete and early warning. Flows also performs some dynamic type checking during execution. Eventually Flows will be a strictly typed language.
+Postman Flows is a dataflow language, which means Flows understands all kinds of values and associates types with data. Flows is a hybrid typed language, so it performs static type checking to provide features like auto-complete and early warning. Flows also performs some dynamic type checking during execution.
 
-Since most flow programmers have a JavaScript or typescript background, or are programming in an API-First language for the first time, the vocabulary of the types closely resembles JavaScript and typescript.
+Since most Flow programmers have a JavaScript or typescript background, or are programming in an API-First language for the first time, the vocabulary of the types closely resembles JavaScript and typescript.
 
 ## Primitive values
 
 | Type                 | What it accepts                                           | Example                   |
 | -------------------- | --------------------------------------------------------- | ------------------------- |
 | bool                 | **true** or **false**                                     | `true`                    |
-| string               | utf-8 encoded characters                                  | `foo 😎 bar`              |
+| string               | utf-8 encoded characters                                  | `hello world 😎`              |
 | number               | double precision 64-bit values or 64bit unsigned integers | `3.14` <br> `4294967295`  |
 | timestamp            | string containing RFC3339 timestamp                       | `1985-04-12T23:20:50.52Z` |
 | regex                | A regular expression                                      | `/ab+c/`                  |
@@ -33,7 +31,7 @@ The _boolean_ value gets automatically converted to a _number_ or a _string_ if 
 
 ### String
 
-The string type is used to represent textual data. It is a utf-8 encoded list of characters. Just like JavaScript, strings in Flows are also immutable. For example, once a string is created, it cannot be modified. But you can create new strings out of existing strings using operators like _concat_ or _substring_.
+The string type is used to represent textual data. It is a UTF-8 encoded list of characters. Just like JavaScript, strings in Flows are also immutable. For example, once a string is created, it cannot be modified. But you can create new strings out of existing strings using operators like _concat_ or _substring_.
 
 A _string_ value cannot be converted automatically to any other type.
 
@@ -41,7 +39,7 @@ A _string_ value cannot be converted automatically to any other type.
 
 ### Number
 
-The number type can represent all kinds of numerical values, like integers and decimals for example. Currently, numbers are stored internally as JavaScript numbers, but this will change in the future to account for 64-bit integers and to provide a unified number type.
+The number type can represent all kinds of numerical values, like integers and decimals for example. Numbers are stored internally as JavaScript numbers, but this will change in the future to account for 64-bit integers and to provide a unified number type.
 
 A _number_ value gets automatically converted to a _string_ or _boolean_ if required.
 
@@ -78,7 +76,7 @@ A _regex_ value is automatically converted to a _string_ if required.
 
 The list data type represents a stream of ordered values, where values of the same type may occur more than once. Lists are like arrays in JavaScript but all elements present in the list must be of the same type.
 
-Below is a typescript equivalent of a list.
+This is a typescript equivalent of a list:
 
 ```ts
 const list: number[] = [1, 2, 3, 4, 5]
@@ -88,7 +86,7 @@ const list: number[] = [1, 2, 3, 4, 5]
 
 The tuple data type represent an ordered sequence of finite elements. The values for each element of the tuple can be of different types. Unlike Lists, tuples can't be an infinite stream. Tuples have a fixed size and their size must be known beforehand.
 
-Below is a typescript equivalent of a tuple.
+This is a typescript equivalent of a tuple.
 
 ```ts
 const list: [string, number, boolean] = ["flows", 20, true]
@@ -98,7 +96,7 @@ const list: [string, number, boolean] = ["flows", 20, true]
 
 A record is a collection of fields (key-value pairs) where the key is of string type and the values can be of different types. These fields are fixed in number and follow a particular sequence. If you have some knowledge of C, records are like `struct`.
 
-Below is a typescript equivalent of a record.
+This is a typescript equivalent of a record:
 
 ```ts
 interface Box {
@@ -115,7 +113,7 @@ interface Box {
 A map is a collection of fields where the key can be a value of a primitive type and
 corresponding value can be of any data type. All map fields must have keys and values of same type.
 
-Below is a typescript equivalent of a map.
+This is a typescript equivalent of a map:
 
 ```ts
 type map: {[key: string]: number} = {'a': 1, 'b': 2, 'c': 3};

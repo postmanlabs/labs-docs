@@ -395,19 +395,19 @@ export const leftNavItems = [
         slug: "/docs/postman-flows/core-concepts/blocks/",
         subMenuItems2: [
           {
-            name: "Blocks",
+            name: "About blocks",
             url: "/docs/postman-flows/core-concepts/blocks/",
           },
           {
-            name: "Messages",
+            name: "About messages",
             url: "/docs/postman-flows/core-concepts/messages/",
           },
           {
-            name: "Data Types",
+            name: "About data types",
             url: "/docs/postman-flows/core-concepts/data-types/",
           },
           {
-            name: "List of Blocks",
+            name: "List of blocks",
             url: "/docs/postman-flows/core-concepts/blocks-list/",
           },
         ],

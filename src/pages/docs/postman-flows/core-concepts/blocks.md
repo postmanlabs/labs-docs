@@ -1,8 +1,6 @@
 ---
-title: "The Block"
-page_id: "block"
+title: "About Blocks"
 updated: 2022-11-15
-warning: false
 ---
 
 Blocks are the atomic pieces used to create a flow. Every block has a specific purpose and does the heavy lifting by performing tasks, creating data, transforming data, and much more.
@@ -13,11 +11,11 @@ Blocks are the atomic pieces used to create a flow. Every block has a specific p
 
 ## Fundamentals
 
-Every block has either an input, output, or both. You can pass/pipe a message packet from one block to another. Blocks can perform tasks, have value, or run an operation (see [Types of Blocks](#types-of-blocks))
+Every block has either an input, output, or both. You can pass a message packet from one block to another. Blocks can perform tasks, have values, or run an operation. For more information on each block, see [Types of Blocks](#types-of-blocks).
 
 > **Important**
 >
-> - A block is not a function but a process
+> - A block is not a function but a process.
 
 ## Block anatomy
 
