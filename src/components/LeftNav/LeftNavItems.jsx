@@ -360,32 +360,32 @@ export const leftNavItems = [
   {
     name: "Postman Flows",
     parentSlug: "postman-flows",
-    url: "/docs/postman-flows/getting-started/flows-overview/",
+    url: "/docs/postman-flows/flows-getting-started/flows-overview/",
     subMenuItems1: [
       {
         name: "Getting Started",
-        subParentSlug: "getting-started",
-        slug: "/docs/postman-flows/getting-started/flows-overview/",
+        subParentSlug: "flows-getting-started",
+        slug: "/docs/postman-flows/flows-getting-started/flows-overview/",
         subMenuItems2: [
           {
-            name: "Introduction",
-            url: "/docs/postman-flows/getting-started/flows-overview/",
+            name: "Postman Flows overview",
+            url: "/docs/postman-flows/flows-getting-started/flows-overview/",
           },
           {
             name: "The Postman Flows interface",
-            url: "/docs/postman-flows/getting-started/the-interface/",
+            url: "/docs/postman-flows/flows-getting-started/the-interface/",
           },
           {
             name: "Building your first Flow",
-            url: "/docs/postman-flows/getting-started/building-your-first-flow/",
+            url: "/docs/postman-flows/flows-getting-startedbuilding-your-first-flow/",
           },
           {
             name: "Running requests in sequence",
-            url: "/docs/postman-flows/getting-started/running-requests-in-sequence/",
+            url: "/docs/postman-flows/flows-getting-started/running-requests-in-sequence/",
           },
           {
             name: "Chaining requests with data",
-            url: "/docs/postman-flows/getting-started/chaining-requests-with-data/",
+            url: "/docs/postman-flows/flows-getting-started/chaining-requests-with-data/",
           },
         ],
       },
