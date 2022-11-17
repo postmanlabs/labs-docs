@@ -11,7 +11,7 @@ To create a flow that executes on the Postman servers, create a webhook endpoint
 
 ## Testing Locally
 
-Enter your test data and run it to see the output. This will mock what you will later send when calling the endpoint remotely.
+Enter your test data and run it to see the output on your local console.
 
 ![Testing Locally](https://assets.postman.com/postman-labs-docs/cloud-execution/remote-execution-test-data.gif)
 
@@ -23,7 +23,7 @@ Once you hit the "Release" button and give your release a meaingful name, it is 
 >
 > Every time you release, it saves a snapshot of your Collections and Environments. If you make or need to make any changes to these, you will need to release again.
 
-![Release to cloud](https://assets.postman.com/postman-labs-docs/cloud-execution/cloud-execution-create-release.gif)
+![Release to cloud](https://assets.postman.com/postman-labs-docs/cloud-execution/remote-execution-create-release.gif)
 
 ## Trigger the Webhook
 
