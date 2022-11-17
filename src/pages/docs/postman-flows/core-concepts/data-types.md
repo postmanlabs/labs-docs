@@ -35,7 +35,7 @@ The string type is used to represent textual data. It is a UTF-8 encoded list of
 
 A _string_ value cannot be converted automatically to any other type.
 
-> JSON values are of type string. The `Send Request` block automatically parses the data if the `content-type` header indicates a JSON body. In cases where automatic parsing doesn't happen, you will need to parse the string using the `JSON Parse` block.
+> JSON values are of type string. The **Send Request** block automatically parses the data if the `content-type` header indicates a JSON body. In cases where automatic parsing doesn't happen, you'll need to parse the string using the `JSON Parse` block.
 
 ### Number
 
