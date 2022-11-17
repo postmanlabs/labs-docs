@@ -96,7 +96,7 @@ const list: [string, number, boolean] = ["flows", 20, true]
 
 A record is a collection of fields (key-value pairs) where the key is of string type and the values can be of different types. These fields are fixed in number and follow a particular sequence. If you have some knowledge of C, records are like `struct`.
 
-This is a typescript equivalent of a record:
+This is a TypeScript equivalent of a record:
 
 ```ts
 interface Box {
