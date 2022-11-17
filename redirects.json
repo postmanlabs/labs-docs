@@ -737,7 +737,7 @@
 	},
 	{
 		"from": "/docs/collaborating-in-postman/version-control/",
-		"to": "/docs/collaborating-in-postman/version-control/version-control-overview/"
+		"to": "/docs/collaborating-in-postman/using-version-control/version-control-overview/"
 	},
 	{
 		"from": "/docs/postman/collections/working-with-openAPI/",
