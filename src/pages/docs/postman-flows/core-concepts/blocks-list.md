@@ -69,7 +69,7 @@ Blocks available in Flows are detailed below.
 
 - **Regex**
 
-  Emits a Regular Expression.
+  Emits a regular expression.
 
 - **Select**
 
