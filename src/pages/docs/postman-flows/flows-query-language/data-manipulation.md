@@ -151,7 +151,7 @@ $length(payments[0].description)
 
 ## Return part of a string using substring
 
-The first number is optional and specifies the offset, the second is the number of characters you are selecting, negative numbers can also be used for the offest.
+The first number is optional and specifies the offset, and the second is the number of characters you are selecting. Negative numbers can also be used for the offest.
 
 ### FQL
 
@@ -225,7 +225,7 @@ $lowercase(customer_info.'customer field')
 
 ## Trim a string
 
-Removes excess leading and trailing spaces, converts newline, carriage return, line feeds, and tabs into a single space character, and reduces consecutive spaces into a single space character
+Removes excess leading and trailing spaces, converts newline, carriage return, line feeds, and tabs into a single space character, and reduces consecutive spaces into a single space character.
 
 ### FQL
 
@@ -241,7 +241,7 @@ $trim(customer_info.unformatted_customer_field)
 
 ## Pad a string
 
-If the second parameter is a positive number it pads the string with the third parameter, if the second parameter is negative it pads the front of the string with the character(s) optionally specified (third parameter characters will default to space if left blank)
+If the second parameter is a positive number it pads the string with the third parameter. If the second parameter is negative it pads the front of the string with the character(s) optionally specified. (Third parameter characters will default to space if left blank.)
 
 ### FQL
 
@@ -287,7 +287,7 @@ $join(customer_info.associated_usernames)
 
 ## Replace string with another
 
-Replaces the instances of `recurring` in the first parameter string and replaces it with renewing and limited to the first instance found (optionally specified with the `1`). Using a regex instead of `renewing` is also supported
+Finds the instances of `recurring` in the first parameter string and replaces it with renewing, limited to the first instance found (optionally specified with the `1`). Using a regex instead of `renewing` is also supported.
 
 ### FQL
 
@@ -387,7 +387,7 @@ $decodeUrl("https://faketranslatewebsite.com/?phrase=%E3%81%93%E3%82%93%E3%81%AB
 
 ## Append to an array
 
-Can combine two arrays, an array and a single value, or two strings into an array
+Can combine two arrays, an array and a single value, or two strings into an array.
 
 ### FQL
 
@@ -433,7 +433,7 @@ $millis()
 
 ## Convert from a specific date format into Unix epoch time
 
-See the formatting section below for details on date formatting
+See the formatting section below for details on date formatting.
 
 ### FQL
 
@@ -449,7 +449,7 @@ $toMillis('10/12/2018 11:39 PM', '[M]/[D]/[Y] [h]:[m] [P]')
 
 ## Convert from Unix epoch time into a specific date format
 
-See the formatting section below for details on date formatting
+See the formatting section below for details on date formatting.
 
 ### FQL
 
