@@ -96,8 +96,6 @@ Examples are stored in a collection with their associated requests. You can edit
 1. Make any changes to the example request or response.
 1. Select **Save** to save the example.
 
-<img alt="Edit an example" src="https://assets.postman.com/postman-docs/examples-edit-response-v9-1.jpg" width="809px">
-
 ## Duplicating an example
 
 Duplicate an example to add a new example using an existing example as a base. You can then edit the copied example to change the name, status code, or any other part of the request or response.
