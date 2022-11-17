@@ -31,7 +31,7 @@ Every block has either an input, output, or both. You can pass a message packet 
 
 5. **Body Type** - Schema the request uses.
 
-6. **Variables** - The variables that are either provided in the Flow or from the Environment.
+6. **Variables** - The variables that are either provided in the Flow or from the environment.
 
 7. **Success** - When the block returns a successful status code it emits the response data.
 
