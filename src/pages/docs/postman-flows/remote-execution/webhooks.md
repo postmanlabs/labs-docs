@@ -21,7 +21,7 @@ Before starting, enter your test data and run it to see the output on your local
 
 ## Create a release
 
-Select **Release** and give your release a meaningful name. It is now running in the cloud. Toggling **Observe** will enable you to see the logs and flow of data live.
+Select **Release** and give your release a meaningful name. It's now running in the cloud. Toggling **Observe** will enable you to see the logs and flow of data live.
 
 > **Important**
 >
