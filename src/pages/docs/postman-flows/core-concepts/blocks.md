@@ -42,5 +42,5 @@ Every block has either an input, output, or both. You can pass a message packet 
 There are three types of blocks:
 
 - **Task blocks** - Perform a particular asynchronous task.
-- **Data blocks** - create data of a specific.
+- **Data blocks** -Create data of a specific type.
 - **Logic blocks** - perform actions on data to transform them. These are synchronous in nature.
