@@ -3,7 +3,7 @@ title: "List of blocks"
 updated: 2022-11-17
 ---
 
-Blocks available in Flows are detailed below:
+Blocks available in Flows are detailed below.
 
 ![All the Blocks](https://assets.postman.com/postman-labs-docs/all-blocks/updated-all-blocks.png)
 
