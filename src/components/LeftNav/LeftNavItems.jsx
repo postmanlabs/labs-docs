@@ -53,7 +53,7 @@ export const leftNavItems = [
           },
           {
             name: "Building your first Flow",
-            url: "/postman-flows/gettingstarted/building-your-first-flow/",
+            url: "/postman-flows/getting-started/building-your-first-flow/",
           },
           {
             name: "Running requests in sequence",

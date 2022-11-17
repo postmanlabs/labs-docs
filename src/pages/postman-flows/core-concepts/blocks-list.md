@@ -7,7 +7,7 @@ warning: false
 
 All of the blocks availabel in Flows are below:
 
-![All the Blocks](https://assets.postman.com/postman-labs-docs/all-blocks/all-blocks.png)
+![All the Blocks](https://assets.postman.com/postman-labs-docs/all-blocks/updated-all-blocks.png)
 
 ## Header
 
@@ -106,4 +106,3 @@ All of the blocks availabel in Flows are below:
 - **Template**
 
   Allows the free-hand structuring of data.
-  
