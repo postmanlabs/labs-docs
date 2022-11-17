@@ -60,7 +60,7 @@ When you have made the changes that you want to a forked collection or environme
 
     ![Pull Request Changes](https://assets.postman.com/postman-docs/v10/pull-request-changes-v10.jpg)
 
-    * If the parent element has any changes since you last updated your fork, you can [pull those changes](/docs/collaborating-in-postman/using-version-control/forking-entities/#pulling-updates-from-a-parent-element) into your fork before merging.
+    * If the parent element has any changes since you last updated your fork, you can [pull those changes](/docs/collaborating-in-postman/using-version-control/reviewing-pull-requests/#pulling-updates-during-a-pull-request) into your fork before merging.
 
     * If there are any conflicts between the fork and the parent element, Postman highlights them so that you can [resolve them](/docs/collaborating-in-postman/using-version-control/reviewing-pull-requests/#resolving-conflicts-from-a-pull-request).
 
@@ -93,8 +93,6 @@ To create a public pull request, do the following:
     <img src="https://assets.postman.com/postman-docs/v10/move-source-collection-v10.jpg" alt="Move the source collection" width="400px"/>
 
 1. After you move the fork to a public workspace, proceed with the workflow in [Creating pull requests](#creating-pull-requests).
-
-Once you create the pull request, you will get a notification that it was **Shared to public workspace**.
 
 ## Pull request settings
 

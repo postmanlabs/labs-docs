@@ -107,7 +107,7 @@ To pull updates from a parent element during the pull request process, see [Pull
 
 ## Merging changes from a fork
 
-If you have Editor access on the element, you can _merge_ a fork into the parent element without going through the [pull request process](/docs/collaborating-in-postman/using-version-control/creating-pull-requests/). For example, if you’re using forks in a personal workspace to organize your work, you can merge changes in a fork directly back into the parent element. If you're collaborating with others, though, merging directly lacks the safeguards built into the pull request process. Many teams require pull requests as part of their version control workflow.
+If you have Editor access on the element, you can _merge_ a fork into the parent element without going through the [pull request process](/docs/collaborating-in-postman/using-version-control/creating-pull-requests/). For example, if you’re using forks in a personal workspace to organize your work, you can merge changes in a fork directly back into the parent element. If you're collaborating with others, though, merging directly lacks the safeguards built into the pull request process. Many teams require pull requests as part of their [version control workflow](/docs/collaborating-in-postman/using-version-control/creating-pull-requests/).
 
 To merge changes from a fork without opening a pull request, do the following:
 
