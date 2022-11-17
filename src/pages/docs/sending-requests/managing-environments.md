@@ -45,8 +45,8 @@ contextual_links:
     name: "Collaborating with your team"
     url: "/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/"
   - type: link
-    name: "Using version control"
-    url:  "/docs/collaborating-in-postman/version-control/"
+    name: "Version control overview"
+    url:  "/docs/collaborating-in-postman/using-version-control/version-control-overview/"
 
 warning: false
 
@@ -277,7 +277,7 @@ You can fork environments to change them without impacting their base versions, 
 
 > You can also fork an environment by selecting **Fork** <img alt="Fork icon" src="https://assets.postman.com/postman-docs/icon-fork.jpg#icon" width="14px"> in the environment overview tab.
 
-You can edit your environment fork and use it as needed, or you can [create a pull request](/docs/collaborating-in-postman/version-control/#creating-pull-requests) to update the original environment.
+You can edit your environment fork and use it as needed, or you can [create a pull request](/docs/collaborating-in-postman/using-version-control/creating-pull-requests/) to update the original environment.
 
 ### Viewing pull requests, forks, and environment details
 
@@ -287,7 +287,7 @@ You can view all pull requests, forks, and details about an environment from the
 * To view forks, select the fork icon <img alt="Fork icon" src="https://assets.postman.com/postman-docs/icon-fork.jpg#icon" width="16px">
 * To view additional information about the environment, including its ID, author, and any mock servers or monitors that use it, select the information icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px">
 
-If you have [Editor access](/docs/collaborating-in-postman/roles-and-permissions/#environment-roles) on the environment, you can [review pull requests](/docs/collaborating-in-postman/version-control/#reviewing-pull-requests) and [merge changes into the parent environment](/docs/collaborating-in-postman/using-version-control/forking-entities/#merging-changes-from-a-fork).
+If you have [Editor access](/docs/collaborating-in-postman/roles-and-permissions/#environment-roles) on the environment, you can [review pull requests](/docs/collaborating-in-postman/using-version-control/reviewing-pull-requests/#reviewing-pull-requests) and [merge changes into the parent environment](/docs/collaborating-in-postman/using-version-control/forking-entities/#merging-changes-from-a-fork).
 
 ## Next steps
 
@@ -296,4 +296,4 @@ Shared environments allow you to leverage collaboration within Postman. Check ou
 * To learn more about how to use Postman with your team, visit [Collaborating in Postman](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/).
 * To learn more about how create a workspace in Postman, visit [Intro to workspaces](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/).
 * To learn more about how to share access to your APIs, visit [Managing and sharing APIs](/docs/designing-and-developing-your-api/managing-apis/).
-* To learn how to use version control to collaboratively build an API, visit [Using version control](/docs/collaborating-in-postman/version-control/).
+* To learn how to use version control to collaboratively build an API, visit [Version control in Postman](/docs/collaborating-in-postman/using-version-control/version-control-overview/).

@@ -62,7 +62,7 @@ To create a pull request:
 
     ![Pull Request Changes](https://assets.postman.com/postman-docs/v10/pull-request-changes-v10.jpg)
 
-    * If the parent element has any changes since you last updated your fork, you can [pull those changes](#pulling-updates) into your fork before merging.
+    * If the parent element has any changes since you last updated your fork, you can [pull those changes](/docs/collaborating-in-postman/using-version-control/forking-entities/#pulling-updates-from-a-parent-element) into your fork before merging.
 
     * If there are any conflicts between the fork and the parent element, Postman highlights them so that you can [resolve them](/docs/collaborating-in-postman/using-version-control/reviewing-pull-requests/#resolving-conflicts-from-a-pull-request).
 
@@ -72,7 +72,7 @@ To create a pull request:
 
     <img alt="Create Pull Request" src="https://assets.postman.com/postman-docs/v10/pull-request-overview-v10.jpg" width="350px"/>
 
-Postman notifies the reviewers you selected about your pull request. You will receive a notification if the reviewers [comment on](#adding-comments), [approve](#approving-a-pull-request), or [merge](#merging-changes-from-a-pull-request) the pull request.
+Postman notifies the reviewers you selected about your pull request. You will receive a notification if the reviewers [comment on](/docs/collaborating-in-postman/using-version-control/reviewing-pull-requests/#adding-comments), [approve](/docs/collaborating-in-postman/using-version-control/reviewing-pull-requests/#approving-a-pull-request), or [merge](/docs/collaborating-in-postman/using-version-control/reviewing-pull-requests/#merging-changes-from-a-pull-request) the pull request.
 
 > A reviewer must have an Editor role for the element to merge changes. If you add a user who doesn't have Editor access as a reviewer, there will be a warning icon next to their name.
 >
@@ -80,7 +80,7 @@ Postman notifies the reviewers you selected about your pull request. You will re
 
 ## Creating public pull requests
 
-To create a pull request on a public collection or environment, you must fork the parent element into a public workspace so that the users you ask to [review it](#reviewing-pull-requests) have access to it.
+To create a pull request on a public collection or environment, you must fork the parent element into a public workspace so that the users you ask to [review it](/docs/collaborating-in-postman/using-version-control/reviewing-pull-requests/) have access to it.
 
 1. Begin the pull request process described in [Creating pull requests](#creating-pull-requests). A note tells you to move the source element to a public workspace.
 1. Select **Move Collection** or **Move Environment**.

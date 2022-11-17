@@ -46,7 +46,7 @@ If you're tagged as a reviewer on a pull request, you can view the changes, comm
 * [Adding comments](#adding-comments)
 * [Editing or declining a pull request](#editing-or-declining-a-pull-request)
 * [Approving a pull request](#approving-a-pull-request)
-* [Pulling updates from a parent element](#pulling-updates-from-a-parent-element)
+* [Pulling updates during a pull request](#pulling-updates-during-a-pull-request)
 * [Merging changes from a pull request](#merging-changes-from-a-pull-request)
 * [Resolving conflicts from a pull request](#resolving-conflicts-from-a-pull-request)
 
@@ -114,13 +114,13 @@ After you approve the pull request, its status in the list of pull requests is `
 
 <img src="https://assets.postman.com/postman-docs/v10/pull-request-list-approved-v10.jpg" alt="Approved pull request" width="350px"/>
 
-## Pulling updates from a parent element
+## Pulling updates during a pull request
 
 You can keep your forked collections and environments up to date with any changes to the parent element, for example if another team member has merged changes into the parent element.
 
 To pull updates from a parent element during the pull request process, do the following:
 
-1. [Open the pull request.](#creating-pull-requests) Postman will warn you that the parent element has changed since you last updated it.
+1. [Open the pull request.](/docs/collaborating-in-postman/using-version-control/creating-pull-requests/#creating-pull-requests) Postman will warn you that the parent element has changed since you last updated it.
 1. Select **Pull Changes** to update your fork with the changes to the parent element.
 
     ![Pull recent changes](https://assets.postman.com/postman-docs/v10/pr-pull-changes-v10.jpg)
@@ -129,7 +129,7 @@ To pull updates from a parent element during the pull request process, do the fo
 
     <img alt="Pull changes into fork" src="https://assets.postman.com/postman-docs/v10/pull-changes-v10.jpg"/>
 
-To pull updates from a parent element without opening a pull request, see [Pulling updates from a parent element](#pulling-updates-from-a-parent-element).
+To pull updates from a parent element without opening a pull request, see [Pulling updates from a parent element](/docs/collaborating-in-postman/using-version-control/forking-entities/#pulling-updates-from-a-parent-element).
 
 ## Merging changes from a pull request
 
@@ -139,7 +139,7 @@ When you're ready to add the changes from a pull request, you'll _merge_ them in
 
     ![Merge a pull request](https://assets.postman.com/postman-docs/v10/pull-request-merge-fork-v10.jpg)
 
-    > If the parent element has any changes since you last updated your fork, you can [pull those changes](#pulling-updates) before merging.
+    > If the parent element has any changes since you last updated your fork, you can [pull those changes](/docs/collaborating-in-postman/using-version-control/forking-entities/#pulling-updates-from-a-parent-element) before merging.
 
 1. Select one of the following merge options:
     * **Merge changes** - Merge the changes into the parent element. This doesn't make any changes to the fork. You must have Editor access to the parent element.
@@ -158,7 +158,7 @@ A merge conflict happens when you try to merge changes into an updated parent el
 
 > Merge conflicts can involve changes in more than one workspace.
 
-1. Begin the pull request process described in [Creating pull requests](#creating-pull-requests).
+1. Begin the pull request process described in [Creating pull requests](/docs/collaborating-in-postman/using-version-control/creating-pull-requests/#creating-pull-requests).
 1. Select **Changes** to review the changes in the merge conflict.
 1. Select **Resolve Conflicts** to resolve merge conflicts between the fork and parent element.
 
