@@ -463,7 +463,7 @@ $fromMillis(1539387540000, '[Y]-[M]-[D] [H]:[m]:[s] [z]')
 "2018-10-12 23:39:00 GMT+00:00"
 ```
 
-## Time and Date formatting
+## Time and date formatting
 
 | Character  | Meaning |
 | ------------- | ------------- |
