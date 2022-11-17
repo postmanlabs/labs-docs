@@ -1,15 +1,12 @@
 ---
 title: "Watching pull requests"
-order: 75
-page_id: "version_control"
-warning: false
-updated: 2022-11-08
+updated: 2022-11-17
 contextual_links:
   - type: section
     name: "Prerequisites"
   - type: link
-    name: "Grouping requests in Collections"
-    url: "/docs/sending-requests/intro-to-collections/"
+    name: "Version control overview"
+    url: "/docs/collaborating-in-postman/using-version-control/version-control-overview/"
   - type: section
     name: "Additional Resources"
   - type: subtitle
@@ -30,11 +27,6 @@ contextual_links:
   - type: link
     name: "Youi"
     url: "https://www.postman.com/case-studies/youi/"
-  - type: section
-    name: "Next Steps"
-  - type: link
-    name: "Versioning APIs"
-    url: "/docs/designing-and-developing-your-api/versioning-an-api/"
 ---
 
 The watch option enables you to receive an in-app notification when a team member modifies the pull request. If you watch a pull request, you will get notifications about actions such as adding a new comment, approving or removing approval, merging, and editing or declining a pull request.
@@ -47,15 +39,11 @@ The watch option enables you to receive an in-app notification when a team membe
 
 ## Watching a pull request
 
-To watch a pull request:
-
-1. Select **Watch**.
+To watch a pull request, select **Watch**.
 
 <img alt="Watch a pull request" src="https://assets.postman.com/postman-docs/watching-a-pull-request-v9.12.jpg" width="300px"/>
 
 ## Changing watching notification settings
-
-To change your watching notification settings:
 
 1. Select **Watching**.
 1. Select or clear the desired notification options.
@@ -64,7 +52,7 @@ To change your watching notification settings:
 
 ## Viewing notifications
 
-To view notifications for a watched pull request:
+To view notifications for a watched pull request, do the following:
 
 1. Select the notifications icon <img alt="Notifications icon" src="https://assets.postman.com/postman-docs/icon-notification-bell-v9.jpg#icon" width="18px"> in the Postman header. The popup indicates further information about the changes  to the pull request.
 

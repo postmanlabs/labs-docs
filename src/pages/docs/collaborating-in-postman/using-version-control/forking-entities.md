@@ -1,12 +1,15 @@
 ---
 title: "Forking Postman entities"
-updated: 2022-11-08
+updated: 2022-11-17
 contextual_links:
   - type: section
     name: "Prerequisites"
   - type: link
     name: "Grouping requests in Collections"
     url: "/docs/sending-requests/intro-to-collections/"
+  - type: link
+    name: "Version control overview"
+    url: "/docs/collaborating-in-postman/using-version-control/version-control-overview/"
   - type: section
     name: "Additional Resources"
   - type: subtitle
@@ -30,8 +33,8 @@ contextual_links:
   - type: section
     name: "Next Steps"
   - type: link
-    name: "Versioning APIs"
-    url: "/docs/designing-and-developing-your-api/versioning-an-api/"
+    name: "Creating pull requests"
+    url: "/docs/collaborating-in-postman/using-version-control/creating-pull-requests/"
 ---
 
 A _fork_ is a new instance of an element that you can change without making any changes to the parent element. In Postman, you can fork collections, environments, and flows. Forking enables you to contribute to an element without having [Editor access](/docs/collaborating-in-postman/roles-and-permissions/#element-based-roles) for that element.
@@ -131,11 +134,11 @@ A merge conflict happens when you try to merge changes into an updated parent el
 To resolve a merge conflict from a fork, do the following:
 
 1. Begin the merge process described in [Merging changes from a fork](#merging-changes-from-a-fork).
-1. Select **Pull the changes** for any change.
+1. Select **Pull the changes** for any conflict.
 
     <img src="https://assets.postman.com/postman-docs/v10/conflicts-pull-changes-v10.jpg" alt="Pull Changes"/>
 
-1. For each conflict, choose the version you want to include when you merge. Select **Keep Source** to keep the change on the parent element. Select **Keep Destination** to keep the change on your fork. You can also select the version you want to keep.
+1. For each conflict, choose the version you want to include when you merge. Select **Keep Source** to keep the change on the parent element. Select **Keep Destination** to keep the change on your fork. You can also select the version you want to keep for each conflict.
 
     <img src="https://assets.postman.com/postman-docs/v10/conflicts-keep-source-or-destination-v10.jpg" alt="Pull Changes"/>
 

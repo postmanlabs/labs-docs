@@ -5,8 +5,11 @@ contextual_links:
   - type: section
     name: "Prerequisites"
   - type: link
-    name: "Grouping requests in Collections"
-    url: "/docs/sending-requests/intro-to-collections/"
+    name: "Version control overview"
+    url: "/docs/collaborating-in-postman/using-version-control/version-control-overview/"
+  - type: link
+    name: "Creating pull requests"
+    url: "/docs/collaborating-in-postman/using-version-control/creating-pull-requests/"
   - type: section
     name: "Additional Resources"
   - type: subtitle
@@ -167,11 +170,11 @@ To resolve a merge conflict from a pull request, do the following:
 1. Select **Changes** to review the changes in the merge conflict.
 1. Select **Resolve Conflicts** to resolve merge conflicts between the fork and parent element.
 
-    > You can also select **Pull the changes** for any change.
+    > You can also select **Pull the changes** for any conflict.
 
     <img src="https://assets.postman.com/postman-docs/v10/resolve-conflicts-v10.jpg" alt="Resolve conflicts"/>
 
-1. For each conflict, choose the version you want to include when you merge. Select **Keep Source** to keep the change on the parent element. Select **Keep Destination** to keep the change on your fork. You can also select the version you want to keep.
+1. For each conflict, choose the version you want to include when you merge. Select **Keep Source** to keep the change on the parent element. Select **Keep Destination** to keep the change on your fork. You can also select the version you want to keep for each conflict.
 
     <img src="https://assets.postman.com/postman-docs/v10/conflicts-keep-source-or-destination-v10.jpg" alt="Pull Changes"/>
 
