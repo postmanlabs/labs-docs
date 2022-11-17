@@ -52,16 +52,16 @@ export const leftNavItems = [
             url: "/postman-flows/getting-started/the-interface/",
           },
           {
+            name: "Building your first Flow",
+            url: "/postman-flows/getting-started/building-your-first-flow/",
+          },
+          {
             name: "Running requests in sequence",
             url: "/postman-flows/getting-started/running-requests-in-sequence/",
           },
           {
             name: "Chaining requests with data",
             url: "/postman-flows/getting-started/chaining-requests-with-data/",
-          },
-          {
-            name: "Working with access tokens - Durables",
-            url: "/postman-flows/getting-started/working-with-access-tokens/",
           },
         ],
       },
@@ -79,21 +79,55 @@ export const leftNavItems = [
             url: "/postman-flows/core-concepts/messages/",
           },
           {
-            name: "Connections",
-            url: "/postman-flows/core-concepts/connections/",
-          },
-          {
             name: "Data Types",
             url: "/postman-flows/core-concepts/data-types/",
           },
+          {
+            name: "List of Blocks",
+            url: "/postman-flows/core-concepts/blocks-list/",
+          },
         ],
+      },
+      {
+        name: "Flow Query Language",
+        subParentSlug: "flows-query-language",
+        slug: "/postman-flows/flows-query-language/introduction-to-fql/",
+        subMenuItems2: [
+          {
+            name: "Getting Basic Values",
+            url: "/postman-flows/flows-query-language/getting-basic-values/",
+          },
+          {
+            name: "Conditional data selection",
+            url: "/postman-flows/flows-query-language/conditional-data-selection/",
+          },
+          {
+            name: "Returning Structured Results",
+            url: "/postman-flows/flows-query-language/returning-structured-results/",
+          },
+          {
+            name: "Data Manipulation",
+            url: "/postman-flows/flows-query-language/data-manipulation/",
+          },
+        ],
+      },
+      {
+        name: "Remote Execution",
+        subParentSlug: "webhooks",
+        slug: "/postman-flows/remote-execution/webhooks/",
+        subMenuItems2: [
+          {
+            name: "Webhooks",
+            url: "/postman-flows/remote-execution/webhooks/",
+          },
+        ]
       },
     ],
   },
   {
     name: "gRPC Client",
     parentSlug: "grpc-client",
-    url: "https://learning.postman.com/docs/sending-requests/grpc/grpc-client-overview/"
+    url: "https://learning.postman.com/docs/sending-requests/grpc/grpc-client-overview/",
   },
   {
     name: "WebSocket Client",

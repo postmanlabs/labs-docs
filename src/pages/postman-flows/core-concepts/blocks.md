@@ -1,11 +1,11 @@
 ---
 title: "The Block"
 page_id: "block"
-updated: 2022-05-04
+updated: 2022-11-15
 warning: false
 ---
 
-Blocks are the atomic pieces used to create a flow. Every block has a specific purpose and does the heavy lifting by performing tasks, creating data, transforming data and much more.
+Blocks are the atomic pieces used to create a flow. Every block has a specific purpose and does the heavy lifting by performing tasks, creating data, transforming data, and much more.
 
 - [Fundamentals](#fundamentals)
 - [Block Anatomy](#block-anatomy)
@@ -13,42 +13,36 @@ Blocks are the atomic pieces used to create a flow. Every block has a specific p
 
 ## Fundamentals
 
-Every block has an input and output. You can pass/pipe a message packet (see "[messages](./messages.md)") from one block to another. Blocks can perform tasks, have value, or run an operation (see "[Types of Blocks](#types-of-blocks))
+Every block has either an input, output, or both. You can pass/pipe a message packet from one block to another. Blocks can perform tasks, have value, or run an operation (see [Types of Blocks](#types-of-blocks))
 
 > **Important**
 >
-> - A block becomes executable when all of its **_required_** inputs are connected.
-> - A block starts running when a message packet becomes available in all of its connected inputs.
 > - A block is not a function but a process
 
-## Block Anatomy
+## Block anatomy
 
-![](https://assets.postman.com/postman-labs-docs/block/block-anatomy.svg)
+![](https://assets.postman.com/postman-labs-docs/block/updated-block-anatomy.png)
 
 1. **Name** - Name of the block.
 
-2. **Run State** - Indicator telling the state of the block: default, running, ran successfully or ran unsuccessfully.
+2. **Request to run** - Which request from your collection is going to be run.
 
-3. **Expand** - Expands the block to view more configurations and information.
+3. **Send event input** - Starts running the block when this port receives an input.
 
-4. **Options Menu** - Contains additional options for the block.
+4. **Environment** - Which Postman Environment to use.
 
-5. **Required Input Port** - Required input ports are colored dark blue. Needs a connection from another block to be executable. (see also [connections](./connections.md))
+5. **Body Type** - Schema the request uses.
 
-6. **Optional Input Port** - Option input ports are colored light blue. The block executes even if there is no connection to the port. (see also [connections](./connections.md))
+6. **Variables** - The variables that are either provided in the Flow or from the Environment.
 
-7. **Output Port** - Where results of the block process is emitted. (see also [connections](./connections.md))
+7. **Success** - When the block returns a successful status code it emits the response data.
 
-8. **Configuration** - These are the quick configurations for a block. Some available configurations may not be shown here.
+8. **Failure** - When the block returns an unsuccessful status code it emits the response data.
 
-9. **Signal Input** - Once connected, the execution of a given block is prevented until the signal port turns high. (see also [connections](./connections.md))
+## Types of blocks
 
-10. **Signal Output** - Similar to "Signal Input", the signal output port that emits a high signal when the block completes its processing. (see also [connections](./connections.md))
-
-## Types of Blocks
-
-There are 3 types of blocks:
+There are three types of blocks:
 
 - **Task blocks** - perform a particular asynchronous task.
-- **Value blocks** - create data of a specific.
-- **Operation blocks** - perform actions on data to transform them. These are synchronous in nature.
+- **Data blocks** - create data of a specific.
+- **Logic blocks** - perform actions on data to transform them. These are synchronous in nature.
