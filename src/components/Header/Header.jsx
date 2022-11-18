@@ -4,6 +4,8 @@ import Dropdown from './Dropdown';
 import $ from 'jquery';
 import {PrimaryNavbarV6, SecondaryNavbarV6, NavStyles, DropdownStyles, CTAButton} from './HeaderStyles.jsx' ;
 import { SearchWrapperStyling } from '../Search/searchStyles.jsx';
+// import navbarData from '../../../bff-data/navbar.json';
+import navbarDataLocal from '../../../build/navbarDev.json';
 
 // Get Cookie for Sign In toggler
 const getCookie = (a) => {
@@ -74,6 +76,7 @@ class Header extends React.Component {
       beta: '',
       cookie: '',
       hidden: true,
+      data: navbarDataLocal
     };
   }
 
@@ -210,7 +213,7 @@ class Header extends React.Component {
 
   render() {
     const {
-      beta, visibleHelloBar, cookie, hidden,
+      beta, visibleHelloBar, cookie, hidden, data
     } = this.state;
     return (
       <>
@@ -254,7 +257,55 @@ class Header extends React.Component {
               className={`collapse navbar-collapse${!visibleHelloBar ? ' noBar' : ''
                 }`}
             >
+              {console.info('DATA  items =====>', data.items)}
               <ul className="navbar-nav mr-auto">
+              { data && data.items.map(item => (
+                <li className="nav-item dropdown">
+                  {console.info('subitems in map =====>', item.subItems)}
+                  {console.info('title of subitems in map =====>', item.title)}
+                <a
+                  className="nav-link dropdown-toggle"
+                  href="##"
+                  id="navbarDropdownMenuLink"
+                  data-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  {item.title}
+                  <svg
+                    className="arrow-icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="12"
+                    height="12"
+                    viewBox="0 0 12 12"
+                    fill="#6b6b6b"
+                  >
+                    <g>
+                      <path d="M10.375,3.219,6,6.719l-4.375-3.5A1,1,0,1,0,.375,4.781l5,4a1,1,0,0,0,1.25,0l5-4a1,1,0,0,0-1.25-1.562Z" />
+                    </g>
+                  </svg>
+                </a>
+                {console.log('undefined ? ', item.subItems !== 'undefined')}
+                {/* { item.subItems !== 'undefined' && (<DropdownStyles
+                  className="dropdown-menu"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                {item.subItems.map(dropdown => (
+                  <a
+                    className="dropdown-item"
+                    href={dropdown.url}
+                  >
+                    {dropdown.title}
+                  </a>
+                ))}
+                </DropdownStyles>
+                )
+                } */}
+              </li>
+      
+              )) } 
+              </ul>
+
+              {/* <ul className="navbar-nav mr-auto">
                 <li className="nav-item dropdown">
                   <a
                     className="nav-link dropdown-toggle"
@@ -263,7 +314,7 @@ class Header extends React.Component {
                     data-toggle="dropdown"
                     aria-expanded="false"
                   >
-                    Product
+                    {data.items[0].title}
                     <svg
                       className="arrow-icon"
                       xmlns="http://www.w3.org/2000/svg"
@@ -527,7 +578,7 @@ class Header extends React.Component {
                     Explore
                   </a>
                 </li>
-              </ul>
+              </ul> */}
               <div className="form-inline my-2 my-lg-0">
                 <LoginCheck
                   hidden={hidden}
