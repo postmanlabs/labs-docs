@@ -31,8 +31,8 @@ contextual_links:
     name: "The Most Popular Collection in the Postman API Network"
     url: "https://blog.postman.com/the-most-popular-collection-in-the-postman-api-network/"
   - type: link
-    name: "Build Software Faster with These Productivity APIs"
-    url: "https://blog.postman.com/build-software-faster-with-productivity-apis/"
+    name: "Top 25 API Onboarding Experiences"
+    url: "https://blog.postman.com/top-25-api-onboarding-experiences/"
   - type: section
     name: "Next Steps"
   - type: link
