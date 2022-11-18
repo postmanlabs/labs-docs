@@ -14,6 +14,9 @@ contextual_links:
   - type: link
     name: "Run collections with Postman CLI | The Exploratory"
     url: "https://youtu.be/DKxCVo1_ELg"
+  - type: link
+    name: "View Postman CLI Runs in Postman | Postman Level Up"
+    url: "https://youtu.be/YTzlLLtsJls"
   - type: subtitle
     name: "Blog Posts"
   - type: link
