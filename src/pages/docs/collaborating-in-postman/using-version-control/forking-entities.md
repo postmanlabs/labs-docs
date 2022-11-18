@@ -129,7 +129,7 @@ To merge changes during the pull request process, see [Merging changes from a pu
 
 ## Resolving conflicts from a fork
 
-A merge conflict happens when you try to merge changes into an updated parent element and Postman isn't able to automatically resolve the differences between the two. If there's a conflict when you try to merge a fork, you'll need to decide how you want to resolve them before continuing.
+A merge conflict happens when you try to merge changes into an updated parent element and Postman isn't able to automatically resolve the differences between the two. If there's a conflict when you try to merge a fork, you'll need to decide how you want to resolve it before continuing.
 
 > Merge conflicts can involve changes in more than one workspace.
 
