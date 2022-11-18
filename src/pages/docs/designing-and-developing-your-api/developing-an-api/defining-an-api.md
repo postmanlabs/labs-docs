@@ -153,7 +153,7 @@ To see any rule violations, select **Rule** next to **Violations found in defini
 
 Select the number to inspect each rule violation. Every instance of the rule violation has a brief description of the issue and the line in the file the where the rule violation occurs. When you select a rule violation, Postman highlights the section of the definition that triggered it.
 
-<img alt="Multiple occurrences of the same rule violation" src="https://assets.postman.com/postman-docs/v10/api-definition-multiple-violations-v10.1.jpg" width="800px"/>
+<img alt="Multiple occurrences of the same rule violation" src="https://assets.postman.com/postman-docs/v10/api-definition-multiple-violations-v10.1.jpg" />
 
 To learn more about the rule violation and get information about how to fix it, select **Possible fix**, which will open the relevant Learning Center page.
 
@@ -165,7 +165,7 @@ To hide a rule violation for the API definition, select **Hide** next to the rul
 
 > To hide a rule violation globally, you can use either [configurable API Governance rules](/docs/api-governance/configurable-rules/configuring-api-governance-rules/) or [configurable API Security rules](/docs/api-governance/configurable-rules/configuring-api-security-rules/).
 
-<img alt="Hide a rule violation in your API definition" src="https://assets.postman.com/postman-docs/v10/api-definition-hide-rule-violation-v10.1.jpg" width="800px"/>
+<img alt="Hide a rule violation in your API definition" src="https://assets.postman.com/postman-docs/v10/api-definition-hide-rule-violation-v10.1.jpg" >
 
 When you or another member of your team hides a rule violation, Postman shows a message in the editor's **Rule** tab to indicate how many are hidden. To turn a rule back on later:
 
