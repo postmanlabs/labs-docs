@@ -7,6 +7,11 @@ Postman Flows is a dataflow language, which means Flows understands all kinds of
 
 Since most Flow programmers have a JavaScript or TypeScript background, or are programming in an API-First language for the first time, the vocabulary of the types closely resembles JavaScript and TypeScript.
 
+## Contents
+
+* [Primitive values](#primitive-values)
+* [Abstract types](#abstract-types)
+
 ## Primitive values
 
 | Type                 | What it accepts                                           | Example                   |
