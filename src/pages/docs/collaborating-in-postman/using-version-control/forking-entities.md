@@ -75,11 +75,9 @@ If there are any [mocks](/docs/designing-and-developing-your-api/mocking-data/se
 
 Fork information shows details about forks and the users who have created them. You will be able to identify the users who are actively consuming and contributing to your APIs.
 
-To access the list of users who have forked a collection, environment, or flow, do the following:
+To view a list of users who have forked a collection, environment, or flow, select the number next to the fork icon <img alt="Fork icon" src="https://assets.postman.com/postman-docs/icon-fork.jpg#icon" width="14px">.
 
-1. Select the number next to the fork icon <img alt="Fork icon" src="https://assets.postman.com/postman-docs/icon-fork.jpg#icon" width="14px"> to reveal the list of users who have active forks.
-
-    <img alt="View the fork information count" src="https://assets.postman.com/postman-docs/v10/fork-information-count-v10.jpg" width="500px"/>
+<img alt="View the fork information count" src="https://assets.postman.com/postman-docs/v10/fork-information-count-v10.jpg" width="500px"/>
 
 To access the list of forks for a collection, environment, or flow, do the following:
 

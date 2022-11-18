@@ -104,9 +104,7 @@ To decline the pull request, do the following:
 
 ## Approving a pull request
 
-If you're tagged as a reviewer on a pull request you can approve the pull request.
-
-To approve a pull request, do the following:
+If you're tagged as a reviewer on a pull request, you can approve the pull request.
 
 To approve a pull request, select **Approve**.
 

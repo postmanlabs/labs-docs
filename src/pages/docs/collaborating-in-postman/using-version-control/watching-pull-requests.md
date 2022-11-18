@@ -52,8 +52,6 @@ To watch a pull request, select **Watch**.
 
 ## Viewing notifications
 
-To view notifications for a watched pull request, do the following:
-
-1. Select the notifications icon <img alt="Notifications icon" src="https://assets.postman.com/postman-docs/icon-notification-bell-v9.jpg#icon" width="18px"> in the Postman header. The popup indicates further information about the changes  to the pull request.
+To view notifications for a watched pull request, select the notifications icon <img alt="Notifications icon" src="https://assets.postman.com/postman-docs/icon-notification-bell-v9.jpg#icon" width="18px"> in the Postman header. The popup indicates further information about the changes to the pull request.
 
 > If you create a pull request and make changes to it from the same Postman account, you won't receive any notifications about changes made to the pull request.
