@@ -102,7 +102,7 @@ class IndexPage extends React.Component {
                 Flows to create your own API workflows.
               </p>
               <Link
-                to="/postman-flows/getting-started/flows-overview/"
+                to="https://learning.postman.com/docs/postman-flows/flows-intro/flows-overview/"
                 className="btn btn__primary-hollow mb-5"
               >
                 Explore the Flow docs
