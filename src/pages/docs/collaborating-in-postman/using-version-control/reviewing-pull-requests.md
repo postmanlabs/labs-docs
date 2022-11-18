@@ -52,11 +52,16 @@ If you're tagged as a reviewer on a pull request, you can view the changes, comm
 
 ## Reviewing pull requests
 
-To access the list of pull requests, go to the element and select the pull requests icon <img alt="Pull request icon" src="https://assets.postman.com/postman-docs/icon-pull-request.jpg#icon" width="16px"> in the context bar.
+To access the list of pull requests, go to the element and select the pull requests icon <img alt="Pull request icon" src="https://assets.postman.com/postman-docs/icon-pull-request.jpg#icon" width="16px"> in the context bar. Each item shows the pull request's status, which will be `OPEN` for any that haven't been merged or declined. Select a pull request's name to open it.
 
 <img src="https://assets.postman.com/postman-docs/v10/open-pull-request-list-v10.jpg" alt="Pull request list" width="350px"/>
 
-Each item shows the pull request's status, which will be `OPEN` for any that haven't been merged or declined. Select a pull request's name to open it.
+When you're tagged as a reviewer on a pull request, Postman notifies you when a team member creates a pull request:
+
+* Select the notifications icon <img alt="Notification icon" src="https://assets.postman.com/postman-docs/icon-notification-bell-v9.jpg#icon" width="18px"> in the Postman header to view the notification. Select **View Pull Request** to view the pull request.
+* You will also receive an email with information about the pull request's title, the element included in the pull request, and who created the pull request. Select **Review Changes** in the email to access the pull request in Postman.
+
+> If you create a pull request and make changes to it from the same Postman account, you won't receive any notifications about changes made to the pull request.
 
 ## Viewing the diff
 
@@ -170,11 +175,11 @@ To resolve a merge conflict from a pull request, do the following:
 
     > You can also select **Pull the changes** for any conflict.
 
-    <img src="https://assets.postman.com/postman-docs/v10/resolve-conflicts-v10.jpg" alt="Resolve conflicts"/>
+    <img src="https://assets.postman.com/postman-docs/v10/resolve-conflicts-v10-2.jpg" alt="Resolve conflicts"/>
 
 1. For each conflict, choose the version you want to include when you merge. Select **Keep Source** to keep the change on the parent element. Select **Keep Destination** to keep the change on your fork. You can also select the version you want to keep for each conflict.
 
-    <img src="https://assets.postman.com/postman-docs/v10/conflicts-keep-source-or-destination-v10.jpg" alt="Pull Changes"/>
+    <img src="https://assets.postman.com/postman-docs/v10/conflicts-keep-source-or-destination-v10-2.jpg" alt="Pull Changes"/>
 
 > To keep all changes on your fork, select **Keep all changes to source**. To keep all changes on the parent element, select **Keep all changes to destination**.
 

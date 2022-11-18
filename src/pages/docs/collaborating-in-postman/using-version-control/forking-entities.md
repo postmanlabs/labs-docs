@@ -138,11 +138,11 @@ To resolve a merge conflict from a fork, do the following:
 1. Begin the merge process described in [Merging changes from a fork](#merging-changes-from-a-fork).
 1. Select **Pull the changes** for any conflict.
 
-    <img src="https://assets.postman.com/postman-docs/v10/conflicts-pull-changes-v10.jpg" alt="Pull Changes"/>
+    <img src="https://assets.postman.com/postman-docs/v10/conflicts-pull-changes-v10-2.jpg" alt="Pull Changes"/>
 
 1. For each conflict, choose the version you want to include when you merge. Select **Keep Source** to keep the change on the parent element. Select **Keep Destination** to keep the change on your fork. You can also select the version you want to keep for each conflict.
 
-    <img src="https://assets.postman.com/postman-docs/v10/conflicts-keep-source-or-destination-v10.jpg" alt="Pull Changes"/>
+    <img src="https://assets.postman.com/postman-docs/v10/conflicts-keep-source-or-destination-v10-2.jpg" alt="Pull Changes"/>
 
 > To keep all changes on your fork, select **Keep all changes to source**. To keep all changes on the parent element, select **Keep all changes to destination**.
 

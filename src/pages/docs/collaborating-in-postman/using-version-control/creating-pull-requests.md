@@ -70,7 +70,7 @@ When you have made the changes that you want to a forked collection or environme
 
     <img alt="Create Pull Request" src="https://assets.postman.com/postman-docs/v10/pull-request-overview-v10.jpg" width="350px"/>
 
-Postman notifies the reviewers you selected about your pull request. You will receive a notification if the reviewers [comment on](/docs/collaborating-in-postman/using-version-control/reviewing-pull-requests/#adding-comments), [approve](/docs/collaborating-in-postman/using-version-control/reviewing-pull-requests/#approving-a-pull-request), or [merge](/docs/collaborating-in-postman/using-version-control/reviewing-pull-requests/#merging-changes-from-a-pull-request) the pull request.
+[Postman notifies the reviewers](/docs/collaborating-in-postman/using-version-control/reviewing-pull-requests/#reviewing-pull-requests) you selected about your pull request. You will receive a notification if the reviewers [comment on](/docs/collaborating-in-postman/using-version-control/reviewing-pull-requests/#adding-comments), [approve](/docs/collaborating-in-postman/using-version-control/reviewing-pull-requests/#approving-a-pull-request), or [merge](/docs/collaborating-in-postman/using-version-control/reviewing-pull-requests/#merging-changes-from-a-pull-request) the pull request.
 
 > A reviewer must have an Editor role for the element to merge changes. If you add a user who doesn't have Editor access as a reviewer, there will be a warning icon next to their name.
 >
