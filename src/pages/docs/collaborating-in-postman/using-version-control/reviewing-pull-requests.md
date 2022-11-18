@@ -122,7 +122,7 @@ You can keep your forked collections and environments up to date with any change
 
 To pull updates from a parent element during the pull request process, do the following:
 
-1. [Open the pull request.](/docs/collaborating-in-postman/using-version-control/creating-pull-requests/#creating-pull-requests) Postman will warn you that the parent element has changed since you last updated it.
+1. [Create the pull request.](/docs/collaborating-in-postman/using-version-control/creating-pull-requests/#creating-pull-requests) Postman will warn you that the parent element has changed since you last updated it.
 1. Select **Pull Changes** to update your fork with the changes to the parent element.
 
     ![Pull recent changes](https://assets.postman.com/postman-docs/v10/pr-pull-changes-v10.jpg)
