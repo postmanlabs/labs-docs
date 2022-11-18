@@ -107,7 +107,7 @@ If you're exposing an API for public use, Postman can support developer onboardi
 * [Publishing documentation](/docs/publishing-your-api/documenting-your-api/)
 * [Using Run in Postman](/docs/publishing-your-api/run-in-postman/introduction-run-button/)
 
-### Postman Flows
+### Creating API workflows
 
 If you're creating an API workflow, you can use Postman Flows:
 
