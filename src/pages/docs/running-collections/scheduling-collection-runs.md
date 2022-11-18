@@ -7,6 +7,13 @@ contextual_links:
   - type: link
     name: "Using the Collection Runner"
     url: "/docs/running-collections/intro-to-collection-runs/"
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Blog Posts"
+  - type: link
+    name: "Automate Your API Testing by Scheduling Your Collection Runs on Postman"
+    url: "https://blog.postman.com/automate-your-api-testing-by-scheduling-your-collection-runs-on-postman/"
 
 warning: false
 

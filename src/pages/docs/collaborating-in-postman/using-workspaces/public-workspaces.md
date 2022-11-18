@@ -29,8 +29,8 @@ contextual_links:
     name: "Increasing Adoption of an API with a Public Workspace"
     url: "https://blog.postman.com/increasing-adoption-of-an-api-with-a-public-workspace/"
   - type: link
-    name: "Introducing Public Workspace Summary Emails"
-    url: "https://blog.postman.com/introducing-public-workspace-summary-emails/"
+    name: "Top 25 API Onboarding Experiences"
+    url: "https://blog.postman.com/top-25-api-onboarding-experiences/"
   - type: subtitle
     name: "Case Studies"
   - type: link

@@ -25,14 +25,14 @@ contextual_links:
   - type: subtitle
     name: "Blog Posts"
   - type: link
+    name: "Exploring Public APIs and the Public API Network"
+    url: "https://blog.postman.com/exploring-public-apis-and-public-api-network/"
+  - type: link
     name: "The Most Popular Collection in the Postman API Network"
     url: "https://blog.postman.com/the-most-popular-collection-in-the-postman-api-network/"
   - type: link
-    name: "Empower Your Business with These Payments APIs"
-    url: "https://blog.postman.com/empower-your-business-with-these-payments-apis/"
-  - type: link
-    name: "Build Software Faster with These Productivity APIs"
-    url: "https://blog.postman.com/build-software-faster-with-productivity-apis/"
+    name: "Top 25 API Onboarding Experiences"
+    url: "https://blog.postman.com/top-25-api-onboarding-experiences/"
   - type: section
     name: "Next Steps"
   - type: link
