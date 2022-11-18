@@ -257,53 +257,85 @@ class Header extends React.Component {
               className={`collapse navbar-collapse${!visibleHelloBar ? ' noBar' : ''
                 }`}
             >
-              {console.info('DATA  items =====>', data.items)}
+              {/* {console.info('DATA  items =====>', data.items)} */}
               <ul className="navbar-nav mr-auto">
-              { data && data.items.map(item => (
-                <li className="nav-item dropdown">
-                  {console.info('subitems in map =====>', item.subItems)}
-                  {console.info('title of subitems in map =====>', item.title)}
-                <a
-                  className="nav-link dropdown-toggle"
-                  href="##"
-                  id="navbarDropdownMenuLink"
-                  data-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  {item.title}
-                  <svg
-                    className="arrow-icon"
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="12"
-                    height="12"
-                    viewBox="0 0 12 12"
-                    fill="#6b6b6b"
-                  >
-                    <g>
-                      <path d="M10.375,3.219,6,6.719l-4.375-3.5A1,1,0,1,0,.375,4.781l5,4a1,1,0,0,0,1.25,0l5-4a1,1,0,0,0-1.25-1.562Z" />
-                    </g>
-                  </svg>
-                </a>
-                {console.log('undefined ? ', item.subItems !== 'undefined')}
-                {/* { item.subItems !== 'undefined' && (<DropdownStyles
-                  className="dropdown-menu"
-                  aria-labelledby="navbarDropdownMenuLink"
-                >
-                {item.subItems.map(dropdown => (
-                  <a
-                    className="dropdown-item"
-                    href={dropdown.url}
-                  >
-                    {dropdown.title}
-                  </a>
-                ))}
-                </DropdownStyles>
-                )
-                } */}
-              </li>
-      
-              )) } 
-              </ul>
+              { data.items.map((item) => (
+                 item.subItems && item.subItems !== 'undefined' ? (
+                    <li className="nav-item dropdown" key={item.title}>
+                      {/* {console.info('subitems in map =====>', item.subItems)} */}
+                      {/* {console.info('title of subitems in map =====>', item.title)} */}
+                      <a
+                        className="nav-link dropdown-toggle"
+                        href="##"
+                        id="navbarDropdownMenuLink"
+                        data-toggle="dropdown"
+                        aria-expanded="false"
+                        key={item.title}
+                      >
+                        {item.title}
+                        <svg
+                          className="arrow-icon"
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="12"
+                          height="12"
+                          viewBox="0 0 12 12"
+                          fill="#6b6b6b"
+                        >
+                          <g>
+                            <path d="M10.375,3.219,6,6.719l-4.375-3.5A1,1,0,1,0,.375,4.781l5,4a1,1,0,0,0,1.25,0l5-4a1,1,0,0,0-1.25-1.562Z" />
+                          </g>
+                        </svg>
+                      </a>
+                      <DropdownStyles
+                          className="dropdown-menu"
+                          aria-labelledby="navbarDropdownMenuLink"
+                        >
+                           {/* {console.log('IS THERE A SUBITEM?', item.subItems)} */}
+                           {item.subItems && item.subItems.map((col) => (
+                              col.subItemsCol && col.subItemsCol ? (
+                                <DropdownStyles
+                                  className="dropdown-menu"
+                                  aria-labelledby="navbarDropdownMenuLink"
+                                >
+                                  <div className="row dropdown-col-menu">
+                                    <div className="col-sm-6 col-md-4 dropdown-col">
+                                      <h6 className="dropdown-header">Learning</h6>
+                                      {console.log('INSIDE subITEMSCOL ====>', col)}
+                                      <a
+                                        className="dropdown-item"
+                                        href="/docs/getting-started/introduction/"
+                                      >
+                                        Docs
+                                      </a>
+                                    </div>
+                                  </div>
+                                </DropdownStyles>
+                                ) : (
+                                <a
+                                  className="dropdown-item"
+                                  href={col.url}
+                                  key={col.title}
+                                >
+                                  {col.title}
+                                </a>
+                              )
+                           ))}
+                        </DropdownStyles>
+                    </li>
+                  ) : (
+                    <li className="nav-item" key={item.title}>
+                      <a 
+                        className="nav-link" 
+                        href={item.url} 
+                        key={item.title}>
+                        {item.title}
+                      </a>
+                    </li>
+                  )
+               )
+              )
+            }; 
+            </ul>
 
               {/* <ul className="navbar-nav mr-auto">
                 <li className="nav-item dropdown">
