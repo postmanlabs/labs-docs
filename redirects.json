@@ -1,14 +1,6 @@
 [
     {
-        "from": "/postman-flows/",
-        "to": "/postman-flows/getting-started/flows-overview/"
-    },
-    {
-        "from": "/postman-flows/getting-started/",
-        "to": "/postman-flows/getting-started/flows-overview/"
-    },
-    {
-        "from": "/postman-flows/core-concepts/",
-        "to": "/postman-flows/core-concepts/blocks/"
+        "from": "/labs/postman-flows/getting-started/flows-overview/",
+        "to": "https://learning.postman.com/docs/postman-flows/flows-intro/flows-overview/"
     }
 ]
