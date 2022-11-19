@@ -27,11 +27,11 @@ Every block has either an input, output, or both. You can pass a message packet 
 
 3. **Send event input** - Starts running the block when this port receives an input.
 
-4. **Environment** - Which Postman Environment to use.
+4. **Environment** - Which Postman environment to use.
 
 5. **Body Type** - Schema the request uses.
 
-6. **Variables** - The variables that are either provided in the Flow or from the environment.
+6. **Variables** - The variables that are either provided in the flow or from the environment.
 
 7. **Success** - When the block returns a successful status code it emits the response data.
 
