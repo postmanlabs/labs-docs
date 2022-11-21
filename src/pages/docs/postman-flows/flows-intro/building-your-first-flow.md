@@ -36,25 +36,33 @@ This flow requires a single GET call.
 
 ## Checking for the next page of results
 
-Create another select block and this time enter `/body/next` which will give us the link to the next set of 200 results. This will then go into an evaluate block where it can be assigned to the variable `has_next` and compared to see if it exists (if it is null that means this was the last set of Pokémon).
+1. Create another select block and enter `/body/next` to get the link to the next set of 200 results.
+1. Create an evaluate block.
+1. Assign it to the variable `has_next` to see if it exists. If it is null that means this was the last set.
 
 ![Evaluate has_next](https://assets.postman.com/postman-labs-docs/building-your-first-flow/first-check-for-next-result.gif)
 
 ## Using an if block to branch based on has_next being null
 
-The evaluate block outputs if `has_next` is null; now that has to change the behavior of the Flow. The output of evaluate is either true or false, which determines which branch the if block uses. Another connection from the select block will allow the URL of the next set of Pokémon which will be needed in the next step.
+In this example, the evaluate block outputs `true` if `has_next` is not null, or `false` if `has_next` is null.
+
+1. Create an if block. The evaluate block sends either true or false, which determines which branch the if block uses.
+1. Connect the select block to the if block. The select block sends the URL of the next set of Pokémon, used in the next step.
 
 ![If block](https://assets.postman.com/postman-labs-docs/building-your-first-flow/first-if-block.gif)
 
 ## Calling the request with the next URL
 
-If `has_next` was not null, then there is another set of Pokémon to get which means calling the send request block again, but this time with the new URL that was specified in `/body/next`. Two new connections need to be made, one to pass in the new URL to the `URL` variable, and one to trigger the send event port of the block so it runs again.
+In this example, `has_next` was not null, so there is another set of Pokémon to get. Postman Flows calls the send request block again with the URL specified in `/body/next`.
+
+1. Connect the if block's TRUE output to the Send Request block's URL port. This passes the new `URL` variable to the Send Request block.
+1. Connect the if block's FALSE output to the Send Request block's Send port. This triggers the send event port of the block so it runs again.
 
 ![Calling the send request again](https://assets.postman.com/postman-labs-docs/building-your-first-flow/first-next-url.gif)
 
 ## Watching it run
 
-After the above steps are completed, the Flow will run and log all the Pokémon to the console.
+After the above steps are completed, the flow runs and logs all the Pokémon to the console.
 
 ![Watching it run](https://assets.postman.com/postman-labs-docs/building-your-first-flow/watching-flow-run.gif)
 
