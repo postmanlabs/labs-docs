@@ -3,25 +3,34 @@ title: "Building your first Flow"
 updated: 2022-11-17
 ---
 
-For your first Flow, this topic will walk you through calling the Pokémon API and printing out the list to the console. The Pokémon API returns over a thousand results so this Flow will print two hundred at a time to the console.
+For your first flow, this topic will walk you through calling the Pokémon API and printing out the list to the console. The Pokémon API returns over a thousand results so this Flow will print two hundred at a time to the console.
 
 <!--TODO: Contents. Number steps in headings? -->
 
 ## Creating your API request
 
-For this Flow, there is one required request to prepare, which is a GET call. After creating a new Collection and making your request, run it once with the URL `https://pokeapi.co/api/v2/pokemon?limit=200` and save the request as an example so that Flows can automatically detect the structure for easier access later.
+This flow requires a single GET call.
 
-![Building your Request](https://assets.postman.com/postman-labs-docs/building-your-first-flow/first-api-request.gif)
+1. Create a new collection and add a request.
+1. Run the request once with the URL `https://pokeapi.co/api/v2/pokemon?limit=200`.
+1. Save the request as an example so that Postman Flows can automatically detect the structure for easier access later.
+
+![Building your request](https://assets.postman.com/postman-labs-docs/building-your-first-flow/first-api-request.gif)
 
 ## Making your first send request
 
-Connect the start block to the send request block, then select the request that was created earlier and add a string block to connect to the URL variable.
+1. Connect the start block to the send request block.
+1. Select the request you created earlier.
+1. Add a string block to connect to the URL variable.
 
-![Making your first Send Request](https://assets.postman.com/postman-labs-docs/building-your-first-flow/first-send-request.gif)
+![Making your first send request](https://assets.postman.com/postman-labs-docs/building-your-first-flow/first-send-request.gif)
 
 ## Logging the output to the console
 
-Create a select block. Because we saved an example earlier, the structure of the returned data will auto-populate in the block and `/body/results` can be selected and sent to the log block where the results can be seen in the console section.
+1. Create a select block.
+    > Because we saved an example earlier, the structure of the returned data will auto-populate in the block.
+1. Select `/body/results`.
+1. View the results in the log block.
 
 ![Log results to console](https://assets.postman.com/postman-labs-docs/building-your-first-flow/first-log-to-console.gif)
 
