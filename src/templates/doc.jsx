@@ -348,18 +348,20 @@ const DocPage = ({ data }) => {
                 <EditDoc />
                 <DisplayContextualLinks data={data} />
                 <div className="sticky">
-                  <p> <span className="font-weight-bold">Postman Newsletter</span> <br></br>
-                      Subscribe for product updates, API best practices
+                  <p> 
+                    <span className="font-weight-bold">Postman Newsletter</span> 
+                    <br></br>
+                    Subscribe for product updates, API best practices.
+                    <br></br>
+                    <BaseLink 
+                      className="sticky"
+                      href="https://www.postman.com/newsletter-signup/"
+                      target="same-tab"
+                      linkType="arrowLink"
+                      >
+                        Sign up
+                    </BaseLink>
                   </p>
-                  <p></p>
-                  <BaseLink 
-                    className="sticky"
-                    href="https://www.postman.com/newsletter-signup/"
-                    target="same-tab"
-                    linkType="arrowLink"
-                    >
-                      Sign up
-                  </BaseLink>
                   <figure className="postmanaut-dab mt-1">
                     <img src="https://voyager.postman.com/illustration/postmanaut-posing-dancing-postman-illustration.svg" alt="Posmanaut dancing. Illustration." className="img-fluid" />
                   </figure>
