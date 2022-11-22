@@ -25,7 +25,7 @@ The [blocks](../blocks/) available in Postman Flows are described below.
 
 * **Get Variable**
 
-  Retrieves the value of a previously-assigned variable.
+  Retrieves the value of an assigned variable.
 
 * **Create Variable**
 
@@ -46,7 +46,7 @@ The [blocks](../blocks/) available in Postman Flows are described below.
 * **Date**
 
   Emits the specified date.
-
+<!-- vale Postman.Avoid = NO -->
 * **Now**
 
   Emits the current date and time.
@@ -66,7 +66,7 @@ The [blocks](../blocks/) available in Postman Flows are described below.
 * **Number**
 
   A whole or decimal number.
-
+<!-- vale Postman.Spelling = NO -->
 * **Bool**
 
   True or False.
