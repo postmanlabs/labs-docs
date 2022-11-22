@@ -15,7 +15,7 @@ import { useModal } from '../components/modules/Modal';
 import PreviousAndNextLinks from '../components/modules/PreviousAndNextLinks';
 import BreadCrumbsLinks from '../components/modules/BreadCrumbsLinks';
 import LoadQualtrics from '../components/modules/loadQualtrics';
-import { BaseLinkStyles  } from 'aether-marketing';
+import { BaseLinkStyles, BaseLink } from 'aether-marketing';
 
 const DocWrapper = styled.div`
   /* Used for Deeplinking */   
@@ -271,7 +271,7 @@ const RightColumnWrapper = styled.aside`
   top: 160px;
 }
 
-.posmanaut-dab {
+.postmanaut-dab {
   max-width: 250px;
 }
 `
@@ -347,9 +347,23 @@ const DocPage = ({ data }) => {
                 <hr className="d-block d-lg-none" />
                 <EditDoc />
                 <DisplayContextualLinks data={data} />
-                <figure className="sticky posmanaut-dab">
-                  <img src="https://voyager.postman.com/illustration/postmanaut-posing-dancing-postman-illustration.svg" alt="Posmanaut dancing. Illustration." className="img-fluid" />
-                </figure>
+                <div className="sticky">
+                  <p> <span className="font-weight-bold">Postman Newsletter</span> <br></br>
+                      Subscribe for product updates, API best practices
+                  </p>
+                  <p></p>
+                  <BaseLink 
+                    className="sticky"
+                    href="https://www.postman.com/newsletter-signup/"
+                    target="same-tab"
+                    linkType="arrowLink"
+                    >
+                      Sign up
+                  </BaseLink>
+                  <figure className="postmanaut-dab mt-1">
+                    <img src="https://voyager.postman.com/illustration/postmanaut-posing-dancing-postman-illustration.svg" alt="Posmanaut dancing. Illustration." className="img-fluid" />
+                  </figure>
+                </div>
               </RightColumnWrapper>
             </div>
           </div>
