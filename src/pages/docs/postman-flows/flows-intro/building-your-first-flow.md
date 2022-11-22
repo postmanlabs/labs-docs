@@ -3,9 +3,17 @@ title: "Building your first Flow"
 updated: 2022-11-17
 ---
 
-For your first flow, this topic will walk you through calling the Pokémon API and printing out the list to the console. The Pokémon API returns over a thousand results so this Flow will print two hundred at a time to the console.
+This topic walks you through your first flow, calling the Pokémon API and printing out the list to the console. The Pokémon API returns over 1,000 results and this flow will print two hundred at a time to the console.
 
-<!--TODO: Contents. Number steps in headings? -->
+## Contents
+
+* [Creating your API request](#creating-your-api-request)
+* [Making your first send request](#making-your-first-send-request)
+* [Logging the output to the console](#logging-the-output-to-the-console)
+* [Checking for the next page of results](#checking-for-the-next-page-of-results)
+* [Using an **If** block to branch based on has_next being null](#using-an-if-block-to-branch-based-on-has_next-being-null)
+* [Calling the request with the next URL](#calling-the-request-with-the-next-url)
+* [Watching it run](#watching-it-run)
 
 ## Creating your API request
 
@@ -42,11 +50,11 @@ This flow requires a single GET call.
 
 ![Evaluate has_next](https://assets.postman.com/postman-labs-docs/building-your-first-flow/first-check-for-next-result.gif)
 
-## Using an **If** block to branch based on has_next being null
+## Using an If block to branch based on has_next being null
 
 In this example, the **Evaluate** block outputs `true` if `has_next` is not null, or `false` if `has_next` is null.
 
-1. Create an **If** block. The **Evaluate** block sends either true or false, which determines which branch the **If** block uses.
+1. Create an **If** block. The **Evaluate** block sends either `true` or `false`, which determines which branch the **If** block uses.
 1. Connect the **Select** block to the **If** block. The **Select** block sends the URL of the next set of Pokémon, used in the next step.
 
 ![**If** block](https://assets.postman.com/postman-labs-docs/building-your-first-flow/first-if-block.gif)
