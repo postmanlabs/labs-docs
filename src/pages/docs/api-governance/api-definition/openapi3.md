@@ -24,7 +24,7 @@ search_keyword: "api security, api schema, security warnings, schema validation,
 
 You can use Postman to identify any potential security and formatting issues when defining your API.
 
-<img alt="OpenAPI 3.0 rule violations" src="https://assets.postman.com/postman-docs/v10/api-definition-rule-violations-openapi3-v10.1.jpg" />
+<img alt="OpenAPI 3.0 rule violations" src="https://assets.postman.com/postman-docs/v10/api-definition-rule-violations-openapi3-v10.1.jpg" /> <!-- TODO: screenshot -->
 
 ### Warnings for OpenAPI 3.0
 
