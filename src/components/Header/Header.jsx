@@ -211,9 +211,6 @@ class Header extends React.Component {
   }
   /* eslint-enable class-methods-use-this */
 
-  // ScrollWrap = ({ condition, renderWrapper, children }) => {
-  //   condition ? renderWrapper(children) : children; }
-
   render() {
     const {
       beta, visibleHelloBar, cookie, hidden, data
@@ -260,13 +257,11 @@ class Header extends React.Component {
               className={`collapse navbar-collapse${!visibleHelloBar ? ' noBar' : ''
                 }`}
             >
-              {/* {console.info('DATA  items =====>', data.items)} */}
+              {/* Primary Navbar */}
               <ul className="navbar-nav mr-auto">
-              { data.items.map((item) => (
-                 item.subItems && item.subItems !== 'undefined' ? (
+              {data.items.map((item) => (
+                 item.dropdown && item.dropdown && (
                     <li className="nav-item dropdown" key={item.title}>
-                      {/* {console.info('subitems in map =====>', item.subItems)} */}
-                      {/* {console.info('title of subitems in map =====>', item.title)} */}
                       <a
                         className="nav-link dropdown-toggle"
                         href="##"
@@ -289,50 +284,38 @@ class Header extends React.Component {
                           </g>
                         </svg>
                       </a>
-                    
-                    {console.log('item', item, '===>',Object.keys('subItemsCol'))}
                        <DropdownStyles
                             className="dropdown-menu"
                             aria-labelledby="navbarDropdownMenuLink"
                           >
+                            { item.columns && item.columns && 
                             <div className="row dropdown-col-menu">
-                           
-                           {item.subItems && item.subItems.map((col) => (
-                              col.subItemsCol && col.subItemsCol ? (
-                                // <p>Boom</p>
-                                // <DropdownStyles
-                                //   className="dropdown-menu"
-                                //   aria-labelledby="navbarDropdownMenuLink"
-                                // >
-                                  // <p>Boom</p>
-                                  // <div className="row dropdown-col-menu">
-                                    <div className="col-sm-6 col-md-4 dropdown-col">
-                                      <h6 className="dropdown-header">{col.title}</h6>
-                                      {col.subItemsCol.map((link) => (
-                                        <a
-                                          className="dropdown-item"
-                                          href={link.url}
-                                        >
-                                          {link.title}
-                                        </a>
-                                      ))}
-                                    </div>
-                                  // </div>
-                                // </DropdownStyles>
-                                ) : (
-                                <a
-                                  className="dropdown-item"
-                                  href={col.url}
-                                  key={col.title}
-                                >
-                                  {col.title}
-                                </a>
-                              )
-                           ))}
-                          </div>
+                              { item.columns.map((col) => (
+                                <div className="col-sm-6 col-md-4 dropdown-col">
+                                  <h6 className="dropdown-header">{col.title}</h6>
+                                  {col.subItemsCol.map((link) => (
+                                    <a
+                                      className="dropdown-item"
+                                      href={link.url}
+                                      key={link.title}
+                                    >
+                                      {link.title}
+                                    </a>
+                                  ))}
+                                </div>
+                             ))}
+                            </div> || item.subItems.map((single) => (
+                            <a
+                              className="dropdown-item"
+                              href={single.url}
+                              key={single.title}
+                            >
+                              {single.title}
+                            </a>
+                          ))}
                           </DropdownStyles>
                     </li>
-                  ) : (
+                  ) || (
                     <li className="nav-item" key={item.title}>
                       <a 
                         className="nav-link" 
@@ -346,281 +329,7 @@ class Header extends React.Component {
               )
             }
             </ul>
-
-              {/* <ul className="navbar-nav mr-auto">
-                <li className="nav-item dropdown">
-                  <a
-                    className="nav-link dropdown-toggle"
-                    href="##"
-                    id="navbarDropdownMenuLink"
-                    data-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    {data.items[0].title}
-                    <svg
-                      className="arrow-icon"
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="12"
-                      height="12"
-                      viewBox="0 0 12 12"
-                      fill="#6b6b6b"
-                    >
-                      <g>
-                        <path d="M10.375,3.219,6,6.719l-4.375-3.5A1,1,0,1,0,.375,4.781l5,4a1,1,0,0,0,1.25,0l5-4a1,1,0,0,0-1.25-1.562Z" />
-                      </g>
-                    </svg>
-                  </a>
-                  <DropdownStyles
-                    className="dropdown-menu"
-                    aria-labelledby="navbarDropdownMenuLink"
-                  >
-                    <a
-                      className="dropdown-item"
-                      href="https://www.postman.com/product/what-is-postman/"
-                    >
-                      What is Postman?
-                    </a>
-                    <a
-                      className="dropdown-item"
-                      href="https://www.postman.com/product/api-repository/"
-                    >
-                      API repository
-                    </a>
-                    <a
-                      className="dropdown-item"
-                      href="https://www.postman.com/product/tools/"
-                    >
-                      Tools
-                    </a>
-                    <a
-                      className="dropdown-item"
-                      href="https://www.postman.com/product/governance/"
-                    >
-                      Governance
-                    </a>
-                    <a
-                      className="dropdown-item"
-                      href="https://www.postman.com/product/workspaces/"
-                    >
-                      Workspaces
-                    </a>
-                    <a
-                      className="dropdown-item"
-                      href="https://www.postman.com/product/integrations/"
-                    >
-                      Integrations
-                    </a>
-                    <a
-                      className="dropdown-item app-cta"
-                      href="https://www.postman.com/downloads/"
-                    >
-                      Get started free →
-                    </a>
-                  </DropdownStyles>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="https://www.postman.com/pricing/">
-                    Pricing
-                  </a>
-                </li>
-                <li className="nav-item dropdown">
-                  <a
-                    className="nav-link dropdown-toggle"
-                    href="##"
-                    id="navbarDropdownMenuLink"
-                    data-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    Enterprise
-                    <svg
-                      className="arrow-icon"
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="12"
-                      height="12"
-                      viewBox="0 0 12 12"
-                      fill="#6b6b6b"
-                    >
-                      <g>
-                        <path d="M10.375,3.219,6,6.719l-4.375-3.5A1,1,0,1,0,.375,4.781l5,4a1,1,0,0,0,1.25,0l5-4a1,1,0,0,0-1.25-1.562Z" />
-                      </g>
-                    </svg>
-                  </a>
-                  <DropdownStyles
-                    className="dropdown-menu"
-                    aria-labelledby="navbarDropdownMenuLink"
-                  >
-                    <a
-                      className="dropdown-item"
-                      href="https://www.postman.com/postman-enterprise/"
-                    >
-                      Postman Enterprise
-                    </a>
-                    <a
-                      className="dropdown-item"
-                      href="https://www.postman.com/case-studies/"
-                    >
-                      Enterprise case studies
-                    </a>
-                    <a
-                      className="dropdown-item"
-                      href="https://www.postman.com/company/contact-sales/"
-                    >
-                      Contact sales
-                    </a>
-                  </DropdownStyles>
-                </li>
-                <li className="nav-item dropdown">
-                  <a
-                    className="nav-link dropdown-toggle"
-                    href="##"
-                    id="navbarDropdownMenuLink"
-                    data-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    Resources and support
-                    <svg
-                      className="arrow-icon"
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="12"
-                      height="12"
-                      viewBox="0 0 12 12"
-                      fill="#6b6b6b"
-                    >
-                      <g>
-                        <path d="M10.375,3.219,6,6.719l-4.375-3.5A1,1,0,1,0,.375,4.781l5,4a1,1,0,0,0,1.25,0l5-4a1,1,0,0,0-1.25-1.562Z" />
-                      </g>
-                    </svg>
-                  </a>
-                  <DropdownStyles
-                    className="dropdown-menu"
-                    aria-labelledby="navbarDropdownMenuLink"
-                  >
-                    <div className="row dropdown-col-menu">
-                      <div className="col-sm-6 col-md-4 dropdown-col">
-                        <h6 className="dropdown-header">Learning</h6>
-                        <a
-                          className="dropdown-item"
-                          href="/docs/getting-started/introduction/"
-                        >
-                          Docs
-                        </a>
-                        
-                        <a
-                          className="dropdown-item"
-                          href="https://www.postman.com/events/breaking-changes/"
-                        >
-                          Breaking Changes show
-                        </a>
-                        <a
-                          className="dropdown-item"
-                          href="https://www.postman.com/events/intergalactic/"
-                        >
-                          Postman Intergalactic
-                        </a>
-                        <a
-                          className="dropdown-item"
-                          href="https://www.postman.com/case-studies/"
-                        >
-                          Case studies
-                        </a>
-                        <a
-                          className="dropdown-item"
-                          href="https://www.postman.com/state-of-api/"
-                        >
-                          State of the API report
-                        </a>
-                        <a
-                          className="dropdown-item"
-                          href="https://www.postman.com/api-first/"
-                        >
-                          Guide to API-First
-                        </a>
-                      </div>
-                      <div className="col-sm-6 col-md-4 dropdown-col">
-                        <h6 className="dropdown-header">Community and events</h6>
-                        <a
-                          className="dropdown-item"
-                          href="https://blog.postman.com/"
-                        >
-                          Blog
-                        </a>
-                        <a
-                          className="dropdown-item"
-                          href="https://www.postman.com/community/"
-                        >
-                          Community
-                        </a>
-                        <a
-                          className="dropdown-item"
-                          href="https://www.postman.com/company/student-program/"
-                        >
-                          Student program
-                        </a>
-                        <a
-                          className="dropdown-item"
-                          href="https://www.postman.com/company/student-program/student-summit/"
-                        >
-                          Student Summit
-                        </a>
-                        <a
-                          className="dropdown-item"
-                          href="https://www.postman.com/company/nonprofit/"
-                        >
-                          Postman for Nonprofits
-                        </a>
-                        <a
-                          className="dropdown-item"
-                          href="https://store.postman.com/"
-                          target="_blank"
-                          rel="noreferrer"
-                        >
-                          Postman swag
-                        </a>
-                      </div>
-                      <div className="col-sm-6 col-md-4 dropdown-col">
-                        <h6 className="dropdown-header">Support</h6>
-                        <a
-                          className="dropdown-item"
-                          href="https://www.postman.com/support/"
-                        >
-                          Support Center
-                        </a>
-                        <a
-                          className="dropdown-item"
-                          href="https://www.postman.com/support/resellers-support/"
-                        >
-                          Reseller support
-                        </a>
-                        <a
-                          className="dropdown-item"
-                          href="https://status.postman.com/"
-                          target="_blank"
-                          rel="noreferrer"
-                        >
-                          Postman status
-                        </a>
-                        <a
-                          className="dropdown-item"
-                          href="https://www.postman.com/downloads/release-notes/"
-                        >
-                          Release notes
-                        </a>
-                        <a
-                          className="dropdown-item"
-                          href="https://www.postman.com/company/contact-us/"
-                        >
-                          Contact us
-                        </a>
-                      </div>
-                    </div>
-                  </DropdownStyles>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="https://www.postman.com/explore">
-                    Explore
-                  </a>
-                </li>
-              </ul> */}
+            {/* Login Check */}
               <div className="form-inline my-2 my-lg-0">
                 <LoginCheck
                   hidden={hidden}
