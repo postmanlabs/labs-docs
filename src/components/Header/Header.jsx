@@ -306,7 +306,7 @@ class Header extends React.Component {
                              ))}
                             </div> || item.subItems.map((single) => (
                             <a
-                              className="dropdown-item"
+                              className={`${single.link ? 'app-cta' : ''} dropdown-item`}
                               href={single.url}
                               key={single.title}
                             >

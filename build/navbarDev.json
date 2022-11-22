@@ -32,6 +32,7 @@
                 },
                 {
                     "title": "Get started for Free ->",
+                    "link": "app-cta",
                     "url": "https://www.postman.com/downloads/"
                 }
             ]
