@@ -45,11 +45,11 @@ The [blocks](../blocks/) available in Postman Flows are described below.
 
 * **Date**
 
-  Emits the specified date.
-<!-- vale Postman.Avoid = NO -->
+  Emits the specified date.<!-- vale Postman.Avoid = NO -->
+
 * **Now**
 
-  Emits the current date and time.
+  Emits the current date and time.<!-- vale Postman.Avoid = YES -->
 
 * **Select**
 
@@ -65,11 +65,11 @@ The [blocks](../blocks/) available in Postman Flows are described below.
 
 * **Number**
 
-  A whole or decimal number.
-<!-- vale Postman.Spelling = NO -->
+  A whole or decimal number.<!-- vale Postman.Spelling = NO -->
+
 * **Bool**
 
-  True or False.
+  True or False.<!-- vale Postman.Spelling = YES -->
 
 * **String**
 
