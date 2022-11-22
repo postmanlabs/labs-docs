@@ -3,7 +3,7 @@ title: "Using Flows webhooks"
 updated: 2022-11-17
 ---
 
-To create a Flow that executes on the Postman servers, create a webhook endpoint.
+To create a flow that executes on the Postman servers, create a webhook endpoint.
 
 ![Webhook Endpoint](https://assets.postman.com/postman-labs-docs/cloud-execution/remote-execution-setting-up-endpoint.gif)
 
@@ -13,7 +13,7 @@ To create a Flow that executes on the Postman servers, create a webhook endpoint
 * [Create a release](#create-a-release)
 * [Trigger the webhook](#trigger-the-webhook)
 
-## Testing Flows locally
+## Testing flows locally
 
 Before starting, enter your test data and run it to see the output on your local console.
 

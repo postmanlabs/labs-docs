@@ -3,7 +3,7 @@ title: "Building your first Flow"
 updated: 2022-11-17
 ---
 
-This topic walks you through your first flow, calling the Pokémon API and printing out the list to the console. The Pokémon API returns over 1,000 results and this flow will print two hundred at a time to the console.
+This page walks you through your first flow, calling the Pokémon API and printing out the list to the console. The Pokémon API returns over 1,000 results and this flow will print two hundred at a time to the console.
 
 ## Contents
 
