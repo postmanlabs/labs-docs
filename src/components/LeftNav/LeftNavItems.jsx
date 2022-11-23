@@ -358,7 +358,7 @@ export const leftNavItems = [
     ],
   },
   {
-    name: 'Postman Flows',
+    name: 'Using Postman Flows',
     parentSlug: 'postman-flows',
     url: '/docs/postman-flows/flows-intro/flows-overview/',
     subMenuItems1: [
