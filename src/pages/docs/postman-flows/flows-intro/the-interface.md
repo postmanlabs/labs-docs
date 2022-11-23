@@ -50,7 +50,7 @@ The context bar is the place where you'll see more information about your Flow a
 
 * **Element info**
 
-  You can see the specification for the block that you've clicked on here. It contains the input, output, and variable descriptions.
+  You can see the specification for the selected block here. It has the input, output, and variable descriptions.
 
   ![Element Info](https://assets.postman.com/postman-labs-docs/interface/updated-interface-element-info.gif)
 
