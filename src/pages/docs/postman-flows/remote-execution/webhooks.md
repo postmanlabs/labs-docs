@@ -21,7 +21,7 @@ Before starting, enter your test data and run it to see the output on your local
 
 ## Create a release
 
-Select **Release** and give your release a meaningful name. It's now running in the cloud. Toggling **Observe** will enable you to see the logs and flow of data live.
+Select **Release** and give your release a meaningful name. Your release is running in the cloud. Toggling **Observe** will enable you to see the logs and flow of data live.
 
 > **Important**
 >
@@ -31,6 +31,6 @@ Select **Release** and give your release a meaningful name. It's now running in 
 
 ## Trigger the webhook
 
-Make a POST request to trigger the webhook endpoint and your flow is now running in the cloud.
+Make a POST request to trigger the webhook endpoint. Your flow is running in the cloud.
 
 ![Trigger the Endpoint](https://assets.postman.com/postman-labs-docs/cloud-execution/remote-execution-running-in-cloud.gif)
