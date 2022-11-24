@@ -131,7 +131,7 @@ At the element level, you can assign roles to team members that decide their lev
 
 ### Collection roles
 
-You can [assign](/docs/administration/managing-your-team/managing-your-team/) two role types in Postman collections: **Editor** and **Viewer**.
+You can assign two role types in Postman collections: **Editor** and **Viewer**.
 
 * **Editor** - Can edit collections directly
 * **Viewer** - Can view, fork, and export collections
@@ -153,7 +153,7 @@ The following roles control access at a collection level:
 
 ### API roles
 
-You can [assign](/docs/administration/managing-your-team/managing-your-team/) two role types in Postman APIs: **Editor** and **Viewer**.
+You can assign two role types in Postman APIs: **Editor** and **Viewer**.
 
 * **Editor** - Can edit APIs directly
 * **Viewer** - Can view and export APIs
@@ -178,7 +178,7 @@ The following roles control access at an API level:
 
 ## Environment roles
 
-You can [assign](/docs/administration/managing-your-team/managing-your-team/) two role types for Postman environments: **Editor** and **Viewer**.
+You can [assign](/docs/sending-requests/managing-environments/#managing-environment-roles) two role types for Postman environments: **Editor** and **Viewer**.
 
 * **Editor** - Can edit and manage environments
 * **Viewer** - Can view and use environments
@@ -196,7 +196,7 @@ Move environment | &#x2714; |
 
 ## Mock server roles
 
-You can [assign](/docs/administration/managing-your-team/managing-your-team/) two role types for Postman mock servers: **Editor** and **Viewer**.
+You can assign two role types for Postman mock servers: **Editor** and **Viewer**.
 
 * **Editor** - Can edit and manage mock servers
 * **Viewer** - Can view mock servers and associated metadata
@@ -214,7 +214,7 @@ Move mock server | &#x2714; |
 
 ## Monitor roles
 
-You can [assign](/docs/administration/managing-your-team/managing-your-team/) two role types for Postman monitors: **Editor** and **Viewer**.
+You can [assign](/docs/monitoring-your-api/faqs-monitors/#who-can-edit-my-monitors) two role types for Postman monitors: **Editor** and **Viewer**.
 
 * **Editor** - Can view monitor metadata, metrics, jobs, and runs. Can run, update, delete, pause, and resume the monitor.
 * **Viewer** - Can view monitor metadata, metrics, jobs, and runs.
