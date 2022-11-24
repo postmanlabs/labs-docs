@@ -14,7 +14,7 @@ contextual_links:
     url: "https://blog.postman.com/introducing-user-management-in-postman-with-scim/"
 ---
 
-> **[Provisioning with SCIM is only available to Postman Enterprise teams.](https://www.postman.com/pricing)**
+> **[Provisioning with SCIM is available on Postman Enterprise plans.](https://www.postman.com/pricing)**
 
 Postman supports [SCIM](https://datatracker.ietf.org/doc/html/rfc7642) (System for Cross-domain Identity Management), allowing you to automate user provisioning and de-provisioning for your team. With this feature, you can efficiently deploy Postman at scale across your organization and control access to it with your identity provider.
 

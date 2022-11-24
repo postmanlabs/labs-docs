@@ -1,6 +1,7 @@
 ---
 title: "Integrating with Postman"
 updated: 2022-04-29
+search_keyword: "whitelist, whitelist IP"
 contextual_links:
   - type: section
     name: "Prerequisites"

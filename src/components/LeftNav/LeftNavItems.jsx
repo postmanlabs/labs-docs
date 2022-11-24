@@ -278,15 +278,27 @@ export const leftNavItems = [
   {
     name: 'Running Collections',
     parentSlug: 'running-collections',
-    url: '/docs/running-collections/intro-to-collection-runs/',
+    url: '/docs/running-collections/running-collections-overview/',
     subMenuItems1: [
+      {
+        name: 'Running collections overview',
+        url: '/docs/running-collections/running-collections-overview/',
+      },
       {
         name: 'Using the Collection Runner',
         url: '/docs/running-collections/intro-to-collection-runs/',
       },
       {
-        name: 'Scheduling runs with monitors',
+        name: 'Scheduling collection runs',
         url: '/docs/running-collections/scheduling-collection-runs/',
+      },
+      {
+        name: 'Viewing scheduled collection runs',
+        url: '/docs/running-collections/viewing-scheduled-collection-runs/',
+      },
+      {
+        name: 'Scheduling collection runs with monitors',
+        url: '/docs/running-collections/scheduling-collection-runs-monitors/',
       },
       {
         name: 'Triggering runs with webhooks',
@@ -342,6 +354,101 @@ export const leftNavItems = [
             url: '/docs/running-collections/using-newman-cli/integration-with-jenkins/',
           },
         ],
+      },
+    ],
+  },
+  {
+    name: 'Postman Flows',
+    parentSlug: 'postman-flows',
+    url: '/docs/postman-flows/flows-intro/flows-overview/',
+    subMenuItems1: [
+      {
+        name: 'Getting Started',
+        subParentSlug: 'flows-intro',
+        slug: '/docs/postman-flows/flows-intro/flows-overview/',
+        subMenuItems2: [
+          {
+            name: 'Postman Flows overview',
+            url: '/docs/postman-flows/flows-intro/flows-overview/',
+          },
+          {
+            name: 'The Postman Flows interface',
+            url: '/docs/postman-flows/flows-intro/the-interface/',
+          },
+          {
+            name: 'Building your first Flow',
+            url: '/docs/postman-flows/flows-intro/building-your-first-flow/',
+          },
+          {
+            name: 'Running requests in sequence',
+            url: '/docs/postman-flows/flows-intro/running-requests-in-sequence/',
+          },
+          {
+            name: 'Chaining requests with data',
+            url: '/docs/postman-flows/flows-intro/chaining-requests-with-data/',
+          },
+        ],
+      },
+      {
+        name: 'Core concepts',
+        subParentSlug: 'core-concepts',
+        slug: '/docs/postman-flows/core-concepts/blocks/',
+        subMenuItems2: [
+          {
+            name: 'About blocks',
+            url: '/docs/postman-flows/core-concepts/blocks/',
+          },
+          {
+            name: 'About messages',
+            url: '/docs/postman-flows/core-concepts/messages/',
+          },
+          {
+            name: 'About data types',
+            url: '/docs/postman-flows/core-concepts/data-types/',
+          },
+          {
+            name: 'List of blocks',
+            url: '/docs/postman-flows/core-concepts/blocks-list/',
+          },
+        ],
+      },
+      {
+        name: 'Flows Query Language',
+        subParentSlug: 'flows-query-language',
+        slug: '/docs/postman-flows/flows-query-language/introduction-to-fql/',
+        subMenuItems2: [
+          {
+            name: 'Introduction to FQL',
+            url: '/docs/postman-flows/flows-query-language/introduction-to-fql/',
+          },
+          {
+            name: 'Getting basic values',
+            url: '/docs/postman-flows/flows-query-language/getting-basic-values/',
+          },
+          {
+            name: 'Conditional data selection',
+            url: '/docs/postman-flows/flows-query-language/conditional-data-selection/',
+          },
+          {
+            name: 'Returning structured data',
+            url: '/docs/postman-flows/flows-query-language/returning-structured-results/',
+          },
+          {
+            name: 'Data manipulation',
+            url: '/docs/postman-flows/flows-query-language/data-manipulation/',
+          },
+        ],
+      },
+      {
+        name: 'Remote Execution',
+        subParentSlug: 'webhooks',
+        slug: '/docs/postman-flows/remote-execution/webhooks/',
+        subMenuItems2: [
+          {
+            name: 'Using Flows webhooks',
+            url: '/docs/postman-flows/remote-execution/webhooks/',
+          },
+        ]
       },
     ],
   },

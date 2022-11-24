@@ -5,6 +5,11 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Security and Governance Rules for API Definitions | Postman Level Up"
+    url: "https://youtu.be/jphqpbTEDCY"
+  - type: subtitle
     name: "Blog Posts"
   - type: link
     name: "Introducing API Security in Postman v10"
@@ -22,7 +27,6 @@ contextual_links:
   - type: link
     name: "OpenAPI 2.0 rules"
     url: "/docs/api-governance/api-definition/openapi2/"
-search_keyword: "api security, api schema, security warnings, schema validation, security validation, api security audit, api security scan, api schema vulnerabilities, security audit,openapi 3.0"
 ---
 
 Postman recommends that you follow API Governance and API Security rules when you create your API definition. A rule violation doesn't mean that your API definition is broken. Instead, it indicates that there are potential security risks that your API might be vulnerable to, or potential design issues that might impact its usability. Postman highlights these rule violations and helps you understand their implications and possible ways to fix them. Postman supports API Governance and API Security rules for API definitions in [OpenAPI 3.0](/docs/api-governance/api-definition/openapi3/) and [OpenAPI 2.0](/docs/api-governance/api-definition/openapi2/) format.
@@ -52,7 +56,7 @@ To learn more about how rule violations can help you create consistent and secur
 
 ## Tracking governance and security rule violations in CI/CD
 
-> [This feature is only available for Postman Enterprise teams.](https://www.postman.com/pricing)
+> [This feature is available on Postman Enterprise plans.](https://www.postman.com/pricing)
 
 You can configure your CI/CD pipelines to enforce the [API Governance](/docs/api-governance/configurable-rules/configuring-api-governance-rules/) and [API Security](/docs/api-governance/configurable-rules/configuring-api-security-rules/) rules configured for your team with the help of [Postman CLI](/docs/postman-cli/postman-cli-overview/).
 

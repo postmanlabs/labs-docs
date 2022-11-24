@@ -2,7 +2,7 @@
 title: "Navigating Postman"
 order: 3
 page_id: "navigating_postman"
-updated: 2021-04-06
+updated: 2022-11-16
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -53,7 +53,7 @@ Postman has a variety of tools, views, and controls to help you manage your API 
     * [Environment selector and environment quick look](#environment-selector-and-environment-quick-look)
 * [Footer](#footer)
 
-<img alt="Postman app" src="https://assets.postman.com/postman-docs/v10/navigating-postman-app-overview-v10.jpg" width="1100px"/>
+<img alt="Postman app" src="https://assets.postman.com/postman-docs/v10/navigating-postman-app-overview-4-v10.jpg" width="1100px"/>
 
 ## Header
 
@@ -108,6 +108,7 @@ The Postman sidebar provides access to the fundamental elements of Postman:
 * [Environments](/docs/sending-requests/managing-environments/#creating-environments)
 * [Mock servers](/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/)
 * [Monitors](/docs/running-collections/scheduling-collection-runs/)
+* [Flows](/docs/postman-flows/flows-intro/flows-overview/)
 * [History](#history)
 
 <img alt="Sidebar focused on Collections" src="https://assets.postman.com/postman-docs/navigating-postman-sidebar-v9.15.jpg" width="350px"/>
@@ -167,6 +168,20 @@ You can set whether Postman opens requests in new tabs. Select the settings icon
 #### Saving or discarding changes
 
 If a tab has unsaved changes, Postman displays a dot next to the tab name. Select <img alt="Save icon" src="https://assets.postman.com/postman-docs/icon-save.jpg#icon" width="16px"> **Save** to save the changes. To close the tab and discard changes, select the close icon <img alt="Close icon" src="https://assets.postman.com/postman-docs/icon-close.jpg#icon" width="16px"> then select **Don't save**.
+
+#### Renaming and linking elements
+
+To rename an element, hover over the element's name in the workbench to display the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px">. Select the edit icon and enter a new name.
+
+<img alt="Rename elements" src="https://assets.postman.com/postman-docs/v10/rename-element-v10.jpg" width="300px"/>
+
+To copy a link to an element, hover over the element's name in the workbench to display the link icon <img alt="Link icon" src="https://assets.postman.com/postman-docs/icon-workspace-link-v9.jpg#icon" width="18px">. Select the link icon to copy the element's URL to your clipboard.
+
+<img alt="Copy link to elements" src="https://assets.postman.com/postman-docs/v10/copy-link-to-element-v10.jpg" width="300px"/>
+
+If the element is in a personal workspace that no one can access, a popup window will display when you select the link icon. The popup window enables you to invite people to your personal workspace before sharing the link. To invite people to your personal workspace, select **Invite People**. To learn more about inviting people to collaborate in a workspace, see [Sharing workspaces](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#sharing-workspaces).
+
+<img alt="Invite people before sharing link to element" src="https://assets.postman.com/postman-docs/v10/copy-link-to-element-invite-v10.jpg" width="300px"/>
 
 #### Viewing conflicts
 
@@ -232,9 +247,9 @@ Tool | Available for | Description
 
 The environment selector enables you to choose which [environment](/docs/sending-requests/managing-environments/) to use in your work. Select an environment from the menu to set it as the active environment, which gives you access to the variables in that environment.
 
-<img src="https://assets.postman.com/postman-docs/environment-selector-v9.13.jpg" alt="Environment selector" width="300">
+<img src="https://assets.postman.com/postman-docs/v10/environment-selector-v10.jpg" alt="Environment selector" width="200px">
 
-To check a variable value at a glance, use the quick look icon <img alt="Quick Look icon" src="https://assets.postman.com/postman-docs/eye.jpg#icon" width="16px">.
+To check a variable value at a glance, use the environment quick look icon <img alt="Environment quick look icon" src="https://assets.postman.com/postman-docs/icon-environment-quick-look.jpg#icon" width="16px">.
 
 ## Footer
 

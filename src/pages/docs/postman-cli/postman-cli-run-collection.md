@@ -13,13 +13,25 @@ contextual_links:
   - type: link
     name: "Postman CLI command options"
     url: "/docs/postman-cli/postman-cli-options/"
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Run collections with Postman CLI | The Exploratory"
+    url: "https://youtu.be/DKxCVo1_ELg"
+  - type: link
+    name: "View Postman CLI Runs in Postman | Postman Level Up"
+    url: "https://youtu.be/YTzlLLtsJls"
 warning: false
 tags:
   - "Postman CLI"
 
 ---
 
-You can use the Postman CLI to manually run and test collections. You can also use the Postman CLI to automate collection runs on CI/CD pipelines. You can run collections with its collection ID or path.
+You can use the Postman CLI to manually run and test collections. You can also use the Postman CLI to automate collection runs on CI/CD pipelines.
+
+When the Postman CLI runs a collection, the collection and its tests execute locally and the results are sent to Postman servers as an API call.
 
 ## Contents
 

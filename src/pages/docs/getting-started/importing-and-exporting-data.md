@@ -72,7 +72,7 @@ You can import collections or your API specifications directly into Postman.
 
 To import your data into Postman, select **Import** in upper left:
 
-![Import data into Postman](https://assets.postman.com/postman-docs/import-export-import-ui-v9-6.jpg)
+![Import data into Postman](https://assets.postman.com/postman-docs/v10/import-export-import-ui-v10-2.jpg)
 
 You can import your data from files, folders, links, raw text, or code repositories.
 
@@ -213,8 +213,6 @@ You can also export your environments from Postman.
 You can export a data dump of all your collections, environments, globals, and header presets in Postman.
 
 1. Select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the header, then select **Settings**.
-
-   ![Export data dump](https://assets.postman.com/postman-docs/import-export-data-dump-menu.jpg)
 
 1. Select the **Data** tab, then **Export Data** to start your request for the data dump.
 

@@ -15,7 +15,7 @@ contextual_links:
 
 ---
 
-> __[Groups are only available to Postman Enterprise teams.](https://www.postman.com/pricing)__
+> **[Groups are available on Postman Enterprise plans.](https://www.postman.com/pricing)**
 
 With Postman groups, you can organize team members into groups that reflect your organizational structure. Groups enable you to manage access to your team and onboard new team members.
 
@@ -48,8 +48,6 @@ Under **Members and groups**, select **Groups** > **Create Group**.
 <img alt="Create group" src="https://assets.postman.com/postman-docs/team-groups-list-v9.1.jpg"/>
 
 Give your group a name and description, add your team members, and select the team roles you would like to assign to the group, then **Create Group**.
-
-> You must have the Billing role yourself to assign the Billing role to others.
 
 <img alt="Create a group form" src="https://assets.postman.com/postman-docs/create-a-group-9.5.jpg" width="500px"/>
 

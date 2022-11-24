@@ -23,7 +23,7 @@ contextual_links:
 
 ---
 
-> __[GitHub Enterprise Server integrations are only available on Postman Enterprise plans.](https://www.postman.com/pricing)__
+> **[GitHub Enterprise Server integrations are available on Postman Enterprise plans.](https://www.postman.com/pricing)**
 
 Back up your Postman collections to GitHub, a cloud-based hosting service for Git repositories, with the Postman to GitHub integration.
 
@@ -48,8 +48,11 @@ Postman 9.0 introduced the ability to connect a Git repository to an API. Instea
 To integrate with GitHub, you will need a GitHub personal access token.
 
 1. Sign in to [GitHub](https://github.com/).
-1. If you don’t already have a personal access token, [generate a new one](https://github.com/settings/tokens).
-1. To enable backing up collections, make sure to select the `repo` and the `user` scopes.
+1. If you don’t already have a personal access token, [generate a new one](https://github.com/settings/tokens). You can use a classic token or a [fine-grained token](https://github.blog/2022-10-18-introducing-fine-grained-personal-access-tokens-for-github/).
+
+    * **Classic token** - Make sure to select the `repo` and `user` scopes.
+    * **Fine-grained token** - Make sure the token has access to the repository you want to back up to and has the following Repository permissions: `Contents (Read and write)` and `Metadata (Read-only)`.
+
 1. Save the generated token to use later.
 
 > For more information about generating a token, see the [GitHub documentation](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token).
