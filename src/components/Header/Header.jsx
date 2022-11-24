@@ -4,7 +4,7 @@ import Dropdown from './Dropdown';
 import $ from 'jquery';
 import {PrimaryNavbarV6, SecondaryNavbarV6, NavStyles, DropdownStyles, CTAButton} from './HeaderStyles.jsx' ;
 import { SearchWrapperStyling } from '../Search/searchStyles.jsx';
-// import navbarData from '../../../bff-data/navbar.json';
+import navbarData from '../../../bff-data/navbar.json';
 import navbarDataLocal from '../../../build/navbarDev.json';
 
 // Get Cookie for Sign In toggler
@@ -88,6 +88,10 @@ class Header extends React.Component {
       cookie,
       beta,
     });
+    if (process.env.NODE_ENV === 'production') { 
+      this.setState({navbarData});
+      // setData(navbarData); // gets data fron bff generated file
+    }
 
     /* eslint-disable react/prop-types */
     const { waitBeforeShow } = this.props;
