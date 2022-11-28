@@ -7,8 +7,8 @@ contextual_links:
   - type: subtitle
     name: "Videos"
   - type: link
-    name: "Public Profiles | Postman Level Up"
-    url:  "https://youtu.be/w-EgqQ8Anvw"
+    name: "Customize Your Public Profile | Postman Level Up"
+    url:  "https://youtu.be/xM_sskJmZNM"
   - type: section
     name: "Next Steps"
   - type: link

@@ -11,6 +11,11 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Import Multi File API Definitions | Postman Level Up"
+    url: "https://youtu.be/RqVJV9LQORc"
+  - type: subtitle
     name: "Blog Posts"
   - type: link
     name: "Stay on Top of Your API Deployments: AWS API Gateway Integration"

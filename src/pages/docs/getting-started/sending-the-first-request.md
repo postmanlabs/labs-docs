@@ -19,6 +19,9 @@ contextual_links:
   - type: link
     name: "How to use an API? | Intro to APIs Part 2"
     url:  "https://youtu.be/woRuedXZyi4"
+  - type: link
+    name: "Postman Student Programs - Finding the right API for the job"
+    url:  "https://youtu.be/d6abDKrGFYU"
   - type: subtitle
     name: "Blog Posts"
   - type: link

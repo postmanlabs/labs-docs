@@ -12,6 +12,11 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Integrate Jenkins in Postman"
+    url: "https://youtu.be/PAlEp2AmSl4"
+  - type: subtitle
     name: "Blog Posts"
   - type: link
     name: "Stay on Top of Your API Builds with Postman’s Jenkins Integration"
