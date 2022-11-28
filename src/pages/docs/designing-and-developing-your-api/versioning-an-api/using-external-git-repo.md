@@ -104,7 +104,9 @@ To connect a repository hosted in the cloud, do the following:
 
 > **Use the Postman desktop app to connect to GitHub Enterprise Server.** You can't use the Postman web app to connect to an on-premises GitHub repository.
 
-To connect to a GitHub Enterprise Server, GitLab Self-Managed, or Azure DevOps Server repository hosted on-premises:
+You can connect to a GitHub Enterprise Server, GitLab Self-Managed, or Azure DevOps Server repository hosted on-premises.
+
+To connect a repository hosted on-premises, do the following:
 
 1. Select **APIs** in the sidebar and select an API.
 1. Under **Connect repository**, select **Connect** and select the type of repository you want to connect to.
