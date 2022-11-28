@@ -78,6 +78,8 @@ For more tips on how to create a public profile, see [How to create your Postman
 
 ## Creating a public workspace
 
+To create a public workspace, do the following:
+
 1. Select **Workspaces** from the header, then select **Create Workspace**.
 
     <img alt="Workspace menu" src="https://assets.postman.com/postman-docs/workspace-switcher-v9.19.jpg" width="300px"/>
@@ -167,8 +169,6 @@ The Postman element that you move to the public workspace will no longer exist i
 
 You can delete Postman elements from a public workspace for which you have an [Admin or Editor role](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles).
 
-To delete an element from a public workspace, do the following:
-
 1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the element's name, then select **Delete**.
 1. Select **Delete** to confirm your choice.
 
@@ -177,8 +177,6 @@ You can retrieve the deleted element by selecting <img alt="Delete icon" src="ht
 ### Deleting a public workspace
 
 To delete a public workspace, you must change its visibility first. You must have an [Admin role](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles) for a workspace to be able to delete it.
-
-To delete a workspace, do the following:
 
 1. On the workspace overview, select **Workspace Settings**.
 1. Under **Visibility**, select one of **Team**, **Private**, or **Personal**, then select **Update**.

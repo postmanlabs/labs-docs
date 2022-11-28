@@ -186,8 +186,6 @@ It's not recommended, but you can choose to delete an element entirely. To do so
 
 Workspace Admins and Partner Managers can delete Partner Workspaces.
 
-To delete a workspace, do the following:
-
 1. On the workspace's **Overview** tab, select **Workspace Settings**.
 1. [Change the visibility of the workspace](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#changing-workspace-visibility) to **Private**.
 1. Select **Remove all partners**, then select **Update**.

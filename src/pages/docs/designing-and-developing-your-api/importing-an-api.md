@@ -65,6 +65,8 @@ To learn more about working with multi-file API definitions, see [Editing an API
 
 This integration supports importing OpenAPI 3.0 definitions for both HTTP and REST APIs. Importing a definition will create a new API in Postman and will also configure an integration with AWS API Gateway.
 
+To import an API from AWS API Gateway, do the following:
+
 1. From the sidebar, select __APIs__, then select **Import**.
 1. Select **API Gateway**, then select **AWS API Gateway**.
 1. Connect to the AWS API Gateway as follows.

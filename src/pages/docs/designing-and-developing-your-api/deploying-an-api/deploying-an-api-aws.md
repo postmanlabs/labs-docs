@@ -189,6 +189,8 @@ Exporting an HTTP API definition makes it available in the connected Amazon API 
 
 > HTTP API definition can be exported and deployed from Postman. To deploy a REST API definition, use the AWS console.
 
+To export and deploy your API definition to an AWS stage, do the following:
+
 1. Select **APIs** in the sidebar and select an API.
 1. Select **Deployments**.
 1. Select **Deploy API**.

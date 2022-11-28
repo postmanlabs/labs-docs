@@ -52,8 +52,6 @@ You create the structure of your API using the _API definition_. The API definit
 
 If your API doesn't have a definition, you can generate an example definition that you can edit.
 
-To generate an API definition, do the following:
-
 1. Select **APIs** in the sidebar and select an API.
 1. On the API's overview, under **Definition**, select **Create Definition**.
 1. Select **Author Definition from scratch**.
@@ -67,8 +65,6 @@ To generate an API definition, do the following:
 ## Importing an API definition
 
 You can import a file into your API to define your API.
-
-To import an API definition, do the following:
 
 1. Select **APIs** in the sidebar and select an API.
 1. On the API's overview, under **Definition**, select **Create Definition**.

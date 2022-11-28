@@ -89,7 +89,7 @@ To authenticate with Apigee X, do the following:
 
 <img alt="Apigee X authentication" src="https://assets.postman.com/postman-docs/apigee-authenticate-v9-13.jpg" width="575px"/>
 
-Next, to set up the connection to Apigee X, do the following:
+To set up the connection to Apigee X, do the following:
 
 1. Select the **Organization** that has the proxy you want to connect to Postman.
 1. Enter a **Nickname** for this integration.

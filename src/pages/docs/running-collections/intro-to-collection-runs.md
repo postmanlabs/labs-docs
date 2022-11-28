@@ -90,7 +90,7 @@ When running collections manually, Postman displays a summary of your request ex
 
 ![Collection Runner results](https://assets.postman.com/postman-docs/v10/collection-run-results-summary-v10.jpg)
 
-To access more data about what happened when a request executed:
+To access more data about what happened when a request executed, do the following:
 
 1. Select **View Results**.
 
