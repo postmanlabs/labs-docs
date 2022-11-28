@@ -107,8 +107,6 @@ Enable the [system proxy option](#using-the-system-proxy-for-requests) in Postma
 
 In Postman, make sure both the system proxy and custom proxy are turned off.
 
-To turn off the system proxy and custom proxy, do the following:
-
 1. Select the settings icon <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the header and select **Settings**.
 1. Select the **Proxy** tab.
 1. Clear the **Use the system proxy** and **Add a custom proxy configuration** checkboxes.

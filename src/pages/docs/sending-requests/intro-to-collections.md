@@ -121,13 +121,11 @@ To move more than one request to a different collection, do the following:
 
 ### Adding a request to an empty collection
 
-1. Select the collection, then select **Add a request**.
+Select the collection, then select **Add a request**.
 
-    <img alt="Add a request to an empty collection" src="https://assets.postman.com/postman-docs/empty-collection-add-request.jpg" width="290px"/>
+<img alt="Add a request to an empty collection" src="https://assets.postman.com/postman-docs/empty-collection-add-request.jpg" width="290px"/>
 
 ### Adding a request from your history to a collection
-
-To save a request from your history to a collection, do the following:
 
 1. Select **History** in the sidebar.
 1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the request you want to save.
@@ -219,16 +217,12 @@ To view notifications about what has changed in a collection you watch, do the f
 
 You can fork collections in your own workspace to [develop collection versions](/docs/collaborating-in-postman/version-control-for-collections/).
 
-To fork a collection, do the following:
-
 1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the collection name.
 1. Select **Fork**.
 
 > Alternatively, select the fork icon <img alt="Fork icon" src="https://assets.postman.com/postman-docs/icon-fork.jpg#icon" width="14px"> from the collection overview.
 
 ### Adding comments to a collection
-
-To add a comment at the collection level, do the following:
 
 1. Select the comment icon <img alt="Comments icon" src="https://assets.postman.com/postman-docs/icon-comments-v9.jpg#icon" width="18px"> from the right sidebar.
 1. Write your comment, then select **Add Comment**.
