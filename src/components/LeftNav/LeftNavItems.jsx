@@ -30,7 +30,7 @@
 
 export const leftNavItems = [
   {
-    name: 'Getting Started',
+    name: 'Getting started',
     parentSlug: 'getting-started',
     url: '/docs/getting-started/introduction/',
     subMenuItems1: [
@@ -39,7 +39,7 @@ export const leftNavItems = [
         url: '/docs/getting-started/introduction/',
       },
       {
-        name: 'Installing and Updating Postman',
+        name: 'Installing and updating Postman',
         url: '/docs/getting-started/installation-and-updates/',
       },
       {
@@ -97,7 +97,7 @@ export const leftNavItems = [
     ],
   },
   {
-    name: 'Sending Requests',
+    name: 'Sending requests',
     parentSlug: 'sending-requests',
     url: '/docs/sending-requests/requests/',
     subMenuItems1: [
@@ -150,7 +150,7 @@ export const leftNavItems = [
         url: '/docs/sending-requests/troubleshooting-api-requests/',
       },
       {
-        name: 'Capturing Request Data',
+        name: 'Capturing request data',
         subParentSlug: 'capturing-request-data',
         slug: '/docs/sending-requests/capturing-request-data/capture-overview/',
         subMenuItems2: [
@@ -181,7 +181,7 @@ export const leftNavItems = [
         url: '/docs/sending-requests/graphql/graphql/',
       },
       {
-        name: 'Using gRPC Requests',
+        name: 'Using gRPC requests',
         subParentSlug: 'grpc',
         slug: '/docs/sending-requests/grpc/grpc-client-overview/',
         subMenuItems2: [
@@ -224,17 +224,17 @@ export const leftNavItems = [
         ],
       },
       {
-        name: 'Using WebSocket Requests',
+        name: 'Using WebSocket requests',
         url: '/docs/sending-requests/websocket/websocket/',
       },
       {
-        name: 'Using SOAP Requests',
+        name: 'Using SOAP requests',
         url: '/docs/sending-requests/soap/making-soap-requests/',
       },
     ],
   },
   {
-    name: 'Writing Scripts',
+    name: 'Writing scripts',
     parentSlug: 'writing-scripts',
     url: '/docs/writing-scripts/intro-to-scripts/',
     subMenuItems1: [
@@ -276,7 +276,7 @@ export const leftNavItems = [
     ],
   },
   {
-    name: 'Running Collections',
+    name: 'Running collections',
     parentSlug: 'running-collections',
     url: '/docs/running-collections/running-collections-overview/',
     subMenuItems1: [
@@ -326,7 +326,7 @@ export const leftNavItems = [
             url: '/docs/running-collections/using-newman-cli/installing-running-newman/',
           },
           {
-            name: 'Newman options',
+            name: 'Newman command options',
             url: '/docs/running-collections/using-newman-cli/newman-options/',
           },
           {
@@ -376,7 +376,7 @@ export const leftNavItems = [
             url: '/docs/postman-flows/flows-intro/the-interface/',
           },
           {
-            name: 'Building your first Flow',
+            name: 'Building your first flow',
             url: '/docs/postman-flows/flows-intro/building-your-first-flow/',
           },
           {
@@ -440,7 +440,7 @@ export const leftNavItems = [
         ],
       },
       {
-        name: 'Remote Execution',
+        name: 'Remote execution',
         subParentSlug: 'webhooks',
         slug: '/docs/postman-flows/remote-execution/webhooks/',
         subMenuItems2: [
@@ -528,7 +528,7 @@ export const leftNavItems = [
         url: '/docs/collaborating-in-postman/manage-public-elements/',
       },
       {
-        name: 'Using Workspaces',
+        name: 'Using workspaces',
         subParentSlug: 'using-workspaces',
         slug: '/docs/collaborating-in-postman/using-workspaces/creating-workspaces/',
         subMenuItems2: [
@@ -561,7 +561,7 @@ export const leftNavItems = [
     ],
   },
   {
-    name: 'Designing and Developing Your API',
+    name: 'Designing and developing your API',
     parentSlug: 'designing-and-developing-your-api',
     url: '/docs/designing-and-developing-your-api/the-api-workflow/',
     subMenuItems1: [
@@ -578,7 +578,7 @@ export const leftNavItems = [
         url: '/docs/designing-and-developing-your-api/importing-an-api/',
       },
       {
-        name: 'Using API Version Control',
+        name: 'Using API version control',
         subParentSlug: 'versioning-an-api',
         slug: '/docs/designing-and-developing-your-api/versioning-an-api/versioning-an-api-overview/',
         subMenuItems2: [
@@ -699,7 +699,7 @@ export const leftNavItems = [
     ],
   },
   {
-    name: 'Documenting Your API',
+    name: 'Documenting your API',
     parentSlug: 'publishing-your-api',
     url: '/docs/publishing-your-api/documenting-your-api/',
     subMenuItems1: [
@@ -745,7 +745,7 @@ export const leftNavItems = [
     ],
   },
   {
-    name: 'Monitoring Your API',
+    name: 'Monitoring your API',
     parentSlug: 'monitoring-your-api',
     url: '/docs/monitoring-your-api/intro-monitors/',
     subMenuItems1: [
@@ -857,7 +857,7 @@ export const leftNavItems = [
     url: '/docs/administration/managing-your-team/managing-your-team/',
     subMenuItems1: [
       {
-        name: 'Managing Your Team',
+        name: 'Managing your team',
         subParentSlug: 'managing-your-team',
         slug: '/docs/administration/managing-your-team/managing-your-team/',
         subMenuItems2: [
@@ -896,7 +896,7 @@ export const leftNavItems = [
         url: '/docs/administration/audit-logs/',
       },
       {
-        name: 'Token Scanner',
+        name: 'Token scanner',
         url: '/docs/administration/token-scanner/',
       },
       {
@@ -955,12 +955,12 @@ export const leftNavItems = [
         ],
       },
       {
-        name: 'SCIM Provisioning',
+        name: 'SCIM provisioning',
         subParentSlug: 'scim-provisioning',
         slug: '/docs/administration/scim-provisioning/scim-provisioning-overview/',
         subMenuItems2: [
           {
-            name: 'SCIM Provisioning Overview',
+            name: 'SCIM provisioning overview',
             url: '/docs/administration/scim-provisioning/scim-provisioning-overview/',
           },
           {
@@ -992,7 +992,7 @@ export const leftNavItems = [
     ],
   },
   {
-    name: 'Using Reports',
+    name: 'Using reports',
     parentSlug: 'reports',
     url: '/docs/reports/reports-overview/',
     subMenuItems1: [
@@ -1023,7 +1023,7 @@ export const leftNavItems = [
     ],
   },
   {
-    name: 'Developer Resources',
+    name: 'Developer resources',
     parentSlug: 'developer',
     url: '/docs/developer/resources-intro/',
     subMenuItems1: [
@@ -1071,15 +1071,15 @@ export const leftNavItems = [
         url: '/docs/integrations/webhooks/',
       },
       {
-        name: 'Installed Apps',
+        name: 'Installed apps',
         url: '/docs/integrations/installed-apps/'
       },
       {
-        name: 'CI Integrations',
+        name: 'CI integrations',
         url: '/docs/integrations/ci-integrations/',
       },
       {
-        name: 'Available Integrations',
+        name: 'Available integrations',
         subParentSlug: 'available-integrations',
         slug: '/docs/integrations/available-integrations/apimatic/',
         subMenuItems2: [

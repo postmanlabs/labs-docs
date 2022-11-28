@@ -1,5 +1,5 @@
 ---
-title: "Building your first Flow"
+title: "Building your first flow"
 updated: 2022-11-17
 ---
 

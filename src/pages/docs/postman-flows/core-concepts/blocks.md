@@ -1,5 +1,5 @@
 ---
-title: "About Blocks"
+title: "About blocks"
 updated: 2022-11-15
 ---
 

@@ -1,7 +1,5 @@
 ---
-title: "CI Integrations"
-order: 164.2
-page_id: "ci-integrations"
+title: "CI integrations"
 updated: 2022-09-15
 warning: false
 contextual_links:
