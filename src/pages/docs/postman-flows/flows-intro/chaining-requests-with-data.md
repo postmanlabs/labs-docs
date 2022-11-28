@@ -35,7 +35,7 @@ A common Postman Flows use case is to take data from one response, and pipe that
 
    The output has the following structure and the `resource_name` is present in the body.
 
-   ```
+   ``` json
    body:
      resource_name: "625"
      resource_id: "625"
@@ -56,7 +56,7 @@ A common Postman Flows use case is to take data from one response, and pipe that
 
    Objects and values in lists and arrays can also be accessed using an index. For the following body, `/body/types/0` would return `User`.
 
-   ```
+   ``` yaml
    body:
      id: 1
      types:

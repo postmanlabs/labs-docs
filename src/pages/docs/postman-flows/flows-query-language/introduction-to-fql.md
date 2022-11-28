@@ -5,6 +5,11 @@ updated: 2022-11-17
 
 _Flows Query Language_ (FQL) can be used to parse and transform JSON data to get the fields and structure you want.
 
+## Contents
+
+* [Passing data to the Evaluate block](#passing-data-to-the-evaluate-block)
+* [Things you can do with FQL](#things-you-can-do-with-fql)
+
 ## Passing data to the Evaluate block
 
 ![](https://assets.postman.com/postman-labs-docs/flows-query-language/updated-evaluate-block-example.png)
@@ -15,7 +20,7 @@ The **Record** block holds formatted key-value pairs. The variable `data_field` 
 
 The following sections show examples of things you can do with FQL:
 
-- [Getting basic values](/docs/postman-flows/flows-query-language/getting-basic-values/)
-- [Conditional data selection](/docs/postman-flows/flows-query-language/conditional-data-selection/)
-- [Returning structured data](/docs/postman-flows/flows-query-language/returning-structured-results/)
-- [Data manipulation](/docs/postman-flows/flows-query-language/data-manipulation/)
+* [Getting basic values](/docs/postman-flows/flows-query-language/getting-basic-values/)
+* [Conditional data selection](/docs/postman-flows/flows-query-language/conditional-data-selection/)
+* [Returning structured data](/docs/postman-flows/flows-query-language/returning-structured-results/)
+* [Data manipulation](/docs/postman-flows/flows-query-language/data-manipulation/)
