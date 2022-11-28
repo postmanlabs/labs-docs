@@ -1,8 +1,6 @@
 ---
 title: "Troubleshooting monitors"
-order: 94
-page_id: "troubleshooting_monitors"
-updated: 2022-2-14
+updated: 2022-02-14
 search_keyword: "console.log"
 contextual_links:
   - type: section

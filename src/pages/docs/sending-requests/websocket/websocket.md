@@ -1,5 +1,5 @@
 ---
-title: "Using WebSocket Requests"
+title: "Using WebSocket requests"
 page_id: "websocket"
 search_keyword: "WebSocket, websockets, WebSocket requests, Socket.IO"
 contextual_links:

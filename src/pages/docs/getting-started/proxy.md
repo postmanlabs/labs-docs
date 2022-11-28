@@ -1,5 +1,5 @@
 ---
-title: "Configuring proxy settings"
+title: "Using a custom proxy"
 updated: 2022-06-13
 page_id: "proxy"
 search_keyword: "HTTP_PROXY, NO_PROXY"
