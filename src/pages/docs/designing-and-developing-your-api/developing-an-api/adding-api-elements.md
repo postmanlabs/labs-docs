@@ -97,7 +97,7 @@ To fork a collection from an API, do the following:
 1. Select the collection in the sidebar.
 1. Select the fork icon <img alt="Fork icon" src="https://assets.postman.com/postman-docs/icon-fork.jpg#icon" width="14px"> at the upper right.
 
-> Learn more about [forking elements](https://learning.postman.com/docs/collaborating-in-postman/version-control/#forking-postman-entities) in Postman.
+> Learn more about [forking elements](/docs/collaborating-in-postman/using-version-control/forking-entities/) in Postman.
 
 ## Deleting elements from an API
 

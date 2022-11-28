@@ -82,7 +82,7 @@ To move an element to a different workspace, do the following:
 
 Note that items related to what you're moving, such as monitors and mock servers, won't move with the element automatically. For more information, see [Moving elements to team workspaces](/docs/collaborating-in-postman/working-with-your-team/collaborating-in-team-workspaces/#moving-elements-to-team-workspaces).
 
-If you'd like to keep certain elements in other workspaces, you can [fork them into Partner Workspaces](/docs/collaborating-in-postman/version-control/#creating-a-fork) to help [keep them up to date](/docs/collaborating-in-postman/version-control/#pulling-updates) with any changes to the parent element.
+If you'd like to keep certain elements in other workspaces, you can [fork them into Partner Workspaces](/docs/collaborating-in-postman/using-version-control/forking-entities/#creating-a-fork) to help [keep them up to date](/docs/collaborating-in-postman/using-version-control/forking-entities/#pulling-updates-from-a-parent-element) with any changes to the parent element.
 
 ## Inviting collaborators to a Partner Workspace
 
@@ -129,7 +129,7 @@ Team members can also be assigned the team-level Partner Manager role. Partner M
 
 When an external partner is invited to a Partner Workspace by a team they're working with, they only have access to that Partner Workspace and can't access any other workspaces or resources within the team. Partners don't have personal or team workspaces within the team they're partnering with.
 
-Within a Partner Workspace, partners with the Workspace Editor role can [import and export](/docs/getting-started/importing-and-exporting-data/) elements. They can also [fork elements](/docs/collaborating-in-postman/version-control/#forking-postman-entities) within the same Partner Workspace or to another Partner Workspace within the same team. They can't fork elements outside the team.
+Within a Partner Workspace, partners with the Workspace Editor role can [import and export](/docs/getting-started/importing-and-exporting-data/) elements. They can also [fork elements](/docs/collaborating-in-postman/using-version-control/forking-entities/) within the same Partner Workspace or to another Partner Workspace within the same team. They can't fork elements outside the team.
 
 At the team level, all external partners are automatically assigned the Partner role. At the workspace level, all partners are assigned [Workspace Editor or Viewer](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles) roles when invited to a Partner Workspace. Partners can also be assigned the Partner Lead role, which enables them to invite other individuals from their organization to the Partner Workspace.
 
