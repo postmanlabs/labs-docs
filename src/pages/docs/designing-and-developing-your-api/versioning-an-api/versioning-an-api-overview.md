@@ -44,7 +44,7 @@ Postman enables you to use Git-based version control for developing and managing
 
 Once your API is connected to a repository, you can switch branches, pull changes from the repository, and push changes to the repository, all from within Postman. When you're ready to share your changes with consumers, you can publish a version of your API to the Private API Network.
 
-> API version control with Git is different than using version control for collections in Postman. Learn more about [using version control for collections](/docs/collaborating-in-postman/version-control-for-collections/).
+> API version control with Git is different than using version control for collections in Postman. Learn more about [using version control for collections](/docs/collaborating-in-postman/using-version-control/version-control-overview/).
 
 ## Contents
 
