@@ -63,9 +63,9 @@ Any responses that aren't the same HTTP method type as the incoming request are 
 
 The matching algorithm checks any custom headers passed in the incoming request in the following order:
 
-* If the `x-mock-response-code` header is provided, the algorithm filters out all examples that don't have a matching response status code.
-* If the `x-mock-response-id` header is provided, the algorithm selects the example with the matching response ID and returns the example as the response. An error is returned if no example is found with a matching ID.
-* If the `x-mock-response-name` header is provided, the algorithm selects the example with the matching name and returns the example as the response. If more than one example has the same name, Postman sorts the examples by ID and returns the example that comes first in the list. An error is returned if no example is found with a matching name.
+1. If the `x-mock-response-code` header is provided, the algorithm filters out all examples that don't have a matching response status code.
+1. If the `x-mock-response-id` header is provided, the algorithm selects the example with the matching response ID and returns the example as the response. An error is returned if no example is found with a matching ID.
+1. If the `x-mock-response-name` header is provided, the algorithm selects the example with the matching name and returns the example as the response. If more than one example has the same name, Postman sorts the examples by ID and returns the example that comes first in the list. An error is returned if no example is found with a matching name.
 
 ### 4. Filter by URL
 
