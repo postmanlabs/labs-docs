@@ -63,17 +63,17 @@ To integrate with GitHub, you need a GitHub personal access token.
 
 1. From the **[Home](https://go.postman.co/home)** page select **[Integrations](https://go.postman.co/integrations)**.
 
-    <img alt="Home page and integrations" src="https://assets.postman.com/postman-docs/home-integrations.jpg" width="400px">
+    <img alt="Home page and integrations" src="https://assets.postman.com/postman-docs/v10/home-integrations-v10.jpg" width="390px">
 
 1. Search and select **GitHub**.
 
-    [![GitHub integration](https://assets.postman.com/postman-docs/integrations-github1.jpg)](https://assets.postman.com/postman-docs/integrations-github1.jpg)
+    <img alt="GitHub integration" src="https://assets.postman.com/postman-docs/v10/integrations-github-v10.jpg" />
 
 1. Next to **Backup a collection**, select **Add Integration**.
 
 1. Enter your GitHub **Personal Access Token** and select **Authenticate and Proceed**.
 
-    <img alt="Access token" src="https://assets.postman.com/postman-docs/integrations-github-schema-pat.jpg" width="500px">
+    <img alt="GitHub integration" src="https://assets.postman.com/postman-docs/v10/integrations-github-authenticate-v10.jpg" width="515px" />
 
 1. After Postman verifies the token, you can configure the integration:
 
@@ -85,11 +85,13 @@ To integrate with GitHub, you need a GitHub personal access token.
    * Enter the file name of the collection in the repository.
    * Select the branch where you want to push the collection. The branch must already exist in your repository. If you don't specify a branch, Postman will push the collection to the default branch of the repository.
 
-   <img alt="Configure GitHub integration" src="https://assets.postman.com/postman-docs/integrations-github-add.jpg" width="500px">
+   <img alt="Configure GitHub integration" src="https://assets.postman.com/postman-docs/v10/integrations-github-config-v10.jpg" width="507px">
 
 1. To finish setting up the integration, select **Add Integration**.
 
 Every change saved to your Postman collection automatically commits changes to your GitHub repo in JSON format. Go to your GitHub repository to view your collections.
+
+<img alt="Collection backup in GitHub" src="https://assets.postman.com/postman-docs/v10/integrations-github-repo-v10.jpg" />
 
 ## Backing up collections to GitHub on a custom domain
 
