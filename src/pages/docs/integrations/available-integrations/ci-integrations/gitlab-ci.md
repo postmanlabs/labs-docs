@@ -29,7 +29,7 @@ To configure a GitLab CI/CD integration for Gitlab SaaS or GitLab self-managed, 
 1. Under **Automate**, select **GitLab SaaS** or **GitLab self-managed**.
 1. You'll be prompted to authorize Postman to access your GitLab account. After you grant access, you can close the browser tab and return to Postman.
 
-For GitLab SaaS, do the following:
+To configure a GitLab CI/CD integration for GitLab SaaS, do the following:
 
 1. Enter a **Nickname** to help you recognize the integration later. Postman pre-fills a nickname in the format `GitLab-{API_NAME}`, and you can edit it if you want.
 1. Select the GitLab **Workspace** with your API repository.

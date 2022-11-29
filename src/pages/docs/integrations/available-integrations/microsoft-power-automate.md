@@ -42,8 +42,6 @@ You can configure Microsoft Power Automate with Postman to monitor run results, 
 
 In the Postman activity feed, you can track changes made to your collections and within your team. Integrating with Microsoft Power Automate enables you to send these updates to email services like Outlook, Gmail, or a custom SMTP service. You also have the option to set up Twilio to text you when updates are made to your feed.
 
-To add a team activity feed to Microsoft Power Automate, do the following:
-
 1. Select **Add Integration**.
 1. On the **Team Activity Feed** page, enter the Webhook URL to send team updates to this specific URL.
 1. Select **Add Integration**.
@@ -53,8 +51,6 @@ To add a team activity feed to Microsoft Power Automate, do the following:
 ## Back up your Postman Collections in Microsoft Power Automate
 
 It’s important to back up your Postman Collections for safekeeping. Microsoft Power Automate helps you do this with services like Box (a cloud-based storage solution), but you can also use it to back up to your custom DB2 instance.
-
-To back up your Postman Collections in Microsoft Power Automate, do the following:
 
 1. Select **Add Integration**.
 1. On the **Backup your Postman Collections** page:
@@ -69,8 +65,6 @@ To back up your Postman Collections in Microsoft Power Automate, do the followin
 
 In the Postman activity feed you can view changes your teammates make to your Postman Collection. Integrating with Microsoft Power Automate enables you to send these updates to email services like Outlook, Gmail, or a custom SMTP service. You can also set up Twilio to text you when updates are made to your feed.
 
-To see the Postman Collection activity feed in Microsoft Power Automate, do the following:
-
 1. Select **Add Integration**.
 2. On the **Team Activity Feed** page, enter the Webhook URL to send team updates to this specific URL.
 3. Select **Add Integration**.
@@ -80,8 +74,6 @@ To see the Postman Collection activity feed in Microsoft Power Automate, do the 
 ## Send Monitor run results in Microsoft Power Automate
 
 Postman Monitors enable you to run your collections on a schedule with no manual intervention. With the Microsoft Power Automate integration, you can use those results by connecting to other available services.
-
-To send monitor run results to Microsoft Power Automate, do the following:
 
 1. Select **Add Integration**.
 1. On the **Monitor Run Results** page, select the monitor you want to send to Microsoft Power Automate.
