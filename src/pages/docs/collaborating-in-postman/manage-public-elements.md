@@ -65,7 +65,7 @@ You can also view and respond to requests to make documentation public. To appro
 
 #### Collection JSON links
 
-> Sharing collection JSOn using a public link has been deprecated. No new links can be generated and existing links can't be modified or edited. Users can still access any existing collection JSON links.
+> Sharing collection JSON files using a public link has been deprecated. No new links can be generated and existing links can't be modified or edited. Users can still access any existing collection JSON links.
 >
 > To share a collection's JSON, you can use the Postman API. To learn more, see [Sharing using the Postman API](/docs/collaborating-in-postman/sharing/#sharing-using-the-postman-api).
 
