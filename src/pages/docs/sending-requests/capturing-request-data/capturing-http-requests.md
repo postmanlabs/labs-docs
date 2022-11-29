@@ -51,10 +51,10 @@ If you are using APIs to build client-side applications like mobile apps, websit
 
 The Postman app has a built-in proxy that can capture HTTP and HTTPS traffic. Here's how it works:
 
-* The Postman app listens for any calls made by a client app or device using the proxy.
-* The Postman proxy captures the request and forwards it to the server.
-* The server returns a response to the Postman proxy, where it can also be saved.
-* The response is returned back to the client.
+1. The Postman app listens for any calls made by a client app or device using the proxy.
+1. The Postman proxy captures the request and forwards it to the server.
+1. The server returns a response to the Postman proxy, where it can also be saved.
+1. The response is returned back to the client.
 
 [![postman capture proxy](https://assets.postman.com/postman-docs/proxymobile-aa.jpeg)](https://assets.postman.com/postman-docs/proxymobile-aa.jpeg)
 
