@@ -60,8 +60,6 @@ After creating the scheme, collect the values for these fields in the [Team](htt
 
 Relying Party Trust (RPT) defines the connection between AD FS and Postman.
 
-To add a Relying Party Trust, do the following:
-
 1. Select the **Relying Party Trusts** folder from AD FS Management.
 1. On the Actions sidebar, select **Add Relying Party Trust** to start the configuration wizard for a new trust.
 1. Select **Claims aware** in the Welcome screen and then select **Start**.
@@ -142,16 +140,12 @@ To create a new rule, do the following:
 
 After the setup, you must submit your Identity Provider's details to Postman.
 
-To submit your Identity Provider's details, do the following:
-
 1. Download the `FederationMetadata.xml` file. You can often find this file at: `https://<Federation Service name>/FederationMetadata/2007-06/FederationMetadata.xml`
 1. Collect the Identity Provider Single Sign-On URL, Identity Provider Issuer, and X.509 Certificate from the metadata file and enter these values in the [Team](https://app.getpostman.com/dashboard/teams) page under **Identity Provider Details**.
 
 ### Step 6: Enable the RelayState parameter on your AD FS servers
 
 Next, you must enable the RelayState parameter on your AD FS servers.
-
-To enable the RelayState parameter on your AD FS servers, do the following:
 
 * For AD FS 2.0, open the following file in a text editor:
 

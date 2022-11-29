@@ -25,8 +25,6 @@ contextual_links:
 
 Only a [Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) can configure single sign-on (SSO) for a Postman team.
 
-To configure single sign-on, do the following:
-
 1. Go to [Team Settings](https://app.getpostman.com/dashboard/teams/edit), then select **Authentication**.
 1. Select **Add Authentication Method**.
 1. Select the authentication type.

@@ -101,8 +101,6 @@ The following is a schema for the backup a collection webhook:
 
 Postman Monitors enable you to run your collections on a schedule without any manual intervention. With the custom webhooks, you can use those results by connecting to other available services.
 
-To send monitor run results to custom webhooks, do the following:
-
 1. In the **Webhooks Integrations** page, next to **Post monitoring results**, select **Add Integration**.
 2. In the **Add integration** page:
    * Enter a **Nickname** for the integration.
@@ -195,8 +193,6 @@ The following is a schema for monitor run results:
 ## Send a team activity feed to custom webhooks
 
 The activity feed is where you can track changes made to your collections and within your team.
-
-To send a team activity feed to a custom webhook, do the following:
 
 1. In the **Webhooks Integrations** page, next to **Post team activity**, select **Add Integration**.
 2. In the **Add integration** page:

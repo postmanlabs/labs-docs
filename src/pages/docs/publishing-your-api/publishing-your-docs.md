@@ -87,8 +87,6 @@ If you have a [Team Admin role](/docs/collaborating-in-postman/roles-and-permiss
 
 To share your public documentation, share the published URL with your team members, other users, or the community. If you have forgotten the URL of your published documentation, you can get it at any time.
 
-To share your public documentation, do the following:
-
 1. Select **Collections** in the sidebar.
 1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to a collection with published docs, and then select **View Documentation**.
 1. Select **Published** at the upper right, and then select **Copy published link**.
@@ -117,8 +115,6 @@ To change the publication settings for your documentation, do the following:
 ## Unpublishing your docs
 
 If you no longer want your documentation to be publicly available, you can unpublish it.
-
-To unpublish your documentation, do the following:
 
 1. Select **Collections** in the sidebar.
 1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to a collection with published docs, and then select **View Documentation**.

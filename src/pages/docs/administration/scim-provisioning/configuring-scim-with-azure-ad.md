@@ -55,8 +55,6 @@ Next, you will configure the Azure AD integration.
 
 After you set up SCIM in Azure AD, you can configure the integration with Postman.
 
-To configure the Azure AD SCIM integration, do the following:
-
 1. In the Azure AD **Mappings** section, enable **Provision Azure Active Directory Users**. This is the set of attribute mappings for user objects. Select it to review the attributes that are synchronized from Azure Active Directory to Postman.
 
     > The attributes you select as **Matching** properties are used to match the users in Postman for update operations.
