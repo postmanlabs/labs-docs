@@ -44,6 +44,7 @@ To share your work using workspaces, you need to be signed in to your [Postman a
     * [Sharing using names, emails, or groups](#sharing-using-names-emails-or-groups)
     * [Sharing using a Run in Postman button](#sharing-using-a-run-in-postman-button)
     * [Sharing using the Postman API](#sharing-using-the-postman-api)
+* [Sharing elements with external users](#sharing-elements-with-external-users)
 
 ## Sharing Postman elements
 
@@ -65,23 +66,11 @@ You can share collections, APIs, and environments directly with collaborators, i
 
 <img alt="Share a collection using name, email, or group" src="https://assets.postman.com/postman-docs/v10/share-element-with-people-v10.jpg"/>
 
-Individual team members and groups you invite will be notified of your request to collaborate.
+Postman will notify the individual team members and groups you shared the element with about your request to collaborate.
 
 If the element you want to share is in a personal workspace, you'll be prompted to either change the workspace visibility to Team or to create a new team workspace to place the element in. For more information, see [Collaborating in team workspaces](/docs/collaborating-in-postman/working-with-your-team/collaborating-in-team-workspaces/).
 
 If the element you want to share is in a private workspace, users who don't have access to the private workspace will be invited as workspace Viewers when the element is shared with them.
-
-#### Inviting external users
-
-> Your team must have [available slots](/docs/administration/billing/#changing-your-plan) or [Auto-Flex enabled](/docs/administration/billing/#utilizing-auto-flex) to invite additional team members.
-
-When you share a collection, external users who aren't on your Postman team will receive an invitation to join your team immediately if you're a [Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) or [Super Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles).
-
-If you have a [Developer role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) on your team and you are on a Free, Basic, or Professional plan, external users with whom you share an element are added to your team as Developers automatically, without the need for approval by a Team Admin.
-
-If you aren't a Team Admin or a Developer on a Free, Basic, or Professional plan, a Team Admin must approve your request to share an element with an external user.
-
-> If your team has [SSO enabled](/docs/administration/sso/intro-sso/), external users will be required to sign in using your team's SSO.
 
 ### Sharing using a Run in Postman button
 
@@ -104,3 +93,15 @@ You can share collections using the Postman API.
     * Select **Link to collection in public workspace** to provide a link to the collection. Anyone with this link can view and fork your collection.
 
 <img alt="Share a collection with a Run in Postman button" src="https://assets.postman.com/postman-docs/v10/share-collection-via-api-v10.jpg"/>
+
+## Sharing elements with external users
+
+> Your team must have [available slots](/docs/administration/billing/#changing-your-plan) or [Auto-Flex enabled](/docs/administration/billing/#utilizing-auto-flex) to invite additional team members.
+
+When you share a collection, external users who aren't on your Postman team will receive an invitation to join your team immediately if you're a [Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) or [Super Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles).
+
+If you have a [Developer role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) on your team and you are on a Free, Basic, or Professional plan, external users with whom you share an element are added to your team as Developers automatically, without the need for approval by a Team Admin.
+
+If you aren't a Team Admin or a Developer on a Free, Basic, or Professional plan, a Team Admin must approve your request to share an element with an external user.
+
+> If your team has [SSO enabled](/docs/administration/sso/intro-sso/), external users will be required to sign in using your team's SSO.
