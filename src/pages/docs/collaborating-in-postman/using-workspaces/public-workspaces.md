@@ -116,7 +116,7 @@ An informative and inviting public workspace can help increase adoption of your 
 
 Signs of a public workspace that invites collaboration include:
 
-* **Active forks of your workspace** - The number of people who [fork your workspace](/docs/collaborating-in-postman/version-control-for-collections/#forking-postman-elements) and work on their forks shows strong collaborator engagement.
+* **Active forks of your workspace** - The number of people who [fork your workspace](/docs/collaborating-in-postman/using-version-control/forking-entities/) and work on their forks shows strong collaborator engagement.
 * **People watching your workspace** - The number of people who [watch your workspace](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#watching-a-workspace) for activity can reflect interest from potential collaborators.
 * **Recent activity on the workspace** - A [workspace activity feed](/docs/collaborating-in-postman/using-workspaces/changelog-and-restoring-collections/#viewing-workspace-activity) that shows ongoing work assures potential collaborators that your team updates and maintains the workspace.
 
@@ -198,7 +198,7 @@ If you're a [Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#t
 
 To collaborate with someone else in their public workspace, select **Workspaces** from the header, and then select the workspace you want to work in.
 
-For **collections** and **environments**, [create a fork](/docs/collaborating-in-postman/version-control-for-collections/#forking-a-collection) and request to merge changes using a [pull request](/docs/collaborating-in-postman/version-control-for-collections/#creating-pull-requests).
+For **collections** and **environments**, [create a fork](/docs/collaborating-in-postman/using-version-control/forking-entities/#creating-a-fork) and request to merge changes using a [pull request](/docs/collaborating-in-postman/using-version-control/creating-pull-requests/).
 
 For **APIs**, select the API and version. Select the **Definition** tab and then select **Request Access** to request an Editor role.
 
@@ -212,4 +212,4 @@ The list of avatars in the Postman header shows you who's active in your workspa
 
 Once you start working collaboratively in a public workspace, users can fork collections and create pull requests.
 
-* To learn more about version control in Postman, visit [Using version control](/docs/collaborating-in-postman/version-control-for-collections/).
+* To learn more about version control in Postman, visit [Using version control](/docs/collaborating-in-postman/using-version-control/version-control-overview/).
