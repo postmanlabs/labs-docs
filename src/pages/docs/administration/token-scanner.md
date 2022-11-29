@@ -32,10 +32,10 @@ The Postman Token Scanner scans your public workspaces, collections, environment
 ## Contents
 
 * [Use cases](#use-cases)
+* [Token scanner dashboard](#token-scanner-dashboard)
 * [Supported tokens](#supported-tokens)
     * [Default alerts](#default-alerts)
     * [Custom alerts](#custom-alerts)
-* [Token scanner dashboard](#token-scanner-dashboard)
 * [Protecting Postman API keys in GitHub](#protecting-postman-api-keys-in-github)
 
 ## Use cases
@@ -51,9 +51,15 @@ Postman delivers the scan results in the [Security audit reports](/docs/reports/
 
 > **[Security Audit Reports are available on Postman Enterprise plans.](https://www.postman.com/pricing/)**
 
+## Token scanner dashboard
+
+You can view your team's configured [default](#default-alerts) and [custom](#custom-alerts) alerts in your [data security dashboard](https://go.postman.co/settings/team/token-scanner). Select **Team** in the upper-right > **Team Settings**. Then, select **Data security** on the left, and select **Token scanner**.
+
+<img alt="Data security dashboard" src="https://assets.postman.com/postman-docs/data-security-dashboard.jpg"/>
+
 ## Supported tokens
 
-The Token Scanner will scan a variety of tokens by default. You can also add your team's proprietary third-party app tokens that aren't supported yet using [custom alerts](#custom-alerts).
+The Token Scanner scans a variety of tokens [by default](#default-alerts). You can also add your team's proprietary third-party app tokens that aren't supported yet using [custom alerts](#custom-alerts).
 
 ### Default alerts
 
@@ -107,12 +113,6 @@ To add custom alerts:
 1. Go to **Team** > **Team Settings** > **Token scanner**.
 2. In the **Custom alerts** section, select **Add Alert**.
 3. On the **Add Alert** page, define the custom token.
-
-## Token scanner dashboard
-
-You can view your team's configured [default](#default-alerts) and [custom](#custom-alerts) alerts in your [data security dashboard](https://go.postman.co/settings/team/token-scanner). Select **Team** in the upper-right > **Team Settings**. Then, select **Data security** on the left, and select **Token scanner**.
-
-<img alt="Data security dashboard" src="https://assets.postman.com/postman-docs/data-security-dashboard.jpg"/>
 
 ## Protecting Postman API keys in GitHub
 
