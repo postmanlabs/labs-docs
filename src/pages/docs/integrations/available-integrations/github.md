@@ -1,7 +1,6 @@
 ---
 title: "GitHub"
 updated: 2022-11-29
-warning: false
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -35,8 +34,8 @@ Setting up a GitHub integration requires you to generate a GitHub personal acces
 
 * [API sync with GitHub](#api-sync-with-github)
 * [Generating a GitHub personal access token](#generating-a-github-personal-access-token)
-* [Backing up collections on GitHub](#backing-up-collections-on-github)
-* [Backing up collections to GitHub on a custom domain](#backing-up-collections-to-github-on-a-custom-domain)
+* [Backing up collections to GitHub](#backing-up-collections-to-github)
+* [Backing up collections to GitHub Enterprise Server](#backing-up-collections-to-github-enterprise-server)
 * [Troubleshooting the GitHub integration](#troubleshooting-the-github-integration)
 
 ## API sync with GitHub
@@ -57,7 +56,7 @@ To integrate with GitHub, you need a GitHub personal access token.
 
 > For more information about generating a token, see the [GitHub documentation](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token).
 
-## Backing up collections on GitHub
+## Backing up collections to GitHub
 
  You can back up a Postman collection to a GitHub repository. After you create the integration, any new changes to the collection in Postman will also appear in the GitHub repository.
 
@@ -85,23 +84,23 @@ To integrate with GitHub, you need a GitHub personal access token.
    * Enter the file name of the collection in the repository.
    * Select the branch where you want to push the collection. The branch must already exist in your repository. If you don't specify a branch, Postman will push the collection to the default branch of the repository.
 
-   <img alt="Configure GitHub integration" src="https://assets.postman.com/postman-docs/v10/integrations-github-config-v10.jpg" width="507px">
+   <img alt="Configure GitHub integration" src="https://assets.postman.com/postman-docs/v10/integrations-github-add-v10.jpg" width="507px">
 
 1. To finish setting up the integration, select **Add Integration**.
 
-Every change saved to your Postman collection automatically commits changes to your GitHub repo in JSON format. Go to your GitHub repository to view your collections.
+Every change saved to your Postman collection automatically commits changes to your GitHub repository in JSON format. Go to your GitHub repository to view your collections.
 
 <img alt="Collection backup in GitHub" src="https://assets.postman.com/postman-docs/v10/integrations-github-repo-v10.jpg" />
 
-## Backing up collections to GitHub on a custom domain
+## Backing up collections to GitHub Enterprise Server
 
-To back up collections to GitHub on a custom domain, follow the same step as backing up a collection with the following differences:
+You can back up a Postman collection to a GitHub Enterprise Server repository on a custom domain. Follow the same step as [backing up collections to GitHub](#backing-up-collections-to-github) with the following differences:
 
 1. After searching for the GitHub integration in Postman, select **Add Integration** next to **Backup a collection (custom domain)**.
 
-1. Along with your personal access token, enter your GitHub custom domain, then select **Authenticate and Proceed**.
+1. Along with your personal access token, enter the custom domain of your enterprise server (for example, `https://my-git-server.example.com`). Then select **Authenticate and Proceed**.
 
-   <img alt="GitHub custom domain" src="https://assets.postman.com/postman-docs/integrations-github-custom-domain-pat.jpg" width="500px">
+   <img alt="GitHub custom domain" src="https://assets.postman.com/postman-docs/v10/integrations-github-custom-domain-v10.jpg" width="515px">
 
 1. Configure the integration with your collection, repository, directory, file name, and branch.
 
@@ -109,26 +108,30 @@ To back up collections to GitHub on a custom domain, follow the same step as bac
 
 ### Static IP support
 
-If your network is behind a firewall that requires IP addresses from an allowlist, you must use a static IP address to enable collection backups to GitHub on a custom domain.
+If your network is behind a firewall, you must allowlist a static IP address to enable collection backups to GitHub Enterprise Server on a custom domain.
 
 Contact your IT team to allowlist the following static IP in your firewall:
 
 * US East: `3.212.102.200`
 
-Once you allowlist this IP address, calls for this integration will be able to connect to your network and allow the integration to work as expected.
+Once you allowlist this IP address, the collection backup integration will be able to connect to your private network.
 
-> GitHub Enterprise requires the ability to reach the above IP from the network where your GitHub Enterprise server instance is hosted. If your server instance is in a VPC, you may need to modify the network access control list or rules there.
+> The **Backup a collection (custom domain)** integration requires the ability to reach the static IP address `3.212.102.200` from the network where your GitHub Enterprise Server instance is hosted. If your server instance is in a VPC, you may need to change the VPC's network access control list or rules.
 
 ## Troubleshooting the GitHub integration
 
-If your GitHub integration has issues or your data isn't pushed to GitHub, check the following requirements:
+If your GitHub integration has issues or your data isn't pushed to GitHub, make sure you've met the following requirements:
 
-* You added the GitHub integration in the same workspace as the content you want to push to the GitHub repo.
-* You selected the correct GitHub integration in Postman. For example, if you use a [custom domain](#backing-up-collections-to-github-on-a-custom-domain), make sure you selected the **Backup a collection (custom domain)** integration.
-* You initialized your GitHub repo with a `README.md` file. When creating a new repository, you can select the **Add a README file** check box.
-* You selected the scopes `user` and `repo` when creating your GitHub [personal access token](#generating-a-github-personal-access-token).
+* You added the GitHub integration in the same workspace as the content you want to push to the GitHub repository.
+* You selected the correct GitHub integration in Postman. For example, if you use [GitHub Enterprise Server on a custom domain](#backing-up-collections-to-github-enterprise-server), make sure you selected the **Backup a collection (custom domain)** integration.
+* You initialized your GitHub repository with a `README.md` file. When creating a new repository, you can select the **Add a README file** check box.
+* You selected the correct permissions when creating your GitHub [personal access token](#generating-a-github-personal-access-token):
+
+    * **Classic token** - Make sure to select the `repo` and `user` scopes.
+    * **Fine-grained token** - Make sure the token has access to the repository you want to back up to and has the following Repository permissions: `Contents (Read and write)` and `Metadata (Read-only)`.
+
 * The branch you specified when setting up the integration already exists on GitHub. Postman won't create the branch if it doesn't already exist.
 * You have permissions to push to the branch.
-* If your enterprise version of GitHub is on-premises or self-hosted, check with your IT team for [firewall requirements](#static-ip-support).
+* If your instance of GitHub Enterprise Server is on-premises or self-hosted, check with your IT team for [firewall requirements](#static-ip-support).
 
 Edit the integration to make any required changes. If the integration still doesn't work after you edit it, delete the integration and add it again.
