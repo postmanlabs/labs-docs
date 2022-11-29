@@ -32,25 +32,25 @@ To continue configuring your Postman app, do the following:
 
 1. Open your OneLogin admin console in a new tab.
 1. Go to **Applications** and select **Add App**.
-2. Search for "Postman" and select the Postman app from the results.
-3. Select **Configuration** on the left.
-4. Take the **ACS URL** from Postman and add it as your **SAML Consumer URL** in OneLogin.
+1. Search for "Postman" and select the Postman app from the results.
+1. Select **Configuration** on the left.
+1. Take the **ACS URL** from Postman and add it as your **SAML Consumer URL** in OneLogin.
 
     <img alt="OneLogin configuration application details" src="https://assets.postman.com/postman-docs/onelogin-configuration3.jpg"/>
 
-5. In Postman, select **Generate relay state** and add the generated value as the SAML RelayState in OneLogin.
+1. In Postman, select **Generate relay state** and add the generated value as the SAML RelayState in OneLogin.
 
     <img alt="Generate relay state in Postman" src="https://assets.postman.com/postman-docs/generate-relay-state-v9.14.jpg" width="350px"/>
 
-6. Select **SSO** on the left in OneLogin.
-7. Copy the **Issuer URL** and add it as the **Identity Provider Issuer** in Postman.
+1. Select **SSO** on the left in OneLogin.
+1. Copy the **Issuer URL** and add it as the **Identity Provider Issuer** in Postman.
 
     <img alt="OneLogin SSO Enable SAML 2.0" src="https://assets.postman.com/postman-docs/onelogin-sso.jpg"/>
 
-8. Copy the **SAML 2.0 Endpoint (HTTP)** and add it as **Identity Provider SSO URL** in Postman.
-9. Select **View Details** under **X.509 Certificate**. Copy the **X.509 Certificate** and add it under **X.509 Certificate** in Postman.
+1. Copy the **SAML 2.0 Endpoint (HTTP)** and add it as **Identity Provider SSO URL** in Postman.
+1. Select **View Details** under **X.509 Certificate**. Copy the **X.509 Certificate** and add it under **X.509 Certificate** in Postman.
 
-10. Select **Save Authentication** in Postman to complete the configuration.
+1. Select **Save Authentication** in Postman to complete the configuration.
 
 > If you encounter any issues, confirm you've added and saved the correct configuration values on both Postman and OneLogin. [Contact Postman support](https://www.postman.com/support/) for further help.
 
