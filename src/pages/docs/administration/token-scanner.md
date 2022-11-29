@@ -77,6 +77,7 @@ By default, the Token Scanner scans tokens issued by the following service provi
 * OpenSSH Private Key
 * PGP Private Key
 * Postman API Key
+* Postman Collection Access Key
 * RSA Private Key
 * SendGrid API Key
 * Sendinblue Key
