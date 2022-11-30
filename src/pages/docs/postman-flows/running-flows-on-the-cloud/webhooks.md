@@ -15,7 +15,7 @@ To create a flow that executes on the Postman servers, create a start block.
 
 ## Testing Flows locally
 
-Before starting, enter your test data and run it to see the output on your local console. Test data can be added by clicking the gear icon on the start block. The test data can either be in text or JSON format.
+Before starting, enter your test data and run it to see the output on your local console. Test data can be added by clicking the gear icon on the **Start** block. The test data can either be in text or JSON format.
 
 ![Testing Locally](https://assets.postman.com/postman-labs-docs/cloud-execution/running-flows-on-the-cloud-test-data.gif)
 
