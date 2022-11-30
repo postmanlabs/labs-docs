@@ -163,7 +163,7 @@ If it finds any potential security risks, Postman adds the number of warnings to
 
 <img alt="Security tab showing one warning" src="https://assets.postman.com/postman-docs/v10/api-response-security-tab-v10.jpg" width="900px"/>
 
-To view the list of security warnings and to get more information about specific warnings:
+To view the list of security warnings and to get more information about specific warnings, do the following:
 
 1. Select **Security** to view the warnings.
 1. For more details, select a warning to expand it.
@@ -173,7 +173,7 @@ To view the list of security warnings and to get more information about specific
 
 ### Hiding security warnings
 
-To turn a warning off for the current API response:
+To turn a warning off for the current API response, do the following:
 
 1. Select **Hide warning**.
 1. Choose a reason for hiding it, then select **Hide**.
@@ -184,7 +184,9 @@ This will turn the warning off for all members of your team, but only for this r
 
 <img alt="Select Hide warning in a security warning" src="https://assets.postman.com/postman-docs/v10/api-response-security-tab-hide-warning-v10.jpg" width="900px"/>
 
-When you or another member of your team has hidden a warning, Postman shows a message in the **Security** tab to indicate how many are hidden. To turn this warning back on later:
+When you or another member of your team has hidden a warning, Postman shows a message in the **Security** tab to indicate how many are hidden.
+
+To turn this warning back on later, do the following:
 
 1. Select **Review**.
 1. Review your hidden warnings and select the eye icon <img alt="Eye icon" src="https://assets.postman.com/postman-docs/eye.jpg#icon" width="16px"> next to the one you want to turn back on.

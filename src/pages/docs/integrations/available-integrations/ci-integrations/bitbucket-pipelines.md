@@ -75,7 +75,7 @@ Each time the pipeline runs, the Postman CLI runs the collections that contain y
 
 > Before you begin, make sure you’ve already [set up an integration](#configuring-a-bitbucket-pipelines-integration) between your API and Bitbucket Pipelines.
 
-To generate configuration code for the Postman CLI:
+To generate configuration code for the Postman CLI, do the following:
 
 1. Open your API version and select the **Test** tab.
 1. Under **CI/CD Builds**, select **View All Builds**.
@@ -87,7 +87,7 @@ To generate configuration code for the Postman CLI:
 
 <img alt="Generate the Postman CLI configuration" src="https://assets.postman.com/postman-docs/v10/generate-postman-cli-v10-2.jpg" width="548px">
 
-To add the Postman CLI configuration to your Bitbucket pipeline:
+To add the Postman CLI configuration to your Bitbucket pipeline, do the following:
 
 1. Edit the `bitbucket-pipelines.yml` file at the root of your Bitbucket repository.
 1. Add the Postman CLI configuration you copied from Postman to the `bitbucket-pipelines.yml` file:

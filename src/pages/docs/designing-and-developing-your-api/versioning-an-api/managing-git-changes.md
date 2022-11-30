@@ -56,7 +56,7 @@ Postman displays a limited set of branches in the list. If a branch isn't listed
 
 Feature branches enable you to work on changes to your API without affecting the default branch in your repository. When you create a new branch, Postman automatically makes it the active branch.
 
-To create a new branch in the remote repository:
+To create a new branch in the remote repository, do the following:
 
 1. Select **APIs** in the sidebar and select an API.
 1. Select the Git branch dropdown menu in the Postman footer.
@@ -73,7 +73,9 @@ To show or hide the commit history, select **Commits**. Expand a commit to see d
 
 ### Committing and pushing changes
 
-The **Source Control** pane displays the number of changes in the active branch in Postman. To commit and push the changes to the remote repository:
+The **Source Control** pane displays the number of changes in the active branch in Postman.
+
+To commit and push the changes to the remote repository, do the following:
 
 1. Select **APIs** in the sidebar and select an API.
 1. Select the source control icon <img alt="Source control icon" src="https://assets.postman.com/postman-docs/icon-source-control.jpg#icon" width="16px"/> in the right sidebar.
@@ -94,7 +96,7 @@ After you push a change, other producers on your team can switch to the branch, 
 
 Pulling brings changes from the remote (origin) branch into your active branch.
 
-To pull changes from the remote branch:
+To pull changes from the remote branch, do the following:
 
 1. Select **APIs** in the sidebar and select an API.
 1. Select the source control icon <img alt="Source control icon" src="https://assets.postman.com/postman-docs/icon-source-control.jpg#icon" width="16px"/> in the right sidebar. The pull icon <img alt="Pull icon" src="https://assets.postman.com/postman-docs/v10/icon-pull-v10.jpg#icon" width="36px"/> indicates the number of commits your active branch is behind the remote branch.
@@ -106,7 +108,7 @@ If there are any conflicts, you'll need to [resolve the conflicts](#resolving-co
 
 If a change in your active branch conflicts with a change in the remote (origin) branch, you must resolve the conflict before you can pull changes.
 
-To resolve a conflict:
+To resolve a conflict, do the following:
 
 1. Next to each affected file, select either **Keep remote file** or **Keep local file**.
 1. When you're finished, select **Pull Changes**.
@@ -119,7 +121,7 @@ To resolve a conflict:
 
 After you push changes to a branch, you can create a pull request (PR) to merge your changes into another branch. For example, if you are working on a feature branch, you can create a pull request to merge your changes into the repository's main branch.
 
-To create a pull request:
+To create a pull request, do the following:
 
 1. Select **APIs** in the sidebar and select an API.
 1. Select the source control icon <img alt="Source control icon" src="https://assets.postman.com/postman-docs/icon-source-control.jpg#icon" width="16px"/> in the right sidebar.

@@ -39,7 +39,7 @@ To view your reports dashboard:
 
 * Select **Home** in the Postman header, then select **Reports** from the team information section on the left.
 
-To access a specific API's report:
+To access a specific API's report, do the following:
 
 1. On the report dashboard, select **All APIs** > **View Report by API**.
 1. Search for the API name, or scroll through the list to find it.

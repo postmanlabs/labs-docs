@@ -94,7 +94,7 @@ Every change saved to your Postman collection automatically commits changes to y
 
 ## Backing up collections to GitHub Enterprise Server
 
-You can back up a Postman collection to a GitHub Enterprise Server repository on a custom domain. Follow the same step as [backing up collections to GitHub](#backing-up-collections-to-github) with the following differences:
+You can back up a Postman collection to a GitHub Enterprise Server repository on a custom domain. Follow the same step as [backing up collections to GitHub](#backing-up-collections-to-github) with the following differences.
 
 1. After searching for the GitHub integration in Postman, select **Add Integration** next to **Backup a collection (custom domain)**.
 

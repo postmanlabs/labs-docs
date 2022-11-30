@@ -86,8 +86,6 @@ You must have SSO configured before you can enable SCIM for your Postman team.
 
 ### Enabling SCIM in Postman
 
-To enable SCIM:
-
 1. Open [Postman](https://go.postman.co/home).
 1. Select **Team** in the upper right, then select **Team Settings**.
 1. Select **Authentication** in the sidebar.

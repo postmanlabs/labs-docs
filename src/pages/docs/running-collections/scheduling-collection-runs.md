@@ -149,7 +149,7 @@ When a scheduled run is triggered manually, it runs in the Postman Cloud. Runnin
 
 Many Postman users use collections as repositories of requests, which they run in different sequences to represent different workflows or different variations of the same workflow. The Collection Runner already enables you to change the order of your requests and skip requests before running them. Similarly, when scheduling your collection runs, you can re-order your requests and save this custom order to be run on a schedule. This enables you to use the same collection to automate multiple test scenarios.
 
-To change the request order in a scheduled run:
+To change the request order in a scheduled run, do the following:
 
 1. Select **Collections** in the sidebar and select the collection you want to schedule.
 

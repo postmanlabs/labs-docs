@@ -31,8 +31,6 @@ contextual_links:
 
 ## Connecting to Azure API Management
 
-To connect to Azure API Management in Postman:
-
 1. Select **APIs** in the sidebar and select an API.
 1. Select **Deployments**, and then select **Microsoft Azure**.
 1. You'll be prompted to authorize Postman to access your Microsoft Azure account. After you grant access, you can close the browser tab and return to Postman.

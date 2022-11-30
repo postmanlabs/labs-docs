@@ -59,7 +59,7 @@ With a paid Postman account, you have the option to allow monitoring overages. O
 
 Instead of paying for overages after reaching your monthly usage limit, you have the option to purchase additional blocks of monitoring calls. Purchasing blocks may offer savings compared the pay-as-you-go rate, depending on the number of monitoring calls your team makes.
 
-To purchase additional monitoring call blocks:
+To purchase additional monitoring call blocks, do the following:
 
 1. Select **Team > Resource Usage**.
 1. Under **Monitoring Usage**, select **View detailed usage** to open the [Monitoring Usage Details dashboard](https://go.postman.co/usage/monitors).

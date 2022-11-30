@@ -46,7 +46,7 @@ Add a collection to document your API or help others test your API's endpoints. 
 
 ### Adding a new collection
 
-To add a new collection to your API:
+To add a new collection to your API, do the following:
 
 1. Select **APIs** in the sidebar and select an API.
 1. On the API's overview, next to **Collections**, select **+** and select **Add new collection**.
@@ -54,7 +54,7 @@ To add a new collection to your API:
 
 ### Adding an existing collection
 
-To add an existing collection to your API:
+To add an existing collection to your API, do the following:
 
 1. Select **APIs** in the sidebar and select an API.
 1. On the API's overview, next to **Collections**, select **+** and select **Copy existing collection**.
@@ -64,7 +64,7 @@ The copy of the collection displays on your API's overview and under your API in
 
 ### Generating a collection
 
-To generate a new collection from your API definition:
+To generate a new collection from your API definition, do the following:
 
 1. Select **APIs** in the sidebar and select an API.
 1. On the API's overview, next to **Collections**, select **+** and select **Generate from definition**.
@@ -91,7 +91,7 @@ This makes a copy of the environment in your API, which is not synced with the o
 
 Collections added to an API can't be used with monitors, mock servers, or CI integrations. To use a collection in an API with these features, you must fork the collection.
 
-To fork a collection from an API:
+To fork a collection from an API, do the following:
 
 1. Select **APIs** in the sidebar and select an API.
 1. Select the collection in the sidebar.
@@ -101,7 +101,7 @@ To fork a collection from an API:
 
 ## Deleting elements from an API
 
-You can delete a collection from your API.
+To delete a collection from an API, do the following:
 
 1. Select **APIs** in the sidebar and select an API.
 1. In the sidebar, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to a collection and select **Delete**.

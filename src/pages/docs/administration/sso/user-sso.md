@@ -18,7 +18,7 @@ When your [Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#tea
 
 Your Team Admin can share a **Login URL** that was generated during the SSO configuration. The **Login URL** will automatically redirect you to your configured Identity Provider.
 
-To sign into Postman:
+To sign into Postman, do the following:
 
 1. Select **Sign In** in the upper-right corner of Postman
 1. Select **Home** in the upper-left, then select **Sign in**
