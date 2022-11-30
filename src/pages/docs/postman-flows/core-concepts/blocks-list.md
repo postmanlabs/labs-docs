@@ -155,7 +155,7 @@ Blocks available in Flows are detailed below.
 
 - **Select**
 
-  Parses a data stream to select a subset of the data available. If the input data is a from a send request with a saved example, will auto-fill the path as items are clicked in the menu. Otherwise can be nagivated using the foward-slash to select sub-items. For example `/body/results` for a field named results in the body of a request.
+  Parses a data stream to select a subset of the data available. If the input data is from a send request with a saved example, will auto-fill the path as items are clicked in the menu. Otherwise can be navigated using the forward slash to select sub-items. For example `/body/results` for a field named results in the body of a request.
 
   ![Select Block](https://assets.postman.com/postman-labs-docs/all-blocks/select-block.png)
 
