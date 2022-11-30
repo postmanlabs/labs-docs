@@ -65,21 +65,21 @@ Blocks available in Flows are detailed below.
 
   ![Evaluate Block](https://assets.postman.com/postman-labs-docs/all-blocks/evaluate-block.png)
 
-  **Variables:** Named data or assigned values that can then be accessed using FQL
+  **Variables:** Named data or assigned values that can then be accessed using FQL.
 
-  **Text entry block:** Free-form query using FQL
+  **Text entry block:** Freeform query using FQL.
 
-  **Out:** Outputs the result of the query
+  **Out:** Outputs the result of the query.
 
 - **Template**
 
-  Enables the free-hand structuring of data, such as the pasting of JSON data. Also supports [FQL](../../flows-query-language/introduction-to-fql/)
+  Enables the free-hand structuring of data, such as the pasting of JSON data. Also supports [FQL](../../flows-query-language/introduction-to-fql/).
 
   ![Template Block](https://assets.postman.com/postman-labs-docs/all-blocks/template-block.png)
 
-  **Variables:** Named data or assigned values that can then be accessed using FQL
+  **Variables:** Named data or assigned values that can then be accessed using FQL.
 
-  **Out:** Outputs the data entered in the textbox
+  **Out:** Outputs the data entered in the textbox.
 
 - **For**
 
@@ -87,11 +87,11 @@ Blocks available in Flows are detailed below.
 
   ![For Block](https://assets.postman.com/postman-labs-docs/all-blocks/for-block.png)
 
-  **List:** A list of values; for example `[1,2,3]` or `["one","two","three"]`
+  **List:** A list of values; for example `[1,2,3]` or `["one","two","three"]`.
 
-  **Start:** Receives an event to trigger the block to start
+  **Start:** Receives an event to trigger the block to start.
 
-  **Item:** Outputs a single item from the loop
+  **Item:** Outputs a single item from the loop.
 
 - **Collect**
 
@@ -99,11 +99,11 @@ Blocks available in Flows are detailed below.
 
   ![Collect Block](https://assets.postman.com/postman-labs-docs/all-blocks/collect-block.png)
 
-  **Item:** Takes in a single item from a for loop
+  **Item:** Takes in a single item from a for loop.
 
-  **List:** Creates a list of all items sent to this block in the for loop
+  **List:** Creates a list of all items sent to this block in the for loop.
 
-  **Finish:** Sends an event when the block is complete (when the for loop has ended and every item is in a new list)
+  **Finish:** Sends an event when the block is complete (when the for loop has ended and every item is in a new list).
 
 - **Repeat**
 
@@ -111,11 +111,11 @@ Blocks available in Flows are detailed below.
 
   ![Repeat Block](https://assets.postman.com/postman-labs-docs/all-blocks/repeat-block.png)
 
-  **Count:** The number of times to run the block
+  **Count:** The number of times to run the block.
 
-  **Start:** Triggers the block
+  **Start:** Triggers the block.
 
-  **Index:** The index of the current run starting at 0 for the first run
+  **Index:** The index of the current run starting at 0 for the first run.
 
 - **Log (Console)**
 

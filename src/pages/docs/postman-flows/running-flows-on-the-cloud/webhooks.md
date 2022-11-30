@@ -3,7 +3,7 @@ title: "Using Flows webhooks"
 updated: 2022-11-30
 ---
 
-To create a flow that executes on the Postman servers, create a start block.
+To create a flow that executes on the Postman servers, create a **Start** block.
 
 ![Start Block](https://assets.postman.com/postman-labs-docs/cloud-execution/running-flows-on-the-cloud-start.gif)
 
@@ -31,6 +31,6 @@ Select **Deploy** and your flow will now be running in the cloud. Selecting the 
 
 ## Trigger the webhook
 
-In the runs section, clicking **view** will allow the Flow running in the cloud to be observed and the logs will be visible in your client. Make a POST request to trigger the webhook endpoint and observe your Flow executing in the cloud.
+In the Runs section, select **View** to observe the flow running in the cloud. The logs will be visible in your client. Make a POST request to trigger the webhook endpoint and observe your flow executing in the cloud.
 
 ![Trigger the Endpoint](https://assets.postman.com/postman-labs-docs/cloud-execution/running-in-cloud.gif)
