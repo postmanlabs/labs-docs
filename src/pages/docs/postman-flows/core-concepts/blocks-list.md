@@ -61,7 +61,7 @@ Blocks available in Flows are detailed below.
 
 - **Evaluate**
 
-  Executes [FQL](../../flows-query-language/introduction-to-fql/) syntax to query structured data.
+  Executes [FQL](/docs/postman-flows/flows-query-language/introduction-to-fql/) syntax to query structured data.
 
   ![Evaluate Block](https://assets.postman.com/postman-labs-docs/all-blocks/evaluate-block.png)
 
