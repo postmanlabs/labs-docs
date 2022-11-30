@@ -81,7 +81,7 @@ To map Postman user attributes to Azure AD user attributes, do the following:
 
 To map Postman group attributes to Azure AD group attributes, do the following:
 
-1. In the Azure AD **Mappings** section, select **Yes** to turn on **Provision Azure Active Directory Groups** . This is the set of attribute mappings for group objects.
+1. In the Azure AD **Mappings** section, select **Yes** to turn on **Provision Azure Active Directory Groups**. This is the set of attribute mappings for group objects.
 1. (Optional) Under **Target Object Actions**, enable **Create**, **Update**, and **Delete**.
 1. (Optional) Under **Attribute Mappings**, select **Add New Mapping** to map the following attributes:
 
