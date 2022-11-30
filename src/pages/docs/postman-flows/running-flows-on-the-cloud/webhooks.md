@@ -19,7 +19,7 @@ Before starting, enter your test data and run it to see the output on your local
 
 ![Testing Locally](https://assets.postman.com/postman-labs-docs/cloud-execution/running-flows-on-the-cloud-test-data.gif)
 
-## Create a deploy
+## Deploy your flow
 
 Select **Deploy** and your flow will now be running in the cloud. Selecting the **Runs** section of the right-hand panel will display the deployed Flow was last updated. The webhook URL can be seen here as well as in the top left corner of the flow.
 
