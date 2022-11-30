@@ -21,7 +21,7 @@ Before starting, enter your test data and run it to see the output on your local
 
 ## Create a deploy
 
-Select **Deploy** and your Flow will now be running in the cloud. Selecting the **Runs** section of the right-hand panel will display the deployed Flow was last updated. The webhook url can be seen here as well as in the top left corner of the flow.
+Select **Deploy** and your flow will now be running in the cloud. Selecting the **Runs** section of the right-hand panel will display the deployed Flow was last updated. The webhook URL can be seen here as well as in the top left corner of the flow.
 
 > **Important**
 >
