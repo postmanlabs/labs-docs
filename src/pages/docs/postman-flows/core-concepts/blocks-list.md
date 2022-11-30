@@ -19,7 +19,7 @@ Blocks available in Flows are detailed below.
 
   **Send:** When any connection fires an event to this port, the block will invoke the specified request.
 
-  **Environment:** Lets you select which Postman Enviornment to use with your request.
+  **Environment:** Lets you select which Postman Environment to use with your request.
 
   **Body Type:** The schema that you data uses (for example JSON or XML). Auto will try to auto-detect which schema is being used.
 
