@@ -95,7 +95,7 @@ If you're having problems sending requests from Postman, see the topics below fo
 
 ### I can't send a request and my network requires a proxy
 
-Enable the [system proxy option](#using-the-system-proxy-for-requests) in Postman and make sure the proxy is configured for your operating system:
+Enable the [system proxy option](#using-the-system-proxy-for-requests) in Postman and make sure the proxy is configured for your operating system.
 
 * **Windows** - Open **Settings**, select **Network & Internet**, and select **Proxy**. Under **Manual proxy setup**, turn on the toggle. Enter the proxy address and port, and then select **Save**.
 

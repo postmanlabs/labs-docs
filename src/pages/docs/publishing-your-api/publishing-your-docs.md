@@ -101,8 +101,6 @@ If your collection is in a public workspace, others can search for and find your
 
 Change the publication settings for your documentation to update your documentation's look or make your collection public. You can change the publication settings at any time after publishing your documentation.
 
-To change the publication settings for your documentation, do the following:
-
 1. Select **Collections** in the sidebar.
 1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to a collection with published docs, and then select **View Documentation**.
 1. Select **Published** at the upper right, and then select **Edit published documentation**.

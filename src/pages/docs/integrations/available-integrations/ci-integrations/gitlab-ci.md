@@ -21,7 +21,7 @@ If you haven't already, create a pipeline in the GitLab repository you use for y
 
 ## Configuring a GitLab CI/CD integration
 
-To configure a GitLab CI/CD integration for Gitlab SaaS or GitLab self-managed, do the following:
+To start configuring a GitLab CI/CD integration for Gitlab SaaS or GitLab self-managed, do the following:
 
 1. Open your API by selecting **APIs** in the sidebar. *Each API can be linked to one CI project*.
     > **Tip:** If you've already authenticated with GitLab to connect a Git repo for source control, you can use the same authentication. To automatically create the integration, under **Test and Automation**, select **Connect to GitLab**.
@@ -29,7 +29,7 @@ To configure a GitLab CI/CD integration for Gitlab SaaS or GitLab self-managed, 
 1. Under **Automate**, select **GitLab SaaS** or **GitLab self-managed**.
 1. You'll be prompted to authorize Postman to access your GitLab account. After you grant access, you can close the browser tab and return to Postman.
 
-To configure a GitLab CI/CD integration for GitLab SaaS, do the following:
+To continue configuring a GitLab CI/CD integration for GitLab SaaS, do the following:
 
 1. Enter a **Nickname** to help you recognize the integration later. Postman pre-fills a nickname in the format `GitLab-{API_NAME}`, and you can edit it if you want.
 1. Select the GitLab **Workspace** with your API repository.
@@ -38,7 +38,7 @@ To configure a GitLab CI/CD integration for GitLab SaaS, do the following:
 
 <img alt="Connect to GitLab CI/CD" src="https://assets.postman.com/postman-docs/v10/gitlab-saas-connect-ci-cd-v10.jpg" width="571px" />
 
-For GitLab self-managed, do the following:
+To continue configuring a GitLab CI/CD integration for GitLab self-managed, do the following:
 
 1. Enter the URL of your GitLab self-managed domain.
 1. Enter your GitLab personal access token. When [creating your token](https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html), make sure to select the **api**, **read_api**, **read_user**, and **write_repository** scopes.

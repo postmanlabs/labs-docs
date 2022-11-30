@@ -22,8 +22,6 @@ This integration enables you to configure [Postman Monitors](/docs/monitoring-yo
 
 ## Get the Splunk On-Call API key
 
-To get a Splunk On-Call API key, do the following:
-
 1. Sign in to your Splunk On-Call account and select the **Integrations** tab.
    [![Sign in to Splunk On-Call](https://assets.postman.com/postman-docs/splunk-on-call-integrations-2.jpg)](https://assets.postman.com/postman-docs/splunk-on-call-integrations-2.jpg)
 1. On the **Integrations** page, search and select the **REST Generic** Integration.
@@ -31,9 +29,9 @@ To get a Splunk On-Call API key, do the following:
    [![View API key](https://assets.postman.com/postman-docs/splunk-on-call-copy-api-key.jpg)](https://assets.postman.com/postman-docs/splunk-on-call-copy-api-key.jpg)
 1. Copy the API Key and save it for later.
 
-If you are using teams in Splunk On-Call, you can route alerts to specific teams by pairing routing keys with escalation policies.
+## Routing alerts to specific teams
 
-To route alerts to specific teams, do the following:
+If you are using teams in Splunk On-Call, you can route alerts to specific teams by pairing routing keys with escalation policies.
 
 1. Select the **Settings** tab, then select **Routing Keys**.
    [![Routing keys](https://assets.postman.com/postman-docs/splunk-on-call-routing-keys-1.jpg)](https://assets.postman.com/postman-docs/splunk-on-call-routing-keys-1.jpg)
