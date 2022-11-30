@@ -440,7 +440,7 @@ export const leftNavItems = [
         ],
       },
       {
-        name: 'Running Flows on the Cloud',
+        name: 'Running flows on the cloud',
         subParentSlug: 'webhooks',
         slug: '/docs/postman-flows/running-flows-on-the-cloud/webhooks/',
         subMenuItems2: [
