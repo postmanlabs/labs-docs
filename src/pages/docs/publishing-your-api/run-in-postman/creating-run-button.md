@@ -102,7 +102,7 @@ data-postman-collection-url=":collection_url"></div>
 
 ## Using a Run in Postman Button
 
-Select the **Run in Postman** button to open the page where you can fork the collection to your workspace. [Forking the collection](/docs/collaborating-in-postman/version-control/#forking-postman-entities) into your workspace will enable you to contribute to the source collection using pull requests. You can also view the collection in a public workspace if you like and even import a copy of the collection using the links present on the screen. All collections shared with the new **Run in Postman** buttons come with [Fork counts](/docs/collaborating-in-postman/version-control/#viewing-fork-information), that help you and your consumers understand how developers use the API.
+Select the **Run in Postman** button to open the page where you can fork the collection to your workspace. [Forking the collection](/docs/collaborating-in-postman/using-version-control/forking-entities/) into your workspace will enable you to contribute to the source collection using pull requests. You can also view the collection in a public workspace if you like and even import a copy of the collection using the links present on the screen. All collections shared with the new **Run in Postman** buttons come with [Fork counts](/docs/collaborating-in-postman/using-version-control/forking-entities/#viewing-fork-information), that help you and your consumers understand how developers use the API.
 
 <img alt="Fork collection for run in postman" src="https://assets.postman.com/postman-docs/fork-collection-for-run-in-postman.jpg" height="400px"/>
 
