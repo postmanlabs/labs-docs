@@ -440,13 +440,13 @@ export const leftNavItems = [
         ],
       },
       {
-        name: 'Remote execution',
+        name: 'Running flows on the cloud',
         subParentSlug: 'webhooks',
-        slug: '/docs/postman-flows/remote-execution/webhooks/',
+        slug: '/docs/postman-flows/running-flows-on-the-cloud/webhooks/',
         subMenuItems2: [
           {
             name: 'Using Flows webhooks',
-            url: '/docs/postman-flows/remote-execution/webhooks/',
+            url: '/docs/postman-flows/running-flows-on-the-cloud/webhooks/',
           },
         ]
       },
