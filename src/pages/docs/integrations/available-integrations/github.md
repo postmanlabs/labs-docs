@@ -28,7 +28,7 @@ Back up your Postman collections to GitHub, a cloud-based hosting service for Gi
 
 Setting up a GitHub integration requires you to generate a GitHub personal access token and configure how you would like to back up your collections.
 
-> To import data into Postman from a GitHub repository, see [Importing from GitHub repositories](http://localhost:8000/docs/getting-started/importing-and-exporting-data/#importing-from-github-repositories).
+> To import data into Postman from a GitHub repository, see [Importing from GitHub repositories](/docs/getting-started/importing-and-exporting-data/#importing-from-github-repositories).
 
 ## Contents
 
