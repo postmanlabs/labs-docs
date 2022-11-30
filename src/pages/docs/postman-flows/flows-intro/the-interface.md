@@ -50,7 +50,7 @@ The context bar is the place where you'll see more information about your Flow a
 
   When your Flow encounters an error while running, you can read the logs in the **Execution issues** pane.
 
-  ![execution errors](https://assets.postman.com/postman-labs-docs/interface/updated-interface-execution-error.gif)
+  ![execution errors](https://assets.postman.com/postman-labs-docs/interface/updated-interface-execution-error-eval-block.gif)
 
 - **Forks**
 
