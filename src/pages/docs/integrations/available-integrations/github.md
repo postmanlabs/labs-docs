@@ -95,17 +95,17 @@ Every change saved to your Postman Collection automatically commits changes to y
 
 ## Backing up collections to GitHub on a custom domain
 
-Follow the same steps as [backing up a collection](#backing-up-collections-on-github) with the following differences:
+Follow the same steps as [backing up a collection](#backing-up-collections-on-github) with the following differences.
 
-* After searching for the GitHub integration in Postman, select **Add Integration** next to **Backup a collection (custom domain)**.
+1. After searching for the GitHub integration in Postman, select **Add Integration** next to **Backup a collection (custom domain)**.
 
-* Along with your personal access token, enter your GitHub custom domain, then select **Authenticate and Proceed**.
+1. Along with your personal access token, enter your GitHub custom domain, then select **Authenticate and Proceed**.
 
    <img alt="GitHub custom domain" src="https://assets.postman.com/postman-docs/integrations-github-custom-domain-pat.jpg" width="500px">
 
-* Configure the integration with your collection, repository, directory, file name, and branch.
+1. Configure the integration with your collection, repository, directory, file name, and branch.
 
-* To finish setting up the integration, select **Add Integration**.
+1. To finish setting up the integration, select **Add Integration**.
 
 ### Static IP support
 
