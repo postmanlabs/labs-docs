@@ -67,7 +67,7 @@ Blocks available in Flows are detailed below.
 
   **Variables:** Named data or assigned values that can then be accessed using FQL
 
-  **Text entry block:** Freeform query using FQL
+  **Text entry block:** Free-form query using FQL
 
   **Out:** Outputs the result of the query
 
