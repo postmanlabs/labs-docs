@@ -21,7 +21,7 @@ Blocks available in Flows are detailed below.
 
   **Environment:** Lets you select which Postman Environment to use with your request.
 
-  **Body Type:** The schema that you data uses (for example JSON or XML). Auto will try to auto-detect which schema is being used.
+  **Body Type:** The schema that your data uses (for example JSON or XML). Auto will try to auto-detect which schema is being used.
 
   **Variables:** Will auto-populate with any `{{variable}}` that is in the specified request. Variables can either be assigned a value in the block itself, or have a value passed in
 
