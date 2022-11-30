@@ -90,18 +90,25 @@ For more information on making and using a Run in Postman button, read [Creating
 
 ### Sharing using the Postman API
 
-You can share collections using the Postman API.
+To share a collection's JSON using the Postman API, do the following:
 
 <!-- vale Postman.Avoid = NO -->
 
 1. From the element you want to share, select <img alt="Share icon" src="https://assets.postman.com/postman-docs/icon-share.jpg#icon" width="16px"> **Share**.
 1. Select **Via API**.
-    * Select **Get collection JSON using Collection Access Key** to share the collection's JSON. Anyone with this link has read-only access to the collection's JSON. This Postman API endpoint serves the data that reflects the current state of the collection.
-    * Select **Link to collection in public workspace** to provide a link to the collection. Anyone with this link can view and fork your collection.
+1. Select **Get collection JSON using Collection Access Key**.
+1. Select **Generate New Key** to create a collection access key. The collection access key enables other users to have read-only access to the collection JSON.
+1. (Optional) Select **Manage keys** to view or revoke this collection access key on your API Key page. To learn more about collection access keys, see [Generating a collection access key](/docs/developer/intro-api/#generating-a-collection-access-key).
 
 <!-- vale Postman.Avoid = YES -->
 
+Anyone with this link has read-only access to the collection's JSON. The data that this Postman API endpoint serves reflects the current state of the collection.
+
 <img alt="Share a collection with a Run in Postman button" src="https://assets.postman.com/postman-docs/v10/share-collection-via-api-v10.jpg"/>
+
+If you want to share a link with other users, select **Link to collection in public workspace** to provide a link to the collection. Anyone with this link can view and fork your collection.
+
+<img alt="Share a collection with a Run in Postman button" src="https://assets.postman.com/postman-docs/v10/share-collection-link-v10.jpg"/>
 
 ## Sharing elements with external users
 
