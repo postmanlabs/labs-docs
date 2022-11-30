@@ -88,9 +88,9 @@ You can import Postman data you exported earlier, including collections, environ
 
 ### Converting Postman collections from v1 to v2
 
-Postman no longer supports the collection v1 format and will return an error if you import a collection in this format.
+Postman no longer supports the collection v1 format and will return an error if you import a collection in this format. You can convert your collection's format from v1 to v2 to import it into Postman.
 
-You can convert your collection's format from v1 to v2 to import it into Postman:
+To convert your collection's format from v1 to v2, do the following:
 
 1. In the terminal of your choice, enter the following command to install the Postman Collection Transformer.
 
@@ -122,7 +122,7 @@ To import your API specifications into Postman, see [Importing an API](/docs/des
 
 > You must sign in to a [Postman account](/docs/getting-started/postman-account/#signing-up-for-a-postman-account) to use this feature.
 
-You can import data in bulk from a GitHub repository.
+To import data in bulk from a GitHub repository, do the following:
 
 1. In Postman, select **Import** > **Code repository** > **GitHub**.
 
@@ -140,7 +140,7 @@ You will receive a confirmation once the import has completed. You can view your
 
 > You must sign in to a [Postman account](/docs/getting-started/postman-account/#signing-up-for-a-postman-account) to use this feature.
 
-You can import data in bulk from a Bitbucket repository.
+To import data in bulk from a Bitbucket repository, do the following:
 
 1. In Postman, select **Import** > **Code repository** > **Bitbucket**.
 
@@ -156,7 +156,7 @@ You will receive a confirmation once the import has completed. You can now view 
 
 > You must sign in to a [Postman account](/docs/getting-started/postman-account/#signing-up-for-a-postman-account) to use this feature.
 
-You can import data in bulk from a GitLab repository.
+To import data in bulk from a GitLab repository, do the following:
 
 1. In Postman, select **Import** > **Code repository** > **GitLab**.
 
@@ -172,7 +172,9 @@ You will receive a confirmation once the import has completed. You can now view 
 
 > You must sign in to a [Postman account](/docs/getting-started/postman-account/#signing-up-for-a-postman-account) to use this feature.
 
-You can import data in bulk from a Azure DevOps repository. Before you begin, make sure to enable third-party application access for your organization. If you don't enable third-party access, Postman won't be able to connect to your repo. In Azure DevOps, go to your [organization settings](https://docs.microsoft.com/en-us/azure/devops/organizations/accounts/change-application-access-policies?view=azure-devops), select **Policies**, and turn on the toggle next to **Third-party application access via OAuth**.
+Before you begin, enable third-party application access for your organization. If you don't enable third-party access, Postman won't be able to connect to your repo. In Azure DevOps, go to your [organization settings](https://docs.microsoft.com/en-us/azure/devops/organizations/accounts/change-application-access-policies?view=azure-devops), select **Policies**, and turn on the toggle next to **Third-party application access via OAuth**.
+
+To import data in bulk from a Azure DevOps repository, do the following:
 
 1. In Postman, select **Import** > **Code repository** > **Azure**.
 

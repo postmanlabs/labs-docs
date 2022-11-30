@@ -67,6 +67,8 @@ Postman automatically generates basic documentation for any collection you creat
 
 To make your documentation even more valuable to users, [add descriptions](/docs/publishing-your-api/authoring-your-documentation/) to the items in your collection. Any descriptions you add are automatically included in the documentation for your collection.
 
+To add a description, do the following:
+
 1. Select **Collections** in the sidebar, and then select a collection, folder, or request.
 1. Select the documentation icon <img alt="Documentation icon" src="https://assets.postman.com/postman-docs/documentation-icon-v8-10.jpg#icon" width="16px"> in the right sidebar.
 1. Select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px"> next to the description.
@@ -90,7 +92,7 @@ If you are [designing an API](/docs/designing-and-developing-your-api/developing
 
 The API documentation includes complete API, path, and operation information, such as authentication methods, parameters, request bodies, response bodies and headers, and examples. The documentation also includes information for various data models, such as required attributes, default, minimum, and maximum values, and other constraints.
 
-To view the documentation for an OpenAPI 3.0 API:
+To view the documentation for an OpenAPI 3.0 API, do the following:
 
 1. Select **APIs** in the sidebar and select an API.
 1. On the API's overview, under **Definition**, select **View schema documentation**.
@@ -99,7 +101,7 @@ To view the documentation for an OpenAPI 3.0 API:
 
 ### Creating new documentation for an API
 
-To generate a new collection for API documentation:
+To generate a new collection for API documentation, do the following:
 
 1. Select **APIs** in the sidebar and select an API.
 1. On the API's overview, next to **Collections**, select **+** and select **Generate from API definition**.
@@ -112,7 +114,7 @@ The new collection displays on your API's overview and under your API in the sid
 
 ### Adding existing documentation to an API
 
-To use an existing collection for API documentation:
+To use an existing collection for API documentation, do the following:
 
 1. Select **APIs** in the sidebar and select an API.
 1. On the API's overview, next to **Collections**, select **+** and select **Copy existing collection**.
@@ -128,6 +130,8 @@ The copy of the collection displays on your API's overview and under your API in
 
 You can add to your API documentation collections from the API Builder.
 
+To edit a documentation collection for an API, do the following:
+
 1. Select **APIs** in the sidebar and select an API.
 1. On the API's overview, expand a collection and select **View full documentation**.
 1. Select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px"> next to any description and use [the built-in editing tools](/docs/publishing-your-api/authoring-your-documentation/) to author content.
@@ -138,7 +142,7 @@ You can add to your API documentation collections from the API Builder.
 
 ### Deleting API documentation
 
-To delete a documentation collection from an API:
+To delete a documentation collection from an API, do the following:
 
 1. Select **APIs** in the sidebar and select an API.
 1. On the API's overview, hover over a collection and select the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px">.
@@ -150,7 +154,7 @@ An [environment](/docs/sending-requests/managing-environments/) is a set of rela
 
 Anyone using your collection will be able to view the variables in the documentation if the associated environment is also shared with them. For public documentation, you can select an environment during the [publishing process](/docs/publishing-your-api/publishing-your-docs/). Publishing an environment makes it available to anyone [viewing public documentation](/docs/publishing-your-api/viewing-documentation/).
 
-To use an environment variable in your documentation:
+To use an environment variable in your documentation, do the following:
 
 1. [Create a new environment](/docs/sending-requests/managing-environments/#creating-environments) if one doesn't already exist.
 1. Make the environment active by selecting it in the [environment dropdown list](/docs/sending-requests/managing-environments/#selecting-an-active-environment).

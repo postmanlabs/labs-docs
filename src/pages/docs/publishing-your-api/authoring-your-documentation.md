@@ -56,7 +56,7 @@ To help your teammates ([or the world](/docs/publishing-your-api/publishing-your
 
 Use descriptions to tell people who use your collection more about what your collection does and the purpose of each request. Structure your descriptions with headings and add content such as text, tables, images, and links.
 
-To add or edit the description for an existing collection, folder, or request:
+To add or edit the description for an existing collection, folder, or request, do the following:
 
 1. Select **Collections** in the sidebar, and then select a collection, folder, or request.
 1. Select the documentation icon <img alt="Documentation icon" src="https://assets.postman.com/postman-docs/documentation-icon-v8-10.jpg#icon" width="16px"> in the right sidebar.

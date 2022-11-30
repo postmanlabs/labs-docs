@@ -36,7 +36,9 @@ _Custom reporters_ are useful to generate collection run reports with Newman tha
 
 ## Building custom reporters
 
-A custom reporter is a Node.js module with a name of the form `newman-reporter-<name>`. To create a custom reporter:
+A custom reporter is a Node.js module with a name of the form `newman-reporter-<name>`.
+
+To create a custom reporter, do the following:
 
 1. In the directory of your choice, create a blank npm package with `npm init`.
 

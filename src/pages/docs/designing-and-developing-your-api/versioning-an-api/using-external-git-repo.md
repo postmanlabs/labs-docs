@@ -74,7 +74,7 @@ Keep in mind the following when connecting to a repository:
 
 ### Connecting to a cloud-hosted repository
 
-To connect a GitHub, Bitbucket, GitLab, or Azure DevOps repository hosted in the cloud:
+You can connect to a GitHub, Bitbucket, GitLab, or Azure DevOps repository hosted in the cloud.
 
 1. Select **APIs** in the sidebar and select an API.
 1. Under **Connect repository**, select **Connect** and select the type of repository you want to connect to.
@@ -102,7 +102,7 @@ To connect a GitHub, Bitbucket, GitLab, or Azure DevOps repository hosted in the
 
 > **Use the Postman desktop app to connect to GitHub Enterprise Server.** You can't use the Postman web app to connect to an on-premises GitHub repository.
 
-To connect to a GitHub Enterprise Server, GitLab Self-Managed, or Azure DevOps Server repository hosted on-premises:
+You can connect to a GitHub Enterprise Server, GitLab Self-Managed, or Azure DevOps Server repository hosted on-premises.
 
 1. Select **APIs** in the sidebar and select an API.
 1. Under **Connect repository**, select **Connect** and select the type of repository you want to connect to.

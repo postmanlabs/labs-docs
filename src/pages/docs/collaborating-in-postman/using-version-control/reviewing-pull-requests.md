@@ -125,8 +125,6 @@ After you approve the pull request, its status in the list of pull requests is `
 
 You can keep your forked collections and environments up to date with any changes to the parent element, for example if another team member has merged changes into the parent element.
 
-To pull updates from a parent element during the pull request process, do the following:
-
 1. [Create the pull request.](/docs/collaborating-in-postman/using-version-control/creating-pull-requests/#creating-pull-requests) Postman will warn you that the parent element has changed since you last updated it.
 1. Select **Pull Changes** to update your fork with the changes to the parent element.
 
@@ -141,8 +139,6 @@ To pull updates from a parent element without opening a pull request, see [Pulli
 ## Merging changes from a pull request
 
 When you're ready to add the changes from a pull request, you'll _merge_ them into the parent collection or environment. After the requested reviewer approves a pull request, you can merge it into the parent element.
-
-To merge changes from a pull request, do the following:
 
 1. From the approved pull request, select **Merge**.
 

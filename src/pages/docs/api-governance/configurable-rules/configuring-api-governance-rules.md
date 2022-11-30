@@ -21,8 +21,6 @@ You can customize the API Governance rules that Postman applies to your [API def
 
 ## Accessing the configurable API Governance rules
 
-To access the configurable API Governance rules:
-
 1. Go to the [Postman home screen](https://go.postman.co/).
 1. Select **API Governance** from the team information panel.
 

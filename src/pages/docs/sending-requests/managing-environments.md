@@ -268,7 +268,7 @@ With the Editor role, you can [configure access for other team members](#managin
 
 ### Forking environments
 
-You can fork environments to change them without impacting their base versions, or to contribute to their development without having Editor access. To fork an environment:
+You can fork environments to change them without impacting their base versions, or to contribute to their development without having Editor access.
 
 1. Hover over the environment in the sidebar and select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px">.
 2. Select **Create a Fork**.
@@ -279,7 +279,7 @@ You can edit your environment fork and use it as needed, or you can [create a pu
 
 ### Viewing pull requests, forks, and environment details
 
-You can view all pull requests, forks, and details about an environment from the right sidebar:
+You can view all pull requests, forks, and details about an environment from the right sidebar.
 
 * To view pull requests, select the pull request icon <img alt="Pull request icon" src="https://assets.postman.com/postman-docs/icon-pull-request.jpg#icon" width="16px">
 * To view forks, select the fork icon <img alt="Fork icon" src="https://assets.postman.com/postman-docs/icon-fork.jpg#icon" width="16px">

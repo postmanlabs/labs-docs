@@ -43,8 +43,6 @@ Postman recommends that you follow API Governance and API Security rules when yo
 
 ## Viewing governance and security rule violations in the API definition
 
-To inspect any API Governance or API Security rule violations that Postman finds in an API's definition:
-
 1. Select **APIs** in the sidebar, and then select the API you want to review.
 1. From the API overview page, select **View files** in the **Definition** section.
 
