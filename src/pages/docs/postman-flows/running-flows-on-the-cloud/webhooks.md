@@ -3,7 +3,7 @@ title: "Using Flows webhooks"
 updated: 2022-11-30
 ---
 
-To create a Flow that executes on the Postman servers, create a start block.
+To create a flow that executes on the Postman servers, create a start block.
 
 ![Start Block](https://assets.postman.com/postman-labs-docs/cloud-execution/running-flows-on-the-cloud-start.gif)
 
