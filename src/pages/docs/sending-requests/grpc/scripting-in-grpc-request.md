@@ -11,8 +11,8 @@ contextual_links:
 
 Postman has a powerful scripting environment that allows you to add JavaScript code (scripts) in your gRPC requests. You can define scripts for two hooks available during the request execution lifecycle:
 
-1. Before invoking the method and establishing a connection with the server, under the **Before invoke** tab.
-2. After closing the connection with the server, under the **After response** tab.
+* Before invoking the method and establishing a connection with the server, under the **Before invoke** tab.
+* After closing the connection with the server, under the **After response** tab.
 
 You can use scripts to write API tests, debug your requests (by logging to [Postman Console](/docs/sending-requests/troubleshooting-api-requests/), or even dynamically read/update the values of [variables](/docs/sending-requests/variables/).
 

@@ -70,8 +70,6 @@ Once the integration has been created, you can view the integration you created 
 
 ### Send updates for a Postman Collection to a custom webhook
 
-To send updates for a Postman Collection to a custom webhook:
-
 1. In the **Webhooks Integrations** page, next to **Backup a collection**, select **Add Integration**.
 1. In the **Add integration** page:
    * Enter a **Nickname** for the integration.
@@ -102,8 +100,6 @@ The following is a schema for the backup a collection webhook:
 ## Send monitor results to custom webhooks
 
 Postman Monitors enable you to run your collections on a schedule without any manual intervention. With the custom webhooks, you can use those results by connecting to other available services.
-
-To send monitor run results to custom webhooks:
 
 1. In the **Webhooks Integrations** page, next to **Post monitoring results**, select **Add Integration**.
 2. In the **Add integration** page:
@@ -197,8 +193,6 @@ The following is a schema for monitor run results:
 ## Send a team activity feed to custom webhooks
 
 The activity feed is where you can track changes made to your collections and within your team.
-
-To send a team activity feed to a custom webhook:
 
 1. In the **Webhooks Integrations** page, next to **Post team activity**, select **Add Integration**.
 2. In the **Add integration** page:

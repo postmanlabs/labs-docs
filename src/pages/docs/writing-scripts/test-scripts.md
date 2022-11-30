@@ -82,8 +82,6 @@ To add tests to a request, open the request and enter your code in the **Tests**
 
 ### Adding tests to gRPC requests
 
-To add tests to gRPC requests:
-
 1. Go to the **Scripts** tab in your gRPC request.
 2. Select the execution hook (**Before invoke** or **After response**) to which you want to add a test.
 3. Use [snippets](#using-snippets) from the right panel to add a test or write customized assertion.

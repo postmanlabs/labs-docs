@@ -60,7 +60,7 @@ Anyone in the Postman community can access a _public workspace_. A public worksp
 
 Before other Postman users can work with your team in a public workspace, your team needs to have a public profile. A public team profile will encourage others to collaborate with you in a public workspace, allow you to ask for contributions and gather feedback, and will help increase your API's discovery in search results. A public team profile will also show up on the [Public API Network](https://www.postman.com/explore).
 
-To make your [team profile](https://go.postman.co/settings/team/general) public:
+To make your [team profile](https://go.postman.co/settings/team/general) public, do the following:
 
 1. In the upper-right corner of Postman next to your avatar, select **Team** > **Team settings**.
 1. Select **Team profile**.
@@ -78,7 +78,7 @@ For more tips on how to create a public profile, see [How to create your Postman
 
 ## Creating a public workspace
 
-To create a new public workspace:
+To create a public workspace, do the following:
 
 1. Select **Workspaces** from the header, then select **Create Workspace**.
 
@@ -92,7 +92,7 @@ To create a new public workspace:
 
 > Within a team, you can't have two public workspaces with the same name.
 
-To convert an existing workspace to a public workspace:
+To convert an existing workspace to a public workspace, do the following:
 
 1. Open the workspace. In the **Overview** tab, select **Workspace Settings** in the upper right.
 1. Under **Visibility**, select **Public**.
@@ -126,7 +126,7 @@ For more information on using a public workspace to help increase adoption of yo
 
 You can share a public workspace by giving collaborators its **workspace URL** directly.
 
-To access a workspace's URL:
+To access a workspace's URL, do the following:
 
 1. Go to the workspace **Overview** page.
 1. Hover over the workspace name to reveal the link icon <img alt="Link icon" src="https://assets.postman.com/postman-docs/icon-workspace-link-v9.jpg#icon" width="18px">.
@@ -152,7 +152,7 @@ Users with an [Admin role](/docs/collaborating-in-postman/roles-and-permissions/
 
 You can move Postman elements from your personal, private, or team workspace into a public workspace. You must have an [Admin or Editor role](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles) for the public workspace to move elements to it.
 
-To move an existing element to a public workspace:
+To move an existing element to a public workspace, do the following:
 
 1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the collection or environment name, then select **Move**.
 1. Select the public workspace to which you want to move the collection or environment, then select **Move Collection** or **Move Environment**.
@@ -167,7 +167,7 @@ The Postman element that you move to the public workspace will no longer exist i
 
 ### Deleting elements from a public workspace
 
-You can delete Postman elements from a public workspace for which you have an [Admin or Editor role](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles):
+You can delete Postman elements from a public workspace for which you have an [Admin or Editor role](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles).
 
 1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the element's name, then select **Delete**.
 1. Select **Delete** to confirm your choice.

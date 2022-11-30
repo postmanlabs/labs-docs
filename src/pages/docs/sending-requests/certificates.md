@@ -59,7 +59,7 @@ To avoid "self signed certificate" errors when sending requests, add your custom
 
 ### Adding client certificates
 
-To send requests to an API that uses mutual TLS authentication, add your client certificate to Postman:
+To send requests to an API that uses mutual TLS authentication, add your client certificate to Postman.
 
 1. Select **Add Certificate**.
 1. Enter the **Host** domain for the certificate (don't include the protocol). For example, enter `postman-echo.com` to send requests to the [Postman Echo API](https://www.postman.com/postman/workspace/published-postman-templates/documentation/631643-f695cab7-6878-eb55-7943-ad88e1ccfd65).
@@ -110,9 +110,9 @@ You can view more certificate details in the response pane. The network icon <im
 
 ### Troubleshooting certificate errors
 
-If certificate verification fails when sending a request, Postman displays an error message in the response pane.
+If certificate verification fails when sending a request, Postman displays an error message in the response pane. To fix the error, turn off SSL verification for the request.
 
-To fix the error, turn off SSL verification for the request:
+To turn off SSL verification for the request, do the following:
 
 1. Open the request and select the **Settings** tab.
 1. Select **Enable SSL certificate verification** to turn off this setting.

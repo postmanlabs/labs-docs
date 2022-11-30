@@ -99,7 +99,7 @@ To unhide the diff, select the more actions icon <img alt="More actions icon" sr
 
 You can use the [changelog](#viewing-the-collection-changelog) to restore a collection to an earlier point in time.
 
-To restore a collection from the changelog:
+To restore a collection from the changelog, do the following:
 
 1. Select a session to expand it.
 2. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the change you'd like to restore your collection to, then select **Restore to this change**.

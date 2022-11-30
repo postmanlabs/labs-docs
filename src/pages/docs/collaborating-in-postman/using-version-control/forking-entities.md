@@ -92,8 +92,6 @@ To access the list of forks for a collection, environment, or flow, do the follo
 
 You can pull updates from a parent element into a fork without going through the [pull request process](/docs/collaborating-in-postman/using-version-control/creating-pull-requests/).
 
-To pull updates from a parent element without opening a pull request, do the following:
-
 1. Hover over the fork in the sidebar.
 1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to its name.
 1. Select **Pull changes**.

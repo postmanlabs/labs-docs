@@ -53,8 +53,6 @@ You can configure the Collection Runner to meet your development needs. You can 
 
 ## Configuring a collection run
 
-To configure a collection run:
-
 1. Select **Collections** in the sidebar and select the collection you want to run.
 1. On the overview tab, select <img alt="Runner icon" src="https://assets.postman.com/postman-docs/icon-runner-v9.jpg#icon" width="16px"> **Run**.
 
@@ -92,7 +90,7 @@ When running collections manually, Postman displays a summary of your request ex
 
 ![Collection Runner results](https://assets.postman.com/postman-docs/v10/collection-run-results-summary-v10.jpg)
 
-To access more data about what happened when a request executed:
+To access more data about what happened when a request executed, do the following:
 
 1. Select **View Results**.
 
@@ -157,7 +155,7 @@ You can share collection run results with others by exporting the results from t
 
 > The **Export Results** button is available in the Postman desktop app but not in the web version. <!-- TODO: Add procedure for sharing results in web version-->
 
-To export a collection run:
+To export a collection run, do the following:
 
 1. Open the collection run in the __Runner__. You can also access the collection run using __History__ in the sidebar if you don't have the run open.
 1. Select __Export Results__ at the top right to download the run.

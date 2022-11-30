@@ -108,7 +108,7 @@ You can use custom alerts to scan your team's proprietary tokens and any third-p
 
 Your team can add a total of five alerts. You must be a **Community Manager** or member with both **Developer** and **Admin** roles to add custom alerts.
 
-To add custom alerts:
+To add custom alerts, do the following:
 
 1. Go to **Team** > **Team Settings** > **Token scanner**.
 2. In the **Custom alerts** section, select **Add Alert**.
