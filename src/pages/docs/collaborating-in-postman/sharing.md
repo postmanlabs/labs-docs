@@ -104,7 +104,7 @@ To share a collection's JSON using the Postman API, do the following:
 
 Anyone with this link has read-only access to the collection's JSON. The data that this Postman API endpoint serves reflects the current state of the collection.
 
-> **Inactive link expiration.** Collection JSON links expire after 60 days of inactivity.
+> Collection JSON links expire after 60 days of inactivity.
 
 <img alt="Share a collection with a Run in Postman button" src="https://assets.postman.com/postman-docs/v10/share-collection-via-api-v10.jpg"/>
 
