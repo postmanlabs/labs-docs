@@ -13,7 +13,7 @@ require('dotenv').config({
   path: `.env.${process.env.NODE_ENV}`,
 });
 
-const host = process.env.BFF_FOOTER_URL || ''
+const host = 'https://www.postman.com/mkapi/footer.json' || ''
 
 function fetchFooter() {
   if (host) {
