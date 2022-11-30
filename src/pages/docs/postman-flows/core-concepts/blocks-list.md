@@ -23,7 +23,7 @@ Blocks available in Flows are detailed below.
 
   **Body Type:** The schema that your data uses (for example JSON or XML). Auto will try to auto-detect which schema is being used.
 
-  **Variables:** Will auto-populate with any `{{variable}}` that is in the specified request. Variables can either be assigned a value in the block itself, or have a value passed in
+  **Variables:** Will auto-populate with any `{{variable}}` that is in the specified request. Variables can either be assigned a value in the block itself, or have a value passed in.
 
   **Success:** Contains the response of a successful (If tests are assigned to the request and all pass or, in the absence of tests, a 2xx HTTP status code is received) API call which can then be connected to another block or variable value to extract a field from the response.
 
