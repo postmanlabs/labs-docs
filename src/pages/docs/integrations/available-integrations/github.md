@@ -116,7 +116,7 @@ Contact your IT team to allowlist the following static IP in your firewall:
 
 Once you allowlist this IP address, the collection backup integration will be able to connect to your private network.
 
-> The **Backup a collection (custom domain)** integration requires the ability to reach the static IP address `3.212.102.200` from the network where your GitHub Enterprise Server instance is hosted. If your server instance is in a VPC, you may need to change the VPC's network access control list or rules.
+> The **Backup a collection (custom domain)** integration requires the ability to reach the static IP address `3.212.102.200` from the network where your GitHub Enterprise Server instance is hosted. If your server instance is in a virtual private cloud (VPC), you may need to change the VPC's network access control list or rules.
 
 ## Troubleshooting the GitHub integration
 
