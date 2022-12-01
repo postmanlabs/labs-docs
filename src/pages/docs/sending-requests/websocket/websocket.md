@@ -77,13 +77,13 @@ When you have finished composing your message, select **Send**. The sent message
 
 You can also save composed messages, then re-send them later.
 
-To save a message:
+To save a message, do the following:
 
 1. Compose a message (see [Sending messages](#sending-messages)).
 1. Select **Save Message**.
 1. The message title ("New Message" by default) is editable. Enter a new title and press Return.
 
-To load a saved message:
+To load a saved message, do the following:
 
 1. Open the **Saved Messages** pane next to the editor pane.
 1. Select a saved message. It will be loaded into the editor pane.
@@ -190,7 +190,7 @@ The following settings can be configured for your WebSocket request:
 
 You can save your WebSocket requests into a collection. This enables you to reuse requests, share them with other team members, and add documentation to the collection of requests.
 
-To save a request:
+To save a request, do the following:
 
 1. Select **Save** in the request tab.
 1. In **Save request**, under **Save to**, select a collection, or select **Create collection**. (Note that there are limitations to WebSocket requests in collections. Keep reading for more information.)
@@ -209,7 +209,7 @@ When in this state, a collection can contain WebSocket or gRPC requests. It can'
 
 Postman automatically generates documentation for each of your requests. The documentation includes the request's URL, parameters, settings, and any saved messages. You can also add a description to help users understand and use the request.
 
-To view and edit documentation for a WebSocket request:
+To view and edit documentation for a WebSocket request, do the following:
 
 1. Open the request.
 1. Select the documentation icon <img alt="Documentation icon" src="https://assets.postman.com/postman-docs/documentation-icon-v8-10.jpg#icon" width="16px"> in the right sidebar.

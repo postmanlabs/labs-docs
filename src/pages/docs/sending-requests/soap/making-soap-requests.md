@@ -76,6 +76,8 @@ When you select an XML body type, Postman automatically adds a content type head
 
 If you are following along with the number conversion SOAP API example, you need to change the content type header to `text/xml`.
 
+To set request headers, do the following:
+
 1. Open the request __Headers__. If the auto-generated headers are hidden, select the notice to display them.
 1. Deselect the `Content-Type` header Postman added automatically.
 1. Add a new row with `Content-Type` in the __Key__ field and `text/xml` in the __Value__ field.

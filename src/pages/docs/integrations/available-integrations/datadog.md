@@ -44,7 +44,7 @@ Setting up a Datadog integration requires you to get an API key from Datadog and
 
 1. From the **[Home](https://go.postman.co/home)** page select **[Integrations](https://go.postman.co/integrations)**.
 
-    ![home page and integrations](https://assets.postman.com/postman-docs/home-integrations.jpg)
+    <img alt="Home page and integrations" src="https://assets.postman.com/postman-docs/v10/home-integrations-v10.jpg" width="390px">
 
 1. Search and select **Datadog**.
 1. You can select **View All** for a list of all the integrations already created by your team.
@@ -109,7 +109,9 @@ Postman sends tags to Datadog along with each metric and event. Tags enable you 
 
 Postman is now a Datadog Technology Partner. Postman’s Integration is listed on Datadog’s Integrations page. To enable the partnership, the metrics being emitted by Postman have been renamed as described above.
 
-If you have previously created any integrations, you must update them to take the advantage of the integration listing on Datadog. To update existing integrations:
+If you have previously created any integrations, you must update them to take the advantage of the integration listing on Datadog.
+
+To update existing integrations, do the following:
 
 1. Go to the [Post monitoring results](https://go.postman.co/integrations/service/datadog/monitor_run_datadog) page.
 

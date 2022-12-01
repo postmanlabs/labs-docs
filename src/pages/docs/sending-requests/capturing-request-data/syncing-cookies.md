@@ -50,6 +50,8 @@ Postman Interceptor is a Chrome extension that captures network requests directl
 
 > The cookie jar always has the latest value for a given cookie. If you need to observe how cookie values change during a request flow, start an [Interceptor debug session](/docs/sending-requests/capturing-request-data/interceptor/).
 
+To sync cookies using the Postman Interceptor, do the following:
+
 1. Install the Postman Interceptor Chrome extension by following the steps in [Installing Interceptor](/docs/sending-requests/capturing-request-data/interceptor/#installing-interceptor).
 
 1. Select <img alt="Cookies icon" src="https://assets.postman.com/postman-docs/icon-cookies.jpg#icon" width="16px"> **Cookies** in the Postman footer.
@@ -76,6 +78,8 @@ Postman is ready to capture and sync cookies using Interceptor.
 A proxy acts as an intermediary between a client application (like a mobile app) and a server (like an API). You can use Postman's built-in proxy to capture any cookies passing between a client and a server. The captured cookies are synced to the [Postman cookie jar](/docs/sending-requests/cookies/) for later use.
 
 > The cookie jar always has the latest value for a given cookie. If you need to observe how cookie values change during a request flow, start a [proxy debug session](/docs/sending-requests/capturing-request-data/capturing-http-requests/).
+
+To sync cookies using the Postman proxy, do the following:
 
 1. Select <img alt="Cookies icon" src="https://assets.postman.com/postman-docs/icon-cookies.jpg#icon" width="16px"> **Cookies** in the Postman footer.
 1. In the **Cookies** window, select the **Sync Cookies** tab and select the **Proxy** option.

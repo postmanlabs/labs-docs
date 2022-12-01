@@ -1,11 +1,11 @@
 ---
 title: "List of blocks"
-updated: 2022-11-17
+updated: 2022-11-30
 ---
 
 The [blocks](../blocks/) available in Postman Flows are described below.
 
-![All the Blocks](https://assets.postman.com/postman-labs-docs/all-blocks/updated-all-blocks.png)
+![All the Blocks](https://assets.postman.com/postman-labs-docs/all-blocks/combined-all-blocks.png)
 
 ## Contents
 
@@ -29,7 +29,9 @@ The [blocks](../blocks/) available in Postman Flows are described below.
 
 * **Create Variable**
 
-  Assigns a value to a variable that can then be accessed with the **Get Variable** block anywhere in the Flow.
+  Assigns a value to a variable that can then be accessed with the **Get Variable** block anywhere in the Flow. The input is any value.
+
+  ![Create Varibale Block](https://assets.postman.com/postman-labs-docs/all-blocks/create-variable-block.png)
 
 * **Record**
 

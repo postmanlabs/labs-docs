@@ -95,7 +95,7 @@ To delete a domain and all cookies associated with it, select <img alt="Close ic
 
 When you add a domain to the allowlist, cookies for that domain can be accessed in scripts.
 
-To add a domain to the allowlist:
+To add a domain to the allowlist, do the following:
 
 1. Open a request, then select **Cookies** (under **Send**).
 1. In the **Manage Cookies** window, select **Domains Allowlist**.
