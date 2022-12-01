@@ -29,7 +29,7 @@ The following topics will help you get started or learn about core concepts of F
 
 * [Blocks](/docs/postman-flows/core-concepts/blocks/)
 * [Messages](/docs/postman-flows/core-concepts/messages/)
-* [Data Types](/docs/postman-flows/core-concepts/data-types/)
+* [Data types](/docs/postman-flows/core-concepts/data-types/)
 
 ## Contribute
 
