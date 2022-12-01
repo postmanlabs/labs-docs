@@ -42,7 +42,7 @@ If you are using teams in Splunk On-Call, you can route alerts to specific teams
 
 1. On the **[Home](https://go.postman.co/home)** page, select **[Integrations](https://go.postman.co/integrations)**.
 
-    ![Home page and integrations](https://assets.postman.com/postman-docs/home-integrations.jpg)
+    <img alt="Home page and integrations" src="https://assets.postman.com/postman-docs/v10/home-integrations-v10.jpg" width="390px">
 
 1. Search and select **Splunk On-Call**.
 1. Select **Add Integration** and enter the following:

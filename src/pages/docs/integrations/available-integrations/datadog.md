@@ -44,7 +44,7 @@ Setting up a Datadog integration requires you to get an API key from Datadog and
 
 1. From the **[Home](https://go.postman.co/home)** page select **[Integrations](https://go.postman.co/integrations)**.
 
-    ![home page and integrations](https://assets.postman.com/postman-docs/home-integrations.jpg)
+    <img alt="Home page and integrations" src="https://assets.postman.com/postman-docs/v10/home-integrations-v10.jpg" width="390px">
 
 1. Search and select **Datadog**.
 1. You can select **View All** for a list of all the integrations already created by your team.
