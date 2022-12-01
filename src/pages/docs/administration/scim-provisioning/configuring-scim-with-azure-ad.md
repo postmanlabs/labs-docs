@@ -28,7 +28,7 @@ You must be a [Postman Team Admin](/docs/collaborating-in-postman/roles-and-perm
 * [Enabling SCIM in Azure AD](#enabling-scim-in-azure-ad)
 * [Configuring the Azure AD SCIM integration](#configuring-the-azure-ad-scim-integration)
     * [Mapping user attributes](#mapping-user-attributes)
-    * [Mapping group attributes](#mapping-group-attributes)
+    * [Mapping group attributes (Optional)](#mapping-group-attributes-optional)
     * [Completing the configuration](#completing-the-configuration)
 
 ## Enabling SCIM in Azure AD
@@ -64,32 +64,30 @@ The attributes you select as **Attribute Mappings** are used to match the users 
 To map Postman user attributes to Azure AD user attributes, do the following:
 
 1. In the Azure AD **Mappings** section, select **Yes** to turn on **Provision Azure Active Directory Users**. This is the set of attribute mappings for user objects.
-1. (Optional) Under **Target Object Actions**, select **Create**, **Update**, and **Delete**.
-1. (Optional) Under **Attribute Mappings**, select **Add New Mapping** to map the following attributes:
+1. Under **Target Object Actions**, select **Create**, **Update**, and **Delete**.
+1. Under **Attribute Mappings**, select **Add New Mapping** to map the following attributes:
 
-    Azure AD attribute | SCIM attribute | Postman attribute | Required
-    --- | --- | --- | ---
-    userPrincipalName | userName | email | TRUE
-    {givenName, surname} | {givenName, familyName} | name | TRUE
-    Switch([IsSoftDeleted], , "False", "True", "True", "False") | Active | active | TRUE
+    Azure AD attribute | SCIM attribute | Postman attribute
+    --- | --- | ---
+    userPrincipalName | userName | email
+    {givenName, surname} | {givenName, familyName} | name
+    Switch([IsSoftDeleted], , "False", "True", "True", "False") | active | active
 
 1. Select **Save** to commit any changes.
 
-### Mapping group attributes
-
-> Mapping group attributes is optional.
+### Mapping group attributes (Optional)
 
 To map Postman group attributes to Azure AD group attributes, do the following:
 
 1. In the Azure AD **Mappings** section, select **Yes** to turn on **Provision Azure Active Directory Groups**. This is the set of attribute mappings for group objects.
-1. (Optional) Under **Target Object Actions**, enable **Create**, **Update**, and **Delete**.
-1. (Optional) Under **Attribute Mappings**, select **Add New Mapping** to map the following attributes:
+1. Under **Target Object Actions**, enable **Create**, **Update**, and **Delete**.
+1. Under **Attribute Mappings**, select **Add New Mapping** to map the following attributes:
 
-    Azure AD attribute | SCIM attribute | Postman attribute | Required
-    --- | --- | --- | ---
-    displayName |	displayName | Group name |	TRUE
-    members | members |	Group members |	TRUE
-    objectId | externalId |	externalId |	FALSE
+    Azure AD attribute | SCIM attribute | Postman attribute
+    --- | --- | ---
+    displayName |	displayName | Group name
+    members | members |	Group members
+    objectId | externalId |	externalId
 
 1. Select **Save** to commit any changes.
 
