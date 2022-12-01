@@ -70,6 +70,7 @@ If you're learning to carry out a specific task or workflow in Postman, check ou
 * [__Publishing APIs__](#publishing-apis)
 * [__Collaborating with your team__](#collaborating-with-your-team)
 * [__Developing with Postman__](#developing-with-postman)
+* [__Postman Flows__](#postman-flows)
 
 ### Making requests
 
@@ -105,6 +106,13 @@ If you're exposing an API for public use, Postman can support developer onboardi
 
 * [Publishing documentation](/docs/publishing-your-api/documenting-your-api/)
 * [Using Run in Postman](/docs/publishing-your-api/run-in-postman/introduction-run-button/)
+
+### Creating API workflows
+
+If you're creating an API workflow, you can use Postman Flows:
+
+* [Building your first flow](/docs/postman-flows/flows-intro/building-your-first-flow/)
+* [About blocks](/docs/postman-flows/core-concepts/blocks/)
 
 ### Collaborating with your team
 
