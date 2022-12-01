@@ -9,7 +9,7 @@ Postman Flows is a dataflow language, which means it understands all kinds of va
 <!-- vale Postman.Weasel = YES -->
 <!-- vale Postman.Spelling = YES -->
 
-Since most Flow programmers have a JavaScript or TypeScript background, or are programming in an API-First language for the first time, the vocabulary of the types resembles JavaScript and TypeScript.
+Because most Flow programmers have a JavaScript or TypeScript background, or are programming in an API-First language for the first time, the vocabulary of the types resembles JavaScript and TypeScript.
 
 ## Contents
 
