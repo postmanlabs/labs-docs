@@ -30,7 +30,7 @@ You can use the [Flows Query Language](/docs/postman-flows/flows-query-language/
 * [Encode an entire url](#encode-an-entire-url)
 * [Decode entire url](#decode-entire-url)
 * [Append to an array](#append-to-an-array)
-* [Time and Date formatting](#time-and-date-formatting)
+* [Time and date formatting](#time-and-date-formatting)
 
 ## Example JSON
 
