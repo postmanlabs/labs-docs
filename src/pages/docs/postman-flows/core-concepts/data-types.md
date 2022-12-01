@@ -87,7 +87,7 @@ A _regex_ value is automatically converted to a _string_ if required.
 
 ## Abstract types
 
-> All complex and abstract data types in Flows are built on the concept of Streams internally.
+> All complex and abstract data types in Flows are built on the concept of streams internally.
 
 ### List
 
