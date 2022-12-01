@@ -31,7 +31,7 @@ If you have several requests that have no dependency on each other but have to b
 
 1. **Start the Flow**
 
-   Start the Flow and see the requests run in the order they're configured:
+   Start the flow and see the requests run in the order they're configured:
 
    ![Start the flow](https://assets.postman.com/postman-labs-docs/running-requests/updated-running-run-with-send-events.gif)
 
