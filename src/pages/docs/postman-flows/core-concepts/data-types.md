@@ -5,7 +5,7 @@ updated: 2022-11-17
 
 <!-- vale Postman.Spelling = NO -->
 <!-- vale Postman.Weasel = NO -->
-Since Postman Flows is a dataflow language, it understands all kinds of values and associates types with data. Flows is a hybrid typed language, so it performs static type checking to provide features like auto-complete and early warning. Flows also performs some dynamic type checking during execution.
+Postman Flows is a dataflow language, which means it understands all kinds of values and associates types with data. Flows is a hybrid typed language, so it performs static type checking to provide features like auto-complete and early warning. Flows also performs some dynamic type checking during execution.
 <!-- vale Postman.Weasel = YES -->
 <!-- vale Postman.Spelling = YES -->
 
