@@ -29,7 +29,7 @@ If you have several requests that have no dependency on each other but have to b
    > 3. When using send event, no data is passed from one block to another.
     <!-- vale Postman.ComplexWords = YES -->
 
-1. **Start the Flow**
+1. **Start the flow**
 
    Start the flow and see the requests run in the order they're configured:
 
