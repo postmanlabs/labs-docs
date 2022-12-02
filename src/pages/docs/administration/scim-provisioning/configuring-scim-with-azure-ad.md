@@ -69,9 +69,9 @@ To map Postman user attributes to Azure AD user attributes, do the following:
 
     Azure AD attribute | SCIM attribute | Postman attribute
     --- | --- | ---
-    userPrincipalName | userName | email
-    {givenName, surname} | {givenName, familyName} | name
-    Switch([IsSoftDeleted], , "False", "True", "True", "False") | active | active
+    `userPrincipalName` | `userName` | `email`
+    `{givenName, surname}` | `{givenName, familyName}` | `name`
+    `Switch([IsSoftDeleted], , "False", "True", "True", "False")` | `active` | `active`
 
 1. Select **Save** to commit any changes.
 
@@ -85,9 +85,9 @@ To map Postman group attributes to Azure AD group attributes, do the following:
 
     Azure AD attribute | SCIM attribute | Postman attribute
     --- | --- | ---
-    displayName |	displayName | Group name
-    members | members |	Group members
-    objectId | externalId |	externalId
+    `displayName` |	`displayName` | `Group name`
+    `members` | `members` |	`Group members`
+    `objectId` | `externalId` |	`externalId`
 
 1. Select **Save** to commit any changes.
 
