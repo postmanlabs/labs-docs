@@ -81,7 +81,7 @@ To view a list of users who have forked a collection, environment, or flow, sele
 
 To access the list of forks for a collection, environment, or flow, do the following:
 
-1. Select the fork icon <img alt="Fork icon" src="https://assets.postman.com/postman-docs/icon-fork.jpg#icon" width="14px"> in the context bar.
+1. Select the fork icon <img alt="Fork icon" src="https://assets.postman.com/postman-docs/icon-fork.jpg#icon" width="14px"> in the right sidebar.
 1. Select the fork name under **Forks**.
 
     > You can also select the user's avatar under **Forks** to view the user's public profile.

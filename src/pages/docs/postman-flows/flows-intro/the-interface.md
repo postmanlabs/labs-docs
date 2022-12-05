@@ -3,15 +3,15 @@ title: "The Postman Flows interface"
 updated: 2022-11-17
 ---
 
-The Postman Flows interface has three main parts: the toolbar, the context bar, and the console.
+The Postman Flows interface has three main parts: the toolbar, the right sidebar, and the console.
 
 ## Contents
 
 * [Toolbar](#toolbar)
-* [Context bar](#context-bar)
+* [Right sidebar](#right-sidebar)
 * [Console](#console)
 
-![interface](https://assets.postman.com/postman-labs-docs/interface/updated-interface-main.png)
+![interface](https://assets.postman.com/postman-docs/v10/flows-interface-main.jpg)
 
 ## Toolbar
 
@@ -43,10 +43,10 @@ The toolbar gives you access to tools you can use to manipulate the canvas.
 
   ![add text](https://assets.postman.com/postman-labs-docs/interface/updated-interface-add-annotations.gif)
 
-## Context bar
+## Right sidebar
 
-The context bar is the place where you'll see more information about your Flow and its current state.
-![context bar](https://assets.postman.com/postman-labs-docs/interface/updated-interface-context-bar.png)
+The right sidebar is the place where you'll see more information about your Flow and its current state.
+![Right sidebar](https://assets.postman.com/postman-labs-docs/interface/updated-interface-context-bar.png)
 
 * **Element info**
 

@@ -87,7 +87,7 @@ You can run your collections with the `postman collection run` command:
 
 This command runs a collection and sends all run results and responses to Postman servers. You can specify the collection with its file path or Collection ID.
 
-> You can find the collection ID in Postman. First, select **Collections** in the sidebar and select a collection. Then select the information icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px"> in the right context bar to access the collection ID.
+> You can find the collection ID in Postman. First, select **Collections** in the sidebar and select a collection. Then select the information icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px"> in the right right sidebar to access the collection ID.
 
 #### Examples
 
