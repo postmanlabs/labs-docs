@@ -11,6 +11,11 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Import Multi File API Definitions | Postman Level Up"
+    url: "https://youtu.be/RqVJV9LQORc"
+  - type: subtitle
     name: "Blog Posts"
   - type: link
     name: "Stay on Top of Your API Deployments: AWS API Gateway Integration"
@@ -29,8 +34,6 @@ You can import an existing API definition into your API. API definitions can be 
 
 ## Importing API definitions
 
-To import your API definitions into Postman:
-
 1. Select **APIs** in the sidebar, then select **Import**.
 1. Select one or more files, select a folder, enter a link to the API, or paste your raw text.
 
@@ -48,8 +51,6 @@ When importing into a team workspace, you can also choose to add the APIs to the
 
 ## Importing multi-file API definitions
 
-If your API definition consists of multiple files:
-
 1. Select **APIs** in the sidebar, then select **Import**.
 1. Select **Folder**, then select a local folder with your API files.
 1. In the **Import Entities** tab, select the files you want to import for the API definition.
@@ -64,7 +65,7 @@ To learn more about working with multi-file API definitions, see [Editing an API
 
 This integration supports importing OpenAPI 3.0 definitions for both HTTP and REST APIs. Importing a definition will create a new API in Postman and will also configure an integration with AWS API Gateway.
 
-To import an API from AWS API Gateway:
+To import an API from AWS API Gateway, do the following:
 
 1. From the sidebar, select __APIs__, then select **Import**.
 1. Select **API Gateway**, then select **AWS API Gateway**.
@@ -74,7 +75,7 @@ When importing an API from AWS API Gateway, you can choose to authenticate by [c
 
 ### Authenticating with an AWS IAM role
 
-To set up a connection to Amazon API Gateway using an AWS IAM role:
+To set up a connection to Amazon API Gateway using an AWS IAM role, do the following:
 
 1. Select **IAM** under **AWS Authentication Mechanism**.
 
@@ -82,7 +83,7 @@ To set up a connection to Amazon API Gateway using an AWS IAM role:
 
 1. Select the **AWS API Type** (HTTP or REST).
 
-Next, create an IAM role for Postman in AWS:
+To create an IAM role for Postman in AWS, do the following:
 
 1. Open the [AWS IAM console](https://console.aws.amazon.com/iam/home#/roles) and select **Create role**.
 1. Under **Select type of trusted entity**, select **Another AWS account**.
@@ -148,7 +149,7 @@ When you're ready, select **Import**. After importing your API definition, you c
 
 You can import a definition from a connected Azure API Management service to an API in Postman. Importing a definition will create a new API in Postman and will also configure an integration with Azure API Management. Learn more about [integrating with Azure API Management](/docs/designing-and-developing-your-api/deploying-an-api/deploying-an-api-azure/).
 
-To import an API definition from Azure API Management:
+To import an API definition from Azure API Management, do the following:
 
 1. From the sidebar, select **APIs**, then select **Import**.
 1. Select **API Gateway**, then select **Azure API Management**.

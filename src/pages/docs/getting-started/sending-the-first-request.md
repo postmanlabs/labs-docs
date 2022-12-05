@@ -19,6 +19,9 @@ contextual_links:
   - type: link
     name: "How to use an API? | Intro to APIs Part 2"
     url:  "https://youtu.be/woRuedXZyi4"
+  - type: link
+    name: "Postman Student Programs - Finding the right API for the job"
+    url:  "https://youtu.be/d6abDKrGFYU"
   - type: subtitle
     name: "Blog Posts"
   - type: link
@@ -56,7 +59,7 @@ A request includes the URL of the API endpoint and an HTTP request method. The m
 
 ## Sending a request
 
-Ready to send your first request? Open Postman and get started:
+When you're ready, open Postman and send your first request.
 
 1. Select **+** in the workbench to open a new [tab](/docs/getting-started/navigating-postman/#tabs).
 1. Enter `postman-echo.com/get` for the request URL.

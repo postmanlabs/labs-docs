@@ -12,6 +12,11 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Integrate Jenkins in Postman"
+    url: "https://youtu.be/PAlEp2AmSl4"
+  - type: subtitle
     name: "Blog Posts"
   - type: link
     name: "Stay on Top of Your API Builds with Postman’s Jenkins Integration"
@@ -89,7 +94,7 @@ Each time a build runs, the Postman CLI runs the collections that contain your t
 
 > Before you begin, make sure you’ve already [set up an integration](#configuring-jenkins-integration) between your API and Jenkins.
 
-To generate configuration code for the Postman CLI:
+To generate configuration code for the Postman CLI, do the following:
 
 1. Open your API version and select **Test and Automation**.
 1. Under **CI/CD Builds**, select **View Builds**.
@@ -101,7 +106,7 @@ To generate configuration code for the Postman CLI:
 
 <img alt="Generate the Postman CLI configuration" src="https://assets.postman.com/postman-docs/v10/generate-postman-cli-v10-2.jpg" width="548px">
 
-To add the Postman CLI configuration to your Jenkins pipeline:
+To add the Postman CLI configuration to your Jenkins pipeline, do the following:
 
 1. Open your pipeline project in Jenkins and select **Configure**.
 1. Paste the Postman CLI configuration you copied from Postman into the **Pipeline script**:

@@ -34,8 +34,6 @@ The Postman to Opsgenie integration enables you to configure [Postman Monitors](
 
 ## Get the Opsgenie API key
 
-To integrate with Opsgenie, get your Opsgenie API key:
-
 1. Sign in to your Opsgenie account.
 1. Select the **Teams** tab.
 1. Select the team that will own the integration and receive alert notifications.
@@ -50,7 +48,7 @@ For more information, refer to [Create an API integration](https://support.atlas
 
 1. From the **[Home](https://go.postman.co/home)** page, select **[Integrations](https://go.postman.co/integrations)**.
 
-    ![home page and integrations](https://assets.postman.com/postman-docs/home-integrations.jpg)
+    <img alt="Home page and integrations" src="https://assets.postman.com/postman-docs/v10/home-integrations-v10.jpg" width="390px">
 
 1. Search and select **Opsgenie**.
 

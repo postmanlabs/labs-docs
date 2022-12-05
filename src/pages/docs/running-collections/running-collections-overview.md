@@ -1,5 +1,5 @@
 ---
-title: "Running collections - overview"
+title: "Running collections overview"
 updated: 2022-11-09
 contextual_links:
   - type: section

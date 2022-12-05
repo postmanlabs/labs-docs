@@ -7,8 +7,8 @@ contextual_links:
   - type: subtitle
     name: "Videos"
   - type: link
-    name: "Public Profiles | Postman Level Up"
-    url:  "https://youtu.be/w-EgqQ8Anvw"
+    name: "Customize Your Public Profile | Postman Level Up"
+    url:  "https://youtu.be/xM_sskJmZNM"
   - type: section
     name: "Next Steps"
   - type: link
@@ -41,9 +41,9 @@ Your profile includes:
 
 ## Making your profile public
 
-By default, your Postman profile is visible to your Postman team. You can also choose to make your profile public to the Postman community. Having a public profile enables you to share important information about yourself and your work with other Postman users.
+By default, your Postman profile is visible to your Postman team. You can also choose to make your profile public to the Postman community. Having a public profile enables you to share important information about yourself and your work with other Postman users. Turn your public profile on or off at any time in your [profile settings](https://go.postman.co/settings/me/).
 
-To turn your public profile on or off at any time in your [profile settings](https://go.postman.co/settings/me/):
+To make your profile public, do the following:
 
 1. Select your avatar in the Postman header > **Settings**.
 1. Select **Profile** from the list of options.
@@ -52,7 +52,9 @@ To turn your public profile on or off at any time in your [profile settings](htt
 
 ## Updating your personal information
 
-Update your _profile picture_, _display name_, _Postman username_, _display bio_, and your _social media links_ at any time in your [profile settings](https://go.postman.co/settings/me/):
+Update your _profile picture_, _display name_, _Postman username_, _display bio_, and your _social media links_ at any time in your [profile settings](https://go.postman.co/settings/me/).
+
+To update your personal information, do the following:
 
 1. Select your avatar in the Postman header > **Settings**.
 1. Select **Profile** from the list of options.
@@ -61,7 +63,9 @@ Update your _profile picture_, _display name_, _Postman username_, _display bio_
 
 ## Adding an About Me section
 
-Your **About Me** section contains information about your work, interests, and contributions. Update your **About Me** section at any time in your [profile settings](https://go.postman.co/settings/me/):
+Your **About Me** section contains information about your work, interests, and contributions. Update your **About Me** section at any time in your [profile settings](https://go.postman.co/settings/me/).
+
+To add an **About Me** section, do the following:
 
 1. Select your avatar in the Postman header > **Settings**.
 1. Select **View your profile**.
@@ -79,9 +83,9 @@ If you have already created an [**About Me** section](#adding-an-about-me-sectio
 
 > Every element in your Highlights section must be publicly available.
 
-Your **Highlights** section lets you show off your work to other Postman users. If you don't choose any elements to pin to this section, Postman displays the most popular elements that you've worked on.
+Your **Highlights** section lets you show off your work to other Postman users. If you don't choose any elements to pin to this section, Postman displays the most popular elements that you've worked on. Update your **Highlights** section at any time in your [profile settings](https://go.postman.co/settings/me/).
 
-Update your **Highlights** section at any time in your [profile settings](https://go.postman.co/settings/me/):
+To update your **Highlights** section, do the following:
 
 1. Select your avatar in the Postman header > **Settings**.
 1. Select **View your profile**.

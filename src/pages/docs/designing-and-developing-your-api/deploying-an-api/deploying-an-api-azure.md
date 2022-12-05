@@ -10,6 +10,13 @@ contextual_links:
   - type: link
     name: "Developing an API"
     url: "/docs/designing-and-developing-your-api/developing-an-api/"
+  - type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Blog Posts"
+  - type: link
+    name: "Announcing the Postman Microsoft Azure Integration Partnership"
+    url: "https://blog.postman.com/announcing-postman-microsoft-azure-integration-partnership/"
 
 ---
 
@@ -23,8 +30,6 @@ contextual_links:
 * [Exporting your API to Azure API Management](#exporting-your-api-to-azure-api-management)
 
 ## Connecting to Azure API Management
-
-To connect to Azure API Management in Postman:
 
 1. Select **APIs** in the sidebar and select an API.
 1. Select **Deployments**, and then select **Microsoft Azure**.

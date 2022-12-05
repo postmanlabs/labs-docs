@@ -49,7 +49,7 @@ Postman Enterprise enables your organization to collaborate internally and with 
 
 * **Private API Network** - Users with the Enterprise-only API Network Manager role can approve which APIs to add to your Private API Network. For more information, see [Using the approval process workflow](/docs/collaborating-in-postman/adding-private-network/#using-the-approval-process-workflow).
 * **Partner workspaces** - Your organization can invite partners to a shared workspace to collaborate and build products and services with your APIs. To learn more about partner workspaces, see [Partner workspaces](/docs/collaborating-in-postman/using-workspaces/partner-workspaces/).
-* **Advanced version control** - Manage permissions for reviewers and assign merge checks for forks on Postman elements. For more details, see [Pull request settings](/docs/collaborating-in-postman/version-control/#pull-request-settings).
+* **Advanced version control** - Manage permissions for reviewers and assign merge checks for forks on Postman elements. For more details, see [Pull request settings](/docs/collaborating-in-postman/using-version-control/creating-pull-requests/#pull-request-settings).
 
 ### Administration
 

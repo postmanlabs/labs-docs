@@ -25,14 +25,14 @@ contextual_links:
   - type: subtitle
     name: "Blog Posts"
   - type: link
+    name: "Exploring Public APIs and the Public API Network"
+    url: "https://blog.postman.com/exploring-public-apis-and-public-api-network/"
+  - type: link
     name: "The Most Popular Collection in the Postman API Network"
     url: "https://blog.postman.com/the-most-popular-collection-in-the-postman-api-network/"
   - type: link
-    name: "Empower Your Business with These Payments APIs"
-    url: "https://blog.postman.com/empower-your-business-with-these-payments-apis/"
-  - type: link
-    name: "Build Software Faster with These Productivity APIs"
-    url: "https://blog.postman.com/build-software-faster-with-productivity-apis/"
+    name: "Top 25 API Onboarding Experiences"
+    url: "https://blog.postman.com/top-25-api-onboarding-experiences/"
   - type: section
     name: "Next Steps"
   - type: link
@@ -57,7 +57,7 @@ There are a variety of ways to find APIs, workspaces, teams, and collections:
 * Under **Browse**, you can select to view **Teams**, **Workspaces**, **APIs**, and **Collections**. You can sort results by **Featured**, **Most Viewed**, and **Latest** using the **Sort by** dropdown list.
     * You can also filter Collections, APIs, and Workspaces using the categories listed on their results pages.
 
-To import a collection from a public workspace to your workspace, create a fork of it. See [creating a fork](/docs/collaborating-in-postman/version-control-for-collections/#creating-a-fork).
+To import a collection from a public workspace to your workspace, create a fork of it. See [creating a fork](/docs/collaborating-in-postman/using-version-control/forking-entities/#creating-a-fork).
 
 Check out some useful collections for getting started learning about APIs, requests, and Postman:
 

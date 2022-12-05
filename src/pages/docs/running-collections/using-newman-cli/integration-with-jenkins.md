@@ -101,7 +101,7 @@ Jenkins indicates that the build succeeded with a green checkmark.
 
 ## Configure frequency of runs
 
-To set the frequency with which Jenkins runs Newman:
+To set the frequency with which Jenkins runs Newman, do the following:
 
 1. Open the build window.
 1. Select **Configure**.

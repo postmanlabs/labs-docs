@@ -15,8 +15,8 @@ contextual_links:
     name: "Intro to Postman | Advanced API Tests"
     url: "https://youtu.be/vVDZxeS865g"
   - type: link
-    name: "API Lifecycle, Part 1: Build and Test an API | Postman Intergalactic"
-    url: "https://youtu.be/RfYWIOocPfM"
+    name: "An Introduction for Testers | Postman Intergalactic"
+    url: "https://youtu.be/EwlBogHckP0"
   - type: subtitle
     name: "Blog Posts"
   - type: link
@@ -52,7 +52,7 @@ Testing is a critical part of the API development process. You can create a coll
 
 You can connect a test collection (a collection containing API tests) to an API you've defined in the Postman API Builder.
 
-To add a test collection to an API:
+To add a test collection to an API, do the following:
 
 1. Select **APIs** in the sidebar and select an API.
 1. Select **Test and Automation**.
@@ -70,7 +70,7 @@ To add a test collection to an API:
 
 After adding a test collection, you can run the collection to test your API and view test results.
 
-To run a test collection for an API:
+To run a test collection for an API, do the following:
 
 1. Select **APIs** in the sidebar and select an API.
 1. Select **Test and Automation**.
@@ -86,7 +86,7 @@ To run a test collection for an API:
 
 Postman integrates with some of the most widely used Continuous Integration and Continuous Delivery (CI/CD) tools. After you set up CI integration for your API, you can view the status of builds or start a new build, all from within Postman. You can also run API tests created in Postman as part of your CI pipeline.
 
-To set up a CI integration:
+To set up a CI integration for an API, do the following:
 
 1. Select **APIs** in the sidebar and select an API.
 1. Select **Test and Automation**.

@@ -62,7 +62,7 @@ To open a workspace, select **Workspaces** in the Postman header. Select a works
 
 The workspace's **Overview** tab displays a summary and description of the workspace, as well as a list of recent activity. On the right, there is a list of the number of Postman elements like collections and APIs in the workspace and a list of recent contributors.
 
-<img alt="Workspace overview" src="https://assets.postman.com/postman-docs/workspace-overview-v9.19.jpg" width="1000px"/>
+<img alt="Workspace overview" src="https://assets.postman.com/postman-docs/v10/workspace-overview-v10.jpg" width="1000px"/>
 
 ### Getting the workspace ID
 
@@ -97,8 +97,6 @@ On the workspace's **Overview** tab, select the workspace name, summary, or desc
 ### Changing workspace visibility
 
 The visibility setting for a workspace determines who can access it. You must be a [Workspace Admin](#managing-workspace-roles) to change the visibility for a workspace.
-
-To change workspace visibility:
 
 1. Select **Workspaces** in the Postman header, and then select a workspace.
 1. On the workspace's **Overview** tab, select **Workspace Settings**.
@@ -156,7 +154,7 @@ You can also share workspaces with your teammates by adding them to your team's 
 
 Access to elements within a workspace is controlled using [workspace roles](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles). Roles can be assigned to an individual user or to a [user group](/docs/administration/managing-your-team/user-groups/).
 
-To change the role of people in a workspace, or to remove someone from a workspace:
+To change the role of people in a workspace, or to remove someone from a workspace, do the following:
 
 1. Select **Workspaces** in the Postman header, and then select a workspace.
 1. On the workspace's **Overview** tab, select **Workspace Settings**.
@@ -175,8 +173,6 @@ Watch a workspace to receive an email or in-app notification when a team member 
 
 To start watching a workspace, select <img alt="Watch icon" src="https://assets.postman.com/postman-docs/eye.jpg#icon" width="16px"> **Watch** in the workspace's **Overview** tab. Select the count next to **Watch** to access the list of people who are watching the workspace.
 
-<img alt="Watching a workspace" src="https://assets.postman.com/postman-docs/watching-a-workspace-v9.jpg"/>
-
 To access your notifications, select the notification icon <img alt="Bell icon" src="https://assets.postman.com/postman-docs/icon-notification-bell-v9.jpg#icon" width="18px"> in the Postman header. The notification list shows details about changes to workspaces you are watching. You will also receive an email with information about the change, who made it, and when.
 
 To stop watching a workspace, select **Unwatch** in the workspace's **Overview** tab.
@@ -193,7 +189,7 @@ Workspaces can contain elements such as collections, APIs, environments, mock se
 
 > Monitors can't be moved. If you move a collection that has an active monitor, the associated monitor is paused and stays in the original workspace.
 
-To move an element to a different workspace:
+To move an element to a different workspace, do the following:
 
 1. Select **Collections**, **APIs**, **Environments**, or **Mock Servers** in the sidebar.
 1. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to an element and then select **Move**.
@@ -217,8 +213,6 @@ If you're in a public workspace, this list will include all active users with [p
 ## Deleting a workspace
 
 Deleting a workspace removes the workspace and all data in it from Postman. Use caution, as once you delete a workspace it's gone forever. You must be a [Workspace Admin](#managing-workspace-roles) to delete a workspace.
-
-To delete a workspace:
 
 1. Select **Workspaces** in the Postman header, and then select a workspace.
 1. On the workspace's **Overview** tab, select **Workspace Settings**.

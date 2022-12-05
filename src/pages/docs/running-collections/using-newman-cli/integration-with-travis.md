@@ -120,6 +120,8 @@ This example shows you how to integrate Postman with [Travis CI](https://travis-
 
 What do things look like when a test fails? To find out, make a change in your imported "Hello Word" collection in Postman so that one of the test breaks.
 
+To view a failed test, do the following:
+
 1. Open the collection, select the "Hello World" request, and then select the **Tests** tab.
 
 1. Change the final test so that it looks for the text "Hello, Everyone!" instead of "Hello, World!"

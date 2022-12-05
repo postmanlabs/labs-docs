@@ -31,8 +31,6 @@ If you haven't already, create a pipeline in the GitHub repository you use for y
 
 ## Configuring a GitHub Actions integration
 
-To configure a GitHub Actions integration:
-
 1. Open your API by selecting **APIs** in the sidebar. *Each API can be linked to one CI project*.
     > **Tip:** If you've already authenticated with GitHub to connect a Git repo for source control, you can use the same authentication. To automatically create the integration, under **Test and Automation**, select **Connect to GitHub**.
 1. Select **Test and Automation**.
@@ -91,7 +89,7 @@ Each time the pipeline runs, the Postman CLI runs the collections that contain y
 
 > Before you begin, make sure you’ve already [set up an integration](#configuring-a-github-actions-integration) between your API and GitHub Actions.
 
-To generate configuration code for the Postman CLI:
+To generate configuration code for the Postman CLI, do the following:
 
 1. Open your API and select **Test and Automation**.
 1. Under the repository name, select **View All Builds**.
@@ -103,7 +101,7 @@ To generate configuration code for the Postman CLI:
 
    <img alt="Generate the Postman CLI configuration" src="https://assets.postman.com/postman-docs/v10/generate-postman-cli-v10-2.jpg" width="548px">
 
-To add the Postman CLI configuration to your GitHub pipeline:
+To add the Postman CLI configuration to your GitHub pipeline, do the following:
 
 1. Create a new YAML file in the `.github/workflows` directory in your GitHub repository, and then edit the file.
 1. Add the Postman CLI configuration you copied from Postman to the YAML file:

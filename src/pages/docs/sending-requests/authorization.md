@@ -166,7 +166,7 @@ OAuth 1.0 is sometimes referred to as "two-legged" (auth only between client and
 
 > Postman supports [OAuth Core 1.0 Revision A](https://oauth.net/core/1.0a/).
 
-To use OAuth 1.0:
+To use OAuth 1.0, do the following:
 
 1. In the __Authorization__ tab for a request, select __OAuth 1.0__ from the __Type__ dropdown list.
 
@@ -219,7 +219,7 @@ An example OAuth 2.0 flow could run as follows:
 * The service provider validates these details and returns an access token.
 * The client uses the access token to request the user data with the service provider.
 
-To use OAuth 2.0:
+To use OAuth 2.0, do the following:
 
 1. In the __Authorization__ tab for a request, select __OAuth 2.0__ from the __Type__ dropdown list. Specify if you want pass the auth details in the request URL or headers.
 
@@ -308,6 +308,8 @@ If authentication fails or times out, Postman will display an error message. You
 
 Hawk authentication enables you to authorize requests using partial cryptographic verification.
 
+To use Hawk authentication, do the following:
+
 1. In the __Authorization__ tab for a request, select __Hawk Authentication__ from the __Type__ dropdown list.
 
 1. Enter your details in the __Hawk Auth ID__, __Hawk Auth Key__, and __Algorithm__ fields. You can optionally set advanced details, but Postman will try to generate values for them if necessary.
@@ -336,6 +338,8 @@ The official AWS Signature documentation provides more detail:
 * [Signing and Authenticating REST Requests](https://docs.aws.amazon.com/AmazonS3/latest/userguide/RESTAuthentication.html)
 * [Use Postman to Call an API](https://docs.aws.amazon.com/apigateway/latest/developerguide/how-to-call-api.html)
 
+To use AWS Signature, do the following:
+
 1. In the __Authorization__ tab for a request, select __AWS Signature__ from the __Type__ dropdown list.
 
 1. Select the location where Postman will append your AWS auth details using the __Add authorization data to__ dropdown list, choosing the request headers or URL.
@@ -357,6 +361,8 @@ The AWS Signature parameters are as follows:
 
 Windows Challenge/Response (NTLM) is the authorization flow for the Windows operating system and for standalone systems.
 
+To use NTLM authentication, do the following:
+
 1. In the __Authorization__ tab for a request, select __NTLM Authentication__ from the __Type__ dropdown list.
 
 1. Enter your __Username__ and __Password__ for NTLM access (use variables to avoid entering the values directly). You can optionally specify advanced parameters, but Postman will try to autocomplete these if necessary. By default your request will run a second time after extracting data received from the first. You can turn off this behavior by checking the checkbox.
@@ -368,7 +374,9 @@ Advanced parameters for NTLM auth are as follows:
 
 ### Akamai EdgeGrid
 
- Akamai EdgeGrid is an authorization helper developed and used by Akamai.
+Akamai EdgeGrid is an authorization helper developed and used by Akamai.
+
+To use Akamai EdgeGrid, do the following:
 
 1. In the __Authorization__ tab for a request, select __Akamai EdgeGrid__ from the __Type__ dropdown list.
 

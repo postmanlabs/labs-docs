@@ -43,7 +43,7 @@ Supported languages and frameworks include:
 
 ## Generating server code
 
-To generate server-side boilerplate from your OpenAPI 3.0 definition:
+To generate server-side boilerplate from your OpenAPI 3.0 definition, do the following:
 
 1. Select **APIs** in the sidebar and select an API with an OpenAPI 3.0 definition.
 1. In the right sidebar, select the code generation icon <img alt="Code snippet icon" src="https://assets.postman.com/postman-docs/icon-code-snippet.jpg#icon" width="16px">.

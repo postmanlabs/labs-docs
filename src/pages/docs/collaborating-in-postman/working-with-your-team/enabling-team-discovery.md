@@ -29,8 +29,6 @@ Team discovery encourages collaboration by easing the onboarding process for new
 
 ## Enabling team discovery
 
-To enable team discovery:
-
 * Free users: Next to your avatar, select the dropdown list next to **Upgrade** > **Manage Team**.
 * Paid users: Next to your avatar, select **Team** > **Manage Team**.
 

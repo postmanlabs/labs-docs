@@ -59,8 +59,6 @@ You can also [view who's active in your workspace](/docs/collaborating-in-postma
 
 To access the activity feed in Postman, select the **Overview** tab. Go to the **Activity** section to learn about events that have occurred within the workspace.
 
-[![Activity feed from postman](https://assets.postman.com/postman-docs/activity-feed-overview-v8.jpg)](https://assets.postman.com/postman-docs/activity-feed-overview-v8.jpg)
-
 ### Filtering the activity feed
 
 Filtering the activity feed allows you to display the relevant information directly instead of having to scroll through the feed. You can choose to filter by [user](#filtering-by-user) or by [element](#filtering-by-element) (Workspace, API, Collection, Environment).
@@ -69,21 +67,17 @@ Select **Reset filters** to remove the filters from the activity feed.
 
 #### Filtering by user
 
-Filtering by user will display the actions the specified user carried out.
-To filter by user, select **User** at the top of the activity feed and select the user or users. You can search for a specific user by typing their name in the search field. Once you have selected the user, select **Apply**.
+Filtering by user will display the actions the specified user carried out. To filter by user, select **People** at the top of the activity feed and select the user or users. You can search for a specific user by typing their name in the search field.
 
 > The user list will only show the users that are part of the workspace, not all team members.
 
-[![Activity filtering by user](https://assets.postman.com/postman-docs/filter-by-user.gif)](https://assets.postman.com/postman-docs/filter-by-user.gif)
-
 #### Filtering by element
 
-Filtering by element will display the actions carried out on the selected element type. Available elements are `Workspace`, `API`, `Collection`, and `Environment`.
-To filter by element, select **Entity** at the top of the activity feed and select the element. You can search for a specific element by typing its name in the search field. Once you have selected the element, select **Apply**.
+Filtering by element will display the actions carried out on the selected element type. The available elements are **Workspace**, **API**, **Collection**, **Environment**, **Monitor**, and **Mock servers**.
+
+To filter by element, select **Elements** at the top of the activity feed and select the element or elements. You can search for a specific element by typing its name in the search field.
 
 > You can access the changelog of a specific collection by selecting **View Changelog** next to actions on collections.
-
-[![Activity filtering by element](https://assets.postman.com/postman-docs/filter-by-entity.gif)](https://assets.postman.com/postman-docs/filter-by-entity.gif)
 
 ## Viewing team activity
 
@@ -105,7 +99,7 @@ To unhide the diff, select the more actions icon <img alt="More actions icon" sr
 
 You can use the [changelog](#viewing-the-collection-changelog) to restore a collection to an earlier point in time.
 
-To restore a collection from the changelog:
+To restore a collection from the changelog, do the following:
 
 1. Select a session to expand it.
 2. Select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the change you'd like to restore your collection to, then select **Restore to this change**.

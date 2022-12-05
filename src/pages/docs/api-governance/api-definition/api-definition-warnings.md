@@ -5,6 +5,11 @@ contextual_links:
   - type: section
     name: "Additional Resources"
   - type: subtitle
+    name: "Videos"
+  - type: link
+    name: "Security and Governance Rules for API Definitions | Postman Level Up"
+    url: "https://youtu.be/jphqpbTEDCY"
+  - type: subtitle
     name: "Blog Posts"
   - type: link
     name: "Introducing API Security in Postman v10"
@@ -37,8 +42,6 @@ Postman recommends that you follow API Governance and API Security rules when yo
 * [Next steps](#next-steps)
 
 ## Viewing governance and security rule violations in the API definition
-
-To inspect any API Governance or API Security rule violations that Postman finds in an API's definition:
 
 1. Select **APIs** in the sidebar, and then select the API you want to review.
 1. From the API overview page, select **View files** in the **Definition** section.

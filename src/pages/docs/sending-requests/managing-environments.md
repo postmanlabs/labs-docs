@@ -1,7 +1,7 @@
 ---
 title: "Managing environments"
 order: 25
-updated: 2022-03-23
+updated: 2022-11-16
 page_id: "managing-environments"
 search_keyword: "pm.globals.set, globals.set, pm.environment.set, environment.set, pm.variables.get, variables.get, pm.globals.get, globals.get, pm.environment.get, environment.get"
 contextual_links:
@@ -45,8 +45,8 @@ contextual_links:
     name: "Collaborating with your team"
     url: "/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/"
   - type: link
-    name: "Version control for collections"
-    url:  "/docs/collaborating-in-postman/version-control-for-collections/"
+    name: "Version control overview"
+    url:  "/docs/collaborating-in-postman/using-version-control/version-control-overview/"
 
 warning: false
 
@@ -81,9 +81,9 @@ Select an environment's name to open the environment editor.
 
 [![Environment editor](https://assets.postman.com/postman-docs/environment-editor-v9.13.jpg)](https://assets.postman.com/postman-docs/environment-editor-v9.13.jpg)
 
-The environment quick look icon <img alt="Quick Look icon" src="https://assets.postman.com/postman-docs/eye.jpg#icon" width="16px"> is next to the environment selector. The quick look lists variables for the active environment, and any global variables you have declared (or that are shared in your workspace).
+The environment quick look icon <img alt="Environment quick look icon" src="https://assets.postman.com/postman-docs/icon-environment-quick-look.jpg#icon" width="16px"> is next to the environment selector. The environment quick look lists variables for the active environment, and any global variables you have declared or that are shared in your workspace.
 
-[![Environment quick look](https://assets.postman.com/postman-docs/environment-quicklook-v9.13.jpg)](https://assets.postman.com/postman-docs/environment-quicklook-v9.13.jpg)
+<img alt="Selecting the environment quick look" src="https://assets.postman.com/postman-docs/v10/environment-quick-look-selector-v10.jpg" width="250px"/>
 
 To create a new environment, select __Environments__ on the left and select __+__.
 
@@ -103,9 +103,7 @@ You can add variables to an active (currently selected) environment by opening t
 
 Edit the variable names and values inline, or use the close icon <img alt="Close icon" src="https://assets.postman.com/postman-docs/icon-close.jpg#icon" width="16px"> to delete a variable. Enter the name and values for a new variable on a new line. __Save__ when your changes are complete.
 
-Alternatively, select the environment quick look icon <img alt="Quick Look icon" src="https://assets.postman.com/postman-docs/eye.jpg#icon" width="16px"> and edit inline.
-
-![Edit Environment](https://assets.postman.com/postman-docs/environment-quicklook-edit-v9.13.jpg)
+Alternatively, select the environment quick look icon <img alt="Environment quick look icon" src="https://assets.postman.com/postman-docs/icon-environment-quick-look.jpg#icon" width="16px"> and edit inline.
 
 > If you are working with environment variables as part of a team, you will only be able to change initial values if you have [edit access to the environment](#managing-environment-roles). You can access all variables in environments shared with you, but may have read-only access to initial values if you have a Viewer role.
 
@@ -136,9 +134,9 @@ To view the variables in an environment, select its name. You can edit, add, and
 
 To use the variables in an environment, select it from the environment selector at the top right of the workbench.
 
-<img src="https://assets.postman.com/postman-docs/environment-selector-v9.13.jpg" alt="Environment selector" width="300px"/>
+<img src="https://assets.postman.com/postman-docs/v10/environment-selector-v10.jpg" alt="Environment selector" width="200px">
 
-To check a variable value at a glance, use the environment quick look icon <img alt="Quick Look icon" src="https://assets.postman.com/postman-docs/eye.jpg#icon" width="16px">.
+To check a variable value at a glance, use the environment quick look icon <img alt="Environment quick look icon" src="https://assets.postman.com/postman-docs/icon-environment-quick-look.jpg#icon" width="16px">.
 
 When you choose an environment using the environment selector, Postman treats it as the active environment and runs all requests against that environment (if your requests reference environment variables).
 
@@ -154,7 +152,7 @@ You can use the same variable notation in request URLs, parameters, headers, and
 
 Hover over a variable reference to get its current value.
 
-> If more than one variable with the same name is available to a request, Postman will use the value from the variable with narrowest [scope](/docs/sending-requests/variables/#variable-scopes). This means that if you have an environment variable with the same name as a collection or global variable, Postman will use the environment variable, but local and data variable values will supersede environment values. The value of any overridden variables will display with a strikethrough. </br></br> ![Overridden value](https://assets.postman.com/postman-docs/environment-quicklook-overridden-var-v9.13.jpg)
+> If more than one variable with the same name is available to a request, Postman will use the value from the variable with narrowest [scope](/docs/sending-requests/variables/#variable-scopes). This means that if you have an environment variable with the same name as a collection or global variable, Postman will use the environment variable, but local and data variable values will supersede environment values. The value of any overridden variables will display with a strikethrough.
 
 You can access current environment variable values in your __Pre-request__ and __Tests__ code.
 
@@ -166,7 +164,7 @@ pm.environment.get("variable_key");
 
 ### Editing environment variables
 
-You can edit variables either by opening an environment from __Environments__ on the left, or by opening the environment quick look icon <img alt="Quick Look icon" src="https://assets.postman.com/postman-docs/eye.jpg#icon" width="16px"> at the top right of Postman and selecting __Edit__.
+You can edit variables either by opening an environment from __Environments__ on the left, or by selecting the environment quick look icon <img alt="Environment quick look icon" src="https://assets.postman.com/postman-docs/icon-environment-quick-look.jpg#icon" width="16px"> next to the [environment selector in the workbench](/docs/getting-started/navigating-postman/#environment-selector-and-environment-quick-look) and selecting __Edit__.
 
 > You will only be able to edit environments where you have [Editor access](#requesting-environment-access).
 
@@ -180,7 +178,7 @@ If you have Viewer access to an environment, a lock icon <img alt="Lock icon" sr
 
 > You can edit current values for variables in an active (currently selected) environment directly using the environment quick look. Select the edit icon <img alt="Edit icon" src="https://assets.postman.com/postman-docs/documentation-edit-icon-v8-10.jpg#icon" width="18px"> to edit your chosen value.
 
-![Edit Environment](https://assets.postman.com/postman-docs/environment-quicklook-edit-v9.13.jpg)
+<img alt="Using the environment quick look" src="https://assets.postman.com/postman-docs/v10/environment-quick-look-edit-v10.jpg" width="700px"/>
 
 You can also update environment variable values from your test scripts.
 
@@ -270,24 +268,24 @@ With the Editor role, you can [configure access for other team members](#managin
 
 ### Forking environments
 
-You can fork environments to change them without impacting their base versions, or to contribute to their development without having Editor access. To fork an environment:
+You can fork environments to change them without impacting their base versions, or to contribute to their development without having Editor access.
 
 1. Hover over the environment in the sidebar and select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px">.
 2. Select **Create a Fork**.
 
 > You can also fork an environment by selecting **Fork** <img alt="Fork icon" src="https://assets.postman.com/postman-docs/icon-fork.jpg#icon" width="14px"> in the environment overview tab.
 
-You can edit your environment fork and use it as needed, or you can [create a pull request](/docs/collaborating-in-postman/version-control-for-collections/#creating-pull-requests) to update the original environment.
+You can edit your environment fork and use it as needed, or you can [create a pull request](/docs/collaborating-in-postman/using-version-control/creating-pull-requests/) to update the original environment.
 
 ### Viewing pull requests, forks, and environment details
 
-You can view all pull requests, forks, and details about an environment from the right sidebar:
+You can view all pull requests, forks, and details about an environment from the right sidebar.
 
 * To view pull requests, select the pull request icon <img alt="Pull request icon" src="https://assets.postman.com/postman-docs/icon-pull-request.jpg#icon" width="16px">
 * To view forks, select the fork icon <img alt="Fork icon" src="https://assets.postman.com/postman-docs/icon-fork.jpg#icon" width="16px">
 * To view additional information about the environment, including its ID, author, and any mock servers or monitors that use it, select the information icon <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px">
 
-If you have [Editor access](/docs/collaborating-in-postman/roles-and-permissions/#environment-roles) on the environment, you can [review pull requests](/docs/collaborating-in-postman/version-control-for-collections/#reviewing-pull-requests) and [merge changes into the parent environment](/docs/collaborating-in-postman/version-control-for-collections/#merging-changes).
+If you have [Editor access](/docs/collaborating-in-postman/roles-and-permissions/#environment-roles) on the environment, you can [review pull requests](/docs/collaborating-in-postman/using-version-control/reviewing-pull-requests/#reviewing-pull-requests) and [merge changes into the parent environment](/docs/collaborating-in-postman/using-version-control/forking-entities/#merging-changes-from-a-fork).
 
 ## Next steps
 
@@ -296,4 +294,4 @@ Shared environments allow you to leverage collaboration within Postman. Check ou
 * To learn more about how to use Postman with your team, visit [Collaborating in Postman](/docs/collaborating-in-postman/working-with-your-team/collaboration-overview/).
 * To learn more about how create a workspace in Postman, visit [Intro to workspaces](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/).
 * To learn more about how to share access to your APIs, visit [Managing and sharing APIs](/docs/designing-and-developing-your-api/managing-apis/).
-* To learn how to use version control to collaboratively build an API, visit [Using version control](/docs/collaborating-in-postman/version-control-for-collections/).
+* To learn how to use version control to collaboratively build an API, visit [Version control in Postman](/docs/collaborating-in-postman/using-version-control/version-control-overview/).
