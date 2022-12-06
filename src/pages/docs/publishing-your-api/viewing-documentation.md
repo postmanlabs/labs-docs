@@ -54,7 +54,7 @@ To view documentation for a collection, do the following:
 
     > You can also search for collections on the [Public API Network](https://www.postman.com/explore/collections).
 
-1. Select the documentation icon <img alt="Documentation icon" src="https://assets.postman.com/postman-docs/documentation-icon-v8-10.jpg#icon" width="16px"> in the context bar to view documentation for the selected item.
+1. Select the documentation icon <img alt="Documentation icon" src="https://assets.postman.com/postman-docs/documentation-icon-v8-10.jpg#icon" width="16px"> in the right sidebar to view documentation for the selected item.
 1. To view all of the documentation for the collection, select **View complete collection documentation**.
 
 <img alt="View complete documentation" src="https://assets.postman.com/postman-docs/documentation-view-complete-v9.jpg" width="566px"/>
