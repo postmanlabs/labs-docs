@@ -14,7 +14,7 @@ contextual_links:
     name: "Flows"
   - type: link
     name: "Flows Overview"
-    url: ""
+    url: "https://learning.postman.com/docs/postman-flows/flows-intro/flows-overview/"
   - type: link
     name: "GitHub Discussions"
     url: "https://github.com/postmanlabs/postman-flows/discussions"
@@ -42,7 +42,7 @@ Labs' focus is to test and build new technologies. We're currently working on mu
 
 Flows is a visual tool to create API workflows. You can use Flows to chain requests, handle data and create real world workflows right in your Postman workspace.
 
-[Read more here...](/postman-flows/getting-started/flows-overview/)
+[Read more here...](https://learning.postman.com/docs/postman-flows/flows-intro/flows-overview/)
 
 ## API Client
 
