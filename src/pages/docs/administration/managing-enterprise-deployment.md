@@ -79,7 +79,7 @@ The `INSTALLDIR` public property is used to select a custom installation directo
 
 For example, you can run the following command to perform a system-wide installation to a custom directory:
 
-```
+``` shell
 msiexec /i path/to/package.msi INSTALLDIR=C:\custom
 ```
 
