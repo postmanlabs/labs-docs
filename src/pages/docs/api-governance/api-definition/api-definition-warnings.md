@@ -33,7 +33,7 @@ Postman recommends that you follow API Governance and API Security rules when yo
 
 > **Rule customization**. [Enterprise teams](https://www.postman.com/pricing/) can also customize the rules that Postman applies to API definitions. For more information, see [Configuring API Governance rules](/docs/api-governance/configurable-rules/configuring-api-governance-rules/) and [Configuring API Security rules](/docs/api-governance/configurable-rules/configuring-api-security-rules/).
 
-<img alt="OpenAPI 3.0 rule violations" src="https://assets.postman.com/postman-docs/v10/api-definition-rule-violations-openapi3-v10.jpg" width="800px"/>
+<img alt="OpenAPI 3.0 rule violations" src="https://assets.postman.com/postman-docs/v10/api-definition-rule-violations-openapi3-v10.1.jpg" />
 
 ## Contents
 
