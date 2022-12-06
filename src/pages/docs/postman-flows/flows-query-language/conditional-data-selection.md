@@ -7,11 +7,11 @@ You can use [Flows Query Language](/docs/postman-flows/flows-query-language/intr
 
 ## Contents
 
-- [Example JSON](#example-json)
-- [Filter for just a customer's recurring subscription payments](#filter-for-just-a-customers-recurring-subscription-payments)
-- [Filter for just the invoice numbers of recurring payments](#filter-for-just-the-invoice-numbers-of-recurring-payments)
-- [When your filter matches only one record](#when-your-filter-matches-only-one-record)
-- [Checking if a field contains a value](#checking-if-a-field-contains-a-value)
+* [Example JSON](#example-json)
+* [Filter for a customer's recurring subscription payments](#filter-for-a-customers-recurring-subscription-payments)
+* [Filter for the invoice numbers of recurring payments](#filter-for-the-invoice-numbers-of-recurring-payments)
+* [When your filter matches a single record](#when-your-filter-matches-a-single-record)
+* [Checking if a field contains a value](#checking-if-a-field-contains-a-value)
 
 ## Example JSON
 
@@ -54,7 +54,7 @@ The following examples use the following JSON data returned by an endpoint:
     }
 ```
 
-## Filter for just a customer's recurring subscription payments
+## Filter for a customer's recurring subscription payments
 
 ### FQL
 
@@ -81,7 +81,7 @@ payments[description='recurring subscription']
 ]
 ```
 
-## Filter for just the invoice numbers of recurring payments
+## Filter for the invoice numbers of recurring payments
 
 ### FQL
 
@@ -95,9 +95,9 @@ payments[description='recurring subscription']
  ["101301","101303"]
  ```
 
-## When your filter matches only one record
+## When your filter matches a single record
 
-It returns just a single record, not an array.
+It returns a single record, not an array.
 
 ### FQL
 

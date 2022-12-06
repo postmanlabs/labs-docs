@@ -48,13 +48,11 @@ To configure a Microsoft Teams integration, you will need to first create a Micr
 
 1. From the **[Home](https://go.postman.co/home)** page select **[Integrations](https://go.postman.co/integrations)**.
 
-    ![home page and integrations](https://assets.postman.com/postman-docs/home-integrations.jpg)
+    <img alt="Home page and integrations" src="https://assets.postman.com/postman-docs/v10/home-integrations-v10.jpg" width="390px">
 
 1. Search and select **Microsoft Teams**.
 
 ### Add a team activity feed to Microsoft Teams
-
-To add a team activity feed to Microsoft Teams:
 
 1. Select **Add Integration**.
 
@@ -65,8 +63,6 @@ To add a team activity feed to Microsoft Teams:
     [![ms_teams configInt](https://assets.postman.com/postman-docs/msteams-team-activities-show-all-q.jpg)](https://assets.postman.com/postman-docs/msteams-team-activities-show-all-q.jpg)
 
 ### Send monitor run results in Microsoft Teams
-
-To send monitor run results to Microsoft Teams:
 
 1. Select **Add Integration**.
 

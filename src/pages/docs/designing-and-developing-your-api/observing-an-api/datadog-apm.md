@@ -25,7 +25,7 @@ With this integration, you can link your API in Postman to multiple services fro
 
 Before you begin, you must configure your application to send traces to Datadog. See [the Datadog APM documentation](https://docs.datadoghq.com/tracing/) for more details.
 
-To connect an API to Datadog APM:
+To connect an API to Datadog APM, do the following:
 
 1. Select **APIs** in the sidebar and select an API.
 1. Select **API Performance**.

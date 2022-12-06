@@ -49,7 +49,7 @@ After you set up the integration, you can view real-time alerts based on the res
 
 1. From the **[Home](https://go.postman.co/home)** page, select **[Integrations](https://go.postman.co/integrations)**.
 
-    ![select integrations](https://assets.postman.com/postman-docs/home-integrations.jpg)
+    <img alt="Home page and integrations" src="https://assets.postman.com/postman-docs/v10/home-integrations-v10.jpg" width="390px">
 
 1. Select **[Browse All Integrations](https://go.postman.co/integrations/browse?category=all)**.
 1. Search and select **BigPanda**.

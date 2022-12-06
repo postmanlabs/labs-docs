@@ -32,7 +32,7 @@ Setting up a Keen integration requires you to get a project ID and API key befor
 
 1. From the **[Home](https://go.postman.co/home)** page select **[Integrations](https://go.postman.co/integrations)**.
 
-    ![home page and integrations](https://assets.postman.com/postman-docs/home-integrations.jpg)
+    <img alt="Home page and integrations" src="https://assets.postman.com/postman-docs/v10/home-integrations-v10.jpg" width="390px">
 
 1. Search and select **Keen**.
 

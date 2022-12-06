@@ -36,8 +36,6 @@ Partner Workspaces enable you to collaborate with external partners directly in 
 
 ## Creating a Partner Workspace
 
-To create a Partner Workspace:
-
 1. Select **Workspaces** from the header, then select **Create Workspace**.
 
     <img alt="Workspace menu" src="https://assets.postman.com/postman-docs/workspace-switcher-v9.19.jpg" width="300px"/>
@@ -52,7 +50,7 @@ Anyone with permissions to create workspaces can request to create a Partner Wor
 
 <img alt="Create Partner Workspace approval" src="https://assets.postman.com/postman-docs/v10/partner-workspaces-visibility-request-v10.jpg" width="450px" />
 
-To convert an existing workspace to a Partner Workspace:
+To convert an existing workspace to a Partner Workspace, do the following:
 
 1. Open the workspace. In the **Overview** tab, select **Workspace Settings** in the upper right.
 1. Under **Visibility**, select **Partner**.
@@ -68,7 +66,9 @@ Before sharing a Partner Workspace with external collaborators, you can set your
 
 ### Moving elements to a Partner Workspace
 
-You must be an Editor on an API, collection, or environment, the Workspace Admin, Partner Manager, or a Super Admin to move an element to a Partner Workspace. To move an element:
+You must be an Editor on an API, collection, or environment, the Workspace Admin, Partner Manager, or a Super Admin to move an element to a Partner Workspace.
+
+To move an element to a Partner workspace, do the following:
 
 1. In the sidebar, select the element you want to move. Then select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> > **Move**.
 
@@ -82,7 +82,7 @@ You must be an Editor on an API, collection, or environment, the Workspace Admin
 
 Note that items related to what you're moving, such as monitors and mock servers, won't move with the element automatically. For more information, see [Moving elements to team workspaces](/docs/collaborating-in-postman/working-with-your-team/collaborating-in-team-workspaces/#moving-elements-to-team-workspaces).
 
-If you'd like to keep certain elements in other workspaces, you can [fork them into Partner Workspaces](/docs/collaborating-in-postman/version-control/#creating-a-fork) to help [keep them up to date](/docs/collaborating-in-postman/version-control/#pulling-updates) with any changes to the parent element.
+If you'd like to keep certain elements in other workspaces, you can [fork them into Partner Workspaces](/docs/collaborating-in-postman/using-version-control/forking-entities/#creating-a-fork) to help [keep them up to date](/docs/collaborating-in-postman/using-version-control/forking-entities/#pulling-updates-from-a-parent-element) with any changes to the parent element.
 
 ## Inviting collaborators to a Partner Workspace
 
@@ -90,7 +90,7 @@ Workspace Admins, Partner Managers, and Partner Leads can invite partners to Par
 
 > For more information on partner roles, see [Partner roles](/docs/collaborating-in-postman/roles-and-permissions/#partner-roles).
 
-To invite partners to a Partner Workspace:
+To invite partners to a Partner Workspace, do the following:
 
 1. Open the workspace and select **Invite** in the upper-right corner.
 1. (Workspace Admins and Partner Managers only) Select **Partners**, then **Continue**.
@@ -105,7 +105,7 @@ Partner invites must be accepted by the email ID you provide when inviting the i
 
 Workspace Admins and Partner Managers can invite team members to Partner Workspaces.
 
-To invite team members to a Partner Workspace:
+To invite team members to a Partner Workspace, do the following:
 
 1. Open the workspace and select **Invite** in the upper-right corner.
 1. Select **Team members**, then **Continue**.
@@ -129,7 +129,7 @@ Team members can also be assigned the team-level Partner Manager role. Partner M
 
 When an external partner is invited to a Partner Workspace by a team they're working with, they only have access to that Partner Workspace and can't access any other workspaces or resources within the team. Partners don't have personal or team workspaces within the team they're partnering with.
 
-Within a Partner Workspace, partners with the Workspace Editor role can [import and export](/docs/getting-started/importing-and-exporting-data/) elements. They can also [fork elements](/docs/collaborating-in-postman/version-control/#forking-postman-entities) within the same Partner Workspace or to another Partner Workspace within the same team. They can't fork elements outside the team.
+Within a Partner Workspace, partners with the Workspace Editor role can [import and export](/docs/getting-started/importing-and-exporting-data/) elements. They can also [fork elements](/docs/collaborating-in-postman/using-version-control/forking-entities/) within the same Partner Workspace or to another Partner Workspace within the same team. They can't fork elements outside the team.
 
 At the team level, all external partners are automatically assigned the Partner role. At the workspace level, all partners are assigned [Workspace Editor or Viewer](/docs/collaborating-in-postman/roles-and-permissions/#workspace-roles) roles when invited to a Partner Workspace. Partners can also be assigned the Partner Lead role, which enables them to invite other individuals from their organization to the Partner Workspace.
 
@@ -168,7 +168,7 @@ Workspace Admins and Partner Managers can edit Partner Workspace details. On the
 
 You must be an Editor on an API, collection, or environment, the Workspace Admin, Partner Manager, or a Super Admin to remove an element from a Partner Workspace.
 
-To remove an element by moving it to another workspace:
+To remove an element by moving it to another workspace, do the following:
 
 1. In the sidebar, select the element you want to move, then select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> > **Move**.
 
@@ -184,7 +184,7 @@ It's not recommended, but you can choose to delete an element entirely. To do so
 
 ## Deleting a Partner Workspace
 
-Workspace Admins and Partner Managers can delete Partner Workspaces. To delete a Partner Workspace:
+Workspace Admins and Partner Managers can delete Partner Workspaces.
 
 1. On the workspace's **Overview** tab, select **Workspace Settings**.
 1. [Change the visibility of the workspace](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#changing-workspace-visibility) to **Private**.

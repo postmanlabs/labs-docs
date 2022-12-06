@@ -53,7 +53,7 @@ Postman has a variety of tools, views, and controls to help you manage your API 
     * [Environment selector and environment quick look](#environment-selector-and-environment-quick-look)
 * [Footer](#footer)
 
-<img alt="Postman app" src="https://assets.postman.com/postman-docs/v10/navigating-postman-app-overview-4-v10.jpg" width="1100px"/>
+<img alt="Postman app" src="https://assets.postman.com/postman-docs/v10/navigating-postman-app-overview-5-v10.jpg" width="1100px"/>
 
 ## Header
 
@@ -229,19 +229,22 @@ To turn this behavior on or off in the Postman web app, select the settings icon
 
 The right sidebar gives you access to more tools, including documentation, comments, code snippets, and request information, based on which kind of Postman element you select.
 
-<img alt="Postman right sidebar showing Documentation view" src="https://assets.postman.com/postman-docs/navigating-postman-right-sidebar-v9.15.jpg" width="400px"/>
+<img alt="Postman right sidebar showing Documentation view" src="https://assets.postman.com/postman-docs/v10/navigating-postman-right-sidebar-v10.jpg" width="400px"/>
 
 Tool | Available for | Description
 --- | --- | ---
 **Documentation** <img alt="Documentation icon" src="https://assets.postman.com/postman-docs/documentation-icon-v8-10.jpg#icon" width="16px"> | Collections, requests | See the [documentation](/docs/publishing-your-api/publishing-your-docs/) for a collection or for a specific request.
 **Comments** <img alt="Comments icon" src="https://assets.postman.com/postman-docs/icon-comments-v9.jpg#icon" width="18px"> | Collections, requests, APIs | Leave [comments](/docs/collaborating-in-postman/working-with-your-team/discussing-your-work/) on a specific part of a request or an API.
 **Code** <img alt="Code snippet icon" src="https://assets.postman.com/postman-docs/icon-code-snippet.jpg#icon" width="16px"> | Requests, APIs, history | Generate [code snippets](/docs/sending-requests/generate-code-snippets/) in a variety of languages and frameworks that you can use in other apps.
-**Info** <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px"> | Collections, requests, APIs, environments, mock servers, monitors | See details about the element, including its ID, when it was created, who created it, and more.
 **Related collections** <img alt="Related Collections icon" src="https://assets.postman.com/postman-docs/collection-rec-lightbulb-icon2.jpg#icon" width="16px"/> | Requests, history | View public collections from the [Public API Network](/docs/getting-started/exploring-public-api-network/) that share the same base URL as your request and include API documentation.
+**Info** <img alt="Information icon" src="https://assets.postman.com/postman-docs/icon-information-v9-5.jpg#icon" width="16px"> | Collections, requests, APIs, environments, mock servers, monitors, flows | See details about the element, including its ID, when it was created, who created it, and more.
 **Changelog** <img alt="Changelog icon" src="https://assets.postman.com/postman-docs/icon-changelog-v9.jpg#icon" width="18px"> | Collections, APIs | Use the [changelog](/docs/collaborating-in-postman/using-workspaces/changelog-and-restoring-collections/#viewing-the-collection-changelog) to see changes that you and your collaborators have made. Available on [Postman Basic, Professional, and Enterprise plans](https://www.postman.com/pricing/).
 **Pull requests** <img alt="Pull request icon" src="https://assets.postman.com/postman-docs/icon-pull-request.jpg#icon" width="16px"> | Collections, environments | View any [pull requests](/docs/collaborating-in-postman/version-control/#creating-pull-requests) for a Postman element.
-**Forks** <img alt="Fork icon" src="https://assets.postman.com/postman-docs/icon-fork.jpg#icon" width="14px"> | Collections, environments | View any [forks](/docs/collaborating-in-postman/version-control/#forking-postman-entities) of a Postman element.
+**Forks** <img alt="Fork icon" src="https://assets.postman.com/postman-docs/icon-fork.jpg#icon" width="14px"> | Collections, environments, flows | View any [forks](/docs/collaborating-in-postman/version-control/#forking-postman-entities) of a Postman element.
 **Activity feed** <img alt="Activity feed icon" src="https://assets.postman.com/postman-docs/icon-activity-feed-v9.jpg#icon" width="16px"> | Monitors | View the activity feed for a [monitor](/docs/monitoring-your-api/intro-monitors/).
+**Flow Element Info** <img alt="Flow Element Info icon" src="https://assets.postman.com/postman-docs/v10/flow-element-info-v10.jpg#icon" width="21px"> | Flows | View the input and output of the selected block.
+**Released Versions** <img alt="Released Versions icon" src="https://assets.postman.com/postman-docs/v10/released-versions-v10.jpg#icon" width="21px"> | Flows | View your released flows.
+**Execution issues** <img alt="Execution issues icon" src="https://assets.postman.com/postman-docs/v10/execution-issues-v10.jpg#icon" width="21px"> | Flows | View a flow's execution issues, if any.
 
 ### Environment selector and environment quick look
 

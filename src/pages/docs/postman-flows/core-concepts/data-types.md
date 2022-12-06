@@ -3,11 +3,22 @@ title: "About data types"
 updated: 2022-11-17
 ---
 
-Postman Flows is a dataflow language, which means Flows understands all kinds of values and associates types with data. Flows is a hybrid typed language, so it performs static type checking to provide features like auto-complete and early warning. Flows also performs some dynamic type checking during execution.
+<!-- vale Postman.Spelling = NO -->
+<!-- vale Postman.Weasel = NO -->
+Postman Flows is a dataflow language, which means it understands all kinds of values and associates types with data. Flows is a hybrid typed language, so it performs static type checking to provide features like auto-complete and early warning. Flows also performs some dynamic type checking during execution.
+<!-- vale Postman.Weasel = YES -->
+<!-- vale Postman.Spelling = YES -->
 
-Since most Flow programmers have a JavaScript or TypeScript background, or are programming in an API-First language for the first time, the vocabulary of the types closely resembles JavaScript and TypeScript.
+Because most Flow programmers have a JavaScript or TypeScript background, or are programming in an API-First language for the first time, the vocabulary of the types resembles JavaScript and TypeScript.
+
+## Contents
+
+* [Primitive values](#primitive-values)
+* [Abstract types](#abstract-types)
 
 ## Primitive values
+
+<!-- vale Postman.Spelling = NO -->
 
 | Type                 | What it accepts                                           | Example                   |
 | -------------------- | --------------------------------------------------------- | ------------------------- |
@@ -17,6 +28,8 @@ Since most Flow programmers have a JavaScript or TypeScript background, or are p
 | timestamp            | string containing RFC3339 timestamp                       | `1985-04-12T23:20:50.52Z` |
 | regex                | A regular expression                                      | `/ab+c/`                  |
 | symbol               | Symbol of various types                                    | `now` <br> `null`      |
+
+<!-- vale Postman.Spelling = YES -->
 
 ### Boolean
 
@@ -31,7 +44,11 @@ The _boolean_ value gets automatically converted to a _number_ or a _string_ if 
 
 ### String
 
+<!-- vale Postman.Spelling = NO -->
+
 The string type is used to represent textual data. It's a UTF-8 encoded list of characters. Like JavaScript, strings in Flows are also immutable. For example, once a string is created, it can't be modified. But you can create new strings out of existing strings using operators like _concat_ or _substring_.
+
+<!-- vale Postman.Spelling = YES -->
 
 A _string_ value can't be converted automatically to any other type.
 
@@ -70,7 +87,7 @@ A _regex_ value is automatically converted to a _string_ if required.
 
 ## Abstract types
 
-> All complex and abstract data types in Flows are built on the concept of [Streams](<https://en.wikipedia.org/wiki/Stream_(computing)>) internally.
+> All complex and abstract data types in Flows are built on the concept of streams internally.
 
 ### List
 
