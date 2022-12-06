@@ -1,7 +1,7 @@
 ---
 title: "Postman API"
 order: 146
-updated: 2022-10-12
+updated: 2022-11-30
 page_id: "intro_api"
 search_keyword: "postman-api-key, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset"
 contextual_links:
@@ -61,7 +61,7 @@ You will need an [API key](#generating-a-postman-api-key) to access the Postman 
 
 ## Generating a Postman API key
 
-You need a valid API Key to send requests to the Postman API. To generate an API key:
+You need a valid API Key to send requests to the Postman API.
 
 1. Open your [API Keys page](https://go.postman.co/settings/me/api-keys). Select your avatar in the upper-right corner > **Settings**. Then select **API keys**.
 
@@ -92,6 +92,16 @@ You can also send the key as an `apikey` URL query parameter. An API key sent as
 Your API Key provides access to any Postman data you have permissions for.
 
 You can store your API key in a [variable](/docs/sending-requests/variables/). If you name it `postman_api_key`, the Postman API collection will use it automatically
+
+## Generating a collection access key
+
+With a collection access key, you can securely grant other users read-only access to a single collection. Your [API Keys page](https://go.postman.co/settings/me/api-keys) has a list of all the collection access keys you have generated, and includes information about which collection the key belongs to and when it was generated.
+
+You will generate a new collection access key every time you share a collection using the Postman API. To learn more, see [Sharing using the Postman API](/docs/collaborating-in-postman/sharing/#sharing-using-the-postman-api).
+
+To revoke a collection access key, select **Delete**.
+
+<img alt="Deleting collection access keys" src="https://assets.postman.com/postman-docs/v10/collection-access-keys-v10.jpg"/>
 
 ## Rate limits
 

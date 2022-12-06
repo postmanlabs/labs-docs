@@ -36,7 +36,7 @@ In an API-first design lifecycle, you may be designing a new feature that depend
 
 Before creating a gRPC mock server, you must have an API definition. This can either be an API in your workspace, a `.proto` file you want to import, or you can create a new API using the Postman API Builder.
 
-To create the gRPC mock server:
+To create the gRPC mock server, do the following:
 
 1. Create a new gRPC request. See [Creating a new request](/docs/sending-requests/grpc/grpc-request-interface/#creating-a-new-request) for more information.
 1. Select **Enter server URL**.
@@ -55,7 +55,7 @@ The mock server will dynamically update based on changes to your protobuf API. I
 
 Each time you make a request against the mock server, different random data will be returned. However, if you are writing tests, you might need to get the same response every time. This is possible using the seed metadata in each response. The seed is a random number in the response metadata. If you pass the seed in a request, the same response will be returned each time.
 
-To pass seed data:
+To pass seed data, do the following:
 
 1. Make a gRPC request to a mock server.
 1. In the **Metadata** pane of the response, find the value of the key-value pair named `seed`.

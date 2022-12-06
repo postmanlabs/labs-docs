@@ -13,23 +13,25 @@ If you have several requests that have no dependency on each other but have to b
 
    ![running requests add](https://assets.postman.com/postman-labs-docs/running-requests/updated-running-add-requests.gif)
 
-2. **Connect the send events**
+1. **Connect the send events**
 
    Select the dot (success output) of the source block and connect it to the send input of the target block in the order you want the requests to execute.
 
    ![Connect send events](https://assets.postman.com/postman-labs-docs/running-requests/updated-running-connect-send-events.gif)
 
-   Here, a POST request is executed and once the request has completed, the PUT request endpoint is called, and then finally a GET request is called.
+   Here, a POST request is executed and once the request has completed, the PUT request endpoint is called, and then a GET request is called.
 
+   <!-- vale Postman.ComplexWords = NO -->
    > **Important**
    >
    > 1. When a send event connection is made, the input becomes deactivated to show that it will get enabled after the previous blocks get enabled.
    > 2. The send event connection depicts the order in which the blocks will be executed.
    > 3. When using send event, no data is passed from one block to another.
+    <!-- vale Postman.ComplexWords = YES -->
 
-3. **Start the Flow**
+1. **Start the flow**
 
-   Start the Flow and see the requests run in the order they're configured:
+   Start the flow and see the requests run in the order they're configured:
 
    ![Start the flow](https://assets.postman.com/postman-labs-docs/running-requests/updated-running-run-with-send-events.gif)
 

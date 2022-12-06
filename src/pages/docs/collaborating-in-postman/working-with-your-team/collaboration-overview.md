@@ -40,8 +40,6 @@ To get the most out of Postman's collaboration features, [create](#creating-a-te
 
 ## Creating a team
 
-To create a Postman team:
-
 1. Select your avatar in the upper-right corner > **Create a team**. If you're already a member of a Postman team, select **+ Create Team**.
 2. Select **Set Up Your Team**.
 3. (Optional) Provide a team name, URL, and logo, and decide if you'd like to turn on [team discovery](/docs/collaborating-in-postman/working-with-your-team/enabling-team-discovery/).

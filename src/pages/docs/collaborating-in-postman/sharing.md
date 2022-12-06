@@ -2,7 +2,7 @@
 title: "Sharing your work"
 order: 73.1
 page_id: "sharing"
-updated: 2021-12-11
+updated: 2022-11-30
 contextual_links:
   - type: section
     name: "Prerequisites"
@@ -29,53 +29,97 @@ warning: false
 
 ---
 
-You can collaborate on Postman elements including collections, APIs, and environments, by sharing them using a link or by moving them to a shared private, team, or public workspace.
+You can collaborate on Postman elements including collections, APIs, and environments, by sharing them or by moving them to a shared private, team, or public workspace.
 
-> To share a collection run, see [Using the Collection Runner](/docs/running-collections/intro-to-collection-runs/).
+To share your work using workspaces, you need to be signed in to your [Postman account](/docs/getting-started/postman-account/).
+
+> This page has information about sharing Postman collections, APIs, and environments using the **Share** function. Other Postman elements are shared differently:
 >
-> To share a collection using an embed, use the [Run in Postman](/docs/publishing-your-api/run-in-postman/introduction-run-button/) button.
->
-> To share a collection as a file, see [Importing and exporting data](/docs/getting-started/importing-and-exporting-data/)
+> * To share a collection run, see [Using the Collection Runner](/docs/running-collections/intro-to-collection-runs/).
+> * To share a collection as a file, see [Importing and exporting data](/docs/getting-started/importing-and-exporting-data/).
 
 ## Contents
 
 * [Sharing Postman elements](#sharing-postman-elements)
-* [Moving Postman elements to collaborative workspaces](#moving-postman-elements-to-collaborative-workspaces)
-
-> To share your work using workspaces, you need to be signed in to your [Postman account](/docs/getting-started/postman-account/).
+    * [Sharing using names, emails, or groups](#sharing-using-names-emails-or-groups)
+    * [Sharing using a Run in Postman button](#sharing-using-a-run-in-postman-button)
+    * [Sharing using the Postman API](#sharing-using-the-postman-api)
+* [Sharing elements with external users](#sharing-elements-with-external-users)
 
 ## Sharing Postman elements
 
-You can share your collections, APIs, and environments with collaborators by navigating to the element you want to share in the sidebar. Select it, then select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> > **Share**. You can also hover over the element's name in the workbench to display the link icon <img alt="Link icon" src="https://assets.postman.com/postman-docs/icon-workspace-link-v9.jpg#icon" width="18px">. Select the link icon to copy the element's URL to your clipboard.
+You can share your collections, APIs, and environments with collaborators. There are two different ways to share an element:
 
-Collections, APIs, and environments can be shared directly with collaborators, including team members, [groups](/docs/administration/managing-your-team/user-groups/), and external users.
+* In the sidebar, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> next to the element you want to share, then select **Share**.
+* Open the element you want to share, then select <img alt="Share icon" src="https://assets.postman.com/postman-docs/icon-share.jpg#icon" width="16px"> **Share** from the element's overview page.
 
-<img alt="Share API" src="https://assets.postman.com/postman-docs/share-api-9.4.jpg"/>
+To copy an element's URL to your clipboard, you can also hover over the element's name in the overview page and select the link icon <img alt="Link icon" src="https://assets.postman.com/postman-docs/icon-workspace-link-v9.jpg#icon" width="18px">.
 
-If the element is in a private workspace and you aren't a Workspace Admin, you will only be able to share it with team members who already have access to the workspace. If you'd like a team member who's not a part of the private workspace to [request access](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#accessing-private-workspaces), you can open the workspace in the [Postman web app](/docs/getting-started/installation-and-updates/#using-the-postman-web-app), copy the page URL, and send it to them.
+### Sharing using names, emails, or groups
 
-If the element is in a personal workspace, you'll be prompted to either change the workspace visibility to team or create a new team workspace to place the element in.
+You can share collections, APIs, and environments directly with collaborators, including team members, groups, and external users.
 
-If you are an [Editor](/docs/collaborating-in-postman/roles-and-permissions/) on the element you are sharing, you'll have the option to give your new collaborators a **Viewer** or **Editor** [role](/docs/collaborating-in-postman/roles-and-permissions/) on the element. If you are a [Viewer](/docs/collaborating-in-postman/roles-and-permissions/) on the element, you can share it, but you won't be able to assign roles.
+1. From the element you want to share, select <img alt="Share icon" src="https://assets.postman.com/postman-docs/icon-share.jpg#icon" width="16px"> **Share**.
+1. Select **With people**.
+1. Enter the name, email address, or [group name](/docs/administration/managing-your-team/user-groups/) for the people you want to share the element with.
+1. If you have an Editor role for the element you are sharing, you can give your new collaborators a **Viewer** or **Editor** [role](/docs/collaborating-in-postman/roles-and-permissions/) on the element. If you have a Viewer role for the element, you can share it, but you won't be able to assign roles.
+1. Select **Share Collection**.
 
-Individual team members and groups you invite will be notified of your request to collaborate.
+<img alt="Share a collection using name, email, or group" src="https://assets.postman.com/postman-docs/v10/share-element-with-people-v10.jpg"/>
 
-External users who aren't on your Postman team will receive an invitation to join immediately if you're a [Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) or [Super Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles). On Free, Basic, and Professional plans, users with the Developer role can invite external users as Developers automatically, without the need for approval by a Team Admin.
+Postman will tell the individual team members and groups you shared the element with about your request to collaborate.
 
-If you aren't a Team Admin or a Developer inviting another Developer on a Free, Basic, or Professional plan, your request to add external users to your Postman team will be shared with your Team Admins for approval.
+If the element you want to share is in a personal workspace, you'll be prompted to either change the workspace visibility to Team or to create a new team workspace to place the element in. For more information, see [Collaborating in team workspaces](/docs/collaborating-in-postman/working-with-your-team/collaborating-in-team-workspaces/).
+
+If the element you want to share is in a private workspace, users who don't have access to the private workspace will be invited as workspace Viewers when the element is shared with them.
+
+### Sharing using a Run in Postman button
+
+You can share collections in a website or README with a Run in Postman button.
+
+<!-- vale Postman.Avoid = NO -->
+
+1. From the element you want to share, select <img alt="Share icon" src="https://assets.postman.com/postman-docs/icon-share.jpg#icon" width="16px"> **Share**.
+1. Select **Via Run in Postman**.
+
+<!-- vale Postman.Avoid = YES -->
+
+For more information on making and using a Run in Postman button, read [Creating Run in Postman buttons](/docs/publishing-your-api/run-in-postman/creating-run-button/).
+
+<img alt="Share a collection with a Run in Postman button" src="https://assets.postman.com/postman-docs/v10/share-collection-run-in-postman-v10.jpg"/>
+
+### Sharing using the Postman API
+
+To share a collection's JSON using the Postman API, do the following:
+
+<!-- vale Postman.Avoid = NO -->
+
+1. From the element you want to share, select <img alt="Share icon" src="https://assets.postman.com/postman-docs/icon-share.jpg#icon" width="16px"> **Share**.
+1. Select **Via API**.
+1. Select **Get collection JSON using Collection Access Key**.
+1. Select **Generate New Key** to create a collection access key. The collection access key enables other users to have read-only access to the collection JSON.
+1. (Optional) Select **Manage keys** to view or revoke this collection access key on your API Key page. To learn more about collection access keys, see [Generating a collection access key](/docs/developer/intro-api/#generating-a-collection-access-key).
+
+<!-- vale Postman.Avoid = YES -->
+
+Anyone with this link has read-only access to the collection's JSON. The data that this Postman API endpoint serves reflects the current state of the collection.
+
+> Collection JSON links expire after 60 days of inactivity.
+
+<img alt="Share a collection with a Run in Postman button" src="https://assets.postman.com/postman-docs/v10/share-collection-via-api-v10.jpg"/>
+
+If you want to share a link with other users, select **Link to collection in public workspace** to provide a link to the collection. Anyone with this link can view and fork your collection.
+
+<img alt="Share a collection with a Run in Postman button" src="https://assets.postman.com/postman-docs/v10/share-collection-link-v10.jpg"/>
+
+## Sharing elements with external users
+
+> Your team must have [available seats](/docs/administration/billing/#changing-your-plan) or [Auto-Flex enabled](/docs/administration/billing/#utilizing-auto-flex) to invite more team members.
+
+When you share a collection, external users who aren't on your Postman team will receive an invitation to join your team right away if you're a [Team Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) or [Super Admin](/docs/collaborating-in-postman/roles-and-permissions/#team-roles).
+
+If you have a [Developer role](/docs/collaborating-in-postman/roles-and-permissions/#team-roles) on your team and you are on a Free, Basic, or Professional plan, external users you share an element with are added to your team as Developers automatically, without the need for approval by a Team Admin.
+
+If you aren't a Developer on a Free, Basic or Professional plan or a Team Admin on any plan, a Team Admin must approve your request to share an element with an external user.
 
 > If your team has [SSO enabled](/docs/administration/sso/intro-sso/), external users will be required to sign in using your team's SSO.
-
-<!-- -->
-
-> Your team must have [available slots](/docs/administration/billing/#changing-your-plan) or [Auto-Flex enabled](/docs/administration/billing/#utilizing-auto-flex) to invite additional team members.
-
-You can also share collections with a [Run in Postman](/docs/publishing-your-api/run-in-postman/creating-run-button/) button or a JSON link.
-
-<img alt="Share a collection with a Run in Postman button" src="https://assets.postman.com/postman-docs/share-collection-ripbutton-9.4.jpg"/>
-
-> A JSON link is a shareable public link to a static snapshot of your collection. You can manage a complete list of your active collection links from your [Postman profile](https://go.postman.co/me/collections?view=links).
-
-## Moving Postman elements to collaborative workspaces
-
-You can move APIs, collections, and environments to shared workspaces to collaborate with your team. For more information, see [Collaborating in team workspaces](/docs/collaborating-in-postman/working-with-your-team/collaborating-in-team-workspaces/).

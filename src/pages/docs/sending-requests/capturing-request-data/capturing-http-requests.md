@@ -70,8 +70,6 @@ In the steps below, you will use the Postman app's proxy to inspect HTTP communi
 
 > You can't use the Postman proxy with the [Postman web app](/docs/getting-started/installation-and-updates/#web-limitations). Make sure you've installed the [Postman desktop app](/docs/getting-started/installation-and-updates/).
 
-To begin, start the proxy inside Postman:
-
 1. Select <img alt="Capture icon" src="https://assets.postman.com/postman-docs/icon-capture.jpg#icon" width="15px"> **Capture requests** in the Postman footer.
 1. In the **Capture requests** window, select the **Via Proxy** tab.
 
@@ -88,6 +86,8 @@ The proxy is running, but it won't capture traffic until you start a proxy debug
 After the proxy is running, you can start a proxy debug session. This is a time-bound session where captured traffic is saved in an entry in the **History** tab, and optionally into a collection. Once a proxy debug session is started, you can then pause, restart, or stop it. Before you start the session, you can select what traffic you want to go into it.
 
 > You can only have a single proxy or interceptor debug session running at the same time.
+
+To start a proxy debug session, do the following:
 
 1. Go to the **Via Proxy** tab of the **Capture requests** window.
 1. Select **Save Responses for Requests** to save each request's responses. They will be saved along with the captured requests.

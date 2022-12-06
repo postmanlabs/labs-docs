@@ -60,7 +60,7 @@ When you send a request to a mock server, Postman matches the request to a saved
 
 ## Mock server quick start
 
-To test using a mock server, do the following steps:
+To test using a mock server, do the following:
 
 1. In Postman, send a request to any API. Your request must be saved to a collection.
 1. In the response pane, select **Save Response > Save as example**. Postman automatically populates the example with the response you received when you sent the request.
@@ -148,7 +148,7 @@ When you send a request to the mock server, Postman uses a [matching algorithm](
 
 By default, the matching algorithm doesn't consider the request's body or headers when selecting the best response to return. You can change this behavior in the mock server's configuration. Using body or header matching, you can specify the exact response you want the mock server to return by matching the body or headers of the saved example.
 
-To use body or header matching with a mock server:
+To use body or header matching with a mock server, do the following:
 
 1. Select **Mock Servers** in the sidebar, select a mock server, and select <img alt="Settings icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> **Edit Configuration**.
 1. Under **Response Matching**, select the matching options you want to use:
