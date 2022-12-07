@@ -149,7 +149,7 @@ To learn more about the supported API description formats, the rules preconfigur
 
 To see any rule violations, select **Rule** next to **Violations found in definition**. Each rule violation is on its own line and includes the violation **Name** and the rule type (**Governance** or **Security**). The number next to the rule name tells you how many times Postman found the rule violation in your API definition.
 
-Select the number to inspect each rule violation. Every instance of the rule violation has a brief description of the issue and the line in the file the where the rule violation occurs. When you select a rule violation, Postman highlights the section of the definition that triggered it.
+Select the number to inspect each rule violation. Every instance of the rule violation has a brief description of the issue and the line in the file where the rule violation occurs. When you select a rule violation, Postman highlights the section of the definition that triggered it.
 
 <img alt="Multiple occurrences of the same rule violation" src="https://assets.postman.com/postman-docs/v10/api-definition-multiple-violations-v10.1.jpg" />
 
