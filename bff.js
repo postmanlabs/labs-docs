@@ -5,6 +5,7 @@ const pingWebHook = require('./build/pingWebHook');
 const fetchBlogPosts = require('./build/fetchBlogPosts');
 const fetchEvents = require('./build/fetchEvents');
 const fetchFooter = require('./build/fetchFooter');
+const fetchNavbar = require('./build/fetchNavbar');
 const fetchPmTech = require('./build/fetchPmTech');
 const { allow } = require('./package.json');
 
@@ -44,6 +45,7 @@ const prefetch = async () => {
   fetchBlogPosts();
   fetchEvents();
   fetchFooter();
+  fetchNavbar();
 
   let pmTech = '';
 
