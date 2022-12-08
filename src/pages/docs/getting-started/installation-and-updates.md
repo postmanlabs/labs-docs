@@ -30,6 +30,7 @@ contextual_links:
   - type: link
     name: "Sending your first request"
     url: "/docs/getting-started/sending-the-first-request/"
+    blog_tag: "collaboration"
 
 ---
 

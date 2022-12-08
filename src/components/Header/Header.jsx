@@ -1,11 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { trackCustomEvent } from 'gatsby-plugin-google-analytics';
-import Dropdown from './Dropdown';
 import $ from 'jquery';
 import {PrimaryNavbarV6, SecondaryNavbarV6, NavStyles, DropdownStyles, CTAButton} from './HeaderStyles.jsx' ;
-import { SearchWrapperStyling } from '../Search/searchStyles.jsx';
-import navbarData from '../../../bff-data/navbar.json';
-import navbarDataLocal from '../../../build/navbarDev.json';
 
 // Get Cookie for Sign In toggler
 const getCookie = (a) => {
@@ -216,215 +212,65 @@ const Header = (props) => {
             <div className="navbar-logo-container">
               <img src="https://voyager.postman.com/logo/postman-logo-icon-orange.svg" alt="Postman" width="32" height="32" />
             </div>
-          </a>
-          <button
-            onClick={() => {
-              showTargetElement();
-              hideTargetElement();
-            }}
-            id="globalNav"
-            className="mobile-sign-in navbar-toggler"
-            data-test="mobileNavToggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span className="navbar-toggler-icon">
-              <div
-                id="icon-wrap-one"
-                className="icon-bar"
-                aria-expanded="false"
-              >
-                <span />
-                <span />
-                <span />
-                <span />
-              </div>
-            </span>
-          </button>
-          <div
-            id="navbarSupportedContent"
-            className={`collapse navbar-collapse ${!visibleHelloBar ? 'noBar' : ''}`}
-          >
-            {/* Primary Navbar */}
-            <ul className="navbar-nav mr-auto">
-            {data.items.map((item) => (
-                item.dropdown && item.dropdown && (
-                  <li className="nav-item dropdown" key={item.title}>
-                    <a
-                      className="nav-link dropdown-toggle"
-                      href="##"
-                      id="navbarDropdownMenuLink"
-                      data-toggle="dropdown"
-                      aria-expanded="false"
-                      key={item.title}
-                    >
-                      {item.title}
-                      <svg
-                        className="arrow-icon"
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="12"
-                        height="12"
-                        viewBox="0 0 12 12"
-                        fill="#6b6b6b"
-                      >
-                        <g>
-                          <path d="M10.375,3.219,6,6.719l-4.375-3.5A1,1,0,1,0,.375,4.781l5,4a1,1,0,0,0,1.25,0l5-4a1,1,0,0,0-1.25-1.562Z" />
-                        </g>
-                      </svg>
-                    </a>
-                      <DropdownStyles
-                          className="dropdown-menu"
-                          aria-labelledby="navbarDropdownMenuLink"
-                        >
-                          { item.columns && item.columns &&
-                          <div className="row dropdown-col-menu">
-                            { item.columns.map((col) => (
-                              <div className="col-sm-6 col-md-4 dropdown-col" key={col.title}>
-                                <h6 className="dropdown-header">{col.title}</h6>
-                                {col.subItemsCol.map((link) => (
-                                  <a
-                                    className="dropdown-item"
-                                    href={link.url}
-                                    key={link.title}
-                                  >
-                                    {link.title}
-                                  </a>
-                                ))}
-                              </div>
-                            ))}
-                          </div> || item.subItems.map((single) => (
-                          <a
-                            className={`${single.link ? 'app-cta' : ''} dropdown-item`}
-                            href={single.url}
-                            key={single.title}
-                          >
-                            {single.title}
-                          </a>
-                        ))}
-                        </DropdownStyles>
-                  </li>
-                ) || (
-                  <li className="nav-item" key={item.title}>
-                    <a
-                      className="nav-link"
-                      href={item.url}
-                      key={item.title}>
-                      {item.title}
-                    </a>
-                  </li>
-                )
-              )
-            )
-          }
-          </ul>
-          {/* Login Check */}
-            <div className="form-inline my-2 my-lg-0">
-              <LoginCheck
-                hidden={hidden}
-                waitBeforeShow={100}
-                cookie={cookie}
-                beta={beta}
-                className="pingdom-transactional-check__sign-in-button"
-              />
+          </NavStyles>
+        </PrimaryNavbarV6>
+        <SecondaryNavbarV6 className="navbar-v6 sticky ">
+          <NavStyles className="navbar navbar-expand-lg navbar-light nav-secondary blurred-container">
+            <a
+              className="navbar-brand"
+              href="/docs/getting-started/introduction/"
+            >
+              <span id="learning-center-home-link" className="nav-link uber-nav">
+                Learning Center
+                <span className="sr-only">(current)</span>
+              </span>
+            </a>
+            <button
+              onClick={() => {
+                this.showTargetElementLC();
+                this.hideTargetElementLC();
+              }}
+              id="secondaryNav"
+              className="mobile-sign-in navbar-toggler"
+              data-test="mobileNavTogglerBottom"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContentBottom"
+              aria-controls="navbarSupportedContentBottom"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span className="navbar-toggler-icon">
+                <div
+                  id="icon-wrap-two"
+                  aria-expanded="false"
+                >
+                  <svg id="navbar-chevron-icons" width="20" height="11" viewBox="0 0 20 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1 1L10 10L19 1" stroke="#6B6B6B" strokwidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                  </svg>
+                </div>
+              </span>
+            </button>
+            <div
+              className="collapse navbar-collapse"
+              id="navbarSupportedContentBottom"
+            >
+              <ul className="property-context-menu navbar-nav ml-auto">
+                <li className="nav-item">
+                  <a
+                    className="nav-link uber-nav"
+                    href="/docs/getting-started/introduction/"
+                  >
+                    Docs
+                  </a>
+                </li>
+              </ul>
             </div>
-          </div>
-        </NavStyles>
-      </PrimaryNavbarV6>
-      <SecondaryNavbarV6 className="navbar-v6 sticky ">
-        <NavStyles className="navbar navbar-expand-lg navbar-light nav-secondary blurred-container">
-          <a
-            className="navbar-brand"
-            href="/docs/getting-started/introduction/"
-          >
-            <span id="learning-center-home-link" className="nav-link uber-nav">
-              Learning Center
-              <span className="sr-only">(current)</span>
-            </span>
-          </a>
-          <button
-            onClick={() => {
-              showTargetElementLC();
-              hideTargetElementLC();
-            }}
-            id="secondaryNav"
-            className="mobile-sign-in navbar-toggler"
-            data-test="mobileNavTogglerBottom"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarSupportedContentBottom"
-            aria-controls="navbarSupportedContentBottom"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span className="navbar-toggler-icon">
-              <div
-                id="icon-wrap-two"
-                aria-expanded="false"
-              >
-                <svg id="navbar-chevron-icons" width="20" height="11" viewBox="0 0 20 11" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M1 1L10 10L19 1" stroke="#6B6B6B" strokwidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                </svg>
-              </div>
-            </span>
-          </button>
-          <div
-            className="collapse navbar-collapse"
-            id="navbarSupportedContentBottom"
-          >
-            <ul className="property-context-menu navbar-nav ml-auto">
-              <li className="nav-item">
-                <a
-                  className="nav-link uber-nav"
-                  href="/docs/getting-started/introduction/"
-                >
-                  Docs
-                </a>
-              </li>
-              <li className="nav-item">
-                <a
-                  className="nav-link uber-nav"
-                  href="/docs/administration/managing-your-team/managing-your-team/"
-                >
-                  Admin
-                </a>
-              </li>
-              <li className="nav-item">
-                <a
-                  className="nav-link uber-nav mr-3"
-                  href="/docs/developer/resources-intro/"
-                >
-                  Developer
-                </a>
-              </li>
-            </ul>
-            {/* Aloglia Widgets */}
-            <SearchWrapperStyling className="form-inline header__search">
-              <svg
-                className="nav-search__icon"
-                width="16"
-                height="16"
-                viewBox="0 0 16 16"
-                fill="#6b6b6b"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  fillRule="evenodd"
-                  clipRule="evenodd"
-                  d="M9.87147 9.16437C10.5768 8.30243 11 7.20063 11 6C11 3.23858 8.76142 1 6 1C3.23858 1 1 3.23858 1 6C1 8.76142 3.23858 11 6 11C7.20063 11 8.30243 10.5768 9.16437 9.87147L9.89648 10.6036L9.64648 10.8536L13.5758 14.7829C13.8101 15.0172 14.19 15.0172 14.4243 14.7829L14.7829 14.4243C15.0172 14.19 15.0172 13.8101 14.7829 13.5758L10.8536 9.64648L10.6036 9.89648L9.87147 9.16437ZM6 10C8.20914 10 10 8.20914 10 6C10 3.79086 8.20914 2 6 2C3.79086 2 2 3.79086 2 6C2 8.20914 3.79086 10 6 10Z"
-                />
-              </svg>
-
-              <Dropdown />
-            </SearchWrapperStyling>
-          </div>
-        </NavStyles>
-      </SecondaryNavbarV6>
-    </>
-  );
-;}
+          </NavStyles>
+        </SecondaryNavbarV6>
+      </>
+    );
+  }
+}
 
 export default Header;
