@@ -1,7 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import { trackCustomEvent } from 'gatsby-plugin-google-analytics';
 import $ from 'jquery';
-import {PrimaryNavbarV6, SecondaryNavbarV6, NavStyles, DropdownStyles, CTAButton} from './HeaderStyles.jsx' ;
+import {PrimaryNavbarV6, SecondaryNavbarV6, NavStyles, DropdownStyles, CTAButton} from './HeaderStyles.jsx' ; 
+import navbarData from '../../../bff-data/navbar.json';
+
 
 // Get Cookie for Sign In toggler
 const getCookie = (a) => {
@@ -69,7 +71,7 @@ const Header = (props) => {
   const [beta, setBeta] = useState('');
   const [cookie, setCookie] = useState('');
   const [hidden, setHidden] = useState(true);
-  const [data, setData] = useState(navbarDataLocal);
+  const [data] = useState(navbarData);
   const [visibleHelloBar] = useState();
 
   useEffect(() => {
@@ -78,10 +80,6 @@ const Header = (props) => {
 
     setCookie(cookie);
     setBeta(beta);
-
-    if (process.env.NODE_ENV === 'production') { 
-      setData(navbarData); // gets data fron bff generated file
-    }
 
     const { waitBeforeShow } = props;
 
@@ -212,65 +210,180 @@ const Header = (props) => {
             <div className="navbar-logo-container">
               <img src="https://voyager.postman.com/logo/postman-logo-icon-orange.svg" alt="Postman" width="32" height="32" />
             </div>
-          </NavStyles>
-        </PrimaryNavbarV6>
-        <SecondaryNavbarV6 className="navbar-v6 sticky ">
-          <NavStyles className="navbar navbar-expand-lg navbar-light nav-secondary blurred-container">
-            <a
-              className="navbar-brand"
-              href="/docs/getting-started/introduction/"
-            >
-              <span id="learning-center-home-link" className="nav-link uber-nav">
-                Learning Center
-                <span className="sr-only">(current)</span>
-              </span>
-            </a>
-            <button
-              onClick={() => {
-                this.showTargetElementLC();
-                this.hideTargetElementLC();
-              }}
-              id="secondaryNav"
-              className="mobile-sign-in navbar-toggler"
-              data-test="mobileNavTogglerBottom"
-              type="button"
-              data-toggle="collapse"
-              data-target="#navbarSupportedContentBottom"
-              aria-controls="navbarSupportedContentBottom"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span className="navbar-toggler-icon">
-                <div
-                  id="icon-wrap-two"
-                  aria-expanded="false"
-                >
-                  <svg id="navbar-chevron-icons" width="20" height="11" viewBox="0 0 20 11" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M1 1L10 10L19 1" stroke="#6B6B6B" strokwidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                  </svg>
-                </div>
-              </span>
-            </button>
-            <div
-              className="collapse navbar-collapse"
-              id="navbarSupportedContentBottom"
-            >
-              <ul className="property-context-menu navbar-nav ml-auto">
-                <li className="nav-item">
-                  <a
-                    className="nav-link uber-nav"
-                    href="/docs/getting-started/introduction/"
-                  >
-                    Docs
-                  </a>
-                </li>
-              </ul>
+          </a>
+          <button
+            onClick={() => {
+              showTargetElement();
+              hideTargetElement();
+            }}
+            id="globalNav"
+            className="mobile-sign-in navbar-toggler"
+            data-test="mobileNavToggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span className="navbar-toggler-icon">
+              <div
+                id="icon-wrap-one"
+                className="icon-bar"
+                aria-expanded="false"
+              >
+                <span />
+                <span />
+                <span />
+                <span />
+              </div>
+            </span>
+          </button>
+          <div
+            id="navbarSupportedContent"
+            className={`collapse navbar-collapse ${!visibleHelloBar ? 'noBar' : ''}`}
+          >
+            {/* Primary Navbar */}
+            <ul className="navbar-nav mr-auto">
+            {data.items.map((item) => (
+                item.dropdown && item.dropdown && (
+                  <li className="nav-item dropdown" key={item.title}>
+                    <a
+                      className="nav-link dropdown-toggle"
+                      href="##"
+                      id="navbarDropdownMenuLink"
+                      data-toggle="dropdown"
+                      aria-expanded="false"
+                      key={item.title}
+                    >
+                      {item.title}
+                      <svg
+                        className="arrow-icon"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="12"
+                        height="12"
+                        viewBox="0 0 12 12"
+                        fill="#6b6b6b"
+                      >
+                        <g>
+                          <path d="M10.375,3.219,6,6.719l-4.375-3.5A1,1,0,1,0,.375,4.781l5,4a1,1,0,0,0,1.25,0l5-4a1,1,0,0,0-1.25-1.562Z" />
+                        </g>
+                      </svg>
+                    </a>
+                      <DropdownStyles
+                          className="dropdown-menu"
+                          aria-labelledby="navbarDropdownMenuLink"
+                        >
+                          { item.columns && item.columns &&
+                          <div className="row dropdown-col-menu">
+                            { item.columns.map((col) => (
+                              <div className="col-sm-6 col-md-4 dropdown-col" key={col.title}>
+                                <h6 className="dropdown-header">{col.title}</h6>
+                                {col.subItemsCol.map((link) => (
+                                  <a
+                                    className="dropdown-item"
+                                    href={link.url}
+                                    key={link.title}
+                                  >
+                                    {link.title}
+                                  </a>
+                                ))}
+                              </div>
+                            ))}
+                          </div> || item.subItems.map((single) => (
+                          <a
+                            className={`${single.link ? 'app-cta' : ''} dropdown-item`}
+                            href={single.url}
+                            key={single.title}
+                          >
+                            {single.title}
+                          </a>
+                        ))}
+                        </DropdownStyles>
+                  </li>
+                ) || (
+                  <li className="nav-item" key={item.title}>
+                    <a
+                      className="nav-link"
+                      href={item.url}
+                      key={item.title}>
+                      {item.title}
+                    </a>
+                  </li>
+                )
+              )
+            )
+          }
+          </ul>
+          {/* Login Check */}
+            <div className="form-inline my-2 my-lg-0">
+              <LoginCheck
+                hidden={hidden}
+                waitBeforeShow={100}
+                cookie={cookie}
+                beta={beta}
+                className="pingdom-transactional-check__sign-in-button"
+              />
             </div>
-          </NavStyles>
-        </SecondaryNavbarV6>
-      </>
-    );
-  }
-}
+          </div>
+        </NavStyles>
+      </PrimaryNavbarV6>
+      <SecondaryNavbarV6 className="navbar-v6 sticky ">
+        <NavStyles className="navbar navbar-expand-lg navbar-light nav-secondary blurred-container">
+          <a
+            className="navbar-brand"
+            href="/docs/getting-started/introduction/"
+          >
+            <span id="learning-center-home-link" className="nav-link uber-nav">
+              Marketing Docs Template
+              <span className="sr-only">(current)</span>
+            </span>
+          </a>
+          <button
+            onClick={() => {
+              showTargetElementLC();
+              hideTargetElementLC();
+            }}
+            id="secondaryNav"
+            className="mobile-sign-in navbar-toggler"
+            data-test="mobileNavTogglerBottom"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContentBottom"
+            aria-controls="navbarSupportedContentBottom"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span className="navbar-toggler-icon">
+              <div
+                id="icon-wrap-two"
+                aria-expanded="false"
+              >
+                <svg id="navbar-chevron-icons" width="20" height="11" viewBox="0 0 20 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M1 1L10 10L19 1" stroke="#6B6B6B" strokwidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                </svg>
+              </div>
+            </span>
+          </button>
+          <div
+            className="collapse navbar-collapse"
+            id="navbarSupportedContentBottom"
+          >
+            <ul className="property-context-menu navbar-nav ml-auto">
+              <li className="nav-item">
+                <a
+                  className="nav-link uber-nav"
+                  href="/docs/getting-started/introduction/"
+                >
+                  Docs
+                </a>
+              </li>
+            </ul>
+          </div>
+        </NavStyles>
+      </SecondaryNavbarV6>
+    </>
+  );
+;}
 
 export default Header;

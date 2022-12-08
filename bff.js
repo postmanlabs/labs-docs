@@ -3,7 +3,6 @@ const sh = require('shelljs');
 const crypto = require('crypto');
 const pingWebHook = require('./build/pingWebHook');
 const fetchBlogPosts = require('./build/fetchBlogPosts');
-const fetchEvents = require('./build/fetchEvents');
 const fetchFooter = require('./build/fetchFooter');
 const fetchNavbar = require('./build/fetchNavbar');
 const fetchPmTech = require('./build/fetchPmTech');
@@ -43,7 +42,6 @@ const prefetch = async () => {
   sh.exec('mkdir -p bff-data');
   await pingWebHook();
   fetchBlogPosts();
-  fetchEvents();
   fetchFooter();
   fetchNavbar();
 

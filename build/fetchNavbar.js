@@ -13,7 +13,7 @@ require('dotenv').config({
   path: `.env.${process.env.NODE_ENV}`,
 });
 
-const host = 'https://www.postman.com/mkapi/navbar.json' || ''
+const host = 'https://www.postman.com/mkapi/navbar.json'
 
 function fetchNavbar() {
   if (host) {
