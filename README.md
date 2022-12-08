@@ -1,141 +1,40 @@
 ![Postman logo](https://assets.getpostman.com/common-share/postman-github-logo.png "Postman logo")
 
-# Postman Learning Center
+# Marketing Docs Template
 
-Postman is the collaboration platform for API development. The [Postman Learning Center](https://learning.postman.com/) has the resources you need to ramp up quickly and extend your skills with Postman. Postman enables you to write API test cases in any format of your choice (JSON/XML/many more) and run them to verify and validate your API. Moreover, Postman provides [collections](https://learning.postman.com/docs/getting-started/creating-the-first-collection/) which can improve a developer's workflow. There are also powerful tools for API-first development, including writing API schemas and generating server code. Postman is available for several platforms including Windows, macOS, and Linux. For more information visit [the Postman website](https://www.postman.com/).
+The [Postman Learning Center Docs template](https://learning.postman.com/template) has the resources you need quickly spin up a new repository and page with approved styling and logic in place. This repo is for cloning only, please do not use this repo to create microsites.
 
-## Contribution guidelines
+## Tech stack
 
-We would love for you to contribute to the Learning Center! To contribute to this project, please read:
+The Docs are build with ReactJS, GatsbyJS Framework and styled components for styling.
+The primary header on top and the footer consume the header and footer API from Marketing Engineering. 
+The secondary top navbar as well as the left and right navbars can be adjusted/edited. 
 
-* The [Code of Conduct](https://www.postman.com/code-of-conduct)
-* The [Contribution Guidelines](CONTRIBUTING.md)
-* The [Documentation Style Guide](DOCS_STYLE_GUIDE.md)
+Please refer to our [FAQs](https://postmanlabs.atlassian.net/wiki/spaces/MT/pages/4287037690/Marketing+Docs+Template) for documentation on how to edit/adjust the repo. If you have more questions, please reach out to Marketing Engineering.
 
-**NOTE:** We've added a new Markdown linter with GitHub Actions. When making a pull request, it will run against this linter. Your changed files are required to pass linting before they will be merged. More information on this can be found in the [contribution guidelines](CONTRIBUTING.md).
+## How to get started 
 
-> To say thank you for your contribution, we’d love to send you exclusive Contributor swag. Fill out the [Contributor Submission form](https://docs.google.com/forms/d/e/1FAIpQLSfbLAcxl-IOiv3NmgEaWw7FleOaXnIyIoIrY_zn6U4JvjQBGA/viewform?usp=send_form) and we’ll send you a token of our gratitude.
+**TLDR;
+Clone down repo, create new GitHub repo, push up changes to new repo, contact MarketingEngineering for deployment**
 
-## Build the Learning Center locally
+
+* Clone down this repo and rename it. 
+* In your terminal run: 
+```
+npm run nvmrc; nvm use; npm i
+``` 
+
+* Create a new GitHub repo under the PostmanLabs organisation.
+* In your terminal run:
 
 ```shell
-
-   $ git clone https://github.com/postmanlabs/postman-docs.git
-   $ cd postman-docs
-   $ npm run nvmrc
-   $ nvm use
-   $ npm install
-   $ npm install -g gatsby-cli
-   $ npm run dev
-
+git remote rename origin old-origin
+git remote add origin <url of your new repo>
+git push origin main:main
 ```
 
-**NOTE:** this site was built with Node.js v14.17.1. We recommend installing and using [nvm](https://github.com/nvm-sh/nvm) and setting your Node.js version to v14.17.1.
-
-### Build using Docker
-
-You can build the Learning Center and run it in a Docker container by creating a `dockerfile`.
-
-1. Start by cloning the repository:
-
-   `git clone https://github.com/postmanlabs/postman-docs.git`
-
-2. Create a file and name it `dockerfile` with the following contents:
-
-    ```shell
-
-    FROM node:14
-
-    EXPOSE 8000
-
-    # copy the postman-docs project directory
-    COPY postman-docs /var/postman-docs
-
-    WORKDIR "/var/postman-docs"
-
-    RUN npm install -g gatsby-cli
-    RUN npm install --force
-
-    CMD ["yarn", "dev", "-H", "0.0.0.0" ]
-
-    ```
-
-    The `dockerfile` should be in the same directory as the `postman-docs` directory
-
-    ```shell
-
-    # example directory structure
-    |--[current folder]
-       |--postman-docs
-       |--dockerfile
-
-    ```
-
-3. Build the Docker image with this command:
-
-   `$ docker build --tag postman-docs:1.0 .`
-
-4. Start a container using the image
-
-   `$ docker run -p 8000:8000 -d postman-docs:1.0`
-
-#### Docker Compose
-
-You can also build with the `docker-compose` command using the `dockerfile` above and this `docker-compose.yaml`:
-
-```yaml
-
-version: '3'
-services:
-  node:
-    build:
-      context: ./
-    ports:
-      - "8000:8000"
-
-```
-
-The `docker-compose.yaml` must be in the same directory as the `postman-docs` directory and `dockerfile`.
-
-```shell
-
-# example directory structure
-|--[current folder]
-   |--postman-docs
-   |--dockerfile
-   |--docker-compose.yaml
-
-```
-
-Start run the container with this command:
-
-`$ docker-compose up`
-
-## Project Structure
-
-The built site will only host the most up-to-date docs. All legacy documentation is stored in GitHub and excluded from build.
-
-### To update the docs
-
-* Posts are maintained under the `/src/pages/docs` folder.
-
-* The folder structure of `/docs` is the URL structure for posts. For example, `/docs/postman/variables-and-environments/variables.md` is mapped to the URL `https://learning.postman.com/docs/postman/variables-and-environments/variables/`.
-
-* Links in the docs should be relative. Example:
-
-```shell
-
-   [Newman](/docs/postman/collection-runs/command-line-integration-with-newman/)
-```
-
-## Resources
-
-* [Download Postman](https://www.postman.com/downloads/)
-* [Download Postman Desktop Agent](https://www.postman.com/downloads/postman-agent/)
-* [Postman Release Notes](https://www.postman.com/downloads/release-notes)
-* [Postman Integrations](https://www.postman.com/integrations/)
-* [The Postman API](https://www.postman.com/postman/workspace/postman-public-workspace/documentation/12959542-c8142d51-e97c-46b6-bd77-52bb66712c9a/)
-* [Postman community](https://community.postman.com/) on Discourse
+This sets renames your origin and then points the origin to your new remote github repo.
+Please reach out to MarketingEngineering and provide the desired path, so that we can spin up a new infra for you. 
 
 ## License
 
