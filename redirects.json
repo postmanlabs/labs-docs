@@ -4,7 +4,7 @@
         "to": "https://learning.postman.com/docs/postman-flows/flows-intro/flows-overview/"
     },
     {
-        "from": "https://postmanlabs.com/postman-flows",
-        "to": "https://learning.postman.com/docs/postman-flows/flows-intro/flows-overview/"
+        "from": "/labs/postman-flows/getting-started/flows-overview/",
+        "to": "/docs/postman-flows/flows-intro/flows-overview/"
     }
 ]
