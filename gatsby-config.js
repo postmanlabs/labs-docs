@@ -15,7 +15,7 @@ module.exports = {
     author: 'Postman',
     siteUrl: siteUrl,
   },
-  pathPrefix: '/template/', // The pathPrefix key is apart of gatsby build process, can find in gatsby docs
+  pathPrefix: '/template', // The pathPrefix key is apart of gatsby build process, can find in gatsby docs
   trailingSlash: 'always',
   plugins: [
     'gatsby-plugin-react-helmet',
