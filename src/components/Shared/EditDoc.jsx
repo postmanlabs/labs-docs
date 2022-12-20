@@ -23,12 +23,13 @@ const EditbuttonStyle = styled.span`
   font-family: inter;
   font-size: 14px;
 `
-class EditDoc extends Component {
+class EditDocComponent extends Component {
   constructor(props) {
     super(props);
 
     this.state = {
       pathRoute: '',
+      pathPrefix: props.pathPrefix
     };
   }
 
@@ -40,13 +41,13 @@ class EditDoc extends Component {
 
 
   render() {
-    const { pathRoute } = this.state;
+    const { pathRoute, pathPrefix } = this.state;
 
     // Gatsby path prefixing includes /labs/ at build.
     // This is a case where we do not want the pathRoute prefixed, as it is used inside a github URL
     // So we remove it 
-    if (pathRoute.includes("/labs/")) {
-      pathRoute = pathRoute.replace("/labs/", "/")
+    if (pathRoute.includes(`${pathPrefix}/`)) {
+      pathRoute = pathRoute.replace(`${pathPrefix}/`, "/");
     }
 
     return (
@@ -83,6 +84,21 @@ class EditDoc extends Component {
       </BaseButton>
     );
   }
+}
+
+// To use a static query for the pathPreix, we need to wrap the class based component in an arrow function component
+function EditDoc() {
+  const data = useStaticQuery(graphql`
+    query HeaderQuery {
+      site {
+        pathPrefix
+      }
+    }
+  `)
+
+  return (
+    <EditDocComponent pathPrefix={data.site.pathPrefix} />
+  )
 }
 
 export default EditDoc;
