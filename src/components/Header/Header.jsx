@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from 'gatsby';
 import { trackCustomEvent } from 'gatsby-plugin-google-analytics';
 import $ from 'jquery';
 import {PrimaryNavbarV6, SecondaryNavbarV6, NavStyles, DropdownStyles, CTAButton} from './HeaderStyles.jsx' ; 
@@ -280,35 +281,35 @@ const Header = (props) => {
                               <div className="col-sm-6 col-md-4 dropdown-col" key={col.title}>
                                 <h6 className="dropdown-header">{col.title}</h6>
                                 {col.subItemsCol.map((link) => (
-                                  <a
+                                  <Link
                                     className="dropdown-item"
-                                    href={link.url}
+                                    to={link.url}
                                     key={link.title}
                                   >
                                     {link.title}
-                                  </a>
+                                  </Link>
                                 ))}
                               </div>
                             ))}
                           </div> || item.subItems.map((single) => (
-                          <a
+                          <Link
                             className={`${single.link ? 'app-cta' : ''} dropdown-item`}
-                            href={single.url}
+                            to={single.url}
                             key={single.title}
                           >
                             {single.title}
-                          </a>
+                          </Link>
                         ))}
                         </DropdownStyles>
                   </li>
                 ) || (
                   <li className="nav-item" key={item.title}>
-                    <a
+                    <Link
                       className="nav-link"
-                      href={item.url}
+                      to={item.url}
                       key={item.title}>
                       {item.title}
-                    </a>
+                    </Link>
                   </li>
                 )
               )
@@ -330,15 +331,15 @@ const Header = (props) => {
       </PrimaryNavbarV6>
       <SecondaryNavbarV6 className="navbar-v6 sticky ">
         <NavStyles className="navbar navbar-expand-lg navbar-light nav-secondary blurred-container">
-          <a
+          <Link
             className="navbar-brand"
-            href="/docs/getting-started/introduction/"
+            to="/getting-started/introduction/"
           >
             <span id="learning-center-home-link" className="nav-link uber-nav">
               Marketing Docs Template
               <span className="sr-only">(current)</span>
             </span>
-          </a>
+          </Link>
           <button
             onClick={() => {
               showTargetElementLC();
@@ -371,12 +372,12 @@ const Header = (props) => {
           >
             <ul className="property-context-menu navbar-nav ml-auto">
               <li className="nav-item">
-                <a
+                <Link
                   className="nav-link uber-nav"
-                  href="/docs/getting-started/introduction/"
+                  to="/getting-started/introduction/"
                 >
                   Docs
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

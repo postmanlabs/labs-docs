@@ -1,11 +1,11 @@
 import React, { useState, useEffect }  from 'react';
-import { Link } from 'gatsby';
+import { Link, navigate } from 'gatsby';
 import styled from 'styled-components';
 
 const { v4: uuidv4 } = require('uuid');
 
 const sectionHandler = (e) => {
-  document.location.href = e.target.getAttribute('data-section');
+  navigate(e.target.getAttribute('data-section'));
 };
 
 const NavWrapper = styled.ul`

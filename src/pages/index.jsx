@@ -1,4 +1,5 @@
 import React from 'react';
+import { navigate } from 'gatsby';
 import styled from 'styled-components';
 import '../../styles/config/normalize.css';
 import Layout from '../components/layout';
@@ -50,7 +51,11 @@ class IndexPage extends React.Component {
                     Check out the docs and support resources!
                   </p>
                   <BaseButton
-                    href="/docs/getting-started/introduction/" 
+                    onClick={() => {
+                      if (window !== undefined) {
+                        navigate("/getting-started/introduction/")
+                      }
+                    }} 
                     className="mb-5"
                     as='a'
                     buttonType="secondary"
