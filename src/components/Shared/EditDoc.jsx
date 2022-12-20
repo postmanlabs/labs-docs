@@ -1,4 +1,5 @@
-import React, { Component, useStaticQuery } from 'react';
+import React, { Component } from 'react';
+import { useStaticQuery, graphql } from 'gatsby'
 import { BaseButton } from 'aether-marketing';
 import styled from 'styled-components';
 
@@ -89,7 +90,7 @@ class EditDocComponent extends Component {
 // To use a static query for the pathPreix, we need to wrap the class based component in an arrow function component
 function EditDoc() {
   const data = useStaticQuery(graphql`
-    query HeaderQuery {
+    query EditDocQuery {
       site {
         pathPrefix
       }
