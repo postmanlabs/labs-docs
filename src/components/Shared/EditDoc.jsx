@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, useStaticQuery } from 'react';
 import { BaseButton } from 'aether-marketing';
 import styled from 'styled-components';
 
