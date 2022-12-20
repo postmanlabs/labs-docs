@@ -111,7 +111,7 @@ class BreadCrumbsLinksComponent extends React.Component {
 // To use a static query for the pathPreix, we need to wrap the class based component in an arrow function component
 function BreadCrumbsLinks() {
   const data = useStaticQuery(graphql`
-    query HeaderQuery {
+    query BreadCrumbsQuery {
       site {
         pathPrefix
       }
