@@ -6,7 +6,7 @@ import Layout from '../components/layout';
 import SEO from '../components/seo';
 import { LandingCard } from '../components/MarketingPages/Cards';
 import '../../styles/config/_pm-icons.css';
-import { BaseButton } from 'aether-marketing';
+import Button from '../components/Shared/Button';
 
 
 const HeroWrapper = styled.section`
@@ -50,19 +50,14 @@ class IndexPage extends React.Component {
                     <br />
                     Check out the docs and support resources!
                   </p>
-                  <BaseButton
+                  <Button
                     onClick={() => {
-                      if (window !== undefined) {
-                        navigate("/getting-started/introduction/")
-                      }
+                      navigate("/getting-started/introduction/")
                     }} 
-                    className="mb-5"
-                    as='a'
-                    buttonType="secondary"
-                    target="same-tab"
-                    >
+                    className="mb-5 secondary"
+                  >
                     Explore the Docs
-                  </BaseButton>
+                  </Button>
                 </div>
                 <div className="col-sm-12 col-md-6 col-lg-6 align-self-center">
                   <img
