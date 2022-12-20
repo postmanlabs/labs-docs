@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { Link } from 'gatsby';
 import { leftNavItems } from '../LeftNav/LeftNavItems';
 import styled from 'styled-components';
 import {theme} from '../../../styles/theme';
@@ -36,13 +36,17 @@ class BreadCrumbsLinks extends React.Component {
     this.state = {
       parentLink: {},
       subParentLink: {},
-
     }
   }
   componentDidMount() {
     let location;
     if (typeof window !== 'undefined') {
       location = window.location.pathname;
+      // Below is because "/template/" gets prefixed at build for deployment, in the LeftNavItems array.
+      // In other words, our codebase below isn't aware of "/template/" being in the location bar of the browser
+      // The "/template/" prefixing at build breaks the comparisons below, so we remove it from the strings we are comparing against LeftNavItems.
+      location = location.replace("/template/", "/");
+      // Notice we are not setting location to any href value, we are only using it for the sake of comparing
     }
     /* Loop over LeftNavItems.jsx */
     for (let index = 0; index < leftNavItems.length; index++) {
@@ -71,23 +75,23 @@ class BreadCrumbsLinks extends React.Component {
       <BreadCrumbStyles className=" mb-3" aria-label="breadcrumbs">
         <ol className="lc-breadcrumbs">
           <li>
-            <a href="/" className="small breadcrumb-home-link" title="Learning Center">Home</a>
+            <Link to="/" className="small breadcrumb-home-link" title="Learning Center">Home</Link>
             <span className="small" aria-hidden="true"> / </span>
           </li>
           {JSON.stringify(subParentLink) !== '{}' ? (
             <>
             <li>
-              <a href={parentLink.url} className="small breadcrumb-parent-link">{parentLink.name}</a>
+              <Link to={parentLink.url} className="small breadcrumb-parent-link">{parentLink.name}</Link>
               <span className="small" aria-hidden="true"> / </span>
             </li>
             <li>
-              <a href={subParentLink.slug} className="small breadcrumb-subparent-link">{subParentLink.name}</a>
+              <Link to={subParentLink.slug} className="small breadcrumb-subparent-link">{subParentLink.name}</Link>
             </li>
             </>
           ) : (
             <>
             <li>
-              <a href={parentLink.url} className="small breadcrumb-parent-link">{parentLink.name}</a>
+              <Link to={parentLink.url} className="small breadcrumb-parent-link">{parentLink.name}</Link>
             </li>
             </>
           )}

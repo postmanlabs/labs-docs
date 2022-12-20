@@ -6,7 +6,7 @@ require('dotenv').config({
   path: `.env.${process.env.NODE_ENV}`,
 });
 
-const siteUrl = process.env.SITE_URL ? process.env.SITE_URL : 'https://learning.postman.com'
+const siteUrl = process.env.SITE_URL ? process.env.SITE_URL : 'https://learning.postman.com/template'
 
 module.exports = {
   siteMetadata: {
@@ -15,6 +15,7 @@ module.exports = {
     author: 'Postman',
     siteUrl: siteUrl,
   },
+  pathPrefix: '/template/', // The pathPrefix key is apart of gatsby build process, can find in gatsby docs
   trailingSlash: 'always',
   plugins: [
     'gatsby-plugin-react-helmet',
