@@ -35,6 +35,13 @@ class EditDocComponent extends Component {
   }
 
   componentDidMount() {
+    const { pathRoute, pathPrefix } = this.state;
+    // Gatsby path prefixing includes /labs/ at build.
+    // This is a case where we do not want the pathRoute prefixed, as it is used inside a github URL
+    // So we remove it 
+    if (pathRoute.includes(`${pathPrefix}/`)) {
+      pathRoute = pathRoute.replace(`${pathPrefix}/`, "/");
+    }
     this.setState({
       pathRoute: window.location.pathname.slice(0, -1),
     });
@@ -42,14 +49,9 @@ class EditDocComponent extends Component {
 
 
   render() {
-    const { pathRoute, pathPrefix } = this.state;
+    const { pathRoute } = this.state;
 
-    // Gatsby path prefixing includes /labs/ at build.
-    // This is a case where we do not want the pathRoute prefixed, as it is used inside a github URL
-    // So we remove it 
-    if (pathRoute.includes(`${pathPrefix}/`)) {
-      pathRoute = pathRoute.replace(`${pathPrefix}/`, "/");
-    }
+    
 
     return (
       <BaseButton 
