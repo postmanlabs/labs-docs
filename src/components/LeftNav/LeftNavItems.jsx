@@ -44,6 +44,11 @@ export const leftNavItems = [
     url: "https://learning.postman.com/docs/sending-requests/grpc/grpc-client-overview/",
   },
   {
+    name: "GraphQL v2 Client",
+    parentSlug: "grpc-client",
+    url: "/postman-api-client/graphql-v2-client/graphql-v2-client-overview/",
+  },
+  {
     name: "WebSocket Client",
     parentSlug: "websocket-client",
     url: "/postman-api-client/websocket-client/websocket-client-overview/",
