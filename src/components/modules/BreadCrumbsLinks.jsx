@@ -35,7 +35,9 @@ class BreadCrumbsLinksComponent extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      parentLink: {},
+      parentLink: {
+        url: '/'
+      },
       subParentLink: {},
       pathPrefix: props.pathPrefix
     }

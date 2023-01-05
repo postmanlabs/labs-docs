@@ -281,35 +281,35 @@ const Header = (props) => {
                               <div className="col-sm-6 col-md-4 dropdown-col" key={col.title}>
                                 <h6 className="dropdown-header">{col.title}</h6>
                                 {col.subItemsCol.map((link) => (
-                                  <Link
+                                  <a
                                     className="dropdown-item"
-                                    to={link.url}
+                                    href={link.url}
                                     key={link.title}
                                   >
                                     {link.title}
-                                  </Link>
+                                  </a>
                                 ))}
                               </div>
                             ))}
                           </div> || item.subItems.map((single) => (
-                          <Link
+                          <a
                             className={`${single.link ? 'app-cta' : ''} dropdown-item`}
-                            to={single.url}
+                            href={single.url}
                             key={single.title}
                           >
                             {single.title}
-                          </Link>
+                          </a>
                         ))}
                         </DropdownStyles>
                   </li>
                 ) || (
                   <li className="nav-item" key={item.title}>
-                    <Link
+                    <a
                       className="nav-link"
-                      to={item.url}
+                      href={item.url}
                       key={item.title}>
                       {item.title}
-                    </Link>
+                    </a>
                   </li>
                 )
               )
