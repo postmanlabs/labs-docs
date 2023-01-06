@@ -1,7 +1,7 @@
 {
   "name": "postman-learning-center",
   "private": true,
-  "description": "Postman Learning Center documentation project",
+  "description": "Postman Marketing Template documentation project",
   "version": "0.1.0",
   "dependencies": {
     "@babel/preset-react": "7.16.0",

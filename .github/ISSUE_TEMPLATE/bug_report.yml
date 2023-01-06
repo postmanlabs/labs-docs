@@ -1,16 +1,16 @@
 name: Bug report
 description: Report typos, broken links, or other documentation errors
-title: 'Learning Center bug report'
+title: 'Marketing Template Doc bug report'
 labels: ["bug"]
 assignees:
   - OlliesWorld
 body:
 - type: checkboxes
   attributes:
-    label: Is this an issue with the Learning Center documentation?
+    label: Is this an issue with the Marketing Template Doc documentation?
     description: This isn't a general support repo. For app support issues, please open an issue at [Postman App Support issues](https://github.com/postmanlabs/postman-app-support/issues).
     options:
-    - label: This is an issue with Learning Center documentation.
+    - label: This is an issue with Marketing Template Doc documentation.
       required: true
 - type: textarea
   attributes:
