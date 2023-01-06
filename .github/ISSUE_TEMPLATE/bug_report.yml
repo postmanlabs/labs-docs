@@ -3,7 +3,7 @@ description: Report typos, broken links, or other documentation errors
 title: 'Learning Center bug report'
 labels: ["bug"]
 assignees:
-  - jkonrath-postman
+  - OlliesWorld
 body:
 - type: checkboxes
   attributes:
