@@ -10,7 +10,7 @@ const siteUrl = process.env.SITE_URL ? process.env.SITE_URL : 'https://learning.
 
 module.exports = {
   siteMetadata: {
-    title: 'Postman Learning Center',
+    title: 'Postman Marketing Template Doc',
     description: '',
     author: 'Postman',
     siteUrl: siteUrl,
@@ -64,8 +64,8 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
-        name: 'Postman Learning Center',
-        short_name: 'Postman Learning Center',
+        name: 'Marketing Template Doc',
+        short_name: 'Marketing Template Doc',
         start_url: '/',
         background_color: '#FF6C37',
         theme_color: '#FF6C37',
