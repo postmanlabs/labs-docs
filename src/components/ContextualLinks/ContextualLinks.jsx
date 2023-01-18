@@ -102,12 +102,12 @@ const ContextualLinks = ({ links }) => (
               </div>
             ));
             return (
-              <>
-                <div className="contextual-links__subtitle" key={item.name}>
+              <div key={item.name}>
+                <div className="contextual-links__subtitle" >
                   {item.name}
                 </div>
                 {dynamicLinks}
-              </>
+              </div>
             );
           }
 
