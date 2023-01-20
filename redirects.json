@@ -1,6 +1,6 @@
 [
-	{
-		"from": "/concepts/",
-		"to": "/docs/"
-	}
+    {
+        "from": "/postman-flows/getting-started/flows-overview/",
+        "to": "https://learning.postman.com/docs/postman-flows/flows-intro/flows-overview/"
+    }
 ]
