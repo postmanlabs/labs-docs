@@ -2,10 +2,10 @@
 
 exports[`Footer renders correctly 1`] = `
 <footer
-  className="sc-bczRLJ iKEWEy"
+  className="sc-bczRLJ fiqhuZ"
 >
   <section
-    className="pb-5 section"
+    className="section"
     id="Footer"
   >
     <div
@@ -21,21 +21,21 @@ exports[`Footer renders correctly 1`] = `
             className="row"
           >
             <div
-              className="sc-dkzDqf ksjPNj col-6 col-md-3 col-lg-2 order-12 order-md-0 pad-md-right align-self-center"
+              className="sc-dkzDqf ksjPNj col-8 offset-2 col-md-3 offset-md-0 col-lg-2 order-12 order-md-0 pad-md-right align-self-center"
             >
               <img
                 alt="Postman"
-                className="footer-img"
+                className="footer-img mb-5"
                 src="https://voyager.postman.com/illustration/postman-footer-rocket-launch.svg"
               />
               <span
                 className="col-12 d-none d-md-block copyright"
               >
-                © 2022 Postman, Inc.
+                © 2023 Postman, Inc.
               </span>
             </div>
             <div
-              className="col-6 col-md-3 offset-md-1 col-lg-3 offset-lg-2 order-1 order-md-2 mb-5"
+              className="col-6 col-md-2 offset-md-1 col-lg-2 offset-lg-2 order-1 order-md-2 mb-5"
             >
               <nav
                 aria-labelledby="product"
@@ -183,7 +183,7 @@ exports[`Footer renders correctly 1`] = `
               </nav>
             </div>
             <div
-              className="col-6 col-md-3 order-2 order-md-3"
+              className="col-6 col-md-2 order-2 order-md-3"
             >
               <div>
                 <nav
@@ -276,7 +276,7 @@ exports[`Footer renders correctly 1`] = `
                     className="footer-col-title"
                     id="security-and-legal"
                   >
-                    Security and Legal
+                    Security and Terms
                   </h2>
                   <ul
                     className="sc-gsnTZi kIEZAF column"
@@ -325,7 +325,116 @@ exports[`Footer renders correctly 1`] = `
               </div>
             </div>
             <div
-              className="col-6 col-md-2 col-lg-2 order-3 order-md-4"
+              className="col-6 col-md-2 order-3 order-md-4"
+            >
+              <nav
+                aria-labelledby="api-categories"
+              >
+                <h2
+                  className="footer-col-title"
+                  id="api-categories"
+                >
+                  API Categories
+                </h2>
+                <ul
+                  className="sc-gsnTZi kIEZAF column"
+                >
+                  <li
+                    className="column-row"
+                  >
+                    <a
+                      className="column-link"
+                      href="https://www.postman.com/category/payments"
+                      onClick={[Function]}
+                      rel={null}
+                      target={null}
+                    >
+                      Payments
+                    </a>
+                  </li>
+                  <li
+                    className="column-row"
+                  >
+                    <a
+                      className="column-link"
+                      href="https://www.postman.com/category/financial-services"
+                      onClick={[Function]}
+                      rel={null}
+                      target={null}
+                    >
+                      Financial Services
+                    </a>
+                  </li>
+                  <li
+                    className="column-row"
+                  >
+                    <a
+                      className="column-link"
+                      href="https://www.postman.com/category/devops"
+                      onClick={[Function]}
+                      rel={null}
+                      target={null}
+                    >
+                      DevOps
+                    </a>
+                  </li>
+                  <li
+                    className="column-row"
+                  >
+                    <a
+                      className="column-link"
+                      href="https://www.postman.com/category/developer-productivity"
+                      onClick={[Function]}
+                      rel={null}
+                      target={null}
+                    >
+                      Developer Productivity
+                    </a>
+                  </li>
+                  <li
+                    className="column-row"
+                  >
+                    <a
+                      className="column-link"
+                      href="https://www.postman.com/category/data-analytics"
+                      onClick={[Function]}
+                      rel={null}
+                      target={null}
+                    >
+                      Data Analytics
+                    </a>
+                  </li>
+                  <li
+                    className="column-row"
+                  >
+                    <a
+                      className="column-link"
+                      href="https://www.postman.com/category/communication"
+                      onClick={[Function]}
+                      rel={null}
+                      target={null}
+                    >
+                      Communication
+                    </a>
+                  </li>
+                  <li
+                    className="column-row"
+                  >
+                    <a
+                      className="column-link"
+                      href="https://www.postman.com/category/artificial-intelligence"
+                      onClick={[Function]}
+                      rel={null}
+                      target={null}
+                    >
+                      Artificial Intelligence
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+            <div
+              className="col-6 col-md-2 order-4 order-md-5"
             >
               <div
                 className="row"
@@ -507,7 +616,7 @@ exports[`Footer renders correctly 1`] = `
               <span
                 className="col-12 copyright"
               >
-                © 2022 Postman, Inc.
+                © 2023 Postman, Inc.
               </span>
             </div>
           </div>

@@ -112,5 +112,3 @@ function PreviousAndNextLinks() {
 }
 
 export default PreviousAndNextLinks;
-
-export default PreviousAndNextLinks;
