@@ -173,7 +173,7 @@ const renderTwoLevelList = (item, runtime) => {
               </div>
             </div>
           </div>
-          {console.log(item.subMenuItems1)}
+          
           {active && (
             <ChildItemsWrapper>
               {item.subMenuItems1.map(
