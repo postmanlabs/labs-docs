@@ -1,0 +1,21 @@
+extends: substitution
+message: "Use '%s' instead of '%s'."
+level: warning
+ignorecase: true
+action:
+  name: replace
+swap:
+  (?:abort|aborts): end, close, stop, or cancel
+  agnostic: platform-independent
+  blacklist: blocklist
+  whitelist: allowlist
+  disable: turn off, deselect, inactive, unavailable, or deactivated
+  (?:discriminator|discrimination): condition, property, or test
+  (?:hang|hangs): stops responding, stops, or closes
+  normal: expected or typical
+  dummy: sample
+  old: existing or previous
+  master: primary or main
+  segregate: divide, isolate, quarantine, sequester, or insulate
+  slave: secondary, subordinate, or branch
+  guys: people, folks, Postmanauts

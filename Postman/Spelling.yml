@@ -1,0 +1,5 @@
+extends: spelling
+message: "Is the word '%s' a typo?"
+ignorecase: true
+level: error
+ignore: vale-styles/Postman/ignore.txt
