@@ -6,11 +6,11 @@
   {
     name: 'Title of Parent drawer: Getting started',
     parentSlug: 'Parent path: getting-started',
-    url: 'This is the page that the user should land on when clicking on the parent drawer. Can be any url: /getting-started/introduction/',
+    url: 'This is the page that the user should land on when clicking on the parent drawer. Can be any url: /postman-flows/flows-overview/',
     subMenuItems1: [
       {
         name: 'first level child: Introduction',
-        url: 'path to the first level child: /getting-started/introduction/',
+        url: 'path to the first level child: /postman-flows/flows-overview/',
       },
       {
         name: 'This is a first level child that is also the second level parent drawer title: Capturing Request Data',
@@ -27,70 +27,38 @@
   }
 */
 
-
 export const leftNavItems = [
   {
-    name: 'Getting started',
-    parentSlug: 'getting-started',
-    url: '/getting-started/introduction/',
-    subMenuItems1: [
-      {
-        name: 'Introduction',
-        url: '/getting-started/introduction/',
-      },
-      {
-        name: 'Installing and updating Postman',
-        url: '/getting-started/installation-and-updates/',
-      },
-    ],
+    name: "Labs Overview",
+    parentSlug: "labs-overview",
+    url: "/labs-overview/",
+    subMenuItems1: [],
+    caret: false,
   },
   {
-    name: 'Sending requests',
-    parentSlug: 'sending-requests',
-    url: '/sending-requests/requests/',
+    name: "Postman Flows",
+    parentSlug: "postman-flows",
+    url: "https://learning.postman.com/docs/postman-flows/flows-intro/flows-overview/",
+    subMenuItems1: [],
+    caret: false,
+  },
+  {
+    name: "gRPC Client",
+    parentSlug: "grpc-client",
+    url: "https://learning.postman.com/docs/sending-requests/grpc/grpc-client-overview/",
+    subMenuItems1: [],
+    caret: false,
+  },
+  {
+    name: 'WebSocket Client',
+    parentSlug: 'websocket-client',
+    url: '/postman-api-client/websocket-client/websocket-client-overview/',
+    caret: true,
     subMenuItems1: [
       {
-        name: 'Building requests',
-        url: '/sending-requests/requests/',
-      },
-      {
-        name: 'Authorizing requests',
-        url: '/sending-requests/authorization/',
-      },
-      {
-        name: 'Capturing request data',
-        subParentSlug: 'capturing-request-data',
-        slug: '/sending-requests/capturing-request-data/capture-overview/',
-        subMenuItems2: [
-          {
-            name: 'Capturing request data overview',
-            url: '/sending-requests/capturing-request-data/capture-overview/',
-          },
-          {
-            name: 'Capturing HTTP requests',
-            url: '/sending-requests/capturing-request-data/capturing-http-requests/',
-          },
-        ],
-      },
-      {
-        name: 'Querying with GraphQL',
-        url: '/sending-requests/graphql/graphql/',
-      },
-      {
-        name: 'Using gRPC requests',
-        subParentSlug: 'grpc',
-        slug: '/sending-requests/grpc/grpc-client-overview/',
-        subMenuItems2: [
-          {
-            name: 'gRPC overview',
-            url: '/sending-requests/grpc/grpc-client-overview/',
-          },
-          {
-            name: 'Using the gRPC request interface',
-            url: '/sending-requests/grpc/grpc-request-interface/',
-          },
-        ],
-      },
+        name: 'Using WebSocket requests',
+        url: '/postman-api-client/websocket-client/websocket-client-overview/',
+      },             
     ],
   },
 ];

@@ -347,26 +347,13 @@ const DocPage = ({ data }) => {
                 <hr className="d-block d-lg-none" />
                 <EditDoc />
                 <DisplayContextualLinks data={data} />
-                <div className="sticky">
-                  <div> 
-                    <p>
-                      <span className="font-weight-bold">Postman Newsletter</span> 
-                      <br></br>
-                      Subscribe for product updates, API best practices.
-                    </p>
-                    <BaseLink 
-                      className="sticky"
-                      href="https://www.postman.com/newsletter-signup/"
-                      target="same-tab"
-                      linkType="arrowLink"
-                      >
-                        Sign up
-                    </BaseLink>
-                  </div>
-                  <figure className="postmanaut-dab mt-1">
-                    <img src="https://voyager.postman.com/illustration/postmanaut-posing-dancing-postman-illustration.svg" alt="Posmanaut dancing. Illustration." className="img-fluid" />
-                  </figure>
-                </div>
+         
+                  
+                  <figure className="sticky postmanaut-dab mt-1">
+                  <img src="https://voyager.postman.com/illustration/postman-exploratory-testing-science-illustration-hello.svg" alt="Posmanaut in lab with microscope. Illustration." className="img-fluid" />
+                </figure>
+                  
+            
               </RightColumnWrapper>
             </div>
           </div>
@@ -387,7 +374,7 @@ export const query = graphql`
           type
           name
           url
-          blog_tag
+          # blog_tag
         }
       }
       fields {

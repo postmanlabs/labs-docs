@@ -6,16 +6,18 @@ require('dotenv').config({
   path: `.env.${process.env.NODE_ENV}`,
 });
 
-const siteUrl = process.env.SITE_URL ? process.env.SITE_URL : 'https://learning.postman.com/template'
+const siteUrl = process.env.SITE_URL ? process.env.SITE_URL : 'https://learning.postman.com/template';
+const PREFIX = process.env.PREFIX_PATHS === 'true' ? '/labs' : '';
 
 module.exports = {
   siteMetadata: {
-    title: 'Postman Marketing Template Doc',
+    title: 'Postman Labs Docs',
     description: '',
     author: 'Postman',
     siteUrl: siteUrl,
+    assetPrefix: PREFIX
   },
-  pathPrefix: '/template', // The pathPrefix key is apart of gatsby build process, can find in gatsby docs
+  pathPrefix: '/labs/', // The pathPrefix key is apart of gatsby build process, can find in gatsby docs
   trailingSlash: 'always',
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -64,8 +66,8 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
-        name: 'Marketing Template Doc',
-        short_name: 'Marketing Template Doc',
+        name: 'Postman Labs Docs',
+        short_name: 'Postman Labs Docs',
         start_url: '/',
         background_color: '#FF6C37',
         theme_color: '#FF6C37',

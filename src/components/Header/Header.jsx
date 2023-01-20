@@ -333,10 +333,10 @@ const Header = (props) => {
         <NavStyles className="navbar navbar-expand-lg navbar-light nav-secondary blurred-container">
           <Link
             className="navbar-brand"
-            to="/getting-started/introduction/"
+            to="/"
           >
             <span id="learning-center-home-link" className="nav-link uber-nav">
-              Marketing Docs Template
+            Postman Labs Docs
               <span className="sr-only">(current)</span>
             </span>
           </Link>
@@ -372,12 +372,12 @@ const Header = (props) => {
           >
             <ul className="property-context-menu navbar-nav ml-auto">
               <li className="nav-item">
-                <Link
+                <a
                   className="nav-link uber-nav"
-                  to="/getting-started/introduction/"
+                  href="https://learning.postman.com/docs/postman-flows/flows-intro/flows-overview/"
                 >
-                  Docs
-                </Link>
+                  Flows
+                </a>
               </li>
             </ul>
           </div>
