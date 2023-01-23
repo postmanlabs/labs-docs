@@ -31,29 +31,36 @@ export const leftNavItems = [
   {
     name: "Labs Overview",
     parentSlug: "labs-overview",
-    url: "/labs-overview",
+    url: "/labs-overview/",
+    subMenuItems1: [],
+    caret: false,
   },
   {
     name: "Postman Flows",
     parentSlug: "postman-flows",
     url: "https://learning.postman.com/docs/postman-flows/flows-intro/flows-overview/",
+    subMenuItems1: [],
+    caret: false,
   },
   {
     name: "gRPC Client",
     parentSlug: "grpc-client",
     url: "https://learning.postman.com/docs/sending-requests/grpc/grpc-client-overview/",
+    subMenuItems1: [],
+    caret: false,
   },
   {
-    name: "WebSocket Client",
-    parentSlug: "websocket-client",
-    url: "/postman-api-client/websocket-client/websocket-client-overview/",
+    name: 'WebSocket Client',
+    parentSlug: 'websocket-client',
+    url: '/postman-api-client/websocket-client/websocket-client-overview/',
+    caret: true,
     subMenuItems1: [
       {
-        name: "Using WebSocket requests",
-        url: "/postman-api-client/websocket-client/websocket-client-overview/",
-      },
+        name: 'Using WebSocket requests',
+        url: '/postman-api-client/websocket-client/websocket-client-overview/',
+      },             
     ],
   },
-]
+];
 
 // export default parentSlugItems;

@@ -25,11 +25,11 @@ For more advanced topics, if someone doesn't have the required skills to carry o
 
 Avoid unnecessary tech jargon, but don't simplify either. Try to strike a balance between supporting people regardless of skill level and using accurate industry terms (since readers will need to know these in order to apply what they learn).
 
-Postman learners speak lots of different languages, but right now our docs are only available in English. Use clear, concise sentences so that people reading in a second language can follow along. :earth_africa::earth_americas::earth_asia:
+Postman learners speak lots of different languages, but our docs are only available in English. Use clear, concise sentences so that people reading in a second language can follow along. :earth_africa::earth_americas::earth_asia:
 
 ## Language style
 
-The documentation in the [learning center](https://learning.postman.com/docs) is intended to help people learn how to use Postman, so use practical instructional language wherever possible. Be specific, and "__show, don't tell__."
+The documentation in the [Postman Learning Center](https://learning.postman.com/docs) is intended to help people learn how to use Postman, so use practical instructional language wherever possible. Be specific, and "__show, don't tell__."
 
 ---
 

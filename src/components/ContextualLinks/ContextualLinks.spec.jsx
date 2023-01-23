@@ -1,6 +1,8 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
 import ContextualLinks from './ContextualLinks';
+import Theme from '../../../styles/theme.jsx';
+
 
 describe('ContextualLinks', () => {
   it('renders correctly', () => {
@@ -27,7 +29,7 @@ describe('ContextualLinks', () => {
     ];
 
     const tree = renderer
-      .create(<ContextualLinks links={testLinks} />)
+      .create(<Theme ><ContextualLinks links={testLinks} /></Theme>)
       .toJSON();
     expect(tree.children[0].props.className).toBe('contextual-links__section');
     expect(tree.children[1].props.className).toBe('contextual-links__link');
