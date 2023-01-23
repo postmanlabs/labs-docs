@@ -1,0 +1,34 @@
+extends: substitution
+message: "%s is a Postman branded term. Don't use '%s'."
+level: error
+ignorecase: false
+action:
+  name: replace
+# swap maps tokens in form of bad: good
+swap:
+  '(?:autoflex|auto-flex)': Auto-Flex
+  # Postman - too many false positives
+  Postman agent: Postman Agent
+  cloud agent: Postman Cloud Agent
+  desktop agent: Postman Desktop Agent
+  API builder: API Builder
+  bootcamp: Postman Bootcamp
+  newman: Newman
+  #'(?:collection runner|Collection runner)': Collection Runner - generates too many false positives
+  # x: Postman Echo - not used
+  # x: Postman Team plan - not used
+  # x: Postman Business plan - not used
+  # x: Postman Enterprise plan - not used
+  Postman interceptor: Postman Interceptor
+  '(?:Postman bridge|interceptor bridge)': Interceptor Bridge
+  Postman console: Postman Console
+  '(?:learning center|Learning center)': Postman Learning Center
+  Postman dashboard: Postman Dashboard
+  '(?:Postman visualizer|visualizer)': Postman Visualizer
+  Postman API network: Postman API Network
+  # x: Postman Templates - not used anymore
+  Postman collection: Postman Collection
+  launchpad: Launchpad
+  '(?:trust center|Trust center)': Trust Center
+  Workbench: workbench
+  Postman enterprise: Postman Enterprise
