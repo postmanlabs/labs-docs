@@ -50,17 +50,35 @@ export const leftNavItems = [
     caret: false,
   },
   {
-    name: 'WebSocket Client',
-    parentSlug: 'websocket-client',
-    url: '/postman-api-client/websocket-client/websocket-client-overview/',
-    caret: true,
+    name: "GraphQL Client",
+    parentSlug: "graphql-client",
+    url: "/postman-api-client/graphql-client/scripting-in-graphql-request/",
     subMenuItems1: [
       {
-        name: 'Using WebSocket requests',
-        url: '/postman-api-client/websocket-client/websocket-client-overview/',
-      },             
+        name: "Scripting in GraphQL requests",
+        url: "/postman-api-client/graphql-client/scripting-in-graphql-request/"
+      },
+      {
+        name: "GraphQL test examples",
+        url: "/postman-api-client/graphql-client/test-examples/"
+      },
+      {
+        name: "Postman Sandbox API",
+        url: "/postman-api-client/graphql-client/postman-sandbox-api/"
+      },
     ],
   },
-];
+  {
+    name: "WebSocket Client",
+    parentSlug: "websocket-client",
+    url: "/postman-api-client/websocket-client/websocket-client-overview/",
+    subMenuItems1: [
+      {
+        name: "Using WebSocket requests",
+        url: "/postman-api-client/websocket-client/websocket-client-overview/",
+      },
+    ],
+  },
+]
 
 // export default parentSlugItems;
