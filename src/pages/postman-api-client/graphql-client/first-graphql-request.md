@@ -24,7 +24,7 @@ Get started with GraphQL by creating a query and executing it using Postman’s 
 
 ## About GraphQL Request
 
-To create a GraphQL request, you need at least two things- URL and query. The URL is the endpoint where the data is hosted, and the query defines what exactly needs to be retrieved from this data source. A GraphQL request can also have a schema configured to make you aware of the data fields available from the server that can be included in the query. Plus, the request can also contain additional information such as Auth, Headers, and Settings based on the requirements specified by the API. 
+To create a GraphQL request, you need at least two things- URL and query. The URL is the endpoint where the data is hosted, and the query defines what exactly needs to be retrieved from this data source. A GraphQL request can also have a schema configured to make you aware of the data fields available from the server that can be included in the query. Plus, the request can also contain additional information such as Auth, Headers, and Settings based on the requirements specified by the API.
 
 Using a GraphQL request, you can execute three different types of Queries:
 
@@ -41,15 +41,12 @@ This example creates and executes a GraphQL query using the interactive query bu
 > If you are using the Postman web app, Postman recommends using the Postman Desktop Agent for the best experience. See [About the Postman Agent](https://learning.postman.com/docs/getting-started/about-postman-agent/) for more information.
 
 1. In Postman, select **New > GraphQL Request** to open a request in a new tab. (In the Postman desktop app, you can also select **⌘+N** or **Ctrl+N**, then select **GraphQL Request**.)
-
-*{GIF showing how to create a GraphQL request}*
-
 2. Click on the URL bar and enter `https://graphql.postman-echo.com/graphql`. This would also load the schema using introspection.
 3. In the schema explorer on the left, select the `hello` field and select `person` and `name` as arguments.
 4. Enter your name in the input box next to `name`. You should also see a fully formed query based on your selections on the right.
 5. Hit **Query**.
 
-*{Image showing query building and Query}*
+![First GraphQL Query](https://blog.postman.com/wp-content/uploads/2023/02/graphql-schema-explorer.gif)
 
 ## Next step
 
