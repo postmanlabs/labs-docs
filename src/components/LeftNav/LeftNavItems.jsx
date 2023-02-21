@@ -52,25 +52,6 @@ export const leftNavItems = [
   {
     name: "GraphQL Client",
     parentSlug: "graphql-client",
-    url: "/postman-api-client/graphql-client/scripting-in-graphql-request/",
-    subMenuItems1: [
-      {
-        name: "Scripting in GraphQL requests",
-        url: "/postman-api-client/graphql-client/scripting-in-graphql-request/"
-      },
-      {
-        name: "GraphQL test examples",
-        url: "/postman-api-client/graphql-client/test-examples/"
-      },
-      {
-        name: "Postman Sandbox API",
-        url: "/postman-api-client/graphql-client/postman-sandbox-api/"
-      },
-    ],
-  },
-  {
-    name: "GraphQL Client",
-    parentSlug: "graphql-client",
     url: "/postman-api-client/graphql-client/graphql-client-overview/",
     subMenuItems1: [
       {
@@ -84,6 +65,18 @@ export const leftNavItems = [
       {
         name: "Making your first GraphQL query",
         url: "/postman-api-client/graphql-client/first-graphql-request/"
+      },
+      {
+        name: "Scripting in GraphQL requests",
+        url: "/postman-api-client/graphql-client/scripting-in-graphql-request/"
+      },
+      {
+        name: "GraphQL test examples",
+        url: "/postman-api-client/graphql-client/test-examples/"
+      },
+      {
+        name: "Postman Sandbox API",
+        url: "/postman-api-client/graphql-client/postman-sandbox-api/"
       },
     ],
   },
