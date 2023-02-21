@@ -38,6 +38,7 @@ jobs:
           DIST_ID: ${{secrets.BETA_DIST_ID}}
           PM_TECH: ${{secrets.PM_TECH}}
           SITE_URL: ${{secrets.BETA_SITE_URL}}
+          DOMAIN_NAME: ${{secrets.BETA_DOMAIN_NAME}}
         run: |
           npm config set //registry.npmjs.org/:_authToken=${{secrets.NPM_TOKEN}}
           npm install
