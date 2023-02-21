@@ -1,0 +1,23 @@
+extends: existence
+message: "Verify your use of '%s' with our A-Z word list."
+level: warning
+ignorecase: true
+tokens:
+  - above
+  - accessible
+  - actionable
+  - against
+  - alarm
+  - alias
+  - allows?
+  - and/or
+  - as well as
+  - assure
+  - author
+  - avg
+  - he
+  - insure
+  - she
+  - toggle switch
+  - toggle option
+  - command prompt
