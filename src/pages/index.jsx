@@ -141,6 +141,28 @@ class IndexPage extends React.Component {
           {/* Youtube Video Section */}
           <section className="row section align-items-center">
             <div className="col-lg-4">
+              <h2>Working with GraphQL APIs in Postman</h2>
+              <p>
+              GraphQL is an API technology designed to provide clients with exactly the data they need. Postman provides you with a client interface to work with your GraphQL API. Learn how to use Postman's GraphQL client.
+              </p>
+              <Button
+                as="a"
+                href="/postman-api-client/graphql-client/graphql-client-overview/"
+                className="mb-5 secondary" 
+              >
+                Explore GraphQL client docs
+              </Button>
+            </div>
+            <div className="col-lg-8">
+            <img src="https://assets.postman.com/postman-labs-docs/graphql-docs/graphql-request-thumbnail.png" alt="GraphQL request on Postman"></img>
+            </div>
+          </section>
+        </div>
+
+        <div className="container">
+          {/* Youtube Video Section */}
+          <section className="row section align-items-center">
+            <div className="col-lg-4">
               <h2>Working with gRPC APIs in Postman</h2>
               <p>
               gRPC is a schema-driven Remote Procedure Call (RPC) framework often used to enable inter-service communication. Postman provides you with a client interface to work with gRPC services. Go through the documentation to learn how to use Postman's gRPC client to test your gRPC API.
