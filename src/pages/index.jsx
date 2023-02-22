@@ -1,18 +1,30 @@
-import React from "react"
-import { Link } from "gatsby"
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import "../../styles/config/_pm-icons.css"
-import upcomingEvents from "../../bff-data/events.json"
-import { LandingCard } from "../components/MarketingPages/Cards"
-import "../../styles/config/normalize.css"
-import "../components/MarketingPages/Buttons.scss"
-import "./index.scss"
+import React from 'react';
+import { navigate } from 'gatsby';
+import styled from 'styled-components';
+import '../../styles/config/normalize.css';
+import Layout from '../components/layout';
+import SEO from '../components/seo';
+// import { LandingCard } from '../components/MarketingPages/Cards';
+import '../../styles/config/_pm-icons.css';
+import Button from '../components/Shared/Button';
 
-const heroBackground = {
-  backgroundColor: "#E7F0FF",
-  padding: "48px 80px",
-}
+
+const HeroWrapper = styled.section`
+  background-color: ${(props) => props.theme.colors.blue_10};
+  padding: 48px 80px;
+    @media (max-width: 991px) {
+        padding: 40px !important;
+      }
+    .hero-image {
+        margin: 0px;
+    }
+    .img-frame {
+        border-radius: ${(props) => props.theme.borderRadius.medium};
+        border: 8px solid ${(props) => props.theme.colors.grey_20};// $grey_20
+        box-shadow: 8px 8px 0 rgba(0, 0, 0, 0.32);
+    }
+`
+
 
 class IndexPage extends React.Component {
   componentDidMount() {
@@ -50,15 +62,14 @@ class IndexPage extends React.Component {
       "Nov",
       "Dec",
     ]
-    const sortedUpcomingEvents = upcomingEvents
+    // const sortedUpcomingEvents = upcomingEvents
 
     return (
       <Layout>
         <SEO title="Postman Labs Docs" slug="/" />
         <div className="container-fluid">
-          <section
-            className="row section align-items-center hero"
-            style={heroBackground}
+          <HeroWrapper
+            className="row section align-items-center hero" 
           >
             <div className="container">
               <div className="row">
@@ -67,12 +78,14 @@ class IndexPage extends React.Component {
                   <p className="subtitle">
                     Flows, gRPC, WebSockets! Learn about Postman Labs and the cutting-edge features brewing in it.
                   </p>
-                  <Link
-                    to="/labs-overview/"
-                    className="btn btn__primary-hollow mb-5"
+                  <Button
+                  onClick={() => {
+                    navigate("/labs-overview/")
+                  }} 
+                  className="mb-5 secondary"                    
                   >
                     Explore the docs
-                  </Link>
+                  </Button>
                 </div>
                 <div className="col-sm-12 col-md-6 col-lg-6 align-self-center">
                   <img
@@ -85,7 +98,7 @@ class IndexPage extends React.Component {
                 </div>
               </div>
             </div>
-          </section>
+          </HeroWrapper>
         </div>
 
         <div className="container">
@@ -101,12 +114,13 @@ class IndexPage extends React.Component {
                 Learn more about Postman's new visual development tool called
                 Flows to create your own API workflows.
               </p>
-              <Link
-                to="https://learning.postman.com/docs/postman-flows/flows-intro/flows-overview/"
-                className="btn btn__primary-hollow mb-5"
+              <Button
+                as="a"
+                href="https://learning.postman.com/docs/postman-flows/flows-intro/flows-overview/"
+                className="mb-5 secondary" 
               >
                 Explore the Flow docs
-              </Link>
+              </Button>
             </div>
             <div className="col-lg-8">
               <div className="embed-responsive embed-responsive-16by9 img-frame">
@@ -127,16 +141,39 @@ class IndexPage extends React.Component {
           {/* Youtube Video Section */}
           <section className="row section align-items-center">
             <div className="col-lg-4">
+              <h2>Working with GraphQL APIs in Postman</h2>
+              <p>
+              GraphQL is an API technology designed to provide clients with exactly the data they need. Postman provides you with a client interface to work with your GraphQL API. Learn how to use Postman's GraphQL client.
+              </p>
+              <Button
+                as="a"
+                href="/postman-api-client/graphql-client/graphql-client-overview/"
+                className="mb-5 secondary" 
+              >
+                Explore GraphQL client docs
+              </Button>
+            </div>
+            <div className="col-lg-8">
+            <img src="https://assets.postman.com/postman-labs-docs/graphql-docs/graphql-request-thumbnail.png" alt="GraphQL request on Postman"></img>
+            </div>
+          </section>
+        </div>
+
+        <div className="container">
+          {/* Youtube Video Section */}
+          <section className="row section align-items-center">
+            <div className="col-lg-4">
               <h2>Working with gRPC APIs in Postman</h2>
               <p>
               gRPC is a schema-driven Remote Procedure Call (RPC) framework often used to enable inter-service communication. Postman provides you with a client interface to work with gRPC services. Go through the documentation to learn how to use Postman's gRPC client to test your gRPC API.
               </p>
-              <Link
-                to="https://learning.postman.com/docs/sending-requests/grpc/grpc-client-overview/"
-                className="btn btn__primary-hollow mb-5"
+              <Button
+                as="a"
+                href="https://learning.postman.com/docs/sending-requests/grpc/grpc-client-overview/"
+                className="mb-5 secondary" 
               >
                 Explore gRPC client docs
-              </Link>
+              </Button>
             </div>
             <div className="col-lg-8">
               <div className="embed-responsive embed-responsive-16by9 img-frame">
@@ -161,12 +198,13 @@ class IndexPage extends React.Component {
               <p>
               WebSocket protocol and the SocketIO framework provide a way to exchange data between a client and server over a persistent connection. Postman lets you work with WebSocket and SocketIO APIs using it's API client interface. Go through the documentation to learn how to use Postman's WebSocket client to test your WebSocket API.
               </p>
-              <Link
-                to="/postman-api-client/websocket-client/websocket-client-overview/"
-                className="btn btn__primary-hollow mb-5"
+              <Button
+              as="a"
+                href="/postman-api-client/websocket-client/websocket-client-overview/"
+                className="mb-5 secondary" 
               >
                 Explore WebSocket client docs
-              </Link>
+              </Button>
             </div>
             <div className="col-lg-8">
               <div className="embed-responsive embed-responsive-16by9 img-frame">
