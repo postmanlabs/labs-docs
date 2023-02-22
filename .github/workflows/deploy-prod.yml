@@ -34,7 +34,8 @@ jobs:
         env:
           DIST_ID: ${{secrets.PROD_DIST_ID}}
           PM_TECH: ${{secrets.PM_TECH}}
-          SITE_URL: ${{secrets.BETA_SITE_URL}}
+          SITE_URL: ${{secrets.PROD_SITE_URL}}
+          DOMAIN_NAME: ${{secrets.PROD_DOMAIN_NAME}}
         run: |
           npm install
           npm run clean
