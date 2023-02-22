@@ -38,7 +38,7 @@ The `pm` object provides functionality for testing your request and response dat
 
 #### pm.request
 
-The `pm.request` object provides access to the request data inside your scripts. `pm.request` is available in both **Before invoke** and **After response** scripts.
+The `pm.request` object provides access to the request data inside your scripts. `pm.request` is available in both **Before query** and **After response** scripts.
 
 Following are the properties of the `pm.request` object:
 
@@ -46,94 +46,44 @@ Following are the properties of the `pm.request` object:
 
   ><code>pm.request.url: <a href='https://www.postmanlabs.com/postman-collection/Url.html' target='_blank'>Url</a></code>
 
-* The package, service, and method name in the format `packageName.serviceName.methodName`:
-
-  ><code>pm.request.methodPath: <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#string_type' target='_blank'>string</a></code>
-
 * Authentication details:
 
   ><code>pm.request.auth: <a href='https://www.postmanlabs.com/postman-collection/RequestAuth.html' target='_blank'>Auth</a></code>
 
-* The list of metadata sent with the request:
+* Query details:
 
-  ><code>pm.request.metadata: <a href='https://www.postmanlabs.com/postman-collection/PropertyList.html' target='_blank'>PropertyList&lt;{ key: string, value: string }&gt;</a></code>
-
-  An individual metadata item is an object with properties `key` and `value`.
-
-* The list of outgoing messages:
-
-  ><code>pm.request.messages: <a href='https://www.postmanlabs.com/postman-collection/PropertyList.html' target='_blank'>PropertyList&lt;{ data: any, timestamp: Date }&gt;</a></code>
-
-  An individual message is an object with properties:
-    * `data`: the sent message content, and
-    * `timestamp`: time at which the message was sent, represented as a <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date' target='_blank'>Date</a> object.
-
-  For requests with unary and server streaming methods, `pm.request.messages` will contain only one message at index 0 which can be accessed as `pm.request.messages.idx(0)`.
+  ><code>pm.request.query</code>
 
 > Note: Request mutation isn't supported in the `pm` object.
 
 #### pm.response
 
-The `pm.response` object provides access to the data returned in the response for the current request execution. `pm.response` is only available in the **After response** scripts.
+The `pm.response` object provides access to the data returned in the response for the current request query. `pm.response` is only available in the **After response** scripts.
 
 Following are the properties of the `pm.response` object:
 
-* The <a href='https://grpc.github.io/grpc/core/md_doc_statuscodes.html' target='_blank'>gRPC response status code</a>:
+* GraphQL response status code:
 
-  ><code>pm.response.statusCode: <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#number_type' target='_blank'>number</a></code>
+  ><code>pm.response.transport.http.statusCode: <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#number_type' target='_blank'>number</a></code>
 
 * Response time (in milliseconds):
 
   ><code>pm.response.responseTime: <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#number_type' target='_blank'>number</a></code>
 
-  For requests with streaming methods, `responseTime` denotes the total duration for that request execution.
+* The list of headers received with the response:
+  ><code>pm.response.transport.http.headers: <a href='https://www.postmanlabs.com/postman-collection/HeaderList.html' target='_blank'>array</a></code>
 
-* The list of metadata received with the response:
+  An individual header item is an object with properties `key` and `value`.
 
-  ><code>pm.response.metadata: <a href='https://www.postmanlabs.com/postman-collection/PropertyList.html' target='_blank'>PropertyList&lt;{ key: string, value: string }&gt;</a></code>
-
-  An individual metadata item is an object with properties `key` and `value`.
-
-* The list of trailers received with the response:
-
-  ><code>pm.response.trailers: <a href='https://www.postmanlabs.com/postman-collection/PropertyList.html' target='_blank'>PropertyList&lt;{ key: string, value: string }&gt;</a></code>
-
-  An individual trailer item is an object with properties `key` and `value`.
-
-* The list of incoming messages:
-  ><code>pm.response.messages: <a href='https://www.postmanlabs.com/postman-collection/PropertyList.html' target='_blank'>PropertyList&lt;{ data: any, timestamp: Date }&gt;</a></code>
-
-  An individual message is an object with properties:
-    * `data`: the received message content, and
-    * `timestamp`: time at which the message was received (<a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date' target='_blank'>Date</a>).
-
-  For requests with unary and client streaming methods, `pm.response.messages` will contain only one message at index 0 which can be accessed as `pm.response.messages.idx(0)`.
-
-#### pm.info
-
-The `pm.info` object provides meta information related to the request and the script itself, including  the request name, request ID, and name of the execution hook.
-
-Following are the properties of the `pm.info` object:
-
-* The name of execution hook. It will be either `preinvoke` or `response` depending if the script is executing in **Pre-invoke** or **Response** hook respectively.
-
-  ><code>pm.info.eventName: 'beforeInvoke' | 'afterResponse'</code>
-
-* A unique ID that identifies the current request inside which the script is running:
-
-  ><code>pm.info.requestId: <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#string_type' target='_blank'>string</a></code>
-
-* The request name:
-
-  ><code>pm.info.requestName: <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#string_type' target='_blank'>string</a></code>
-
+* Response data:
+  ><code>pm.response.data</code>
 ### Writing assertions
 
 You can add test specifications and assertions to your scripts using the [pm.test](#pmtest) and [pm.expect](#pmexpect) functions respectively.
 
 #### pm.test
 
-* Use the `pm.test` function to add test specifications to your **Pre-invoke** or **Response** script.
+* Use the `pm.test` function to add test specifications to your **Before-query** or **Response** script.
 
   ><code>pm.test: (testName: <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#string_type' target='_blank'>string</a>, specFunction: <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions' target='_blank'>Function</a>) => <a href='#the-pm-object'>pm</a></code>
 
@@ -147,7 +97,7 @@ You can add test specifications and assertions to your scripts using the [pm.tes
 
   ```javascript
   pm.test("response should have 'content-type' metadata", function () {
-    pm.response.to.have.metadata('content-type', 'application/grpc');
+  pm.response.to.have.header('cache-control', 'no-cache');
   });
   ```
 
@@ -156,7 +106,7 @@ You can add test specifications and assertions to your scripts using the [pm.tes
   ```javascript
   pm.test('async test', function (done) {
     setTimeout(() => {
-      pm.expect(pm.response.statusCode).to.equal(0);
+      pm.expect(pm.response.transport.http.statusCode).to.equal(200);
       done();
     }, 1500);
   });
@@ -165,9 +115,9 @@ You can add test specifications and assertions to your scripts using the [pm.tes
   You can also include multiple assertions to group the related ones in a single test:
 
   ```javascript
-  pm.test("Should receive update events for both users", function () {
-    pm.response.messages.to.include({ action: 'update', userId: 'user1' });
-    pm.response.messages.to.include({ action: 'update', userId: 'user2' });
+  pm.test('Response has expected properties', function () {
+      pm.expect(pm.response.data).to.have.property("foo1", "bar1")
+      pm.expect(pm.response.data).to.have.property("foo2", "bar2")
   });
   ```
 
@@ -188,7 +138,7 @@ The `pm.expect` method allows you to write assertions on your request and respon
 You can also use `pm.request.to.have.*`, `pm.response.to.have.*` and `pm.response.to.be.*` to build your assertions.
 
 ```javascript
-pm.response.to.have.statusCode(0);
+pm.response.to.have.statusCode(200);
 pm.expect(pm.response.responseTime).to.be.below(200);
 ```
 
@@ -200,7 +150,7 @@ Head over to the comprehensive guide [here](/docs/writing-scripts/script-referen
 
 ### Sending HTTP request from scripts
 
-You can use the `pm.sendRequest` method to send HTTP requests asynchronously from both **Before invoke** and **After response** scripts.
+You can use the `pm.sendRequest` method to send HTTP requests asynchronously from both **Before query** and **After response** scripts.
 
 ><code>pm.sendRequest: (request: <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#string_type' target='_blank'>string</a> | <a href='https://www.postmanlabs.com/postman-collection/Request.html#.definition' target='_blank'>RequestDefinition</a>, callback?: (error: any, response: <a href='https://www.postmanlabs.com/postman-collection/Response.html' target='_blank'>Response</a>)) => void</code>
 

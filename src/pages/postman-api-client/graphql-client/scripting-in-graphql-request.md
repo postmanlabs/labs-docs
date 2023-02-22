@@ -21,7 +21,8 @@ Postman has a powerful scripting environment that allows you to add JavaScript c
 
 You can use scripts to write API tests, debug your requests (by logging to [Postman Console](/docs/sending-requests/troubleshooting-api-requests/), or even dynamically read/update the values of [variables](/docs/sending-requests/variables/).
 
-![gRPC scripts](https://assets.postman.com/postman-docs/v10/grpc-scripts.jpg)
+{{graphQL-echo-request-1-v10 image here}}
+<!-- ![gRPC scripts](https://assets.postman.com/postman-docs/v10/grpc-scripts.jpg) -->
 
 This is all powered by the [Postman Sandbox](/postman-api-client/graphql-client/postman-sandbox-api/), a JavaScript execution environment available to you while writing your **Before invoke** and **After response** scripts. Whatever code you write in these scripts is executed in the sandbox.
 

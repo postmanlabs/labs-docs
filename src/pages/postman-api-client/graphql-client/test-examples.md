@@ -21,32 +21,24 @@ You can write tests for your graphQL request using [scripts](/postman-api-client
 * [Testing status code](#testing-status-code)
 * [Testing response time](#testing-response-time)
 * [Testing responses](#testing-responses)
-    * [Testing existence of a message](#testing-existence-of-a-message)
-    * [Testing for a message with specific property](#testing-for-a-message-with-specific-property)
+    * [Testing response has a specific property](#testing-response-has-a-specific-property)
+    * [Testing response against a JSON schema](#testing-response-against-a-json-schema)
 
 ## Testing status code
 
- You can use the `statusCode` property available over [pm.response](/docs/sending-requests/grpc/postman-sandbox-api/#pmresponse) to test the status code of the response.
+ You can use the `statusCode` property available over [pm.response](/postman-api-client/graphql-client/postman-sandbox-api/#pmresponse) to test the status code of the response.
 
 ```javascript
-pm.test('Status code is 0', () => {
-  pm.response.to.have.statusCode(0);
+pm.test('Status code is 200', () => {
+  pm.response.to.have.statusCode(200);
 });
 ```
 
-You can also assert the same using the [pm.expect](/docs/sending-requests/grpc/postman-sandbox-api/#pmexpect) method.
-
-```javascript
-pm.test('Status code is 0', () => {
-  pm.expect(pm.response.statusCode).to.equal(0);
-});
-```
-
-> You can use the `pm.response.to.be.ok` as a shorthand to test if the status code is 0.
+> You can use the `pm.response.to.be.ok` as a shorthand to test if the status code is 200.
 
 ## Testing response time
 
-For a request with unary method, you can assert the response time:
+For a query, you can assert the response time with:
 
 ```javascript
 pm.test('Response time is below 200ms', () => {
@@ -60,43 +52,38 @@ pm.test('Response time is below 200ms', () => {
 });
 ```
 
-For requests with streaming methods, `pm.response.responseTime` denotes the total duration for that request execution.
-
-
 ## Testing responses
 
-In the case of multiple response messages (a request with the server or bidirectional streaming method), the tests in this section check all the messages for the given assertion. For a request with the unary or client streaming method where there is only one response message, the assertion is tested on that single message only.
+Testing responses in a GraphQL API is a critical aspect of ensuring that the API is working as expected.This can be achieved by assertions via `pm.response.to.have.*` which allows you to validate that the data, status code, headers, and other response details returned by the API is correct and matches the expected results. 
 
-Also, when writing assertions using `pm.response.messages.to.*`, you will be asserting on an array of message content and not the complete [pm.response](/docs/sending-requests/grpc/postman-sandbox-api/#pmresponse) message object.
+You can test the assertions in this section on request as well using the `pm.request` object.
 
-You can test the assertions in this section on request messages as well using the `pm.request` object.
+### Testing response has a specific property
 
-### Testing existence of a message
-
-To test the existence of a response message (strictly):
+To test if a property exists in the response data (strictly):
 
 ```javascript
-pm.test('Correct user details are received', () => {
-  pm.response.to.have.message({
-    userId: '123',
-    name: 'John Doe',
-    email: 'john@example.com',
-    phone: '+1-555-555-5555',
-    age: 30,
-    company: 'XYZ'
-  });
+pm.test('Response has expected property', function () {
+    pm.expect(pm.response.data).to.have.property("foo", "bar")
 });
 ```
 
-### Testing for a message with specific property
+### Testing response against a JSON schema
 
-You can assert that the given object's properties are a subset of any messages received as a response:
+You can assert that the response object's properties matches a given schema object:
 
 ```javascript
-pm.test('User details are updated successfully', () => {
-  pm.response.messages.to.include({
-    action: 'update-user-details',
-    status: 'success'
-  });
+const schema = {
+    type: "object",
+    properties: {
+        name: {
+            type: "string",
+            pattern: "^[a-zA-Z0-9_]*$"
+        }
+    }
+};
+
+pm.test('Response data has valid schema', function () {
+    pm.response.to.have.jsonSchema(schema);
 });
 ```
