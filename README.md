@@ -5,7 +5,7 @@
 Running Labs Docs
 
 - Ensure you're on `NodeJSv14`
-  - `$ nvm use 14`
+- `$ nvm use 14`
 - `$ npm install`
 - `$ npm run dev`
 

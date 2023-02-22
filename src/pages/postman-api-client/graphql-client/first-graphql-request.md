@@ -16,7 +16,7 @@ Get started with GraphQL by creating a query and executing it using Postman’s 
 
 - [About GraphQL request](#about-graphql-request)
 - [Making a GraphQL query with Postman](#making-a-graphql-query-with-postman)
-- [Next steps](#next-steps)
+- [Next steps](#next-step)
 
 ## About GraphQL Request
 
@@ -30,7 +30,7 @@ Using a GraphQL request, you can execute three different types of Queries:
 
 **Subscription**- For a live data source that has the data changing frequently, you can subscribe to the data available on different fields. This lets the server send the data requested over a persistent connection.
 
-# Making a GraphQL query with Postman
+## Making a GraphQL query with Postman
 
 This example creates and executes a GraphQL query using the interactive query builder.
 
