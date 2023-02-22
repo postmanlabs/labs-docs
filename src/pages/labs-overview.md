@@ -59,3 +59,9 @@ The WebSocket protocol provides a way to exchange data between a client and serv
 gRPC is a schema-driven Remote Procedure Call (RPC) framework often used to enable inter-service communication. Being RPC based, it facilitates client-server communication over a function call instead of an HTTP call. gRPC has gained significant popularity because of its easier abstraction than HTTP, support across multiple languages, and high performance. Postman provides you with a client interface to work with gRPC services. Go through the documentation to learn how to use Postman's gRPC client to test your gRPC API.
 
 [Read more here...](https://learning.postman.com/docs/sending-requests/grpc/grpc-client-overview/)
+
+### GraphQL
+
+APIs made with GraphQL allow clients to ask the server for exactly the data they need. This is enabled by a powerful query interface and a runtime to execute those queries making it easier for developers to quickly explore and experiment with the client’s functionalities. Contrary to REST, which makes your chunks of data available on multiple endpoints, GraphQL makes working with data simpler and faster with a single endpoint. Plus, GraphQL is schema driven, which means more transparency in terms of API functionality and lower dependency between teams building the client and the server. So, a client can introspect the schema from the server to get an idea about the available data fields, send queries specifying fields to retrieve or manipulate the stored data. The server does exactly what was asked from it and returns only the data requested in the query. Combining these features, GraphQL provides users with a flexible, fast and predictable API experience, making it one of the most popular API technology.
+
+[Read more here...](/postman-api-client/graphql-client/graphql-client-overview)
