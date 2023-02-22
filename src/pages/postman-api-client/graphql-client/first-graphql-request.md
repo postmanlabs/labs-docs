@@ -42,8 +42,8 @@ This example creates and executes a GraphQL query using the interactive query bu
 
 1. In Postman, select **New > GraphQL Request** to open a request in a new tab. (In the Postman desktop app, you can also select **⌘+N** or **Ctrl+N**, then select **GraphQL Request**.)
 2. Click on the URL bar and enter `https://graphql.postman-echo.com/graphql`. This would also load the schema using introspection.
-3. In the schema explorer on the left, select the `hello` field and select `person` and `name` as arguments.
-4. Enter your name in the input box next to `name`. You should also see a fully formed query based on your selections on the right.
+3. In the query explorer on the left, select the `hello` field and select `person` and `name` as arguments.
+4. Enter your name and age in the input boxes next to `name` and `age`. You should also see a fully formed query based on your selections on the right.
 5. Hit **Query**.
 
 ![First GraphQL Query](https://blog.postman.com/wp-content/uploads/2023/02/graphql-schema-explorer.gif)
