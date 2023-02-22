@@ -58,26 +58,6 @@ export const leftNavItems = [
       {
         name: 'Using WebSocket requests',
         url: '/postman-api-client/websocket-client/websocket-client-overview/',
-      },             
-    ],
-  },
-  {
-    name: "GraphQL Client",
-    parentSlug: "graphql-client",
-    url: "/postman-api-client/graphql-client/graphql-client-overview/",
-    caret: true,
-    subMenuItems1: [
-      {
-        name: "GraphQL overview",
-        url: "/postman-api-client/graphql-client/graphql-client-overview/"
-      },
-      {
-        name: "Using GraphQL request interface",
-        url: "/postman-api-client/graphql-client/graphql-request-interface/"
-      },
-      {
-        name: "Making your first GraphQL query",
-        url: "/postman-api-client/graphql-client/first-graphql-request/"
       },
     ],
   },

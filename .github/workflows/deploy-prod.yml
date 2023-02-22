@@ -5,6 +5,7 @@ permissions:
   contents: read
 
 on:
+  workflow_dispatch:
   push:
     branches:
     - 'main'
@@ -33,12 +34,13 @@ jobs:
         env:
           DIST_ID: ${{secrets.PROD_DIST_ID}}
           PM_TECH: ${{secrets.PM_TECH}}
-          SITE_URL: ${{secrets.BETA_SITE_URL}}
+          SITE_URL: ${{secrets.PROD_SITE_URL}}
+          DOMAIN_NAME: ${{secrets.PROD_DOMAIN_NAME}}
         run: |
           npm install
           npm run clean
           npm run build:prod
-          aws s3 sync ./public/ s3://${{secrets.PROD_BUCKET_NAME}}/labs --delete --acl public-read
+          aws s3 sync ./public/ s3://${{secrets.PROD_BUCKET_NAME}}/main/labs --delete
       
       - name: invalidate
         uses: chetan/invalidate-cloudfront-action@v2
