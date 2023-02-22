@@ -51,7 +51,7 @@ The request interface allows you to add configurations to connect to the server 
 - **Authorization**- Pass credentials that the server would use to authorize the connection here. You can choose from a list of auth types including API Key, Basic auth, and Bearer token etc. Learn more about [authorizing requests](https://learning.postman.com/docs/sending-requests/authorization/).
 - **Headers**- Pass additional headers with the request in the form of key-value pairs. The client uses these headers to provide more information about the call to the server.
 - **Schema**- The schema tab lets you configure a GraphQL schema to make the client aware of the data fields available from the server. A GraphQL schema can be loaded directly using the URL through introspection. You can also choose to use a GraphQL API from the same workspace or import a GraphQL schema from your local system.
-- **Scripts**- Postman has a powerful scripting environment that allows you to add JavaScript code (scripts) in your GraphQL requests. You can use scripts to write API tests, debug your requests by logging to [Postman Console](https://learning.postman.com/docs/sending-requests/troubleshooting-api-requests/), or dynamically read or update the values of [variables](https://learning.postman.com/docs/sending-requests/variables/). Learn more about [scripting in GraphQL requests](/postman-api-client/graphql-client/scripting-in-graphql-request/).
+- **Scripts**- Postman has a powerful scripting environment that allows you to add JavaScript code (scripts) in your GraphQL requests. You can use scripts to write API tests, debug your requests by logging to [Postman Console](https://learning.postman.com/docs/sending-requests/troubleshooting-api-requests/), or dynamically read or update the values of [variables](https://learning.postman.com/docs/sending-requests/variables/).
 - **Query button**- Once you have defined the URL and built the query, you can hit **Query** to execute it. Once the query is executed, the server sends back a response with the requested data.
 - **Save button**- Saves the request into a collection so that you can reuse it later or document and share it with others.
 
@@ -67,7 +67,7 @@ The response section has the following items:
 - **Wrap text button**- Selecting this button adjusts the width of the response body according to the width of the response area, making it easier to read wider responses without scrolling horizontally.
 - **Search**- Look for specific elements within the response using the **Search** button.
 - **Headers**- Headers returned by the server typically consists of additional information about the execution.
-- **Test results**- The results for assertions you write in the Scripts section appear here. Based on the test script, the results can be one of three types: Passed, Failed, and Skipped. Learn more about [scripting in GraphQL requests](/postman-api-client/graphql-client/scripting-in-graphql-request/).
+- **Test results**- The results for assertions you write in the Scripts section appear here. Based on the test script, the results can be one of three types: Passed, Failed, and Skipped.
 
 ### Multiple responses
 

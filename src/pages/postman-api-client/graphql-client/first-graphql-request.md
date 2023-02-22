@@ -8,10 +8,6 @@ contextual_links:
     name: "Download and Install"
     url: "https://www.postman.com/downloads/"
   - type: section
-    name: "Additional resources"
-  - type: link
-    name: "Postman GraphQL echo collection"
-    url: "https://www.postman.com/postman/workspace/published-postman-templates/collection/63c7d7701bfb72333ca216d4"
 ---
 
 Get started with GraphQL by creating a query and executing it using Postman’s echo endpoint.

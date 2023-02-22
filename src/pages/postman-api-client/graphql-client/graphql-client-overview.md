@@ -9,14 +9,9 @@ contextual_links:
     url: "/docs/getting-started/installation-and-updates/"
   - type: section
     name: "Additional resources"
-  - type: link
-    name: "Deep dive into GraphQL concepts"
-    url: "https://learning.postman.com/open-technologies/specifications/graphql/graphql-hub/"
 ---
 
 APIs made with GraphQL allow clients to ask the server for exactly the data they need. This is enabled by a powerful query interface and a runtime to execute those queries making it easier for developers to quickly explore and experiment with the client’s functionalities. Contrary to REST, which makes your chunks of data available on multiple endpoints, GraphQL makes working with data simpler and faster with a single endpoint. Plus, GraphQL is schema driven, which means more transparency in terms of API functionality and lower dependency between teams building the client and the server. So, a client can introspect the schema from the server to get an idea about the available data fields, send queries specifying fields to retrieve or manipulate the stored data. The server does exactly what was asked from it and returns only the data requested in the query. Combining these features, GraphQL provides users with a flexible, fast and predictable API experience, making it one of the most popular API technology.
-
-Get a deep dive into the [various concepts of GraphQL](https://learning.postman.com/open-technologies/specifications/graphql/graphql-concepts/).
 
 ## Work with GraphQL APIs using Postman
 
