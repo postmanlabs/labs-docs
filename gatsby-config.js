@@ -8,7 +8,7 @@ require('dotenv').config({
 
 const SITE_URL = process.env.SITE_URL ? process.env.SITE_URL : 'https://learning.postman.com'
 const DOMAIN_NAME = process.env.DOMAIN_NAME ? process.env.DOMAIN_NAME : 'learning.postman.com';
-const PATH_PREFIX = '/labs/'
+const PATH_PREFIX = '/labs'
 
 module.exports = {
   siteMetadata: {
