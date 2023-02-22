@@ -145,12 +145,13 @@ class IndexPage extends React.Component {
               <p>
               GraphQL is an API technology designed to provide clients with exactly the data they need. Postman provides you with a client interface to work with your GraphQL API. Learn how to use Postman's GraphQL client.
               </p>
-              <Link
-                to="/postman-api-client/graphql-client/graphql-client-overview/"
-                className="btn btn__primary-hollow mb-5"
+              <Button
+                as="a"
+                href="/postman-api-client/graphql-client/graphql-client-overview/"
+                className="mb-5 secondary" 
               >
                 Explore GraphQL client docs
-              </Link>
+              </Button>
             </div>
             <div className="col-lg-8">
             <img src="https://assets.postman.com/postman-labs-docs/graphql-docs/graphql-request-thumbnail.png" alt="GraphQL request on Postman"></img>
