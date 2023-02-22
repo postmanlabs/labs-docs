@@ -146,8 +146,9 @@ class IndexPage extends React.Component {
               GraphQL is an API technology designed to provide clients with exactly the data they need. Postman provides you with a client interface to work with your GraphQL API. Learn how to use Postman's GraphQL client.
               </p>
               <Button
-                as="a"
-                href="/postman-api-client/graphql-client/graphql-client-overview/"
+                onClick={() => {
+                  navigate("/postman-api-client/graphql-client/graphql-client-overview/")
+                }}
                 className="mb-5 secondary" 
               >
                 Explore GraphQL client docs
@@ -199,8 +200,9 @@ class IndexPage extends React.Component {
               WebSocket protocol and the SocketIO framework provide a way to exchange data between a client and server over a persistent connection. Postman lets you work with WebSocket and SocketIO APIs using it's API client interface. Go through the documentation to learn how to use Postman's WebSocket client to test your WebSocket API.
               </p>
               <Button
-              as="a"
-                href="/postman-api-client/websocket-client/websocket-client-overview/"
+                onClick={() => {
+                  navigate("/postman-api-client/websocket-client/websocket-client-overview/")
+                }}
                 className="mb-5 secondary" 
               >
                 Explore WebSocket client docs
