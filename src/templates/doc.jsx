@@ -1,6 +1,7 @@
 /* eslint-disable react/no-danger */
+import url from 'url';
 import React, { useState, useEffect } from 'react';
-import { graphql } from 'gatsby';
+import { graphql, withPrefix } from 'gatsby';
 
 import Layout from '../components/layout';
 import ContextualLinks from '../components/ContextualLinks/ContextualLinks';
@@ -276,9 +277,30 @@ const RightColumnWrapper = styled.aside`
 }
 `
 
+const prefixImgSrcOfParsedHtml = (parsedHtml, domainName) => {
+  // This function prefixes all relative image srcs of the parsedHTML's image srcs with the pathPrefix defined in the gatsby-config.js file
+  let images = parsedHtml.querySelectorAll('img');
+  images.forEach((image) => {
+    const src = url.parse(image.src);
+    // Checking for sub sub domains (preview branch), and remove it if it exists
+    if (domainName === src.host.split('.').slice(1).join('.')){
+      const withoutSubSub = src.host.split('.').slice(1).join('.');
+      src.host = withoutSubSub;
+    }
+    if (domainName === src.host) {
+      // if the domain name (ex learning.postman-beta.com) + the images path name (ex /images/image.png) is equal to the images host (ex learning.postman-beta.com) + the images path name (ex /images/image.png)
+      // Then we know that the image src is a relative path and we need to prefix it with the pathPrefix defined in the gatsby-config.js file
+      if (domainName + src.pathname === (src.host + src.pathname)) {
+        image.src = withPrefix(src.pathname);
+      }
+    }
+  });
+}
+
 const DocPage = ({ data }) => {
   const [modalData] = useState(data.markdownRemark);
   const post = data.markdownRemark;
+  const { domainName } = data.site.siteMetadata;
   // Last modified date - bottom
   // Last modified time - top 
   const { lastModifiedDate, lastModifiedTime } = data.markdownRemark.fields;
@@ -302,6 +324,11 @@ const DocPage = ({ data }) => {
     useEffect(() => {
       const parser = new DOMParser();
       const parsedHTML = parser.parseFromString(modalData.html, 'text/html');
+      // In the process of .parseFromString, the image srcs are converted to absolute paths.
+      // As a result, Gatsby's withPrefix functionality at built time does not work, since it skips all absolute paths.
+      // So we need to manually add the prefix by calling withPrefix on the image srcs.
+      // This function prefixes the parsedHTML's image srcs with the pathPrefix defined in the gatsby-config.js file
+      prefixImgSrcOfParsedHtml(parsedHTML, domainName);
       // allows images to display as modal when clicked
       useModal(parsedHTML);
       document.getElementById("LoadDoc").innerHTML = parsedHTML.body.innerHTML;   
@@ -381,6 +408,11 @@ export const query = graphql`
         slug
         lastModifiedDate
         lastModifiedTime
+      }
+    }
+    site {
+      siteMetadata {
+        domainName
       }
     }
   }
