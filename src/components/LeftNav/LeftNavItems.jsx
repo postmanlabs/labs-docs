@@ -66,6 +66,7 @@ export const leftNavItems = [
     name: "WebSocket Client",
     parentSlug: "websocket-client",
     url: "/postman-api-client/websocket-client/websocket-client-overview/",
+    caret: true,
     subMenuItems1: [
       {
         name: "Using WebSocket requests",
