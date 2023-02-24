@@ -15,8 +15,9 @@ module.exports = {
     title: 'Postman Labs Docs',
     description: '',
     author: 'Postman',
-    domainName: DOMAIN_NAME,
     siteUrl: SITE_URL,
+    domainName: DOMAIN_NAME,
+    pathPrefix: PATH_PREFIX
   },
   pathPrefix: PATH_PREFIX,
   trailingSlash: 'always',
