@@ -1,7 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { ThemeProvider } from 'styled-components';
-import '../styles/config/typography.css';
 
 export const theme = {
   colors: {
