@@ -13,7 +13,7 @@ import {
 import navbarData from '../../../bff-data/navbar.json';
 
 // For local TOPNAVBAR TESTING
-// import navbarDataLocal from '../../../build/navbarDev.json';
+import navbarDataLocal from '../../../build/navbarDev.json';
 
 import { Paragraph } from 'aether-marketing';
 
@@ -92,11 +92,13 @@ const Header = (props) => {
     setCookie(cookie);
     setBeta(beta);
 
-    // FOR LOCAL TOP NAVBAR TESTING: comment in navbarDataLocal import and below
-    // **************************************************************************
-    // if (process.env.NODE_ENV === 'development') { 
-    //   setData(navbarDataLocal);
-    // }
+    const navbarKeys = ['items', 'media', 'type'];
+
+    if (navbarKeys.every(key => Object.keys(navbarData).includes(key))) {
+      setData(navbarData)
+    } else {
+      setData(navbarDataLocal)
+    }
 
     const { waitBeforeShow } = props;
 
