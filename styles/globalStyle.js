@@ -350,5 +350,13 @@ button.close {
 button.close:not(:disabled):not(.disabled):hover {
   opacity: 1;
 }
+
+small,
+.small {
+  color: #6b6b6b;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5714285714; /* 22px */
+}
 `
 export default GlobalStyle;
