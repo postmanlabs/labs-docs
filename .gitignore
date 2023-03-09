@@ -89,3 +89,6 @@ bff.json
 # Vale styles
 vale-styles/Microsoft
 vale-styles/write-good
+
+.vscode/*
+!.vscode/launch.json

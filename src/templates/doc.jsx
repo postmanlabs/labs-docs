@@ -16,7 +16,7 @@ import { useModal } from '../components/modules/Modal';
 import PreviousAndNextLinks from '../components/modules/PreviousAndNextLinks';
 import BreadCrumbsLinks from '../components/modules/BreadCrumbsLinks';
 import LoadQualtrics from '../components/modules/loadQualtrics';
-import { BaseLinkStyles} from 'aether-marketing';
+import { BaseLinkStyles, UnorderedListStyles, OrderedListStyles} from 'aether-marketing';
 
 const DocWrapper = styled.div`
   /* Used for Deeplinking */   
@@ -48,59 +48,6 @@ h2, h3, h4 {
   }
   img[src$='#icon'] {
     margin-bottom: 0;
-  }
-
-  ul {
-    margin-left: 16px;
-    margin-bottom: 24px;
-
-    li::marker {
-      padding-inline-start: 39px;
-      color: ${(props) => props.theme.colors.orange_30};
-    }
-
-    &::after,
-      &::before {
-      display: inline-block;
-      direction: rtl !important;
-      margin-left: -28px !important;
-      padding-right: 16px !important;
-      width: 28px !important;
-      } 
-    
-    li {
-      margin-bottom: 8px;
-      line-height: 1.625;
-      padding: 0 0 0 16px;
-
-      li::before {
-        direction: rtl !important;
-        margin-left: -28px !important;
-        padding-right: 16px !important;
-        width: 28px !important;
-      }
-    }
-    li::before {
-      direction: rtl !important;
-      margin-left: -28px !important;
-      padding-right: 16px !important;
-      width: 28px !important;
-    }
-
-    list-style-type: '✦';
-
-    li::marker {
-      color: ${(props) => props.theme.colors.orange_30};
-  }
-
-  ol {
-    li {
-      padding-left: 10px;
-      margin-bottom: 8px;
-    }
-    li::marker {
-      color: $${(props) => props.theme.colors.grey_70};
-    }
   } 
 
   @media (max-width: 765px) {
@@ -217,7 +164,7 @@ code[class*="language-"] {
   display: flex;
   justify-content: space-between;
 }
-}
+
 .left-nav-re {
   padding: 32px 0px 8px 0px;
   background-color: ${(props) => props.theme.colors.grey_05};
@@ -275,6 +222,34 @@ const RightColumnWrapper = styled.aside`
 .postmanaut-dab {
   max-width: 250px;
 }
+`
+const DocContent = styled.div`
+ul {
+  ${UnorderedListStyles.componentStyle.rules}
+}
+
+ol {
+  ${OrderedListStyles.componentStyle.rules}
+  li > ol {
+    list-style: lower-alpha;
+  }
+} 
+//  anchor link tag styling
+a.anchor.before {
+    top: 0.2em;
+    padding-right: 8px;
+
+    svg {
+      width: auto;
+      height: 0.9em;
+      display: block;
+    }
+  }
+
+  a.anchor:hover {
+    display: block;
+    border: none !important;
+  }
 `
 
 const prefixImgSrcOfParsedHtml = (parsedHtml, domainName) => {
@@ -350,6 +325,7 @@ const DocPage = ({ data }) => {
             <div className="row row-eq-height">
               <main className="col-sm-12 col-md-12 col-lg-9 offset-lg-0 col-xl-7 doc-page ml-xl-5">
                 <BreadCrumbsLinks data={{ parentLink, subParentLink }} />
+                <DocContent>
                 <h1>{post.frontmatter.title}</h1>
                 <div id="LoadDoc" />
                 {
@@ -369,6 +345,7 @@ const DocPage = ({ data }) => {
                 {/* Qualtrics */}
                 <LoadQualtrics />
                 <PreviousAndNextLinks data={{ previous, next }} />
+                </DocContent>
               </main>
               <RightColumnWrapper className="col-sm-12 col-md-12 col-lg-3 offset-lg-0 col-xl-3 offset-xl-1 right-column">
                 <hr className="d-block d-lg-none" />
