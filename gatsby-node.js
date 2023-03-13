@@ -171,3 +171,13 @@ exports.sourceNodes = async ({
   createNode(prepareNode(mdFrontmatterCharacterCount, 'frontmatterLength'));
   createNode(prepareNode(output.docs, 'leftNavLinks'));
 };
+
+exports.onCreateWebpackConfig = ({ actions }) => {
+  actions.setWebpackConfig({
+   resolve: {
+      fallback: {
+          url: require.resolve("url")
+      },
+    },
+  })
+};
