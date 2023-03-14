@@ -379,7 +379,7 @@ const Header = (props) => {
               <div className="dropdown-menu lc-iconic">
                 <ul>
                   <li>
-                    <a href="https://learning.postman.com/" className="dropdown-item mb-3">
+                    <a href="/" className="dropdown-item mb-3">
                       <div className="row">
                         <div className="col-1 lc-icon">
                           <img className="d-block mx-auto" src="https://voyager.postman.com/icon/learning-documentation-icon-postman.svg" height="40px"/>
@@ -392,7 +392,7 @@ const Header = (props) => {
                     </a>
                   </li>
                   <li>
-                    <a href="https://learning.postman.com/labs/" className="dropdown-item mb-3">
+                    <a href="/labs/" className="dropdown-item mb-3">
                       <div className="row">
                         <div className="col-1 lc-icon">
                           <img className="d-block mx-auto" src="https://voyager.postman.com/icon/flask-science-beaker-test-icon-postman.svg" height="40px" />
@@ -405,7 +405,7 @@ const Header = (props) => {
                     </a>
                   </li>
                   <li>
-                    <a href="https://learning.postman.com/open-technologies/specifications/collections/" className="dropdown-item mb-3">
+                    <a href="/open-technologies/" className="dropdown-item mb-3">
                       <div className="row">
                         <div className="col-1 lc-icon">
                           <img className="d-block mx-auto" src="https://voyager.postman.com/icon/lifecycle.svg" height="40px" />
@@ -418,7 +418,7 @@ const Header = (props) => {
                     </a>
                   </li>
                   <li>
-                    <a href="https://learning.postman.com/collection-format/" className="dropdown-item">
+                    <a href="/collection-format/" className="dropdown-item">
                       <div className="row">
                         <div className="col-1 lc-icon">
                           <img className="d-block mx-auto" src="https://voyager.postman.com/icon/appplication-performance-icon-postman.svg" height="40px" />
