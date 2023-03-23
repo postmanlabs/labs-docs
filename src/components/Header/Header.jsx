@@ -396,7 +396,7 @@ const Header = (props) => {
                         </div>
                         <div className="col-11">
                           <Paragraph className="strong mb-0" >{item.title} <svg className="arrow-icon" xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="#212121"><g><path d="M10.375,3.219,6,6.719l-4.375-3.5A1,1,0,1,0,.375,4.781l5,4a1,1,0,0,0,1.25,0l5-4a1,1,0,0,0-1.25-1.562Z"></path></g></svg></Paragraph>
-                          <Paragraph className="dropdown-item-text-wrap small" style={{    'color': '#707070 !important'}}>{item.body}</Paragraph>
+                          <Paragraph className="dropdown-item-text-wrap small">{item.body}</Paragraph>
                         </div>
                       </div>
                     </a>
