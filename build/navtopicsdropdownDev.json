@@ -1,0 +1,29 @@
+{
+    "type": "navtopicsdropdown",
+    "items": [
+        {
+            "title": "Learning Center",
+            "img": "https://voyager.postman.com/icon/learning-documentation-icon-postman.svg",
+            "body": "Learn about how to get started using Postman, and read more in the product docs.",
+            "url": "/"
+        },
+        {
+            "title": "Labs",
+            "img": "https://voyager.postman.com/icon/flask-science-beaker-test-icon-postman.svg",
+            "body": "Flows, gRPC, WebSockets! Learn about the latest cutting-edge features brewing in Postman Labs.",
+            "url": "/labs/"
+        },
+        {
+            "title": "Open Technologies",
+            "img": "https://voyager.postman.com/icon/lifecycle.svg",
+            "body": "Invest in the knowledge, specifications, standards, tooling, data, people, and organizations that define the next 50 years of the API economy.",
+            "url": "/open-technologies/"
+        },
+        {
+            "title": "Collection Format",
+            "img": "https://voyager.postman.com/icon/appplication-performance-icon-postman.svg",
+            "body": "Understand the specification behind Postman Collections. Check out the docs and support resources!",
+            "url": "/collection-format/"
+        }
+    ]
+}

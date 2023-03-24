@@ -484,6 +484,7 @@ export const NavStyles = styled.nav`
 
   .dropdown-item-text-wrap {
     white-space: normal;
+    color: #707070;
   }
 
   .dropdown-item:active {
