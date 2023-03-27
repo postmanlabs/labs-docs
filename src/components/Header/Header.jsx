@@ -11,9 +11,10 @@ import {
 } from './HeaderStyles.jsx' ;
 
 import navbarData from '../../../bff-data/navbar.json';
-
+import navtopicsdropdownData from '../../../bff-data/navtopicsdropdown.json';
 // For local TOPNAVBAR TESTING
 import navbarDataLocal from '../../../build/navbarDev.json';
+import navtopicsdropdownDataLocal from '../../../build/navtopicsdropdownDev.json';
 
 import { Paragraph } from 'aether-marketing';
 
@@ -83,6 +84,7 @@ const Header = (props) => {
   const [cookie, setCookie] = useState('');
   const [hidden, setHidden] = useState(true);
   const [data, setData] = useState(navbarData);
+  const [dataDropdown, setDataDropdown] = useState(navtopicsdropdownData);
   const [visibleHelloBar] = useState();
 
   useEffect(() => {
@@ -93,11 +95,18 @@ const Header = (props) => {
     setBeta(beta);
 
     const navbarKeys = ['items', 'media', 'type'];
+    const navtopicsdropdownKeys = ['items', 'type'];
 
     if (navbarKeys.every(key => Object.keys(navbarData).includes(key))) {
       setData(navbarData)
     } else {
       setData(navbarDataLocal)
+    }
+
+    if (navtopicsdropdownKeys.every(key => Object.keys(navtopicsdropdownData).includes(key))) {
+      setDataDropdown(navtopicsdropdownData)
+    } else {
+      setDataDropdown(navtopicsdropdownDataLocal)
     }
 
     const { waitBeforeShow } = props;
@@ -378,58 +387,22 @@ const Header = (props) => {
               </a>
               <div className="dropdown-menu lc-iconic">
                 <ul>
-                  <li>
-                    <a href="https://learning.postman.com/" className="dropdown-item mb-3">
+                  {dataDropdown.items.map((item) => (
+                    <li key={item.title}>
+                    <a href={item.url} className="dropdown-item mb-3">
                       <div className="row">
                         <div className="col-1 lc-icon">
-                          <img className="d-block mx-auto" src="https://voyager.postman.com/icon/learning-documentation-icon-postman.svg" height="40px"/>
+                          <img className="d-block mx-auto" src={item.img} height="40px"/>
                         </div>
                         <div className="col-11">
-                          <Paragraph className="strong mb-0" >Learning Center <svg className="arrow-icon" xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="#212121"><g><path d="M10.375,3.219,6,6.719l-4.375-3.5A1,1,0,1,0,.375,4.781l5,4a1,1,0,0,0,1.25,0l5-4a1,1,0,0,0-1.25-1.562Z"></path></g></svg></Paragraph>
-                          <Paragraph className="dropdown-item-text-wrap small" style={{    'color': '#707070 !important'}}>Learn about how to get started using Postman, and read more in the product docs.</Paragraph>
+                          <Paragraph className="strong mb-0" >{item.title} <svg className="arrow-icon" xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="#212121"><g><path d="M10.375,3.219,6,6.719l-4.375-3.5A1,1,0,1,0,.375,4.781l5,4a1,1,0,0,0,1.25,0l5-4a1,1,0,0,0-1.25-1.562Z"></path></g></svg></Paragraph>
+                          <Paragraph className="dropdown-item-text-wrap small">{item.body}</Paragraph>
                         </div>
                       </div>
                     </a>
                   </li>
-                  <li>
-                    <a href="https://learning.postman.com/labs/" className="dropdown-item mb-3">
-                      <div className="row">
-                        <div className="col-1 lc-icon">
-                          <img className="d-block mx-auto" src="https://voyager.postman.com/icon/flask-science-beaker-test-icon-postman.svg" height="40px" />
-                        </div>
-                        <div className="col-11">
-                          <Paragraph className="strong mb-0">Labs <svg className="arrow-icon" xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="#212121"><g><path d="M10.375,3.219,6,6.719l-4.375-3.5A1,1,0,1,0,.375,4.781l5,4a1,1,0,0,0,1.25,0l5-4a1,1,0,0,0-1.25-1.562Z"></path></g></svg></Paragraph>
-                          <Paragraph className=" dropdown-item-text-wrap small">Flows, gRPC, WebSockets! Learn about the latest cutting-edge features brewing in Postman Labs.</Paragraph>
-                        </div>
-                      </div>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://learning.postman.com/open-technologies/specifications/collections/" className="dropdown-item mb-3">
-                      <div className="row">
-                        <div className="col-1 lc-icon">
-                          <img className="d-block mx-auto" src="https://voyager.postman.com/icon/lifecycle.svg" height="40px" />
-                        </div>
-                        <div className="col-11">
-                          <Paragraph className="strong mb-0">Open Technologies <svg className="arrow-icon" xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="#212121"><g><path d="M10.375,3.219,6,6.719l-4.375-3.5A1,1,0,1,0,.375,4.781l5,4a1,1,0,0,0,1.25,0l5-4a1,1,0,0,0-1.25-1.562Z"></path></g></svg></Paragraph>
-                          <Paragraph className="dropdown-item-text-wrap small">Invest in the knowledge, specifications, standards, tooling, data, people, and organizations that define the next 50 years of the API economy.</Paragraph>
-                        </div>
-                      </div>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://learning.postman.com/collection-format/" className="dropdown-item">
-                      <div className="row">
-                        <div className="col-1 lc-icon">
-                          <img className="d-block mx-auto" src="https://voyager.postman.com/icon/appplication-performance-icon-postman.svg" height="40px" />
-                        </div>
-                        <div className="col-11">
-                          <Paragraph className="strong mb-0">Collection Format <svg className="arrow-icon" xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="#212121"><g><path d="M10.375,3.219,6,6.719l-4.375-3.5A1,1,0,1,0,.375,4.781l5,4a1,1,0,0,0,1.25,0l5-4a1,1,0,0,0-1.25-1.562Z"></path></g></svg></Paragraph>
-                          <Paragraph className="dropdown-item-text-wrap small">Understand the specification behind Postman Collections. Check out the docs and support resources!</Paragraph>
-                        </div>
-                      </div>
-                    </a>
-                  </li>
+                  ))}
+
                 </ul>
               </div>
             </DropdownStylesSecond>

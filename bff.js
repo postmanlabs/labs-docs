@@ -7,6 +7,7 @@ const fetchFooter = require('./build/fetchFooter');
 const fetchNavbar = require('./build/fetchNavbar');
 const fetchPmTech = require('./build/fetchPmTech');
 const { allow } = require('./package.json');
+const fetchNavtopicsdropdown = require('./build/fetchNavtopicsdropdown');
 
 const { pmTech: allowedPmTech } = allow;
 const delay = 1000;
@@ -44,6 +45,7 @@ const prefetch = async () => {
   fetchBlogPosts();
   fetchFooter();
   fetchNavbar();
+  fetchNavtopicsdropdown();
 
   let pmTech = '';
 
