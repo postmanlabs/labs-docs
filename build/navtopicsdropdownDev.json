@@ -24,6 +24,12 @@
             "img": "https://voyager.postman.com/icon/appplication-performance-icon-postman.svg",
             "body": "Understand the specification behind Postman Collections. Check out the docs and support resources!",
             "url": "/collection-format/"
+        },
+        {
+            "title": "Blog",
+            "img": "https://voyager.postman.com/icon/api-data-contract-icon-postman.svg",
+            "body": "The Postman blog is your hub for API resources, news, and community. Learn about the Postman API Platform and much more.",
+            "url": "https://blog.postman.com/"
         }
     ]
 }
