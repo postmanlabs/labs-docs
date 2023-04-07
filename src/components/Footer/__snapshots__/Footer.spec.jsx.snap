@@ -344,6 +344,19 @@ exports[`Footer renders correctly 1`] = `
                   >
                     <a
                       className="column-link"
+                      href="https://www.postman.com/category/app-security"
+                      onClick={[Function]}
+                      rel={null}
+                      target={null}
+                    >
+                      App Security
+                    </a>
+                  </li>
+                  <li
+                    className="column-row"
+                  >
+                    <a
+                      className="column-link"
                       href="https://www.postman.com/category/payments"
                       onClick={[Function]}
                       rel={null}

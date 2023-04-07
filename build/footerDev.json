@@ -166,6 +166,14 @@
         "id": "api-categories",
         "items": [
           {
+            "title": "App Security",
+            "url": "https://www.postman.com/category/app-security",
+            "hrefType": "internal",
+            "category": "global-footer",
+            "label": "app-security",
+            "ariaLabel": "Read more about App security"
+          },
+          {
             "title": "Payments",
             "url": "https://www.postman.com/category/payments",
             "hrefType": "internal",
