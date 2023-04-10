@@ -5,7 +5,6 @@ const pingWebHook = require('./build/pingWebHook');
 const fetchBlogPosts = require('./build/fetchBlogPosts');
 const fetchFooter = require('./build/fetchFooter');
 const fetchNavbar = require('./build/fetchNavbar');
-const fetchPmTech = require('./build/fetchPmTech');
 const { allow } = require('./package.json');
 const fetchNavtopicsdropdown = require('./build/fetchNavtopicsdropdown');
 
@@ -50,9 +49,9 @@ const prefetch = async () => {
   let pmTech = '';
 
   if (process.env.PM_TECH_RT) {
-    pmTech = await fetchPmTech();
-
-    pmTech = pmTech;
+    sh.config.silent = true;
+    pmTech = sh.exec('cat build/pmt.js').stdout;
+    sh.config.silent = false;
 
     sh.exec('mkdir -p public');
 
@@ -91,28 +90,36 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       && `
 ${pmTech}
 setTimeout(function(){
-  var propertyName = 'postman-docs';
-  if (typeof window.pm.scalp !== 'function') {
-    window.pm.setScalp({
+  var propertyName = 'labs-docs';
+  if (window.pmt) {
+    window.pmt('setScalp', [{
       property: propertyName
-    });
-    window.pm.scalp(
+    }]);
+    window.pmt('scalp', [
       'pm-analytics',
       'load',
       document.location.pathname
-    );
-    window.pm.trackClicks();
+    ]);
+    window.pmt('trackClicks');
     var dnt = (parseInt(navigator.doNotTrack) === 1 || parseInt(window.doNotTrack) === 1 || parseInt(navigator.msDoNotTrack) === 1 || navigator.doNotTrack === "yes");
-    window.pm.log('navigator.doNotTrack: ' + dnt);
+    window.pmt('log', ['navigator.doNotTrack: ' + dnt]);
     if(!dnt) {
       ${googleTagManager}
-      window.pm.log('attached googletagmanager: ' + '${GTMCode}');
-      var sitename = document.location.hostname;
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      window.pm.ga('create', '${UACode}', sitename);
-      window.pm.log('initialized GA: ' + sitename);
+      window.pmt('log', ['attached googletagmanager: ' + '${GTMCode}']);
+      var d = 1000, int;
+      var int = setInterval(function(){
+        if (window.ga) {
+          var sitename = document.location.hostname;
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          window.gtag = gtag;
+          gtag('js', new Date());
+          window.pmt('ga', ['${UACode}', sitename]);
+          window.pmt('log', ['initialized GA: ' + sitename + ' (' + '${UACode}' + ')']);
+          window._iaq = window._iaq || {};
+          clearInterval(int);
+        }
+      }, d);
     }
   }
 }, 1000);
