@@ -78,7 +78,7 @@ const prefetch = async () => {
     });
   }
 
-  const UACode = 'UA-43979731-18';
+  const UACode = 'G-CX7P9K6W67';
   const GTMCode = 'GTM-M42M5N';
   const googleTagManager = `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
