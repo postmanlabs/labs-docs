@@ -36,7 +36,7 @@ jobs:
           GATSBY_ALGOLIA_DEV_KEY: ${{secrets.GATSBY_ALGOLIA_DEV_KEY}}
           ALGOLIA_ADMIN_KEY: ${{secrets.ALGOLIA_ADMIN_KEY}}
           DIST_ID: ${{secrets.BETA_DIST_ID}}
-          PM_TECH: ${{secrets.PM_TECH}}
+          PM_TECH_RT: ${{secrets.PM_TECH_RT}}
           SITE_URL: ${{secrets.BETA_SITE_URL}}
           DOMAIN_NAME: ${{secrets.BETA_DOMAIN_NAME}}
         run: |
