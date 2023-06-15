@@ -9,7 +9,7 @@ contextual_links:
     name: "Prerequisites"
   - type: link
     name: "Installing and updating"
-    url: "/docs/getting-started/installation-and-updates/"
+    url: "https://learning.postman.com/docs/getting-started/installation-and-updates/"
   - type: section
     name: "Additional Resources"
   - type: subtitle
