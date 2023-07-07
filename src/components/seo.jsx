@@ -95,7 +95,8 @@
        ].concat(meta)}
      >
        <link rel="preconnect" href="https://voyager.postman.com" crossorigin />
-       <link href="https://voyager.postman.com/font/fonts.css" rel="stylesheet" />
+       <link rel="preload" href="https://voyager.postman.com/font/fonts.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+      <noscript>{`<link href="https://voyager.postman.com/font/fonts.css" rel="stylesheet" type="text/css" />`}</noscript>
        {/* OneTrust */}
        <script type="text/javascript" src="https://cdn.cookielaw.org/consent/1cef3369-6d07-4928-b977-2d877eb670c4/OtAutoBlock.js" />
        <script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js" type="text/javascript" charset="UTF-8" data-domain-script="1cef3369-6d07-4928-b977-2d877eb670c4" />
@@ -106,6 +107,7 @@
        {/* Algolia Instantsearch IE11 support v4 */}
        <link rel="dns-prefetch" href="https://polyfill.io" />
        <link crossOrigin rel="preconnect" href="https://polyfill.io" />
+       <script async src="https://polyfill.io/v3/polyfill.min.js?features=default%2CArray.prototype.find%2CArray.prototype.includes%2CPromise%2CObject.assign%2CObject.entries"></script>
      </Helmet>
    );
  }
