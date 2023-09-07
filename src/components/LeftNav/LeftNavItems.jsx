@@ -81,6 +81,26 @@ export const leftNavItems = [
       },             
     ],
   },
+  {
+    name: "MQTT Client",
+    parentSlug: "mqtt-client",
+    url: "/postman-api-client/mqtt-client/mqtt-client-overview/",
+    caret: true,
+    subMenuItems1: [
+      {
+        name: "MQTT overview",
+        url: "/postman-api-client/mqtt-client/mqtt-client-overview/"
+      },
+      {
+        name: "Using MQTT request interface",
+        url: "/postman-api-client/mqtt-client/mqtt-request-interface/"
+      },
+      {
+        name: "Creating your first MQTT request",
+        url: "/postman-api-client/mqtt-client/first-mqtt-request/"
+      },
+    ],
+  }
 ];
 
 // export default parentSlugItems;
