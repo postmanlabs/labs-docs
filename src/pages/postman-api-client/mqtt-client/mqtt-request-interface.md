@@ -19,7 +19,6 @@ MQTT requests in Postman include a variety of tools, views and controls to help 
 - [Understanding parts of the request interface](#understanding-parts-of-the-request-interface)
 - [Understanding the response](#understanding-the-response)
 - [Using the right sidebar](#using-the-right-sidebar)
-- [Next step](#next-step)
 
 ## Creating a new MQTT request
 
@@ -38,17 +37,16 @@ The request interface lets you add configuration to connect to an MQTT broker, s
 ----{image: different sections of the request interface}----
 
 - **URL**- This is where you enter the broker's address; e.g. `test.mosquitto.org`. Some MQTT services also require you to define a port number. You can define a port number in the URL by appending the port number to the URL. For example, `test.mosquitto.org:1883`.
-
-  > For connecting to the broker over TLS, you need to use `mqtts://` as your URL scheme. For example, `mqtts://test.mosquitto.org`.
-  - **MQTT Version**- Every MQTT version has some distinctions in terms of the protocol features. Postman supports 2 major versions of MQTT; 3.1.1 and 5.0. Version 5.0 is selected by default.
-  - **Client ID**- Client ID is an identifier differentiating each client connected to the broker. By default, Postman generates a random client ID for each request. But you can override this by clicking on the **Client ID** button and entering a custom client ID.
+    > For connecting to the broker over TLS, you need to use `mqtts://` as your URL scheme. For example, `mqtts://test.mosquitto.org`.
+    - **MQTT Version**- Every MQTT version has some distinctions in terms of the protocol features. Postman supports 2 major versions of MQTT; 3.1.1 and 5.0. Version 5.0 is selected by default.
+    - **Client ID**- Client ID is an identifier differentiating each client connected to the broker. By default, Postman generates a random client ID for each request. But you can override this by clicking on the **Client ID** button and entering a custom client ID.
 - **Message**- This is where you compose and Publish messages to the broker. You can write your message in the text area, enter a topic name and click on **Send** to publish the message.
-  - **Properties**- You can add custom properties to your message. These properties are sent along with each message to the broker.
-  - **Message type**- You can define the message type as **Text**, **JSON**, **Base64**, or **Hexadecimal** for Postman to convert the message to the selected type before sending it to the broker.
-  - **Topic**- You can define the topic name for the message here. The topic name is used by the broker to route the message to the appropriate subscribers.
-  - **QoS**- QoS defines the guarantee of delivery for the message. You can configure the Quality of Service (QoS) level for the message by clicking on the ----{image: Options icon}---- icon selecting a QoS level.
-  - **Retain**- Retain is a flag that asks the broker to retain the last message sent on the topic and send it to the new subscribers even if they join the network after the message was sent from the client. You can configure the retain flag for the message by clicking on the ----{image: Options icon}---- icon and toggling the **Retain** switch.
-  - **Send**- Once you have configured the payload, click on the **Send** button to publish the message to the broker.
+    - **Properties**- You can add custom properties to your message. These properties are sent along with each message to the broker.
+    - **Message type**- You can define the message type as **Text**, **JSON**, **Base64**, or **Hexadecimal** for Postman to convert the message to the selected type before sending it to the broker.
+    - **Topic**- You can define the topic name for the message here. The topic name is used by the broker to route the message to the appropriate subscribers.
+    - **QoS**- QoS defines the guarantee of delivery for the message. You can configure the Quality of Service (QoS) level for the message by clicking on the ----{image: Options icon}---- icon selecting a QoS level.
+    - **Retain**- Retain is a flag that asks the broker to retain the last message sent on the topic and send it to the new subscribers even if they join the network after the message was sent from the client. You can configure the retain flag for the message by clicking on the ----{image: Options icon}---- icon and toggling the **Retain** switch.
+    - **Send**- Once you have configured the payload, click on the **Send** button to publish the message to the broker.
 - **Topics**- This is where you can list down and document multiple topics, and subscribe to them. You can also configure the QoS level for each topic listed.
 - **Last Will**- Last Will is a message that is sent by the broker to the subscribers when the client disconnects from the broker. You can configure the Last Will message by going to the **Last Will** tab, entering the message, and configuring additional settings such as topic name, QoS level, and retain flag. You can also configure thw will delay interval by clicking on the ----{image: Options icon}---- icon and entering the delay interval in milliseconds.
 - **Authorization**- Authorize your connection with Basic Auth. You can pass your credentials in the form of username and password to the broker using the **Authorization** tab.

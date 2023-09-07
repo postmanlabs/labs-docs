@@ -19,7 +19,6 @@ Connect to a public broker, subscribe to topics and publish messages.
 - [Subscribing to topics](#subscribing-to-topics)
 - [Publishing messages](#publishing-messages)
 - [Using response visualizer](#using-response-visualizer)
-- [Next step](#next-step)
 
 ## Create an MQTT request
 
@@ -65,7 +64,8 @@ You should see an outgoing message in the response area indicating that the mess
 
 ## Using response visualizer
 
-Now that you have subscribed to a topic and published a few messages, you can use the response visualizer to view the messages in a more comprehensible format. 
+Now that you have subscribed to a topic and published a few messages, you can use the response visualizer to view the messages in a more comprehensible format.
+
 1. Switch to the **Visualization** tab in the response area. You should be able to see the messages for `age` field visualized as a line chart.
 2. Click on the field name dropdown to select the field you want to visualize.
 3. Click on the ----{Image: + icon}---- icon to add more fields to the chart and view the changes in their values together.
