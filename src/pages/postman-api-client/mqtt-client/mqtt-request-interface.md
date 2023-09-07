@@ -63,3 +63,15 @@ When you connect to the broker, the response area creates a message stream showi
 - **Visualization**- The **Visualization** tab shows the message stream in a graphical format, a more comprehensible way to view telemetry data. The interface is divided into multiple windows per topic you have received messages for. For JSON responses, the values for the first field are plotted on the graph. You can change the selected field, and add more fields to compare the values side by side. You can also change the visualization style from line to bar chart.
 
 ----{image: visualization tab}----
+
+## Using the right sidebar
+
+The right sidebar gives you access to more tools and information like documentation, commenting, and request details. Open a GraphQL request, and then select an option in the right sidebar:
+
+- **Request documentation**- Select the documentation icon to view description of a request. You can add description by selecting the edit icon next to the description, then writing your content using [Postman's built-in editing tools](https://learning.postman.com/docs/publishing-your-api/authoring-your-documentation/).
+- **Comments**- Select the comments icon to collaborate with your teammates as you work on an API. You can use `@` to tag others to ask a question, give feedback, and discuss your API.
+- **Request information** - Select the information icon to view more details about a request, like the request ID and creation date.
+
+## Next steps
+
+[Create your first MQTT request](/postman-api-client/mqtt-client/first-mqtt-request/)
