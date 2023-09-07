@@ -1,6 +1,6 @@
 ---
 title: "Creating your first MQTT request"
-updated: 2022-09-15
+updated: 2023-09-15
 contextual_links:
   - type: section
     name: "Prerequisites"

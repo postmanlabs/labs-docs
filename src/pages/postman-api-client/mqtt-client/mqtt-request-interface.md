@@ -1,6 +1,6 @@
 ---
 title: "Using MQTT request interface"
-updated: 2022-10-04
+updated: 2023-09-15
 contextual_links:
   - type: section
     name: "Prerequisites"

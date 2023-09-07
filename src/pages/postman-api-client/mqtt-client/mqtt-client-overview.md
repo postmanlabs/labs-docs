@@ -1,6 +1,6 @@
 ---
 title: "MQTT overview"
-updated: 2022-01-05
+updated: 2023-09-15
 contextual_links:
   - type: section
     name: "Prerequisites"
