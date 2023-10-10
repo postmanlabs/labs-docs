@@ -1,6 +1,6 @@
 ![Postman logo](https://assets.getpostman.com/common-share/postman-github-logo.png "Postman logo")
 
-# Postman Labs Docs
+# Postman Labs Docs [SANITY-CHECK]
 
 Running Labs Docs
 
