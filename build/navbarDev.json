@@ -39,15 +39,15 @@
             },
             {
               "title": "Explore the API Client",
-              "url": "https://www.postman.com/product/api-client"
+              "url": "https://www.postman.com/product/api-client/"
             },
             {
               "title": "Build Postman Flows",
-              "url": "https://www.postman.com/product/flows"
+              "url": "https://www.postman.com/product/flows/"
             },
             {
               "title": "Work smarter with Postbot",
-              "url": "https://www.postman.com/product/postbot"
+              "url": "https://www.postman.com/product/postbot/"
             },
             {
               "title": "Browse API Tools",
@@ -60,7 +60,7 @@
           "subItemsCol": [
             {
               "title": "Enterprise Essentials",
-              "url": "tps://www.postman.com/solutions/enterprise-essentials"
+              "url": "https://www.postman.com/solutions/enterprise-essentials/"
             },
             {
               "title": "API Test Automation",
