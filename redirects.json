@@ -2,5 +2,33 @@
     {
         "from": "/postman-flows/getting-started/flows-overview/",
         "to": "https://learning.postman.com/docs/postman-flows/flows-intro/flows-overview/"
+    },
+    {
+        "from": "/postman-api-client/graphql-client/graphql-client-overview/",
+        "to": "https://learning.postman.com/docs/sending-requests/graphql/graphql-overview/"
+    },
+    {
+        "from": "/postman-api-client/graphql-client/graphql-request-interface/",
+        "to": "https://learning.postman.com/docs/sending-requests/graphql/graphql-client-interface/"
+    },
+    {
+        "from": "/postman-api-client/graphql-client/first-graphql-request/",
+        "to": "https://learning.postman.com/docs/sending-requests/graphql/graphql-client-first-request/"
+    },
+    {
+        "from": "/postman-api-client/websocket-client/websocket-client-overview/",
+        "to": "https://learning.postman.com/docs/sending-requests/websocket/websocket/"
+    },
+    {
+        "from": "/postman-api-client/mqtt-client/mqtt-client-overview/",
+        "to": "https://learning.postman.com/docs/sending-requests/mqtt-client/mqtt-client-overview/"
+    },
+    {
+        "from": "/postman-api-client/mqtt-client/mqtt-request-interface/",
+        "to": "https://learning.postman.com/docs/sending-requests/mqtt-client/mqtt-request-interface/"
+    },
+    {
+        "from": "/postman-api-client/mqtt-client/first-mqtt-request/",
+        "to": "https://learning.postman.com/docs/sending-requests/mqtt-client/first-mqtt-request/"
     }
 ]
