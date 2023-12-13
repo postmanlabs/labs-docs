@@ -132,6 +132,10 @@
           "title": "Community and Events",
           "subItemsCol": [
             {
+              "title": "POST/CON",
+              "url": "https://www.postman.com/postcon/"
+            },
+            {
               "title": "Blog",
               "url": "https://blog.postman.com/"
             },
