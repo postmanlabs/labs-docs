@@ -324,7 +324,7 @@ const Header = (props) => {
                           <div className={item.isWidthShort ? `row row__short` : `row dropdown-col-menu`}>
                             { item.columns.map((col) => (
                               <div
-                                className={item.columns.length <= 2 ? 'col col-sm-6 col-md-6 dropdown-col' : 'col-sm-7 col-md-4 dropdown-col'}
+                                className={item.columns.length <= 2 ? 'col-sm-12 col-md-6 dropdown-col' : 'col-sm-7 col-md-4 dropdown-col'}
                                 key={col.title}
                               >
                                 <h6 className="dropdown-header">{col.title}</h6>
