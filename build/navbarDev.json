@@ -14,20 +14,20 @@
               {
                   "title": "What is Postman?",
                   "link": "",
-                  "url": "/product/what-is-postman/",
+                  "url": "https://www.postman.com/product/what-is-postman/",
                   "width:" : "true"
               },
               {
                   "title": "Customer Stories",
                   "link": "",
-                  "url": "/customers/",
+                  "url": "https://www.postman.com/customers/",
                   "width:" : "true"
               },
               {
                   "title": "Download Postman →",
                   "className": "blue-link",
                   "link": "app-cta",
-                  "url": "/downloads/",
+                  "url": "https://www.postman.com/downloads/",
                   "width:" : "true"
               }
           ]
@@ -37,23 +37,23 @@
           "subItemsCol": [
             {
               "title": "Collections",
-              "url": "/collection/"
+              "url": "https://www.postman.com/collection/"
             },
             {
                 "title": "Workspaces",
-                "url": "/product/workspaces/"
+                "url": "https://www.postman.com/product/workspaces/"
             },
             {
               "title": "Postbot",
-              "url": "/product/postbot/"
+              "url": "https://www.postman.com/product/postbot/"
             },
             {
                 "title": "API Client",
-                "url": "/product/api-client/"
+                "url": "https://www.postman.com/product/api-client/"
             },
             {
                 "title": "Browse API Tools",
-                "url": "/product/tools/"
+                "url": "https://www.postman.com/product/tools/"
             }
           ]
         }
