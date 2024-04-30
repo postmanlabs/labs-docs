@@ -640,6 +640,7 @@ export const DropdownStyles = styled.div`
 
     /* Web Dropdown */
     @media screen and (min-width: 992px) {
+      box-shadow: 0 16px 24px -8px rgb(0 0 0 / 24%);
       background-color: ${(props) => props.theme.colors.grey_00};
       border-radius: ${(props) => props.theme.borderRadius.medium};
       padding: 16px
@@ -651,14 +652,14 @@ export const DropdownStyles = styled.div`
       width: 64rem;
     }
   }
+  .row__short {
+      width: 52rem;
+    }
+
    .dropdown-col {
-    padding: 0 12px;
     @media screen and (max-width: 991px) {
       margin-bottom: 2rem;
     }
-  }
-  .dropdown-col:first-child {
-    max-width: 30%;
   }
 
   .dropdown-header {
