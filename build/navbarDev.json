@@ -1,74 +1,59 @@
 {
   "type": "header",
-  "media": "https://voyager.postman.com/logo/postman-logo-white-horiz.svg",
+  "media": "https://voyager.postman.com/logo/postman-logo-icon-orange.svg",
   "items": [
     {
       "title": "Product",
       "dropdown": "true",
+      "isWidthShort": true,
       "columns": [
         {
           "title": "Getting Started",
+          "colSize": "short",
           "subItemsCol": [
-            {
-              "title": "What is Postman?",
-              "link": "",
-              "url": "https://www.postman.com/product/what-is-postman/"
-            },
-            {
-              "title": "Customer Stories",
-              "link": "",
-              "url": "https://www.postman.com/customers/"
-            },
-            {
-              "title": "Download Postman →",
-              "link": "app-cta",
-              "url": "https://www.postman.com/downloads/"
-            }
+              {
+                  "title": "What is Postman?",
+                  "link": "",
+                  "url": "https://www.postman.com/product/what-is-postman/",
+                  "width:" : "true"
+              },
+              {
+                  "title": "Customer Stories",
+                  "link": "",
+                  "url": "https://www.postman.com/customers/",
+                  "width:" : "true"
+              },
+              {
+                  "title": "Download Postman →",
+                  "className": "blue-link",
+                  "link": "app-cta",
+                  "url": "https://www.postman.com/downloads/",
+                  "width:" : "true"
+              }
           ]
-        },
-        {
-          "title": "API Platform",
+      },
+      {
+          "title": "API Platform Features",
           "subItemsCol": [
             {
-              "title": "Collaborate in Workspaces",
-              "url": "https://www.postman.com/product/workspaces/"
-            },
-            {
-              "title": "Organize with Collections",
+              "title": "Collections",
               "url": "https://www.postman.com/collection/"
             },
             {
-              "title": "Explore the API Client",
-              "url": "https://www.postman.com/product/api-client/"
+                "title": "Workspaces",
+                "url": "https://www.postman.com/product/workspaces/"
             },
             {
-              "title": "Build Postman Flows",
-              "url": "https://www.postman.com/product/flows/"
-            },
-            {
-              "title": "Work smarter with Postbot",
+              "title": "Postbot",
               "url": "https://www.postman.com/product/postbot/"
             },
             {
-              "title": "Browse API Tools",
-              "url": "https://www.postman.com/product/tools/"
-            }
-          ]
-        },
-        {
-          "title": "Enterprise Solutions",
-          "subItemsCol": [
-            {
-              "title": "Enterprise Essentials",
-              "url": "https://www.postman.com/solutions/enterprise-essentials/"
+                "title": "API Client",
+                "url": "https://www.postman.com/product/api-client/"
             },
             {
-              "title": "API Test Automation",
-              "url": "https://www.postman.com/solutions/api-test-automation/"
-            },
-            {
-              "title": "Internal API Management",
-              "url": "https://www.postman.com/solutions/internal-api-management/"
+                "title": "Browse API Tools",
+                "url": "https://www.postman.com/product/tools/"
             }
           ]
         }

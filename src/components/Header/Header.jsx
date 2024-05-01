@@ -321,14 +321,12 @@ const Header = (props) => {
                           aria-labelledby="navbarDropdownMenuLink"
                         >
                           { item.columns && item.columns &&
-                          <div className="row dropdown-col-menu">
+                          <div className={item.isWidthShort ? `row row__short` : `row dropdown-col-menu`}>
                             { item.columns.map((col) => (
                               <div
-                              className={
-                                item.isWidthShort
-                                  ? 'col-sm-6 col-md-6 dropdown-col'
-                                  : 'col-sm-6 col-md-4 dropdown-col'
-                              } key={col.title}>
+                                className={item.columns.length <= 2 ? 'col-sm-12 col-md-6 dropdown-col' : 'col-sm-7 col-md-4 dropdown-col'}
+                                key={col.title}
+                              >
                                 <h6 className="dropdown-header">{col.title}</h6>
                                 {col.subItemsCol.map((link) => (
                                   <a
