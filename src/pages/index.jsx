@@ -34,17 +34,6 @@ class IndexPage extends React.Component {
       "//pixel.mathtag.com/event/js?mt_id=1538259&mt_adid=244742&mt_exem=&mt_excl=&v1=&v2=&v3=&s1=&s2=&s3="
     pix.async = true
     document.body.appendChild(pix)
-
-    const id = "Polyfill"
-    if (!document.getElementById(id)) {
-      const polyfill = document.createElement("script")
-      polyfill.id = id
-      polyfill.language = "JavaScript1.1"
-      polyfill.src =
-        "//cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=default%2CArray.prototype.find%2CArray.prototype.includes%2CPromise%2CObject.assign%2CObject.entries"
-      polyfill.async = true
-      document.body.appendChild(polyfill)
-    }
   }
 
   render() {

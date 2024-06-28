@@ -101,13 +101,6 @@
        <script type="text/javascript" src="https://cdn.cookielaw.org/consent/1cef3369-6d07-4928-b977-2d877eb670c4/OtAutoBlock.js" />
        <script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js" type="text/javascript" charset="UTF-8" data-domain-script="1cef3369-6d07-4928-b977-2d877eb670c4" />
        <link rel="canonical" href={`https://learning.postman.com${site.siteMetadata.pathPrefix}${slug}`} />
-       {/* Algolia Instantsearch IE11 support v3 */}
-       {/* <script src="https:/cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=default,Array.prototype.find,Array.prototype.includes" /> */}
-       {/*  */}
-       {/* Algolia Instantsearch IE11 support v4 */}
-       <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com" />
-       <link crossOrigin rel="preconnect" href="https://cdnjs.cloudflare.com" />
-       <script async src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=default%2CArray.prototype.find%2CArray.prototype.includes%2CPromise%2CObject.assign%2CObject.entries"></script>
      </Helmet>
    );
  }
