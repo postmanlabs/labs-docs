@@ -41,7 +41,7 @@ class IndexPage extends React.Component {
       polyfill.id = id
       polyfill.language = "JavaScript1.1"
       polyfill.src =
-        "//polyfill.io/v3/polyfill.min.js?features=default%2CArray.prototype.find%2CArray.prototype.includes%2CPromise%2CObject.assign%2CObject.entries"
+        "//cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=default%2CArray.prototype.find%2CArray.prototype.includes%2CPromise%2CObject.assign%2CObject.entries"
       polyfill.async = true
       document.body.appendChild(polyfill)
     }
