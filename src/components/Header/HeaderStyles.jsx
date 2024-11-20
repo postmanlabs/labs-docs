@@ -692,7 +692,7 @@ a.button__sign-up {
   padding: 4px 12px !important;
   user-select: none;
   color: ${(props) => props.theme.colors.grey_00};
-  background-color: ${(props) => props.theme.colors.orange_50};
+  background-color: ${(props) => props.theme.colors.orange_65};
   background-image: none;
   border: none;
   box-shadow: none;
@@ -706,7 +706,7 @@ a.button__sign-up {
 
   &:hover,
   &:active {
-    background-color: ${(props) => props.theme.colororange_60};
+    background-color: ${(props) => props.theme.colororange_55};
     text-decoration: none;
   }
 
