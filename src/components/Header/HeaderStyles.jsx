@@ -649,7 +649,7 @@ export const DropdownStyles = styled.div`
    .dropdown-col-menu {
     width: 100%;
     @media screen and (min-width: 992px) {
-      width: 64rem;
+      width: 50rem;
     }
   }
   .row__short {
