@@ -6,6 +6,7 @@ import Theme from '../../../styles/theme';
 jest.mock('aether-marketing', () => ({
   FooterLinkStyles: ({ children }) => <div className="FooterLinkStyles">{children}</div>,
   SectionStyles: ({ children }) => <div className="SectionStyles">{children}</div>,
+  Divider: () => <div className="Divider" />,
 }));
 
 // Helper function to find an element by type and props
