@@ -43,6 +43,10 @@
               "url": "https://www.postman.com/product/workspaces/"
             },
             {
+              "title": "Partner Workspaces",
+              "url": "https://www.postman.com/product/partner-workspaces/"
+            },
+            {
               "title": "Postbot",
               "url": "https://www.postman.com/product/postbot/"
             },
@@ -74,12 +78,8 @@
           "title": "Learning",
           "subItemsCol": [
             {
-              "title": "Postman Docs",
-              "url": "https://learning.postman.com/docs/introduction/overview/"
-            },
-            {
-              "title": "Academy",
-              "url": "https://academy.postman.com/"
+              "title": "Learning Hub",
+              "url": "https://www.postman.com/learn/"
             },
             {
               "title": "Blog",
@@ -136,7 +136,7 @@
       ]
     },
     {
-      "title": "Public API Network",
+      "title": "API Network",
       "url": "https://www.postman.com/explore/"
     }
   ]
