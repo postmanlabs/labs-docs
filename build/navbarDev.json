@@ -9,51 +9,54 @@
       "columns": [
         {
           "title": "Getting Started",
-          "colSize": "short",
           "subItemsCol": [
-              {
-                  "title": "What is Postman?",
-                  "link": "",
-                  "url": "https://www.postman.com/product/what-is-postman/",
-                  "width:" : "true"
-              },
-              {
-                  "title": "Customer Stories",
-                  "link": "",
-                  "url": "https://www.postman.com/customers/",
-                  "width:" : "true"
-              },
-              {
-                  "title": "Download Postman →",
-                  "className": "blue-link",
-                  "link": "app-cta",
-                  "url": "https://www.postman.com/downloads/",
-                  "width:" : "true"
-              }
+            {
+              "title": "What is Postman?",
+              "link": "",
+              "url": "https://www.postman.com/product/what-is-postman/"
+            },
+            {
+              "title": "Customer Stories",
+              "link": "",
+              "url": "https://www.postman.com/customers/"
+            },
+            {
+              "title": "Download Postman →",
+              "link": "app-cta",
+              "url": "https://www.postman.com/downloads/"
+            }
           ]
-      },
-      {
+        },
+        {
           "title": "API Platform Features",
           "subItemsCol": [
+            {
+              "title": "AI Agent Builder",
+              "url": "https://www.postman.com/product/ai-agent-builder/"
+            },
             {
               "title": "Collections",
               "url": "https://www.postman.com/collection/"
             },
             {
-                "title": "Workspaces",
-                "url": "https://www.postman.com/product/workspaces/"
+              "title": "Workspaces",
+              "url": "https://www.postman.com/product/workspaces/"
+            },
+            {
+              "title": "Partner Workspaces",
+              "url": "https://www.postman.com/product/partner-workspaces/"
             },
             {
               "title": "Postbot",
               "url": "https://www.postman.com/product/postbot/"
             },
             {
-                "title": "API Client",
-                "url": "https://www.postman.com/product/api-client/"
+              "title": "API Client",
+              "url": "https://www.postman.com/product/api-client/"
             },
             {
-                "title": "Browse API Tools",
-                "url": "https://www.postman.com/product/tools/"
+              "title": "Browse API Tools",
+              "url": "https://www.postman.com/product/tools/"
             }
           ]
         }
@@ -66,7 +69,6 @@
     {
       "title": "Enterprise",
       "url": "https://www.postman.com/postman-enterprise/"
-      
     },
     {
       "title": "Resources",
@@ -76,12 +78,8 @@
           "title": "Learning",
           "subItemsCol": [
             {
-              "title": "Postman Docs",
-              "url": "https://learning.postman.com/docs/introduction/overview/"
-            },
-            {
-              "title": "Academy",
-              "url": "https://academy.postman.com/"
+              "title": "Learning Hub",
+              "url": "https://www.postman.com/learn/"
             },
             {
               "title": "Blog",
@@ -89,7 +87,7 @@
             },
             {
               "title": "Templates",
-              "url": "/templates/"
+              "url": "https://www.postman.com/templates/"
             }
           ]
         },
@@ -98,7 +96,7 @@
           "subItemsCol": [
             {
               "title": "Support Center",
-              "url": "/support/"
+              "url": "https://www.postman.com/support/"
             },
             {
               "title": "Community",
@@ -106,7 +104,7 @@
             },
             {
               "title": "Release Notes",
-              "url": "/release-notes/"
+              "url": "https://www.postman.com/release-notes/"
             },
             {
               "title": "Postman Status",
@@ -119,15 +117,15 @@
           "subItemsCol": [
             {
               "title": "Contact",
-              "url": "/company/contact-us/"
+              "url": "https://www.postman.com/company/contact-us/"
             },
             {
               "title": "POST/CON",
-              "url": "/postcon/"
+              "url": "https://www.postman.com/postcon/"
             },
             {
               "title": "Events",
-              "url": "/events/"
+              "url": "https://www.postman.com/events/"
             },
             {
               "title": "Swag",
@@ -138,7 +136,7 @@
       ]
     },
     {
-      "title": "Public API Network",
+      "title": "API Network",
       "url": "https://www.postman.com/explore/"
     }
   ]
