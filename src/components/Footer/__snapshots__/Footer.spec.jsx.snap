@@ -1,59 +1,57 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Footer renders correctly 1`] = `
-<footer
-  className="sc-bczRLJ fiqhuZ"
->
+<footer>
+  <hr
+    className="sc-papXJ bcVGwV"
+  />
   <section
-    className="section"
+    className="sc-ftvSup ksDbcp"
     id="Footer"
   >
     <div
-      className="container"
+      className="container small"
     >
       <div
         className="row"
       >
         <div
-          className="col-sm-8 offset-sm-2 col-md-12 offset-md-0"
+          className="col-12"
         >
           <div
             className="row"
           >
             <div
-              className="sc-dkzDqf ksjPNj col-8 offset-2 col-md-3 offset-md-0 col-lg-2 order-12 order-md-0 pad-md-right align-self-center"
+              className="col-12 col-lg-2 order-lg-first order-last my-4 my-lg-0"
             >
               <img
-                alt="Postman"
-                className="footer-img mb-5"
-                src="https://voyager.postman.com/illustration/postman-footer-rocket-launch.svg"
+                alt="api-platform"
+                className="sc-hKMtZM eOcRPc"
+                loading="lazy"
+                src="https://voyager.postman.com/logo/postman-logo-orange-stacked.svg"
               />
-              <span
-                className="col-12 d-none d-md-block copyright"
-              >
-                © 2023 Postman, Inc.
-              </span>
             </div>
             <div
-              className="col-6 col-md-2 offset-md-1 col-lg-2 offset-lg-2 order-1 order-md-2 mb-5"
+              className="col-6 col-md-4 col-lg-2 mb-2 mb-md-0"
             >
               <nav
                 aria-labelledby="product"
               >
                 <h2
-                  className="footer-col-title"
+                  className="sc-jSMfEi jHYAmX"
                   id="product"
                 >
                   Product
                 </h2>
                 <ul
-                  className="sc-gsnTZi kIEZAF column"
+                  className="sc-bczRLJ daPOZv"
                 >
                   <li
-                    className="column-row"
+                    className="sc-gsnTZi dOiKSk"
                   >
                     <a
-                      className="column-link"
+                      aria-label="Read more about what Postman is"
+                      className="sc-dkzDqf mLeCe"
                       href="https://www.postman.com/product/what-is-postman/"
                       onClick={[Function]}
                       rel={null}
@@ -63,75 +61,11 @@ exports[`Footer renders correctly 1`] = `
                     </a>
                   </li>
                   <li
-                    className="column-row"
+                    className="sc-gsnTZi dOiKSk"
                   >
                     <a
-                      className="column-link"
-                      href="https://www.postman.com/product/api-repository/"
-                      onClick={[Function]}
-                      rel={null}
-                      target={null}
-                    >
-                      API repository
-                    </a>
-                  </li>
-                  <li
-                    className="column-row"
-                  >
-                    <a
-                      className="column-link"
-                      href="https://www.postman.com/product/tools/"
-                      onClick={[Function]}
-                      rel={null}
-                      target={null}
-                    >
-                      Tools
-                    </a>
-                  </li>
-                  <li
-                    className="column-row"
-                  >
-                    <a
-                      className="column-link"
-                      href="https://www.postman.com/product/governance/"
-                      onClick={[Function]}
-                      rel={null}
-                      target={null}
-                    >
-                      Governance
-                    </a>
-                  </li>
-                  <li
-                    className="column-row"
-                  >
-                    <a
-                      className="column-link"
-                      href="https://www.postman.com/product/workspaces/"
-                      onClick={[Function]}
-                      rel={null}
-                      target={null}
-                    >
-                      Workspaces
-                    </a>
-                  </li>
-                  <li
-                    className="column-row"
-                  >
-                    <a
-                      className="column-link"
-                      href="https://www.postman.com/product/integrations/"
-                      onClick={[Function]}
-                      rel={null}
-                      target={null}
-                    >
-                      Integrations
-                    </a>
-                  </li>
-                  <li
-                    className="column-row"
-                  >
-                    <a
-                      className="column-link"
+                      aria-label="Read more about Postman enterprise"
+                      className="sc-dkzDqf mLeCe"
                       href="https://www.postman.com/postman-enterprise/"
                       onClick={[Function]}
                       rel={null}
@@ -141,10 +75,123 @@ exports[`Footer renders correctly 1`] = `
                     </a>
                   </li>
                   <li
-                    className="column-row"
+                    className="sc-gsnTZi dOiKSk"
                   >
                     <a
-                      className="column-link"
+                      aria-label="Read more about Postman flows"
+                      className="sc-dkzDqf mLeCe"
+                      href="https://www.postman.com/product/flows/"
+                      onClick={[Function]}
+                      rel={null}
+                      target={null}
+                    >
+                      Flows
+                    </a>
+                  </li>
+                  <li
+                    className="sc-gsnTZi dOiKSk"
+                  >
+                    <a
+                      aria-label="Read more about Postman postbot"
+                      className="sc-dkzDqf mLeCe"
+                      href="https://www.postman.com/product/postbot/"
+                      onClick={[Function]}
+                      rel={null}
+                      target={null}
+                    >
+                      Postbot
+                    </a>
+                  </li>
+                  <li
+                    className="sc-gsnTZi dOiKSk"
+                  >
+                    <a
+                      aria-label="Read more about Postman VS Code extension"
+                      className="sc-dkzDqf mLeCe"
+                      href="https://www.postman.com/downloads/#postman-vs-code-extension"
+                      onClick={[Function]}
+                      rel={null}
+                      target={null}
+                    >
+                      VS Code extension
+                    </a>
+                  </li>
+                  <li
+                    className="sc-gsnTZi dOiKSk"
+                  >
+                    <a
+                      aria-label="Read more about Postman cli."
+                      className="sc-dkzDqf mLeCe"
+                      href="https://www.postman.com/downloads/#postman-cli/"
+                      onClick={[Function]}
+                      rel={null}
+                      target={null}
+                    >
+                      Postman CLI
+                    </a>
+                  </li>
+                  <li
+                    className="sc-gsnTZi dOiKSk"
+                  >
+                    <a
+                      aria-label="Read more about Postman integrations"
+                      className="sc-dkzDqf mLeCe"
+                      href="https://www.postman.com/product/integrations/"
+                      onClick={[Function]}
+                      rel={null}
+                      target={null}
+                    >
+                      Integrations
+                    </a>
+                  </li>
+                  <li
+                    className="sc-gsnTZi dOiKSk"
+                  >
+                    <a
+                      aria-label="Read more about Postman tools."
+                      className="sc-dkzDqf mLeCe"
+                      href="https://www.postman.com/product/tools/"
+                      onClick={[Function]}
+                      rel={null}
+                      target={null}
+                    >
+                      Tools
+                    </a>
+                  </li>
+                  <li
+                    className="sc-gsnTZi dOiKSk"
+                  >
+                    <a
+                      aria-label="Read more about Postman governance"
+                      className="sc-dkzDqf mLeCe"
+                      href="https://www.postman.com/product/governance/"
+                      onClick={[Function]}
+                      rel={null}
+                      target={null}
+                    >
+                      API Governance
+                    </a>
+                  </li>
+                  <li
+                    className="sc-gsnTZi dOiKSk"
+                  >
+                    <a
+                      aria-label="Read more about Postman workspaces"
+                      className="sc-dkzDqf mLeCe"
+                      href="https://www.postman.com/product/workspaces/"
+                      onClick={[Function]}
+                      rel={null}
+                      target={null}
+                    >
+                      Workspaces
+                    </a>
+                  </li>
+                  <li
+                    className="sc-gsnTZi dOiKSk"
+                  >
+                    <a
+                      aria-label="Read more about Postman plans and pricing"
+                      className="sc-dkzDqf mLeCe"
                       href="https://www.postman.com/pricing/"
                       onClick={[Function]}
                       rel={null}
@@ -153,171 +200,196 @@ exports[`Footer renders correctly 1`] = `
                       Plans and pricing
                     </a>
                   </li>
-                  <li
-                    className="column-row"
-                  >
-                    <a
-                      className="column-link"
-                      href="https://www.postman.com/downloads/"
-                      onClick={[Function]}
-                      rel={null}
-                      target={null}
-                    >
-                      Download the app
-                    </a>
-                  </li>
-                  <li
-                    className="column-row"
-                  >
-                    <a
-                      className="column-link"
-                      href="https://www.postman.com/support/"
-                      onClick={[Function]}
-                      rel={null}
-                      target={null}
-                    >
-                      Support Center
-                    </a>
-                  </li>
                 </ul>
               </nav>
             </div>
             <div
-              className="col-6 col-md-2 order-2 order-md-3"
+              className="col-6 col-md-4 col-lg-2"
             >
               <div>
                 <nav
-                  aria-labelledby="company"
-                  className="mb-5"
+                  aria-labelledby="api-network"
+                  style={
+                    Object {
+                      "marginBottom": "37px",
+                    }
+                  }
                 >
                   <h2
-                    className="footer-col-title"
-                    id="company"
+                    className="sc-jSMfEi jHYAmX"
+                    id="api-network"
                   >
-                    Company
+                    API Network
                   </h2>
                   <ul
-                    className="sc-gsnTZi kIEZAF column"
+                    className="sc-bczRLJ daPOZv"
                   >
                     <li
-                      className="column-row"
+                      className="sc-gsnTZi dOiKSk"
                     >
                       <a
-                        className="column-link"
-                        href="https://www.postman.com/company/about-postman/"
+                        aria-label="Read more about App Security"
+                        className="sc-dkzDqf mLeCe"
+                        href="https://www.postman.com/category/app-security/"
                         onClick={[Function]}
                         rel={null}
                         target={null}
                       >
-                        About
+                        App Security
                       </a>
                     </li>
                     <li
-                      className="column-row"
+                      className="sc-gsnTZi dOiKSk"
                     >
                       <a
-                        className="column-link"
-                        href="https://www.postman.com/company/careers/"
+                        aria-label="Read more about Artificial Intelligence"
+                        className="sc-dkzDqf mLeCe"
+                        href="https://www.postman.com/category/artificial-intelligence/"
                         onClick={[Function]}
                         rel={null}
                         target={null}
                       >
-                        Careers and culture
+                        Artificial Intelligence
                       </a>
                     </li>
                     <li
-                      className="column-row"
+                      className="sc-gsnTZi dOiKSk"
                     >
                       <a
-                        className="column-link"
-                        href="https://www.postman.com/company/press-media/"
+                        aria-label="Read more about Communication"
+                        className="sc-dkzDqf mLeCe"
+                        href="https://www.postman.com/category/communication/"
                         onClick={[Function]}
                         rel={null}
                         target={null}
                       >
-                        Press and media
+                        Communication
                       </a>
                     </li>
                     <li
-                      className="column-row"
+                      className="sc-gsnTZi dOiKSk"
                     >
                       <a
-                        className="column-link"
-                        href="https://www.postman.com/company/contact-us/"
+                        aria-label="Read more about Data Analytics"
+                        className="sc-dkzDqf mLeCe"
+                        href="https://www.postman.com/category/data-analytics/"
                         onClick={[Function]}
                         rel={null}
                         target={null}
                       >
-                        Contact us
+                        Data Analytics
                       </a>
                     </li>
                     <li
-                      className="column-row"
+                      className="sc-gsnTZi dOiKSk"
                     >
                       <a
-                        className="column-link"
-                        href="https://www.postman.com/partner-program/"
+                        aria-label="Read more about Database"
+                        className="sc-dkzDqf mLeCe"
+                        href="https://www.postman.com/category/database-apis/"
                         onClick={[Function]}
                         rel={null}
                         target={null}
                       >
-                        Partner program
-                      </a>
-                    </li>
-                  </ul>
-                </nav>
-              </div>
-              <div>
-                <nav
-                  aria-labelledby="security-and-legal"
-                  className="mb-5"
-                >
-                  <h2
-                    className="footer-col-title"
-                    id="security-and-legal"
-                  >
-                    Security and Terms
-                  </h2>
-                  <ul
-                    className="sc-gsnTZi kIEZAF column"
-                  >
-                    <li
-                      className="column-row"
-                    >
-                      <a
-                        className="column-link"
-                        href="https://www.postman.com/trust/"
-                        onClick={[Function]}
-                        rel={null}
-                        target={null}
-                      >
-                        Trust and Security
+                        Database
                       </a>
                     </li>
                     <li
-                      className="column-row"
+                      className="sc-gsnTZi dOiKSk"
                     >
                       <a
-                        className="column-link"
-                        href="https://www.postman.com/legal/privacy-policy/"
+                        aria-label="Read more about Developer Productivity"
+                        className="sc-dkzDqf mLeCe"
+                        href="https://www.postman.com/category/developer-productivity/"
                         onClick={[Function]}
                         rel={null}
                         target={null}
                       >
-                        Privacy policy
+                        Developer Productivity
                       </a>
                     </li>
                     <li
-                      className="column-row"
+                      className="sc-gsnTZi dOiKSk"
                     >
                       <a
-                        className="column-link"
-                        href="https://www.postman.com/legal/terms/"
+                        aria-label="Read more about DevOps"
+                        className="sc-dkzDqf mLeCe"
+                        href="https://www.postman.com/category/devops/"
                         onClick={[Function]}
                         rel={null}
                         target={null}
                       >
-                        Terms
+                        DevOps
+                      </a>
+                    </li>
+                    <li
+                      className="sc-gsnTZi dOiKSk"
+                    >
+                      <a
+                        aria-label="Read more about Ecommerce"
+                        className="sc-dkzDqf mLeCe"
+                        href="https://www.postman.com/category/e-commerce-apis/"
+                        onClick={[Function]}
+                        rel={null}
+                        target={null}
+                      >
+                        Ecommerce
+                      </a>
+                    </li>
+                    <li
+                      className="sc-gsnTZi dOiKSk"
+                    >
+                      <a
+                        aria-label="Read more about eSignature"
+                        className="sc-dkzDqf mLeCe"
+                        href="https://www.postman.com/category/e-signature-apis/"
+                        onClick={[Function]}
+                        rel={null}
+                        target={null}
+                      >
+                        eSignature
+                      </a>
+                    </li>
+                    <li
+                      className="sc-gsnTZi dOiKSk"
+                    >
+                      <a
+                        aria-label="Read more about Financial Services"
+                        className="sc-dkzDqf mLeCe"
+                        href="https://www.postman.com/category/financial-services/"
+                        onClick={[Function]}
+                        rel={null}
+                        target={null}
+                      >
+                        Financial Services
+                      </a>
+                    </li>
+                    <li
+                      className="sc-gsnTZi dOiKSk"
+                    >
+                      <a
+                        aria-label="Read more about Payments"
+                        className="sc-dkzDqf mLeCe"
+                        href="https://www.postman.com/category/payments/"
+                        onClick={[Function]}
+                        rel={null}
+                        target={null}
+                      >
+                        Payments
+                      </a>
+                    </li>
+                    <li
+                      className="sc-gsnTZi dOiKSk"
+                    >
+                      <a
+                        aria-label="Read more about Travel"
+                        className="sc-dkzDqf mLeCe"
+                        href="https://www.postman.com/category/travel-apis/"
+                        onClick={[Function]}
+                        rel={null}
+                        target={null}
+                      >
+                        Travel
                       </a>
                     </li>
                   </ul>
@@ -325,314 +397,471 @@ exports[`Footer renders correctly 1`] = `
               </div>
             </div>
             <div
-              className="col-6 col-md-2 order-3 order-md-4"
+              className="col-6 col-md-4 col-lg-2"
+            >
+              <div>
+                <nav
+                  aria-labelledby="resources"
+                  className="mb-5"
+                >
+                  <h2
+                    className="sc-jSMfEi jHYAmX"
+                    id="resources"
+                  >
+                    Resources
+                  </h2>
+                  <ul
+                    className="sc-bczRLJ daPOZv"
+                  >
+                    <li
+                      className="sc-gsnTZi dOiKSk"
+                    >
+                      <a
+                        aria-label="Read more about Postman documentation"
+                        className="sc-dkzDqf mLeCe"
+                        href="https://learning.postman.com/docs/introduction/overview/"
+                        onClick={[Function]}
+                        rel={null}
+                        target={null}
+                      >
+                        Postman Docs
+                      </a>
+                    </li>
+                    <li
+                      className="sc-gsnTZi dOiKSk"
+                    >
+                      <a
+                        aria-label="Read more about Postman Academy"
+                        className="sc-dkzDqf mLeCe"
+                        href="https://academy.postman.com/"
+                        onClick={[Function]}
+                        rel={null}
+                        target={null}
+                      >
+                        Academy
+                      </a>
+                    </li>
+                    <li
+                      className="sc-gsnTZi dOiKSk"
+                    >
+                      <a
+                        aria-label="Read more about Postman Community"
+                        className="sc-dkzDqf mLeCe"
+                        href="https://community.postman.com/"
+                        onClick={[Function]}
+                        rel={null}
+                        target={null}
+                      >
+                        Community
+                      </a>
+                    </li>
+                    <li
+                      className="sc-gsnTZi dOiKSk"
+                    >
+                      <a
+                        aria-label="Read more about Postman intergalactic"
+                        className="sc-dkzDqf mLeCe"
+                        href="https://www.postman.com/events/intergalactic/"
+                        onClick={[Function]}
+                        rel={null}
+                        target={null}
+                      >
+                        Intergalactic
+                      </a>
+                    </li>
+                    <li
+                      className="sc-gsnTZi dOiKSk"
+                    >
+                      <a
+                        aria-label="Read more about Postman Videos"
+                        className="sc-dkzDqf mLeCe"
+                        href="https://www.youtube.com/c/Postman/"
+                        onClick={[Function]}
+                        rel={null}
+                        target={null}
+                      >
+                        Videos
+                      </a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+            <div
+              className="col-6 col-md-4 col-lg-2"
             >
               <nav
-                aria-labelledby="api-categories"
+                aria-labelledby="legal-and-security"
               >
                 <h2
-                  className="footer-col-title"
-                  id="api-categories"
+                  className="sc-jSMfEi jHYAmX"
+                  id="legal-and-security"
                 >
-                  API Categories
+                  Legal and Security
                 </h2>
                 <ul
-                  className="sc-gsnTZi kIEZAF column"
+                  className="sc-bczRLJ daPOZv"
                 >
                   <li
-                    className="column-row"
+                    className="sc-gsnTZi dOiKSk"
                   >
                     <a
-                      className="column-link"
-                      href="https://www.postman.com/category/app-security"
+                      aria-label="Read more about Postman's terms'"
+                      className="sc-dkzDqf mLeCe"
+                      href="https://www.postman.com/legal/terms/"
                       onClick={[Function]}
                       rel={null}
                       target={null}
                     >
-                      App Security
+                      Terms of Service
                     </a>
                   </li>
                   <li
-                    className="column-row"
+                    className="sc-gsnTZi dOiKSk"
                   >
                     <a
-                      className="column-link"
-                      href="https://www.postman.com/category/payments"
+                      aria-label="Read more about Postman Trust and Safety"
+                      className="sc-dkzDqf mLeCe"
+                      href="https://www.postman.com/trust/"
                       onClick={[Function]}
                       rel={null}
                       target={null}
                     >
-                      Payments
+                      Trust and Safety
                     </a>
                   </li>
                   <li
-                    className="column-row"
+                    className="sc-gsnTZi dOiKSk"
                   >
                     <a
-                      className="column-link"
-                      href="https://www.postman.com/category/financial-services"
+                      aria-label="Read more about Postman's privacy policy'e"
+                      className="sc-dkzDqf mLeCe"
+                      href="https://www.postman.com/legal/privacy-policy/"
                       onClick={[Function]}
                       rel={null}
                       target={null}
                     >
-                      Financial Services
+                      Privacy policy
                     </a>
                   </li>
                   <li
-                    className="column-row"
+                    className="sc-gsnTZi dOiKSk"
                   >
                     <a
-                      className="column-link"
-                      href="https://www.postman.com/category/devops"
+                      aria-label="Read more about Postman's Cookie notice'"
+                      className="sc-dkzDqf mLeCe"
+                      href="https://www.postman.com/legal/cookies/"
                       onClick={[Function]}
                       rel={null}
                       target={null}
                     >
-                      DevOps
-                    </a>
-                  </li>
-                  <li
-                    className="column-row"
-                  >
-                    <a
-                      className="column-link"
-                      href="https://www.postman.com/category/developer-productivity"
-                      onClick={[Function]}
-                      rel={null}
-                      target={null}
-                    >
-                      Developer Productivity
-                    </a>
-                  </li>
-                  <li
-                    className="column-row"
-                  >
-                    <a
-                      className="column-link"
-                      href="https://www.postman.com/category/data-analytics"
-                      onClick={[Function]}
-                      rel={null}
-                      target={null}
-                    >
-                      Data Analytics
-                    </a>
-                  </li>
-                  <li
-                    className="column-row"
-                  >
-                    <a
-                      className="column-link"
-                      href="https://www.postman.com/category/communication"
-                      onClick={[Function]}
-                      rel={null}
-                      target={null}
-                    >
-                      Communication
-                    </a>
-                  </li>
-                  <li
-                    className="column-row"
-                  >
-                    <a
-                      className="column-link"
-                      href="https://www.postman.com/category/artificial-intelligence"
-                      onClick={[Function]}
-                      rel={null}
-                      target={null}
-                    >
-                      Artificial Intelligence
+                      Cookie notice
                     </a>
                   </li>
                 </ul>
               </nav>
             </div>
             <div
-              className="col-6 col-md-2 order-4 order-md-5"
+              className="col-6 col-md-4 col-lg-2"
             >
-              <div
-                className="row"
+              <nav
+                aria-labelledby="company"
               >
-                <div
-                  className="col-sm-12"
+                <h2
+                  className="sc-jSMfEi jHYAmX"
+                  id="company"
                 >
-                  <nav
-                    aria-labelledby="social"
-                    className="mb-5"
+                  Company
+                </h2>
+                <ul
+                  className="sc-bczRLJ daPOZv"
+                >
+                  <li
+                    className="sc-gsnTZi dOiKSk"
                   >
-                    <h2
-                      className="footer-col-title"
-                      id="social"
+                    <a
+                      aria-label="Read more about Postman, the company"
+                      className="sc-dkzDqf mLeCe"
+                      href="https://www.postman.com/company/about-postman/"
+                      onClick={[Function]}
+                      rel={null}
+                      target={null}
                     >
-                      Social
-                    </h2>
-                    <ul
-                      className="sc-gsnTZi kIEZAF column"
+                      About
+                    </a>
+                  </li>
+                  <li
+                    className="sc-gsnTZi dOiKSk"
+                  >
+                    <a
+                      aria-label="Read more about careers and culture at Postman"
+                      className="sc-dkzDqf mLeCe"
+                      href="https://www.postman.com/company/careers/"
+                      onClick={[Function]}
+                      rel={null}
+                      target={null}
                     >
-                      <li
-                        className="column-row"
-                      >
-                        <a
-                          className="column-link"
-                          href="https://twitter.com/getpostman"
-                          onClick={[Function]}
-                          rel={null}
-                          target={null}
-                        >
-                          <div
-                            direction="row"
-                            wrap="nowrap"
-                          >
-                            <div
-                              className="sc-hKMtZM dZiXNm d-inline-block align-self-center social-svg"
-                              dangerouslySetInnerHTML={
-                                Object {
-                                  "__html": "<svg width='16' height='14' viewBox='0 0 16 14' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M14.1439 3.76852C14.1534 3.9068 14.1534 4.04509 14.1534 4.18465C14.1534 8.43705 10.9162 13.3414 4.99671 13.3414V13.3388C3.24808 13.3414 1.53578 12.8405 0.0637207 11.8961C0.317985 11.9267 0.573525 11.9419 0.829701 11.9426C2.27882 11.9439 3.68651 11.4576 4.82656 10.5623C3.44946 10.5362 2.24186 9.63827 1.82 8.32744C2.3024 8.42048 2.79946 8.40136 3.27294 8.272C1.77156 7.96867 0.691417 6.64955 0.691417 5.11759C0.691417 5.10357 0.691417 5.09018 0.691417 5.0768C1.13877 5.32597 1.63965 5.46425 2.15201 5.47955C0.737936 4.5345 0.302054 2.65332 1.15598 1.18254C2.7899 3.19308 5.20063 4.41533 7.78853 4.54469C7.52916 3.42695 7.88348 2.25568 8.71955 1.46994C10.0157 0.251509 12.0543 0.31396 13.2727 1.6095C13.9935 1.46739 14.6843 1.20293 15.3164 0.828224C15.0762 1.57318 14.5734 2.20597 13.9017 2.60808C14.5396 2.53288 15.1628 2.3621 15.7498 2.10146C15.3177 2.74891 14.7735 3.31288 14.1439 3.76852Z' fill='#1D9BF0'/></svg>",
-                                }
-                              }
-                            />
-                            <div
-                              className="d-inline-block align-self-center"
-                            >
-                              Twitter
-                            </div>
-                          </div>
-                        </a>
-                      </li>
-                      <li
-                        className="column-row"
-                      >
-                        <a
-                          className="column-link"
-                          href="https://www.linkedin.com/company/postman-platform"
-                          onClick={[Function]}
-                          rel={null}
-                          target={null}
-                        >
-                          <div
-                            direction="row"
-                            wrap="nowrap"
-                          >
-                            <div
-                              className="sc-hKMtZM dZiXNm d-inline-block align-self-center social-svg"
-                              dangerouslySetInnerHTML={
-                                Object {
-                                  "__html": "<svg width='25' height='25' viewBox='0 0 25 25' xmlns='http://www.w3.org/2000/svg'><path d='M5.134 7.363H.537v14.044h4.597zM5.437 3.019C5.407 1.642 4.44.593 2.866.593 1.293.593.265 1.642.265 3.019c0 1.348.998 2.427 2.541 2.427h.03c1.603 0 2.601-1.079 2.601-2.427zM21.714 13.354c0-4.313-2.268-6.32-5.293-6.32-2.44 0-3.534 1.362-4.144 2.319v-1.99H7.68c.06 1.318 0 14.044 0 14.044h4.598v-7.843c0-.42.03-.839.151-1.139.333-.839 1.09-1.707 2.36-1.707 1.664 0 2.329 1.288 2.329 3.175v7.514h4.597v-8.053z' fill='#0e76a8' fillRule='evenodd'></path></svg>",
-                                }
-                              }
-                            />
-                            <div
-                              className="d-inline-block align-self-center"
-                            >
-                              LinkedIn
-                            </div>
-                          </div>
-                        </a>
-                      </li>
-                      <li
-                        className="column-row"
-                      >
-                        <a
-                          className="column-link"
-                          href="https://github.com/postmanlabs"
-                          onClick={[Function]}
-                          rel={null}
-                          target={null}
-                        >
-                          <div
-                            direction="row"
-                            wrap="nowrap"
-                          >
-                            <div
-                              className="sc-hKMtZM dZiXNm d-inline-block align-self-center social-svg"
-                              dangerouslySetInnerHTML={
-                                Object {
-                                  "__html": "<svg height='16' class='octicon octicon-mark-github' viewBox='0 0 16 16' version='1.1' width='16' aria-hidden='true'><path fill='#24292f' fillRule='evenodd' d='M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z'></path></svg>",
-                                }
-                              }
-                            />
-                            <div
-                              className="d-inline-block align-self-center"
-                            >
-                              GitHub
-                            </div>
-                          </div>
-                        </a>
-                      </li>
-                      <li
-                        className="column-row"
-                      >
-                        <a
-                          className="column-link"
-                          href="https://www.youtube.com/c/Postman"
-                          onClick={[Function]}
-                          rel={null}
-                          target={null}
-                        >
-                          <div
-                            direction="row"
-                            wrap="nowrap"
-                          >
-                            <div
-                              className="sc-hKMtZM dZiXNm d-inline-block align-self-center social-svg"
-                              dangerouslySetInnerHTML={
-                                Object {
-                                  "__html": "<svg height='16' width='16' enable-background='new 0 0 30 21.14' viewBox='0 0 30 21.14' xmlns='http://www.w3.org/2000/svg'><path d='m29.37 3.3c-.35-1.3-1.36-2.32-2.65-2.67-2.34-.63-11.72-.63-11.72-.63s-9.38 0-11.72.63c-1.29.35-2.31 1.37-2.65 2.67-.63 2.36-.63 7.27-.63 7.27s0 4.91.63 7.27c.35 1.3 1.36 2.32 2.65 2.67 2.34.63 11.72.63 11.72.63s9.38 0 11.72-.63c1.29-.35 2.31-1.37 2.65-2.67.63-2.36.63-7.27.63-7.27s0-4.91-.63-7.27zm-17.44 11.73v-8.92l7.84 4.46z' fill='#c4302b'></path></svg>",
-                                }
-                              }
-                            />
-                            <div
-                              className="d-inline-block align-self-center"
-                            >
-                              YouTube
-                            </div>
-                          </div>
-                        </a>
-                      </li>
-                      <li
-                        className="column-row"
-                      >
-                        <a
-                          className="column-link"
-                          href="https://www.twitch.tv/getpostman"
-                          onClick={[Function]}
-                          rel={null}
-                          target={null}
-                        >
-                          <div
-                            direction="row"
-                            wrap="nowrap"
-                          >
-                            <div
-                              className="sc-hKMtZM dZiXNm d-inline-block align-self-center social-svg"
-                              dangerouslySetInnerHTML={
-                                Object {
-                                  "__html": "<svg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 2400 2800' style='enable-background:new 0 0 2400 2800;' xml:space='preserve'><style type='text/css'>.st0{fill:#FFFFFF;}.st1{fill:#9146FF;}</style><title>Asset 2</title><g><polygon class='st0' points='2200,1300 1800,1700 1400,1700 1050,2050 1050,1700 600,1700 600,200 2200,200'/><g><g id='Layer_1-2'><path class='st1' d='M500,0L0,500v1800h600v500l500-500h400l900-900V0H500z M2200,1300l-400,400h-400l-350,350v-350H600V200h1600 V1300z'/><rect x='1700' y='550' class='st1' width='200' height='600'/><rect x='1150' y='550' class='st1' width='200' height='600'/></g></g></g></svg>",
-                                }
-                              }
-                            />
-                            <div
-                              className="d-inline-block align-self-center"
-                            >
-                              Twitch
-                            </div>
-                          </div>
-                        </a>
-                      </li>
-                    </ul>
-                  </nav>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-12 d-block d-md-none text-center order-last"
-            >
-              <span
-                className="col-12 copyright"
-              >
-                © 2023 Postman, Inc.
-              </span>
+                      Careers and culture
+                    </a>
+                  </li>
+                  <li
+                    className="sc-gsnTZi dOiKSk"
+                  >
+                    <a
+                      aria-label="Contact us at Postman"
+                      className="sc-dkzDqf mLeCe"
+                      href="https://www.postman.com/company/contact-us/"
+                      onClick={[Function]}
+                      rel={null}
+                      target={null}
+                    >
+                      Contact us
+                    </a>
+                  </li>
+                  <li
+                    className="sc-gsnTZi dOiKSk"
+                  >
+                    <a
+                      aria-label="Read more about Postman Ecosystem Partner Program"
+                      className="sc-dkzDqf mLeCe"
+                      href="https://www.postman.com/partner-program/"
+                      onClick={[Function]}
+                      rel={null}
+                      target={null}
+                    >
+                      Partner program
+                    </a>
+                  </li>
+                  <li
+                    className="sc-gsnTZi dOiKSk"
+                  >
+                    <a
+                      aria-label="Read more about Postman customer stories"
+                      className="sc-dkzDqf mLeCe"
+                      href="https://www.postman.com/case-studies/"
+                      onClick={[Function]}
+                      rel={null}
+                      target={null}
+                    >
+                      Customer stories
+                    </a>
+                  </li>
+                  <li
+                    className="sc-gsnTZi dOiKSk"
+                  >
+                    <a
+                      aria-label="Read more about Postman student programs"
+                      className="sc-dkzDqf mLeCe"
+                      href="https://www.postman.com/student-program/"
+                      onClick={[Function]}
+                      rel={null}
+                      target={null}
+                    >
+                      Student programs
+                    </a>
+                  </li>
+                  <li
+                    className="sc-gsnTZi dOiKSk"
+                  >
+                    <a
+                      aria-label="Read more about press and media for Postman"
+                      className="sc-dkzDqf mLeCe"
+                      href="https://www.postman.com/company/press-media/"
+                      onClick={[Function]}
+                      rel={null}
+                      target={null}
+                    >
+                      Press and media
+                    </a>
+                  </li>
+                </ul>
+              </nav>
             </div>
           </div>
+        </div>
+      </div>
+      <div
+        className="row social justify-content-center justify-content-lg-end"
+      >
+        <div
+          className="sc-iBkjds fnSLAn pr-0"
+        >
+          <nav
+            aria-labelledby="social"
+            className=""
+          >
+            <ul
+              className="sc-bczRLJ daPOZv ml-0 mb-0"
+            >
+              <span>
+                <a
+                  href="https://twitter.com/getpostman"
+                  onClick={[Function]}
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <div
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "display": "flex",
+                      }
+                    }
+                  >
+                    <div
+                      dangerouslySetInnerHTML={
+                        Object {
+                          "__html": "<svg width='16' height='14' viewBox='0 0 16 14' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M14.1439 3.76852C14.1534 3.9068 14.1534 4.04509 14.1534 4.18465C14.1534 8.43705 10.9162 13.3414 4.99671 13.3414V13.3388C3.24808 13.3414 1.53578 12.8405 0.0637207 11.8961C0.317985 11.9267 0.573525 11.9419 0.829701 11.9426C2.27882 11.9439 3.68651 11.4576 4.82656 10.5623C3.44946 10.5362 2.24186 9.63827 1.82 8.32744C2.3024 8.42048 2.79946 8.40136 3.27294 8.272C1.77156 7.96867 0.691417 6.64955 0.691417 5.11759C0.691417 5.10357 0.691417 5.09018 0.691417 5.0768C1.13877 5.32597 1.63965 5.46425 2.15201 5.47955C0.737936 4.5345 0.302054 2.65332 1.15598 1.18254C2.7899 3.19308 5.20063 4.41533 7.78853 4.54469C7.52916 3.42695 7.88348 2.25568 8.71955 1.46994C10.0157 0.251509 12.0543 0.31396 13.2727 1.6095C13.9935 1.46739 14.6843 1.20293 15.3164 0.828224C15.0762 1.57318 14.5734 2.20597 13.9017 2.60808C14.5396 2.53288 15.1628 2.3621 15.7498 2.10146C15.3177 2.74891 14.7735 3.31288 14.1439 3.76852Z' fill='#1D9BF0'/></svg>",
+                        }
+                      }
+                    />
+                  </div>
+                </a>
+              </span>
+              <span>
+                <a
+                  href="https://www.linkedin.com/company/postman-platform"
+                  onClick={[Function]}
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <div
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "display": "flex",
+                      }
+                    }
+                  >
+                    <div
+                      dangerouslySetInnerHTML={
+                        Object {
+                          "__html": "<svg width=\\"16\\" height=\\"16\\" viewBox=\\"0 0 25 25\\" xmlns=\\"http://www.w3.org/2000/svg\\"><path d=\\"M5.134 7.363H.537v14.044h4.597zM5.437 3.019C5.407 1.642 4.44.593 2.866.593 1.293.593.265 1.642.265 3.019c0 1.348.998 2.427 2.541 2.427h.03c1.603 0 2.601-1.079 2.601-2.427zM21.714 13.354c0-4.313-2.268-6.32-5.293-6.32-2.44 0-3.534 1.362-4.144 2.319v-1.99H7.68c.06 1.318 0 14.044 0 14.044h4.598v-7.843c0-.42.03-.839.151-1.139.333-.839 1.09-1.707 2.36-1.707 1.664 0 2.329 1.288 2.329 3.175v7.514h4.597v-8.053z\\" fill=\\"#0e76a8\\" fillRule=\\"evenodd\\"></path></svg>",
+                        }
+                      }
+                    />
+                  </div>
+                </a>
+              </span>
+              <span>
+                <a
+                  href="https://github.com/postmanlabs"
+                  onClick={[Function]}
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <div
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "display": "flex",
+                      }
+                    }
+                  >
+                    <div
+                      dangerouslySetInnerHTML={
+                        Object {
+                          "__html": "<svg height=\\"16\\" class=\\"octicon octicon-mark-github\\" viewBox=\\"0 0 16 16\\" version=\\"1.1\\" width=\\"16\\" aria-hidden=\\"true\\"><path fill=\\"#24292f\\" fillRule=\\"evenodd\\" d=\\"M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z\\"></path></svg>",
+                        }
+                      }
+                    />
+                  </div>
+                </a>
+              </span>
+              <span>
+                <a
+                  href="https://www.youtube.com/c/Postman"
+                  onClick={[Function]}
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <div
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "display": "flex",
+                      }
+                    }
+                  >
+                    <div
+                      dangerouslySetInnerHTML={
+                        Object {
+                          "__html": "<svg height='16' width='16' enable-background='new 0 0 30 21.14' viewBox='0 0 30 21.14' xmlns='http://www.w3.org/2000/svg'><path d='m29.37 3.3c-.35-1.3-1.36-2.32-2.65-2.67-2.34-.63-11.72-.63-11.72-.63s-9.38 0-11.72.63c-1.29.35-2.31 1.37-2.65 2.67-.63 2.36-.63 7.27-.63 7.27s0 4.91.63 7.27c.35 1.3 1.36 2.32 2.65 2.67 2.34.63 11.72.63 11.72.63s9.38 0 11.72-.63c1.29-.35 2.31-1.37 2.65-2.67.63-2.36.63-7.27.63-7.27s0-4.91-.63-7.27zm-17.44 11.73v-8.92l7.84 4.46z' fill='#c4302b'></path></svg>",
+                        }
+                      }
+                    />
+                  </div>
+                </a>
+              </span>
+              <span>
+                <a
+                  href="https://www.twitch.tv/getpostman"
+                  onClick={[Function]}
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <div
+                    style={
+                      Object {
+                        "alignItems": "center",
+                        "display": "flex",
+                      }
+                    }
+                  >
+                    <div
+                      dangerouslySetInnerHTML={
+                        Object {
+                          "__html": "<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='#9146FF' viewBox='0 0 16 16'><path d='M3.857 0 1 2.857v10.286h3.429V16l2.857-2.857H9.57L14.714 8V0zm9.714 7.429-2.285 2.285H9l-2 2v-2H4.429V1.143h9.142z'/><path d='M11.857 3.143h-1.143V6.57h1.143zm-3.143 0H7.571V6.57h1.143z'/></svg>",
+                        }
+                      }
+                    />
+                  </div>
+                </a>
+              </span>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <div
+        className="sc-gKXOVf hkiUIC row"
+      >
+        <div
+          className="col-12 col-lg-2 text-center text-lg-left mb-2 mb-lg-0 pl-0"
+        >
+          <a
+            className="download-link"
+            href="/downloads/"
+          >
+            Download Postman
+          </a>
+        </div>
+        <div
+          className="col-12 col-lg-2 mb-2 mb-lg-0 text-center text-lg-left pr-0"
+        >
+          <a
+            className="choice-link d-inline-block"
+            href="https://www.postman.com/legal/privacy-choices/"
+          >
+            Your privacy choices
+            <img
+              alt=""
+              className="mb-0"
+              height={10}
+              src="https://voyager.postman.com/icon/privacyoptions.svg"
+              width={24}
+            />
+          </a>
+        </div>
+        <div
+          className="col-12 col-lg-8 text-center text-lg-right px-0"
+        >
+          <span
+            className="sc-eCYdqJ fnKYUc"
+          >
+            © 
+            2025
+             Postman, Inc.
+          </span>
         </div>
       </div>
     </div>
