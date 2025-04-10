@@ -671,16 +671,6 @@ export const DropdownStyles = styled.div`
     font-weight: 600;
     margin-bottom: 0px;
   }
-
-  .dropdown__badge {
-    margin-left: 0.5rem; /* ml-2 */
-    border-radius: 0.25rem; /* rounded */
-    border: 1px solid #e4d8f6; /* border border-[#e4d8f6] */
-    padding: 0.5rem; /* px-1 */
-    font-size: 10px; /* text-[10px] */
-    text-transform: uppercase; /* uppercase */
-    color: #623497; /* text-[#623497] */
-  }
 `
 
 

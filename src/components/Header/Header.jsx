@@ -336,7 +336,7 @@ const Header = (props) => {
                                   >
                                     <span>{link.title}</span>
                                     {link.badge && (
-                                      <span className="dropdown__badge">{link.badge}</span>
+                                      <span className="badge">{link.badge}</span>
                                     )}
                                   </a>
                                 ))}

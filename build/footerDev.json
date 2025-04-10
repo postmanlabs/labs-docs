@@ -24,6 +24,14 @@
             "ariaLabel": "Read more about Postman enterprise"
           },
           {
+            "title": "Spec Hub",
+            "url": "https://www.postman.com/product/spec-hub/",
+            "category": "global-footer",
+            "label": "Spec Hub",
+            "ariaLabel": "Read more about Postman Spec Hub",
+            "badge": "new"
+          },
+          {
             "title": "Flows",
             "url": "https://www.postman.com/product/flows/",
             "category": "global-footer",
