@@ -47,14 +47,14 @@
           },
           {
             "title": "VS Code extension",
-            "url": "https://www.postman.com/downloads/#postman-vs-code-extension",
+            "url": "https://www.postman.com/downloads/#other-downloads",
             "category": "global-footer",
             "label": "vs-extension",
             "ariaLabel": "Read more about Postman VS Code extension"
           },
           {
             "title": "Postman CLI",
-            "url": "https://www.postman.com/downloads/#postman-cli/",
+            "url": "https://www.postman.com/downloads/#work-from-the-command-line",
             "category": "global-footer",
             "label": "postman-cli",
             "ariaLabel": "Read more about Postman cli."
