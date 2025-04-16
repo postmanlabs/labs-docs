@@ -358,5 +358,18 @@ small,
   font-size: 14px;
   line-height: 1.5714285714; /* 22px */
 }
+
+.badge {
+  margin-left: 0.8rem; /* ml-2 */
+  border-radius: 0.5rem; /* rounded */
+  border: 1px solid #6f2cba; /* border border-[#e4d8f6] */
+  padding: 3px 9px; /* px-1 */
+  font-size: 10px; /* text-[10px] */
+  text-transform: uppercase; /* uppercase */
+  color: #6f2cba; /* grey-50 */
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+}
 `
 export default GlobalStyle;

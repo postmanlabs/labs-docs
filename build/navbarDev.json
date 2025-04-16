@@ -28,19 +28,28 @@
           ]
         },
         {
-          "title": "API Platform Features",
+          "title": "Features",
           "subItemsCol": [
             {
-              "title": "AI Agent Builder",
-              "url": "https://www.postman.com/product/ai-agent-builder/"
+              "title": "Platform Overview",
+              "url": "https://www.postman.com/product/platform/"
+            },
+            {
+              "title": "Spec Hub",
+              "url": "https://www.postman.com/product/spec-hub/",
+              "badge": "new"
             },
             {
               "title": "Collections",
-              "url": "https://www.postman.com/collection/"
+              "url": "https://www.postman.com/product/collections/"
             },
             {
               "title": "Workspaces",
               "url": "https://www.postman.com/product/workspaces/"
+            },
+            {
+              "title": "API Client",
+              "url": "https://www.postman.com/product/api-client/"
             },
             {
               "title": "Partner Workspaces",
@@ -51,11 +60,11 @@
               "url": "https://www.postman.com/product/postbot/"
             },
             {
-              "title": "API Client",
-              "url": "https://www.postman.com/product/api-client/"
+              "title": "AI Agent Builder",
+              "url": "https://www.postman.com/product/ai-agent-builder/"
             },
             {
-              "title": "Browse API Tools",
+              "title": "More Resources",
               "url": "https://www.postman.com/product/tools/"
             }
           ]
