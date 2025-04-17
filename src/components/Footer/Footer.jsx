@@ -189,7 +189,10 @@ const Footer = () => {
                                   triggerGA(link.category, link.label)
                                 }}
                               >
-                                {link.title}
+                                <span>{link.title}</span>
+                                {link.badge && (
+                                  <span className="badge">{link.badge}</span>
+                                )}
                               </FooterLinkStyles>
                             </ColumnRow>
                           ))) ||
@@ -222,7 +225,10 @@ const Footer = () => {
                                     triggerGA(link.category, link.label)
                                   }}
                                 >
-                                  {link.title}
+                                  <span>{link.title}</span>
+                                  {link.badge && (
+                                    <span className="badge">{link.badge}</span>
+                                  )}
                                 </FooterLinkStyles>
                               </ColumnRow>
                             ))) ||
@@ -256,7 +262,10 @@ const Footer = () => {
                                     triggerGA(link.category, link.label)
                                   }}
                                 >
-                                  {link.title}
+                                  <span>{link.title}</span>
+                                  {link.badge && (
+                                    <span className="badge">{link.badge}</span>
+                                  )}
                                 </FooterLinkStyles>
                               </ColumnRow>
                             ))) ||
@@ -286,7 +295,10 @@ const Footer = () => {
                                   triggerGA(link.category, link.label)
                                 }}
                               >
-                                {link.title}
+                                <span>{link.title}</span>
+                                {link.badge && (
+                                  <span className="badge">{link.badge}</span>
+                                )}
                               </FooterLinkStyles>
                             </ColumnRow>
                           ))) ||
@@ -315,7 +327,10 @@ const Footer = () => {
                                   triggerGA(link.category, link.label)
                                 }}
                               >
-                                {link.title}
+                                <span>{link.title}</span>
+                                {link.badge && (
+                                  <span className="badge">{link.badge}</span>
+                                )}
                               </FooterLinkStyles>
                             </ColumnRow>
                           ))) ||

@@ -100,7 +100,7 @@ const Header = (props) => {
   const [beta, setBeta] = useState('');
   const [cookie, setCookie] = useState('');
   const [hidden, setHidden] = useState(true);
-  const [data, setData] = useState(navbarData);
+  const [data, setData] = useState(navbarDataLocal);
   const [dataDropdown, setDataDropdown] = useState(navbarData);
   const [visibleHelloBar] = useState();
 
@@ -115,7 +115,7 @@ const Header = (props) => {
     const navtopicsdropdownKeys = ['items', 'type']
 
     if (navbarKeys.every(key => Object.keys(navbarData).includes(key))) {
-      setData(navbarData)
+      setData(navbarDataLocal)
     } else {
       setData(navbarDataLocal)
     }
@@ -334,7 +334,10 @@ const Header = (props) => {
                                     href={link.url}
                                     key={link.title}
                                   >
-                                    {link.title}
+                                    <span>{link.title}</span>
+                                    {link.badge && (
+                                      <span className="badge">{link.badge}</span>
+                                    )}
                                   </a>
                                 ))}
                               </div>
