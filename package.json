@@ -85,12 +85,13 @@
     "bff": "NODE_ENV=development node bff.js",
     "build": "npm run bff && GATSBY_ACTIVE_ENV=production gatsby build --prefix-paths",
     "build:dev": "npm run build",
+    "npm": "npm install --legacy-peer-deps --loglevel=error",
     "nvmrc": "echo $(node -p -e 'require(\"./package\").engines.node.split(\">=\").join(\"\")') > .nvmrc",
     "build:prod": "NODE_ENV=production node bff.js && GATSBY_ACTIVE_ENV=production gatsby build --prefix-paths",
     "clean": "gatsby clean",
     "dev": "npm run bff && gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
-    "reset": "rm -rf package-lock.json; rm -rf node_modules; npm i; ./node_modules/.bin/gatsby clean;",
+    "reset": "rm -rf package-lock.json; rm -rf node_modules; npm run npm; ./node_modules/.bin/gatsby clean;",
     "sanitize-branch": "node sanitize-branch.js",
     "start": "npm run develop",
     "serve": "gatsby serve",
@@ -109,7 +110,7 @@
     "url": "https://github.com/postmanlabs/postman-docs/issues"
   },
   "engines": {
-    "node": "14.17.1"
+    "node": "18.20.5"
   },
   "allow": {
     "pmTech": [

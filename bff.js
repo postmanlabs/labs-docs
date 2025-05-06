@@ -5,10 +5,8 @@ const pingWebHook = require('./build/pingWebHook');
 const fetchBlogPosts = require('./build/fetchBlogPosts');
 const fetchFooter = require('./build/fetchFooter');
 const fetchNavbar = require('./build/fetchNavbar');
-const { allow } = require('./package.json');
 const fetchNavtopicsdropdown = require('./build/fetchNavtopicsdropdown');
 
-const { pmTech: allowedPmTech } = allow;
 const delay = 1000;
 const runtime = {
   pm: [''],
@@ -46,11 +44,11 @@ const prefetch = async () => {
   fetchNavbar();
   fetchNavtopicsdropdown();
 
-  let pmTech = '';
+  let runtimeScript = '';
 
   if (process.env.PM_TECH_RT) {
     sh.config.silent = true;
-    pmTech = sh.exec('cat build/pmt.js').stdout;
+    runtimeScript = sh.exec('cat build/runtime.js').stdout;
     sh.config.silent = false;
 
     sh.exec('mkdir -p public');
@@ -88,40 +86,28 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
   const script = (process.env.PM_TECH_RT
       && `
-${pmTech}
+${runtimeScript}
 setTimeout(function(){
-  var propertyName = 'labs-docs';
-  if (window.pmt) {
-    window.pmt('setScalp', [{
-      property: propertyName
-    }]);
-    window.pmt('scalp', [
-      'pm-analytics',
-      'load',
-      document.location.pathname
-    ]);
-    window.pmt('trackClicks');
-    var dnt = (parseInt(navigator.doNotTrack) === 1 || parseInt(window.doNotTrack) === 1 || parseInt(navigator.msDoNotTrack) === 1 || navigator.doNotTrack === "yes");
-    window.pmt('log', ['navigator.doNotTrack: ' + dnt]);
-    if(!dnt) {
-      ${googleTagManager}
-      window.pmt('log', ['attached googletagmanager: ' + '${GTMCode}']);
-      var d = 1000, int;
-      var int = setInterval(function(){
-        if (window.ga) {
-          var sitename = document.location.hostname;
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          window.gtag = gtag;
-          gtag('js', new Date());
-          gtag('config', '${UACode}');
-          window.pmt('ga', ['${UACode}', sitename]);
-          window.pmt('log', ['initialized GA: ' + sitename + ' (' + '${UACode}' + ')']);
-          window._iaq = window._iaq || {};
-          clearInterval(int);
-        }
-      }, d);
-    }
+  var dnt = (parseInt(navigator.doNotTrack) === 1 || parseInt(window.doNotTrack) === 1 || parseInt(navigator.msDoNotTrack) === 1 || navigator.doNotTrack === "yes");
+  window.pmt('log', ['navigator.doNotTrack: ' + dnt]);
+  if(!dnt) {
+    ${googleTagManager}
+    window.pmt('log', ['attached googletagmanager: ' + '${GTMCode}']);
+    var d = 1000, int;
+    var int = setInterval(function(){
+      if (window.ga) {
+        var sitename = document.location.hostname;
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        window.gtag = gtag;
+        gtag('js', new Date());
+        gtag('config', '${UACode}');
+        window.pmt('ga', ['${UACode}', sitename]);
+        window.pmt('log', ['initialized GA: ' + sitename + ' (' + '${UACode}' + ')']);
+        window._iaq = window._iaq || {};
+        clearInterval(int);
+      }
+    }, d);
   }
 }, 1000);
 `)
