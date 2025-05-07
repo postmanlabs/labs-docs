@@ -14,13 +14,12 @@ jobs:
     - uses: actions/checkout@v1
     - uses: actions/setup-node@master
       with:
-        node-version: '14'
+        node-version: '18.20.5'
     - name: lint all markdownfiles
       env:
         PM_TECH: ${{secrets.PM_TECH}}
       run: |
         npm config set //registry.npmjs.org/:_authToken=${{secrets.NPM_TOKEN}}
-        npm run bff
         npm run npm
         node_modules/.bin/markdownlint ./ --ignore node_modules
     - name: check for image url
@@ -35,7 +34,6 @@ jobs:
         PM_TECH: ${{secrets.PM_TECH}}
       run: |
         npm config set //registry.npmjs.org/:_authToken=${{secrets.NPM_TOKEN}}
-        npm run bff
         npm run npm
         npm run clean
         npm run test:update
