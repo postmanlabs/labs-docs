@@ -20,6 +20,7 @@ jobs:
         PM_TECH: ${{secrets.PM_TECH}}
       run: |
         npm config set //registry.npmjs.org/:_authToken=${{secrets.NPM_TOKEN}}
+        npm run bff
         npm run npm
         node_modules/.bin/markdownlint ./ --ignore node_modules
     - name: check for image url
@@ -34,6 +35,7 @@ jobs:
         PM_TECH: ${{secrets.PM_TECH}}
       run: |
         npm config set //registry.npmjs.org/:_authToken=${{secrets.NPM_TOKEN}}
+        npm run bff
         npm run npm
         npm run clean
         npm run test:update

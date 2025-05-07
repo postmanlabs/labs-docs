@@ -41,6 +41,7 @@ jobs:
           DOMAIN_NAME: ${{secrets.BETA_DOMAIN_NAME}}
         run: |
           npm config set //registry.npmjs.org/:_authToken=${{secrets.NPM_TOKEN}}
+          npm run bff
           npm run npm
           npm run clean
           npm run build:dev

@@ -37,6 +37,7 @@ jobs:
           SITE_URL: ${{secrets.PROD_SITE_URL}}
           DOMAIN_NAME: ${{secrets.PROD_DOMAIN_NAME}}
         run: |
+          npm run bff
           npm run npm
           npm run clean
           npm run build:prod
