@@ -382,7 +382,7 @@ const Footer = () => {
             </div>
           <SubFooter className="row">
             <div className="col-12 col-lg-2 text-center text-lg-left mb-2 mb-lg-0 pl-0">
-              <a href="/downloads/" className="download-link">
+              <a href="https://www.postman.com/downloads/" className="download-link">
                 Download Postman
               </a>
             </div>
